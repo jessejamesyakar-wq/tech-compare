@@ -17,390 +17,361 @@ import {
   Star,
   Tag,
   Zap,
-  Wifi,
   Wind,
   Layers,
   ArrowRight,
-  Sparkle,
   Flame,
   ShieldCheck,
   Coffee,
   UtensilsCrossed,
   Scissors,
   Shirt,
-  Fan
+  Fan,
+  X,
+  RotateCcw,
+  Sparkle
 } from 'lucide-react';
 
-interface SubCategoryItem {
+export interface MasterCategory {
   id: string;
   label: string;
-  countLabel?: string;
-  icon?: any;
-}
-
-interface SectorPillar {
-  id: string;
-  name: string;
-  shortName: string;
+  shortLabel: string;
   icon: any;
-  subCats: SubCategoryItem[];
-  bannerImage: string;
-  badge: string;
   description: string;
+  badge: string;
+  colorClass: {
+    active: string;
+    pill: string;
+    border: string;
+    text: string;
+  };
 }
 
-const SECTOR_PILLARS: SectorPillar[] = [
+export const MASTER_CATEGORIES: MasterCategory[] = [
   {
-    id: 'floorcare',
-    name: '1. Zemin & Ev Hijyeni',
-    shortName: 'Zemin & Hijyen',
+    id: 'all',
+    label: 'Tüm Ev Teknolojileri',
+    shortLabel: 'Tümü',
+    icon: Sparkles,
+    badge: '935 Model',
+    description: 'Tüm robot süpürgeler, mutfak aletleri, beyaz eşya ve iklimlendirme ürünleri',
+    colorClass: {
+      active: 'bg-emerald-600 text-white border-emerald-600 shadow-md',
+      pill: 'bg-emerald-50 text-emerald-700 border-emerald-200',
+      border: 'border-emerald-500',
+      text: 'text-emerald-700'
+    }
+  },
+  {
+    id: 'cleaning',
+    label: 'Süpürge & Temizlik',
+    shortLabel: 'Süpürge & Hijyen',
     icon: Wind,
-    badge: 'Robotik & HEPA Filtre',
+    badge: '492 Model',
     description: 'Robot süpürgeler, dikey şarjlı süpürgeler, halı yıkama ve buharlı temizlik',
-    bannerImage: 'https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=400&q=80',
-    subCats: [
-      { id: 'robot_vacuum', label: 'Robot Süpürgeler', icon: Wifi },
-      { id: 'stick_vacuum', label: 'Dikey & Şarjlı Süpürgeler', icon: Zap },
-      { id: 'canister_vacuum', label: 'Klasik Toz Torbasız Süpürge', icon: Layers },
-      { id: 'carpet_cleaner', label: 'Halı Yıkama Makineleri', icon: Sparkles },
-      { id: 'steam_cleaner', label: 'Buharlı Temizleyiciler', icon: Wind },
-      { id: 'window_robot', label: 'Cam Silme Robotları', icon: Sparkle }
-    ]
+    colorClass: {
+      active: 'bg-sky-600 text-white border-sky-600 shadow-md',
+      pill: 'bg-sky-50 text-sky-700 border-sky-200',
+      border: 'border-sky-500',
+      text: 'text-sky-700'
+    }
   },
   {
     id: 'kitchen',
-    name: '2. Mutfak & Gastronomi',
-    shortName: 'Mutfak & Gastronomi',
+    label: 'Mutfak Aletleri',
+    shortLabel: 'Mutfak & Kahve',
     icon: UtensilsCrossed,
-    badge: 'Airfryer & Barista',
-    description: 'Airfryer, espresso, mutfak robotu, tost, çay ve çok amaçlı pişiriciler',
-    bannerImage: 'https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=400&q=80',
-    subCats: [
-      { id: 'airfryer', label: 'Airfryer & Sıcak Hava Fritözleri', icon: Flame },
-      { id: 'coffee_machine', label: 'Kahve & Espresso Makineleri', icon: Coffee },
-      { id: 'tea_maker', label: 'Çay Makinesi & Su Isıtıcı', icon: Zap },
-      { id: 'toaster', label: 'Tost Makinesi & Izgara', icon: Flame },
-      { id: 'blender', label: 'Mutfak Şefi, Blender & Mikser', icon: Layers },
-      { id: 'chopper', label: 'Rondo & Mutfak Robotu', icon: UtensilsCrossed },
-      { id: 'multi_cooker', label: 'Çok Amaçlı Pişirici & Düdüklü', icon: Flame },
-      { id: 'juicer', label: 'Katı Meyve & Narenciye Sıkacağı', icon: Wind },
-      { id: 'bread_maker', label: 'Ekmek, Yoğurt & Dondurma', icon: Sparkle },
-      { id: 'meat_grinder', label: 'Kıyma & Vakum Makineleri', icon: ShieldCheck },
-      { id: 'kitchen_scale', label: 'Mutfak Terazisi & Termos', icon: Layers }
-    ]
-  },
-  {
-    id: 'climate',
-    name: '3. Isıtma, Soğutma & İklim',
-    shortName: 'İklimlendirme',
-    icon: Fan,
-    badge: 'Inverter & Hava Kalitesi',
-    description: 'Klimalar, HEPA hava temizleyiciler, vantilatörler ve akıllı termostatlar',
-    bannerImage: 'https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=400&q=80',
-    subCats: [
-      { id: 'air_conditioner', label: 'Klimalar (Duvar & Salon Tipi)', icon: Wind },
-      { id: 'air_purifier', label: 'Hava Temizleyiciler & HEPA', icon: ShieldCheck },
-      { id: 'fan', label: 'Vantilatör & Kule Sirkülatör', icon: Fan },
-      { id: 'humidifier', label: 'Nemlendirici & Nem Alma Cihazı', icon: Wind },
-      { id: 'heater', label: 'Kombi, Şofben & Isıtıcılar', icon: Flame },
-      { id: 'thermostat', label: 'Akıllı Oda Termostatları', icon: Zap }
-    ]
-  },
-  {
-    id: 'personal_care',
-    name: '4. Kişisel Bakım & Sağlık',
-    shortName: 'Kişisel Bakım',
-    icon: Scissors,
-    badge: 'SenseIQ & İyonik Bakım',
-    description: 'Tıraş, saç şekillendirme, IPL lazer, elektrikli diş fırçası ve tartılar',
-    bannerImage: 'https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=400&q=80',
-    subCats: [
-      { id: 'personal_care', label: 'Tıraş Makineleri & OneBlade', icon: Scissors },
-      { id: 'hair_styling', label: 'Saç Kurutma & Şekillendirici', icon: Wind },
-      { id: 'hair_straightener', label: 'Saç Düzleştirici & Maşa', icon: Sparkle },
-      { id: 'ipl_epilator', label: 'IPL Lazer & Epilasyon', icon: Zap },
-      { id: 'electric_toothbrush', label: 'Elektrikli Diş Fırçası & Ağız Duşu', icon: Sparkles },
-      { id: 'smart_scale', label: 'Akıllı Tartı & Vücut Analizi', icon: Layers },
-      { id: 'massage_gun', label: 'Masaj Tabancası & Sağlık', icon: ShieldCheck }
-    ]
+    badge: '125 Model',
+    description: 'Airfryer, kahve makineleri, çay makineleri, blender ve tost makineleri',
+    colorClass: {
+      active: 'bg-amber-600 text-white border-amber-600 shadow-md',
+      pill: 'bg-amber-50 text-amber-700 border-amber-200',
+      border: 'border-amber-500',
+      text: 'text-amber-700'
+    }
   },
   {
     id: 'major_appliances',
-    name: '5. Beyaz Eşya & Ankastre',
-    shortName: 'Beyaz Eşya',
+    label: 'Beyaz Eşya & Ankastre',
+    shortLabel: 'Beyaz Eşya',
     icon: Layers,
-    badge: 'A+++ Tasarruf & Ankastre',
-    description: 'Buzdolabı, çamaşır, klima, bulaşık, dondurucu, fırın ve endüstriyel ekipmanlar',
-    bannerImage: 'https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=400&q=80',
-    subCats: [
-      { id: 'refrigerator', label: 'Buzdolabı', icon: Wind },
-      { id: 'washing_machine', label: 'Çamaşır Makinesi', icon: Layers },
-      { id: 'air_conditioner', label: 'Klima', icon: Wind },
-      { id: 'dishwasher', label: 'Bulaşık Makinesi', icon: Sparkles },
-      { id: 'deep_freezer', label: 'Derin Dondurucu', icon: Wind },
-      { id: 'dryer', label: 'Kurutma Makinesi', icon: Wind },
-      { id: 'water_dispenser', label: 'Su Sebili', icon: Sparkle },
-      { id: 'oven', label: 'Fırın', icon: Flame },
-      { id: 'hob', label: 'Ocak', icon: Flame },
-      { id: 'built_in_set', label: 'Ankastre Set', icon: Layers },
-      { id: 'range_hood', label: 'Davlumbaz', icon: Fan },
-      { id: 'aspirator', label: 'Aspiratör', icon: Fan },
-      { id: 'microwave', label: 'Mikrodalga Fırın', icon: Zap },
-      { id: 'spare_parts', label: 'Beyaz Eşya Yedek Parça', icon: ShieldCheck },
-      { id: 'industrial_equipment', label: 'Endüstriyel Servis Ekipmanları', icon: UtensilsCrossed },
-      { id: 'deli_cabinet', label: 'Şarküteri Dolabı', icon: Layers },
-      { id: 'bottle_cooler', label: 'Şişe Soğutucu', icon: Wind },
-      { id: 'commercial_dishwasher', label: 'Sanayi Tipi Bulaşık Makinesi', icon: Sparkles }
-    ]
+    badge: '39 Model',
+    description: 'Buzdolabı, çamaşır, bulaşık, kurutma makineleri, fırın, ocak ve davlumbaz',
+    colorClass: {
+      active: 'bg-indigo-600 text-white border-indigo-600 shadow-md',
+      pill: 'bg-indigo-50 text-indigo-700 border-indigo-200',
+      border: 'border-indigo-500',
+      text: 'text-indigo-700'
+    }
   },
   {
-    id: 'smart_home_tools',
-    name: '6. Giysi, Yapı Market & Akıllı Ev',
-    shortName: 'Giysi & Akıllı Ev',
+    id: 'climate',
+    label: 'Isıtma & İklimlendirme',
+    shortLabel: 'Klima & Hava',
+    icon: Fan,
+    badge: '66 Model',
+    description: 'Inverter klimalar, hava temizleme cihazları, vantilatör ve nemlendiriciler',
+    colorClass: {
+      active: 'bg-teal-600 text-white border-teal-600 shadow-md',
+      pill: 'bg-teal-50 text-teal-700 border-teal-200',
+      border: 'border-teal-500',
+      text: 'text-teal-700'
+    }
+  },
+  {
+    id: 'personal_care',
+    label: 'Kişisel Bakım & Sağlık',
+    shortLabel: 'Kişisel Bakım',
+    icon: Scissors,
+    badge: '119 Model',
+    description: 'Tıraş makineleri, saç şekillendiriciler, IPL lazer epilasyon ve diş fırçaları',
+    colorClass: {
+      active: 'bg-rose-600 text-white border-rose-600 shadow-md',
+      pill: 'bg-rose-50 text-rose-700 border-rose-200',
+      border: 'border-rose-500',
+      text: 'text-rose-700'
+    }
+  },
+  {
+    id: 'home_tools',
+    label: 'Ütü & Ev Gereçleri',
+    shortLabel: 'Ütü & Gereçler',
     icon: Shirt,
-    badge: 'Buhar Gücü & Enerji',
-    description: 'Buhar kazanlı ütüler, güç istasyonları, akıllı kilit/priz ve yapı aletleri',
-    bannerImage: 'https://images.unsplash.com/photo-1582735689369-4fe89db7114c?auto=format&fit=crop&w=400&q=80',
-    subCats: [
-      { id: 'iron', label: 'Buhar Kazanlı & Buharlı Ütüler', icon: Wind },
-      { id: 'garment_steamer', label: 'Dikey Kırışık Gidericiler', icon: Shirt },
-      { id: 'sewing_machine', label: 'Dikiş Makineleri', icon: Scissors },
-      { id: 'power_station', label: 'Taşınabilir Güç İstasyonu & Jeneratör', icon: Zap },
-      { id: 'smart_plug', label: 'Akıllı Priz, Akıllı Kilit & Güvenlik', icon: ShieldCheck },
-      { id: 'drill', label: 'Matkap, Vidalama & Testere', icon: Layers },
-      { id: 'pressure_washer', label: 'Basınçlı Yıkama & Çim Biçme', icon: Wind },
-      { id: 'laser_measure', label: 'Lazer Metre & Multimetre', icon: Sparkle }
-    ]
+    badge: '94 Model',
+    description: 'Buhar kazanlı ütüler, dikey düzleştiriciler, su sebilleri ve güç istasyonları',
+    colorClass: {
+      active: 'bg-violet-600 text-white border-violet-600 shadow-md',
+      pill: 'bg-violet-50 text-violet-700 border-violet-200',
+      border: 'border-violet-500',
+      text: 'text-violet-700'
+    }
   }
 ];
 
-export interface WhiteGoodsGridItem {
-  id: string;
-  label: string;
-  subCategoryKey: string;
-  icon: any;
-  subPills?: { id: string; label: string }[];
-}
+export const SUB_CATEGORIES_BY_MASTER: Record<string, { id: string; label: string }[]> = {
+  all: [
+    { id: 'all', label: 'Tüm Ürünler' },
+    { id: 'robot_vacuum', label: 'Robot Süpürgeler' },
+    { id: 'airfryer', label: 'Airfryer & Fritöz' },
+    { id: 'coffee_machine', label: 'Kahve Makineleri' },
+    { id: 'refrigerator', label: 'Buzdolapları' },
+    { id: 'washing_machine', label: 'Çamaşır Makineleri' },
+    { id: 'dishwasher', label: 'Bulaşık Makineleri' },
+    { id: 'air_conditioner', label: 'Klimalar' },
+    { id: 'personal_care', label: 'Tıraş & Bakım' },
+    { id: 'iron', label: 'Buharlı Ütüler' }
+  ],
+  cleaning: [
+    { id: 'all', label: 'Tüm Süpürge & Temizlik' },
+    { id: 'robot_vacuum', label: 'Robot Süpürgeler' },
+    { id: 'stick_vacuum', label: 'Dikey Şarjlı Süpürgeler' },
+    { id: 'canister_vacuum', label: 'Toz Torbasız Süpürgeler' },
+    { id: 'carpet_cleaner', label: 'Halı & Koltuk Yıkama' },
+    { id: 'steam_cleaner', label: 'Buharlı Temizleyiciler' }
+  ],
+  kitchen: [
+    { id: 'all', label: 'Tüm Mutfak Aletleri' },
+    { id: 'airfryer', label: 'Airfryer & Sıcak Hava Fritözü' },
+    { id: 'coffee_machine', label: 'Kahve & Espresso Makineleri' },
+    { id: 'tea_maker', label: 'Çay Makineleri & Su Isıtıcı' },
+    { id: 'blender', label: 'Blender & Mutfak Robotu' },
+    { id: 'toaster', label: 'Tost Makineleri & Izgara' },
+    { id: 'chopper', label: 'Rondo & Doğrayıcı' }
+  ],
+  major_appliances: [
+    { id: 'all', label: 'Tüm Beyaz Eşyalar' },
+    { id: 'refrigerator', label: 'Buzdolabı' },
+    { id: 'washing_machine', label: 'Çamaşır Makinesi' },
+    { id: 'dryer', label: 'Kurutma Makinesi' },
+    { id: 'dishwasher', label: 'Bulaşık Makinesi' },
+    { id: 'deep_freezer', label: 'Derin Dondurucu' },
+    { id: 'built_in_set', label: 'Ankastre Set' },
+    { id: 'oven', label: 'Fırın' },
+    { id: 'hob', label: 'Ocak' },
+    { id: 'range_hood', label: 'Davlumbaz & Aspiratör' },
+    { id: 'microwave', label: 'Mikrodalga Fırın' },
+    { id: 'spare_parts', label: 'Yedek Parça & Aksesuar' },
+    { id: 'commercial_dishwasher', label: 'Sanayi Tipi Ekipman' }
+  ],
+  climate: [
+    { id: 'all', label: 'Tüm İklimlendirme' },
+    { id: 'air_conditioner', label: 'Klimalar (Inverter)' },
+    { id: 'air_purifier', label: 'Hava Temizleyiciler' },
+    { id: 'fan', label: 'Vantilatörler' },
+    { id: 'humidifier', label: 'Hava Nemlendiriciler' },
+    { id: 'heater', label: 'Isıtıcılar' }
+  ],
+  personal_care: [
+    { id: 'all', label: 'Tüm Kişisel Bakım' },
+    { id: 'personal_care', label: 'Erkek Bakım & Tıraş' },
+    { id: 'hair_styling', label: 'Saç Kurutma & Şekillendirici' },
+    { id: 'hair_straightener', label: 'Düzleştirici & Maşa' },
+    { id: 'electric_toothbrush', label: 'Elektrikli Diş Fırçası' },
+    { id: 'ipl_epilator', label: 'IPL Lazer Epilasyon' },
+    { id: 'cosmetics', label: 'Cilt & Vücut Bakımı' }
+  ],
+  home_tools: [
+    { id: 'all', label: 'Tüm Ev Gereçleri' },
+    { id: 'iron', label: 'Buhar Kazanlı & Dikey Ütü' },
+    { id: 'water_dispenser', label: 'Su Sebilleri' },
+    { id: 'power_station', label: 'Taşınabilir Güç İstasyonları' }
+  ]
+};
 
-export const WHITE_GOODS_GRID_ITEMS: WhiteGoodsGridItem[] = [
+export const SPOTLIGHT_CARDS = [
   {
-    id: 'refrigerator',
-    label: 'Buzdolabı',
-    subCategoryKey: 'refrigerator',
-    icon: Wind
+    id: 'robot_vacuum',
+    masterCategory: 'cleaning',
+    title: 'Robot Süpürgeler',
+    subtitle: 'Lidar Lazer Navigasyon & Otomatik Boşaltma',
+    image: 'https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=600&q=80',
+    count: '210+ Model',
+    tag: 'En Çok Tercih Edilen',
+    accent: 'from-sky-900/90 to-slate-900/90'
   },
   {
-    id: 'washing_machine',
-    label: 'Çamaşır Makinesi',
-    subCategoryKey: 'washing_machine',
-    icon: Layers
+    id: 'airfryer',
+    masterCategory: 'kitchen',
+    title: 'Airfryer & Sıcak Hava Fritözü',
+    subtitle: 'Çift Hazneli, XXL Kapasite & %90 Az Yağ',
+    image: 'https://images.unsplash.com/photo-1584269600464-37b1b58a9fe7?auto=format&fit=crop&w=600&q=80',
+    count: '45+ Model',
+    tag: 'Mutfak Trendi',
+    accent: 'from-amber-900/90 to-slate-900/90'
+  },
+  {
+    id: 'coffee_machine',
+    masterCategory: 'kitchen',
+    title: 'Tam Otomatik Kahve & Espresso',
+    subtitle: 'Entegre Öğütücülü & Süt Köpürtücülü Barista',
+    image: 'https://images.unsplash.com/photo-1517668808822-9ebb02f2a0e6?auto=format&fit=crop&w=600&q=80',
+    count: '60+ Model',
+    tag: 'Gurme Lezzet',
+    accent: 'from-orange-950/90 to-slate-900/90'
+  },
+  {
+    id: 'refrigerator',
+    masterCategory: 'major_appliances',
+    title: 'No-Frost Buzdolabı & Dondurucu',
+    subtitle: 'Geniş İç Hacim, Inverter Kompresör & A+++',
+    image: 'https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=600&q=80',
+    count: '39+ Model',
+    tag: 'Beyaz Eşya',
+    accent: 'from-indigo-950/90 to-slate-900/90'
   },
   {
     id: 'air_conditioner',
-    label: 'Klima',
-    subCategoryKey: 'air_conditioner',
-    icon: Fan
+    masterCategory: 'climate',
+    title: 'Inverter Klimalar',
+    subtitle: '9.000 - 24.000 BTU, Sessiz Mod & Enerji Tasarrufu',
+    image: 'https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&w=600&q=80',
+    count: '35+ Model',
+    tag: '4 Mevsim Konfor',
+    accent: 'from-teal-950/90 to-slate-900/90'
   },
   {
-    id: 'dishwasher',
-    label: 'Bulaşık Makinesi',
-    subCategoryKey: 'dishwasher',
-    icon: Sparkles
-  },
-  {
-    id: 'deep_freezer',
-    label: 'Derin Dondurucu',
-    subCategoryKey: 'deep_freezer',
-    icon: ShieldCheck
-  },
-  {
-    id: 'dryer',
-    label: 'Kurutma Makinesi',
-    subCategoryKey: 'dryer',
-    icon: Wind
-  },
-  {
-    id: 'water_dispenser',
-    label: 'Su Sebili',
-    subCategoryKey: 'water_dispenser',
-    icon: Sparkle
-  },
-  {
-    id: 'oven',
-    label: 'Fırın',
-    subCategoryKey: 'oven',
-    icon: Flame
-  },
-  {
-    id: 'hob',
-    label: 'Ocak',
-    subCategoryKey: 'hob',
-    icon: Flame
-  },
-  {
-    id: 'built_in_set',
-    label: 'Ankastre Set',
-    subCategoryKey: 'built_in_set',
-    icon: Layers
-  },
-  {
-    id: 'range_hood',
-    label: 'Davlumbaz',
-    subCategoryKey: 'range_hood',
-    icon: Fan
-  },
-  {
-    id: 'aspirator',
-    label: 'Aspiratör',
-    subCategoryKey: 'aspirator',
-    icon: Fan
-  },
-  {
-    id: 'microwave',
-    label: 'Mikrodalga Fırın',
-    subCategoryKey: 'microwave',
-    icon: Zap
-  },
-  {
-    id: 'spare_parts',
-    label: 'Beyaz Eşya Yedek Parça',
-    subCategoryKey: 'spare_parts',
-    icon: ShieldCheck
-  },
-  {
-    id: 'industrial_equipment',
-    label: 'Endüstriyel Servis Ekipmanları',
-    subCategoryKey: 'industrial_equipment',
-    icon: UtensilsCrossed,
-    subPills: [
-      { id: 'service_unit', label: 'Servis Ünitesi' },
-      { id: 'display_fridge', label: 'Teşhir Dolabı' },
-      { id: 'banquet_cart', label: 'Banket Arabası' }
-    ]
-  },
-  {
-    id: 'deli_cabinet',
-    label: 'Şarküteri Dolabı',
-    subCategoryKey: 'deli_cabinet',
-    icon: Layers
-  },
-  {
-    id: 'bottle_cooler',
-    label: 'Şişe Soğutucu',
-    subCategoryKey: 'bottle_cooler',
-    icon: Wind
-  },
-  {
-    id: 'commercial_dishwasher',
-    label: 'Sanayi Tipi Bulaşık Makinesi',
-    subCategoryKey: 'commercial_dishwasher',
-    icon: Sparkles
+    id: 'personal_care',
+    masterCategory: 'personal_care',
+    title: 'Kişisel Bakım & Tıraş',
+    subtitle: 'OneBlade, IPL Epilasyon & İyonik Saç Bakımı',
+    image: 'https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=600&q=80',
+    count: '119+ Model',
+    tag: 'Bakım & Sağlık',
+    accent: 'from-rose-950/90 to-slate-900/90'
   }
-];
-
-const ALL_SUB_CATEGORIES = [
-  { id: 'all', label: 'Tüm Ürünler' },
-  { id: 'refrigerator', label: 'Buzdolabı' },
-  { id: 'washing_machine', label: 'Çamaşır Makinesi' },
-  { id: 'air_conditioner', label: 'Klima' },
-  { id: 'dishwasher', label: 'Bulaşık Makinesi' },
-  { id: 'deep_freezer', label: 'Derin Dondurucu' },
-  { id: 'dryer', label: 'Kurutma Makinesi' },
-  { id: 'water_dispenser', label: 'Su Sebili' },
-  { id: 'oven', label: 'Fırın' },
-  { id: 'hob', label: 'Ocak' },
-  { id: 'built_in_set', label: 'Ankastre Set' },
-  { id: 'range_hood', label: 'Davlumbaz' },
-  { id: 'aspirator', label: 'Aspiratör' },
-  { id: 'microwave', label: 'Mikrodalga Fırın' },
-  { id: 'spare_parts', label: 'Yedek Parça' },
-  { id: 'industrial_equipment', label: 'Endüstriyel Ekipman' },
-  { id: 'deli_cabinet', label: 'Şarküteri Dolabı' },
-  { id: 'bottle_cooler', label: 'Şişe Soğutucu' },
-  { id: 'commercial_dishwasher', label: 'Sanayi Tipi Bulaşık' },
-  { id: 'robot_vacuum', label: 'Robot Süpürgeler' },
-  { id: 'stick_vacuum', label: 'Dikey Süpürgeler' },
-  { id: 'airfryer', label: 'Airfryer & Fritöz' },
-  { id: 'coffee_machine', label: 'Kahve Makineleri' },
-  { id: 'personal_care', label: 'Kişisel Bakım' },
-  { id: 'air_purifier', label: 'Hava Temizleyiciler' },
-  { id: 'blender', label: 'Mutfak Şefi & Blender' },
-  { id: 'iron', label: 'Buharlı Ütüler' },
-  { id: 'tea_maker', label: 'Çay & Su Isıtıcı' },
-  { id: 'toaster', label: 'Tost & Izgara' }
 ];
 
 const ITEMS_PER_PAGE = 24;
 
-export default function AppliancesClient({ initialProducts }: { initialProducts: ApplianceProduct[] }) {
+export default function AppliancesClient({
+  initialAppliances,
+  initialProducts
+}: {
+  initialAppliances?: ApplianceProduct[];
+  initialProducts?: ApplianceProduct[];
+}) {
   const searchParams = useSearchParams();
   const brandParam = searchParams.get('brand');
+  const subCategoryParam = searchParams.get('subCategory') || searchParams.get('subcategory') || searchParams.get('category');
 
-  const [products] = useState<ApplianceProduct[]>(initialProducts);
-  const [activeSector, setActiveSector] = useState<string | null>(null);
-  const [hoveredSector, setHoveredSector] = useState<string | null>(null);
-  const [selectedSubCat, setSelectedSubCat] = useState('all');
-  const [searchQuery, setSearchQuery] = useState('');
+  const [products] = useState<ApplianceProduct[]>(initialAppliances || initialProducts || []);
+  const [selectedMaster, setSelectedMaster] = useState<string>('all');
+  const [selectedSubCat, setSelectedSubCat] = useState<string>('all');
   const [selectedBrands, setSelectedBrands] = useState<string[]>([]);
-  const [sortBy, setSortBy] = useState('popular');
-  const [priceRange] = useState<number>(150000);
-  const [visibleCount, setVisibleCount] = useState(ITEMS_PER_PAGE);
+  const [searchQuery, setSearchQuery] = useState<string>('');
+  const [priceRange, setPriceRange] = useState<number>(150000);
+  const [sortBy, setSortBy] = useState<string>('popular');
+  const [visibleCount, setVisibleCount] = useState<number>(ITEMS_PER_PAGE);
 
-  useEffect(() => {
-    if (brandParam) {
-      const matchedBrand = products.find(
-        (p) => p.brand.toLowerCase() === brandParam.toLowerCase()
-      )?.brand || brandParam;
-      setSelectedBrands([matchedBrand]);
-    }
-  }, [brandParam, products]);
-
-  const hoverTimeoutRef = useRef<NodeJS.Timeout | null>(null);
   const catalogRef = useRef<HTMLDivElement>(null);
 
-  const handleMouseEnterSector = (sectorId: string) => {
-    if (hoverTimeoutRef.current) clearTimeout(hoverTimeoutRef.current);
-    setHoveredSector(sectorId);
-  };
-
-  const handleMouseLeaveSector = () => {
-    hoverTimeoutRef.current = setTimeout(() => {
-      setHoveredSector(null);
-    }, 200);
-  };
-
-  const handleSectorClick = (sectorId: string) => {
-    if (activeSector === sectorId) {
-      setActiveSector(null);
-      setSelectedSubCat('all');
-    } else {
-      setActiveSector(sectorId);
-      setSelectedSubCat('all');
+  // Sync URL query params on initial load
+  useEffect(() => {
+    if (brandParam) {
+      setSelectedBrands([brandParam]);
     }
+    if (subCategoryParam) {
+      const targetSub = subCategoryParam.toLowerCase();
+      let matchedMaster = 'all';
+      for (const [mId, subList] of Object.entries(SUB_CATEGORIES_BY_MASTER)) {
+        if (subList.some(s => s.id === targetSub)) {
+          matchedMaster = mId;
+          break;
+        }
+      }
+      setSelectedMaster(matchedMaster);
+      setSelectedSubCat(targetSub);
+    }
+  }, [brandParam, subCategoryParam]);
+
+  // Master Category Switcher Handler
+  const handleMasterSelect = (masterId: string) => {
+    setSelectedMaster(masterId);
+    setSelectedSubCat('all');
     setVisibleCount(ITEMS_PER_PAGE);
   };
 
+  // Subcategory Switcher Handler
   const handleSubCatSelect = (subCatId: string) => {
     setSelectedSubCat(subCatId);
-    if (subCatId === 'all') {
-      setActiveSector(null);
-    } else {
-      const matchingSector = SECTOR_PILLARS.find((s) =>
-        s.subCats.some((sc) => sc.id === subCatId)
-      );
-      if (matchingSector) {
-        setActiveSector(matchingSector.id);
-      }
-    }
-    setHoveredSector(null);
     setVisibleCount(ITEMS_PER_PAGE);
     if (catalogRef.current) {
       catalogRef.current.scrollIntoView({ behavior: 'smooth', block: 'start' });
     }
   };
 
-  const allBrands = useMemo(() => {
-    return Array.from(new Set(products.map((p) => p.brand))).filter(Boolean);
+  // Spotlight click handler
+  const handleSpotlightClick = (card: typeof SPOTLIGHT_CARDS[0]) => {
+    setSelectedMaster(card.masterCategory);
+    setSelectedSubCat(card.id);
+    setVisibleCount(ITEMS_PER_PAGE);
+    if (catalogRef.current) {
+      catalogRef.current.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+  };
+
+  // Clear all filters
+  const resetFilters = () => {
+    setSelectedMaster('all');
+    setSelectedSubCat('all');
+    setSelectedBrands([]);
+    setSearchQuery('');
+    setPriceRange(150000);
+    setSortBy('popular');
+    setVisibleCount(ITEMS_PER_PAGE);
+  };
+
+  // All distinct brands with counts
+  const brandListWithCounts = useMemo(() => {
+    const counts: Record<string, number> = {};
+    products.forEach((p) => {
+      if (p.brand) {
+        counts[p.brand] = (counts[p.brand] || 0) + 1;
+      }
+    });
+    return Object.entries(counts)
+      .map(([brand, count]) => ({ brand, count }))
+      .sort((a, b) => b.count - a.count);
   }, [products]);
 
   const toggleBrand = (brand: string) => {
@@ -410,184 +381,107 @@ export default function AppliancesClient({ initialProducts }: { initialProducts:
     );
   };
 
+  // Current Subcategories for active master
+  const currentSubCats = useMemo(() => {
+    return SUB_CATEGORIES_BY_MASTER[selectedMaster] || SUB_CATEGORIES_BY_MASTER.all;
+  }, [selectedMaster]);
+
+  // Master category counts
+  const masterCounts = useMemo(() => {
+    const counts: Record<string, number> = { all: products.length };
+    products.forEach((p) => {
+      const mId = p.specs?.masterCategory || 'other';
+      counts[mId] = (counts[mId] || 0) + 1;
+    });
+    return counts;
+  }, [products]);
+
+  // Filtered and Sorted Products
   const displayProducts = useMemo(() => {
     return products
       .filter((p) => {
-        // Subcategory filter has direct priority
-        if (selectedSubCat !== 'all') {
-          const prodSubCat = p.specs?.subCategory || '';
-          const prodLabel = (p.specs?.subCategoryLabel || '').toLowerCase();
-          const prodName = p.name.toLowerCase();
-
-          let subMatch = prodSubCat === selectedSubCat;
-          if (!subMatch) {
-            if (selectedSubCat === 'coffee_machine') {
-              subMatch = prodLabel.includes('kahve') || prodName.includes('kahve') || prodName.includes('espresso') || prodName.includes('senseo') || prodName.includes('telve');
-            } else if (selectedSubCat === 'blender') {
-              subMatch = prodLabel.includes('blender') || prodLabel.includes('mikser') || prodLabel.includes('robot') || prodName.includes('blender') || prodName.includes('mikser') || prodName.includes('mutfak robotu');
-            } else if (selectedSubCat === 'iron') {
-              subMatch = prodLabel.includes('ütü') || prodName.includes('ütü') || prodName.includes('azur') || prodName.includes('perfectcare');
-            } else if (selectedSubCat === 'personal_care') {
-              subMatch = prodLabel.includes('tıraş') || prodLabel.includes('saç') || prodLabel.includes('epilasyon') || prodLabel.includes('diş') || prodName.includes('tıraş') || prodName.includes('oneblade') || prodName.includes('hairclipper');
-            } else if (selectedSubCat === 'airfryer') {
-              subMatch = prodLabel.includes('airfryer') || prodLabel.includes('fritöz') || prodName.includes('airfryer') || prodName.includes('fritöz');
-            } else if (selectedSubCat === 'robot_vacuum') {
-              subMatch = prodLabel.includes('robot') || prodName.includes('robot');
-            } else if (selectedSubCat === 'stick_vacuum') {
-              subMatch = prodLabel.includes('dikey') || prodLabel.includes('şarjlı süpürge') || prodName.includes('dikey');
-            } else if (selectedSubCat === 'air_purifier') {
-              subMatch = prodLabel.includes('hava') || prodName.includes('hava temizleyici');
-            } else if (selectedSubCat === 'air_conditioner') {
-              subMatch = prodLabel.includes('klima') || prodName.includes('klima') || prodName.includes('inverter');
-            } else if (selectedSubCat === 'tea_maker') {
-              subMatch = prodLabel.includes('çay') || prodLabel.includes('su ısıtıcı') || prodName.includes('çay') || prodName.includes('kettle');
-            } else if (selectedSubCat === 'toaster') {
-              subMatch = prodLabel.includes('tost') || prodLabel.includes('ızgara') || prodName.includes('tost');
-            } else if (selectedSubCat === 'washing_machine') {
-              subMatch = prodLabel.includes('çamaşır') || prodName.includes('çamaşır');
-            } else if (selectedSubCat === 'dishwasher') {
-              subMatch = (prodLabel.includes('bulaşık') || prodName.includes('bulaşık')) && !prodName.includes('sanayi');
-            } else if (selectedSubCat === 'refrigerator') {
-              subMatch = (prodLabel.includes('buzdolabı') || prodName.includes('buzdolabı')) && !prodName.includes('şarküteri') && !prodName.includes('şişe');
-            } else if (selectedSubCat === 'deep_freezer') {
-              subMatch = prodLabel.includes('dondurucu') || prodName.includes('dondurucu');
-            } else if (selectedSubCat === 'dryer') {
-              subMatch = prodLabel.includes('kurutma') || prodName.includes('kurutma');
-            } else if (selectedSubCat === 'water_dispenser') {
-              subMatch = prodLabel.includes('sebil') || prodName.includes('sebil') || prodName.includes('arıtma');
-            } else if (selectedSubCat === 'oven') {
-              subMatch = (prodLabel.includes('fırın') || prodName.includes('fırın')) && !prodName.includes('mikrodalga');
-            } else if (selectedSubCat === 'hob') {
-              subMatch = prodLabel.includes('ocak') || prodName.includes('ocak');
-            } else if (selectedSubCat === 'built_in_set') {
-              subMatch = prodLabel.includes('ankastre set') || prodName.includes('ankastre set') || prodName.includes('3\'lü') || prodName.includes('trio');
-            } else if (selectedSubCat === 'range_hood') {
-              subMatch = prodLabel.includes('davlumbaz') || prodName.includes('davlumbaz');
-            } else if (selectedSubCat === 'aspirator') {
-              subMatch = prodLabel.includes('aspiratör') || prodName.includes('aspiratör');
-            } else if (selectedSubCat === 'microwave') {
-              subMatch = prodLabel.includes('mikrodalga') || prodName.includes('mikrodalga');
-            } else if (selectedSubCat === 'spare_parts') {
-              subMatch = prodLabel.includes('yedek parça') || prodLabel.includes('aksesuar') || prodName.includes('ayak') || prodName.includes('aparat') || prodName.includes('filtre');
-            } else if (selectedSubCat === 'industrial_equipment') {
-              subMatch = prodLabel.includes('endüstriyel') || prodName.includes('servis ünitesi') || prodName.includes('benmari') || prodName.includes('banket');
-            } else if (selectedSubCat === 'deli_cabinet') {
-              subMatch = prodLabel.includes('şarküteri') || prodName.includes('şarküteri') || prodName.includes('et dolabı');
-            } else if (selectedSubCat === 'bottle_cooler') {
-              subMatch = prodLabel.includes('şişe') || prodName.includes('şişe soğutucu') || prodName.includes('meşrubat');
-            } else if (selectedSubCat === 'commercial_dishwasher') {
-              subMatch = prodLabel.includes('sanayi') || prodName.includes('sanayi tipi bulaşık') || prodName.includes('tabak/saat');
+        // 1. Master Category Filter
+        if (selectedMaster !== 'all') {
+          const pMaster = p.specs?.masterCategory;
+          if (pMaster !== selectedMaster) {
+            const pName = p.name.toLowerCase();
+            const pLabel = (p.specs?.subCategoryLabel || '').toLowerCase();
+            if (selectedMaster === 'cleaning' && !pName.includes('süpürge') && !pName.includes('robot') && !pName.includes('cleaner') && !pLabel.includes('süpürge')) {
+              return false;
             }
-          }
-          if (!subMatch) return false;
-        } else if (activeSector) {
-          // Sector Pillar filter when selectedSubCat is 'all'
-          const sec = SECTOR_PILLARS.find((s) => s.id === activeSector);
-          if (sec) {
-            const allowedSubCats = [sec.id, ...sec.subCats.map((sc) => sc.id)];
-            const prodSubCat = p.specs?.subCategory || '';
-            const prodLabel = (p.specs?.subCategoryLabel || '').toLowerCase();
-            const prodName = p.name.toLowerCase();
-
-            let matched = allowedSubCats.includes(prodSubCat);
-            if (!matched) {
-              if (activeSector === 'kitchen') {
-                matched =
-                  prodSubCat === 'kitchen' ||
-                  prodSubCat === 'airfryer' ||
-                  prodSubCat === 'coffee_machine' ||
-                  prodSubCat === 'blender' ||
-                  prodSubCat === 'toaster' ||
-                  prodSubCat === 'tea_maker' ||
-                  prodLabel.includes('kahve') ||
-                  prodLabel.includes('mutfak') ||
-                  prodLabel.includes('blender') ||
-                  prodLabel.includes('mikser') ||
-                  prodLabel.includes('tost') ||
-                  prodName.includes('kahve') ||
-                  prodName.includes('blender') ||
-                  prodName.includes('mikser');
-              } else if (activeSector === 'personal_care') {
-                matched =
-                  prodSubCat === 'personal_care' ||
-                  prodSubCat === 'cosmetics' ||
-                  prodLabel.includes('tıraş') ||
-                  prodLabel.includes('epilasyon') ||
-                  prodLabel.includes('saç') ||
-                  prodLabel.includes('diş') ||
-                  prodName.includes('tıraş') ||
-                  prodName.includes('oneblade') ||
-                  prodName.includes('hairclipper') ||
-                  prodName.includes('epilatör') ||
-                  prodName.includes('diş fırçası');
-              } else if (activeSector === 'smart_home_tools') {
-                matched =
-                  prodSubCat === 'iron' ||
-                  prodSubCat === 'smart_home_tools' ||
-                  prodSubCat === 'power_station' ||
-                  prodLabel.includes('ütü') ||
-                  prodName.includes('ütü') ||
-                  prodName.includes('buhar');
-              } else if (activeSector === 'floorcare') {
-                matched =
-                  prodSubCat === 'robot_vacuum' ||
-                  prodSubCat === 'stick_vacuum' ||
-                  prodSubCat === 'floorcare' ||
-                  prodLabel.includes('süpürge') ||
-                  prodName.includes('süpürge') ||
-                  prodName.includes('robot');
-              } else if (activeSector === 'climate') {
-                matched =
-                  prodSubCat === 'air_purifier' ||
-                  prodSubCat === 'air_conditioner' ||
-                  prodSubCat === 'climate' ||
-                  prodLabel.includes('hava') ||
-                  prodLabel.includes('klima') ||
-                  prodName.includes('hava') ||
-                  prodName.includes('klima');
-              } else if (activeSector === 'major_appliances') {
-                matched =
-                  prodSubCat === 'dishwasher' ||
-                  prodSubCat === 'washing_machine' ||
-                  prodSubCat === 'dryer' ||
-                  prodSubCat === 'refrigerator' ||
-                  prodSubCat === 'deep_freezer' ||
-                  prodSubCat === 'built_in_set' ||
-                  prodSubCat === 'microwave' ||
-                  prodSubCat === 'range_hood' ||
-                  prodSubCat === 'aspirator' ||
-                  prodSubCat === 'oven' ||
-                  prodSubCat === 'hob' ||
-                  prodSubCat === 'water_dispenser' ||
-                  prodSubCat === 'major_appliances' ||
-                  prodLabel.includes('çamaşır') ||
-                  prodLabel.includes('bulaşık') ||
-                  prodLabel.includes('buzdolabı') ||
-                  prodLabel.includes('kurutma') ||
-                  prodLabel.includes('fırın') ||
-                  prodLabel.includes('ocak') ||
-                  prodName.includes('çamaşır') ||
-                  prodName.includes('bulaşık') ||
-                  prodName.includes('buzdolabı') ||
-                  prodName.includes('kurutma');
-              }
+            if (selectedMaster === 'kitchen' && !pName.includes('airfryer') && !pName.includes('kahve') && !pName.includes('blender') && !pName.includes('tost') && !pName.includes('çay') && !pLabel.includes('mutfak') && !pLabel.includes('kahve')) {
+              return false;
             }
-            if (!matched) return false;
+            if (selectedMaster === 'major_appliances' && !pName.includes('buzdolabı') && !pName.includes('çamaşır') && !pName.includes('bulaşık') && !pName.includes('kurutma') && !pName.includes('fırın') && !pName.includes('ocak') && !pLabel.includes('çamaşır') && !pLabel.includes('buzdolabı')) {
+              return false;
+            }
+            if (selectedMaster === 'climate' && !pName.includes('klima') && !pName.includes('hava') && !pLabel.includes('klima') && !pLabel.includes('hava')) {
+              return false;
+            }
+            if (selectedMaster === 'personal_care' && !pName.includes('tıraş') && !pName.includes('saç') && !pName.includes('diş') && !pName.includes('epilasyon') && !pLabel.includes('tıraş') && !pLabel.includes('saç')) {
+              return false;
+            }
+            if (selectedMaster === 'home_tools' && !pName.includes('ütü') && !pName.includes('sebil') && !pLabel.includes('ütü') && !pLabel.includes('sebil')) {
+              return false;
+            }
           }
         }
 
-        // Search query filter
+        // 2. Subcategory Filter
+        if (selectedSubCat !== 'all') {
+          const pSub = p.specs?.subCategory || '';
+          const pLabel = (p.specs?.subCategoryLabel || '').toLowerCase();
+          const pName = p.name.toLowerCase();
+
+          let matched = pSub === selectedSubCat;
+          if (!matched) {
+            if (selectedSubCat === 'robot_vacuum') matched = pName.includes('robot') || pLabel.includes('robot');
+            else if (selectedSubCat === 'stick_vacuum') matched = pName.includes('dikey') || pName.includes('şarjlı süpürge') || pLabel.includes('dikey');
+            else if (selectedSubCat === 'canister_vacuum') matched = pName.includes('toz torbasız') || pLabel.includes('toz torbasız');
+            else if (selectedSubCat === 'carpet_cleaner') matched = pName.includes('halı') || pName.includes('koltuk');
+            else if (selectedSubCat === 'steam_cleaner') matched = pName.includes('buharlı') || pLabel.includes('buhar');
+            else if (selectedSubCat === 'airfryer') matched = pName.includes('airfryer') || pName.includes('fritöz') || pLabel.includes('airfryer');
+            else if (selectedSubCat === 'coffee_machine') matched = pName.includes('kahve') || pName.includes('espresso') || pName.includes('telve') || pLabel.includes('kahve');
+            else if (selectedSubCat === 'tea_maker') matched = pName.includes('çay') || pName.includes('kettle') || pName.includes('su ısıtıcı');
+            else if (selectedSubCat === 'blender') matched = pName.includes('blender') || pName.includes('mikser') || pName.includes('mutfak robotu');
+            else if (selectedSubCat === 'toaster') matched = pName.includes('tost') || pName.includes('ızgara');
+            else if (selectedSubCat === 'refrigerator') matched = (pName.includes('buzdolabı') || pLabel.includes('buzdolabı')) && !pName.includes('şarküteri');
+            else if (selectedSubCat === 'washing_machine') matched = pName.includes('çamaşır') || pLabel.includes('çamaşır');
+            else if (selectedSubCat === 'dryer') matched = pName.includes('kurutma') || pLabel.includes('kurutma');
+            else if (selectedSubCat === 'dishwasher') matched = (pName.includes('bulaşık') || pLabel.includes('bulaşık')) && !pName.includes('sanayi');
+            else if (selectedSubCat === 'deep_freezer') matched = pName.includes('dondurucu') || pLabel.includes('dondurucu');
+            else if (selectedSubCat === 'built_in_set') matched = pName.includes('ankastre set') || pLabel.includes('ankastre set') || pName.includes('3\'lü');
+            else if (selectedSubCat === 'oven') matched = (pName.includes('fırın') || pLabel.includes('fırın')) && !pName.includes('mikrodalga');
+            else if (selectedSubCat === 'hob') matched = pName.includes('ocak') || pLabel.includes('ocak');
+            else if (selectedSubCat === 'range_hood') matched = pName.includes('davlumbaz') || pName.includes('aspiratör');
+            else if (selectedSubCat === 'microwave') matched = pName.includes('mikrodalga');
+            else if (selectedSubCat === 'air_conditioner') matched = pName.includes('klima') || pLabel.includes('klima');
+            else if (selectedSubCat === 'air_purifier') matched = pName.includes('hava') || pLabel.includes('hava');
+            else if (selectedSubCat === 'personal_care') matched = pName.includes('tıraş') || pName.includes('oneblade') || pLabel.includes('tıraş');
+            else if (selectedSubCat === 'iron') matched = pName.includes('ütü') || pLabel.includes('ütü');
+          }
+          if (!matched) return false;
+        }
+
+        // 3. Search Query Filter
         if (searchQuery) {
           const q = searchQuery.toLowerCase();
           const matchesName = p.name.toLowerCase().includes(q);
           const matchesBrand = p.brand.toLowerCase().includes(q);
-          const matchesSubCat = p.specs?.subCategoryLabel?.toLowerCase().includes(q);
-          if (!matchesName && !matchesBrand && !matchesSubCat) return false;
+          const matchesSub = (p.specs?.subCategoryLabel || '').toLowerCase().includes(q);
+          if (!matchesName && !matchesBrand && !matchesSub) return false;
         }
-        // Brand filter
-        if (selectedBrands.length > 0 && !selectedBrands.some(b => b.toLowerCase() === p.brand.toLowerCase())) return false;
-        // Price filter
+
+        // 4. Brand Filter
+        if (selectedBrands.length > 0) {
+          if (!selectedBrands.some(b => b.toLowerCase() === p.brand.toLowerCase())) {
+            return false;
+          }
+        }
+
+        // 5. Price Filter
         if (p.basePrice > priceRange) return false;
+
         return true;
       })
       .sort((a, b) => {
@@ -596,656 +490,372 @@ export default function AppliancesClient({ initialProducts }: { initialProducts:
         if (sortBy === 'rating') return b.rating - a.rating;
         return (b.isPopular ? 1 : 0) - (a.isPopular ? 1 : 0);
       });
-  }, [products, activeSector, selectedSubCat, searchQuery, selectedBrands, priceRange, sortBy]);
+  }, [products, selectedMaster, selectedSubCat, searchQuery, selectedBrands, priceRange, sortBy]);
 
-  const paginatedProducts = useMemo(() => {
+  const visibleProducts = useMemo(() => {
     return displayProducts.slice(0, visibleCount);
   }, [displayProducts, visibleCount]);
 
-  const handleLoadMore = () => {
-    setVisibleCount((prev) => prev + ITEMS_PER_PAGE);
-  };
-
-  // Find sample representative products for the 4 Hub Cards
-  const hubCardRobot = useMemo(() => {
-    return products.find((p) => p.specs?.subCategory === 'robot_vacuum') || products[0];
-  }, [products]);
-
-  const hubCardAirfryer = useMemo(() => {
-    return products.find((p) => p.specs?.subCategory === 'airfryer') || products[1];
-  }, [products]);
-
-  const hubCardCoffee = useMemo(() => {
-    return products.find((p) => p.specs?.subCategory === 'coffee_machine') || products[2];
-  }, [products]);
-
-  const hubCardPersonal = useMemo(() => {
-    return products.find((p) => p.specs?.subCategory === 'personal_care') || products[3];
-  }, [products]);
+  const hasActiveFilters = selectedMaster !== 'all' || selectedSubCat !== 'all' || selectedBrands.length > 0 || searchQuery !== '' || priceRange < 150000;
 
   return (
     <div className="space-y-8 pb-16">
+      {/* 1. Global Navigation Bar */}
       <CategoryBar />
 
-      {/* 🌟 1. HERO TITLE HEADER */}
-      <div className="text-center space-y-2 pt-2">
-        <h1 className="text-3xl sm:text-4xl lg:text-5xl font-black text-slate-900 tracking-tight font-sans">
-          Ev ve Yaşam Teknolojileri
-        </h1>
-        <p className="text-xs sm:text-sm text-slate-500 font-medium max-w-xl mx-auto">
-          En akıllı ve yenilikçi ev aletlerini karşılaştırın, 8 mağaza canlı fiyatlarını takip edin ve keşfedin.
-        </p>
-      </div>
+      {/* 2. Hero Section */}
+      <div className="relative bg-gradient-to-br from-slate-900 via-slate-800 to-emerald-950 text-white rounded-3xl p-6 sm:p-10 shadow-xl overflow-hidden border border-slate-700/50">
+        <div className="absolute -right-16 -bottom-16 w-80 h-80 bg-emerald-500/10 rounded-full blur-3xl pointer-events-none" />
+        <div className="absolute right-1/4 -top-20 w-64 h-64 bg-sky-500/10 rounded-full blur-3xl pointer-events-none" />
 
-      {/* 🌟 2. LUXURY 5-PILLAR MEGA SECTOR HUB (WITH HOVER MEGA FLYOUT) */}
-      <div className="relative z-30">
-        <div className="bg-white/90 backdrop-blur-md border border-slate-200/90 rounded-3xl p-3 sm:p-4 shadow-sm">
-          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-2 sm:gap-3">
-            {SECTOR_PILLARS.map((sector) => {
-              const Icon = sector.icon;
-              const isActive = activeSector === sector.id;
-              const isHovered = hoveredSector === sector.id;
-
-              return (
-                <div
-                  key={sector.id}
-                  className="relative"
-                  onMouseEnter={() => handleMouseEnterSector(sector.id)}
-                  onMouseLeave={handleMouseLeaveSector}
-                >
-                  <button
-                    onClick={() => handleSectorClick(sector.id)}
-                    className={`w-full text-left px-3.5 py-3 rounded-2xl transition-all duration-300 flex items-center justify-between gap-2 border cursor-pointer ${
-                      isActive
-                        ? 'bg-emerald-700 text-white border-emerald-800 shadow-md shadow-emerald-700/20 scale-102 font-black'
-                        : 'bg-slate-50 hover:bg-emerald-50/70 border-slate-200/80 text-slate-700 hover:text-emerald-800 hover:border-emerald-300 font-bold'
-                    }`}
-                  >
-                    <div className="flex items-center gap-2.5 min-w-0">
-                      <div
-                        className={`w-8 h-8 rounded-xl flex items-center justify-center shrink-0 transition-colors ${
-                          isActive
-                            ? 'bg-white/20 text-white'
-                            : 'bg-white text-emerald-700 shadow-2xs border border-slate-100'
-                        }`}
-                      >
-                        <Icon className="w-4 h-4 stroke-[2.2]" />
-                      </div>
-                      <div className="truncate">
-                        <span className="text-xs tracking-tight block truncate">
-                          {sector.shortName}
-                        </span>
-                        <span
-                          className={`text-[10px] font-medium block truncate ${
-                            isActive ? 'text-emerald-100' : 'text-slate-400'
-                          }`}
-                        >
-                          {sector.subCats.length} Alt Kategori
-                        </span>
-                      </div>
-                    </div>
-                    <ChevronDown
-                      className={`w-3.5 h-3.5 shrink-0 transition-transform duration-300 ${
-                        isHovered ? 'rotate-180 text-emerald-600' : 'text-slate-400'
-                      }`}
-                    />
-                  </button>
-
-                  {/* 🚀 MEGA HOVER FLYOUT MENU */}
-                  {isHovered && (
-                    <div
-                      onMouseEnter={() => handleMouseEnterSector(sector.id)}
-                      onMouseLeave={handleMouseLeaveSector}
-                      className="absolute top-full left-0 mt-2 w-72 sm:w-80 bg-white/98 backdrop-blur-xl border border-slate-200/90 rounded-2xl p-3 shadow-2xl z-50 animate-in fade-in zoom-in-95 duration-200 space-y-1.5"
-                    >
-                      <div className="px-2.5 py-1.5 border-b border-slate-100 flex items-center justify-between">
-                        <span className="text-[10px] font-black uppercase tracking-wider text-emerald-800">
-                          {sector.name}
-                        </span>
-                        <span className="text-[10px] bg-emerald-50 text-emerald-700 font-extrabold px-2 py-0.5 rounded-md">
-                          {sector.badge}
-                        </span>
-                      </div>
-
-                      <div className="space-y-1 pt-1">
-                        {sector.subCats.map((sc) => {
-                          const SubIcon = sc.icon || Zap;
-                          const isSubSelected = selectedSubCat === sc.id;
-                          return (
-                            <button
-                              key={sc.id}
-                              onClick={() => {
-                                setActiveSector(sector.id);
-                                handleSubCatSelect(sc.id);
-                              }}
-                              className={`w-full text-left px-3 py-2 rounded-xl text-xs font-bold transition-all flex items-center justify-between cursor-pointer ${
-                                isSubSelected
-                                  ? 'bg-emerald-600 text-white'
-                                  : 'hover:bg-emerald-50 text-slate-700 hover:text-emerald-800'
-                              }`}
-                            >
-                              <div className="flex items-center gap-2">
-                                <SubIcon className="w-3.5 h-3.5 text-emerald-600" />
-                                <span>{sc.label}</span>
-                              </div>
-                              <ChevronRight className="w-3.5 h-3.5 opacity-60" />
-                            </button>
-                          );
-                        })}
-                      </div>
-
-                      <div className="pt-2 border-t border-slate-100 px-1">
-                        <button
-                          onClick={() => handleSectorClick(sector.id)}
-                          className="w-full text-center py-1.5 text-[11px] font-black text-emerald-700 hover:text-emerald-800 hover:underline cursor-pointer flex items-center justify-center gap-1"
-                        >
-                          <span>Tüm {sector.shortName} Ürünlerini Filtrele</span>
-                          <ArrowRight className="w-3 h-3" />
-                        </button>
-                      </div>
-                    </div>
-                  )}
-                </div>
-              );
-            })}
-          </div>
-
-          {activeSector && (
-            <div className="mt-3 pt-2.5 border-t border-slate-100 flex items-center justify-between text-xs px-1">
-              <span className="text-slate-500 font-semibold">
-                Aktif Alan Filtresi: <strong className="text-emerald-700 font-black">{SECTOR_PILLARS.find(s => s.id === activeSector)?.name}</strong>
-              </span>
-              <button
-                onClick={() => {
-                  setActiveSector(null);
-                  setSelectedSubCat('all');
-                  setVisibleCount(ITEMS_PER_PAGE);
-                }}
-                className="text-red-600 hover:text-red-700 font-black text-xs cursor-pointer hover:underline"
-              >
-                Sektör Filtresini Sıfırla ✕
-              </button>
-            </div>
-          )}
-        </div>
-      </div>
-
-      {/* 🌟 2.5 BEYAZ EŞYA KATEGORİ SEÇİMİ (SCREENSHOT MATCHING 3-COLUMN GRID) */}
-      <div className="space-y-4 pt-1">
-        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
-          <div className="flex items-center gap-2.5">
-            <div className="w-8 h-8 rounded-xl bg-emerald-600 text-white flex items-center justify-center shadow-xs shrink-0">
-              <Layers className="w-4 h-4" />
-            </div>
-            <div>
-              <h2 className="text-lg sm:text-xl font-black text-slate-900 tracking-tight">
-                Beyaz Eşya & Ankastre Kategorileri
-              </h2>
-              <p className="text-xs text-slate-500 font-medium">
-                Doğrudan kategoriye tıklayarak ilgili ürünleri, 8 mağaza canlı fiyatlarını ve teknik detayları inceleyin
-              </p>
-            </div>
-          </div>
-          {selectedSubCat !== 'all' && (
-            <button
-              onClick={() => {
-                setSelectedSubCat('all');
-                setActiveSector(null);
-                setVisibleCount(ITEMS_PER_PAGE);
-              }}
-              className="text-xs text-emerald-700 hover:text-emerald-800 font-bold bg-emerald-50 hover:bg-emerald-100 border border-emerald-200 px-3 py-1.5 rounded-xl transition-all cursor-pointer self-start sm:self-auto"
-            >
-              Filtreyi Temizle (Tümünü Göster)
-            </button>
-          )}
-        </div>
-
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3.5">
-          {WHITE_GOODS_GRID_ITEMS.map((item) => {
-            const isSelected = selectedSubCat === item.subCategoryKey;
-            const ItemIcon = item.icon || Layers;
-            return (
-              <div
-                key={item.id}
-                onClick={() => {
-                  handleSubCatSelect(item.subCategoryKey);
-                }}
-                className={`bg-white border rounded-2xl p-4 shadow-2xs hover:shadow-md transition-all duration-200 cursor-pointer flex flex-col justify-between group ${
-                  isSelected
-                    ? 'border-emerald-600 ring-2 ring-emerald-500/20 bg-emerald-50/20'
-                    : 'border-slate-200 hover:border-emerald-400 hover:bg-slate-50/50'
-                }`}
-              >
-                <div className="flex items-center justify-between gap-3">
-                  <div className="flex items-center gap-3.5 min-w-0">
-                    <div className={`w-11 h-11 rounded-xl flex items-center justify-center shrink-0 group-hover:scale-105 transition-all shadow-2xs ${
-                      isSelected
-                        ? 'bg-emerald-600 text-white'
-                        : 'bg-emerald-50 text-emerald-700 border border-emerald-100 group-hover:bg-emerald-600 group-hover:text-white'
-                    }`}>
-                      <ItemIcon className="w-5 h-5" />
-                    </div>
-                    <span className={`text-sm font-bold truncate transition-colors ${
-                      isSelected ? 'text-emerald-700 font-black' : 'text-slate-800 group-hover:text-emerald-700'
-                    }`}>
-                      {item.label}
-                    </span>
-                  </div>
-
-                  <ChevronRight className={`w-4 h-4 shrink-0 transition-transform duration-200 group-hover:translate-x-1 ${
-                    isSelected ? 'text-emerald-600' : 'text-slate-400 group-hover:text-slate-700'
-                  }`} />
-                </div>
-
-                {item.subPills && item.subPills.length > 0 && (
-                  <div className="flex flex-wrap items-center gap-1.5 mt-3 pt-3 border-t border-slate-100/80">
-                    {item.subPills.map((sp) => (
-                      <span
-                        key={sp.id}
-                        onClick={(e) => {
-                          e.stopPropagation();
-                          handleSubCatSelect(item.subCategoryKey);
-                        }}
-                        className="text-[11px] font-semibold text-slate-600 bg-slate-50 hover:bg-emerald-50 hover:text-emerald-700 border border-slate-200 px-2.5 py-1 rounded-full transition-colors"
-                      >
-                        {sp.label}
-                      </span>
-                    ))}
-                  </div>
-                )}
-              </div>
-            );
-          })}
-        </div>
-      </div>
-
-      {/* 🌟 3. FOUR PROMINENT SHOWCASE HUB CARDS */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
-        
-        {/* Card 1: ROBOT SÜPÜRGELER */}
-        <div className="bg-white border border-slate-200/90 hover:border-emerald-500/80 rounded-3xl p-5 shadow-2xs hover:shadow-xl transition-all duration-300 flex flex-col justify-between group">
-          <div>
-            {/* Badges */}
-            <div className="flex items-center justify-between mb-3">
-              <div className="flex items-center gap-1 bg-amber-50 text-amber-900 border border-amber-200 text-xs font-black px-2.5 py-0.5 rounded-full">
-                <Star className="w-3 h-3 fill-amber-500 text-amber-500" />
-                <span>4.9</span>
-              </div>
-              <span className="bg-slate-900 text-white text-[10px] font-black px-2.5 py-0.5 rounded-full uppercase tracking-wider">
-                Yeni Nesil
-              </span>
-            </div>
-
-            {/* Product Image Stage */}
-            <div className="w-full h-44 bg-slate-50 rounded-2xl p-4 flex items-center justify-center overflow-hidden border border-slate-100 group-hover:bg-emerald-50/40 transition-colors">
-              <img
-                src={hubCardRobot.image || '/images/appliances/roborock-404410.jpg'}
-                alt="Robot Süpürgeler"
-                loading="lazy"
-                className="max-h-full max-w-full object-contain group-hover:scale-105 transition-transform duration-300"
-              />
-            </div>
-
-            {/* Feature Icons */}
-            <div className="flex items-center gap-2 text-slate-400 mt-3 mb-1">
-              <div className="w-6 h-6 rounded-full bg-slate-100 flex items-center justify-center text-slate-700" title="Akıllı Lidar Haritalama">
-                <Wifi className="w-3 h-3" />
-              </div>
-              <div className="w-6 h-6 rounded-full bg-slate-100 flex items-center justify-center text-slate-700" title="Yüksek Emiş Gücü">
-                <Wind className="w-3 h-3" />
-              </div>
-              <div className="w-6 h-6 rounded-full bg-slate-100 flex items-center justify-center text-slate-700" title="Otomatik Paspas & Kurutma">
-                <Layers className="w-3 h-3" />
-              </div>
-            </div>
-
-            {/* Title & Info */}
-            <h3 className="text-base font-black text-slate-900 tracking-tight mt-1">
-              ROBOT SÜPÜRGE & PASPAS
-            </h3>
-            <p className="text-xs text-slate-500 font-semibold line-clamp-1 mb-4">
-              Lidar navigasyon & sıcak su paspas yıkama istasyonları
-            </p>
-          </div>
-
-          {/* Action Button */}
-          <button
-            onClick={() => {
-              setActiveSector('floorcare');
-              handleSubCatSelect('robot_vacuum');
-            }}
-            className="w-full bg-emerald-700 hover:bg-emerald-600 active:scale-95 text-white font-extrabold text-xs py-3 rounded-2xl shadow-sm transition-all flex items-center justify-center gap-2 cursor-pointer"
-          >
-            <span>Robot Süpürgeleri İncele</span>
-            <ArrowRight className="w-3.5 h-3.5" />
-          </button>
-        </div>
-
-        {/* Card 2: AIRFRYER & FRİTÖZ */}
-        <div className="bg-white border border-slate-200/90 hover:border-emerald-500/80 rounded-3xl p-5 shadow-2xs hover:shadow-xl transition-all duration-300 flex flex-col justify-between group">
-          <div>
-            {/* Badges */}
-            <div className="flex items-center justify-between mb-3">
-              <div className="flex items-center gap-1 bg-amber-50 text-amber-900 border border-amber-200 text-xs font-black px-2.5 py-0.5 rounded-full">
-                <Star className="w-3 h-3 fill-amber-500 text-amber-500" />
-                <span>4.8</span>
-              </div>
-              <span className="bg-rose-600 text-white text-[10px] font-black px-2.5 py-0.5 rounded-full uppercase tracking-wider flex items-center gap-1">
-                <Tag className="w-2.5 h-2.5" />
-                <span>Fiyat Düşüşü %20</span>
-              </span>
-            </div>
-
-            {/* Product Image Stage */}
-            <div className="w-full h-44 bg-slate-50 rounded-2xl p-4 flex items-center justify-center overflow-hidden border border-slate-100 group-hover:bg-emerald-50/40 transition-colors">
-              <img
-                src={hubCardAirfryer.image || '/images/appliances/philips-682542.jpg'}
-                alt="Airfryer XXL Sıcak Hava"
-                loading="lazy"
-                className="max-h-full max-w-full object-contain group-hover:scale-105 transition-transform duration-300"
-              />
-            </div>
-
-            {/* Feature Icons */}
-            <div className="flex items-center gap-2 text-slate-400 mt-3 mb-1">
-              <div className="w-6 h-6 rounded-full bg-slate-100 flex items-center justify-center text-slate-700" title="Rapid Air Teknolojisi">
-                <Zap className="w-3 h-3" />
-              </div>
-              <div className="w-6 h-6 rounded-full bg-slate-100 flex items-center justify-center text-slate-700" title="XXL Geniş Aile Boyu">
-                <Layers className="w-3 h-3" />
-              </div>
-              <div className="w-6 h-6 rounded-full bg-slate-100 flex items-center justify-center text-slate-700" title="Wi-Fi Uygulama Bağlantısı">
-                <Wifi className="w-3 h-3" />
-              </div>
-            </div>
-
-            {/* Title & Info */}
-            <h3 className="text-base font-black text-slate-900 tracking-tight mt-1">
-              AIRFRYER XXL SICAK HAVA
-            </h3>
-            <p className="text-xs text-slate-500 font-semibold line-clamp-1 mb-4">
-              Çift hazneli, cam pencereli ve XXL sıcak hava fritözleri
-            </p>
-          </div>
-
-          {/* Action Button */}
-          <button
-            onClick={() => {
-              setActiveSector('kitchen');
-              handleSubCatSelect('airfryer');
-            }}
-            className="w-full bg-emerald-700 hover:bg-emerald-600 active:scale-95 text-white font-extrabold text-xs py-3 rounded-2xl shadow-sm transition-all flex items-center justify-center gap-2 cursor-pointer"
-          >
-            <span>Airfryer Modellerini Gör</span>
-            <ArrowRight className="w-3.5 h-3.5" />
-          </button>
-        </div>
-
-        {/* Card 3: KAHVE MAKİNELERİ */}
-        <div className="bg-white border border-slate-200/90 hover:border-emerald-500/80 rounded-3xl p-5 shadow-2xs hover:shadow-xl transition-all duration-300 flex flex-col justify-between group">
-          <div>
-            {/* Badges */}
-            <div className="flex items-center justify-between mb-3">
-              <div className="flex items-center gap-1 bg-amber-50 text-amber-900 border border-amber-200 text-xs font-black px-2.5 py-0.5 rounded-full">
-                <Star className="w-3 h-3 fill-amber-500 text-amber-500" />
-                <span>4.7</span>
-              </div>
-              <span className="bg-emerald-100 text-emerald-800 border border-emerald-300 text-[10px] font-black px-2.5 py-0.5 rounded-full uppercase tracking-wider">
-                Kupon Fırsatı
-              </span>
-            </div>
-
-            {/* Product Image Stage */}
-            <div className="w-full h-44 bg-slate-50 rounded-2xl p-4 flex items-center justify-center overflow-hidden border border-slate-100 group-hover:bg-emerald-50/40 transition-colors">
-              <img
-                src={hubCardCoffee.image || '/images/appliances/philips-646738.jpg'}
-                alt="Tam Otomatik Kahve Makineleri"
-                loading="lazy"
-                className="max-h-full max-w-full object-contain group-hover:scale-105 transition-transform duration-300"
-              />
-            </div>
-
-            {/* Feature Icons */}
-            <div className="flex items-center gap-2 text-slate-400 mt-3 mb-1">
-              <div className="w-6 h-6 rounded-full bg-slate-100 flex items-center justify-center text-slate-700" title="Tam Otomatik Çekirdek Öğütme">
-                <Zap className="w-3 h-3" />
-              </div>
-              <div className="w-6 h-6 rounded-full bg-slate-100 flex items-center justify-center text-slate-700" title="LatteGo Süt Köpürtücü">
-                <Sparkle className="w-3 h-3" />
-              </div>
-              <div className="w-6 h-6 rounded-full bg-slate-100 flex items-center justify-center text-slate-700" title="Renkli Dokunmatik Ekran">
-                <Layers className="w-3 h-3" />
-              </div>
-            </div>
-
-            {/* Title & Info */}
-            <h3 className="text-base font-black text-slate-900 tracking-tight mt-1">
-              TAM OTOMATİK KAHVE MAKİNESİ
-            </h3>
-            <p className="text-xs text-slate-500 font-semibold line-clamp-1 mb-4">
-              Çekirdekten fincana tam otomatik espresso & filtre kahve
-            </p>
-          </div>
-
-          {/* Action Button */}
-          <button
-            onClick={() => {
-              setActiveSector('kitchen');
-              handleSubCatSelect('coffee_machine');
-            }}
-            className="w-full bg-emerald-700 hover:bg-emerald-600 active:scale-95 text-white font-extrabold text-xs py-3 rounded-2xl shadow-sm transition-all flex items-center justify-center gap-2 cursor-pointer"
-          >
-            <span>Kahve Makinelerini Kıyasla</span>
-            <ArrowRight className="w-3.5 h-3.5" />
-          </button>
-        </div>
-
-        {/* Card 4: KİŞİSEL BAKIM */}
-        <div className="bg-white border border-slate-200/90 hover:border-emerald-500/80 rounded-3xl p-5 shadow-2xs hover:shadow-xl transition-all duration-300 flex flex-col justify-between group">
-          <div>
-            {/* Badges */}
-            <div className="flex items-center justify-between mb-3">
-              <div className="flex items-center gap-1 bg-amber-50 text-amber-900 border border-amber-200 text-xs font-black px-2.5 py-0.5 rounded-full">
-                <Star className="w-3 h-3 fill-amber-500 text-amber-500" />
-                <span>4.9</span>
-              </div>
-              <span className="bg-indigo-600 text-white text-[10px] font-black px-2.5 py-0.5 rounded-full uppercase tracking-wider">
-                Haftanın Ürünü
-              </span>
-            </div>
-
-            {/* Product Image Stage */}
-            <div className="w-full h-44 bg-slate-50 rounded-2xl p-4 flex items-center justify-center overflow-hidden border border-slate-100 group-hover:bg-emerald-50/40 transition-colors">
-              <img
-                src={hubCardPersonal.image || '/images/appliances/dyson-693303.jpg'}
-                alt="Akıllı Kişisel Bakım Seti"
-                loading="lazy"
-                className="max-h-full max-w-full object-contain group-hover:scale-105 transition-transform duration-300"
-              />
-            </div>
-
-            {/* Feature Icons */}
-            <div className="flex items-center gap-2 text-slate-400 mt-3 mb-1">
-              <div className="w-6 h-6 rounded-full bg-slate-100 flex items-center justify-center text-slate-700" title="SenseIQ & Akıllı Koruma">
-                <Sparkle className="w-3 h-3" />
-              </div>
-              <div className="w-6 h-6 rounded-full bg-slate-100 flex items-center justify-center text-slate-700" title="Kablosuz / Hızlı Şarj">
-                <Zap className="w-3 h-3" />
-              </div>
-              <div className="w-6 h-6 rounded-full bg-slate-100 flex items-center justify-center text-slate-700" title="İyonik Bakım">
-                <Wind className="w-3 h-3" />
-              </div>
-            </div>
-
-            {/* Title & Info */}
-            <h3 className="text-base font-black text-slate-900 tracking-tight mt-1">
-              AKILLI KİŞİSEL BAKIM SETİ
-            </h3>
-            <p className="text-xs text-slate-500 font-semibold line-clamp-1 mb-4">
-              Tıraş makineleri, saç şekillendirme & elektrikli diş fırçaları
-            </p>
-          </div>
-
-          {/* Action Button */}
-          <button
-            onClick={() => {
-              setActiveSector('personal_care');
-              handleSubCatSelect('personal_care');
-            }}
-            className="w-full bg-emerald-700 hover:bg-emerald-600 active:scale-95 text-white font-extrabold text-xs py-3 rounded-2xl shadow-sm transition-all flex items-center justify-center gap-2 cursor-pointer"
-          >
-            <span>Kişisel Bakımı İncele</span>
-            <ArrowRight className="w-3.5 h-3.5" />
-          </button>
-        </div>
-
-      </div>
-
-      {/* 🌟 4. SPONSORED CAMPAIGN BANNER (MEDIAMARKT / TEKNOLOJİ ŞÖLENİ) */}
-      <div className="relative rounded-3xl overflow-hidden border border-slate-200/90 shadow-sm bg-gradient-to-r from-[#e30613] via-[#b8000b] to-[#800007] text-white p-6 sm:p-8 flex flex-col md:flex-row items-center justify-between gap-6">
-        <div className="space-y-2 max-w-xl text-center md:text-left">
-          <div className="flex items-center justify-center md:justify-start gap-2">
-            <span className="bg-white/20 text-white text-[10px] font-black px-2.5 py-0.5 rounded-full uppercase tracking-wider backdrop-blur-xs">
-              Sponsorlu • Kampanya
+        <div className="relative z-10 max-w-4xl space-y-4">
+          <div className="flex flex-wrap items-center gap-2">
+            <span className="bg-emerald-500/20 text-emerald-300 border border-emerald-500/30 text-[11px] font-black px-3 py-1 rounded-full uppercase tracking-wider flex items-center gap-1.5 backdrop-blur-md">
+              <Sparkles className="w-3.5 h-3.5" />
+              Ev & Yaşam Teknolojileri Merkezi
             </span>
-            <span className="text-xs text-white/80 font-bold">MediaMarkt ile Teknoloji Şöleni</span>
+            <span className="bg-white/10 text-slate-200 text-[11px] font-bold px-3 py-1 rounded-full backdrop-blur-md">
+              935 Model • 8 Mağaza Canlı Fiyat Takibi
+            </span>
           </div>
-          <h3 className="text-xl sm:text-2xl font-black tracking-tight text-white">
-            Ev ve Yaşam Teknolojilerinde Özel Kulüp İndirimleri!
-          </h3>
-          <p className="text-xs text-white/90 font-medium">
-            Robot süpürgeler, airfryer modelleri ve kahve makinelerinde 8 mağaza arasındaki en avantajlı taksit ve kupon fırsatlarını kaçırmayın.
+
+          <h1 className="text-2xl sm:text-4xl lg:text-5xl font-black tracking-tight text-white leading-tight">
+            Eviniz İçin En İleri Teknolojiler, <span className="text-emerald-400">En Uygun Fiyatlarla.</span>
+          </h1>
+
+          <p className="text-sm sm:text-base text-slate-300 font-normal leading-relaxed max-w-2xl">
+            Robot süpürgelerden beyaz eşyaya, kahve makinelerinden inverter klimalara kadar tüm ürünleri teknik detaylarıyla kıyaslayın, 8 yetkili satıcıdaki gerçek indirimleri yakalayın.
           </p>
-        </div>
 
-        <div className="shrink-0 flex flex-col sm:flex-row items-center gap-3">
-          <Link
-            href="/search?q=mediamarkt"
-            className="bg-white hover:bg-slate-100 text-[#e30613] font-black text-xs px-6 py-3.5 rounded-2xl shadow-lg transition-all hover:scale-105 active:scale-95 text-center cursor-pointer"
-          >
-            Hemen Fırsatları Keşfet ➔
-          </Link>
-        </div>
-      </div>
-
-      {/* 🌟 5. CONTROL CENTER & FILTER BAR */}
-      <div ref={catalogRef} className="pt-2 space-y-4">
-        
-        {/* Search & Sort Panel */}
-        <div className="bg-white border border-slate-200/90 rounded-3xl p-5 sm:p-6 shadow-2xs flex flex-col lg:flex-row lg:items-center justify-between gap-4">
-          <div className="space-y-1">
-            <div className="flex items-center gap-2">
-              <h2 className="text-xl font-black text-slate-900 tracking-tight">
-                Tüm Ürün Kataloğu
-              </h2>
-              <span className="text-xs bg-emerald-100 text-emerald-800 font-extrabold px-3 py-0.5 rounded-full shadow-2xs">
-                {displayProducts.length} Model
-              </span>
-            </div>
-            <p className="text-xs text-slate-500 font-medium">
-              8 yetkili mağazadan anlık fiyat karşılaştırması ve teknik detaylar
-            </p>
-          </div>
-
-          <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-3">
-            {/* Search Input */}
-            <div className="relative">
-              <Search className="w-4 h-4 text-slate-400 absolute left-3 top-1/2 -translate-y-1/2" />
+          {/* Quick Search inside Hero */}
+          <div className="pt-2 max-w-xl">
+            <div className="relative flex items-center">
+              <Search className="absolute left-4 w-5 h-5 text-slate-400" />
               <input
                 type="text"
-                placeholder="Model, marka veya özellik ara..."
                 value={searchQuery}
                 onChange={(e) => {
                   setSearchQuery(e.target.value);
                   setVisibleCount(ITEMS_PER_PAGE);
                 }}
-                className="bg-slate-50 border border-slate-200 focus:border-emerald-500 focus:bg-white rounded-2xl pl-9 pr-4 py-2 text-xs font-bold outline-none w-full sm:w-64 shadow-2xs transition-all"
+                placeholder="Model, marka veya ürün adı arayın (Örn: Roborock Q Revo, Arçelik 570471, Philips Airfryer)..."
+                className="w-full bg-white/10 hover:bg-white/15 focus:bg-white text-white focus:text-slate-900 placeholder:text-slate-400 pl-11 pr-10 py-3.5 rounded-2xl border border-white/20 focus:border-emerald-500 text-xs sm:text-sm font-medium outline-none transition-all shadow-inner backdrop-blur-md"
               />
+              {searchQuery && (
+                <button
+                  onClick={() => setSearchQuery('')}
+                  className="absolute right-3 text-slate-400 hover:text-white p-1 rounded-lg"
+                >
+                  <X className="w-4 h-4" />
+                </button>
+              )}
             </div>
-
-            {/* Sort Select */}
-            <select
-              value={sortBy}
-              onChange={(e) => {
-                setSortBy(e.target.value);
-                setVisibleCount(ITEMS_PER_PAGE);
-              }}
-              className="bg-slate-50 border border-slate-200 rounded-2xl px-3 py-2 text-xs font-bold text-slate-800 outline-none cursor-pointer shadow-2xs hover:border-slate-300 transition-all"
-            >
-              <option value="popular">Öne Çıkanlar & Popüler</option>
-              <option value="priceAsc">Fiyat: Düşükten Yükseğe</option>
-              <option value="priceDesc">Fiyat: Yüksekten Düşüğe</option>
-              <option value="rating">En Yüksek Müşteri Puanı</option>
-            </select>
           </div>
         </div>
+      </div>
 
-        {/* Subcategory Pills */}
-        <div className="flex items-center gap-2 overflow-x-auto no-scrollbar pb-1">
-          {ALL_SUB_CATEGORIES.map((cat) => {
-            const isSelected = selectedSubCat === cat.id;
+      {/* 3. 🌟 MASTER CATEGORY TABS (THE UNIFIED MAIN NAVIGATION) */}
+      <div className="space-y-3">
+        <div className="flex items-center justify-between">
+          <h2 className="text-xs font-black text-slate-400 uppercase tracking-widest flex items-center gap-1.5">
+            <Layers className="w-3.5 h-3.5 text-emerald-600" />
+            Ana Kategori Seçimi
+          </h2>
+          <span className="text-xs text-slate-400 font-semibold">
+            {displayProducts.length} Ürün Listeleniyor
+          </span>
+        </div>
+
+        {/* Master Categories Horizontal Scroll / Grid */}
+        <div className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-7 gap-2.5">
+          {MASTER_CATEGORIES.map((cat) => {
+            const Icon = cat.icon;
+            const isSelected = selectedMaster === cat.id;
+            const count = masterCounts[cat.id] || (cat.id === 'all' ? products.length : 0);
+
             return (
               <button
                 key={cat.id}
-                onClick={() => handleSubCatSelect(cat.id)}
-                className={`px-4 py-2 rounded-2xl text-xs font-bold whitespace-nowrap transition-all cursor-pointer shadow-2xs ${
+                onClick={() => handleMasterSelect(cat.id)}
+                className={`p-3 rounded-2xl border text-left transition-all duration-200 flex flex-col justify-between cursor-pointer group ${
                   isSelected
-                    ? 'bg-emerald-600 text-white shadow-emerald-500/20'
-                    : 'bg-white border border-slate-200 text-slate-700 hover:border-emerald-500 hover:text-emerald-700'
+                    ? cat.colorClass.active
+                    : 'bg-white border-slate-200 hover:border-emerald-400 hover:bg-slate-50/80 text-slate-800 shadow-2xs'
                 }`}
               >
-                {cat.label}
+                <div className="flex items-center justify-between w-full mb-2">
+                  <div className={`w-8 h-8 rounded-xl flex items-center justify-center transition-all ${
+                    isSelected ? 'bg-white/20 text-white' : 'bg-slate-100 text-slate-700 group-hover:bg-emerald-100 group-hover:text-emerald-800'
+                  }`}>
+                    <Icon className="w-4 h-4" />
+                  </div>
+                  <span className={`text-[10px] font-black px-2 py-0.5 rounded-md ${
+                    isSelected ? 'bg-white/20 text-white' : 'bg-slate-100 text-slate-500'
+                  }`}>
+                    {count}
+                  </span>
+                </div>
+
+                <div>
+                  <span className={`text-xs font-black block line-clamp-1 ${
+                    isSelected ? 'text-white' : 'text-slate-900 group-hover:text-emerald-700'
+                  }`}>
+                    {cat.shortLabel}
+                  </span>
+                  <span className={`text-[10px] block line-clamp-1 mt-0.5 ${
+                    isSelected ? 'text-white/80' : 'text-slate-400'
+                  }`}>
+                    {cat.badge}
+                  </span>
+                </div>
               </button>
             );
           })}
         </div>
+      </div>
 
-        {/* Brand Filters Bar */}
-        {allBrands.length > 0 && (
-          <div className="bg-white border border-slate-200/90 rounded-2xl p-3.5 shadow-2xs flex flex-wrap items-center gap-2">
-            <span className="text-xs font-black text-slate-500 uppercase tracking-wider mr-2 flex items-center gap-1.5">
-              <SlidersHorizontal className="w-3.5 h-3.5 text-emerald-600" />
-              Marka:
-            </span>
-            {allBrands.map((brand) => {
-              const isChecked = selectedBrands.includes(brand);
+      {/* 4. 🏷️ CONTEXTUAL SUB-CATEGORY QUICK PILLS */}
+      <div className="bg-slate-50/80 border border-slate-200/80 rounded-2xl p-3.5 space-y-2">
+        <div className="flex items-center justify-between text-xs font-bold text-slate-500">
+          <span>Alt Kategori Filtresi ({currentSubCats.length} Seçenek):</span>
+          {selectedSubCat !== 'all' && (
+            <button
+              onClick={() => handleSubCatSelect('all')}
+              className="text-emerald-700 hover:underline flex items-center gap-1 font-bold"
+            >
+              <RotateCcw className="w-3 h-3" />
+              Tümünü Göster
+            </button>
+          )}
+        </div>
+
+        <div className="flex flex-wrap items-center gap-2">
+          {currentSubCats.map((sub) => {
+            const isSubSelected = selectedSubCat === sub.id;
+            return (
+              <button
+                key={sub.id}
+                onClick={() => handleSubCatSelect(sub.id)}
+                className={`text-xs font-bold px-3.5 py-1.5 rounded-xl border transition-all cursor-pointer ${
+                  isSubSelected
+                    ? 'bg-slate-900 text-white border-slate-900 shadow-xs'
+                    : 'bg-white text-slate-700 border-slate-200 hover:border-emerald-400 hover:bg-emerald-50/40'
+                }`}
+              >
+                {sub.label}
+              </button>
+            );
+          })}
+        </div>
+      </div>
+
+      {/* 5. 🌟 SPOTLIGHT POPULAR CATEGORY SHOWCASE CARDS */}
+      {selectedMaster === 'all' && selectedSubCat === 'all' && !searchQuery && selectedBrands.length === 0 && (
+        <div className="space-y-3 pt-2">
+          <div className="flex items-center justify-between">
+            <h3 className="text-sm font-black text-slate-900 uppercase tracking-wider flex items-center gap-2">
+              <Sparkle className="w-4 h-4 text-amber-500" />
+              En Çok İncelenen Popüler Kategoriler
+            </h3>
+            <span className="text-xs text-slate-400 font-medium">Doğrudan Kategoriye Git</span>
+          </div>
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+            {SPOTLIGHT_CARDS.map((card) => (
+              <div
+                key={card.id}
+                onClick={() => handleSpotlightClick(card)}
+                className="group relative h-48 rounded-3xl overflow-hidden border border-slate-200/80 shadow-2xs hover:shadow-xl transition-all duration-300 cursor-pointer flex flex-col justify-end p-5"
+              >
+                <img
+                  src={card.image}
+                  alt={card.title}
+                  loading="lazy"
+                  className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                />
+                <div className={`absolute inset-0 bg-gradient-to-t ${card.accent} opacity-85 group-hover:opacity-90 transition-opacity`} />
+
+                <div className="relative z-10 space-y-1.5 text-white">
+                  <div className="flex items-center gap-2">
+                    <span className="bg-white/20 backdrop-blur-md text-[10px] font-black px-2.5 py-0.5 rounded-full uppercase tracking-wider text-white">
+                      {card.tag}
+                    </span>
+                    <span className="text-[10px] font-bold text-white/80">
+                      {card.count}
+                    </span>
+                  </div>
+
+                  <h4 className="text-base sm:text-lg font-black tracking-tight text-white leading-snug">
+                    {card.title}
+                  </h4>
+
+                  <p className="text-[11px] text-white/80 font-medium line-clamp-1">
+                    {card.subtitle}
+                  </p>
+
+                  <div className="flex items-center gap-1 text-xs font-bold text-emerald-300 pt-1 group-hover:translate-x-1 transition-transform">
+                    <span>Modelleri Listele</span>
+                    <ChevronRight className="w-3.5 h-3.5" />
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
+
+      {/* 6. 🛠️ CONTROL CENTER: BRAND FILTER & SORTING & ACTIVE TAGS */}
+      <div ref={catalogRef} className="space-y-4 pt-4 border-t border-slate-200">
+        
+        {/* Brand Bar */}
+        <div className="space-y-2">
+          <div className="flex items-center justify-between text-xs font-bold text-slate-500">
+            <span>Markaya Göre Filtrele:</span>
+            {selectedBrands.length > 0 && (
+              <button
+                onClick={() => setSelectedBrands([])}
+                className="text-emerald-700 hover:underline font-bold"
+              >
+                Marka Filtresini Sıfırla
+              </button>
+            )}
+          </div>
+
+          <div className="flex flex-wrap items-center gap-1.5">
+            {brandListWithCounts.slice(0, 16).map(({ brand, count }) => {
+              const isBrandActive = selectedBrands.includes(brand);
               return (
                 <button
                   key={brand}
                   onClick={() => toggleBrand(brand)}
-                  className={`px-3 py-1 rounded-xl text-xs font-bold transition-all cursor-pointer border flex items-center gap-1.5 ${
-                    isChecked
-                      ? 'bg-emerald-50 border-emerald-500 text-emerald-700 font-extrabold'
-                      : 'bg-slate-50 border-slate-200 text-slate-600 hover:bg-slate-100'
+                  className={`text-xs font-bold px-3 py-1.5 rounded-xl border transition-all flex items-center gap-1.5 cursor-pointer ${
+                    isBrandActive
+                      ? 'bg-emerald-600 text-white border-emerald-600 shadow-2xs'
+                      : 'bg-white text-slate-700 border-slate-200 hover:border-slate-300 hover:bg-slate-50'
                   }`}
                 >
-                  {isChecked && <Check className="w-3 h-3 text-emerald-600 stroke-[3]" />}
+                  {isBrandActive && <Check className="w-3.5 h-3.5" />}
                   <span>{brand}</span>
+                  <span className={`text-[10px] px-1.5 py-0.2 rounded-md ${
+                    isBrandActive ? 'bg-emerald-800 text-white' : 'bg-slate-100 text-slate-500'
+                  }`}>
+                    {count}
+                  </span>
                 </button>
               );
             })}
-            {selectedBrands.length > 0 && (
-              <button
-                onClick={() => {
-                  setSelectedBrands([]);
+          </div>
+        </div>
+
+        {/* Toolbar: Result Count, Price Slider, Sort Dropdown */}
+        <div className="bg-white border border-slate-200 rounded-2xl p-4 shadow-2xs flex flex-col md:flex-row md:items-center justify-between gap-4">
+          
+          <div className="flex items-center gap-3">
+            <div className="w-10 h-10 rounded-xl bg-emerald-50 text-emerald-700 flex items-center justify-center font-black">
+              {displayProducts.length}
+            </div>
+            <div>
+              <h3 className="text-sm font-black text-slate-900">
+                {displayProducts.length} Model Bulundu
+              </h3>
+              <p className="text-[11px] text-slate-500 font-medium">
+                8 yetkili mağazada stok ve fiyatlar doğrulanıyor
+              </p>
+            </div>
+          </div>
+
+          <div className="flex flex-wrap items-center gap-4">
+            {/* Price Max Slider */}
+            <div className="flex items-center gap-2 text-xs font-bold text-slate-600">
+              <span>Maks:</span>
+              <input
+                type="range"
+                min={1000}
+                max={150000}
+                step={2500}
+                value={priceRange}
+                onChange={(e) => {
+                  setPriceRange(Number(e.target.value));
                   setVisibleCount(ITEMS_PER_PAGE);
                 }}
-                className="text-xs text-red-600 hover:text-red-700 font-bold ml-auto cursor-pointer"
+                className="accent-emerald-600 w-28 sm:w-36 cursor-pointer"
+              />
+              <span className="text-slate-900 font-black tabular-nums">
+                {priceRange.toLocaleString('tr-TR')} TL
+              </span>
+            </div>
+
+            {/* Sort Selector */}
+            <div className="flex items-center gap-2">
+              <span className="text-xs font-bold text-slate-500">Sırala:</span>
+              <select
+                value={sortBy}
+                onChange={(e) => setSortBy(e.target.value)}
+                className="bg-slate-50 border border-slate-200 text-slate-800 text-xs font-bold rounded-xl px-3 py-2 outline-none focus:border-emerald-500 cursor-pointer"
               >
-                Filtreleri Temizle
+                <option value="popular">En Popülerler</option>
+                <option value="priceAsc">En Düşük Fiyat</option>
+                <option value="priceDesc">En Yüksek Fiyat</option>
+                <option value="rating">En Yüksek Puan (Puan & Yorum)</option>
+              </select>
+            </div>
+
+            {/* Reset Filters */}
+            {hasActiveFilters && (
+              <button
+                onClick={resetFilters}
+                className="text-xs font-bold text-rose-600 hover:text-rose-700 bg-rose-50 hover:bg-rose-100 border border-rose-200 px-3 py-2 rounded-xl transition-colors flex items-center gap-1 cursor-pointer"
+              >
+                <X className="w-3.5 h-3.5" />
+                <span>Filtreleri Sıfırla</span>
               </button>
             )}
           </div>
-        )}
+        </div>
 
+        {/* Active Filter Tags */}
+        {hasActiveFilters && (
+          <div className="flex flex-wrap items-center gap-2 text-xs">
+            <span className="text-slate-400 font-semibold">Aktif Filtreler:</span>
+            {selectedMaster !== 'all' && (
+              <span className="bg-emerald-50 text-emerald-700 border border-emerald-200 font-bold px-2.5 py-1 rounded-lg flex items-center gap-1.5">
+                Kategori: {MASTER_CATEGORIES.find(m => m.id === selectedMaster)?.label}
+                <X className="w-3 h-3 cursor-pointer" onClick={() => setSelectedMaster('all')} />
+              </span>
+            )}
+            {selectedSubCat !== 'all' && (
+              <span className="bg-slate-100 text-slate-800 font-bold px-2.5 py-1 rounded-lg flex items-center gap-1.5">
+                Alt Kategori: {currentSubCats.find(s => s.id === selectedSubCat)?.label || selectedSubCat}
+                <X className="w-3 h-3 cursor-pointer" onClick={() => setSelectedSubCat('all')} />
+              </span>
+            )}
+            {selectedBrands.map(b => (
+              <span key={b} className="bg-emerald-50 text-emerald-800 border border-emerald-200 font-bold px-2.5 py-1 rounded-lg flex items-center gap-1.5">
+                Marka: {b}
+                <X className="w-3 h-3 cursor-pointer" onClick={() => toggleBrand(b)} />
+              </span>
+            ))}
+            {searchQuery && (
+              <span className="bg-amber-50 text-amber-800 border border-amber-200 font-bold px-2.5 py-1 rounded-lg flex items-center gap-1.5">
+                Arama: "{searchQuery}"
+                <X className="w-3 h-3 cursor-pointer" onClick={() => setSearchQuery('')} />
+              </span>
+            )}
+          </div>
+        )}
       </div>
 
-      {/* 🌟 6. PRODUCT CATALOG GRID WITH PAGINATION */}
-      {paginatedProducts.length > 0 ? (
+      {/* 7. 📦 PRODUCT GRID */}
+      {visibleProducts.length > 0 ? (
         <div className="space-y-8">
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
-            {paginatedProducts.map((product, idx) => (
-              <CompactProductCard key={product.id} product={product} index={idx} />
+          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3.5 sm:gap-4">
+            {visibleProducts.map((product, idx) => (
+              <CompactProductCard
+                key={product.id}
+                product={product}
+                index={idx}
+                badgeType={product.isFeatured ? 'featured' : idx % 3 === 0 ? 'discount' : 'none'}
+              />
             ))}
           </div>
 
@@ -1253,38 +863,36 @@ export default function AppliancesClient({ initialProducts }: { initialProducts:
           {visibleCount < displayProducts.length && (
             <div className="text-center pt-4">
               <button
-                onClick={handleLoadMore}
-                className="inline-flex items-center gap-2 bg-slate-900 hover:bg-emerald-600 text-white font-extrabold text-xs px-8 py-3.5 rounded-2xl shadow-md transition-all cursor-pointer hover:scale-105 active:scale-95"
+                onClick={() => setVisibleCount((prev) => prev + ITEMS_PER_PAGE)}
+                className="bg-white border-2 border-slate-900 hover:bg-slate-900 hover:text-white text-slate-900 font-black text-xs sm:text-sm px-8 py-3.5 rounded-2xl shadow-sm transition-all duration-200 cursor-pointer"
               >
-                <span>Daha Fazla Ürün Göster ({displayProducts.length - visibleCount} model kaldı)</span>
-                <ChevronDown className="w-4 h-4" />
+                Daha Fazla Ürün Göster ({displayProducts.length - visibleCount} Ürün Kaldı)
               </button>
-              <p className="text-[11px] text-slate-400 mt-2 font-semibold">
-                {visibleCount} / {displayProducts.length} ürün listeleniyor
-              </p>
             </div>
           )}
         </div>
       ) : (
-        <div className="bg-white border border-slate-200 rounded-3xl p-12 text-center space-y-3">
-          <Sparkles className="w-10 h-10 text-slate-300 mx-auto" />
-          <h3 className="text-base font-bold text-slate-800">Aramanıza uygun ürün bulunamadı</h3>
-          <p className="text-xs text-slate-500">Lütfen filtreleri sıfırlamayı veya farklı bir arama terimi denemeyi düşünün.</p>
+        /* Empty State */
+        <div className="bg-white border border-slate-200 rounded-3xl p-12 text-center space-y-4 max-w-lg mx-auto shadow-xs">
+          <div className="w-14 h-14 rounded-2xl bg-slate-100 text-slate-400 flex items-center justify-center mx-auto">
+            <Search className="w-7 h-7" />
+          </div>
+          <div className="space-y-1">
+            <h3 className="text-base font-black text-slate-900">Aradığınız kriterlere uygun ürün bulunamadı</h3>
+            <p className="text-xs text-slate-500 font-medium">
+              Farklı bir arama terimi deneyebilir veya filtreleri sıfırlayabilirsiniz.
+            </p>
+          </div>
           <button
-            onClick={() => {
-              setSearchQuery('');
-              setActiveSector(null);
-              setSelectedSubCat('all');
-              setSelectedBrands([]);
-              setVisibleCount(ITEMS_PER_PAGE);
-            }}
-            className="bg-emerald-600 text-white font-bold text-xs px-4 py-2 rounded-xl shadow-xs cursor-pointer hover:bg-emerald-700 transition-all"
+            onClick={resetFilters}
+            className="bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-xs px-5 py-2.5 rounded-xl shadow-xs transition-colors cursor-pointer"
           >
-            Tüm Ürünleri Göster
+            Filtreleri Sıfırla
           </button>
         </div>
       )}
 
+      {/* 8. Bottom Global Category Icons */}
       <CategoryIconStrip />
     </div>
   );

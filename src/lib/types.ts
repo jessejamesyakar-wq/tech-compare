@@ -36,6 +36,8 @@ export interface BaseProduct {
 }
 
 export interface ApplianceSpecs {
+  masterCategory?: string;
+  masterCategoryLabel?: string;
   subCategory: 'robot_vacuum' | 'stick_vacuum' | 'personal_care' | 'cosmetics' | 'air_purifier' | 'airfryer' | 'coffee_machine' | 'blender' | 'iron' | 'tea_maker' | 'toaster' | string;
   subCategoryLabel: string;
   powerWatts?: number;

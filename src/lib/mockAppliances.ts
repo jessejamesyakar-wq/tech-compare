@@ -36,7 +36,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "dishwasherSafeParts": true,
       "weightKg": 2.03,
       "warrantyYears": 2,
-      "color": "Fırçalanmış Paslanmaz Çelik / Mat Siyah"
+      "color": "Fırçalanmış Paslanmaz Çelik / Mat Siyah",
+      "masterCategory": "kitchen",
+      "masterCategoryLabel": "Mutfak Aletleri"
     },
     "storeOffers": [
       {
@@ -102,7 +104,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "dishwasherSafeParts": true,
       "weightKg": 2.11,
       "warrantyYears": 2,
-      "color": "Mat Siyah / Metalik Detaylar"
+      "color": "Mat Siyah / Metalik Detaylar",
+      "masterCategory": "kitchen",
+      "masterCategoryLabel": "Mutfak Aletleri"
     },
     "storeOffers": [
       {
@@ -169,7 +173,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "dishwasherSafeParts": true,
       "weightKg": 2.05,
       "warrantyYears": 2,
-      "color": "Antrasit Gri"
+      "color": "Antrasit Gri",
+      "masterCategory": "kitchen",
+      "masterCategoryLabel": "Mutfak Aletleri"
     },
     "storeOffers": [
       {
@@ -234,7 +240,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "dishwasherSafeParts": true,
       "weightKg": 2.4,
       "warrantyYears": 2,
-      "color": "Beyaz / Turuncu Detaylar"
+      "color": "Beyaz / Turuncu Detaylar",
+      "masterCategory": "kitchen",
+      "masterCategoryLabel": "Mutfak Aletleri"
     },
     "storeOffers": [
       {
@@ -301,7 +309,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "dishwasherSafeParts": true,
       "weightKg": 2.3,
       "warrantyYears": 2,
-      "color": "İkonik Cam Gövde / Paslanmaz Çelik"
+      "color": "İkonik Cam Gövde / Paslanmaz Çelik",
+      "masterCategory": "kitchen",
+      "masterCategoryLabel": "Mutfak Aletleri"
     },
     "storeOffers": [
       {
@@ -367,7 +377,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "dishwasherSafeParts": true,
       "weightKg": 1.75,
       "warrantyYears": 2,
-      "color": "Parlak Siyah"
+      "color": "Parlak Siyah",
+      "masterCategory": "kitchen",
+      "masterCategoryLabel": "Mutfak Aletleri"
     },
     "storeOffers": [
       {
@@ -433,7 +445,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "dishwasherSafeParts": true,
       "weightKg": 1.35,
       "warrantyYears": 2,
-      "color": "Beyaz / Lavanta Detaylar"
+      "color": "Beyaz / Lavanta Detaylar",
+      "masterCategory": "kitchen",
+      "masterCategoryLabel": "Mutfak Aletleri"
     },
     "storeOffers": [
       {
@@ -499,7 +513,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "dishwasherSafeParts": true,
       "weightKg": 1.53,
       "warrantyYears": 2,
-      "color": "İpek Beyazı / Mat Ahşap Dokusu"
+      "color": "İpek Beyazı / Mat Ahşap Dokusu",
+      "masterCategory": "kitchen",
+      "masterCategoryLabel": "Mutfak Aletleri"
     },
     "storeOffers": [
       {
@@ -566,7 +582,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "dishwasherSafeParts": true,
       "weightKg": 1.42,
       "warrantyYears": 2,
-      "color": "Siyah / Metalik Paslanmaz Çelik Detay"
+      "color": "Siyah / Metalik Paslanmaz Çelik Detay",
+      "masterCategory": "kitchen",
+      "masterCategoryLabel": "Mutfak Aletleri"
     },
     "storeOffers": [
       {
@@ -632,7 +650,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "dishwasherSafeParts": true,
       "weightKg": 1.42,
       "warrantyYears": 2,
-      "color": "Parlak Siyah"
+      "color": "Parlak Siyah",
+      "masterCategory": "kitchen",
+      "masterCategoryLabel": "Mutfak Aletleri"
     },
     "storeOffers": [
       {
@@ -698,7 +718,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "dishwasherSafeParts": true,
       "weightKg": 1.42,
       "warrantyYears": 2,
-      "color": "Siyah / Fırçalanmış Paslanmaz Çelik"
+      "color": "Siyah / Fırçalanmış Paslanmaz Çelik",
+      "masterCategory": "kitchen",
+      "masterCategoryLabel": "Mutfak Aletleri"
     },
     "storeOffers": [
       {
@@ -766,7 +788,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "antiCalcSystem": true,
       "weightKg": 1.6,
       "warrantyYears": 2,
-      "color": "Mavi / Beyaz"
+      "color": "Mavi / Beyaz",
+      "masterCategory": "home_tools",
+      "masterCategoryLabel": "Ütü & Ev Gereçleri"
     },
     "storeOffers": [
       {
@@ -833,7 +857,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "antiCalcSystem": true,
       "weightKg": 1.6,
       "warrantyYears": 2,
-      "color": "Koyu Mavi / Gümüş"
+      "color": "Koyu Mavi / Gümüş",
+      "masterCategory": "home_tools",
+      "masterCategoryLabel": "Ütü & Ev Gereçleri"
     },
     "storeOffers": [
       {
@@ -901,7 +927,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "antiCalcSystem": true,
       "weightKg": 1.6,
       "warrantyYears": 2,
-      "color": "Mavi / Beyaz"
+      "color": "Mavi / Beyaz",
+      "masterCategory": "home_tools",
+      "masterCategoryLabel": "Ütü & Ev Gereçleri"
     },
     "storeOffers": [
       {
@@ -968,7 +996,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "antiCalcSystem": true,
       "weightKg": 1.62,
       "warrantyYears": 2,
-      "color": "Mavi / Beyaz"
+      "color": "Mavi / Beyaz",
+      "masterCategory": "home_tools",
+      "masterCategoryLabel": "Ütü & Ev Gereçleri"
     },
     "storeOffers": [
       {
@@ -1036,7 +1066,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "antiCalcSystem": true,
       "weightKg": 1.55,
       "warrantyYears": 2,
-      "color": "Açık Mavi / Beyaz"
+      "color": "Açık Mavi / Beyaz",
+      "masterCategory": "home_tools",
+      "masterCategoryLabel": "Ütü & Ev Gereçleri"
     },
     "storeOffers": [
       {
@@ -1103,7 +1135,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "antiCalcSystem": true,
       "weightKg": 1.57,
       "warrantyYears": 2,
-      "color": "Siyah / Bakır"
+      "color": "Siyah / Bakır",
+      "masterCategory": "home_tools",
+      "masterCategoryLabel": "Ütü & Ev Gereçleri"
     },
     "storeOffers": [
       {
@@ -1171,7 +1205,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "antiCalcSystem": true,
       "weightKg": 1.48,
       "warrantyYears": 2,
-      "color": "Mürdüm / Bakır"
+      "color": "Mürdüm / Bakır",
+      "masterCategory": "home_tools",
+      "masterCategoryLabel": "Ütü & Ev Gereçleri"
     },
     "storeOffers": [
       {
@@ -1238,7 +1274,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "antiCalcSystem": true,
       "weightKg": 1.55,
       "warrantyYears": 2,
-      "color": "Gül Kurusu / Beyaz"
+      "color": "Gül Kurusu / Beyaz",
+      "masterCategory": "home_tools",
+      "masterCategoryLabel": "Ütü & Ev Gereçleri"
     },
     "storeOffers": [
       {
@@ -1305,7 +1343,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "antiCalcSystem": true,
       "weightKg": 1.6,
       "warrantyYears": 2,
-      "color": "Mavi / Beyaz"
+      "color": "Mavi / Beyaz",
+      "masterCategory": "home_tools",
+      "masterCategoryLabel": "Ütü & Ev Gereçleri"
     },
     "storeOffers": [
       {
@@ -1372,7 +1412,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "antiCalcSystem": true,
       "weightKg": 1.55,
       "warrantyYears": 2,
-      "color": "Mavi / Gri"
+      "color": "Mavi / Gri",
+      "masterCategory": "home_tools",
+      "masterCategoryLabel": "Ütü & Ev Gereçleri"
     },
     "storeOffers": [
       {
@@ -1440,7 +1482,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "antiCalcSystem": true,
       "weightKg": 1.2,
       "warrantyYears": 2,
-      "color": "Mavi / Beyaz"
+      "color": "Mavi / Beyaz",
+      "masterCategory": "home_tools",
+      "masterCategoryLabel": "Ütü & Ev Gereçleri"
     },
     "storeOffers": [
       {
@@ -1507,7 +1551,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "antiCalcSystem": true,
       "weightKg": 1.6,
       "warrantyYears": 2,
-      "color": "Mavi / Gümüş"
+      "color": "Mavi / Gümüş",
+      "masterCategory": "home_tools",
+      "masterCategoryLabel": "Ütü & Ev Gereçleri"
     },
     "storeOffers": [
       {
@@ -1574,7 +1620,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "antiCalcSystem": true,
       "weightKg": 1.5,
       "warrantyYears": 2,
-      "color": "Açık Mavi / Beyaz"
+      "color": "Açık Mavi / Beyaz",
+      "masterCategory": "home_tools",
+      "masterCategoryLabel": "Ütü & Ev Gereçleri"
     },
     "storeOffers": [
       {
@@ -1641,7 +1689,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "antiCalcSystem": true,
       "weightKg": 1.66,
       "warrantyYears": 2,
-      "color": "Gül Kurusu / Altın"
+      "color": "Gül Kurusu / Altın",
+      "masterCategory": "home_tools",
+      "masterCategoryLabel": "Ütü & Ev Gereçleri"
     },
     "storeOffers": [
       {
@@ -1706,7 +1756,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "autoShutOff": true,
       "weightKg": 2.37,
       "warrantyYears": 2,
-      "color": "Parlak Beyaz"
+      "color": "Parlak Beyaz",
+      "masterCategory": "kitchen",
+      "masterCategoryLabel": "Mutfak Aletleri"
     },
     "storeOffers": [
       {
@@ -1772,7 +1824,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "dishwasherSafeParts": true,
       "weightKg": 2.03,
       "warrantyYears": 2,
-      "color": "Fırçalanmış Paslanmaz Çelik / Siyah"
+      "color": "Fırçalanmış Paslanmaz Çelik / Siyah",
+      "masterCategory": "kitchen",
+      "masterCategoryLabel": "Mutfak Aletleri"
     },
     "storeOffers": [
       {
@@ -1838,7 +1892,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "programsCount": 400,
       "weightKg": 0.38,
       "warrantyYears": 2,
-      "color": "Lüks Titanyum Gri / Dokunmatik Ekran"
+      "color": "Lüks Titanyum Gri / Dokunmatik Ekran",
+      "masterCategory": "personal_care",
+      "masterCategoryLabel": "Kişisel Bakım"
     },
     "storeOffers": [
       {
@@ -1906,7 +1962,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "antiCalcSystem": true,
       "weightKg": 1.67,
       "warrantyYears": 2,
-      "color": "Koyu Gül Kurusu / Bakır"
+      "color": "Koyu Gül Kurusu / Bakır",
+      "masterCategory": "home_tools",
+      "masterCategoryLabel": "Ütü & Ev Gereçleri"
     },
     "storeOffers": [
       {
@@ -1973,7 +2031,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "antiCalcSystem": true,
       "weightKg": 1.78,
       "warrantyYears": 2,
-      "color": "Koyu Mavi / Rose Gold"
+      "color": "Koyu Mavi / Rose Gold",
+      "masterCategory": "home_tools",
+      "masterCategoryLabel": "Ütü & Ev Gereçleri"
     },
     "storeOffers": [
       {
@@ -2041,7 +2101,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "antiCalcSystem": true,
       "weightKg": 1.75,
       "warrantyYears": 2,
-      "color": "Mavi / Beyaz"
+      "color": "Mavi / Beyaz",
+      "masterCategory": "home_tools",
+      "masterCategoryLabel": "Ütü & Ev Gereçleri"
     },
     "storeOffers": [
       {
@@ -2108,7 +2170,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "antiCalcSystem": true,
       "weightKg": 1.66,
       "warrantyYears": 2,
-      "color": "Açık Mavi / Beyaz"
+      "color": "Açık Mavi / Beyaz",
+      "masterCategory": "home_tools",
+      "masterCategoryLabel": "Ütü & Ev Gereçleri"
     },
     "storeOffers": [
       {
@@ -2175,7 +2239,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "antiCalcSystem": true,
       "weightKg": 1.67,
       "warrantyYears": 2,
-      "color": "Pembe / Bakır"
+      "color": "Pembe / Bakır",
+      "masterCategory": "home_tools",
+      "masterCategoryLabel": "Ütü & Ev Gereçleri"
     },
     "storeOffers": [
       {
@@ -2243,7 +2309,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "antiCalcSystem": true,
       "weightKg": 1.66,
       "warrantyYears": 2,
-      "color": "Mavi / Gümüş"
+      "color": "Mavi / Gümüş",
+      "masterCategory": "home_tools",
+      "masterCategoryLabel": "Ütü & Ev Gereçleri"
     },
     "storeOffers": [
       {
@@ -2310,7 +2378,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "antiCalcSystem": true,
       "weightKg": 1.78,
       "warrantyYears": 2,
-      "color": "Mor / Bakır Detaylar"
+      "color": "Mor / Bakır Detaylar",
+      "masterCategory": "home_tools",
+      "masterCategoryLabel": "Ütü & Ev Gereçleri"
     },
     "storeOffers": [
       {
@@ -2377,7 +2447,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "antiCalcSystem": true,
       "weightKg": 1.66,
       "warrantyYears": 2,
-      "color": "Mürdüm / Bakır"
+      "color": "Mürdüm / Bakır",
+      "masterCategory": "home_tools",
+      "masterCategoryLabel": "Ütü & Ev Gereçleri"
     },
     "storeOffers": [
       {
@@ -2445,7 +2517,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "antiCalcSystem": true,
       "weightKg": 1.57,
       "warrantyYears": 2,
-      "color": "Mavi / Siyah"
+      "color": "Mavi / Siyah",
+      "masterCategory": "home_tools",
+      "masterCategoryLabel": "Ütü & Ev Gereçleri"
     },
     "storeOffers": [
       {
@@ -2512,7 +2586,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "antiCalcSystem": true,
       "weightKg": 1.66,
       "warrantyYears": 2,
-      "color": "Açık Mavi / Beyaz"
+      "color": "Açık Mavi / Beyaz",
+      "masterCategory": "home_tools",
+      "masterCategoryLabel": "Ütü & Ev Gereçleri"
     },
     "storeOffers": [
       {
@@ -2579,7 +2655,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "antiCalcSystem": true,
       "weightKg": 1.66,
       "warrantyYears": 2,
-      "color": "Koyu Mavi / Altın Sarı"
+      "color": "Koyu Mavi / Altın Sarı",
+      "masterCategory": "home_tools",
+      "masterCategoryLabel": "Ütü & Ev Gereçleri"
     },
     "storeOffers": [
       {
@@ -2646,7 +2724,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "antiCalcSystem": true,
       "weightKg": 1.66,
       "warrantyYears": 2,
-      "color": "Mavi / Gri"
+      "color": "Mavi / Gri",
+      "masterCategory": "home_tools",
+      "masterCategoryLabel": "Ütü & Ev Gereçleri"
     },
     "storeOffers": [
       {
@@ -2714,7 +2794,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "antiCalcSystem": true,
       "weightKg": 1.66,
       "warrantyYears": 2,
-      "color": "Lacivert / Şampanya"
+      "color": "Lacivert / Şampanya",
+      "masterCategory": "home_tools",
+      "masterCategoryLabel": "Ütü & Ev Gereçleri"
     },
     "storeOffers": [
       {
@@ -2781,7 +2863,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "antiCalcSystem": true,
       "weightKg": 1.66,
       "warrantyYears": 2,
-      "color": "Mavi / Gümüş"
+      "color": "Mavi / Gümüş",
+      "masterCategory": "home_tools",
+      "masterCategoryLabel": "Ütü & Ev Gereçleri"
     },
     "storeOffers": [
       {
@@ -2848,7 +2932,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "antiCalcSystem": true,
       "weightKg": 3.56,
       "warrantyYears": 2,
-      "color": "Piyano Siyahı / Altın Detaylar"
+      "color": "Piyano Siyahı / Altın Detaylar",
+      "masterCategory": "kitchen",
+      "masterCategoryLabel": "Mutfak Aletleri"
     },
     "storeOffers": [
       {
@@ -2916,7 +3002,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "antiCalcSystem": true,
       "weightKg": 4.6,
       "warrantyYears": 2,
-      "color": "Fırçalanmış Metalik Gri / Siyah"
+      "color": "Fırçalanmış Metalik Gri / Siyah",
+      "masterCategory": "kitchen",
+      "masterCategoryLabel": "Mutfak Aletleri"
     },
     "storeOffers": [
       {
@@ -2981,7 +3069,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "autoShutOff": true,
       "weightKg": 2.58,
       "warrantyYears": 2,
-      "color": "Paslanmaz Çelik / Beyaz"
+      "color": "Paslanmaz Çelik / Beyaz",
+      "masterCategory": "kitchen",
+      "masterCategoryLabel": "Mutfak Aletleri"
     },
     "storeOffers": [
       {
@@ -3047,7 +3137,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "antiCalcSystem": true,
       "weightKg": 0.84,
       "warrantyYears": 2,
-      "color": "İpek Beyazı / Mat Ahşap Dokulu Detay"
+      "color": "İpek Beyazı / Mat Ahşap Dokulu Detay",
+      "masterCategory": "kitchen",
+      "masterCategoryLabel": "Mutfak Aletleri"
     },
     "storeOffers": [
       {
@@ -3112,7 +3204,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "antiCalcSystem": true,
       "weightKg": 1.15,
       "warrantyYears": 2,
-      "color": "Şeffaf Cam / Paslanmaz Çelik & Siyah"
+      "color": "Şeffaf Cam / Paslanmaz Çelik & Siyah",
+      "masterCategory": "kitchen",
+      "masterCategoryLabel": "Mutfak Aletleri"
     },
     "storeOffers": [
       {
@@ -3176,7 +3270,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "autoShutOff": true,
       "weightKg": 1.14,
       "warrantyYears": 2,
-      "color": "Mat Siyah"
+      "color": "Mat Siyah",
+      "masterCategory": "kitchen",
+      "masterCategoryLabel": "Mutfak Aletleri"
     },
     "storeOffers": [
       {
@@ -3242,7 +3338,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "antiCalcSystem": true,
       "weightKg": 0.89,
       "warrantyYears": 2,
-      "color": "Mat Siyah"
+      "color": "Mat Siyah",
+      "masterCategory": "kitchen",
+      "masterCategoryLabel": "Mutfak Aletleri"
     },
     "storeOffers": [
       {
@@ -3309,7 +3407,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "antiCalcSystem": true,
       "weightKg": 1.66,
       "warrantyYears": 2,
-      "color": "Koyu Mor / Siyah & Rose Gold"
+      "color": "Koyu Mor / Siyah & Rose Gold",
+      "masterCategory": "home_tools",
+      "masterCategoryLabel": "Ütü & Ev Gereçleri"
     },
     "storeOffers": [
       {
@@ -3377,7 +3477,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "antiCalcSystem": true,
       "weightKg": 2.6,
       "warrantyYears": 2,
-      "color": "Mavi / Beyaz"
+      "color": "Mavi / Beyaz",
+      "masterCategory": "home_tools",
+      "masterCategoryLabel": "Ütü & Ev Gereçleri"
     },
     "storeOffers": [
       {
@@ -3445,7 +3547,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "antiCalcSystem": true,
       "weightKg": 1.66,
       "warrantyYears": 2,
-      "color": "Lacivert / Şampanya"
+      "color": "Lacivert / Şampanya",
+      "masterCategory": "home_tools",
+      "masterCategoryLabel": "Ütü & Ev Gereçleri"
     },
     "storeOffers": [
       {
@@ -3512,7 +3616,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "antiCalcSystem": true,
       "weightKg": 1.66,
       "warrantyYears": 2,
-      "color": "Mavi / Gümüş"
+      "color": "Mavi / Gümüş",
+      "masterCategory": "home_tools",
+      "masterCategoryLabel": "Ütü & Ev Gereçleri"
     },
     "storeOffers": [
       {
@@ -3579,7 +3685,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "antiCalcSystem": true,
       "weightKg": 1.78,
       "warrantyYears": 2,
-      "color": "Koyu Mavi / Altın Sarı Detaylar"
+      "color": "Koyu Mavi / Altın Sarı Detaylar",
+      "masterCategory": "home_tools",
+      "masterCategoryLabel": "Ütü & Ev Gereçleri"
     },
     "storeOffers": [
       {
@@ -3647,7 +3755,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "antiCalcSystem": true,
       "weightKg": 1.78,
       "warrantyYears": 2,
-      "color": "Mor / Bakır Detaylar"
+      "color": "Mor / Bakır Detaylar",
+      "masterCategory": "home_tools",
+      "masterCategoryLabel": "Ütü & Ev Gereçleri"
     },
     "storeOffers": [
       {
@@ -3714,7 +3824,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "antiCalcSystem": true,
       "weightKg": 1.78,
       "warrantyYears": 2,
-      "color": "Mavi / Rose Gold"
+      "color": "Mavi / Rose Gold",
+      "masterCategory": "home_tools",
+      "masterCategoryLabel": "Ütü & Ev Gereçleri"
     },
     "storeOffers": [
       {
@@ -3781,7 +3893,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "antiCalcSystem": true,
       "weightKg": 1.67,
       "warrantyYears": 2,
-      "color": "Koyu Mavi / Turkuaz"
+      "color": "Koyu Mavi / Turkuaz",
+      "masterCategory": "home_tools",
+      "masterCategoryLabel": "Ütü & Ev Gereçleri"
     },
     "storeOffers": [
       {
@@ -3849,7 +3963,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "antiCalcSystem": true,
       "weightKg": 1.66,
       "warrantyYears": 2,
-      "color": "Mürdüm / Bakır Detaylar"
+      "color": "Mürdüm / Bakır Detaylar",
+      "masterCategory": "home_tools",
+      "masterCategoryLabel": "Ütü & Ev Gereçleri"
     },
     "storeOffers": [
       {
@@ -3916,7 +4032,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "antiCalcSystem": true,
       "weightKg": 1.67,
       "warrantyYears": 2,
-      "color": "Mavi / Gümüş"
+      "color": "Mavi / Gümüş",
+      "masterCategory": "home_tools",
+      "masterCategoryLabel": "Ütü & Ev Gereçleri"
     },
     "storeOffers": [
       {
@@ -3980,7 +4098,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "coldShot": true,
       "weightKg": 0.52,
       "warrantyYears": 2,
-      "color": "Siyah / Pembe Detaylar"
+      "color": "Siyah / Pembe Detaylar",
+      "masterCategory": "personal_care",
+      "masterCategoryLabel": "Kişisel Bakım"
     },
     "storeOffers": [
       {
@@ -4044,7 +4164,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "coldShot": true,
       "weightKg": 0.62,
       "warrantyYears": 2,
-      "color": "Mat Siyah"
+      "color": "Mat Siyah",
+      "masterCategory": "personal_care",
+      "masterCategoryLabel": "Kişisel Bakım"
     },
     "storeOffers": [
       {
@@ -4109,7 +4231,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "coldShot": true,
       "weightKg": 0.82,
       "warrantyYears": 2,
-      "color": "Mat Siyah / Turkuaz Detaylar"
+      "color": "Mat Siyah / Turkuaz Detaylar",
+      "masterCategory": "personal_care",
+      "masterCategoryLabel": "Kişisel Bakım"
     },
     "storeOffers": [
       {
@@ -4175,7 +4299,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "dishwasherSafeParts": true,
       "weightKg": 0.35,
       "warrantyYears": 2,
-      "color": "Siyah / Gümüş"
+      "color": "Siyah / Gümüş",
+      "masterCategory": "personal_care",
+      "masterCategoryLabel": "Kişisel Bakım"
     },
     "storeOffers": [
       {
@@ -4241,7 +4367,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "programsCount": 6,
       "weightKg": 0.28,
       "warrantyYears": 2,
-      "color": "Mat Siyah"
+      "color": "Mat Siyah",
+      "masterCategory": "personal_care",
+      "masterCategoryLabel": "Kişisel Bakım"
     },
     "storeOffers": [
       {
@@ -4305,7 +4433,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "coldShot": true,
       "weightKg": 0.65,
       "warrantyYears": 2,
-      "color": "Mat Koyu Gri / Pembe Detaylar"
+      "color": "Mat Koyu Gri / Pembe Detaylar",
+      "masterCategory": "personal_care",
+      "masterCategoryLabel": "Kişisel Bakım"
     },
     "storeOffers": [
       {
@@ -4372,7 +4502,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "antiCalcSystem": true,
       "weightKg": 2.1,
       "warrantyYears": 2,
-      "color": "Mat Siyah / Metalik Gri"
+      "color": "Mat Siyah / Metalik Gri",
+      "masterCategory": "kitchen",
+      "masterCategoryLabel": "Mutfak Aletleri"
     },
     "storeOffers": [
       {
@@ -4437,7 +4569,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "autoShutOff": true,
       "weightKg": 1.5,
       "warrantyYears": 2,
-      "color": "Fırçalanmış Paslanmaz Çelik"
+      "color": "Fırçalanmış Paslanmaz Çelik",
+      "masterCategory": "kitchen",
+      "masterCategoryLabel": "Mutfak Aletleri"
     },
     "storeOffers": [
       {
@@ -4502,7 +4636,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "antiCalcSystem": true,
       "weightKg": 1,
       "warrantyYears": 2,
-      "color": "Beyaz / Mavi Detaylar"
+      "color": "Beyaz / Mavi Detaylar",
+      "masterCategory": "kitchen",
+      "masterCategoryLabel": "Mutfak Aletleri"
     },
     "storeOffers": [
       {
@@ -4570,7 +4706,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "antiCalcSystem": true,
       "weightKg": 1.78,
       "warrantyYears": 2,
-      "color": "Koyu Mavi / Rose Gold"
+      "color": "Koyu Mavi / Rose Gold",
+      "masterCategory": "home_tools",
+      "masterCategoryLabel": "Ütü & Ev Gereçleri"
     },
     "storeOffers": [
       {
@@ -4638,7 +4776,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "antiCalcSystem": true,
       "weightKg": 2.7,
       "warrantyYears": 2,
-      "color": "Mavi / Beyaz"
+      "color": "Mavi / Beyaz",
+      "masterCategory": "home_tools",
+      "masterCategoryLabel": "Ütü & Ev Gereçleri"
     },
     "storeOffers": [
       {
@@ -4702,7 +4842,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "coldShot": true,
       "weightKg": 0.85,
       "warrantyYears": 2,
-      "color": "Mat Siyah / Mor Detaylar"
+      "color": "Mat Siyah / Mor Detaylar",
+      "masterCategory": "personal_care",
+      "masterCategoryLabel": "Kişisel Bakım"
     },
     "storeOffers": [
       {
@@ -4765,7 +4907,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "coldShot": true,
       "weightKg": 0.65,
       "warrantyYears": 2,
-      "color": "Mat Siyah"
+      "color": "Mat Siyah",
+      "masterCategory": "personal_care",
+      "masterCategoryLabel": "Kişisel Bakım"
     },
     "storeOffers": [
       {
@@ -4830,7 +4974,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "coldShot": true,
       "weightKg": 0.62,
       "warrantyYears": 2,
-      "color": "Metalik Beyaz / Rose Gold"
+      "color": "Metalik Beyaz / Rose Gold",
+      "masterCategory": "personal_care",
+      "masterCategoryLabel": "Kişisel Bakım"
     },
     "storeOffers": [
       {
@@ -4895,7 +5041,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "autoShutOff": true,
       "weightKg": 2.9,
       "warrantyYears": 2,
-      "color": "Siyah / Krom"
+      "color": "Siyah / Krom",
+      "masterCategory": "kitchen",
+      "masterCategoryLabel": "Mutfak Aletleri"
     },
     "storeOffers": [
       {
@@ -4960,7 +5108,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "autoShutOff": true,
       "weightKg": 1.1,
       "warrantyYears": 2,
-      "color": "İpek Beyazı / Gri"
+      "color": "İpek Beyazı / Gri",
+      "masterCategory": "kitchen",
+      "masterCategoryLabel": "Mutfak Aletleri"
     },
     "storeOffers": [
       {
@@ -5025,7 +5175,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "autoShutOff": true,
       "weightKg": 1.2,
       "warrantyYears": 2,
-      "color": "İpek Beyazı / Doğal Ahşap Dokusu"
+      "color": "İpek Beyazı / Doğal Ahşap Dokusu",
+      "masterCategory": "kitchen",
+      "masterCategoryLabel": "Mutfak Aletleri"
     },
     "storeOffers": [
       {
@@ -5093,7 +5245,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "antiCalcSystem": true,
       "weightKg": 4.2,
       "warrantyYears": 2,
-      "color": "Koyu Mor / Siyah"
+      "color": "Koyu Mor / Siyah",
+      "masterCategory": "home_tools",
+      "masterCategoryLabel": "Ütü & Ev Gereçleri"
     },
     "storeOffers": [
       {
@@ -5162,7 +5316,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "antiCalcSystem": true,
       "weightKg": 2.8,
       "warrantyYears": 2,
-      "color": "Açık Mavi / Beyaz"
+      "color": "Açık Mavi / Beyaz",
+      "masterCategory": "home_tools",
+      "masterCategoryLabel": "Ütü & Ev Gereçleri"
     },
     "storeOffers": [
       {
@@ -5225,7 +5381,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "bladeMaterial": "Paslanmaz Çelik PrecisionTrim",
       "weightKg": 0.11,
       "warrantyYears": 2,
-      "color": "Siyah"
+      "color": "Siyah",
+      "masterCategory": "personal_care",
+      "masterCategoryLabel": "Kişisel Bakım"
     },
     "storeOffers": [
       {
@@ -5292,7 +5450,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "keepWarmHours": 12,
       "weightKg": 5.8,
       "warrantyYears": 2,
-      "color": "Metalik Siyah / Krom"
+      "color": "Metalik Siyah / Krom",
+      "masterCategory": "kitchen",
+      "masterCategoryLabel": "Mutfak Aletleri"
     },
     "storeOffers": [
       {
@@ -5359,7 +5519,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "antiCalcSystem": true,
       "weightKg": 1.3,
       "warrantyYears": 2,
-      "color": "Fırçalanmış Paslanmaz Çelik"
+      "color": "Fırçalanmış Paslanmaz Çelik",
+      "masterCategory": "kitchen",
+      "masterCategoryLabel": "Mutfak Aletleri"
     },
     "storeOffers": [
       {
@@ -5424,7 +5586,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "autoShutOff": true,
       "weightKg": 1.1,
       "warrantyYears": 2,
-      "color": "Beyaz / Gri"
+      "color": "Beyaz / Gri",
+      "masterCategory": "kitchen",
+      "masterCategoryLabel": "Mutfak Aletleri"
     },
     "storeOffers": [
       {
@@ -5492,7 +5656,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "antiCalcSystem": true,
       "weightKg": 11.5,
       "warrantyYears": 2,
-      "color": "Koyu Antrasit / Bakır Detaylar"
+      "color": "Koyu Antrasit / Bakır Detaylar",
+      "masterCategory": "home_tools",
+      "masterCategoryLabel": "Ütü & Ev Gereçleri"
     },
     "storeOffers": [
       {
@@ -5560,7 +5726,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "antiCalcSystem": true,
       "weightKg": 2.7,
       "warrantyYears": 2,
-      "color": "Mavi / Beyaz"
+      "color": "Mavi / Beyaz",
+      "masterCategory": "home_tools",
+      "masterCategoryLabel": "Ütü & Ev Gereçleri"
     },
     "storeOffers": [
       {
@@ -5628,7 +5796,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "antiCalcSystem": true,
       "weightKg": 2.7,
       "warrantyYears": 2,
-      "color": "Mavi / Beyaz"
+      "color": "Mavi / Beyaz",
+      "masterCategory": "home_tools",
+      "masterCategoryLabel": "Ütü & Ev Gereçleri"
     },
     "storeOffers": [
       {
@@ -5697,7 +5867,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "antiCalcSystem": true,
       "weightKg": 2.9,
       "warrantyYears": 2,
-      "color": "Mavi / Beyaz"
+      "color": "Mavi / Beyaz",
+      "masterCategory": "home_tools",
+      "masterCategoryLabel": "Ütü & Ev Gereçleri"
     },
     "storeOffers": [
       {
@@ -5765,7 +5937,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "antiCalcSystem": true,
       "weightKg": 2.8,
       "warrantyYears": 2,
-      "color": "Mavi / Beyaz"
+      "color": "Mavi / Beyaz",
+      "masterCategory": "home_tools",
+      "masterCategoryLabel": "Ütü & Ev Gereçleri"
     },
     "storeOffers": [
       {
@@ -5834,7 +6008,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "antiCalcSystem": true,
       "weightKg": 2.8,
       "warrantyYears": 2,
-      "color": "Mavi / Beyaz"
+      "color": "Mavi / Beyaz",
+      "masterCategory": "home_tools",
+      "masterCategoryLabel": "Ütü & Ev Gereçleri"
     },
     "storeOffers": [
       {
@@ -5897,7 +6073,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "bladeMaterial": "Cilt Koruyucu Bıçaklar",
       "weightKg": 0.15,
       "warrantyYears": 2,
-      "color": "Kırmızı / Siyah"
+      "color": "Kırmızı / Siyah",
+      "masterCategory": "personal_care",
+      "masterCategoryLabel": "Kişisel Bakım"
     },
     "storeOffers": [
       {
@@ -5960,7 +6138,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "bladeMaterial": "Paslanmaz Çelik PrecisionTrim",
       "weightKg": 0.12,
       "warrantyYears": 2,
-      "color": "Siyah / Gri"
+      "color": "Siyah / Gri",
+      "masterCategory": "personal_care",
+      "masterCategoryLabel": "Kişisel Bakım"
     },
     "storeOffers": [
       {
@@ -6025,7 +6205,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "autoShutOff": true,
       "weightKg": 1.2,
       "warrantyYears": 2,
-      "color": "Mat Siyah"
+      "color": "Mat Siyah",
+      "masterCategory": "kitchen",
+      "masterCategoryLabel": "Mutfak Aletleri"
     },
     "storeOffers": [
       {
@@ -6094,7 +6276,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "antiCalcSystem": true,
       "weightKg": 2.8,
       "warrantyYears": 2,
-      "color": "Mor / Beyaz"
+      "color": "Mor / Beyaz",
+      "masterCategory": "home_tools",
+      "masterCategoryLabel": "Ütü & Ev Gereçleri"
     },
     "storeOffers": [
       {
@@ -6162,7 +6346,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "antiCalcSystem": true,
       "weightKg": 2.8,
       "warrantyYears": 2,
-      "color": "Mavi / Beyaz"
+      "color": "Mavi / Beyaz",
+      "masterCategory": "home_tools",
+      "masterCategoryLabel": "Ütü & Ev Gereçleri"
     },
     "storeOffers": [
       {
@@ -6231,7 +6417,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "antiCalcSystem": true,
       "weightKg": 2.9,
       "warrantyYears": 2,
-      "color": "Mavi / Beyaz"
+      "color": "Mavi / Beyaz",
+      "masterCategory": "home_tools",
+      "masterCategoryLabel": "Ütü & Ev Gereçleri"
     },
     "storeOffers": [
       {
@@ -6295,7 +6483,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "bladeMaterial": "OneBlade Çift Yönlü Çelik",
       "weightKg": 0.17,
       "warrantyYears": 2,
-      "color": "Limon Yeşili / Kömür Grisi"
+      "color": "Limon Yeşili / Kömür Grisi",
+      "masterCategory": "personal_care",
+      "masterCategoryLabel": "Kişisel Bakım"
     },
     "storeOffers": [
       {
@@ -6361,7 +6551,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "bladeMaterial": "Kendinden Bilenebilen Paslanmaz Çelik",
       "weightKg": 0.22,
       "warrantyYears": 2,
-      "color": "Gümüş / Siyah"
+      "color": "Gümüş / Siyah",
+      "masterCategory": "personal_care",
+      "masterCategoryLabel": "Kişisel Bakım"
     },
     "storeOffers": [
       {
@@ -6428,7 +6620,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "antiCalcSystem": true,
       "weightKg": 1.1,
       "warrantyYears": 2,
-      "color": "Fırçalanmış Paslanmaz Çelik"
+      "color": "Fırçalanmış Paslanmaz Çelik",
+      "masterCategory": "kitchen",
+      "masterCategoryLabel": "Mutfak Aletleri"
     },
     "storeOffers": [
       {
@@ -6493,7 +6687,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "autoShutOff": true,
       "weightKg": 1.5,
       "warrantyYears": 2,
-      "color": "Metalik Gri / Siyah"
+      "color": "Metalik Gri / Siyah",
+      "masterCategory": "kitchen",
+      "masterCategoryLabel": "Mutfak Aletleri"
     },
     "storeOffers": [
       {
@@ -6562,7 +6758,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "antiCalcSystem": true,
       "weightKg": 3.2,
       "warrantyYears": 2,
-      "color": "Mavi / Beyaz"
+      "color": "Mavi / Beyaz",
+      "masterCategory": "home_tools",
+      "masterCategoryLabel": "Ütü & Ev Gereçleri"
     },
     "storeOffers": [
       {
@@ -6630,7 +6828,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "antiCalcSystem": true,
       "weightKg": 2.7,
       "warrantyYears": 2,
-      "color": "Mavi / Beyaz"
+      "color": "Mavi / Beyaz",
+      "masterCategory": "home_tools",
+      "masterCategoryLabel": "Ütü & Ev Gereçleri"
     },
     "storeOffers": [
       {
@@ -6698,7 +6898,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "antiCalcSystem": true,
       "weightKg": 2.5,
       "warrantyYears": 2,
-      "color": "Mavi / Beyaz"
+      "color": "Mavi / Beyaz",
+      "masterCategory": "home_tools",
+      "masterCategoryLabel": "Ütü & Ev Gereçleri"
     },
     "storeOffers": [
       {
@@ -6761,7 +6963,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "programsCount": 6,
       "weightKg": 0.65,
       "warrantyYears": 2,
-      "color": "Mor / Siyah"
+      "color": "Mor / Siyah",
+      "masterCategory": "personal_care",
+      "masterCategoryLabel": "Kişisel Bakım"
     },
     "storeOffers": [
       {
@@ -6824,7 +7028,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "programsCount": 6,
       "weightKg": 0.6,
       "warrantyYears": 2,
-      "color": "Metalik Koyu Gri / Mavi"
+      "color": "Metalik Koyu Gri / Mavi",
+      "masterCategory": "personal_care",
+      "masterCategoryLabel": "Kişisel Bakım"
     },
     "storeOffers": [
       {
@@ -6888,7 +7094,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "bladeMaterial": "Cilt Koruyucu Çelik Bıçaklar",
       "weightKg": 0.15,
       "warrantyYears": 2,
-      "color": "Mavi / Siyah"
+      "color": "Mavi / Siyah",
+      "masterCategory": "personal_care",
+      "masterCategoryLabel": "Kişisel Bakım"
     },
     "storeOffers": [
       {
@@ -6952,7 +7160,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "bladeMaterial": "OneBlade Çelik",
       "weightKg": 0.16,
       "warrantyYears": 2,
-      "color": "Limon Yeşili / Kömür Grisi"
+      "color": "Limon Yeşili / Kömür Grisi",
+      "masterCategory": "personal_care",
+      "masterCategoryLabel": "Kişisel Bakım"
     },
     "storeOffers": [
       {
@@ -7016,7 +7226,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "bladeMaterial": "Cilt Koruyucu Bıçaklar",
       "weightKg": 0.15,
       "warrantyYears": 2,
-      "color": "Siyah / Kırmızı Çizgi"
+      "color": "Siyah / Kırmızı Çizgi",
+      "masterCategory": "personal_care",
+      "masterCategoryLabel": "Kişisel Bakım"
     },
     "storeOffers": [
       {
@@ -7085,7 +7297,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "antiCalcSystem": true,
       "weightKg": 4.2,
       "warrantyYears": 2,
-      "color": "Mor / Beyaz"
+      "color": "Mor / Beyaz",
+      "masterCategory": "home_tools",
+      "masterCategoryLabel": "Ütü & Ev Gereçleri"
     },
     "storeOffers": [
       {
@@ -7154,7 +7368,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "antiCalcSystem": true,
       "weightKg": 2.7,
       "warrantyYears": 2,
-      "color": "Mavi / Beyaz"
+      "color": "Mavi / Beyaz",
+      "masterCategory": "home_tools",
+      "masterCategoryLabel": "Ütü & Ev Gereçleri"
     },
     "storeOffers": [
       {
@@ -7223,7 +7439,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "antiCalcSystem": true,
       "weightKg": 2.6,
       "warrantyYears": 2,
-      "color": "Mavi / Beyaz"
+      "color": "Mavi / Beyaz",
+      "masterCategory": "home_tools",
+      "masterCategoryLabel": "Ütü & Ev Gereçleri"
     },
     "storeOffers": [
       {
@@ -7291,7 +7509,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "antiCalcSystem": true,
       "weightKg": 2.6,
       "warrantyYears": 2,
-      "color": "Mor / Beyaz"
+      "color": "Mor / Beyaz",
+      "masterCategory": "home_tools",
+      "masterCategoryLabel": "Ütü & Ev Gereçleri"
     },
     "storeOffers": [
       {
@@ -7356,7 +7576,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "bladeMaterial": "ComfortCut Kendiliğinden Bilenen Çelik",
       "weightKg": 0.28,
       "warrantyYears": 2,
-      "color": "Koyu Mavi / Siyah"
+      "color": "Koyu Mavi / Siyah",
+      "masterCategory": "personal_care",
+      "masterCategoryLabel": "Kişisel Bakım"
     },
     "storeOffers": [
       {
@@ -7420,7 +7642,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "bladeMaterial": "OneBlade Çelik",
       "weightKg": 0.15,
       "warrantyYears": 2,
-      "color": "Limon Yeşili / Kömür Grisi"
+      "color": "Limon Yeşili / Kömür Grisi",
+      "masterCategory": "personal_care",
+      "masterCategoryLabel": "Kişisel Bakım"
     },
     "storeOffers": [
       {
@@ -7486,7 +7710,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "antiCalcSystem": true,
       "weightKg": 1.6,
       "warrantyYears": 2,
-      "color": "Parlak Siyah / Şeffaf Cam"
+      "color": "Parlak Siyah / Şeffaf Cam",
+      "masterCategory": "kitchen",
+      "masterCategoryLabel": "Mutfak Aletleri"
     },
     "storeOffers": [
       {
@@ -7554,7 +7780,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "antiCalcSystem": true,
       "weightKg": 8,
       "warrantyYears": 2,
-      "color": "Piyano Siyahı / Mat Siyah"
+      "color": "Piyano Siyahı / Mat Siyah",
+      "masterCategory": "kitchen",
+      "masterCategoryLabel": "Mutfak Aletleri"
     },
     "storeOffers": [
       {
@@ -7622,7 +7850,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "antiCalcSystem": true,
       "weightKg": 7.5,
       "warrantyYears": 2,
-      "color": "Mat Siyah"
+      "color": "Mat Siyah",
+      "masterCategory": "kitchen",
+      "masterCategoryLabel": "Mutfak Aletleri"
     },
     "storeOffers": [
       {
@@ -7690,7 +7920,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "antiCalcSystem": true,
       "weightKg": 4.2,
       "warrantyYears": 2,
-      "color": "Beyaz / Koyu Mor"
+      "color": "Beyaz / Koyu Mor",
+      "masterCategory": "home_tools",
+      "masterCategoryLabel": "Ütü & Ev Gereçleri"
     },
     "storeOffers": [
       {
@@ -7759,7 +7991,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "antiCalcSystem": true,
       "weightKg": 3.2,
       "warrantyYears": 2,
-      "color": "Mavi / Beyaz"
+      "color": "Mavi / Beyaz",
+      "masterCategory": "home_tools",
+      "masterCategoryLabel": "Ütü & Ev Gereçleri"
     },
     "storeOffers": [
       {
@@ -7827,7 +8061,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "antiCalcSystem": true,
       "weightKg": 4.2,
       "warrantyYears": 2,
-      "color": "Gök Mavisi / Beyaz"
+      "color": "Gök Mavisi / Beyaz",
+      "masterCategory": "home_tools",
+      "masterCategoryLabel": "Ütü & Ev Gereçleri"
     },
     "storeOffers": [
       {
@@ -7895,7 +8131,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "antiCalcSystem": true,
       "weightKg": 2.9,
       "warrantyYears": 2,
-      "color": "Mavi / Beyaz"
+      "color": "Mavi / Beyaz",
+      "masterCategory": "home_tools",
+      "masterCategoryLabel": "Ütü & Ev Gereçleri"
     },
     "storeOffers": [
       {
@@ -7964,7 +8202,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "antiCalcSystem": true,
       "weightKg": 4.2,
       "warrantyYears": 2,
-      "color": "Mor / Beyaz"
+      "color": "Mor / Beyaz",
+      "masterCategory": "home_tools",
+      "masterCategoryLabel": "Ütü & Ev Gereçleri"
     },
     "storeOffers": [
       {
@@ -8032,7 +8272,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "antiCalcSystem": true,
       "weightKg": 3.2,
       "warrantyYears": 2,
-      "color": "Mavi / Beyaz"
+      "color": "Mavi / Beyaz",
+      "masterCategory": "home_tools",
+      "masterCategoryLabel": "Ütü & Ev Gereçleri"
     },
     "storeOffers": [
       {
@@ -8100,7 +8342,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "antiCalcSystem": true,
       "weightKg": 2.8,
       "warrantyYears": 2,
-      "color": "Mor / Beyaz"
+      "color": "Mor / Beyaz",
+      "masterCategory": "home_tools",
+      "masterCategoryLabel": "Ütü & Ev Gereçleri"
     },
     "storeOffers": [
       {
@@ -8169,7 +8413,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "antiCalcSystem": true,
       "weightKg": 3.8,
       "warrantyYears": 2,
-      "color": "Mavi / Beyaz"
+      "color": "Mavi / Beyaz",
+      "masterCategory": "home_tools",
+      "masterCategoryLabel": "Ütü & Ev Gereçleri"
     },
     "storeOffers": [
       {
@@ -8237,7 +8483,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "antiCalcSystem": true,
       "weightKg": 3.2,
       "warrantyYears": 2,
-      "color": "Mavi / Beyaz"
+      "color": "Mavi / Beyaz",
+      "masterCategory": "home_tools",
+      "masterCategoryLabel": "Ütü & Ev Gereçleri"
     },
     "storeOffers": [
       {
@@ -8301,7 +8549,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "bladeMaterial": "Hipoalerjenik Çelik Folyo",
       "weightKg": 0.22,
       "warrantyYears": 2,
-      "color": "Mavi / Siyah"
+      "color": "Mavi / Siyah",
+      "masterCategory": "personal_care",
+      "masterCategoryLabel": "Kişisel Bakım"
     },
     "storeOffers": [
       {
@@ -8365,7 +8615,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "bladeMaterial": "Hipoalerjenik Folyo",
       "weightKg": 0.2,
       "warrantyYears": 2,
-      "color": "Siyah / Açık Mavi Çizgi"
+      "color": "Siyah / Açık Mavi Çizgi",
+      "masterCategory": "personal_care",
+      "masterCategoryLabel": "Kişisel Bakım"
     },
     "storeOffers": [
       {
@@ -8430,7 +8682,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "bladeMaterial": "Hipoalerjenik Çelik Folyo",
       "weightKg": 0.2,
       "warrantyYears": 2,
-      "color": "Siyah / Gri"
+      "color": "Siyah / Gri",
+      "masterCategory": "personal_care",
+      "masterCategoryLabel": "Kişisel Bakım"
     },
     "storeOffers": [
       {
@@ -8494,7 +8748,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "bladeMaterial": "OneBlade Çelik",
       "weightKg": 0.16,
       "warrantyYears": 2,
-      "color": "Limon Yeşili / Koyu Kömür"
+      "color": "Limon Yeşili / Koyu Kömür",
+      "masterCategory": "personal_care",
+      "masterCategoryLabel": "Kişisel Bakım"
     },
     "storeOffers": [
       {
@@ -8562,7 +8818,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "antiCalcSystem": true,
       "weightKg": 8,
       "warrantyYears": 2,
-      "color": "Mat Titanyum / Krom"
+      "color": "Mat Titanyum / Krom",
+      "masterCategory": "kitchen",
+      "masterCategoryLabel": "Mutfak Aletleri"
     },
     "storeOffers": [
       {
@@ -8630,7 +8888,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "antiCalcSystem": true,
       "weightKg": 7.5,
       "warrantyYears": 2,
-      "color": "Mat Siyah"
+      "color": "Mat Siyah",
+      "masterCategory": "kitchen",
+      "masterCategoryLabel": "Mutfak Aletleri"
     },
     "storeOffers": [
       {
@@ -8697,7 +8957,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "antiCalcSystem": true,
       "weightKg": 7.5,
       "warrantyYears": 2,
-      "color": "Mat Siyah"
+      "color": "Mat Siyah",
+      "masterCategory": "kitchen",
+      "masterCategoryLabel": "Mutfak Aletleri"
     },
     "storeOffers": [
       {
@@ -8765,7 +9027,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "antiCalcSystem": true,
       "weightKg": 3.2,
       "warrantyYears": 2,
-      "color": "Koyu Lacivert / Bakır"
+      "color": "Koyu Lacivert / Bakır",
+      "masterCategory": "home_tools",
+      "masterCategoryLabel": "Ütü & Ev Gereçleri"
     },
     "storeOffers": [
       {
@@ -8834,7 +9098,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "antiCalcSystem": true,
       "weightKg": 3.8,
       "warrantyYears": 2,
-      "color": "Koyu Mor / Altın"
+      "color": "Koyu Mor / Altın",
+      "masterCategory": "home_tools",
+      "masterCategoryLabel": "Ütü & Ev Gereçleri"
     },
     "storeOffers": [
       {
@@ -8902,7 +9168,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "antiCalcSystem": true,
       "weightKg": 5.1,
       "warrantyYears": 2,
-      "color": "Beyaz / Buz Mavisi"
+      "color": "Beyaz / Buz Mavisi",
+      "masterCategory": "home_tools",
+      "masterCategoryLabel": "Ütü & Ev Gereçleri"
     },
     "storeOffers": [
       {
@@ -8970,7 +9238,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "antiCalcSystem": true,
       "weightKg": 3.8,
       "warrantyYears": 2,
-      "color": "Mavi / Beyaz"
+      "color": "Mavi / Beyaz",
+      "masterCategory": "home_tools",
+      "masterCategoryLabel": "Ütü & Ev Gereçleri"
     },
     "storeOffers": [
       {
@@ -9038,7 +9308,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "antiCalcSystem": true,
       "weightKg": 3.4,
       "warrantyYears": 2,
-      "color": "Koyu Mor / Beyaz"
+      "color": "Koyu Mor / Beyaz",
+      "masterCategory": "home_tools",
+      "masterCategoryLabel": "Ütü & Ev Gereçleri"
     },
     "storeOffers": [
       {
@@ -9106,7 +9378,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "antiCalcSystem": true,
       "weightKg": 3.4,
       "warrantyYears": 2,
-      "color": "Açık Mavi / Beyaz"
+      "color": "Açık Mavi / Beyaz",
+      "masterCategory": "home_tools",
+      "masterCategoryLabel": "Ütü & Ev Gereçleri"
     },
     "storeOffers": [
       {
@@ -9171,7 +9445,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "bladeMaterial": "DualCut Paslanmaz Çelik",
       "weightKg": 0.42,
       "warrantyYears": 5,
-      "color": "Fırçalanmış Paslanmaz Çelik"
+      "color": "Fırçalanmış Paslanmaz Çelik",
+      "masterCategory": "personal_care",
+      "masterCategoryLabel": "Kişisel Bakım"
     },
     "storeOffers": [
       {
@@ -9236,7 +9512,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "bladeMaterial": "Hipoalerjenik Çelik Folyo",
       "weightKg": 0.26,
       "warrantyYears": 2,
-      "color": "Gümüş / Siyah"
+      "color": "Gümüş / Siyah",
+      "masterCategory": "personal_care",
+      "masterCategoryLabel": "Kişisel Bakım"
     },
     "storeOffers": [
       {
@@ -9301,7 +9579,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "bladeMaterial": "SteelPrecision Paslanmaz Çelik",
       "weightKg": 0.21,
       "warrantyYears": 2,
-      "color": "Parlak Koyu Mavi / Siyah"
+      "color": "Parlak Koyu Mavi / Siyah",
+      "masterCategory": "personal_care",
+      "masterCategoryLabel": "Kişisel Bakım"
     },
     "storeOffers": [
       {
@@ -9365,7 +9645,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "bladeMaterial": "OneBlade Çelik",
       "weightKg": 0.16,
       "warrantyYears": 2,
-      "color": "Limon Yeşili / Koyu Grafit"
+      "color": "Limon Yeşili / Koyu Grafit",
+      "masterCategory": "personal_care",
+      "masterCategoryLabel": "Kişisel Bakım"
     },
     "storeOffers": [
       {
@@ -9429,7 +9711,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "bladeMaterial": "OneBlade Çelik",
       "weightKg": 0.15,
       "warrantyYears": 2,
-      "color": "Açık Yeşil / Koyu Gri"
+      "color": "Açık Yeşil / Koyu Gri",
+      "masterCategory": "personal_care",
+      "masterCategoryLabel": "Kişisel Bakım"
     },
     "storeOffers": [
       {
@@ -9497,7 +9781,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "antiCalcSystem": true,
       "weightKg": 8,
       "warrantyYears": 2,
-      "color": "Mat Beyaz / Krom"
+      "color": "Mat Beyaz / Krom",
+      "masterCategory": "kitchen",
+      "masterCategoryLabel": "Mutfak Aletleri"
     },
     "storeOffers": [
       {
@@ -9565,7 +9851,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "antiCalcSystem": true,
       "weightKg": 8,
       "warrantyYears": 2,
-      "color": "Gümüş / Siyah"
+      "color": "Gümüş / Siyah",
+      "masterCategory": "kitchen",
+      "masterCategoryLabel": "Mutfak Aletleri"
     },
     "storeOffers": [
       {
@@ -9632,7 +9920,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "antiCalcSystem": true,
       "weightKg": 8,
       "warrantyYears": 2,
-      "color": "Piyano Siyahı / Krom"
+      "color": "Piyano Siyahı / Krom",
+      "masterCategory": "kitchen",
+      "masterCategoryLabel": "Mutfak Aletleri"
     },
     "storeOffers": [
       {
@@ -9699,7 +9989,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "antiCalcSystem": true,
       "weightKg": 7.5,
       "warrantyYears": 2,
-      "color": "Gümüş / Siyah"
+      "color": "Gümüş / Siyah",
+      "masterCategory": "kitchen",
+      "masterCategoryLabel": "Mutfak Aletleri"
     },
     "storeOffers": [
       {
@@ -9766,7 +10058,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "antiCalcSystem": true,
       "weightKg": 7.5,
       "warrantyYears": 2,
-      "color": "Piyano Siyahı / Krom"
+      "color": "Piyano Siyahı / Krom",
+      "masterCategory": "kitchen",
+      "masterCategoryLabel": "Mutfak Aletleri"
     },
     "storeOffers": [
       {
@@ -9834,7 +10128,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "antiCalcSystem": true,
       "weightKg": 7.5,
       "warrantyYears": 2,
-      "color": "Mat Siyah"
+      "color": "Mat Siyah",
+      "masterCategory": "kitchen",
+      "masterCategoryLabel": "Mutfak Aletleri"
     },
     "storeOffers": [
       {
@@ -9901,7 +10197,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "antiCalcSystem": true,
       "weightKg": 7.5,
       "warrantyYears": 2,
-      "color": "Mat Siyah / Krom"
+      "color": "Mat Siyah / Krom",
+      "masterCategory": "kitchen",
+      "masterCategoryLabel": "Mutfak Aletleri"
     },
     "storeOffers": [
       {
@@ -9964,7 +10262,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "autoShutOff": true,
       "weightKg": 2.8,
       "warrantyYears": 2,
-      "color": "Metalik Gri / Siyah"
+      "color": "Metalik Gri / Siyah",
+      "masterCategory": "kitchen",
+      "masterCategoryLabel": "Mutfak Aletleri"
     },
     "storeOffers": [
       {
@@ -10032,7 +10332,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "antiCalcSystem": true,
       "weightKg": 4.5,
       "warrantyYears": 2,
-      "color": "Koyu Mavi / Altın"
+      "color": "Koyu Mavi / Altın",
+      "masterCategory": "home_tools",
+      "masterCategoryLabel": "Ütü & Ev Gereçleri"
     },
     "storeOffers": [
       {
@@ -10100,7 +10402,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "antiCalcSystem": true,
       "weightKg": 5,
       "warrantyYears": 2,
-      "color": "Beyaz / Bakır"
+      "color": "Beyaz / Bakır",
+      "masterCategory": "home_tools",
+      "masterCategoryLabel": "Ütü & Ev Gereçleri"
     },
     "storeOffers": [
       {
@@ -10168,7 +10472,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "antiCalcSystem": true,
       "weightKg": 3.4,
       "warrantyYears": 2,
-      "color": "Mavi / Beyaz"
+      "color": "Mavi / Beyaz",
+      "masterCategory": "home_tools",
+      "masterCategoryLabel": "Ütü & Ev Gereçleri"
     },
     "storeOffers": [
       {
@@ -10233,7 +10539,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "bladeMaterial": "OneBlade Çift Yönlü Çelik",
       "weightKg": 0.22,
       "warrantyYears": 2,
-      "color": "Gümüş / Siyah"
+      "color": "Gümüş / Siyah",
+      "masterCategory": "personal_care",
+      "masterCategoryLabel": "Kişisel Bakım"
     },
     "storeOffers": [
       {
@@ -10297,7 +10605,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "bladeMaterial": "Hipoalerjenik Çelik Folyo",
       "weightKg": 0.28,
       "warrantyYears": 2,
-      "color": "Gümüş / Siyah Kauçuk"
+      "color": "Gümüş / Siyah Kauçuk",
+      "masterCategory": "personal_care",
+      "masterCategoryLabel": "Kişisel Bakım"
     },
     "storeOffers": [
       {
@@ -10362,7 +10672,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "bladeMaterial": "OneBlade 360 Çelik",
       "weightKg": 0.23,
       "warrantyYears": 2,
-      "color": "Koyu Grafit"
+      "color": "Koyu Grafit",
+      "masterCategory": "personal_care",
+      "masterCategoryLabel": "Kişisel Bakım"
     },
     "storeOffers": [
       {
@@ -10426,7 +10738,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "bladeMaterial": "OneBlade Çelik",
       "weightKg": 0.21,
       "warrantyYears": 2,
-      "color": "Siyah / Yeşil Vurgular"
+      "color": "Siyah / Yeşil Vurgular",
+      "masterCategory": "personal_care",
+      "masterCategoryLabel": "Kişisel Bakım"
     },
     "storeOffers": [
       {
@@ -10490,7 +10804,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "bladeMaterial": "Hipoalerjenik Çelik",
       "weightKg": 0.25,
       "warrantyYears": 2,
-      "color": "Gümüş / Siyah"
+      "color": "Gümüş / Siyah",
+      "masterCategory": "personal_care",
+      "masterCategoryLabel": "Kişisel Bakım"
     },
     "storeOffers": [
       {
@@ -10555,7 +10871,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "bladeMaterial": "DualCut Paslanmaz Çelik",
       "weightKg": 0.28,
       "warrantyYears": 4,
-      "color": "Siyah / Krom Vurgular"
+      "color": "Siyah / Krom Vurgular",
+      "masterCategory": "personal_care",
+      "masterCategoryLabel": "Kişisel Bakım"
     },
     "storeOffers": [
       {
@@ -10620,7 +10938,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "bladeMaterial": "Paslanmaz Çelik",
       "weightKg": 0.27,
       "warrantyYears": 2,
-      "color": "Koyu Grafit"
+      "color": "Koyu Grafit",
+      "masterCategory": "personal_care",
+      "masterCategoryLabel": "Kişisel Bakım"
     },
     "storeOffers": [
       {
@@ -10684,7 +11004,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "bladeMaterial": "Paslanmaz Çelik",
       "weightKg": 0.28,
       "warrantyYears": 2,
-      "color": "Gümüş / Koyu Gri"
+      "color": "Gümüş / Koyu Gri",
+      "masterCategory": "personal_care",
+      "masterCategoryLabel": "Kişisel Bakım"
     },
     "storeOffers": [
       {
@@ -10748,7 +11070,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "bladeMaterial": "Paslanmaz Çelik",
       "weightKg": 0.26,
       "warrantyYears": 2,
-      "color": "Koyu Grafit"
+      "color": "Koyu Grafit",
+      "masterCategory": "personal_care",
+      "masterCategoryLabel": "Kişisel Bakım"
     },
     "storeOffers": [
       {
@@ -10812,7 +11136,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "bladeMaterial": "ComfortCut Çelik",
       "weightKg": 0.2,
       "warrantyYears": 2,
-      "color": "Parlak Siyah / Kırmızı Çizgi"
+      "color": "Parlak Siyah / Kırmızı Çizgi",
+      "masterCategory": "personal_care",
+      "masterCategoryLabel": "Kişisel Bakım"
     },
     "storeOffers": [
       {
@@ -10876,7 +11202,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "bladeMaterial": "OneBlade Çelik",
       "weightKg": 0.14,
       "warrantyYears": 2,
-      "color": "Kömür Grisi / Yeşil"
+      "color": "Kömür Grisi / Yeşil",
+      "masterCategory": "personal_care",
+      "masterCategoryLabel": "Kişisel Bakım"
     },
     "storeOffers": [
       {
@@ -10941,7 +11269,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "bladeMaterial": "OneBlade Çelik",
       "weightKg": 0.15,
       "warrantyYears": 2,
-      "color": "Açık Yeşil / Koyu Gri"
+      "color": "Açık Yeşil / Koyu Gri",
+      "masterCategory": "personal_care",
+      "masterCategoryLabel": "Kişisel Bakım"
     },
     "storeOffers": [
       {
@@ -11010,7 +11340,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "antiCalcSystem": true,
       "weightKg": 4.8,
       "warrantyYears": 2,
-      "color": "Koyu Mavi / Altın"
+      "color": "Koyu Mavi / Altın",
+      "masterCategory": "home_tools",
+      "masterCategoryLabel": "Ütü & Ev Gereçleri"
     },
     "storeOffers": [
       {
@@ -11078,7 +11410,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "antiCalcSystem": true,
       "weightKg": 4.8,
       "warrantyYears": 2,
-      "color": "Mor / Bakır"
+      "color": "Mor / Bakır",
+      "masterCategory": "home_tools",
+      "masterCategoryLabel": "Ütü & Ev Gereçleri"
     },
     "storeOffers": [
       {
@@ -11146,7 +11480,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "antiCalcSystem": true,
       "weightKg": 5.1,
       "warrantyYears": 2,
-      "color": "Altın / Siyah"
+      "color": "Altın / Siyah",
+      "masterCategory": "home_tools",
+      "masterCategoryLabel": "Ütü & Ev Gereçleri"
     },
     "storeOffers": [
       {
@@ -11215,7 +11551,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "antiCalcSystem": true,
       "weightKg": 4.4,
       "warrantyYears": 2,
-      "color": "Koyu Mor / Beyaz"
+      "color": "Koyu Mor / Beyaz",
+      "masterCategory": "home_tools",
+      "masterCategoryLabel": "Ütü & Ev Gereçleri"
     },
     "storeOffers": [
       {
@@ -11283,7 +11621,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "antiCalcSystem": true,
       "weightKg": 4.3,
       "warrantyYears": 2,
-      "color": "Mavi / Beyaz"
+      "color": "Mavi / Beyaz",
+      "masterCategory": "home_tools",
+      "masterCategoryLabel": "Ütü & Ev Gereçleri"
     },
     "storeOffers": [
       {
@@ -11347,7 +11687,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "dishwasherSafeParts": true,
       "weightKg": 3.9,
       "warrantyYears": 2,
-      "color": "Metalik Siyah / Paslanmaz Çelik"
+      "color": "Metalik Siyah / Paslanmaz Çelik",
+      "masterCategory": "kitchen",
+      "masterCategoryLabel": "Mutfak Aletleri"
     },
     "storeOffers": [
       {
@@ -11413,7 +11755,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "autoCleanDock": true,
       "weightKg": 0.35,
       "warrantyYears": 2,
-      "color": "Fırçalanmış Platin / Krom"
+      "color": "Fırçalanmış Platin / Krom",
+      "masterCategory": "personal_care",
+      "masterCategoryLabel": "Kişisel Bakım"
     },
     "storeOffers": [
       {
@@ -11478,7 +11822,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "bladeMaterial": "ComfortCut Paslanmaz Çelik",
       "weightKg": 0.22,
       "warrantyYears": 2,
-      "color": "Siyah / Kırmızı Çizgi"
+      "color": "Siyah / Kırmızı Çizgi",
+      "masterCategory": "personal_care",
+      "masterCategoryLabel": "Kişisel Bakım"
     },
     "storeOffers": [
       {
@@ -11543,7 +11889,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "bladeMaterial": "PowerCut Çelik",
       "weightKg": 0.22,
       "warrantyYears": 2,
-      "color": "Koyu Gece Mavisi"
+      "color": "Koyu Gece Mavisi",
+      "masterCategory": "personal_care",
+      "masterCategoryLabel": "Kişisel Bakım"
     },
     "storeOffers": [
       {
@@ -11607,7 +11955,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "bladeMaterial": "Paslanmaz Çelik",
       "weightKg": 0.27,
       "warrantyYears": 2,
-      "color": "Gümüş / Koyu Gri"
+      "color": "Gümüş / Koyu Gri",
+      "masterCategory": "personal_care",
+      "masterCategoryLabel": "Kişisel Bakım"
     },
     "storeOffers": [
       {
@@ -11671,7 +12021,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "bladeMaterial": "PowerCut Çelik",
       "weightKg": 0.2,
       "warrantyYears": 2,
-      "color": "Gece Mavisi / Siyah"
+      "color": "Gece Mavisi / Siyah",
+      "masterCategory": "personal_care",
+      "masterCategoryLabel": "Kişisel Bakım"
     },
     "storeOffers": [
       {
@@ -11735,7 +12087,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "bladeMaterial": "PowerCut Çelik",
       "weightKg": 0.19,
       "warrantyYears": 2,
-      "color": "Koyu Gri / Mavi"
+      "color": "Koyu Gri / Mavi",
+      "masterCategory": "personal_care",
+      "masterCategoryLabel": "Kişisel Bakım"
     },
     "storeOffers": [
       {
@@ -11803,7 +12157,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "antiCalcSystem": true,
       "weightKg": 4.9,
       "warrantyYears": 2,
-      "color": "Koyu Mor / Altın"
+      "color": "Koyu Mor / Altın",
+      "masterCategory": "home_tools",
+      "masterCategoryLabel": "Ütü & Ev Gereçleri"
     },
     "storeOffers": [
       {
@@ -11871,7 +12227,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "antiCalcSystem": true,
       "weightKg": 4.5,
       "warrantyYears": 2,
-      "color": "Mavi / Beyaz"
+      "color": "Mavi / Beyaz",
+      "masterCategory": "home_tools",
+      "masterCategoryLabel": "Ütü & Ev Gereçleri"
     },
     "storeOffers": [
       {
@@ -11939,7 +12297,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "antiCalcSystem": true,
       "weightKg": 4.5,
       "warrantyYears": 2,
-      "color": "Turkuaz / Beyaz"
+      "color": "Turkuaz / Beyaz",
+      "masterCategory": "home_tools",
+      "masterCategoryLabel": "Ütü & Ev Gereçleri"
     },
     "storeOffers": [
       {
@@ -12007,7 +12367,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "antiCalcSystem": true,
       "weightKg": 4.8,
       "warrantyYears": 2,
-      "color": "Bakır / Koyu Mavi"
+      "color": "Bakır / Koyu Mavi",
+      "masterCategory": "home_tools",
+      "masterCategoryLabel": "Ütü & Ev Gereçleri"
     },
     "storeOffers": [
       {
@@ -12075,7 +12437,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "antiCalcSystem": true,
       "weightKg": 4.5,
       "warrantyYears": 2,
-      "color": "Mor / Beyaz"
+      "color": "Mor / Beyaz",
+      "masterCategory": "home_tools",
+      "masterCategoryLabel": "Ütü & Ev Gereçleri"
     },
     "storeOffers": [
       {
@@ -12141,7 +12505,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "autoCleanDock": true,
       "weightKg": 0.29,
       "warrantyYears": 2,
-      "color": "Krom Metalik / Gece Grisi"
+      "color": "Krom Metalik / Gece Grisi",
+      "masterCategory": "personal_care",
+      "masterCategoryLabel": "Kişisel Bakım"
     },
     "storeOffers": [
       {
@@ -12208,7 +12574,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "autoCleanDock": false,
       "weightKg": 0.32,
       "warrantyYears": 2,
-      "color": "Fırçalanmış Titanyum"
+      "color": "Fırçalanmış Titanyum",
+      "masterCategory": "personal_care",
+      "masterCategoryLabel": "Kişisel Bakım"
     },
     "storeOffers": [
       {
@@ -12274,7 +12642,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "autoCleanDock": true,
       "weightKg": 0.23,
       "warrantyYears": 2,
-      "color": "Koyu Grafit"
+      "color": "Koyu Grafit",
+      "masterCategory": "personal_care",
+      "masterCategoryLabel": "Kişisel Bakım"
     },
     "storeOffers": [
       {
@@ -12338,7 +12708,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "bladeMaterial": "DualCut Paslanmaz Çelik",
       "weightKg": 0.33,
       "warrantyYears": 5,
-      "color": "Gümüş / Siyah Kauçuk"
+      "color": "Gümüş / Siyah Kauçuk",
+      "masterCategory": "personal_care",
+      "masterCategoryLabel": "Kişisel Bakım"
     },
     "storeOffers": [
       {
@@ -12402,7 +12774,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "bladeMaterial": "DualCut Paslanmaz Çelik",
       "weightKg": 0.34,
       "warrantyYears": 5,
-      "color": "Fırçalanmış Çelik"
+      "color": "Fırçalanmış Çelik",
+      "masterCategory": "personal_care",
+      "masterCategoryLabel": "Kişisel Bakım"
     },
     "storeOffers": [
       {
@@ -12466,7 +12840,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "bladeMaterial": "Paslanmaz Çelik",
       "weightKg": 0.31,
       "warrantyYears": 5,
-      "color": "Gümüş / Siyah"
+      "color": "Gümüş / Siyah",
+      "masterCategory": "personal_care",
+      "masterCategoryLabel": "Kişisel Bakım"
     },
     "storeOffers": [
       {
@@ -12530,7 +12906,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "bladeMaterial": "Paslanmaz Çelik",
       "weightKg": 0.29,
       "warrantyYears": 2,
-      "color": "Antrasit / Gümüş"
+      "color": "Antrasit / Gümüş",
+      "masterCategory": "personal_care",
+      "masterCategoryLabel": "Kişisel Bakım"
     },
     "storeOffers": [
       {
@@ -12594,7 +12972,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "bladeMaterial": "SteelPrecision",
       "weightKg": 0.22,
       "warrantyYears": 2,
-      "color": "Mavi / Siyah"
+      "color": "Mavi / Siyah",
+      "masterCategory": "personal_care",
+      "masterCategoryLabel": "Kişisel Bakım"
     },
     "storeOffers": [
       {
@@ -12658,7 +13038,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "bladeMaterial": "Paslanmaz Çelik",
       "weightKg": 0.28,
       "warrantyYears": 2,
-      "color": "Gümüş / Koyu Gri"
+      "color": "Gümüş / Koyu Gri",
+      "masterCategory": "personal_care",
+      "masterCategoryLabel": "Kişisel Bakım"
     },
     "storeOffers": [
       {
@@ -12722,7 +13104,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "bladeMaterial": "PowerCut Çelik",
       "weightKg": 0.21,
       "warrantyYears": 2,
-      "color": "Koyu Gece Mavisi"
+      "color": "Koyu Gece Mavisi",
+      "masterCategory": "personal_care",
+      "masterCategoryLabel": "Kişisel Bakım"
     },
     "storeOffers": [
       {
@@ -12790,7 +13174,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "antiCalcSystem": true,
       "weightKg": 5.5,
       "warrantyYears": 2,
-      "color": "Koyu Mor / Altın"
+      "color": "Koyu Mor / Altın",
+      "masterCategory": "home_tools",
+      "masterCategoryLabel": "Ütü & Ev Gereçleri"
     },
     "storeOffers": [
       {
@@ -12892,7 +13278,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "antiCalcSystem": true,
       "weightKg": 4.9,
       "warrantyYears": 2,
-      "color": "Gece Mavisi / Bakır"
+      "color": "Gece Mavisi / Bakır",
+      "masterCategory": "home_tools",
+      "masterCategoryLabel": "Ütü & Ev Gereçleri"
     },
     "storeOffers": [
       {
@@ -12975,7 +13363,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "antiCalcSystem": true,
       "weightKg": 4.8,
       "warrantyYears": 2,
-      "color": "Beyaz / Rose Gold"
+      "color": "Beyaz / Rose Gold",
+      "masterCategory": "home_tools",
+      "masterCategoryLabel": "Ütü & Ev Gereçleri"
     },
     "storeOffers": [
       {
@@ -13043,7 +13433,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "antiCalcSystem": true,
       "weightKg": 4.7,
       "warrantyYears": 2,
-      "color": "Mavi / Gümüş"
+      "color": "Mavi / Gümüş",
+      "masterCategory": "home_tools",
+      "masterCategoryLabel": "Ütü & Ev Gereçleri"
     },
     "storeOffers": [
       {
@@ -13110,7 +13502,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "autoCleanDock": true,
       "weightKg": 0.28,
       "warrantyYears": 2,
-      "color": "Lüks Metalik Krom / Siyah"
+      "color": "Lüks Metalik Krom / Siyah",
+      "masterCategory": "personal_care",
+      "masterCategoryLabel": "Kişisel Bakım"
     },
     "storeOffers": [
       {
@@ -13176,7 +13570,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "bladeMaterial": "Kendiliğinden Bilenebilen Paslanmaz Çelik",
       "weightKg": 0.35,
       "warrantyYears": 5,
-      "color": "Fırçalanmış Paslanmaz Çelik"
+      "color": "Fırçalanmış Paslanmaz Çelik",
+      "masterCategory": "personal_care",
+      "masterCategoryLabel": "Kişisel Bakım"
     },
     "storeOffers": [
       {
@@ -13241,7 +13637,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "bladeMaterial": "DualCut Paslanmaz Çelik",
       "weightKg": 0.32,
       "warrantyYears": 2,
-      "color": "Gümüş / Siyah"
+      "color": "Gümüş / Siyah",
+      "masterCategory": "personal_care",
+      "masterCategoryLabel": "Kişisel Bakım"
     },
     "storeOffers": [
       {
@@ -13306,7 +13704,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "autoCleanDock": true,
       "weightKg": 0.24,
       "warrantyYears": 2,
-      "color": "Koyu Gece Mavisi"
+      "color": "Koyu Gece Mavisi",
+      "masterCategory": "personal_care",
+      "masterCategoryLabel": "Kişisel Bakım"
     },
     "storeOffers": [
       {
@@ -13370,7 +13770,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "bladeMaterial": "SteelPrecision",
       "weightKg": 0.22,
       "warrantyYears": 2,
-      "color": "Grafit Grisi"
+      "color": "Grafit Grisi",
+      "masterCategory": "personal_care",
+      "masterCategoryLabel": "Kişisel Bakım"
     },
     "storeOffers": [
       {
@@ -13434,7 +13836,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "bladeMaterial": "Paslanmaz Çelik",
       "weightKg": 0.28,
       "warrantyYears": 2,
-      "color": "Gümüş Metalik / Siyah"
+      "color": "Gümüş Metalik / Siyah",
+      "masterCategory": "personal_care",
+      "masterCategoryLabel": "Kişisel Bakım"
     },
     "storeOffers": [
       {
@@ -13498,7 +13902,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "bladeMaterial": "Paslanmaz Çelik",
       "weightKg": 0.27,
       "warrantyYears": 2,
-      "color": "Gümüş / Gri"
+      "color": "Gümüş / Gri",
+      "masterCategory": "personal_care",
+      "masterCategoryLabel": "Kişisel Bakım"
     },
     "storeOffers": [
       {
@@ -13562,7 +13968,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "bladeMaterial": "ComfortCut Çelik",
       "weightKg": 0.21,
       "warrantyYears": 2,
-      "color": "Mavi / Siyah"
+      "color": "Mavi / Siyah",
+      "masterCategory": "personal_care",
+      "masterCategoryLabel": "Kişisel Bakım"
     },
     "storeOffers": [
       {
@@ -13625,7 +14033,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "wetDryUsage": true,
       "weightKg": 0.18,
       "warrantyYears": 2,
-      "color": "Pastel Pembe / Beyaz"
+      "color": "Pastel Pembe / Beyaz",
+      "masterCategory": "personal_care",
+      "masterCategoryLabel": "Kişisel Bakım"
     },
     "storeOffers": [
       {
@@ -13689,7 +14099,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "dishwasherSafeParts": true,
       "weightKg": 4.1,
       "warrantyYears": 2,
-      "color": "Gümüş Metalik / Siyah"
+      "color": "Gümüş Metalik / Siyah",
+      "masterCategory": "kitchen",
+      "masterCategoryLabel": "Mutfak Aletleri"
     },
     "storeOffers": [
       {
@@ -13749,7 +14161,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "subCategoryLabel": "Pil & Güç",
       "batteryCapacityMah": 2800,
       "warrantyYears": 2,
-      "color": "Mavi / Altın"
+      "color": "Mavi / Altın",
+      "masterCategory": "home_tools",
+      "masterCategoryLabel": "Ütü & Ev Gereçleri"
     },
     "storeOffers": [
       {
@@ -13818,7 +14232,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "programsCount": 8,
       "weightKg": 4.5,
       "warrantyYears": 2,
-      "color": "Siyah / Beyaz"
+      "color": "Siyah / Beyaz",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -13901,7 +14317,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "programsCount": 8,
       "weightKg": 4.5,
       "warrantyYears": 2,
-      "color": "Siyah"
+      "color": "Siyah",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -13969,7 +14387,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "programsCount": 7,
       "weightKg": 4.4,
       "warrantyYears": 2,
-      "color": "Siyah"
+      "color": "Siyah",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -14037,7 +14457,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "programsCount": 7,
       "weightKg": 4.3,
       "warrantyYears": 2,
-      "color": "Beyaz"
+      "color": "Beyaz",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -14105,7 +14527,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "programsCount": 7,
       "weightKg": 4.4,
       "warrantyYears": 2,
-      "color": "Beyaz"
+      "color": "Beyaz",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -14173,7 +14597,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "programsCount": 7,
       "weightKg": 4.4,
       "warrantyYears": 2,
-      "color": "Beyaz"
+      "color": "Beyaz",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -14241,7 +14667,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "programsCount": 7,
       "weightKg": 4.1,
       "warrantyYears": 2,
-      "color": "Siyah"
+      "color": "Siyah",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -14309,7 +14737,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "programsCount": 7,
       "weightKg": 4.4,
       "warrantyYears": 2,
-      "color": "Beyaz"
+      "color": "Beyaz",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -14377,7 +14807,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "programsCount": 4,
       "weightKg": 4.8,
       "warrantyYears": 2,
-      "color": "Siyah"
+      "color": "Siyah",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -14446,7 +14878,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "programsCount": 6,
       "weightKg": 4.3,
       "warrantyYears": 2,
-      "color": "Beyaz"
+      "color": "Beyaz",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -14514,7 +14948,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "programsCount": 6,
       "weightKg": 4.3,
       "warrantyYears": 2,
-      "color": "Beyaz"
+      "color": "Beyaz",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -14582,7 +15018,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "programsCount": 6,
       "weightKg": 4.2,
       "warrantyYears": 2,
-      "color": "Beyaz"
+      "color": "Beyaz",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -14650,7 +15088,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "programsCount": 6,
       "weightKg": 4.1,
       "warrantyYears": 2,
-      "color": "Beyaz"
+      "color": "Beyaz",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -14718,7 +15158,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "programsCount": 6,
       "weightKg": 4.1,
       "warrantyYears": 2,
-      "color": "Beyaz"
+      "color": "Beyaz",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -14786,7 +15228,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "programsCount": 6,
       "weightKg": 4.3,
       "warrantyYears": 2,
-      "color": "Siyah / Beyaz"
+      "color": "Siyah / Beyaz",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -14855,7 +15299,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "programsCount": 4,
       "weightKg": 4.6,
       "warrantyYears": 2,
-      "color": "Siyah / Gri"
+      "color": "Siyah / Gri",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -14924,7 +15370,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "programsCount": 3,
       "weightKg": 1.5,
       "warrantyYears": 2,
-      "color": "Uzay Grisi"
+      "color": "Uzay Grisi",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -14992,7 +15440,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "programsCount": 5,
       "weightKg": 3.9,
       "warrantyYears": 2,
-      "color": "Siyah / Beyaz"
+      "color": "Siyah / Beyaz",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -15060,7 +15510,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "programsCount": 3,
       "weightKg": 4.3,
       "warrantyYears": 2,
-      "color": "Siyah"
+      "color": "Siyah",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -15128,7 +15580,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "programsCount": 3,
       "weightKg": 4.4,
       "warrantyYears": 2,
-      "color": "Beyaz / Gri"
+      "color": "Beyaz / Gri",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -15197,7 +15651,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "programsCount": 3,
       "weightKg": 1.4,
       "warrantyYears": 2,
-      "color": "Gri"
+      "color": "Gri",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -15265,7 +15721,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "programsCount": 5,
       "weightKg": 4.2,
       "warrantyYears": 2,
-      "color": "Mor / Sarı / Nikel"
+      "color": "Mor / Sarı / Nikel",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -15334,7 +15792,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "programsCount": 8,
       "weightKg": 4.8,
       "warrantyYears": 2,
-      "color": "Siyah / Beyaz"
+      "color": "Siyah / Beyaz",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -15417,7 +15877,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "programsCount": 7,
       "weightKg": 4.4,
       "warrantyYears": 2,
-      "color": "Beyaz"
+      "color": "Beyaz",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -15485,7 +15947,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "programsCount": 7,
       "weightKg": 4.4,
       "warrantyYears": 2,
-      "color": "Beyaz"
+      "color": "Beyaz",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -15553,7 +16017,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "programsCount": 7,
       "weightKg": 4.3,
       "warrantyYears": 2,
-      "color": "Siyah / Beyaz"
+      "color": "Siyah / Beyaz",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -15622,7 +16088,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "programsCount": 7,
       "weightKg": 4,
       "warrantyYears": 2,
-      "color": "Siyah / Beyaz"
+      "color": "Siyah / Beyaz",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -15691,7 +16159,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "programsCount": 5,
       "weightKg": 4.6,
       "warrantyYears": 2,
-      "color": "Siyah / Nikel"
+      "color": "Siyah / Nikel",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -15760,7 +16230,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "programsCount": 4,
       "weightKg": 3.1,
       "warrantyYears": 2,
-      "color": "Mor / Nikel"
+      "color": "Mor / Nikel",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -15828,7 +16300,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "programsCount": 5,
       "weightKg": 0.61,
       "warrantyYears": 2,
-      "color": "Kupfer / Nikel"
+      "color": "Kupfer / Nikel",
+      "masterCategory": "personal_care",
+      "masterCategoryLabel": "Kişisel Bakım"
     },
     "storeOffers": [
       {
@@ -15972,7 +16446,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "material": "Tam Döküm Çinko Metal",
       "weightKg": 10.98,
       "warrantyYears": 5,
-      "color": "Empire Kırmızı / Mat Siyah"
+      "color": "Empire Kırmızı / Mat Siyah",
+      "masterCategory": "kitchen",
+      "masterCategoryLabel": "Mutfak Aletleri"
     }
   },
   {
@@ -16012,7 +16488,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "programsCount": 6,
       "weightKg": 0.61,
       "warrantyYears": 2,
-      "color": "Vinca Blue / Bakır"
+      "color": "Vinca Blue / Bakır",
+      "masterCategory": "personal_care",
+      "masterCategoryLabel": "Kişisel Bakım"
     },
     "storeOffers": [
       {
@@ -16081,7 +16559,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "programsCount": 4,
       "weightKg": 3.2,
       "warrantyYears": 2,
-      "color": "Beyaz / Gümüş"
+      "color": "Beyaz / Gümüş",
+      "masterCategory": "climate",
+      "masterCategoryLabel": "Isıtma & Soğutma"
     },
     "storeOffers": [
       {
@@ -16228,7 +16708,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "material": "Paslanmaz Çelik & Termoblok",
       "weightKg": 9,
       "warrantyYears": 2,
-      "color": "Siyah"
+      "color": "Siyah",
+      "masterCategory": "kitchen",
+      "masterCategoryLabel": "Mutfak Aletleri"
     }
   },
   {
@@ -16345,7 +16827,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "material": "Döküm Alüminyum Yapışmaz Plaka & Paslanmaz Çelik",
       "weightKg": 5.2,
       "warrantyYears": 2,
-      "color": "Inox / Siyah"
+      "color": "Inox / Siyah",
+      "masterCategory": "kitchen",
+      "masterCategoryLabel": "Mutfak Aletleri"
     }
   },
   {
@@ -16385,7 +16869,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "programsCount": 6,
       "weightKg": 4.2,
       "warrantyYears": 2,
-      "color": "Beyaz"
+      "color": "Beyaz",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -16453,7 +16939,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "programsCount": 5,
       "weightKg": 4.1,
       "warrantyYears": 2,
-      "color": "Beyaz"
+      "color": "Beyaz",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -16521,7 +17009,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "programsCount": 6,
       "weightKg": 4.2,
       "warrantyYears": 2,
-      "color": "Beyaz"
+      "color": "Beyaz",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -16589,7 +17079,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "programsCount": 6,
       "weightKg": 4.2,
       "warrantyYears": 2,
-      "color": "Beyaz"
+      "color": "Beyaz",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -16657,7 +17149,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "programsCount": 6,
       "weightKg": 4.2,
       "warrantyYears": 2,
-      "color": "Beyaz"
+      "color": "Beyaz",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -16725,7 +17219,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "programsCount": 6,
       "weightKg": 4.1,
       "warrantyYears": 2,
-      "color": "Beyaz"
+      "color": "Beyaz",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -16793,7 +17289,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "programsCount": 5,
       "weightKg": 4.4,
       "warrantyYears": 2,
-      "color": "Siyah / Beyaz"
+      "color": "Siyah / Beyaz",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -16861,7 +17359,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "programsCount": 5,
       "weightKg": 4.3,
       "warrantyYears": 2,
-      "color": "Beyaz"
+      "color": "Beyaz",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -16929,7 +17429,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "programsCount": 4,
       "weightKg": 5,
       "warrantyYears": 2,
-      "color": "Siyah"
+      "color": "Siyah",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -16997,7 +17499,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "programsCount": 5,
       "weightKg": 4.2,
       "warrantyYears": 2,
-      "color": "Siyah / Beyaz"
+      "color": "Siyah / Beyaz",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -17065,7 +17569,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "programsCount": 3,
       "weightKg": 2.68,
       "warrantyYears": 2,
-      "color": "Kırmızı / Nikel"
+      "color": "Kırmızı / Nikel",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -17133,7 +17639,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "programsCount": 3,
       "weightKg": 3.8,
       "warrantyYears": 2,
-      "color": "Sarı / Nikel"
+      "color": "Sarı / Nikel",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -17201,7 +17709,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "programsCount": 3,
       "weightKg": 4.5,
       "warrantyYears": 2,
-      "color": "Gümüş / Nikel"
+      "color": "Gümüş / Nikel",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -17269,7 +17779,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "programsCount": 3,
       "weightKg": 7.96,
       "warrantyYears": 5,
-      "color": "Kırmızı / Nikel"
+      "color": "Kırmızı / Nikel",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -17337,7 +17849,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "programsCount": 3,
       "weightKg": 4.9,
       "warrantyYears": 2,
-      "color": "Siyah / Mavi"
+      "color": "Siyah / Mavi",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -17483,7 +17997,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "material": "Durilium AirGlide Autoclean Taban",
       "weightKg": 4.8,
       "warrantyYears": 2,
-      "color": "Mavi / Beyaz"
+      "color": "Mavi / Beyaz",
+      "masterCategory": "home_tools",
+      "masterCategoryLabel": "Ütü & Ev Gereçleri"
     }
   },
   {
@@ -17600,7 +18116,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "material": "Alüminyum & Yapışmaz Seramik",
       "weightKg": 6.22,
       "warrantyYears": 2,
-      "color": "Koyu Gri / Mat Siyah"
+      "color": "Koyu Gri / Mat Siyah",
+      "masterCategory": "kitchen",
+      "masterCategoryLabel": "Mutfak Aletleri"
     }
   },
   {
@@ -17716,7 +18234,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "material": "Paslanmaz Çelik & Dokunmatik Cam Panel",
       "weightKg": 4.1,
       "warrantyYears": 3,
-      "color": "Krom / Bakır / Siyah"
+      "color": "Krom / Bakır / Siyah",
+      "masterCategory": "kitchen",
+      "masterCategoryLabel": "Mutfak Aletleri"
     }
   },
   {
@@ -17833,7 +18353,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "material": "Borosilikat Cam & Paslanmaz Çelik",
       "weightKg": 2.8,
       "warrantyYears": 2,
-      "color": "Siyah / Rose Gold"
+      "color": "Siyah / Rose Gold",
+      "masterCategory": "kitchen",
+      "masterCategoryLabel": "Mutfak Aletleri"
     }
   },
   {
@@ -17950,7 +18472,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "material": "Paslanmaz Çelik Bıçak & Tritan Bardak",
       "weightKg": 2.7,
       "warrantyYears": 2,
-      "color": "Şampanya / Gümüş"
+      "color": "Şampanya / Gümüş",
+      "masterCategory": "kitchen",
+      "masterCategoryLabel": "Mutfak Aletleri"
     }
   },
   {
@@ -17990,7 +18514,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "programsCount": 5,
       "weightKg": 3.8,
       "warrantyYears": 2,
-      "color": "Siyah / Beyaz"
+      "color": "Siyah / Beyaz",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -18139,7 +18665,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "programsCount": 4,
       "weightKg": 3.8,
       "warrantyYears": 2,
-      "color": "Beyaz"
+      "color": "Beyaz",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     }
   },
   {
@@ -18179,7 +18707,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "programsCount": 3,
       "weightKg": 4,
       "warrantyYears": 2,
-      "color": "Beyaz"
+      "color": "Beyaz",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -18247,7 +18777,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "programsCount": 5,
       "weightKg": 3.7,
       "warrantyYears": 2,
-      "color": "Siyah / Beyaz"
+      "color": "Siyah / Beyaz",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -18315,7 +18847,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "programsCount": 2,
       "weightKg": 2.55,
       "warrantyYears": 2,
-      "color": "Gümüş / Sarı"
+      "color": "Gümüş / Sarı",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -18384,7 +18918,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "programsCount": 3,
       "weightKg": 1.55,
       "warrantyYears": 2,
-      "color": "Gümüş / Kırmızı"
+      "color": "Gümüş / Kırmızı",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -18452,7 +18988,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "programsCount": 5,
       "weightKg": 3.8,
       "warrantyYears": 2,
-      "color": "Siyah / Beyaz"
+      "color": "Siyah / Beyaz",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -18521,7 +19059,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "programsCount": 5,
       "weightKg": 4,
       "warrantyYears": 2,
-      "color": "Beyaz"
+      "color": "Beyaz",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -18667,7 +19207,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "material": "Paslanmaz Çelik & Döküm Izgara",
       "weightKg": 7.8,
       "warrantyYears": 2,
-      "color": "Inox Paslanmaz Çelik"
+      "color": "Inox Paslanmaz Çelik",
+      "masterCategory": "kitchen",
+      "masterCategoryLabel": "Mutfak Aletleri"
     }
   },
   {
@@ -18707,7 +19249,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "programsCount": 4,
       "weightKg": 3.5,
       "warrantyYears": 2,
-      "color": "Beyaz"
+      "color": "Beyaz",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -18775,7 +19319,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "programsCount": 5,
       "weightKg": 4.8,
       "warrantyYears": 2,
-      "color": "Siyah / Beyaz"
+      "color": "Siyah / Beyaz",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -18843,7 +19389,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "programsCount": 27,
       "weightKg": 83,
       "warrantyYears": 3,
-      "color": "Siyah / Beyaz"
+      "color": "Siyah / Beyaz",
+      "masterCategory": "kitchen",
+      "masterCategoryLabel": "Mutfak Aletleri"
     },
     "storeOffers": [
       {
@@ -18911,7 +19459,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "programsCount": 4,
       "weightKg": 4.1,
       "warrantyYears": 2,
-      "color": "Sarı / Nikel"
+      "color": "Sarı / Nikel",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -18979,7 +19529,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "programsCount": 5,
       "weightKg": 5.5,
       "warrantyYears": 2,
-      "color": "Siyah / Beyaz"
+      "color": "Siyah / Beyaz",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -19048,7 +19600,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "programsCount": 5,
       "weightKg": 4.7,
       "warrantyYears": 2,
-      "color": "Beyaz"
+      "color": "Beyaz",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -19116,7 +19670,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "programsCount": 5,
       "weightKg": 4.5,
       "warrantyYears": 2,
-      "color": "Siyah / Beyaz"
+      "color": "Siyah / Beyaz",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -19184,7 +19740,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "programsCount": 6,
       "weightKg": 4.2,
       "warrantyYears": 2,
-      "color": "Beyaz"
+      "color": "Beyaz",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -19252,7 +19810,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "programsCount": 4,
       "weightKg": 4.5,
       "warrantyYears": 2,
-      "color": "Mavi / Nikel"
+      "color": "Mavi / Nikel",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -19335,7 +19895,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "programsCount": 5,
       "weightKg": 4.1,
       "warrantyYears": 2,
-      "color": "Siyah / Beyaz"
+      "color": "Siyah / Beyaz",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -19403,7 +19965,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "programsCount": 5,
       "weightKg": 4.4,
       "warrantyYears": 2,
-      "color": "Siyah / Beyaz"
+      "color": "Siyah / Beyaz",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -19472,7 +20036,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "programsCount": 4,
       "weightKg": 2.4,
       "warrantyYears": 2,
-      "color": "Sarı / Nikel"
+      "color": "Sarı / Nikel",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -19540,7 +20106,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "programsCount": 5,
       "weightKg": 4.2,
       "warrantyYears": 2,
-      "color": "Siyah"
+      "color": "Siyah",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -19608,7 +20176,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "programsCount": 4,
       "weightKg": 4.8,
       "warrantyYears": 2,
-      "color": "Siyah / Beyaz"
+      "color": "Siyah / Beyaz",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -19676,7 +20246,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "programsCount": 5,
       "weightKg": 3.8,
       "warrantyYears": 2,
-      "color": "Siyah / Beyaz"
+      "color": "Siyah / Beyaz",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -19759,7 +20331,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "programsCount": 4,
       "weightKg": 3.6,
       "warrantyYears": 2,
-      "color": "Siyah"
+      "color": "Siyah",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -19827,7 +20401,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "programsCount": 2,
       "weightKg": 2.5,
       "warrantyYears": 2,
-      "color": "Gümüş / Mor"
+      "color": "Gümüş / Mor",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -19895,7 +20471,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "programsCount": 5,
       "weightKg": 4.7,
       "warrantyYears": 2,
-      "color": "Beyaz"
+      "color": "Beyaz",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -19964,7 +20542,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "programsCount": 6,
       "weightKg": 4.7,
       "warrantyYears": 2,
-      "color": "Siyah"
+      "color": "Siyah",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -20033,7 +20613,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "programsCount": 4,
       "weightKg": 0.66,
       "warrantyYears": 2,
-      "color": "Prusya Mavisi / Bakır"
+      "color": "Prusya Mavisi / Bakır",
+      "masterCategory": "personal_care",
+      "masterCategoryLabel": "Kişisel Bakım"
     },
     "storeOffers": [
       {
@@ -20101,7 +20683,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "programsCount": 4,
       "weightKg": 0.66,
       "warrantyYears": 2,
-      "color": "Nikel / Bakır"
+      "color": "Nikel / Bakır",
+      "masterCategory": "personal_care",
+      "masterCategoryLabel": "Kişisel Bakım"
     },
     "storeOffers": [
       {
@@ -20169,7 +20753,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "programsCount": 4,
       "weightKg": 0.66,
       "warrantyYears": 2,
-      "color": "Parlak Bakır / Nikel"
+      "color": "Parlak Bakır / Nikel",
+      "masterCategory": "personal_care",
+      "masterCategoryLabel": "Kişisel Bakım"
     },
     "storeOffers": [
       {
@@ -20237,7 +20823,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "programsCount": 4,
       "weightKg": 0.66,
       "warrantyYears": 2,
-      "color": "Fuşya / Nikel"
+      "color": "Fuşya / Nikel",
+      "masterCategory": "personal_care",
+      "masterCategoryLabel": "Kişisel Bakım"
     },
     "storeOffers": [
       {
@@ -20305,7 +20893,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "programsCount": 5,
       "weightKg": 4.6,
       "warrantyYears": 2,
-      "color": "Siyah"
+      "color": "Siyah",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -20373,7 +20963,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "programsCount": 5,
       "weightKg": 4.3,
       "warrantyYears": 2,
-      "color": "Siyah / Beyaz"
+      "color": "Siyah / Beyaz",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -20441,7 +21033,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "programsCount": 5,
       "weightKg": 4.7,
       "warrantyYears": 2,
-      "color": "Siyah"
+      "color": "Siyah",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -20509,7 +21103,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "programsCount": 5,
       "weightKg": 3.7,
       "warrantyYears": 2,
-      "color": "Siyah / Beyaz"
+      "color": "Siyah / Beyaz",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -20577,7 +21173,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "programsCount": 4,
       "weightKg": 4,
       "warrantyYears": 2,
-      "color": "Siyah"
+      "color": "Siyah",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -20645,7 +21243,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "programsCount": 3,
       "weightKg": 2.67,
       "warrantyYears": 2,
-      "color": "Siyah / Nikel"
+      "color": "Siyah / Nikel",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -20713,7 +21313,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "programsCount": 4,
       "weightKg": 4.2,
       "warrantyYears": 2,
-      "color": "Beyaz"
+      "color": "Beyaz",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -20781,7 +21383,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "programsCount": 4,
       "weightKg": 3.5,
       "warrantyYears": 2,
-      "color": "Beyaz"
+      "color": "Beyaz",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -20849,7 +21453,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "programsCount": 2,
       "weightKg": 2.6,
       "warrantyYears": 2,
-      "color": "Kırmızı / Nikel"
+      "color": "Kırmızı / Nikel",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -20917,7 +21523,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "programsCount": 4,
       "weightKg": 3.2,
       "warrantyYears": 2,
-      "color": "Siyah"
+      "color": "Siyah",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -20985,7 +21593,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "programsCount": 3,
       "weightKg": 3,
       "warrantyYears": 2,
-      "color": "Sarı / Demir"
+      "color": "Sarı / Demir",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -21054,7 +21664,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "programsCount": 3,
       "weightKg": 2.2,
       "warrantyYears": 2,
-      "color": "Sarı / Demir"
+      "color": "Sarı / Demir",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -21123,7 +21735,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "programsCount": 5,
       "weightKg": 4.7,
       "warrantyYears": 2,
-      "color": "Beyaz"
+      "color": "Beyaz",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -21191,7 +21805,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "programsCount": 5,
       "weightKg": 4.7,
       "warrantyYears": 2,
-      "color": "Beyaz / Siyah"
+      "color": "Beyaz / Siyah",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -21260,7 +21876,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "programsCount": 5,
       "weightKg": 4.5,
       "warrantyYears": 2,
-      "color": "Beyaz / Siyah"
+      "color": "Beyaz / Siyah",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -21329,7 +21947,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "programsCount": 3,
       "weightKg": 5.5,
       "warrantyYears": 2,
-      "color": "Beyaz / Siyah"
+      "color": "Beyaz / Siyah",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -21397,7 +22017,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "programsCount": 3,
       "weightKg": 1.46,
       "warrantyYears": 2,
-      "color": "Kırmızı / Gri"
+      "color": "Kırmızı / Gri",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -21465,7 +22087,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "programsCount": 3,
       "weightKg": 5,
       "warrantyYears": 2,
-      "color": "Siyah / Beyaz"
+      "color": "Siyah / Beyaz",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -21533,7 +22157,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "programsCount": 4,
       "weightKg": 3.2,
       "warrantyYears": 2,
-      "color": "Siyah / Beyaz"
+      "color": "Siyah / Beyaz",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -21601,7 +22227,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "programsCount": 4,
       "weightKg": 3.7,
       "warrantyYears": 2,
-      "color": "Siyah"
+      "color": "Siyah",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -21669,7 +22297,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "programsCount": 4,
       "weightKg": 3.6,
       "warrantyYears": 2,
-      "color": "Beyaz"
+      "color": "Beyaz",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -21737,7 +22367,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "programsCount": 3,
       "weightKg": 1.43,
       "warrantyYears": 2,
-      "color": "Kırmızı / Gri"
+      "color": "Kırmızı / Gri",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -21805,7 +22437,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "programsCount": 4,
       "weightKg": 3.2,
       "warrantyYears": 2,
-      "color": "Siyah"
+      "color": "Siyah",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -21873,7 +22507,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "programsCount": 4,
       "weightKg": 3.5,
       "warrantyYears": 2,
-      "color": "Beyaz / Siyah"
+      "color": "Beyaz / Siyah",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -21942,7 +22578,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "programsCount": 4,
       "weightKg": 3.6,
       "warrantyYears": 2,
-      "color": "Beyaz / Siyah"
+      "color": "Beyaz / Siyah",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -22010,7 +22648,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "programsCount": 4,
       "weightKg": 3.5,
       "warrantyYears": 2,
-      "color": "Siyah"
+      "color": "Siyah",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -22078,7 +22718,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "programsCount": 3,
       "weightKg": 3,
       "warrantyYears": 2,
-      "color": "Beyaz"
+      "color": "Beyaz",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -22146,7 +22788,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "programsCount": 3,
       "weightKg": 8,
       "warrantyYears": 5,
-      "color": "Gümüş / Mor"
+      "color": "Gümüş / Mor",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -22214,7 +22858,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "programsCount": 3,
       "weightKg": 2.68,
       "warrantyYears": 2,
-      "color": "Bakır / Nikel"
+      "color": "Bakır / Nikel",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -22282,7 +22928,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "programsCount": 3,
       "weightKg": 8,
       "warrantyYears": 5,
-      "color": "Gümüş / Kırmızı"
+      "color": "Gümüş / Kırmızı",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -22350,7 +22998,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "programsCount": 4,
       "weightKg": 3.5,
       "warrantyYears": 2,
-      "color": "Siyah"
+      "color": "Siyah",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -22418,7 +23068,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "programsCount": 3,
       "weightKg": 7.96,
       "warrantyYears": 5,
-      "color": "Sarı / Gri"
+      "color": "Sarı / Gri",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -22486,7 +23138,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "programsCount": 4,
       "weightKg": 3.5,
       "warrantyYears": 2,
-      "color": "Beyaz"
+      "color": "Beyaz",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -22554,7 +23208,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "programsCount": 4,
       "weightKg": 3.5,
       "warrantyYears": 2,
-      "color": "Siyah"
+      "color": "Siyah",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -22622,7 +23278,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "programsCount": 4,
       "weightKg": 3.5,
       "warrantyYears": 2,
-      "color": "Beyaz"
+      "color": "Beyaz",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -22690,7 +23348,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "programsCount": 4,
       "weightKg": 3.2,
       "warrantyYears": 2,
-      "color": "Koyu Gri"
+      "color": "Koyu Gri",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -22758,7 +23418,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "programsCount": 3,
       "weightKg": 3,
       "warrantyYears": 2,
-      "color": "Beyaz"
+      "color": "Beyaz",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -22826,7 +23488,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "programsCount": 3,
       "weightKg": 3,
       "warrantyYears": 2,
-      "color": "Koyu Gri"
+      "color": "Koyu Gri",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -22894,7 +23558,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "programsCount": 3,
       "weightKg": 3,
       "warrantyYears": 2,
-      "color": "Beyaz"
+      "color": "Beyaz",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -22962,7 +23628,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "programsCount": 3,
       "weightKg": 3,
       "warrantyYears": 2,
-      "color": "Beyaz"
+      "color": "Beyaz",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -23030,7 +23698,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "programsCount": 4,
       "weightKg": 3.5,
       "warrantyYears": 2,
-      "color": "Beyaz"
+      "color": "Beyaz",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -23098,7 +23768,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "programsCount": 4,
       "weightKg": 0.66,
       "warrantyYears": 2,
-      "color": "Fuşya / Demir"
+      "color": "Fuşya / Demir",
+      "masterCategory": "personal_care",
+      "masterCategoryLabel": "Kişisel Bakım"
     },
     "storeOffers": [
       {
@@ -23166,7 +23838,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "programsCount": 2,
       "weightKg": 2.61,
       "warrantyYears": 2,
-      "color": "Sarı / Nikel"
+      "color": "Sarı / Nikel",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -23238,7 +23912,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "appControl": true,
       "weightKg": 5.7,
       "warrantyYears": 2,
-      "color": "Gümüş / Beyaz"
+      "color": "Gümüş / Beyaz",
+      "masterCategory": "climate",
+      "masterCategoryLabel": "Isıtma & Soğutma"
     },
     "storeOffers": [
       {
@@ -23321,7 +23997,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 72,
       "weightKg": 0.93,
       "warrantyYears": 2,
-      "color": "Ceramic Pink / Gül Kurusu"
+      "color": "Ceramic Pink / Gül Kurusu",
+      "masterCategory": "personal_care",
+      "masterCategoryLabel": "Kişisel Bakım"
     },
     "storeOffers": [
       {
@@ -23404,7 +24082,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 75,
       "weightKg": 0.68,
       "warrantyYears": 2,
-      "color": "Paten Mavi / Topaz Turuncusu"
+      "color": "Paten Mavi / Topaz Turuncusu",
+      "masterCategory": "personal_care",
+      "masterCategoryLabel": "Kişisel Bakım"
     },
     "storeOffers": [
       {
@@ -23486,7 +24166,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 46,
       "weightKg": 5.29,
       "warrantyYears": 2,
-      "color": "Beyaz / Gümüş"
+      "color": "Beyaz / Gümüş",
+      "masterCategory": "climate",
+      "masterCategoryLabel": "Isıtma & Soğutma"
     },
     "storeOffers": [
       {
@@ -23567,7 +24249,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "powerWatts": 1600,
       "weightKg": 0.93,
       "warrantyYears": 2,
-      "color": "Prusya Mavisi / Bakır"
+      "color": "Prusya Mavisi / Bakır",
+      "masterCategory": "personal_care",
+      "masterCategoryLabel": "Kişisel Bakım"
     },
     "storeOffers": [
       {
@@ -23650,7 +24334,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "appControl": true,
       "weightKg": 11.9,
       "warrantyYears": 2,
-      "color": "Saten Mavi / Altın"
+      "color": "Saten Mavi / Altın",
+      "masterCategory": "climate",
+      "masterCategoryLabel": "Isıtma & Soğutma"
     },
     "storeOffers": [
       {
@@ -23727,7 +24413,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "appControl": true,
       "weightKg": 8.2,
       "warrantyYears": 2,
-      "color": "Beyaz / Gümüş"
+      "color": "Beyaz / Gümüş",
+      "masterCategory": "climate",
+      "masterCategoryLabel": "Isıtma & Soğutma"
     },
     "storeOffers": [
       {
@@ -23807,7 +24495,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "powerWatts": 1600,
       "weightKg": 0.93,
       "warrantyYears": 2,
-      "color": "Nikel / Bakır"
+      "color": "Nikel / Bakır",
+      "masterCategory": "personal_care",
+      "masterCategoryLabel": "Kişisel Bakım"
     },
     "storeOffers": [
       {
@@ -23883,7 +24573,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 68,
       "weightKg": 1.8,
       "warrantyYears": 2,
-      "color": "Demir / Mor"
+      "color": "Demir / Mor",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -23967,7 +24659,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "appControl": true,
       "weightKg": 0.451,
       "warrantyYears": 2,
-      "color": "CNC Bakır / Gece Mavisi"
+      "color": "CNC Bakır / Gece Mavisi",
+      "masterCategory": "personal_care",
+      "masterCategoryLabel": "Kişisel Bakım"
     },
     "storeOffers": [
       {
@@ -24048,7 +24742,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 48,
       "weightKg": 2.1,
       "warrantyYears": 2,
-      "color": "Beyaz / Gümüş"
+      "color": "Beyaz / Gümüş",
+      "masterCategory": "climate",
+      "masterCategoryLabel": "Isıtma & Soğutma"
     },
     "storeOffers": [
       {
@@ -24132,7 +24828,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "appControl": true,
       "weightKg": 8.05,
       "warrantyYears": 2,
-      "color": "Beyaz / Parlak Altın"
+      "color": "Beyaz / Parlak Altın",
+      "masterCategory": "climate",
+      "masterCategoryLabel": "Isıtma & Soğutma"
     },
     "storeOffers": [
       {
@@ -24210,7 +24908,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "appControl": true,
       "weightKg": 11.9,
       "warrantyYears": 2,
-      "color": "Parlak Mavi / Altın"
+      "color": "Parlak Mavi / Altın",
+      "masterCategory": "climate",
+      "masterCategoryLabel": "Isıtma & Soğutma"
     },
     "storeOffers": [
       {
@@ -24286,7 +24986,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "appControl": true,
       "weightKg": 4.85,
       "warrantyYears": 2,
-      "color": "Beyaz / Altın"
+      "color": "Beyaz / Altın",
+      "masterCategory": "climate",
+      "masterCategoryLabel": "Isıtma & Soğutma"
     },
     "storeOffers": [
       {
@@ -24360,7 +25062,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "powerWatts": 1300,
       "weightKg": 0.61,
       "warrantyYears": 2,
-      "color": "Jasper Plum (Koyu Mor)"
+      "color": "Jasper Plum (Koyu Mor)",
+      "masterCategory": "personal_care",
+      "masterCategoryLabel": "Kişisel Bakım"
     },
     "storeOffers": [
       {
@@ -24435,7 +25139,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "appControl": true,
       "weightKg": 11.9,
       "warrantyYears": 2,
-      "color": "Gümüş / Nikel"
+      "color": "Gümüş / Nikel",
+      "masterCategory": "climate",
+      "masterCategoryLabel": "Isıtma & Soğutma"
     },
     "storeOffers": [
       {
@@ -24512,7 +25218,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 74,
       "weightKg": 1.6,
       "warrantyYears": 2,
-      "color": "Gümüş / Sarı"
+      "color": "Gümüş / Sarı",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -24593,7 +25301,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 64,
       "weightKg": 2.85,
       "warrantyYears": 2,
-      "color": "Beyaz / Gümüş"
+      "color": "Beyaz / Gümüş",
+      "masterCategory": "climate",
+      "masterCategoryLabel": "Isıtma & Soğutma"
     },
     "storeOffers": [
       {
@@ -24670,7 +25380,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 82,
       "weightKg": 3,
       "warrantyYears": 2,
-      "color": "Nikel / Mavi"
+      "color": "Nikel / Mavi",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -24746,7 +25458,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "appControl": true,
       "weightKg": 4.65,
       "warrantyYears": 2,
-      "color": "Beyaz / Gümüş"
+      "color": "Beyaz / Gümüş",
+      "masterCategory": "climate",
+      "masterCategoryLabel": "Isıtma & Soğutma"
     },
     "storeOffers": [
       {
@@ -24820,7 +25534,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "powerWatts": 1300,
       "weightKg": 0.61,
       "warrantyYears": 2,
-      "color": "Nikel / Bakır"
+      "color": "Nikel / Bakır",
+      "masterCategory": "personal_care",
+      "masterCategoryLabel": "Kişisel Bakım"
     },
     "storeOffers": [
       {
@@ -24893,7 +25609,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "powerWatts": 1300,
       "weightKg": 0.61,
       "warrantyYears": 2,
-      "color": "Prusya Mavisi / Bakır"
+      "color": "Prusya Mavisi / Bakır",
+      "masterCategory": "personal_care",
+      "masterCategoryLabel": "Kişisel Bakım"
     },
     "storeOffers": [
       {
@@ -24961,7 +25679,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 77,
       "weightKg": 0.56,
       "warrantyYears": 2,
-      "color": "Gümüş / Nikel"
+      "color": "Gümüş / Nikel",
+      "masterCategory": "personal_care",
+      "masterCategoryLabel": "Kişisel Bakım"
     },
     "storeOffers": [
       {
@@ -25045,7 +25765,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 73,
       "weightKg": 0.325,
       "warrantyYears": 2,
-      "color": "Jasper Plum (Koyu Mor)"
+      "color": "Jasper Plum (Koyu Mor)",
+      "masterCategory": "personal_care",
+      "masterCategoryLabel": "Kişisel Bakım"
     },
     "storeOffers": [
       {
@@ -25128,7 +25850,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 80,
       "weightKg": 2.67,
       "warrantyYears": 2,
-      "color": "Bakır / Demir"
+      "color": "Bakır / Demir",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -25196,7 +25920,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "appControl": true,
       "weightKg": 4.9,
       "warrantyYears": 2,
-      "color": "Gümüş / Beyaz"
+      "color": "Gümüş / Beyaz",
+      "masterCategory": "climate",
+      "masterCategoryLabel": "Isıtma & Soğutma"
     },
     "storeOffers": [
       {
@@ -25262,7 +25988,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "powerWatts": 1300,
       "weightKg": 0.61,
       "warrantyYears": 2,
-      "color": "Parlak Bakır / Nikel"
+      "color": "Parlak Bakır / Nikel",
+      "masterCategory": "personal_care",
+      "masterCategoryLabel": "Kişisel Bakım"
     },
     "storeOffers": [
       {
@@ -25330,7 +26058,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "capacity": "100 ml",
       "weightKg": 0.25,
       "warrantyYears": 1,
-      "color": "Mat Metalik / Mavi"
+      "color": "Mat Metalik / Mavi",
+      "masterCategory": "personal_care",
+      "masterCategoryLabel": "Kişisel Bakım"
     },
     "storeOffers": [
       {
@@ -25400,7 +26130,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "capacity": "100 ml",
       "weightKg": 0.25,
       "warrantyYears": 1,
-      "color": "Mat Metalik / Mor"
+      "color": "Mat Metalik / Mor",
+      "masterCategory": "personal_care",
+      "masterCategoryLabel": "Kişisel Bakım"
     },
     "storeOffers": [
       {
@@ -25463,7 +26195,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "capacity": "100 ml",
       "weightKg": 0.25,
       "warrantyYears": 1,
-      "color": "Mat Metalik / Pembe"
+      "color": "Mat Metalik / Pembe",
+      "masterCategory": "personal_care",
+      "masterCategoryLabel": "Kişisel Bakım"
     },
     "storeOffers": [
       {
@@ -25526,7 +26260,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "capacity": "100 ml",
       "weightKg": 0.25,
       "warrantyYears": 1,
-      "color": "Mat Metalik / Mavi"
+      "color": "Mat Metalik / Mavi",
+      "masterCategory": "personal_care",
+      "masterCategoryLabel": "Kişisel Bakım"
     },
     "storeOffers": [
       {
@@ -25585,7 +26321,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "capacity": "100 ml",
       "weightKg": 0.25,
       "warrantyYears": 1,
-      "color": "Mat Metalik / Mor"
+      "color": "Mat Metalik / Mor",
+      "masterCategory": "personal_care",
+      "masterCategoryLabel": "Kişisel Bakım"
     },
     "storeOffers": [
       {
@@ -25644,7 +26382,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "capacity": "100 ml",
       "weightKg": 0.25,
       "warrantyYears": 1,
-      "color": "Mat Metalik / Bakır"
+      "color": "Mat Metalik / Bakır",
+      "masterCategory": "personal_care",
+      "masterCategoryLabel": "Kişisel Bakım"
     },
     "storeOffers": [
       {
@@ -25710,7 +26450,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "capacity": "100 ml",
       "weightKg": 0.25,
       "warrantyYears": 1,
-      "color": "Mat Metalik / Pembe"
+      "color": "Mat Metalik / Pembe",
+      "masterCategory": "personal_care",
+      "masterCategoryLabel": "Kişisel Bakım"
     },
     "storeOffers": [
       {
@@ -25770,7 +26512,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "capacity": "30 ml",
       "weightKg": 0.15,
       "warrantyYears": 1,
-      "color": "Şeffaf / Altın"
+      "color": "Şeffaf / Altın",
+      "masterCategory": "personal_care",
+      "masterCategoryLabel": "Kişisel Bakım"
     },
     "storeOffers": [
       {
@@ -25836,7 +26580,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 77,
       "weightKg": 0.65,
       "warrantyYears": 2,
-      "color": "Antrasit / Fuşya"
+      "color": "Antrasit / Fuşya",
+      "masterCategory": "personal_care",
+      "masterCategoryLabel": "Kişisel Bakım"
     },
     "storeOffers": [
       {
@@ -25895,7 +26641,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "powerWatts": 1600,
       "weightKg": 0.93,
       "warrantyYears": 2,
-      "color": "Strawberry Bronze (Çilek Bronzu)"
+      "color": "Strawberry Bronze (Çilek Bronzu)",
+      "masterCategory": "personal_care",
+      "masterCategoryLabel": "Kişisel Bakım"
     },
     "storeOffers": [
       {
@@ -25962,7 +26710,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "batteryRuntimeMin": 30,
       "weightKg": 0.561,
       "warrantyYears": 2,
-      "color": "Parlak Bakır / Nikel"
+      "color": "Parlak Bakır / Nikel",
+      "masterCategory": "personal_care",
+      "masterCategoryLabel": "Kişisel Bakım"
     },
     "storeOffers": [
       {
@@ -26036,7 +26786,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "appControl": true,
       "weightKg": 0.67,
       "warrantyYears": 2,
-      "color": "Ultra Mavi / Parlak Bakır"
+      "color": "Ultra Mavi / Parlak Bakır",
+      "masterCategory": "climate",
+      "masterCategoryLabel": "Isıtma & Soğutma"
     },
     "storeOffers": [
       {
@@ -26097,7 +26849,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "capacity": "2 L",
       "weightKg": 7.8,
       "warrantyYears": 5,
-      "color": "Demir / Mor"
+      "color": "Demir / Mor",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -26158,7 +26912,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "capacity": "2 L",
       "weightKg": 7.5,
       "warrantyYears": 5,
-      "color": "Demir / Sarı"
+      "color": "Demir / Sarı",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -26219,7 +26975,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "capacity": "2 L",
       "weightKg": 7.5,
       "warrantyYears": 5,
-      "color": "Platin / Mor"
+      "color": "Platin / Mor",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -26280,7 +27038,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "capacity": "2 L",
       "weightKg": 7.3,
       "warrantyYears": 5,
-      "color": "Gümüş / Sarı"
+      "color": "Gümüş / Sarı",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -26340,7 +27100,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "capacity": "2 L",
       "weightKg": 7.5,
       "warrantyYears": 5,
-      "color": "Demir / Mavi"
+      "color": "Demir / Mavi",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -26401,7 +27163,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "capacity": "1.5 L",
       "weightKg": 6,
       "warrantyYears": 5,
-      "color": "Saten Mavi / Gri"
+      "color": "Saten Mavi / Gri",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -26462,7 +27226,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "capacity": "1.8 L",
       "weightKg": 7.1,
       "warrantyYears": 5,
-      "color": "Demir / Sarı"
+      "color": "Demir / Sarı",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -26522,7 +27288,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "capacity": "2 L",
       "weightKg": 7.3,
       "warrantyYears": 5,
-      "color": "Gümüş / Kırmızı"
+      "color": "Gümüş / Kırmızı",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -26582,7 +27350,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "capacity": "1.8 L",
       "weightKg": 7.1,
       "warrantyYears": 5,
-      "color": "Sarı / Demir"
+      "color": "Sarı / Demir",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -26642,7 +27412,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "capacity": "2 L",
       "weightKg": 7.3,
       "warrantyYears": 5,
-      "color": "Gümüş / Mavi"
+      "color": "Gümüş / Mavi",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -26703,7 +27475,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "capacity": "2 L",
       "weightKg": 7.8,
       "warrantyYears": 5,
-      "color": "Platin / Mor"
+      "color": "Platin / Mor",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -26763,7 +27537,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "capacity": "2 L",
       "weightKg": 7.8,
       "warrantyYears": 5,
-      "color": "Demir / Mor"
+      "color": "Demir / Mor",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -26823,7 +27599,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "capacity": "2 L",
       "weightKg": 7.8,
       "warrantyYears": 5,
-      "color": "Platin / Kırmızı"
+      "color": "Platin / Kırmızı",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -26884,7 +27662,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "capacity": "2 L",
       "weightKg": 7.8,
       "warrantyYears": 5,
-      "color": "Demir / Sarı"
+      "color": "Demir / Sarı",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -26945,7 +27725,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "capacity": "2 L",
       "weightKg": 7.8,
       "warrantyYears": 5,
-      "color": "Demir / Turuncu"
+      "color": "Demir / Turuncu",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -27005,7 +27787,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "capacity": "2 L",
       "weightKg": 7.5,
       "warrantyYears": 5,
-      "color": "Saten Mavi / Gri"
+      "color": "Saten Mavi / Gri",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -27067,7 +27851,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "capacity": "1.6 L",
       "weightKg": 7.7,
       "warrantyYears": 5,
-      "color": "Antrasit / Sarı"
+      "color": "Antrasit / Sarı",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -27127,7 +27913,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "capacity": "2 L",
       "weightKg": 7.3,
       "warrantyYears": 5,
-      "color": "Gümüş / Sarı"
+      "color": "Gümüş / Sarı",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -27188,7 +27976,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "capacity": "1.6 L",
       "weightKg": 6.7,
       "warrantyYears": 5,
-      "color": "Platin / Sarı"
+      "color": "Platin / Sarı",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -27249,7 +28039,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "capacity": "1 L",
       "weightKg": 5,
       "warrantyYears": 5,
-      "color": "Demir / Sarı"
+      "color": "Demir / Sarı",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -27310,7 +28102,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "capacity": "1.2 L",
       "weightKg": 5.5,
       "warrantyYears": 5,
-      "color": "Demir / Sarı"
+      "color": "Demir / Sarı",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -27371,7 +28165,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "capacity": "1.6 L",
       "weightKg": 7.7,
       "warrantyYears": 5,
-      "color": "Antrasit / Mor"
+      "color": "Antrasit / Mor",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -27431,7 +28227,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "capacity": "1.38 L",
       "weightKg": 7.4,
       "warrantyYears": 5,
-      "color": "Gümüş / Sarı"
+      "color": "Gümüş / Sarı",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -27492,7 +28290,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "capacity": "0.8 L",
       "weightKg": 5.4,
       "warrantyYears": 5,
-      "color": "Platin / Sarı"
+      "color": "Platin / Sarı",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -27552,7 +28352,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "capacity": "2 L",
       "weightKg": 7.3,
       "warrantyYears": 5,
-      "color": "Gümüş / Turuncu"
+      "color": "Gümüş / Turuncu",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -27612,7 +28414,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "capacity": "2 L",
       "weightKg": 7.9,
       "warrantyYears": 5,
-      "color": "Saten Mavi / Gri"
+      "color": "Saten Mavi / Gri",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -27674,7 +28478,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "capacity": "1.6 L",
       "weightKg": 8,
       "warrantyYears": 5,
-      "color": "Antrasit / Sarı"
+      "color": "Antrasit / Sarı",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -27742,7 +28548,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "capacity": "1.5 L",
       "weightKg": 7.96,
       "warrantyYears": 5,
-      "color": "Gümüş / Mavi"
+      "color": "Gümüş / Mavi",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -27803,7 +28611,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "capacity": "1.5 L",
       "weightKg": 7.96,
       "warrantyYears": 5,
-      "color": "Gümüş / Kırmızı"
+      "color": "Gümüş / Kırmızı",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -27864,7 +28674,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "capacity": "1.2 L",
       "weightKg": 6,
       "warrantyYears": 5,
-      "color": "Saten Mavi / Gri"
+      "color": "Saten Mavi / Gri",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -27927,7 +28739,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "capacity": "0.77 L",
       "weightKg": 3,
       "warrantyYears": 2,
-      "color": "Nikel / Sarı / Demir"
+      "color": "Nikel / Sarı / Demir",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -27994,7 +28808,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "capacity": "2 L",
       "weightKg": 8.5,
       "warrantyYears": 5,
-      "color": "Gümüş / Sarı"
+      "color": "Gümüş / Sarı",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -28055,7 +28871,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "capacity": "1.5 L",
       "weightKg": 7.96,
       "warrantyYears": 5,
-      "color": "Gümüş / Sarı"
+      "color": "Gümüş / Sarı",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -28117,7 +28935,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "capacity": "0.54 L",
       "weightKg": 2.63,
       "warrantyYears": 2,
-      "color": "Nikel / Kırmızı / Mavi"
+      "color": "Nikel / Kırmızı / Mavi",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -28185,7 +29005,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "capacity": "0.54 L",
       "weightKg": 2.47,
       "warrantyYears": 2,
-      "color": "Mavi / Nikel"
+      "color": "Mavi / Nikel",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -28246,7 +29068,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "capacity": "0.4 L",
       "weightKg": 2.04,
       "warrantyYears": 2,
-      "color": "Saten Mavi / Nikel"
+      "color": "Saten Mavi / Nikel",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -28308,7 +29132,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "capacity": "0.77 L",
       "weightKg": 3,
       "warrantyYears": 2,
-      "color": "Parlak Altın / Demir"
+      "color": "Parlak Altın / Demir",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -28378,7 +29204,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "capacity": "0.77 L",
       "weightKg": 3.8,
       "warrantyYears": 2,
-      "color": "Sarı / Demir / Mavi"
+      "color": "Sarı / Demir / Mavi",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -28446,7 +29274,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "capacity": "0.77 L",
       "weightKg": 3,
       "warrantyYears": 2,
-      "color": "Nikel / Sarı / Mor"
+      "color": "Nikel / Sarı / Mor",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -28507,7 +29337,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "capacity": "0.4 L",
       "weightKg": 2.11,
       "warrantyYears": 2,
-      "color": "Mor / Nikel"
+      "color": "Mor / Nikel",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -28567,7 +29399,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "capacity": "2 L",
       "weightKg": 8.9,
       "warrantyYears": 5,
-      "color": "Platin / Mor"
+      "color": "Platin / Mor",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -28627,7 +29461,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "capacity": "0.85 L",
       "weightKg": 5.4,
       "warrantyYears": 5,
-      "color": "Sarı / Gri"
+      "color": "Sarı / Gri",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -28687,7 +29523,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "capacity": "0.85 L",
       "weightKg": 5.4,
       "warrantyYears": 5,
-      "color": "Mavi / Platin"
+      "color": "Mavi / Platin",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -28748,7 +29586,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "capacity": "0.4 L",
       "weightKg": 2.3,
       "warrantyYears": 2,
-      "color": "Nikel / Kırmızı"
+      "color": "Nikel / Kırmızı",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -28814,7 +29654,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "capacity": "0.33 L",
       "weightKg": 2.51,
       "warrantyYears": 2,
-      "color": "Parlak Mavi / Nikel"
+      "color": "Parlak Mavi / Nikel",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -28884,7 +29726,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "capacity": "0.76 L",
       "weightKg": 2.97,
       "warrantyYears": 2,
-      "color": "Nikel / Mor / Bakır"
+      "color": "Nikel / Mor / Bakır",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -28952,7 +29796,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 64,
       "weightKg": 2.7,
       "warrantyYears": 2,
-      "color": "Beyaz / Gümüş"
+      "color": "Beyaz / Gümüş",
+      "masterCategory": "climate",
+      "masterCategoryLabel": "Isıtma & Soğutma"
     },
     "storeOffers": [
       {
@@ -29027,7 +29873,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "capacity": "1.6 L",
       "weightKg": 7.7,
       "warrantyYears": 5,
-      "color": "Antrasit / Mor"
+      "color": "Antrasit / Mor",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -29087,7 +29935,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "capacity": "2 L",
       "weightKg": 8.6,
       "warrantyYears": 5,
-      "color": "Platin / Mor"
+      "color": "Platin / Mor",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -29148,7 +29998,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "capacity": "1.6 L",
       "weightKg": 7.7,
       "warrantyYears": 5,
-      "color": "Antrasit / Turuncu"
+      "color": "Antrasit / Turuncu",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -29208,7 +30060,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "capacity": "2 L",
       "weightKg": 7.3,
       "warrantyYears": 5,
-      "color": "Gümüş / Sarı"
+      "color": "Gümüş / Sarı",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -29269,7 +30123,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "capacity": "0.68 L",
       "weightKg": 5.2,
       "warrantyYears": 5,
-      "color": "Gümüş / Mavi"
+      "color": "Gümüş / Mavi",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -29331,7 +30187,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "capacity": "1.6 L",
       "weightKg": 8,
       "warrantyYears": 5,
-      "color": "Antrasit / Mor"
+      "color": "Antrasit / Mor",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -29398,7 +30256,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "capacity": "1.6 L",
       "weightKg": 6.7,
       "warrantyYears": 5,
-      "color": "Gümüş / Sarı"
+      "color": "Gümüş / Sarı",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -29458,7 +30318,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "capacity": "2 L",
       "weightKg": 7.5,
       "warrantyYears": 5,
-      "color": "Gümüş / Sarı"
+      "color": "Gümüş / Sarı",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -29519,7 +30381,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "capacity": "0.35 L",
       "weightKg": 2.3,
       "warrantyYears": 2,
-      "color": "Mavi / Platin"
+      "color": "Mavi / Platin",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -29577,7 +30441,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "capacity": "2 L",
       "weightKg": 8,
       "warrantyYears": 5,
-      "color": "Gri / Sarı"
+      "color": "Gri / Sarı",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -29638,7 +30504,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "capacity": "0.4 L",
       "weightKg": 2.04,
       "warrantyYears": 2,
-      "color": "Gümüş / Yeşil"
+      "color": "Gümüş / Yeşil",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -29700,7 +30568,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "capacity": "0.76 L",
       "weightKg": 2.67,
       "warrantyYears": 2,
-      "color": "Nikel / Kırmızı"
+      "color": "Nikel / Kırmızı",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -29768,7 +30638,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "capacity": "0.54 L",
       "weightKg": 2.47,
       "warrantyYears": 2,
-      "color": "Fuşya / Nikel"
+      "color": "Fuşya / Nikel",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -29830,7 +30702,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "capacity": "0.54 L",
       "weightKg": 2.55,
       "warrantyYears": 2,
-      "color": "Titanyum / Mor"
+      "color": "Titanyum / Mor",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -29902,7 +30776,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "capacity": "1.9 L",
       "weightKg": 3.9,
       "warrantyYears": 2,
-      "color": "Nikel / Parlak Mor / Bakır"
+      "color": "Nikel / Parlak Mor / Bakır",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -29971,7 +30847,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "capacity": "1.9 L",
       "weightKg": 3.9,
       "warrantyYears": 2,
-      "color": "Nikel / Kırmızı"
+      "color": "Nikel / Kırmızı",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -30032,7 +30910,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "capacity": "0.4 L",
       "weightKg": 2.06,
       "warrantyYears": 2,
-      "color": "Gümüş / Mor"
+      "color": "Gümüş / Mor",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -30096,7 +30976,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "capacity": "0.77 L",
       "weightKg": 3.5,
       "warrantyYears": 2,
-      "color": "Demir / Mor"
+      "color": "Demir / Mor",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -30166,7 +31048,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "capacity": "0.77 L",
       "weightKg": 3.5,
       "warrantyYears": 2,
-      "color": "Prusya Mavisi / Parlak Bakır"
+      "color": "Prusya Mavisi / Parlak Bakır",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -30234,7 +31118,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "capacity": "0.77 L",
       "weightKg": 3,
       "warrantyYears": 2,
-      "color": "Nikel / Kırmızı / Sarı"
+      "color": "Nikel / Kırmızı / Sarı",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -30296,7 +31182,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "capacity": "0.76 L",
       "weightKg": 2.68,
       "warrantyYears": 2,
-      "color": "Bakır / Nikel"
+      "color": "Bakır / Nikel",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -30365,7 +31253,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "capacity": "0.54 L",
       "weightKg": 2.15,
       "warrantyYears": 2,
-      "color": "Kırmızı / Mavi / Nikel"
+      "color": "Kırmızı / Mavi / Nikel",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -30426,7 +31316,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "capacity": "0.4 L",
       "weightKg": 2.11,
       "warrantyYears": 2,
-      "color": "Mor / Nikel"
+      "color": "Mor / Nikel",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -30489,7 +31381,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "capacity": "0.35 L",
       "weightKg": 2.2,
       "warrantyYears": 2,
-      "color": "Parlak Altın / Sarı / Demir"
+      "color": "Parlak Altın / Sarı / Demir",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -30557,7 +31451,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "capacity": "0.35 L",
       "weightKg": 1.3,
       "warrantyYears": 2,
-      "color": "Gümüş / Sarı"
+      "color": "Gümüş / Sarı",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -30623,7 +31519,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "capacity": "0.33 L",
       "weightKg": 2.44,
       "warrantyYears": 2,
-      "color": "Gümüş / Mavi"
+      "color": "Gümüş / Mavi",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -30683,7 +31581,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "capacity": "1.6 L",
       "weightKg": 6.7,
       "warrantyYears": 5,
-      "color": "Gümüş / Sarı"
+      "color": "Gümüş / Sarı",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -30743,7 +31643,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "capacity": "2 L",
       "weightKg": 8.8,
       "warrantyYears": 5,
-      "color": "Gümüş / Mor"
+      "color": "Gümüş / Mor",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -30805,7 +31707,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "capacity": "0.76 L",
       "weightKg": 2.97,
       "warrantyYears": 2,
-      "color": "Mor / Nikel"
+      "color": "Mor / Nikel",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -30873,7 +31777,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "capacity": "0.76 L",
       "weightKg": 2.97,
       "warrantyYears": 2,
-      "color": "Mor / Demir"
+      "color": "Mor / Demir",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -30935,7 +31841,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "capacity": "0.76 L",
       "weightKg": 3,
       "warrantyYears": 2,
-      "color": "Mavi / Nikel"
+      "color": "Mavi / Nikel",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -31004,7 +31912,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "capacity": "0.76 L",
       "weightKg": 3.05,
       "warrantyYears": 2,
-      "color": "Altın / Nikel"
+      "color": "Altın / Nikel",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -31064,7 +31974,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "capacity": "0.35 L",
       "weightKg": 2.3,
       "warrantyYears": 2,
-      "color": "Demir / Mor"
+      "color": "Demir / Mor",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -31125,7 +32037,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "capacity": "0.35 L",
       "weightKg": 2.25,
       "warrantyYears": 2,
-      "color": "Saten Mavi / Nikel"
+      "color": "Saten Mavi / Nikel",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -31188,7 +32102,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "capacity": "0.35 L",
       "weightKg": 2.2,
       "warrantyYears": 2,
-      "color": "Sarı / Demir / Nikel"
+      "color": "Sarı / Demir / Nikel",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -31256,7 +32172,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "capacity": "0.54 L",
       "weightKg": 2.4,
       "warrantyYears": 2,
-      "color": "Mor / Titanyum"
+      "color": "Mor / Titanyum",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -31320,7 +32238,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "capacity": "1.9 L",
       "weightKg": 3.56,
       "warrantyYears": 2,
-      "color": "Nikel / Kırmızı / Sarı"
+      "color": "Nikel / Kırmızı / Sarı",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -31382,7 +32302,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "capacity": "1.9 L",
       "weightKg": 3.56,
       "warrantyYears": 2,
-      "color": "Nikel / Kırmızı"
+      "color": "Nikel / Kırmızı",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -31444,7 +32366,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "capacity": "0.76 L",
       "weightKg": 2.97,
       "warrantyYears": 2,
-      "color": "Kırmızı / Nikel"
+      "color": "Kırmızı / Nikel",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -31512,7 +32436,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "capacity": "0.76 L",
       "weightKg": 2.97,
       "warrantyYears": 2,
-      "color": "Nikel / Mavi"
+      "color": "Nikel / Mavi",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -31573,7 +32499,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "capacity": "0.76 L",
       "weightKg": 2.97,
       "warrantyYears": 2,
-      "color": "Nikel / Kırmızı"
+      "color": "Nikel / Kırmızı",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -31634,7 +32562,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "capacity": "0.76 L",
       "weightKg": 2.67,
       "warrantyYears": 2,
-      "color": "Fuşya / Demir"
+      "color": "Fuşya / Demir",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -31703,7 +32633,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "capacity": "0.76 L",
       "weightKg": 2.97,
       "warrantyYears": 2,
-      "color": "Bakır / Nikel"
+      "color": "Bakır / Nikel",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -31767,7 +32699,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "capacity": "0.76 L",
       "weightKg": 3.05,
       "warrantyYears": 2,
-      "color": "Altın / Mavi"
+      "color": "Altın / Mavi",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -31836,7 +32770,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "capacity": "0.76 L",
       "weightKg": 2.97,
       "warrantyYears": 2,
-      "color": "Mavi / Nikel"
+      "color": "Mavi / Nikel",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -31906,7 +32842,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "capacity": "0.76 L",
       "weightKg": 2.67,
       "warrantyYears": 2,
-      "color": "Mor / Demir"
+      "color": "Mor / Demir",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -31967,7 +32905,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "capacity": "0.54 L",
       "weightKg": 2.5,
       "warrantyYears": 2,
-      "color": "Nikel / Kırmızı"
+      "color": "Nikel / Kırmızı",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -32027,7 +32967,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "capacity": "0.54 L",
       "weightKg": 2.5,
       "warrantyYears": 2,
-      "color": "Gümüş / Sarı"
+      "color": "Gümüş / Sarı",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -32088,7 +33030,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "capacity": "0.4 L",
       "weightKg": 2.04,
       "warrantyYears": 2,
-      "color": "Gümüş / Beyaz"
+      "color": "Gümüş / Beyaz",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -32151,7 +33095,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "capacity": "0.35 L",
       "weightKg": 2.2,
       "warrantyYears": 2,
-      "color": "Sarı / Demir"
+      "color": "Sarı / Demir",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -32221,7 +33167,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "capacity": "0.2 L",
       "weightKg": 1.9,
       "warrantyYears": 2,
-      "color": "Mor / Nikel"
+      "color": "Mor / Nikel",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -32283,7 +33231,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "capacity": "0.2 L",
       "weightKg": 1.9,
       "warrantyYears": 2,
-      "color": "Mor / Demir"
+      "color": "Mor / Demir",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -32343,7 +33293,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "capacity": "0.4 L",
       "weightKg": 2.04,
       "warrantyYears": 2,
-      "color": "Beyaz / Mavi"
+      "color": "Beyaz / Mavi",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -32405,7 +33357,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "capacity": "0.3 L",
       "weightKg": 1.5,
       "warrantyYears": 2,
-      "color": "Sarı / Gri"
+      "color": "Sarı / Gri",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -32466,7 +33420,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "capacity": "0.35 L",
       "weightKg": 1.33,
       "warrantyYears": 2,
-      "color": "Demir / Mor"
+      "color": "Demir / Mor",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -32527,7 +33483,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "capacity": "0.35 L",
       "weightKg": 1.32,
       "warrantyYears": 2,
-      "color": "Beyaz / Yeşil"
+      "color": "Beyaz / Yeşil",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -32589,7 +33547,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "capacity": "0.54 L",
       "weightKg": 2.55,
       "warrantyYears": 2,
-      "color": "Gümüş / Mavi"
+      "color": "Gümüş / Mavi",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -32651,7 +33611,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 77,
       "weightKg": 0.99,
       "warrantyYears": 2,
-      "color": "Jasper Plum (Mor) / Bakır"
+      "color": "Jasper Plum (Mor) / Bakır",
+      "masterCategory": "personal_care",
+      "masterCategoryLabel": "Kişisel Bakım"
     },
     "storeOffers": [
       {
@@ -32719,7 +33681,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "batteryRuntimeMin": 30,
       "weightKg": 0.56,
       "warrantyYears": 2,
-      "color": "Fuşya / Parlak Nikel"
+      "color": "Fuşya / Parlak Nikel",
+      "masterCategory": "personal_care",
+      "masterCategoryLabel": "Kişisel Bakım"
     },
     "storeOffers": [
       {
@@ -32790,7 +33754,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "capacity": "0.77 L",
       "weightKg": 3.5,
       "warrantyYears": 2,
-      "color": "Demir / Mor"
+      "color": "Demir / Mor",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -32856,7 +33822,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "capacity": "100 ml",
       "weightKg": 0.18,
       "warrantyYears": 1,
-      "color": "Koyu Mor / Altın"
+      "color": "Koyu Mor / Altın",
+      "masterCategory": "personal_care",
+      "masterCategoryLabel": "Kişisel Bakım"
     },
     "storeOffers": [
       {
@@ -32915,7 +33883,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 77,
       "weightKg": 0.66,
       "warrantyYears": 2,
-      "color": "Siyah / Nikel"
+      "color": "Siyah / Nikel",
+      "masterCategory": "personal_care",
+      "masterCategoryLabel": "Kişisel Bakım"
     },
     "storeOffers": [
       {
@@ -32975,7 +33945,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 77,
       "weightKg": 0.66,
       "warrantyYears": 2,
-      "color": "Prusya Mavisi / Parlak Bakır"
+      "color": "Prusya Mavisi / Parlak Bakır",
+      "masterCategory": "personal_care",
+      "masterCategoryLabel": "Kişisel Bakım"
     },
     "storeOffers": [
       {
@@ -33044,7 +34016,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 77,
       "weightKg": 0.99,
       "warrantyYears": 2,
-      "color": "Amber Silk (Kehribar İpeği) / Bakır"
+      "color": "Amber Silk (Kehribar İpeği) / Bakır",
+      "masterCategory": "personal_care",
+      "masterCategoryLabel": "Kişisel Bakım"
     },
     "storeOffers": [
       {
@@ -33114,7 +34088,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "capacity": "100 m²+",
       "weightKg": 11.9,
       "warrantyYears": 2,
-      "color": "Prusya Mavisi / Parlak Bakır"
+      "color": "Prusya Mavisi / Parlak Bakır",
+      "masterCategory": "climate",
+      "masterCategoryLabel": "Isıtma & Soğutma"
     },
     "storeOffers": [
       {
@@ -33183,7 +34159,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 76,
       "weightKg": 0.61,
       "warrantyYears": 2,
-      "color": "Ceramic Patina (Nane Yeşili) / Topaz"
+      "color": "Ceramic Patina (Nane Yeşili) / Topaz",
+      "masterCategory": "personal_care",
+      "masterCategoryLabel": "Kişisel Bakım"
     },
     "storeOffers": [
       {
@@ -33252,7 +34230,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 76,
       "weightKg": 0.61,
       "warrantyYears": 2,
-      "color": "Ceramic Pink (Gül Kurusu) / Rose Gold"
+      "color": "Ceramic Pink (Gül Kurusu) / Rose Gold",
+      "masterCategory": "personal_care",
+      "masterCategoryLabel": "Kişisel Bakım"
     },
     "storeOffers": [
       {
@@ -33321,7 +34301,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "capacity": "0.54 L",
       "weightKg": 1.76,
       "warrantyYears": 2,
-      "color": "Gümüş / Mavi"
+      "color": "Gümüş / Mavi",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -33388,7 +34370,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 76,
       "weightKg": 0.61,
       "warrantyYears": 2,
-      "color": "Nikel / Bakır"
+      "color": "Nikel / Bakır",
+      "masterCategory": "personal_care",
+      "masterCategoryLabel": "Kişisel Bakım"
     },
     "storeOffers": [
       {
@@ -33455,7 +34439,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "batteryRuntimeMin": 30,
       "weightKg": 0.56,
       "warrantyYears": 2,
-      "color": "Prusya Mavisi / Parlak Bakır"
+      "color": "Prusya Mavisi / Parlak Bakır",
+      "masterCategory": "personal_care",
+      "masterCategoryLabel": "Kişisel Bakım"
     },
     "storeOffers": [
       {
@@ -33524,7 +34510,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "capacity": "81 m³",
       "weightKg": 5.5,
       "warrantyYears": 2,
-      "color": "Beyaz / Gümüş"
+      "color": "Beyaz / Gümüş",
+      "masterCategory": "climate",
+      "masterCategoryLabel": "Isıtma & Soğutma"
     },
     "storeOffers": [
       {
@@ -33593,7 +34581,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "capacity": "81 m³",
       "weightKg": 5.7,
       "warrantyYears": 2,
-      "color": "Nikel / Parlak Altın"
+      "color": "Nikel / Parlak Altın",
+      "masterCategory": "climate",
+      "masterCategoryLabel": "Isıtma & Soğutma"
     },
     "storeOffers": [
       {
@@ -33659,7 +34649,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 63,
       "weightKg": 3.7,
       "warrantyYears": 2,
-      "color": "Beyaz / Gümüş"
+      "color": "Beyaz / Gümüş",
+      "masterCategory": "climate",
+      "masterCategoryLabel": "Isıtma & Soğutma"
     },
     "storeOffers": [
       {
@@ -33728,7 +34720,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "capacity": "5 L Su Deposu",
       "weightKg": 8.2,
       "warrantyYears": 2,
-      "color": "Beyaz / Gümüş"
+      "color": "Beyaz / Gümüş",
+      "masterCategory": "climate",
+      "masterCategoryLabel": "Isıtma & Soğutma"
     },
     "storeOffers": [
       {
@@ -33787,7 +34781,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 61,
       "weightKg": 4.99,
       "warrantyYears": 2,
-      "color": "Beyaz / Gümüş"
+      "color": "Beyaz / Gümüş",
+      "masterCategory": "climate",
+      "masterCategoryLabel": "Isıtma & Soğutma"
     },
     "storeOffers": [
       {
@@ -33853,7 +34849,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 76,
       "weightKg": 0.61,
       "warrantyYears": 2,
-      "color": "Bakır / Gümüş"
+      "color": "Bakır / Gümüş",
+      "masterCategory": "personal_care",
+      "masterCategoryLabel": "Kişisel Bakım"
     },
     "storeOffers": [
       {
@@ -33912,7 +34910,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "batteryRuntimeMin": 30,
       "weightKg": 0.56,
       "warrantyYears": 2,
-      "color": "Mor / Siyah"
+      "color": "Mor / Siyah",
+      "masterCategory": "personal_care",
+      "masterCategoryLabel": "Kişisel Bakım"
     },
     "storeOffers": [
       {
@@ -33970,7 +34970,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 76,
       "weightKg": 0.61,
       "warrantyYears": 2,
-      "color": "Fuşya / Nikel"
+      "color": "Fuşya / Nikel",
+      "masterCategory": "personal_care",
+      "masterCategoryLabel": "Kişisel Bakım"
     },
     "storeOffers": [
       {
@@ -34029,7 +35031,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 59,
       "weightKg": 2.8,
       "warrantyYears": 2,
-      "color": "Beyaz / Gümüş"
+      "color": "Beyaz / Gümüş",
+      "masterCategory": "climate",
+      "masterCategoryLabel": "Isıtma & Soğutma"
     },
     "storeOffers": [
       {
@@ -34089,7 +35093,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 76,
       "weightKg": 0.61,
       "warrantyYears": 2,
-      "color": "Fuşya / Nikel"
+      "color": "Fuşya / Nikel",
+      "masterCategory": "personal_care",
+      "masterCategoryLabel": "Kişisel Bakım"
     },
     "storeOffers": [
       {
@@ -34155,7 +35161,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 62,
       "weightKg": 5.6,
       "warrantyYears": 2,
-      "color": "Beyaz / Gümüş"
+      "color": "Beyaz / Gümüş",
+      "masterCategory": "climate",
+      "masterCategoryLabel": "Isıtma & Soğutma"
     },
     "storeOffers": [
       {
@@ -34214,7 +35222,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 63,
       "weightKg": 4,
       "warrantyYears": 2,
-      "color": "Gümüş / Beyaz"
+      "color": "Gümüş / Beyaz",
+      "masterCategory": "climate",
+      "masterCategoryLabel": "Isıtma & Soğutma"
     },
     "storeOffers": [
       {
@@ -34272,7 +35282,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 62,
       "weightKg": 3.6,
       "warrantyYears": 2,
-      "color": "Beyaz / Gümüş"
+      "color": "Beyaz / Gümüş",
+      "masterCategory": "climate",
+      "masterCategoryLabel": "Isıtma & Soğutma"
     },
     "storeOffers": [
       {
@@ -34331,7 +35343,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 62,
       "weightKg": 3.5,
       "warrantyYears": 2,
-      "color": "Gümüş / Gri"
+      "color": "Gümüş / Gri",
+      "masterCategory": "climate",
+      "masterCategoryLabel": "Isıtma & Soğutma"
     },
     "storeOffers": [
       {
@@ -34389,7 +35403,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 64,
       "weightKg": 3.8,
       "warrantyYears": 2,
-      "color": "Gümüş / Beyaz"
+      "color": "Gümüş / Beyaz",
+      "masterCategory": "climate",
+      "masterCategoryLabel": "Isıtma & Soğutma"
     },
     "storeOffers": [
       {
@@ -34448,7 +35464,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 60,
       "weightKg": 1.8,
       "warrantyYears": 2,
-      "color": "Gümüş / Mavi"
+      "color": "Gümüş / Mavi",
+      "masterCategory": "climate",
+      "masterCategoryLabel": "Isıtma & Soğutma"
     },
     "storeOffers": [
       {
@@ -34506,7 +35524,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 64,
       "weightKg": 4.1,
       "warrantyYears": 2,
-      "color": "Beyaz / Gümüş"
+      "color": "Beyaz / Gümüş",
+      "masterCategory": "climate",
+      "masterCategoryLabel": "Isıtma & Soğutma"
     },
     "storeOffers": [
       {
@@ -34571,7 +35591,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "appControl": true,
       "weightKg": 3.7,
       "warrantyYears": 2,
-      "color": "Siyah"
+      "color": "Siyah",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -34635,7 +35657,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "appControl": true,
       "weightKg": 3.6,
       "warrantyYears": 2,
-      "color": "Beyaz"
+      "color": "Beyaz",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -34700,7 +35724,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "appControl": true,
       "weightKg": 3.8,
       "warrantyYears": 2,
-      "color": "Siyah"
+      "color": "Siyah",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -34776,7 +35802,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "appControl": true,
       "weightKg": 4.3,
       "warrantyYears": 2,
-      "color": "Beyaz / Altın Detay"
+      "color": "Beyaz / Altın Detay",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -34851,7 +35879,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "appControl": true,
       "weightKg": 3.7,
       "warrantyYears": 2,
-      "color": "Beyaz"
+      "color": "Beyaz",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -34924,7 +35954,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "appControl": true,
       "weightKg": 3.7,
       "warrantyYears": 2,
-      "color": "Beyaz"
+      "color": "Beyaz",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -34988,7 +36020,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "appControl": true,
       "weightKg": 3.6,
       "warrantyYears": 2,
-      "color": "Beyaz"
+      "color": "Beyaz",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -35054,7 +36088,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "appControl": true,
       "weightKg": 3.6,
       "warrantyYears": 2,
-      "color": "Siyah / Antrasit"
+      "color": "Siyah / Antrasit",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -35118,7 +36154,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "appControl": true,
       "weightKg": 3.7,
       "warrantyYears": 2,
-      "color": "Siyah"
+      "color": "Siyah",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -35180,7 +36218,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 76,
       "weightKg": 0.345,
       "warrantyYears": 2,
-      "color": "Platin Beyazı / Rose Gold"
+      "color": "Platin Beyazı / Rose Gold",
+      "masterCategory": "personal_care",
+      "masterCategoryLabel": "Kişisel Bakım"
     },
     "storeOffers": [
       {
@@ -35247,7 +36287,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 75,
       "weightKg": 0.33,
       "warrantyYears": 2,
-      "color": "Pastel Pembe / Gri"
+      "color": "Pastel Pembe / Gri",
+      "masterCategory": "personal_care",
+      "masterCategoryLabel": "Kişisel Bakım"
     },
     "storeOffers": [
       {
@@ -35317,7 +36359,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "capacity": "0.6 L",
       "weightKg": 1.65,
       "warrantyYears": 2,
-      "color": "Siyah / Altın"
+      "color": "Siyah / Altın",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -35386,7 +36430,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "capacity": "0.6 L",
       "weightKg": 1.65,
       "warrantyYears": 2,
-      "color": "Beyaz / Kırmızı"
+      "color": "Beyaz / Kırmızı",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -35447,7 +36493,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "capacity": "0.6 L",
       "weightKg": 1.65,
       "warrantyYears": 2,
-      "color": "Beyaz / Bakır"
+      "color": "Beyaz / Bakır",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -35512,7 +36560,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "capacity": "0.6 L",
       "weightKg": 1.67,
       "warrantyYears": 2,
-      "color": "Gümüş / Mavi Karbon"
+      "color": "Gümüş / Mavi Karbon",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -35584,7 +36634,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "autoCleanDock": true,
       "weightKg": 5.1,
       "warrantyYears": 2,
-      "color": "Siyah / Antrasit"
+      "color": "Siyah / Antrasit",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -35653,7 +36705,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "appControl": true,
       "weightKg": 4.4,
       "warrantyYears": 2,
-      "color": "Gece Siyahı / Altın"
+      "color": "Gece Siyahı / Altın",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -35729,7 +36783,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "appControl": true,
       "weightKg": 4.3,
       "warrantyYears": 2,
-      "color": "Beyaz"
+      "color": "Beyaz",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -35804,7 +36860,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "appControl": true,
       "weightKg": 4.4,
       "warrantyYears": 2,
-      "color": "Beyaz / Altın"
+      "color": "Beyaz / Altın",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -35876,7 +36934,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "appControl": true,
       "weightKg": 3.7,
       "warrantyYears": 2,
-      "color": "Siyah"
+      "color": "Siyah",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -35951,7 +37011,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "appControl": true,
       "weightKg": 4.1,
       "warrantyYears": 2,
-      "color": "Beyaz"
+      "color": "Beyaz",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -36026,7 +37088,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "appControl": true,
       "weightKg": 4.4,
       "warrantyYears": 2,
-      "color": "Koyu Titanyum / Altın"
+      "color": "Koyu Titanyum / Altın",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -36100,7 +37164,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "appControl": true,
       "weightKg": 4.3,
       "warrantyYears": 2,
-      "color": "Beyaz"
+      "color": "Beyaz",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -36174,7 +37240,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "appControl": true,
       "weightKg": 4.3,
       "warrantyYears": 2,
-      "color": "Beyaz"
+      "color": "Beyaz",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -36246,7 +37314,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "appControl": true,
       "weightKg": 3.7,
       "warrantyYears": 2,
-      "color": "Beyaz"
+      "color": "Beyaz",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -36318,7 +37388,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "capacity": "0.6 L",
       "weightKg": 1.7,
       "warrantyYears": 2,
-      "color": "Koyu Gri / Platin Titanyum"
+      "color": "Koyu Gri / Platin Titanyum",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -36392,7 +37464,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "appControl": true,
       "weightKg": 4.3,
       "warrantyYears": 2,
-      "color": "Beyaz / Titanyum"
+      "color": "Beyaz / Titanyum",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -36463,7 +37537,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "appControl": true,
       "weightKg": 3.6,
       "warrantyYears": 2,
-      "color": "Siyah"
+      "color": "Siyah",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -36537,7 +37613,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "appControl": true,
       "weightKg": 4.2,
       "warrantyYears": 2,
-      "color": "Beyaz"
+      "color": "Beyaz",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -36608,7 +37686,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "appControl": true,
       "weightKg": 3.5,
       "warrantyYears": 2,
-      "color": "Beyaz"
+      "color": "Beyaz",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -36684,7 +37764,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "appControl": true,
       "weightKg": 4.5,
       "warrantyYears": 2,
-      "color": "Koyu Titanyum / Karbon Gold"
+      "color": "Koyu Titanyum / Karbon Gold",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -36748,7 +37830,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "appControl": true,
       "weightKg": 3.6,
       "warrantyYears": 2,
-      "color": "Beyaz"
+      "color": "Beyaz",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -36822,7 +37906,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "appControl": true,
       "weightKg": 4.2,
       "warrantyYears": 2,
-      "color": "Beyaz"
+      "color": "Beyaz",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -36894,7 +37980,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "appControl": true,
       "weightKg": 3.7,
       "warrantyYears": 2,
-      "color": "Siyah"
+      "color": "Siyah",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -36967,7 +38055,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "appControl": true,
       "weightKg": 4.1,
       "warrantyYears": 2,
-      "color": "Beyaz"
+      "color": "Beyaz",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -37036,7 +38126,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "capacity": "0.5 L",
       "weightKg": 1.5,
       "warrantyYears": 2,
-      "color": "Beyaz / Gri"
+      "color": "Beyaz / Gri",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -37109,7 +38201,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "autoCleanDock": true,
       "weightKg": 5,
       "warrantyYears": 2,
-      "color": "Gece Siyahı / Titanyum"
+      "color": "Gece Siyahı / Titanyum",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -37185,7 +38279,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "appControl": true,
       "weightKg": 4.4,
       "warrantyYears": 2,
-      "color": "Titanyum Gümüş"
+      "color": "Titanyum Gümüş",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -37259,7 +38355,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "appControl": true,
       "weightKg": 4.3,
       "warrantyYears": 2,
-      "color": "Beyaz"
+      "color": "Beyaz",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -37335,7 +38433,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "appControl": true,
       "weightKg": 4.4,
       "warrantyYears": 2,
-      "color": "Siyah Titanyum"
+      "color": "Siyah Titanyum",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -37405,7 +38505,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "capacity": "0.5 L",
       "weightKg": 1.45,
       "warrantyYears": 2,
-      "color": "Gümüş / Platin"
+      "color": "Gümüş / Platin",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -37479,7 +38581,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "appControl": true,
       "weightKg": 4.3,
       "warrantyYears": 2,
-      "color": "Beyaz"
+      "color": "Beyaz",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -37551,7 +38655,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "appControl": true,
       "weightKg": 4,
       "warrantyYears": 2,
-      "color": "Beyaz"
+      "color": "Beyaz",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -37622,7 +38728,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "capacity": "0.6 L toz, 300 ml su",
       "weightKg": 1.75,
       "warrantyYears": 2,
-      "color": "Gümüş / Karbon Mavi"
+      "color": "Gümüş / Karbon Mavi",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -37695,7 +38803,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "autoCleanDock": true,
       "weightKg": 5.1,
       "warrantyYears": 2,
-      "color": "Siyah / Titanyum"
+      "color": "Siyah / Titanyum",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -37766,7 +38876,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "capacity": "0.6 L",
       "weightKg": 1.68,
       "warrantyYears": 2,
-      "color": "Koyu Titanyum / Gümüş"
+      "color": "Koyu Titanyum / Gümüş",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -37837,7 +38949,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "autoCleanDock": true,
       "weightKg": 4.75,
       "warrantyYears": 2,
-      "color": "Siyah / Gri"
+      "color": "Siyah / Gri",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -37910,7 +39024,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "autoCleanDock": true,
       "weightKg": 5.2,
       "warrantyYears": 2,
-      "color": "Koyu Gri / Rose Gold"
+      "color": "Koyu Gri / Rose Gold",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -37979,7 +39095,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 75,
       "weightKg": 0.298,
       "warrantyYears": 2,
-      "color": "Koyu Titanyum / Rose Gold"
+      "color": "Koyu Titanyum / Rose Gold",
+      "masterCategory": "personal_care",
+      "masterCategoryLabel": "Kişisel Bakım"
     },
     "storeOffers": [
       {
@@ -38049,7 +39167,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "appControl": true,
       "weightKg": 6.5,
       "warrantyYears": 2,
-      "color": "Beyaz / Gümüş Detay"
+      "color": "Beyaz / Gümüş Detay",
+      "masterCategory": "climate",
+      "masterCategoryLabel": "Isıtma & Soğutma"
     },
     "storeOffers": [
       {
@@ -38120,7 +39240,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "autoCleanDock": true,
       "weightKg": 4.9,
       "warrantyYears": 2,
-      "color": "Siyah / Antrasit"
+      "color": "Siyah / Antrasit",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -38191,7 +39313,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "appControl": true,
       "weightKg": 3.8,
       "warrantyYears": 2,
-      "color": "Beyaz"
+      "color": "Beyaz",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -38259,7 +39383,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "appControl": true,
       "weightKg": 4.8,
       "warrantyYears": 2,
-      "color": "Beyaz"
+      "color": "Beyaz",
+      "masterCategory": "climate",
+      "masterCategoryLabel": "Isıtma & Soğutma"
     },
     "storeOffers": [
       {
@@ -38333,7 +39459,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "appControl": true,
       "weightKg": 4.3,
       "warrantyYears": 2,
-      "color": "Titanyum Siyah"
+      "color": "Titanyum Siyah",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -38402,7 +39530,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "capacity": "0.6 L",
       "weightKg": 1.55,
       "warrantyYears": 2,
-      "color": "Beyaz / Mavi"
+      "color": "Beyaz / Mavi",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -38470,7 +39600,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 76,
       "weightKg": 0.31,
       "warrantyYears": 2,
-      "color": "Gül Kurusu / Altın"
+      "color": "Gül Kurusu / Altın",
+      "masterCategory": "personal_care",
+      "masterCategoryLabel": "Kişisel Bakım"
     },
     "storeOffers": [
       {
@@ -38542,7 +39674,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "autoCleanDock": true,
       "weightKg": 5.1,
       "warrantyYears": 2,
-      "color": "Koyu Titanyum / Siyah"
+      "color": "Koyu Titanyum / Siyah",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -38604,7 +39738,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "capacity": "0.6 L",
       "weightKg": 1.65,
       "warrantyYears": 2,
-      "color": "Gri / Platin"
+      "color": "Gri / Platin",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -38670,7 +39806,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "appControl": true,
       "weightKg": 3.7,
       "warrantyYears": 2,
-      "color": "Beyaz"
+      "color": "Beyaz",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -38734,7 +39872,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "appControl": true,
       "weightKg": 3.8,
       "warrantyYears": 2,
-      "color": "Siyah"
+      "color": "Siyah",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -38799,7 +39939,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "appControl": true,
       "weightKg": 4.1,
       "warrantyYears": 2,
-      "color": "Beyaz"
+      "color": "Beyaz",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -38864,7 +40006,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "appControl": true,
       "weightKg": 3.8,
       "warrantyYears": 2,
-      "color": "Siyah"
+      "color": "Siyah",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -38926,7 +40070,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "appControl": true,
       "weightKg": 3.7,
       "warrantyYears": 2,
-      "color": "Siyah"
+      "color": "Siyah",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -38992,7 +40138,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "appControl": true,
       "weightKg": 4.1,
       "warrantyYears": 2,
-      "color": "Beyaz"
+      "color": "Beyaz",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -39055,7 +40203,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "appControl": true,
       "weightKg": 3.7,
       "warrantyYears": 2,
-      "color": "Beyaz"
+      "color": "Beyaz",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -39120,7 +40270,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "appControl": true,
       "weightKg": 4.2,
       "warrantyYears": 2,
-      "color": "Gümüş / Beyaz"
+      "color": "Gümüş / Beyaz",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -39184,7 +40336,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "appControl": true,
       "weightKg": 4,
       "warrantyYears": 2,
-      "color": "Beyaz"
+      "color": "Beyaz",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -39248,7 +40402,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "appControl": true,
       "weightKg": 4.2,
       "warrantyYears": 2,
-      "color": "Beyaz"
+      "color": "Beyaz",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -39308,7 +40464,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "capacity": "0.5 L",
       "weightKg": 1.6,
       "warrantyYears": 2,
-      "color": "Beyaz / Bakır"
+      "color": "Beyaz / Bakır",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -39371,7 +40529,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "appControl": true,
       "weightKg": 3.6,
       "warrantyYears": 2,
-      "color": "Siyah"
+      "color": "Siyah",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -39431,7 +40591,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "capacity": "0.4 L",
       "weightKg": 1.45,
       "warrantyYears": 2,
-      "color": "Beyaz / Turuncu"
+      "color": "Beyaz / Turuncu",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -39495,7 +40657,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "capacity": "0.5 L",
       "weightKg": 1.6,
       "warrantyYears": 2,
-      "color": "Gümüş / Kırmızı"
+      "color": "Gümüş / Kırmızı",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -39555,7 +40719,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "capacity": "0.5 L",
       "weightKg": 1.55,
       "warrantyYears": 2,
-      "color": "Beyaz / Bakır"
+      "color": "Beyaz / Bakır",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -39616,7 +40782,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "capacity": "0.5 L",
       "weightKg": 1.6,
       "warrantyYears": 2,
-      "color": "Gümüş / Gri"
+      "color": "Gümüş / Gri",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -39677,7 +40845,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "capacity": "0.5 L",
       "weightKg": 1.5,
       "warrantyYears": 2,
-      "color": "Beyaz"
+      "color": "Beyaz",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -39741,7 +40911,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "capacity": "0.6 L",
       "weightKg": 1.76,
       "warrantyYears": 2,
-      "color": "Uzay Grisi / Karbon"
+      "color": "Uzay Grisi / Karbon",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -39802,7 +40974,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "capacity": "0.5 L",
       "weightKg": 1.6,
       "warrantyYears": 2,
-      "color": "Beyaz / Kırmızı"
+      "color": "Beyaz / Kırmızı",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -39862,7 +41036,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "capacity": "0.5 L",
       "weightKg": 1.5,
       "warrantyYears": 2,
-      "color": "Beyaz"
+      "color": "Beyaz",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -39922,7 +41098,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "capacity": "0.4 L",
       "weightKg": 1.4,
       "warrantyYears": 2,
-      "color": "Beyaz / Kırmızı"
+      "color": "Beyaz / Kırmızı",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -39985,7 +41163,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "capacity": "0.6 L",
       "weightKg": 1.67,
       "warrantyYears": 2,
-      "color": "Gri / Kırmızı"
+      "color": "Gri / Kırmızı",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -40049,7 +41229,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "capacity": "0.5 L",
       "weightKg": 1.64,
       "warrantyYears": 2,
-      "color": "Koyu Gri / Altın"
+      "color": "Koyu Gri / Altın",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -40109,7 +41291,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "capacity": "0.5 L",
       "weightKg": 1.5,
       "warrantyYears": 2,
-      "color": "Beyaz / Bakır"
+      "color": "Beyaz / Bakır",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -40170,7 +41354,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "capacity": "0.5 L",
       "weightKg": 1.63,
       "warrantyYears": 2,
-      "color": "Beyaz / Gri"
+      "color": "Beyaz / Gri",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -40230,7 +41416,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "capacity": "0.5 L",
       "weightKg": 1.63,
       "warrantyYears": 2,
-      "color": "Beyaz / Altın"
+      "color": "Beyaz / Altın",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -40294,7 +41482,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "autoCleanDock": true,
       "weightKg": 4.7,
       "warrantyYears": 2,
-      "color": "Siyah"
+      "color": "Siyah",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -40355,7 +41545,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 75,
       "weightKg": 0.298,
       "warrantyYears": 2,
-      "color": "Mor / Titanyum"
+      "color": "Mor / Titanyum",
+      "masterCategory": "personal_care",
+      "masterCategoryLabel": "Kişisel Bakım"
     },
     "storeOffers": [
       {
@@ -40416,7 +41608,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 75,
       "weightKg": 0.298,
       "warrantyYears": 2,
-      "color": "Amber Gold / Titanyum"
+      "color": "Amber Gold / Titanyum",
+      "masterCategory": "personal_care",
+      "masterCategoryLabel": "Kişisel Bakım"
     },
     "storeOffers": [
       {
@@ -40485,7 +41679,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "appControl": true,
       "weightKg": 4.3,
       "warrantyYears": 2,
-      "color": "Uzay Siyahı"
+      "color": "Uzay Siyahı",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -40548,7 +41744,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "appControl": true,
       "weightKg": 1.3,
       "warrantyYears": 2,
-      "color": "Beyaz"
+      "color": "Beyaz",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -40610,7 +41808,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "autoCleanDock": true,
       "weightKg": 3.9,
       "warrantyYears": 2,
-      "color": "Koyu Gri / Siyah"
+      "color": "Koyu Gri / Siyah",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -40673,7 +41873,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "appControl": true,
       "weightKg": 12,
       "warrantyYears": 2,
-      "color": "Gümüş / Siyah"
+      "color": "Gümüş / Siyah",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -40736,7 +41938,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "appControl": true,
       "weightKg": 12.5,
       "warrantyYears": 2,
-      "color": "Koyu Titanyum"
+      "color": "Koyu Titanyum",
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -40797,7 +42001,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 0,
       "weightKg": 0.26,
       "warrantyYears": 2,
-      "color": "Gece Pembesi / Rose Gold"
+      "color": "Gece Pembesi / Rose Gold",
+      "masterCategory": "personal_care",
+      "masterCategoryLabel": "Kişisel Bakım"
     },
     "storeOffers": [
       {
@@ -40855,7 +42061,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 40,
       "weightKg": 0.32,
       "warrantyYears": 2,
-      "color": "İnci Beyazı / Altın"
+      "color": "İnci Beyazı / Altın",
+      "masterCategory": "personal_care",
+      "masterCategoryLabel": "Kişisel Bakım"
     },
     "storeOffers": [
       {
@@ -40918,7 +42126,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "mappingTechnology": "360° LiDAR LDS + 3D ToF Engel Tanıma",
       "noiseLevelDb": 65,
       "capacity": "0.35 L Toz / 0.24 L Su / 3.0 L İstasyon",
-      "weightKg": 4.1
+      "weightKg": 4.1,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -41019,7 +42229,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "mappingTechnology": "360° LiDAR LDS + 3D ToF Engel Tanıma",
       "noiseLevelDb": 65,
       "capacity": "0.35 L Toz / 0.24 L Su",
-      "weightKg": 3.9
+      "weightKg": 3.9,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -41119,7 +42331,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 77,
       "capacity": "2.2 L",
       "weightKg": 6.2,
-      "powerWatts": 899
+      "powerWatts": 899,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -41219,7 +42433,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 77,
       "capacity": "2.2 L",
       "weightKg": 6.2,
-      "powerWatts": 899
+      "powerWatts": 899,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -41319,7 +42535,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 77,
       "capacity": "1.5 L",
       "weightKg": 5.2,
-      "powerWatts": 900
+      "powerWatts": 900,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -41419,7 +42637,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 77,
       "capacity": "2.2 L",
       "weightKg": 6.2,
-      "powerWatts": 899
+      "powerWatts": 899,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -41519,7 +42739,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 77,
       "capacity": "2.2 L",
       "weightKg": 6.2,
-      "powerWatts": 899
+      "powerWatts": 899,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -41618,7 +42840,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 75,
       "capacity": "2.0 L",
       "weightKg": 5.5,
-      "powerWatts": 750
+      "powerWatts": 750,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -41718,7 +42942,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 77,
       "capacity": "2.2 L",
       "weightKg": 6.2,
-      "powerWatts": 899
+      "powerWatts": 899,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -41817,7 +43043,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 75,
       "capacity": "2.0 L",
       "weightKg": 5.5,
-      "powerWatts": 750
+      "powerWatts": 750,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -41916,7 +43144,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 75,
       "capacity": "2.0 L",
       "weightKg": 5.5,
-      "powerWatts": 750
+      "powerWatts": 750,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -42014,7 +43244,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 76,
       "capacity": "1.5 L",
       "weightKg": 4.5,
-      "powerWatts": 900
+      "powerWatts": 900,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -42114,7 +43346,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 77,
       "capacity": "1.5 L",
       "weightKg": 5.2,
-      "powerWatts": 900
+      "powerWatts": 900,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -42212,7 +43446,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 76,
       "capacity": "1.5 L",
       "weightKg": 4.5,
-      "powerWatts": 900
+      "powerWatts": 900,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -42311,7 +43547,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 76,
       "capacity": "1.5 L",
       "weightKg": 4.5,
-      "powerWatts": 900
+      "powerWatts": 900,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -42410,7 +43648,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 76,
       "capacity": "1.5 L",
       "weightKg": 4.5,
-      "powerWatts": 900
+      "powerWatts": 900,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -42510,7 +43750,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 77,
       "capacity": "2.2 L",
       "weightKg": 6.2,
-      "powerWatts": 899
+      "powerWatts": 899,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -42609,7 +43851,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 75,
       "capacity": "2.0 L",
       "weightKg": 5.5,
-      "powerWatts": 750
+      "powerWatts": 750,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -42709,7 +43953,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 77,
       "capacity": "2.2 L",
       "weightKg": 6.2,
-      "powerWatts": 899
+      "powerWatts": 899,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -42811,7 +44057,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "mappingTechnology": "360° LiDAR LDS Navigasyon",
       "noiseLevelDb": 66,
       "capacity": "0.35 L Toz / 0.3 L Su / 3.0 L İstasyon",
-      "weightKg": 3.8
+      "weightKg": 3.8,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -42912,7 +44160,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "mappingTechnology": "360° LiDAR LDS Navigasyon",
       "noiseLevelDb": 66,
       "capacity": "0.35 L Toz / 0.3 L Su",
-      "weightKg": 3.6
+      "weightKg": 3.6,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -43011,7 +44261,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 76,
       "capacity": "1.5 L",
       "weightKg": 4.5,
-      "powerWatts": 900
+      "powerWatts": 900,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -43110,7 +44362,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 75,
       "capacity": "2.0 L",
       "weightKg": 5.5,
-      "powerWatts": 750
+      "powerWatts": 750,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -43208,7 +44462,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 77,
       "capacity": "1.3 L",
       "weightKg": 4,
-      "powerWatts": 850
+      "powerWatts": 850,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -43306,7 +44562,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 77,
       "capacity": "1.3 L",
       "weightKg": 4,
-      "powerWatts": 850
+      "powerWatts": 850,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -43405,7 +44663,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 76,
       "capacity": "1.8 L",
       "weightKg": 5,
-      "powerWatts": 750
+      "powerWatts": 750,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -43504,7 +44764,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 75,
       "capacity": "2.0 L",
       "weightKg": 5.5,
-      "powerWatts": 750
+      "powerWatts": 750,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -43602,7 +44864,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 77,
       "capacity": "1.3 L",
       "weightKg": 4,
-      "powerWatts": 850
+      "powerWatts": 850,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -43700,7 +44964,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 79,
       "capacity": "3.0 L (s-bag)",
       "weightKg": 4,
-      "powerWatts": 900
+      "powerWatts": 900,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -43800,7 +45066,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 77,
       "capacity": "2.2 L",
       "weightKg": 6.2,
-      "powerWatts": 899
+      "powerWatts": 899,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -43901,7 +45169,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "autoCleanDock": false,
       "noiseLevelDb": 77,
       "capacity": "0.6 L",
-      "weightKg": 2.7
+      "weightKg": 2.7,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -44002,7 +45272,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "autoCleanDock": false,
       "noiseLevelDb": 77,
       "capacity": "0.6 L",
-      "weightKg": 2.7
+      "weightKg": 2.7,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -44102,7 +45374,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "autoCleanDock": false,
       "noiseLevelDb": 78,
       "capacity": "0.6 L",
-      "weightKg": 2.4
+      "weightKg": 2.4,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -44203,7 +45477,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "autoCleanDock": false,
       "noiseLevelDb": 77,
       "capacity": "0.6 L",
-      "weightKg": 2.7
+      "weightKg": 2.7,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -44303,7 +45579,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "autoCleanDock": false,
       "noiseLevelDb": 78,
       "capacity": "0.6 L",
-      "weightKg": 2.6
+      "weightKg": 2.6,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -44403,7 +45681,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "autoCleanDock": false,
       "noiseLevelDb": 78,
       "capacity": "0.6 L",
-      "weightKg": 2.6
+      "weightKg": 2.6,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -44503,7 +45783,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "autoCleanDock": false,
       "noiseLevelDb": 78,
       "capacity": "0.6 L",
-      "weightKg": 2.6
+      "weightKg": 2.6,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -44603,7 +45885,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "autoCleanDock": false,
       "noiseLevelDb": 78,
       "capacity": "0.6 L",
-      "weightKg": 2.6
+      "weightKg": 2.6,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -44704,7 +45988,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 66,
       "capacity": "4.0 L (s-bag)",
       "weightKg": 5.4,
-      "powerWatts": 650
+      "powerWatts": 650,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -44805,7 +46091,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 66,
       "capacity": "4.0 L (s-bag)",
       "weightKg": 5.4,
-      "powerWatts": 650
+      "powerWatts": 650,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -44904,7 +46192,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 78,
       "capacity": "3.0 L (s-bag)",
       "weightKg": 4.2,
-      "powerWatts": 750
+      "powerWatts": 750,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -45002,7 +46292,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 76,
       "capacity": "0.45 L Su / 0.2 L Toz",
       "weightKg": 3,
-      "powerWatts": 1500
+      "powerWatts": 1500,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -45104,7 +46396,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 78,
       "capacity": "0.45 L Temiz Su / 0.4 L Kirli Su",
       "weightKg": 4.2,
-      "powerWatts": 400
+      "powerWatts": 400,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -45202,7 +46496,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 76,
       "capacity": "0.45 L Su / 0.2 L Toz",
       "weightKg": 3,
-      "powerWatts": 1500
+      "powerWatts": 1500,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -45304,7 +46600,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 78,
       "capacity": "0.45 L Temiz Su / 0.4 L Kirli Su",
       "weightKg": 4.2,
-      "powerWatts": 400
+      "powerWatts": 400,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -45405,7 +46703,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "autoCleanDock": false,
       "noiseLevelDb": 77,
       "capacity": "0.6 L",
-      "weightKg": 2.7
+      "weightKg": 2.7,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -45503,7 +46803,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 77,
       "capacity": "1.3 L",
       "weightKg": 4,
-      "powerWatts": 850
+      "powerWatts": 850,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -45603,7 +46905,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 15,
       "capacity": "65 m² Kapsama Alanı (520 m³/h CADR)",
       "weightKg": 5.8,
-      "powerWatts": 46
+      "powerWatts": 46,
+      "masterCategory": "climate",
+      "masterCategoryLabel": "Isıtma & Soğutma"
     },
     "storeOffers": [
       {
@@ -45703,7 +47007,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "autoCleanDock": false,
       "noiseLevelDb": 78,
       "capacity": "0.6 L",
-      "weightKg": 2.4
+      "weightKg": 2.4,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -45804,7 +47110,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 20,
       "capacity": "70 m² Kapsama Alanı (270 m³/h CADR)",
       "weightKg": 7.3,
-      "powerWatts": 2200
+      "powerWatts": 2200,
+      "masterCategory": "climate",
+      "masterCategoryLabel": "Isıtma & Soğutma"
     },
     "storeOffers": [
       {
@@ -45904,7 +47212,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "autoCleanDock": false,
       "noiseLevelDb": 78,
       "capacity": "0.6 L",
-      "weightKg": 2.4
+      "weightKg": 2.4,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -46003,7 +47313,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 16,
       "capacity": "39 m² Kapsama Alanı (300 m³/h CADR)",
       "weightKg": 4.5,
-      "powerWatts": 35
+      "powerWatts": 35,
+      "masterCategory": "climate",
+      "masterCategoryLabel": "Isıtma & Soğutma"
     },
     "storeOffers": [
       {
@@ -46103,7 +47415,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "autoCleanDock": false,
       "noiseLevelDb": 78,
       "capacity": "0.6 L",
-      "weightKg": 2.4
+      "weightKg": 2.4,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -46204,7 +47518,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "autoCleanDock": false,
       "noiseLevelDb": 77,
       "capacity": "0.6 L",
-      "weightKg": 2.7
+      "weightKg": 2.7,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -46304,7 +47620,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "autoCleanDock": false,
       "noiseLevelDb": 78,
       "capacity": "0.6 L",
-      "weightKg": 2.4
+      "weightKg": 2.4,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -46406,7 +47724,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "mappingTechnology": "360° LiDAR LDS Haritalama",
       "noiseLevelDb": 65,
       "capacity": "0.35 L Toz / 0.25 L Su / 3.0 L İstasyon",
-      "weightKg": 3.9
+      "weightKg": 3.9,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -46509,7 +47829,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "mappingTechnology": "3D ToF + AI RGB Kamera + 360° LiDAR LDS",
       "noiseLevelDb": 62,
       "capacity": "0.35 L Toz / 0.24 L Su / 3.5 L İstasyon",
-      "weightKg": 4.4
+      "weightKg": 4.4,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -46609,7 +47931,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "mappingTechnology": "LiDAR Lazer Haritalama",
       "noiseLevelDb": 66,
       "capacity": "0.35 L Toz / 0.3 L Su / 3.0 L İstasyon",
-      "weightKg": 3.6
+      "weightKg": 3.6,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -46709,7 +48033,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "autoCleanDock": false,
       "noiseLevelDb": 78,
       "capacity": "0.6 L",
-      "weightKg": 2.4
+      "weightKg": 2.4,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -46809,7 +48135,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "autoCleanDock": false,
       "noiseLevelDb": 78,
       "capacity": "0.6 L",
-      "weightKg": 2.4
+      "weightKg": 2.4,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -46910,7 +48238,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "autoCleanDock": false,
       "noiseLevelDb": 77,
       "capacity": "0.6 L",
-      "weightKg": 2.7
+      "weightKg": 2.7,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -47012,7 +48342,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "mappingTechnology": "360° LiDAR LDS Lazer Haritalama",
       "noiseLevelDb": 65,
       "capacity": "0.4 L Toz / 0.3 L Su",
-      "weightKg": 3.8
+      "weightKg": 3.8,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -47111,7 +48443,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "autoCleanDock": false,
       "noiseLevelDb": 78,
       "capacity": "0.6 L",
-      "weightKg": 2.4
+      "weightKg": 2.4,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -47209,7 +48543,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 19,
       "capacity": "30-49 m² Kapsama Alanı (190-250 m³/h CADR)",
       "weightKg": 2.4,
-      "powerWatts": 20
+      "powerWatts": 20,
+      "masterCategory": "climate",
+      "masterCategoryLabel": "Isıtma & Soğutma"
     },
     "storeOffers": [
       {
@@ -47308,7 +48644,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "autoCleanDock": false,
       "noiseLevelDb": 78,
       "capacity": "0.6 L",
-      "weightKg": 2.4
+      "weightKg": 2.4,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -47408,7 +48746,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 15,
       "capacity": "78 m² Kapsama Alanı (600 m³/h CADR)",
       "weightKg": 6.2,
-      "powerWatts": 55
+      "powerWatts": 55,
+      "masterCategory": "climate",
+      "masterCategoryLabel": "Isıtma & Soğutma"
     },
     "storeOffers": [
       {
@@ -47509,7 +48849,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "autoCleanDock": false,
       "noiseLevelDb": 77,
       "capacity": "0.6 L",
-      "weightKg": 2.7
+      "weightKg": 2.7,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -47610,7 +48952,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "autoCleanDock": false,
       "noiseLevelDb": 77,
       "capacity": "0.6 L",
-      "weightKg": 2.7
+      "weightKg": 2.7,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -47712,7 +49056,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 78,
       "capacity": "0.45 L Temiz Su / 0.4 L Kirli Su",
       "weightKg": 4.2,
-      "powerWatts": 400
+      "powerWatts": 400,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -47812,7 +49158,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "mappingTechnology": "LiDAR Lazer Haritalama",
       "noiseLevelDb": 66,
       "capacity": "0.4 L Toz / 0.3 L Su",
-      "weightKg": 3.5
+      "weightKg": 3.5,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -47914,7 +49262,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 78,
       "capacity": "0.45 L Temiz Su / 0.4 L Kirli Su",
       "weightKg": 4.2,
-      "powerWatts": 400
+      "powerWatts": 400,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -48015,7 +49365,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "autoCleanDock": false,
       "noiseLevelDb": 77,
       "capacity": "0.6 L",
-      "weightKg": 2.7
+      "weightKg": 2.7,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -48114,7 +49466,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "autoCleanDock": false,
       "noiseLevelDb": 78,
       "capacity": "0.5 L",
-      "weightKg": 2.1
+      "weightKg": 2.1,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -48212,7 +49566,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 19,
       "capacity": "30-49 m² Kapsama Alanı (190-250 m³/h CADR)",
       "weightKg": 2.4,
-      "powerWatts": 20
+      "powerWatts": 20,
+      "masterCategory": "climate",
+      "masterCategoryLabel": "Isıtma & Soğutma"
     },
     "storeOffers": [
       {
@@ -48310,7 +49666,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 18,
       "capacity": "63-78 m² Kapsama Alanı (300 m³/h CADR)",
       "weightKg": 4.7,
-      "powerWatts": 30
+      "powerWatts": 30,
+      "masterCategory": "climate",
+      "masterCategoryLabel": "Isıtma & Soğutma"
     },
     "storeOffers": [
       {
@@ -48410,7 +49768,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 19,
       "capacity": "85-98 m² Kapsama Alanı (380 m³/h CADR)",
       "weightKg": 5.8,
-      "powerWatts": 46
+      "powerWatts": 46,
+      "masterCategory": "climate",
+      "masterCategoryLabel": "Isıtma & Soğutma"
     },
     "storeOffers": [
       {
@@ -48512,7 +49872,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 78,
       "capacity": "0.45 L Temiz Su / 0.4 L Kirli Su",
       "weightKg": 4.2,
-      "powerWatts": 400
+      "powerWatts": 400,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -48612,7 +49974,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 19,
       "capacity": "85-98 m² Kapsama Alanı (380 m³/h CADR)",
       "weightKg": 5.8,
-      "powerWatts": 46
+      "powerWatts": 46,
+      "masterCategory": "climate",
+      "masterCategoryLabel": "Isıtma & Soğutma"
     },
     "storeOffers": [
       {
@@ -48712,7 +50076,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 67,
       "capacity": "4.0 L (s-bag)",
       "weightKg": 5.4,
-      "powerWatts": 900
+      "powerWatts": 900,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -48811,7 +50177,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "autoCleanDock": false,
       "noiseLevelDb": 78,
       "capacity": "0.6 L",
-      "weightKg": 2.4
+      "weightKg": 2.4,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -48913,7 +50281,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 78,
       "capacity": "0.45 L Temiz Su / 0.4 L Kirli Su",
       "weightKg": 4.2,
-      "powerWatts": 400
+      "powerWatts": 400,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -49011,7 +50381,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 77,
       "capacity": "1.3 L",
       "weightKg": 4,
-      "powerWatts": 850
+      "powerWatts": 850,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -49109,7 +50481,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 19,
       "capacity": "30-49 m² Kapsama Alanı (190-250 m³/h CADR)",
       "weightKg": 2.4,
-      "powerWatts": 20
+      "powerWatts": 20,
+      "masterCategory": "climate",
+      "masterCategoryLabel": "Isıtma & Soğutma"
     },
     "storeOffers": [
       {
@@ -49209,7 +50583,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 67,
       "capacity": "4.0 L (s-bag)",
       "weightKg": 5.4,
-      "powerWatts": 900
+      "powerWatts": 900,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -49307,7 +50683,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 18,
       "capacity": "63-78 m² Kapsama Alanı (300 m³/h CADR)",
       "weightKg": 4.7,
-      "powerWatts": 30
+      "powerWatts": 30,
+      "masterCategory": "climate",
+      "masterCategoryLabel": "Isıtma & Soğutma"
     },
     "storeOffers": [
       {
@@ -49408,7 +50786,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 75,
       "capacity": "2.2 L",
       "weightKg": 5.5,
-      "powerWatts": 900
+      "powerWatts": 900,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -49507,7 +50887,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "autoCleanDock": false,
       "noiseLevelDb": 78,
       "capacity": "0.6 L",
-      "weightKg": 2.4
+      "weightKg": 2.4,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -49606,7 +50988,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "autoCleanDock": false,
       "noiseLevelDb": 78,
       "capacity": "0.5 L",
-      "weightKg": 2.1
+      "weightKg": 2.1,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -49707,7 +51091,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "autoCleanDock": false,
       "noiseLevelDb": 77,
       "capacity": "0.6 L",
-      "weightKg": 2.7
+      "weightKg": 2.7,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -49806,7 +51192,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "autoCleanDock": false,
       "noiseLevelDb": 78,
       "capacity": "0.5 L",
-      "weightKg": 2.1
+      "weightKg": 2.1,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -49907,7 +51295,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 20,
       "capacity": "42 m² Kapsama Alanı (165 m³/h CADR)",
       "weightKg": 4.9,
-      "powerWatts": 2000
+      "powerWatts": 2000,
+      "masterCategory": "climate",
+      "masterCategoryLabel": "Isıtma & Soğutma"
     },
     "storeOffers": [
       {
@@ -50006,7 +51396,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 77,
       "capacity": "2.0 L",
       "weightKg": 5,
-      "powerWatts": 2100
+      "powerWatts": 2100,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -50105,7 +51497,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 76,
       "capacity": "1.5 L - 1.7 L",
       "weightKg": 4.8,
-      "powerWatts": 650
+      "powerWatts": 650,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -50205,7 +51599,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 76,
       "capacity": "2.0 L",
       "weightKg": 5.2,
-      "powerWatts": 650
+      "powerWatts": 650,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -50305,7 +51701,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 76,
       "capacity": "2.0 L",
       "weightKg": 5.2,
-      "powerWatts": 650
+      "powerWatts": 650,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -50405,7 +51803,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 75,
       "capacity": "2.2 L",
       "weightKg": 5.5,
-      "powerWatts": 650
+      "powerWatts": 650,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -50504,7 +51904,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 77,
       "capacity": "2.0 L",
       "weightKg": 5,
-      "powerWatts": 2100
+      "powerWatts": 2100,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -50603,7 +52005,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 77,
       "capacity": "2.0 L",
       "weightKg": 5,
-      "powerWatts": 2100
+      "powerWatts": 2100,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -50703,7 +52107,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 75,
       "capacity": "2.2 L",
       "weightKg": 5.5,
-      "powerWatts": 650
+      "powerWatts": 650,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -50802,7 +52208,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 75,
       "capacity": "2.2 L",
       "weightKg": 5.4,
-      "powerWatts": 650
+      "powerWatts": 650,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -50902,7 +52310,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 75,
       "capacity": "2.2 L",
       "weightKg": 5.5,
-      "powerWatts": 650
+      "powerWatts": 650,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -51001,7 +52411,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 76,
       "capacity": "1.5 L - 1.7 L",
       "weightKg": 4.8,
-      "powerWatts": 2000
+      "powerWatts": 2000,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -51100,7 +52512,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 76,
       "capacity": "1.5 L - 1.7 L",
       "weightKg": 4.8,
-      "powerWatts": 2000
+      "powerWatts": 2000,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -51199,7 +52613,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 76,
       "capacity": "1.5 L",
       "weightKg": 4.5,
-      "powerWatts": 900
+      "powerWatts": 900,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -51298,7 +52714,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 76,
       "capacity": "1.5 L",
       "weightKg": 4.5,
-      "powerWatts": 1800
+      "powerWatts": 1800,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -51397,7 +52815,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 75,
       "capacity": "2.2 L",
       "weightKg": 5.4,
-      "powerWatts": 650
+      "powerWatts": 650,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -51496,7 +52916,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 77,
       "capacity": "2.0 L",
       "weightKg": 5,
-      "powerWatts": 650
+      "powerWatts": 650,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -51596,7 +53018,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 75,
       "capacity": "2.2 L",
       "weightKg": 5.5,
-      "powerWatts": 650
+      "powerWatts": 650,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -51695,7 +53119,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 76,
       "capacity": "1.5 L",
       "weightKg": 4.5,
-      "powerWatts": 1400
+      "powerWatts": 1400,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -51795,7 +53221,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 76,
       "capacity": "2.0 L",
       "weightKg": 5.2,
-      "powerWatts": 2000
+      "powerWatts": 2000,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -51894,7 +53322,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 76,
       "capacity": "1.5 L",
       "weightKg": 4.5,
-      "powerWatts": 1400
+      "powerWatts": 1400,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -51994,7 +53424,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 76,
       "capacity": "2.0 L",
       "weightKg": 5.2,
-      "powerWatts": 650
+      "powerWatts": 650,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -52093,7 +53525,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 76,
       "capacity": "1.5 L - 1.7 L",
       "weightKg": 4.8,
-      "powerWatts": 650
+      "powerWatts": 650,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -52192,7 +53626,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 76,
       "capacity": "1.5 L - 1.7 L",
       "weightKg": 4.8,
-      "powerWatts": 650
+      "powerWatts": 650,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -52292,7 +53728,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 75,
       "capacity": "2.2 L",
       "weightKg": 5.5,
-      "powerWatts": 2400
+      "powerWatts": 2400,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -52391,7 +53829,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 75,
       "capacity": "2.2 L",
       "weightKg": 5.4,
-      "powerWatts": 2200
+      "powerWatts": 2200,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -52491,7 +53931,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 76,
       "capacity": "2.0 L",
       "weightKg": 5.2,
-      "powerWatts": 2000
+      "powerWatts": 2000,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -52592,7 +54034,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 78,
       "capacity": "5.0 L (s-bag)",
       "weightKg": 5,
-      "powerWatts": 2200
+      "powerWatts": 2200,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -52693,7 +54137,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 78,
       "capacity": "5.0 L (s-bag)",
       "weightKg": 5,
-      "powerWatts": 2200
+      "powerWatts": 2200,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -52792,7 +54238,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 76,
       "capacity": "1.5 L - 1.7 L",
       "weightKg": 4.8,
-      "powerWatts": 650
+      "powerWatts": 650,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -52891,7 +54339,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 76,
       "capacity": "2.0 L",
       "weightKg": 5.2,
-      "powerWatts": 650
+      "powerWatts": 650,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -52990,7 +54440,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 76,
       "capacity": "1.5 L",
       "weightKg": 4.8,
-      "powerWatts": 650
+      "powerWatts": 650,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -53088,7 +54540,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 77,
       "capacity": "1.5 L",
       "weightKg": 4.3,
-      "powerWatts": 900
+      "powerWatts": 900,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -53187,7 +54641,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 78,
       "capacity": "2.0 L",
       "weightKg": 7,
-      "powerWatts": 2200
+      "powerWatts": 2200,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -53286,7 +54742,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 78,
       "capacity": "2.0 L",
       "weightKg": 7,
-      "powerWatts": 2200
+      "powerWatts": 2200,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -53385,7 +54843,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 78,
       "capacity": "2.0 L",
       "weightKg": 7,
-      "powerWatts": 2200
+      "powerWatts": 2200,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -53485,7 +54945,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 79,
       "capacity": "2.0 L Su Filtresi",
       "weightKg": 7,
-      "powerWatts": 1400
+      "powerWatts": 1400,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -53585,7 +55047,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 79,
       "capacity": "2.0 L Su Filtresi",
       "weightKg": 7,
-      "powerWatts": 1400
+      "powerWatts": 1400,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -53684,7 +55148,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 76,
       "capacity": "2.0 L",
       "weightKg": 5.2,
-      "powerWatts": 650
+      "powerWatts": 650,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -53784,7 +55250,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 78,
       "capacity": "5.0 L (s-bag)",
       "weightKg": 5,
-      "powerWatts": 650
+      "powerWatts": 650,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -53884,7 +55352,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 75,
       "capacity": "2.2 L",
       "weightKg": 5.5,
-      "powerWatts": 650
+      "powerWatts": 650,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -53984,7 +55454,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 78,
       "capacity": "5.0 L (s-bag)",
       "weightKg": 5,
-      "powerWatts": 650
+      "powerWatts": 650,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -54084,7 +55556,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 75,
       "capacity": "2.2 L",
       "weightKg": 5.5,
-      "powerWatts": 900
+      "powerWatts": 900,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -54184,7 +55658,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 78,
       "capacity": "5.0 L (s-bag)",
       "weightKg": 5,
-      "powerWatts": 650
+      "powerWatts": 650,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -54284,7 +55760,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 78,
       "capacity": "5.0 L (s-bag)",
       "weightKg": 5,
-      "powerWatts": 650
+      "powerWatts": 650,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -54383,7 +55861,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 77,
       "capacity": "4.0 L (s-bag)",
       "weightKg": 4.8,
-      "powerWatts": 2000
+      "powerWatts": 2000,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -54482,7 +55962,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 77,
       "capacity": "4.0 L (s-bag)",
       "weightKg": 4.8,
-      "powerWatts": 2000
+      "powerWatts": 2000,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -54580,7 +56062,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 77,
       "capacity": "1.5 L",
       "weightKg": 4.3,
-      "powerWatts": 850
+      "powerWatts": 850,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -54678,7 +56162,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 77,
       "capacity": "1.5 L",
       "weightKg": 4.3,
-      "powerWatts": 900
+      "powerWatts": 900,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -54776,7 +56262,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 77,
       "capacity": "1.5 L",
       "weightKg": 4.3,
-      "powerWatts": 900
+      "powerWatts": 900,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -54876,7 +56364,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 75,
       "capacity": "2.2 L",
       "weightKg": 5.5,
-      "powerWatts": 650
+      "powerWatts": 650,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -54975,7 +56465,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 77,
       "capacity": "4.0 L (s-bag)",
       "weightKg": 4.8,
-      "powerWatts": 650
+      "powerWatts": 650,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -55074,7 +56566,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 76,
       "capacity": "1.5 L",
       "weightKg": 4.8,
-      "powerWatts": 1800
+      "powerWatts": 1800,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -55174,7 +56668,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 75,
       "capacity": "2.2 L",
       "weightKg": 5.5,
-      "powerWatts": 650
+      "powerWatts": 650,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -55272,7 +56768,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 77,
       "capacity": "2.0 L",
       "weightKg": 4.3,
-      "powerWatts": 1600
+      "powerWatts": 1600,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -55370,7 +56868,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 77,
       "capacity": "1.5 L",
       "weightKg": 4.3,
-      "powerWatts": 1400
+      "powerWatts": 1400,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -55468,7 +56968,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 77,
       "capacity": "3.0 L (s-bag)",
       "weightKg": 4.3,
-      "powerWatts": 750
+      "powerWatts": 750,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -55571,7 +57073,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 63,
       "capacity": "0.4 L",
       "weightKg": 1.95,
-      "powerWatts": 650
+      "powerWatts": 650,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -55670,7 +57174,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 80,
       "capacity": "3.0 L (s-bag)",
       "weightKg": 4.2,
-      "powerWatts": 2000
+      "powerWatts": 2000,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -55769,7 +57275,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 80,
       "capacity": "3.0 L (s-bag)",
       "weightKg": 4.2,
-      "powerWatts": 2000
+      "powerWatts": 2000,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -55872,7 +57380,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 62,
       "capacity": "0.4 L",
       "weightKg": 1.95,
-      "powerWatts": 650
+      "powerWatts": 650,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -55974,7 +57484,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 80,
       "capacity": "0.6 L Toz / 0.2 L Su",
       "weightKg": 2.9,
-      "powerWatts": 180
+      "powerWatts": 180,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -56074,7 +57586,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 83,
       "capacity": "0.6 L",
       "weightKg": 2.9,
-      "powerWatts": 150
+      "powerWatts": 150,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -56176,7 +57690,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 80,
       "capacity": "0.6 L Toz / 0.2 L Su",
       "weightKg": 2.9,
-      "powerWatts": 180
+      "powerWatts": 180,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -56278,7 +57794,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 80,
       "capacity": "0.6 L Toz / 0.2 L Su",
       "weightKg": 2.9,
-      "powerWatts": 180
+      "powerWatts": 180,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -56379,7 +57897,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 84,
       "capacity": "0.6 L",
       "weightKg": 2.7,
-      "powerWatts": 250
+      "powerWatts": 250,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -56480,7 +58000,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 84,
       "capacity": "0.6 L",
       "weightKg": 2.7,
-      "powerWatts": 250
+      "powerWatts": 250,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -56581,7 +58103,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 84,
       "capacity": "0.6 L",
       "weightKg": 2.7,
-      "powerWatts": 250
+      "powerWatts": 250,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -56681,7 +58205,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 83,
       "capacity": "0.6 L",
       "weightKg": 2.9,
-      "powerWatts": 150
+      "powerWatts": 150,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -56781,7 +58307,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 81,
       "capacity": "0.5 L",
       "weightKg": 1.3,
-      "powerWatts": 100
+      "powerWatts": 100,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -56881,7 +58409,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 83,
       "capacity": "0.6 L",
       "weightKg": 2.9,
-      "powerWatts": 150
+      "powerWatts": 150,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -56981,7 +58511,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 81,
       "capacity": "0.5 L",
       "weightKg": 1.3,
-      "powerWatts": 100
+      "powerWatts": 100,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -57082,7 +58614,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 66,
       "capacity": "4.0 L (s-bag)",
       "weightKg": 5.4,
-      "powerWatts": 650
+      "powerWatts": 650,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -57183,7 +58717,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 66,
       "capacity": "4.0 L (s-bag)",
       "weightKg": 5.4,
-      "powerWatts": 750
+      "powerWatts": 750,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -57284,7 +58820,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 79,
       "capacity": "10.0 L Sıvı / 9.0 L Kuru",
       "weightKg": 9,
-      "powerWatts": 1500
+      "powerWatts": 1500,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -57387,7 +58925,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 62,
       "capacity": "0.4 L",
       "weightKg": 1.95,
-      "powerWatts": 650
+      "powerWatts": 650,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -57488,7 +59028,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 66,
       "capacity": "4.0 L (s-bag)",
       "weightKg": 5.4,
-      "powerWatts": 750
+      "powerWatts": 750,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -57589,7 +59131,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 66,
       "capacity": "4.0 L (s-bag)",
       "weightKg": 5.4,
-      "powerWatts": 650
+      "powerWatts": 650,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -57687,7 +59231,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 77,
       "capacity": "3.0 L (s-bag)",
       "weightKg": 4.3,
-      "powerWatts": 750
+      "powerWatts": 750,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -57787,7 +59333,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 77,
       "capacity": "4.0 L (s-bag)",
       "weightKg": 5,
-      "powerWatts": 900
+      "powerWatts": 900,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -57887,7 +59435,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 77,
       "capacity": "4.0 L (s-bag)",
       "weightKg": 5,
-      "powerWatts": 650
+      "powerWatts": 650,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -57985,7 +59535,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 77,
       "capacity": "1.7 L",
       "weightKg": 4.3,
-      "powerWatts": 1400
+      "powerWatts": 1400,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -58088,7 +59640,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 62,
       "capacity": "0.4 L",
       "weightKg": 1.95,
-      "powerWatts": 650
+      "powerWatts": 650,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -58186,7 +59740,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 77,
       "capacity": "3.0 L (s-bag)",
       "weightKg": 4.3,
-      "powerWatts": 750
+      "powerWatts": 750,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -58284,7 +59840,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 77,
       "capacity": "3.0 L (s-bag)",
       "weightKg": 4.3,
-      "powerWatts": 750
+      "powerWatts": 750,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -58385,7 +59943,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 74,
       "capacity": "4.0 L (s-bag)",
       "weightKg": 6.2,
-      "powerWatts": 750
+      "powerWatts": 750,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -58483,7 +60043,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 77,
       "capacity": "3.0 L (s-bag)",
       "weightKg": 4.3,
-      "powerWatts": 750
+      "powerWatts": 750,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -58583,7 +60145,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 77,
       "capacity": "4.0 L (s-bag)",
       "weightKg": 5,
-      "powerWatts": 650
+      "powerWatts": 650,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -58681,7 +60245,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 77,
       "capacity": "3.0 L (s-bag)",
       "weightKg": 4.3,
-      "powerWatts": 750
+      "powerWatts": 750,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -58781,7 +60347,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 77,
       "capacity": "4.0 L (s-bag)",
       "weightKg": 5,
-      "powerWatts": 650
+      "powerWatts": 650,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -58884,7 +60452,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 60,
       "capacity": "0.4 L",
       "weightKg": 1.9,
-      "powerWatts": 650
+      "powerWatts": 650,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -58987,7 +60557,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 60,
       "capacity": "0.4 L",
       "weightKg": 1.9,
-      "powerWatts": 650
+      "powerWatts": 650,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -59090,7 +60662,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 60,
       "capacity": "0.4 L",
       "weightKg": 1.9,
-      "powerWatts": 650
+      "powerWatts": 650,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -59188,7 +60762,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 77,
       "capacity": "3.0 L (s-bag)",
       "weightKg": 4.3,
-      "powerWatts": 750
+      "powerWatts": 750,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -59291,7 +60867,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 60,
       "capacity": "0.4 L",
       "weightKg": 1.9,
-      "powerWatts": 650
+      "powerWatts": 650,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -59394,7 +60972,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 60,
       "capacity": "0.4 L",
       "weightKg": 1.9,
-      "powerWatts": 650
+      "powerWatts": 650,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -59497,7 +61077,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 60,
       "capacity": "0.4 L",
       "weightKg": 1.9,
-      "powerWatts": 650
+      "powerWatts": 650,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -59600,7 +61182,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 60,
       "capacity": "0.4 L",
       "weightKg": 1.9,
-      "powerWatts": 650
+      "powerWatts": 650,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -59701,7 +61285,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 66,
       "capacity": "4.0 L (s-bag)",
       "weightKg": 5.4,
-      "powerWatts": 750
+      "powerWatts": 750,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -59801,7 +61387,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 81,
       "capacity": "0.5 L",
       "weightKg": 1.3,
-      "powerWatts": 100
+      "powerWatts": 100,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -59899,7 +61487,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 77,
       "capacity": "3.0 L (s-bag)",
       "weightKg": 4.3,
-      "powerWatts": 750
+      "powerWatts": 750,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -59999,7 +61589,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 81,
       "capacity": "0.5 L",
       "weightKg": 1.3,
-      "powerWatts": 100
+      "powerWatts": 100,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -60100,7 +61692,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 80,
       "capacity": "0.6 L",
       "weightKg": 2.4,
-      "powerWatts": 200
+      "powerWatts": 200,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -60201,7 +61795,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 80,
       "capacity": "0.6 L",
       "weightKg": 2.4,
-      "powerWatts": 200
+      "powerWatts": 200,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -60302,7 +61898,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 80,
       "capacity": "0.6 L",
       "weightKg": 2.4,
-      "powerWatts": 200
+      "powerWatts": 200,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -60402,7 +62000,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 81,
       "capacity": "0.5 L",
       "weightKg": 1.3,
-      "powerWatts": 100
+      "powerWatts": 100,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -60503,7 +62103,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 80,
       "capacity": "0.6 L",
       "weightKg": 2.4,
-      "powerWatts": 200
+      "powerWatts": 200,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -60603,7 +62205,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 75,
       "capacity": "0.45 L Su Deposu",
       "weightKg": 3,
-      "powerWatts": 1500
+      "powerWatts": 1500,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -60704,7 +62308,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 25,
       "capacity": "135 m² Kapsama Alanı (520 m³/h CADR)",
       "weightKg": 6.8,
-      "powerWatts": 55
+      "powerWatts": 55,
+      "masterCategory": "climate",
+      "masterCategoryLabel": "Isıtma & Soğutma"
     },
     "storeOffers": [
       {
@@ -60808,7 +62414,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 65,
       "capacity": "0.45 L Toz / 0.3 L Su",
       "weightKg": 3.6,
-      "powerWatts": 650
+      "powerWatts": 650,
+      "masterCategory": "cleaning",
+      "masterCategoryLabel": "Süpürge & Temizlik"
     },
     "storeOffers": [
       {
@@ -60909,7 +62517,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 25,
       "capacity": "135 m² Kapsama Alanı (520 m³/h CADR)",
       "weightKg": 6.8,
-      "powerWatts": 55
+      "powerWatts": 55,
+      "masterCategory": "climate",
+      "masterCategoryLabel": "Isıtma & Soğutma"
     },
     "storeOffers": [
       {
@@ -61009,7 +62619,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 35,
       "capacity": "Araç İçi / 3 m² (Sani Tech UV-C)",
       "weightKg": 0.6,
-      "powerWatts": 10
+      "powerWatts": 10,
+      "masterCategory": "climate",
+      "masterCategoryLabel": "Isıtma & Soğutma"
     },
     "storeOffers": [
       {
@@ -61108,7 +62720,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 27,
       "capacity": "49 m² (190 m³/h CADR)",
       "weightKg": 2.4,
-      "powerWatts": 20
+      "powerWatts": 20,
+      "masterCategory": "climate",
+      "masterCategoryLabel": "Isıtma & Soğutma"
     },
     "storeOffers": [
       {
@@ -61208,7 +62822,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 28,
       "capacity": "79 m² (333 m³/h CADR)",
       "weightKg": 5.2,
-      "powerWatts": 30
+      "powerWatts": 30,
+      "masterCategory": "climate",
+      "masterCategoryLabel": "Isıtma & Soğutma"
     },
     "storeOffers": [
       {
@@ -61309,7 +62925,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 30,
       "capacity": "68 m² (250 m³/h CADR - 500 ml/saat Nemlendirme)",
       "weightKg": 8.5,
-      "powerWatts": 45
+      "powerWatts": 45,
+      "masterCategory": "climate",
+      "masterCategoryLabel": "Isıtma & Soğutma"
     },
     "storeOffers": [
       {
@@ -61409,7 +63027,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 28,
       "capacity": "63 m² (270 m³/h CADR)",
       "weightKg": 5.2,
-      "powerWatts": 30
+      "powerWatts": 30,
+      "masterCategory": "climate",
+      "masterCategoryLabel": "Isıtma & Soğutma"
     },
     "storeOffers": [
       {
@@ -61509,7 +63129,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 28,
       "capacity": "79 m² (333 m³/h CADR)",
       "weightKg": 5.2,
-      "powerWatts": 30
+      "powerWatts": 30,
+      "masterCategory": "climate",
+      "masterCategoryLabel": "Isıtma & Soğutma"
     },
     "storeOffers": [
       {
@@ -61610,7 +63232,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 30,
       "capacity": "80 m² (310 m³/h CADR - 600 ml/saat Nemlendirme)",
       "weightKg": 8.5,
-      "powerWatts": 45
+      "powerWatts": 45,
+      "masterCategory": "climate",
+      "masterCategoryLabel": "Isıtma & Soğutma"
     },
     "storeOffers": [
       {
@@ -61711,7 +63335,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 30,
       "capacity": "68 m² (250 m³/h CADR - 500 ml/saat Nemlendirme)",
       "weightKg": 8.5,
-      "powerWatts": 45
+      "powerWatts": 45,
+      "masterCategory": "climate",
+      "masterCategoryLabel": "Isıtma & Soğutma"
     },
     "storeOffers": [
       {
@@ -61811,7 +63437,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 28,
       "capacity": "79 m² (333 m³/h CADR)",
       "weightKg": 5.2,
-      "powerWatts": 30
+      "powerWatts": 30,
+      "masterCategory": "climate",
+      "masterCategoryLabel": "Isıtma & Soğutma"
     },
     "storeOffers": [
       {
@@ -61913,7 +63541,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 24,
       "capacity": "130 m² (500 m³/h CADR - Çift Taraflı Emiş)",
       "weightKg": 8.8,
-      "powerWatts": 60
+      "powerWatts": 60,
+      "masterCategory": "climate",
+      "masterCategoryLabel": "Isıtma & Soğutma"
     },
     "storeOffers": [
       {
@@ -62014,7 +63644,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 26,
       "capacity": "104 m² (400 m³/h CADR)",
       "weightKg": 7,
-      "powerWatts": 50
+      "powerWatts": 50,
+      "masterCategory": "climate",
+      "masterCategoryLabel": "Isıtma & Soğutma"
     },
     "storeOffers": [
       {
@@ -62113,7 +63745,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 30,
       "capacity": "60 m²",
       "weightKg": 4.5,
-      "powerWatts": 30
+      "powerWatts": 30,
+      "masterCategory": "climate",
+      "masterCategoryLabel": "Isıtma & Soğutma"
     },
     "storeOffers": [
       {
@@ -62214,7 +63848,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 25,
       "capacity": "95 m² (393 m³/h CADR)",
       "weightKg": 7.2,
-      "powerWatts": 55
+      "powerWatts": 55,
+      "masterCategory": "climate",
+      "masterCategoryLabel": "Isıtma & Soğutma"
     },
     "storeOffers": [
       {
@@ -62314,7 +63950,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 27,
       "capacity": "49 m² (190 m³/h CADR)",
       "weightKg": 2.4,
-      "powerWatts": 22
+      "powerWatts": 22,
+      "masterCategory": "climate",
+      "masterCategoryLabel": "Isıtma & Soğutma"
     },
     "storeOffers": [
       {
@@ -62415,7 +64053,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 25,
       "capacity": "135 m² (520 m³/h CADR)",
       "weightKg": 7.2,
-      "powerWatts": 55
+      "powerWatts": 55,
+      "masterCategory": "climate",
+      "masterCategoryLabel": "Isıtma & Soğutma"
     },
     "storeOffers": [
       {
@@ -62514,7 +64154,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 30,
       "capacity": "60 m²",
       "weightKg": 4.5,
-      "powerWatts": 30
+      "powerWatts": 30,
+      "masterCategory": "climate",
+      "masterCategoryLabel": "Isıtma & Soğutma"
     },
     "storeOffers": [
       {
@@ -62614,7 +64256,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 22,
       "capacity": "Bebek Odası (Ultrasonik Soğuk Buhar)",
       "weightKg": 1.8,
-      "powerWatts": 35
+      "powerWatts": 35,
+      "masterCategory": "climate",
+      "masterCategoryLabel": "Isıtma & Soğutma"
     },
     "storeOffers": [
       {
@@ -62716,7 +64360,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 55,
       "weightKg": 7.8,
       "appControl": false,
-      "programsCount": 8
+      "programsCount": 8,
+      "masterCategory": "kitchen",
+      "masterCategoryLabel": "Mutfak Aletleri"
     },
     "storeOffers": [
       {
@@ -62818,7 +64464,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 55,
       "weightKg": 7.9,
       "appControl": false,
-      "programsCount": 5
+      "programsCount": 5,
+      "masterCategory": "kitchen",
+      "masterCategoryLabel": "Mutfak Aletleri"
     },
     "storeOffers": [
       {
@@ -62920,7 +64568,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 55,
       "weightKg": 7.9,
       "appControl": false,
-      "programsCount": 5
+      "programsCount": 5,
+      "masterCategory": "kitchen",
+      "masterCategoryLabel": "Mutfak Aletleri"
     },
     "storeOffers": [
       {
@@ -63022,7 +64672,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 55,
       "weightKg": 7.9,
       "appControl": false,
-      "programsCount": 5
+      "programsCount": 5,
+      "masterCategory": "kitchen",
+      "masterCategoryLabel": "Mutfak Aletleri"
     },
     "storeOffers": [
       {
@@ -63124,7 +64776,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 55,
       "weightKg": 7.9,
       "appControl": false,
-      "programsCount": 5
+      "programsCount": 5,
+      "masterCategory": "kitchen",
+      "masterCategoryLabel": "Mutfak Aletleri"
     },
     "storeOffers": [
       {
@@ -63226,7 +64880,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 55,
       "weightKg": 5.5,
       "appControl": false,
-      "programsCount": 7
+      "programsCount": 7,
+      "masterCategory": "kitchen",
+      "masterCategoryLabel": "Mutfak Aletleri"
     },
     "storeOffers": [
       {
@@ -63329,7 +64985,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 55,
       "weightKg": 9.2,
       "appControl": true,
-      "programsCount": 22
+      "programsCount": 22,
+      "masterCategory": "kitchen",
+      "masterCategoryLabel": "Mutfak Aletleri"
     },
     "storeOffers": [
       {
@@ -63432,7 +65090,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 55,
       "weightKg": 9.2,
       "appControl": true,
-      "programsCount": 22
+      "programsCount": 22,
+      "masterCategory": "kitchen",
+      "masterCategoryLabel": "Mutfak Aletleri"
     },
     "storeOffers": [
       {
@@ -63534,7 +65194,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 55,
       "weightKg": 5.6,
       "appControl": true,
-      "programsCount": 14
+      "programsCount": 14,
+      "masterCategory": "kitchen",
+      "masterCategoryLabel": "Mutfak Aletleri"
     },
     "storeOffers": [
       {
@@ -63636,7 +65298,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 55,
       "weightKg": 5.5,
       "appControl": false,
-      "programsCount": 7
+      "programsCount": 7,
+      "masterCategory": "kitchen",
+      "masterCategoryLabel": "Mutfak Aletleri"
     },
     "storeOffers": [
       {
@@ -63738,7 +65402,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 55,
       "weightKg": 5.5,
       "appControl": false,
-      "programsCount": 7
+      "programsCount": 7,
+      "masterCategory": "kitchen",
+      "masterCategoryLabel": "Mutfak Aletleri"
     },
     "storeOffers": [
       {
@@ -63838,7 +65504,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 55,
       "weightKg": 4.5,
       "appControl": false,
-      "programsCount": 7
+      "programsCount": 7,
+      "masterCategory": "kitchen",
+      "masterCategoryLabel": "Mutfak Aletleri"
     },
     "storeOffers": [
       {
@@ -63938,7 +65606,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 55,
       "weightKg": 4.5,
       "appControl": false,
-      "programsCount": 1
+      "programsCount": 1,
+      "masterCategory": "kitchen",
+      "masterCategoryLabel": "Mutfak Aletleri"
     },
     "storeOffers": [
       {
@@ -64040,7 +65710,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 55,
       "weightKg": 5.1,
       "appControl": false,
-      "programsCount": 7
+      "programsCount": 7,
+      "masterCategory": "kitchen",
+      "masterCategoryLabel": "Mutfak Aletleri"
     },
     "storeOffers": [
       {
@@ -64140,7 +65812,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 55,
       "weightKg": 4.5,
       "appControl": false,
-      "programsCount": 7
+      "programsCount": 7,
+      "masterCategory": "kitchen",
+      "masterCategoryLabel": "Mutfak Aletleri"
     },
     "storeOffers": [
       {
@@ -64242,7 +65916,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 55,
       "weightKg": 4.5,
       "appControl": true,
-      "programsCount": 14
+      "programsCount": 14,
+      "masterCategory": "kitchen",
+      "masterCategoryLabel": "Mutfak Aletleri"
     },
     "storeOffers": [
       {
@@ -64344,7 +66020,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 55,
       "weightKg": 5.5,
       "appControl": false,
-      "programsCount": 7
+      "programsCount": 7,
+      "masterCategory": "kitchen",
+      "masterCategoryLabel": "Mutfak Aletleri"
     },
     "storeOffers": [
       {
@@ -64444,7 +66122,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 55,
       "weightKg": 4.5,
       "appControl": false,
-      "programsCount": 7
+      "programsCount": 7,
+      "masterCategory": "kitchen",
+      "masterCategoryLabel": "Mutfak Aletleri"
     },
     "storeOffers": [
       {
@@ -64546,7 +66226,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 55,
       "weightKg": 5.1,
       "appControl": false,
-      "programsCount": 7
+      "programsCount": 7,
+      "masterCategory": "kitchen",
+      "masterCategoryLabel": "Mutfak Aletleri"
     },
     "storeOffers": [
       {
@@ -64648,7 +66330,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 55,
       "weightKg": 7.8,
       "appControl": false,
-      "programsCount": 8
+      "programsCount": 8,
+      "masterCategory": "kitchen",
+      "masterCategoryLabel": "Mutfak Aletleri"
     },
     "storeOffers": [
       {
@@ -64748,7 +66432,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 55,
       "weightKg": 4.5,
       "appControl": false,
-      "programsCount": 7
+      "programsCount": 7,
+      "masterCategory": "kitchen",
+      "masterCategoryLabel": "Mutfak Aletleri"
     },
     "storeOffers": [
       {
@@ -64850,7 +66536,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 55,
       "weightKg": 7.8,
       "appControl": true,
-      "programsCount": 8
+      "programsCount": 8,
+      "masterCategory": "kitchen",
+      "masterCategoryLabel": "Mutfak Aletleri"
     },
     "storeOffers": [
       {
@@ -64950,7 +66638,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 55,
       "weightKg": 4.5,
       "appControl": false,
-      "programsCount": 7
+      "programsCount": 7,
+      "masterCategory": "kitchen",
+      "masterCategoryLabel": "Mutfak Aletleri"
     },
     "storeOffers": [
       {
@@ -65050,7 +66740,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 55,
       "weightKg": 4.5,
       "appControl": false,
-      "programsCount": 7
+      "programsCount": 7,
+      "masterCategory": "kitchen",
+      "masterCategoryLabel": "Mutfak Aletleri"
     },
     "storeOffers": [
       {
@@ -65152,7 +66844,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 55,
       "weightKg": 5.5,
       "appControl": false,
-      "programsCount": 7
+      "programsCount": 7,
+      "masterCategory": "kitchen",
+      "masterCategoryLabel": "Mutfak Aletleri"
     },
     "storeOffers": [
       {
@@ -65254,7 +66948,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 55,
       "weightKg": 5.5,
       "appControl": false,
-      "programsCount": 7
+      "programsCount": 7,
+      "masterCategory": "kitchen",
+      "masterCategoryLabel": "Mutfak Aletleri"
     },
     "storeOffers": [
       {
@@ -65356,7 +67052,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 55,
       "weightKg": 5.5,
       "appControl": false,
-      "programsCount": 7
+      "programsCount": 7,
+      "masterCategory": "kitchen",
+      "masterCategoryLabel": "Mutfak Aletleri"
     },
     "storeOffers": [
       {
@@ -65458,7 +67156,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 55,
       "weightKg": 5.5,
       "appControl": false,
-      "programsCount": 7
+      "programsCount": 7,
+      "masterCategory": "kitchen",
+      "masterCategoryLabel": "Mutfak Aletleri"
     },
     "storeOffers": [
       {
@@ -65560,7 +67260,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 55,
       "weightKg": 7.9,
       "appControl": false,
-      "programsCount": 5
+      "programsCount": 5,
+      "masterCategory": "kitchen",
+      "masterCategoryLabel": "Mutfak Aletleri"
     },
     "storeOffers": [
       {
@@ -65662,7 +67364,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 55,
       "weightKg": 7.9,
       "appControl": false,
-      "programsCount": 5
+      "programsCount": 5,
+      "masterCategory": "kitchen",
+      "masterCategoryLabel": "Mutfak Aletleri"
     },
     "storeOffers": [
       {
@@ -65763,7 +67467,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 55,
       "weightKg": 7.9,
       "appControl": false,
-      "programsCount": 5
+      "programsCount": 5,
+      "masterCategory": "kitchen",
+      "masterCategoryLabel": "Mutfak Aletleri"
     },
     "storeOffers": [
       {
@@ -65864,7 +67570,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 55,
       "weightKg": 7.9,
       "appControl": false,
-      "programsCount": 5
+      "programsCount": 5,
+      "masterCategory": "kitchen",
+      "masterCategoryLabel": "Mutfak Aletleri"
     },
     "storeOffers": [
       {
@@ -65965,7 +67673,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 55,
       "weightKg": 7.9,
       "appControl": false,
-      "programsCount": 5
+      "programsCount": 5,
+      "masterCategory": "kitchen",
+      "masterCategoryLabel": "Mutfak Aletleri"
     },
     "storeOffers": [
       {
@@ -66067,7 +67777,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 55,
       "weightKg": 5.5,
       "appControl": true,
-      "programsCount": 14
+      "programsCount": 14,
+      "masterCategory": "kitchen",
+      "masterCategoryLabel": "Mutfak Aletleri"
     },
     "storeOffers": [
       {
@@ -66167,7 +67879,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 55,
       "weightKg": 5.5,
       "appControl": false,
-      "programsCount": 7
+      "programsCount": 7,
+      "masterCategory": "kitchen",
+      "masterCategoryLabel": "Mutfak Aletleri"
     },
     "storeOffers": [
       {
@@ -66266,7 +67980,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 55,
       "weightKg": 4.5,
       "appControl": false,
-      "programsCount": 1
+      "programsCount": 1,
+      "masterCategory": "kitchen",
+      "masterCategoryLabel": "Mutfak Aletleri"
     },
     "storeOffers": [
       {
@@ -66365,7 +68081,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 55,
       "weightKg": 4.5,
       "appControl": false,
-      "programsCount": 1
+      "programsCount": 1,
+      "masterCategory": "kitchen",
+      "masterCategoryLabel": "Mutfak Aletleri"
     },
     "storeOffers": [
       {
@@ -66464,7 +68182,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 55,
       "weightKg": 4.5,
       "appControl": false,
-      "programsCount": 1
+      "programsCount": 1,
+      "masterCategory": "kitchen",
+      "masterCategoryLabel": "Mutfak Aletleri"
     },
     "storeOffers": [
       {
@@ -66563,7 +68283,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 55,
       "weightKg": 4.5,
       "appControl": false,
-      "programsCount": 7
+      "programsCount": 7,
+      "masterCategory": "kitchen",
+      "masterCategoryLabel": "Mutfak Aletleri"
     },
     "storeOffers": [
       {
@@ -66662,7 +68384,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 55,
       "weightKg": 4.5,
       "appControl": false,
-      "programsCount": 7
+      "programsCount": 7,
+      "masterCategory": "kitchen",
+      "masterCategoryLabel": "Mutfak Aletleri"
     },
     "storeOffers": [
       {
@@ -66761,7 +68485,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 55,
       "weightKg": 4.5,
       "appControl": false,
-      "programsCount": 7
+      "programsCount": 7,
+      "masterCategory": "kitchen",
+      "masterCategoryLabel": "Mutfak Aletleri"
     },
     "storeOffers": [
       {
@@ -66861,7 +68587,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 55,
       "weightKg": 3.8,
       "appControl": false,
-      "programsCount": 1
+      "programsCount": 1,
+      "masterCategory": "kitchen",
+      "masterCategoryLabel": "Mutfak Aletleri"
     },
     "storeOffers": [
       {
@@ -66961,7 +68689,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 55,
       "weightKg": 3.8,
       "appControl": false,
-      "programsCount": 1
+      "programsCount": 1,
+      "masterCategory": "kitchen",
+      "masterCategoryLabel": "Mutfak Aletleri"
     },
     "storeOffers": [
       {
@@ -67062,7 +68792,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 55,
       "weightKg": 7.9,
       "appControl": false,
-      "programsCount": 1
+      "programsCount": 1,
+      "masterCategory": "kitchen",
+      "masterCategoryLabel": "Mutfak Aletleri"
     },
     "storeOffers": [
       {
@@ -67161,7 +68893,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 55,
       "weightKg": 4.5,
       "appControl": false,
-      "programsCount": 7
+      "programsCount": 7,
+      "masterCategory": "kitchen",
+      "masterCategoryLabel": "Mutfak Aletleri"
     },
     "storeOffers": [
       {
@@ -67261,7 +68995,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 55,
       "weightKg": 3.8,
       "appControl": false,
-      "programsCount": 1
+      "programsCount": 1,
+      "masterCategory": "kitchen",
+      "masterCategoryLabel": "Mutfak Aletleri"
     },
     "storeOffers": [
       {
@@ -67361,7 +69097,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 55,
       "weightKg": 7,
       "appControl": false,
-      "programsCount": 5
+      "programsCount": 5,
+      "masterCategory": "kitchen",
+      "masterCategoryLabel": "Mutfak Aletleri"
     },
     "storeOffers": [
       {
@@ -67461,7 +69199,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 55,
       "weightKg": 7,
       "appControl": false,
-      "programsCount": 5
+      "programsCount": 5,
+      "masterCategory": "kitchen",
+      "masterCategoryLabel": "Mutfak Aletleri"
     },
     "storeOffers": [
       {
@@ -67561,7 +69301,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 55,
       "weightKg": 3.8,
       "appControl": false,
-      "programsCount": 1
+      "programsCount": 1,
+      "masterCategory": "kitchen",
+      "masterCategoryLabel": "Mutfak Aletleri"
     },
     "storeOffers": [
       {
@@ -67661,7 +69403,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 55,
       "weightKg": 5.3,
       "appControl": false,
-      "programsCount": 4
+      "programsCount": 4,
+      "masterCategory": "kitchen",
+      "masterCategoryLabel": "Mutfak Aletleri"
     },
     "storeOffers": [
       {
@@ -67760,7 +69504,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 55,
       "weightKg": 4.5,
       "appControl": false,
-      "programsCount": 1
+      "programsCount": 1,
+      "masterCategory": "kitchen",
+      "masterCategoryLabel": "Mutfak Aletleri"
     },
     "storeOffers": [
       {
@@ -67860,7 +69606,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 55,
       "weightKg": 5.3,
       "appControl": false,
-      "programsCount": 1
+      "programsCount": 1,
+      "masterCategory": "kitchen",
+      "masterCategoryLabel": "Mutfak Aletleri"
     },
     "storeOffers": [
       {
@@ -67960,7 +69708,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 55,
       "weightKg": 5.3,
       "appControl": false,
-      "programsCount": 1
+      "programsCount": 1,
+      "masterCategory": "kitchen",
+      "masterCategoryLabel": "Mutfak Aletleri"
     },
     "storeOffers": [
       {
@@ -68060,7 +69810,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 55,
       "weightKg": 5.3,
       "appControl": false,
-      "programsCount": 4
+      "programsCount": 4,
+      "masterCategory": "kitchen",
+      "masterCategoryLabel": "Mutfak Aletleri"
     },
     "storeOffers": [
       {
@@ -68160,7 +69912,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 55,
       "weightKg": 5.3,
       "appControl": false,
-      "programsCount": 4
+      "programsCount": 4,
+      "masterCategory": "kitchen",
+      "masterCategoryLabel": "Mutfak Aletleri"
     },
     "storeOffers": [
       {
@@ -68259,7 +70013,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 55,
       "weightKg": 4.5,
       "appControl": false,
-      "programsCount": 7
+      "programsCount": 7,
+      "masterCategory": "kitchen",
+      "masterCategoryLabel": "Mutfak Aletleri"
     },
     "storeOffers": [
       {
@@ -68358,7 +70114,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 55,
       "weightKg": 4.5,
       "appControl": false,
-      "programsCount": 1
+      "programsCount": 1,
+      "masterCategory": "kitchen",
+      "masterCategoryLabel": "Mutfak Aletleri"
     },
     "storeOffers": [
       {
@@ -68458,7 +70216,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 55,
       "weightKg": 5.3,
       "appControl": false,
-      "programsCount": 1
+      "programsCount": 1,
+      "masterCategory": "kitchen",
+      "masterCategoryLabel": "Mutfak Aletleri"
     },
     "storeOffers": [
       {
@@ -68559,7 +70319,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 55,
       "weightKg": 7.9,
       "appControl": false,
-      "programsCount": 5
+      "programsCount": 5,
+      "masterCategory": "kitchen",
+      "masterCategoryLabel": "Mutfak Aletleri"
     },
     "storeOffers": [
       {
@@ -68659,7 +70421,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 55,
       "weightKg": 7,
       "appControl": false,
-      "programsCount": 5
+      "programsCount": 5,
+      "masterCategory": "kitchen",
+      "masterCategoryLabel": "Mutfak Aletleri"
     },
     "storeOffers": [
       {
@@ -68758,7 +70522,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 55,
       "weightKg": 5.3,
       "appControl": false,
-      "programsCount": 1
+      "programsCount": 1,
+      "masterCategory": "kitchen",
+      "masterCategoryLabel": "Mutfak Aletleri"
     },
     "storeOffers": [
       {
@@ -68858,7 +70624,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 55,
       "weightKg": 5.5,
       "appControl": false,
-      "programsCount": 4
+      "programsCount": 4,
+      "masterCategory": "kitchen",
+      "masterCategoryLabel": "Mutfak Aletleri"
     },
     "storeOffers": [
       {
@@ -68958,7 +70726,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 55,
       "weightKg": 4.8,
       "appControl": false,
-      "programsCount": 1
+      "programsCount": 1,
+      "masterCategory": "kitchen",
+      "masterCategoryLabel": "Mutfak Aletleri"
     },
     "storeOffers": [
       {
@@ -69057,7 +70827,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "noiseLevelDb": 55,
       "weightKg": 3.5,
       "appControl": false,
-      "programsCount": 1
+      "programsCount": 1,
+      "masterCategory": "kitchen",
+      "masterCategoryLabel": "Mutfak Aletleri"
     },
     "storeOffers": [
       {
@@ -69150,7 +70922,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "programsCount": 15,
       "noiseLevelDb": 72,
       "warrantyYears": 3,
-      "color": "Beyaz"
+      "color": "Beyaz",
+      "masterCategory": "major_appliances",
+      "masterCategoryLabel": "Beyaz Eşya & Ankastre"
     },
     "storeOffers": [
       {
@@ -69227,7 +71001,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "programsCount": 15,
       "noiseLevelDb": 73,
       "warrantyYears": 3,
-      "color": "Beyaz"
+      "color": "Beyaz",
+      "masterCategory": "major_appliances",
+      "masterCategoryLabel": "Beyaz Eşya & Ankastre"
     },
     "storeOffers": [
       {
@@ -69286,7 +71062,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "appControl": true,
       "noiseLevelDb": 71,
       "warrantyYears": 3,
-      "color": "Beyaz"
+      "color": "Beyaz",
+      "masterCategory": "major_appliances",
+      "masterCategoryLabel": "Beyaz Eşya & Ankastre"
     },
     "storeOffers": [
       {
@@ -69344,7 +71122,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "programsCount": 15,
       "noiseLevelDb": 64,
       "warrantyYears": 3,
-      "color": "Beyaz"
+      "color": "Beyaz",
+      "masterCategory": "major_appliances",
+      "masterCategoryLabel": "Beyaz Eşya & Ankastre"
     },
     "storeOffers": [
       {
@@ -69402,7 +71182,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "appControl": true,
       "noiseLevelDb": 63,
       "warrantyYears": 3,
-      "color": "Beyaz"
+      "color": "Beyaz",
+      "masterCategory": "major_appliances",
+      "masterCategoryLabel": "Beyaz Eşya & Ankastre"
     },
     "storeOffers": [
       {
@@ -69460,7 +71242,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "programsCount": 4,
       "noiseLevelDb": 48,
       "warrantyYears": 3,
-      "color": "Beyaz"
+      "color": "Beyaz",
+      "masterCategory": "major_appliances",
+      "masterCategoryLabel": "Beyaz Eşya & Ankastre"
     },
     "storeOffers": [
       {
@@ -69537,7 +71321,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "programsCount": 6,
       "noiseLevelDb": 44,
       "warrantyYears": 3,
-      "color": "Beyaz"
+      "color": "Beyaz",
+      "masterCategory": "major_appliances",
+      "masterCategoryLabel": "Beyaz Eşya & Ankastre"
     },
     "storeOffers": [
       {
@@ -69596,7 +71382,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "appControl": true,
       "noiseLevelDb": 42,
       "warrantyYears": 3,
-      "color": "Inox Paslanmaz Çelik"
+      "color": "Inox Paslanmaz Çelik",
+      "masterCategory": "major_appliances",
+      "masterCategoryLabel": "Beyaz Eşya & Ankastre"
     },
     "storeOffers": [
       {
@@ -69653,7 +71441,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "capacityLiters": 560,
       "noiseLevelDb": 38,
       "warrantyYears": 3,
-      "color": "Inox Paslanmaz Çelik"
+      "color": "Inox Paslanmaz Çelik",
+      "masterCategory": "major_appliances",
+      "masterCategoryLabel": "Beyaz Eşya & Ankastre"
     },
     "storeOffers": [
       {
@@ -69729,7 +71519,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "capacityLiters": 720,
       "noiseLevelDb": 37,
       "warrantyYears": 3,
-      "color": "Inox Paslanmaz Çelik"
+      "color": "Inox Paslanmaz Çelik",
+      "masterCategory": "major_appliances",
+      "masterCategoryLabel": "Beyaz Eşya & Ankastre"
     },
     "storeOffers": [
       {
@@ -69785,7 +71577,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "capacityLiters": 481,
       "noiseLevelDb": 38,
       "warrantyYears": 3,
-      "color": "Beyaz"
+      "color": "Beyaz",
+      "masterCategory": "major_appliances",
+      "masterCategoryLabel": "Beyaz Eşya & Ankastre"
     },
     "storeOffers": [
       {
@@ -69856,7 +71650,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "powerWatts": 3100,
       "programsCount": 15,
       "warrantyYears": 3,
-      "color": "Siyah Cam"
+      "color": "Siyah Cam",
+      "masterCategory": "major_appliances",
+      "masterCategoryLabel": "Beyaz Eşya & Ankastre"
     },
     "storeOffers": [
       {
@@ -69910,7 +71706,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "subCategory": "built_in_set",
       "subCategoryLabel": "Ankastre Ocak",
       "warrantyYears": 3,
-      "color": "Siyah Cam"
+      "color": "Siyah Cam",
+      "masterCategory": "major_appliances",
+      "masterCategoryLabel": "Beyaz Eşya & Ankastre"
     },
     "storeOffers": [
       {
@@ -69967,7 +71765,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "capacity": "3 Fincan",
       "autoShutOff": true,
       "warrantyYears": 2,
-      "color": "Kırmızı / Siyah"
+      "color": "Kırmızı / Siyah",
+      "masterCategory": "kitchen",
+      "masterCategoryLabel": "Mutfak Aletleri"
     },
     "storeOffers": [
       {
@@ -70044,7 +71844,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "waterTankCapacityLiters": 1.5,
       "autoShutOff": true,
       "warrantyYears": 2,
-      "color": "Inox Paslanmaz Çelik"
+      "color": "Inox Paslanmaz Çelik",
+      "masterCategory": "kitchen",
+      "masterCategoryLabel": "Mutfak Aletleri"
     },
     "storeOffers": [
       {
@@ -70102,7 +71904,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "keepWarmHours": 2,
       "autoShutOff": true,
       "warrantyYears": 2,
-      "color": "Inox / Siyah"
+      "color": "Inox / Siyah",
+      "masterCategory": "kitchen",
+      "masterCategoryLabel": "Mutfak Aletleri"
     },
     "storeOffers": [
       {
@@ -70160,7 +71964,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "programsCount": 9,
       "dishwasherSafeParts": true,
       "warrantyYears": 2,
-      "color": "Mat Siyah / Bakır Detay"
+      "color": "Mat Siyah / Bakır Detay",
+      "masterCategory": "kitchen",
+      "masterCategoryLabel": "Mutfak Aletleri"
     },
     "storeOffers": [
       {
@@ -70217,7 +72023,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "appControl": true,
       "noiseLevelDb": 22,
       "warrantyYears": 3,
-      "color": "Beyaz"
+      "color": "Beyaz",
+      "masterCategory": "climate",
+      "masterCategoryLabel": "Isıtma & Soğutma"
     },
     "storeOffers": [
       {
@@ -70293,7 +72101,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "appControl": true,
       "noiseLevelDb": 27,
       "warrantyYears": 3,
-      "color": "Beyaz"
+      "color": "Beyaz",
+      "masterCategory": "climate",
+      "masterCategoryLabel": "Isıtma & Soğutma"
     },
     "storeOffers": [
       {
@@ -70350,7 +72160,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "capacityLiters": 256,
       "noiseLevelDb": 39,
       "warrantyYears": 3,
-      "color": "Beyaz"
+      "color": "Beyaz",
+      "masterCategory": "major_appliances",
+      "masterCategoryLabel": "Beyaz Eşya & Ankastre"
     },
     "storeOffers": [
       {
@@ -70407,7 +72219,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "capacityLiters": 170,
       "noiseLevelDb": 41,
       "warrantyYears": 3,
-      "color": "Beyaz"
+      "color": "Beyaz",
+      "masterCategory": "major_appliances",
+      "masterCategoryLabel": "Beyaz Eşya & Ankastre"
     },
     "storeOffers": [
       {
@@ -70462,7 +72276,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "subCategoryLabel": "Su Sebili",
       "powerWatts": 550,
       "warrantyYears": 2,
-      "color": "Siyah / Antrasit"
+      "color": "Siyah / Antrasit",
+      "masterCategory": "home_tools",
+      "masterCategoryLabel": "Ütü & Ev Gereçleri"
     },
     "storeOffers": [
       {
@@ -70517,7 +72333,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "subCategoryLabel": "Su Sebili",
       "powerWatts": 600,
       "warrantyYears": 2,
-      "color": "Mat Siyah"
+      "color": "Mat Siyah",
+      "masterCategory": "home_tools",
+      "masterCategoryLabel": "Ütü & Ev Gereçleri"
     },
     "storeOffers": [
       {
@@ -70574,7 +72392,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "powerWatts": 3300,
       "programsCount": 8,
       "warrantyYears": 3,
-      "color": "Beyaz Cam"
+      "color": "Beyaz Cam",
+      "masterCategory": "major_appliances",
+      "masterCategoryLabel": "Beyaz Eşya & Ankastre"
     },
     "storeOffers": [
       {
@@ -70628,7 +72448,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "subCategory": "hob",
       "subCategoryLabel": "Ocak",
       "warrantyYears": 3,
-      "color": "Siyah Cam"
+      "color": "Siyah Cam",
+      "masterCategory": "major_appliances",
+      "masterCategoryLabel": "Beyaz Eşya & Ankastre"
     },
     "storeOffers": [
       {
@@ -70682,7 +72504,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "subCategory": "built_in_set",
       "subCategoryLabel": "Ankastre Set",
       "warrantyYears": 3,
-      "color": "Siyah Cam Trio"
+      "color": "Siyah Cam Trio",
+      "masterCategory": "major_appliances",
+      "masterCategoryLabel": "Beyaz Eşya & Ankastre"
     },
     "storeOffers": [
       {
@@ -70738,7 +72562,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "powerWatts": 250,
       "noiseLevelDb": 58,
       "warrantyYears": 3,
-      "color": "Siyah Cam"
+      "color": "Siyah Cam",
+      "masterCategory": "major_appliances",
+      "masterCategoryLabel": "Beyaz Eşya & Ankastre"
     },
     "storeOffers": [
       {
@@ -70794,7 +72620,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "powerWatts": 190,
       "noiseLevelDb": 61,
       "warrantyYears": 3,
-      "color": "Beyaz / Inox Ön Panel"
+      "color": "Beyaz / Inox Ön Panel",
+      "masterCategory": "major_appliances",
+      "masterCategoryLabel": "Beyaz Eşya & Ankastre"
     },
     "storeOffers": [
       {
@@ -70850,7 +72678,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "capacityLiters": 23,
       "powerWatts": 800,
       "warrantyYears": 2,
-      "color": "Gümüş / Siyah Ayna"
+      "color": "Gümüş / Siyah Ayna",
+      "masterCategory": "major_appliances",
+      "masterCategoryLabel": "Beyaz Eşya & Ankastre"
     },
     "storeOffers": [
       {
@@ -70906,7 +72736,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "capacityLiters": 372,
       "noiseLevelDb": 44,
       "warrantyYears": 2,
-      "color": "Siyah / Cam Kapılı"
+      "color": "Siyah / Cam Kapılı",
+      "masterCategory": "major_appliances",
+      "masterCategoryLabel": "Beyaz Eşya & Ankastre"
     },
     "storeOffers": [
       {
@@ -70962,7 +72794,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "capacityLiters": 700,
       "noiseLevelDb": 46,
       "warrantyYears": 2,
-      "color": "Paslanmaz Çelik"
+      "color": "Paslanmaz Çelik",
+      "masterCategory": "major_appliances",
+      "masterCategoryLabel": "Beyaz Eşya & Ankastre"
     },
     "storeOffers": [
       {
@@ -71018,7 +72852,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "capacity": "500 Tabak / Saat",
       "powerWatts": 5500,
       "warrantyYears": 2,
-      "color": "Paslanmaz Çelik"
+      "color": "Paslanmaz Çelik",
+      "masterCategory": "major_appliances",
+      "masterCategoryLabel": "Beyaz Eşya & Ankastre"
     },
     "storeOffers": [
       {
@@ -71073,7 +72909,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "subCategoryLabel": "Endüstriyel Servis Ekipmanları",
       "powerWatts": 2000,
       "warrantyYears": 2,
-      "color": "Paslanmaz Çelik"
+      "color": "Paslanmaz Çelik",
+      "masterCategory": "major_appliances",
+      "masterCategoryLabel": "Beyaz Eşya & Ankastre"
     },
     "storeOffers": [
       {
@@ -71127,7 +72965,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "subCategory": "spare_parts",
       "subCategoryLabel": "Beyaz Eşya Yedek Parça",
       "warrantyYears": 2,
-      "color": "Gri / Kauçuk"
+      "color": "Gri / Kauçuk",
+      "masterCategory": "major_appliances",
+      "masterCategoryLabel": "Beyaz Eşya & Ankastre"
     },
     "storeOffers": [
       {
@@ -71181,7 +73021,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "subCategory": "spare_parts",
       "subCategoryLabel": "Beyaz Eşya Yedek Parça",
       "warrantyYears": 2,
-      "color": "Beyaz"
+      "color": "Beyaz",
+      "masterCategory": "major_appliances",
+      "masterCategoryLabel": "Beyaz Eşya & Ankastre"
     },
     "storeOffers": [
       {
@@ -71237,7 +73079,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "capacityLiters": 477,
       "noiseLevelDb": 38,
       "warrantyYears": 3,
-      "color": "Beyaz"
+      "color": "Beyaz",
+      "masterCategory": "major_appliances",
+      "masterCategoryLabel": "Beyaz Eşya & Ankastre"
     },
     "storeOffers": [
       {
@@ -71326,7 +73170,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "capacityLiters": 508,
       "noiseLevelDb": 38,
       "warrantyYears": 3,
-      "color": "Beyaz"
+      "color": "Beyaz",
+      "masterCategory": "major_appliances",
+      "masterCategoryLabel": "Beyaz Eşya & Ankastre"
     },
     "storeOffers": [
       {
@@ -71396,7 +73242,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "capacity": "9 kg",
       "noiseLevelDb": 72,
       "warrantyYears": 3,
-      "color": "Beyaz"
+      "color": "Beyaz",
+      "masterCategory": "major_appliances",
+      "masterCategoryLabel": "Beyaz Eşya & Ankastre"
     },
     "storeOffers": [
       {
@@ -71466,7 +73314,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "capacityLiters": 168,
       "noiseLevelDb": 37,
       "warrantyYears": 3,
-      "color": "Beyaz"
+      "color": "Beyaz",
+      "masterCategory": "major_appliances",
+      "masterCategoryLabel": "Beyaz Eşya & Ankastre"
     },
     "storeOffers": [
       {
@@ -71522,7 +73372,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "capacity": "9 kg",
       "noiseLevelDb": 64,
       "warrantyYears": 3,
-      "color": "Beyaz / Inox Kapak"
+      "color": "Beyaz / Inox Kapak",
+      "masterCategory": "major_appliances",
+      "masterCategoryLabel": "Beyaz Eşya & Ankastre"
     },
     "storeOffers": [
       {
@@ -71611,7 +73463,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "capacity": "8 kg",
       "noiseLevelDb": 65,
       "warrantyYears": 3,
-      "color": "Beyaz"
+      "color": "Beyaz",
+      "masterCategory": "major_appliances",
+      "masterCategoryLabel": "Beyaz Eşya & Ankastre"
     },
     "storeOffers": [
       {
@@ -71681,7 +73535,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "capacity": "10 kg",
       "noiseLevelDb": 71,
       "warrantyYears": 3,
-      "color": "Beyaz"
+      "color": "Beyaz",
+      "masterCategory": "major_appliances",
+      "masterCategoryLabel": "Beyaz Eşya & Ankastre"
     },
     "storeOffers": [
       {
@@ -71751,7 +73607,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "capacity": "8 kg",
       "noiseLevelDb": 72,
       "warrantyYears": 3,
-      "color": "Beyaz"
+      "color": "Beyaz",
+      "masterCategory": "major_appliances",
+      "masterCategoryLabel": "Beyaz Eşya & Ankastre"
     },
     "storeOffers": [
       {
@@ -71821,7 +73679,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "capacity": "13 Kişilik",
       "noiseLevelDb": 49,
       "warrantyYears": 3,
-      "color": "Beyaz"
+      "color": "Beyaz",
+      "masterCategory": "major_appliances",
+      "masterCategoryLabel": "Beyaz Eşya & Ankastre"
     },
     "storeOffers": [
       {
@@ -71891,7 +73751,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "capacity": "14 Kişilik",
       "noiseLevelDb": 47,
       "warrantyYears": 3,
-      "color": "Beyaz"
+      "color": "Beyaz",
+      "masterCategory": "major_appliances",
+      "masterCategoryLabel": "Beyaz Eşya & Ankastre"
     },
     "storeOffers": [
       {
@@ -71961,7 +73823,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "capacityLiters": 102,
       "noiseLevelDb": 37,
       "warrantyYears": 3,
-      "color": "Beyaz"
+      "color": "Beyaz",
+      "masterCategory": "major_appliances",
+      "masterCategoryLabel": "Beyaz Eşya & Ankastre"
     },
     "storeOffers": [
       {
@@ -72017,7 +73881,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "capacityLiters": 205,
       "noiseLevelDb": 39,
       "warrantyYears": 3,
-      "color": "Beyaz"
+      "color": "Beyaz",
+      "masterCategory": "major_appliances",
+      "masterCategoryLabel": "Beyaz Eşya & Ankastre"
     },
     "storeOffers": [
       {
@@ -72072,7 +73938,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "subCategoryLabel": "Klima",
       "noiseLevelDb": 22,
       "warrantyYears": 3,
-      "color": "Beyaz"
+      "color": "Beyaz",
+      "masterCategory": "climate",
+      "masterCategoryLabel": "Isıtma & Soğutma"
     },
     "storeOffers": [
       {
@@ -72127,7 +73995,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "subCategoryLabel": "Klima",
       "noiseLevelDb": 31,
       "warrantyYears": 3,
-      "color": "Beyaz"
+      "color": "Beyaz",
+      "masterCategory": "climate",
+      "masterCategoryLabel": "Isıtma & Soğutma"
     },
     "storeOffers": [
       {
