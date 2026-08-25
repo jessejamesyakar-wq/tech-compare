@@ -70305,5 +70305,893 @@ export const mockAppliances: ApplianceProduct[] = [
         "store": "Hepsiburada"
       }
     ]
+  },
+  {
+    "id": "arcelik-2071-mb",
+    "slug": "arcelik-2071-mb",
+    "name": "Arçelik 2071 MB 7 Çekmeceli No-Frost Dikey Derin Dondurucu",
+    "brand": "Arçelik",
+    "category": "appliances",
+    "basePrice": 18999,
+    "currency": "TL",
+    "rating": 4.89,
+    "epeyScore": 93,
+    "reviewCount": 720,
+    "image": "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg",
+    "images": [
+      "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "7 Geniş Çekmece & No-Frost Karlanma Yapmayan Teknoloji",
+      "256 Litre Toplam Net Hacim",
+      "Hızlı Dondurma (Fast Freeze) Fonksiyonu",
+      "Değiştirilebilir Kapı Yönü & A+ Enerji Tasarrufu"
+    ],
+    "specs": {
+      "subCategory": "deep_freezer",
+      "subCategoryLabel": "Derin Dondurucu",
+      "capacity": "256 Litre",
+      "capacityLiters": 256,
+      "noiseLevelDb": 39,
+      "warrantyYears": 3,
+      "color": "Beyaz"
+    },
+    "storeOffers": [
+      {
+        "id": "ug-arcelik-2071",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-500",
+        "price": 18999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "🔥 Çok Satan 7 Çekmeceli No-Frost"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 1850,
+        "url": "#"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07",
+        "price": 18999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "ugur-ued-5170-dtk",
+    "slug": "ugur-ued-5170-dtk",
+    "name": "Uğur UED 5170 DTK 170 Litre Sandık Tipi A++ Derin Dondurucu",
+    "brand": "Uğur",
+    "category": "appliances",
+    "basePrice": 11499,
+    "currency": "TL",
+    "rating": 4.87,
+    "epeyScore": 91,
+    "reviewCount": 940,
+    "image": "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg",
+    "images": [
+      "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "170 Litre Sandık Tipi Geniş Depolama Alanı",
+      "3 Kademeli Fonksiyon (Dondurucu / Soğutucu / Sıfır Derece)",
+      "Elektrik Kesintisinde 36 Saate Kadar Soğukluğu Koruma",
+      "İç Aydınlatma Lambası ve Sepet Aksesuarı"
+    ],
+    "specs": {
+      "subCategory": "deep_freezer",
+      "subCategoryLabel": "Derin Dondurucu",
+      "capacity": "170 Litre",
+      "capacityLiters": 170,
+      "noiseLevelDb": 41,
+      "warrantyYears": 3,
+      "color": "Beyaz"
+    },
+    "storeOffers": [
+      {
+        "id": "ugur-5170-ty",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 11499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Sandık Tipi Klasik"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 2400,
+        "url": "#"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07",
+        "price": 11499,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "arcelik-1045-sp",
+    "slug": "arcelik-1045-sp",
+    "name": "Arçelik 1045 SP Gizli Damacanalı Sıcak / Soğuk Su Sebili",
+    "brand": "Arçelik",
+    "category": "appliances",
+    "basePrice": 7999,
+    "currency": "TL",
+    "rating": 4.88,
+    "epeyScore": 92,
+    "reviewCount": 650,
+    "image": "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg",
+    "images": [
+      "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "Alttan Yüklemeli Gizli Damacana Tasarımı (Damacana Kaldırmaya Son)",
+      "Sıcak (85-95°C), Soğuk (5-10°C) ve Oda Sıcaklığında 3 Farklı Su Çıkışı",
+      "Çocuk Emniyet Kilidi & Paslanmaz Çelik Su Kazanı",
+      "Şık Siyah Gövde ve Led Durum Göstergeleri"
+    ],
+    "specs": {
+      "subCategory": "water_dispenser",
+      "subCategoryLabel": "Su Sebili",
+      "powerWatts": 550,
+      "warrantyYears": 2,
+      "color": "Siyah / Antrasit"
+    },
+    "storeOffers": [
+      {
+        "id": "arcelik-1045-sp-hb",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-500",
+        "price": 7999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Gizli Damacanalı"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 1290,
+        "url": "#"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07",
+        "price": 7999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "philips-add4902bk",
+    "slug": "philips-add4902bk",
+    "name": "Philips ADD4902BK UV-C Sterilizasyonlu Gizli Damacanalı Su Sebili",
+    "brand": "Philips",
+    "category": "appliances",
+    "basePrice": 9499,
+    "currency": "TL",
+    "rating": 4.91,
+    "epeyScore": 94,
+    "reviewCount": 410,
+    "image": "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg",
+    "images": [
+      "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": true,
+    "highlights": [
+      "UV-C LED Bakteri & Virüs Temizleme Sistemi (%99.9 Steril Su)",
+      "Gizli Alttan Yüklemeli Damacana Bölmesi",
+      "Paslanmaz Çelik İç Depo ve Dokunmatik Kontrol Paneli",
+      "Anında Sıcak Su Hazırlama Teknolojisi"
+    ],
+    "specs": {
+      "subCategory": "water_dispenser",
+      "subCategoryLabel": "Su Sebili",
+      "powerWatts": 600,
+      "warrantyYears": 2,
+      "color": "Mat Siyah"
+    },
+    "storeOffers": [
+      {
+        "id": "philips-add4902-ty",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 9499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "UV-C Sterilizasyon"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 870,
+        "url": "#"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07",
+        "price": 9499,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "bosch-hbf514bw0t",
+    "slug": "bosch-hbf514bw0t",
+    "name": "Bosch HBF514BW0T Seri 4 3D Sıcak Hava Ankastre Fırın - Beyaz",
+    "brand": "Bosch",
+    "category": "appliances",
+    "basePrice": 17999,
+    "currency": "TL",
+    "rating": 4.9,
+    "epeyScore": 94,
+    "reviewCount": 680,
+    "image": "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg",
+    "images": [
+      "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "3D HotAir Plus (3 Seviyede Aynı Anda Eşit Isı Dağılımı)",
+      "66 Litre İç Hacim & Granit Emaye Kolay Temizlenen İç Yüzey",
+      "8 Pişirme Programı & LED Ekranlı Zamanlayıcı",
+      "A Sınıfı Enerji Verimliliği"
+    ],
+    "specs": {
+      "subCategory": "oven",
+      "subCategoryLabel": "Fırın",
+      "capacityLiters": 66,
+      "powerWatts": 3300,
+      "programsCount": 8,
+      "warrantyYears": 3,
+      "color": "Beyaz Cam"
+    },
+    "storeOffers": [
+      {
+        "id": "bosch-hbf514-hb",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-500",
+        "price": 17999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Bosch 3D HotAir"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 1450,
+        "url": "#"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07",
+        "price": 17999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "siemens-ep6a6pb20",
+    "slug": "siemens-ep6a6pb20",
+    "name": "Siemens EP6A6PB20 iQ500 StepFlame 9 Kademeli Siyah Cam Gazlı Ankastre Ocak",
+    "brand": "Siemens",
+    "category": "appliances",
+    "basePrice": 13999,
+    "currency": "TL",
+    "rating": 4.92,
+    "epeyScore": 95,
+    "reviewCount": 520,
+    "image": "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg",
+    "images": [
+      "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "StepFlame Teknolojisi ile 9 Hassas Kademede Alev Kontrolü",
+      "4 Gözü Gazlı & Döküm Tekli Izgaralar",
+      "Sertleştirilmiş Siyah Temperli Cam Yüzey",
+      "Termoelektrik Gaz Emniyeti & Otomatik Ateşleme"
+    ],
+    "specs": {
+      "subCategory": "hob",
+      "subCategoryLabel": "Ocak",
+      "warrantyYears": 3,
+      "color": "Siyah Cam"
+    },
+    "storeOffers": [
+      {
+        "id": "siemens-ep6-hb",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-500",
+        "price": 13999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "StepFlame 9 Kademe"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 960,
+        "url": "#"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07",
+        "price": 13999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "arcelik-siyah-cam-trio-set",
+    "slug": "arcelik-siyah-cam-trio-set",
+    "name": "Arçelik Siyah Cam 3'lü Ankastre Set (Buhar Destekli Fırın + Wok Ocak + Eğimli Davlumbaz)",
+    "brand": "Arçelik",
+    "category": "appliances",
+    "basePrice": 32999,
+    "currency": "TL",
+    "rating": 4.95,
+    "epeyScore": 97,
+    "reviewCount": 890,
+    "image": "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg",
+    "images": [
+      "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "AFC 340 B SteamAid Buhar Destekli Ankastre Fırın",
+      "OCD T 651 EB 65cm 4 Gözü Gazlı Wok Gözlü Siyah Cam Ocak",
+      "ADE 606 G 60cm Eğimli Dokunmatik Siyah Cam Davlumbaz",
+      "Ücretsiz Montaj & 3 Yıl Garanti"
+    ],
+    "specs": {
+      "subCategory": "built_in_set",
+      "subCategoryLabel": "Ankastre Set",
+      "warrantyYears": 3,
+      "color": "Siyah Cam Trio"
+    },
+    "storeOffers": [
+      {
+        "id": "arcelik-trio-hb",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-500",
+        "price": 32999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "🔥 En Çok Satan Trio Set"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 2100,
+        "url": "#"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07",
+        "price": 32999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "bosch-dwk66aj60t",
+    "slug": "bosch-dwk66aj60t",
+    "name": "Bosch DWK66AJ60T Seri 4 60 cm Eğimli Siyah Cam Duvar Tipi Davlumbaz (650 m³/h)",
+    "brand": "Bosch",
+    "category": "appliances",
+    "basePrice": 8999,
+    "currency": "TL",
+    "rating": 4.88,
+    "epeyScore": 93,
+    "reviewCount": 460,
+    "image": "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg",
+    "images": [
+      "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "650 m³/h Yüksek Emiş Gücü & TouchControl Dokunmatik Panel",
+      "Yıkanabilir Alüminyum Yağ Filtresi & LED Aydınlatma",
+      "3 Kademeli Hız + Yoğun Emiş Modu",
+      "Şık Siyah Cam Eğimli Modern Tasarım"
+    ],
+    "specs": {
+      "subCategory": "range_hood",
+      "subCategoryLabel": "Davlumbaz",
+      "powerWatts": 250,
+      "noiseLevelDb": 58,
+      "warrantyYears": 3,
+      "color": "Siyah Cam"
+    },
+    "storeOffers": [
+      {
+        "id": "bosch-dwk66-ty",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 8999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Yüksek Emiş 650 m3"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 920,
+        "url": "#"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07",
+        "price": 8999,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "arcelik-p-180-tb",
+    "slug": "arcelik-p-180-tb",
+    "name": "Arçelik P 180 TB Sürgülü Çift Motorlu Ankastre Aspiratör",
+    "brand": "Arçelik",
+    "category": "appliances",
+    "basePrice": 3299,
+    "currency": "TL",
+    "rating": 4.82,
+    "epeyScore": 89,
+    "reviewCount": 780,
+    "image": "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg",
+    "images": [
+      "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "Çift Motorlu 420 m³/h Emiş Gücü",
+      "Teleskopik Sürgülü Açma / Kapama Mekanizması",
+      "Bulaşık Makinesinde Yıkanabilir 2 Adet Kaset Filtre",
+      "Mutfak Dolabı Altına Tam Gizli Montaj"
+    ],
+    "specs": {
+      "subCategory": "aspirator",
+      "subCategoryLabel": "Aspiratör",
+      "powerWatts": 190,
+      "noiseLevelDb": 61,
+      "warrantyYears": 3,
+      "color": "Beyaz / Inox Ön Panel"
+    },
+    "storeOffers": [
+      {
+        "id": "arcelik-p180-hb",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-500",
+        "price": 3299,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Çift Motorlu Sürgülü"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1400,
+        "url": "#"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07",
+        "price": 3299,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "samsung-ms23k3515as",
+    "slug": "samsung-ms23k3515as",
+    "name": "Samsung MS23K3515AS 23 Litre Seramik Emaye İç Yüzey Mikrodalga Fırın",
+    "brand": "Samsung",
+    "category": "appliances",
+    "basePrice": 4799,
+    "currency": "TL",
+    "rating": 4.9,
+    "epeyScore": 93,
+    "reviewCount": 1600,
+    "image": "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg",
+    "images": [
+      "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "23 Litre Kapasite & Çizilmeye Dayanıklı Antibakteriyel Seramik İç Yüzey",
+      "Hızlı Buz Çözme (Quick Defrost) Teknolojisi",
+      "Koku Giderme Fonksiyonu (Deodorization)",
+      "ECO Modu ile Beklemede %40 Enerji Tasarrufu"
+    ],
+    "specs": {
+      "subCategory": "microwave",
+      "subCategoryLabel": "Mikrodalga Fırın",
+      "capacityLiters": 23,
+      "powerWatts": 800,
+      "warrantyYears": 2,
+      "color": "Gümüş / Siyah Ayna"
+    },
+    "storeOffers": [
+      {
+        "id": "samsung-ms23-hb",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-500",
+        "price": 4799,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "🔥 Çok Satan Seramik Mikrodalga"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3200,
+        "url": "#"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07",
+        "price": 4799,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "ugur-uss-374-dtk",
+    "slug": "ugur-uss-374-dtk",
+    "name": "Uğur USS 374 DTK 372 Litre Cam Kapılı Dik Tip Meşrubat & Şişe Soğutucu",
+    "brand": "Uğur",
+    "category": "appliances",
+    "basePrice": 26999,
+    "currency": "TL",
+    "rating": 4.93,
+    "epeyScore": 96,
+    "reviewCount": 380,
+    "image": "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg",
+    "images": [
+      "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "372 Litre Yüksek Kapasite & Çift Kat Isı Yalıtımlı Temperli Cam Kapı",
+      "Dahili LED Kanopi ve İç Gövde Aydınlatması",
+      "Ayarlanabilir 5 Adet Güçlendirilmiş Tel Raf",
+      "+1°C ile +10°C Arası Hassas Mekanik Termostat Soğutma"
+    ],
+    "specs": {
+      "subCategory": "bottle_cooler",
+      "subCategoryLabel": "Şişe Soğutucu",
+      "capacityLiters": 372,
+      "noiseLevelDb": 44,
+      "warrantyYears": 2,
+      "color": "Siyah / Cam Kapılı"
+    },
+    "storeOffers": [
+      {
+        "id": "ugur-uss-374-ty",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 26999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ticari Şişe Soğutucu"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 780,
+        "url": "#"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07",
+        "price": 26999,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "oztiryakiler-gn-2-1",
+    "slug": "oztiryakiler-gn-2-1",
+    "name": "Öztiryakiler GN 2/1 700 Litre Paslanmaz Çelik Dik Tip Şarküteri & Et Dolabı",
+    "brand": "Öztiryakiler",
+    "category": "appliances",
+    "basePrice": 54999,
+    "currency": "TL",
+    "rating": 4.96,
+    "epeyScore": 98,
+    "reviewCount": 190,
+    "image": "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg",
+    "images": [
+      "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": true,
+    "highlights": [
+      "700 Litre GN 2/1 Tepsi Uyumlu Paslanmaz AISI 304 Çelik Gövde",
+      "-2°C / +8°C Fanlı Dinamik Soğutma & Otomatik Defrost",
+      "Manyetik Kolay Değiştirilebilir Kapı Contası ve Kilitli Kapı",
+      "HACCP Uyumlu Dijital Sıcaklık Kontrol Ünitesi"
+    ],
+    "specs": {
+      "subCategory": "deli_cabinet",
+      "subCategoryLabel": "Şarküteri Dolabı",
+      "capacityLiters": 700,
+      "noiseLevelDb": 46,
+      "warrantyYears": 2,
+      "color": "Paslanmaz Çelik"
+    },
+    "storeOffers": [
+      {
+        "id": "oztiryakiler-gn-hb",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-500",
+        "price": 54999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Endüstriyel AISI 304"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 420,
+        "url": "#"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07",
+        "price": 54999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "oztiryakiler-oby-500-e",
+    "slug": "oztiryakiler-oby-500-e",
+    "name": "Öztiryakiler OBY 500 E Setaltı Dijital Sanayi Tipi Bulaşık Makinesi (500 Tabak/Saat)",
+    "brand": "Öztiryakiler",
+    "category": "appliances",
+    "basePrice": 49999,
+    "currency": "TL",
+    "rating": 4.97,
+    "epeyScore": 98,
+    "reviewCount": 310,
+    "image": "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg",
+    "images": [
+      "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "Saatte 500 Tabak veya 30 Kaset Yıkama Hızı (90/120/180 Saniye Programlar)",
+      "Drenaj Pompalı & Parlatıcı Dozaj Pompalı Entegre Sistem",
+      "AISI 304 Kalite Paslanmaz Çelik Yıkama ve Durulama Kolları",
+      "85°C Termostop Hijyenik Sıcak Durulama"
+    ],
+    "specs": {
+      "subCategory": "commercial_dishwasher",
+      "subCategoryLabel": "Sanayi Tipi Bulaşık Makinesi",
+      "capacity": "500 Tabak / Saat",
+      "powerWatts": 5500,
+      "warrantyYears": 2,
+      "color": "Paslanmaz Çelik"
+    },
+    "storeOffers": [
+      {
+        "id": "oztiryakiler-oby500-ty",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 49999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "500 Tabak/Saat Sanayi Tipi"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 550,
+        "url": "#"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07",
+        "price": 49999,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "empero-benmari-servis-unitesi",
+    "slug": "empero-benmari-servis-unitesi",
+    "name": "Empero 3 Küvetli Sıcak Servis Ünitesi & Elektrikli Benmari Tezgahı",
+    "brand": "Empero",
+    "category": "appliances",
+    "basePrice": 32499,
+    "currency": "TL",
+    "rating": 4.91,
+    "epeyScore": 95,
+    "reviewCount": 160,
+    "image": "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg",
+    "images": [
+      "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "3 x GN 1/1 Gastronom Küvet Kapasiteli Elektrikli Benmari Isıtma",
+      "Termostat Kontrollü Sıcak Tutma (+30°C / +90°C)",
+      "AISI 304 Paslanmaz Çelik Gövde & Camlı Hijyenik Nefeslik Siperliği",
+      "Alttan Nötr Dolaplı ve Ayarlanabilir Ayaklı Servis Hattı"
+    ],
+    "specs": {
+      "subCategory": "industrial_equipment",
+      "subCategoryLabel": "Endüstriyel Servis Ekipmanları",
+      "powerWatts": 2000,
+      "warrantyYears": 2,
+      "color": "Paslanmaz Çelik"
+    },
+    "storeOffers": [
+      {
+        "id": "empero-benmari-hb",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-500",
+        "price": 32499,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Sıcak Servis Ünitesi"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 310,
+        "url": "#"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07",
+        "price": 32499,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "arcelik-universal-titresim-onleyici",
+    "slug": "arcelik-universal-titresim-onleyici",
+    "name": "Arçelik Universal Titreşim ve Kayma Önleyici Kauçuk Ayak Seti (4'lü Paket)",
+    "brand": "Arçelik",
+    "category": "appliances",
+    "basePrice": 299,
+    "currency": "TL",
+    "rating": 4.85,
+    "epeyScore": 90,
+    "reviewCount": 3800,
+    "image": "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg",
+    "images": [
+      "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "Çamaşır ve Kurutma Makinelerinde Titreşimi ve Sesi Maksimum Düzeyde Emer",
+      "Yüksek Yoğunluklu Vakumlu Termoplastik Elastomer Taban",
+      "Zemin Çizilmelerini Önler & Tüm Markalarla %100 Uyumludur",
+      "Kolay Montaj (Alet Gerektirmez)"
+    ],
+    "specs": {
+      "subCategory": "spare_parts",
+      "subCategoryLabel": "Beyaz Eşya Yedek Parça",
+      "warrantyYears": 2,
+      "color": "Gri / Kauçuk"
+    },
+    "storeOffers": [
+      {
+        "id": "arcelik-ayak-hb",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-500",
+        "price": 299,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "🔥 Çok Satan Titreşim Önleyici"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 6500,
+        "url": "#"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07",
+        "price": 299,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "arcelik-camasir-kurutma-birlestirme-aparati",
+    "slug": "arcelik-camasir-kurutma-birlestirme-aparati",
+    "name": "Arçelik Orijinal Çamaşır ve Kurutma Makinesi Üst Üste Montaj Birleştirme Kiti",
+    "brand": "Arçelik",
+    "category": "appliances",
+    "basePrice": 899,
+    "currency": "TL",
+    "rating": 4.93,
+    "epeyScore": 95,
+    "reviewCount": 1420,
+    "image": "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg",
+    "images": [
+      "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "Kurutma Makinesini Çamaşır Makinesi Üzerine Güvenle Sabitleme",
+      "Kaymaz Kilitli Emniyet Rayı ve Bağlantı Vidaları",
+      "Banyoda ve Çamaşır Odasında %50 Alan Tasarrufu",
+      "60 cm Standart Tüm Çamaşır ve Kurutma Makineleri ile Tam Uyum"
+    ],
+    "specs": {
+      "subCategory": "spare_parts",
+      "subCategoryLabel": "Beyaz Eşya Yedek Parça",
+      "warrantyYears": 2,
+      "color": "Beyaz"
+    },
+    "storeOffers": [
+      {
+        "id": "arcelik-kit-ty",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 899,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Orijinal Montaj Kiti"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 2400,
+        "url": "#"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07",
+        "price": 899,
+        "store": "Trendyol"
+      }
+    ]
   }
 ];
