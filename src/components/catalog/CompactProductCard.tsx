@@ -62,6 +62,76 @@ export function CompactProductCard({
     setImgSrc(product.image || fallbackImg);
   }, [product.image, fallbackImg]);
 
+  // Clean Headphone Specific Card Layout
+  if (product.category === 'headphones') {
+    const specs = (product.specs || {}) as Record<string, string>;
+    const formFactor = specs.formFactor || '';
+    const anc = specs.anc && specs.anc !== 'Yok' ? 'Gürültü Engelleme' : '';
+    const battery = specs.batteryLife ? `${specs.batteryLife} Pil` : '';
+    const subInfo = [anc, battery, formFactor].filter(Boolean).slice(0, 2).join(' • ') || (product.highlights?.[0] || '');
+    const offerCount = product.storeOffers?.length || 3;
+
+    return (
+      <div className="group relative bg-white border border-slate-200/90 hover:border-slate-400/80 rounded-3xl p-4 sm:p-4.5 transition-all duration-300 shadow-xs hover:shadow-xl hover:-translate-y-1 flex flex-col justify-between overflow-hidden">
+        {/* Product Image Box */}
+        <Link href={href} className="block relative mb-2">
+          <div className="w-full h-48 sm:h-52 bg-slate-50/90 rounded-2xl p-4 flex items-center justify-center overflow-hidden border border-slate-100 group-hover:bg-slate-100/60 transition-colors">
+            <img
+              src={imgSrc}
+              alt={product.name}
+              loading="lazy"
+              onError={() => setImgSrc(fallbackImg)}
+              className="max-h-full max-w-full w-auto h-auto object-contain group-hover:scale-105 transition-transform duration-300 ease-out drop-shadow-xs"
+            />
+          </div>
+        </Link>
+
+        {/* Product Brand & Title */}
+        <div className="space-y-1">
+          <span className="text-[11px] font-bold text-slate-400 uppercase tracking-wider block">
+            {product.brand}
+          </span>
+
+          <Link href={href} className="block">
+            <h4 className="text-sm font-bold text-slate-900 group-hover:text-emerald-700 transition-colors line-clamp-2 leading-snug">
+              {product.name}
+            </h4>
+          </Link>
+
+          {subInfo && (
+            <p className="text-xs text-slate-500 font-medium line-clamp-1 pt-0.5">
+              {subInfo}
+            </p>
+          )}
+        </div>
+
+        {/* Price & Store Comparison Info */}
+        <div className="mt-3 pt-2.5 border-t border-slate-100/90 space-y-1.5">
+          <div className="flex items-baseline justify-between">
+            <div className="text-base sm:text-lg font-black text-slate-900 tracking-tight tabular-nums">
+              ₺{product.basePrice.toLocaleString()}
+            </div>
+            {computedOldPrice && computedOldPrice > product.basePrice && (
+              <span className="text-[11px] font-semibold text-slate-400 line-through tabular-nums">
+                ₺{computedOldPrice.toLocaleString()}
+              </span>
+            )}
+          </div>
+
+          <div className="flex items-center justify-between text-[11px] font-medium text-slate-500 pt-0.5">
+            <span className="text-emerald-700 font-semibold flex items-center gap-1">
+              <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 inline-block" />
+              Stokta Var / Hızlı Kargo
+            </span>
+            <span className="text-slate-600 font-semibold hover:text-slate-900 transition-colors">
+              {offerCount} Karşılaştır
+            </span>
+          </div>
+        </div>
+      </div>
+    );
+  }
+
   return (
     <div className="group relative bg-white border border-slate-200 hover:border-emerald-500/60 rounded-2xl p-3 sm:p-3.5 transition-all duration-200 shadow-2xs hover:shadow-lg flex flex-col justify-between overflow-hidden">
       
