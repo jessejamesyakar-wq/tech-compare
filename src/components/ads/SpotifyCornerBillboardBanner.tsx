@@ -25,15 +25,15 @@ export function SpotifyCornerBillboardBanner({
             href={targetUrl}
             target="_blank"
             rel="noopener noreferrer nofollow"
-            className="relative block w-full max-w-[620px] sm:max-w-[680px] md:max-w-[740px] rounded-xl overflow-hidden shadow-2xl transition-all duration-300 hover:scale-[1.015] hover:shadow-[0_20px_35px_rgba(230,0,0,0.25)] cursor-pointer group"
+            className="relative block w-full max-w-[640px] sm:max-w-[700px] md:max-w-[760px] rounded-xl overflow-hidden shadow-2xl transition-all duration-300 hover:scale-[1.015] hover:shadow-[0_20px_35px_rgba(230,0,0,0.25)] cursor-pointer group"
           >
             <Image
-              src="/images/ads/spotify-corner-billboard-only.png"
+              src="/images/ads/spotify-corner-billboard-clean.png"
               alt="Spotify 3D Corner LED Billboard"
-              width={783}
-              height={385}
+              width={1024}
+              height={512}
               priority
-              className="w-full h-auto max-h-[240px] xs:max-h-[270px] sm:max-h-[300px] md:max-h-[320px] object-contain drop-shadow-[0_15px_20px_rgba(0,0,0,0.2)]"
+              className="w-full h-auto max-h-[250px] xs:max-h-[280px] sm:max-h-[310px] md:max-h-[330px] object-contain drop-shadow-[0_15px_20px_rgba(0,0,0,0.2)]"
             />
 
             {/* Subtle Hover Action Badge */}
