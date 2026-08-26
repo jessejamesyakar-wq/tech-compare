@@ -20,8 +20,7 @@ import { CategoryBannerGrid } from '@/components/promo/CategoryBannerGrid';
 import { ProductCarousel } from '@/components/catalog/ProductCarousel';
 import { CategoryIconStrip } from '@/components/layout/CategoryIconStrip';
 import { DynamicCategoryShowcase } from '@/components/home/DynamicCategoryShowcase';
-import PenguinMascot from '@/components/PenguinMascot';
-import { CornerLedBillboard } from '@/components/ads/CornerLedBillboard';
+import { MessageHeroBillboard } from '@/components/ads/MessageHeroBillboard';
 
 const allProductsCache = getStoredProducts();
 const allMockSmartphonesCount = allProductsCache.filter((p) => p.category === 'smartphones').length;
@@ -274,24 +273,8 @@ export default function HomePage() {
       {/* 3. Sub-Hero Horizontal Thumbnail Strip */}
       <HeroThumbnailStrip items={heroThumbnails} activeIndex={heroIndex} onSelect={setHeroIndex} />
 
-      {/* 🏢 3D LED Köşe Billboard (Çift Cepheli Reklam) & Pengi Maskotu */}
-      <section className="relative overflow-hidden rounded-2xl sm:rounded-3xl bg-white dark:bg-slate-900 border border-slate-200/90 dark:border-slate-800 p-2.5 xs:p-4 sm:p-6 lg:p-10 shadow-lg">
-        {/* Soft Ambient Corner LED Ambient Glow */}
-        <div className="absolute top-1/2 -left-10 -translate-y-1/2 w-96 h-96 bg-red-500/8 rounded-full blur-3xl pointer-events-none" />
-        <div className="absolute top-1/2 left-1/3 -translate-y-1/2 w-96 h-96 bg-fuchsia-500/8 rounded-full blur-3xl pointer-events-none" />
-
-        <div className="flex flex-col lg:flex-row items-center justify-between gap-3 sm:gap-6 lg:gap-8">
-          {/* Sol Kısım: 3D LED Köşe Billboard (Çift Cepheli) */}
-          <div className="flex-1 w-full max-w-4xl overflow-hidden">
-            <CornerLedBillboard />
-          </div>
-
-          {/* Sağ Kısım: Pengi Maskot */}
-          <div className="shrink-0 flex items-center justify-center pt-1 lg:pt-0">
-            <PenguinMascot />
-          </div>
-        </div>
-      </section>
+      {/* 🏢 3D Katlanmış Ekran (Spotify 'Sorry' Hero Billboard) & Pengi Maskotu (24.png Referansı) */}
+      <MessageHeroBillboard />
 
       {/* 5. Dynamic Category Distribution Showcase (%40 Telefon, %20 TV, %10 Ev Aletleri, %10 Tablet, %10 Saat, %10 Kulaklık) */}
       <DynamicCategoryShowcase />
