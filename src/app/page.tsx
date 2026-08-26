@@ -275,12 +275,12 @@ export default function HomePage() {
       <HeroThumbnailStrip items={heroThumbnails} activeIndex={heroIndex} onSelect={setHeroIndex} />
 
       {/* 🏢 3D LED Köşe Billboard (Spotify 'Sorry' Campaign) & Pengi Maskotu */}
-      <section className="relative overflow-hidden rounded-3xl bg-gradient-to-br from-white via-slate-50/80 to-slate-100/90 dark:from-slate-900 dark:via-slate-900 dark:to-slate-950 border border-slate-200 dark:border-slate-800 p-4 sm:p-6 lg:p-8 shadow-xl">
-        {/* Soft Ambient Corner LED Lights */}
-        <div className="absolute top-1/2 -left-20 -translate-y-1/2 w-80 h-80 bg-red-500/10 rounded-full blur-3xl pointer-events-none" />
-        <div className="absolute top-1/2 left-1/3 -translate-y-1/2 w-80 h-80 bg-fuchsia-500/10 rounded-full blur-3xl pointer-events-none" />
+      <section className="relative overflow-hidden rounded-3xl bg-white dark:bg-slate-900 border border-slate-200/90 dark:border-slate-800 p-4 sm:p-6 lg:p-10 shadow-lg">
+        {/* Soft Ambient Corner LED Ambient Glow */}
+        <div className="absolute top-1/2 -left-10 -translate-y-1/2 w-96 h-96 bg-red-500/8 rounded-full blur-3xl pointer-events-none" />
+        <div className="absolute top-1/2 left-1/3 -translate-y-1/2 w-96 h-96 bg-fuchsia-500/8 rounded-full blur-3xl pointer-events-none" />
 
-        <div className="flex flex-col lg:flex-row items-center justify-between gap-6 lg:gap-10">
+        <div className="flex flex-col lg:flex-row items-center justify-between gap-6 lg:gap-8">
           {/* Sol Kısım: 3D LED Köşe Billboard */}
           <div className="flex-1 w-full max-w-4xl">
             <CornerLedBillboard />
