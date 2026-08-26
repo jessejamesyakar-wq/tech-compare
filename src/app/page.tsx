@@ -21,7 +21,7 @@ import { ProductCarousel } from '@/components/catalog/ProductCarousel';
 import { CategoryIconStrip } from '@/components/layout/CategoryIconStrip';
 import { DynamicCategoryShowcase } from '@/components/home/DynamicCategoryShowcase';
 import PenguinMascot from '@/components/PenguinMascot';
-import { MediaMarktBanner } from '@/components/ads/MediaMarktBanner';
+import { CornerLedBillboard } from '@/components/ads/CornerLedBillboard';
 
 const allProductsCache = getStoredProducts();
 const allMockSmartphonesCount = allProductsCache.filter((p) => p.category === 'smartphones').length;
@@ -274,15 +274,19 @@ export default function HomePage() {
       {/* 3. Sub-Hero Horizontal Thumbnail Strip */}
       <HeroThumbnailStrip items={heroThumbnails} activeIndex={heroIndex} onSelect={setHeroIndex} />
 
-      {/* 🐧 TechKıyas Penguen Vitrini & MediaMarkt Reklam Alanı */}
-      <section className="relative overflow-hidden rounded-3xl bg-gradient-to-br from-white via-slate-50 to-red-50/20 dark:from-slate-900 dark:via-slate-900 dark:to-red-950/20 border border-slate-200 dark:border-slate-800 p-4 sm:p-6 shadow-md">
-        <div className="flex flex-col lg:flex-row items-center justify-between gap-6 sm:gap-8">
-          {/* Sol Kısım: MediaMarkt Reklam Alanı */}
+      {/* 🏢 3D LED Köşe Billboard (Spotify 'Sorry' Campaign) & Pengi Maskotu */}
+      <section className="relative overflow-hidden rounded-3xl bg-gradient-to-br from-white via-slate-50/80 to-slate-100/90 dark:from-slate-900 dark:via-slate-900 dark:to-slate-950 border border-slate-200 dark:border-slate-800 p-4 sm:p-6 lg:p-8 shadow-xl">
+        {/* Soft Ambient Corner LED Lights */}
+        <div className="absolute top-1/2 -left-20 -translate-y-1/2 w-80 h-80 bg-red-500/10 rounded-full blur-3xl pointer-events-none" />
+        <div className="absolute top-1/2 left-1/3 -translate-y-1/2 w-80 h-80 bg-fuchsia-500/10 rounded-full blur-3xl pointer-events-none" />
+
+        <div className="flex flex-col lg:flex-row items-center justify-between gap-6 lg:gap-10">
+          {/* Sol Kısım: 3D LED Köşe Billboard */}
           <div className="flex-1 w-full max-w-4xl">
-            <MediaMarktBanner />
+            <CornerLedBillboard />
           </div>
 
-          {/* Sağ Kısım: Penguen Maskot */}
+          {/* Sağ Kısım: Pengi Maskot */}
           <div className="shrink-0 flex items-center justify-center pt-2 lg:pt-0">
             <PenguinMascot />
           </div>
