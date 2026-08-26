@@ -134,7 +134,7 @@ export default function PenguinMascot() {
         onMouseEnter={handleEnter}
         onMouseLeave={handleLeave}
         onClick={handleClick}
-        className="relative w-[180px] sm:w-[220px] md:w-[260px] cursor-pointer"
+        className="relative w-[130px] xs:w-[160px] sm:w-[210px] md:w-[250px] cursor-pointer"
         style={{ perspective: 1200 }}
       >
         {/* Gölge */}

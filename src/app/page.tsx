@@ -274,20 +274,20 @@ export default function HomePage() {
       {/* 3. Sub-Hero Horizontal Thumbnail Strip */}
       <HeroThumbnailStrip items={heroThumbnails} activeIndex={heroIndex} onSelect={setHeroIndex} />
 
-      {/* 🏢 3D LED Köşe Billboard (Spotify 'Sorry' Campaign) & Pengi Maskotu */}
-      <section className="relative overflow-hidden rounded-3xl bg-white dark:bg-slate-900 border border-slate-200/90 dark:border-slate-800 p-4 sm:p-6 lg:p-10 shadow-lg">
+      {/* 🏢 3D LED Köşe Billboard (Çift Cepheli Reklam) & Pengi Maskotu */}
+      <section className="relative overflow-hidden rounded-2xl sm:rounded-3xl bg-white dark:bg-slate-900 border border-slate-200/90 dark:border-slate-800 p-2.5 xs:p-4 sm:p-6 lg:p-10 shadow-lg">
         {/* Soft Ambient Corner LED Ambient Glow */}
         <div className="absolute top-1/2 -left-10 -translate-y-1/2 w-96 h-96 bg-red-500/8 rounded-full blur-3xl pointer-events-none" />
         <div className="absolute top-1/2 left-1/3 -translate-y-1/2 w-96 h-96 bg-fuchsia-500/8 rounded-full blur-3xl pointer-events-none" />
 
-        <div className="flex flex-col lg:flex-row items-center justify-between gap-6 lg:gap-8">
-          {/* Sol Kısım: 3D LED Köşe Billboard */}
-          <div className="flex-1 w-full max-w-4xl">
+        <div className="flex flex-col lg:flex-row items-center justify-between gap-3 sm:gap-6 lg:gap-8">
+          {/* Sol Kısım: 3D LED Köşe Billboard (Çift Cepheli) */}
+          <div className="flex-1 w-full max-w-4xl overflow-hidden">
             <CornerLedBillboard />
           </div>
 
           {/* Sağ Kısım: Pengi Maskot */}
-          <div className="shrink-0 flex items-center justify-center pt-2 lg:pt-0">
+          <div className="shrink-0 flex items-center justify-center pt-1 lg:pt-0">
             <PenguinMascot />
           </div>
         </div>
