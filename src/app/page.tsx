@@ -20,7 +20,7 @@ import { CategoryBannerGrid } from '@/components/promo/CategoryBannerGrid';
 import { ProductCarousel } from '@/components/catalog/ProductCarousel';
 import { CategoryIconStrip } from '@/components/layout/CategoryIconStrip';
 import { DynamicCategoryShowcase } from '@/components/home/DynamicCategoryShowcase';
-import { MessageHeroBillboard } from '@/components/ads/MessageHeroBillboard';
+import { ThreeBillboardViewer } from '@/components/ads/ThreeBillboardViewer';
 
 const allProductsCache = getStoredProducts();
 const allMockSmartphonesCount = allProductsCache.filter((p) => p.category === 'smartphones').length;
@@ -273,8 +273,8 @@ export default function HomePage() {
       {/* 3. Sub-Hero Horizontal Thumbnail Strip */}
       <HeroThumbnailStrip items={heroThumbnails} activeIndex={heroIndex} onSelect={setHeroIndex} />
 
-      {/* 🏢 3D Katlanmış Ekran (Spotify 'Sorry' Hero Billboard) & Pengi Maskotu (24.png Referansı) */}
-      <MessageHeroBillboard />
+      {/* 🏢 Gerçek 3D Metal Billboard (Three.js GLB) & Pengi Maskotu */}
+      <ThreeBillboardViewer />
 
       {/* 5. Dynamic Category Distribution Showcase (%40 Telefon, %20 TV, %10 Ev Aletleri, %10 Tablet, %10 Saat, %10 Kulaklık) */}
       <DynamicCategoryShowcase />
