@@ -82154,4 +82154,1053 @@ export const mockAppliances: ApplianceProduct[] = [
       }
     ]
   }
+,
+  {
+    "id": "appliance-robot_vacuum-irobot-p2-1",
+    "slug": "irobot-roomba-e5",
+    "name": "iRobot Roomba e5 (e5152/e5154) Robot Süpürge",
+    "brand": "iRobot",
+    "category": "appliances",
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürge & Paspas",
+    "image": "https://images.unsplash.com/photo-1589923188900-85dae523342b?w=800&q=80",
+    "rating": 4.6,
+    "reviewCount": 390,
+    "basePrice": 9499,
+    "currency": "TL",
+    "releaseYear": 2021,
+    "isPopular": true,
+    "highlights": [
+      "AeroForce 3 Aşamalı Temizleme Sistemi",
+      "Yıkanabilir Toz Haznesi",
+      "Çift Kauçuk Çoklu Yüzey Fırçası (Evcil Hayvan Tüyleri İçin)",
+      "Wi-Fi ve iRobot Home Uygulama Desteği"
+    ],
+    "minPrice": 9499,
+    "maxPrice": 10259,
+    "storeCount": 6,
+    "inStock": true,
+    "specs": {
+      "masterCategory": "home_appliances",
+      "masterCategoryLabel": "Ev Aletleri / Temizlik & Yaşam",
+      "subCategory": "robot_vacuum",
+      "subCategoryLabel": "Robot Süpürge",
+      "brand": "iRobot",
+      "model": "iRobot Roomba e5 (e5152/e5154) Robot Süpürge",
+      "suctionPowerPa": 1700,
+      "batteryRuntimeMin": 90,
+      "chargeTimeHours": 3,
+      "batteryCapacityMah": 1800,
+      "noiseLevelDb": 68,
+      "autoCleanDock": false,
+      "autoEmptyStation": false,
+      "mappingTechnology": "iAdapt 1.0 Akıllı Sensör",
+      "appControl": true,
+      "wetDryUsage": true,
+      "warrantyYears": 2
+    },
+    "storeOffers": [
+      {
+        "storeName": "Amazon TR",
+        "price": 9499,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.9,
+        "reviewCount": 1420,
+        "url": "https://www.amazon.com.tr/s?k=iRobot%20Roomba%20e5%20(e5152%2Fe5154)%20Robot%20S%C3%BCp%C3%BCrge",
+        "warrantyType": "iRobot Türkiye Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "price": 9749,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.8,
+        "reviewCount": 950,
+        "url": "https://www.hepsiburada.com/ara?q=iRobot%20Roomba%20e5%20(e5152%2Fe5154)%20Robot%20S%C3%BCp%C3%BCrge",
+        "warrantyType": "2 Yıl Distribütör Garantili"
+      },
+      {
+        "storeName": "Trendyol",
+        "price": 9889,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.8,
+        "reviewCount": 1080,
+        "url": "https://www.trendyol.com/sr?q=iRobot%20Roomba%20e5%20(e5152%2Fe5154)%20Robot%20S%C3%BCp%C3%BCrge",
+        "warrantyType": "Yetkili Satıcı Garantili"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "price": 10049,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.7,
+        "reviewCount": 490,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=iRobot%20Roomba%20e5%20(e5152%2Fe5154)%20Robot%20S%C3%BCp%C3%BCrge",
+        "warrantyType": "Resmi Türkiye Garantili"
+      },
+      {
+        "storeName": "Teknosa",
+        "price": 10189,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.7,
+        "reviewCount": 350,
+        "url": "https://www.teknosa.com/arama?s=iRobot%20Roomba%20e5%20(e5152%2Fe5154)%20Robot%20S%C3%BCp%C3%BCrge",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "price": 10259,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.7,
+        "reviewCount": 220,
+        "url": "https://www.vatanbilgisayar.com/arama/iRobot%20Roomba%20e5%20(e5152%2Fe5154)%20Robot%20S%C3%BCp%C3%BCrge/",
+        "warrantyType": "2 Yıl Garantili"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 10069
+      },
+      {
+        "date": "2026-05-15",
+        "price": 9784
+      },
+      {
+        "date": "2026-07-01",
+        "price": 9594
+      },
+      {
+        "date": "2026-08-27",
+        "price": 9499
+      }
+    ]
+  },
+  {
+    "id": "appliance-robot_vacuum-irobot-p2-2",
+    "slug": "irobot-braava-jet-250",
+    "name": "iRobot Braava Jet 250 Kompakt Robot Paspas",
+    "brand": "iRobot",
+    "category": "appliances",
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürge & Paspas",
+    "image": "https://images.unsplash.com/photo-1589923188900-85dae523342b?w=800&q=80",
+    "rating": 4.5,
+    "reviewCount": 280,
+    "basePrice": 7999,
+    "currency": "TL",
+    "releaseYear": 2020,
+    "isPopular": true,
+    "highlights": [
+      "Hassas Jet Püskürtme ve Titreşimli Temizleme Başlığı",
+      "Mutfak ve Banyo Gibi Dar Alanlar İçin Kompakt Kare Tasarım",
+      "Islak Paspaslama, Nemli Süpürme ve Kuru Temizleme Modları",
+      "Sanal Duvar Modu ile Sınır Koruma"
+    ],
+    "minPrice": 7999,
+    "maxPrice": 8639,
+    "storeCount": 6,
+    "inStock": true,
+    "specs": {
+      "masterCategory": "home_appliances",
+      "masterCategoryLabel": "Ev Aletleri / Temizlik & Yaşam",
+      "subCategory": "robot_vacuum",
+      "subCategoryLabel": "Robot Süpürge",
+      "brand": "iRobot",
+      "model": "iRobot Braava Jet 250 Kompakt Robot Paspas",
+      "suctionPowerPa": 0,
+      "batteryRuntimeMin": 60,
+      "chargeTimeHours": 2,
+      "batteryCapacityMah": 1950,
+      "noiseLevelDb": 52,
+      "autoCleanDock": false,
+      "autoEmptyStation": false,
+      "mappingTechnology": "Sistematik Hassas Navigasyon",
+      "appControl": true,
+      "wetDryUsage": false,
+      "warrantyYears": 2
+    },
+    "storeOffers": [
+      {
+        "storeName": "Amazon TR",
+        "price": 7999,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.9,
+        "reviewCount": 1420,
+        "url": "https://www.amazon.com.tr/s?k=iRobot%20Braava%20Jet%20250%20Kompakt%20Robot%20Paspas",
+        "warrantyType": "iRobot Türkiye Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "price": 8249,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.8,
+        "reviewCount": 950,
+        "url": "https://www.hepsiburada.com/ara?q=iRobot%20Braava%20Jet%20250%20Kompakt%20Robot%20Paspas",
+        "warrantyType": "2 Yıl Distribütör Garantili"
+      },
+      {
+        "storeName": "Trendyol",
+        "price": 8389,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.8,
+        "reviewCount": 1080,
+        "url": "https://www.trendyol.com/sr?q=iRobot%20Braava%20Jet%20250%20Kompakt%20Robot%20Paspas",
+        "warrantyType": "Yetkili Satıcı Garantili"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "price": 8549,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.7,
+        "reviewCount": 490,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=iRobot%20Braava%20Jet%20250%20Kompakt%20Robot%20Paspas",
+        "warrantyType": "Resmi Türkiye Garantili"
+      },
+      {
+        "storeName": "Teknosa",
+        "price": 8689,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.7,
+        "reviewCount": 350,
+        "url": "https://www.teknosa.com/arama?s=iRobot%20Braava%20Jet%20250%20Kompakt%20Robot%20Paspas",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "price": 8639,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.7,
+        "reviewCount": 220,
+        "url": "https://www.vatanbilgisayar.com/arama/iRobot%20Braava%20Jet%20250%20Kompakt%20Robot%20Paspas/",
+        "warrantyType": "2 Yıl Garantili"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 8479
+      },
+      {
+        "date": "2026-05-15",
+        "price": 8239
+      },
+      {
+        "date": "2026-07-01",
+        "price": 8079
+      },
+      {
+        "date": "2026-08-27",
+        "price": 7999
+      }
+    ]
+  },
+  {
+    "id": "appliance-robot_vacuum-irobot-p2-3",
+    "slug": "irobot-roomba-693",
+    "name": "iRobot Roomba 693 Wi-Fi Robot Süpürge",
+    "brand": "iRobot",
+    "category": "appliances",
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürge & Paspas",
+    "image": "https://images.unsplash.com/photo-1589923188900-85dae523342b?w=800&q=80",
+    "rating": 4.5,
+    "reviewCount": 450,
+    "basePrice": 6999,
+    "currency": "TL",
+    "releaseYear": 2022,
+    "isPopular": false,
+    "highlights": [
+      "Dirt Detect Yoğun Kirli Bölgeleri Otomatik Algılama",
+      "Kenar Süpürme Açılı Yan Fırça",
+      "Google Assistant ve Alexa Sesli Komut Desteği",
+      "Otomatik Şarj İstasyonuna Dönüş"
+    ],
+    "minPrice": 6999,
+    "maxPrice": 7559,
+    "storeCount": 6,
+    "inStock": true,
+    "specs": {
+      "masterCategory": "home_appliances",
+      "masterCategoryLabel": "Ev Aletleri / Temizlik & Yaşam",
+      "subCategory": "robot_vacuum",
+      "subCategoryLabel": "Robot Süpürge",
+      "brand": "iRobot",
+      "model": "iRobot Roomba 693 Wi-Fi Robot Süpürge",
+      "suctionPowerPa": 600,
+      "batteryRuntimeMin": 90,
+      "chargeTimeHours": 3,
+      "batteryCapacityMah": 1800,
+      "noiseLevelDb": 67,
+      "autoCleanDock": false,
+      "autoEmptyStation": false,
+      "mappingTechnology": "iAdapt Duyarlı Navigasyon",
+      "appControl": true,
+      "wetDryUsage": true,
+      "warrantyYears": 2
+    },
+    "storeOffers": [
+      {
+        "storeName": "Amazon TR",
+        "price": 6999,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.9,
+        "reviewCount": 1420,
+        "url": "https://www.amazon.com.tr/s?k=iRobot%20Roomba%20693%20Wi-Fi%20Robot%20S%C3%BCp%C3%BCrge",
+        "warrantyType": "iRobot Türkiye Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "price": 7249,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.8,
+        "reviewCount": 950,
+        "url": "https://www.hepsiburada.com/ara?q=iRobot%20Roomba%20693%20Wi-Fi%20Robot%20S%C3%BCp%C3%BCrge",
+        "warrantyType": "2 Yıl Distribütör Garantili"
+      },
+      {
+        "storeName": "Trendyol",
+        "price": 7389,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.8,
+        "reviewCount": 1080,
+        "url": "https://www.trendyol.com/sr?q=iRobot%20Roomba%20693%20Wi-Fi%20Robot%20S%C3%BCp%C3%BCrge",
+        "warrantyType": "Yetkili Satıcı Garantili"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "price": 7549,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.7,
+        "reviewCount": 490,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=iRobot%20Roomba%20693%20Wi-Fi%20Robot%20S%C3%BCp%C3%BCrge",
+        "warrantyType": "Resmi Türkiye Garantili"
+      },
+      {
+        "storeName": "Teknosa",
+        "price": 7689,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.7,
+        "reviewCount": 350,
+        "url": "https://www.teknosa.com/arama?s=iRobot%20Roomba%20693%20Wi-Fi%20Robot%20S%C3%BCp%C3%BCrge",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "price": 7559,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.7,
+        "reviewCount": 220,
+        "url": "https://www.vatanbilgisayar.com/arama/iRobot%20Roomba%20693%20Wi-Fi%20Robot%20S%C3%BCp%C3%BCrge/",
+        "warrantyType": "2 Yıl Garantili"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 7419
+      },
+      {
+        "date": "2026-05-15",
+        "price": 7209
+      },
+      {
+        "date": "2026-07-01",
+        "price": 7069
+      },
+      {
+        "date": "2026-08-27",
+        "price": 6999
+      }
+    ]
+  },
+  {
+    "id": "appliance-robot_vacuum-irobot-p2-4",
+    "slug": "irobot-roomba-692",
+    "name": "iRobot Roomba 692 Wi-Fi Robot Süpürge",
+    "brand": "iRobot",
+    "category": "appliances",
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürge & Paspas",
+    "image": "https://images.unsplash.com/photo-1589923188900-85dae523342b?w=800&q=80",
+    "rating": 4.5,
+    "reviewCount": 520,
+    "basePrice": 6899,
+    "currency": "TL",
+    "releaseYear": 2021,
+    "isPopular": false,
+    "highlights": [
+      "3 Aşamalı Temizlik Sistemi",
+      "Günlük Temizlik Rutini Kişiselleştirme",
+      "Halı ve Sert Zemin Otomatik Yükseklik Ayarlı Başlık",
+      "Ekonomik ve Güvenilir iRobot Kalitesi"
+    ],
+    "minPrice": 6899,
+    "maxPrice": 7451,
+    "storeCount": 6,
+    "inStock": true,
+    "specs": {
+      "masterCategory": "home_appliances",
+      "masterCategoryLabel": "Ev Aletleri / Temizlik & Yaşam",
+      "subCategory": "robot_vacuum",
+      "subCategoryLabel": "Robot Süpürge",
+      "brand": "iRobot",
+      "model": "iRobot Roomba 692 Wi-Fi Robot Süpürge",
+      "suctionPowerPa": 600,
+      "batteryRuntimeMin": 90,
+      "chargeTimeHours": 2,
+      "batteryCapacityMah": 1800,
+      "noiseLevelDb": 68,
+      "autoCleanDock": false,
+      "autoEmptyStation": false,
+      "mappingTechnology": "iAdapt Duyarlı Navigasyon",
+      "appControl": true,
+      "wetDryUsage": true,
+      "warrantyYears": 2
+    },
+    "storeOffers": [
+      {
+        "storeName": "Amazon TR",
+        "price": 6899,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.9,
+        "reviewCount": 1420,
+        "url": "https://www.amazon.com.tr/s?k=iRobot%20Roomba%20692%20Wi-Fi%20Robot%20S%C3%BCp%C3%BCrge",
+        "warrantyType": "iRobot Türkiye Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "price": 7149,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.8,
+        "reviewCount": 950,
+        "url": "https://www.hepsiburada.com/ara?q=iRobot%20Roomba%20692%20Wi-Fi%20Robot%20S%C3%BCp%C3%BCrge",
+        "warrantyType": "2 Yıl Distribütör Garantili"
+      },
+      {
+        "storeName": "Trendyol",
+        "price": 7289,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.8,
+        "reviewCount": 1080,
+        "url": "https://www.trendyol.com/sr?q=iRobot%20Roomba%20692%20Wi-Fi%20Robot%20S%C3%BCp%C3%BCrge",
+        "warrantyType": "Yetkili Satıcı Garantili"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "price": 7449,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.7,
+        "reviewCount": 490,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=iRobot%20Roomba%20692%20Wi-Fi%20Robot%20S%C3%BCp%C3%BCrge",
+        "warrantyType": "Resmi Türkiye Garantili"
+      },
+      {
+        "storeName": "Teknosa",
+        "price": 7589,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.7,
+        "reviewCount": 350,
+        "url": "https://www.teknosa.com/arama?s=iRobot%20Roomba%20692%20Wi-Fi%20Robot%20S%C3%BCp%C3%BCrge",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "price": 7451,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.7,
+        "reviewCount": 220,
+        "url": "https://www.vatanbilgisayar.com/arama/iRobot%20Roomba%20692%20Wi-Fi%20Robot%20S%C3%BCp%C3%BCrge/",
+        "warrantyType": "2 Yıl Garantili"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 7313
+      },
+      {
+        "date": "2026-05-15",
+        "price": 7106
+      },
+      {
+        "date": "2026-07-01",
+        "price": 6968
+      },
+      {
+        "date": "2026-08-27",
+        "price": 6899
+      }
+    ]
+  },
+  {
+    "id": "appliance-robot_vacuum-irobot-p2-5",
+    "slug": "irobot-roomba-980",
+    "name": "iRobot Roomba 980 / 981 Robot Süpürge",
+    "brand": "iRobot",
+    "category": "appliances",
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürge & Paspas",
+    "image": "https://images.unsplash.com/photo-1589923188900-85dae523342b?w=800&q=80",
+    "rating": 4.8,
+    "reviewCount": 710,
+    "basePrice": 15999,
+    "currency": "TL",
+    "releaseYear": 2020,
+    "isPopular": false,
+    "highlights": [
+      "Carpet Boost Halıda 10 Kat Otomatik Güç Artırma",
+      "Görsel Haritalama ve Kesintisiz Şarj Olup Kaldığı Yerden Devam Etme",
+      "AeroForce Yüksek Verimli Çift Kauçuk Fırça",
+      "Çok Odalı Geniş Ev Temizliği"
+    ],
+    "minPrice": 15999,
+    "maxPrice": 17279,
+    "storeCount": 6,
+    "inStock": true,
+    "specs": {
+      "masterCategory": "home_appliances",
+      "masterCategoryLabel": "Ev Aletleri / Temizlik & Yaşam",
+      "subCategory": "robot_vacuum",
+      "subCategoryLabel": "Robot Süpürge",
+      "brand": "iRobot",
+      "model": "iRobot Roomba 980 / 981 Robot Süpürge",
+      "suctionPowerPa": 1700,
+      "batteryRuntimeMin": 120,
+      "chargeTimeHours": 3,
+      "batteryCapacityMah": 3300,
+      "noiseLevelDb": 66,
+      "autoCleanDock": false,
+      "autoEmptyStation": false,
+      "mappingTechnology": "iAdapt 2.0 Görsel vSLAM Kamera",
+      "appControl": true,
+      "wetDryUsage": true,
+      "warrantyYears": 2
+    },
+    "storeOffers": [
+      {
+        "storeName": "Amazon TR",
+        "price": 15999,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.9,
+        "reviewCount": 1420,
+        "url": "https://www.amazon.com.tr/s?k=iRobot%20Roomba%20980%20%2F%20981%20Robot%20S%C3%BCp%C3%BCrge",
+        "warrantyType": "iRobot Türkiye Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "price": 16249,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.8,
+        "reviewCount": 950,
+        "url": "https://www.hepsiburada.com/ara?q=iRobot%20Roomba%20980%20%2F%20981%20Robot%20S%C3%BCp%C3%BCrge",
+        "warrantyType": "2 Yıl Distribütör Garantili"
+      },
+      {
+        "storeName": "Trendyol",
+        "price": 16389,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.8,
+        "reviewCount": 1080,
+        "url": "https://www.trendyol.com/sr?q=iRobot%20Roomba%20980%20%2F%20981%20Robot%20S%C3%BCp%C3%BCrge",
+        "warrantyType": "Yetkili Satıcı Garantili"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "price": 16549,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.7,
+        "reviewCount": 490,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=iRobot%20Roomba%20980%20%2F%20981%20Robot%20S%C3%BCp%C3%BCrge",
+        "warrantyType": "Resmi Türkiye Garantili"
+      },
+      {
+        "storeName": "Teknosa",
+        "price": 16689,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.7,
+        "reviewCount": 350,
+        "url": "https://www.teknosa.com/arama?s=iRobot%20Roomba%20980%20%2F%20981%20Robot%20S%C3%BCp%C3%BCrge",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "price": 17279,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.7,
+        "reviewCount": 220,
+        "url": "https://www.vatanbilgisayar.com/arama/iRobot%20Roomba%20980%20%2F%20981%20Robot%20S%C3%BCp%C3%BCrge/",
+        "warrantyType": "2 Yıl Garantili"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 16959
+      },
+      {
+        "date": "2026-05-15",
+        "price": 16479
+      },
+      {
+        "date": "2026-07-01",
+        "price": 16159
+      },
+      {
+        "date": "2026-08-27",
+        "price": 15999
+      }
+    ]
+  },
+  {
+    "id": "appliance-robot_vacuum-irobot-p2-6",
+    "slug": "irobot-roomba-960",
+    "name": "iRobot Roomba 960 / 965 Robot Süpürge",
+    "brand": "iRobot",
+    "category": "appliances",
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürge & Paspas",
+    "image": "https://images.unsplash.com/photo-1589923188900-85dae523342b?w=800&q=80",
+    "rating": 4.7,
+    "reviewCount": 620,
+    "basePrice": 12999,
+    "currency": "TL",
+    "releaseYear": 2020,
+    "isPopular": false,
+    "highlights": [
+      "vSLAM Görsel Konumlandırma ve Haritalama",
+      "5 Kat Daha Güçlü Hava Emiş Performansı",
+      "iRobot Home Mobil Uygulamadan Harita Takibi",
+      "Yüksek Verimli Alerjen Filtresi"
+    ],
+    "minPrice": 12999,
+    "maxPrice": 14039,
+    "storeCount": 6,
+    "inStock": true,
+    "specs": {
+      "masterCategory": "home_appliances",
+      "masterCategoryLabel": "Ev Aletleri / Temizlik & Yaşam",
+      "subCategory": "robot_vacuum",
+      "subCategoryLabel": "Robot Süpürge",
+      "brand": "iRobot",
+      "model": "iRobot Roomba 960 / 965 Robot Süpürge",
+      "suctionPowerPa": 900,
+      "batteryRuntimeMin": 75,
+      "chargeTimeHours": 2,
+      "batteryCapacityMah": 2600,
+      "noiseLevelDb": 65,
+      "autoCleanDock": false,
+      "autoEmptyStation": false,
+      "mappingTechnology": "iAdapt 2.0 vSLAM Kamera Haritalama",
+      "appControl": true,
+      "wetDryUsage": true,
+      "warrantyYears": 2
+    },
+    "storeOffers": [
+      {
+        "storeName": "Amazon TR",
+        "price": 12999,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.9,
+        "reviewCount": 1420,
+        "url": "https://www.amazon.com.tr/s?k=iRobot%20Roomba%20960%20%2F%20965%20Robot%20S%C3%BCp%C3%BCrge",
+        "warrantyType": "iRobot Türkiye Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "price": 13249,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.8,
+        "reviewCount": 950,
+        "url": "https://www.hepsiburada.com/ara?q=iRobot%20Roomba%20960%20%2F%20965%20Robot%20S%C3%BCp%C3%BCrge",
+        "warrantyType": "2 Yıl Distribütör Garantili"
+      },
+      {
+        "storeName": "Trendyol",
+        "price": 13389,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.8,
+        "reviewCount": 1080,
+        "url": "https://www.trendyol.com/sr?q=iRobot%20Roomba%20960%20%2F%20965%20Robot%20S%C3%BCp%C3%BCrge",
+        "warrantyType": "Yetkili Satıcı Garantili"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "price": 13549,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.7,
+        "reviewCount": 490,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=iRobot%20Roomba%20960%20%2F%20965%20Robot%20S%C3%BCp%C3%BCrge",
+        "warrantyType": "Resmi Türkiye Garantili"
+      },
+      {
+        "storeName": "Teknosa",
+        "price": 13689,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.7,
+        "reviewCount": 350,
+        "url": "https://www.teknosa.com/arama?s=iRobot%20Roomba%20960%20%2F%20965%20Robot%20S%C3%BCp%C3%BCrge",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "price": 14039,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.7,
+        "reviewCount": 220,
+        "url": "https://www.vatanbilgisayar.com/arama/iRobot%20Roomba%20960%20%2F%20965%20Robot%20S%C3%BCp%C3%BCrge/",
+        "warrantyType": "2 Yıl Garantili"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 13779
+      },
+      {
+        "date": "2026-05-15",
+        "price": 13389
+      },
+      {
+        "date": "2026-07-01",
+        "price": 13129
+      },
+      {
+        "date": "2026-08-27",
+        "price": 12999
+      }
+    ]
+  },
+  {
+    "id": "appliance-robot_vacuum-irobot-p2-7",
+    "slug": "irobot-roomba-890",
+    "name": "iRobot Roomba 890 / 896 Robot Süpürge",
+    "brand": "iRobot",
+    "category": "appliances",
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürge & Paspas",
+    "image": "https://images.unsplash.com/photo-1589923188900-85dae523342b?w=800&q=80",
+    "rating": 4.6,
+    "reviewCount": 330,
+    "basePrice": 8499,
+    "currency": "TL",
+    "releaseYear": 2019,
+    "isPopular": false,
+    "highlights": [
+      "AeroForce Dolaşmayan Kauçuk Fırçalar",
+      "Wi-Fi Bağlantısı ve Akıllı Zamanlama",
+      "Dirt Detect Yoğun Kirli Alan Algılama",
+      "Otomatik Şarj"
+    ],
+    "minPrice": 8499,
+    "maxPrice": 9179,
+    "storeCount": 6,
+    "inStock": true,
+    "specs": {
+      "masterCategory": "home_appliances",
+      "masterCategoryLabel": "Ev Aletleri / Temizlik & Yaşam",
+      "subCategory": "robot_vacuum",
+      "subCategoryLabel": "Robot Süpürge",
+      "brand": "iRobot",
+      "model": "iRobot Roomba 890 / 896 Robot Süpürge",
+      "suctionPowerPa": 1000,
+      "batteryRuntimeMin": 60,
+      "chargeTimeHours": 2,
+      "batteryCapacityMah": 1800,
+      "noiseLevelDb": 68,
+      "autoCleanDock": false,
+      "autoEmptyStation": false,
+      "mappingTechnology": "iAdapt 1.0",
+      "appControl": true,
+      "wetDryUsage": true,
+      "warrantyYears": 2
+    },
+    "storeOffers": [
+      {
+        "storeName": "Amazon TR",
+        "price": 8499,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.9,
+        "reviewCount": 1420,
+        "url": "https://www.amazon.com.tr/s?k=iRobot%20Roomba%20890%20%2F%20896%20Robot%20S%C3%BCp%C3%BCrge",
+        "warrantyType": "iRobot Türkiye Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "price": 8749,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.8,
+        "reviewCount": 950,
+        "url": "https://www.hepsiburada.com/ara?q=iRobot%20Roomba%20890%20%2F%20896%20Robot%20S%C3%BCp%C3%BCrge",
+        "warrantyType": "2 Yıl Distribütör Garantili"
+      },
+      {
+        "storeName": "Trendyol",
+        "price": 8889,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.8,
+        "reviewCount": 1080,
+        "url": "https://www.trendyol.com/sr?q=iRobot%20Roomba%20890%20%2F%20896%20Robot%20S%C3%BCp%C3%BCrge",
+        "warrantyType": "Yetkili Satıcı Garantili"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "price": 9049,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.7,
+        "reviewCount": 490,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=iRobot%20Roomba%20890%20%2F%20896%20Robot%20S%C3%BCp%C3%BCrge",
+        "warrantyType": "Resmi Türkiye Garantili"
+      },
+      {
+        "storeName": "Teknosa",
+        "price": 9189,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.7,
+        "reviewCount": 350,
+        "url": "https://www.teknosa.com/arama?s=iRobot%20Roomba%20890%20%2F%20896%20Robot%20S%C3%BCp%C3%BCrge",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "price": 9179,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.7,
+        "reviewCount": 220,
+        "url": "https://www.vatanbilgisayar.com/arama/iRobot%20Roomba%20890%20%2F%20896%20Robot%20S%C3%BCp%C3%BCrge/",
+        "warrantyType": "2 Yıl Garantili"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 9009
+      },
+      {
+        "date": "2026-05-15",
+        "price": 8754
+      },
+      {
+        "date": "2026-07-01",
+        "price": 8584
+      },
+      {
+        "date": "2026-08-27",
+        "price": 8499
+      }
+    ]
+  },
+  {
+    "id": "appliance-robot_vacuum-irobot-p2-8",
+    "slug": "irobot-roomba-675",
+    "name": "iRobot Roomba 675 Wi-Fi Robot Süpürge",
+    "brand": "iRobot",
+    "category": "appliances",
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürge & Paspas",
+    "image": "https://images.unsplash.com/photo-1589923188900-85dae523342b?w=800&q=80",
+    "rating": 4.4,
+    "reviewCount": 540,
+    "basePrice": 6499,
+    "currency": "TL",
+    "releaseYear": 2020,
+    "isPopular": false,
+    "highlights": [
+      "Wi-Fi ve Sesli Asistan Uyumu",
+      "Çift Çoklu Yüzey Fırçası",
+      "Kendi Kendine Şarj Ünitesine Dönüş",
+      "Merdivenden Düşmeyi Önleyici Sensörler"
+    ],
+    "minPrice": 6499,
+    "maxPrice": 7019,
+    "storeCount": 6,
+    "inStock": true,
+    "specs": {
+      "masterCategory": "home_appliances",
+      "masterCategoryLabel": "Ev Aletleri / Temizlik & Yaşam",
+      "subCategory": "robot_vacuum",
+      "subCategoryLabel": "Robot Süpürge",
+      "brand": "iRobot",
+      "model": "iRobot Roomba 675 Wi-Fi Robot Süpürge",
+      "suctionPowerPa": 600,
+      "batteryRuntimeMin": 90,
+      "chargeTimeHours": 3,
+      "batteryCapacityMah": 1800,
+      "noiseLevelDb": 68,
+      "autoCleanDock": false,
+      "autoEmptyStation": false,
+      "mappingTechnology": "iAdapt Duyarlı Sensörler",
+      "appControl": true,
+      "wetDryUsage": true,
+      "warrantyYears": 2
+    },
+    "storeOffers": [
+      {
+        "storeName": "Amazon TR",
+        "price": 6499,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.9,
+        "reviewCount": 1420,
+        "url": "https://www.amazon.com.tr/s?k=iRobot%20Roomba%20675%20Wi-Fi%20Robot%20S%C3%BCp%C3%BCrge",
+        "warrantyType": "iRobot Türkiye Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "price": 6749,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.8,
+        "reviewCount": 950,
+        "url": "https://www.hepsiburada.com/ara?q=iRobot%20Roomba%20675%20Wi-Fi%20Robot%20S%C3%BCp%C3%BCrge",
+        "warrantyType": "2 Yıl Distribütör Garantili"
+      },
+      {
+        "storeName": "Trendyol",
+        "price": 6889,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.8,
+        "reviewCount": 1080,
+        "url": "https://www.trendyol.com/sr?q=iRobot%20Roomba%20675%20Wi-Fi%20Robot%20S%C3%BCp%C3%BCrge",
+        "warrantyType": "Yetkili Satıcı Garantili"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "price": 7049,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.7,
+        "reviewCount": 490,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=iRobot%20Roomba%20675%20Wi-Fi%20Robot%20S%C3%BCp%C3%BCrge",
+        "warrantyType": "Resmi Türkiye Garantili"
+      },
+      {
+        "storeName": "Teknosa",
+        "price": 7189,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.7,
+        "reviewCount": 350,
+        "url": "https://www.teknosa.com/arama?s=iRobot%20Roomba%20675%20Wi-Fi%20Robot%20S%C3%BCp%C3%BCrge",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "price": 7019,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.7,
+        "reviewCount": 220,
+        "url": "https://www.vatanbilgisayar.com/arama/iRobot%20Roomba%20675%20Wi-Fi%20Robot%20S%C3%BCp%C3%BCrge/",
+        "warrantyType": "2 Yıl Garantili"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 6889
+      },
+      {
+        "date": "2026-05-15",
+        "price": 6694
+      },
+      {
+        "date": "2026-07-01",
+        "price": 6564
+      },
+      {
+        "date": "2026-08-27",
+        "price": 6499
+      }
+    ]
+  }
 ];
