@@ -74867,67 +74867,6 @@ export const mockAppliances: ApplianceProduct[] = [
     "maxPrice": 3247
   },
   {
-    "id": "philips-add4902bk",
-    "slug": "philips-add4902bk",
-    "name": "Philips ADD4902BK UV-C Sterilizasyonlu Gizli Damacanalı Su Sebili",
-    "brand": "Philips",
-    "category": "appliances",
-    "basePrice": 9499,
-    "currency": "TL",
-    "rating": 4.91,
-    "epeyScore": 94,
-    "reviewCount": 410,
-    "image": "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg",
-    "images": [
-      "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg"
-    ],
-    "releaseYear": 2024,
-    "isPopular": false,
-    "isFeatured": true,
-    "highlights": [
-      "UV-C LED Bakteri & Virüs Temizleme Sistemi (%99.9 Steril Su)",
-      "Gizli Alttan Yüklemeli Damacana Bölmesi",
-      "Paslanmaz Çelik İç Depo ve Dokunmatik Kontrol Paneli",
-      "Anında Sıcak Su Hazırlama Teknolojisi"
-    ],
-    "specs": {
-      "subCategory": "water_dispenser",
-      "subCategoryLabel": "Su Sebili",
-      "powerWatts": 600,
-      "warrantyYears": 2,
-      "color": "Mat Siyah",
-      "masterCategory": "home_tools",
-      "masterCategoryLabel": "Ütü & Ev Gereçleri"
-    },
-    "storeOffers": [
-      {
-        "id": "philips-add4902-ty",
-        "storeName": "Trendyol",
-        "storeLogoColor": "bg-amber-600",
-        "price": 9499,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "UV-C Sterilizasyon"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 870,
-        "url": "#"
-      }
-    ],
-    "priceHistory": [
-      {
-        "date": "2026-07",
-        "price": 9499,
-        "store": "Trendyol"
-      }
-    ],
-    "subCategory": "water_dispenser",
-    "subCategoryLabel": "Su Sebili",
-    "minPrice": 9499,
-    "maxPrice": 10639
-  },
-  {
     "id": "appliance-robot_vacuum-ecovacs-1",
     "slug": "ecovacs-deebot-x2-omni",
     "name": "Ecovacs Deebot X2 Omni Robot Süpürge ve Mop",
