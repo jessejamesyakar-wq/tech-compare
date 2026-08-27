@@ -20,7 +20,7 @@ export function Footer() {
                 <Scale className="w-4 h-4 text-white" />
               </div>
               <span className="text-lg font-extrabold text-white tracking-tight">
-                Tech<span className="text-emerald-500">Kıyas</span>
+                acele<span className="text-emerald-500">Etme</span>
               </span>
             </Link>
             <p className="text-xs leading-relaxed text-slate-400">
@@ -83,7 +83,7 @@ export function Footer() {
         </div>
 
         <div className="pt-8 border-t border-slate-800 text-center text-xs text-slate-500 flex flex-col sm:flex-row items-center justify-between gap-4">
-          <p>© 2026 TechKıyas. Tüm hakları saklıdır. Tarafsız Ürün Karşılaştırma & Canlı Piyasa Analizi.</p>
+          <p>© 2026 aceleEtme. Tüm hakları saklıdır. Tarafsız Ürün Karşılaştırma & Canlı Piyasa Analizi.</p>
           <div className="flex items-center gap-4 text-[11px]">
             <Link href="/phones" className="hover:text-emerald-400 font-bold">Katalog</Link>
           </div>

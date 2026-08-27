@@ -14,8 +14,8 @@ import { CompareBar } from '@/components/layout/CompareBar';
 import { LogoModal } from '@/components/layout/LogoModal';
 
 export const metadata: Metadata = {
-  title: 'TechKıyas | Akıllı Telefon & TV Karşılaştırma ve Fiyat Takip Platformu',
-  description: 'Türkiye’nin %100 tarafsız, reklamsız akıllı telefon ve TV karşılaştırma platformu. 8 mağaza canlı fiyat kıyaslaması ve 6 aylık fiyat geçmişi grafikleri.',
+  title: 'aceleEtme | Akıllı Telefon, TV & Teknoloji Karşılaştırma ve Fiyat Takip Platformu',
+  description: 'Türkiye’nin %100 tarafsız, reklamsız akıllı telefon, bilgisayar ve teknoloji karşılaştırma platformu. 8 mağaza canlı fiyat kıyaslaması ve fiyat geçmişi grafikleri.',
   manifest: '/manifest.json',
 };
 

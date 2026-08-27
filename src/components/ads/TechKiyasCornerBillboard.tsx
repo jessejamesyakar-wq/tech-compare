@@ -96,7 +96,7 @@ export function TechKiyasCornerBillboard() {
                     <div>
                       <div className="flex items-center justify-between">
                         <span className="text-lg xs:text-xl sm:text-2xl font-black tracking-tight text-white drop-shadow-md flex items-center gap-1.5">
-                          <span>⚡</span> TechKıyas
+                          <span>⚡</span> aceleEtme
                         </span>
                         <span className="bg-emerald-500/90 text-white text-[8px] xs:text-[9px] sm:text-[10px] font-black px-2 py-0.5 rounded-full shadow-xs">
                           CANLI

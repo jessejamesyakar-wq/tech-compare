@@ -41,8 +41,8 @@ export function Logo({ variant = 'light', size = 'md', showEditBadge = true }: L
     imageUrl: '/emblem.png',
     presetIcon: 'scale',
     bgGradient: 'from-emerald-600 via-teal-600 to-emerald-500',
-    titleText: 'TechKıyas',
-    subtitleText: 'Akıllı Karşılaştırma Portalı',
+    titleText: 'aceleEtme',
+    subtitleText: 'Akıllı Karşılaştırma & Fiyat Takip',
   };
   let setIsModalOpen: ((open: boolean) => void) | undefined = undefined;
 
@@ -113,14 +113,14 @@ export function Logo({ variant = 'light', size = 'md', showEditBadge = true }: L
             isDarkTheme ? 'text-white' : 'text-slate-900 dark:text-white'
           }`}
         >
-          {logoConfig.titleText || 'TechKıyas'}
+          {logoConfig.titleText || 'aceleEtme'}
         </span>
         <span
           className={`text-[9px] tracking-[0.2em] font-black uppercase mt-0.5 ${
             isDarkTheme ? 'text-emerald-400/90' : 'text-slate-500 dark:text-slate-400'
           }`}
         >
-          {logoConfig.subtitleText || 'Akıllı Karşılaştırma Portalı'}
+          {logoConfig.subtitleText || 'Akıllı Karşılaştırma & Fiyat Takip'}
         </span>
       </div>
     </div>

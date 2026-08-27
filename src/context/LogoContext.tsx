@@ -16,8 +16,8 @@ const DEFAULT_LOGO_CONFIG: LogoConfig = {
   imageUrl: '/emblem.png',
   presetIcon: 'scale',
   bgGradient: 'from-emerald-600 via-teal-600 to-emerald-500',
-  titleText: 'TechKıyas',
-  subtitleText: 'Akıllı Karşılaştırma Portalı',
+  titleText: 'aceleEtme',
+  subtitleText: 'Akıllı Karşılaştırma & Fiyat Takip',
 };
 
 interface LogoContextType {
