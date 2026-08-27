@@ -83203,4 +83203,267 @@ export const mockAppliances: ApplianceProduct[] = [
       }
     ]
   }
+,
+  {
+    "id": "appliance-robot_vacuum-ecovacs-exp-1",
+    "slug": "ecovacs-deebot-x2-combo",
+    "name": "Ecovacs Deebot X2 Combo Robot ve El Süpürgesi İstasyonu",
+    "brand": "Ecovacs",
+    "category": "appliances",
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürge & Paspas",
+    "image": "https://resim.epey.com/973099/k_ecovacs-deebot-x2-combo-1.jpg",
+    "rating": 5,
+    "reviewCount": 95,
+    "basePrice": 54999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "highlights": [
+      "Hem Robot Hem El Süpürgesini Otomatik Boşaltan İkili İstasyon",
+      "Kare Tasarım ile %99.77 Köşe Temizlik Kapsamı",
+      "60°C Sıcak Suyla Otomatik Paspas Yıkama ve Sıcak Hava Kurutma",
+      "8700 Pa Emiş Gücü ve 15 mm Otomatik Paspas Kaldırma"
+    ],
+    "minPrice": 54999,
+    "maxPrice": 59399,
+    "storeCount": 6,
+    "inStock": true,
+    "specs": {
+      "masterCategory": "home_appliances",
+      "masterCategoryLabel": "Ev Aletleri / Temizlik & Yaşam",
+      "subCategory": "robot_vacuum",
+      "subCategoryLabel": "Robot Süpürge",
+      "brand": "Ecovacs",
+      "model": "Ecovacs Deebot X2 Combo Robot ve El Süpürgesi İstasyonu",
+      "suctionPowerPa": 8700,
+      "batteryRuntimeMin": 210,
+      "chargeTimeHours": 4.5,
+      "batteryCapacityMah": 6400,
+      "noiseLevelDb": 65,
+      "autoCleanDock": true,
+      "autoEmptyStation": true,
+      "mappingTechnology": "Dahili Çift Lidar & AINA 2.0 Yapay Zeka",
+      "appControl": true,
+      "wetDryUsage": true,
+      "warrantyYears": 2
+    },
+    "storeOffers": [
+      {
+        "storeName": "Amazon TR",
+        "price": 54999,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.9,
+        "reviewCount": 1540,
+        "url": "https://www.amazon.com.tr/s?k=Ecovacs%20Deebot%20X2%20Combo%20Robot%20ve%20El%20S%C3%BCp%C3%BCrgesi%20%C4%B0stasyonu",
+        "warrantyType": "Ecovacs Türkiye Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "price": 55349,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.8,
+        "reviewCount": 980,
+        "url": "https://www.hepsiburada.com/ara?q=Ecovacs%20Deebot%20X2%20Combo%20Robot%20ve%20El%20S%C3%BCp%C3%BCrgesi%20%C4%B0stasyonu",
+        "warrantyType": "2 Yıl Distribütör Garantili"
+      },
+      {
+        "storeName": "Trendyol",
+        "price": 55489,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.8,
+        "reviewCount": 1120,
+        "url": "https://www.trendyol.com/sr?q=Ecovacs%20Deebot%20X2%20Combo%20Robot%20ve%20El%20S%C3%BCp%C3%BCrgesi%20%C4%B0stasyonu",
+        "warrantyType": "Yetkili Satıcı Garantili"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "price": 55749,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.7,
+        "reviewCount": 510,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Ecovacs%20Deebot%20X2%20Combo%20Robot%20ve%20El%20S%C3%BCp%C3%BCrgesi%20%C4%B0stasyonu",
+        "warrantyType": "Resmi Türkiye Garantili"
+      },
+      {
+        "storeName": "Teknosa",
+        "price": 55889,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.7,
+        "reviewCount": 390,
+        "url": "https://www.teknosa.com/arama?s=Ecovacs%20Deebot%20X2%20Combo%20Robot%20ve%20El%20S%C3%BCp%C3%BCrgesi%20%C4%B0stasyonu",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "price": 59399,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.7,
+        "reviewCount": 260,
+        "url": "https://www.vatanbilgisayar.com/arama/Ecovacs%20Deebot%20X2%20Combo%20Robot%20ve%20El%20S%C3%BCp%C3%BCrgesi%20%C4%B0stasyonu/",
+        "warrantyType": "2 Yıl Garantili"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 58849
+      },
+      {
+        "date": "2026-05-15",
+        "price": 57199
+      },
+      {
+        "date": "2026-07-01",
+        "price": 55549
+      },
+      {
+        "date": "2026-08-27",
+        "price": 54999
+      }
+    ]
+  },
+  {
+    "id": "appliance-robot_vacuum-ecovacs-exp-2",
+    "slug": "ecovacs-deebot-t30s-combo",
+    "name": "Ecovacs Deebot T30S Combo Robot ve El Süpürgesi",
+    "brand": "Ecovacs",
+    "category": "appliances",
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürge & Paspas",
+    "image": "https://resim.epey.com/995351/k_ecovacs-deebot-t30s-combo-1.png",
+    "rating": 4.9,
+    "reviewCount": 110,
+    "basePrice": 46999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "highlights": [
+      "11.000 Pa Canavar Emiş Gücü",
+      "TruEdge Sürekli Değişken Kenar Paspaslama Teknolojisi",
+      "ZeroTangle Dolaşmayan V-Tipi Rulo Fırça",
+      "70°C Sıcak Su ile Mop Yıkama"
+    ],
+    "minPrice": 46999,
+    "maxPrice": 50759,
+    "storeCount": 6,
+    "inStock": true,
+    "specs": {
+      "masterCategory": "home_appliances",
+      "masterCategoryLabel": "Ev Aletleri / Temizlik & Yaşam",
+      "subCategory": "robot_vacuum",
+      "subCategoryLabel": "Robot Süpürge",
+      "brand": "Ecovacs",
+      "model": "Ecovacs Deebot T30S Combo Robot ve El Süpürgesi",
+      "suctionPowerPa": 11000,
+      "batteryRuntimeMin": 220,
+      "chargeTimeHours": 4,
+      "batteryCapacityMah": 5200,
+      "noiseLevelDb": 64,
+      "autoCleanDock": true,
+      "autoEmptyStation": true,
+      "mappingTechnology": "TrueDetect 3D 3.0 & TrueMapping 2.0 LiDAR",
+      "appControl": true,
+      "wetDryUsage": true,
+      "warrantyYears": 2
+    },
+    "storeOffers": [
+      {
+        "storeName": "Amazon TR",
+        "price": 46999,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.9,
+        "reviewCount": 1540,
+        "url": "https://www.amazon.com.tr/s?k=Ecovacs%20Deebot%20T30S%20Combo%20Robot%20ve%20El%20S%C3%BCp%C3%BCrgesi",
+        "warrantyType": "Ecovacs Türkiye Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "price": 47349,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.8,
+        "reviewCount": 980,
+        "url": "https://www.hepsiburada.com/ara?q=Ecovacs%20Deebot%20T30S%20Combo%20Robot%20ve%20El%20S%C3%BCp%C3%BCrgesi",
+        "warrantyType": "2 Yıl Distribütör Garantili"
+      },
+      {
+        "storeName": "Trendyol",
+        "price": 47489,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.8,
+        "reviewCount": 1120,
+        "url": "https://www.trendyol.com/sr?q=Ecovacs%20Deebot%20T30S%20Combo%20Robot%20ve%20El%20S%C3%BCp%C3%BCrgesi",
+        "warrantyType": "Yetkili Satıcı Garantili"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "price": 47749,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.7,
+        "reviewCount": 510,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Ecovacs%20Deebot%20T30S%20Combo%20Robot%20ve%20El%20S%C3%BCp%C3%BCrgesi",
+        "warrantyType": "Resmi Türkiye Garantili"
+      },
+      {
+        "storeName": "Teknosa",
+        "price": 47889,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.7,
+        "reviewCount": 390,
+        "url": "https://www.teknosa.com/arama?s=Ecovacs%20Deebot%20T30S%20Combo%20Robot%20ve%20El%20S%C3%BCp%C3%BCrgesi",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "price": 50759,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.7,
+        "reviewCount": 260,
+        "url": "https://www.vatanbilgisayar.com/arama/Ecovacs%20Deebot%20T30S%20Combo%20Robot%20ve%20El%20S%C3%BCp%C3%BCrgesi/",
+        "warrantyType": "2 Yıl Garantili"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 50289
+      },
+      {
+        "date": "2026-05-15",
+        "price": 48879
+      },
+      {
+        "date": "2026-07-01",
+        "price": 47469
+      },
+      {
+        "date": "2026-08-27",
+        "price": 46999
+      }
+    ]
+  }
 ];
