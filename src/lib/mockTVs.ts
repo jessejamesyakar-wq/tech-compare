@@ -1,4 +1,4 @@
-import { TVProduct } from './types';
+import { TVProduct } from "./types";
 
 export const mockTVs: TVProduct[] = [
   {
@@ -25157,109 +25157,6 @@ export const mockTVs: TVProduct[] = [
       "energyClass": "G"
     },
     "epeyScore": 57
-  },
-  {
-    "id": "tv-arçelik-a75-d-895-a",
-    "name": "Arçelik A75 D 895 A 75\" 4K LED Smart TV",
-    "brand": "Arçelik",
-    "category": "tvs",
-    "rating": 7.8,
-    "image": "https://resim.epey.com/851918/k_arcelik-a75-d-895-a-9.jpg",
-    "specs": {
-      "resolution": "4K Ultra HD (3840x2160)",
-      "hdmiPorts": 4,
-      "usbPorts": 2,
-      "energyClass": "G",
-      "screenSizeInches": 75,
-      "displayTech": "LED",
-      "refreshRateHz": 60,
-      "hdrSupport": [
-        "HDR10",
-        "HLG",
-        "Dolby Vision"
-      ],
-      "smartOs": "Google TV",
-      "audioPowerWatts": 20
-    },
-    "priceHistory": [
-      {
-        "date": "2026-05-01",
-        "price": 45705,
-        "store": "Hepsiburada"
-      },
-      {
-        "date": "2026-06-01",
-        "price": 44435,
-        "store": "Hepsiburada"
-      },
-      {
-        "date": "2026-07-01",
-        "price": 43165,
-        "store": "Trendyol"
-      },
-      {
-        "date": "2026-08-01",
-        "price": 42319,
-        "store": "Hepsiburada"
-      }
-    ],
-    "basePrice": 42319,
-    "slug": "tv-arçelik-a75-d-895-a",
-    "reviewCount": 28,
-    "currency": "TL",
-    "releaseYear": 2025,
-    "highlights": [
-      "75\" LED Ekran",
-      "4K Ultra HD (3840x2160) Çözünürlük",
-      "Google TV İşletim Sistemi",
-      "Dolby Audio & HDR Desteği"
-    ],
-    "storeOffers": [
-      {
-        "id": "offer-tv-arçelik-a75-d-895-a-1",
-        "storeName": "Hepsiburada",
-        "storeLogoColor": "#FF6000",
-        "price": 42319,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Ücretsiz Kargo",
-          "Hızlı Teslimat"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 1420,
-        "url": "https://www.hepsiburada.com"
-      },
-      {
-        "id": "offer-tv-arçelik-a75-d-895-a-2",
-        "storeName": "Trendyol",
-        "storeLogoColor": "#F27A1A",
-        "price": 43165,
-        "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Ücretsiz Kargo"
-        ],
-        "sellerRating": 4.7,
-        "sellerReviews": 980,
-        "url": "https://www.trendyol.com"
-      },
-      {
-        "id": "offer-tv-arçelik-a75-d-895-a-3",
-        "storeName": "MediaMarkt",
-        "storeLogoColor": "#DF0000",
-        "price": 43589,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Distribütör"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 640,
-        "url": "https://www.mediamarkt.com.tr"
-      }
-    ],
-    "epeyScore": 67
   },
   {
     "id": "tv-tcl-55c655-pro",
