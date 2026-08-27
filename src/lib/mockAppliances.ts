@@ -81236,4 +81236,922 @@ export const mockAppliances: ApplianceProduct[] = [
       }
     ]
   }
+,
+  {
+    "id": "appliance-robot_vacuum-samsung-prem-1",
+    "slug": "samsung-jet-bot-combo-ai",
+    "name": "Samsung Jet Bot Combo AI Robot Süpürge ve Buharlı Mop",
+    "brand": "Samsung",
+    "category": "appliances",
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürge & Paspas",
+    "image": "https://images.unsplash.com/photo-1589923188900-85dae523342b?w=800&q=80",
+    "rating": 4.9,
+    "reviewCount": 160,
+    "basePrice": 48999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "highlights": [
+      "Buharlı Yıkama ve 100°C Sıcak Buharla Dezenfekte Eden Hepsi Bir Arada İstasyon",
+      "AI Zemin Tespiti (Halıyı Algılayıp Paspası İstasyonunda Bırakma)",
+      "SmartThings Ev Takip Kamerası & Evcil Hayvan Bakım Modu",
+      "Anti-Tangle Kıl Kesici Fırça"
+    ],
+    "minPrice": 48999,
+    "maxPrice": 52919,
+    "storeCount": 6,
+    "inStock": true,
+    "specs": {
+      "masterCategory": "home_appliances",
+      "masterCategoryLabel": "Ev Aletleri / Temizlik & Yaşam",
+      "subCategory": "robot_vacuum",
+      "subCategoryLabel": "Robot Süpürge",
+      "brand": "Samsung",
+      "model": "Samsung Jet Bot Combo AI Robot Süpürge ve Buharlı Mop",
+      "suctionPowerPa": 6000,
+      "batteryRuntimeMin": 180,
+      "chargeTimeHours": 3.5,
+      "batteryCapacityMah": 5200,
+      "noiseLevelDb": 63,
+      "autoCleanDock": true,
+      "autoEmptyStation": true,
+      "mappingTechnology": "AI D2T RGB Kamera ve 3D Sensör",
+      "appControl": true,
+      "wetDryUsage": true,
+      "warrantyYears": 2
+    },
+    "storeOffers": [
+      {
+        "storeName": "Amazon TR",
+        "price": 48999,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.9,
+        "reviewCount": 1650,
+        "url": "https://www.amazon.com.tr/s?k=Samsung%20Jet%20Bot%20Combo%20AI%20Robot%20S%C3%BCp%C3%BCrge%20ve%20Buharl%C4%B1%20Mop",
+        "warrantyType": "Samsung Türkiye Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "price": 49389,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.8,
+        "reviewCount": 1150,
+        "url": "https://www.hepsiburada.com/ara?q=Samsung%20Jet%20Bot%20Combo%20AI%20Robot%20S%C3%BCp%C3%BCrge%20ve%20Buharl%C4%B1%20Mop",
+        "warrantyType": "2 Yıl Distribütör Garantili"
+      },
+      {
+        "storeName": "Trendyol",
+        "price": 49549,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.8,
+        "reviewCount": 1300,
+        "url": "https://www.trendyol.com/sr?q=Samsung%20Jet%20Bot%20Combo%20AI%20Robot%20S%C3%BCp%C3%BCrge%20ve%20Buharl%C4%B1%20Mop",
+        "warrantyType": "Yetkili Satıcı Garantili"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "price": 49849,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.7,
+        "reviewCount": 620,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Samsung%20Jet%20Bot%20Combo%20AI%20Robot%20S%C3%BCp%C3%BCrge%20ve%20Buharl%C4%B1%20Mop",
+        "warrantyType": "Resmi Türkiye Garantili"
+      },
+      {
+        "storeName": "Teknosa",
+        "price": 49989,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.7,
+        "reviewCount": 450,
+        "url": "https://www.teknosa.com/arama?s=Samsung%20Jet%20Bot%20Combo%20AI%20Robot%20S%C3%BCp%C3%BCrge%20ve%20Buharl%C4%B1%20Mop",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "price": 52919,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.7,
+        "reviewCount": 330,
+        "url": "https://www.vatanbilgisayar.com/arama/Samsung%20Jet%20Bot%20Combo%20AI%20Robot%20S%C3%BCp%C3%BCrge%20ve%20Buharl%C4%B1%20Mop/",
+        "warrantyType": "2 Yıl Garantili"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 52919
+      },
+      {
+        "date": "2026-05-15",
+        "price": 50959
+      },
+      {
+        "date": "2026-07-01",
+        "price": 49979
+      },
+      {
+        "date": "2026-08-27",
+        "price": 48999
+      }
+    ]
+  },
+  {
+    "id": "appliance-robot_vacuum-samsung-prem-2",
+    "slug": "samsung-jet-bot-ai-plus",
+    "name": "Samsung Jet Bot AI+ Robot Süpürge",
+    "brand": "Samsung",
+    "category": "appliances",
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürge & Paspas",
+    "image": "https://images.unsplash.com/photo-1589923188900-85dae523342b?w=800&q=80",
+    "rating": 4.8,
+    "reviewCount": 310,
+    "basePrice": 31999,
+    "currency": "TL",
+    "releaseYear": 2023,
+    "isPopular": true,
+    "highlights": [
+      "Intel AI Destekli Milimetrik Nesne Tanıma",
+      "Clean Station Temassız Toz Tahliyesi",
+      "SmartThings Video Akışı ve Canlı Devriye",
+      "Yüksek Verimli Yumuşak Dokuma Fırça"
+    ],
+    "minPrice": 31999,
+    "maxPrice": 34559,
+    "storeCount": 6,
+    "inStock": true,
+    "specs": {
+      "masterCategory": "home_appliances",
+      "masterCategoryLabel": "Ev Aletleri / Temizlik & Yaşam",
+      "subCategory": "robot_vacuum",
+      "subCategoryLabel": "Robot Süpürge",
+      "brand": "Samsung",
+      "model": "Samsung Jet Bot AI+ Robot Süpürge",
+      "suctionPowerPa": 4200,
+      "batteryRuntimeMin": 150,
+      "chargeTimeHours": 3.5,
+      "batteryCapacityMah": 4500,
+      "noiseLevelDb": 65,
+      "autoCleanDock": false,
+      "autoEmptyStation": true,
+      "mappingTechnology": "Intel AI & 3D Derinlik Sensörü + LiDAR",
+      "appControl": true,
+      "wetDryUsage": true,
+      "warrantyYears": 2
+    },
+    "storeOffers": [
+      {
+        "storeName": "Amazon TR",
+        "price": 31999,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.9,
+        "reviewCount": 1650,
+        "url": "https://www.amazon.com.tr/s?k=Samsung%20Jet%20Bot%20AI%2B%20Robot%20S%C3%BCp%C3%BCrge",
+        "warrantyType": "Samsung Türkiye Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "price": 32389,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.8,
+        "reviewCount": 1150,
+        "url": "https://www.hepsiburada.com/ara?q=Samsung%20Jet%20Bot%20AI%2B%20Robot%20S%C3%BCp%C3%BCrge",
+        "warrantyType": "2 Yıl Distribütör Garantili"
+      },
+      {
+        "storeName": "Trendyol",
+        "price": 32549,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.8,
+        "reviewCount": 1300,
+        "url": "https://www.trendyol.com/sr?q=Samsung%20Jet%20Bot%20AI%2B%20Robot%20S%C3%BCp%C3%BCrge",
+        "warrantyType": "Yetkili Satıcı Garantili"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "price": 32849,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.7,
+        "reviewCount": 620,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Samsung%20Jet%20Bot%20AI%2B%20Robot%20S%C3%BCp%C3%BCrge",
+        "warrantyType": "Resmi Türkiye Garantili"
+      },
+      {
+        "storeName": "Teknosa",
+        "price": 32989,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.7,
+        "reviewCount": 450,
+        "url": "https://www.teknosa.com/arama?s=Samsung%20Jet%20Bot%20AI%2B%20Robot%20S%C3%BCp%C3%BCrge",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "price": 34559,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.7,
+        "reviewCount": 330,
+        "url": "https://www.vatanbilgisayar.com/arama/Samsung%20Jet%20Bot%20AI%2B%20Robot%20S%C3%BCp%C3%BCrge/",
+        "warrantyType": "2 Yıl Garantili"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 34559
+      },
+      {
+        "date": "2026-05-15",
+        "price": 33279
+      },
+      {
+        "date": "2026-07-01",
+        "price": 32639
+      },
+      {
+        "date": "2026-08-27",
+        "price": 31999
+      }
+    ]
+  },
+  {
+    "id": "appliance-robot_vacuum-samsung-prem-3",
+    "slug": "samsung-jet-bot-plus",
+    "name": "Samsung Jet Bot+ Robot Süpürge",
+    "brand": "Samsung",
+    "category": "appliances",
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürge & Paspas",
+    "image": "https://images.unsplash.com/photo-1589923188900-85dae523342b?w=800&q=80",
+    "rating": 4.7,
+    "reviewCount": 440,
+    "basePrice": 19999,
+    "currency": "TL",
+    "releaseYear": 2023,
+    "isPopular": true,
+    "highlights": [
+      "Clean Station Otomatik Toz Boşaltma",
+      "Akıllı Güç Kontrolü (Halıda Emişi Otomatik Artırma)",
+      "Yıkanabilir Toz Haznesi",
+      "SmartThings Mobil Kontrol"
+    ],
+    "minPrice": 19999,
+    "maxPrice": 21599,
+    "storeCount": 6,
+    "inStock": true,
+    "specs": {
+      "masterCategory": "home_appliances",
+      "masterCategoryLabel": "Ev Aletleri / Temizlik & Yaşam",
+      "subCategory": "robot_vacuum",
+      "subCategoryLabel": "Robot Süpürge",
+      "brand": "Samsung",
+      "model": "Samsung Jet Bot+ Robot Süpürge",
+      "suctionPowerPa": 3500,
+      "batteryRuntimeMin": 130,
+      "chargeTimeHours": 3.5,
+      "batteryCapacityMah": 3400,
+      "noiseLevelDb": 66,
+      "autoCleanDock": false,
+      "autoEmptyStation": true,
+      "mappingTechnology": "LiDAR Sensör Haritalama",
+      "appControl": true,
+      "wetDryUsage": true,
+      "warrantyYears": 2
+    },
+    "storeOffers": [
+      {
+        "storeName": "Amazon TR",
+        "price": 19999,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.9,
+        "reviewCount": 1650,
+        "url": "https://www.amazon.com.tr/s?k=Samsung%20Jet%20Bot%2B%20Robot%20S%C3%BCp%C3%BCrge",
+        "warrantyType": "Samsung Türkiye Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "price": 20389,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.8,
+        "reviewCount": 1150,
+        "url": "https://www.hepsiburada.com/ara?q=Samsung%20Jet%20Bot%2B%20Robot%20S%C3%BCp%C3%BCrge",
+        "warrantyType": "2 Yıl Distribütör Garantili"
+      },
+      {
+        "storeName": "Trendyol",
+        "price": 20549,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.8,
+        "reviewCount": 1300,
+        "url": "https://www.trendyol.com/sr?q=Samsung%20Jet%20Bot%2B%20Robot%20S%C3%BCp%C3%BCrge",
+        "warrantyType": "Yetkili Satıcı Garantili"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "price": 20849,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.7,
+        "reviewCount": 620,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Samsung%20Jet%20Bot%2B%20Robot%20S%C3%BCp%C3%BCrge",
+        "warrantyType": "Resmi Türkiye Garantili"
+      },
+      {
+        "storeName": "Teknosa",
+        "price": 20989,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.7,
+        "reviewCount": 450,
+        "url": "https://www.teknosa.com/arama?s=Samsung%20Jet%20Bot%2B%20Robot%20S%C3%BCp%C3%BCrge",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "price": 21599,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.7,
+        "reviewCount": 330,
+        "url": "https://www.vatanbilgisayar.com/arama/Samsung%20Jet%20Bot%2B%20Robot%20S%C3%BCp%C3%BCrge/",
+        "warrantyType": "2 Yıl Garantili"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 21599
+      },
+      {
+        "date": "2026-05-15",
+        "price": 20799
+      },
+      {
+        "date": "2026-07-01",
+        "price": 20399
+      },
+      {
+        "date": "2026-08-27",
+        "price": 19999
+      }
+    ]
+  },
+  {
+    "id": "appliance-robot_vacuum-narwal-prem-4",
+    "slug": "narwal-freo-x-ultra",
+    "name": "Narwal Freo X Ultra Robot Süpürge ve Mop",
+    "brand": "Narwal",
+    "category": "appliances",
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürge & Paspas",
+    "image": "https://images.unsplash.com/photo-1589923188900-85dae523342b?w=800&q=80",
+    "rating": 5,
+    "reviewCount": 180,
+    "basePrice": 39999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "highlights": [
+      "8200 Pa Sektör Lideri Emiş Gücü",
+      "Zero-Tangling Dolaşmayan Yüzer Fırça Teknolojisi",
+      "DirtSense Akıllı Kir Algılama (Yeniden Paspaslama Kararı)",
+      "Kendi Kendini Temizleyen ve Kurutan Fütüristik İstasyon"
+    ],
+    "minPrice": 39999,
+    "maxPrice": 43199,
+    "storeCount": 6,
+    "inStock": true,
+    "specs": {
+      "masterCategory": "home_appliances",
+      "masterCategoryLabel": "Ev Aletleri / Temizlik & Yaşam",
+      "subCategory": "robot_vacuum",
+      "subCategoryLabel": "Robot Süpürge",
+      "brand": "Narwal",
+      "model": "Narwal Freo X Ultra Robot Süpürge ve Mop",
+      "suctionPowerPa": 8200,
+      "batteryRuntimeMin": 210,
+      "chargeTimeHours": 3.5,
+      "batteryCapacityMah": 5200,
+      "noiseLevelDb": 58,
+      "autoCleanDock": true,
+      "autoEmptyStation": true,
+      "mappingTechnology": "Tri-Laser Engel Tanıma & LiDAR",
+      "appControl": true,
+      "wetDryUsage": true,
+      "warrantyYears": 2
+    },
+    "storeOffers": [
+      {
+        "storeName": "Amazon TR",
+        "price": 39999,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.9,
+        "reviewCount": 1650,
+        "url": "https://www.amazon.com.tr/s?k=Narwal%20Freo%20X%20Ultra%20Robot%20S%C3%BCp%C3%BCrge%20ve%20Mop",
+        "warrantyType": "Narwal Türkiye Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "price": 40389,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.8,
+        "reviewCount": 1150,
+        "url": "https://www.hepsiburada.com/ara?q=Narwal%20Freo%20X%20Ultra%20Robot%20S%C3%BCp%C3%BCrge%20ve%20Mop",
+        "warrantyType": "2 Yıl Distribütör Garantili"
+      },
+      {
+        "storeName": "Trendyol",
+        "price": 40549,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.8,
+        "reviewCount": 1300,
+        "url": "https://www.trendyol.com/sr?q=Narwal%20Freo%20X%20Ultra%20Robot%20S%C3%BCp%C3%BCrge%20ve%20Mop",
+        "warrantyType": "Yetkili Satıcı Garantili"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "price": 40849,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.7,
+        "reviewCount": 620,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Narwal%20Freo%20X%20Ultra%20Robot%20S%C3%BCp%C3%BCrge%20ve%20Mop",
+        "warrantyType": "Resmi Türkiye Garantili"
+      },
+      {
+        "storeName": "Teknosa",
+        "price": 40989,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.7,
+        "reviewCount": 450,
+        "url": "https://www.teknosa.com/arama?s=Narwal%20Freo%20X%20Ultra%20Robot%20S%C3%BCp%C3%BCrge%20ve%20Mop",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "price": 43199,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.7,
+        "reviewCount": 330,
+        "url": "https://www.vatanbilgisayar.com/arama/Narwal%20Freo%20X%20Ultra%20Robot%20S%C3%BCp%C3%BCrge%20ve%20Mop/",
+        "warrantyType": "2 Yıl Garantili"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 43199
+      },
+      {
+        "date": "2026-05-15",
+        "price": 41599
+      },
+      {
+        "date": "2026-07-01",
+        "price": 40799
+      },
+      {
+        "date": "2026-08-27",
+        "price": 39999
+      }
+    ]
+  },
+  {
+    "id": "appliance-robot_vacuum-narwal-prem-5",
+    "slug": "narwal-freo-x-plus",
+    "name": "Narwal Freo X Plus Robot Süpürge",
+    "brand": "Narwal",
+    "category": "appliances",
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürge & Paspas",
+    "image": "https://images.unsplash.com/photo-1589923188900-85dae523342b?w=800&q=80",
+    "rating": 4.8,
+    "reviewCount": 220,
+    "basePrice": 21499,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "highlights": [
+      "7800 Pa Yüksek Emiş Performansı",
+      "Dahili 1 Litrelik Sıkıştırmalı Toz Haznesi (7 Hafta Boşaltmasız)",
+      "Sıfır Saç Dolanması Sertifikalı Rulo Fırça",
+      "Ultra Sessiz Çalışma Modu (58 dB)"
+    ],
+    "minPrice": 21499,
+    "maxPrice": 23219,
+    "storeCount": 6,
+    "inStock": true,
+    "specs": {
+      "masterCategory": "home_appliances",
+      "masterCategoryLabel": "Ev Aletleri / Temizlik & Yaşam",
+      "subCategory": "robot_vacuum",
+      "subCategoryLabel": "Robot Süpürge",
+      "brand": "Narwal",
+      "model": "Narwal Freo X Plus Robot Süpürge",
+      "suctionPowerPa": 7800,
+      "batteryRuntimeMin": 190,
+      "chargeTimeHours": 3.5,
+      "batteryCapacityMah": 5200,
+      "noiseLevelDb": 60,
+      "autoCleanDock": false,
+      "autoEmptyStation": false,
+      "mappingTechnology": "LiDAR & 3 Yönlü Lazer Engel Tanıma",
+      "appControl": true,
+      "wetDryUsage": true,
+      "warrantyYears": 2
+    },
+    "storeOffers": [
+      {
+        "storeName": "Amazon TR",
+        "price": 21499,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.9,
+        "reviewCount": 1650,
+        "url": "https://www.amazon.com.tr/s?k=Narwal%20Freo%20X%20Plus%20Robot%20S%C3%BCp%C3%BCrge",
+        "warrantyType": "Narwal Türkiye Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "price": 21889,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.8,
+        "reviewCount": 1150,
+        "url": "https://www.hepsiburada.com/ara?q=Narwal%20Freo%20X%20Plus%20Robot%20S%C3%BCp%C3%BCrge",
+        "warrantyType": "2 Yıl Distribütör Garantili"
+      },
+      {
+        "storeName": "Trendyol",
+        "price": 22049,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.8,
+        "reviewCount": 1300,
+        "url": "https://www.trendyol.com/sr?q=Narwal%20Freo%20X%20Plus%20Robot%20S%C3%BCp%C3%BCrge",
+        "warrantyType": "Yetkili Satıcı Garantili"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "price": 22349,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.7,
+        "reviewCount": 620,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Narwal%20Freo%20X%20Plus%20Robot%20S%C3%BCp%C3%BCrge",
+        "warrantyType": "Resmi Türkiye Garantili"
+      },
+      {
+        "storeName": "Teknosa",
+        "price": 22489,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.7,
+        "reviewCount": 450,
+        "url": "https://www.teknosa.com/arama?s=Narwal%20Freo%20X%20Plus%20Robot%20S%C3%BCp%C3%BCrge",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "price": 23219,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.7,
+        "reviewCount": 330,
+        "url": "https://www.vatanbilgisayar.com/arama/Narwal%20Freo%20X%20Plus%20Robot%20S%C3%BCp%C3%BCrge/",
+        "warrantyType": "2 Yıl Garantili"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 23219
+      },
+      {
+        "date": "2026-05-15",
+        "price": 22359
+      },
+      {
+        "date": "2026-07-01",
+        "price": 21929
+      },
+      {
+        "date": "2026-08-27",
+        "price": 21499
+      }
+    ]
+  },
+  {
+    "id": "appliance-robot_vacuum-kärcher-prem-6",
+    "slug": "karcher-rcv-5",
+    "name": "Kärcher RCV 5 Robot Süpürge ve Islak Mop",
+    "brand": "Kärcher",
+    "category": "appliances",
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürge & Paspas",
+    "image": "https://images.unsplash.com/photo-1589923188900-85dae523342b?w=800&q=80",
+    "rating": 4.8,
+    "reviewCount": 150,
+    "basePrice": 24999,
+    "currency": "TL",
+    "releaseYear": 2023,
+    "isPopular": false,
+    "highlights": [
+      "Alman Mühendisliği ve Yüksek Dayanıklılık",
+      "Halı Algılama ile Otomatik Paspas Durdurma",
+      "Kärcher Home Robots Uygulama Entegrasyonu",
+      "Çift Lazer ile Alçak Engelleri Kusursuz Algılama"
+    ],
+    "minPrice": 24999,
+    "maxPrice": 26999,
+    "storeCount": 6,
+    "inStock": true,
+    "specs": {
+      "masterCategory": "home_appliances",
+      "masterCategoryLabel": "Ev Aletleri / Temizlik & Yaşam",
+      "subCategory": "robot_vacuum",
+      "subCategoryLabel": "Robot Süpürge",
+      "brand": "Kärcher",
+      "model": "Kärcher RCV 5 Robot Süpürge ve Islak Mop",
+      "suctionPowerPa": 5000,
+      "batteryRuntimeMin": 180,
+      "chargeTimeHours": 3.5,
+      "batteryCapacityMah": 5200,
+      "noiseLevelDb": 65,
+      "autoCleanDock": false,
+      "autoEmptyStation": false,
+      "mappingTechnology": "LiDAR Lazer & Çift AI Kamera",
+      "appControl": true,
+      "wetDryUsage": true,
+      "warrantyYears": 2
+    },
+    "storeOffers": [
+      {
+        "storeName": "Amazon TR",
+        "price": 24999,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.9,
+        "reviewCount": 1650,
+        "url": "https://www.amazon.com.tr/s?k=K%C3%A4rcher%20RCV%205%20Robot%20S%C3%BCp%C3%BCrge%20ve%20Islak%20Mop",
+        "warrantyType": "Kärcher Türkiye Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "price": 25389,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.8,
+        "reviewCount": 1150,
+        "url": "https://www.hepsiburada.com/ara?q=K%C3%A4rcher%20RCV%205%20Robot%20S%C3%BCp%C3%BCrge%20ve%20Islak%20Mop",
+        "warrantyType": "2 Yıl Distribütör Garantili"
+      },
+      {
+        "storeName": "Trendyol",
+        "price": 25549,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.8,
+        "reviewCount": 1300,
+        "url": "https://www.trendyol.com/sr?q=K%C3%A4rcher%20RCV%205%20Robot%20S%C3%BCp%C3%BCrge%20ve%20Islak%20Mop",
+        "warrantyType": "Yetkili Satıcı Garantili"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "price": 25849,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.7,
+        "reviewCount": 620,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=K%C3%A4rcher%20RCV%205%20Robot%20S%C3%BCp%C3%BCrge%20ve%20Islak%20Mop",
+        "warrantyType": "Resmi Türkiye Garantili"
+      },
+      {
+        "storeName": "Teknosa",
+        "price": 25989,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.7,
+        "reviewCount": 450,
+        "url": "https://www.teknosa.com/arama?s=K%C3%A4rcher%20RCV%205%20Robot%20S%C3%BCp%C3%BCrge%20ve%20Islak%20Mop",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "price": 26999,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.7,
+        "reviewCount": 330,
+        "url": "https://www.vatanbilgisayar.com/arama/K%C3%A4rcher%20RCV%205%20Robot%20S%C3%BCp%C3%BCrge%20ve%20Islak%20Mop/",
+        "warrantyType": "2 Yıl Garantili"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 26999
+      },
+      {
+        "date": "2026-05-15",
+        "price": 25999
+      },
+      {
+        "date": "2026-07-01",
+        "price": 25499
+      },
+      {
+        "date": "2026-08-27",
+        "price": 24999
+      }
+    ]
+  },
+  {
+    "id": "appliance-robot_vacuum-rowenta-prem-7",
+    "slug": "rowenta-x-plorer-serie-130-ai",
+    "name": "Rowenta X-Plorer Serie 130 AI Robot Süpürge",
+    "brand": "Rowenta",
+    "category": "appliances",
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürge & Paspas",
+    "image": "https://images.unsplash.com/photo-1589923188900-85dae523342b?w=800&q=80",
+    "rating": 4.7,
+    "reviewCount": 210,
+    "basePrice": 18499,
+    "currency": "TL",
+    "releaseYear": 2023,
+    "isPopular": false,
+    "highlights": [
+      "Sadece 8 cm Ultra İnce Gövde (En Alçak Koltuk Altlarına Girer)",
+      "Kişiselleştirilmiş Yapay Zeka Alışkanlık Öğrenimi",
+      "Aqua Power Çift Etkili Süpürme ve Paspaslama",
+      "Rowenta Robots Kolay Arayüzlü Mobil Uygulama"
+    ],
+    "minPrice": 18499,
+    "maxPrice": 19979,
+    "storeCount": 6,
+    "inStock": true,
+    "specs": {
+      "masterCategory": "home_appliances",
+      "masterCategoryLabel": "Ev Aletleri / Temizlik & Yaşam",
+      "subCategory": "robot_vacuum",
+      "subCategoryLabel": "Robot Süpürge",
+      "brand": "Rowenta",
+      "model": "Rowenta X-Plorer Serie 130 AI Robot Süpürge",
+      "suctionPowerPa": 2700,
+      "batteryRuntimeMin": 120,
+      "chargeTimeHours": 3,
+      "batteryCapacityMah": 3200,
+      "noiseLevelDb": 65,
+      "autoCleanDock": false,
+      "autoEmptyStation": false,
+      "mappingTechnology": "Lazer + Kamera AI Navigasyon",
+      "appControl": true,
+      "wetDryUsage": true,
+      "warrantyYears": 2
+    },
+    "storeOffers": [
+      {
+        "storeName": "Amazon TR",
+        "price": 18499,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.9,
+        "reviewCount": 1650,
+        "url": "https://www.amazon.com.tr/s?k=Rowenta%20X-Plorer%20Serie%20130%20AI%20Robot%20S%C3%BCp%C3%BCrge",
+        "warrantyType": "Rowenta Türkiye Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "price": 18889,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.8,
+        "reviewCount": 1150,
+        "url": "https://www.hepsiburada.com/ara?q=Rowenta%20X-Plorer%20Serie%20130%20AI%20Robot%20S%C3%BCp%C3%BCrge",
+        "warrantyType": "2 Yıl Distribütör Garantili"
+      },
+      {
+        "storeName": "Trendyol",
+        "price": 19049,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.8,
+        "reviewCount": 1300,
+        "url": "https://www.trendyol.com/sr?q=Rowenta%20X-Plorer%20Serie%20130%20AI%20Robot%20S%C3%BCp%C3%BCrge",
+        "warrantyType": "Yetkili Satıcı Garantili"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "price": 19349,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.7,
+        "reviewCount": 620,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Rowenta%20X-Plorer%20Serie%20130%20AI%20Robot%20S%C3%BCp%C3%BCrge",
+        "warrantyType": "Resmi Türkiye Garantili"
+      },
+      {
+        "storeName": "Teknosa",
+        "price": 19489,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.7,
+        "reviewCount": 450,
+        "url": "https://www.teknosa.com/arama?s=Rowenta%20X-Plorer%20Serie%20130%20AI%20Robot%20S%C3%BCp%C3%BCrge",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "price": 19979,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.7,
+        "reviewCount": 330,
+        "url": "https://www.vatanbilgisayar.com/arama/Rowenta%20X-Plorer%20Serie%20130%20AI%20Robot%20S%C3%BCp%C3%BCrge/",
+        "warrantyType": "2 Yıl Garantili"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 19979
+      },
+      {
+        "date": "2026-05-15",
+        "price": 19239
+      },
+      {
+        "date": "2026-07-01",
+        "price": 18869
+      },
+      {
+        "date": "2026-08-27",
+        "price": 18499
+      }
+    ]
+  }
 ];
