@@ -14,7 +14,6 @@ import { HeroCarousel, getDynamicHeroSlides } from '@/components/promo/HeroCarou
 import { HeroThumbnailStrip } from '@/components/promo/HeroThumbnailStrip';
 import { WeeklyPromoStrip } from '@/components/promo/WeeklyPromoStrip';
 import { PhoneCard } from '@/components/catalog/PhoneCard';
-import { BrandLogoBar } from '@/components/catalog/BrandLogoBar';
 import { CompactProductCard } from '@/components/catalog/CompactProductCard';
 import { CategoryBannerGrid } from '@/components/promo/CategoryBannerGrid';
 import { ProductCarousel } from '@/components/catalog/ProductCarousel';
@@ -604,11 +603,6 @@ export default function HomePage() {
 
       {/* 6. SECTION: Bottom Category Icon Shortcut Strip */}
       <CategoryIconStrip />
-
-      {/* Top Brands Logo Bar */}
-      <section className="pt-6 border-t border-slate-200">
-        <BrandLogoBar />
-      </section>
 
     </div>
   );
