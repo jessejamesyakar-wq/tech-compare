@@ -78353,4 +78353,1839 @@ export const mockAppliances: ApplianceProduct[] = [
       }
     ]
   }
+,
+  {
+    "id": "appliance-robot_vacuum-irobot-1",
+    "slug": "irobot-roomba-combo-10-max",
+    "name": "iRobot Roomba Combo 10 Max Robot Süpürge ve Mop",
+    "brand": "iRobot",
+    "category": "appliances",
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürge & Paspas",
+    "image": "https://images.unsplash.com/photo-1589923188900-85dae523342b?w=800&q=80",
+    "rating": 4.9,
+    "reviewCount": 220,
+    "basePrice": 46999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "highlights": [
+      "AutoWash Hepsi Bir Arada Yıkama ve Kurutma İstasyonu",
+      "Geri çekilebilir otomatik paspas kolu (Halıda %100 kuruluk)",
+      "Dirt Detective Akıllı Kir Önceliklendirme",
+      "Çift kauçuk anti-tangle ana fırça"
+    ],
+    "minPrice": 46999,
+    "maxPrice": 50759,
+    "storeCount": 6,
+    "inStock": true,
+    "specs": {
+      "masterCategory": "home_appliances",
+      "masterCategoryLabel": "Ev Aletleri / Temizlik & Yaşam",
+      "subCategory": "robot_vacuum",
+      "subCategoryLabel": "Robot Süpürge",
+      "brand": "iRobot",
+      "model": "iRobot Roomba Combo 10 Max Robot Süpürge ve Mop",
+      "suctionPowerPa": 7500,
+      "batteryRuntimeMin": 180,
+      "chargeTimeHours": 3.5,
+      "batteryCapacityMah": 5200,
+      "noiseLevelDb": 64,
+      "autoCleanDock": true,
+      "autoEmptyStation": true,
+      "mappingTechnology": "PrecisionVision vSLAM AI",
+      "appControl": true,
+      "wetDryUsage": true,
+      "warrantyYears": 2
+    },
+    "storeOffers": [
+      {
+        "storeName": "Amazon TR",
+        "price": 46999,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.9,
+        "reviewCount": 1520,
+        "url": "https://www.amazon.com.tr/s?k=iRobot%20Roomba%20Combo%2010%20Max%20Robot%20S%C3%BCp%C3%BCrge%20ve%20Mop",
+        "warrantyType": "iRobot Türkiye Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "price": 47349,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.8,
+        "reviewCount": 1100,
+        "url": "https://www.hepsiburada.com/ara?q=iRobot%20Roomba%20Combo%2010%20Max%20Robot%20S%C3%BCp%C3%BCrge%20ve%20Mop",
+        "warrantyType": "2 Yıl Distribütör Garantili"
+      },
+      {
+        "storeName": "Trendyol",
+        "price": 47489,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.8,
+        "reviewCount": 1250,
+        "url": "https://www.trendyol.com/sr?q=iRobot%20Roomba%20Combo%2010%20Max%20Robot%20S%C3%BCp%C3%BCrge%20ve%20Mop",
+        "warrantyType": "Yetkili Satıcı Garantili"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "price": 47798,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.7,
+        "reviewCount": 680,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=iRobot%20Roomba%20Combo%2010%20Max%20Robot%20S%C3%BCp%C3%BCrge%20ve%20Mop",
+        "warrantyType": "Resmi Türkiye Garantili"
+      },
+      {
+        "storeName": "Teknosa",
+        "price": 47989,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.7,
+        "reviewCount": 430,
+        "url": "https://www.teknosa.com/arama?s=iRobot%20Roomba%20Combo%2010%20Max%20Robot%20S%C3%BCp%C3%BCrge%20ve%20Mop",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "price": 50759,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.7,
+        "reviewCount": 310,
+        "url": "https://www.vatanbilgisayar.com/arama/iRobot%20Roomba%20Combo%2010%20Max%20Robot%20S%C3%BCp%C3%BCrge%20ve%20Mop/",
+        "warrantyType": "2 Yıl Garantili"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 50759
+      },
+      {
+        "date": "2026-05-15",
+        "price": 48879
+      },
+      {
+        "date": "2026-07-01",
+        "price": 47939
+      },
+      {
+        "date": "2026-08-27",
+        "price": 46999
+      }
+    ]
+  },
+  {
+    "id": "appliance-robot_vacuum-irobot-2",
+    "slug": "irobot-roomba-combo-j9-plus",
+    "name": "iRobot Roomba Combo j9+ Robot Süpürge ve Mop",
+    "brand": "iRobot",
+    "category": "appliances",
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürge & Paspas",
+    "image": "https://images.unsplash.com/photo-1589923188900-85dae523342b?w=800&q=80",
+    "rating": 4.8,
+    "reviewCount": 340,
+    "basePrice": 38999,
+    "currency": "TL",
+    "releaseYear": 2023,
+    "isPopular": true,
+    "highlights": [
+      "Clean Base Şık Ahşap Görünümlü Otomatik Toz ve Sıvı Doldurma İstasyonu",
+      "SmartScrub İleri-Geri Çift Basınçlı Mop Teknolojisi",
+      "Kablo, çorap ve evcil hayvan dışkısını %100 tanıma garantisi (P.O.O.P)",
+      "30 Günlük temizlik planlaması"
+    ],
+    "minPrice": 38999,
+    "maxPrice": 42119,
+    "storeCount": 6,
+    "inStock": true,
+    "specs": {
+      "masterCategory": "home_appliances",
+      "masterCategoryLabel": "Ev Aletleri / Temizlik & Yaşam",
+      "subCategory": "robot_vacuum",
+      "subCategoryLabel": "Robot Süpürge",
+      "brand": "iRobot",
+      "model": "iRobot Roomba Combo j9+ Robot Süpürge ve Mop",
+      "suctionPowerPa": 6000,
+      "batteryRuntimeMin": 180,
+      "chargeTimeHours": 3,
+      "batteryCapacityMah": 4400,
+      "noiseLevelDb": 65,
+      "autoCleanDock": false,
+      "autoEmptyStation": true,
+      "mappingTechnology": "PrecisionVision vSLAM Kamera & AI",
+      "appControl": true,
+      "wetDryUsage": true,
+      "warrantyYears": 2
+    },
+    "storeOffers": [
+      {
+        "storeName": "Amazon TR",
+        "price": 38999,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.9,
+        "reviewCount": 1520,
+        "url": "https://www.amazon.com.tr/s?k=iRobot%20Roomba%20Combo%20j9%2B%20Robot%20S%C3%BCp%C3%BCrge%20ve%20Mop",
+        "warrantyType": "iRobot Türkiye Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "price": 39349,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.8,
+        "reviewCount": 1100,
+        "url": "https://www.hepsiburada.com/ara?q=iRobot%20Roomba%20Combo%20j9%2B%20Robot%20S%C3%BCp%C3%BCrge%20ve%20Mop",
+        "warrantyType": "2 Yıl Distribütör Garantili"
+      },
+      {
+        "storeName": "Trendyol",
+        "price": 39489,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.8,
+        "reviewCount": 1250,
+        "url": "https://www.trendyol.com/sr?q=iRobot%20Roomba%20Combo%20j9%2B%20Robot%20S%C3%BCp%C3%BCrge%20ve%20Mop",
+        "warrantyType": "Yetkili Satıcı Garantili"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "price": 39798,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.7,
+        "reviewCount": 680,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=iRobot%20Roomba%20Combo%20j9%2B%20Robot%20S%C3%BCp%C3%BCrge%20ve%20Mop",
+        "warrantyType": "Resmi Türkiye Garantili"
+      },
+      {
+        "storeName": "Teknosa",
+        "price": 39989,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.7,
+        "reviewCount": 430,
+        "url": "https://www.teknosa.com/arama?s=iRobot%20Roomba%20Combo%20j9%2B%20Robot%20S%C3%BCp%C3%BCrge%20ve%20Mop",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "price": 42119,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.7,
+        "reviewCount": 310,
+        "url": "https://www.vatanbilgisayar.com/arama/iRobot%20Roomba%20Combo%20j9%2B%20Robot%20S%C3%BCp%C3%BCrge%20ve%20Mop/",
+        "warrantyType": "2 Yıl Garantili"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 42119
+      },
+      {
+        "date": "2026-05-15",
+        "price": 40559
+      },
+      {
+        "date": "2026-07-01",
+        "price": 39779
+      },
+      {
+        "date": "2026-08-27",
+        "price": 38999
+      }
+    ]
+  },
+  {
+    "id": "appliance-robot_vacuum-irobot-3",
+    "slug": "irobot-roomba-j7-plus",
+    "name": "iRobot Roomba j7+ Robot Süpürge",
+    "brand": "iRobot",
+    "category": "appliances",
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürge & Paspas",
+    "image": "https://images.unsplash.com/photo-1589923188900-85dae523342b?w=800&q=80",
+    "rating": 4.8,
+    "reviewCount": 580,
+    "basePrice": 24999,
+    "currency": "TL",
+    "releaseYear": 2023,
+    "isPopular": true,
+    "highlights": [
+      "Clean Base Otomatik Toz Boşaltma",
+      "Engelleri Gerçek Zamanlı Fotoğraflayıp Kullanıcıya Bildirme",
+      "Düşük profilli kompakt şık gövde",
+      "iRobot OS Akıllı Ev Entegrasyonu"
+    ],
+    "minPrice": 24999,
+    "maxPrice": 26999,
+    "storeCount": 6,
+    "inStock": true,
+    "specs": {
+      "masterCategory": "home_appliances",
+      "masterCategoryLabel": "Ev Aletleri / Temizlik & Yaşam",
+      "subCategory": "robot_vacuum",
+      "subCategoryLabel": "Robot Süpürge",
+      "brand": "iRobot",
+      "model": "iRobot Roomba j7+ Robot Süpürge",
+      "suctionPowerPa": 4500,
+      "batteryRuntimeMin": 140,
+      "chargeTimeHours": 3,
+      "batteryCapacityMah": 3300,
+      "noiseLevelDb": 66,
+      "autoCleanDock": false,
+      "autoEmptyStation": true,
+      "mappingTechnology": "PrecisionVision AI Kamera",
+      "appControl": true,
+      "wetDryUsage": true,
+      "warrantyYears": 2
+    },
+    "storeOffers": [
+      {
+        "storeName": "Amazon TR",
+        "price": 24999,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.9,
+        "reviewCount": 1520,
+        "url": "https://www.amazon.com.tr/s?k=iRobot%20Roomba%20j7%2B%20Robot%20S%C3%BCp%C3%BCrge",
+        "warrantyType": "iRobot Türkiye Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "price": 25349,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.8,
+        "reviewCount": 1100,
+        "url": "https://www.hepsiburada.com/ara?q=iRobot%20Roomba%20j7%2B%20Robot%20S%C3%BCp%C3%BCrge",
+        "warrantyType": "2 Yıl Distribütör Garantili"
+      },
+      {
+        "storeName": "Trendyol",
+        "price": 25489,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.8,
+        "reviewCount": 1250,
+        "url": "https://www.trendyol.com/sr?q=iRobot%20Roomba%20j7%2B%20Robot%20S%C3%BCp%C3%BCrge",
+        "warrantyType": "Yetkili Satıcı Garantili"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "price": 25798,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.7,
+        "reviewCount": 680,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=iRobot%20Roomba%20j7%2B%20Robot%20S%C3%BCp%C3%BCrge",
+        "warrantyType": "Resmi Türkiye Garantili"
+      },
+      {
+        "storeName": "Teknosa",
+        "price": 25989,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.7,
+        "reviewCount": 430,
+        "url": "https://www.teknosa.com/arama?s=iRobot%20Roomba%20j7%2B%20Robot%20S%C3%BCp%C3%BCrge",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "price": 26999,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.7,
+        "reviewCount": 310,
+        "url": "https://www.vatanbilgisayar.com/arama/iRobot%20Roomba%20j7%2B%20Robot%20S%C3%BCp%C3%BCrge/",
+        "warrantyType": "2 Yıl Garantili"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 26999
+      },
+      {
+        "date": "2026-05-15",
+        "price": 25999
+      },
+      {
+        "date": "2026-07-01",
+        "price": 25499
+      },
+      {
+        "date": "2026-08-27",
+        "price": 24999
+      }
+    ]
+  },
+  {
+    "id": "appliance-robot_vacuum-irobot-4",
+    "slug": "irobot-roomba-combo-i8-plus",
+    "name": "iRobot Roomba Combo i8+ Robot Süpürge",
+    "brand": "iRobot",
+    "category": "appliances",
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürge & Paspas",
+    "image": "https://images.unsplash.com/photo-1589923188900-85dae523342b?w=800&q=80",
+    "rating": 4.7,
+    "reviewCount": 410,
+    "basePrice": 20999,
+    "currency": "TL",
+    "releaseYear": 2023,
+    "isPopular": true,
+    "highlights": [
+      "Değiştirilebilir Combo Toz ve Su Haznesi",
+      "Clean Base Otomatik Toz Tahliyesi",
+      "Imprint Akıllı Haritalama ile Oda Bazlı Temizlik",
+      "AeroForce 3 Kademeli Temizleme Sistemi"
+    ],
+    "minPrice": 20999,
+    "maxPrice": 22679,
+    "storeCount": 6,
+    "inStock": true,
+    "specs": {
+      "masterCategory": "home_appliances",
+      "masterCategoryLabel": "Ev Aletleri / Temizlik & Yaşam",
+      "subCategory": "robot_vacuum",
+      "subCategoryLabel": "Robot Süpürge",
+      "brand": "iRobot",
+      "model": "iRobot Roomba Combo i8+ Robot Süpürge",
+      "suctionPowerPa": 4000,
+      "batteryRuntimeMin": 120,
+      "chargeTimeHours": 3,
+      "batteryCapacityMah": 3300,
+      "noiseLevelDb": 67,
+      "autoCleanDock": false,
+      "autoEmptyStation": true,
+      "mappingTechnology": "vSLAM Akıllı Haritalama",
+      "appControl": true,
+      "wetDryUsage": true,
+      "warrantyYears": 2
+    },
+    "storeOffers": [
+      {
+        "storeName": "Amazon TR",
+        "price": 20999,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.9,
+        "reviewCount": 1520,
+        "url": "https://www.amazon.com.tr/s?k=iRobot%20Roomba%20Combo%20i8%2B%20Robot%20S%C3%BCp%C3%BCrge",
+        "warrantyType": "iRobot Türkiye Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "price": 21349,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.8,
+        "reviewCount": 1100,
+        "url": "https://www.hepsiburada.com/ara?q=iRobot%20Roomba%20Combo%20i8%2B%20Robot%20S%C3%BCp%C3%BCrge",
+        "warrantyType": "2 Yıl Distribütör Garantili"
+      },
+      {
+        "storeName": "Trendyol",
+        "price": 21489,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.8,
+        "reviewCount": 1250,
+        "url": "https://www.trendyol.com/sr?q=iRobot%20Roomba%20Combo%20i8%2B%20Robot%20S%C3%BCp%C3%BCrge",
+        "warrantyType": "Yetkili Satıcı Garantili"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "price": 21798,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.7,
+        "reviewCount": 680,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=iRobot%20Roomba%20Combo%20i8%2B%20Robot%20S%C3%BCp%C3%BCrge",
+        "warrantyType": "Resmi Türkiye Garantili"
+      },
+      {
+        "storeName": "Teknosa",
+        "price": 21989,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.7,
+        "reviewCount": 430,
+        "url": "https://www.teknosa.com/arama?s=iRobot%20Roomba%20Combo%20i8%2B%20Robot%20S%C3%BCp%C3%BCrge",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "price": 22679,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.7,
+        "reviewCount": 310,
+        "url": "https://www.vatanbilgisayar.com/arama/iRobot%20Roomba%20Combo%20i8%2B%20Robot%20S%C3%BCp%C3%BCrge/",
+        "warrantyType": "2 Yıl Garantili"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 22679
+      },
+      {
+        "date": "2026-05-15",
+        "price": 21839
+      },
+      {
+        "date": "2026-07-01",
+        "price": 21419
+      },
+      {
+        "date": "2026-08-27",
+        "price": 20999
+      }
+    ]
+  },
+  {
+    "id": "appliance-robot_vacuum-irobot-5",
+    "slug": "irobot-braava-jet-m6",
+    "name": "iRobot Braava Jet m6 Akıllı Robot Paspas",
+    "brand": "iRobot",
+    "category": "appliances",
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürge & Paspas",
+    "image": "https://images.unsplash.com/photo-1589923188900-85dae523342b?w=800&q=80",
+    "rating": 4.7,
+    "reviewCount": 490,
+    "basePrice": 16999,
+    "currency": "TL",
+    "releaseYear": 2022,
+    "isPopular": false,
+    "highlights": [
+      "Hassas Jet Püskürtme Nozulü",
+      "Kuru Süpürme ve Islak Paspaslama Çift Mod",
+      "Roomba Süpürgeler ile Senkronize Çalışma (Imprint Link)",
+      "Yapışkan lekeleri ve mutfak yağlarını çözme"
+    ],
+    "minPrice": 16999,
+    "maxPrice": 18359,
+    "storeCount": 6,
+    "inStock": true,
+    "specs": {
+      "masterCategory": "home_appliances",
+      "masterCategoryLabel": "Ev Aletleri / Temizlik & Yaşam",
+      "subCategory": "robot_vacuum",
+      "subCategoryLabel": "Robot Süpürge",
+      "brand": "iRobot",
+      "model": "iRobot Braava Jet m6 Akıllı Robot Paspas",
+      "suctionPowerPa": 0,
+      "batteryRuntimeMin": 160,
+      "chargeTimeHours": 2.5,
+      "batteryCapacityMah": 3200,
+      "noiseLevelDb": 50,
+      "autoCleanDock": false,
+      "autoEmptyStation": false,
+      "mappingTechnology": "vSLAM Görsel Haritalama",
+      "appControl": true,
+      "wetDryUsage": true,
+      "warrantyYears": 2
+    },
+    "storeOffers": [
+      {
+        "storeName": "Amazon TR",
+        "price": 16999,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.9,
+        "reviewCount": 1520,
+        "url": "https://www.amazon.com.tr/s?k=iRobot%20Braava%20Jet%20m6%20Ak%C4%B1ll%C4%B1%20Robot%20Paspas",
+        "warrantyType": "iRobot Türkiye Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "price": 17349,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.8,
+        "reviewCount": 1100,
+        "url": "https://www.hepsiburada.com/ara?q=iRobot%20Braava%20Jet%20m6%20Ak%C4%B1ll%C4%B1%20Robot%20Paspas",
+        "warrantyType": "2 Yıl Distribütör Garantili"
+      },
+      {
+        "storeName": "Trendyol",
+        "price": 17489,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.8,
+        "reviewCount": 1250,
+        "url": "https://www.trendyol.com/sr?q=iRobot%20Braava%20Jet%20m6%20Ak%C4%B1ll%C4%B1%20Robot%20Paspas",
+        "warrantyType": "Yetkili Satıcı Garantili"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "price": 17798,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.7,
+        "reviewCount": 680,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=iRobot%20Braava%20Jet%20m6%20Ak%C4%B1ll%C4%B1%20Robot%20Paspas",
+        "warrantyType": "Resmi Türkiye Garantili"
+      },
+      {
+        "storeName": "Teknosa",
+        "price": 17989,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.7,
+        "reviewCount": 430,
+        "url": "https://www.teknosa.com/arama?s=iRobot%20Braava%20Jet%20m6%20Ak%C4%B1ll%C4%B1%20Robot%20Paspas",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "price": 18359,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.7,
+        "reviewCount": 310,
+        "url": "https://www.vatanbilgisayar.com/arama/iRobot%20Braava%20Jet%20m6%20Ak%C4%B1ll%C4%B1%20Robot%20Paspas/",
+        "warrantyType": "2 Yıl Garantili"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 18359
+      },
+      {
+        "date": "2026-05-15",
+        "price": 17679
+      },
+      {
+        "date": "2026-07-01",
+        "price": 17339
+      },
+      {
+        "date": "2026-08-27",
+        "price": 16999
+      }
+    ]
+  },
+  {
+    "id": "appliance-robot_vacuum-xiaomi-6",
+    "slug": "xiaomi-robot-vacuum-x20-plus",
+    "name": "Xiaomi Robot Vacuum X20+ Robot Süpürge ve Mop",
+    "brand": "Xiaomi",
+    "category": "appliances",
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürge & Paspas",
+    "image": "https://images.unsplash.com/photo-1589923188900-85dae523342b?w=800&q=80",
+    "rating": 4.9,
+    "reviewCount": 650,
+    "basePrice": 22999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "highlights": [
+      "Hepsi Bir Arada Akıllı İstasyon (Otomatik Toz, Su ve Mop Kurutma)",
+      "6000 Pa Güçlü Fan Üfleyici Emişi",
+      "Dönen Çift Mop Pedleri & Otomatik Paspas Kaldırma",
+      "Xiaomi Home / Mi Home ve Google Asistan Uyumluluğu"
+    ],
+    "minPrice": 22999,
+    "maxPrice": 24839,
+    "storeCount": 6,
+    "inStock": true,
+    "specs": {
+      "masterCategory": "home_appliances",
+      "masterCategoryLabel": "Ev Aletleri / Temizlik & Yaşam",
+      "subCategory": "robot_vacuum",
+      "subCategoryLabel": "Robot Süpürge",
+      "brand": "Xiaomi",
+      "model": "Xiaomi Robot Vacuum X20+ Robot Süpürge ve Mop",
+      "suctionPowerPa": 6000,
+      "batteryRuntimeMin": 190,
+      "chargeTimeHours": 4,
+      "batteryCapacityMah": 5200,
+      "noiseLevelDb": 65,
+      "autoCleanDock": true,
+      "autoEmptyStation": true,
+      "mappingTechnology": "LDS Lazer & S-Cross Geniş Açılı Engel Tanıma",
+      "appControl": true,
+      "wetDryUsage": true,
+      "warrantyYears": 2
+    },
+    "storeOffers": [
+      {
+        "storeName": "Amazon TR",
+        "price": 22999,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.9,
+        "reviewCount": 1520,
+        "url": "https://www.amazon.com.tr/s?k=Xiaomi%20Robot%20Vacuum%20X20%2B%20Robot%20S%C3%BCp%C3%BCrge%20ve%20Mop",
+        "warrantyType": "Xiaomi Türkiye Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "price": 23349,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.8,
+        "reviewCount": 1100,
+        "url": "https://www.hepsiburada.com/ara?q=Xiaomi%20Robot%20Vacuum%20X20%2B%20Robot%20S%C3%BCp%C3%BCrge%20ve%20Mop",
+        "warrantyType": "2 Yıl Distribütör Garantili"
+      },
+      {
+        "storeName": "Trendyol",
+        "price": 23489,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.8,
+        "reviewCount": 1250,
+        "url": "https://www.trendyol.com/sr?q=Xiaomi%20Robot%20Vacuum%20X20%2B%20Robot%20S%C3%BCp%C3%BCrge%20ve%20Mop",
+        "warrantyType": "Yetkili Satıcı Garantili"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "price": 23798,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.7,
+        "reviewCount": 680,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Xiaomi%20Robot%20Vacuum%20X20%2B%20Robot%20S%C3%BCp%C3%BCrge%20ve%20Mop",
+        "warrantyType": "Resmi Türkiye Garantili"
+      },
+      {
+        "storeName": "Teknosa",
+        "price": 23989,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.7,
+        "reviewCount": 430,
+        "url": "https://www.teknosa.com/arama?s=Xiaomi%20Robot%20Vacuum%20X20%2B%20Robot%20S%C3%BCp%C3%BCrge%20ve%20Mop",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "price": 24839,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.7,
+        "reviewCount": 310,
+        "url": "https://www.vatanbilgisayar.com/arama/Xiaomi%20Robot%20Vacuum%20X20%2B%20Robot%20S%C3%BCp%C3%BCrge%20ve%20Mop/",
+        "warrantyType": "2 Yıl Garantili"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 24839
+      },
+      {
+        "date": "2026-05-15",
+        "price": 23919
+      },
+      {
+        "date": "2026-07-01",
+        "price": 23459
+      },
+      {
+        "date": "2026-08-27",
+        "price": 22999
+      }
+    ]
+  },
+  {
+    "id": "appliance-robot_vacuum-xiaomi-7",
+    "slug": "xiaomi-robot-vacuum-x20-pro",
+    "name": "Xiaomi Robot Vacuum X20 Pro Robot Süpürge",
+    "brand": "Xiaomi",
+    "category": "appliances",
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürge & Paspas",
+    "image": "https://images.unsplash.com/photo-1589923188900-85dae523342b?w=800&q=80",
+    "rating": 4.9,
+    "reviewCount": 190,
+    "basePrice": 27999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "highlights": [
+      "7000 Pa Amiral Gemisi Emiş Gücü",
+      "Sıcak Hava ile Hızlı Paspas Kurutma (Koku Önleme)",
+      "4 Litrelik Süper Geniş Çift Su Tankı",
+      "Halıda Otomatik Mop Kaldırma"
+    ],
+    "minPrice": 27999,
+    "maxPrice": 30239,
+    "storeCount": 6,
+    "inStock": true,
+    "specs": {
+      "masterCategory": "home_appliances",
+      "masterCategoryLabel": "Ev Aletleri / Temizlik & Yaşam",
+      "subCategory": "robot_vacuum",
+      "subCategoryLabel": "Robot Süpürge",
+      "brand": "Xiaomi",
+      "model": "Xiaomi Robot Vacuum X20 Pro Robot Süpürge",
+      "suctionPowerPa": 7000,
+      "batteryRuntimeMin": 220,
+      "chargeTimeHours": 4,
+      "batteryCapacityMah": 5200,
+      "noiseLevelDb": 64,
+      "autoCleanDock": true,
+      "autoEmptyStation": true,
+      "mappingTechnology": "LDS Lazer & Milimetrik Yapılandırılmış Işık Sensörü",
+      "appControl": true,
+      "wetDryUsage": true,
+      "warrantyYears": 2
+    },
+    "storeOffers": [
+      {
+        "storeName": "Amazon TR",
+        "price": 27999,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.9,
+        "reviewCount": 1520,
+        "url": "https://www.amazon.com.tr/s?k=Xiaomi%20Robot%20Vacuum%20X20%20Pro%20Robot%20S%C3%BCp%C3%BCrge",
+        "warrantyType": "Xiaomi Türkiye Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "price": 28349,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.8,
+        "reviewCount": 1100,
+        "url": "https://www.hepsiburada.com/ara?q=Xiaomi%20Robot%20Vacuum%20X20%20Pro%20Robot%20S%C3%BCp%C3%BCrge",
+        "warrantyType": "2 Yıl Distribütör Garantili"
+      },
+      {
+        "storeName": "Trendyol",
+        "price": 28489,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.8,
+        "reviewCount": 1250,
+        "url": "https://www.trendyol.com/sr?q=Xiaomi%20Robot%20Vacuum%20X20%20Pro%20Robot%20S%C3%BCp%C3%BCrge",
+        "warrantyType": "Yetkili Satıcı Garantili"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "price": 28798,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.7,
+        "reviewCount": 680,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Xiaomi%20Robot%20Vacuum%20X20%20Pro%20Robot%20S%C3%BCp%C3%BCrge",
+        "warrantyType": "Resmi Türkiye Garantili"
+      },
+      {
+        "storeName": "Teknosa",
+        "price": 28989,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.7,
+        "reviewCount": 430,
+        "url": "https://www.teknosa.com/arama?s=Xiaomi%20Robot%20Vacuum%20X20%20Pro%20Robot%20S%C3%BCp%C3%BCrge",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "price": 30239,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.7,
+        "reviewCount": 310,
+        "url": "https://www.vatanbilgisayar.com/arama/Xiaomi%20Robot%20Vacuum%20X20%20Pro%20Robot%20S%C3%BCp%C3%BCrge/",
+        "warrantyType": "2 Yıl Garantili"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 30239
+      },
+      {
+        "date": "2026-05-15",
+        "price": 29119
+      },
+      {
+        "date": "2026-07-01",
+        "price": 28559
+      },
+      {
+        "date": "2026-08-27",
+        "price": 27999
+      }
+    ]
+  },
+  {
+    "id": "appliance-robot_vacuum-xiaomi-8",
+    "slug": "xiaomi-robot-vacuum-s20-plus",
+    "name": "Xiaomi Robot Vacuum S20+ Robot Süpürge",
+    "brand": "Xiaomi",
+    "category": "appliances",
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürge & Paspas",
+    "image": "https://images.unsplash.com/photo-1589923188900-85dae523342b?w=800&q=80",
+    "rating": 4.8,
+    "reviewCount": 380,
+    "basePrice": 14499,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "highlights": [
+      "6000 Pa Yüksek Emiş Performansı",
+      "Dönen Çift Mop ile Basınçlı Temizlik",
+      "LDS Lazer 360° Hızlı Haritalama",
+      "5200 mAh Büyük Kapasiteli Pil"
+    ],
+    "minPrice": 14499,
+    "maxPrice": 15659,
+    "storeCount": 6,
+    "inStock": true,
+    "specs": {
+      "masterCategory": "home_appliances",
+      "masterCategoryLabel": "Ev Aletleri / Temizlik & Yaşam",
+      "subCategory": "robot_vacuum",
+      "subCategoryLabel": "Robot Süpürge",
+      "brand": "Xiaomi",
+      "model": "Xiaomi Robot Vacuum S20+ Robot Süpürge",
+      "suctionPowerPa": 6000,
+      "batteryRuntimeMin": 170,
+      "chargeTimeHours": 4,
+      "batteryCapacityMah": 5200,
+      "noiseLevelDb": 66,
+      "autoCleanDock": false,
+      "autoEmptyStation": false,
+      "mappingTechnology": "LDS Lazer Navigasyon",
+      "appControl": true,
+      "wetDryUsage": true,
+      "warrantyYears": 2
+    },
+    "storeOffers": [
+      {
+        "storeName": "Amazon TR",
+        "price": 14499,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.9,
+        "reviewCount": 1520,
+        "url": "https://www.amazon.com.tr/s?k=Xiaomi%20Robot%20Vacuum%20S20%2B%20Robot%20S%C3%BCp%C3%BCrge",
+        "warrantyType": "Xiaomi Türkiye Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "price": 14849,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.8,
+        "reviewCount": 1100,
+        "url": "https://www.hepsiburada.com/ara?q=Xiaomi%20Robot%20Vacuum%20S20%2B%20Robot%20S%C3%BCp%C3%BCrge",
+        "warrantyType": "2 Yıl Distribütör Garantili"
+      },
+      {
+        "storeName": "Trendyol",
+        "price": 14989,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.8,
+        "reviewCount": 1250,
+        "url": "https://www.trendyol.com/sr?q=Xiaomi%20Robot%20Vacuum%20S20%2B%20Robot%20S%C3%BCp%C3%BCrge",
+        "warrantyType": "Yetkili Satıcı Garantili"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "price": 15298,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.7,
+        "reviewCount": 680,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Xiaomi%20Robot%20Vacuum%20S20%2B%20Robot%20S%C3%BCp%C3%BCrge",
+        "warrantyType": "Resmi Türkiye Garantili"
+      },
+      {
+        "storeName": "Teknosa",
+        "price": 15489,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.7,
+        "reviewCount": 430,
+        "url": "https://www.teknosa.com/arama?s=Xiaomi%20Robot%20Vacuum%20S20%2B%20Robot%20S%C3%BCp%C3%BCrge",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "price": 15659,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.7,
+        "reviewCount": 310,
+        "url": "https://www.vatanbilgisayar.com/arama/Xiaomi%20Robot%20Vacuum%20S20%2B%20Robot%20S%C3%BCp%C3%BCrge/",
+        "warrantyType": "2 Yıl Garantili"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 15659
+      },
+      {
+        "date": "2026-05-15",
+        "price": 15079
+      },
+      {
+        "date": "2026-07-01",
+        "price": 14789
+      },
+      {
+        "date": "2026-08-27",
+        "price": 14499
+      }
+    ]
+  },
+  {
+    "id": "appliance-robot_vacuum-xiaomi-9",
+    "slug": "xiaomi-robot-vacuum-s20",
+    "name": "Xiaomi Robot Vacuum S20 Robot Süpürge",
+    "brand": "Xiaomi",
+    "category": "appliances",
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürge & Paspas",
+    "image": "https://images.unsplash.com/photo-1589923188900-85dae523342b?w=800&q=80",
+    "rating": 4.7,
+    "reviewCount": 510,
+    "basePrice": 9499,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "highlights": [
+      "5000 Pa Güçlü Emiş Gücü",
+      "Y Harfi Şeklinde Profesyonel Paspaslama Rotası",
+      "400 ml Toz + 270 ml Su Haznesi",
+      "Fiyat/Performans Odaklı Akıllı Robot"
+    ],
+    "minPrice": 9499,
+    "maxPrice": 10259,
+    "storeCount": 6,
+    "inStock": true,
+    "specs": {
+      "masterCategory": "home_appliances",
+      "masterCategoryLabel": "Ev Aletleri / Temizlik & Yaşam",
+      "subCategory": "robot_vacuum",
+      "subCategoryLabel": "Robot Süpürge",
+      "brand": "Xiaomi",
+      "model": "Xiaomi Robot Vacuum S20 Robot Süpürge",
+      "suctionPowerPa": 5000,
+      "batteryRuntimeMin": 140,
+      "chargeTimeHours": 3.5,
+      "batteryCapacityMah": 3200,
+      "noiseLevelDb": 67,
+      "autoCleanDock": false,
+      "autoEmptyStation": false,
+      "mappingTechnology": "LDS Lazer Navigasyon",
+      "appControl": true,
+      "wetDryUsage": true,
+      "warrantyYears": 2
+    },
+    "storeOffers": [
+      {
+        "storeName": "Amazon TR",
+        "price": 9499,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.9,
+        "reviewCount": 1520,
+        "url": "https://www.amazon.com.tr/s?k=Xiaomi%20Robot%20Vacuum%20S20%20Robot%20S%C3%BCp%C3%BCrge",
+        "warrantyType": "Xiaomi Türkiye Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "price": 9849,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.8,
+        "reviewCount": 1100,
+        "url": "https://www.hepsiburada.com/ara?q=Xiaomi%20Robot%20Vacuum%20S20%20Robot%20S%C3%BCp%C3%BCrge",
+        "warrantyType": "2 Yıl Distribütör Garantili"
+      },
+      {
+        "storeName": "Trendyol",
+        "price": 9989,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.8,
+        "reviewCount": 1250,
+        "url": "https://www.trendyol.com/sr?q=Xiaomi%20Robot%20Vacuum%20S20%20Robot%20S%C3%BCp%C3%BCrge",
+        "warrantyType": "Yetkili Satıcı Garantili"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "price": 10298,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.7,
+        "reviewCount": 680,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Xiaomi%20Robot%20Vacuum%20S20%20Robot%20S%C3%BCp%C3%BCrge",
+        "warrantyType": "Resmi Türkiye Garantili"
+      },
+      {
+        "storeName": "Teknosa",
+        "price": 10489,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.7,
+        "reviewCount": 430,
+        "url": "https://www.teknosa.com/arama?s=Xiaomi%20Robot%20Vacuum%20S20%20Robot%20S%C3%BCp%C3%BCrge",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "price": 10259,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.7,
+        "reviewCount": 310,
+        "url": "https://www.vatanbilgisayar.com/arama/Xiaomi%20Robot%20Vacuum%20S20%20Robot%20S%C3%BCp%C3%BCrge/",
+        "warrantyType": "2 Yıl Garantili"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 10259
+      },
+      {
+        "date": "2026-05-15",
+        "price": 9879
+      },
+      {
+        "date": "2026-07-01",
+        "price": 9689
+      },
+      {
+        "date": "2026-08-27",
+        "price": 9499
+      }
+    ]
+  },
+  {
+    "id": "appliance-robot_vacuum-xiaomi-10",
+    "slug": "xiaomi-robot-vacuum-x10-plus",
+    "name": "Xiaomi Robot Vacuum X10+ Robot Süpürge",
+    "brand": "Xiaomi",
+    "category": "appliances",
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürge & Paspas",
+    "image": "https://images.unsplash.com/photo-1589923188900-85dae523342b?w=800&q=80",
+    "rating": 4.8,
+    "reviewCount": 820,
+    "basePrice": 24999,
+    "currency": "TL",
+    "releaseYear": 2023,
+    "isPopular": false,
+    "highlights": [
+      "Tam Otomatik Akıllı Temizlik İstasyonu",
+      "S-Mopping Asistanı ile Akıllı Su Dağıtımı",
+      "AI RGB Kamera ile Nesne Tanıma",
+      "2 Saatte Sıcak Havayla Hızlı Mop Kurutma"
+    ],
+    "minPrice": 24999,
+    "maxPrice": 26999,
+    "storeCount": 6,
+    "inStock": true,
+    "specs": {
+      "masterCategory": "home_appliances",
+      "masterCategoryLabel": "Ev Aletleri / Temizlik & Yaşam",
+      "subCategory": "robot_vacuum",
+      "subCategoryLabel": "Robot Süpürge",
+      "brand": "Xiaomi",
+      "model": "Xiaomi Robot Vacuum X10+ Robot Süpürge",
+      "suctionPowerPa": 4000,
+      "batteryRuntimeMin": 180,
+      "chargeTimeHours": 4.5,
+      "batteryCapacityMah": 5200,
+      "noiseLevelDb": 65,
+      "autoCleanDock": true,
+      "autoEmptyStation": true,
+      "mappingTechnology": "S-Cross AI 3D ve LDS Lazer",
+      "appControl": true,
+      "wetDryUsage": true,
+      "warrantyYears": 2
+    },
+    "storeOffers": [
+      {
+        "storeName": "Amazon TR",
+        "price": 24999,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.9,
+        "reviewCount": 1520,
+        "url": "https://www.amazon.com.tr/s?k=Xiaomi%20Robot%20Vacuum%20X10%2B%20Robot%20S%C3%BCp%C3%BCrge",
+        "warrantyType": "Xiaomi Türkiye Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "price": 25349,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.8,
+        "reviewCount": 1100,
+        "url": "https://www.hepsiburada.com/ara?q=Xiaomi%20Robot%20Vacuum%20X10%2B%20Robot%20S%C3%BCp%C3%BCrge",
+        "warrantyType": "2 Yıl Distribütör Garantili"
+      },
+      {
+        "storeName": "Trendyol",
+        "price": 25489,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.8,
+        "reviewCount": 1250,
+        "url": "https://www.trendyol.com/sr?q=Xiaomi%20Robot%20Vacuum%20X10%2B%20Robot%20S%C3%BCp%C3%BCrge",
+        "warrantyType": "Yetkili Satıcı Garantili"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "price": 25798,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.7,
+        "reviewCount": 680,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Xiaomi%20Robot%20Vacuum%20X10%2B%20Robot%20S%C3%BCp%C3%BCrge",
+        "warrantyType": "Resmi Türkiye Garantili"
+      },
+      {
+        "storeName": "Teknosa",
+        "price": 25989,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.7,
+        "reviewCount": 430,
+        "url": "https://www.teknosa.com/arama?s=Xiaomi%20Robot%20Vacuum%20X10%2B%20Robot%20S%C3%BCp%C3%BCrge",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "price": 26999,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.7,
+        "reviewCount": 310,
+        "url": "https://www.vatanbilgisayar.com/arama/Xiaomi%20Robot%20Vacuum%20X10%2B%20Robot%20S%C3%BCp%C3%BCrge/",
+        "warrantyType": "2 Yıl Garantili"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 26999
+      },
+      {
+        "date": "2026-05-15",
+        "price": 25999
+      },
+      {
+        "date": "2026-07-01",
+        "price": 25499
+      },
+      {
+        "date": "2026-08-27",
+        "price": 24999
+      }
+    ]
+  },
+  {
+    "id": "appliance-robot_vacuum-ankereufy-11",
+    "slug": "anker-eufy-omni-s1-pro",
+    "name": "Anker Eufy Omni S1 Pro Robot Süpürge",
+    "brand": "Anker Eufy",
+    "category": "appliances",
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürge & Paspas",
+    "image": "https://images.unsplash.com/photo-1589923188900-85dae523342b?w=800&q=80",
+    "rating": 5,
+    "reviewCount": 130,
+    "basePrice": 45999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "highlights": [
+      "Always-Clean Mop Sürekli Taze Suyla Rulo Paspaslama",
+      "Ozon ile Sterilize Edilen Kendi Kendini Temizleyen İstasyon",
+      "8000 Pa Turbo Emiş Gücü",
+      "Fütüristik Dokunmatik Ekranlı İstasyon"
+    ],
+    "minPrice": 45999,
+    "maxPrice": 49679,
+    "storeCount": 6,
+    "inStock": true,
+    "specs": {
+      "masterCategory": "home_appliances",
+      "masterCategoryLabel": "Ev Aletleri / Temizlik & Yaşam",
+      "subCategory": "robot_vacuum",
+      "subCategoryLabel": "Robot Süpürge",
+      "brand": "Anker Eufy",
+      "model": "Anker Eufy Omni S1 Pro Robot Süpürge",
+      "suctionPowerPa": 8000,
+      "batteryRuntimeMin": 210,
+      "chargeTimeHours": 4,
+      "batteryCapacityMah": 5200,
+      "noiseLevelDb": 62,
+      "autoCleanDock": true,
+      "autoEmptyStation": true,
+      "mappingTechnology": "TrueCourse LiDAR & 3D MatrixEye",
+      "appControl": true,
+      "wetDryUsage": true,
+      "warrantyYears": 2
+    },
+    "storeOffers": [
+      {
+        "storeName": "Amazon TR",
+        "price": 45999,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.9,
+        "reviewCount": 1520,
+        "url": "https://www.amazon.com.tr/s?k=Anker%20Eufy%20Omni%20S1%20Pro%20Robot%20S%C3%BCp%C3%BCrge",
+        "warrantyType": "Anker Eufy Türkiye Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "price": 46349,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.8,
+        "reviewCount": 1100,
+        "url": "https://www.hepsiburada.com/ara?q=Anker%20Eufy%20Omni%20S1%20Pro%20Robot%20S%C3%BCp%C3%BCrge",
+        "warrantyType": "2 Yıl Distribütör Garantili"
+      },
+      {
+        "storeName": "Trendyol",
+        "price": 46489,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.8,
+        "reviewCount": 1250,
+        "url": "https://www.trendyol.com/sr?q=Anker%20Eufy%20Omni%20S1%20Pro%20Robot%20S%C3%BCp%C3%BCrge",
+        "warrantyType": "Yetkili Satıcı Garantili"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "price": 46798,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.7,
+        "reviewCount": 680,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Anker%20Eufy%20Omni%20S1%20Pro%20Robot%20S%C3%BCp%C3%BCrge",
+        "warrantyType": "Resmi Türkiye Garantili"
+      },
+      {
+        "storeName": "Teknosa",
+        "price": 46989,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.7,
+        "reviewCount": 430,
+        "url": "https://www.teknosa.com/arama?s=Anker%20Eufy%20Omni%20S1%20Pro%20Robot%20S%C3%BCp%C3%BCrge",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "price": 49679,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.7,
+        "reviewCount": 310,
+        "url": "https://www.vatanbilgisayar.com/arama/Anker%20Eufy%20Omni%20S1%20Pro%20Robot%20S%C3%BCp%C3%BCrge/",
+        "warrantyType": "2 Yıl Garantili"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 49679
+      },
+      {
+        "date": "2026-05-15",
+        "price": 47839
+      },
+      {
+        "date": "2026-07-01",
+        "price": 46919
+      },
+      {
+        "date": "2026-08-27",
+        "price": 45999
+      }
+    ]
+  },
+  {
+    "id": "appliance-robot_vacuum-ankereufy-12",
+    "slug": "anker-eufy-clean-x9-pro",
+    "name": "Anker Eufy Clean X9 Pro Robot Süpürge",
+    "brand": "Anker Eufy",
+    "category": "appliances",
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürge & Paspas",
+    "image": "https://images.unsplash.com/photo-1589923188900-85dae523342b?w=800&q=80",
+    "rating": 4.8,
+    "reviewCount": 310,
+    "basePrice": 26999,
+    "currency": "TL",
+    "releaseYear": 2023,
+    "isPopular": false,
+    "highlights": [
+      "12 mm Otomatik Paspas Kaldırma (Kalın halılar için ideal)",
+      "MopMaster Çift Döner Basınçlı Paspaslama",
+      "40°C Sıcak Hava ile Kurutma İstasyonu",
+      "5500 Pa Güçlü Emiş Performansı"
+    ],
+    "minPrice": 26999,
+    "maxPrice": 29159,
+    "storeCount": 6,
+    "inStock": true,
+    "specs": {
+      "masterCategory": "home_appliances",
+      "masterCategoryLabel": "Ev Aletleri / Temizlik & Yaşam",
+      "subCategory": "robot_vacuum",
+      "subCategoryLabel": "Robot Süpürge",
+      "brand": "Anker Eufy",
+      "model": "Anker Eufy Clean X9 Pro Robot Süpürge",
+      "suctionPowerPa": 5500,
+      "batteryRuntimeMin": 180,
+      "chargeTimeHours": 4,
+      "batteryCapacityMah": 5200,
+      "noiseLevelDb": 64,
+      "autoCleanDock": true,
+      "autoEmptyStation": false,
+      "mappingTechnology": "AI.See 3D ve iPath Lazer",
+      "appControl": true,
+      "wetDryUsage": true,
+      "warrantyYears": 2
+    },
+    "storeOffers": [
+      {
+        "storeName": "Amazon TR",
+        "price": 26999,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.9,
+        "reviewCount": 1520,
+        "url": "https://www.amazon.com.tr/s?k=Anker%20Eufy%20Clean%20X9%20Pro%20Robot%20S%C3%BCp%C3%BCrge",
+        "warrantyType": "Anker Eufy Türkiye Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "price": 27349,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.8,
+        "reviewCount": 1100,
+        "url": "https://www.hepsiburada.com/ara?q=Anker%20Eufy%20Clean%20X9%20Pro%20Robot%20S%C3%BCp%C3%BCrge",
+        "warrantyType": "2 Yıl Distribütör Garantili"
+      },
+      {
+        "storeName": "Trendyol",
+        "price": 27489,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.8,
+        "reviewCount": 1250,
+        "url": "https://www.trendyol.com/sr?q=Anker%20Eufy%20Clean%20X9%20Pro%20Robot%20S%C3%BCp%C3%BCrge",
+        "warrantyType": "Yetkili Satıcı Garantili"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "price": 27798,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.7,
+        "reviewCount": 680,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Anker%20Eufy%20Clean%20X9%20Pro%20Robot%20S%C3%BCp%C3%BCrge",
+        "warrantyType": "Resmi Türkiye Garantili"
+      },
+      {
+        "storeName": "Teknosa",
+        "price": 27989,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.7,
+        "reviewCount": 430,
+        "url": "https://www.teknosa.com/arama?s=Anker%20Eufy%20Clean%20X9%20Pro%20Robot%20S%C3%BCp%C3%BCrge",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "price": 29159,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.7,
+        "reviewCount": 310,
+        "url": "https://www.vatanbilgisayar.com/arama/Anker%20Eufy%20Clean%20X9%20Pro%20Robot%20S%C3%BCp%C3%BCrge/",
+        "warrantyType": "2 Yıl Garantili"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 29159
+      },
+      {
+        "date": "2026-05-15",
+        "price": 28079
+      },
+      {
+        "date": "2026-07-01",
+        "price": 27539
+      },
+      {
+        "date": "2026-08-27",
+        "price": 26999
+      }
+    ]
+  },
+  {
+    "id": "appliance-robot_vacuum-ankereufy-13",
+    "slug": "anker-eufy-clean-x8-pro-ses",
+    "name": "Anker Eufy Clean X8 Pro SES Robot Süpürge",
+    "brand": "Anker Eufy",
+    "category": "appliances",
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürge & Paspas",
+    "image": "https://images.unsplash.com/photo-1589923188900-85dae523342b?w=800&q=80",
+    "rating": 4.8,
+    "reviewCount": 440,
+    "basePrice": 19999,
+    "currency": "TL",
+    "releaseYear": 2023,
+    "isPopular": false,
+    "highlights": [
+      "Twin-Turbine 2x4000 Pa (Toplam 8000 Pa) Çift Türbin Emişi",
+      "Active Detangling Dolaşan Saçları Otomatik Kesen Fırça",
+      "Otomatik Boşaltma İstasyonu (45 Gün Kapasiteli)",
+      "Çok Katlı Haritalama"
+    ],
+    "minPrice": 19999,
+    "maxPrice": 21599,
+    "storeCount": 6,
+    "inStock": true,
+    "specs": {
+      "masterCategory": "home_appliances",
+      "masterCategoryLabel": "Ev Aletleri / Temizlik & Yaşam",
+      "subCategory": "robot_vacuum",
+      "subCategoryLabel": "Robot Süpürge",
+      "brand": "Anker Eufy",
+      "model": "Anker Eufy Clean X8 Pro SES Robot Süpürge",
+      "suctionPowerPa": 8000,
+      "batteryRuntimeMin": 180,
+      "chargeTimeHours": 4,
+      "batteryCapacityMah": 5200,
+      "noiseLevelDb": 65,
+      "autoCleanDock": false,
+      "autoEmptyStation": true,
+      "mappingTechnology": "iPath Lazer Navigasyon",
+      "appControl": true,
+      "wetDryUsage": true,
+      "warrantyYears": 2
+    },
+    "storeOffers": [
+      {
+        "storeName": "Amazon TR",
+        "price": 19999,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.9,
+        "reviewCount": 1520,
+        "url": "https://www.amazon.com.tr/s?k=Anker%20Eufy%20Clean%20X8%20Pro%20SES%20Robot%20S%C3%BCp%C3%BCrge",
+        "warrantyType": "Anker Eufy Türkiye Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "price": 20349,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.8,
+        "reviewCount": 1100,
+        "url": "https://www.hepsiburada.com/ara?q=Anker%20Eufy%20Clean%20X8%20Pro%20SES%20Robot%20S%C3%BCp%C3%BCrge",
+        "warrantyType": "2 Yıl Distribütör Garantili"
+      },
+      {
+        "storeName": "Trendyol",
+        "price": 20489,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.8,
+        "reviewCount": 1250,
+        "url": "https://www.trendyol.com/sr?q=Anker%20Eufy%20Clean%20X8%20Pro%20SES%20Robot%20S%C3%BCp%C3%BCrge",
+        "warrantyType": "Yetkili Satıcı Garantili"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "price": 20798,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.7,
+        "reviewCount": 680,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Anker%20Eufy%20Clean%20X8%20Pro%20SES%20Robot%20S%C3%BCp%C3%BCrge",
+        "warrantyType": "Resmi Türkiye Garantili"
+      },
+      {
+        "storeName": "Teknosa",
+        "price": 20989,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.7,
+        "reviewCount": 430,
+        "url": "https://www.teknosa.com/arama?s=Anker%20Eufy%20Clean%20X8%20Pro%20SES%20Robot%20S%C3%BCp%C3%BCrge",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "price": 21599,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.7,
+        "reviewCount": 310,
+        "url": "https://www.vatanbilgisayar.com/arama/Anker%20Eufy%20Clean%20X8%20Pro%20SES%20Robot%20S%C3%BCp%C3%BCrge/",
+        "warrantyType": "2 Yıl Garantili"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 21599
+      },
+      {
+        "date": "2026-05-15",
+        "price": 20799
+      },
+      {
+        "date": "2026-07-01",
+        "price": 20399
+      },
+      {
+        "date": "2026-08-27",
+        "price": 19999
+      }
+    ]
+  },
+  {
+    "id": "appliance-robot_vacuum-ankereufy-14",
+    "slug": "anker-eufy-l60-ses",
+    "name": "Anker Eufy L60 SES Robot Süpürge",
+    "brand": "Anker Eufy",
+    "category": "appliances",
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürge & Paspas",
+    "image": "https://images.unsplash.com/photo-1589923188900-85dae523342b?w=800&q=80",
+    "rating": 4.7,
+    "reviewCount": 290,
+    "basePrice": 14999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "highlights": [
+      "Hair Cutting Otomatik Saç Kesici İstasyon",
+      "5000 Pa Ultra Emiş Gücü",
+      "iPath LiDAR Hassas Haritalama",
+      "60 Güne Kadar Temassız Kullanım"
+    ],
+    "minPrice": 14999,
+    "maxPrice": 16199,
+    "storeCount": 6,
+    "inStock": true,
+    "specs": {
+      "masterCategory": "home_appliances",
+      "masterCategoryLabel": "Ev Aletleri / Temizlik & Yaşam",
+      "subCategory": "robot_vacuum",
+      "subCategoryLabel": "Robot Süpürge",
+      "brand": "Anker Eufy",
+      "model": "Anker Eufy L60 SES Robot Süpürge",
+      "suctionPowerPa": 5000,
+      "batteryRuntimeMin": 150,
+      "chargeTimeHours": 3.5,
+      "batteryCapacityMah": 3200,
+      "noiseLevelDb": 66,
+      "autoCleanDock": false,
+      "autoEmptyStation": true,
+      "mappingTechnology": "iPath Lazer Navigasyon",
+      "appControl": true,
+      "wetDryUsage": true,
+      "warrantyYears": 2
+    },
+    "storeOffers": [
+      {
+        "storeName": "Amazon TR",
+        "price": 14999,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.9,
+        "reviewCount": 1520,
+        "url": "https://www.amazon.com.tr/s?k=Anker%20Eufy%20L60%20SES%20Robot%20S%C3%BCp%C3%BCrge",
+        "warrantyType": "Anker Eufy Türkiye Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "price": 15349,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.8,
+        "reviewCount": 1100,
+        "url": "https://www.hepsiburada.com/ara?q=Anker%20Eufy%20L60%20SES%20Robot%20S%C3%BCp%C3%BCrge",
+        "warrantyType": "2 Yıl Distribütör Garantili"
+      },
+      {
+        "storeName": "Trendyol",
+        "price": 15489,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.8,
+        "reviewCount": 1250,
+        "url": "https://www.trendyol.com/sr?q=Anker%20Eufy%20L60%20SES%20Robot%20S%C3%BCp%C3%BCrge",
+        "warrantyType": "Yetkili Satıcı Garantili"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "price": 15798,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.7,
+        "reviewCount": 680,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Anker%20Eufy%20L60%20SES%20Robot%20S%C3%BCp%C3%BCrge",
+        "warrantyType": "Resmi Türkiye Garantili"
+      },
+      {
+        "storeName": "Teknosa",
+        "price": 15989,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.7,
+        "reviewCount": 430,
+        "url": "https://www.teknosa.com/arama?s=Anker%20Eufy%20L60%20SES%20Robot%20S%C3%BCp%C3%BCrge",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "price": 16199,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.7,
+        "reviewCount": 310,
+        "url": "https://www.vatanbilgisayar.com/arama/Anker%20Eufy%20L60%20SES%20Robot%20S%C3%BCp%C3%BCrge/",
+        "warrantyType": "2 Yıl Garantili"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 16199
+      },
+      {
+        "date": "2026-05-15",
+        "price": 15599
+      },
+      {
+        "date": "2026-07-01",
+        "price": 15299
+      },
+      {
+        "date": "2026-08-27",
+        "price": 14999
+      }
+    ]
+  },
 ];
