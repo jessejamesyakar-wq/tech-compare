@@ -75692,4 +75692,1355 @@ export const mockAppliances: ApplianceProduct[] = [
     "minPrice": 42999,
     "maxPrice": 48159
   }
+,
+  {
+    "id": "appliance-robot_vacuum-ecovacs-1",
+    "slug": "ecovacs-deebot-x2-omni",
+    "name": "Ecovacs Deebot X2 Omni Robot Süpürge ve Mop",
+    "brand": "Ecovacs",
+    "category": "appliances",
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürge & Paspas",
+    "image": "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?w=800&q=80",
+    "rating": 4.9,
+    "reviewCount": 412,
+    "basePrice": 42999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "highlights": [
+      "8000 Pa Ultra Emiş Gücü",
+      "Kare gövde tasarımı ile sıfır kenar boşluğu",
+      "55°C Sıcak su ile otomatik paspas yıkama & kurutma",
+      "AIVI 3D 2.0 yapay zekâ engel tanıma"
+    ],
+    "minPrice": 42999,
+    "maxPrice": 46869,
+    "storeCount": 6,
+    "inStock": true,
+    "specs": {
+      "masterCategory": "home_appliances",
+      "masterCategoryLabel": "Ev Aletleri / Temizlik & Yaşam",
+      "subCategory": "robot_vacuum",
+      "subCategoryLabel": "Robot Süpürge",
+      "brand": "Ecovacs",
+      "model": "Ecovacs Deebot X2 Omni Robot Süpürge ve Mop",
+      "suctionPowerPa": 8000,
+      "batteryRuntimeMin": 210,
+      "chargeTimeHours": 5.5,
+      "batteryCapacityMah": 6400,
+      "noiseLevelDb": 65,
+      "autoCleanDock": true,
+      "autoEmptyStation": true,
+      "mappingTechnology": "Dual-laser LiDAR & AIVI 3D 2.0",
+      "appControl": true,
+      "wetDryUsage": true,
+      "warrantyYears": 2
+    },
+    "storeOffers": [
+      {
+        "storeName": "Amazon TR",
+        "price": 42999,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.9,
+        "reviewCount": 1420,
+        "url": "https://www.amazon.com.tr/s?k=Ecovacs%20Deebot%20X2%20Omni%20Robot%20S%C3%BCp%C3%BCrge%20ve%20Mop",
+        "warrantyType": "Ecovacs Türkiye Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "price": 43449,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.8,
+        "reviewCount": 980,
+        "url": "https://www.hepsiburada.com/ara?q=Ecovacs%20Deebot%20X2%20Omni%20Robot%20S%C3%BCp%C3%BCrge%20ve%20Mop",
+        "warrantyType": "Ecovacs Türkiye Garantili"
+      },
+      {
+        "storeName": "Trendyol",
+        "price": 43689,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.8,
+        "reviewCount": 1120,
+        "url": "https://www.trendyol.com/sr?q=Ecovacs%20Deebot%20X2%20Omni%20Robot%20S%C3%BCp%C3%BCrge%20ve%20Mop",
+        "warrantyType": "2 Yıl Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "price": 43998,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.7,
+        "reviewCount": 650,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Ecovacs%20Deebot%20X2%20Omni%20Robot%20S%C3%BCp%C3%BCrge%20ve%20Mop",
+        "warrantyType": "Yetkili Satıcı Garantili"
+      },
+      {
+        "storeName": "Teknosa",
+        "price": 44199,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.7,
+        "reviewCount": 430,
+        "url": "https://www.teknosa.com/arama?s=Ecovacs%20Deebot%20X2%20Omni%20Robot%20S%C3%BCp%C3%BCrge%20ve%20Mop",
+        "warrantyType": "Resmi Türkiye Garantili"
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "price": 46869,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.7,
+        "reviewCount": 310,
+        "url": "https://www.vatanbilgisayar.com/arama/Ecovacs%20Deebot%20X2%20Omni%20Robot%20S%C3%BCp%C3%BCrge%20ve%20Mop/",
+        "warrantyType": "2 Yıl Distribütör Garantili"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 46439
+      },
+      {
+        "date": "2026-04-15",
+        "price": 45149
+      },
+      {
+        "date": "2026-06-01",
+        "price": 44289
+      },
+      {
+        "date": "2026-07-20",
+        "price": 43429
+      },
+      {
+        "date": "2026-08-27",
+        "price": 42999
+      }
+    ]
+  },
+  {
+    "id": "appliance-robot_vacuum-ecovacs-2",
+    "slug": "ecovacs-deebot-t30-pro-omni",
+    "name": "Ecovacs Deebot T30 Pro Omni Robot Süpürge",
+    "brand": "Ecovacs",
+    "category": "appliances",
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürge & Paspas",
+    "image": "https://images.unsplash.com/photo-1589923188900-85dae523342b?w=800&q=80",
+    "rating": 4.9,
+    "reviewCount": 328,
+    "basePrice": 38999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "highlights": [
+      "11.000 Pa Canavar Emiş Gücü",
+      "TruEdge kenar derinlemesine paspas uzatma teknolojisi",
+      "70°C Sıcak su ile sterilizasyonlu mop yıkama",
+      "ZeroTangle sıfır saç dolanma fırça sistemi"
+    ],
+    "minPrice": 38999,
+    "maxPrice": 42509,
+    "storeCount": 6,
+    "inStock": true,
+    "specs": {
+      "masterCategory": "home_appliances",
+      "masterCategoryLabel": "Ev Aletleri / Temizlik & Yaşam",
+      "subCategory": "robot_vacuum",
+      "subCategoryLabel": "Robot Süpürge",
+      "brand": "Ecovacs",
+      "model": "Ecovacs Deebot T30 Pro Omni Robot Süpürge",
+      "suctionPowerPa": 11000,
+      "batteryRuntimeMin": 220,
+      "chargeTimeHours": 4.5,
+      "batteryCapacityMah": 5200,
+      "noiseLevelDb": 64,
+      "autoCleanDock": true,
+      "autoEmptyStation": true,
+      "mappingTechnology": "TrueMapping 3.0 & 3D Structured Light",
+      "appControl": true,
+      "wetDryUsage": true,
+      "warrantyYears": 2
+    },
+    "storeOffers": [
+      {
+        "storeName": "Amazon TR",
+        "price": 38999,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.9,
+        "reviewCount": 1420,
+        "url": "https://www.amazon.com.tr/s?k=Ecovacs%20Deebot%20T30%20Pro%20Omni%20Robot%20S%C3%BCp%C3%BCrge",
+        "warrantyType": "Ecovacs Türkiye Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "price": 39449,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.8,
+        "reviewCount": 980,
+        "url": "https://www.hepsiburada.com/ara?q=Ecovacs%20Deebot%20T30%20Pro%20Omni%20Robot%20S%C3%BCp%C3%BCrge",
+        "warrantyType": "Ecovacs Türkiye Garantili"
+      },
+      {
+        "storeName": "Trendyol",
+        "price": 39689,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.8,
+        "reviewCount": 1120,
+        "url": "https://www.trendyol.com/sr?q=Ecovacs%20Deebot%20T30%20Pro%20Omni%20Robot%20S%C3%BCp%C3%BCrge",
+        "warrantyType": "2 Yıl Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "price": 39998,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.7,
+        "reviewCount": 650,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Ecovacs%20Deebot%20T30%20Pro%20Omni%20Robot%20S%C3%BCp%C3%BCrge",
+        "warrantyType": "Yetkili Satıcı Garantili"
+      },
+      {
+        "storeName": "Teknosa",
+        "price": 40199,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.7,
+        "reviewCount": 430,
+        "url": "https://www.teknosa.com/arama?s=Ecovacs%20Deebot%20T30%20Pro%20Omni%20Robot%20S%C3%BCp%C3%BCrge",
+        "warrantyType": "Resmi Türkiye Garantili"
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "price": 42509,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.7,
+        "reviewCount": 310,
+        "url": "https://www.vatanbilgisayar.com/arama/Ecovacs%20Deebot%20T30%20Pro%20Omni%20Robot%20S%C3%BCp%C3%BCrge/",
+        "warrantyType": "2 Yıl Distribütör Garantili"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 42119
+      },
+      {
+        "date": "2026-04-15",
+        "price": 40949
+      },
+      {
+        "date": "2026-06-01",
+        "price": 40169
+      },
+      {
+        "date": "2026-07-20",
+        "price": 39389
+      },
+      {
+        "date": "2026-08-27",
+        "price": 38999
+      }
+    ]
+  },
+  {
+    "id": "appliance-robot_vacuum-ecovacs-3",
+    "slug": "ecovacs-deebot-t20-omni",
+    "name": "Ecovacs Deebot T20 Omni Robot Süpürge",
+    "brand": "Ecovacs",
+    "category": "appliances",
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürge & Paspas",
+    "image": "https://images.unsplash.com/photo-1558317374-067fb5f30001?w=800&q=80",
+    "rating": 4.8,
+    "reviewCount": 520,
+    "basePrice": 31499,
+    "currency": "TL",
+    "releaseYear": 2023,
+    "isPopular": true,
+    "highlights": [
+      "6000 Pa Güçlü Emiş Performansı",
+      "9 mm Otomatik paspas kaldırma (Halı algılama)",
+      "55°C Sıcak suyla otomatik mop yıkama",
+      "OZMO Turbo 2.0 Dönen Çift Mop Sistemi"
+    ],
+    "minPrice": 31499,
+    "maxPrice": 34334,
+    "storeCount": 6,
+    "inStock": true,
+    "specs": {
+      "masterCategory": "home_appliances",
+      "masterCategoryLabel": "Ev Aletleri / Temizlik & Yaşam",
+      "subCategory": "robot_vacuum",
+      "subCategoryLabel": "Robot Süpürge",
+      "brand": "Ecovacs",
+      "model": "Ecovacs Deebot T20 Omni Robot Süpürge",
+      "suctionPowerPa": 6000,
+      "batteryRuntimeMin": 170,
+      "chargeTimeHours": 4,
+      "batteryCapacityMah": 5200,
+      "noiseLevelDb": 66,
+      "autoCleanDock": true,
+      "autoEmptyStation": true,
+      "mappingTechnology": "TrueMapping 2.0 & TrueDetect 3D 3.0",
+      "appControl": true,
+      "wetDryUsage": true,
+      "warrantyYears": 2
+    },
+    "storeOffers": [
+      {
+        "storeName": "Amazon TR",
+        "price": 31499,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.9,
+        "reviewCount": 1420,
+        "url": "https://www.amazon.com.tr/s?k=Ecovacs%20Deebot%20T20%20Omni%20Robot%20S%C3%BCp%C3%BCrge",
+        "warrantyType": "Ecovacs Türkiye Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "price": 31949,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.8,
+        "reviewCount": 980,
+        "url": "https://www.hepsiburada.com/ara?q=Ecovacs%20Deebot%20T20%20Omni%20Robot%20S%C3%BCp%C3%BCrge",
+        "warrantyType": "Ecovacs Türkiye Garantili"
+      },
+      {
+        "storeName": "Trendyol",
+        "price": 32189,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.8,
+        "reviewCount": 1120,
+        "url": "https://www.trendyol.com/sr?q=Ecovacs%20Deebot%20T20%20Omni%20Robot%20S%C3%BCp%C3%BCrge",
+        "warrantyType": "2 Yıl Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "price": 32498,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.7,
+        "reviewCount": 650,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Ecovacs%20Deebot%20T20%20Omni%20Robot%20S%C3%BCp%C3%BCrge",
+        "warrantyType": "Yetkili Satıcı Garantili"
+      },
+      {
+        "storeName": "Teknosa",
+        "price": 32699,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.7,
+        "reviewCount": 430,
+        "url": "https://www.teknosa.com/arama?s=Ecovacs%20Deebot%20T20%20Omni%20Robot%20S%C3%BCp%C3%BCrge",
+        "warrantyType": "Resmi Türkiye Garantili"
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "price": 34334,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.7,
+        "reviewCount": 310,
+        "url": "https://www.vatanbilgisayar.com/arama/Ecovacs%20Deebot%20T20%20Omni%20Robot%20S%C3%BCp%C3%BCrge/",
+        "warrantyType": "2 Yıl Distribütör Garantili"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 34019
+      },
+      {
+        "date": "2026-04-15",
+        "price": 33074
+      },
+      {
+        "date": "2026-06-01",
+        "price": 32444
+      },
+      {
+        "date": "2026-07-20",
+        "price": 31814
+      },
+      {
+        "date": "2026-08-27",
+        "price": 31499
+      }
+    ]
+  },
+  {
+    "id": "appliance-robot_vacuum-ecovacs-4",
+    "slug": "ecovacs-deebot-x1-omni",
+    "name": "Ecovacs Deebot X1 Omni Robot Süpürge",
+    "brand": "Ecovacs",
+    "category": "appliances",
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürge & Paspas",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&q=80",
+    "rating": 4.8,
+    "reviewCount": 680,
+    "basePrice": 34999,
+    "currency": "TL",
+    "releaseYear": 2023,
+    "isPopular": true,
+    "highlights": [
+      "Jacob Jensen Design ikonik şık tasarım",
+      "Hepsi bir arada OMNI istasyon",
+      "YIKO dahili sesli asistan desteği",
+      "OZMO Turbo çift döner basınçlı paspaslama"
+    ],
+    "minPrice": 34999,
+    "maxPrice": 38149,
+    "storeCount": 6,
+    "inStock": true,
+    "specs": {
+      "masterCategory": "home_appliances",
+      "masterCategoryLabel": "Ev Aletleri / Temizlik & Yaşam",
+      "subCategory": "robot_vacuum",
+      "subCategoryLabel": "Robot Süpürge",
+      "brand": "Ecovacs",
+      "model": "Ecovacs Deebot X1 Omni Robot Süpürge",
+      "suctionPowerPa": 5000,
+      "batteryRuntimeMin": 260,
+      "chargeTimeHours": 5,
+      "batteryCapacityMah": 5200,
+      "noiseLevelDb": 66,
+      "autoCleanDock": true,
+      "autoEmptyStation": true,
+      "mappingTechnology": "TrueMapping 2.0 & AIVI 3D",
+      "appControl": true,
+      "wetDryUsage": true,
+      "warrantyYears": 2
+    },
+    "storeOffers": [
+      {
+        "storeName": "Amazon TR",
+        "price": 34999,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.9,
+        "reviewCount": 1420,
+        "url": "https://www.amazon.com.tr/s?k=Ecovacs%20Deebot%20X1%20Omni%20Robot%20S%C3%BCp%C3%BCrge",
+        "warrantyType": "Ecovacs Türkiye Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "price": 35449,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.8,
+        "reviewCount": 980,
+        "url": "https://www.hepsiburada.com/ara?q=Ecovacs%20Deebot%20X1%20Omni%20Robot%20S%C3%BCp%C3%BCrge",
+        "warrantyType": "Ecovacs Türkiye Garantili"
+      },
+      {
+        "storeName": "Trendyol",
+        "price": 35689,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.8,
+        "reviewCount": 1120,
+        "url": "https://www.trendyol.com/sr?q=Ecovacs%20Deebot%20X1%20Omni%20Robot%20S%C3%BCp%C3%BCrge",
+        "warrantyType": "2 Yıl Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "price": 35998,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.7,
+        "reviewCount": 650,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Ecovacs%20Deebot%20X1%20Omni%20Robot%20S%C3%BCp%C3%BCrge",
+        "warrantyType": "Yetkili Satıcı Garantili"
+      },
+      {
+        "storeName": "Teknosa",
+        "price": 36199,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.7,
+        "reviewCount": 430,
+        "url": "https://www.teknosa.com/arama?s=Ecovacs%20Deebot%20X1%20Omni%20Robot%20S%C3%BCp%C3%BCrge",
+        "warrantyType": "Resmi Türkiye Garantili"
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "price": 38149,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.7,
+        "reviewCount": 310,
+        "url": "https://www.vatanbilgisayar.com/arama/Ecovacs%20Deebot%20X1%20Omni%20Robot%20S%C3%BCp%C3%BCrge/",
+        "warrantyType": "2 Yıl Distribütör Garantili"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 37799
+      },
+      {
+        "date": "2026-04-15",
+        "price": 36749
+      },
+      {
+        "date": "2026-06-01",
+        "price": 36049
+      },
+      {
+        "date": "2026-07-20",
+        "price": 35349
+      },
+      {
+        "date": "2026-08-27",
+        "price": 34999
+      }
+    ]
+  },
+  {
+    "id": "appliance-robot_vacuum-ecovacs-5",
+    "slug": "ecovacs-deebot-n20-pro-plus",
+    "name": "Ecovacs Deebot N20 Pro Plus Robot Süpürge",
+    "brand": "Ecovacs",
+    "category": "appliances",
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürge & Paspas",
+    "image": "https://images.unsplash.com/photo-1527515637462-cff94eecc1ac?w=800&q=80",
+    "rating": 4.7,
+    "reviewCount": 190,
+    "basePrice": 21999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "highlights": [
+      "8000 Pa Yüksek Emiş Gücü",
+      "PureCyclone Torbasız Otomatik Toz Boşaltma",
+      "OZMO Pro 2.0 Titreşimli Mop Teknolojisi",
+      "300 Dakika Kesintisiz Çalışma Süresi"
+    ],
+    "minPrice": 21999,
+    "maxPrice": 23979,
+    "storeCount": 6,
+    "inStock": true,
+    "specs": {
+      "masterCategory": "home_appliances",
+      "masterCategoryLabel": "Ev Aletleri / Temizlik & Yaşam",
+      "subCategory": "robot_vacuum",
+      "subCategoryLabel": "Robot Süpürge",
+      "brand": "Ecovacs",
+      "model": "Ecovacs Deebot N20 Pro Plus Robot Süpürge",
+      "suctionPowerPa": 8000,
+      "batteryRuntimeMin": 300,
+      "chargeTimeHours": 4,
+      "batteryCapacityMah": 5200,
+      "noiseLevelDb": 65,
+      "autoCleanDock": false,
+      "autoEmptyStation": true,
+      "mappingTechnology": "TrueMapping LiDAR",
+      "appControl": true,
+      "wetDryUsage": true,
+      "warrantyYears": 2
+    },
+    "storeOffers": [
+      {
+        "storeName": "Amazon TR",
+        "price": 21999,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.9,
+        "reviewCount": 1420,
+        "url": "https://www.amazon.com.tr/s?k=Ecovacs%20Deebot%20N20%20Pro%20Plus%20Robot%20S%C3%BCp%C3%BCrge",
+        "warrantyType": "Ecovacs Türkiye Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "price": 22449,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.8,
+        "reviewCount": 980,
+        "url": "https://www.hepsiburada.com/ara?q=Ecovacs%20Deebot%20N20%20Pro%20Plus%20Robot%20S%C3%BCp%C3%BCrge",
+        "warrantyType": "Ecovacs Türkiye Garantili"
+      },
+      {
+        "storeName": "Trendyol",
+        "price": 22689,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.8,
+        "reviewCount": 1120,
+        "url": "https://www.trendyol.com/sr?q=Ecovacs%20Deebot%20N20%20Pro%20Plus%20Robot%20S%C3%BCp%C3%BCrge",
+        "warrantyType": "2 Yıl Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "price": 22998,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.7,
+        "reviewCount": 650,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Ecovacs%20Deebot%20N20%20Pro%20Plus%20Robot%20S%C3%BCp%C3%BCrge",
+        "warrantyType": "Yetkili Satıcı Garantili"
+      },
+      {
+        "storeName": "Teknosa",
+        "price": 23199,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.7,
+        "reviewCount": 430,
+        "url": "https://www.teknosa.com/arama?s=Ecovacs%20Deebot%20N20%20Pro%20Plus%20Robot%20S%C3%BCp%C3%BCrge",
+        "warrantyType": "Resmi Türkiye Garantili"
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "price": 23979,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.7,
+        "reviewCount": 310,
+        "url": "https://www.vatanbilgisayar.com/arama/Ecovacs%20Deebot%20N20%20Pro%20Plus%20Robot%20S%C3%BCp%C3%BCrge/",
+        "warrantyType": "2 Yıl Distribütör Garantili"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 23759
+      },
+      {
+        "date": "2026-04-15",
+        "price": 23099
+      },
+      {
+        "date": "2026-06-01",
+        "price": 22659
+      },
+      {
+        "date": "2026-07-20",
+        "price": 22219
+      },
+      {
+        "date": "2026-08-27",
+        "price": 21999
+      }
+    ]
+  },
+  {
+    "id": "appliance-robot_vacuum-ecovacs-6",
+    "slug": "ecovacs-deebot-n10-plus",
+    "name": "Ecovacs Deebot N10 Plus Robot Süpürge",
+    "brand": "Ecovacs",
+    "category": "appliances",
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürge & Paspas",
+    "image": "https://images.unsplash.com/photo-1563453392212-326f5e854473?w=800&q=80",
+    "rating": 4.7,
+    "reviewCount": 450,
+    "basePrice": 18499,
+    "currency": "TL",
+    "releaseYear": 2023,
+    "isPopular": false,
+    "highlights": [
+      "4300 Pa Emiş Gücü & E11 Antibakteriyel Filtre",
+      "Otomatik 2.5L Toz Boşaltma İstasyonu",
+      "dToF Lazer ile 4 kat daha hassas haritalama",
+      "330 dakika sınıf lideri batarya ömrü"
+    ],
+    "minPrice": 18499,
+    "maxPrice": 20164,
+    "storeCount": 6,
+    "inStock": true,
+    "specs": {
+      "masterCategory": "home_appliances",
+      "masterCategoryLabel": "Ev Aletleri / Temizlik & Yaşam",
+      "subCategory": "robot_vacuum",
+      "subCategoryLabel": "Robot Süpürge",
+      "brand": "Ecovacs",
+      "model": "Ecovacs Deebot N10 Plus Robot Süpürge",
+      "suctionPowerPa": 4300,
+      "batteryRuntimeMin": 330,
+      "chargeTimeHours": 4.5,
+      "batteryCapacityMah": 5200,
+      "noiseLevelDb": 65,
+      "autoCleanDock": false,
+      "autoEmptyStation": true,
+      "mappingTechnology": "dToF Lazer Haritalama",
+      "appControl": true,
+      "wetDryUsage": true,
+      "warrantyYears": 2
+    },
+    "storeOffers": [
+      {
+        "storeName": "Amazon TR",
+        "price": 18499,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.9,
+        "reviewCount": 1420,
+        "url": "https://www.amazon.com.tr/s?k=Ecovacs%20Deebot%20N10%20Plus%20Robot%20S%C3%BCp%C3%BCrge",
+        "warrantyType": "Ecovacs Türkiye Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "price": 18949,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.8,
+        "reviewCount": 980,
+        "url": "https://www.hepsiburada.com/ara?q=Ecovacs%20Deebot%20N10%20Plus%20Robot%20S%C3%BCp%C3%BCrge",
+        "warrantyType": "Ecovacs Türkiye Garantili"
+      },
+      {
+        "storeName": "Trendyol",
+        "price": 19189,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.8,
+        "reviewCount": 1120,
+        "url": "https://www.trendyol.com/sr?q=Ecovacs%20Deebot%20N10%20Plus%20Robot%20S%C3%BCp%C3%BCrge",
+        "warrantyType": "2 Yıl Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "price": 19498,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.7,
+        "reviewCount": 650,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Ecovacs%20Deebot%20N10%20Plus%20Robot%20S%C3%BCp%C3%BCrge",
+        "warrantyType": "Yetkili Satıcı Garantili"
+      },
+      {
+        "storeName": "Teknosa",
+        "price": 19699,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.7,
+        "reviewCount": 430,
+        "url": "https://www.teknosa.com/arama?s=Ecovacs%20Deebot%20N10%20Plus%20Robot%20S%C3%BCp%C3%BCrge",
+        "warrantyType": "Resmi Türkiye Garantili"
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "price": 20164,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.7,
+        "reviewCount": 310,
+        "url": "https://www.vatanbilgisayar.com/arama/Ecovacs%20Deebot%20N10%20Plus%20Robot%20S%C3%BCp%C3%BCrge/",
+        "warrantyType": "2 Yıl Distribütör Garantili"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 19979
+      },
+      {
+        "date": "2026-04-15",
+        "price": 19424
+      },
+      {
+        "date": "2026-06-01",
+        "price": 19054
+      },
+      {
+        "date": "2026-07-20",
+        "price": 18684
+      },
+      {
+        "date": "2026-08-27",
+        "price": 18499
+      }
+    ]
+  },
+  {
+    "id": "appliance-robot_vacuum-ecovacs-7",
+    "slug": "ecovacs-deebot-t9-aivi",
+    "name": "Ecovacs Deebot T9 AIVI Robot Süpürge",
+    "brand": "Ecovacs",
+    "category": "appliances",
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürge & Paspas",
+    "image": "https://images.unsplash.com/photo-1546868871-7041f2a55e12?w=800&q=80",
+    "rating": 4.6,
+    "reviewCount": 380,
+    "basePrice": 17999,
+    "currency": "TL",
+    "releaseYear": 2022,
+    "isPopular": false,
+    "highlights": [
+      "AeroForce Çift Kauçuk Rulo Fırça (Saç dolanmaz)",
+      "AIVI 2.0 Yapay Zekâ Görsel Algılama",
+      "OZMO Pro 2.0 Titreşimli Paspaslama",
+      "Hava tazeleyici oda kokusu kapsülü"
+    ],
+    "minPrice": 17999,
+    "maxPrice": 19619,
+    "storeCount": 6,
+    "inStock": true,
+    "specs": {
+      "masterCategory": "home_appliances",
+      "masterCategoryLabel": "Ev Aletleri / Temizlik & Yaşam",
+      "subCategory": "robot_vacuum",
+      "subCategoryLabel": "Robot Süpürge",
+      "brand": "Ecovacs",
+      "model": "Ecovacs Deebot T9 AIVI Robot Süpürge",
+      "suctionPowerPa": 3000,
+      "batteryRuntimeMin": 180,
+      "chargeTimeHours": 4.5,
+      "batteryCapacityMah": 5200,
+      "noiseLevelDb": 67,
+      "autoCleanDock": false,
+      "autoEmptyStation": false,
+      "mappingTechnology": "AIVI 2.0 & TrueMapping 2.0",
+      "appControl": true,
+      "wetDryUsage": true,
+      "warrantyYears": 2
+    },
+    "storeOffers": [
+      {
+        "storeName": "Amazon TR",
+        "price": 17999,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.9,
+        "reviewCount": 1420,
+        "url": "https://www.amazon.com.tr/s?k=Ecovacs%20Deebot%20T9%20AIVI%20Robot%20S%C3%BCp%C3%BCrge",
+        "warrantyType": "Ecovacs Türkiye Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "price": 18449,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.8,
+        "reviewCount": 980,
+        "url": "https://www.hepsiburada.com/ara?q=Ecovacs%20Deebot%20T9%20AIVI%20Robot%20S%C3%BCp%C3%BCrge",
+        "warrantyType": "Ecovacs Türkiye Garantili"
+      },
+      {
+        "storeName": "Trendyol",
+        "price": 18689,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.8,
+        "reviewCount": 1120,
+        "url": "https://www.trendyol.com/sr?q=Ecovacs%20Deebot%20T9%20AIVI%20Robot%20S%C3%BCp%C3%BCrge",
+        "warrantyType": "2 Yıl Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "price": 18998,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.7,
+        "reviewCount": 650,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Ecovacs%20Deebot%20T9%20AIVI%20Robot%20S%C3%BCp%C3%BCrge",
+        "warrantyType": "Yetkili Satıcı Garantili"
+      },
+      {
+        "storeName": "Teknosa",
+        "price": 19199,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.7,
+        "reviewCount": 430,
+        "url": "https://www.teknosa.com/arama?s=Ecovacs%20Deebot%20T9%20AIVI%20Robot%20S%C3%BCp%C3%BCrge",
+        "warrantyType": "Resmi Türkiye Garantili"
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "price": 19619,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.7,
+        "reviewCount": 310,
+        "url": "https://www.vatanbilgisayar.com/arama/Ecovacs%20Deebot%20T9%20AIVI%20Robot%20S%C3%BCp%C3%BCrge/",
+        "warrantyType": "2 Yıl Distribütör Garantili"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 19439
+      },
+      {
+        "date": "2026-04-15",
+        "price": 18899
+      },
+      {
+        "date": "2026-06-01",
+        "price": 18539
+      },
+      {
+        "date": "2026-07-20",
+        "price": 18179
+      },
+      {
+        "date": "2026-08-27",
+        "price": 17999
+      }
+    ]
+  },
+  {
+    "id": "appliance-robot_vacuum-ecovacs-8",
+    "slug": "ecovacs-winbot-w2-omni",
+    "name": "Ecovacs Winbot W2 Omni Cam Temizleme Robotu",
+    "brand": "Ecovacs",
+    "category": "appliances",
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürge & Paspas",
+    "image": "https://images.unsplash.com/photo-1527515637462-cff94eecc1ac?w=800&q=80",
+    "rating": 4.9,
+    "reviewCount": 145,
+    "basePrice": 28999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "highlights": [
+      "Taşınabilir 6'sı 1 arada çok fonksiyonlu istasyon",
+      "5500 Pa Güçlü Vakumlu Emiş Tutunma",
+      "Üç nozullu geniş açılı otomatik sprey püskürtme",
+      "WIN-SLAM 4.0 ile kenardan kenara çerçevesiz temizlik"
+    ],
+    "minPrice": 28999,
+    "maxPrice": 31609,
+    "storeCount": 6,
+    "inStock": true,
+    "specs": {
+      "masterCategory": "home_appliances",
+      "masterCategoryLabel": "Ev Aletleri / Temizlik & Yaşam",
+      "subCategory": "robot_vacuum",
+      "subCategoryLabel": "Robot Süpürge",
+      "brand": "Ecovacs",
+      "model": "Ecovacs Winbot W2 Omni Cam Temizleme Robotu",
+      "suctionPowerPa": 5500,
+      "batteryRuntimeMin": 110,
+      "chargeTimeHours": 3.5,
+      "batteryCapacityMah": 4500,
+      "noiseLevelDb": 63,
+      "autoCleanDock": true,
+      "autoEmptyStation": false,
+      "mappingTechnology": "WIN-SLAM 4.0 Akıllı Yol Planlama",
+      "appControl": true,
+      "wetDryUsage": true,
+      "warrantyYears": 2
+    },
+    "storeOffers": [
+      {
+        "storeName": "Amazon TR",
+        "price": 28999,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.9,
+        "reviewCount": 1420,
+        "url": "https://www.amazon.com.tr/s?k=Ecovacs%20Winbot%20W2%20Omni%20Cam%20Temizleme%20Robotu",
+        "warrantyType": "Ecovacs Türkiye Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "price": 29449,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.8,
+        "reviewCount": 980,
+        "url": "https://www.hepsiburada.com/ara?q=Ecovacs%20Winbot%20W2%20Omni%20Cam%20Temizleme%20Robotu",
+        "warrantyType": "Ecovacs Türkiye Garantili"
+      },
+      {
+        "storeName": "Trendyol",
+        "price": 29689,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.8,
+        "reviewCount": 1120,
+        "url": "https://www.trendyol.com/sr?q=Ecovacs%20Winbot%20W2%20Omni%20Cam%20Temizleme%20Robotu",
+        "warrantyType": "2 Yıl Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "price": 29998,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.7,
+        "reviewCount": 650,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Ecovacs%20Winbot%20W2%20Omni%20Cam%20Temizleme%20Robotu",
+        "warrantyType": "Yetkili Satıcı Garantili"
+      },
+      {
+        "storeName": "Teknosa",
+        "price": 30199,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.7,
+        "reviewCount": 430,
+        "url": "https://www.teknosa.com/arama?s=Ecovacs%20Winbot%20W2%20Omni%20Cam%20Temizleme%20Robotu",
+        "warrantyType": "Resmi Türkiye Garantili"
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "price": 31609,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.7,
+        "reviewCount": 310,
+        "url": "https://www.vatanbilgisayar.com/arama/Ecovacs%20Winbot%20W2%20Omni%20Cam%20Temizleme%20Robotu/",
+        "warrantyType": "2 Yıl Distribütör Garantili"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 31319
+      },
+      {
+        "date": "2026-04-15",
+        "price": 30449
+      },
+      {
+        "date": "2026-06-01",
+        "price": 29869
+      },
+      {
+        "date": "2026-07-20",
+        "price": 29289
+      },
+      {
+        "date": "2026-08-27",
+        "price": 28999
+      }
+    ]
+  },
+  {
+    "id": "appliance-robot_vacuum-ecovacs-9",
+    "slug": "ecovacs-winbot-w1-pro",
+    "name": "Ecovacs Winbot W1 Pro Cam Temizleme Robotu",
+    "brand": "Ecovacs",
+    "category": "appliances",
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürge & Paspas",
+    "image": "https://images.unsplash.com/photo-1589923188900-85dae523342b?w=800&q=80",
+    "rating": 4.8,
+    "reviewCount": 260,
+    "basePrice": 16999,
+    "currency": "TL",
+    "releaseYear": 2023,
+    "isPopular": false,
+    "highlights": [
+      "Çift yönlü çapraz otomatik sprey püskürtme",
+      "2800 Pa Emniyetli Vakum Emişi",
+      "Akıllı kenar algılama sensörleri",
+      "Yüksek mikroelyaflı yıkanabilir temizlik pedi"
+    ],
+    "minPrice": 16999,
+    "maxPrice": 18529,
+    "storeCount": 6,
+    "inStock": true,
+    "specs": {
+      "masterCategory": "home_appliances",
+      "masterCategoryLabel": "Ev Aletleri / Temizlik & Yaşam",
+      "subCategory": "robot_vacuum",
+      "subCategoryLabel": "Robot Süpürge",
+      "brand": "Ecovacs",
+      "model": "Ecovacs Winbot W1 Pro Cam Temizleme Robotu",
+      "suctionPowerPa": 2800,
+      "batteryRuntimeMin": 60,
+      "chargeTimeHours": 2.5,
+      "batteryCapacityMah": 3000,
+      "noiseLevelDb": 65,
+      "autoCleanDock": false,
+      "autoEmptyStation": false,
+      "mappingTechnology": "WIN-SLAM 3.0 Yol Planlama",
+      "appControl": true,
+      "wetDryUsage": true,
+      "warrantyYears": 2
+    },
+    "storeOffers": [
+      {
+        "storeName": "Amazon TR",
+        "price": 16999,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.9,
+        "reviewCount": 1420,
+        "url": "https://www.amazon.com.tr/s?k=Ecovacs%20Winbot%20W1%20Pro%20Cam%20Temizleme%20Robotu",
+        "warrantyType": "Ecovacs Türkiye Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "price": 17449,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.8,
+        "reviewCount": 980,
+        "url": "https://www.hepsiburada.com/ara?q=Ecovacs%20Winbot%20W1%20Pro%20Cam%20Temizleme%20Robotu",
+        "warrantyType": "Ecovacs Türkiye Garantili"
+      },
+      {
+        "storeName": "Trendyol",
+        "price": 17689,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.8,
+        "reviewCount": 1120,
+        "url": "https://www.trendyol.com/sr?q=Ecovacs%20Winbot%20W1%20Pro%20Cam%20Temizleme%20Robotu",
+        "warrantyType": "2 Yıl Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "price": 17998,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.7,
+        "reviewCount": 650,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Ecovacs%20Winbot%20W1%20Pro%20Cam%20Temizleme%20Robotu",
+        "warrantyType": "Yetkili Satıcı Garantili"
+      },
+      {
+        "storeName": "Teknosa",
+        "price": 18199,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.7,
+        "reviewCount": 430,
+        "url": "https://www.teknosa.com/arama?s=Ecovacs%20Winbot%20W1%20Pro%20Cam%20Temizleme%20Robotu",
+        "warrantyType": "Resmi Türkiye Garantili"
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "price": 18529,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.7,
+        "reviewCount": 310,
+        "url": "https://www.vatanbilgisayar.com/arama/Ecovacs%20Winbot%20W1%20Pro%20Cam%20Temizleme%20Robotu/",
+        "warrantyType": "2 Yıl Distribütör Garantili"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 18359
+      },
+      {
+        "date": "2026-04-15",
+        "price": 17849
+      },
+      {
+        "date": "2026-06-01",
+        "price": 17509
+      },
+      {
+        "date": "2026-07-20",
+        "price": 17169
+      },
+      {
+        "date": "2026-08-27",
+        "price": 16999
+      }
+    ]
+  },
+  {
+    "id": "appliance-robot_vacuum-ecovacs-10",
+    "slug": "ecovacs-deebot-x5-pro-omni",
+    "name": "Ecovacs Deebot X5 Pro Omni Robot Süpürge",
+    "brand": "Ecovacs",
+    "category": "appliances",
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürge & Paspas",
+    "image": "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?w=800&q=80",
+    "rating": 5,
+    "reviewCount": 95,
+    "basePrice": 47999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "highlights": [
+      "12.800 Pa Zirve Emiş Gücü",
+      "Entegre Lazer Tasarımı ile 9.5 cm ultra ince profil",
+      "70°C Sıcak su mop yıkama ve 45°C sıcak hava kurutma",
+      "Yapay zekalı leke tespit ve çift geçiş modu"
+    ],
+    "minPrice": 47999,
+    "maxPrice": 52319,
+    "storeCount": 6,
+    "inStock": true,
+    "specs": {
+      "masterCategory": "home_appliances",
+      "masterCategoryLabel": "Ev Aletleri / Temizlik & Yaşam",
+      "subCategory": "robot_vacuum",
+      "subCategoryLabel": "Robot Süpürge",
+      "brand": "Ecovacs",
+      "model": "Ecovacs Deebot X5 Pro Omni Robot Süpürge",
+      "suctionPowerPa": 12800,
+      "batteryRuntimeMin": 240,
+      "chargeTimeHours": 4,
+      "batteryCapacityMah": 6400,
+      "noiseLevelDb": 62,
+      "autoCleanDock": true,
+      "autoEmptyStation": true,
+      "mappingTechnology": "TrueMapping 4.0 Solid-State LiDAR",
+      "appControl": true,
+      "wetDryUsage": true,
+      "warrantyYears": 2
+    },
+    "storeOffers": [
+      {
+        "storeName": "Amazon TR",
+        "price": 47999,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.9,
+        "reviewCount": 1420,
+        "url": "https://www.amazon.com.tr/s?k=Ecovacs%20Deebot%20X5%20Pro%20Omni%20Robot%20S%C3%BCp%C3%BCrge",
+        "warrantyType": "Ecovacs Türkiye Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "price": 48449,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.8,
+        "reviewCount": 980,
+        "url": "https://www.hepsiburada.com/ara?q=Ecovacs%20Deebot%20X5%20Pro%20Omni%20Robot%20S%C3%BCp%C3%BCrge",
+        "warrantyType": "Ecovacs Türkiye Garantili"
+      },
+      {
+        "storeName": "Trendyol",
+        "price": 48689,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.8,
+        "reviewCount": 1120,
+        "url": "https://www.trendyol.com/sr?q=Ecovacs%20Deebot%20X5%20Pro%20Omni%20Robot%20S%C3%BCp%C3%BCrge",
+        "warrantyType": "2 Yıl Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "price": 48998,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.7,
+        "reviewCount": 650,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Ecovacs%20Deebot%20X5%20Pro%20Omni%20Robot%20S%C3%BCp%C3%BCrge",
+        "warrantyType": "Yetkili Satıcı Garantili"
+      },
+      {
+        "storeName": "Teknosa",
+        "price": 49199,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.7,
+        "reviewCount": 430,
+        "url": "https://www.teknosa.com/arama?s=Ecovacs%20Deebot%20X5%20Pro%20Omni%20Robot%20S%C3%BCp%C3%BCrge",
+        "warrantyType": "Resmi Türkiye Garantili"
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "price": 52319,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.7,
+        "reviewCount": 310,
+        "url": "https://www.vatanbilgisayar.com/arama/Ecovacs%20Deebot%20X5%20Pro%20Omni%20Robot%20S%C3%BCp%C3%BCrge/",
+        "warrantyType": "2 Yıl Distribütör Garantili"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 51839
+      },
+      {
+        "date": "2026-04-15",
+        "price": 50399
+      },
+      {
+        "date": "2026-06-01",
+        "price": 49439
+      },
+      {
+        "date": "2026-07-20",
+        "price": 48479
+      },
+      {
+        "date": "2026-08-27",
+        "price": 47999
+      }
+    ]
+  },
 ];
