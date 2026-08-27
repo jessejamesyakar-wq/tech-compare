@@ -4,12 +4,12 @@ export const mockAppliances: ApplianceProduct[] = [
   {
     "id": "appliance-climate_heating-air_conditioner-110",
     "slug": "copa-viva-line-12000-btu-inverter-a-split-klima",
-    "name": "Copa Viva Line 12000 BTU Inverter A++ Split Klima",
+    "name": "Ecovacs Winbot 920 Cam Temizleme Robotu",
     "brand": "Copa",
     "category": "appliances",
     "subCategory": "air_conditioner",
     "subCategoryLabel": "Klima & İklimlendirme",
-    "image": "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?w=800&q=80",
+    "image": "https://resim.epey.com/714547/k_ecovacs-winbot-920-1.jpg",
     "rating": 4.9,
     "reviewCount": 330,
     "basePrice": 21999,
@@ -75691,8 +75691,7 @@ export const mockAppliances: ApplianceProduct[] = [
     "subCategoryLabel": "Klima",
     "minPrice": 42999,
     "maxPrice": 48159
-  }
-,
+  },
   {
     "id": "appliance-robot_vacuum-ecovacs-1",
     "slug": "ecovacs-deebot-x2-omni",
@@ -75701,7 +75700,7 @@ export const mockAppliances: ApplianceProduct[] = [
     "category": "appliances",
     "subCategory": "robot_vacuum",
     "subCategoryLabel": "Robot Süpürge & Paspas",
-    "image": "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?w=800&q=80",
+    "image": "https://resim.epey.com/890838/k_ecovacs-deebot-x2-omni-1.jpg",
     "rating": 4.9,
     "reviewCount": 412,
     "basePrice": 42999,
@@ -75831,12 +75830,12 @@ export const mockAppliances: ApplianceProduct[] = [
   {
     "id": "appliance-robot_vacuum-ecovacs-2",
     "slug": "ecovacs-deebot-t30-pro-omni",
-    "name": "Ecovacs Deebot T30 Pro Omni Robot Süpürge",
+    "name": "Ecovacs Deebot T30 Pro Omni Robot Süpürge ve Mop",
     "brand": "Ecovacs",
     "category": "appliances",
     "subCategory": "robot_vacuum",
     "subCategoryLabel": "Robot Süpürge & Paspas",
-    "image": "https://images.unsplash.com/photo-1589923188900-85dae523342b?w=800&q=80",
+    "image": "https://resim.epey.com/973119/k_ecovacs-deebot-t30-pro-omni-1.png",
     "rating": 4.9,
     "reviewCount": 328,
     "basePrice": 38999,
@@ -75859,7 +75858,7 @@ export const mockAppliances: ApplianceProduct[] = [
       "subCategory": "robot_vacuum",
       "subCategoryLabel": "Robot Süpürge",
       "brand": "Ecovacs",
-      "model": "Ecovacs Deebot T30 Pro Omni Robot Süpürge",
+      "model": "Ecovacs Deebot T30 Pro Omni Robot Süpürge ve Mop",
       "suctionPowerPa": 11000,
       "batteryRuntimeMin": 220,
       "chargeTimeHours": 4.5,
@@ -76101,12 +76100,12 @@ export const mockAppliances: ApplianceProduct[] = [
   {
     "id": "appliance-robot_vacuum-ecovacs-4",
     "slug": "ecovacs-deebot-x1-omni",
-    "name": "Ecovacs Deebot X1 Omni Robot Süpürge",
+    "name": "Ecovacs Deebot X1 Omni Robot Süpürge ve Mop",
     "brand": "Ecovacs",
     "category": "appliances",
     "subCategory": "robot_vacuum",
     "subCategoryLabel": "Robot Süpürge & Paspas",
-    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&q=80",
+    "image": "https://resim.epey.com/760093/k_ecovacs-deebot-x1-omni-1.png",
     "rating": 4.8,
     "reviewCount": 680,
     "basePrice": 34999,
@@ -76129,7 +76128,7 @@ export const mockAppliances: ApplianceProduct[] = [
       "subCategory": "robot_vacuum",
       "subCategoryLabel": "Robot Süpürge",
       "brand": "Ecovacs",
-      "model": "Ecovacs Deebot X1 Omni Robot Süpürge",
+      "model": "Ecovacs Deebot X1 Omni Robot Süpürge ve Mop",
       "suctionPowerPa": 5000,
       "batteryRuntimeMin": 260,
       "chargeTimeHours": 5,
@@ -76241,7 +76240,7 @@ export const mockAppliances: ApplianceProduct[] = [
     "category": "appliances",
     "subCategory": "robot_vacuum",
     "subCategoryLabel": "Robot Süpürge & Paspas",
-    "image": "https://images.unsplash.com/photo-1527515637462-cff94eecc1ac?w=800&q=80",
+    "image": "https://resim.epey.com/995339/k_ecovacs-deebot-n20-pro-plus-1.png",
     "rating": 4.7,
     "reviewCount": 190,
     "basePrice": 21999,
@@ -76376,7 +76375,7 @@ export const mockAppliances: ApplianceProduct[] = [
     "category": "appliances",
     "subCategory": "robot_vacuum",
     "subCategoryLabel": "Robot Süpürge & Paspas",
-    "image": "https://images.unsplash.com/photo-1563453392212-326f5e854473?w=800&q=80",
+    "image": "https://resim.epey.com/859766/k_ecovacs-deebot-n10-plus-1.png",
     "rating": 4.7,
     "reviewCount": 450,
     "basePrice": 18499,
@@ -76511,7 +76510,7 @@ export const mockAppliances: ApplianceProduct[] = [
     "category": "appliances",
     "subCategory": "robot_vacuum",
     "subCategoryLabel": "Robot Süpürge & Paspas",
-    "image": "https://images.unsplash.com/photo-1546868871-7041f2a55e12?w=800&q=80",
+    "image": "https://resim.epey.com/694149/k_ecovacs-deebot-t9-aivi-1.png",
     "rating": 4.6,
     "reviewCount": 380,
     "basePrice": 17999,
@@ -76646,7 +76645,7 @@ export const mockAppliances: ApplianceProduct[] = [
     "category": "appliances",
     "subCategory": "robot_vacuum",
     "subCategoryLabel": "Robot Süpürge & Paspas",
-    "image": "https://images.unsplash.com/photo-1527515637462-cff94eecc1ac?w=800&q=80",
+    "image": "https://resim.epey.com/963394/k_ecovacs-winbot-w2-omni-1.png",
     "rating": 4.9,
     "reviewCount": 145,
     "basePrice": 28999,
@@ -76781,7 +76780,7 @@ export const mockAppliances: ApplianceProduct[] = [
     "category": "appliances",
     "subCategory": "robot_vacuum",
     "subCategoryLabel": "Robot Süpürge & Paspas",
-    "image": "https://images.unsplash.com/photo-1589923188900-85dae523342b?w=800&q=80",
+    "image": "https://resim.epey.com/863885/k_ecovacs-winbot-w1-pro-1.png",
     "rating": 4.8,
     "reviewCount": 260,
     "basePrice": 16999,
@@ -76916,7 +76915,7 @@ export const mockAppliances: ApplianceProduct[] = [
     "category": "appliances",
     "subCategory": "robot_vacuum",
     "subCategoryLabel": "Robot Süpürge & Paspas",
-    "image": "https://resim.epey.com/995351/k_ecovacs-deebot-x5-pro-omni-1.png",
+    "image": "https://resim.epey.com/1046376/k_ecovacs-deebot-x5-pro-omni-1.png",
     "rating": 5,
     "reviewCount": 95,
     "basePrice": 47999,
@@ -77043,7 +77042,7 @@ export const mockAppliances: ApplianceProduct[] = [
       }
     ]
   },
-{
+  {
     "id": "appliance-robot_vacuum-ecovacs-ext-1",
     "slug": "ecovacs-deebot-t30s-pro",
     "name": "Ecovacs Deebot T30S Pro Robot Süpürge",
@@ -77051,7 +77050,7 @@ export const mockAppliances: ApplianceProduct[] = [
     "category": "appliances",
     "subCategory": "robot_vacuum",
     "subCategoryLabel": "Robot Süpürge & Paspas",
-    "image": "https://images.unsplash.com/photo-1589923188900-85dae523342b?w=800&q=80",
+    "image": "https://resim.epey.com/995351/k_ecovacs-deebot-t30s-pro-1.png",
     "rating": 4.9,
     "reviewCount": 165,
     "basePrice": 41999,
@@ -77313,7 +77312,7 @@ export const mockAppliances: ApplianceProduct[] = [
     "category": "appliances",
     "subCategory": "robot_vacuum",
     "subCategoryLabel": "Robot Süpürge & Paspas",
-    "image": "https://images.unsplash.com/photo-1558317374-067fb5f30001?w=800&q=80",
+    "image": "https://resim.epey.com/838152/k_ecovacs-deebot-t10-plus-1.png",
     "rating": 4.7,
     "reviewCount": 280,
     "basePrice": 22499,
@@ -77439,12 +77438,12 @@ export const mockAppliances: ApplianceProduct[] = [
   {
     "id": "appliance-robot_vacuum-ecovacs-ext-4",
     "slug": "ecovacs-deebot-n8-pro-plus",
-    "name": "Ecovacs Deebot N8 Pro Plus Robot Süpürge",
+    "name": "Ecovacs Deebot N8 Pro+ Robot Süpürge",
     "brand": "Ecovacs",
     "category": "appliances",
     "subCategory": "robot_vacuum",
     "subCategoryLabel": "Robot Süpürge & Paspas",
-    "image": "https://images.unsplash.com/photo-1563453392212-326f5e854473?w=800&q=80",
+    "image": "https://resim.epey.com/677722/k_ecovacs-deebot-n8-pro-plus-1.jpg",
     "rating": 4.7,
     "reviewCount": 540,
     "basePrice": 16499,
@@ -77467,7 +77466,7 @@ export const mockAppliances: ApplianceProduct[] = [
       "subCategory": "robot_vacuum",
       "subCategoryLabel": "Robot Süpürge",
       "brand": "Ecovacs",
-      "model": "Ecovacs Deebot N8 Pro Plus Robot Süpürge",
+      "model": "Ecovacs Deebot N8 Pro+ Robot Süpürge",
       "suctionPowerPa": 2600,
       "batteryRuntimeMin": 110,
       "chargeTimeHours": 4,
@@ -77575,7 +77574,7 @@ export const mockAppliances: ApplianceProduct[] = [
     "category": "appliances",
     "subCategory": "robot_vacuum",
     "subCategoryLabel": "Robot Süpürge & Paspas",
-    "image": "https://images.unsplash.com/photo-1546868871-7041f2a55e12?w=800&q=80",
+    "image": "https://resim.epey.com/677722/k_ecovacs-deebot-n8-pro-1.jpg",
     "rating": 4.6,
     "reviewCount": 420,
     "basePrice": 12999,
@@ -77701,12 +77700,12 @@ export const mockAppliances: ApplianceProduct[] = [
   {
     "id": "appliance-robot_vacuum-ecovacs-ext-6",
     "slug": "ecovacs-deebot-ozmo-950",
-    "name": "Ecovacs Deebot Ozmo 950 Robot Süpürge",
+    "name": "Ecovacs Deebot OZMO 950 Robot Süpürge",
     "brand": "Ecovacs",
     "category": "appliances",
     "subCategory": "robot_vacuum",
     "subCategoryLabel": "Robot Süpürge & Paspas",
-    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&q=80",
+    "image": "https://resim.epey.com/594160/k_ecovacs-deebot-ozmo-950-1.jpg",
     "rating": 4.5,
     "reviewCount": 610,
     "basePrice": 11499,
@@ -77729,7 +77728,7 @@ export const mockAppliances: ApplianceProduct[] = [
       "subCategory": "robot_vacuum",
       "subCategoryLabel": "Robot Süpürge",
       "brand": "Ecovacs",
-      "model": "Ecovacs Deebot Ozmo 950 Robot Süpürge",
+      "model": "Ecovacs Deebot OZMO 950 Robot Süpürge",
       "suctionPowerPa": 1500,
       "batteryRuntimeMin": 200,
       "chargeTimeHours": 4.5,
@@ -77832,12 +77831,12 @@ export const mockAppliances: ApplianceProduct[] = [
   {
     "id": "appliance-robot_vacuum-ecovacs-ext-7",
     "slug": "ecovacs-deebot-ozmo-t8-aivi",
-    "name": "Ecovacs Deebot Ozmo T8 AIVI Robot Süpürge",
+    "name": "Ecovacs Deebot OZMO T8 AIVI Robot Süpürge",
     "brand": "Ecovacs",
     "category": "appliances",
     "subCategory": "robot_vacuum",
     "subCategoryLabel": "Robot Süpürge & Paspas",
-    "image": "https://images.unsplash.com/photo-1527515637462-cff94eecc1ac?w=800&q=80",
+    "image": "https://resim.epey.com/640182/k_ecovacs-deebot-ozmo-t8-aivi-1.jpg",
     "rating": 4.6,
     "reviewCount": 390,
     "basePrice": 15999,
@@ -77860,7 +77859,7 @@ export const mockAppliances: ApplianceProduct[] = [
       "subCategory": "robot_vacuum",
       "subCategoryLabel": "Robot Süpürge",
       "brand": "Ecovacs",
-      "model": "Ecovacs Deebot Ozmo T8 AIVI Robot Süpürge",
+      "model": "Ecovacs Deebot OZMO T8 AIVI Robot Süpürge",
       "suctionPowerPa": 1500,
       "batteryRuntimeMin": 180,
       "chargeTimeHours": 4.5,
@@ -77968,7 +77967,7 @@ export const mockAppliances: ApplianceProduct[] = [
     "category": "appliances",
     "subCategory": "robot_vacuum",
     "subCategoryLabel": "Robot Süpürge & Paspas",
-    "image": "https://images.unsplash.com/photo-1589923188900-85dae523342b?w=800&q=80",
+    "image": "https://resim.epey.com/1046376/k_ecovacs-deebot-n30-pro-omni-1.png",
     "rating": 4.9,
     "reviewCount": 110,
     "basePrice": 29999,
@@ -78099,7 +78098,7 @@ export const mockAppliances: ApplianceProduct[] = [
     "category": "appliances",
     "subCategory": "robot_vacuum",
     "subCategoryLabel": "Robot Süpürge & Paspas",
-    "image": "https://images.unsplash.com/photo-1558317374-067fb5f30001?w=800&q=80",
+    "image": "https://resim.epey.com/955254/k_ecovacs-deebot-y1-pro-plus-1.jpg",
     "rating": 4.5,
     "reviewCount": 210,
     "basePrice": 9999,
@@ -78230,7 +78229,7 @@ export const mockAppliances: ApplianceProduct[] = [
     "category": "appliances",
     "subCategory": "robot_vacuum",
     "subCategoryLabel": "Robot Süpürge & Paspas",
-    "image": "https://images.unsplash.com/photo-1527515637462-cff94eecc1ac?w=800&q=80",
+    "image": "https://resim.epey.com/714547/k_ecovacs-winbot-920-1.jpg",
     "rating": 4.7,
     "reviewCount": 180,
     "basePrice": 13999,
@@ -78352,8 +78351,7 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 13999
       }
     ]
-  }
-,
+  },
   {
     "id": "appliance-robot_vacuum-irobot-1",
     "slug": "irobot-roomba-combo-10-max",
@@ -81235,8 +81233,7 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 13999
       }
     ]
-  }
-,
+  },
   {
     "id": "appliance-robot_vacuum-samsung-prem-1",
     "slug": "samsung-jet-bot-combo-ai",
@@ -82153,8 +82150,7 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 18499
       }
     ]
-  }
-,
+  },
   {
     "id": "appliance-robot_vacuum-irobot-p2-1",
     "slug": "irobot-roomba-e5",
@@ -83202,8 +83198,7 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 6499
       }
     ]
-  }
-,
+  },
   {
     "id": "appliance-robot_vacuum-ecovacs-exp-1",
     "slug": "ecovacs-deebot-x2-combo",
