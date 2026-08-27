@@ -366,18 +366,6 @@ export function BrandLogoBar({ onSelectBrand }: { onSelectBrand?: (brand: string
         </div>
 
         <div className="flex items-center gap-3">
-          <button
-            onClick={() => {
-              setEditingBrand(BRAND_CONFIGS[0].name);
-              setStorageError(null);
-              setIsModalOpen(true);
-            }}
-            className="inline-flex items-center gap-1.5 bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 dark:hover:bg-slate-700 text-slate-700 dark:text-slate-200 text-xs font-bold px-3.5 py-2 rounded-xl border border-slate-200 dark:border-slate-700 transition-all cursor-pointer"
-          >
-            <Upload className="w-3.5 h-3.5 text-emerald-600" />
-            <span>Kendi Logonuzu Yükleyin</span>
-          </button>
-
           <Link
             href="/phones"
             className="inline-flex items-center gap-2 text-xs font-black text-emerald-600 dark:text-emerald-400 hover:text-emerald-700 dark:hover:text-emerald-300 transition-colors cursor-pointer group"
