@@ -28,6 +28,11 @@ export interface BaseProduct {
   releaseYear: number;
   isPopular?: boolean;
   isFeatured?: boolean;
+  barcode?: string;
+  ean?: string;
+  gtin?: string;
+  sku?: string;
+  model?: string;
   highlights: string[];
   tags?: string[];
   storeOffers: StoreOffer[];
@@ -292,6 +297,8 @@ export interface StoreOffer {
   shippingFee?: number;
   freeShipping?: boolean;
   warrantyType?: string;
+  sellerName?: string;
+  affiliateUrl?: string;
   url?: string;
 }
 
