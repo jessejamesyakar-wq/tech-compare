@@ -17,12 +17,12 @@ export function DualBrandCorner3DBillboard({
     <section className="w-full py-2 sm:py-3 flex items-center justify-center select-none">
       <div className="w-full max-w-[1260px] flex flex-col lg:flex-row items-center justify-between gap-3 sm:gap-5 lg:gap-6 bg-white dark:bg-slate-900 rounded-3xl border border-slate-200/90 dark:border-slate-800 px-3 py-2 sm:px-6 sm:py-3 lg:px-7 lg:py-2.5 shadow-2xl relative overflow-hidden">
         
-        {/* Soft Multi-Color Ambient Glow (Trendyol Orange on left, MediaMarkt Red on right) */}
+        {/* Soft Multi-Color Ambient Glow */}
         <div className="absolute top-1/2 -left-10 -translate-y-1/2 w-96 h-96 bg-[#F27A1A]/12 rounded-full blur-3xl pointer-events-none" />
         <div className="absolute top-1/2 left-1/3 -translate-y-1/2 w-96 h-96 bg-[#E60000]/12 rounded-full blur-3xl pointer-events-none" />
 
         {/* ========================================================================= */}
-        {/* 🏢 3D CORNER BILLBOARD STRUCTURE (Sol Kare Trendyol + Sağ Dikdörtgen MM)  */}
+        {/* 🏢 3D CORNER BILLBOARD STRUCTURE (Sol: Trendyol | Sağ: MediaMarkt)        */}
         {/* ========================================================================= */}
         <div className="flex-1 w-full max-w-[940px] flex items-center justify-center lg:justify-start">
           
@@ -47,7 +47,7 @@ export function DualBrandCorner3DBillboard({
             >
               
               {/* =================================================================== */}
-              {/* 1. SOL KARE CEPHE (TRENDYOL REKLAMI - PERSPEKTİF AÇILI DERİNLİK)     */}
+              {/* 1. SOL KARE CEPHE (TRENDYOL MARKA KAMPANYASI)                       */}
               {/* =================================================================== */}
               <div
                 className="relative w-[34%] h-full flex flex-col justify-between"
@@ -76,7 +76,7 @@ export function DualBrandCorner3DBillboard({
                   }}
                 />
 
-                {/* Trendyol Reklam Paneli */}
+                {/* Trendyol Reklam Paneli (Ürünsüz, Saf Kampanya) */}
                 <a
                   href={trendyolUrl}
                   target="_blank"
@@ -110,11 +110,11 @@ export function DualBrandCorner3DBillboard({
                           trendyol
                         </span>
                         <span className="bg-black/70 text-yellow-300 text-[8px] xs:text-[9px] sm:text-[10px] font-black px-2 py-0.5 rounded-full border border-yellow-400/40">
-                          SÜPER FIRSAT
+                          FIRSAT
                         </span>
                       </div>
                       <div className="mt-1 xs:mt-2 text-[10px] xs:text-xs sm:text-sm font-bold text-white/90 leading-tight">
-                        Elektronikte Dev Günler
+                        Büyük İndirim Günleri
                       </div>
                     </div>
 
@@ -124,7 +124,7 @@ export function DualBrandCorner3DBillboard({
                         ₺1.500 KUPON
                       </div>
                       <p className="mt-1 text-[8px] xs:text-[9px] sm:text-[11px] text-white/90 text-center font-semibold">
-                        Seçili Telefon & Tabletlerde
+                        Tüm Alışverişlerde Geçerli
                       </p>
                     </div>
 
@@ -154,7 +154,7 @@ export function DualBrandCorner3DBillboard({
               />
 
               {/* =================================================================== */}
-              {/* 2. SAĞ DİKDÖRTGEN CEPHE (MEDIAMARKT REKLAMI - PERSPEKTİF AÇILI)     */}
+              {/* 2. SAĞ DİKDÖRTGEN CEPHE (MEDIAMARKT MARKA KAMPANYASI)               */}
               {/* =================================================================== */}
               <div
                 className="relative w-[66%] h-full -ml-[2px] flex flex-col justify-between"
@@ -183,7 +183,7 @@ export function DualBrandCorner3DBillboard({
                   }}
                 />
 
-                {/* MediaMarkt Reklam Paneli */}
+                {/* MediaMarkt Reklam Paneli (Ürünsüz, Saf Kampanya) */}
                 <a
                   href={mediaMarktUrl}
                   target="_blank"
@@ -229,7 +229,7 @@ export function DualBrandCorner3DBillboard({
                     {/* Headline Offer */}
                     <div className="space-y-1">
                       <h2 className="text-base xs:text-lg sm:text-2xl md:text-3xl font-black text-white leading-tight tracking-tight drop-shadow-md">
-                        Teknolojide Yılın En Büyük Fırsatları
+                        Büyük Teknoloji Festivali Başladı
                       </h2>
                       
                       <div className="inline-block bg-black/80 backdrop-blur-xs px-3 sm:px-4 py-1 rounded-xl border border-white/20 shadow-md">
@@ -239,16 +239,16 @@ export function DualBrandCorner3DBillboard({
                       </div>
                       
                       <p className="text-white/90 text-[11px] xs:text-xs sm:text-sm font-semibold">
-                        Seçili Apple, Samsung, Dyson ve Sony Ürünlerinde Geçerli
+                        Club Üyelerine Özel Avantajlar ve Sürpriz Fırsatlar
                       </p>
                     </div>
 
                     {/* Footer Row: Tags & CTA */}
                     <div className="pt-2 border-t border-white/25 flex items-center justify-between gap-2">
                       <div className="hidden xs:flex items-center gap-2 text-[9px] sm:text-[11px] font-bold text-white/90">
-                        <span>✓ Peşin Fiyatına 6 Taksit</span>
+                        <span>✓ Peşin Fiyatına Taksit</span>
                         <span>•</span>
-                        <span>✓ Mağazadan Teslim</span>
+                        <span>✓ Aynı Gün Teslimat</span>
                       </div>
 
                       <div className="bg-white text-[#CC0000] font-black text-xs sm:text-sm px-4 py-1.5 rounded-xl shadow-lg group-hover:scale-105 transition-transform flex items-center gap-1">
