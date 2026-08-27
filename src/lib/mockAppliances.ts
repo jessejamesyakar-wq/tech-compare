@@ -82634,5 +82634,1192 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 46999
       }
     ]
+  },
+  {
+    "id": "appliance-robot_vacuum-ecovacs-x11-omnicyclone",
+    "slug": "ecovacs-deebot-x11-omnicyclone",
+    "name": "Ecovacs Deebot X11 OmniCyclone Robot Süpürge ve Paspas",
+    "brand": "Ecovacs",
+    "category": "appliances",
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürge",
+    "rating": 4.9,
+    "reviewCount": 48,
+    "basePrice": 59999,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "highlights": [
+      "19.500 Pa Blast Emiş Gücü",
+      "OmniCyclone Torbasız Siklon İstasyon",
+      "TruEdge 2.0 Hassas Kenar Temizliği",
+      "ZeroTangle 4.0 Dolanma Önleyici Fırça",
+      "75°C Sıcak Su ile Otomatik Paspas Yıkama"
+    ],
+    "minPrice": 59999,
+    "maxPrice": 64999,
+    "storeCount": 4,
+    "inStock": true,
+    "isPopular": true,
+    "specs": {
+      "masterCategory": "home_appliances",
+      "masterCategoryLabel": "Ev Aletleri / Temizlik & Yaşam",
+      "subCategory": "robot_vacuum",
+      "subCategoryLabel": "Robot Süpürge",
+      "brand": "Ecovacs",
+      "model": "Deebot X11 OmniCyclone",
+      "suctionPa": 19500,
+      "navigationType": "TrueMapping 3.0 LiDAR + AIVI 3D RGB",
+      "obstacleAvoidance": "AIVI 3D 3.0 Yapay Zeka Engel Tanıma",
+      "stationType": "OmniCyclone Çok İşlevli Torbasız İstasyon",
+      "moppingType": "OZMO Turbo 2.0 Dönen Çift Disk & TruEdge Genişleyen Mop",
+      "mopLiftingMm": 15,
+      "autoEmpty": true,
+      "autoMopWash": true,
+      "mopWashingTempC": 75,
+      "autoMopDry": true,
+      "batteryCapacityMah": 6400,
+      "runTimeMinutes": 240,
+      "noiseDb": 62,
+      "dustbinVolumeMl": 400,
+      "waterTankVolumeMl": 240,
+      "color": "Siyah / Titanyum"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Ecovacs Türkiye",
+        "price": 59999,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.9,
+        "reviewCount": 120,
+        "url": "https://www.ecovacsturkiye.shop/ecovacs-deebot-x11-omnicyclone-robot-supurge-132",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "price": 61999,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.8,
+        "reviewCount": 540,
+        "url": "https://www.mediamarkt.com.tr",
+        "warrantyType": "MediaMarkt Türkiye Garantili"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "price": 62499,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.7,
+        "reviewCount": 380,
+        "url": "https://www.hepsiburada.com",
+        "warrantyType": "Resmi Distribütör Garantili"
+      }
+    ],
+    "image": "/images/appliances/ecovacs-deebot-x11-omnicyclone.webp",
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 64799
+      },
+      {
+        "date": "2026-06-01",
+        "price": 62399
+      },
+      {
+        "date": "2026-07-01",
+        "price": 61199
+      },
+      {
+        "date": "2026-08-01",
+        "price": 59999
+      }
+    ]
+  },
+  {
+    "id": "appliance-robot_vacuum-ecovacs-x11-pro-omni",
+    "slug": "ecovacs-deebot-x11-pro-omni",
+    "name": "Ecovacs Deebot X11 Pro Omni Robot Süpürge ve Paspas",
+    "brand": "Ecovacs",
+    "category": "appliances",
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürge",
+    "rating": 4.9,
+    "reviewCount": 32,
+    "basePrice": 64999,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "highlights": [
+      "20.000 Pa Ultra Yüksek Emiş",
+      "Tam Otomatik All-in-One OMNI İstasyon",
+      "Deterjan Otomatik Dozajlama",
+      "ZeroTangle 4.0 Dolaşmasız Rulo",
+      "75°C Termal Hijyen Yıkama"
+    ],
+    "minPrice": 64999,
+    "maxPrice": 69999,
+    "storeCount": 3,
+    "inStock": true,
+    "isPopular": true,
+    "specs": {
+      "masterCategory": "home_appliances",
+      "masterCategoryLabel": "Ev Aletleri / Temizlik & Yaşam",
+      "subCategory": "robot_vacuum",
+      "subCategoryLabel": "Robot Süpürge",
+      "brand": "Ecovacs",
+      "model": "Deebot X11 Pro Omni",
+      "suctionPa": 20000,
+      "navigationType": "TrueMapping 3.0 LiDAR + AIVI 3D",
+      "obstacleAvoidance": "AIVI 3D Yapay Zeka Kamera",
+      "stationType": "All-in-One OMNI İstasyon (Toz Torbalı & Sıcak Su)",
+      "moppingType": "OZMO Turbo 2.0 Dönen Çift Disk & TruEdge Mop",
+      "mopLiftingMm": 15,
+      "autoEmpty": true,
+      "autoMopWash": true,
+      "mopWashingTempC": 75,
+      "autoMopDry": true,
+      "batteryCapacityMah": 6400,
+      "runTimeMinutes": 240,
+      "noiseDb": 63,
+      "dustbinVolumeMl": 400,
+      "waterTankVolumeMl": 240,
+      "color": "Siyah"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Ecovacs Türkiye",
+        "price": 64999,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.9,
+        "reviewCount": 95,
+        "url": "https://www.ecovacsturkiye.shop/ecovacs-deebot-x11-pro-omni-robot-supurge-133",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Trendyol",
+        "price": 66999,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.8,
+        "reviewCount": 210,
+        "url": "https://www.trendyol.com",
+        "warrantyType": "Resmi Distribütör Garantili"
+      }
+    ],
+    "image": "/images/appliances/ecovacs-deebot-x11-pro-omni.webp",
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 70199
+      },
+      {
+        "date": "2026-06-01",
+        "price": 67599
+      },
+      {
+        "date": "2026-07-01",
+        "price": 66299
+      },
+      {
+        "date": "2026-08-01",
+        "price": 64999
+      }
+    ]
+  },
+  {
+    "id": "appliance-robot_vacuum-ecovacs-x8-pro-omni",
+    "slug": "ecovacs-deebot-x8-pro-omni",
+    "name": "Ecovacs Deebot X8 Pro Omni Islak & Kuru Robot Süpürge",
+    "brand": "Ecovacs",
+    "category": "appliances",
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürge",
+    "rating": 4.9,
+    "reviewCount": 64,
+    "basePrice": 54999,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "highlights": [
+      "OZMO ROLLER Aktif Dönen Silindir Mop",
+      "18.000 Pa Güçlü Emiş Gücü",
+      "FocusJet Yüksek Basınçlı Leke Çözücü",
+      "TruEdge Kenar Temizleme",
+      "75°C Sıcak Su ile Rulo Yıkama & Sıcak Hava Kurutma"
+    ],
+    "minPrice": 54999,
+    "maxPrice": 59999,
+    "storeCount": 4,
+    "inStock": true,
+    "isPopular": true,
+    "specs": {
+      "masterCategory": "home_appliances",
+      "masterCategoryLabel": "Ev Aletleri / Temizlik & Yaşam",
+      "subCategory": "robot_vacuum",
+      "subCategoryLabel": "Robot Süpürge",
+      "brand": "Ecovacs",
+      "model": "Deebot X8 Pro Omni",
+      "suctionPa": 18000,
+      "navigationType": "TrueMapping 3.0 dToF LiDAR + AIVI 3D",
+      "obstacleAvoidance": "AIVI 3D 2.0 AI Vision",
+      "stationType": "OMNI Rulo Temizleme ve Toz Boşaltma İstasyonu",
+      "moppingType": "OZMO ROLLER 200 RPM Basınçlı Aktif Silindir Mop",
+      "mopLiftingMm": 12,
+      "autoEmpty": true,
+      "autoMopWash": true,
+      "mopWashingTempC": 75,
+      "autoMopDry": true,
+      "batteryCapacityMah": 6400,
+      "runTimeMinutes": 220,
+      "noiseDb": 64,
+      "dustbinVolumeMl": 350,
+      "waterTankVolumeMl": 220,
+      "color": "Siyah"
+    },
+    "storeOffers": [
+      {
+        "storeName": "MediaMarkt",
+        "price": 54999,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.8,
+        "reviewCount": 310,
+        "url": "https://www.mediamarkt.com.tr",
+        "warrantyType": "MediaMarkt Türkiye Garantili"
+      },
+      {
+        "storeName": "Ecovacs Türkiye",
+        "price": 54999,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.9,
+        "reviewCount": 88,
+        "url": "https://www.ecovacsturkiye.shop",
+        "warrantyType": "Resmi Distribütör Garantili"
+      }
+    ],
+    "image": "/images/appliances/ecovacs-deebot-x8-pro-omni.webp",
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 59399
+      },
+      {
+        "date": "2026-06-01",
+        "price": 57199
+      },
+      {
+        "date": "2026-07-01",
+        "price": 56099
+      },
+      {
+        "date": "2026-08-01",
+        "price": 54999
+      }
+    ]
+  },
+  {
+    "id": "appliance-robot_vacuum-ecovacs-t90-pro-omni",
+    "slug": "ecovacs-deebot-t90-pro-omni",
+    "name": "Ecovacs Deebot T90 Pro Omni Robot Süpürge ve Paspas",
+    "brand": "Ecovacs",
+    "category": "appliances",
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürge",
+    "rating": 5,
+    "reviewCount": 42,
+    "basePrice": 49999,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "highlights": [
+      "30.000 Pa Rekor Emiş Gücü",
+      "ZeroTangle 4.0 Hava Akışlı Dolanmaz Teknoloji",
+      "TruEdge 2.0 Sürekli Kenar Teması",
+      "75°C Sıcak Su Paspas Yıkama",
+      "Kompakt Mini OMNI İstasyon"
+    ],
+    "minPrice": 49999,
+    "maxPrice": 53999,
+    "storeCount": 4,
+    "inStock": true,
+    "isPopular": true,
+    "specs": {
+      "masterCategory": "home_appliances",
+      "masterCategoryLabel": "Ev Aletleri / Temizlik & Yaşam",
+      "subCategory": "robot_vacuum",
+      "subCategoryLabel": "Robot Süpürge",
+      "brand": "Ecovacs",
+      "model": "Deebot T90 Pro Omni",
+      "suctionPa": 30000,
+      "navigationType": "TrueMapping 3.0 LiDAR + TrueDetect 3D 3.0",
+      "obstacleAvoidance": "TrueDetect 3D 3.0 Yapılandırılmış Işık",
+      "stationType": "Kompakt Mini OMNI İstasyonu",
+      "moppingType": "OZMO Turbo 2.0 Dönen Çift Disk & TruEdge Mop",
+      "mopLiftingMm": 15,
+      "autoEmpty": true,
+      "autoMopWash": true,
+      "mopWashingTempC": 75,
+      "autoMopDry": true,
+      "batteryCapacityMah": 5200,
+      "runTimeMinutes": 200,
+      "noiseDb": 65,
+      "dustbinVolumeMl": 300,
+      "waterTankVolumeMl": 200,
+      "color": "Siyah"
+    },
+    "storeOffers": [
+      {
+        "storeName": "MediaMarkt",
+        "price": 49999,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.8,
+        "reviewCount": 410,
+        "url": "https://www.mediamarkt.com.tr",
+        "warrantyType": "MediaMarkt Türkiye Garantili"
+      },
+      {
+        "storeName": "Ecovacs Türkiye",
+        "price": 49999,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.9,
+        "reviewCount": 115,
+        "url": "https://www.ecovacsturkiye.shop/ecovacs-deebot-t90-pro-omni-robot-supurge-ve-paspas-30-000pa-guclu-emis-zerotangle-4-0-235",
+        "warrantyType": "Resmi Distribütör Garantili"
+      }
+    ],
+    "image": "/images/appliances/ecovacs-deebot-t90-pro-omni.webp",
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 53999
+      },
+      {
+        "date": "2026-06-01",
+        "price": 51999
+      },
+      {
+        "date": "2026-07-01",
+        "price": 50999
+      },
+      {
+        "date": "2026-08-01",
+        "price": 49999
+      }
+    ]
+  },
+  {
+    "id": "appliance-robot_vacuum-ecovacs-t80s-omni",
+    "slug": "ecovacs-deebot-t80s-omni",
+    "name": "Ecovacs Deebot T80S Omni Robot Süpürge ve Paspas",
+    "brand": "Ecovacs",
+    "category": "appliances",
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürge",
+    "rating": 4.8,
+    "reviewCount": 39,
+    "basePrice": 39999,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "highlights": [
+      "24.800 Pa Yüksek Emiş Gücü",
+      "ZeroTangle 3.0 Çift Tarak Dizilimi",
+      "75°C Sıcak Sulu Paspas Yıkama",
+      "TruEdge Akıllı Kenar Adaptasyonu",
+      "Kendi Kendini Temizleyen İstasyon"
+    ],
+    "minPrice": 39999,
+    "maxPrice": 42999,
+    "storeCount": 3,
+    "inStock": true,
+    "isPopular": false,
+    "specs": {
+      "masterCategory": "home_appliances",
+      "masterCategoryLabel": "Ev Aletleri / Temizlik & Yaşam",
+      "subCategory": "robot_vacuum",
+      "subCategoryLabel": "Robot Süpürge",
+      "brand": "Ecovacs",
+      "model": "Deebot T80S Omni",
+      "suctionPa": 24800,
+      "navigationType": "TrueMapping 2.0 LiDAR + TrueDetect 3D",
+      "obstacleAvoidance": "TrueDetect 3D",
+      "stationType": "Mini OMNI İstasyon",
+      "moppingType": "OZMO Turbo 2.0 Dönen Diskler",
+      "mopLiftingMm": 12,
+      "autoEmpty": true,
+      "autoMopWash": true,
+      "mopWashingTempC": 75,
+      "autoMopDry": true,
+      "batteryCapacityMah": 5200,
+      "runTimeMinutes": 190,
+      "noiseDb": 65,
+      "dustbinVolumeMl": 300,
+      "waterTankVolumeMl": 200,
+      "color": "Siyah"
+    },
+    "storeOffers": [
+      {
+        "storeName": "MediaMarkt",
+        "price": 39999,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.8,
+        "reviewCount": 190,
+        "url": "https://www.mediamarkt.com.tr",
+        "warrantyType": "MediaMarkt Türkiye Garantili"
+      },
+      {
+        "storeName": "Ecovacs Türkiye",
+        "price": 39999,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.9,
+        "reviewCount": 65,
+        "url": "https://www.ecovacsturkiye.shop/ecovacs-t80s-omni-robot-supurge-ve-paspas-24-800pa-zerotangle-3-0-75-c-sicak-sulu-paspas-yikama-250",
+        "warrantyType": "Resmi Distribütör Garantili"
+      }
+    ],
+    "image": "/images/appliances/ecovacs-deebot-t80s-omni.webp",
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 43199
+      },
+      {
+        "date": "2026-06-01",
+        "price": 41599
+      },
+      {
+        "date": "2026-07-01",
+        "price": 40799
+      },
+      {
+        "date": "2026-08-01",
+        "price": 39999
+      }
+    ]
+  },
+  {
+    "id": "appliance-robot_vacuum-ecovacs-t80-omni",
+    "slug": "ecovacs-deebot-t80-omni",
+    "name": "Ecovacs Deebot T80 Omni Robot Süpürge ve Paspas",
+    "brand": "Ecovacs",
+    "category": "appliances",
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürge",
+    "rating": 4.8,
+    "reviewCount": 51,
+    "basePrice": 34999,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "highlights": [
+      "20.000 Pa Emiş Gücü",
+      "ZeroTangle 3.0 Dolanma Önleme",
+      "75°C Sıcak Su ile Mop Temizliği",
+      "Otomatik Toz Boşaltma ve Sıcak Hava Kurutma",
+      "Gelişmiş LiDAR Haritalama"
+    ],
+    "minPrice": 34999,
+    "maxPrice": 37999,
+    "storeCount": 3,
+    "inStock": true,
+    "isPopular": false,
+    "specs": {
+      "masterCategory": "home_appliances",
+      "masterCategoryLabel": "Ev Aletleri / Temizlik & Yaşam",
+      "subCategory": "robot_vacuum",
+      "subCategoryLabel": "Robot Süpürge",
+      "brand": "Ecovacs",
+      "model": "Deebot T80 Omni",
+      "suctionPa": 20000,
+      "navigationType": "TrueMapping 2.0 LiDAR",
+      "obstacleAvoidance": "TrueDetect 3D",
+      "stationType": "Mini OMNI İstasyonu",
+      "moppingType": "OZMO Turbo 2.0 Çift Dönen Disk",
+      "mopLiftingMm": 12,
+      "autoEmpty": true,
+      "autoMopWash": true,
+      "mopWashingTempC": 75,
+      "autoMopDry": true,
+      "batteryCapacityMah": 5200,
+      "runTimeMinutes": 180,
+      "noiseDb": 66,
+      "dustbinVolumeMl": 300,
+      "waterTankVolumeMl": 200,
+      "color": "Siyah"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Ecovacs Türkiye",
+        "price": 34999,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.9,
+        "reviewCount": 82,
+        "url": "https://www.ecovacsturkiye.shop/ecovacs-t80-omni-robot-supurge-ve-paspas-20-000pa-zerotangle-3-0-75-c-sicak-sulu-paspas-yikama-232",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Akakçe",
+        "price": 34999,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.7,
+        "reviewCount": 45,
+        "url": "https://www.akakce.com",
+        "warrantyType": "Resmi Distribütör Garantili"
+      }
+    ],
+    "image": "/images/appliances/ecovacs-deebot-t80-omni.webp",
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 37799
+      },
+      {
+        "date": "2026-06-01",
+        "price": 36399
+      },
+      {
+        "date": "2026-07-01",
+        "price": 35699
+      },
+      {
+        "date": "2026-08-01",
+        "price": 34999
+      }
+    ]
+  },
+  {
+    "id": "appliance-robot_vacuum-ecovacs-t50s-pro-omni",
+    "slug": "ecovacs-deebot-t50s-pro-omni",
+    "name": "Ecovacs Deebot T50S Pro Omni Ultra İnce Robot Süpürge",
+    "brand": "Ecovacs",
+    "category": "appliances",
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürge",
+    "rating": 4.9,
+    "reviewCount": 29,
+    "basePrice": 37999,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "highlights": [
+      "81 mm Ultra İnce Gövde (Koltuk Altlarına Kolay Erişim)",
+      "25.000 Pa Devasa Emiş Gücü",
+      "TruEdge 2.0 Sıfır Boşluk Kenar Temizliği",
+      "Gömme LiDAR Entegre Navigasyon",
+      "Kompakt OMNI İstasyon"
+    ],
+    "minPrice": 37999,
+    "maxPrice": 41999,
+    "storeCount": 3,
+    "inStock": true,
+    "isPopular": false,
+    "specs": {
+      "masterCategory": "home_appliances",
+      "masterCategoryLabel": "Ev Aletleri / Temizlik & Yaşam",
+      "subCategory": "robot_vacuum",
+      "subCategoryLabel": "Robot Süpürge",
+      "brand": "Ecovacs",
+      "model": "Deebot T50S Pro Omni",
+      "suctionPa": 25000,
+      "navigationType": "Gömülü dToF LiDAR + AIVI 3D",
+      "obstacleAvoidance": "AIVI 3D AI Vision",
+      "stationType": "Ultra Kompakt OMNI İstasyon",
+      "moppingType": "OZMO Turbo 2.0 + TruEdge Genişleyen Mop",
+      "mopLiftingMm": 15,
+      "autoEmpty": true,
+      "autoMopWash": true,
+      "mopWashingTempC": 70,
+      "autoMopDry": true,
+      "batteryCapacityMah": 5200,
+      "runTimeMinutes": 200,
+      "noiseDb": 64,
+      "dustbinVolumeMl": 300,
+      "waterTankVolumeMl": 200,
+      "color": "Siyah"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Ecovacs Türkiye",
+        "price": 37999,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.9,
+        "reviewCount": 40,
+        "url": "https://www.ecovacsturkiye.shop",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "price": 38499,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.8,
+        "reviewCount": 160,
+        "url": "https://www.hepsiburada.com",
+        "warrantyType": "Resmi Distribütör Garantili"
+      }
+    ],
+    "image": "/images/appliances/ecovacs-deebot-t50s-pro-omni.webp",
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 41039
+      },
+      {
+        "date": "2026-06-01",
+        "price": 39519
+      },
+      {
+        "date": "2026-07-01",
+        "price": 38759
+      },
+      {
+        "date": "2026-08-01",
+        "price": 37999
+      }
+    ]
+  },
+  {
+    "id": "appliance-robot_vacuum-ecovacs-t30c-prime-omni",
+    "slug": "ecovacs-deebot-t30c-prime-omni",
+    "name": "Ecovacs Deebot T30C Prime Omni Robot Süpürge ve Paspas",
+    "brand": "Ecovacs",
+    "category": "appliances",
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürge",
+    "rating": 4.8,
+    "reviewCount": 36,
+    "basePrice": 29999,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "highlights": [
+      "25.000 Pa Güçlü Emiş Performansı",
+      "TruEdge Adaptif Kenar Silme",
+      "ZeroTangle Dolanmaz Fırça",
+      "Otomatik Mop Yıkama ve Kurutma",
+      "Mini OMNI Şık İstasyon"
+    ],
+    "minPrice": 29999,
+    "maxPrice": 32999,
+    "storeCount": 3,
+    "inStock": true,
+    "isPopular": false,
+    "specs": {
+      "masterCategory": "home_appliances",
+      "masterCategoryLabel": "Ev Aletleri / Temizlik & Yaşam",
+      "subCategory": "robot_vacuum",
+      "subCategoryLabel": "Robot Süpürge",
+      "brand": "Ecovacs",
+      "model": "Deebot T30C Prime Omni",
+      "suctionPa": 25000,
+      "navigationType": "TrueMapping 2.0 LiDAR + TrueDetect 3D",
+      "obstacleAvoidance": "TrueDetect 3D",
+      "stationType": "Mini OMNI İstasyon",
+      "moppingType": "OZMO Turbo 2.0 Mop & TruEdge",
+      "mopLiftingMm": 12,
+      "autoEmpty": true,
+      "autoMopWash": true,
+      "mopWashingTempC": 70,
+      "autoMopDry": true,
+      "batteryCapacityMah": 5200,
+      "runTimeMinutes": 180,
+      "noiseDb": 65,
+      "dustbinVolumeMl": 300,
+      "waterTankVolumeMl": 200,
+      "color": "Beyaz"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Ecovacs Türkiye",
+        "price": 29999,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.9,
+        "reviewCount": 52,
+        "url": "https://www.ecovacsturkiye.shop",
+        "warrantyType": "Resmi Distribütör Garantili"
+      }
+    ],
+    "image": "/images/appliances/ecovacs-deebot-t30c-prime-omni.webp",
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 32399
+      },
+      {
+        "date": "2026-06-01",
+        "price": 31199
+      },
+      {
+        "date": "2026-07-01",
+        "price": 30599
+      },
+      {
+        "date": "2026-08-01",
+        "price": 29999
+      }
+    ]
+  },
+  {
+    "id": "appliance-robot_vacuum-ecovacs-t30c",
+    "slug": "ecovacs-deebot-t30c",
+    "name": "Ecovacs Deebot T30C Beyaz Robot Süpürge ve Paspas",
+    "brand": "Ecovacs",
+    "category": "appliances",
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürge",
+    "rating": 4.8,
+    "reviewCount": 55,
+    "basePrice": 24999,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "highlights": [
+      "20.000 Pa Emiş Gücü",
+      "TruEdge Kenar Temizliği",
+      "ZeroTangle Dolanma Önleme",
+      "Kompakt Otomatik Boşaltma ve Yıkama",
+      "Beyaz Zarif Tasarım"
+    ],
+    "minPrice": 24999,
+    "maxPrice": 26999,
+    "storeCount": 3,
+    "inStock": true,
+    "isPopular": true,
+    "specs": {
+      "masterCategory": "home_appliances",
+      "masterCategoryLabel": "Ev Aletleri / Temizlik & Yaşam",
+      "subCategory": "robot_vacuum",
+      "subCategoryLabel": "Robot Süpürge",
+      "brand": "Ecovacs",
+      "model": "Deebot T30C",
+      "suctionPa": 20000,
+      "navigationType": "TrueMapping 2.0 LiDAR",
+      "obstacleAvoidance": "TrueDetect 3D",
+      "stationType": "Mini İstasyon",
+      "moppingType": "OZMO Turbo 2.0",
+      "mopLiftingMm": 10,
+      "autoEmpty": true,
+      "autoMopWash": true,
+      "mopWashingTempC": 70,
+      "autoMopDry": true,
+      "batteryCapacityMah": 5200,
+      "runTimeMinutes": 180,
+      "noiseDb": 65,
+      "dustbinVolumeMl": 300,
+      "waterTankVolumeMl": 200,
+      "color": "Beyaz"
+    },
+    "storeOffers": [
+      {
+        "storeName": "MediaMarkt",
+        "price": 24999,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.8,
+        "reviewCount": 320,
+        "url": "https://www.mediamarkt.com.tr",
+        "warrantyType": "MediaMarkt Türkiye Garantili"
+      },
+      {
+        "storeName": "Ecovacs Türkiye",
+        "price": 24999,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.9,
+        "reviewCount": 140,
+        "url": "https://www.ecovacsturkiye.shop/ecovacs-deebot-t30c-beyaz-robot-supurge-123",
+        "warrantyType": "Resmi Distribütör Garantili"
+      }
+    ],
+    "image": "/images/appliances/ecovacs-deebot-t30c.webp",
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 26999
+      },
+      {
+        "date": "2026-06-01",
+        "price": 25999
+      },
+      {
+        "date": "2026-07-01",
+        "price": 25499
+      },
+      {
+        "date": "2026-08-01",
+        "price": 24999
+      }
+    ]
+  },
+  {
+    "id": "appliance-robot_vacuum-ecovacs-n20e-plus",
+    "slug": "ecovacs-deebot-n20e-plus",
+    "name": "Ecovacs Deebot N20E Plus Robot Süpürge (Torbasız Siklon İstasyon)",
+    "brand": "Ecovacs",
+    "category": "appliances",
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürge",
+    "rating": 4.7,
+    "reviewCount": 68,
+    "basePrice": 21999,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "highlights": [
+      "PureCyclone Torbasız Otomatik Boşaltma (Sıfır Sarf Malzeme Masrafı)",
+      "10.000 Pa Güçlü Emiş",
+      "ZeroTangle Saç Dolanmasını Önleyen Fırça",
+      "OZMO Pro 2.0 Titreşimli Paspas",
+      "Hassas LiDAR Navigasyon"
+    ],
+    "minPrice": 21999,
+    "maxPrice": 24999,
+    "storeCount": 3,
+    "inStock": true,
+    "isPopular": true,
+    "specs": {
+      "masterCategory": "home_appliances",
+      "masterCategoryLabel": "Ev Aletleri / Temizlik & Yaşam",
+      "subCategory": "robot_vacuum",
+      "subCategoryLabel": "Robot Süpürge",
+      "brand": "Ecovacs",
+      "model": "Deebot N20E Plus",
+      "suctionPa": 10000,
+      "navigationType": "TrueMapping LiDAR",
+      "obstacleAvoidance": "Bumper + IR Sensörler",
+      "stationType": "PureCyclone Torbasız Siklon Boşaltma İstasyonu",
+      "moppingType": "OZMO Pro 2.0 Titreşimli Paspas",
+      "mopLiftingMm": 0,
+      "autoEmpty": true,
+      "autoMopWash": false,
+      "mopWashingTempC": 0,
+      "autoMopDry": false,
+      "batteryCapacityMah": 5200,
+      "runTimeMinutes": 300,
+      "noiseDb": 66,
+      "dustbinVolumeMl": 400,
+      "waterTankVolumeMl": 220,
+      "color": "Beyaz"
+    },
+    "storeOffers": [
+      {
+        "storeName": "MediaMarkt",
+        "price": 21999,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.8,
+        "reviewCount": 220,
+        "url": "https://www.mediamarkt.com.tr",
+        "warrantyType": "MediaMarkt Türkiye Garantili"
+      },
+      {
+        "storeName": "Ecovacs Türkiye",
+        "price": 21999,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.9,
+        "reviewCount": 95,
+        "url": "https://www.ecovacsturkiye.shop/ecovacs-deebot-n20e-plus-robot-supurge-162",
+        "warrantyType": "Resmi Distribütör Garantili"
+      }
+    ],
+    "image": "/images/appliances/ecovacs-deebot-n20e-plus.jpg",
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 23759
+      },
+      {
+        "date": "2026-06-01",
+        "price": 22879
+      },
+      {
+        "date": "2026-07-01",
+        "price": 22439
+      },
+      {
+        "date": "2026-08-01",
+        "price": 21999
+      }
+    ]
+  },
+  {
+    "id": "appliance-robot_vacuum-ecovacs-winbot-w3-omni",
+    "slug": "ecovacs-winbot-w3-omni",
+    "name": "Ecovacs Winbot W3 Omni Akıllı Cam Temizleme Robotu",
+    "brand": "Ecovacs",
+    "category": "appliances",
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürge",
+    "rating": 5,
+    "reviewCount": 24,
+    "basePrice": 27999,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "highlights": [
+      "10.000 Pa Güvenli Vakum Emişi",
+      "Vortex Yıkamalı Akıllı Temizleme İstasyonu",
+      "WIN-SLAM 5.0 Akıllı Yol Planlama",
+      "Çift Yönlü Otomatik Püskürtme",
+      "Köşeden Köşeye Çerçevesiz Cam Algılama"
+    ],
+    "minPrice": 27999,
+    "maxPrice": 29999,
+    "storeCount": 2,
+    "inStock": true,
+    "isPopular": true,
+    "specs": {
+      "masterCategory": "home_appliances",
+      "masterCategoryLabel": "Ev Aletleri / Temizlik & Yaşam",
+      "subCategory": "robot_vacuum",
+      "subCategoryLabel": "Cam Temizleme Robotu",
+      "brand": "Ecovacs",
+      "model": "Winbot W3 Omni",
+      "suctionPa": 10000,
+      "navigationType": "WIN-SLAM 5.0 Akıllı Yol Planlama",
+      "obstacleAvoidance": "Optik Kenar Sensörleri + Çerçevesiz Cam Algılama",
+      "stationType": "Vortex Yıkamalı & Şarjlı Akıllı İstasyon",
+      "moppingType": "Mikrofiber Paspas + Çift Yönlü Otomatik Su Püskürtme",
+      "mopLiftingMm": 0,
+      "autoEmpty": false,
+      "autoMopWash": true,
+      "mopWashingTempC": 0,
+      "autoMopDry": true,
+      "batteryCapacityMah": 4500,
+      "runTimeMinutes": 110,
+      "noiseDb": 63,
+      "dustbinVolumeMl": 0,
+      "waterTankVolumeMl": 100,
+      "color": "Beyaz / Gümüş"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Ecovacs Türkiye",
+        "price": 27999,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.9,
+        "reviewCount": 45,
+        "url": "https://www.ecovacsturkiye.shop",
+        "warrantyType": "Resmi Distribütör Garantili"
+      }
+    ],
+    "image": "/images/appliances/ecovacs-winbot-w3-omni.webp",
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 30239
+      },
+      {
+        "date": "2026-06-01",
+        "price": 29119
+      },
+      {
+        "date": "2026-07-01",
+        "price": 28559
+      },
+      {
+        "date": "2026-08-01",
+        "price": 27999
+      }
+    ]
+  },
+  {
+    "id": "appliance-robot_vacuum-ecovacs-winbot-w2-pro-omni",
+    "slug": "ecovacs-winbot-w2-pro-omni",
+    "name": "Ecovacs Winbot W2 Pro Omni Şarjlı Taşınabilir Çantalı Cam Temizleme Robotu",
+    "brand": "Ecovacs",
+    "category": "appliances",
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürge",
+    "rating": 4.9,
+    "reviewCount": 41,
+    "basePrice": 23999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "highlights": [
+      "Dahili Bataryalı Çok İşlevli Taşınabilir Çanta İstasyon",
+      "5.500 Pa Emiş Gücü ve 10 Kademeli Güvenlik Koruması",
+      "Üç Nozzle Açılı Otomatik Sprey Püskürtme",
+      "WIN-SLAM 4.0 Akıllı Rota Planlama",
+      "110 Dakika Kablosuz Kullanım Süresi"
+    ],
+    "minPrice": 23999,
+    "maxPrice": 25999,
+    "storeCount": 3,
+    "inStock": true,
+    "isPopular": true,
+    "specs": {
+      "masterCategory": "home_appliances",
+      "masterCategoryLabel": "Ev Aletleri / Temizlik & Yaşam",
+      "subCategory": "robot_vacuum",
+      "subCategoryLabel": "Cam Temizleme Robotu",
+      "brand": "Ecovacs",
+      "model": "Winbot W2 Pro Omni",
+      "suctionPa": 5500,
+      "navigationType": "WIN-SLAM 4.0",
+      "obstacleAvoidance": "Optik Çerçeve & Kenar Sensörleri",
+      "stationType": "Dahili Bataryalı Taşınabilir Çanta İstasyon",
+      "moppingType": "3 Yönlü Açılı Püskürtme + Mikrofiber Temizleme",
+      "mopLiftingMm": 0,
+      "autoEmpty": false,
+      "autoMopWash": false,
+      "mopWashingTempC": 0,
+      "autoMopDry": false,
+      "batteryCapacityMah": 4500,
+      "runTimeMinutes": 110,
+      "noiseDb": 63,
+      "dustbinVolumeMl": 0,
+      "waterTankVolumeMl": 60,
+      "color": "Gümüş / Gri"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Ecovacs Türkiye",
+        "price": 23999,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.9,
+        "reviewCount": 77,
+        "url": "https://www.ecovacsturkiye.shop/ecovacs-winbot-w2-pro-omni-sarjli-cam-silme-robotu-48",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "price": 24999,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.8,
+        "reviewCount": 180,
+        "url": "https://www.mediamarkt.com.tr",
+        "warrantyType": "MediaMarkt Türkiye Garantili"
+      }
+    ],
+    "image": "/images/appliances/ecovacs-winbot-w2-pro-omni.webp",
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 25919
+      },
+      {
+        "date": "2026-06-01",
+        "price": 24959
+      },
+      {
+        "date": "2026-07-01",
+        "price": 24479
+      },
+      {
+        "date": "2026-08-01",
+        "price": 23999
+      }
+    ]
+  },
+  {
+    "id": "appliance-robot_vacuum-ecovacs-winbot-mini",
+    "slug": "ecovacs-winbot-mini",
+    "name": "Ecovacs Winbot Mini Cam Silme Robotu",
+    "brand": "Ecovacs",
+    "category": "appliances",
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürge",
+    "rating": 4.7,
+    "reviewCount": 33,
+    "basePrice": 12999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "highlights": [
+      "Kompakt Hafif Tasarım (Küçük Pencereler ve Aynalar İçin İdeal)",
+      "Çift Taraflı Otomatik Su Püskürtme",
+      "3.800 Pa Güvenli Tutunma Vakumu",
+      "Akıllı Kenar Algılama Sensörleri",
+      "Sessiz ve Hızlı Temizlik"
+    ],
+    "minPrice": 12999,
+    "maxPrice": 14499,
+    "storeCount": 2,
+    "inStock": true,
+    "isPopular": false,
+    "specs": {
+      "masterCategory": "home_appliances",
+      "masterCategoryLabel": "Ev Aletleri / Temizlik & Yaşam",
+      "subCategory": "robot_vacuum",
+      "subCategoryLabel": "Cam Temizleme Robotu",
+      "brand": "Ecovacs",
+      "model": "Winbot Mini",
+      "suctionPa": 3800,
+      "navigationType": "WIN-SLAM Akıllı Rota",
+      "obstacleAvoidance": "Optik Kenar Algılama",
+      "stationType": "Kablolu Güvenlik İstasyonu",
+      "moppingType": "Çift Taraflı Sprey + Mikrofiber Ped",
+      "mopLiftingMm": 0,
+      "autoEmpty": false,
+      "autoMopWash": false,
+      "mopWashingTempC": 0,
+      "autoMopDry": false,
+      "batteryCapacityMah": 650,
+      "runTimeMinutes": 50,
+      "noiseDb": 62,
+      "dustbinVolumeMl": 0,
+      "waterTankVolumeMl": 40,
+      "color": "Beyaz"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Ecovacs Türkiye",
+        "price": 12999,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.9,
+        "reviewCount": 50,
+        "url": "https://www.ecovacsturkiye.shop",
+        "warrantyType": "Resmi Distribütör Garantili"
+      }
+    ],
+    "image": "/images/appliances/ecovacs-winbot-mini.webp",
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 14039
+      },
+      {
+        "date": "2026-06-01",
+        "price": 13519
+      },
+      {
+        "date": "2026-07-01",
+        "price": 13259
+      },
+      {
+        "date": "2026-08-01",
+        "price": 12999
+      }
+    ]
   }
 ];

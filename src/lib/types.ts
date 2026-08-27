@@ -110,6 +110,7 @@ export interface ApplianceSpecs {
   autoDoorOpen?: boolean;
   autoDry?: boolean;
   waterConsumptionLiters?: number;
+  [key: string]: unknown;
 }
 
 export interface ApplianceProduct extends BaseProduct {

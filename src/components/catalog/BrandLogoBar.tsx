@@ -231,6 +231,42 @@ const BRAND_CONFIGS: BrandConfig[] = [
       </span>
     )
   },
+  {
+    name: 'Ecovacs',
+    categoryTag: 'Deebot & Winbot Ekosistemi',
+    isMultiCategory: false,
+    searchFilter: 'Ecovacs',
+    href: '/appliances?brand=Ecovacs',
+    renderDefaultLogo: () => (
+      <span className="text-xs font-black text-[#144782] dark:text-blue-400 tracking-widest uppercase">
+        ECOVACS
+      </span>
+    )
+  },
+  {
+    name: 'Roborock',
+    categoryTag: 'Saros & Qrevo Ekosistemi',
+    isMultiCategory: false,
+    searchFilter: 'Roborock',
+    href: '/appliances?brand=Roborock',
+    renderDefaultLogo: () => (
+      <span className="text-xs font-black text-[#FF3B30] dark:text-red-400 tracking-widest uppercase">
+        roborock
+      </span>
+    )
+  },
+  {
+    name: 'Dreame',
+    categoryTag: 'X & L Serisi Ekosistemi',
+    isMultiCategory: false,
+    searchFilter: 'Dreame',
+    href: '/appliances?brand=Dreame',
+    renderDefaultLogo: () => (
+      <span className="text-xs font-black text-[#C69214] dark:text-amber-400 tracking-widest uppercase">
+        dreame
+      </span>
+    )
+  },
 ];
 
 export function BrandLogoBar({ onSelectBrand }: { onSelectBrand?: (brand: string) => void }) {
