@@ -80188,4 +80188,1052 @@ export const mockAppliances: ApplianceProduct[] = [
       }
     ]
   },
+  {
+    "id": "appliance-robot_vacuum-irobot-extra-1",
+    "slug": "irobot-roomba-combo-essential",
+    "name": "iRobot Roomba Combo Essential Robot Süpürge ve Paspas",
+    "brand": "iRobot",
+    "category": "appliances",
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürge & Paspas",
+    "image": "https://images.unsplash.com/photo-1589923188900-85dae523342b?w=800&q=80",
+    "rating": 4.6,
+    "reviewCount": 380,
+    "basePrice": 8999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "highlights": [
+      "4 Aşamalı Temizleme Sistemi",
+      "Mikrofiber Mop Pedi ve 3 Kademeli Su Kontrolü",
+      "İnce Profilli Kompakt Tasarım (Mobilya Altlarına Kolay Erişim)",
+      "iRobot OS Uygulama Desteği"
+    ],
+    "minPrice": 8999,
+    "maxPrice": 9719,
+    "storeCount": 6,
+    "inStock": true,
+    "specs": {
+      "masterCategory": "home_appliances",
+      "masterCategoryLabel": "Ev Aletleri / Temizlik & Yaşam",
+      "subCategory": "robot_vacuum",
+      "subCategoryLabel": "Robot Süpürge",
+      "brand": "iRobot",
+      "model": "iRobot Roomba Combo Essential Robot Süpürge ve Paspas",
+      "suctionPowerPa": 3000,
+      "batteryRuntimeMin": 120,
+      "chargeTimeHours": 3,
+      "batteryCapacityMah": 2600,
+      "noiseLevelDb": 66,
+      "autoCleanDock": false,
+      "autoEmptyStation": false,
+      "mappingTechnology": "Akıllı Jiroskopik Navigasyon",
+      "appControl": true,
+      "wetDryUsage": true,
+      "warrantyYears": 2
+    },
+    "storeOffers": [
+      {
+        "storeName": "Amazon TR",
+        "price": 8999,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.9,
+        "reviewCount": 1450,
+        "url": "https://www.amazon.com.tr/s?k=iRobot%20Roomba%20Combo%20Essential%20Robot%20S%C3%BCp%C3%BCrge%20ve%20Paspas",
+        "warrantyType": "iRobot Türkiye Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "price": 9289,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.8,
+        "reviewCount": 980,
+        "url": "https://www.hepsiburada.com/ara?q=iRobot%20Roomba%20Combo%20Essential%20Robot%20S%C3%BCp%C3%BCrge%20ve%20Paspas",
+        "warrantyType": "2 Yıl Distribütör Garantili"
+      },
+      {
+        "storeName": "Trendyol",
+        "price": 9449,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.8,
+        "reviewCount": 1120,
+        "url": "https://www.trendyol.com/sr?q=iRobot%20Roomba%20Combo%20Essential%20Robot%20S%C3%BCp%C3%BCrge%20ve%20Paspas",
+        "warrantyType": "Yetkili Satıcı Garantili"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "price": 9649,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.7,
+        "reviewCount": 540,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=iRobot%20Roomba%20Combo%20Essential%20Robot%20S%C3%BCp%C3%BCrge%20ve%20Paspas",
+        "warrantyType": "Resmi Türkiye Garantili"
+      },
+      {
+        "storeName": "Teknosa",
+        "price": 9849,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.7,
+        "reviewCount": 390,
+        "url": "https://www.teknosa.com/arama?s=iRobot%20Roomba%20Combo%20Essential%20Robot%20S%C3%BCp%C3%BCrge%20ve%20Paspas",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "price": 9719,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.7,
+        "reviewCount": 260,
+        "url": "https://www.vatanbilgisayar.com/arama/iRobot%20Roomba%20Combo%20Essential%20Robot%20S%C3%BCp%C3%BCrge%20ve%20Paspas/",
+        "warrantyType": "2 Yıl Garantili"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 9629
+      },
+      {
+        "date": "2026-05-15",
+        "price": 9269
+      },
+      {
+        "date": "2026-07-01",
+        "price": 9089
+      },
+      {
+        "date": "2026-08-27",
+        "price": 8999
+      }
+    ]
+  },
+  {
+    "id": "appliance-robot_vacuum-irobot-extra-2",
+    "slug": "irobot-roomba-combo-j5-plus",
+    "name": "iRobot Roomba Combo j5+ Robot Süpürge ve Mop",
+    "brand": "iRobot",
+    "category": "appliances",
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürge & Paspas",
+    "image": "https://images.unsplash.com/photo-1589923188900-85dae523342b?w=800&q=80",
+    "rating": 4.8,
+    "reviewCount": 260,
+    "basePrice": 22999,
+    "currency": "TL",
+    "releaseYear": 2023,
+    "isPopular": true,
+    "highlights": [
+      "Değiştirilebilir Combo Haznesi ile Tek Seferde Süpürme ve Paspas",
+      "Clean Base 60 Günlük Otomatik Toz Boşaltma",
+      "Evcil Hayvan Engelleri ve Kabloları Gerçek Zamanlı Algılama",
+      "Kişiselleştirilmiş Temizlik Programları"
+    ],
+    "minPrice": 22999,
+    "maxPrice": 24839,
+    "storeCount": 6,
+    "inStock": true,
+    "specs": {
+      "masterCategory": "home_appliances",
+      "masterCategoryLabel": "Ev Aletleri / Temizlik & Yaşam",
+      "subCategory": "robot_vacuum",
+      "subCategoryLabel": "Robot Süpürge",
+      "brand": "iRobot",
+      "model": "iRobot Roomba Combo j5+ Robot Süpürge ve Mop",
+      "suctionPowerPa": 4500,
+      "batteryRuntimeMin": 150,
+      "chargeTimeHours": 3,
+      "batteryCapacityMah": 3300,
+      "noiseLevelDb": 65,
+      "autoCleanDock": false,
+      "autoEmptyStation": true,
+      "mappingTechnology": "PrecisionVision AI Kamera",
+      "appControl": true,
+      "wetDryUsage": true,
+      "warrantyYears": 2
+    },
+    "storeOffers": [
+      {
+        "storeName": "Amazon TR",
+        "price": 22999,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.9,
+        "reviewCount": 1450,
+        "url": "https://www.amazon.com.tr/s?k=iRobot%20Roomba%20Combo%20j5%2B%20Robot%20S%C3%BCp%C3%BCrge%20ve%20Mop",
+        "warrantyType": "iRobot Türkiye Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "price": 23289,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.8,
+        "reviewCount": 980,
+        "url": "https://www.hepsiburada.com/ara?q=iRobot%20Roomba%20Combo%20j5%2B%20Robot%20S%C3%BCp%C3%BCrge%20ve%20Mop",
+        "warrantyType": "2 Yıl Distribütör Garantili"
+      },
+      {
+        "storeName": "Trendyol",
+        "price": 23449,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.8,
+        "reviewCount": 1120,
+        "url": "https://www.trendyol.com/sr?q=iRobot%20Roomba%20Combo%20j5%2B%20Robot%20S%C3%BCp%C3%BCrge%20ve%20Mop",
+        "warrantyType": "Yetkili Satıcı Garantili"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "price": 23649,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.7,
+        "reviewCount": 540,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=iRobot%20Roomba%20Combo%20j5%2B%20Robot%20S%C3%BCp%C3%BCrge%20ve%20Mop",
+        "warrantyType": "Resmi Türkiye Garantili"
+      },
+      {
+        "storeName": "Teknosa",
+        "price": 23849,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.7,
+        "reviewCount": 390,
+        "url": "https://www.teknosa.com/arama?s=iRobot%20Roomba%20Combo%20j5%2B%20Robot%20S%C3%BCp%C3%BCrge%20ve%20Mop",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "price": 24839,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.7,
+        "reviewCount": 260,
+        "url": "https://www.vatanbilgisayar.com/arama/iRobot%20Roomba%20Combo%20j5%2B%20Robot%20S%C3%BCp%C3%BCrge%20ve%20Mop/",
+        "warrantyType": "2 Yıl Garantili"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 24609
+      },
+      {
+        "date": "2026-05-15",
+        "price": 23689
+      },
+      {
+        "date": "2026-07-01",
+        "price": 23229
+      },
+      {
+        "date": "2026-08-27",
+        "price": 22999
+      }
+    ]
+  },
+  {
+    "id": "appliance-robot_vacuum-irobot-extra-3",
+    "slug": "irobot-roomba-combo-i5-plus",
+    "name": "iRobot Roomba Combo i5+ Robot Süpürge",
+    "brand": "iRobot",
+    "category": "appliances",
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürge & Paspas",
+    "image": "https://images.unsplash.com/photo-1589923188900-85dae523342b?w=800&q=80",
+    "rating": 4.7,
+    "reviewCount": 420,
+    "basePrice": 17499,
+    "currency": "TL",
+    "releaseYear": 2023,
+    "isPopular": true,
+    "highlights": [
+      "Clean Base Otomatik Kir Tahliyesi",
+      "Oda Seçimli Harita Yönetimi",
+      "Çift Kauçuk Fırça ile Saç Dolaşmasını Önleme",
+      "Islak ve Kuru Değiştirilebilir Toz Haznesi"
+    ],
+    "minPrice": 17499,
+    "maxPrice": 18899,
+    "storeCount": 6,
+    "inStock": true,
+    "specs": {
+      "masterCategory": "home_appliances",
+      "masterCategoryLabel": "Ev Aletleri / Temizlik & Yaşam",
+      "subCategory": "robot_vacuum",
+      "subCategoryLabel": "Robot Süpürge",
+      "brand": "iRobot",
+      "model": "iRobot Roomba Combo i5+ Robot Süpürge",
+      "suctionPowerPa": 3500,
+      "batteryRuntimeMin": 120,
+      "chargeTimeHours": 3,
+      "batteryCapacityMah": 3300,
+      "noiseLevelDb": 67,
+      "autoCleanDock": false,
+      "autoEmptyStation": true,
+      "mappingTechnology": "Imprint Akıllı Haritalama",
+      "appControl": true,
+      "wetDryUsage": true,
+      "warrantyYears": 2
+    },
+    "storeOffers": [
+      {
+        "storeName": "Amazon TR",
+        "price": 17499,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.9,
+        "reviewCount": 1450,
+        "url": "https://www.amazon.com.tr/s?k=iRobot%20Roomba%20Combo%20i5%2B%20Robot%20S%C3%BCp%C3%BCrge",
+        "warrantyType": "iRobot Türkiye Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "price": 17789,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.8,
+        "reviewCount": 980,
+        "url": "https://www.hepsiburada.com/ara?q=iRobot%20Roomba%20Combo%20i5%2B%20Robot%20S%C3%BCp%C3%BCrge",
+        "warrantyType": "2 Yıl Distribütör Garantili"
+      },
+      {
+        "storeName": "Trendyol",
+        "price": 17949,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.8,
+        "reviewCount": 1120,
+        "url": "https://www.trendyol.com/sr?q=iRobot%20Roomba%20Combo%20i5%2B%20Robot%20S%C3%BCp%C3%BCrge",
+        "warrantyType": "Yetkili Satıcı Garantili"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "price": 18149,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.7,
+        "reviewCount": 540,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=iRobot%20Roomba%20Combo%20i5%2B%20Robot%20S%C3%BCp%C3%BCrge",
+        "warrantyType": "Resmi Türkiye Garantili"
+      },
+      {
+        "storeName": "Teknosa",
+        "price": 18349,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.7,
+        "reviewCount": 390,
+        "url": "https://www.teknosa.com/arama?s=iRobot%20Roomba%20Combo%20i5%2B%20Robot%20S%C3%BCp%C3%BCrge",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "price": 18899,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.7,
+        "reviewCount": 260,
+        "url": "https://www.vatanbilgisayar.com/arama/iRobot%20Roomba%20Combo%20i5%2B%20Robot%20S%C3%BCp%C3%BCrge/",
+        "warrantyType": "2 Yıl Garantili"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 18724
+      },
+      {
+        "date": "2026-05-15",
+        "price": 18024
+      },
+      {
+        "date": "2026-07-01",
+        "price": 17674
+      },
+      {
+        "date": "2026-08-27",
+        "price": 17499
+      }
+    ]
+  },
+  {
+    "id": "appliance-robot_vacuum-irobot-extra-4",
+    "slug": "irobot-roomba-s9-plus",
+    "name": "iRobot Roomba s9+ Robot Süpürge",
+    "brand": "iRobot",
+    "category": "appliances",
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürge & Paspas",
+    "image": "https://images.unsplash.com/photo-1589923188900-85dae523342b?w=800&q=80",
+    "rating": 4.9,
+    "reviewCount": 510,
+    "basePrice": 29999,
+    "currency": "TL",
+    "releaseYear": 2022,
+    "isPopular": false,
+    "highlights": [
+      "D-Şekilli Tasarım ile Köşe ve Kenarları Kusursuz Temizleme",
+      "40 Kat Daha Yüksek Emiş Gücü",
+      "Anti-Alerjen Filtre Sistemi (%99 Polen ve Alerjen Yakalama)",
+      "Clean Base Otomatik Tahliye"
+    ],
+    "minPrice": 29999,
+    "maxPrice": 32399,
+    "storeCount": 6,
+    "inStock": true,
+    "specs": {
+      "masterCategory": "home_appliances",
+      "masterCategoryLabel": "Ev Aletleri / Temizlik & Yaşam",
+      "subCategory": "robot_vacuum",
+      "subCategoryLabel": "Robot Süpürge",
+      "brand": "iRobot",
+      "model": "iRobot Roomba s9+ Robot Süpürge",
+      "suctionPowerPa": 6000,
+      "batteryRuntimeMin": 120,
+      "chargeTimeHours": 2.5,
+      "batteryCapacityMah": 3300,
+      "noiseLevelDb": 68,
+      "autoCleanDock": false,
+      "autoEmptyStation": true,
+      "mappingTechnology": "PerfectEdge Teknolojisi ve 3D Sensör",
+      "appControl": true,
+      "wetDryUsage": true,
+      "warrantyYears": 2
+    },
+    "storeOffers": [
+      {
+        "storeName": "Amazon TR",
+        "price": 29999,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.9,
+        "reviewCount": 1450,
+        "url": "https://www.amazon.com.tr/s?k=iRobot%20Roomba%20s9%2B%20Robot%20S%C3%BCp%C3%BCrge",
+        "warrantyType": "iRobot Türkiye Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "price": 30289,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.8,
+        "reviewCount": 980,
+        "url": "https://www.hepsiburada.com/ara?q=iRobot%20Roomba%20s9%2B%20Robot%20S%C3%BCp%C3%BCrge",
+        "warrantyType": "2 Yıl Distribütör Garantili"
+      },
+      {
+        "storeName": "Trendyol",
+        "price": 30449,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.8,
+        "reviewCount": 1120,
+        "url": "https://www.trendyol.com/sr?q=iRobot%20Roomba%20s9%2B%20Robot%20S%C3%BCp%C3%BCrge",
+        "warrantyType": "Yetkili Satıcı Garantili"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "price": 30649,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.7,
+        "reviewCount": 540,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=iRobot%20Roomba%20s9%2B%20Robot%20S%C3%BCp%C3%BCrge",
+        "warrantyType": "Resmi Türkiye Garantili"
+      },
+      {
+        "storeName": "Teknosa",
+        "price": 30849,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.7,
+        "reviewCount": 390,
+        "url": "https://www.teknosa.com/arama?s=iRobot%20Roomba%20s9%2B%20Robot%20S%C3%BCp%C3%BCrge",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "price": 32399,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.7,
+        "reviewCount": 260,
+        "url": "https://www.vatanbilgisayar.com/arama/iRobot%20Roomba%20s9%2B%20Robot%20S%C3%BCp%C3%BCrge/",
+        "warrantyType": "2 Yıl Garantili"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 32099
+      },
+      {
+        "date": "2026-05-15",
+        "price": 30899
+      },
+      {
+        "date": "2026-07-01",
+        "price": 30299
+      },
+      {
+        "date": "2026-08-27",
+        "price": 29999
+      }
+    ]
+  },
+  {
+    "id": "appliance-robot_vacuum-irobot-extra-5",
+    "slug": "irobot-roomba-698",
+    "name": "iRobot Roomba 698 Wi-Fi Robot Süpürge",
+    "brand": "iRobot",
+    "category": "appliances",
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürge & Paspas",
+    "image": "https://images.unsplash.com/photo-1589923188900-85dae523342b?w=800&q=80",
+    "rating": 4.5,
+    "reviewCount": 890,
+    "basePrice": 7499,
+    "currency": "TL",
+    "releaseYear": 2021,
+    "isPopular": false,
+    "highlights": [
+      "Dirt Detect Yoğun Kir Algılama Sensörü",
+      "Çift Çoklu Yüzey Fırçası",
+      "Wi-Fi ve Mobil Uygulama Entegrasyonu",
+      "Dayanıklı ve Klasik F/P Modeli"
+    ],
+    "minPrice": 7499,
+    "maxPrice": 8099,
+    "storeCount": 6,
+    "inStock": true,
+    "specs": {
+      "masterCategory": "home_appliances",
+      "masterCategoryLabel": "Ev Aletleri / Temizlik & Yaşam",
+      "subCategory": "robot_vacuum",
+      "subCategoryLabel": "Robot Süpürge",
+      "brand": "iRobot",
+      "model": "iRobot Roomba 698 Wi-Fi Robot Süpürge",
+      "suctionPowerPa": 2000,
+      "batteryRuntimeMin": 90,
+      "chargeTimeHours": 3,
+      "batteryCapacityMah": 1800,
+      "noiseLevelDb": 68,
+      "autoCleanDock": false,
+      "autoEmptyStation": false,
+      "mappingTechnology": "iAdapt Duyarlı Navigasyon",
+      "appControl": true,
+      "wetDryUsage": true,
+      "warrantyYears": 2
+    },
+    "storeOffers": [
+      {
+        "storeName": "Amazon TR",
+        "price": 7499,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.9,
+        "reviewCount": 1450,
+        "url": "https://www.amazon.com.tr/s?k=iRobot%20Roomba%20698%20Wi-Fi%20Robot%20S%C3%BCp%C3%BCrge",
+        "warrantyType": "iRobot Türkiye Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "price": 7789,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.8,
+        "reviewCount": 980,
+        "url": "https://www.hepsiburada.com/ara?q=iRobot%20Roomba%20698%20Wi-Fi%20Robot%20S%C3%BCp%C3%BCrge",
+        "warrantyType": "2 Yıl Distribütör Garantili"
+      },
+      {
+        "storeName": "Trendyol",
+        "price": 7949,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.8,
+        "reviewCount": 1120,
+        "url": "https://www.trendyol.com/sr?q=iRobot%20Roomba%20698%20Wi-Fi%20Robot%20S%C3%BCp%C3%BCrge",
+        "warrantyType": "Yetkili Satıcı Garantili"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "price": 8149,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.7,
+        "reviewCount": 540,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=iRobot%20Roomba%20698%20Wi-Fi%20Robot%20S%C3%BCp%C3%BCrge",
+        "warrantyType": "Resmi Türkiye Garantili"
+      },
+      {
+        "storeName": "Teknosa",
+        "price": 8349,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.7,
+        "reviewCount": 390,
+        "url": "https://www.teknosa.com/arama?s=iRobot%20Roomba%20698%20Wi-Fi%20Robot%20S%C3%BCp%C3%BCrge",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "price": 8099,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.7,
+        "reviewCount": 260,
+        "url": "https://www.vatanbilgisayar.com/arama/iRobot%20Roomba%20698%20Wi-Fi%20Robot%20S%C3%BCp%C3%BCrge/",
+        "warrantyType": "2 Yıl Garantili"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 8024
+      },
+      {
+        "date": "2026-05-15",
+        "price": 7724
+      },
+      {
+        "date": "2026-07-01",
+        "price": 7574
+      },
+      {
+        "date": "2026-08-27",
+        "price": 7499
+      }
+    ]
+  },
+  {
+    "id": "appliance-robot_vacuum-cecotec-extra-6",
+    "slug": "cecotec-conga-11090-spin-revolution",
+    "name": "Cecotec Conga 11090 Spin Revolution Home&Wash Robot Süpürge",
+    "brand": "Cecotec",
+    "category": "appliances",
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürge & Paspas",
+    "image": "https://images.unsplash.com/photo-1589923188900-85dae523342b?w=800&q=80",
+    "rating": 4.8,
+    "reviewCount": 140,
+    "basePrice": 28999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "highlights": [
+      "Spin Revolution Dönen Çift Islak Mop Yıkama ve Kurutma İstasyonu",
+      "Otomatik Toz Boşaltma ve Su Doldurma",
+      "5000 Pa Ultra Emiş Gücü",
+      "Jalisco Çoklu Yüzey Fırçası"
+    ],
+    "minPrice": 28999,
+    "maxPrice": 31319,
+    "storeCount": 6,
+    "inStock": true,
+    "specs": {
+      "masterCategory": "home_appliances",
+      "masterCategoryLabel": "Ev Aletleri / Temizlik & Yaşam",
+      "subCategory": "robot_vacuum",
+      "subCategoryLabel": "Robot Süpürge",
+      "brand": "Cecotec",
+      "model": "Cecotec Conga 11090 Spin Revolution Home&Wash Robot Süpürge",
+      "suctionPowerPa": 5000,
+      "batteryRuntimeMin": 140,
+      "chargeTimeHours": 4,
+      "batteryCapacityMah": 5200,
+      "noiseLevelDb": 65,
+      "autoCleanDock": true,
+      "autoEmptyStation": true,
+      "mappingTechnology": "iTech Laser 360",
+      "appControl": true,
+      "wetDryUsage": true,
+      "warrantyYears": 2
+    },
+    "storeOffers": [
+      {
+        "storeName": "Amazon TR",
+        "price": 28999,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.9,
+        "reviewCount": 1450,
+        "url": "https://www.amazon.com.tr/s?k=Cecotec%20Conga%2011090%20Spin%20Revolution%20Home%26Wash%20Robot%20S%C3%BCp%C3%BCrge",
+        "warrantyType": "Cecotec Türkiye Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "price": 29289,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.8,
+        "reviewCount": 980,
+        "url": "https://www.hepsiburada.com/ara?q=Cecotec%20Conga%2011090%20Spin%20Revolution%20Home%26Wash%20Robot%20S%C3%BCp%C3%BCrge",
+        "warrantyType": "2 Yıl Distribütör Garantili"
+      },
+      {
+        "storeName": "Trendyol",
+        "price": 29449,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.8,
+        "reviewCount": 1120,
+        "url": "https://www.trendyol.com/sr?q=Cecotec%20Conga%2011090%20Spin%20Revolution%20Home%26Wash%20Robot%20S%C3%BCp%C3%BCrge",
+        "warrantyType": "Yetkili Satıcı Garantili"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "price": 29649,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.7,
+        "reviewCount": 540,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Cecotec%20Conga%2011090%20Spin%20Revolution%20Home%26Wash%20Robot%20S%C3%BCp%C3%BCrge",
+        "warrantyType": "Resmi Türkiye Garantili"
+      },
+      {
+        "storeName": "Teknosa",
+        "price": 29849,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.7,
+        "reviewCount": 390,
+        "url": "https://www.teknosa.com/arama?s=Cecotec%20Conga%2011090%20Spin%20Revolution%20Home%26Wash%20Robot%20S%C3%BCp%C3%BCrge",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "price": 31319,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.7,
+        "reviewCount": 260,
+        "url": "https://www.vatanbilgisayar.com/arama/Cecotec%20Conga%2011090%20Spin%20Revolution%20Home%26Wash%20Robot%20S%C3%BCp%C3%BCrge/",
+        "warrantyType": "2 Yıl Garantili"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 31029
+      },
+      {
+        "date": "2026-05-15",
+        "price": 29869
+      },
+      {
+        "date": "2026-07-01",
+        "price": 29289
+      },
+      {
+        "date": "2026-08-27",
+        "price": 28999
+      }
+    ]
+  },
+  {
+    "id": "appliance-robot_vacuum-cecotec-extra-7",
+    "slug": "cecotec-conga-9090-ai",
+    "name": "Cecotec Conga 9090 AI Robot Süpürge",
+    "brand": "Cecotec",
+    "category": "appliances",
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürge & Paspas",
+    "image": "https://images.unsplash.com/photo-1589923188900-85dae523342b?w=800&q=80",
+    "rating": 4.7,
+    "reviewCount": 190,
+    "basePrice": 21999,
+    "currency": "TL",
+    "releaseYear": 2023,
+    "isPopular": false,
+    "highlights": [
+      "10.000 Pa Cy-Clean Siklonik Süper Emiş Gücü",
+      "Twerking Tank Titreşimli Paspas Modu",
+      "6400 mAh Ekstra Büyük Batarya (240 Dakika Çalışma)",
+      "3D AI Akıllı Engel Algılama"
+    ],
+    "minPrice": 21999,
+    "maxPrice": 23759,
+    "storeCount": 6,
+    "inStock": true,
+    "specs": {
+      "masterCategory": "home_appliances",
+      "masterCategoryLabel": "Ev Aletleri / Temizlik & Yaşam",
+      "subCategory": "robot_vacuum",
+      "subCategoryLabel": "Robot Süpürge",
+      "brand": "Cecotec",
+      "model": "Cecotec Conga 9090 AI Robot Süpürge",
+      "suctionPowerPa": 10000,
+      "batteryRuntimeMin": 240,
+      "chargeTimeHours": 4,
+      "batteryCapacityMah": 6400,
+      "noiseLevelDb": 64,
+      "autoCleanDock": false,
+      "autoEmptyStation": true,
+      "mappingTechnology": "Yapay Zeka 3D ve Lazer Navigasyon",
+      "appControl": true,
+      "wetDryUsage": true,
+      "warrantyYears": 2
+    },
+    "storeOffers": [
+      {
+        "storeName": "Amazon TR",
+        "price": 21999,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.9,
+        "reviewCount": 1450,
+        "url": "https://www.amazon.com.tr/s?k=Cecotec%20Conga%209090%20AI%20Robot%20S%C3%BCp%C3%BCrge",
+        "warrantyType": "Cecotec Türkiye Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "price": 22289,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.8,
+        "reviewCount": 980,
+        "url": "https://www.hepsiburada.com/ara?q=Cecotec%20Conga%209090%20AI%20Robot%20S%C3%BCp%C3%BCrge",
+        "warrantyType": "2 Yıl Distribütör Garantili"
+      },
+      {
+        "storeName": "Trendyol",
+        "price": 22449,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.8,
+        "reviewCount": 1120,
+        "url": "https://www.trendyol.com/sr?q=Cecotec%20Conga%209090%20AI%20Robot%20S%C3%BCp%C3%BCrge",
+        "warrantyType": "Yetkili Satıcı Garantili"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "price": 22649,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.7,
+        "reviewCount": 540,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Cecotec%20Conga%209090%20AI%20Robot%20S%C3%BCp%C3%BCrge",
+        "warrantyType": "Resmi Türkiye Garantili"
+      },
+      {
+        "storeName": "Teknosa",
+        "price": 22849,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.7,
+        "reviewCount": 390,
+        "url": "https://www.teknosa.com/arama?s=Cecotec%20Conga%209090%20AI%20Robot%20S%C3%BCp%C3%BCrge",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "price": 23759,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.7,
+        "reviewCount": 260,
+        "url": "https://www.vatanbilgisayar.com/arama/Cecotec%20Conga%209090%20AI%20Robot%20S%C3%BCp%C3%BCrge/",
+        "warrantyType": "2 Yıl Garantili"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 23539
+      },
+      {
+        "date": "2026-05-15",
+        "price": 22659
+      },
+      {
+        "date": "2026-07-01",
+        "price": 22219
+      },
+      {
+        "date": "2026-08-27",
+        "price": 21999
+      }
+    ]
+  },
+  {
+    "id": "appliance-robot_vacuum-cecotec-extra-8",
+    "slug": "cecotec-conga-7490-immortal",
+    "name": "Cecotec Conga 7490 Immortal Home X-Treme Robot Süpürge",
+    "brand": "Cecotec",
+    "category": "appliances",
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürge & Paspas",
+    "image": "https://images.unsplash.com/photo-1589923188900-85dae523342b?w=800&q=80",
+    "rating": 4.7,
+    "reviewCount": 220,
+    "basePrice": 13999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "highlights": [
+      "Otomatik Toz Boşaltma Tabanı (Conga Home)",
+      "3000 Pa Emiş Gücü",
+      "Oda Bazlı Temizlik ve Sınır Çizimi",
+      "Kompakt ve Şık Tasarım"
+    ],
+    "minPrice": 13999,
+    "maxPrice": 15119,
+    "storeCount": 6,
+    "inStock": true,
+    "specs": {
+      "masterCategory": "home_appliances",
+      "masterCategoryLabel": "Ev Aletleri / Temizlik & Yaşam",
+      "subCategory": "robot_vacuum",
+      "subCategoryLabel": "Robot Süpürge",
+      "brand": "Cecotec",
+      "model": "Cecotec Conga 7490 Immortal Home X-Treme Robot Süpürge",
+      "suctionPowerPa": 3000,
+      "batteryRuntimeMin": 120,
+      "chargeTimeHours": 3.5,
+      "batteryCapacityMah": 3200,
+      "noiseLevelDb": 66,
+      "autoCleanDock": false,
+      "autoEmptyStation": true,
+      "mappingTechnology": "Lazer Navigasyon",
+      "appControl": true,
+      "wetDryUsage": true,
+      "warrantyYears": 2
+    },
+    "storeOffers": [
+      {
+        "storeName": "Amazon TR",
+        "price": 13999,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.9,
+        "reviewCount": 1450,
+        "url": "https://www.amazon.com.tr/s?k=Cecotec%20Conga%207490%20Immortal%20Home%20X-Treme%20Robot%20S%C3%BCp%C3%BCrge",
+        "warrantyType": "Cecotec Türkiye Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "price": 14289,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.8,
+        "reviewCount": 980,
+        "url": "https://www.hepsiburada.com/ara?q=Cecotec%20Conga%207490%20Immortal%20Home%20X-Treme%20Robot%20S%C3%BCp%C3%BCrge",
+        "warrantyType": "2 Yıl Distribütör Garantili"
+      },
+      {
+        "storeName": "Trendyol",
+        "price": 14449,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.8,
+        "reviewCount": 1120,
+        "url": "https://www.trendyol.com/sr?q=Cecotec%20Conga%207490%20Immortal%20Home%20X-Treme%20Robot%20S%C3%BCp%C3%BCrge",
+        "warrantyType": "Yetkili Satıcı Garantili"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "price": 14649,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.7,
+        "reviewCount": 540,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Cecotec%20Conga%207490%20Immortal%20Home%20X-Treme%20Robot%20S%C3%BCp%C3%BCrge",
+        "warrantyType": "Resmi Türkiye Garantili"
+      },
+      {
+        "storeName": "Teknosa",
+        "price": 14849,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.7,
+        "reviewCount": 390,
+        "url": "https://www.teknosa.com/arama?s=Cecotec%20Conga%207490%20Immortal%20Home%20X-Treme%20Robot%20S%C3%BCp%C3%BCrge",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "price": 15119,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.7,
+        "reviewCount": 260,
+        "url": "https://www.vatanbilgisayar.com/arama/Cecotec%20Conga%207490%20Immortal%20Home%20X-Treme%20Robot%20S%C3%BCp%C3%BCrge/",
+        "warrantyType": "2 Yıl Garantili"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 14979
+      },
+      {
+        "date": "2026-05-15",
+        "price": 14419
+      },
+      {
+        "date": "2026-07-01",
+        "price": 14139
+      },
+      {
+        "date": "2026-08-27",
+        "price": 13999
+      }
+    ]
+  }
 ];
