@@ -2,6 +2,1777 @@ import { Product } from './types';
 
 export const mockHeadphones: Product[] = [
   {
+    "id": "asus-rog-delta-s",
+    "slug": "asus-rog-delta-s",
+    "name": "Asus ROG Delta S Hi-Res ESS 9281 Quad-DAC Gaming Kulaklık",
+    "brand": "Asus",
+    "category": "headphones",
+    "basePrice": 25000,
+    "currency": "TL",
+    "rating": 4.8,
+    "epeyScore": 94,
+    "reviewCount": 420,
+    "image": "/images/headphones/asus-rog-delta-s.jpg",
+    "images": [
+      "/images/headphones/asus-rog-delta-s.jpg"
+    ],
+    "releaseYear": 2021,
+    "highlights": [
+      "Endüstri Lideri Hi-Res ESS 9281 Quad DAC ve MQA İşleme Desteği",
+      "ASUS AI Gürültü Engelleyici Mikrofon ile Kusursuz İletişim",
+      "50 mm ASUS Essence Sürücüler ve Hava Geçirmez Bölme Tasarımı",
+      "Özelleştirilebilir D-şekilli Ergonomik Kulak Yastıkları ve RGB"
+    ],
+    "specs": {
+      "formFactor": "Kulak Üstü (Hi-Res Quad DAC Gaming)",
+      "anc": "ASUS AI Gürültü Engelleyici Mikrofon",
+      "spatialAudio": "MQA / Sanal 7.1",
+      "driverSize": "50 mm ASUS Essence Neodimyum",
+      "frequencyResponse": "20 Hz - 40.000 Hz",
+      "weightGrams": 300
+    },
+    "storeOffers": [
+      {
+        "id": "so-rogds-1",
+        "storeName": "Teknosa",
+        "storeLogoColor": "bg-orange-500",
+        "price": 25000,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör",
+          "ESS Quad DAC"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 480,
+        "url": "https://www.teknosa.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 26500,
+        "store": "Teknosa"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 25000,
+        "store": "Teknosa"
+      }
+    ]
+  },
+  {
+    "id": "sennheiser-cx-7-00bt",
+    "slug": "sennheiser-cx-7-00bt",
+    "name": "Sennheiser CX 7.00BT Boyun Bantlı Kablosuz Kulaklık",
+    "brand": "Sennheiser",
+    "category": "headphones",
+    "basePrice": 24683,
+    "currency": "TL",
+    "rating": 4.6,
+    "epeyScore": 83,
+    "reviewCount": 190,
+    "image": "/images/headphones/sennheiser-cx-7-00bt.jpg",
+    "images": [
+      "/images/headphones/sennheiser-cx-7-00bt.jpg"
+    ],
+    "releaseYear": 2020,
+    "highlights": [
+      "Ergonomik Boyun Bandı ve Yüksek Kaliteli Dinamik Dönüştürücüler",
+      "Qualcomm aptX Desteği ile Gerçek Hi-Fi Ses",
+      "10 Saat Pil Ömrü ve 1.5 Saatte Tam Hızlı Şarj",
+      "Gelen Çağrılarda Titreşimli Boyun Uyarısı"
+    ],
+    "specs": {
+      "formFactor": "Kulak İçi (Boyun Bantlı Bluetooth)",
+      "frequencyResponse": "17 Hz - 21.000 Hz",
+      "batteryLife": "10 Saat",
+      "bluetoothVersion": "Bluetooth 4.1 (aptX)",
+      "weightGrams": 48
+    },
+    "storeOffers": [
+      {
+        "id": "so-sencx7-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "bg-orange-500",
+        "price": 24683,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 310,
+        "url": "https://www.amazon.com.tr"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 25999,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 24683,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "jabra-engage-75-mono",
+    "slug": "jabra-engage-75-mono",
+    "name": "Jabra Engage 75 Mono DECT Dokunmatik Ekranlı Ofis Kulaklığı",
+    "brand": "Jabra",
+    "category": "headphones",
+    "basePrice": 22740.48,
+    "currency": "TL",
+    "rating": 4.8,
+    "epeyScore": 88,
+    "reviewCount": 380,
+    "image": "/images/headphones/jabra-engage-75-mono.jpg",
+    "images": [
+      "/images/headphones/jabra-engage-75-mono.jpg"
+    ],
+    "releaseYear": 2022,
+    "highlights": [
+      "150 Metreye Kadar Güvenli DECT Kablosuz Kapsama Alanı",
+      "Dokunmatik Ekranlı Akıllı Baz İstasyonu ile 5 Cihaza Kadar Eşzamanlı Bağlantı",
+      "Gelişmiş Gürültü Önleyici Mikrofon ve Dahili Busylight",
+      "13 Saate Varan Konuşma Süresi"
+    ],
+    "specs": {
+      "formFactor": "Kulak Üstü (Mono DECT Kurumsal)",
+      "wirelessRange": "150 Metre DECT",
+      "batteryLife": "13 Saat Konuşma",
+      "weightGrams": 64
+    },
+    "storeOffers": [
+      {
+        "id": "so-jeb75mo-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-orange-600",
+        "price": 22740.48,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Kurumsal Ürün",
+          "5 Cihaz Bağlantısı"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 460,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 23800,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 22740.48,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "asus-rog-delta-s-animate",
+    "slug": "asus-rog-delta-s-animate",
+    "name": "Asus ROG Delta S Animate AniMe Matrix RGB Gaming Kulaklık",
+    "brand": "Asus",
+    "category": "headphones",
+    "basePrice": 22342.85,
+    "currency": "TL",
+    "rating": 4.9,
+    "epeyScore": 95,
+    "reviewCount": 510,
+    "image": "/images/headphones/asus-rog-delta-s-animate.jpg",
+    "images": [
+      "/images/headphones/asus-rog-delta-s-animate.jpg"
+    ],
+    "releaseYear": 2022,
+    "highlights": [
+      "Kişiselleştirilebilir AniMe Matrix LED Ekranlar ile Kulaklıkta Animasyon",
+      "Endüstri Lideri Hi-Res ESS 9281 Quad DAC ve MQA Kod Çözücü",
+      "ASUS AI Gürültü Engelleyici Mikrofon",
+      "PC, Mac, PlayStation, Nintendo Switch ve Mobil ile Çoklu Uyumluluk"
+    ],
+    "specs": {
+      "formFactor": "Kulak Üstü (AniMe Matrix Hi-Res Gaming)",
+      "spatialAudio": "MQA / Sanal 7.1",
+      "driverSize": "50 mm ASUS Essence",
+      "frequencyResponse": "20 Hz - 40.000 Hz",
+      "weightGrams": 310
+    },
+    "storeOffers": [
+      {
+        "id": "so-rogdsan-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-amber-500",
+        "price": 22342.85,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "AniMe Matrix Ekran"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 620,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 23999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 22342.85,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "bang-olufsen-beoplay-portal",
+    "slug": "bang-olufsen-beoplay-portal",
+    "name": "Bang & Olufsen Beoplay Portal Lüks Kablosuz ANC Gaming Kulaklık",
+    "brand": "Bang & Olufsen",
+    "category": "headphones",
+    "basePrice": 18899,
+    "currency": "TL",
+    "rating": 4.8,
+    "epeyScore": 95,
+    "reviewCount": 680,
+    "image": "/images/headphones/bang-olufsen-beoplay-portal.jpg",
+    "images": [
+      "/images/headphones/bang-olufsen-beoplay-portal.jpg"
+    ],
+    "releaseYear": 2022,
+    "highlights": [
+      "Dolby Atmos Uzamsal Ses ve Özel 40 mm Titanyum Sürücüler",
+      "Uyarlanabilir Aktif Gürültü Engelleme ve Sanal Mikrofon Kolu (Virtual Boom Arm)",
+      "Xbox Wireless & Bluetooth 5.1 ile Kusursuz Çift Bağlantı",
+      "Kuzu Derisi Yastıklar ve Ultra Hafif 282g Lüks Alüminyum Gövde"
+    ],
+    "specs": {
+      "formFactor": "Kulak Üstü (Luxury ANC Gaming)",
+      "anc": "Uyarlanabilir Aktif Gürültü Engelleme",
+      "spatialAudio": "Dolby Atmos Dahili",
+      "driverSize": "40 mm Titanyum",
+      "batteryLife": "12 Saat (Xbox Wireless + ANC) / 24 Saat (Bluetooth + ANC)",
+      "bluetoothVersion": "Bluetooth 5.1 & Xbox Wireless",
+      "weightGrams": 282
+    },
+    "storeOffers": [
+      {
+        "id": "so-boportal-1",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "bg-red-600",
+        "price": 18899,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi B&O",
+          "Dolby Atmos"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 890,
+        "url": "https://www.mediamarkt.com.tr"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 19999,
+        "store": "MediaMarkt"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 18899,
+        "store": "MediaMarkt"
+      }
+    ]
+  },
+  {
+    "id": "sennheiser-momentum-4",
+    "slug": "sennheiser-momentum-4",
+    "name": "Sennheiser Momentum 4 Wireless ANC Kulak Üstü Kulaklık",
+    "brand": "Sennheiser",
+    "category": "headphones",
+    "basePrice": 17359,
+    "currency": "TL",
+    "rating": 4.9,
+    "epeyScore": 97,
+    "reviewCount": 4500,
+    "image": "/images/headphones/sennheiser-momentum-4.jpg",
+    "images": [
+      "/images/headphones/sennheiser-momentum-4.jpg"
+    ],
+    "releaseYear": 2022,
+    "highlights": [
+      "Sennheiser İmzalı 42 mm Dönüştürücü Sistemi ile Üstün Akustik Netlik",
+      "Gelişmiş Uyarlanabilir Gürültü Engelleme ve Şeffaflık Modu",
+      "Sektör Rekoru 60 Saate Varan Rakipsiz Pil Ömrü",
+      "Kişiselleştirilmiş Ses Deneyimi ve Smart Pause Sensörü"
+    ],
+    "specs": {
+      "formFactor": "Kulak Üstü (Over-Ear ANC)",
+      "anc": "Uyarlanabilir Aktif Gürültü Engelleme",
+      "driverSize": "42 mm Sennheiser Akustik",
+      "batteryLife": "60 Saat (ANC Açık)",
+      "frequencyResponse": "6 Hz - 22.000 Hz",
+      "bluetoothVersion": "Bluetooth 5.2 (aptX Adaptive)",
+      "weightGrams": 293
+    },
+    "storeOffers": [
+      {
+        "id": "so-senmom4-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "bg-orange-500",
+        "price": 17359,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime",
+          "60 Saat Pil"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 5400,
+        "url": "https://www.amazon.com.tr"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 18499,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 17359,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "akg-k371-bt",
+    "slug": "akg-k371-bt",
+    "name": "AKG K371-BT Profesyonel Stüdyo Referans Bluetooth Kulaklık",
+    "brand": "AKG",
+    "category": "headphones",
+    "basePrice": 16909.11,
+    "currency": "TL",
+    "rating": 4.7,
+    "epeyScore": 89,
+    "reviewCount": 680,
+    "image": "/images/headphones/akg-k371-bt.jpg",
+    "images": [
+      "/images/headphones/akg-k371-bt.jpg"
+    ],
+    "releaseYear": 2021,
+    "highlights": [
+      "Titanyum Kaplı 50 mm Sürücüler ile AKG Referans Tepki Eğrisi",
+      "Genişletilmiş 5 Hz - 40 kHz Frekans Yanıtı",
+      "40 Saat Pil Ömrü ve Katlanabilir 8 Kademeli Sağlam Eksenel Tasarım",
+      "Dokunmatik Hareket Kontrolleri ve Stüdyo Kablo Aksesuarları"
+    ],
+    "specs": {
+      "formFactor": "Kulak Üstü (Stüdyo Referans)",
+      "driverSize": "50 mm Titanyum Kaplı",
+      "frequencyResponse": "5 Hz - 40.000 Hz",
+      "batteryLife": "40 Saat",
+      "bluetoothVersion": "Bluetooth 5.0",
+      "weightGrams": 300
+    },
+    "storeOffers": [
+      {
+        "id": "so-akgk371-1",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "bg-red-600",
+        "price": 16909.11,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Stüdyo Referans"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 720,
+        "url": "https://www.mediamarkt.com.tr"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 17500,
+        "store": "MediaMarkt"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 16909.11,
+        "store": "MediaMarkt"
+      }
+    ]
+  },
+  {
+    "id": "shokz-openrun-pro-2",
+    "slug": "shokz-openrun-pro-2",
+    "name": "Shokz OpenRun Pro 2 Kemik İletimli Spor Kulaklığı",
+    "brand": "Shokz",
+    "category": "headphones",
+    "basePrice": 15499,
+    "currency": "TL",
+    "rating": 4.9,
+    "epeyScore": 95,
+    "reviewCount": 890,
+    "image": "/images/headphones/shokz-openrun-pro-2.jpg",
+    "images": [
+      "/images/headphones/shokz-openrun-pro-2.jpg"
+    ],
+    "releaseYear": 2024,
+    "highlights": [
+      "DualPitch Teknolojisi (Kemik İletimli Tizler + Hava İletimli Güçlü Baslar)",
+      "Açık Kulak (Open-Ear) Tasarımı ile Trafikte ve Sporda %100 Çevre Farkındalığı",
+      "12 Saat Kesintisiz Çalma Süresi ve USB-C Hızlı Şarj (5 dk ile 2.5 saat)",
+      "IP55 Ter ve Yağmura Dayanıklı Titanyum Çerçeve"
+    ],
+    "specs": {
+      "formFactor": "Açık Kulak (Kemik İletimli Spor)",
+      "transparencyMode": "Doğal Açık Kulak Farkındalığı",
+      "driverSize": "DualPitch Hibrit Akustik",
+      "waterResistance": "IP55",
+      "batteryLife": "12 Saat",
+      "bluetoothVersion": "Bluetooth 5.3",
+      "weightGrams": 30.3
+    },
+    "storeOffers": [
+      {
+        "id": "so-shkpro2-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "bg-orange-500",
+        "price": 15499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime",
+          "En İyi Sporcu Kulaklığı"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 1200,
+        "url": "https://www.amazon.com.tr"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 16499,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 15499,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "sennheiser-momentum-sport",
+    "slug": "sennheiser-momentum-sport",
+    "name": "Sennheiser Momentum Sport Kalp Atış Sensörlü ANC TWS",
+    "brand": "Sennheiser",
+    "category": "headphones",
+    "basePrice": 14399.1,
+    "currency": "TL",
+    "rating": 4.8,
+    "epeyScore": 97,
+    "reviewCount": 460,
+    "image": "/images/headphones/sennheiser-momentum-sport.jpg",
+    "images": [
+      "/images/headphones/sennheiser-momentum-sport.jpg"
+    ],
+    "releaseYear": 2024,
+    "highlights": [
+      "Dahili Kalp Atış Hızı ve Vücut Sıcaklığı Biyometrik Sensörleri",
+      "Polar & Apple Sağlık / Garmin Uyumlu Gerçek Zamanlı Performans Takibi",
+      "Adaptif Aktif Gürültü Engelleme ve Akustik Rahatlatma Kanalı",
+      "IP55 Ter/Su Direnci ve Sağlamlaştırılmış Qi Kablosuz Şarj Kutusu"
+    ],
+    "specs": {
+      "formFactor": "Kulak İçi (Sporcu Biyometrik TWS)",
+      "anc": "Adaptif Aktif Gürültü Engelleme",
+      "driverSize": "10 mm TrueResponse",
+      "waterResistance": "IP55 (Kulaklık) / IP54 (Kutu)",
+      "batteryLife": "6 Saat (Kulaklık) / 24 Saat (Kutu ile)",
+      "bluetoothVersion": "Bluetooth 5.2 (aptX Adaptive)",
+      "weightGrams": 12.8
+    },
+    "storeOffers": [
+      {
+        "id": "so-senmomsport-1",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "bg-red-600",
+        "price": 14399.1,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Kalp Atış Sensörlü",
+          "Sporcu Özel"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 610,
+        "url": "https://www.mediamarkt.com.tr"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 15500,
+        "store": "MediaMarkt"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 14399.1,
+        "store": "MediaMarkt"
+      }
+    ]
+  },
+  {
+    "id": "sennheiser-cx-150bt",
+    "slug": "sennheiser-cx-150bt",
+    "name": "Sennheiser CX 150BT Kablosuz Kulak İçi Kulaklık",
+    "brand": "Sennheiser",
+    "category": "headphones",
+    "basePrice": 13099,
+    "currency": "TL",
+    "rating": 4.5,
+    "epeyScore": 80,
+    "reviewCount": 650,
+    "image": "/images/headphones/sennheiser-cx-150bt.jpg",
+    "images": [
+      "/images/headphones/sennheiser-cx-150bt.jpg"
+    ],
+    "releaseYear": 2020,
+    "highlights": [
+      "Sennheiser Akustik Mühendisliği ile Saf ve Net Ses",
+      "10 Saat Pil Ömrü ve USB-C Hızlı Şarj",
+      "Aynı Anda 2 Cihaza Bağlanabilen Bluetooth 5.0 Çoklu Eşleşme"
+    ],
+    "specs": {
+      "formFactor": "Kulak İçi (Kablolu Bluetooth)",
+      "driverSize": "9.7 mm",
+      "batteryLife": "10 Saat",
+      "bluetoothVersion": "Bluetooth 5.0 (AAC, SBC)",
+      "weightGrams": 13
+    },
+    "storeOffers": [
+      {
+        "id": "so-sencx150-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-amber-500",
+        "price": 13099,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi İthalatçı"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 790,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 13800,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 13099,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "shokz-openrun-pro",
+    "slug": "shokz-openrun-pro",
+    "name": "Shokz OpenRun Pro Kemik İletimli Kablosuz Kulaklık",
+    "brand": "Shokz",
+    "category": "headphones",
+    "basePrice": 12999,
+    "currency": "TL",
+    "rating": 4.8,
+    "epeyScore": 91,
+    "reviewCount": 1650,
+    "image": "/images/headphones/shokz-openrun-pro.jpg",
+    "images": [
+      "/images/headphones/shokz-openrun-pro.jpg"
+    ],
+    "releaseYear": 2022,
+    "highlights": [
+      "9. Nesil Kemik İletim Teknolojisi (Shokz TurboPitch) ile Derin Baslar",
+      "Açık Kulak Güvenliği ile Koşu ve Bisiklette Maksimum Emniyet",
+      "10 Saat Pil Ömrü ve Hızlı Şarj (5 dk ile 1.5 saat)",
+      "IP55 Suya ve Toza Dayanıklı Titanyum Gövde"
+    ],
+    "specs": {
+      "formFactor": "Açık Kulak (Kemik İletimi)",
+      "waterResistance": "IP55",
+      "batteryLife": "10 Saat",
+      "bluetoothVersion": "Bluetooth 5.1",
+      "weightGrams": 29
+    },
+    "storeOffers": [
+      {
+        "id": "so-shkpro-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "bg-orange-500",
+        "price": 12999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime",
+          "Kemik İletimli"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 1900,
+        "url": "https://www.amazon.com.tr"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 13750,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 12999,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "steelseries-arctis-nova-7p",
+    "slug": "steelseries-arctis-nova-7p",
+    "name": "SteelSeries Arctis Nova 7P PlayStation Gaming Kulaklık",
+    "brand": "SteelSeries",
+    "category": "headphones",
+    "basePrice": 10800,
+    "currency": "TL",
+    "rating": 4.8,
+    "epeyScore": 94,
+    "reviewCount": 1420,
+    "image": "/images/headphones/steelseries-arctis-nova-7p.jpg",
+    "images": [
+      "/images/headphones/steelseries-arctis-nova-7p.jpg"
+    ],
+    "releaseYear": 2023,
+    "highlights": [
+      "PlayStation 5 Tempest 3D Ses ve Nova Akustik Sistemi",
+      "Eşzamanlı 2.4GHz Oyun Sesi ve Bluetooth Mobil Sohbet",
+      "38 Saat Pil Ömrü ve USB-C Hızlı Şarj (15 dk ile 6 saat)",
+      "ClearCast Gen 2 Yapay Zekâ Gürültü Önleyici Mikrofon"
+    ],
+    "specs": {
+      "formFactor": "Kulak Üstü (PS5 / PC Gaming)",
+      "spatialAudio": "Tempest 3D & 360° Uzamsal Ses",
+      "driverSize": "40 mm Neodimyum",
+      "batteryLife": "38 Saat",
+      "bluetoothVersion": "2.4GHz & BT 5.0",
+      "weightGrams": 325
+    },
+    "storeOffers": [
+      {
+        "id": "so-ssnova7p-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-amber-500",
+        "price": 10800,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "PS5 Onaylı"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1600,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 11499,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 10800,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "jbl-tour-one-m2",
+    "slug": "jbl-tour-one-m2",
+    "name": "JBL Tour One M2 Gerçek Uyarlanabilir ANC Kulaklık",
+    "brand": "JBL",
+    "category": "headphones",
+    "basePrice": 9999,
+    "currency": "TL",
+    "rating": 4.8,
+    "epeyScore": 96,
+    "reviewCount": 2400,
+    "image": "/images/headphones/jbl-tour-one-m2.jpg",
+    "images": [
+      "/images/headphones/jbl-tour-one-m2.jpg"
+    ],
+    "releaseYear": 2023,
+    "highlights": [
+      "JBL'in Amiral Gemisi Gerçek Uyarlanabilir Gürültü Engelleme (True Adaptive ANC)",
+      "JBL Spatial Sound ve Hi-Res Sertifikalı 40 mm Özel Sürücüler",
+      "50 Saate Varan Pil Ömrü (ANC Açıkken 30 Saat) ve Smart Talk Konuşma Algılama",
+      "4 Mikrofonlu Kristal Netliğinde Çağrı Kalitesi"
+    ],
+    "specs": {
+      "formFactor": "Kulak Üstü (Flagship Over-Ear ANC)",
+      "anc": "True Adaptive Hibrit ANC (4 Mikrofon)",
+      "spatialAudio": "JBL Spatial Sound",
+      "driverSize": "40 mm Hi-Res Dinamik",
+      "batteryLife": "50 Saat (ANC Kapalı) / 30 Saat (ANC Açık)",
+      "bluetoothVersion": "Bluetooth 5.3 (LE Audio)",
+      "weightGrams": 278
+    },
+    "storeOffers": [
+      {
+        "id": "so-jbltour1m2-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "bg-orange-500",
+        "price": 9999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime",
+          "Amiral Gemisi ANC"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 2900,
+        "url": "https://www.amazon.com.tr"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 10999,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 9999,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "steelseries-arctis-9x",
+    "slug": "steelseries-arctis-9x",
+    "name": "SteelSeries Arctis 9X Xbox Kablosuz Gaming Kulaklık",
+    "brand": "SteelSeries",
+    "category": "headphones",
+    "basePrice": 9791.19,
+    "currency": "TL",
+    "rating": 4.7,
+    "epeyScore": 92,
+    "reviewCount": 1950,
+    "image": "/images/headphones/steelseries-arctis-9x.jpg",
+    "images": [
+      "/images/headphones/steelseries-arctis-9x.jpg"
+    ],
+    "releaseYear": 2021,
+    "highlights": [
+      "Xbox Wireless ile Adaptörsüz Doğrudan Konsola Bağlantı",
+      "Eşzamanlı Xbox Oyun Sesi ve Bluetooth Mobil Müzik/Arama",
+      "ClearCast Çift Yönlü Mikrofon ve 20+ Saat Pil Ömrü"
+    ],
+    "specs": {
+      "formFactor": "Kulak Üstü (Xbox Wireless)",
+      "spatialAudio": "Windows Sonic / Dolby Atmos",
+      "driverSize": "40 mm Neodimyum",
+      "batteryLife": "20+ Saat",
+      "bluetoothVersion": "Xbox Direct & BT 4.1",
+      "weightGrams": 372
+    },
+    "storeOffers": [
+      {
+        "id": "so-ssarc9x-1",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "bg-red-600",
+        "price": 9791.19,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Xbox Özel"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1400,
+        "url": "https://www.mediamarkt.com.tr"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 10450,
+        "store": "MediaMarkt"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 9791.19,
+        "store": "MediaMarkt"
+      }
+    ]
+  },
+  {
+    "id": "beyerdynamic-mmx-150",
+    "slug": "beyerdynamic-mmx-150",
+    "name": "Beyerdynamic MMX 150 Stüdyo Sınıfı USB Gaming Kulaklık",
+    "brand": "Beyerdynamic",
+    "category": "headphones",
+    "basePrice": 9799.99,
+    "currency": "TL",
+    "rating": 4.8,
+    "epeyScore": 92,
+    "reviewCount": 780,
+    "image": "/images/headphones/beyerdynamic-mmx-150.jpg",
+    "images": [
+      "/images/headphones/beyerdynamic-mmx-150.jpg"
+    ],
+    "releaseYear": 2022,
+    "highlights": [
+      "Efsanevi Beyerdynamic Stüdyo Akustiği ve 40 mm Sürücüler",
+      "META VOICE 9.9 mm Kardioid Kondenser Mikrofon ile Yayın Kalitesi",
+      "Augmented Mode (Genişletilmiş Ortam Modu) ile Çevre Seslerini Duyabilme",
+      "Hafızalı Köpük Yastıklar ve Alüminyum Çatal Yapı"
+    ],
+    "specs": {
+      "formFactor": "Kulak Üstü (Stüdyo Gaming USB/3.5mm)",
+      "transparencyMode": "Augmented Mode",
+      "driverSize": "40 mm Dinamik Stüdyo",
+      "frequencyResponse": "5 Hz - 30.000 Hz",
+      "weightGrams": 304
+    },
+    "storeOffers": [
+      {
+        "id": "so-beymmx150-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "bg-orange-500",
+        "price": 9799.99,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime",
+          "Alman Mühendisliği"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 950,
+        "url": "https://www.amazon.com.tr"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 10499,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 9799.99,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "marshall-motif-ii-a-n-c",
+    "slug": "marshall-motif-ii-a-n-c",
+    "name": "Marshall Motif II A.N.C. Kablosuz TWS Kulaklık",
+    "brand": "Marshall",
+    "category": "headphones",
+    "basePrice": 9499,
+    "currency": "TL",
+    "rating": 4.7,
+    "epeyScore": 93,
+    "reviewCount": 1890,
+    "image": "/images/headphones/marshall-motif-ii-a-n-c.jpg",
+    "images": [
+      "/images/headphones/marshall-motif-ii-a-n-c.jpg"
+    ],
+    "releaseYear": 2023,
+    "highlights": [
+      "İkonik Marshall Deri Dokulu Şık Şarj Kutusu",
+      "Geliştirilmiş Aktif Gürültü Engelleme ve Şeffaflık Modu",
+      "Toplam 30 Saat Pil Ömrü (ANC Açıkken 6 Saat + Kutu ile 24 Saat)",
+      "Bluetooth LE Audio ve Qi Kablosuz Şarj Desteği"
+    ],
+    "specs": {
+      "formFactor": "Kulak İçi (TWS ANC)",
+      "anc": "Aktif Gürültü Engelleme (ANC)",
+      "driverSize": "6 mm Dinamik",
+      "waterResistance": "IPX5 (Kulaklık) / IPX4 (Kutu)",
+      "batteryLife": "30 Saat (Kutu Dahil)",
+      "bluetoothVersion": "Bluetooth 5.3 (LE Audio)",
+      "weightGrams": 8.6
+    },
+    "storeOffers": [
+      {
+        "id": "so-mrmot2-1",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "bg-red-600",
+        "price": 9499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör",
+          "Marshall İmzası"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 2100,
+        "url": "https://www.mediamarkt.com.tr"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 9999,
+        "store": "MediaMarkt"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 9499,
+        "store": "MediaMarkt"
+      }
+    ]
+  },
+  {
+    "id": "steelseries-arctis-nova-7x",
+    "slug": "steelseries-arctis-nova-7x",
+    "name": "SteelSeries Arctis Nova 7X Xbox / PC Gaming Kulaklık",
+    "brand": "SteelSeries",
+    "category": "headphones",
+    "basePrice": 9480,
+    "currency": "TL",
+    "rating": 4.8,
+    "epeyScore": 94,
+    "reviewCount": 1540,
+    "image": "/images/headphones/steelseries-arctis-nova-7x.jpg",
+    "images": [
+      "/images/headphones/steelseries-arctis-nova-7x.jpg"
+    ],
+    "releaseYear": 2023,
+    "highlights": [
+      "Xbox Lisanslı USB-C Dongle ile Tüm Platformlarda (Xbox, PC, PS5, Switch, Mobil) Çalışma",
+      "Eşzamanlı 2.4GHz Oyun Sesi ve Bluetooth Mobil Bağlantı",
+      "38 Saat Pil Ömrü ve ClearCast Gen 2 AI Mikrofon"
+    ],
+    "specs": {
+      "formFactor": "Kulak Üstü (Xbox / Multi-Platform Gaming)",
+      "spatialAudio": "360° Uzamsal Ses & Sonar",
+      "driverSize": "40 mm",
+      "batteryLife": "38 Saat",
+      "bluetoothVersion": "2.4GHz & BT 5.0",
+      "weightGrams": 325
+    },
+    "storeOffers": [
+      {
+        "id": "so-ssnova7x-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-orange-600",
+        "price": 9480,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Xbox Uyumlu"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1800,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 9999,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 9480,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "steelseries-arctis-nova-7",
+    "slug": "steelseries-arctis-nova-7",
+    "name": "SteelSeries Arctis Nova 7 Kablosuz Çoklu Platform Kulaklık",
+    "brand": "SteelSeries",
+    "category": "headphones",
+    "basePrice": 8777,
+    "currency": "TL",
+    "rating": 4.8,
+    "epeyScore": 94,
+    "reviewCount": 2900,
+    "image": "/images/headphones/steelseries-arctis-nova-7.jpg",
+    "images": [
+      "/images/headphones/steelseries-arctis-nova-7.jpg"
+    ],
+    "releaseYear": 2022,
+    "highlights": [
+      "Nova Akustik Sistemi ve Yüksek Kaliteli Hoparlör Sürücüleri",
+      "Eşzamanlı Kablosuz (2.4GHz + BT) ile Oyun Oynarken Telefonla Görüşme",
+      "38 Saat Pil Ömrü ve Hızlı Şarj (15 dk şarj ile 6 saat)",
+      "Sonar Yazılımı ile Profesyonel Parametrik Ekolayzer"
+    ],
+    "specs": {
+      "formFactor": "Kulak Üstü (PC/Mac/Switch Gaming)",
+      "spatialAudio": "360° Uzamsal Ses",
+      "driverSize": "40 mm",
+      "batteryLife": "38 Saat",
+      "bluetoothVersion": "2.4GHz Quantum 2.0 & BT 5.0",
+      "weightGrams": 325
+    },
+    "storeOffers": [
+      {
+        "id": "so-ssnova7-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "bg-orange-500",
+        "price": 8777,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime",
+          "En Çok Satan"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3800,
+        "url": "https://www.amazon.com.tr"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 9299,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 8777,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "beyerdynamic-mmx-100",
+    "slug": "beyerdynamic-mmx-100",
+    "name": "Beyerdynamic MMX 100 Kapalı Arkalı Analog Gaming Kulaklık",
+    "brand": "Beyerdynamic",
+    "category": "headphones",
+    "basePrice": 7799.99,
+    "currency": "TL",
+    "rating": 4.7,
+    "epeyScore": 90,
+    "reviewCount": 620,
+    "image": "/images/headphones/beyerdynamic-mmx-100.jpg",
+    "images": [
+      "/images/headphones/beyerdynamic-mmx-100.jpg"
+    ],
+    "releaseYear": 2022,
+    "highlights": [
+      "Stüdyo Sınıfı 40 mm Sürücüler ile Doğal ve Net Ses",
+      "META VOICE Kardioid Kondenser Mikrofon",
+      "Hafızalı Köpük Kulak Yastıkları ile Üstün Pasif İzolasyon"
+    ],
+    "specs": {
+      "formFactor": "Kulak Üstü (Analog Gaming 3.5mm)",
+      "driverSize": "40 mm Dinamik",
+      "frequencyResponse": "5 Hz - 30.000 Hz",
+      "weightGrams": 296
+    },
+    "storeOffers": [
+      {
+        "id": "so-beymmx100-1",
+        "storeName": "Teknosa",
+        "storeLogoColor": "bg-orange-500",
+        "price": 7799.99,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Alman Mühendisliği"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 540,
+        "url": "https://www.teknosa.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 8250,
+        "store": "Teknosa"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 7799.99,
+        "store": "Teknosa"
+      }
+    ]
+  },
+  {
+    "id": "corsair-hs80-rgb-wireless",
+    "slug": "corsair-hs80-rgb-wireless",
+    "name": "Corsair HS80 RGB Wireless Uzamsal Sesli Gaming Kulaklık",
+    "brand": "Corsair",
+    "category": "headphones",
+    "basePrice": 7106,
+    "currency": "TL",
+    "rating": 4.8,
+    "epeyScore": 93,
+    "reviewCount": 3100,
+    "image": "/images/headphones/corsair-hs80-rgb-wireless.jpg",
+    "images": [
+      "/images/headphones/corsair-hs80-rgb-wireless.jpg"
+    ],
+    "releaseYear": 2021,
+    "highlights": [
+      "Dolby Atmos ile Üç Boyutlu Hassas Ses Konumlandırma",
+      "Özel Ayarlanmış 50 mm Yüksek Yoğunluklu Neodimyum Sürücüler (24-bit/96kHz)",
+      "Yayın Sınıfı Çok Yönlü Mikrofon ve Askılı Kafa Bandı Konforu",
+      "20 Saate Kadar Pil Ömrü ve Slipstream Wireless Teknolojisi"
+    ],
+    "specs": {
+      "formFactor": "Kulak Üstü (Dolby Atmos Wireless Gaming)",
+      "spatialAudio": "Dolby Atmos Dahili",
+      "driverSize": "50 mm Hi-Res Neodimyum",
+      "frequencyResponse": "20 Hz - 40.000 Hz",
+      "batteryLife": "20 Saat",
+      "bluetoothVersion": "Slipstream 2.4GHz Wireless",
+      "weightGrams": 367
+    },
+    "storeOffers": [
+      {
+        "id": "so-corhs80-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "bg-orange-500",
+        "price": 7106,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime",
+          "Dolby Atmos"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3900,
+        "url": "https://www.amazon.com.tr"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 7600,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 7106,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "jbl-soundgear-sense",
+    "slug": "jbl-soundgear-sense",
+    "name": "JBL Soundgear Sense Açık Kulaklık (Open-Ear TWS)",
+    "brand": "JBL",
+    "category": "headphones",
+    "basePrice": 5999,
+    "currency": "TL",
+    "rating": 4.7,
+    "epeyScore": 90,
+    "reviewCount": 1620,
+    "image": "/images/headphones/jbl-soundgear-sense.jpg",
+    "images": [
+      "/images/headphones/jbl-soundgear-sense.jpg"
+    ],
+    "releaseYear": 2023,
+    "highlights": [
+      "JBL OpenSound Teknolojisi ile Ses Sızıntısını Önleyen Açık Kulak Deneyimi",
+      "16.2 mm Büyük Sürücüler ile Güçlü Bas Algoritması",
+      "Ayarlanabilir Kulak Kancaları ve Çıkarılabilir Boyun Bandı (Hibrit Kullanım)",
+      "24 Saate Varan Pil Ömrü (6s kulaklık + 18s kutu) ve IP54 Suya Dayanıklılık"
+    ],
+    "specs": {
+      "formFactor": "Açık Kulak (Open-Ear TWS + Boyun Bandı)",
+      "transparencyMode": "Doğal Açık Kulak",
+      "driverSize": "16.2 mm JBL OpenSound",
+      "waterResistance": "IP54",
+      "batteryLife": "24 Saat (Kutu Dahil)",
+      "bluetoothVersion": "Bluetooth 5.3 (Multipoint)",
+      "weightGrams": 13.1
+    },
+    "storeOffers": [
+      {
+        "id": "so-jblsg-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-amber-500",
+        "price": 5999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör",
+          "Open-Ear"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 1800,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 6499,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 5999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "jbl-live-flex",
+    "slug": "jbl-live-flex",
+    "name": "JBL Live Flex Açık Tasarım Uyarlanabilir ANC Kulaklık",
+    "brand": "JBL",
+    "category": "headphones",
+    "basePrice": 5999,
+    "currency": "TL",
+    "rating": 4.6,
+    "epeyScore": 90,
+    "reviewCount": 1420,
+    "image": "/images/headphones/jbl-live-flex.jpg",
+    "images": [
+      "/images/headphones/jbl-live-flex.jpg"
+    ],
+    "releaseYear": 2023,
+    "highlights": [
+      "Yarı Açık Kulak Ucu Tasarımında Gerçek Uyarlanabilir ANC",
+      "JBL Signature Sound ve 12 mm Neodimyum Sürücüler",
+      "JBL Spatial Sound ile Çevresel Ses",
+      "40 Saate Varan Pil Ömrü (8s + 32s) ve Qi Kablosuz Şarj"
+    ],
+    "specs": {
+      "formFactor": "Kulak İçi (Yarı Açık TWS ANC)",
+      "anc": "Gerçek Uyarlanabilir ANC",
+      "driverSize": "12 mm Neodimyum",
+      "batteryLife": "40 Saat (Kutu ile)",
+      "bluetoothVersion": "Bluetooth 5.3",
+      "weightGrams": 10.4
+    },
+    "storeOffers": [
+      {
+        "id": "so-jbllf-1",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "bg-red-600",
+        "price": 5999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Kulüp Fiyatı"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1600,
+        "url": "https://www.mediamarkt.com.tr"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 6499,
+        "store": "MediaMarkt"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 5999,
+        "store": "MediaMarkt"
+      }
+    ]
+  },
+  {
+    "id": "bluedio-t6",
+    "slug": "bluedio-t6",
+    "name": "Bluedio T6 Aktif Gürültü Önleyici Bluetooth Kulaklık",
+    "brand": "Bluedio",
+    "category": "headphones",
+    "basePrice": 5289,
+    "currency": "TL",
+    "rating": 4.4,
+    "epeyScore": 81,
+    "reviewCount": 560,
+    "image": "/images/headphones/bluedio-t6.jpg",
+    "images": [
+      "/images/headphones/bluedio-t6.jpg"
+    ],
+    "releaseYear": 2020,
+    "highlights": [
+      "Aktif Gürültü Engelleme (ANC) ile 25dB Gürültü Azaltma",
+      "57 mm Titanyum Kaplama Diyafram Sürücüler",
+      "25 Saate Kadar Müzik Dinleme ve USB Type-C Şarj"
+    ],
+    "specs": {
+      "formFactor": "Kulak Üstü (Over-Ear ANC)",
+      "anc": "Aktif Gürültü Engelleme",
+      "driverSize": "57 mm Titanyum",
+      "batteryLife": "25 Saat",
+      "bluetoothVersion": "Bluetooth 5.0",
+      "weightGrams": 290
+    },
+    "storeOffers": [
+      {
+        "id": "so-blt6-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-orange-600",
+        "price": 5289,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "57mm Sürücü"
+        ],
+        "sellerRating": 4.6,
+        "sellerReviews": 480,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 5600,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 5289,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "denon-ah-gc25nc",
+    "slug": "denon-ah-gc25nc",
+    "name": "Denon AH-GC25NC Hi-Res Aktif Gürültü Engelleme Kulaklık",
+    "brand": "Denon",
+    "category": "headphones",
+    "basePrice": 5252.85,
+    "currency": "TL",
+    "rating": 4.6,
+    "epeyScore": 88,
+    "reviewCount": 310,
+    "image": "/images/headphones/denon-ah-gc25nc.jpg",
+    "images": [
+      "/images/headphones/denon-ah-gc25nc.jpg"
+    ],
+    "releaseYear": 2021,
+    "highlights": [
+      "Yeni Nesil Denon Aktif Gürültü Engelleme (ANC) Teknolojisi",
+      "Hi-Res Audio Sertifikalı 40 mm Ayarlı Sürücüler",
+      "40 Saate Varan ANC Pil Ömrü (Kablolu ANC Kullanımı)"
+    ],
+    "specs": {
+      "formFactor": "Kulak Üstü (Hi-Res Kablolu ANC)",
+      "anc": "Aktif Gürültü Engelleme (3 Mod)",
+      "driverSize": "40 mm",
+      "batteryLife": "40 Saat (ANC)",
+      "frequencyResponse": "5 Hz - 40.000 Hz",
+      "weightGrams": 287
+    },
+    "storeOffers": [
+      {
+        "id": "so-dngc25nc-1",
+        "storeName": "Teknosa",
+        "storeLogoColor": "bg-orange-500",
+        "price": 5252.85,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hi-Res Audio"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 340,
+        "url": "https://www.teknosa.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 5600,
+        "store": "Teknosa"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 5252.85,
+        "store": "Teknosa"
+      }
+    ]
+  },
+  {
+    "id": "jbl-quantum-tws-air",
+    "slug": "jbl-quantum-tws-air",
+    "name": "JBL Quantum TWS Air Düşük Gecikmeli Gaming TWS Kulaklık",
+    "brand": "JBL",
+    "category": "headphones",
+    "basePrice": 3039,
+    "currency": "TL",
+    "rating": 4.6,
+    "epeyScore": 87,
+    "reviewCount": 1350,
+    "image": "/images/headphones/jbl-quantum-tws-air.jpg",
+    "images": [
+      "/images/headphones/jbl-quantum-tws-air.jpg"
+    ],
+    "releaseYear": 2023,
+    "highlights": [
+      "USB-C Kablosuz Dongle ile 50ms Altı Ultra Düşük Gecikmeli Oyun Sesi",
+      "JBL QuantumSURROUND ile PC'de Doğru Konumsal Ses Algılama",
+      "JBL Dual Source (2.4GHz ve Bluetooth Eşzamanlı Bağlantı)",
+      "4 Işın Oluşturucu Mikrofon ile Net Sohbet"
+    ],
+    "specs": {
+      "formFactor": "Kulak İçi (Dongle Destekli Gaming TWS)",
+      "spatialAudio": "JBL QuantumSURROUND",
+      "driverSize": "6.8 mm Dinamik",
+      "batteryLife": "8 Saat (Kulaklık) / 24 Saat (Kutu ile)",
+      "bluetoothVersion": "2.4GHz USB-C Dongle & BT 5.2",
+      "weightGrams": 8.8
+    },
+    "storeOffers": [
+      {
+        "id": "so-jblqair-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "bg-orange-500",
+        "price": 3039,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime",
+          "Düşük Gecikme"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1800,
+        "url": "https://www.amazon.com.tr"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 3399,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 3039,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "oneodio-studio-pro-10",
+    "slug": "oneodio-studio-pro-10",
+    "name": "Oneodio Studio Pro-10 DJ & Stüdyo Kayıt Kulaklığı",
+    "brand": "Oneodio",
+    "category": "headphones",
+    "basePrice": 2379.36,
+    "currency": "TL",
+    "rating": 4.5,
+    "epeyScore": 81,
+    "reviewCount": 2200,
+    "image": "/images/headphones/oneodio-studio-pro-10.jpg",
+    "images": [
+      "/images/headphones/oneodio-studio-pro-10.jpg"
+    ],
+    "releaseYear": 2021,
+    "highlights": [
+      "50 mm Büyük Dinamik Neodimyum Sürücüler ile Güçlü Baslar",
+      "Çift Giriş (3.5 mm & 6.35 mm Jak) ile Adaptörsüz Bağlantı",
+      "90 Derece Dönebilen Kulaklık Kapsülleri ile Tek Kulak DJ Takibi",
+      "Shareport Teknolojisi ile Müziği Başka Kulaklıkla Paylaşabilme"
+    ],
+    "specs": {
+      "formFactor": "Kulak Üstü (Kablolu DJ & Stüdyo)",
+      "driverSize": "50 mm Neodimyum",
+      "frequencyResponse": "20 Hz - 20.000 Hz",
+      "weightGrams": 240
+    },
+    "storeOffers": [
+      {
+        "id": "so-onepro10-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-amber-500",
+        "price": 2379.36,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "DJ Kulaklığı"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 2900,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 2599,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 2379.36,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "jbl-tune-570bt",
+    "slug": "jbl-tune-570bt",
+    "name": "JBL Tune 570BT Kablosuz Kulak Üstü Kulaklık",
+    "brand": "JBL",
+    "category": "headphones",
+    "basePrice": 1749,
+    "currency": "TL",
+    "rating": 4.7,
+    "epeyScore": 86,
+    "reviewCount": 9500,
+    "image": "/images/headphones/jbl-tune-570bt.jpg",
+    "images": [
+      "/images/headphones/jbl-tune-570bt.jpg"
+    ],
+    "releaseYear": 2023,
+    "highlights": [
+      "JBL Pure Bass Ses Teknolojisi ve 32 mm Dinamik Sürücüler",
+      "40 Saate Kadar Pil Ömrü ve Hızlı Şarj (5 dk ile 2 saat)",
+      "Bluetooth 5.0 ile Zahmetsiz Çok Noktalı Bağlantı",
+      "Katlanabilir Hafif ve Taşınabilir Gövde"
+    ],
+    "specs": {
+      "formFactor": "Kulak Üstü (On-Ear)",
+      "driverSize": "32 mm JBL Pure Bass",
+      "batteryLife": "40 Saat",
+      "bluetoothVersion": "Bluetooth 5.0",
+      "weightGrams": 160
+    },
+    "storeOffers": [
+      {
+        "id": "so-jblt570-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-orange-600",
+        "price": 1749,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "En Çok Satan",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 11000,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 1899,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 1749,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "fenix-fh-200",
+    "slug": "fenix-fh-200",
+    "name": "Fenix FH-200 RGB Aydınlatmalı Gaming Kulaklık",
+    "brand": "Fenix",
+    "category": "headphones",
+    "basePrice": 1650.23,
+    "currency": "TL",
+    "rating": 4.3,
+    "epeyScore": 78,
+    "reviewCount": 280,
+    "image": "/images/headphones/fenix-fh-200.jpg",
+    "images": [
+      "/images/headphones/fenix-fh-200.jpg"
+    ],
+    "releaseYear": 2022,
+    "highlights": [
+      "50 mm Yüksek Güçlü Hoparlör Sürücüleri",
+      "RGB Renkli Işık Efektleri ve Ayarlanabilir Kafa Bandı",
+      "Yüksek Hassasiyetli Esnek Mikrofon"
+    ],
+    "specs": {
+      "formFactor": "Kulak Üstü (Kablolu Gaming RGB)",
+      "driverSize": "50 mm",
+      "weightGrams": 310
+    },
+    "storeOffers": [
+      {
+        "id": "so-fenfh200-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-amber-500",
+        "price": 1650.23,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "RGB Gaming"
+        ],
+        "sellerRating": 4.5,
+        "sellerReviews": 320,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 1799,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 1650.23,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "philips-taa4216",
+    "slug": "philips-taa4216",
+    "name": "Philips TAA4216 Kablosuz Spor Kulak Üstü Kulaklık",
+    "brand": "Philips",
+    "category": "headphones",
+    "basePrice": 1529.1,
+    "currency": "TL",
+    "rating": 4.6,
+    "epeyScore": 84,
+    "reviewCount": 1680,
+    "image": "/images/headphones/philips-taa4216.jpg",
+    "images": [
+      "/images/headphones/philips-taa4216.jpg"
+    ],
+    "releaseYear": 2021,
+    "highlights": [
+      "Yıkanabilir ve Soğutma Jeli İçeren Nefes Alabilir Kulak Yastıkları",
+      "IP55 Toza ve Suya Karşı Dayanıklı Sporcu Tasarımı",
+      "35 Saate Varan Pil Ömrü ve Hızlı Şarj (15 dk ile 2 saat)"
+    ],
+    "specs": {
+      "formFactor": "Kulak Üstü (Sporcu On-Ear)",
+      "waterResistance": "IP55",
+      "driverSize": "40 mm",
+      "batteryLife": "35 Saat",
+      "bluetoothVersion": "Bluetooth 5.0",
+      "weightGrams": 214
+    },
+    "storeOffers": [
+      {
+        "id": "so-phtaa4216-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "bg-orange-500",
+        "price": 1529.1,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime",
+          "Yıkanabilir Yastık"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1950,
+        "url": "https://www.amazon.com.tr"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 1699,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 1529.1,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "philips-tat3508",
+    "slug": "philips-tat3508",
+    "name": "Philips TAT3508 Gürültü Engelleme Özellikli TWS Kulaklık",
+    "brand": "Philips",
+    "category": "headphones",
+    "basePrice": 1249,
+    "currency": "TL",
+    "rating": 4.5,
+    "epeyScore": 83,
+    "reviewCount": 1950,
+    "image": "/images/headphones/philips-tat3508.jpg",
+    "images": [
+      "/images/headphones/philips-tat3508.jpg"
+    ],
+    "releaseYear": 2023,
+    "highlights": [
+      "Aktif Gürültü Engelleme (ANC) ve Farkındalık Şeffaflık Modu",
+      "10 mm Dinamik Sürücüler ile Güçlü Ses Performansı",
+      "Toplam 21 Saat Pil Ömrü ve Bluetooth 5.3 Multipoint"
+    ],
+    "specs": {
+      "formFactor": "Kulak İçi (TWS ANC)",
+      "anc": "Aktif Gürültü Engelleme",
+      "driverSize": "10 mm",
+      "batteryLife": "21 Saat (Kutu Dahil)",
+      "bluetoothVersion": "Bluetooth 5.3",
+      "weightGrams": 9
+    },
+    "storeOffers": [
+      {
+        "id": "so-phtat3508-1",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "bg-red-600",
+        "price": 1249,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör",
+          "Fiyat/Performans"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 2400,
+        "url": "https://www.mediamarkt.com.tr"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 1399,
+        "store": "MediaMarkt"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 1249,
+        "store": "MediaMarkt"
+      }
+    ]
+  },
+  {
     "id": "audio-technica-ath-g1",
     "slug": "audio-technica-ath-g1",
     "name": "Audio-Technica ATH-G1 Premium Stüdyo Gaming Kulaklık",
@@ -7453,130 +9224,6 @@ export const mockHeadphones: Product[] = [
         "date": "2026-08-01",
         "price": 590.08,
         "store": "Trendyol"
-      }
-    ]
-  },
-  {
-    "id": "philips-tat3508",
-    "slug": "philips-tat3508",
-    "name": "Philips TAT3508 ANC TWS Kablosuz Kulak İçi Kulaklık",
-    "brand": "Philips",
-    "category": "headphones",
-    "basePrice": 1249,
-    "currency": "TL",
-    "rating": 4.6,
-    "epeyScore": 89,
-    "reviewCount": 480,
-    "releaseYear": 2025,
-    "isPopular": true,
-    "isFeatured": false,
-    "image": "/images/headphones/philips-tat3508.jpg",
-    "images": [
-      "/images/headphones/philips-tat3508.jpg"
-    ],
-    "highlights": [
-      "Gürültü Engelleme (ANC) ve Farkındalık Modu",
-      "IPX4 Su Sıçramasına Dayanıklılık",
-      "Kutu ile Toplam 21 Saat Dinleme Süresi",
-      "Yapay Zeka Destekli Net Mikrofon Çağrıları"
-    ],
-    "specs": {
-      "formFactor": "Kulak İçi (TWS)",
-      "anc": "Var",
-      "batteryLife": "21 Saat (Kutu ile)",
-      "bluetoothVersion": "5.3",
-      "driverSize": "10 mm",
-      "frequencyResponse": "20 Hz - 20.000 Hz",
-      "weightGrams": 45
-    },
-    "storeOffers": [
-      {
-        "id": "so-tat3508-1",
-        "storeName": "Trendyol",
-        "storeLogoColor": "bg-amber-600",
-        "price": 1249,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Bestseller"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 3100,
-        "url": "https://www.epey.com/kulaklik/philips-tat3508.html"
-      }
-    ],
-    "priceHistory": [
-      {
-        "date": "2026-07-01",
-        "price": 1399,
-        "store": "Trendyol"
-      },
-      {
-        "date": "2026-08-01",
-        "price": 1249,
-        "store": "Trendyol"
-      }
-    ]
-  },
-  {
-    "id": "philips-taa4216",
-    "slug": "philips-taa4216",
-    "name": "Philips TAA4216 Kablosuz Sporcu Kulaklığı IP55",
-    "brand": "Philips",
-    "category": "headphones",
-    "basePrice": 1495.1,
-    "currency": "TL",
-    "rating": 4.6,
-    "epeyScore": 88,
-    "reviewCount": 140,
-    "releaseYear": 2024,
-    "isPopular": false,
-    "isFeatured": false,
-    "image": "/images/headphones/philips-taa4216.jpg",
-    "images": [
-      "/images/headphones/philips-taa4216.jpg"
-    ],
-    "highlights": [
-      "IP55 Toza ve Tere Dayanıklılık Derecesi",
-      "Soğutucu Jel İçeren Yıkanabilir Kulak Yastıkları",
-      "35 Saate Varan Pil Ömrü",
-      "Hızlı Şarj (15 dk ile 2 saat müzik)"
-    ],
-    "specs": {
-      "formFactor": "Kulak Üstü Spor (On-Ear)",
-      "anc": "Yok (Pasif Spor İzolasyonu)",
-      "batteryLife": "35 Saat",
-      "bluetoothVersion": "5.0",
-      "driverSize": "40 mm",
-      "frequencyResponse": "20 Hz - 20.000 Hz",
-      "weightGrams": 214
-    },
-    "storeOffers": [
-      {
-        "id": "so-taa4216-1",
-        "storeName": "Amazon TR",
-        "storeLogoColor": "bg-orange-500",
-        "price": 1495.1,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Prime"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 670,
-        "url": "https://www.epey.com/kulaklik/philips-taa4216.html"
-      }
-    ],
-    "priceHistory": [
-      {
-        "date": "2026-07-01",
-        "price": 1599,
-        "store": "Amazon TR"
-      },
-      {
-        "date": "2026-08-01",
-        "price": 1495.1,
-        "store": "Amazon TR"
       }
     ]
   },
