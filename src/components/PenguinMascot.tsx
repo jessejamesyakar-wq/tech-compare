@@ -167,7 +167,7 @@ export default function PenguinMascot() {
             height={576}
             priority
             draggable={false}
-            className="w-full h-auto rounded-2xl shadow-md border border-slate-200/60 dark:border-slate-800"
+            className="w-full h-auto rounded-3xl object-contain drop-shadow-xl"
           />
         </motion.div>
       </div>
