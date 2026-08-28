@@ -2,6 +2,1675 @@ import { Product } from './types';
 
 export const mockHeadphones: Product[] = [
   {
+    "id": "apple-airpods-max-2",
+    "slug": "apple-airpods-max-2",
+    "name": "Apple AirPods Max 2 (USB-C)",
+    "brand": "Apple",
+    "category": "headphones",
+    "basePrice": 31490,
+    "currency": "TL",
+    "rating": 4.9,
+    "epeyScore": 98,
+    "reviewCount": 680,
+    "image": "/images/headphones/apple-airpods-max-2.jpg",
+    "images": [
+      "/images/headphones/apple-airpods-max-2.jpg"
+    ],
+    "releaseYear": 2024,
+    "highlights": [
+      "USB-C Bağlantı Noktası ile Kayıpsız Ses (Lossless Audio) Desteği",
+      "Pro Seviye 2 Kata Kadar Daha Güçlü Aktif Gürültü Engelleme (ANC)",
+      "Dinamik Kafa İzleme Özellikli Kişiselleştirilmiş Uzamsal Ses",
+      "Örme File Taç Bandı ve Eloksallı Alüminyum Akustik Kulaklık Kapakları",
+      "20 Saate Kadar Kesintisiz Yüksek Çözünürlüklü Müzik ve Sinema Deneyimi"
+    ],
+    "specs": {
+      "formFactor": "Kulak Üstü (Over-Ear)",
+      "anc": "Pro Düzey Hibrit ANC (Aktif Gürültü Engelleme)",
+      "transparencyMode": "Adaptif Şeffaf Mod",
+      "spatialAudio": "Kişiselleştirilmiş Uzamsal Ses (Dinamik Kafa Takibi)",
+      "chipset": "Apple H2 Çift Çip Mimarisi",
+      "batteryLife": "20 Saat (ANC & Uzamsal Ses Açık)",
+      "chargingPort": "USB-C & Akıllı Kılıf Desteği",
+      "fastCharging": "5 Dakika Şarj ile 1.5 Saat Çalma",
+      "bluetoothVersion": "Bluetooth 5.3",
+      "driverSize": "40 mm Apple Tasarımı Özel Dinamik Sürücü",
+      "microphoneCount": "9 Adet Mikrofon (8 ANC + 1 Ses Yakalama)",
+      "weightGrams": 384.8,
+      "compatibility": "iOS, iPadOS, macOS, watchOS, Android, Windows"
+    },
+    "storeOffers": [
+      {
+        "id": "so-ap-max2-1",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "bg-red-600",
+        "price": 31490,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 1240,
+        "url": "https://www.mediamarkt.com.tr"
+      },
+      {
+        "id": "so-ap-max2-2",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "bg-orange-500",
+        "price": 31599,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime Ertesi Gün",
+          "Peşin Fiyatına Taksit"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3200,
+        "url": "https://www.amazon.com.tr"
+      },
+      {
+        "id": "so-ap-max2-3",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-amber-500",
+        "price": 31750,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hepsiburada Güvencesi"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 2150,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "so-ap-max2-4",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-orange-600",
+        "price": 31899,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Onaylı Satıcı"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1800,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 32999,
+        "store": "MediaMarkt"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 31999,
+        "store": "MediaMarkt"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 31490,
+        "store": "MediaMarkt"
+      }
+    ]
+  },
+  {
+    "id": "apple-airpods-max",
+    "slug": "apple-airpods-max",
+    "name": "Apple AirPods Max (Lightning)",
+    "brand": "Apple",
+    "category": "headphones",
+    "basePrice": 27225.68,
+    "currency": "TL",
+    "rating": 4.8,
+    "epeyScore": 95,
+    "reviewCount": 920,
+    "image": "/images/headphones/apple-airpods-max.jpg",
+    "images": [
+      "/images/headphones/apple-airpods-max.jpg"
+    ],
+    "releaseYear": 2022,
+    "highlights": [
+      "Apple H1 Kulaklık Çipi (Her Kulaklık Kapağında Ayrı Ayrı)",
+      "Aktif Gürültü Engelleme ve Şeffaf Mod Arasında Tek Dokunuşla Geçiş",
+      "Digital Crown ile Hassas Ses, Parça Değişimi ve Siri Kontrolü",
+      "Akıllı Kılıf ile Ultra Düşük Güç Tüketim Modu"
+    ],
+    "specs": {
+      "formFactor": "Kulak Üstü (Over-Ear)",
+      "anc": "Aktif Gürültü Engelleme (ANC)",
+      "transparencyMode": "Şeffaf Mod",
+      "spatialAudio": "Uzamsal Ses ve Dinamik Kafa Takibi",
+      "chipset": "Apple H1 Çift Çip",
+      "batteryLife": "20 Saat",
+      "chargingPort": "Lightning",
+      "bluetoothVersion": "Bluetooth 5.0",
+      "driverSize": "40 mm Apple Dinamik Sürücü",
+      "weightGrams": 384.8
+    },
+    "storeOffers": [
+      {
+        "id": "so-ap-max-1",
+        "storeName": "Teknosa",
+        "storeLogoColor": "bg-orange-500",
+        "price": 27225.68,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "TeknoClub",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 950,
+        "url": "https://www.teknosa.com"
+      },
+      {
+        "id": "so-ap-max-2",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "bg-orange-500",
+        "price": 27499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 2400,
+        "url": "https://www.amazon.com.tr"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 28999,
+        "store": "Teknosa"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 27850,
+        "store": "Teknosa"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 27225.68,
+        "store": "Teknosa"
+      }
+    ]
+  },
+  {
+    "id": "apple-airpods-pro-3",
+    "slug": "apple-airpods-pro-3",
+    "name": "Apple AirPods Pro 3 (Yeni Nesil)",
+    "brand": "Apple",
+    "category": "headphones",
+    "basePrice": 11803.93,
+    "currency": "TL",
+    "rating": 4.9,
+    "epeyScore": 97,
+    "reviewCount": 430,
+    "image": "/images/headphones/apple-airpods-pro-3.jpg",
+    "images": [
+      "/images/headphones/apple-airpods-pro-3.jpg"
+    ],
+    "releaseYear": 2025,
+    "highlights": [
+      "Yeni Apple H3 Akıllı Ses Çipi ve Canlı Çeviri Entegrasyonu",
+      "Gelişmiş Biyometrik Kalp Atış Hızı & Sıcaklık Sensörü",
+      "3. Nesil Hibrit Ultra Aktif Gürültü Engelleme",
+      "MagSafe USB-C Şarj Kutusu ile 36 Saate Varan Toplam Pil Süresi"
+    ],
+    "specs": {
+      "formFactor": "Kulak İçi (TWS)",
+      "anc": "3. Nesil Ultra Hibrit ANC",
+      "transparencyMode": "Adaptif Gelişmiş Şeffaf Mod",
+      "spatialAudio": "Kişiselleştirilmiş Uzamsal Ses 2.0",
+      "chipset": "Apple H3 Ses ve Biyometrik Çip",
+      "batteryLife": "7.5 Saat (Kulaklık) / 36 Saat (Kutu ile)",
+      "chargingPort": "USB-C & MagSafe Kablosuz Şarj",
+      "waterResistance": "IP57 Toz ve Su Dayanıklılığı",
+      "bluetoothVersion": "Bluetooth 5.4",
+      "weightGrams": 5.2
+    },
+    "storeOffers": [
+      {
+        "id": "so-app3-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "bg-orange-500",
+        "price": 11803.93,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Günün Fırsatı",
+          "Prime"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3100,
+        "url": "https://www.amazon.com.tr"
+      },
+      {
+        "id": "so-app3-2",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "bg-red-600",
+        "price": 11999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Kulüp Fiyatı"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 1800,
+        "url": "https://www.mediamarkt.com.tr"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 12499,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 12150,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 11803.93,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "apple-airpods-pro-2-usb-c",
+    "slug": "apple-airpods-pro-2-usb-c",
+    "name": "Apple AirPods Pro 2 (USB-C MagSafe)",
+    "brand": "Apple",
+    "category": "headphones",
+    "basePrice": 11999,
+    "currency": "TL",
+    "rating": 4.9,
+    "epeyScore": 96,
+    "reviewCount": 2450,
+    "image": "/images/headphones/apple-airpods-pro-2.jpg",
+    "images": [
+      "/images/headphones/apple-airpods-pro-2.jpg"
+    ],
+    "releaseYear": 2023,
+    "highlights": [
+      "Apple H2 Çip ile 2 Kata Kadar Daha Fazla Gürültü Engelleme",
+      "Adaptif Ses ve Sohbet Farkındalığı Özellikleri",
+      "Dokunmatik Kaydırma ile Ses Seviyesi Ayarlama",
+      "Hoparlörlü ve Askı Askılı MagSafe Şarj Kutusu (USB-C)",
+      "IP54 Toza, Tere ve Suya Karşı Dayanıklılık"
+    ],
+    "specs": {
+      "formFactor": "Kulak İçi (TWS)",
+      "anc": "Apple H2 Destekli Pro ANC",
+      "transparencyMode": "Adaptif Şeffaflık",
+      "spatialAudio": "Dinamik Kafa Takibi ile Kişiselleştirilmiş Uzamsal Ses",
+      "chipset": "Apple H2 Kulaklık Çipi & U1 Kutu Çipi",
+      "batteryLife": "6 Saat (Kulaklık) / 30 Saat (Kutu ile)",
+      "chargingPort": "USB-C, MagSafe ve Apple Watch Şarj Cihazı",
+      "fastCharging": "5 Dakika Şarj ile 1 Saat Dinleme",
+      "waterResistance": "IP54",
+      "bluetoothVersion": "Bluetooth 5.3",
+      "weightGrams": 5.3
+    },
+    "storeOffers": [
+      {
+        "id": "so-app2-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-amber-500",
+        "price": 11999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör",
+          "Yarın Kapında"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4500,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "so-app2-2",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-orange-600",
+        "price": 12099,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Peşin Fiyatına 6 Taksit"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 5200,
+        "url": "https://www.trendyol.com"
+      },
+      {
+        "id": "so-app2-3",
+        "storeName": "Teknosa",
+        "storeLogoColor": "bg-orange-500",
+        "price": 12199,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "TeknoClub Avantajı"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1200,
+        "url": "https://www.teknosa.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 12599,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 12299,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 11999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "apple-airpods-4-anc",
+    "slug": "apple-airpods-4-anc",
+    "name": "Apple AirPods 4 (Aktif Gürültü Engelleme - ANC)",
+    "brand": "Apple",
+    "category": "headphones",
+    "basePrice": 8899,
+    "currency": "TL",
+    "rating": 4.8,
+    "epeyScore": 95,
+    "reviewCount": 1120,
+    "image": "/images/headphones/apple-airpods-4-anc.jpg",
+    "images": [
+      "/images/headphones/apple-airpods-4-anc.jpg"
+    ],
+    "releaseYear": 2024,
+    "highlights": [
+      "Açık Kulak Tasarımında İlk Kez Aktif Gürültü Engelleme (ANC)",
+      "Apple H2 Kulaklık Çipi ile Kristal Netliğinde Ses ve Ses İzolasyonu",
+      "Adaptif Ses, Şeffaf Mod ve Sohbet Farkındalığı",
+      "Kablosuz Şarj ve Hoparlörlü %10 Daha Kompakt USB-C Şarj Kutusu",
+      "IP54 Toza, Tere ve Suya Dayanıklılık"
+    ],
+    "specs": {
+      "formFactor": "Kulak İçi (Açık Uçlu / TWS)",
+      "anc": "Açık Kulak Tipi Aktif Gürültü Engelleme",
+      "transparencyMode": "Adaptif Şeffaflık",
+      "spatialAudio": "Kişiselleştirilmiş Uzamsal Ses",
+      "chipset": "Apple H2 Kulaklık Çipi",
+      "batteryLife": "5 Saat (ANC ile 4 Saat) / 30 Saat (Kutu ile)",
+      "chargingPort": "USB-C, Apple Watch Şarj Cihazı ve Qi Kablosuz Şarj",
+      "waterResistance": "IP54",
+      "bluetoothVersion": "Bluetooth 5.3",
+      "weightGrams": 4.3
+    },
+    "storeOffers": [
+      {
+        "id": "so-ap4anc-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "bg-orange-500",
+        "price": 8899,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime",
+          "En Düşük Fiyat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 2800,
+        "url": "https://www.amazon.com.tr"
+      },
+      {
+        "id": "so-ap4anc-2",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "bg-red-600",
+        "price": 8999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Kulüp İndirimi"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 1400,
+        "url": "https://www.mediamarkt.com.tr"
+      },
+      {
+        "id": "so-ap4anc-3",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-600",
+        "price": 9099,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Web Özel"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 890,
+        "url": "https://www.vatanbilgisayar.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 9299,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 8999,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 8899,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "apple-airpods-4-standart",
+    "slug": "apple-airpods-4-standart",
+    "name": "Apple AirPods 4 (Standart USB-C)",
+    "brand": "Apple",
+    "category": "headphones",
+    "basePrice": 6599,
+    "currency": "TL",
+    "rating": 4.7,
+    "epeyScore": 92,
+    "reviewCount": 940,
+    "image": "/images/headphones/apple-airpods-4.jpg",
+    "images": [
+      "/images/headphones/apple-airpods-4.jpg"
+    ],
+    "releaseYear": 2024,
+    "highlights": [
+      "Apple H2 Çip ile Olağanüstü Ses Kalitesi ve Ses İzolasyonu",
+      "Kişiselleştirilmiş Uzamsal Ses ve Dinamik Kafa Takibi",
+      "Ultra Ergonomik Yenilenmiş Akustik Tasarım",
+      "Kompakt USB-C Şarj Kutusu ile 30 Saate Varan Pil Ömrü",
+      "IP54 Toz, Ter ve Su Dayanıklılığı"
+    ],
+    "specs": {
+      "formFactor": "Kulak İçi (Açık Uçlu / TWS)",
+      "anc": "Yok",
+      "spatialAudio": "Kişiselleştirilmiş Uzamsal Ses",
+      "chipset": "Apple H2 Kulaklık Çipi",
+      "batteryLife": "5 Saat (Kulaklık) / 30 Saat (Kutu ile)",
+      "chargingPort": "USB-C",
+      "waterResistance": "IP54",
+      "bluetoothVersion": "Bluetooth 5.3",
+      "weightGrams": 4.3
+    },
+    "storeOffers": [
+      {
+        "id": "so-ap4std-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-orange-600",
+        "price": 6599,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Mega Fırsat",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3100,
+        "url": "https://www.trendyol.com"
+      },
+      {
+        "id": "so-ap4std-2",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-amber-500",
+        "price": 6649,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Satıcı"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 2400,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 6999,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 6799,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 6599,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "apple-airpods-3-magsafe",
+    "slug": "apple-airpods-3-magsafe",
+    "name": "Apple AirPods 3 MagSafe Şarj Kutulu",
+    "brand": "Apple",
+    "category": "headphones",
+    "basePrice": 9459.14,
+    "currency": "TL",
+    "rating": 4.7,
+    "epeyScore": 91,
+    "reviewCount": 1650,
+    "image": "/images/headphones/apple-airpods-3-magsafe.jpg",
+    "images": [
+      "/images/headphones/apple-airpods-3-magsafe.jpg"
+    ],
+    "releaseYear": 2021,
+    "highlights": [
+      "Dinamik Kafa İzleme Özellikli Uzamsal Ses",
+      "Adaptif EQ ile Müziği Kulağınızın Şekline Göre Otomatik Ayarlama",
+      "MagSafe ve Qi Kablosuz Şarj Uyumlu Kutu",
+      "IPX4 Tere ve Suya Karşı Dayanıklılık"
+    ],
+    "specs": {
+      "formFactor": "Kulak İçi (TWS)",
+      "anc": "Yok",
+      "spatialAudio": "Uzamsal Ses & Adaptif EQ",
+      "chipset": "Apple H1 Kulaklık Çipi",
+      "batteryLife": "6 Saat (Kulaklık) / 30 Saat (Kutu ile)",
+      "chargingPort": "MagSafe, Qi Kablosuz & Lightning",
+      "waterResistance": "IPX4",
+      "bluetoothVersion": "Bluetooth 5.0",
+      "weightGrams": 4.28
+    },
+    "storeOffers": [
+      {
+        "id": "so-ap3mg-1",
+        "storeName": "Teknosa",
+        "storeLogoColor": "bg-orange-500",
+        "price": 9459.14,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "TeknoClub"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1100,
+        "url": "https://www.teknosa.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 9899,
+        "store": "Teknosa"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 9650,
+        "store": "Teknosa"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 9459.14,
+        "store": "Teknosa"
+      }
+    ]
+  },
+  {
+    "id": "apple-airpods-3-lightning",
+    "slug": "apple-airpods-3-lightning",
+    "name": "Apple AirPods 3 (Lightning Şarj Kutulu)",
+    "brand": "Apple",
+    "category": "headphones",
+    "basePrice": 9309.02,
+    "currency": "TL",
+    "rating": 4.6,
+    "epeyScore": 90,
+    "reviewCount": 1420,
+    "image": "/images/headphones/apple-airpods-3.jpg",
+    "images": [
+      "/images/headphones/apple-airpods-3.jpg"
+    ],
+    "releaseYear": 2021,
+    "highlights": [
+      "Kişiselleştirilmiş Uzamsal Ses ve Adaptif EQ",
+      "Kuvvet Sensörü ile Müzik ve Çağrı Yönetimi",
+      "Lightning Şarj Kutusu ile 30 Saate Varan Pil Ömrü",
+      "IPX4 Ter ve Su Direnci"
+    ],
+    "specs": {
+      "formFactor": "Kulak İçi (TWS)",
+      "anc": "Yok",
+      "spatialAudio": "Uzamsal Ses",
+      "chipset": "Apple H1 Çip",
+      "batteryLife": "6 Saat (Kulaklık) / 30 Saat (Kutu ile)",
+      "chargingPort": "Lightning",
+      "waterResistance": "IPX4",
+      "bluetoothVersion": "Bluetooth 5.0",
+      "weightGrams": 4.28
+    },
+    "storeOffers": [
+      {
+        "id": "so-ap3lt-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "bg-orange-500",
+        "price": 9309.02,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 2100,
+        "url": "https://www.amazon.com.tr"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 9799,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 9499,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 9309.02,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "apple-airpods-pro-magsafe-gen1",
+    "slug": "apple-airpods-pro-magsafe-gen1",
+    "name": "Apple AirPods Pro (1. Nesil MagSafe Şarj Kutulu)",
+    "brand": "Apple",
+    "category": "headphones",
+    "basePrice": 12999,
+    "currency": "TL",
+    "rating": 4.7,
+    "epeyScore": 93,
+    "reviewCount": 3100,
+    "image": "/images/headphones/apple-airpods-pro-magsafe.jpg",
+    "images": [
+      "/images/headphones/apple-airpods-pro-magsafe.jpg"
+    ],
+    "releaseYear": 2021,
+    "highlights": [
+      "Aktif Gürültü Engelleme (ANC) ve Şeffaf Mod",
+      "MagSafe ve Qi Kablosuz Şarj Desteği",
+      "3 Farklı Boyutta Yumuşak Silikon Kulaklık Ucu",
+      "IPX4 Suya ve Tere Karşı Dayanıklılık"
+    ],
+    "specs": {
+      "formFactor": "Kulak İçi (TWS)",
+      "anc": "Aktif Gürültü Engelleme (ANC)",
+      "transparencyMode": "Şeffaf Mod",
+      "spatialAudio": "Uzamsal Ses",
+      "chipset": "Apple H1 Çip",
+      "batteryLife": "4.5 Saat (Kulaklık) / 24 Saat (Kutu ile)",
+      "chargingPort": "MagSafe, Qi & Lightning",
+      "waterResistance": "IPX4",
+      "bluetoothVersion": "Bluetooth 5.0",
+      "weightGrams": 5.4
+    },
+    "storeOffers": [
+      {
+        "id": "so-appmg1-1",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "bg-red-600",
+        "price": 12999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 980,
+        "url": "https://www.mediamarkt.com.tr"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 13499,
+        "store": "MediaMarkt"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 13199,
+        "store": "MediaMarkt"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 12999,
+        "store": "MediaMarkt"
+      }
+    ]
+  },
+  {
+    "id": "apple-airpods-2-wired",
+    "slug": "apple-airpods-2-wired",
+    "name": "Apple AirPods 2 (Kablolu Şarj Kutulu - MV7N2TU/A)",
+    "brand": "Apple",
+    "category": "headphones",
+    "basePrice": 14849.1,
+    "currency": "TL",
+    "rating": 4.6,
+    "epeyScore": 85,
+    "reviewCount": 4800,
+    "image": "/images/headphones/apple-airpods-2-wired.jpg",
+    "images": [
+      "/images/headphones/apple-airpods-2-wired.jpg"
+    ],
+    "releaseYear": 2019,
+    "highlights": [
+      "Apple H1 Kulaklık Çipi ile Daha Hızlı ve Kararlı Bağlantı",
+      "'Hey Siri' Sesli Komut Desteği",
+      "Kutudan Çıkar Çıkmaz Otomatik Açılma ve Bağlanma",
+      "24 Saatten Fazla Toplam Pil Ömrü Sağlayan Şarj Kutusu"
+    ],
+    "specs": {
+      "formFactor": "Kulak İçi (Açık Uçlu / TWS)",
+      "anc": "Yok",
+      "chipset": "Apple H1 Çip",
+      "batteryLife": "5 Saat (Kulaklık) / 24 Saat (Kutu ile)",
+      "chargingPort": "Lightning",
+      "bluetoothVersion": "Bluetooth 5.0",
+      "weightGrams": 4
+    },
+    "storeOffers": [
+      {
+        "id": "so-ap2w-1",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-600",
+        "price": 14849.1,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Garanti"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1200,
+        "url": "https://www.vatanbilgisayar.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 15499,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 14999,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 14849.1,
+        "store": "Vatan Bilgisayar"
+      }
+    ]
+  },
+  {
+    "id": "apple-airpods-pro-gen1",
+    "slug": "apple-airpods-pro-gen1",
+    "name": "Apple AirPods Pro (1. Nesil Standart Kutu)",
+    "brand": "Apple",
+    "category": "headphones",
+    "basePrice": 9999,
+    "currency": "TL",
+    "rating": 4.6,
+    "epeyScore": 92,
+    "reviewCount": 3500,
+    "image": "/images/headphones/apple-airpods-pro-1.jpg",
+    "images": [
+      "/images/headphones/apple-airpods-pro-1.jpg"
+    ],
+    "releaseYear": 2019,
+    "highlights": [
+      "Aktif Gürültü Engelleme ve Şeffaf Mod",
+      "Kişiselleştirilebilir Konik Silikon Kulaklık Uçları",
+      "Adaptif EQ ile Zengin Ses Kalitesi",
+      "IPX4 Ter ve Su Direnci"
+    ],
+    "specs": {
+      "formFactor": "Kulak İçi (TWS)",
+      "anc": "Aktif Gürültü Engelleme (ANC)",
+      "transparencyMode": "Şeffaf Mod",
+      "spatialAudio": "Uzamsal Ses",
+      "chipset": "Apple H1 Çip",
+      "batteryLife": "4.5 Saat (Kulaklık) / 24 Saat (Kutu ile)",
+      "chargingPort": "Lightning",
+      "waterResistance": "IPX4",
+      "bluetoothVersion": "Bluetooth 5.0",
+      "weightGrams": 5.4
+    },
+    "storeOffers": [
+      {
+        "id": "so-app1-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-amber-500",
+        "price": 9999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Orijinal Ürün"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 2400,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 10499,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 10199,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 9999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "apple-airpods-2-wireless",
+    "slug": "apple-airpods-2-wireless",
+    "name": "Apple AirPods 2 (Kablosuz Şarj Kutulu - MRXJ2TU/A)",
+    "brand": "Apple",
+    "category": "headphones",
+    "basePrice": 8499,
+    "currency": "TL",
+    "rating": 4.6,
+    "epeyScore": 87,
+    "reviewCount": 2900,
+    "image": "/images/headphones/apple-airpods-2-wireless.jpg",
+    "images": [
+      "/images/headphones/apple-airpods-2-wireless.jpg"
+    ],
+    "releaseYear": 2019,
+    "highlights": [
+      "Qi Uyumlu Kablosuz Şarj Matı ile Zahmetsiz Şarj",
+      "Kutunun Ön Yüzünde LED Şarj Göstergesi",
+      "Apple H1 Çip ile Hızlı Cihaz Geçişi",
+      "24 Saat Toplam Dinleme Süresi"
+    ],
+    "specs": {
+      "formFactor": "Kulak İçi (Açık Uçlu / TWS)",
+      "anc": "Yok",
+      "chipset": "Apple H1 Çip",
+      "batteryLife": "5 Saat (Kulaklık) / 24 Saat (Kutu ile)",
+      "chargingPort": "Qi Kablosuz & Lightning",
+      "bluetoothVersion": "Bluetooth 5.0",
+      "weightGrams": 4
+    },
+    "storeOffers": [
+      {
+        "id": "so-ap2wl-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-orange-600",
+        "price": 8499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1900,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 8999,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 8699,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 8499,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "apple-airpods-gen1-classic",
+    "slug": "apple-airpods-gen1-classic",
+    "name": "Apple AirPods (1. Nesil Orijinal Klasik)",
+    "brand": "Apple",
+    "category": "headphones",
+    "basePrice": 5999,
+    "currency": "TL",
+    "rating": 4.5,
+    "epeyScore": 82,
+    "reviewCount": 5200,
+    "image": "/images/headphones/apple-airpods-1.png",
+    "images": [
+      "/images/headphones/apple-airpods-1.png"
+    ],
+    "releaseYear": 2016,
+    "highlights": [
+      "Tüm Dünyada Kablosuz Kulaklık Devrimini Başlatan Efsane Model",
+      "Apple W1 Özel Akıllı Kulaklık Çipi",
+      "Optik Sensörler ve Hareket Algılayıcı İvmeölçerler",
+      "Manyetik Lightning Şarj Kutusu ile 24 Saat Pil"
+    ],
+    "specs": {
+      "formFactor": "Kulak İçi (Açık Uçlu / TWS)",
+      "anc": "Yok",
+      "chipset": "Apple W1 Çip",
+      "batteryLife": "5 Saat (Kulaklık) / 24 Saat (Kutu ile)",
+      "chargingPort": "Lightning",
+      "bluetoothVersion": "Bluetooth 4.2",
+      "weightGrams": 4
+    },
+    "storeOffers": [
+      {
+        "id": "so-ap1-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "bg-orange-500",
+        "price": 5999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Koleksiyonluk"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 850,
+        "url": "https://www.amazon.com.tr"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 6299,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 6099,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 5999,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "fitplus-airpods-pro-2",
+    "slug": "fitplus-airpods-pro-2",
+    "name": "FitPlus AirPods Pro 2 Bluetooth TWS Kulaklık",
+    "brand": "FitPlus",
+    "category": "headphones",
+    "basePrice": 807.41,
+    "currency": "TL",
+    "rating": 4,
+    "epeyScore": 74,
+    "reviewCount": 320,
+    "image": "/images/headphones/fitplus-airpods-pro-2.jpg",
+    "images": [
+      "/images/headphones/fitplus-airpods-pro-2.jpg"
+    ],
+    "releaseYear": 2024,
+    "highlights": [
+      "Dokunmatik Kontrol ve Pop-up Eşleşme Desteği",
+      "Kablosuz Şarj Kutusuna Sahip TWS Tasarım",
+      "HD Mikrofon ile Net Görüşmeler",
+      "Ergonomik Silikon Uçlu Tasarım"
+    ],
+    "specs": {
+      "formFactor": "Kulak İçi (TWS)",
+      "anc": "Pasif Gürültü İzolasyonu",
+      "batteryLife": "4 Saat (Kulaklık) / 16 Saat (Kutu ile)",
+      "chargingPort": "Lightning & Kablosuz",
+      "bluetoothVersion": "Bluetooth 5.3",
+      "driverSize": "10 mm",
+      "weightGrams": 4.5
+    },
+    "storeOffers": [
+      {
+        "id": "so-fp2-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-orange-600",
+        "price": 807.41,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Uygun Fiyat"
+        ],
+        "sellerRating": 4.5,
+        "sellerReviews": 410,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 899,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 807.41,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "auris-tw10-airpods",
+    "slug": "auris-tw10-airpods",
+    "name": "Auris TW10 Airpods Bluetooth TWS Kulaklık",
+    "brand": "Auris",
+    "category": "headphones",
+    "basePrice": 399,
+    "currency": "TL",
+    "rating": 3.9,
+    "epeyScore": 68,
+    "reviewCount": 210,
+    "image": "/images/headphones/auris-tw10-airpods.jpg",
+    "images": [
+      "/images/headphones/auris-tw10-airpods.jpg"
+    ],
+    "releaseYear": 2023,
+    "highlights": [
+      "Fiyat/Performans Odaklı Kompakt TWS Kulaklık",
+      "Otomatik Bağlantı ve Dokunmatik Sensörler",
+      "Hafif ve Taşınabilir Şarj Kutusu",
+      "iOS ve Android Evrensel Uyumluluk"
+    ],
+    "specs": {
+      "formFactor": "Kulak İçi (TWS)",
+      "anc": "Yok",
+      "batteryLife": "3.5 Saat / 14 Saat Kutu ile",
+      "chargingPort": "Lightning",
+      "bluetoothVersion": "Bluetooth 5.0",
+      "weightGrams": 3.8
+    },
+    "storeOffers": [
+      {
+        "id": "so-atw10-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-amber-500",
+        "price": 399,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Süper Fiyat"
+        ],
+        "sellerRating": 4.4,
+        "sellerReviews": 180,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 449,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 399,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "fitplus-airpods-pro",
+    "slug": "fitplus-airpods-pro",
+    "name": "FitPlus AirPods Pro TWS Kablosuz Kulaklık",
+    "brand": "FitPlus",
+    "category": "headphones",
+    "basePrice": 540,
+    "currency": "TL",
+    "rating": 3.9,
+    "epeyScore": 70,
+    "reviewCount": 260,
+    "image": "/images/headphones/fitplus-airpods-pro.jpg",
+    "images": [
+      "/images/headphones/fitplus-airpods-pro.jpg"
+    ],
+    "releaseYear": 2023,
+    "highlights": [
+      "Silikon Uçlu Ergonomik Tasarım",
+      "Bluetooth 5.0 ile Stabil Bağlantı",
+      "Şarj Kutusu ile Kolay Taşıma",
+      "Dokunmatik Çağrı ve Müzik Kontrolü"
+    ],
+    "specs": {
+      "formFactor": "Kulak İçi (TWS)",
+      "anc": "Pasif İzolasyon",
+      "batteryLife": "3.5 Saat / 14 Saat Kutu ile",
+      "chargingPort": "Lightning",
+      "bluetoothVersion": "Bluetooth 5.0",
+      "weightGrams": 4.2
+    },
+    "storeOffers": [
+      {
+        "id": "so-fp-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-orange-600",
+        "price": 540,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ekonomik"
+        ],
+        "sellerRating": 4.4,
+        "sellerReviews": 220,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 599,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 540,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "atestech-airpods-i11",
+    "slug": "atestech-airpods-i11",
+    "name": "AteşTech Airpods i11 TWS Kablosuz Kulaklık",
+    "brand": "AteşTech",
+    "category": "headphones",
+    "basePrice": 299,
+    "currency": "TL",
+    "rating": 3.7,
+    "epeyScore": 62,
+    "reviewCount": 150,
+    "image": "/images/headphones/atestech-airpods-i11.jpg",
+    "images": [
+      "/images/headphones/atestech-airpods-i11.jpg"
+    ],
+    "releaseYear": 2023,
+    "highlights": [
+      "Bütçe Dostu TWS Bluetooth Kulaklık",
+      "Tüm Telefonlarla Kolay Eşleşme",
+      "Dahili Mikrofon ile Eller Serbest Görüşme"
+    ],
+    "specs": {
+      "formFactor": "Kulak İçi (TWS)",
+      "anc": "Yok",
+      "batteryLife": "3 Saat / 12 Saat Kutu ile",
+      "chargingPort": "Lightning",
+      "bluetoothVersion": "Bluetooth 5.0",
+      "weightGrams": 3.5
+    },
+    "storeOffers": [
+      {
+        "id": "so-ati11-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-amber-500",
+        "price": 299,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Bütçe Dostu"
+        ],
+        "sellerRating": 4.3,
+        "sellerReviews": 120,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 349,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 299,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "x-gear-airpods-i12",
+    "slug": "x-gear-airpods-i12",
+    "name": "X-Gear Airpods i12 TWS Bluetooth Kulaklık",
+    "brand": "X-Gear",
+    "category": "headphones",
+    "basePrice": 349,
+    "currency": "TL",
+    "rating": 3.8,
+    "epeyScore": 64,
+    "reviewCount": 190,
+    "image": "/images/headphones/x-gear-airpods-i12.jpg",
+    "images": [
+      "/images/headphones/x-gear-airpods-i12.jpg"
+    ],
+    "releaseYear": 2023,
+    "highlights": [
+      "Canlı Renk Seçenekleri ve Mat Doku",
+      "Dokunmatik Sensörlü Kontroller",
+      "Otomatik Pop-up Bağlantı Ekranı"
+    ],
+    "specs": {
+      "formFactor": "Kulak İçi (TWS)",
+      "anc": "Yok",
+      "batteryLife": "3 Saat / 12 Saat Kutu ile",
+      "chargingPort": "Lightning",
+      "bluetoothVersion": "Bluetooth 5.0",
+      "weightGrams": 3.6
+    },
+    "storeOffers": [
+      {
+        "id": "so-xgi12-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-orange-600",
+        "price": 349,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ekonomik"
+        ],
+        "sellerRating": 4.3,
+        "sellerReviews": 160,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 399,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 349,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "atestech-airpods-i16xs",
+    "slug": "atestech-airpods-i16xs",
+    "name": "AteşTech Airpods i16XS TWS Kablosuz Kulaklık",
+    "brand": "AteşTech",
+    "category": "headphones",
+    "basePrice": 379,
+    "currency": "TL",
+    "rating": 3.8,
+    "epeyScore": 65,
+    "reviewCount": 170,
+    "image": "/images/headphones/atestech-airpods-i16xs.jpg",
+    "images": [
+      "/images/headphones/atestech-airpods-i16xs.jpg"
+    ],
+    "releaseYear": 2023,
+    "highlights": [
+      "Kompakt Mini Şarj Kutusu",
+      "Bluetooth 5.0 Kablosuz Bağlantı",
+      "Stereo Ses ve Mikrofon Özelliği"
+    ],
+    "specs": {
+      "formFactor": "Kulak İçi (TWS)",
+      "anc": "Yok",
+      "batteryLife": "3.5 Saat / 14 Saat Kutu ile",
+      "chargingPort": "Lightning",
+      "bluetoothVersion": "Bluetooth 5.0",
+      "weightGrams": 3.7
+    },
+    "storeOffers": [
+      {
+        "id": "so-ati16-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-amber-500",
+        "price": 379,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Uygun Fiyat"
+        ],
+        "sellerRating": 4.4,
+        "sellerReviews": 130,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 429,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 379,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "x-gear-airpods-pro-4",
+    "slug": "x-gear-airpods-pro-4",
+    "name": "X-Gear Airpods Pro 4 Mini TWS Kulaklık",
+    "brand": "X-Gear",
+    "category": "headphones",
+    "basePrice": 429,
+    "currency": "TL",
+    "rating": 3.9,
+    "epeyScore": 67,
+    "reviewCount": 220,
+    "image": "/images/headphones/x-gear-airpods-pro-4.jpg",
+    "images": [
+      "/images/headphones/x-gear-airpods-pro-4.jpg"
+    ],
+    "releaseYear": 2023,
+    "highlights": [
+      "Ultra Kompakt Pro Tasarım",
+      "Gelişmiş Bass Sürücüleri",
+      "Parmak İzi Dokunmatik Kontrol Desteği"
+    ],
+    "specs": {
+      "formFactor": "Kulak İçi (TWS)",
+      "anc": "Yok",
+      "batteryLife": "3.5 Saat / 15 Saat Kutu ile",
+      "chargingPort": "Lightning",
+      "bluetoothVersion": "Bluetooth 5.1",
+      "weightGrams": 3.9
+    },
+    "storeOffers": [
+      {
+        "id": "so-xgpro4-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-orange-600",
+        "price": 429,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Popüler"
+        ],
+        "sellerRating": 4.4,
+        "sellerReviews": 190,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 499,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 429,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "syrox-airpods-pro-4",
+    "slug": "syrox-airpods-pro-4",
+    "name": "Syrox Airpods Pro 4 TWS Kablosuz Kulaklık",
+    "brand": "Syrox",
+    "category": "headphones",
+    "basePrice": 459,
+    "currency": "TL",
+    "rating": 4,
+    "epeyScore": 69,
+    "reviewCount": 280,
+    "image": "/images/headphones/syrox-airpods-pro-4.jpg",
+    "images": [
+      "/images/headphones/syrox-airpods-pro-4.jpg"
+    ],
+    "releaseYear": 2023,
+    "highlights": [
+      "Syrox Güvencesiyle 2 Yıl Türkiye Garantisi",
+      "Ergonomik Kulak Uyumu ve Net Çağrı Sesi",
+      "Kompakt Şarj Çantası ve Hızlı Şarj Desteği"
+    ],
+    "specs": {
+      "formFactor": "Kulak İçi (TWS)",
+      "anc": "Yok",
+      "batteryLife": "4 Saat / 16 Saat Kutu ile",
+      "chargingPort": "Lightning",
+      "bluetoothVersion": "Bluetooth 5.1",
+      "weightGrams": 4
+    },
+    "storeOffers": [
+      {
+        "id": "so-syxpro4-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-amber-500",
+        "price": 459,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.5,
+        "sellerReviews": 240,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 529,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 459,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "atestech-airpods-2-nesil",
+    "slug": "atestech-airpods-2-nesil",
+    "name": "AteşTech Airpods 2. Nesil TWS Kulaklık",
+    "brand": "AteşTech",
+    "category": "headphones",
+    "basePrice": 389,
+    "currency": "TL",
+    "rating": 3.8,
+    "epeyScore": 66,
+    "reviewCount": 190,
+    "image": "/images/headphones/atestech-airpods-2-nesil.jpg",
+    "images": [
+      "/images/headphones/atestech-airpods-2-nesil.jpg"
+    ],
+    "releaseYear": 2023,
+    "highlights": [
+      "2. Nesil Tasarım Çizgileri",
+      "Kolay Dokunmatik Çağrı ve Müzik Kontrolü",
+      "Tüm Akıllı Telefonlarla Uyumlu"
+    ],
+    "specs": {
+      "formFactor": "Kulak İçi (TWS)",
+      "anc": "Yok",
+      "batteryLife": "3.5 Saat / 14 Saat Kutu ile",
+      "chargingPort": "Lightning",
+      "bluetoothVersion": "Bluetooth 5.0",
+      "weightGrams": 3.8
+    },
+    "storeOffers": [
+      {
+        "id": "so-at2-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-orange-600",
+        "price": 389,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Bütçe Dostu"
+        ],
+        "sellerRating": 4.4,
+        "sellerReviews": 160,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 439,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 389,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "winex-airpods-2",
+    "slug": "winex-airpods-2",
+    "name": "Winex Airpods 2 TWS Bluetooth Kulaklık",
+    "brand": "Winex",
+    "category": "headphones",
+    "basePrice": 419,
+    "currency": "TL",
+    "rating": 3.9,
+    "epeyScore": 67,
+    "reviewCount": 160,
+    "image": "/images/headphones/winex-airpods-2.jpg",
+    "images": [
+      "/images/headphones/winex-airpods-2.jpg"
+    ],
+    "releaseYear": 2023,
+    "highlights": [
+      "Otomatik Açılma ve Hızlı Bağlantı",
+      "Stereo Yüksek Ses Seviyesi",
+      "Şık Beyaz Tasarım ve Şarj Kutusu"
+    ],
+    "specs": {
+      "formFactor": "Kulak İçi (TWS)",
+      "anc": "Yok",
+      "batteryLife": "3.5 Saat / 14 Saat Kutu ile",
+      "chargingPort": "Lightning",
+      "bluetoothVersion": "Bluetooth 5.0",
+      "weightGrams": 3.8
+    },
+    "storeOffers": [
+      {
+        "id": "so-wnx2-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-amber-500",
+        "price": 419,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.4,
+        "sellerReviews": 130,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 479,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 419,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "fitplus-airpods-2",
+    "slug": "fitplus-airpods-2",
+    "name": "FitPlus Airpods 2 TWS Kablosuz Kulaklık",
+    "brand": "FitPlus",
+    "category": "headphones",
+    "basePrice": 439,
+    "currency": "TL",
+    "rating": 3.9,
+    "epeyScore": 68,
+    "reviewCount": 240,
+    "image": "/images/headphones/fitplus-airpods-2.jpg",
+    "images": [
+      "/images/headphones/fitplus-airpods-2.jpg"
+    ],
+    "releaseYear": 2023,
+    "highlights": [
+      "Dinamik Bas ve Tiz Dengesi",
+      "Kompakt Boyut ve Rahat Kulak İçi Oturuş",
+      "Kablosuz Şarj Kutusu ile Uzun Pil Ömrü"
+    ],
+    "specs": {
+      "formFactor": "Kulak İçi (TWS)",
+      "anc": "Yok",
+      "batteryLife": "3.5 Saat / 15 Saat Kutu ile",
+      "chargingPort": "Lightning",
+      "bluetoothVersion": "Bluetooth 5.0",
+      "weightGrams": 3.8
+    },
+    "storeOffers": [
+      {
+        "id": "so-fp2nes-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-orange-600",
+        "price": 439,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Uygun Fiyat"
+        ],
+        "sellerRating": 4.4,
+        "sellerReviews": 210,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 499,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 439,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
     "id": "philips-she2405",
     "slug": "philips-she2405",
     "name": "Philips SHE2405 Mikrofonlu Kulak İçi Kulaklık",
@@ -2723,97 +4392,6 @@ export const mockHeadphones: Product[] = [
     ]
   },
   {
-    "id": "apple-airpods-pro-2-usbc",
-    "slug": "apple-airpods-pro-2-usbc",
-    "name": "Apple AirPods Pro (2. Nesil) USB-C MagSafe Şarj Kutulu TWS Kulaklık",
-    "brand": "Apple",
-    "category": "headphones",
-    "rating": 4.97,
-    "reviewCount": 3840,
-    "basePrice": 11499,
-    "currency": "TL",
-    "releaseYear": 2024,
-    "isPopular": true,
-    "isFeatured": true,
-    "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MTJV3?wid=1144&hei=1144&fmt=jpeg&qlt=90&.v=1694014871985",
-    "highlights": [
-      "H2 Kulaklık Çipi & Pro Seviye ANC",
-      "Kişiselleştirilmiş Uzamsal Ses",
-      "Toza, Tere ve Suya Dayanıklılık (IP54)",
-      "30 Saate Kadar Toplam Dinleme Süresi"
-    ],
-    "specs": {
-      "formFactor": "Kulak İçi (TWS)",
-      "anc": "Var (Pro Seviye Aktif Gürültü Engelleme)",
-      "batteryLife": "30 Saat (Kutu ile)",
-      "bluetoothVersion": "5.3",
-      "driverSize": "Apple Özel Yüksek Gezinimli Sürücü",
-      "frequencyResponse": "20 Hz - 20 kHz",
-      "weightGrams": 50.8
-    },
-    "storeOffers": [
-      {
-        "id": "hb-hp-1",
-        "storeName": "Hepsiburada",
-        "storeLogoColor": "bg-orange-500",
-        "price": 11299,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Distribütör"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 12400,
-        "url": "https://www.hepsiburada.com"
-      },
-      {
-        "id": "ty-hp-1",
-        "storeName": "Trendyol",
-        "storeLogoColor": "bg-amber-600",
-        "price": 11399,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Hızlı Teslimat"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 18900,
-        "url": "https://www.trendyol.com"
-      },
-      {
-        "id": "vt-hp-1",
-        "storeName": "Vatan Bilgisayar",
-        "storeLogoColor": "bg-blue-800",
-        "price": 11499,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Apple Yetkili Satıcı"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 5400,
-        "url": "https://www.vatanbilgisayar.com"
-      }
-    ],
-    "priceHistory": [
-      {
-        "date": "2026-05-01",
-        "price": 11999,
-        "store": "Vatan"
-      },
-      {
-        "date": "2026-06-01",
-        "price": 11699,
-        "store": "Vatan"
-      },
-      {
-        "date": "2026-07-01",
-        "price": 11499,
-        "store": "Vatan"
-      }
-    ]
-  },
-  {
     "id": "dyson-ontrac-cnc-copper",
     "slug": "dyson-ontrac-cnc-bakir",
     "name": "Dyson OnTrac™ Aktif Gürültü Engelleyici (ANC) Kablosuz Kulaklık (CNC Bakır)",
@@ -3141,64 +4719,6 @@ export const mockHeadphones: Product[] = [
         "date": "2026-07-01",
         "price": 15499,
         "store": "Hepsiburada"
-      }
-    ]
-  },
-  {
-    "id": "apple-airpods-max-usbc-2024",
-    "slug": "apple-airpods-max-usbc-2024",
-    "name": "Apple AirPods Max USB-C Gece Yarısı Kulak Üstü Bluetooth Kulaklık",
-    "brand": "Apple",
-    "category": "headphones",
-    "rating": 4.93,
-    "reviewCount": 980,
-    "basePrice": 26999,
-    "currency": "TL",
-    "releaseYear": 2024,
-    "isPopular": true,
-    "isFeatured": true,
-    "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/airpods-max-select-202409-midnight?fmt=jpeg&qlt=95",
-    "highlights": [
-      "Yüksek Düzey Aktif Gürültü Engelleme",
-      "Kişiselleştirilmiş Uzamsal Ses",
-      "USB-C Şarj Desteği",
-      "Özel Akustik Tasarım"
-    ],
-    "specs": {
-      "formFactor": "Kulak Üstü (Over-Ear)",
-      "anc": "Var (Apple H1 Çipli Hesaplamalı Ses ANC)",
-      "batteryLife": "20 Saat",
-      "bluetoothVersion": "5.0",
-      "driverSize": "40 mm Dinamik Sürücü",
-      "frequencyResponse": "20 Hz - 20 kHz",
-      "weightGrams": 384.8
-    },
-    "storeOffers": [
-      {
-        "id": "vt-hp-3",
-        "storeName": "Vatan Bilgisayar",
-        "storeLogoColor": "bg-blue-800",
-        "price": 26999,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Apple Garantili"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 1450,
-        "url": "https://www.vatanbilgisayar.com"
-      }
-    ],
-    "priceHistory": [
-      {
-        "date": "2026-05-01",
-        "price": 27999,
-        "store": "Vatan"
-      },
-      {
-        "date": "2026-06-01",
-        "price": 26999,
-        "store": "Vatan"
       }
     ]
   },
@@ -5429,353 +6949,6 @@ export const mockHeadphones: Product[] = [
         "date": "2026-08-01",
         "price": 2499,
         "store": "LG TR"
-      }
-    ]
-  },
-  {
-    "id": "apple-airpods-4-anc",
-    "slug": "apple-airpods-4-anc",
-    "name": "Apple AirPods 4 (Aktif Gürültü Engelleme - ANC)",
-    "brand": "Apple",
-    "category": "headphones",
-    "rating": 4.8,
-    "reviewCount": 3450,
-    "basePrice": 9299,
-    "currency": "TL",
-    "releaseYear": 2024,
-    "isPopular": true,
-    "isFeatured": true,
-    "image": "/images/headphones/apple-airpods-pro-2.jpg",
-    "images": [
-      "/images/headphones/apple-airpods-pro-2.jpg"
-    ],
-    "highlights": [
-      "Açık Kulak Tasarımında İlk Kez Aktif Gürültü Engelleme (ANC)",
-      "Apple H2 Çip & Kişiselleştirilmiş Uzamsal Ses",
-      "Şeffaf Mod & Uyarlanabilir Ses (Adaptive Audio)",
-      "Kablosuz Şarj & Dahili Hoparlörlü Kompakt Kutu (Find My Destekli)"
-    ],
-    "tags": [
-      "Apple",
-      "AirPods 4",
-      "ANC",
-      "TWS",
-      "Bluetooth 5.3",
-      "H2"
-    ],
-    "specs": {
-      "type": "TWS Kulak İçi (Açık Tasarım)",
-      "connectivity": [
-        "Bluetooth 5.3",
-        "Apple H2 Çip",
-        "USB-C",
-        "Kablosuz Şarj"
-      ],
-      "batteryLifeHours": 30,
-      "noiseCancellation": true,
-      "hasMicrophone": true,
-      "waterResistance": "IP54 Toz ve Suya Dayanıklı",
-      "driverSizeMm": 11,
-      "weightGrams": 4.3,
-      "color": "Beyaz"
-    },
-    "storeOffers": [
-      {
-        "id": "st-ap-ap4-anc",
-        "storeName": "Apple Store",
-        "storeLogoColor": "bg-black",
-        "price": 9299,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Satıcı"
-        ],
-        "sellerRating": 5,
-        "sellerReviews": 12000,
-        "url": "https://www.apple.com/tr/airpods-4/"
-      },
-      {
-        "id": "st-hb-ap4-anc",
-        "storeName": "Hepsiburada",
-        "price": 8799,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Hızlı Teslimat"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 3500,
-        "url": "https://www.hepsiburada.com/ara?q=AirPods+4+ANC"
-      }
-    ],
-    "priceHistory": [
-      {
-        "date": "2026-06-01",
-        "price": 9299,
-        "store": "Apple Store"
-      },
-      {
-        "date": "2026-07-01",
-        "price": 8799,
-        "store": "Hepsiburada"
-      }
-    ],
-    "colorOptions": [
-      {
-        "name": "Beyaz",
-        "hex": "#ffffff"
-      }
-    ]
-  },
-  {
-    "id": "apple-airpods-4-standard",
-    "slug": "apple-airpods-4-standard",
-    "name": "Apple AirPods 4 (Standart USB-C)",
-    "brand": "Apple",
-    "category": "headphones",
-    "rating": 4.7,
-    "reviewCount": 2100,
-    "basePrice": 6999,
-    "currency": "TL",
-    "releaseYear": 2024,
-    "isPopular": true,
-    "isFeatured": false,
-    "image": "/images/headphones/apple-airpods-pro-2.jpg",
-    "images": [
-      "/images/headphones/apple-airpods-pro-2.jpg"
-    ],
-    "highlights": [
-      "Yeniden Tasarlanan Ergonomik Açık Kulak Akustik Mimarisi",
-      "Apple H2 Çip ile Kristal Netliğinde Ses Kalitesi",
-      "Kişiselleştirilmiş Uzamsal Ses ve Dinamik Kafa Takibi",
-      "USB-C Şarj Kutusu ile 30 Saate Varan Toplam Dinleme Süresi"
-    ],
-    "tags": [
-      "Apple",
-      "AirPods 4",
-      "TWS",
-      "Bluetooth 5.3",
-      "H2",
-      "USB-C"
-    ],
-    "specs": {
-      "type": "TWS Kulak İçi (Açık Tasarım)",
-      "connectivity": [
-        "Bluetooth 5.3",
-        "Apple H2 Çip",
-        "USB-C"
-      ],
-      "batteryLifeHours": 30,
-      "noiseCancellation": false,
-      "hasMicrophone": true,
-      "waterResistance": "IP54",
-      "driverSizeMm": 11,
-      "weightGrams": 4.3,
-      "color": "Beyaz"
-    },
-    "storeOffers": [
-      {
-        "id": "st-ap-ap4-std",
-        "storeName": "Apple Store",
-        "storeLogoColor": "bg-black",
-        "price": 6999,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Satıcı"
-        ],
-        "sellerRating": 5,
-        "sellerReviews": 12000,
-        "url": "https://www.apple.com/tr/airpods-4/"
-      },
-      {
-        "id": "st-amz-ap4-std",
-        "storeName": "Amazon TR",
-        "price": 6499,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Prime"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 2800,
-        "url": "https://www.amazon.com.tr/s?k=AirPods+4"
-      }
-    ],
-    "priceHistory": [
-      {
-        "date": "2026-06-01",
-        "price": 6999,
-        "store": "Apple Store"
-      },
-      {
-        "date": "2026-07-01",
-        "price": 6499,
-        "store": "Amazon TR"
-      }
-    ],
-    "colorOptions": [
-      {
-        "name": "Beyaz",
-        "hex": "#ffffff"
-      }
-    ]
-  },
-  {
-    "id": "apple-airpods-3-magsafe",
-    "slug": "apple-airpods-3-magsafe",
-    "name": "Apple AirPods (3. Nesil) MagSafe Şarj Kutulu",
-    "brand": "Apple",
-    "category": "headphones",
-    "rating": 4.7,
-    "reviewCount": 7800,
-    "basePrice": 5999,
-    "currency": "TL",
-    "releaseYear": 2021,
-    "isPopular": false,
-    "isFeatured": false,
-    "image": "/images/headphones/apple-airpods-pro-2.jpg",
-    "images": [
-      "/images/headphones/apple-airpods-pro-2.jpg"
-    ],
-    "highlights": [
-      "Dinamik Kafa Takibi ile Uzamsal Ses",
-      "Adaptif EQ & Apple H1 Kulaklık Çipi",
-      "MagSafe ve Kablosuz Şarj Desteği",
-      "IPX4 Suya ve Tere Karşı Dayanıklılık"
-    ],
-    "tags": [
-      "Apple",
-      "AirPods 3",
-      "TWS",
-      "MagSafe",
-      "Uzamsal Ses"
-    ],
-    "specs": {
-      "type": "TWS Kulak İçi",
-      "connectivity": [
-        "Bluetooth 5.0",
-        "Apple H1 Çip",
-        "MagSafe / Lightning"
-      ],
-      "batteryLifeHours": 30,
-      "noiseCancellation": false,
-      "hasMicrophone": true,
-      "waterResistance": "IPX4",
-      "driverSizeMm": 11,
-      "weightGrams": 4.28,
-      "color": "Beyaz"
-    },
-    "storeOffers": [
-      {
-        "id": "st-hb-ap3",
-        "storeName": "Hepsiburada",
-        "price": 5799,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Distribütör"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 5400,
-        "url": "https://www.hepsiburada.com/ara?q=AirPods+3.+Nesil"
-      }
-    ],
-    "priceHistory": [
-      {
-        "date": "2026-06-01",
-        "price": 5999,
-        "store": "Apple"
-      },
-      {
-        "date": "2026-07-01",
-        "price": 5799,
-        "store": "Hepsiburada"
-      }
-    ],
-    "colorOptions": [
-      {
-        "name": "Beyaz",
-        "hex": "#ffffff"
-      }
-    ]
-  },
-  {
-    "id": "apple-airpods-2-charging-case",
-    "slug": "apple-airpods-2-charging-case",
-    "name": "Apple AirPods (2. Nesil) Şarj Kutulu",
-    "brand": "Apple",
-    "category": "headphones",
-    "rating": 4.8,
-    "reviewCount": 22000,
-    "basePrice": 4299,
-    "currency": "TL",
-    "releaseYear": 2019,
-    "isPopular": true,
-    "isFeatured": false,
-    "image": "/images/headphones/apple-airpods-pro-2.jpg",
-    "images": [
-      "/images/headphones/apple-airpods-pro-2.jpg"
-    ],
-    "highlights": [
-      "Efsanevi Klasik Tasarım & Apple H1 Çip",
-      "Hey Siri Sesli Asistan Aktivasyonu",
-      "Kutusuyla 24 Saati Aşan Pil Ömrü",
-      "Tüm Apple Cihazları Arasında Otomatik Geçiş"
-    ],
-    "tags": [
-      "Apple",
-      "AirPods 2",
-      "TWS",
-      "Bluetooth",
-      "Klasik"
-    ],
-    "specs": {
-      "type": "TWS Kulak İçi (Klasik)",
-      "connectivity": [
-        "Bluetooth 5.0",
-        "Apple H1 Çip",
-        "Lightning"
-      ],
-      "batteryLifeHours": 24,
-      "noiseCancellation": false,
-      "hasMicrophone": true,
-      "waterResistance": "Standart",
-      "driverSizeMm": 10,
-      "weightGrams": 4,
-      "color": "Beyaz"
-    },
-    "storeOffers": [
-      {
-        "id": "st-hb-ap2",
-        "storeName": "Hepsiburada",
-        "price": 4199,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Çok Satan"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 18000,
-        "url": "https://www.hepsiburada.com/ara?q=AirPods+2.+Nesil"
-      }
-    ],
-    "priceHistory": [
-      {
-        "date": "2026-06-01",
-        "price": 4299,
-        "store": "Apple"
-      },
-      {
-        "date": "2026-07-01",
-        "price": 4199,
-        "store": "Hepsiburada"
-      }
-    ],
-    "colorOptions": [
-      {
-        "name": "Beyaz",
-        "hex": "#ffffff"
       }
     ]
   }
