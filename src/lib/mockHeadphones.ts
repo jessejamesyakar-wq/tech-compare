@@ -2,6 +2,1737 @@ import { Product } from './types';
 
 export const mockHeadphones: Product[] = [
   {
+    "id": "sennheiser-momentum-2-ios",
+    "slug": "sennheiser-momentum-2-ios",
+    "name": "Sennheiser Momentum 2 (M2 AEi) Hakiki Deri iOS Kulak Çevresi Kulaklık",
+    "brand": "Sennheiser",
+    "category": "headphones",
+    "basePrice": 41959,
+    "currency": "TL",
+    "rating": 4.9,
+    "epeyScore": 94,
+    "reviewCount": 1950,
+    "image": "/images/headphones/sennheiser-momentum-2-ios.jpg",
+    "images": [
+      "/images/headphones/sennheiser-momentum-2-ios.jpg"
+    ],
+    "releaseYear": 2020,
+    "highlights": [
+      "Hakiki Deri Kaplı Kafa Bandı ve Ultra Yumuşak Deri Kulak Yastıkları",
+      "Katlanabilir Paslanmaz Çelik Kaydırıcılar ve Lüks El İşçiliği Tasarım",
+      "Sennheiser 18 Ohm Tescilli Dönüştürücüler ile Audiophile Akustik Çözünürlük",
+      "Entegre 3 Tuşlu Apple iOS Akıllı Kumanda ve Kristal Netliğinde Mikrofon"
+    ],
+    "specs": {
+      "formFactor": "Kulak Üstü (Hakiki Deri & Çelik / 18 Ohm Dönüştürücü / iOS 3.5mm)",
+      "spatialAudio": "Doğal Geniş Sahne",
+      "driverSize": "18 Ohm Tescilli Dönüştürücü",
+      "frequencyResponse": "16 Hz - 22.000 Hz",
+      "impedance": "18 Ohm",
+      "weightGrams": 260
+    },
+    "storeOffers": [
+      {
+        "id": "so-sennmom2ios-1",
+        "storeName": "Teknosa",
+        "storeLogoColor": "bg-orange-500",
+        "price": 41959,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hakiki Deri",
+          "Sennheiser Momentum"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 2200,
+        "url": "https://www.teknosa.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 43500,
+        "store": "Teknosa"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 41959,
+        "store": "Teknosa"
+      }
+    ]
+  },
+  {
+    "id": "sennheiser-momentum-2-on-ear",
+    "slug": "sennheiser-momentum-2-on-ear",
+    "name": "Sennheiser Momentum 2 On-Ear Alcantara Kulak Üstü Kulaklık (Android)",
+    "brand": "Sennheiser",
+    "category": "headphones",
+    "basePrice": 27472,
+    "currency": "TL",
+    "rating": 4.8,
+    "epeyScore": 92,
+    "reviewCount": 1600,
+    "image": "/images/headphones/sennheiser-momentum-2-on-ear.jpg",
+    "images": [
+      "/images/headphones/sennheiser-momentum-2-on-ear.jpg"
+    ],
+    "releaseYear": 2020,
+    "highlights": [
+      "Nefes Alabilen Lüks Alcantara Kafa Bandı ve Kulak Yastıkları",
+      "Katlanabilir Paslanmaz Çelik Menteşeler ve Hafif Dayanıklı Yapı",
+      "Zengin Detaylı ve Dinamik Bas Karakteristikli Sennheiser Akustiği",
+      "Android Uyumlu 3 Tuşlu Hat İçi Kumanda ve Mikrofon"
+    ],
+    "specs": {
+      "formFactor": "Kulak Üstü (Alcantara & Paslanmaz Çelik / Android 3.5mm)",
+      "driverSize": "Sennheiser Momentum Dönüştürücü",
+      "frequencyResponse": "16 Hz - 22.000 Hz",
+      "impedance": "18 Ohm",
+      "weightGrams": 210
+    },
+    "storeOffers": [
+      {
+        "id": "so-sennmom2oe-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "bg-orange-500",
+        "price": 27472,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime",
+          "Alcantara"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1850,
+        "url": "https://www.amazon.com.tr"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 28900,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 27472,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "jabra-evolve2-75-usb-c-ms-teams",
+    "slug": "jabra-evolve2-75-usb-c-ms-teams",
+    "name": "Jabra Evolve2 75 USB-C MS Teams Gelişmiş Hibrit ANC Profesyonel Kulaklık",
+    "brand": "Jabra",
+    "category": "headphones",
+    "basePrice": 21312,
+    "currency": "TL",
+    "rating": 4.9,
+    "epeyScore": 93,
+    "reviewCount": 1750,
+    "image": "/images/headphones/jabra-evolve2-75-usb-c.jpg",
+    "images": [
+      "/images/headphones/jabra-evolve2-75-usb-c.jpg"
+    ],
+    "releaseYear": 2022,
+    "highlights": [
+      "Jabra Gelişmiş Hibrit Aktif Gürültü Engelleme (ANC) Teknolojisi",
+      "8 Mikrofonlu Beamforming Teknolojisi ve Gizlenebilir Mikrofon Kolu",
+      "36 Saate Varan Pil Ömrü ve 360 Derece Entegre Busylight (Meşgul Işığı)",
+      "Microsoft Teams Sertifikalı ve Jabra Link 380 USB-C Adaptörlü Çift Bluetooth"
+    ],
+    "specs": {
+      "formFactor": "Kulak Üstü (Gelişmiş Hibrit ANC / 8 Mikrofon / Link 380 USB-C)",
+      "anc": "Jabra Advanced Hybrid ANC & HearThrough",
+      "driverSize": "40 mm Jabra",
+      "frequencyResponse": "20 Hz - 20.000 Hz",
+      "batteryLife": "36 Saat (ANC Kapalı) / 24 Saat (ANC Açık)",
+      "bluetoothVersion": "Bluetooth 5.2 (Çift Bağlantı)",
+      "weightGrams": 197
+    },
+    "storeOffers": [
+      {
+        "id": "so-jabraev275usbc-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-amber-500",
+        "price": 21312,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "MS Teams",
+          "Hibrit ANC"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 2100,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 22600,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 21312,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "jabra-evolve2-75-usb-a-ms-teams",
+    "slug": "jabra-evolve2-75-usb-a-ms-teams",
+    "name": "Jabra Evolve2 75 USB-A MS Teams Gelişmiş Hibrit ANC Profesyonel Kulaklık",
+    "brand": "Jabra",
+    "category": "headphones",
+    "basePrice": 19393.92,
+    "currency": "TL",
+    "rating": 4.9,
+    "epeyScore": 93,
+    "reviewCount": 2200,
+    "image": "/images/headphones/jabra-evolve2-75-usb-a.jpg",
+    "images": [
+      "/images/headphones/jabra-evolve2-75-usb-a.jpg"
+    ],
+    "releaseYear": 2022,
+    "highlights": [
+      "Jabra Gelişmiş Hibrit ANC ile Üstün Odaklanma ve Gürültü Engelleme",
+      "8 Mikrofonlu Algoritma ile Açık Ofislerde Mükemmel Ses Netliği",
+      "36 Saate Varan Pil Ömrü ve Hızlı Şarj (15 dk şarjla 4 saat)",
+      "Microsoft Teams Sertifikalı Link 380 USB-A Bluetooth Dongle"
+    ],
+    "specs": {
+      "formFactor": "Kulak Üstü (Gelişmiş Hibrit ANC / 8 Mikrofon / Link 380 USB-A)",
+      "anc": "Jabra Advanced Hybrid ANC & HearThrough",
+      "driverSize": "40 mm Jabra",
+      "frequencyResponse": "20 Hz - 20.000 Hz",
+      "batteryLife": "36 Saat (ANC Kapalı) / 24 Saat (ANC Açık)",
+      "bluetoothVersion": "Bluetooth 5.2",
+      "weightGrams": 197
+    },
+    "storeOffers": [
+      {
+        "id": "so-jabraev275usba-1",
+        "storeName": "Teknosa",
+        "storeLogoColor": "bg-orange-500",
+        "price": 19393.92,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "MS Teams",
+          "36s Pil"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 2500,
+        "url": "https://www.teknosa.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 20500,
+        "store": "Teknosa"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 19393.92,
+        "store": "Teknosa"
+      }
+    ]
+  },
+  {
+    "id": "jabra-evolve-75-stereo",
+    "slug": "jabra-evolve-75-stereo",
+    "name": "Jabra Evolve 75 Stereo Kablosuz ANC Profesyonel Ofis Kulaklığı",
+    "brand": "Jabra",
+    "category": "headphones",
+    "basePrice": 18800,
+    "currency": "TL",
+    "rating": 4.8,
+    "epeyScore": 91,
+    "reviewCount": 3100,
+    "image": "/images/headphones/jabra-evolve-75-stereo.jpg",
+    "images": [
+      "/images/headphones/jabra-evolve-75-stereo.jpg"
+    ],
+    "releaseYear": 2021,
+    "highlights": [
+      "Aktif Gürültü Engelleme (ANC) ile Yoğun Çalışma Ortamlarında Kusursuz İzolasyon",
+      "Entegre Kırmızı Meşgul Işığı (Busylight) ile Rahatsız Edilmeme Uyarısı",
+      "Çift Bluetooth Bağlantısı ile Aynı Anda Telefon ve Bilgisayara Bağlanma (30m Menzil)",
+      "Jabra Link 370 USB Adaptörü ile Tak-Çalıştır Kolaylığı"
+    ],
+    "specs": {
+      "formFactor": "Kulak Üstü (ANC / Entegre Busylight / Link 370 USB)",
+      "anc": "Aktif Gürültü Engelleme (ANC) & Dinle Modu",
+      "driverSize": "40 mm",
+      "batteryLife": "18 Saat (Konuşma) / 30 Saat (Müzik)",
+      "bluetoothVersion": "Bluetooth 4.2 (30m Kablosuz Menzil)",
+      "weightGrams": 177
+    },
+    "storeOffers": [
+      {
+        "id": "so-jabraev75st-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "bg-orange-500",
+        "price": 18800,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime",
+          "Jabra Ofis"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3500,
+        "url": "https://www.amazon.com.tr"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 19900,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 18800,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "sennheiser-epos-gsp-301",
+    "slug": "sennheiser-epos-gsp-301",
+    "name": "Sennheiser EPOS GSP 301 Beyaz/Siyah Kapalı Akustik Espor Gaming Kulaklık",
+    "brand": "Sennheiser",
+    "category": "headphones",
+    "basePrice": 16522,
+    "currency": "TL",
+    "rating": 4.8,
+    "epeyScore": 89,
+    "reviewCount": 1850,
+    "image": "/images/headphones/sennheiser-gsp-301.jpg",
+    "images": [
+      "/images/headphones/sennheiser-gsp-301.jpg"
+    ],
+    "releaseYear": 2021,
+    "highlights": [
+      "EPOS Mühendisliği Kapalı Akustik ile Üstün Pasif İzolasyon ve Derin Bas Tepkisi",
+      "Ergonomik XL Hafızalı Köpük Kulak Yastıkları ve Ayrık Kafa Bandı Tasarımı",
+      "Yayın Kalitesinde Gürültü Önleyici Mikrofon (Kaldır ve Sessize Al Fonksiyonu)",
+      "Sağ Kulaklık Üzerinde Entegre Sezgisel Ses Tekerleği"
+    ],
+    "specs": {
+      "formFactor": "Kulak Üstü (Kapalı Akustik / XL Hafızalı Köpük / Espor 3.5mm)",
+      "driverSize": "EPOS Yüksek Hassasiyetli Dinamik",
+      "frequencyResponse": "15 Hz - 26.000 Hz",
+      "impedance": "19 Ohm",
+      "weightGrams": 290
+    },
+    "storeOffers": [
+      {
+        "id": "so-senngsp301-1",
+        "storeName": "Teknosa",
+        "storeLogoColor": "bg-orange-500",
+        "price": 16522,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "EPOS Espor"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 2100,
+        "url": "https://www.teknosa.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 17800,
+        "store": "Teknosa"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 16522,
+        "store": "Teknosa"
+      }
+    ]
+  },
+  {
+    "id": "sennheiser-gsp-300",
+    "slug": "sennheiser-gsp-300",
+    "name": "Sennheiser GSP 300 Kapalı Akustik Mikrofonlu Gaming Kulaklık",
+    "brand": "Sennheiser",
+    "category": "headphones",
+    "basePrice": 8999,
+    "currency": "TL",
+    "rating": 4.7,
+    "epeyScore": 88,
+    "reviewCount": 3400,
+    "image": "/images/headphones/sennheiser-gsp-300.jpg",
+    "images": [
+      "/images/headphones/sennheiser-gsp-300.jpg"
+    ],
+    "releaseYear": 2021,
+    "highlights": [
+      "Sennheiser Akustik Netliği ve Güçlü Oyun İçi Bas Performansı",
+      "Akıllı Kaldır-Sessize Al Mekanizmalı Yayın Mikrofonu",
+      "Bölünmüş Kafa Bandı ve Akıllı Hafızalı Köpük Yastıklar",
+      "PC, Mac, PlayStation, Xbox ve Mobil Çoklu Platform Desteği"
+    ],
+    "specs": {
+      "formFactor": "Kulak Üstü (Kapalı Akustik / Gürültü Önleyici Mikrofon 3.5mm)",
+      "driverSize": "Sennheiser Dinamik",
+      "frequencyResponse": "15 Hz - 26.000 Hz",
+      "impedance": "19 Ohm",
+      "weightGrams": 290
+    },
+    "storeOffers": [
+      {
+        "id": "so-senngsp300-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-amber-500",
+        "price": 8999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Sennheiser Gaming"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3900,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 9650,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 8999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "sennheiser-hd-458bt",
+    "slug": "sennheiser-hd-458bt",
+    "name": "Sennheiser HD 458BT Özel Kırmızı Detaylı ANC Bluetooth Kulaklık",
+    "brand": "Sennheiser",
+    "category": "headphones",
+    "basePrice": 6209.1,
+    "currency": "TL",
+    "rating": 4.8,
+    "epeyScore": 91,
+    "reviewCount": 2900,
+    "image": "/images/headphones/sennheiser-hd-458bt.jpg",
+    "images": [
+      "/images/headphones/sennheiser-hd-458bt.jpg"
+    ],
+    "releaseYear": 2021,
+    "highlights": [
+      "Özel Kırmızı Vurgulu Şık Tasarım ve Aktif Gürültü Engelleme (ANC)",
+      "AptX Low Latency ve AAC ile Sıfır Gecikmeli Yüksek Çözünürlüklü Ses",
+      "30 Saate Varan Etkileyici Pil Ömrü ve USB-C Hızlı Şarj",
+      "Sennheiser Smart Control Uygulaması ile Podcast Modu ve Ekolayzer"
+    ],
+    "specs": {
+      "formFactor": "Kulak Üstü (Özel Kırmızı Edition / ANC / AptX-LL / 30s Pil)",
+      "anc": "Aktif Gürültü Engelleme (ANC)",
+      "driverSize": "32 mm Dinamik",
+      "frequencyResponse": "18 Hz - 22.000 Hz",
+      "batteryLife": "30 Saat (ANC Açık)",
+      "bluetoothVersion": "Bluetooth 5.0 (AptX-LL, AAC)",
+      "weightGrams": 238
+    },
+    "storeOffers": [
+      {
+        "id": "so-sennhd458bt-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "bg-orange-500",
+        "price": 6209.1,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime",
+          "Special Edition ANC"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3300,
+        "url": "https://www.amazon.com.tr"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 6790,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 6209.1,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "sennheiser-hd-450bt",
+    "slug": "sennheiser-hd-450bt",
+    "name": "Sennheiser HD 450BT Aktif Gürültü Engelleyici (ANC) Bluetooth Kulaklık",
+    "brand": "Sennheiser",
+    "category": "headphones",
+    "basePrice": 5849.1,
+    "currency": "TL",
+    "rating": 4.8,
+    "epeyScore": 90,
+    "reviewCount": 5400,
+    "image": "/images/headphones/sennheiser-hd-450bt.jpg",
+    "images": [
+      "/images/headphones/sennheiser-hd-450bt.jpg"
+    ],
+    "releaseYear": 2021,
+    "highlights": [
+      "Aktif Gürültü Engelleme (ANC) ile Dış Seslerden Arındırılmış Akustik",
+      "AptX, AptX-LL ve AAC Kodek Desteği ile Kusursuz Ses Senkronizasyonu",
+      "30 Saate Varan Pil Ömrü ve Katlanabilir Kompakt Seyahat Gövdesi",
+      "Dahili Sesli Asistan Butonu (Siri ve Google Asistan)"
+    ],
+    "specs": {
+      "formFactor": "Kulak Üstü (ANC / AptX-LL / 30s Pil / Katlanabilir BT)",
+      "anc": "Aktif Gürültü Engelleme (ANC)",
+      "driverSize": "32 mm Dinamik",
+      "frequencyResponse": "18 Hz - 22.000 Hz",
+      "batteryLife": "30 Saat (ANC Açık)",
+      "bluetoothVersion": "Bluetooth 5.0 (AptX, AptX-LL, AAC)",
+      "weightGrams": 238
+    },
+    "storeOffers": [
+      {
+        "id": "so-sennhd450bt-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-orange-600",
+        "price": 5849.1,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "30s Pil ANC",
+          "Sennheiser"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 6100,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 6390,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 5849.1,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "oneplus-buds-z2",
+    "slug": "oneplus-buds-z2",
+    "name": "OnePlus Buds Z2 40dB Aktif Gürültü Engelleme Dolby Atmos TWS Kulaklık",
+    "brand": "OnePlus",
+    "category": "headphones",
+    "basePrice": 3999,
+    "currency": "TL",
+    "rating": 4.7,
+    "epeyScore": 87,
+    "reviewCount": 3600,
+    "image": "/images/headphones/oneplus-buds-z2.jpg",
+    "images": [
+      "/images/headphones/oneplus-buds-z2.jpg"
+    ],
+    "releaseYear": 2022,
+    "highlights": [
+      "40 dB'e Varan Akıllı Aktif Gürültü Engelleme (ANC) ve Şeffaflık Modu",
+      "11 mm Dinamik Sürücüler ve Bass Booster Akustiği (Dolby Atmos Desteği)",
+      "38 Saate Varan Toplam Pil Ömrü ve Flash Charge (10 dk şarjla 5 saat)",
+      "IP55 Su ve Toz Dayanıklılığı (Kulaklıklar) + IPX4 Şarj Kutusu"
+    ],
+    "specs": {
+      "formFactor": "Kulak İçi (40dB ANC / 11mm Bass Booster / Dolby Atmos / 38s Pil)",
+      "anc": "40 dB Hibrit Aktif Gürültü Engelleme (ANC)",
+      "spatialAudio": "Dolby Atmos Desteği",
+      "driverSize": "11 mm Dinamik",
+      "batteryLife": "38 Saat (Kutu Dahil)",
+      "bluetoothVersion": "Bluetooth 5.2",
+      "ipRating": "IP55",
+      "weightGrams": 4.5
+    },
+    "storeOffers": [
+      {
+        "id": "so-opbudsz2-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "bg-orange-500",
+        "price": 3999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime",
+          "40dB ANC",
+          "Dolby Atmos"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 4200,
+        "url": "https://www.amazon.com.tr"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 4350,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 3999,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "logitech-g335",
+    "slug": "logitech-g335",
+    "name": "Logitech G335 240g Ultra Hafif Süspansiyon Bantlı Gaming Kulaklık",
+    "brand": "Logitech",
+    "category": "headphones",
+    "basePrice": 3199,
+    "currency": "TL",
+    "rating": 4.7,
+    "epeyScore": 87,
+    "reviewCount": 4800,
+    "image": "/images/headphones/logitech-g335.jpg",
+    "images": [
+      "/images/headphones/logitech-g335.jpg"
+    ],
+    "releaseYear": 2021,
+    "highlights": [
+      "Yalnızca 240 Gram Ultra Hafif Gövde ve Ağırlığı Dağıtan Süspansiyon Kafa Bandı",
+      "Nefes Alabilen Hafızalı Köpük Kumaş Kulak Yastıkları ile Gün Boyu Konfor",
+      "Discord Sertifikalı Flip-to-Mute (Kaldır-Sessize Al) Mikrofon",
+      "40 mm Neodimyum Sürücüler ile Net Stereo Ses ve Kulak Üstü Ses Silindiri"
+    ],
+    "specs": {
+      "formFactor": "Kulak Üstü (240g Ultra Hafif / Süspansiyon Bantlı / 40mm Neodimyum 3.5mm)",
+      "driverSize": "40 mm Neodimyum",
+      "frequencyResponse": "20 Hz - 20.000 Hz",
+      "impedance": "36 Ohm",
+      "weightGrams": 240
+    },
+    "storeOffers": [
+      {
+        "id": "so-logig335-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-amber-500",
+        "price": 3199,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "240g Ultra Hafif",
+          "Discord Sertifikalı"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 5600,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 3490,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 3199,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "joyroom-tl9",
+    "slug": "joyroom-tl9",
+    "name": "Joyroom TL9 TWS Bluetooth Kulak İçi Kulaklık",
+    "brand": "Joyroom",
+    "category": "headphones",
+    "basePrice": 2438.15,
+    "currency": "TL",
+    "rating": 4.4,
+    "epeyScore": 78,
+    "reviewCount": 1200,
+    "image": "/images/headphones/joyroom-jr-tl9.jpg",
+    "images": [
+      "/images/headphones/joyroom-jr-tl9.jpg"
+    ],
+    "releaseYear": 2021,
+    "highlights": [
+      "12 mm Dinamik Sürücüler ile Genişletilmiş Bas Tepkisi",
+      "Ergonomik Yarı Kulak İçi Gövde ve Hızlı Dokunmatik Kontrol",
+      "18 Saate Varan Toplam Kullanım Süresi"
+    ],
+    "specs": {
+      "formFactor": "Kulak İçi (12mm Sürücü / Yarı Kulak İçi TWS)",
+      "driverSize": "12 mm Dinamik",
+      "batteryLife": "18 Saat (Kutu Dahil)",
+      "bluetoothVersion": "Bluetooth 5.0",
+      "weightGrams": 4.2
+    },
+    "storeOffers": [
+      {
+        "id": "so-jrtl9-1",
+        "storeName": "Teknosa",
+        "storeLogoColor": "bg-orange-500",
+        "price": 2438.15,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Joyroom TWS"
+        ],
+        "sellerRating": 4.5,
+        "sellerReviews": 1400,
+        "url": "https://www.teknosa.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 2650,
+        "store": "Teknosa"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 2438.15,
+        "store": "Teknosa"
+      }
+    ]
+  },
+  {
+    "id": "hadron-g9000",
+    "slug": "hadron-g9000",
+    "name": "Hadron G9000 LED Işıklı Mikrofonlu Gaming Kulaklık",
+    "brand": "Hadron",
+    "category": "headphones",
+    "basePrice": 2250,
+    "currency": "TL",
+    "rating": 4.3,
+    "epeyScore": 79,
+    "reviewCount": 1450,
+    "image": "/images/headphones/hadron-g9000.jpg",
+    "images": [
+      "/images/headphones/hadron-g9000.jpg"
+    ],
+    "releaseYear": 2021,
+    "highlights": [
+      "40 mm Hoparlör Sürücüleri ve LED Işık Efektleri",
+      "Döner Esnek Mikrofon Kolu ve Yumuşak Kulak Yastıkları",
+      "3.5 mm Ses ve Mikrofon + USB Aydınlatma Bağlantısı"
+    ],
+    "specs": {
+      "formFactor": "Kulak Üstü (40mm / LED Işıklı Gaming)",
+      "driverSize": "40 mm",
+      "weightGrams": 280
+    },
+    "storeOffers": [
+      {
+        "id": "so-hadrong9000-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-orange-600",
+        "price": 2250,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "LED Gaming"
+        ],
+        "sellerRating": 4.4,
+        "sellerReviews": 1650,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 2450,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 2250,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "sades-shaman",
+    "slug": "sades-shaman",
+    "name": "Sades Shaman RGB Aydınlatmalı 50mm Gaming Kulaklık",
+    "brand": "Sades",
+    "category": "headphones",
+    "basePrice": 1655.22,
+    "currency": "TL",
+    "rating": 4.4,
+    "epeyScore": 80,
+    "reviewCount": 1300,
+    "image": "/images/headphones/sades-shaman.jpg",
+    "images": [
+      "/images/headphones/sades-shaman.jpg"
+    ],
+    "releaseYear": 2022,
+    "highlights": [
+      "50 mm Geniş Manyetik Sürücüler ile Güçlü Çevresel Ses",
+      "Dinamik RGB Aydınlatmalı Kulak Kapsülleri",
+      "Çok Yönlü Esnek Mikrofon ve Hat İçi Kontrol Ünitesi"
+    ],
+    "specs": {
+      "formFactor": "Kulak Üstü (50mm RGB Gaming)",
+      "driverSize": "50 mm",
+      "weightGrams": 310
+    },
+    "storeOffers": [
+      {
+        "id": "so-sadesshaman-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "bg-orange-500",
+        "price": 1655.22,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime",
+          "50mm RGB"
+        ],
+        "sellerRating": 4.5,
+        "sellerReviews": 1500,
+        "url": "https://www.amazon.com.tr"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 1799,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 1655.22,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "jbl-wave-flex",
+    "slug": "jbl-wave-flex",
+    "name": "JBL Wave Flex Açık Yarı Kulak İçi Deep Bass Bluetooth Kulaklık",
+    "brand": "JBL",
+    "category": "headphones",
+    "basePrice": 1520.65,
+    "currency": "TL",
+    "rating": 4.6,
+    "epeyScore": 83,
+    "reviewCount": 6800,
+    "image": "/images/headphones/jbl-wave-flex.jpg",
+    "images": [
+      "/images/headphones/jbl-wave-flex.jpg"
+    ],
+    "releaseYear": 2023,
+    "highlights": [
+      "12 mm Büyük Dinamik Sürücüler ile JBL Deep Bass Kalitesi",
+      "Baskı Yapmayan Ergonomik Açık Yarı Kulak İçi (Stick Open) Tasarım",
+      "32 Saate Varan Pil Ömrü (8s Kulaklık + 24s Kutu) ve Smart Ambient (VoiceAware)",
+      "IP54 Suya ve Toza Dayanıklı Yapı + Hızlı Şarj (10 dk şarjla 2 saat)"
+    ],
+    "specs": {
+      "formFactor": "Kulak İçi (12mm Sürücü / Açık Yarı Kulak İçi / IP54 / 32s Pil TWS)",
+      "driverSize": "12 mm Dinamik",
+      "batteryLife": "32 Saat (Kutu Dahil)",
+      "bluetoothVersion": "Bluetooth 5.2",
+      "ipRating": "IP54",
+      "weightGrams": 3.8
+    },
+    "storeOffers": [
+      {
+        "id": "so-jblwaveflex-1",
+        "storeName": "Teknosa",
+        "storeLogoColor": "bg-orange-500",
+        "price": 1520.65,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "JBL Deep Bass",
+          "Açık Tasarım"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 7800,
+        "url": "https://www.teknosa.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 1690,
+        "store": "Teknosa"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 1520.65,
+        "store": "Teknosa"
+      }
+    ]
+  },
+  {
+    "id": "trust-gxt-313-nero",
+    "slug": "trust-gxt-313-nero",
+    "name": "Trust GXT 313 Nero Kırmızı Aydınlatmalı Gaming Kulaklık",
+    "brand": "Trust",
+    "category": "headphones",
+    "basePrice": 1158.29,
+    "currency": "TL",
+    "rating": 4.3,
+    "epeyScore": 79,
+    "reviewCount": 1600,
+    "image": "/images/headphones/trust-gxt-313-nero.png",
+    "images": [
+      "/images/headphones/trust-gxt-313-nero.png"
+    ],
+    "releaseYear": 2021,
+    "highlights": [
+      "40 mm Hoparlör Sürücüleri ve Kırmızı LED Işıklı Yan Paneller",
+      "Ayarlanabilir Kafa Bandı ve Katlanabilir Mikrofon",
+      "Kablo Üzerinde Entegre Ses Düzeyi ve Sessize Alma Anahtarı"
+    ],
+    "specs": {
+      "formFactor": "Kulak Üstü (40mm / Kırmızı LED Gaming)",
+      "driverSize": "40 mm",
+      "weightGrams": 280
+    },
+    "storeOffers": [
+      {
+        "id": "so-trustgxt313-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-amber-500",
+        "price": 1158.29,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Trust Gaming"
+        ],
+        "sellerRating": 4.4,
+        "sellerReviews": 1800,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 1250,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 1158.29,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "zore-btk-zr52",
+    "slug": "zore-btk-zr52",
+    "name": "Zore BTK-ZR52 TWS Bluetooth Kulak İçi Kulaklık",
+    "brand": "Zore",
+    "category": "headphones",
+    "basePrice": 1063.9,
+    "currency": "TL",
+    "rating": 4.2,
+    "epeyScore": 76,
+    "reviewCount": 980,
+    "image": "/images/headphones/zore-btk-zr52.jpg",
+    "images": [
+      "/images/headphones/zore-btk-zr52.jpg"
+    ],
+    "releaseYear": 2022,
+    "highlights": [
+      "LED Dijital Şarj Göstergesi",
+      "16 Saate Varan Toplam Kullanım Süresi",
+      "Dokunmatik Kontroller ve Dahili Mikrofon"
+    ],
+    "specs": {
+      "formFactor": "Kulak İçi (LED Göstergeli TWS)",
+      "driverSize": "10 mm",
+      "batteryLife": "16 Saat (Kutu Dahil)",
+      "bluetoothVersion": "Bluetooth 5.1",
+      "weightGrams": 4.1
+    },
+    "storeOffers": [
+      {
+        "id": "so-zorezr52-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-orange-600",
+        "price": 1063.9,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "LED Gösterge"
+        ],
+        "sellerRating": 4.3,
+        "sellerReviews": 1100,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 1180,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 1063.9,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "philips-she1455",
+    "slug": "philips-she1455",
+    "name": "Philips SHE1455 Mikrofonlu Kulak İçi Kulaklık",
+    "brand": "Philips",
+    "category": "headphones",
+    "basePrice": 799,
+    "currency": "TL",
+    "rating": 4.3,
+    "epeyScore": 74,
+    "reviewCount": 1400,
+    "image": "/images/headphones/philips-she1455.jpg",
+    "images": [
+      "/images/headphones/philips-she1455.jpg"
+    ],
+    "releaseYear": 2020,
+    "highlights": [
+      "8.6 mm Dinamik Sürücüler ile Net Ses Çıkışı",
+      "Dahili Mikrofon ve Hat İçi Çağrı Düğmesi",
+      "3 Farklı Boyutta Değiştirilebilir Yumuşak Silikon Uçlar"
+    ],
+    "specs": {
+      "formFactor": "Kulak İçi (8.6mm Sürücü / Mikrofonlu 3.5mm)",
+      "driverSize": "8.6 mm",
+      "frequencyResponse": "10 Hz - 22.000 Hz",
+      "weightGrams": 11
+    },
+    "storeOffers": [
+      {
+        "id": "so-phshe1455-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "bg-orange-500",
+        "price": 799,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime",
+          "Philips Net Ses"
+        ],
+        "sellerRating": 4.5,
+        "sellerReviews": 1650,
+        "url": "https://www.amazon.com.tr"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 870,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 799,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "trust-nika-touch",
+    "slug": "trust-nika-touch",
+    "name": "Trust Nika Touch Kablosuz Bluetooth Kulaklık",
+    "brand": "Trust",
+    "category": "headphones",
+    "basePrice": 700,
+    "currency": "TL",
+    "rating": 4.2,
+    "epeyScore": 75,
+    "reviewCount": 1550,
+    "image": "/images/headphones/trust-nika-touch.jpg",
+    "images": [
+      "/images/headphones/trust-nika-touch.jpg"
+    ],
+    "releaseYear": 2021,
+    "highlights": [
+      "Kompakt Şarj Kutusu ile 16 Saate Varan Toplam Kullanım",
+      "Dahili Dokunmatik Kontroller (Oynat, Durdur, Sesli Asistan)",
+      "Güvenli ve Rahat Kulak İçi Uyum"
+    ],
+    "specs": {
+      "formFactor": "Kulak İçi (Dokunmatik / 16s Pil TWS)",
+      "driverSize": "10 mm",
+      "batteryLife": "16 Saat (Kutu Dahil)",
+      "bluetoothVersion": "Bluetooth 5.0",
+      "weightGrams": 4
+    },
+    "storeOffers": [
+      {
+        "id": "so-trustnikatouch-1",
+        "storeName": "Teknosa",
+        "storeLogoColor": "bg-orange-500",
+        "price": 700,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Nika Touch"
+        ],
+        "sellerRating": 4.3,
+        "sellerReviews": 1750,
+        "url": "https://www.teknosa.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 780,
+        "store": "Teknosa"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 700,
+        "store": "Teknosa"
+      }
+    ]
+  },
+  {
+    "id": "earldom-e67",
+    "slug": "earldom-e67",
+    "name": "Earldom E67 Kablosuz Bluetooth Kulak İçi Kulaklık",
+    "brand": "Earldom",
+    "category": "headphones",
+    "basePrice": 623.9,
+    "currency": "TL",
+    "rating": 4.1,
+    "epeyScore": 74,
+    "reviewCount": 650,
+    "image": "/images/headphones/earldom-e67.jpg",
+    "images": [
+      "/images/headphones/earldom-e67.jpg"
+    ],
+    "releaseYear": 2022,
+    "highlights": [
+      "10 mm Dinamik Sürücüler",
+      "15 Saate Varan Pil Ömrü ve Hızlı Eşleşme",
+      "Dokunmatik Kontrol Paneli"
+    ],
+    "specs": {
+      "formFactor": "Kulak İçi (TWS Bluetooth 5.0)",
+      "driverSize": "10 mm",
+      "batteryLife": "15 Saat (Kutu Dahil)",
+      "bluetoothVersion": "Bluetooth 5.0",
+      "weightGrams": 4.1
+    },
+    "storeOffers": [
+      {
+        "id": "so-earldome67-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-amber-500",
+        "price": 623.9,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Earldom TWS"
+        ],
+        "sellerRating": 4.2,
+        "sellerReviews": 750,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 699,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 623.9,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "philips-she1405",
+    "slug": "philips-she1405",
+    "name": "Philips SHE1405 Mikrofonlu Kulak İçi Kulaklık",
+    "brand": "Philips",
+    "category": "headphones",
+    "basePrice": 618.8,
+    "currency": "TL",
+    "rating": 4.2,
+    "epeyScore": 73,
+    "reviewCount": 1850,
+    "image": "/images/headphones/philips-she1405.jpg",
+    "images": [
+      "/images/headphones/philips-she1405.jpg"
+    ],
+    "releaseYear": 2020,
+    "highlights": [
+      "8.6 mm Kompakt Sürücüler ile Net Ses",
+      "Hat İçi Mikrofon ve Tek Tuşlu Çağrı Yönetimi",
+      "Dolaşmayı Önleyen 1.2 Metre Kablo"
+    ],
+    "specs": {
+      "formFactor": "Kulak İçi (8.6mm Mikrofonlu 3.5mm)",
+      "driverSize": "8.6 mm",
+      "frequencyResponse": "10 Hz - 22.000 Hz",
+      "weightGrams": 11
+    },
+    "storeOffers": [
+      {
+        "id": "so-phshe1405-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-orange-600",
+        "price": 618.8,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Philips Klasik"
+        ],
+        "sellerRating": 4.4,
+        "sellerReviews": 2100,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 680,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 618.8,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "earldom-e68",
+    "slug": "earldom-e68",
+    "name": "Earldom E68 Kablosuz Bluetooth Kulak İçi Kulaklık",
+    "brand": "Earldom",
+    "category": "headphones",
+    "basePrice": 607.43,
+    "currency": "TL",
+    "rating": 4.1,
+    "epeyScore": 74,
+    "reviewCount": 590,
+    "image": "/images/headphones/earldom-e68.jpg",
+    "images": [
+      "/images/headphones/earldom-e68.jpg"
+    ],
+    "releaseYear": 2022,
+    "highlights": [
+      "10 mm Sürücüler ile Dengeli Ses Çıkışı",
+      "Kompakt Şarj Kutusu ve 15 Saat Pil",
+      "Dokunmatik Çağrı ve Müzik Kontrolü"
+    ],
+    "specs": {
+      "formFactor": "Kulak İçi (TWS Bluetooth 5.0)",
+      "driverSize": "10 mm",
+      "batteryLife": "15 Saat (Kutu Dahil)",
+      "bluetoothVersion": "Bluetooth 5.0",
+      "weightGrams": 4.1
+    },
+    "storeOffers": [
+      {
+        "id": "so-earldome68-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "bg-orange-500",
+        "price": 607.43,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime",
+          "Earldom"
+        ],
+        "sellerRating": 4.2,
+        "sellerReviews": 680,
+        "url": "https://www.amazon.com.tr"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 670,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 607.43,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "awei-a920-bls",
+    "slug": "awei-a920-bls",
+    "name": "Awei A920 BLS Manyetik Boyun Askılı Sporcu Kulaklığı",
+    "brand": "Awei",
+    "category": "headphones",
+    "basePrice": 499.95,
+    "currency": "TL",
+    "rating": 4.1,
+    "epeyScore": 73,
+    "reviewCount": 1300,
+    "image": "/images/headphones/awei-a920-bls.jpg",
+    "images": [
+      "/images/headphones/awei-a920-bls.jpg"
+    ],
+    "releaseYear": 2020,
+    "highlights": [
+      "Manyetik Kulak Başlıkları ile Boyunda Güvenli Taşıma",
+      "CVC 6.0 Akıllı Gürültü Azaltma ve Mikrofon",
+      "8 Saate Varan Müzik Çalma Süresi"
+    ],
+    "specs": {
+      "formFactor": "Kulak İçi (Manyetik Boyun Askılı Sporcu BT)",
+      "driverSize": "9 mm",
+      "batteryLife": "8 Saat",
+      "bluetoothVersion": "Bluetooth 4.2",
+      "weightGrams": 16
+    },
+    "storeOffers": [
+      {
+        "id": "so-aweia920-1",
+        "storeName": "Teknosa",
+        "storeLogoColor": "bg-orange-500",
+        "price": 499.95,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Manyetik Spor"
+        ],
+        "sellerRating": 4.2,
+        "sellerReviews": 1450,
+        "url": "https://www.teknosa.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 550,
+        "store": "Teknosa"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 499.95,
+        "store": "Teknosa"
+      }
+    ]
+  },
+  {
+    "id": "philips-she3555",
+    "slug": "philips-she3555",
+    "name": "Philips SHE3555 Mikrofonlu Kulak İçi Kulaklık",
+    "brand": "Philips",
+    "category": "headphones",
+    "basePrice": 499,
+    "currency": "TL",
+    "rating": 4.3,
+    "epeyScore": 74,
+    "reviewCount": 2400,
+    "image": "/images/headphones/philips-she3555.jpg",
+    "images": [
+      "/images/headphones/philips-she3555.jpg"
+    ],
+    "releaseYear": 2020,
+    "highlights": [
+      "8.6 mm Kompakt Sürücüler ile Güçlü Bas ve Berrak Ses",
+      "Dahili Mikrofon ve Hat İçi Kumanda",
+      "Ergonomik Oval Ses Tüpü Tasarımı"
+    ],
+    "specs": {
+      "formFactor": "Kulak İçi (8.6mm Oval Tüp / Mikrofonlu 3.5mm)",
+      "driverSize": "8.6 mm",
+      "frequencyResponse": "10 Hz - 22.000 Hz",
+      "weightGrams": 12
+    },
+    "storeOffers": [
+      {
+        "id": "so-phshe3555-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-amber-500",
+        "price": 499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Oval Tüp Tasarım"
+        ],
+        "sellerRating": 4.5,
+        "sellerReviews": 2800,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 549,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 499,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "torima-p575",
+    "slug": "torima-p575",
+    "name": "Torima P575 Kablosuz Bluetooth Kulak Üstü Kulaklık",
+    "brand": "Torima",
+    "category": "headphones",
+    "basePrice": 494.21,
+    "currency": "TL",
+    "rating": 4,
+    "epeyScore": 72,
+    "reviewCount": 820,
+    "image": "/images/headphones/torima-p575.jpg",
+    "images": [
+      "/images/headphones/torima-p575.jpg"
+    ],
+    "releaseYear": 2022,
+    "highlights": [
+      "40 mm Dinamik Sürücüler",
+      "Katlanabilir Kafa Bandı ve TF Kart / AUX Desteği",
+      "10 Saate Varan Pil Ömrü"
+    ],
+    "specs": {
+      "formFactor": "Kulak Üstü (40mm / TF Kart / Katlanabilir BT)",
+      "driverSize": "40 mm",
+      "batteryLife": "10 Saat",
+      "bluetoothVersion": "Bluetooth 5.0",
+      "weightGrams": 165
+    },
+    "storeOffers": [
+      {
+        "id": "so-torimap575-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-orange-600",
+        "price": 494.21,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "TF Kart Desteği"
+        ],
+        "sellerRating": 4.1,
+        "sellerReviews": 920,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 550,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 494.21,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "philips-taue101",
+    "slug": "philips-taue101",
+    "name": "Philips TAUE101 Bass Beat Havalandırmalı Mikrofonlu Kulaklık",
+    "brand": "Philips",
+    "category": "headphones",
+    "basePrice": 349,
+    "currency": "TL",
+    "rating": 4.2,
+    "epeyScore": 72,
+    "reviewCount": 3100,
+    "image": "/images/headphones/philips-taue101.jpg",
+    "images": [
+      "/images/headphones/philips-taue101.jpg"
+    ],
+    "releaseYear": 2021,
+    "highlights": [
+      "14.2 mm Büyük Neodimyum Sürücüler ile Zengin Akustik",
+      "Bass Beat Havalandırma Delikleri ile Güçlendirilmiş Derin Bas",
+      "Dahili Mikrofon ve Tek Tuşlu Kumanda"
+    ],
+    "specs": {
+      "formFactor": "Kulak İçi (14.2mm Neodimyum / Bass Beat 3.5mm)",
+      "driverSize": "14.2 mm Neodimyum",
+      "frequencyResponse": "20 Hz - 20.000 Hz",
+      "weightGrams": 12
+    },
+    "storeOffers": [
+      {
+        "id": "so-phtaue101-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "bg-orange-500",
+        "price": 349,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime",
+          "14.2mm Sürücü"
+        ],
+        "sellerRating": 4.5,
+        "sellerReviews": 3600,
+        "url": "https://www.amazon.com.tr"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 390,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 349,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "snopy-sn-501",
+    "slug": "snopy-sn-501",
+    "name": "Snopy SN-501 Mikrofonlu PC Kulak Üstü Kulaklık",
+    "brand": "Snopy",
+    "category": "headphones",
+    "basePrice": 284.1,
+    "currency": "TL",
+    "rating": 3.8,
+    "epeyScore": 66,
+    "reviewCount": 880,
+    "image": "/images/headphones/snopy-sn-501.jpg",
+    "images": [
+      "/images/headphones/snopy-sn-501.jpg"
+    ],
+    "releaseYear": 2020,
+    "highlights": [
+      "40 mm Hoparlör Sürücüleri ve Esnek Mikrofon",
+      "Çift 3.5 mm PC Ses ve Mikrofon Jakı",
+      "Kablo Üzerinde Ses Kontrol Tekerleği"
+    ],
+    "specs": {
+      "formFactor": "Kulak Üstü (40mm PC 3.5mm)",
+      "driverSize": "40 mm",
+      "weightGrams": 160
+    },
+    "storeOffers": [
+      {
+        "id": "so-snpsn501-1",
+        "storeName": "Teknosa",
+        "storeLogoColor": "bg-orange-500",
+        "price": 284.1,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "PC Mikrofonlu"
+        ],
+        "sellerRating": 4,
+        "sellerReviews": 990,
+        "url": "https://www.teknosa.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 320,
+        "store": "Teknosa"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 284.1,
+        "store": "Teknosa"
+      }
+    ]
+  },
+  {
+    "id": "lenovo-lecoo-es204",
+    "slug": "lenovo-lecoo-es204",
+    "name": "Lenovo Lecoo ES204 Mikrofonlu Kablolu Kulak İçi Kulaklık",
+    "brand": "Lenovo",
+    "category": "headphones",
+    "basePrice": 258.49,
+    "currency": "TL",
+    "rating": 4,
+    "epeyScore": 68,
+    "reviewCount": 1100,
+    "image": "/images/headphones/lenovo-lecoo-es204.jpg",
+    "images": [
+      "/images/headphones/lenovo-lecoo-es204.jpg"
+    ],
+    "releaseYear": 2022,
+    "highlights": [
+      "10 mm Dinamik Sürücüler ile Net Ses Çıkışı",
+      "Dahili Mikrofon ve Hat İçi Çağrı Tuşu",
+      "Dolaşmayı Engelleyen TPE Dayanıklı Kablo"
+    ],
+    "specs": {
+      "formFactor": "Kulak İçi (10mm TPE Kablo 3.5mm)",
+      "driverSize": "10 mm",
+      "weightGrams": 12
+    },
+    "storeOffers": [
+      {
+        "id": "so-lecooes204-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-amber-500",
+        "price": 258.49,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Lecoo Serisi"
+        ],
+        "sellerRating": 4.2,
+        "sellerReviews": 1250,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 290,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 258.49,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "bood-mgk-02",
+    "slug": "bood-mgk-02",
+    "name": "Bood MGK-02 Mikrofonlu Kablolu Kulak İçi Kulaklık",
+    "brand": "Bood",
+    "category": "headphones",
+    "basePrice": 197.9,
+    "currency": "TL",
+    "rating": 3.8,
+    "epeyScore": 63,
+    "reviewCount": 450,
+    "image": "/images/headphones/bood-mgk-02.jpg",
+    "images": [
+      "/images/headphones/bood-mgk-02.jpg"
+    ],
+    "releaseYear": 2021,
+    "highlights": [
+      "10 mm Dinamik Sürücüler",
+      "Dahili Mikrofon ve 3.5 mm Standart Jak"
+    ],
+    "specs": {
+      "formFactor": "Kulak İçi (Kablolu 3.5mm)",
+      "driverSize": "10 mm",
+      "weightGrams": 11
+    },
+    "storeOffers": [
+      {
+        "id": "so-boodmgk02-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-orange-600",
+        "price": 197.9,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Bütçe"
+        ],
+        "sellerRating": 3.9,
+        "sellerReviews": 510,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 229,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 197.9,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "preo-ms42-elite",
+    "slug": "preo-ms42-elite",
+    "name": "Preo MS42 Elite Mikrofonlu Kablolu Kulak İçi Kulaklık",
+    "brand": "Preo",
+    "category": "headphones",
+    "basePrice": 97,
+    "currency": "TL",
+    "rating": 3.7,
+    "epeyScore": 63,
+    "reviewCount": 520,
+    "image": "/images/headphones/preo-ms42-elite.jpg",
+    "images": [
+      "/images/headphones/preo-ms42-elite.jpg"
+    ],
+    "releaseYear": 2021,
+    "highlights": [
+      "10 mm Dinamik Sürücüler",
+      "Dahili Mikrofon ve 3.5 mm Jak"
+    ],
+    "specs": {
+      "formFactor": "Kulak İçi (Kablolu 3.5mm)",
+      "driverSize": "10 mm",
+      "weightGrams": 11
+    },
+    "storeOffers": [
+      {
+        "id": "so-preoms42-1",
+        "storeName": "Teknosa",
+        "storeLogoColor": "bg-orange-500",
+        "price": 97,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Preo Elite"
+        ],
+        "sellerRating": 3.9,
+        "sellerReviews": 580,
+        "url": "https://www.teknosa.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 119,
+        "store": "Teknosa"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 97,
+        "store": "Teknosa"
+      }
+    ]
+  },
+  {
     "id": "sennheiser-g4me-zero",
     "slug": "sennheiser-g4me-zero",
     "name": "Sennheiser G4ME Zero Profesyonel Kapalı Akustik Espor Gaming Kulaklık",
@@ -35218,246 +36949,6 @@ export const mockHeadphones: Product[] = [
         "date": "2026-08-01",
         "price": 1029,
         "store": "Amazon TR"
-      }
-    ]
-  },
-  {
-    "id": "philips-she1455",
-    "slug": "philips-she1455",
-    "name": "Philips SHE1455 Mikrofonlu Kulak İçi Kulaklık",
-    "brand": "Philips",
-    "category": "headphones",
-    "basePrice": 799,
-    "currency": "TL",
-    "rating": 4.4,
-    "epeyScore": 82,
-    "reviewCount": 180,
-    "image": "/images/headphones/philips-she1455.jpg",
-    "images": [
-      "/images/headphones/philips-she1455.jpg"
-    ],
-    "releaseYear": 2023,
-    "highlights": [
-      "Dinamik Bas Çıkışlı Sürücüler",
-      "Kabloya Entegre Çağrı Mikrofonu",
-      "Ultra Küçük Kulak İçi Tasarım",
-      "Dış Gürültüleri Engelleyen Silikon Uçlar"
-    ],
-    "specs": {
-      "formFactor": "Kulak İçi (Kablolu 3.5mm)",
-      "anc": "Yok",
-      "batteryLife": "Kablolu",
-      "bluetoothVersion": "Kablolu (3.5mm)",
-      "driverSize": "8.6 mm",
-      "frequencyResponse": "10 Hz - 22.000 Hz",
-      "weightGrams": 11
-    },
-    "storeOffers": [
-      {
-        "id": "so-she1455-1",
-        "storeName": "Amazon TR",
-        "storeLogoColor": "bg-orange-500",
-        "price": 799,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Prime"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 390,
-        "url": "https://www.epey.com/kulaklik/philips-she1455.html"
-      }
-    ],
-    "priceHistory": [
-      {
-        "date": "2026-07-01",
-        "price": 849,
-        "store": "Amazon TR"
-      },
-      {
-        "date": "2026-08-01",
-        "price": 799,
-        "store": "Amazon TR"
-      }
-    ]
-  },
-  {
-    "id": "philips-she1405",
-    "slug": "philips-she1405",
-    "name": "Philips SHE1405 Mikrofonlu Kulak İçi Kulaklık",
-    "brand": "Philips",
-    "category": "headphones",
-    "basePrice": 605.2,
-    "currency": "TL",
-    "rating": 4.4,
-    "epeyScore": 82,
-    "reviewCount": 420,
-    "image": "/images/headphones/philips-she1405.jpg",
-    "images": [
-      "/images/headphones/philips-she1405.jpg"
-    ],
-    "releaseYear": 2023,
-    "highlights": [
-      "Tüm Telefonlarla Uyumlu Entegre Mikrofon",
-      "Kusursuz Kulak İçi Oturuş",
-      "8.6 mm Dinamik Sürücüler",
-      "1.2 Metre Esnek Kablo"
-    ],
-    "specs": {
-      "formFactor": "Kulak İçi (Kablolu 3.5mm)",
-      "anc": "Yok",
-      "batteryLife": "Kablolu",
-      "bluetoothVersion": "Kablolu (3.5mm)",
-      "driverSize": "8.6 mm",
-      "frequencyResponse": "10 Hz - 22.000 Hz",
-      "weightGrams": 11
-    },
-    "storeOffers": [
-      {
-        "id": "so-she1405-1",
-        "storeName": "Trendyol",
-        "storeLogoColor": "bg-amber-600",
-        "price": 605.2,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Orijinal"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 1200,
-        "url": "https://www.epey.com/kulaklik/philips-she1405.html"
-      }
-    ],
-    "priceHistory": [
-      {
-        "date": "2026-07-01",
-        "price": 650,
-        "store": "Trendyol"
-      },
-      {
-        "date": "2026-08-01",
-        "price": 605.2,
-        "store": "Trendyol"
-      }
-    ]
-  },
-  {
-    "id": "philips-she3555",
-    "slug": "philips-she3555",
-    "name": "Philips SHE3555 Mikrofonlu Renkli Kulak İçi Kulaklık",
-    "brand": "Philips",
-    "category": "headphones",
-    "basePrice": 499,
-    "currency": "TL",
-    "rating": 4.4,
-    "epeyScore": 82,
-    "reviewCount": 520,
-    "image": "/images/headphones/philips-she3555.jpg",
-    "images": [
-      "/images/headphones/philips-she3555.jpg"
-    ],
-    "releaseYear": 2023,
-    "highlights": [
-      "Kompakt Tasarım ve Güçlü Bas Çıkışı",
-      "Kablo Üstü Net Mikrofon",
-      "Yumuşak Ergonomik Kulak Uçları",
-      "Dayanıklı Kablo Yapısı"
-    ],
-    "specs": {
-      "formFactor": "Kulak İçi (Kablolu 3.5mm)",
-      "anc": "Yok",
-      "batteryLife": "Kablolu",
-      "bluetoothVersion": "Kablolu (3.5mm)",
-      "driverSize": "8.6 mm",
-      "frequencyResponse": "11 Hz - 22.000 Hz",
-      "weightGrams": 12
-    },
-    "storeOffers": [
-      {
-        "id": "so-she3555-1",
-        "storeName": "Hepsiburada",
-        "storeLogoColor": "bg-orange-500",
-        "price": 499,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Fırsat"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 1900,
-        "url": "https://www.epey.com/kulaklik/philips-she3555.html"
-      }
-    ],
-    "priceHistory": [
-      {
-        "date": "2026-07-01",
-        "price": 549,
-        "store": "Hepsiburada"
-      },
-      {
-        "date": "2026-08-01",
-        "price": 499,
-        "store": "Hepsiburada"
-      }
-    ]
-  },
-  {
-    "id": "philips-taue101",
-    "slug": "philips-taue101",
-    "name": "Philips TAUE101 Mikrofonlu Kulak İçi Kulaklık",
-    "brand": "Philips",
-    "category": "headphones",
-    "basePrice": 349,
-    "currency": "TL",
-    "rating": 4.3,
-    "epeyScore": 80,
-    "reviewCount": 650,
-    "image": "/images/headphones/philips-taue101.jpg",
-    "images": [
-      "/images/headphones/philips-taue101.jpg"
-    ],
-    "releaseYear": 2023,
-    "highlights": [
-      "14.2 mm Büyük Neodimyum Sürücüler",
-      "Bas Havalandırma Kanalları ile Derin Baslar",
-      "Kablo Üstü Dahili Mikrofon",
-      "Kulak Anatomisine Uygun Ergonomik Tasarım"
-    ],
-    "specs": {
-      "formFactor": "Kulak İçi (Yarı Açık 3.5mm)",
-      "anc": "Yok",
-      "batteryLife": "Kablolu",
-      "bluetoothVersion": "Kablolu (3.5mm)",
-      "driverSize": "14.2 mm",
-      "frequencyResponse": "20 Hz - 20.000 Hz",
-      "weightGrams": 13
-    },
-    "storeOffers": [
-      {
-        "id": "so-taue101-1",
-        "storeName": "Trendyol",
-        "storeLogoColor": "bg-amber-600",
-        "price": 349,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Fiyat/Performans"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 3200,
-        "url": "https://www.epey.com/kulaklik/philips-taue101.html"
-      }
-    ],
-    "priceHistory": [
-      {
-        "date": "2026-07-01",
-        "price": 399,
-        "store": "Trendyol"
-      },
-      {
-        "date": "2026-08-01",
-        "price": 349,
-        "store": "Trendyol"
       }
     ]
   },
