@@ -2,6 +2,2039 @@ import { Product } from './types';
 
 export const mockMonitors: Product[] = [
   {
+    "id": "lg-ultragear-27gx790b-b",
+    "slug": "lg-ultragear-27gx790b-b",
+    "name": "LG UltraGear 27GX790B-B 27 inç 540Hz 0.03ms WQHD OLED Gaming Monitör",
+    "brand": "LG",
+    "category": "monitors",
+    "rating": 5,
+    "epeyScore": 100,
+    "reviewCount": 320,
+    "basePrice": 44999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/monitors/lg-ultragear-27gx790b-b.jpg",
+    "images": [
+      "/images/monitors/lg-ultragear-27gx790b-b.jpg"
+    ],
+    "highlights": [
+      "Dünyanın İlk 540Hz OLED Gaming Paneli ile Akıl Almaz Akıcılık",
+      "26.5 inç WQHD (2560x1440) Çözünürlük ve 0.03ms (GtG) Tepki Süresi",
+      "DisplayHDR True Black 400 ve %98.5 DCI-P3 Renk Doğruluğu",
+      "VESA ClearMR 13000 & Dual Mode Teknolojisi"
+    ],
+    "specs": {
+      "screenSizeInches": 26.5,
+      "resolution": "2560x1440 (WQHD)",
+      "panelType": "OLED",
+      "refreshRateHz": 540,
+      "responseTimeMs": 0.03,
+      "syncTechnology": "AMD FreeSync Premium Pro / G-Sync Compatible",
+      "aspectRatio": "16:9",
+      "brightnessNits": 450,
+      "contrastRatio": "1500000:1",
+      "hdrSupport": "DisplayHDR True Black 400",
+      "ports": [
+        "2x HDMI 2.1",
+        "1x DisplayPort 2.1",
+        "USB Hub",
+        "DTS Headphone:X"
+      ]
+    },
+    "storeOffers": [
+      {
+        "id": "so-lg-ultragear-27gx790b-b-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "bg-orange-500",
+        "price": 44999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime",
+          "OLED / Gaming"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1200,
+        "url": "https://www.amazon.com.tr"
+      },
+      {
+        "id": "so-lg-ultragear-27gx790b-b-2",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-amber-500",
+        "price": 45899,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 890,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 47699,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 44999,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "philips-evnia-49m2c8900-00",
+    "slug": "philips-evnia-49m2c8900-00",
+    "name": "Philips Evnia 49M2C8900/00 49 inç 240Hz 0.03ms UW-DQHD OLED Kavisli Gaming Monitör",
+    "brand": "Philips",
+    "category": "monitors",
+    "rating": 4.9,
+    "epeyScore": 97,
+    "reviewCount": 280,
+    "basePrice": 57999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/monitors/philips-evnia-49m2c8900-00.jpg",
+    "images": [
+      "/images/monitors/philips-evnia-49m2c8900-00.jpg"
+    ],
+    "highlights": [
+      "48.9 inç 32:9 Super UltraWide (5120x1440) Kavisli OLED Panel (1800R)",
+      "240Hz Yenileme Hızı ve 0.03ms (GtG) Yanıt Süresi",
+      "Ambiglow 3 Yönlü Dinamik Arka Işıklandırma ve Bowers & Wilkins Ses Sistemi",
+      "90W Güç Dağıtımlı USB-C ve Dahili KVM Switch"
+    ],
+    "specs": {
+      "screenSizeInches": 48.9,
+      "resolution": "5120x1440 (UW-DQHD)",
+      "panelType": "QD-OLED (1800R Kavisli)",
+      "refreshRateHz": 240,
+      "responseTimeMs": 0.03,
+      "syncTechnology": "AMD FreeSync Premium Pro",
+      "aspectRatio": "32:9",
+      "brightnessNits": 1000,
+      "contrastRatio": "1500000:1",
+      "hdrSupport": "DisplayHDR True Black 400",
+      "ports": [
+        "1x USB-C (90W PD)",
+        "2x HDMI 2.1",
+        "1x DisplayPort 1.4",
+        "USB 3.2 Hub"
+      ]
+    },
+    "storeOffers": [
+      {
+        "id": "so-philips-evnia-49m2c8900-00-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "bg-orange-500",
+        "price": 57999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime",
+          "OLED / Gaming"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1200,
+        "url": "https://www.amazon.com.tr"
+      },
+      {
+        "id": "so-philips-evnia-49m2c8900-00-2",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-amber-500",
+        "price": 59159,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 890,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 61479,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 57999,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "asus-rog-swift-oled-pg27aqwp-w",
+    "slug": "asus-rog-swift-oled-pg27aqwp-w",
+    "name": "Asus ROG Swift OLED PG27AQWP-W 27 inç 540Hz 0.03ms WQHD OLED Monitör",
+    "brand": "Asus",
+    "category": "monitors",
+    "rating": 4.9,
+    "epeyScore": 96,
+    "reviewCount": 310,
+    "basePrice": 65399,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/monitors/asus-rog-swift-oled-pg27aqwp-w.jpg",
+    "images": [
+      "/images/monitors/asus-rog-swift-oled-pg27aqwp-w.jpg"
+    ],
+    "highlights": [
+      "540Hz Rekor Tazeleme Hızı ve 0.03ms GtG OLED Piksel Tepkisi",
+      "Beyaz ROG Özel Tasarımı ve Akıllı ROG Soğutma Bloğu",
+      "2560x1440 WQHD Çözünürlük ve %99 DCI-P3 Renk Gamutu"
+    ],
+    "specs": {
+      "screenSizeInches": 26.5,
+      "resolution": "2560x1440 (WQHD)",
+      "panelType": "OLED (WOLED 3. Nesil)",
+      "refreshRateHz": 540,
+      "responseTimeMs": 0.03,
+      "syncTechnology": "G-Sync Compatible / FreeSync Premium Pro",
+      "aspectRatio": "16:9",
+      "brightnessNits": 1300,
+      "contrastRatio": "1500000:1",
+      "hdrSupport": "DisplayHDR True Black 400 / HDR10",
+      "ports": [
+        "2x HDMI 2.1",
+        "1x DisplayPort 1.4 (DSC)",
+        "USB Hub"
+      ]
+    },
+    "storeOffers": [
+      {
+        "id": "so-asus-rog-swift-oled-pg27aqwp-w-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "bg-orange-500",
+        "price": 65399,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime",
+          "OLED / Gaming"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1200,
+        "url": "https://www.amazon.com.tr"
+      },
+      {
+        "id": "so-asus-rog-swift-oled-pg27aqwp-w-2",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-amber-500",
+        "price": 66707,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 890,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 69323,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 65399,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "lg-ultragear-45gx950a-b",
+    "slug": "lg-ultragear-45gx950a-b",
+    "name": "LG UltraGear 45GX950A-B 45 inç 165Hz 5K UWUHD Kavisli OLED Monitör",
+    "brand": "LG",
+    "category": "monitors",
+    "rating": 4.9,
+    "epeyScore": 96,
+    "reviewCount": 210,
+    "basePrice": 90569,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/monitors/lg-ultragear-45gx950a-b.jpg",
+    "images": [
+      "/images/monitors/lg-ultragear-45gx950a-b.jpg"
+    ],
+    "highlights": [
+      "44.5 inç 21:9 UltraWide 5K (5120x2160) Çözünürlük ve 800R Agresif Kavis",
+      "165Hz Yenileme Hızı ve 0.03ms Tepki Süresi",
+      "DisplayPort 2.1 ve USB-C 90W Güç Dağıtımı"
+    ],
+    "specs": {
+      "screenSizeInches": 44.5,
+      "resolution": "5120x2160 (5K UWUHD)",
+      "panelType": "OLED (800R Kavisli)",
+      "refreshRateHz": 165,
+      "responseTimeMs": 0.03,
+      "syncTechnology": "G-Sync Compatible / FreeSync Premium Pro",
+      "aspectRatio": "21:9",
+      "brightnessNits": 1300,
+      "contrastRatio": "1500000:1",
+      "hdrSupport": "DisplayHDR True Black 400",
+      "ports": [
+        "1x USB-C (90W PD)",
+        "2x HDMI 2.1",
+        "1x DisplayPort 2.1"
+      ]
+    },
+    "storeOffers": [
+      {
+        "id": "so-lg-ultragear-45gx950a-b-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "bg-orange-500",
+        "price": 90569,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime",
+          "OLED / Gaming"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1200,
+        "url": "https://www.amazon.com.tr"
+      },
+      {
+        "id": "so-lg-ultragear-45gx950a-b-2",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-amber-500",
+        "price": 92380,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 890,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 96003,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 90569,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "msi-mpg-491cqpx-qd-oled",
+    "slug": "msi-mpg-491cqpx-qd-oled",
+    "name": "MSI MPG 491CQPX QD-OLED 49 inç 240Hz 0.03ms UW-DQHD Kavisli Monitör",
+    "brand": "MSI",
+    "category": "monitors",
+    "rating": 4.9,
+    "epeyScore": 96,
+    "reviewCount": 290,
+    "basePrice": 54649,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/monitors/msi-mpg-491cqpx-qd-oled.jpg",
+    "images": [
+      "/images/monitors/msi-mpg-491cqpx-qd-oled.jpg"
+    ],
+    "highlights": [
+      "49 inç 32:9 Super UltraWide (5120x1440) 1800R Yeni Nesil QD-OLED Panel",
+      "240Hz Hız ve 0.03ms (GtG) Tepki Süresi ile Eşsiz Akıcılık",
+      "MSI OLED Care 2.0 ile Yanma Koruması ve Fansız Grafen Soğutucu",
+      "98W Type-C Güç İletimi ve Dahili KVM Switch"
+    ],
+    "specs": {
+      "screenSizeInches": 49,
+      "resolution": "5120x1440 (UW-DQHD)",
+      "panelType": "QD-OLED (1800R Kavisli)",
+      "refreshRateHz": 240,
+      "responseTimeMs": 0.03,
+      "syncTechnology": "AMD FreeSync Premium Pro",
+      "aspectRatio": "32:9",
+      "brightnessNits": 1000,
+      "contrastRatio": "1500000:1",
+      "hdrSupport": "VESA DisplayHDR True Black 400",
+      "ports": [
+        "1x USB-C (98W PD)",
+        "2x HDMI 2.1",
+        "1x DisplayPort 1.4a",
+        "USB Hub"
+      ]
+    },
+    "storeOffers": [
+      {
+        "id": "so-msi-mpg-491cqpx-qd-oled-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "bg-orange-500",
+        "price": 54649,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime",
+          "OLED / Gaming"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1200,
+        "url": "https://www.amazon.com.tr"
+      },
+      {
+        "id": "so-msi-mpg-491cqpx-qd-oled-2",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-amber-500",
+        "price": 55742,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 890,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 57928,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 54649,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "gigabyte-aorus-fo32u2p",
+    "slug": "gigabyte-aorus-fo32u2p",
+    "name": "Gigabyte AORUS FO32U2P 32 inç 240Hz 0.03ms 4K UHD QD-OLED DP 2.1 Gaming Monitör",
+    "brand": "Gigabyte",
+    "category": "monitors",
+    "rating": 4.9,
+    "epeyScore": 96,
+    "reviewCount": 390,
+    "basePrice": 41999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/monitors/gigabyte-aorus-fo32u2p.jpg",
+    "images": [
+      "/images/monitors/gigabyte-aorus-fo32u2p.jpg"
+    ],
+    "highlights": [
+      "Dünyanın İlk DisplayPort 2.1 UHBR20 (80 Gbps) Destekli 4K 240Hz QD-OLED Monitörü",
+      "31.5 inç 3840x2160 4K UHD QD-OLED Panel ve 0.03ms Tepki Süresi",
+      "Daisy Chain Papatya Dizilimi Desteği ve Özel Taktiksel Oyun Özellikleri (Night Vision, Resolution Switch 24\")",
+      "65W USB-C PD Şarj ve Dahili KVM Switch"
+    ],
+    "specs": {
+      "screenSizeInches": 31.5,
+      "resolution": "3840x2160 (4K UHD)",
+      "panelType": "QD-OLED (Samsung 3. Gen)",
+      "refreshRateHz": 240,
+      "responseTimeMs": 0.03,
+      "syncTechnology": "AMD FreeSync Premium Pro / VESA ClearMR 13000",
+      "aspectRatio": "16:9",
+      "brightnessNits": 1000,
+      "contrastRatio": "1500000:1",
+      "hdrSupport": "DisplayHDR True Black 400",
+      "ports": [
+        "1x DisplayPort 2.1 (UHBR20)",
+        "1x Mini DP 2.1",
+        "2x HDMI 2.1",
+        "1x USB-C (65W PD)"
+      ]
+    },
+    "storeOffers": [
+      {
+        "id": "so-gigabyte-aorus-fo32u2p-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "bg-orange-500",
+        "price": 41999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime",
+          "OLED / Gaming"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1200,
+        "url": "https://www.amazon.com.tr"
+      },
+      {
+        "id": "so-gigabyte-aorus-fo32u2p-2",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-amber-500",
+        "price": 42839,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 890,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 44519,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 41999,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "gigabyte-aorus-fo27q5p",
+    "slug": "gigabyte-aorus-fo27q5p",
+    "name": "Gigabyte AORUS FO27Q5P 27 inç 500Hz 0.03ms WQHD QD-OLED Monitör",
+    "brand": "Gigabyte",
+    "category": "monitors",
+    "rating": 4.8,
+    "epeyScore": 96,
+    "reviewCount": 260,
+    "basePrice": 48470,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/monitors/gigabyte-aorus-fo27q5p.jpg",
+    "images": [
+      "/images/monitors/gigabyte-aorus-fo27q5p.jpg"
+    ],
+    "highlights": [
+      "27 inç 2560x1440 WQHD QD-OLED Panel ile 500Hz Akıl Almaz E-Spor Hızı",
+      "DisplayPort 2.1 ve 0.03ms Ultra Hızlı Piksel Yanıtı",
+      "OLED Care AI ile Sıfır Yanma Riski"
+    ],
+    "specs": {
+      "screenSizeInches": 27,
+      "resolution": "2560x1440 (WQHD)",
+      "panelType": "QD-OLED",
+      "refreshRateHz": 500,
+      "responseTimeMs": 0.03,
+      "syncTechnology": "FreeSync Premium Pro",
+      "aspectRatio": "16:9",
+      "brightnessNits": 1000,
+      "contrastRatio": "1500000:1",
+      "hdrSupport": "DisplayHDR True Black 400",
+      "ports": [
+        "DisplayPort 2.1",
+        "HDMI 2.1",
+        "USB-C"
+      ]
+    },
+    "storeOffers": [
+      {
+        "id": "so-gigabyte-aorus-fo27q5p-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "bg-orange-500",
+        "price": 48470,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime",
+          "OLED / Gaming"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1200,
+        "url": "https://www.amazon.com.tr"
+      },
+      {
+        "id": "so-gigabyte-aorus-fo27q5p-2",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-amber-500",
+        "price": 49439,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 890,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 51378,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 48470,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "asus-rog-swift-oled-pg27aqwp-g-edition-20",
+    "slug": "asus-rog-swift-oled-pg27aqwp-g-edition-20",
+    "name": "Asus ROG Swift OLED PG27AQWP-G Edition 20 27 inç 540Hz OLED Monitör",
+    "brand": "Asus",
+    "category": "monitors",
+    "rating": 4.9,
+    "epeyScore": 96,
+    "reviewCount": 190,
+    "basePrice": 79515,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/monitors/asus-rog-swift-oled-pg27aqwp-g-edition-20.jpg",
+    "images": [
+      "/images/monitors/asus-rog-swift-oled-pg27aqwp-g-edition-20.jpg"
+    ],
+    "highlights": [
+      "20. Yıl Özel Sınırlı Üretim ROG Edition Tasarımı",
+      "540Hz WOLED Panel ve 0.03ms Tepki Süresi",
+      "NVIDIA G-Sync Pulsar Teknolojisi"
+    ],
+    "specs": {
+      "screenSizeInches": 26.5,
+      "resolution": "2560x1440 (WQHD)",
+      "panelType": "OLED",
+      "refreshRateHz": 540,
+      "responseTimeMs": 0.03,
+      "syncTechnology": "G-Sync Pulsar / FreeSync",
+      "aspectRatio": "16:9",
+      "brightnessNits": 1300,
+      "contrastRatio": "1500000:1",
+      "hdrSupport": "DisplayHDR True Black 400"
+    },
+    "storeOffers": [
+      {
+        "id": "so-asus-rog-swift-oled-pg27aqwp-g-edition-20-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "bg-orange-500",
+        "price": 79515,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime",
+          "OLED / Gaming"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1200,
+        "url": "https://www.amazon.com.tr"
+      },
+      {
+        "id": "so-asus-rog-swift-oled-pg27aqwp-g-edition-20-2",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-amber-500",
+        "price": 81105,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 890,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 84286,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 79515,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "asus-rog-swift-oled-pg32ucdp",
+    "slug": "asus-rog-swift-oled-pg32ucdp",
+    "name": "Asus ROG Swift OLED PG32UCDP 32 inç Dual-Mode (4K 240Hz / FHD 480Hz) WOLED Gaming Monitör",
+    "brand": "Asus",
+    "category": "monitors",
+    "rating": 4.9,
+    "epeyScore": 95,
+    "reviewCount": 450,
+    "basePrice": 70500,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/monitors/asus-rog-swift-oled-pg32ucdp.jpg",
+    "images": [
+      "/images/monitors/asus-rog-swift-oled-pg32ucdp.jpg"
+    ],
+    "highlights": [
+      "Tek Tuşla Çift Mod Geçişi: 4K UHD @ 240Hz (Görsel Şölen) veya FHD @ 480Hz (Rekabetçi E-Spor)",
+      "31.5 inç 3. Nesil WOLED Panel, MLA+ Teknolojisi ve 1300 Nit Tepe Parlaklık",
+      "Özel Gelişmiş Pasif Soğutucu ve Arka Kapakta Grafen Film (0 dB Sessiz)",
+      "90W USB-C PD, HDMI 2.1, DisplayPort 1.4 (DSC) ve ROG Akıllı Işıklandırma"
+    ],
+    "specs": {
+      "screenSizeInches": 31.5,
+      "resolution": "3840x2160 (4K UHD) / Dual Mode FHD",
+      "panelType": "WOLED (MLA+ 3. Gen)",
+      "refreshRateHz": 240,
+      "responseTimeMs": 0.03,
+      "syncTechnology": "G-Sync Compatible / FreeSync Premium Pro",
+      "aspectRatio": "16:9",
+      "brightnessNits": 1300,
+      "contrastRatio": "1500000:1",
+      "hdrSupport": "VESA DisplayHDR True Black 400, Dolby Vision, HDR10",
+      "ports": [
+        "1x USB-C (90W PD)",
+        "2x HDMI 2.1",
+        "1x DisplayPort 1.4",
+        "3x USB 3.2 Gen 1"
+      ]
+    },
+    "storeOffers": [
+      {
+        "id": "so-asus-rog-swift-oled-pg32ucdp-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "bg-orange-500",
+        "price": 70500,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime",
+          "OLED / Gaming"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1200,
+        "url": "https://www.amazon.com.tr"
+      },
+      {
+        "id": "so-asus-rog-swift-oled-pg32ucdp-2",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-amber-500",
+        "price": 71910,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 890,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 74730,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 70500,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "msi-mpg-341cqr-qd-oled-x36",
+    "slug": "msi-mpg-341cqr-qd-oled-x36",
+    "name": "MSI MPG 341CQR QD-OLED X36 34 inç 360Hz 0.03ms UWQHD Kavisli Monitör",
+    "brand": "MSI",
+    "category": "monitors",
+    "rating": 4.8,
+    "epeyScore": 95,
+    "reviewCount": 320,
+    "basePrice": 64339,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/monitors/msi-mpg-341cqr-qd-oled-x36.jpg",
+    "images": [
+      "/images/monitors/msi-mpg-341cqr-qd-oled-x36.jpg"
+    ],
+    "highlights": [
+      "34 inç 21:9 UltraWide 3440x1440 QD-OLED Panel ile 360Hz Hız",
+      "1800R Kavis ve 0.03ms (GtG) E-Spor Tepki Süresi",
+      "98W Type-C PD Şarj ve Dahili KVM Switch"
+    ],
+    "specs": {
+      "screenSizeInches": 34,
+      "resolution": "3440x1440 (UWQHD)",
+      "panelType": "QD-OLED (1800R Kavisli)",
+      "refreshRateHz": 360,
+      "responseTimeMs": 0.03,
+      "syncTechnology": "AMD FreeSync Premium Pro",
+      "aspectRatio": "21:9",
+      "brightnessNits": 1000,
+      "contrastRatio": "1500000:1",
+      "hdrSupport": "DisplayHDR True Black 400",
+      "ports": [
+        "1x USB-C (98W PD)",
+        "2x HDMI 2.1",
+        "1x DisplayPort 1.4a"
+      ]
+    },
+    "storeOffers": [
+      {
+        "id": "so-msi-mpg-341cqr-qd-oled-x36-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "bg-orange-500",
+        "price": 64339,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime",
+          "OLED / Gaming"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1200,
+        "url": "https://www.amazon.com.tr"
+      },
+      {
+        "id": "so-msi-mpg-341cqr-qd-oled-x36-2",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-amber-500",
+        "price": 65626,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 890,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 68199,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 64339,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "asus-rog-strix-oled-xg32ucwmg",
+    "slug": "asus-rog-strix-oled-xg32ucwmg",
+    "name": "Asus ROG Strix OLED XG32UCWMG 32 inç 240Hz 4K WOLED Gaming Monitör",
+    "brand": "Asus",
+    "category": "monitors",
+    "rating": 4.8,
+    "epeyScore": 94,
+    "reviewCount": 290,
+    "basePrice": 53997.02,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/monitors/asus-rog-strix-oled-xg32ucwmg.jpg",
+    "images": [
+      "/images/monitors/asus-rog-strix-oled-xg32ucwmg.jpg"
+    ],
+    "highlights": [
+      "31.5 inç 4K UHD (3840x2160) WOLED Panel ve 240Hz Yenileme Hızı",
+      "Özel Mat Parlama Önleyici Yüzey ile Parlak Odalarda Bile Derin Siyahlar",
+      "G-Sync Uyumlu ve ROG OLED Care+"
+    ],
+    "specs": {
+      "screenSizeInches": 31.5,
+      "resolution": "3840x2160 (4K UHD)",
+      "panelType": "WOLED",
+      "refreshRateHz": 240,
+      "responseTimeMs": 0.03,
+      "syncTechnology": "G-Sync Compatible / FreeSync",
+      "aspectRatio": "16:9",
+      "brightnessNits": 1300,
+      "contrastRatio": "1500000:1",
+      "hdrSupport": "DisplayHDR True Black 400"
+    },
+    "storeOffers": [
+      {
+        "id": "so-asus-rog-strix-oled-xg32ucwmg-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "bg-orange-500",
+        "price": 53997.02,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime",
+          "OLED / Gaming"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1200,
+        "url": "https://www.amazon.com.tr"
+      },
+      {
+        "id": "so-asus-rog-strix-oled-xg32ucwmg-2",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-amber-500",
+        "price": 55077,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 890,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 57237,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 53997.02,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "asus-rog-swift-oled-gen3-pg32ucdm3",
+    "slug": "asus-rog-swift-oled-gen3-pg32ucdm3",
+    "name": "Asus ROG Swift OLED Gen3 (PG32UCDM3) 32 inç 240Hz 4K QD-OLED Monitör",
+    "brand": "Asus",
+    "category": "monitors",
+    "rating": 4.8,
+    "epeyScore": 94,
+    "reviewCount": 380,
+    "basePrice": 78999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/monitors/asus-rog-swift-oled-gen3-pg32ucdm3.jpg",
+    "images": [
+      "/images/monitors/asus-rog-swift-oled-gen3-pg32ucdm3.jpg"
+    ],
+    "highlights": [
+      "3. Nesil QD-OLED Teknolojisi ile Üstün Metin Netliği ve Canlı Renkler",
+      "Dolby Vision ve DisplayHDR True Black 400",
+      "90W Type-C ve Dahili KVM"
+    ],
+    "specs": {
+      "screenSizeInches": 31.5,
+      "resolution": "3840x2160 (4K UHD)",
+      "panelType": "QD-OLED",
+      "refreshRateHz": 240,
+      "responseTimeMs": 0.03,
+      "syncTechnology": "G-Sync Compatible",
+      "aspectRatio": "16:9",
+      "brightnessNits": 1000,
+      "contrastRatio": "1500000:1",
+      "hdrSupport": "Dolby Vision, DisplayHDR True Black 400"
+    },
+    "storeOffers": [
+      {
+        "id": "so-asus-rog-swift-oled-gen3-pg32ucdm3-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "bg-orange-500",
+        "price": 78999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime",
+          "OLED / Gaming"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1200,
+        "url": "https://www.amazon.com.tr"
+      },
+      {
+        "id": "so-asus-rog-swift-oled-gen3-pg32ucdm3-2",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-amber-500",
+        "price": 80579,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 890,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 83739,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 78999,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "philips-evnia-49m2c8900l-00",
+    "slug": "philips-evnia-49m2c8900l-00",
+    "name": "Philips Evnia 49M2C8900L/00 49 inç 144Hz UW-DQHD Kavisli OLED Monitör",
+    "brand": "Philips",
+    "category": "monitors",
+    "rating": 4.7,
+    "epeyScore": 94,
+    "reviewCount": 220,
+    "basePrice": 47999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/monitors/philips-evnia-49m2c8900l-00.jpg",
+    "images": [
+      "/images/monitors/philips-evnia-49m2c8900l-00.jpg"
+    ],
+    "highlights": [
+      "48.9 inç 32:9 Super UltraWide (5120x1440) OLED Panel",
+      "144Hz Yenileme Hızı ve Ambiglow Işıklandırma",
+      "USB-C Tek Kablo Bağlantısı"
+    ],
+    "specs": {
+      "screenSizeInches": 48.9,
+      "resolution": "5120x1440 (UW-DQHD)",
+      "panelType": "OLED (1800R Kavisli)",
+      "refreshRateHz": 144,
+      "responseTimeMs": 0.03,
+      "aspectRatio": "32:9",
+      "brightnessNits": 1000,
+      "contrastRatio": "1500000:1",
+      "hdrSupport": "DisplayHDR True Black 400"
+    },
+    "storeOffers": [
+      {
+        "id": "so-philips-evnia-49m2c8900l-00-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "bg-orange-500",
+        "price": 47999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime",
+          "OLED / Gaming"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1200,
+        "url": "https://www.amazon.com.tr"
+      },
+      {
+        "id": "so-philips-evnia-49m2c8900l-00-2",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-amber-500",
+        "price": 48959,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 890,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 50879,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 47999,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "tcl-32x3a",
+    "slug": "tcl-32x3a",
+    "name": "TCL 32X3A 32 inç 240Hz 4K QD-OLED Gaming Monitör",
+    "brand": "TCL",
+    "category": "monitors",
+    "rating": 4.7,
+    "epeyScore": 94,
+    "reviewCount": 180,
+    "basePrice": 64999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/monitors/tcl-32x3a.jpg",
+    "images": [
+      "/images/monitors/tcl-32x3a.jpg"
+    ],
+    "highlights": [
+      "31.5 inç 4K UHD 240Hz QD-OLED Panel",
+      "0.03ms Tepki Süresi ve %99 DCI-P3 Renk Yelpazesi",
+      "Type-C PD Desteği"
+    ],
+    "specs": {
+      "screenSizeInches": 31.5,
+      "resolution": "3840x2160 (4K UHD)",
+      "panelType": "QD-OLED",
+      "refreshRateHz": 240,
+      "responseTimeMs": 0.03,
+      "aspectRatio": "16:9",
+      "brightnessNits": 1000,
+      "contrastRatio": "1500000:1",
+      "hdrSupport": "DisplayHDR True Black 400"
+    },
+    "storeOffers": [
+      {
+        "id": "so-tcl-32x3a-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "bg-orange-500",
+        "price": 64999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime",
+          "OLED / Gaming"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1200,
+        "url": "https://www.amazon.com.tr"
+      },
+      {
+        "id": "so-tcl-32x3a-2",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-amber-500",
+        "price": 66299,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 890,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 68899,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 64999,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "msi-pro-max-271upxw12g",
+    "slug": "msi-pro-max-271upxw12g",
+    "name": "MSI Pro Max 271UPXW12G 27 inç 120Hz 4K QD-OLED Profesyonel Monitör",
+    "brand": "MSI",
+    "category": "monitors",
+    "rating": 4.8,
+    "epeyScore": 94,
+    "reviewCount": 230,
+    "basePrice": 43949,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/monitors/msi-pro-max-271upxw12g.jpg",
+    "images": [
+      "/images/monitors/msi-pro-max-271upxw12g.jpg"
+    ],
+    "highlights": [
+      "26.5 inç Kompakt 4K UHD (3840x2160) QD-OLED Panel ile Ultra Yüksek Piksel Yoğunluğu (166 PPI)",
+      "120Hz Akıcı Yenileme ve Profesyonel İçerik Üretimi Desteği",
+      "Fansız Grafen Soğutma ve MSI OLED Care 2.0"
+    ],
+    "specs": {
+      "screenSizeInches": 26.5,
+      "resolution": "3840x2160 (4K UHD)",
+      "panelType": "QD-OLED",
+      "refreshRateHz": 120,
+      "responseTimeMs": 0.03,
+      "aspectRatio": "16:9",
+      "brightnessNits": 1000,
+      "contrastRatio": "1500000:1",
+      "hdrSupport": "DisplayHDR True Black 400"
+    },
+    "storeOffers": [
+      {
+        "id": "so-msi-pro-max-271upxw12g-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "bg-orange-500",
+        "price": 43949,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime",
+          "OLED / Gaming"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1200,
+        "url": "https://www.amazon.com.tr"
+      },
+      {
+        "id": "so-msi-pro-max-271upxw12g-2",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-amber-500",
+        "price": 44828,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 890,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 46586,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 43949,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "lg-ultragear-32gs95uv-b",
+    "slug": "lg-ultragear-32gs95uv-b",
+    "name": "LG UltraGear 32GS95UV-B 32 inç Dual Mode (4K 240Hz / FHD 480Hz) OLED Gaming Monitör",
+    "brand": "LG",
+    "category": "monitors",
+    "rating": 4.8,
+    "epeyScore": 94,
+    "reviewCount": 480,
+    "basePrice": 54999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/monitors/lg-ultragear-32gs95uv-b.jpg",
+    "images": [
+      "/images/monitors/lg-ultragear-32gs95uv-b.jpg"
+    ],
+    "highlights": [
+      "VESA Sertifikalı Dual-Mode: 4K 240Hz ve FHD 480Hz Anında Geçiş",
+      "Pixel Sound Dahili Ön Yüz Hoparlör Teknolojisi",
+      "DisplayHDR True Black 400 ve 0.03ms Tepki Süresi"
+    ],
+    "specs": {
+      "screenSizeInches": 31.5,
+      "resolution": "3840x2160 (4K UHD) / Dual Mode FHD",
+      "panelType": "OLED",
+      "refreshRateHz": 240,
+      "responseTimeMs": 0.03,
+      "syncTechnology": "G-Sync Compatible / FreeSync Premium Pro",
+      "aspectRatio": "16:9",
+      "brightnessNits": 1300,
+      "contrastRatio": "1500000:1",
+      "hdrSupport": "DisplayHDR True Black 400"
+    },
+    "storeOffers": [
+      {
+        "id": "so-lg-ultragear-32gs95uv-b-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "bg-orange-500",
+        "price": 54999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime",
+          "OLED / Gaming"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1200,
+        "url": "https://www.amazon.com.tr"
+      },
+      {
+        "id": "so-lg-ultragear-32gs95uv-b-2",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-amber-500",
+        "price": 56099,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 890,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 58299,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 54999,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "msi-mpg-491cqp-qd-oled",
+    "slug": "msi-mpg-491cqp-qd-oled",
+    "name": "MSI MPG 491CQP QD-OLED 49 inç 144Hz 0.03ms UW-DQHD Kavisli Monitör",
+    "brand": "MSI",
+    "category": "monitors",
+    "rating": 4.8,
+    "epeyScore": 93,
+    "reviewCount": 310,
+    "basePrice": 52879,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/monitors/msi-mpg-491cqp-qd-oled.jpg",
+    "images": [
+      "/images/monitors/msi-mpg-491cqp-qd-oled.jpg"
+    ],
+    "highlights": [
+      "49 inç 32:9 (5120x1440) 1800R Kavisli QD-OLED Ekran",
+      "144Hz Yenileme Hızı ve 0.03ms Piksel Tepkisi",
+      "90W Type-C PD ve Dahili KVM"
+    ],
+    "specs": {
+      "screenSizeInches": 49,
+      "resolution": "5120x1440 (UW-DQHD)",
+      "panelType": "QD-OLED (1800R Kavisli)",
+      "refreshRateHz": 144,
+      "responseTimeMs": 0.03,
+      "syncTechnology": "FreeSync Premium Pro",
+      "aspectRatio": "32:9",
+      "brightnessNits": 1000,
+      "contrastRatio": "1500000:1",
+      "hdrSupport": "DisplayHDR True Black 400"
+    },
+    "storeOffers": [
+      {
+        "id": "so-msi-mpg-491cqp-qd-oled-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "bg-orange-500",
+        "price": 52879,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime",
+          "OLED / Gaming"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1200,
+        "url": "https://www.amazon.com.tr"
+      },
+      {
+        "id": "so-msi-mpg-491cqp-qd-oled-2",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-amber-500",
+        "price": 53937,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 890,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 56052,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 52879,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "msi-mpg-271qr-qd-oled-x50",
+    "slug": "msi-mpg-271qr-qd-oled-x50",
+    "name": "MSI MPG 271QR QD-OLED X50 27 inç 500Hz 0.03ms WQHD Gaming Monitör",
+    "brand": "MSI",
+    "category": "monitors",
+    "rating": 4.8,
+    "epeyScore": 93,
+    "reviewCount": 340,
+    "basePrice": 42898.99,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/monitors/msi-mpg-271qr-qd-oled-x50.jpg",
+    "images": [
+      "/images/monitors/msi-mpg-271qr-qd-oled-x50.jpg"
+    ],
+    "highlights": [
+      "26.5 inç 2560x1440 WQHD QD-OLED Panel ile 500Hz E-Spor Hızı",
+      "0.03ms Tepki Süresi ve DisplayHDR True Black 400",
+      "KVM Switch ve 90W Type-C"
+    ],
+    "specs": {
+      "screenSizeInches": 26.5,
+      "resolution": "2560x1440 (WQHD)",
+      "panelType": "QD-OLED",
+      "refreshRateHz": 500,
+      "responseTimeMs": 0.03,
+      "syncTechnology": "FreeSync Premium Pro",
+      "aspectRatio": "16:9",
+      "brightnessNits": 1000,
+      "contrastRatio": "1500000:1",
+      "hdrSupport": "DisplayHDR True Black 400"
+    },
+    "storeOffers": [
+      {
+        "id": "so-msi-mpg-271qr-qd-oled-x50-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "bg-orange-500",
+        "price": 42898.99,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime",
+          "OLED / Gaming"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1200,
+        "url": "https://www.amazon.com.tr"
+      },
+      {
+        "id": "so-msi-mpg-271qr-qd-oled-x50-2",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-amber-500",
+        "price": 43757,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 890,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 45473,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 42898.99,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "benq-ex321uz",
+    "slug": "benq-ex321uz",
+    "name": "BenQ MOBIUZ EX321UZ 32 inç 240Hz 4K UHD QD-OLED Gaming Monitör",
+    "brand": "BenQ",
+    "category": "monitors",
+    "rating": 4.8,
+    "epeyScore": 93,
+    "reviewCount": 260,
+    "basePrice": 69119.04,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/monitors/benq-ex321uz.jpg",
+    "images": [
+      "/images/monitors/benq-ex321uz.jpg"
+    ],
+    "highlights": [
+      "31.5 inç 4K UHD 240Hz QD-OLED Panel",
+      "eARC 7.1 Kanal Ses Çıkışı ve Dahili treVolo Ses Sistemi",
+      "BenQ Color Shuttle Renk Profili Paylaşımı"
+    ],
+    "specs": {
+      "screenSizeInches": 31.5,
+      "resolution": "3840x2160 (4K UHD)",
+      "panelType": "QD-OLED",
+      "refreshRateHz": 240,
+      "responseTimeMs": 0.03,
+      "aspectRatio": "16:9",
+      "brightnessNits": 1000,
+      "contrastRatio": "1500000:1",
+      "hdrSupport": "DisplayHDR True Black 400",
+      "ports": [
+        "HDMI 2.1 (eARC)",
+        "DisplayPort 2.1",
+        "USB-C (65W)"
+      ]
+    },
+    "storeOffers": [
+      {
+        "id": "so-benq-ex321uz-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "bg-orange-500",
+        "price": 69119.04,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime",
+          "OLED / Gaming"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1200,
+        "url": "https://www.amazon.com.tr"
+      },
+      {
+        "id": "so-benq-ex321uz-2",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-amber-500",
+        "price": 70501,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 890,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 73266,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 69119.04,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "asus-rog-strix-oled-xg27ucdmg",
+    "slug": "asus-rog-strix-oled-xg27ucdmg",
+    "name": "Asus ROG Strix OLED XG27UCDMG 27 inç 240Hz 4K WOLED Monitör",
+    "brand": "Asus",
+    "category": "monitors",
+    "rating": 4.8,
+    "epeyScore": 93,
+    "reviewCount": 310,
+    "basePrice": 45999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/monitors/asus-rog-strix-oled-xg27ucdmg.jpg",
+    "images": [
+      "/images/monitors/asus-rog-strix-oled-xg27ucdmg.jpg"
+    ],
+    "highlights": [
+      "26.5 inç 4K UHD 240Hz WOLED Panel",
+      "0.03ms Tepki Süresi ve Anti-Glare Parlama Önleyici Yüzey",
+      "DisplayPort 1.4 ve HDMI 2.1"
+    ],
+    "specs": {
+      "screenSizeInches": 26.5,
+      "resolution": "3840x2160 (4K UHD)",
+      "panelType": "WOLED",
+      "refreshRateHz": 240,
+      "responseTimeMs": 0.03,
+      "aspectRatio": "16:9",
+      "brightnessNits": 1300,
+      "contrastRatio": "1500000:1",
+      "hdrSupport": "DisplayHDR True Black 400"
+    },
+    "storeOffers": [
+      {
+        "id": "so-asus-rog-strix-oled-xg27ucdmg-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "bg-orange-500",
+        "price": 45999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime",
+          "OLED / Gaming"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1200,
+        "url": "https://www.amazon.com.tr"
+      },
+      {
+        "id": "so-asus-rog-strix-oled-xg27ucdmg-2",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-amber-500",
+        "price": 46919,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 890,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 48759,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 45999,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "asus-rog-strix-oled-xg32ucwg",
+    "slug": "asus-rog-strix-oled-xg32ucwg",
+    "name": "Asus ROG Strix OLED XG32UCWG 32 inç 165Hz 4K WOLED Monitör",
+    "brand": "Asus",
+    "category": "monitors",
+    "rating": 4.7,
+    "epeyScore": 92,
+    "reviewCount": 270,
+    "basePrice": 45143.01,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/monitors/asus-rog-strix-oled-xg32ucwg.jpg",
+    "images": [
+      "/images/monitors/asus-rog-strix-oled-xg32ucwg.jpg"
+    ],
+    "highlights": [
+      "31.5 inç 4K UHD 165Hz WOLED Panel",
+      "0.03ms Tepki Süresi ve ROG Özel Pasif Soğutma Bloğu"
+    ],
+    "specs": {
+      "screenSizeInches": 31.5,
+      "resolution": "3840x2160 (4K UHD)",
+      "panelType": "WOLED",
+      "refreshRateHz": 165,
+      "responseTimeMs": 0.03,
+      "aspectRatio": "16:9",
+      "brightnessNits": 1300,
+      "contrastRatio": "1500000:1",
+      "hdrSupport": "DisplayHDR True Black 400"
+    },
+    "storeOffers": [
+      {
+        "id": "so-asus-rog-strix-oled-xg32ucwg-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "bg-orange-500",
+        "price": 45143.01,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime",
+          "OLED / Gaming"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1200,
+        "url": "https://www.amazon.com.tr"
+      },
+      {
+        "id": "so-asus-rog-strix-oled-xg32ucwg-2",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-amber-500",
+        "price": 46046,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 890,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 47852,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 45143.01,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "gigabyte-aorus-fo32u2",
+    "slug": "gigabyte-aorus-fo32u2",
+    "name": "Gigabyte AORUS FO32U2 32 inç 240Hz 0.03ms 4K QD-OLED Monitör",
+    "brand": "Gigabyte",
+    "category": "monitors",
+    "rating": 4.8,
+    "epeyScore": 92,
+    "reviewCount": 330,
+    "basePrice": 40952.88,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/monitors/gigabyte-aorus-fo32u2.jpg",
+    "images": [
+      "/images/monitors/gigabyte-aorus-fo32u2.jpg"
+    ],
+    "highlights": [
+      "31.5 inç 4K UHD 240Hz QD-OLED Panel",
+      "0.03ms Tepki Süresi, HDMI 2.1 ve USB-C",
+      "OLED Care AI ile Yanma Önleyici Koruma"
+    ],
+    "specs": {
+      "screenSizeInches": 31.5,
+      "resolution": "3840x2160 (4K UHD)",
+      "panelType": "QD-OLED",
+      "refreshRateHz": 240,
+      "responseTimeMs": 0.03,
+      "aspectRatio": "16:9",
+      "brightnessNits": 1000,
+      "contrastRatio": "1500000:1",
+      "hdrSupport": "DisplayHDR True Black 400"
+    },
+    "storeOffers": [
+      {
+        "id": "so-gigabyte-aorus-fo32u2-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "bg-orange-500",
+        "price": 40952.88,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime",
+          "OLED / Gaming"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1200,
+        "url": "https://www.amazon.com.tr"
+      },
+      {
+        "id": "so-gigabyte-aorus-fo32u2-2",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-amber-500",
+        "price": 41772,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 890,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 43410,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 40952.88,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "aoc-agon-pro-ag326uzd2",
+    "slug": "aoc-agon-pro-ag326uzd2",
+    "name": "AOC AGON PRO AG326UZD2 32 inç 240Hz 4K QD-OLED Gaming Monitör",
+    "brand": "AOC",
+    "category": "monitors",
+    "rating": 4.7,
+    "epeyScore": 92,
+    "reviewCount": 210,
+    "basePrice": 57993.39,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/monitors/aoc-agon-pro-ag326uzd2.jpg",
+    "images": [
+      "/images/monitors/aoc-agon-pro-ag326uzd2.jpg"
+    ],
+    "highlights": [
+      "31.5 inç 4K UHD 240Hz QD-OLED Panel",
+      "Light FX RGB Aydınlatma ve DTS Ses Destekli Hoparlörler",
+      "USB-C 65W PD ve KVM"
+    ],
+    "specs": {
+      "screenSizeInches": 31.5,
+      "resolution": "3840x2160 (4K UHD)",
+      "panelType": "QD-OLED",
+      "refreshRateHz": 240,
+      "responseTimeMs": 0.03,
+      "aspectRatio": "16:9",
+      "brightnessNits": 1000,
+      "contrastRatio": "1500000:1",
+      "hdrSupport": "DisplayHDR True Black 400"
+    },
+    "storeOffers": [
+      {
+        "id": "so-aoc-agon-pro-ag326uzd2-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "bg-orange-500",
+        "price": 57993.39,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime",
+          "OLED / Gaming"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1200,
+        "url": "https://www.amazon.com.tr"
+      },
+      {
+        "id": "so-aoc-agon-pro-ag326uzd2-2",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-amber-500",
+        "price": 59153,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 890,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 61473,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 57993.39,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "asus-rog-swift-oled-pg32ucdmz",
+    "slug": "asus-rog-swift-oled-pg32ucdmz",
+    "name": "Asus ROG Swift OLED PG32UCDMZ 32 inç 240Hz 4K QD-OLED Monitör",
+    "brand": "Asus",
+    "category": "monitors",
+    "rating": 4.8,
+    "epeyScore": 92,
+    "reviewCount": 190,
+    "basePrice": 88850,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/monitors/asus-rog-swift-oled-pg32ucdmz.jpg",
+    "images": [
+      "/images/monitors/asus-rog-swift-oled-pg32ucdmz.jpg"
+    ],
+    "highlights": [
+      "31.5 inç 4K UHD 240Hz QD-OLED Panel",
+      "Dolby Vision ve DisplayHDR True Black 400",
+      "G-Sync Uyumlu ve Özel Soğutma Bloğu"
+    ],
+    "specs": {
+      "screenSizeInches": 31.5,
+      "resolution": "3840x2160 (4K UHD)",
+      "panelType": "QD-OLED",
+      "refreshRateHz": 240,
+      "responseTimeMs": 0.03,
+      "aspectRatio": "16:9",
+      "brightnessNits": 1000,
+      "contrastRatio": "1500000:1",
+      "hdrSupport": "Dolby Vision / DisplayHDR True Black 400"
+    },
+    "storeOffers": [
+      {
+        "id": "so-asus-rog-swift-oled-pg32ucdmz-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "bg-orange-500",
+        "price": 88850,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime",
+          "OLED / Gaming"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1200,
+        "url": "https://www.amazon.com.tr"
+      },
+      {
+        "id": "so-asus-rog-swift-oled-pg32ucdmz-2",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-amber-500",
+        "price": 90627,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 890,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 94181,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 88850,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "samsung-odyssey-ark-55-ls55cg97wnuxuf",
+    "slug": "samsung-odyssey-ark-55-ls55cg97wnuxuf",
+    "name": "Samsung Odyssey Ark 2nd Gen 55 inç 165Hz 1000R Kokpit Modu 4K Quantum Mini-LED Gaming Monitör",
+    "brand": "Samsung",
+    "category": "monitors",
+    "rating": 4.9,
+    "epeyScore": 92,
+    "reviewCount": 420,
+    "basePrice": 66499,
+    "currency": "TL",
+    "releaseYear": 2023,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/monitors/samsung-odyssey-ark-55-ls55cg97wnuxuf.jpg",
+    "images": [
+      "/images/monitors/samsung-odyssey-ark-55-ls55cg97wnuxuf.jpg"
+    ],
+    "highlights": [
+      "55 inç Devasa 1000R Kavisli Quantum Mini-LED Panel ve Dikey Kokpit Modu (Ark Dial Kontrolcü)",
+      "4 Girişli Multi-View ile Tek Ekranda 4 Farklı Cihazı (PC + Konsollar) Aynı Anda Görüntüleme",
+      "165Hz Yenileme Hızı, 1ms Tepki Süresi, Quantum HDR 2000 ve 60W 2.2.2 Kanal Sound Dome Ses",
+      "Samsung Gaming Hub, KVM Switch ve 4x HDMI 2.1 / DisplayPort 1.4"
+    ],
+    "specs": {
+      "screenSizeInches": 54.6,
+      "resolution": "3840x2160 (4K UHD)",
+      "panelType": "VA (Quantum Mini-LED 1000R Kavisli)",
+      "refreshRateHz": 165,
+      "responseTimeMs": 1,
+      "syncTechnology": "AMD FreeSync Premium Pro",
+      "aspectRatio": "16:9",
+      "brightnessNits": 2000,
+      "contrastRatio": "1000000:1",
+      "hdrSupport": "Quantum HDR 2000, HDR10+ Gaming",
+      "ports": [
+        "3x HDMI 2.1",
+        "1x DisplayPort 1.4",
+        "USB Hub",
+        "LAN",
+        "Ark Dial"
+      ]
+    },
+    "storeOffers": [
+      {
+        "id": "so-samsung-odyssey-ark-55-ls55cg97wnuxuf-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "bg-orange-500",
+        "price": 66499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime",
+          "OLED / Gaming"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1200,
+        "url": "https://www.amazon.com.tr"
+      },
+      {
+        "id": "so-samsung-odyssey-ark-55-ls55cg97wnuxuf-2",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-amber-500",
+        "price": 67829,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 890,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 70489,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 66499,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
     "id": "apple-pro-display-xdr-nano-texture-cam",
     "slug": "apple-pro-display-xdr-nano-texture-cam",
     "name": "Apple Pro Display XDR Nano-Texture Mat Cam 32 inç 6K Retina Profesyonel Monitör",
