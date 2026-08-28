@@ -31,7 +31,7 @@ interface LogoContextType {
 
 const LogoContext = createContext<LogoContextType | undefined>(undefined);
 
-const LOCAL_STORAGE_KEY = 'tech_compare_custom_logo_v2';
+const LOCAL_STORAGE_KEY = 'tech_compare_custom_logo_v3';
 
 export function LogoProvider({ children }: { children: React.ReactNode }) {
   const [logoConfig, setLogoConfig] = useState<LogoConfig>(DEFAULT_LOGO_CONFIG);
