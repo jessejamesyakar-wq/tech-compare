@@ -112,12 +112,14 @@ export function Navbar() {
         <div className="flex items-center justify-between h-16 gap-4">
           
           {/* Logo Link to Homepage */}
-          <Link href="/" className="shrink-0 group" title="TechKıyas Ana Sayfası">
-            <Logo />
-          </Link>
+          <div className="w-48 sm:w-56 shrink-0 flex items-center">
+            <Link href="/" className="group" title="TechKıyas Ana Sayfası">
+              <Logo />
+            </Link>
+          </div>
 
           {/* Center: Direct Inline Writing Search Bar */}
-          <div ref={searchContainerRef} className="flex-1 max-w-xl mx-2 sm:mx-6 lg:mx-8 relative">
+          <div ref={searchContainerRef} className="flex-1 max-w-xl mx-auto relative">
             <form onSubmit={handleSearchSubmit}>
               <div
                 className={`w-full flex items-center justify-between bg-slate-100/90 dark:bg-slate-900/80 text-slate-900 dark:text-slate-100 text-xs px-4 py-2.5 rounded-full border transition-all shadow-2xs backdrop-blur-md ${
@@ -222,7 +224,7 @@ export function Navbar() {
           </div>
 
           {/* Right Actions: Profile / Language / Settings */}
-          <div className="flex items-center gap-2 shrink-0">
+          <div className="w-48 sm:w-56 shrink-0 flex items-center justify-end gap-2">
 
             {/* Language / Region Selector Pill (TR) */}
             <div className="relative">
@@ -263,13 +265,6 @@ export function Navbar() {
                   ))}
                 </div>
               )}
-            </div>
-
-            {/* Profile & Settings Icon Menu */}
-            <div className="flex items-center gap-1.5">
-
-
-
             </div>
 
           </div>

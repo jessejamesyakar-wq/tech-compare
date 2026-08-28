@@ -34,9 +34,9 @@ export function CategoryBar() {
   ];
 
   return (
-    <div className="bg-white/95 dark:bg-[#090D16]/95 border-b border-slate-200/90 dark:border-slate-800 shadow-2xs px-4 sm:px-6 lg:px-8 py-2 overflow-x-auto no-scrollbar">
-      <div className="max-w-7xl mx-auto flex items-center justify-between gap-6 text-[13.5px] font-medium text-slate-600 dark:text-slate-300 whitespace-nowrap">
-        <div className="flex items-center gap-5 sm:gap-6">
+    <div className="bg-white/95 dark:bg-[#090D16]/95 border-b border-slate-200/90 dark:border-slate-800 shadow-2xs px-4 sm:px-6 lg:px-8 py-2.5 overflow-x-auto no-scrollbar">
+      <div className="max-w-7xl mx-auto flex items-center justify-center relative text-[13px] sm:text-[13.5px] font-medium text-slate-600 dark:text-slate-300 whitespace-nowrap">
+        <div className="flex items-center justify-center gap-4 sm:gap-5 md:gap-6 lg:gap-7 mx-auto">
           {categories.map((cat) => {
             const Icon = cat.icon;
             const isActive =
@@ -62,7 +62,7 @@ export function CategoryBar() {
           })}
         </div>
 
-        <div className="hidden xl:flex items-center gap-2 text-xs font-bold text-emerald-700 dark:text-emerald-400 bg-emerald-50 dark:bg-emerald-950/60 px-3 py-1 rounded-full border border-emerald-200 dark:border-emerald-800 shrink-0">
+        <div className="hidden 2xl:flex items-center gap-1.5 text-xs font-bold text-emerald-700 dark:text-emerald-400 bg-emerald-50 dark:bg-emerald-950/60 px-3 py-1 rounded-full border border-emerald-200 dark:border-emerald-800 shrink-0 absolute right-0">
           <Sparkles className="w-3.5 h-3.5 text-emerald-600 dark:text-emerald-400" />
           <span>Canlı Fiyat Takibi Aktif</span>
         </div>
