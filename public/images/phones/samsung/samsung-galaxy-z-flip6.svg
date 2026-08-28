@@ -1,23 +1,44 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="100%" height="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 520" width="100%" height="100%">
       <defs>
-        <linearGradient id="bodyGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-          <stop offset="0%" stop-color="#ec4899"/>
-          <stop offset="100%" stop-color="#be185d"/>
+        <linearGradient id="bodyGrad_z_flip6" x1="0%" y1="0%" x2="100%" y2="100%">
+          <stop offset="0%" stop-color="#88bba4"/>
+          <stop offset="50%" stop-color="#4e7e69"/>
+          <stop offset="100%" stop-color="#88bba4"/>
         </linearGradient>
+        <linearGradient id="glassSheen_z_flip6" x1="0%" y1="0%" x2="100%" y2="100%">
+          <stop offset="0%" stop-color="#ffffff" stop-opacity="0.35"/>
+          <stop offset="40%" stop-color="#ffffff" stop-opacity="0.05"/>
+          <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+        </linearGradient>
+        <filter id="dropShadow_z_flip6" x="-10%" y="-10%" width="120%" height="120%">
+          <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#0f172a" flood-opacity="0.12"/>
+        </filter>
       </defs>
-      <rect width="100%" height="100%" fill="#f8fafc"/>
-      <rect x="115" y="65" width="170" height="370" rx="28" fill="#000000" opacity="0.08"/>
-      <rect x="110" y="60" width="180" height="380" rx="26" fill="url(#bodyGrad)" stroke="#be185d" stroke-width="4"/>
-      <line x1="110" y1="250" x2="290" y2="250" stroke="#334155" stroke-width="2" opacity="0.4"/>
-      <rect x="125" y="75" width="150" height="155" rx="16" fill="#0f172a" stroke="#334155" stroke-width="2"/>
-      <circle cx="155" cy="105" r="14" fill="#0f172a" stroke="#64748b" stroke-width="2.5"/>
-      <circle cx="155" cy="105" r="8" fill="#1e293b"/>
-      <circle cx="155" cy="105" r="3" fill="#38bdf8"/>
-      <circle cx="195" cy="105" r="14" fill="#0f172a" stroke="#64748b" stroke-width="2.5"/>
-      <circle cx="195" cy="105" r="8" fill="#1e293b"/>
-      <circle cx="195" cy="105" r="3" fill="#38bdf8"/>
-      <circle cx="235" cy="105" r="5" fill="#fef08a"/>
-      <text x="200" y="180" font-family="sans-serif" font-size="22" font-weight="900" fill="#ffffff" text-anchor="middle">12:45</text>
-      <text x="200" y="202" font-family="sans-serif" font-size="10" font-weight="700" fill="#94a3b8" text-anchor="middle">Galaxy AI</text>
-      <text x="200" y="410" font-family="sans-serif" font-size="12" font-weight="900" fill="#ffffff" opacity="0.7" text-anchor="middle" letter-spacing="2">SAMSUNG</text>
+      <rect width="100%" height="100%" fill="#ffffff"/>
+      <rect x="110" y="50" width="180" height="400" rx="28" fill="url(#bodyGrad_z_flip6)" stroke="#4e7e69" stroke-width="3" filter="url(#dropShadow_z_flip6)"/>
+      <rect x="108" y="248" width="184" height="5" rx="2" fill="#4e7e69" opacity="0.9"/>
+      <line x1="110" y1="250" x2="290" y2="250" stroke="#ffffff" stroke-width="1" opacity="0.4"/>
+      
+      <rect x="122" y="65" width="156" height="165" rx="20" fill="#090d16" stroke="#4e7e69" stroke-width="2"/>
+      <circle cx="200" cy="150" r="60" fill="#a7f3d0" opacity="0.2"/>
+      
+      <g transform="translate(132, 75)">
+        <circle cx="20" cy="20" r="16" fill="#090d16" stroke="#4e7e69" stroke-width="3"/>
+        <circle cx="20" cy="20" r="10" fill="#1e293b"/>
+        <circle cx="20" cy="20" r="4" fill="#38bdf8"/>
+        <circle cx="18" cy="18" r="1.5" fill="#ffffff" opacity="0.8"/>
+
+        <circle cx="60" cy="20" r="16" fill="#090d16" stroke="#4e7e69" stroke-width="3"/>
+        <circle cx="60" cy="20" r="10" fill="#1e293b"/>
+        <circle cx="60" cy="20" r="4" fill="#38bdf8"/>
+        <circle cx="58" cy="18" r="1.5" fill="#ffffff" opacity="0.8"/>
+
+        <circle cx="96" cy="20" r="6" fill="#fef08a" stroke="#94a3b8" stroke-width="1.5"/>
+      </g>
+      
+      <text x="200" y="165" font-family="sans-serif" font-size="28" font-weight="900" fill="#ffffff" text-anchor="middle">12:45</text>
+      <text x="200" y="190" font-family="sans-serif" font-size="11" font-weight="800" fill="#a7f3d0" text-anchor="middle">Galaxy AI</text>
+      
+      <text x="200" y="410" font-family="sans-serif" font-size="13" font-weight="900" fill="#ffffff" opacity="0.85" text-anchor="middle" letter-spacing="3">SAMSUNG</text>
+      <rect x="110" y="50" width="180" height="400" rx="28" fill="url(#glassSheen_z_flip6)" pointer-events="none"/>
     </svg>

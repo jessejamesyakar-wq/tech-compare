@@ -143,6 +143,25 @@ export function CompactProductCard({
             {subInfo}
           </p>
         )}
+
+        {/* Color Swatches */}
+        {product.colorOptions && product.colorOptions.length > 0 && (
+          <div className="flex items-center gap-1.5 pt-1.5">
+            {product.colorOptions.slice(0, 4).map((c, cIdx) => (
+              <span
+                key={cIdx}
+                title={c.name}
+                className="w-2.5 h-2.5 sm:w-3 sm:h-3 rounded-full border border-slate-300 shadow-2xs shrink-0"
+                style={{ backgroundColor: c.hex }}
+              />
+            ))}
+            {product.colorOptions.length > 4 && (
+              <span className="text-[9px] text-slate-400 font-bold">
+                +{product.colorOptions.length - 4}
+              </span>
+            )}
+          </div>
+        )}
       </div>
 
       {/* Seller & Price Comparison Info */}

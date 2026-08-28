@@ -54037,7 +54037,21 @@
         "osName": "Android 14 (One UI 6.1)",
         "updateYears": 4
       }
-    }
+    },
+    "colorOptions": [
+      {
+        "name": "Zeytin Yeşili",
+        "hex": "#68705C"
+      },
+      {
+        "name": "Lavanta",
+        "hex": "#B8ADC9"
+      },
+      {
+        "name": "Grafit",
+        "hex": "#313338"
+      }
+    ]
   },
   {
     "id": "samsung-samsung-galaxy-z-flip-3-54",
@@ -56452,7 +56466,21 @@
         "osName": "Android 14 (One UI 6.1)",
         "updateYears": 4
       }
-    }
+    },
+    "colorOptions": [
+      {
+        "name": "Bordo",
+        "hex": "#582B35"
+      },
+      {
+        "name": "Yeşil",
+        "hex": "#283832"
+      },
+      {
+        "name": "Fantom Siyah",
+        "hex": "#1B1C1E"
+      }
+    ]
   },
   {
     "id": "samsung-samsung-galaxy-z-flip-4-69",
@@ -58384,7 +58412,21 @@
         "osName": "Android 14 (One UI 6.1)",
         "updateYears": 4
       }
-    }
+    },
+    "colorOptions": [
+      {
+        "name": "Lavanta",
+        "hex": "#BFA7CC"
+      },
+      {
+        "name": "Krem",
+        "hex": "#F3EFE0"
+      },
+      {
+        "name": "Fantom Siyahı",
+        "hex": "#1F2022"
+      }
+    ]
   },
   {
     "id": "samsung-samsung-galaxy-s23-81",
@@ -58545,7 +58587,21 @@
         "osName": "Android 14 (One UI 6.1)",
         "updateYears": 4
       }
-    }
+    },
+    "colorOptions": [
+      {
+        "name": "Krem",
+        "hex": "#D6CBBE"
+      },
+      {
+        "name": "Fantom Siyahı",
+        "hex": "#1F2022"
+      },
+      {
+        "name": "Yeşil",
+        "hex": "#3B4E43"
+      }
+    ]
   },
   {
     "id": "samsung-samsung-galaxy-s23-ultra-82",
@@ -58706,7 +58762,25 @@
         "osName": "Android 14 (One UI 6.1)",
         "updateYears": 4
       }
-    }
+    },
+    "colorOptions": [
+      {
+        "name": "Botanik Yeşil",
+        "hex": "#394D43"
+      },
+      {
+        "name": "Fantom Siyahı",
+        "hex": "#1F2022"
+      },
+      {
+        "name": "Krem",
+        "hex": "#F3EFE0"
+      },
+      {
+        "name": "Lavanta",
+        "hex": "#C8BDD2"
+      }
+    ]
   },
   {
     "id": "samsung-samsung-galaxy-s23-fe-83",
@@ -58867,7 +58941,21 @@
         "osName": "Android 14 (One UI 6.1)",
         "updateYears": 4
       }
-    }
+    },
+    "colorOptions": [
+      {
+        "name": "Lavanta",
+        "hex": "#BFA7CC"
+      },
+      {
+        "name": "Krem",
+        "hex": "#F3EFE0"
+      },
+      {
+        "name": "Fantom Siyahı",
+        "hex": "#1F2022"
+      }
+    ]
   },
   {
     "id": "samsung-samsung-galaxy-z-flip-5-84",
@@ -59672,7 +59760,21 @@
         "osName": "Android 14 (One UI 6.1)",
         "updateYears": 4
       }
-    }
+    },
+    "colorOptions": [
+      {
+        "name": "Harika Menekşe",
+        "hex": "#B89FE0"
+      },
+      {
+        "name": "Harika Gümüş",
+        "hex": "#D7DBE2"
+      },
+      {
+        "name": "Harika Grafit",
+        "hex": "#2D2E33"
+      }
+    ]
   },
   {
     "id": "samsung-samsung-galaxy-a54-5g-89",
@@ -59833,7 +59935,21 @@
         "osName": "Android 14 (One UI 6.1)",
         "updateYears": 4
       }
-    }
+    },
+    "colorOptions": [
+      {
+        "name": "Harika Limon Yeşili",
+        "hex": "#B3D448"
+      },
+      {
+        "name": "Harika Menekşe",
+        "hex": "#B99EE0"
+      },
+      {
+        "name": "Harika Grafit",
+        "hex": "#2B2C30"
+      }
+    ]
   },
   {
     "id": "samsung-samsung-galaxy-m14-5g-90",
@@ -60477,7 +60593,21 @@
         "osName": "Android 14 (One UI 6.1)",
         "updateYears": 7
       }
-    }
+    },
+    "colorOptions": [
+      {
+        "name": "Amber Sarısı",
+        "hex": "#E0CAA0"
+      },
+      {
+        "name": "Kobalt Menekşe",
+        "hex": "#39354F"
+      },
+      {
+        "name": "Oniks Siyahı",
+        "hex": "#222126"
+      }
+    ]
   },
   {
     "id": "samsung-samsung-galaxy-s24-94",
@@ -60638,7 +60768,25 @@
         "osName": "Android 14 (One UI 6.1)",
         "updateYears": 7
       }
-    }
+    },
+    "colorOptions": [
+      {
+        "name": "Kobalt Menekşe",
+        "hex": "#45405E"
+      },
+      {
+        "name": "Oniks Siyahı",
+        "hex": "#222126"
+      },
+      {
+        "name": "Mermer Gri",
+        "hex": "#D6D5D8"
+      },
+      {
+        "name": "Amber Sarı",
+        "hex": "#F3E2B6"
+      }
+    ]
   },
   {
     "id": "samsung-samsung-galaxy-s24-ultra-95",
@@ -60799,7 +60947,25 @@
         "osName": "Android 14 (One UI 6.1)",
         "updateYears": 7
       }
-    }
+    },
+    "colorOptions": [
+      {
+        "name": "Titanyum Gri",
+        "hex": "#77726B"
+      },
+      {
+        "name": "Titanyum Siyah",
+        "hex": "#2B2A29"
+      },
+      {
+        "name": "Titanyum Menekşe",
+        "hex": "#454256"
+      },
+      {
+        "name": "Titanyum Sarı",
+        "hex": "#E5DDCB"
+      }
+    ]
   },
   {
     "id": "samsung-samsung-galaxy-s24-fe-96",
@@ -60960,7 +61126,21 @@
         "osName": "Android 14 (One UI 6.1)",
         "updateYears": 7
       }
-    }
+    },
+    "colorOptions": [
+      {
+        "name": "Amber Sarısı",
+        "hex": "#E0CAA0"
+      },
+      {
+        "name": "Kobalt Menekşe",
+        "hex": "#39354F"
+      },
+      {
+        "name": "Oniks Siyahı",
+        "hex": "#222126"
+      }
+    ]
   },
   {
     "id": "samsung-samsung-galaxy-z-flip-6-97",
@@ -61121,7 +61301,25 @@
         "osName": "Android 14 (One UI 6.1)",
         "updateYears": 7
       }
-    }
+    },
+    "colorOptions": [
+      {
+        "name": "Nane Yeşili",
+        "hex": "#88BBA4"
+      },
+      {
+        "name": "Mavi",
+        "hex": "#7398B3"
+      },
+      {
+        "name": "Sarı",
+        "hex": "#E9DB9A"
+      },
+      {
+        "name": "Gümüş Gölge",
+        "hex": "#9FA2A6"
+      }
+    ]
   },
   {
     "id": "samsung-samsung-galaxy-z-fold-6-98",
@@ -61282,7 +61480,21 @@
         "osName": "Android 14 (One UI 6.1)",
         "updateYears": 7
       }
-    }
+    },
+    "colorOptions": [
+      {
+        "name": "Lacivert",
+        "hex": "#2D3B4E"
+      },
+      {
+        "name": "Gümüş Gölge",
+        "hex": "#9FA2A6"
+      },
+      {
+        "name": "Pembe",
+        "hex": "#E8CED0"
+      }
+    ]
   },
   {
     "id": "samsung-samsung-galaxy-a05-99",
@@ -61443,7 +61655,21 @@
         "osName": "Android 14 (One UI 6.1)",
         "updateYears": 7
       }
-    }
+    },
+    "colorOptions": [
+      {
+        "name": "Siyah",
+        "hex": "#282B33"
+      },
+      {
+        "name": "Gümüş",
+        "hex": "#D6D8DC"
+      },
+      {
+        "name": "Açık Yeşil",
+        "hex": "#A8C5B5"
+      }
+    ]
   },
   {
     "id": "samsung-samsung-galaxy-a15-100",
@@ -61604,7 +61830,21 @@
         "osName": "Android 14 (One UI 6.1)",
         "updateYears": 7
       }
-    }
+    },
+    "colorOptions": [
+      {
+        "name": "Açık Mavi",
+        "hex": "#8FB4CC"
+      },
+      {
+        "name": "Mavi Siyah",
+        "hex": "#171B26"
+      },
+      {
+        "name": "Sarı",
+        "hex": "#F0E5A8"
+      }
+    ]
   },
   {
     "id": "samsung-samsung-galaxy-a25-5g-101",
@@ -61765,7 +62005,21 @@
         "osName": "Android 14 (One UI 6.1)",
         "updateYears": 7
       }
-    }
+    },
+    "colorOptions": [
+      {
+        "name": "Koyu Mavi Siyah",
+        "hex": "#1D2738"
+      },
+      {
+        "name": "Açık Mavi",
+        "hex": "#A9CCE3"
+      },
+      {
+        "name": "Sarı",
+        "hex": "#E8DC98"
+      }
+    ]
   },
   {
     "id": "samsung-samsung-galaxy-a35-5g-102",
@@ -61926,7 +62180,21 @@
         "osName": "Android 14 (One UI 6.1)",
         "updateYears": 7
       }
-    }
+    },
+    "colorOptions": [
+      {
+        "name": "Harika Limon Sarısı",
+        "hex": "#E5D38A"
+      },
+      {
+        "name": "Harika Buz Mavisi",
+        "hex": "#C2DDF2"
+      },
+      {
+        "name": "Harika Lacivert",
+        "hex": "#202636"
+      }
+    ]
   },
   {
     "id": "samsung-samsung-galaxy-a55-5g-103",
@@ -62087,7 +62355,25 @@
         "osName": "Android 14 (One UI 6.1)",
         "updateYears": 7
       }
-    }
+    },
+    "colorOptions": [
+      {
+        "name": "Harika Buz Mavisi",
+        "hex": "#9EC4DB"
+      },
+      {
+        "name": "Harika Lacivert",
+        "hex": "#1F2837"
+      },
+      {
+        "name": "Harika Leylak",
+        "hex": "#CDC2DF"
+      },
+      {
+        "name": "Harika Limon",
+        "hex": "#F6E9B2"
+      }
+    ]
   },
   {
     "id": "samsung-samsung-galaxy-m15-5g-104",
@@ -62409,7 +62695,21 @@
         "osName": "Android 14 (One UI 6.1)",
         "updateYears": 7
       }
-    }
+    },
+    "colorOptions": [
+      {
+        "name": "Koyu Lacivert",
+        "hex": "#1E2C40"
+      },
+      {
+        "name": "Açık Mavi",
+        "hex": "#7E9FB8"
+      },
+      {
+        "name": "Gri",
+        "hex": "#8C9199"
+      }
+    ]
   },
   {
     "id": "samsung-samsung-galaxy-m55-5g-106",
@@ -62570,7 +62870,17 @@
         "osName": "Android 14 (One UI 6.1)",
         "updateYears": 7
       }
-    }
+    },
+    "colorOptions": [
+      {
+        "name": "Açık Yeşil",
+        "hex": "#7EBCA0"
+      },
+      {
+        "name": "Koyu Mavi",
+        "hex": "#1E2C44"
+      }
+    ]
   },
   {
     "id": "samsung-samsung-galaxy-s25-107",
@@ -62731,7 +63041,21 @@
         "osName": "Android 15 (One UI 7.0)",
         "updateYears": 7
       }
-    }
+    },
+    "colorOptions": [
+      {
+        "name": "Zümrüt Yeşili",
+        "hex": "#2E7D62"
+      },
+      {
+        "name": "Işıltılı Mavi",
+        "hex": "#4A6B82"
+      },
+      {
+        "name": "Ay Işığı Beyazı",
+        "hex": "#F0EFF4"
+      }
+    ]
   },
   {
     "id": "samsung-samsung-galaxy-s25-108",
@@ -62892,7 +63216,21 @@
         "osName": "Android 15 (One UI 7.0)",
         "updateYears": 7
       }
-    }
+    },
+    "colorOptions": [
+      {
+        "name": "Parlak Mavi",
+        "hex": "#5C7891"
+      },
+      {
+        "name": "Geceyarısı Siyahı",
+        "hex": "#18191B"
+      },
+      {
+        "name": "Gümüş Gölge",
+        "hex": "#B8B9BD"
+      }
+    ]
   },
   {
     "id": "samsung-samsung-galaxy-s25-ultra-109",
@@ -63053,7 +63391,21 @@
         "osName": "Android 15 (One UI 7.0)",
         "updateYears": 7
       }
-    }
+    },
+    "colorOptions": [
+      {
+        "name": "Titanyum Gümüş Mavi",
+        "hex": "#4D5D6E"
+      },
+      {
+        "name": "Titanyum Siyah",
+        "hex": "#1C1C1E"
+      },
+      {
+        "name": "Titanyum Gri",
+        "hex": "#8E8E93"
+      }
+    ]
   },
   {
     "id": "samsung-samsung-galaxy-s25-fe-110",
@@ -63214,7 +63566,21 @@
         "osName": "Android 15 (One UI 7.0)",
         "updateYears": 7
       }
-    }
+    },
+    "colorOptions": [
+      {
+        "name": "Zümrüt Yeşili",
+        "hex": "#2E7D62"
+      },
+      {
+        "name": "Işıltılı Mavi",
+        "hex": "#4A6B82"
+      },
+      {
+        "name": "Ay Işığı Beyazı",
+        "hex": "#F0EFF4"
+      }
+    ]
   },
   {
     "id": "samsung-samsung-galaxy-z-flip-7-111",
@@ -67183,6 +67549,20 @@
     ],
     "cons": [
       "Kutudan hızlı şarj adaptörü çıkmayabilir"
+    ],
+    "colorOptions": [
+      {
+        "name": "Titanyum Gümüş Mavi",
+        "hex": "#4D5D6E"
+      },
+      {
+        "name": "Titanyum Siyah",
+        "hex": "#1C1C1E"
+      },
+      {
+        "name": "Titanyum Gri",
+        "hex": "#8E8E93"
+      }
     ]
   },
   {
@@ -67313,6 +67693,20 @@
     ],
     "cons": [
       "Kutudan hızlı şarj adaptörü çıkmayabilir"
+    ],
+    "colorOptions": [
+      {
+        "name": "Parlak Mavi",
+        "hex": "#5C7891"
+      },
+      {
+        "name": "Geceyarısı Siyahı",
+        "hex": "#18191B"
+      },
+      {
+        "name": "Gümüş Gölge",
+        "hex": "#B8B9BD"
+      }
     ]
   },
   {
@@ -67443,6 +67837,20 @@
     ],
     "cons": [
       "Kutudan hızlı şarj adaptörü çıkmayabilir"
+    ],
+    "colorOptions": [
+      {
+        "name": "Zümrüt Yeşili",
+        "hex": "#2E7D62"
+      },
+      {
+        "name": "Işıltılı Mavi",
+        "hex": "#4A6B82"
+      },
+      {
+        "name": "Ay Işığı Beyazı",
+        "hex": "#F0EFF4"
+      }
     ]
   },
   {
@@ -67573,6 +67981,20 @@
     ],
     "cons": [
       "Kutudan hızlı şarj adaptörü çıkmayabilir"
+    ],
+    "colorOptions": [
+      {
+        "name": "Zümrüt Yeşili",
+        "hex": "#2E7D62"
+      },
+      {
+        "name": "Işıltılı Mavi",
+        "hex": "#4A6B82"
+      },
+      {
+        "name": "Ay Işığı Beyazı",
+        "hex": "#F0EFF4"
+      }
     ]
   },
   {

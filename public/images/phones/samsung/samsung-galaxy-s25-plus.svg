@@ -1,22 +1,42 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="100%" height="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 520" width="100%" height="100%">
     <defs>
-      <linearGradient id="bodyGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-        <stop offset="0%" stop-color="#3b82f6"/>
-        <stop offset="100%" stop-color="#1d4ed8"/>
+      <linearGradient id="bodyGrad_s25_plus" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#5c7891"/>
+        <stop offset="50%" stop-color="#384d61"/>
+        <stop offset="100%" stop-color="#5c7891"/>
       </linearGradient>
+      <linearGradient id="glassSheen_s25_plus" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#ffffff" stop-opacity="0.35"/>
+        <stop offset="35%" stop-color="#ffffff" stop-opacity="0.05"/>
+        <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+      </linearGradient>
+      <filter id="dropShadow_s25_plus" x="-10%" y="-10%" width="120%" height="120%">
+        <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#0f172a" flood-opacity="0.12"/>
+      </filter>
     </defs>
-    <rect width="100%" height="100%" fill="#f8fafc"/>
-    <rect x="110" y="45" width="180" height="410" rx="28" fill="#000000" opacity="0.08"/>
-    <rect x="105" y="40" width="190" height="420" rx="26" fill="url(#bodyGrad)" stroke="#1d4ed8" stroke-width="4"/>
-    <circle cx="145" cy="95" r="17" fill="#0f172a" stroke="#1d4ed8" stroke-width="3"/>
-    <circle cx="145" cy="95" r="10" fill="#1e293b"/>
-    <circle cx="145" cy="95" r="3.5" fill="#38bdf8"/>
-    <circle cx="145" cy="145" r="17" fill="#0f172a" stroke="#1d4ed8" stroke-width="3"/>
-    <circle cx="145" cy="145" r="10" fill="#1e293b"/>
-    <circle cx="145" cy="145" r="3.5" fill="#38bdf8"/>
-    <circle cx="145" cy="195" r="17" fill="#0f172a" stroke="#1d4ed8" stroke-width="3"/>
-    <circle cx="145" cy="195" r="10" fill="#1e293b"/>
-    <circle cx="145" cy="195" r="3.5" fill="#38bdf8"/>
-    <circle cx="180" cy="120" r="6" fill="#fef08a" stroke="#cbd5e1" stroke-width="1.5"/>
-    <text x="200" y="425" font-family="sans-serif" font-size="13" font-weight="900" fill="#ffffff" opacity="0.8" text-anchor="middle" letter-spacing="3">SAMSUNG</text>
+    <rect width="100%" height="100%" fill="#ffffff"/>
+    <rect x="100" y="35" width="200" height="440" rx="30" fill="url(#bodyGrad_s25_plus)" stroke="#384d61" stroke-width="4" filter="url(#dropShadow_s25_plus)"/>
+    <rect x="103" y="38" width="194" height="434" rx="27" fill="none" stroke="#ffffff" stroke-width="1.2" opacity="0.35"/>
+
+    <g transform="translate(118, 55)">
+      <circle cx="24" cy="28" r="18" fill="#090d16" stroke="#384d61" stroke-width="3.5"/>
+      <circle cx="24" cy="28" r="11" fill="#1e293b"/>
+      <circle cx="24" cy="28" r="4" fill="#38bdf8"/>
+      <circle cx="22" cy="26" r="1.5" fill="#ffffff" opacity="0.8"/>
+
+      <circle cx="24" cy="80" r="18" fill="#090d16" stroke="#384d61" stroke-width="3.5"/>
+      <circle cx="24" cy="80" r="11" fill="#1e293b"/>
+      <circle cx="24" cy="80" r="4" fill="#38bdf8"/>
+      <circle cx="22" cy="78" r="1.5" fill="#ffffff" opacity="0.8"/>
+
+      <circle cx="24" cy="132" r="18" fill="#090d16" stroke="#384d61" stroke-width="3.5"/>
+      <circle cx="24" cy="132" r="11" fill="#1e293b"/>
+      <circle cx="24" cy="132" r="4" fill="#38bdf8"/>
+      <circle cx="22" cy="130" r="1.5" fill="#ffffff" opacity="0.8"/>
+
+      <circle cx="62" cy="54" r="6.5" fill="#fef08a" stroke="#cbd5e1" stroke-width="2"/>
+    </g>
+
+    <text x="200" y="440" font-family="sans-serif" font-size="14" font-weight="900" fill="#ffffff" opacity="0.85" text-anchor="middle" letter-spacing="3.5">SAMSUNG</text>
+    <rect x="100" y="35" width="200" height="440" rx="30" fill="url(#glassSheen_s25_plus)" pointer-events="none"/>
   </svg>
