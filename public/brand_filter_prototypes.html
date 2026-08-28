@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ses & Kulaklık - Marka Filtresi Prototip Karşılaştırması</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    .no-scrollbar::-webkit-scrollbar { display: none; }
+    .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+    .glass-card { background: rgba(255, 255, 255, 0.95); backdrop-filter: blur(10px); }
+  </style>
+</head>
+<body class="bg-slate-100 text-slate-800 font-sans p-4 sm:p-8 space-y-12">
+
+  <div class="max-w-5xl mx-auto space-y-4 text-center">
+    <div class="inline-flex items-center gap-2 bg-emerald-100 text-emerald-800 text-xs font-bold px-3 py-1 rounded-full">
+      <i class="fa-solid fa-wand-magic-sparkles"></i> Canlı Etkileşimli Prototip Önizleme
+    </div>
+    <h1 class="text-3xl sm:text-4xl font-black text-slate-900 tracking-tight">Marka Filtresi Tasarım Seçenekleri</h1>
+    <p class="text-sm text-slate-500 max-w-2xl mx-auto">
+      Mevcut 100+ markalık buton kirliliğini çözmek için hazırlanan 3 farklı arayüz yaklaşımını aşağıdan canlı olarak test edebilirsiniz.
+    </p>
+  </div>
+
+  <!-- CURRENT STATE BAD PREVIEW -->
+  <div class="max-w-5xl mx-auto bg-red-50/60 border border-red-200 rounded-3xl p-6 shadow-sm space-y-4">
+    <div class="flex items-center justify-between">
+      <span class="text-xs font-bold text-red-600 uppercase tracking-wider flex items-center gap-1.5">
+        <i class="fa-solid fa-triangle-exclamation"></i> Mevcut Durum (Marka Kirliliği)
+      </span>
+      <span class="text-xs font-semibold text-red-500">100+ Buton tüm ekranı kaplıyor (~400px yükseklik)</span>
+    </div>
+    <div class="flex flex-wrap gap-1.5 opacity-60 max-h-32 overflow-hidden relative">
+      <button class="px-3 py-1 bg-slate-900 text-white rounded-full text-xs font-semibold">Tüm Markalar</button>
+      <button class="px-3 py-1 bg-slate-200 rounded-full text-xs">Sony</button>
+      <button class="px-3 py-1 bg-slate-200 rounded-full text-xs">SteelSeries</button>
+      <button class="px-3 py-1 bg-slate-200 rounded-full text-xs">Jabra</button>
+      <button class="px-3 py-1 bg-slate-200 rounded-full text-xs">Mojue</button>
+      <button class="px-3 py-1 bg-slate-200 rounded-full text-xs">HP</button>
+      <button class="px-3 py-1 bg-slate-200 rounded-full text-xs">Awei</button>
+      <button class="px-3 py-1 bg-slate-200 rounded-full text-xs">JBL</button>
+      <button class="px-3 py-1 bg-slate-200 rounded-full text-xs">Preo</button>
+      <button class="px-3 py-1 bg-slate-200 rounded-full text-xs">HyperX</button>
+      <button class="px-3 py-1 bg-slate-200 rounded-full text-xs">Lenovo</button>
+      <button class="px-3 py-1 bg-slate-200 rounded-full text-xs">Frisby</button>
+      <button class="px-3 py-1 bg-slate-200 rounded-full text-xs">Redragon</button>
+      <button class="px-3 py-1 bg-slate-200 rounded-full text-xs">1MORE</button>
+      <button class="px-3 py-1 bg-slate-200 rounded-full text-xs">Samsung</button>
+      <button class="px-3 py-1 bg-slate-200 rounded-full text-xs">Zore</button>
+      <button class="px-3 py-1 bg-slate-200 rounded-full text-xs">Xpod</button>
+      <button class="px-3 py-1 bg-slate-200 rounded-full text-xs">Tecno</button>
+      <button class="px-3 py-1 bg-slate-200 rounded-full text-xs">Joyroom</button>
+      <button class="px-3 py-1 bg-slate-200 rounded-full text-xs">Dvip</button>
+      <button class="px-3 py-1 bg-slate-200 rounded-full text-xs">Powermaster</button>
+      <button class="px-3 py-1 bg-slate-200 rounded-full text-xs">Syrox</button>
+      <button class="px-3 py-1 bg-slate-200 rounded-full text-xs">Microsoft</button>
+      <button class="px-3 py-1 bg-slate-200 rounded-full text-xs">Huawei</button>
+      <button class="px-3 py-1 bg-slate-200 rounded-full text-xs">KZ</button>
+      <button class="px-3 py-1 bg-slate-200 rounded-full text-xs">Sennheiser</button>
+      <button class="px-3 py-1 bg-slate-200 rounded-full text-xs">Marshall</button>
+      <button class="px-3 py-1 bg-slate-200 rounded-full text-xs">Behringer</button>
+      <button class="px-3 py-1 bg-slate-200 rounded-full text-xs">Sword</button>
+      <button class="px-3 py-1 bg-slate-200 rounded-full text-xs">Shaza</button>
+      <div class="absolute inset-0 bg-gradient-to-t from-red-50 via-transparent to-transparent"></div>
+    </div>
+  </div>
+
+  <!-- OPTION 1: HYBRID SMART BAR (RECOMMENDED) -->
+  <div class="max-w-5xl mx-auto bg-white border-2 border-emerald-500 rounded-3xl p-6 sm:p-8 shadow-xl space-y-6 relative overflow-hidden">
+    <div class="absolute top-0 right-0 bg-emerald-500 text-white font-black text-[11px] px-4 py-1.5 rounded-bl-2xl uppercase tracking-wider flex items-center gap-1.5 shadow-sm">
+      <i class="fa-solid fa-star"></i> SEÇENEK 1: ÖNERİLEN (HİBRİT AKILLI FİLTRE)
+    </div>
+
+    <div>
+      <h2 class="text-xl font-black text-slate-900">1. Popüler Markalar + "Tüm Markalar" Arama Çekmecesi</h2>
+      <p class="text-xs text-slate-500">En çok tercih edilen markalar tek satırda parmak ucunda, 100+ diğer marka ise arama kutulu şık bir popup/modal içinde.</p>
+    </div>
+
+    <!-- Live Component Preview -->
+    <div class="bg-slate-50 border border-slate-200/90 rounded-2xl p-4 sm:p-6 space-y-4">
+      
+      <!-- Filter Bar -->
+      <div class="flex items-center gap-2 overflow-x-auto no-scrollbar pb-1">
+        <button class="px-4 py-2 rounded-full text-xs font-bold bg-slate-900 text-white shadow-sm flex items-center gap-1.5 shrink-0">
+          <span>Tüm Markalar</span>
+          <span class="text-[10px] bg-white/20 px-1.5 py-0.5 rounded-full">823</span>
+        </button>
+
+        <button class="px-3.5 py-2 rounded-full text-xs font-semibold bg-white hover:bg-slate-100 border border-slate-200 text-slate-700 shrink-0 transition-all">
+          Sony <span class="text-[10px] text-slate-400 font-bold ml-1">45</span>
+        </button>
+        <button class="px-3.5 py-2 rounded-full text-xs font-semibold bg-white hover:bg-slate-100 border border-slate-200 text-slate-700 shrink-0 transition-all">
+          JBL <span class="text-[10px] text-slate-400 font-bold ml-1">52</span>
+        </button>
+        <button class="px-3.5 py-2 rounded-full text-xs font-semibold bg-white hover:bg-slate-100 border border-slate-200 text-slate-700 shrink-0 transition-all">
+          Sennheiser <span class="text-[10px] text-slate-400 font-bold ml-1">31</span>
+        </button>
+        <button class="px-3.5 py-2 rounded-full text-xs font-semibold bg-white hover:bg-slate-100 border border-slate-200 text-slate-700 shrink-0 transition-all">
+          Jabra <span class="text-[10px] text-slate-400 font-bold ml-1">38</span>
+        </button>
+        <button class="px-3.5 py-2 rounded-full text-xs font-semibold bg-white hover:bg-slate-100 border border-slate-200 text-slate-700 shrink-0 transition-all">
+          Apple <span class="text-[10px] text-slate-400 font-bold ml-1">28</span>
+        </button>
+        <button class="px-3.5 py-2 rounded-full text-xs font-semibold bg-white hover:bg-slate-100 border border-slate-200 text-slate-700 shrink-0 transition-all">
+          Samsung <span class="text-[10px] text-slate-400 font-bold ml-1">34</span>
+        </button>
+        <button class="px-3.5 py-2 rounded-full text-xs font-semibold bg-white hover:bg-slate-100 border border-slate-200 text-slate-700 shrink-0 transition-all">
+          Marshall <span class="text-[10px] text-slate-400 font-bold ml-1">19</span>
+        </button>
+        <button class="px-3.5 py-2 rounded-full text-xs font-semibold bg-white hover:bg-slate-100 border border-slate-200 text-slate-700 shrink-0 transition-all">
+          SteelSeries <span class="text-[10px] text-slate-400 font-bold ml-1">22</span>
+        </button>
+
+        <!-- More Brands Trigger -->
+        <button onclick="toggleModal()" class="px-3.5 py-2 rounded-full text-xs font-bold bg-emerald-50 hover:bg-emerald-100 text-emerald-700 border border-emerald-300 shrink-0 transition-all flex items-center gap-1.5 cursor-pointer">
+          <i class="fa-solid fa-magnifying-glass text-[10px]"></i>
+          <span>Tüm Markalar (94+)</span>
+          <i class="fa-solid fa-chevron-down text-[10px]"></i>
+        </button>
+      </div>
+
+    </div>
+
+    <!-- Interactive Drawer / Modal Mockup -->
+    <div id="brandModal" class="border border-slate-200 bg-slate-50 rounded-2xl p-6 space-y-4 transition-all">
+      <div class="flex items-center justify-between border-b border-slate-200 pb-3">
+        <div class="flex items-center gap-2">
+          <i class="fa-solid fa-sliders text-slate-700"></i>
+          <span class="font-bold text-sm text-slate-900">Marka Filtresi & Arama (102 Marka)</span>
+        </div>
+        <span class="text-xs text-emerald-700 font-bold bg-emerald-100 px-2.5 py-0.5 rounded-full">Canlı Arama Aktif</span>
+      </div>
+
+      <div class="relative">
+        <i class="fa-solid fa-magnifying-glass text-slate-400 absolute left-3.5 top-1/2 -translate-y-1/2 text-xs"></i>
+        <input 
+          type="text" 
+          id="mockBrandSearch"
+          onkeyup="filterBrandsLive()" 
+          placeholder="Marka adı yazın (örn: Razer, Snopy, Anker, Bose)..." 
+          class="w-full pl-9 pr-4 py-2 bg-white border border-slate-300 rounded-xl text-xs outline-none focus:border-slate-900 focus:ring-1 focus:ring-slate-900"
+        />
+      </div>
+
+      <div id="brandGrid" class="grid grid-cols-2 sm:grid-cols-4 gap-2 max-h-48 overflow-y-auto pr-1 text-xs">
+        <div class="p-2 bg-white border border-slate-200 rounded-xl hover:border-slate-800 cursor-pointer flex justify-between"><span>Apple</span><span class="text-slate-400 font-bold">28</span></div>
+        <div class="p-2 bg-white border border-slate-200 rounded-xl hover:border-slate-800 cursor-pointer flex justify-between"><span>Audio-Technica</span><span class="text-slate-400 font-bold">14</span></div>
+        <div class="p-2 bg-white border border-slate-200 rounded-xl hover:border-slate-800 cursor-pointer flex justify-between"><span>Anker</span><span class="text-slate-400 font-bold">21</span></div>
+        <div class="p-2 bg-white border border-slate-200 rounded-xl hover:border-slate-800 cursor-pointer flex justify-between"><span>Baseus</span><span class="text-slate-400 font-bold">18</span></div>
+        <div class="p-2 bg-white border border-slate-200 rounded-xl hover:border-slate-800 cursor-pointer flex justify-between"><span>Bose</span><span class="text-slate-400 font-bold">16</span></div>
+        <div class="p-2 bg-white border border-slate-200 rounded-xl hover:border-slate-800 cursor-pointer flex justify-between"><span>Behringer</span><span class="text-slate-400 font-bold">12</span></div>
+        <div class="p-2 bg-white border border-slate-200 rounded-xl hover:border-slate-800 cursor-pointer flex justify-between"><span>Huawei</span><span class="text-slate-400 font-bold">25</span></div>
+        <div class="p-2 bg-white border border-slate-200 rounded-xl hover:border-slate-800 cursor-pointer flex justify-between"><span>HyperX</span><span class="text-slate-400 font-bold">19</span></div>
+        <div class="p-2 bg-white border border-slate-200 rounded-xl hover:border-slate-800 cursor-pointer flex justify-between"><span>JBL</span><span class="text-slate-400 font-bold">52</span></div>
+        <div class="p-2 bg-white border border-slate-200 rounded-xl hover:border-slate-800 cursor-pointer flex justify-between"><span>Jabra</span><span class="text-slate-400 font-bold">38</span></div>
+        <div class="p-2 bg-white border border-slate-200 rounded-xl hover:border-slate-800 cursor-pointer flex justify-between"><span>KZ</span><span class="text-slate-400 font-bold">15</span></div>
+        <div class="p-2 bg-white border border-slate-200 rounded-xl hover:border-slate-800 cursor-pointer flex justify-between"><span>Marshall</span><span class="text-slate-400 font-bold">19</span></div>
+        <div class="p-2 bg-white border border-slate-200 rounded-xl hover:border-slate-800 cursor-pointer flex justify-between"><span>Razer</span><span class="text-slate-400 font-bold">23</span></div>
+        <div class="p-2 bg-white border border-slate-200 rounded-xl hover:border-slate-800 cursor-pointer flex justify-between"><span>Rampage</span><span class="text-slate-400 font-bold">26</span></div>
+        <div class="p-2 bg-white border border-slate-200 rounded-xl hover:border-slate-800 cursor-pointer flex justify-between"><span>Sennheiser</span><span class="text-slate-400 font-bold">31</span></div>
+        <div class="p-2 bg-white border border-slate-200 rounded-xl hover:border-slate-800 cursor-pointer flex justify-between"><span>Sony</span><span class="text-slate-400 font-bold">45</span></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- OPTION 2: HORIZONTAL SNAP SCROLL -->
+  <div class="max-w-5xl mx-auto bg-white border border-slate-200 rounded-3xl p-6 sm:p-8 shadow-sm space-y-6">
+    <div class="flex items-center justify-between">
+      <div>
+        <h2 class="text-xl font-black text-slate-900">2. Tek Satır Yatay Kaydırma Şeridi (Horizontal Scroll)</h2>
+        <p class="text-xs text-slate-500">Tüm markalar tek bir satırda toplanır. Sağa ve sola oklarla veya mouse/parmakla kaydırılır.</p>
+      </div>
+      <span class="text-xs font-bold bg-slate-100 text-slate-600 px-3 py-1 rounded-full">SEÇENEK 2</span>
+    </div>
+
+    <!-- Live Component Preview -->
+    <div class="relative bg-slate-50 border border-slate-200/90 rounded-2xl p-4">
+      <button onclick="document.getElementById('scrollContainer').scrollBy({left: -200, behavior: 'smooth'})" class="absolute left-2 top-1/2 -translate-y-1/2 z-10 w-8 h-8 rounded-full bg-white shadow-md border border-slate-200 flex items-center justify-center text-xs hover:bg-slate-100 cursor-pointer">
+        <i class="fa-solid fa-chevron-left"></i>
+      </button>
+
+      <div id="scrollContainer" class="flex items-center gap-2 overflow-x-auto no-scrollbar scroll-smooth px-10">
+        <button class="px-4 py-2 rounded-full text-xs font-bold bg-slate-900 text-white shrink-0">Tümü</button>
+        <button class="px-3.5 py-2 rounded-full text-xs font-semibold bg-white border border-slate-200 text-slate-700 shrink-0">Sony</button>
+        <button class="px-3.5 py-2 rounded-full text-xs font-semibold bg-white border border-slate-200 text-slate-700 shrink-0">JBL</button>
+        <button class="px-3.5 py-2 rounded-full text-xs font-semibold bg-white border border-slate-200 text-slate-700 shrink-0">Sennheiser</button>
+        <button class="px-3.5 py-2 rounded-full text-xs font-semibold bg-white border border-slate-200 text-slate-700 shrink-0">Jabra</button>
+        <button class="px-3.5 py-2 rounded-full text-xs font-semibold bg-white border border-slate-200 text-slate-700 shrink-0">Apple</button>
+        <button class="px-3.5 py-2 rounded-full text-xs font-semibold bg-white border border-slate-200 text-slate-700 shrink-0">Samsung</button>
+        <button class="px-3.5 py-2 rounded-full text-xs font-semibold bg-white border border-slate-200 text-slate-700 shrink-0">Huawei</button>
+        <button class="px-3.5 py-2 rounded-full text-xs font-semibold bg-white border border-slate-200 text-slate-700 shrink-0">Razer</button>
+        <button class="px-3.5 py-2 rounded-full text-xs font-semibold bg-white border border-slate-200 text-slate-700 shrink-0">SteelSeries</button>
+        <button class="px-3.5 py-2 rounded-full text-xs font-semibold bg-white border border-slate-200 text-slate-700 shrink-0">Anker</button>
+        <button class="px-3.5 py-2 rounded-full text-xs font-semibold bg-white border border-slate-200 text-slate-700 shrink-0">Bose</button>
+        <button class="px-3.5 py-2 rounded-full text-xs font-semibold bg-white border border-slate-200 text-slate-700 shrink-0">HyperX</button>
+        <button class="px-3.5 py-2 rounded-full text-xs font-semibold bg-white border border-slate-200 text-slate-700 shrink-0">Marshall</button>
+      </div>
+
+      <button onclick="document.getElementById('scrollContainer').scrollBy({left: 200, behavior: 'smooth'})" class="absolute right-2 top-1/2 -translate-y-1/2 z-10 w-8 h-8 rounded-full bg-white shadow-md border border-slate-200 flex items-center justify-center text-xs hover:bg-slate-100 cursor-pointer">
+        <i class="fa-solid fa-chevron-right"></i>
+      </button>
+    </div>
+  </div>
+
+  <!-- OPTION 3: DROPDOWN SELECTOR -->
+  <div class="max-w-5xl mx-auto bg-white border border-slate-200 rounded-3xl p-6 sm:p-8 shadow-sm space-y-6">
+    <div class="flex items-center justify-between">
+      <div>
+        <h2 class="text-xl font-black text-slate-900">3. Akıllı Arama & Dropdown Filtre Barı</h2>
+        <p class="text-xs text-slate-500">Marka butonları tamamen kaldırılır, arama çubuğunun yanına şık bir açılır menü (dropdown) yerleştirilir.</p>
+      </div>
+      <span class="text-xs font-bold bg-slate-100 text-slate-600 px-3 py-1 rounded-full">SEÇENEK 3</span>
+    </div>
+
+    <!-- Live Component Preview -->
+    <div class="bg-slate-50 border border-slate-200/90 rounded-2xl p-6">
+      <div class="flex flex-col sm:flex-row items-stretch sm:items-center gap-3">
+        <div class="relative flex-1">
+          <i class="fa-solid fa-magnifying-glass text-slate-400 absolute left-4 top-1/2 -translate-y-1/2 text-xs"></i>
+          <input 
+            type="text" 
+            placeholder="Ses ve kulaklık ara (model, özellik)..." 
+            class="w-full bg-white border border-slate-300 rounded-full pl-10 pr-4 py-2.5 text-xs font-semibold outline-none focus:border-slate-900"
+          />
+        </div>
+
+        <select class="bg-white border border-slate-300 rounded-full px-5 py-2.5 text-xs font-bold text-slate-800 outline-none cursor-pointer">
+          <option value="all">Marka: Tüm Markalar (100+)</option>
+          <option value="sony">Sony (45)</option>
+          <option value="jbl">JBL (52)</option>
+          <option value="sennheiser">Sennheiser (31)</option>
+          <option value="jabra">Jabra (38)</option>
+          <option value="apple">Apple (28)</option>
+          <option value="samsung">Samsung (34)</option>
+          <option value="huawei">Huawei (25)</option>
+          <option value="razer">Razer (23)</option>
+          <option value="steelseries">SteelSeries (22)</option>
+        </select>
+
+        <select class="bg-white border border-slate-300 rounded-full px-5 py-2.5 text-xs font-bold text-slate-800 outline-none cursor-pointer">
+          <option value="popular">Öne Çıkanlar</option>
+          <option value="priceAsc">Fiyat: Düşükten Yükseğe</option>
+          <option value="priceDesc">Fiyat: Yüksekten Düşüğe</option>
+          <option value="rating">En Yüksek Puanlılar</option>
+        </select>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function toggleModal() {
+      const modal = document.getElementById('brandModal');
+      modal.classList.toggle('hidden');
+    }
+
+    function filterBrandsLive() {
+      const query = document.getElementById('mockBrandSearch').value.toLowerCase();
+      const items = document.getElementById('brandGrid').children;
+      for (let item of items) {
+        const text = item.firstElementChild.textContent.toLowerCase();
+        if (text.includes(query)) {
+          item.style.display = 'flex';
+        } else {
+          item.style.display = 'none';
+        }
+      }
+    }
+  </script>
+</body>
+</html>

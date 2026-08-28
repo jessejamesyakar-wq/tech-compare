@@ -1,13 +1,14 @@
 'use client';
 
-import React, { useState, useMemo } from 'react';
+import React, { useState, useMemo, useRef, useEffect } from 'react';
 import Link from 'next/link';
 import { Product } from '@/lib/types';
 import { CompactProductCard } from '@/components/catalog/CompactProductCard';
 import { CategoryIconStrip } from '@/components/layout/CategoryIconStrip';
-import { Search, ChevronDown, SlidersHorizontal, Sparkles, Check } from 'lucide-react';
+import { Search, ChevronDown, SlidersHorizontal, Sparkles, Check, X, Layers, Filter } from 'lucide-react';
 
 const ITEMS_PER_PAGE = 24;
+const POPULAR_BRANDS_LIMIT = 8;
 
 const TABS = [
   { id: 'all', label: 'Tümü' },
@@ -25,14 +26,49 @@ export default function HeadphonesClient({ initialProducts }: { initialProducts:
   const [sortBy, setSortBy] = useState('popular');
   const [visibleCount, setVisibleCount] = useState(ITEMS_PER_PAGE);
 
-  // Available brands derived dynamically
-  const brands = useMemo(() => {
-    const set = new Set<string>();
+  // Modal / Drawer state for "All Brands"
+  const [isBrandModalOpen, setIsBrandModalOpen] = useState(false);
+  const [brandSearchQuery, setBrandSearchQuery] = useState('');
+  const modalInputRef = useRef<HTMLInputElement>(null);
+
+  // Compute brand counts and sorted lists
+  const { brandCounts, sortedBrands, topBrands, otherBrands } = useMemo(() => {
+    const counts: Record<string, number> = {};
     products.forEach((p) => {
-      if (p.brand) set.add(p.brand);
+      if (p.brand) {
+        counts[p.brand] = (counts[p.brand] || 0) + 1;
+      }
     });
-    return Array.from(set);
+
+    const sorted = Object.keys(counts).sort((a, b) => counts[b] - counts[a]);
+    const top = sorted.slice(0, POPULAR_BRANDS_LIMIT);
+    const others = sorted.slice(POPULAR_BRANDS_LIMIT);
+
+    return {
+      brandCounts: counts,
+      sortedBrands: sorted,
+      topBrands: top,
+      otherBrands: others
+    };
   }, [products]);
+
+  // Filtered brands for modal search
+  const modalFilteredBrands = useMemo(() => {
+    if (!brandSearchQuery.trim()) {
+      return sortedBrands;
+    }
+    const q = brandSearchQuery.toLowerCase();
+    return sortedBrands.filter((b) => b.toLowerCase().includes(q));
+  }, [sortedBrands, brandSearchQuery]);
+
+  // Focus modal search input when modal opens
+  useEffect(() => {
+    if (isBrandModalOpen) {
+      setTimeout(() => modalInputRef.current?.focus(), 50);
+    } else {
+      setBrandSearchQuery('');
+    }
+  }, [isBrandModalOpen]);
 
   // Filter products by tab, brand, search, and sort
   const displayProducts = useMemo(() => {
@@ -97,6 +133,9 @@ export default function HeadphonesClient({ initialProducts }: { initialProducts:
         return (b.isPopular ? 1 : 0) - (a.isPopular ? 1 : 0);
       });
   }, [products, searchQuery, selectedBrand, activeTab, sortBy]);
+
+  // Is selected brand outside of top list?
+  const isCustomBrandSelected = selectedBrand !== 'all' && !topBrands.includes(selectedBrand);
 
   return (
     <div className="space-y-8 pb-16 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -177,38 +216,213 @@ export default function HeadphonesClient({ initialProducts }: { initialProducts:
         })}
       </div>
 
-      {/* Minimalist Brand Chips */}
-      <div className="flex items-center justify-start sm:justify-center gap-1.5 overflow-x-auto sm:flex-wrap pb-1 scrollbar-none px-2 -mx-2">
+      {/* Modern Clean Brand Bar (Single-row with Popular Brands + "All Brands" Search Modal) */}
+      <div className="flex items-center justify-start sm:justify-center gap-1.5 overflow-x-auto no-scrollbar py-1 px-1 -mx-1">
+        {/* All Brands Pill */}
         <button
           onClick={() => {
             setSelectedBrand('all');
             setVisibleCount(ITEMS_PER_PAGE);
           }}
-          className={`px-3.5 py-1.5 rounded-full text-xs font-semibold transition-all cursor-pointer whitespace-nowrap shrink-0 ${
+          className={`px-3.5 py-1.5 rounded-full text-xs font-bold transition-all cursor-pointer whitespace-nowrap shrink-0 flex items-center gap-1.5 ${
             selectedBrand === 'all'
               ? 'bg-slate-900 text-white shadow-xs'
-              : 'bg-slate-100 hover:bg-slate-200 text-slate-600'
+              : 'bg-slate-100 hover:bg-slate-200 text-slate-700'
           }`}
         >
-          Tüm Markalar
+          <span>Tüm Markalar</span>
+          <span className={`text-[10px] px-1.5 py-0.2 rounded-full font-medium ${selectedBrand === 'all' ? 'bg-white/20 text-white' : 'bg-slate-200/70 text-slate-500'}`}>
+            {products.length}
+          </span>
         </button>
-        {brands.map((b) => (
+
+        {/* If user selected a brand outside of top list, show it pinned first with active clear button */}
+        {isCustomBrandSelected && (
           <button
-            key={b}
             onClick={() => {
-              setSelectedBrand(b);
+              setSelectedBrand('all');
               setVisibleCount(ITEMS_PER_PAGE);
             }}
-            className={`px-3.5 py-1.5 rounded-full text-xs font-semibold transition-all cursor-pointer whitespace-nowrap shrink-0 ${
-              selectedBrand === b
-                ? 'bg-slate-900 text-white shadow-xs'
-                : 'bg-slate-100 hover:bg-slate-200 text-slate-600'
-            }`}
+            className="px-3.5 py-1.5 rounded-full text-xs font-bold bg-emerald-600 hover:bg-emerald-700 text-white shadow-xs transition-all cursor-pointer whitespace-nowrap shrink-0 flex items-center gap-1.5"
+            title="Marka filtresini kaldır"
           >
-            {b}
+            <span>{selectedBrand}</span>
+            <span className="text-[10px] bg-white/20 px-1.5 py-0.2 rounded-full font-medium">
+              {brandCounts[selectedBrand] || 0}
+            </span>
+            <X className="w-3 h-3 ml-0.5" />
           </button>
-        ))}
+        )}
+
+        {/* Top 8 Popular Brands */}
+        {topBrands.map((brandName) => {
+          const isSelected = selectedBrand === brandName;
+          const count = brandCounts[brandName] || 0;
+          return (
+            <button
+              key={brandName}
+              onClick={() => {
+                setSelectedBrand(isSelected ? 'all' : brandName);
+                setVisibleCount(ITEMS_PER_PAGE);
+              }}
+              className={`px-3.5 py-1.5 rounded-full text-xs font-semibold transition-all cursor-pointer whitespace-nowrap shrink-0 flex items-center gap-1.5 ${
+                isSelected
+                  ? 'bg-slate-900 text-white shadow-xs font-bold'
+                  : 'bg-slate-100 hover:bg-slate-200 text-slate-700'
+              }`}
+            >
+              <span>{brandName}</span>
+              <span className={`text-[10px] font-medium px-1.5 py-0.2 rounded-full ${isSelected ? 'bg-white/20 text-white' : 'bg-slate-200/70 text-slate-400'}`}>
+                {count}
+              </span>
+            </button>
+          );
+        })}
+
+        {/* "+ Diğer Markalar" Modal Trigger Button */}
+        <button
+          onClick={() => setIsBrandModalOpen(true)}
+          className={`px-3.5 py-1.5 rounded-full text-xs font-bold transition-all cursor-pointer whitespace-nowrap shrink-0 flex items-center gap-1.5 border ${
+            isCustomBrandSelected
+              ? 'bg-emerald-50 text-emerald-800 border-emerald-300 hover:bg-emerald-100'
+              : 'bg-white hover:bg-slate-100 text-slate-700 border-slate-200/90 shadow-2xs'
+          }`}
+        >
+          <Search className="w-3 h-3 text-slate-400" />
+          <span>Tüm Markalar ({sortedBrands.length})</span>
+          <ChevronDown className="w-3 h-3 text-slate-400" />
+        </button>
       </div>
+
+      {/* Brand Search & Selection Modal / Drawer */}
+      {isBrandModalOpen && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-slate-900/40 backdrop-blur-xs animate-in fade-in duration-150">
+          <div 
+            className="bg-white rounded-3xl shadow-2xl border border-slate-200/80 w-full max-w-2xl max-h-[85vh] flex flex-col overflow-hidden animate-in zoom-in-95 duration-150"
+            onClick={(e) => e.stopPropagation()}
+          >
+            {/* Modal Header */}
+            <div className="px-6 pt-6 pb-4 border-b border-slate-100 flex items-center justify-between">
+              <div>
+                <h3 className="text-base font-black text-slate-900 flex items-center gap-2">
+                  <SlidersHorizontal className="w-4 h-4 text-emerald-600" />
+                  <span>Tüm Markalar ({sortedBrands.length})</span>
+                </h3>
+                <p className="text-xs text-slate-500 font-medium mt-0.5">
+                  Kulaklık modellerini markaya göre filtreleyin
+                </p>
+              </div>
+              <button
+                onClick={() => setIsBrandModalOpen(false)}
+                className="w-8 h-8 rounded-full bg-slate-100 hover:bg-slate-200 text-slate-600 flex items-center justify-center transition-colors cursor-pointer"
+              >
+                <X className="w-4 h-4" />
+              </button>
+            </div>
+
+            {/* Modal Search Input */}
+            <div className="p-4 bg-slate-50/70 border-b border-slate-100">
+              <div className="relative">
+                <Search className="w-4 h-4 text-slate-400 absolute left-3.5 top-1/2 -translate-y-1/2" />
+                <input
+                  ref={modalInputRef}
+                  type="text"
+                  placeholder="Marka adı yazın (örn: Razer, Snopy, Bose, Anker)..."
+                  value={brandSearchQuery}
+                  onChange={(e) => setBrandSearchQuery(e.target.value)}
+                  className="w-full bg-white border border-slate-200 focus:border-slate-800 rounded-xl pl-10 pr-9 py-2.5 text-xs font-semibold text-slate-800 outline-none transition-all shadow-2xs placeholder:text-slate-400"
+                />
+                {brandSearchQuery && (
+                  <button
+                    onClick={() => setBrandSearchQuery('')}
+                    className="absolute right-3 top-1/2 -translate-y-1/2 text-slate-400 hover:text-slate-600 text-xs"
+                  >
+                    <X className="w-3.5 h-3.5" />
+                  </button>
+                )}
+              </div>
+            </div>
+
+            {/* Modal Brands Grid */}
+            <div className="p-6 overflow-y-auto flex-1 max-h-[55vh] space-y-4">
+              {modalFilteredBrands.length > 0 ? (
+                <div className="grid grid-cols-2 sm:grid-cols-3 gap-2">
+                  {/* Reset Option */}
+                  <button
+                    onClick={() => {
+                      setSelectedBrand('all');
+                      setIsBrandModalOpen(false);
+                      setVisibleCount(ITEMS_PER_PAGE);
+                    }}
+                    className={`px-3.5 py-2.5 rounded-xl text-left text-xs font-bold transition-all flex items-center justify-between border cursor-pointer ${
+                      selectedBrand === 'all'
+                        ? 'bg-slate-900 text-white border-slate-900 shadow-xs'
+                        : 'bg-white hover:bg-slate-50 text-slate-700 border-slate-200'
+                    }`}
+                  >
+                    <span>Tüm Markalar</span>
+                    <span className={`text-[10px] px-2 py-0.5 rounded-md font-semibold ${selectedBrand === 'all' ? 'bg-white/20 text-white' : 'bg-slate-100 text-slate-500'}`}>
+                      {products.length}
+                    </span>
+                  </button>
+
+                  {modalFilteredBrands.map((b) => {
+                    const isSelected = selectedBrand === b;
+                    const count = brandCounts[b] || 0;
+                    return (
+                      <button
+                        key={b}
+                        onClick={() => {
+                          setSelectedBrand(isSelected ? 'all' : b);
+                          setIsBrandModalOpen(false);
+                          setVisibleCount(ITEMS_PER_PAGE);
+                        }}
+                        className={`px-3.5 py-2.5 rounded-xl text-left text-xs font-semibold transition-all flex items-center justify-between border cursor-pointer ${
+                          isSelected
+                            ? 'bg-slate-900 text-white border-slate-900 shadow-xs font-bold'
+                            : 'bg-white hover:bg-slate-50 hover:border-slate-300 text-slate-700 border-slate-200/90'
+                        }`}
+                      >
+                        <span className="truncate mr-1">{b}</span>
+                        <span className={`text-[10px] px-2 py-0.5 rounded-md font-semibold shrink-0 ${isSelected ? 'bg-white/20 text-white' : 'bg-slate-100 text-slate-500'}`}>
+                          {count}
+                        </span>
+                      </button>
+                    );
+                  })}
+                </div>
+              ) : (
+                <div className="py-10 text-center text-slate-400 space-y-2">
+                  <p className="text-xs font-semibold">"{brandSearchQuery}" aramasına uygun marka bulunamadı.</p>
+                  <button
+                    onClick={() => setBrandSearchQuery('')}
+                    className="text-xs text-emerald-600 font-bold hover:underline"
+                  >
+                    Aramayı Temizle
+                  </button>
+                </div>
+              )}
+            </div>
+
+            {/* Modal Footer */}
+            <div className="px-6 py-3 bg-slate-50 border-t border-slate-100 flex items-center justify-between text-xs">
+              <span className="text-slate-500 font-medium">
+                {modalFilteredBrands.length} marka gösteriliyor
+              </span>
+              <button
+                onClick={() => {
+                  setSelectedBrand('all');
+                  setIsBrandModalOpen(false);
+                  setVisibleCount(ITEMS_PER_PAGE);
+                }}
+                className="text-slate-600 hover:text-slate-900 font-bold underline cursor-pointer"
+              >
+                Filtreyi Sıfırla
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
 
       {/* Products Grid */}
       {displayProducts.length > 0 ? (
