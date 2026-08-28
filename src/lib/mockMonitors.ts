@@ -2,6 +2,1817 @@ import { Product } from './types';
 
 export const mockMonitors: Product[] = [
   {
+    "id": "koorui-g2721e",
+    "slug": "koorui-g2721e",
+    "name": "Koorui G2721E 27 inç 320Hz 1ms WQHD Fast IPS Gaming Monitör",
+    "brand": "Koorui",
+    "category": "monitors",
+    "rating": 4.8,
+    "epeyScore": 73,
+    "reviewCount": 210,
+    "basePrice": 14999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/monitors/koorui-g2721e.jpg",
+    "images": [
+      "/images/monitors/koorui-g2721e.jpg"
+    ],
+    "highlights": [
+      "27 inç WQHD (2560x1440) 320Hz Ultra Yüksek Yenileme Hızı Fast IPS Panel",
+      "1ms (GtG) Tepki Süresi, VESA DisplayHDR 400 ve FreeSync/G-Sync Desteği",
+      "%95 DCI-P3 / %100 sRGB Renk Gamutu ve Pivot Destekli Stand"
+    ],
+    "specs": {
+      "screenSizeInches": 27,
+      "resolution": "2560x1440 (WQHD)",
+      "panelType": "Fast IPS",
+      "refreshRateHz": 320,
+      "responseTimeMs": 1,
+      "syncTechnology": "FreeSync Premium",
+      "aspectRatio": "16:9",
+      "brightnessNits": 400,
+      "contrastRatio": "1000:1",
+      "hdrSupport": "DisplayHDR 400"
+    },
+    "storeOffers": [
+      {
+        "id": "so-koorui-g2721e-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "bg-orange-500",
+        "price": 14999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime",
+          "Popüler Tercih"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1420,
+        "url": "https://www.amazon.com.tr"
+      },
+      {
+        "id": "so-koorui-g2721e-2",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-amber-500",
+        "price": 15299,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 890,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 15599,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 14999,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "dell-alienware-aw2725dm",
+    "slug": "dell-alienware-aw2725dm",
+    "name": "Dell Alienware AW2725DM 27 inç 180Hz 1ms WQHD Fast IPS Gaming Monitör",
+    "brand": "Dell",
+    "category": "monitors",
+    "rating": 4.8,
+    "epeyScore": 73,
+    "reviewCount": 380,
+    "basePrice": 12899,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/monitors/dell-alienware-aw2725dm.jpg",
+    "images": [
+      "/images/monitors/dell-alienware-aw2725dm.jpg"
+    ],
+    "highlights": [
+      "27 inç WQHD (2560x1440) 180Hz Fast IPS Panel",
+      "1ms (GtG) Tepki Süresi, VESA DisplayHDR 400 ve G-Sync Uyumlu",
+      "AlienFX Aydınlatma, Legend 2.0 İkonik Tasarım ve Ergonomik Stand"
+    ],
+    "specs": {
+      "screenSizeInches": 27,
+      "resolution": "2560x1440 (WQHD)",
+      "panelType": "Fast IPS",
+      "refreshRateHz": 180,
+      "responseTimeMs": 1,
+      "syncTechnology": "G-Sync Compatible",
+      "aspectRatio": "16:9",
+      "brightnessNits": 400,
+      "contrastRatio": "1000:1",
+      "hdrSupport": "DisplayHDR 400"
+    },
+    "storeOffers": [
+      {
+        "id": "so-dell-alienware-aw2725dm-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "bg-orange-500",
+        "price": 12899,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime",
+          "Popüler Tercih"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1420,
+        "url": "https://www.amazon.com.tr"
+      },
+      {
+        "id": "so-dell-alienware-aw2725dm-2",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-amber-500",
+        "price": 13157,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 890,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 13415,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 12899,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "lenovo-thinkvision-t32p-30",
+    "slug": "lenovo-thinkvision-t32p-30",
+    "name": "Lenovo ThinkVision T32p-30 31.5 inç 4K UHD IPS USB-C (90W PD) RJ45 Monitör",
+    "brand": "Lenovo",
+    "category": "monitors",
+    "rating": 4.8,
+    "epeyScore": 73,
+    "reviewCount": 160,
+    "basePrice": 55738.75,
+    "currency": "TL",
+    "releaseYear": 2023,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/monitors/lenovo-thinkvision-t32p-30.jpg",
+    "images": [
+      "/images/monitors/lenovo-thinkvision-t32p-30.jpg"
+    ],
+    "highlights": [
+      "31.5 inç 4K UHD (3840x2160) Çerçevesiz IPS Panel",
+      "USB-C (90W PD, RJ45 Ethernet, USB Hub, KVM Desteği)",
+      "Fabrika Çıkışlı %99 sRGB, %95 DCI-P3 Renk Kalibrasyonu ve Pivot Stand"
+    ],
+    "specs": {
+      "screenSizeInches": 31.5,
+      "resolution": "3840x2160 (4K UHD)",
+      "panelType": "IPS",
+      "refreshRateHz": 60,
+      "responseTimeMs": 4,
+      "aspectRatio": "16:9",
+      "brightnessNits": 350,
+      "contrastRatio": "1000:1",
+      "hdrSupport": "HDR10"
+    },
+    "storeOffers": [
+      {
+        "id": "so-lenovo-thinkvision-t32p-30-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "bg-orange-500",
+        "price": 55738.75,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime",
+          "Popüler Tercih"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1420,
+        "url": "https://www.amazon.com.tr"
+      },
+      {
+        "id": "so-lenovo-thinkvision-t32p-30-2",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-amber-500",
+        "price": 56854,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 890,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 57968,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 55738.75,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "viewsonic-va3420c",
+    "slug": "viewsonic-va3420c",
+    "name": "ViewSonic VA3420C 34.1 inç 120Hz UWQHD IPS USB-C (96W PD) KVM Monitör",
+    "brand": "ViewSonic",
+    "category": "monitors",
+    "rating": 4.8,
+    "epeyScore": 73,
+    "reviewCount": 220,
+    "basePrice": 25537,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/monitors/viewsonic-va3420c.jpg",
+    "images": [
+      "/images/monitors/viewsonic-va3420c.jpg"
+    ],
+    "highlights": [
+      "34.1 inç 21:9 Ultra Geniş UWQHD (3440x1440) 120Hz IPS Panel",
+      "USB-C (96W PD, RJ45 Ethernet, KVM Switch, USB Hub)",
+      "HDR10 Desteği, Dahili Stereo Hoparlör ve Çoklu Kaynak Yönetimi"
+    ],
+    "specs": {
+      "screenSizeInches": 34.1,
+      "resolution": "3440x1440 (UWQHD)",
+      "panelType": "IPS",
+      "refreshRateHz": 120,
+      "responseTimeMs": 4,
+      "aspectRatio": "21:9",
+      "brightnessNits": 350,
+      "contrastRatio": "1000:1",
+      "hdrSupport": "HDR10"
+    },
+    "storeOffers": [
+      {
+        "id": "so-viewsonic-va3420c-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "bg-orange-500",
+        "price": 25537,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime",
+          "Popüler Tercih"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1420,
+        "url": "https://www.amazon.com.tr"
+      },
+      {
+        "id": "so-viewsonic-va3420c-2",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-amber-500",
+        "price": 26048,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 890,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 26558,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 25537,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "asus-rog-swift-pro-pg248qp",
+    "slug": "asus-rog-swift-pro-pg248qp",
+    "name": "Asus ROG Swift Pro PG248QP 24.1 inç 540Hz 0.2ms E-TN NVIDIA G-Sync Reflex Monitör",
+    "brand": "Asus",
+    "category": "monitors",
+    "rating": 4.9,
+    "epeyScore": 73,
+    "reviewCount": 410,
+    "basePrice": 45089.59,
+    "currency": "TL",
+    "releaseYear": 2023,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/monitors/asus-rog-swift-pro-pg248qp.jpg",
+    "images": [
+      "/images/monitors/asus-rog-swift-pro-pg248qp.jpg"
+    ],
+    "highlights": [
+      "24.1 inç FHD (1920x1080) Dünyanın En Hızlı 540Hz (OC) Esports-TN Paneli",
+      "0.2ms Tepki Süresi, Donanımsal NVIDIA G-Sync Modülü & NVIDIA Reflex Analyzer",
+      "ULMB 2 Ultra Düşük Hareket Bulanıklığı, Geri Çekilebilir Pençe Taban ve ESS DAC"
+    ],
+    "specs": {
+      "screenSizeInches": 24.1,
+      "resolution": "1920x1080 (FHD)",
+      "panelType": "TN (Esports-TN)",
+      "refreshRateHz": 540,
+      "responseTimeMs": 0.2,
+      "syncTechnology": "G-Sync",
+      "aspectRatio": "16:9",
+      "brightnessNits": 400,
+      "contrastRatio": "1000:1",
+      "hdrSupport": "DisplayHDR 400"
+    },
+    "storeOffers": [
+      {
+        "id": "so-asus-rog-swift-pro-pg248qp-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "bg-orange-500",
+        "price": 45089.59,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime",
+          "Popüler Tercih"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1420,
+        "url": "https://www.amazon.com.tr"
+      },
+      {
+        "id": "so-asus-rog-swift-pro-pg248qp-2",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-amber-500",
+        "price": 45991,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 890,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 46893,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 45089.59,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "tcl-27g64",
+    "slug": "tcl-27g64",
+    "name": "TCL 27G64 27 inç 180Hz 1ms WQHD Fast VA Gaming Monitör",
+    "brand": "TCL",
+    "category": "monitors",
+    "rating": 4.7,
+    "epeyScore": 73,
+    "reviewCount": 290,
+    "basePrice": 12479.04,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/monitors/tcl-27g64.jpg",
+    "images": [
+      "/images/monitors/tcl-27g64.jpg"
+    ],
+    "highlights": [
+      "27 inç WQHD (2560x1440) 180Hz Fast VA Panel (4000:1 Kontrast)",
+      "1ms (GtG) Tepki Süresi, VESA DisplayHDR 400 ve FreeSync",
+      "%95 DCI-P3 / %99 sRGB Renk Gamutu ve Çerçevesiz Tasarım"
+    ],
+    "specs": {
+      "screenSizeInches": 27,
+      "resolution": "2560x1440 (WQHD)",
+      "panelType": "Fast VA",
+      "refreshRateHz": 180,
+      "responseTimeMs": 1,
+      "syncTechnology": "FreeSync",
+      "aspectRatio": "16:9",
+      "brightnessNits": 400,
+      "contrastRatio": "4000:1",
+      "hdrSupport": "DisplayHDR 400"
+    },
+    "storeOffers": [
+      {
+        "id": "so-tcl-27g64-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "bg-orange-500",
+        "price": 12479.04,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime",
+          "Popüler Tercih"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1420,
+        "url": "https://www.amazon.com.tr"
+      },
+      {
+        "id": "so-tcl-27g64-2",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-amber-500",
+        "price": 12729,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 890,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 12978,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 12479.04,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "asus-tuf-gaming-vg32uqa1a",
+    "slug": "asus-tuf-gaming-vg32uqa1a",
+    "name": "Asus TUF Gaming VG32UQA1A 31.5 inç 160Hz 1ms 4K UHD VA Monitör",
+    "brand": "Asus",
+    "category": "monitors",
+    "rating": 4.8,
+    "epeyScore": 73,
+    "reviewCount": 310,
+    "basePrice": 94611.25,
+    "currency": "TL",
+    "releaseYear": 2023,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/monitors/asus-tuf-gaming-vg32uqa1a.jpg",
+    "images": [
+      "/images/monitors/asus-tuf-gaming-vg32uqa1a.jpg"
+    ],
+    "highlights": [
+      "31.5 inç 4K UHD (3840x2160) 160Hz (OC) VA Panel",
+      "1ms (MPRT) Tepki Süresi, ELMB Sync ve VESA DisplayHDR 400",
+      "FreeSync Premium, Dahili Hoparlör (2x2W) ve USB Hub"
+    ],
+    "specs": {
+      "screenSizeInches": 31.5,
+      "resolution": "3840x2160 (4K UHD)",
+      "panelType": "VA",
+      "refreshRateHz": 160,
+      "responseTimeMs": 1,
+      "syncTechnology": "FreeSync Premium",
+      "aspectRatio": "16:9",
+      "brightnessNits": 400,
+      "contrastRatio": "2500:1",
+      "hdrSupport": "DisplayHDR 400"
+    },
+    "storeOffers": [
+      {
+        "id": "so-asus-tuf-gaming-vg32uqa1a-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "bg-orange-500",
+        "price": 94611.25,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime",
+          "Popüler Tercih"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1420,
+        "url": "https://www.amazon.com.tr"
+      },
+      {
+        "id": "so-asus-tuf-gaming-vg32uqa1a-2",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-amber-500",
+        "price": 96503,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 890,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 98396,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 94611.25,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "gamepower-royal-t20",
+    "slug": "gamepower-royal-t20",
+    "name": "GamePower Royal T20 27 inç 180Hz 0.5ms WQHD Fast IPS Gaming Monitör",
+    "brand": "Gamepower",
+    "category": "monitors",
+    "rating": 4.7,
+    "epeyScore": 73,
+    "reviewCount": 260,
+    "basePrice": 18145,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/monitors/gamepower-royal-t20.jpg",
+    "images": [
+      "/images/monitors/gamepower-royal-t20.jpg"
+    ],
+    "highlights": [
+      "27 inç WQHD (2560x1440) 180Hz Fast IPS Panel",
+      "0.5ms (MPRT) Tepki Süresi, HDR Ready ve FreeSync/G-Sync Uyumlu",
+      "RGB Arka Aydınlatma, Dahili Hoparlör ve Ergonomik Stand"
+    ],
+    "specs": {
+      "screenSizeInches": 27,
+      "resolution": "2560x1440 (WQHD)",
+      "panelType": "Fast IPS",
+      "refreshRateHz": 180,
+      "responseTimeMs": 0.5,
+      "syncTechnology": "FreeSync",
+      "aspectRatio": "16:9",
+      "brightnessNits": 350,
+      "contrastRatio": "1000:1",
+      "hdrSupport": "HDR Ready"
+    },
+    "storeOffers": [
+      {
+        "id": "so-gamepower-royal-t20-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "bg-orange-500",
+        "price": 18145,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime",
+          "Popüler Tercih"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1420,
+        "url": "https://www.amazon.com.tr"
+      },
+      {
+        "id": "so-gamepower-royal-t20-2",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-amber-500",
+        "price": 18508,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 890,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 18871,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 18145,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "benq-ma320up",
+    "slug": "benq-ma320up",
+    "name": "BenQ MA320UP 31.5 inç 4K UHD Mac IPS USB-C (90W PD) Daisy Chain Monitör",
+    "brand": "BenQ",
+    "category": "monitors",
+    "rating": 4.8,
+    "epeyScore": 73,
+    "reviewCount": 230,
+    "basePrice": 31959.06,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/monitors/benq-ma320up.jpg",
+    "images": [
+      "/images/monitors/benq-ma320up.jpg"
+    ],
+    "highlights": [
+      "31.5 inç 4K UHD (3840x2160) MacBook için Optimize Edilmiş Nano Mat IPS Panel",
+      "USB-C (90W PD, DisplayPort Daisy Chain), Dahili TreVolo Hoparlör",
+      "macOS Ekran Parlaklığı & Ses Seviyesi Senkronizasyonu (Display Pilot 2)"
+    ],
+    "specs": {
+      "screenSizeInches": 31.5,
+      "resolution": "3840x2160 (4K UHD)",
+      "panelType": "IPS",
+      "refreshRateHz": 60,
+      "responseTimeMs": 5,
+      "aspectRatio": "16:9",
+      "brightnessNits": 400,
+      "contrastRatio": "1200:1",
+      "hdrSupport": "DisplayHDR 400"
+    },
+    "storeOffers": [
+      {
+        "id": "so-benq-ma320up-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "bg-orange-500",
+        "price": 31959.06,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime",
+          "Popüler Tercih"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1420,
+        "url": "https://www.amazon.com.tr"
+      },
+      {
+        "id": "so-benq-ma320up-2",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-amber-500",
+        "price": 32598,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 890,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 33237,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 31959.06,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "benq-ma320u",
+    "slug": "benq-ma320u",
+    "name": "BenQ MA320U 31.5 inç 4K UHD Mac IPS USB-C (90W PD) Monitör",
+    "brand": "BenQ",
+    "category": "monitors",
+    "rating": 4.8,
+    "epeyScore": 73,
+    "reviewCount": 270,
+    "basePrice": 31499,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/monitors/benq-ma320u.jpg",
+    "images": [
+      "/images/monitors/benq-ma320u.jpg"
+    ],
+    "highlights": [
+      "31.5 inç 4K UHD (3840x2160) MacBook Renk Uyumluluğu ve P3 Geniş Gamut",
+      "USB-C (90W PD, DP Alt Mod, 15W İkincil Port) ve Dahili TreVolo Hoparlör",
+      "DisplayHDR 600, Parlama Önleyici Nano Mat Kaplama ve Ergonomik Stand"
+    ],
+    "specs": {
+      "screenSizeInches": 31.5,
+      "resolution": "3840x2160 (4K UHD)",
+      "panelType": "IPS",
+      "refreshRateHz": 60,
+      "responseTimeMs": 5,
+      "aspectRatio": "16:9",
+      "brightnessNits": 600,
+      "contrastRatio": "1300:1",
+      "hdrSupport": "DisplayHDR 600"
+    },
+    "storeOffers": [
+      {
+        "id": "so-benq-ma320u-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "bg-orange-500",
+        "price": 31499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime",
+          "Popüler Tercih"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1420,
+        "url": "https://www.amazon.com.tr"
+      },
+      {
+        "id": "so-benq-ma320u-2",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-amber-500",
+        "price": 32129,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 890,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 32759,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 31499,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "dell-s2725qs",
+    "slug": "dell-s2725qs",
+    "name": "Dell S2725QS 27 inç 120Hz 4K UHD IPS Monitör (Dahili Hoparlör)",
+    "brand": "Dell",
+    "category": "monitors",
+    "rating": 4.8,
+    "epeyScore": 73,
+    "reviewCount": 340,
+    "basePrice": 14299,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/monitors/dell-s2725qs.jpg",
+    "images": [
+      "/images/monitors/dell-s2725qs.jpg"
+    ],
+    "highlights": [
+      "27 inç 4K UHD (3840x2160) 120Hz Akıcı IPS Panel",
+      "Dahili Stereo Hoparlör (2x5W), %99 sRGB ve HDR Ready",
+      "TÜV Rheinland 4 Yıldızlı Göz Konforu ve Yükseklik/Pivot Standı"
+    ],
+    "specs": {
+      "screenSizeInches": 27,
+      "resolution": "3840x2160 (4K UHD)",
+      "panelType": "IPS",
+      "refreshRateHz": 120,
+      "responseTimeMs": 4,
+      "aspectRatio": "16:9",
+      "brightnessNits": 350,
+      "contrastRatio": "1500:1",
+      "hdrSupport": "HDR Ready"
+    },
+    "storeOffers": [
+      {
+        "id": "so-dell-s2725qs-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "bg-orange-500",
+        "price": 14299,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime",
+          "Popüler Tercih"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1420,
+        "url": "https://www.amazon.com.tr"
+      },
+      {
+        "id": "so-dell-s2725qs-2",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-amber-500",
+        "price": 14585,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 890,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 14871,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 14299,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "hp-e32k-g5-6n4d6aa",
+    "slug": "hp-e32k-g5-6n4d6aa",
+    "name": "HP E32k G5 31.5 inç 4K UHD IPS USB-C (65W PD) RJ45 Monitör",
+    "brand": "HP",
+    "category": "monitors",
+    "rating": 4.8,
+    "epeyScore": 73,
+    "reviewCount": 190,
+    "basePrice": 29689.81,
+    "currency": "TL",
+    "releaseYear": 2023,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/monitors/hp-e32k-g5-6n4d6aa.jpg",
+    "images": [
+      "/images/monitors/hp-e32k-g5-6n4d6aa.jpg"
+    ],
+    "highlights": [
+      "31.5 inç 4K UHD (3840x2160) IPS Kurumsal Monitör",
+      "USB-C (65W PD, RJ45 Gigabit Ethernet, USB Hub, KVM Hazırlığı)",
+      "HP Eye Ease Sürekli Mavi Işık Filtresi ve 4 Yönlü Ergonomik Stand"
+    ],
+    "specs": {
+      "screenSizeInches": 31.5,
+      "resolution": "3840x2160 (4K UHD)",
+      "panelType": "IPS",
+      "refreshRateHz": 60,
+      "responseTimeMs": 5,
+      "aspectRatio": "16:9",
+      "brightnessNits": 350,
+      "contrastRatio": "1000:1",
+      "hdrSupport": "HDR Ready"
+    },
+    "storeOffers": [
+      {
+        "id": "so-hp-e32k-g5-6n4d6aa-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "bg-orange-500",
+        "price": 29689.81,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime",
+          "Popüler Tercih"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1420,
+        "url": "https://www.amazon.com.tr"
+      },
+      {
+        "id": "so-hp-e32k-g5-6n4d6aa-2",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-amber-500",
+        "price": 30284,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 890,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 30877,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 29689.81,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "gameon-gop28uhd144ips",
+    "slug": "gameon-gop28uhd144ips",
+    "name": "Gameon GOP28UHD144IPS 28 inç 144Hz 1ms 4K UHD Fast IPS Monitör",
+    "brand": "Gameon",
+    "category": "monitors",
+    "rating": 4.7,
+    "epeyScore": 73,
+    "reviewCount": 220,
+    "basePrice": 11869.11,
+    "currency": "TL",
+    "releaseYear": 2023,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/monitors/gameon-gop28uhd144ips.jpg",
+    "images": [
+      "/images/monitors/gameon-gop28uhd144ips.jpg"
+    ],
+    "highlights": [
+      "28 inç 4K UHD (3840x2160) 144Hz Fast IPS Panel",
+      "1ms (GtG) Tepki Süresi, HDMI 2.1 (PS5/Xbox 4K 120Hz) ve FreeSync",
+      "VESA DisplayHDR 400 ve Dahili Hoparlör"
+    ],
+    "specs": {
+      "screenSizeInches": 28,
+      "resolution": "3840x2160 (4K UHD)",
+      "panelType": "Fast IPS",
+      "refreshRateHz": 144,
+      "responseTimeMs": 1,
+      "syncTechnology": "FreeSync",
+      "aspectRatio": "16:9",
+      "brightnessNits": 400,
+      "contrastRatio": "1000:1",
+      "hdrSupport": "DisplayHDR 400"
+    },
+    "storeOffers": [
+      {
+        "id": "so-gameon-gop28uhd144ips-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "bg-orange-500",
+        "price": 11869.11,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime",
+          "Popüler Tercih"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1420,
+        "url": "https://www.amazon.com.tr"
+      },
+      {
+        "id": "so-gameon-gop28uhd144ips-2",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-amber-500",
+        "price": 12106,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 890,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 12344,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 11869.11,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "msi-g274qpf-e2",
+    "slug": "msi-g274qpf-e2",
+    "name": "MSI G274QPF E2 27 inç 180Hz 1ms WQHD Rapid IPS Monitör (Type-C)",
+    "brand": "MSI",
+    "category": "monitors",
+    "rating": 4.8,
+    "epeyScore": 73,
+    "reviewCount": 390,
+    "basePrice": 28378.9,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/monitors/msi-g274qpf-e2.jpg",
+    "images": [
+      "/images/monitors/msi-g274qpf-e2.jpg"
+    ],
+    "highlights": [
+      "27 inç WQHD (2560x1440) 180Hz Rapid IPS Panel",
+      "1ms (GtG) Tepki Süresi, VESA DisplayHDR 400 ve Adaptive-Sync",
+      "USB Type-C (15W PD, DP Alt Mod), %93 DCI-P3 ve Pivot Stand"
+    ],
+    "specs": {
+      "screenSizeInches": 27,
+      "resolution": "2560x1440 (WQHD)",
+      "panelType": "Rapid IPS",
+      "refreshRateHz": 180,
+      "responseTimeMs": 1,
+      "syncTechnology": "Adaptive-Sync",
+      "aspectRatio": "16:9",
+      "brightnessNits": 400,
+      "contrastRatio": "1000:1",
+      "hdrSupport": "DisplayHDR 400"
+    },
+    "storeOffers": [
+      {
+        "id": "so-msi-g274qpf-e2-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "bg-orange-500",
+        "price": 28378.9,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime",
+          "Popüler Tercih"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1420,
+        "url": "https://www.amazon.com.tr"
+      },
+      {
+        "id": "so-msi-g274qpf-e2-2",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-amber-500",
+        "price": 28946,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 890,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 29514,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 28378.9,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "philips-279c9-00",
+    "slug": "philips-279c9-00",
+    "name": "Philips 279C9/00 27 inç 4K UHD IPS USB-C (65W PD) Çerçevesiz Monitör",
+    "brand": "Philips",
+    "category": "monitors",
+    "rating": 4.8,
+    "epeyScore": 73,
+    "reviewCount": 250,
+    "basePrice": 70496.25,
+    "currency": "TL",
+    "releaseYear": 2020,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/monitors/philips-279c9-00.jpg",
+    "images": [
+      "/images/monitors/philips-279c9-00.jpg"
+    ],
+    "highlights": [
+      "27 inç 4K UHD (3840x2160) 4 Tarafı Sıfır Çerçeveli IPS Panel",
+      "USB-C (65W PD, DisplayPort, USB Hub), DisplayHDR 400",
+      "AMD FreeSync, SmartImage Game ve Ergonomik Yükseklik/Pivot Standı"
+    ],
+    "specs": {
+      "screenSizeInches": 27,
+      "resolution": "3840x2160 (4K UHD)",
+      "panelType": "IPS",
+      "refreshRateHz": 75,
+      "responseTimeMs": 5,
+      "syncTechnology": "FreeSync",
+      "aspectRatio": "16:9",
+      "brightnessNits": 400,
+      "contrastRatio": "1000:1",
+      "hdrSupport": "DisplayHDR 400"
+    },
+    "storeOffers": [
+      {
+        "id": "so-philips-279c9-00-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "bg-orange-500",
+        "price": 70496.25,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime",
+          "Popüler Tercih"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1420,
+        "url": "https://www.amazon.com.tr"
+      },
+      {
+        "id": "so-philips-279c9-00-2",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-amber-500",
+        "price": 71906,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 890,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 73316,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 70496.25,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "samsung-odyssey-oled-g5-27-ls27fg500suxuf",
+    "slug": "samsung-odyssey-oled-g5-27-ls27fg500suxuf",
+    "name": "Samsung Odyssey OLED G5 27 inç 180Hz 0.03ms WQHD OLED Gaming Monitör",
+    "brand": "Samsung",
+    "category": "monitors",
+    "rating": 4.9,
+    "epeyScore": 73,
+    "reviewCount": 460,
+    "basePrice": 16999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/monitors/samsung-odyssey-oled-g5-27-ls27fg500suxuf.jpg",
+    "images": [
+      "/images/monitors/samsung-odyssey-oled-g5-27-ls27fg500suxuf.jpg"
+    ],
+    "highlights": [
+      "27 inç WQHD (2560x1440) 180Hz Saf OLED Panel",
+      "0.03ms (GtG) Işık Hızında Tepki Süresi, VESA DisplayHDR True Black 400",
+      "OLED Safeguard+ Yanma Önleme Sistemi ve FreeSync Premium Pro"
+    ],
+    "specs": {
+      "screenSizeInches": 27,
+      "resolution": "2560x1440 (WQHD)",
+      "panelType": "OLED",
+      "refreshRateHz": 180,
+      "responseTimeMs": 0.03,
+      "syncTechnology": "FreeSync Premium Pro",
+      "aspectRatio": "16:9",
+      "brightnessNits": 250,
+      "contrastRatio": "1000000:1",
+      "hdrSupport": "DisplayHDR True Black 400"
+    },
+    "storeOffers": [
+      {
+        "id": "so-samsung-odyssey-oled-g5-27-ls27fg500suxuf-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "bg-orange-500",
+        "price": 16999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime",
+          "Popüler Tercih"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1420,
+        "url": "https://www.amazon.com.tr"
+      },
+      {
+        "id": "so-samsung-odyssey-oled-g5-27-ls27fg500suxuf-2",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-amber-500",
+        "price": 17339,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 890,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 17679,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 16999,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "gamepower-lunis-l90",
+    "slug": "gamepower-lunis-l90",
+    "name": "GamePower Lunis L90 27 inç 260Hz 0.5ms WQHD Fast IPS Gaming Monitör",
+    "brand": "Gamepower",
+    "category": "monitors",
+    "rating": 4.7,
+    "epeyScore": 73,
+    "reviewCount": 310,
+    "basePrice": 9850.75,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/monitors/gamepower-lunis-l90.jpg",
+    "images": [
+      "/images/monitors/gamepower-lunis-l90.jpg"
+    ],
+    "highlights": [
+      "27 inç WQHD (2560x1440) 260Hz Fast IPS Panel",
+      "0.5ms (MPRT) Tepki Süresi, FreeSync ve G-Sync Uyumlu",
+      "RGB Arka Aydınlatma, Dahili Hoparlör ve Pivot Özellikli Metal Stand"
+    ],
+    "specs": {
+      "screenSizeInches": 27,
+      "resolution": "2560x1440 (WQHD)",
+      "panelType": "Fast IPS",
+      "refreshRateHz": 260,
+      "responseTimeMs": 0.5,
+      "syncTechnology": "FreeSync",
+      "aspectRatio": "16:9",
+      "brightnessNits": 350,
+      "contrastRatio": "1000:1",
+      "hdrSupport": "HDR Ready"
+    },
+    "storeOffers": [
+      {
+        "id": "so-gamepower-lunis-l90-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "bg-orange-500",
+        "price": 9850.75,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime",
+          "Popüler Tercih"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1420,
+        "url": "https://www.amazon.com.tr"
+      },
+      {
+        "id": "so-gamepower-lunis-l90-2",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-amber-500",
+        "price": 10048,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 890,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 10245,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 9850.75,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "gigabyte-gs27u",
+    "slug": "gigabyte-gs27u",
+    "name": "Gigabyte GS27U 27 inç 160Hz 1ms 4K UHD Fast IPS Gaming Monitör",
+    "brand": "Gigabyte",
+    "category": "monitors",
+    "rating": 4.8,
+    "epeyScore": 73,
+    "reviewCount": 340,
+    "basePrice": 12972,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/monitors/gigabyte-gs27u.jpg",
+    "images": [
+      "/images/monitors/gigabyte-gs27u.jpg"
+    ],
+    "highlights": [
+      "27 inç 4K UHD (3840x2160) 160Hz (OC) Super Speed IPS Panel",
+      "1ms (GtG) Tepki Süresi, VESA DisplayHDR 400 ve FreeSync Premium",
+      "HDMI 2.1 (Konsol 4K 120Hz Desteği), %120 sRGB / %95 DCI-P3 Renk Gamutu"
+    ],
+    "specs": {
+      "screenSizeInches": 27,
+      "resolution": "3840x2160 (4K UHD)",
+      "panelType": "SS IPS",
+      "refreshRateHz": 160,
+      "responseTimeMs": 1,
+      "syncTechnology": "FreeSync Premium",
+      "aspectRatio": "16:9",
+      "brightnessNits": 400,
+      "contrastRatio": "1000:1",
+      "hdrSupport": "DisplayHDR 400"
+    },
+    "storeOffers": [
+      {
+        "id": "so-gigabyte-gs27u-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "bg-orange-500",
+        "price": 12972,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime",
+          "Popüler Tercih"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1420,
+        "url": "https://www.amazon.com.tr"
+      },
+      {
+        "id": "so-gigabyte-gs27u-2",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-amber-500",
+        "price": 13231,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 890,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 13491,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 12972,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "asus-rog-strix-xg32wcms",
+    "slug": "asus-rog-strix-xg32wcms",
+    "name": "Asus ROG Strix XG32WCMS 31.5 inç 280Hz 1ms 1500R WQHD Fast VA Monitör",
+    "brand": "Asus",
+    "category": "monitors",
+    "rating": 4.8,
+    "epeyScore": 73,
+    "reviewCount": 370,
+    "basePrice": 30789.69,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/monitors/asus-rog-strix-xg32wcms.jpg",
+    "images": [
+      "/images/monitors/asus-rog-strix-xg32wcms.jpg"
+    ],
+    "highlights": [
+      "31.5 inç WQHD (2560x1440) 280Hz (OC) 1500R Kavisli Fast VA Panel",
+      "1ms (GtG) Tepki Süresi, ELMB Sync ve VESA DisplayHDR 400",
+      "USB-C (DP Alt Mod, 7.5W), FreeSync Premium ve ROG Telefon Standı"
+    ],
+    "specs": {
+      "screenSizeInches": 31.5,
+      "resolution": "2560x1440 (WQHD)",
+      "panelType": "Fast VA (1500R Kavisli)",
+      "refreshRateHz": 280,
+      "responseTimeMs": 1,
+      "syncTechnology": "FreeSync Premium",
+      "aspectRatio": "16:9",
+      "brightnessNits": 400,
+      "contrastRatio": "3000:1",
+      "hdrSupport": "DisplayHDR 400"
+    },
+    "storeOffers": [
+      {
+        "id": "so-asus-rog-strix-xg32wcms-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "bg-orange-500",
+        "price": 30789.69,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime",
+          "Popüler Tercih"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1420,
+        "url": "https://www.amazon.com.tr"
+      },
+      {
+        "id": "so-asus-rog-strix-xg32wcms-2",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-amber-500",
+        "price": 31405,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 890,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 32021,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 30789.69,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "gamebooster-atlas-ef42",
+    "slug": "gamebooster-atlas-ef42",
+    "name": "GameBooster Atlas EF42 24.5 inç 420Hz 0.5ms Fast IPS E-Spor Gaming Monitör",
+    "brand": "GameBooster",
+    "category": "monitors",
+    "rating": 4.8,
+    "epeyScore": 73,
+    "reviewCount": 290,
+    "basePrice": 10164.05,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/monitors/gamebooster-atlas-ef42.jpg",
+    "images": [
+      "/images/monitors/gamebooster-atlas-ef42.jpg"
+    ],
+    "highlights": [
+      "24.5 inç FHD (1920x1080) 420Hz (OC) Fast IPS E-Spor Paneli",
+      "0.5ms (MPRT) Tepki Süresi, FreeSync & G-Sync Uyumlu",
+      "HDR Ready, RGB Arka Aydınlatma ve Pivot Stand"
+    ],
+    "specs": {
+      "screenSizeInches": 24.5,
+      "resolution": "1920x1080 (FHD)",
+      "panelType": "Fast IPS",
+      "refreshRateHz": 420,
+      "responseTimeMs": 0.5,
+      "syncTechnology": "FreeSync",
+      "aspectRatio": "16:9",
+      "brightnessNits": 350,
+      "contrastRatio": "1000:1",
+      "hdrSupport": "HDR Ready"
+    },
+    "storeOffers": [
+      {
+        "id": "so-gamebooster-atlas-ef42-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "bg-orange-500",
+        "price": 10164.05,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime",
+          "Popüler Tercih"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1420,
+        "url": "https://www.amazon.com.tr"
+      },
+      {
+        "id": "so-gamebooster-atlas-ef42-2",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-amber-500",
+        "price": 10367,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 890,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 10571,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 10164.05,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "dell-alienware-aw2724hf",
+    "slug": "dell-alienware-aw2724hf",
+    "name": "Dell Alienware AW2724HF 27 inç 360Hz 0.5ms Fast IPS Gaming Monitör",
+    "brand": "Dell",
+    "category": "monitors",
+    "rating": 4.9,
+    "epeyScore": 73,
+    "reviewCount": 460,
+    "basePrice": 18999,
+    "currency": "TL",
+    "releaseYear": 2023,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/monitors/dell-alienware-aw2724hf.jpg",
+    "images": [
+      "/images/monitors/dell-alienware-aw2724hf.jpg"
+    ],
+    "highlights": [
+      "27 inç FHD (1920x1080) 360Hz Saf Fast IPS E-Spor Paneli",
+      "0.5ms (GtG min) Tepki Süresi, AMD FreeSync Premium ve VESA AdaptiveSync",
+      "VESA DisplayHDR 400, %99 sRGB Renk Kapsamı ve AlienFX RGB Tasarım"
+    ],
+    "specs": {
+      "screenSizeInches": 27,
+      "resolution": "1920x1080 (FHD)",
+      "panelType": "Fast IPS",
+      "refreshRateHz": 360,
+      "responseTimeMs": 0.5,
+      "syncTechnology": "FreeSync Premium",
+      "aspectRatio": "16:9",
+      "brightnessNits": 400,
+      "contrastRatio": "1000:1",
+      "hdrSupport": "DisplayHDR 400"
+    },
+    "storeOffers": [
+      {
+        "id": "so-dell-alienware-aw2724hf-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "bg-orange-500",
+        "price": 18999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime",
+          "Popüler Tercih"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1420,
+        "url": "https://www.amazon.com.tr"
+      },
+      {
+        "id": "so-dell-alienware-aw2724hf-2",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-amber-500",
+        "price": 19379,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 890,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 19759,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 18999,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "asus-proart-pa278cgv",
+    "slug": "asus-proart-pa278cgv",
+    "name": "Asus ProArt PA278CGV 27 inç 144Hz WQHD IPS USB-C (90W PD) Calman Monitör",
+    "brand": "Asus",
+    "category": "monitors",
+    "rating": 4.8,
+    "epeyScore": 73,
+    "reviewCount": 330,
+    "basePrice": 25392,
+    "currency": "TL",
+    "releaseYear": 2023,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/monitors/asus-proart-pa278cgv.jpg",
+    "images": [
+      "/images/monitors/asus-proart-pa278cgv.jpg"
+    ],
+    "highlights": [
+      "27 inç WQHD (2560x1440) 144Hz Calman Doğrulamalı IPS Panel",
+      "USB-C (90W PD, DP Alt Mod, USB Hub), DisplayPort ve HDMI",
+      "%95 DCI-P3 / %100 sRGB (Delta E < 2), FreeSync Premium ve Pivot Stand"
+    ],
+    "specs": {
+      "screenSizeInches": 27,
+      "resolution": "2560x1440 (WQHD)",
+      "panelType": "IPS",
+      "refreshRateHz": 144,
+      "responseTimeMs": 5,
+      "syncTechnology": "FreeSync Premium",
+      "aspectRatio": "16:9",
+      "brightnessNits": 400,
+      "contrastRatio": "1000:1",
+      "hdrSupport": "DisplayHDR 400"
+    },
+    "storeOffers": [
+      {
+        "id": "so-asus-proart-pa278cgv-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "bg-orange-500",
+        "price": 25392,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime",
+          "Popüler Tercih"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1420,
+        "url": "https://www.amazon.com.tr"
+      },
+      {
+        "id": "so-asus-proart-pa278cgv-2",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-amber-500",
+        "price": 25900,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 890,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 26408,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 25392,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "dell-s2721dgfa",
+    "slug": "dell-s2721dgfa",
+    "name": "Dell S2721DGFA 27 inç 165Hz 1ms WQHD Fast IPS Nano IPS Gaming Monitör",
+    "brand": "Dell",
+    "category": "monitors",
+    "rating": 4.8,
+    "epeyScore": 73,
+    "reviewCount": 650,
+    "basePrice": 39268.32,
+    "currency": "TL",
+    "releaseYear": 2020,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/monitors/dell-s2721dgfa.jpg",
+    "images": [
+      "/images/monitors/dell-s2721dgfa.jpg"
+    ],
+    "highlights": [
+      "27 inç WQHD (2560x1440) 165Hz Fast IPS (Nano IPS) Panel",
+      "1ms (GtG) Tepki Süresi, VESA DisplayHDR 400 ve G-Sync Uyumlu / FreeSync Premium Pro",
+      "%98 DCI-P3 Geniş Renk Kapsamı, Arka Mavi Ambiyans Aydınlatması ve Ergonomik Stand"
+    ],
+    "specs": {
+      "screenSizeInches": 27,
+      "resolution": "2560x1440 (WQHD)",
+      "panelType": "Fast IPS (Nano IPS)",
+      "refreshRateHz": 165,
+      "responseTimeMs": 1,
+      "syncTechnology": "FreeSync Premium Pro",
+      "aspectRatio": "16:9",
+      "brightnessNits": 400,
+      "contrastRatio": "1000:1",
+      "hdrSupport": "DisplayHDR 400"
+    },
+    "storeOffers": [
+      {
+        "id": "so-dell-s2721dgfa-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "bg-orange-500",
+        "price": 39268.32,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime",
+          "Popüler Tercih"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1420,
+        "url": "https://www.amazon.com.tr"
+      },
+      {
+        "id": "so-dell-s2721dgfa-2",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-amber-500",
+        "price": 40054,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 890,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 40839,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 39268.32,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
     "id": "samsung-odyssey-g6-27-ls27bg652euxuf",
     "slug": "samsung-odyssey-g6-27-ls27bg652euxuf",
     "name": "Samsung Odyssey G6 27 inç 240Hz 1ms 1000R WQHD Smart TV Gaming Monitör",
