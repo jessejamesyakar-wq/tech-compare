@@ -2,6 +2,1732 @@ import { Product } from './types';
 
 export const mockHeadphones: Product[] = [
   {
+    "id": "sennheiser-ie-80-s-bt",
+    "slug": "sennheiser-ie-80-s-bt",
+    "name": "Sennheiser IE 80 S BT Odyofil Kablosuz Kulak İçi Kulaklık",
+    "brand": "Sennheiser",
+    "category": "headphones",
+    "basePrice": 68887,
+    "currency": "TL",
+    "rating": 4.9,
+    "epeyScore": 94,
+    "reviewCount": 420,
+    "image": "/images/headphones/sennheiser-ie-80-s-bt.jpg",
+    "images": [
+      "/images/headphones/sennheiser-ie-80-s-bt.jpg"
+    ],
+    "releaseYear": 2021,
+    "highlights": [
+      "Üstün Kalite AKM DAC ile Yüksek Çözünürlüklü Odyofil Kablosuz Ses",
+      "LHDC, aptX HD, aptX Low Latency ve AAC Gelişmiş Kodek Desteği",
+      "Kulaklık Üzerinden Mekanik Bas Ayar Vidası ile Özelleştirilebilir Akustik",
+      "Sennheiser Smart Control Uygulaması ve 5 Bant Parametrik EQ",
+      "Çıkarılabilir Boyun Bandı ve Kablolu Kullanım Opsiyonu"
+    ],
+    "specs": {
+      "formFactor": "Kulak İçi (AKM DAC / LHDC & aptX HD Boyun Bantlı Odyofil)",
+      "driverSize": "Özel Neodimyum Dinamik Sürücü Sistemi",
+      "frequencyResponse": "10 Hz - 20.000 Hz",
+      "batteryLife": "6 Saat",
+      "bluetoothVersion": "Bluetooth 5.0 (LHDC, aptX HD, aptX LL, AAC, SBC)",
+      "weightGrams": 30
+    },
+    "storeOffers": [
+      {
+        "id": "so-sennie80sbt-1",
+        "storeName": "Teknosa",
+        "storeLogoColor": "bg-orange-500",
+        "price": 68887,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "AKM DAC Odyofil"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 540,
+        "url": "https://www.teknosa.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 72000,
+        "store": "Teknosa"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 68887,
+        "store": "Teknosa"
+      }
+    ]
+  },
+  {
+    "id": "focal-azurys",
+    "slug": "focal-azurys",
+    "name": "Focal Azurys Kapalı Arkalı Pasif Odyofil Kulaklık",
+    "brand": "Focal",
+    "category": "headphones",
+    "basePrice": 67438,
+    "currency": "TL",
+    "rating": 4.9,
+    "epeyScore": 95,
+    "reviewCount": 380,
+    "image": "/images/headphones/focal-azurys.jpg",
+    "images": [
+      "/images/headphones/focal-azurys.jpg"
+    ],
+    "releaseYear": 2024,
+    "highlights": [
+      "Fransa'da Üretilen 40 mm Alüminyum/Magnezyum 'M' Şekilli Kubbe Sürücüler",
+      "Açelye Mavisi Şık Tasarım ve Hakiki Deri/Kumaş Kafa Bandı",
+      "Ultra Düşük Bozulma ve Eşsiz Dinamik Sahne Genişliği",
+      "Hafıza Köpüklü Lüks Kulak Yastıkları ve Manyetik Dayanıklı Kasa"
+    ],
+    "specs": {
+      "formFactor": "Kulak Üstü (40mm Al/Mg 'M' Kubbe Kapalı Odyofil)",
+      "driverSize": "40 mm Alüminyum / Magnezyum 'M' Şekilli Kubbe",
+      "frequencyResponse": "15 Hz - 22.000 Hz",
+      "weightGrams": 349
+    },
+    "storeOffers": [
+      {
+        "id": "so-focalazurys-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "bg-orange-500",
+        "price": 67438,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime",
+          "Made in France Odyofil"
+        ],
+        "sellerRating": 5,
+        "sellerReviews": 490,
+        "url": "https://www.amazon.com.tr"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 69900,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 67438,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "sennheiser-pxc-550",
+    "slug": "sennheiser-pxc-550",
+    "name": "Sennheiser PXC 550 Wireless NoiseGard Hibrit ANC Kulaklık",
+    "brand": "Sennheiser",
+    "category": "headphones",
+    "basePrice": 40968,
+    "currency": "TL",
+    "rating": 4.8,
+    "epeyScore": 93,
+    "reviewCount": 1800,
+    "image": "/images/headphones/sennheiser-pxc-550.jpg",
+    "images": [
+      "/images/headphones/sennheiser-pxc-550.jpg"
+    ],
+    "releaseYear": 2020,
+    "highlights": [
+      "NoiseGard Hibrit Uyarlanabilir Aktif Gürültü Engelleme (ANC)",
+      "30 Saate Varan Üstün Pil Ömrü ve Dokunmatik Kontrol Paneli",
+      "3 Mikrofonlu Gürültü Filtreli İş Görüşmesi Sistemi",
+      "CapSense Otomatik Duraklatma ve Katlanarak Kapanma Teknolojisi"
+    ],
+    "specs": {
+      "formFactor": "Kulak Üstü (NoiseGard Hibrit ANC 30s Pil)",
+      "anc": "NoiseGard Hibrit Uyarlanabilir ANC",
+      "driverSize": "Özel Akustik Dinamik Sürücüler",
+      "frequencyResponse": "17 Hz - 23.000 Hz",
+      "batteryLife": "30 Saat",
+      "bluetoothVersion": "Bluetooth 4.2 (aptX, SBC)",
+      "weightGrams": 227
+    },
+    "storeOffers": [
+      {
+        "id": "so-sennpxc550-1",
+        "storeName": "Teknosa",
+        "storeLogoColor": "bg-orange-500",
+        "price": 40968,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "NoiseGard Hibrit ANC"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 2200,
+        "url": "https://www.teknosa.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 43500,
+        "store": "Teknosa"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 40968,
+        "store": "Teknosa"
+      }
+    ]
+  },
+  {
+    "id": "sennheiser-gsp-670",
+    "slug": "sennheiser-gsp-670",
+    "name": "Sennheiser GSP 670 Düşük Gecikmeli Kablosuz Gaming Kulaklık",
+    "brand": "Sennheiser",
+    "category": "headphones",
+    "basePrice": 38248,
+    "currency": "TL",
+    "rating": 4.8,
+    "epeyScore": 94,
+    "reviewCount": 1400,
+    "image": "/images/headphones/sennheiser-gsp-670.png",
+    "images": [
+      "/images/headphones/sennheiser-gsp-670.png"
+    ],
+    "releaseYear": 2021,
+    "highlights": [
+      "Sennheiser Tescilli Düşük Gecikmeli 2.4 GHz ve Eşzamanlı Bluetooth Bağlantısı",
+      "Sanal 7.1 Surround Ses ve EPOS Gaming Suite Yazılım Desteği",
+      "Yayıncı Kalitesinde Çift Eksenli Gelişmiş Gürültü Engelleyici Mikrofon",
+      "Bağımsız Oyun ve Sohbet Ses Çarkları (ChatMix)"
+    ],
+    "specs": {
+      "formFactor": "Kulak Üstü (2.4GHz + Bluetooth Çift Kablosuz 7.1 Gaming)",
+      "spatialAudio": "Sanal 7.1 Surround",
+      "driverSize": "Özel EPOS/Sennheiser Gaming Sürücüleri",
+      "frequencyResponse": "10 Hz - 23.000 Hz",
+      "batteryLife": "20 Saat",
+      "weightGrams": 398
+    },
+    "storeOffers": [
+      {
+        "id": "so-senngsp670-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "bg-orange-500",
+        "price": 38248,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime",
+          "EPOS Düşük Gecikme"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 1650,
+        "url": "https://www.amazon.com.tr"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 40500,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 38248,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "razer-kraken-v3",
+    "slug": "razer-kraken-v3",
+    "name": "Razer Kraken V3 THX Spatial Audio RGB Gaming Kulaklık",
+    "brand": "Razer",
+    "category": "headphones",
+    "basePrice": 6591,
+    "currency": "TL",
+    "rating": 4.8,
+    "epeyScore": 90,
+    "reviewCount": 3100,
+    "image": "/images/headphones/razer-kraken-v3.jpg",
+    "images": [
+      "/images/headphones/razer-kraken-v3.jpg"
+    ],
+    "releaseYear": 2022,
+    "highlights": [
+      "Razer TriForce Titanyum 50 mm Sürücüler",
+      "THX Spatial Audio 360 Derece Pozisyonel Ses Hassasiyeti",
+      "Razer Chroma RGB Dinamik Işıklandırma (16.8 Milyon Renk)",
+      "Çıkarılabilir Razer HyperClear Kardiyot Mikrofon"
+    ],
+    "specs": {
+      "formFactor": "Kulak Üstü (TriForce Titanyum 50mm / THX Spatial RGB USB)",
+      "spatialAudio": "THX Spatial Audio",
+      "driverSize": "50 mm TriForce Titanyum",
+      "frequencyResponse": "20 Hz - 20.000 Hz",
+      "weightGrams": 325
+    },
+    "storeOffers": [
+      {
+        "id": "so-rzkrakenv3-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-amber-500",
+        "price": 6591,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "THX Spatial Audio",
+          "Chroma RGB"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3800,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 6999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 6591,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "razer-kraken-kitty-v2-pro",
+    "slug": "razer-kraken-kitty-v2-pro",
+    "name": "Razer Kraken Kitty V2 Pro Değiştirilebilir Kulaklı RGB Gaming Kulaklık",
+    "brand": "Razer",
+    "category": "headphones",
+    "basePrice": 6399,
+    "currency": "TL",
+    "rating": 4.8,
+    "epeyScore": 91,
+    "reviewCount": 2600,
+    "image": "/images/headphones/razer-kraken-kitty-v2-pro.jpg",
+    "images": [
+      "/images/headphones/razer-kraken-kitty-v2-pro.jpg"
+    ],
+    "releaseYear": 2023,
+    "highlights": [
+      "Değiştirilebilir Kedi, Ayı ve Tavşan Kulak Tasarımları",
+      "Yayınla Senkronize Razer Chroma Stream Reactive RGB Aydınlatma",
+      "Razer TriForce Titanyum 50 mm Sürücüler ile Zengin Akustik",
+      "Razer HyperClear Kardiyot Mikrofon ve 7.1 Sanal Surround"
+    ],
+    "specs": {
+      "formFactor": "Kulak Üstü (Değiştirilebilir Kulaklar / Stream RGB USB)",
+      "spatialAudio": "7.1 Surround",
+      "driverSize": "50 mm TriForce Titanyum",
+      "frequencyResponse": "20 Hz - 20.000 Hz",
+      "weightGrams": 332
+    },
+    "storeOffers": [
+      {
+        "id": "so-rzkrakv2pro-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-orange-600",
+        "price": 6399,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Stream Reactive RGB"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3200,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 6899,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 6399,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "jabra-evolve2-30-usb-c-stereo",
+    "slug": "jabra-evolve2-30-usb-c-stereo",
+    "name": "Jabra Evolve2 30 USB-C Stereo İş & Çağrı Merkezi Kulaklığı",
+    "brand": "Jabra",
+    "category": "headphones",
+    "basePrice": 4608,
+    "currency": "TL",
+    "rating": 4.7,
+    "epeyScore": 85,
+    "reviewCount": 1500,
+    "image": "/images/headphones/jabra-evolve2-30-usb-c-stereo.jpg",
+    "images": [
+      "/images/headphones/jabra-evolve2-30-usb-c-stereo.jpg"
+    ],
+    "releaseYear": 2021,
+    "highlights": [
+      "2 Mikrofonlu Gelişmiş Çağrı Netliği ve Arka Plan Gürültü Önleme",
+      "28 mm Hoparlörler ile Olağanüstü Ses ve Konuşma Kalitesi",
+      "Dahili 'Meşgul' Işığı (Busylight) ile Rahatsız Edilmeme Göstergesi",
+      "Ultra Hafif 125 Gram Çelik Güçlendirmeli Dayanıklı Kafa Bandı"
+    ],
+    "specs": {
+      "formFactor": "Kulak Üstü (USB-C Stereo Busylight İş Kulaklığı)",
+      "driverSize": "28 mm",
+      "weightGrams": 125
+    },
+    "storeOffers": [
+      {
+        "id": "so-jbevolve230c-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "bg-orange-500",
+        "price": 4608,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime",
+          "MS Teams Sertifikalı"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1850,
+        "url": "https://www.amazon.com.tr"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 4950,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 4608,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "jabra-connect-4h",
+    "slug": "jabra-connect-4h",
+    "name": "Jabra Connect 4h USB-C Hibrit Çalışma & Ofis Kulaklığı",
+    "brand": "Jabra",
+    "category": "headphones",
+    "basePrice": 4608,
+    "currency": "TL",
+    "rating": 4.7,
+    "epeyScore": 86,
+    "reviewCount": 1200,
+    "image": "/images/headphones/jabra-connect-4h.jpg",
+    "images": [
+      "/images/headphones/jabra-connect-4h.jpg"
+    ],
+    "releaseYear": 2022,
+    "highlights": [
+      "Hibrit Çalışma İçin 2 Mikrofonlu Hassas Ses İletimi",
+      "Gelişmiş Pasif Gürültü İzolasyonlu Kulak Yastıkları",
+      "28 mm Hoparlörler ile Net Konuşma ve Müzik Dinleme",
+      "Tak-Çalıştır USB-C Bağlantısı ve Hafif Ergonomik Gövde"
+    ],
+    "specs": {
+      "formFactor": "Kulak Üstü (USB-C Hibrit Çalışma Kulaklığı)",
+      "driverSize": "28 mm",
+      "weightGrams": 130
+    },
+    "storeOffers": [
+      {
+        "id": "so-jbconnect4h-1",
+        "storeName": "Teknosa",
+        "storeLogoColor": "bg-orange-500",
+        "price": 4608,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Jabra Hibrit Ofis"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1400,
+        "url": "https://www.teknosa.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 4900,
+        "store": "Teknosa"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 4608,
+        "store": "Teknosa"
+      }
+    ]
+  },
+  {
+    "id": "jabra-evolve2-30-usb-a-stereo",
+    "slug": "jabra-evolve2-30-usb-a-stereo",
+    "name": "Jabra Evolve2 30 USB-A Stereo Kurumsal Kulaklık",
+    "brand": "Jabra",
+    "category": "headphones",
+    "basePrice": 4185.85,
+    "currency": "TL",
+    "rating": 4.7,
+    "epeyScore": 85,
+    "reviewCount": 1900,
+    "image": "/images/headphones/jabra-evolve2-30-usb-a-stereo.jpg",
+    "images": [
+      "/images/headphones/jabra-evolve2-30-usb-a-stereo.jpg"
+    ],
+    "releaseYear": 2021,
+    "highlights": [
+      "2 Mikrofonlu Çağrı Teknolojisi ve Çevresel Gürültü Engelleme",
+      "Dahili 'Meşgul' Işığı (Busylight)",
+      "28 mm Hoparlörler ve Hafızalı Köpük Kulak Yastıkları",
+      "Geleneksel USB-A Girişi ile Geniş PC/Laptop Uyumluluğu"
+    ],
+    "specs": {
+      "formFactor": "Kulak Üstü (USB-A Stereo Busylight İş Kulaklığı)",
+      "driverSize": "28 mm",
+      "weightGrams": 125
+    },
+    "storeOffers": [
+      {
+        "id": "so-jbevolve230a-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-amber-500",
+        "price": 4185.85,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "USB-A Kurumsal"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 2400,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 4490,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 4185.85,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "razer-barracuda-x-2021",
+    "slug": "razer-barracuda-x-2021",
+    "name": "Razer Barracuda X 2021 Kablosuz Çoklu Platform Gaming Kulaklık",
+    "brand": "Razer",
+    "category": "headphones",
+    "basePrice": 3951.05,
+    "currency": "TL",
+    "rating": 4.7,
+    "epeyScore": 89,
+    "reviewCount": 4100,
+    "image": "/images/headphones/razer-barracuda-x-2021.jpg",
+    "images": [
+      "/images/headphones/razer-barracuda-x-2021.jpg"
+    ],
+    "releaseYear": 2021,
+    "highlights": [
+      "USB-C Kablosuz Verici ile PC, PlayStation, Switch ve Android Desteği",
+      "Razer TriForce 40 mm Sürücüler ile Temiz Tizler ve Derin Baslar",
+      "250 Gram Ultra Hafif Ergonomik Tasarım",
+      "Çıkarılabilir Razer HyperClear Kardiyot Mikrofon ve 20 Saat Pil"
+    ],
+    "specs": {
+      "formFactor": "Kulak Üstü (USB-C 2.4GHz Çoklu Platform 250g)",
+      "spatialAudio": "7.1 Surround",
+      "driverSize": "40 mm TriForce",
+      "frequencyResponse": "20 Hz - 20.000 Hz",
+      "batteryLife": "20 Saat",
+      "weightGrams": 250
+    },
+    "storeOffers": [
+      {
+        "id": "so-rzbarrx21-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "bg-orange-500",
+        "price": 3951.05,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime",
+          "USB-C Dongle 2.4GHz"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 5100,
+        "url": "https://www.amazon.com.tr"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 4250,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 3951.05,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "hyperx-cloud-stinger-s",
+    "slug": "hyperx-cloud-stinger-s",
+    "name": "HyperX Cloud Stinger S 7.1 Surround Gaming Kulaklık",
+    "brand": "HyperX",
+    "category": "headphones",
+    "basePrice": 3215.04,
+    "currency": "TL",
+    "rating": 4.6,
+    "epeyScore": 87,
+    "reviewCount": 3400,
+    "image": "/images/headphones/hyperx-cloud-stinger-s.jpg",
+    "images": [
+      "/images/headphones/hyperx-cloud-stinger-s.jpg"
+    ],
+    "releaseYear": 2021,
+    "highlights": [
+      "HyperX NGENUITY Destekli Sanal 7.1 Çevresel Ses USB Adaptörü",
+      "50 mm Yönlü Ses Sürücüleri ve Zengin Oyun Akustiği",
+      "90 Derece Dönebilen Kulak Kapsülleri ve Hafızalı Köpük Yastıklar",
+      "Kaldırınca Sessize Alınan Gürültü Engelleyici Mikrofon"
+    ],
+    "specs": {
+      "formFactor": "Kulak Üstü (50mm Sürücü / 7.1 NGENUITY USB)",
+      "spatialAudio": "Sanal 7.1 Surround",
+      "driverSize": "50 mm Neodimyum",
+      "frequencyResponse": "18 Hz - 23.000 Hz",
+      "weightGrams": 275
+    },
+    "storeOffers": [
+      {
+        "id": "so-hxstings-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-amber-500",
+        "price": 3215.04,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "7.1 Surround",
+          "HyperX Konforu"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 4100,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 3499,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 3215.04,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tcl-actv500tws",
+    "slug": "tcl-actv500tws",
+    "name": "TCL ACTV500TWS Sporcu Kablosuz Kulak İçi Kulaklık",
+    "brand": "TCL",
+    "category": "headphones",
+    "basePrice": 3199,
+    "currency": "TL",
+    "rating": 4.4,
+    "epeyScore": 82,
+    "reviewCount": 950,
+    "image": "/images/headphones/tcl-actv500tws.jpg",
+    "images": [
+      "/images/headphones/tcl-actv500tws.jpg"
+    ],
+    "releaseYear": 2021,
+    "highlights": [
+      "IPX7 Su Geçirmezlik Sertifikası ile Yoğun Antrenman Koruması",
+      "Kablosuz Qi Şarj Kılıfı ve Toplam 33 Saate Varan Pil Ömrü",
+      "Comply Köpük Uçlar ile Üstün Kulak Tutuşu ve İzolasyon",
+      "6 mm Dinamik Sürücüler ile Güçlü Bas Performansı"
+    ],
+    "specs": {
+      "formFactor": "Kulak İçi (IPX7 Su Geçirmez / Qi Kablosuz Şarj Spor TWS)",
+      "driverSize": "6 mm Dinamik",
+      "batteryLife": "33 Saat (Kutu Dahil)",
+      "bluetoothVersion": "Bluetooth 5.0",
+      "ipRating": "IPX7",
+      "weightGrams": 5.8
+    },
+    "storeOffers": [
+      {
+        "id": "so-tclactv500-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-orange-600",
+        "price": 3199,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "IPX7 Su Geçirmez",
+          "Qi Şarj"
+        ],
+        "sellerRating": 4.5,
+        "sellerReviews": 1100,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 3450,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 3199,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "hp-x1000",
+    "slug": "hp-x1000",
+    "name": "HP X1000 Kablosuz 7.1 Gaming Kulaklık",
+    "brand": "HP",
+    "category": "headphones",
+    "basePrice": 3099,
+    "currency": "TL",
+    "rating": 4.5,
+    "epeyScore": 86,
+    "reviewCount": 1650,
+    "image": "/images/headphones/hp-x1000.jpg",
+    "images": [
+      "/images/headphones/hp-x1000.jpg"
+    ],
+    "releaseYear": 2021,
+    "highlights": [
+      "2.4 GHz Düşük Gecikmeli Kablosuz Bağlantı",
+      "50 mm Sürücüler ve Sanal 7.1 Surround Ses",
+      "20 Saate Varan Pil Ömrü ve Kulak Üstü Kontroller",
+      "Yumuşak Kumaş Kaplamalı Hafızalı Köpük Yastıklar"
+    ],
+    "specs": {
+      "formFactor": "Kulak Üstü (2.4GHz Kablosuz 7.1 20s Pil)",
+      "spatialAudio": "Sanal 7.1",
+      "driverSize": "50 mm",
+      "batteryLife": "20 Saat",
+      "weightGrams": 340
+    },
+    "storeOffers": [
+      {
+        "id": "so-hpx1000-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "bg-orange-500",
+        "price": 3099,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime",
+          "HP 2.4GHz Kablosuz"
+        ],
+        "sellerRating": 4.6,
+        "sellerReviews": 1900,
+        "url": "https://www.amazon.com.tr"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 3350,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 3099,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "razer-kaira-x-for-xbox",
+    "slug": "razer-kaira-x-for-xbox",
+    "name": "Razer Kaira X for Xbox / PlayStation / PC Gaming Kulaklık",
+    "brand": "Razer",
+    "category": "headphones",
+    "basePrice": 2999,
+    "currency": "TL",
+    "rating": 4.7,
+    "epeyScore": 86,
+    "reviewCount": 2800,
+    "image": "/images/headphones/razer-kaira-x.jpg",
+    "images": [
+      "/images/headphones/razer-kaira-x.jpg"
+    ],
+    "releaseYear": 2022,
+    "highlights": [
+      "Razer TriForce 50 mm Sürücüler (Yüksek, Orta ve Bas Frekans Ayarlı)",
+      "Razer HyperClear Kardiyot Mikrofon ile Net Ses İletimi",
+      "FlowKnit Nefes Alabilen Hafızalı Köpük Kulak Yastıkları",
+      "Xbox Series X|S, PS5, Switch ve PC ile Tam 3.5 mm Uyumluluk"
+    ],
+    "specs": {
+      "formFactor": "Kulak Üstü (TriForce 50mm Çoklu Platform 3.5mm)",
+      "driverSize": "50 mm TriForce",
+      "frequencyResponse": "20 Hz - 20.000 Hz",
+      "weightGrams": 283
+    },
+    "storeOffers": [
+      {
+        "id": "so-rzkairax-1",
+        "storeName": "Teknosa",
+        "storeLogoColor": "bg-orange-500",
+        "price": 2999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Xbox Uyumlu"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3300,
+        "url": "https://www.teknosa.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 3250,
+        "store": "Teknosa"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 2999,
+        "store": "Teknosa"
+      }
+    ]
+  },
+  {
+    "id": "rampage-crack-h11",
+    "slug": "rampage-crack-h11",
+    "name": "Rampage Crack H11 7.1 RGB Kablosuz & Bluetooth Gaming Kulaklık",
+    "brand": "Rampage",
+    "category": "headphones",
+    "basePrice": 1719,
+    "currency": "TL",
+    "rating": 4.4,
+    "epeyScore": 81,
+    "reviewCount": 1400,
+    "image": "/images/headphones/rampage-crack.jpg",
+    "images": [
+      "/images/headphones/rampage-crack.jpg"
+    ],
+    "releaseYear": 2023,
+    "highlights": [
+      "2.4 GHz USB Dongle + Bluetooth 5.2 + 3.5mm Üçlü Bağlantı Modu",
+      "50 mm Sürücüler ve Sanal 7.1 Surround Ses",
+      "RGB Aydınlatmalı Kapsüller ve Çıkarılabilir Mikrofon",
+      "25 Saate Varan Kablosuz Kullanım Süresi"
+    ],
+    "specs": {
+      "formFactor": "Kulak Üstü (2.4GHz + Bluetooth + 3.5mm Üçlü Mod Gaming)",
+      "spatialAudio": "Sanal 7.1",
+      "driverSize": "50 mm",
+      "batteryLife": "25 Saat",
+      "bluetoothVersion": "Bluetooth 5.2",
+      "weightGrams": 295
+    },
+    "storeOffers": [
+      {
+        "id": "so-rmpcrackh11-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-amber-500",
+        "price": 1719,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Üçlü Bağlantı Modu"
+        ],
+        "sellerRating": 4.5,
+        "sellerReviews": 1750,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 1890,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 1719,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "cougar-immersa-essential",
+    "slug": "cougar-immersa-essential",
+    "name": "Cougar Immersa Essential Hafif Gaming Kulaklık",
+    "brand": "Cougar",
+    "category": "headphones",
+    "basePrice": 1439,
+    "currency": "TL",
+    "rating": 4.4,
+    "epeyScore": 79,
+    "reviewCount": 880,
+    "image": "/images/headphones/cougar-cgr-p40b-350-immersa.jpg",
+    "images": [
+      "/images/headphones/cougar-cgr-p40b-350-immersa.jpg"
+    ],
+    "releaseYear": 2021,
+    "highlights": [
+      "40 mm Dinamik Sürücüler ile Zengin Stereo Ses",
+      "260 Gram Ultra Hafif Askılı Kafa Bandı Tasarımı",
+      "9.7 mm Gürültü Engelleyici Kardiyot Mikrofon",
+      "3.5 mm Çoklu Platform Desteği (PC, Mobil, Konsol)"
+    ],
+    "specs": {
+      "formFactor": "Kulak Üstü (260g Hafif Askılı Kafa Bandı 3.5mm)",
+      "driverSize": "40 mm",
+      "frequencyResponse": "20 Hz - 20.000 Hz",
+      "weightGrams": 260
+    },
+    "storeOffers": [
+      {
+        "id": "so-cougimmeress-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "bg-orange-500",
+        "price": 1439,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime",
+          "Cougar Hafif Tasarım"
+        ],
+        "sellerRating": 4.6,
+        "sellerReviews": 1050,
+        "url": "https://www.amazon.com.tr"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 1590,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 1439,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "trust-gxt-455-torus-rgb",
+    "slug": "trust-gxt-455-torus-rgb",
+    "name": "Trust GXT 455 Torus RGB Aydınlatmalı Gaming Kulaklık",
+    "brand": "Trust",
+    "category": "headphones",
+    "basePrice": 1300,
+    "currency": "TL",
+    "rating": 4.3,
+    "epeyScore": 79,
+    "reviewCount": 950,
+    "image": "/images/headphones/trust-23138.jpg",
+    "images": [
+      "/images/headphones/trust-23138.jpg"
+    ],
+    "releaseYear": 2021,
+    "highlights": [
+      "50 mm Neodimyum Hoparlör Sürücüleri",
+      "Özelleştirilebilir RGB LED Işık Döngüsü",
+      "Kulak Kapsülü Üzerinden Ses ve Bas Kontrol Tekerleği",
+      "Katlanabilir Mikrofon Kolu"
+    ],
+    "specs": {
+      "formFactor": "Kulak Üstü (50mm RGB 3.5mm + USB Işık)",
+      "driverSize": "50 mm Neodimyum",
+      "weightGrams": 343
+    },
+    "storeOffers": [
+      {
+        "id": "so-trgxt455-1",
+        "storeName": "Teknosa",
+        "storeLogoColor": "bg-orange-500",
+        "price": 1300,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "RGB Aydınlatmalı"
+        ],
+        "sellerRating": 4.4,
+        "sellerReviews": 1100,
+        "url": "https://www.teknosa.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 1450,
+        "store": "Teknosa"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 1300,
+        "store": "Teknosa"
+      }
+    ]
+  },
+  {
+    "id": "lenovo-lp80-pro",
+    "slug": "lenovo-lp80-pro",
+    "name": "Lenovo LP80 Pro Şeffaf Tasarımlı TWS Bluetooth Kulaklık",
+    "brand": "Lenovo",
+    "category": "headphones",
+    "basePrice": 1199,
+    "currency": "TL",
+    "rating": 4.4,
+    "epeyScore": 78,
+    "reviewCount": 2300,
+    "image": "/images/headphones/lenovo-lp80-pro.jpg",
+    "images": [
+      "/images/headphones/lenovo-lp80-pro.jpg"
+    ],
+    "releaseYear": 2023,
+    "highlights": [
+      "Şık Şeffaf Kapaklı Şarj Kutusu Tasarımı",
+      "Bluetooth 5.3 ile Kararlı ve Düşük Gecikmeli Bağlantı",
+      "13 mm Dinamik Sürücüler ile Zengin Akustik Denge",
+      "ENC Çevresel Gürültü Engellemeli Mikrofon"
+    ],
+    "specs": {
+      "formFactor": "Kulak İçi (Şeffaf Tasarım Bluetooth 5.3 ENC)",
+      "driverSize": "13 mm Dinamik",
+      "batteryLife": "20 Saat (Kutu Dahil)",
+      "bluetoothVersion": "Bluetooth 5.3",
+      "weightGrams": 3.5
+    },
+    "storeOffers": [
+      {
+        "id": "so-lenlp80pro-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-orange-600",
+        "price": 1199,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Şeffaf Tasarım"
+        ],
+        "sellerRating": 4.6,
+        "sellerReviews": 2700,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 1299,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 1199,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "rampage-rm-k45-orbit-s",
+    "slug": "rampage-rm-k45-orbit-s",
+    "name": "Rampage RM-K45 Orbit-S 7.1 RGB USB Gaming Kulaklık",
+    "brand": "Rampage",
+    "category": "headphones",
+    "basePrice": 1199,
+    "currency": "TL",
+    "rating": 4.3,
+    "epeyScore": 78,
+    "reviewCount": 1650,
+    "image": "/images/headphones/rampage-rm-k45-orbit-s.jpg",
+    "images": [
+      "/images/headphones/rampage-rm-k45-orbit-s.jpg"
+    ],
+    "releaseYear": 2021,
+    "highlights": [
+      "50 mm Sürücüler ile Sanal 7.1 Çevresel Ses",
+      "RGB LED Efektleri ve Esnek Gürültü Önleyici Mikrofon",
+      "Yumuşak Deri Kulak Yastıkları ve Metal Kafa Bandı"
+    ],
+    "specs": {
+      "formFactor": "Kulak Üstü (50mm 7.1 RGB USB Gaming)",
+      "spatialAudio": "Sanal 7.1",
+      "driverSize": "50 mm",
+      "weightGrams": 310
+    },
+    "storeOffers": [
+      {
+        "id": "so-rmpk45-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-amber-500",
+        "price": 1199,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "RGB 7.1"
+        ],
+        "sellerRating": 4.4,
+        "sellerReviews": 1900,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 1290,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 1199,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "trust-gxt-404g-rana",
+    "slug": "trust-gxt-404g-rana",
+    "name": "Trust GXT 404G Rana Xbox Gaming Kulaklık",
+    "brand": "Trust",
+    "category": "headphones",
+    "basePrice": 900.51,
+    "currency": "TL",
+    "rating": 4.3,
+    "epeyScore": 76,
+    "reviewCount": 1100,
+    "image": "/images/headphones/trust-23346.jpg",
+    "images": [
+      "/images/headphones/trust-23346.jpg"
+    ],
+    "releaseYear": 2021,
+    "highlights": [
+      "Xbox Resmi Yeşil Renk Detayları ve 40 mm Sürücüler",
+      "Katlanabilir Mikrofon Kolu ve Hat İçi Kumanda",
+      "Konforlu Kulak Yastıkları ve Ayarlanabilir Başlık"
+    ],
+    "specs": {
+      "formFactor": "Kulak Üstü (40mm Xbox 3.5mm Stereo)",
+      "driverSize": "40 mm",
+      "weightGrams": 225
+    },
+    "storeOffers": [
+      {
+        "id": "so-trgxt404g-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-orange-600",
+        "price": 900.51,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Xbox Özel Tasarım"
+        ],
+        "sellerRating": 4.4,
+        "sellerReviews": 1250,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 980,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 900.51,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "havit-h630bt",
+    "slug": "havit-h630bt",
+    "name": "Havit H630BT Katlanabilir Bluetooth Kulak Üstü Kulaklık",
+    "brand": "Havit",
+    "category": "headphones",
+    "basePrice": 899.1,
+    "currency": "TL",
+    "rating": 4.4,
+    "epeyScore": 78,
+    "reviewCount": 1750,
+    "image": "/images/headphones/havit-h630bt.jpg",
+    "images": [
+      "/images/headphones/havit-h630bt.jpg"
+    ],
+    "releaseYear": 2023,
+    "highlights": [
+      "Bluetooth 5.3 ile Düşük Güç Tüketimi ve 36 Saate Varan Pil",
+      "40 mm Dinamik Sürücüler ve Dengeli Stereo Ses",
+      "Katlanabilir Kompakt Gövde ve TF Kart / AUX Girişi"
+    ],
+    "specs": {
+      "formFactor": "Kulak Üstü (Bluetooth 5.3 / 36s Pil / Katlanabilir)",
+      "driverSize": "40 mm",
+      "batteryLife": "36 Saat",
+      "bluetoothVersion": "Bluetooth 5.3",
+      "weightGrams": 200
+    },
+    "storeOffers": [
+      {
+        "id": "so-hvh630bt-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "bg-orange-500",
+        "price": 899.1,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime",
+          "36 Saat Pil"
+        ],
+        "sellerRating": 4.5,
+        "sellerReviews": 2100,
+        "url": "https://www.amazon.com.tr"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 990,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 899.1,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "philips-she-9105",
+    "slug": "philips-she-9105",
+    "name": "Philips SHE9105 Alüminyum Gövdeli Kulak İçi Kulaklık",
+    "brand": "Philips",
+    "category": "headphones",
+    "basePrice": 899.1,
+    "currency": "TL",
+    "rating": 4.3,
+    "epeyScore": 77,
+    "reviewCount": 1300,
+    "image": "/images/headphones/philips-she-9105.png",
+    "images": [
+      "/images/headphones/philips-she-9105.png"
+    ],
+    "releaseYear": 2020,
+    "highlights": [
+      "Hassas Alüminyum Gövde ile Titreşim Önleme ve Berrak Ses",
+      "8.6 mm Neodimyum Sürücüler ile Derin Bas Tepkisi",
+      "Dahili Mikrofonlu Kablo Kumandası ve Kaymayı Önleyen Kablo Koruması"
+    ],
+    "specs": {
+      "formFactor": "Kulak İçi (Alüminyum Gövde 3.5mm Kablolu)",
+      "driverSize": "8.6 mm Neodimyum",
+      "frequencyResponse": "7 Hz - 25.000 Hz",
+      "weightGrams": 14
+    },
+    "storeOffers": [
+      {
+        "id": "so-phshe9105-1",
+        "storeName": "Teknosa",
+        "storeLogoColor": "bg-orange-500",
+        "price": 899.1,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Alüminyum Gövde"
+        ],
+        "sellerRating": 4.4,
+        "sellerReviews": 1550,
+        "url": "https://www.teknosa.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 990,
+        "store": "Teknosa"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 899.1,
+        "store": "Teknosa"
+      }
+    ]
+  },
+  {
+    "id": "dexim-magnum",
+    "slug": "dexim-magnum",
+    "name": "Dexim Magnum RGB Gaming Kulaklık",
+    "brand": "Dexim",
+    "category": "headphones",
+    "basePrice": 750,
+    "currency": "TL",
+    "rating": 4.2,
+    "epeyScore": 75,
+    "reviewCount": 750,
+    "image": "/images/headphones/dexim-magnum.jpg",
+    "images": [
+      "/images/headphones/dexim-magnum.jpg"
+    ],
+    "releaseYear": 2022,
+    "highlights": [
+      "50 mm Dinamik Sürücüler ve Güçlü Bas",
+      "RGB LED Aydınlatma ve Yönlü Mikrofon Kolu",
+      "Örgülü Sağlam Kablo ve Çift 3.5mm + USB LED Girişi"
+    ],
+    "specs": {
+      "formFactor": "Kulak Üstü (50mm RGB 3.5mm Gaming)",
+      "driverSize": "50 mm",
+      "weightGrams": 285
+    },
+    "storeOffers": [
+      {
+        "id": "so-dxmagnum-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-amber-500",
+        "price": 750,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Dexim Gaming"
+        ],
+        "sellerRating": 4.3,
+        "sellerReviews": 860,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 820,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 750,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "lenovo-he05",
+    "slug": "lenovo-he05",
+    "name": "Lenovo HE05 Manyetik Boyun Bantlı Sporcu Bluetooth Kulaklık",
+    "brand": "Lenovo",
+    "category": "headphones",
+    "basePrice": 677.25,
+    "currency": "TL",
+    "rating": 4.3,
+    "epeyScore": 76,
+    "reviewCount": 3800,
+    "image": "/images/headphones/lenovo-he05.jpg",
+    "images": [
+      "/images/headphones/lenovo-he05.jpg"
+    ],
+    "releaseYear": 2020,
+    "highlights": [
+      "Manyetik Kulaklık Başlıkları ve Silikon Esnek Boyun Bandı",
+      "IPX5 Tere ve Suya Dayanıklılık Koruması",
+      "8 Saate Varan Çalma Süresi ve 10 mm Dinamik Sürücüler"
+    ],
+    "specs": {
+      "formFactor": "Kulak İçi (Boyun Bantlı Manyetik IPX5)",
+      "driverSize": "10 mm",
+      "batteryLife": "8 Saat",
+      "bluetoothVersion": "Bluetooth 5.0",
+      "ipRating": "IPX5",
+      "weightGrams": 35
+    },
+    "storeOffers": [
+      {
+        "id": "so-lenhe05-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "bg-orange-500",
+        "price": 677.25,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime",
+          "Boyun Bantlı Manyetik"
+        ],
+        "sellerRating": 4.5,
+        "sellerReviews": 4500,
+        "url": "https://www.amazon.com.tr"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 740,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 677.25,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "s-link-sl-tws05",
+    "slug": "s-link-sl-tws05",
+    "name": "S-link SL-TWS05 Kompakt TWS Bluetooth Kulaklık",
+    "brand": "S-link",
+    "category": "headphones",
+    "basePrice": 633,
+    "currency": "TL",
+    "rating": 4.1,
+    "epeyScore": 73,
+    "reviewCount": 820,
+    "image": "/images/headphones/s-link-sl-tws05.jpg",
+    "images": [
+      "/images/headphones/s-link-sl-tws05.jpg"
+    ],
+    "releaseYear": 2022,
+    "highlights": [
+      "Bluetooth 5.0 ile Kolay Eşleşme",
+      "Kompakt Mini Şarj Kutusu",
+      "12 Saate Varan Toplam Kullanım Süresi"
+    ],
+    "specs": {
+      "formFactor": "Kulak İçi (TWS Bluetooth 5.0)",
+      "driverSize": "10 mm",
+      "batteryLife": "12 Saat (Kutu Dahil)",
+      "bluetoothVersion": "Bluetooth 5.0",
+      "weightGrams": 4
+    },
+    "storeOffers": [
+      {
+        "id": "so-sltws05-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-orange-600",
+        "price": 633,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Kompakt TWS"
+        ],
+        "sellerRating": 4.2,
+        "sellerReviews": 950,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 690,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 633,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "hytech-hy-tws40",
+    "slug": "hytech-hy-tws40",
+    "name": "Hytech HY-TWS40 Bluetooth TWS Kulaklık",
+    "brand": "Hytech",
+    "category": "headphones",
+    "basePrice": 532.24,
+    "currency": "TL",
+    "rating": 4.1,
+    "epeyScore": 72,
+    "reviewCount": 650,
+    "image": "/images/headphones/hytech-hy-tws40.jpg",
+    "images": [
+      "/images/headphones/hytech-hy-tws40.jpg"
+    ],
+    "releaseYear": 2022,
+    "highlights": [
+      "Bluetooth 5.1 ile Kablosuz Bağlantı",
+      "Dokunmatik Kontrol Paneli ve Dijital LED Şarj Göstergesi",
+      "15 Saate Varan Pil Ömrü"
+    ],
+    "specs": {
+      "formFactor": "Kulak İçi (LED Göstergeli TWS)",
+      "driverSize": "10 mm",
+      "batteryLife": "15 Saat (Kutu Dahil)",
+      "bluetoothVersion": "Bluetooth 5.1",
+      "weightGrams": 4.2
+    },
+    "storeOffers": [
+      {
+        "id": "so-hytws40-1",
+        "storeName": "Teknosa",
+        "storeLogoColor": "bg-orange-500",
+        "price": 532.24,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "LED Göstergeli"
+        ],
+        "sellerRating": 4.2,
+        "sellerReviews": 730,
+        "url": "https://www.teknosa.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 590,
+        "store": "Teknosa"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 532.24,
+        "store": "Teknosa"
+      }
+    ]
+  },
+  {
+    "id": "trust-gxt-404b-rana",
+    "slug": "trust-gxt-404b-rana",
+    "name": "Trust GXT 404B Rana PS4 / PS5 Gaming Kulaklık",
+    "brand": "Trust",
+    "category": "headphones",
+    "basePrice": 505,
+    "currency": "TL",
+    "rating": 4.2,
+    "epeyScore": 75,
+    "reviewCount": 1450,
+    "image": "/images/headphones/trust-23309.jpg",
+    "images": [
+      "/images/headphones/trust-23309.jpg"
+    ],
+    "releaseYear": 2021,
+    "highlights": [
+      "PlayStation Resmi Mavi Renk Teması ve 40 mm Sürücüler",
+      "Katlanabilir Mikrofon Kolu ve Hat İçi Ses Kontrolü",
+      "3.5 mm Kolay Bağlantı"
+    ],
+    "specs": {
+      "formFactor": "Kulak Üstü (40mm PlayStation 3.5mm Stereo)",
+      "driverSize": "40 mm",
+      "weightGrams": 225
+    },
+    "storeOffers": [
+      {
+        "id": "so-trgxt404b-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-amber-500",
+        "price": 505,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "PS4/PS5 Uyumlu"
+        ],
+        "sellerRating": 4.3,
+        "sellerReviews": 1650,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 560,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 505,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "trust-gxt-404r-rana",
+    "slug": "trust-gxt-404r-rana",
+    "name": "Trust GXT 404R Rana Kırmızı Gaming Kulaklık",
+    "brand": "Trust",
+    "category": "headphones",
+    "basePrice": 431.9,
+    "currency": "TL",
+    "rating": 4.2,
+    "epeyScore": 75,
+    "reviewCount": 1250,
+    "image": "/images/headphones/trust-23439.jpg",
+    "images": [
+      "/images/headphones/trust-23439.jpg"
+    ],
+    "releaseYear": 2021,
+    "highlights": [
+      "Kırmızı Tasarım ve 40 mm Hoparlör Sürücüleri",
+      "Katlanabilir Mikrofon ve Yumuşak Kulak Yastıkları",
+      "3.5 mm Evrensel Jak"
+    ],
+    "specs": {
+      "formFactor": "Kulak Üstü (40mm 3.5mm Stereo Gaming)",
+      "driverSize": "40 mm",
+      "weightGrams": 225
+    },
+    "storeOffers": [
+      {
+        "id": "so-trgxt404r-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-orange-600",
+        "price": 431.9,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Kırmızı Seri"
+        ],
+        "sellerRating": 4.3,
+        "sellerReviews": 1400,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 480,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 431.9,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "nautica-buds-t300",
+    "slug": "nautica-buds-t300",
+    "name": "Nautica Buds T300 TWS Bluetooth Kulaklık",
+    "brand": "Nautica",
+    "category": "headphones",
+    "basePrice": 299,
+    "currency": "TL",
+    "rating": 4.1,
+    "epeyScore": 72,
+    "reviewCount": 1600,
+    "image": "/images/headphones/nautica-buds-t300.jpg",
+    "images": [
+      "/images/headphones/nautica-buds-t300.jpg"
+    ],
+    "releaseYear": 2023,
+    "highlights": [
+      "Bluetooth 5.3 ile Hızlı Otomatik Eşleşme",
+      "Kompakt Şarj Kutusu ve Dokunmatik Kontroller",
+      "16 Saate Varan Toplam Pil Ömrü"
+    ],
+    "specs": {
+      "formFactor": "Kulak İçi (TWS Bluetooth 5.3)",
+      "driverSize": "10 mm",
+      "batteryLife": "16 Saat (Kutu Dahil)",
+      "bluetoothVersion": "Bluetooth 5.3",
+      "weightGrams": 3.8
+    },
+    "storeOffers": [
+      {
+        "id": "so-naut300-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "bg-orange-500",
+        "price": 299,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime",
+          "Bütçe TWS"
+        ],
+        "sellerRating": 4.3,
+        "sellerReviews": 1850,
+        "url": "https://www.amazon.com.tr"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 349,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 299,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "torima-tc-03",
+    "slug": "torima-tc-03",
+    "name": "Torima TC-03 Renkli Kablolu Kulak İçi Kulaklık",
+    "brand": "Torima",
+    "category": "headphones",
+    "basePrice": 251.99,
+    "currency": "TL",
+    "rating": 4,
+    "epeyScore": 67,
+    "reviewCount": 450,
+    "image": "/images/headphones/torima-tc-03.jpg",
+    "images": [
+      "/images/headphones/torima-tc-03.jpg"
+    ],
+    "releaseYear": 2022,
+    "highlights": [
+      "10 mm Dinamik Sürücüler",
+      "Dahili Mikrofon ve 3.5mm Standart Jak",
+      "Hafif Silikon Kulak Başlıkları"
+    ],
+    "specs": {
+      "formFactor": "Kulak İçi (Kablolu 3.5mm Mikrofonlu)",
+      "driverSize": "10 mm",
+      "weightGrams": 12
+    },
+    "storeOffers": [
+      {
+        "id": "so-tortc03-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-amber-500",
+        "price": 251.99,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ekonomik Kablolu"
+        ],
+        "sellerRating": 4.1,
+        "sellerReviews": 520,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 280,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 251.99,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
     "id": "sennheiser-ie-8i",
     "slug": "sennheiser-ie-8i",
     "name": "Sennheiser IE 8i Ayarlanabilir Akustik Odyofil Kulak İçi Kulaklık",
@@ -25894,66 +27620,6 @@ export const mockHeadphones: Product[] = [
         "date": "2026-08-01",
         "price": 899,
         "store": "Trendyol"
-      }
-    ]
-  },
-  {
-    "id": "philips-she-9105",
-    "slug": "philips-she-9105",
-    "name": "Philips SHE9105 Alüminyum Gövdeli Mikrofonlu Kulak İçi Kulaklık",
-    "brand": "Philips",
-    "category": "headphones",
-    "basePrice": 879.1,
-    "currency": "TL",
-    "rating": 4.5,
-    "epeyScore": 84,
-    "reviewCount": 220,
-    "image": "/images/headphones/philips-she9105.png",
-    "images": [
-      "/images/headphones/philips-she9105.png"
-    ],
-    "releaseYear": 2023,
-    "highlights": [
-      "Hassas Titreşim Önleyici Alüminyum Gövde",
-      "8.6 mm Güçlü Neodimyum Sürücüler",
-      "Kabloya Entegre Mikrofon ve Çağrı Butonu",
-      "Dolaşmayı Önleyen Dayanıklı Kumaş Takviyeli Kablo"
-    ],
-    "specs": {
-      "formFactor": "Kulak İçi (Kablolu 3.5mm)",
-      "anc": "Yok",
-      "batteryLife": "Kablolu",
-      "bluetoothVersion": "Kablolu (3.5mm)",
-      "driverSize": "8.6 mm",
-      "frequencyResponse": "7 Hz - 25.000 Hz",
-      "weightGrams": 14
-    },
-    "storeOffers": [
-      {
-        "id": "so-she9105-1",
-        "storeName": "Vatan",
-        "storeLogoColor": "bg-blue-800",
-        "price": 879.1,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Orijinal"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 610,
-        "url": "https://www.epey.com/kulaklik/philips-she-9105.html"
-      }
-    ],
-    "priceHistory": [
-      {
-        "date": "2026-07-01",
-        "price": 929,
-        "store": "Vatan"
-      },
-      {
-        "date": "2026-08-01",
-        "price": 879.1,
-        "store": "Vatan"
       }
     ]
   },
