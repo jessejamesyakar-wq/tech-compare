@@ -8,7 +8,7 @@ import { getStoredProducts } from '@/lib/adminData';
 
 export interface HeroSlideItem {
   id: string;
-  type: 'phone' | 'tv' | 'laptop' | 'tablet';
+  category: string;
   slug: string;
   badgeText: string;
   scriptHighlight: string;
@@ -23,7 +23,7 @@ export interface HeroSlideItem {
 export function getDynamicHeroSlides(): HeroSlideItem[] {
   const all = getStoredProducts();
 
-  // Filter top products across smartphones, tvs, laptops, tablets
+  // Filter top products across smartphones, tvs, laptops, tablets, headphones, monitors, etc.
   const featured = all
     .filter((p) => p.basePrice > 0 && p.image && !p.image.includes('placeholder'))
     .sort((a, b) => (b.rating * b.reviewCount) - (a.rating * a.reviewCount))
@@ -33,7 +33,7 @@ export function getDynamicHeroSlides(): HeroSlideItem[] {
     return [
       {
         id: 'default-1',
-        type: 'phone',
+        category: 'phones',
         slug: 'phones',
         badgeText: '✨ Zirve Performans',
         scriptHighlight: 'gün boyu',
@@ -49,14 +49,6 @@ export function getDynamicHeroSlides(): HeroSlideItem[] {
 
   return featured.map((p, idx) => {
     const highlights = p.highlights || [];
-    const type: 'phone' | 'tv' | 'laptop' | 'tablet' =
-      p.category === 'tvs'
-        ? 'tv'
-        : p.category === 'laptops'
-        ? 'laptop'
-        : p.category === 'tablets'
-        ? 'tablet'
-        : 'phone';
 
     const badges = [
       '⚡ 2026 Zirve Amiral Gemisi',
@@ -69,7 +61,7 @@ export function getDynamicHeroSlides(): HeroSlideItem[] {
 
     return {
       id: p.id,
-      type,
+      category: p.category || 'phones',
       slug: p.slug,
       badgeText: badges[idx % badges.length],
       scriptHighlight: idx % 2 === 0 ? 'kesintisiz' : 'kusursuz',
@@ -133,14 +125,30 @@ export function HeroCarousel({ activeIndex, onSelect, slides }: HeroCarouselProp
 
   if (!slide) return null;
 
-  const targetHref =
-    slide.type === 'tv'
-      ? `/tvs/${slide.slug}`
-      : slide.type === 'laptop'
-      ? `/laptops/${slide.slug}`
-      : slide.type === 'tablet'
-      ? `/tablets/${slide.slug}`
-      : `/phones/${slide.slug}`;
+  const getProductHref = (category: string, slug: string) => {
+    switch (category) {
+      case 'tvs':
+        return `/tvs/${slug}`;
+      case 'laptops':
+        return `/laptops/${slug}`;
+      case 'appliances':
+        return `/appliances/${slug}`;
+      case 'tablets':
+        return `/tablets/${slug}`;
+      case 'smartwatches':
+        return `/smartwatches/${slug}`;
+      case 'headphones':
+        return `/headphones/${slug}`;
+      case 'monitors':
+        return `/monitors/${slug}`;
+      case 'consoles':
+        return `/consoles/${slug}`;
+      default:
+        return `/phones/${slug}`;
+    }
+  };
+
+  const targetHref = getProductHref(slide.category, slide.slug);
 
   return (
     <div

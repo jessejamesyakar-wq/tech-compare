@@ -34,9 +34,9 @@ export function CategoryBar() {
   ];
 
   return (
-    <div className="bg-white/95 dark:bg-[#090D16]/95 border-b border-slate-200/90 dark:border-slate-800 shadow-2xs px-4 sm:px-6 lg:px-8 py-2.5 overflow-x-auto no-scrollbar">
+    <div className="bg-white/95 dark:bg-[#090D16]/95 border-b border-slate-200/90 dark:border-slate-800 shadow-2xs px-4 sm:px-6 lg:px-8 py-2 overflow-x-auto no-scrollbar">
       <div className="max-w-7xl mx-auto flex items-center justify-center text-[13px] sm:text-[13.5px] font-medium text-slate-600 dark:text-slate-300 whitespace-nowrap">
-        <div className="flex items-center justify-center gap-4 sm:gap-5 md:gap-6 lg:gap-7 mx-auto">
+        <div className="flex items-center justify-center gap-1 sm:gap-2 md:gap-3 lg:gap-4 mx-auto flex-wrap">
           {categories.map((cat) => {
             const Icon = cat.icon;
             const isActive =
@@ -49,13 +49,13 @@ export function CategoryBar() {
               <Link
                 key={cat.id}
                 href={cat.href}
-                className={`relative py-1 flex items-center gap-1.5 transition-all duration-150 cursor-pointer ${
+                className={`relative px-3 py-1.5 rounded-xl flex items-center gap-2 transition-all duration-150 cursor-pointer ${
                   isActive
-                    ? 'text-emerald-700 dark:text-emerald-400 font-extrabold border-b-2 border-emerald-600 dark:border-emerald-400 pb-0.5'
-                    : 'text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white font-semibold'
+                    ? 'bg-emerald-50 dark:bg-emerald-950/60 text-emerald-700 dark:text-emerald-400 font-extrabold shadow-2xs border border-emerald-200/80 dark:border-emerald-800'
+                    : 'text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white hover:bg-slate-100 dark:hover:bg-slate-800/60 font-semibold'
                 }`}
               >
-                <Icon className={`w-4 h-4 ${isActive ? 'text-emerald-600 dark:text-emerald-400' : 'text-slate-400 dark:text-slate-500'}`} />
+                <Icon className={`w-4 h-4 transition-colors ${isActive ? 'text-emerald-600 dark:text-emerald-400' : 'text-slate-400 dark:text-slate-500 group-hover:text-slate-700'}`} />
                 <span>{cat.label}</span>
               </Link>
             );
