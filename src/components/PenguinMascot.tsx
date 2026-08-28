@@ -163,11 +163,11 @@ export default function PenguinMascot() {
           <Image
             src="/penguin-mascot.png"
             alt="TechKıyas Maskot"
-            width={1048}
-            height={1219}
+            width={1024}
+            height={576}
             priority
             draggable={false}
-            className="w-full h-auto"
+            className="w-full h-auto rounded-2xl shadow-md border border-slate-200/60 dark:border-slate-800"
           />
         </motion.div>
       </div>
