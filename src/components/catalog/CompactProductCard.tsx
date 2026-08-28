@@ -159,11 +159,9 @@ export function CompactProductCard({
             <div className="text-sm sm:text-lg font-black text-slate-900 tracking-tight tabular-nums">
               ₺{minPrice.toLocaleString()}
             </div>
-            {maxPrice > minPrice && (
-              <span className="text-[10px] sm:text-[11px] font-medium text-slate-400 tabular-nums">
-                ₺{maxPrice.toLocaleString()}&apos;ye
-              </span>
-            )}
+            <span className="text-[9px] font-black text-emerald-700 bg-emerald-50 px-1.5 py-0.5 rounded border border-emerald-200">
+              ⚡ AI: Fırsat Fiyat
+            </span>
           </div>
         </div>
 

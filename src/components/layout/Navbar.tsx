@@ -11,6 +11,7 @@ import { searchProducts } from '@/lib/data';
 import { Product } from '@/lib/types';
 import { Logo } from './Logo';
 import { CategoryBar } from './CategoryBar';
+import { AIAssistantModal } from '../ai/AIAssistantModal';
 import {
   Smartphone as PhoneIcon,
   Tv as TvIcon,
@@ -21,7 +22,8 @@ import {
   Apple,
   Sparkles,
   SlidersHorizontal,
-  Globe
+  Globe,
+  Bot
 } from 'lucide-react';
 
 export function Navbar() {
@@ -30,6 +32,7 @@ export function Navbar() {
   const pathname = usePathname();
   const router = useRouter();
 
+  const [aiModalOpen, setAiModalOpen] = useState(false);
   const [langDropdownOpen, setLangDropdownOpen] = useState(false);
   const [query, setQuery] = useState('');
   const [searchResults, setSearchResults] = useState<Product[]>([]);
@@ -223,8 +226,20 @@ export function Navbar() {
             )}
           </div>
 
-          {/* Right Actions: Profile / Language / Settings */}
-          <div className="w-48 sm:w-56 shrink-0 flex items-center justify-end gap-2">
+          {/* Right Actions: AI Assistant / Language / Settings */}
+          <div className="w-52 sm:w-64 shrink-0 flex items-center justify-end gap-2">
+
+            {/* AI Shopping Assistant Button */}
+            <motion.button
+              whileHover={{ scale: 1.03 }}
+              whileTap={{ scale: 0.97 }}
+              onClick={() => setAiModalOpen(true)}
+              className="flex items-center gap-1.5 bg-gradient-to-r from-emerald-600 to-teal-600 hover:from-emerald-500 hover:to-teal-500 text-white text-xs font-black px-3.5 py-2 rounded-full shadow-sm transition-all cursor-pointer"
+            >
+              <Bot className="w-4 h-4 animate-pulse" />
+              <span className="hidden sm:inline">AI Danışman</span>
+              <Sparkles className="w-3 h-3 text-amber-300 hidden sm:inline" />
+            </motion.button>
 
             {/* Language / Region Selector Pill (TR) */}
             <div className="relative">
@@ -273,6 +288,9 @@ export function Navbar() {
 
       {/* Global Persistent Category Navigation Bar */}
       <CategoryBar />
+
+      {/* AI Assistant Chat Modal */}
+      <AIAssistantModal isOpen={aiModalOpen} onClose={() => setAiModalOpen(false)} />
     </header>
   );
 }

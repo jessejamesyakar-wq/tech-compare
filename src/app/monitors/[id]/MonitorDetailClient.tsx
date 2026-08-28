@@ -4,6 +4,10 @@ import React, { useState } from 'react';
 import Link from 'next/link';
 import { Product } from '@/lib/types';
 import { useCompare } from '@/context/CompareContext';
+import { AIPriceForecastBadge } from '@/components/ai/AIPriceForecastBadge';
+import { AIReviewSummaryCard } from '@/components/ai/AIReviewSummaryCard';
+import { AIUpgradeAdvisor } from '@/components/ai/AIUpgradeAdvisor';
+import { TechTermExplainer } from '@/components/ai/TechTermExplainer';
 import {
   Sparkles,
   ArrowLeft,
@@ -144,6 +148,9 @@ export default function MonitorDetailClient({ initialProduct }: { initialProduct
             </button>
           </div>
 
+          {/* AI Module 2: AI Price Forecast Badge */}
+          <AIPriceForecastBadge product={initialProduct} />
+
           {/* Store Offers */}
           <div className="space-y-3">
             <h3 className="text-xs font-black text-slate-900 flex items-center gap-1.5">
@@ -186,6 +193,12 @@ export default function MonitorDetailClient({ initialProduct }: { initialProduct
             </div>
           </div>
 
+          {/* AI Module 3: AI Review Summary Card */}
+          <AIReviewSummaryCard product={initialProduct} />
+
+          {/* AI Module 4: AI Upgrade Advisor */}
+          <AIUpgradeAdvisor currentProduct={initialProduct} />
+
           {/* Technical Specs Table */}
           {Object.keys(specs).length > 0 && (
             <div className="space-y-3 pt-4 border-t border-slate-200">
@@ -204,6 +217,9 @@ export default function MonitorDetailClient({ initialProduct }: { initialProduct
               </div>
             </div>
           )}
+
+          {/* AI Module 6: ELI5 Tech Term Explainer */}
+          <TechTermExplainer />
         </div>
       </div>
     </div>

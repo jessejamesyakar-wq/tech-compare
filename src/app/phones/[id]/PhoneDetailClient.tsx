@@ -14,6 +14,10 @@ import { StickyHeaderBar } from '@/components/detail/StickyHeaderBar';
 import { BrandLogoBar } from '@/components/catalog/BrandLogoBar';
 import { ProductImageGallery } from '@/components/detail/ProductImageGallery';
 import { CompactStoreComparison } from '@/components/detail/CompactStoreComparison';
+import { AIPriceForecastBadge } from '@/components/ai/AIPriceForecastBadge';
+import { AIReviewSummaryCard } from '@/components/ai/AIReviewSummaryCard';
+import { AIUpgradeAdvisor } from '@/components/ai/AIUpgradeAdvisor';
+import { TechTermExplainer } from '@/components/ai/TechTermExplainer';
 import {
   Star,
   Scale,
@@ -139,12 +143,15 @@ export default function PhoneDetailClient({ initialPhone }: { initialPhone: Smar
               </div>
             </div>
 
-            {/* 📍 TARGET AREA MARKED IN RED ON 41.PNG: Store Price Comparison Box (6 Retailers) */}
+            {/* Store Comparison Snapshot in Hero */}
             <CompactStoreComparison
               offers={phone.storeOffers}
               basePrice={phone.basePrice}
               currency={phone.currency}
             />
+
+            {/* AI Module 2: AI Price Forecast Badge */}
+            <AIPriceForecastBadge product={phone} />
 
           </div>
 
@@ -175,6 +182,12 @@ export default function PhoneDetailClient({ initialPhone }: { initialPhone: Smar
       {/* Showcase Cards */}
       <BentoFeatureCards phone={phone} />
 
+      {/* AI Module 3: AI Review Summary Card */}
+      <AIReviewSummaryCard product={phone} />
+
+      {/* AI Module 4: AI Upgrade Advisor */}
+      <AIUpgradeAdvisor currentProduct={phone} />
+
       {/* Store Comparison Table (Full View) */}
       <div id="store-section">
         <StoreTable offers={phone.storeOffers} currency={phone.currency} />
@@ -191,6 +204,9 @@ export default function PhoneDetailClient({ initialPhone }: { initialPhone: Smar
         </h2>
         <SpecSheet specs={phone.specs} />
       </div>
+
+      {/* AI Module 6: ELI5 Tech Term Explainer */}
+      <TechTermExplainer />
 
       {/* Brand Logos Bar */}
       <div className="pt-8 border-t border-slate-200">
