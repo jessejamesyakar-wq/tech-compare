@@ -6,259 +6,174 @@ import PenguinMascot from '@/components/PenguinMascot';
 
 export function TechKiyasCornerBillboard() {
   return (
-    <section className="w-full py-2 sm:py-4 flex items-center justify-center select-none">
-      <div className="w-full max-w-[1260px] flex flex-col lg:flex-row items-center justify-between gap-3 sm:gap-5 lg:gap-6 bg-white dark:bg-slate-900 rounded-3xl border border-slate-200/90 dark:border-slate-800 px-3 py-2.5 sm:px-6 sm:py-3.5 lg:px-7 lg:py-3 shadow-2xl relative overflow-hidden">
+    <section className="w-full py-3 sm:py-5 flex items-center justify-center select-none">
+      <div className="w-full max-w-[1260px] flex flex-col lg:flex-row items-center justify-between gap-4 sm:gap-6 bg-white dark:bg-slate-900 rounded-3xl border border-slate-200/90 dark:border-slate-800 p-3 sm:p-5 lg:p-6 shadow-2xl relative overflow-hidden">
         
-        {/* Soft Ambient Brand Glow (TechKıyas Blue & Emerald) */}
-        <div className="absolute top-1/2 -left-10 -translate-y-1/2 w-96 h-96 bg-blue-600/10 rounded-full blur-3xl pointer-events-none" />
-        <div className="absolute top-1/2 left-1/3 -translate-y-1/2 w-96 h-96 bg-emerald-500/10 rounded-full blur-3xl pointer-events-none" />
+        {/* Soft Ambient LED Glow radiating behind the screen */}
+        <div className="absolute top-1/2 left-1/4 -translate-y-1/2 w-[550px] h-[350px] bg-blue-600/15 dark:bg-blue-500/20 rounded-full blur-3xl pointer-events-none" />
+        <div className="absolute top-1/2 left-1/2 -translate-y-1/2 w-[450px] h-[300px] bg-emerald-500/15 dark:bg-emerald-400/15 rounded-full blur-3xl pointer-events-none" />
 
         {/* ========================================================================= */}
-        {/* 🏢 3D CORNER BILLBOARD STRUCTURE (TechKıyas Platform Vitrini)             */}
+        {/* 📺 SINGLE SEAMLESS DIGITAL LED BILLBOARD SCREEN                           */}
         {/* ========================================================================= */}
-        <div className="flex-1 w-full max-w-[940px] flex items-center justify-center lg:justify-start">
+        <div className="flex-1 w-full flex items-center justify-center">
           
-          <div
-            className="relative w-full h-[260px] xs:h-[290px] sm:h-[350px] md:h-[400px] lg:h-[430px] flex items-center justify-center"
-            style={{
-              perspective: '1300px',
-              perspectiveOrigin: '50% 50%',
-            }}
-          >
-            {/* Deep Ground Cast Shadow */}
-            <div
-              className="absolute -bottom-4 left-[8%] w-[84%] h-9 bg-slate-950/35 blur-2xl rounded-full pointer-events-none"
-              style={{ transform: 'rotate(-2deg)' }}
-            />
+          {/* Outer Heavy-Duty Metallic Bezel Frame */}
+          <div className="relative w-full rounded-2xl sm:rounded-3xl p-1 sm:p-1.5 bg-gradient-to-b from-slate-700 via-slate-800 to-slate-950 shadow-[0_20px_50px_rgba(0,0,0,0.35),0_0_30px_rgba(37,99,235,0.18)] border border-slate-600/60 overflow-hidden group">
+            
+            {/* Top Metallic Chamfer Bar */}
+            <div className="absolute top-0 left-0 right-0 h-[3px] bg-gradient-to-r from-transparent via-slate-300 to-transparent opacity-80 z-30 pointer-events-none" />
+            
+            {/* Corner LED Screen Mounting Accents */}
+            <div className="absolute top-2 left-2 w-1.5 h-1.5 rounded-full bg-slate-500 border border-slate-400/50 shadow-xs z-30 pointer-events-none" />
+            <div className="absolute top-2 right-2 w-1.5 h-1.5 rounded-full bg-slate-500 border border-slate-400/50 shadow-xs z-30 pointer-events-none" />
+            <div className="absolute bottom-2 left-2 w-1.5 h-1.5 rounded-full bg-slate-500 border border-slate-400/50 shadow-xs z-30 pointer-events-none" />
+            <div className="absolute bottom-2 right-2 w-1.5 h-1.5 rounded-full bg-slate-500 border border-slate-400/50 shadow-xs z-30 pointer-events-none" />
 
-            <div
-              className="relative w-full h-full flex items-center"
-              style={{
-                transformStyle: 'preserve-3d',
-              }}
+            {/* Inner Single Screen Container */}
+            <Link
+              href="/phones"
+              className="relative block w-full rounded-xl sm:rounded-2xl overflow-hidden bg-gradient-to-br from-slate-950 via-[#0a1228] to-[#04091a] p-4 sm:p-6 md:p-7 text-white cursor-pointer transition-all duration-300"
             >
+              {/* =================================================================== */}
+              {/* 💡 ULTRA-REALISTIC LED DIODE MATRIX & SCANLINE TEXTURE LAYERS        */}
+              {/* =================================================================== */}
               
-              {/* =================================================================== */}
-              {/* 1. SOL KARE CEPHE (YAPAY ZEKÂ FİYAT ALARMI & ANALİZ)                */}
-              {/* =================================================================== */}
+              {/* 1. Micro-LED Diode Dot Grid (Authentic LED Screen Look) */}
               <div
-                className="relative w-[34%] h-full flex flex-col justify-between"
+                className="absolute inset-0 pointer-events-none opacity-30 z-10"
                 style={{
-                  transformOrigin: 'right center',
-                  transform: 'perspective(900px) rotateY(16deg) skewY(-4deg)',
-                  transformStyle: 'preserve-3d',
-                  zIndex: 2,
-                }}
-              >
-                {/* Üst Metalik Pah Plakası (Sol Tavan) */}
-                <div
-                  className="absolute -top-[7px] left-0 right-0 h-[8px] bg-gradient-to-r from-slate-400 via-slate-200 to-slate-400 border-t border-white/90 shadow-2xs z-20"
-                  style={{
-                    transformOrigin: 'bottom center',
-                    transform: 'rotateX(70deg)',
-                  }}
-                />
-
-                {/* Alt Metalik Etek Plakası (Sol Taban) */}
-                <div
-                  className="absolute -bottom-[9px] left-0 right-0 h-[10px] bg-gradient-to-r from-slate-900 via-slate-700 to-slate-800 shadow-md border-b border-black/40 z-20"
-                  style={{
-                    transformOrigin: 'top center',
-                    transform: 'rotateX(-70deg)',
-                  }}
-                />
-
-                {/* Sol Panel: Akıllı Fiyat Analizi */}
-                <Link
-                  href="/phones"
-                  className="relative w-full h-full overflow-hidden bg-gradient-to-br from-indigo-600 via-blue-600 to-slate-900 cursor-pointer group flex flex-col justify-between p-3 xs:p-4 sm:p-5 text-white"
-                  style={{
-                    border: '5px solid #8e9cae',
-                    borderRight: 'none',
-                    borderImage: 'linear-gradient(to bottom, #cbd5e1 0%, #64748b 50%, #334155 100%) 5',
-                    boxShadow: 'inset 0 0 25px rgba(0,0,0,0.65), -14px 16px 28px rgba(0,0,0,0.3)',
-                  }}
-                >
-                  {/* Subtle LED Matrix Texture */}
-                  <div
-                    className="absolute inset-0 pointer-events-none opacity-25 z-10"
-                    style={{
-                      backgroundImage: 'radial-gradient(rgba(255,255,255,.15) 0.8px, transparent 0.8px)',
-                      backgroundSize: '4px 4px',
-                    }}
-                  />
-
-                  {/* Metallic Inner Highlight Rim */}
-                  <div className="absolute inset-0 border border-white/30 pointer-events-none z-10" />
-
-                  {/* Content */}
-                  <div className="relative z-20 flex flex-col justify-between h-full">
-                    <div>
-                      <div className="flex items-center justify-between">
-                        <span className="text-lg xs:text-xl sm:text-2xl font-black tracking-tight text-white drop-shadow-md flex items-center gap-1.5">
-                          <span>⚡</span> aceleEtme
-                        </span>
-                        <span className="bg-emerald-500/90 text-white text-[8px] xs:text-[9px] sm:text-[10px] font-black px-2 py-0.5 rounded-full shadow-xs">
-                          CANLI
-                        </span>
-                      </div>
-                      <div className="mt-1 xs:mt-2 text-[10px] xs:text-xs sm:text-sm font-bold text-blue-100 leading-tight">
-                        Akıllı Fiyat Takipçisi
-                      </div>
-                    </div>
-
-                    {/* Feature Highlight Capsule */}
-                    <div className="my-auto py-1">
-                      <div className="bg-white/95 text-blue-900 px-2 sm:px-3 py-1 sm:py-1.5 rounded-xl shadow-lg font-black text-xs xs:text-sm sm:text-base md:text-lg leading-none text-center">
-                        100+ Mağaza
-                      </div>
-                      <p className="mt-1 text-[8px] xs:text-[9px] sm:text-[11px] text-blue-100 text-center font-semibold">
-                        En Ucuz Fiyatı Yakala
-                      </p>
-                    </div>
-
-                    {/* Footer CTA */}
-                    <div className="mt-auto pt-1 sm:pt-2 border-t border-white/25 flex items-center justify-between">
-                      <span className="text-[8px] xs:text-[9px] sm:text-[10px] font-bold text-blue-200">
-                        Anlık Alarm
-                      </span>
-                      <span className="text-[10px] sm:text-xs font-black bg-white text-blue-700 px-2 py-0.5 rounded-full group-hover:scale-105 transition-transform">
-                        İncele →
-                      </span>
-                    </div>
-                  </div>
-                </Link>
-              </div>
-
-              {/* =================================================================== */}
-              {/* ORTA DİKEY BİRLEŞİM DİREĞİ (PROTRUDING 3D CORNER APEX BEVEL)        */}
-              {/* =================================================================== */}
-              <div
-                className="w-[8px] sm:w-[10px] md:w-[12px] -ml-[2px] h-full bg-gradient-to-r from-slate-400 via-slate-100 to-slate-500 shadow-2xl z-30 shrink-0 relative"
-                style={{
-                  boxShadow: '0 0 16px rgba(0,0,0,0.6)',
-                  borderTop: '1px solid #ffffff',
-                  borderBottom: '1px solid #1e293b',
+                  backgroundImage: 'radial-gradient(circle, rgba(255,255,255,0.3) 0.75px, transparent 0.75px)',
+                  backgroundSize: '3.5px 3.5px',
                 }}
               />
 
-              {/* =================================================================== */}
-              {/* 2. SAĞ DİKDÖRTGEN CEPHE (TECHKIYAS ANA KARAR VE KIYASLAMA REHBERİ)   */}
-              {/* =================================================================== */}
+              {/* 2. LED Horizontal Raster / Scanlines */}
               <div
-                className="relative w-[66%] h-full -ml-[2px] flex flex-col justify-between"
+                className="absolute inset-0 pointer-events-none opacity-15 z-10"
                 style={{
-                  transformOrigin: 'left center',
-                  transform: 'perspective(1400px) rotateY(-4deg) skewY(1deg)',
-                  transformStyle: 'preserve-3d',
-                  zIndex: 1,
+                  backgroundImage: 'linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.4) 50%)',
+                  backgroundSize: '100% 4px',
                 }}
-              >
-                {/* Üst Metalik Pah Plakası (Sağ Tavan) */}
-                <div
-                  className="absolute -top-[7px] left-0 right-0 h-[8px] bg-gradient-to-r from-slate-300 via-slate-100 to-slate-400 border-t border-white/90 shadow-2xs z-20"
-                  style={{
-                    transformOrigin: 'bottom center',
-                    transform: 'rotateX(70deg)',
-                  }}
-                />
+              />
 
-                {/* Alt Metalik Etek Plakası (Sağ Taban) */}
-                <div
-                  className="absolute -bottom-[9px] left-0 right-0 h-[10px] bg-gradient-to-r from-slate-800 via-slate-600 to-slate-700 shadow-md border-b border-black/40 z-20"
-                  style={{
-                    transformOrigin: 'top center',
-                    transform: 'rotateX(-70deg)',
-                  }}
-                />
+              {/* 3. Diagonal Glass Reflection Sheen */}
+              <div className="absolute inset-0 bg-gradient-to-tr from-transparent via-white/[0.04] to-transparent pointer-events-none z-10" />
 
-                {/* Sağ Panel: Tarafsız Karşılaştırma Rehberi */}
-                <Link
-                  href="/phones"
-                  className="relative w-full h-full overflow-hidden bg-gradient-to-br from-slate-900 via-blue-950 to-indigo-950 cursor-pointer group flex flex-col justify-between p-4 xs:p-5 sm:p-7 md:p-8 text-white"
-                  style={{
-                    border: '5px solid #8e9cae',
-                    borderLeft: 'none',
-                    borderImage: 'linear-gradient(to bottom, #cbd5e1 0%, #64748b 50%, #334155 100%) 5',
-                    boxShadow: 'inset 0 0 30px rgba(0,0,0,0.4), 16px 20px 35px rgba(0,0,0,0.35)',
-                  }}
-                >
-                  {/* Subtle LED Matrix Texture */}
-                  <div
-                    className="absolute inset-0 pointer-events-none opacity-25 z-10"
-                    style={{
-                      backgroundImage: 'radial-gradient(rgba(255,255,255,.15) 0.8px, transparent 0.8px)',
-                      backgroundSize: '4px 4px',
-                    }}
-                  />
+              {/* 4. Active Internal LED Ambient Glow Blobs */}
+              <div className="absolute -top-12 -left-12 w-64 h-64 bg-blue-500/25 rounded-full blur-2xl pointer-events-none z-10 animate-pulse" />
+              <div className="absolute -bottom-12 -right-12 w-64 h-64 bg-emerald-500/20 rounded-full blur-2xl pointer-events-none z-10" />
 
-                  {/* Metallic Inner Highlight Rim */}
-                  <div className="absolute inset-0 border border-white/30 pointer-events-none z-10" />
-
-                  {/* Main Content */}
-                  <div className="relative z-20 flex flex-col justify-between h-full space-y-2">
-                    
-                    {/* Top Row */}
-                    <div className="flex items-center justify-between">
-                      <div className="flex items-center gap-2 sm:gap-3">
-                        <span className="text-xl xs:text-2xl sm:text-3xl md:text-4xl font-black tracking-tight text-white drop-shadow-md font-sans">
-                          Akıllı <span className="text-blue-400">Karar Asistanı</span>
-                        </span>
-                        <span className="bg-blue-500/30 text-blue-300 text-[9px] xs:text-[10px] sm:text-xs font-black px-2.5 py-0.5 rounded-full border border-blue-400/40 uppercase tracking-wider">
-                          TARAFSIZ & ŞEFFAF
-                        </span>
-                      </div>
-                      <span className="text-[10px] sm:text-xs font-mono text-emerald-400 font-bold bg-emerald-950/60 border border-emerald-500/30 px-2 py-0.5 rounded">
-                        %100 ÜCRETSİZ
-                      </span>
+              {/* =================================================================== */}
+              {/* 🖥️ LED SCREEN DISPLAY CONTENT                                       */}
+              {/* =================================================================== */}
+              <div className="relative z-20 flex flex-col justify-between h-full space-y-4 sm:space-y-5">
+                
+                {/* Header Ticker Bar */}
+                <div className="flex flex-wrap items-center justify-between gap-2 border-b border-white/10 pb-3">
+                  
+                  {/* Brand & Live Indicator */}
+                  <div className="flex items-center gap-2 sm:gap-3">
+                    <div className="flex items-center gap-1.5 bg-red-600/90 text-white text-[10px] sm:text-xs font-black px-2.5 py-0.5 rounded-full shadow-[0_0_12px_rgba(239,68,68,0.6)] tracking-wider">
+                      <span className="w-2 h-2 rounded-full bg-white animate-ping shrink-0" />
+                      <span>CANLI LED EKRAN</span>
                     </div>
 
-                    {/* Headline */}
-                    <div className="space-y-1">
-                      <h2 className="text-base xs:text-lg sm:text-2xl md:text-3xl font-black text-white leading-tight tracking-tight drop-shadow-md">
-                        Hangi Cihaz Sana Uygun? Kıyasla, Karar Ver!
-                      </h2>
-                      
-                      <div className="inline-block bg-black/60 backdrop-blur-xs px-3 sm:px-4 py-1 rounded-xl border border-white/20 shadow-md">
-                        <span className="text-yellow-300 font-black text-sm xs:text-base sm:text-xl md:text-2xl tracking-tight">
-                          Gerçek Kullanıcı Skorları & Fiyat Geçmişi
-                        </span>
-                      </div>
-                      
-                      <p className="text-slate-300 text-[11px] xs:text-xs sm:text-sm font-medium">
-                        Binlerce teknolojik cihazı teknik özellikleri, bataryası, kamerası ve fiyatıyla yan yana incele.
-                      </p>
-                    </div>
-
-                    {/* Footer Row */}
-                    <div className="pt-2 border-t border-white/20 flex items-center justify-between gap-2">
-                      <div className="hidden xs:flex items-center gap-2 text-[9px] sm:text-[11px] font-bold text-slate-300">
-                        <span>✓ Canlı Fiyat Takibi</span>
-                        <span>•</span>
-                        <span>✓ Güvenilir Satıcılar</span>
-                        <span>•</span>
-                        <span>✓ Reklamsız Deneyim</span>
-                      </div>
-
-                      <div className="bg-gradient-to-r from-blue-500 to-indigo-600 text-white font-black text-xs sm:text-sm px-4 py-1.5 rounded-xl shadow-lg group-hover:scale-105 transition-transform flex items-center gap-1">
-                        <span>Kıyaslamaya Başla</span>
-                        <span>→</span>
-                      </div>
-                    </div>
-
+                    <span className="text-xs sm:text-sm font-black text-blue-300 tracking-wider font-mono">
+                      TECHKIYAS RADAR
+                    </span>
                   </div>
-                </Link>
-              </div>
 
-            </div>
+                  {/* Right Status Pill */}
+                  <div className="flex items-center gap-2">
+                    <span className="inline-flex items-center gap-1 bg-emerald-500/20 text-emerald-300 text-[10px] sm:text-xs font-bold px-2.5 py-0.5 rounded-full border border-emerald-500/40 shadow-[0_0_10px_rgba(16,185,129,0.3)]">
+                      <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse" />
+                      100+ Mağaza Çevrimiçi
+                    </span>
+                    <span className="hidden xs:inline-block bg-blue-950/80 text-blue-200 text-[10px] font-mono px-2 py-0.5 rounded border border-blue-800/60">
+                      %100 TARAFSIZ
+                    </span>
+                  </div>
+                </div>
+
+                {/* Main Illuminated Headlines */}
+                <div className="space-y-2">
+                  <div className="inline-flex items-center gap-2 bg-gradient-to-r from-blue-600/40 to-emerald-600/40 border border-blue-400/30 px-3 py-1 rounded-xl shadow-inner backdrop-blur-xs">
+                    <span className="text-amber-300 text-xs sm:text-sm font-black tracking-wide flex items-center gap-1">
+                      <span>⚡</span> Akıllı Karar & Fiyat Alarm Radarı
+                    </span>
+                  </div>
+
+                  <h2 className="text-xl xs:text-2xl sm:text-3xl md:text-4xl font-black text-white leading-tight tracking-tight drop-shadow-[0_2px_12px_rgba(0,0,0,0.8)]">
+                    Hangi Cihaz Sana Uygun? <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-cyan-300 to-emerald-400">Kıyasla, Doğru Karar Ver!</span>
+                  </h2>
+
+                  <p className="text-slate-300 text-xs sm:text-sm font-medium leading-relaxed max-w-3xl">
+                    Binlerce akıllı telefon, televizyon, laptop ve ev aletini; gerçek kullanıcı puanları, 100 puanlık performans skorları ve 8 büyük mağazanın şeffaf 6 aylık fiyat geçmişiyle canlı incele.
+                  </p>
+                </div>
+
+                {/* 3 Interactive LED Stat Badges */}
+                <div className="grid grid-cols-1 sm:grid-cols-3 gap-2 sm:gap-3 py-1">
+                  
+                  <div className="bg-slate-900/80 hover:bg-slate-800/90 border border-blue-500/30 hover:border-blue-400 rounded-xl p-2.5 sm:p-3 transition-colors shadow-inner flex items-center gap-2.5">
+                    <div className="w-8 h-8 rounded-lg bg-blue-600/30 border border-blue-400/50 flex items-center justify-center text-blue-300 font-black text-sm shrink-0 shadow-[0_0_10px_rgba(59,130,246,0.3)]">
+                      📈
+                    </div>
+                    <div>
+                      <span className="block text-[11px] sm:text-xs font-black text-white">6 Aylık Fiyat Analizi</span>
+                      <span className="text-[9px] sm:text-[10px] text-slate-400 font-medium">En dip fiyat alarmı</span>
+                    </div>
+                  </div>
+
+                  <div className="bg-slate-900/80 hover:bg-slate-800/90 border border-emerald-500/30 hover:border-emerald-400 rounded-xl p-2.5 sm:p-3 transition-colors shadow-inner flex items-center gap-2.5">
+                    <div className="w-8 h-8 rounded-lg bg-emerald-600/30 border border-emerald-400/50 flex items-center justify-center text-emerald-300 font-black text-sm shrink-0 shadow-[0_0_10px_rgba(16,185,129,0.3)]">
+                      ⭐
+                    </div>
+                    <div>
+                      <span className="block text-[11px] sm:text-xs font-black text-white">100 Puan Derecesi</span>
+                      <span className="text-[9px] sm:text-[10px] text-slate-400 font-medium">Bağımsız donanım testi</span>
+                    </div>
+                  </div>
+
+                  <div className="bg-slate-900/80 hover:bg-slate-800/90 border border-amber-500/30 hover:border-amber-400 rounded-xl p-2.5 sm:p-3 transition-colors shadow-inner flex items-center gap-2.5">
+                    <div className="w-8 h-8 rounded-lg bg-amber-600/30 border border-amber-400/50 flex items-center justify-center text-amber-300 font-black text-sm shrink-0 shadow-[0_0_10px_rgba(245,158,11,0.3)]">
+                      ⚖️
+                    </div>
+                    <div>
+                      <span className="block text-[11px] sm:text-xs font-black text-white">Canlı Düello Masası</span>
+                      <span className="text-[9px] sm:text-[10px] text-slate-400 font-medium">Birebir teknik karşılaştırma</span>
+                    </div>
+                  </div>
+
+                </div>
+
+                {/* Footer Action Strip */}
+                <div className="pt-2 border-t border-white/10 flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+                  
+                  <div className="flex items-center gap-2 text-[10px] sm:text-xs font-bold text-slate-400">
+                    <span className="text-emerald-400">●</span>
+                    <span>Anlık Mağaza Senkronizasyonu: Hepsiburada • Trendyol • Amazon • MediaMarkt</span>
+                  </div>
+
+                  <div className="self-end sm:self-auto inline-flex items-center gap-2 bg-gradient-to-r from-blue-600 to-emerald-600 hover:from-blue-500 hover:to-emerald-500 text-white font-black text-xs sm:text-sm px-5 py-2.5 rounded-xl shadow-[0_0_20px_rgba(37,99,235,0.4)] group-hover:scale-105 transition-all">
+                    <span>Kıyaslamaya Başla</span>
+                    <span>→</span>
+                  </div>
+
+                </div>
+
+              </div>
+            </Link>
+
           </div>
 
         </div>
 
         {/* ========================================================================= */}
-        {/* SAĞ ALAN: CANLI ETKİLEŞİMLİ PENGİ MASKOTU                                 */}
+        {/* RIGHT AREA: INTERACTIVE PENGUIN MASCOT (PENGİ)                            */}
         {/* ========================================================================= */}
-        <div className="shrink-0 flex items-center justify-center pt-1 lg:pt-0">
+        <div className="shrink-0 flex items-center justify-center pt-2 lg:pt-0">
           <PenguinMascot />
         </div>
 
