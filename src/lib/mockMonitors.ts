@@ -1,6 +1,1735 @@
-import { Product } from "./types";
+import { Product } from './types';
 
 export const mockMonitors: Product[] = [
+  {
+    "id": "apple-pro-display-xdr-nano-texture-cam",
+    "slug": "apple-pro-display-xdr-nano-texture-cam",
+    "name": "Apple Pro Display XDR Nano-Texture Mat Cam 32 inç 6K Retina Profesyonel Monitör",
+    "brand": "Apple",
+    "category": "monitors",
+    "rating": 4.9,
+    "epeyScore": 95,
+    "reviewCount": 380,
+    "basePrice": 349999,
+    "currency": "TL",
+    "releaseYear": 2021,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/monitors/apple-pro-display-xdr-nano-texture-cam.jpg",
+    "images": [
+      "/images/monitors/apple-pro-display-xdr-nano-texture-cam.jpg"
+    ],
+    "highlights": [
+      "32 inç 6K (6016x3384) Retina Ekran (218 ppi, 20.4 Milyon Piksel)",
+      "Nano-Texture Özel Mat Cam Teknolojisi ile Sıfır Parlama ve Maksimum Kontrast",
+      "Extreme Dynamic Range (XDR): 1000 Nit Sürekli, 1600 Nit Tepe Parlaklık & 1.000.000:1 Kontrast",
+      "576 Bölgeli Mavi LED Dizi Arkadan Aydınlatma ve Thunderbolt 3 (96W Şarj)"
+    ],
+    "specs": {
+      "screenSizeInches": 32,
+      "resolution": "6016x3384 (6K UHD Retina)",
+      "panelType": "IPS (XDR Mini-LED 576 Bölge)",
+      "refreshRateHz": 60,
+      "responseTimeMs": 5,
+      "aspectRatio": "16:9",
+      "brightnessNits": 1600,
+      "contrastRatio": "1000000:1",
+      "hdrSupport": "HDR 1600 (XDR)",
+      "ports": [
+        "1x Thunderbolt 3 (Upstream, 96W PD)",
+        "3x USB-C (USB 2.0 Passthrough)"
+      ],
+      "vesaMount": "VESA Uyumlu (Opsiyonel Adaptör)"
+    },
+    "storeOffers": [
+      {
+        "id": "so-applexdrnano-1",
+        "storeName": "Gürgençler",
+        "storeLogoColor": "bg-slate-900",
+        "price": 349999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Apple Yetkili Satıcı",
+          "Nano-Texture"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 450,
+        "url": "https://www.gurgencler.com.tr"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 365000,
+        "store": "Gürgençler"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 349999,
+        "store": "Gürgençler"
+      }
+    ]
+  },
+  {
+    "id": "apple-pro-display-xdr",
+    "slug": "apple-pro-display-xdr",
+    "name": "Apple Pro Display XDR Standart Cam 32 inç 6K Retina Monitör",
+    "brand": "Apple",
+    "category": "monitors",
+    "rating": 4.9,
+    "epeyScore": 93,
+    "reviewCount": 420,
+    "basePrice": 298500,
+    "currency": "TL",
+    "releaseYear": 2021,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/monitors/apple-pro-display-xdr.jpg",
+    "images": [
+      "/images/monitors/apple-pro-display-xdr.jpg"
+    ],
+    "highlights": [
+      "32 inç 6016x3384 6K Retina IPS Ekran",
+      "1000 Nit Sürekli Parlaklık / 1600 Nit XDR Tepe Parlaklık",
+      "P3 Geniş Renk Gamutu ve 10-Bit Renk Derinliği",
+      "Thunderbolt 3 Bağlantısı ve 96W Güç İletimi"
+    ],
+    "specs": {
+      "screenSizeInches": 32,
+      "resolution": "6016x3384 (6K UHD Retina)",
+      "panelType": "IPS (XDR Mini-LED)",
+      "refreshRateHz": 60,
+      "responseTimeMs": 5,
+      "aspectRatio": "16:9",
+      "brightnessNits": 1600,
+      "contrastRatio": "1000000:1",
+      "hdrSupport": "HDR 1600 (XDR)",
+      "ports": [
+        "1x Thunderbolt 3 (96W PD)",
+        "3x USB-C"
+      ]
+    },
+    "storeOffers": [
+      {
+        "id": "so-applexdrstd-1",
+        "storeName": "Troy",
+        "storeLogoColor": "bg-slate-800",
+        "price": 298500,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Apple Yetkili Satıcı"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 520,
+        "url": "https://www.troyestore.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 310000,
+        "store": "Troy"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 298500,
+        "store": "Troy"
+      }
+    ]
+  },
+  {
+    "id": "apple-pro-display-xdr-pro-stand",
+    "slug": "apple-pro-display-xdr-pro-stand",
+    "name": "Apple Pro Display XDR Pro Stand Paket 32 inç 6K Profesyonel Monitör",
+    "brand": "Apple",
+    "category": "monitors",
+    "rating": 4.8,
+    "epeyScore": 92,
+    "reviewCount": 310,
+    "basePrice": 209300,
+    "currency": "TL",
+    "releaseYear": 2021,
+    "isPopular": true,
+    "image": "/images/monitors/apple-pro-display-xdr-pro-stand.jpg",
+    "images": [
+      "/images/monitors/apple-pro-display-xdr-pro-stand.jpg"
+    ],
+    "highlights": [
+      "32 inç 6K Retina (6016x3384) IPS Panel",
+      "Manyetik Pro Stand ile Yükseklik, Eğim ve Portre (Pivot) Ayarı",
+      "1000 Nit Sürekli / 1600 Nit Tepe Parlaklık XDR"
+    ],
+    "specs": {
+      "screenSizeInches": 32,
+      "resolution": "6016x3384 (6K UHD)",
+      "panelType": "IPS",
+      "refreshRateHz": 60,
+      "responseTimeMs": 5,
+      "aspectRatio": "16:9",
+      "brightnessNits": 1600,
+      "contrastRatio": "1000000:1",
+      "hdrSupport": "HDR 1600"
+    },
+    "storeOffers": [
+      {
+        "id": "so-applexdrprostand-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-amber-500",
+        "price": 209300,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Apple Pro Stand"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 610,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 219000,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 209300,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "asus-proart-pa32ucg-k",
+    "slug": "asus-proart-pa32ucg-k",
+    "name": "Asus ProArt PA32UCG-K 32 inç 120Hz 4K HDR1600 Mini-LED Profesyonel Monitör",
+    "brand": "Asus",
+    "category": "monitors",
+    "rating": 4.9,
+    "epeyScore": 90,
+    "reviewCount": 290,
+    "basePrice": 243600,
+    "currency": "TL",
+    "releaseYear": 2022,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/monitors/asus-proart-pa32ucg-k.jpg",
+    "images": [
+      "/images/monitors/asus-proart-pa32ucg-k.jpg"
+    ],
+    "highlights": [
+      "Dünyanın İlk 120Hz Değişken Yenileme Hızına Sahip 4K HDR1600 Mini-LED Monitörü",
+      "1152 Bölgeli Yerel Karartma (Local Dimming) ve 1600 Nit Tepe Parlaklık",
+      "Quantum Dot Teknolojisi ile %98 DCI-P3, %100 sRGB, %99.5 Adobe RGB & Delta E < 1",
+      "Thunderbolt 3 (USB-C 60W PD), HDMI 2.1 4K 120Hz ve Donanımsal Kalibrasyon Aracı Dahil"
+    ],
+    "specs": {
+      "screenSizeInches": 32,
+      "resolution": "3840x2160 (4K UHD)",
+      "panelType": "IPS (Mini-LED 1152 Bölge)",
+      "refreshRateHz": 120,
+      "responseTimeMs": 5,
+      "syncTechnology": "AMD FreeSync Premium Pro",
+      "aspectRatio": "16:9",
+      "brightnessNits": 1600,
+      "contrastRatio": "1000000:1",
+      "hdrSupport": "VESA DisplayHDR 1600, Dolby Vision, HDR10, HLG",
+      "ports": [
+        "1x Thunderbolt 3 USB-C (60W PD)",
+        "1x HDMI 2.1",
+        "3x HDMI 2.0",
+        "1x DisplayPort 1.4",
+        "3x USB 3.2 Gen 1"
+      ],
+      "vesaMount": "100x100 mm"
+    },
+    "storeOffers": [
+      {
+        "id": "so-asuspa32ucgk-1",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-800",
+        "price": 243600,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "DisplayHDR 1600",
+          "Calman"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 780,
+        "url": "https://www.vatanbilgisayar.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 255000,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 243600,
+        "store": "Vatan Bilgisayar"
+      }
+    ]
+  },
+  {
+    "id": "asus-proart-pa32ucxr",
+    "slug": "asus-proart-pa32ucxr",
+    "name": "Asus ProArt PA32UCXR 32 inç 4K Dahili Motorize Kalibratörlü Mini-LED Monitör",
+    "brand": "Asus",
+    "category": "monitors",
+    "rating": 4.9,
+    "epeyScore": 91,
+    "reviewCount": 340,
+    "basePrice": 206434.29,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/monitors/asus-proart-pa32ucxr.jpg",
+    "images": [
+      "/images/monitors/asus-proart-pa32ucxr.jpg"
+    ],
+    "highlights": [
+      "2304 Bölgeli Mini-LED Arka Aydınlatma ile Üstün Kontrast ve Sıfır Halo Etkisi",
+      "Dahili Motorize Otomatik Renk Kalibrasyon Cihazı ile Her Zaman Kusursuz Renkler",
+      "1600 Nit Tepe Parlaklık, %99 Adobe RGB, %97 DCI-P3 ve Delta E < 1",
+      "Çift Thunderbolt 4 USB-C Portu (90W PD & Papatya Dizilimi Daisy-Chain)"
+    ],
+    "specs": {
+      "screenSizeInches": 32,
+      "resolution": "3840x2160 (4K UHD)",
+      "panelType": "IPS (Mini-LED 2304 Bölge)",
+      "refreshRateHz": 60,
+      "responseTimeMs": 5,
+      "aspectRatio": "16:9",
+      "brightnessNits": 1600,
+      "contrastRatio": "1000000:1",
+      "hdrSupport": "DisplayHDR 1600, Dolby Vision, HDR10, HLG",
+      "ports": [
+        "2x Thunderbolt 4 (90W PD)",
+        "2x HDMI 2.1",
+        "1x DisplayPort 1.4",
+        "USB Hub"
+      ],
+      "vesaMount": "100x100 mm"
+    },
+    "storeOffers": [
+      {
+        "id": "so-asuspa32ucxr-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "bg-orange-500",
+        "price": 206434.29,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime",
+          "2304 Bölge Mini-LED",
+          "Dahili Kalibratör"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 1200,
+        "url": "https://www.amazon.com.tr"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 219000,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 206434.29,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "asus-proart-pa32ucx-pk",
+    "slug": "asus-proart-pa32ucx-pk",
+    "name": "Asus ProArt PA32UCX-PK 32 inç 4K HDR1200 Mini-LED Monitör",
+    "brand": "Asus",
+    "category": "monitors",
+    "rating": 4.8,
+    "epeyScore": 84,
+    "reviewCount": 220,
+    "basePrice": 185000,
+    "currency": "TL",
+    "releaseYear": 2021,
+    "isPopular": false,
+    "image": "/images/monitors/asus-proart-pa32ucx-pk.jpg",
+    "images": [
+      "/images/monitors/asus-proart-pa32ucx-pk.jpg"
+    ],
+    "highlights": [
+      "1152 Bölge Mini-LED ve OCO (Off-Axis Contrast Optimization) Geniş Açı Teknolojisi",
+      "1200 Nit Tepe Parlaklık ve Dolby Vision Desteği",
+      "Thunderbolt 3 USB-C Girişi"
+    ],
+    "specs": {
+      "screenSizeInches": 32,
+      "resolution": "3840x2160 (4K UHD)",
+      "panelType": "IPS (Mini-LED 1152 Bölge)",
+      "refreshRateHz": 60,
+      "responseTimeMs": 5,
+      "aspectRatio": "16:9",
+      "brightnessNits": 1200,
+      "contrastRatio": "1000000:1",
+      "hdrSupport": "DisplayHDR 1000 / 1200, Dolby Vision",
+      "ports": [
+        "Thunderbolt 3",
+        "3x HDMI 2.0",
+        "DisplayPort 1.2"
+      ]
+    },
+    "storeOffers": [
+      {
+        "id": "so-asuspa32ucxpk-1",
+        "storeName": "Teknosa",
+        "storeLogoColor": "bg-orange-500",
+        "price": 185000,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Mini-LED",
+          "Dolby Vision"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 430,
+        "url": "https://www.teknosa.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 195000,
+        "store": "Teknosa"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 185000,
+        "store": "Teknosa"
+      }
+    ]
+  },
+  {
+    "id": "asus-proart-pa32ucx",
+    "slug": "asus-proart-pa32ucx",
+    "name": "Asus ProArt PA32UCX-K 32 inç 4K HDR Mini-LED Profesyonel Monitör",
+    "brand": "Asus",
+    "category": "monitors",
+    "rating": 4.8,
+    "epeyScore": 82,
+    "reviewCount": 190,
+    "basePrice": 170000,
+    "currency": "TL",
+    "releaseYear": 2020,
+    "isPopular": false,
+    "image": "/images/monitors/asus-proart-pa32ucx.jpg",
+    "images": [
+      "/images/monitors/asus-proart-pa32ucx.jpg"
+    ],
+    "highlights": [
+      "1152 Bölge Mini-LED ve 1200 Nit Parlaklık",
+      "X-Rite i1 Display Pro Donanım Kalibratörü Dahil",
+      "HDR-10, HLG ve Dolby Vision Çoklu HDR Format Desteği"
+    ],
+    "specs": {
+      "screenSizeInches": 32,
+      "resolution": "3840x2160 (4K UHD)",
+      "panelType": "IPS (Mini-LED)",
+      "refreshRateHz": 60,
+      "responseTimeMs": 5,
+      "aspectRatio": "16:9",
+      "brightnessNits": 1200,
+      "contrastRatio": "1000000:1",
+      "hdrSupport": "DisplayHDR 1000"
+    },
+    "storeOffers": [
+      {
+        "id": "so-asuspa32ucx-1",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-800",
+        "price": 170000,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "X-Rite Kalibratör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 350,
+        "url": "https://www.vatanbilgisayar.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 180000,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 170000,
+        "store": "Vatan Bilgisayar"
+      }
+    ]
+  },
+  {
+    "id": "asus-rog-swift-pg32uqx",
+    "slug": "asus-rog-swift-pg32uqx",
+    "name": "Asus ROG Swift PG32UQX 32 inç 144Hz 4K G-Sync Ultimate Mini-LED Gaming Monitör",
+    "brand": "Asus",
+    "category": "monitors",
+    "rating": 4.8,
+    "epeyScore": 83,
+    "reviewCount": 420,
+    "basePrice": 125000,
+    "currency": "TL",
+    "releaseYear": 2021,
+    "isPopular": true,
+    "image": "/images/monitors/asus-rog-swift-pg32uqx.jpg",
+    "images": [
+      "/images/monitors/asus-rog-swift-pg32uqx.jpg"
+    ],
+    "highlights": [
+      "1152 Bölgeli Mini-LED ve NVIDIA G-Sync Ultimate Donanım İşlemcisi",
+      "DisplayHDR 1400 Sertifikası ve 1400 Nit Tepe Parlaklık",
+      "LiveDash Dahili 2 inç OLED Bilgi Ekranı ve ROG Masa Lambası Işığı"
+    ],
+    "specs": {
+      "screenSizeInches": 32,
+      "resolution": "3840x2160 (4K UHD)",
+      "panelType": "IPS (Mini-LED Quantum Dot)",
+      "refreshRateHz": 144,
+      "responseTimeMs": 4,
+      "syncTechnology": "NVIDIA G-Sync Ultimate",
+      "aspectRatio": "16:9",
+      "brightnessNits": 1400,
+      "contrastRatio": "1000000:1",
+      "hdrSupport": "DisplayHDR 1400"
+    },
+    "storeOffers": [
+      {
+        "id": "so-asuspg32uqx-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-amber-500",
+        "price": 125000,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "G-Sync Ultimate",
+          "HDR 1400"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 610,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 135000,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 125000,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "viewsonic-xg320q",
+    "slug": "viewsonic-xg320q",
+    "name": "ViewSonic ELITE XG320Q 32 inç 175Hz 0.5ms 2K Quantum Dot IPS Gaming Monitör",
+    "brand": "ViewSonic",
+    "category": "monitors",
+    "rating": 4.6,
+    "epeyScore": 73,
+    "reviewCount": 310,
+    "basePrice": 88943.75,
+    "currency": "TL",
+    "releaseYear": 2022,
+    "isPopular": false,
+    "image": "/images/monitors/viewsonic-xg320q.jpg",
+    "images": [
+      "/images/monitors/viewsonic-xg320q.jpg"
+    ],
+    "highlights": [
+      "Quantum Dot IPS Panel ile %99 Adobe RGB Canlı Renkler",
+      "175Hz Ultra Hızlı Yenileme Hızı ve 0.5ms PureXP Bulanıklık Önleme",
+      "DisplayHDR 600 Sertifikası ve ELITE RGB Aydınlatma"
+    ],
+    "specs": {
+      "screenSizeInches": 32,
+      "resolution": "2560x1440 (WQHD)",
+      "panelType": "IPS (Quantum Dot)",
+      "refreshRateHz": 175,
+      "responseTimeMs": 0.5,
+      "syncTechnology": "NVIDIA G-Sync Compatible",
+      "aspectRatio": "16:9",
+      "brightnessNits": 600,
+      "contrastRatio": "1000:1",
+      "hdrSupport": "DisplayHDR 600"
+    },
+    "storeOffers": [
+      {
+        "id": "so-viewsonicxg320q-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "bg-orange-500",
+        "price": 88943.75,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime",
+          "Quantum Dot"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 540,
+        "url": "https://www.amazon.com.tr"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 95000,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 88943.75,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "asus-rog-swift-pg32uqxr",
+    "slug": "asus-rog-swift-pg32uqxr",
+    "name": "Asus ROG Swift PG32UQXR 32 inç 160Hz 4K Mini-LED DisplayPort 2.1 Gaming Monitör",
+    "brand": "Asus",
+    "category": "monitors",
+    "rating": 4.8,
+    "epeyScore": 86,
+    "reviewCount": 380,
+    "basePrice": 64999,
+    "currency": "TL",
+    "releaseYear": 2023,
+    "isPopular": true,
+    "image": "/images/monitors/asus-rog-swift-pg32uqxr.jpg",
+    "images": [
+      "/images/monitors/asus-rog-swift-pg32uqxr.jpg"
+    ],
+    "highlights": [
+      "576 Bölge Mini-LED Yerel Karartma ve DisplayHDR 1000 (1000 Nit Tepe Parlaklık)",
+      "Dünyanın İlk DisplayPort 2.1 (UHBR10) ve HDMI 2.1 Girişli 4K 160Hz Monitörü",
+      "FreeSync Premium Pro, G-Sync Uyumlu ve %96 DCI-P3 Renk Gamutu"
+    ],
+    "specs": {
+      "screenSizeInches": 32,
+      "resolution": "3840x2160 (4K UHD)",
+      "panelType": "Fast IPS (Mini-LED 576 Bölge)",
+      "refreshRateHz": 160,
+      "responseTimeMs": 1,
+      "syncTechnology": "AMD FreeSync Premium Pro / G-Sync Compatible",
+      "aspectRatio": "16:9",
+      "brightnessNits": 1000,
+      "contrastRatio": "1000000:1",
+      "hdrSupport": "DisplayHDR 1000",
+      "ports": [
+        "2x DisplayPort 2.1",
+        "2x HDMI 2.1",
+        "USB 3.2 Hub"
+      ]
+    },
+    "storeOffers": [
+      {
+        "id": "so-asuspg32uqxr-1",
+        "storeName": "İtopya",
+        "storeLogoColor": "bg-yellow-500",
+        "price": 64999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "DisplayPort 2.1",
+          "Mini-LED 576 Bölge"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 890,
+        "url": "https://www.itopya.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 69999,
+        "store": "İtopya"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 64999,
+        "store": "İtopya"
+      }
+    ]
+  },
+  {
+    "id": "msi-mag-322upf",
+    "slug": "msi-mag-322upf",
+    "name": "MSI MAG 322UPF 32 inç 160Hz 1ms 4K UHD Rapid IPS Type-C Gaming Monitör",
+    "brand": "MSI",
+    "category": "monitors",
+    "rating": 4.7,
+    "epeyScore": 80,
+    "reviewCount": 460,
+    "basePrice": 62327.26,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "image": "/images/monitors/msi-mag-322upf.jpg",
+    "images": [
+      "/images/monitors/msi-mag-322upf.jpg"
+    ],
+    "highlights": [
+      "32 inç 4K UHD (3840x2160) Rapid IPS Panel ile 160Hz Yenileme ve 1ms (GtG) Tepki",
+      "Tam Bant Genişlikli HDMI 2.1 ile Yeni Nesil Konsollarda (PS5/Xbox Series X) 4K 120Hz Desteği",
+      "90W Type-C Power Delivery Şarj Portu ve Dahili KVM Switch",
+      "VESA DisplayHDR 400 ve AMD FreeSync Premium Pro"
+    ],
+    "specs": {
+      "screenSizeInches": 32,
+      "resolution": "3840x2160 (4K UHD)",
+      "panelType": "Rapid IPS",
+      "refreshRateHz": 160,
+      "responseTimeMs": 1,
+      "syncTechnology": "AMD FreeSync Premium Pro",
+      "aspectRatio": "16:9",
+      "brightnessNits": 400,
+      "contrastRatio": "1000:1",
+      "hdrSupport": "DisplayHDR 400",
+      "ports": [
+        "1x USB Type-C (90W PD & DP Alt)",
+        "2x HDMI 2.1 (4K@160Hz)",
+        "1x DisplayPort 1.4a",
+        "3x USB 2.0 Type-A Hub (KVM)"
+      ],
+      "vesaMount": "100x100 mm"
+    },
+    "storeOffers": [
+      {
+        "id": "so-msimag322upf-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "bg-orange-500",
+        "price": 62327.26,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime",
+          "Rapid IPS 4K 160Hz",
+          "90W Type-C"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 920,
+        "url": "https://www.amazon.com.tr"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 66500,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 62327.26,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "gigabyte-aorus-fi32q-x",
+    "slug": "gigabyte-aorus-fi32q-x",
+    "name": "Gigabyte AORUS FI32Q X 32 inç 270Hz 1ms 2K WQHD SuperSpeed IPS Gaming Monitör",
+    "brand": "Gigabyte",
+    "category": "monitors",
+    "rating": 4.8,
+    "epeyScore": 81,
+    "reviewCount": 520,
+    "basePrice": 58786.23,
+    "currency": "TL",
+    "releaseYear": 2022,
+    "isPopular": true,
+    "image": "/images/monitors/gigabyte-aorus-fi32q-x.jpg",
+    "images": [
+      "/images/monitors/gigabyte-aorus-fi32q-x.jpg"
+    ],
+    "highlights": [
+      "32 inç 2560x1440 WQHD SuperSpeed IPS Panel (240Hz Normal / 270Hz Hız Aşırtma)",
+      "1ms (GtG) ve 0.3ms (MPRT) Tepki Süresi ile Sıfır Hareket Bulanıklığı",
+      "Quantum Dot Renk Doygunluğu (%99 Adobe RGB, %95 DCI-P3) ve DisplayHDR 600",
+      "Dahili KVM Switch, HBR3 Yüksek Bant Genişliği ve ESS SABRE Hi-Fi Ses Yongası"
+    ],
+    "specs": {
+      "screenSizeInches": 32,
+      "resolution": "2560x1440 (WQHD)",
+      "panelType": "SS IPS (Quantum Dot)",
+      "refreshRateHz": 270,
+      "responseTimeMs": 1,
+      "syncTechnology": "AMD FreeSync Premium Pro / G-Sync Compatible",
+      "aspectRatio": "16:9",
+      "brightnessNits": 400,
+      "contrastRatio": "1000:1",
+      "hdrSupport": "DisplayHDR 600",
+      "ports": [
+        "2x HDMI 2.1",
+        "1x DisplayPort 1.4 (HBR3)",
+        "1x USB-C (KVM)",
+        "2x USB 3.0",
+        "Hi-Fi Kulaklık & Mikrofon Girişleri"
+      ],
+      "vesaMount": "100x100 mm"
+    },
+    "storeOffers": [
+      {
+        "id": "so-aorusfi32qx-1",
+        "storeName": "İtopya",
+        "storeLogoColor": "bg-yellow-500",
+        "price": 58786.23,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "270Hz SS IPS",
+          "SABRE Hi-Fi DAC"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 870,
+        "url": "https://www.itopya.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 62900,
+        "store": "İtopya"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 58786.23,
+        "store": "İtopya"
+      }
+    ]
+  },
+  {
+    "id": "msi-optix-mpg321ur-qd",
+    "slug": "msi-optix-mpg321ur-qd",
+    "name": "MSI Optix MPG321UR-QD 32 inç 144Hz 1ms 4K Quantum Dot IPS Gaming Monitör",
+    "brand": "MSI",
+    "category": "monitors",
+    "rating": 4.7,
+    "epeyScore": 82,
+    "reviewCount": 490,
+    "basePrice": 49999,
+    "currency": "TL",
+    "releaseYear": 2022,
+    "isPopular": true,
+    "image": "/images/monitors/msi-optix-mpg321ur-qd.jpg",
+    "images": [
+      "/images/monitors/msi-optix-mpg321ur-qd.jpg"
+    ],
+    "highlights": [
+      "Quantum Dot IPS Panel ile Kusursuz 4K Görsel Netlik ve %97 DCI-P3",
+      "HDMI 2.1 Girişi (PS5 / Xbox Series X 4K 120Hz Uyumlu)",
+      "KVM 3.0 ve Akıllı Ortam Işık Sensörü (Sound Tune Gürültü Engelleme)"
+    ],
+    "specs": {
+      "screenSizeInches": 32,
+      "resolution": "3840x2160 (4K UHD)",
+      "panelType": "IPS (Quantum Dot)",
+      "refreshRateHz": 144,
+      "responseTimeMs": 1,
+      "syncTechnology": "G-Sync Compatible",
+      "aspectRatio": "16:9",
+      "brightnessNits": 600,
+      "contrastRatio": "1000:1",
+      "hdrSupport": "DisplayHDR 600"
+    },
+    "storeOffers": [
+      {
+        "id": "so-msimpg321urqd-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-amber-500",
+        "price": 49999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Quantum Dot 4K",
+          "HDMI 2.1"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 690,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 53500,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 49999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "asus-proart-pa328cgv",
+    "slug": "asus-proart-pa328cgv",
+    "name": "Asus ProArt PA328CGV 32 inç 165Hz 2K WQHD HDR600 Profesyonel Monitör",
+    "brand": "Asus",
+    "category": "monitors",
+    "rating": 4.7,
+    "epeyScore": 76,
+    "reviewCount": 380,
+    "basePrice": 43459,
+    "currency": "TL",
+    "releaseYear": 2022,
+    "isPopular": true,
+    "image": "/images/monitors/asus-proart-pa328cgv.jpg",
+    "images": [
+      "/images/monitors/asus-proart-pa328cgv.jpg"
+    ],
+    "highlights": [
+      "32 inç 2560x1440 WQHD IPS Panel ile 165Hz Yenileme Hızı ve FreeSync Premium Pro",
+      "Calman Verified Fabrika Kalibrasyonu (Delta E < 2) & %95 DCI-P3, %100 sRGB",
+      "USB-C Tek Kablo Bağlantısı (90W Güç Dağıtımı, DisplayPort, USB Hub)",
+      "Masa Alanından Tasarruf Sağlayan Özel C-Clamp Masa Bağlantı Braketi Dahil"
+    ],
+    "specs": {
+      "screenSizeInches": 32,
+      "resolution": "2560x1440 (WQHD)",
+      "panelType": "IPS",
+      "refreshRateHz": 165,
+      "responseTimeMs": 5,
+      "syncTechnology": "AMD FreeSync Premium Pro",
+      "aspectRatio": "16:9",
+      "brightnessNits": 600,
+      "contrastRatio": "1000:1",
+      "hdrSupport": "VESA DisplayHDR 600",
+      "ports": [
+        "1x USB-C (90W PD)",
+        "2x HDMI 2.0",
+        "1x DisplayPort 1.4",
+        "4x USB 3.2 Gen 1 Hub",
+        "Kulaklık Çıkışı"
+      ],
+      "vesaMount": "100x100 mm"
+    },
+    "storeOffers": [
+      {
+        "id": "so-asuspa328cgv-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "bg-orange-500",
+        "price": 43459,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime",
+          "Calman Verified",
+          "90W USB-C"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 810,
+        "url": "https://www.amazon.com.tr"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 46900,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 43459,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "msi-summit-ms321up",
+    "slug": "msi-summit-ms321up",
+    "name": "MSI Summit MS321UP 32 inç 4K UHD HDR600 Creator & İş Monitörü",
+    "brand": "MSI",
+    "category": "monitors",
+    "rating": 4.6,
+    "epeyScore": 75,
+    "reviewCount": 310,
+    "basePrice": 41400,
+    "currency": "TL",
+    "releaseYear": 2022,
+    "isPopular": false,
+    "image": "/images/monitors/msi-summit-ms321up.jpg",
+    "images": [
+      "/images/monitors/msi-summit-ms321up.jpg"
+    ],
+    "highlights": [
+      "32 inç 4K UHD (3840x2160) IPS Panel ile %95 DCI-P3 ve %136 sRGB",
+      "Manyetik Takılabilir Monitör Gölgeliği (Hood) ile Işık Yansımalarını Önleme",
+      "Akıllı Ortam Işığı Sensörü, KVM Switch ve Dahili SD Kart Okuyucu",
+      "Type-C PD Şarj ve Aktif Gürültü Engelleyici Mikrofon Desteği"
+    ],
+    "specs": {
+      "screenSizeInches": 32,
+      "resolution": "3840x2160 (4K UHD)",
+      "panelType": "IPS",
+      "refreshRateHz": 60,
+      "responseTimeMs": 4,
+      "aspectRatio": "16:9",
+      "brightnessNits": 600,
+      "contrastRatio": "1000:1",
+      "hdrSupport": "DisplayHDR 600",
+      "ports": [
+        "1x USB-C (DP Alt & PD)",
+        "2x HDMI 2.0b",
+        "1x DisplayPort 1.2",
+        "SD Kart Okuyucu",
+        "USB Hub"
+      ],
+      "vesaMount": "100x100 mm"
+    },
+    "storeOffers": [
+      {
+        "id": "so-msims321up-1",
+        "storeName": "Teknosa",
+        "storeLogoColor": "bg-orange-500",
+        "price": 41400,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Manyetik Gölgelik",
+          "SD Kart Okuyucu"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 420,
+        "url": "https://www.teknosa.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 44500,
+        "store": "Teknosa"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 41400,
+        "store": "Teknosa"
+      }
+    ]
+  },
+  {
+    "id": "asus-proart-pa329cv",
+    "slug": "asus-proart-pa329cv",
+    "name": "Asus ProArt PA329CV 32 inç 4K UHD HDR400 USB-C Profesyonel Monitör",
+    "brand": "Asus",
+    "category": "monitors",
+    "rating": 4.7,
+    "epeyScore": 78,
+    "reviewCount": 440,
+    "basePrice": 39570.16,
+    "currency": "TL",
+    "releaseYear": 2022,
+    "isPopular": true,
+    "image": "/images/monitors/asus-proart-pa329cv.jpg",
+    "images": [
+      "/images/monitors/asus-proart-pa329cv.jpg"
+    ],
+    "highlights": [
+      "32 inç 4K UHD IPS Panel ile %100 sRGB ve %100 Rec. 709 Renk Doğruluğu",
+      "Calman Verified Fabrika Çıkışlı Kalibrasyon ve Delta E < 2",
+      "USB-C Tek Kablo ile 90W Güç Dağıtımı, 4K Görüntü ve Veri İletimi",
+      "Masaüstü Alanını Boşaltan Ergonomik C-Clamp Braket Dahil"
+    ],
+    "specs": {
+      "screenSizeInches": 32,
+      "resolution": "3840x2160 (4K UHD)",
+      "panelType": "IPS",
+      "refreshRateHz": 60,
+      "responseTimeMs": 5,
+      "aspectRatio": "16:9",
+      "brightnessNits": 400,
+      "contrastRatio": "1000:1",
+      "hdrSupport": "DisplayHDR 400",
+      "ports": [
+        "1x USB-C (90W PD)",
+        "2x HDMI 2.0",
+        "1x DisplayPort 1.2",
+        "4x USB 3.2 Gen 1"
+      ],
+      "vesaMount": "100x100 mm"
+    },
+    "storeOffers": [
+      {
+        "id": "so-asuspa329cv-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "bg-orange-500",
+        "price": 39570.16,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime",
+          "Calman 4K",
+          "90W USB-C"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 870,
+        "url": "https://www.amazon.com.tr"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 42500,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 39570.16,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "asus-rog-strix-xg32aq",
+    "slug": "asus-rog-strix-xg32aq",
+    "name": "Asus ROG Strix XG32AQ 32 inç 175Hz 1ms 2K Fast IPS Gaming Monitör",
+    "brand": "Asus",
+    "category": "monitors",
+    "rating": 4.7,
+    "epeyScore": 75,
+    "reviewCount": 510,
+    "basePrice": 34999,
+    "currency": "TL",
+    "releaseYear": 2023,
+    "isPopular": true,
+    "image": "/images/monitors/asus-rog-strix-xg32aq.jpg",
+    "images": [
+      "/images/monitors/asus-rog-strix-xg32aq.jpg"
+    ],
+    "highlights": [
+      "32 inç WQHD Fast IPS Panel ile 175Hz (OC) Hız ve 1ms (GtG) Tepki Süresi",
+      "NVIDIA G-Sync Uyumlu ve FreeSync Premium ile Yırtılmasız Akıcı Oyun",
+      "DisplayHDR 600 ile Yüksek Parlaklık ve %96 DCI-P3 Geniş Renk Yelpazesi",
+      "ROG Tripod Soketi ve Aura Sync RGB Aydınlatma"
+    ],
+    "specs": {
+      "screenSizeInches": 32,
+      "resolution": "2560x1440 (WQHD)",
+      "panelType": "Fast IPS",
+      "refreshRateHz": 175,
+      "responseTimeMs": 1,
+      "syncTechnology": "G-Sync Compatible / FreeSync Premium",
+      "aspectRatio": "16:9",
+      "brightnessNits": 600,
+      "contrastRatio": "1000:1",
+      "hdrSupport": "DisplayHDR 600",
+      "ports": [
+        "2x HDMI 2.0",
+        "1x DisplayPort 1.2",
+        "2x USB 3.2 Gen 1",
+        "Kulaklık Jakı"
+      ],
+      "vesaMount": "100x100 mm"
+    },
+    "storeOffers": [
+      {
+        "id": "so-asusxg32aq-1",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-800",
+        "price": 34999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fast IPS 175Hz",
+          "DisplayHDR 600"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 920,
+        "url": "https://www.vatanbilgisayar.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 37999,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 34999,
+        "store": "Vatan Bilgisayar"
+      }
+    ]
+  },
+  {
+    "id": "twisted-minds-tm32dui",
+    "slug": "twisted-minds-tm32dui",
+    "name": "Twisted Minds TM32DUI 32 inç 144Hz 1ms 4K UHD Fast IPS HDMI 2.1 Gaming Monitör",
+    "brand": "Twisted Minds",
+    "category": "monitors",
+    "rating": 4.5,
+    "epeyScore": 72,
+    "reviewCount": 390,
+    "basePrice": 20999,
+    "currency": "TL",
+    "releaseYear": 2023,
+    "isPopular": true,
+    "image": "/images/monitors/twisted-minds-tm32dui.jpg",
+    "images": [
+      "/images/monitors/twisted-minds-tm32dui.jpg"
+    ],
+    "highlights": [
+      "32 inç 4K UHD (3840x2160) Fast IPS Panel ile Kristal Netliğinde Detaylar",
+      "HDMI 2.1 Girişleri ile Konsollarda ve PC'de 4K 144Hz Kesintisiz Performans",
+      "1ms Tepki Süresi, HDR 400 ve RGB Arka Aydınlatma"
+    ],
+    "specs": {
+      "screenSizeInches": 32,
+      "resolution": "3840x2160 (4K UHD)",
+      "panelType": "Fast IPS",
+      "refreshRateHz": 144,
+      "responseTimeMs": 1,
+      "syncTechnology": "FreeSync / G-Sync Uyumlu",
+      "aspectRatio": "16:9",
+      "brightnessNits": 400,
+      "contrastRatio": "1000:1",
+      "hdrSupport": "HDR 400",
+      "ports": [
+        "2x HDMI 2.1",
+        "2x DisplayPort 1.4",
+        "Kulaklık Çıkışı"
+      ],
+      "vesaMount": "100x100 mm"
+    },
+    "storeOffers": [
+      {
+        "id": "so-tm32dui-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-amber-500",
+        "price": 20999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "4K 144Hz",
+          "HDMI 2.1"
+        ],
+        "sellerRating": 4.6,
+        "sellerReviews": 480,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 22999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 20999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "samsung-odyssey-g6-32-ls32bg652euxuf",
+    "slug": "samsung-odyssey-g6-32-ls32bg652euxuf",
+    "name": "Samsung Odyssey G6 32 inç 240Hz 1ms 1000R Kavisli 2K Smart Gaming Monitör",
+    "brand": "Samsung",
+    "category": "monitors",
+    "rating": 4.7,
+    "epeyScore": 76,
+    "reviewCount": 680,
+    "basePrice": 18949,
+    "currency": "TL",
+    "releaseYear": 2023,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/monitors/samsung-odyssey-g6-32-ls32bg652euxuf.jpg",
+    "images": [
+      "/images/monitors/samsung-odyssey-g6-32-ls32bg652euxuf.jpg"
+    ],
+    "highlights": [
+      "32 inç 2560x1440 QHD 1000R Derin Kavisli VA Panel ile Gözü Saran Görsel Deneyim",
+      "240Hz Yenileme Hızı ve 1ms (GtG) Tepki Süresi ile E-Spor Seviyesi Hız",
+      "Samsung Smart Hub & Tizen OS (PC Olmadan Netflix, YouTube, Xbox Cloud Gaming)",
+      "DisplayHDR 600, CoreSync & Core Lighting Halka RGB Aydınlatma ve FreeSync Premium Pro"
+    ],
+    "specs": {
+      "screenSizeInches": 32,
+      "resolution": "2560x1440 (WQHD)",
+      "panelType": "VA (1000R Kavisli Curved)",
+      "refreshRateHz": 240,
+      "responseTimeMs": 1,
+      "syncTechnology": "AMD FreeSync Premium Pro",
+      "aspectRatio": "16:9",
+      "brightnessNits": 600,
+      "contrastRatio": "2500:1",
+      "hdrSupport": "DisplayHDR 600 / HDR10+",
+      "ports": [
+        "2x HDMI 2.1",
+        "1x DisplayPort 1.4",
+        "2x USB 3.0",
+        "Ethernet (LAN)",
+        "Wi-Fi 5 & Bluetooth 5.2"
+      ],
+      "vesaMount": "100x100 mm"
+    },
+    "storeOffers": [
+      {
+        "id": "so-samsungg632-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "bg-orange-500",
+        "price": 18949,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime",
+          "240Hz Smart Gaming",
+          "1000R Kavis"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1450,
+        "url": "https://www.amazon.com.tr"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 20499,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 18949,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "samsung-odyssey-g5-32-ls32cg552euxuf",
+    "slug": "samsung-odyssey-g5-32-ls32cg552euxuf",
+    "name": "Samsung Odyssey G5 32 inç 165Hz 1ms 1000R Kavisli 2K Gaming Monitör",
+    "brand": "Samsung",
+    "category": "monitors",
+    "rating": 4.6,
+    "epeyScore": 63,
+    "reviewCount": 540,
+    "basePrice": 17062.5,
+    "currency": "TL",
+    "releaseYear": 2023,
+    "isPopular": true,
+    "image": "/images/monitors/samsung-odyssey-g5-32-ls32cg552euxuf.jpg",
+    "images": [
+      "/images/monitors/samsung-odyssey-g5-32-ls32cg552euxuf.jpg"
+    ],
+    "highlights": [
+      "32 inç WQHD (2560x1440) 1000R Kavisli VA Panel",
+      "165Hz Akıcı Yenileme Hızı ve 1ms (MPRT) Tepki Süresi",
+      "AMD FreeSync ve HDR10 Desteği"
+    ],
+    "specs": {
+      "screenSizeInches": 32,
+      "resolution": "2560x1440 (WQHD)",
+      "panelType": "VA (1000R Kavisli)",
+      "refreshRateHz": 165,
+      "responseTimeMs": 1,
+      "syncTechnology": "AMD FreeSync",
+      "aspectRatio": "16:9",
+      "brightnessNits": 300,
+      "contrastRatio": "2500:1",
+      "hdrSupport": "HDR10",
+      "ports": [
+        "1x DisplayPort 1.4",
+        "1x HDMI 2.0",
+        "Kulaklık Çıkışı"
+      ],
+      "vesaMount": "75x75 mm"
+    },
+    "storeOffers": [
+      {
+        "id": "so-samsungg532-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-amber-500",
+        "price": 17062.5,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "1000R Kavis",
+          "165Hz 2K"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 920,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 18500,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 17062.5,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "samsung-ls32d390gauxuf",
+    "slug": "samsung-ls32d390gauxuf",
+    "name": "Samsung LS32D390GAUXUF 32 inç 100Hz FHD Göz Koruyucu Monitör",
+    "brand": "Samsung",
+    "category": "monitors",
+    "rating": 4.4,
+    "epeyScore": 52,
+    "reviewCount": 260,
+    "basePrice": 11821.08,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "image": "/images/monitors/samsung-ls32d390gauxuf.jpg",
+    "images": [
+      "/images/monitors/samsung-ls32d390gauxuf.jpg"
+    ],
+    "highlights": [
+      "32 inç Geniş Full HD Ekran ve 100Hz Akıcı Yenileme Hızı",
+      "Göz Koruma Modu (Eye Saver) ve Titreşimsiz (Flicker Free) Ekran",
+      "İnce Çerçeveli Şık Tasarım"
+    ],
+    "specs": {
+      "screenSizeInches": 32,
+      "resolution": "1920x1080 (FHD)",
+      "panelType": "VA",
+      "refreshRateHz": 100,
+      "responseTimeMs": 4,
+      "aspectRatio": "16:9",
+      "brightnessNits": 250,
+      "contrastRatio": "3000:1",
+      "ports": [
+        "1x HDMI",
+        "1x D-Sub (VGA)"
+      ],
+      "vesaMount": "75x75 mm"
+    },
+    "storeOffers": [
+      {
+        "id": "so-samsung390-1",
+        "storeName": "Teknosa",
+        "storeLogoColor": "bg-orange-500",
+        "price": 11821.08,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "100Hz FHD"
+        ],
+        "sellerRating": 4.5,
+        "sellerReviews": 380,
+        "url": "https://www.teknosa.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 12500,
+        "store": "Teknosa"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 11821.08,
+        "store": "Teknosa"
+      }
+    ]
+  },
+  {
+    "id": "spardox-gaming-sg-32240rp",
+    "slug": "spardox-gaming-sg-32240rp",
+    "name": "Spardox Gaming SG-32240RP 32 inç 240Hz 1ms FHD Fast IPS Pivot Gaming Monitör",
+    "brand": "Spardox",
+    "category": "monitors",
+    "rating": 4.5,
+    "epeyScore": 64,
+    "reviewCount": 310,
+    "basePrice": 10690,
+    "currency": "TL",
+    "releaseYear": 2023,
+    "isPopular": false,
+    "image": "/images/monitors/spardox-gaming-sg-32240rp.jpg",
+    "images": [
+      "/images/monitors/spardox-gaming-sg-32240rp.jpg"
+    ],
+    "highlights": [
+      "32 inç 240Hz Ultra Akıcı Fast IPS Panel",
+      "1ms Tepki Süresi ve Ergonomik Pivot (Yükseklik/Döndürme) Standı",
+      "FreeSync ve G-Sync Uyumluluğu"
+    ],
+    "specs": {
+      "screenSizeInches": 32,
+      "resolution": "1920x1080 (FHD)",
+      "panelType": "Fast IPS",
+      "refreshRateHz": 240,
+      "responseTimeMs": 1,
+      "syncTechnology": "FreeSync / G-Sync",
+      "aspectRatio": "16:9",
+      "brightnessNits": 350,
+      "contrastRatio": "1000:1",
+      "ports": [
+        "2x HDMI 2.0",
+        "2x DisplayPort 1.4",
+        "Kulaklık Çıkışı"
+      ],
+      "vesaMount": "100x100 mm"
+    },
+    "storeOffers": [
+      {
+        "id": "so-spardox240-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-orange-600",
+        "price": 10690,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "240Hz Fast IPS",
+          "Pivot Stand"
+        ],
+        "sellerRating": 4.6,
+        "sellerReviews": 390,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 11490,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 10690,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "hikvision-ds-d5032f3-1v0s",
+    "slug": "hikvision-ds-d5032f3-1v0s",
+    "name": "Hikvision DS-D5032F3-1V0S 32 inç 75Hz FHD 7/24 Kesintisiz Güvenlik Monitörü",
+    "brand": "Hikvision",
+    "category": "monitors",
+    "rating": 4.4,
+    "epeyScore": 47,
+    "reviewCount": 220,
+    "basePrice": 10249,
+    "currency": "TL",
+    "releaseYear": 2023,
+    "isPopular": false,
+    "image": "/images/monitors/hikvision-ds-d5032f3-1v0s.jpg",
+    "images": [
+      "/images/monitors/hikvision-ds-d5032f3-1v0s.jpg"
+    ],
+    "highlights": [
+      "7/24 Sürekli Çalışmaya Dayanıklı Endüstriyel CCTV & Güvenlik Paneli",
+      "32 inç Full HD Çözünürlük ve Dahili Hoparlör",
+      "Geniş 178 Derece İzleme Açısı"
+    ],
+    "specs": {
+      "screenSizeInches": 32,
+      "resolution": "1920x1080 (FHD)",
+      "panelType": "VA",
+      "refreshRateHz": 75,
+      "responseTimeMs": 6.5,
+      "aspectRatio": "16:9",
+      "brightnessNits": 240,
+      "contrastRatio": "3000:1",
+      "ports": [
+        "1x HDMI",
+        "1x VGA",
+        "Ses Girişi"
+      ],
+      "vesaMount": "100x100 mm"
+    },
+    "storeOffers": [
+      {
+        "id": "so-hikvision32-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "bg-orange-500",
+        "price": 10249,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime",
+          "7/24 CCTV"
+        ],
+        "sellerRating": 4.5,
+        "sellerReviews": 290,
+        "url": "https://www.amazon.com.tr"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 10999,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 10249,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "gameraider-horus-gr32qc18v",
+    "slug": "gameraider-horus-gr32qc18v",
+    "name": "GameRaider Horus GR32QC18V 32 inç 180Hz 1ms 2K QHD 1500R Kavisli Gaming Monitör",
+    "brand": "GameRaider",
+    "category": "monitors",
+    "rating": 4.4,
+    "epeyScore": 67,
+    "reviewCount": 380,
+    "basePrice": 9798.9,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "image": "/images/monitors/gameraider-horus-gr32qc18v.jpg",
+    "images": [
+      "/images/monitors/gameraider-horus-gr32qc18v.jpg"
+    ],
+    "highlights": [
+      "32 inç 2560x1440 2K QHD Çözünürlük ve 1500R Kavisli VA Panel",
+      "180Hz Akıcı Yenileme Hızı ve 1ms MPRT Tepki Süresi",
+      "FreeSync / G-Sync Uyumlu ve İnce Çerçeveli Oyuncu Tasarımı"
+    ],
+    "specs": {
+      "screenSizeInches": 32,
+      "resolution": "2560x1440 (WQHD)",
+      "panelType": "VA (1500R Kavisli)",
+      "refreshRateHz": 180,
+      "responseTimeMs": 1,
+      "syncTechnology": "FreeSync / G-Sync Uyumlu",
+      "aspectRatio": "16:9",
+      "brightnessNits": 300,
+      "contrastRatio": "3000:1",
+      "ports": [
+        "2x DisplayPort",
+        "2x HDMI",
+        "Kulaklık Çıkışı"
+      ],
+      "vesaMount": "75x75 mm"
+    },
+    "storeOffers": [
+      {
+        "id": "so-gameraider32-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-amber-500",
+        "price": 9798.9,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "180Hz 2K",
+          "1500R Kavis"
+        ],
+        "sellerRating": 4.5,
+        "sellerReviews": 420,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 10499,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 9798.9,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "spardox-gaming-sg-32165crp",
+    "slug": "spardox-gaming-sg-32165crp",
+    "name": "Spardox Gaming SG-32165CRP 32 inç 165Hz 1ms FHD 1500R Kavisli Gaming Monitör",
+    "brand": "Spardox",
+    "category": "monitors",
+    "rating": 4.3,
+    "epeyScore": 59,
+    "reviewCount": 270,
+    "basePrice": 9299,
+    "currency": "TL",
+    "releaseYear": 2023,
+    "isPopular": false,
+    "image": "/images/monitors/spardox-gaming-sg-32165crp.jpg",
+    "images": [
+      "/images/monitors/spardox-gaming-sg-32165crp.jpg"
+    ],
+    "highlights": [
+      "32 inç 1500R Kavisli Full HD VA Panel",
+      "165Hz Yenileme Hızı ve 1ms Yanıt Süresi",
+      "AMD FreeSync Desteği"
+    ],
+    "specs": {
+      "screenSizeInches": 32,
+      "resolution": "1920x1080 (FHD)",
+      "panelType": "VA (1500R Kavisli)",
+      "refreshRateHz": 165,
+      "responseTimeMs": 1,
+      "syncTechnology": "AMD FreeSync",
+      "aspectRatio": "16:9",
+      "brightnessNits": 300,
+      "contrastRatio": "3000:1",
+      "ports": [
+        "HDMI",
+        "DisplayPort",
+        "Kulaklık Çıkışı"
+      ],
+      "vesaMount": "75x75 mm"
+    },
+    "storeOffers": [
+      {
+        "id": "so-spardox165-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-orange-600",
+        "price": 9299,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "165Hz Kavisli"
+        ],
+        "sellerRating": 4.4,
+        "sellerReviews": 320,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 9999,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 9299,
+        "store": "Trendyol"
+      }
+    ]
+  },
   {
     "id": "lg-24mr400-b",
     "slug": "lg-24mr400-b",
