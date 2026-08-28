@@ -2,42 +2,39 @@
 
 import React from 'react';
 import { Product } from '@/lib/types';
-import { Sparkles, TrendingDown, TrendingUp, Clock, AlertTriangle, CheckCircle2 } from 'lucide-react';
+import { Sparkles, TrendingDown, TrendingUp, Clock } from 'lucide-react';
 
 interface AIPriceForecastBadgeProps {
   product: Product;
 }
 
 export function AIPriceForecastBadge({ product }: AIPriceForecastBadgeProps) {
-  const offers = product.storeOffers || [];
-  const prices = offers.map((o) => o.price).filter((p) => p > 0);
-  const minPrice = prices.length > 0 ? Math.min(...prices) : product.basePrice;
-  
-  // Calculate price trend based on historical simulation or store spread
-  const priceSpread = prices.length > 1 ? Math.max(...prices) - minPrice : 0;
-  const isDipPrice = priceSpread > 0 && minPrice < (product.basePrice * 1.05);
+  if (!product) return null;
 
-  let status: 'buy_now' | 'wait' | 'stable' = 'buy_now';
+  const basePrice = typeof product.basePrice === 'number' && !isNaN(product.basePrice) ? product.basePrice : 0;
+  const offers = (product.storeOffers || []).filter(o => o && typeof o.price === 'number');
+  const prices = offers.map((o) => o.price).filter((p) => p > 0);
+  const minPrice = prices.length > 0 ? Math.min(...prices) : basePrice;
+  
+  const priceSpread = prices.length > 1 ? Math.max(...prices) - minPrice : 0;
+  const isDipPrice = priceSpread > 0 && minPrice < (basePrice * 1.05);
+
   let title = '🟢 ŞİMDİ ALINABİLİR (Fırsat Seviyesi)';
-  let desc = `Bu model son 60 günün dip seviyesinde (₺${minPrice.toLocaleString()}). Fiyat artış eğilimi öncesi alım için en uygun zaman.`;
+  let desc = `Bu model son 60 günün dip seviyesinde (₺${minPrice.toLocaleString('tr-TR')}). Fiyat artış eğilimi öncesi alım için en uygun zaman.`;
   let badgeColor = 'bg-emerald-50 text-emerald-800 border-emerald-200';
   let icon = TrendingDown;
 
   if (minPrice > 50000 && product.category === 'smartphones') {
-    status = 'stable';
     title = '🔵 İSTİKRARLI FİYAT BANDI';
     desc = 'Amiral gemisi segmentinde fiyat son 3 aydır yetkili mağazalarda dengeli seyrediyor.';
     badgeColor = 'bg-blue-50 text-blue-800 border-blue-200';
     icon = Clock;
   } else if (!isDipPrice && prices.length > 2) {
-    status = 'wait';
     title = '🟡 BEKLEMEDE KALINABİLİR';
-    desc = 'Fiyat son günlerde tepe bantta. Yaklaşan kampanya döneminde ₺' + Math.round(minPrice * 0.94).toLocaleString() + ' seviyelerine gerilemesi öngörülüyor.';
+    desc = 'Fiyat son günlerde tepe bantta. Yaklaşan kampanya döneminde ₺' + Math.round(minPrice * 0.94).toLocaleString('tr-TR') + ' seviyelerine gerilemesi öngörülüyor.';
     badgeColor = 'bg-amber-50 text-amber-900 border-amber-200';
     icon = TrendingUp;
   }
-
-  const IconComp = icon;
 
   return (
     <div className={`p-3.5 sm:p-4 rounded-2xl border ${badgeColor} shadow-2xs space-y-1.5 transition-all`}>

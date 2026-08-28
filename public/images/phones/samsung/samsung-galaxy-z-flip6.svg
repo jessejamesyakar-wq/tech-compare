@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="100%" height="100%">
+      <defs>
+        <linearGradient id="bodyGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+          <stop offset="0%" stop-color="#ec4899"/>
+          <stop offset="100%" stop-color="#be185d"/>
+        </linearGradient>
+      </defs>
+      <rect width="100%" height="100%" fill="#f8fafc"/>
+      <rect x="115" y="65" width="170" height="370" rx="28" fill="#000000" opacity="0.08"/>
+      <rect x="110" y="60" width="180" height="380" rx="26" fill="url(#bodyGrad)" stroke="#be185d" stroke-width="4"/>
+      <line x1="110" y1="250" x2="290" y2="250" stroke="#334155" stroke-width="2" opacity="0.4"/>
+      <rect x="125" y="75" width="150" height="155" rx="16" fill="#0f172a" stroke="#334155" stroke-width="2"/>
+      <circle cx="155" cy="105" r="14" fill="#0f172a" stroke="#64748b" stroke-width="2.5"/>
+      <circle cx="155" cy="105" r="8" fill="#1e293b"/>
+      <circle cx="155" cy="105" r="3" fill="#38bdf8"/>
+      <circle cx="195" cy="105" r="14" fill="#0f172a" stroke="#64748b" stroke-width="2.5"/>
+      <circle cx="195" cy="105" r="8" fill="#1e293b"/>
+      <circle cx="195" cy="105" r="3" fill="#38bdf8"/>
+      <circle cx="235" cy="105" r="5" fill="#fef08a"/>
+      <text x="200" y="180" font-family="sans-serif" font-size="22" font-weight="900" fill="#ffffff" text-anchor="middle">12:45</text>
+      <text x="200" y="202" font-family="sans-serif" font-size="10" font-weight="700" fill="#94a3b8" text-anchor="middle">Galaxy AI</text>
+      <text x="200" y="410" font-family="sans-serif" font-size="12" font-weight="900" fill="#ffffff" opacity="0.7" text-anchor="middle" letter-spacing="2">SAMSUNG</text>
+    </svg>

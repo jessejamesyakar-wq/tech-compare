@@ -16,11 +16,14 @@ const OLD_DEVICE_PRESETS: Record<string, string[]> = {
 };
 
 export function AIUpgradeAdvisor({ currentProduct }: AIUpgradeAdvisorProps) {
-  const presets = OLD_DEVICE_PRESETS[currentProduct.category] || OLD_DEVICE_PRESETS.smartphones;
-  const [selectedOldDevice, setSelectedOldDevice] = useState(presets[0]);
+  if (!currentProduct) return null;
 
-  const performanceGain = currentProduct.basePrice > 40000 ? '+%75 Zirve Performans Sıçraması' : '+%50 Akıcılık & Panel Gelişimi';
-  const scoreDiff = currentProduct.epeyScore ? currentProduct.epeyScore - 68 : 24;
+  const category = currentProduct.category || 'smartphones';
+  const presets = OLD_DEVICE_PRESETS[category] || OLD_DEVICE_PRESETS.smartphones;
+  const [selectedOldDevice, setSelectedOldDevice] = useState(presets[0] || 'Eski Model Cihaz');
+
+  const basePrice = typeof currentProduct.basePrice === 'number' ? currentProduct.basePrice : 20000;
+  const performanceGain = basePrice > 40000 ? '+%75 Zirve Performans Sıçraması' : '+%50 Akıcılık & Panel Gelişimi';
 
   return (
     <div className="bg-gradient-to-br from-indigo-50/80 via-white to-emerald-50/80 border border-indigo-200/80 rounded-3xl p-5 sm:p-7 shadow-xs space-y-4">
