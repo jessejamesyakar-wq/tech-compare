@@ -12,6 +12,7 @@ import { Navbar } from '@/components/layout/Navbar';
 import { Footer } from '@/components/layout/Footer';
 import { CompareBar } from '@/components/layout/CompareBar';
 import { LogoModal } from '@/components/layout/LogoModal';
+import AIAssistant from '@/components/AIAssistant';
 
 export const metadata: Metadata = {
   title: 'aceleEtme | Akıllı Telefon, TV & Teknoloji Karşılaştırma ve Fiyat Takip Platformu',
@@ -42,6 +43,7 @@ export default function RootLayout({
                 <CompareBar />
                 <Footer />
                 <LogoModal />
+                <AIAssistant />
               </div>
             </LogoProvider>
           </CompareProvider>
