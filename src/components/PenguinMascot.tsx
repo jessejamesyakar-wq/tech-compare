@@ -134,12 +134,12 @@ export default function PenguinMascot() {
         onMouseEnter={handleEnter}
         onMouseLeave={handleLeave}
         onClick={handleClick}
-        className="relative w-[130px] xs:w-[160px] sm:w-[210px] md:w-[250px] cursor-pointer"
+        className="relative w-[220px] xs:w-[260px] sm:w-[320px] md:w-[380px] lg:w-[420px] cursor-pointer transition-all"
         style={{ perspective: 1200 }}
       >
         {/* Gölge */}
         <motion.div
-          className="absolute -bottom-3 left-1/2 h-6 w-[56%] -translate-x-1/2 rounded-full"
+          className="absolute -bottom-4 left-1/2 h-8 w-[65%] -translate-x-1/2 rounded-full"
           style={{
             background:
               "radial-gradient(ellipse at center, rgba(15,23,42,0.24) 0%, rgba(15,23,42,0) 72%)",
