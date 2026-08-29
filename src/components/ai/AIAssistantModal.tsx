@@ -96,9 +96,9 @@ export function AIAssistantModal({ isOpen, onClose }: AIAssistantModalProps) {
     return null;
   };
 
-  const handleSend = (textToSend?: string) => {
+  const handleSend = async (textToSend?: string) => {
     const text = (textToSend || query).trim();
-    if (!text) return;
+    if (!text || isTyping) return;
 
     const userMsg: Message = {
       id: String(Date.now()),
@@ -106,148 +106,115 @@ export function AIAssistantModal({ isOpen, onClose }: AIAssistantModalProps) {
       text
     };
 
-    setMessages((prev) => [...prev, userMsg]);
+    const nextMessages = [...messages, userMsg];
+    setMessages(nextMessages);
     setQuery('');
     setIsTyping(true);
 
-    setTimeout(() => {
-      const lower = text.toLowerCase();
-      const budget = parseBudget(lower);
+    try {
+      // Build conversation history for Claude multi-turn context
+      const history = nextMessages
+        .filter((m) => m.id !== 'welcome')
+        .slice(0, -1)
+        .map((m) => ({
+          role: (m.sender === 'user' ? 'user' : 'assistant') as 'user' | 'assistant',
+          content: m.text
+        }));
 
-      // Check if this is a direct comparison query between 2 products (e.g. "X mi Y mi", "X vs Y", "hangisi daha iyi")
-      const isVersus = lower.includes(' mi ') || lower.includes(' mı ') || lower.includes(' mu ') || lower.includes(' mü ') || lower.includes(' vs ') || lower.includes('karşılaştır');
-      
-      let matched: Product[] = [];
-      let aiText = '';
-      let isComparison = false;
-      let comparisonLink = '';
-
-      if (isVersus) {
-        // Direct comparison search
-        const found = allProducts.filter((p) => {
-          const nameLower = p.name.toLowerCase();
-          const brandLower = p.brand.toLowerCase();
-          const words = lower.split(/[\s,vs?]+/);
-          return words.some(w => w.length > 2 && (nameLower.includes(w) || brandLower.includes(w)));
-        });
-
-        // Try to find two distinct flagship matches
-        if (lower.includes('iphone') && (lower.includes('galaxy') || lower.includes('s24') || lower.includes('samsung'))) {
-          const p1 = allProducts.find(p => p.slug?.includes('iphone-16') || p.name.toLowerCase().includes('iphone 16'));
-          const p2 = allProducts.find(p => p.slug?.includes('s24') || p.name.toLowerCase().includes('s24 ultra'));
-          if (p1 && p2) matched = [p1, p2];
-        } else if (lower.includes('msi') && lower.includes('dell')) {
-          const p1 = allProducts.find(p => p.slug?.includes('msi-mag') || p.name.toLowerCase().includes('mag 255'));
-          const p2 = allProducts.find(p => p.slug?.includes('dell') || p.name.toLowerCase().includes('g2524h'));
-          if (p1 && p2) matched = [p1, p2];
-        } else if (lower.includes('macbook') && lower.includes('thinkpad')) {
-          const p1 = allProducts.find(p => p.name.toLowerCase().includes('macbook air'));
-          const p2 = allProducts.find(p => p.name.toLowerCase().includes('thinkpad'));
-          if (p1 && p2) matched = [p1, p2];
-        }
-
-        if (matched.length >= 2) {
-          isComparison = true;
-          comparisonLink = `/compare?p1=${matched[0].slug || matched[0].id}&p2=${matched[1].slug || matched[1].id}`;
-          aiText = `⚔️ **${matched[0].name}** ile **${matched[1].name}** arasındaki düello analizi:\n\n` +
-            `• **${matched[0].brand}:** ${matched[0].highlights?.[0] || 'Zirve performans ve ekosistem kararlılığı.'}\n` +
-            `• **${matched[1].brand}:** ${matched[1].highlights?.[0] || 'Gelişmiş donanım ve üstün fiyat/fayda oranı.'}\n\n` +
-            `🎯 **AI Tavsiyesi:** İki cihazı tüm teknik detaylarıyla yan yana karşılaştırma masasında inceleyebilirsiniz:`;
-        }
-      }
-
-      if (matched.length === 0) {
-        // Feature or Budget based intelligent search
-        let candidatePool = [...allProducts];
-
-        // 1. Filter by category if specified
-        if (lower.includes('monitör') || lower.includes('ekran') || lower.includes('hz') || lower.includes('espor') || lower.includes('ips') || lower.includes('pivot')) {
-          candidatePool = candidatePool.filter(p => p.category === 'monitors');
-        } else if (lower.includes('laptop') || lower.includes('bilgisayar') || lower.includes('macbook') || lower.includes('dizüstü') || lower.includes('yazılım')) {
-          candidatePool = candidatePool.filter(p => p.category === 'laptops');
-        } else if (lower.includes('tv') || lower.includes('televizyon') || lower.includes('sinema') || lower.includes('oled tv')) {
-          candidatePool = candidatePool.filter(p => p.category === 'tvs');
-        } else if (lower.includes('kulaklık') || lower.includes('anc') || lower.includes('ses') || lower.includes('bluetooth')) {
-          candidatePool = candidatePool.filter(p => p.category === 'headphones');
-        } else if (lower.includes('saat') || lower.includes('watch') || lower.includes('gps') || lower.includes('nabız')) {
-          candidatePool = candidatePool.filter(p => p.category === 'smartwatches');
-        } else if (lower.includes('süpürge') || lower.includes('robot') || lower.includes('dyson') || lower.includes('airfryer')) {
-          candidatePool = candidatePool.filter(p => p.category === 'appliances');
-        } else if (lower.includes('tablet') || lower.includes('ipad')) {
-          candidatePool = candidatePool.filter(p => p.category === 'tablets');
-        } else if (lower.includes('telefon') || lower.includes('iphone') || lower.includes('samsung') || lower.includes('xiaomi') || lower.includes('kamera')) {
-          candidatePool = candidatePool.filter(p => p.category === 'smartphones');
-        }
-
-        // 2. Filter by budget if extracted
-        if (budget) {
-          const underBudget = candidatePool.filter(p => p.basePrice <= budget && p.basePrice > 0);
-          if (underBudget.length > 0) {
-            candidatePool = underBudget;
-          }
-        }
-
-        // 3. Filter by specific keyword requirements
-        if (lower.includes('240') || lower.includes('240hz') || lower.includes('300hz') || lower.includes('espor')) {
-          const highHz = candidatePool.filter(p => (((p.specs || {}) as any).refreshRateHz || 0) >= 240);
-          if (highHz.length > 0) candidatePool = highHz;
-        } else if (lower.includes('oled')) {
-          const oleds = candidatePool.filter(p => {
-            const tech = ((p.specs || {}) as any).displayTech || ((p.specs || {}) as any).panelType || '';
-            return tech.toLowerCase().includes('oled') || p.name.toLowerCase().includes('oled');
-          });
-          if (oleds.length > 0) candidatePool = oleds;
-        }
-
-        // Sort by quality score / rating / price relevance
-        candidatePool.sort((a, b) => {
-          const scoreA = (a.epeyScore || a.rating * 20);
-          const scoreB = (b.epeyScore || b.rating * 20);
-          return scoreB - scoreA;
-        });
-
-        matched = candidatePool.slice(0, 3);
-
-        if (budget) {
-          aiText = `🎯 **₺${budget.toLocaleString()} bütçeniz** ve arama kriterlerinize göre en yüksek fiyat/performans puanına sahip en mantıklı 3 seçeneği derledim:`;
-        } else {
-          aiText = `✨ Aradığınız kriterlere ve donanım özelliklerine tam uyum sağlayan en popüler modeller:`;
-        }
-      }
-
-      const recommended = matched.map((p) => {
-        let reason = `${p.brand} güvencesi, yüksek puan ve yetkili mağaza fiyat avantajı.`;
-        const specs = (p.specs || {}) as any;
-        if (p.category === 'monitors') {
-          reason = `${specs.refreshRateHz || 240}Hz yenileme hızı, ${specs.responseTimeMs || 0.5}ms tepki süresi ve ${specs.panelType || 'IPS'} canlı panel.`;
-        } else if (p.category === 'laptops') {
-          reason = `${specs.processor || 'Zirve İşlemci'}, ${specs.ramGb ? `${specs.ramGb}GB RAM` : 'Hızlı Bellek'} ve yüksek grafik performansı.`;
-        } else if (p.category === 'tvs') {
-          reason = `${specs.screenSizeInches || 65}" ekran, ${specs.displayTech || '4K'} panel ve ${specs.refreshRateHz || 120}Hz oyun desteği.`;
-        } else if (p.category === 'smartphones') {
-          reason = `Zirve yonga gücü, profesyonel kamera ve uzun pil dayanımı.`;
-        } else if (p.category === 'headphones') {
-          reason = `Aktif Gürültü Engelleme (ANC) ve ${specs.batteryLife || '30 Saat'} kesintisiz pil ömrü.`;
-        }
-
-        return {
-          product: p,
-          reason
-        };
+      const res = await fetch('/api/ai-assistant', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ message: text, history })
       });
+
+      if (!res.ok) {
+        throw new Error('AI asistan isteği başarısız oldu.');
+      }
+
+      const data = await res.json();
+      const lower = text.toLowerCase();
+      const isVersus =
+        lower.includes(' mi ') ||
+        lower.includes(' mı ') ||
+        lower.includes(' mu ') ||
+        lower.includes(' mü ') ||
+        lower.includes(' vs ') ||
+        lower.includes('karşılaştır');
+
+      // Map Claude recommendations to actual catalog products if available
+      const recommendedProducts: { product: Product; reason: string }[] = [];
+      let comparisonLink = '';
+      let isComparison = isVersus;
+
+      if (Array.isArray(data.recommendations) && data.recommendations.length > 0) {
+        data.recommendations.forEach((r: any) => {
+          const matched = allProducts.find(
+            (p) =>
+              p.id.toLowerCase() === (r.productId || '').toLowerCase() ||
+              p.slug.toLowerCase() === (r.slug || '').toLowerCase() ||
+              p.name.toLowerCase() === (r.productName || '').toLowerCase()
+          );
+
+          if (matched) {
+            recommendedProducts.push({
+              product: matched,
+              reason: r.reason || `${matched.brand} güvencesiyle yüksek fiyat/performans avantajı.`
+            });
+          } else if (r.productName || r.slug) {
+            // Virtual product object if not found in memory
+            const fallbackProduct: Product = {
+              id: r.productId || r.slug || 'product',
+              slug: r.slug || r.productId || 'product',
+              name: r.productName || 'Önerilen Model',
+              brand: r.productName ? r.productName.split(' ')[0] : 'Teknoloji',
+              category: (r.category === 'smartphones' ? 'phones' : r.category) || 'phones',
+              basePrice: r.price || 0,
+              currency: 'TL',
+              image: '/images/placeholder.jpg',
+              images: [],
+              rating: 4.8,
+              reviewCount: 42,
+              releaseYear: 2026,
+              highlights: [r.reason],
+              specs: {},
+              storeOffers: [],
+              priceHistory: []
+            };
+            recommendedProducts.push({
+              product: fallbackProduct,
+              reason: r.reason || 'Kriterlerinize en uygun model.'
+            });
+          }
+        });
+
+        if (isComparison && recommendedProducts.length >= 2) {
+          const p1 = recommendedProducts[0].product;
+          const p2 = recommendedProducts[1].product;
+          comparisonLink = `/compare?p1=${p1.slug || p1.id}&p2=${p2.slug || p2.id}`;
+        }
+      }
 
       const aiMsg: Message = {
         id: String(Date.now() + 1),
         sender: 'ai',
-        text: aiText,
+        text: data.reply || 'Kriterlerinize uygun ürünleri listeledim:',
         isComparison,
-        comparisonLink,
-        recommendedProducts: recommended
+        comparisonLink: comparisonLink || undefined,
+        recommendedProducts: recommendedProducts.length > 0 ? recommendedProducts : undefined
       };
 
       setMessages((prev) => [...prev, aiMsg]);
+    } catch (err) {
+      console.error('[AIAssistantModal] Hata:', err);
+      const errorMsg: Message = {
+        id: String(Date.now() + 1),
+        sender: 'ai',
+        text: 'Üzgünüm, şu anda yanıt oluştururken bir bağlantı sorunu yaşandı. Lütfen sorunuzu tekrar yazınız veya bütçenizi belirterek deneyiniz.'
+      };
+      setMessages((prev) => [...prev, errorMsg]);
+    } finally {
       setIsTyping(false);
-    }, 600);
+    }
   };
 
   const getProductHref = (p: Product) => {
