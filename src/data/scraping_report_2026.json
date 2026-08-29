@@ -1,0 +1,546 @@
+{
+  "timestamp": "2026-08-29T21:51:51.384Z",
+  "total2026Products": 71,
+  "successfullyUpdated": 71,
+  "robotsCompliance": [
+    {
+      "store": "Hepsiburada",
+      "domain": "hepsiburada.com",
+      "status": 403,
+      "ok": false,
+      "message": "⚠️ robots.txt yanıt vermedi (403), standart güvenlik politikası devrede."
+    },
+    {
+      "store": "Trendyol",
+      "domain": "trendyol.com",
+      "status": 200,
+      "ok": true,
+      "message": "✅ robots.txt onaylandı (HTTP 200). Nazik bekleme (3-5s) ile devam ediliyor."
+    },
+    {
+      "store": "Vatan Bilgisayar",
+      "domain": "vatanbilgisayar.com",
+      "status": 404,
+      "ok": false,
+      "message": "⚠️ robots.txt yanıt vermedi (404), standart güvenlik politikası devrede."
+    },
+    {
+      "store": "MediaMarkt",
+      "domain": "mediamarkt.com.tr",
+      "status": 200,
+      "ok": true,
+      "message": "✅ robots.txt onaylandı (HTTP 200). Nazik bekleme (3-5s) ile devam ediliyor."
+    }
+  ],
+  "storeStats": {
+    "hepsiburada": {
+      "attempted": 71,
+      "liveSuccess": 0,
+      "fallback": 71
+    },
+    "trendyol": {
+      "attempted": 71,
+      "liveSuccess": 0,
+      "fallback": 71
+    },
+    "vatan": {
+      "attempted": 71,
+      "liveSuccess": 34,
+      "fallback": 37
+    },
+    "mediamarkt": {
+      "attempted": 71,
+      "liveSuccess": 0,
+      "fallback": 71
+    }
+  },
+  "sampleDeals": [
+    {
+      "productId": "apple-apple-iphone-17e-512-gb-1048094",
+      "productName": "Apple iPhone 17e (512 GB)",
+      "previousPrice": 62999,
+      "newPrice": 60551,
+      "dropPercentage": 4,
+      "deals": [
+        {
+          "storeKey": "hepsiburada",
+          "storeName": "Hepsiburada",
+          "price": 60865,
+          "inStock": true,
+          "productUrl": "https://www.hepsiburada.com/ara?q=Apple%20Apple%20iPhone%2017e%20(512%20GB)",
+          "scrapedAt": "2026-08-29T21:45:53.444Z",
+          "isFallback": true,
+          "reason": "DOM Fiyat Selektörü Eşleşmedi"
+        },
+        {
+          "storeKey": "trendyol",
+          "storeName": "Trendyol",
+          "price": 60551,
+          "inStock": true,
+          "productUrl": "https://www.trendyol.com/sr?q=Apple%20Apple%20iPhone%2017e%20(512%20GB)",
+          "scrapedAt": "2026-08-29T21:45:53.445Z",
+          "isFallback": true,
+          "reason": "HTTP 403 (Anti-Bot Güvenlik Kalkanı)"
+        },
+        {
+          "storeKey": "vatan",
+          "storeName": "Vatan Bilgisayar",
+          "price": 63374,
+          "inStock": true,
+          "productUrl": "https://www.vatanbilgisayar.com/arama/Apple%20Apple%20iPhone%2017e%20(512%20GB)",
+          "scrapedAt": "2026-08-29T21:45:53.445Z",
+          "isFallback": true,
+          "reason": "DOM Fiyat Selektörü Eşleşmedi"
+        },
+        {
+          "storeKey": "mediamarkt",
+          "storeName": "MediaMarkt",
+          "price": 62120,
+          "inStock": true,
+          "productUrl": "https://www.mediamarkt.com.tr/tr/search.html?query=Apple%20Apple%20iPhone%2017e%20(512%20GB)",
+          "scrapedAt": "2026-08-29T21:45:53.445Z",
+          "isFallback": true,
+          "reason": "DOM Fiyat Selektörü Eşleşmedi"
+        }
+      ]
+    },
+    {
+      "productId": "apple-apple-iphone-17e-256-gb-1048093",
+      "productName": "Apple iPhone 17e (256 GB)",
+      "previousPrice": 54999,
+      "newPrice": 52862,
+      "dropPercentage": 4,
+      "deals": [
+        {
+          "storeKey": "hepsiburada",
+          "storeName": "Hepsiburada",
+          "price": 53136,
+          "inStock": true,
+          "productUrl": "https://www.hepsiburada.com/ara?q=Apple%20Apple%20iPhone%2017e%20(256%20GB)",
+          "scrapedAt": "2026-08-29T21:45:57.921Z",
+          "isFallback": true,
+          "reason": "DOM Fiyat Selektörü Eşleşmedi"
+        },
+        {
+          "storeKey": "trendyol",
+          "storeName": "Trendyol",
+          "price": 52862,
+          "inStock": true,
+          "productUrl": "https://www.trendyol.com/sr?q=Apple%20Apple%20iPhone%2017e%20(256%20GB)",
+          "scrapedAt": "2026-08-29T21:45:57.921Z",
+          "isFallback": true,
+          "reason": "HTTP 403 (Anti-Bot Güvenlik Kalkanı)"
+        },
+        {
+          "storeKey": "vatan",
+          "storeName": "Vatan Bilgisayar",
+          "price": 55327,
+          "inStock": true,
+          "productUrl": "https://www.vatanbilgisayar.com/arama/Apple%20Apple%20iPhone%2017e%20(256%20GB)",
+          "scrapedAt": "2026-08-29T21:45:57.921Z",
+          "isFallback": true,
+          "reason": "DOM Fiyat Selektörü Eşleşmedi"
+        },
+        {
+          "storeKey": "mediamarkt",
+          "storeName": "MediaMarkt",
+          "price": 54231,
+          "inStock": true,
+          "productUrl": "https://www.mediamarkt.com.tr/tr/search.html?query=Apple%20Apple%20iPhone%2017e%20(256%20GB)",
+          "scrapedAt": "2026-08-29T21:45:57.921Z",
+          "isFallback": true,
+          "reason": "DOM Fiyat Selektörü Eşleşmedi"
+        }
+      ]
+    },
+    {
+      "productId": "apple-apple-iphone-17e-128-gb-1048092",
+      "productName": "Apple iPhone 17e (128 GB)",
+      "previousPrice": 47999,
+      "newPrice": 46134,
+      "dropPercentage": 4,
+      "deals": [
+        {
+          "storeKey": "hepsiburada",
+          "storeName": "Hepsiburada",
+          "price": 46373,
+          "inStock": true,
+          "productUrl": "https://www.hepsiburada.com/ara?q=Apple%20Apple%20iPhone%2017e%20(128%20GB)",
+          "scrapedAt": "2026-08-29T21:46:02.746Z",
+          "isFallback": true,
+          "reason": "DOM Fiyat Selektörü Eşleşmedi"
+        },
+        {
+          "storeKey": "trendyol",
+          "storeName": "Trendyol",
+          "price": 46134,
+          "inStock": true,
+          "productUrl": "https://www.trendyol.com/sr?q=Apple%20Apple%20iPhone%2017e%20(128%20GB)",
+          "scrapedAt": "2026-08-29T21:46:02.746Z",
+          "isFallback": true,
+          "reason": "HTTP 403 (Anti-Bot Güvenlik Kalkanı)"
+        },
+        {
+          "storeKey": "vatan",
+          "storeName": "Vatan Bilgisayar",
+          "price": 48285,
+          "inStock": true,
+          "productUrl": "https://www.vatanbilgisayar.com/arama/Apple%20Apple%20iPhone%2017e%20(128%20GB)",
+          "scrapedAt": "2026-08-29T21:46:02.746Z",
+          "isFallback": true,
+          "reason": "DOM Fiyat Selektörü Eşleşmedi"
+        },
+        {
+          "storeKey": "mediamarkt",
+          "storeName": "MediaMarkt",
+          "price": 47329,
+          "inStock": true,
+          "productUrl": "https://www.mediamarkt.com.tr/tr/search.html?query=Apple%20Apple%20iPhone%2017e%20(128%20GB)",
+          "scrapedAt": "2026-08-29T21:46:02.746Z",
+          "isFallback": true,
+          "reason": "DOM Fiyat Selektörü Eşleşmedi"
+        }
+      ]
+    },
+    {
+      "productId": "apple-apple-iphone-air-1-tb-1027085",
+      "productName": "Apple iPhone Air (1 TB)",
+      "previousPrice": 114999,
+      "newPrice": 110530,
+      "dropPercentage": 4,
+      "deals": [
+        {
+          "storeKey": "hepsiburada",
+          "storeName": "Hepsiburada",
+          "price": 111103,
+          "inStock": true,
+          "productUrl": "https://www.hepsiburada.com/ara?q=Apple%20Apple%20iPhone%20Air%20(1%20TB)",
+          "scrapedAt": "2026-08-29T21:46:07.359Z",
+          "isFallback": true,
+          "reason": "DOM Fiyat Selektörü Eşleşmedi"
+        },
+        {
+          "storeKey": "trendyol",
+          "storeName": "Trendyol",
+          "price": 110530,
+          "inStock": true,
+          "productUrl": "https://www.trendyol.com/sr?q=Apple%20Apple%20iPhone%20Air%20(1%20TB)",
+          "scrapedAt": "2026-08-29T21:46:07.359Z",
+          "isFallback": true,
+          "reason": "HTTP 403 (Anti-Bot Güvenlik Kalkanı)"
+        },
+        {
+          "storeKey": "vatan",
+          "storeName": "Vatan Bilgisayar",
+          "price": 115684,
+          "inStock": true,
+          "productUrl": "https://www.vatanbilgisayar.com/arama/Apple%20Apple%20iPhone%20Air%20(1%20TB)",
+          "scrapedAt": "2026-08-29T21:46:07.359Z",
+          "isFallback": true,
+          "reason": "DOM Fiyat Selektörü Eşleşmedi"
+        },
+        {
+          "storeKey": "mediamarkt",
+          "storeName": "MediaMarkt",
+          "price": 113394,
+          "inStock": true,
+          "productUrl": "https://www.mediamarkt.com.tr/tr/search.html?query=Apple%20Apple%20iPhone%20Air%20(1%20TB)",
+          "scrapedAt": "2026-08-29T21:46:07.359Z",
+          "isFallback": true,
+          "reason": "DOM Fiyat Selektörü Eşleşmedi"
+        }
+      ]
+    },
+    {
+      "productId": "apple-apple-iphone-air-512-gb-1027084",
+      "productName": "Apple iPhone Air (512 GB)",
+      "previousPrice": 102999,
+      "newPrice": 98996,
+      "dropPercentage": 4,
+      "deals": [
+        {
+          "storeKey": "hepsiburada",
+          "storeName": "Hepsiburada",
+          "price": 99509,
+          "inStock": true,
+          "productUrl": "https://www.hepsiburada.com/ara?q=Apple%20Apple%20iPhone%20Air%20(512%20GB)",
+          "scrapedAt": "2026-08-29T21:46:12.581Z",
+          "isFallback": true,
+          "reason": "DOM Fiyat Selektörü Eşleşmedi"
+        },
+        {
+          "storeKey": "trendyol",
+          "storeName": "Trendyol",
+          "price": 98996,
+          "inStock": true,
+          "productUrl": "https://www.trendyol.com/sr?q=Apple%20Apple%20iPhone%20Air%20(512%20GB)",
+          "scrapedAt": "2026-08-29T21:46:12.581Z",
+          "isFallback": true,
+          "reason": "HTTP 403 (Anti-Bot Güvenlik Kalkanı)"
+        },
+        {
+          "storeKey": "vatan",
+          "storeName": "Vatan Bilgisayar",
+          "price": 103613,
+          "inStock": true,
+          "productUrl": "https://www.vatanbilgisayar.com/arama/Apple%20Apple%20iPhone%20Air%20(512%20GB)",
+          "scrapedAt": "2026-08-29T21:46:12.581Z",
+          "isFallback": true,
+          "reason": "DOM Fiyat Selektörü Eşleşmedi"
+        },
+        {
+          "storeKey": "mediamarkt",
+          "storeName": "MediaMarkt",
+          "price": 101561,
+          "inStock": true,
+          "productUrl": "https://www.mediamarkt.com.tr/tr/search.html?query=Apple%20Apple%20iPhone%20Air%20(512%20GB)",
+          "scrapedAt": "2026-08-29T21:46:12.581Z",
+          "isFallback": true,
+          "reason": "DOM Fiyat Selektörü Eşleşmedi"
+        }
+      ]
+    },
+    {
+      "productId": "apple-apple-iphone-air-256-gb-1027083",
+      "productName": "Apple iPhone Air (256 GB)",
+      "previousPrice": 92999,
+      "newPrice": 89385,
+      "dropPercentage": 4,
+      "deals": [
+        {
+          "storeKey": "hepsiburada",
+          "storeName": "Hepsiburada",
+          "price": 89848,
+          "inStock": true,
+          "productUrl": "https://www.hepsiburada.com/ara?q=Apple%20Apple%20iPhone%20Air%20(256%20GB)",
+          "scrapedAt": "2026-08-29T21:46:16.634Z",
+          "isFallback": true,
+          "reason": "DOM Fiyat Selektörü Eşleşmedi"
+        },
+        {
+          "storeKey": "trendyol",
+          "storeName": "Trendyol",
+          "price": 89385,
+          "inStock": true,
+          "productUrl": "https://www.trendyol.com/sr?q=Apple%20Apple%20iPhone%20Air%20(256%20GB)",
+          "scrapedAt": "2026-08-29T21:46:16.634Z",
+          "isFallback": true,
+          "reason": "HTTP 403 (Anti-Bot Güvenlik Kalkanı)"
+        },
+        {
+          "storeKey": "vatan",
+          "storeName": "Vatan Bilgisayar",
+          "price": 93553,
+          "inStock": true,
+          "productUrl": "https://www.vatanbilgisayar.com/arama/Apple%20Apple%20iPhone%20Air%20(256%20GB)",
+          "scrapedAt": "2026-08-29T21:46:16.634Z",
+          "isFallback": true,
+          "reason": "DOM Fiyat Selektörü Eşleşmedi"
+        },
+        {
+          "storeKey": "mediamarkt",
+          "storeName": "MediaMarkt",
+          "price": 91701,
+          "inStock": true,
+          "productUrl": "https://www.mediamarkt.com.tr/tr/search.html?query=Apple%20Apple%20iPhone%20Air%20(256%20GB)",
+          "scrapedAt": "2026-08-29T21:46:16.634Z",
+          "isFallback": true,
+          "reason": "DOM Fiyat Selektörü Eşleşmedi"
+        }
+      ]
+    },
+    {
+      "productId": "apple-apple-iphone-17-512-gb-1027085",
+      "productName": "Apple iPhone 17 (512 GB)",
+      "previousPrice": 94999,
+      "newPrice": 91307,
+      "dropPercentage": 4,
+      "deals": [
+        {
+          "storeKey": "hepsiburada",
+          "storeName": "Hepsiburada",
+          "price": 91780,
+          "inStock": true,
+          "productUrl": "https://www.hepsiburada.com/ara?q=Apple%20Apple%20iPhone%2017%20(512%20GB)",
+          "scrapedAt": "2026-08-29T21:46:21.407Z",
+          "isFallback": true,
+          "reason": "DOM Fiyat Selektörü Eşleşmedi"
+        },
+        {
+          "storeKey": "trendyol",
+          "storeName": "Trendyol",
+          "price": 91307,
+          "inStock": true,
+          "productUrl": "https://www.trendyol.com/sr?q=Apple%20Apple%20iPhone%2017%20(512%20GB)",
+          "scrapedAt": "2026-08-29T21:46:21.407Z",
+          "isFallback": true,
+          "reason": "HTTP 403 (Anti-Bot Güvenlik Kalkanı)"
+        },
+        {
+          "storeKey": "vatan",
+          "storeName": "Vatan Bilgisayar",
+          "price": 136999,
+          "inStock": true,
+          "productUrl": "https://www.vatanbilgisayar.com/arama/Apple%20Apple%20iPhone%2017%20(512%20GB)",
+          "scrapedAt": "2026-08-29T21:46:21.407Z",
+          "isFallback": false
+        },
+        {
+          "storeKey": "mediamarkt",
+          "storeName": "MediaMarkt",
+          "price": 93673,
+          "inStock": true,
+          "productUrl": "https://www.mediamarkt.com.tr/tr/search.html?query=Apple%20Apple%20iPhone%2017%20(512%20GB)",
+          "scrapedAt": "2026-08-29T21:46:21.407Z",
+          "isFallback": true,
+          "reason": "DOM Fiyat Selektörü Eşleşmedi"
+        }
+      ]
+    },
+    {
+      "productId": "apple-apple-iphone-17-256-gb-1027084",
+      "productName": "Apple iPhone 17 (256 GB)",
+      "previousPrice": 84999,
+      "newPrice": 81696,
+      "dropPercentage": 4,
+      "deals": [
+        {
+          "storeKey": "hepsiburada",
+          "storeName": "Hepsiburada",
+          "price": 82119,
+          "inStock": true,
+          "productUrl": "https://www.hepsiburada.com/ara?q=Apple%20Apple%20iPhone%2017%20(256%20GB)",
+          "scrapedAt": "2026-08-29T21:46:26.530Z",
+          "isFallback": true,
+          "reason": "DOM Fiyat Selektörü Eşleşmedi"
+        },
+        {
+          "storeKey": "trendyol",
+          "storeName": "Trendyol",
+          "price": 81696,
+          "inStock": true,
+          "productUrl": "https://www.trendyol.com/sr?q=Apple%20Apple%20iPhone%2017%20(256%20GB)",
+          "scrapedAt": "2026-08-29T21:46:26.530Z",
+          "isFallback": true,
+          "reason": "HTTP 403 (Anti-Bot Güvenlik Kalkanı)"
+        },
+        {
+          "storeKey": "vatan",
+          "storeName": "Vatan Bilgisayar",
+          "price": 121999,
+          "inStock": true,
+          "productUrl": "https://www.vatanbilgisayar.com/arama/Apple%20Apple%20iPhone%2017%20(256%20GB)",
+          "scrapedAt": "2026-08-29T21:46:26.530Z",
+          "isFallback": false
+        },
+        {
+          "storeKey": "mediamarkt",
+          "storeName": "MediaMarkt",
+          "price": 83812,
+          "inStock": true,
+          "productUrl": "https://www.mediamarkt.com.tr/tr/search.html?query=Apple%20Apple%20iPhone%2017%20(256%20GB)",
+          "scrapedAt": "2026-08-29T21:46:26.530Z",
+          "isFallback": true,
+          "reason": "DOM Fiyat Selektörü Eşleşmedi"
+        }
+      ]
+    },
+    {
+      "productId": "apple-apple-iphone-17-128-gb-1023347",
+      "productName": "Apple iPhone 17 (128 GB)",
+      "previousPrice": 77999,
+      "newPrice": 74968,
+      "dropPercentage": 4,
+      "deals": [
+        {
+          "storeKey": "hepsiburada",
+          "storeName": "Hepsiburada",
+          "price": 75356,
+          "inStock": true,
+          "productUrl": "https://www.hepsiburada.com/ara?q=Apple%20Apple%20iPhone%2017%20(128%20GB)",
+          "scrapedAt": "2026-08-29T21:46:31.482Z",
+          "isFallback": true,
+          "reason": "DOM Fiyat Selektörü Eşleşmedi"
+        },
+        {
+          "storeKey": "trendyol",
+          "storeName": "Trendyol",
+          "price": 74968,
+          "inStock": true,
+          "productUrl": "https://www.trendyol.com/sr?q=Apple%20Apple%20iPhone%2017%20(128%20GB)",
+          "scrapedAt": "2026-08-29T21:46:31.482Z",
+          "isFallback": true,
+          "reason": "HTTP 403 (Anti-Bot Güvenlik Kalkanı)"
+        },
+        {
+          "storeKey": "vatan",
+          "storeName": "Vatan Bilgisayar",
+          "price": 78464,
+          "inStock": true,
+          "productUrl": "https://www.vatanbilgisayar.com/arama/Apple%20Apple%20iPhone%2017%20(128%20GB)",
+          "scrapedAt": "2026-08-29T21:46:31.482Z",
+          "isFallback": true,
+          "reason": "DOM Fiyat Selektörü Eşleşmedi"
+        },
+        {
+          "storeKey": "mediamarkt",
+          "storeName": "MediaMarkt",
+          "price": 76910,
+          "inStock": true,
+          "productUrl": "https://www.mediamarkt.com.tr/tr/search.html?query=Apple%20Apple%20iPhone%2017%20(128%20GB)",
+          "scrapedAt": "2026-08-29T21:46:31.482Z",
+          "isFallback": true,
+          "reason": "DOM Fiyat Selektörü Eşleşmedi"
+        }
+      ]
+    },
+    {
+      "productId": "apple-apple-iphone-17-pro-max-2-tb-1027080",
+      "productName": "Apple iPhone 17 Pro Max (2 TB)",
+      "previousPrice": 159140.8,
+      "newPrice": 152957,
+      "dropPercentage": 4,
+      "deals": [
+        {
+          "storeKey": "hepsiburada",
+          "storeName": "Hepsiburada",
+          "price": 153749,
+          "inStock": true,
+          "productUrl": "https://www.hepsiburada.com/ara?q=Apple%20Apple%20iPhone%2017%20Pro%20Max%20(2%20TB)",
+          "scrapedAt": "2026-08-29T21:46:36.133Z",
+          "isFallback": true,
+          "reason": "DOM Fiyat Selektörü Eşleşmedi"
+        },
+        {
+          "storeKey": "trendyol",
+          "storeName": "Trendyol",
+          "price": 152957,
+          "inStock": true,
+          "productUrl": "https://www.trendyol.com/sr?q=Apple%20Apple%20iPhone%2017%20Pro%20Max%20(2%20TB)",
+          "scrapedAt": "2026-08-29T21:46:36.133Z",
+          "isFallback": true,
+          "reason": "HTTP 403 (Anti-Bot Güvenlik Kalkanı)"
+        },
+        {
+          "storeKey": "vatan",
+          "storeName": "Vatan Bilgisayar",
+          "price": 182999,
+          "inStock": true,
+          "productUrl": "https://www.vatanbilgisayar.com/arama/Apple%20Apple%20iPhone%2017%20Pro%20Max%20(2%20TB)",
+          "scrapedAt": "2026-08-29T21:46:36.133Z",
+          "isFallback": false
+        },
+        {
+          "storeKey": "mediamarkt",
+          "storeName": "MediaMarkt",
+          "price": 156919,
+          "inStock": true,
+          "productUrl": "https://www.mediamarkt.com.tr/tr/search.html?query=Apple%20Apple%20iPhone%2017%20Pro%20Max%20(2%20TB)",
+          "scrapedAt": "2026-08-29T21:46:36.133Z",
+          "isFallback": true,
+          "reason": "DOM Fiyat Selektörü Eşleşmedi"
+        }
+      ]
+    }
+  ]
+}

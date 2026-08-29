@@ -26,6 +26,7 @@ export interface BaseProduct {
   basePrice: number;
   currency: 'TL';
   releaseYear: number;
+  isLatestModel?: boolean;
   isPopular?: boolean;
   isFeatured?: boolean;
   barcode?: string;
