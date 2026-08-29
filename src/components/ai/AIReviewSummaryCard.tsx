@@ -70,7 +70,7 @@ export function AIReviewSummaryCard({ product }: AIReviewSummaryCardProps) {
             {product.name} Hakkında Ne Diyorlar?
           </h3>
           <p className="text-xs text-slate-500 font-medium">
-            Amazon, Hepsiburada, Trendyol ve TechKıyas üzerindeki {reviewCount.toLocaleString('tr-TR')}+ onaylı alıcı yorumunun yapay zekâ sentezi.
+            Amazon, Hepsiburada, Trendyol ve aceleEtme üzerindeki {reviewCount.toLocaleString('tr-TR')}+ onaylı alıcı yorumunun yapay zekâ sentezi.
           </p>
         </div>
 

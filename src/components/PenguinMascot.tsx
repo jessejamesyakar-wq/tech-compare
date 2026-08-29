@@ -5,7 +5,7 @@ import Image from "next/image";
 import { motion, useMotionValue, useSpring, useTransform } from "framer-motion";
 
 /**
- * TechKıyas Maskot — Penguen
+ * aceleEtme Maskot — Penguen
  *
  * Mouse pozisyonu SAYFANIN HERHANGİ BİR YERİNDE olsa da karakter
  * ona göre hafifçe döner/eğilir (spring fizik). Fare hareket etmediğinde
@@ -29,7 +29,7 @@ const IDLE_DELAY_MS = 2000; // fare bu kadar süre durursa idle animasyonu başl
 export default function PenguinMascot() {
   const stageRef = useRef<HTMLDivElement>(null);
   const [hovering, setHovering] = useState(false);
-  const [greeting, setGreeting] = useState("Merhaba! Ben TechKıyas asistanınım 👋");
+  const [greeting, setGreeting] = useState("Merhaba! Ben aceleEtme asistanınım 👋");
 
   const rawX = useMotionValue(0);
   const rawY = useMotionValue(0);
@@ -162,7 +162,7 @@ export default function PenguinMascot() {
         >
           <Image
             src="/penguin-mascot.png"
-            alt="TechKıyas Maskot"
+            alt="aceleEtme Maskot"
             width={1024}
             height={558}
             priority

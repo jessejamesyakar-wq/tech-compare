@@ -108,7 +108,7 @@ export interface TranslationKeys {
 
 export const translations: Record<Language, TranslationKeys> = {
   tr: {
-    appName: 'TechKıyas',
+    appName: 'aceleEtme',
     appTagline: '%100 Tarafsız Ürün Karşılaştırma & Fiyat Takibi',
     heroTitle: 'Akıllı Telefonları & Teknolojiyi Şeffafça Kıyaslayın',
     heroSubtitle: 'Reklamsız, bağımsız ve 6 aylık fiyat geçmişi grafikleriyle en doğru kararı verin.',
@@ -213,7 +213,7 @@ export const translations: Record<Language, TranslationKeys> = {
     viewDetails: 'İncele'
   },
   en: {
-    appName: 'TechKıyas',
+    appName: 'aceleEtme',
     appTagline: '100% Unbiased Product Comparison & Price Tracking',
     heroTitle: 'Compare Smartphones & Tech Transparently',
     heroSubtitle: 'Make the right decision with ad-free, independent insights and 6-month historical price trend charts.',
@@ -318,7 +318,7 @@ export const translations: Record<Language, TranslationKeys> = {
     viewDetails: 'View Details'
   },
   de: {
-    appName: 'TechKıyas',
+    appName: 'aceleEtme',
     appTagline: '100% unparteiischer Produktvergleich & Preisverfolgung',
     heroTitle: 'Smartphones & Technik transparent vergleichen',
     heroSubtitle: 'Treffen Sie die richtige Entscheidung mit werbefreien, unabhängigen Einblicken.',
@@ -423,7 +423,7 @@ export const translations: Record<Language, TranslationKeys> = {
     viewDetails: 'Details anzeigen'
   },
   ru: {
-    appName: 'TechKıyas',
+    appName: 'aceleEtme',
     appTagline: '100% Неангажированное Сравнение и Отслеживание Цен',
     heroTitle: 'Сравнивайте Смартфоны и Технику Прозрачно',
     heroSubtitle: 'Принимайте правильные решения без рекламы и с 6-месячными графиками цен.',
@@ -528,7 +528,7 @@ export const translations: Record<Language, TranslationKeys> = {
     viewDetails: 'Подробнее'
   },
   es: {
-    appName: 'TechKıyas',
+    appName: 'aceleEtme',
     appTagline: 'Comparación de Productos 100% Imparcial y Seguimiento de Precios',
     heroTitle: 'Compara Smartphones y Tecnología Transparentemente',
     heroSubtitle: 'Toma la decisión correcta sin anuncios y con gráficos de historial de precios de 6 meses.',
@@ -633,7 +633,7 @@ export const translations: Record<Language, TranslationKeys> = {
     viewDetails: 'Ver Detalle'
   },
   it: {
-    appName: 'TechKıyas',
+    appName: 'aceleEtme',
     appTagline: 'Confronto Prodotti 100% Imparziale e Tracciamento Prezzi',
     heroTitle: 'Confronta Smartphone e Tecnologia in Modo Trasparente',
     heroSubtitle: 'Prendi la decisione giusta senza pubblicità e con grafici dello storico prezzi di 6 mesi.',

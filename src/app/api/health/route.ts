@@ -11,7 +11,7 @@ export async function GET() {
 
   return NextResponse.json({
     status: isHealthy ? 'UP' : 'DOWN',
-    service: 'TechKıyas Price Aggregation Engine',
+    service: 'aceleEtme Price Aggregation Engine',
     uptimeSeconds: Math.floor(process.uptime()),
     responseTimeMs: Date.now() - startTime,
     components: {

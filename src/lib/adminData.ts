@@ -71,7 +71,7 @@ export function exportBackupJSON(): void {
 
   const a = document.createElement('a');
   a.href = url;
-  a.download = `TechKiyas_Urun_Yedegi_${new Date().toISOString().slice(0, 10)}.json`;
+  a.download = `aceleEtme_Urun_Yedegi_${new Date().toISOString().slice(0, 10)}.json`;
   a.click();
   URL.revokeObjectURL(url);
 }

@@ -5,7 +5,7 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Gizlilik Politikası | aceleEtme',
-  description: 'AceleEtme kullanıcı verileri gizlilik politikası, çerezler ve KVKK uyumluluk bildirimi.',
+  description: 'aceleEtme kullanıcı verileri gizlilik politikası, çerezler ve KVKK uyumluluk bildirimi.',
 };
 
 export default function GizlilikPolitikasiPage() {
@@ -43,7 +43,7 @@ export default function GizlilikPolitikasiPage() {
             <span>1. Veri Güvenliği Taahhüdü</span>
           </h2>
           <p>
-            <strong>AceleEtme</strong> olarak kullanıcılarımızın kişisel gizliliğine ve güvenliğine en üst düzeyde önem veriyoruz. Platformumuz, kullanıcı deneyimini iyileştirmek, fiyat alarmlarını iletmek ve teknik analiz sunmak haricinde hiçbir kişisel veriyi üçüncü taraflarla paylaşmaz veya satmaz.
+            <strong>aceleEtme</strong> olarak kullanıcılarımızın kişisel gizliliğine ve güvenliğine en üst düzeyde önem veriyoruz. Platformumuz, kullanıcı deneyimini iyileştirmek, fiyat alarmlarını iletmek ve teknik analiz sunmak haricinde hiçbir kişisel veriyi üçüncü taraflarla paylaşmaz veya satmaz.
           </p>
         </section>
 

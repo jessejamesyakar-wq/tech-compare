@@ -140,7 +140,7 @@ export function LogoModal() {
               )}
               <div className="flex flex-col leading-none">
                 <span className="text-base font-black text-white">
-                  {logoConfig.titleText || 'TechKıyas'}
+                  {logoConfig.titleText || 'aceleEtme'}
                 </span>
                 <span className="text-[9px] text-emerald-400 font-bold uppercase tracking-wider mt-0.5">
                   {logoConfig.subtitleText || 'Akıllı Karşılaştırma Portalı'}

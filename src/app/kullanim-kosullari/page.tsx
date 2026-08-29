@@ -5,7 +5,7 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Kullanım Koşulları | aceleEtme',
-  description: 'AceleEtme web sitesi kullanım şartları, kuralları ve hizmet kapsamı.',
+  description: 'aceleEtme web sitesi kullanım şartları, kuralları ve hizmet kapsamı.',
 };
 
 export default function KullanimKosullariPage() {
@@ -43,7 +43,7 @@ export default function KullanimKosullariPage() {
             <span>1. Hizmetin Niteliği ve Kapsamı</span>
           </h2>
           <p>
-            <strong>AceleEtme</strong>, kullanıcılara akıllı telefon, bilgisayar, televizyon ve elektronik cihazlar hakkında teknik özellik kıyaslaması, puanlama ve mağaza fiyat listeleme hizmeti sunar. Sitede yer alan içerikler bilgilendirme amaçlıdır.
+            <strong>aceleEtme</strong>, kullanıcılara akıllı telefon, bilgisayar, televizyon ve elektronik cihazlar hakkında teknik özellik kıyaslaması, puanlama ve mağaza fiyat listeleme hizmeti sunar. Sitede yer alan içerikler bilgilendirme amaçlıdır.
           </p>
         </section>
 
@@ -53,7 +53,7 @@ export default function KullanimKosullariPage() {
             <span>2. Fikri Mülkiyet ve İçerik Hakları</span>
           </h2>
           <p>
-            Platform tasarımı, puanlama algoritmaları, yazılım kodları ve derlenmiş veritabanı AceleEtme&apos;ye aittir. Ürün görselleri ve marka logoları ilgili üretici ve tescil sahiplerine aittir.
+            Platform tasarımı, puanlama algoritmaları, yazılım kodları ve derlenmiş veritabanı aceleEtme&apos;ye aittir. Ürün görselleri ve marka logoları ilgili üretici ve tescil sahiplerine aittir.
           </p>
         </section>
 
@@ -63,7 +63,7 @@ export default function KullanimKosullariPage() {
             <span>3. Değişiklik Hakkı</span>
           </h2>
           <p>
-            AceleEtme, site özelliklerini, listelenen ürünleri ve bu koşulları dilediği zaman önceden bildirmeksizin güncelleme veya değiştirme hakkını saklı tutar.
+            aceleEtme, site özelliklerini, listelenen ürünleri ve bu koşulları dilediği zaman önceden bildirmeksizin güncelleme veya değiştirme hakkını saklı tutar.
           </p>
         </section>
 

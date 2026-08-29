@@ -56,7 +56,7 @@ export function AIAssistantModal({ isOpen, onClose }: AIAssistantModalProps) {
     {
       id: 'welcome',
       sender: 'ai',
-      text: 'Merhaba! Ben TechKıyas Yapay Zekâ Alışveriş Asistanı. 🤖\n\nBütçenizi, aradığınız özellikleri veya aklınızdaki iki modeli yazın; 600+ ürünü anında tarayıp en mantıklı tavsiyeleri ve karşılaştırmaları önünüze getireyim!'
+      text: 'Merhaba! Ben aceleEtme Yapay Zekâ Alışveriş Asistanı. 🤖\n\nBütçenizi, aradığınız özellikleri veya aklınızdaki iki modeli yazın; 600+ ürünü anında tarayıp en mantıklı tavsiyeleri ve karşılaştırmaları önünüze getireyim!'
     }
   ]);
   const [isTyping, setIsTyping] = useState(false);
@@ -285,7 +285,7 @@ export function AIAssistantModal({ isOpen, onClose }: AIAssistantModalProps) {
             </div>
             <div>
               <div className="flex items-center gap-2">
-                <h3 className="text-base font-black tracking-tight">TechKıyas Yapay Zekâ Asistanı</h3>
+                <h3 className="text-base font-black tracking-tight">aceleEtme Yapay Zekâ Asistanı</h3>
                 <span className="text-[10px] bg-white/20 text-white font-black px-2 py-0.5 rounded-full uppercase tracking-wider">
                   Canlı AI 2.0
                 </span>

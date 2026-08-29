@@ -1,6 +1,6 @@
-# TechKıyas – Otomatik Fiyat Toplama & Mağaza Entegrasyon Altyapısı
+# aceleEtme – Otomatik Fiyat Toplama & Mağaza Entegrasyon Altyapısı
 
-TechKıyas için 8 büyük pazar yeri ve teknoloji mağazası (**Amazon, Trendyol, Hepsiburada, n11, PttAVM, MediaMarkt, Vatan Bilgisayar, Teknosa**) için modüler, ölçeklenebilir (10.000+ ürün), kuyruk tabanlı ve tip güvenli otomatik fiyat toplama motoru.
+aceleEtme için 8 büyük pazar yeri ve teknoloji mağazası (**Amazon, Trendyol, Hepsiburada, n11, PttAVM, MediaMarkt, Vatan Bilgisayar, Teknosa**) için modüler, ölçeklenebilir (10.000+ ürün), kuyruk tabanlı ve tip güvenli otomatik fiyat toplama motoru.
 
 ---
 
@@ -36,7 +36,7 @@ Gerekli mağaza API anahtarlarını `.env` veya Vercel Dashboard > Environment V
 
 ```env
 # Veritabanı & Kuyruk
-DATABASE_URL=postgresql://postgres:password@localhost:5432/techkiyas
+DATABASE_URL=postgresql://postgres:password@localhost:5432/aceleetme
 KV_REST_API_URL=https://...
 KV_REST_API_TOKEN=...
 CRON_SECRET=your_super_secret_cron_key_32_chars

@@ -272,7 +272,7 @@ export default function HomePage() {
       {/* 3. Sub-Hero Horizontal Thumbnail Strip */}
       <HeroThumbnailStrip items={heroThumbnails} activeIndex={heroIndex} onSelect={setHeroIndex} />
 
-      {/* 🏢 3D Köşe Billboard (TechKıyas Akıllı Karar & Fiyat Rehberi) & Pengi Maskotu */}
+      {/* 🏢 3D Köşe Billboard (aceleEtme Akıllı Karar & Fiyat Rehberi) & Pengi Maskotu */}
       <TechKiyasCornerBillboard />
 
       {/* 5. Dynamic Category Distribution Showcase (%40 Telefon, %20 TV, %10 Ev Aletleri, %10 Tablet, %10 Saat, %10 Kulaklık) */}

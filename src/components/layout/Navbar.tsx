@@ -116,7 +116,7 @@ export function Navbar() {
           
           {/* Logo Link to Homepage */}
           <div className="w-48 sm:w-56 shrink-0 flex items-center">
-            <Link href="/" className="group" title="TechKıyas Ana Sayfası">
+            <Link href="/" className="group" title="aceleEtme Ana Sayfası">
               <Logo />
             </Link>
           </div>

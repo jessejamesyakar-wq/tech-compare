@@ -222,7 +222,7 @@ export function DigitalLedBillboardScreen({
           <div className="relative w-[140px] xs:w-[170px] sm:w-[210px] md:w-[240px] drop-shadow-[0_0_25px_rgba(0,255,204,0.35)]">
             <Image
               src="/penguin-mascot.png"
-              alt="TechKıyas Pengi 2070"
+              alt="aceleEtme Pengi 2070"
               width={1048}
               height={1219}
               priority

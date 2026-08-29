@@ -362,7 +362,7 @@ export function TechKiyasCornerBillboard() {
                   
                   <div className="flex items-center gap-2 text-[10px] sm:text-xs font-bold text-slate-400">
                     <span className="text-emerald-400 animate-ping">●</span>
-                    <span>TechKıyas Canlı Mağaza Fiyat Doğrulama Sistemi</span>
+                    <span>aceleEtme Canlı Mağaza Fiyat Doğrulama Sistemi</span>
                   </div>
 
                   <div className={`self-end sm:self-auto inline-flex items-center gap-2 bg-gradient-to-r ${activeAd.ctaGradient} text-white font-black text-xs sm:text-sm px-5 py-2.5 rounded-xl shadow-lg group-hover:scale-105 transition-all`}>

@@ -321,7 +321,7 @@ export function ThreeBillboardViewer({
           <div className="relative w-[150px] xs:w-[180px] sm:w-[220px] md:w-[250px] drop-shadow-[0_16px_22px_rgba(0,0,0,0.15)]">
             <Image
               src="/penguin-mascot.png"
-              alt="TechKıyas Pengi"
+              alt="aceleEtme Pengi"
               width={1048}
               height={1219}
               priority

@@ -122,7 +122,7 @@ export function Footer() {
             Yasal Bilgilendirme ve Sorumluluk Reddi Beyanı:
           </p>
           <p className="text-slate-400 text-justify sm:text-left">
-            AceleEtme, internet üzerindeki çeşitli e-ticaret mağazalarına ait fiyat, stok ve ürün özelliklerini derleyerek kullanıcıya sunan bağımsız bir fiyat karşılaştırma ve yönlendirme platformudur. AceleEtme, doğrudan ürün satışı gerçekleştiren bir mağaza veya e-ticaret sitesi değildir; kullanıcıları ilgili üçüncü taraf satıcılara yönlendirir. Sitede listelenen fiyat, stok ve kampanya bilgileri anlık olarak değişiklik gösterebileceğinden, nihai ve geçerli bilgiler ilgili mağazanın kendi web sitesindedir. Mağazalardan gerçekleştirilecek alışveriş süreçlerinde, kargo teslimatlarında veya fiyat uyumsuzluklarında doğabilecek her türlü sorumluluk ilgili satıcıya ait olup, AceleEtme bu süreçlerin tarafı veya sorumlusu değildir.
+            aceleEtme, internet üzerindeki çeşitli e-ticaret mağazalarına ait fiyat, stok ve ürün özelliklerini derleyerek kullanıcıya sunan bağımsız bir fiyat karşılaştırma ve yönlendirme platformudur. aceleEtme, doğrudan ürün satışı gerçekleştiren bir mağaza veya e-ticaret sitesi değildir; kullanıcıları ilgili üçüncü taraf satıcılara yönlendirir. Sitede listelenen fiyat, stok ve kampanya bilgileri anlık olarak değişiklik gösterebileceğinden, nihai ve geçerli bilgiler ilgili mağazanın kendi web sitesindedir. Mağazalardan gerçekleştirilecek alışveriş süreçlerinde, kargo teslimatlarında veya fiyat uyumsuzluklarında doğabilecek her türlü sorumluluk ilgili satıcıya ait olup, aceleEtme bu süreçlerin tarafı veya sorumlusu değildir.
           </p>
         </div>
 

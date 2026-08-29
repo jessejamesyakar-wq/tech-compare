@@ -1,5 +1,5 @@
 /**
- * TechKıyas Automated Data Validation & Ingestion Pipeline
+ * aceleEtme Automated Data Validation & Ingestion Pipeline
  * Ensures zero malformed data, invalid prices, or broken affiliate URLs enter the database.
  */
 

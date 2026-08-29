@@ -5,7 +5,7 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Yasal Uyarı & Sorumluluk Reddi | aceleEtme',
-  description: 'AceleEtme platformu yasal bilgilendirme, tarafsızlık ilkeleri ve üçüncü taraf satıcı sorumluluk reddi beyanı.',
+  description: 'aceleEtme platformu yasal bilgilendirme, tarafsızlık ilkeleri ve üçüncü taraf satıcı sorumluluk reddi beyanı.',
 };
 
 export default function YasalUyariPage() {
@@ -40,7 +40,7 @@ export default function YasalUyariPage() {
         {/* Core Disclaimer Box */}
         <div className="p-5 rounded-2xl bg-amber-50 dark:bg-amber-950/40 border border-amber-200 dark:border-amber-800/60 text-amber-950 dark:text-amber-200 text-sm leading-relaxed font-medium">
           <p>
-            <strong>AceleEtme</strong>, internet üzerindeki çeşitli e-ticaret mağazalarına ait fiyat, stok ve ürün özelliklerini derleyerek kullanıcıya sunan bağımsız bir fiyat karşılaştırma ve yönlendirme platformudur. AceleEtme, doğrudan ürün satışı gerçekleştiren bir mağaza veya e-ticaret sitesi değildir; kullanıcıları ilgili üçüncü taraf satıcılara yönlendirir. Sitede listelenen fiyat, stok ve kampanya bilgileri anlık olarak değişiklik gösterebileceğinden, nihai ve geçerli bilgiler ilgili mağazanın kendi web sitesindedir. Mağazalardan gerçekleştirilecek alışveriş süreçlerinde, kargo teslimatlarında veya fiyat uyumsuzluklarında doğabilecek her türlü sorumluluk ilgili satıcıya ait olup, AceleEtme bu süreçlerin tarafı veya sorumlusu değildir.
+            <strong>aceleEtme</strong>, internet üzerindeki çeşitli e-ticaret mağazalarına ait fiyat, stok ve ürün özelliklerini derleyerek kullanıcıya sunan bağımsız bir fiyat karşılaştırma ve yönlendirme platformudur. aceleEtme, doğrudan ürün satışı gerçekleştiren bir mağaza veya e-ticaret sitesi değildir; kullanıcıları ilgili üçüncü taraf satıcılara yönlendirir. Sitede listelenen fiyat, stok ve kampanya bilgileri anlık olarak değişiklik gösterebileceğinden, nihai ve geçerli bilgiler ilgili mağazanın kendi web sitesindedir. Mağazalardan gerçekleştirilecek alışveriş süreçlerinde, kargo teslimatlarında veya fiyat uyumsuzluklarında doğabilecek her türlü sorumluluk ilgili satıcıya ait olup, aceleEtme bu süreçlerin tarafı veya sorumlusu değildir.
           </p>
         </div>
 
@@ -50,7 +50,7 @@ export default function YasalUyariPage() {
             <span>1. Bağımsız Bilgi ve Yönlendirme Hizmeti</span>
           </h2>
           <p>
-            AceleEtme, tüketicilerin piyasadaki en avantajlı fiyatlara ve doğru ürün teknik özelliklerine kolayca ulaşabilmesini sağlamak amacıyla kurulmuştur. Platform üzerinde yer alan ürün puanları, teknik özellik kıyaslamaları ve fiyat geçmişi grafikleri tamamen algoritmik ve tarafsız verilere dayanır.
+            aceleEtme, tüketicilerin piyasadaki en avantajlı fiyatlara ve doğru ürün teknik özelliklerine kolayca ulaşabilmesini sağlamak amacıyla kurulmuştur. Platform üzerinde yer alan ürün puanları, teknik özellik kıyaslamaları ve fiyat geçmişi grafikleri tamamen algoritmik ve tarafsız verilere dayanır.
           </p>
         </section>
 
@@ -60,7 +60,7 @@ export default function YasalUyariPage() {
             <span>2. Üçüncü Taraf Satıcı ve Mağaza Bağlantıları</span>
           </h2>
           <p>
-            Platformumuzdan harici mağaza web sitelerine (Amazon, Trendyol, Hepsiburada, n11, MediaMarkt, Vatan, Teknosa vb.) verilen linkler üzerinden gerçekleştirilen sipariş, ödeme, faturalandırma, kargo ve iade işlemleri doğrudan ilgili satıcı ile tüketici arasındaki mesafeli satış sözleşmesi kapsamında yürütülür. AceleEtme ödeme tahsilatı yapmaz ve sipariş taraflarından biri değildir.
+            Platformumuzdan harici mağaza web sitelerine (Amazon, Trendyol, Hepsiburada, n11, MediaMarkt, Vatan, Teknosa vb.) verilen linkler üzerinden gerçekleştirilen sipariş, ödeme, faturalandırma, kargo ve iade işlemleri doğrudan ilgili satıcı ile tüketici arasındaki mesafeli satış sözleşmesi kapsamında yürütülür. aceleEtme ödeme tahsilatı yapmaz ve sipariş taraflarından biri değildir.
           </p>
         </section>
 

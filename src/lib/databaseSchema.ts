@@ -1,5 +1,5 @@
 /**
- * TechKıyas Enterprise Canonical Database Schema Blueprint & Data Normalization Engine
+ * aceleEtme Enterprise Canonical Database Schema Blueprint & Data Normalization Engine
  * 3NF Normalized Relational Architecture (PostgreSQL / Prisma / Drizzle Compatible)
  */
 
