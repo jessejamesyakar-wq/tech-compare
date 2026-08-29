@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { getStoredProducts } from '@/lib/adminData';
 import { getAllProducts } from '@/lib/data';
 import { Product } from '@/lib/types';
@@ -56,7 +57,7 @@ export function AIAssistantModal({ isOpen, onClose }: AIAssistantModalProps) {
     {
       id: 'welcome',
       sender: 'ai',
-      text: 'Merhaba! Ben aceleEtme Yapay Zekâ Alışveriş Asistanı. 🤖\n\nBütçenizi, aradığınız özellikleri veya aklınızdaki iki modeli yazın; 600+ ürünü anında tarayıp en mantıklı tavsiyeleri ve karşılaştırmaları önünüze getireyim!'
+      text: "Merhaba! Ben RoboPengu 🐧, aceleEtme'nin robot penguen AI asistanıyım.\n\nBütçenizi, aradığınız özellikleri veya aklınızdaki modelleri yazın; tüm kataloğumuzu anında tarayıp en mantıklı tavsiyeleri önünüze getireyim!"
     }
   ]);
   const [isTyping, setIsTyping] = useState(false);
@@ -247,18 +248,25 @@ export function AIAssistantModal({ isOpen, onClose }: AIAssistantModalProps) {
         {/* Header */}
         <div className="p-4 sm:p-5 border-b border-slate-200 dark:border-slate-800 flex items-center justify-between bg-gradient-to-r from-emerald-600 via-teal-600 to-emerald-700 text-white shadow-sm">
           <div className="flex items-center gap-3">
-            <div className="w-10 h-10 rounded-2xl bg-white/20 backdrop-blur-md flex items-center justify-center text-white border border-white/30 shadow-inner">
-              <Bot className="w-6 h-6" />
+            <div className="w-11 h-11 rounded-2xl bg-white/20 backdrop-blur-md flex items-center justify-center text-white border border-white/30 shadow-inner overflow-hidden relative">
+              <Image
+                src="/robopengu.png"
+                alt="RoboPengu"
+                width={40}
+                height={40}
+                style={{ objectFit: 'contain' }}
+                priority
+              />
             </div>
             <div>
               <div className="flex items-center gap-2">
-                <h3 className="text-base font-black tracking-tight">aceleEtme Yapay Zekâ Asistanı</h3>
+                <h3 className="text-base font-black tracking-tight">RoboPengu AI Danışmanı 🐧</h3>
                 <span className="text-[10px] bg-white/20 text-white font-black px-2 py-0.5 rounded-full uppercase tracking-wider">
-                  Canlı AI 2.0
+                  Canlı AI
                 </span>
               </div>
               <p className="text-[11px] text-emerald-100 font-medium">
-                600+ Modeli Anlık Analiz Eder • Bütçe & Karşılaştırma Uzmanı
+                aceleEtme Ürün & Karşılaştırma Uzmanı
               </p>
             </div>
           </div>

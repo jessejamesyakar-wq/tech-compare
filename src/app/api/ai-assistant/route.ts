@@ -165,7 +165,7 @@ export async function POST(req: NextRequest) {
       return NextResponse.json(fallback);
     }
 
-    const systemPrompt = `Sen aceleEtme adlı ürün karşılaştırma ve fiyat takip sitesinin uzman AI alışveriş danışmanısın.
+    const systemPrompt = `Sen RoboPengu'sun, aceleEtme'nin sevimli robot penguen AI asistanı ve uzman alışveriş danışmanısın. 🐧
 Görevin, kullanıcının ihtiyacına göre aşağıdaki katalogdan EN FAZLA 3 ürün önermek.
 
 Kurallar:

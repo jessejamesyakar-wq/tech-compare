@@ -1,6 +1,6 @@
-// src/components/AIAssistant.tsx
+// components/AIAssistant.tsx
 //
-// aceleEtme AI Ürün Danışmanı - Chat Widget
+// aceleEtme AI Ürün Danışmanı - RoboPengu Chat Widget
 //
 // Sağ alt köşede sabit duran bir chat balonu açar. Kullanıcı mesaj yazınca
 // /api/ai-assistant endpoint'ine istek atar ve dönen öneriyi + varsa
@@ -11,10 +11,14 @@
 "use client";
 
 import { useState, useRef, useEffect } from "react";
+import Image from "next/image";
 import Link from "next/link";
-import { Bot, Sparkles, X, Send, ArrowRight, Tag } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 
-export interface Recommendation {
+// Görsel public/ klasöründe "robopengu.png" olarak bulunur.
+const ROBOPENGU_AVATAR = "/robopengu.png";
+
+interface Recommendation {
   productId: string;
   slug?: string;
   productName?: string;
@@ -23,7 +27,7 @@ export interface Recommendation {
   reason: string;
 }
 
-export interface ChatMessage {
+interface ChatMessage {
   role: "user" | "assistant";
   content: string;
   recommendations?: Recommendation[];
@@ -37,16 +41,14 @@ export default function AIAssistant() {
     {
       role: "assistant",
       content:
-        'Merhaba! Ben aceleEtme AI Alışveriş Danışmanıyım. 🤖\nSize nasıl bir ürün bulmamda yardımcı olabilirim? Örn: "15.000 TL altı, kamerası iyi bir telefon"',
+        "Merhaba! Ben RoboPengu 🐧, aceleEtme'nin robot penguen AI asistanıyım. Size nasıl bir ürün bulmamda yardımcı olabilirim? Örn: \"15.000 TL altı, kamerası iyi bir telefon istiyorum\"",
     },
   ]);
 
   const scrollRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
-    if (isOpen) {
-      scrollRef.current?.scrollTo({ top: scrollRef.current.scrollHeight, behavior: "smooth" });
-    }
+    scrollRef.current?.scrollTo({ top: scrollRef.current.scrollHeight, behavior: "smooth" });
   }, [messages, isLoading, isOpen]);
 
   async function handleSend() {
@@ -106,7 +108,7 @@ export default function AIAssistant() {
     }
   }
 
-  const getProductUrl = (r: Recommendation) => {
+  const getProductHref = (r: Recommendation) => {
     const category = r.category === "smartphones" ? "phones" : r.category || "phones";
     const slug = r.slug || r.productId;
     return `/${category}/${slug}`;
@@ -117,15 +119,15 @@ export default function AIAssistant() {
       {isOpen && (
         <div
           style={{
-            width: 360,
+            width: 350,
             maxWidth: "calc(100vw - 32px)",
-            height: 500,
-            maxHeight: "calc(100vh - 120px)",
+            height: 480,
+            maxHeight: "calc(100vh - 110px)",
             marginBottom: 12,
             borderRadius: 20,
             background: "#0f172a",
-            border: "1px solid rgba(255,255,255,0.12)",
-            boxShadow: "0 20px 45px rgba(0,0,0,0.5), 0 0 25px rgba(16,185,129,0.15)",
+            border: "1px solid rgba(255,255,255,0.1)",
+            boxShadow: "0 16px 36px rgba(0,0,0,0.5), 0 0 20px rgba(5,150,105,0.2)",
             display: "flex",
             flexDirection: "column",
             overflow: "hidden",
@@ -135,36 +137,45 @@ export default function AIAssistant() {
           {/* Header */}
           <div
             style={{
-              padding: "14px 16px",
+              padding: "12px 16px",
               borderBottom: "1px solid rgba(255,255,255,0.1)",
               display: "flex",
               alignItems: "center",
               justifyContent: "space-between",
-              background: "linear-gradient(135deg, #059669 0%, #0d9488 100%)",
+              background: "linear-gradient(135deg, #059669 0%, #047857 100%)",
             }}
           >
             <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
               <div
                 style={{
-                  width: 32,
-                  height: 32,
-                  borderRadius: 10,
+                  width: 34,
+                  height: 34,
+                  borderRadius: "50%",
                   background: "rgba(255,255,255,0.2)",
                   display: "flex",
                   alignItems: "center",
                   justifyContent: "center",
-                  color: "#fff",
+                  overflow: "hidden",
+                  border: "1.5px solid rgba(255,255,255,0.4)",
+                  position: "relative",
                 }}
               >
-                <Bot className="w-5 h-5" />
+                <Image
+                  src={ROBOPENGU_AVATAR}
+                  alt="RoboPengu"
+                  width={34}
+                  height={34}
+                  style={{ objectFit: "contain" }}
+                  priority
+                />
               </div>
               <div>
-                <div style={{ color: "#fff", fontWeight: 800, fontSize: 13.5, letterSpacing: "-0.01em" }}>
+                <span style={{ color: "#fff", fontWeight: 800, fontSize: 14, display: "block" }}>
+                  RoboPengu 🐧
+                </span>
+                <span style={{ color: "rgba(255,255,255,0.8)", fontSize: 10.5, fontWeight: 500 }}>
                   aceleEtme AI Asistanı
-                </div>
-                <div style={{ color: "rgba(255,255,255,0.8)", fontSize: 10.5, fontWeight: 500 }}>
-                  Canlı Ürün & Fiyat Danışmanı
-                </div>
+                </span>
               </div>
             </div>
             <button
@@ -178,35 +189,32 @@ export default function AIAssistant() {
                 cursor: "pointer",
                 padding: "4px 8px",
                 fontSize: 14,
-                display: "flex",
-                alignItems: "center",
-                justifyContent: "center",
               }}
             >
-              <X className="w-4 h-4" />
+              ✕
             </button>
           </div>
 
-          {/* Messages Container */}
+          {/* Messages */}
           <div
             ref={scrollRef}
             style={{
               flex: 1,
               overflowY: "auto",
-              padding: 14,
+              padding: 12,
               display: "flex",
               flexDirection: "column",
-              gap: 12,
+              gap: 10,
             }}
           >
             {messages.map((m, i) => (
-              <div key={i} style={{ display: "flex", flexDirection: "column", gap: 8 }}>
+              <div key={i} style={{ display: "flex", flexDirection: "column", gap: 6 }}>
                 <div
                   style={{
                     alignSelf: m.role === "user" ? "flex-end" : "flex-start",
                     background: m.role === "user" ? "#059669" : "#1e293b",
                     color: "#fff",
-                    padding: "10px 14px",
+                    padding: "9px 13px",
                     borderRadius: 14,
                     maxWidth: "88%",
                     fontSize: 12.5,
@@ -219,34 +227,33 @@ export default function AIAssistant() {
                   {m.content}
                 </div>
 
-                {/* Recommendation Cards */}
                 {m.recommendations && m.recommendations.length > 0 && (
-                  <div style={{ display: "flex", flexDirection: "column", gap: 7, paddingLeft: 4 }}>
+                  <div style={{ display: "flex", flexDirection: "column", gap: 6, paddingLeft: 4 }}>
                     {m.recommendations.map((r, rIdx) => (
                       <Link
                         key={rIdx}
-                        href={getProductUrl(r)}
+                        href={getProductHref(r)}
                         style={{
                           fontSize: 12,
                           color: "#f8fafc",
                           background: "rgba(16,185,129,0.08)",
                           border: "1px solid rgba(16,185,129,0.25)",
-                          borderRadius: 12,
-                          padding: "9px 12px",
+                          borderRadius: 10,
+                          padding: "8px 11px",
                           textDecoration: "none",
                           display: "flex",
                           flexDirection: "column",
-                          gap: 4,
+                          gap: 3,
                           transition: "all 0.2s ease",
                         }}
                         className="hover:border-emerald-400 hover:bg-emerald-950/40 group"
                       >
-                        <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", gap: 8 }}>
-                          <span style={{ fontWeight: 800, color: "#34d399", fontSize: 12.5 }}>
+                        <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", gap: 6 }}>
+                          <span style={{ fontWeight: 800, color: "#34d399", fontSize: 12 }}>
                             {r.productName || r.slug || r.productId}
                           </span>
                           {r.price && r.price > 0 && (
-                            <span style={{ fontWeight: 800, color: "#fbbf24", fontSize: 11.5 }}>
+                            <span style={{ fontWeight: 800, color: "#fbbf24", fontSize: 11 }}>
                               ₺{r.price.toLocaleString("tr-TR")}
                             </span>
                           )}
@@ -265,7 +272,7 @@ export default function AIAssistant() {
                             marginTop: 2,
                           }}
                         >
-                          <span>Ürünü ve Mağaza Fiyatlarını İncele</span>
+                          <span>Ürünü İncele</span>
                           <ArrowRight className="w-3 h-3 group-hover:translate-x-1 transition-transform" />
                         </div>
                       </Link>
@@ -282,25 +289,24 @@ export default function AIAssistant() {
                   color: "#34d399",
                   fontSize: 12,
                   background: "#1e293b",
-                  padding: "8px 14px",
-                  borderRadius: 12,
+                  padding: "7px 12px",
+                  borderRadius: 10,
                   display: "flex",
                   alignItems: "center",
                   gap: 6,
                   border: "1px solid rgba(255,255,255,0.06)",
                 }}
               >
-                <Sparkles className="w-3.5 h-3.5 animate-spin" />
-                <span>Katalog taranıyor ve analiz ediliyor…</span>
+                <span>RoboPengu düşünüyor… 🐧</span>
               </div>
             )}
           </div>
 
-          {/* Input Area */}
+          {/* Input */}
           <div
             style={{
-              padding: 12,
-              borderTop: "1px solid rgba(255,255,255,0.1)",
+              padding: 10,
+              borderTop: "1px solid rgba(255,255,255,0.08)",
               display: "flex",
               gap: 8,
               background: "#090d16",
@@ -310,64 +316,68 @@ export default function AIAssistant() {
               value={input}
               onChange={(e) => setInput(e.target.value)}
               onKeyDown={handleKeyDown}
-              placeholder="Örn: 20.000 TL altı en iyi OLED TV..."
+              placeholder="Ne arıyorsunuz?"
               style={{
                 flex: 1,
                 background: "#1e293b",
-                border: "1px solid rgba(255,255,255,0.12)",
-                borderRadius: 10,
-                padding: "9px 12px",
+                border: "1px solid rgba(255,255,255,0.1)",
+                borderRadius: 8,
+                padding: "8px 10px",
                 color: "#fff",
-                fontSize: 12.5,
+                fontSize: 13,
                 outline: "none",
               }}
             />
             <button
               onClick={handleSend}
-              disabled={isLoading || !input.trim()}
+              disabled={isLoading}
               style={{
-                background: "linear-gradient(135deg, #059669 0%, #0d9488 100%)",
+                background: "linear-gradient(135deg, #059669 0%, #047857 100%)",
                 border: "none",
-                borderRadius: 10,
+                borderRadius: 8,
                 color: "#fff",
                 padding: "0 14px",
-                fontSize: 12.5,
+                fontSize: 13,
                 fontWeight: 700,
-                cursor: isLoading || !input.trim() ? "not-allowed" : "pointer",
-                opacity: isLoading || !input.trim() ? 0.5 : 1,
-                display: "flex",
-                alignItems: "center",
-                gap: 5,
+                cursor: isLoading ? "not-allowed" : "pointer",
+                opacity: isLoading ? 0.6 : 1,
               }}
             >
-              <span>Gönder</span>
-              <Send className="w-3.5 h-3.5" />
+              Gönder
             </button>
           </div>
         </div>
       )}
 
-      {/* Floating Toggle Button */}
+      {/* Toggle button */}
       <button
         onClick={() => setIsOpen((v) => !v)}
-        aria-label="aceleEtme AI Asistanı Aç/Kapat"
+        aria-label="RoboPengu Asistanını Aç/Kapat"
         style={{
-          width: 58,
-          height: 58,
+          width: 62,
+          height: 62,
           borderRadius: "50%",
-          background: "linear-gradient(135deg, #059669 0%, #0d9488 100%)",
-          border: "2px solid rgba(255,255,255,0.25)",
+          background: "#0f172a",
+          border: "2.5px solid #059669",
           boxShadow: "0 8px 24px rgba(5,150,105,0.45)",
           cursor: "pointer",
-          color: "#fff",
           display: "flex",
           alignItems: "center",
           justifyContent: "center",
+          padding: 0,
+          overflow: "hidden",
           transition: "transform 0.2s ease, box-shadow 0.2s ease",
         }}
         className="hover:scale-105 active:scale-95"
       >
-        <Bot className="w-7 h-7 stroke-[2.2]" />
+        <Image
+          src={ROBOPENGU_AVATAR}
+          alt="RoboPengu"
+          width={56}
+          height={56}
+          style={{ objectFit: "contain" }}
+          priority
+        />
       </button>
     </div>
   );
