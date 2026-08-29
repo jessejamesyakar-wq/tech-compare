@@ -118,15 +118,17 @@ export function DynamicCategoryShowcase() {
       : distributionData.items.filter((p) => p.category === activeFilter);
 
   const getProductHref = (p: Product) => {
+    const slug = p.slug || p.id;
     switch (p.category) {
-      case 'tvs': return `/tvs/${p.slug}`;
-      case 'appliances': return `/appliances/${p.slug}`;
-      case 'tablets': return `/tablets/${p.slug}`;
-      case 'smartwatches': return `/smartwatches/${p.slug}`;
-      case 'headphones': return `/headphones/${p.slug}`;
-      case 'laptops': return `/laptops/${p.slug}`;
-      case 'consoles': return `/consoles/${p.slug}`;
-      default: return `/phones/${p.slug}`;
+      case 'tvs': return `/tvs/${slug}`;
+      case 'appliances': return `/appliances/${slug}`;
+      case 'tablets': return `/tablets/${slug}`;
+      case 'smartwatches': return `/smartwatches/${slug}`;
+      case 'headphones': return `/headphones/${slug}`;
+      case 'laptops': return `/laptops/${slug}`;
+      case 'consoles': return `/consoles/${slug}`;
+      case 'monitors': return `/monitors/${slug}`;
+      default: return `/phones/${slug}`;
     }
   };
 

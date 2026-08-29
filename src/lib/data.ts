@@ -42,15 +42,37 @@ export async function getAllAppliances(): Promise<ApplianceProduct[]> {
 }
 
 export async function getProductById(id: string): Promise<Product | undefined> {
+  if (!id) return undefined;
   const decoded = decodeURIComponent(id).toLowerCase().trim();
   const all = getStoredProducts();
-  return all.find(
+
+  // 1. Direct exact matches
+  const exact = all.find(
     (p) =>
       p.id.toLowerCase() === decoded ||
       p.slug.toLowerCase() === decoded ||
       p.slug.toLowerCase().replace(/_/g, '-') === decoded.replace(/_/g, '-') ||
       p.name.toLowerCase() === decoded
   );
+  if (exact) return exact;
+
+  // 2. Normalized prefix/suffix matching (e.g. brand duplicated prefix or trailing numeric ID)
+  const stripNumbers = (str: string) => str.replace(/-[0-9]+$/, '');
+  const stripPrefix = (str: string) => str.replace(/^[a-z0-9]+-([a-z0-9]+-)/, '$1');
+
+  const normalized = all.find(
+    (p) =>
+      stripNumbers(p.slug.toLowerCase()) === stripNumbers(decoded) ||
+      stripNumbers(p.id.toLowerCase()) === stripNumbers(decoded) ||
+      stripPrefix(p.slug.toLowerCase()) === stripPrefix(decoded) ||
+      stripPrefix(p.id.toLowerCase()) === stripPrefix(decoded) ||
+      p.slug.toLowerCase().includes(decoded) ||
+      decoded.includes(p.slug.toLowerCase())
+  );
+  if (normalized) return normalized;
+
+  // 3. Name fuzzy match
+  return all.find((p) => p.name.toLowerCase().includes(decoded) || decoded.includes(p.name.toLowerCase()));
 }
 
 export async function getSmartphoneById(id: string): Promise<Smartphone | undefined> {
@@ -65,20 +87,13 @@ export async function getSmartphoneById(id: string): Promise<Smartphone | undefi
       p.category === 'smartphones'
   );
   if (found) return found as Smartphone;
-  // Fallback check if it's in all products
-  const anyProduct = all.find(
-    (p) =>
-      p.id.toLowerCase() === decoded ||
-      p.slug.toLowerCase() === decoded ||
-      p.slug.toLowerCase().replace(/_/g, '-') === decoded.replace(/_/g, '-')
-  );
-  return anyProduct as Smartphone | undefined;
+  return (await getProductById(id)) as Smartphone | undefined;
 }
 
 export async function getTabletById(id: string): Promise<Product | undefined> {
   const decoded = decodeURIComponent(id).toLowerCase().trim();
   const all = getStoredProducts();
-  return all.find(
+  const found = all.find(
     (p) =>
       (p.id.toLowerCase() === decoded ||
         p.slug.toLowerCase() === decoded ||
@@ -86,12 +101,14 @@ export async function getTabletById(id: string): Promise<Product | undefined> {
         p.name.toLowerCase() === decoded) &&
       p.category === 'tablets'
   );
+  if (found) return found;
+  return getProductById(id);
 }
 
 export async function getSmartwatchById(id: string): Promise<Product | undefined> {
   const decoded = decodeURIComponent(id).toLowerCase().trim();
   const all = getStoredProducts();
-  return all.find(
+  const found = all.find(
     (p) =>
       (p.id.toLowerCase() === decoded ||
         p.slug.toLowerCase() === decoded ||
@@ -99,12 +116,14 @@ export async function getSmartwatchById(id: string): Promise<Product | undefined
         p.name.toLowerCase() === decoded) &&
       p.category === 'smartwatches'
   );
+  if (found) return found;
+  return getProductById(id);
 }
 
 export async function getHeadphoneById(id: string): Promise<Product | undefined> {
   const decoded = decodeURIComponent(id).toLowerCase().trim();
   const all = getStoredProducts();
-  return all.find(
+  const found = all.find(
     (p) =>
       (p.id.toLowerCase() === decoded ||
         p.slug.toLowerCase() === decoded ||
@@ -112,12 +131,14 @@ export async function getHeadphoneById(id: string): Promise<Product | undefined>
         p.name.toLowerCase() === decoded) &&
       p.category === 'headphones'
   );
+  if (found) return found;
+  return getProductById(id);
 }
 
 export async function getConsoleById(id: string): Promise<Product | undefined> {
   const decoded = decodeURIComponent(id).toLowerCase().trim();
   const all = getStoredProducts();
-  return all.find(
+  const found = all.find(
     (p) =>
       (p.id.toLowerCase() === decoded ||
         p.slug.toLowerCase() === decoded ||
@@ -125,12 +146,14 @@ export async function getConsoleById(id: string): Promise<Product | undefined> {
         p.name.toLowerCase() === decoded) &&
       p.category === 'consoles'
   );
+  if (found) return found;
+  return getProductById(id);
 }
 
 export async function getMonitorById(id: string): Promise<Product | undefined> {
   const decoded = decodeURIComponent(id).toLowerCase().trim();
   const all = getStoredProducts();
-  return all.find(
+  const found = all.find(
     (p) =>
       (p.id.toLowerCase() === decoded ||
         p.slug.toLowerCase() === decoded ||
@@ -138,6 +161,8 @@ export async function getMonitorById(id: string): Promise<Product | undefined> {
         p.name.toLowerCase() === decoded) &&
       p.category === 'monitors'
   );
+  if (found) return found;
+  return getProductById(id);
 }
 
 export async function getTVById(id: string): Promise<TVProduct | undefined> {
@@ -161,13 +186,15 @@ export async function getTVById(id: string): Promise<TVProduct | undefined> {
       p.id.toLowerCase().includes(decoded) ||
       p.name.toLowerCase().includes(decoded)
   );
-  return modelMatch;
+  if (modelMatch) return modelMatch;
+
+  return (await getProductById(id)) as TVProduct | undefined;
 }
 
 export async function getLaptopById(id: string): Promise<LaptopProduct | undefined> {
   const decoded = decodeURIComponent(id).toLowerCase().trim();
   const all = getStoredProducts();
-  return all.find(
+  const found = all.find(
     (p) =>
       (p.id.toLowerCase() === decoded ||
         p.slug.toLowerCase() === decoded ||
@@ -175,12 +202,14 @@ export async function getLaptopById(id: string): Promise<LaptopProduct | undefin
         p.name.toLowerCase() === decoded) &&
       p.category === 'laptops'
   ) as LaptopProduct | undefined;
+  if (found) return found;
+  return (await getProductById(id)) as LaptopProduct | undefined;
 }
 
 export async function getApplianceById(id: string): Promise<ApplianceProduct | undefined> {
   const decoded = decodeURIComponent(id).toLowerCase().trim();
   const all = getStoredProducts();
-  return all.find(
+  const found = all.find(
     (p) =>
       (p.id.toLowerCase() === decoded ||
         p.slug.toLowerCase() === decoded ||
@@ -188,6 +217,8 @@ export async function getApplianceById(id: string): Promise<ApplianceProduct | u
         p.name.toLowerCase() === decoded) &&
       p.category === 'appliances'
   ) as ApplianceProduct | undefined;
+  if (found) return found;
+  return (await getProductById(id)) as ApplianceProduct | undefined;
 }
 
 export async function getFeaturedSmartphones(): Promise<Smartphone[]> {

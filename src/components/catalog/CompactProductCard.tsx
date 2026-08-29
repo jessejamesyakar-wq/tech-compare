@@ -16,24 +16,25 @@ export interface CompactProductCardProps {
 export function CompactProductCard({
   product
 }: CompactProductCardProps) {
+  const slug = product.slug || product.id;
   const href =
     product.category === 'tvs'
-      ? `/tvs/${product.slug}`
+      ? `/tvs/${slug}`
       : product.category === 'laptops'
-      ? `/laptops/${product.slug}`
+      ? `/laptops/${slug}`
       : product.category === 'appliances'
-      ? `/appliances/${product.slug}`
+      ? `/appliances/${slug}`
       : product.category === 'tablets'
-      ? `/tablets/${product.slug}`
+      ? `/tablets/${slug}`
       : product.category === 'smartwatches'
-      ? `/smartwatches/${product.slug}`
+      ? `/smartwatches/${slug}`
       : product.category === 'headphones'
-      ? `/headphones/${product.slug}`
+      ? `/headphones/${slug}`
       : product.category === 'consoles'
-      ? `/consoles/${product.slug}`
+      ? `/consoles/${slug}`
       : product.category === 'monitors'
-      ? `/monitors/${product.slug}`
-      : `/phones/${product.slug}`;
+      ? `/monitors/${slug}`
+      : `/phones/${slug}`;
 
   const offers = product.storeOffers || [];
   const offerCount = offers.length > 0 ? offers.length : 3;
