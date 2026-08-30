@@ -23,7 +23,17 @@
 
 ---
 
-### 2. "+" Model Slug ve Teknik Özellik Ayrıştırması
+### 2. 301 Kalıcı URL Yönlendirmeleri (301 Permanent Redirects) Kurulumu
+- **Tarih:** 2026-08-30 21:06
+- **Etkilenen Dosyalar:** `next.config.ts`, `data/redirects.json`, `scripts/testRedirects.js`
+- **Yapılan Değişiklik:**
+  - 25 adet değişen veya normalize edilen eski ürün slug'ı için (`/phones/samsung-galaxy-s26-ultra`, `/headphones/samsung-galaxy-buds` vb.) Edge/Next.js seviyesinde **301 Permanent Redirect** yönlendirme kuralı tanımlandı.
+  - `scripts/testRedirects.js` otomatik doğrulama testi eklendi ve tüm yönlendirme hedeflerinin canlı kataloğa 404 üretmeden yönlendiği teyit edildi.
+- **Gerekçe:** Google SEO indeksleri, yer imleri ve dış bağlantılarda eski URL'leri ziyaret eden kullanıcıların 404 hatası almasını önlemek.
+
+---
+
+### 3. "+" Model Slug ve Teknik Özellik Ayrıştırması
 - **Tarih:** 2026-08-30 20:24
 - **Etkilenen Dosyalar:** `src/lib/smartphonesData.json`, `src/lib/mockHeadphones.ts`, `src/lib/mockTablets.ts`, `public/images/phones/samsung/`
 - **Yapılan Değişiklik:**

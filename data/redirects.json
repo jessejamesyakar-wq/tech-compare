@@ -1,0 +1,152 @@
+[
+  {
+    "source": "/phones/samsung-galaxy-s26-ultra",
+    "destination": "/phones/samsung-galaxy-s26-ultra-256gb",
+    "permanent": true,
+    "name": "Samsung Galaxy S26 Ultra 256GB"
+  },
+  {
+    "source": "/phones/samsung-galaxy-s26-plus",
+    "destination": "/phones/samsung-galaxy-s26-plus-256gb",
+    "permanent": true,
+    "name": "Samsung Galaxy S26+ 256GB"
+  },
+  {
+    "source": "/phones/samsung-galaxy-s26",
+    "destination": "/phones/samsung-galaxy-s26-128gb",
+    "permanent": true,
+    "name": "Samsung Galaxy S26 128GB"
+  },
+  {
+    "source": "/phones/samsung-galaxy-s25-ultra",
+    "destination": "/phones/samsung-galaxy-s25-ultra-256gb",
+    "permanent": true,
+    "name": "Samsung Galaxy S25 Ultra 256GB"
+  },
+  {
+    "source": "/phones/samsung-galaxy-s25-plus",
+    "destination": "/phones/samsung-galaxy-s25-plus-256gb",
+    "permanent": true,
+    "name": "Samsung Galaxy S25+ 256GB"
+  },
+  {
+    "source": "/phones/samsung-galaxy-s25",
+    "destination": "/phones/samsung-galaxy-s25-128gb",
+    "permanent": true,
+    "name": "Samsung Galaxy S25 128GB"
+  },
+  {
+    "source": "/phones/samsung-galaxy-s25-fe",
+    "destination": "/phones/samsung-galaxy-s25-fe-128gb",
+    "permanent": true,
+    "name": "Samsung Galaxy S25 FE 128GB"
+  },
+  {
+    "source": "/phones/samsung-galaxy-a57-5g",
+    "destination": "/phones/samsung-galaxy-a57-5g-128gb",
+    "permanent": true,
+    "name": "Samsung Galaxy A57 5G 128GB"
+  },
+  {
+    "source": "/phones/samsung-galaxy-a37-5g",
+    "destination": "/phones/samsung-galaxy-a37-5g-128gb",
+    "permanent": true,
+    "name": "Samsung Galaxy A37 5G 128GB"
+  },
+  {
+    "source": "/phones/samsung-galaxy-a17-5g",
+    "destination": "/phones/samsung-galaxy-a17-5g-128gb",
+    "permanent": true,
+    "name": "Samsung Galaxy A17 5G 128GB"
+  },
+  {
+    "source": "/phones/samsung-galaxy-s9-plus-old",
+    "destination": "/phones/samsung-galaxy-s9-plus",
+    "permanent": true,
+    "name": "Samsung Galaxy S9+"
+  },
+  {
+    "source": "/phones/samsung-galaxy-s10-plus-old",
+    "destination": "/phones/samsung-galaxy-s10-plus",
+    "permanent": true,
+    "name": "Samsung Galaxy S10+"
+  },
+  {
+    "source": "/phones/samsung-galaxy-note-10-plus-old",
+    "destination": "/phones/samsung-galaxy-note-10-plus",
+    "permanent": true,
+    "name": "Samsung Galaxy Note 10+"
+  },
+  {
+    "source": "/phones/samsung-galaxy-s20-plus-old",
+    "destination": "/phones/samsung-galaxy-s20-plus",
+    "permanent": true,
+    "name": "Samsung Galaxy S20+"
+  },
+  {
+    "source": "/phones/samsung-galaxy-s21-plus-old",
+    "destination": "/phones/samsung-galaxy-s21-plus",
+    "permanent": true,
+    "name": "Samsung Galaxy S21+"
+  },
+  {
+    "source": "/phones/samsung-galaxy-s22-plus-old",
+    "destination": "/phones/samsung-galaxy-s22-plus",
+    "permanent": true,
+    "name": "Samsung Galaxy S22+"
+  },
+  {
+    "source": "/phones/samsung-galaxy-s23-plus-old",
+    "destination": "/phones/samsung-galaxy-s23-plus",
+    "permanent": true,
+    "name": "Samsung Galaxy S23+"
+  },
+  {
+    "source": "/phones/samsung-galaxy-s24-plus-old",
+    "destination": "/phones/samsung-galaxy-s24-plus",
+    "permanent": true,
+    "name": "Samsung Galaxy S24+"
+  },
+  {
+    "source": "/headphones/samsung-samsung-galaxy-buds",
+    "destination": "/headphones/samsung-galaxy-buds-plus",
+    "permanent": true,
+    "name": "Samsung Galaxy Buds+"
+  },
+  {
+    "source": "/headphones/samsung-galaxy-buds",
+    "destination": "/headphones/samsung-galaxy-buds-plus",
+    "permanent": true,
+    "name": "Samsung Galaxy Buds+"
+  },
+  {
+    "source": "/tablets/samsung-samsung-galaxy-tab-s7-s7-fe-s8-turkce-klavyeli-kilif",
+    "destination": "/tablets/samsung-samsung-galaxy-tab-s7-s7-fe-s8-turkce-klavyeli-kilif-plus",
+    "permanent": true,
+    "name": "Tab S7+ Kilif"
+  },
+  {
+    "source": "/tablets/samsung-samsung-galaxy-s23-cok-amacli-seffaf-kilif",
+    "destination": "/tablets/samsung-samsung-galaxy-s23-cok-amacli-seffaf-kilif-plus",
+    "permanent": true,
+    "name": "Galaxy S23+ Kilif"
+  },
+  {
+    "source": "/tablets/samsung-samsung-galaxy-tab-s9-mousepadli-klavyeli-kapakli-kilif",
+    "destination": "/tablets/samsung-samsung-galaxy-tab-s9-mousepadli-klavyeli-kapakli-kilif-plus",
+    "permanent": true,
+    "name": "Tab S9+ Kilif"
+  },
+  {
+    "source": "/tablets/samsung-samsung-galaxy-tab-s9-not-ekrani",
+    "destination": "/tablets/samsung-samsung-galaxy-tab-s9-not-ekrani-plus",
+    "permanent": true,
+    "name": "Tab S9+ Not Ekrani"
+  },
+  {
+    "source": "/appliances/xiaomi-robot-vacuum-x20-plus-mop",
+    "destination": "/appliances/xiaomi-robot-vacuum-x20-plus-pro-mop",
+    "permanent": true,
+    "name": "Xiaomi Robot Vacuum X20+ Mop"
+  }
+]
