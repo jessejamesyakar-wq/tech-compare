@@ -1,0 +1,143 @@
+/* widget.css - aceleEtme fiyat kıyaslama widget'ı */
+
+#aceleetme-widget {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  width: 320px;
+  max-width: calc(100vw - 32px);
+  background: #0f172a;
+  border: 1px solid rgba(16, 185, 129, 0.4);
+  border-radius: 16px;
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.45), 0 0 20px rgba(5, 150, 105, 0.2);
+  z-index: 2147483647;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  color: #f8fafc;
+  overflow: hidden;
+  line-height: 1.4;
+  backdrop-filter: blur(10px);
+  animation: aceleetme-slide-up 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+@keyframes aceleetme-slide-up {
+  from {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+#aceleetme-widget * {
+  box-sizing: border-box;
+}
+
+#aceleetme-widget .aceleetme-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 14px;
+  background: linear-gradient(135deg, #059669 0%, #047857 100%);
+  font-weight: 700;
+  font-size: 13px;
+  color: #ffffff;
+}
+
+#aceleetme-widget .aceleetme-close {
+  background: rgba(255, 255, 255, 0.2);
+  border: none;
+  border-radius: 6px;
+  color: #fff;
+  cursor: pointer;
+  width: 22px;
+  height: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+  line-height: 1;
+  transition: background 0.15s ease;
+}
+
+#aceleetme-widget .aceleetme-close:hover {
+  background: rgba(255, 255, 255, 0.35);
+}
+
+#aceleetme-widget .aceleetme-body {
+  padding: 14px;
+  font-size: 12.5px;
+}
+
+#aceleetme-widget .aceleetme-product-name {
+  font-weight: 700;
+  color: #34d399;
+  font-size: 12px;
+  margin-bottom: 8px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+#aceleetme-widget .aceleetme-best {
+  background: rgba(16, 185, 129, 0.12);
+  border: 1px solid rgba(16, 185, 129, 0.3);
+  padding: 8px 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  font-size: 12px;
+  color: #e2e8f0;
+}
+
+#aceleetme-widget .aceleetme-best strong {
+  color: #34d399;
+  font-size: 13.5px;
+}
+
+#aceleetme-widget .aceleetme-list {
+  max-height: 140px;
+  overflow-y: auto;
+  margin-bottom: 10px;
+}
+
+#aceleetme-widget .aceleetme-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.07);
+  font-size: 11.5px;
+  color: #cbd5e1;
+}
+
+#aceleetme-widget .aceleetme-row:last-child {
+  border-bottom: none;
+}
+
+#aceleetme-widget .aceleetme-price {
+  font-weight: 700;
+  color: #fbbf24;
+}
+
+#aceleetme-widget .aceleetme-cta {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  text-align: center;
+  background: linear-gradient(135deg, #059669 0%, #047857 100%);
+  color: #ffffff;
+  text-decoration: none;
+  padding: 9px 12px;
+  border-radius: 10px;
+  font-size: 12px;
+  font-weight: 700;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+  box-shadow: 0 4px 12px rgba(5, 150, 105, 0.3);
+}
+
+#aceleetme-widget .aceleetme-cta:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 6px 16px rgba(5, 150, 105, 0.4);
+}

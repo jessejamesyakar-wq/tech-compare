@@ -1,0 +1,34 @@
+{
+  "manifest_version": 3,
+  "name": "aceleEtme Fiyat Kıyaslayıcı",
+  "version": "0.1.0",
+  "description": "Gezdiğiniz mağaza sitelerinde ürünün aceleEtme'deki en iyi fiyatını anında gösterir.",
+  "permissions": ["activeTab", "scripting"],
+  "host_permissions": [
+    "https://www.hepsiburada.com/*",
+    "https://www.trendyol.com/*",
+    "https://www.mediamarkt.com.tr/*",
+    "https://www.vatanbilgisayar.com/*",
+    "https://aceleetme.com/*",
+    "http://localhost:3000/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.hepsiburada.com/*",
+        "https://www.trendyol.com/*",
+        "https://www.mediamarkt.com.tr/*",
+        "https://www.vatanbilgisayar.com/*"
+      ],
+      "js": ["content.js"],
+      "css": ["widget.css"],
+      "run_at": "document_idle"
+    }
+  ],
+  "icons": {
+    "16": "icon16.png",
+    "32": "icon32.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+}
