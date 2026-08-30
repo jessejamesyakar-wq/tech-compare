@@ -1,0 +1,142 @@
+[
+  {
+    "id": "samsung-samsung-galaxy-s24-ultra-95",
+    "name": "Samsung Galaxy S24 Ultra",
+    "epeyUrl": "https://www.epey.com/akilli-telefonlar/samsung-galaxy-s24-ultra.html",
+    "proposedImage": "/images/phones/samsung/epey/samsung-samsung-galaxy-s24-ultra-95.png",
+    "success": true
+  },
+  {
+    "id": "samsung-samsung-galaxy-s24-94",
+    "name": "Samsung Galaxy S24+",
+    "epeyUrl": "https://www.epey.com/akilli-telefonlar/samsung-galaxy-s24-plus.html",
+    "proposedImage": null,
+    "success": false
+  },
+  {
+    "id": "samsung-samsung-galaxy-s24-93",
+    "name": "Samsung Galaxy S24",
+    "epeyUrl": "https://www.epey.com/akilli-telefonlar/samsung-galaxy-s24.html",
+    "proposedImage": null,
+    "success": false
+  },
+  {
+    "id": "samsung-samsung-galaxy-s24-fe-96",
+    "name": "Samsung Galaxy S24 FE",
+    "epeyUrl": "https://www.epey.com/akilli-telefonlar/samsung-galaxy-s24-fe.html",
+    "proposedImage": null,
+    "success": false
+  },
+  {
+    "id": "samsung-samsung-galaxy-s23-ultra-82",
+    "name": "Samsung Galaxy S23 Ultra",
+    "epeyUrl": "https://www.epey.com/akilli-telefonlar/samsung-galaxy-s23-ultra.html",
+    "proposedImage": null,
+    "success": false
+  },
+  {
+    "id": "samsung-samsung-galaxy-s23-81",
+    "name": "Samsung Galaxy S23+",
+    "epeyUrl": "https://www.epey.com/akilli-telefonlar/samsung-galaxy-s23-plus.html",
+    "proposedImage": null,
+    "success": false
+  },
+  {
+    "id": "samsung-samsung-galaxy-s23-80",
+    "name": "Samsung Galaxy S23",
+    "epeyUrl": "https://www.epey.com/akilli-telefonlar/samsung-galaxy-s23.html",
+    "proposedImage": null,
+    "success": false
+  },
+  {
+    "id": "samsung-samsung-galaxy-s23-fe-83",
+    "name": "Samsung Galaxy S23 FE",
+    "epeyUrl": "https://www.epey.com/akilli-telefonlar/samsung-galaxy-s23-fe.html",
+    "proposedImage": null,
+    "success": false
+  },
+  {
+    "id": "samsung-samsung-galaxy-s22-ultra-68",
+    "name": "Samsung Galaxy S22 Ultra",
+    "epeyUrl": "https://www.epey.com/akilli-telefonlar/samsung-galaxy-s22-ultra.html",
+    "proposedImage": null,
+    "success": false
+  },
+  {
+    "id": "samsung-samsung-galaxy-s22-66",
+    "name": "Samsung Galaxy S22",
+    "epeyUrl": "https://www.epey.com/akilli-telefonlar/samsung-galaxy-s22.html",
+    "proposedImage": null,
+    "success": false
+  },
+  {
+    "id": "samsung-samsung-galaxy-s21-fe-53",
+    "name": "Samsung Galaxy S21 FE",
+    "epeyUrl": "https://www.epey.com/akilli-telefonlar/samsung-galaxy-s21-fe-5g.html",
+    "proposedImage": null,
+    "success": false
+  },
+  {
+    "id": "samsung-samsung-galaxy-z-fold-6-98",
+    "name": "Samsung Galaxy Z Fold 6",
+    "epeyUrl": "https://www.epey.com/akilli-telefonlar/samsung-galaxy-z-fold6.html",
+    "proposedImage": null,
+    "success": false
+  },
+  {
+    "id": "samsung-samsung-galaxy-z-flip-6-97",
+    "name": "Samsung Galaxy Z Flip 6",
+    "epeyUrl": "https://www.epey.com/akilli-telefonlar/samsung-galaxy-z-flip6.html",
+    "proposedImage": null,
+    "success": false
+  },
+  {
+    "id": "samsung-samsung-galaxy-a55-5g-103",
+    "name": "Samsung Galaxy A55 5G",
+    "epeyUrl": "https://www.epey.com/akilli-telefonlar/samsung-galaxy-a55-5g.html",
+    "proposedImage": null,
+    "success": false
+  },
+  {
+    "id": "samsung-samsung-galaxy-a35-5g-102",
+    "name": "Samsung Galaxy A35 5G",
+    "epeyUrl": "https://www.epey.com/akilli-telefonlar/samsung-galaxy-a35-5g.html",
+    "proposedImage": null,
+    "success": false
+  },
+  {
+    "id": "samsung-samsung-galaxy-a25-5g-101",
+    "name": "Samsung Galaxy A25 5G",
+    "epeyUrl": "https://www.epey.com/akilli-telefonlar/samsung-galaxy-a25-5g.html",
+    "proposedImage": null,
+    "success": false
+  },
+  {
+    "id": "samsung-samsung-galaxy-a15-100",
+    "name": "Samsung Galaxy A15",
+    "epeyUrl": "https://www.epey.com/akilli-telefonlar/samsung-galaxy-a15.html",
+    "proposedImage": null,
+    "success": false
+  },
+  {
+    "id": "samsung-samsung-galaxy-a05-99",
+    "name": "Samsung Galaxy A05",
+    "epeyUrl": "https://www.epey.com/akilli-telefonlar/samsung-galaxy-a05s.html",
+    "proposedImage": null,
+    "success": false
+  },
+  {
+    "id": "samsung-samsung-galaxy-m55-5g-106",
+    "name": "Samsung Galaxy M55 5G",
+    "epeyUrl": "https://www.epey.com/akilli-telefonlar/samsung-galaxy-m55-5g.html",
+    "proposedImage": null,
+    "success": false
+  },
+  {
+    "id": "samsung-samsung-galaxy-m35-5g-105",
+    "name": "Samsung Galaxy M35 5G",
+    "epeyUrl": "https://www.epey.com/akilli-telefonlar/samsung-galaxy-m35-5g.html",
+    "proposedImage": null,
+    "success": false
+  }
+]
