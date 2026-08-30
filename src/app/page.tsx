@@ -520,7 +520,7 @@ export default function HomePage() {
             href="/phones"
             className="inline-flex items-center gap-2 bg-white hover:bg-slate-50 text-slate-900 font-extrabold text-xs px-8 py-3.5 rounded-full border border-slate-200 shadow-xs transition-all hover:border-emerald-500 cursor-pointer"
           >
-            <span>Tüm Fırsat Kataloğunu İncele ({totalCatalogCount > 0 ? `${totalCatalogCount.toLocaleString('tr-TR')} Model` : `${mixedDiscountGrid.length} Model`})</span>
+            <span>Tüm Telefon Kataloğunu İncele ({allPhones.length > 0 ? `${allPhones.length.toLocaleString('tr-TR')} Model` : '357 Model'})</span>
             <ArrowRight className="w-4 h-4 text-emerald-600" />
           </Link>
         </div>

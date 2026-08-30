@@ -1,10 +1,15 @@
-# 📋 Ürün Veri Değişiklik Günlüğü (Data Audit Log)
+## 📅 2026-08-30
 
-Bu doküman, tech-compare ürün veritabanında (`smartphonesData.json`, `mockTVs.ts`, `mockLaptops.ts` vb.) yapılan tüm yapısal ve içeriksel değişiklikleri, tarih, alan ve gerekçe bazında kayıt altına alır.
+### 0. 10 Adet Akıllı Telefon Modelinin Geri Yüklenmesi & Sayaç Tutarlılığı
+- **Tarih:** 2026-08-30 20:53
+- **Etkilenen Dosyalar:** `src/lib/smartphonesData.json`, `src/app/page.tsx`, `data/catalog_baseline.json`
+- **Yapılan Değişiklik:**
+  - Önceki slug deduplication döngüsünde yanlışlıkla filtrelenen 10 adet Samsung depolama varyantı modeli (`S26 Ultra 256GB`, `S26+ 256GB`, `S26 128GB`, `S25 Ultra 256GB`, `S25+ 256GB`, `S25 128GB`, `S25 FE 128GB`, `A57 5G 128GB`, `A37 5G 128GB`, `A17 5G 128GB`) benzersiz slug'ları ve depolama isimleriyle eksiksiz geri yüklendi.
+  - Akıllı telefon sayısı **357 modele**, katalog toplamı **5.291 ürüne** yükseltildi.
+  - Ana sayfadaki tüm sayaçlar tek bir kaynaktan (`allPhones.length`) beslenecek şekilde senkronize edildi.
+- **Gerekçe:** Ürün kaybının önlenmesi ve tek gerçek kaynak (Single Source of Truth) ilkemize uyulması.
 
 ---
-
-## 📅 2026-08-30
 
 ### 1. Veri Güvenlik & Bütünlük Altyapısı (Data Integrity Gatekeeper)
 - **Tarih:** 2026-08-30 20:38
