@@ -27432,7 +27432,7 @@
     "name": "Honor 600",
     "brand": "Honor",
     "category": "smartphones",
-    "basePrice": 25199,
+    "basePrice": 34179,
     "currency": "TL",
     "rating": 4.4,
     "reviewCount": 642,
@@ -27468,7 +27468,7 @@
       {
         "storeName": "Vatan Bilgisayar",
         "storeLogo": "/images/stores/vatan.png",
-        "price": 25199,
+        "price": 34800,
         "shippingFee": 0,
         "inStock": true,
         "url": "https://www.vatanbilgisayar.com/arama/Honor%20Honor%20600",
@@ -28052,7 +28052,7 @@
     "name": "Honor Magic8",
     "brand": "Honor",
     "category": "smartphones",
-    "basePrice": 29999,
+    "basePrice": 63477,
     "currency": "TL",
     "rating": 4.9,
     "reviewCount": 478,
@@ -28088,7 +28088,7 @@
       {
         "storeName": "Vatan Bilgisayar",
         "storeLogo": "/images/stores/vatan.png",
-        "price": 29999,
+        "price": 64500,
         "shippingFee": 0,
         "inStock": true,
         "url": "https://www.vatanbilgisayar.com/arama/Honor%20Honor%20Magic8",
@@ -63625,7 +63625,7 @@
     "name": "Samsung Galaxy Z Flip 8",
     "brand": "Samsung",
     "category": "smartphones",
-    "basePrice": 2498,
+    "basePrice": 66198,
     "currency": "TL",
     "rating": 4.6,
     "reviewCount": 660,
@@ -63664,7 +63664,7 @@
       {
         "storeName": "Vatan Bilgisayar",
         "storeLogo": "/images/stores/vatan.png",
-        "price": 2498,
+        "price": 67200,
         "shippingFee": 0,
         "inStock": true,
         "url": "https://www.vatanbilgisayar.com/arama/Samsung%20Samsung%20Galaxy%20Z%20Flip%208",
@@ -63770,7 +63770,7 @@
     "name": "Samsung Galaxy Z Fold 8",
     "brand": "Samsung",
     "category": "smartphones",
-    "basePrice": 2498,
+    "basePrice": 94569,
     "currency": "TL",
     "rating": 4.7,
     "reviewCount": 707,
@@ -63809,7 +63809,7 @@
       {
         "storeName": "Vatan Bilgisayar",
         "storeLogo": "/images/stores/vatan.png",
-        "price": 2498,
+        "price": 96000,
         "shippingFee": 0,
         "inStock": true,
         "url": "https://www.vatanbilgisayar.com/arama/Samsung%20Samsung%20Galaxy%20Z%20Fold%208",
@@ -63915,7 +63915,7 @@
     "name": "Samsung Galaxy Z Fold 8 Ultra",
     "brand": "Samsung",
     "category": "smartphones",
-    "basePrice": 2498,
+    "basePrice": 113483,
     "currency": "TL",
     "rating": 4.8,
     "reviewCount": 754,
@@ -63954,7 +63954,7 @@
       {
         "storeName": "Vatan Bilgisayar",
         "storeLogo": "/images/stores/vatan.png",
-        "price": 2498,
+        "price": 115500,
         "shippingFee": 0,
         "inStock": true,
         "url": "https://www.vatanbilgisayar.com/arama/Samsung%20Samsung%20Galaxy%20Z%20Fold%208%20Ultra",
@@ -65470,7 +65470,7 @@
         "updateYears": 7
       }
     },
-    "basePrice": 94999,
+    "basePrice": 124831,
     "currency": "TL",
     "releaseYear": 2026,
     "highlights": [
@@ -65501,7 +65501,7 @@
       {
         "storeName": "Vatan Bilgisayar",
         "storeLogo": "/images/stores/vatan.png",
-        "price": 94999,
+        "price": 126200,
         "shippingFee": 0,
         "inStock": true,
         "url": "https://www.vatanbilgisayar.com/arama/Samsung%20Samsung%20Galaxy%20S26%20Ultra",
@@ -65626,7 +65626,7 @@
         "updateYears": 7
       }
     },
-    "basePrice": 67499,
+    "basePrice": 83221,
     "currency": "TL",
     "releaseYear": 2026,
     "highlights": [
@@ -65657,7 +65657,7 @@
       {
         "storeName": "Vatan Bilgisayar",
         "storeLogo": "/images/stores/vatan.png",
-        "price": 67499,
+        "price": 84200,
         "shippingFee": 0,
         "inStock": true,
         "url": "https://www.vatanbilgisayar.com/arama/Samsung%20Samsung%20Galaxy%20S26%2B",
@@ -65782,7 +65782,7 @@
         "updateYears": 7
       }
     },
-    "basePrice": 67499,
+    "basePrice": 73764,
     "currency": "TL",
     "releaseYear": 2026,
     "highlights": [
@@ -65813,7 +65813,7 @@
       {
         "storeName": "Vatan Bilgisayar",
         "storeLogo": "/images/stores/vatan.png",
-        "price": 67499,
+        "price": 74500,
         "shippingFee": 0,
         "inStock": true,
         "url": "https://www.vatanbilgisayar.com/arama/Samsung%20Samsung%20Galaxy%20S26",
