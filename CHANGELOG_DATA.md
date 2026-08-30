@@ -100,3 +100,11 @@
 - **Gerekçe:** User approved separating base S25 photo to ensure 100% distinct manufacturer original photography across all Samsung models.
 
 ---
+
+### Applied Official Epey Studio Photos for 14 Samsung Models
+- **Tarih:** 2026-08-30 22:06
+- **Etkilenen Dosyalar:** `src/lib/smartphonesData.json`, `public/images/phones/samsung/epey/`
+- **Yapılan Değişiklik:** Replaced product images with canonical, clean transparent-background studio photos sourced directly from Epey (Galaxy S24 Ultra, S24+, S24, S23 Ultra, S22 Ultra, Z Fold 6, S25 Ultra, S25, S26 series).
+- **Gerekçe:** User requested pulling official photos directly from Epey for gold-standard Turkish tech product presentation.
+
+---
