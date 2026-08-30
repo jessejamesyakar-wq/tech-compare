@@ -1,0 +1,205 @@
+[
+  {
+    "id": "samsung-samsung-galaxy-s21-fe-53",
+    "name": "Samsung Galaxy S21 FE",
+    "currentImage": "/images/phones/samsung/samsung-galaxy-s21-fe.svg",
+    "proposedImage": "/images/products/smartphones/samsung-samsung-galaxy-s21-fe-53.jpg",
+    "found": true
+  },
+  {
+    "id": "samsung-samsung-galaxy-s22-ultra-68",
+    "name": "Samsung Galaxy S22 Ultra",
+    "currentImage": "/images/phones/samsung/samsung-galaxy-s22-ultra.svg",
+    "proposedImage": "/images/products/smartphones/samsung-samsung-galaxy-s22-ultra-68.jpg",
+    "found": true
+  },
+  {
+    "id": "samsung-samsung-galaxy-s23-80",
+    "name": "Samsung Galaxy S23",
+    "currentImage": "/images/phones/samsung/samsung-galaxy-s23.svg",
+    "proposedImage": "/images/products/smartphones/samsung-samsung-galaxy-s23-80.jpg",
+    "found": true
+  },
+  {
+    "id": "samsung-samsung-galaxy-s23-81",
+    "name": "Samsung Galaxy S23+",
+    "currentImage": "/images/phones/samsung/samsung-galaxy-s23-plus.svg",
+    "proposedImage": "/images/products/smartphones/samsung-samsung-galaxy-s23-81.jpg",
+    "found": true
+  },
+  {
+    "id": "samsung-samsung-galaxy-s23-ultra-82",
+    "name": "Samsung Galaxy S23 Ultra",
+    "currentImage": "/images/phones/samsung/samsung-galaxy-s23-ultra.svg",
+    "proposedImage": "/images/products/smartphones/samsung-samsung-galaxy-s23-ultra-82.jpg",
+    "found": true
+  },
+  {
+    "id": "samsung-samsung-galaxy-s23-fe-83",
+    "name": "Samsung Galaxy S23 FE",
+    "currentImage": "/images/phones/samsung/samsung-galaxy-s23-fe.svg",
+    "proposedImage": "/images/products/smartphones/samsung-samsung-galaxy-s23-fe-83.jpg",
+    "found": true
+  },
+  {
+    "id": "samsung-samsung-galaxy-a34-5g-88",
+    "name": "Samsung Galaxy A34 5G",
+    "currentImage": "/images/phones/samsung/samsung-galaxy-a34-5g.svg",
+    "proposedImage": "/images/products/smartphones/samsung-samsung-galaxy-a34-5g-88.jpg",
+    "found": true
+  },
+  {
+    "id": "samsung-samsung-galaxy-a54-5g-89",
+    "name": "Samsung Galaxy A54 5G",
+    "currentImage": "/images/phones/samsung/samsung-galaxy-a54-5g.svg",
+    "proposedImage": "/images/products/smartphones/samsung-samsung-galaxy-a54-5g-89.jpg",
+    "found": true
+  },
+  {
+    "id": "samsung-samsung-galaxy-s24-93",
+    "name": "Samsung Galaxy S24",
+    "currentImage": "/images/phones/samsung/samsung-galaxy-s24.svg",
+    "proposedImage": "/images/products/smartphones/samsung-samsung-galaxy-s24-93.jpg",
+    "found": true
+  },
+  {
+    "id": "samsung-samsung-galaxy-s24-94",
+    "name": "Samsung Galaxy S24+",
+    "currentImage": "/images/phones/samsung/samsung-galaxy-s24-plus.svg",
+    "proposedImage": "/images/products/smartphones/samsung-samsung-galaxy-s24-94.jpg",
+    "found": true
+  },
+  {
+    "id": "samsung-samsung-galaxy-s24-ultra-95",
+    "name": "Samsung Galaxy S24 Ultra",
+    "currentImage": "/images/phones/samsung/samsung-galaxy-s24-ultra.svg",
+    "proposedImage": "/images/products/smartphones/samsung-samsung-galaxy-s24-ultra-95.jpg",
+    "found": true
+  },
+  {
+    "id": "samsung-samsung-galaxy-s24-fe-96",
+    "name": "Samsung Galaxy S24 FE",
+    "currentImage": "/images/phones/samsung/samsung-galaxy-s24-fe.svg",
+    "proposedImage": "/images/products/smartphones/samsung-samsung-galaxy-s24-fe-96.jpg",
+    "found": true
+  },
+  {
+    "id": "samsung-samsung-galaxy-z-flip-6-97",
+    "name": "Samsung Galaxy Z Flip 6",
+    "currentImage": "/images/phones/samsung/samsung-galaxy-z-flip6.svg",
+    "proposedImage": "/images/products/smartphones/samsung-samsung-galaxy-z-flip-6-97.jpg",
+    "found": true
+  },
+  {
+    "id": "samsung-samsung-galaxy-z-fold-6-98",
+    "name": "Samsung Galaxy Z Fold 6",
+    "currentImage": "/images/phones/samsung/samsung-galaxy-z-fold6.svg",
+    "proposedImage": "/images/products/smartphones/samsung-samsung-galaxy-z-fold-6-98.jpg",
+    "found": true
+  },
+  {
+    "id": "samsung-samsung-galaxy-a05-99",
+    "name": "Samsung Galaxy A05",
+    "currentImage": "/images/phones/samsung/samsung-galaxy-a05s.svg",
+    "proposedImage": "/images/products/smartphones/samsung-samsung-galaxy-a05-99.jpg",
+    "found": true
+  },
+  {
+    "id": "samsung-samsung-galaxy-a15-100",
+    "name": "Samsung Galaxy A15",
+    "currentImage": "/images/phones/samsung/samsung-galaxy-a15.svg",
+    "proposedImage": "/images/products/smartphones/samsung-samsung-galaxy-a15-100.jpg",
+    "found": true
+  },
+  {
+    "id": "samsung-samsung-galaxy-a25-5g-101",
+    "name": "Samsung Galaxy A25 5G",
+    "currentImage": "/images/phones/samsung/samsung-galaxy-a25-5g.svg",
+    "proposedImage": "/images/products/smartphones/samsung-samsung-galaxy-a25-5g-101.jpg",
+    "found": true
+  },
+  {
+    "id": "samsung-samsung-galaxy-a35-5g-102",
+    "name": "Samsung Galaxy A35 5G",
+    "currentImage": "/images/phones/samsung/samsung-galaxy-a35-5g.svg",
+    "proposedImage": "/images/products/smartphones/samsung-samsung-galaxy-a35-5g-102.jpg",
+    "found": true
+  },
+  {
+    "id": "samsung-samsung-galaxy-a55-5g-103",
+    "name": "Samsung Galaxy A55 5G",
+    "currentImage": "/images/phones/samsung/samsung-galaxy-a55-5g.svg",
+    "proposedImage": "/images/products/smartphones/samsung-samsung-galaxy-a55-5g-103.jpg",
+    "found": true
+  },
+  {
+    "id": "samsung-samsung-galaxy-m35-5g-105",
+    "name": "Samsung Galaxy M35 5G",
+    "currentImage": "/images/phones/samsung/samsung-galaxy-m35-5g.svg",
+    "proposedImage": "/images/products/smartphones/samsung-samsung-galaxy-m35-5g-105.jpg",
+    "found": true
+  },
+  {
+    "id": "samsung-samsung-galaxy-m55-5g-106",
+    "name": "Samsung Galaxy M55 5G",
+    "currentImage": "/images/phones/samsung/samsung-galaxy-m55-5g.svg",
+    "proposedImage": "/images/products/smartphones/samsung-samsung-galaxy-m55-5g-106.jpg",
+    "found": true
+  },
+  {
+    "id": "samsung-samsung-galaxy-s25-107",
+    "name": "Samsung Galaxy S25",
+    "currentImage": "/images/phones/samsung/samsung-galaxy-s25.svg",
+    "proposedImage": "/images/phones/samsung/samsung-galaxy-s25-fe.jpg",
+    "found": true
+  },
+  {
+    "id": "samsung-samsung-galaxy-s25-108",
+    "name": "Samsung Galaxy S25+",
+    "currentImage": "/images/phones/samsung/samsung-galaxy-s25-plus.svg",
+    "proposedImage": "/images/phones/samsung/samsung-galaxy-s25-plus-sm-s936.jpg",
+    "found": true
+  },
+  {
+    "id": "samsung-samsung-galaxy-s25-ultra-109",
+    "name": "Samsung Galaxy S25 Ultra",
+    "currentImage": "/images/phones/samsung/samsung-galaxy-s25-ultra.svg",
+    "proposedImage": "/images/phones/samsung/samsung-galaxy-s25-ultra-sm-s938.jpg",
+    "found": true
+  },
+  {
+    "id": "samsung-samsung-galaxy-s25-fe-110",
+    "name": "Samsung Galaxy S25 FE",
+    "currentImage": "/images/phones/samsung/samsung-galaxy-s25-fe.svg",
+    "proposedImage": "/images/phones/samsung/samsung-galaxy-s25-fe.jpg",
+    "found": true
+  },
+  {
+    "id": "samsung-galaxy-s25-ultra",
+    "name": "Samsung Galaxy S25 Ultra (256 GB)",
+    "currentImage": "/images/phones/samsung/samsung-galaxy-s25-ultra.svg",
+    "proposedImage": "/images/phones/samsung/samsung-galaxy-s25-ultra-sm-s938.jpg",
+    "found": true
+  },
+  {
+    "id": "samsung-galaxy-s25-plus",
+    "name": "Samsung Galaxy S25+ (256 GB)",
+    "currentImage": "/images/phones/samsung/samsung-galaxy-s25-plus.svg",
+    "proposedImage": "/images/phones/samsung/samsung-galaxy-s25-plus-sm-s936.jpg",
+    "found": true
+  },
+  {
+    "id": "samsung-galaxy-s25",
+    "name": "Samsung Galaxy S25 (128 GB)",
+    "currentImage": "/images/phones/samsung/samsung-galaxy-s25.svg",
+    "proposedImage": "/images/phones/samsung/samsung-galaxy-s25-fe.jpg",
+    "found": true
+  },
+  {
+    "id": "samsung-galaxy-s25-fe",
+    "name": "Samsung Galaxy S25 FE (128 GB)",
+    "currentImage": "/images/phones/samsung/samsung-galaxy-s25-fe.svg",
+    "proposedImage": "/images/phones/samsung/samsung-galaxy-s25-fe.jpg",
+    "found": true
+  }
+]
