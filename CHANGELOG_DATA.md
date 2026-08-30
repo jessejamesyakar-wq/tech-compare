@@ -108,3 +108,11 @@
 - **Gerekçe:** User requested pulling official photos directly from Epey for gold-standard Turkish tech product presentation.
 
 ---
+
+### Applied Official Epey Studio Photos for 17 Galaxy A Series Phones
+- **Tarih:** 2026-08-30 23:27
+- **Etkilenen Dosyalar:** `src/lib/smartphonesData.json`, `public/images/phones/samsung/epey/`
+- **Yapılan Değişiklik:** Replaced monotone light blue promotional images across the Galaxy A series with authentic, dual-angle neutral studio photos directly from Epey (A55, A35, A15, A05s, A54, A73, A23, A13, A72, A52s, A52, A12, A71, A51, A50, A30, A20).
+- **Gerekçe:** User requested replacing monotone blue promotional renders with diverse, authentic Epey dual-angle studio product photography.
+
+---
