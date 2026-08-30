@@ -1,0 +1,474 @@
+{
+  "generatedAt": "2026-08-30T17:47:42.916Z",
+  "totalFallbacks": 52,
+  "items": [
+    {
+      "productId": "apple-apple-iphone-17e-512-gb-1048094",
+      "productSlug": "apple-iphone-17e-512-gb",
+      "productName": "Apple iPhone 17e (512 GB)",
+      "category": "smartphones",
+      "brand": "Apple",
+      "currentImage": "/images/phones/apple/apple-iphone-17e.jpg",
+      "reason": "Üründe GTIN veya Parça Kodu (Part Code) tespit edilemedi, manuel görsel gerektiriyor."
+    },
+    {
+      "productId": "apple-apple-iphone-17e-256-gb-1048093",
+      "productSlug": "apple-iphone-17e-256-gb",
+      "productName": "Apple iPhone 17e (256 GB)",
+      "category": "smartphones",
+      "brand": "Apple",
+      "currentImage": "/images/phones/apple/apple-iphone-17e.jpg",
+      "reason": "Üründe GTIN veya Parça Kodu (Part Code) tespit edilemedi, manuel görsel gerektiriyor."
+    },
+    {
+      "productId": "apple-apple-iphone-17e-128-gb-1048092",
+      "productSlug": "apple-iphone-17e-128-gb",
+      "productName": "Apple iPhone 17e (128 GB)",
+      "category": "smartphones",
+      "brand": "Apple",
+      "currentImage": "/images/phones/apple/apple-iphone-17e.jpg",
+      "reason": "Üründe GTIN veya Parça Kodu (Part Code) tespit edilemedi, manuel görsel gerektiriyor."
+    },
+    {
+      "productId": "apple-apple-iphone-air-1-tb-1027085",
+      "productSlug": "apple-iphone-air-1-tb",
+      "productName": "Apple iPhone Air (1 TB)",
+      "category": "smartphones",
+      "brand": "Apple",
+      "currentImage": "/images/phones/apple/apple-iphone-16.jpg",
+      "reason": "Üründe GTIN veya Parça Kodu (Part Code) tespit edilemedi, manuel görsel gerektiriyor."
+    },
+    {
+      "productId": "apple-apple-iphone-air-512-gb-1027084",
+      "productSlug": "apple-iphone-air-512-gb",
+      "productName": "Apple iPhone Air (512 GB)",
+      "category": "smartphones",
+      "brand": "Apple",
+      "currentImage": "/images/phones/apple/apple-iphone-12.jpg",
+      "reason": "Üründe GTIN veya Parça Kodu (Part Code) tespit edilemedi, manuel görsel gerektiriyor."
+    },
+    {
+      "productId": "apple-apple-iphone-air-256-gb-1027083",
+      "productSlug": "apple-iphone-air-256-gb",
+      "productName": "Apple iPhone Air (256 GB)",
+      "category": "smartphones",
+      "brand": "Apple",
+      "currentImage": "/images/phones/apple/apple-iphone-6.jpg",
+      "reason": "Üründe GTIN veya Parça Kodu (Part Code) tespit edilemedi, manuel görsel gerektiriyor."
+    },
+    {
+      "productId": "apple-apple-iphone-17-512-gb-1027085",
+      "productSlug": "apple-iphone-17-512-gb",
+      "productName": "Apple iPhone 17 (512 GB)",
+      "category": "smartphones",
+      "brand": "Apple",
+      "currentImage": "/images/phones/apple/apple-iphone-17.jpg",
+      "reason": "Üründe GTIN veya Parça Kodu (Part Code) tespit edilemedi, manuel görsel gerektiriyor."
+    },
+    {
+      "productId": "apple-apple-iphone-17-256-gb-1027084",
+      "productSlug": "apple-iphone-17-256-gb",
+      "productName": "Apple iPhone 17 (256 GB)",
+      "category": "smartphones",
+      "brand": "Apple",
+      "currentImage": "/images/phones/apple/apple-iphone-17.jpg",
+      "reason": "Üründe GTIN veya Parça Kodu (Part Code) tespit edilemedi, manuel görsel gerektiriyor."
+    },
+    {
+      "productId": "apple-apple-iphone-17-128-gb-1023347",
+      "productSlug": "apple-iphone-17-128-gb",
+      "productName": "Apple iPhone 17 (128 GB)",
+      "category": "smartphones",
+      "brand": "Apple",
+      "currentImage": "/images/phones/apple/apple-iphone-17.jpg",
+      "reason": "Üründe GTIN veya Parça Kodu (Part Code) tespit edilemedi, manuel görsel gerektiriyor."
+    },
+    {
+      "productId": "apple-apple-iphone-17-pro-max-2-tb-1027080",
+      "productSlug": "apple-iphone-17-pro-max-2-tb",
+      "productName": "Apple iPhone 17 Pro Max (2 TB)",
+      "category": "smartphones",
+      "brand": "Apple",
+      "currentImage": "/images/phones/apple/apple-iphone-17-pro-max.jpg",
+      "reason": "Üründe GTIN veya Parça Kodu (Part Code) tespit edilemedi, manuel görsel gerektiriyor."
+    },
+    {
+      "productId": "lg-75qned80a6a",
+      "productSlug": "lg-75qned80a6a",
+      "productName": "LG 75QNED80A6A 75\" 189 Ekran 4K QNED webOS Smart TV",
+      "category": "tvs",
+      "brand": "LG",
+      "currentImage": "/images/products/tvs/lg-75qned80a6a.jpg",
+      "reason": "Üründe GTIN veya Parça Kodu (Part Code) tespit edilemedi, manuel görsel gerektiriyor."
+    },
+    {
+      "productId": "lg-75qned82a6b",
+      "productSlug": "lg-75qned82a6b",
+      "productName": "LG 75QNED82A6B 75\" 189 Ekran 4K QNED webOS Smart TV",
+      "category": "tvs",
+      "brand": "LG",
+      "currentImage": "/images/products/tvs/lg-75qned82a6b.jpg",
+      "reason": "Üründe GTIN veya Parça Kodu (Part Code) tespit edilemedi, manuel görsel gerektiriyor."
+    },
+    {
+      "productId": "lg-86ut81006la",
+      "productSlug": "lg-86ut81006la",
+      "productName": "LG 86UT81006LA 86\" 218 Ekran 4K UHD LED webOS Smart TV",
+      "category": "tvs",
+      "brand": "LG",
+      "currentImage": "/images/products/tvs/lg-86ut81006la.jpg",
+      "reason": "Üründe GTIN veya Parça Kodu (Part Code) tespit edilemedi, manuel görsel gerektiriyor."
+    },
+    {
+      "productId": "lg-75qned80t6a",
+      "productSlug": "lg-75qned80t6a",
+      "productName": "LG 75QNED80T6A 75\" 189 Ekran 4K QNED 120Hz webOS Smart TV",
+      "category": "tvs",
+      "brand": "LG",
+      "currentImage": "/images/products/tvs/lg-75qned80t6a.jpg",
+      "reason": "Üründe GTIN veya Parça Kodu (Part Code) tespit edilemedi, manuel görsel gerektiriyor."
+    },
+    {
+      "productId": "lg-75qned816re",
+      "productSlug": "lg-75qned816re",
+      "productName": "LG 75QNED816RE 75\" 189 Ekran 4K QNED 120Hz webOS Smart TV",
+      "category": "tvs",
+      "brand": "LG",
+      "currentImage": "/images/products/tvs/lg-75qned816re.jpg",
+      "reason": "Üründe GTIN veya Parça Kodu (Part Code) tespit edilemedi, manuel görsel gerektiriyor."
+    },
+    {
+      "productId": "lg-86qned80t6a",
+      "productSlug": "lg-86qned80t6a",
+      "productName": "LG 86QNED80T6A 86\" 218 Ekran 4K QNED 120Hz webOS Smart TV",
+      "category": "tvs",
+      "brand": "LG",
+      "currentImage": "/images/products/tvs/lg-86qned80t6a.jpg",
+      "reason": "Üründe GTIN veya Parça Kodu (Part Code) tespit edilemedi, manuel görsel gerektiriyor."
+    },
+    {
+      "productId": "lg-oled48a16la",
+      "productSlug": "lg-oled48a16la",
+      "productName": "LG OLED48A16LA 48\" 121 Ekran 4K OLED webOS Smart TV",
+      "category": "tvs",
+      "brand": "LG",
+      "currentImage": "/images/products/tvs/lg-oled48a16la.jpg",
+      "reason": "Üründe GTIN veya Parça Kodu (Part Code) tespit edilemedi, manuel görsel gerektiriyor."
+    },
+    {
+      "productId": "lg-oled65b46la",
+      "productSlug": "lg-oled65b46la",
+      "productName": "LG OLED65B46LA 65\" 165 Ekran 4K OLED 120Hz webOS Smart TV (2024)",
+      "category": "tvs",
+      "brand": "LG",
+      "currentImage": "/images/products/tvs/lg-oled65b46la.jpg",
+      "reason": "Üründe GTIN veya Parça Kodu (Part Code) tespit edilemedi, manuel görsel gerektiriyor."
+    },
+    {
+      "productId": "philips-m9-plus",
+      "productSlug": "philips-m9-plus",
+      "productName": "Philips M9 Plus 10.1\" FHD IPS 4G LTE Tablet (32GB)",
+      "category": "tablets",
+      "brand": "Philips",
+      "currentImage": "/images/tablets/philips-m9-plus.jpg",
+      "reason": "Üründe GTIN veya Parça Kodu (Part Code) tespit edilemedi, manuel görsel gerektiriyor."
+    },
+    {
+      "productId": "philips-m10-pro",
+      "productSlug": "philips-m10-pro",
+      "productName": "Philips M10 Pro 4 GB RAM / 64 GB LTE Tablet",
+      "category": "tablets",
+      "brand": "Philips",
+      "currentImage": "/images/tablets/philips-m10-pro.jpg",
+      "reason": "Üründe GTIN veya Parça Kodu (Part Code) tespit edilemedi, manuel görsel gerektiriyor."
+    },
+    {
+      "productId": "oneplus-pad-3-pro-16-512",
+      "productSlug": "oneplus-pad-3-pro-16gb-512gb",
+      "productName": "OnePlus Pad 3 Pro 16 GB / 512 GB",
+      "category": "tablets",
+      "brand": "OnePlus",
+      "currentImage": "/images/tablets/oneplus-1061679.jpg",
+      "reason": "Üründe GTIN veya Parça Kodu (Part Code) tespit edilemedi, manuel görsel gerektiriyor."
+    },
+    {
+      "productId": "oneplus-pad-4-12-512",
+      "productSlug": "oneplus-pad-4-12gb-512gb",
+      "productName": "OnePlus Pad 4 12 GB / 512 GB",
+      "category": "tablets",
+      "brand": "OnePlus",
+      "currentImage": "/images/tablets/oneplus-1056879.png",
+      "reason": "Üründe GTIN veya Parça Kodu (Part Code) tespit edilemedi, manuel görsel gerektiriyor."
+    },
+    {
+      "productId": "oneplus-pad-3-pro-12-512",
+      "productSlug": "oneplus-pad-3-pro-12gb-512gb",
+      "productName": "OnePlus Pad 3 Pro 12 GB / 512 GB",
+      "category": "tablets",
+      "brand": "OnePlus",
+      "currentImage": "/images/tablets/oneplus-1061678.jpg",
+      "reason": "Üründe GTIN veya Parça Kodu (Part Code) tespit edilemedi, manuel görsel gerektiriyor."
+    },
+    {
+      "productId": "oneplus-pad-3-pro-12-256",
+      "productSlug": "oneplus-pad-3-pro-12gb-256gb",
+      "productName": "OnePlus Pad 3 Pro 12 GB / 256 GB",
+      "category": "tablets",
+      "brand": "OnePlus",
+      "currentImage": "/images/tablets/oneplus-1061633.jpg",
+      "reason": "Üründe GTIN veya Parça Kodu (Part Code) tespit edilemedi, manuel görsel gerektiriyor."
+    },
+    {
+      "productId": "oneplus-pad-4-8-256",
+      "productSlug": "oneplus-pad-4-8gb-256gb",
+      "productName": "OnePlus Pad 4 8 GB / 256 GB",
+      "category": "tablets",
+      "brand": "OnePlus",
+      "currentImage": "/images/tablets/oneplus-1056877.png",
+      "reason": "Üründe GTIN veya Parça Kodu (Part Code) tespit edilemedi, manuel görsel gerektiriyor."
+    },
+    {
+      "productId": "apple-watch-s10-46mm-alu-gps-jetblack-sport",
+      "productSlug": "apple-watch-s10-46mm-alu-gps-jetblack-sport",
+      "productName": "Apple Watch Series 10 (46mm Simsiyah Alüminyum GPS - Spor Kordon)",
+      "category": "smartwatches",
+      "brand": "Apple",
+      "currentImage": "/images/smartwatches/apple/apple-watch-series-10-46mm.jpg",
+      "reason": "Üründe GTIN veya Parça Kodu (Part Code) tespit edilemedi, manuel görsel gerektiriyor."
+    },
+    {
+      "productId": "apple-watch-s10-46mm-alu-gps-silver-loop",
+      "productSlug": "apple-watch-s10-46mm-alu-gps-silver-loop",
+      "productName": "Apple Watch Series 10 (46mm Gümüş Alüminyum GPS - Spor Loop)",
+      "category": "smartwatches",
+      "brand": "Apple",
+      "currentImage": "/images/smartwatches/apple/apple-watch-series-10-46mm.jpg",
+      "reason": "Üründe GTIN veya Parça Kodu (Part Code) tespit edilemedi, manuel görsel gerektiriyor."
+    },
+    {
+      "productId": "apple-watch-s10-46mm-alu-gps-rosegold-sport",
+      "productSlug": "apple-watch-s10-46mm-alu-gps-rosegold-sport",
+      "productName": "Apple Watch Series 10 (46mm Rose Gold Alüminyum GPS - Spor Kordon)",
+      "category": "smartwatches",
+      "brand": "Apple",
+      "currentImage": "/images/smartwatches/apple/apple-watch-series-10-46mm.jpg",
+      "reason": "Üründe GTIN veya Parça Kodu (Part Code) tespit edilemedi, manuel görsel gerektiriyor."
+    },
+    {
+      "productId": "apple-watch-s10-46mm-alu-cell-jetblack",
+      "productSlug": "apple-watch-s10-46mm-alu-cell-jetblack",
+      "productName": "Apple Watch Series 10 (46mm Simsiyah Alüminyum GPS + Cellular)",
+      "category": "smartwatches",
+      "brand": "Apple",
+      "currentImage": "/images/smartwatches/apple/apple-watch-series-10-46mm.jpg",
+      "reason": "Üründe GTIN veya Parça Kodu (Part Code) tespit edilemedi, manuel görsel gerektiriyor."
+    },
+    {
+      "productId": "apple-watch-s10-46mm-alu-cell-silver",
+      "productSlug": "apple-watch-s10-46mm-alu-cell-silver",
+      "productName": "Apple Watch Series 10 (46mm Gümüş Alüminyum GPS + Cellular)",
+      "category": "smartwatches",
+      "brand": "Apple",
+      "currentImage": "/images/smartwatches/apple/apple-watch-series-10-46mm.jpg",
+      "reason": "Üründe GTIN veya Parça Kodu (Part Code) tespit edilemedi, manuel görsel gerektiriyor."
+    },
+    {
+      "productId": "apple-watch-s10-46mm-ti-cell-natural-link",
+      "productSlug": "apple-watch-s10-46mm-ti-cell-natural-link",
+      "productName": "Apple Watch Series 10 (46mm Doğal Titanyum GPS + Cellular - Manyetik Link)",
+      "category": "smartwatches",
+      "brand": "Apple",
+      "currentImage": "/images/smartwatches/apple/apple-watch-series-10-46mm.jpg",
+      "reason": "Üründe GTIN veya Parça Kodu (Part Code) tespit edilemedi, manuel görsel gerektiriyor."
+    },
+    {
+      "productId": "apple-watch-s10-46mm-ti-cell-gold-milanese",
+      "productSlug": "apple-watch-s10-46mm-ti-cell-gold-milanese",
+      "productName": "Apple Watch Series 10 (46mm Altın Titanyum GPS + Cellular - Milano Loop)",
+      "category": "smartwatches",
+      "brand": "Apple",
+      "currentImage": "/images/smartwatches/apple/apple-watch-series-10-46mm.jpg",
+      "reason": "Üründe GTIN veya Parça Kodu (Part Code) tespit edilemedi, manuel görsel gerektiriyor."
+    },
+    {
+      "productId": "apple-watch-s10-46mm-ti-cell-slate-sport",
+      "productSlug": "apple-watch-s10-46mm-ti-cell-slate-sport",
+      "productName": "Apple Watch Series 10 (46mm Arduvaz Titanyum GPS + Cellular - Spor Kordon)",
+      "category": "smartwatches",
+      "brand": "Apple",
+      "currentImage": "/images/smartwatches/apple/apple-watch-series-10-46mm.jpg",
+      "reason": "Üründe GTIN veya Parça Kodu (Part Code) tespit edilemedi, manuel görsel gerektiriyor."
+    },
+    {
+      "productId": "apple-watch-s10-42mm-alu-gps-jetblack",
+      "productSlug": "apple-watch-s10-42mm-alu-gps-jetblack",
+      "productName": "Apple Watch Series 10 (42mm Simsiyah Alüminyum GPS - Spor Kordon)",
+      "category": "smartwatches",
+      "brand": "Apple",
+      "currentImage": "/images/smartwatches/apple/apple-watch-series-10-42mm.jpg",
+      "reason": "Üründe GTIN veya Parça Kodu (Part Code) tespit edilemedi, manuel görsel gerektiriyor."
+    },
+    {
+      "productId": "apple-watch-s10-42mm-alu-gps-rosegold",
+      "productSlug": "apple-watch-s10-42mm-alu-gps-rosegold",
+      "productName": "Apple Watch Series 10 (42mm Rose Gold Alüminyum GPS - Spor Loop)",
+      "category": "smartwatches",
+      "brand": "Apple",
+      "currentImage": "/images/smartwatches/apple/apple-watch-series-10-42mm.jpg",
+      "reason": "Üründe GTIN veya Parça Kodu (Part Code) tespit edilemedi, manuel görsel gerektiriyor."
+    },
+    {
+      "productId": "steelseries-arctis-1",
+      "productSlug": "steelseries-arctis-1",
+      "productName": "SteelSeries Arctis 1 ClearCast Mikrofonlu Çok Platformlu Gaming Kulaklık",
+      "category": "headphones",
+      "brand": "SteelSeries",
+      "currentImage": "/images/headphones/steelseries-arctis-1.png",
+      "reason": "Üründe GTIN veya Parça Kodu (Part Code) tespit edilemedi, manuel görsel gerektiriyor."
+    },
+    {
+      "productId": "jabra-biz-1500-duo-usb",
+      "productSlug": "jabra-biz-1500-duo-usb",
+      "productName": "Jabra BIZ 1500 Duo USB Stereo Profesyonel Çağrı Merkezi Kulaklığı",
+      "category": "headphones",
+      "brand": "Jabra",
+      "currentImage": "/images/headphones/jabra-biz-1500-duo-usb.jpg",
+      "reason": "Üründe GTIN veya Parça Kodu (Part Code) tespit edilemedi, manuel görsel gerektiriyor."
+    },
+    {
+      "productId": "jabra-biz-1500-mono-usb",
+      "productSlug": "jabra-biz-1500-mono-usb",
+      "productName": "Jabra BIZ 1500 Mono USB Tek Kulak Çağrı Merkezi Kulaklığı",
+      "category": "headphones",
+      "brand": "Jabra",
+      "currentImage": "/images/headphones/jabra-biz-1500-mono-usb.jpg",
+      "reason": "Üründe GTIN veya Parça Kodu (Part Code) tespit edilemedi, manuel görsel gerektiriyor."
+    },
+    {
+      "productId": "steelseries-tusq",
+      "productSlug": "steelseries-tusq",
+      "productName": "SteelSeries Tusq Çift Mikrofonlu Profesyonel Gaming Kulak İçi Kulaklık",
+      "category": "headphones",
+      "brand": "SteelSeries",
+      "currentImage": "/images/headphones/steelseries-tusq.jpg",
+      "reason": "Üründe GTIN veya Parça Kodu (Part Code) tespit edilemedi, manuel görsel gerektiriyor."
+    },
+    {
+      "productId": "jabra-evolve-20-mono",
+      "productSlug": "jabra-evolve-20-mono",
+      "productName": "Jabra Evolve 20 Mono Tek Kulak Profesyonel Ofis Kulaklığı",
+      "category": "headphones",
+      "brand": "Jabra",
+      "currentImage": "/images/headphones/jabra-evolve-20-mono.jpg",
+      "reason": "Üründe GTIN veya Parça Kodu (Part Code) tespit edilemedi, manuel görsel gerektiriyor."
+    },
+    {
+      "productId": "jabra-evolve-20-duo",
+      "productSlug": "jabra-evolve-20-duo",
+      "productName": "Jabra Evolve 20 Duo Stereo Profesyonel Ofis Kulaklığı",
+      "category": "headphones",
+      "brand": "Jabra",
+      "currentImage": "/images/headphones/jabra-evolve-20-duo.png",
+      "reason": "Üründe GTIN veya Parça Kodu (Part Code) tespit edilemedi, manuel görsel gerektiriyor."
+    },
+    {
+      "productId": "asus-tuf-gaming-vg279qm",
+      "productSlug": "asus-tuf-gaming-vg279qm",
+      "productName": "Asus TUF Gaming VG279QM 27 inç 280Hz 1ms FHD Fast IPS Pivot Gaming Monitör",
+      "category": "monitors",
+      "brand": "Asus",
+      "currentImage": "/images/monitors/asus-tuf-gaming-vg279qm.jpg",
+      "reason": "Üründe GTIN veya Parça Kodu (Part Code) tespit edilemedi, manuel görsel gerektiriyor."
+    },
+    {
+      "productId": "aoc-agon-ag275qxn-eu",
+      "productSlug": "aoc-agon-ag275qxn-eu",
+      "productName": "AOC AGON AG275QXN/EU 27 inç 165Hz 1ms WQHD Fast VA DisplayHDR 400 Pivot",
+      "category": "monitors",
+      "brand": "AOC",
+      "currentImage": "/images/monitors/aoc-agon-ag275qxn-eu.jpg",
+      "reason": "Üründe GTIN veya Parça Kodu (Part Code) tespit edilemedi, manuel görsel gerektiriyor."
+    },
+    {
+      "productId": "asus-tuf-gaming-vg27aq",
+      "productSlug": "asus-tuf-gaming-vg27aq",
+      "productName": "Asus TUF Gaming VG27AQ 27 inç 165Hz 1ms WQHD IPS G-Sync Pivot Gaming",
+      "category": "monitors",
+      "brand": "Asus",
+      "currentImage": "/images/monitors/asus-tuf-gaming-vg27aq.jpg",
+      "reason": "Üründe GTIN veya Parça Kodu (Part Code) tespit edilemedi, manuel görsel gerektiriyor."
+    },
+    {
+      "productId": "console-960253",
+      "productSlug": "sony-sony-playstation-5-pro-ps5-pro-2tb-ssd-oyun-konsolu-960253",
+      "productName": "Sony PlayStation 5 Pro (PS5 Pro) 2TB SSD Oyun Konsolu",
+      "category": "consoles",
+      "brand": "Sony",
+      "currentImage": "/images/consoles/960253.jpg",
+      "reason": "Üründe GTIN veya Parça Kodu (Part Code) tespit edilemedi, manuel görsel gerektiriyor."
+    },
+    {
+      "productId": "console-908887",
+      "productSlug": "sony-sony-playstation-5-slim-1tb-blu-ray-s-r-c-l-oyun-konsolu-cfi-2000a01-908887",
+      "productName": "Sony PlayStation 5 Slim 1TB Blu-ray Sürücülü Oyun Konsolu (CFI-2000A01)",
+      "category": "consoles",
+      "brand": "Sony",
+      "currentImage": "/images/consoles/908887.jpg",
+      "reason": "Üründe GTIN veya Parça Kodu (Part Code) tespit edilemedi, manuel görsel gerektiriyor."
+    },
+    {
+      "productId": "console-908934",
+      "productSlug": "sony-sony-playstation-5-slim-digital-edition-1tb-oyun-konsolu-cfi-2000b01-908934",
+      "productName": "Sony PlayStation 5 Slim Digital Edition 1TB Oyun Konsolu (CFI-2000B01)",
+      "category": "consoles",
+      "brand": "Sony",
+      "currentImage": "/images/consoles/908934.jpg",
+      "reason": "Üründe GTIN veya Parça Kodu (Part Code) tespit edilemedi, manuel görsel gerektiriyor."
+    },
+    {
+      "productId": "console-1024535",
+      "productSlug": "asus-asus-rog-xbox-ally-x-el-konsolu-amd-ryzen-ai-z2-extreme-rc73xa-1024535",
+      "productName": "Asus ROG Xbox Ally X El Konsolu AMD Ryzen AI Z2 Extreme (RC73XA)",
+      "category": "consoles",
+      "brand": "Asus",
+      "currentImage": "/images/consoles/1024535.jpg",
+      "reason": "Üründe GTIN veya Parça Kodu (Part Code) tespit edilemedi, manuel görsel gerektiriyor."
+    },
+    {
+      "productId": "console-975529",
+      "productSlug": "msi-msi-claw-8-ai-el-konsolu-intel-core-ultra-7-258v-claw8a2001-975529",
+      "productName": "MSI Claw 8 AI+ El Konsolu Intel Core Ultra 7 258V (CLAW8A2001)",
+      "category": "consoles",
+      "brand": "MSI",
+      "currentImage": "/images/consoles/975529.jpg",
+      "reason": "Üründe GTIN veya Parça Kodu (Part Code) tespit edilemedi, manuel görsel gerektiriyor."
+    },
+    {
+      "productId": "console-1042179",
+      "productSlug": "msi-msi-claw-a8-el-konsolu-amd-ryzen-z2-extreme-bz2em-024tr-1042179",
+      "productName": "MSI Claw A8 El Konsolu AMD Ryzen Z2 Extreme (BZ2EM-024TR)",
+      "category": "consoles",
+      "brand": "MSI",
+      "currentImage": "/images/consoles/1042179.jpg",
+      "reason": "Üründe GTIN veya Parça Kodu (Part Code) tespit edilemedi, manuel görsel gerektiriyor."
+    },
+    {
+      "productId": "console-902784",
+      "productSlug": "asus-asus-rog-ally-2023-512gb-amd-ryzen-z1-extreme-rc71l-nh021-902784",
+      "productName": "Asus ROG Ally 2023 512GB AMD Ryzen Z1 Extreme (RC71L-NH021)",
+      "category": "consoles",
+      "brand": "Asus",
+      "currentImage": "/images/consoles/902784.jpg",
+      "reason": "Üründe GTIN veya Parça Kodu (Part Code) tespit edilemedi, manuel görsel gerektiriyor."
+    },
+    {
+      "productId": "console-1024538",
+      "productSlug": "asus-asus-rog-xbox-ally-amd-ryzen-z2-a-512gb-el-konsolu-rc73ya-1024538",
+      "productName": "Asus ROG Xbox Ally AMD Ryzen Z2 A 512GB El Konsolu (RC73YA)",
+      "category": "consoles",
+      "brand": "Asus",
+      "currentImage": "/images/consoles/1024538.jpg",
+      "reason": "Üründe GTIN veya Parça Kodu (Part Code) tespit edilemedi, manuel görsel gerektiriyor."
+    }
+  ]
+}
