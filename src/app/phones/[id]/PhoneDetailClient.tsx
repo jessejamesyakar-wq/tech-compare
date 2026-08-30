@@ -114,7 +114,7 @@ export default function PhoneDetailClient({ initialPhone }: { initialPhone: Smar
               <div>
                 <span className="text-xs text-slate-500 block">{t.startingFrom}</span>
                 <span className="text-2xl sm:text-3xl font-black text-emerald-600">
-                  {phone.basePrice > 0 ? `${phone.basePrice.toLocaleString()} ${phone.currency}` : 'Fiyat Güncelleniyor'}
+                  {(((phone.storeOffers && phone.storeOffers.length > 0 && Math.min(...phone.storeOffers.map(o => o.price).filter(p => p > 0)) > 0) ? Math.min(...phone.storeOffers.map(o => o.price).filter(p => p > 0)) : phone.basePrice) > 0 ? `${((phone.storeOffers && phone.storeOffers.length > 0 && Math.min(...phone.storeOffers.map(o => o.price).filter(p => p > 0)) > 0) ? Math.min(...phone.storeOffers.map(o => o.price).filter(p => p > 0)) : phone.basePrice).toLocaleString()} ${phone.currency}` : 'Fiyat Güncelleniyor')}
                 </span>
               </div>
 

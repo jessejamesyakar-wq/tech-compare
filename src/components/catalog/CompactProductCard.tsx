@@ -42,14 +42,21 @@ export function CompactProductCard({
   const minPrice = prices.length > 0 ? Math.min(...prices) : product.basePrice;
   const maxPrice = prices.length > 0 ? Math.max(...prices) : Math.round(product.basePrice * 1.08);
 
+  // Real deal calculation: strictly requires price drop in history (>=8%) or real multi-store spread (>=7%)
+  const historyPrices = (product.priceHistory || []).map((h) => h.price).filter((p) => p > 0);
+  const maxHistory = historyPrices.length > 0 ? Math.max(...historyPrices) : 0;
+  const isHistoryDeal = maxHistory > minPrice && ((maxHistory - minPrice) / maxHistory) >= 0.08;
+  const isSpreadDeal = prices.length > 1 && maxPrice > minPrice && ((maxPrice - minPrice) / maxPrice) >= 0.07;
+  const isRealDeal = isHistoryDeal || isSpreadDeal;
+
   const fallbackImg =
     product.category === 'appliances'
-      ? 'https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80'
+      ? '/images/products/appliances/dyson-v15-detect.jpg'
       : product.category === 'tvs'
-      ? 'https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=800&q=80'
+      ? '/images/products/tvs/lg-55qned81b6a-1.jpg'
       : product.category === 'laptops'
-      ? 'https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=800&q=80'
-      : 'https://images.unsplash.com/photo-1592899677977-9c10ca588bbd?auto=format&fit=crop&w=800&q=80';
+      ? '/images/products/laptops/apple-macbook-air-m3.jpg'
+      : '/images/products/smartphones/apple/iphone-16-pro-natural.jpg';
 
   const [imgSrc, setImgSrc] = React.useState(product.image || fallbackImg);
 
@@ -179,9 +186,15 @@ export function CompactProductCard({
             <div className="text-sm sm:text-lg font-black text-slate-900 tracking-tight tabular-nums">
               ₺{minPrice.toLocaleString()}
             </div>
-            <span className="text-[9px] font-black text-emerald-700 bg-emerald-50 px-1.5 py-0.5 rounded border border-emerald-200">
-              ⚡ AI: Fırsat Fiyat
-            </span>
+            {isRealDeal ? (
+              <span className="text-[9px] font-black text-emerald-700 bg-emerald-50 px-1.5 py-0.5 rounded border border-emerald-200">
+                ⚡ AI: Fırsat Fiyat
+              </span>
+            ) : (
+              <span className="text-[9px] font-semibold text-slate-500 bg-slate-100 px-1.5 py-0.5 rounded">
+                Piyasa Fiyatı
+              </span>
+            )}
           </div>
         </div>
 

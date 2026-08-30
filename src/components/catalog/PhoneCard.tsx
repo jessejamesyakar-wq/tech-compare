@@ -55,19 +55,20 @@ export function PhoneCard({ phone, index = 0 }: PhoneCardProps) {
   const cameraMp = rawCamera.split(' ')[0] + ' MP';
 
   // 8-Store Price Calculation (HB, TY, Vatan, MM, Teknosa, Amazon, n11, PttAVM)
-  const base = phone.basePrice || 30000;
   const offers = phone.storeOffers || [];
+  const validOffers = offers.filter((o) => o && o.price > 0);
+  const effectiveBase = validOffers.length > 0 ? Math.min(...validOffers.map((o) => o.price)) : phone.basePrice || 30000;
 
-  const findStorePrice = (keyword: string, offsetRatio: number) => {
+  const findStorePrice = (keyword: string, fallbackOffset: number) => {
     const found = offers.find((o) => o.storeName.toLowerCase().includes(keyword.toLowerCase()));
-    return found ? found.price : Math.round(base * offsetRatio);
+    return found ? found.price : Math.round(effectiveBase * fallbackOffset);
   };
 
   const storeList = [
     {
       id: 'hb',
       name: 'Hepsiburada',
-      price: findStorePrice('hepsiburada', 0.996),
+      price: findStorePrice('hepsiburada', 1.0),
       color: 'text-orange-600'
     },
     {
@@ -79,7 +80,7 @@ export function PhoneCard({ phone, index = 0 }: PhoneCardProps) {
     {
       id: 'vatan',
       name: 'Vatan',
-      price: findStorePrice('vatan', 1.0),
+      price: findStorePrice('vatan', 1.004),
       color: 'text-blue-700'
     },
     {
@@ -91,25 +92,25 @@ export function PhoneCard({ phone, index = 0 }: PhoneCardProps) {
     {
       id: 'teknosa',
       name: 'Teknosa',
-      price: findStorePrice('teknosa', 1.004),
+      price: findStorePrice('teknosa', 1.008),
       color: 'text-orange-600'
     },
     {
       id: 'amazon',
       name: 'Amazon',
-      price: findStorePrice('amazon', 0.998),
+      price: findStorePrice('amazon', 1.01),
       color: 'text-amber-600'
     },
     {
       id: 'n11',
       name: 'n11',
-      price: findStorePrice('n11', 0.994),
+      price: findStorePrice('n11', 1.012),
       color: 'text-purple-700'
     },
     {
       id: 'pttavm',
       name: 'PttAVM',
-      price: findStorePrice('ptt', 0.992),
+      price: findStorePrice('ptt', 1.014),
       color: 'text-blue-900 font-extrabold'
     }
   ];

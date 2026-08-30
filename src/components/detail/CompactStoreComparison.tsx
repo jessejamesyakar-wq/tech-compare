@@ -26,13 +26,18 @@ const REQUIRED_RETAILERS = [
 export function CompactStoreComparison({ offers = [], basePrice, currency }: CompactStoreComparisonProps) {
   const { t } = useI18n();
 
+  // Find actual lowest price among real offers or basePrice
+  const realOffers = (offers || []).filter((o) => o && o.price > 0);
+  const effectiveBasePrice =
+    realOffers.length > 0 ? Math.min(...realOffers.map((o) => o.price)) : basePrice > 0 ? basePrice : 0;
+
   /**
    * LIVE DATA INTEGRATION POINT:
-   * Maps product offers to all 8 target retailers (including n11 & PttAVM).
-   * If a live API offer is provided in `offers`, use its exact price & URL.
-   * Otherwise, dynamically calculate its live active price from `basePrice`.
+   * Maps product offers to all 8 target retailers.
+   * If a real offer is provided in `offers`, use its exact price & URL.
+   * Otherwise, calculate a realistic non-undercutting store price from effectiveBasePrice.
    */
-  const mappedStores = REQUIRED_RETAILERS.map((retailer) => {
+  const mappedStores = REQUIRED_RETAILERS.map((retailer, idx) => {
     const matchedOffer = offers.find((o) => o.storeName.toLowerCase().includes(retailer.keyword));
 
     if (matchedOffer && matchedOffer.price > 0) {
@@ -41,24 +46,28 @@ export function CompactStoreComparison({ offers = [], basePrice, currency }: Com
         price: matchedOffer.price,
         inStock: matchedOffer.inStock !== undefined ? matchedOffer.inStock : true,
         url: matchedOffer.url && matchedOffer.url !== '#' ? matchedOffer.url : retailer.defaultUrl,
-        hasData: true
+        hasData: true,
+        isReal: true
       };
     }
 
-    const activePrice = basePrice > 0 ? Math.round(basePrice * retailer.multiplier) : null;
+    // Ensure fallback never undercuts the real minimum price
+    const fallbackMultiplier = 1.0 + (idx * 0.004);
+    const activePrice = effectiveBasePrice > 0 ? Math.round(effectiveBasePrice * fallbackMultiplier) : null;
 
     return {
       ...retailer,
       price: activePrice,
       inStock: true,
       url: retailer.defaultUrl,
-      hasData: activePrice !== null && activePrice > 0
+      hasData: activePrice !== null && activePrice > 0,
+      isReal: false
     };
   });
 
   // Calculate lowest price among all active stores
   const storesWithData = mappedStores.filter((s) => s.hasData && s.price && s.price > 0);
-  const lowestPrice = storesWithData.length > 0 ? Math.min(...storesWithData.map((s) => s.price!)) : null;
+  const lowestPrice = storesWithData.length > 0 ? Math.min(...storesWithData.map((s) => s.price!)) : effectiveBasePrice;
 
   // Sort all 8 active stores lowest price first
   const sortedStores = [...mappedStores].sort((a, b) => (a.price || 0) - (b.price || 0));

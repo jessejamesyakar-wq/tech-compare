@@ -72,7 +72,14 @@ export function StickyHeaderBar({ phone }: StickyHeaderBarProps) {
           <div className="text-right hidden sm:block">
             <span className="text-[10px] text-slate-400 block">{t.startingFrom}</span>
             <span className="text-base font-black text-emerald-600">
-              {phone.basePrice ? phone.basePrice.toLocaleString() : ''} {phone.currency || 'TL'}
+              {((phone.storeOffers && phone.storeOffers.length > 0 && Math.min(...phone.storeOffers.map((o) => o.price).filter((p) => p > 0)) > 0)
+                ? Math.min(...phone.storeOffers.map((o) => o.price).filter((p) => p > 0))
+                : phone.basePrice) > 0
+                ? `${((phone.storeOffers && phone.storeOffers.length > 0 && Math.min(...phone.storeOffers.map((o) => o.price).filter((p) => p > 0)) > 0)
+                    ? Math.min(...phone.storeOffers.map((o) => o.price).filter((p) => p > 0))
+                    : phone.basePrice
+                  ).toLocaleString()} ${phone.currency || 'TL'}`
+                : ''}
             </span>
           </div>
 
