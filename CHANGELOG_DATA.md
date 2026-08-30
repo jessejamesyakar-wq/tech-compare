@@ -60,3 +60,11 @@
 - **Yapılan Değişiklik:**
   - `resim.epey.com` ve `www.lg.com` üzerinden gelen tüm harici görseller indirilerek `public/images/products/...` altına alındı. Harici hotlink sayısı 0'a indirildi.
 - **Gerekçe:** Üçüncü parti kaynak bağımlılığını ve kırık görsel riskini ortadan kaldırmak.
+
+### Applied 826 Genuine Manufacturer Laptop Images
+- **Tarih:** 2026-08-30 21:20
+- **Etkilenen Dosyalar:** `src/lib/mockLaptops.ts`
+- **Yapılan Değişiklik:** Replaced generic fallback image with exact model-specific manufacturer product photos for 826 laptops across Apple, ASUS, Dell, Lenovo, HP, MSI, and Casper brands.
+- **Gerekçe:** User explicitly approved genuine laptop images replacement proposal.
+
+---
