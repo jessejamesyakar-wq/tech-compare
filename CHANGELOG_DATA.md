@@ -116,3 +116,11 @@
 - **Gerekçe:** User requested replacing monotone blue promotional renders with diverse, authentic Epey dual-angle studio product photography.
 
 ---
+
+### Applied Comprehensive Official Epey/Samsung Studio Photos for 10 Galaxy Z, S, Note, and M Models
+- **Tarih:** 2026-08-30 23:44
+- **Etkilenen Dosyalar:** `src/lib/smartphonesData.json`, `public/images/phones/samsung/epey/`
+- **Yapılan Değişiklik:** Connected high-res, verified manufacturer studio photography directly from Epey for Galaxy Z Fold 5, Z Fold 4, Z Flip 3, S24 FE, S22+, S22, S20 FE, Note 20 Ultra, M35 5G, M34 5G, M33 5G, M13.
+- **Gerekçe:** User requested comprehensive overhaul of all Samsung smartphones to eliminate generic/repetitive photos.
+
+---
