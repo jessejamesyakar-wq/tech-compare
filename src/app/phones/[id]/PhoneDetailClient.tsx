@@ -13,6 +13,7 @@ import { BentoFeatureCards } from '@/components/detail/BentoFeatureCards';
 import { StickyHeaderBar } from '@/components/detail/StickyHeaderBar';
 import { BrandLogoBar } from '@/components/catalog/BrandLogoBar';
 import { ProductImageGallery } from '@/components/detail/ProductImageGallery';
+import { ProductColorPicker } from '@/components/detail/ProductColorPicker';
 import { CompactStoreComparison } from '@/components/detail/CompactStoreComparison';
 import { AIPriceForecastBadge } from '@/components/ai/AIPriceForecastBadge';
 import { AIReviewSummaryCard } from '@/components/ai/AIReviewSummaryCard';
@@ -36,6 +37,12 @@ export default function PhoneDetailClient({ initialPhone }: { initialPhone: Smar
 
   const [phone] = useState<Smartphone | null>(initialPhone);
   const [alertModalOpen, setAlertModalOpen] = useState<boolean>(false);
+
+  // Active Color Variant State
+  const initialColor = phone?.colorOptions?.[0]?.name || phone?.variants?.[0]?.colorName || phone?.variants?.[0]?.name || '';
+  const initialColorImg = phone?.variants?.[0]?.image || phone?.image || '';
+  const [selectedColor, setSelectedColor] = useState<string>(initialColor);
+  const [selectedColorImage, setSelectedColorImage] = useState<string>(initialColorImg);
 
   if (!phone) {
     return (
@@ -71,7 +78,7 @@ export default function PhoneDetailClient({ initialPhone }: { initialPhone: Smar
         
         {/* Left: Interactive Multi-Photo Gallery Stage */}
         <div className="lg:col-span-5">
-          <ProductImageGallery product={phone} />
+          <ProductImageGallery product={phone} activeColorImage={selectedColorImage} />
         </div>
 
         {/* Right: Info & Actions */}
@@ -100,7 +107,7 @@ export default function PhoneDetailClient({ initialPhone }: { initialPhone: Smar
             </h1>
 
             {/* Highlights Chips */}
-            <div className="flex flex-wrap gap-2 mb-6">
+            <div className="flex flex-wrap gap-2 mb-4">
               {(phone.highlights || []).map((h, idx) => (
                 <span key={idx} className="bg-slate-50 text-slate-700 text-xs px-3 py-1.5 rounded-xl border border-slate-200 flex items-center gap-1.5 font-medium">
                   <Check className="w-3.5 h-3.5 text-emerald-600" />
@@ -108,6 +115,23 @@ export default function PhoneDetailClient({ initialPhone }: { initialPhone: Smar
                 </span>
               ))}
             </div>
+
+            {/* Interactive Color Variant Picker */}
+            {(phone.colorOptions || phone.variants) && (
+              <div className="mb-4">
+                <ProductColorPicker
+                  colorOptions={phone.colorOptions}
+                  variants={phone.variants}
+                  selectedColor={selectedColor}
+                  onSelectColor={(colorName, colorImg) => {
+                    setSelectedColor(colorName);
+                    if (colorImg) {
+                      setSelectedColorImage(colorImg);
+                    }
+                  }}
+                />
+              </div>
+            )}
 
             {/* Base Lowest Price Box */}
             <div className="bg-slate-50 p-5 rounded-2xl border border-slate-200 flex flex-col sm:flex-row sm:items-center justify-between gap-4">

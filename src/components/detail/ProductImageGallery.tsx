@@ -7,10 +7,11 @@ import { Maximize2, Zap, ChevronLeft, ChevronRight, Image as ImageIcon, X } from
 
 interface ProductImageGalleryProps {
   product: Product;
+  activeColorImage?: string;
 }
 
-export function ProductImageGallery({ product }: ProductImageGalleryProps) {
-  const defaultImage = product.image || 'https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=800&auto=format&fit=crop&q=80';
+export function ProductImageGallery({ product, activeColorImage }: ProductImageGalleryProps) {
+  const defaultImage = activeColorImage || product.image || 'https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=800&auto=format&fit=crop&q=80';
   const extraImages = (product.images || []).filter(Boolean);
 
   const rawImages = [defaultImage, ...extraImages];
@@ -19,7 +20,16 @@ export function ProductImageGallery({ product }: ProductImageGalleryProps) {
   const [activeIndex, setActiveIndex] = useState<number>(0);
   const [isZoomOpen, setIsZoomOpen] = useState(false);
 
-  const activeImage = allImages[activeIndex] || defaultImage;
+  // Sync active image when activeColorImage changes
+  React.useEffect(() => {
+    if (activeColorImage) {
+      const idx = allImages.indexOf(activeColorImage);
+      if (idx !== -1) setActiveIndex(idx);
+      else setActiveIndex(0);
+    }
+  }, [activeColorImage]);
+
+  const activeImage = activeColorImage || allImages[activeIndex] || defaultImage;
 
   const handlePrev = () => {
     setActiveIndex((prev) => (prev === 0 ? allImages.length - 1 : prev - 1));
