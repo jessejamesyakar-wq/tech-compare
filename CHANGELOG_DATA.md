@@ -92,3 +92,11 @@
 - **Gerekçe:** User explicitly approved Samsung multi-color variants proposal.
 
 ---
+
+### Applied Dedicated Official Photo (SM-S931) for Samsung Galaxy S25 Base Models
+- **Tarih:** 2026-08-30 21:52
+- **Etkilenen Dosyalar:** `src/lib/smartphonesData.json`
+- **Yapılan Değişiklik:** Switched Samsung Galaxy S25 base model from shared S25 FE image to dedicated official manufacturer photo /images/phones/samsung/samsung-galaxy-s25-sm-s931.jpg.
+- **Gerekçe:** User approved separating base S25 photo to ensure 100% distinct manufacturer original photography across all Samsung models.
+
+---
