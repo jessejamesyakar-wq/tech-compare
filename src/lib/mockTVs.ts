@@ -1,4 +1,4 @@
-import { TVProduct, Product } from "./types";
+import { Product } from './types';
 
 export const mockTVs: Product[] = [
   {
@@ -236,8 +236,9 @@ export const mockTVs: Product[] = [
     "category": "tvs",
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/products/tvs/lg-75qned82a6b.jpg",
+    "image": "/images/products/tvs/icecat-lg-75qned82a6b-75-189-ekran-4k-qned-webos-smart-tv.jpg",
     "images": [
+      "/images/products/tvs/icecat-lg-75qned82a6b-75-189-ekran-4k-qned-webos-smart-tv.jpg",
       "/images/products/tvs/lg-75qned82a6b.jpg"
     ],
     "rating": 4.6,
@@ -305,8 +306,9 @@ export const mockTVs: Product[] = [
     "category": "tvs",
     "isPopular": true,
     "isFeatured": true,
-    "image": "/images/products/tvs/lg-86ut81006la.jpg",
+    "image": "/images/products/tvs/icecat-lg-86ut81006la-86-218-ekran-4k-uhd-led-webos-smart-tv.jpg",
     "images": [
+      "/images/products/tvs/icecat-lg-86ut81006la-86-218-ekran-4k-uhd-led-webos-smart-tv.jpg",
       "/images/products/tvs/lg-86ut81006la.jpg"
     ],
     "rating": 4.6,
@@ -374,8 +376,9 @@ export const mockTVs: Product[] = [
     "category": "tvs",
     "isPopular": true,
     "isFeatured": true,
-    "image": "/images/products/tvs/lg-75qned80t6a.jpg",
+    "image": "/images/products/tvs/icecat-lg-75qned80t6a-75-189-ekran-4k-qned-120hz-webos-smart-tv.jpg",
     "images": [
+      "/images/products/tvs/icecat-lg-75qned80t6a-75-189-ekran-4k-qned-120hz-webos-smart-tv.jpg",
       "/images/products/tvs/lg-75qned80t6a.jpg"
     ],
     "rating": 4.6,
@@ -443,8 +446,9 @@ export const mockTVs: Product[] = [
     "category": "tvs",
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/icecat-lg-65qned816qa-65-4k-ultra-hd-qned-smart-tv-2022.jpg",
     "images": [
+      "/images/products/tvs/icecat-lg-65qned816qa-65-4k-ultra-hd-qned-smart-tv-2022.jpg",
       "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.5,
@@ -575,8 +579,9 @@ export const mockTVs: Product[] = [
     "category": "tvs",
     "isPopular": false,
     "isFeatured": false,
-    "image": "/images/products/tvs/lg-75qned816re.jpg",
+    "image": "/images/products/tvs/icecat-lg-75qned816re-75-189-ekran-4k-qned-120hz-webos-smart-tv.jpg",
     "images": [
+      "/images/products/tvs/icecat-lg-75qned816re-75-189-ekran-4k-qned-120hz-webos-smart-tv.jpg",
       "/images/products/tvs/lg-75qned816re.jpg"
     ],
     "rating": 4.6,
@@ -644,8 +649,9 @@ export const mockTVs: Product[] = [
     "category": "tvs",
     "isPopular": true,
     "isFeatured": true,
-    "image": "/images/products/tvs/lg-86qned80t6a.jpg",
+    "image": "/images/products/tvs/icecat-lg-86qned80t6a-86-218-ekran-4k-qned-120hz-webos-smart-tv.jpg",
     "images": [
+      "/images/products/tvs/icecat-lg-86qned80t6a-86-218-ekran-4k-qned-120hz-webos-smart-tv.jpg",
       "/images/products/tvs/lg-86qned80t6a.jpg"
     ],
     "rating": 4.7,
@@ -713,8 +719,9 @@ export const mockTVs: Product[] = [
     "category": "tvs",
     "isPopular": false,
     "isFeatured": false,
-    "image": "/images/products/tvs/lg-oled48a16la.jpg",
+    "image": "/images/products/tvs/icecat-lg-oled48a16la-48-121-ekran-4k-oled-webos-smart-tv.jpg",
     "images": [
+      "/images/products/tvs/icecat-lg-oled48a16la-48-121-ekran-4k-oled-webos-smart-tv.jpg",
       "/images/products/tvs/lg-oled48a16la.jpg"
     ],
     "rating": 4.6,
@@ -782,8 +789,9 @@ export const mockTVs: Product[] = [
     "category": "tvs",
     "isPopular": true,
     "isFeatured": true,
-    "image": "/images/products/tvs/lg-oled65b46la.jpg",
+    "image": "/images/products/tvs/icecat-lg-oled65b46la-65-165-ekran-4k-oled-120hz-webos-smart-tv-2024.jpg",
     "images": [
+      "/images/products/tvs/icecat-lg-oled65b46la-65-165-ekran-4k-oled-120hz-webos-smart-tv-2024.jpg",
       "/images/products/tvs/lg-oled65b46la.jpg"
     ],
     "rating": 4.8,
@@ -851,8 +859,9 @@ export const mockTVs: Product[] = [
     "category": "tvs",
     "isPopular": true,
     "isFeatured": true,
-    "image": "/images/products/tvs/lg-98qned89t6a.jpg",
+    "image": "/images/products/tvs/icecat-lg-98qned89t6a-98-248-ekran-4k-qned-120hz-webos-smart-tv-2024.jpg",
     "images": [
+      "/images/products/tvs/icecat-lg-98qned89t6a-98-248-ekran-4k-qned-120hz-webos-smart-tv-2024.jpg",
       "/images/products/tvs/lg-98qned89t6a.jpg"
     ],
     "rating": 4.8,
@@ -920,8 +929,9 @@ export const mockTVs: Product[] = [
     "category": "tvs",
     "isPopular": true,
     "isFeatured": true,
-    "image": "/images/products/tvs/lg-oled55c34la.jpg",
+    "image": "/images/products/tvs/icecat-lg-oled55c34la-55-139-ekran-4k-oled-evo-120hz-webos-smart-tv-2023.jpg",
     "images": [
+      "/images/products/tvs/icecat-lg-oled55c34la-55-139-ekran-4k-oled-evo-120hz-webos-smart-tv-2023.jpg",
       "/images/products/tvs/lg-oled55c34la.jpg"
     ],
     "rating": 4.8,
@@ -989,8 +999,9 @@ export const mockTVs: Product[] = [
     "category": "tvs",
     "isPopular": true,
     "isFeatured": true,
-    "image": "/images/products/tvs/lg-oled55cs3va.jpg",
+    "image": "/images/products/tvs/icecat-lg-oled55cs3va-55-139-ekran-4k-oled-120hz-webos-smart-tv-2024.jpg",
     "images": [
+      "/images/products/tvs/icecat-lg-oled55cs3va-55-139-ekran-4k-oled-120hz-webos-smart-tv-2024.jpg",
       "/images/products/tvs/lg-oled55cs3va.jpg"
     ],
     "rating": 4.8,
@@ -1058,8 +1069,9 @@ export const mockTVs: Product[] = [
     "category": "tvs",
     "isPopular": true,
     "isFeatured": true,
-    "image": "/images/products/tvs/lg-oled77b56la.jpg",
+    "image": "/images/products/tvs/icecat-lg-oled77b56la-77-196-ekran-4k-oled-120hz-webos-smart-tv-2025.jpg",
     "images": [
+      "/images/products/tvs/icecat-lg-oled77b56la-77-196-ekran-4k-oled-120hz-webos-smart-tv-2025.jpg",
       "/images/products/tvs/lg-oled77b56la.jpg"
     ],
     "rating": 4.8,
@@ -1127,8 +1139,9 @@ export const mockTVs: Product[] = [
     "category": "tvs",
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/products/tvs/lg-oled83b56la.jpg",
+    "image": "/images/products/tvs/icecat-lg-oled83b56la-83-210-ekran-4k-oled-120hz-webos-smart-tv-2025.jpg",
     "images": [
+      "/images/products/tvs/icecat-lg-oled83b56la-83-210-ekran-4k-oled-120hz-webos-smart-tv-2025.jpg",
       "/images/products/tvs/lg-oled83b56la.jpg"
     ],
     "rating": 4.8,
@@ -1196,8 +1209,9 @@ export const mockTVs: Product[] = [
     "category": "tvs",
     "isPopular": true,
     "isFeatured": true,
-    "image": "/images/products/tvs/lg-100qned86a6.jpg",
+    "image": "/images/products/tvs/icecat-lg-100qned86a6-100-254-ekran-4k-qned-miniled-120hz-webos-tv-2025.jpg",
     "images": [
+      "/images/products/tvs/icecat-lg-100qned86a6-100-254-ekran-4k-qned-miniled-120hz-webos-tv-2025.jpg",
       "/images/products/tvs/lg-100qned86a6.jpg"
     ],
     "rating": 4.8,
@@ -1403,8 +1417,9 @@ export const mockTVs: Product[] = [
     "category": "tvs",
     "isPopular": true,
     "isFeatured": true,
-    "image": "/images/products/tvs/lg-100qned87b6.jpg",
+    "image": "/images/products/tvs/icecat-lg-100qned87b6-100-254-ekran-4k-qned-miniled-120hz-webos-tv-2026.jpg",
     "images": [
+      "/images/products/tvs/icecat-lg-100qned87b6-100-254-ekran-4k-qned-miniled-120hz-webos-tv-2026.jpg",
       "/images/products/tvs/lg-100qned87b6.jpg"
     ],
     "rating": 4.8,
@@ -1746,8 +1761,9 @@ export const mockTVs: Product[] = [
     "category": "tvs",
     "isPopular": true,
     "isFeatured": true,
-    "image": "/images/products/tvs/lg-oled77w69la.jpg",
+    "image": "/images/products/tvs/icecat-lg-oled77w69la-77-196-ekran-wall-paper-4k-oled-144hz-webos-tv-2026.jpg",
     "images": [
+      "/images/products/tvs/icecat-lg-oled77w69la-77-196-ekran-wall-paper-4k-oled-144hz-webos-tv-2026.jpg",
       "/images/products/tvs/lg-oled77w69la.jpg"
     ],
     "rating": 4.9,
@@ -1814,8 +1830,9 @@ export const mockTVs: Product[] = [
     "category": "tvs",
     "isPopular": true,
     "isFeatured": true,
-    "image": "/images/products/tvs/lg-oled83m59la.jpg",
+    "image": "/images/products/tvs/icecat-lg-oled83m59la-83-210-ekran-kablosuz-4k-oled-144hz-webos-smart-tv-2025.jpg",
     "images": [
+      "/images/products/tvs/icecat-lg-oled83m59la-83-210-ekran-kablosuz-4k-oled-144hz-webos-smart-tv-2025.jpg",
       "/images/products/tvs/lg-oled83m59la.jpg"
     ],
     "rating": 4.9,
@@ -1882,8 +1899,9 @@ export const mockTVs: Product[] = [
     "category": "tvs",
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/products/tvs/lg-oled83g55lw.jpg",
+    "image": "/images/products/tvs/icecat-lg-oled83g55lw-83-210-ekran-4k-oled-evo-144hz-webos-smart-tv-2025.jpg",
     "images": [
+      "/images/products/tvs/icecat-lg-oled83g55lw-83-210-ekran-4k-oled-evo-144hz-webos-smart-tv-2025.jpg",
       "/images/products/tvs/lg-oled83g55lw.jpg"
     ],
     "rating": 4.8,
@@ -2019,8 +2037,9 @@ export const mockTVs: Product[] = [
     "category": "tvs",
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/products/tvs/lg-oled97g54lw.jpg",
+    "image": "/images/products/tvs/icecat-lg-oled97g54lw-97-246-ekran-4k-oled-evo-144hz-webos-smart-tv-2025.jpg",
     "images": [
+      "/images/products/tvs/icecat-lg-oled97g54lw-97-246-ekran-4k-oled-evo-144hz-webos-smart-tv-2025.jpg",
       "/images/products/tvs/lg-oled97g54lw.jpg"
     ],
     "rating": 4.9,
@@ -3208,7 +3227,7 @@ export const mockTVs: Product[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "/images/products/tvs/lg-77-oled77b65la.jpg",
+    "image": "/images/products/tvs/icecat-lg-oled77b65la-77-oled-b6-4k-smart-tv-2026.jpg",
     "storeOffers": [
       {
         "id": "offer-lg-77-oled77b65la-lg",
@@ -3296,6 +3315,7 @@ export const mockTVs: Product[] = [
     },
     "epeyScore": 96,
     "images": [
+      "/images/products/tvs/icecat-lg-oled77b65la-77-oled-b6-4k-smart-tv-2026.jpg",
       "/images/products/tvs/lg-77-oled77b65la.jpg"
     ]
   },
@@ -4452,7 +4472,7 @@ export const mockTVs: Product[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "/images/products/tvs/lg-75-75nu900b6la.jpg",
+    "image": "/images/products/tvs/icecat-lg-75nu900b6la-nano-uhd-ai-nu90-4k-60hz-vrr-smart-tv-2026.jpg",
     "storeOffers": [
       {
         "id": "offer-lg-lg-75-75nu900b6la-1",
@@ -4539,6 +4559,7 @@ export const mockTVs: Product[] = [
     },
     "epeyScore": 61,
     "images": [
+      "/images/products/tvs/icecat-lg-75nu900b6la-nano-uhd-ai-nu90-4k-60hz-vrr-smart-tv-2026.jpg",
       "/images/products/tvs/lg-75-75nu900b6la.jpg"
     ]
   },
@@ -4565,7 +4586,7 @@ export const mockTVs: Product[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "/images/products/tvs/lg-65-65nu900b6la.jpg",
+    "image": "/images/products/tvs/icecat-lg-65nu900b6la-nano-uhd-ai-nu90-4k-60hz-vrr-smart-tv-2026.jpg",
     "storeOffers": [
       {
         "id": "offer-lg-lg-65-65nu900b6la-1",
@@ -4652,6 +4673,7 @@ export const mockTVs: Product[] = [
     },
     "epeyScore": 59,
     "images": [
+      "/images/products/tvs/icecat-lg-65nu900b6la-nano-uhd-ai-nu90-4k-60hz-vrr-smart-tv-2026.jpg",
       "/images/products/tvs/lg-65-65nu900b6la.jpg"
     ]
   },
@@ -4678,7 +4700,7 @@ export const mockTVs: Product[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "/images/products/tvs/lg-55-55nu900b6la.jpg",
+    "image": "/images/products/tvs/icecat-lg-55nu900b6la-nano-uhd-ai-nu90-4k-60hz-vrr-smart-tv-2026.jpg",
     "storeOffers": [
       {
         "id": "offer-lg-lg-55-55nu900b6la-1",
@@ -4765,6 +4787,7 @@ export const mockTVs: Product[] = [
     },
     "epeyScore": 57,
     "images": [
+      "/images/products/tvs/icecat-lg-55nu900b6la-nano-uhd-ai-nu90-4k-60hz-vrr-smart-tv-2026.jpg",
       "/images/products/tvs/lg-55-55nu900b6la.jpg"
     ]
   },
@@ -4791,7 +4814,7 @@ export const mockTVs: Product[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "/images/products/tvs/lg-50-50nu900b6la.jpg",
+    "image": "/images/products/tvs/icecat-lg-50nu900b6la-nano-uhd-ai-nu90-4k-60hz-vrr-smart-tv-2026.jpg",
     "storeOffers": [
       {
         "id": "offer-lg-lg-50-50nu900b6la-1",
@@ -4878,6 +4901,7 @@ export const mockTVs: Product[] = [
     },
     "epeyScore": 57,
     "images": [
+      "/images/products/tvs/icecat-lg-50nu900b6la-nano-uhd-ai-nu90-4k-60hz-vrr-smart-tv-2026.jpg",
       "/images/products/tvs/lg-50-50nu900b6la.jpg"
     ]
   },
@@ -4904,7 +4928,7 @@ export const mockTVs: Product[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "/images/products/tvs/lg-85-85qned70b6a.jpg",
+    "image": "/images/products/tvs/icecat-lg-85qned70b6a-qned-ai-qned70b-miniled-4k-60hz-vrr-smart-tv-2026.jpg",
     "storeOffers": [
       {
         "id": "offer-lg-lg-85-85qned70b6a-1",
@@ -4991,6 +5015,7 @@ export const mockTVs: Product[] = [
     },
     "epeyScore": 81,
     "images": [
+      "/images/products/tvs/icecat-lg-85qned70b6a-qned-ai-qned70b-miniled-4k-60hz-vrr-smart-tv-2026.jpg",
       "/images/products/tvs/lg-85-85qned70b6a.jpg"
     ]
   },
@@ -5243,7 +5268,7 @@ export const mockTVs: Product[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "/images/products/tvs/lg-50-50qned70b6c.jpg",
+    "image": "/images/products/tvs/icecat-lg-50qned70b6c-qned-ai-qned70b-miniled-4k-60hz-vrr-smart-tv-2026.jpg",
     "storeOffers": [
       {
         "id": "offer-lg-lg-50-50qned70b6c-1",
@@ -5330,6 +5355,7 @@ export const mockTVs: Product[] = [
     },
     "epeyScore": 75,
     "images": [
+      "/images/products/tvs/icecat-lg-50qned70b6c-qned-ai-qned70b-miniled-4k-60hz-vrr-smart-tv-2026.jpg",
       "/images/products/tvs/lg-50-50qned70b6c.jpg"
     ]
   },
@@ -6035,7 +6061,7 @@ export const mockTVs: Product[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "/images/products/tvs/lg-97-oled97g54lw.jpg",
+    "image": "/images/products/tvs/icecat-lg-oled97g54lw-97-oled-evo-g5-4k-smart-tv-2025.jpg",
     "storeOffers": [
       {
         "id": "offer-lg-97-oled97g54lw-lg",
@@ -6123,6 +6149,7 @@ export const mockTVs: Product[] = [
     },
     "epeyScore": 99,
     "images": [
+      "/images/products/tvs/icecat-lg-oled97g54lw-97-oled-evo-g5-4k-smart-tv-2025.jpg",
       "/images/products/tvs/lg-97-oled97g54lw.jpg"
     ]
   },
@@ -6263,7 +6290,7 @@ export const mockTVs: Product[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "/images/products/tvs/lg-83-oled83g55lw.jpg",
+    "image": "/images/products/tvs/icecat-lg-oled83g55lw-83-oled-evo-g5-4k-smart-tv-2025.jpg",
     "storeOffers": [
       {
         "id": "offer-lg-83-oled83g55lw-lg",
@@ -6351,6 +6378,7 @@ export const mockTVs: Product[] = [
     },
     "epeyScore": 99,
     "images": [
+      "/images/products/tvs/icecat-lg-oled83g55lw-83-oled-evo-g5-4k-smart-tv-2025.jpg",
       "/images/products/tvs/lg-83-oled83g55lw.jpg"
     ]
   },
@@ -6377,7 +6405,7 @@ export const mockTVs: Product[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "/images/products/tvs/lg-83-oled83m59la.jpg",
+    "image": "/images/products/tvs/icecat-lg-oled83m59la-83-oled-evo-m5-4k-smart-tv-2025.jpg",
     "storeOffers": [
       {
         "id": "offer-lg-83-oled83m59la-lg",
@@ -6465,6 +6493,7 @@ export const mockTVs: Product[] = [
     },
     "epeyScore": 99,
     "images": [
+      "/images/products/tvs/icecat-lg-oled83m59la-83-oled-evo-m5-4k-smart-tv-2025.jpg",
       "/images/products/tvs/lg-83-oled83m59la.jpg"
     ]
   },
@@ -6491,7 +6520,7 @@ export const mockTVs: Product[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "/images/products/tvs/lg-77-oled77w69la.jpg",
+    "image": "/images/products/tvs/icecat-lg-oled77w69la-77-oled-evo-w6-4k-smart-tv-2026.jpg",
     "storeOffers": [
       {
         "id": "offer-lg-77-oled77w69la-lg",
@@ -6579,6 +6608,7 @@ export const mockTVs: Product[] = [
     },
     "epeyScore": 99,
     "images": [
+      "/images/products/tvs/icecat-lg-oled77w69la-77-oled-evo-w6-4k-smart-tv-2026.jpg",
       "/images/products/tvs/lg-77-oled77w69la.jpg"
     ]
   },
@@ -6719,7 +6749,7 @@ export const mockTVs: Product[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "/images/products/tvs/lg-77-oled77g55lw.jpg",
+    "image": "/images/products/tvs/icecat-lg-oled77g55lw-77-oled-evo-g5-4k-smart-tv-2025.jpg",
     "storeOffers": [
       {
         "id": "offer-lg-77-oled77g55lw-lg",
@@ -6807,6 +6837,7 @@ export const mockTVs: Product[] = [
     },
     "epeyScore": 99,
     "images": [
+      "/images/products/tvs/icecat-lg-oled77g55lw-77-oled-evo-g5-4k-smart-tv-2025.jpg",
       "/images/products/tvs/lg-77-oled77g55lw.jpg"
     ]
   },
@@ -6833,7 +6864,7 @@ export const mockTVs: Product[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "/images/products/tvs/lg-77-oled77m59la.jpg",
+    "image": "/images/products/tvs/icecat-lg-oled77m59la-77-oled-evo-m5-4k-smart-tv-2025.jpg",
     "storeOffers": [
       {
         "id": "offer-lg-77-oled77m59la-lg",
@@ -6921,6 +6952,7 @@ export const mockTVs: Product[] = [
     },
     "epeyScore": 99,
     "images": [
+      "/images/products/tvs/icecat-lg-oled77m59la-77-oled-evo-m5-4k-smart-tv-2025.jpg",
       "/images/products/tvs/lg-77-oled77m59la.jpg"
     ]
   },
@@ -7289,7 +7321,7 @@ export const mockTVs: Product[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "/images/products/tvs/lg-65-oled65g55lw.jpg",
+    "image": "/images/products/tvs/icecat-lg-oled65g55lw-65-oled-evo-g5-4k-smart-tv-2025.jpg",
     "storeOffers": [
       {
         "id": "offer-lg-65-oled65g55lw-lg",
@@ -7377,6 +7409,7 @@ export const mockTVs: Product[] = [
     },
     "epeyScore": 98,
     "images": [
+      "/images/products/tvs/icecat-lg-oled65g55lw-65-oled-evo-g5-4k-smart-tv-2025.jpg",
       "/images/products/tvs/lg-65-oled65g55lw.jpg"
     ]
   },
@@ -7403,7 +7436,7 @@ export const mockTVs: Product[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "/images/products/tvs/lg-100-100qned87b6.jpg",
+    "image": "/images/products/tvs/icecat-lg-100qned87b6-100-qned-miniled-4k-smart-tv-2026.jpg",
     "storeOffers": [
       {
         "id": "offer-lg-100-100qned87b6-lg",
@@ -7491,6 +7524,7 @@ export const mockTVs: Product[] = [
     },
     "epeyScore": 87,
     "images": [
+      "/images/products/tvs/icecat-lg-100qned87b6-100-qned-miniled-4k-smart-tv-2026.jpg",
       "/images/products/tvs/lg-100-100qned87b6.jpg"
     ]
   },
@@ -7745,7 +7779,7 @@ export const mockTVs: Product[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "/images/products/tvs/lg-100-100qned86a6.jpg",
+    "image": "/images/products/tvs/icecat-lg-100qned86a6-100-qned-miniled-4k-smart-tv-2025.jpg",
     "storeOffers": [
       {
         "id": "offer-lg-100-100qned86a6-lg",
@@ -7833,6 +7867,7 @@ export const mockTVs: Product[] = [
     },
     "epeyScore": 85,
     "images": [
+      "/images/products/tvs/icecat-lg-100qned86a6-100-qned-miniled-4k-smart-tv-2025.jpg",
       "/images/products/tvs/lg-100-100qned86a6.jpg"
     ]
   },
@@ -7859,7 +7894,7 @@ export const mockTVs: Product[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "/images/products/tvs/lg-83-oled83b56la.jpg",
+    "image": "/images/products/tvs/icecat-lg-oled83b56la-83-oled-b5-4k-smart-tv-2025.jpg",
     "storeOffers": [
       {
         "id": "offer-lg-83-oled83b56la-lg",
@@ -7947,6 +7982,7 @@ export const mockTVs: Product[] = [
     },
     "epeyScore": 96,
     "images": [
+      "/images/products/tvs/icecat-lg-oled83b56la-83-oled-b5-4k-smart-tv-2025.jpg",
       "/images/products/tvs/lg-83-oled83b56la.jpg"
     ]
   },
@@ -7973,7 +8009,7 @@ export const mockTVs: Product[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "/images/products/tvs/lg-77-oled77b56la.jpg",
+    "image": "/images/products/tvs/icecat-lg-oled77b56la-77-oled-b5-4k-smart-tv-2025.jpg",
     "storeOffers": [
       {
         "id": "offer-lg-77-oled77b56la-lg",
@@ -8061,6 +8097,7 @@ export const mockTVs: Product[] = [
     },
     "epeyScore": 96,
     "images": [
+      "/images/products/tvs/icecat-lg-oled77b56la-77-oled-b5-4k-smart-tv-2025.jpg",
       "/images/products/tvs/lg-77-oled77b56la.jpg"
     ]
   },
@@ -8072,8 +8109,9 @@ export const mockTVs: Product[] = [
     "category": "tvs",
     "isPopular": true,
     "isFeatured": true,
-    "image": "/images/products/tvs/lg-75qned93a6a.jpg",
+    "image": "/images/products/tvs/icecat-lg-75qned93a6a-75-189-ekran-4k-qned-miniled-120hz-webos-smart-tv-2025.jpg",
     "images": [
+      "/images/products/tvs/icecat-lg-75qned93a6a-75-189-ekran-4k-qned-miniled-120hz-webos-smart-tv-2025.jpg",
       "/images/products/tvs/lg-75qned93a6a.jpg"
     ],
     "rating": 4.8,
@@ -8369,7 +8407,7 @@ export const mockTVs: Product[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "/images/products/tvs/lg-65qned93a6a.jpg",
+    "image": "/images/products/tvs/icecat-lg-65qned93a6a-65-165-ekran-4k-qned-miniled-144hz-40w-webos-tv-2026.jpg",
     "storeOffers": [
       {
         "id": "offer-lg-65qned93a6a-1",
@@ -8420,6 +8458,7 @@ export const mockTVs: Product[] = [
     },
     "epeyScore": 79,
     "images": [
+      "/images/products/tvs/icecat-lg-65qned93a6a-65-165-ekran-4k-qned-miniled-144hz-40w-webos-tv-2026.jpg",
       "/images/products/tvs/lg-65qned93a6a.jpg"
     ]
   },
@@ -8515,7 +8554,7 @@ export const mockTVs: Product[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "/images/products/tvs/lg-75qned87b6a.jpg",
+    "image": "/images/products/tvs/icecat-lg-75qned87b6a-75-190-ekran-4k-qned-miniled-120hz-webos-tv-2026.jpg",
     "storeOffers": [
       {
         "id": "offer-lg-75qned87b6a-1",
@@ -8566,6 +8605,7 @@ export const mockTVs: Product[] = [
     },
     "epeyScore": 77,
     "images": [
+      "/images/products/tvs/icecat-lg-75qned87b6a-75-190-ekran-4k-qned-miniled-120hz-webos-tv-2026.jpg",
       "/images/products/tvs/lg-75qned87b6a.jpg"
     ]
   },
@@ -8592,7 +8632,7 @@ export const mockTVs: Product[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "/images/products/tvs/lg-75qned86a6a.jpg",
+    "image": "/images/products/tvs/icecat-lg-75qned86a6a-75-190-ekran-4k-qned-miniled-120hz-webos-tv-2026.jpg",
     "storeOffers": [
       {
         "id": "offer-lg-75qned86a6a-1",
@@ -8643,6 +8683,7 @@ export const mockTVs: Product[] = [
     },
     "epeyScore": 77,
     "images": [
+      "/images/products/tvs/icecat-lg-75qned86a6a-75-190-ekran-4k-qned-miniled-120hz-webos-tv-2026.jpg",
       "/images/products/tvs/lg-75qned86a6a.jpg"
     ]
   },
@@ -8669,7 +8710,7 @@ export const mockTVs: Product[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "/images/products/tvs/lg-oled55b56la.jpg",
+    "image": "/images/products/tvs/icecat-lg-oled55b56la-55-139-ekran-4k-oled-120hz-webos-smart-tv-2025.jpg",
     "storeOffers": [
       {
         "id": "offer-lg-oled55b56la-1",
@@ -8720,6 +8761,7 @@ export const mockTVs: Product[] = [
     },
     "epeyScore": 76,
     "images": [
+      "/images/products/tvs/icecat-lg-oled55b56la-55-139-ekran-4k-oled-120hz-webos-smart-tv-2025.jpg",
       "/images/products/tvs/lg-oled55b56la.jpg"
     ]
   },
@@ -8746,7 +8788,7 @@ export const mockTVs: Product[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "/images/products/tvs/lg-65qned9ma6b.jpg",
+    "image": "/images/products/tvs/icecat-lg-65qned9ma6b-65-165-ekran-4k-qned-miniled-120hz-smart-tv-2026.jpg",
     "storeOffers": [
       {
         "id": "offer-lg-65qned9ma6b-1",
@@ -8797,6 +8839,7 @@ export const mockTVs: Product[] = [
     },
     "epeyScore": 75,
     "images": [
+      "/images/products/tvs/icecat-lg-65qned9ma6b-65-165-ekran-4k-qned-miniled-120hz-smart-tv-2026.jpg",
       "/images/products/tvs/lg-65qned9ma6b.jpg"
     ]
   },
@@ -8900,7 +8943,7 @@ export const mockTVs: Product[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "/images/products/tvs/lg-65qned86a6a.jpg",
+    "image": "/images/products/tvs/icecat-lg-65qned86a6a-65-165-ekran-4k-qned-miniled-120hz-webos-tv-2026.jpg",
     "storeOffers": [
       {
         "id": "offer-lg-65qned86a6a-1",
@@ -8951,6 +8994,7 @@ export const mockTVs: Product[] = [
     },
     "epeyScore": 74,
     "images": [
+      "/images/products/tvs/icecat-lg-65qned86a6a-65-165-ekran-4k-qned-miniled-120hz-webos-tv-2026.jpg",
       "/images/products/tvs/lg-65qned86a6a.jpg"
     ]
   },
@@ -9031,8 +9075,9 @@ export const mockTVs: Product[] = [
     "category": "tvs",
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/products/tvs/lg-85qned70b6a.jpg",
+    "image": "/images/products/tvs/icecat-lg-85qned70b6a-85-215-ekran-4k-qned-webos-smart-tv.jpg",
     "images": [
+      "/images/products/tvs/icecat-lg-85qned70b6a-85-215-ekran-4k-qned-webos-smart-tv.jpg",
       "/images/products/tvs/lg-85qned70b6a.jpg"
     ],
     "rating": 4.6,
@@ -9100,8 +9145,9 @@ export const mockTVs: Product[] = [
     "category": "tvs",
     "isPopular": true,
     "isFeatured": true,
-    "image": "/images/products/tvs/lg-55qned87b6a.jpg",
+    "image": "/images/products/tvs/icecat-lg-55qned87b6a-55-139-ekran-4k-qned-miniled-webos-tv.jpg",
     "images": [
+      "/images/products/tvs/icecat-lg-55qned87b6a-55-139-ekran-4k-qned-miniled-webos-tv.jpg",
       "/images/products/tvs/lg-55qned87b6a.jpg"
     ],
     "rating": 4.7,
@@ -9238,8 +9284,9 @@ export const mockTVs: Product[] = [
     "category": "tvs",
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/products/tvs/lg-75qned7eb3a.jpg",
+    "image": "/images/products/tvs/icecat-lg-75qned7eb3a-75-189-ekran-4k-qned-webos-smart-tv.jpg",
     "images": [
+      "/images/products/tvs/icecat-lg-75qned7eb3a-75-189-ekran-4k-qned-webos-smart-tv.jpg",
       "/images/products/tvs/lg-75qned7eb3a.jpg"
     ],
     "rating": 4.6,
@@ -9376,8 +9423,9 @@ export const mockTVs: Product[] = [
     "category": "tvs",
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/products/tvs/lg-86qned82a6b.jpg",
+    "image": "/images/products/tvs/icecat-lg-86qned82a6b-86-218-ekran-4k-qned-webos-smart-tv.jpg",
     "images": [
+      "/images/products/tvs/icecat-lg-86qned82a6b-86-218-ekran-4k-qned-webos-smart-tv.jpg",
       "/images/products/tvs/lg-86qned82a6b.jpg"
     ],
     "rating": 4.6,
@@ -9583,8 +9631,9 @@ export const mockTVs: Product[] = [
     "category": "tvs",
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/icecat-lg-65qned70b6c-65-4k-ultra-hd-qned-mini-led-smart-tv-2026.jpg",
     "images": [
+      "/images/products/tvs/icecat-lg-65qned70b6c-65-4k-ultra-hd-qned-mini-led-smart-tv-2026.jpg",
       "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.6,
@@ -9757,7 +9806,7 @@ export const mockTVs: Product[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "/images/products/tvs/lg-75-75qned82a6b.jpg",
+    "image": "/images/products/tvs/icecat-lg-75-75qned82a6b-4k-smart-tv-2025.jpg",
     "storeOffers": [
       {
         "id": "offer-lg-75-75qned82a6b-0",
@@ -9907,6 +9956,7 @@ export const mockTVs: Product[] = [
     },
     "epeyScore": 81,
     "images": [
+      "/images/products/tvs/icecat-lg-75-75qned82a6b-4k-smart-tv-2025.jpg",
       "/images/products/tvs/lg-75-75qned82a6b.jpg"
     ]
   },
@@ -10285,7 +10335,7 @@ export const mockTVs: Product[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "/images/products/tvs/lg-55-55qned70b6c.jpg",
+    "image": "/images/products/tvs/icecat-lg-55-55qned70b6c-4k-smart-tv-2025.jpg",
     "storeOffers": [
       {
         "id": "offer-lg-55-55qned70b6c-0",
@@ -10435,6 +10485,7 @@ export const mockTVs: Product[] = [
     },
     "epeyScore": 77,
     "images": [
+      "/images/products/tvs/icecat-lg-55-55qned70b6c-4k-smart-tv-2025.jpg",
       "/images/products/tvs/lg-55-55qned70b6c.jpg"
     ]
   },
@@ -10461,7 +10512,7 @@ export const mockTVs: Product[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "/images/products/tvs/lg-75-75nu900b6la-1.jpg",
+    "image": "/images/products/tvs/icecat-lg-75-75nu900b6la-4k-smart-tv-2025.jpg",
     "storeOffers": [
       {
         "id": "offer-lg-75-75nu900b6la-1-0",
@@ -10608,6 +10659,7 @@ export const mockTVs: Product[] = [
     },
     "epeyScore": 67,
     "images": [
+      "/images/products/tvs/icecat-lg-75-75nu900b6la-4k-smart-tv-2025.jpg",
       "/images/products/tvs/lg-75-75nu900b6la-1.jpg"
     ]
   },
@@ -10634,7 +10686,7 @@ export const mockTVs: Product[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "/images/products/tvs/lg-65-65qned82a6b.jpg",
+    "image": "/images/products/tvs/icecat-lg-65-65qned82a6b-4k-smart-tv-2025.jpg",
     "storeOffers": [
       {
         "id": "offer-lg-65-65qned82a6b-0",
@@ -10781,6 +10833,7 @@ export const mockTVs: Product[] = [
     },
     "epeyScore": 75,
     "images": [
+      "/images/products/tvs/icecat-lg-65-65qned82a6b-4k-smart-tv-2025.jpg",
       "/images/products/tvs/lg-65-65qned82a6b.jpg"
     ]
   },
@@ -10980,7 +11033,7 @@ export const mockTVs: Product[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "/images/products/tvs/lg-65-65qned70a6a.jpg",
+    "image": "/images/products/tvs/icecat-lg-65-65qned70a6a-4k-smart-tv-2025.jpg",
     "storeOffers": [
       {
         "id": "offer-lg-65-65qned70a6a-0",
@@ -11127,6 +11180,7 @@ export const mockTVs: Product[] = [
     },
     "epeyScore": 75,
     "images": [
+      "/images/products/tvs/icecat-lg-65-65qned70a6a-4k-smart-tv-2025.jpg",
       "/images/products/tvs/lg-65-65qned70a6a.jpg"
     ]
   },
@@ -11499,7 +11553,7 @@ export const mockTVs: Product[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "/images/products/tvs/lg-65-65nu900b6la-1.jpg",
+    "image": "/images/products/tvs/icecat-lg-65-65nu900b6la-4k-smart-tv-2025.jpg",
     "storeOffers": [
       {
         "id": "offer-lg-65-65nu900b6la-1-0",
@@ -11646,6 +11700,7 @@ export const mockTVs: Product[] = [
     },
     "epeyScore": 65,
     "images": [
+      "/images/products/tvs/icecat-lg-65-65nu900b6la-4k-smart-tv-2025.jpg",
       "/images/products/tvs/lg-65-65nu900b6la-1.jpg"
     ]
   },
@@ -11672,7 +11727,7 @@ export const mockTVs: Product[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "/images/products/tvs/lg-55-55qned80a6a.jpg",
+    "image": "/images/products/tvs/icecat-lg-55-55qned80a6a-4k-smart-tv-2025.jpg",
     "storeOffers": [
       {
         "id": "offer-lg-55-55qned80a6a-0",
@@ -11819,6 +11874,7 @@ export const mockTVs: Product[] = [
     },
     "epeyScore": 73,
     "images": [
+      "/images/products/tvs/icecat-lg-55-55qned80a6a-4k-smart-tv-2025.jpg",
       "/images/products/tvs/lg-55-55qned80a6a.jpg"
     ]
   },
@@ -11845,7 +11901,7 @@ export const mockTVs: Product[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "/images/products/tvs/lg-55-55qned82a6b.jpg",
+    "image": "/images/products/tvs/icecat-lg-55-55qned82a6b-4k-smart-tv-2025.jpg",
     "storeOffers": [
       {
         "id": "offer-lg-55-55qned82a6b-0",
@@ -11992,6 +12048,7 @@ export const mockTVs: Product[] = [
     },
     "epeyScore": 73,
     "images": [
+      "/images/products/tvs/icecat-lg-55-55qned82a6b-4k-smart-tv-2025.jpg",
       "/images/products/tvs/lg-55-55qned82a6b.jpg"
     ]
   },
@@ -12018,7 +12075,7 @@ export const mockTVs: Product[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "/images/products/tvs/lg-55-55qned70a6a.jpg",
+    "image": "/images/products/tvs/icecat-lg-55-55qned70a6a-4k-smart-tv-2025.jpg",
     "storeOffers": [
       {
         "id": "offer-lg-55-55qned70a6a-0",
@@ -12165,6 +12222,7 @@ export const mockTVs: Product[] = [
     },
     "epeyScore": 73,
     "images": [
+      "/images/products/tvs/icecat-lg-55-55qned70a6a-4k-smart-tv-2025.jpg",
       "/images/products/tvs/lg-55-55qned70a6a.jpg"
     ]
   },
@@ -12537,7 +12595,7 @@ export const mockTVs: Product[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "/images/products/tvs/lg-65-65nano80a6b.jpg",
+    "image": "/images/products/tvs/icecat-lg-65-65nano80a6b-4k-smart-tv-2025.jpg",
     "storeOffers": [
       {
         "id": "offer-lg-65-65nano80a6b-0",
@@ -12684,6 +12742,7 @@ export const mockTVs: Product[] = [
     },
     "epeyScore": 75,
     "images": [
+      "/images/products/tvs/icecat-lg-65-65nano80a6b-4k-smart-tv-2025.jpg",
       "/images/products/tvs/lg-65-65nano80a6b.jpg"
     ]
   },
@@ -12883,7 +12942,7 @@ export const mockTVs: Product[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "/images/products/tvs/lg-65-65ua85006la.jpg",
+    "image": "/images/products/tvs/icecat-lg-65-65ua85006la-4k-smart-tv-2025.jpg",
     "storeOffers": [
       {
         "id": "offer-lg-65-65ua85006la-0",
@@ -13030,6 +13089,7 @@ export const mockTVs: Product[] = [
     },
     "epeyScore": 65,
     "images": [
+      "/images/products/tvs/icecat-lg-65-65ua85006la-4k-smart-tv-2025.jpg",
       "/images/products/tvs/lg-65-65ua85006la.jpg"
     ]
   },
@@ -13229,7 +13289,7 @@ export const mockTVs: Product[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "/images/products/tvs/lg-55-55nu900b6la-1.jpg",
+    "image": "/images/products/tvs/icecat-lg-55-55nu900b6la-4k-smart-tv-2025.jpg",
     "storeOffers": [
       {
         "id": "offer-lg-55-55nu900b6la-1-0",
@@ -13376,6 +13436,7 @@ export const mockTVs: Product[] = [
     },
     "epeyScore": 63,
     "images": [
+      "/images/products/tvs/icecat-lg-55-55nu900b6la-4k-smart-tv-2025.jpg",
       "/images/products/tvs/lg-55-55nu900b6la-1.jpg"
     ]
   },
@@ -13402,7 +13463,7 @@ export const mockTVs: Product[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "/images/products/tvs/lg-55-55nano80a6b.jpg",
+    "image": "/images/products/tvs/icecat-lg-55-55nano80a6b-4k-smart-tv-2025.jpg",
     "storeOffers": [
       {
         "id": "offer-lg-55-55nano80a6b-0",
@@ -13549,6 +13610,7 @@ export const mockTVs: Product[] = [
     },
     "epeyScore": 73,
     "images": [
+      "/images/products/tvs/icecat-lg-55-55nano80a6b-4k-smart-tv-2025.jpg",
       "/images/products/tvs/lg-55-55nano80a6b.jpg"
     ]
   },
@@ -14320,7 +14382,7 @@ export const mockTVs: Product[] = [
     "isPopular": true,
     "rating": 4.9,
     "reviewCount": 45,
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/icecat-lg-85qned93a6a-85-4k-ultra-hd-qned-mini-led-smart-tv-2025.jpg",
     "highlights": [
       "Dev 85\" (216 cm) 4K QNED Mini LED & Precision Dimming Pro",
       "100/120/144 Hz Gerçek Panel Hızı (3840x2160p @ 144Hz Destekli)",
@@ -14440,6 +14502,7 @@ export const mockTVs: Product[] = [
       "bezelStyle": "Ultra Slim / Kare Metal Stant Ayak"
     },
     "images": [
+      "/images/products/tvs/icecat-lg-85qned93a6a-85-4k-ultra-hd-qned-mini-led-smart-tv-2025.jpg",
       "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "isFeatured": true,
@@ -14783,7 +14846,7 @@ export const mockTVs: Product[] = [
     "isPopular": false,
     "rating": 3.9,
     "reviewCount": 327,
-    "image": "/images/products/tvs/tv-lg-lg-65-oled65b56la-65-inc.jpg",
+    "image": "/images/products/tvs/icecat-lg-oled65b56la.jpg",
     "highlights": [
       "65\" OLED Ultra HD (4K) Ekran",
       "webOS Akıllı TV İşletim Sistemi",
@@ -14957,6 +15020,7 @@ export const mockTVs: Product[] = [
     },
     "epeyScore": 94,
     "images": [
+      "/images/products/tvs/icecat-lg-oled65b56la.jpg",
       "/images/products/tvs/tv-lg-lg-65-oled65b56la-65-inc.jpg"
     ]
   },
@@ -14972,7 +15036,7 @@ export const mockTVs: Product[] = [
     "isPopular": true,
     "rating": 4.8,
     "reviewCount": 18,
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/icecat-lg-75qned9ma6b-75-144hz-4k-ultra-hd-qned-mini-led-smart-tv-2025.jpg",
     "highlights": [
       "75\" (189 cm) 4K Ultra HD Quantum Mini LED (QD-MiniLED) & Quantum Dot Display",
       "144Hz Gerçek Yenileme Hızı & HDMI 2.1 ile 3840x2160p @ 144Hz Oyun Desteği",
@@ -15110,6 +15174,7 @@ export const mockTVs: Product[] = [
       "bezelStyle": "Ultra Slim / Kare Merkez Ayak Standı"
     },
     "images": [
+      "/images/products/tvs/icecat-lg-75qned9ma6b-75-144hz-4k-ultra-hd-qned-mini-led-smart-tv-2025.jpg",
       "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "isFeatured": true,
@@ -15691,7 +15756,7 @@ export const mockTVs: Product[] = [
     "isPopular": true,
     "rating": 4.9,
     "reviewCount": 633,
-    "image": "/images/products/tvs/tv-tcl-98-98p8l-98-inc.jpg",
+    "image": "/images/products/tvs/icecat-tcl-98p8l-p8l-premium-qd-mini-led-tv.jpg",
     "highlights": [
       "22-bit Arkadan Aydınlatma",
       "AI Sanat Galerisi",
@@ -15869,6 +15934,7 @@ export const mockTVs: Product[] = [
       "energyClass": "G"
     },
     "images": [
+      "/images/products/tvs/icecat-tcl-98p8l-p8l-premium-qd-mini-led-tv.jpg",
       "/images/products/tvs/tv-tcl-98-98p8l-98-inc.jpg"
     ],
     "epeyScore": 99
@@ -15885,7 +15951,7 @@ export const mockTVs: Product[] = [
     "isPopular": true,
     "rating": 4.9,
     "reviewCount": 555,
-    "image": "/images/products/tvs/tv-tcl-85-85p8l-85-inc.jpg",
+    "image": "/images/products/tvs/icecat-tcl-85p8l-p8l-qd-mini-led-dimming-tv.jpg",
     "highlights": [
       "Tam Arkadan Aydınlatmalı Yerel Karartma",
       "ONKYO 2.1 Hi-Fi System",
@@ -16058,6 +16124,7 @@ export const mockTVs: Product[] = [
       "energyClass": "G"
     },
     "images": [
+      "/images/products/tvs/icecat-tcl-85p8l-p8l-qd-mini-led-dimming-tv.jpg",
       "/images/products/tvs/tv-tcl-85-85p8l-85-inc.jpg"
     ],
     "epeyScore": 99
@@ -16074,7 +16141,7 @@ export const mockTVs: Product[] = [
     "isPopular": true,
     "rating": 4.9,
     "reviewCount": 495,
-    "image": "/images/products/tvs/tv-tcl-75-75p8l-75-inc.jpg",
+    "image": "/images/products/tvs/icecat-tcl-75p8l-p8l-qd-mini-led-dimming-tv.jpg",
     "highlights": [
       "Tam Arkadan Aydınlatmalı Yerel Karartma",
       "ONKYO 2.1 Hi-Fi System",
@@ -16247,6 +16314,7 @@ export const mockTVs: Product[] = [
       "energyClass": "G"
     },
     "images": [
+      "/images/products/tvs/icecat-tcl-75p8l-p8l-qd-mini-led-dimming-tv.jpg",
       "/images/products/tvs/tv-tcl-75-75p8l-75-inc.jpg"
     ],
     "epeyScore": 99
@@ -16263,7 +16331,7 @@ export const mockTVs: Product[] = [
     "isPopular": true,
     "rating": 4.7,
     "reviewCount": 435,
-    "image": "/images/products/tvs/tv-tcl-65-65p8l-65-inc.jpg",
+    "image": "/images/products/tvs/icecat-tcl-65p8l-p8l-qd-mini-led-dimming-tv.jpg",
     "highlights": [
       "Tam Arkadan Aydınlatmalı Yerel Karartma",
       "ONKYO 2.1 Hi-Fi System",
@@ -16436,6 +16504,7 @@ export const mockTVs: Product[] = [
       "energyClass": "G"
     },
     "images": [
+      "/images/products/tvs/icecat-tcl-65p8l-p8l-qd-mini-led-dimming-tv.jpg",
       "/images/products/tvs/tv-tcl-65-65p8l-65-inc.jpg"
     ],
     "epeyScore": 98
@@ -16452,7 +16521,7 @@ export const mockTVs: Product[] = [
     "isPopular": false,
     "rating": 4.7,
     "reviewCount": 375,
-    "image": "/images/products/tvs/tv-tcl-55-55p8l-55-inc.jpg",
+    "image": "/images/products/tvs/icecat-tcl-55p8l-p8l-qd-mini-led-dimming-tv.jpg",
     "highlights": [
       "Tam Arkadan Aydınlatmalı Yerel Karartma",
       "144Hz Doğal Yenileme Hızı",
@@ -16625,6 +16694,7 @@ export const mockTVs: Product[] = [
       "energyClass": "G"
     },
     "images": [
+      "/images/products/tvs/icecat-tcl-55p8l-p8l-qd-mini-led-dimming-tv.jpg",
       "/images/products/tvs/tv-tcl-55-55p8l-55-inc.jpg"
     ],
     "epeyScore": 96
@@ -16641,7 +16711,7 @@ export const mockTVs: Product[] = [
     "isPopular": true,
     "rating": 4.9,
     "reviewCount": 555,
-    "image": "/images/products/tvs/tv-tcl-85-85p7l-85-inc.jpg",
+    "image": "/images/products/tvs/icecat-tcl-85p7l-p7l-premium-qled-tv.jpg",
     "highlights": [
       "QLED",
       "ONKYO 2.1 Hi-Fi Sistem*",
@@ -16814,6 +16884,7 @@ export const mockTVs: Product[] = [
       "energyClass": "G"
     },
     "images": [
+      "/images/products/tvs/icecat-tcl-85p7l-p7l-premium-qled-tv.jpg",
       "/images/products/tvs/tv-tcl-85-85p7l-85-inc.jpg"
     ],
     "epeyScore": 88

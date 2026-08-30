@@ -124,3 +124,11 @@
 - **Gerekçe:** User requested comprehensive overhaul of all Samsung smartphones to eliminate generic/repetitive photos.
 
 ---
+
+### Applied 71 Official Icecat Manufacturer Images across TV Catalog
+- **Tarih:** 2026-08-30 00:34
+- **Etkilenen Dosyalar:** `src/lib/mockTVs.ts`, `public/images/products/tvs/`
+- **Yapılan Değişiklik:** Downloaded and integrated verified, high-resolution official manufacturer images from Icecat Open Catalog for LG, TCL and other TV models.
+- **Gerekçe:** User reviewed and approved icecat-sync-report.md for official manufacturer photography integration.
+
+---
