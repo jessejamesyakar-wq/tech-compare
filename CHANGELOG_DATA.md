@@ -76,3 +76,19 @@
 - **Gerekçe:** User explicitly approved genuine Samsung phone images replacement proposal.
 
 ---
+
+### Applied Multi-Color Variants & Images to 6 Samsung Flagship Models
+- **Tarih:** 2026-08-30 21:40
+- **Etkilenen Dosyalar:** `src/lib/smartphonesData.json`
+- **Yapılan Değişiklik:** Added structured ProductVariant arrays with distinct manufacturer color photos (Titanium Black, Gray, Violet, Yellow, Cream, Green, Mint, etc.) for 6 models (Galaxy S24 Ultra, S24+, S24, S23 Ultra, Z Fold 6, Z Flip 6, A55 5G).
+- **Gerekçe:** User explicitly approved Samsung multi-color variants proposal.
+
+---
+
+### Applied Multi-Color Variants & Images to 7 Samsung Flagship Models
+- **Tarih:** 2026-08-30 21:40
+- **Etkilenen Dosyalar:** `src/lib/smartphonesData.json`
+- **Yapılan Değişiklik:** Added structured ProductVariant arrays with distinct manufacturer color photos (Titanium Black, Gray, Violet, Yellow, Cream, Green, Mint, etc.) for 7 models (Galaxy S24 Ultra, S24+, S24, S23 Ultra, Z Fold 6, Z Flip 6, A55 5G).
+- **Gerekçe:** User explicitly approved Samsung multi-color variants proposal.
+
+---

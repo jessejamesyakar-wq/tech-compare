@@ -20,7 +20,7 @@ const variantFilesToCreate = [
 
   // S24+ & S24
   { name: 's24-black.jpg', source: 'samsung-samsung-galaxy-s24-93.jpg' },
-  { name: 's24-grey.jpg', source: 'samsung-samsung-galaxy-s24-plus-94.jpg' },
+  { name: 's24-grey.jpg', source: 'samsung-samsung-galaxy-s24-94.jpg' },
   { name: 's24-violet.jpg', source: 'samsung-samsung-galaxy-s24-93.jpg' },
   { name: 's24-yellow.jpg', source: 'samsung-samsung-galaxy-s24-93.jpg' },
 

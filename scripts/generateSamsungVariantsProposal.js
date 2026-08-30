@@ -16,7 +16,7 @@ const enrichedModels = [
     ]
   },
   {
-    id: 'samsung-samsung-galaxy-s24-plus-94',
+    id: 'samsung-samsung-galaxy-s24-94',
     name: 'Samsung Galaxy S24+',
     variants: [
       { id: 's24p-black', name: 'Oniks Siyah', colorName: 'Oniks Siyah', colorHex: '#2B2A29', image: '/images/phones/samsung/variants/s24-black.jpg' },

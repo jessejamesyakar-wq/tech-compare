@@ -56582,7 +56582,11 @@
     ],
     "image": "/images/products/smartphones/samsung-samsung-galaxy-s23-ultra-82.jpg",
     "images": [
-      "/images/products/smartphones/samsung-samsung-galaxy-s23-ultra-82.jpg"
+      "/images/products/smartphones/samsung-samsung-galaxy-s23-ultra-82.jpg",
+      "/images/phones/samsung/variants/s23-ultra-black.jpg",
+      "/images/phones/samsung/variants/s23-ultra-cream.jpg",
+      "/images/phones/samsung/variants/s23-ultra-green.jpg",
+      "/images/phones/samsung/variants/s23-ultra-lavender.jpg"
     ],
     "storeOffers": [
       {
@@ -56737,6 +56741,36 @@
       {
         "name": "Lavanta",
         "hex": "#C8BDD2"
+      }
+    ],
+    "variants": [
+      {
+        "id": "s23u-black",
+        "name": "Fantom Siyah",
+        "colorName": "Fantom Siyah",
+        "colorHex": "#1E293B",
+        "image": "/images/phones/samsung/variants/s23-ultra-black.jpg"
+      },
+      {
+        "id": "s23u-cream",
+        "name": "Krem",
+        "colorName": "Krem",
+        "colorHex": "#F5F5DC",
+        "image": "/images/phones/samsung/variants/s23-ultra-cream.jpg"
+      },
+      {
+        "id": "s23u-green",
+        "name": "Yeşil",
+        "colorName": "Yeşil",
+        "colorHex": "#3B5342",
+        "image": "/images/phones/samsung/variants/s23-ultra-green.jpg"
+      },
+      {
+        "id": "s23u-lavender",
+        "name": "Lavanta",
+        "colorName": "Lavanta",
+        "colorHex": "#E6E6FA",
+        "image": "/images/phones/samsung/variants/s23-ultra-lavender.jpg"
       }
     ]
   },
@@ -58413,7 +58447,11 @@
     ],
     "image": "/images/products/smartphones/samsung-samsung-galaxy-s24-93.jpg",
     "images": [
-      "/images/products/smartphones/samsung-samsung-galaxy-s24-93.jpg"
+      "/images/products/smartphones/samsung-samsung-galaxy-s24-93.jpg",
+      "/images/phones/samsung/variants/s24-black.jpg",
+      "/images/phones/samsung/variants/s24-grey.jpg",
+      "/images/phones/samsung/variants/s24-violet.jpg",
+      "/images/phones/samsung/variants/s24-yellow.jpg"
     ],
     "storeOffers": [
       {
@@ -58565,6 +58603,36 @@
         "name": "Oniks Siyahı",
         "hex": "#222126"
       }
+    ],
+    "variants": [
+      {
+        "id": "s24-black",
+        "name": "Oniks Siyah",
+        "colorName": "Oniks Siyah",
+        "colorHex": "#2B2A29",
+        "image": "/images/phones/samsung/variants/s24-black.jpg"
+      },
+      {
+        "id": "s24-grey",
+        "name": "Mermer Gri",
+        "colorName": "Mermer Gri",
+        "colorHex": "#D1D5DB",
+        "image": "/images/phones/samsung/variants/s24-grey.jpg"
+      },
+      {
+        "id": "s24-violet",
+        "name": "Kobalt Menekşe",
+        "colorName": "Kobalt Menekşe",
+        "colorHex": "#4A4560",
+        "image": "/images/phones/samsung/variants/s24-violet.jpg"
+      },
+      {
+        "id": "s24-yellow",
+        "name": "Kehribar Sarı",
+        "colorName": "Kehribar Sarı",
+        "colorHex": "#FDE047",
+        "image": "/images/phones/samsung/variants/s24-yellow.jpg"
+      }
     ]
   },
   {
@@ -58588,7 +58656,11 @@
     ],
     "image": "/images/products/smartphones/samsung-samsung-galaxy-s24-94.jpg",
     "images": [
-      "/images/products/smartphones/samsung-samsung-galaxy-s24-94.jpg"
+      "/images/products/smartphones/samsung-samsung-galaxy-s24-94.jpg",
+      "/images/phones/samsung/variants/s24-black.jpg",
+      "/images/phones/samsung/variants/s24-grey.jpg",
+      "/images/phones/samsung/variants/s24-violet.jpg",
+      "/images/phones/samsung/variants/s24-yellow.jpg"
     ],
     "storeOffers": [
       {
@@ -58744,6 +58816,36 @@
         "name": "Amber Sarı",
         "hex": "#F3E2B6"
       }
+    ],
+    "variants": [
+      {
+        "id": "s24p-black",
+        "name": "Oniks Siyah",
+        "colorName": "Oniks Siyah",
+        "colorHex": "#2B2A29",
+        "image": "/images/phones/samsung/variants/s24-black.jpg"
+      },
+      {
+        "id": "s24p-grey",
+        "name": "Mermer Gri",
+        "colorName": "Mermer Gri",
+        "colorHex": "#D1D5DB",
+        "image": "/images/phones/samsung/variants/s24-grey.jpg"
+      },
+      {
+        "id": "s24p-violet",
+        "name": "Kobalt Menekşe",
+        "colorName": "Kobalt Menekşe",
+        "colorHex": "#4A4560",
+        "image": "/images/phones/samsung/variants/s24-violet.jpg"
+      },
+      {
+        "id": "s24p-yellow",
+        "name": "Kehribar Sarı",
+        "colorName": "Kehribar Sarı",
+        "colorHex": "#FDE047",
+        "image": "/images/phones/samsung/variants/s24-yellow.jpg"
+      }
     ]
   },
   {
@@ -58767,7 +58869,11 @@
     ],
     "image": "/images/products/smartphones/samsung-samsung-galaxy-s24-ultra-95.jpg",
     "images": [
-      "/images/products/smartphones/samsung-samsung-galaxy-s24-ultra-95.jpg"
+      "/images/products/smartphones/samsung-samsung-galaxy-s24-ultra-95.jpg",
+      "/images/phones/samsung/variants/s24-ultra-grey.jpg",
+      "/images/phones/samsung/variants/s24-ultra-black.jpg",
+      "/images/phones/samsung/variants/s24-ultra-violet.jpg",
+      "/images/phones/samsung/variants/s24-ultra-yellow.jpg"
     ],
     "storeOffers": [
       {
@@ -58922,6 +59028,36 @@
       {
         "name": "Titanyum Sarı",
         "hex": "#E5DDCB"
+      }
+    ],
+    "variants": [
+      {
+        "id": "s24u-grey",
+        "name": "Titanyum Gri",
+        "colorName": "Titanyum Gri",
+        "colorHex": "#77726B",
+        "image": "/images/phones/samsung/variants/s24-ultra-grey.jpg"
+      },
+      {
+        "id": "s24u-black",
+        "name": "Titanyum Siyah",
+        "colorName": "Titanyum Siyah",
+        "colorHex": "#2B2A29",
+        "image": "/images/phones/samsung/variants/s24-ultra-black.jpg"
+      },
+      {
+        "id": "s24u-violet",
+        "name": "Titanyum Menekşe",
+        "colorName": "Titanyum Menekşe",
+        "colorHex": "#454256",
+        "image": "/images/phones/samsung/variants/s24-ultra-violet.jpg"
+      },
+      {
+        "id": "s24u-yellow",
+        "name": "Titanyum Sarı",
+        "colorName": "Titanyum Sarı",
+        "colorHex": "#E5DDCB",
+        "image": "/images/phones/samsung/variants/s24-ultra-yellow.jpg"
       }
     ]
   },
@@ -59121,7 +59257,11 @@
     ],
     "image": "/images/products/smartphones/samsung-samsung-galaxy-z-flip-6-97.jpg",
     "images": [
-      "/images/products/smartphones/samsung-samsung-galaxy-z-flip-6-97.jpg"
+      "/images/products/smartphones/samsung-samsung-galaxy-z-flip-6-97.jpg",
+      "/images/phones/samsung/variants/z-flip6-silver.jpg",
+      "/images/phones/samsung/variants/z-flip6-mint.jpg",
+      "/images/phones/samsung/variants/z-flip6-yellow.jpg",
+      "/images/phones/samsung/variants/z-flip6-blue.jpg"
     ],
     "storeOffers": [
       {
@@ -59277,6 +59417,36 @@
         "name": "Gümüş Gölge",
         "hex": "#9FA2A6"
       }
+    ],
+    "variants": [
+      {
+        "id": "zflip6-silver",
+        "name": "Gölge Gümüş",
+        "colorName": "Gölge Gümüş",
+        "colorHex": "#94A3B8",
+        "image": "/images/phones/samsung/variants/z-flip6-silver.jpg"
+      },
+      {
+        "id": "zflip6-mint",
+        "name": "Nane Yeşili",
+        "colorName": "Nane Yeşili",
+        "colorHex": "#A7F3D0",
+        "image": "/images/phones/samsung/variants/z-flip6-mint.jpg"
+      },
+      {
+        "id": "zflip6-yellow",
+        "name": "Sarı",
+        "colorName": "Sarı",
+        "colorHex": "#FEF08A",
+        "image": "/images/phones/samsung/variants/z-flip6-yellow.jpg"
+      },
+      {
+        "id": "zflip6-blue",
+        "name": "Mavi",
+        "colorName": "Mavi",
+        "colorHex": "#BFDBFE",
+        "image": "/images/phones/samsung/variants/z-flip6-blue.jpg"
+      }
     ]
   },
   {
@@ -59300,7 +59470,10 @@
     ],
     "image": "/images/products/smartphones/samsung-samsung-galaxy-z-fold-6-98.jpg",
     "images": [
-      "/images/products/smartphones/samsung-samsung-galaxy-z-fold-6-98.jpg"
+      "/images/products/smartphones/samsung-samsung-galaxy-z-fold-6-98.jpg",
+      "/images/phones/samsung/variants/z-fold6-silver.jpg",
+      "/images/phones/samsung/variants/z-fold6-navy.jpg",
+      "/images/phones/samsung/variants/z-fold6-pink.jpg"
     ],
     "storeOffers": [
       {
@@ -59451,6 +59624,29 @@
       {
         "name": "Pembe",
         "hex": "#E8CED0"
+      }
+    ],
+    "variants": [
+      {
+        "id": "zfold6-silver",
+        "name": "Gümüş Gölge",
+        "colorName": "Gümüş Gölge",
+        "colorHex": "#A0AAB2",
+        "image": "/images/phones/samsung/variants/z-fold6-silver.jpg"
+      },
+      {
+        "id": "zfold6-navy",
+        "name": "Donanma Lacivert",
+        "colorName": "Donanma Lacivert",
+        "colorHex": "#1F2937",
+        "image": "/images/phones/samsung/variants/z-fold6-navy.jpg"
+      },
+      {
+        "id": "zfold6-pink",
+        "name": "Pembe",
+        "colorName": "Pembe",
+        "colorHex": "#FBCFE8",
+        "image": "/images/phones/samsung/variants/z-fold6-pink.jpg"
       }
     ]
   },
@@ -60175,7 +60371,11 @@
     ],
     "image": "/images/products/smartphones/samsung-samsung-galaxy-a55-5g-103.jpg",
     "images": [
-      "/images/products/smartphones/samsung-samsung-galaxy-a55-5g-103.jpg"
+      "/images/products/smartphones/samsung-samsung-galaxy-a55-5g-103.jpg",
+      "/images/phones/samsung/variants/a55-iceblue.jpg",
+      "/images/phones/samsung/variants/a55-navy.jpg",
+      "/images/phones/samsung/variants/a55-lilac.jpg",
+      "/images/phones/samsung/variants/a55-lemon.jpg"
     ],
     "storeOffers": [
       {
@@ -60330,6 +60530,36 @@
       {
         "name": "Harika Limon",
         "hex": "#F6E9B2"
+      }
+    ],
+    "variants": [
+      {
+        "id": "a55-iceblue",
+        "name": "Müthiş Buz Mavisi",
+        "colorName": "Müthiş Buz Mavisi",
+        "colorHex": "#BAE6FD",
+        "image": "/images/phones/samsung/variants/a55-iceblue.jpg"
+      },
+      {
+        "id": "a55-navy",
+        "name": "Müthiş Lacivert",
+        "colorName": "Müthiş Lacivert",
+        "colorHex": "#0F172A",
+        "image": "/images/phones/samsung/variants/a55-navy.jpg"
+      },
+      {
+        "id": "a55-lilac",
+        "name": "Müthiş Leylak",
+        "colorName": "Müthiş Leylak",
+        "colorHex": "#DDD6FE",
+        "image": "/images/phones/samsung/variants/a55-lilac.jpg"
+      },
+      {
+        "id": "a55-lemon",
+        "name": "Müthiş Limon",
+        "colorName": "Müthiş Limon",
+        "colorHex": "#FEF08A",
+        "image": "/images/phones/samsung/variants/a55-lemon.jpg"
       }
     ]
   },
