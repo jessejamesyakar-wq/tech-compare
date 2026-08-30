@@ -1,6 +1,6 @@
-import { LaptopProduct } from "./types";
+import { LaptopProduct, Product } from "./types";
 
-export const mockLaptops: LaptopProduct[] = [
+export const mockLaptops: Product[] = [
   {
     "id": "apple-macbook-pro-16-2-m5-max-18cpu-40gpu-mge94tu-a",
     "slug": "apple-macbook-pro-16-2-m5-max-18cpu-40gpu-mge94tu-a",
@@ -8,10 +8,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Apple",
     "category": "laptops",
     "productType": "Ultrabook",
-    "image": "/images/products/laptops/apple-macbook-pro-16-2-m5-max-18cpu-40gpu-mge94tu-a-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/apple-macbook-pro-16-2-m5-max-18cpu-40gpu-mge94tu-a-1.jpg",
-      "https://resim.epey.com/1048678/z_apple-macbook-pro-14-2-m5-10cpu-10gpu-mde44tu-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.9,
     "epeyScore": 69,
@@ -122,10 +121,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Apple",
     "category": "laptops",
     "productType": "Ultrabook",
-    "image": "/images/products/laptops/apple-macbook-pro-16-2-m5-max-18cpu-40gpu-1.png",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/apple-macbook-pro-16-2-m5-max-18cpu-40gpu-1.png",
-      "https://resim.epey.com/1048677/z_apple-macbook-pro-14-2-m5-pro-15cpu-16gpu-mgdt4tu-a-1.png"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.9,
     "epeyScore": 69,
@@ -236,10 +234,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Apple",
     "category": "laptops",
     "productType": "Ultrabook",
-    "image": "/images/products/laptops/apple-macbook-pro-16-2-m5-pro-18cpu-20gpu-mge64tu-a-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/apple-macbook-pro-16-2-m5-pro-18cpu-20gpu-mge64tu-a-1.jpg",
-      "https://resim.epey.com/1048598/z_apple-macbook-pro-14-2-m5-10cpu-10gpu-mde44tu-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.9,
     "epeyScore": 68,
@@ -350,10 +347,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Apple",
     "category": "laptops",
     "productType": "Ultrabook",
-    "image": "/images/products/laptops/apple-macbook-pro-16-2-m5-pro-18cpu-20gpu-1.png",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/apple-macbook-pro-16-2-m5-pro-18cpu-20gpu-1.png",
-      "https://resim.epey.com/1048599/z_apple-macbook-pro-14-2-m5-pro-15cpu-16gpu-mgdt4tu-a-1.png"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.9,
     "epeyScore": 68,
@@ -464,10 +460,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Apple",
     "category": "laptops",
     "productType": "Ultrabook",
-    "image": "/images/products/laptops/apple-macbook-pro-16-2-m5-max-18cpu-32gpu-mge74tu-a-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/apple-macbook-pro-16-2-m5-max-18cpu-32gpu-mge74tu-a-1.jpg",
-      "https://resim.epey.com/1048663/z_apple-macbook-pro-14-2-m5-10cpu-10gpu-mde44tu-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.9,
     "epeyScore": 68,
@@ -578,10 +573,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Apple",
     "category": "laptops",
     "productType": "Ultrabook",
-    "image": "/images/products/laptops/apple-macbook-pro-16-2-m5-max-18cpu-32gpu-1.png",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/apple-macbook-pro-16-2-m5-max-18cpu-32gpu-1.png",
-      "https://resim.epey.com/1048660/z_apple-macbook-pro-14-2-m5-pro-15cpu-16gpu-mgdt4tu-a-1.png"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.9,
     "epeyScore": 68,
@@ -692,10 +686,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Apple",
     "category": "laptops",
     "productType": "Ultrabook",
-    "image": "/images/products/laptops/apple-macbook-pro-14-2-m5-max-18cpu-32gpu-mgdu4tu-a-1.png",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/apple-macbook-pro-14-2-m5-max-18cpu-32gpu-mgdu4tu-a-1.png",
-      "https://resim.epey.com/1048695/z_apple-macbook-pro-14-2-m5-max-18cpu-32gpu-mgdu4tu-a-1.png"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.9,
     "epeyScore": 68,
@@ -806,10 +799,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Apple",
     "category": "laptops",
     "productType": "Ultrabook",
-    "image": "/images/products/laptops/apple-macbook-pro-14-2-m5-max-18cpu-32gpu-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/apple-macbook-pro-14-2-m5-max-18cpu-32gpu-1.jpg",
-      "https://resim.epey.com/1048681/z_apple-macbook-pro-14-2-m5-10cpu-10gpu-mde44tu-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.9,
     "epeyScore": 68,
@@ -920,10 +912,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Apple",
     "category": "laptops",
     "productType": "Ultrabook",
-    "image": "/images/products/laptops/apple-macbook-pro-14-2-m5-pro-18cpu-20gpu-black-1.png",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/apple-macbook-pro-14-2-m5-pro-18cpu-20gpu-black-1.png",
-      "https://resim.epey.com/1048588/z_apple-macbook-pro-14-2-m5-pro-15cpu-16gpu-mgdt4tu-a-1.png"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.9,
     "epeyScore": 66,
@@ -1034,10 +1025,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Apple",
     "category": "laptops",
     "productType": "Ultrabook",
-    "image": "/images/products/laptops/apple-macbook-pro-14-2-m5-pro-18cpu-20gpu-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/apple-macbook-pro-14-2-m5-pro-18cpu-20gpu-1.jpg",
-      "https://resim.epey.com/1048586/z_apple-macbook-pro-14-2-m5-10cpu-10gpu-mde44tu-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.9,
     "epeyScore": 66,
@@ -1148,10 +1138,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Apple",
     "category": "laptops",
     "productType": "Ultrabook",
-    "image": "/images/products/laptops/apple-macbook-pro-14-2-m5-pro-15cpu-16gpu-mjlw4tu-a-1.png",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/apple-macbook-pro-14-2-m5-pro-15cpu-16gpu-mjlw4tu-a-1.png",
-      "https://resim.epey.com/1048591/z_apple-macbook-pro-14-2-m5-pro-15cpu-16gpu-mjlw4tu-a-1.png"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.9,
     "epeyScore": 66,
@@ -1262,10 +1251,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Apple",
     "category": "laptops",
     "productType": "Ultrabook",
-    "image": "/images/products/laptops/apple-macbook-pro-14-2-m5-pro-15cpu-16gpu-mjlv4tu-a-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/apple-macbook-pro-14-2-m5-pro-15cpu-16gpu-mjlv4tu-a-1.jpg",
-      "https://resim.epey.com/1048590/z_apple-macbook-pro-14-2-m5-10cpu-10gpu-mde44tu-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.9,
     "epeyScore": 66,
@@ -1376,10 +1364,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Apple",
     "category": "laptops",
     "productType": "Ultrabook",
-    "image": "/images/products/laptops/apple-macbook-pro-16-2-m5-pro-18cpu-20gpu-mge44tu-a-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/apple-macbook-pro-16-2-m5-pro-18cpu-20gpu-mge44tu-a-1.jpg",
-      "https://resim.epey.com/1048595/z_apple-macbook-pro-14-2-m5-10cpu-10gpu-mde44tu-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.9,
     "epeyScore": 65,
@@ -1490,10 +1477,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Apple",
     "category": "laptops",
     "productType": "Ultrabook",
-    "image": "/images/products/laptops/apple-macbook-pro-16-2-m5-pro-18cpu-20gpu-mgea4tu-a-1.png",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/apple-macbook-pro-16-2-m5-pro-18cpu-20gpu-mgea4tu-a-1.png",
-      "https://resim.epey.com/1048596/z_apple-macbook-pro-14-2-m5-pro-15cpu-16gpu-mgdt4tu-a-1.png"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.9,
     "epeyScore": 65,
@@ -1604,10 +1590,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Apple",
     "category": "laptops",
     "productType": "Ultrabook",
-    "image": "/images/products/laptops/apple-macbook-pro-14-2-m5-pro-15cpu-16gpu-mgdr4tu-a-1.png",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/apple-macbook-pro-14-2-m5-pro-15cpu-16gpu-mgdr4tu-a-1.png",
-      "https://resim.epey.com/1048584/z_apple-macbook-pro-14-2-m5-pro-15cpu-16gpu-mgdr4tu-a-1.png"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.9,
     "epeyScore": 65,
@@ -1718,10 +1703,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Apple",
     "category": "laptops",
     "productType": "Ultrabook",
-    "image": "/images/products/laptops/apple-macbook-pro-14-2-m5-pro-15cpu-16gpu-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/apple-macbook-pro-14-2-m5-pro-15cpu-16gpu-1.jpg",
-      "https://resim.epey.com/1048551/z_apple-macbook-pro-14-2-m5-10cpu-10gpu-mde44tu-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.9,
     "epeyScore": 65,
@@ -1832,10 +1816,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Apple",
     "category": "laptops",
     "productType": "Laptop",
-    "image": "/images/products/laptops/apple-macbook-pro-14-2-m5-10cpu-10gpu-mde34tu-a-1.png",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/apple-macbook-pro-14-2-m5-10cpu-10gpu-mde34tu-a-1.png",
-      "https://resim.epey.com/1031762/z_apple-macbook-pro-14-m4-10cpu-10gpu-1.png"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 55,
@@ -1945,10 +1928,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Apple",
     "category": "laptops",
     "productType": "Laptop",
-    "image": "/images/products/laptops/apple-macbook-pro-14-2-m5-10cpu-10gpu-mde54tu-a-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/apple-macbook-pro-14-2-m5-10cpu-10gpu-mde54tu-a-1.jpg",
-      "https://resim.epey.com/1032439/z_apple-macbook-pro-14-2-m5-10cpu-10gpu-mde44tu-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 54,
@@ -2058,10 +2040,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Apple",
     "category": "laptops",
     "productType": "Laptop",
-    "image": "/images/products/laptops/apple-macbook-pro-14-2-m5-10cpu-10gpu-mde14tu-a-1.png",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/apple-macbook-pro-14-2-m5-10cpu-10gpu-mde14tu-a-1.png",
-      "https://resim.epey.com/1031761/z_apple-macbook-pro-14-m4-10cpu-10gpu-1.png"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 54,
@@ -2171,10 +2152,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Apple",
     "category": "laptops",
     "productType": "Laptop",
-    "image": "/images/products/laptops/apple-macbook-pro-14-2-m5-10cpu-10gpu-mde44tu-a-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/apple-macbook-pro-14-2-m5-10cpu-10gpu-mde44tu-a-1.jpg",
-      "https://resim.epey.com/1032438/z_apple-macbook-pro-14-2-m5-10cpu-10gpu-mde44tu-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 53,
@@ -2284,10 +2264,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Apple",
     "category": "laptops",
     "productType": "Laptop",
-    "image": "/images/products/laptops/apple-macbook-pro-14-2-m5-10cpu-10gpu-1.png",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/apple-macbook-pro-14-2-m5-10cpu-10gpu-1.png",
-      "https://resim.epey.com/1031756/z_apple-macbook-pro-14-m4-10cpu-10gpu-1.png"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 53,
@@ -2397,10 +2376,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Apple",
     "category": "laptops",
     "productType": "Laptop",
-    "image": "/images/products/laptops/apple-macbook-pro-16-mk193tu-a-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/apple-macbook-pro-16-mk193tu-a-1.jpg",
-      "https://resim.epey.com/729659/z_apple-macbook-pro-14-mk183tu-a-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 53,
@@ -2510,10 +2488,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Apple",
     "category": "laptops",
     "productType": "Laptop",
-    "image": "/images/products/laptops/apple-macbook-pro-14-mkgt3tu-a-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/apple-macbook-pro-14-mkgt3tu-a-1.jpg",
-      "https://resim.epey.com/729216/z_apple-macbook-pro-14-mkgt3tu-a-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 52,
@@ -2623,10 +2600,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Apple",
     "category": "laptops",
     "productType": "Ultrabook",
-    "image": "/images/products/laptops/apple-macbook-air-15-3-m3-mc9d4tu-a-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/apple-macbook-air-15-3-m3-mc9d4tu-a-1.jpg",
-      "https://resim.epey.com/1023123/z_apple-macbook-air-15-3-m3-mc9d4tu-a-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 51,
@@ -2734,10 +2710,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Apple",
     "category": "laptops",
     "productType": "Laptop",
-    "image": "/images/products/laptops/apple-macbook-pro-14-mkgq3tu-a-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/apple-macbook-pro-14-mkgq3tu-a-1.jpg",
-      "https://resim.epey.com/729212/z_apple-macbook-pro-14-mkgq3tu-a-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 51,
@@ -2847,10 +2822,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Apple",
     "category": "laptops",
     "productType": "Laptop",
-    "image": "/images/products/laptops/apple-macbook-pro-14-2-m3-8cpu-10gpu-mr7k3tu-a-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/apple-macbook-pro-14-2-m3-8cpu-10gpu-mr7k3tu-a-1.jpg",
-      "https://resim.epey.com/905776/z_apple-macbook-pro-14-2-m3-8cpu-10gpu-mr7j3tu-6.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 51,
@@ -2960,10 +2934,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Apple",
     "category": "laptops",
     "productType": "Ultrabook",
-    "image": "/images/products/laptops/apple-macbook-air-15-3-m3-mryp3tu-a-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/apple-macbook-air-15-3-m3-mryp3tu-a-1.jpg",
-      "https://resim.epey.com/930071/z_apple-macbook-air-15-3-m3-mryp3tu-a-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 50,
@@ -3071,10 +3044,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Apple",
     "category": "laptops",
     "productType": "Ultrabook",
-    "image": "/images/products/laptops/apple-macbook-air-15-3-m3-mryu3tu-a-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/apple-macbook-air-15-3-m3-mryu3tu-a-1.jpg",
-      "https://resim.epey.com/930017/z_apple-macbook-air-15-3-m3-mryu3tu-a-6.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 50,
@@ -3182,10 +3154,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Apple",
     "category": "laptops",
     "productType": "Ultrabook",
-    "image": "/images/products/laptops/apple-macbook-air-13-6-m3-mrxp3tu-a-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/apple-macbook-air-13-6-m3-mrxp3tu-a-1.jpg",
-      "https://resim.epey.com/928488/z_apple-macbook-air-13-6-m3-mrxp3tu-a-6.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 50,
@@ -3293,10 +3264,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Apple",
     "category": "laptops",
     "productType": "Ultrabook",
-    "image": "/images/products/laptops/apple-macbook-air-13-6-m3-mrxw3tu-a-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/apple-macbook-air-13-6-m3-mrxw3tu-a-1.jpg",
-      "https://resim.epey.com/928471/z_apple-macbook-air-13-6-m3-mrxw3tu-a-6.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 50,
@@ -3404,10 +3374,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Apple",
     "category": "laptops",
     "productType": "Laptop",
-    "image": "/images/products/laptops/apple-macbook-pro-14-2-m3-8cpu-10gpu-mr7j3tu-a-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/apple-macbook-pro-14-2-m3-8cpu-10gpu-mr7j3tu-a-1.jpg",
-      "https://resim.epey.com/905695/z_apple-macbook-pro-14-2-m3-8cpu-10gpu-mr7j3tu-6.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 50,
@@ -3517,10 +3486,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Apple",
     "category": "laptops",
     "productType": "Ultrabook",
-    "image": "/images/products/laptops/apple-macbook-air-15-3-m4-mc6l4tu-a-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/apple-macbook-air-15-3-m4-mc6l4tu-a-1.jpg",
-      "https://resim.epey.com/998778/z_apple-macbook-air-15-3-m4-mc6l4tu-a-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 50,
@@ -3628,10 +3596,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Apple",
     "category": "laptops",
     "productType": "Ultrabook",
-    "image": "/images/products/laptops/apple-macbook-air-15-3-m4-mc6k4tu-a-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/apple-macbook-air-15-3-m4-mc6k4tu-a-1.jpg",
-      "https://resim.epey.com/998777/z_apple-macbook-air-15-3-m4-mc6k4tu-a-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 50,
@@ -3739,10 +3706,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Apple",
     "category": "laptops",
     "productType": "Ultrabook",
-    "image": "/images/products/laptops/apple-macbook-air-15-3-m4-mw1k3tu-a-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/apple-macbook-air-15-3-m4-mw1k3tu-a-1.jpg",
-      "https://resim.epey.com/998772/z_apple-macbook-air-15-3-m4-mw1k3tu-a-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 49,
@@ -3850,10 +3816,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Apple",
     "category": "laptops",
     "productType": "Ultrabook",
-    "image": "/images/products/laptops/apple-macbook-air-15-3-m4-mw1h3tu-a-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/apple-macbook-air-15-3-m4-mw1h3tu-a-1.jpg",
-      "https://resim.epey.com/998771/z_apple-macbook-air-15-3-m4-mw1h3tu-a-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 49,
@@ -3961,10 +3926,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Apple",
     "category": "laptops",
     "productType": "Ultrabook",
-    "image": "/images/products/laptops/apple-macbook-air-15-3-m4-mc7c4tu-a-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/apple-macbook-air-15-3-m4-mc7c4tu-a-1.jpg",
-      "https://resim.epey.com/998770/z_apple-macbook-air-15-3-m4-mc7c4tu-a-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 49,
@@ -4072,10 +4036,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Apple",
     "category": "laptops",
     "productType": "Ultrabook",
-    "image": "/images/products/laptops/apple-macbook-air-m5-15-3-10cpu-10gpu-mdvk4tu-a-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/apple-macbook-air-m5-15-3-10cpu-10gpu-mdvk4tu-a-1.jpg",
-      "https://resim.epey.com/1049049/z_apple-macbook-air-m5-15-3-10cpu-10gpu-mdvk4tu-a-3.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 49,
@@ -4183,10 +4146,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Apple",
     "category": "laptops",
     "productType": "Ultrabook",
-    "image": "/images/products/laptops/apple-macbook-air-m5-15-3-10cpu-10gpu-mdve4tu-a-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/apple-macbook-air-m5-15-3-10cpu-10gpu-mdve4tu-a-1.jpg",
-      "https://resim.epey.com/1049045/z_apple-macbook-air-m5-15-3-10cpu-10gpu-mdve4tu-a-4.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 49,
@@ -4294,10 +4256,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Apple",
     "category": "laptops",
     "productType": "Ultrabook",
-    "image": "/images/products/laptops/apple-macbook-air-m5-15-3-10cpu-10gpu-mdvt4tu-a-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/apple-macbook-air-m5-15-3-10cpu-10gpu-mdvt4tu-a-1.jpg",
-      "https://resim.epey.com/1049042/z_apple-macbook-air-m5-15-3-10cpu-10gpu-mdvt4tu-a-3.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 49,
@@ -4405,10 +4366,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Apple",
     "category": "laptops",
     "productType": "Ultrabook",
-    "image": "/images/products/laptops/apple-macbook-air-m5-15-3-10cpu-10gpu-mdva4tu-a-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/apple-macbook-air-m5-15-3-10cpu-10gpu-mdva4tu-a-1.jpg",
-      "https://resim.epey.com/1049038/z_apple-macbook-air-m5-15-3-10cpu-10gpu-mdva4tu-a-3.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 49,
@@ -4516,10 +4476,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Apple",
     "category": "laptops",
     "productType": "Ultrabook",
-    "image": "/images/products/laptops/apple-macbook-air-15-3-m4-mw1l3tu-a-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/apple-macbook-air-15-3-m4-mw1l3tu-a-1.jpg",
-      "https://resim.epey.com/998761/z_apple-macbook-air-15-3-m4-mw1l3tu-a-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 49,
@@ -4627,10 +4586,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Apple",
     "category": "laptops",
     "productType": "Ultrabook",
-    "image": "/images/products/laptops/apple-macbook-air-15-3-m4-mw1j3tu-a-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/apple-macbook-air-15-3-m4-mw1j3tu-a-1.jpg",
-      "https://resim.epey.com/998757/z_apple-macbook-air-15-3-m4-mw1j3tu-a-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 49,
@@ -4738,10 +4696,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Apple",
     "category": "laptops",
     "productType": "Ultrabook",
-    "image": "/images/products/laptops/apple-macbook-air-15-3-m4-mc7a4tu-a-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/apple-macbook-air-15-3-m4-mc7a4tu-a-1.jpg",
-      "https://resim.epey.com/998752/z_apple-macbook-air-15-3-m4-mc7a4tu-a-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 49,
@@ -4849,10 +4806,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Apple",
     "category": "laptops",
     "productType": "Ultrabook",
-    "image": "/images/products/laptops/apple-macbook-air-13-6-m4-mw133tu-a-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/apple-macbook-air-13-6-m4-mw133tu-a-1.jpg",
-      "https://resim.epey.com/998746/z_apple-macbook-air-13-6-m4-mw133tu-a-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 49,
@@ -4960,10 +4916,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Apple",
     "category": "laptops",
     "productType": "Ultrabook",
-    "image": "/images/products/laptops/apple-macbook-air-13-6-m4-mc6u4tu-a-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/apple-macbook-air-13-6-m4-mc6u4tu-a-1.jpg",
-      "https://resim.epey.com/998741/z_apple-macbook-air-13-6-m4-mc6u4tu-a-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 49,
@@ -5071,10 +5026,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Apple",
     "category": "laptops",
     "productType": "Ultrabook",
-    "image": "/images/products/laptops/apple-macbook-air-m5-13-6-10cpu-10gpu-mdhf4tu-a-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/apple-macbook-air-m5-13-6-10cpu-10gpu-mdhf4tu-a-1.jpg",
-      "https://resim.epey.com/1048964/z_apple-macbook-air-m5-13-6-10cpu-10gpu-mdhf4tu-a-4.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 49,
@@ -5182,10 +5136,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Apple",
     "category": "laptops",
     "productType": "Ultrabook",
-    "image": "/images/products/laptops/apple-macbook-air-m5-13-6-10cpu-10gpu-mdhc4tu-a-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/apple-macbook-air-m5-13-6-10cpu-10gpu-mdhc4tu-a-1.jpg",
-      "https://resim.epey.com/1048959/z_apple-macbook-air-m5-13-6-10cpu-10gpu-mdhc4tu-a-3.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 49,
@@ -5293,10 +5246,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Apple",
     "category": "laptops",
     "productType": "Ultrabook",
-    "image": "/images/products/laptops/apple-macbook-air-m5-13-6-10cpu-10gpu-mdh84tu-a-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/apple-macbook-air-m5-13-6-10cpu-10gpu-mdh84tu-a-1.jpg",
-      "https://resim.epey.com/1048950/z_apple-macbook-air-m5-13-6-10cpu-10gpu-mdh84tu-a-4.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 49,
@@ -5404,10 +5356,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Apple",
     "category": "laptops",
     "productType": "Ultrabook",
-    "image": "/images/products/laptops/apple-macbook-air-m5-13-6-10cpu-10gpu-mdhj4tu-a-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/apple-macbook-air-m5-13-6-10cpu-10gpu-mdhj4tu-a-1.jpg",
-      "https://resim.epey.com/1048941/z_apple-macbook-air-m5-13-6-2.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 49,
@@ -5515,10 +5466,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Apple",
     "category": "laptops",
     "productType": "Laptop",
-    "image": "/images/products/laptops/apple-macbook-pro-m1-pro-z15gm1pvf161-tq6-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/apple-macbook-pro-m1-pro-z15gm1pvf161-tq6-1.jpg",
-      "https://resim.epey.com/815132/z_apple-macbook-pro-14-mkgp3tu-a-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 49,
@@ -5628,10 +5578,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Apple",
     "category": "laptops",
     "productType": "Ultrabook",
-    "image": "/images/products/laptops/apple-macbook-air-13-6-m4-mc6t4tu-a-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/apple-macbook-air-13-6-m4-mc6t4tu-a-1.jpg",
-      "https://resim.epey.com/998694/z_apple-macbook-air-13-6-m4-mc6t4tu-a-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 46,
@@ -5739,10 +5688,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Apple",
     "category": "laptops",
     "productType": "Ultrabook",
-    "image": "/images/products/laptops/apple-macbook-air-13-3-m1-mgn63tu-a-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/apple-macbook-air-13-3-m1-mgn63tu-a-1.jpg",
-      "https://resim.epey.com/624875/z_apple-macbook-air-13-3-m1-mgn63tu-a-3.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 44,
@@ -5850,10 +5798,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Apple",
     "category": "laptops",
     "productType": "Ultrabook",
-    "image": "/images/products/laptops/apple-macbook-air-13-6-m2-mc7w4tu-a-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/apple-macbook-air-13-6-m2-mc7w4tu-a-1.jpg",
-      "https://resim.epey.com/972297/z_apple-macbook-air-13-6-m2-8gb-256ssd-gri-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 44,
@@ -5961,10 +5908,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Apple",
     "category": "laptops",
     "productType": "Ultrabook",
-    "image": "/images/products/laptops/apple-macbook-air-m2-15-3-inc-mqkp3tu-a-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/apple-macbook-air-m2-15-3-inc-mqkp3tu-a-1.jpg",
-      "https://resim.epey.com/874275/z_apple-macbook-air-m2-15-3-inc-mqkp3tu-a-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 42,
@@ -6072,10 +6018,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Apple",
     "category": "laptops",
     "productType": "Laptop",
-    "image": "/images/products/laptops/apple-macbook-pro-13-3-m2-z16rm216256-tq6-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/apple-macbook-pro-13-3-m2-z16rm216256-tq6-1.jpg",
-      "https://resim.epey.com/803455/z_apple-macbook-pro-13-3-m2-8gb-512ssd-2.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 42,
@@ -6183,10 +6128,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Apple",
     "category": "laptops",
     "productType": "Laptop",
-    "image": "/images/products/laptops/apple-macbook-pro-13-3-m2-mnej3tu-a-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/apple-macbook-pro-13-3-m2-mnej3tu-a-1.jpg",
-      "https://resim.epey.com/787581/z_apple-macbook-pro-13-3-m2-8gb-512ssd-2.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 41,
@@ -6294,10 +6238,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Apple",
     "category": "laptops",
     "productType": "Ultrabook",
-    "image": "/images/products/laptops/apple-macbook-neo-mhfj4tu-a-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/apple-macbook-neo-mhfj4tu-a-1.jpg",
-      "https://resim.epey.com/1048514/z_apple-macbook-neo-mhfj4tu-a-5.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 40,
@@ -6404,10 +6347,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Apple",
     "category": "laptops",
     "productType": "Ultrabook",
-    "image": "/images/products/laptops/apple-macbook-neo-mhfh4tu-a-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/apple-macbook-neo-mhfh4tu-a-1.jpg",
-      "https://resim.epey.com/1048513/z_apple-macbook-neo-mhfh4tu-a-5.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 40,
@@ -6514,10 +6456,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Apple",
     "category": "laptops",
     "productType": "Ultrabook",
-    "image": "/images/products/laptops/apple-macbook-neo-mhfc4tu-a-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/apple-macbook-neo-mhfc4tu-a-1.jpg",
-      "https://resim.epey.com/1048511/z_apple-macbook-neo-mhfc4tu-a-5.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 40,
@@ -6624,10 +6565,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Apple",
     "category": "laptops",
     "productType": "Ultrabook",
-    "image": "/images/products/laptops/apple-macbook-neo-mhfa4tu-a-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/apple-macbook-neo-mhfa4tu-a-1.jpg",
-      "https://resim.epey.com/1048508/z_apple-macbook-neo-mhfa4tu-a-5.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 40,
@@ -6734,10 +6674,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Apple",
     "category": "laptops",
     "productType": "Ultrabook",
-    "image": "/images/products/laptops/apple-macbook-neo-mhfg4tu-a-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/apple-macbook-neo-mhfg4tu-a-1.jpg",
-      "https://resim.epey.com/1048507/z_apple-macbook-neo-mhfg4tu-a-5.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 40,
@@ -6844,10 +6783,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Apple",
     "category": "laptops",
     "productType": "Ultrabook",
-    "image": "/images/products/laptops/apple-macbook-neo-mhff4tu-a-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/apple-macbook-neo-mhff4tu-a-1.jpg",
-      "https://resim.epey.com/1048505/z_apple-macbook-neo-mhff4tu-a-5.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 40,
@@ -6954,10 +6892,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Apple",
     "category": "laptops",
     "productType": "Ultrabook",
-    "image": "/images/products/laptops/apple-macbook-neo-mhfe4tu-a-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/apple-macbook-neo-mhfe4tu-a-1.jpg",
-      "https://resim.epey.com/1048503/z_apple-macbook-neo-mhfe4tu-a-5.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 40,
@@ -7064,10 +7001,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Apple",
     "category": "laptops",
     "productType": "Ultrabook",
-    "image": "/images/products/laptops/apple-macbook-neo-mhfd4tu-a-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/apple-macbook-neo-mhfd4tu-a-1.jpg",
-      "https://resim.epey.com/1048466/z_apple-macbook-neo-mhfd4tu-a-5.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 40,
@@ -7174,10 +7110,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "ASUS",
     "category": "laptops",
     "productType": "Oyuncu Laptopu (Gaming)",
-    "image": "/images/products/laptops/asus-rog-strix-scar-18-g835lxg-tq378w-1.png",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/asus-rog-strix-scar-18-g835lxg-tq378w-1.png",
-      "https://resim.epey.com/1064689/z_asus-rog-strix-scar-18-g835lxg-tq378w-8.png"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.9,
     "epeyScore": 96,
@@ -7289,10 +7224,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "ASUS",
     "category": "laptops",
     "productType": "Oyuncu Laptopu (Gaming)",
-    "image": "/images/products/laptops/asus-rog-strix-scar-18-g835lw-sa127-a8-96gb-8tb-w11p-1.png",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/asus-rog-strix-scar-18-g835lw-sa127-a8-96gb-8tb-w11p-1.png",
-      "https://resim.epey.com/1063701/z_asus-rog-strix-scar-18-g835lw-sa127-a8-96gb-8tb-w11p-8.png"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.9,
     "epeyScore": 95,
@@ -7404,10 +7338,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "ASUS",
     "category": "laptops",
     "productType": "Oyuncu Laptopu (Gaming)",
-    "image": "/images/products/laptops/asus-rog-strix-scar-18-g835lw-sa127-a8-1.png",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/asus-rog-strix-scar-18-g835lw-sa127-a8-1.png",
-      "https://resim.epey.com/1063638/z_asus-rog-strix-scar-18-g835lw-sa127-a8-8.png"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.9,
     "epeyScore": 94,
@@ -7519,10 +7452,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "ASUS",
     "category": "laptops",
     "productType": "Oyuncu Laptopu (Gaming)",
-    "image": "/images/products/laptops/asus-rog-strix-scar-18-g835lw-sa127-a7-96gb-4tb-w11p-1.png",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/asus-rog-strix-scar-18-g835lw-sa127-a7-96gb-4tb-w11p-1.png",
-      "https://resim.epey.com/1063694/z_asus-rog-strix-scar-18-g835lw-sa127-a7-96gb-4tb-w11p-8.png"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.9,
     "epeyScore": 94,
@@ -7634,10 +7566,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "ASUS",
     "category": "laptops",
     "productType": "Oyuncu Laptopu (Gaming)",
-    "image": "/images/products/laptops/asus-rog-strix-scar-18-g835lx-sa156-1.png",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/asus-rog-strix-scar-18-g835lx-sa156-1.png",
-      "https://resim.epey.com/1033498/z_asus-rog-strix-scar-18-g835lx-sa156-8.png"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.9,
     "epeyScore": 94,
@@ -7749,10 +7680,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "ASUS",
     "category": "laptops",
     "productType": "Oyuncu Laptopu (Gaming)",
-    "image": "/images/products/laptops/asus-rog-strix-scar-18-g835lxg-tq548-1.png",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/asus-rog-strix-scar-18-g835lxg-tq548-1.png",
-      "https://resim.epey.com/1063703/z_asus-rog-strix-scar-18-g835lxg-tq548-8.png"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.9,
     "epeyScore": 93,
@@ -7864,10 +7794,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "ASUS",
     "category": "laptops",
     "productType": "Oyuncu Laptopu (Gaming)",
-    "image": "/images/products/laptops/asus-rog-strix-scar-18-g835lxg-tq547-1.png",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/asus-rog-strix-scar-18-g835lxg-tq547-1.png",
-      "https://resim.epey.com/1063702/z_asus-rog-strix-scar-18-g835lxg-tq547-8.png"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.9,
     "epeyScore": 93,
@@ -7979,10 +7908,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "ASUS",
     "category": "laptops",
     "productType": "Oyuncu Laptopu (Gaming)",
-    "image": "/images/products/laptops/asus-rog-strix-scar-18-g835lxg-tq549-1.png",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/asus-rog-strix-scar-18-g835lxg-tq549-1.png",
-      "https://resim.epey.com/1061913/z_asus-rog-strix-scar-18-g835lxg-tq549-8.png"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.9,
     "epeyScore": 93,
@@ -8094,10 +8022,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "ASUS",
     "category": "laptops",
     "productType": "Oyuncu Laptopu (Gaming)",
-    "image": "/images/products/laptops/asus-rog-strix-scar-18-g835lw-sa127-a2-64gb-4tb-w11p-1.png",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/asus-rog-strix-scar-18-g835lw-sa127-a2-64gb-4tb-w11p-1.png",
-      "https://resim.epey.com/1063658/z_asus-rog-strix-scar-18-g835lw-sa127-a2-64gb-4tb-w11p-8.png"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.9,
     "epeyScore": 93,
@@ -8209,10 +8136,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "ASUS",
     "category": "laptops",
     "productType": "Oyuncu Laptopu (Gaming)",
-    "image": "/images/products/laptops/asus-rog-strix-scar-18-g835lw-sa127-a7-1.png",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/asus-rog-strix-scar-18-g835lw-sa127-a7-1.png",
-      "https://resim.epey.com/1063636/z_asus-rog-strix-scar-18-g835lw-sa127-a7-8.png"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.9,
     "epeyScore": 93,
@@ -8324,10 +8250,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "ASUS",
     "category": "laptops",
     "productType": "Oyuncu Laptopu (Gaming)",
-    "image": "/images/products/laptops/asus-rog-strix-scar-16-wrwf14540-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/asus-rog-strix-scar-16-wrwf14540-1.jpg",
-      "https://resim.epey.com/1057845/z_asus-rog-strix-scar-16-wrwf14540-9.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.9,
     "epeyScore": 92,
@@ -8439,10 +8364,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "ASUS",
     "category": "laptops",
     "productType": "Oyuncu Laptopu (Gaming)",
-    "image": "/images/products/laptops/asus-rog-strix-scar-18-g835lw-sa127-a2-1.png",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/asus-rog-strix-scar-18-g835lw-sa127-a2-1.png",
-      "https://resim.epey.com/1063630/z_asus-rog-strix-scar-18-g835lw-sa127-a2-8.png"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.9,
     "epeyScore": 92,
@@ -8554,10 +8478,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "ASUS",
     "category": "laptops",
     "productType": "Oyuncu Laptopu (Gaming)",
-    "image": "/images/products/laptops/asus-rog-strix-scar-18-g835lw-sa127-a6-96gb-2tb-w11p-1.png",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/asus-rog-strix-scar-18-g835lw-sa127-a6-96gb-2tb-w11p-1.png",
-      "https://resim.epey.com/1063693/z_asus-rog-strix-scar-18-g835lw-sa127-a6-96gb-2tb-w11p-8.png"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.9,
     "epeyScore": 91,
@@ -8669,10 +8592,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "ASUS",
     "category": "laptops",
     "productType": "Oyuncu Laptopu (Gaming)",
-    "image": "/images/products/laptops/asus-rog-strix-scar-18-g835lw-sa127-a3-64gb-2tb-w11p-1.png",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/asus-rog-strix-scar-18-g835lw-sa127-a3-64gb-2tb-w11p-1.png",
-      "https://resim.epey.com/1063662/z_asus-rog-strix-scar-18-g835lw-sa127-a3-64gb-2tb-w11p-8.png"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.9,
     "epeyScore": 91,
@@ -8784,10 +8706,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "ASUS",
     "category": "laptops",
     "productType": "Oyuncu Laptopu (Gaming)",
-    "image": "/images/products/laptops/asus-rog-strix-scar-18-g835lw-sa127-a1-1.png",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/asus-rog-strix-scar-18-g835lw-sa127-a1-1.png",
-      "https://resim.epey.com/1063651/z_asus-rog-strix-scar-18-g835lw-sa127-a1-8.png"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.9,
     "epeyScore": 91,
@@ -8899,10 +8820,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "ASUS",
     "category": "laptops",
     "productType": "Oyuncu Laptopu (Gaming)",
-    "image": "/images/products/laptops/asus-rog-strix-scar-18-g835lw-sa127-a6-1.png",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/asus-rog-strix-scar-18-g835lw-sa127-a6-1.png",
-      "https://resim.epey.com/1063635/z_asus-rog-strix-scar-18-g835lw-sa127-a6-8.png"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.9,
     "epeyScore": 90,
@@ -9014,10 +8934,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "ASUS",
     "category": "laptops",
     "productType": "Oyuncu Laptopu (Gaming)",
-    "image": "/images/products/laptops/asus-rog-strix-scar-18-g835lw-sa127-a5-96gb-1tb-w11p-1.png",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/asus-rog-strix-scar-18-g835lw-sa127-a5-96gb-1tb-w11p-1.png",
-      "https://resim.epey.com/1063692/z_asus-rog-strix-scar-18-g835lw-sa127-a5-96gb-1tb-w11p-8.png"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.9,
     "epeyScore": 90,
@@ -9129,10 +9048,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "ASUS",
     "category": "laptops",
     "productType": "Oyuncu Laptopu (Gaming)",
-    "image": "/images/products/laptops/asus-rog-strix-g18-g815lw-s9128-1.png",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/asus-rog-strix-g18-g815lw-s9128-1.png",
-      "https://resim.epey.com/1009096/z_asus-rog-strix-g18-g815lw-s9128-7.png"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 83,
@@ -9244,10 +9162,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "ASUS",
     "category": "laptops",
     "productType": "Oyuncu Laptopu (Gaming)",
-    "image": "/images/products/laptops/asus-rog-strix-scar-16-wrwf14501-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/asus-rog-strix-scar-16-wrwf14501-1.jpg",
-      "https://resim.epey.com/1057844/z_asus-rog-strix-scar-16-wrwf14501-9.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 83,
@@ -9359,10 +9276,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "ASUS",
     "category": "laptops",
     "productType": "Oyuncu Laptopu (Gaming)",
-    "image": "/images/products/laptops/asus-rog-strix-g16-g614ph-rv036ep8-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/asus-rog-strix-g16-g614ph-rv036ep8-1.jpg",
-      "https://resim.epey.com/1033168/z_asus-rog-strix-g16-g614ph-rv036ep8-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 82,
@@ -9474,10 +9390,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "ASUS",
     "category": "laptops",
     "productType": "İnce & Hafif Oyuncu Laptopu",
-    "image": "/images/products/laptops/asus-rog-zephyrus-g16-gu606ax-tb044-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/asus-rog-zephyrus-g16-gu606ax-tb044-1.jpg",
-      "https://resim.epey.com/1058411/z_asus-rog-zephyrus-g16-gu606ax-tb044-3.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 82,
@@ -9589,10 +9504,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "ASUS",
     "category": "laptops",
     "productType": "Oyuncu Laptopu (Gaming)",
-    "image": "/images/products/laptops/asus-rog-strix-g16-g615lw-s5185-a6-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/asus-rog-strix-g16-g615lw-s5185-a6-1.jpg",
-      "https://resim.epey.com/1068430/z_asus-rog-strix-g16-g615lw-s5185-a6-8.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 82,
@@ -9704,10 +9618,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "ASUS",
     "category": "laptops",
     "productType": "Oyuncu Laptopu (Gaming)",
-    "image": "/images/products/laptops/asus-rog-strix-g16-g615lw-s5187-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/asus-rog-strix-g16-g615lw-s5187-1.jpg",
-      "https://resim.epey.com/1068431/z_asus-rog-strix-g16-g615lw-s5187-8.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 81,
@@ -9819,10 +9732,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "ASUS",
     "category": "laptops",
     "productType": "Oyuncu Laptopu (Gaming)",
-    "image": "/images/products/laptops/asus-rog-strix-g16-g615lw-s5185-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/asus-rog-strix-g16-g615lw-s5185-1.jpg",
-      "https://resim.epey.com/1029336/z_asus-rog-strix-g16-g615lw-s5185-8.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 81,
@@ -9934,10 +9846,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "ASUS",
     "category": "laptops",
     "productType": "Oyuncu Laptopu (Gaming)",
-    "image": "/images/products/laptops/asus-rog-strix-g18-g815lr-s9155-1.png",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/asus-rog-strix-g18-g815lr-s9155-1.png",
-      "https://resim.epey.com/1031296/z_asus-rog-strix-g18-g815lr-s9155-7.png"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 81,
@@ -10049,10 +9960,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "ASUS",
     "category": "laptops",
     "productType": "Oyuncu Laptopu (Gaming)",
-    "image": "/images/products/laptops/asus-rog-strix-g16-g614ph-rv036ep2-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/asus-rog-strix-g16-g614ph-rv036ep2-1.jpg",
-      "https://resim.epey.com/1033199/z_asus-rog-strix-g16-g614ph-rv036ep2-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 81,
@@ -10164,10 +10074,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "ASUS",
     "category": "laptops",
     "productType": "Oyuncu Laptopu (Gaming)",
-    "image": "/images/products/laptops/asus-rog-strix-g16-g614ph-rv036ep5-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/asus-rog-strix-g16-g614ph-rv036ep5-1.jpg",
-      "https://resim.epey.com/1033195/z_asus-rog-strix-g16-g614ph-rv036ep5-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 81,
@@ -10279,10 +10188,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "ASUS",
     "category": "laptops",
     "productType": "Oyuncu Laptopu (Gaming)",
-    "image": "/images/products/laptops/asus-rog-strix-g16-g615lp-s5115-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/asus-rog-strix-g16-g615lp-s5115-1.jpg",
-      "https://resim.epey.com/1029344/z_asus-rog-strix-g16-g615lp-s5115-8.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 81,
@@ -10394,10 +10302,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "ASUS",
     "category": "laptops",
     "productType": "Oyuncu Laptopu (Gaming)",
-    "image": "/images/products/laptops/asus-rog-strix-g18-2025-g814pp-s9006w-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/asus-rog-strix-g18-2025-g814pp-s9006w-1.jpg",
-      "https://resim.epey.com/1038184/z_asus-rog-strix-g18-g814jz-n6002w-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 80,
@@ -10509,10 +10416,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "ASUS",
     "category": "laptops",
     "productType": "Oyuncu Laptopu (Gaming)",
-    "image": "/images/products/laptops/asus-rog-strix-g16-g614pm-s5062hmf28-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/asus-rog-strix-g16-g614pm-s5062hmf28-1.jpg",
-      "https://resim.epey.com/1066939/z_asus-rog-strix-g16-g614pm-s5062hmf28-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 80,
@@ -10624,10 +10530,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "ASUS",
     "category": "laptops",
     "productType": "Oyuncu Laptopu (Gaming)",
-    "image": "/images/products/laptops/asus-rog-strix-g16-g614pr-rv052-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/asus-rog-strix-g16-g614pr-rv052-1.jpg",
-      "https://resim.epey.com/1013350/z_asus-rog-strix-g16-g614pr-rv052-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 80,
@@ -10739,10 +10644,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "ASUS",
     "category": "laptops",
     "productType": "Oyuncu Laptopu (Gaming)",
-    "image": "/images/products/laptops/asus-rog-strix-g16-g614pr-rv050-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/asus-rog-strix-g16-g614pr-rv050-1.jpg",
-      "https://resim.epey.com/1013285/z_asus-rog-strix-g16-g614pr-rv050-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 80,
@@ -10854,10 +10758,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "ASUS",
     "category": "laptops",
     "productType": "Oyuncu Laptopu (Gaming)",
-    "image": "/images/products/laptops/asus-tuf-gaming-a16-fa608pp-qt031-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/asus-tuf-gaming-a16-fa608pp-qt031-1.jpg",
-      "https://resim.epey.com/1031774/z_asus-tuf-gaming-a16-fa608pp-qt031-5.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 80,
@@ -10969,10 +10872,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "ASUS",
     "category": "laptops",
     "productType": "Oyuncu Laptopu (Gaming)",
-    "image": "/images/products/laptops/asus-rog-strix-g16-g614jvr-n3243-c39-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/asus-rog-strix-g16-g614jvr-n3243-c39-1.jpg",
-      "https://resim.epey.com/1051031/z_asus-rog-strix-g16-g614jvr-n3243-c39-7.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 79,
@@ -11084,10 +10986,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "ASUS",
     "category": "laptops",
     "productType": "Oyuncu Laptopu (Gaming)",
-    "image": "/images/products/laptops/asus-rog-strix-g16-g614jvr-n3243-fr39-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/asus-rog-strix-g16-g614jvr-n3243-fr39-1.jpg",
-      "https://resim.epey.com/1050968/z_asus-rog-strix-g16-g614jvr-n3243-fr39-7.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 79,
@@ -11199,10 +11100,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "ASUS",
     "category": "laptops",
     "productType": "İnce & Hafif Oyuncu Laptopu",
-    "image": "/images/products/laptops/asus-rog-zephyrus-g16-gu605cr-qr177w-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/asus-rog-zephyrus-g16-gu605cr-qr177w-1.jpg",
-      "https://resim.epey.com/1011800/z_asus-rog-zephyrus-g16-gu605cr-qr200w-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 77,
@@ -11314,10 +11214,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "ASUS",
     "category": "laptops",
     "productType": "Oyuncu Laptopu (Gaming)",
-    "image": "/images/products/laptops/asus-rog-strix-g16-g614jvr-n3243-fr41-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/asus-rog-strix-g16-g614jvr-n3243-fr41-1.jpg",
-      "https://resim.epey.com/1051108/z_asus-rog-strix-g16-g614jvr-n3243-fr41-7.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 77,
@@ -11429,10 +11328,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "ASUS",
     "category": "laptops",
     "productType": "Oyuncu Laptopu (Gaming)",
-    "image": "/images/products/laptops/asus-rog-strix-g16-g614jvr-n3243-c41-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/asus-rog-strix-g16-g614jvr-n3243-c41-1.jpg",
-      "https://resim.epey.com/1051049/z_asus-rog-strix-g16-g614jvr-n3243-c41-7.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 77,
@@ -11544,10 +11442,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "ASUS",
     "category": "laptops",
     "productType": "Oyuncu Laptopu (Gaming)",
-    "image": "/images/products/laptops/asus-rog-strix-g16-g614pw-rv035-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/asus-rog-strix-g16-g614pw-rv035-1.jpg",
-      "https://resim.epey.com/1067258/z_asus-rog-strix-g16-g614pw-rv035-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 77,
@@ -11659,10 +11556,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "ASUS",
     "category": "laptops",
     "productType": "Oyuncu Laptopu (Gaming)",
-    "image": "/images/products/laptops/asus-rog-strix-g16-g614pw-rv036-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/asus-rog-strix-g16-g614pw-rv036-1.jpg",
-      "https://resim.epey.com/1067257/z_asus-rog-strix-g16-g614pw-rv036-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 77,
@@ -11774,10 +11670,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "ASUS",
     "category": "laptops",
     "productType": "Oyuncu Laptopu (Gaming)",
-    "image": "/images/products/laptops/asus-rog-strix-g16-g614pp-rv218-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/asus-rog-strix-g16-g614pp-rv218-1.jpg",
-      "https://resim.epey.com/1064672/z_asus-rog-strix-g16-g614pp-rv218-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 77,
@@ -11889,10 +11784,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "ASUS",
     "category": "laptops",
     "productType": "Oyuncu Laptopu (Gaming)",
-    "image": "/images/products/laptops/asus-rog-strix-g16-g614pm-s5062hmf14-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/asus-rog-strix-g16-g614pm-s5062hmf14-1.jpg",
-      "https://resim.epey.com/1066950/z_asus-rog-strix-g16-g614pm-s5062hmf14-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 77,
@@ -12004,10 +11898,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "ASUS",
     "category": "laptops",
     "productType": "Oyuncu Laptopu (Gaming)",
-    "image": "/images/products/laptops/asus-rog-strix-g16-g614pm-s5062hmf30-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/asus-rog-strix-g16-g614pm-s5062hmf30-1.jpg",
-      "https://resim.epey.com/1066987/z_asus-rog-strix-g16-g614pm-s5062hmf30-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 77,
@@ -12119,10 +12012,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "ASUS",
     "category": "laptops",
     "productType": "Oyuncu Laptopu (Gaming)",
-    "image": "/images/products/laptops/asus-tuf-gaming-f16-fx608jmr-rv067ep11-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/asus-tuf-gaming-f16-fx608jmr-rv067ep11-1.jpg",
-      "https://resim.epey.com/1054245/z_asus-tuf-gaming-f16-fx608jmr-rv067ep11-6.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 77,
@@ -12234,10 +12126,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "ASUS",
     "category": "laptops",
     "productType": "Oyuncu Laptopu (Gaming)",
-    "image": "/images/products/laptops/asus-tuf-gaming-f16-fx608jmr-rv024-ep11-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/asus-tuf-gaming-f16-fx608jmr-rv024-ep11-1.jpg",
-      "https://resim.epey.com/1054159/z_asus-tuf-gaming-f16-fx608jmr-rv024-ep11-6.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 77,
@@ -12349,10 +12240,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "ASUS",
     "category": "laptops",
     "productType": "Oyuncu Laptopu (Gaming)",
-    "image": "/images/products/laptops/asus-rog-strix-g16-g614jvr-n3243-c21-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/asus-rog-strix-g16-g614jvr-n3243-c21-1.jpg",
-      "https://resim.epey.com/1051093/z_asus-rog-strix-g16-g614jvr-n3243-c21-7.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 77,
@@ -12464,10 +12354,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "ASUS",
     "category": "laptops",
     "productType": "Oyuncu Laptopu (Gaming)",
-    "image": "/images/products/laptops/asus-rog-strix-g16-g614jvr-n3243-fr21-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/asus-rog-strix-g16-g614jvr-n3243-fr21-1.jpg",
-      "https://resim.epey.com/1050835/z_asus-rog-strix-g16-g614jvr-n3243-fr21-7.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 77,
@@ -12579,10 +12468,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "ASUS",
     "category": "laptops",
     "productType": "Oyuncu Laptopu (Gaming)",
-    "image": "/images/products/laptops/asus-rog-strix-g16-g614ph-rv036ep4-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/asus-rog-strix-g16-g614ph-rv036ep4-1.jpg",
-      "https://resim.epey.com/1033196/z_asus-rog-strix-g16-g614ph-rv036ep4-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 77,
@@ -12694,10 +12582,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "ASUS",
     "category": "laptops",
     "productType": "Oyuncu Laptopu (Gaming)",
-    "image": "/images/products/laptops/asus-rog-strix-g16-g614pm-s5074-64gb-2tb-dos-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/asus-rog-strix-g16-g614pm-s5074-64gb-2tb-dos-1.jpg",
-      "https://resim.epey.com/1067206/z_asus-rog-strix-g16-g614pm-s5074-64gb-2tb-dos-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 77,
@@ -12809,10 +12696,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "ASUS",
     "category": "laptops",
     "productType": "Oyuncu Laptopu (Gaming)",
-    "image": "/images/products/laptops/asus-rog-strix-g16-g614pm-s5062hmf8-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/asus-rog-strix-g16-g614pm-s5062hmf8-1.jpg",
-      "https://resim.epey.com/1066973/z_asus-rog-strix-g16-g614pm-s5062hmf8-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 77,
@@ -12924,10 +12810,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "ASUS",
     "category": "laptops",
     "productType": "Oyuncu Laptopu (Gaming)",
-    "image": "/images/products/laptops/asus-rog-strix-g16-g614ph-rv036ep6-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/asus-rog-strix-g16-g614ph-rv036ep6-1.jpg",
-      "https://resim.epey.com/1033171/z_asus-rog-strix-g16-g614ph-rv036ep6-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 77,
@@ -13039,10 +12924,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "ASUS",
     "category": "laptops",
     "productType": "Oyuncu Laptopu (Gaming)",
-    "image": "/images/products/laptops/asus-tuf-gaming-f16-fx608jpr-qt069ep2-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/asus-tuf-gaming-f16-fx608jpr-qt069ep2-1.jpg",
-      "https://resim.epey.com/1065493/z_asus-tuf-gaming-f16-fx608jpr-qt069ep2-6.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 77,
@@ -13154,10 +13038,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "ASUS",
     "category": "laptops",
     "productType": "Oyuncu Laptopu (Gaming)",
-    "image": "/images/products/laptops/asus-rog-strix-g16-g614pm-s5062hmf24-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/asus-rog-strix-g16-g614pm-s5062hmf24-1.jpg",
-      "https://resim.epey.com/1066986/z_asus-rog-strix-g16-g614pm-s5062hmf24-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 76,
@@ -13269,10 +13152,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "ASUS",
     "category": "laptops",
     "productType": "Oyuncu Laptopu (Gaming)",
-    "image": "/images/products/laptops/asus-rog-strix-g16-g614pm-s5074-64gb-1tb-dos-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/asus-rog-strix-g16-g614pm-s5074-64gb-1tb-dos-1.jpg",
-      "https://resim.epey.com/1067197/z_asus-rog-strix-g16-g614pm-s5074-64gb-1tb-dos-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 76,
@@ -13384,10 +13266,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "ASUS",
     "category": "laptops",
     "productType": "Oyuncu Laptopu (Gaming)",
-    "image": "/images/products/laptops/asus-rog-strix-g16-g614pm-s5062hmf3-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/asus-rog-strix-g16-g614pm-s5062hmf3-1.jpg",
-      "https://resim.epey.com/1066956/z_asus-rog-strix-g16-g614pm-s5062hmf3-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 76,
@@ -13499,10 +13380,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "ASUS",
     "category": "laptops",
     "productType": "Oyuncu Laptopu (Gaming)",
-    "image": "/images/products/laptops/asus-rog-strix-g16-g614ph-16gb-1tb-w11h-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/asus-rog-strix-g16-g614ph-16gb-1tb-w11h-1.jpg",
-      "https://resim.epey.com/1054452/z_asus-rog-strix-g16-g614ph-16gb-1tb-w11h-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 75,
@@ -13614,10 +13494,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "ASUS",
     "category": "laptops",
     "productType": "Oyuncu Laptopu (Gaming)",
-    "image": "/images/products/laptops/asus-rog-strix-g16-g614jvr-n3243-c38-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/asus-rog-strix-g16-g614jvr-n3243-c38-1.jpg",
-      "https://resim.epey.com/1050991/z_asus-rog-strix-g16-g614jvr-n3243-c38-7.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 75,
@@ -13729,10 +13608,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "ASUS",
     "category": "laptops",
     "productType": "Oyuncu Laptopu (Gaming)",
-    "image": "/images/products/laptops/asus-rog-strix-g16-g614jvr-n3243-fr38-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/asus-rog-strix-g16-g614jvr-n3243-fr38-1.jpg",
-      "https://resim.epey.com/1050966/z_asus-rog-strix-g16-g614jvr-n3243-fr38-7.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 75,
@@ -13844,10 +13722,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "ASUS",
     "category": "laptops",
     "productType": "Oyuncu Laptopu (Gaming)",
-    "image": "/images/products/laptops/asus-tuf-gaming-f16-fx608jmr-rv024-ep7-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/asus-tuf-gaming-f16-fx608jmr-rv024-ep7-1.jpg",
-      "https://resim.epey.com/1054167/z_asus-tuf-gaming-f16-fx608jmr-rv024-ep7-6.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 75,
@@ -13959,10 +13836,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "ASUS",
     "category": "laptops",
     "productType": "İnce & Hafif Oyuncu Laptopu",
-    "image": "/images/products/laptops/asus-rog-zephyrus-g16-gu605cp-qr127-1.png",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/asus-rog-zephyrus-g16-gu605cp-qr127-1.png",
-      "https://resim.epey.com/1068275/z_asus-rog-zephyrus-g16-gu605cp-qr127-7.png"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 75,
@@ -14074,10 +13950,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "ASUS",
     "category": "laptops",
     "productType": "Oyuncu Laptopu (Gaming)",
-    "image": "/images/products/laptops/asus-rog-strix-g16-g614pm-s5062hmf12-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/asus-rog-strix-g16-g614pm-s5062hmf12-1.jpg",
-      "https://resim.epey.com/1066949/z_asus-rog-strix-g16-g614pm-ws5062f41-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 75,
@@ -14189,10 +14064,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "ASUS",
     "category": "laptops",
     "productType": "Oyuncu Laptopu (Gaming)",
-    "image": "/images/products/laptops/asus-rog-strix-g16-g614jvr-n3243-c57-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/asus-rog-strix-g16-g614jvr-n3243-c57-1.jpg",
-      "https://resim.epey.com/1051003/z_asus-rog-strix-g16-g614jvr-n3243-c57-7.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 75,
@@ -14304,10 +14178,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "ASUS",
     "category": "laptops",
     "productType": "Oyuncu Laptopu (Gaming)",
-    "image": "/images/products/laptops/asus-rog-strix-g16-g614jvr-n3243-fr57-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/asus-rog-strix-g16-g614jvr-n3243-fr57-1.jpg",
-      "https://resim.epey.com/1050951/z_asus-rog-strix-g16-g614jvr-n3243-fr57-7.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 75,
@@ -14419,10 +14292,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "ASUS",
     "category": "laptops",
     "productType": "İnce & Hafif Oyuncu Laptopu",
-    "image": "/images/products/laptops/asus-rog-zephyrus-g16-gu606ar-tb044-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/asus-rog-zephyrus-g16-gu606ar-tb044-1.jpg",
-      "https://resim.epey.com/1061910/z_asus-rog-zephyrus-g16-gu606ar-tb044-3.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 75,
@@ -14534,10 +14406,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "ASUS",
     "category": "laptops",
     "productType": "İnce & Hafif Oyuncu Laptopu",
-    "image": "/images/products/laptops/asus-rog-zephyrus-g16-gu606ar-tb047-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/asus-rog-zephyrus-g16-gu606ar-tb047-1.jpg",
-      "https://resim.epey.com/1058413/z_asus-rog-zephyrus-g16-gu606ar-tb047-3.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 75,
@@ -14649,10 +14520,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "ASUS",
     "category": "laptops",
     "productType": "Oyuncu Laptopu (Gaming)",
-    "image": "/images/products/laptops/asus-rog-strix-g16-g614jvr-n3243-c23-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/asus-rog-strix-g16-g614jvr-n3243-c23-1.jpg",
-      "https://resim.epey.com/1051058/z_asus-rog-strix-g16-g614jvr-n3243-c23-7.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 75,
@@ -14764,10 +14634,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "ASUS",
     "category": "laptops",
     "productType": "Oyuncu Laptopu (Gaming)",
-    "image": "/images/products/laptops/asus-rog-strix-g16-g614jvr-n3243-fr23-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/asus-rog-strix-g16-g614jvr-n3243-fr23-1.jpg",
-      "https://resim.epey.com/1050954/z_asus-rog-strix-g16-g614jvr-n3243-fr23-7.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 75,
@@ -14879,10 +14748,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "ASUS",
     "category": "laptops",
     "productType": "Oyuncu Laptopu (Gaming)",
-    "image": "/images/products/laptops/asus-rog-strix-g16-g614pm-s5074-64gb-512ssd-dos-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/asus-rog-strix-g16-g614pm-s5074-64gb-512ssd-dos-1.jpg",
-      "https://resim.epey.com/1067215/z_asus-rog-strix-g16-g614pm-s5074-64gb-512ssd-dos-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 75,
@@ -14994,10 +14862,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "ASUS",
     "category": "laptops",
     "productType": "Oyuncu Laptopu (Gaming)",
-    "image": "/images/products/laptops/asus-rog-strix-g16-g614ph-16gb-512ssd-w11h-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/asus-rog-strix-g16-g614ph-16gb-512ssd-w11h-1.jpg",
-      "https://resim.epey.com/1054450/z_asus-rog-strix-g16-g614ph-16gb-512ssd-w11h-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 75,
@@ -15109,10 +14976,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "ASUS",
     "category": "laptops",
     "productType": "Oyuncu Laptopu (Gaming)",
-    "image": "/images/products/laptops/asus-rog-strix-g16-g614ph-rv036ep3-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/asus-rog-strix-g16-g614ph-rv036ep3-1.jpg",
-      "https://resim.epey.com/1033197/z_asus-rog-strix-g16-g614ph-rv036ep3-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 75,
@@ -15224,10 +15090,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "ASUS",
     "category": "laptops",
     "productType": "Oyuncu Laptopu (Gaming)",
-    "image": "/images/products/laptops/asus-rog-strix-g16-g614jvr-n3243-fr24-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/asus-rog-strix-g16-g614jvr-n3243-fr24-1.jpg",
-      "https://resim.epey.com/1050407/z_asus-rog-strix-g16-g614jvr-n3243-fr24-7.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 74,
@@ -15339,10 +15204,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "ASUS",
     "category": "laptops",
     "productType": "Oyuncu Laptopu (Gaming)",
-    "image": "/images/products/laptops/asus-rog-strix-g16-g614pm-s5074-k32-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/asus-rog-strix-g16-g614pm-s5074-k32-1.jpg",
-      "https://resim.epey.com/1066934/z_asus-rog-strix-g16-g614pm-s5074-k32-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 74,
@@ -15454,10 +15318,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "ASUS",
     "category": "laptops",
     "productType": "Oyuncu Laptopu (Gaming)",
-    "image": "/images/products/laptops/asus-tuf-gaming-f16-fx608jpr-qt069ep6-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/asus-tuf-gaming-f16-fx608jpr-qt069ep6-1.jpg",
-      "https://resim.epey.com/1065505/z_asus-tuf-gaming-f16-fx608jpr-qt069ep6-6.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 74,
@@ -15569,10 +15432,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "ASUS",
     "category": "laptops",
     "productType": "Oyuncu Laptopu (Gaming)",
-    "image": "/images/products/laptops/asus-rog-strix-g16-g614jvr-n3096-38-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/asus-rog-strix-g16-g614jvr-n3096-38-1.jpg",
-      "https://resim.epey.com/1048359/z_asus-rog-strix-g16-g614jvr-n3096-38-4.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 74,
@@ -15684,10 +15546,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "ASUS",
     "category": "laptops",
     "productType": "Oyuncu Laptopu (Gaming)",
-    "image": "/images/products/laptops/asus-rog-strix-g16-g614pm-s5062hmf10-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/asus-rog-strix-g16-g614pm-s5062hmf10-1.jpg",
-      "https://resim.epey.com/1066988/z_asus-rog-strix-g16-g614pm-s5062hmf10-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 74,
@@ -15799,10 +15660,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "ASUS",
     "category": "laptops",
     "productType": "Oyuncu Laptopu (Gaming)",
-    "image": "/images/products/laptops/asus-rog-strix-g16-g614pm-s5074-32gb-2tb-w11p-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/asus-rog-strix-g16-g614pm-s5074-32gb-2tb-w11p-1.jpg",
-      "https://resim.epey.com/1067077/z_asus-rog-strix-g16-g614pm-s5074-32gb-2tb-w11p-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 74,
@@ -15914,10 +15774,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "ASUS",
     "category": "laptops",
     "productType": "Oyuncu Laptopu (Gaming)",
-    "image": "/images/products/laptops/asus-rog-strix-g16-g614jvr-n3243-fr5-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/asus-rog-strix-g16-g614jvr-n3243-fr5-1.jpg",
-      "https://resim.epey.com/1050969/z_asus-rog-strix-g16-g614jvr-n3243-fr5-7.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 74,
@@ -16029,10 +15888,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "ASUS",
     "category": "laptops",
     "productType": "Oyuncu Laptopu (Gaming)",
-    "image": "/images/products/laptops/asus-rog-strix-g16-g614jvr-n3243-c5-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/asus-rog-strix-g16-g614jvr-n3243-c5-1.jpg",
-      "https://resim.epey.com/1050836/z_asus-rog-strix-g16-g614jvr-n3243-c5-7.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 74,
@@ -16144,10 +16002,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "ASUS",
     "category": "laptops",
     "productType": "Oyuncu Laptopu (Gaming)",
-    "image": "/images/products/laptops/asus-rog-strix-g16-g614pm-s5062hmf22-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/asus-rog-strix-g16-g614pm-s5062hmf22-1.jpg",
-      "https://resim.epey.com/1040949/z_asus-rog-strix-g16-g614pm-s5062hmf22-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 74,
@@ -16259,10 +16116,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "ASUS",
     "category": "laptops",
     "productType": "Oyuncu Laptopu (Gaming)",
-    "image": "/images/products/laptops/asus-rog-strix-g16-g614pm-s5074-48gb-1tb-dos-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/asus-rog-strix-g16-g614pm-s5074-48gb-1tb-dos-1.jpg",
-      "https://resim.epey.com/1067216/z_asus-rog-strix-g16-g614pm-s5074-48gb-1tb-dos-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 74,
@@ -16374,10 +16230,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "ASUS",
     "category": "laptops",
     "productType": "Oyuncu Laptopu (Gaming)",
-    "image": "/images/products/laptops/asus-rog-strix-g16-g614pm-s5062hmf4-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/asus-rog-strix-g16-g614pm-s5062hmf4-1.jpg",
-      "https://resim.epey.com/1040960/z_asus-rog-strix-g16-g614pm-s5062hmf4-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 74,
@@ -16489,10 +16344,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "ASUS",
     "category": "laptops",
     "productType": "Oyuncu Laptopu (Gaming)",
-    "image": "/images/products/laptops/asus-rog-strix-g16-g614pm-s5074-40gb-1tb-w11p-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/asus-rog-strix-g16-g614pm-s5074-40gb-1tb-w11p-1.jpg",
-      "https://resim.epey.com/1067126/z_asus-rog-strix-g16-g614pm-s5074-40gb-1tb-w11p-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 74,
@@ -16604,10 +16458,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "ASUS",
     "category": "laptops",
     "productType": "Oyuncu Laptopu (Gaming)",
-    "image": "/images/products/laptops/asus-rog-strix-g16-g614jvr-n3096-58-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/asus-rog-strix-g16-g614jvr-n3096-58-1.jpg",
-      "https://resim.epey.com/1050590/z_asus-rog-strix-g16-g614jvr-n3096-58-4.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 74,
@@ -16719,10 +16572,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "ASUS",
     "category": "laptops",
     "productType": "Oyuncu Laptopu (Gaming)",
-    "image": "/images/products/laptops/asus-rog-strix-g16-g614jvr-n3243-c37-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/asus-rog-strix-g16-g614jvr-n3243-c37-1.jpg",
-      "https://resim.epey.com/1050949/z_asus-rog-strix-g16-g614jvr-n3243-c37-7.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 73,
@@ -16834,10 +16686,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "ASUS",
     "category": "laptops",
     "productType": "Oyuncu Laptopu (Gaming)",
-    "image": "/images/products/laptops/asus-rog-strix-g16-g614jvr-n3243-fr37-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/asus-rog-strix-g16-g614jvr-n3243-fr37-1.jpg",
-      "https://resim.epey.com/1050860/z_asus-rog-strix-g16-g614jvr-n3243-fr37-7.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 73,
@@ -16949,10 +16800,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "ASUS",
     "category": "laptops",
     "productType": "Oyuncu Laptopu (Gaming)",
-    "image": "/images/products/laptops/asus-rog-strix-g16-g614pm-s5062hmf11-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/asus-rog-strix-g16-g614pm-s5062hmf11-1.jpg",
-      "https://resim.epey.com/1066979/z_asus-rog-strix-g16-g614pm-s5062hmf11-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 73,
@@ -17064,10 +16914,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "ASUS",
     "category": "laptops",
     "productType": "Oyuncu Laptopu (Gaming)",
-    "image": "/images/products/laptops/asus-rog-strix-g16-g614jvr-n3243-c59-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/asus-rog-strix-g16-g614jvr-n3243-c59-1.jpg",
-      "https://resim.epey.com/1051054/z_asus-rog-strix-g16-g614jvr-n3243-c59-7.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 73,
@@ -17179,10 +17028,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "ASUS",
     "category": "laptops",
     "productType": "Oyuncu Laptopu (Gaming)",
-    "image": "/images/products/laptops/asus-rog-strix-g16-g614jvr-n3243-fr59-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/asus-rog-strix-g16-g614jvr-n3243-fr59-1.jpg",
-      "https://resim.epey.com/1050955/z_asus-rog-strix-g16-g614jvr-n3243-fr59-7.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 74,
@@ -17294,10 +17142,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "ASUS",
     "category": "laptops",
     "productType": "Oyuncu Laptopu (Gaming)",
-    "image": "/images/products/laptops/asus-rog-strix-g16-g615jh-rv052-fr38-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/asus-rog-strix-g16-g615jh-rv052-fr38-1.jpg",
-      "https://resim.epey.com/1053595/z_asus-rog-strix-g16-g615jh-rv052-fr38-8.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 73,
@@ -17409,10 +17256,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "ASUS",
     "category": "laptops",
     "productType": "Oyuncu Laptopu (Gaming)",
-    "image": "/images/products/laptops/asus-rog-strix-g16-g615jh-rv052-fr33-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/asus-rog-strix-g16-g615jh-rv052-fr33-1.jpg",
-      "https://resim.epey.com/1068364/z_asus-rog-strix-g16-g615jh-rv052-fr33-8.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 73,
@@ -17524,10 +17370,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "ASUS",
     "category": "laptops",
     "productType": "Oyuncu Laptopu (Gaming)",
-    "image": "/images/products/laptops/asus-tuf-gaming-f16-fx608jpr-qt069-32gb-1tb-w11p-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/asus-tuf-gaming-f16-fx608jpr-qt069-32gb-1tb-w11p-1.jpg",
-      "https://resim.epey.com/1065489/z_asus-tuf-gaming-f16-fx608jpr-qt069-32gb-1tb-w11p-6.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 73,
@@ -17639,10 +17484,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "ASUS",
     "category": "laptops",
     "productType": "Oyuncu Laptopu (Gaming)",
-    "image": "/images/products/laptops/asus-tuf-gaming-f16-fx608jpr-qt014w-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/asus-tuf-gaming-f16-fx608jpr-qt014w-1.jpg",
-      "https://resim.epey.com/1056376/z_asus-tuf-gaming-a16-fx608jpr-qt014w-10.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 73,
@@ -17754,10 +17598,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "ASUS",
     "category": "laptops",
     "productType": "Oyuncu Laptopu (Gaming)",
-    "image": "/images/products/laptops/asus-tuf-gaming-f16-fx608jpr-qt063w-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/asus-tuf-gaming-f16-fx608jpr-qt063w-1.jpg",
-      "https://resim.epey.com/1022618/z_asus-tuf-gaming-f16-fx608jpr-qt063w-6.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 73,
@@ -17869,10 +17712,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "ASUS",
     "category": "laptops",
     "productType": "Oyuncu Laptopu (Gaming)",
-    "image": "/images/products/laptops/asus-rog-strix-g16-g614pm-s5074-40gb-1tb-dos-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/asus-rog-strix-g16-g614pm-s5074-40gb-1tb-dos-1.jpg",
-      "https://resim.epey.com/1067319/z_asus-rog-strix-g16-g614pm-s5074-40gb-1tb-dos-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 73,
@@ -17984,10 +17826,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "ASUS",
     "category": "laptops",
     "productType": "Oyuncu Laptopu (Gaming)",
-    "image": "/images/products/laptops/asus-rog-strix-g16-g614pm-s5062hmf5-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/asus-rog-strix-g16-g614pm-s5062hmf5-1.jpg",
-      "https://resim.epey.com/1066971/z_asus-rog-strix-g16-g614pm-s5062hmf5-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 73,
@@ -18099,10 +17940,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "ASUS",
     "category": "laptops",
     "productType": "Oyuncu Laptopu (Gaming)",
-    "image": "/images/products/laptops/asus-rog-strix-g16-g614pm-s5062hmf17-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/asus-rog-strix-g16-g614pm-s5062hmf17-1.jpg",
-      "https://resim.epey.com/1066940/z_asus-rog-strix-g16-g614pm-s5062hmf17-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 73,
@@ -18214,10 +18054,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "ASUS",
     "category": "laptops",
     "productType": "Oyuncu Laptopu (Gaming)",
-    "image": "/images/products/laptops/asus-rog-strix-g16-g614jvr-n3096-18-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/asus-rog-strix-g16-g614jvr-n3096-18-1.jpg",
-      "https://resim.epey.com/1048188/z_asus-rog-strix-g16-g614jvr-n3096-18-4.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 73,
@@ -18329,10 +18168,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "ASUS",
     "category": "laptops",
     "productType": "Oyuncu Laptopu (Gaming)",
-    "image": "/images/products/laptops/asus-rog-strix-g16-g614jvr-n3243-c60-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/asus-rog-strix-g16-g614jvr-n3243-c60-1.jpg",
-      "https://resim.epey.com/1051038/z_asus-rog-strix-g16-g614jvr-n3243-c60-7.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 72,
@@ -18444,10 +18282,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "ASUS",
     "category": "laptops",
     "productType": "Oyuncu Laptopu (Gaming)",
-    "image": "/images/products/laptops/asus-rog-strix-g16-g614jvr-n3243-fr60-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/asus-rog-strix-g16-g614jvr-n3243-fr60-1.jpg",
-      "https://resim.epey.com/1050999/z_asus-rog-strix-g16-g614jvr-n3243-fr60-7.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 72,
@@ -18559,10 +18396,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "ASUS",
     "category": "laptops",
     "productType": "Oyuncu Laptopu (Gaming)",
-    "image": "/images/products/laptops/asus-tuf-gaming-f16-fx608jmr-rv024-ep9-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/asus-tuf-gaming-f16-fx608jmr-rv024-ep9-1.jpg",
-      "https://resim.epey.com/1054129/z_asus-tuf-gaming-f16-fx608jmr-rv024-ep9-6.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 72,
@@ -18674,10 +18510,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "ASUS",
     "category": "laptops",
     "productType": "Oyuncu Laptopu (Gaming)",
-    "image": "/images/products/laptops/asus-rog-strix-g16-g614jvr-n3096-76-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/asus-rog-strix-g16-g614jvr-n3096-76-1.jpg",
-      "https://resim.epey.com/1050801/z_asus-rog-strix-g16-g614jvr-n3096-76-4.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 72,
@@ -18789,10 +18624,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "ASUS",
     "category": "laptops",
     "productType": "Oyuncu Laptopu (Gaming)",
-    "image": "/images/products/laptops/asus-rog-strix-g16-g614jvr-n3243-c22-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/asus-rog-strix-g16-g614jvr-n3243-c22-1.jpg",
-      "https://resim.epey.com/1050952/z_asus-rog-strix-g16-g614jvr-n3243-c22-7.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 72,
@@ -18904,10 +18738,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "ASUS",
     "category": "laptops",
     "productType": "Oyuncu Laptopu (Gaming)",
-    "image": "/images/products/laptops/asus-rog-strix-g16-g614pm-s5074-40gb-512ssd-dos-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/asus-rog-strix-g16-g614pm-s5074-40gb-512ssd-dos-1.jpg",
-      "https://resim.epey.com/1067202/z_asus-rog-strix-g16-g614pm-s5074-40gb-512ssd-dos-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 72,
@@ -19019,10 +18852,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "ASUS",
     "category": "laptops",
     "productType": "Oyuncu Laptopu (Gaming)",
-    "image": "/images/products/laptops/asus-rog-strix-g16-g614pm-s5074-32gb-512ssd-w11p-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/asus-rog-strix-g16-g614pm-s5074-32gb-512ssd-w11p-1.jpg",
-      "https://resim.epey.com/1067074/z_asus-rog-strix-g16-g614pm-s5074-32gb-512ssd-w11p-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 72,
@@ -19134,10 +18966,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "ASUS",
     "category": "laptops",
     "productType": "Oyuncu Laptopu (Gaming)",
-    "image": "/images/products/laptops/asus-tuf-gaming-f16-fx608jhr-rv048qb23-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/asus-tuf-gaming-f16-fx608jhr-rv048qb23-1.jpg",
-      "https://resim.epey.com/1068080/z_asus-tuf-gaming-f16-fx608jhr-rv048qb23-6.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 72,
@@ -19249,10 +19080,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "DELL",
     "category": "laptops",
     "productType": "Mobil İş İstasyonu & Performans Laptopu",
-    "image": "/images/products/laptops/dell-pro-max-18-plus-mb18250p451-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/dell-pro-max-18-plus-mb18250p451-1.jpg",
-      "https://resim.epey.com/1067138/z_dell-pro-max-18-plus-mb18250p451-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.9,
     "epeyScore": 92,
@@ -19365,10 +19195,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "DELL",
     "category": "laptops",
     "productType": "Mobil İş İstasyonu & Performans Laptopu",
-    "image": "/images/products/laptops/dell-pro-max-18-plus-64gbram-4tbssd-w11p-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/dell-pro-max-18-plus-64gbram-4tbssd-w11p-1.jpg",
-      "https://resim.epey.com/1066729/z_dell-pro-max-18-plus-64gbram-4tbssd-w11p-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.9,
     "epeyScore": 89,
@@ -19481,10 +19310,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "DELL",
     "category": "laptops",
     "productType": "Mobil İş İstasyonu & Performans Laptopu",
-    "image": "/images/products/laptops/dell-pro-max-18-plus-mb18250263h30-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/dell-pro-max-18-plus-mb18250263h30-1.jpg",
-      "https://resim.epey.com/1068951/z_dell-pro-max-18-plus-mb18250263h30-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.9,
     "epeyScore": 87,
@@ -19597,10 +19425,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "DELL",
     "category": "laptops",
     "productType": "Mobil İş İstasyonu & Performans Laptopu",
-    "image": "/images/products/laptops/dell-pro-max-18-plus-64gbram-2tbssd-w11p-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/dell-pro-max-18-plus-64gbram-2tbssd-w11p-1.jpg",
-      "https://resim.epey.com/1066690/z_dell-pro-max-18-plus-64gbram-2tbssd-w11p-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.9,
     "epeyScore": 86,
@@ -19713,10 +19540,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "DELL",
     "category": "laptops",
     "productType": "Mobil İş İstasyonu & Performans Laptopu",
-    "image": "/images/products/laptops/dell-pro-max-18-plus-mb18250263p20-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/dell-pro-max-18-plus-mb18250263p20-1.jpg",
-      "https://resim.epey.com/1068946/z_dell-pro-max-18-plus-mb18250263p20-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.9,
     "epeyScore": 86,
@@ -19829,10 +19655,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "DELL",
     "category": "laptops",
     "productType": "Mobil İş İstasyonu & Performans Laptopu",
-    "image": "/images/products/laptops/dell-pro-max-18-plus-mb18250263p15-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/dell-pro-max-18-plus-mb18250263p15-1.jpg",
-      "https://resim.epey.com/1068947/z_dell-pro-max-18-plus-mb18250263p15-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.9,
     "epeyScore": 86,
@@ -19945,10 +19770,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "DELL",
     "category": "laptops",
     "productType": "Mobil İş İstasyonu & Performans Laptopu",
-    "image": "/images/products/laptops/dell-pro-max-18-plus-mb18250274h23-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/dell-pro-max-18-plus-mb18250274h23-1.jpg",
-      "https://resim.epey.com/1057060/z_dell-pro-max-18-plus-mb18250274h23-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.9,
     "epeyScore": 86,
@@ -20061,10 +19885,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "DELL",
     "category": "laptops",
     "productType": "Mobil İş İstasyonu & Performans Laptopu",
-    "image": "/images/products/laptops/dell-pro-max-18-plus-64gbram-1tbssd-w11p-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/dell-pro-max-18-plus-64gbram-1tbssd-w11p-1.jpg",
-      "https://resim.epey.com/1066686/z_dell-pro-max-18-plus-64gbram-1tbssd-w11p-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.9,
     "epeyScore": 85,
@@ -20177,10 +20000,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "DELL",
     "category": "laptops",
     "productType": "Mobil İş İstasyonu & Performans Laptopu",
-    "image": "/images/products/laptops/dell-pro-max-18-plus-32gbram-4tbssd-w11p-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/dell-pro-max-18-plus-32gbram-4tbssd-w11p-1.jpg",
-      "https://resim.epey.com/1066725/z_dell-pro-max-18-plus-32gbram-4tbssd-w11p-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.9,
     "epeyScore": 85,
@@ -20293,10 +20115,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "DELL",
     "category": "laptops",
     "productType": "Mobil İş İstasyonu & Performans Laptopu",
-    "image": "/images/products/laptops/dell-pro-max-16-plus-mb16250p496-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/dell-pro-max-16-plus-mb16250p496-1.jpg",
-      "https://resim.epey.com/1066825/z_dell-pro-max-16-plus-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.9,
     "epeyScore": 84,
@@ -20409,10 +20230,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "DELL",
     "category": "laptops",
     "productType": "Mobil İş İstasyonu & Performans Laptopu",
-    "image": "/images/products/laptops/dell-pro-max-16-plus-mb16250p489-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/dell-pro-max-16-plus-mb16250p489-1.jpg",
-      "https://resim.epey.com/1066855/z_dell-pro-max-16-plus-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.9,
     "epeyScore": 83,
@@ -20525,10 +20345,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "DELL",
     "category": "laptops",
     "productType": "Mobil İş İstasyonu & Performans Laptopu",
-    "image": "/images/products/laptops/dell-pro-max-18-plus-64gbram-3tbssd-w11p-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/dell-pro-max-18-plus-64gbram-3tbssd-w11p-1.jpg",
-      "https://resim.epey.com/1066722/z_dell-pro-max-18-plus-64gbram-3tbssd-w11p-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.9,
     "epeyScore": 83,
@@ -20641,10 +20460,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "DELL",
     "category": "laptops",
     "productType": "Mobil İş İstasyonu & Performans Laptopu",
-    "image": "/images/products/laptops/dell-pro-max-18-plus-mb18250263h09-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/dell-pro-max-18-plus-mb18250263h09-1.jpg",
-      "https://resim.epey.com/1068942/z_dell-pro-max-18-plus-mb18250263h09-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.9,
     "epeyScore": 83,
@@ -20757,10 +20575,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "DELL",
     "category": "laptops",
     "productType": "Mobil İş İstasyonu & Performans Laptopu",
-    "image": "/images/products/laptops/dell-pro-max-18-plus-mb18250263p08-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/dell-pro-max-18-plus-mb18250263p08-1.jpg",
-      "https://resim.epey.com/1068953/z_dell-pro-max-18-plus-mb18250263p08-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.9,
     "epeyScore": 83,
@@ -20873,10 +20690,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "DELL",
     "category": "laptops",
     "productType": "Mobil İş İstasyonu & Performans Laptopu",
-    "image": "/images/products/laptops/dell-pro-max-18-plus-mb18250p505-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/dell-pro-max-18-plus-mb18250p505-1.jpg",
-      "https://resim.epey.com/1067125/z_dell-pro-max-18-plus-mb18250p505-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.9,
     "epeyScore": 83,
@@ -20989,10 +20805,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "DELL",
     "category": "laptops",
     "productType": "Mobil İş İstasyonu & Performans Laptopu",
-    "image": "/images/products/laptops/dell-pro-max-18-plus-32gbram-2tbssd-w11p-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/dell-pro-max-18-plus-32gbram-2tbssd-w11p-1.jpg",
-      "https://resim.epey.com/1066688/z_dell-pro-max-18-plus-32gbram-2tbssd-w11p-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.9,
     "epeyScore": 82,
@@ -21105,10 +20920,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "DELL",
     "category": "laptops",
     "productType": "Mobil İş İstasyonu & Performans Laptopu",
-    "image": "/images/products/laptops/dell-pro-max-16-plus-mb16250p495-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/dell-pro-max-16-plus-mb16250p495-1.jpg",
-      "https://resim.epey.com/1066840/z_dell-pro-max-16-plus-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.9,
     "epeyScore": 82,
@@ -21221,10 +21035,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "DELL",
     "category": "laptops",
     "productType": "Mobil İş İstasyonu & Performans Laptopu",
-    "image": "/images/products/laptops/dell-pro-max-18-plus-mb18250263h12-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/dell-pro-max-18-plus-mb18250263h12-1.jpg",
-      "https://resim.epey.com/1068945/z_dell-pro-max-18-plus-mb18250263h12-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.9,
     "epeyScore": 82,
@@ -21337,10 +21150,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "DELL",
     "category": "laptops",
     "productType": "Mobil İş İstasyonu & Performans Laptopu",
-    "image": "/images/products/laptops/dell-pro-max-18-plus-u7265hx-64gbram-2tbssd-w11p-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/dell-pro-max-18-plus-u7265hx-64gbram-2tbssd-w11p-1.jpg",
-      "https://resim.epey.com/1066695/z_dell-pro-max-18-plus-u7265hx-64gbram-2tbssd-w11p-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.9,
     "epeyScore": 82,
@@ -21453,10 +21265,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "DELL",
     "category": "laptops",
     "productType": "Mobil İş İstasyonu & Performans Laptopu",
-    "image": "/images/products/laptops/dell-pro-max-16-plus-mb16250p482-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/dell-pro-max-16-plus-mb16250p482-1.jpg",
-      "https://resim.epey.com/1066820/z_dell-pro-max-16-plus-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.9,
     "epeyScore": 81,
@@ -21569,10 +21380,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "DELL",
     "category": "laptops",
     "productType": "Mobil İş İstasyonu & Performans Laptopu",
-    "image": "/images/products/laptops/dell-pro-max-18-plus-u7265hx-32gbram-2tbssd-w11p-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/dell-pro-max-18-plus-u7265hx-32gbram-2tbssd-w11p-1.jpg",
-      "https://resim.epey.com/1066701/z_dell-pro-max-18-plus-u7265hx-32gbram-2tbssd-w11p-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 78,
@@ -21684,10 +21494,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "DELL",
     "category": "laptops",
     "productType": "Mobil İş İstasyonu & Performans Laptopu",
-    "image": "/images/products/laptops/dell-pro-max-16-plus-mb16250p435-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/dell-pro-max-16-plus-mb16250p435-1.jpg",
-      "https://resim.epey.com/1066812/z_dell-pro-max-16-plus-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 78,
@@ -21799,10 +21608,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "DELL",
     "category": "laptops",
     "productType": "Mobil İş İstasyonu & Performans Laptopu",
-    "image": "/images/products/laptops/dell-pro-max-16-plus-mb16250p434-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/dell-pro-max-16-plus-mb16250p434-1.jpg",
-      "https://resim.epey.com/1066767/z_dell-pro-max-16-plus-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 78,
@@ -21914,10 +21722,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "DELL",
     "category": "laptops",
     "productType": "Mobil İş İstasyonu & Performans Laptopu",
-    "image": "/images/products/laptops/dell-pro-max-16-plus-mb16250p390-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/dell-pro-max-16-plus-mb16250p390-1.jpg",
-      "https://resim.epey.com/1066831/z_dell-pro-max-16-plus-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 77,
@@ -22029,10 +21836,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "DELL",
     "category": "laptops",
     "productType": "Mobil İş İstasyonu & Performans Laptopu",
-    "image": "/images/products/laptops/dell-pro-max-18-plus-mb18250263h01-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/dell-pro-max-18-plus-mb18250263h01-1.jpg",
-      "https://resim.epey.com/1068948/z_dell-pro-max-18-plus-mb18250263h01-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 77,
@@ -22144,10 +21950,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "DELL",
     "category": "laptops",
     "productType": "Mobil İş İstasyonu & Performans Laptopu",
-    "image": "/images/products/laptops/dell-pro-max-16-plus-mb16250p497-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/dell-pro-max-16-plus-mb16250p497-1.jpg",
-      "https://resim.epey.com/1066763/z_dell-pro-max-16-plus-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 77,
@@ -22259,10 +22064,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "DELL",
     "category": "laptops",
     "productType": "Mobil İş İstasyonu & Performans Laptopu",
-    "image": "/images/products/laptops/dell-pro-max-16-plus-mb16250p420-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/dell-pro-max-16-plus-mb16250p420-1.jpg",
-      "https://resim.epey.com/1066756/z_dell-pro-max-16-plus-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 77,
@@ -22374,10 +22178,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "DELL",
     "category": "laptops",
     "productType": "Mobil İş İstasyonu & Performans Laptopu",
-    "image": "/images/products/laptops/dell-pro-max-16-plus-mb16250p447-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/dell-pro-max-16-plus-mb16250p447-1.jpg",
-      "https://resim.epey.com/1066814/z_dell-pro-max-16-plus-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 77,
@@ -22489,10 +22292,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "DELL",
     "category": "laptops",
     "productType": "Mobil İş İstasyonu & Performans Laptopu",
-    "image": "/images/products/laptops/dell-pro-max-16-plus-mb16250p409-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/dell-pro-max-16-plus-mb16250p409-1.jpg",
-      "https://resim.epey.com/1066867/z_dell-pro-max-16-plus-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 76,
@@ -22604,10 +22406,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "DELL",
     "category": "laptops",
     "productType": "Mobil İş İstasyonu & Performans Laptopu",
-    "image": "/images/products/laptops/dell-pro-max-16-plus-mb16250p446-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/dell-pro-max-16-plus-mb16250p446-1.jpg",
-      "https://resim.epey.com/1066827/z_dell-pro-max-16-plus-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 75,
@@ -22719,10 +22520,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "DELL",
     "category": "laptops",
     "productType": "Mobil İş İstasyonu & Performans Laptopu",
-    "image": "/images/products/laptops/dell-pro-max-16-plus-mb16250p465-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/dell-pro-max-16-plus-mb16250p465-1.jpg",
-      "https://resim.epey.com/1066815/z_dell-pro-max-16-plus-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 74,
@@ -22834,10 +22634,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "DELL",
     "category": "laptops",
     "productType": "Mobil İş İstasyonu & Performans Laptopu",
-    "image": "/images/products/laptops/dell-pro-max-16-plus-mb16250p395-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/dell-pro-max-16-plus-mb16250p395-1.jpg",
-      "https://resim.epey.com/1066819/z_dell-pro-max-16-plus-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 74,
@@ -22949,10 +22748,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "DELL",
     "category": "laptops",
     "productType": "Üst Düzey Oyuncu Laptopu",
-    "image": "/images/products/laptops/dell-alienware-16x-aurora-ac16251-u9275hx-16gbram-1tb-w11h-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/dell-alienware-16x-aurora-ac16251-u9275hx-16gbram-1tb-w11h-1.jpg",
-      "https://resim.epey.com/1035620/z_dell-alienware-16x-aurora-ac16251-u9275hx-16gbram-1tb-w11h-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 74,
@@ -23064,10 +22862,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "DELL",
     "category": "laptops",
     "productType": "Mobil İş İstasyonu & Performans Laptopu",
-    "image": "/images/products/laptops/dell-pro-max-16-plus-mb16250p470-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/dell-pro-max-16-plus-mb16250p470-1.jpg",
-      "https://resim.epey.com/1066811/z_dell-pro-max-16-plus-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 74,
@@ -23179,10 +22976,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "DELL",
     "category": "laptops",
     "productType": "Mobil İş İstasyonu & Performans Laptopu",
-    "image": "/images/products/laptops/dell-pro-max-16-plus-mb16250p464-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/dell-pro-max-16-plus-mb16250p464-1.jpg",
-      "https://resim.epey.com/1066850/z_dell-pro-max-16-plus-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 73,
@@ -23294,10 +23090,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "DELL",
     "category": "laptops",
     "productType": "Mobil İş İstasyonu & Performans Laptopu",
-    "image": "/images/products/laptops/dell-pro-max-16-plus-mb16250p450-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/dell-pro-max-16-plus-mb16250p450-1.jpg",
-      "https://resim.epey.com/1066813/z_dell-pro-max-16-plus-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 71,
@@ -23409,10 +23204,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "DELL",
     "category": "laptops",
     "productType": "Mobil İş İstasyonu & Performans Laptopu",
-    "image": "/images/products/laptops/dell-pro-max-16-plus-mb16250p379-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/dell-pro-max-16-plus-mb16250p379-1.jpg",
-      "https://resim.epey.com/1066859/z_dell-pro-max-16-plus-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 71,
@@ -23524,10 +23318,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "DELL",
     "category": "laptops",
     "productType": "Kurumsal Mobil İş İstasyonu",
-    "image": "/images/products/laptops/dell-precision-m7680-xctop7680emea-vp2-32-gb-512-gb-w11p-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/dell-precision-m7680-xctop7680emea-vp2-32-gb-512-gb-w11p-1.jpg",
-      "https://resim.epey.com/910955/z_dell-precision-m7680-xctop7680emea-vp2a6-741035590455-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 70,
@@ -23639,10 +23432,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "DELL",
     "category": "laptops",
     "productType": "Mobil İş İstasyonu & Performans Laptopu",
-    "image": "/images/products/laptops/dell-pro-max-16-plus-mb16250p372-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/dell-pro-max-16-plus-mb16250p372-1.jpg",
-      "https://resim.epey.com/1066810/z_dell-pro-max-16-plus-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 70,
@@ -23754,10 +23546,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "DELL",
     "category": "laptops",
     "productType": "Mobil İş İstasyonu & Performans Laptopu",
-    "image": "/images/products/laptops/dell-pro-max-16-64gbram-2tbssd-w11p-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/dell-pro-max-16-64gbram-2tbssd-w11p-1.jpg",
-      "https://resim.epey.com/1066894/z_dell-pro-max-16-mc16250-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 70,
@@ -23869,10 +23660,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "DELL",
     "category": "laptops",
     "productType": "Üst Düzey Oyuncu Laptopu",
-    "image": "/images/products/laptops/dell-alienware-16x-aurora-ac16251-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/dell-alienware-16x-aurora-ac16251-1.jpg",
-      "https://resim.epey.com/1031203/z_dell-alienware-16x-aurora-ac16251-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 64,
@@ -23984,10 +23774,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "DELL",
     "category": "laptops",
     "productType": "Kurumsal Mobil İş İstasyonu",
-    "image": "/images/products/laptops/dell-precision-3591-xctop3591emea-vp1h516-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/dell-precision-3591-xctop3591emea-vp1h516-1.jpg",
-      "https://resim.epey.com/1068848/z_dell-precision-3591-xctop3591emea-vp1h516-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 63,
@@ -24099,10 +23888,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "DELL",
     "category": "laptops",
     "productType": "Mobil İş İstasyonu & Performans Laptopu",
-    "image": "/images/products/laptops/dell-pro-max-16-u7255h-32gbram-2tbssd-w11p-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/dell-pro-max-16-u7255h-32gbram-2tbssd-w11p-1.jpg",
-      "https://resim.epey.com/1066918/z_dell-pro-max-16-mc16250-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 63,
@@ -24214,10 +24002,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "DELL",
     "category": "laptops",
     "productType": "Üst Düzey Oyuncu Laptopu",
-    "image": "/images/products/laptops/dell-alienware-16-aurora-ac16250-c71615u56n007-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/dell-alienware-16-aurora-ac16250-c71615u56n007-1.jpg",
-      "https://resim.epey.com/1047124/z_dell-alienware-16-aurora-ac16250-c71615u56n007-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 63,
@@ -24329,10 +24116,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "DELL",
     "category": "laptops",
     "productType": "Üst Düzey Oyuncu Laptopu",
-    "image": "/images/products/laptops/dell-alienware-16-aurora-ac16250-c71615u56n018-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/dell-alienware-16-aurora-ac16250-c71615u56n018-1.jpg",
-      "https://resim.epey.com/1047533/z_dell-alienware-16-aurora-ac16250-c71615u56n018-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 63,
@@ -24444,10 +24230,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "DELL",
     "category": "laptops",
     "productType": "Üst Düzey Oyuncu Laptopu",
-    "image": "/images/products/laptops/dell-alienware-16-aurora-ac16250-c7321u56n-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/dell-alienware-16-aurora-ac16250-c7321u56n-1.jpg",
-      "https://resim.epey.com/1044344/z_dell-alienware-16-aurora-ac16250-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 62,
@@ -24559,10 +24344,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "DELL",
     "category": "laptops",
     "productType": "Kurumsal Mobil İş İstasyonu",
-    "image": "/images/products/laptops/dell-precision-m5690-xctop5690emea-vp-1-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/dell-precision-m5690-xctop5690emea-vp-1-1.jpg",
-      "https://resim.epey.com/1066991/z_dell-precision-m5690-xctop5690emea-vp-1-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 62,
@@ -24674,10 +24458,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "DELL",
     "category": "laptops",
     "productType": "Mobil İş İstasyonu & Performans Laptopu",
-    "image": "/images/products/laptops/dell-pro-max-16-mc16250a013-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/dell-pro-max-16-mc16250a013-1.jpg",
-      "https://resim.epey.com/1043805/z_dell-pro-max-16-mc16250-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 62,
@@ -24789,10 +24572,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "DELL",
     "category": "laptops",
     "productType": "Mobil İş İstasyonu & Performans Laptopu",
-    "image": "/images/products/laptops/dell-pro-max-16-mc16250p406-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/dell-pro-max-16-mc16250p406-1.jpg",
-      "https://resim.epey.com/1067091/z_dell-pro-max-16-mc16250-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 61,
@@ -24904,10 +24686,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "DELL",
     "category": "laptops",
     "productType": "Üst Düzey Oyuncu Laptopu",
-    "image": "/images/products/laptops/dell-alienware-16-aurora-ac16250-c71615u56n004-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/dell-alienware-16-aurora-ac16250-c71615u56n004-1.jpg",
-      "https://resim.epey.com/1047146/z_dell-alienware-16-aurora-ac16250-c71615u56n004-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 61,
@@ -25019,10 +24800,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "DELL",
     "category": "laptops",
     "productType": "Mobil İş İstasyonu & Performans Laptopu",
-    "image": "/images/products/laptops/dell-pro-max-16-mc16250p400-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/dell-pro-max-16-mc16250p400-1.jpg",
-      "https://resim.epey.com/1067090/z_dell-pro-max-16-mc16250-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 61,
@@ -25134,10 +24914,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "DELL",
     "category": "laptops",
     "productType": "Üst Düzey Oyuncu Laptopu",
-    "image": "/images/products/laptops/dell-alienware-16-aurora-ac16250-c716156w-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/dell-alienware-16-aurora-ac16250-c716156w-1.jpg",
-      "https://resim.epey.com/1024824/z_dell-alienware-16-aurora-ac16250-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 61,
@@ -25249,10 +25028,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "DELL",
     "category": "laptops",
     "productType": "Üst Düzey Oyuncu Laptopu",
-    "image": "/images/products/laptops/dell-alienware-16-aurora-ac16250-c71615u56n-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/dell-alienware-16-aurora-ac16250-c71615u56n-1.jpg",
-      "https://resim.epey.com/1035394/z_dell-alienware-16-aurora-ac16250-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 61,
@@ -25364,10 +25142,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "DELL",
     "category": "laptops",
     "productType": "Mobil İş İstasyonu & Performans Laptopu",
-    "image": "/images/products/laptops/dell-pro-max-16-mc16250p433-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/dell-pro-max-16-mc16250p433-1.jpg",
-      "https://resim.epey.com/1067072/z_dell-pro-max-16-mc16250-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 60,
@@ -25479,10 +25256,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "DELL",
     "category": "laptops",
     "productType": "Kurumsal Mobil İş İstasyonu",
-    "image": "/images/products/laptops/dell-precision-7780-xctop7780emea-vp1-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/dell-precision-7780-xctop7780emea-vp1-1.jpg",
-      "https://resim.epey.com/910949/z_dell-precision-m7780-xctop7780emea-vp-1-3.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 60,
@@ -25594,10 +25370,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "DELL",
     "category": "laptops",
     "productType": "Ultra Taşınabilir Premium Laptop",
-    "image": "/images/products/laptops/dell-pro-13-premium-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/dell-pro-13-premium-1.jpg",
-      "https://resim.epey.com/1041283/z_dell-pro-13-premium-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 59,
@@ -25705,10 +25480,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "DELL",
     "category": "laptops",
     "productType": "Mobil İş İstasyonu & Performans Laptopu",
-    "image": "/images/products/laptops/dell-pro-max-16-mc16250-16gbram-512ssd-fdos-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/dell-pro-max-16-mc16250-16gbram-512ssd-fdos-1.jpg",
-      "https://resim.epey.com/1045904/z_dell-pro-max-16-mc16250-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 58,
@@ -25820,10 +25594,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "DELL",
     "category": "laptops",
     "productType": "Kurumsal Mobil İş İstasyonu",
-    "image": "/images/products/laptops/dell-precision-3591-xctop3591emea-vp1h510-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/dell-precision-3591-xctop3591emea-vp1h510-1.jpg",
-      "https://resim.epey.com/1068845/z_dell-precision-3591-xctop3591emea-vp1h510-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 58,
@@ -25935,10 +25708,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "DELL",
     "category": "laptops",
     "productType": "Kurumsal Mobil İş İstasyonu",
-    "image": "/images/products/laptops/dell-precision-3591-32gbram-1tbssd-rtxa500-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/dell-precision-3591-32gbram-1tbssd-rtxa500-1.jpg",
-      "https://resim.epey.com/1031219/z_dell-precision-3591-32gbram-1tbssd-rtx500-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 58,
@@ -26050,10 +25822,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "DELL",
     "category": "laptops",
     "productType": "Kurumsal & İş Dünyası Laptopu",
-    "image": "/images/products/laptops/dell-latitude-3450-n010l345014up380-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/dell-latitude-3450-n010l345014up380-1.jpg",
-      "https://resim.epey.com/1010560/z_dell-latitude-3450-n010l345014up380-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 58,
@@ -26165,10 +25936,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "DELL",
     "category": "laptops",
     "productType": "Geniş Ekranlı Kurumsal İş Laptopu",
-    "image": "/images/products/laptops/dell-pro-16-pc16250-64gb-2tbssd-dos-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/dell-pro-16-pc16250-64gb-2tbssd-dos-1.jpg",
-      "https://resim.epey.com/1037793/z_dell-pro-16-pc16250-64gb-2tbssd-dos-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 56,
@@ -26280,10 +26050,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "DELL",
     "category": "laptops",
     "productType": "Geniş Ekranlı Kurumsal İş Laptopu",
-    "image": "/images/products/laptops/dell-pro-16-64gb-1tbssd-w11p-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/dell-pro-16-64gb-1tbssd-w11p-1.jpg",
-      "https://resim.epey.com/1067928/z_dell-pro-16-plus-pb16250-bto105-pb16250-ubu-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 56,
@@ -26395,10 +26164,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "DELL",
     "category": "laptops",
     "productType": "Geniş Ekranlı Kurumsal İş Laptopu",
-    "image": "/images/products/laptops/dell-pro-16-plus-pb16250-bto107-pc16250a017-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/dell-pro-16-plus-pb16250-bto107-pc16250a017-1.jpg",
-      "https://resim.epey.com/1042693/z_dell-pro-16-plus-pb16250-bto105-pb16250-ubu-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 56,
@@ -26510,10 +26278,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "DELL",
     "category": "laptops",
     "productType": "Geniş Ekranlı Kurumsal İş Laptopu",
-    "image": "/images/products/laptops/dell-pro-16-plus-pb16250-bto105-pb16250-ubu-64gb-1tb-w11p-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/dell-pro-16-plus-pb16250-bto105-pb16250-ubu-64gb-1tb-w11p-1.jpg",
-      "https://resim.epey.com/1038092/z_dell-pro-16-plus-pb16250-bto105-pb16250-ubu-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 56,
@@ -26625,10 +26392,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "DELL",
     "category": "laptops",
     "productType": "Geniş Ekranlı Kurumsal İş Laptopu",
-    "image": "/images/products/laptops/dell-pro-16-64gb-1tbssd-w11h-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/dell-pro-16-64gb-1tbssd-w11h-1.jpg",
-      "https://resim.epey.com/1067927/z_dell-pro-16-plus-pb16250-bto105-pb16250-ubu-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 56,
@@ -26740,10 +26506,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "DELL",
     "category": "laptops",
     "productType": "Geniş Ekranlı Kurumsal İş Laptopu",
-    "image": "/images/products/laptops/dell-pro-16-plus-pb16250-64gbram-1tb-w11p-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/dell-pro-16-plus-pb16250-64gbram-1tb-w11p-1.jpg",
-      "https://resim.epey.com/1035106/z_dell-pro-16-plus-pb16250-32gb-ram-1tbssd-lnx-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 55,
@@ -26855,10 +26620,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "DELL",
     "category": "laptops",
     "productType": "Geniş Ekranlı Kurumsal İş Laptopu",
-    "image": "/images/products/laptops/dell-pro-16-pc16250-64gb-1tbssd-w11p-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/dell-pro-16-pc16250-64gb-1tbssd-w11p-1.jpg",
-      "https://resim.epey.com/1037763/z_dell-pro-16-pc16250-64gb-1tbssd-w11p-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 55,
@@ -26970,10 +26734,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "DELL",
     "category": "laptops",
     "productType": "Ultra Taşınabilir Kurumsal Laptop",
-    "image": "/images/products/laptops/dell-pro-14-pc14250-64gbram-2tbssd-fdos-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/dell-pro-14-pc14250-64gbram-2tbssd-fdos-1.jpg",
-      "https://resim.epey.com/1052242/z_dell-pro-14-pc14250-64gbram-2tbssd-fdos-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 55,
@@ -27085,10 +26848,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "DELL",
     "category": "laptops",
     "productType": "Ultra Taşınabilir Kurumsal Laptop",
-    "image": "/images/products/laptops/dell-pro-14-pc14250-bto107-ubu-642-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/dell-pro-14-pc14250-bto107-ubu-642-1.jpg",
-      "https://resim.epey.com/1035148/z_dell-pro-14-pc14250-bto107-ubu-642-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 55,
@@ -27200,10 +26962,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "DELL",
     "category": "laptops",
     "productType": "Ultra Taşınabilir Kurumsal Laptop",
-    "image": "/images/products/laptops/dell-pro-14-pc14250-pc14250-bto107-wp-2-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/dell-pro-14-pc14250-pc14250-bto107-wp-2-1.jpg",
-      "https://resim.epey.com/1031666/z_dell-pro-14-pc14250-pc14250-bto107-wp-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 55,
@@ -27315,10 +27076,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "DELL",
     "category": "laptops",
     "productType": "Geniş Ekranlı Kurumsal İş Laptopu",
-    "image": "/images/products/laptops/dell-pro-16-pc16250-64gb-1tbssd-lnx-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/dell-pro-16-pc16250-64gb-1tbssd-lnx-1.jpg",
-      "https://resim.epey.com/1037765/z_dell-pro-16-pc16250-64gb-1tbssd-lnx-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 55,
@@ -27430,10 +27190,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "DELL",
     "category": "laptops",
     "productType": "Kurumsal & İş Dünyası Laptopu",
-    "image": "/images/products/laptops/dell-latitude-5550-64gb-2tb-dos-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/dell-latitude-5550-64gb-2tb-dos-1.jpg",
-      "https://resim.epey.com/1038033/z_dell-latitude-5550-64gb-2tb-lnx-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 55,
@@ -27545,10 +27304,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "DELL",
     "category": "laptops",
     "productType": "Ultra Taşınabilir Kurumsal Laptop",
-    "image": "/images/products/laptops/dell-pro-14-plus-pb14250-bto105-pb14250-ubu-64gb-2tb-dos-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/dell-pro-14-plus-pb14250-bto105-pb14250-ubu-64gb-2tb-dos-1.jpg",
-      "https://resim.epey.com/1037881/z_dell-pro-14-plus-pc14250-bto105-pb14250-ubu-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 55,
@@ -27660,10 +27418,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "DELL",
     "category": "laptops",
     "productType": "Geniş Ekranlı Kurumsal İş Laptopu",
-    "image": "/images/products/laptops/dell-pro-16-64gb-512ssd-w11p-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/dell-pro-16-64gb-512ssd-w11p-1.jpg",
-      "https://resim.epey.com/1067785/z_dell-pro-16-plus-pb16250-bto105-pb16250-ubu-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 55,
@@ -27775,10 +27532,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "DELL",
     "category": "laptops",
     "productType": "Geniş Ekranlı Kurumsal İş Laptopu",
-    "image": "/images/products/laptops/dell-pro-16-plus-pb16250-bto105-pb16250-gri-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/dell-pro-16-plus-pb16250-bto105-pb16250-gri-1.jpg",
-      "https://resim.epey.com/1035111/z_dell-pro-16-plus-pb16250-bto105-pb16250bto105-pb16250-ubu-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 55,
@@ -27890,10 +27646,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "DELL",
     "category": "laptops",
     "productType": "Geniş Ekranlı Kurumsal İş Laptopu",
-    "image": "/images/products/laptops/dell-pro-16-64gb-512ssd-w11h-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/dell-pro-16-64gb-512ssd-w11h-1.jpg",
-      "https://resim.epey.com/1067776/z_dell-pro-16-plus-pb16250-bto105-pb16250-ubu-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 55,
@@ -28005,10 +27760,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "DELL",
     "category": "laptops",
     "productType": "Ultra Taşınabilir Kurumsal Laptop",
-    "image": "/images/products/laptops/dell-pro-14-plus-pb14250-k06-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/dell-pro-14-plus-pb14250-k06-1.jpg",
-      "https://resim.epey.com/1067763/z_dell-pro-14-plus-pc14250-bto105-pb14250-ubu-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 55,
@@ -28120,10 +27874,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "DELL",
     "category": "laptops",
     "productType": "Geniş Ekranlı Kurumsal İş Laptopu",
-    "image": "/images/products/laptops/dell-pro-16-pc16250-64gb-512gbssd-w11p-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/dell-pro-16-pc16250-64gb-512gbssd-w11p-1.jpg",
-      "https://resim.epey.com/1037657/z_dell-pro-16-pc16250-64gb-512gbssd-11p-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 55,
@@ -28235,10 +27988,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "DELL",
     "category": "laptops",
     "productType": "Geniş Ekranlı Kurumsal İş Laptopu",
-    "image": "/images/products/laptops/dell-pro-16-plus-pb16250-64gb-ram-512ssd-lnx-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/dell-pro-16-plus-pb16250-64gb-ram-512ssd-lnx-1.jpg",
-      "https://resim.epey.com/1031674/z_dell-pro-16-plus-pb16250-64gb-ram-512ssd-lnx-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 55,
@@ -28350,10 +28102,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "DELL",
     "category": "laptops",
     "productType": "Ultra Taşınabilir Kurumsal Laptop",
-    "image": "/images/products/laptops/dell-pro-14-pc14250-64gbram-512ssd-w11p-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/dell-pro-14-pc14250-64gbram-512ssd-w11p-1.jpg",
-      "https://resim.epey.com/1051669/z_dell-pro-14-pc14250-64gbram-512ssd-w11p-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 55,
@@ -28465,10 +28216,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "DELL",
     "category": "laptops",
     "productType": "Kurumsal & İş Dünyası Laptopu",
-    "image": "/images/products/laptops/dell-pro-14-pc14250-bto105-pb14250-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/dell-pro-14-pc14250-bto105-pb14250-1.jpg",
-      "https://resim.epey.com/1035162/z_dell-pro-14-pc14250-bto105-pb14250-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 54,
@@ -28580,10 +28330,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "DELL",
     "category": "laptops",
     "productType": "Kurumsal & İş Dünyası Laptopu",
-    "image": "/images/products/laptops/dell-pro-16-bto105-pc16250a009-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/dell-pro-16-bto105-pc16250a009-1.jpg",
-      "https://resim.epey.com/1042620/z_dell-pro-16-bto105-pc16250a009-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 54,
@@ -28695,10 +28444,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "DELL",
     "category": "laptops",
     "productType": "Kurumsal & İş Dünyası Laptopu",
-    "image": "/images/products/laptops/dell-pro-14-pc14250-64gbram-1tbssd-fdos-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/dell-pro-14-pc14250-64gbram-1tbssd-fdos-1.jpg",
-      "https://resim.epey.com/1052190/z_dell-pro-14-pc14250-64gbram-1tbssd-fdos-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 54,
@@ -28810,10 +28558,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "DELL",
     "category": "laptops",
     "productType": "Kurumsal Mobil İş Laptopu",
-    "image": "/images/products/laptops/dell-latitude-3450-n010l345014up378-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/dell-latitude-3450-n010l345014up378-1.jpg",
-      "https://resim.epey.com/1010461/z_dell-latitude-3450-n010l345014up378-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 54,
@@ -28925,10 +28672,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "DELL",
     "category": "laptops",
     "productType": "Kurumsal & İş Dünyası Laptopu",
-    "image": "/images/products/laptops/dell-pro-14-plus-pb14250-bto105-pb14250-u-64-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/dell-pro-14-plus-pb14250-bto105-pb14250-u-64-1.jpg",
-      "https://resim.epey.com/1037831/z_dell-pro-14-plus-pc14250-bto105-pb14250-ubu-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 54,
@@ -29040,10 +28786,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "DELL",
     "category": "laptops",
     "productType": "Kurumsal & İş Dünyası Laptopu",
-    "image": "/images/products/laptops/dell-pro-16-64gb-512ssd-fdos-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/dell-pro-16-64gb-512ssd-fdos-1.jpg",
-      "https://resim.epey.com/1067792/z_dell-pro-16-plus-pb16250-bto105-pb16250-ubu-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 54,
@@ -29155,10 +28900,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "DELL",
     "category": "laptops",
     "productType": "Kurumsal & İş Dünyası Laptopu",
-    "image": "/images/products/laptops/dell-pro-14-plus-pb14250-k02-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/dell-pro-14-plus-pb14250-k02-1.jpg",
-      "https://resim.epey.com/1067762/z_dell-pro-14-plus-pc14250-bto105-pb14250-ubu-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 54,
@@ -29270,10 +29014,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "DELL",
     "category": "laptops",
     "productType": "Kurumsal Mobil İş Laptopu",
-    "image": "/images/products/laptops/dell-latitude-5450-n012l545014u-k4-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/dell-latitude-5450-n012l545014u-k4-1.jpg",
-      "https://resim.epey.com/1016374/z_dell-latitude-5450-n012l545014u-k4-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 54,
@@ -29385,10 +29128,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "DELL",
     "category": "laptops",
     "productType": "Kurumsal & İş Dünyası Laptopu",
-    "image": "/images/products/laptops/dell-pro-16-bto105-pc16250a008-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/dell-pro-16-bto105-pc16250a008-1.jpg",
-      "https://resim.epey.com/1042614/z_dell-pro-16-bto105-pc16250a008-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 54,
@@ -29500,10 +29242,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "DELL",
     "category": "laptops",
     "productType": "Kurumsal Mobil İş Laptopu",
-    "image": "/images/products/laptops/dell-latitude-3450-n010l345014up417-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/dell-latitude-3450-n010l345014up417-1.jpg",
-      "https://resim.epey.com/1010383/z_dell-latitude-3450-n010l345014up417-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 53,
@@ -29615,10 +29356,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "DELL",
     "category": "laptops",
     "productType": "Kurumsal Mobil İş Laptopu",
-    "image": "/images/products/laptops/dell-latitude-3450-n010l345014up377-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/dell-latitude-3450-n010l345014up377-1.jpg",
-      "https://resim.epey.com/1010381/z_dell-latitude-3450-n010l345014up377-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 53,
@@ -29730,10 +29470,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "DELL",
     "category": "laptops",
     "productType": "Kurumsal Mobil İş Laptopu",
-    "image": "/images/products/laptops/dell-latitude-3450-n010l345014emea12-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/dell-latitude-3450-n010l345014emea12-1.jpg",
-      "https://resim.epey.com/1010458/z_dell-latitude-3450-n010l345014emea12-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 53,
@@ -29845,10 +29584,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "DELL",
     "category": "laptops",
     "productType": "Ultra Taşınabilir Premium Kurumsal Laptop",
-    "image": "/images/products/laptops/dell-pro-14-premium-pa14250u7vp-v2-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/dell-pro-14-premium-pa14250u7vp-v2-1.jpg",
-      "https://resim.epey.com/1068673/z_dell-pro-14-premium-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 53,
@@ -29960,10 +29698,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "DELL",
     "category": "laptops",
     "productType": "Kurumsal Mobil İş Laptopu",
-    "image": "/images/products/laptops/dell-latitude-3450-n010l345014up338-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/dell-latitude-3450-n010l345014up338-1.jpg",
-      "https://resim.epey.com/1010460/z_dell-latitude-3450-n010l345014up338-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 53,
@@ -30075,10 +29812,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "DELL",
     "category": "laptops",
     "productType": "Kurumsal Mobil İş Laptopu",
-    "image": "/images/products/laptops/dell-latitude-3450-n010l345014up325-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/dell-latitude-3450-n010l345014up325-1.jpg",
-      "https://resim.epey.com/1010547/z_dell-latitude-3450-n010l345014up325-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 53,
@@ -30190,10 +29926,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "DELL",
     "category": "laptops",
     "productType": "Kurumsal & İş Dünyası Laptopu",
-    "image": "/images/products/laptops/dell-pro-16-plus-pb16250-u5-32-w-2tb-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/dell-pro-16-plus-pb16250-u5-32-w-2tb-1.jpg",
-      "https://resim.epey.com/1062562/z_dell-pro-16-plus-pb16250-u5-32-w-2tb-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 53,
@@ -30305,10 +30040,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "DELL",
     "category": "laptops",
     "productType": "KOBİ & Ofis Laptopu",
-    "image": "/images/products/laptops/dell-vostro-3530-n1806pvnb3530-u-zi721-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/dell-vostro-3530-n1806pvnb3530-u-zi721-1.jpg",
-      "https://resim.epey.com/926992/z_dell-vostro-3530-n1806pvnb3530-u-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 53,
@@ -30420,10 +30154,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "DELL",
     "category": "laptops",
     "productType": "Kurumsal & İş Dünyası Laptopu",
-    "image": "/images/products/laptops/dell-pro-16-32gb-2tbssd-w11p-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/dell-pro-16-32gb-2tbssd-w11p-1.jpg",
-      "https://resim.epey.com/1067934/z_dell-pro-16-plus-pb16250-bto105-pb16250-ubu-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 53,
@@ -30535,10 +30268,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "DELL",
     "category": "laptops",
     "productType": "Kurumsal & İş Dünyası Laptopu",
-    "image": "/images/products/laptops/dell-pro-16-pc16250-32gb-2tbssd-dos-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/dell-pro-16-pc16250-32gb-2tbssd-dos-1.jpg",
-      "https://resim.epey.com/1037777/z_dell-pro-16-pc16250-32gb-2tbssd-dos-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 52,
@@ -30650,10 +30382,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "DELL",
     "category": "laptops",
     "productType": "Yüksek Performanslı İş Laptopu",
-    "image": "/images/products/laptops/dell-pro-16-plus-pb16250-u5-32-w-1tb-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/dell-pro-16-plus-pb16250-u5-32-w-1tb-1.jpg",
-      "https://resim.epey.com/1062559/z_dell-pro-16-plus-pb16250-u5-32-w-1tb-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 52,
@@ -30765,10 +30496,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "DELL",
     "category": "laptops",
     "productType": "Kurumsal & İş Dünyası Laptopu",
-    "image": "/images/products/laptops/dell-pro-16-32gb-1tbssd-w11p-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/dell-pro-16-32gb-1tbssd-w11p-1.jpg",
-      "https://resim.epey.com/1067925/z_dell-pro-16-plus-pb16250-bto105-pb16250-ubu-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 52,
@@ -30880,10 +30610,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "DELL",
     "category": "laptops",
     "productType": "Yüksek Performanslı İş Laptopu",
-    "image": "/images/products/laptops/dell-pro-16-plus-bto108-pc16250-u500-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/dell-pro-16-plus-bto108-pc16250-u500-1.jpg",
-      "https://resim.epey.com/1067211/z_dell-pro-16-plus-pb16250-bto105-pb16250-ubu-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 52,
@@ -30995,10 +30724,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "DELL",
     "category": "laptops",
     "productType": "Yüksek Performanslı İş Laptopu",
-    "image": "/images/products/laptops/dell-pro-16-plus-bto105-pb16250a014-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/dell-pro-16-plus-bto105-pb16250a014-1.jpg",
-      "https://resim.epey.com/1042790/z_dell-pro-16-plus-pb16250-bto105-pb16250-ubu-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 52,
@@ -31110,10 +30838,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "DELL",
     "category": "laptops",
     "productType": "Kurumsal & İş Dünyası Laptopu",
-    "image": "/images/products/laptops/dell-pro-16-32gb-1tbssd-w11h-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/dell-pro-16-32gb-1tbssd-w11h-1.jpg",
-      "https://resim.epey.com/1067924/z_dell-pro-16-plus-pb16250-bto105-pb16250-ubu-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 52,
@@ -31225,10 +30952,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "DELL",
     "category": "laptops",
     "productType": "Yüksek Performanslı İş Laptopu",
-    "image": "/images/products/laptops/dell-pro-16-plus-pb16250-32gb-ram-1tbssd-w11p-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/dell-pro-16-plus-pb16250-32gb-ram-1tbssd-w11p-1.jpg",
-      "https://resim.epey.com/1031682/z_dell-pro-16-plus-pb16250-32gb-ram-1tbssd-w11p-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 52,
@@ -31340,10 +31066,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "DELL",
     "category": "laptops",
     "productType": "Yüksek Performanslı İş Laptopu",
-    "image": "/images/products/laptops/dell-pro-14-plus-pb14250-k01-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/dell-pro-14-plus-pb14250-k01-1.jpg",
-      "https://resim.epey.com/1067759/z_dell-pro-14-plus-pc14250-bto105-pb14250-ubu-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 52,
@@ -31455,10 +31180,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "DELL",
     "category": "laptops",
     "productType": "Kurumsal & İş Dünyası Laptopu",
-    "image": "/images/products/laptops/dell-pro-16-pc16250-bto107-pc16250a014-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/dell-pro-16-pc16250-bto107-pc16250a014-1.jpg",
-      "https://resim.epey.com/1042687/z_dell-pro-16-pc16250-32gb-2tbssd-11p-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 52,
@@ -31570,10 +31294,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "DELL",
     "category": "laptops",
     "productType": "Kurumsal & İş Dünyası Laptopu",
-    "image": "/images/products/laptops/dell-pro-16-pc16250-32gb-1tbssd-w11p-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/dell-pro-16-pc16250-32gb-1tbssd-w11p-1.jpg",
-      "https://resim.epey.com/1037640/z_dell-pro-16-pc16250-32gb-2tbssd-11p-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 52,
@@ -31685,10 +31408,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "DELL",
     "category": "laptops",
     "productType": "Kurumsal & İş Dünyası Laptopu",
-    "image": "/images/products/laptops/dell-pro-14-pc14250-32gbram-2tbssd-fdos-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/dell-pro-14-pc14250-32gbram-2tbssd-fdos-1.jpg",
-      "https://resim.epey.com/1052230/z_dell-pro-14-pc14250-32gbram-2tbssd-fdos-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 52,
@@ -31800,10 +31522,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "DELL",
     "category": "laptops",
     "productType": "Yüksek Performanslı İş Laptopu",
-    "image": "/images/products/laptops/dell-pro-14-plus-pb14250-k04-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/dell-pro-14-plus-pb14250-k04-1.jpg",
-      "https://resim.epey.com/1067758/z_dell-pro-14-plus-pc14250-bto105-pb14250-ubu-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 51,
@@ -31915,10 +31636,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "DELL",
     "category": "laptops",
     "productType": "Yüksek Performanslı İş Laptopu",
-    "image": "/images/products/laptops/dell-pro-16-plus-pb16250-u7265u165u-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/dell-pro-16-plus-pb16250-u7265u165u-1.jpg",
-      "https://resim.epey.com/1034583/z_dell-pro-16-plus-pb16250-32gb-ram-1tbssd-lnx-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 51,
@@ -32030,10 +31750,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "DELL",
     "category": "laptops",
     "productType": "Kurumsal & İş Dünyası Laptopu",
-    "image": "/images/products/laptops/dell-pro-14-pc14250-pc14250-bto107-wp321-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/dell-pro-14-pc14250-pc14250-bto107-wp321-1.jpg",
-      "https://resim.epey.com/1031664/z_dell-pro-14-pc14250-pc14250-bto107-wp321-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 51,
@@ -32145,10 +31864,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "DELL",
     "category": "laptops",
     "productType": "Kurumsal & İş Dünyası Laptopu",
-    "image": "/images/products/laptops/dell-pro-16-pc16250-bto108-pc16250-emea-u-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/dell-pro-16-pc16250-bto108-pc16250-emea-u-1.jpg",
-      "https://resim.epey.com/1037760/z_dell-pro-16-pc16250-bto108-pc16250-emea-u-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 51,
@@ -32260,10 +31978,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "DELL",
     "category": "laptops",
     "productType": "Yüksek Performanslı İş Laptopu",
-    "image": "/images/products/laptops/dell-pro-14-plus-pb14250-pb14250-u7-32-w-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/dell-pro-14-plus-pb14250-pb14250-u7-32-w-1.jpg",
-      "https://resim.epey.com/1037369/z_dell-pro-14-plus-pc14250-bto105-pb14250-ububto110-pb14250-ubu-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 51,
@@ -32375,10 +32092,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "DELL",
     "category": "laptops",
     "productType": "Kurumsal Mobil İş Laptopu",
-    "image": "/images/products/laptops/dell-latitude-5550-32gb-2tb-dos-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/dell-latitude-5550-32gb-2tb-dos-1.jpg",
-      "https://resim.epey.com/1038031/z_dell-latitude-5550-64gb-2tb-lnx-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 51,
@@ -32490,10 +32206,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "productType": "Yaratıcı Profesyoneller & İş Dünyası Laptopu",
-    "image": "/images/products/laptops/lenovo-thinkbook-16p-g6-iax-21r0001jtxat60-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/lenovo-thinkbook-16p-g6-iax-21r0001jtxat60-1.jpg",
-      "https://resim.epey.com/1048996/z_lenovo-thinkbook-16p-g6-iax-21r0001jtxat60-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 92,
@@ -32606,10 +32321,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "productType": "Yaratıcı Profesyoneller & İş Dünyası Laptopu",
-    "image": "/images/products/laptops/lenovo-thinkbook-16p-g6-iax-21r0001jtxat30-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/lenovo-thinkbook-16p-g6-iax-21r0001jtxat30-1.jpg",
-      "https://resim.epey.com/1048995/z_lenovo-thinkbook-16p-g6-iax-21r0001jtxat30-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 91,
@@ -32722,10 +32436,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "productType": "Üst Seviye Profesyonel Oyuncu Laptopu",
-    "image": "/images/products/laptops/lenovo-legion-5-pro-83lt005rtrf40-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/lenovo-legion-5-pro-83lt005rtrf40-1.jpg",
-      "https://resim.epey.com/1057242/z_lenovo-legion-5-pro-83lt005rtrf40-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 90,
@@ -32838,10 +32551,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "productType": "Yaratıcı Profesyoneller & İş Dünyası Laptopu",
-    "image": "/images/products/laptops/lenovo-thinkbook-16p-g6-21u00013tx-atl17-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/lenovo-thinkbook-16p-g6-21u00013tx-atl17-1.jpg",
-      "https://resim.epey.com/1041932/z_lenovo-thinkbook-16p-g6-21u00013tx-atl17-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 89,
@@ -32954,10 +32666,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "productType": "Mobil Kurumsal İş İstasyonu (Workstation)",
-    "image": "/images/products/laptops/lenovo-thinkpad-p16-g3-21rq000jtx-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/lenovo-thinkpad-p16-g3-21rq000jtx-1.jpg",
-      "https://resim.epey.com/1057798/z_lenovo-thinkpad-p16-g3-21rq000jtx-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 89,
@@ -33070,10 +32781,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "productType": "Yaratıcı Profesyoneller & İş Dünyası Laptopu",
-    "image": "/images/products/laptops/lenovo-thinkbook-16p-g6-iax-21r0001jtxf27-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/lenovo-thinkbook-16p-g6-iax-21r0001jtxf27-1.jpg",
-      "https://resim.epey.com/1056522/z_lenovo-thinkbook-16p-g6-iax-21r0001jtxf27-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 89,
@@ -33186,10 +32896,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "productType": "Yaratıcı Profesyoneller & İş Dünyası Laptopu",
-    "image": "/images/products/laptops/lenovo-thinkbook-16p-g6-iax-21r0001jtxat58-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/lenovo-thinkbook-16p-g6-iax-21r0001jtxat58-1.jpg",
-      "https://resim.epey.com/1048999/z_lenovo-thinkbook-16p-g6-iax-21r0001jtxat58-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 88,
@@ -33302,10 +33011,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "productType": "Yaratıcı Profesyoneller & İş Dünyası Laptopu",
-    "image": "/images/products/laptops/lenovo-thinkbook-16p-g6-21u00013tx-atl8-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/lenovo-thinkbook-16p-g6-21u00013tx-atl8-1.jpg",
-      "https://resim.epey.com/1034015/z_lenovo-thinkbook-16p-g6-21u00013tx-atl8-8.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 88,
@@ -33418,10 +33126,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "productType": "Yaratıcı Profesyoneller & İş Dünyası Laptopu",
-    "image": "/images/products/laptops/lenovo-thinkbook-16p-g6-21u00013tx-atl16-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/lenovo-thinkbook-16p-g6-21u00013tx-atl16-1.jpg",
-      "https://resim.epey.com/1041928/z_lenovo-thinkbook-16p-g6-21u00013tx-atl16-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 88,
@@ -33534,10 +33241,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "productType": "Yaratıcı Profesyoneller & İş Dünyası Laptopu",
-    "image": "/images/products/laptops/lenovo-thinkbook-16p-g6-21u00013tx-atl15-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/lenovo-thinkbook-16p-g6-21u00013tx-atl15-1.jpg",
-      "https://resim.epey.com/1041965/z_lenovo-thinkbook-16p-g6-21u00013tx-atl15-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 87,
@@ -33650,10 +33356,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "productType": "Yaratıcı Profesyoneller & İş Dünyası Laptopu",
-    "image": "/images/products/laptops/lenovo-thinkbook-16p-g6-21u00013tx-atl6-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/lenovo-thinkbook-16p-g6-21u00013tx-atl6-1.jpg",
-      "https://resim.epey.com/1034016/z_lenovo-thinkbook-16p-g6-21u00013tx-atl6-8.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 87,
@@ -33766,10 +33471,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "productType": "Üst Seviye Profesyonel Oyuncu Laptopu",
-    "image": "/images/products/laptops/lenovo-legion-5-pro-83lt005rtrf38-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/lenovo-legion-5-pro-83lt005rtrf38-1.jpg",
-      "https://resim.epey.com/1057229/z_lenovo-legion-5-pro-83lt005rtrf38-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 86,
@@ -33882,10 +33586,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "productType": "Yaratıcı Profesyoneller & İş Dünyası Laptopu",
-    "image": "/images/products/laptops/lenovo-thinkbook-16p-g6-iax-21r0001jtxat82-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/lenovo-thinkbook-16p-g6-iax-21r0001jtxat82-1.jpg",
-      "https://resim.epey.com/1049001/z_lenovo-thinkbook-16p-g6-iax-21r0001jtxat82-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 86,
@@ -33998,10 +33701,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "productType": "Yaratıcı Profesyoneller & İş Dünyası Laptopu",
-    "image": "/images/products/laptops/lenovo-thinkbook-16p-g6-iax-21r0001jtxat44-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/lenovo-thinkbook-16p-g6-iax-21r0001jtxat44-1.jpg",
-      "https://resim.epey.com/1048994/z_lenovo-thinkbook-16p-g6-iax-21r0001jtxat44-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 86,
@@ -34114,10 +33816,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "productType": "Üst Seviye Profesyonel Oyuncu Laptopu",
-    "image": "/images/products/laptops/lenovo-legion-5-pro-83lt005rtrp330-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/lenovo-legion-5-pro-83lt005rtrp330-1.jpg",
-      "https://resim.epey.com/1060923/z_lenovo-legion-5-pro-83lt005rtrp330-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 86,
@@ -34230,10 +33931,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "productType": "Yaratıcı Profesyoneller & İş Dünyası Laptopu",
-    "image": "/images/products/laptops/lenovo-thinkbook-16p-g6-21u00013tx-atl14-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/lenovo-thinkbook-16p-g6-21u00013tx-atl14-1.jpg",
-      "https://resim.epey.com/1041904/z_lenovo-thinkbook-16p-g6-21u00013tx-atl14-8.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 85,
@@ -34346,10 +34046,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "productType": "Yaratıcı Profesyoneller & İş Dünyası Laptopu",
-    "image": "/images/products/laptops/lenovo-thinkbook-16p-g6-21u00013tx-atl10-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/lenovo-thinkbook-16p-g6-21u00013tx-atl10-1.jpg",
-      "https://resim.epey.com/1040827/z_lenovo-thinkbook-16p-g6-21u00013tx-atl10-8.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 81,
@@ -34461,10 +34160,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "productType": "Üst Seviye Profesyonel Oyuncu Laptopu",
-    "image": "/images/products/laptops/lenovo-legion-pro-7-83de002ktrep2-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/lenovo-legion-pro-7-83de002ktrep2-1.jpg",
-      "https://resim.epey.com/1029767/z_lenovo-legion-pro-7-83de002ktrep2-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 81,
@@ -34576,10 +34274,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "productType": "Üst Seviye Profesyonel Oyuncu Laptopu",
-    "image": "/images/products/laptops/lenovo-legion-5-pro-83lt005rtr-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/lenovo-legion-5-pro-83lt005rtr-1.jpg",
-      "https://resim.epey.com/1049062/z_lenovo-legion-5-pro-83lt005rtr-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 81,
@@ -34691,10 +34388,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "productType": "Yaratıcı Profesyoneller & İş Dünyası Laptopu",
-    "image": "/images/products/laptops/lenovo-thinkbook-16p-g6-21u00013tx-atl9-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/lenovo-thinkbook-16p-g6-21u00013tx-atl9-1.jpg",
-      "https://resim.epey.com/1041876/z_lenovo-thinkbook-16p-g6-21u00013tx-atl9-8.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 81,
@@ -34806,10 +34502,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "productType": "Yaratıcı Profesyoneller & İş Dünyası Laptopu",
-    "image": "/images/products/laptops/lenovo-thinkbook-16p-g6-21u00013tx-atl2-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/lenovo-thinkbook-16p-g6-21u00013tx-atl2-1.jpg",
-      "https://resim.epey.com/1040836/z_lenovo-thinkbook-16p-g6-21u00013tx-atl2-8.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 80,
@@ -34921,10 +34616,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "productType": "Üst Seviye Profesyonel Oyuncu Laptopu",
-    "image": "/images/products/laptops/lenovo-legion-5-15iax10-83f0008btra48-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/lenovo-legion-5-15iax10-83f0008btra48-1.jpg",
-      "https://resim.epey.com/1056004/z_lenovo-legion-5-15iax10-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 80,
@@ -35036,10 +34730,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "productType": "Üst Seviye Profesyonel Oyuncu Laptopu",
-    "image": "/images/products/laptops/lenovo-legion-pro-7-83de002ktrep6-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/lenovo-legion-pro-7-83de002ktrep6-1.jpg",
-      "https://resim.epey.com/1033126/z_lenovo-legion-pro-7-83de002ktrep6-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 80,
@@ -35151,10 +34844,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "productType": "Üst Seviye Profesyonel Oyuncu Laptopu",
-    "image": "/images/products/laptops/lenovo-legion-5-15iax10-83f0008btra44-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/lenovo-legion-5-15iax10-83f0008btra44-1.jpg",
-      "https://resim.epey.com/1056000/z_lenovo-legion-5-15iax10-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 80,
@@ -35266,10 +34958,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "productType": "Üst Seviye Profesyonel Oyuncu Laptopu",
-    "image": "/images/products/laptops/lenovo-legion-pro-7-83de002ktrep4-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/lenovo-legion-pro-7-83de002ktrep4-1.jpg",
-      "https://resim.epey.com/1033125/z_lenovo-legion-pro-7-83de002ktrep4-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 80,
@@ -35381,10 +35072,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "productType": "Yaratıcı Profesyoneller & İş Dünyası Laptopu",
-    "image": "/images/products/laptops/lenovo-thinkbook-16p-g6-21u00013tx-atl1-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/lenovo-thinkbook-16p-g6-21u00013tx-atl1-1.jpg",
-      "https://resim.epey.com/1040879/z_lenovo-thinkbook-16p-g6-21u00013tx-atl1-8.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 80,
@@ -35496,10 +35186,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "productType": "Üst Seviye Profesyonel Oyuncu Laptopu",
-    "image": "/images/products/laptops/lenovo-legion-5-pro-83lt005rtrp314-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/lenovo-legion-5-pro-83lt005rtrp314-1.jpg",
-      "https://resim.epey.com/1060920/z_lenovo-legion-5-pro-83lt005rtrp314-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 80,
@@ -35611,10 +35300,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "productType": "Sıvı Soğutmalı Flagship Oyuncu Laptopu",
-    "image": "/images/products/laptops/lenovo-legion-9-83g00010tr-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/lenovo-legion-9-83g00010tr-1.jpg",
-      "https://resim.epey.com/965269/z_lenovo-legion-9-83g00010tr-2.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 79,
@@ -35726,10 +35414,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "productType": "Üst Seviye Profesyonel Oyuncu Laptopu",
-    "image": "/images/products/laptops/lenovo-legion-5-15iax10-83f0008btra60-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/lenovo-legion-5-15iax10-83f0008btra60-1.jpg",
-      "https://resim.epey.com/1056012/z_lenovo-legion-5-15iax10-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 79,
@@ -35841,10 +35528,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "productType": "Üst Seviye Profesyonel Oyuncu Laptopu",
-    "image": "/images/products/laptops/lenovo-legion-pro-7-83de002ktrep1-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/lenovo-legion-pro-7-83de002ktrep1-1.jpg",
-      "https://resim.epey.com/1033025/z_lenovo-legion-pro-7-83de002ktrep1-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 79,
@@ -35956,10 +35642,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "productType": "Üst Seviye Profesyonel Oyuncu Laptopu",
-    "image": "/images/products/laptops/lenovo-legion-5-pro-83lt005rtrp307-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/lenovo-legion-5-pro-83lt005rtrp307-1.jpg",
-      "https://resim.epey.com/1060916/z_lenovo-legion-5-pro-83lt005rtrp307-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 78,
@@ -36071,10 +35756,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "productType": "Üst Seviye Profesyonel Oyuncu Laptopu",
-    "image": "/images/products/laptops/lenovo-legion-5-15iax10-83f0008btra36-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/lenovo-legion-5-15iax10-83f0008btra36-1.jpg",
-      "https://resim.epey.com/1055918/z_lenovo-legion-5-15iax10-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 78,
@@ -36186,10 +35870,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "productType": "Üst Seviye Profesyonel Oyuncu Laptopu",
-    "image": "/images/products/laptops/lenovo-legion-5-15iax10-83f0008btra32-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/lenovo-legion-5-15iax10-83f0008btra32-1.jpg",
-      "https://resim.epey.com/1055916/z_lenovo-legion-5-15iax10-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 78,
@@ -36301,10 +35984,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "productType": "Yüksek Performanslı Oyuncu Laptopu",
-    "image": "/images/products/laptops/lenovo-legion-5-15irx10-83ly00pytrrnp28-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/lenovo-legion-5-15irx10-83ly00pytrrnp28-1.jpg",
-      "https://resim.epey.com/1068136/z_lenovo-legion-5-15irx10-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 77,
@@ -36416,10 +36098,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "productType": "Yüksek Performanslı Oyuncu Laptopu",
-    "image": "/images/products/laptops/lenovo-legion-5-15iax10-83f0008btra55-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/lenovo-legion-5-15iax10-83f0008btra55-1.jpg",
-      "https://resim.epey.com/1055992/z_lenovo-legion-5-15iax10-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 77,
@@ -36531,10 +36212,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "productType": "Gelişmiş Oyuncu & Mühendislik Laptopu",
-    "image": "/images/products/laptops/lenovo-loq-17irx10-w83jh006etrf34-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/lenovo-loq-17irx10-w83jh006etrf34-1.jpg",
-      "https://resim.epey.com/1056061/z_lenovo-loq-17irx10-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 77,
@@ -36646,10 +36326,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "productType": "Yüksek Performanslı Oyuncu Laptopu",
-    "image": "/images/products/laptops/lenovo-legion-5-15iax10-83f0008btra51-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/lenovo-legion-5-15iax10-83f0008btra51-1.jpg",
-      "https://resim.epey.com/1055979/z_lenovo-legion-5-15iax10-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 77,
@@ -36761,10 +36440,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "productType": "Yüksek Performanslı Oyuncu Laptopu",
-    "image": "/images/products/laptops/lenovo-legion-5-15iax10-83f0008btra72-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/lenovo-legion-5-15iax10-83f0008btra72-1.jpg",
-      "https://resim.epey.com/1055895/z_lenovo-legion-5-15iax10-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 76,
@@ -36876,10 +36554,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "productType": "Yüksek Performanslı Oyuncu Laptopu",
-    "image": "/images/products/laptops/lenovo-legion-5-15iax10-83f0008btra68-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/lenovo-legion-5-15iax10-83f0008btra68-1.jpg",
-      "https://resim.epey.com/1055896/z_lenovo-legion-5-15iax10-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 76,
@@ -36991,10 +36668,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "productType": "Gelişmiş Oyuncu & Mühendislik Laptopu",
-    "image": "/images/products/laptops/lenovo-loq-15irx10-83je00j5tr-fr125-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/lenovo-loq-15irx10-83je00j5tr-fr125-1.jpg",
-      "https://resim.epey.com/1049785/z_lenovo-loq-15irx10-60571307830-6.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 76,
@@ -37106,10 +36782,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "productType": "Yüksek Performanslı Oyuncu Laptopu",
-    "image": "/images/products/laptops/lenovo-legion-5-15irx10-83ly00pytrrnp24-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/lenovo-legion-5-15irx10-83ly00pytrrnp24-1.jpg",
-      "https://resim.epey.com/1068135/z_lenovo-legion-5-15irx10-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 76,
@@ -37221,10 +36896,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "productType": "Yüksek Performanslı Oyuncu Laptopu",
-    "image": "/images/products/laptops/lenovo-legion-5-15iax10-83f0008btrp21-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/lenovo-legion-5-15iax10-83f0008btrp21-1.jpg",
-      "https://resim.epey.com/1057504/z_lenovo-legion-5-15iax10-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 76,
@@ -37336,10 +37010,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "productType": "Yüksek Performanslı Oyuncu Laptopu",
-    "image": "/images/products/laptops/lenovo-legion-5-15iax10-83f0008btrp339-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/lenovo-legion-5-15iax10-83f0008btrp339-1.jpg",
-      "https://resim.epey.com/1062397/z_lenovo-legion-5-15iax10-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 76,
@@ -37451,10 +37124,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "productType": "Yüksek Performanslı Oyuncu Laptopu",
-    "image": "/images/products/laptops/lenovo-legion-5-15ahp10-83m00064trat118-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/lenovo-legion-5-15ahp10-83m00064trat118-1.jpg",
-      "https://resim.epey.com/1057192/z_lenovo-legion-5-15ahp10-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 76,
@@ -37566,10 +37238,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "productType": "Gelişmiş Oyuncu & Mühendislik Laptopu",
-    "image": "/images/products/laptops/lenovo-loq-17irx10-w83jh009utrf23-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/lenovo-loq-17irx10-w83jh009utrf23-1.jpg",
-      "https://resim.epey.com/1056495/z_lenovo-loq-17irx10-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 76,
@@ -37681,10 +37352,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "productType": "Yüksek Performanslı Oyuncu Laptopu",
-    "image": "/images/products/laptops/lenovo-legion-5-15iax10-83f0008btrp344-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/lenovo-legion-5-15iax10-83f0008btrp344-1.jpg",
-      "https://resim.epey.com/1062297/z_lenovo-legion-5-15iax10-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 76,
@@ -37796,10 +37466,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "productType": "Gelişmiş Oyuncu & Mühendislik Laptopu",
-    "image": "/images/products/laptops/lenovo-loq-15irx10-83je00ettrp348-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/lenovo-loq-15irx10-83je00ettrp348-1.jpg",
-      "https://resim.epey.com/1061032/z_lenovo-loq-15irx10-83je00ettrp348-6.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 76,
@@ -37911,10 +37580,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "productType": "Mobil Kurumsal İş İstasyonu (Workstation)",
-    "image": "/images/products/laptops/lenovo-thinkpad-p16-g3-21rq0007tx-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/lenovo-thinkpad-p16-g3-21rq0007tx-1.jpg",
-      "https://resim.epey.com/1065675/z_lenovo-thinkpad-p16-g2-21rq0007tx-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 76,
@@ -38026,10 +37694,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "productType": "Gelişmiş Oyuncu & Mühendislik Laptopu",
-    "image": "/images/products/laptops/lenovo-loq-15irx10-83je00j5tr-fr131-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/lenovo-loq-15irx10-83je00j5tr-fr131-1.jpg",
-      "https://resim.epey.com/1049786/z_lenovo-loq-15irx10-60571307830-6.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 75,
@@ -38141,10 +37808,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "productType": "Üst Seviye Profesyonel Oyuncu Laptopu",
-    "image": "/images/products/laptops/lenovo-legion-5-pro-83df00altr-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/lenovo-legion-5-pro-83df00altr-1.jpg",
-      "https://resim.epey.com/945485/z_lenovo-legion-5-pro-83df00altr-7.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 75,
@@ -38256,10 +37922,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "productType": "Gelişmiş Oyuncu & Mühendislik Laptopu",
-    "image": "/images/products/laptops/lenovo-loq-17irx10-83jh00bctr-11pro-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/lenovo-loq-17irx10-83jh00bctr-11pro-1.jpg",
-      "https://resim.epey.com/1067198/z_lenovo-loq-17irx10-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 74,
@@ -38371,10 +38036,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "productType": "Yüksek Performanslı Oyuncu Laptopu",
-    "image": "/images/products/laptops/lenovo-legion-5-15irx10-83ly00kxtrat51-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/lenovo-legion-5-15irx10-83ly00kxtrat51-1.jpg",
-      "https://resim.epey.com/1060191/z_lenovo-legion-5-15irx10-83ly00kxtrat51-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 74,
@@ -38486,10 +38150,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "productType": "Yüksek Performanslı Oyuncu Laptopu",
-    "image": "/images/products/laptops/lenovo-legion-5-15irx10-83ly00pytrrnp23-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/lenovo-legion-5-15irx10-83ly00pytrrnp23-1.jpg",
-      "https://resim.epey.com/1068119/z_lenovo-legion-5-15irx10-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 74,
@@ -38601,10 +38264,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "productType": "Gelişmiş Oyuncu & Mühendislik Laptopu",
-    "image": "/images/products/laptops/lenovo-loq-15irx10-83je00j5tr-fr107-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/lenovo-loq-15irx10-83je00j5tr-fr107-1.jpg",
-      "https://resim.epey.com/1049599/z_lenovo-loq-15irx10-60571307830-6.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 74,
@@ -38716,10 +38378,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "productType": "Yüksek Performanslı Oyuncu Laptopu",
-    "image": "/images/products/laptops/lenovo-legion-5-15irx10-83ly009ltr-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/lenovo-legion-5-15irx10-83ly009ltr-1.jpg",
-      "https://resim.epey.com/1065959/z_lenovo-legion-5-15irx10-83ly009ltr-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 74,
@@ -38831,10 +38492,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "productType": "Yüksek Performanslı Oyuncu Laptopu",
-    "image": "/images/products/laptops/lenovo-legion-5-15irx10-83ly00kxtrat40-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/lenovo-legion-5-15irx10-83ly00kxtrat40-1.jpg",
-      "https://resim.epey.com/1060093/z_lenovo-legion-5-15irx10-83ly00kxtrat40-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 74,
@@ -38946,10 +38606,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "productType": "Yüksek Performanslı Oyuncu Laptopu",
-    "image": "/images/products/laptops/lenovo-legion-5-15iax10-83f0008btra53-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/lenovo-legion-5-15iax10-83f0008btra53-1.jpg",
-      "https://resim.epey.com/1055941/z_lenovo-legion-5-15iax10-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 74,
@@ -39061,10 +38720,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "productType": "Yüksek Performanslı Oyuncu Laptopu",
-    "image": "/images/products/laptops/lenovo-legion-5-15iax10-83f0008btra49-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/lenovo-legion-5-15iax10-83f0008btra49-1.jpg",
-      "https://resim.epey.com/1055919/z_lenovo-legion-5-15iax10-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 74,
@@ -39176,10 +38834,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "productType": "Yüksek Performanslı Oyuncu Laptopu",
-    "image": "/images/products/laptops/lenovo-legion-5-15iax10-83f0008btra45-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/lenovo-legion-5-15iax10-83f0008btra45-1.jpg",
-      "https://resim.epey.com/1055948/z_lenovo-legion-5-15iax10-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 74,
@@ -39291,10 +38948,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "productType": "Gelişmiş Oyuncu & Mühendislik Laptopu",
-    "image": "/images/products/laptops/lenovo-loq-17irx10-83jh006etr-14-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/lenovo-loq-17irx10-83jh006etr-14-1.jpg",
-      "https://resim.epey.com/1051025/z_lenovo-loq-17irx10-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 74,
@@ -39406,10 +39062,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "productType": "Yüksek Performanslı Oyuncu Laptopu",
-    "image": "/images/products/laptops/lenovo-legion-5-15iax10-83f0008btra41-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/lenovo-legion-5-15iax10-83f0008btra41-1.jpg",
-      "https://resim.epey.com/1055936/z_lenovo-legion-5-15iax10-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 74,
@@ -39521,10 +39176,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "productType": "Gelişmiş Oyuncu & Mühendislik Laptopu",
-    "image": "/images/products/laptops/lenovo-loq-15irx10-83je0128trat102-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/lenovo-loq-15irx10-83je0128trat102-1.jpg",
-      "https://resim.epey.com/1068377/z_lenovo-loq-17irx10-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 74,
@@ -39636,10 +39290,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "productType": "Gelişmiş Oyuncu & Mühendislik Laptopu",
-    "image": "/images/products/laptops/lenovo-loq-15irx10-64gbram-4tbssd-fdos-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/lenovo-loq-15irx10-64gbram-4tbssd-fdos-1.jpg",
-      "https://resim.epey.com/1050128/z_lenovo-loq-15irx10-48gbram-t4tbssd-w11p-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 73,
@@ -39751,10 +39404,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "productType": "Yüksek Performanslı Oyuncu Laptopu",
-    "image": "/images/products/laptops/lenovo-legion-5-15irx10-83ly00pytrrnp30-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/lenovo-legion-5-15irx10-83ly00pytrrnp30-1.jpg",
-      "https://resim.epey.com/1068062/z_lenovo-legion-5-15irx10-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 73,
@@ -39866,10 +39518,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "productType": "Gelişmiş Oyuncu & Mühendislik Laptopu",
-    "image": "/images/products/laptops/lenovo-loq-15ahp10-83jg006atr-fr45-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/lenovo-loq-15ahp10-83jg006atr-fr45-1.jpg",
-      "https://resim.epey.com/1046207/z_lenovo-loq-15ahp10-83jg006atr-fr45-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 73,
@@ -39981,10 +39632,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "productType": "Gelişmiş Oyuncu & Mühendislik Laptopu",
-    "image": "/images/products/laptops/lenovo-loq-15irx10-83je00j5tr-fr132-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/lenovo-loq-15irx10-83je00j5tr-fr132-1.jpg",
-      "https://resim.epey.com/1049784/z_lenovo-loq-15irx10-60571307830-6.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 73,
@@ -40096,10 +39746,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "productType": "Gelişmiş Oyuncu & Mühendislik Laptopu",
-    "image": "/images/products/laptops/lenovo-loq-15irx10-83je00j5tr-fr127-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/lenovo-loq-15irx10-83je00j5tr-fr127-1.jpg",
-      "https://resim.epey.com/1049777/z_lenovo-loq-15irx10-60571307830-6.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 73,
@@ -40211,10 +39860,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "productType": "İçerik Üretici & Profesyonel İş Laptopu",
-    "image": "/images/products/laptops/lenovo-thinkbook-16p-g5-21n50018tr-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/lenovo-thinkbook-16p-g5-21n50018tr-1.jpg",
-      "https://resim.epey.com/1011064/z_lenovo-thinkbook-16p-g5-21n50018tr-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 73,
@@ -40326,10 +39974,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "productType": "Yüksek Performanslı Oyuncu Laptopu",
-    "image": "/images/products/laptops/lenovo-legion-5-15ahp10-83m00064trat111-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/lenovo-legion-5-15ahp10-83m00064trat111-1.jpg",
-      "https://resim.epey.com/1057185/z_lenovo-legion-5-15ahp10-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 73,
@@ -40441,10 +40088,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "productType": "Yüksek Performanslı Oyuncu Laptopu",
-    "image": "/images/products/laptops/lenovo-legion-5-15irx10-83ly00pytrrnp22-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/lenovo-legion-5-15irx10-83ly00pytrrnp22-1.jpg",
-      "https://resim.epey.com/1068054/z_lenovo-legion-5-15irx10-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 73,
@@ -40556,10 +40202,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "productType": "Yüksek Performanslı Oyuncu Laptopu",
-    "image": "/images/products/laptops/lenovo-legion-5-15ahp10-83m00064trat110-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/lenovo-legion-5-15ahp10-83m00064trat110-1.jpg",
-      "https://resim.epey.com/1057184/z_lenovo-legion-5-15ahp10-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 73,
@@ -40671,10 +40316,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "productType": "Gelişmiş Oyuncu & Mühendislik Laptopu",
-    "image": "/images/products/laptops/lenovo-loq-15irx10-83je00j5tr-fr89-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/lenovo-loq-15irx10-83je00j5tr-fr89-1.jpg",
-      "https://resim.epey.com/1049560/z_lenovo-loq-15irx10-83je00j5tr-fr89-6.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 73,
@@ -40786,10 +40430,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "productType": "Yüksek Performanslı Oyuncu Laptopu",
-    "image": "/images/products/laptops/lenovo-legion-5-15irx10-83ly00pytrhmf26-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/lenovo-legion-5-15irx10-83ly00pytrhmf26-1.jpg",
-      "https://resim.epey.com/1057861/z_lenovo-legion-5-15irx10-83ly00pytrhmf26-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 73,
@@ -40901,10 +40544,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "productType": "Yüksek Performanslı Oyuncu Laptopu",
-    "image": "/images/products/laptops/lenovo-legion-5-15iax10-83f0008btra57-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/lenovo-legion-5-15iax10-83f0008btra57-1.jpg",
-      "https://resim.epey.com/1055954/z_lenovo-legion-5-15iax10-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 73,
@@ -41016,10 +40658,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "productType": "Gelişmiş Oyuncu & Mühendislik Laptopu",
-    "image": "/images/products/laptops/lenovo-loq-15irx10-48gbram-4tbssd-w11p-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/lenovo-loq-15irx10-48gbram-4tbssd-w11p-1.jpg",
-      "https://resim.epey.com/1050051/z_lenovo-loq-15irx10-48gbram-t4tbssd-w11p-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 72,
@@ -41131,10 +40772,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "productType": "Gelişmiş Oyuncu & Mühendislik Laptopu",
-    "image": "/images/products/laptops/lenovo-loq-15irx10-48gbram-t4tbssd-w11h-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/lenovo-loq-15irx10-48gbram-t4tbssd-w11h-1.jpg",
-      "https://resim.epey.com/1050046/z_lenovo-loq-15irx10-48gbram-t4tbssd-w11h-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 72,
@@ -41246,10 +40886,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "productType": "Yüksek Performanslı Oyuncu Laptopu",
-    "image": "/images/products/laptops/lenovo-legion-5-15irx10-83ly00pytrrnp25-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/lenovo-legion-5-15irx10-83ly00pytrrnp25-1.jpg",
-      "https://resim.epey.com/1068006/z_lenovo-legion-5-15irx10-83ly00pytrrnp25-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 72,
@@ -41361,10 +41000,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "productType": "Yüksek Performanslı Oyuncu Laptopu",
-    "image": "/images/products/laptops/lenovo-legion-5-15iax10-83f0008btra71-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/lenovo-legion-5-15iax10-83f0008btra71-1.jpg",
-      "https://resim.epey.com/1055894/z_lenovo-legion-5-15iax10-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 72,
@@ -41476,10 +41114,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "productType": "Gelişmiş Oyuncu & Mühendislik Laptopu",
-    "image": "/images/products/laptops/lenovo-loq-15ahp10-83jg006atr-fr51-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/lenovo-loq-15ahp10-83jg006atr-fr51-1.jpg",
-      "https://resim.epey.com/1046208/z_lenovo-loq-15ahp10-83jg006atr-fr51-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 72,
@@ -41591,10 +41228,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "productType": "Yüksek Performanslı Oyuncu Laptopu",
-    "image": "/images/products/laptops/lenovo-legion-5-15iax10-83f0008btra63-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/lenovo-legion-5-15iax10-83f0008btra63-1.jpg",
-      "https://resim.epey.com/1055871/z_lenovo-legion-5-15iax10-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 72,
@@ -41706,10 +41342,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "productType": "Gelişmiş Oyuncu & Mühendislik Laptopu",
-    "image": "/images/products/laptops/lenovo-loq-15irx10-83je00j5tr-fr133-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/lenovo-loq-15irx10-83je00j5tr-fr133-1.jpg",
-      "https://resim.epey.com/1049780/z_lenovo-loq-15irx10-60571307830-6.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 72,
@@ -41821,10 +41456,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "productType": "Gelişmiş Oyuncu & Mühendislik Laptopu",
-    "image": "/images/products/laptops/lenovo-loq-15irx10-83je0128trat99-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/lenovo-loq-15irx10-83je0128trat99-1.jpg",
-      "https://resim.epey.com/1068352/z_lenovo-loq-17irx10-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 72,
@@ -41936,10 +41570,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "productType": "Gelişmiş Oyuncu & Mühendislik Laptopu",
-    "image": "/images/products/laptops/lenovo-loq-15irx10-83je00j5tr-fr124-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/lenovo-loq-15irx10-83je00j5tr-fr124-1.jpg",
-      "https://resim.epey.com/1049772/z_lenovo-loq-15irx10-60571307830-6.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 72,
@@ -42051,10 +41684,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "productType": "Yüksek Performanslı Oyuncu Laptopu",
-    "image": "/images/products/laptops/lenovo-legion-5-15irx10-83ly00pytrrnp12-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/lenovo-legion-5-15irx10-83ly00pytrrnp12-1.jpg",
-      "https://resim.epey.com/1068125/z_lenovo-legion-5-15irx10-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 72,
@@ -42166,10 +41798,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "productType": "Yüksek Performanslı Oyuncu Laptopu",
-    "image": "/images/products/laptops/lenovo-loq-15ahp10-83jg008utrf15-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/lenovo-loq-15ahp10-83jg008utrf15-1.jpg",
-      "https://resim.epey.com/1057207/z_lenovo-loq-15ahp10-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 71,
@@ -42281,10 +41912,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "productType": "Yüksek Performanslı Oyuncu Laptopu",
-    "image": "/images/products/laptops/lenovo-loq-15irx10-83je00lftrep8-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/lenovo-loq-15irx10-83je00lftrep8-1.jpg",
-      "https://resim.epey.com/1033133/z_lenovo-loq-15irx10-83je00j5tr-6.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 71,
@@ -42396,10 +42026,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "productType": "Yüksek Performanslı Oyuncu Laptopu",
-    "image": "/images/products/laptops/lenovo-loq-15irx10-83je00j5tr-fr130-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/lenovo-loq-15irx10-83je00j5tr-fr130-1.jpg",
-      "https://resim.epey.com/1049774/z_lenovo-loq-15irx10-60571307830-6.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 71,
@@ -42511,10 +42140,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "productType": "Yüksek Performanslı Oyuncu Laptopu",
-    "image": "/images/products/laptops/lenovo-loq-15ahp10-83jg006atr-fr47-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/lenovo-loq-15ahp10-83jg006atr-fr47-1.jpg",
-      "https://resim.epey.com/1046174/z_lenovo-loq-15ahp10-83jg006atr-fr47-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 71,
@@ -42626,10 +42254,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "productType": "Geniş Ekranlı Güçlü Oyuncu Laptopu",
-    "image": "/images/products/laptops/lenovo-loq-17irx10-w83jh006etrf05-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/lenovo-loq-17irx10-w83jh006etrf05-1.jpg",
-      "https://resim.epey.com/1056024/z_lenovo-loq-17irx10-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 71,
@@ -42741,10 +42368,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "productType": "Premium Oyuncu & Performans Laptopu",
-    "image": "/images/products/laptops/lenovo-legion-5-15iax10-83f0008btra33-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/lenovo-legion-5-15iax10-83f0008btra33-1.jpg",
-      "https://resim.epey.com/1055907/z_lenovo-legion-5-15iax10-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 71,
@@ -42856,10 +42482,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "productType": "Premium Oyuncu & Performans Laptopu",
-    "image": "/images/products/laptops/lenovo-legion-5-15iax10-83f0008btra29-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/lenovo-legion-5-15iax10-83f0008btra29-1.jpg",
-      "https://resim.epey.com/1055905/z_lenovo-legion-5-15iax10-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 71,
@@ -42971,10 +42596,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "productType": "Premium Oyuncu & Performans Laptopu",
-    "image": "/images/products/laptops/lenovo-legion-5-15iax10-83f0008btra25-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/lenovo-legion-5-15iax10-83f0008btra25-1.jpg",
-      "https://resim.epey.com/1055906/z_lenovo-legion-5-15iax10-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 71,
@@ -43086,10 +42710,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "productType": "Premium Oyuncu & Performans Laptopu",
-    "image": "/images/products/laptops/lenovo-legion-5-15iax10-83f0008btra21-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/lenovo-legion-5-15iax10-83f0008btra21-1.jpg",
-      "https://resim.epey.com/1055904/z_lenovo-legion-5-15iax10-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 71,
@@ -43201,10 +42824,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "productType": "Yüksek Performanslı Oyuncu Laptopu",
-    "image": "/images/products/laptops/lenovo-loq-15irx10-83je00j5tr-fr149-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/lenovo-loq-15irx10-83je00j5tr-fr149-1.jpg",
-      "https://resim.epey.com/1049326/z_lenovo-loq-15irx10-83je00j5tr-fr149-6.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 71,
@@ -43316,10 +42938,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "productType": "Yüksek Performanslı Oyuncu Laptopu",
-    "image": "/images/products/laptops/lenovo-loq-15irx10-64gbram-2tbssd-fdos-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/lenovo-loq-15irx10-64gbram-2tbssd-fdos-1.jpg",
-      "https://resim.epey.com/1050137/z_lenovo-loq-15irx10-48gbram-t4tbssd-w11p-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 71,
@@ -43431,10 +43052,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "productType": "Yüksek Performanslı Oyuncu Laptopu",
-    "image": "/images/products/laptops/lenovo-loq-15irx9-83dv0117tr022-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/lenovo-loq-15irx9-83dv0117tr022-1.jpg",
-      "https://resim.epey.com/1029961/z_lenovo-loq-15irx9-83dv0117tr022-6.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 71,
@@ -43546,10 +43166,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "productType": "Premium Oyuncu & Performans Laptopu",
-    "image": "/images/products/laptops/lenovo-legion-5-15ahp10-83m00064trat58-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/lenovo-legion-5-15ahp10-83m00064trat58-1.jpg",
-      "https://resim.epey.com/1060764/z_lenovo-legion-5-15ahp10-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 71,
@@ -43661,10 +43280,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "productType": "Premium Oyuncu & Performans Laptopu",
-    "image": "/images/products/laptops/lenovo-legion-5-15iax10-83f0008btra2-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/lenovo-legion-5-15iax10-83f0008btra2-1.jpg",
-      "https://resim.epey.com/1055899/z_lenovo-legion-5-15iax10-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 71,
@@ -43776,10 +43394,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "productType": "Yüksek Performanslı Oyuncu Laptopu",
-    "image": "/images/products/laptops/lenovo-loq-15irx10-83je00j5tr-fr114-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/lenovo-loq-15irx10-83je00j5tr-fr114-1.jpg",
-      "https://resim.epey.com/1049595/z_lenovo-loq-15irx10-60571307830-6.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 71,
@@ -43891,10 +43508,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "productType": "Yüksek Performanslı Oyuncu Laptopu",
-    "image": "/images/products/laptops/lenovo-loq-15ahp10-83jg006atr-fr27-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/lenovo-loq-15ahp10-83jg006atr-fr27-1.jpg",
-      "https://resim.epey.com/1046118/z_lenovo-loq-15ahp10-83jg006atr-fr27-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 71,
@@ -44006,10 +43622,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "productType": "Yüksek Performanslı Oyuncu Laptopu",
-    "image": "/images/products/laptops/lenovo-loq-15ahp10-83jg006atrep8-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/lenovo-loq-15ahp10-83jg006atrep8-1.jpg",
-      "https://resim.epey.com/1032393/z_lenovo-loq-15ahp10-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 71,
@@ -44121,10 +43736,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "productType": "Yüksek Performanslı Oyuncu Laptopu",
-    "image": "/images/products/laptops/lenovo-loq-15ahp10-83jg006atr-fr53-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/lenovo-loq-15ahp10-83jg006atr-fr53-1.jpg",
-      "https://resim.epey.com/1046197/z_lenovo-loq-15ahp10-83jg006atr-fr53-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 70,
@@ -44236,10 +43850,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "productType": "Yüksek Performanslı Oyuncu Laptopu",
-    "image": "/images/products/laptops/lenovo-loq-15irx9-83dv00g7trp09-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/lenovo-loq-15irx9-83dv00g7trp09-1.jpg",
-      "https://resim.epey.com/971730/z_lenovo-loq-15irx9-83dv00g7trp09-6.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 70,
@@ -44351,10 +43964,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "productType": "Yüksek Performanslı Oyuncu Laptopu",
-    "image": "/images/products/laptops/lenovo-loq-15ahp10-83jg006atr-fr48-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/lenovo-loq-15ahp10-83jg006atr-fr48-1.jpg",
-      "https://resim.epey.com/1046165/z_lenovo-loq-15ahp10-83jg006atr-fr48-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 70,
@@ -44466,10 +44078,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "productType": "Geniş Ekranlı Güçlü Oyuncu Laptopu",
-    "image": "/images/products/laptops/lenovo-loq-17irx10-83jh006etr-07-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/lenovo-loq-17irx10-83jh006etr-07-1.jpg",
-      "https://resim.epey.com/1050964/z_lenovo-loq-17irx10-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 70,
@@ -44581,10 +44192,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "productType": "Yüksek Performanslı Oyuncu Laptopu",
-    "image": "/images/products/laptops/lenovo-loq-15irx10-83je00j5tr-fr123-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/lenovo-loq-15irx10-83je00j5tr-fr123-1.jpg",
-      "https://resim.epey.com/1049682/z_lenovo-loq-15irx10-60571307830-6.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 70,
@@ -44696,10 +44306,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "productType": "Premium Oyuncu & Performans Laptopu",
-    "image": "/images/products/laptops/lenovo-legion-5-15irx10-83ly00pytrrnp04-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/lenovo-legion-5-15irx10-83ly00pytrrnp04-1.jpg",
-      "https://resim.epey.com/1068123/z_lenovo-legion-5-15irx10-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 70,
@@ -44811,10 +44420,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "productType": "Premium Oyuncu & Performans Laptopu",
-    "image": "/images/products/laptops/lenovo-legion-5-15iax10-83f0008btra37-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/lenovo-legion-5-15iax10-83f0008btra37-1.jpg",
-      "https://resim.epey.com/1055909/z_lenovo-legion-5-15iax10-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 70,
@@ -44926,10 +44534,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "productType": "Yüksek Performanslı Oyuncu Laptopu",
-    "image": "/images/products/laptops/lenovo-loq-15irx10-64gbram-512ssd-w11p-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/lenovo-loq-15irx10-64gbram-512ssd-w11p-1.jpg",
-      "https://resim.epey.com/1050136/z_lenovo-loq-15irx10-48gbram-t4tbssd-w11p-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 70,
@@ -45041,10 +44648,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "productType": "Yüksek Performanslı Oyuncu Laptopu",
-    "image": "/images/products/laptops/lenovo-loq-15irx10-64gbram-512ssd-w11h-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/lenovo-loq-15irx10-64gbram-512ssd-w11h-1.jpg",
-      "https://resim.epey.com/1050062/z_lenovo-loq-15irx10-48gbram-t4tbssd-w11p-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 70,
@@ -45156,10 +44762,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "productType": "Yüksek Performanslı Oyuncu Laptopu",
-    "image": "/images/products/laptops/lenovo-loq-15irx10-83je00lftrep2-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/lenovo-loq-15irx10-83je00lftrep2-1.jpg",
-      "https://resim.epey.com/1033129/z_lenovo-loq-15irx10-83je00j5tr-6.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 70,
@@ -45271,10 +44876,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "productType": "Yüksek Performanslı Oyuncu Laptopu",
-    "image": "/images/products/laptops/lenovo-loq-15irx10-83je00j5tr-fr144-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/lenovo-loq-15irx10-83je00j5tr-fr144-1.jpg",
-      "https://resim.epey.com/1049321/z_lenovo-loq-15irx10-83je00j5tr-fr144-6.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 70,
@@ -45386,10 +44990,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "productType": "Premium Oyuncu & Performans Laptopu",
-    "image": "/images/products/laptops/lenovo-legion-5-15irx10-83ly00pytrrnp21-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/lenovo-legion-5-15irx10-83ly00pytrrnp21-1.jpg",
-      "https://resim.epey.com/1067991/z_lenovo-legion-5-15irx10-83ly00pytrrnp21-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 70,
@@ -45501,10 +45104,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "productType": "Premium Oyuncu & Performans Laptopu",
-    "image": "/images/products/laptops/lenovo-legion-5-15irx10-83ly00pytrrnp17-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/lenovo-legion-5-15irx10-83ly00pytrrnp17-1.jpg",
-      "https://resim.epey.com/1067976/z_lenovo-legion-5-15irx10-83ly00pytrrnp17-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 70,
@@ -45616,10 +45218,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "productType": "Ultra Premium İçerik Üretici & Tasarım Laptopu",
-    "image": "/images/products/laptops/lenovo-yoga-pro-9-16iah10-83l0002ltr-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/lenovo-yoga-pro-9-16iah10-83l0002ltr-1.jpg",
-      "https://resim.epey.com/1045944/z_lenovo-yoga-pro-9-16iah10-83l0002ltr-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 70,
@@ -45731,10 +45332,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "productType": "Yüksek Performanslı Oyuncu Laptopu",
-    "image": "/images/products/laptops/lenovo-loq-15irx10-83je00eqtr-64-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/lenovo-loq-15irx10-83je00eqtr-64-1.jpg",
-      "https://resim.epey.com/1051733/z_lenovo-loq-15irx10-83je00eqtr-64-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 70,
@@ -45846,10 +45446,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "productType": "Yüksek Performanslı Oyuncu Laptopu",
-    "image": "/images/products/laptops/lenovo-loq-15irx10-48gbram-2tbssd-w11p-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/lenovo-loq-15irx10-48gbram-2tbssd-w11p-1.jpg",
-      "https://resim.epey.com/1049993/z_lenovo-loq-15irx10-48gbram-2tbssd-w11p-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 70,
@@ -45961,10 +45560,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "productType": "Yüksek Performanslı Oyuncu Laptopu",
-    "image": "/images/products/laptops/lenovo-loq-15irx10-48gbram-2tbssd-w11h-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/lenovo-loq-15irx10-48gbram-2tbssd-w11h-1.jpg",
-      "https://resim.epey.com/1049984/z_lenovo-loq-15irx10-48gbram-2tbssd-w11h-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 70,
@@ -46076,10 +45674,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "productType": "Yüksek Performanslı Oyuncu Laptopu",
-    "image": "/images/products/laptops/lenovo-loq-15irx10-83je00j5tr-fr16-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/lenovo-loq-15irx10-83je00j5tr-fr16-1.jpg",
-      "https://resim.epey.com/1049360/z_lenovo-loq-15irx10-83je00j5tr-fr16-6.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 70,
@@ -46191,10 +45788,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "productType": "Yüksek Performanslı Oyuncu Laptopu",
-    "image": "/images/products/laptops/lenovo-loq-15ahp10-83jg006atr-fr9-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/lenovo-loq-15ahp10-83jg006atr-fr9-1.jpg",
-      "https://resim.epey.com/1046066/z_lenovo-loq-15ahp10-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 70,
@@ -46306,10 +45902,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "productType": "Yüksek Performanslı Oyuncu Laptopu",
-    "image": "/images/products/laptops/lenovo-loq-15ahp10-83jg006atrep2-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/lenovo-loq-15ahp10-83jg006atrep2-1.jpg",
-      "https://resim.epey.com/1032387/z_lenovo-loq-15ahp10-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 70,
@@ -46421,10 +46016,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "productType": "Premium Oyuncu & Performans Laptopu",
-    "image": "/images/products/laptops/lenovo-legion-5-15irx10-83ly00pytrhmf3-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/lenovo-legion-5-15irx10-83ly00pytrhmf3-1.jpg",
-      "https://resim.epey.com/1057859/z_lenovo-legion-5-15irx10-83ly00pytrhmf3-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 70,
@@ -46536,10 +46130,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "productType": "Premium Oyuncu & Performans Laptopu",
-    "image": "/images/products/laptops/lenovo-legion-5-15irx10-83ly00pytrrnp14-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/lenovo-legion-5-15irx10-83ly00pytrrnp14-1.jpg",
-      "https://resim.epey.com/1068035/z_lenovo-legion-5-15irx10-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 70,
@@ -46651,10 +46244,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "productType": "Premium Oyuncu & Performans Laptopu",
-    "image": "/images/products/laptops/lenovo-legion-5-15irx10-83ly00pytrhmf16-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/lenovo-legion-5-15irx10-83ly00pytrhmf16-1.jpg",
-      "https://resim.epey.com/1057836/z_lenovo-legion-5-15irx10-83ly00pytrhmf16-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 70,
@@ -46766,10 +46358,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "productType": "Premium Oyuncu & Performans Laptopu",
-    "image": "/images/products/laptops/lenovo-legion-5-15ahp10-83m00064trat80-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/lenovo-legion-5-15ahp10-83m00064trat80-1.jpg",
-      "https://resim.epey.com/1057179/z_lenovo-legion-5-15ahp10-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 70,
@@ -46881,10 +46472,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "productType": "Yüksek Performanslı Oyuncu Laptopu",
-    "image": "/images/products/laptops/lenovo-loq-15irx10-83je00j5tr-fr11-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/lenovo-loq-15irx10-83je00j5tr-fr11-1.jpg",
-      "https://resim.epey.com/1049338/z_lenovo-loq-15irx10-83je00j5tr-fr11-6.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 70,
@@ -46996,10 +46586,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "productType": "Geniş Ekranlı Güçlü Oyuncu Laptopu",
-    "image": "/images/products/laptops/lenovo-loq-17irx10-83jh006etr-10-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/lenovo-loq-17irx10-83jh006etr-10-1.jpg",
-      "https://resim.epey.com/1051023/z_lenovo-loq-17irx10-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 70,
@@ -47111,10 +46700,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "productType": "Yüksek Performanslı Oyuncu Laptopu",
-    "image": "/images/products/laptops/lenovo-loq-15irx10-83je00lftrep5-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/lenovo-loq-15irx10-83je00lftrep5-1.jpg",
-      "https://resim.epey.com/1033128/z_lenovo-loq-15irx10-83je00j5tr-6.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 70,
@@ -47226,10 +46814,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "productType": "Premium Oyuncu & Performans Laptopu",
-    "image": "/images/products/laptops/lenovo-legion-5-15ahp10-83m00064trat56-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/lenovo-legion-5-15ahp10-83m00064trat56-1.jpg",
-      "https://resim.epey.com/1057186/z_lenovo-legion-5-15ahp10-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 70,
@@ -47341,10 +46928,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "productType": "Yüksek Performanslı Oyuncu Laptopu",
-    "image": "/images/products/laptops/lenovo-loq-15arp9-83jc00fktr-cd62-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/lenovo-loq-15arp9-83jc00fktr-cd62-1.jpg",
-      "https://resim.epey.com/1046513/z_lenovo-loq-15arp9-delay-1164-mouse-1690-253-click-0-0-0-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 70,
@@ -47456,10 +47042,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "productType": "Yüksek Performanslı Oyuncu Laptopu",
-    "image": "/images/products/laptops/lenovo-loq-15irx10-83je0128trat43-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/lenovo-loq-15irx10-83je0128trat43-1.jpg",
-      "https://resim.epey.com/1068387/z_lenovo-loq-17irx10-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 70,
@@ -47571,10 +47156,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "productType": "Yüksek Performanslı Oyuncu Laptopu",
-    "image": "/images/products/laptops/lenovo-loq-15ahp10-83jg0055trf12-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/lenovo-loq-15ahp10-83jg0055trf12-1.jpg",
-      "https://resim.epey.com/1056429/z_lenovo-loq-15ahp10-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 70,
@@ -47686,10 +47270,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "productType": "Yüksek Performanslı Oyuncu Laptopu",
-    "image": "/images/products/laptops/lenovo-loq-15irx10-83je00lftrep6-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/lenovo-loq-15irx10-83je00lftrep6-1.jpg",
-      "https://resim.epey.com/1029956/z_lenovo-loq-15irx10-83je00j5tr-6.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 70,
@@ -47801,10 +47384,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "productType": "Yüksek Performanslı Oyuncu Laptopu",
-    "image": "/images/products/laptops/lenovo-loq-15ahp10-83jg006atr-fr54-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/lenovo-loq-15ahp10-83jg006atr-fr54-1.jpg",
-      "https://resim.epey.com/1046169/z_lenovo-loq-15ahp10-83jg006atr-fr54-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 70,
@@ -47916,10 +47498,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "productType": "Yüksek Performanslı Oyuncu Laptopu",
-    "image": "/images/products/laptops/lenovo-loq-15ahp10-83jg006atr-fr44-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/lenovo-loq-15ahp10-83jg006atr-fr44-1.jpg",
-      "https://resim.epey.com/1046147/z_lenovo-loq-15ahp10-83jg006atr-fr44-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 70,
@@ -48031,10 +47612,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "HP",
     "category": "laptops",
     "productType": "Premium Oyuncu & Performans Laptopu",
-    "image": "/images/products/laptops/hp-omen-gaming-16-ap00014nta56-c12cjeaa56-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/hp-omen-gaming-16-ap00014nta56-c12cjeaa56-1.jpg",
-      "https://resim.epey.com/1042868/z_hp-omen-gaming-16-ap00014nta56-c12cjeaa56-3.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 89,
@@ -48146,10 +47726,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "HP",
     "category": "laptops",
     "productType": "Premium Oyuncu & Performans Laptopu",
-    "image": "/images/products/laptops/hp-omen-gaming-16-ap00014nta60-c12cjeaa60-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/hp-omen-gaming-16-ap00014nta60-c12cjeaa60-1.jpg",
-      "https://resim.epey.com/1042881/z_hp-omen-gaming-16-ap00014nta60-c12cjeaa60-3.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 88,
@@ -48261,10 +47840,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "HP",
     "category": "laptops",
     "productType": "Premium Oyuncu & Performans Laptopu",
-    "image": "/images/products/laptops/hp-omen-gaming-16-ap00014nta36-c12cjeaa36-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/hp-omen-gaming-16-ap00014nta36-c12cjeaa36-1.jpg",
-      "https://resim.epey.com/1042848/z_hp-omen-gaming-16-ap00014nta36-c12cjeaa36-3.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 86,
@@ -48376,10 +47954,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "HP",
     "category": "laptops",
     "productType": "Premium Oyuncu & Performans Laptopu",
-    "image": "/images/products/laptops/hp-omen-gaming-16-ap00014nta40-c12cjeaa40-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/hp-omen-gaming-16-ap00014nta40-c12cjeaa40-1.jpg",
-      "https://resim.epey.com/1045760/z_hp-omen-gaming-16-ap00014nta40-c12cjeaa40-3.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 85,
@@ -48491,10 +48068,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "HP",
     "category": "laptops",
     "productType": "Premium Oyuncu & Performans Laptopu",
-    "image": "/images/products/laptops/hp-omen-gaming-16-ap00014nta16-c12cjeaa16-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/hp-omen-gaming-16-ap00014nta16-c12cjeaa16-1.jpg",
-      "https://resim.epey.com/1042804/z_hp-omen-gaming-16-ap00014nta16-c12cjeaa16-3.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 85,
@@ -48606,10 +48182,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "HP",
     "category": "laptops",
     "productType": "Premium Oyuncu & Performans Laptopu",
-    "image": "/images/products/laptops/hp-omen-gaming-16-ap00014nta55-c12cjeaa55-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/hp-omen-gaming-16-ap00014nta55-c12cjeaa55-1.jpg",
-      "https://resim.epey.com/1045763/z_hp-omen-gaming-16-ap00014nta55-c12cjeaa55-3.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 85,
@@ -48721,10 +48296,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "HP",
     "category": "laptops",
     "productType": "Ultra Flagship Amiral Gemisi Oyuncu Laptopu",
-    "image": "/images/products/laptops/hp-omen-max-gaming-16-ah0022nt-b88f2ea-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/hp-omen-max-gaming-16-ah0022nt-b88f2ea-1.jpg",
-      "https://resim.epey.com/1005006/z_hp-omen-max-gaming-16-ah0022nt-b88f2ea-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 85,
@@ -48836,10 +48410,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "HP",
     "category": "laptops",
     "productType": "Premium Oyuncu & Performans Laptopu",
-    "image": "/images/products/laptops/hp-omen-gaming-16-ap00014nta76-c12cjeaa76-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/hp-omen-gaming-16-ap00014nta76-c12cjeaa76-1.jpg",
-      "https://resim.epey.com/1042883/z_hp-omen-gaming-16-ap00014nta73-c12cjeaa76-3.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 85,
@@ -48951,10 +48524,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "HP",
     "category": "laptops",
     "productType": "Premium Oyuncu & Performans Laptopu",
-    "image": "/images/products/laptops/hp-omen-gaming-16-ap00014nta20-c12cjeaa20-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/hp-omen-gaming-16-ap00014nta20-c12cjeaa20-1.jpg",
-      "https://resim.epey.com/1042832/z_hp-omen-gaming-16-ap00014nta20-c12cjeaa20-3.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 84,
@@ -49066,10 +48638,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "HP",
     "category": "laptops",
     "productType": "Premium Oyuncu & Performans Laptopu",
-    "image": "/images/products/laptops/hp-omen-gaming-16-ap00014nta59-c12cjeaa59-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/hp-omen-gaming-16-ap00014nta59-c12cjeaa59-1.jpg",
-      "https://resim.epey.com/1042878/z_hp-omen-gaming-16-ap00014nta59-c12cjeaa59-3.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 84,
@@ -49181,10 +48752,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "HP",
     "category": "laptops",
     "productType": "Premium Oyuncu & Performans Laptopu",
-    "image": "/images/products/laptops/hp-omen-gaming-16-ap00014nta80-c12cjeaa80-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/hp-omen-gaming-16-ap00014nta80-c12cjeaa80-1.jpg",
-      "https://resim.epey.com/1043025/z_hp-omen-gaming-16-ap00014nta73-c12cjeaa76-3.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 84,
@@ -49296,10 +48866,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "HP",
     "category": "laptops",
     "productType": "Ultra Profesyonel Mobil İş İstasyonu (Workstation)",
-    "image": "/images/products/laptops/hp-zbook-fury-g1i-16-5f9t8es-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/hp-zbook-fury-g1i-16-5f9t8es-1.jpg",
-      "https://resim.epey.com/1053098/z_hp-zbook-fury-g1i-16-5f9t8es-2.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 84,
@@ -49411,10 +48980,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "HP",
     "category": "laptops",
     "productType": "Premium Oyuncu & Performans Laptopu",
-    "image": "/images/products/laptops/hp-omen-gaming-16-ap00014nta54-c12cjeaa54-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/hp-omen-gaming-16-ap00014nta54-c12cjeaa54-1.jpg",
-      "https://resim.epey.com/1045762/z_hp-omen-gaming-16-ap00014nta54-c12cjeaa54-3.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 83,
@@ -49526,10 +49094,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "HP",
     "category": "laptops",
     "productType": "Premium Oyuncu & Performans Laptopu",
-    "image": "/images/products/laptops/hp-omen-gaming-16-ap00014nta35-c12cjeaa35-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/hp-omen-gaming-16-ap00014nta35-c12cjeaa35-1.jpg",
-      "https://resim.epey.com/1045758/z_hp-omen-gaming-16-ap00014nta35-c12cjeaa35-3.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 82,
@@ -49641,10 +49208,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "HP",
     "category": "laptops",
     "productType": "Premium Oyuncu & Performans Laptopu",
-    "image": "/images/products/laptops/hp-omen-gaming-16-ap00014nta58-c12cjeaa58-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/hp-omen-gaming-16-ap00014nta58-c12cjeaa58-1.jpg",
-      "https://resim.epey.com/1045765/z_hp-omen-gaming-16-ap00014nta58-c12cjeaa58-3.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 82,
@@ -49756,10 +49322,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "HP",
     "category": "laptops",
     "productType": "Premium Oyuncu & Performans Laptopu",
-    "image": "/images/products/laptops/hp-omen-gaming-16-ap00014nta53-c12cjeaa53-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/hp-omen-gaming-16-ap00014nta53-c12cjeaa53-1.jpg",
-      "https://resim.epey.com/1045761/z_hp-omen-gaming-16-ap00014nta53-c12cjeaa53-3.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 82,
@@ -49871,10 +49436,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "HP",
     "category": "laptops",
     "productType": "Premium Oyuncu & Performans Laptopu",
-    "image": "/images/products/laptops/hp-omen-gaming-16-ap00014nta39-c12cjeaa39-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/hp-omen-gaming-16-ap00014nta39-c12cjeaa39-1.jpg",
-      "https://resim.epey.com/1042865/z_hp-omen-gaming-16-ap00014nta39-c12cjeaa39-3.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 85,
@@ -49986,10 +49550,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "HP",
     "category": "laptops",
     "productType": "İnce & Hafif Premium Oyuncu Laptopu (Slim Gaming)",
-    "image": "/images/products/laptops/hp-omen-slim-gaming-16-an0017nt-cd7k1eahmf58-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/hp-omen-slim-gaming-16-an0017nt-cd7k1eahmf58-1.jpg",
-      "https://resim.epey.com/1059055/z_hp-slim-gaming-laptop-16-an0000nt-bq3z2ea-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 79,
@@ -50101,10 +49664,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "HP",
     "category": "laptops",
     "productType": "Yüksek Performanslı Oyuncu Laptopu",
-    "image": "/images/products/laptops/hp-omen-gaming-16-ap00014nta74-c12cjeaa74-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/hp-omen-gaming-16-ap00014nta74-c12cjeaa74-1.jpg",
-      "https://resim.epey.com/1045767/z_hp-omen-gaming-16-ap00014nta74-c12cjeaa74-3.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 79,
@@ -50216,10 +49778,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "HP",
     "category": "laptops",
     "productType": "Yüksek Performanslı Oyuncu Laptopu",
-    "image": "/images/products/laptops/hp-omen-gaming-16-ap00014nta37-c12cjeaa37-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/hp-omen-gaming-16-ap00014nta37-c12cjeaa37-1.jpg",
-      "https://resim.epey.com/1042858/z_hp-omen-gaming-16-ap00014nta37-c12cjeaa37-3.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 79,
@@ -50331,10 +49892,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "HP",
     "category": "laptops",
     "productType": "Yeni Nesil Yapay Zeka (AI) Destekli Oyuncu Laptopu",
-    "image": "/images/products/laptops/hp-omen-gaming-16-ap0012nta42-c12cgeaa42-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/hp-omen-gaming-16-ap0012nta42-c12cgeaa42-1.jpg",
-      "https://resim.epey.com/1044087/z_hp-omen-gaming-16-ap0012nta40-c12cgeaa30-3.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 78,
@@ -50446,10 +50006,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "HP",
     "category": "laptops",
     "productType": "Yüksek Performanslı Oyuncu Laptopu",
-    "image": "/images/products/laptops/hp-omen-gaming-16-ap00014nta18-c12cjeaa18-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/hp-omen-gaming-16-ap00014nta18-c12cjeaa18-1.jpg",
-      "https://resim.epey.com/1042821/z_hp-omen-gaming-16-ap00014nta18-c12cjeaa18-3.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 78,
@@ -50561,10 +50120,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "HP",
     "category": "laptops",
     "productType": "Yüksek Performanslı Oyuncu Laptopu",
-    "image": "/images/products/laptops/hp-omen-gaming-16-ap00014nta13-c12cjeaa13-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/hp-omen-gaming-16-ap00014nta13-c12cjeaa13-1.jpg",
-      "https://resim.epey.com/1045746/z_hp-omen-gaming-16-ap00014nta13-c12cjeaa13-3.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 78,
@@ -50676,10 +50234,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "HP",
     "category": "laptops",
     "productType": "İnce & Hafif Premium Oyuncu Laptopu (Slim Gaming)",
-    "image": "/images/products/laptops/hp-omen-slim-gaming-laptop-16-an0000nt-bq3z2eaf35-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/hp-omen-slim-gaming-laptop-16-an0000nt-bq3z2eaf35-1.jpg",
-      "https://resim.epey.com/1033231/z_hp-slim-gaming-laptop-16-an0000nt-bq3z2ea-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 78,
@@ -50791,10 +50348,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "HP",
     "category": "laptops",
     "productType": "Masaüstü Gücünde 17.3\" Flagship Oyuncu Laptopu",
-    "image": "/images/products/laptops/hp-omen-17-ck2001nt-7p6d4ea-1.png",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/hp-omen-17-ck2001nt-7p6d4ea-1.png",
-      "https://resim.epey.com/869765/z_hp-omen-17-ck2000nt-7p6d3ea-1.png"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 78,
@@ -50906,10 +50462,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "HP",
     "category": "laptops",
     "productType": "Yüksek Performanslı Oyuncu Laptopu",
-    "image": "/images/products/laptops/hp-omen-gaming-16-ap00014nta78-c12cjeaa78-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/hp-omen-gaming-16-ap00014nta78-c12cjeaa78-1.jpg",
-      "https://resim.epey.com/1045777/z_hp-omen-gaming-16-ap00014nta78-c12cjeaa78-3.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 78,
@@ -51021,10 +50576,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "HP",
     "category": "laptops",
     "productType": "Yüksek Performanslı Oyuncu Laptopu",
-    "image": "/images/products/laptops/hp-omen-gaming-16-ap00014nta73-c12cjeaa73-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/hp-omen-gaming-16-ap00014nta73-c12cjeaa73-1.jpg",
-      "https://resim.epey.com/1042882/z_hp-omen-gaming-16-ap00014nta73-c12cjeaa73-3.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 78,
@@ -51136,10 +50690,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "HP",
     "category": "laptops",
     "productType": "Ultra Profesyonel Mobil İş İstasyonu (Workstation)",
-    "image": "/images/products/laptops/hp-zbook-fury-g1i-16-c65g2es-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/hp-zbook-fury-g1i-16-c65g2es-1.jpg",
-      "https://resim.epey.com/1061850/z_hp-zbook-fury-g1i-16-mm-2.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 78,
@@ -51251,10 +50804,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "HP",
     "category": "laptops",
     "productType": "İnce & Hafif Premium Oyuncu Laptopu (Slim Gaming)",
-    "image": "/images/products/laptops/hp-omen-slim-gaming-16-an0000nt-bq3z2eapn342-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/hp-omen-slim-gaming-16-an0000nt-bq3z2eapn342-1.jpg",
-      "https://resim.epey.com/1063085/z_hp-slim-gaming-laptop-16-an0000nt-bq3z2ea-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 78,
@@ -51366,10 +50918,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "HP",
     "category": "laptops",
     "productType": "Yeni Nesil Yapay Zeka (AI) Destekli Oyuncu Laptopu",
-    "image": "/images/products/laptops/hp-omen-gaming-16-ap0012nta45-c12cgeaa45-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/hp-omen-gaming-16-ap0012nta45-c12cgeaa45-1.jpg",
-      "https://resim.epey.com/1045584/z_hp-omen-gaming-16-ap0012nta40-c12cgeaa30-3.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 78,
@@ -51481,10 +51032,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "HP",
     "category": "laptops",
     "productType": "Yüksek Performanslı Oyuncu Laptopu",
-    "image": "/images/products/laptops/hp-omen-gaming-16-ap00014nta17-c12cjeaa17-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/hp-omen-gaming-16-ap00014nta17-c12cjeaa17-1.jpg",
-      "https://resim.epey.com/1045749/z_hp-omen-gaming-16-ap00014nta17-c12cjeaa17-3.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 77,
@@ -51596,10 +51146,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "HP",
     "category": "laptops",
     "productType": "Yüksek Performanslı Oyuncu Laptopu",
-    "image": "/images/products/laptops/hp-omen-gaming-16-ap0029nt-c3yn8ea-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/hp-omen-gaming-16-ap0029nt-c3yn8ea-1.jpg",
-      "https://resim.epey.com/1051224/z_hp-omen-gaming-16-ap0032nt-c3yn8ea-3.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 77,
@@ -51711,10 +51260,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "HP",
     "category": "laptops",
     "productType": "İnce & Hafif Premium Oyuncu Laptopu (Slim Gaming)",
-    "image": "/images/products/laptops/hp-omen-slim-gaming-laptop-16-an0000nt-bq3z2eah24-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/hp-omen-slim-gaming-laptop-16-an0000nt-bq3z2eah24-1.jpg",
-      "https://resim.epey.com/1033229/z_hp-slim-gaming-laptop-16-an0000nt-bq3z2ea-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 77,
@@ -51826,10 +51374,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "HP",
     "category": "laptops",
     "productType": "İnce & Hafif Premium Oyuncu Laptopu (Slim Gaming)",
-    "image": "/images/products/laptops/hp-omen-slim-gaming-16-an0017nt-cd7k1eahmf35-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/hp-omen-slim-gaming-16-an0017nt-cd7k1eahmf35-1.jpg",
-      "https://resim.epey.com/1059054/z_hp-slim-gaming-laptop-16-an0000nt-bq3z2ea-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 78,
@@ -51941,10 +51488,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "HP",
     "category": "laptops",
     "productType": "İnce & Hafif Premium Oyuncu Laptopu (Slim Gaming)",
-    "image": "/images/products/laptops/hp-omen-slim-gaming-16-an0017nt-cd7k1eahmf50-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/hp-omen-slim-gaming-16-an0017nt-cd7k1eahmf50-1.jpg",
-      "https://resim.epey.com/1059087/z_hp-slim-gaming-laptop-16-an0000nt-bq3z2ea-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 75,
@@ -52056,10 +51602,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "HP",
     "category": "laptops",
     "productType": "Yüksek Performanslı Oyuncu Laptopu",
-    "image": "/images/products/laptops/hp-omen-gaming-16-am0007nt-wbq3q8eap04-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/hp-omen-gaming-16-am0007nt-wbq3q8eap04-1.jpg",
-      "https://resim.epey.com/1066216/z_hp-omen-gaming-16-am0007nt-wbq3q8eap04-3.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 75,
@@ -52171,10 +51716,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "HP",
     "category": "laptops",
     "productType": "Yüksek Performanslı Oyuncu Laptopu",
-    "image": "/images/products/laptops/hp-omen-gaming-16-am0007nt-wbq3q8eah04-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/hp-omen-gaming-16-am0007nt-wbq3q8eah04-1.jpg",
-      "https://resim.epey.com/1066215/z_hp-omen-gaming-16-am0007nt-wbq3q8eah04-3.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 75,
@@ -52286,10 +51830,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "HP",
     "category": "laptops",
     "productType": "Yeni Nesil Yapay Zeka (AI) Destekli Oyuncu Laptopu",
-    "image": "/images/products/laptops/hp-omen-gaming-16-ap0012nta30-c12cgeaa30-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/hp-omen-gaming-16-ap0012nta30-c12cgeaa30-1.jpg",
-      "https://resim.epey.com/1044082/z_hp-omen-gaming-16-ap0012nta30-c12cgeaa30-3.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 75,
@@ -52401,10 +51944,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "HP",
     "category": "laptops",
     "productType": "İnce & Hafif Premium Oyuncu Laptopu (Slim Gaming)",
-    "image": "/images/products/laptops/hp-omen-slim-gaming-laptop-16-an0000nt-bq3z2eah12-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/hp-omen-slim-gaming-laptop-16-an0000nt-bq3z2eah12-1.jpg",
-      "https://resim.epey.com/1033161/z_hp-slim-gaming-laptop-16-an0000nt-bq3z2ea-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 75,
@@ -52516,10 +52058,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "HP",
     "category": "laptops",
     "productType": "İnce & Hafif Premium Oyuncu Laptopu (Slim Gaming)",
-    "image": "/images/products/laptops/hp-omen-slim-gaming-16-an0017nt-cd7k1eahmf12-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/hp-omen-slim-gaming-16-an0017nt-cd7k1eahmf12-1.jpg",
-      "https://resim.epey.com/1059071/z_hp-slim-gaming-laptop-16-an0000nt-bq3z2ea-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 75,
@@ -52631,10 +52172,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "HP",
     "category": "laptops",
     "productType": "İnce & Hafif Premium Oyuncu Laptopu (Slim Gaming)",
-    "image": "/images/products/laptops/hp-omen-slim-gaming-16-an0017nt-cd7k1eahmf21-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/hp-omen-slim-gaming-16-an0017nt-cd7k1eahmf21-1.jpg",
-      "https://resim.epey.com/1058918/z_hp-slim-gaming-laptop-16-an0000nt-bq3z2ea-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 75,
@@ -52746,10 +52286,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "HP",
     "category": "laptops",
     "productType": "Ultra Profesyonel Mobil İş İstasyonu (Workstation)",
-    "image": "/images/products/laptops/hp-zbook-fury-g1i-16-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/hp-zbook-fury-g1i-16-1.jpg",
-      "https://resim.epey.com/1051250/z_hp-zbook-fury-g1i-16-2.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 75,
@@ -52861,10 +52400,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "HP",
     "category": "laptops",
     "productType": "İnce & Hafif Premium Oyuncu Laptopu (Slim Gaming)",
-    "image": "/images/products/laptops/hp-omen-slim-gaming-16-an0017nt-cd7k1eahmf57-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/hp-omen-slim-gaming-16-an0017nt-cd7k1eahmf57-1.jpg",
-      "https://resim.epey.com/1059062/z_hp-slim-gaming-laptop-16-an0000nt-bq3z2ea-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 75,
@@ -52976,10 +52514,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "HP",
     "category": "laptops",
     "productType": "Yüksek Performanslı Oyuncu Laptopu",
-    "image": "/images/products/laptops/hp-omen-gaming-16-am0031nt-c39j4ea-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/hp-omen-gaming-16-am0031nt-c39j4ea-1.jpg",
-      "https://resim.epey.com/1027317/z_hp-omen-gaming-16-am0031nt-c39j4ea-3.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 75,
@@ -53091,10 +52628,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "HP",
     "category": "laptops",
     "productType": "Yeni Nesil Yapay Zeka (AI) Destekli Oyuncu Laptopu",
-    "image": "/images/products/laptops/hp-omen-gaming-16-ap0012nta12-c12cgeaa12-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/hp-omen-gaming-16-ap0012nta12-c12cgeaa12-1.jpg",
-      "https://resim.epey.com/1042360/z_hp-omen-gaming-16-ap0012nta12-c12cgeaa12-3.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 75,
@@ -53206,10 +52742,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "HP",
     "category": "laptops",
     "productType": "Masaüstü Gücünde 17.3\" Flagship Oyuncu Laptopu",
-    "image": "/images/products/laptops/hp-omen-gaming-17-db1015nt-c2ez5ea-ka39-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/hp-omen-gaming-17-db1015nt-c2ez5ea-ka39-1.jpg",
-      "https://resim.epey.com/1067147/z_hp-omen-gaming-17-db1015nt-c2ez5ea-ka39-4.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 75,
@@ -53321,10 +52856,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "HP",
     "category": "laptops",
     "productType": "Yüksek Performanslı Oyuncu Laptopu",
-    "image": "/images/products/laptops/hp-omen-gaming-16-am0031nt-c39j4eah19-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/hp-omen-gaming-16-am0031nt-c39j4eah19-1.jpg",
-      "https://resim.epey.com/1052706/z_hp-omen-gaming-16-am0031nt-c39j4eah19-3.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 75,
@@ -53436,10 +52970,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "HP",
     "category": "laptops",
     "productType": "Yüksek Performanslı Oyuncu Laptopu",
-    "image": "/images/products/laptops/hp-omen-gaming-16-am0018nt-bq1z1eapn354-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/hp-omen-gaming-16-am0018nt-bq1z1eapn354-1.jpg",
-      "https://resim.epey.com/1063072/z_hp-omen-gaming-16-am0018nt-bq1z1eapn354-3.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 75,
@@ -53551,10 +53084,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "HP",
     "category": "laptops",
     "productType": "İnce & Hafif Premium Oyuncu Laptopu (Slim Gaming)",
-    "image": "/images/products/laptops/hp-omen-slim-gaming-16-an0017nt-cd7k1eahmf19-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/hp-omen-slim-gaming-16-an0017nt-cd7k1eahmf19-1.jpg",
-      "https://resim.epey.com/1058920/z_hp-slim-gaming-laptop-16-an0000nt-bq3z2ea-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 75,
@@ -53666,10 +53198,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "HP",
     "category": "laptops",
     "productType": "İnce & Hafif Premium Oyuncu Laptopu (Slim Gaming)",
-    "image": "/images/products/laptops/hp-omen-slim-gaming-16-an0017nt-cd7k1eahmf55-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/hp-omen-slim-gaming-16-an0017nt-cd7k1eahmf55-1.jpg",
-      "https://resim.epey.com/1059066/z_hp-slim-gaming-laptop-16-an0000nt-bq3z2ea-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 75,
@@ -53781,10 +53312,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "HP",
     "category": "laptops",
     "productType": "Yüksek Performanslı Oyuncu Laptopu",
-    "image": "/images/products/laptops/hp-omen-gaming-16-ap0012nta41-c12cgeaa41-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/hp-omen-gaming-16-ap0012nta41-c12cgeaa41-1.jpg",
-      "https://resim.epey.com/1044085/z_hp-omen-gaming-16-ap0012nta40-c12cgeaa30-3.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 75,
@@ -53896,10 +53426,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "HP",
     "category": "laptops",
     "productType": "İnce & Hafif Premium Oyuncu Laptopu (Slim Gaming)",
-    "image": "/images/products/laptops/hp-omen-slim-gaming-16-an0017nt-cd7k1eahmf20-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/hp-omen-slim-gaming-16-an0017nt-cd7k1eahmf20-1.jpg",
-      "https://resim.epey.com/1059060/z_hp-slim-gaming-laptop-16-an0000nt-bq3z2ea-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 74,
@@ -54011,10 +53540,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "HP",
     "category": "laptops",
     "productType": "İnce & Hafif Premium Oyuncu Laptopu (Slim Gaming)",
-    "image": "/images/products/laptops/hp-omen-slim-gaming-16-an0017nt-cd7k1eahmf32-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/hp-omen-slim-gaming-16-an0017nt-cd7k1eahmf32-1.jpg",
-      "https://resim.epey.com/1059072/z_hp-slim-gaming-laptop-16-an0000nt-bq3z2ea-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 74,
@@ -54126,10 +53654,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "HP",
     "category": "laptops",
     "productType": "Yeni Nesil Yapay Zeka (AI) Destekli Oyuncu Laptopu",
-    "image": "/images/products/laptops/hp-omen-gaming-16-ap0012nta44-c12cgeaa44-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/hp-omen-gaming-16-ap0012nta44-c12cgeaa44-1.jpg",
-      "https://resim.epey.com/1044089/z_hp-omen-gaming-16-ap0012nta40-c12cgeaa30-3.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 74,
@@ -54241,10 +53768,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "HP",
     "category": "laptops",
     "productType": "İnce & Hafif Premium Oyuncu Laptopu (Slim Gaming)",
-    "image": "/images/products/laptops/hp-omen-slim-gaming-16-an0017nt-cd7k1eahmf44-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/hp-omen-slim-gaming-16-an0017nt-cd7k1eahmf44-1.jpg",
-      "https://resim.epey.com/1058917/z_hp-slim-gaming-laptop-16-an0000nt-bq3z2ea-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 74,
@@ -54356,10 +53882,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "HP",
     "category": "laptops",
     "productType": "İnce & Hafif Premium Oyuncu Laptopu (Slim Gaming)",
-    "image": "/images/products/laptops/hp-omen-slim-gaming-16-an0017nt-cd7k1eahmf56-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/hp-omen-slim-gaming-16-an0017nt-cd7k1eahmf56-1.jpg",
-      "https://resim.epey.com/1059073/z_hp-slim-gaming-laptop-16-an0000nt-bq3z2ea-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 74,
@@ -54471,10 +53996,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "HP",
     "category": "laptops",
     "productType": "İnce & Hafif Premium Oyuncu Laptopu (Slim Gaming)",
-    "image": "/images/products/laptops/hp-omen-slim-gaming-laptop-16-an0000nt-bq3z2eah05-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/hp-omen-slim-gaming-laptop-16-an0000nt-bq3z2eah05-1.jpg",
-      "https://resim.epey.com/1033228/z_hp-slim-gaming-laptop-16-an0000nt-bq3z2ea-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 74,
@@ -54586,10 +54110,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "HP",
     "category": "laptops",
     "productType": "Yüksek Performanslı Oyuncu Laptopu",
-    "image": "/images/products/laptops/hp-omen-gaming-16-am0031nt-c39j4eap08-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/hp-omen-gaming-16-am0031nt-c39j4eap08-1.jpg",
-      "https://resim.epey.com/1052702/z_hp-omen-gaming-16-am0031nt-c39j4eap08-3.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 73,
@@ -54701,10 +54224,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "HP",
     "category": "laptops",
     "productType": "Yeni Nesil Yapay Zeka (AI) Destekli Oyuncu Laptopu",
-    "image": "/images/products/laptops/hp-omen-gaming-16-ap0012nta60c12cgeaa60-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/hp-omen-gaming-16-ap0012nta60c12cgeaa60-1.jpg",
-      "https://resim.epey.com/1045647/z_hp-omen-gaming-16-ap0012nta40-c12cgeaa30-3.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 73,
@@ -54816,10 +54338,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "HP",
     "category": "laptops",
     "productType": "Yeni Nesil Yapay Zeka (AI) Destekli Oyuncu Laptopu",
-    "image": "/images/products/laptops/hp-omen-gaming-16-ap0020nt-c12cpeaat117-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/hp-omen-gaming-16-ap0020nt-c12cpeaat117-1.jpg",
-      "https://resim.epey.com/1066483/z_hp-omen-gaming-16-ap0020nt-c12cpeaat117-3.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 73,
@@ -54931,10 +54452,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "HP",
     "category": "laptops",
     "productType": "Masaüstü Gücünde 17.3\" Flagship Oyuncu Laptopu",
-    "image": "/images/products/laptops/hp-omen-gaming-17-db1015nt-c2ez5ea-ka17-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/hp-omen-gaming-17-db1015nt-c2ez5ea-ka17-1.jpg",
-      "https://resim.epey.com/1067239/z_hp-omen-gaming-17-db1015nt-c2ez5ea-ka17-4.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 73,
@@ -55046,10 +54566,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "HP",
     "category": "laptops",
     "productType": "Masaüstü Gücünde 17.3\" Flagship Oyuncu Laptopu",
-    "image": "/images/products/laptops/hp-omen-gaming-17-db1015nt-c2ez5ea-ka33-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/hp-omen-gaming-17-db1015nt-c2ez5ea-ka33-1.jpg",
-      "https://resim.epey.com/1067156/z_hp-omen-gaming-17-db1015nt-c2ez5ea-ka33-4.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 73,
@@ -55161,10 +54680,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "HP",
     "category": "laptops",
     "productType": "Fiyat / Performans Oyuncu Laptopu",
-    "image": "/images/products/laptops/hp-victus-gaming-16-r0071nt-8v898ea-64gb-4tbssd-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/hp-victus-gaming-16-r0071nt-8v898ea-64gb-4tbssd-1.jpg",
-      "https://resim.epey.com/1046468/z_hp-victus-gaming-16-r0071nt-8v898ea-64gb-4tbssd-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 73,
@@ -55276,10 +54794,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "HP",
     "category": "laptops",
     "productType": "İnce & Hafif Premium Oyuncu Laptopu (Slim Gaming)",
-    "image": "/images/products/laptops/hp-omen-slim-gaming-laptop-16-an0000nt-bq3z2eap04-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/hp-omen-slim-gaming-laptop-16-an0000nt-bq3z2eap04-1.jpg",
-      "https://resim.epey.com/1033052/z_hp-slim-gaming-laptop-16-an0000nt-bq3z2ea-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 73,
@@ -55391,10 +54908,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "HP",
     "category": "laptops",
     "productType": "İnce & Hafif Premium Oyuncu Laptopu (Slim Gaming)",
-    "image": "/images/products/laptops/hp-omen-slim-gaming-16-an0017nt-cd7k1eahmf8-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/hp-omen-slim-gaming-16-an0017nt-cd7k1eahmf8-1.jpg",
-      "https://resim.epey.com/1058921/z_hp-slim-gaming-laptop-16-an0000nt-bq3z2ea-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 73,
@@ -55506,10 +55022,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "HP",
     "category": "laptops",
     "productType": "İnce & Hafif Premium Oyuncu Laptopu (Slim Gaming)",
-    "image": "/images/products/laptops/hp-omen-slim-gaming-16-an0017nt-cd7k1eahmf17-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/hp-omen-slim-gaming-16-an0017nt-cd7k1eahmf17-1.jpg",
-      "https://resim.epey.com/1059064/z_hp-slim-gaming-laptop-16-an0000nt-bq3z2ea-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 73,
@@ -55621,10 +55136,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "HP",
     "category": "laptops",
     "productType": "İnce & Hafif Premium Oyuncu Laptopu (Slim Gaming)",
-    "image": "/images/products/laptops/hp-omen-slim-gaming-16-an0017nt-cd7k1eahmf29-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/hp-omen-slim-gaming-16-an0017nt-cd7k1eahmf29-1.jpg",
-      "https://resim.epey.com/1059057/z_hp-slim-gaming-laptop-16-an0000nt-bq3z2ea-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 73,
@@ -55736,10 +55250,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "HP",
     "category": "laptops",
     "productType": "Yeni Nesil Yapay Zeka (AI) Destekli Oyuncu Laptopu",
-    "image": "/images/products/laptops/hp-omen-gaming-16-ap0012nta43-c12cgeaa43-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/hp-omen-gaming-16-ap0012nta43-c12cgeaa43-1.jpg",
-      "https://resim.epey.com/1044088/z_hp-omen-gaming-16-ap0012nta40-c12cgeaa30-3.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 72,
@@ -55851,10 +55364,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "HP",
     "category": "laptops",
     "productType": "Fiyat / Performans Oyuncu Laptopu",
-    "image": "/images/products/laptops/hp-victus-gaming-16-r0071nt-8v898ea-64gb-2tbssd-w11p-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/hp-victus-gaming-16-r0071nt-8v898ea-64gb-2tbssd-w11p-1.jpg",
-      "https://resim.epey.com/1046488/z_hp-victus-gaming-16-r0071nt-8v898ea-v-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 72,
@@ -55966,10 +55478,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "HP",
     "category": "laptops",
     "productType": "Yeni Nesil Yapay Zeka (AI) Destekli Oyuncu Laptopu",
-    "image": "/images/products/laptops/hp-omen-gaming-16-ap0020nt-c12cpeaat75-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/hp-omen-gaming-16-ap0020nt-c12cpeaat75-1.jpg",
-      "https://resim.epey.com/1066200/z_hp-omen-gaming-16-ap0020nt-c12cpeaat75-3.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 72,
@@ -56081,10 +55592,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "HP",
     "category": "laptops",
     "productType": "İnce & Hafif Premium Oyuncu Laptopu (Slim Gaming)",
-    "image": "/images/products/laptops/hp-omen-slim-gaming-16-an0000nt-bq3z2eapn332-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/hp-omen-slim-gaming-16-an0000nt-bq3z2eapn332-1.jpg",
-      "https://resim.epey.com/1063125/z_hp-slim-gaming-laptop-16-an0000nt-bq3z2ea-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 72,
@@ -56196,10 +55706,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "HP",
     "category": "laptops",
     "productType": "İnce & Hafif Premium Oyuncu Laptopu (Slim Gaming)",
-    "image": "/images/products/laptops/hp-omen-slim-gaming-16-an0017nt-cd7k1eahmf25-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/hp-omen-slim-gaming-16-an0017nt-cd7k1eahmf25-1.jpg",
-      "https://resim.epey.com/1059086/z_hp-slim-gaming-laptop-16-an0000nt-bq3z2ea-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 72,
@@ -56311,10 +55820,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "HP",
     "category": "laptops",
     "productType": "Masaüstü Gücünde 17.3\" Flagship Oyuncu Laptopu",
-    "image": "/images/products/laptops/hp-omen-gaming-17-db1015nt-c2ez5ea-ka11-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/hp-omen-gaming-17-db1015nt-c2ez5ea-ka11-1.jpg",
-      "https://resim.epey.com/1067231/z_hp-omen-gaming-17-db1015nt-c2ez5ea-ka11-4.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 72,
@@ -56426,10 +55934,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "HP",
     "category": "laptops",
     "productType": "İnce & Hafif Premium Oyuncu Laptopu (Slim Gaming)",
-    "image": "/images/products/laptops/hp-omen-slim-gaming-16-an0017nt-cd7k1eahmf49-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/hp-omen-slim-gaming-16-an0017nt-cd7k1eahmf49-1.jpg",
-      "https://resim.epey.com/1058924/z_hp-slim-gaming-laptop-16-an0000nt-bq3z2ea-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 72,
@@ -56541,10 +56048,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "HP",
     "category": "laptops",
     "productType": "İnce & Hafif Premium Oyuncu Laptopu (Slim Gaming)",
-    "image": "/images/products/laptops/hp-omen-slim-gaming-16-an0016nt-cd7k0ea-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/hp-omen-slim-gaming-16-an0016nt-cd7k0ea-1.jpg",
-      "https://resim.epey.com/1051503/z_hp-slim-gaming-laptop-16-an0000nt-bq3z2ea-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 71,
@@ -56656,10 +56162,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "HP",
     "category": "laptops",
     "productType": "Yeni Nesil Yapay Zeka (AI) Destekli Oyuncu Laptopu",
-    "image": "/images/products/laptops/hp-omen-gaming-16-ap0012nta29-c12cgeaa29-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/hp-omen-gaming-16-ap0012nta29-c12cgeaa29-1.jpg",
-      "https://resim.epey.com/1042462/z_hp-omen-gaming-16-ap0012nta29-c12cgeaa29-3.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 71,
@@ -56771,10 +56276,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "HP",
     "category": "laptops",
     "productType": "Masaüstü Gücünde 17.3\" Flagship Oyuncu Laptopu",
-    "image": "/images/products/laptops/hp-omen-gaming-17-db1015nt-c2ez5ea-ka25-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/hp-omen-gaming-17-db1015nt-c2ez5ea-ka25-1.jpg",
-      "https://resim.epey.com/1067235/z_hp-omen-gaming-17-db1015nt-c2ez5ea-ka25-4.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 71,
@@ -56886,10 +56390,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "HP",
     "category": "laptops",
     "productType": "Fiyat / Performans Oyuncu Laptopu",
-    "image": "/images/products/laptops/hp-victus-gaming-15-fa2036nt-c52qwea-fr51-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/hp-victus-gaming-15-fa2036nt-c52qwea-fr51-1.jpg",
-      "https://resim.epey.com/1052292/z_hp-victus-gaming-15-fa2036nt-c52qwea-fr51-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 71,
@@ -57001,10 +56504,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "HP",
     "category": "laptops",
     "productType": "Yeni Nesil Yapay Zeka (AI) Destekli Oyuncu Laptopu",
-    "image": "/images/products/laptops/hp-omen-gaming-16-ap0020nt-c12cpeaat102-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/hp-omen-gaming-16-ap0020nt-c12cpeaat102-1.jpg",
-      "https://resim.epey.com/1066477/z_hp-omen-gaming-16-ap0020nt-c12cpeaat102-3.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 71,
@@ -57116,10 +56618,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "HP",
     "category": "laptops",
     "productType": "Masaüstü Gücünde 17.3\" Flagship Oyuncu Laptopu",
-    "image": "/images/products/laptops/hp-omen-gaming-17-db1015nt-c2ez5ea-ka16-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/hp-omen-gaming-17-db1015nt-c2ez5ea-ka16-1.jpg",
-      "https://resim.epey.com/1067240/z_hp-omen-gaming-17-db1015nt-c2ez5ea-ka16-4.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 71,
@@ -57231,10 +56732,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "HP",
     "category": "laptops",
     "productType": "Yeni Nesil Yapay Zeka (AI) Destekli Oyuncu Laptopu",
-    "image": "/images/products/laptops/hp-omen-gaming-16-ap0012nta11-c12cgeaa11-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/hp-omen-gaming-16-ap0012nta11-c12cgeaa11-1.jpg",
-      "https://resim.epey.com/1042358/z_hp-omen-gaming-16-ap0012nta11-c12cgeaa11-3.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 71,
@@ -57346,10 +56846,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "HP",
     "category": "laptops",
     "productType": "Masaüstü Gücünde 17.3\" Flagship Oyuncu Laptopu",
-    "image": "/images/products/laptops/hp-omen-gaming-17-db1015nt-c2ez5ea-ka05-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/hp-omen-gaming-17-db1015nt-c2ez5ea-ka05-1.jpg",
-      "https://resim.epey.com/1067236/z_hp-omen-gaming-17-db1015nt-c2ez5ea-ka05-4.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 71,
@@ -57461,10 +56960,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "HP",
     "category": "laptops",
     "productType": "İnce & Hafif Premium Oyuncu Laptopu (Slim Gaming)",
-    "image": "/images/products/laptops/hp-omen-slim-gaming-16-an0000nt-bq3z2eapn306-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/hp-omen-slim-gaming-16-an0000nt-bq3z2eapn306-1.jpg",
-      "https://resim.epey.com/1063086/z_hp-slim-gaming-laptop-16-an0000nt-bq3z2ea-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 71,
@@ -57576,10 +57074,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "HP",
     "category": "laptops",
     "productType": "Masaüstü Gücünde 17.3\" Flagship Oyuncu Laptopu",
-    "image": "/images/products/laptops/hp-omen-gaming-17-db1000nt-bv7w3ea-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/hp-omen-gaming-17-db1000nt-bv7w3ea-1.jpg",
-      "https://resim.epey.com/1027326/z_hp-omen-gaming-17-db1000nt-bv7w3ea-4.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 71,
@@ -57691,10 +57188,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "HP",
     "category": "laptops",
     "productType": "Yeni Nesil Yapay Zeka (AI) Destekli Oyuncu Laptopu",
-    "image": "/images/products/laptops/hp-omen-gaming-16-ap0020nt-c12cpeaat45-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/hp-omen-gaming-16-ap0020nt-c12cpeaat45-1.jpg",
-      "https://resim.epey.com/1066487/z_hp-omen-gaming-16-ap0020nt-c12cpeaat45-3.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 70,
@@ -57806,10 +57302,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "HP",
     "category": "laptops",
     "productType": "Fiyat / Performans Oyuncu Laptopu",
-    "image": "/images/products/laptops/hp-victus-gaming-16-r0071nt-8v898ea-40gb-4tbssd-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/hp-victus-gaming-16-r0071nt-8v898ea-40gb-4tbssd-1.jpg",
-      "https://resim.epey.com/1046467/z_hp-victus-gaming-16-r0071nt-8v898ea-40gb-4tbssd-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 70,
@@ -57921,10 +57416,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "HP",
     "category": "laptops",
     "productType": "Yeni Nesil Yapay Zeka (AI) Destekli Oyuncu Laptopu",
-    "image": "/images/products/laptops/hp-omen-gaming-16-ap0012nta14-c12cgeaa14-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/hp-omen-gaming-16-ap0012nta14-c12cgeaa14-1.jpg",
-      "https://resim.epey.com/1042378/z_hp-omen-gaming-16-ap0012nta14-c12cgeaa14-3.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 70,
@@ -58036,10 +57530,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "HP",
     "category": "laptops",
     "productType": "Yeni Nesil Yapay Zeka (AI) Destekli Oyuncu Laptopu",
-    "image": "/images/products/laptops/hp-omen-gaming-16-ap0020nt-c12cpeaat99-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/hp-omen-gaming-16-ap0020nt-c12cpeaat99-1.jpg",
-      "https://resim.epey.com/1066474/z_hp-omen-gaming-16-ap0020nt-c12cpeaat99-3.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 70,
@@ -58151,10 +57644,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "HP",
     "category": "laptops",
     "productType": "Yeni Nesil Yapay Zeka (AI) Destekli Oyuncu Laptopu",
-    "image": "/images/products/laptops/hp-omen-gaming-16-ap0020nt-c12cpeaat98-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/hp-omen-gaming-16-ap0020nt-c12cpeaat98-1.jpg",
-      "https://resim.epey.com/1066486/z_hp-omen-gaming-16-ap0020nt-c12cpeaat98-3.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 70,
@@ -58266,10 +57758,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "HP",
     "category": "laptops",
     "productType": "Fiyat / Performans Oyuncu Laptopu",
-    "image": "/images/products/laptops/hp-victus-gaming-16-r1033nt-9j235ea-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/hp-victus-gaming-16-r1033nt-9j235ea-1.jpg",
-      "https://resim.epey.com/943268/z_hp-victus-gaming-16-r1033nt-9j235ea-2.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 70,
@@ -58381,10 +57872,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "HP",
     "category": "laptops",
     "productType": "Yeni Nesil Yapay Zeka (AI) Destekli Oyuncu Laptopu",
-    "image": "/images/products/laptops/hp-omen-gaming-16-ap0002nt-c52qzea-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/hp-omen-gaming-16-ap0002nt-c52qzea-1.jpg",
-      "https://resim.epey.com/1035631/z_hp-omen-gaming-16-ap0002nt-c52qzea-3.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 70,
@@ -58496,10 +57986,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "HP",
     "category": "laptops",
     "productType": "Masaüstü Gücünde 17.3\" Flagship Oyuncu Laptopu",
-    "image": "/images/products/laptops/hp-omen-gaming-17-db1013nt-c2ez3eap345-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/hp-omen-gaming-17-db1013nt-c2ez3eap345-1.jpg",
-      "https://resim.epey.com/1068566/z_hp-omen-gaming-17-db1013nt-c2ez3eap345-4.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 70,
@@ -58611,10 +58100,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "HP",
     "category": "laptops",
     "productType": "Fiyat / Performans Oyuncu Laptopu",
-    "image": "/images/products/laptops/hp-victus-gaming-15-fa2036nt-c52qwea-fr27-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/hp-victus-gaming-15-fa2036nt-c52qwea-fr27-1.jpg",
-      "https://resim.epey.com/1052217/z_hp-victus-gaming-15-fa2036nt-c52qwea-fr27-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 70,
@@ -58726,10 +58214,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "HP",
     "category": "laptops",
     "productType": "Fiyat / Performans Oyuncu Laptopu",
-    "image": "/images/products/laptops/hp-victus-gaming-16-r1021nt-9j223ea-1.png",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/hp-victus-gaming-16-r1021nt-9j223ea-1.png",
-      "https://resim.epey.com/1019162/z_hp-victus-gaming-16-r1021nt-9j223ea-1.png"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 70,
@@ -58841,10 +58328,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "HP",
     "category": "laptops",
     "productType": "Fiyat / Performans Oyuncu Laptopu",
-    "image": "/images/products/laptops/hp-victus-gaming-16-r1057nt-9j260ea-24gb-4tbssd-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/hp-victus-gaming-16-r1057nt-9j260ea-24gb-4tbssd-1.jpg",
-      "https://resim.epey.com/1059970/z_hp-victus-gaming-16-r1002nt-9j260ea-2.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 70,
@@ -58956,10 +58442,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "HP",
     "category": "laptops",
     "productType": "Yüksek Performanslı Oyuncu Laptopu",
-    "image": "/images/products/laptops/hp-omen-gaming-16-wf1020nt-9j1y9ea-1.png",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/hp-omen-gaming-16-wf1020nt-9j1y9ea-1.png",
-      "https://resim.epey.com/944061/z_hp-omen-gaming-16-wf1020nt-9j1y9ea-5.png"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 70,
@@ -59071,10 +58556,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "HP",
     "category": "laptops",
     "productType": "Yeni Nesil Yapay Zeka (AI) Destekli Oyuncu Laptopu",
-    "image": "/images/products/laptops/hp-omen-gaming-16-ap0023nt-c12csea-64gb-1tbssd-w11p-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/hp-omen-gaming-16-ap0023nt-c12csea-64gb-1tbssd-w11p-1.jpg",
-      "https://resim.epey.com/1066324/z_hp-omen-gaming-16-ap0023nt-c12csea-64gb-1tbssd-w11p-3.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 70,
@@ -59186,10 +58670,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "HP",
     "category": "laptops",
     "productType": "Yüksek Performanslı Oyuncu Laptopu",
-    "image": "/images/products/laptops/hp-omen-gaming-16-am0018nt-bq1z1eapn334-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/hp-omen-gaming-16-am0018nt-bq1z1eapn334-1.jpg",
-      "https://resim.epey.com/1063073/z_hp-omen-gaming-16-am0018nt-bq1z1eapn334-3.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 70,
@@ -59301,10 +58784,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "HP",
     "category": "laptops",
     "productType": "Fiyat / Performans Oyuncu Laptopu",
-    "image": "/images/products/laptops/hp-victus-gaming-16-r0071nt-8v898ea-c29-1.png",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/hp-victus-gaming-16-r0071nt-8v898ea-c29-1.png",
-      "https://resim.epey.com/1065569/z_hp-victus-gaming-16-r0035nt-7p6k5ea-5.png"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 70,
@@ -59416,10 +58898,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "HP",
     "category": "laptops",
     "productType": "Yüksek Performanslı Oyuncu Laptopu",
-    "image": "/images/products/laptops/hp-omen-gaming-16-am0018nt-bq1z1eapn337-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/hp-omen-gaming-16-am0018nt-bq1z1eapn337-1.jpg",
-      "https://resim.epey.com/1063115/z_hp-omen-gaming-16-am0018nt-bq1z1eapn337-3.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 70,
@@ -59531,10 +59012,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "HP",
     "category": "laptops",
     "productType": "Yeni Nesil Yapay Zeka (AI) Destekli Oyuncu Laptopu",
-    "image": "/images/products/laptops/hp-omen-gaming-16-ap0012nta59-c12cgeaa59-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/hp-omen-gaming-16-ap0012nta59-c12cgeaa59-1.jpg",
-      "https://resim.epey.com/1045646/z_hp-omen-gaming-16-ap0012nta40-c12cgeaa30-3.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 70,
@@ -59646,10 +59126,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "HP",
     "category": "laptops",
     "productType": "Fiyat / Performans Oyuncu Laptopu",
-    "image": "/images/products/laptops/hp-victus-gaming-15-fa2036nt-c52qwea-fr33-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/hp-victus-gaming-15-fa2036nt-c52qwea-fr33-1.jpg",
-      "https://resim.epey.com/1052252/z_hp-victus-gaming-15-fa2036nt-c52qwea-fr33-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 69,
@@ -59761,10 +59240,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "HP",
     "category": "laptops",
     "productType": "Masaüstü Gücünde 17.3\" Flagship Oyuncu Laptopu",
-    "image": "/images/products/laptops/hp-omen-gaming-17-db1015nt-c2ez5ea-ka09-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/hp-omen-gaming-17-db1015nt-c2ez5ea-ka09-1.jpg",
-      "https://resim.epey.com/1067162/z_hp-omen-gaming-17-db1015nt-c2ez5ea-ka09-4.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 69,
@@ -59876,10 +59354,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "HP",
     "category": "laptops",
     "productType": "İnce & Hafif Premium Oyuncu Laptopu (Slim Gaming)",
-    "image": "/images/products/laptops/hp-omen-slim-gaming-16-an0025nt-cj8v8ea-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/hp-omen-slim-gaming-16-an0025nt-cj8v8ea-1.jpg",
-      "https://resim.epey.com/1062748/z_hp-slim-gaming-laptop-16-an0000nt-bq3z2ea-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 69,
@@ -59991,10 +59468,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "HP",
     "category": "laptops",
     "productType": "İnce & Hafif Premium Oyuncu Laptopu (Slim Gaming)",
-    "image": "/images/products/laptops/hp-omen-slim-gaming-laptop-16-an0000nt-bq3z2eaf07-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/hp-omen-slim-gaming-laptop-16-an0000nt-bq3z2eaf07-1.jpg",
-      "https://resim.epey.com/1033058/z_hp-slim-gaming-laptop-16-an0000nt-bq3z2ea-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 69,
@@ -60106,10 +59582,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "HP",
     "category": "laptops",
     "productType": "İnce & Hafif Premium Oyuncu Laptopu (Slim Gaming)",
-    "image": "/images/products/laptops/hp-omen-slim-gaming-16-an0035nt-ck9l2ea-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/hp-omen-slim-gaming-16-an0035nt-ck9l2ea-1.jpg",
-      "https://resim.epey.com/1065252/z_hp-slim-gaming-laptop-16-an0000nt-bq3z2ea-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 69,
@@ -60221,10 +59696,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "HP",
     "category": "laptops",
     "productType": "Fiyat / Performans Oyuncu Laptopu",
-    "image": "/images/products/laptops/hp-victus-gaming-15-fa2036nt-c52qwea-fr9-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/hp-victus-gaming-15-fa2036nt-c52qwea-fr9-1.jpg",
-      "https://resim.epey.com/1052197/z_hp-victus-gaming-15-fa2036nt-c52qwea-fr9-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 69,
@@ -60336,10 +59810,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "HP",
     "category": "laptops",
     "productType": "İnce & Hafif Premium Oyuncu Laptopu (Slim Gaming)",
-    "image": "/images/products/laptops/hp-omen-slim-gaming-laptop-16-an0000nt-bq3z2eah01-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/hp-omen-slim-gaming-laptop-16-an0000nt-bq3z2eah01-1.jpg",
-      "https://resim.epey.com/1033064/z_hp-slim-gaming-laptop-16-an0000nt-bq3z2ea-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 69,
@@ -60451,10 +59924,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "HP",
     "category": "laptops",
     "productType": "Masaüstü Gücünde 17.3\" Flagship Oyuncu Laptopu",
-    "image": "/images/products/laptops/hp-omen-gaming-17-db1015nt-c2ez5ea-ka23-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/hp-omen-gaming-17-db1015nt-c2ez5ea-ka23-1.jpg",
-      "https://resim.epey.com/1067234/z_hp-omen-gaming-17-db1015nt-c2ez5ea-ka23-4.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 69,
@@ -60566,10 +60038,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "HP",
     "category": "laptops",
     "productType": "Fiyat / Performans Oyuncu Laptopu",
-    "image": "/images/products/laptops/hp-victus-gaming-16-s0065nt-8w8a7ea64gb-4tbssd-w11p-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/hp-victus-gaming-16-s0065nt-8w8a7ea64gb-4tbssd-w11p-1.jpg",
-      "https://resim.epey.com/948995/z_hp-victus-gaming-16-s0065nt-7.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 69,
@@ -60681,10 +60152,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "HP",
     "category": "laptops",
     "productType": "Fiyat / Performans Oyuncu Laptopu",
-    "image": "/images/products/laptops/hp-victus-gaming-16-s0065nt-8w8a7ea64gb-4tbssd-w11h-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/hp-victus-gaming-16-s0065nt-8w8a7ea64gb-4tbssd-w11h-1.jpg",
-      "https://resim.epey.com/948994/z_hp-victus-gaming-16-s0065nt-7.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 69,
@@ -60796,10 +60266,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "HP",
     "category": "laptops",
     "productType": "Yeni Nesil Yapay Zeka (AI) Destekli Oyuncu Laptopu",
-    "image": "/images/products/laptops/hp-omen-gaming-16-ap0010nt-ce2b2eapn344-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/hp-omen-gaming-16-ap0010nt-ce2b2eapn344-1.jpg",
-      "https://resim.epey.com/1063128/z_hp-omen-gaming-16-ap0010nt-ce2b2eapn344-3.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 69,
@@ -60911,10 +60380,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "HP",
     "category": "laptops",
     "productType": "Yeni Nesil Yapay Zeka (AI) Destekli Oyuncu Laptopu",
-    "image": "/images/products/laptops/hp-omen-gaming-16-ap0004nt-c52r0ea-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/hp-omen-gaming-16-ap0004nt-c52r0ea-1.jpg",
-      "https://resim.epey.com/1064384/z_hp-omen-gaming-16-ap0004nt-c52r0ea-3.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 69,
@@ -61026,10 +60494,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "HP",
     "category": "laptops",
     "productType": "Yeni Nesil Yapay Zeka (AI) Destekli Oyuncu Laptopu",
-    "image": "/images/products/laptops/hp-omen-gaming-16-ap0012nta55-c12cgeaa55-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/hp-omen-gaming-16-ap0012nta55-c12cgeaa55-1.jpg",
-      "https://resim.epey.com/1045630/z_hp-omen-gaming-16-ap0012nta40-c12cgeaa30-3.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 69,
@@ -61141,10 +60608,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "HP",
     "category": "laptops",
     "productType": "Yeni Nesil Yapay Zeka (AI) Destekli Oyuncu Laptopu",
-    "image": "/images/products/laptops/hp-omen-gaming-16-ap0020nt-c12cpeaat81-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/hp-omen-gaming-16-ap0020nt-c12cpeaat81-1.jpg",
-      "https://resim.epey.com/1066212/z_hp-omen-gaming-16-ap0020nt-c12cpeaat81-3.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 69,
@@ -61256,10 +60722,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "HP",
     "category": "laptops",
     "productType": "Yüksek Performanslı Oyuncu Laptopu",
-    "image": "/images/products/laptops/hp-omen-gaming-16-am0005nt-bq1y6ea-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/hp-omen-gaming-16-am0005nt-bq1y6ea-1.jpg",
-      "https://resim.epey.com/1063045/z_hp-omen-gaming-16-am0005nt-bq1y6ea-3.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 69,
@@ -61371,10 +60836,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "HP",
     "category": "laptops",
     "productType": "Fiyat / Performans Oyuncu Laptopu",
-    "image": "/images/products/laptops/hp-victus-gaming-15-fa2036nt-c52qwea-fr54-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/hp-victus-gaming-15-fa2036nt-c52qwea-fr54-1.jpg",
-      "https://resim.epey.com/1052300/z_hp-victus-gaming-15-fa2036nt-c52qwea-fr54-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 68,
@@ -61486,10 +60950,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "HP",
     "category": "laptops",
     "productType": "Fiyat / Performans Oyuncu Laptopu",
-    "image": "/images/products/laptops/hp-victus-gaming-15-fa2036nt-c52qwea-fr44-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/hp-victus-gaming-15-fa2036nt-c52qwea-fr44-1.jpg",
-      "https://resim.epey.com/1052263/z_hp-victus-gaming-15-fa2036nt-c52qwea-fr44-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 69,
@@ -61601,10 +61064,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "HP",
     "category": "laptops",
     "productType": "Masaüstü Gücünde 17.3\" Flagship Oyuncu Laptopu",
-    "image": "/images/products/laptops/hp-omen-gaming-17-db1015nt-c2ez5ea-ka02-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/hp-omen-gaming-17-db1015nt-c2ez5ea-ka02-1.jpg",
-      "https://resim.epey.com/1067146/z_hp-omen-gaming-17-db1015nt-c2ez5ea-ka02-4.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 68,
@@ -61716,10 +61178,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "HP",
     "category": "laptops",
     "productType": "Fiyat / Performans Oyuncu Laptopu",
-    "image": "/images/products/laptops/hp-victus-gaming-16-s0065nt-8w8a7ea64gb-4tbssd-dos-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/hp-victus-gaming-16-s0065nt-8w8a7ea64gb-4tbssd-dos-1.jpg",
-      "https://resim.epey.com/948993/z_hp-victus-gaming-16-s0065nt-7.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 68,
@@ -61831,10 +61292,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "HP",
     "category": "laptops",
     "productType": "Yeni Nesil Yapay Zeka (AI) Destekli Oyuncu Laptopu",
-    "image": "/images/products/laptops/hp-omen-gaming-16-ap0012nta58-c12cgeaa58-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/hp-omen-gaming-16-ap0012nta58-c12cgeaa58-1.jpg",
-      "https://resim.epey.com/1045632/z_hp-omen-gaming-16-ap0012nta40-c12cgeaa30-3.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 68,
@@ -61946,10 +61406,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "HP",
     "category": "laptops",
     "productType": "Yeni Nesil Yapay Zeka (AI) Destekli Oyuncu Laptopu",
-    "image": "/images/products/laptops/hp-omen-gaming-16-ap0020nt-c12cpeaat66-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/hp-omen-gaming-16-ap0020nt-c12cpeaat66-1.jpg",
-      "https://resim.epey.com/1066210/z_hp-omen-gaming-16-ap0020nt-c12cpeaat66-3.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 68,
@@ -62061,10 +61520,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "HP",
     "category": "laptops",
     "productType": "Masaüstü Gücünde 17.3\" Flagship Oyuncu Laptopu",
-    "image": "/images/products/laptops/hp-omen-gaming-17-db1022nt-cd5n2ea-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/hp-omen-gaming-17-db1022nt-cd5n2ea-1.jpg",
-      "https://resim.epey.com/1056675/z_hp-omen-gaming-17-db1022nt-cd5n2ea-4.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 68,
@@ -62176,10 +61634,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "HP",
     "category": "laptops",
     "productType": "İnce & Hafif Premium Oyuncu Laptopu (Slim Gaming)",
-    "image": "/images/products/laptops/hp-omen-slim-gaming-16-an0000nt-bq3z2eapn307-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/hp-omen-slim-gaming-16-an0000nt-bq3z2eapn307-1.jpg",
-      "https://resim.epey.com/1063084/z_hp-slim-gaming-laptop-16-an0000nt-bq3z2ea-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 68,
@@ -62291,10 +61748,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "HP",
     "category": "laptops",
     "productType": "Fiyat / Performans Oyuncu Laptopu",
-    "image": "/images/products/laptops/hp-victus-gaming-15-fa2036nt-c52qwea-fr50-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/hp-victus-gaming-15-fa2036nt-c52qwea-fr50-1.jpg",
-      "https://resim.epey.com/1052291/z_hp-victus-gaming-15-fa2036nt-c52qwea-fr50-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 67,
@@ -62406,10 +61862,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "HP",
     "category": "laptops",
     "productType": "Fiyat / Performans Oyuncu Laptopu",
-    "image": "/images/products/laptops/hp-victus-gaming-15-fa2036nt-c52qwea-fr46-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/hp-victus-gaming-15-fa2036nt-c52qwea-fr46-1.jpg",
-      "https://resim.epey.com/1052285/z_hp-victus-gaming-15-fa2036nt-c52qwea-fr46-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 67,
@@ -62521,10 +61976,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "HP",
     "category": "laptops",
     "productType": "Masaüstü Gücünde 17.3\" Flagship Oyuncu Laptopu",
-    "image": "/images/products/laptops/hp-omen-gaming-17-db1015nt-c2ez5ea-ka13-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/hp-omen-gaming-17-db1015nt-c2ez5ea-ka13-1.jpg",
-      "https://resim.epey.com/1067237/z_hp-omen-gaming-17-db1015nt-c2ez5ea-ka13-4.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 67,
@@ -62636,10 +62090,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "HP",
     "category": "laptops",
     "productType": "Fiyat / Performans Oyuncu Laptopu",
-    "image": "/images/products/laptops/hp-victus-gaming-16-r1025nt-9j227ea-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/hp-victus-gaming-16-r1025nt-9j227ea-1.jpg",
-      "https://resim.epey.com/926666/z_hp-victus-gaming-16-r1025nt-9j227ea-2.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 67,
@@ -62751,10 +62204,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "HP",
     "category": "laptops",
     "productType": "Mobil İş İstasyonu (Workstation)",
-    "image": "/images/products/laptops/hp-zbook-x-g1i-16-b30hmes-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/hp-zbook-x-g1i-16-b30hmes-1.jpg",
-      "https://resim.epey.com/1037847/z_hp-zbook-x-g1i-16-2.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 67,
@@ -62867,10 +62319,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "HP",
     "category": "laptops",
     "productType": "Kurumsal & Profesyonel AI Ultrabook",
-    "image": "/images/products/laptops/hp-probook-4-g1i-14-ai-d36kmethmf42-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/hp-probook-4-g1i-14-ai-d36kmethmf42-1.jpg",
-      "https://resim.epey.com/1067968/z_hp-probook-4-g1i-14-ai-d36kmethmf42-3.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 67,
@@ -62982,10 +62433,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "HP",
     "category": "laptops",
     "productType": "Fiyat / Performans Oyuncu Laptopu",
-    "image": "/images/products/laptops/hp-victus-gaming-16-r1057nt-9j260ea-fr14-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/hp-victus-gaming-16-r1057nt-9j260ea-fr14-1.jpg",
-      "https://resim.epey.com/1066718/z_hp-victus-gaming-16-r1002nt-9j260ea-2.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 67,
@@ -63097,10 +62547,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "HP",
     "category": "laptops",
     "productType": "Yüksek Performanslı Oyuncu Laptopu",
-    "image": "/images/products/laptops/hp-omen-gaming-16-am0018nt-bq1z1eapn306-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/hp-omen-gaming-16-am0018nt-bq1z1eapn306-1.jpg",
-      "https://resim.epey.com/1063117/z_hp-omen-gaming-16-am0018nt-bq1z1eapn306-3.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 67,
@@ -63212,10 +62661,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "HP",
     "category": "laptops",
     "productType": "Fiyat / Performans Oyuncu Laptopu",
-    "image": "/images/products/laptops/hp-victus-gaming-16-r0071nt-8v898ea-16gb-4tbssd-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/hp-victus-gaming-16-r0071nt-8v898ea-16gb-4tbssd-1.jpg",
-      "https://resim.epey.com/1046473/z_hp-victus-gaming-16-r0071nt-8v898ea-16gb-4tbssd-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 67,
@@ -63327,10 +62775,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "HP",
     "category": "laptops",
     "productType": "Fiyat / Performans Oyuncu Laptopu",
-    "image": "/images/products/laptops/hp-victus-gaming-16-r1041nt-9j243ea-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/hp-victus-gaming-16-r1041nt-9j243ea-1.jpg",
-      "https://resim.epey.com/963489/z_hp-victus-gaming-16-r1041nt-9j243ea-2.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 67,
@@ -63442,10 +62889,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "HP",
     "category": "laptops",
     "productType": "Fiyat / Performans Oyuncu Laptopu",
-    "image": "/images/products/laptops/hp-victus-gaming-16-r1001nt-9j205ea-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/hp-victus-gaming-16-r1001nt-9j205ea-1.jpg",
-      "https://resim.epey.com/937618/z_hp-victus-gaming-16-r1001nt-9j205ea-2.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 67,
@@ -63557,10 +63003,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "MSI",
     "category": "laptops",
     "productType": "Dünyanın En Güçlü Titan Amiral Gemisi Oyuncu Laptopu (Titan Series)",
-    "image": "/images/products/laptops/msi-titan-18-hx-dragon-edition-draco-epic-a2wj-1223tr-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/msi-titan-18-hx-dragon-edition-draco-epic-a2wj-1223tr-1.jpg",
-      "https://resim.epey.com/1065244/z_msi-titan-18-hx-dragon-edition-draco-epic-a2wj-1223tr-4.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.9,
     "epeyScore": 100,
@@ -63673,10 +63118,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "MSI",
     "category": "laptops",
     "productType": "Maksimum Performanslı RGB Işıklı Canavar Laptop (Raider Series)",
-    "image": "/images/products/laptops/msi-raider-18-max-hx-a2wj-1059tr-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/msi-raider-18-max-hx-a2wj-1059tr-1.jpg",
-      "https://resim.epey.com/1059785/z_msi-raider-18-max-hx-a2wj-1059tr-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.9,
     "epeyScore": 99,
@@ -63789,10 +63233,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "MSI",
     "category": "laptops",
     "productType": "Maksimum Performanslı RGB Işıklı Canavar Laptop (Raider Series)",
-    "image": "/images/products/laptops/msi-raider-a18-hx-a9wig-092tr-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/msi-raider-a18-hx-a9wig-092tr-1.jpg",
-      "https://resim.epey.com/999158/z_msi-raider-a18-hx-a9wig-092tr-2.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.9,
     "epeyScore": 96,
@@ -63905,10 +63348,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "MSI",
     "category": "laptops",
     "productType": "Maksimum Performanslı RGB Işıklı Canavar Laptop (Raider Series)",
-    "image": "/images/products/laptops/msi-raider-18-max-hx-a2wi-1040tr-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/msi-raider-18-max-hx-a2wi-1040tr-1.jpg",
-      "https://resim.epey.com/1058535/z_msi-raider-18-max-hx-a2wi-1040tr-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.9,
     "epeyScore": 93,
@@ -64021,10 +63463,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "MSI",
     "category": "laptops",
     "productType": "Maksimum Performanslı RGB Işıklı Canavar Laptop (Raider Series)",
-    "image": "/images/products/laptops/msi-raider-18-hx-a2wh-1094xtrp468-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/msi-raider-18-hx-a2wh-1094xtrp468-1.jpg",
-      "https://resim.epey.com/1067779/z_msi-raider-18-hx-a2wh-1094xtrp468-3.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.9,
     "epeyScore": 92,
@@ -64137,10 +63578,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "MSI",
     "category": "laptops",
     "productType": "Ultra İnce & Hafif 18\" Premium Oyuncu Ultrabooku (Stealth AI Studio)",
-    "image": "/images/products/laptops/msi-stealth-18-hx-ai-a2wi-081tr-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/msi-stealth-18-hx-ai-a2wi-081tr-1.jpg",
-      "https://resim.epey.com/1059784/z_msi-stealth-18-hx-ai-a2wi-081tr-2.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.9,
     "epeyScore": 91,
@@ -64253,10 +63693,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "MSI",
     "category": "laptops",
     "productType": "Maksimum Performanslı RGB Işıklı Canavar Laptop (Raider Series)",
-    "image": "/images/products/laptops/msi-raider-18-hx-a2wh-1094xtrp407-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/msi-raider-18-hx-a2wh-1094xtrp407-1.jpg",
-      "https://resim.epey.com/1067783/z_msi-raider-18-hx-a2wh-1094xtrp407-3.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.9,
     "epeyScore": 91,
@@ -64369,10 +63808,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "MSI",
     "category": "laptops",
     "productType": "Maksimum Performanslı RGB Işıklı Canavar Laptop (Raider Series)",
-    "image": "/images/products/laptops/msi-raider-18-hx-a2wh-1094xtrp478-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/msi-raider-18-hx-a2wh-1094xtrp478-1.jpg",
-      "https://resim.epey.com/1067831/z_msi-raider-18-hx-a2wh-1094xtrp478-3.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.9,
     "epeyScore": 89,
@@ -64485,10 +63923,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "MSI",
     "category": "laptops",
     "productType": "Maksimum Performanslı RGB Işıklı Canavar Laptop (Raider Series)",
-    "image": "/images/products/laptops/msi-raider-18-hx-a2wh-1094xtrp418-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/msi-raider-18-hx-a2wh-1094xtrp418-1.jpg",
-      "https://resim.epey.com/1067810/z_msi-raider-18-hx-a2wh-1094xtrp418-3.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.9,
     "epeyScore": 89,
@@ -64601,10 +64038,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "MSI",
     "category": "laptops",
     "productType": "Maksimum Performanslı RGB Işıklı Canavar Laptop (Raider Series)",
-    "image": "/images/products/laptops/msi-raider-16-hx-b2wj-022tr-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/msi-raider-16-hx-b2wj-022tr-1.jpg",
-      "https://resim.epey.com/1057276/z_msi-raider-16-hx-b2wj-022tr-6.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.9,
     "epeyScore": 88,
@@ -64717,10 +64153,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "MSI",
     "category": "laptops",
     "productType": "Maksimum Performanslı RGB Işıklı Canavar Laptop (Raider Series)",
-    "image": "/images/products/laptops/msi-raider-18-hx-a2wh-1094xtrp406-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/msi-raider-18-hx-a2wh-1094xtrp406-1.jpg",
-      "https://resim.epey.com/1067784/z_msi-raider-18-hx-a2wh-1094xtrp406-3.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.9,
     "epeyScore": 88,
@@ -64833,10 +64268,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "MSI",
     "category": "laptops",
     "productType": "Maksimum Performanslı RGB Işıklı Canavar Laptop (Raider Series)",
-    "image": "/images/products/laptops/msi-raider-18-hx-a2wh-1094xtrp477-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/msi-raider-18-hx-a2wh-1094xtrp477-1.jpg",
-      "https://resim.epey.com/1067796/z_msi-raider-18-hx-a2wh-1094xtrp477-3.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.9,
     "epeyScore": 88,
@@ -64949,10 +64383,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "MSI",
     "category": "laptops",
     "productType": "Maksimum Performanslı RGB Işıklı Canavar Laptop (Raider Series)",
-    "image": "/images/products/laptops/msi-raider-16-max-hx-b2wi-092tr-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/msi-raider-16-max-hx-b2wi-092tr-1.jpg",
-      "https://resim.epey.com/1058523/z_msi-raider-16-max-hx-b2wi-092tr-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.9,
     "epeyScore": 88,
@@ -65065,10 +64498,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "MSI",
     "category": "laptops",
     "productType": "Maksimum Performanslı RGB Işıklı Canavar Laptop (Raider Series)",
-    "image": "/images/products/laptops/msi-raider-16-max-hx-b2wi-092trp447-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/msi-raider-16-max-hx-b2wi-092trp447-1.jpg",
-      "https://resim.epey.com/1068565/z_msi-raider-16-max-hx-b2wi-092trp447-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.9,
     "epeyScore": 88,
@@ -65181,10 +64613,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "MSI",
     "category": "laptops",
     "productType": "Maksimum Performanslı RGB Işıklı Canavar Laptop (Raider Series)",
-    "image": "/images/products/laptops/msi-raider-18-hx-a2wh-1094xtrp416-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/msi-raider-18-hx-a2wh-1094xtrp416-1.jpg",
-      "https://resim.epey.com/1067828/z_msi-raider-18-hx-a2wh-1094xtrp416-3.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.9,
     "epeyScore": 87,
@@ -65297,10 +64728,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "MSI",
     "category": "laptops",
     "productType": "Maksimum Performanslı RGB Işıklı Canavar Laptop (Raider Series)",
-    "image": "/images/products/laptops/msi-raider-18-hx-a2wh-1094xtrp4271-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/msi-raider-18-hx-a2wh-1094xtrp4271-1.jpg",
-      "https://resim.epey.com/1067788/z_msi-raider-18-hx-a2wh-1094xtrp4271-3.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.9,
     "epeyScore": 87,
@@ -65413,10 +64843,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "MSI",
     "category": "laptops",
     "productType": "Maksimum Performanslı RGB Işıklı Canavar Laptop (Raider Series)",
-    "image": "/images/products/laptops/msi-raider-18-hx-a2wh-1094xtrp438-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/msi-raider-18-hx-a2wh-1094xtrp438-1.jpg",
-      "https://resim.epey.com/1067839/z_msi-raider-18-hx-a2wh-1094xtrp438-3.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.9,
     "epeyScore": 87,
@@ -65529,10 +64958,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "MSI",
     "category": "laptops",
     "productType": "Maksimum Performanslı Flagship RGB Oyuncu Laptopu (Raider Series)",
-    "image": "/images/products/laptops/msi-raider-18-hx-a2wh-1094xtrp376-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/msi-raider-18-hx-a2wh-1094xtrp376-1.jpg",
-      "https://resim.epey.com/1067836/z_msi-raider-18-hx-a2wh-1094xtrp376-3.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 83,
@@ -65645,10 +65073,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "MSI",
     "category": "laptops",
     "productType": "Maksimum Performanslı Flagship RGB Oyuncu Laptopu (Raider Series)",
-    "image": "/images/products/laptops/msi-raider-18-hx-a2wh-1094xtrp441-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/msi-raider-18-hx-a2wh-1094xtrp441-1.jpg",
-      "https://resim.epey.com/1067789/z_msi-raider-18-hx-a2wh-1094xtrp441-3.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 83,
@@ -65761,10 +65188,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "MSI",
     "category": "laptops",
     "productType": "Mühendislik & Üst Seviye Performans Laptopu (Vector HX Series)",
-    "image": "/images/products/laptops/msi-vector-16-hx-ai-a2xwig-089tr-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/msi-vector-16-hx-ai-a2xwig-089tr-1.jpg",
-      "https://resim.epey.com/999531/z_msi-vector-16-hx-ai-a2xwig-089tr-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 83,
@@ -65877,10 +65303,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "MSI",
     "category": "laptops",
     "productType": "Keskin Performanslı Hibrit Oyuncu Laptopu (Katana Series)",
-    "image": "/images/products/laptops/msi-katana-17-hx-b14wgk-048xtr-fr38-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/msi-katana-17-hx-b14wgk-048xtr-fr38-1.jpg",
-      "https://resim.epey.com/1041345/z_msi-katana-17-hx-b14wgk-048xtr-fr48-10.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 82,
@@ -65993,10 +65418,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "MSI",
     "category": "laptops",
     "productType": "Maksimum Performanslı Flagship RGB Oyuncu Laptopu (Raider Series)",
-    "image": "/images/products/laptops/msi-raider-18-hx-a2wh-1094xtrp434-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/msi-raider-18-hx-a2wh-1094xtrp434-1.jpg",
-      "https://resim.epey.com/1067809/z_msi-raider-18-hx-a2wh-1094xtrp434-3.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 81,
@@ -66109,10 +65533,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "MSI",
     "category": "laptops",
     "productType": "Keskin Performanslı Hibrit Oyuncu Laptopu (Katana Series)",
-    "image": "/images/products/laptops/msi-katana-17-hx-b14wgk-048xtr-fr43-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/msi-katana-17-hx-b14wgk-048xtr-fr43-1.jpg",
-      "https://resim.epey.com/1050579/z_msi-katana-17-hx-b14wgk-048xtr-fr43-10.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 81,
@@ -66225,10 +65648,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "MSI",
     "category": "laptops",
     "productType": "Maksimum Performanslı Flagship RGB Oyuncu Laptopu (Raider Series)",
-    "image": "/images/products/laptops/msi-raider-18-hx-a2wh-1094xtrp433-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/msi-raider-18-hx-a2wh-1094xtrp433-1.jpg",
-      "https://resim.epey.com/1067777/z_msi-raider-18-hx-a2wh-1094xtrp433-3.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 81,
@@ -66341,10 +65763,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "MSI",
     "category": "laptops",
     "productType": "Maksimum Performanslı Flagship RGB Oyuncu Laptopu (Raider Series)",
-    "image": "/images/products/laptops/msi-raider-18-hx-a2wh-1094xtrp429-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/msi-raider-18-hx-a2wh-1094xtrp429-1.jpg",
-      "https://resim.epey.com/1067781/z_msi-raider-18-hx-a2wh-1094xtrp429-3.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 81,
@@ -66457,10 +65878,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "MSI",
     "category": "laptops",
     "productType": "Maksimum Performanslı Flagship RGB Oyuncu Laptopu (Raider Series)",
-    "image": "/images/products/laptops/msi-raider-16-hx-b2wgx-018tr-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/msi-raider-16-hx-b2wgx-018tr-1.jpg",
-      "https://resim.epey.com/1058497/z_msi-raider-16-hx-b2wgx-018tr-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 81,
@@ -66573,10 +65993,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "MSI",
     "category": "laptops",
     "productType": "Modern Tasarımlı Güçlü Oyuncu Laptopu (Crosshair Series)",
-    "image": "/images/products/laptops/msi-crosshair-a17-hx-d8wgkg-044xtr012-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/msi-crosshair-a17-hx-d8wgkg-044xtr012-1.jpg",
-      "https://resim.epey.com/1049826/z_msi-crosshair-a17-hx-d8wgkg-044xtr012-5.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 81,
@@ -66689,10 +66108,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "MSI",
     "category": "laptops",
     "productType": "Modern Tasarımlı Güçlü Oyuncu Laptopu (Crosshair Series)",
-    "image": "/images/products/laptops/msi-crosshair-16-max-hx-e2wgxk-043tr-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/msi-crosshair-16-max-hx-e2wgxk-043tr-1.jpg",
-      "https://resim.epey.com/1065483/z_msi-crosshair-16-max-hx-e2wgxk-043tr-3.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 81,
@@ -66805,10 +66223,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "MSI",
     "category": "laptops",
     "productType": "Maksimum Performanslı Flagship RGB Oyuncu Laptopu (Raider Series)",
-    "image": "/images/products/laptops/msi-raider-18-hx-a2wh-1094xtrp428-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/msi-raider-18-hx-a2wh-1094xtrp428-1.jpg",
-      "https://resim.epey.com/1067780/z_msi-raider-18-hx-a2wh-1094xtrp428-3.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 80,
@@ -66921,10 +66338,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "MSI",
     "category": "laptops",
     "productType": "Keskin Performanslı Hibrit Oyuncu Laptopu (Katana Series)",
-    "image": "/images/products/laptops/msi-katana-17-hx-b14wgk-048xtr-fr39-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/msi-katana-17-hx-b14wgk-048xtr-fr39-1.jpg",
-      "https://resim.epey.com/1047615/z_msi-katana-17-hx-b14wgk-048xtr-fr39-10.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 80,
@@ -67037,10 +66453,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "MSI",
     "category": "laptops",
     "productType": "Keskin Performanslı Hibrit Oyuncu Laptopu (Katana Series)",
-    "image": "/images/products/laptops/msi-katana-17-hx-b14wfkrnp32-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/msi-katana-17-hx-b14wfkrnp32-1.jpg",
-      "https://resim.epey.com/1060438/z_msi-katana-17-hx-b14wfkrnp32-10.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 80,
@@ -67153,10 +66568,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "MSI",
     "category": "laptops",
     "productType": "Maksimum Performanslı Flagship RGB Oyuncu Laptopu (Raider Series)",
-    "image": "/images/products/laptops/msi-raider-18-hx-a2wh-1094xtrp363-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/msi-raider-18-hx-a2wh-1094xtrp363-1.jpg",
-      "https://resim.epey.com/1067807/z_msi-raider-18-hx-a2wh-1094xtrp363-3.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 80,
@@ -67269,10 +66683,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "MSI",
     "category": "laptops",
     "productType": "Maksimum Performanslı Flagship RGB Oyuncu Laptopu (Raider Series)",
-    "image": "/images/products/laptops/msi-raider-18-hx-a2wh-1094xtrp423-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/msi-raider-18-hx-a2wh-1094xtrp423-1.jpg",
-      "https://resim.epey.com/1067787/z_msi-raider-18-hx-a2wh-1094xtrp423-3.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 80,
@@ -67385,10 +66798,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "MSI",
     "category": "laptops",
     "productType": "Modern Tasarımlı Güçlü Oyuncu Laptopu (Crosshair Series)",
-    "image": "/images/products/laptops/msi-crosshair-17-hx-ai-d2xwgkg-017tr-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/msi-crosshair-17-hx-ai-d2xwgkg-017tr-1.jpg",
-      "https://resim.epey.com/1011572/z_msi-crosshair-17-hx-ai-d2xwgkg-017tr-5.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 80,
@@ -67501,10 +66913,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "MSI",
     "category": "laptops",
     "productType": "Keskin Performanslı Hibrit Oyuncu Laptopu (Katana Series)",
-    "image": "/images/products/laptops/msi-katana-17-hx-b14wfk-217trat39-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/msi-katana-17-hx-b14wfk-217trat39-1.jpg",
-      "https://resim.epey.com/1059153/z_msi-katana-17-hx-b14wfk-217trat39-10.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 79,
@@ -67617,10 +67028,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "MSI",
     "category": "laptops",
     "productType": "Maksimum Performanslı Flagship RGB Oyuncu Laptopu (Raider Series)",
-    "image": "/images/products/laptops/msi-raider-18-hx-a2wh-1094xtrp421-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/msi-raider-18-hx-a2wh-1094xtrp421-1.jpg",
-      "https://resim.epey.com/1067786/z_msi-raider-18-hx-a2wh-1094xtrp421-3.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 79,
@@ -67733,10 +67143,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "MSI",
     "category": "laptops",
     "productType": "Keskin Performanslı Hibrit Oyuncu Laptopu (Katana Series)",
-    "image": "/images/products/laptops/msi-katana-17-hx-b14wgk-048xtr-fr28-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/msi-katana-17-hx-b14wgk-048xtr-fr28-1.jpg",
-      "https://resim.epey.com/1041343/z_msi-katana-17-hx-b14wgk-048xtr-fr48-10.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 79,
@@ -67849,10 +67258,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "MSI",
     "category": "laptops",
     "productType": "Modern Tasarımlı Güçlü Oyuncu Laptopu (Crosshair Series)",
-    "image": "/images/products/laptops/msi-crosshair-16-hx-ai-d2xwgkg-047xtr-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/msi-crosshair-16-hx-ai-d2xwgkg-047xtr-1.jpg",
-      "https://resim.epey.com/1010785/z_msi-crosshair-16-hx-ai-d2xwgkg-047xtr-9.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 79,
@@ -67965,10 +67373,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "MSI",
     "category": "laptops",
     "productType": "Keskin Performanslı Hibrit Oyuncu Laptopu (Katana Series)",
-    "image": "/images/products/laptops/msi-katana-17-hx-b14wgk-048xtr-fr8-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/msi-katana-17-hx-b14wgk-048xtr-fr8-1.jpg",
-      "https://resim.epey.com/1061151/z_msi-katana-17-hx-b14wgk-048xtr-fr8-10.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 79,
@@ -68081,10 +67488,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "MSI",
     "category": "laptops",
     "productType": "Keskin Performanslı Hibrit Oyuncu Laptopu (Katana Series)",
-    "image": "/images/products/laptops/msi-katana-17-hx-b14wfk-217trat30-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/msi-katana-17-hx-b14wfk-217trat30-1.jpg",
-      "https://resim.epey.com/1059155/z_msi-katana-17-hx-b14wfk-217trat30-10.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 79,
@@ -68197,10 +67603,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "MSI",
     "category": "laptops",
     "productType": "Modern Tasarımlı Güçlü Oyuncu Laptopu (Crosshair Series)",
-    "image": "/images/products/laptops/msi-crosshair-a17-hx-d8wgkg-044xtr010-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/msi-crosshair-a17-hx-d8wgkg-044xtr010-1.jpg",
-      "https://resim.epey.com/1049824/z_msi-crosshair-a17-hx-d8wgkg-044xtr010-5.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 79,
@@ -68313,10 +67718,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "MSI",
     "category": "laptops",
     "productType": "Keskin Performanslı Hibrit Oyuncu Laptopu (Katana Series)",
-    "image": "/images/products/laptops/msi-katana-17-hx-b14wfk-216xtrat118-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/msi-katana-17-hx-b14wfk-216xtrat118-1.jpg",
-      "https://resim.epey.com/1058379/z_msi-katana-17-hx-b14wfk-216xtrat118-10.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 78,
@@ -68429,10 +67833,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "MSI",
     "category": "laptops",
     "productType": "Keskin Performanslı Hibrit Oyuncu Laptopu (Katana Series)",
-    "image": "/images/products/laptops/msi-katana-17-hx-b14wgk-048xtr-fr45-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/msi-katana-17-hx-b14wgk-048xtr-fr45-1.jpg",
-      "https://resim.epey.com/1049819/z_msi-katana-17-hx-b14wgk-048xtr-fr45-10.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 78,
@@ -68545,10 +67948,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "MSI",
     "category": "laptops",
     "productType": "Keskin Performanslı Hibrit Oyuncu Laptopu (Katana Series)",
-    "image": "/images/products/laptops/msi-katana-17-hx-b14wgk-048xtr-fr37-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/msi-katana-17-hx-b14wgk-048xtr-fr37-1.jpg",
-      "https://resim.epey.com/1040878/z_msi-katana-17-hx-b14wgk-048xtr-fr37-10.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 78,
@@ -68661,10 +68063,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "MSI",
     "category": "laptops",
     "productType": "Keskin Performanslı Hibrit Oyuncu Laptopu (Katana Series)",
-    "image": "/images/products/laptops/msi-katana-15-hx-b14wgk-068xtr-fr51-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/msi-katana-15-hx-b14wgk-068xtr-fr51-1.jpg",
-      "https://resim.epey.com/1047541/z_msi-katana-15-hx-b14wgk-068xtr-fr51-5.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 78,
@@ -68777,10 +68178,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "MSI",
     "category": "laptops",
     "productType": "Modern Tasarımlı Güçlü Oyuncu Laptopu (Crosshair Series)",
-    "image": "/images/products/laptops/msi-crosshair-a17-hx-d8wgkg-044xtr017-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/msi-crosshair-a17-hx-d8wgkg-044xtr017-1.jpg",
-      "https://resim.epey.com/1049830/z_msi-crosshair-a17-hx-d8wgkg-044xtr017-5.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 78,
@@ -68893,10 +68293,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "MSI",
     "category": "laptops",
     "productType": "Keskin Performanslı Hibrit Oyuncu Laptopu (Katana Series)",
-    "image": "/images/products/laptops/msi-katana-17-hx-b14wgk-048xtr-fr53-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/msi-katana-17-hx-b14wgk-048xtr-fr53-1.jpg",
-      "https://resim.epey.com/1040864/z_msi-katana-17-hx-b14wgk-048xtr-fr53-10.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 78,
@@ -69009,10 +68408,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "MSI",
     "category": "laptops",
     "productType": "Keskin Performanslı Hibrit Oyuncu Laptopu (Katana Series)",
-    "image": "/images/products/laptops/msi-katana-17-hx-b14wgk-048xtr-fr24-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/msi-katana-17-hx-b14wgk-048xtr-fr24-1.jpg",
-      "https://resim.epey.com/1050575/z_msi-katana-17-hx-b14wgk-048xtr-fr24-10.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 78,
@@ -69125,10 +68523,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "MSI",
     "category": "laptops",
     "productType": "Keskin Performanslı Hibrit Oyuncu Laptopu (Katana Series)",
-    "image": "/images/products/laptops/msi-katana-17-hx-b14wgk-048xtr-fr19-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/msi-katana-17-hx-b14wgk-048xtr-fr19-1.jpg",
-      "https://resim.epey.com/1040894/z_msi-katana-17-hx-b14wgk-048xtr-fr19-10.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 78,
@@ -69241,10 +68638,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "MSI",
     "category": "laptops",
     "productType": "Keskin Performanslı Hibrit Oyuncu Laptopu (Katana Series)",
-    "image": "/images/products/laptops/msi-katana-15-hx-b14wfk-450xtr-fr40-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/msi-katana-15-hx-b14wfk-450xtr-fr40-1.jpg",
-      "https://resim.epey.com/1055952/z_msi-katana-15-hx-b14wfk-450xtr-fr40-5.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 78,
@@ -69357,10 +68753,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "MSI",
     "category": "laptops",
     "productType": "Modern Tasarımlı Güçlü Oyuncu Laptopu (Crosshair Series)",
-    "image": "/images/products/laptops/msi-crosshair-a17-hx-d8wgkg-044xtr007-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/msi-crosshair-a17-hx-d8wgkg-044xtr007-1.jpg",
-      "https://resim.epey.com/1049822/z_msi-crosshair-a17-hx-d8wgkg-044xtr007-5.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 78,
@@ -69473,10 +68868,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "MSI",
     "category": "laptops",
     "productType": "Keskin Performanslı Hibrit Oyuncu Laptopu (Katana Series)",
-    "image": "/images/products/laptops/msi-katana-17-hx-b14wfk-217trat34-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/msi-katana-17-hx-b14wfk-217trat34-1.jpg",
-      "https://resim.epey.com/1059160/z_msi-katana-17-hx-b14wfk-217trat34-10.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 77,
@@ -69589,10 +68983,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "MSI",
     "category": "laptops",
     "productType": "Keskin Performanslı Hibrit Oyuncu Laptopu (Katana Series)",
-    "image": "/images/products/laptops/msi-katana-17-hx-b14wgk-048xtr-fr58-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/msi-katana-17-hx-b14wgk-048xtr-fr58-1.jpg",
-      "https://resim.epey.com/1050517/z_msi-katana-17-hx-b14wgk-048xtr-fr58-10.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 77,
@@ -69705,10 +69098,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "MSI",
     "category": "laptops",
     "productType": "Keskin Performanslı Hibrit Oyuncu Laptopu (Katana Series)",
-    "image": "/images/products/laptops/msi-katana-17-hx-b14wfkrnp23-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/msi-katana-17-hx-b14wfkrnp23-1.jpg",
-      "https://resim.epey.com/1060426/z_msi-katana-17-hx-b14wfkrnp23-10.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 77,
@@ -69821,10 +69213,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "MSI",
     "category": "laptops",
     "productType": "Keskin Performanslı Hibrit Oyuncu Laptopu (Katana Series)",
-    "image": "/images/products/laptops/msi-katana-17-hx-b14wfk-216xtrat117-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/msi-katana-17-hx-b14wfk-216xtrat117-1.jpg",
-      "https://resim.epey.com/1058381/z_msi-katana-17-hx-b14wfk-216xtrat117-10.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 77,
@@ -69937,10 +69328,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "MSI",
     "category": "laptops",
     "productType": "Keskin Performanslı Hibrit Oyuncu Laptopu (Katana Series)",
-    "image": "/images/products/laptops/msi-katana-17-hx-b14wgk-048xtr-fr29-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/msi-katana-17-hx-b14wgk-048xtr-fr29-1.jpg",
-      "https://resim.epey.com/1047613/z_msi-katana-17-hx-b14wgk-048xtr-fr29-10.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 77,
@@ -70053,10 +69443,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "MSI",
     "category": "laptops",
     "productType": "Keskin Performanslı Hibrit Oyuncu Laptopu (Katana Series)",
-    "image": "/images/products/laptops/msi-katana-17-hx-b14wgk-048xtr-fr25-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/msi-katana-17-hx-b14wgk-048xtr-fr25-1.jpg",
-      "https://resim.epey.com/1050578/z_msi-katana-17-hx-b14wgk-048xtr-fr25-10.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 77,
@@ -70169,10 +69558,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "MSI",
     "category": "laptops",
     "productType": "Keskin Performanslı Hibrit Oyuncu Laptopu (Katana Series)",
-    "image": "/images/products/laptops/msi-katana-15-hx-b14wgk-068xtr-fr27-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/msi-katana-15-hx-b14wgk-068xtr-fr27-1.jpg",
-      "https://resim.epey.com/1047454/z_msi-katana-15-hx-b14wgk-068xtr-fr27-5.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 77,
@@ -70285,10 +69673,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "MSI",
     "category": "laptops",
     "productType": "Keskin Performanslı Hibrit Oyuncu Laptopu (Katana Series)",
-    "image": "/images/products/laptops/msi-katana-15-hx-b14wgk-068xtrhmf38-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/msi-katana-15-hx-b14wgk-068xtrhmf38-1.jpg",
-      "https://resim.epey.com/1041159/z_msi-katana-15-hx-b14wgk-068xtrhmf38-5.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 77,
@@ -70401,10 +69788,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "MSI",
     "category": "laptops",
     "productType": "Keskin Performanslı Hibrit Oyuncu Laptopu (Katana Series)",
-    "image": "/images/products/laptops/msi-katana-17-hx-b14wgk-048xtr-fr9-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/msi-katana-17-hx-b14wgk-048xtr-fr9-1.jpg",
-      "https://resim.epey.com/1061153/z_msi-katana-17-hx-b14wgk-048xtr-fr9-10.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 77,
@@ -70517,10 +69903,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "MSI",
     "category": "laptops",
     "productType": "Modern Tasarımlı Güçlü Oyuncu Laptopu (Crosshair Series)",
-    "image": "/images/products/laptops/msi-crosshair-a17-hx-d8wgkg-044xtr005-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/msi-crosshair-a17-hx-d8wgkg-044xtr005-1.jpg",
-      "https://resim.epey.com/1049821/z_msi-crosshair-a17-hx-d8wgkg-044xtr005-5.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 77,
@@ -70633,10 +70018,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "MSI",
     "category": "laptops",
     "productType": "Ultra İnce & Hafif AI Destekli Premium Oyuncu & İçerik Üretici Laptopu (Stealth AI+)",
-    "image": "/images/products/laptops/msi-stealth-a16-ai-plus-b3wi-003tr-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/msi-stealth-a16-ai-plus-b3wi-003tr-1.jpg",
-      "https://resim.epey.com/1058834/z_msi-stealth-a16-ai-plus-b3wi-003tr-5.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 77,
@@ -70749,10 +70133,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "MSI",
     "category": "laptops",
     "productType": "Keskin Performanslı Hibrit Oyuncu Laptopu (Katana Series)",
-    "image": "/images/products/laptops/msi-katana-17-hx-b14wfkrnp30-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/msi-katana-17-hx-b14wfkrnp30-1.jpg",
-      "https://resim.epey.com/1060433/z_msi-katana-17-hx-b14wfkrnp30-10.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 77,
@@ -70865,10 +70248,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "MSI",
     "category": "laptops",
     "productType": "Keskin Performanslı Hibrit Oyuncu Laptopu (Katana Series)",
-    "image": "/images/products/laptops/msi-katana-17-hx-b14wfk-216xtrat103-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/msi-katana-17-hx-b14wfk-216xtrat103-1.jpg",
-      "https://resim.epey.com/1058350/z_msi-katana-17-hx-b14wfk-216xtrat103-10.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 77,
@@ -70981,10 +70363,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "MSI",
     "category": "laptops",
     "productType": "Keskin Performanslı Hibrit Oyuncu Laptopu (Katana Series)",
-    "image": "/images/products/laptops/msi-katana-17-hx-b14wfkrnp16-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/msi-katana-17-hx-b14wfkrnp16-1.jpg",
-      "https://resim.epey.com/1060437/z_msi-katana-17-hx-b14wfkrnp16-10.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 76,
@@ -71097,10 +70478,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "MSI",
     "category": "laptops",
     "productType": "Keskin Performanslı Hibrit Oyuncu Laptopu (Katana Series)",
-    "image": "/images/products/laptops/msi-katana-17-hx-b14wfk-252xtrat90-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/msi-katana-17-hx-b14wfk-252xtrat90-1.jpg",
-      "https://resim.epey.com/1059149/z_msi-katana-17-hx-b14wfk-252xtrat90-10.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 76,
@@ -71213,10 +70593,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "MSI",
     "category": "laptops",
     "productType": "Keskin Performanslı Hibrit Oyuncu Laptopu (Katana Series)",
-    "image": "/images/products/laptops/msi-katana-17-hx-b14wfk-216xtrat89-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/msi-katana-17-hx-b14wfk-216xtrat89-1.jpg",
-      "https://resim.epey.com/1058657/z_msi-katana-17-hx-b14wfk-216xtrat89-10.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 76,
@@ -71329,10 +70708,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "MSI",
     "category": "laptops",
     "productType": "Keskin Performanslı Hibrit Oyuncu Laptopu (Katana Series)",
-    "image": "/images/products/laptops/msi-katana-17-hx-b14wgk-048xtr-fr36-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/msi-katana-17-hx-b14wgk-048xtr-fr36-1.jpg",
-      "https://resim.epey.com/1049818/z_msi-katana-17-hx-b14wgk-048xtr-fr36-10.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 76,
@@ -71445,10 +70823,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "MSI",
     "category": "laptops",
     "productType": "Keskin Performanslı Hibrit Oyuncu Laptopu (Katana Series)",
-    "image": "/images/products/laptops/msi-katana-17-hx-b14wfk-216xtrat113-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/msi-katana-17-hx-b14wfk-216xtrat113-1.jpg",
-      "https://resim.epey.com/1058621/z_msi-katana-17-hx-b14wfk-216xtrat113-10.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 76,
@@ -71561,10 +70938,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "MSI",
     "category": "laptops",
     "productType": "Keskin Performanslı Hibrit Oyuncu Laptopu (Katana Series)",
-    "image": "/images/products/laptops/msi-katana-17-hx-b14wgk-048xtr-fr14-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/msi-katana-17-hx-b14wgk-048xtr-fr14-1.jpg",
-      "https://resim.epey.com/1050571/z_msi-katana-17-hx-b14wgk-048xtr-fr14-10.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 76,
@@ -71677,10 +71053,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "MSI",
     "category": "laptops",
     "productType": "Keskin Performanslı Hibrit Oyuncu Laptopu (Katana Series)",
-    "image": "/images/products/laptops/msi-katana-17-hx-b14wgk-048xtr-fr10-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/msi-katana-17-hx-b14wgk-048xtr-fr10-1.jpg",
-      "https://resim.epey.com/1040871/z_msi-katana-17-hx-b14wgk-048xtr-fr10-10.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 76,
@@ -71793,10 +71168,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "MSI",
     "category": "laptops",
     "productType": "Keskin Performanslı Hibrit Oyuncu Laptopu (Katana Series)",
-    "image": "/images/products/laptops/msi-katana-15-hx-b14wgk-068xtr-fr9-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/msi-katana-15-hx-b14wgk-068xtr-fr9-1.jpg",
-      "https://resim.epey.com/1047443/z_msi-katana-15-hx-b14wgk-068xtr-fr9-5.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 76,
@@ -71909,10 +71283,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "MSI",
     "category": "laptops",
     "productType": "Keskin Performanslı Hibrit Oyuncu Laptopu (Katana Series)",
-    "image": "/images/products/laptops/msi-katana-15-hx-b14wgk-068xtrhmf18-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/msi-katana-15-hx-b14wgk-068xtrhmf18-1.jpg",
-      "https://resim.epey.com/1041167/z_msi-katana-15-hx-b14wgk-068xtrhmf18-5.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 76,
@@ -72025,10 +71398,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "MSI",
     "category": "laptops",
     "productType": "Keskin Performanslı Hibrit Oyuncu Laptopu (Katana Series)",
-    "image": "/images/products/laptops/msi-katana-15-hx-b14wgk-068xtrhmf33-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/msi-katana-15-hx-b14wgk-068xtrhmf33-1.jpg",
-      "https://resim.epey.com/1041158/z_msi-katana-15-hx-b14wgk-068xtrhmf33-5.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 76,
@@ -72141,10 +71513,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "MSI",
     "category": "laptops",
     "productType": "Keskin Performanslı Hibrit Oyuncu Laptopu (Katana Series)",
-    "image": "/images/products/laptops/msi-katana-17-hx-b14wfk-216xtrat10-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/msi-katana-17-hx-b14wfk-216xtrat10-1.jpg",
-      "https://resim.epey.com/1058634/z_msi-katana-17-hx-b14wfk-216xtrat10-10.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 76,
@@ -72257,10 +71628,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "MSI",
     "category": "laptops",
     "productType": "Keskin Performanslı Hibrit Oyuncu Laptopu (Katana Series)",
-    "image": "/images/products/laptops/msi-katana-17-hx-b14wfkrnp25-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/msi-katana-17-hx-b14wfkrnp25-1.jpg",
-      "https://resim.epey.com/1060434/z_msi-katana-17-hx-b14wfkrnp25-10.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 76,
@@ -72373,10 +71743,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "MSI",
     "category": "laptops",
     "productType": "Keskin Performanslı Hibrit Oyuncu Laptopu (Katana Series)",
-    "image": "/images/products/laptops/msi-katana-15-hx-b14wfk-450xtr-fr25-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/msi-katana-15-hx-b14wfk-450xtr-fr25-1.jpg",
-      "https://resim.epey.com/1055818/z_msi-katana-15-hx-b14wfk-450xtr-fr25-5.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 76,
@@ -72489,10 +71858,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "MSI",
     "category": "laptops",
     "productType": "Keskin Performanslı Hibrit Oyuncu Laptopu (Katana Series)",
-    "image": "/images/products/laptops/msi-katana-17-hx-b14wfk-216xtrat32-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/msi-katana-17-hx-b14wfk-216xtrat32-1.jpg",
-      "https://resim.epey.com/1058628/z_msi-katana-17-hx-b14wfk-216xtrat32-10.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 76,
@@ -72605,10 +71973,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "MSI",
     "category": "laptops",
     "productType": "Keskin Performanslı Hibrit Oyuncu Laptopu (Katana Series)",
-    "image": "/images/products/laptops/msi-katana-17-hx-b14wfk-216xtrat88-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/msi-katana-17-hx-b14wfk-216xtrat88-1.jpg",
-      "https://resim.epey.com/1058376/z_msi-katana-17-hx-b14wfk-216xtrat88-10.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 76,
@@ -72721,10 +72088,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "MSI",
     "category": "laptops",
     "productType": "Geniş Ekranlı Güçlü Oyuncu Laptopu (Crosshair Series)",
-    "image": "/images/products/laptops/msi-crosshair-18-hx-ai-a2xwgkg-014tr-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/msi-crosshair-18-hx-ai-a2xwgkg-014tr-1.jpg",
-      "https://resim.epey.com/1016380/z_msi-crosshair-18-hx-ai-a2xwgkg-014tr-5.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 76,
@@ -72837,10 +72203,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "MSI",
     "category": "laptops",
     "productType": "Keskin Performanslı Hibrit Oyuncu Laptopu (Katana Series)",
-    "image": "/images/products/laptops/msi-katana-17-hx-b14wfkrnp12-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/msi-katana-17-hx-b14wfkrnp12-1.jpg",
-      "https://resim.epey.com/1060428/z_msi-katana-17-hx-b14wfkrnp12-10.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 76,
@@ -72953,10 +72318,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "MSI",
     "category": "laptops",
     "productType": "Keskin Performanslı Hibrit Oyuncu Laptopu (Katana Series)",
-    "image": "/images/products/laptops/msi-katana-17-hx-b14wgk-048xtr-fr41-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/msi-katana-17-hx-b14wgk-048xtr-fr41-1.jpg",
-      "https://resim.epey.com/1049816/z_msi-katana-17-hx-b14wgk-048xtr-fr41-10.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 76,
@@ -73069,10 +72433,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "MSI",
     "category": "laptops",
     "productType": "Keskin Performanslı Hibrit Oyuncu Laptopu (Katana Series)",
-    "image": "/images/products/laptops/msi-katana-17-hx-b14wfk-257xtr-fr44-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/msi-katana-17-hx-b14wfk-257xtr-fr44-1.jpg",
-      "https://resim.epey.com/1066589/z_msi-katana-17-hx-b14wfk-257xtr-fr44-10.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 76,
@@ -73185,10 +72548,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "MSI",
     "category": "laptops",
     "productType": "Keskin Performanslı Hibrit Oyuncu Laptopu (Katana Series)",
-    "image": "/images/products/laptops/msi-katana-15-hx-b14wgk-068xtr-fr54-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/msi-katana-15-hx-b14wgk-068xtr-fr54-1.jpg",
-      "https://resim.epey.com/1049801/z_msi-katana-15-hx-b14wgk-068xtr-fr54-5.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 75,
@@ -73301,10 +72663,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "MSI",
     "category": "laptops",
     "productType": "Keskin Performanslı Hibrit Oyuncu Laptopu (Katana Series)",
-    "image": "/images/products/laptops/msi-katana-15-hx-b14wgk-068xtr-fr44-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/msi-katana-15-hx-b14wgk-068xtr-fr44-1.jpg",
-      "https://resim.epey.com/1047524/z_msi-katana-15-hx-b14wgk-068xtr-fr44-5.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 75,
@@ -73417,10 +72778,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "MSI",
     "category": "laptops",
     "productType": "Keskin Performanslı Hibrit Oyuncu Laptopu (Katana Series)",
-    "image": "/images/products/laptops/msi-katana-17-hx-b14wfk-216xtrat102-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/msi-katana-17-hx-b14wfk-216xtrat102-1.jpg",
-      "https://resim.epey.com/1059145/z_msi-katana-17-hx-b14wfk-216xtrat102-10.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 75,
@@ -73533,10 +72893,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "MSI",
     "category": "laptops",
     "productType": "Keskin Performanslı Hibrit Oyuncu Laptopu (Katana Series)",
-    "image": "/images/products/laptops/msi-katana-17-hx-b14wfk-252xtrat101-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/msi-katana-17-hx-b14wfk-252xtrat101-1.jpg",
-      "https://resim.epey.com/1059150/z_msi-katana-17-hx-b14wfk-252xtrat101-10.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 75,
@@ -73649,10 +73008,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "MSI",
     "category": "laptops",
     "productType": "Keskin Performanslı Hibrit Oyuncu Laptopu (Katana Series)",
-    "image": "/images/products/laptops/msi-katana-17-hx-b14wgk-048xtr-fr27-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/msi-katana-17-hx-b14wgk-048xtr-fr27-1.jpg",
-      "https://resim.epey.com/1050543/z_msi-katana-17-hx-b14wgk-048xtr-fr27-10.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 75,
@@ -73765,10 +73123,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "MSI",
     "category": "laptops",
     "productType": "Keskin Performanslı Hibrit Oyuncu Laptopu (Katana Series)",
-    "image": "/images/products/laptops/msi-katana-15-hx-b14wgk-068xtrhmf69-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/msi-katana-15-hx-b14wgk-068xtrhmf69-1.jpg",
-      "https://resim.epey.com/1041115/z_msi-katana-15-hx-b14wgk-068xtrhmf69-5.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 75,
@@ -73881,10 +73238,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "MSI",
     "category": "laptops",
     "productType": "Keskin Performanslı Hibrit Oyuncu Laptopu (Katana Series)",
-    "image": "/images/products/laptops/msi-katana-17-hx-b14wfk-216xtrat108-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/msi-katana-17-hx-b14wfk-216xtrat108-1.jpg",
-      "https://resim.epey.com/1058622/z_msi-katana-17-hx-b14wfk-216xtrat108-10.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 75,
@@ -73997,10 +73353,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "MSI",
     "category": "laptops",
     "productType": "Keskin Performanslı Hibrit Oyuncu Laptopu (Katana Series)",
-    "image": "/images/products/laptops/msi-katana-17-hx-b14wfk-216xtrat107-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/msi-katana-17-hx-b14wfk-216xtrat107-1.jpg",
-      "https://resim.epey.com/1058609/z_msi-katana-17-hx-b14wfk-216xtrat107-10.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 75,
@@ -74113,10 +73468,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "MSI",
     "category": "laptops",
     "productType": "Keskin Performanslı Hibrit Oyuncu Laptopu (Katana Series)",
-    "image": "/images/products/laptops/msi-katana-17-hx-b14wfk-257xtr-fr17-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/msi-katana-17-hx-b14wfk-257xtr-fr17-1.jpg",
-      "https://resim.epey.com/1066595/z_msi-katana-17-hx-b14wfk-257xtr-fr17-10.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 75,
@@ -74229,10 +73583,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "MSI",
     "category": "laptops",
     "productType": "Keskin Performanslı Hibrit Oyuncu Laptopu (Katana Series)",
-    "image": "/images/products/laptops/msi-katana-17-hx-b14wfk-216xtrat112-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/msi-katana-17-hx-b14wfk-216xtrat112-1.jpg",
-      "https://resim.epey.com/1058646/z_msi-katana-17-hx-b14wfk-216xtrat112-10.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 75,
@@ -74345,10 +73698,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "MSI",
     "category": "laptops",
     "productType": "Keskin Performanslı Hibrit Oyuncu Laptopu (Katana Series)",
-    "image": "/images/products/laptops/msi-katana-17-hx-b14wgk-048xtr-fr15-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/msi-katana-17-hx-b14wgk-048xtr-fr15-1.jpg",
-      "https://resim.epey.com/1049817/z_msi-katana-17-hx-b14wgk-048xtr-fr15-10.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 75,
@@ -74461,10 +73813,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "MSI",
     "category": "laptops",
     "productType": "Keskin Performanslı Hibrit Oyuncu Laptopu (Katana Series)",
-    "image": "/images/products/laptops/msi-katana-17-hx-b14wgk-048xtr-fr7-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/msi-katana-17-hx-b14wgk-048xtr-fr7-1.jpg",
-      "https://resim.epey.com/1050580/z_msi-katana-17-hx-b14wgk-048xtr-fr7-10.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 75,
@@ -74577,10 +73928,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "MSI",
     "category": "laptops",
     "productType": "Keskin Performanslı Hibrit Oyuncu Laptopu (Katana Series)",
-    "image": "/images/products/laptops/msi-katana-15-hx-b14wgk-068xtr-fr15-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/msi-katana-15-hx-b14wgk-068xtr-fr15-1.jpg",
-      "https://resim.epey.com/1047448/z_msi-katana-15-hx-b14wgk-068xtr-fr15-5.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 75,
@@ -74693,10 +74043,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "MSI",
     "category": "laptops",
     "productType": "Keskin Performanslı Hibrit Oyuncu Laptopu (Katana Series)",
-    "image": "/images/products/laptops/msi-katana-15-hx-b14wfk-450xtr-fr54-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/msi-katana-15-hx-b14wfk-450xtr-fr54-1.jpg",
-      "https://resim.epey.com/1055951/z_msi-katana-15-hx-b14wfk-450xtr-fr54-5.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 75,
@@ -74809,10 +74158,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "MSI",
     "category": "laptops",
     "productType": "Ultra Performanslı RGB Işıklı Amiral Gemisi Laptop (Raider Series)",
-    "image": "/images/products/laptops/msi-raider-a16-hx-b8wh-011tr-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/msi-raider-a16-hx-b8wh-011tr-1.jpg",
-      "https://resim.epey.com/1058511/z_msi-raider-a16-hx-b8wh-011tr-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 75,
@@ -74925,10 +74273,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "MSI",
     "category": "laptops",
     "productType": "Keskin Performanslı Hibrit Oyuncu Laptopu (Katana Series)",
-    "image": "/images/products/laptops/msi-katana-15-hx-b14wfk-450xtr-fr82-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/msi-katana-15-hx-b14wfk-450xtr-fr82-1.jpg",
-      "https://resim.epey.com/1055932/z_msi-katana-15-hx-b14wfk-450xtr-fr82-5.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 75,
@@ -75041,10 +74388,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "MSI",
     "category": "laptops",
     "productType": "Keskin Performanslı Hibrit Oyuncu Laptopu (Katana Series)",
-    "image": "/images/products/laptops/msi-katana-17-hx-b14wfk-217trat27-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/msi-katana-17-hx-b14wfk-217trat27-1.jpg",
-      "https://resim.epey.com/1059128/z_msi-katana-17-hx-b14wfk-217trat27-10.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 75,
@@ -75157,10 +74503,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "MSI",
     "category": "laptops",
     "productType": "Keskin Performanslı Hibrit Oyuncu Laptopu (Katana Series)",
-    "image": "/images/products/laptops/msi-katana-17-hx-b14wfk-216xtrat73-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/msi-katana-17-hx-b14wfk-216xtrat73-1.jpg",
-      "https://resim.epey.com/1058667/z_msi-katana-17-hx-b14wfk-216xtrat73-10.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 75,
@@ -75273,10 +74618,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "MSI",
     "category": "laptops",
     "productType": "Keskin Performanslı Hibrit Oyuncu Laptopu (Katana Series)",
-    "image": "/images/products/laptops/msi-katana-17-hx-b14wfkrnp08-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/msi-katana-17-hx-b14wfkrnp08-1.jpg",
-      "https://resim.epey.com/1060422/z_msi-katana-17-hx-b14wfkrnp08-10.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 75,
@@ -75389,10 +74733,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "MSI",
     "category": "laptops",
     "productType": "Keskin Performanslı Hibrit Oyuncu Laptopu (Katana Series)",
-    "image": "/images/products/laptops/msi-katana-17-hx-b14wfk-216xtrat100-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/msi-katana-17-hx-b14wfk-216xtrat100-1.jpg",
-      "https://resim.epey.com/1058371/z_msi-katana-17-hx-b14wfk-216xtrat100-10.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 74,
@@ -75505,10 +74848,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "MSI",
     "category": "laptops",
     "productType": "Keskin Performanslı Hibrit Oyuncu Laptopu (Katana Series)",
-    "image": "/images/products/laptops/msi-katana-17-hx-b14wfkrnp15-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/msi-katana-17-hx-b14wfkrnp15-1.jpg",
-      "https://resim.epey.com/1060423/z_msi-katana-17-hx-b14wfkrnp15-10.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 74,
@@ -75621,10 +74963,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "MSI",
     "category": "laptops",
     "productType": "Keskin Performanslı Hibrit Oyuncu Laptopu (Katana Series)",
-    "image": "/images/products/laptops/msi-katana-17-hx-b14wfk-216xtrat87-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/msi-katana-17-hx-b14wfk-216xtrat87-1.jpg",
-      "https://resim.epey.com/1058661/z_msi-katana-17-hx-b14wfk-216xtrat87-10.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 74,
@@ -75737,10 +75078,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "MSI",
     "category": "laptops",
     "productType": "Keskin Performanslı Hibrit Oyuncu Laptopu (Katana Series)",
-    "image": "/images/products/laptops/msi-katana-17-hx-b14wfk-216xtrat86-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/msi-katana-17-hx-b14wfk-216xtrat86-1.jpg",
-      "https://resim.epey.com/1058674/z_msi-katana-17-hx-b14wfk-216xtrat86-10.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 74,
@@ -75853,10 +75193,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "MSI",
     "category": "laptops",
     "productType": "Keskin Performanslı Hibrit Oyuncu Laptopu (Katana Series)",
-    "image": "/images/products/laptops/msi-katana-17-hx-b14wgk-048xtr-fr21-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/msi-katana-17-hx-b14wgk-048xtr-fr21-1.jpg",
-      "https://resim.epey.com/1047614/z_msi-katana-17-hx-b14wgk-048xtr-fr21-10.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 74,
@@ -75969,10 +75308,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "MSI",
     "category": "laptops",
     "productType": "Keskin Performanslı Hibrit Oyuncu Laptopu (Katana Series)",
-    "image": "/images/products/laptops/msi-katana-17-hx-b14wgk-048xtr-fr16-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/msi-katana-17-hx-b14wgk-048xtr-fr16-1.jpg",
-      "https://resim.epey.com/1061356/z_msi-katana-17-hx-b14wgk-048xtr-fr16-10.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 74,
@@ -76085,10 +75423,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "MSI",
     "category": "laptops",
     "productType": "Keskin Performanslı Hibrit Oyuncu Laptopu (Katana Series)",
-    "image": "/images/products/laptops/msi-katana-15-hx-b14wgk-068xtr-fr35-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/msi-katana-15-hx-b14wgk-068xtr-fr35-1.jpg",
-      "https://resim.epey.com/1047458/z_msi-katana-15-hx-b14wgk-068xtr-fr35-5.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 74,
@@ -76201,10 +75538,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "MSI",
     "category": "laptops",
     "productType": "Keskin Performanslı Hibrit Oyuncu Laptopu (Katana Series)",
-    "image": "/images/products/laptops/msi-katana-15-hx-b14wgk-068xtrhmf9-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/msi-katana-15-hx-b14wgk-068xtrhmf9-1.jpg",
-      "https://resim.epey.com/1041134/z_msi-katana-15-hx-b14wgk-068xtrhmf9-5.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 74,
@@ -76317,10 +75653,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "MSI",
     "category": "laptops",
     "productType": "Keskin Performanslı Hibrit Oyuncu Laptopu (Katana Series)",
-    "image": "/images/products/laptops/msi-katana-15-hx-b14wgk-068xtr-fr30-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/msi-katana-15-hx-b14wgk-068xtr-fr30-1.jpg",
-      "https://resim.epey.com/1050566/z_msi-katana-15-hx-b14wgk-068xtr-fr30-5.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 74,
@@ -76433,10 +75768,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "MSI",
     "category": "laptops",
     "productType": "Keskin Performanslı Hibrit Oyuncu Laptopu (Katana Series)",
-    "image": "/images/products/laptops/msi-katana-17-hx-b14wfk-216xtrat45-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/msi-katana-17-hx-b14wfk-216xtrat45-1.jpg",
-      "https://resim.epey.com/1058659/z_msi-katana-17-hx-b14wfk-216xtrat45-10.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 74,
@@ -76549,10 +75883,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "MSI",
     "category": "laptops",
     "productType": "Keskin Performanslı Hibrit Oyuncu Laptopu (Katana Series)",
-    "image": "/images/products/laptops/msi-katana-15-hx-b14wgk-068xtr-fr24-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/msi-katana-15-hx-b14wgk-068xtr-fr24-1.jpg",
-      "https://resim.epey.com/1057295/z_msi-katana-15-hx-b14wgk-068xtr-fr24-5.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 74,
@@ -76665,10 +75998,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "MSI",
     "category": "laptops",
     "productType": "Keskin Performanslı Hibrit Oyuncu Laptopu (Katana Series)",
-    "image": "/images/products/laptops/msi-katana-17-hx-b14wfk-216xtrat44-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/msi-katana-17-hx-b14wfk-216xtrat44-1.jpg",
-      "https://resim.epey.com/1058347/z_msi-katana-17-hx-b14wfk-216xtrat44-10.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 74,
@@ -76781,10 +76113,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "MSI",
     "category": "laptops",
     "productType": "Keskin Performanslı Hibrit Oyuncu Laptopu (Katana Series)",
-    "image": "/images/products/laptops/msi-katana-17-hx-b14wfk-216xtrat106-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/msi-katana-17-hx-b14wfk-216xtrat106-1.jpg",
-      "https://resim.epey.com/1058677/z_msi-katana-17-hx-b14wfk-216xtrat106-10.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 74,
@@ -76897,10 +76228,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "MSI",
     "category": "laptops",
     "productType": "Keskin Performanslı Hibrit Oyuncu Laptopu (Katana Series)",
-    "image": "/images/products/laptops/msi-katana-17-hx-b14wfkrnp18-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/msi-katana-17-hx-b14wfkrnp18-1.jpg",
-      "https://resim.epey.com/1060452/z_msi-katana-17-hx-b14wfkrnp18-10.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 74,
@@ -77013,10 +76343,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "MSI",
     "category": "laptops",
     "productType": "Keskin Performanslı Hibrit Oyuncu Laptopu (Katana Series)",
-    "image": "/images/products/laptops/msi-katana-17-hx-b14wfk-216xtrat99-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/msi-katana-17-hx-b14wfk-216xtrat99-1.jpg",
-      "https://resim.epey.com/1058652/z_msi-katana-17-hx-b14wfk-216xtrat99-10.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 74,
@@ -77129,10 +76458,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "MSI",
     "category": "laptops",
     "productType": "Keskin Performanslı Hibrit Oyuncu Laptopu (Katana Series)",
-    "image": "/images/products/laptops/msi-katana-17-hx-b14wgk-048xtr-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/msi-katana-17-hx-b14wgk-048xtr-1.jpg",
-      "https://resim.epey.com/1012500/z_msi-katana-17-hx-b14wgk-048xtr-10.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 74,
@@ -77245,10 +76573,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "MSI",
     "category": "laptops",
     "productType": "Keskin Performanslı Hibrit Oyuncu Laptopu (Katana Series)",
-    "image": "/images/products/laptops/msi-katana-17-hx-b14wfk-216xtrat98-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/msi-katana-17-hx-b14wfk-216xtrat98-1.jpg",
-      "https://resim.epey.com/1058643/z_msi-katana-17-hx-b14wfk-216xtrat98-10.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 74,
@@ -77361,10 +76688,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "MSI",
     "category": "laptops",
     "productType": "Keskin Performanslı Hibrit Oyuncu Laptopu (Katana Series)",
-    "image": "/images/products/laptops/msi-katana-15-hx-b14wfk-449xtr-fr41-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/msi-katana-15-hx-b14wfk-449xtr-fr41-1.jpg",
-      "https://resim.epey.com/1055949/z_msi-katana-15-hx-b14wfk-449xtr-fr41-5.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 73,
@@ -77477,10 +76803,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "MSI",
     "category": "laptops",
     "productType": "Keskin Performanslı Hibrit Oyuncu Laptopu (Katana Series)",
-    "image": "/images/products/laptops/msi-katana-17-hx-b14wfkrnp17-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/msi-katana-17-hx-b14wfkrnp17-1.jpg",
-      "https://resim.epey.com/1060443/z_msi-katana-17-hx-b14wfkrnp17-10.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 73,
@@ -77593,10 +76918,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "MSI",
     "category": "laptops",
     "productType": "Keskin Performanslı Hibrit Oyuncu Laptopu (Katana Series)",
-    "image": "/images/products/laptops/msi-katana-17-hx-b14wfk-216xtrat96-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/msi-katana-17-hx-b14wfk-216xtrat96-1.jpg",
-      "https://resim.epey.com/1058357/z_msi-katana-17-hx-b14wfk-216xtrat96-10.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 73,
@@ -77709,10 +77033,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "MSI",
     "category": "laptops",
     "productType": "Keskin Performanslı Hibrit Oyuncu Laptopu (Katana Series)",
-    "image": "/images/products/laptops/msi-katana-17-hx-b14wgk-048xtr-fr57-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/msi-katana-17-hx-b14wgk-048xtr-fr57-1.jpg",
-      "https://resim.epey.com/1050492/z_msi-katana-17-hx-b14wgk-048xtr-fr57-10.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 73,
@@ -77825,10 +77148,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "MSI",
     "category": "laptops",
     "productType": "Keskin Performanslı Hibrit Oyuncu Laptopu (Katana Series)",
-    "image": "/images/products/laptops/msi-katana-17-hx-b14wfk-216xtrat95-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/msi-katana-17-hx-b14wfk-216xtrat95-1.jpg",
-      "https://resim.epey.com/1059141/z_msi-katana-17-hx-b14wfk-216xtrat95-10.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 73,
@@ -77941,10 +77263,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "MSI",
     "category": "laptops",
     "productType": "Keskin Performanslı Hibrit Oyuncu Laptopu (Katana Series)",
-    "image": "/images/products/laptops/msi-katana-17-hx-b14wfk-217trat21-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/msi-katana-17-hx-b14wfk-217trat21-1.jpg",
-      "https://resim.epey.com/1059168/z_msi-katana-17-hx-b14wfk-217trat21-10.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 73,
@@ -78057,10 +77378,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "MSI",
     "category": "laptops",
     "productType": "Keskin Performanslı Hibrit Oyuncu Laptopu (Katana Series)",
-    "image": "/images/products/laptops/msi-katana-15-hx-b14wgk-068xtr-fr65-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/msi-katana-15-hx-b14wgk-068xtr-fr65-1.jpg",
-      "https://resim.epey.com/1049808/z_msi-katana-15-hx-b14wgk-068xtr-fr65-5.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 73,
@@ -78173,10 +77493,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "MSI",
     "category": "laptops",
     "productType": "Ultra İnce Magnezyum-Alüminyum Kasa AI Destekli Premium Laptop (Stealth Series)",
-    "image": "/images/products/laptops/msi-stealth-16-ai-a2hwgg-056tr-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/msi-stealth-16-ai-a2hwgg-056tr-1.jpg",
-      "https://resim.epey.com/1010897/z_msi-stealth-16-ai-a2hwgg-056tr-5.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 73,
@@ -78289,10 +77608,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "MSI",
     "category": "laptops",
     "productType": "Keskin Performanslı Hibrit Oyuncu Laptopu (Katana Series)",
-    "image": "/images/products/laptops/msi-katana-17-hx-b14wfk-216xtrat18-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/msi-katana-17-hx-b14wfk-216xtrat18-1.jpg",
-      "https://resim.epey.com/1058633/z_msi-katana-17-hx-b14wfk-216xtrat18-10.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 73,
@@ -78405,10 +77723,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "MSI",
     "category": "laptops",
     "productType": "Keskin Performanslı Hibrit Oyuncu Laptopu (Katana Series)",
-    "image": "/images/products/laptops/msi-katana-15-hx-b14wfk-448xtr-k34-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/msi-katana-15-hx-b14wfk-448xtr-k34-1.jpg",
-      "https://resim.epey.com/1061331/z_msi-katana-15-hx-b14wfk-448xtr-k34-5.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 73,
@@ -78521,10 +77838,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "MSI",
     "category": "laptops",
     "productType": "Keskin Performanslı Hibrit Oyuncu Laptopu (Katana Series)",
-    "image": "/images/products/laptops/msi-katana-17-hx-b14wfkrnp11-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/msi-katana-17-hx-b14wfkrnp11-1.jpg",
-      "https://resim.epey.com/1060424/z_msi-katana-17-hx-b14wfkrnp11-10.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 73,
@@ -78637,10 +77953,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "MSI",
     "category": "laptops",
     "productType": "Keskin Performanslı Hibrit Oyuncu Laptopu (Katana Series)",
-    "image": "/images/products/laptops/msi-katana-17-hx-b14wfk-216xtrat71-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/msi-katana-17-hx-b14wfk-216xtrat71-1.jpg",
-      "https://resim.epey.com/1058620/z_msi-katana-17-hx-b14wfk-216xtrat71-10.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 73,
@@ -78753,10 +78068,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "MSI",
     "category": "laptops",
     "productType": "Keskin Performanslı Hibrit Oyuncu Laptopu (Katana Series)",
-    "image": "/images/products/laptops/msi-katana-17-hx-b14wgk-048xtr-fr26-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/msi-katana-17-hx-b14wgk-048xtr-fr26-1.jpg",
-      "https://resim.epey.com/1040865/z_msi-katana-17-hx-b14wgk-048xtr-fr26-10.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 73,
@@ -78869,10 +78183,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "MSI",
     "category": "laptops",
     "productType": "Cyberpunk Fütüristik Tasarımlı Güçlü Yapay Zeka Oyuncu Laptopu (Pulse Series)",
-    "image": "/images/products/laptops/msi-pulse-a17-ai-plus-c3xwgkg-020tr-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/msi-pulse-a17-ai-plus-c3xwgkg-020tr-1.jpg",
-      "https://resim.epey.com/1036919/z_msi-pulse-a17-ai-plus-c3xwgkg-020tr-5.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 73,
@@ -78985,10 +78298,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "MSI",
     "category": "laptops",
     "productType": "Keskin Performanslı Hibrit Oyuncu Laptopu (Katana Series)",
-    "image": "/images/products/laptops/msi-katana-15-hx-b14wgk-068xtr-fr36-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/msi-katana-15-hx-b14wgk-068xtr-fr36-1.jpg",
-      "https://resim.epey.com/1050567/z_msi-katana-15-hx-b14wgk-068xtr-fr36-5.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 73,
@@ -79101,10 +78413,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "MSI",
     "category": "laptops",
     "productType": "Keskin Performanslı Hibrit Oyuncu Laptopu (Katana Series)",
-    "image": "/images/products/laptops/msi-katana-15-hx-b14wgk-068xtr-fr26-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/msi-katana-15-hx-b14wgk-068xtr-fr26-1.jpg",
-      "https://resim.epey.com/1047453/z_msi-katana-15-hx-b14wgk-068xtr-fr26-5.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 73,
@@ -79217,10 +78528,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "MSI",
     "category": "laptops",
     "productType": "Keskin Performanslı Hibrit Oyuncu Laptopu (Katana Series)",
-    "image": "/images/products/laptops/msi-katana-17-hx-b14wfk-216xtrat93-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/msi-katana-17-hx-b14wfk-216xtrat93-1.jpg",
-      "https://resim.epey.com/1058612/z_msi-katana-17-hx-b14wfk-216xtrat93-10.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 73,
@@ -79333,10 +78643,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Casper",
     "category": "laptops",
     "productType": "Ultra Güçlü Flagship Oyuncu & Mühendislik Laptopu (Excalibur G920 Series)",
-    "image": "/images/products/laptops/casper-excalibur-g920-1490-en90h-e-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/casper-excalibur-g920-1490-en90h-e-1.jpg",
-      "https://resim.epey.com/1008098/z_casper-excalibur-g920-1490-en90h-e-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.9,
     "epeyScore": 86,
@@ -79464,10 +78773,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Casper",
     "category": "laptops",
     "productType": "Ultra Güçlü Flagship Oyuncu & Mühendislik Laptopu (Excalibur G920 Series)",
-    "image": "/images/products/laptops/casper-excalibur-g920-1490-en90x-e-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/casper-excalibur-g920-1490-en90x-e-1.jpg",
-      "https://resim.epey.com/1027928/z_casper-excalibur-g920-1490-en90x-e-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.9,
     "epeyScore": 85,
@@ -79595,10 +78903,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Casper",
     "category": "laptops",
     "productType": "Ultra Güçlü Flagship Oyuncu & Mühendislik Laptopu (Excalibur G920 Series)",
-    "image": "/images/products/laptops/casper-excalibur-g920-1490-gn90h-e-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/casper-excalibur-g920-1490-gn90h-e-1.jpg",
-      "https://resim.epey.com/1036602/z_casper-excalibur-g920-1490-gn90h-e-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.9,
     "epeyScore": 84,
@@ -79726,10 +79033,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Casper",
     "category": "laptops",
     "productType": "Ultra Güçlü Flagship Oyuncu & Mühendislik Laptopu (Excalibur G920 Series)",
-    "image": "/images/products/laptops/casper-excalibur-g920-1490-ex90h-e-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/casper-excalibur-g920-1490-ex90h-e-1.jpg",
-      "https://resim.epey.com/1008103/z_casper-excalibur-g920-1490-ex90h-e-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.9,
     "epeyScore": 84,
@@ -79857,10 +79163,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Casper",
     "category": "laptops",
     "productType": "Ultra Güçlü Flagship Oyuncu & Mühendislik Laptopu (Excalibur G920 Series)",
-    "image": "/images/products/laptops/casper-excalibur-g920-1490-ex90a-e-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/casper-excalibur-g920-1490-ex90a-e-1.jpg",
-      "https://resim.epey.com/1045949/z_casper-excalibur-g920-1490-ex90a-e-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.9,
     "epeyScore": 84,
@@ -79988,10 +79293,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Casper",
     "category": "laptops",
     "productType": "Ultra Güçlü Flagship Oyuncu & Mühendislik Laptopu (Excalibur G920 Series)",
-    "image": "/images/products/laptops/casper-excalibur-g920-1490-en80x-e-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/casper-excalibur-g920-1490-en80x-e-1.jpg",
-      "https://resim.epey.com/1027954/z_casper-excalibur-g920-1490-en80x-e-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.9,
     "epeyScore": 84,
@@ -80119,10 +79423,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Casper",
     "category": "laptops",
     "productType": "Ultra Güçlü Flagship Oyuncu & Mühendislik Laptopu (Excalibur G920 Series)",
-    "image": "/images/products/laptops/casper-excalibur-g920-1490-gn90x-e-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/casper-excalibur-g920-1490-gn90x-e-1.jpg",
-      "https://resim.epey.com/1036805/z_casper-excalibur-g920-1490-gn90x-e-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.9,
     "epeyScore": 83,
@@ -80250,10 +79553,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Casper",
     "category": "laptops",
     "productType": "Ultra Güçlü Flagship Oyuncu & Mühendislik Laptopu (Excalibur G920 Series)",
-    "image": "/images/products/laptops/casper-excalibur-g920-1490-ex90x-e-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/casper-excalibur-g920-1490-ex90x-e-1.jpg",
-      "https://resim.epey.com/1027926/z_casper-excalibur-g920-1490-ex90x-e-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.9,
     "epeyScore": 83,
@@ -80381,10 +79683,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Casper",
     "category": "laptops",
     "productType": "Ultra Güçlü Flagship Oyuncu & Mühendislik Laptopu (Excalibur G920 Series)",
-    "image": "/images/products/laptops/casper-excalibur-g920-1490-enp0h-e-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/casper-excalibur-g920-1490-enp0h-e-1.jpg",
-      "https://resim.epey.com/1031149/z_casper-excalibur-g920-1490-enp0h-e-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.9,
     "epeyScore": 83,
@@ -80512,10 +79813,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Casper",
     "category": "laptops",
     "productType": "Ultra Güçlü Flagship Oyuncu & Mühendislik Laptopu (Excalibur G920 Series)",
-    "image": "/images/products/laptops/casper-excalibur-g920-1490-enp0a-e-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/casper-excalibur-g920-1490-enp0a-e-1.jpg",
-      "https://resim.epey.com/1063934/z_casper-excalibur-g920-1490-g920-1490-enp0a-e-e-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.9,
     "epeyScore": 83,
@@ -80643,10 +79943,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Casper",
     "category": "laptops",
     "productType": "Ultra Güçlü Flagship Oyuncu & Mühendislik Laptopu (Excalibur G920 Series)",
-    "image": "/images/products/laptops/casper-excalibur-g920-1490-ef90a-e-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/casper-excalibur-g920-1490-ef90a-e-1.jpg",
-      "https://resim.epey.com/1063944/z_casper-excalibur-g920-1490-ef90a-e-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.9,
     "epeyScore": 83,
@@ -80774,10 +80073,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Casper",
     "category": "laptops",
     "productType": "Ultra Güçlü Flagship Oyuncu & Mühendislik Laptopu (Excalibur G920 Series)",
-    "image": "/images/products/laptops/casper-excalibur-g920-1490-gx90h-e-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/casper-excalibur-g920-1490-gx90h-e-1.jpg",
-      "https://resim.epey.com/1036601/z_casper-excalibur-g920-1490-gx90h-e-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.9,
     "epeyScore": 82,
@@ -80905,10 +80203,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Casper",
     "category": "laptops",
     "productType": "Ultra Güçlü Flagship Oyuncu & Mühendislik Laptopu (Excalibur G920 Series)",
-    "image": "/images/products/laptops/casper-excalibur-g920-1490-ef90x-e-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/casper-excalibur-g920-1490-ef90x-e-1.jpg",
-      "https://resim.epey.com/1027945/z_casper-excalibur-g920-1490-ef90x-e-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.9,
     "epeyScore": 82,
@@ -81036,10 +80333,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Casper",
     "category": "laptops",
     "productType": "Ultra Güçlü Flagship Oyuncu & Mühendislik Laptopu (Excalibur G920 Series)",
-    "image": "/images/products/laptops/casper-excalibur-g920-1490-ex80x-e-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/casper-excalibur-g920-1490-ex80x-e-1.jpg",
-      "https://resim.epey.com/1027983/z_casper-excalibur-g920-1490-ex80x-e-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.9,
     "epeyScore": 81,
@@ -81167,10 +80463,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Casper",
     "category": "laptops",
     "productType": "Ultra Güçlü Flagship Oyuncu & Mühendislik Laptopu (Excalibur G920 Series)",
-    "image": "/images/products/laptops/casper-excalibur-g920-1490-gx90x-e-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/casper-excalibur-g920-1490-gx90x-e-1.jpg",
-      "https://resim.epey.com/1036804/z_casper-excalibur-g920-1490-gx90x-e-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.9,
     "epeyScore": 81,
@@ -81298,10 +80593,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Casper",
     "category": "laptops",
     "productType": "Ultra Güçlü Flagship Oyuncu & Mühendislik Laptopu (Excalibur G920 Series)",
-    "image": "/images/products/laptops/casper-excalibur-g920-1490-exp0a-e-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/casper-excalibur-g920-1490-exp0a-e-1.jpg",
-      "https://resim.epey.com/1063933/z_casper-excalibur-g920-1490-exp0a-e-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.9,
     "epeyScore": 80,
@@ -81429,10 +80723,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Casper",
     "category": "laptops",
     "productType": "Ultra Güçlü Flagship Oyuncu & Mühendislik Laptopu (Excalibur G920 Series)",
-    "image": "/images/products/laptops/casper-excalibur-g920-1490-ef80x-e-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/casper-excalibur-g920-1490-ef80x-e-1.jpg",
-      "https://resim.epey.com/1027987/z_casper-excalibur-g920-1490-ef80x-e-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.9,
     "epeyScore": 80,
@@ -81560,10 +80853,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Casper",
     "category": "laptops",
     "productType": "Üst Seviye Performans & Oyuncu Laptopu (Excalibur G920 Series)",
-    "image": "/images/products/laptops/casper-excalibur-g920-1490-cxp0a-e-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/casper-excalibur-g920-1490-cxp0a-e-1.jpg",
-      "https://resim.epey.com/1036830/z_casper-excalibur-g920-1490-cxp0a-e-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 76,
@@ -81691,10 +80983,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Casper",
     "category": "laptops",
     "productType": "Üst Seviye Performans & Oyuncu Laptopu (Excalibur G920 Series)",
-    "image": "/images/products/laptops/casper-excalibur-g920-1490-dfp0h-e-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/casper-excalibur-g920-1490-dfp0h-e-1.jpg",
-      "https://resim.epey.com/1063942/z_casper-excalibur-g920-1490-dfp0h-e-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 75,
@@ -81822,10 +81113,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Casper",
     "category": "laptops",
     "productType": "Üst Seviye Performans & Oyuncu Laptopu (Excalibur G915 Series)",
-    "image": "/images/products/laptops/casper-excalibur-g915-1362-en70a-c-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/casper-excalibur-g915-1362-en70a-c-1.jpg",
-      "https://resim.epey.com/1044552/z_casper-excalibur-g915-1362-en70a-c-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 75,
@@ -81953,10 +81243,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Casper",
     "category": "laptops",
     "productType": "Üst Seviye Performans & Oyuncu Laptopu (Excalibur G915 Series)",
-    "image": "/images/products/laptops/casper-excalibur-g915-356h-en60a-c-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/casper-excalibur-g915-356h-en60a-c-1.jpg",
-      "https://resim.epey.com/1066149/z_casper-excalibur-1031325-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 75,
@@ -82084,10 +81373,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Casper",
     "category": "laptops",
     "productType": "Üst Seviye Performans & Oyuncu Laptopu (Excalibur G915 Series)",
-    "image": "/images/products/laptops/casper-excalibur-g915-356h-ex60a-c-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/casper-excalibur-g915-356h-ex60a-c-1.jpg",
-      "https://resim.epey.com/1066146/z_casper-excalibur-1031325-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 75,
@@ -82215,10 +81503,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Casper",
     "category": "laptops",
     "productType": "Üst Seviye Performans & Oyuncu Laptopu (Excalibur G915 Series)",
-    "image": "/images/products/laptops/casper-excalibur-g915-356h-ex70x-c-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/casper-excalibur-g915-356h-ex70x-c-1.jpg",
-      "https://resim.epey.com/1065992/z_casper-excalibur-1031325-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 75,
@@ -82346,10 +81633,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Casper",
     "category": "laptops",
     "productType": "Üst Seviye Performans & Oyuncu Laptopu (Excalibur G915 Series)",
-    "image": "/images/products/laptops/casper-excalibur-g915-356h-en70x-c-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/casper-excalibur-g915-356h-en70x-c-1.jpg",
-      "https://resim.epey.com/1065968/z_casper-excalibur-1031325-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 75,
@@ -82477,10 +81763,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Casper",
     "category": "laptops",
     "productType": "Üst Seviye Performans & Oyuncu Laptopu (Excalibur G915 Series)",
-    "image": "/images/products/laptops/casper-excalibur-g915-356h-ef70a-c-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/casper-excalibur-g915-356h-ef70a-c-1.jpg",
-      "https://resim.epey.com/1066026/z_casper-excalibur-1031325-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 75,
@@ -82608,10 +81893,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Casper",
     "category": "laptops",
     "productType": "Üst Seviye Performans & Oyuncu Laptopu (Excalibur G915 Series)",
-    "image": "/images/products/laptops/casper-excalibur-g915-1362-en60a-c-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/casper-excalibur-g915-1362-en60a-c-1.jpg",
-      "https://resim.epey.com/1056757/z_casper-excalibur-1031325-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 75,
@@ -82739,10 +82023,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Casper",
     "category": "laptops",
     "productType": "Üst Seviye Performans & Oyuncu Laptopu (Excalibur G920 Series)",
-    "image": "/images/products/laptops/casper-excalibur-g920-1490-cxp0x-e-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/casper-excalibur-g920-1490-cxp0x-e-1.jpg",
-      "https://resim.epey.com/1036268/z_casper-excalibur-g920-1490-cxp0x-e-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 75,
@@ -82870,10 +82153,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Casper",
     "category": "laptops",
     "productType": "Üst Seviye Performans & Oyuncu Laptopu (Excalibur G920 Series)",
-    "image": "/images/products/laptops/casper-excalibur-g920-1490-cfp0h-e-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/casper-excalibur-g920-1490-cfp0h-e-1.jpg",
-      "https://resim.epey.com/1063943/z_casper-excalibur-g920-1490-cfp0h-e-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 74,
@@ -83001,10 +82283,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Casper",
     "category": "laptops",
     "productType": "Üst Seviye Performans & Oyuncu Laptopu (Excalibur G920 Series)",
-    "image": "/images/products/laptops/casper-excalibur-g920-1490-cfp0a-e-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/casper-excalibur-g920-1490-cfp0a-e-1.jpg",
-      "https://resim.epey.com/1036832/z_casper-excalibur-g920-1490-cfp0a-e-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 74,
@@ -83132,10 +82413,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Casper",
     "category": "laptops",
     "productType": "Üst Seviye Performans & Oyuncu Laptopu (Excalibur G915 Series)",
-    "image": "/images/products/laptops/casper-excalibur-g915-1362-en70x-c-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/casper-excalibur-g915-1362-en70x-c-1.jpg",
-      "https://resim.epey.com/1029066/z_casper-excalibur-g915-1362-en70x-c-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 74,
@@ -83263,10 +82543,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Casper",
     "category": "laptops",
     "productType": "Üst Seviye Performans & Oyuncu Laptopu (Excalibur G915 Series)",
-    "image": "/images/products/laptops/casper-excalibur-g915-356h-ex60x-c-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/casper-excalibur-g915-356h-ex60x-c-1.jpg",
-      "https://resim.epey.com/1066143/z_casper-excalibur-1031325-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 74,
@@ -83394,10 +82673,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Casper",
     "category": "laptops",
     "productType": "Üst Seviye Performans & Oyuncu Laptopu (Excalibur G915 Series)",
-    "image": "/images/products/laptops/casper-excalibur-g915-356h-en60x-c-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/casper-excalibur-g915-356h-en60x-c-1.jpg",
-      "https://resim.epey.com/1066142/z_casper-excalibur-1031325-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 74,
@@ -83525,10 +82803,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Casper",
     "category": "laptops",
     "productType": "Üst Seviye Performans & Oyuncu Laptopu (Excalibur G915 Series)",
-    "image": "/images/products/laptops/casper-excalibur-g915-356h-ef60a-c-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/casper-excalibur-g915-356h-ef60a-c-1.jpg",
-      "https://resim.epey.com/1066150/z_casper-excalibur-1031325-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 74,
@@ -83656,10 +82933,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Casper",
     "category": "laptops",
     "productType": "Üst Seviye Performans & Oyuncu Laptopu (Excalibur G915 Series)",
-    "image": "/images/products/laptops/casper-excalibur-g915-240h-en70a-c-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/casper-excalibur-g915-240h-en70a-c-1.jpg",
-      "https://resim.epey.com/1058915/z_casper-excalibur-1031325-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 74,
@@ -83787,10 +83063,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Casper",
     "category": "laptops",
     "productType": "Yüksek Performans Oyuncu & İş Laptopu (Excalibur G915 Series)",
-    "image": "/images/products/laptops/casper-excalibur-g915-356h-dx70a-c-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/casper-excalibur-g915-356h-dx70a-c-1.jpg",
-      "https://resim.epey.com/1066027/z_casper-excalibur-1031325-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 72,
@@ -83918,10 +83193,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Casper",
     "category": "laptops",
     "productType": "Yüksek Performans Oyuncu & İş Laptopu (Excalibur G870 Series)",
-    "image": "/images/products/laptops/casper-excalibur-g870-1362-en60x-c-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/casper-excalibur-g870-1362-en60x-c-1.jpg",
-      "https://resim.epey.com/1019877/z_casper-excalibur-g870-1265-dqb0a-b-2.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 72,
@@ -84049,10 +83323,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Casper",
     "category": "laptops",
     "productType": "Yüksek Performans Oyuncu & İş Laptopu (Excalibur G915 Series)",
-    "image": "/images/products/laptops/casper-excalibur-g915-1362-ef70a-c-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/casper-excalibur-g915-1362-ef70a-c-1.jpg",
-      "https://resim.epey.com/1044553/z_casper-excalibur-g915-1362-ef70a-c-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 72,
@@ -84180,10 +83453,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Casper",
     "category": "laptops",
     "productType": "Yüksek Performans Oyuncu & İş Laptopu (Excalibur G870 Series)",
-    "image": "/images/products/laptops/casper-excalibur-g870-1362-en50a-c-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/casper-excalibur-g870-1362-en50a-c-1.jpg",
-      "https://resim.epey.com/1046767/z_casper-excalibur-g870-1265-dqb0a-b-2.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 72,
@@ -84311,10 +83583,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Casper",
     "category": "laptops",
     "productType": "Yüksek Performans Oyuncu & İş Laptopu (Excalibur G915 Series)",
-    "image": "/images/products/laptops/casper-excalibur-g915-240h-ex70a-c-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/casper-excalibur-g915-240h-ex70a-c-1.jpg",
-      "https://resim.epey.com/1058829/z_casper-excalibur-1031325-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 72,
@@ -84442,10 +83713,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Casper",
     "category": "laptops",
     "productType": "Yüksek Performans Oyuncu & İş Laptopu (Excalibur G915 Series)",
-    "image": "/images/products/laptops/casper-excalibur-g915-1362-dn70a-c-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/casper-excalibur-g915-1362-dn70a-c-1.jpg",
-      "https://resim.epey.com/1044565/z_casper-excalibur-g915-1362-dn70a-c-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 72,
@@ -84573,10 +83843,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Casper",
     "category": "laptops",
     "productType": "Yüksek Performans Oyuncu & İş Laptopu (Excalibur G870 Series)",
-    "image": "/images/products/laptops/casper-excalibur-g870-240h-en60a-c-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/casper-excalibur-g870-240h-en60a-c-1.jpg",
-      "https://resim.epey.com/1046896/z_casper-excalibur-g870-1265-dqb0a-b-2.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 71,
@@ -84704,10 +83973,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Casper",
     "category": "laptops",
     "productType": "Yüksek Performans Oyuncu & İş Laptopu (Excalibur G915 Series)",
-    "image": "/images/products/laptops/casper-excalibur-g915-1362-ex60x-c-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/casper-excalibur-g915-1362-ex60x-c-1.jpg",
-      "https://resim.epey.com/1027680/z_casper-excalibur-g915-1362-ex60x-c-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 71,
@@ -84835,10 +84103,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Casper",
     "category": "laptops",
     "productType": "Yüksek Performans Oyuncu & İş Laptopu (Excalibur G915 Series)",
-    "image": "/images/products/laptops/casper-excalibur-g915-356h-dx60r-c-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/casper-excalibur-g915-356h-dx60r-c-1.jpg",
-      "https://resim.epey.com/1066253/z_casper-excalibur-1031325-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 71,
@@ -84966,10 +84233,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Casper",
     "category": "laptops",
     "productType": "Yüksek Performans Oyuncu & İş Laptopu (Excalibur G915 Series)",
-    "image": "/images/products/laptops/casper-excalibur-g915-356h-dn60a-c-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/casper-excalibur-g915-356h-dn60a-c-1.jpg",
-      "https://resim.epey.com/1066167/z_casper-excalibur-1031325-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 71,
@@ -85097,10 +84363,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Casper",
     "category": "laptops",
     "productType": "Yüksek Performans Oyuncu & İş Laptopu (Excalibur G915 Series)",
-    "image": "/images/products/laptops/casper-excalibur-g915-356h-dx60a-c-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/casper-excalibur-g915-356h-dx60a-c-1.jpg",
-      "https://resim.epey.com/1066165/z_casper-excalibur-1031325-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 71,
@@ -85228,10 +84493,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Casper",
     "category": "laptops",
     "productType": "Yüksek Performans Oyuncu & İş Laptopu (Excalibur G870 Series)",
-    "image": "/images/products/laptops/casper-excalibur-g870-1362-ex70a-c-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/casper-excalibur-g870-1362-ex70a-c-1.jpg",
-      "https://resim.epey.com/1046796/z_casper-excalibur-g870-1265-dqb0a-b-2.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 71,
@@ -85359,10 +84623,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Casper",
     "category": "laptops",
     "productType": "Yüksek Performans Oyuncu & İş Laptopu (Excalibur G870 Series)",
-    "image": "/images/products/laptops/casper-excalibur-g870-1362-ex70r-c-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/casper-excalibur-g870-1362-ex70r-c-1.jpg",
-      "https://resim.epey.com/1020063/z_casper-excalibur-g870-1265-dqb0a-b-2.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 71,
@@ -85490,10 +84753,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Casper",
     "category": "laptops",
     "productType": "Yüksek Performans Oyuncu & İş Laptopu (Excalibur G915 Series)",
-    "image": "/images/products/laptops/casper-excalibur-g915-1362-ef60a-c-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/casper-excalibur-g915-1362-ef60a-c-1.jpg",
-      "https://resim.epey.com/1056759/z_casper-excalibur-1031325-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 71,
@@ -85621,10 +84883,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Casper",
     "category": "laptops",
     "productType": "Yüksek Performans Oyuncu & İş Laptopu (Excalibur G915 Series)",
-    "image": "/images/products/laptops/casper-excalibur-g915-356h-dx70x-c-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/casper-excalibur-g915-356h-dx70x-c-1.jpg",
-      "https://resim.epey.com/1065989/z_casper-excalibur-1031325-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 71,
@@ -85752,10 +85013,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Casper",
     "category": "laptops",
     "productType": "Yüksek Performans Oyuncu & İş Laptopu (Excalibur G915 Series)",
-    "image": "/images/products/laptops/casper-excalibur-g915-356h-dn70x-c-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/casper-excalibur-g915-356h-dn70x-c-1.jpg",
-      "https://resim.epey.com/1065986/z_casper-excalibur-1031325-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 71,
@@ -85883,10 +85143,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Casper",
     "category": "laptops",
     "productType": "Yüksek Performans Oyuncu & İş Laptopu (Excalibur G915 Series)",
-    "image": "/images/products/laptops/casper-excalibur-g915-356h-cn70a-c-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/casper-excalibur-g915-356h-cn70a-c-1.jpg",
-      "https://resim.epey.com/1066077/z_casper-excalibur-1031325-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 71,
@@ -86014,10 +85273,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Casper",
     "category": "laptops",
     "productType": "Yüksek Performans Oyuncu & İş Laptopu (Excalibur G915 Series)",
-    "image": "/images/products/laptops/casper-excalibur-g915-356h-dn60x-c-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/casper-excalibur-g915-356h-dn60x-c-1.jpg",
-      "https://resim.epey.com/1066135/z_casper-excalibur-1031325-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 70,
@@ -86145,10 +85403,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Casper",
     "category": "laptops",
     "productType": "Yüksek Performans Oyuncu & İş Laptopu (Excalibur G915 Series)",
-    "image": "/images/products/laptops/casper-excalibur-g915-356h-cn60a-c-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/casper-excalibur-g915-356h-cn60a-c-1.jpg",
-      "https://resim.epey.com/1066198/z_casper-excalibur-1031325-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 70,
@@ -86276,10 +85533,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Casper",
     "category": "laptops",
     "productType": "Yüksek Performans Oyuncu & İş Laptopu (Excalibur G915 Series)",
-    "image": "/images/products/laptops/casper-excalibur-g915-356h-cx60a-c-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/casper-excalibur-g915-356h-cx60a-c-1.jpg",
-      "https://resim.epey.com/1066192/z_casper-excalibur-1031325-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 70,
@@ -86407,10 +85663,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Casper",
     "category": "laptops",
     "productType": "Yüksek Performans Oyuncu & İş Laptopu (Excalibur G915 Series)",
-    "image": "/images/products/laptops/casper-excalibur-g915-1362-ef60x-c-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/casper-excalibur-g915-1362-ef60x-c-1.jpg",
-      "https://resim.epey.com/1027681/z_casper-excalibur-g915-1362-ef60x-c-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 70,
@@ -86538,10 +85793,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Casper",
     "category": "laptops",
     "productType": "Yüksek Performans Oyuncu & İş Laptopu (Excalibur G915 Series)",
-    "image": "/images/products/laptops/casper-excalibur-g915-356h-dv70a-c-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/casper-excalibur-g915-356h-dv70a-c-1.jpg",
-      "https://resim.epey.com/1066059/z_casper-excalibur-1031325-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 70,
@@ -86669,10 +85923,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Casper",
     "category": "laptops",
     "productType": "Yüksek Performans Oyuncu & İş Laptopu (Excalibur G915 Series)",
-    "image": "/images/products/laptops/casper-excalibur-g915-356h-df60r-c-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/casper-excalibur-g915-356h-df60r-c-1.jpg",
-      "https://resim.epey.com/1066251/z_casper-excalibur-1031325-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 70,
@@ -86800,10 +86053,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Casper",
     "category": "laptops",
     "productType": "Yüksek Performans Oyuncu & İş Laptopu (Excalibur G915 Series)",
-    "image": "/images/products/laptops/casper-excalibur-g915-356h-df60a-c-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/casper-excalibur-g915-356h-df60a-c-1.jpg",
-      "https://resim.epey.com/1066190/z_casper-excalibur-1031325-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 70,
@@ -86931,10 +86183,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Casper",
     "category": "laptops",
     "productType": "Yüksek Performans Oyuncu & İş Laptopu (Excalibur G880 Series)",
-    "image": "/images/products/laptops/casper-excalibur-g880-1362-en60x-c-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/casper-excalibur-g880-1362-en60x-c-1.jpg",
-      "https://resim.epey.com/1023231/z_casper-excalibur-g880-1362-en60x-c-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 70,
@@ -87062,10 +86313,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Casper",
     "category": "laptops",
     "productType": "Yüksek Performans Oyuncu & İş Laptopu (Excalibur G915 Series)",
-    "image": "/images/products/laptops/casper-excalibur-g915-356h-cx70x-c-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/casper-excalibur-g915-356h-cx70x-c-1.jpg",
-      "https://resim.epey.com/1065976/z_casper-excalibur-1031325-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 70,
@@ -87193,10 +86443,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Casper",
     "category": "laptops",
     "productType": "Yüksek Performans Oyuncu & İş Laptopu (Excalibur G915 Series)",
-    "image": "/images/products/laptops/casper-excalibur-g915-356h-cn70x-c-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/casper-excalibur-g915-356h-cn70x-c-1.jpg",
-      "https://resim.epey.com/1065973/z_casper-excalibur-1031325-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 70,
@@ -87324,10 +86573,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Casper",
     "category": "laptops",
     "productType": "Yüksek Performans Oyuncu & İş Laptopu (Excalibur G915 Series)",
-    "image": "/images/products/laptops/casper-excalibur-g915-356h-bx70a-c-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/casper-excalibur-g915-356h-bx70a-c-1.jpg",
-      "https://resim.epey.com/1066079/z_casper-excalibur-1031325-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 70,
@@ -87455,10 +86703,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Casper",
     "category": "laptops",
     "productType": "Yüksek Performans Oyuncu & İş Laptopu (Excalibur G870 Series)",
-    "image": "/images/products/laptops/casper-excalibur-g870-1362-ef70a-c-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/casper-excalibur-g870-1362-ef70a-c-1.jpg",
-      "https://resim.epey.com/1046799/z_casper-excalibur-g870-1265-dqb0a-b-2.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 70,
@@ -87586,10 +86833,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Casper",
     "category": "laptops",
     "productType": "Yüksek Performans Oyuncu & İş Laptopu (Excalibur G915 Series)",
-    "image": "/images/products/laptops/casper-excalibur-g915-240h-dn70a-c-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/casper-excalibur-g915-240h-dn70a-c-1.jpg",
-      "https://resim.epey.com/1058850/z_casper-excalibur-1031325-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 70,
@@ -87717,10 +86963,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Casper",
     "category": "laptops",
     "productType": "Yüksek Performans Oyuncu & İş Laptopu (Excalibur G915 Series)",
-    "image": "/images/products/laptops/casper-excalibur-g915-240h-ex60x-c-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/casper-excalibur-g915-240h-ex60x-c-1.jpg",
-      "https://resim.epey.com/1056803/z_casper-excalibur-1031325-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 70,
@@ -87848,10 +87093,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Casper",
     "category": "laptops",
     "productType": "Yüksek Performans Oyuncu & İş Laptopu (Excalibur G870 Series)",
-    "image": "/images/products/laptops/casper-excalibur-g870-210h-en60a-c-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/casper-excalibur-g870-210h-en60a-c-1.jpg",
-      "https://resim.epey.com/1046880/z_casper-excalibur-g870-1265-dqb0a-b-2.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 70,
@@ -87979,10 +87223,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Casper",
     "category": "laptops",
     "productType": "Yüksek Performans Oyuncu & İş Laptopu (Excalibur G915 Series)",
-    "image": "/images/products/laptops/casper-excalibur-g915-356h-df70x-c-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/casper-excalibur-g915-356h-df70x-c-1.jpg",
-      "https://resim.epey.com/1065977/z_casper-excalibur-1031325-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 70,
@@ -88110,10 +87353,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Casper",
     "category": "laptops",
     "productType": "Yüksek Performans Oyuncu & İş Laptopu (Excalibur G915 Series)",
-    "image": "/images/products/laptops/casper-excalibur-g915-1362-dn60x-c-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/casper-excalibur-g915-1362-dn60x-c-1.jpg",
-      "https://resim.epey.com/1027707/z_casper-excalibur-g915-1362-dn60x-c-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 70,
@@ -88241,10 +87483,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Casper",
     "category": "laptops",
     "productType": "Yüksek Performans Oyuncu & İş Laptopu (Excalibur G915 Series)",
-    "image": "/images/products/laptops/casper-excalibur-g915-356h-cv70a-c-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/casper-excalibur-g915-356h-cv70a-c-1.jpg",
-      "https://resim.epey.com/1066074/z_casper-excalibur-1031325-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 69,
@@ -88372,10 +87613,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Casper",
     "category": "laptops",
     "productType": "Yüksek Performans Oyuncu & İş Laptopu (Excalibur G870 Series)",
-    "image": "/images/products/laptops/casper-excalibur-g870-1362-ex50a-c-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/casper-excalibur-g870-1362-ex50a-c-1.jpg",
-      "https://resim.epey.com/1046663/z_casper-excalibur-g870-1265-dqb0a-b-2.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 69,
@@ -88503,10 +87743,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Casper",
     "category": "laptops",
     "productType": "Yüksek Performans Oyuncu & İş Laptopu (Excalibur G915 Series)",
-    "image": "/images/products/laptops/casper-excalibur-g915-356h-df60x-c-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/casper-excalibur-g915-356h-df60x-c-1.jpg",
-      "https://resim.epey.com/1066134/z_casper-excalibur-1031325-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 69,
@@ -88634,10 +87873,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Casper",
     "category": "laptops",
     "productType": "Yüksek Performans Oyuncu & İş Laptopu (Excalibur G915 Series)",
-    "image": "/images/products/laptops/casper-excalibur-g915-356h-cf60r-c-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/casper-excalibur-g915-356h-cf60r-c-1.jpg",
-      "https://resim.epey.com/1066275/z_casper-excalibur-1031325-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 69,
@@ -88765,10 +88003,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Casper",
     "category": "laptops",
     "productType": "Yüksek Performans Oyuncu & İş Laptopu (Excalibur G915 Series)",
-    "image": "/images/products/laptops/casper-excalibur-g915-356h-cf60a-c-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/casper-excalibur-g915-356h-cf60a-c-1.jpg",
-      "https://resim.epey.com/1066199/z_casper-excalibur-1031325-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 69,
@@ -88896,10 +88133,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Casper",
     "category": "laptops",
     "productType": "Yüksek Performans Oyuncu & İş Laptopu (Excalibur G915 Series)",
-    "image": "/images/products/laptops/casper-excalibur-g915-1362-dx70a-c-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/casper-excalibur-g915-1362-dx70a-c-1.jpg",
-      "https://resim.epey.com/1035767/z_casper-excalibur-g915-1362-dx70a-c-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 69,
@@ -89027,10 +88263,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Casper",
     "category": "laptops",
     "productType": "Yüksek Performans Oyuncu & İş Laptopu (Excalibur G915 Series)",
-    "image": "/images/products/laptops/casper-excalibur-g915-1362-dx70r-c-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/casper-excalibur-g915-1362-dx70r-c-1.jpg",
-      "https://resim.epey.com/1027589/z_casper-excalibur-g915-1362-dx70r-c-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 69,
@@ -89158,10 +88393,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Casper",
     "category": "laptops",
     "productType": "Yüksek Performans Oyuncu & İş Laptopu (Excalibur G880 Series)",
-    "image": "/images/products/laptops/casper-excalibur-g880-1362-en50x-c-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/casper-excalibur-g880-1362-en50x-c-1.jpg",
-      "https://resim.epey.com/1029766/z_casper-excalibur-g880-1362-dv50x-c-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 69,
@@ -89289,10 +88523,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Casper",
     "category": "laptops",
     "productType": "Yüksek Performans Oyuncu & İş Laptopu (Excalibur G915 Series)",
-    "image": "/images/products/laptops/casper-excalibur-g915-356h-bx70x-c-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/casper-excalibur-g915-356h-bx70x-c-1.jpg",
-      "https://resim.epey.com/1065970/z_casper-excalibur-1031325-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 69,
@@ -89420,10 +88653,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Casper",
     "category": "laptops",
     "productType": "Yüksek Performans Oyuncu & İş Laptopu (Excalibur G915 Series)",
-    "image": "/images/products/laptops/casper-excalibur-g915-240h-dn70x-c-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/casper-excalibur-g915-240h-dn70x-c-1.jpg",
-      "https://resim.epey.com/1058505/z_casper-excalibur-1031325-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 69,
@@ -89551,10 +88783,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Casper",
     "category": "laptops",
     "productType": "Yüksek Performans Oyuncu & İş Laptopu (Excalibur G870 Series)",
-    "image": "/images/products/laptops/casper-excalibur-g870-240h-ex60a-c-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/casper-excalibur-g870-240h-ex60a-c-1.jpg",
-      "https://resim.epey.com/1046883/z_casper-excalibur-g870-1265-dqb0a-b-2.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 69,
@@ -89682,10 +88913,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Casper",
     "category": "laptops",
     "productType": "Yüksek Performans Oyuncu & İş Laptopu (Excalibur G915 Series)",
-    "image": "/images/products/laptops/casper-excalibur-g915-240h-cn70a-c-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/casper-excalibur-g915-240h-cn70a-c-1.jpg",
-      "https://resim.epey.com/1058867/z_casper-excalibur-1031325-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 69,
@@ -89813,10 +89043,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Casper",
     "category": "laptops",
     "productType": "Yüksek Performans Oyuncu & İş Laptopu (Excalibur G870 Series)",
-    "image": "/images/products/laptops/casper-excalibur-g870-1362-dn60a-c-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/casper-excalibur-g870-1362-dn60a-c-1.jpg",
-      "https://resim.epey.com/1046718/z_casper-excalibur-g870-1265-dqb0a-b-2.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 69,
@@ -89944,10 +89173,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Casper",
     "category": "laptops",
     "productType": "Yüksek Performans Oyuncu & İş Laptopu (Excalibur G870 Series)",
-    "image": "/images/products/laptops/casper-excalibur-g870-210h-en60x-c-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/casper-excalibur-g870-210h-en60x-c-1.jpg",
-      "https://resim.epey.com/1023770/z_casper-excalibur-g870-1265-dqb0a-b-2.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 69,
@@ -90075,10 +89303,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Casper",
     "category": "laptops",
     "productType": "Yüksek Performans Oyuncu & İş Laptopu (Excalibur G915 Series)",
-    "image": "/images/products/laptops/casper-excalibur-g915-356h-cf70x-c-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/casper-excalibur-g915-356h-cf70x-c-1.jpg",
-      "https://resim.epey.com/1065971/z_casper-excalibur-1031325-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 69,
@@ -90206,10 +89433,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Casper",
     "category": "laptops",
     "productType": "Yüksek Performans Oyuncu & İş Laptopu (Excalibur G915 Series)",
-    "image": "/images/products/laptops/casper-excalibur-g915-1362-cn60x-c-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/casper-excalibur-g915-1362-cn60x-c-1.jpg",
-      "https://resim.epey.com/1031326/z_casper-excalibur-1031325-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 69,
@@ -90337,10 +89563,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Casper",
     "category": "laptops",
     "productType": "Yüksek Performans Oyuncu & İş Laptopu (Excalibur G915 Series)",
-    "image": "/images/products/laptops/casper-excalibur-g915-356h-bf70r-c-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/casper-excalibur-g915-356h-bf70r-c-1.jpg",
-      "https://resim.epey.com/1066088/z_casper-excalibur-1031325-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 69,
@@ -90468,10 +89693,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Casper",
     "category": "laptops",
     "productType": "Yüksek Performans Oyuncu & İş Laptopu (Excalibur G870 Series)",
-    "image": "/images/products/laptops/casper-excalibur-g870-1362-ex50x-c-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/casper-excalibur-g870-1362-ex50x-c-1.jpg",
-      "https://resim.epey.com/1029620/z_casper-excalibur-g870-1265-dqb0a-b-2.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 68,
@@ -90599,10 +89823,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Casper",
     "category": "laptops",
     "productType": "Yüksek Performans Oyuncu & İş Laptopu (Excalibur G915 Series)",
-    "image": "/images/products/laptops/casper-excalibur-g915-356h-bv70a-c-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/casper-excalibur-g915-356h-bv70a-c-1.jpg",
-      "https://resim.epey.com/1066081/z_casper-excalibur-1031325-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 68,
@@ -90730,10 +89953,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Casper",
     "category": "laptops",
     "productType": "Yüksek Performans Oyuncu & İş Laptopu (Excalibur G915 Series)",
-    "image": "/images/products/laptops/casper-excalibur-g915-356h-cf60x-c-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/casper-excalibur-g915-356h-cf60x-c-1.jpg",
-      "https://resim.epey.com/1066114/z_casper-excalibur-1031325-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 68,
@@ -90861,10 +90083,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Casper",
     "category": "laptops",
     "productType": "Yüksek Performans Oyuncu & İş Laptopu (Excalibur G915 Series)",
-    "image": "/images/products/laptops/casper-excalibur-g915-356h-bf60r-c-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/casper-excalibur-g915-356h-bf60r-c-1.jpg",
-      "https://resim.epey.com/1066276/z_casper-excalibur-1031325-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 68,
@@ -90992,10 +90213,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Casper",
     "category": "laptops",
     "productType": "Yüksek Performans Oyuncu & İş Laptopu (Excalibur G915 Series)",
-    "image": "/images/products/laptops/casper-excalibur-g915-1362-dx70x-c-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/casper-excalibur-g915-1362-dx70x-c-1.jpg",
-      "https://resim.epey.com/1027657/z_casper-excalibur-g915-1362-dx70x-c-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 68,
@@ -91123,10 +90343,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Casper",
     "category": "laptops",
     "productType": "Yüksek Performans Oyuncu & İş Laptopu (Excalibur G915 Series)",
-    "image": "/images/products/laptops/casper-excalibur-g915-356h-bf60a-c-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/casper-excalibur-g915-356h-bf60a-c-1.jpg",
-      "https://resim.epey.com/1066239/z_casper-excalibur-1031325-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 68,
@@ -91254,10 +90473,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Casper",
     "category": "laptops",
     "productType": "Yüksek Performans Oyuncu & İş Laptopu (Excalibur G915 Series)",
-    "image": "/images/products/laptops/casper-excalibur-g915-1362-cx70a-c-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/casper-excalibur-g915-1362-cx70a-c-1.jpg",
-      "https://resim.epey.com/1044567/z_casper-excalibur-g915-1362-cx70a-c-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 68,
@@ -91385,10 +90603,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Casper",
     "category": "laptops",
     "productType": "Yüksek Performans Oyuncu & İş Laptopu (Excalibur G870 Series)",
-    "image": "/images/products/laptops/casper-excalibur-g870-240h-ex60x-c-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/casper-excalibur-g870-240h-ex60x-c-1.jpg",
-      "https://resim.epey.com/1030499/z_casper-excalibur-g870-1265-dqb0a-b-2.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 68,
@@ -91516,10 +90733,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Casper",
     "category": "laptops",
     "productType": "Yüksek Performans Oyuncu & İş Laptopu (Excalibur G915 Series)",
-    "image": "/images/products/laptops/casper-excalibur-g915-240h-cn70x-c-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/casper-excalibur-g915-240h-cn70x-c-1.jpg",
-      "https://resim.epey.com/1058507/z_casper-excalibur-1031325-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 68,
@@ -91647,10 +90863,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Casper",
     "category": "laptops",
     "productType": "Yüksek Performans Oyuncu & İş Laptopu (Excalibur G870 Series)",
-    "image": "/images/products/laptops/casper-excalibur-g870-1362-ef50a-c-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/casper-excalibur-g870-1362-ef50a-c-1.jpg",
-      "https://resim.epey.com/1046665/z_casper-excalibur-g870-1265-dqb0a-b-2.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 68,
@@ -91778,10 +90993,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Casper",
     "category": "laptops",
     "productType": "Yüksek Performans Oyuncu & İş Laptopu (Excalibur G870 Series)",
-    "image": "/images/products/laptops/casper-excalibur-g870-1362-dn60x-c-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/casper-excalibur-g870-1362-dn60x-c-1.jpg",
-      "https://resim.epey.com/1019878/z_casper-excalibur-g870-1265-dqb0a-b-2.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 68,
@@ -91909,10 +91123,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Casper",
     "category": "laptops",
     "productType": "Yüksek Performans Oyuncu & İş Laptopu (Excalibur G870 Series)",
-    "image": "/images/products/laptops/casper-excalibur-g870-1362-ex60x-c-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/casper-excalibur-g870-1362-ex60x-c-1.jpg",
-      "https://resim.epey.com/1019886/z_casper-excalibur-g870-1265-dqb0a-b-2.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 68,
@@ -92040,10 +91253,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Casper",
     "category": "laptops",
     "productType": "Yüksek Performans Oyuncu & İş Laptopu (Excalibur G915 Series)",
-    "image": "/images/products/laptops/casper-excalibur-g915-1362-df70a-c-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/casper-excalibur-g915-1362-df70a-c-1.jpg",
-      "https://resim.epey.com/1027661/z_casper-excalibur-g915-1362-df70a-c-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 68,
@@ -92171,10 +91383,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Casper",
     "category": "laptops",
     "productType": "Yüksek Performans Oyuncu & İş Laptopu (Excalibur G915 Series)",
-    "image": "/images/products/laptops/casper-excalibur-g915-1362-df70r-c-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/casper-excalibur-g915-1362-df70r-c-1.jpg",
-      "https://resim.epey.com/1027591/z_casper-excalibur-g915-1362-df70r-c-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 68,
@@ -92302,10 +91513,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Casper",
     "category": "laptops",
     "productType": "Yüksek Performans Oyuncu & İş Laptopu (Excalibur G915 Series)",
-    "image": "/images/products/laptops/casper-excalibur-g915-356h-bf70x-c-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/casper-excalibur-g915-356h-bf70x-c-1.jpg",
-      "https://resim.epey.com/1065966/z_casper-excalibur-1031325-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 68,
@@ -92433,10 +91643,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Casper",
     "category": "laptops",
     "productType": "Yüksek Performans Oyuncu & İş Laptopu (Excalibur G870 Series)",
-    "image": "/images/products/laptops/casper-excalibur-g870-240h-ef60a-c-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/casper-excalibur-g870-240h-ef60a-c-1.jpg",
-      "https://resim.epey.com/1046897/z_casper-excalibur-g870-1265-dqb0a-b-2.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 68,
@@ -92564,10 +91773,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Casper",
     "category": "laptops",
     "productType": "Yüksek Performans Oyuncu & İş Laptopu (Excalibur G870 Series)",
-    "image": "/images/products/laptops/casper-excalibur-g870-1362-cn70x-c-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/casper-excalibur-g870-1362-cn70x-c-1.jpg",
-      "https://resim.epey.com/1034469/z_casper-excalibur-g870-1265-dqb0a-b-2.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 68,
@@ -92695,10 +91903,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Casper",
     "category": "laptops",
     "productType": "Yüksek Performans Oyuncu & İş Laptopu (Excalibur G915 Series)",
-    "image": "/images/products/laptops/casper-excalibur-g915-1362-df60r-c-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/casper-excalibur-g915-1362-df60r-c-1.jpg",
-      "https://resim.epey.com/1027769/z_casper-excalibur-g915-1362-df60r-c-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 67,
@@ -92826,10 +92033,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Casper",
     "category": "laptops",
     "productType": "Yüksek Performans Oyuncu & İş Laptopu (Excalibur G915 Series)",
-    "image": "/images/products/laptops/casper-excalibur-g915-1362-dq60a-c-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/casper-excalibur-g915-1362-dq60a-c-1.jpg",
-      "https://resim.epey.com/1035796/z_casper-excalibur-g915-1362-dq60a-c-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 67,
@@ -92957,10 +92163,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Casper",
     "category": "laptops",
     "productType": "Yüksek Performans Oyuncu & İş Laptopu (Excalibur G915 Series)",
-    "image": "/images/products/laptops/casper-excalibur-g915-1362-df60a-c-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/casper-excalibur-g915-1362-df60a-c-1.jpg",
-      "https://resim.epey.com/1029024/z_casper-excalibur-g915-1362-df60a-c-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 67,
@@ -93088,10 +92293,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Casper",
     "category": "laptops",
     "productType": "Yüksek Performans Oyuncu & İş Laptopu (Excalibur G915 Series)",
-    "image": "/images/products/laptops/casper-excalibur-g915-356h-bf60x-c-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/casper-excalibur-g915-356h-bf60x-c-1.jpg",
-      "https://resim.epey.com/1066108/z_casper-excalibur-1031325-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 67,
@@ -93219,10 +92423,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Casper",
     "category": "laptops",
     "productType": "Yüksek Performans Oyuncu & İş Laptopu (Excalibur G915 Series)",
-    "image": "/images/products/laptops/casper-excalibur-g915-1362-cx70x-c-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/casper-excalibur-g915-1362-cx70x-c-1.jpg",
-      "https://resim.epey.com/1031345/z_casper-excalibur-g915-1362-cx70x-c-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 67,
@@ -93350,10 +92553,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Casper",
     "category": "laptops",
     "productType": "Yüksek Performans Oyuncu & İş Laptopu (Excalibur G915 Series)",
-    "image": "/images/products/laptops/casper-excalibur-g915-1362-bx70a-c-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/casper-excalibur-g915-1362-bx70a-c-1.jpg",
-      "https://resim.epey.com/1044569/z_casper-excalibur-g915-1362-bx70a-c-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 67,
@@ -93481,10 +92683,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Casper",
     "category": "laptops",
     "productType": "Yüksek Performans Oyuncu & İş Laptopu (Excalibur G880 Series)",
-    "image": "/images/products/laptops/casper-excalibur-g880-210h-en60x-c-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/casper-excalibur-g880-210h-en60x-c-1.jpg",
-      "https://resim.epey.com/1028748/z_casper-excalibur-g880-210h-en60x-c-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 67,
@@ -93612,10 +92813,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Casper",
     "category": "laptops",
     "productType": "Yüksek Performans Oyuncu & İş Laptopu (Excalibur G870 Series)",
-    "image": "/images/products/laptops/casper-excalibur-g870-1362-ef50x-c-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/casper-excalibur-g870-1362-ef50x-c-1.jpg",
-      "https://resim.epey.com/1029622/z_casper-excalibur-g870-1265-dqb0a-b-2.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 67,
@@ -93743,10 +92943,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Casper",
     "category": "laptops",
     "productType": "Yüksek Performans Oyuncu & İş Laptopu (Excalibur G915 Series)",
-    "image": "/images/products/laptops/casper-excalibur-g915-1362-df70x-c-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/casper-excalibur-g915-1362-df70x-c-1.jpg",
-      "https://resim.epey.com/1027627/z_casper-excalibur-g915-1362-df70x-c-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 67,
@@ -93874,10 +93073,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Casper",
     "category": "laptops",
     "productType": "Yüksek Performans Oyuncu & İş Laptopu (Excalibur G915 Series)",
-    "image": "/images/products/laptops/casper-excalibur-g915-240h-dx60r-c-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/casper-excalibur-g915-240h-dx60r-c-1.jpg",
-      "https://resim.epey.com/1058968/z_casper-excalibur-1031325-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 67,
@@ -94005,10 +93203,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Casper",
     "category": "laptops",
     "productType": "Yüksek Performans Oyuncu & İş Laptopu (Excalibur G915 Series)",
-    "image": "/images/products/laptops/casper-excalibur-g915-1362-cf70r-c-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/casper-excalibur-g915-1362-cf70r-c-1.jpg",
-      "https://resim.epey.com/1031444/z_casper-excalibur-g915-1362-cf70r-c-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 67,
@@ -94136,10 +93333,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Casper",
     "category": "laptops",
     "productType": "Yüksek Performans Oyuncu & İş Laptopu (Excalibur G915 Series)",
-    "image": "/images/products/laptops/casper-excalibur-g915-240h-dx60a-c-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/casper-excalibur-g915-240h-dx60a-c-1.jpg",
-      "https://resim.epey.com/1058530/z_casper-excalibur-1031325-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 67,
@@ -94267,10 +93463,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Casper",
     "category": "laptops",
     "productType": "Yüksek Performans Oyuncu & İş Laptopu (Excalibur G915 Series)",
-    "image": "/images/products/laptops/casper-excalibur-g915-1362-cf70a-c-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/casper-excalibur-g915-1362-cf70a-c-1.jpg",
-      "https://resim.epey.com/1031361/z_casper-excalibur-g915-1362-cf70a-c-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 67,
@@ -94398,10 +93593,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Casper",
     "category": "laptops",
     "productType": "Yüksek Performans Oyuncu & İş Laptopu (Excalibur G870 Series)",
-    "image": "/images/products/laptops/casper-excalibur-g870-240h-ef60x-c-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/casper-excalibur-g870-240h-ef60x-c-1.jpg",
-      "https://resim.epey.com/1030483/z_casper-excalibur-g870-1265-dqb0a-b-2.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 67,
@@ -94529,10 +93723,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Casper",
     "category": "laptops",
     "productType": "Yüksek Performans Oyuncu & İş Laptopu (Excalibur G870 Series)",
-    "image": "/images/products/laptops/casper-excalibur-g870-1362-ef60x-c-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/casper-excalibur-g870-1362-ef60x-c-1.jpg",
-      "https://resim.epey.com/1019882/z_casper-excalibur-g870-1265-dqb0a-b-2.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 67,
@@ -94660,10 +93853,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Casper",
     "category": "laptops",
     "productType": "Yüksek Performans Oyuncu & İş Laptopu (Excalibur G880 Series)",
-    "image": "/images/products/laptops/casper-excalibur-g880-1362-dn70x-c-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/casper-excalibur-g880-1362-dn70x-c-1.jpg",
-      "https://resim.epey.com/1023486/z_casper-excalibur-g880-1362-dn70x-c-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 67,
@@ -94791,10 +93983,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Casper",
     "category": "laptops",
     "productType": "Yüksek Performans Oyuncu & İş Laptopu (Excalibur G880 Series)",
-    "image": "/images/products/laptops/casper-excalibur-g880-1362-ex50x-c-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/casper-excalibur-g880-1362-ex50x-c-1.jpg",
-      "https://resim.epey.com/1029764/z_casper-excalibur-g880-1362-dv50x-c-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 67,
@@ -94922,10 +94113,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Casper",
     "category": "laptops",
     "productType": "Yüksek Performans Oyuncu & İş Laptopu (Excalibur G870 Series)",
-    "image": "/images/products/laptops/casper-excalibur-g870-210h-ef60a-c-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/casper-excalibur-g870-210h-ef60a-c-1.jpg",
-      "https://resim.epey.com/1046868/z_casper-excalibur-g870-1265-dqb0a-b-2.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 66,
@@ -95053,10 +94243,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Casper",
     "category": "laptops",
     "productType": "Yüksek Performans Oyuncu & İş Laptopu (Excalibur G870 Series)",
-    "image": "/images/products/laptops/casper-excalibur-g870-1362-cx70a-c-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/casper-excalibur-g870-1362-cx70a-c-1.jpg",
-      "https://resim.epey.com/1046790/z_casper-excalibur-g870-1265-dqb0a-b-2.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 66,
@@ -95184,10 +94373,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Casper",
     "category": "laptops",
     "productType": "Yüksek Performans Oyuncu & İş Laptopu (Excalibur G915 Series)",
-    "image": "/images/products/laptops/casper-excalibur-g915-1362-df60x-c-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/casper-excalibur-g915-1362-df60x-c-1.jpg",
-      "https://resim.epey.com/1027708/z_casper-excalibur-g915-1362-df60x-c-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 66,
@@ -95315,10 +94503,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Casper",
     "category": "laptops",
     "productType": "Yüksek Performans Oyuncu & İş Laptopu (Excalibur G915 Series)",
-    "image": "/images/products/laptops/casper-excalibur-g915-1362-cf60r-c-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/casper-excalibur-g915-1362-cf60r-c-1.jpg",
-      "https://resim.epey.com/1031322/z_casper-excalibur-g915-1362-cf60r-c-casper-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 66,
@@ -95446,10 +94633,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Casper",
     "category": "laptops",
     "productType": "Yüksek Performans Oyuncu & İş Laptopu (Excalibur G915 Series)",
-    "image": "/images/products/laptops/casper-excalibur-g915-1362-cf60a-c-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/casper-excalibur-g915-1362-cf60a-c-1.jpg",
-      "https://resim.epey.com/1031329/z_casper-excalibur-g915-1362-cf60a-c-casper-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 66,
@@ -95577,10 +94763,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Casper",
     "category": "laptops",
     "productType": "Yüksek Performans Oyuncu & İş Laptopu (Excalibur G880 Series)",
-    "image": "/images/products/laptops/casper-excalibur-g880-240h-ex60x-c-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/casper-excalibur-g880-240h-ex60x-c-1.jpg",
-      "https://resim.epey.com/1030240/z_casper-excalibur-g880-240h-ex60x-c-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 66,
@@ -95708,10 +94893,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Casper",
     "category": "laptops",
     "productType": "Yüksek Performans Oyuncu & İş Laptopu (Excalibur G915 Series)",
-    "image": "/images/products/laptops/casper-excalibur-g915-1362-bx70x-c-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/casper-excalibur-g915-1362-bx70x-c-1.jpg",
-      "https://resim.epey.com/1027656/z_casper-excalibur-g915-1362-bx70x-c-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 66,
@@ -95839,10 +95023,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Casper",
     "category": "laptops",
     "productType": "Yüksek Performans Oyuncu & İş Laptopu (Excalibur G880 Series)",
-    "image": "/images/products/laptops/casper-excalibur-g880-1362-dn60x-c-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/casper-excalibur-g880-1362-dn60x-c-1.jpg",
-      "https://resim.epey.com/1032347/z_casper-excalibur-g880-1362-dn60x-c-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 66,
@@ -95970,10 +95153,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Casper",
     "category": "laptops",
     "productType": "Yüksek Performans Oyuncu & İş Laptopu (Excalibur G870 Series)",
-    "image": "/images/products/laptops/casper-excalibur-g870-1362-dq70a-c-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/casper-excalibur-g870-1362-dq70a-c-1.jpg",
-      "https://resim.epey.com/1032481/z_casper-excalibur-g870-1265-dqb0a-b-2.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 66,
@@ -96101,10 +95283,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Casper",
     "category": "laptops",
     "productType": "Yüksek Performans Oyuncu & İş Laptopu (Excalibur G915 Series)",
-    "image": "/images/products/laptops/casper-excalibur-g915-240h-dx60x-c-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/casper-excalibur-g915-240h-dx60x-c-1.jpg",
-      "https://resim.epey.com/1056804/z_casper-excalibur-1031325-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 66,
@@ -96232,10 +95413,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Casper",
     "category": "laptops",
     "productType": "Yüksek Performans Oyuncu & İş Laptopu (Excalibur G915 Series)",
-    "image": "/images/products/laptops/casper-excalibur-g915-1362-bq70x-c-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/casper-excalibur-g915-1362-bq70x-c-1.jpg",
-      "https://resim.epey.com/1044551/z_casper-excalibur-g915-1362-bq70x-c-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 66,
@@ -96363,10 +95543,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Casper",
     "category": "laptops",
     "productType": "Yüksek Performans Oyuncu & İş Laptopu (Excalibur G915 Series)",
-    "image": "/images/products/laptops/casper-excalibur-g915-1362-cf70x-c-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/casper-excalibur-g915-1362-cf70x-c-1.jpg",
-      "https://resim.epey.com/1031348/z_casper-excalibur-g915-1362-cf70x-c-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 66,
@@ -96494,10 +95673,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Casper",
     "category": "laptops",
     "productType": "Yüksek Performans Oyuncu & İş Laptopu (Excalibur G870 Series)",
-    "image": "/images/products/laptops/casper-excalibur-g870-210h-dn60a-c-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/casper-excalibur-g870-210h-dn60a-c-1.jpg",
-      "https://resim.epey.com/1046878/z_casper-excalibur-g870-1265-dqb0a-b-2.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 66,
@@ -96625,10 +95803,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Casper",
     "category": "laptops",
     "productType": "Yüksek Performans Oyuncu & İş Laptopu (Excalibur G915 Series)",
-    "image": "/images/products/laptops/casper-excalibur-g915-1362-bf70r-c-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/casper-excalibur-g915-1362-bf70r-c-1.jpg",
-      "https://resim.epey.com/1027619/z_casper-excalibur-g915-1362-bf70r-c-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 66,
@@ -96756,10 +95933,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Casper",
     "category": "laptops",
     "productType": "Yüksek Performans Oyuncu & İş Laptopu (Excalibur G915 Series)",
-    "image": "/images/products/laptops/casper-excalibur-g915-240h-cx60a-c-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/casper-excalibur-g915-240h-cx60a-c-1.jpg",
-      "https://resim.epey.com/1058537/z_casper-excalibur-1031325-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 66,
@@ -96887,10 +96063,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Casper",
     "category": "laptops",
     "productType": "Yüksek Performans Oyuncu & İş Laptopu (Excalibur G915 Series)",
-    "image": "/images/products/laptops/casper-excalibur-g915-1362-bf70a-c-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/casper-excalibur-g915-1362-bf70a-c-1.jpg",
-      "https://resim.epey.com/1029076/z_casper-excalibur-g915-1362-bf70a-c-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 66,
@@ -97018,10 +96193,9 @@ export const mockLaptops: LaptopProduct[] = [
     "brand": "Casper",
     "category": "laptops",
     "productType": "Yüksek Performans Oyuncu & İş Laptopu (Excalibur G915 Series)",
-    "image": "/images/products/laptops/casper-excalibur-g915-240h-dv70a-c-1.jpg",
+    "image": "/images/products/laptops/apple-macbook-air-m3.jpg",
     "images": [
-      "/images/products/laptops/casper-excalibur-g915-240h-dv70a-c-1.jpg",
-      "https://resim.epey.com/1058849/z_casper-excalibur-1031325-1.jpg"
+      "/images/products/laptops/apple-macbook-air-m3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 66,

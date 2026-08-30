@@ -15,9 +15,9 @@ export function Footer() {
           
           {/* Brand Col */}
           <div className="space-y-4">
-            <Link href="/" className="flex items-center gap-2.5">
+            <Link href="/" className="flex items-center gap-2.5" aria-label="aceleEtme Ana Sayfa">
               <div className="w-8 h-8 rounded-full overflow-hidden border border-emerald-500/40 shadow-md ring-1 ring-emerald-400/20 bg-slate-800 flex items-center justify-center">
-                <img src="/emblem.png" alt="Teknik Penguen Logo" className="w-full h-full object-cover" />
+                <img src="/emblem.png" alt="" aria-hidden="true" className="w-full h-full object-cover" />
               </div>
               <span className="text-lg font-extrabold text-white tracking-tight">
                 acele<span className="text-emerald-500">Etme</span>

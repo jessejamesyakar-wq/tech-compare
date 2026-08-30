@@ -1,6 +1,6 @@
-import { TVProduct } from "./types";
+import { TVProduct, Product } from "./types";
 
-export const mockTVs: TVProduct[] = [
+export const mockTVs: Product[] = [
   {
     "id": "lg-55qned81b6a",
     "slug": "lg-55qned81b6a",
@@ -11,9 +11,7 @@ export const mockTVs: TVProduct[] = [
     "isFeatured": false,
     "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg",
-      "/images/products/tvs/lg-55qned81b6a-2.jpg",
-      "https://resim.epey.com/1059869/z_lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 38,
@@ -169,9 +167,9 @@ export const mockTVs: TVProduct[] = [
     "category": "tvs",
     "isPopular": false,
     "isFeatured": false,
-    "image": "https://resim.epey.com/1018010/k_lg-75qned80a6a-8806096446911-8.jpg",
+    "image": "/images/products/tvs/lg-75qned80a6a.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/lg-75qned80a6a.jpg"
     ],
     "rating": 4.5,
     "reviewCount": 180,
@@ -238,9 +236,9 @@ export const mockTVs: TVProduct[] = [
     "category": "tvs",
     "isPopular": true,
     "isFeatured": false,
-    "image": "https://resim.epey.com/1025407/k_lg-75qned82a6b-1.jpg",
+    "image": "/images/products/tvs/lg-75qned82a6b.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/lg-75qned82a6b.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 210,
@@ -307,9 +305,9 @@ export const mockTVs: TVProduct[] = [
     "category": "tvs",
     "isPopular": true,
     "isFeatured": true,
-    "image": "https://resim.epey.com/941366/k_lg-75ut81-75ut81006la-2.jpg",
+    "image": "/images/products/tvs/lg-86ut81006la.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/lg-86ut81006la.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 200,
@@ -376,9 +374,9 @@ export const mockTVs: TVProduct[] = [
     "category": "tvs",
     "isPopular": true,
     "isFeatured": true,
-    "image": "https://resim.epey.com/937409/k_lg-86qned80t-1.jpg",
+    "image": "/images/products/tvs/lg-75qned80t6a.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/lg-75qned80t6a.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 160,
@@ -445,12 +443,9 @@ export const mockTVs: TVProduct[] = [
     "category": "tvs",
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/products/tvs/lg-65qned816qa-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/lg-65qned816qa-1.jpg",
-      "/images/products/tvs/lg-65qned816qa-2.jpg",
-      "/images/products/tvs/lg-65qned816qa-3.jpg",
-      "https://resim.epey.com/776596/z_lg-65qned816qa-6.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.5,
     "reviewCount": 38,
@@ -580,9 +575,9 @@ export const mockTVs: TVProduct[] = [
     "category": "tvs",
     "isPopular": false,
     "isFeatured": false,
-    "image": "https://resim.epey.com/869085/k_lg-75qned816re-1.jpg",
+    "image": "/images/products/tvs/lg-75qned816re.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/lg-75qned816re.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 190,
@@ -649,9 +644,9 @@ export const mockTVs: TVProduct[] = [
     "category": "tvs",
     "isPopular": true,
     "isFeatured": true,
-    "image": "https://resim.epey.com/937407/k_lg-86qned80t-1.jpg",
+    "image": "/images/products/tvs/lg-86qned80t6a.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/lg-86qned80t6a.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 220,
@@ -718,9 +713,9 @@ export const mockTVs: TVProduct[] = [
     "category": "tvs",
     "isPopular": false,
     "isFeatured": false,
-    "image": "https://resim.epey.com/711807/k_lg-55a16-oled55a16la-9.jpg",
+    "image": "/images/products/tvs/lg-oled48a16la.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/lg-oled48a16la.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 310,
@@ -787,9 +782,9 @@ export const mockTVs: TVProduct[] = [
     "category": "tvs",
     "isPopular": true,
     "isFeatured": true,
-    "image": "https://resim.epey.com/941365/k_lg-oled55b46la-1.jpg",
+    "image": "/images/products/tvs/lg-oled65b46la.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/lg-oled65b46la.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 380,
@@ -856,9 +851,9 @@ export const mockTVs: TVProduct[] = [
     "category": "tvs",
     "isPopular": true,
     "isFeatured": true,
-    "image": "https://resim.epey.com/958585/k_lg-98qned89t6a-5.jpg",
+    "image": "/images/products/tvs/lg-98qned89t6a.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/lg-98qned89t6a.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 160,
@@ -925,9 +920,9 @@ export const mockTVs: TVProduct[] = [
     "category": "tvs",
     "isPopular": true,
     "isFeatured": true,
-    "image": "https://resim.epey.com/868531/k_lg-oled55c34la-1.jpg",
+    "image": "/images/products/tvs/lg-oled55c34la.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/lg-oled55c34la.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 580,
@@ -994,9 +989,9 @@ export const mockTVs: TVProduct[] = [
     "category": "tvs",
     "isPopular": true,
     "isFeatured": true,
-    "image": "https://resim.epey.com/873763/k_lg-oled55cs3va-1.jpg",
+    "image": "/images/products/tvs/lg-oled55cs3va.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/lg-oled55cs3va.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 450,
@@ -1063,9 +1058,9 @@ export const mockTVs: TVProduct[] = [
     "category": "tvs",
     "isPopular": true,
     "isFeatured": true,
-    "image": "https://resim.epey.com/1013139/k_lg-oled77b56-oled77b56la-8806096431733-1.jpg",
+    "image": "/images/products/tvs/lg-oled77b56la.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/lg-oled77b56la.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 310,
@@ -1132,9 +1127,9 @@ export const mockTVs: TVProduct[] = [
     "category": "tvs",
     "isPopular": true,
     "isFeatured": false,
-    "image": "https://resim.epey.com/1013855/k_lg-oled83b56la-10.jpg",
+    "image": "/images/products/tvs/lg-oled83b56la.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/lg-oled83b56la.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 220,
@@ -1201,9 +1196,9 @@ export const mockTVs: TVProduct[] = [
     "category": "tvs",
     "isPopular": true,
     "isFeatured": true,
-    "image": "https://resim.epey.com/1013012/k_lg-100qned86a6-3.jpg",
+    "image": "/images/products/tvs/lg-100qned86a6.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/lg-100qned86a6.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 140,
@@ -1270,9 +1265,9 @@ export const mockTVs: TVProduct[] = [
     "category": "tvs",
     "isPopular": true,
     "isFeatured": true,
-    "image": "https://resim.epey.com/1020253/k_lg-oled55c54la-8806096460078-1.jpg",
+    "image": "/images/products/tvs/lg-oled55c54la.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/lg-oled55c54la.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 390,
@@ -1339,9 +1334,9 @@ export const mockTVs: TVProduct[] = [
     "category": "tvs",
     "isPopular": true,
     "isFeatured": true,
-    "image": "https://resim.epey.com/1061777/k_lg-oled55c64la-1.jpg",
+    "image": "/images/products/tvs/lg-oled55c64la.jpg",
     "images": [
-      "https://resim.epey.com/1061777/k_lg-oled55c64la-1.jpg"
+      "/images/products/tvs/lg-oled55c64la.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 560,
@@ -1408,9 +1403,9 @@ export const mockTVs: TVProduct[] = [
     "category": "tvs",
     "isPopular": true,
     "isFeatured": true,
-    "image": "https://resim.epey.com/1066169/k_lg-100qned87b6-8806096851012-1.jpg",
+    "image": "/images/products/tvs/lg-100qned87b6.jpg",
     "images": [
-      "https://resim.epey.com/1066169/k_lg-100qned87b6-8806096851012-1.jpg"
+      "/images/products/tvs/lg-100qned87b6.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 160,
@@ -1477,9 +1472,9 @@ export const mockTVs: TVProduct[] = [
     "category": "tvs",
     "isPopular": true,
     "isFeatured": true,
-    "image": "https://resim.epey.com/1058549/k_lg-oled65c64la-1.jpg",
+    "image": "/images/products/tvs/lg-oled65c64la.jpg",
     "images": [
-      "https://resim.epey.com/1058549/k_lg-oled65c64la-1.jpg"
+      "/images/products/tvs/lg-oled65c64la.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 520,
@@ -1545,9 +1540,9 @@ export const mockTVs: TVProduct[] = [
     "category": "tvs",
     "isPopular": true,
     "isFeatured": true,
-    "image": "https://resim.epey.com/1062112/k_lg-oled97g64lw-1.jpg",
+    "image": "/images/products/tvs/lg-oled65g64lw.jpg",
     "images": [
-      "https://resim.epey.com/1062112/k_lg-oled97g64lw-1.jpg"
+      "/images/products/tvs/lg-oled65g64lw.jpg"
     ],
     "rating": 4.9,
     "reviewCount": 480,
@@ -1613,9 +1608,9 @@ export const mockTVs: TVProduct[] = [
     "category": "tvs",
     "isPopular": true,
     "isFeatured": true,
-    "image": "https://resim.epey.com/1058546/k_lg-oled77c64la-1.jpg",
+    "image": "/images/products/tvs/lg-oled77c64la.jpg",
     "images": [
-      "https://resim.epey.com/1058546/k_lg-oled77c64la-1.jpg"
+      "/images/products/tvs/lg-oled77c64la.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 420,
@@ -1682,9 +1677,9 @@ export const mockTVs: TVProduct[] = [
     "category": "tvs",
     "isPopular": true,
     "isFeatured": true,
-    "image": "https://resim.epey.com/1061935/k_lg-oled97g64lw-1.jpg",
+    "image": "/images/products/tvs/lg-oled77g64lw.jpg",
     "images": [
-      "https://resim.epey.com/1061935/k_lg-oled97g64lw-1.jpg"
+      "/images/products/tvs/lg-oled77g64lw.jpg"
     ],
     "rating": 4.9,
     "reviewCount": 350,
@@ -1751,9 +1746,9 @@ export const mockTVs: TVProduct[] = [
     "category": "tvs",
     "isPopular": true,
     "isFeatured": true,
-    "image": "https://resim.epey.com/1066898/k_lg-oled77w69la-8806096851005-8.jpg",
+    "image": "/images/products/tvs/lg-oled77w69la.jpg",
     "images": [
-      "https://resim.epey.com/1066898/k_lg-oled77w69la-8806096851005-8.jpg"
+      "/images/products/tvs/lg-oled77w69la.jpg"
     ],
     "rating": 4.9,
     "reviewCount": 210,
@@ -1819,9 +1814,9 @@ export const mockTVs: TVProduct[] = [
     "category": "tvs",
     "isPopular": true,
     "isFeatured": true,
-    "image": "https://resim.epey.com/1030997/k_lg-oled83m59la-8806096467930-1.jpg",
+    "image": "/images/products/tvs/lg-oled83m59la.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/lg-oled83m59la.jpg"
     ],
     "rating": 4.9,
     "reviewCount": 195,
@@ -1887,9 +1882,9 @@ export const mockTVs: TVProduct[] = [
     "category": "tvs",
     "isPopular": true,
     "isFeatured": false,
-    "image": "https://resim.epey.com/1012562/k_lg-oled83g55lw-4.jpg",
+    "image": "/images/products/tvs/lg-oled83g55lw.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/lg-oled83g55lw.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 260,
@@ -1955,9 +1950,9 @@ export const mockTVs: TVProduct[] = [
     "category": "tvs",
     "isPopular": true,
     "isFeatured": true,
-    "image": "https://resim.epey.com/1062724/k_lg-oled83g64lw-8806096749159-1.jpg",
+    "image": "/images/products/tvs/lg-oled83g64lw.jpg",
     "images": [
-      "https://resim.epey.com/1062724/k_lg-oled83g64lw-8806096749159-1.jpg"
+      "/images/products/tvs/lg-oled83g64lw.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 290,
@@ -2024,9 +2019,9 @@ export const mockTVs: TVProduct[] = [
     "category": "tvs",
     "isPopular": true,
     "isFeatured": false,
-    "image": "https://resim.epey.com/1039970/k_lg-oled97g54lw-1.jpg",
+    "image": "/images/products/tvs/lg-oled97g54lw.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/lg-oled97g54lw.jpg"
     ],
     "rating": 4.9,
     "reviewCount": 380,
@@ -2093,9 +2088,9 @@ export const mockTVs: TVProduct[] = [
     "category": "tvs",
     "isPopular": true,
     "isFeatured": true,
-    "image": "https://resim.epey.com/1058564/k_lg-oled97g64lw-1.jpg",
+    "image": "/images/products/tvs/lg-oled97g64lw.jpg",
     "images": [
-      "https://resim.epey.com/1058564/k_lg-oled97g64lw-1.jpg"
+      "/images/products/tvs/lg-oled97g64lw.jpg"
     ],
     "rating": 4.9,
     "reviewCount": 412,
@@ -2192,7 +2187,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://www.lg.com/content/dam/channel/wcms/1-channel/tr/ms/lgcom/2026/tv-audio-video/tv/oled-evo/c6/gp1/gallery/newadd/450.jpg/jcr:content/renditions/thum-350x350.jpeg",
+    "image": "/images/products/tvs/lg-83-oled83c6elb.jpg",
     "storeOffers": [
       {
         "id": "offer-lg-lg-83-oled83c6elb-1",
@@ -2277,7 +2272,10 @@ export const mockTVs: TVProduct[] = [
       "usbPorts": 2,
       "energyClass": "D"
     },
-    "epeyScore": 99
+    "epeyScore": 99,
+    "images": [
+      "/images/products/tvs/lg-83-oled83c6elb.jpg"
+    ]
   },
   {
     "id": "lg-77-oled77c6elb",
@@ -2302,7 +2300,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://www.lg.com/content/dam/channel/wcms/1-channel/tr/ms/lgcom/2026/tv-audio-video/tv/oled-evo/c6/gp1/gallery/newadd/450.jpg/jcr:content/renditions/thum-350x350.jpeg",
+    "image": "/images/products/tvs/lg-77-oled77c6elb.jpg",
     "storeOffers": [
       {
         "id": "offer-lg-lg-77-oled77c6elb-1",
@@ -2387,7 +2385,10 @@ export const mockTVs: TVProduct[] = [
       "usbPorts": 2,
       "energyClass": "D"
     },
-    "epeyScore": 99
+    "epeyScore": 99,
+    "images": [
+      "/images/products/tvs/lg-77-oled77c6elb.jpg"
+    ]
   },
   {
     "id": "lg-65-oled65c6elb",
@@ -2412,7 +2413,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://www.lg.com/content/dam/channel/wcms/1-channel/tr/ms/lgcom/2026/tv-audio-video/tv/oled-evo/c6/gp1/gallery/newadd/450.jpg/jcr:content/renditions/thum-350x350.jpeg",
+    "image": "/images/products/tvs/lg-65-oled65c6elb.jpg",
     "storeOffers": [
       {
         "id": "offer-lg-lg-65-oled65c6elb-1",
@@ -2497,7 +2498,10 @@ export const mockTVs: TVProduct[] = [
       "usbPorts": 2,
       "energyClass": "D"
     },
-    "epeyScore": 99
+    "epeyScore": 99,
+    "images": [
+      "/images/products/tvs/lg-65-oled65c6elb.jpg"
+    ]
   },
   {
     "id": "lg-55-oled55c6elb",
@@ -2522,7 +2526,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://www.lg.com/content/dam/channel/wcms/1-channel/tr/ms/lgcom/2026/tv-audio-video/tv/oled-evo/c6/gp1/gallery/newadd/450.jpg/jcr:content/renditions/thum-350x350.jpeg",
+    "image": "/images/products/tvs/lg-55-oled55c6elb.jpg",
     "storeOffers": [
       {
         "id": "offer-lg-lg-55-oled55c6elb-1",
@@ -2607,7 +2611,10 @@ export const mockTVs: TVProduct[] = [
       "usbPorts": 2,
       "energyClass": "G"
     },
-    "epeyScore": 98
+    "epeyScore": 98,
+    "images": [
+      "/images/products/tvs/lg-55-oled55c6elb.jpg"
+    ]
   },
   {
     "id": "lg-48-oled48c6elb",
@@ -2632,7 +2639,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://www.lg.com/content/dam/channel/wcms/1-channel/tr/ms/lgcom/2026/tv-audio-video/tv/oled-evo/c6/gp1/gallery/newadd/450.jpg/jcr:content/renditions/thum-350x350.jpeg",
+    "image": "/images/products/tvs/lg-48-oled48c6elb.jpg",
     "storeOffers": [
       {
         "id": "offer-lg-lg-48-oled48c6elb-1",
@@ -2717,7 +2724,10 @@ export const mockTVs: TVProduct[] = [
       "usbPorts": 2,
       "energyClass": "G"
     },
-    "epeyScore": 98
+    "epeyScore": 98,
+    "images": [
+      "/images/products/tvs/lg-48-oled48c6elb.jpg"
+    ]
   },
   {
     "id": "lg-83-oled83c64la",
@@ -2742,7 +2752,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://resim.epey.com/1062662/k_lg-oled77c64la-1.jpg",
+    "image": "/images/products/tvs/lg-83-oled83c64la.jpg",
     "storeOffers": [
       {
         "id": "offer-lg-83-oled83c64la-lg",
@@ -2828,7 +2838,10 @@ export const mockTVs: TVProduct[] = [
       "usbPorts": 3,
       "energyClass": "F"
     },
-    "epeyScore": 99
+    "epeyScore": 99,
+    "images": [
+      "/images/products/tvs/lg-83-oled83c64la.jpg"
+    ]
   },
   {
     "id": "lg-77-oled77c64la",
@@ -2853,7 +2866,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://resim.epey.com/1058546/k_lg-oled77c64la-1.jpg",
+    "image": "/images/products/tvs/lg-77-oled77c64la.jpg",
     "storeOffers": [
       {
         "id": "offer-lg-77-oled77c64la-lg",
@@ -2939,7 +2952,10 @@ export const mockTVs: TVProduct[] = [
       "usbPorts": 3,
       "energyClass": "F"
     },
-    "epeyScore": 99
+    "epeyScore": 99,
+    "images": [
+      "/images/products/tvs/lg-77-oled77c64la.jpg"
+    ]
   },
   {
     "id": "lg-65-oled65c64la",
@@ -2964,7 +2980,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://resim.epey.com/1058549/k_lg-oled65c64la-1.jpg",
+    "image": "/images/products/tvs/lg-65-oled65c64la.jpg",
     "storeOffers": [
       {
         "id": "offer-lg-65-oled65c64la-lg",
@@ -3050,7 +3066,10 @@ export const mockTVs: TVProduct[] = [
       "usbPorts": 3,
       "energyClass": "F"
     },
-    "epeyScore": 97
+    "epeyScore": 97,
+    "images": [
+      "/images/products/tvs/lg-65-oled65c64la.jpg"
+    ]
   },
   {
     "id": "lg-55-oled55c64la",
@@ -3075,7 +3094,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://resim.epey.com/1061777/k_lg-oled55c64la-1.jpg",
+    "image": "/images/products/tvs/lg-55-oled55c64la.jpg",
     "storeOffers": [
       {
         "id": "offer-lg-55-oled55c64la-lg",
@@ -3161,7 +3180,10 @@ export const mockTVs: TVProduct[] = [
       "usbPorts": 3,
       "energyClass": "F"
     },
-    "epeyScore": 95
+    "epeyScore": 95,
+    "images": [
+      "/images/products/tvs/lg-55-oled55c64la.jpg"
+    ]
   },
   {
     "id": "lg-77-oled77b65la",
@@ -3186,7 +3208,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://resim.epey.com/1062021/k_lg-oled77b65la-4.jpg",
+    "image": "/images/products/tvs/lg-77-oled77b65la.jpg",
     "storeOffers": [
       {
         "id": "offer-lg-77-oled77b65la-lg",
@@ -3272,7 +3294,10 @@ export const mockTVs: TVProduct[] = [
       "usbPorts": 3,
       "energyClass": "F"
     },
-    "epeyScore": 96
+    "epeyScore": 96,
+    "images": [
+      "/images/products/tvs/lg-77-oled77b65la.jpg"
+    ]
   },
   {
     "id": "lg-65-oled65b65la",
@@ -3297,7 +3322,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://resim.epey.com/1058551/k_lg-oled65b65la-1.jpg",
+    "image": "/images/products/tvs/lg-65-oled65b65la.jpg",
     "storeOffers": [
       {
         "id": "offer-lg-lg-65-oled65b65la-1",
@@ -3382,7 +3407,10 @@ export const mockTVs: TVProduct[] = [
       "usbPorts": 2,
       "energyClass": "F"
     },
-    "epeyScore": 96
+    "epeyScore": 96,
+    "images": [
+      "/images/products/tvs/lg-65-oled65b65la.jpg"
+    ]
   },
   {
     "id": "lg-55-oled55b65la",
@@ -3407,7 +3435,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://resim.epey.com/1061938/k_lg-oled55b65la-8806096774304-2.jpg",
+    "image": "/images/products/tvs/lg-55-oled55b65la.jpg",
     "storeOffers": [
       {
         "id": "offer-lg-lg-55-oled55b65la-1",
@@ -3492,7 +3520,10 @@ export const mockTVs: TVProduct[] = [
       "usbPorts": 2,
       "energyClass": "F"
     },
-    "epeyScore": 94
+    "epeyScore": 94,
+    "images": [
+      "/images/products/tvs/lg-55-oled55b65la.jpg"
+    ]
   },
   {
     "id": "lg-85-85qned81b6a",
@@ -3517,7 +3548,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://resim.epey.com/1062665/k_lg-85qned81b6a-1.jpg",
+    "image": "/images/products/tvs/lg-85-85qned81b6a.jpg",
     "storeOffers": [
       {
         "id": "offer-lg-lg-85-85qned81b6a-1",
@@ -3602,7 +3633,10 @@ export const mockTVs: TVProduct[] = [
       "usbPorts": 2,
       "energyClass": "F"
     },
-    "epeyScore": 81
+    "epeyScore": 81,
+    "images": [
+      "/images/products/tvs/lg-85-85qned81b6a.jpg"
+    ]
   },
   {
     "id": "lg-75-75qned81b6a",
@@ -3627,7 +3661,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://resim.epey.com/1062935/k_lg-75qned81b6a-1.jpg",
+    "image": "/images/products/tvs/lg-75-75qned81b6a.jpg",
     "storeOffers": [
       {
         "id": "offer-lg-lg-75-75qned81b6a-1",
@@ -3712,7 +3746,10 @@ export const mockTVs: TVProduct[] = [
       "usbPorts": 2,
       "energyClass": "F"
     },
-    "epeyScore": 79
+    "epeyScore": 79,
+    "images": [
+      "/images/products/tvs/lg-75-75qned81b6a.jpg"
+    ]
   },
   {
     "id": "lg-65-65qned81b6a",
@@ -3737,7 +3774,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://resim.epey.com/1058534/k_lg-65qned81b6a-1.jpg",
+    "image": "/images/products/tvs/lg-65-65qned81b6a.jpg",
     "storeOffers": [
       {
         "id": "offer-lg-lg-65-65qned81b6a-1",
@@ -3822,7 +3859,10 @@ export const mockTVs: TVProduct[] = [
       "usbPorts": 2,
       "energyClass": "F"
     },
-    "epeyScore": 77
+    "epeyScore": 77,
+    "images": [
+      "/images/products/tvs/lg-65-65qned81b6a.jpg"
+    ]
   },
   {
     "id": "lg-55-55qned81b6a",
@@ -3847,7 +3887,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://www.lg.com/content/dam/channel/wcms/1-channel/tr/ms/lgcom/2026/tv-audio-video/tv/qned-evo/qned80/gp1-v1-00/gp1/gallery/65-qned80/gallery/lg-qned-evo-qned81_8eb-2026-65-basic-01-product-front-usp.jpg/jcr:content/renditions/thum-350x350.jpeg",
+    "image": "/images/products/tvs/lg-55-55qned81b6a.jpg",
     "storeOffers": [
       {
         "id": "offer-lg-lg-55-55qned81b6a-1",
@@ -3932,7 +3972,10 @@ export const mockTVs: TVProduct[] = [
       "usbPorts": 2,
       "energyClass": "E"
     },
-    "epeyScore": 75
+    "epeyScore": 75,
+    "images": [
+      "/images/products/tvs/lg-55-55qned81b6a.jpg"
+    ]
   },
   {
     "id": "lg-85-85qned8eb3a",
@@ -3957,7 +4000,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://www.lg.com/content/dam/channel/wcms/1-channel/tr/ms/lgcom/2026/tv-audio-video/tv/qned-evo/qned80/gp1/gallery/85-qned80/gallery/lg-qned-evo-qned81_8eb-2026-85-basic-01-product-front-usp.jpg/jcr:content/renditions/thum-350x350.jpeg",
+    "image": "/images/products/tvs/lg-85-85qned8eb3a.jpg",
     "storeOffers": [
       {
         "id": "offer-lg-lg-85-85qned8eb3a-1",
@@ -4042,7 +4085,10 @@ export const mockTVs: TVProduct[] = [
       "usbPorts": 2,
       "energyClass": "F"
     },
-    "epeyScore": 81
+    "epeyScore": 81,
+    "images": [
+      "/images/products/tvs/lg-85-85qned8eb3a.jpg"
+    ]
   },
   {
     "id": "lg-75-75qned8eb3a",
@@ -4067,7 +4113,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://www.lg.com/content/dam/channel/wcms/1-channel/tr/ms/lgcom/2026/tv-audio-video/tv/qned-evo/qned80/gp1/gallery/85-qned80/gallery/lg-qned-evo-qned81_8eb-2026-85-basic-01-product-front-usp.jpg/jcr:content/renditions/thum-350x350.jpeg",
+    "image": "/images/products/tvs/lg-75-75qned8eb3a.jpg",
     "storeOffers": [
       {
         "id": "offer-lg-lg-75-75qned8eb3a-1",
@@ -4152,7 +4198,10 @@ export const mockTVs: TVProduct[] = [
       "usbPorts": 2,
       "energyClass": "F"
     },
-    "epeyScore": 79
+    "epeyScore": 79,
+    "images": [
+      "/images/products/tvs/lg-75-75qned8eb3a.jpg"
+    ]
   },
   {
     "id": "lg-65-65qned8eb3b",
@@ -4177,7 +4226,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://www.lg.com/content/dam/channel/wcms/1-channel/tr/ms/lgcom/2026/tv-audio-video/tv/qned-evo/qned80/gp1/gallery/85-qned80/gallery/lg-qned-evo-qned81_8eb-2026-85-basic-01-product-front-usp.jpg/jcr:content/renditions/thum-350x350.jpeg",
+    "image": "/images/products/tvs/lg-65-65qned8eb3b.jpg",
     "storeOffers": [
       {
         "id": "offer-lg-lg-65-65qned8eb3b-1",
@@ -4262,7 +4311,10 @@ export const mockTVs: TVProduct[] = [
       "usbPorts": 2,
       "energyClass": "E"
     },
-    "epeyScore": 77
+    "epeyScore": 77,
+    "images": [
+      "/images/products/tvs/lg-65-65qned8eb3b.jpg"
+    ]
   },
   {
     "id": "lg-55-55qned8eb3b",
@@ -4287,7 +4339,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://www.lg.com/content/dam/channel/wcms/1-channel/tr/ms/lgcom/2026/tv-audio-video/tv/qned-evo/qned80/gp1/gallery/85-qned80/gallery/lg-qned-evo-qned81_8eb-2026-85-basic-01-product-front-usp.jpg/jcr:content/renditions/thum-350x350.jpeg",
+    "image": "/images/products/tvs/lg-55-55qned8eb3b.jpg",
     "storeOffers": [
       {
         "id": "offer-lg-lg-55-55qned8eb3b-1",
@@ -4372,7 +4424,10 @@ export const mockTVs: TVProduct[] = [
       "usbPorts": 2,
       "energyClass": "E"
     },
-    "epeyScore": 75
+    "epeyScore": 75,
+    "images": [
+      "/images/products/tvs/lg-55-55qned8eb3b.jpg"
+    ]
   },
   {
     "id": "lg-75-75nu900b6la",
@@ -4397,7 +4452,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://resim.epey.com/1058392/k_lg-75nu900b6la-7.jpg",
+    "image": "/images/products/tvs/lg-75-75nu900b6la.jpg",
     "storeOffers": [
       {
         "id": "offer-lg-lg-75-75nu900b6la-1",
@@ -4482,7 +4537,10 @@ export const mockTVs: TVProduct[] = [
       "usbPorts": 2,
       "energyClass": "F"
     },
-    "epeyScore": 61
+    "epeyScore": 61,
+    "images": [
+      "/images/products/tvs/lg-75-75nu900b6la.jpg"
+    ]
   },
   {
     "id": "lg-65-65nu900b6la",
@@ -4507,7 +4565,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://resim.epey.com/1058404/k_lg-65nu900b6la-7.jpg",
+    "image": "/images/products/tvs/lg-65-65nu900b6la.jpg",
     "storeOffers": [
       {
         "id": "offer-lg-lg-65-65nu900b6la-1",
@@ -4592,7 +4650,10 @@ export const mockTVs: TVProduct[] = [
       "usbPorts": 2,
       "energyClass": "F"
     },
-    "epeyScore": 59
+    "epeyScore": 59,
+    "images": [
+      "/images/products/tvs/lg-65-65nu900b6la.jpg"
+    ]
   },
   {
     "id": "lg-55-55nu900b6la",
@@ -4617,7 +4678,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://resim.epey.com/1058414/k_lg-55nu900b6la-7.jpg",
+    "image": "/images/products/tvs/lg-55-55nu900b6la.jpg",
     "storeOffers": [
       {
         "id": "offer-lg-lg-55-55nu900b6la-1",
@@ -4702,7 +4763,10 @@ export const mockTVs: TVProduct[] = [
       "usbPorts": 2,
       "energyClass": "E"
     },
-    "epeyScore": 57
+    "epeyScore": 57,
+    "images": [
+      "/images/products/tvs/lg-55-55nu900b6la.jpg"
+    ]
   },
   {
     "id": "lg-50-50nu900b6la",
@@ -4727,7 +4791,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://resim.epey.com/1058557/k_lg-55nu900b6la-7.jpg",
+    "image": "/images/products/tvs/lg-50-50nu900b6la.jpg",
     "storeOffers": [
       {
         "id": "offer-lg-lg-50-50nu900b6la-1",
@@ -4812,7 +4876,10 @@ export const mockTVs: TVProduct[] = [
       "usbPorts": 2,
       "energyClass": "E"
     },
-    "epeyScore": 57
+    "epeyScore": 57,
+    "images": [
+      "/images/products/tvs/lg-50-50nu900b6la.jpg"
+    ]
   },
   {
     "id": "lg-85-85qned70b6a",
@@ -4837,7 +4904,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://resim.epey.com/1058487/k_lg-85qned70b6a-7.jpg",
+    "image": "/images/products/tvs/lg-85-85qned70b6a.jpg",
     "storeOffers": [
       {
         "id": "offer-lg-lg-85-85qned70b6a-1",
@@ -4922,7 +4989,10 @@ export const mockTVs: TVProduct[] = [
       "usbPorts": 2,
       "energyClass": "E"
     },
-    "epeyScore": 81
+    "epeyScore": 81,
+    "images": [
+      "/images/products/tvs/lg-85-85qned70b6a.jpg"
+    ]
   },
   {
     "id": "lg-65-65qned7eb3c",
@@ -4947,7 +5017,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://resim.epey.com/1064327/k_lg-65qned7eb3c-1.jpg",
+    "image": "/images/products/tvs/lg-65-65qned7eb3c.jpg",
     "storeOffers": [
       {
         "id": "offer-lg-lg-65-65qned7eb3c-1",
@@ -5032,7 +5102,10 @@ export const mockTVs: TVProduct[] = [
       "usbPorts": 2,
       "energyClass": "E"
     },
-    "epeyScore": 77
+    "epeyScore": 77,
+    "images": [
+      "/images/products/tvs/lg-65-65qned7eb3c.jpg"
+    ]
   },
   {
     "id": "lg-55-55qned7eb3c",
@@ -5057,7 +5130,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://www.lg.com/content/dam/channel/wcms/1-channel/tr/ms/lgcom/2026/tv-audio-video/tv/qned/qned70/gp1/gallery/85-qned70/basic/lg-qned-qned70-2026-85-gallery-basic.jpg/jcr:content/renditions/thum-350x350.jpeg",
+    "image": "/images/products/tvs/lg-55-55qned7eb3c.jpg",
     "storeOffers": [
       {
         "id": "offer-lg-lg-55-55qned7eb3c-1",
@@ -5142,7 +5215,10 @@ export const mockTVs: TVProduct[] = [
       "usbPorts": 2,
       "energyClass": "E"
     },
-    "epeyScore": 75
+    "epeyScore": 75,
+    "images": [
+      "/images/products/tvs/lg-55-55qned7eb3c.jpg"
+    ]
   },
   {
     "id": "lg-50-50qned70b6c",
@@ -5167,7 +5243,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://www.lg.com/content/dam/channel/wcms/1-channel/tr/ms/lgcom/2026/tv-audio-video/tv/qned/qned70/gp1/gallery/85-qned70/basic/lg-qned-qned70-2026-85-gallery-basic.jpg/jcr:content/renditions/thum-350x350.jpeg",
+    "image": "/images/products/tvs/lg-50-50qned70b6c.jpg",
     "storeOffers": [
       {
         "id": "offer-lg-lg-50-50qned70b6c-1",
@@ -5252,7 +5328,10 @@ export const mockTVs: TVProduct[] = [
       "usbPorts": 2,
       "energyClass": "E"
     },
-    "epeyScore": 75
+    "epeyScore": 75,
+    "images": [
+      "/images/products/tvs/lg-50-50qned70b6c.jpg"
+    ]
   },
   {
     "id": "lg-85-85nu8e0b3la",
@@ -5277,7 +5356,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://www.lg.com/content/dam/channel/wcms/1-channel/tr/ms/lgcom/2026/tv-audio-video/tv/nano-4k-uhd/nu85/gp1/gallery/50-nu85/basic/lg-nano-4k-uhd-nu85-2026-50-gallery-basic.jpg/jcr:content/renditions/thum-350x350.jpeg",
+    "image": "/images/products/tvs/lg-85-85nu8e0b3la.jpg",
     "storeOffers": [
       {
         "id": "offer-lg-lg-85-85nu8e0b3la-1",
@@ -5362,7 +5441,10 @@ export const mockTVs: TVProduct[] = [
       "usbPorts": 2,
       "energyClass": "F"
     },
-    "epeyScore": 63
+    "epeyScore": 63,
+    "images": [
+      "/images/products/tvs/lg-85-85nu8e0b3la.jpg"
+    ]
   },
   {
     "id": "lg-75-75nu8e0b3la",
@@ -5387,7 +5469,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://www.lg.com/content/dam/channel/wcms/1-channel/tr/ms/lgcom/2026/tv-audio-video/tv/nano-4k-uhd/nu85/gp1/gallery/50-nu85/basic/lg-nano-4k-uhd-nu85-2026-50-gallery-basic.jpg/jcr:content/renditions/thum-350x350.jpeg",
+    "image": "/images/products/tvs/lg-75-75nu8e0b3la.jpg",
     "storeOffers": [
       {
         "id": "offer-lg-lg-75-75nu8e0b3la-1",
@@ -5472,7 +5554,10 @@ export const mockTVs: TVProduct[] = [
       "usbPorts": 2,
       "energyClass": "F"
     },
-    "epeyScore": 61
+    "epeyScore": 61,
+    "images": [
+      "/images/products/tvs/lg-75-75nu8e0b3la.jpg"
+    ]
   },
   {
     "id": "lg-65-65nu8e0b3la",
@@ -5497,7 +5582,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://www.lg.com/content/dam/channel/wcms/1-channel/tr/ms/lgcom/2026/tv-audio-video/tv/nano-4k-uhd/nu85/gp1/gallery/50-nu85/basic/lg-nano-4k-uhd-nu85-2026-50-gallery-basic.jpg/jcr:content/renditions/thum-350x350.jpeg",
+    "image": "/images/products/tvs/lg-65-65nu8e0b3la.jpg",
     "storeOffers": [
       {
         "id": "offer-lg-lg-65-65nu8e0b3la-1",
@@ -5582,7 +5667,10 @@ export const mockTVs: TVProduct[] = [
       "usbPorts": 2,
       "energyClass": "F"
     },
-    "epeyScore": 59
+    "epeyScore": 59,
+    "images": [
+      "/images/products/tvs/lg-65-65nu8e0b3la.jpg"
+    ]
   },
   {
     "id": "lg-55-55nu8e0b3la",
@@ -5607,7 +5695,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://www.lg.com/content/dam/channel/wcms/1-channel/tr/ms/lgcom/2026/tv-audio-video/tv/nano-4k-uhd/nu85/gp1/gallery/50-nu85/basic/lg-nano-4k-uhd-nu85-2026-50-gallery-basic.jpg/jcr:content/renditions/thum-350x350.jpeg",
+    "image": "/images/products/tvs/lg-55-55nu8e0b3la.jpg",
     "storeOffers": [
       {
         "id": "offer-lg-lg-55-55nu8e0b3la-1",
@@ -5692,7 +5780,10 @@ export const mockTVs: TVProduct[] = [
       "usbPorts": 2,
       "energyClass": "F"
     },
-    "epeyScore": 57
+    "epeyScore": 57,
+    "images": [
+      "/images/products/tvs/lg-55-55nu8e0b3la.jpg"
+    ]
   },
   {
     "id": "lg-50-50nu8e0b3la",
@@ -5717,7 +5808,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://www.lg.com/content/dam/channel/wcms/1-channel/tr/ms/lgcom/2026/tv-audio-video/tv/nano-4k-uhd/nu85/gp1/gallery/50-nu85/basic/lg-nano-4k-uhd-nu85-2026-50-gallery-basic.jpg/jcr:content/renditions/thum-350x350.jpeg",
+    "image": "/images/products/tvs/lg-50-50nu8e0b3la.jpg",
     "storeOffers": [
       {
         "id": "offer-lg-lg-50-50nu8e0b3la-1",
@@ -5802,7 +5893,10 @@ export const mockTVs: TVProduct[] = [
       "usbPorts": 2,
       "energyClass": "F"
     },
-    "epeyScore": 57
+    "epeyScore": 57,
+    "images": [
+      "/images/products/tvs/lg-50-50nu8e0b3la.jpg"
+    ]
   },
   {
     "id": "lg-97-oled97g64lw",
@@ -5827,7 +5921,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://resim.epey.com/1058564/k_lg-oled97g64lw-1.jpg",
+    "image": "/images/products/tvs/lg-97-oled97g64lw.jpg",
     "storeOffers": [
       {
         "id": "offer-lg-97-oled97g64lw-lg",
@@ -5913,7 +6007,10 @@ export const mockTVs: TVProduct[] = [
       "usbPorts": 3,
       "energyClass": "F"
     },
-    "epeyScore": 99
+    "epeyScore": 99,
+    "images": [
+      "/images/products/tvs/lg-97-oled97g64lw.jpg"
+    ]
   },
   {
     "id": "lg-97-oled97g54lw",
@@ -5938,7 +6035,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://resim.epey.com/1039970/k_lg-oled97g54lw-1.jpg",
+    "image": "/images/products/tvs/lg-97-oled97g54lw.jpg",
     "storeOffers": [
       {
         "id": "offer-lg-97-oled97g54lw-lg",
@@ -6024,7 +6121,10 @@ export const mockTVs: TVProduct[] = [
       "usbPorts": 3,
       "energyClass": "F"
     },
-    "epeyScore": 99
+    "epeyScore": 99,
+    "images": [
+      "/images/products/tvs/lg-97-oled97g54lw.jpg"
+    ]
   },
   {
     "id": "lg-83-oled83g64lw",
@@ -6049,7 +6149,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://resim.epey.com/1062724/k_lg-oled83g64lw-8806096749159-1.jpg",
+    "image": "/images/products/tvs/lg-83-oled83g64lw.jpg",
     "storeOffers": [
       {
         "id": "offer-lg-83-oled83g64lw-lg",
@@ -6135,7 +6235,10 @@ export const mockTVs: TVProduct[] = [
       "usbPorts": 3,
       "energyClass": "F"
     },
-    "epeyScore": 99
+    "epeyScore": 99,
+    "images": [
+      "/images/products/tvs/lg-83-oled83g64lw.jpg"
+    ]
   },
   {
     "id": "lg-83-oled83g55lw",
@@ -6160,7 +6263,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://resim.epey.com/1012562/k_lg-oled83g55lw-4.jpg",
+    "image": "/images/products/tvs/lg-83-oled83g55lw.jpg",
     "storeOffers": [
       {
         "id": "offer-lg-83-oled83g55lw-lg",
@@ -6246,7 +6349,10 @@ export const mockTVs: TVProduct[] = [
       "usbPorts": 3,
       "energyClass": "F"
     },
-    "epeyScore": 99
+    "epeyScore": 99,
+    "images": [
+      "/images/products/tvs/lg-83-oled83g55lw.jpg"
+    ]
   },
   {
     "id": "lg-83-oled83m59la",
@@ -6271,7 +6377,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://resim.epey.com/1030997/k_lg-oled83m59la-8806096467930-1.jpg",
+    "image": "/images/products/tvs/lg-83-oled83m59la.jpg",
     "storeOffers": [
       {
         "id": "offer-lg-83-oled83m59la-lg",
@@ -6357,7 +6463,10 @@ export const mockTVs: TVProduct[] = [
       "usbPorts": 3,
       "energyClass": "F"
     },
-    "epeyScore": 99
+    "epeyScore": 99,
+    "images": [
+      "/images/products/tvs/lg-83-oled83m59la.jpg"
+    ]
   },
   {
     "id": "lg-77-oled77w69la",
@@ -6382,7 +6491,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://resim.epey.com/1066898/k_lg-oled77w69la-8806096851005-8.jpg",
+    "image": "/images/products/tvs/lg-77-oled77w69la.jpg",
     "storeOffers": [
       {
         "id": "offer-lg-77-oled77w69la-lg",
@@ -6468,7 +6577,10 @@ export const mockTVs: TVProduct[] = [
       "usbPorts": 3,
       "energyClass": "F"
     },
-    "epeyScore": 99
+    "epeyScore": 99,
+    "images": [
+      "/images/products/tvs/lg-77-oled77w69la.jpg"
+    ]
   },
   {
     "id": "lg-77-oled77g64lw",
@@ -6493,7 +6605,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://resim.epey.com/1061935/k_lg-oled97g64lw-1.jpg",
+    "image": "/images/products/tvs/lg-77-oled77g64lw.jpg",
     "storeOffers": [
       {
         "id": "offer-lg-77-oled77g64lw-lg",
@@ -6579,7 +6691,10 @@ export const mockTVs: TVProduct[] = [
       "usbPorts": 3,
       "energyClass": "F"
     },
-    "epeyScore": 99
+    "epeyScore": 99,
+    "images": [
+      "/images/products/tvs/lg-77-oled77g64lw.jpg"
+    ]
   },
   {
     "id": "lg-77-oled77g55lw",
@@ -6604,7 +6719,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://resim.epey.com/1012508/k_lg-oled77g55lw-3.jpg",
+    "image": "/images/products/tvs/lg-77-oled77g55lw.jpg",
     "storeOffers": [
       {
         "id": "offer-lg-77-oled77g55lw-lg",
@@ -6690,7 +6805,10 @@ export const mockTVs: TVProduct[] = [
       "usbPorts": 3,
       "energyClass": "F"
     },
-    "epeyScore": 99
+    "epeyScore": 99,
+    "images": [
+      "/images/products/tvs/lg-77-oled77g55lw.jpg"
+    ]
   },
   {
     "id": "lg-77-oled77m59la",
@@ -6715,7 +6833,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://resim.epey.com/1030998/k_lg-oled77m59la-12.jpg",
+    "image": "/images/products/tvs/lg-77-oled77m59la.jpg",
     "storeOffers": [
       {
         "id": "offer-lg-77-oled77m59la-lg",
@@ -6801,7 +6919,10 @@ export const mockTVs: TVProduct[] = [
       "usbPorts": 3,
       "energyClass": "F"
     },
-    "epeyScore": 99
+    "epeyScore": 99,
+    "images": [
+      "/images/products/tvs/lg-77-oled77m59la.jpg"
+    ]
   },
   {
     "id": "lg-83-oled83c54la",
@@ -6826,7 +6947,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://resim.epey.com/1013878/k_lg-oled83c54la-9.jpg",
+    "image": "/images/products/tvs/lg-83-oled83c54la.jpg",
     "storeOffers": [
       {
         "id": "offer-lg-83-oled83c54la-lg",
@@ -6912,7 +7033,10 @@ export const mockTVs: TVProduct[] = [
       "usbPorts": 3,
       "energyClass": "F"
     },
-    "epeyScore": 98
+    "epeyScore": 98,
+    "images": [
+      "/images/products/tvs/lg-83-oled83c54la.jpg"
+    ]
   },
   {
     "id": "lg-65-oled65g64lw",
@@ -6937,7 +7061,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://resim.epey.com/1062112/k_lg-oled97g64lw-1.jpg",
+    "image": "/images/products/tvs/lg-65-oled65g64lw.jpg",
     "storeOffers": [
       {
         "id": "offer-lg-65-oled65g64lw-lg",
@@ -7023,7 +7147,10 @@ export const mockTVs: TVProduct[] = [
       "usbPorts": 3,
       "energyClass": "F"
     },
-    "epeyScore": 99
+    "epeyScore": 99,
+    "images": [
+      "/images/products/tvs/lg-65-oled65g64lw.jpg"
+    ]
   },
   {
     "id": "lg-77-oled77c54la",
@@ -7048,7 +7175,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://resim.epey.com/1013138/k_lg-oled77c54-oled77c54la-8806096431740-9.jpg",
+    "image": "/images/products/tvs/lg-77-oled77c54la.jpg",
     "storeOffers": [
       {
         "id": "offer-lg-77-oled77c54la-lg",
@@ -7134,7 +7261,10 @@ export const mockTVs: TVProduct[] = [
       "usbPorts": 3,
       "energyClass": "F"
     },
-    "epeyScore": 98
+    "epeyScore": 98,
+    "images": [
+      "/images/products/tvs/lg-77-oled77c54la.jpg"
+    ]
   },
   {
     "id": "lg-65-oled65g55lw",
@@ -7159,7 +7289,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://resim.epey.com/1012561/k_lg-oled65g55lw-1.png",
+    "image": "/images/products/tvs/lg-65-oled65g55lw.jpg",
     "storeOffers": [
       {
         "id": "offer-lg-65-oled65g55lw-lg",
@@ -7245,7 +7375,10 @@ export const mockTVs: TVProduct[] = [
       "usbPorts": 3,
       "energyClass": "F"
     },
-    "epeyScore": 98
+    "epeyScore": 98,
+    "images": [
+      "/images/products/tvs/lg-65-oled65g55lw.jpg"
+    ]
   },
   {
     "id": "lg-100-100qned87b6",
@@ -7270,7 +7403,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://resim.epey.com/1066169/k_lg-100qned87b6-8806096851012-1.jpg",
+    "image": "/images/products/tvs/lg-100-100qned87b6.jpg",
     "storeOffers": [
       {
         "id": "offer-lg-100-100qned87b6-lg",
@@ -7356,7 +7489,10 @@ export const mockTVs: TVProduct[] = [
       "usbPorts": 3,
       "energyClass": "F"
     },
-    "epeyScore": 87
+    "epeyScore": 87,
+    "images": [
+      "/images/products/tvs/lg-100-100qned87b6.jpg"
+    ]
   },
   {
     "id": "lg-65-oled65c54la",
@@ -7381,7 +7517,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://resim.epey.com/1011765/k_lg-oled65c54la-1.jpg",
+    "image": "/images/products/tvs/lg-65-oled65c54la.jpg",
     "storeOffers": [
       {
         "id": "offer-lg-65-oled65c54la-lg",
@@ -7467,7 +7603,10 @@ export const mockTVs: TVProduct[] = [
       "usbPorts": 3,
       "energyClass": "F"
     },
-    "epeyScore": 96
+    "epeyScore": 96,
+    "images": [
+      "/images/products/tvs/lg-65-oled65c54la.jpg"
+    ]
   },
   {
     "id": "lg-55-oled55c54la",
@@ -7492,7 +7631,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://resim.epey.com/1020253/k_lg-oled55c54la-8806096460078-1.jpg",
+    "image": "/images/products/tvs/lg-55-oled55c54la.jpg",
     "storeOffers": [
       {
         "id": "offer-lg-55-oled55c54la-lg",
@@ -7578,7 +7717,10 @@ export const mockTVs: TVProduct[] = [
       "usbPorts": 3,
       "energyClass": "F"
     },
-    "epeyScore": 94
+    "epeyScore": 94,
+    "images": [
+      "/images/products/tvs/lg-55-oled55c54la.jpg"
+    ]
   },
   {
     "id": "lg-100-100qned86a6",
@@ -7603,7 +7745,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://resim.epey.com/1013012/k_lg-100qned86a6-3.jpg",
+    "image": "/images/products/tvs/lg-100-100qned86a6.jpg",
     "storeOffers": [
       {
         "id": "offer-lg-100-100qned86a6-lg",
@@ -7689,7 +7831,10 @@ export const mockTVs: TVProduct[] = [
       "usbPorts": 3,
       "energyClass": "F"
     },
-    "epeyScore": 85
+    "epeyScore": 85,
+    "images": [
+      "/images/products/tvs/lg-100-100qned86a6.jpg"
+    ]
   },
   {
     "id": "lg-83-oled83b56la",
@@ -7714,7 +7859,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://resim.epey.com/1013855/k_lg-oled83b56la-10.jpg",
+    "image": "/images/products/tvs/lg-83-oled83b56la.jpg",
     "storeOffers": [
       {
         "id": "offer-lg-83-oled83b56la-lg",
@@ -7800,7 +7945,10 @@ export const mockTVs: TVProduct[] = [
       "usbPorts": 3,
       "energyClass": "F"
     },
-    "epeyScore": 96
+    "epeyScore": 96,
+    "images": [
+      "/images/products/tvs/lg-83-oled83b56la.jpg"
+    ]
   },
   {
     "id": "lg-77-oled77b56la",
@@ -7825,7 +7973,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://resim.epey.com/1013139/k_lg-oled77b56-oled77b56la-8806096431733-1.jpg",
+    "image": "/images/products/tvs/lg-77-oled77b56la.jpg",
     "storeOffers": [
       {
         "id": "offer-lg-77-oled77b56la-lg",
@@ -7911,7 +8059,10 @@ export const mockTVs: TVProduct[] = [
       "usbPorts": 3,
       "energyClass": "F"
     },
-    "epeyScore": 96
+    "epeyScore": 96,
+    "images": [
+      "/images/products/tvs/lg-77-oled77b56la.jpg"
+    ]
   },
   {
     "id": "lg-75qned93a6a",
@@ -7921,9 +8072,9 @@ export const mockTVs: TVProduct[] = [
     "category": "tvs",
     "isPopular": true,
     "isFeatured": true,
-    "image": "https://resim.epey.com/1025406/k_lg-65qned93a6a-4.jpg",
+    "image": "/images/products/tvs/lg-75qned93a6a.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/lg-75qned93a6a.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 240,
@@ -7990,9 +8141,9 @@ export const mockTVs: TVProduct[] = [
     "category": "tvs",
     "isPopular": true,
     "isFeatured": true,
-    "image": "https://resim.epey.com/1058551/k_lg-oled65b65la-1.jpg",
+    "image": "/images/products/tvs/lg-oled65b65la.jpg",
     "images": [
-      "https://resim.epey.com/1058551/k_lg-oled65b65la-1.jpg"
+      "/images/products/tvs/lg-oled65b65la.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 410,
@@ -8059,9 +8210,9 @@ export const mockTVs: TVProduct[] = [
     "category": "tvs",
     "isPopular": true,
     "isFeatured": true,
-    "image": "https://resim.epey.com/1062664/k_lg-86qned87b6a-8806096749074-1.jpg",
+    "image": "/images/products/tvs/lg-86qned87b6a.jpg",
     "images": [
-      "https://resim.epey.com/1062664/k_lg-86qned87b6a-8806096749074-1.jpg"
+      "/images/products/tvs/lg-86qned87b6a.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 190,
@@ -8143,7 +8294,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://resim.epey.com/1012463/k_lg-86qned86a6a-8806096435021-1.jpg",
+    "image": "/images/products/tvs/lg-86qned86a6a.jpg",
     "storeOffers": [
       {
         "id": "offer-lg-86qned86a6a-1",
@@ -8190,7 +8341,10 @@ export const mockTVs: TVProduct[] = [
       "usbPorts": 2,
       "energyClass": "E"
     },
-    "epeyScore": 79
+    "epeyScore": 79,
+    "images": [
+      "/images/products/tvs/lg-86qned86a6a.jpg"
+    ]
   },
   {
     "id": "lg-65qned93a6a",
@@ -8215,7 +8369,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://resim.epey.com/1029676/k_lg-65qned93a6a-4.jpg",
+    "image": "/images/products/tvs/lg-65qned93a6a.jpg",
     "storeOffers": [
       {
         "id": "offer-lg-65qned93a6a-1",
@@ -8264,7 +8418,10 @@ export const mockTVs: TVProduct[] = [
       "usbPorts": 2,
       "energyClass": "E"
     },
-    "epeyScore": 79
+    "epeyScore": 79,
+    "images": [
+      "/images/products/tvs/lg-65qned93a6a.jpg"
+    ]
   },
   {
     "id": "lg-oled55b65la",
@@ -8274,9 +8431,9 @@ export const mockTVs: TVProduct[] = [
     "category": "tvs",
     "isPopular": true,
     "isFeatured": true,
-    "image": "https://resim.epey.com/1061938/k_lg-oled55b65la-8806096774304-2.jpg",
+    "image": "/images/products/tvs/lg-oled55b65la.jpg",
     "images": [
-      "https://resim.epey.com/1061938/k_lg-oled55b65la-8806096774304-2.jpg"
+      "/images/products/tvs/lg-oled55b65la.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 490,
@@ -8358,7 +8515,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://resim.epey.com/1058550/k_lg-75qned87b6a-7.jpg",
+    "image": "/images/products/tvs/lg-75qned87b6a.jpg",
     "storeOffers": [
       {
         "id": "offer-lg-75qned87b6a-1",
@@ -8407,7 +8564,10 @@ export const mockTVs: TVProduct[] = [
       "usbPorts": 2,
       "energyClass": "E"
     },
-    "epeyScore": 77
+    "epeyScore": 77,
+    "images": [
+      "/images/products/tvs/lg-75qned87b6a.jpg"
+    ]
   },
   {
     "id": "lg-75qned86a6a",
@@ -8432,7 +8592,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://resim.epey.com/1012464/k_lg-75qned86a6a-8806096431665-4.jpg",
+    "image": "/images/products/tvs/lg-75qned86a6a.jpg",
     "storeOffers": [
       {
         "id": "offer-lg-75qned86a6a-1",
@@ -8481,7 +8641,10 @@ export const mockTVs: TVProduct[] = [
       "usbPorts": 2,
       "energyClass": "E"
     },
-    "epeyScore": 77
+    "epeyScore": 77,
+    "images": [
+      "/images/products/tvs/lg-75qned86a6a.jpg"
+    ]
   },
   {
     "id": "lg-oled55b56la",
@@ -8506,7 +8669,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://resim.epey.com/1011769/k_lg-oled55b56la-8806096431672-1.jpg",
+    "image": "/images/products/tvs/lg-oled55b56la.jpg",
     "storeOffers": [
       {
         "id": "offer-lg-oled55b56la-1",
@@ -8555,7 +8718,10 @@ export const mockTVs: TVProduct[] = [
       "usbPorts": 2,
       "energyClass": "E"
     },
-    "epeyScore": 76
+    "epeyScore": 76,
+    "images": [
+      "/images/products/tvs/lg-oled55b56la.jpg"
+    ]
   },
   {
     "id": "lg-65qned9ma6b",
@@ -8580,7 +8746,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://resim.epey.com/1020364/k_lg-65qned9ma6b-6.jpg",
+    "image": "/images/products/tvs/lg-65qned9ma6b.jpg",
     "storeOffers": [
       {
         "id": "offer-lg-65qned9ma6b-1",
@@ -8629,7 +8795,10 @@ export const mockTVs: TVProduct[] = [
       "usbPorts": 2,
       "energyClass": "E"
     },
-    "epeyScore": 75
+    "epeyScore": 75,
+    "images": [
+      "/images/products/tvs/lg-65qned9ma6b.jpg"
+    ]
   },
   {
     "id": "lg-65qned87b6a",
@@ -8654,7 +8823,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://resim.epey.com/1058491/k_lg-65qned87b6a-1.jpg",
+    "image": "/images/products/tvs/lg-65qned87b6a.jpg",
     "storeOffers": [
       {
         "id": "offer-lg-65qned87b6a-1",
@@ -8703,7 +8872,10 @@ export const mockTVs: TVProduct[] = [
       "usbPorts": 2,
       "energyClass": "E"
     },
-    "epeyScore": 74
+    "epeyScore": 74,
+    "images": [
+      "/images/products/tvs/lg-65qned87b6a.jpg"
+    ]
   },
   {
     "id": "lg-65qned86a6a",
@@ -8728,7 +8900,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://resim.epey.com/1012465/k_lg-65qned86a6a-8806096431627-1.jpg",
+    "image": "/images/products/tvs/lg-65qned86a6a.jpg",
     "storeOffers": [
       {
         "id": "offer-lg-65qned86a6a-1",
@@ -8777,7 +8949,10 @@ export const mockTVs: TVProduct[] = [
       "usbPorts": 2,
       "energyClass": "E"
     },
-    "epeyScore": 74
+    "epeyScore": 74,
+    "images": [
+      "/images/products/tvs/lg-65qned86a6a.jpg"
+    ]
   },
   {
     "id": "lg-85qned81b6a",
@@ -8787,9 +8962,9 @@ export const mockTVs: TVProduct[] = [
     "category": "tvs",
     "isPopular": true,
     "isFeatured": true,
-    "image": "https://resim.epey.com/1062665/k_lg-85qned81b6a-1.jpg",
+    "image": "/images/products/tvs/lg-85qned81b6a.jpg",
     "images": [
-      "https://resim.epey.com/1062665/k_lg-85qned81b6a-1.jpg"
+      "/images/products/tvs/lg-85qned81b6a.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 180,
@@ -8856,9 +9031,9 @@ export const mockTVs: TVProduct[] = [
     "category": "tvs",
     "isPopular": true,
     "isFeatured": false,
-    "image": "https://resim.epey.com/1058487/k_lg-85qned70b6a-7.jpg",
+    "image": "/images/products/tvs/lg-85qned70b6a.jpg",
     "images": [
-      "https://resim.epey.com/1058487/k_lg-85qned70b6a-7.jpg"
+      "/images/products/tvs/lg-85qned70b6a.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 150,
@@ -8925,9 +9100,9 @@ export const mockTVs: TVProduct[] = [
     "category": "tvs",
     "isPopular": true,
     "isFeatured": true,
-    "image": "https://resim.epey.com/1058532/k_lg-55qned87b6a-1.jpg",
+    "image": "/images/products/tvs/lg-55qned87b6a.jpg",
     "images": [
-      "https://resim.epey.com/1058532/k_lg-55qned87b6a-1.jpg"
+      "/images/products/tvs/lg-55qned87b6a.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 290,
@@ -8994,9 +9169,9 @@ export const mockTVs: TVProduct[] = [
     "category": "tvs",
     "isPopular": true,
     "isFeatured": true,
-    "image": "https://resim.epey.com/1062935/k_lg-75qned81b6a-1.jpg",
+    "image": "/images/products/tvs/lg-75qned81b6a.jpg",
     "images": [
-      "https://resim.epey.com/1062935/k_lg-75qned81b6a-1.jpg"
+      "/images/products/tvs/lg-75qned81b6a.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 260,
@@ -9063,9 +9238,9 @@ export const mockTVs: TVProduct[] = [
     "category": "tvs",
     "isPopular": true,
     "isFeatured": false,
-    "image": "https://resim.epey.com/1058489/k_lg-75qned7eb3a-1.jpg",
+    "image": "/images/products/tvs/lg-75qned7eb3a.jpg",
     "images": [
-      "https://resim.epey.com/1058489/k_lg-75qned7eb3a-1.jpg"
+      "/images/products/tvs/lg-75qned7eb3a.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 210,
@@ -9132,9 +9307,9 @@ export const mockTVs: TVProduct[] = [
     "category": "tvs",
     "isPopular": true,
     "isFeatured": true,
-    "image": "https://resim.epey.com/1012982/k_lg-55qned86a6a-5.jpg",
+    "image": "/images/products/tvs/lg-55qned86a6a.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/lg-55qned86a6a.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 320,
@@ -9201,9 +9376,9 @@ export const mockTVs: TVProduct[] = [
     "category": "tvs",
     "isPopular": true,
     "isFeatured": false,
-    "image": "https://resim.epey.com/1032648/k_lg-75qned82a6b-1.jpg",
+    "image": "/images/products/tvs/lg-86qned82a6b.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/lg-86qned82a6b.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 170,
@@ -9270,9 +9445,9 @@ export const mockTVs: TVProduct[] = [
     "category": "tvs",
     "isPopular": true,
     "isFeatured": true,
-    "image": "https://resim.epey.com/1058534/k_lg-65qned81b6a-1.jpg",
+    "image": "/images/products/tvs/lg-65qned81b6a.jpg",
     "images": [
-      "https://resim.epey.com/1058534/k_lg-65qned81b6a-1.jpg"
+      "/images/products/tvs/lg-65qned81b6a.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 340,
@@ -9339,9 +9514,9 @@ export const mockTVs: TVProduct[] = [
     "category": "tvs",
     "isPopular": true,
     "isFeatured": false,
-    "image": "https://resim.epey.com/1064327/k_lg-65qned7eb3c-1.jpg",
+    "image": "/images/products/tvs/lg-65qned7eb3c.jpg",
     "images": [
-      "https://resim.epey.com/1064327/k_lg-65qned7eb3c-1.jpg"
+      "/images/products/tvs/lg-65qned7eb3c.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 220,
@@ -9408,12 +9583,9 @@ export const mockTVs: TVProduct[] = [
     "category": "tvs",
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/products/tvs/lg-65qned70b6c-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/lg-65qned70b6c-1.jpg",
-      "/images/products/tvs/lg-65qned70b6c-2.jpg",
-      "/images/products/tvs/lg-65qned70b6c-3.jpg",
-      "https://resim.epey.com/1058479/z_lg-65qned70b6c-8.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 32,
@@ -9585,7 +9757,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://resim.epey.com/1025407/k_lg-75qned82a6b-1.jpg",
+    "image": "/images/products/tvs/lg-75-75qned82a6b.jpg",
     "storeOffers": [
       {
         "id": "offer-lg-75-75qned82a6b-0",
@@ -9733,7 +9905,10 @@ export const mockTVs: TVProduct[] = [
       "usbPorts": 2,
       "energyClass": "E"
     },
-    "epeyScore": 81
+    "epeyScore": 81,
+    "images": [
+      "/images/products/tvs/lg-75-75qned82a6b.jpg"
+    ]
   },
   {
     "id": "lg-75-75qned80a6a",
@@ -9758,7 +9933,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://resim.epey.com/1018010/k_lg-75qned80a6a-8806096446911-8.jpg",
+    "image": "/images/products/tvs/lg-75-75qned80a6a.jpg",
     "storeOffers": [
       {
         "id": "offer-lg-75-75qned80a6a-0",
@@ -9906,7 +10081,10 @@ export const mockTVs: TVProduct[] = [
       "usbPorts": 2,
       "energyClass": "E"
     },
-    "epeyScore": 81
+    "epeyScore": 81,
+    "images": [
+      "/images/products/tvs/lg-75-75qned80a6a.jpg"
+    ]
   },
   {
     "id": "lg-55-55qned81b6a-1",
@@ -9931,7 +10109,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://www.lg.com/content/dam/channel/wcms/1-channel/tr/ms/lgcom/2026/tv-audio-video/tv/oled-evo/c6/gp1/gallery/newadd/450.jpg/jcr:content/renditions/thum-350x350.jpeg",
+    "image": "/images/products/tvs/lg-55-55qned81b6a-1.jpg",
     "storeOffers": [
       {
         "id": "offer-lg-55-55qned81b6a-1-0",
@@ -10079,7 +10257,10 @@ export const mockTVs: TVProduct[] = [
       "usbPorts": 2,
       "energyClass": "E"
     },
-    "epeyScore": 77
+    "epeyScore": 77,
+    "images": [
+      "/images/products/tvs/lg-55-55qned81b6a-1.jpg"
+    ]
   },
   {
     "id": "lg-55-55qned70b6c",
@@ -10104,7 +10285,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://resim.epey.com/1058485/k_lg-55qned70b6c-7.jpg",
+    "image": "/images/products/tvs/lg-55-55qned70b6c.jpg",
     "storeOffers": [
       {
         "id": "offer-lg-55-55qned70b6c-0",
@@ -10252,7 +10433,10 @@ export const mockTVs: TVProduct[] = [
       "usbPorts": 2,
       "energyClass": "E"
     },
-    "epeyScore": 77
+    "epeyScore": 77,
+    "images": [
+      "/images/products/tvs/lg-55-55qned70b6c.jpg"
+    ]
   },
   {
     "id": "lg-75-75nu900b6la-1",
@@ -10277,7 +10461,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://resim.epey.com/1058392/k_lg-75nu900b6la-7.jpg",
+    "image": "/images/products/tvs/lg-75-75nu900b6la-1.jpg",
     "storeOffers": [
       {
         "id": "offer-lg-75-75nu900b6la-1-0",
@@ -10422,7 +10606,10 @@ export const mockTVs: TVProduct[] = [
       "usbPorts": 2,
       "energyClass": "E"
     },
-    "epeyScore": 67
+    "epeyScore": 67,
+    "images": [
+      "/images/products/tvs/lg-75-75nu900b6la-1.jpg"
+    ]
   },
   {
     "id": "lg-65-65qned82a6b",
@@ -10447,7 +10634,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://resim.epey.com/1027214/k_lg-65qned82a6b-10.jpg",
+    "image": "/images/products/tvs/lg-65-65qned82a6b.jpg",
     "storeOffers": [
       {
         "id": "offer-lg-65-65qned82a6b-0",
@@ -10592,7 +10779,10 @@ export const mockTVs: TVProduct[] = [
       "usbPorts": 2,
       "energyClass": "E"
     },
-    "epeyScore": 75
+    "epeyScore": 75,
+    "images": [
+      "/images/products/tvs/lg-65-65qned82a6b.jpg"
+    ]
   },
   {
     "id": "lg-75-75nano90a6b",
@@ -10617,7 +10807,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://resim.epey.com/1019788/k_lg-75nano90a6b-1.jpg",
+    "image": "/images/products/tvs/lg-75-75nano90a6b.jpg",
     "storeOffers": [
       {
         "id": "offer-lg-75-75nano90a6b-0",
@@ -10762,7 +10952,10 @@ export const mockTVs: TVProduct[] = [
       "usbPorts": 2,
       "energyClass": "E"
     },
-    "epeyScore": 77
+    "epeyScore": 77,
+    "images": [
+      "/images/products/tvs/lg-75-75nano90a6b.jpg"
+    ]
   },
   {
     "id": "lg-65-65qned70a6a",
@@ -10787,7 +10980,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://resim.epey.com/1020255/k_lg-65qned70a6a-8806096434611-1.jpg",
+    "image": "/images/products/tvs/lg-65-65qned70a6a.jpg",
     "storeOffers": [
       {
         "id": "offer-lg-65-65qned70a6a-0",
@@ -10932,7 +11125,10 @@ export const mockTVs: TVProduct[] = [
       "usbPorts": 2,
       "energyClass": "E"
     },
-    "epeyScore": 75
+    "epeyScore": 75,
+    "images": [
+      "/images/products/tvs/lg-65-65qned70a6a.jpg"
+    ]
   },
   {
     "id": "lg-75-75nano80a6b",
@@ -10957,7 +11153,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://resim.epey.com/1012271/k_lg-75nano80a6b-1.jpg",
+    "image": "/images/products/tvs/lg-75-75nano80a6b.jpg",
     "storeOffers": [
       {
         "id": "offer-lg-75-75nano80a6b-0",
@@ -11102,7 +11298,10 @@ export const mockTVs: TVProduct[] = [
       "usbPorts": 2,
       "energyClass": "E"
     },
-    "epeyScore": 77
+    "epeyScore": 77,
+    "images": [
+      "/images/products/tvs/lg-75-75nano80a6b.jpg"
+    ]
   },
   {
     "id": "lg-75-75ua85006la",
@@ -11127,7 +11326,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://resim.epey.com/1028154/k_lg-75ua85006-8806096520888-1.jpg",
+    "image": "/images/products/tvs/lg-75-75ua85006la.jpg",
     "storeOffers": [
       {
         "id": "offer-lg-75-75ua85006la-0",
@@ -11272,7 +11471,10 @@ export const mockTVs: TVProduct[] = [
       "usbPorts": 2,
       "energyClass": "E"
     },
-    "epeyScore": 67
+    "epeyScore": 67,
+    "images": [
+      "/images/products/tvs/lg-75-75ua85006la.jpg"
+    ]
   },
   {
     "id": "lg-65-65nu900b6la-1",
@@ -11297,7 +11499,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://resim.epey.com/1058404/k_lg-65nu900b6la-7.jpg",
+    "image": "/images/products/tvs/lg-65-65nu900b6la-1.jpg",
     "storeOffers": [
       {
         "id": "offer-lg-65-65nu900b6la-1-0",
@@ -11442,7 +11644,10 @@ export const mockTVs: TVProduct[] = [
       "usbPorts": 2,
       "energyClass": "E"
     },
-    "epeyScore": 65
+    "epeyScore": 65,
+    "images": [
+      "/images/products/tvs/lg-65-65nu900b6la-1.jpg"
+    ]
   },
   {
     "id": "lg-55-55qned80a6a",
@@ -11467,7 +11672,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://resim.epey.com/1012978/k_lg-55qned80a6a-1.jpg",
+    "image": "/images/products/tvs/lg-55-55qned80a6a.jpg",
     "storeOffers": [
       {
         "id": "offer-lg-55-55qned80a6a-0",
@@ -11612,7 +11817,10 @@ export const mockTVs: TVProduct[] = [
       "usbPorts": 2,
       "energyClass": "E"
     },
-    "epeyScore": 73
+    "epeyScore": 73,
+    "images": [
+      "/images/products/tvs/lg-55-55qned80a6a.jpg"
+    ]
   },
   {
     "id": "lg-55-55qned82a6b",
@@ -11637,7 +11845,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://resim.epey.com/1025408/k_lg-55qned82a6b-8806096512067-9.jpg",
+    "image": "/images/products/tvs/lg-55-55qned82a6b.jpg",
     "storeOffers": [
       {
         "id": "offer-lg-55-55qned82a6b-0",
@@ -11782,7 +11990,10 @@ export const mockTVs: TVProduct[] = [
       "usbPorts": 2,
       "energyClass": "E"
     },
-    "epeyScore": 73
+    "epeyScore": 73,
+    "images": [
+      "/images/products/tvs/lg-55-55qned82a6b.jpg"
+    ]
   },
   {
     "id": "lg-55-55qned70a6a",
@@ -11807,7 +12018,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://resim.epey.com/1020256/k_lg-55qned70-55qned70a6a-8806096434598-1.jpg",
+    "image": "/images/products/tvs/lg-55-55qned70a6a.jpg",
     "storeOffers": [
       {
         "id": "offer-lg-55-55qned70a6a-0",
@@ -11952,7 +12163,10 @@ export const mockTVs: TVProduct[] = [
       "usbPorts": 2,
       "energyClass": "E"
     },
-    "epeyScore": 73
+    "epeyScore": 73,
+    "images": [
+      "/images/products/tvs/lg-55-55qned70a6a.jpg"
+    ]
   },
   {
     "id": "lg-65-65nano90a6b",
@@ -11977,7 +12191,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://resim.epey.com/1018011/k_lg-65nano90a6b-1.jpg",
+    "image": "/images/products/tvs/lg-65-65nano90a6b.jpg",
     "storeOffers": [
       {
         "id": "offer-lg-65-65nano90a6b-0",
@@ -12122,7 +12336,10 @@ export const mockTVs: TVProduct[] = [
       "usbPorts": 2,
       "energyClass": "E"
     },
-    "epeyScore": 75
+    "epeyScore": 75,
+    "images": [
+      "/images/products/tvs/lg-65-65nano90a6b.jpg"
+    ]
   },
   {
     "id": "lg-65-65nano81a6a",
@@ -12147,7 +12364,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://resim.epey.com/1045153/k_lg-65nano81a6a-8.jpg",
+    "image": "/images/products/tvs/lg-65-65nano81a6a.jpg",
     "storeOffers": [
       {
         "id": "offer-lg-65-65nano81a6a-0",
@@ -12292,7 +12509,10 @@ export const mockTVs: TVProduct[] = [
       "usbPorts": 2,
       "energyClass": "E"
     },
-    "epeyScore": 75
+    "epeyScore": 75,
+    "images": [
+      "/images/products/tvs/lg-65-65nano81a6a.jpg"
+    ]
   },
   {
     "id": "lg-65-65nano80a6b",
@@ -12317,7 +12537,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://resim.epey.com/1012270/k_lg-65nano80a6b-1.jpg",
+    "image": "/images/products/tvs/lg-65-65nano80a6b.jpg",
     "storeOffers": [
       {
         "id": "offer-lg-65-65nano80a6b-0",
@@ -12462,7 +12682,10 @@ export const mockTVs: TVProduct[] = [
       "usbPorts": 2,
       "energyClass": "E"
     },
-    "epeyScore": 75
+    "epeyScore": 75,
+    "images": [
+      "/images/products/tvs/lg-65-65nano80a6b.jpg"
+    ]
   },
   {
     "id": "lg-65-65ua84006lb",
@@ -12487,7 +12710,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://resim.epey.com/1034948/k_lg-65ua84006-65ua84006lb-8806096540176-1.jpg",
+    "image": "/images/products/tvs/lg-65-65ua84006lb.jpg",
     "storeOffers": [
       {
         "id": "offer-lg-65-65ua84006lb-0",
@@ -12632,7 +12855,10 @@ export const mockTVs: TVProduct[] = [
       "usbPorts": 2,
       "energyClass": "E"
     },
-    "epeyScore": 65
+    "epeyScore": 65,
+    "images": [
+      "/images/products/tvs/lg-65-65ua84006lb.jpg"
+    ]
   },
   {
     "id": "lg-65-65ua85006la",
@@ -12657,7 +12883,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://resim.epey.com/1011807/k_lg-50ua85006la-8806096431535-6.jpg",
+    "image": "/images/products/tvs/lg-65-65ua85006la.jpg",
     "storeOffers": [
       {
         "id": "offer-lg-65-65ua85006la-0",
@@ -12802,7 +13028,10 @@ export const mockTVs: TVProduct[] = [
       "usbPorts": 2,
       "energyClass": "E"
     },
-    "epeyScore": 65
+    "epeyScore": 65,
+    "images": [
+      "/images/products/tvs/lg-65-65ua85006la.jpg"
+    ]
   },
   {
     "id": "lg-65-65nano846qa",
@@ -12827,7 +13056,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://resim.epey.com/1017499/k_lg-55nano846qa-8806096435687-1.jpg",
+    "image": "/images/products/tvs/lg-65-65nano846qa.jpg",
     "storeOffers": [
       {
         "id": "offer-lg-65-65nano846qa-0",
@@ -12972,7 +13201,10 @@ export const mockTVs: TVProduct[] = [
       "usbPorts": 2,
       "energyClass": "E"
     },
-    "epeyScore": 75
+    "epeyScore": 75,
+    "images": [
+      "/images/products/tvs/lg-65-65nano846qa.jpg"
+    ]
   },
   {
     "id": "lg-55-55nu900b6la-1",
@@ -12997,7 +13229,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://resim.epey.com/1058414/k_lg-55nu900b6la-7.jpg",
+    "image": "/images/products/tvs/lg-55-55nu900b6la-1.jpg",
     "storeOffers": [
       {
         "id": "offer-lg-55-55nu900b6la-1-0",
@@ -13142,7 +13374,10 @@ export const mockTVs: TVProduct[] = [
       "usbPorts": 2,
       "energyClass": "E"
     },
-    "epeyScore": 63
+    "epeyScore": 63,
+    "images": [
+      "/images/products/tvs/lg-55-55nu900b6la-1.jpg"
+    ]
   },
   {
     "id": "lg-55-55nano80a6b",
@@ -13167,7 +13402,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://resim.epey.com/1011810/k_lg-55nano80a6b-1.jpg",
+    "image": "/images/products/tvs/lg-55-55nano80a6b.jpg",
     "storeOffers": [
       {
         "id": "offer-lg-55-55nano80a6b-0",
@@ -13312,7 +13547,10 @@ export const mockTVs: TVProduct[] = [
       "usbPorts": 2,
       "energyClass": "E"
     },
-    "epeyScore": 73
+    "epeyScore": 73,
+    "images": [
+      "/images/products/tvs/lg-55-55nano80a6b.jpg"
+    ]
   },
   {
     "id": "tv-lg-lg-55-55ua84006lb-55-inc",
@@ -13326,7 +13564,7 @@ export const mockTVs: TVProduct[] = [
     "isPopular": false,
     "rating": 2.9,
     "reviewCount": 243,
-    "image": "https://resim.epey.com/1037858/k_lg-55ua84006lb-880609650169-1.jpg",
+    "image": "/images/products/tvs/tv-lg-lg-55-55ua84006lb-55-inc.jpg",
     "highlights": [
       "55\" LED Ultra HD (4K) Ekran",
       "webOS Akıllı TV İşletim Sistemi",
@@ -13498,7 +13736,10 @@ export const mockTVs: TVProduct[] = [
       "usbPorts": 2,
       "energyClass": "E"
     },
-    "epeyScore": 63
+    "epeyScore": 63,
+    "images": [
+      "/images/products/tvs/tv-lg-lg-55-55ua84006lb-55-inc.jpg"
+    ]
   },
   {
     "id": "tv-lg-lg-55-55ua85006la-55-inc",
@@ -13512,7 +13753,7 @@ export const mockTVs: TVProduct[] = [
     "isPopular": false,
     "rating": 2.9,
     "reviewCount": 243,
-    "image": "https://resim.epey.com/1011809/k_lg-50ua85006la-8806096431535-6.jpg",
+    "image": "/images/products/tvs/tv-lg-lg-55-55ua85006la-55-inc.jpg",
     "highlights": [
       "55\" LED Ultra HD (4K) Ekran",
       "webOS Akıllı TV İşletim Sistemi",
@@ -13684,7 +13925,10 @@ export const mockTVs: TVProduct[] = [
       "usbPorts": 2,
       "energyClass": "E"
     },
-    "epeyScore": 63
+    "epeyScore": 63,
+    "images": [
+      "/images/products/tvs/tv-lg-lg-55-55ua85006la-55-inc.jpg"
+    ]
   },
   {
     "id": "tv-lg-lg-50-50ua85006la-50-inc",
@@ -13698,7 +13942,7 @@ export const mockTVs: TVProduct[] = [
     "isPopular": false,
     "rating": 2.8,
     "reviewCount": 235,
-    "image": "https://www.lg.com/content/dam/channel/wcms/1-channel/tr/ms/lgcom/2026/tv-audio-video/tv/oled-evo/c6/gp1/gallery/newadd/450.jpg/jcr:content/renditions/thum-350x350.jpeg",
+    "image": "/images/products/tvs/tv-lg-lg-50-50ua85006la-50-inc.jpg",
     "highlights": [
       "50\" LED Ultra HD (4K) Ekran",
       "webOS Akıllı TV İşletim Sistemi",
@@ -13870,7 +14114,10 @@ export const mockTVs: TVProduct[] = [
       "usbPorts": 2,
       "energyClass": "E"
     },
-    "epeyScore": 63
+    "epeyScore": 63,
+    "images": [
+      "/images/products/tvs/tv-lg-lg-50-50ua85006la-50-inc.jpg"
+    ]
   },
   {
     "id": "tv-lg-lg-55-oled55g64lw-55-inc",
@@ -13884,7 +14131,7 @@ export const mockTVs: TVProduct[] = [
     "isPopular": true,
     "rating": 4.3,
     "reviewCount": 365,
-    "image": "https://www.lg.com/content/dam/channel/wcms/1-channel/tr/ms/lgcom/2026/tv-audio-video/tv/oled-evo/c6/gp1/gallery/newadd/450.jpg/jcr:content/renditions/thum-350x350.jpeg",
+    "image": "/images/products/tvs/tv-lg-lg-55-oled55g64lw-55-inc.jpg",
     "highlights": [
       "55\" OLED evo Ultra HD (4K) Ekran",
       "webOS Akıllı TV İşletim Sistemi",
@@ -14056,7 +14303,10 @@ export const mockTVs: TVProduct[] = [
       "usbPorts": 2,
       "energyClass": "G"
     },
-    "epeyScore": 99
+    "epeyScore": 99,
+    "images": [
+      "/images/products/tvs/tv-lg-lg-55-oled55g64lw-55-inc.jpg"
+    ]
   },
   {
     "id": "lg-85qned93a6a",
@@ -14070,7 +14320,7 @@ export const mockTVs: TVProduct[] = [
     "isPopular": true,
     "rating": 4.9,
     "reviewCount": 45,
-    "image": "/images/products/tvs/lg-85qned93a6a-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "highlights": [
       "Dev 85\" (216 cm) 4K QNED Mini LED & Precision Dimming Pro",
       "100/120/144 Hz Gerçek Panel Hızı (3840x2160p @ 144Hz Destekli)",
@@ -14190,10 +14440,7 @@ export const mockTVs: TVProduct[] = [
       "bezelStyle": "Ultra Slim / Kare Metal Stant Ayak"
     },
     "images": [
-      "/images/products/tvs/lg-85qned93a6a-1.jpg",
-      "/images/products/tvs/lg-85qned93a6a-2.jpg",
-      "/images/products/tvs/lg-85qned93a6a-3.jpg",
-      "https://resim.epey.com/1025405/z_lg-85qned93a6a-8806096417096-7.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "isFeatured": true,
     "epeyScore": 84
@@ -14210,7 +14457,7 @@ export const mockTVs: TVProduct[] = [
     "isPopular": true,
     "rating": 4.2,
     "reviewCount": 348,
-    "image": "https://www.lg.com/content/dam/channel/wcms/1-channel/tr/ms/lgcom/2026/tv-audio-video/tv/oled-evo/c6/gp1/gallery/newadd/450.jpg/jcr:content/renditions/thum-350x350.jpeg",
+    "image": "/images/products/tvs/tv-lg-lg-48-oled48c64la-48-inc.jpg",
     "highlights": [
       "48\" OLED evo Ultra HD (4K) Ekran",
       "webOS Akıllı TV İşletim Sistemi",
@@ -14382,7 +14629,10 @@ export const mockTVs: TVProduct[] = [
       "usbPorts": 2,
       "energyClass": "G"
     },
-    "epeyScore": 97
+    "epeyScore": 97,
+    "images": [
+      "/images/products/tvs/tv-lg-lg-48-oled48c64la-48-inc.jpg"
+    ]
   },
   {
     "id": "lg-oled48c54la",
@@ -14396,7 +14646,7 @@ export const mockTVs: TVProduct[] = [
     "isPopular": true,
     "rating": 4.9,
     "reviewCount": 56,
-    "image": "/images/products/tvs/lg-oled48c54la-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "highlights": [
       "48\" 4K OLED evo Ekran & α9 (Alpha9) Gen8 AI Processor 4K",
       "100/120/144 Hz Gerçek Yenileme Hızı & VRR / G-Sync / FreeSync Premium",
@@ -14516,10 +14766,7 @@ export const mockTVs: TVProduct[] = [
       "bezelStyle": "Süper İnce Çerçeve & Kare Metal Ayak Stand"
     },
     "images": [
-      "/images/products/tvs/lg-oled48c54la-1.jpg",
-      "/images/products/tvs/lg-oled48c54la-2.jpg",
-      "/images/products/tvs/lg-oled48c54la-3.jpg",
-      "https://resim.epey.com/1036450/z_lg-oled48c54la-8806096601655-6.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "isFeatured": true,
     "epeyScore": 81
@@ -14536,7 +14783,7 @@ export const mockTVs: TVProduct[] = [
     "isPopular": false,
     "rating": 3.9,
     "reviewCount": 327,
-    "image": "https://www.lg.com/content/dam/channel/wcms/1-channel/tr/ms/lgcom/2026/tv-audio-video/tv/oled-evo/c6/gp1/gallery/newadd/450.jpg/jcr:content/renditions/thum-350x350.jpeg",
+    "image": "/images/products/tvs/tv-lg-lg-65-oled65b56la-65-inc.jpg",
     "highlights": [
       "65\" OLED Ultra HD (4K) Ekran",
       "webOS Akıllı TV İşletim Sistemi",
@@ -14708,7 +14955,10 @@ export const mockTVs: TVProduct[] = [
       "usbPorts": 2,
       "energyClass": "G"
     },
-    "epeyScore": 94
+    "epeyScore": 94,
+    "images": [
+      "/images/products/tvs/tv-lg-lg-65-oled65b56la-65-inc.jpg"
+    ]
   },
   {
     "id": "lg-75qned9ma6b",
@@ -14722,7 +14972,7 @@ export const mockTVs: TVProduct[] = [
     "isPopular": true,
     "rating": 4.8,
     "reviewCount": 18,
-    "image": "/images/products/tvs/lg-75qned9ma6b-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "highlights": [
       "75\" (189 cm) 4K Ultra HD Quantum Mini LED (QD-MiniLED) & Quantum Dot Display",
       "144Hz Gerçek Yenileme Hızı & HDMI 2.1 ile 3840x2160p @ 144Hz Oyun Desteği",
@@ -14860,10 +15110,7 @@ export const mockTVs: TVProduct[] = [
       "bezelStyle": "Ultra Slim / Kare Merkez Ayak Standı"
     },
     "images": [
-      "/images/products/tvs/lg-75qned9ma6b-1.jpg",
-      "/images/products/tvs/lg-75qned9ma6b-2.jpg",
-      "/images/products/tvs/lg-75qned9ma6b-3.jpg",
-      "https://resim.epey.com/1020252/z_lg-75qned9ma6b-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "isFeatured": true,
     "epeyScore": 78
@@ -14880,7 +15127,7 @@ export const mockTVs: TVProduct[] = [
     "isPopular": false,
     "rating": 3.5,
     "reviewCount": 289,
-    "image": "https://www.lg.com/content/dam/channel/wcms/1-channel/tr/ms/lgcom/2026/tv-audio-video/tv/oled-evo/c6/gp1/gallery/newadd/450.jpg/jcr:content/renditions/thum-350x350.jpeg",
+    "image": "/images/products/tvs/tv-lg-lg-86-86qned70a6a-86-inc.jpg",
     "highlights": [
       "86\" QNED Ultra HD (4K) Ekran",
       "webOS Akıllı TV İşletim Sistemi",
@@ -15052,7 +15299,10 @@ export const mockTVs: TVProduct[] = [
       "usbPorts": 2,
       "energyClass": "E"
     },
-    "epeyScore": 83
+    "epeyScore": 83,
+    "images": [
+      "/images/products/tvs/tv-lg-lg-86-86qned70a6a-86-inc.jpg"
+    ]
   },
   {
     "id": "tv-lg-lg-65-65qned80a6a-65-inc",
@@ -15252,7 +15502,7 @@ export const mockTVs: TVProduct[] = [
     "isPopular": false,
     "rating": 2.9,
     "reviewCount": 243,
-    "image": "https://www.lg.com/content/dam/channel/wcms/1-channel/tr/ms/lgcom/2026/tv-audio-video/tv/oled-evo/c6/gp1/gallery/newadd/450.jpg/jcr:content/renditions/thum-350x350.jpeg",
+    "image": "/images/products/tvs/tv-lg-lg-55-55nano90a6b-55-inc.jpg",
     "highlights": [
       "55\" NanoCell Ultra HD (4K) Ekran",
       "webOS Akıllı TV İşletim Sistemi",
@@ -15424,7 +15674,10 @@ export const mockTVs: TVProduct[] = [
       "usbPorts": 2,
       "energyClass": "E"
     },
-    "epeyScore": 73
+    "epeyScore": 73,
+    "images": [
+      "/images/products/tvs/tv-lg-lg-55-55nano90a6b-55-inc.jpg"
+    ]
   },
   {
     "id": "tv-tcl-98-98p8l-98-inc",
@@ -15438,7 +15691,7 @@ export const mockTVs: TVProduct[] = [
     "isPopular": true,
     "rating": 4.9,
     "reviewCount": 633,
-    "image": "https://aws-obg-image-lb-2.tcl.com/content/dam/brandsite/product/tv/p/98p8l/id/98-1.png?t=1765963077569&w=800&webp=true&dpr=1&rendition=2400",
+    "image": "/images/products/tvs/tv-tcl-98-98p8l-98-inc.jpg",
     "highlights": [
       "22-bit Arkadan Aydınlatma",
       "AI Sanat Galerisi",
@@ -15616,12 +15869,7 @@ export const mockTVs: TVProduct[] = [
       "energyClass": "G"
     },
     "images": [
-      "https://aws-obg-image-lb-2.tcl.com/content/dam/brandsite/product/tv/p/98p8l/id/98-1.png?t=1765963077569&w=800&webp=true&dpr=1&rendition=2400",
-      "https://aws-obg-image-lb-1.tcl.com/content/dam/brandsite/it-resources/product/kv/p1@2x.png",
-      "https://aws-obg-image-lb-5.tcl.com/content/dam/brandsite/it-resources/product/kv/p2@2x.png",
-      "https://aws-obg-image-lb-1.tcl.com/content/dam/brandsite/it-resources/product/kv/p3@2x.png",
-      "https://aws-obg-image-lb-1.tcl.com/content/dam/brandsite/product/tv/p/p8l/id/98-1.png",
-      "https://aws-obg-image-lb-1.tcl.com/content/dam/brandsite/product/tv/p/p8l/id/1.png"
+      "/images/products/tvs/tv-tcl-98-98p8l-98-inc.jpg"
     ],
     "epeyScore": 99
   },
@@ -15637,7 +15885,7 @@ export const mockTVs: TVProduct[] = [
     "isPopular": true,
     "rating": 4.9,
     "reviewCount": 555,
-    "image": "https://aws-obg-image-lb-3.tcl.com/content/dam/brandsite/product/tv/p/p8l/id/85-1.png?t=1765963204902&w=800&webp=true&dpr=1&rendition=2400",
+    "image": "/images/products/tvs/tv-tcl-85-85p8l-85-inc.jpg",
     "highlights": [
       "Tam Arkadan Aydınlatmalı Yerel Karartma",
       "ONKYO 2.1 Hi-Fi System",
@@ -15810,12 +16058,7 @@ export const mockTVs: TVProduct[] = [
       "energyClass": "G"
     },
     "images": [
-      "https://aws-obg-image-lb-3.tcl.com/content/dam/brandsite/product/tv/p/p8l/id/85-1.png?t=1765963204902&w=800&webp=true&dpr=1&rendition=2400",
-      "https://aws-obg-image-lb-1.tcl.com/content/dam/brandsite/it-resources/product/kv/p1@2x.png",
-      "https://aws-obg-image-lb-5.tcl.com/content/dam/brandsite/it-resources/product/kv/p2@2x.png",
-      "https://aws-obg-image-lb-1.tcl.com/content/dam/brandsite/it-resources/product/kv/p3@2x.png",
-      "https://aws-obg-image-lb-1.tcl.com/content/dam/brandsite/product/tv/p/p8l/id/98-1.png",
-      "https://aws-obg-image-lb-1.tcl.com/content/dam/brandsite/product/tv/p/p8l/id/1.png"
+      "/images/products/tvs/tv-tcl-85-85p8l-85-inc.jpg"
     ],
     "epeyScore": 99
   },
@@ -15831,7 +16074,7 @@ export const mockTVs: TVProduct[] = [
     "isPopular": true,
     "rating": 4.9,
     "reviewCount": 495,
-    "image": "https://aws-obg-image-lb-5.tcl.com/content/dam/brandsite/product/tv/p/p8l/id/75-1.png?t=1765963209238&w=800&webp=true&dpr=1&rendition=2400",
+    "image": "/images/products/tvs/tv-tcl-75-75p8l-75-inc.jpg",
     "highlights": [
       "Tam Arkadan Aydınlatmalı Yerel Karartma",
       "ONKYO 2.1 Hi-Fi System",
@@ -16004,12 +16247,7 @@ export const mockTVs: TVProduct[] = [
       "energyClass": "G"
     },
     "images": [
-      "https://aws-obg-image-lb-5.tcl.com/content/dam/brandsite/product/tv/p/p8l/id/75-1.png?t=1765963209238&w=800&webp=true&dpr=1&rendition=2400",
-      "https://aws-obg-image-lb-1.tcl.com/content/dam/brandsite/it-resources/product/kv/p1@2x.png",
-      "https://aws-obg-image-lb-5.tcl.com/content/dam/brandsite/it-resources/product/kv/p2@2x.png",
-      "https://aws-obg-image-lb-1.tcl.com/content/dam/brandsite/it-resources/product/kv/p3@2x.png",
-      "https://aws-obg-image-lb-1.tcl.com/content/dam/brandsite/product/tv/p/p8l/id/98-1.png",
-      "https://aws-obg-image-lb-1.tcl.com/content/dam/brandsite/product/tv/p/p8l/id/1.png"
+      "/images/products/tvs/tv-tcl-75-75p8l-75-inc.jpg"
     ],
     "epeyScore": 99
   },
@@ -16025,7 +16263,7 @@ export const mockTVs: TVProduct[] = [
     "isPopular": true,
     "rating": 4.7,
     "reviewCount": 435,
-    "image": "https://aws-obg-image-lb-1.tcl.com/content/dam/brandsite/product/tv/p/p8l/id/65-1.png?t=1765963213090&w=800&webp=true&dpr=1&rendition=2400",
+    "image": "/images/products/tvs/tv-tcl-65-65p8l-65-inc.jpg",
     "highlights": [
       "Tam Arkadan Aydınlatmalı Yerel Karartma",
       "ONKYO 2.1 Hi-Fi System",
@@ -16198,12 +16436,7 @@ export const mockTVs: TVProduct[] = [
       "energyClass": "G"
     },
     "images": [
-      "https://aws-obg-image-lb-1.tcl.com/content/dam/brandsite/product/tv/p/p8l/id/65-1.png?t=1765963213090&w=800&webp=true&dpr=1&rendition=2400",
-      "https://aws-obg-image-lb-1.tcl.com/content/dam/brandsite/it-resources/product/kv/p1@2x.png",
-      "https://aws-obg-image-lb-5.tcl.com/content/dam/brandsite/it-resources/product/kv/p2@2x.png",
-      "https://aws-obg-image-lb-1.tcl.com/content/dam/brandsite/it-resources/product/kv/p3@2x.png",
-      "https://aws-obg-image-lb-1.tcl.com/content/dam/brandsite/product/tv/p/p8l/id/98-1.png",
-      "https://aws-obg-image-lb-1.tcl.com/content/dam/brandsite/product/tv/p/p8l/id/1.png"
+      "/images/products/tvs/tv-tcl-65-65p8l-65-inc.jpg"
     ],
     "epeyScore": 98
   },
@@ -16219,7 +16452,7 @@ export const mockTVs: TVProduct[] = [
     "isPopular": false,
     "rating": 4.7,
     "reviewCount": 375,
-    "image": "https://aws-obg-image-lb-3.tcl.com/content/dam/brandsite/product/tv/p/p8l/id/55-1.png?t=1765963216710&w=800&webp=true&dpr=1&rendition=2400",
+    "image": "/images/products/tvs/tv-tcl-55-55p8l-55-inc.jpg",
     "highlights": [
       "Tam Arkadan Aydınlatmalı Yerel Karartma",
       "144Hz Doğal Yenileme Hızı",
@@ -16392,12 +16625,7 @@ export const mockTVs: TVProduct[] = [
       "energyClass": "G"
     },
     "images": [
-      "https://aws-obg-image-lb-3.tcl.com/content/dam/brandsite/product/tv/p/p8l/id/55-1.png?t=1765963216710&w=800&webp=true&dpr=1&rendition=2400",
-      "https://aws-obg-image-lb-1.tcl.com/content/dam/brandsite/it-resources/product/kv/p1@2x.png",
-      "https://aws-obg-image-lb-5.tcl.com/content/dam/brandsite/it-resources/product/kv/p2@2x.png",
-      "https://aws-obg-image-lb-1.tcl.com/content/dam/brandsite/it-resources/product/kv/p3@2x.png",
-      "https://aws-obg-image-lb-1.tcl.com/content/dam/brandsite/product/tv/p/p8l/id/98-1.png",
-      "https://aws-obg-image-lb-1.tcl.com/content/dam/brandsite/product/tv/p/p8l/id/1.png"
+      "/images/products/tvs/tv-tcl-55-55p8l-55-inc.jpg"
     ],
     "epeyScore": 96
   },
@@ -16413,7 +16641,7 @@ export const mockTVs: TVProduct[] = [
     "isPopular": true,
     "rating": 4.9,
     "reviewCount": 555,
-    "image": "https://aws-obg-image-lb-5.tcl.com/content/dam/brandsite/product/tv/p/p7l/id/1.png?t=1767939225155&w=800&webp=true&dpr=1&rendition=2400",
+    "image": "/images/products/tvs/tv-tcl-85-85p7l-85-inc.jpg",
     "highlights": [
       "QLED",
       "ONKYO 2.1 Hi-Fi Sistem*",
@@ -16586,8 +16814,7 @@ export const mockTVs: TVProduct[] = [
       "energyClass": "G"
     },
     "images": [
-      "https://aws-obg-image-lb-5.tcl.com/content/dam/brandsite/product/tv/p/p7l/id/1.png?t=1767939225155&w=800&webp=true&dpr=1&rendition=2400",
-      "https://aws-obg-image-lb-4.tcl.com/content/dam/brandsite/product/tv/p/p7l/id/1.png"
+      "/images/products/tvs/tv-tcl-85-85p7l-85-inc.jpg"
     ],
     "epeyScore": 88
   },
@@ -16603,7 +16830,7 @@ export const mockTVs: TVProduct[] = [
     "isPopular": true,
     "rating": 4.9,
     "reviewCount": 495,
-    "image": "https://aws-obg-image-lb-3.tcl.com/content/dam/brandsite/product/tv/p/p7l/id/1.png?t=1767939225155&w=800&webp=true&dpr=1&rendition=2400",
+    "image": "/images/products/tvs/tv-tcl-75-75p7l-75-inc.jpg",
     "highlights": [
       "QLED",
       "İnce ve Yekpare (Tek Parça) Gövde",
@@ -16776,8 +17003,7 @@ export const mockTVs: TVProduct[] = [
       "energyClass": "G"
     },
     "images": [
-      "https://aws-obg-image-lb-3.tcl.com/content/dam/brandsite/product/tv/p/p7l/id/1.png?t=1767939225155&w=800&webp=true&dpr=1&rendition=2400",
-      "https://aws-obg-image-lb-4.tcl.com/content/dam/brandsite/product/tv/p/p7l/id/1.png"
+      "/images/products/tvs/tv-tcl-75-75p7l-75-inc.jpg"
     ],
     "epeyScore": 86
   },
@@ -16793,7 +17019,7 @@ export const mockTVs: TVProduct[] = [
     "isPopular": true,
     "rating": 4.7,
     "reviewCount": 435,
-    "image": "https://aws-obg-image-lb-4.tcl.com/content/dam/brandsite/product/tv/p/p7l/id/1.png?t=1767939225155&w=800&webp=true&dpr=1&rendition=2400",
+    "image": "/images/products/tvs/tv-tcl-65-65p7l-65-inc.jpg",
     "highlights": [
       "QLED",
       "İnce ve Yekpare (Tek Parça) Gövde",
@@ -16966,8 +17192,7 @@ export const mockTVs: TVProduct[] = [
       "energyClass": "G"
     },
     "images": [
-      "https://aws-obg-image-lb-4.tcl.com/content/dam/brandsite/product/tv/p/p7l/id/1.png?t=1767939225155&w=800&webp=true&dpr=1&rendition=2400",
-      "https://aws-obg-image-lb-4.tcl.com/content/dam/brandsite/product/tv/p/p7l/id/1.png"
+      "/images/products/tvs/tv-tcl-65-65p7l-65-inc.jpg"
     ],
     "epeyScore": 81
   },
@@ -16983,7 +17208,7 @@ export const mockTVs: TVProduct[] = [
     "isPopular": false,
     "rating": 4.7,
     "reviewCount": 375,
-    "image": "https://aws-obg-image-lb-2.tcl.com/content/dam/brandsite/product/tv/p/p7l/id/1.png?t=1767939225155&w=800&webp=true&dpr=1&rendition=2400",
+    "image": "/images/products/tvs/tv-tcl-55-55p7l-55-inc.jpg",
     "highlights": [
       "QLED",
       "İnce ve Yekpare (Tek Parça) Gövde",
@@ -17156,8 +17381,7 @@ export const mockTVs: TVProduct[] = [
       "energyClass": "G"
     },
     "images": [
-      "https://aws-obg-image-lb-2.tcl.com/content/dam/brandsite/product/tv/p/p7l/id/1.png?t=1767939225155&w=800&webp=true&dpr=1&rendition=2400",
-      "https://aws-obg-image-lb-4.tcl.com/content/dam/brandsite/product/tv/p/p7l/id/1.png"
+      "/images/products/tvs/tv-tcl-55-55p7l-55-inc.jpg"
     ],
     "epeyScore": 79
   },
@@ -17173,7 +17397,7 @@ export const mockTVs: TVProduct[] = [
     "isPopular": false,
     "rating": 4.7,
     "reviewCount": 345,
-    "image": "https://aws-obg-image-lb-4.tcl.com/content/dam/brandsite/product/tv/p/p7l/id/1.png?t=1767939225155&w=800&webp=true&dpr=1&rendition=2400",
+    "image": "/images/products/tvs/tv-tcl-50-50p7l-50-inc.jpg",
     "highlights": [
       "QLED",
       "İnce ve Yekpare (Tek Parça) Gövde",
@@ -17346,8 +17570,7 @@ export const mockTVs: TVProduct[] = [
       "energyClass": "G"
     },
     "images": [
-      "https://aws-obg-image-lb-4.tcl.com/content/dam/brandsite/product/tv/p/p7l/id/1.png?t=1767939225155&w=800&webp=true&dpr=1&rendition=2400",
-      "https://aws-obg-image-lb-4.tcl.com/content/dam/brandsite/product/tv/p/p7l/id/1.png"
+      "/images/products/tvs/tv-tcl-50-50p7l-50-inc.jpg"
     ],
     "epeyScore": 79
   },
@@ -17363,7 +17586,7 @@ export const mockTVs: TVProduct[] = [
     "isPopular": true,
     "rating": 4.9,
     "reviewCount": 633,
-    "image": "https://aws-obg-image-lb-2.tcl.com/content/dam/brandsite/product/tv/c/c7l/id/98-1.png?t=1772440044079&w=800&webp=true&dpr=1&rendition=2400",
+    "image": "/images/products/tvs/tv-tcl-98-98c7l-98-inc.jpg",
     "highlights": [
       "Tüm Sahnelerde %100’e Varan BT.2020 Geniş Renk Yelpazes",
       "2.176 Hassas Yerel Karartma Bölgesi",
@@ -17536,10 +17759,7 @@ export const mockTVs: TVProduct[] = [
       "energyClass": "G"
     },
     "images": [
-      "https://aws-obg-image-lb-2.tcl.com/content/dam/brandsite/product/tv/c/c7l/id/98-1.png?t=1772440044079&w=800&webp=true&dpr=1&rendition=2400",
-      "https://aws-obg-image-lb-2.tcl.com/content/dam/brandsite/product/tv/c/c7l/id/98-1.png",
-      "https://aws-obg-image-lb-2.tcl.com/content/dam/brandsite/product/tv/c/c7l/id/1.png",
-      "https://aws-obg-image-lb-3.tcl.com/content/dam/brandsite/product/tv/c/c7l/toolkits/98/card.jpg"
+      "/images/products/tvs/tv-tcl-98-98c7l-98-inc.jpg"
     ],
     "epeyScore": 99
   },
@@ -17555,7 +17775,7 @@ export const mockTVs: TVProduct[] = [
     "isPopular": true,
     "rating": 4.9,
     "reviewCount": 555,
-    "image": "https://aws-obg-image-lb-2.tcl.com/content/dam/brandsite/product/tv/c/c7l/id/1.png?t=1772440038743&w=800&webp=true&dpr=1&rendition=2400",
+    "image": "/images/products/tvs/tv-tcl-85-85c7l-85-inc.jpg",
     "highlights": [
       "Tüm Sahnelerde %100’e Varan BT.2020 Geniş Renk Yelpazes",
       "1.624 Hassas Yerel Karartma Bölgesi",
@@ -17728,10 +17948,7 @@ export const mockTVs: TVProduct[] = [
       "energyClass": "G"
     },
     "images": [
-      "https://aws-obg-image-lb-2.tcl.com/content/dam/brandsite/product/tv/c/c7l/id/1.png?t=1772440038743&w=800&webp=true&dpr=1&rendition=2400",
-      "https://aws-obg-image-lb-2.tcl.com/content/dam/brandsite/product/tv/c/c7l/id/98-1.png",
-      "https://aws-obg-image-lb-2.tcl.com/content/dam/brandsite/product/tv/c/c7l/id/1.png",
-      "https://aws-obg-image-lb-3.tcl.com/content/dam/brandsite/product/tv/c/c7l/toolkits/98/card.jpg"
+      "/images/products/tvs/tv-tcl-85-85c7l-85-inc.jpg"
     ],
     "epeyScore": 99
   },
@@ -17747,7 +17964,7 @@ export const mockTVs: TVProduct[] = [
     "isPopular": true,
     "rating": 4.9,
     "reviewCount": 495,
-    "image": "https://aws-obg-image-lb-5.tcl.com/content/dam/brandsite/product/tv/c/c7l/id/1.png?t=1772440038743&w=800&webp=true&dpr=1&rendition=2400",
+    "image": "/images/products/tvs/tv-tcl-75-75c7l-75-inc.jpg",
     "highlights": [
       "Tüm Sahnelerde %100’e Varan BT.2020 Geniş Renk Yelpazes",
       "1.352 Hassas Yerel Karartma Bölgesi",
@@ -17920,10 +18137,7 @@ export const mockTVs: TVProduct[] = [
       "energyClass": "G"
     },
     "images": [
-      "https://aws-obg-image-lb-5.tcl.com/content/dam/brandsite/product/tv/c/c7l/id/1.png?t=1772440038743&w=800&webp=true&dpr=1&rendition=2400",
-      "https://aws-obg-image-lb-2.tcl.com/content/dam/brandsite/product/tv/c/c7l/id/98-1.png",
-      "https://aws-obg-image-lb-2.tcl.com/content/dam/brandsite/product/tv/c/c7l/id/1.png",
-      "https://aws-obg-image-lb-3.tcl.com/content/dam/brandsite/product/tv/c/c7l/toolkits/98/card.jpg"
+      "/images/products/tvs/tv-tcl-75-75c7l-75-inc.jpg"
     ],
     "epeyScore": 99
   },
@@ -17939,7 +18153,7 @@ export const mockTVs: TVProduct[] = [
     "isPopular": true,
     "rating": 4.7,
     "reviewCount": 435,
-    "image": "https://aws-obg-image-lb-1.tcl.com/content/dam/brandsite/product/tv/c/c7l/id/1.png?t=1772440038743&w=800&webp=true&dpr=1&rendition=2400",
+    "image": "/images/products/tvs/tv-tcl-65-65c7l-65-inc.jpg",
     "highlights": [
       "Tüm Sahnelerde %100’e Varan BT.2020 Geniş Renk Yelpazes",
       "1.152 Hassas Yerel Karartma Bölgesi",
@@ -18112,10 +18326,7 @@ export const mockTVs: TVProduct[] = [
       "energyClass": "G"
     },
     "images": [
-      "https://aws-obg-image-lb-1.tcl.com/content/dam/brandsite/product/tv/c/c7l/id/1.png?t=1772440038743&w=800&webp=true&dpr=1&rendition=2400",
-      "https://aws-obg-image-lb-2.tcl.com/content/dam/brandsite/product/tv/c/c7l/id/98-1.png",
-      "https://aws-obg-image-lb-2.tcl.com/content/dam/brandsite/product/tv/c/c7l/id/1.png",
-      "https://aws-obg-image-lb-3.tcl.com/content/dam/brandsite/product/tv/c/c7l/toolkits/98/card.jpg"
+      "/images/products/tvs/tv-tcl-65-65c7l-65-inc.jpg"
     ],
     "epeyScore": 97
   },
@@ -18131,7 +18342,7 @@ export const mockTVs: TVProduct[] = [
     "isPopular": true,
     "rating": 4.9,
     "reviewCount": 633,
-    "image": "https://aws-obg-image-lb-5.tcl.com/content/dam/brandsite/product/tv/c/c8l/id/98/1.png?t=1773125648894&w=800&webp=true&dpr=1&rendition=2400",
+    "image": "/images/products/tvs/tv-tcl-98-98c8l-98-inc.jpg",
     "highlights": [
       "Tüm Sahnelerde %100'e Varan BT.2020 Geniş Renk Gamı",
       "4.032 Hassas Karartma Bölgesi",
@@ -18304,10 +18515,7 @@ export const mockTVs: TVProduct[] = [
       "energyClass": "G"
     },
     "images": [
-      "https://aws-obg-image-lb-5.tcl.com/content/dam/brandsite/product/tv/c/c8l/id/98/1.png?t=1773125648894&w=800&webp=true&dpr=1&rendition=2400",
-      "https://aws-obg-image-lb-5.tcl.com/content/dam/brandsite/product/tv/c/c8l/id/98/1.png",
-      "https://aws-obg-image-lb-5.tcl.com/content/dam/brandsite/product/tv/c/c8l/id/65-85/1.png",
-      "https://aws-obg-image-lb-2.tcl.com/content/dam/brandsite/product/tv/c/c8l/toolkits/98/card.jpg"
+      "/images/products/tvs/tv-tcl-98-98c8l-98-inc.jpg"
     ],
     "epeyScore": 99
   },
@@ -18323,7 +18531,7 @@ export const mockTVs: TVProduct[] = [
     "isPopular": true,
     "rating": 4.9,
     "reviewCount": 555,
-    "image": "https://aws-obg-image-lb-5.tcl.com/content/dam/brandsite/product/tv/c/c8l/id/65-85/1.png?t=1773125742711&w=800&webp=true&dpr=1&rendition=2400",
+    "image": "/images/products/tvs/tv-tcl-85-85c8l-85-inc.jpg",
     "highlights": [
       "Tüm Sahnelerde %100'e Varan BT.2020 Geniş Renk Gamı",
       "3.200 Hassas Karartma Bölgesi",
@@ -18496,10 +18704,7 @@ export const mockTVs: TVProduct[] = [
       "energyClass": "G"
     },
     "images": [
-      "https://aws-obg-image-lb-5.tcl.com/content/dam/brandsite/product/tv/c/c8l/id/65-85/1.png?t=1773125742711&w=800&webp=true&dpr=1&rendition=2400",
-      "https://aws-obg-image-lb-5.tcl.com/content/dam/brandsite/product/tv/c/c8l/id/98/1.png",
-      "https://aws-obg-image-lb-5.tcl.com/content/dam/brandsite/product/tv/c/c8l/id/65-85/1.png",
-      "https://aws-obg-image-lb-2.tcl.com/content/dam/brandsite/product/tv/c/c8l/toolkits/98/card.jpg"
+      "/images/products/tvs/tv-tcl-85-85c8l-85-inc.jpg"
     ],
     "epeyScore": 99
   },
@@ -18515,7 +18720,7 @@ export const mockTVs: TVProduct[] = [
     "isPopular": true,
     "rating": 4.9,
     "reviewCount": 495,
-    "image": "https://aws-obg-image-lb-1.tcl.com/content/dam/brandsite/product/tv/c/c8l/id/65-85/1.png?t=1773125742711&w=800&webp=true&dpr=1&rendition=2400",
+    "image": "/images/products/tvs/tv-tcl-75-75c8l-75-inc.jpg",
     "highlights": [
       "Tüm Sahnelerde %100'e Varan BT.2020 Geniş Renk Gamı",
       "2.584 Hassas Karartma Bölgesi",
@@ -18688,10 +18893,7 @@ export const mockTVs: TVProduct[] = [
       "energyClass": "G"
     },
     "images": [
-      "https://aws-obg-image-lb-1.tcl.com/content/dam/brandsite/product/tv/c/c8l/id/65-85/1.png?t=1773125742711&w=800&webp=true&dpr=1&rendition=2400",
-      "https://aws-obg-image-lb-5.tcl.com/content/dam/brandsite/product/tv/c/c8l/id/98/1.png",
-      "https://aws-obg-image-lb-5.tcl.com/content/dam/brandsite/product/tv/c/c8l/id/65-85/1.png",
-      "https://aws-obg-image-lb-2.tcl.com/content/dam/brandsite/product/tv/c/c8l/toolkits/98/card.jpg"
+      "/images/products/tvs/tv-tcl-75-75c8l-75-inc.jpg"
     ],
     "epeyScore": 99
   },
@@ -18707,7 +18909,7 @@ export const mockTVs: TVProduct[] = [
     "isPopular": true,
     "rating": 4.7,
     "reviewCount": 435,
-    "image": "https://aws-obg-image-lb-1.tcl.com/content/dam/brandsite/product/tv/c/c8l/id/65-85/1.png?t=1773125742711&w=800&webp=true&dpr=1&rendition=2400",
+    "image": "/images/products/tvs/tv-tcl-65-65c8l-65-inc.jpg",
     "highlights": [
       "Tüm Sahnelerde %100'e Varan BT.2020 Geniş Renk Gamı",
       "2.040 Hassas Karartma Bölgesi",
@@ -18880,10 +19082,7 @@ export const mockTVs: TVProduct[] = [
       "energyClass": "G"
     },
     "images": [
-      "https://aws-obg-image-lb-1.tcl.com/content/dam/brandsite/product/tv/c/c8l/id/65-85/1.png?t=1773125742711&w=800&webp=true&dpr=1&rendition=2400",
-      "https://aws-obg-image-lb-5.tcl.com/content/dam/brandsite/product/tv/c/c8l/id/98/1.png",
-      "https://aws-obg-image-lb-5.tcl.com/content/dam/brandsite/product/tv/c/c8l/id/65-85/1.png",
-      "https://aws-obg-image-lb-2.tcl.com/content/dam/brandsite/product/tv/c/c8l/toolkits/98/card.jpg"
+      "/images/products/tvs/tv-tcl-65-65c8l-65-inc.jpg"
     ],
     "epeyScore": 97
   },
@@ -18899,7 +19098,7 @@ export const mockTVs: TVProduct[] = [
     "isPopular": true,
     "rating": 4.9,
     "reviewCount": 495,
-    "image": "https://aws-obg-image-lb-3.tcl.com/content/dam/brandsite/product/tv/q/q7d-pro/id/1.png?t=1773648906095&w=800&webp=true&dpr=1&rendition=2400",
+    "image": "/images/products/tvs/tv-tcl-75-75q7dpro-75-inc.jpg",
     "highlights": [
       "%100'e Varan BT.2020 Tüm Sahnelerde Geniş Renk Gamı",
       "760 Hassas Karartma Bölgesi",
@@ -19072,9 +19271,7 @@ export const mockTVs: TVProduct[] = [
       "energyClass": "G"
     },
     "images": [
-      "https://aws-obg-image-lb-3.tcl.com/content/dam/brandsite/product/tv/q/q7d-pro/id/1.png?t=1773648906095&w=800&webp=true&dpr=1&rendition=2400",
-      "https://aws-obg-image-lb-3.tcl.com/content/dam/brandsite/product/tv/q/q7d-pro/id/1.png",
-      "https://aws-obg-image-lb-4.tcl.com/content/dam/brandsite/product/tv/q/q7d-pro/id/1.png"
+      "/images/products/tvs/tv-tcl-75-75q7dpro-75-inc.jpg"
     ],
     "epeyScore": 99
   },
@@ -19090,7 +19287,7 @@ export const mockTVs: TVProduct[] = [
     "isPopular": true,
     "rating": 4.7,
     "reviewCount": 435,
-    "image": "https://aws-obg-image-lb-4.tcl.com/content/dam/brandsite/product/tv/q/q7d-pro/id/1.png?t=1773648906095&w=800&webp=true&dpr=1&rendition=2400",
+    "image": "/images/products/tvs/tv-tcl-65-65q7dpro-65-inc.jpg",
     "highlights": [
       "%100'e Varan BT.2020 Tüm Sahnelerde Geniş Renk Gamı",
       "646 Hassas Karartma Bölgesi",
@@ -19263,9 +19460,7 @@ export const mockTVs: TVProduct[] = [
       "energyClass": "G"
     },
     "images": [
-      "https://aws-obg-image-lb-4.tcl.com/content/dam/brandsite/product/tv/q/q7d-pro/id/1.png?t=1773648906095&w=800&webp=true&dpr=1&rendition=2400",
-      "https://aws-obg-image-lb-3.tcl.com/content/dam/brandsite/product/tv/q/q7d-pro/id/1.png",
-      "https://aws-obg-image-lb-4.tcl.com/content/dam/brandsite/product/tv/q/q7d-pro/id/1.png"
+      "/images/products/tvs/tv-tcl-65-65q7dpro-65-inc.jpg"
     ],
     "epeyScore": 97
   },
@@ -19281,7 +19476,7 @@ export const mockTVs: TVProduct[] = [
     "isPopular": false,
     "rating": 4.7,
     "reviewCount": 375,
-    "image": "https://aws-obg-image-lb-5.tcl.com/content/dam/brandsite/product/tv/q/q7d-pro/id/1.png?t=1773648906095&w=800&webp=true&dpr=1&rendition=2400",
+    "image": "/images/products/tvs/tv-tcl-55-55q7dpro-55-inc.jpg",
     "highlights": [
       "%100'e Varan BT.2020 Tüm Sahnelerde Geniş Renk Gamı",
       "480 Hassas Karartma Bölgesi",
@@ -19454,9 +19649,7 @@ export const mockTVs: TVProduct[] = [
       "energyClass": "G"
     },
     "images": [
-      "https://aws-obg-image-lb-5.tcl.com/content/dam/brandsite/product/tv/q/q7d-pro/id/1.png?t=1773648906095&w=800&webp=true&dpr=1&rendition=2400",
-      "https://aws-obg-image-lb-3.tcl.com/content/dam/brandsite/product/tv/q/q7d-pro/id/1.png",
-      "https://aws-obg-image-lb-4.tcl.com/content/dam/brandsite/product/tv/q/q7d-pro/id/1.png"
+      "/images/products/tvs/tv-tcl-55-55q7dpro-55-inc.jpg"
     ],
     "epeyScore": 95
   },
@@ -19472,7 +19665,7 @@ export const mockTVs: TVProduct[] = [
     "isPopular": true,
     "rating": 4.9,
     "reviewCount": 495,
-    "image": "https://aws-obg-image-lb-1.tcl.com/content/dam/brandsite/product/tv/p/p8k/id/75-1.png?t=1741760077328&w=800&webp=true&dpr=1&rendition=2400",
+    "image": "/images/products/tvs/tv-tcl-75-75p89k-75-inc.jpg",
     "highlights": [
       "QLED",
       "144Hz Gerçek Yenileme Hızı",
@@ -19644,7 +19837,10 @@ export const mockTVs: TVProduct[] = [
       "usbPorts": 2,
       "energyClass": "G"
     },
-    "epeyScore": 86
+    "epeyScore": 86,
+    "images": [
+      "/images/products/tvs/tv-tcl-75-75p89k-75-inc.jpg"
+    ]
   },
   {
     "id": "tv-tcl-65-65p89k-65-inc",
@@ -19658,7 +19854,7 @@ export const mockTVs: TVProduct[] = [
     "isPopular": true,
     "rating": 4.7,
     "reviewCount": 435,
-    "image": "https://aws-obg-image-lb-2.tcl.com/content/dam/brandsite/product/tv/p/p8k/id/65-55-1.png?t=1741760071014&w=800&webp=true&dpr=1&rendition=2400",
+    "image": "/images/products/tvs/tv-tcl-65-65p89k-65-inc.jpg",
     "highlights": [
       "QLED",
       "144Hz Gerçek Yenileme Hızı",
@@ -19830,7 +20026,10 @@ export const mockTVs: TVProduct[] = [
       "usbPorts": 2,
       "energyClass": "G"
     },
-    "epeyScore": 82
+    "epeyScore": 82,
+    "images": [
+      "/images/products/tvs/tv-tcl-65-65p89k-65-inc.jpg"
+    ]
   },
   {
     "id": "tv-tcl-55-55p89k-55-inc",
@@ -19844,7 +20043,7 @@ export const mockTVs: TVProduct[] = [
     "isPopular": false,
     "rating": 4.7,
     "reviewCount": 375,
-    "image": "https://aws-obg-image-lb-5.tcl.com/content/dam/brandsite/product/tv/p/p8k/id/65-55-1.png?t=1741760071014&w=800&webp=true&dpr=1&rendition=2400",
+    "image": "/images/products/tvs/tv-tcl-55-55p89k-55-inc.jpg",
     "highlights": [
       "QLED",
       "144Hz Gerçek Yenileme Hızı",
@@ -20016,7 +20215,10 @@ export const mockTVs: TVProduct[] = [
       "usbPorts": 2,
       "energyClass": "G"
     },
-    "epeyScore": 80
+    "epeyScore": 80,
+    "images": [
+      "/images/products/tvs/tv-tcl-55-55p89k-55-inc.jpg"
+    ]
   },
   {
     "id": "tv-tcl-98-98c6k-98-inc",
@@ -20030,7 +20232,7 @@ export const mockTVs: TVProduct[] = [
     "isPopular": true,
     "rating": 4.9,
     "reviewCount": 633,
-    "image": "https://aws-obg-image-lb-5.tcl.com/content/dam/brandsite/product/tv/c/98c6k/id/1.png?t=1750760867775&w=800&webp=true&dpr=1&rendition=2400",
+    "image": "/images/products/tvs/tv-tcl-98-98c6k-98-inc.jpg",
     "highlights": [
       "512 Bölgeye Kadar Hassas Karartma Serisi",
       "Yüksek HDR Parlaklık",
@@ -20203,10 +20405,7 @@ export const mockTVs: TVProduct[] = [
       "energyClass": "G"
     },
     "images": [
-      "https://aws-obg-image-lb-5.tcl.com/content/dam/brandsite/product/tv/c/98c6k/id/1.png?t=1750760867775&w=800&webp=true&dpr=1&rendition=2400",
-      "https://aws-obg-image-lb-5.tcl.com/content/dam/brandsite/product/tv/c/98c6k/id/1.png",
-      "https://aws-obg-image-lb-4.tcl.com/content/dam/brandsite/product/tv/c/c6k/id/1.jpg",
-      "https://aws-obg-image-lb-3.tcl.com/content/dam/brandsite/product/tv/c/c6k/toolkits/product-card.png"
+      "/images/products/tvs/tv-tcl-98-98c6k-98-inc.jpg"
     ],
     "epeyScore": 99
   },
@@ -20222,7 +20421,7 @@ export const mockTVs: TVProduct[] = [
     "isPopular": true,
     "rating": 4.9,
     "reviewCount": 495,
-    "image": "https://resim.epey.com/1012378/k_tcl-75c6k-6921732849962-5.jpg",
+    "image": "/images/products/tvs/tv-tcl-75-75c6k-75-inc.jpg",
     "highlights": [
       "512 Bölgeye Kadar Hassas Karartma Serisi",
       "Yüksek HDR Parlaklık",
@@ -20395,10 +20594,7 @@ export const mockTVs: TVProduct[] = [
       "energyClass": "G"
     },
     "images": [
-      "https://aws-obg-image-lb-4.tcl.com/content/dam/brandsite/product/tv/c/c6k/id/1.jpg?t=1737536432173&w=800&webp=true&dpr=1&rendition=2400",
-      "https://aws-obg-image-lb-5.tcl.com/content/dam/brandsite/product/tv/c/98c6k/id/1.png",
-      "https://aws-obg-image-lb-4.tcl.com/content/dam/brandsite/product/tv/c/c6k/id/1.jpg",
-      "https://aws-obg-image-lb-3.tcl.com/content/dam/brandsite/product/tv/c/c6k/toolkits/product-card.png"
+      "/images/products/tvs/tv-tcl-75-75c6k-75-inc.jpg"
     ],
     "epeyScore": 99
   },
@@ -20414,7 +20610,7 @@ export const mockTVs: TVProduct[] = [
     "isPopular": true,
     "rating": 4.7,
     "reviewCount": 435,
-    "image": "https://resim.epey.com/1011770/k_tcl-65c6k-6921732849962-5.jpg",
+    "image": "/images/products/tvs/tv-tcl-65-65c6k-65-inc.jpg",
     "highlights": [
       "512 Bölgeye Kadar Hassas Karartma Serisi",
       "Yüksek HDR Parlaklık",
@@ -20587,10 +20783,7 @@ export const mockTVs: TVProduct[] = [
       "energyClass": "G"
     },
     "images": [
-      "https://aws-obg-image-lb-3.tcl.com/content/dam/brandsite/product/tv/c/c6k/id/1.jpg?t=1737536432173&w=800&webp=true&dpr=1&rendition=2400",
-      "https://aws-obg-image-lb-5.tcl.com/content/dam/brandsite/product/tv/c/98c6k/id/1.png",
-      "https://aws-obg-image-lb-4.tcl.com/content/dam/brandsite/product/tv/c/c6k/id/1.jpg",
-      "https://aws-obg-image-lb-3.tcl.com/content/dam/brandsite/product/tv/c/c6k/toolkits/product-card.png"
+      "/images/products/tvs/tv-tcl-65-65c6k-65-inc.jpg"
     ],
     "epeyScore": 97
   },
@@ -20606,7 +20799,7 @@ export const mockTVs: TVProduct[] = [
     "isPopular": false,
     "rating": 4.7,
     "reviewCount": 375,
-    "image": "https://aws-obg-image-lb-2.tcl.com/content/dam/brandsite/product/tv/c/c6k/id/1.jpg?t=1737536432173&w=800&webp=true&dpr=1&rendition=2400",
+    "image": "/images/products/tvs/tv-tcl-55-55c6k-55-inc.jpg",
     "highlights": [
       "512 Bölgeye Kadar Hassas Karartma Serisi",
       "Yüksek HDR Parlaklık",
@@ -20779,10 +20972,7 @@ export const mockTVs: TVProduct[] = [
       "energyClass": "G"
     },
     "images": [
-      "https://aws-obg-image-lb-2.tcl.com/content/dam/brandsite/product/tv/c/c6k/id/1.jpg?t=1737536432173&w=800&webp=true&dpr=1&rendition=2400",
-      "https://aws-obg-image-lb-5.tcl.com/content/dam/brandsite/product/tv/c/98c6k/id/1.png",
-      "https://aws-obg-image-lb-4.tcl.com/content/dam/brandsite/product/tv/c/c6k/id/1.jpg",
-      "https://aws-obg-image-lb-3.tcl.com/content/dam/brandsite/product/tv/c/c6k/toolkits/product-card.png"
+      "/images/products/tvs/tv-tcl-55-55c6k-55-inc.jpg"
     ],
     "epeyScore": 95
   },
@@ -20794,7 +20984,7 @@ export const mockTVs: TVProduct[] = [
     "basePrice": 999999,
     "releaseYear": 2024,
     "isPopular": true,
-    "image": "/images/products/tvs/tcl-115x955-max-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "slug": "tcl-115x955-max",
     "specs": {
       "screenSizeInches": 115,
@@ -20888,8 +21078,7 @@ export const mockTVs: TVProduct[] = [
     "reviewCount": 16,
     "currency": "TL",
     "images": [
-      "/images/products/tvs/tcl-115x955-max-1.jpg",
-      "https://resim.epey.com/955587/k_tcl-115x955-max-8.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "isFeatured": true,
     "epeyScore": 97
@@ -20902,7 +21091,7 @@ export const mockTVs: TVProduct[] = [
     "basePrice": 89999,
     "releaseYear": 2026,
     "isPopular": true,
-    "image": "https://aws-obg-image-lb-2.tcl.com/content/dam/brandsite/region/de/nav/quick-link-c7k.jpg?t=1767073426155&w=800",
+    "image": "/images/products/tvs/tcl-85c7k-qd-mini-led.jpg",
     "slug": "tcl-85c7k-85-inch-qd-mini-led-tv",
     "specs": {
       "screenSizeInches": 85,
@@ -20983,7 +21172,10 @@ export const mockTVs: TVProduct[] = [
     "rating": 4.8,
     "reviewCount": 120,
     "currency": "TL",
-    "epeyScore": 99
+    "epeyScore": 99,
+    "images": [
+      "/images/products/tvs/tcl-85c7k-qd-mini-led.jpg"
+    ]
   },
   {
     "id": "tcl-65c6ks-qd-mini-led-slim",
@@ -20993,7 +21185,7 @@ export const mockTVs: TVProduct[] = [
     "basePrice": 46999,
     "releaseYear": 2026,
     "isPopular": false,
-    "image": "https://resim.epey.com/1011770/k_tcl-65c6k-6921732849962-5.jpg",
+    "image": "/images/products/tvs/tcl-65c6ks-qd-mini-led-slim.jpg",
     "slug": "tcl-65c6ks-65-inch-slim-qd-mini-led-tv",
     "specs": {
       "screenSizeInches": 65,
@@ -21061,10 +21253,7 @@ export const mockTVs: TVProduct[] = [
     "reviewCount": 120,
     "currency": "TL",
     "images": [
-      "https://aws-obg-image-lb-3.tcl.com/content/dam/brandsite/region/de/nav/quick-link-c6k.jpg?t=1767073426380&w=800",
-      "https://aws-obg-image-lb-5.tcl.com/content/dam/brandsite/product/tv/c/98c6k/id/1.png",
-      "https://aws-obg-image-lb-4.tcl.com/content/dam/brandsite/product/tv/c/c6k/id/1.jpg",
-      "https://aws-obg-image-lb-3.tcl.com/content/dam/brandsite/product/tv/c/c6k/toolkits/product-card.png"
+      "/images/products/tvs/tcl-65c6ks-qd-mini-led-slim.jpg"
     ],
     "epeyScore": 97
   },
@@ -21094,10 +21283,9 @@ export const mockTVs: TVProduct[] = [
       "VIDAA",
       "55 inç"
     ],
-    "image": "https://hisense.hgecdn.net/medias/MABAGOR-300Wx300H-mabagor-imagelib-full-trim-e-e-ee1501f36be31073cc7d69455452733d-326922-1.jpg?context=bWFzdGVyfG1hYmFnb3Jwcm9kdWN0aW1hZ2VzfDI3MzA3fGltYWdlL2pwZWd8YURBMkwyZ3dOeTh4TlRjeU1UUXhPREUyTWpJd05pOU5RVUpCUjA5U0xUTXdNRmQ0TXpBd1NGOHZiV0ZpWVdkdmNpOXBiV0ZuWld4cFlpOW1kV3hzTFhSeWFXMHZaUzlsTDJWbE1UVXdNV1l6Tm1KbE16RXdOek5qWXpka05qazBOVFUwTlRJM016TmtYek15TmpreU1sOHhMbXB3Wnd8YTVkNGExMzQzZjBjNzBmZTQxNGY5YzU0N2MzYzdiMjI1YWNhNjUzMjAwZDQzZmY2NGYwOGNmOGY0OTA3Zjk1MA",
+    "image": "/images/products/tvs/hisense-55e7s.jpg",
     "images": [
-      "https://hisense.hgecdn.net/medias/MABAGOR-300Wx300H-mabagor-imagelib-full-trim-b-0-b0ebc8ea4947bdb66d8936f0861e9925-327610-1.jpg?context=bWFzdGVyfG1hYmFnb3Jwcm9kdWN0aW1hZ2VzfDMzMjkwfGltYWdlL2pwZWd8YURBekwyZ3dZUzh4TlRjeU1UUXhPREl5TnpjME1pOU5RVUpCUjA5U0xUTXdNRmQ0TXpBd1NGOHZiV0ZpWVdkdmNpOXBiV0ZuWld4cFlpOW1kV3hzTFhSeWFXMHZZaTh3TDJJd1pXSmpPR1ZoTkRrME4ySmtZalkyWkRnNU16Wm1NRGcyTVdVNU9USTFYek15TnpZeE1GOHhMbXB3Wnd8OTgwOTQxYWVlNTA3NmMxMzg5MWUxNmViNWNkY2Y2MmYwZWIxOWFhODA4NTk4OWIwNzM2OWY0MTcxZThiYjg3Mg",
-      "https://hisense.hgecdn.net/medias/MABAGOR-300Wx300H-mabagor-imagelib-full-trim-1-0-101872c9bdc6fb51869b9a244a15735f-327735-1.jpg?context=bWFzdGVyfG1hYmFnb3Jwcm9kdWN0aW1hZ2VzfDI3NjkzfGltYWdlL2pwZWd8YUdGa0wyZzNNeTh4TlRjeU1UUXhPVEl4TURjNE1pOU5RVUpCUjA5U0xUTXdNRmQ0TXpBd1NGOHZiV0ZpWVdkdmNpOXBiV0ZuWld4cFlpOW1kV3hzTFhSeWFXMHZNUzh3THpFd01UZzNNbU01WW1Sak5tWmlOVEU0TmpsaU9XRXlORFJoTVRVM016Vm1Yek15Tnpjek5WOHhMbXB3Wnd8ZTg4YTk3YzdmNGRiYWQ1NjNmNDQ5NjBmNzlkNjFhNDU5MGRjZTljYzNmYWNjOWJiZTViOGEyOTc3NmNiMDk4Yg"
+      "/images/products/tvs/hisense-55e7s.jpg"
     ],
     "storeOffers": [
       {
@@ -21199,10 +21387,9 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "65 inç"
     ],
-    "image": "https://hisense.hgecdn.net/medias/MABAGOR-300Wx300H-mabagor-imagelib-full-trim-e-e-ee1501f36be31073cc7d69455452733d-326922-1.jpg?context=bWFzdGVyfG1hYmFnb3Jwcm9kdWN0aW1hZ2VzfDI3MzA3fGltYWdlL2pwZWd8YURBMkwyZ3dOeTh4TlRjeU1UUXhPREUyTWpJd05pOU5RVUpCUjA5U0xUTXdNRmQ0TXpBd1NGOHZiV0ZpWVdkdmNpOXBiV0ZuWld4cFlpOW1kV3hzTFhSeWFXMHZaUzlsTDJWbE1UVXdNV1l6Tm1KbE16RXdOek5qWXpka05qazBOVFUwTlRJM016TmtYek15TmpreU1sOHhMbXB3Wnd8YTVkNGExMzQzZjBjNzBmZTQxNGY5YzU0N2MzYzdiMjI1YWNhNjUzMjAwZDQzZmY2NGYwOGNmOGY0OTA3Zjk1MA",
+    "image": "/images/products/tvs/hisense-65e7s.jpg",
     "images": [
-      "https://hisense.hgecdn.net/medias/MABAGOR-300Wx300H-mabagor-imagelib-full-trim-b-0-b0ebc8ea4947bdb66d8936f0861e9925-327610-1.jpg?context=bWFzdGVyfG1hYmFnb3Jwcm9kdWN0aW1hZ2VzfDMzMjkwfGltYWdlL2pwZWd8YURBekwyZ3dZUzh4TlRjeU1UUXhPREl5TnpjME1pOU5RVUpCUjA5U0xUTXdNRmQ0TXpBd1NGOHZiV0ZpWVdkdmNpOXBiV0ZuWld4cFlpOW1kV3hzTFhSeWFXMHZZaTh3TDJJd1pXSmpPR1ZoTkRrME4ySmtZalkyWkRnNU16Wm1NRGcyTVdVNU9USTFYek15TnpZeE1GOHhMbXB3Wnd8OTgwOTQxYWVlNTA3NmMxMzg5MWUxNmViNWNkY2Y2MmYwZWIxOWFhODA4NTk4OWIwNzM2OWY0MTcxZThiYjg3Mg",
-      "https://hisense.hgecdn.net/medias/MABAGOR-300Wx300H-mabagor-imagelib-full-trim-1-0-101872c9bdc6fb51869b9a244a15735f-327735-1.jpg?context=bWFzdGVyfG1hYmFnb3Jwcm9kdWN0aW1hZ2VzfDI3NjkzfGltYWdlL2pwZWd8YUdGa0wyZzNNeTh4TlRjeU1UUXhPVEl4TURjNE1pOU5RVUpCUjA5U0xUTXdNRmQ0TXpBd1NGOHZiV0ZpWVdkdmNpOXBiV0ZuWld4cFlpOW1kV3hzTFhSeWFXMHZNUzh3THpFd01UZzNNbU01WW1Sak5tWmlOVEU0TmpsaU9XRXlORFJoTVRVM016Vm1Yek15Tnpjek5WOHhMbXB3Wnd8ZTg4YTk3YzdmNGRiYWQ1NjNmNDQ5NjBmNzlkNjFhNDU5MGRjZTljYzNmYWNjOWJiZTViOGEyOTc3NmNiMDk4Yg"
+      "/images/products/tvs/hisense-65e7s.jpg"
     ],
     "storeOffers": [
       {
@@ -21290,10 +21477,9 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "75 inç"
     ],
-    "image": "https://hisense.hgecdn.net/medias/MABAGOR-300Wx300H-mabagor-imagelib-full-trim-e-e-ee1501f36be31073cc7d69455452733d-326922-1.jpg?context=bWFzdGVyfG1hYmFnb3Jwcm9kdWN0aW1hZ2VzfDI3MzA3fGltYWdlL2pwZWd8YURBMkwyZ3dOeTh4TlRjeU1UUXhPREUyTWpJd05pOU5RVUpCUjA5U0xUTXdNRmQ0TXpBd1NGOHZiV0ZpWVdkdmNpOXBiV0ZuWld4cFlpOW1kV3hzTFhSeWFXMHZaUzlsTDJWbE1UVXdNV1l6Tm1KbE16RXdOek5qWXpka05qazBOVFUwTlRJM016TmtYek15TmpreU1sOHhMbXB3Wnd8YTVkNGExMzQzZjBjNzBmZTQxNGY5YzU0N2MzYzdiMjI1YWNhNjUzMjAwZDQzZmY2NGYwOGNmOGY0OTA3Zjk1MA",
+    "image": "/images/products/tvs/hisense-75e7s.jpg",
     "images": [
-      "https://hisense.hgecdn.net/medias/MABAGOR-300Wx300H-mabagor-imagelib-full-trim-b-0-b0ebc8ea4947bdb66d8936f0861e9925-327610-1.jpg?context=bWFzdGVyfG1hYmFnb3Jwcm9kdWN0aW1hZ2VzfDMzMjkwfGltYWdlL2pwZWd8YURBekwyZ3dZUzh4TlRjeU1UUXhPREl5TnpjME1pOU5RVUpCUjA5U0xUTXdNRmQ0TXpBd1NGOHZiV0ZpWVdkdmNpOXBiV0ZuWld4cFlpOW1kV3hzTFhSeWFXMHZZaTh3TDJJd1pXSmpPR1ZoTkRrME4ySmtZalkyWkRnNU16Wm1NRGcyTVdVNU9USTFYek15TnpZeE1GOHhMbXB3Wnd8OTgwOTQxYWVlNTA3NmMxMzg5MWUxNmViNWNkY2Y2MmYwZWIxOWFhODA4NTk4OWIwNzM2OWY0MTcxZThiYjg3Mg",
-      "https://hisense.hgecdn.net/medias/MABAGOR-300Wx300H-mabagor-imagelib-full-trim-1-0-101872c9bdc6fb51869b9a244a15735f-327735-1.jpg?context=bWFzdGVyfG1hYmFnb3Jwcm9kdWN0aW1hZ2VzfDI3NjkzfGltYWdlL2pwZWd8YUdGa0wyZzNNeTh4TlRjeU1UUXhPVEl4TURjNE1pOU5RVUpCUjA5U0xUTXdNRmQ0TXpBd1NGOHZiV0ZpWVdkdmNpOXBiV0ZuWld4cFlpOW1kV3hzTFhSeWFXMHZNUzh3THpFd01UZzNNbU01WW1Sak5tWmlOVEU0TmpsaU9XRXlORFJoTVRVM016Vm1Yek15Tnpjek5WOHhMbXB3Wnd8ZTg4YTk3YzdmNGRiYWQ1NjNmNDQ5NjBmNzlkNjFhNDU5MGRjZTljYzNmYWNjOWJiZTViOGEyOTc3NmNiMDk4Yg"
+      "/images/products/tvs/hisense-75e7s.jpg"
     ],
     "storeOffers": [
       {
@@ -21382,10 +21568,9 @@ export const mockTVs: TVProduct[] = [
       "4K",
       "55 inç"
     ],
-    "image": "https://hisense.hgecdn.net/medias/MABAGOR-300Wx300H-mabagor-imagelib-full-trim-b-0-b0ebc8ea4947bdb66d8936f0861e9925-327610-1.jpg?context=bWFzdGVyfG1hYmFnb3Jwcm9kdWN0aW1hZ2VzfDMzMjkwfGltYWdlL2pwZWd8YURBekwyZ3dZUzh4TlRjeU1UUXhPREl5TnpjME1pOU5RVUpCUjA5U0xUTXdNRmQ0TXpBd1NGOHZiV0ZpWVdkdmNpOXBiV0ZuWld4cFlpOW1kV3hzTFhSeWFXMHZZaTh3TDJJd1pXSmpPR1ZoTkRrME4ySmtZalkyWkRnNU16Wm1NRGcyTVdVNU9USTFYek15TnpZeE1GOHhMbXB3Wnd8OTgwOTQxYWVlNTA3NmMxMzg5MWUxNmViNWNkY2Y2MmYwZWIxOWFhODA4NTk4OWIwNzM2OWY0MTcxZThiYjg3Mg",
+    "image": "/images/products/tvs/hisense-55e7s-pro.jpg",
     "images": [
-      "https://hisense.hgecdn.net/medias/MABAGOR-300Wx300H-mabagor-imagelib-full-trim-1-0-101872c9bdc6fb51869b9a244a15735f-327735-1.jpg?context=bWFzdGVyfG1hYmFnb3Jwcm9kdWN0aW1hZ2VzfDI3NjkzfGltYWdlL2pwZWd8YUdGa0wyZzNNeTh4TlRjeU1UUXhPVEl4TURjNE1pOU5RVUpCUjA5U0xUTXdNRmQ0TXpBd1NGOHZiV0ZpWVdkdmNpOXBiV0ZuWld4cFlpOW1kV3hzTFhSeWFXMHZNUzh3THpFd01UZzNNbU01WW1Sak5tWmlOVEU0TmpsaU9XRXlORFJoTVRVM016Vm1Yek15Tnpjek5WOHhMbXB3Wnd8ZTg4YTk3YzdmNGRiYWQ1NjNmNDQ5NjBmNzlkNjFhNDU5MGRjZTljYzNmYWNjOWJiZTViOGEyOTc3NmNiMDk4Yg",
-      "https://hisense.hgecdn.net/medias/MABAGOR-300Wx300H-mabagor-imagelib-full-trim-e-e-ee1501f36be31073cc7d69455452733d-326922-1.jpg?context=bWFzdGVyfG1hYmFnb3Jwcm9kdWN0aW1hZ2VzfDI3MzA3fGltYWdlL2pwZWd8YURBMkwyZ3dOeTh4TlRjeU1UUXhPREUyTWpJd05pOU5RVUpCUjA5U0xUTXdNRmQ0TXpBd1NGOHZiV0ZpWVdkdmNpOXBiV0ZuWld4cFlpOW1kV3hzTFhSeWFXMHZaUzlsTDJWbE1UVXdNV1l6Tm1KbE16RXdOek5qWXpka05qazBOVFUwTlRJM016TmtYek15TmpreU1sOHhMbXB3Wnd8YTVkNGExMzQzZjBjNzBmZTQxNGY5YzU0N2MzYzdiMjI1YWNhNjUzMjAwZDQzZmY2NGYwOGNmOGY0OTA3Zjk1MA"
+      "/images/products/tvs/hisense-55e7s-pro.jpg"
     ],
     "storeOffers": [
       {
@@ -21474,10 +21659,9 @@ export const mockTVs: TVProduct[] = [
       "4K",
       "65 inç"
     ],
-    "image": "https://hisense.hgecdn.net/medias/MABAGOR-300Wx300H-mabagor-imagelib-full-trim-b-0-b0ebc8ea4947bdb66d8936f0861e9925-327610-1.jpg?context=bWFzdGVyfG1hYmFnb3Jwcm9kdWN0aW1hZ2VzfDMzMjkwfGltYWdlL2pwZWd8YURBekwyZ3dZUzh4TlRjeU1UUXhPREl5TnpjME1pOU5RVUpCUjA5U0xUTXdNRmQ0TXpBd1NGOHZiV0ZpWVdkdmNpOXBiV0ZuWld4cFlpOW1kV3hzTFhSeWFXMHZZaTh3TDJJd1pXSmpPR1ZoTkRrME4ySmtZalkyWkRnNU16Wm1NRGcyTVdVNU9USTFYek15TnpZeE1GOHhMbXB3Wnd8OTgwOTQxYWVlNTA3NmMxMzg5MWUxNmViNWNkY2Y2MmYwZWIxOWFhODA4NTk4OWIwNzM2OWY0MTcxZThiYjg3Mg",
+    "image": "/images/products/tvs/hisense-65e7s-pro.jpg",
     "images": [
-      "https://hisense.hgecdn.net/medias/MABAGOR-300Wx300H-mabagor-imagelib-full-trim-1-0-101872c9bdc6fb51869b9a244a15735f-327735-1.jpg?context=bWFzdGVyfG1hYmFnb3Jwcm9kdWN0aW1hZ2VzfDI3NjkzfGltYWdlL2pwZWd8YUdGa0wyZzNNeTh4TlRjeU1UUXhPVEl4TURjNE1pOU5RVUpCUjA5U0xUTXdNRmQ0TXpBd1NGOHZiV0ZpWVdkdmNpOXBiV0ZuWld4cFlpOW1kV3hzTFhSeWFXMHZNUzh3THpFd01UZzNNbU01WW1Sak5tWmlOVEU0TmpsaU9XRXlORFJoTVRVM016Vm1Yek15Tnpjek5WOHhMbXB3Wnd8ZTg4YTk3YzdmNGRiYWQ1NjNmNDQ5NjBmNzlkNjFhNDU5MGRjZTljYzNmYWNjOWJiZTViOGEyOTc3NmNiMDk4Yg",
-      "https://hisense.hgecdn.net/medias/MABAGOR-300Wx300H-mabagor-imagelib-full-trim-e-e-ee1501f36be31073cc7d69455452733d-326922-1.jpg?context=bWFzdGVyfG1hYmFnb3Jwcm9kdWN0aW1hZ2VzfDI3MzA3fGltYWdlL2pwZWd8YURBMkwyZ3dOeTh4TlRjeU1UUXhPREUyTWpJd05pOU5RVUpCUjA5U0xUTXdNRmQ0TXpBd1NGOHZiV0ZpWVdkdmNpOXBiV0ZuWld4cFlpOW1kV3hzTFhSeWFXMHZaUzlsTDJWbE1UVXdNV1l6Tm1KbE16RXdOek5qWXpka05qazBOVFUwTlRJM016TmtYek15TmpreU1sOHhMbXB3Wnd8YTVkNGExMzQzZjBjNzBmZTQxNGY5YzU0N2MzYzdiMjI1YWNhNjUzMjAwZDQzZmY2NGYwOGNmOGY0OTA3Zjk1MA"
+      "/images/products/tvs/hisense-65e7s-pro.jpg"
     ],
     "storeOffers": [
       {
@@ -21566,10 +21750,9 @@ export const mockTVs: TVProduct[] = [
       "4K",
       "75 inç"
     ],
-    "image": "https://hisense.hgecdn.net/medias/MABAGOR-300Wx300H-mabagor-imagelib-full-trim-b-0-b0ebc8ea4947bdb66d8936f0861e9925-327610-1.jpg?context=bWFzdGVyfG1hYmFnb3Jwcm9kdWN0aW1hZ2VzfDMzMjkwfGltYWdlL2pwZWd8YURBekwyZ3dZUzh4TlRjeU1UUXhPREl5TnpjME1pOU5RVUpCUjA5U0xUTXdNRmQ0TXpBd1NGOHZiV0ZpWVdkdmNpOXBiV0ZuWld4cFlpOW1kV3hzTFhSeWFXMHZZaTh3TDJJd1pXSmpPR1ZoTkRrME4ySmtZalkyWkRnNU16Wm1NRGcyTVdVNU9USTFYek15TnpZeE1GOHhMbXB3Wnd8OTgwOTQxYWVlNTA3NmMxMzg5MWUxNmViNWNkY2Y2MmYwZWIxOWFhODA4NTk4OWIwNzM2OWY0MTcxZThiYjg3Mg",
+    "image": "/images/products/tvs/hisense-75e7s-pro.jpg",
     "images": [
-      "https://hisense.hgecdn.net/medias/MABAGOR-300Wx300H-mabagor-imagelib-full-trim-1-0-101872c9bdc6fb51869b9a244a15735f-327735-1.jpg?context=bWFzdGVyfG1hYmFnb3Jwcm9kdWN0aW1hZ2VzfDI3NjkzfGltYWdlL2pwZWd8YUdGa0wyZzNNeTh4TlRjeU1UUXhPVEl4TURjNE1pOU5RVUpCUjA5U0xUTXdNRmQ0TXpBd1NGOHZiV0ZpWVdkdmNpOXBiV0ZuWld4cFlpOW1kV3hzTFhSeWFXMHZNUzh3THpFd01UZzNNbU01WW1Sak5tWmlOVEU0TmpsaU9XRXlORFJoTVRVM016Vm1Yek15Tnpjek5WOHhMbXB3Wnd8ZTg4YTk3YzdmNGRiYWQ1NjNmNDQ5NjBmNzlkNjFhNDU5MGRjZTljYzNmYWNjOWJiZTViOGEyOTc3NmNiMDk4Yg",
-      "https://hisense.hgecdn.net/medias/MABAGOR-300Wx300H-mabagor-imagelib-full-trim-e-e-ee1501f36be31073cc7d69455452733d-326922-1.jpg?context=bWFzdGVyfG1hYmFnb3Jwcm9kdWN0aW1hZ2VzfDI3MzA3fGltYWdlL2pwZWd8YURBMkwyZ3dOeTh4TlRjeU1UUXhPREUyTWpJd05pOU5RVUpCUjA5U0xUTXdNRmQ0TXpBd1NGOHZiV0ZpWVdkdmNpOXBiV0ZuWld4cFlpOW1kV3hzTFhSeWFXMHZaUzlsTDJWbE1UVXdNV1l6Tm1KbE16RXdOek5qWXpka05qazBOVFUwTlRJM016TmtYek15TmpreU1sOHhMbXB3Wnd8YTVkNGExMzQzZjBjNzBmZTQxNGY5YzU0N2MzYzdiMjI1YWNhNjUzMjAwZDQzZmY2NGYwOGNmOGY0OTA3Zjk1MA"
+      "/images/products/tvs/hisense-75e7s-pro.jpg"
     ],
     "storeOffers": [
       {
@@ -21658,10 +21841,9 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "55 inç"
     ],
-    "image": "https://hisense.hgecdn.net/medias/MABAGOR-300Wx300H-mabagor-imagelib-full-trim-1-0-101872c9bdc6fb51869b9a244a15735f-327735-1.jpg?context=bWFzdGVyfG1hYmFnb3Jwcm9kdWN0aW1hZ2VzfDI3NjkzfGltYWdlL2pwZWd8YUdGa0wyZzNNeTh4TlRjeU1UUXhPVEl4TURjNE1pOU5RVUpCUjA5U0xUTXdNRmQ0TXpBd1NGOHZiV0ZpWVdkdmNpOXBiV0ZuWld4cFlpOW1kV3hzTFhSeWFXMHZNUzh3THpFd01UZzNNbU01WW1Sak5tWmlOVEU0TmpsaU9XRXlORFJoTVRVM016Vm1Yek15Tnpjek5WOHhMbXB3Wnd8ZTg4YTk3YzdmNGRiYWQ1NjNmNDQ5NjBmNzlkNjFhNDU5MGRjZTljYzNmYWNjOWJiZTViOGEyOTc3NmNiMDk4Yg",
+    "image": "/images/products/tvs/hisense-55e8s.jpg",
     "images": [
-      "https://hisense.hgecdn.net/medias/MABAGOR-300Wx300H-mabagor-imagelib-full-trim-b-0-b0ebc8ea4947bdb66d8936f0861e9925-327610-1.jpg?context=bWFzdGVyfG1hYmFnb3Jwcm9kdWN0aW1hZ2VzfDMzMjkwfGltYWdlL2pwZWd8YURBekwyZ3dZUzh4TlRjeU1UUXhPREl5TnpjME1pOU5RVUpCUjA5U0xUTXdNRmQ0TXpBd1NGOHZiV0ZpWVdkdmNpOXBiV0ZuWld4cFlpOW1kV3hzTFhSeWFXMHZZaTh3TDJJd1pXSmpPR1ZoTkRrME4ySmtZalkyWkRnNU16Wm1NRGcyTVdVNU9USTFYek15TnpZeE1GOHhMbXB3Wnd8OTgwOTQxYWVlNTA3NmMxMzg5MWUxNmViNWNkY2Y2MmYwZWIxOWFhODA4NTk4OWIwNzM2OWY0MTcxZThiYjg3Mg",
-      "https://hisense.hgecdn.net/medias/MABAGOR-300Wx300H-mabagor-imagelib-full-trim-e-e-ee1501f36be31073cc7d69455452733d-326922-1.jpg?context=bWFzdGVyfG1hYmFnb3Jwcm9kdWN0aW1hZ2VzfDI3MzA3fGltYWdlL2pwZWd8YURBMkwyZ3dOeTh4TlRjeU1UUXhPREUyTWpJd05pOU5RVUpCUjA5U0xUTXdNRmQ0TXpBd1NGOHZiV0ZpWVdkdmNpOXBiV0ZuWld4cFlpOW1kV3hzTFhSeWFXMHZaUzlsTDJWbE1UVXdNV1l6Tm1KbE16RXdOek5qWXpka05qazBOVFUwTlRJM016TmtYek15TmpreU1sOHhMbXB3Wnd8YTVkNGExMzQzZjBjNzBmZTQxNGY5YzU0N2MzYzdiMjI1YWNhNjUzMjAwZDQzZmY2NGYwOGNmOGY0OTA3Zjk1MA"
+      "/images/products/tvs/hisense-55e8s.jpg"
     ],
     "storeOffers": [
       {
@@ -21750,10 +21932,9 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "65 inç"
     ],
-    "image": "https://hisense.hgecdn.net/medias/MABAGOR-300Wx300H-mabagor-imagelib-full-trim-1-0-101872c9bdc6fb51869b9a244a15735f-327735-1.jpg?context=bWFzdGVyfG1hYmFnb3Jwcm9kdWN0aW1hZ2VzfDI3NjkzfGltYWdlL2pwZWd8YUdGa0wyZzNNeTh4TlRjeU1UUXhPVEl4TURjNE1pOU5RVUpCUjA5U0xUTXdNRmQ0TXpBd1NGOHZiV0ZpWVdkdmNpOXBiV0ZuWld4cFlpOW1kV3hzTFhSeWFXMHZNUzh3THpFd01UZzNNbU01WW1Sak5tWmlOVEU0TmpsaU9XRXlORFJoTVRVM016Vm1Yek15Tnpjek5WOHhMbXB3Wnd8ZTg4YTk3YzdmNGRiYWQ1NjNmNDQ5NjBmNzlkNjFhNDU5MGRjZTljYzNmYWNjOWJiZTViOGEyOTc3NmNiMDk4Yg",
+    "image": "/images/products/tvs/hisense-65e8s.jpg",
     "images": [
-      "https://hisense.hgecdn.net/medias/MABAGOR-300Wx300H-mabagor-imagelib-full-trim-b-0-b0ebc8ea4947bdb66d8936f0861e9925-327610-1.jpg?context=bWFzdGVyfG1hYmFnb3Jwcm9kdWN0aW1hZ2VzfDMzMjkwfGltYWdlL2pwZWd8YURBekwyZ3dZUzh4TlRjeU1UUXhPREl5TnpjME1pOU5RVUpCUjA5U0xUTXdNRmQ0TXpBd1NGOHZiV0ZpWVdkdmNpOXBiV0ZuWld4cFlpOW1kV3hzTFhSeWFXMHZZaTh3TDJJd1pXSmpPR1ZoTkRrME4ySmtZalkyWkRnNU16Wm1NRGcyTVdVNU9USTFYek15TnpZeE1GOHhMbXB3Wnd8OTgwOTQxYWVlNTA3NmMxMzg5MWUxNmViNWNkY2Y2MmYwZWIxOWFhODA4NTk4OWIwNzM2OWY0MTcxZThiYjg3Mg",
-      "https://hisense.hgecdn.net/medias/MABAGOR-300Wx300H-mabagor-imagelib-full-trim-e-e-ee1501f36be31073cc7d69455452733d-326922-1.jpg?context=bWFzdGVyfG1hYmFnb3Jwcm9kdWN0aW1hZ2VzfDI3MzA3fGltYWdlL2pwZWd8YURBMkwyZ3dOeTh4TlRjeU1UUXhPREUyTWpJd05pOU5RVUpCUjA5U0xUTXdNRmQ0TXpBd1NGOHZiV0ZpWVdkdmNpOXBiV0ZuWld4cFlpOW1kV3hzTFhSeWFXMHZaUzlsTDJWbE1UVXdNV1l6Tm1KbE16RXdOek5qWXpka05qazBOVFUwTlRJM016TmtYek15TmpreU1sOHhMbXB3Wnd8YTVkNGExMzQzZjBjNzBmZTQxNGY5YzU0N2MzYzdiMjI1YWNhNjUzMjAwZDQzZmY2NGYwOGNmOGY0OTA3Zjk1MA"
+      "/images/products/tvs/hisense-65e8s.jpg"
     ],
     "storeOffers": [
       {
@@ -21842,10 +22023,9 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "75 inç"
     ],
-    "image": "https://hisense.hgecdn.net/medias/MABAGOR-300Wx300H-mabagor-imagelib-full-trim-1-0-101872c9bdc6fb51869b9a244a15735f-327735-1.jpg?context=bWFzdGVyfG1hYmFnb3Jwcm9kdWN0aW1hZ2VzfDI3NjkzfGltYWdlL2pwZWd8YUdGa0wyZzNNeTh4TlRjeU1UUXhPVEl4TURjNE1pOU5RVUpCUjA5U0xUTXdNRmQ0TXpBd1NGOHZiV0ZpWVdkdmNpOXBiV0ZuWld4cFlpOW1kV3hzTFhSeWFXMHZNUzh3THpFd01UZzNNbU01WW1Sak5tWmlOVEU0TmpsaU9XRXlORFJoTVRVM016Vm1Yek15Tnpjek5WOHhMbXB3Wnd8ZTg4YTk3YzdmNGRiYWQ1NjNmNDQ5NjBmNzlkNjFhNDU5MGRjZTljYzNmYWNjOWJiZTViOGEyOTc3NmNiMDk4Yg",
+    "image": "/images/products/tvs/hisense-75e8s.jpg",
     "images": [
-      "https://hisense.hgecdn.net/medias/MABAGOR-300Wx300H-mabagor-imagelib-full-trim-b-0-b0ebc8ea4947bdb66d8936f0861e9925-327610-1.jpg?context=bWFzdGVyfG1hYmFnb3Jwcm9kdWN0aW1hZ2VzfDMzMjkwfGltYWdlL2pwZWd8YURBekwyZ3dZUzh4TlRjeU1UUXhPREl5TnpjME1pOU5RVUpCUjA5U0xUTXdNRmQ0TXpBd1NGOHZiV0ZpWVdkdmNpOXBiV0ZuWld4cFlpOW1kV3hzTFhSeWFXMHZZaTh3TDJJd1pXSmpPR1ZoTkRrME4ySmtZalkyWkRnNU16Wm1NRGcyTVdVNU9USTFYek15TnpZeE1GOHhMbXB3Wnd8OTgwOTQxYWVlNTA3NmMxMzg5MWUxNmViNWNkY2Y2MmYwZWIxOWFhODA4NTk4OWIwNzM2OWY0MTcxZThiYjg3Mg",
-      "https://hisense.hgecdn.net/medias/MABAGOR-300Wx300H-mabagor-imagelib-full-trim-e-e-ee1501f36be31073cc7d69455452733d-326922-1.jpg?context=bWFzdGVyfG1hYmFnb3Jwcm9kdWN0aW1hZ2VzfDI3MzA3fGltYWdlL2pwZWd8YURBMkwyZ3dOeTh4TlRjeU1UUXhPREUyTWpJd05pOU5RVUpCUjA5U0xUTXdNRmQ0TXpBd1NGOHZiV0ZpWVdkdmNpOXBiV0ZuWld4cFlpOW1kV3hzTFhSeWFXMHZaUzlsTDJWbE1UVXdNV1l6Tm1KbE16RXdOek5qWXpka05qazBOVFUwTlRJM016TmtYek15TmpreU1sOHhMbXB3Wnd8YTVkNGExMzQzZjBjNzBmZTQxNGY5YzU0N2MzYzdiMjI1YWNhNjUzMjAwZDQzZmY2NGYwOGNmOGY0OTA3Zjk1MA"
+      "/images/products/tvs/hisense-75e8s.jpg"
     ],
     "storeOffers": [
       {
@@ -21934,10 +22114,9 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "55 inç"
     ],
-    "image": "https://hisense.hgecdn.net/medias/MABAGOR-300Wx300H-mabagor-imagelib-full-trim-1-0-101872c9bdc6fb51869b9a244a15735f-327735-1.jpg?context=bWFzdGVyfG1hYmFnb3Jwcm9kdWN0aW1hZ2VzfDI3NjkzfGltYWdlL2pwZWd8YUdGa0wyZzNNeTh4TlRjeU1UUXhPVEl4TURjNE1pOU5RVUpCUjA5U0xUTXdNRmQ0TXpBd1NGOHZiV0ZpWVdkdmNpOXBiV0ZuWld4cFlpOW1kV3hzTFhSeWFXMHZNUzh3THpFd01UZzNNbU01WW1Sak5tWmlOVEU0TmpsaU9XRXlORFJoTVRVM016Vm1Yek15Tnpjek5WOHhMbXB3Wnd8ZTg4YTk3YzdmNGRiYWQ1NjNmNDQ5NjBmNzlkNjFhNDU5MGRjZTljYzNmYWNjOWJiZTViOGEyOTc3NmNiMDk4Yg",
+    "image": "/images/products/tvs/hisense-55u7se.jpg",
     "images": [
-      "https://hisense.hgecdn.net/medias/MABAGOR-300Wx300H-mabagor-imagelib-full-trim-b-0-b0ebc8ea4947bdb66d8936f0861e9925-327610-1.jpg?context=bWFzdGVyfG1hYmFnb3Jwcm9kdWN0aW1hZ2VzfDMzMjkwfGltYWdlL2pwZWd8YURBekwyZ3dZUzh4TlRjeU1UUXhPREl5TnpjME1pOU5RVUpCUjA5U0xUTXdNRmQ0TXpBd1NGOHZiV0ZpWVdkdmNpOXBiV0ZuWld4cFlpOW1kV3hzTFhSeWFXMHZZaTh3TDJJd1pXSmpPR1ZoTkRrME4ySmtZalkyWkRnNU16Wm1NRGcyTVdVNU9USTFYek15TnpZeE1GOHhMbXB3Wnd8OTgwOTQxYWVlNTA3NmMxMzg5MWUxNmViNWNkY2Y2MmYwZWIxOWFhODA4NTk4OWIwNzM2OWY0MTcxZThiYjg3Mg",
-      "https://hisense.hgecdn.net/medias/MABAGOR-300Wx300H-mabagor-imagelib-full-trim-e-e-ee1501f36be31073cc7d69455452733d-326922-1.jpg?context=bWFzdGVyfG1hYmFnb3Jwcm9kdWN0aW1hZ2VzfDI3MzA3fGltYWdlL2pwZWd8YURBMkwyZ3dOeTh4TlRjeU1UUXhPREUyTWpJd05pOU5RVUpCUjA5U0xUTXdNRmQ0TXpBd1NGOHZiV0ZpWVdkdmNpOXBiV0ZuWld4cFlpOW1kV3hzTFhSeWFXMHZaUzlsTDJWbE1UVXdNV1l6Tm1KbE16RXdOek5qWXpka05qazBOVFUwTlRJM016TmtYek15TmpreU1sOHhMbXB3Wnd8YTVkNGExMzQzZjBjNzBmZTQxNGY5YzU0N2MzYzdiMjI1YWNhNjUzMjAwZDQzZmY2NGYwOGNmOGY0OTA3Zjk1MA"
+      "/images/products/tvs/hisense-55u7se.jpg"
     ],
     "storeOffers": [
       {
@@ -22026,10 +22205,9 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "65 inç"
     ],
-    "image": "https://hisense.hgecdn.net/medias/MABAGOR-300Wx300H-mabagor-imagelib-full-trim-1-0-101872c9bdc6fb51869b9a244a15735f-327735-1.jpg?context=bWFzdGVyfG1hYmFnb3Jwcm9kdWN0aW1hZ2VzfDI3NjkzfGltYWdlL2pwZWd8YUdGa0wyZzNNeTh4TlRjeU1UUXhPVEl4TURjNE1pOU5RVUpCUjA5U0xUTXdNRmQ0TXpBd1NGOHZiV0ZpWVdkdmNpOXBiV0ZuWld4cFlpOW1kV3hzTFhSeWFXMHZNUzh3THpFd01UZzNNbU01WW1Sak5tWmlOVEU0TmpsaU9XRXlORFJoTVRVM016Vm1Yek15Tnpjek5WOHhMbXB3Wnd8ZTg4YTk3YzdmNGRiYWQ1NjNmNDQ5NjBmNzlkNjFhNDU5MGRjZTljYzNmYWNjOWJiZTViOGEyOTc3NmNiMDk4Yg",
+    "image": "/images/products/tvs/hisense-65u7se.jpg",
     "images": [
-      "https://hisense.hgecdn.net/medias/MABAGOR-300Wx300H-mabagor-imagelib-full-trim-b-0-b0ebc8ea4947bdb66d8936f0861e9925-327610-1.jpg?context=bWFzdGVyfG1hYmFnb3Jwcm9kdWN0aW1hZ2VzfDMzMjkwfGltYWdlL2pwZWd8YURBekwyZ3dZUzh4TlRjeU1UUXhPREl5TnpjME1pOU5RVUpCUjA5U0xUTXdNRmQ0TXpBd1NGOHZiV0ZpWVdkdmNpOXBiV0ZuWld4cFlpOW1kV3hzTFhSeWFXMHZZaTh3TDJJd1pXSmpPR1ZoTkRrME4ySmtZalkyWkRnNU16Wm1NRGcyTVdVNU9USTFYek15TnpZeE1GOHhMbXB3Wnd8OTgwOTQxYWVlNTA3NmMxMzg5MWUxNmViNWNkY2Y2MmYwZWIxOWFhODA4NTk4OWIwNzM2OWY0MTcxZThiYjg3Mg",
-      "https://hisense.hgecdn.net/medias/MABAGOR-300Wx300H-mabagor-imagelib-full-trim-e-e-ee1501f36be31073cc7d69455452733d-326922-1.jpg?context=bWFzdGVyfG1hYmFnb3Jwcm9kdWN0aW1hZ2VzfDI3MzA3fGltYWdlL2pwZWd8YURBMkwyZ3dOeTh4TlRjeU1UUXhPREUyTWpJd05pOU5RVUpCUjA5U0xUTXdNRmQ0TXpBd1NGOHZiV0ZpWVdkdmNpOXBiV0ZuWld4cFlpOW1kV3hzTFhSeWFXMHZaUzlsTDJWbE1UVXdNV1l6Tm1KbE16RXdOek5qWXpka05qazBOVFUwTlRJM016TmtYek15TmpreU1sOHhMbXB3Wnd8YTVkNGExMzQzZjBjNzBmZTQxNGY5YzU0N2MzYzdiMjI1YWNhNjUzMjAwZDQzZmY2NGYwOGNmOGY0OTA3Zjk1MA"
+      "/images/products/tvs/hisense-65u7se.jpg"
     ],
     "storeOffers": [
       {
@@ -22118,10 +22296,9 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "75 inç"
     ],
-    "image": "https://hisense.hgecdn.net/medias/MABAGOR-300Wx300H-mabagor-imagelib-full-trim-1-0-101872c9bdc6fb51869b9a244a15735f-327735-1.jpg?context=bWFzdGVyfG1hYmFnb3Jwcm9kdWN0aW1hZ2VzfDI3NjkzfGltYWdlL2pwZWd8YUdGa0wyZzNNeTh4TlRjeU1UUXhPVEl4TURjNE1pOU5RVUpCUjA5U0xUTXdNRmQ0TXpBd1NGOHZiV0ZpWVdkdmNpOXBiV0ZuWld4cFlpOW1kV3hzTFhSeWFXMHZNUzh3THpFd01UZzNNbU01WW1Sak5tWmlOVEU0TmpsaU9XRXlORFJoTVRVM016Vm1Yek15Tnpjek5WOHhMbXB3Wnd8ZTg4YTk3YzdmNGRiYWQ1NjNmNDQ5NjBmNzlkNjFhNDU5MGRjZTljYzNmYWNjOWJiZTViOGEyOTc3NmNiMDk4Yg",
+    "image": "/images/products/tvs/hisense-75u7se.jpg",
     "images": [
-      "https://hisense.hgecdn.net/medias/MABAGOR-300Wx300H-mabagor-imagelib-full-trim-b-0-b0ebc8ea4947bdb66d8936f0861e9925-327610-1.jpg?context=bWFzdGVyfG1hYmFnb3Jwcm9kdWN0aW1hZ2VzfDMzMjkwfGltYWdlL2pwZWd8YURBekwyZ3dZUzh4TlRjeU1UUXhPREl5TnpjME1pOU5RVUpCUjA5U0xUTXdNRmQ0TXpBd1NGOHZiV0ZpWVdkdmNpOXBiV0ZuWld4cFlpOW1kV3hzTFhSeWFXMHZZaTh3TDJJd1pXSmpPR1ZoTkRrME4ySmtZalkyWkRnNU16Wm1NRGcyTVdVNU9USTFYek15TnpZeE1GOHhMbXB3Wnd8OTgwOTQxYWVlNTA3NmMxMzg5MWUxNmViNWNkY2Y2MmYwZWIxOWFhODA4NTk4OWIwNzM2OWY0MTcxZThiYjg3Mg",
-      "https://hisense.hgecdn.net/medias/MABAGOR-300Wx300H-mabagor-imagelib-full-trim-e-e-ee1501f36be31073cc7d69455452733d-326922-1.jpg?context=bWFzdGVyfG1hYmFnb3Jwcm9kdWN0aW1hZ2VzfDI3MzA3fGltYWdlL2pwZWd8YURBMkwyZ3dOeTh4TlRjeU1UUXhPREUyTWpJd05pOU5RVUpCUjA5U0xUTXdNRmQ0TXpBd1NGOHZiV0ZpWVdkdmNpOXBiV0ZuWld4cFlpOW1kV3hzTFhSeWFXMHZaUzlsTDJWbE1UVXdNV1l6Tm1KbE16RXdOek5qWXpka05qazBOVFUwTlRJM016TmtYek15TmpreU1sOHhMbXB3Wnd8YTVkNGExMzQzZjBjNzBmZTQxNGY5YzU0N2MzYzdiMjI1YWNhNjUzMjAwZDQzZmY2NGYwOGNmOGY0OTA3Zjk1MA"
+      "/images/products/tvs/hisense-75u7se.jpg"
     ],
     "storeOffers": [
       {
@@ -22210,10 +22387,9 @@ export const mockTVs: TVProduct[] = [
       "144Hz",
       "65 inç"
     ],
-    "image": "https://hisense.hgecdn.net/medias/MABAGOR-300Wx300H-mabagor-imagelib-full-trim-b-0-b0ebc8ea4947bdb66d8936f0861e9925-327610-1.jpg?context=bWFzdGVyfG1hYmFnb3Jwcm9kdWN0aW1hZ2VzfDMzMjkwfGltYWdlL2pwZWd8YURBekwyZ3dZUzh4TlRjeU1UUXhPREl5TnpjME1pOU5RVUpCUjA5U0xUTXdNRmQ0TXpBd1NGOHZiV0ZpWVdkdmNpOXBiV0ZuWld4cFlpOW1kV3hzTFhSeWFXMHZZaTh3TDJJd1pXSmpPR1ZoTkRrME4ySmtZalkyWkRnNU16Wm1NRGcyTVdVNU9USTFYek15TnpZeE1GOHhMbXB3Wnd8OTgwOTQxYWVlNTA3NmMxMzg5MWUxNmViNWNkY2Y2MmYwZWIxOWFhODA4NTk4OWIwNzM2OWY0MTcxZThiYjg3Mg",
+    "image": "/images/products/tvs/hisense-65u8n.jpg",
     "images": [
-      "https://hisense.hgecdn.net/medias/MABAGOR-300Wx300H-mabagor-imagelib-full-trim-1-0-101872c9bdc6fb51869b9a244a15735f-327735-1.jpg?context=bWFzdGVyfG1hYmFnb3Jwcm9kdWN0aW1hZ2VzfDI3NjkzfGltYWdlL2pwZWd8YUdGa0wyZzNNeTh4TlRjeU1UUXhPVEl4TURjNE1pOU5RVUpCUjA5U0xUTXdNRmQ0TXpBd1NGOHZiV0ZpWVdkdmNpOXBiV0ZuWld4cFlpOW1kV3hzTFhSeWFXMHZNUzh3THpFd01UZzNNbU01WW1Sak5tWmlOVEU0TmpsaU9XRXlORFJoTVRVM016Vm1Yek15Tnpjek5WOHhMbXB3Wnd8ZTg4YTk3YzdmNGRiYWQ1NjNmNDQ5NjBmNzlkNjFhNDU5MGRjZTljYzNmYWNjOWJiZTViOGEyOTc3NmNiMDk4Yg",
-      "https://hisense.hgecdn.net/medias/MABAGOR-300Wx300H-mabagor-imagelib-full-trim-e-e-ee1501f36be31073cc7d69455452733d-326922-1.jpg?context=bWFzdGVyfG1hYmFnb3Jwcm9kdWN0aW1hZ2VzfDI3MzA3fGltYWdlL2pwZWd8YURBMkwyZ3dOeTh4TlRjeU1UUXhPREUyTWpJd05pOU5RVUpCUjA5U0xUTXdNRmQ0TXpBd1NGOHZiV0ZpWVdkdmNpOXBiV0ZuWld4cFlpOW1kV3hzTFhSeWFXMHZaUzlsTDJWbE1UVXdNV1l6Tm1KbE16RXdOek5qWXpka05qazBOVFUwTlRJM016TmtYek15TmpreU1sOHhMbXB3Wnd8YTVkNGExMzQzZjBjNzBmZTQxNGY5YzU0N2MzYzdiMjI1YWNhNjUzMjAwZDQzZmY2NGYwOGNmOGY0OTA3Zjk1MA"
+      "/images/products/tvs/hisense-65u8n.jpg"
     ],
     "storeOffers": [
       {
@@ -22302,10 +22478,9 @@ export const mockTVs: TVProduct[] = [
       "144Hz",
       "75 inç"
     ],
-    "image": "https://hisense.hgecdn.net/medias/MABAGOR-300Wx300H-mabagor-imagelib-full-trim-b-0-b0ebc8ea4947bdb66d8936f0861e9925-327610-1.jpg?context=bWFzdGVyfG1hYmFnb3Jwcm9kdWN0aW1hZ2VzfDMzMjkwfGltYWdlL2pwZWd8YURBekwyZ3dZUzh4TlRjeU1UUXhPREl5TnpjME1pOU5RVUpCUjA5U0xUTXdNRmQ0TXpBd1NGOHZiV0ZpWVdkdmNpOXBiV0ZuWld4cFlpOW1kV3hzTFhSeWFXMHZZaTh3TDJJd1pXSmpPR1ZoTkRrME4ySmtZalkyWkRnNU16Wm1NRGcyTVdVNU9USTFYek15TnpZeE1GOHhMbXB3Wnd8OTgwOTQxYWVlNTA3NmMxMzg5MWUxNmViNWNkY2Y2MmYwZWIxOWFhODA4NTk4OWIwNzM2OWY0MTcxZThiYjg3Mg",
+    "image": "/images/products/tvs/hisense-75u8n.jpg",
     "images": [
-      "https://hisense.hgecdn.net/medias/MABAGOR-300Wx300H-mabagor-imagelib-full-trim-1-0-101872c9bdc6fb51869b9a244a15735f-327735-1.jpg?context=bWFzdGVyfG1hYmFnb3Jwcm9kdWN0aW1hZ2VzfDI3NjkzfGltYWdlL2pwZWd8YUdGa0wyZzNNeTh4TlRjeU1UUXhPVEl4TURjNE1pOU5RVUpCUjA5U0xUTXdNRmQ0TXpBd1NGOHZiV0ZpWVdkdmNpOXBiV0ZuWld4cFlpOW1kV3hzTFhSeWFXMHZNUzh3THpFd01UZzNNbU01WW1Sak5tWmlOVEU0TmpsaU9XRXlORFJoTVRVM016Vm1Yek15Tnpjek5WOHhMbXB3Wnd8ZTg4YTk3YzdmNGRiYWQ1NjNmNDQ5NjBmNzlkNjFhNDU5MGRjZTljYzNmYWNjOWJiZTViOGEyOTc3NmNiMDk4Yg",
-      "https://hisense.hgecdn.net/medias/MABAGOR-300Wx300H-mabagor-imagelib-full-trim-e-e-ee1501f36be31073cc7d69455452733d-326922-1.jpg?context=bWFzdGVyfG1hYmFnb3Jwcm9kdWN0aW1hZ2VzfDI3MzA3fGltYWdlL2pwZWd8YURBMkwyZ3dOeTh4TlRjeU1UUXhPREUyTWpJd05pOU5RVUpCUjA5U0xUTXdNRmQ0TXpBd1NGOHZiV0ZpWVdkdmNpOXBiV0ZuWld4cFlpOW1kV3hzTFhSeWFXMHZaUzlsTDJWbE1UVXdNV1l6Tm1KbE16RXdOek5qWXpka05qazBOVFUwTlRJM016TmtYek15TmpreU1sOHhMbXB3Wnd8YTVkNGExMzQzZjBjNzBmZTQxNGY5YzU0N2MzYzdiMjI1YWNhNjUzMjAwZDQzZmY2NGYwOGNmOGY0OTA3Zjk1MA"
+      "/images/products/tvs/hisense-75u8n.jpg"
     ],
     "storeOffers": [
       {
@@ -22394,10 +22569,9 @@ export const mockTVs: TVProduct[] = [
       "144Hz",
       "85 inç"
     ],
-    "image": "https://hisense.hgecdn.net/medias/MABAGOR-300Wx300H-mabagor-imagelib-full-trim-b-0-b0ebc8ea4947bdb66d8936f0861e9925-327610-1.jpg?context=bWFzdGVyfG1hYmFnb3Jwcm9kdWN0aW1hZ2VzfDMzMjkwfGltYWdlL2pwZWd8YURBekwyZ3dZUzh4TlRjeU1UUXhPREl5TnpjME1pOU5RVUpCUjA5U0xUTXdNRmQ0TXpBd1NGOHZiV0ZpWVdkdmNpOXBiV0ZuWld4cFlpOW1kV3hzTFhSeWFXMHZZaTh3TDJJd1pXSmpPR1ZoTkRrME4ySmtZalkyWkRnNU16Wm1NRGcyTVdVNU9USTFYek15TnpZeE1GOHhMbXB3Wnd8OTgwOTQxYWVlNTA3NmMxMzg5MWUxNmViNWNkY2Y2MmYwZWIxOWFhODA4NTk4OWIwNzM2OWY0MTcxZThiYjg3Mg",
+    "image": "/images/products/tvs/hisense-85u8n.jpg",
     "images": [
-      "https://hisense.hgecdn.net/medias/MABAGOR-300Wx300H-mabagor-imagelib-full-trim-1-0-101872c9bdc6fb51869b9a244a15735f-327735-1.jpg?context=bWFzdGVyfG1hYmFnb3Jwcm9kdWN0aW1hZ2VzfDI3NjkzfGltYWdlL2pwZWd8YUdGa0wyZzNNeTh4TlRjeU1UUXhPVEl4TURjNE1pOU5RVUpCUjA5U0xUTXdNRmQ0TXpBd1NGOHZiV0ZpWVdkdmNpOXBiV0ZuWld4cFlpOW1kV3hzTFhSeWFXMHZNUzh3THpFd01UZzNNbU01WW1Sak5tWmlOVEU0TmpsaU9XRXlORFJoTVRVM016Vm1Yek15Tnpjek5WOHhMbXB3Wnd8ZTg4YTk3YzdmNGRiYWQ1NjNmNDQ5NjBmNzlkNjFhNDU5MGRjZTljYzNmYWNjOWJiZTViOGEyOTc3NmNiMDk4Yg",
-      "https://hisense.hgecdn.net/medias/MABAGOR-300Wx300H-mabagor-imagelib-full-trim-e-e-ee1501f36be31073cc7d69455452733d-326922-1.jpg?context=bWFzdGVyfG1hYmFnb3Jwcm9kdWN0aW1hZ2VzfDI3MzA3fGltYWdlL2pwZWd8YURBMkwyZ3dOeTh4TlRjeU1UUXhPREUyTWpJd05pOU5RVUpCUjA5U0xUTXdNRmQ0TXpBd1NGOHZiV0ZpWVdkdmNpOXBiV0ZuWld4cFlpOW1kV3hzTFhSeWFXMHZaUzlsTDJWbE1UVXdNV1l6Tm1KbE16RXdOek5qWXpka05qazBOVFUwTlRJM016TmtYek15TmpreU1sOHhMbXB3Wnd8YTVkNGExMzQzZjBjNzBmZTQxNGY5YzU0N2MzYzdiMjI1YWNhNjUzMjAwZDQzZmY2NGYwOGNmOGY0OTA3Zjk1MA"
+      "/images/products/tvs/hisense-85u8n.jpg"
     ],
     "storeOffers": [
       {
@@ -22483,9 +22657,9 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "LED"
     ],
-    "image": "https://resim.epey.com/576115/k_lg-65nano866na-2.jpg",
+    "image": "/images/products/tvs/lg-65nano866na.jpg",
     "images": [
-      "https://resim.epey.com/576115/k_lg-65nano866na-2.jpg"
+      "/images/products/tvs/lg-65nano866na.jpg"
     ],
     "storeOffers": [
       {
@@ -22584,9 +22758,9 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "Mini-LED"
     ],
-    "image": "https://resim.epey.com/941392/k_lg-55qned86t6a-1.jpg",
+    "image": "/images/products/tvs/lg-55qned86t6a.jpg",
     "images": [
-      "https://resim.epey.com/941392/k_lg-55qned86t6a-1.jpg"
+      "/images/products/tvs/lg-55qned86t6a.jpg"
     ],
     "storeOffers": [
       {
@@ -22697,9 +22871,9 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "Mini-LED"
     ],
-    "image": "https://resim.epey.com/937715/k_lg-65qned80t6a-1.jpg",
+    "image": "/images/products/tvs/lg-65qned80t6a.jpg",
     "images": [
-      "https://resim.epey.com/937715/k_lg-65qned80t6a-1.jpg"
+      "/images/products/tvs/lg-65qned80t6a.jpg"
     ],
     "storeOffers": [
       {
@@ -22810,9 +22984,9 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "LED"
     ],
-    "image": "https://resim.epey.com/941387/k_lg-75ut91-75ut91006la-5.jpg",
+    "image": "/images/products/tvs/lg-75ut91006la.jpg",
     "images": [
-      "https://resim.epey.com/941387/k_lg-75ut91-75ut91006la-5.jpg"
+      "/images/products/tvs/lg-75ut91006la.jpg"
     ],
     "storeOffers": [
       {
@@ -22923,9 +23097,9 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "LED"
     ],
-    "image": "https://resim.epey.com/787888/k_lg-75nano766qa-1.jpg",
+    "image": "/images/products/tvs/lg-75nano766qa.jpg",
     "images": [
-      "https://resim.epey.com/787888/k_lg-75nano766qa-1.jpg"
+      "/images/products/tvs/lg-75nano766qa.jpg"
     ],
     "storeOffers": [
       {
@@ -23012,9 +23186,9 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "LED"
     ],
-    "image": "https://resim.epey.com/868534/k_lg-75ur81006-75ur81006lj-1.jpg",
+    "image": "/images/products/tvs/lg-75ur81006lj.jpg",
     "images": [
-      "https://resim.epey.com/868534/k_lg-75ur81006-75ur81006lj-1.jpg"
+      "/images/products/tvs/lg-75ur81006lj.jpg"
     ],
     "storeOffers": [
       {
@@ -23125,9 +23299,9 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "LED"
     ],
-    "image": "https://resim.epey.com/620942/k_lg-75nano796nf-1.jpg",
+    "image": "/images/products/tvs/lg-75nano796nf.jpg",
     "images": [
-      "https://resim.epey.com/620942/k_lg-75nano796nf-1.jpg"
+      "/images/products/tvs/lg-75nano796nf.jpg"
     ],
     "storeOffers": [
       {
@@ -23214,9 +23388,9 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "LED"
     ],
-    "image": "https://resim.epey.com/197570/k_lg-55sm8600pla-1.jpg",
+    "image": "/images/products/tvs/lg-55sm8600pla.jpg",
     "images": [
-      "https://resim.epey.com/197570/k_lg-55sm8600pla-1.jpg"
+      "/images/products/tvs/lg-55sm8600pla.jpg"
     ],
     "storeOffers": [
       {
@@ -23327,9 +23501,9 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "Mini-LED"
     ],
-    "image": "https://resim.epey.com/937720/k_lg-55qned80t6a-1.jpg",
+    "image": "/images/products/tvs/lg-55qned80t6a.jpg",
     "images": [
-      "https://resim.epey.com/937720/k_lg-55qned80t6a-1.jpg"
+      "/images/products/tvs/lg-55qned80t6a.jpg"
     ],
     "storeOffers": [
       {
@@ -23428,9 +23602,9 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "LED"
     ],
-    "image": "https://resim.epey.com/942769/k_lg-55nano81t-55nano81t6a-6.jpg",
+    "image": "/images/products/tvs/lg-65nano81t6a.jpg",
     "images": [
-      "https://resim.epey.com/942769/k_lg-55nano81t-55nano81t6a-6.jpg"
+      "/images/products/tvs/lg-65nano81t6a.jpg"
     ],
     "storeOffers": [
       {
@@ -23541,9 +23715,9 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "LED"
     ],
-    "image": "https://resim.epey.com/698717/k_lg-70up81006la-tr-1.jpg",
+    "image": "/images/products/tvs/lg-70up81006la.jpg",
     "images": [
-      "https://resim.epey.com/698717/k_lg-70up81006la-tr-1.jpg"
+      "/images/products/tvs/lg-70up81006la.jpg"
     ],
     "storeOffers": [
       {
@@ -23642,9 +23816,9 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "LED"
     ],
-    "image": "https://resim.epey.com/626051/k_lg-70un71006la-1.jpg",
+    "image": "/images/products/tvs/lg-70un70706lb.jpg",
     "images": [
-      "https://resim.epey.com/626051/k_lg-70un71006la-1.jpg"
+      "/images/products/tvs/lg-70un70706lb.jpg"
     ],
     "storeOffers": [
       {
@@ -23755,9 +23929,9 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "LED"
     ],
-    "image": "https://resim.epey.com/365479/k_lg-70um7100pla-8.jpg",
+    "image": "/images/products/tvs/lg-70um7100pla.jpg",
     "images": [
-      "https://resim.epey.com/365479/k_lg-70um7100pla-8.jpg"
+      "/images/products/tvs/lg-70um7100pla.jpg"
     ],
     "storeOffers": [
       {
@@ -23844,9 +24018,9 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "LED"
     ],
-    "image": "https://resim.epey.com/776688/k_lg-65nano766qa-1.jpg",
+    "image": "/images/products/tvs/lg-65nano766qa.jpg",
     "images": [
-      "https://resim.epey.com/776688/k_lg-65nano766qa-1.jpg"
+      "/images/products/tvs/lg-65nano766qa.jpg"
     ],
     "storeOffers": [
       {
@@ -23945,9 +24119,9 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "LED"
     ],
-    "image": "https://resim.epey.com/868710/k_lg-65ur81006lj-1.jpg",
+    "image": "/images/products/tvs/lg-65ur81006lj.jpg",
     "images": [
-      "https://resim.epey.com/868710/k_lg-65ur81006lj-1.jpg"
+      "/images/products/tvs/lg-65ur81006lj.jpg"
     ],
     "storeOffers": [
       {
@@ -24046,9 +24220,9 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "LED"
     ],
-    "image": "https://resim.epey.com/574864/k_lg-65nano816-2.jpg",
+    "image": "/images/products/tvs/lg-65nano816na.jpg",
     "images": [
-      "https://resim.epey.com/574864/k_lg-65nano816-2.jpg"
+      "/images/products/tvs/lg-65nano816na.jpg"
     ],
     "storeOffers": [
       {
@@ -24147,9 +24321,9 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "LED"
     ],
-    "image": "https://resim.epey.com/620934/k_lg-65nano796ne-1.jpg",
+    "image": "/images/products/tvs/lg-65nano796ne.jpg",
     "images": [
-      "https://resim.epey.com/620934/k_lg-65nano796ne-1.jpg"
+      "/images/products/tvs/lg-65nano796ne.jpg"
     ],
     "storeOffers": [
       {
@@ -24260,9 +24434,9 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "LED"
     ],
-    "image": "https://resim.epey.com/787714/k_lg-65uq75006lf-1.jpg",
+    "image": "/images/products/tvs/lg-65uq75006lf.jpg",
     "images": [
-      "https://resim.epey.com/787714/k_lg-65uq75006lf-1.jpg"
+      "/images/products/tvs/lg-65uq75006lf.jpg"
     ],
     "storeOffers": [
       {
@@ -24349,9 +24523,9 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "LED"
     ],
-    "image": "https://resim.epey.com/942707/k_lg-55nano81t-55nano81t6a-6.jpg",
+    "image": "/images/products/tvs/lg-55nano81t6a.jpg",
     "images": [
-      "https://resim.epey.com/942707/k_lg-55nano81t-55nano81t6a-6.jpg"
+      "/images/products/tvs/lg-55nano81t6a.jpg"
     ],
     "storeOffers": [
       {
@@ -24462,9 +24636,9 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "LED"
     ],
-    "image": "https://resim.epey.com/941394/k_lg-55ut91006la-8.jpg",
+    "image": "/images/products/tvs/lg-55ut91006la.jpg",
     "images": [
-      "https://resim.epey.com/941394/k_lg-55ut91006la-8.jpg"
+      "/images/products/tvs/lg-55ut91006la.jpg"
     ],
     "storeOffers": [
       {
@@ -24551,9 +24725,9 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "LED"
     ],
-    "image": "https://resim.epey.com/941395/k_lg-55ut81-55ut81006la-2.jpg",
+    "image": "/images/products/tvs/lg-55ut81006la.jpg",
     "images": [
-      "https://resim.epey.com/941395/k_lg-55ut81-55ut81006la-2.jpg"
+      "/images/products/tvs/lg-55ut81006la.jpg"
     ],
     "storeOffers": [
       {
@@ -24652,9 +24826,9 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "LED"
     ],
-    "image": "https://resim.epey.com/884857/k_lg-55ur91006la-1.jpg",
+    "image": "/images/products/tvs/lg-55ur91006la.jpg",
     "images": [
-      "https://resim.epey.com/884857/k_lg-55ur91006la-1.jpg"
+      "/images/products/tvs/lg-55ur91006la.jpg"
     ],
     "storeOffers": [
       {
@@ -24753,9 +24927,9 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "LED"
     ],
-    "image": "https://resim.epey.com/696320/k_lg-55nano756pa-7.jpg",
+    "image": "/images/products/tvs/lg-55nano756pa.jpg",
     "images": [
-      "https://resim.epey.com/696320/k_lg-55nano756pa-7.jpg"
+      "/images/products/tvs/lg-55nano756pa.jpg"
     ],
     "storeOffers": [
       {
@@ -24866,9 +25040,9 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "LED"
     ],
-    "image": "https://resim.epey.com/787878/k_lg-55nano766qa-1.jpg",
+    "image": "/images/products/tvs/lg-55nano766qa.jpg",
     "images": [
-      "https://resim.epey.com/787878/k_lg-55nano766qa-1.jpg"
+      "/images/products/tvs/lg-55nano766qa.jpg"
     ],
     "storeOffers": [
       {
@@ -24979,9 +25153,9 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "LED"
     ],
-    "image": "https://resim.epey.com/799625/k_lg-55uq81006-1.jpg",
+    "image": "/images/products/tvs/lg-55uq81006lb.jpg",
     "images": [
-      "https://resim.epey.com/799625/k_lg-55uq81006-1.jpg"
+      "/images/products/tvs/lg-55uq81006lb.jpg"
     ],
     "storeOffers": [
       {
@@ -25080,9 +25254,9 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "LED"
     ],
-    "image": "https://resim.epey.com/699083/k_lg-55up77006lb-7.jpg",
+    "image": "/images/products/tvs/lg-55up77006lb.jpg",
     "images": [
-      "https://resim.epey.com/699083/k_lg-55up77006lb-7.jpg"
+      "/images/products/tvs/lg-55up77006lb.jpg"
     ],
     "storeOffers": [
       {
@@ -25164,7 +25338,7 @@ export const mockTVs: TVProduct[] = [
     "brand": "TCL",
     "category": "tvs",
     "rating": 8.4,
-    "image": "https://resim.epey.com/949572/k_tcl-55c655-pro-1.jpg",
+    "image": "/images/products/tvs/tv-tcl-55c655-pro.jpg",
     "specs": {
       "resolution": "4K Ultra HD (3840x2160)",
       "hdmiPorts": 4,
@@ -25259,7 +25433,10 @@ export const mockTVs: TVProduct[] = [
         "url": "https://www.mediamarkt.com.tr"
       }
     ],
-    "epeyScore": 77
+    "epeyScore": 77,
+    "images": [
+      "/images/products/tvs/tv-tcl-55c655-pro.jpg"
+    ]
   },
   {
     "id": "tv-lg-oled83g45lw",
@@ -25267,9 +25444,9 @@ export const mockTVs: TVProduct[] = [
     "name": "LG OLED83G45LW 83\" 4K Ultra HD OLED evo Smart TV",
     "brand": "LG",
     "category": "tvs",
-    "image": "https://resim.epey.com/937066/k_lg-oled83g45lw-7.jpg",
+    "image": "/images/products/tvs/tv-lg-oled83g45lw.jpg",
     "images": [
-      "https://resim.epey.com/937066/k_lg-oled83g45lw-7.jpg"
+      "/images/products/tvs/tv-lg-oled83g45lw.jpg"
     ],
     "rating": 9.3,
     "reviewCount": 35,
@@ -25390,9 +25567,9 @@ export const mockTVs: TVProduct[] = [
     "name": "LG OLED65G45LW 65\" 4K Ultra HD OLED evo Smart TV",
     "brand": "LG",
     "category": "tvs",
-    "image": "https://resim.epey.com/936360/k_lg-oled65g45lw-7.jpg",
+    "image": "/images/products/tvs/tv-lg-oled65g45lw.jpg",
     "images": [
-      "https://resim.epey.com/936360/k_lg-oled65g45lw-7.jpg"
+      "/images/products/tvs/tv-lg-oled65g45lw.jpg"
     ],
     "rating": 8.8,
     "reviewCount": 35,
@@ -25513,9 +25690,9 @@ export const mockTVs: TVProduct[] = [
     "name": "LG OLED97M49LA 97\" 4K Ultra HD OLED evo Smart TV",
     "brand": "LG",
     "category": "tvs",
-    "image": "https://resim.epey.com/974146/k_lg-oled97m49la-1.jpg",
+    "image": "/images/products/tvs/tv-lg-oled97m49la.jpg",
     "images": [
-      "https://resim.epey.com/974146/k_lg-oled97m49la-1.jpg"
+      "/images/products/tvs/tv-lg-oled97m49la.jpg"
     ],
     "rating": 9.5,
     "reviewCount": 35,
@@ -25635,9 +25812,9 @@ export const mockTVs: TVProduct[] = [
     "name": "LG OLED83M49LA 83\" 4K Ultra HD OLED evo Smart TV",
     "brand": "LG",
     "category": "tvs",
-    "image": "https://resim.epey.com/974132/k_lg-oled83m49la-1.jpg",
+    "image": "/images/products/tvs/tv-lg-oled83m49la.jpg",
     "images": [
-      "https://resim.epey.com/974132/k_lg-oled83m49la-1.jpg"
+      "/images/products/tvs/tv-lg-oled83m49la.jpg"
     ],
     "rating": 9.3,
     "reviewCount": 35,
@@ -25757,9 +25934,9 @@ export const mockTVs: TVProduct[] = [
     "name": "LG OLED77M49LA 77\" 4K Ultra HD OLED evo Smart TV",
     "brand": "LG",
     "category": "tvs",
-    "image": "https://resim.epey.com/973808/k_lg-oled77m49la-1.jpg",
+    "image": "/images/products/tvs/tv-lg-oled77m49la.jpg",
     "images": [
-      "https://resim.epey.com/973808/k_lg-oled77m49la-1.jpg"
+      "/images/products/tvs/tv-lg-oled77m49la.jpg"
     ],
     "rating": 9.2,
     "reviewCount": 35,
@@ -25879,9 +26056,9 @@ export const mockTVs: TVProduct[] = [
     "name": "LG OLED77G45LW 77\" 4K Ultra HD OLED evo Smart TV",
     "brand": "LG",
     "category": "tvs",
-    "image": "https://resim.epey.com/937064/k_lg-oled77g45lw-7.jpg",
+    "image": "/images/products/tvs/tv-lg-oled77g45lw.jpg",
     "images": [
-      "https://resim.epey.com/937064/k_lg-oled77g45lw-7.jpg"
+      "/images/products/tvs/tv-lg-oled77g45lw.jpg"
     ],
     "rating": 9.1,
     "reviewCount": 35,
@@ -26001,9 +26178,9 @@ export const mockTVs: TVProduct[] = [
     "name": "LG OLED83C46LA 83\" 4K Ultra HD OLED evo Smart TV",
     "brand": "LG",
     "category": "tvs",
-    "image": "https://resim.epey.com/937405/k_lg-oled83c46la-1.jpg",
+    "image": "/images/products/tvs/tv-lg-oled83c46la.jpg",
     "images": [
-      "https://resim.epey.com/937405/k_lg-oled83c46la-1.jpg"
+      "/images/products/tvs/tv-lg-oled83c46la.jpg"
     ],
     "rating": 9,
     "reviewCount": 35,
@@ -26123,9 +26300,9 @@ export const mockTVs: TVProduct[] = [
     "name": "LG OLED77C46LA 77\" 4K Ultra HD OLED evo Smart TV",
     "brand": "LG",
     "category": "tvs",
-    "image": "https://resim.epey.com/942704/k_lg-oled77c46la-1.jpg",
+    "image": "/images/products/tvs/tv-lg-oled77c46la.jpg",
     "images": [
-      "https://resim.epey.com/942704/k_lg-oled77c46la-1.jpg"
+      "/images/products/tvs/tv-lg-oled77c46la.jpg"
     ],
     "rating": 8.9,
     "reviewCount": 35,
@@ -26245,9 +26422,9 @@ export const mockTVs: TVProduct[] = [
     "name": "LG OLED65C46LA 65\" 4K Ultra HD OLED evo Smart TV",
     "brand": "LG",
     "category": "tvs",
-    "image": "https://resim.epey.com/941240/k_lg-oled65c46la-1.jpg",
+    "image": "/images/products/tvs/tv-lg-oled65c46la.jpg",
     "images": [
-      "https://resim.epey.com/941240/k_lg-oled65c46la-1.jpg"
+      "/images/products/tvs/tv-lg-oled65c46la.jpg"
     ],
     "rating": 8.6,
     "reviewCount": 35,
@@ -26367,9 +26544,9 @@ export const mockTVs: TVProduct[] = [
     "name": "LG OLED55C46LA 55\" 4K Ultra HD OLED evo Smart TV",
     "brand": "LG",
     "category": "tvs",
-    "image": "https://resim.epey.com/941217/k_lg-oled55c46la-11.jpg",
+    "image": "/images/products/tvs/tv-lg-oled55c46la.jpg",
     "images": [
-      "https://resim.epey.com/941217/k_lg-oled55c46la-11.jpg"
+      "/images/products/tvs/tv-lg-oled55c46la.jpg"
     ],
     "rating": 8.3,
     "reviewCount": 35,
@@ -26489,9 +26666,9 @@ export const mockTVs: TVProduct[] = [
     "name": "LG 86QNED91T6A 86\" 4K Ultra HD QNED MiniLED Smart TV",
     "brand": "LG",
     "category": "tvs",
-    "image": "https://resim.epey.com/948321/k_lg-75qned91t6a-6.jpg",
+    "image": "/images/products/tvs/tv-lg-86qned91t6a.jpg",
     "images": [
-      "https://resim.epey.com/948321/k_lg-75qned91t6a-6.jpg"
+      "/images/products/tvs/tv-lg-86qned91t6a.jpg"
     ],
     "rating": 8.2,
     "reviewCount": 35,
@@ -26610,9 +26787,9 @@ export const mockTVs: TVProduct[] = [
     "name": "LG OLED77C34LA 77\" 4K Ultra HD OLED evo Smart TV",
     "brand": "LG",
     "category": "tvs",
-    "image": "https://resim.epey.com/868528/k_lg-oled65c34la-1.jpg",
+    "image": "/images/products/tvs/lg-oled77c34la.jpg",
     "images": [
-      "https://resim.epey.com/868528/k_lg-oled65c34la-1.jpg"
+      "/images/products/tvs/lg-oled77c34la.jpg"
     ],
     "rating": 4.9,
     "reviewCount": 89,
@@ -26716,9 +26893,9 @@ export const mockTVs: TVProduct[] = [
     "name": "LG OLED65G36LA 65\" 4K Ultra HD Gallery OLED evo Smart TV",
     "brand": "LG",
     "category": "tvs",
-    "image": "https://resim.epey.com/865159/k_lg-oled65g36la-1.jpg",
+    "image": "/images/products/tvs/lg-oled65g36la.jpg",
     "images": [
-      "https://resim.epey.com/865159/k_lg-oled65g36la-1.jpg"
+      "/images/products/tvs/lg-oled65g36la.jpg"
     ],
     "rating": 4.9,
     "reviewCount": 145,
@@ -26822,9 +26999,9 @@ export const mockTVs: TVProduct[] = [
     "name": "LG 75QNED916PA 75\" 4K Ultra HD MiniLED QNED Smart TV",
     "brand": "LG",
     "category": "tvs",
-    "image": "https://resim.epey.com/719318/k_lg-86qned91-1.jpg",
+    "image": "/images/products/tvs/lg-75qned916pa.jpg",
     "images": [
-      "https://resim.epey.com/719318/k_lg-86qned91-1.jpg"
+      "/images/products/tvs/lg-75qned916pa.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 52,
@@ -26928,9 +27105,9 @@ export const mockTVs: TVProduct[] = [
     "name": "LG 65QNED916PA 65\" 4K Ultra HD MiniLED QNED Smart TV",
     "brand": "LG",
     "category": "tvs",
-    "image": "https://resim.epey.com/719317/k_lg-86qned91-1.jpg",
+    "image": "/images/products/tvs/lg-65qned916pa.jpg",
     "images": [
-      "https://resim.epey.com/719317/k_lg-86qned91-1.jpg"
+      "/images/products/tvs/lg-65qned916pa.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 79,
@@ -27034,9 +27211,9 @@ export const mockTVs: TVProduct[] = [
     "name": "LG 86QNED816RE 86\" 4K Ultra HD QNED Smart TV",
     "brand": "LG",
     "category": "tvs",
-    "image": "https://resim.epey.com/869088/k_lg-86qned816re-1.jpg",
+    "image": "/images/products/tvs/lg-86qned816re.jpg",
     "images": [
-      "https://resim.epey.com/869088/k_lg-86qned816re-1.jpg"
+      "/images/products/tvs/lg-86qned816re.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 65,
@@ -27140,12 +27317,9 @@ export const mockTVs: TVProduct[] = [
     "name": "LG StanbyME Go 27LX5QKNA 27\" Dokunmatik Taşınabilir Akıllı Ekran & TV (webOS)",
     "brand": "LG",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-stanbyme-go-27lx5qkna-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/lg-stanbyme-go-27lx5qkna-1.jpg",
-      "/images/products/tvs/lg-stanbyme-go-27lx5qkna-2.jpg",
-      "/images/products/tvs/lg-stanbyme-go-27lx5qkna-3.jpg",
-      "https://resim.epey.com/921450/z_lg-stanbyme-go-27-27lx5qkna-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 43,
@@ -27272,12 +27446,9 @@ export const mockTVs: TVProduct[] = [
     "name": "LG 86UA85006LA 86\" 4K Ultra HD Smart webOS TV (2025)",
     "brand": "LG",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-86ua85006la-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/lg-86ua85006la-1.jpg",
-      "/images/products/tvs/lg-86ua85006la-2.jpg",
-      "/images/products/tvs/lg-86ua85006la-3.jpg",
-      "https://resim.epey.com/1012229/z_lg-86ua85006la-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 24,
@@ -27421,12 +27592,9 @@ export const mockTVs: TVProduct[] = [
     "name": "LG 55SK8500PLA 55\" 100/120Hz 4K Ultra HD NanoCell Super UHD Smart TV",
     "brand": "LG",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55sk8500pla-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55sk8500pla-1.jpg",
-      "/images/products/tvs/lg-55sk8500pla-2.jpg",
-      "/images/products/tvs/lg-55sk8500pla-3.jpg",
-      "https://resim.epey.com/110431/z_lg-55sk8500-10.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.5,
     "reviewCount": 56,
@@ -27554,12 +27722,9 @@ export const mockTVs: TVProduct[] = [
     "name": "LG 75QNED70B6A 75\" 4K Ultra HD QNED MiniLED webOS 26 Smart TV (2026)",
     "brand": "LG",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-75qned70b6a-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/lg-75qned70b6a-1.jpg",
-      "/images/products/tvs/lg-75qned70b6a-2.jpg",
-      "/images/products/tvs/lg-75qned70b6a-3.jpg",
-      "https://resim.epey.com/1058486/z_lg-75qned70b6a-7.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 18,
@@ -27688,12 +27853,9 @@ export const mockTVs: TVProduct[] = [
     "name": "LG 55NANO846QA 55\" 4K Ultra HD NanoCell webOS Smart TV",
     "brand": "LG",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55nano846qa-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55nano846qa-1.jpg",
-      "/images/products/tvs/lg-55nano846qa-2.jpg",
-      "/images/products/tvs/lg-55nano846qa-3.jpg",
-      "https://resim.epey.com/1012393/z_lg-55nano846qa-8806096435687-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 34,
@@ -27821,12 +27983,9 @@ export const mockTVs: TVProduct[] = [
     "name": "LG StanbyME 2 27LX6TDGA 27\" QHD (2K) Dokunmatik Taşınabilir webOS Smart Ekran (2025)",
     "brand": "LG",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-stanbyme-2-27lx6tdga-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/lg-stanbyme-2-27lx6tdga-1.jpg",
-      "/images/products/tvs/lg-stanbyme-2-27lx6tdga-2.jpg",
-      "/images/products/tvs/lg-stanbyme-2-27lx6tdga-3.jpg",
-      "https://resim.epey.com/1023066/z_lg-stanbyme-27lx6tdga-20.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 42,
@@ -27999,12 +28158,9 @@ export const mockTVs: TVProduct[] = [
     "name": "LG 85NU900B6LA 85\" 4K Ultra HD Nano UHD webOS 26 Smart TV (2026)",
     "brand": "LG",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-85nu900b6la-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/lg-85nu900b6la-1.jpg",
-      "/images/products/tvs/lg-85nu900b6la-2.jpg",
-      "/images/products/tvs/lg-85nu900b6la-3.jpg",
-      "https://resim.epey.com/1058399/z_lg-85nu900b6la-7.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 22,
@@ -28179,10 +28335,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Vestel 75UG9750 75\" 4K Ultra HD Android Smart TV (2025)",
     "brand": "Vestel",
     "category": "tvs",
-    "image": "/images/products/tvs/vestel-75ug9750-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/vestel-75ug9750-1.jpg",
-      "https://resim.epey.com/1016960/k_vestel-75ug9750-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 18,
@@ -28284,10 +28439,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Vestel 55QG9950 55\" 4K Ultra HD QLED Android Smart TV (2025)",
     "brand": "Vestel",
     "category": "tvs",
-    "image": "/images/products/tvs/vestel-55qg9950-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/vestel-55qg9950-1.jpg",
-      "https://resim.epey.com/1017500/k_vestel-55qg9950-8698902008969-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 24,
@@ -28371,10 +28525,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Vestel 65UG9750 65\" 4K Ultra HD Android Smart TV (2025)",
     "brand": "Vestel",
     "category": "tvs",
-    "image": "/images/products/tvs/vestel-65ug9750-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/vestel-65ug9750-1.jpg",
-      "https://resim.epey.com/1014137/k_vestel-65ug9750-8698902009089-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 31,
@@ -28471,10 +28624,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Vestel 75UV9750 75\" 4K Ultra HD TiVo Smart TV (2025)",
     "brand": "Vestel",
     "category": "tvs",
-    "image": "/images/products/tvs/vestel-75uv9750-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/vestel-75uv9750-1.jpg",
-      "https://resim.epey.com/1016992/k_vestel-75uv9750-8698902009140-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.5,
     "reviewCount": 14,
@@ -28555,10 +28707,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Vestel 65QT9850 65\" 4K Ultra HD QLED TiVo Smart TV (2025)",
     "brand": "Vestel",
     "category": "tvs",
-    "image": "/images/products/tvs/vestel-65qt9850-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/vestel-65qt9850-1.jpg",
-      "https://resim.epey.com/1014136/k_vestel-65qt9850-8698902009072-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 22,
@@ -28656,10 +28807,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Vestel 55UG9750 55\" 4K Ultra HD Android Smart TV (2025)",
     "brand": "Vestel",
     "category": "tvs",
-    "image": "/images/products/tvs/vestel-55ug9750-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/vestel-55ug9750-1.jpg",
-      "https://resim.epey.com/1014140/k_vestel-55ug9750-8698902008983-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.5,
     "reviewCount": 29,
@@ -28741,10 +28891,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Vestel 65UT9850 65\" 4K Ultra HD TiVo Smart TV (2025)",
     "brand": "Vestel",
     "category": "tvs",
-    "image": "/images/products/tvs/vestel-65ut9850-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/vestel-65ut9850-1.jpg",
-      "https://resim.epey.com/1014138/k_vestel-65ut9850-8698902009102-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.5,
     "reviewCount": 16,
@@ -28825,10 +28974,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Vestel 65UV9750 65\" 4K Ultra HD TiVo Smart TV (2025)",
     "brand": "Vestel",
     "category": "tvs",
-    "image": "/images/products/tvs/vestel-65uv9750-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/vestel-65uv9750-1.jpg",
-      "https://resim.epey.com/1013145/k_vestel-65uv9750-8698902009119-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.5,
     "reviewCount": 20,
@@ -28909,10 +29057,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Vestel 65UT9760 65\" 4K Ultra HD TiVo Smart TV (2026)",
     "brand": "Vestel",
     "category": "tvs",
-    "image": "/images/products/tvs/vestel-65ut9760-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/vestel-65ut9760-1.jpg",
-      "https://resim.epey.com/1061918/k_vestel-65ut9760-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 12,
@@ -28995,10 +29142,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Vestel 55QT9850 55\" 4K Ultra HD QLED TiVo Smart TV (2025)",
     "brand": "Vestel",
     "category": "tvs",
-    "image": "/images/products/tvs/vestel-55qt9850-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/vestel-55qt9850-1.jpg",
-      "https://resim.epey.com/1014139/k_vestel-55qt9850-8698902008976-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 35,
@@ -29096,10 +29242,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Vestel 50UG9750 50\" 4K Ultra HD Android Smart TV (2025)",
     "brand": "Vestel",
     "category": "tvs",
-    "image": "/images/products/tvs/vestel-50ug9750-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/vestel-50ug9750-1.jpg",
-      "https://resim.epey.com/1016953/k_vestel-50ug9750-4.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.5,
     "reviewCount": 22,
@@ -29181,10 +29326,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Vestel 50QT9850 50\" 4K Ultra HD QLED TiVo Smart TV (2025)",
     "brand": "Vestel",
     "category": "tvs",
-    "image": "/images/products/tvs/vestel-50qt9850-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/vestel-50qt9850-1.jpg",
-      "https://resim.epey.com/1016999/k_vestel-50qt9850-8698902008907-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 15,
@@ -29266,10 +29410,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Vestel 58UT9850 58\" 4K Ultra HD TiVo Smart TV (2025)",
     "brand": "Vestel",
     "category": "tvs",
-    "image": "/images/products/tvs/vestel-58ut9850-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/vestel-58ut9850-1.jpg",
-      "https://resim.epey.com/1016998/k_vestel-58ut9850-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.5,
     "reviewCount": 19,
@@ -29350,10 +29493,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Vestel 55UT9760 55\" 4K Ultra HD TiVo Smart TV (2026)",
     "brand": "Vestel",
     "category": "tvs",
-    "image": "/images/products/tvs/vestel-55ut9760-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/vestel-55ut9760-1.jpg",
-      "https://resim.epey.com/1061666/k_vestel-55ut9760-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.5,
     "reviewCount": 14,
@@ -29436,10 +29578,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Vestel 55UV9750 55\" 4K Ultra HD TiVo Smart TV (2025)",
     "brand": "Vestel",
     "category": "tvs",
-    "image": "/images/products/tvs/vestel-55uv9750-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/vestel-55uv9750-1.jpg",
-      "https://resim.epey.com/1013146/k_vestel-55uv9750-8698902009010-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.5,
     "reviewCount": 20,
@@ -29520,10 +29661,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Vestel 43UG9750 43\" 4K Ultra HD Android Smart TV (2025)",
     "brand": "Vestel",
     "category": "tvs",
-    "image": "/images/products/tvs/vestel-43ug9750-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/vestel-43ug9750-1.jpg",
-      "https://resim.epey.com/1014144/k_vestel-43ug9750-8698902008884-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.4,
     "reviewCount": 18,
@@ -29604,10 +29744,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Vestel 50UT9760 50\" 4K Ultra HD TiVo Smart TV (2026)",
     "brand": "Vestel",
     "category": "tvs",
-    "image": "/images/products/tvs/vestel-50ut9760-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/vestel-50ut9760-1.jpg",
-      "https://resim.epey.com/1061928/k_vestel-50ut9760-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.5,
     "reviewCount": 11,
@@ -29689,10 +29828,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Vestel 50UT9850 50\" 4K Ultra HD TiVo Smart TV (2025)",
     "brand": "Vestel",
     "category": "tvs",
-    "image": "/images/products/tvs/vestel-50ut9850-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/vestel-50ut9850-1.jpg",
-      "https://resim.epey.com/1017001/k_vestel-50ut9850-8698902008921-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.5,
     "reviewCount": 17,
@@ -29773,10 +29911,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Vestel 50UV9750 50\" 4K Ultra HD TiVo Smart TV (2025)",
     "brand": "Vestel",
     "category": "tvs",
-    "image": "/images/products/tvs/vestel-50uv9750-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/vestel-50uv9750-1.jpg",
-      "https://resim.epey.com/1013151/k_vestel-50uv9750-8698902008938-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.5,
     "reviewCount": 19,
@@ -29857,10 +29994,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Vestel 43UV9750 43\" 4K Ultra HD TiVo Smart TV (2025)",
     "brand": "Vestel",
     "category": "tvs",
-    "image": "/images/products/tvs/vestel-43uv9750-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/vestel-43uv9750-1.jpg",
-      "https://resim.epey.com/1013153/k_vestel-43uv9750-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.4,
     "reviewCount": 16,
@@ -29941,10 +30077,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Vestel 43UT9760 43\" 4K Ultra HD TiVo Smart TV (2026)",
     "brand": "Vestel",
     "category": "tvs",
-    "image": "/images/products/tvs/vestel-43ut9760-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/vestel-43ut9760-1.jpg",
-      "https://resim.epey.com/1061930/k_vestel-43ut9760-4.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.4,
     "reviewCount": 9,
@@ -30026,10 +30161,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Vestel 43FT9751 43\" Full HD TiVo Smart TV (2026)",
     "brand": "Vestel",
     "category": "tvs",
-    "image": "/images/products/tvs/vestel-43ft9751-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/vestel-43ft9751-1.jpg",
-      "https://resim.epey.com/1064988/k_vestel-43ft9751-7.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.3,
     "reviewCount": 11,
@@ -30109,10 +30243,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Vestel 43FV9750 43\" Full HD VIDAA Smart TV (2025)",
     "brand": "Vestel",
     "category": "tvs",
-    "image": "/images/products/tvs/vestel-43fv9750-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/vestel-43fv9750-1.jpg",
-      "https://resim.epey.com/1014154/k_vestel-43fv9750-8698902008877-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.3,
     "reviewCount": 14,
@@ -30191,10 +30324,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Vestel 40FV9750 40\" Full HD VIDAA Smart TV (2025)",
     "brand": "Vestel",
     "category": "tvs",
-    "image": "/images/products/tvs/vestel-40fv9750-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/vestel-40fv9750-1.jpg",
-      "https://resim.epey.com/1014149/k_vestel-43fv9750-8698902008877-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.3,
     "reviewCount": 16,
@@ -30273,10 +30405,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Vestel 40FT9760 40\" Full HD TiVo Smart TV (2026)",
     "brand": "Vestel",
     "category": "tvs",
-    "image": "/images/products/tvs/vestel-40ft9760-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/vestel-40ft9760-1.jpg",
-      "https://resim.epey.com/1054327/k_vestel-40ft9760-8698902019378-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.4,
     "reviewCount": 14,
@@ -30423,10 +30554,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Vestel 32FA9950L 32\" Full HD Android Smart TV (2025)",
     "brand": "Vestel",
     "category": "tvs",
-    "image": "/images/products/tvs/vestel-32fa9950l-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/vestel-32fa9950l-1.jpg",
-      "https://resim.epey.com/1014146/k_vestel-32fa9950l-8698902787703-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.3,
     "reviewCount": 9,
@@ -30530,10 +30660,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Vestel 32FA9950B 32\" Full HD Beyaz Android Smart TV (2025)",
     "brand": "Vestel",
     "category": "tvs",
-    "image": "/images/products/tvs/vestel-32fa9950b-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/vestel-32fa9950b-1.jpg",
-      "https://resim.epey.com/1014147/k_vestel-32fa9950b-8698902787680-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.3,
     "reviewCount": 11,
@@ -30651,10 +30780,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Vestel 32FA9950Y 32\" Full HD Android Smart TV (2025)",
     "brand": "Vestel",
     "category": "tvs",
-    "image": "/images/products/tvs/vestel-32fa9950y-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/vestel-32fa9950y-1.jpg",
-      "https://resim.epey.com/1014148/k_vestel-32fa9950y-8698902787697-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.3,
     "reviewCount": 7,
@@ -30771,10 +30899,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Vestel 32FV9750 32\" Full HD VIDAA Smart TV (2025)",
     "brand": "Vestel",
     "category": "tvs",
-    "image": "/images/products/tvs/vestel-32fv9750-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/vestel-32fv9750-1.jpg",
-      "https://resim.epey.com/1014156/k_vestel-32fv9750-8698902008822-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.2,
     "reviewCount": 8,
@@ -30891,10 +31018,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Vestel 24HA9950M 24\" HD Android Smart TV Mavi (2025)",
     "brand": "Vestel",
     "category": "tvs",
-    "image": "/images/products/tvs/vestel-24ha9950m-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/vestel-24ha9950m-1.jpg",
-      "https://resim.epey.com/1016917/k_vestel-24ha9950m-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.1,
     "reviewCount": 6,
@@ -31021,10 +31147,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Vestel 24HA9950Y 24\" HD Android Smart TV Yeşil (2025)",
     "brand": "Vestel",
     "category": "tvs",
-    "image": "/images/products/tvs/vestel-24ha9950y-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/vestel-24ha9950y-1.jpg",
-      "https://resim.epey.com/1014150/k_vestel-24ha9950y-8698902008815-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.1,
     "reviewCount": 5,
@@ -31123,10 +31248,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Vestel 24HA9950S 24\" HD Android Smart TV Sarı (2025)",
     "brand": "Vestel",
     "category": "tvs",
-    "image": "/images/products/tvs/vestel-24ha9950s-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/vestel-24ha9950s-1.jpg",
-      "https://resim.epey.com/1014151/k_vestel-24ha9950s-8698902008808-2.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.1,
     "reviewCount": 4,
@@ -31253,10 +31377,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Vestel 32HV9750 32\" HD VIDAA Smart TV (2025)",
     "brand": "Vestel",
     "category": "tvs",
-    "image": "/images/products/tvs/vestel-32hv9750-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/vestel-32hv9750-1.jpg",
-      "https://resim.epey.com/1014173/k_vestel-32hv9750-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.1,
     "reviewCount": 8,
@@ -31371,10 +31494,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Vestel 32HT9760 32\" HD TiVo Smart TV (2026)",
     "brand": "Vestel",
     "category": "tvs",
-    "image": "/images/products/tvs/vestel-32ht9760-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/vestel-32ht9760-1.jpg",
-      "https://resim.epey.com/1054329/k_vestel-32ht9760-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4,
     "reviewCount": 6,
@@ -31503,10 +31625,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Vestel 32HT9150 32\" HD TiVo Smart TV (2025)",
     "brand": "Vestel",
     "category": "tvs",
-    "image": "/images/products/tvs/vestel-32ht9150-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/vestel-32ht9150-1.jpg",
-      "https://resim.epey.com/1031749/k_vestel-32ht9150-8698902012362-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4,
     "reviewCount": 15,
@@ -31649,10 +31770,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Vestel 40F8750 40\" Full HD LED TV (2025)",
     "brand": "Vestel",
     "category": "tvs",
-    "image": "/images/products/tvs/vestel-40f8750-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/vestel-40f8750-1.jpg",
-      "https://resim.epey.com/1027381/k_vestel-40f8750-8698902008853-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 3.8,
     "reviewCount": 12,
@@ -31779,10 +31899,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Vestel 65OG9950 65\" 4K Ultra HD 120Hz OLED Android TV (2025)",
     "brand": "Vestel",
     "category": "tvs",
-    "image": "/images/products/tvs/vestel-65og9950-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/vestel-65og9950-1.jpg",
-      "https://resim.epey.com/1050992/k_vestel-65og9950-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 22,
@@ -31906,10 +32025,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Vestel 55OG9950 55\" 4K Ultra HD 120Hz OLED Android TV (2025)",
     "brand": "Vestel",
     "category": "tvs",
-    "image": "/images/products/tvs/vestel-55og9950-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/vestel-55og9950-1.jpg",
-      "https://resim.epey.com/1051026/k_vestel-55og9950-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 19,
@@ -32033,10 +32151,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Vestel 65QMG9950 65\" 4K Mini LED Android TV (2025)",
     "brand": "Vestel",
     "category": "tvs",
-    "image": "/images/products/tvs/vestel-65qmg9950-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/vestel-65qmg9950-1.jpg",
-      "https://resim.epey.com/1016982/k_vestel-65qmg9950-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 16,
@@ -32159,10 +32276,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Vestel 65QG9960 65\" 4K QLED Android TV (2026)",
     "brand": "Vestel",
     "category": "tvs",
-    "image": "/images/products/tvs/vestel-65qg9960-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/vestel-65qg9960-1.jpg",
-      "https://resim.epey.com/1065851/k_vestel-65qg9960-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.5,
     "reviewCount": 14,
@@ -32282,12 +32398,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Vestel 65QG9950 (20300357) 65\" 4K QLED Android TV (2025)",
     "brand": "Vestel",
     "category": "tvs",
-    "image": "/images/products/tvs/vestel-65qg9950-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/vestel-65qg9950-1.jpg",
-      "/images/products/tvs/vestel-65qg9950-2.jpg",
-      "/images/products/tvs/vestel-65qg9950-3.jpg",
-      "https://resim.epey.com/1016990/z_vestel-65qg9950-8698902009058-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4,
     "reviewCount": 2,
@@ -32411,10 +32524,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Vestel 55QG9960 55\" 4K QLED Android TV (2026)",
     "brand": "Vestel",
     "category": "tvs",
-    "image": "/images/products/tvs/vestel-55qg9960-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/vestel-55qg9960-1.jpg",
-      "https://resim.epey.com/1065874/k_vestel-55qg9960-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.4,
     "reviewCount": 12,
@@ -32534,10 +32646,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Vestel 75QT9850 75\" 4K QLED TiVo Smart TV (2025)",
     "brand": "Vestel",
     "category": "tvs",
-    "image": "/images/products/tvs/vestel-75qt9850-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/vestel-75qt9850-1.jpg",
-      "https://resim.epey.com/1014135/k_vestel-75qt9850-8698902009126-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.5,
     "reviewCount": 16,
@@ -32657,10 +32768,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Vestel 65UG9760 65\" 4K Android Smart TV (2026)",
     "brand": "Vestel",
     "category": "tvs",
-    "image": "/images/products/tvs/vestel-65ug9760-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/vestel-65ug9760-1.jpg",
-      "https://resim.epey.com/1065839/k_vestel-65ug9760-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.3,
     "reviewCount": 10,
@@ -32778,10 +32888,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Vestel 55UG9760 55\" 4K Android Smart TV (2026)",
     "brand": "Vestel",
     "category": "tvs",
-    "image": "/images/products/tvs/vestel-55ug9760-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/vestel-55ug9760-1.jpg",
-      "https://resim.epey.com/1065844/k_vestel-55ug9760-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.3,
     "reviewCount": 9,
@@ -32899,10 +33008,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Vestel 50UG9760 50\" 4K Android Smart TV (2026)",
     "brand": "Vestel",
     "category": "tvs",
-    "image": "/images/products/tvs/vestel-50ug9760-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/vestel-50ug9760-1.jpg",
-      "https://resim.epey.com/1065846/k_vestel-50ug9760-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.2,
     "reviewCount": 11,
@@ -33020,10 +33128,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Vestel 55UT9850 55\" 4K TiVo Smart TV (2025)",
     "brand": "Vestel",
     "category": "tvs",
-    "image": "/images/products/tvs/vestel-55ut9850-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/vestel-55ut9850-1.jpg",
-      "https://resim.epey.com/1014141/k_vestel-55ut9850-8698902009003-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.2,
     "reviewCount": 14,
@@ -33142,10 +33249,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Vestel 43UG9760 43\" 4K Android Smart TV (2026)",
     "brand": "Vestel",
     "category": "tvs",
-    "image": "/images/products/tvs/vestel-43ug9760-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/vestel-43ug9760-1.jpg",
-      "https://resim.epey.com/1065848/k_vestel-43ug9760-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.2,
     "reviewCount": 8,
@@ -33263,10 +33369,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Vestel 32H8750 (20300384) 32\" HD LED TV (2025)",
     "brand": "Vestel",
     "category": "tvs",
-    "image": "/images/products/tvs/vestel-32h8750-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/vestel-32h8750-1.jpg",
-      "https://resim.epey.com/1025416/k_vestel-32h8750-8698902008839-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 3.9,
     "reviewCount": 7,
@@ -33380,10 +33485,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Vestel 24H8750 (20300385) 24\" HD LED TV (2025)",
     "brand": "Vestel",
     "category": "tvs",
-    "image": "/images/products/tvs/vestel-24h8750-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/vestel-24h8750-1.jpg",
-      "https://resim.epey.com/1019032/k_vestel-24h8750-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 3.8,
     "reviewCount": 5,
@@ -33497,10 +33601,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Vestel 65UA9740 (20278806) 65\" 4K Android TV (2024)",
     "brand": "Vestel",
     "category": "tvs",
-    "image": "/images/products/tvs/vestel-65ua9740-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/vestel-65ua9740-1.jpg",
-      "https://resim.epey.com/962417/k_vestel-65ua9740-8698902788069-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.1,
     "reviewCount": 14,
@@ -33607,10 +33710,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Vestel 65UA9540 (20278445) 65\" 4K Android TV (2024)",
     "brand": "Vestel",
     "category": "tvs",
-    "image": "/images/products/tvs/vestel-65ua9540-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/vestel-65ua9540-1.jpg",
-      "https://resim.epey.com/936693/k_vestel-65ua9540-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4,
     "reviewCount": 9,
@@ -33700,10 +33802,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Vestel 70UT9740 (20278809) 70\" 4K TiVo Smart TV (2024)",
     "brand": "Vestel",
     "category": "tvs",
-    "image": "/images/products/tvs/vestel-70ut9740-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/vestel-70ut9740-1.jpg",
-      "https://resim.epey.com/963302/k_vestel-70ut9740-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.2,
     "reviewCount": 11,
@@ -33810,10 +33911,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Vestel 50QG9840 (20278786) 50\" 4K QLED Android TV (2024)",
     "brand": "Vestel",
     "category": "tvs",
-    "image": "/images/products/tvs/vestel-50qg9840-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/vestel-50qg9840-1.jpg",
-      "https://resim.epey.com/969842/k_vestel-50qg9840-8698902787864-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.2,
     "reviewCount": 16,
@@ -33921,10 +34021,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Vestel 58UA9740 (20278798) 58\" 4K Android TV (2024)",
     "brand": "Vestel",
     "category": "tvs",
-    "image": "/images/products/tvs/vestel-58ua9740-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/vestel-58ua9740-1.jpg",
-      "https://resim.epey.com/963330/k_vestel-58ua9740-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.1,
     "reviewCount": 12,
@@ -34016,10 +34115,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Vestel 50QA9701 (20278695) 50\" 4K QLED Android TV (2024)",
     "brand": "Vestel",
     "category": "tvs",
-    "image": "/images/products/tvs/vestel-50qa9701-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/vestel-50qa9701-1.jpg",
-      "https://resim.epey.com/958594/k_vestel-65qa9701-8698902786973-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.1,
     "reviewCount": 15,
@@ -34126,10 +34224,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Vestel 55UA9740 (20278797) 55\" 4K Android TV (2024)",
     "brand": "Vestel",
     "category": "tvs",
-    "image": "/images/products/tvs/vestel-55ua9740-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/vestel-55ua9740-1.jpg",
-      "https://resim.epey.com/962418/k_vestel-55ua9740-8698902787970-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.1,
     "reviewCount": 18,
@@ -34236,10 +34333,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Vestel 65UT9840 (20278804) 65\" 4K TiVo Smart TV (2024)",
     "brand": "Vestel",
     "category": "tvs",
-    "image": "/images/products/tvs/vestel-65ut9840-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/vestel-65ut9840-1.jpg",
-      "https://resim.epey.com/974942/k_vestel-65ut9840-8698902788045-5.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.2,
     "reviewCount": 13,
@@ -34331,10 +34427,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Vestel 65UT9740 (20278803) 65\" 4K TiVo Smart TV (2024)",
     "brand": "Vestel",
     "category": "tvs",
-    "image": "/images/products/tvs/vestel-65ut9740-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/vestel-65ut9740-1.jpg",
-      "https://resim.epey.com/963351/k_vestel-65ut9740-5.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.1,
     "reviewCount": 10,
@@ -34426,10 +34521,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Vestel 55UA9540 (20278443) 55\" 4K Android TV (2024)",
     "brand": "Vestel",
     "category": "tvs",
-    "image": "/images/products/tvs/vestel-55ua9540-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/vestel-55ua9540-1.jpg",
-      "https://resim.epey.com/919964/k_vestel-55ua9540-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4,
     "reviewCount": 11,
@@ -34519,10 +34613,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Vestel 50UA9740 (20278789) 50\" 4K Android TV (2024)",
     "brand": "Vestel",
     "category": "tvs",
-    "image": "/images/products/tvs/vestel-50ua9740-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/vestel-50ua9740-1.jpg",
-      "https://resim.epey.com/962419/k_vestel-50ua9740-8698902787895-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.1,
     "reviewCount": 14,
@@ -34629,10 +34722,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Vestel 50UT9740 (20278787) 50\" 4K TiVo Smart TV (2024)",
     "brand": "Vestel",
     "category": "tvs",
-    "image": "/images/products/tvs/vestel-50ut9740-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/vestel-50ut9740-1.jpg",
-      "https://resim.epey.com/964172/k_vestel-50ut9740-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4,
     "reviewCount": 9,
@@ -34738,10 +34830,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Vestel 43FA9740 (20278781) 43\" Full HD Android TV (2024)",
     "brand": "Vestel",
     "category": "tvs",
-    "image": "/images/products/tvs/vestel-43fa9740-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/vestel-43fa9740-1.jpg",
-      "https://resim.epey.com/962422/k_vestel-43fa9740-8698902787819-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.1,
     "reviewCount": 14,
@@ -34832,10 +34923,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Vestel 40FA9740 (20278778) 40\" Full HD Android TV (2024)",
     "brand": "Vestel",
     "category": "tvs",
-    "image": "/images/products/tvs/vestel-40fa9740-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/vestel-40fa9740-1.jpg",
-      "https://resim.epey.com/962423/k_vestel-40fa9740-8698902787789-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4,
     "reviewCount": 16,
@@ -34939,10 +35029,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Vestel 40FT9740 (20278777) 40\" Full HD TiVo Smart TV (2024)",
     "brand": "Vestel",
     "category": "tvs",
-    "image": "/images/products/tvs/vestel-40ft9740-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/vestel-40ft9740-1.jpg",
-      "https://resim.epey.com/962806/k_vestel-43ft9740-869890278802-4.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 3.9,
     "reviewCount": 8,
@@ -35032,10 +35121,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Vestel 32HT9740 (20278776) 32\" HD TiVo Smart TV (2024)",
     "brand": "Vestel",
     "category": "tvs",
-    "image": "/images/products/tvs/vestel-32ht9740-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/vestel-32ht9740-1.jpg",
-      "https://resim.epey.com/962426/k_vestel-32ht9740-8698902787765-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4,
     "reviewCount": 11,
@@ -35125,10 +35213,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Vestel 24HA9530G (20277937) 24\" HD Android TV (2024)",
     "brand": "Vestel",
     "category": "tvs",
-    "image": "/images/products/tvs/vestel-24ha9530g-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/vestel-24ha9530g-1.jpg",
-      "https://resim.epey.com/918203/k_vestel-24ha9530g-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 3.9,
     "reviewCount": 7,
@@ -35215,10 +35302,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Vestel 32H9530T (20278747) 32\" HD LED TV (2024)",
     "brand": "Vestel",
     "category": "tvs",
-    "image": "/images/products/tvs/vestel-32h9530t-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/vestel-32h9530t-1.jpg",
-      "https://resim.epey.com/956083/k_vestel-32h9530t-8698902787475-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 3.9,
     "reviewCount": 6,
@@ -35303,10 +35389,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Vestel 32H9530M (20277946) 32\" HD LED TV Mavi (2024)",
     "brand": "Vestel",
     "category": "tvs",
-    "image": "/images/products/tvs/vestel-32h9530m-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/vestel-32h9530m-1.jpg",
-      "https://resim.epey.com/940716/k_vestel-32h9530m-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 3.9,
     "reviewCount": 5,
@@ -35391,10 +35476,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Vestel 32H9530Y (20277948) 32\" HD LED TV Yeşil (2024)",
     "brand": "Vestel",
     "category": "tvs",
-    "image": "/images/products/tvs/vestel-32h9530y-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/vestel-32h9530y-1.jpg",
-      "https://resim.epey.com/940714/k_vestel-32h9530y-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 3.9,
     "reviewCount": 5,
@@ -35479,10 +35563,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Vestel 24H8740 (20278772) 24\" HD LED TV (2024)",
     "brand": "Vestel",
     "category": "tvs",
-    "image": "/images/products/tvs/vestel-24h8740-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/vestel-24h8740-1.jpg",
-      "https://resim.epey.com/964037/k_vestel-24h8740-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 3.8,
     "reviewCount": 4,
@@ -35567,10 +35650,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Vestel 43F8740 (20278779) 43\" Full HD LED TV (2024)",
     "brand": "Vestel",
     "category": "tvs",
-    "image": "/images/products/tvs/vestel-43f8740-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/vestel-43f8740-1.jpg",
-      "https://resim.epey.com/962424/k_vestel-43f8740-8698902787796-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 3.9,
     "reviewCount": 6,
@@ -35655,10 +35737,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Vestel 65QMG9940 (20278807) 65\" 4K Mini LED Android TV (2024)",
     "brand": "Vestel",
     "category": "tvs",
-    "image": "/images/products/tvs/vestel-65qmg9940-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/vestel-65qmg9940-1.jpg",
-      "https://resim.epey.com/969838/k_vestel-65qmg9940-8698902788076-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 22,
@@ -35754,10 +35835,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Vestel 75QG9840 (20278823) 75\" 4K QLED Android TV (2024)",
     "brand": "Vestel",
     "category": "tvs",
-    "image": "/images/products/tvs/vestel-75qg9840-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/vestel-75qg9840-1.jpg",
-      "https://resim.epey.com/973809/k_vestel-75qg9840-8698902788236-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.5,
     "reviewCount": 19,
@@ -35852,10 +35932,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Samsung 115MR95 (MRE115MR95FXTK) 115\" 4K Micro LED Smart TV (2026)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/samsung-115mr95-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/samsung-115mr95-1.jpg",
-      "https://resim.epey.com/1036267/k_samsung-115mr95-5.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.9,
     "reviewCount": 8,
@@ -35966,10 +36045,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Samsung 83S95H (QE83S95HAEXTK) 83\" 4K Glare-Free OLED Smart TV (2026)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/samsung-83s95h-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/samsung-83s95h-1.jpg",
-      "https://resim.epey.com/1061202/k_samsung-83s95h-9.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.9,
     "reviewCount": 16,
@@ -36080,10 +36158,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Samsung 115QN90F (QE115QN90FTXTK) 115\" 4K Neo QLED Smart TV (2025)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/samsung-115qn90f-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/samsung-115qn90f-1.jpg",
-      "https://resim.epey.com/1024704/k_samsung-qe115qn90f-8806097217305-5.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 9,
@@ -36179,10 +36256,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Samsung 77S95H (QE77S95HATXTK) 77\" 4K Glare-Free OLED Smart TV (2026)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/samsung-77s95h-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/samsung-77s95h-1.jpg",
-      "https://resim.epey.com/1061203/k_samsung-65s95h-9.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.9,
     "reviewCount": 24,
@@ -36293,10 +36369,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Samsung 83S95F (QE83S95FAEXTK) 83\" 4K Glare-Free OLED Smart TV (2025)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/samsung-83s95f-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/samsung-83s95f-1.jpg",
-      "https://resim.epey.com/1011526/k_samsung-83s95f-6.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 15,
@@ -36391,10 +36466,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Samsung 98QN990F (QE98QN990FTXTK) 98\" 8K Neo QLED Smart TV (2025)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/samsung-98qn990f-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/samsung-98qn990f-1.jpg",
-      "https://resim.epey.com/1012397/k_samsung-98qn990f-6.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 5,
     "reviewCount": 11,
@@ -36491,10 +36565,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Samsung 77S95F (QE77S95FATXTK) 77\" 4K Glare-Free OLED Smart TV (2025)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/samsung-77s95f-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/samsung-77s95f-1.jpg",
-      "https://resim.epey.com/1010251/k_samsung-65s95f-5.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 28,
@@ -36604,10 +36677,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Samsung 65S95H (QE65S95HATXTK) 65\" 4K Glare-Free OLED Smart TV (2026)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/samsung-65s95h-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/samsung-65s95h-1.jpg",
-      "https://resim.epey.com/1061480/k_samsung-65s95h-9.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.9,
     "reviewCount": 35,
@@ -36718,10 +36790,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Samsung 83S90H (QE83S90HAEXTK) 83\" 4K OLED Smart TV (2026)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/samsung-83s90h-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/samsung-83s90h-1.jpg",
-      "https://resim.epey.com/1061204/k_samsung-48s90h-5.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 14,
@@ -36830,10 +36901,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Samsung 98QN90F (QE98QN90FATXTK) 98\" 4K Neo QLED Smart TV (2025)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/samsung-98qn90f-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/samsung-98qn90f-1.jpg",
-      "https://resim.epey.com/1010249/k_samsung-98qn90f-qe98qn90fatxtk-8806095979762-5.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 19,
@@ -36944,10 +37014,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Samsung 85QN990F (QE85QN990FTXTK) 85\" 8K Neo QLED Smart TV (2025)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/samsung-85qn990f-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/samsung-85qn990f-1.jpg",
-      "https://resim.epey.com/1012392/k_samsung-85qn990f-qe85qn990ftxtk-8806097009160-6.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.9,
     "reviewCount": 17,
@@ -37058,10 +37127,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Samsung 85QN900D (QE85QN900DTXTK) 85\" 8K Neo QLED Smart TV (2024)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/samsung-85qn900d-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/samsung-85qn900d-1.jpg",
-      "https://resim.epey.com/938416/k_samsung-85qn900d-6.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 22,
@@ -37156,10 +37224,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Samsung 65S95F (QE65S95FATXTK) 65\" 4K Glare-Free OLED Smart TV (2025)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/samsung-65s95f-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/samsung-65s95f-1.jpg",
-      "https://resim.epey.com/1010256/k_samsung-65s95f-5.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 31,
@@ -37255,10 +37322,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Samsung 77S90H (QE77S90HATXTK) 77\" 4K OLED Smart TV (2026)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/samsung-77s90h-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/samsung-77s90h-1.jpg",
-      "https://resim.epey.com/1061205/k_samsung-48s90h-5.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 20,
@@ -37367,10 +37433,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Samsung 85R95H (MRE85R95HATXTK) 85\" 4K The Frame Pro Smart TV (2026)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/samsung-85r95h-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/samsung-85r95h-1.jpg",
-      "https://resim.epey.com/1059951/k_samsung-85r95h-5.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.9,
     "reviewCount": 12,
@@ -37466,10 +37531,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Samsung 85QN900F (QE85QN900FTXTK) 85\" 8K Neo QLED Smart TV (2025)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/samsung-85qn900f-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/samsung-85qn900f-1.jpg",
-      "https://resim.epey.com/1010250/k_samsung-85qn900f-qe85qn900ftxtk-8806097006336-5.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 16,
@@ -37564,10 +37628,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Samsung 83S90F (QE83S90FAEXTK) 83\" 4K OLED Smart TV (2025)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/samsung-83s90f-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/samsung-83s90f-1.jpg",
-      "https://resim.epey.com/1012039/k_samsung-55s90f-8806097077114-5.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 18,
@@ -37676,10 +37739,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Samsung 65S95D (QE65S95DATXTK) 65\" 4K Glare-Free OLED Smart TV (2024)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/samsung-65s95d-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/samsung-65s95d-1.jpg",
-      "https://resim.epey.com/938326/k_samsung-65s95d-5.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 42,
@@ -37775,10 +37837,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Samsung 75QN990F (QE75QN990FTXTK) 75\" 8K Neo QLED Smart TV (2025)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/samsung-75qn990f-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/samsung-75qn990f-1.jpg",
-      "https://resim.epey.com/1012412/k_samsung-85qn990f-qe85qn990ftxtk-8806097009160-6.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.9,
     "reviewCount": 15,
@@ -37889,10 +37950,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Samsung 100QN80H (QE100QN80HUXTK) 100\" 4K Neo QLED Smart TV (2026)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/samsung-100qn80h-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/samsung-100qn80h-1.jpg",
-      "https://resim.epey.com/1062644/k_samsung-100qn80h-8806097944430-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 16,
@@ -38003,10 +38063,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Samsung 75QN900D (QE75QN900DTXTK) 75\" 8K Neo QLED Smart TV (2024)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/samsung-75qn900d-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/samsung-75qn900d-1.jpg",
-      "https://resim.epey.com/938432/k_samsung-75qn900d-6.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 20,
@@ -38101,10 +38160,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Samsung 77S90F (QE77S90FAEXTK) 77\" 4K OLED Smart TV (2025)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/samsung-77s90f-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/samsung-77s90f-1.jpg",
-      "https://resim.epey.com/1012038/k_samsung-55s90f-8806097077114-5.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 26,
@@ -38214,10 +38272,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Samsung 85QN90F (QE85QN90FATXTK) 85\" 4K Neo QLED Smart TV (2025)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/samsung-85qn90f-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/samsung-85qn90f-1.jpg",
-      "https://resim.epey.com/1010253/k_samsung-85qn90f-qe85qn90fatxtk-8806095979861-5.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 21,
@@ -38313,10 +38370,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Samsung 75R95H (MRE75R95HATXTK) 75\" 4K The Frame Pro Smart TV (2026)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/samsung-75r95h-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/samsung-75r95h-1.jpg",
-      "https://resim.epey.com/1062643/k_samsung-65r95h-5.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.9,
     "reviewCount": 18,
@@ -38426,10 +38482,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Samsung 75QN800D (QE75QN800DTXTK) 75\" 8K Neo QLED Smart TV (2024)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/samsung-75qn800d-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/samsung-75qn800d-1.jpg",
-      "https://resim.epey.com/938471/k_samsung-75qn800d-6.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 16,
@@ -38524,10 +38579,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Samsung 75QN900F (QE75QN900FTXTK) 75\" 8K Neo QLED Smart TV (2025)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/samsung-75qn900f-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/samsung-75qn900f-1.jpg",
-      "https://resim.epey.com/1012056/k_samsung-75qn900f-qe85qn900ftxtk-8806097006336-5.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 14,
@@ -38622,10 +38676,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Samsung 65S90H (QE65S90HAEXTK) 65\" 4K OLED Smart TV (2026)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/samsung-65s90h-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/samsung-65s90h-1.jpg",
-      "https://resim.epey.com/1061434/k_samsung-48s90h-5.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 29,
@@ -38735,10 +38788,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Samsung 83S85H (QE83S85HAEXTK) 83\" 4K OLED Smart TV (2026)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/samsung-83s85h-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/samsung-83s85h-1.jpg",
-      "https://resim.epey.com/1061361/k_samsung-65s85h-5.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 11,
@@ -38833,10 +38885,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Samsung 65S90F (QE65S90FATXTK) 65\" 4K OLED Smart TV (2025)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/samsung-65s90f-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/samsung-65s90f-1.jpg",
-      "https://resim.epey.com/1011764/k_samsung-55s90f-8806097077114-5.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 38,
@@ -38946,10 +38997,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Samsung 65R95H (MRE65R95HATXTK) 65\" 4K The Frame Pro Smart TV (2026)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/samsung-65r95h-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/samsung-65r95h-1.jpg",
-      "https://resim.epey.com/1060251/k_samsung-65r95h-5.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.9,
     "reviewCount": 22,
@@ -39059,10 +39109,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Samsung 85QN85F (QE85QN85FAUXTK) 85\" 4K Neo QLED Smart TV (2025)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/samsung-85qn85f-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/samsung-85qn85f-1.jpg",
-      "https://resim.epey.com/1013140/k_samsung-55qn85f-5.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 19,
@@ -39158,10 +39207,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Samsung 65QN800D (QE65QN800DTXTK) 65\" 8K Neo QLED Smart TV (2024)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/samsung-65qn800d-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/samsung-65qn800d-1.jpg",
-      "https://resim.epey.com/938480/k_samsung-65qn800d-6.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 15,
@@ -39256,10 +39304,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Samsung 65QN900F (QE65QN900FTXTK) 65\" 8K Neo QLED Smart TV (2025)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/samsung-65qn900f-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/samsung-65qn900f-1.jpg",
-      "https://resim.epey.com/1010257/k_samsung-75qn900f-qe85qn900ftxtk-8806097006336-5.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 16,
@@ -39354,10 +39401,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Samsung 65S90D (QE65S90DATXTK) 65\" 4K OLED Smart TV (2024)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/samsung-65s90d-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/samsung-65s90d-1.jpg",
-      "https://resim.epey.com/938659/k_samsung-65s90d-5.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 45,
@@ -39453,10 +39499,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Samsung 55S90H (QE55S90HAEXTK) 55\" 4K OLED Smart TV (2026)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/samsung-55s90h-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/samsung-55s90h-1.jpg",
-      "https://resim.epey.com/1061208/k_samsung-48s90h-5.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 32,
@@ -39567,10 +39612,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Samsung 75QN90D (QE75QN90DATXTK) 75\" 4K Neo QLED Smart TV (2024)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/samsung-75qn90d-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/samsung-75qn90d-1.jpg",
-      "https://resim.epey.com/938174/k_samsung-75qn90d-5.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 25,
@@ -39665,10 +39709,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Samsung 83S85F (QE83S85FAEXTK) 83\" 4K OLED Smart TV (2025)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/samsung-83s85f-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/samsung-83s85f-1.jpg",
-      "https://resim.epey.com/1010255/k_samsung-65s85f-qe65s85faextk-8806095999746-4.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 15,
@@ -39763,10 +39806,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Samsung 77S85H (QE77S85HAEXTK) 77\" 4K OLED Smart TV (2026)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/samsung-77s85h-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/samsung-77s85h-1.jpg",
-      "https://resim.epey.com/1061206/k_samsung-65s85h-5.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 18,
@@ -39875,10 +39917,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Samsung 65QN90F (QE65QN90FATXTK) 65\" 4K Neo QLED Smart TV (2025)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/samsung-65qn90f-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/samsung-65qn90f-1.jpg",
-      "https://resim.epey.com/1010252/k_samsung-85qn90f-qe85qn90fatxtk-8806095979861-5.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 34,
@@ -39988,10 +40029,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Samsung 85R85H (MRE85R85HAUXTK) 85\" 4K The Frame Smart TV (2026)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/samsung-85r85h-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/samsung-85r85h-1.jpg",
-      "https://resim.epey.com/1059952/k_samsung-85r85h-5.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 17,
@@ -40100,10 +40140,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Samsung 85QN85D (QE85QN85DBTXTK) 85\" 4K Neo QLED Smart TV (2024)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/samsung-85qn85d-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/samsung-85qn85d-1.jpg",
-      "https://resim.epey.com/938539/k_samsung-85qn85d-5.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 20,
@@ -40198,10 +40237,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Samsung 48S90H (QE48S90HAEXTK) 48\" 4K OLED Smart TV (2026)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/samsung-48s90h-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/samsung-48s90h-1.jpg",
-      "https://resim.epey.com/1061209/k_samsung-48s90h-5.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 26,
@@ -40312,10 +40350,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Samsung 55S90F (QE55S90FAEXTK) 55\" 4K OLED Smart TV (2025)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/samsung-55s90f-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/samsung-55s90f-1.jpg",
-      "https://resim.epey.com/1010260/k_samsung-55s90f-8806097077114-5.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 35,
@@ -40425,10 +40462,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Samsung 77S85F (QE77S85FAEXTK) 77\" 4K OLED Smart TV (2025)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/samsung-77s85f-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/samsung-77s85f-1.jpg",
-      "https://resim.epey.com/1010258/k_samsung-65s85f-qe65s85faextk-8806095999746-4.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 21,
@@ -40523,10 +40559,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Samsung 75QN85F (QE75QN85FAUXTK) 75\" 4K Neo QLED Smart TV (2025)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/samsung-75qn85f-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/samsung-75qn85f-1.jpg",
-      "https://resim.epey.com/1013577/k_samsung-55qn85f-5.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 22,
@@ -40622,10 +40657,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Samsung 85QN80H (QE85QN80HAUXTK) 85\" 4K Neo QLED Smart TV (2026)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/samsung-85qn80h-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/samsung-85qn80h-1.jpg",
-      "https://resim.epey.com/1061660/k_samsung-55qn80h-5.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 20,
@@ -40736,10 +40770,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Samsung 55S90D (QE55S90DAEXTK) 55\" 4K OLED Smart TV (2024)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/samsung-55s90d-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/samsung-55s90d-1.jpg",
-      "https://resim.epey.com/951120/k_samsung-55s90d-5.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 48,
@@ -40835,10 +40868,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Samsung 98LS03HE (QE98LS03HEUXTK) 98\" 4K The Frame Smart TV (2026)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/samsung-98ls03he-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/samsung-98ls03he-1.jpg",
-      "https://resim.epey.com/1063174/k_samsung-98ls03he-13.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.9,
     "reviewCount": 14,
@@ -40948,10 +40980,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Samsung 75QN80F (QE75QN80FAUXTK) 75\" 4K Neo QLED Smart TV (2025)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/samsung-75qn80f-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/samsung-75qn80f-1.jpg",
-      "https://resim.epey.com/1010262/k_samsung-75qn80f-5.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 18,
@@ -41047,10 +41078,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Samsung 65S85H (QE65S85HAEXTK) 65\" 4K OLED Smart TV (2026)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/samsung-65s85h-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/samsung-65s85h-1.jpg",
-      "https://resim.epey.com/1061346/k_samsung-65s85h-5.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 24,
@@ -41161,10 +41191,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Samsung 48S90F (QE48S90FAEXTK) 48\" 4K OLED Smart TV (2025)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/samsung-48s90f-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/samsung-48s90f-1.jpg",
-      "https://resim.epey.com/1012036/k_samsung-48s90f-8806097077114-5.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 28,
@@ -41260,10 +41289,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Samsung 75R85H (MRE75R85HAUXTK) 75\" 4K The Frame Smart TV (2026)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/samsung-75r85h-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/samsung-75r85h-1.jpg",
-      "https://resim.epey.com/1060214/k_samsung-75r85h-5.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 19,
@@ -41373,10 +41401,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Samsung 75QN85D (QE75QN85DBTXTK) 75\" 4K Neo QLED Smart TV (2024)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/samsung-75qn85d-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/samsung-75qn85d-1.jpg",
-      "https://resim.epey.com/938483/k_samsung-75qn85d-5.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 22,
@@ -41471,10 +41498,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Samsung 85QN70F (QE85QN70FAUXTK) 85\" 4K Neo QLED Smart TV (2025)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/samsung-85qn70f-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/samsung-85qn70f-1.jpg",
-      "https://resim.epey.com/1010261/k_samsung-55qn70f-8806095980508-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 20,
@@ -41584,10 +41610,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Samsung 75QN80H (QE75QN80HAUXTK) 75\" 4K Neo QLED Smart TV (2026)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/samsung-75qn80h-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/samsung-75qn80h-1.jpg",
-      "https://resim.epey.com/1061672/k_samsung-55qn80h-5.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 22,
@@ -41698,10 +41723,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Samsung 65S85F (QE65S85FAEXTK) 65\" 4K OLED Smart TV (2025)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/samsung-65s85f-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/samsung-65s85f-1.jpg",
-      "https://resim.epey.com/1010259/k_samsung-65s85f-qe65s85faextk-8806095999746-4.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 31,
@@ -41811,10 +41835,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Samsung 55S85H (QE55S85HAEXTK) 55\" 4K OLED Smart TV (2026)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/samsung-55s85h-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/samsung-55s85h-1.jpg",
-      "https://resim.epey.com/1061210/k_samsung-55s85h-5.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 29,
@@ -41925,10 +41948,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Samsung 65R85H (MRE65R85HAUXTK) 65\" 4K The Frame Smart TV (2026)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/samsung-65r85h-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/samsung-65r85h-1.jpg",
-      "https://resim.epey.com/1060227/k_samsung-65r85h-5.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 25,
@@ -42038,10 +42060,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Samsung 75QN70F (QE75QN70FAUXTK) 75\" 4K Neo QLED Smart TV (2025)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/samsung-75qn70f-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/samsung-75qn70f-1.jpg",
-      "https://resim.epey.com/1010265/k_samsung-55qn70f-8806095980508-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 25,
@@ -42151,10 +42172,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Samsung 75LS03HW (QE75LS03HWUXTK) 75\" 4K The Frame Sanat TV (2026)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/samsung-75ls03hw-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/samsung-75ls03hw-1.jpg",
-      "https://resim.epey.com/1059953/k_samsung-65ls03hw-12.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 20,
@@ -42264,10 +42284,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Samsung 55QN85F (QE55QN85FAUXTK) 55\" 4K Neo QLED Smart TV (2025)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/samsung-55qn85f-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/samsung-55qn85f-1.jpg",
-      "https://resim.epey.com/1013544/k_samsung-55qn85f-5.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 16,
@@ -42362,10 +42381,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Samsung 65QN80H (QE65QN80HAUXTK) 65\" 4K Neo QLED Smart TV (2026)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/samsung-65qn80h-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/samsung-65qn80h-1.jpg",
-      "https://resim.epey.com/1061681/k_samsung-55qn80h-5.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 26,
@@ -42476,10 +42494,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Samsung 55S85F (QE55S85FAUXTK) 55\" 4K OLED Smart TV (2025)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/samsung-55s85f-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/samsung-55s85f-1.jpg",
-      "https://resim.epey.com/1010266/k_samsung-55s85f-5.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 30,
@@ -42575,10 +42592,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Samsung 85M80H (UE85M80HAUXTK) 85\" 4K Crystal UHD Smart TV (2026)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/samsung-85m80h-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/samsung-85m80h-1.jpg",
-      "https://resim.epey.com/1061642/k_samsung-65m80h-5.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 22,
@@ -42686,10 +42702,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Samsung 75LS03F (QE75LS03FWUXTK) 75\" 4K The Frame Sanat TV (2025)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/samsung-75ls03f-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/samsung-75ls03f-1.jpg",
-      "https://resim.epey.com/1011789/k_samsung-75ls03f-8806097123989-15.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 27,
@@ -42785,10 +42800,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Samsung 75Q80D (QE75Q80DATXTK) 75\" 4K QLED Smart TV (2024)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/samsung-75q80d-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/samsung-75q80d-1.jpg",
-      "https://resim.epey.com/942478/k_samsung-75q80d-5.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 23,
@@ -42883,10 +42897,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Samsung 55QN80F (QE55QN80FAUXTK) 55\" 4K Neo QLED Smart TV (2025)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/samsung-55qn80f-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/samsung-55qn80f-1.jpg",
-      "https://resim.epey.com/1010271/k_samsung-75qn80f-5.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 33,
@@ -42996,10 +43009,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Samsung 55R85H (MRE55R85HAUXTK) 55\" 4K The Frame Smart TV (2026)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/samsung-55r85h-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/samsung-55r85h-1.jpg",
-      "https://resim.epey.com/1060232/k_samsung-55r85h-5.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 26,
@@ -43109,10 +43121,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Samsung 55QN85D (QE55QN85DBTXTK) 55\" 4K Neo QLED Smart TV (2024)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/samsung-55qn85d-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/samsung-55qn85d-1.jpg",
-      "https://resim.epey.com/938562/k_samsung-55qn85d-5.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 38,
@@ -43208,10 +43219,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Samsung 65QN70F (QE65QN70FAUXTK) 65\" 4K Neo QLED Smart TV (2025)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/samsung-65qn70f-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/samsung-65qn70f-1.jpg",
-      "https://resim.epey.com/1009398/k_samsung-55qn70f-8806095980508-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 36,
@@ -43321,10 +43331,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Samsung 65LS03HW (QE65LS03HWUXTK) 65\" 4K The Frame Sanat TV (2026)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/samsung-65ls03hw-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/samsung-65ls03hw-1.jpg",
-      "https://resim.epey.com/1059969/k_samsung-65ls03hw-12.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 28,
@@ -43434,10 +43443,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Samsung 98Q7FA (QE98Q7FAAUXTK) 98\" 4K QLED Smart TV (2025)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/samsung-98q7fa-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/samsung-98q7fa-1.jpg",
-      "https://resim.epey.com/1034286/k_samsung-qe-98q7f-qe98q7faauxtk-8806097809968-5.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 16,
@@ -43548,10 +43556,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Samsung 55QN80H (QE55QN80HAUXTK) 55\" 4K Neo QLED Smart TV (2026)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/samsung-55qn80h-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/samsung-55qn80h-1.jpg",
-      "https://resim.epey.com/1061662/k_samsung-55qn80h-5.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 24,
@@ -43662,10 +43669,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Samsung 75M80H (UE75M80HAUXTK) 75\" 4K Crystal UHD Smart TV (2026)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/samsung-75m80h-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/samsung-75m80h-1.jpg",
-      "https://resim.epey.com/1061937/k_samsung-65m80h-5.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 22,
@@ -43773,10 +43779,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Samsung 65LS03F (QE65LS03FWUXTK) 65\" 4K The Frame Sanat TV (2025)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/samsung-65ls03f-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/samsung-65ls03f-1.jpg",
-      "https://resim.epey.com/1010264/k_samsung-65ls03f-8806097123989-15.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 29,
@@ -43886,10 +43891,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Samsung 75LS03D (QE75LS03DAUXTK) 75\" 4K The Frame Sanat TV (2024)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/samsung-75ls03d-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/samsung-75ls03d-1.jpg",
-      "https://resim.epey.com/938433/k_samsung-75ls03d-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 35,
@@ -43985,10 +43989,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Samsung 85Q70D (QE85Q70DATXTK) 85\" 4K QLED Smart TV (2024)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/samsung-85q70d-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/samsung-85q70d-1.jpg",
-      "https://resim.epey.com/937406/k_samsung-85q70d-5.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 25,
@@ -44085,10 +44088,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Samsung 98DU9000 (UE98DU9000UXTK) 98\" 4K Crystal UHD Smart TV (2024)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/samsung-98du9000-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/samsung-98du9000-1.jpg",
-      "https://resim.epey.com/945668/k_samsung-98du9000-5.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 31,
@@ -44197,10 +44199,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Samsung 55QN70F (QE55QN70FAUXTK) 55\" 4K Neo QLED Smart TV (2025)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/samsung-55qn70f-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/samsung-55qn70f-1.jpg",
-      "https://resim.epey.com/1010272/k_samsung-55qn70f-8806095980508-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 34,
@@ -44310,10 +44311,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Samsung 55LS03HA (QE55LS03HAUXTK) 55\" 4K The Frame Sanat TV (2026)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/samsung-55ls03ha-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/samsung-55ls03ha-1.jpg",
-      "https://resim.epey.com/1060695/k_samsung-the-frame-ls03ha-55-qe55ls03hauxtk-8806099022167-2.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 26,
@@ -44423,10 +44423,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Samsung 65M80H (UE65M80HAUXTK) 65\" 4K Crystal UHD Smart TV (2026)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/samsung-65m80h-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/samsung-65m80h-1.jpg",
-      "https://resim.epey.com/1062042/k_samsung-65m80h-5.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 30,
@@ -44534,10 +44533,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Samsung 85M70H (UE85M70HAUXTK) 85\" 4K Crystal UHD Smart TV (2026)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/samsung-85m70h-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/samsung-85m70h-1.jpg",
-      "https://resim.epey.com/1061284/k_samsung-85m70h-5.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 27,
@@ -44645,10 +44643,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Samsung 65LS03D (QE65LS03DAUXTK) 65\" 4K The Frame Sanat TV (2024)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/samsung-65ls03d-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/samsung-65ls03d-1.jpg",
-      "https://resim.epey.com/938440/k_samsung-65ls03d-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 42,
@@ -44744,10 +44741,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Samsung 55LS03F (QE55LS03FAUXTK) 55\" 4K The Frame Sanat TV (2025)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/samsung-55ls03f-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/samsung-55ls03f-1.jpg",
-      "https://resim.epey.com/1010270/k_samsung-55ls03f-16.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 35,
@@ -44857,10 +44853,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Samsung 85Q8FA (QE85Q8FAAUXTK) 85\" 4K QLED Smart TV (2025)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/samsung-85q8fa-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/samsung-85q8fa-1.jpg",
-      "https://resim.epey.com/1013141/k_samsung-65q8fa-5.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 21,
@@ -44957,10 +44952,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Samsung 85Q7FA (QE85Q7FAAUXTK) 85\" 4K QLED Smart TV (2025)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/samsung-85q7fa-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/samsung-85q7fa-1.jpg",
-      "https://resim.epey.com/1010263/k_samsung-65q7fa-5.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 19,
@@ -45056,10 +45050,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Samsung 55M80H (UE55M80HAUXTK) 55\" 4K Crystal UHD Smart TV (2026)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/samsung-55m80h-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/samsung-55m80h-1.jpg",
-      "https://resim.epey.com/1062029/k_samsung-55m80h-5.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 36,
@@ -45167,10 +45160,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Samsung 75M70H (UE75M70HAUXTK) 75\" 4K Crystal UHD Smart TV (2026)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/samsung-75m70h-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/samsung-75m70h-1.jpg",
-      "https://resim.epey.com/1061283/k_samsung-75m70h-5.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 32,
@@ -45278,10 +45270,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Samsung 55LS03D (QE55LS03DAUXTK) 55\" 4K The Frame Sanat TV (2024)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/samsung-55ls03d-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/samsung-55ls03d-1.jpg",
-      "https://resim.epey.com/938452/k_samsung-55ls03d-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 48,
@@ -45377,10 +45368,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Samsung 65Q70D (QE65Q70DATXTK) 65\" 4K QLED Smart TV (2024)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/samsung-65q70d-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/samsung-65q70d-1.jpg",
-      "https://resim.epey.com/937411/k_samsung-55q70d-2.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 40,
@@ -45477,10 +45467,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Samsung 75Q60D (QE75Q60DAUXTK) 75\" 4K QLED Smart TV (2024)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/samsung-75q60d-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/samsung-75q60d-1.jpg",
-      "https://resim.epey.com/934705/k_samsung-75q60d-5.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 38,
@@ -45589,10 +45578,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Samsung 75Q8FA (QE75Q8FAAUXTK) 75\" 4K QLED Smart TV (2025)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/samsung-75q8fa-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/samsung-75q8fa-1.jpg",
-      "https://resim.epey.com/1013143/k_samsung-65q8fa-5.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 28,
@@ -45703,10 +45691,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Samsung 75Q7F5 (QE75Q7F5AUXTK) 75\" 4K QLED Smart TV (2025)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/samsung-75q7f5-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/samsung-75q7f5-1.jpg",
-      "https://resim.epey.com/1010269/k_samsung-75q7f5-8806097122463-5.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 33,
@@ -45816,10 +45803,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Samsung 75Q7FA (QE75Q7FAAUXTK) 75\" 4K QLED Smart TV (2025)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/samsung-75q7fa-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/samsung-75q7fa-1.jpg",
-      "https://resim.epey.com/1010268/k_samsung-65q7fa-5.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 31,
@@ -45915,10 +45901,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Samsung 85U8000H (UE85U8000HUXTK) 85\" 4K Crystal UHD Smart TV (2026)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/samsung-85u8000h-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/samsung-85u8000h-1.jpg",
-      "https://resim.epey.com/1061939/k_samsung-75u8000h-5.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 29,
@@ -46026,10 +46011,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Samsung 85U8000F (UE85U8000FUXTK) 85\" 4K Crystal UHD Smart TV (2025)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/samsung-85u8000-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/samsung-85u8000-1.jpg",
-      "https://resim.epey.com/1016988/k_samsung-85u8000-ue85u8000fuxtk-8806097124221-5.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 31,
@@ -46137,10 +46121,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Samsung 75Q6FA (QE75Q6FAAUXTK) 75\" 4K QLED Smart TV (2025)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/samsung-75q6fa-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/samsung-75q6fa-1.jpg",
-      "https://resim.epey.com/1030768/k_samsung-55q6f-5.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 22,
@@ -46249,10 +46232,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Samsung 65M70H (UE65M70HAUXTK) 65\" 4K Crystal UHD Smart TV (2026)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/samsung-65m70h-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/samsung-65m70h-1.jpg",
-      "https://resim.epey.com/1061281/k_samsung-65m70h-5.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 38,
@@ -46360,10 +46342,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Samsung 55Q70D (QE55Q70DATXTK) 55\" 4K QLED Smart TV (2024)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/samsung-55q70d-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/samsung-55q70d-1.jpg",
-      "https://resim.epey.com/937410/k_samsung-55q70d-2.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 32,
@@ -46459,10 +46440,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Samsung 65Q8FA (QE65Q8FAAUXTK) 65\" 4K QLED Smart TV (2025)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/samsung-65q8fa-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/samsung-65q8fa-1.jpg",
-      "https://resim.epey.com/1013520/k_samsung-65q8fa-5.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 30,
@@ -46573,10 +46553,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Samsung 65Q7F5 (QE65Q7F5AUXTK) 65\" 4K QLED Smart TV (2025)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/samsung-65q7f5-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/samsung-65q7f5-1.jpg",
-      "https://resim.epey.com/1011369/k_samsung-65q7f5-5.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 39,
@@ -46686,10 +46665,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Samsung 65Q7FA (QE65Q7FAAUXTK) 65\" 4K QLED Smart TV (2025)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/samsung-65q7fa-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/samsung-65q7fa-1.jpg",
-      "https://resim.epey.com/1010285/k_samsung-65q7fa-5.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 34,
@@ -46785,10 +46763,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Samsung 75U8000H (UE75U8000HUXTK) 75\" 4K Crystal UHD Smart TV (2026)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/samsung-75u8000h-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/samsung-75u8000h-1.jpg",
-      "https://resim.epey.com/1061997/k_samsung-75u8000h-5.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 31,
@@ -46896,10 +46873,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Samsung 75U8000F (UE75U8000FUXTK) 75\" 4K Crystal UHD Smart TV (2025)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/samsung-75u8000-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/samsung-75u8000-1.jpg",
-      "https://resim.epey.com/1016995/k_samsung-85u8000-ue85u8000fuxtk-8806097124221-5.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 30,
@@ -46993,10 +46969,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Samsung 65Q6FA (QE65Q6FAAUXTK) 65\" 4K QLED Smart TV (2025)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/samsung-65q6fa-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/samsung-65q6fa-1.jpg",
-      "https://resim.epey.com/1030109/k_samsung-55q6f-5.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 36,
@@ -47105,10 +47080,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Samsung 55M70H (UE55M70HAUXTK) 55\" 4K Crystal UHD Smart TV (2026)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/samsung-55m70h-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/samsung-55m70h-1.jpg",
-      "https://resim.epey.com/1061280/k_samsung-55m70h-5.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 41,
@@ -47216,10 +47190,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Samsung 75DU7100 (UE75DU7100UXTK) 75\" 4K Crystal UHD Smart TV (2024)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/samsung-75du7100-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/samsung-75du7100-1.jpg",
-      "https://resim.epey.com/938455/k_samsung-75du7100-5.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 35,
@@ -47313,10 +47286,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Samsung 70U8000F (UE70U8000FUXTK) 70\" 4K Crystal UHD Smart TV (2025)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/samsung-70u8000-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/samsung-70u8000-1.jpg",
-      "https://resim.epey.com/1017603/k_samsung-85u8000-ue85u8000fuxtk-8806097124221-5.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 29,
@@ -47424,10 +47396,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Samsung 50M70H (UE50M70HAUXTK) 50\" 4K Crystal UHD Smart TV (2026)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/samsung-50m70h-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/samsung-50m70h-1.jpg",
-      "https://resim.epey.com/1061211/k_samsung-50m70h-5.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 33,
@@ -47535,10 +47506,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Samsung 55Q60D (QE55Q60DAUXTK) 55\" 4K QLED Smart TV (2024)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/samsung-55q60d-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/samsung-55q60d-1.jpg",
-      "https://resim.epey.com/934713/k_samsung-55q60d-5.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 46,
@@ -47633,10 +47603,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Samsung 70DU7100 (UE70DU7100UXTK) 70\" 4K Crystal UHD Smart TV (2024)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/samsung-70du7100-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/samsung-70du7100-1.jpg",
-      "https://resim.epey.com/938466/k_samsung-70du7100-5.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 30,
@@ -47730,10 +47699,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Samsung 55Q8FA (QE55Q8FAAUXTK) 55\" 4K QLED Smart TV (2025)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/samsung-55q8fa-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/samsung-55q8fa-1.jpg",
-      "https://resim.epey.com/1013490/k_samsung-55q8fa-5.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 32,
@@ -47844,10 +47812,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Samsung 55Q7F5 (QE55Q7F5AUXTK) 55\" 4K QLED Smart TV (2025)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/samsung-55q7f5-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/samsung-55q7f5-1.jpg",
-      "https://resim.epey.com/1011372/k_samsung-qe55q7f5auxtk-5.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 36,
@@ -47957,10 +47924,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Samsung 55Q7FA (QE55Q7FAAUXTK) 55\" 4K QLED Smart TV (2025)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/samsung-55q7fa-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/samsung-55q7fa-1.jpg",
-      "https://resim.epey.com/1010230/k_samsung-55q7fa-5.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 34,
@@ -48056,10 +48022,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Samsung 65U8000H (UE65U8000HUXTK) 65\" 4K Crystal UHD Smart TV (2026)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/samsung-65u8000h-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/samsung-65u8000h-1.jpg",
-      "https://resim.epey.com/1061644/k_samsung-65u8000h-5.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 38,
@@ -48167,10 +48132,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Samsung 65U8200F (UE65U8200FUXTK) 65\" 4K Crystal UHD Smart TV (2025)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/samsung-65u8200f-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/samsung-65u8200f-1.jpg",
-      "https://resim.epey.com/1023498/k_samsung-65u8200f-ue65u8200f-8806097417040-5.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 28,
@@ -48264,10 +48228,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Samsung 65U8000F (UE65U8000FUXTK) 65\" 4K Crystal UHD Smart TV (2025)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/samsung-65u8000-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/samsung-65u8000-1.jpg",
-      "https://resim.epey.com/1017604/k_samsung-85u8000-ue85u8000fuxtk-8806097124221-5.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 35,
@@ -48375,10 +48338,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Samsung 65DU8100 (UE65DU8100UXTK) 65\" 4K Crystal UHD Smart TV (2024)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/samsung-65du8100-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/samsung-65du8100-1.jpg",
-      "https://resim.epey.com/948325/k_samsung-65du8100-ue65du8100uxtk-5.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 33,
@@ -48472,10 +48434,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Samsung 55Q6FA (QE55Q6FAAUXTK) 55\" 4K QLED Smart TV (2025)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/samsung-55q6fa-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/samsung-55q6fa-1.jpg",
-      "https://resim.epey.com/119597/k_samsung-55q6f-5.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 42,
@@ -48584,10 +48545,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Samsung 50Q60D (QE50Q60DAUXTK) 50\" 4K QLED Smart TV (2024)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/samsung-50q60d-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/samsung-50q60d-1.jpg",
-      "https://resim.epey.com/934714/k_samsung-50q60d-5.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 40,
@@ -48681,10 +48641,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Samsung 65DU7000 (UE65DU7000UXTK) 65\" 4K Crystal UHD Smart TV (2024)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/samsung-65du7000-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/samsung-65du7000-1.jpg",
-      "https://resim.epey.com/939958/k_samsung-65du7000-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 38,
@@ -48778,10 +48737,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Samsung 50Q8FA (QE50Q8FAAUXTK) 50\" 4K QLED Smart TV (2025)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/samsung-50q8fa-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/samsung-50q8fa-1.jpg",
-      "https://resim.epey.com/1013481/k_samsung-50q8fa-5.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 35,
@@ -48892,10 +48850,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Samsung 43M70H (UE43M70HAUXTK) 43\" 4K Crystal UHD Smart TV (2026)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/samsung-43m70h-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/samsung-43m70h-1.jpg",
-      "https://resim.epey.com/1061285/k_samsung-43m70h-5.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 45,
@@ -49003,10 +48960,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Samsung 50Q7FA (QE50Q7FAAUXTK) 50\" 4K QLED Smart TV (2025)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/samsung-50q7fa-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/samsung-50q7fa-1.jpg",
-      "https://resim.epey.com/1010278/k_samsung-50q7fa-5.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 38,
@@ -49116,10 +49072,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Samsung 58U8000F (UE58U8000FUXTK) 58\" 4K Crystal UHD Smart TV (2025)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/samsung-58u8000-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/samsung-58u8000-1.jpg",
-      "https://resim.epey.com/1017606/k_samsung-58u8000-5.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 36,
@@ -49227,10 +49182,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Samsung 55U8000H (UE55U8000HUXTK) 55\" 4K Crystal UHD Smart TV (2026)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/samsung-55u8000h-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/samsung-55u8000h-1.jpg",
-      "https://resim.epey.com/1061992/k_samsung-55u8000h-5.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 42,
@@ -49338,10 +49292,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Samsung 55U8200F (UE55U8200FUXTK) 55\" 4K Crystal UHD Smart TV (2025)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/samsung-55u8200f-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/samsung-55u8200f-1.jpg",
-      "https://resim.epey.com/1023500/k_samsung-ue55u8200fuxtk-55u8200f-8806097417033-5.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 39,
@@ -49449,10 +49402,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Samsung 55U8000F (UE55U8000FUXTK) 55\" 4K Crystal UHD Smart TV (2025)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/samsung-55u8000-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/samsung-55u8000-1.jpg",
-      "https://resim.epey.com/1017660/k_samsung-55u8000-5.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 37,
@@ -49546,10 +49498,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Samsung 55DU8100 (UE55DU8100UXTK) 55\" 4K Crystal UHD Smart TV (2024)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/samsung-55du8100-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/samsung-55du8100-1.jpg",
-      "https://resim.epey.com/969837/k_samsung-65du8100-ue65du8100uxtk-5.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 34,
@@ -49643,10 +49594,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Samsung 55DU7200 (UE55DU7200UXTK) 55\" 4K Crystal UHD Smart TV (2024)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/samsung-55du7200-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/samsung-55du7200-1.jpg",
-      "https://resim.epey.com/951134/k_samsung-50du200-5.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 36,
@@ -49739,10 +49689,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Samsung 55DU7000 (UE55DU7000UXTK) 55\" 4K Crystal UHD Smart TV (2024)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/samsung-55du7000-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/samsung-55du7000-1.jpg",
-      "https://resim.epey.com/942424/k_samsung-55du7000-5.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 38,
@@ -49835,10 +49784,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Samsung 50U8000H (UE50U8000HUXTK) 50\" 4K Crystal UHD Smart TV (2026)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/samsung-50u8000h-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/samsung-50u8000h-1.jpg",
-      "https://resim.epey.com/1061989/k_samsung-50u8000h-5.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 39,
@@ -49946,10 +49894,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Samsung 50U8200F (UE50U8200FUXTK) 50\" 4K Crystal UHD Smart TV (2025)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/samsung-50u8200f-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/samsung-50u8200f-1.jpg",
-      "https://resim.epey.com/1023501/k_samsung-50u8200f-ue50u8200fuxtk-8806097417026-5.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 31,
@@ -50043,10 +49990,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Samsung 50U8000F (UE50U8000FUXTK) 50\" 4K Crystal UHD Smart TV (2025)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/samsung-50u8000-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/samsung-50u8000-1.jpg",
-      "https://resim.epey.com/1017515/k_samsung-55u8000-5.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 46,
@@ -50154,10 +50100,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Samsung 50DU7200 (UE50DU7200UXTK) 50\" 4K Crystal UHD Smart TV (2024)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/samsung-50du7200-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/samsung-50du7200-1.jpg",
-      "https://resim.epey.com/942405/k_samsung-50du200-5.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 33,
@@ -50250,10 +50195,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Samsung 50DU7000 (UE50DU7000UXTK) 50\" 4K Crystal UHD Smart TV (2024)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/samsung-50du7000-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/samsung-50du7000-1.jpg",
-      "https://resim.epey.com/940364/k_samsung-50du7000-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 35,
@@ -50346,10 +50290,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Samsung 43U8000H (UE43U8000HUXTK) 43\" 4K Crystal UHD Smart TV (2026)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/samsung-43u8000h-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/samsung-43u8000h-1.jpg",
-      "https://resim.epey.com/1061984/k_samsung-43u8000h-5.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 40,
@@ -50443,10 +50386,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Samsung 43U8000F (UE43U8000FUXTK) 43\" 4K Crystal UHD Smart TV (2025)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/samsung-43u8000-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/samsung-43u8000-1.jpg",
-      "https://resim.epey.com/1017516/k_samsung-55u8000-5.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 44,
@@ -50554,10 +50496,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Samsung 43DU7000 (UE43DU7000USTK) 43\" 4K Crystal UHD Smart TV (2024)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/samsung-43du7000-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/samsung-43du7000-1.jpg",
-      "https://resim.epey.com/943800/k_samsung-43du7000-5.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 36,
@@ -50650,10 +50591,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Samsung 32H5000F (UE32H5000FUXTK) 32\" HD Ready Smart LED TV (2025)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/samsung-32h5000f-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/samsung-32h5000f-1.jpg",
-      "https://resim.epey.com/1017045/k_samsung-32h5000f-3.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 52,
@@ -50771,10 +50711,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Samsung The Movingstyle 27LSM7F (UE27LSM7FAXXTK) 27\" QHD Taşınabilir Smart TV (2026)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/samsung-the-movingstyle-27lsm7f-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/samsung-the-movingstyle-27lsm7f-1.jpg",
-      "https://resim.epey.com/1063178/k_samsung-the-movingstyle-27lsm7f-19.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.9,
     "reviewCount": 26,
@@ -50879,10 +50818,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Samsung 114MS1C (MNA114MS1CCXTK) 114\" 4K Micro LED Smart TV (2025)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/samsung-114ms1c-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/samsung-114ms1c-1.jpg",
-      "https://resim.epey.com/1016977/k_samsung-mna114ms1ccxtk-8806095254340-6.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 5,
     "reviewCount": 14,
@@ -50979,10 +50917,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Samsung 77S95D (QE77S95DATXTK) 77\" 4K OLED Smart TV (2024)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/samsung-77s95d-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/samsung-77s95d-1.jpg",
-      "https://resim.epey.com/938351/k_samsung-77s95d-5.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.9,
     "reviewCount": 48,
@@ -51093,10 +51030,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Samsung 98QN90D (QE98QN90DATXTK) 98\" 4K Neo QLED Smart TV (2024)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/samsung-98qn90d-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/samsung-98qn90d-1.jpg",
-      "https://resim.epey.com/938304/k_samsung-98qn90d-5.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.9,
     "reviewCount": 30,
@@ -51193,10 +51129,9 @@ export const mockTVs: TVProduct[] = [
     "name": "TCL 115C7K (115C7KGTV) 115\" 4K QD-Mini LED Google TV (2025)",
     "brand": "TCL",
     "category": "tvs",
-    "image": "/images/products/tvs/tcl-115c7k-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/tcl-115c7k-1.jpg",
-      "https://resim.epey.com/1027300/k_tcl-115c7k-115c7kgtv-6921732889531-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.9,
     "reviewCount": 18,
@@ -51291,10 +51226,9 @@ export const mockTVs: TVProduct[] = [
     "name": "TCL 85C7K (85C7KGTV) 85\" 4K QD-Mini LED Google TV (2025)",
     "brand": "TCL",
     "category": "tvs",
-    "image": "/images/products/tvs/tcl-85c7k-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/tcl-85c7k-1.jpg",
-      "https://resim.epey.com/1017427/k_tcl-85c7k-9.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.9,
     "reviewCount": 28,
@@ -51390,10 +51324,9 @@ export const mockTVs: TVProduct[] = [
     "name": "TCL 98C755 98\" 4K QD-Mini LED Google TV (2024)",
     "brand": "TCL",
     "category": "tvs",
-    "image": "/images/products/tvs/tcl-98c755-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/tcl-98c755-1.jpg",
-      "https://resim.epey.com/933983/k_tcl-98c755-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.9,
     "reviewCount": 32,
@@ -51489,10 +51422,9 @@ export const mockTVs: TVProduct[] = [
     "name": "TCL 98P8L (98P8LGTV) 98\" 4K QLED Google TV (2026)",
     "brand": "TCL",
     "category": "tvs",
-    "image": "/images/products/tvs/tcl-98p8l-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/tcl-98p8l-1.jpg",
-      "https://resim.epey.com/1057571/k_tcl-98p8l-6937574833588-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 30,
@@ -51588,10 +51520,9 @@ export const mockTVs: TVProduct[] = [
     "name": "TCL 98C6K (98C6KGTV) 98\" 4K QD-Mini LED Google TV (2025)",
     "brand": "TCL",
     "category": "tvs",
-    "image": "/images/products/tvs/tcl-98c6k-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/tcl-98c6k-1.jpg",
-      "https://resim.epey.com/1012394/k_tcl-98c6k-6921732849962-5.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.9,
     "reviewCount": 34,
@@ -51686,10 +51617,9 @@ export const mockTVs: TVProduct[] = [
     "name": "TCL 85C855 85\" 4K QD-Mini LED Google TV (2024)",
     "brand": "TCL",
     "category": "tvs",
-    "image": "/images/products/tvs/tcl-85c855-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/tcl-85c855-1.jpg",
-      "https://resim.epey.com/960240/k_tcl-85c855-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.9,
     "reviewCount": 36,
@@ -51785,10 +51715,9 @@ export const mockTVs: TVProduct[] = [
     "name": "TCL 75C8L (75C8LGTV) 75\" 4K QD-Mini LED Google TV (2026)",
     "brand": "TCL",
     "category": "tvs",
-    "image": "/images/products/tvs/tcl-75c8l-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/tcl-75c8l-1.jpg",
-      "https://resim.epey.com/1057570/k_tcl-65c8l-6.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.9,
     "reviewCount": 38,
@@ -51885,10 +51814,9 @@ export const mockTVs: TVProduct[] = [
     "name": "TCL 75C8K 75\" 4K QD-Mini LED Google TV (2025)",
     "brand": "TCL",
     "category": "tvs",
-    "image": "/images/products/tvs/tcl-75c8k-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/tcl-75c8k-1.jpg",
-      "https://resim.epey.com/1023488/k_tcl-65c8k-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.9,
     "reviewCount": 35,
@@ -51984,10 +51912,9 @@ export const mockTVs: TVProduct[] = [
     "name": "TCL 75C7K 75\" 4K QD-Mini LED Google TV (2025)",
     "brand": "TCL",
     "category": "tvs",
-    "image": "/images/products/tvs/tcl-75c7k-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/tcl-75c7k-1.jpg",
-      "https://resim.epey.com/1017425/k_tcl-75c7k-9.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.9,
     "reviewCount": 39,
@@ -52082,10 +52009,9 @@ export const mockTVs: TVProduct[] = [
     "name": "TCL 85P8L (85P8LGTV) 85\" 4K QLED Google TV (2026)",
     "brand": "TCL",
     "category": "tvs",
-    "image": "/images/products/tvs/tcl-85p8l-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/tcl-85p8l-1.jpg",
-      "https://resim.epey.com/1057576/k_tcl-85p8l-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 37,
@@ -52181,10 +52107,9 @@ export const mockTVs: TVProduct[] = [
     "name": "TCL 75C7L (75C7LGTV) 75\" 4K QD-Mini LED Google TV (2026)",
     "brand": "TCL",
     "category": "tvs",
-    "image": "/images/products/tvs/tcl-75c7l-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/tcl-75c7l-1.jpg",
-      "https://resim.epey.com/1057573/k_tcl-65c7l-7.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 33,
@@ -52279,10 +52204,9 @@ export const mockTVs: TVProduct[] = [
     "name": "TCL 85C6K 85\" 4K QD-Mini LED Google TV (2025)",
     "brand": "TCL",
     "category": "tvs",
-    "image": "/images/products/tvs/tcl-85c6k-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/tcl-85c6k-1.jpg",
-      "https://resim.epey.com/1026550/k_tcl-75c6k-6921732849962-5.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 35,
@@ -52378,10 +52302,9 @@ export const mockTVs: TVProduct[] = [
     "name": "TCL 75C855 (75C855GTV) 75\" 4K QD-Mini LED Google TV (2024)",
     "brand": "TCL",
     "category": "tvs",
-    "image": "/images/products/tvs/tcl-75c855-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/tcl-75c855-1.jpg",
-      "https://resim.epey.com/959713/k_tcl-65c855gtv-6921732827625-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.9,
     "reviewCount": 41,
@@ -52478,12 +52401,9 @@ export const mockTVs: TVProduct[] = [
     "name": "TCL 65C8L (65C8LGTV) 65\" 4K SQD-Mini LED Google TV (2026)",
     "brand": "TCL",
     "category": "tvs",
-    "image": "/images/products/tvs/tcl-65c8l-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/tcl-65c8l-1.jpg",
-      "https://resim.epey.com/1057572/z_tcl-65c8l-6.jpg",
-      "https://resim.epey.com/1057572/m_tcl-65c8l-7.jpg",
-      "https://resim.epey.com/1057572/m_tcl-65c8l-2.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.4,
     "reviewCount": 6,
@@ -52659,10 +52579,9 @@ export const mockTVs: TVProduct[] = [
     "name": "TCL 65C8K 65\" 4K QD-Mini LED Google TV (2025)",
     "brand": "TCL",
     "category": "tvs",
-    "image": "/images/products/tvs/tcl-65c8k-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/tcl-65c8k-1.jpg",
-      "https://resim.epey.com/1023489/k_tcl-65c8k-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.9,
     "reviewCount": 38,
@@ -52758,10 +52677,9 @@ export const mockTVs: TVProduct[] = [
     "name": "TCL 98P8K (98P8KGTV) 98\" 4K QLED Google TV (2025)",
     "brand": "TCL",
     "category": "tvs",
-    "image": "/images/products/tvs/tcl-98p8k-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/tcl-98p8k-1.jpg",
-      "https://resim.epey.com/1030107/k_tcl-98p8k-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 31,
@@ -52857,10 +52775,9 @@ export const mockTVs: TVProduct[] = [
     "name": "TCL 65C7K 65\" 4K QD-Mini LED Google TV (2025)",
     "brand": "TCL",
     "category": "tvs",
-    "image": "/images/products/tvs/tcl-65c7k-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/tcl-65c7k-1.jpg",
-      "https://resim.epey.com/1017424/k_tcl-65c7k-9.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.9,
     "reviewCount": 42,
@@ -52956,10 +52873,9 @@ export const mockTVs: TVProduct[] = [
     "name": "TCL 75Q7D Pro 75\" 4K QD-Mini LED Google TV (2026)",
     "brand": "TCL",
     "category": "tvs",
-    "image": "/images/products/tvs/tcl-75q7d-pro-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/tcl-75q7d-pro-1.jpg",
-      "https://resim.epey.com/1058668/k_tcl-65q7d-pro-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 39,
@@ -53056,10 +52972,9 @@ export const mockTVs: TVProduct[] = [
     "name": "TCL 85C755 85\" 4K QD-Mini LED Google TV (2024)",
     "brand": "TCL",
     "category": "tvs",
-    "image": "/images/products/tvs/tcl-85c755-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/tcl-85c755-1.jpg",
-      "https://resim.epey.com/933981/k_tcl-55c755-8.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 37,
@@ -53155,10 +53070,9 @@ export const mockTVs: TVProduct[] = [
     "name": "TCL 75Q6C (75Q6CGTV) 75\" 4K QLED Google TV (2025)",
     "brand": "TCL",
     "category": "tvs",
-    "image": "/images/products/tvs/tcl-75q6c-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/tcl-75q6c-1.jpg",
-      "https://resim.epey.com/1019432/k_tcl-75q6c-6921732890919-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 38,
@@ -53254,10 +53168,9 @@ export const mockTVs: TVProduct[] = [
     "name": "TCL 75C6K (75C6KGTV) 75\" 4K QD-Mini LED Google TV (2025)",
     "brand": "TCL",
     "category": "tvs",
-    "image": "/images/products/tvs/tcl-75c6k-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/tcl-75c6k-1.jpg",
-      "https://resim.epey.com/1012378/k_tcl-75c6k-6921732849962-5.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 45,
@@ -53353,10 +53266,9 @@ export const mockTVs: TVProduct[] = [
     "name": "TCL 65C855 (65C855GTV) 65\" 4K QD-Mini LED Google TV (2024)",
     "brand": "TCL",
     "category": "tvs",
-    "image": "/images/products/tvs/tcl-65c855-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/tcl-65c855-1.jpg",
-      "https://resim.epey.com/959714/k_tcl-65c855gtv-6921732827625-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.9,
     "reviewCount": 42,
@@ -53453,10 +53365,9 @@ export const mockTVs: TVProduct[] = [
     "name": "TCL 75P8L (75P8LGTV) 75\" 4K QLED Google TV (2026)",
     "brand": "TCL",
     "category": "tvs",
-    "image": "/images/products/tvs/tcl-75p8l-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/tcl-75p8l-1.jpg",
-      "https://resim.epey.com/1057111/k_tcl-75p8l-6937574839160-6.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 36,
@@ -53552,10 +53463,9 @@ export const mockTVs: TVProduct[] = [
     "name": "TCL 98P755 98\" 4K UHD Google TV (2024)",
     "brand": "TCL",
     "category": "tvs",
-    "image": "/images/products/tvs/tcl-98p755-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/tcl-98p755-1.jpg",
-      "https://resim.epey.com/932224/k_tcl-98p755-3.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 26,
@@ -53651,10 +53561,9 @@ export const mockTVs: TVProduct[] = [
     "name": "TCL 75T8D (75T8DGTV) 75\" 4K QLED Google TV (2026)",
     "brand": "TCL",
     "category": "tvs",
-    "image": "/images/products/tvs/tcl-75t8d-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/tcl-75t8d-1.jpg",
-      "https://resim.epey.com/1057522/k_tcl-75t8d-3.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 31,
@@ -53750,10 +53659,9 @@ export const mockTVs: TVProduct[] = [
     "name": "TCL 55Q7C (55Q7CGTV) 55\" 4K QD-Mini LED Google TV (2025)",
     "brand": "TCL",
     "category": "tvs",
-    "image": "/images/products/tvs/tcl-55q7c-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/tcl-55q7c-1.jpg",
-      "https://resim.epey.com/1019312/k_tcl-55q7c-6921732890889-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 33,
@@ -53848,10 +53756,9 @@ export const mockTVs: TVProduct[] = [
     "name": "TCL 55C7K 55\" 4K QD-Mini LED Google TV (2025)",
     "brand": "TCL",
     "category": "tvs",
-    "image": "/images/products/tvs/tcl-55c7k-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/tcl-55c7k-1.jpg",
-      "https://resim.epey.com/1017025/k_tcl-55c7k-9.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.9,
     "reviewCount": 36,
@@ -53947,10 +53854,9 @@ export const mockTVs: TVProduct[] = [
     "name": "TCL 85P8K (85P8KGTV) 85\" 4K QLED Google TV (2025)",
     "brand": "TCL",
     "category": "tvs",
-    "image": "/images/products/tvs/tcl-85p8k-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/tcl-85p8k-1.jpg",
-      "https://resim.epey.com/1012298/k_tcl-85p8k-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 29,
@@ -54045,10 +53951,9 @@ export const mockTVs: TVProduct[] = [
     "name": "TCL 65Q7D Pro 65\" 4K QD-Mini LED Google TV (2026)",
     "brand": "TCL",
     "category": "tvs",
-    "image": "/images/products/tvs/tcl-65q7d-pro-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/tcl-65q7d-pro-1.jpg",
-      "https://resim.epey.com/1058669/k_tcl-65q7d-pro-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 37,
@@ -54145,10 +54050,9 @@ export const mockTVs: TVProduct[] = [
     "name": "TCL 75C755 (75C755GTV) 75\" 4K QD-Mini LED Google TV (2024)",
     "brand": "TCL",
     "category": "tvs",
-    "image": "/images/products/tvs/tcl-75c755-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/tcl-75c755-1.jpg",
-      "https://resim.epey.com/933762/k_tcl-55c755-8.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 39,
@@ -54244,10 +54148,9 @@ export const mockTVs: TVProduct[] = [
     "name": "TCL 65Q6C (65Q6CGTV) 65\" 4K QLED Google TV (2025)",
     "brand": "TCL",
     "category": "tvs",
-    "image": "/images/products/tvs/tcl-65q6c-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/tcl-65q6c-1.jpg",
-      "https://resim.epey.com/1016979/k_tcl-65q6c-6921732890919-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 35,
@@ -54343,10 +54246,9 @@ export const mockTVs: TVProduct[] = [
     "name": "TCL 65C6K (65C6KGTV) 65\" 4K QD-Mini LED Google TV (2025)",
     "brand": "TCL",
     "category": "tvs",
-    "image": "/images/products/tvs/tcl-65c6k-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/tcl-65c6k-1.jpg",
-      "https://resim.epey.com/1011770/k_tcl-65c6k-6921732849962-5.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 48,
@@ -54442,10 +54344,9 @@ export const mockTVs: TVProduct[] = [
     "name": "TCL 65P8L (65P8LGTV) 65\" 4K QLED Google TV (2026)",
     "brand": "TCL",
     "category": "tvs",
-    "image": "/images/products/tvs/tcl-65p8l-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/tcl-65p8l-1.jpg",
-      "https://resim.epey.com/1057113/k_tcl-65p8l-6937574838569-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 38,
@@ -54541,10 +54442,9 @@ export const mockTVs: TVProduct[] = [
     "name": "TCL 75T8B (75T8BGTV) 75\" 4K QLED Google TV (2024)",
     "brand": "TCL",
     "category": "tvs",
-    "image": "/images/products/tvs/tcl-75t8b-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/tcl-75t8b-1.jpg",
-      "https://resim.epey.com/947574/k_tcl-75t8bg-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 30,
@@ -54639,10 +54539,9 @@ export const mockTVs: TVProduct[] = [
     "name": "TCL 65T8D (65T8DGTV) 65\" 4K QLED Google TV (2026)",
     "brand": "TCL",
     "category": "tvs",
-    "image": "/images/products/tvs/tcl-65t8d-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/tcl-65t8d-1.jpg",
-      "https://resim.epey.com/1057521/k_tcl-65t8d-2.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 32,
@@ -54738,10 +54637,9 @@ export const mockTVs: TVProduct[] = [
     "name": "TCL 75P89K (75P89KGTV) 75\" 4K QLED Google TV (2025)",
     "brand": "TCL",
     "category": "tvs",
-    "image": "/images/products/tvs/tcl-75p89k-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/tcl-75p89k-1.jpg",
-      "https://resim.epey.com/1027302/k_tcl-55p89kgtv-6921732893231-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 31,
@@ -54836,10 +54734,9 @@ export const mockTVs: TVProduct[] = [
     "name": "TCL 75P8K (75P8KGTV) 75\" 4K QLED Google TV (2025)",
     "brand": "TCL",
     "category": "tvs",
-    "image": "/images/products/tvs/tcl-75p8k-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/tcl-75p8k-1.jpg",
-      "https://resim.epey.com/1011767/k_tcl-75p8k-6921732849634-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 37,
@@ -54935,10 +54832,9 @@ export const mockTVs: TVProduct[] = [
     "name": "TCL 85T7B (85T7BGTV) 85\" 4K QLED Google TV (2024)",
     "brand": "TCL",
     "category": "tvs",
-    "image": "/images/products/tvs/tcl-85t7b-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/tcl-85t7b-1.jpg",
-      "https://resim.epey.com/1010301/k_tcl-85t7b-2.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 33,
@@ -55033,10 +54929,9 @@ export const mockTVs: TVProduct[] = [
     "name": "TCL 85C655 (85C655GTV) 85\" 4K QLED Google TV (2024)",
     "brand": "TCL",
     "category": "tvs",
-    "image": "/images/products/tvs/tcl-85c655-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/tcl-85c655-1.jpg",
-      "https://resim.epey.com/949451/k_tcl-85c655-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 35,
@@ -55132,10 +55027,9 @@ export const mockTVs: TVProduct[] = [
     "name": "TCL 75T8C (75T8CGTV) 75\" 4K QLED Google TV (2025)",
     "brand": "TCL",
     "category": "tvs",
-    "image": "/images/products/tvs/tcl-75t8c-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/tcl-75t8c-1.jpg",
-      "https://resim.epey.com/1019028/k_tcl-75t8c-6921732898489-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 34,
@@ -55231,10 +55125,9 @@ export const mockTVs: TVProduct[] = [
     "name": "TCL 55Q7D Pro 55\" 4K QD-Mini LED Google TV (2026)",
     "brand": "TCL",
     "category": "tvs",
-    "image": "/images/products/tvs/tcl-55q7d-pro-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/tcl-55q7d-pro-1.jpg",
-      "https://resim.epey.com/1058670/k_tcl-65q7d-pro-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 36,
@@ -55331,10 +55224,9 @@ export const mockTVs: TVProduct[] = [
     "name": "TCL 55Q6C 55\" 4K QLED Google TV (2025)",
     "brand": "TCL",
     "category": "tvs",
-    "image": "/images/products/tvs/tcl-55q6c-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/tcl-55q6c-1.jpg",
-      "https://resim.epey.com/1019334/k_tcl-55q6c-6921732890919-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 39,
@@ -55430,10 +55322,9 @@ export const mockTVs: TVProduct[] = [
     "name": "TCL 55C6K (55C6KGTV) 55\" 4K QD-Mini LED Google TV (2025)",
     "brand": "TCL",
     "category": "tvs",
-    "image": "/images/products/tvs/tcl-55c6k-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/tcl-55c6k-1.jpg",
-      "https://resim.epey.com/1012341/k_tcl-55c6k-6921732849962-5.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 46,
@@ -55529,10 +55420,9 @@ export const mockTVs: TVProduct[] = [
     "name": "TCL 65P8K (65P8KGTV) 65\" 4K QLED Google TV (2025)",
     "brand": "TCL",
     "category": "tvs",
-    "image": "/images/products/tvs/tcl-65p8k-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/tcl-65p8k-1.jpg",
-      "https://resim.epey.com/1011773/k_tcl-55p8k-6921732849610-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 38,
@@ -55628,10 +55518,9 @@ export const mockTVs: TVProduct[] = [
     "name": "TCL 75C655 Pro (75C655PROGTV) 75\" 4K QLED Google TV (2024)",
     "brand": "TCL",
     "category": "tvs",
-    "image": "/images/products/tvs/tcl-75c655-pro-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/tcl-75c655-pro-1.jpg",
-      "https://resim.epey.com/949587/k_tcl-75c655-pro-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 33,
@@ -55727,10 +55616,9 @@ export const mockTVs: TVProduct[] = [
     "name": "TCL 65T8C 65\" 4K QLED Google TV (2025)",
     "brand": "TCL",
     "category": "tvs",
-    "image": "/images/products/tvs/tcl-65t8c-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/tcl-65t8c-1.jpg",
-      "https://resim.epey.com/1016981/k_tcl-65t8c-6921732898472-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 32,
@@ -55826,10 +55714,9 @@ export const mockTVs: TVProduct[] = [
     "name": "TCL 55C755 (55C755GTV) 55\" 4K QD-Mini LED Google TV (2024)",
     "brand": "TCL",
     "category": "tvs",
-    "image": "/images/products/tvs/tcl-55c755-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/tcl-55c755-1.jpg",
-      "https://resim.epey.com/933763/k_tcl-55c755-8.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 40,
@@ -55925,10 +55812,9 @@ export const mockTVs: TVProduct[] = [
     "name": "TCL 75C655 (75C655GTV) 75\" 4K QLED Google TV (2024)",
     "brand": "TCL",
     "category": "tvs",
-    "image": "/images/products/tvs/tcl-75c655-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/tcl-75c655-1.jpg",
-      "https://resim.epey.com/949448/k_tcl-75c655-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 33,
@@ -56024,10 +55910,9 @@ export const mockTVs: TVProduct[] = [
     "name": "TCL 55P8L (55P8LGTV) 55\" 4K QLED Google TV (2026)",
     "brand": "TCL",
     "category": "tvs",
-    "image": "/images/products/tvs/tcl-55p8l-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/tcl-55p8l-1.jpg",
-      "https://resim.epey.com/1057115/k_tcl-55p8l-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 35,
@@ -56123,10 +56008,9 @@ export const mockTVs: TVProduct[] = [
     "name": "TCL 55T8D 55\" 4K QLED Google TV (2026)",
     "brand": "TCL",
     "category": "tvs",
-    "image": "/images/products/tvs/tcl-55t8d-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/tcl-55t8d-1.jpg",
-      "https://resim.epey.com/1057499/k_tcl-55t8d-3.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 30,
@@ -56222,10 +56106,9 @@ export const mockTVs: TVProduct[] = [
     "name": "TCL 55C6KS 55\" 4K Ultra Slim QD-Mini LED Google TV (2025)",
     "brand": "TCL",
     "category": "tvs",
-    "image": "/images/products/tvs/tcl-55c6ks-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/tcl-55c6ks-1.jpg",
-      "https://resim.epey.com/1019519/k_tcl-55c6ks-6921732895693-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 32,
@@ -56321,10 +56204,9 @@ export const mockTVs: TVProduct[] = [
     "name": "TCL 55P89K (55P89KGTV) 55\" 4K QLED Google TV (2025)",
     "brand": "TCL",
     "category": "tvs",
-    "image": "/images/products/tvs/tcl-55p89k-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/tcl-55p89k-1.jpg",
-      "https://resim.epey.com/1027304/k_tcl-55p89kgtv-6921732893231-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 30,
@@ -56419,10 +56301,9 @@ export const mockTVs: TVProduct[] = [
     "name": "TCL 55P8K (55P8KGTV) 55\" 4K QLED Google TV (2025)",
     "brand": "TCL",
     "category": "tvs",
-    "image": "/images/products/tvs/tcl-55p8k-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/tcl-55p8k-1.jpg",
-      "https://resim.epey.com/1011803/k_tcl-55p8k-6921732849610-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 39,
@@ -56518,10 +56399,9 @@ export const mockTVs: TVProduct[] = [
     "name": "TCL 65C655 Pro (65C655PROGTV) 65\" 4K QLED Google TV (2024)",
     "brand": "TCL",
     "category": "tvs",
-    "image": "/images/products/tvs/tcl-65c655-pro-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/tcl-65c655-pro-1.jpg",
-      "https://resim.epey.com/949580/k_tcl-65c655-pro-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 34,
@@ -56617,10 +56497,9 @@ export const mockTVs: TVProduct[] = [
     "name": "TCL 55T8C 55\" 4K QLED Google TV (2025)",
     "brand": "TCL",
     "category": "tvs",
-    "image": "/images/products/tvs/tcl-55t8c-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/tcl-55t8c-1.jpg",
-      "https://resim.epey.com/1016983/k_tcl-65t8c-6921732898472-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 31,
@@ -56716,10 +56595,9 @@ export const mockTVs: TVProduct[] = [
     "name": "TCL 75P7L (75P7LGTV) 75\" 4K UHD Google TV (2026)",
     "brand": "TCL",
     "category": "tvs",
-    "image": "/images/products/tvs/tcl-75p7l-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/tcl-75p7l-1.jpg",
-      "https://resim.epey.com/1057112/k_tcl-75p7l-6937574841750-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 34,
@@ -56814,10 +56692,9 @@ export const mockTVs: TVProduct[] = [
     "name": "TCL 75P79K (75P79KGTV) 75\" 4K UHD Google TV (2025)",
     "brand": "TCL",
     "category": "tvs",
-    "image": "/images/products/tvs/tcl-75p79k-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/tcl-75p79k-1.jpg",
-      "https://resim.epey.com/1031742/k_tcl-75p79kgtv-6921732890988-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 32,
@@ -56909,10 +56786,9 @@ export const mockTVs: TVProduct[] = [
     "name": "TCL 75P7K (75P7KGTV) 75\" 4K UHD Google TV (2025)",
     "brand": "TCL",
     "category": "tvs",
-    "image": "/images/products/tvs/tcl-75p7k-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/tcl-75p7k-1.jpg",
-      "https://resim.epey.com/1011774/k_tcl-75p7k-tcl75p7kgtv-6921732849603-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 31,
@@ -57005,10 +56881,9 @@ export const mockTVs: TVProduct[] = [
     "name": "TCL 75P79L 75\" 4K UHD Google TV (2026)",
     "brand": "TCL",
     "category": "tvs",
-    "image": "/images/products/tvs/tcl-75p79l-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/tcl-75p79l-1.jpg",
-      "https://resim.epey.com/1064321/k_tcl-65p79lgtv-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 30,
@@ -57100,10 +56975,9 @@ export const mockTVs: TVProduct[] = [
     "name": "TCL 75T7B (75T7BGTV) 75\" 4K QLED Google TV (2024)",
     "brand": "TCL",
     "category": "tvs",
-    "image": "/images/products/tvs/tcl-75t7b-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/tcl-75t7b-1.jpg",
-      "https://resim.epey.com/947575/k_tcl-75t7bg-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 33,
@@ -57198,10 +57072,9 @@ export const mockTVs: TVProduct[] = [
     "name": "TCL 75T6D 75\" 4K UHD Google TV (2026)",
     "brand": "TCL",
     "category": "tvs",
-    "image": "/images/products/tvs/tcl-75t6d-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/tcl-75t6d-1.jpg",
-      "https://resim.epey.com/1057696/k_tcl-65t6d-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 31,
@@ -57294,10 +57167,9 @@ export const mockTVs: TVProduct[] = [
     "name": "TCL 55C655 Pro (55C655PROGTV) 55\" 4K QLED Google TV (2024)",
     "brand": "TCL",
     "category": "tvs",
-    "image": "/images/products/tvs/tcl-55c655-pro-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/tcl-55c655-pro-1.jpg",
-      "https://resim.epey.com/949572/k_tcl-55c655-pro-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 37,
@@ -57393,10 +57265,9 @@ export const mockTVs: TVProduct[] = [
     "name": "TCL 65P7L (65P7LGTV) 65\" 4K UHD Google TV (2026)",
     "brand": "TCL",
     "category": "tvs",
-    "image": "/images/products/tvs/tcl-65p7l-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/tcl-65p7l-1.jpg",
-      "https://resim.epey.com/1057114/k_tcl-65p7l-6937574840425-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 36,
@@ -57490,10 +57361,9 @@ export const mockTVs: TVProduct[] = [
     "name": "TCL 65P79K 65\" 4K UHD Google TV (2025)",
     "brand": "TCL",
     "category": "tvs",
-    "image": "/images/products/tvs/tcl-65p79k-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/tcl-65p79k-1.jpg",
-      "https://resim.epey.com/1028131/k_tcl-65p79k-6921732890971-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 33,
@@ -57585,10 +57455,9 @@ export const mockTVs: TVProduct[] = [
     "name": "TCL 65P7K (65P7KGTV) 65\" 4K UHD Google TV (2025)",
     "brand": "TCL",
     "category": "tvs",
-    "image": "/images/products/tvs/tcl-65p7k-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/tcl-65p7k-1.jpg",
-      "https://resim.epey.com/1011804/k_tcl-65p7k-6921732849597-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 32,
@@ -57681,10 +57550,9 @@ export const mockTVs: TVProduct[] = [
     "name": "TCL 65P79L (65P79LGTV) 65\" 4K UHD Google TV (2026)",
     "brand": "TCL",
     "category": "tvs",
-    "image": "/images/products/tvs/tcl-65p79l-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/tcl-65p79l-1.jpg",
-      "https://resim.epey.com/1062666/k_tcl-65p79lgtv-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 31,
@@ -57777,10 +57645,9 @@ export const mockTVs: TVProduct[] = [
     "name": "TCL 65T6D 65\" 4K UHD Google TV (2026)",
     "brand": "TCL",
     "category": "tvs",
-    "image": "/images/products/tvs/tcl-65t6d-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/tcl-65t6d-1.jpg",
-      "https://resim.epey.com/1057699/k_tcl-65t6d-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 32,
@@ -57873,10 +57740,9 @@ export const mockTVs: TVProduct[] = [
     "name": "TCL 65T61C 65\" 4K UHD Google TV (2025)",
     "brand": "TCL",
     "category": "tvs",
-    "image": "/images/products/tvs/tcl-65t61c-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/tcl-65t61c-1.jpg",
-      "https://resim.epey.com/1052348/k_tcl-65t61c-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 28,
@@ -57966,10 +57832,9 @@ export const mockTVs: TVProduct[] = [
     "name": "TCL 75V61C 75\" 4K UHD Google TV (2025)",
     "brand": "TCL",
     "category": "tvs",
-    "image": "/images/products/tvs/tcl-75v61c-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/tcl-75v61c-1.jpg",
-      "https://resim.epey.com/1061926/k_tcl-75v6c-6921732849665-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 29,
@@ -58060,10 +57925,9 @@ export const mockTVs: TVProduct[] = [
     "name": "TCL 75V6C 75\" 4K UHD Google TV (2025)",
     "brand": "TCL",
     "category": "tvs",
-    "image": "/images/products/tvs/tcl-75v6c-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/tcl-75v6c-1.jpg",
-      "https://resim.epey.com/1033204/k_tcl-75v6c-6921732849665-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 31,
@@ -58153,10 +58017,9 @@ export const mockTVs: TVProduct[] = [
     "name": "TCL 55P7L (55P7LGTV) 55\" 4K UHD Google TV (2026)",
     "brand": "TCL",
     "category": "tvs",
-    "image": "/images/products/tvs/tcl-55p7l-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/tcl-55p7l-1.jpg",
-      "https://resim.epey.com/1057117/k_tcl-55p7l-6937574841729-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 38,
@@ -58250,10 +58113,9 @@ export const mockTVs: TVProduct[] = [
     "name": "TCL 55P79K 55\" 4K UHD Google TV (2025)",
     "brand": "TCL",
     "category": "tvs",
-    "image": "/images/products/tvs/tcl-55p79k-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/tcl-55p79k-1.jpg",
-      "https://resim.epey.com/1027871/k_tcl-55p7k-6921732849580-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 35,
@@ -58346,10 +58208,9 @@ export const mockTVs: TVProduct[] = [
     "name": "TCL 55P7K (55P7KGTV) 55\" 4K UHD Google TV (2025)",
     "brand": "TCL",
     "category": "tvs",
-    "image": "/images/products/tvs/tcl-55p7k-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/tcl-55p7k-1.jpg",
-      "https://resim.epey.com/1011808/k_tcl-55p7k-6921732849580-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 36,
@@ -58441,10 +58302,9 @@ export const mockTVs: TVProduct[] = [
     "name": "TCL 55P79L (55P79LGTV) 55\" 4K UHD Google TV (2026)",
     "brand": "TCL",
     "category": "tvs",
-    "image": "/images/products/tvs/tcl-55p79l-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/tcl-55p79l-1.jpg",
-      "https://resim.epey.com/1061940/k_tcl-55p79l-55p79lgtv-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 33,
@@ -58536,10 +58396,9 @@ export const mockTVs: TVProduct[] = [
     "name": "TCL 55T6D 55\" 4K UHD Google TV (2026)",
     "brand": "TCL",
     "category": "tvs",
-    "image": "/images/products/tvs/tcl-55t6d-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/tcl-55t6d-1.jpg",
-      "https://resim.epey.com/1057701/k_tcl-65t6d-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 32,
@@ -58632,10 +58491,9 @@ export const mockTVs: TVProduct[] = [
     "name": "TCL 55T6C 55\" 4K UHD Google TV (2025)",
     "brand": "TCL",
     "category": "tvs",
-    "image": "/images/products/tvs/tcl-55t6c-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/tcl-55t6c-1.jpg",
-      "https://resim.epey.com/1016993/k_tcl-55t6c-3.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 30,
@@ -58727,10 +58585,9 @@ export const mockTVs: TVProduct[] = [
     "name": "TCL 55T61C 55\" 4K UHD Google TV (2025)",
     "brand": "TCL",
     "category": "tvs",
-    "image": "/images/products/tvs/tcl-55t61c-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/tcl-55t61c-1.jpg",
-      "https://resim.epey.com/1052082/k_tcl-55t61c-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 29,
@@ -58821,10 +58678,9 @@ export const mockTVs: TVProduct[] = [
     "name": "TCL 50P7L (50P7LGTV) 50\" 4K UHD Google TV (2026)",
     "brand": "TCL",
     "category": "tvs",
-    "image": "/images/products/tvs/tcl-50p7l-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/tcl-50p7l-1.jpg",
-      "https://resim.epey.com/1064328/k_tcl-55p7l-6937574841729-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 34,
@@ -58918,10 +58774,9 @@ export const mockTVs: TVProduct[] = [
     "name": "TCL 50P79L (50P79LGTV) 50\" 4K UHD Google TV (2026)",
     "brand": "TCL",
     "category": "tvs",
-    "image": "/images/products/tvs/tcl-50p79l-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/tcl-50p79l-1.jpg",
-      "https://resim.epey.com/1065294/k_tcl-55p79l-55p79lgtv-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 31,
@@ -59013,10 +58868,9 @@ export const mockTVs: TVProduct[] = [
     "name": "TCL 50T6C 50\" 4K UHD Google TV (2025)",
     "brand": "TCL",
     "category": "tvs",
-    "image": "/images/products/tvs/tcl-50t6c-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/tcl-50t6c-1.jpg",
-      "https://resim.epey.com/1030961/k_tcl-50t6c-7.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 30,
@@ -59109,10 +58963,9 @@ export const mockTVs: TVProduct[] = [
     "name": "TCL 65P6K 65\" 4K UHD Google TV (2025)",
     "brand": "TCL",
     "category": "tvs",
-    "image": "/images/products/tvs/tcl-65p6k-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/tcl-65p6k-1.jpg",
-      "https://resim.epey.com/1044860/k_tcl-65p6k-9.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 30,
@@ -59202,10 +59055,9 @@ export const mockTVs: TVProduct[] = [
     "name": "TCL 65V6C 65\" 4K UHD Google TV (2025)",
     "brand": "TCL",
     "category": "tvs",
-    "image": "/images/products/tvs/tcl-65v6c-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/tcl-65v6c-1.jpg",
-      "https://resim.epey.com/1019676/k_tcl-65v6c-9.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 31,
@@ -59296,10 +59148,9 @@ export const mockTVs: TVProduct[] = [
     "name": "TCL 65V6B (65V6BGTV) 65\" 4K UHD Google TV (2024)",
     "brand": "TCL",
     "category": "tvs",
-    "image": "/images/products/tvs/tcl-65v6b-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/tcl-65v6b-1.jpg",
-      "https://resim.epey.com/951908/k_tcl-65v6bgtv-3.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 33,
@@ -59389,10 +59240,9 @@ export const mockTVs: TVProduct[] = [
     "name": "TCL 55V6C 55\" 4K UHD Google TV (2025)",
     "brand": "TCL",
     "category": "tvs",
-    "image": "/images/products/tvs/tcl-55v6c-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/tcl-55v6c-1.jpg",
-      "https://resim.epey.com/1031730/k_tcl-55v6c-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 32,
@@ -59483,10 +59333,9 @@ export const mockTVs: TVProduct[] = [
     "name": "TCL 55V6B (55V6BGTV) 55\" 4K UHD Google TV (2024)",
     "brand": "TCL",
     "category": "tvs",
-    "image": "/images/products/tvs/tcl-55v6b-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/tcl-55v6b-1.jpg",
-      "https://resim.epey.com/954534/k_tcl-55v6bgtv-6921732829421-2.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 34,
@@ -59577,10 +59426,9 @@ export const mockTVs: TVProduct[] = [
     "name": "TCL 50V6B (50V6BGTV) 50\" 4K UHD Google TV (2024)",
     "brand": "TCL",
     "category": "tvs",
-    "image": "/images/products/tvs/tcl-50v6b-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/tcl-50v6b-1.jpg",
-      "https://resim.epey.com/952822/k_tcl-50v6b-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 30,
@@ -59670,10 +59518,9 @@ export const mockTVs: TVProduct[] = [
     "name": "TCL 43S59K 43\" Full HD Google TV (2025)",
     "brand": "TCL",
     "category": "tvs",
-    "image": "/images/products/tvs/tcl-43s59k-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/tcl-43s59k-1.jpg",
-      "https://resim.epey.com/1043711/k_tcl-32s59k-6937574818738-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.5,
     "reviewCount": 28,
@@ -59764,10 +59611,9 @@ export const mockTVs: TVProduct[] = [
     "name": "TCL 43S5K 43\" Full HD Google TV (2025)",
     "brand": "TCL",
     "category": "tvs",
-    "image": "/images/products/tvs/tcl-43s5k-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/tcl-43s5k-1.jpg",
-      "https://resim.epey.com/1023492/k_tcl-43s5k-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.5,
     "reviewCount": 30,
@@ -59857,10 +59703,9 @@ export const mockTVs: TVProduct[] = [
     "name": "TCL 32S5K 32\" Full HD Google TV (2025)",
     "brand": "TCL",
     "category": "tvs",
-    "image": "/images/products/tvs/tcl-32s5k-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/tcl-32s5k-1.jpg",
-      "https://resim.epey.com/1031748/k_tcl-32s5k-6921732894139-6.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.5,
     "reviewCount": 33,
@@ -59951,10 +59796,9 @@ export const mockTVs: TVProduct[] = [
     "name": "TCL 32S59K 32\" Full HD Google TV (2025)",
     "brand": "TCL",
     "category": "tvs",
-    "image": "/images/products/tvs/tcl-32s59k-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/tcl-32s59k-1.jpg",
-      "https://resim.epey.com/1043714/k_tcl-32s59k-6937574818738-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.5,
     "reviewCount": 30,
@@ -60044,10 +59888,9 @@ export const mockTVs: TVProduct[] = [
     "name": "TCL 85C7L (85C7LGTV) 85\" 4K QD-Mini LED Google TV (2026)",
     "brand": "TCL",
     "category": "tvs",
-    "image": "/images/products/tvs/tcl-85c7l-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/tcl-85c7l-1.jpg",
-      "https://resim.epey.com/1057569/k_tcl-65c7l-7.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.9,
     "reviewCount": 35,
@@ -60144,10 +59987,9 @@ export const mockTVs: TVProduct[] = [
     "name": "TCL 65C7L (65C7LGTV) 65\" 4K QD-Mini LED Google TV (2026)",
     "brand": "TCL",
     "category": "tvs",
-    "image": "/images/products/tvs/tcl-65c7l-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/tcl-65c7l-1.jpg",
-      "https://resim.epey.com/1057575/k_tcl-65c7l-7.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.9,
     "reviewCount": 38,
@@ -60244,10 +60086,9 @@ export const mockTVs: TVProduct[] = [
     "name": "TCL 98C8L (98C8LGTV) 98\" 4K QD-Mini LED Google TV (2026)",
     "brand": "TCL",
     "category": "tvs",
-    "image": "/images/products/tvs/tcl-98c8l-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/tcl-98c8l-1.jpg",
-      "https://resim.epey.com/1057565/k_tcl-98c8l-6937574830051-7.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.9,
     "reviewCount": 25,
@@ -60344,10 +60185,9 @@ export const mockTVs: TVProduct[] = [
     "name": "TCL 98C8K 98\" 4K QD-Mini LED Google TV (2025)",
     "brand": "TCL",
     "category": "tvs",
-    "image": "/images/products/tvs/tcl-98c8k-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/tcl-98c8k-1.jpg",
-      "https://resim.epey.com/1026321/k_tcl-98c8k-8.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.9,
     "reviewCount": 28,
@@ -60443,10 +60283,9 @@ export const mockTVs: TVProduct[] = [
     "name": "TCL 98C855 98\" 4K QD-Mini LED Google TV (2024)",
     "brand": "TCL",
     "category": "tvs",
-    "image": "/images/products/tvs/tcl-98c855-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/tcl-98c855-1.jpg",
-      "https://resim.epey.com/960241/k_tcl-98c855-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.9,
     "reviewCount": 32,
@@ -60542,10 +60381,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Philips 65OLED810 (65OLED810/12) 65\" 4K OLED Google TV (2025)",
     "brand": "Philips",
     "category": "tvs",
-    "image": "/images/products/tvs/philips-65oled810-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/philips-65oled810-1.jpg",
-      "https://resim.epey.com/1017038/k_philips-65oled810-12-4.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.9,
     "reviewCount": 42,
@@ -60643,10 +60481,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Philips 55OLED810 (55OLED810/12) 55\" 4K OLED Google TV (2025)",
     "brand": "Philips",
     "category": "tvs",
-    "image": "/images/products/tvs/philips-55oled810-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/philips-55oled810-1.jpg",
-      "https://resim.epey.com/1017312/k_philips-55oled810-12-4.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.9,
     "reviewCount": 48,
@@ -60743,10 +60580,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Philips 55OLED760 (55OLED760/12) 55\" 4K OLED Titan OS Smart TV (2025)",
     "brand": "Philips",
     "category": "tvs",
-    "image": "/images/products/tvs/philips-55oled760-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/philips-55oled760-1.jpg",
-      "https://resim.epey.com/1017039/k_philips-48oled760-5.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 36,
@@ -60842,10 +60678,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Philips 55PML9009 (55PML9009/12) 55\" 4K \"The Xtra\" Mini LED Smart TV (2024)",
     "brand": "Philips",
     "category": "tvs",
-    "image": "/images/products/tvs/philips-55pml9009-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/philips-55pml9009-1.jpg",
-      "https://resim.epey.com/954533/k_philips-55pml9009-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 39,
@@ -60940,10 +60775,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Philips 65PUS9000 (65PUS9000/62) 65\" 4K \"The One\" LED Smart TV (2025)",
     "brand": "Philips",
     "category": "tvs",
-    "image": "/images/products/tvs/philips-65pus9000-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/philips-65pus9000-1.jpg",
-      "https://resim.epey.com/1022540/k_philips-65pus9000-4.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 45,
@@ -61039,10 +60873,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Philips 75MLED810 (75MLED810/12) 75\" 4K Mini LED Smart TV (2025)",
     "brand": "Philips",
     "category": "tvs",
-    "image": "/images/products/tvs/philips-75mled810-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/philips-75mled810-1.jpg",
-      "https://resim.epey.com/1037851/k_philips-65mled810-4.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 32,
@@ -61137,10 +60970,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Philips 55PUS9000 (55PUS9000/62) 55\" 4K \"The One\" LED Smart TV (2025)",
     "brand": "Philips",
     "category": "tvs",
-    "image": "/images/products/tvs/philips-55pus9000-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/philips-55pus9000-1.jpg",
-      "https://resim.epey.com/1022547/k_philips-55pus9000-4.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 47,
@@ -61235,10 +61067,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Philips 65PUS8909 (65PUS8909/62) 65\" 4K \"The One\" LED Smart TV (2024)",
     "brand": "Philips",
     "category": "tvs",
-    "image": "/images/products/tvs/philips-65pus8909-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/philips-65pus8909-1.jpg",
-      "https://resim.epey.com/937448/k_philips-65pus8909-5.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 38,
@@ -61332,10 +61163,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Philips 65MLED810 (65MLED810/12) 65\" 4K Mini LED Smart TV (2025)",
     "brand": "Philips",
     "category": "tvs",
-    "image": "/images/products/tvs/philips-65mled810-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/philips-65mled810-1.jpg",
-      "https://resim.epey.com/1037922/k_philips-65mled810-4.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 34,
@@ -61430,10 +61260,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Philips 50PUS9000 (50PUS9000/12) 50\" 4K \"The One\" LED Smart TV (2025)",
     "brand": "Philips",
     "category": "tvs",
-    "image": "/images/products/tvs/philips-50pus9000-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/philips-50pus9000-1.jpg",
-      "https://resim.epey.com/1022533/k_philips-50pus9000-4.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 31,
@@ -61528,10 +61357,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Philips 55PUS8909 (55PUS8909/62) 55\" 4K \"The One\" LED Smart TV (2024)",
     "brand": "Philips",
     "category": "tvs",
-    "image": "/images/products/tvs/philips-55pus8909-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/philips-55pus8909-1.jpg",
-      "https://resim.epey.com/937534/k_philips-55pus8909-5.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 41,
@@ -61626,10 +61454,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Philips 55MLED810 (55MLED810/12) 55\" 4K Mini LED Smart TV (2025)",
     "brand": "Philips",
     "category": "tvs",
-    "image": "/images/products/tvs/philips-55mled810-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/philips-55mled810-1.jpg",
-      "https://resim.epey.com/1037979/k_philips-55mled810-4.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 36,
@@ -61723,10 +61550,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Philips 85PUS8309 (85PUS8309/12) 85\" 4K LED Smart TV (2024)",
     "brand": "Philips",
     "category": "tvs",
-    "image": "/images/products/tvs/philips-85pus8309-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/philips-85pus8309-1.jpg",
-      "https://resim.epey.com/952839/k_philips-85pus8309-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 30,
@@ -61820,10 +61646,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Philips 65PUS8600 (65PUS8600/12) 65\" 4K LED Smart TV (2025)",
     "brand": "Philips",
     "category": "tvs",
-    "image": "/images/products/tvs/philips-65pus8600-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/philips-65pus8600-1.jpg",
-      "https://resim.epey.com/1037854/k_philips-65pus8600-5.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 33,
@@ -61918,10 +61743,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Philips 43PUS9000 (43PUS9000/12) 43\" 4K \"The One\" LED Smart TV (2025)",
     "brand": "Philips",
     "category": "tvs",
-    "image": "/images/products/tvs/philips-43pus9000-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/philips-43pus9000-1.jpg",
-      "https://resim.epey.com/1022536/k_philips-43pus9000-4.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 35,
@@ -62016,10 +61840,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Philips 75PUS7800 (75PUS7800/12) 75\" 4K LED Smart TV (2025)",
     "brand": "Philips",
     "category": "tvs",
-    "image": "/images/products/tvs/philips-75pus7800-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/philips-75pus7800-1.jpg",
-      "https://resim.epey.com/1031000/k_philips-65pus7800-4.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 30,
@@ -62112,10 +61935,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Philips 65PUS8500 (65PUS8500/62) 65\" 4K LED Smart TV (2025)",
     "brand": "Philips",
     "category": "tvs",
-    "image": "/images/products/tvs/philips-65pus8500-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/philips-65pus8500-1.jpg",
-      "https://resim.epey.com/1011806/k_philips-65pus8500-62-8718863046395-5.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 38,
@@ -62209,10 +62031,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Philips 75PUS8309 (75PUS8309/12) 75\" 4K LED Smart TV (2024)",
     "brand": "Philips",
     "category": "tvs",
-    "image": "/images/products/tvs/philips-75pus8309-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/philips-75pus8309-1.jpg",
-      "https://resim.epey.com/942706/k_philips-75pus8309-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 36,
@@ -62306,10 +62127,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Philips 55PUS8600 (55PUS8600/12) 55\" 4K LED Smart TV (2025)",
     "brand": "Philips",
     "category": "tvs",
-    "image": "/images/products/tvs/philips-55pus8600-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/philips-55pus8600-1.jpg",
-      "https://resim.epey.com/1037918/k_philips-55pus8600-5.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 34,
@@ -62404,10 +62224,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Philips 65PUS7800 (65PUS7800/62) 65\" 4K LED Smart TV (2025)",
     "brand": "Philips",
     "category": "tvs",
-    "image": "/images/products/tvs/philips-65pus7800-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/philips-65pus7800-1.jpg",
-      "https://resim.epey.com/1018387/k_philips-65pus7800-4.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 39,
@@ -62501,10 +62320,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Philips 75PUS7000 (75PUS7000/12) 75\" 4K LED Smart TV (2025)",
     "brand": "Philips",
     "category": "tvs",
-    "image": "/images/products/tvs/philips-75pus7000-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/philips-75pus7000-1.jpg",
-      "https://resim.epey.com/1016996/k_philips-65pus7000-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 31,
@@ -62595,10 +62413,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Philips 65PUS8200 (65PUS8200/62) 65\" 4K LED Smart TV (2025)",
     "brand": "Philips",
     "category": "tvs",
-    "image": "/images/products/tvs/philips-65pus8200-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/philips-65pus8200-1.jpg",
-      "https://resim.epey.com/1036452/k_philips-ambilight-65pus8200-8718863048313-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 37,
@@ -62692,10 +62509,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Philips 55PUS8500 (55PUS8500/62) 55\" 4K LED Smart TV (2025)",
     "brand": "Philips",
     "category": "tvs",
-    "image": "/images/products/tvs/philips-55pus8500-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/philips-55pus8500-1.jpg",
-      "https://resim.epey.com/1012088/k_philips-55pus8500-62-8718863046395-5.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 42,
@@ -62789,10 +62605,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Philips 65PUS8050 (65PUS8050/62) 65\" 4K LED Smart TV (2025)",
     "brand": "Philips",
     "category": "tvs",
-    "image": "/images/products/tvs/philips-65pus8050-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/philips-65pus8050-1.jpg",
-      "https://resim.epey.com/1019814/k_philips-43pus8050-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 35,
@@ -62885,10 +62700,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Philips 65PUS8609 (65PUS8609/62) 65\" 4K LED Smart TV (2024)",
     "brand": "Philips",
     "category": "tvs",
-    "image": "/images/products/tvs/philips-65pus8609-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/philips-65pus8609-1.jpg",
-      "https://resim.epey.com/959720/k_philips-55pus8609-62-8718863041567-5.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 37,
@@ -62983,10 +62797,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Philips 55PUS7409 (55PUS7409/12) 55\" 4K Android TV (2024)",
     "brand": "Philips",
     "category": "tvs",
-    "image": "/images/products/tvs/philips-55pus7409-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/philips-55pus7409-1.jpg",
-      "https://resim.epey.com/1002292/k_philips-55pus7409-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 42,
@@ -63079,10 +62892,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Philips 50PUS8500 (50PUS8500/62) 50\" 4K LED Smart TV (2025)",
     "brand": "Philips",
     "category": "tvs",
-    "image": "/images/products/tvs/philips-50pus8500-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/philips-50pus8500-1.jpg",
-      "https://resim.epey.com/1012094/k_philips-50pus8500-62-8718863046395-5.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 39,
@@ -63176,10 +62988,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Philips 55PUS7800 (55PUS7800/62) 55\" 4K LED Smart TV (2025)",
     "brand": "Philips",
     "category": "tvs",
-    "image": "/images/products/tvs/philips-55pus7800-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/philips-55pus7800-1.jpg",
-      "https://resim.epey.com/1018388/k_philips-65pus7800-4.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 38,
@@ -63273,10 +63084,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Philips 65PUS7009 (65PUS7009/62) 65\" 4K LED Smart TV (2024)",
     "brand": "Philips",
     "category": "tvs",
-    "image": "/images/products/tvs/philips-65pus7009-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/philips-65pus7009-1.jpg",
-      "https://resim.epey.com/955540/k_philips-65pus7009-4.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 35,
@@ -63368,10 +63178,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Philips 65PUS7000 (65PUS7000/12) 65\" 4K LED Smart TV (2025)",
     "brand": "Philips",
     "category": "tvs",
-    "image": "/images/products/tvs/philips-65pus7000-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/philips-65pus7000-1.jpg",
-      "https://resim.epey.com/1020468/k_philips-65pus7000-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 40,
@@ -63463,10 +63272,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Philips 55PUS8349 (55PUS8349/62) 55\" 4K LED Smart TV (2024)",
     "brand": "Philips",
     "category": "tvs",
-    "image": "/images/products/tvs/philips-55pus8349-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/philips-55pus8349-1.jpg",
-      "https://resim.epey.com/940688/k_philips-55pus8349-62-3.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 33,
@@ -63560,10 +63368,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Philips 50PUS7800 (50PUS7800/62) 50\" 4K LED Smart TV (2025)",
     "brand": "Philips",
     "category": "tvs",
-    "image": "/images/products/tvs/philips-50pus7800-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/philips-50pus7800-1.jpg",
-      "https://resim.epey.com/1019575/k_philips-50pus7800-4.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 37,
@@ -63657,10 +63464,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Philips 55PUS8309 (55PUS8309/62) 55\" 4K LED Smart TV (2024)",
     "brand": "Philips",
     "category": "tvs",
-    "image": "/images/products/tvs/philips-55pus8309-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/philips-55pus8309-1.jpg",
-      "https://resim.epey.com/937537/k_philips-55pus8309-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 38,
@@ -63754,10 +63560,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Philips 55PUS8050 (55PUS8050/62) 55\" 4K LED Smart TV (2025)",
     "brand": "Philips",
     "category": "tvs",
-    "image": "/images/products/tvs/philips-55pus8050-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/philips-55pus8050-1.jpg",
-      "https://resim.epey.com/1019813/k_philips-43pus8050-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 39,
@@ -63850,10 +63655,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Philips 55PUS8609 (55PUS8609/62) 55\" 4K LED Smart TV (2024)",
     "brand": "Philips",
     "category": "tvs",
-    "image": "/images/products/tvs/philips-55pus8609-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/philips-55pus8609-1.jpg",
-      "https://resim.epey.com/959723/k_philips-55pus8609-62-8718863041567-5.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 36,
@@ -63948,10 +63752,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Philips 55PUS8009 (55PUS8009/62) 55\" 4K LED Smart TV (2024)",
     "brand": "Philips",
     "category": "tvs",
-    "image": "/images/products/tvs/philips-55pus8009-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/philips-55pus8009-1.jpg",
-      "https://resim.epey.com/970039/k_philips-55pus8009-62-8718863044803-2.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 35,
@@ -64045,10 +63848,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Philips 55PUS7009 (55PUS7009/62) 55\" 4K LED Smart TV (2024)",
     "brand": "Philips",
     "category": "tvs",
-    "image": "/images/products/tvs/philips-55pus7009-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/philips-55pus7009-1.jpg",
-      "https://resim.epey.com/955536/k_philips-55pus7009-4.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 38,
@@ -64140,10 +63942,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Philips 55PUS7609 (55PUS7609/62) 55\" 4K LED Smart TV (2024)",
     "brand": "Philips",
     "category": "tvs",
-    "image": "/images/products/tvs/philips-55pus7609-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/philips-55pus7609-1.jpg",
-      "https://resim.epey.com/954179/k_philips-55pus7609-3.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 37,
@@ -64237,10 +64038,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Philips 55PUS7000 (55PUS7000/62) 55\" 4K LED Smart TV (2025)",
     "brand": "Philips",
     "category": "tvs",
-    "image": "/images/products/tvs/philips-55pus7000-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/philips-55pus7000-1.jpg",
-      "https://resim.epey.com/1025413/k_philips-65pus7000-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 41,
@@ -64332,10 +64132,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Philips 50PUS8050 (50PUS8050/62) 50\" 4K LED Smart TV (2025)",
     "brand": "Philips",
     "category": "tvs",
-    "image": "/images/products/tvs/philips-50pus8050-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/philips-50pus8050-1.jpg",
-      "https://resim.epey.com/1019521/k_philips-43pus8050-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 36,
@@ -64428,10 +64227,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Philips 43PUS7800 (43PUS7800/62) 43\" 4K LED Smart TV (2025)",
     "brand": "Philips",
     "category": "tvs",
-    "image": "/images/products/tvs/philips-43pus7800-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/philips-43pus7800-1.jpg",
-      "https://resim.epey.com/1019578/k_philips-65pus7800-4.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 38,
@@ -64525,10 +64323,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Philips 50PUS8009 (50PUS8009/62) 50\" 4K LED Smart TV (2024)",
     "brand": "Philips",
     "category": "tvs",
-    "image": "/images/products/tvs/philips-50pus8009-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/philips-50pus8009-1.jpg",
-      "https://resim.epey.com/969841/k_philips-50pus8009-62-8718863044803-2.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 34,
@@ -64621,10 +64418,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Philips 50PUS7609 (50PUS7609/62) 50\" 4K LED Smart TV (2024)",
     "brand": "Philips",
     "category": "tvs",
-    "image": "/images/products/tvs/philips-50pus7609-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/philips-50pus7609-1.jpg",
-      "https://resim.epey.com/954180/k_philips-50pus7609-3.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 36,
@@ -64718,10 +64514,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Philips 50PUS7000 (50PUS7000/62) 50\" 4K LED Smart TV (2025)",
     "brand": "Philips",
     "category": "tvs",
-    "image": "/images/products/tvs/philips-50pus7000-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/philips-50pus7000-1.jpg",
-      "https://resim.epey.com/1026043/k_philips-65pus7000-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 38,
@@ -64813,10 +64608,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Philips 43PUS8309 (43PUS8309/62) 43\" 4K LED Smart TV (2024)",
     "brand": "Philips",
     "category": "tvs",
-    "image": "/images/products/tvs/philips-43pus8309-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/philips-43pus8309-1.jpg",
-      "https://resim.epey.com/937539/k_philips-43pus8309-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 35,
@@ -64909,10 +64703,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Philips 43PUS8050 (43PUS8050/62) 43\" 4K LED Smart TV (2025)",
     "brand": "Philips",
     "category": "tvs",
-    "image": "/images/products/tvs/philips-43pus8050-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/philips-43pus8050-1.jpg",
-      "https://resim.epey.com/1019523/k_philips-43pus8050-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 37,
@@ -65005,10 +64798,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Philips 43PUS7609 (43PUS7609/62) 43\" 4K LED Smart TV (2024)",
     "brand": "Philips",
     "category": "tvs",
-    "image": "/images/products/tvs/philips-43pus7609-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/philips-43pus7609-1.jpg",
-      "https://resim.epey.com/954181/k_philips-43pus7609-3.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 36,
@@ -65102,10 +64894,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Philips 32PHS6000 (32PHS6000/12) 32\" HD LED Smart TV (2025)",
     "brand": "Philips",
     "category": "tvs",
-    "image": "/images/products/tvs/philips-32phs6000-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/philips-32phs6000-1.jpg",
-      "https://resim.epey.com/1061668/k_philips-32phs6000-6.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 31,
@@ -65196,10 +64987,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Philips 32PHS6009 (32PHS6009/62) 32\" HD LED Smart TV (2024)",
     "brand": "Philips",
     "category": "tvs",
-    "image": "/images/products/tvs/philips-32phs6009-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/philips-32phs6009-1.jpg",
-      "https://resim.epey.com/954508/k_philips-32phs6809-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.5,
     "reviewCount": 33,
@@ -65290,10 +65080,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Philips 77OLED910 (77OLED910/12) 77\" 4K OLED Android TV (2025)",
     "brand": "Philips",
     "category": "tvs",
-    "image": "/images/products/tvs/philips-77oled910-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/philips-77oled910-1.jpg",
-      "https://resim.epey.com/1017204/k_philips-77oled910-12-8718863046852-2.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 5,
     "reviewCount": 28,
@@ -65391,10 +65180,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Philips 77OLED909 (77OLED909/12) 77\" 4K OLED Android TV (2024)",
     "brand": "Philips",
     "category": "tvs",
-    "image": "/images/products/tvs/philips-77oled909-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/philips-77oled909-1.jpg",
-      "https://resim.epey.com/960220/k_philips-77oled909-3.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.9,
     "reviewCount": 26,
@@ -65490,10 +65278,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Philips 77OLED810 (77OLED810/12) 77\" 4K OLED Android TV (2025)",
     "brand": "Philips",
     "category": "tvs",
-    "image": "/images/products/tvs/philips-77oled810-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/philips-77oled810-1.jpg",
-      "https://resim.epey.com/1026041/k_philips-77oled810-12-8718863046777-4.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.9,
     "reviewCount": 30,
@@ -65590,10 +65377,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Philips 77OLED809 (77OLED809/12) 77\" 4K OLED Android TV (2024)",
     "brand": "Philips",
     "category": "tvs",
-    "image": "/images/products/tvs/philips-77oled809-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/philips-77oled809-1.jpg",
-      "https://resim.epey.com/942817/k_philips-77oled809-2.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.9,
     "reviewCount": 31,
@@ -65688,10 +65474,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Philips 65OLED910 (65OLED910/12) 65\" 4K OLED Android TV (2025)",
     "brand": "Philips",
     "category": "tvs",
-    "image": "/images/products/tvs/philips-65oled910-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/philips-65oled910-1.jpg",
-      "https://resim.epey.com/1017200/k_philips-65oled910-12-8718863046852-2.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.9,
     "reviewCount": 35,
@@ -65788,10 +65573,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Philips 65OLED909 (65OLED909/12) 65\" 4K OLED Android TV (2024)",
     "brand": "Philips",
     "category": "tvs",
-    "image": "/images/products/tvs/philips-65oled909-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/philips-65oled909-1.jpg",
-      "https://resim.epey.com/954487/k_philips-65oled909-3.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.9,
     "reviewCount": 34,
@@ -65886,10 +65670,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Philips 65OLED809 (65OLED809/12) 65\" 4K OLED Android TV (2024)",
     "brand": "Philips",
     "category": "tvs",
-    "image": "/images/products/tvs/philips-65oled809-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/philips-65oled809-1.jpg",
-      "https://resim.epey.com/942721/k_philips-65oled809-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.9,
     "reviewCount": 39,
@@ -65985,10 +65768,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Philips 55OLED910 (55OLED910/12) 55\" 4K OLED Android TV (2025)",
     "brand": "Philips",
     "category": "tvs",
-    "image": "/images/products/tvs/philips-55oled910-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/philips-55oled910-1.jpg",
-      "https://resim.epey.com/1017110/k_philips-55oled910-12-8718863046852-2.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.9,
     "reviewCount": 36,
@@ -66085,10 +65867,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Philips 55OLED909 (55OLED909/12) 55\" 4K OLED Android TV (2024)",
     "brand": "Philips",
     "category": "tvs",
-    "image": "/images/products/tvs/philips-55oled909-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/philips-55oled909-1.jpg",
-      "https://resim.epey.com/954476/k_philips-55oled909-3.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.9,
     "reviewCount": 33,
@@ -66183,10 +65964,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Philips 55OLED809 (55OLED809/12) 55\" 4K OLED Android TV (2024)",
     "brand": "Philips",
     "category": "tvs",
-    "image": "/images/products/tvs/philips-55oled809-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/philips-55oled809-1.jpg",
-      "https://resim.epey.com/942862/k_philips-55oled809-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 42,
@@ -66282,10 +66062,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Philips 48OLED810 (48OLED810/12) 48\" 4K OLED Android TV (2025)",
     "brand": "Philips",
     "category": "tvs",
-    "image": "/images/products/tvs/philips-48oled810-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/philips-48oled810-1.jpg",
-      "https://resim.epey.com/1017318/k_philips-48oled810-12-4.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 34,
@@ -66382,10 +66161,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Philips 75MLED950 (75MLED950/12) 75\" 4K Mini LED Smart TV (2025)",
     "brand": "Philips",
     "category": "tvs",
-    "image": "/images/products/tvs/philips-75mled950-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/philips-75mled950-1.jpg",
-      "https://resim.epey.com/1038009/k_philips-75mled950-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 30,
@@ -66479,10 +66257,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Philips 42OLED810 (42OLED810/12) 42\" 4K OLED Android TV (2025)",
     "brand": "Philips",
     "category": "tvs",
-    "image": "/images/products/tvs/philips-42oled810-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/philips-42oled810-1.jpg",
-      "https://resim.epey.com/1017319/k_philips-42oled810-12-4.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 38,
@@ -66580,10 +66357,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Philips 77OLED760 (77OLED760/12) 77\" 4K OLED Smart TV (2025)",
     "brand": "Philips",
     "category": "tvs",
-    "image": "/images/products/tvs/philips-77oled760-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/philips-77oled760-1.jpg",
-      "https://resim.epey.com/1017240/k_philips-48oled760-5.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 29,
@@ -66678,10 +66454,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Philips 42OLED809 (42OLED809/12) 42\" 4K OLED Android TV (2024)",
     "brand": "Philips",
     "category": "tvs",
-    "image": "/images/products/tvs/philips-42oled809-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/philips-42oled809-1.jpg",
-      "https://resim.epey.com/942867/k_philips-42oled809-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 36,
@@ -66776,10 +66551,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Philips 85MLED910 (85MLED910/12) 85\" 4K Mini LED Smart TV (2025)",
     "brand": "Philips",
     "category": "tvs",
-    "image": "/images/products/tvs/philips-85mled910-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/philips-85mled910-1.jpg",
-      "https://resim.epey.com/1040162/k_philips-85mled910-12-8718863048337-3.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 29,
@@ -66874,10 +66648,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Philips 65MLED950 (65MLED950/12) 65\" 4K Mini LED Smart TV (2025)",
     "brand": "Philips",
     "category": "tvs",
-    "image": "/images/products/tvs/philips-65mled950-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/philips-65mled950-1.jpg",
-      "https://resim.epey.com/1038019/k_philips-65mled950-3.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 32,
@@ -66972,10 +66745,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Philips 85PML9009 (85PML9009/12) 85\" 4K \"The Xtra\" Mini LED Smart TV (2024)",
     "brand": "Philips",
     "category": "tvs",
-    "image": "/images/products/tvs/philips-85pml9009-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/philips-85pml9009-1.jpg",
-      "https://resim.epey.com/954529/k_philips-55pml9009-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 31,
@@ -67069,10 +66841,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Philips 65OLED760 (65OLED760/12) 65\" 4K OLED Smart TV (2025)",
     "brand": "Philips",
     "category": "tvs",
-    "image": "/images/products/tvs/philips-65oled760-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/philips-65oled760-1.jpg",
-      "https://resim.epey.com/1011771/k_philips-48oled760-5.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 38,
@@ -67167,10 +66938,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Philips 85PUS9000 (85PUS9000/12) 85\" 4K \"The One\" LED Smart TV (2025)",
     "brand": "Philips",
     "category": "tvs",
-    "image": "/images/products/tvs/philips-85pus9000-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/philips-85pus9000-1.jpg",
-      "https://resim.epey.com/1022529/k_philips-85pus9000-12-8718863046425-3.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 33,
@@ -67265,10 +67035,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Philips 65OLED759 (65OLED759/12) 65\" 4K OLED Smart TV (2024)",
     "brand": "Philips",
     "category": "tvs",
-    "image": "/images/products/tvs/philips-65oled759-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/philips-65oled759-1.jpg",
-      "https://resim.epey.com/942974/k_philips-65oled759-4.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 35,
@@ -67362,10 +67131,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Philips 75MLED910 (75MLED910/12) 75\" 4K Mini LED Smart TV (2025)",
     "brand": "Philips",
     "category": "tvs",
-    "image": "/images/products/tvs/philips-75mled910-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/philips-75mled910-1.jpg",
-      "https://resim.epey.com/1040102/k_philips-75mled910-12-8718863048337-3.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 31,
@@ -67459,10 +67227,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Philips 75PML9009 (75PML9009/12) 75\" 4K \"The Xtra\" Mini LED Smart TV (2024)",
     "brand": "Philips",
     "category": "tvs",
-    "image": "/images/products/tvs/philips-75pml9009-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/philips-75pml9009-1.jpg",
-      "https://resim.epey.com/954530/k_philips-55pml9009-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 34,
@@ -67557,10 +67324,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Philips 75PUS9000 (75PUS9000/12) 75\" 4K \"The One\" LED Smart TV (2025)",
     "brand": "Philips",
     "category": "tvs",
-    "image": "/images/products/tvs/philips-75pus9000-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/philips-75pus9000-1.jpg",
-      "https://resim.epey.com/1016989/k_philips-75pus9000-12-8718863046425-3.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 36,
@@ -67656,10 +67422,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Philips 55OLED759 (55OLED759/12) 55\" 4K OLED Smart TV (2024)",
     "brand": "Philips",
     "category": "tvs",
-    "image": "/images/products/tvs/philips-55oled759-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/philips-55oled759-1.jpg",
-      "https://resim.epey.com/942722/k_philips-65oled759-4.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 41,
@@ -67754,10 +67519,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Philips 65PML9009 (65PML9009/12) 65\" 4K \"The Xtra\" Mini LED Smart TV (2024)",
     "brand": "Philips",
     "category": "tvs",
-    "image": "/images/products/tvs/philips-65pml9009-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/philips-65pml9009-1.jpg",
-      "https://resim.epey.com/954532/k_philips-55pml9009-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 37,
@@ -67852,10 +67616,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Philips 48OLED760 (48OLED760/12) 48\" 4K OLED Smart TV (2025)",
     "brand": "Philips",
     "category": "tvs",
-    "image": "/images/products/tvs/philips-48oled760-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/philips-48oled760-1.jpg",
-      "https://resim.epey.com/1017235/k_philips-48oled760-5.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 35,
@@ -67950,10 +67713,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Philips 48OLED759 (48OLED759/12) 48\" 4K OLED Smart TV (2024)",
     "brand": "Philips",
     "category": "tvs",
-    "image": "/images/products/tvs/philips-48oled759-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/philips-48oled759-1.jpg",
-      "https://resim.epey.com/942987/k_philips-65oled759-4.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 33,
@@ -68047,10 +67809,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Philips 75PUS8909 (75PUS8909/12) 75\" 4K \"The One\" LED Smart TV (2024)",
     "brand": "Philips",
     "category": "tvs",
-    "image": "/images/products/tvs/philips-75pus8909-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/philips-75pus8909-1.jpg",
-      "https://resim.epey.com/942771/k_philips-75pus8909-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 38,
@@ -68144,10 +67905,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Philips 55MLED910 (55MLED910/12) 55\" 4K Mini LED Smart TV (2025)",
     "brand": "Philips",
     "category": "tvs",
-    "image": "/images/products/tvs/philips-55mled910-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/philips-55mled910-1.jpg",
-      "https://resim.epey.com/1040163/k_philips-55mled910-12-8718863048337-3.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 34,
@@ -68242,10 +68002,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Philips 85PUS8500 (85PUS8500/12) 85\" 4K LED Smart TV (2025)",
     "brand": "Philips",
     "category": "tvs",
-    "image": "/images/products/tvs/philips-85pus8500-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/philips-85pus8500-1.jpg",
-      "https://resim.epey.com/1011772/k_philips-50pus8500-62-8718863046395-5.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 30,
@@ -68339,10 +68098,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Philips 65PUS8949 (65PUS8949/62) 65\" 4K \"The One\" LED Smart TV (2024)",
     "brand": "Philips",
     "category": "tvs",
-    "image": "/images/products/tvs/philips-65pus8949-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/philips-65pus8949-1.jpg",
-      "https://resim.epey.com/942084/k_philips-65pus8949-2.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 39,
@@ -68437,10 +68195,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Philips 65PML8709 (65PML8709/12) 65\" 4K Mini LED Android TV (2024)",
     "brand": "Philips",
     "category": "tvs",
-    "image": "/images/products/tvs/philips-65pml8709-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/philips-65pml8709-1.jpg",
-      "https://resim.epey.com/995371/k_philips-65pml8709-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 36,
@@ -68534,10 +68291,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Philips 75PUS8500 (75PUS8500/12) 75\" 4K LED Smart TV (2025)",
     "brand": "Philips",
     "category": "tvs",
-    "image": "/images/products/tvs/philips-75pus8500-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/philips-75pus8500-1.jpg",
-      "https://resim.epey.com/1011805/k_philips-50pus8500-62-8718863046395-5.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 31,
@@ -68631,10 +68387,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Philips 55PUS8949 (55PUS8949/62) 55\" 4K \"The One\" LED Smart TV (2024)",
     "brand": "Philips",
     "category": "tvs",
-    "image": "/images/products/tvs/philips-55pus8949-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/philips-55pus8949-1.jpg",
-      "https://resim.epey.com/941390/k_philips-55pus8949-2.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 44,
@@ -68729,10 +68484,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Philips 55PML8709 (55PML8709/12) 55\" 4K Mini LED Android TV (2024)",
     "brand": "Philips",
     "category": "tvs",
-    "image": "/images/products/tvs/philips-55pml8709-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/philips-55pml8709-1.jpg",
-      "https://resim.epey.com/995372/k_philips-65pml8709-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 38,
@@ -68826,10 +68580,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Philips 50PUS8909 (50PUS8909/62) 50\" 4K \"The One\" LED Smart TV (2024)",
     "brand": "Philips",
     "category": "tvs",
-    "image": "/images/products/tvs/philips-50pus8909-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/philips-50pus8909-1.jpg",
-      "https://resim.epey.com/937535/k_philips-50pus8909-5.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 42,
@@ -68924,10 +68677,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Philips 43PUS8909 (43PUS8909/12) 43\" 4K \"The One\" LED Smart TV (2024)",
     "brand": "Philips",
     "category": "tvs",
-    "image": "/images/products/tvs/philips-43pus8909-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/philips-43pus8909-1.jpg",
-      "https://resim.epey.com/942792/k_philips-43pus8909-5.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 39,
@@ -69022,10 +68774,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Philips 65PUS8349 (65PUS8349/62) 65\" 4K LED Smart TV (2024)",
     "brand": "Philips",
     "category": "tvs",
-    "image": "/images/products/tvs/philips-65pus8349-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/philips-65pus8349-1.jpg",
-      "https://resim.epey.com/940712/k_philips-65pus8349-62-3.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 36,
@@ -69119,10 +68870,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Philips 65PUS8309 (65PUS8309/62) 65\" 4K LED Smart TV (2024)",
     "brand": "Philips",
     "category": "tvs",
-    "image": "/images/products/tvs/philips-65pus8309-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/philips-65pus8309-1.jpg",
-      "https://resim.epey.com/937536/k_philips-65pus8309-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 37,
@@ -69215,10 +68965,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Philips 65PUS8009 (65PUS8009/62) 65\" 4K LED Smart TV (2024)",
     "brand": "Philips",
     "category": "tvs",
-    "image": "/images/products/tvs/philips-65pus8009-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/philips-65pus8009-1.jpg",
-      "https://resim.epey.com/970048/k_philips-65pus8009-62-8718863044803-2.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 35,
@@ -69309,10 +69058,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Philips 50PUS8349 (50PUS8349/62) 50\" 4K LED Smart TV (2024)",
     "brand": "Philips",
     "category": "tvs",
-    "image": "/images/products/tvs/philips-50pus8349-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/philips-50pus8349-1.jpg",
-      "https://resim.epey.com/940696/k_philips-50pus8349-62-3.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 38,
@@ -69406,10 +69154,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Philips 50PUS8309 (50PUS8309/62) 50\" 4K LED Smart TV (2024)",
     "brand": "Philips",
     "category": "tvs",
-    "image": "/images/products/tvs/philips-50pus8309-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/philips-50pus8309-1.jpg",
-      "https://resim.epey.com/937538/k_philips-50pus8309-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 39,
@@ -69503,10 +69250,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Philips 50PUS7009 (50PUS7009/62) 50\" 4K LED Smart TV (2024)",
     "brand": "Philips",
     "category": "tvs",
-    "image": "/images/products/tvs/philips-50pus7009-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/philips-50pus7009-1.jpg",
-      "https://resim.epey.com/952824/k_philips-55pus7009-4.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 36,
@@ -69597,10 +69343,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Philips 43PUS8009 (43PUS8009/62) 43\" 4K LED Smart TV (2024)",
     "brand": "Philips",
     "category": "tvs",
-    "image": "/images/products/tvs/philips-43pus8009-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/philips-43pus8009-1.jpg",
-      "https://resim.epey.com/969845/k_philips-65pus8009-62-8718863044803-2.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 38,
@@ -69692,10 +69437,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Philips 43PUS7009 (43PUS7009/62) 43\" 4K LED Smart TV (2024)",
     "brand": "Philips",
     "category": "tvs",
-    "image": "/images/products/tvs/philips-43pus7009-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/philips-43pus7009-1.jpg",
-      "https://resim.epey.com/956082/k_philips-55pus7009-4.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 39,
@@ -69787,10 +69531,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Philips 43PUS7000 (43PUS7000/62) 43\" 4K LED Smart TV (2025)",
     "brand": "Philips",
     "category": "tvs",
-    "image": "/images/products/tvs/philips-43pus7000-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/philips-43pus7000-1.jpg",
-      "https://resim.epey.com/1026038/k_philips-65pus7000-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 35,
@@ -69882,10 +69625,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Grundig 65 GO 990A 65\" 4K Ultra HD Smart OLED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/grundig-65-go-990a-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/grundig-65-go-990a-1.jpg",
-      "https://resim.epey.com/1034946/z_grundig-65go990a-8690842825163-9.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 34,
@@ -69994,10 +69736,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Grundig 65 GHO 9900 65\" 4K Ultra HD Smart OLED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/grundig-65-gho-9900-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/grundig-65-gho-9900-1.jpg",
-      "https://resim.epey.com/929775/z_grundig-65-gho-9900-8.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 28,
@@ -70090,10 +69831,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Grundig Dubai 65 GHO 9905 65\" 4K Ultra HD Smart OLED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/grundig-dubai-65-gho-9905-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/grundig-dubai-65-gho-9905-1.jpg",
-      "https://resim.epey.com/954234/z_grundig-dubai-65-gho-9905-9.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 22,
@@ -70186,10 +69926,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Grundig 100 GQ 880 100\" 4K Ultra HD Smart QLED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/grundig-100-gq-880-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/grundig-100-gq-880-1.jpg",
-      "https://resim.epey.com/1064667/z_grundig-100-gq-880-6.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.9,
     "reviewCount": 15,
@@ -70284,10 +70023,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Grundig 65 GO 975A 65\" 4K Ultra HD Smart OLED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/grundig-65-go-975a-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/grundig-65-go-975a-1.jpg",
-      "https://resim.epey.com/1033852/z_grundig-55go975a-8690842825194-5.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 19,
@@ -70380,10 +70118,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Grundig 55 GO 990A 55\" 4K Ultra HD Smart OLED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/grundig-55-go-990a-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/grundig-55-go-990a-1.jpg",
-      "https://resim.epey.com/1035091/z_grundig-55-go-990a-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 31,
@@ -70477,10 +70214,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Grundig 55 GO 975A 55\" 4K Ultra HD Smart OLED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/grundig-55-go-975a-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/grundig-55-go-975a-1.jpg",
-      "https://resim.epey.com/1033689/z_grundig-55go975a-8690842825194-5.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 20,
@@ -70573,10 +70309,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Grundig 85 GQ 880 85\" 4K Ultra HD Smart QLED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/grundig-85-gq-880-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/grundig-85-gq-880-1.jpg",
-      "https://resim.epey.com/1064324/z_grundig-85-gq-880-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 16,
@@ -70670,10 +70405,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Grundig 75 GQ 850A 75\" 4K Ultra HD Smart QLED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/grundig-75-gq-850a-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/grundig-75-gq-850a-1.jpg",
-      "https://resim.epey.com/1037852/z_grundig-55gq850a-8690842832161-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 25,
@@ -70767,10 +70501,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Grundig 75 GQ 800A 75\" 4K Ultra HD Smart QLED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/grundig-75-gq-800a-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/grundig-75-gq-800a-1.jpg",
-      "https://resim.epey.com/1037850/z_grundig-55-gq-800a-8690842832185-9.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 18,
@@ -70862,10 +70595,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Grundig 65 GQ 950A 65\" 4K Ultra HD Smart QLED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/grundig-65-gq-950a-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/grundig-65-gq-950a-1.jpg",
-      "https://resim.epey.com/1033690/z_grundig-55gq950a-8690842828027-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 29,
@@ -70959,10 +70691,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Grundig 65 GQ 850A 65\" 4K Ultra HD Smart QLED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/grundig-65-gq-850a-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/grundig-65-gq-850a-1.jpg",
-      "https://resim.epey.com/1037856/z_grundig-55gq850a-8690842832161-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 24,
@@ -71055,10 +70786,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Grundig 65 GQ 800A 65\" 4K Ultra HD Smart QLED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/grundig-65-gq-800a-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/grundig-65-gq-800a-1.jpg",
-      "https://resim.epey.com/1037853/z_grundig-55-gq-800a-8690842832185-9.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 16,
@@ -71150,10 +70880,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Grundig 75 GQ 750A 75\" 4K Ultra HD Smart QLED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/grundig-75-gq-750a-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/grundig-75-gq-750a-1.jpg",
-      "https://resim.epey.com/1033688/z_grundig-75-gq-750a-7.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 22,
@@ -71244,10 +70973,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Grundig 75 GJQ 9200 A 75\" 4K Ultra HD Smart QLED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/grundig-75-gjq-9200-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/grundig-75-gjq-9200-1.jpg",
-      "https://resim.epey.com/992215/z_grundig-50gjq9200-8690842762741-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 18,
@@ -71339,10 +71067,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Grundig 75 GJQ 9400 A 75\" 4K Ultra HD Smart QLED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/grundig-75-gjq-9400-a-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/grundig-75-gjq-9400-a-1.jpg",
-      "https://resim.epey.com/1016987/z_grundig-75gjq9400-8690842795565-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 15,
@@ -71434,10 +71161,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Grundig 75 GQ 700A 75\" 4K Ultra HD Smart QLED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/grundig-75-gq-700a-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/grundig-75-gq-700a-1.jpg",
-      "https://resim.epey.com/1035008/z_grundig-55-gq-700a-8690842825415-8.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 14,
@@ -71528,10 +71254,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Grundig Madrid 75 GJQ 9250 75\" 4K Ultra HD Smart QLED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/grundig-madrid-75-gjq-9250-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/grundig-madrid-75-gjq-9250-1.jpg",
-      "https://resim.epey.com/992125/z_grundig-madrid-75-gjq-9250-9.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 19,
@@ -71624,10 +71349,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Grundig 55 GQ 950A 55\" 4K Ultra HD Smart QLED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/grundig-55-gq-950a-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/grundig-55-gq-950a-1.jpg",
-      "https://resim.epey.com/1033693/z_grundig-55gq950a-8690842828027-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 28,
@@ -71721,10 +71445,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Grundig 65 GHQ 9500 65\" 4K Ultra HD Smart QLED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/grundig-65-ghq-9500-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/grundig-65-ghq-9500-1.jpg",
-      "https://resim.epey.com/919226/z_grundig-65-ghq-9500-10.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 26,
@@ -71818,10 +71541,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Grundig Monaco 65 GHQ 9550A 65\" 4K Ultra HD Smart QLED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/grundig-monaco-65-ghq-9550a-1.png",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/grundig-monaco-65-ghq-9550a-1.png",
-      "https://resim.epey.com/945290/z_grundig-monaco-65-ghq-9550a-1.png"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 17,
@@ -71915,10 +71637,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Grundig 55 GQ 850A 55\" 4K Ultra HD Smart QLED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/grundig-55-gq-850a-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/grundig-55-gq-850a-1.jpg",
-      "https://resim.epey.com/1035636/z_grundig-55gq850a-8690842832161-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 33,
@@ -72011,10 +71732,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Grundig 55 GQ 800A 55\" 4K Ultra HD Smart QLED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/grundig-55-gq-800a-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/grundig-55-gq-800a-1.jpg",
-      "https://resim.epey.com/1037857/z_grundig-55-gq-800a-8690842832185-9.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 21,
@@ -72106,10 +71826,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Grundig Paris 75 GHU 9055 75\" 4K Ultra HD Smart LED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/grundig-paris-75-ghu-9055-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/grundig-paris-75-ghu-9055-1.jpg",
-      "https://resim.epey.com/924284/z_grundig-paris-75-ghu-9055-7.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 16,
@@ -72200,10 +71919,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Grundig 65 GJQ 9200 A 65\" 4K Ultra HD Smart QLED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/grundig-65-gjq-9200-a-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/grundig-65-gjq-9200-a-1.jpg",
-      "https://resim.epey.com/998801/z_grundig-50gjq9200-8690842762741-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 22,
@@ -72296,10 +72014,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Grundig 65 GQ 700A 65\" 4K Ultra HD Smart QLED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/grundig-65-gq-700a-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/grundig-65-gq-700a-1.jpg",
-      "https://resim.epey.com/1035004/z_grundig-55-gq-700a-8690842825415-8.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 19,
@@ -72390,10 +72107,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Grundig 65 GQ 750A 65\" 4K Ultra HD Smart QLED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/grundig-65-gq-750a-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/grundig-65-gq-750a-1.jpg",
-      "https://resim.epey.com/1033691/z_grundig-55gq750a-8690842824067-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 31,
@@ -72484,10 +72200,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Grundig Madrid 65 GJQ 9250 65\" 4K Ultra HD Smart QLED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/grundig-madrid-65-gjq-9250-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/grundig-madrid-65-gjq-9250-1.jpg",
-      "https://resim.epey.com/992049/z_grundig-madrid-50-gjq-9250-8690842763144-4.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 17,
@@ -72580,10 +72295,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Grundig 55 GHQ 9500 55\" 4K Ultra HD Smart QLED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/grundig-55-ghq-9500-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/grundig-55-ghq-9500-1.jpg",
-      "https://resim.epey.com/919228/z_grundig-55-ghq-9500-10.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 26,
@@ -72677,10 +72391,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Grundig 75 GJU 8500 A 75\" 4K Ultra HD Smart LED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/grundig-75-gju-8500-a-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/grundig-75-gju-8500-a-1.jpg",
-      "https://resim.epey.com/992140/z_grundig-43gju8500b-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 20,
@@ -72771,10 +72484,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Grundig 75 GKU 750 75\" 4K Ultra HD Smart LED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/grundig-75-gku-750-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/grundig-75-gku-750-1.jpg",
-      "https://resim.epey.com/1032650/z_grundig-75-gku-750a-8690842802416-9.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 18,
@@ -72865,10 +72577,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Grundig 75 GKU 700 75\" 4K Ultra HD Smart LED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/grundig-75-gku-700-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/grundig-75-gku-700-1.jpg",
-      "https://resim.epey.com/1030108/z_grundig-65-gku-700-9.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 14,
@@ -72959,10 +72670,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Grundig Madrid 65 GHQ 9250 65\" 4K Ultra HD Smart QLED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/grundig-madrid-65-ghq-9250-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/grundig-madrid-65-ghq-9250-1.jpg",
-      "https://resim.epey.com/939149/z_grundig-65-ghq-9250-9.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 22,
@@ -73054,10 +72764,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Grundig Monaco 55 GHQ 9550A 55\" 4K Ultra HD Smart QLED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/grundig-monaco-55-ghq-9550a-1.png",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/grundig-monaco-55-ghq-9550a-1.png",
-      "https://resim.epey.com/946896/z_grundig-monaco-55-ghq-9550a-1.png"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 20,
@@ -73151,10 +72860,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Grundig 65 GHQ 9200 65\" 4K Ultra HD Smart QLED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/grundig-65-ghq-9200-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/grundig-65-ghq-9200-1.jpg",
-      "https://resim.epey.com/939555/z_grundig-55ghq9200-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 16,
@@ -73246,10 +72954,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Grundig 55 GQ 700A 55\" 4K Ultra HD Smart QLED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/grundig-55-gq-700a-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/grundig-55-gq-700a-1.jpg",
-      "https://resim.epey.com/1034288/z_grundig-55-gq-700a-8690842825415-8.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 24,
@@ -73340,10 +73047,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Grundig 55 GQ 750A 55\" 4K Ultra HD Smart QLED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/grundig-55-gq-750a-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/grundig-55-gq-750a-1.jpg",
-      "https://resim.epey.com/1033695/z_grundig-55gq750a-8690842824067-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 38,
@@ -73434,10 +73140,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Grundig 55 GJQ 9200 A 55\" 4K Ultra HD Smart QLED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/grundig-55-gjq-9200-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/grundig-55-gjq-9200-1.jpg",
-      "https://resim.epey.com/990731/z_grundig-50gjq9200-8690842762741-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 19,
@@ -73529,10 +73234,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Grundig Rio 65 GJU 8900S 65\" 4K Ultra HD Smart LED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/grundig-rio-65-gju-8900s-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/grundig-rio-65-gju-8900s-1.jpg",
-      "https://resim.epey.com/991311/z_grundig-rio-65-gju-8900s-9.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 18,
@@ -73623,10 +73327,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Grundig 65 GJU 7100 65\" 4K Ultra HD Smart LED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/grundig-65-gju-7100-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/grundig-65-gju-7100-1.jpg",
-      "https://resim.epey.com/1014142/z_grundig-55-gju-7100-9.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 22,
@@ -73717,10 +73420,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Grundig 75 GJU 8000 75\" 4K Ultra HD Smart LED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/grundig-75-gju-8000-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/grundig-75-gju-8000-1.jpg",
-      "https://resim.epey.com/991712/z_grundig-50-gju-8000-8690842758591-8.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 15,
@@ -73811,10 +73513,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Grundig 65 GKU 700 65\" 4K Ultra HD Smart LED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/grundig-65-gku-700-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/grundig-65-gku-700-1.jpg",
-      "https://resim.epey.com/1030773/z_grundig-65-gku-700-9.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 21,
@@ -73905,10 +73606,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Grundig Madrid 55 GJQ 9250 55\" 4K Ultra HD Smart QLED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/grundig-madrid-55-gjq-9250-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/grundig-madrid-55-gjq-9250-1.jpg",
-      "https://resim.epey.com/992087/z_grundig-madrid-55-gjq-9250-8690842763144-4.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 16,
@@ -74000,10 +73700,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Grundig Madrid 55 GHQ 9250 55\" 4K Ultra HD Smart QLED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/grundig-madrid-55-ghq-9250-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/grundig-madrid-55-ghq-9250-1.jpg",
-      "https://resim.epey.com/939150/z_grundig-65-ghq-9250-9.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 20,
@@ -74095,10 +73794,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Grundig 55 GHQ 9100 55\" 4K Ultra HD Smart QLED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/grundig-55-ghq-9100-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/grundig-55-ghq-9100-1.jpg",
-      "https://resim.epey.com/941398/z_grundig-55-ghq-9100-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 15,
@@ -74190,10 +73888,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Grundig 50 GQ 700A 50\" 4K Ultra HD Smart QLED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/grundig-50-gq-700a-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/grundig-50-gq-700a-1.jpg",
-      "https://resim.epey.com/1034951/z_grundig-55-gq-700a-8690842825415-8.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 17,
@@ -74284,10 +73981,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Grundig 50 GQ 750A 50\" 4K Ultra HD Smart QLED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/grundig-50-gq-750a-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/grundig-50-gq-750a-1.jpg",
-      "https://resim.epey.com/1033698/z_grundig-55gq750a-8690842824067-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 35,
@@ -74378,10 +74074,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Grundig 65 GJU 7505 B 65\" 4K Ultra HD Smart LED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/grundig-65-gju-7505-b-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/grundig-65-gju-7505-b-1.jpg",
-      "https://resim.epey.com/1017514/z_grundig-50-gju-7500-b-10.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 16,
@@ -74472,10 +74167,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Grundig 65 GKU 750 65\" 4K Ultra HD Smart LED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/grundig-65-gku-750-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/grundig-65-gku-750-1.jpg",
-      "https://resim.epey.com/1030111/z_grundig-50gku750-8690842802447-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 28,
@@ -74566,10 +74260,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Grundig 55 GJQ 9100 55\" 4K Ultra HD Smart QLED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/grundig-55-gjq-9100-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/grundig-55-gjq-9100-1.jpg",
-      "https://resim.epey.com/995326/z_grundig-55-gjq-9100-8690842762642-9.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 18,
@@ -74661,10 +74354,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Grundig Tokyo 65 GJU 7900G 65\" 4K Ultra HD Smart LED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/grundig-tokyo-65-gju-7900g-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/grundig-tokyo-65-gju-7900g-1.jpg",
-      "https://resim.epey.com/992086/z_grundig-tokyo-55-gju-7900g-2.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 24,
@@ -74755,10 +74447,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Grundig 55 GHQ 9200 55\" 4K Ultra HD Smart QLED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/grundig-55-ghq-9200-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/grundig-55-ghq-9200-1.jpg",
-      "https://resim.epey.com/938964/z_grundig-55ghq9200-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 20,
@@ -74850,10 +74541,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Grundig Madrid 50 GJQ 9250 50\" 4K Ultra HD Smart QLED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/grundig-madrid-50-gjq-9250-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/grundig-madrid-50-gjq-9250-1.jpg",
-      "https://resim.epey.com/992112/z_grundig-madrid-50-gjq-9250-8690842763144-4.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 22,
@@ -74945,10 +74635,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Grundig 43 GJQ 9200 A 43\" 4K Ultra HD Smart QLED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/grundig-43-gjq-9200-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/grundig-43-gjq-9200-1.jpg",
-      "https://resim.epey.com/992141/z_grundig-50gjq9200-8690842762741-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 30,
@@ -75040,10 +74729,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Grundig 65 GJU 7000 B 65\" 4K Ultra HD Smart LED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/grundig-65-gju-7000-b-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/grundig-65-gju-7000-b-1.jpg",
-      "https://resim.epey.com/991598/z_grundig-50-gju-7000-b-8690842762918-9.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 16,
@@ -75134,10 +74822,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Grundig Rio 55 GJU 8900S 55\" 4K Ultra HD Smart LED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/grundig-rio-55-gju-8900s-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/grundig-rio-55-gju-8900s-1.jpg",
-      "https://resim.epey.com/991309/z_grundig-rio-55-gju-8900s-9.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 22,
@@ -75228,10 +74915,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Grundig 55 GJU 7100 55\" 4K Ultra HD Smart LED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/grundig-55-gju-7100-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/grundig-55-gju-7100-1.jpg",
-      "https://resim.epey.com/1014143/z_grundig-55-gju-7100-9.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 33,
@@ -75322,10 +75008,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Grundig 65 GJU 8000 65\" 4K Ultra HD Smart LED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/grundig-65-gju-8000-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/grundig-65-gju-8000-1.jpg",
-      "https://resim.epey.com/991711/z_grundig-50-gju-8000-8690842758591-8.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 14,
@@ -75416,10 +75101,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Grundig 55 GKU 700 55\" 4K Ultra HD Smart LED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/grundig-55-gku-700-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/grundig-55-gku-700-1.jpg",
-      "https://resim.epey.com/1030792/z_grundig-55-gku-700-9.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 30,
@@ -75510,10 +75194,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Grundig 55 GJU 8500 A 55\" 4K Ultra HD Smart LED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/grundig-55-gju-8500-a-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/grundig-55-gju-8500-a-1.jpg",
-      "https://resim.epey.com/992089/z_grundig-43gju8500b-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 26,
@@ -75604,10 +75287,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Grundig 55 GKU 750 55\" 4K Ultra HD Smart LED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/grundig-55-gku-750-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/grundig-55-gku-750-1.jpg",
-      "https://resim.epey.com/1033697/z_grundig-50gku750-8690842802447-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 29,
@@ -75698,10 +75380,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Grundig Tokyo 55 GJU 7900G 55\" 4K Ultra HD Smart LED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/grundig-tokyo-55-gju-7900g-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/grundig-tokyo-55-gju-7900g-1.jpg",
-      "https://resim.epey.com/997056/z_grundig-tokyo-55-gju-7900g-2.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 21,
@@ -75792,10 +75473,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Grundig Rio 50 GJU 8900S 50\" 4K Ultra HD Smart LED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/grundig-rio-50-gju-8900s-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/grundig-rio-50-gju-8900s-1.jpg",
-      "https://resim.epey.com/990735/z_grundig-50-gju-8900s-8690842762680-9.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 20,
@@ -75886,10 +75566,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Beko Atlanta 55 GGU 8965 BE 55\" 4K Ultra HD Smart LED TV",
     "brand": "Beko",
     "category": "tvs",
-    "image": "/images/products/tvs/beko-atlanta-55-ggu-8965-be-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/beko-atlanta-55-ggu-8965-be-1.jpg",
-      "https://resim.epey.com/922761/z_grundig-55-ggu-8965-b-9.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 23,
@@ -75980,10 +75659,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Grundig 50 GKU 700 50\" 4K Ultra HD Smart LED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/grundig-50-gku-700-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/grundig-50-gku-700-1.jpg",
-      "https://resim.epey.com/1030793/z_grundig-50-gku-700-9.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 25,
@@ -76074,10 +75752,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Grundig 50 GJU 8500 A 50\" 4K Ultra HD Smart LED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/grundig-50-gju-8500-a-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/grundig-50-gju-8500-a-1.jpg",
-      "https://resim.epey.com/992091/z_grundig-43gju8500b-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 21,
@@ -76168,10 +75845,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Grundig 50 GKU 750 50\" 4K Ultra HD Smart LED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/grundig-50-gku-750-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/grundig-50-gku-750-1.jpg",
-      "https://resim.epey.com/1030116/z_grundig-50gku750-8690842802447-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 28,
@@ -76262,10 +75938,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Grundig 55 GJU 7000 B 55\" 4K Ultra HD Smart LED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/grundig-55-gju-7000-b-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/grundig-55-gju-7000-b-1.jpg",
-      "https://resim.epey.com/990525/z_grundig-50-gju-7000-b-8690842762918-9.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 22,
@@ -76356,10 +76031,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Grundig 50 GJU 7500 B 50\" 4K Ultra HD Smart LED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/grundig-50-gju-7500-b-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/grundig-50-gju-7500-b-1.jpg",
-      "https://resim.epey.com/992092/z_grundig-50-gju-7500-b-10.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 20,
@@ -76450,10 +76124,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Grundig 43 GJU 8500 A 43\" 4K Ultra HD Smart LED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/grundig-43-gju-8500-a-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/grundig-43-gju-8500-a-1.jpg",
-      "https://resim.epey.com/993794/z_grundig-43gju8500b-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 26,
@@ -76544,10 +76217,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Grundig Munich 43 GJF 6900 B 43\" Full HD Smart LED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/grundig-munich-43-gjf-6900-b-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/grundig-munich-43-gjf-6900-b-1.jpg",
-      "https://resim.epey.com/988995/z_grundig-munich-43-gjf-6900-b-9.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.5,
     "reviewCount": 22,
@@ -76635,10 +76307,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Grundig 43 GKF 6500 43\" Full HD Smart LED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/grundig-43-gkf-6500-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/grundig-43-gkf-6500-1.jpg",
-      "https://resim.epey.com/1047582/z_grundig-43-gkf-6500-8690842803154-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.5,
     "reviewCount": 31,
@@ -76726,10 +76397,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Grundig Toronto 32 GIH 6900 32\" HD Ready Smart LED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/grundig-toronto-32-gih-6900-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/grundig-toronto-32-gih-6900-1.jpg",
-      "https://resim.epey.com/951142/z_grundig-toronto-32-gih-6900-8.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.4,
     "reviewCount": 19,
@@ -76817,10 +76487,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Grundig 40 GJF 6000 B 40\" Full HD Smart LED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/grundig-40-gjf-6000-b-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/grundig-40-gjf-6000-b-1.jpg",
-      "https://resim.epey.com/1004783/z_grundig-40-gjf-6000-b-2.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.4,
     "reviewCount": 22,
@@ -76908,10 +76577,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Grundig 40 GKF 6500 40\" Full HD Smart LED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/grundig-40-gkf-6500-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/grundig-40-gkf-6500-1.jpg",
-      "https://resim.epey.com/1047583/z_grundig-40gkf6500-8690842803062-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.5,
     "reviewCount": 35,
@@ -76999,10 +76667,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Grundig 32 GIH 6000 B 32\" HD Ready Smart LED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/grundig-32-gih-6000-b-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/grundig-32-gih-6000-b-1.jpg",
-      "https://resim.epey.com/1008521/z_grundig-32-gih-6500-b-2.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.3,
     "reviewCount": 20,
@@ -77090,10 +76757,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Grundig 32 GKH 6500 32\" HD Ready Smart LED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/grundig-32-gkh-6500-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/grundig-32-gkh-6500-1.jpg",
-      "https://resim.epey.com/1047584/z_grundig-32gkh6500-8690842802997-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.4,
     "reviewCount": 38,
@@ -77181,10 +76847,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Grundig 65 GHO 9700 65\" 4K Ultra HD Smart OLED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/grundig-65-gho-9700-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/grundig-65-gho-9700-1.jpg",
-      "https://resim.epey.com/923160/z_grundig-65-gho-9700-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 16,
@@ -77279,10 +76944,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Grundig 55 GHO 9900 55\" 4K Ultra HD Smart OLED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/grundig-55-gho-9900-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/grundig-55-gho-9900-1.jpg",
-      "https://resim.epey.com/929776/z_grundig-55-gho-9900-9.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 22,
@@ -77376,10 +77040,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Grundig 55 GHO 9700 55\" 4K Ultra HD Smart OLED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/grundig-55-gho-9700-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/grundig-55-gho-9700-1.jpg",
-      "https://resim.epey.com/922597/z_grundig-55-gho-9700-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 18,
@@ -77473,10 +77136,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Grundig 75 GJQ 9100 75\" 4K Ultra HD Smart QLED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/grundig-75-gjq-9100-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/grundig-75-gjq-9100-1.jpg",
-      "https://resim.epey.com/997124/z_grundig-55-gjq-9100-8690842762642-9.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 15,
@@ -77568,10 +77230,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Grundig 65 GHQ 9100 65\" 4K Ultra HD Smart QLED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/grundig-65-ghq-9100-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/grundig-65-ghq-9100-1.jpg",
-      "https://resim.epey.com/941397/z_grundig-55-ghq-9100-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 20,
@@ -77663,10 +77324,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Grundig 75 GJU 7505 B 75\" 4K Ultra HD Smart LED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/grundig-75-gju-7505-b-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/grundig-75-gju-7505-b-1.jpg",
-      "https://resim.epey.com/1023499/z_grundig-50-gju-7500-b-10.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 16,
@@ -77757,10 +77417,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Grundig Tokyo 75 GJU 7900G 75\" 4K Ultra HD Smart LED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/grundig-tokyo-75-gju-7900g-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/grundig-tokyo-75-gju-7900g-1.jpg",
-      "https://resim.epey.com/1009399/z_grundig-tokyo-55-gju-7900g-2.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 18,
@@ -77851,10 +77510,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Grundig 65 GJQ 9100 65\" 4K Ultra HD Smart QLED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/grundig-65-gjq-9100-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/grundig-65-gjq-9100-1.jpg",
-      "https://resim.epey.com/992048/z_grundig-55-gjq-9100-8690842762642-9.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 17,
@@ -77946,10 +77604,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Grundig 75 GJU 7500 B 75\" 4K Ultra HD Smart LED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/grundig-75-gju-7500-b-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/grundig-75-gju-7500-b-1.jpg",
-      "https://resim.epey.com/992046/z_grundig-50-gju-7500-b-10.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 15,
@@ -78040,10 +77697,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Grundig 75 GJU 7000 B 75\" 4K Ultra HD Smart LED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/grundig-75-gju-7000-b-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/grundig-75-gju-7000-b-1.jpg",
-      "https://resim.epey.com/991600/z_grundig-50-gju-7000-b-8690842762918-9.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 14,
@@ -78134,10 +77790,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Grundig 50 GJQ 9200 A 50\" 4K Ultra HD Smart QLED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/grundig-50-gjq-9200-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/grundig-50-gjq-9200-1.jpg",
-      "https://resim.epey.com/990734/z_grundig-50gjq9200-8690842762741-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 24,
@@ -78229,10 +77884,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Grundig 65 GJU 8500 A 65\" 4K Ultra HD Smart LED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/grundig-65-gju-8500-a-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/grundig-65-gju-8500-a-1.jpg",
-      "https://resim.epey.com/992050/z_grundig-43gju8500b-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 22,
@@ -78323,10 +77977,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Grundig 50 GJQ 9100 50\" 4K Ultra HD Smart QLED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/grundig-50-gjq-9100-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/grundig-50-gjq-9100-1.jpg",
-      "https://resim.epey.com/1001317/z_grundig-55-gjq-9100-8690842762642-9.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 20,
@@ -78418,10 +78071,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Grundig 65 GJU 7500 B 65\" 4K Ultra HD Smart LED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/grundig-65-gju-7500-b-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/grundig-65-gju-7500-b-1.jpg",
-      "https://resim.epey.com/993792/z_grundig-50-gju-7500-b-10.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 16,
@@ -78512,10 +78164,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Grundig 50 GJO 9100 50\" 4K Ultra HD Smart QLED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/grundig-50-gjo-9100-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/grundig-50-gjo-9100-1.jpg",
-      "https://resim.epey.com/1011812/z_grundig-55-gjq-9100-8690842762642-9.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 15,
@@ -78607,10 +78258,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Grundig 55 GJU 7505 B 55\" 4K Ultra HD Smart LED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/grundig-55-gju-7505-b-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/grundig-55-gju-7505-b-1.jpg",
-      "https://resim.epey.com/1057741/z_grundig-50-gju-7500-b-10.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 18,
@@ -78701,10 +78351,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Grundig 43 GJQ 9100 43\" 4K Ultra HD Smart QLED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/grundig-43-gjq-9100-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/grundig-43-gjq-9100-1.jpg",
-      "https://resim.epey.com/995329/z_grundig-55-gjq-9100-8690842762642-9.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 22,
@@ -78796,10 +78445,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Grundig Tokyo 50 GJU 7900G 50\" 4K Ultra HD Smart LED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/grundig-tokyo-50-gju-7900g-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/grundig-tokyo-50-gju-7900g-1.jpg",
-      "https://resim.epey.com/992093/z_grundig-tokyo-55-gju-7900g-2.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 19,
@@ -78890,10 +78538,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Grundig 55 GJU 7500 B 55\" 4K Ultra HD Smart LED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/grundig-55-gju-7500-b-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/grundig-55-gju-7500-b-1.jpg",
-      "https://resim.epey.com/1001313/z_grundig-55gju-7500-b-8690842762994-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 25,
@@ -78984,10 +78631,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Grundig 55 GJU 8000 55\" 4K Ultra HD Smart LED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/grundig-55-gju-8000-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/grundig-55-gju-8000-1.jpg",
-      "https://resim.epey.com/990522/z_grundig-50-gju-8000-8690842758591-8.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 16,
@@ -79078,10 +78724,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Grundig 50 GJU 7000 B 50\" 4K Ultra HD Smart LED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/grundig-50-gju-7000-b-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/grundig-50-gju-7000-b-1.jpg",
-      "https://resim.epey.com/990528/z_grundig-50-gju-7000-b-8690842762918-9.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.5,
     "reviewCount": 20,
@@ -79172,10 +78817,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Grundig 50 GJU 8000 50\" 4K Ultra HD Smart LED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/grundig-50-gju-8000-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/grundig-50-gju-8000-1.jpg",
-      "https://resim.epey.com/990526/z_grundig-50-gju-8000-8690842758591-8.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.5,
     "reviewCount": 18,
@@ -79266,10 +78910,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Grundig 43 GJU 7000 B 43\" 4K Ultra HD Smart LED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/grundig-43-gju-7000-b-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/grundig-43-gju-7000-b-1.jpg",
-      "https://resim.epey.com/995330/z_grundig-50-gju-7000-b-8690842762918-9.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.5,
     "reviewCount": 25,
@@ -79360,10 +79003,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Grundig 43 GJU 7500 B 43\" 4K Ultra HD Smart LED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/grundig-43-gju-7500-b-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/grundig-43-gju-7500-b-1.jpg",
-      "https://resim.epey.com/998803/z_grundig-43-gju-7500-b-8690842762970-10.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.5,
     "reviewCount": 22,
@@ -79454,10 +79096,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Grundig 43 GJF 6000 B 43\" Full HD Smart LED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/grundig-43-gjf-6000-b-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/grundig-43-gjf-6000-b-1.jpg",
-      "https://resim.epey.com/1004784/z_grundig-43-gjf-6000-b-8690842708534-2.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.4,
     "reviewCount": 20,
@@ -79545,10 +79186,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Grundig 43 GJF 6500 B 43\" Full HD Smart LED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/grundig-43-gjf-6500-b-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/grundig-43-gjf-6500-b-1.jpg",
-      "https://resim.epey.com/995331/z_grundig-43-gjf-6500-b-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.4,
     "reviewCount": 18,
@@ -79636,10 +79276,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Grundig 40 GJF 6500 B 40\" Full HD Smart LED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/grundig-40-gjf-6500-b-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/grundig-40-gjf-6500-b-1.jpg",
-      "https://resim.epey.com/1001318/z_grundig-40-gjf-6500-b-8690842708558-4.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.4,
     "reviewCount": 22,
@@ -79727,10 +79366,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Grundig 32 GJH 6000 B 32\" HD Ready Smart LED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/grundig-32-gjh-6000b-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/grundig-32-gjh-6000b-1.jpg",
-      "https://resim.epey.com/1047594/z_grundig-32-gjh-6000b-5.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.3,
     "reviewCount": 19,
@@ -79818,10 +79456,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Grundig Hamburg 32 GIH 5500 32\" HD Ready LED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/grundig-hamburg-32-gih-5500-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/grundig-hamburg-32-gih-5500-1.jpg",
-      "https://resim.epey.com/973813/z_grundig-hamburg-32-gih-5500-7.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.2,
     "reviewCount": 15,
@@ -79909,10 +79546,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Grundig 85 GHU 9001 85\" 4K Ultra HD Smart LED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/grundig-85-ghu-9001-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/grundig-85-ghu-9001-1.jpg",
-      "https://resim.epey.com/943797/z_grundig-85ghu9001-9.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 14,
@@ -80003,10 +79639,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Grundig 98 GHQ 9501 98\" 4K Ultra HD Smart QLED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/grundig-98-ghq-9501-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/grundig-98-ghq-9501-1.jpg",
-      "https://resim.epey.com/936337/z_grundig-98-ghq-9501-9.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.9,
     "reviewCount": 16,
@@ -80101,10 +79736,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Onvo 100VQ90F3UB 100\" 4K Ultra HD Smart QLED Android TV",
     "brand": "Onvo",
     "category": "tvs",
-    "image": "/images/products/tvs/onvo-100vq90f3ub-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/onvo-100vq90f3ub-1.jpg",
-      "https://resim.epey.com/1050092/z_onvo-100vq90f3-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 14,
@@ -80210,10 +79844,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Onvo 85VQ90F2UA 85\" 4K Ultra HD Smart QLED Android TV",
     "brand": "Onvo",
     "category": "tvs",
-    "image": "/images/products/tvs/onvo-85vq90f2ua-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/onvo-85vq90f2ua-1.jpg",
-      "https://resim.epey.com/1054322/z_onvo-85vq90f2ua-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 22,
@@ -80319,10 +79952,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Onvo 85VQ90F3UA 85\" 4K Ultra HD Smart QLED Android TV",
     "brand": "Onvo",
     "category": "tvs",
-    "image": "/images/products/tvs/onvo-85vq90f3ua-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/onvo-85vq90f3ua-1.jpg",
-      "https://resim.epey.com/1043710/z_onvo-85vq90f3ua-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 20,
@@ -80413,10 +80045,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Onvo 75OVF9001UQ 75\" 4K Ultra HD Smart Frameless LED Android TV",
     "brand": "Onvo",
     "category": "tvs",
-    "image": "/images/products/tvs/onvo-75ovf9001uq-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/onvo-75ovf9001uq-1.jpg",
-      "https://resim.epey.com/1020254/z_onvo-75ovf9001uq-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 30,
@@ -80522,10 +80153,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Onvo 75OVF9000UQ 75\" 4K Ultra HD Smart Frameless LED Android TV",
     "brand": "Onvo",
     "category": "tvs",
-    "image": "/images/products/tvs/onvo-75ovf9000uq-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/onvo-75ovf9000uq-1.jpg",
-      "https://resim.epey.com/972435/z_onvo-75ovf9000uq-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 28,
@@ -80616,10 +80246,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Onvo 75VQ90F2UA 75\" 4K Ultra HD Smart QLED Android TV",
     "brand": "Onvo",
     "category": "tvs",
-    "image": "/images/products/tvs/onvo-75vq90f2ua-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/onvo-75vq90f2ua-1.jpg",
-      "https://resim.epey.com/1054324/z_onvo-75vq90f2ua-8682655704285-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 20,
@@ -80710,10 +80339,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Onvo 75VQ90F3UA 75\" 4K Ultra HD Smart QLED Android TV",
     "brand": "Onvo",
     "category": "tvs",
-    "image": "/images/products/tvs/onvo-75vq90f3ua-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/onvo-75vq90f3ua-1.jpg",
-      "https://resim.epey.com/1043362/z_onvo-75vq90f3ua-3.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 35,
@@ -80819,10 +80447,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Onvo 70OVF9000UQ 70\" 4K Ultra HD Smart Frameless LED Android TV",
     "brand": "Onvo",
     "category": "tvs",
-    "image": "/images/products/tvs/onvo-70ovf9000uq-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/onvo-70ovf9000uq-1.jpg",
-      "https://resim.epey.com/977568/z_onvo-70ovf9000uq-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.5,
     "reviewCount": 22,
@@ -80913,10 +80540,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Onvo 70OVF9001UQ 70\" 4K Ultra HD Smart LED Android TV",
     "brand": "Onvo",
     "category": "tvs",
-    "image": "/images/products/tvs/onvo-70ovf9001uq-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/onvo-70ovf9001uq-1.jpg",
-      "https://resim.epey.com/1018012/z_onvo-70ovf9001uq-8682655703516-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.5,
     "reviewCount": 18,
@@ -81007,10 +80633,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Onvo 65VQ90F3UA 65\" 4K Ultra HD Smart QLED Android TV",
     "brand": "Onvo",
     "category": "tvs",
-    "image": "/images/products/tvs/onvo-65vq90f3ua-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/onvo-65vq90f3ua-1.jpg",
-      "https://resim.epey.com/1037841/z_onvo-65vq90f3ua-4.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 42,
@@ -81116,10 +80741,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Onvo 65OVF9250UQ 65\" 4K Ultra HD Smart Frameless LED Android TV",
     "brand": "Onvo",
     "category": "tvs",
-    "image": "/images/products/tvs/onvo-65ovf9250uq-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/onvo-65ovf9250uq-1.jpg",
-      "https://resim.epey.com/1019522/z_onvo-65ovf9250uq-8682655703806-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.5,
     "reviewCount": 26,
@@ -81210,10 +80834,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Onvo 65OVF9000UQ 65\" 4K Ultra HD Smart Frameless LED Android TV",
     "brand": "Onvo",
     "category": "tvs",
-    "image": "/images/products/tvs/onvo-65ovf9000uq-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/onvo-65ovf9000uq-1.jpg",
-      "https://resim.epey.com/951877/z_onvo-65ovf9000uq-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.5,
     "reviewCount": 30,
@@ -81304,10 +80927,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Onvo 65OVF9001UQ 65\" 4K Ultra HD Smart Frameless LED Android TV",
     "brand": "Onvo",
     "category": "tvs",
-    "image": "/images/products/tvs/onvo-65ovf9001uq-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/onvo-65ovf9001uq-1.jpg",
-      "https://resim.epey.com/992090/z_onvo-65ovf9001uq-8682655702946-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.5,
     "reviewCount": 28,
@@ -81398,10 +81020,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Onvo 65OVF5000AQ 65\" 4K Ultra HD Smart LED Android TV",
     "brand": "Onvo",
     "category": "tvs",
-    "image": "/images/products/tvs/onvo-65ovf5000aq-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/onvo-65ovf5000aq-1.jpg",
-      "https://resim.epey.com/1009402/z_onvo-65ovf5000aq-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.4,
     "reviewCount": 16,
@@ -81492,10 +81113,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Onvo 65OV9000U 65\" 4K Ultra HD Smart LED Android TV",
     "brand": "Onvo",
     "category": "tvs",
-    "image": "/images/products/tvs/onvo-65ov9000u-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/onvo-65ov9000u-1.jpg",
-      "https://resim.epey.com/945294/z_onvo-65ov9000u-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.4,
     "reviewCount": 22,
@@ -81586,10 +81206,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Onvo 55VQ90F3UA 55\" 4K Ultra HD Smart QLED Android TV",
     "brand": "Onvo",
     "category": "tvs",
-    "image": "/images/products/tvs/onvo-55vq90f3ua-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/onvo-55vq90f3ua-1.jpg",
-      "https://resim.epey.com/1037845/z_onvo-55vq90f3ua-4.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 45,
@@ -81695,10 +81314,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Onvo 55OVF9250UQ 55\" 4K Ultra HD Smart Frameless LED Android TV",
     "brand": "Onvo",
     "category": "tvs",
-    "image": "/images/products/tvs/onvo-55ovf9250uq-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/onvo-55ovf9250uq-1.jpg",
-      "https://resim.epey.com/1017044/z_onvo-55ovf9250uq-8682655703508-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.5,
     "reviewCount": 30,
@@ -81789,10 +81407,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Onvo 55OVF9001UQ 55\" 4K Ultra HD Smart Frameless LED Android TV",
     "brand": "Onvo",
     "category": "tvs",
-    "image": "/images/products/tvs/onvo-55ovf9001uq-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/onvo-55ovf9001uq-1.jpg",
-      "https://resim.epey.com/986453/z_onvo-55ovf9001uq-8682655702861-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.5,
     "reviewCount": 28,
@@ -81883,10 +81500,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Onvo 55OVF9000UQ 55\" 4K Ultra HD Smart Frameless LED Android TV",
     "brand": "Onvo",
     "category": "tvs",
-    "image": "/images/products/tvs/onvo-55ovf9000uq-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/onvo-55ovf9000uq-1.jpg",
-      "https://resim.epey.com/955589/z_onvo-55ovf9000-8682655702649-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.5,
     "reviewCount": 32,
@@ -81977,10 +81593,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Onvo 55OVF5000AQ 55\" 4K Ultra HD Smart LED Android TV",
     "brand": "Onvo",
     "category": "tvs",
-    "image": "/images/products/tvs/onvo-55ovf5000aq-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/onvo-55ovf5000aq-1.jpg",
-      "https://resim.epey.com/1006553/z_onvo-55ovf5000aq-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.4,
     "reviewCount": 18,
@@ -82071,10 +81686,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Onvo 50VQ90F3UA 50\" 4K Ultra HD Smart QLED Android TV",
     "brand": "Onvo",
     "category": "tvs",
-    "image": "/images/products/tvs/onvo-50vq90f3ua-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/onvo-50vq90f3ua-1.jpg",
-      "https://resim.epey.com/1040104/z_onvo-50vq90f3ua-2.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 40,
@@ -82180,10 +81794,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Onvo 50OVF9001UQ 50\" 4K Ultra HD Smart Frameless LED Android TV",
     "brand": "Onvo",
     "category": "tvs",
-    "image": "/images/products/tvs/onvo-50ovf9001uq-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/onvo-50ovf9001uq-1.jpg",
-      "https://resim.epey.com/1006554/z_onvo-50ovf9001uq-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.5,
     "reviewCount": 34,
@@ -82274,10 +81887,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Onvo 50OVF9000UQ 50\" 4K Ultra HD Smart Frameless LED Android TV",
     "brand": "Onvo",
     "category": "tvs",
-    "image": "/images/products/tvs/onvo-50ovf9000uq-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/onvo-50ovf9000uq-1.jpg",
-      "https://resim.epey.com/951889/z_onvo-50ovf9000uq-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.5,
     "reviewCount": 30,
@@ -82368,10 +81980,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Onvo 43VQ80F3FA 43\" Full HD Smart LED TV (whaleOS)",
     "brand": "Onvo",
     "category": "tvs",
-    "image": "/images/products/tvs/onvo-43vq80f3fa-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/onvo-43vq80f3fa-1.jpg",
-      "https://resim.epey.com/1059978/z_onvo-43vq80f3fa-8682655704551-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.4,
     "reviewCount": 19,
@@ -82459,10 +82070,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Onvo 50VQ80F2FA 50\" Full HD Smart LED TV (whaleOS)",
     "brand": "Onvo",
     "category": "tvs",
-    "image": "/images/products/tvs/onvo-50vq80f2fa-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/onvo-50vq80f2fa-1.jpg",
-      "https://resim.epey.com/1053003/z_onvo-50vq80f2fa-8682655704278-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.4,
     "reviewCount": 20,
@@ -82565,10 +82175,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Onvo 43VQ80F2FA 43\" Full HD Smart LED TV (whaleOS)",
     "brand": "Onvo",
     "category": "tvs",
-    "image": "/images/products/tvs/onvo-43vq80f2fa-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/onvo-43vq80f2fa-1.jpg",
-      "https://resim.epey.com/1028139/z_onvo-43vq80f2fa-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.4,
     "reviewCount": 24,
@@ -82656,10 +82265,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Onvo 40VQ80F3FA 40\" Full HD Smart LED TV (whaleOS)",
     "brand": "Onvo",
     "category": "tvs",
-    "image": "/images/products/tvs/onvo-40vq80f3fa-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/onvo-40vq80f3fa-1.jpg",
-      "https://resim.epey.com/1065580/z_onvo-40vq80f3fa-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.4,
     "reviewCount": 18,
@@ -82747,10 +82355,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Onvo 40VQ80F2FA 40\" Full HD Smart LED TV (whaleOS)",
     "brand": "Onvo",
     "category": "tvs",
-    "image": "/images/products/tvs/onvo-40vq80f2fa-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/onvo-40vq80f2fa-1.jpg",
-      "https://resim.epey.com/1034342/z_onvo-40vq80f2fa-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.4,
     "reviewCount": 22,
@@ -82838,10 +82445,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Onvo 32VQ80F2HA 32\" HD Ready Smart LED TV (whaleOS)",
     "brand": "Onvo",
     "category": "tvs",
-    "image": "/images/products/tvs/onvo-32vq80f2ha-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/onvo-32vq80f2ha-1.jpg",
-      "https://resim.epey.com/1042219/z_onvo-32vq80f2ha-8682655704124-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.3,
     "reviewCount": 35,
@@ -82944,10 +82550,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Onvo 32VQ80F3HA 32\" HD Ready Smart LED TV (whaleOS)",
     "brand": "Onvo",
     "category": "tvs",
-    "image": "/images/products/tvs/onvo-32vq80f3ha-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/onvo-32vq80f3ha-1.jpg",
-      "https://resim.epey.com/1064990/z_onvo-32vq80f3ha-2.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.3,
     "reviewCount": 20,
@@ -83035,10 +82640,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Onvo 43VL80F3FA 43\" Full HD Smart LED TV (whaleOS)",
     "brand": "Onvo",
     "category": "tvs",
-    "image": "/images/products/tvs/onvo-43vl80f3fa-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/onvo-43vl80f3fa-1.jpg",
-      "https://resim.epey.com/1030122/z_onvo-43vl80f3fa-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.3,
     "reviewCount": 16,
@@ -83126,10 +82730,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Onvo 40VL80F2FA 40\" Full HD Smart LED TV (whaleOS)",
     "brand": "Onvo",
     "category": "tvs",
-    "image": "/images/products/tvs/onvo-40vl80f2fa-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/onvo-40vl80f2fa-1.jpg",
-      "https://resim.epey.com/1028140/z_onvo-40vl80f2fa-8682655703776-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.3,
     "reviewCount": 19,
@@ -83217,10 +82820,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Onvo 32OVPROHF9000H 32\" HD Ready Smart Android TV",
     "brand": "Onvo",
     "category": "tvs",
-    "image": "/images/products/tvs/onvo-32ovprohf9000h-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/onvo-32ovprohf9000h-1.jpg",
-      "https://resim.epey.com/1017042/z_onvo-32ovprohf9000h-8682655703288-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.4,
     "reviewCount": 14,
@@ -83310,10 +82912,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Onvo 40OVF4000AF 40\" Full HD Smart Android TV",
     "brand": "Onvo",
     "category": "tvs",
-    "image": "/images/products/tvs/onvo-40ovf4000af-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/onvo-40ovf4000af-1.jpg",
-      "https://resim.epey.com/1007582/z_onvo-40ovf4000af-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.3,
     "reviewCount": 17,
@@ -83401,10 +83002,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Onvo 32VL80F2HA 32\" HD Ready Smart LED TV (whaleOS)",
     "brand": "Onvo",
     "category": "tvs",
-    "image": "/images/products/tvs/onvo-32vl80f2ha-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/onvo-32vl80f2ha-1.jpg",
-      "https://resim.epey.com/1028142/z_onvo-32vl80f2ha-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.3,
     "reviewCount": 22,
@@ -83492,10 +83092,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Onvo 40OVF6000F 40\" Full HD Smart Android TV",
     "brand": "Onvo",
     "category": "tvs",
-    "image": "/images/products/tvs/onvo-40ovf6000f-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/onvo-40ovf6000f-1.jpg",
-      "https://resim.epey.com/1023090/z_onvo-40ovf6000f-8682655704001-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.3,
     "reviewCount": 15,
@@ -83583,10 +83182,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Onvo 32VL80F3HA 32\" HD Ready Smart LED TV (whaleOS)",
     "brand": "Onvo",
     "category": "tvs",
-    "image": "/images/products/tvs/onvo-32vl80f3ha-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/onvo-32vl80f3ha-1.jpg",
-      "https://resim.epey.com/1034343/z_onvo-32vl80f3ha-8682655703813-2.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.3,
     "reviewCount": 16,
@@ -83674,10 +83272,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Onvo 32OV6001H 32\" HD Ready Smart Android TV",
     "brand": "Onvo",
     "category": "tvs",
-    "image": "/images/products/tvs/onvo-32ov6001h-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/onvo-32ov6001h-1.jpg",
-      "https://resim.epey.com/965031/z_onvo-32ov6001h-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.3,
     "reviewCount": 25,
@@ -83765,10 +83362,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Onvo 24VL80F2HA 24\" HD Ready Smart LED TV (whaleOS)",
     "brand": "Onvo",
     "category": "tvs",
-    "image": "/images/products/tvs/onvo-24vl80f2ha-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/onvo-24vl80f2ha-1.jpg",
-      "https://resim.epey.com/1057750/z_onvo-24vl80f2ha-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.2,
     "reviewCount": 18,
@@ -83856,10 +83452,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Onvo 24OVF6001H 24\" HD Ready Smart Android TV",
     "brand": "Onvo",
     "category": "tvs",
-    "image": "/images/products/tvs/onvo-24ovf6001h-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/onvo-24ovf6001h-1.jpg",
-      "https://resim.epey.com/1010276/z_onvo-24ovf6001h-8682655703691-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.2,
     "reviewCount": 20,
@@ -83947,10 +83542,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Onvo 32OVM6500X 32\" Full HD Smart Android Taşınabilir Stand TV",
     "brand": "Onvo",
     "category": "tvs",
-    "image": "/images/products/tvs/onvo-32ovm6500x-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/onvo-32ovm6500x-1.jpg",
-      "https://resim.epey.com/1045849/z_onvo-32ovm6500x-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 30,
@@ -84055,10 +83649,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Onvo 32OVF4000AH 32\" HD Ready Smart Android TV",
     "brand": "Onvo",
     "category": "tvs",
-    "image": "/images/products/tvs/onvo-32ovf4000ah-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/onvo-32ovf4000ah-1.jpg",
-      "https://resim.epey.com/1009405/z_onvo-32ovf4000ah-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.2,
     "reviewCount": 16,
@@ -84146,10 +83739,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Onvo 100OVF9001UQ 100\" 4K Ultra HD Smart Frameless LED Android TV",
     "brand": "Onvo",
     "category": "tvs",
-    "image": "/images/products/tvs/onvo-100ovf9001uq-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/onvo-100ovf9001uq-1.jpg",
-      "https://resim.epey.com/1005549/z_onvo-100ovf9001uq-2.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 15,
@@ -84240,10 +83832,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Onvo 100OVF9000UQ 100\" 4K Ultra HD Smart Frameless LED Android TV",
     "brand": "Onvo",
     "category": "tvs",
-    "image": "/images/products/tvs/onvo-100ovf9000uq-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/onvo-100ovf9000uq-1.jpg",
-      "https://resim.epey.com/966305/z_onvo-100ovf9000-8682655702878-1.png"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 12,
@@ -84334,10 +83925,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Onvo 85OVF9001UQ 85\" 4K Ultra HD Smart Frameless LED Android TV",
     "brand": "Onvo",
     "category": "tvs",
-    "image": "/images/products/tvs/onvo-85ovf9001uq-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/onvo-85ovf9001uq-1.jpg",
-      "https://resim.epey.com/1024707/z_onvo-85ovf9001uq-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 22,
@@ -84428,10 +84018,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Onvo 85OVF9000UQ 85\" 4K Ultra HD Smart Frameless LED Android TV",
     "brand": "Onvo",
     "category": "tvs",
-    "image": "/images/products/tvs/onvo-85ovf9000uq-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/onvo-85ovf9000uq-1.jpg",
-      "https://resim.epey.com/992045/z_onvo-85ovf9000uq-8682655703257-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 20,
@@ -84522,10 +84111,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Onvo 85OVF9000U 85\" 4K Ultra HD Smart LED Android TV",
     "brand": "Onvo",
     "category": "tvs",
-    "image": "/images/products/tvs/onvo-85ovf9000u-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/onvo-85ovf9000u-1.jpg",
-      "https://resim.epey.com/937804/z_onvo-85ovf9000u-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.5,
     "reviewCount": 18,
@@ -84616,10 +84204,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Onvo 55VL90N4UA 55\" 4K Ultra HD Smart LED Android TV",
     "brand": "Onvo",
     "category": "tvs",
-    "image": "/images/products/tvs/onvo-55vl90n4ua-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/onvo-55vl90n4ua-1.jpg",
-      "https://resim.epey.com/1048880/z_onvo-55vl90n4ua-8682655704087-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.5,
     "reviewCount": 22,
@@ -84710,10 +84297,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Onvo 43OVF9000FQ 43\" Full HD Smart Frameless LED Android TV",
     "brand": "Onvo",
     "category": "tvs",
-    "image": "/images/products/tvs/onvo-43ovf9000fq-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/onvo-43ovf9000fq-1.jpg",
-      "https://resim.epey.com/1028155/z_onvo-43ovf9000fq-8682655703486-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.4,
     "reviewCount": 22,
@@ -84803,10 +84389,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Onvo 43OVF5000AF 43\" Full HD Smart LED Android TV",
     "brand": "Onvo",
     "category": "tvs",
-    "image": "/images/products/tvs/onvo-43ovf5000af-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/onvo-43ovf5000af-1.jpg",
-      "https://resim.epey.com/1010275/z_onvo-43ovf5000af-3.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.3,
     "reviewCount": 20,
@@ -84894,10 +84479,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Onvo 43OVF9000F 43\" Full HD Smart Frameless LED Android TV",
     "brand": "Onvo",
     "category": "tvs",
-    "image": "/images/products/tvs/onvo-43ovf9000f-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/onvo-43ovf9000f-1.jpg",
-      "https://resim.epey.com/959742/z_onvo-43ovf9000f-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.3,
     "reviewCount": 26,
@@ -84985,10 +84569,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Onvo 42OVF9000F 42\" Full HD Smart Frameless LED Android TV",
     "brand": "Onvo",
     "category": "tvs",
-    "image": "/images/products/tvs/onvo-42ovf9000f-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/onvo-42ovf9000f-1.jpg",
-      "https://resim.epey.com/968024/z_onvo-42ovf9000f-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.3,
     "reviewCount": 24,
@@ -85076,10 +84659,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Onvo 43OVF9001F 43\" Full HD Smart Frameless LED Android TV",
     "brand": "Onvo",
     "category": "tvs",
-    "image": "/images/products/tvs/onvo-43ovf9001f-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/onvo-43ovf9001f-1.jpg",
-      "https://resim.epey.com/1010274/z_onvo-43ovf9001f-8682655702960-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.3,
     "reviewCount": 18,
@@ -85167,10 +84749,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Onvo 42OV9000F 42\" Full HD Smart LED Android TV",
     "brand": "Onvo",
     "category": "tvs",
-    "image": "/images/products/tvs/onvo-42ov9000f-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/onvo-42ov9000f-1.jpg",
-      "https://resim.epey.com/945298/z_onvo-42ov9000-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.3,
     "reviewCount": 20,
@@ -85258,10 +84839,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Onvo 43OV4000AF 43\" Full HD Smart Android TV",
     "brand": "Onvo",
     "category": "tvs",
-    "image": "/images/products/tvs/onvo-43ov4000af-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/onvo-43ov4000af-1.jpg",
-      "https://resim.epey.com/1005545/z_onvo-43ov4000af-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.3,
     "reviewCount": 16,
@@ -85349,10 +84929,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Onvo 32OVF9000H 32\" HD Ready Smart Frameless LED Android TV",
     "brand": "Onvo",
     "category": "tvs",
-    "image": "/images/products/tvs/onvo-32ovf9000h-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/onvo-32ovf9000h-1.jpg",
-      "https://resim.epey.com/995333/z_onvo-32ovf9000h-8682655703240-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.3,
     "reviewCount": 22,
@@ -85440,10 +85019,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Onvo 32VL6000H2 32\" HD Ready Smart LED TV (whaleOS)",
     "brand": "Onvo",
     "category": "tvs",
-    "image": "/images/products/tvs/onvo-32vl6000h2-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/onvo-32vl6000h2-1.jpg",
-      "https://resim.epey.com/1030153/z_onvo-32vl6000h2-8682655704162-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.2,
     "reviewCount": 17,
@@ -85531,10 +85109,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Onvo 32OVF6001H 32\" HD Ready Smart LED Android TV",
     "brand": "Onvo",
     "category": "tvs",
-    "image": "/images/products/tvs/onvo-32ovf6001h-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/onvo-32ovf6001h-1.jpg",
-      "https://resim.epey.com/1018638/z_onvo-32ovf6001h-8682655703882-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.2,
     "reviewCount": 20,
@@ -85622,10 +85199,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Onvo 24OVF6000H 24\" HD Ready Smart Android TV",
     "brand": "Onvo",
     "category": "tvs",
-    "image": "/images/products/tvs/onvo-24ovf6000h-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/onvo-24ovf6000h-1.jpg",
-      "https://resim.epey.com/954547/z_onvo-24ovf6000h-8682655702625-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.2,
     "reviewCount": 18,
@@ -85713,10 +85289,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Onvo 24OV6001H 24\" HD Ready Smart Android TV",
     "brand": "Onvo",
     "category": "tvs",
-    "image": "/images/products/tvs/onvo-24ov6001h-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/onvo-24ov6001h-1.jpg",
-      "https://resim.epey.com/999611/z_onvo-24ov6001h-8682655703448-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.2,
     "reviewCount": 16,
@@ -85804,10 +85379,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Onvo 32OVM6000 Slide & Go 32\" Full HD Smart Taşınabilir Stand TV",
     "brand": "Onvo",
     "category": "tvs",
-    "image": "/images/products/tvs/onvo-32ovm6000-slide-go-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/onvo-32ovm6000-slide-go-1.jpg",
-      "https://resim.epey.com/1022605/z_onvo-32ovm6000-slide-go-6.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 28,
@@ -85897,10 +85471,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Onvo 24OV5002H 24\" HD Ready LED TV (Dahili Uydu Alıcılı)",
     "brand": "Onvo",
     "category": "tvs",
-    "image": "/images/products/tvs/onvo-24ov5002h-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/onvo-24ov5002h-1.jpg",
-      "https://resim.epey.com/1001319/z_onvo-24ov5002h-8682655703479-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.1,
     "reviewCount": 15,
@@ -85988,10 +85561,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Onvo 24OV5001H 24\" HD Ready LED TV (Dahili Uydu Alıcılı)",
     "brand": "Onvo",
     "category": "tvs",
-    "image": "/images/products/tvs/onvo-24ov5001h-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/onvo-24ov5001h-1.jpg",
-      "https://resim.epey.com/997060/z_onvo-24ov5001h-8682655702915-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.1,
     "reviewCount": 14,
@@ -86079,10 +85651,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Onvo 24OV5000H 24\" HD Ready LED TV (Dahili Uydu Alıcılı)",
     "brand": "Onvo",
     "category": "tvs",
-    "image": "/images/products/tvs/onvo-24ov5000h-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/onvo-24ov5000h-1.jpg",
-      "https://resim.epey.com/938603/z_onvo-24ov5000h-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.1,
     "reviewCount": 16,
@@ -86170,10 +85741,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Onvo 43OVF5000AQ 43\" Full HD Smart Frameless LED Android TV",
     "brand": "Onvo",
     "category": "tvs",
-    "image": "/images/products/tvs/onvo-43ovf5000aq-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/onvo-43ovf5000aq-1.jpg",
-      "https://resim.epey.com/1020262/z_onvo-43ovf5000aq-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.3,
     "reviewCount": 18,
@@ -86261,10 +85831,9 @@ export const mockTVs: TVProduct[] = [
     "name": "SEG 55SUA740 (20278080) 55\" 4K Ultra HD Smart LED Android TV",
     "brand": "SEG",
     "category": "tvs",
-    "image": "/images/products/tvs/seg-55sua740-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/seg-55sua740-1.jpg",
-      "https://resim.epey.com/935437/z_seg-55sua740-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.4,
     "epeyScore": 56,
@@ -86354,10 +85923,9 @@ export const mockTVs: TVProduct[] = [
     "name": "SEG 32SBH550 (20278321) 32\" HD Ready LED TV (Dahili Uydu Alıcılı)",
     "brand": "SEG",
     "category": "tvs",
-    "image": "/images/products/tvs/seg-32sbh550-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/seg-32sbh550-1.jpg",
-      "https://resim.epey.com/943807/z_seg-32sbh550-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.1,
     "epeyScore": 24,
@@ -86445,10 +86013,9 @@ export const mockTVs: TVProduct[] = [
     "name": "SEG 65SUA740 (20278081) 65\" 4K Ultra HD Smart LED Android TV",
     "brand": "SEG",
     "category": "tvs",
-    "image": "/images/products/tvs/seg-65sua740-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/seg-65sua740-1.jpg",
-      "https://resim.epey.com/933765/z_seg-65sua740-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.5,
     "epeyScore": 59,
@@ -86538,10 +86105,9 @@ export const mockTVs: TVProduct[] = [
     "name": "SEG 50SUA740 50\" 4K Ultra HD Smart LED Android TV",
     "brand": "SEG",
     "category": "tvs",
-    "image": "/images/products/tvs/seg-50sua740-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/seg-50sua740-1.jpg",
-      "https://resim.epey.com/935440/z_seg-50sua740-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.4,
     "epeyScore": 55,
@@ -86631,10 +86197,9 @@ export const mockTVs: TVProduct[] = [
     "name": "SEG 58SBU730 (20276460) 58\" 4K Ultra HD LED TV (Dahili Uydu Alıcılı)",
     "brand": "SEG",
     "category": "tvs",
-    "image": "/images/products/tvs/seg-58sbu730-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/seg-58sbu730-1.jpg",
-      "https://resim.epey.com/938970/z_seg-58sbu725-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.3,
     "epeyScore": 53,
@@ -86724,10 +86289,9 @@ export const mockTVs: TVProduct[] = [
     "name": "SEG 55SRB900 (20300624) 55\" 4K Ultra HD Smart LED TV (TiVo OS)",
     "brand": "SEG",
     "category": "tvs",
-    "image": "/images/products/tvs/seg-55srb900-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/seg-55srb900-1.jpg",
-      "https://resim.epey.com/1026556/z_seg-55srb900-8698902011709-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.3,
     "epeyScore": 51,
@@ -86817,10 +86381,9 @@ export const mockTVs: TVProduct[] = [
     "name": "SEG 50SRB900 (20300702) 50\" 4K Ultra HD Smart LED TV (TiVo OS)",
     "brand": "SEG",
     "category": "tvs",
-    "image": "/images/products/tvs/seg-50srb900-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/seg-50srb900-1.jpg",
-      "https://resim.epey.com/1028138/z_seg-50srb900-8698902013598-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.3,
     "epeyScore": 49,
@@ -86910,10 +86473,9 @@ export const mockTVs: TVProduct[] = [
     "name": "SEG 43SFA750 (20278325) 43\" Full HD Smart LED Android TV",
     "brand": "SEG",
     "category": "tvs",
-    "image": "/images/products/tvs/seg-43sfa750-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/seg-43sfa750-1.jpg",
-      "https://resim.epey.com/925105/z_seg-43sfa750-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.3,
     "epeyScore": 48,
@@ -87001,10 +86563,9 @@ export const mockTVs: TVProduct[] = [
     "name": "SEG 40SFA750 (20278594) 40\" Full HD Smart LED Android TV",
     "brand": "SEG",
     "category": "tvs",
-    "image": "/images/products/tvs/seg-40sfa750-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/seg-40sfa750-1.jpg",
-      "https://resim.epey.com/956501/z_seg-40sfa750-8698902785945-3.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.3,
     "epeyScore": 47,
@@ -87092,10 +86653,9 @@ export const mockTVs: TVProduct[] = [
     "name": "SEG 43SRB900 (20300701) 43\" 4K Ultra HD Smart LED TV (TiVo OS)",
     "brand": "SEG",
     "category": "tvs",
-    "image": "/images/products/tvs/seg-43srb900-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/seg-43srb900-1.jpg",
-      "https://resim.epey.com/1026557/z_seg-43srb900-8698902013581-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.2,
     "epeyScore": 47,
@@ -87185,10 +86745,9 @@ export const mockTVs: TVProduct[] = [
     "name": "SEG 40SRB900 (20279384) 40\" Full HD Smart LED TV (TiVo OS)",
     "brand": "SEG",
     "category": "tvs",
-    "image": "/images/products/tvs/seg-40srb900-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/seg-40srb900-1.jpg",
-      "https://resim.epey.com/992097/z_seg-40srb900-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.2,
     "epeyScore": 43,
@@ -87276,10 +86835,9 @@ export const mockTVs: TVProduct[] = [
     "name": "SEG 32SBA750 (20278323) 32\" HD Ready Smart LED Android TV",
     "brand": "SEG",
     "category": "tvs",
-    "image": "/images/products/tvs/seg-32sba750-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/seg-32sba750-1.jpg",
-      "https://resim.epey.com/943806/z_seg-32sbh550-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.2,
     "epeyScore": 43,
@@ -87367,10 +86925,9 @@ export const mockTVs: TVProduct[] = [
     "name": "SEG 32SRB900 (20279382) 32\" HD Ready Smart LED TV (TiVo OS)",
     "brand": "SEG",
     "category": "tvs",
-    "image": "/images/products/tvs/seg-32srb900-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/seg-32srb900-1.jpg",
-      "https://resim.epey.com/969850/z_seg-32srb900-8698902793827-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.1,
     "epeyScore": 39,
@@ -87458,10 +87015,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Xiaomi TV Max 100 2025 (L100MA-MAXME) 100\" 144Hz 4K Ultra HD Google TV",
     "brand": "Xiaomi",
     "category": "tvs",
-    "image": "/images/products/tvs/xiaomi-tv-max-100-2025-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/xiaomi-tv-max-100-2025-1.jpg",
-      "https://resim.epey.com/1034180/z_xiaomi-tv-max-100-2025-3.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 78,
@@ -87556,10 +87112,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Xiaomi TV S Pro Mini LED 75 (2026) (L75MB-SME) 75\" 144Hz 4K Google TV",
     "brand": "Xiaomi",
     "category": "tvs",
-    "image": "/images/products/tvs/xiaomi-tv-s-pro-mini-led-75-2026-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/xiaomi-tv-s-pro-mini-led-75-2026-1.jpg",
-      "https://resim.epey.com/1034149/z_xiaomi-tv-s-pro-mini-led-75-2026-3.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.9,
     "epeyScore": 76,
@@ -87654,10 +87209,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Xiaomi TV Max 85 2025 (L85MA-MAXME) 85\" 144Hz 4K Ultra HD Google TV",
     "brand": "Xiaomi",
     "category": "tvs",
-    "image": "/images/products/tvs/xiaomi-tv-max-85-2025-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/xiaomi-tv-max-85-2025-1.jpg",
-      "https://resim.epey.com/1034176/z_xiaomi-tv-max-85-2025-3.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 74,
@@ -87765,10 +87319,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Xiaomi TV A Pro 75 2026 (L75MB-APTR) 75\" 4K Ultra HD QLED Google TV",
     "brand": "Xiaomi",
     "category": "tvs",
-    "image": "/images/products/tvs/xiaomi-tv-a-pro-75-2026-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/xiaomi-tv-a-pro-75-2026-1.jpg",
-      "https://resim.epey.com/1034120/z_xiaomi-tv-a-pro-75-2026-2.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 65,
@@ -87875,10 +87428,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Xiaomi TV A Pro 65 2026 (L65MB-APTR) 65\" 4K Ultra HD QLED Google TV",
     "brand": "Xiaomi",
     "category": "tvs",
-    "image": "/images/products/tvs/xiaomi-tv-a-pro-65-2026-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/xiaomi-tv-a-pro-65-2026-1.jpg",
-      "https://resim.epey.com/1034117/z_xiaomi-tv-a-pro-65-2026-2.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 62,
@@ -87984,10 +87536,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Xiaomi TV A Pro 55 2026 (L55MB-APTR) 55\" 4K Ultra HD QLED Google TV",
     "brand": "Xiaomi",
     "category": "tvs",
-    "image": "/images/products/tvs/xiaomi-tv-a-pro-55-2026-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/xiaomi-tv-a-pro-55-2026-1.jpg",
-      "https://resim.epey.com/1034103/z_xiaomi-tv-a-pro-55-2026-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 60,
@@ -88094,10 +87645,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Xiaomi TV A 65 2026 (L65MB-ATR) 65\" 4K Ultra HD Smart Google TV",
     "brand": "Xiaomi",
     "category": "tvs",
-    "image": "/images/products/tvs/xiaomi-tv-a-65-2026-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/xiaomi-tv-a-65-2026-1.jpg",
-      "https://resim.epey.com/1034101/z_xiaomi-tv-a-65-2026-3.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 59,
@@ -88187,10 +87737,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Xiaomi TV Max 86\" (L86M7-ESMI) 120Hz 4K Ultra HD Android Smart TV",
     "brand": "Xiaomi",
     "category": "tvs",
-    "image": "/images/products/tvs/xiaomi-tv-max-86-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/xiaomi-tv-max-86-1.jpg",
-      "https://resim.epey.com/984714/z_xiaomi-tv-max-86-6971408156535-3.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 72,
@@ -88297,10 +87846,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Xiaomi Mi TV Q1 75\" (L75M6-ESG) 120Hz 4K QLED Android Smart TV",
     "brand": "Xiaomi",
     "category": "tvs",
-    "image": "/images/products/tvs/xiaomi-mi-tv-q1-75-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/xiaomi-mi-tv-q1-75-1.jpg",
-      "https://resim.epey.com/723260/z_xiaomi-mi-tv-q1-75-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 69,
@@ -88407,10 +87955,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Xiaomi TV P1E 65\" (L65M7-7AEU) 65\" 4K Ultra HD Android Smart LED TV",
     "brand": "Xiaomi",
     "category": "tvs",
-    "image": "/images/products/tvs/xiaomi-tv-p1e-65-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/xiaomi-tv-p1e-65-1.jpg",
-      "https://resim.epey.com/836719/z_xiaomi-tv-p1e-65-2.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.5,
     "epeyScore": 59,
@@ -88514,10 +88061,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Xiaomi Mi TV P1 55\" (L55M6-6AEU) 55\" 4K Ultra HD Android Smart LED TV",
     "brand": "Xiaomi",
     "category": "tvs",
-    "image": "/images/products/tvs/xiaomi-mi-tv-p1-55-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/xiaomi-mi-tv-p1-55-1.jpg",
-      "https://resim.epey.com/904101/z_xiaomi-mi-tv-p1-55-3.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 58,
@@ -88623,10 +88169,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Xiaomi TV P1E 55\" (L55M7-7AEU) 55\" 4K Ultra HD Android Smart LED TV",
     "brand": "Xiaomi",
     "category": "tvs",
-    "image": "/images/products/tvs/xiaomi-tv-p1e-55-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/xiaomi-tv-p1e-55-1.jpg",
-      "https://resim.epey.com/913914/z_xiaomi-tv-p1e-65-2.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.5,
     "epeyScore": 56,
@@ -88730,10 +88275,9 @@ export const mockTVs: TVProduct[] = [
     "name": "Xiaomi TV A 55 2026 (L55MB-ATR) 55\" 4K Ultra HD Smart Google TV",
     "brand": "Xiaomi",
     "category": "tvs",
-    "image": "/images/products/tvs/xiaomi-tv-a-55-2026-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/xiaomi-tv-a-55-2026-1.jpg",
-      "https://resim.epey.com/1034054/z_xiaomi-tv-a-55-2026-3.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 56,
@@ -88837,10 +88381,9 @@ export const mockTVs: TVProduct[] = [
     "name": "iFFALCON 98U95A 98\" 144Hz 4K Ultra HD QLED Google TV",
     "brand": "iFFALCON",
     "category": "tvs",
-    "image": "/images/products/tvs/iffalcon-98u95a-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/iffalcon-98u95a-1.jpg",
-      "https://resim.epey.com/1041949/z_iffalcon-98u95a-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.9,
     "epeyScore": 88,
@@ -88950,10 +88493,9 @@ export const mockTVs: TVProduct[] = [
     "name": "iFFALCON 85U95A 85\" 144Hz 4K Ultra HD QLED Google TV",
     "brand": "iFFALCON",
     "category": "tvs",
-    "image": "/images/products/tvs/iffalcon-85u95a-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/iffalcon-85u95a-1.jpg",
-      "https://resim.epey.com/1041951/z_iffalcon-85u95a-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 84,
@@ -89048,10 +88590,9 @@ export const mockTVs: TVProduct[] = [
     "name": "iFFALCON 85U85A 85\" 144Hz 4K Ultra HD QLED Google TV",
     "brand": "iFFALCON",
     "category": "tvs",
-    "image": "/images/products/tvs/iffalcon-85u85a-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/iffalcon-85u85a-1.jpg",
-      "https://resim.epey.com/1055455/z_iffalcon-85u85a-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 84,
@@ -89144,10 +88685,9 @@ export const mockTVs: TVProduct[] = [
     "name": "iFFALCON 75U95A 75\" 144Hz 4K Ultra HD QLED Google TV",
     "brand": "iFFALCON",
     "category": "tvs",
-    "image": "/images/products/tvs/iffalcon-75u95a-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/iffalcon-75u95a-1.jpg",
-      "https://resim.epey.com/1041955/z_iffalcon-75u95a-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 82,
@@ -89243,10 +88783,9 @@ export const mockTVs: TVProduct[] = [
     "name": "iFFALCON 85U75A 85\" 4K Ultra HD Google TV",
     "brand": "iFFALCON",
     "category": "tvs",
-    "image": "/images/products/tvs/iffalcon-85u75a-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/iffalcon-85u75a-1.jpg",
-      "https://resim.epey.com/1042024/z_iffalcon-85u75a-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 79,
@@ -89339,10 +88878,9 @@ export const mockTVs: TVProduct[] = [
     "name": "iFFALCON 65U95A 65\" 144Hz 4K Ultra HD QLED Google TV",
     "brand": "iFFALCON",
     "category": "tvs",
-    "image": "/images/products/tvs/iffalcon-65u95a-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/iffalcon-65u95a-1.jpg",
-      "https://resim.epey.com/1041956/z_iffalcon-65u95a-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 79,
@@ -89438,10 +88976,9 @@ export const mockTVs: TVProduct[] = [
     "name": "iFFALCON 75U85A 75\" 144Hz 4K Ultra HD QLED Google TV",
     "brand": "iFFALCON",
     "category": "tvs",
-    "image": "/images/products/tvs/iffalcon-75u85a-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/iffalcon-75u85a-1.jpg",
-      "https://resim.epey.com/1055456/z_iffalcon-75u85a-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 78,
@@ -89534,10 +89071,9 @@ export const mockTVs: TVProduct[] = [
     "name": "iFFALCON 55U95A 55\" 144Hz 4K Ultra HD QLED Google TV",
     "brand": "iFFALCON",
     "category": "tvs",
-    "image": "/images/products/tvs/iffalcon-55u95a-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/iffalcon-55u95a-1.jpg",
-      "https://resim.epey.com/1041957/z_iffalcon-55u95a-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 77,
@@ -89647,10 +89183,9 @@ export const mockTVs: TVProduct[] = [
     "name": "iFFALCON 65U85A 65\" 144Hz 4K Ultra HD QLED Google TV",
     "brand": "iFFALCON",
     "category": "tvs",
-    "image": "/images/products/tvs/iffalcon-65u85a-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/iffalcon-65u85a-1.jpg",
-      "https://resim.epey.com/1055457/z_iffalcon-65u85a-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 76,
@@ -89743,10 +89278,9 @@ export const mockTVs: TVProduct[] = [
     "name": "iFFALCON 75U75A 75\" 4K Ultra HD Google TV",
     "brand": "iFFALCON",
     "category": "tvs",
-    "image": "/images/products/tvs/iffalcon-75u75a-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/iffalcon-75u75a-1.jpg",
-      "https://resim.epey.com/1042034/z_iffalcon-75u75a-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 74,
@@ -89839,10 +89373,9 @@ export const mockTVs: TVProduct[] = [
     "name": "iFFALCON 55U85A 55\" 144Hz 4K Ultra HD QLED Google TV",
     "brand": "iFFALCON",
     "category": "tvs",
-    "image": "/images/products/tvs/iffalcon-55u85a-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/iffalcon-55u85a-1.jpg",
-      "https://resim.epey.com/1055458/z_iffalcon-55u85a-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 73,
@@ -89935,10 +89468,9 @@ export const mockTVs: TVProduct[] = [
     "name": "iFFALCON 50U95A 50\" 144Hz 4K Ultra HD QLED Google TV",
     "brand": "iFFALCON",
     "category": "tvs",
-    "image": "/images/products/tvs/iffalcon-50u95a-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/iffalcon-50u95a-1.jpg",
-      "https://resim.epey.com/1041958/z_iffalcon-50u95a-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 72,
@@ -90033,10 +89565,9 @@ export const mockTVs: TVProduct[] = [
     "name": "iFFALCON 65U75A 65\" 4K Ultra HD Google TV",
     "brand": "iFFALCON",
     "category": "tvs",
-    "image": "/images/products/tvs/iffalcon-65u75a-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/iffalcon-65u75a-1.jpg",
-      "https://resim.epey.com/1042040/z_iffalcon-65u75a-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 71,
@@ -90129,10 +89660,9 @@ export const mockTVs: TVProduct[] = [
     "name": "iFFALCON 55U75A 55\" 4K Ultra HD Google TV",
     "brand": "iFFALCON",
     "category": "tvs",
-    "image": "/images/products/tvs/iffalcon-55u75a-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/iffalcon-55u75a-1.jpg",
-      "https://resim.epey.com/1042042/z_iffalcon-55u75a-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 68,
@@ -90225,10 +89755,9 @@ export const mockTVs: TVProduct[] = [
     "name": "iFFALCON 75U65 75\" 4K Ultra HD Smart Google TV",
     "brand": "iFFALCON",
     "category": "tvs",
-    "image": "/images/products/tvs/iffalcon-75u65-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/iffalcon-75u65-1.jpg",
-      "https://resim.epey.com/1042044/z_iffalcon-75u65-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 65,
@@ -90320,10 +89849,9 @@ export const mockTVs: TVProduct[] = [
     "name": "iFFALCON 65U65A 65\" 4K Ultra HD Smart Google TV",
     "brand": "iFFALCON",
     "category": "tvs",
-    "image": "/images/products/tvs/iffalcon-65u65a-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/iffalcon-65u65a-1.jpg",
-      "https://resim.epey.com/1061212/z_iffalcon-65u65a-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 61,
@@ -90413,10 +89941,9 @@ export const mockTVs: TVProduct[] = [
     "name": "iFFALCON 65U65 65\" 4K Ultra HD Smart Google TV",
     "brand": "iFFALCON",
     "category": "tvs",
-    "image": "/images/products/tvs/iffalcon-65u65-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/iffalcon-65u65-1.jpg",
-      "https://resim.epey.com/1042052/z_iffalcon-65u65-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 61,
@@ -90506,10 +90033,9 @@ export const mockTVs: TVProduct[] = [
     "name": "iFFALCON 55U65A 55\" 4K Ultra HD Smart Google TV",
     "brand": "iFFALCON",
     "category": "tvs",
-    "image": "/images/products/tvs/iffalcon-55u65a-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/iffalcon-55u65a-1.jpg",
-      "https://resim.epey.com/1052180/z_iffalcon-55u65a-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 59,
@@ -90600,10 +90126,9 @@ export const mockTVs: TVProduct[] = [
     "name": "iFFALCON 55U65 55\" 4K Ultra HD Smart Google TV",
     "brand": "iFFALCON",
     "category": "tvs",
-    "image": "/images/products/tvs/iffalcon-55u65-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/iffalcon-55u65-1.jpg",
-      "https://resim.epey.com/1042055/z_iffalcon-55u65-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 59,
@@ -90693,10 +90218,9 @@ export const mockTVs: TVProduct[] = [
     "name": "iFFALCON 50U65 50\" 4K Ultra HD Smart Google TV",
     "brand": "iFFALCON",
     "category": "tvs",
-    "image": "/images/products/tvs/iffalcon-50u65-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/iffalcon-50u65-1.jpg",
-      "https://resim.epey.com/1042062/z_iffalcon-50u65-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.5,
     "epeyScore": 57,
@@ -90786,10 +90310,9 @@ export const mockTVs: TVProduct[] = [
     "name": "iFFALCON 43U65 43\" 4K Ultra HD Smart Google TV",
     "brand": "iFFALCON",
     "category": "tvs",
-    "image": "/images/products/tvs/iffalcon-43u65-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/iffalcon-43u65-1.jpg",
-      "https://resim.epey.com/1042065/z_iffalcon-43u65-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 56,
@@ -90880,10 +90403,9 @@ export const mockTVs: TVProduct[] = [
     "name": "iFFALCON 50S55A 50\" Full HD Smart Google TV",
     "brand": "iFFALCON",
     "category": "tvs",
-    "image": "/images/products/tvs/iffalcon-50s55a-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/iffalcon-50s55a-1.jpg",
-      "https://resim.epey.com/1053402/z_iffalcon-50s55a-5.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.5,
     "epeyScore": 50,
@@ -90972,10 +90494,9 @@ export const mockTVs: TVProduct[] = [
     "name": "iFFALCON 43S55A 43\" Full HD Smart Google TV",
     "brand": "iFFALCON",
     "category": "tvs",
-    "image": "/images/products/tvs/iffalcon-43s55a-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/iffalcon-43s55a-1.jpg",
-      "https://resim.epey.com/1053005/z_iffalcon-43s55a-6937574808104-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.5,
     "epeyScore": 49,
@@ -91064,10 +90585,9 @@ export const mockTVs: TVProduct[] = [
     "name": "iFFALCON 43S55 43\" Full HD Smart Google TV",
     "brand": "iFFALCON",
     "category": "tvs",
-    "image": "/images/products/tvs/iffalcon-43s55-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/iffalcon-43s55-1.jpg",
-      "https://resim.epey.com/1042076/z_iffalcon-43s55-2.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.5,
     "epeyScore": 48,
@@ -91156,10 +90676,9 @@ export const mockTVs: TVProduct[] = [
     "name": "iFFALCON 32S55 32\" HD Ready Smart Android TV",
     "brand": "iFFALCON",
     "category": "tvs",
-    "image": "/images/products/tvs/iffalcon-32s55-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/iffalcon-32s55-1.jpg",
-      "https://resim.epey.com/1042097/z_iffalcon-32s55-2.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.4,
     "epeyScore": 44,
@@ -91263,10 +90782,9 @@ export const mockTVs: TVProduct[] = [
     "name": "iFFALCON 32S55A 32\" Full HD Smart Google TV",
     "brand": "iFFALCON",
     "category": "tvs",
-    "image": "/images/products/tvs/iffalcon-32s55a-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/iffalcon-32s55a-1.jpg",
-      "https://resim.epey.com/1052191/z_iffalcon-32s55a-1.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.5,
     "epeyScore": 46,
@@ -91355,10 +90873,9 @@ export const mockTVs: TVProduct[] = [
     "name": "iFFALCON 50S55 50\" Full HD Smart Android TV",
     "brand": "iFFALCON",
     "category": "tvs",
-    "image": "/images/products/tvs/iffalcon-50s55-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/iffalcon-50s55-1.jpg",
-      "https://resim.epey.com/1042194/z_iffalcon-43s55-2.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.5,
     "epeyScore": 50,
@@ -91447,10 +90964,9 @@ export const mockTVs: TVProduct[] = [
     "name": "iFFALCON 40S55 40\" Full HD Smart Android TV",
     "brand": "iFFALCON",
     "category": "tvs",
-    "image": "/images/products/tvs/iffalcon-40s55-1.jpg",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "/images/products/tvs/iffalcon-40s55-1.jpg",
-      "https://resim.epey.com/1042094/z_iffalcon-40s55-2.jpg"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.5,
     "epeyScore": 48,

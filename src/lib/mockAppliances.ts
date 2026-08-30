@@ -1,6 +1,6 @@
-import { ApplianceProduct } from "./types";
+import { ApplianceProduct, Product } from "./types";
 
-export const mockAppliances: ApplianceProduct[] = [
+export const mockAppliances: Product[] = [
   {
     "id": "appliance-climate_heating-air_conditioner-119",
     "slug": "baymak-elegant-eco-12000-btu-duvar-tipi-klima",
@@ -9,7 +9,7 @@ export const mockAppliances: ApplianceProduct[] = [
     "category": "appliances",
     "subCategory": "air_conditioner",
     "subCategoryLabel": "Klima & İklimlendirme",
-    "image": "https://cdn.cimri.io/image/1200x1200/baymak-elegant-eco-12000-btu-duvar-tipi-klima_811204124.jpg",
+    "image": "/images/products/appliances/appliance-climate_heating-air_conditioner-119.jpg",
     "rating": 4.7,
     "reviewCount": 508,
     "basePrice": 23999,
@@ -139,7 +139,10 @@ export const mockAppliances: ApplianceProduct[] = [
       "Standart boyutlu dış ünite"
     ],
     "createdAt": "2026-08-25T15:13:53.755Z",
-    "updatedAt": "2026-08-25T15:13:53.755Z"
+    "updatedAt": "2026-08-25T15:13:53.755Z",
+    "images": [
+      "/images/products/appliances/appliance-climate_heating-air_conditioner-119.jpg"
+    ]
   },
   {
     "id": "philips-cafe-gaia-hd7548-20",

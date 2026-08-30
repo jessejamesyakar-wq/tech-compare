@@ -1,4 +1,4 @@
-import { Product } from './types';
+import { Product } from "./types";
 
 export const mockMonitors: Product[] = [
   {
@@ -42949,10 +42949,9 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": false,
-    "image": "https://resim.epey.com/907362/m_lg-24mr400-b-1.jpg",
+    "image": "/images/products/monitors/lg-24mr400-b.jpg",
     "images": [
-      "https://resim.epey.com/907362/m_lg-24mr400-b-1.jpg",
-      "https://resim.epey.com/907362/k_lg-24mr400-b-1.jpg"
+      "/images/products/monitors/lg-24mr400-b.jpg"
     ],
     "highlights": [
       "23.8 inç Full HD (1920x1080) IPS Panel",
@@ -43056,9 +43055,9 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": true,
-    "image": "https://resim.epey.com/936458/m_lg-25ms500-b-6.jpg",
+    "image": "/images/products/monitors/lg-25ms500-b.jpg",
     "images": [
-      "https://resim.epey.com/936458/m_lg-25ms500-b-6.jpg"
+      "/images/products/monitors/lg-25ms500-b.jpg"
     ],
     "highlights": [
       "24.5 inç Full HD (1920x1080) Geniş IPS Ekran",
@@ -43158,9 +43157,9 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2023,
     "isPopular": true,
     "isFeatured": true,
-    "image": "https://resim.epey.com/685825/m_lg-24gn53a-b-tr-1.jpg",
+    "image": "/images/products/monitors/lg-ultragear-24gn53a-b.jpg",
     "images": [
-      "https://resim.epey.com/685825/m_lg-24gn53a-b-tr-1.jpg"
+      "/images/products/monitors/lg-ultragear-24gn53a-b.jpg"
     ],
     "highlights": [
       "24 inç Full HD 144Hz E-Spor Oyuncu Monitörü",
@@ -43226,9 +43225,9 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2023,
     "isPopular": true,
     "isFeatured": false,
-    "image": "https://resim.epey.com/856776/m_lg-32gn55r-b-1.jpg",
+    "image": "/images/products/monitors/lg-ultragear-32gn55r-b.jpg",
     "images": [
-      "https://resim.epey.com/856776/m_lg-32gn55r-b-1.jpg"
+      "/images/products/monitors/lg-ultragear-32gn55r-b.jpg"
     ],
     "highlights": [
       "31.5 inç Büyük Ekran Full HD VA Panel",
@@ -43295,9 +43294,9 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": true,
-    "image": "https://resim.epey.com/1023186/m_lg-34wr50qk-b-8806096197998-7.jpg",
+    "image": "/images/products/monitors/lg-ultrawide-34wr50qk-b.jpg",
     "images": [
-      "https://resim.epey.com/1023186/m_lg-34wr50qk-b-8806096197998-7.jpg"
+      "/images/products/monitors/lg-ultrawide-34wr50qk-b.jpg"
     ],
     "highlights": [
       "34 inç UltraWide 21:9 WQHD (3440x1440) Kavisli Panel",
@@ -43364,9 +43363,9 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2023,
     "isPopular": true,
     "isFeatured": false,
-    "image": "https://resim.epey.com/866304/m_lg-ultragear-27gn60r-b-1.jpg",
+    "image": "/images/products/monitors/lg-ultragear-27gn60r-b.jpg",
     "images": [
-      "https://resim.epey.com/866304/m_lg-ultragear-27gn60r-b-1.jpg"
+      "/images/products/monitors/lg-ultragear-27gn60r-b.jpg"
     ],
     "highlights": [
       "27 inç Full HD IPS 1ms GtG Hızlı Panel",
@@ -43433,9 +43432,9 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": false,
-    "image": "https://resim.epey.com/1067490/m_lg-24u411b-b-8.jpg",
+    "image": "/images/products/monitors/lg-24u411b-b.jpg",
     "images": [
-      "https://resim.epey.com/1067490/m_lg-24u411b-b-8.jpg"
+      "/images/products/monitors/lg-24u411b-b.jpg"
     ],
     "highlights": [
       "23.8 inç Full HD IPS Panel",
@@ -43495,9 +43494,9 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2023,
     "isPopular": true,
     "isFeatured": false,
-    "image": "https://resim.epey.com/856418/m_lg-27ml600m-1.jpg",
+    "image": "/images/products/monitors/lg-27ml60mp-b.jpg",
     "images": [
-      "https://resim.epey.com/856418/m_lg-27ml600m-1.jpg"
+      "/images/products/monitors/lg-27ml60mp-b.jpg"
     ],
     "highlights": [
       "27 inç Full HD IPS 3 Tarafı Çerçevesiz Ekran",
@@ -43557,9 +43556,9 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2022,
     "isPopular": false,
     "isFeatured": false,
-    "image": "https://resim.epey.com/770840/m_lg-22mp410-b-1.jpg",
+    "image": "/images/products/monitors/lg-22mp410-b.jpg",
     "images": [
-      "https://resim.epey.com/770840/m_lg-22mp410-b-1.jpg"
+      "/images/products/monitors/lg-22mp410-b.jpg"
     ],
     "highlights": [
       "21.45 inç Full HD VA Panel",
@@ -43616,9 +43615,9 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2021,
     "isPopular": false,
     "isFeatured": false,
-    "image": "https://resim.epey.com/123434/m_lg-24mk430h-b-1.jpg",
+    "image": "/images/products/monitors/lg-24mk430h-b.jpg",
     "images": [
-      "https://resim.epey.com/123434/m_lg-24mk430h-b-1.jpg"
+      "/images/products/monitors/lg-24mk430h-b.jpg"
     ],
     "highlights": [
       "23.8 inç Full HD IPS Panel",
@@ -43676,9 +43675,9 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2023,
     "isPopular": true,
     "isFeatured": true,
-    "image": "https://resim.epey.com/898412/m_lg-ultragear-27gr83q-b-4.jpg",
+    "image": "/images/products/monitors/lg-ultragear-27gr83q-b.jpg",
     "images": [
-      "https://resim.epey.com/898412/m_lg-ultragear-27gr83q-b-4.jpg"
+      "/images/products/monitors/lg-ultragear-27gr83q-b.jpg"
     ],
     "highlights": [
       "27 inç QHD (2560x1440) Ultra Hızlı IPS Panel",
@@ -43745,9 +43744,9 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2023,
     "isPopular": true,
     "isFeatured": true,
-    "image": "https://resim.epey.com/738577/m_lg-dualup-28mq780-1.jpg",
+    "image": "/images/products/monitors/lg-dualup-28mq780-b.jpg",
     "images": [
-      "https://resim.epey.com/738577/m_lg-dualup-28mq780-1.jpg"
+      "/images/products/monitors/lg-dualup-28mq780-b.jpg"
     ],
     "highlights": [
       "27.6 inç Benzersiz 16:18 SDQHD (2560x2880) Nano IPS Panel",
@@ -43817,9 +43816,9 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2022,
     "isPopular": false,
     "isFeatured": false,
-    "image": "https://resim.epey.com/701170/m_lg-ultrawide-34wp65g-b-2.jpg",
+    "image": "/images/products/monitors/lg-ultrawide-34wp65g-b.jpg",
     "images": [
-      "https://resim.epey.com/701170/m_lg-ultrawide-34wp65g-b-2.jpg"
+      "/images/products/monitors/lg-ultrawide-34wp65g-b.jpg"
     ],
     "highlights": [
       "34 inç 21:9 UltraWide Full HD (2560x1080) IPS Ekran",
@@ -43879,9 +43878,9 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": true,
-    "image": "https://resim.epey.com/962450/m_lg-ultragear-32gs95ue-b-14.jpg",
+    "image": "/images/products/monitors/lg-ultragear-32gs95ue-b.jpg",
     "images": [
-      "https://resim.epey.com/962450/m_lg-ultragear-32gs95ue-b-14.jpg"
+      "/images/products/monitors/lg-ultragear-32gs95ue-b.jpg"
     ],
     "highlights": [
       "31.5 inç Dünyanın İlk Dual-Hz OLED Paneli: 4K 240Hz veya FHD 480Hz Tek Tuşla",
@@ -43968,9 +43967,9 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": true,
-    "image": "https://resim.epey.com/952793/m_lg-ultragear-45gs95qe-b-14.jpg",
+    "image": "/images/products/monitors/lg-ultragear-45gs95qe-b.jpg",
     "images": [
-      "https://resim.epey.com/952793/m_lg-ultragear-45gs95qe-b-14.jpg"
+      "/images/products/monitors/lg-ultragear-45gs95qe-b.jpg"
     ],
     "highlights": [
       "44.5 inç 21:9 WQHD (3440x1440) 800R Agresif Kavisli OLED",
@@ -44032,9 +44031,9 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": true,
-    "image": "https://resim.epey.com/942747/m_lg-ultragear-39-39gs95qe-b-9.jpg",
+    "image": "/images/products/monitors/lg-ultragear-39gs95qe-b.jpg",
     "images": [
-      "https://resim.epey.com/942747/m_lg-ultragear-39-39gs95qe-b-9.jpg"
+      "/images/products/monitors/lg-ultragear-39gs95qe-b.jpg"
     ],
     "highlights": [
       "39 inç 21:9 WQHD (3440x1440) 800R Kavisli OLED Panel",
@@ -44099,9 +44098,9 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2023,
     "isPopular": true,
     "isFeatured": false,
-    "image": "https://resim.epey.com/840679/m_lg-ultragear-45gr95qe-b-3.jpg",
+    "image": "/images/products/monitors/lg-ultragear-45gr95qe-b.jpg",
     "images": [
-      "https://resim.epey.com/840679/m_lg-ultragear-45gr95qe-b-3.jpg"
+      "/images/products/monitors/lg-ultragear-45gr95qe-b.jpg"
     ],
     "highlights": [
       "45 inç WQHD (3440x1440) 800R Kavisli OLED Panel",
@@ -44167,9 +44166,9 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": false,
-    "image": "https://resim.epey.com/952795/m_lg-ultragear-45gr75dc-b-9.jpg",
+    "image": "/images/products/monitors/lg-ultragear-45gr75dc-b.jpg",
     "images": [
-      "https://resim.epey.com/952795/m_lg-ultragear-45gr75dc-b-9.jpg"
+      "/images/products/monitors/lg-ultragear-45gr75dc-b.jpg"
     ],
     "highlights": [
       "44.5 inç 32:9 Dual QHD (5120x1440) 1500R Kavisli VA Panel",
@@ -44232,9 +44231,9 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2023,
     "isPopular": true,
     "isFeatured": true,
-    "image": "https://resim.epey.com/875421/m_lg-ultragear-49gr85dc-b-1.png",
+    "image": "/images/products/monitors/lg-ultragear-49gr85dc-b.jpg",
     "images": [
-      "https://resim.epey.com/875421/m_lg-ultragear-49gr85dc-b-1.png"
+      "/images/products/monitors/lg-ultragear-49gr85dc-b.jpg"
     ],
     "highlights": [
       "49 inç Dual QHD (5120x1440) 32:9 1000R Süper Kavisli Panel",
@@ -44302,9 +44301,9 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2023,
     "isPopular": true,
     "isFeatured": false,
-    "image": "https://resim.epey.com/907394/m_lg-ultragear-48gq900-1.jpg",
+    "image": "/images/products/monitors/lg-ultragear-48gq900-b.jpg",
     "images": [
-      "https://resim.epey.com/907394/m_lg-ultragear-48gq900-1.jpg"
+      "/images/products/monitors/lg-ultragear-48gq900-b.jpg"
     ],
     "highlights": [
       "47.5 inç 4K UHD (3840x2160) Dev OLED Oyuncu Ekranı",
@@ -44365,9 +44364,9 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": true,
-    "image": "https://resim.epey.com/925894/m_lg-ultrawide-38wr85qc-w-5.jpg",
+    "image": "/images/products/monitors/lg-ultrawide-38wr85qc-w.jpg",
     "images": [
-      "https://resim.epey.com/925894/m_lg-ultrawide-38wr85qc-w-5.jpg"
+      "/images/products/monitors/lg-ultrawide-38wr85qc-w.jpg"
     ],
     "highlights": [
       "37.5 inç 21:9 WQHD+ (3840x1600) Kavisli Nano IPS Ekran",
@@ -44438,9 +44437,9 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2023,
     "isPopular": true,
     "isFeatured": false,
-    "image": "https://resim.epey.com/898967/m_lg-ultragear-32gr93u-b-1.jpg",
+    "image": "/images/products/monitors/lg-ultragear-32gr93u-b.jpg",
     "images": [
-      "https://resim.epey.com/898967/m_lg-ultragear-32gr93u-b-1.jpg"
+      "/images/products/monitors/lg-ultragear-32gr93u-b.jpg"
     ],
     "highlights": [
       "31.5 inç 4K UHD (3840x2160) Ultra Net IPS Panel",
@@ -44507,9 +44506,9 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2022,
     "isPopular": true,
     "isFeatured": true,
-    "image": "https://resim.epey.com/717866/m_lg-ultragear-27gp950-b-4.jpg",
+    "image": "/images/products/monitors/lg-ultragear-27gp950-b.jpg",
     "images": [
-      "https://resim.epey.com/717866/m_lg-ultragear-27gp950-b-4.jpg"
+      "/images/products/monitors/lg-ultragear-27gp950-b.jpg"
     ],
     "highlights": [
       "27 inç 4K UHD (3840x2160) Nano IPS 1ms Panel",
@@ -44576,9 +44575,9 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2023,
     "isPopular": true,
     "isFeatured": false,
-    "image": "https://resim.epey.com/679769/m_lg-49wl95c-w-3.jpg",
+    "image": "/images/products/monitors/lg-ultrawide-49wl95c-we.jpg",
     "images": [
-      "https://resim.epey.com/679769/m_lg-49wl95c-w-3.jpg"
+      "/images/products/monitors/lg-ultrawide-49wl95c-we.jpg"
     ],
     "highlights": [
       "49 inç 32:9 Dual QHD (5120x1440) Ultra Geniş Kavisli IPS Panel",
@@ -44642,9 +44641,9 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2021,
     "isPopular": false,
     "isFeatured": false,
-    "image": "https://resim.epey.com/596314/m_lg-27gn950-b-1.jpg",
+    "image": "/images/products/monitors/lg-ultragear-27gn950-b.jpg",
     "images": [
-      "https://resim.epey.com/596314/m_lg-27gn950-b-1.jpg"
+      "/images/products/monitors/lg-ultragear-27gn950-b.jpg"
     ],
     "highlights": [
       "27 inç 4K UHD Nano IPS 1ms (GtG) Ekran",
@@ -44705,9 +44704,9 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2022,
     "isPopular": true,
     "isFeatured": false,
-    "image": "https://resim.epey.com/743977/m_lg-ultragear-38gn950-b-1.jpg",
+    "image": "/images/products/monitors/lg-ultragear-38gn950-b.jpg",
     "images": [
-      "https://resim.epey.com/743977/m_lg-ultragear-38gn950-b-1.jpg"
+      "/images/products/monitors/lg-ultragear-38gn950-b.jpg"
     ],
     "highlights": [
       "37.5 inç 21:9 WQHD+ (3840x1600) Kavisli Nano IPS Panel",
@@ -44769,9 +44768,9 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2021,
     "isPopular": false,
     "isFeatured": false,
-    "image": "https://resim.epey.com/166285/m_lg-34wk95u-w-1.jpg",
+    "image": "/images/products/monitors/lg-34wk95u-w.jpg",
     "images": [
-      "https://resim.epey.com/166285/m_lg-34wk95u-w-1.jpg"
+      "/images/products/monitors/lg-34wk95u-w.jpg"
     ],
     "highlights": [
       "34 inç 21:9 5K2K UltraWide (5120x2160) Nano IPS Panel",
@@ -44835,9 +44834,9 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2023,
     "isPopular": true,
     "isFeatured": true,
-    "image": "https://resim.epey.com/862547/m_lg-32un880-b-1.jpg",
+    "image": "/images/products/monitors/lg-ultrafine-32un880p-b.jpg",
     "images": [
-      "https://resim.epey.com/862547/m_lg-32un880-b-1.jpg"
+      "/images/products/monitors/lg-ultrafine-32un880p-b.jpg"
     ],
     "highlights": [
       "31.5 inç 4K UHD (3840x2160) Canlı IPS Panel",
@@ -44920,9 +44919,9 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2023,
     "isPopular": true,
     "isFeatured": true,
-    "image": "https://resim.epey.com/642618/m_lg-32un880-b-1.jpg",
+    "image": "/images/products/monitors/lg-ultrafine-32un880-b.jpg",
     "images": [
-      "https://resim.epey.com/642618/m_lg-32un880-b-1.jpg"
+      "/images/products/monitors/lg-ultrafine-32un880-b.jpg"
     ],
     "highlights": [
       "31.5 inç 4K UHD (3840x2160) Canlı IPS Panel",
@@ -45005,9 +45004,9 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2023,
     "isPopular": true,
     "isFeatured": true,
-    "image": "https://resim.epey.com/869586/m_lg-32gq850-b-1.jpg",
+    "image": "/images/products/monitors/lg-ultragear-32gq850-b.jpg",
     "images": [
-      "https://resim.epey.com/869586/m_lg-32gq850-b-1.jpg"
+      "/images/products/monitors/lg-ultragear-32gq850-b.jpg"
     ],
     "highlights": [
       "31.5 inç QHD (2560x1440) Nano IPS with ATW Polarizer",
@@ -45074,9 +45073,9 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2022,
     "isPopular": true,
     "isFeatured": false,
-    "image": "https://resim.epey.com/685822/m_lg-ultrafine-32un88a-w-1.jpg",
+    "image": "/images/products/monitors/lg-ultrafine-32un88a-w.jpg",
     "images": [
-      "https://resim.epey.com/685822/m_lg-ultrafine-32un88a-w-1.jpg"
+      "/images/products/monitors/lg-ultrafine-32un88a-w.jpg"
     ],
     "highlights": [
       "31.5 inç 4K UHD IPS Ekran",
@@ -45137,9 +45136,9 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2023,
     "isPopular": true,
     "isFeatured": true,
-    "image": "https://resim.epey.com/717879/m_lg-ultragear-34gp950g-b-1.jpg",
+    "image": "/images/products/monitors/lg-ultragear-34gp950g-b.jpg",
     "images": [
-      "https://resim.epey.com/717879/m_lg-ultragear-34gp950g-b-1.jpg"
+      "/images/products/monitors/lg-ultragear-34gp950g-b.jpg"
     ],
     "highlights": [
       "34 inç 21:9 WQHD (3440x1440) Kavisli Nano IPS Panel",
@@ -45207,9 +45206,9 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2023,
     "isPopular": true,
     "isFeatured": false,
-    "image": "https://resim.epey.com/862559/m_lg-ultrafine-27un880p-b-1.jpg",
+    "image": "/images/products/monitors/lg-ultrafine-27un880p-b.jpg",
     "images": [
-      "https://resim.epey.com/862559/m_lg-ultrafine-27un880p-b-1.jpg"
+      "/images/products/monitors/lg-ultrafine-27un880p-b.jpg"
     ],
     "highlights": [
       "27 inç 4K UHD (3840x2160) Ultra Net IPS Panel",
@@ -45272,9 +45271,9 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2022,
     "isPopular": false,
     "isFeatured": false,
-    "image": "https://resim.epey.com/642619/m_lg-ultrafine-27un880-b-ergo-2.jpg",
+    "image": "/images/products/monitors/lg-ultrafine-27un880-b.jpg",
     "images": [
-      "https://resim.epey.com/642619/m_lg-ultrafine-27un880-b-ergo-2.jpg"
+      "/images/products/monitors/lg-ultrafine-27un880-b.jpg"
     ],
     "highlights": [
       "27 inç 4K UHD IPS Ekran",
@@ -45334,9 +45333,9 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2021,
     "isPopular": false,
     "isFeatured": false,
-    "image": "https://resim.epey.com/700870/m_lg-ultragear-34gk950f-b-1.jpg",
+    "image": "/images/products/monitors/lg-ultragear-34gk950f-b.jpg",
     "images": [
-      "https://resim.epey.com/700870/m_lg-ultragear-34gk950f-b-1.jpg"
+      "/images/products/monitors/lg-ultragear-34gk950f-b.jpg"
     ],
     "highlights": [
       "34 inç UltraWide 21:9 WQHD (3440x1440) Kavisli Panel",
@@ -45396,9 +45395,9 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2023,
     "isPopular": true,
     "isFeatured": false,
-    "image": "https://resim.epey.com/841140/m_lg-ultrawide-34wp75c-b-1.jpg",
+    "image": "/images/products/monitors/lg-ultrawide-34wp75c-b.jpg",
     "images": [
-      "https://resim.epey.com/841140/m_lg-ultrawide-34wp75c-b-1.jpg"
+      "/images/products/monitors/lg-ultrawide-34wp75c-b.jpg"
     ],
     "highlights": [
       "34 inç 21:9 WQHD (3440x1440) 1800R Kavisli VA Panel",
@@ -45458,9 +45457,9 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2023,
     "isPopular": true,
     "isFeatured": true,
-    "image": "https://resim.epey.com/841281/m_lg-ultrawide-38wp85c-w-1.jpg",
+    "image": "/images/products/monitors/lg-ultrawide-38wp85c-w.jpg",
     "images": [
-      "https://resim.epey.com/841281/m_lg-ultrawide-38wp85c-w-1.jpg"
+      "/images/products/monitors/lg-ultrawide-38wp85c-w.jpg"
     ],
     "highlights": [
       "37.5 inç 21:9 WQHD+ (3840x1600) Ultra Geniş Kavisli IPS Panel",
@@ -45529,9 +45528,9 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2023,
     "isPopular": true,
     "isFeatured": true,
-    "image": "https://resim.epey.com/841354/m_lg-ultrawide-38wq88c-w-9.jpg",
+    "image": "/images/products/monitors/lg-ultrawide-ergo-38wq88c-w.jpg",
     "images": [
-      "https://resim.epey.com/841354/m_lg-ultrawide-38wq88c-w-9.jpg"
+      "/images/products/monitors/lg-ultrawide-ergo-38wq88c-w.jpg"
     ],
     "highlights": [
       "37.5 inç 21:9 WQHD+ (3840x1600) Kavisli IPS Panel",
@@ -45601,9 +45600,9 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2021,
     "isPopular": false,
     "isFeatured": false,
-    "image": "https://resim.epey.com/121172/m_lg-38wk95c-w-5.jpg",
+    "image": "/images/products/monitors/lg-38wk95c-w.jpg",
     "images": [
-      "https://resim.epey.com/121172/m_lg-38wk95c-w-5.jpg"
+      "/images/products/monitors/lg-38wk95c-w.jpg"
     ],
     "highlights": [
       "37.5 inç 21:9 WQHD+ (3840x1600) Kavisli IPS Panel",
@@ -45664,9 +45663,9 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2021,
     "isPopular": false,
     "isFeatured": false,
-    "image": "https://resim.epey.com/155852/m_lg-27uk850-w-1.jpg",
+    "image": "/images/products/monitors/lg-27uk850-w.jpg",
     "images": [
-      "https://resim.epey.com/155852/m_lg-27uk850-w-1.jpg"
+      "/images/products/monitors/lg-27uk850-w.jpg"
     ],
     "highlights": [
       "27 inç 4K UHD (3840x2160) IPS Panel",
@@ -45727,9 +45726,9 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2022,
     "isPopular": true,
     "isFeatured": false,
-    "image": "https://resim.epey.com/417396/m_lg-27ul850-w-1.jpg",
+    "image": "/images/products/monitors/lg-27ul850-w.jpg",
     "images": [
-      "https://resim.epey.com/417396/m_lg-27ul850-w-1.jpg"
+      "/images/products/monitors/lg-27ul850-w.jpg"
     ],
     "highlights": [
       "27 inç 4K UHD IPS Panel",
@@ -45789,9 +45788,9 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2022,
     "isPopular": true,
     "isFeatured": true,
-    "image": "https://resim.epey.com/743694/m_lg-34gn850-b-1.jpg",
+    "image": "/images/products/monitors/lg-34gn850-b.jpg",
     "images": [
-      "https://resim.epey.com/743694/m_lg-34gn850-b-1.jpg"
+      "/images/products/monitors/lg-34gn850-b.jpg"
     ],
     "highlights": [
       "34 inç 21:9 WQHD (3440x1440) Kavisli Nano IPS Panel",
@@ -45857,9 +45856,9 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2023,
     "isPopular": true,
     "isFeatured": false,
-    "image": "https://resim.epey.com/862539/m_lg-27up550-w-1.jpg",
+    "image": "/images/products/monitors/lg-27up550p-w.jpg",
     "images": [
-      "https://resim.epey.com/862539/m_lg-27up550-w-1.jpg"
+      "/images/products/monitors/lg-27up550p-w.jpg"
     ],
     "highlights": [
       "27 inç 4K UHD (3840x2160) Canlı IPS Panel",
@@ -45921,9 +45920,9 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2022,
     "isPopular": false,
     "isFeatured": false,
-    "image": "https://resim.epey.com/775325/m_lg-27up550-w-1.jpg",
+    "image": "/images/products/monitors/lg-27up550-w.jpg",
     "images": [
-      "https://resim.epey.com/775325/m_lg-27up550-w-1.jpg"
+      "/images/products/monitors/lg-27up550-w.jpg"
     ],
     "highlights": [
       "27 inç 4K UHD IPS Panel",
@@ -45983,9 +45982,9 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2023,
     "isPopular": true,
     "isFeatured": true,
-    "image": "https://resim.epey.com/871768/m_lg-43bn70u-b-1.jpg",
+    "image": "/images/products/monitors/lg-43bn70u-b.jpg",
     "images": [
-      "https://resim.epey.com/871768/m_lg-43bn70u-b-1.jpg"
+      "/images/products/monitors/lg-43bn70u-b.jpg"
     ],
     "highlights": [
       "42.5 inç 4K UHD (3840x2160) Devasa IPS Ekran",
@@ -46053,9 +46052,9 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2022,
     "isPopular": true,
     "isFeatured": false,
-    "image": "https://resim.epey.com/721127/m_lg-32gp83-b-1.jpg",
+    "image": "/images/products/monitors/lg-ultragear-32gp83b-b.jpg",
     "images": [
-      "https://resim.epey.com/721127/m_lg-32gp83-b-1.jpg"
+      "/images/products/monitors/lg-ultragear-32gp83b-b.jpg"
     ],
     "highlights": [
       "31.5 inç QHD (2560x1440) Nano IPS 1ms Panel",
@@ -46115,9 +46114,9 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2022,
     "isPopular": false,
     "isFeatured": false,
-    "image": "https://resim.epey.com/721128/m_lg-32up550-w-1.jpg",
+    "image": "/images/products/monitors/lg-32up550-w.jpg",
     "images": [
-      "https://resim.epey.com/721128/m_lg-32up550-w-1.jpg"
+      "/images/products/monitors/lg-32up550-w.jpg"
     ],
     "highlights": [
       "31.5 inç 4K UHD (3840x2160) Yüksek Kontrastlı VA Panel",
@@ -46180,9 +46179,9 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2022,
     "isPopular": true,
     "isFeatured": true,
-    "image": "https://resim.epey.com/723347/m_lg-27gn88a-b-2.jpg",
+    "image": "/images/products/monitors/lg-ultragear-27gn88a-b.jpg",
     "images": [
-      "https://resim.epey.com/723347/m_lg-27gn88a-b-2.jpg"
+      "/images/products/monitors/lg-ultragear-27gn88a-b.jpg"
     ],
     "highlights": [
       "27 inç QHD (2560x1440) Nano IPS 1ms Panel",
@@ -46243,9 +46242,9 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2022,
     "isPopular": true,
     "isFeatured": true,
-    "image": "https://resim.epey.com/698846/m_lg-ultragear-27gp850-b-1.jpg",
+    "image": "/images/products/monitors/lg-ultragear-27gp850-b.jpg",
     "images": [
-      "https://resim.epey.com/698846/m_lg-ultragear-27gp850-b-1.jpg"
+      "/images/products/monitors/lg-ultragear-27gp850-b.jpg"
     ],
     "highlights": [
       "27 inç QHD (2560x1440) Nano IPS 1ms GtG Hız",
@@ -46325,9 +46324,9 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2022,
     "isPopular": true,
     "isFeatured": false,
-    "image": "https://resim.epey.com/776225/m_lg-ultrawide-34wp65c-b-3.jpg",
+    "image": "/images/products/monitors/lg-ultrawide-34wp65c-b.jpg",
     "images": [
-      "https://resim.epey.com/776225/m_lg-ultrawide-34wp65c-b-3.jpg"
+      "/images/products/monitors/lg-ultrawide-34wp65c-b.jpg"
     ],
     "highlights": [
       "34 inç 21:9 WQHD (3440x1440) 1800R Kavisli Panel",
@@ -46387,9 +46386,9 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2023,
     "isPopular": true,
     "isFeatured": true,
-    "image": "https://resim.epey.com/774446/m_lg-ergo-dual-27qp88d-b-1.jpg",
+    "image": "/images/products/monitors/lg-ergo-dual-27qp88d-b.jpg",
     "images": [
-      "https://resim.epey.com/774446/m_lg-ergo-dual-27qp88d-b-1.jpg"
+      "/images/products/monitors/lg-ergo-dual-27qp88d-b.jpg"
     ],
     "highlights": [
       "Kutudan Çıkan Çift 27 inç QHD (2560x1440) IPS Monitör",
@@ -46458,9 +46457,9 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2023,
     "isPopular": true,
     "isFeatured": false,
-    "image": "https://resim.epey.com/836723/m_lg-ultragear-32gp750-b-1.jpg",
+    "image": "/images/products/monitors/lg-ultragear-32gp750-b.jpg",
     "images": [
-      "https://resim.epey.com/836723/m_lg-ultragear-32gp750-b-1.jpg"
+      "/images/products/monitors/lg-ultragear-32gp750-b.jpg"
     ],
     "highlights": [
       "31.5 inç QHD (2560x1440) IPS Panel",
@@ -46539,9 +46538,9 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2021,
     "isPopular": false,
     "isFeatured": false,
-    "image": "https://resim.epey.com/603026/m_lg-43un700-1.jpg",
+    "image": "/images/products/monitors/lg-43un700-b.jpg",
     "images": [
-      "https://resim.epey.com/603026/m_lg-43un700-1.jpg"
+      "/images/products/monitors/lg-43un700-b.jpg"
     ],
     "highlights": [
       "42.5 inç 4K UHD (3840x2160) IPS Ekran",
@@ -46603,9 +46602,9 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2020,
     "isPopular": false,
     "isFeatured": false,
-    "image": "https://resim.epey.com/120461/m_lg-43ud79-b-1.jpg",
+    "image": "/images/products/monitors/lg-43ud79-b.jpg",
     "images": [
-      "https://resim.epey.com/120461/m_lg-43ud79-b-1.jpg"
+      "/images/products/monitors/lg-43ud79-b.jpg"
     ],
     "highlights": [
       "42.5 inç 4K UHD IPS Panel",
@@ -46665,9 +46664,9 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2022,
     "isPopular": true,
     "isFeatured": false,
-    "image": "https://resim.epey.com/647149/m_lg-lg-ultrawide-34wn780-b-1.jpg",
+    "image": "/images/products/monitors/lg-ultrawide-34wn780-b.jpg",
     "images": [
-      "https://resim.epey.com/647149/m_lg-lg-ultrawide-34wn780-b-1.jpg"
+      "/images/products/monitors/lg-ultrawide-34wn780-b.jpg"
     ],
     "highlights": [
       "34 inç 21:9 UltraWide QHD (3440x1440) Düz IPS Panel",
@@ -46728,9 +46727,9 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2021,
     "isPopular": false,
     "isFeatured": false,
-    "image": "https://resim.epey.com/677618/m_lg-32ul750-w-tr-1.jpg",
+    "image": "/images/products/monitors/lg-32ul750-w.jpg",
     "images": [
-      "https://resim.epey.com/677618/m_lg-32ul750-w-tr-1.jpg"
+      "/images/products/monitors/lg-32ul750-w.jpg"
     ],
     "highlights": [
       "31.5 inç 4K UHD (3840x2160) VA Panel",
@@ -46794,9 +46793,9 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2021,
     "isPopular": false,
     "isFeatured": false,
-    "image": "https://resim.epey.com/167611/m_lg-32gk850f-1.jpg",
+    "image": "/images/products/monitors/lg-32gk850f-b.jpg",
     "images": [
-      "https://resim.epey.com/167611/m_lg-32gk850f-1.jpg"
+      "/images/products/monitors/lg-32gk850f-b.jpg"
     ],
     "highlights": [
       "31.5 inç QHD (2560x1440) VA Panel",
@@ -46857,9 +46856,9 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2022,
     "isPopular": true,
     "isFeatured": true,
-    "image": "https://resim.epey.com/674001/m_lg-32gn650b-aeu-1.jpg",
+    "image": "/images/products/monitors/lg-ultragear-32gn650-b.jpg",
     "images": [
-      "https://resim.epey.com/674001/m_lg-32gn650b-aeu-1.jpg"
+      "/images/products/monitors/lg-ultragear-32gn650-b.jpg"
     ],
     "highlights": [
       "31.5 inç QHD (2560x1440) Yüksek Çözünürlüklü VA Panel",
@@ -46939,9 +46938,9 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2020,
     "isPopular": false,
     "isFeatured": false,
-    "image": "https://resim.epey.com/93421/m_lg-34uc79g-b-1.jpg",
+    "image": "/images/products/monitors/lg-34uc79g-b.jpg",
     "images": [
-      "https://resim.epey.com/93421/m_lg-34uc79g-b-1.jpg"
+      "/images/products/monitors/lg-34uc79g-b.jpg"
     ],
     "highlights": [
       "34 inç 21:9 UltraWide Kavisli IPS Panel",
@@ -47000,9 +46999,9 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2022,
     "isPopular": true,
     "isFeatured": false,
-    "image": "https://resim.epey.com/642616/m_lg-35wn65c-b-3.jpg",
+    "image": "/images/products/monitors/lg-ultrawide-35wn65c-b.jpg",
     "images": [
-      "https://resim.epey.com/642616/m_lg-35wn65c-b-3.jpg"
+      "/images/products/monitors/lg-ultrawide-35wn65c-b.jpg"
     ],
     "highlights": [
       "35 inç 21:9 UltraWide QHD (3440x1440) 1800R Kavisli Panel",
@@ -47063,9 +47062,9 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2021,
     "isPopular": false,
     "isFeatured": false,
-    "image": "https://resim.epey.com/110050/m_lg-32gk850g-b-2.jpg",
+    "image": "/images/products/monitors/lg-32gk850g-b.jpg",
     "images": [
-      "https://resim.epey.com/110050/m_lg-32gk850g-b-2.jpg"
+      "/images/products/monitors/lg-32gk850g-b.jpg"
     ],
     "highlights": [
       "31.5 inç QHD (2560x1440) VA Panel",
@@ -47125,9 +47124,9 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2021,
     "isPopular": false,
     "isFeatured": false,
-    "image": "https://resim.epey.com/405137/m_lg-34wl750-b-1.jpg",
+    "image": "/images/products/monitors/lg-34wl750-b.jpg",
     "images": [
-      "https://resim.epey.com/405137/m_lg-34wl750-b-1.jpg"
+      "/images/products/monitors/lg-34wl750-b.jpg"
     ],
     "highlights": [
       "34 inç 21:9 UltraWide WQHD (3440x1440) Düz IPS Panel",
@@ -47187,9 +47186,9 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2022,
     "isPopular": true,
     "isFeatured": false,
-    "image": "https://resim.epey.com/638638/m_lg-ultrafine-32un500-1.jpg",
+    "image": "/images/products/monitors/lg-32un500-w.jpg",
     "images": [
-      "https://resim.epey.com/638638/m_lg-ultrafine-32un500-1.jpg"
+      "/images/products/monitors/lg-32un500-w.jpg"
     ],
     "highlights": [
       "31.5 inç 4K UHD (3840x2160) Yüksek Kontrastlı VA Panel",
@@ -47250,9 +47249,9 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2023,
     "isPopular": false,
     "isFeatured": false,
-    "image": "https://resim.epey.com/890921/m_lg-ultragear-32gn550-b-1.jpg",
+    "image": "/images/products/monitors/lg-ultragear-32gn550p-b.jpg",
     "images": [
-      "https://resim.epey.com/890921/m_lg-ultragear-32gn550-b-1.jpg"
+      "/images/products/monitors/lg-ultragear-32gn550p-b.jpg"
     ],
     "highlights": [
       "31.5 inç Full HD (1920x1080) VA Ekran",
@@ -47312,9 +47311,9 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2022,
     "isPopular": false,
     "isFeatured": false,
-    "image": "https://resim.epey.com/636890/m_lg-ultragear-32gn550-b-1.jpg",
+    "image": "/images/products/monitors/lg-ultragear-32gn550-b.jpg",
     "images": [
-      "https://resim.epey.com/636890/m_lg-ultragear-32gn550-b-1.jpg"
+      "/images/products/monitors/lg-ultragear-32gn550-b.jpg"
     ],
     "highlights": [
       "31.5 inç Full HD VA Panel",
@@ -47371,9 +47370,9 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2022,
     "isPopular": true,
     "isFeatured": false,
-    "image": "https://resim.epey.com/692518/m_lg-27ul600-tr-1.jpg",
+    "image": "/images/products/monitors/lg-27ul600-w.jpg",
     "images": [
-      "https://resim.epey.com/692518/m_lg-27ul600-tr-1.jpg"
+      "/images/products/monitors/lg-27ul600-w.jpg"
     ],
     "highlights": [
       "27 inç 4K UHD (3840x2160) Canlı IPS Panel",
@@ -47433,9 +47432,9 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": true,
-    "image": "https://resim.epey.com/964449/m_lg-ultragear-27gs65f-b-8806096123195-9.jpg",
+    "image": "/images/products/monitors/lg-ultragear-27gs65f-b.jpg",
     "images": [
-      "https://resim.epey.com/964449/m_lg-ultragear-27gs65f-b-8806096123195-9.jpg"
+      "/images/products/monitors/lg-ultragear-27gs65f-b.jpg"
     ],
     "highlights": [
       "27 inç Full HD (1920x1080) Ultra Hızlı IPS Panel",
@@ -47515,9 +47514,9 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2021,
     "isPopular": false,
     "isFeatured": false,
-    "image": "https://resim.epey.com/101316/m_lg-34uc89g-b-9.jpg",
+    "image": "/images/products/monitors/lg-34uc89g-b.jpg",
     "images": [
-      "https://resim.epey.com/101316/m_lg-34uc89g-b-9.jpg"
+      "/images/products/monitors/lg-34uc89g-b.jpg"
     ],
     "highlights": [
       "34 inç 21:9 Kavisli UltraWide IPS Panel",
@@ -47577,9 +47576,9 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2023,
     "isPopular": true,
     "isFeatured": true,
-    "image": "https://resim.epey.com/190999/m_lg-27md5kl-b-1.jpg",
+    "image": "/images/products/monitors/lg-27md5kl-b.jpg",
     "images": [
-      "https://resim.epey.com/190999/m_lg-27md5kl-b-1.jpg"
+      "/images/products/monitors/lg-27md5kl-b.jpg"
     ],
     "highlights": [
       "27 inç 5K (5120x2880) 218 PPI Zirve Çözünürlük & DCI-P3 %99",
@@ -47659,9 +47658,9 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2022,
     "isPopular": false,
     "isFeatured": false,
-    "image": "https://resim.epey.com/698738/m_lg-34wn650w-1.jpg",
+    "image": "/images/products/monitors/lg-ultrawide-34wn650-w.jpg",
     "images": [
-      "https://resim.epey.com/698738/m_lg-34wn650w-1.jpg"
+      "/images/products/monitors/lg-ultrawide-34wn650-w.jpg"
     ],
     "highlights": [
       "34 inç 21:9 UltraWide Full HD (2560x1080) Düz IPS Panel",
@@ -47721,9 +47720,9 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2022,
     "isPopular": true,
     "isFeatured": false,
-    "image": "https://resim.epey.com/618471/m_lg-34wn700-b-6.jpg",
+    "image": "/images/products/monitors/lg-ultrawide-34wn700-b.jpg",
     "images": [
-      "https://resim.epey.com/618471/m_lg-34wn700-b-6.jpg"
+      "/images/products/monitors/lg-ultrawide-34wn700-b.jpg"
     ],
     "highlights": [
       "34 inç 21:9 UltraWide QHD (3440x1440) Düz IPS Ekran",
@@ -47783,9 +47782,9 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2023,
     "isPopular": true,
     "isFeatured": false,
-    "image": "https://resim.epey.com/856775/m_lg-ultrawide-29wq600-w-1.jpg",
+    "image": "/images/products/monitors/lg-ultrawide-29wq600-w.jpg",
     "images": [
-      "https://resim.epey.com/856775/m_lg-ultrawide-29wq600-w-1.jpg"
+      "/images/products/monitors/lg-ultrawide-29wq600-w.jpg"
     ],
     "highlights": [
       "29 inç 21:9 UltraWide Full HD (2560x1080) IPS Panel",
@@ -47847,9 +47846,9 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2022,
     "isPopular": true,
     "isFeatured": false,
-    "image": "https://resim.epey.com/644748/m_lg-ultragear-27gn800-b-1.jpg",
+    "image": "/images/products/monitors/lg-ultragear-27gn800-b.jpg",
     "images": [
-      "https://resim.epey.com/644748/m_lg-ultragear-27gn800-b-1.jpg"
+      "/images/products/monitors/lg-ultragear-27gn800-b.jpg"
     ],
     "highlights": [
       "27 inç QHD (2560x1440) Ultra Net IPS Ekran",
@@ -47909,9 +47908,9 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2023,
     "isPopular": true,
     "isFeatured": false,
-    "image": "https://resim.epey.com/862534/m_lg-ultragear-27gn650-b-1.jpg",
+    "image": "/images/products/monitors/lg-ultragear-27gn65r-b.jpg",
     "images": [
-      "https://resim.epey.com/862534/m_lg-ultragear-27gn650-b-1.jpg"
+      "/images/products/monitors/lg-ultragear-27gn65r-b.jpg"
     ],
     "highlights": [
       "27 inç Full HD IPS 1ms GtG Panel",
@@ -47970,9 +47969,9 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2022,
     "isPopular": false,
     "isFeatured": false,
-    "image": "https://resim.epey.com/620614/m_lg-32qn650-b-1.jpg",
+    "image": "/images/products/monitors/lg-32qn650-b.jpg",
     "images": [
-      "https://resim.epey.com/620614/m_lg-32qn650-b-1.jpg"
+      "/images/products/monitors/lg-32qn650-b.jpg"
     ],
     "highlights": [
       "31.5 inç QHD (2560x1440) Canlı IPS Ekran",
@@ -48031,9 +48030,9 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2020,
     "isPopular": false,
     "isFeatured": false,
-    "image": "https://resim.epey.com/93627/m_lg-27ud58-b-1.jpg",
+    "image": "/images/products/monitors/lg-27ud58-b.jpg",
     "images": [
-      "https://resim.epey.com/93627/m_lg-27ud58-b-1.jpg"
+      "/images/products/monitors/lg-27ud58-b.jpg"
     ],
     "highlights": [
       "27 inç 4K UHD (3840x2160) IPS Panel",
@@ -48091,9 +48090,9 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2021,
     "isPopular": false,
     "isFeatured": false,
-    "image": "https://resim.epey.com/598517/m_lg-ultragear-27gl63t-b-1.jpg",
+    "image": "/images/products/monitors/lg-ultragear-27gl63t-b.jpg",
     "images": [
-      "https://resim.epey.com/598517/m_lg-ultragear-27gl63t-b-1.jpg"
+      "/images/products/monitors/lg-ultragear-27gl63t-b.jpg"
     ],
     "highlights": [
       "27 inç Full HD IPS Panel",
@@ -48151,9 +48150,9 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2021,
     "isPopular": false,
     "isFeatured": false,
-    "image": "https://resim.epey.com/427498/m_lg-ultragear-27gl650f-b-1.jpg",
+    "image": "/images/products/monitors/lg-ultragear-27gl650f-b.jpg",
     "images": [
-      "https://resim.epey.com/427498/m_lg-ultragear-27gl650f-b-1.jpg"
+      "/images/products/monitors/lg-ultragear-27gl650f-b.jpg"
     ],
     "highlights": [
       "27 inç Full HD IPS Panel",
@@ -48211,9 +48210,9 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2020,
     "isPopular": false,
     "isFeatured": false,
-    "image": "https://resim.epey.com/112686/m_lg-34wk650-w-1.jpg",
+    "image": "/images/products/monitors/lg-34wk650-w.jpg",
     "images": [
-      "https://resim.epey.com/112686/m_lg-34wk650-w-1.jpg"
+      "/images/products/monitors/lg-34wk650-w.jpg"
     ],
     "highlights": [
       "34 inç 21:9 WFHD (2560x1080) Düz IPS Panel",
@@ -48272,9 +48271,9 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": false,
-    "image": "https://resim.epey.com/906128/m_lg-ultrawide-34wr50qc-b-2.jpg",
+    "image": "/images/products/monitors/lg-ultrawide-34wr50qc-b.jpg",
     "images": [
-      "https://resim.epey.com/906128/m_lg-ultrawide-34wr50qc-b-2.jpg"
+      "/images/products/monitors/lg-ultrawide-34wr50qc-b.jpg"
     ],
     "highlights": [
       "34 inç 21:9 WQHD (3440x1440) 1800R Kavisli Panel",
@@ -48333,9 +48332,9 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2022,
     "isPopular": true,
     "isFeatured": false,
-    "image": "https://resim.epey.com/642548/m_lg-ultragear-32gn600-b-1.jpg",
+    "image": "/images/products/monitors/lg-ultragear-32gn600-b.jpg",
     "images": [
-      "https://resim.epey.com/642548/m_lg-ultragear-32gn600-b-1.jpg"
+      "/images/products/monitors/lg-ultragear-32gn600-b.jpg"
     ],
     "highlights": [
       "31.5 inç QHD (2560x1440) Yüksek Çözünürlüklü VA Panel",
@@ -48395,9 +48394,9 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2022,
     "isPopular": false,
     "isFeatured": false,
-    "image": "https://resim.epey.com/691756/m_lg-ultragear-27gn650-b-1.jpg",
+    "image": "/images/products/monitors/lg-ultragear-27gn650-b.jpg",
     "images": [
-      "https://resim.epey.com/691756/m_lg-ultragear-27gn650-b-1.jpg"
+      "/images/products/monitors/lg-ultragear-27gn650-b.jpg"
     ],
     "highlights": [
       "27 inç Full HD IPS 1ms (GtG) Panel",
@@ -48455,9 +48454,9 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2020,
     "isPopular": false,
     "isFeatured": false,
-    "image": "https://resim.epey.com/565602/m_lg-29ub67-b-1.jpg",
+    "image": "/images/products/monitors/lg-29ub67-b.jpg",
     "images": [
-      "https://resim.epey.com/565602/m_lg-29ub67-b-1.jpg"
+      "/images/products/monitors/lg-29ub67-b.jpg"
     ],
     "highlights": [
       "29 inç 21:9 UltraWide Full HD IPS Panel",
@@ -48518,9 +48517,9 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2022,
     "isPopular": true,
     "isFeatured": false,
-    "image": "https://resim.epey.com/685823/m_lg-29wp60g-b-1.jpg",
+    "image": "/images/products/monitors/lg-ultrawide-29wp60g-b.jpg",
     "images": [
-      "https://resim.epey.com/685823/m_lg-29wp60g-b-1.jpg"
+      "/images/products/monitors/lg-ultrawide-29wp60g-b.jpg"
     ],
     "highlights": [
       "29 inç 21:9 UltraWide IPS Ekran",
@@ -48580,9 +48579,9 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2022,
     "isPopular": true,
     "isFeatured": true,
-    "image": "https://resim.epey.com/642620/m_lg-ultragear-24gn650-b-1.jpg",
+    "image": "/images/products/monitors/lg-ultragear-24gn650-b.jpg",
     "images": [
-      "https://resim.epey.com/642620/m_lg-ultragear-24gn650-b-1.jpg"
+      "/images/products/monitors/lg-ultragear-24gn650-b.jpg"
     ],
     "highlights": [
       "23.8 inç Full HD IPS 1ms (GtG) E-Spor Ekranı",
@@ -48662,9 +48661,9 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2021,
     "isPopular": false,
     "isFeatured": false,
-    "image": "https://resim.epey.com/713784/m_lg-24ud58-1.jpg",
+    "image": "/images/products/monitors/lg-24ud58-b.jpg",
     "images": [
-      "https://resim.epey.com/713784/m_lg-24ud58-1.jpg"
+      "/images/products/monitors/lg-24ud58-b.jpg"
     ],
     "highlights": [
       "23.8 inç 4K UHD (3840x2160) Ultra Yüksek Piksel Yoğunluğu (187 PPI)",
