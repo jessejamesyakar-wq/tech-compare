@@ -36,8 +36,14 @@ export function SpotifyCornerBillboardBanner({
               className="w-full h-auto max-h-[300px] xs:max-h-[350px] sm:max-h-[420px] md:max-h-[460px] lg:max-h-[490px] object-contain drop-shadow-[0_20px_28px_rgba(0,0,0,0.18)]"
             />
 
+            {/* Top Right Sponsorlu / Reklam Badge */}
+            <div className="absolute top-3 right-4 z-20 flex items-center gap-1.5 bg-black/75 backdrop-blur-md text-amber-300 text-[10px] font-black uppercase tracking-wider px-2.5 py-1 rounded-lg border border-amber-400/40 shadow-md">
+              <span className="w-1.5 h-1.5 rounded-full bg-amber-400 animate-pulse" />
+              <span>Sponsorlu Reklam</span>
+            </div>
+
             {/* Hover Floating Action Pill */}
-            <div className="absolute top-2 right-4 opacity-0 group-hover:opacity-100 transition-all duration-200 bg-black/85 backdrop-blur-md text-white text-[10px] sm:text-xs font-bold px-3 py-1.5 rounded-full border border-white/20 shadow-lg flex items-center gap-1.5">
+            <div className="absolute bottom-3 right-4 opacity-0 group-hover:opacity-100 transition-all duration-200 bg-black/85 backdrop-blur-md text-white text-[10px] sm:text-xs font-bold px-3 py-1.5 rounded-full border border-white/20 shadow-lg flex items-center gap-1.5">
               <span>Spotify&apos;da Dinle</span>
               <span>→</span>
             </div>

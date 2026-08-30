@@ -19,11 +19,13 @@ import { CategoryBannerGrid } from '@/components/promo/CategoryBannerGrid';
 import { ProductCarousel } from '@/components/catalog/ProductCarousel';
 import { CategoryIconStrip } from '@/components/layout/CategoryIconStrip';
 import { DynamicCategoryShowcase } from '@/components/home/DynamicCategoryShowcase';
-import { TechKiyasCornerBillboard } from '@/components/ads/TechKiyasCornerBillboard';
+import { LiveDealsBillboard } from '@/components/ads/LiveDealsBillboard';
 
 const allProductsCache = getStoredProducts();
-const allMockSmartphonesCount = allProductsCache.filter((p) => p.category === 'smartphones').length;
-const allMockTVsCount = allProductsCache.filter((p) => p.category === 'tvs').length;
+const initialPhonesList = allProductsCache.filter((p) => p.category === 'smartphones') as Smartphone[];
+const initialTVsList = allProductsCache.filter((p) => p.category === 'tvs') as TVProduct[];
+const allMockSmartphonesCount = initialPhonesList.length;
+const allMockTVsCount = initialTVsList.length;
 const allMockTabletsCount = allProductsCache.filter((p) => p.category === 'tablets').length;
 const allMockLaptopsCount = allProductsCache.filter((p) => p.category === 'laptops').length;
 const allMockSmartwatchesCount = allProductsCache.filter((p) => p.category === 'smartwatches').length;
@@ -149,10 +151,10 @@ export default function HomePage() {
   const { t } = useI18n();
   const { addToCompare, removeFromCompare, isInCompare } = useCompare();
 
-  const [allPhones, setAllPhones] = useState<Smartphone[]>([]);
-  const [allTVs, setAllTVs] = useState<TVProduct[]>([]);
-  const [totalCatalogCount, setTotalCatalogCount] = useState<number>(0);
-  const [popularComparisons, setPopularComparisons] = useState<typeof popularComparisonsList>([]);
+  const [allPhones, setAllPhones] = useState<Smartphone[]>(initialPhonesList);
+  const [allTVs, setAllTVs] = useState<TVProduct[]>(initialTVsList);
+  const [totalCatalogCount, setTotalCatalogCount] = useState<number>(allProductsCache.length);
+  const [popularComparisons, setPopularComparisons] = useState<typeof popularComparisonsList>(popularComparisonsList);
 
   const [activeTab, setActiveTab] = useState<string>('2026');
   const [activeTVTab, setActiveTVTab] = useState<string>('oled');
@@ -273,7 +275,7 @@ export default function HomePage() {
       <HeroThumbnailStrip items={heroThumbnails} activeIndex={heroIndex} onSelect={setHeroIndex} />
 
       {/* 🏢 3D Köşe Billboard (aceleEtme Akıllı Karar & Fiyat Rehberi) & Pengi Maskotu */}
-      <TechKiyasCornerBillboard />
+      <LiveDealsBillboard />
 
       {/* 5. Dynamic Category Distribution Showcase (%40 Telefon, %20 TV, %10 Ev Aletleri, %10 Tablet, %10 Saat, %10 Kulaklık) */}
       <DynamicCategoryShowcase />
@@ -519,7 +521,7 @@ export default function HomePage() {
             href="/phones"
             className="inline-flex items-center gap-2 bg-white hover:bg-slate-50 text-slate-900 font-extrabold text-xs px-8 py-3.5 rounded-full border border-slate-200 shadow-xs transition-all hover:border-emerald-500 cursor-pointer"
           >
-            <span>Tüm Fırsat Kataloğunu İncele ({mixedDiscountGrid.length} Ürün)</span>
+            <span>Tüm Fırsat Kataloğunu İncele ({totalCatalogCount > 0 ? `${totalCatalogCount.toLocaleString('tr-TR')} Model` : `${mixedDiscountGrid.length} Model`})</span>
             <ArrowRight className="w-4 h-4 text-emerald-600" />
           </Link>
         </div>

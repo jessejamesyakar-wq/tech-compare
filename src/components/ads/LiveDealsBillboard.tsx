@@ -142,7 +142,7 @@ interface ResolvedStoreDeal {
   targetHref: string;
 }
 
-export function TechKiyasCornerBillboard() {
+export function LiveDealsBillboard() {
   const [currentChannelIndex, setCurrentChannelIndex] = useState(0);
   const [isZapping, setIsZapping] = useState(false);
   const [isPaused, setIsPaused] = useState(false);

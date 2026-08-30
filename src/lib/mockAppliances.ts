@@ -17441,9 +17441,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "4.8 Litre ve 3 Litre İkili Paslanmaz Çelik Kase",
       "Hamur Çengeli, Düz Çırpıcı ve Tel Çırpıcı Dahil"
     ],
-    "image": "https://images.unsplash.com/photo-1594385208974-2e75f8d7bb48?w=800&auto=format&fit=crop&q=80",
+    "image": "/images/products/appliances/dyson-v15-detect.jpg",
     "images": [
-      "https://images.unsplash.com/photo-1594385208974-2e75f8d7bb48?w=800&auto=format&fit=crop&q=80"
+      "/images/products/appliances/dyson-v15-detect.jpg"
     ],
     "storeOffers": [
       {
@@ -17712,9 +17712,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "Tek Tuşla Espresso & Long Coffee Hazırlama",
       "Çıkarılabilir Demleme Ünitesi ile Kolay ve Hijyenik Temizlik"
     ],
-    "image": "https://images.unsplash.com/photo-1517668808822-9ebb02f2a0e6?w=800&auto=format&fit=crop&q=80",
+    "image": "/images/products/appliances/dyson-v15-detect.jpg",
     "images": [
-      "https://images.unsplash.com/photo-1517668808822-9ebb02f2a0e6?w=800&auto=format&fit=crop&q=80"
+      "/images/products/appliances/dyson-v15-detect.jpg"
     ],
     "storeOffers": [
       {
@@ -18946,9 +18946,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "VeSync Mobil Uygulama ile Wi-Fi Uzaktan Kontrol ve Tarifler",
       "12 Özelleştirilebilir Pişirme Programı ve Bulaşık Makinesinde Yıkanabilir"
     ],
-    "image": "https://images.unsplash.com/photo-1584992236310-6edddc08acff?w=800&auto=format&fit=crop&q=80",
+    "image": "/images/products/appliances/dyson-v15-detect.jpg",
     "images": [
-      "https://images.unsplash.com/photo-1584992236310-6edddc08acff?w=800&auto=format&fit=crop&q=80"
+      "/images/products/appliances/dyson-v15-detect.jpg"
     ],
     "storeOffers": [
       {
@@ -19068,9 +19068,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "Akıllı Su Teknolojisi: Fincan Boyutunu Seçin, Suyu Otomatik Alsın",
       "Taşma Önleyici Akıllı Pişirme Sensörü & Dokunmatik Panel"
     ],
-    "image": "https://images.unsplash.com/photo-1517668808822-9ebb02f2a0e6?w=800&auto=format&fit=crop&q=80",
+    "image": "/images/products/appliances/dyson-v15-detect.jpg",
     "images": [
-      "https://images.unsplash.com/photo-1517668808822-9ebb02f2a0e6?w=800&auto=format&fit=crop&q=80"
+      "/images/products/appliances/dyson-v15-detect.jpg"
     ],
     "storeOffers": [
       {
@@ -19189,9 +19189,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "Karaca Connect Uygulaması ile Yataktan veya İşten Çayı Hazırlama",
       "Biberon Maması ve Filtre Kahve için Özel Sıcaklık Kademeleri"
     ],
-    "image": "https://images.unsplash.com/photo-1576092768241-dec231879fc3?w=800&auto=format&fit=crop&q=80",
+    "image": "/images/products/appliances/dyson-v15-detect.jpg",
     "images": [
-      "https://images.unsplash.com/photo-1576092768241-dec231879fc3?w=800&auto=format&fit=crop&q=80"
+      "/images/products/appliances/dyson-v15-detect.jpg"
     ],
     "storeOffers": [
       {
@@ -19311,9 +19311,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "BPA-Free 900 ml & 700 ml Taşınabilir Seyahat Bardakları",
       "Kolay Temizlenebilir, Saniyeler İçinde Karıştır ve Çık"
     ],
-    "image": "https://images.unsplash.com/photo-1570222094114-d054a817e56b?w=800&auto=format&fit=crop&q=80",
+    "image": "/images/products/appliances/dyson-v15-detect.jpg",
     "images": [
-      "https://images.unsplash.com/photo-1570222094114-d054a817e56b?w=800&auto=format&fit=crop&q=80"
+      "/images/products/appliances/dyson-v15-detect.jpg"
     ],
     "storeOffers": [
       {
@@ -19509,7 +19509,7 @@ export const mockAppliances: ApplianceProduct[] = [
     ],
     "image": "/images/appliances/xiaomi-robot-vacuum-x20-plus.jpg",
     "images": [
-      "https://images.unsplash.com/photo-1527515637462-cff94eecc1ac?w=800&auto=format&fit=crop&q=80"
+      "/images/products/appliances/dyson-v15-detect.jpg"
     ],
     "storeOffers": [
       {

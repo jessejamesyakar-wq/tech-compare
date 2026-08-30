@@ -29,7 +29,7 @@ const IDLE_DELAY_MS = 2000; // fare bu kadar süre durursa idle animasyonu başl
 export default function PenguinMascot() {
   const stageRef = useRef<HTMLDivElement>(null);
   const [hovering, setHovering] = useState(false);
-  const [greeting, setGreeting] = useState("Merhaba! Ben aceleEtme asistanınım 👋");
+  const [greeting, setGreeting] = useState("Merhaba! Ben RoboPengu 🐧, aceleEtme'nin robot penguen asistanıyım 👋");
 
   const rawX = useMotionValue(0);
   const rawY = useMotionValue(0);

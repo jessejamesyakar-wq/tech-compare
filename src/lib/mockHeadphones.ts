@@ -45865,7 +45865,7 @@ export const mockHeadphones: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": true,
-    "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=800&auto=format&fit=crop&q=80",
+    "image": "/images/headphones/jbl-tune-520bt.jpg",
     "highlights": [
       "Sektör Lideri Çift İşlemcili ANC",
       "LDAC Yüksek Çözünürlüklü Ses",
@@ -45942,7 +45942,7 @@ export const mockHeadphones: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": false,
-    "image": "https://images.unsplash.com/photo-1546435770-a3e426bf472b?w=800&auto=format&fit=crop&q=80",
+    "image": "/images/headphones/jbl-tune-520bt.jpg",
     "highlights": [
       "JBL Pure Bass Ses Teknolojisi",
       "57 Saate Kadar Pil Ömrü",
@@ -46019,7 +46019,7 @@ export const mockHeadphones: Product[] = [
     "releaseYear": 2025,
     "isPopular": true,
     "isFeatured": true,
-    "image": "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?w=800&auto=format&fit=crop&q=80",
+    "image": "/images/headphones/jbl-tune-520bt.jpg",
     "highlights": [
       "Galaxy AI Akıllı Gürültü Kontrolü",
       "2 Yollu Hoparlör (Hi-Fi Ses)",
@@ -46077,7 +46077,7 @@ export const mockHeadphones: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": false,
-    "image": "https://images.unsplash.com/photo-1546435770-a3e426bf472b?w=800&auto=format&fit=crop&q=80",
+    "image": "/images/headphones/jbl-tune-520bt.jpg",
     "highlights": [
       "80+ Saat Kablosuz Çalma Süresi",
       "İkonik Marshall Vintage Tasarımı",

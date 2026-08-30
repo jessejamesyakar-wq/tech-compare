@@ -171,7 +171,7 @@ export const mockTVs: TVProduct[] = [
     "isFeatured": false,
     "image": "https://resim.epey.com/1018010/k_lg-75qned80a6a-8806096446911-8.jpg",
     "images": [
-      "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=800&q=80"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.5,
     "reviewCount": 180,
@@ -240,7 +240,7 @@ export const mockTVs: TVProduct[] = [
     "isFeatured": false,
     "image": "https://resim.epey.com/1025407/k_lg-75qned82a6b-1.jpg",
     "images": [
-      "https://images.unsplash.com/photo-1571415060716-baff5f7179e6?auto=format&fit=crop&w=800&q=80"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 210,
@@ -309,7 +309,7 @@ export const mockTVs: TVProduct[] = [
     "isFeatured": true,
     "image": "https://resim.epey.com/941366/k_lg-75ut81-75ut81006la-2.jpg",
     "images": [
-      "https://images.unsplash.com/photo-1509281373149-e957c6296406?auto=format&fit=crop&w=800&q=80"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 200,
@@ -378,7 +378,7 @@ export const mockTVs: TVProduct[] = [
     "isFeatured": true,
     "image": "https://resim.epey.com/937409/k_lg-86qned80t-1.jpg",
     "images": [
-      "https://images.unsplash.com/photo-1571415060716-baff5f7179e6?auto=format&fit=crop&w=800&q=80"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 160,
@@ -582,7 +582,7 @@ export const mockTVs: TVProduct[] = [
     "isFeatured": false,
     "image": "https://resim.epey.com/869085/k_lg-75qned816re-1.jpg",
     "images": [
-      "https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?auto=format&fit=crop&w=800&q=80"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 190,
@@ -651,7 +651,7 @@ export const mockTVs: TVProduct[] = [
     "isFeatured": true,
     "image": "https://resim.epey.com/937407/k_lg-86qned80t-1.jpg",
     "images": [
-      "https://images.unsplash.com/photo-1509281373149-e957c6296406?auto=format&fit=crop&w=800&q=80"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 220,
@@ -720,7 +720,7 @@ export const mockTVs: TVProduct[] = [
     "isFeatured": false,
     "image": "https://resim.epey.com/711807/k_lg-55a16-oled55a16la-9.jpg",
     "images": [
-      "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=800&q=80"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 310,
@@ -789,7 +789,7 @@ export const mockTVs: TVProduct[] = [
     "isFeatured": true,
     "image": "https://resim.epey.com/941365/k_lg-oled55b46la-1.jpg",
     "images": [
-      "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=800&q=80"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 380,
@@ -858,7 +858,7 @@ export const mockTVs: TVProduct[] = [
     "isFeatured": true,
     "image": "https://resim.epey.com/958585/k_lg-98qned89t6a-5.jpg",
     "images": [
-      "https://images.unsplash.com/photo-1509281373149-e957c6296406?auto=format&fit=crop&w=800&q=80"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 160,
@@ -927,7 +927,7 @@ export const mockTVs: TVProduct[] = [
     "isFeatured": true,
     "image": "https://resim.epey.com/868531/k_lg-oled55c34la-1.jpg",
     "images": [
-      "https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?auto=format&fit=crop&w=800&q=80"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 580,
@@ -996,7 +996,7 @@ export const mockTVs: TVProduct[] = [
     "isFeatured": true,
     "image": "https://resim.epey.com/873763/k_lg-oled55cs3va-1.jpg",
     "images": [
-      "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=800&q=80"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 450,
@@ -1065,7 +1065,7 @@ export const mockTVs: TVProduct[] = [
     "isFeatured": true,
     "image": "https://resim.epey.com/1013139/k_lg-oled77b56-oled77b56la-8806096431733-1.jpg",
     "images": [
-      "https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?auto=format&fit=crop&w=800&q=80"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 310,
@@ -1134,7 +1134,7 @@ export const mockTVs: TVProduct[] = [
     "isFeatured": false,
     "image": "https://resim.epey.com/1013855/k_lg-oled83b56la-10.jpg",
     "images": [
-      "https://images.unsplash.com/photo-1571415060716-baff5f7179e6?auto=format&fit=crop&w=800&q=80"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 220,
@@ -1203,7 +1203,7 @@ export const mockTVs: TVProduct[] = [
     "isFeatured": true,
     "image": "https://resim.epey.com/1013012/k_lg-100qned86a6-3.jpg",
     "images": [
-      "https://images.unsplash.com/photo-1509281373149-e957c6296406?auto=format&fit=crop&w=800&q=80"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 140,
@@ -1272,7 +1272,7 @@ export const mockTVs: TVProduct[] = [
     "isFeatured": true,
     "image": "https://resim.epey.com/1020253/k_lg-oled55c54la-8806096460078-1.jpg",
     "images": [
-      "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=800&q=80"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 390,
@@ -1821,7 +1821,7 @@ export const mockTVs: TVProduct[] = [
     "isFeatured": true,
     "image": "https://resim.epey.com/1030997/k_lg-oled83m59la-8806096467930-1.jpg",
     "images": [
-      "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=800&q=80"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.9,
     "reviewCount": 195,
@@ -1889,7 +1889,7 @@ export const mockTVs: TVProduct[] = [
     "isFeatured": false,
     "image": "https://resim.epey.com/1012562/k_lg-oled83g55lw-4.jpg",
     "images": [
-      "https://images.unsplash.com/photo-1571415060716-baff5f7179e6?auto=format&fit=crop&w=800&q=80"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 260,
@@ -2026,7 +2026,7 @@ export const mockTVs: TVProduct[] = [
     "isFeatured": false,
     "image": "https://resim.epey.com/1039970/k_lg-oled97g54lw-1.jpg",
     "images": [
-      "https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?auto=format&fit=crop&w=800&q=80"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.9,
     "reviewCount": 380,
@@ -7923,7 +7923,7 @@ export const mockTVs: TVProduct[] = [
     "isFeatured": true,
     "image": "https://resim.epey.com/1025406/k_lg-65qned93a6a-4.jpg",
     "images": [
-      "https://images.unsplash.com/photo-1571415060716-baff5f7179e6?auto=format&fit=crop&w=800&q=80"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 240,
@@ -9134,7 +9134,7 @@ export const mockTVs: TVProduct[] = [
     "isFeatured": true,
     "image": "https://resim.epey.com/1012982/k_lg-55qned86a6a-5.jpg",
     "images": [
-      "https://images.unsplash.com/photo-1571415060716-baff5f7179e6?auto=format&fit=crop&w=800&q=80"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 320,
@@ -9203,7 +9203,7 @@ export const mockTVs: TVProduct[] = [
     "isFeatured": false,
     "image": "https://resim.epey.com/1032648/k_lg-75qned82a6b-1.jpg",
     "images": [
-      "https://images.unsplash.com/photo-1509281373149-e957c6296406?auto=format&fit=crop&w=800&q=80"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 170,
@@ -15066,7 +15066,7 @@ export const mockTVs: TVProduct[] = [
     "isPopular": false,
     "rating": 3.1,
     "reviewCount": 264,
-    "image": "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=800&q=80",
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "highlights": [
       "65\" QNED Ultra HD (4K) Ekran",
       "webOS Akıllı TV İşletim Sistemi",
