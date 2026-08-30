@@ -231,7 +231,7 @@ export default function TVDetailClient({ initialTVProduct }: { initialTVProduct:
       <StoreTable offers={tv.storeOffers} currency={tv.currency} />
 
       {/* 6-Month Price History Chart */}
-      <PriceHistoryChart data={tv.priceHistory} currency={tv.currency} />
+      <PriceHistoryChart data={tv.priceHistory} currency={tv.currency} product={tv} />
 
       {/* Exhaustive Technical Specifications Table */}
       <div className="space-y-4">

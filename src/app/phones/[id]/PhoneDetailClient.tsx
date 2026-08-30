@@ -194,7 +194,7 @@ export default function PhoneDetailClient({ initialPhone }: { initialPhone: Smar
       </div>
 
       {/* 6-Month Price History Chart */}
-      <PriceHistoryChart data={phone.priceHistory} currency={phone.currency} />
+      <PriceHistoryChart data={phone.priceHistory} currency={phone.currency} product={phone} />
 
       {/* Technical Specs Breakdown */}
       <div className="space-y-4">

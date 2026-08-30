@@ -1,8 +1,9 @@
 'use client';
 
 import React from 'react';
-import { PriceHistoryPoint } from '@/lib/types';
+import { PriceHistoryPoint, Product } from '@/lib/types';
 import { useI18n } from '@/lib/i18n/context';
+import { PriceSignalCard } from './PriceSignalCard';
 import {
   AreaChart,
   Area,
@@ -18,9 +19,10 @@ import { TrendingDown, Sparkles } from 'lucide-react';
 interface PriceHistoryChartProps {
   data: PriceHistoryPoint[];
   currency: string;
+  product?: Product;
 }
 
-export function PriceHistoryChart({ data, currency }: PriceHistoryChartProps) {
+export function PriceHistoryChart({ data, currency, product }: PriceHistoryChartProps) {
   const { t } = useI18n();
 
   if (!data || data.length === 0) return null;
@@ -129,6 +131,13 @@ export function PriceHistoryChart({ data, currency }: PriceHistoryChartProps) {
           </AreaChart>
         </ResponsiveContainer>
       </div>
+
+      {/* Embedded "Şimdi mi Al, Sonra mı?" Price Signal Card */}
+      {product && (
+        <div className="pt-2 border-t border-slate-100">
+          <PriceSignalCard product={product} className="border-0 p-0 shadow-none bg-transparent" />
+        </div>
+      )}
 
     </div>
   );
