@@ -12,6 +12,18 @@ export interface PriceAlert {
   active?: boolean;
 }
 
+export interface ProductVariant {
+  id: string;
+  name: string;
+  colorName?: string;
+  colorHex?: string;
+  image: string;
+  images?: string[];
+  priceOffset?: number;
+  inStock?: boolean;
+  sku?: string;
+}
+
 export interface BaseProduct {
   id: string;
   slug: string;
@@ -39,6 +51,7 @@ export interface BaseProduct {
   storeOffers: StoreOffer[];
   priceHistory: PriceHistoryPoint[];
   colorOptions?: { name: string; hex: string }[];
+  variants?: ProductVariant[];
 }
 
 export interface ApplianceSpecs {

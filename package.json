@@ -4,9 +4,11 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "prebuild": "node scripts/preDeployCheck.js",
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
+    "pre-deploy": "node scripts/preDeployCheck.js",
     "scrape:2026": "node scripts/scrape2026Prices.js",
     "test:links": "node scripts/testBrandProductIntegrity.js"
   },
