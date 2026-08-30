@@ -96330,9 +96330,9 @@ export const mockLaptops: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": true,
-    "image": "/images/laptops/samsung-1025804.jpg",
+    "image": "/images/laptops/samsung-1025792.jpg",
     "images": [
-      "/images/laptops/samsung-1025804.jpg"
+      "/images/laptops/samsung-1025792.jpg"
     ],
     "highlights": [
       "16\" 3K (2880x1800) Dynamic AMOLED 2X 120Hz Dokunmatik Ekran",
@@ -96392,9 +96392,9 @@ export const mockLaptops: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": true,
-    "image": "/images/laptops/samsung-1025808.jpg",
+    "image": "/images/laptops/samsung-1025792.jpg",
     "images": [
-      "/images/laptops/samsung-1025808.jpg"
+      "/images/laptops/samsung-1025792.jpg"
     ],
     "highlights": [
       "16\" 3K (2880x1800) Dynamic AMOLED 2X 120Hz Dokunmatik Ekran",
@@ -96516,9 +96516,9 @@ export const mockLaptops: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": true,
-    "image": "/images/laptops/samsung-1025807.jpg",
+    "image": "/images/laptops/samsung-1025792.jpg",
     "images": [
-      "/images/laptops/samsung-1025807.jpg"
+      "/images/laptops/samsung-1025792.jpg"
     ],
     "highlights": [
       "16\" 3K (2880x1800) Dynamic AMOLED 2X 120Hz Dokunmatik Ekran",
