@@ -4,7 +4,9 @@ import React, { useState, useEffect, useMemo } from 'react';
 import Link from 'next/link';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Sparkles, ChevronLeft, ChevronRight, Zap, Award, ArrowRight, ShieldCheck } from 'lucide-react';
-import { getStoredProducts } from '@/lib/adminData';
+import { mockSmartphones } from '@/lib/mockData';
+import { mockTVs } from '@/lib/mockTVs';
+import { Product } from '@/lib/types';
 
 export interface HeroSlideItem {
   id: string;
@@ -21,9 +23,9 @@ export interface HeroSlideItem {
 }
 
 export function getDynamicHeroSlides(): HeroSlideItem[] {
-  const all = getStoredProducts();
+  const all: Product[] = [...mockSmartphones, ...mockTVs];
 
-  // Filter top products across smartphones, tvs, laptops, tablets, headphones, monitors, etc.
+  // Filter top products across smartphones and tvs
   const featured = all
     .filter((p) => p.basePrice > 0 && p.image && !p.image.includes('placeholder'))
     .sort((a, b) => (b.rating * b.reviewCount) - (a.rating * a.reviewCount))

@@ -3,7 +3,8 @@
 import React, { useState, useEffect, useRef, useMemo } from 'react';
 import Link from 'next/link';
 import PenguinMascot from '@/components/PenguinMascot';
-import { getStoredProducts } from '@/lib/adminData';
+import { mockSmartphones } from '@/lib/mockData';
+import { mockTVs } from '@/lib/mockTVs';
 import { Product } from '@/lib/types';
 import { TrendingDown, Sparkles, Tag, ShieldCheck, ArrowRight, Store } from 'lucide-react';
 
@@ -151,7 +152,7 @@ export function LiveDealsBillboard() {
 
   // Dynamically resolve the top real discount product for each store
   const activeDeals: ResolvedStoreDeal[] = useMemo(() => {
-    const allProducts = getStoredProducts();
+    const allProducts: Product[] = [...mockSmartphones, ...mockTVs];
 
     return CHANNEL_CONFIGS.map((config) => {
       const storeKey = config.brand.toLowerCase().replace(' bilgisayar', '');

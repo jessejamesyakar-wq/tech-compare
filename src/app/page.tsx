@@ -6,8 +6,8 @@ import { motion } from 'framer-motion';
 import { useI18n } from '@/lib/i18n/context';
 import { useCompare } from '@/context/CompareContext';
 import { getFeaturedSmartphones, getPopularComparisonsData, getAllSmartphones, getAllTVs, getAllProducts } from '@/lib/data';
-import { getStoredProducts } from '@/lib/adminData';
-import { popularComparisonsList } from '@/lib/mockData';
+import { mockSmartphones, popularComparisonsList } from '@/lib/mockData';
+import { mockTVs } from '@/lib/mockTVs';
 import { Smartphone, TVProduct } from '@/lib/types';
 import { calculateTVScore } from '@/lib/tvScoring';
 import { HeroCarousel, getDynamicHeroSlides } from '@/components/promo/HeroCarousel';
@@ -21,14 +21,13 @@ import { CategoryIconStrip } from '@/components/layout/CategoryIconStrip';
 import { DynamicCategoryShowcase } from '@/components/home/DynamicCategoryShowcase';
 import { LiveDealsBillboard } from '@/components/ads/LiveDealsBillboard';
 
-const allProductsCache = getStoredProducts();
-const initialPhonesList = allProductsCache.filter((p) => p.category === 'smartphones') as Smartphone[];
-const initialTVsList = allProductsCache.filter((p) => p.category === 'tvs') as TVProduct[];
+const initialPhonesList = mockSmartphones as Smartphone[];
+const initialTVsList = mockTVs as TVProduct[];
 const allMockSmartphonesCount = initialPhonesList.length;
 const allMockTVsCount = initialTVsList.length;
-const allMockTabletsCount = allProductsCache.filter((p) => p.category === 'tablets').length;
-const allMockLaptopsCount = allProductsCache.filter((p) => p.category === 'laptops').length;
-const allMockSmartwatchesCount = allProductsCache.filter((p) => p.category === 'smartwatches').length;
+const allMockTabletsCount = 20;
+const allMockLaptopsCount = 35;
+const allMockSmartwatchesCount = 18;
 
 const CATEGORY_BANNERS_ROW1 = [
   {
@@ -153,7 +152,7 @@ export default function HomePage() {
 
   const [allPhones, setAllPhones] = useState<Smartphone[]>(initialPhonesList);
   const [allTVs, setAllTVs] = useState<TVProduct[]>(initialTVsList);
-  const [totalCatalogCount, setTotalCatalogCount] = useState<number>(allProductsCache.length);
+  const [totalCatalogCount, setTotalCatalogCount] = useState<number>(357);
   const [popularComparisons, setPopularComparisons] = useState<typeof popularComparisonsList>(popularComparisonsList);
 
   const [activeTab, setActiveTab] = useState<string>('2026');

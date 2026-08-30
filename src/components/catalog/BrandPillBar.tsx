@@ -3,7 +3,9 @@
 import React, { useMemo } from 'react';
 import { motion } from 'framer-motion';
 import { Sparkles } from 'lucide-react';
-import { getStoredProducts } from '@/lib/adminData';
+import { mockSmartphones } from '@/lib/mockData';
+import { mockTVs } from '@/lib/mockTVs';
+import { Product } from '@/lib/types';
 
 interface BrandPillBarProps {
   category?: 'smartphones' | 'tablets' | 'smartwatches' | 'laptops' | 'tvs' | 'appliances' | 'headphones' | 'consoles';
@@ -12,17 +14,29 @@ interface BrandPillBarProps {
   brandCounts?: Record<string, number>;
 }
 
-export function BrandPillBar({ category = 'smartphones', selectedBrands, onSelectBrand }: BrandPillBarProps) {
+export function BrandPillBar({ category = 'smartphones', selectedBrands, onSelectBrand, brandCounts }: BrandPillBarProps) {
   const isAllSelected = selectedBrands.length === 0;
 
   // Dynamically compute brands that actually exist in the target category dataset
   const { row1, row2, totalCount, brandsMap } = useMemo(() => {
-    const all = getStoredProducts();
+    if (brandCounts) {
+      const sortedBrands = Object.keys(brandCounts).sort((a, b) => brandCounts[b] - brandCounts[a]);
+      const total = Object.values(brandCounts).reduce((a, b) => a + b, 0);
+      const half = Math.ceil(sortedBrands.length / 2);
+      return {
+        row1: sortedBrands.slice(0, half),
+        row2: sortedBrands.slice(half),
+        totalCount: total,
+        brandsMap: brandCounts
+      };
+    }
+
+    const all: Product[] = category === 'tvs' ? mockTVs : mockSmartphones;
     const map: Record<string, number> = {};
     let total = 0;
 
     all
-      .filter((p) => p.category === category)
+      .filter((p) => p.category === category || category === 'smartphones')
       .forEach((p) => {
         if (p.brand) {
           map[p.brand] = (map[p.brand] || 0) + 1;

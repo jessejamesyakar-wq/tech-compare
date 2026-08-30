@@ -13,7 +13,6 @@ import {
   getAllConsoles,
   getAllMonitors,
 } from '@/lib/data';
-import { getStoredProducts } from '@/lib/adminData';
 import { saveBrandLogoToIDB, getAllBrandLogosFromIDB, deleteBrandLogoFromIDB } from '@/lib/idbBrandLogos';
 import { Sparkles, ArrowRight, Upload, Image as ImageIcon, RotateCcw, X, Edit3, Check, AlertCircle } from 'lucide-react';
 
@@ -280,11 +279,7 @@ export function BrandLogoBar({ onSelectBrand }: { onSelectBrand?: (brand: string
   const [isModalOpen, setIsModalOpen] = useState<boolean>(false);
   const [storageError, setStorageError] = useState<string | null>(null);
 
-  const activeBrandConfigs = React.useMemo(() => {
-    const all = getStoredProducts();
-    const presentBrands = new Set(all.map((p) => p.brand.toLowerCase()));
-    return BRAND_CONFIGS.filter((b) => presentBrands.has(b.name.toLowerCase()));
-  }, []);
+  const activeBrandConfigs = BRAND_CONFIGS;
 
   useEffect(() => {
     // Load custom brand logos safely from IndexedDB

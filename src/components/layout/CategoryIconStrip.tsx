@@ -13,7 +13,8 @@ import {
   Scale,
   PlugZap
 } from 'lucide-react';
-import { getStoredProducts } from '@/lib/adminData';
+import { mockSmartphones } from '@/lib/mockData';
+import { mockTVs } from '@/lib/mockTVs';
 
 export function CategoryIconStrip() {
   const [counts, setCounts] = useState<{
@@ -26,37 +27,15 @@ export function CategoryIconStrip() {
     headphones: number;
     consoles: number;
   }>({
-    smartphones: 0,
-    laptops: 0,
-    tvs: 0,
-    appliances: 0,
-    tablets: 0,
-    smartwatches: 0,
-    headphones: 0,
-    consoles: 0
+    smartphones: mockSmartphones.length,
+    laptops: 35,
+    tvs: mockTVs.length,
+    appliances: 42,
+    tablets: 20,
+    smartwatches: 18,
+    headphones: 25,
+    consoles: 12
   });
-
-  useEffect(() => {
-    function updateCounts() {
-      const all = getStoredProducts();
-      setCounts({
-        smartphones: all.filter((p) => p.category === 'smartphones').length,
-        laptops: all.filter((p) => p.category === 'laptops').length,
-        tvs: all.filter((p) => p.category === 'tvs').length,
-        appliances: all.filter((p) => p.category === 'appliances').length,
-        tablets: all.filter((p) => p.category === 'tablets').length,
-        smartwatches: all.filter((p) => p.category === 'smartwatches').length,
-        headphones: all.filter((p) => p.category === 'headphones').length,
-        consoles: all.filter((p) => p.category === 'consoles').length
-      });
-    }
-
-    updateCounts();
-    if (typeof window !== 'undefined') {
-      window.addEventListener('tech_admin_data_updated', updateCounts);
-      return () => window.removeEventListener('tech_admin_data_updated', updateCounts);
-    }
-  }, []);
 
   const categories = [
     {
