@@ -42521,7 +42521,7 @@ export const mockTablets: Product[] = [
   },
   {
     "id": "samsung-samsung-galaxy-tab-s7-s7-fe-s8-turkce-klavyeli-kilif",
-    "slug": "samsung-samsung-galaxy-tab-s7-s7-fe-s8-turkce-klavyeli-kilif",
+    "slug": "samsung-samsung-galaxy-tab-s7-s7-fe-s8-turkce-klavyeli-kilif-plus",
     "name": "Samsung Galaxy Tab S7+/S7 FE/S8+ Türkçe Klavyeli Kılıf",
     "brand": "Samsung",
     "category": "tablets",
@@ -42791,7 +42791,7 @@ export const mockTablets: Product[] = [
   },
   {
     "id": "samsung-samsung-galaxy-s23-cok-amacli-seffaf-kilif",
-    "slug": "samsung-samsung-galaxy-s23-cok-amacli-seffaf-kilif",
+    "slug": "samsung-samsung-galaxy-s23-cok-amacli-seffaf-kilif-plus",
     "name": "Samsung Galaxy S23+ Çok Amaçlı Şeffaf Kılıf",
     "brand": "Samsung",
     "category": "tablets",
@@ -43223,7 +43223,7 @@ export const mockTablets: Product[] = [
   },
   {
     "id": "samsung-samsung-galaxy-tab-s9-mousepadli-klavyeli-kapakli-kilif",
-    "slug": "samsung-samsung-galaxy-tab-s9-mousepadli-klavyeli-kapakli-kilif",
+    "slug": "samsung-samsung-galaxy-tab-s9-mousepadli-klavyeli-kapakli-kilif-plus",
     "name": "Samsung Galaxy Tab S9+ Mousepadli Klavyeli Kapaklı Kılıf",
     "brand": "Samsung",
     "category": "tablets",
@@ -43812,7 +43812,7 @@ export const mockTablets: Product[] = [
   },
   {
     "id": "samsung-samsung-galaxy-tab-s9-not-ekrani",
-    "slug": "samsung-samsung-galaxy-tab-s9-not-ekrani",
+    "slug": "samsung-samsung-galaxy-tab-s9-not-ekrani-plus",
     "name": "Samsung Galaxy Tab S9+ Not Ekranı",
     "brand": "Samsung",
     "category": "tablets",

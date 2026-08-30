@@ -43627,7 +43627,7 @@
   },
   {
     "id": "samsung-samsung-galaxy-s9-2",
-    "slug": "samsung-galaxy-s9",
+    "slug": "samsung-galaxy-s9-plus",
     "name": "Samsung Galaxy S9+",
     "brand": "Samsung",
     "category": "smartphones",
@@ -43644,9 +43644,9 @@
       "6 GB RAM & 128 GB Depolama",
       "3500 mAh Batarya Kapasitesi"
     ],
-    "image": "/images/products/smartphones/samsung-samsung-galaxy-s9-2.jpg",
+    "image": "/images/phones/samsung/samsung-galaxy-s9-plus.jpg",
     "images": [
-      "/images/products/smartphones/samsung-samsung-galaxy-s9-2.jpg"
+      "/images/phones/samsung/samsung-galaxy-s9-plus.jpg"
     ],
     "storeOffers": [
       {
@@ -43731,12 +43731,9 @@
     ],
     "specs": {
       "screen": {
-        "size": "6.2\"",
-        "type": "6.2\" Quad HD+ Super AMOLED",
-        "resolution": "3080 x 1440 px",
-        "refreshRate": 120,
-        "ppi": 500,
-        "brightnessNits": 2600
+        "size": "6.2 inç",
+        "resolution": "1440 x 2960 px",
+        "technology": "Super AMOLED"
       },
       "processor": {
         "chip": "Exynos 9810",
@@ -43746,26 +43743,15 @@
       },
       "memory": {
         "ramGb": 6,
-        "ramType": "LPDDR5X",
-        "storageGb": 128,
-        "storageOptions": [
-          128
-        ],
-        "expandableStorage": false
+        "storageGb": 128
       },
       "camera": {
-        "mainMp": "12 MP",
-        "ultrawideMp": "12 MP",
-        "telephotoMp": "50 MP (5x Optik Zoom)",
-        "selfieMp": "12 MP Dual Pixel",
-        "videoRes": "8K @ 30fps",
-        "dxomarkScore": 154
+        "mainMp": "12 MP + 12 MP Telephoto",
+        "frontMp": "8 MP"
       },
       "battery": {
         "capacitymAh": 3500,
-        "chargingWatts": 45,
-        "wirelessCharging": true,
-        "reverseWireless": true
+        "fastChargingWatt": 15
       },
       "connectivity": {
         "has5G": false,
@@ -44110,7 +44096,7 @@
   },
   {
     "id": "samsung-samsung-galaxy-a8-2018-5",
-    "slug": "samsung-galaxy-a8-2018",
+    "slug": "samsung-galaxy-a8-plus-2018",
     "name": "Samsung Galaxy A8+ (2018)",
     "brand": "Samsung",
     "category": "smartphones",
@@ -44127,9 +44113,9 @@
       "6 GB RAM & 64 GB Depolama",
       "3500 mAh Batarya Kapasitesi"
     ],
-    "image": "/images/products/smartphones/samsung-samsung-galaxy-a8-2018-5.jpg",
+    "image": "/images/phones/samsung/samsung-galaxy-a8-plus-2018.jpg",
     "images": [
-      "/images/products/smartphones/samsung-samsung-galaxy-a8-2018-5.jpg"
+      "/images/phones/samsung/samsung-galaxy-a8-plus-2018.jpg"
     ],
     "storeOffers": [
       {
@@ -44214,12 +44200,9 @@
     ],
     "specs": {
       "screen": {
-        "size": "6.0\"",
-        "type": "6.0\" FHD+ Super AMOLED",
-        "resolution": "2340 x 1080 px",
-        "refreshRate": 60,
-        "ppi": 390,
-        "brightnessNits": 1000
+        "size": "6.0 inç",
+        "resolution": "1080 x 2220 px",
+        "technology": "Super AMOLED"
       },
       "processor": {
         "chip": "Exynos 7885",
@@ -44229,26 +44212,15 @@
       },
       "memory": {
         "ramGb": 6,
-        "ramType": "LPDDR5X",
-        "storageGb": 64,
-        "storageOptions": [
-          64
-        ],
-        "expandableStorage": true
+        "storageGb": 64
       },
       "camera": {
         "mainMp": "16 MP",
-        "ultrawideMp": "12 MP",
-        "telephotoMp": "Yok",
-        "selfieMp": "13 MP",
-        "videoRes": "4K @ 30fps",
-        "dxomarkScore": 118
+        "frontMp": "16 MP + 8 MP Çift Ön"
       },
       "battery": {
         "capacitymAh": 3500,
-        "chargingWatts": 25,
-        "wirelessCharging": false,
-        "reverseWireless": false
+        "fastChargingWatt": 18
       },
       "connectivity": {
         "has5G": false,
@@ -44593,7 +44565,7 @@
   },
   {
     "id": "samsung-samsung-galaxy-a6-2018-8",
-    "slug": "samsung-galaxy-a6-2018",
+    "slug": "samsung-galaxy-a6-plus-2018",
     "name": "Samsung Galaxy A6+ (2018)",
     "brand": "Samsung",
     "category": "smartphones",
@@ -44610,9 +44582,9 @@
       "4 GB RAM & 64 GB Depolama",
       "3500 mAh Batarya Kapasitesi"
     ],
-    "image": "/images/products/smartphones/samsung-samsung-galaxy-a6-2018-8.jpg",
+    "image": "/images/phones/samsung/samsung-galaxy-a6-plus-2018.jpg",
     "images": [
-      "/images/products/smartphones/samsung-samsung-galaxy-a6-2018-8.jpg"
+      "/images/phones/samsung/samsung-galaxy-a6-plus-2018.jpg"
     ],
     "storeOffers": [
       {
@@ -44697,12 +44669,9 @@
     ],
     "specs": {
       "screen": {
-        "size": "6.0\"",
-        "type": "6.0\" FHD+ Super AMOLED",
-        "resolution": "2340 x 1080 px",
-        "refreshRate": 60,
-        "ppi": 390,
-        "brightnessNits": 1000
+        "size": "6.0 inç",
+        "resolution": "1080 x 2220 px",
+        "technology": "Super AMOLED"
       },
       "processor": {
         "chip": "Snapdragon 450",
@@ -44712,26 +44681,15 @@
       },
       "memory": {
         "ramGb": 4,
-        "ramType": "LPDDR5X",
-        "storageGb": 64,
-        "storageOptions": [
-          64
-        ],
-        "expandableStorage": true
+        "storageGb": 64
       },
       "camera": {
-        "mainMp": "16 MP",
-        "ultrawideMp": "12 MP",
-        "telephotoMp": "Yok",
-        "selfieMp": "13 MP",
-        "videoRes": "4K @ 30fps",
-        "dxomarkScore": 118
+        "mainMp": "16 MP + 5 MP",
+        "frontMp": "24 MP"
       },
       "battery": {
         "capacitymAh": 3500,
-        "chargingWatts": 25,
-        "wirelessCharging": false,
-        "reverseWireless": false
+        "fastChargingWatt": 10
       },
       "connectivity": {
         "has5G": false,
@@ -45720,7 +45678,7 @@
   },
   {
     "id": "samsung-samsung-galaxy-s10-15",
-    "slug": "samsung-galaxy-s10",
+    "slug": "samsung-galaxy-s10-plus",
     "name": "Samsung Galaxy S10+",
     "brand": "Samsung",
     "category": "smartphones",
@@ -45737,9 +45695,9 @@
       "8 GB RAM & 512 GB Depolama",
       "4100 mAh Batarya Kapasitesi"
     ],
-    "image": "/images/products/smartphones/samsung-samsung-galaxy-s10-15.jpg",
+    "image": "/images/phones/samsung/samsung-galaxy-s10-plus.jpg",
     "images": [
-      "/images/products/smartphones/samsung-samsung-galaxy-s10-15.jpg"
+      "/images/phones/samsung/samsung-galaxy-s10-plus.jpg"
     ],
     "storeOffers": [
       {
@@ -45824,12 +45782,9 @@
     ],
     "specs": {
       "screen": {
-        "size": "6.4\"",
-        "type": "6.4\" Quad HD+ Dynamic AMOLED",
-        "resolution": "3080 x 1440 px",
-        "refreshRate": 120,
-        "ppi": 500,
-        "brightnessNits": 2600
+        "size": "6.4 inç",
+        "resolution": "1440 x 3040 px",
+        "technology": "Dynamic AMOLED"
       },
       "processor": {
         "chip": "Exynos 9820",
@@ -45839,26 +45794,15 @@
       },
       "memory": {
         "ramGb": 8,
-        "ramType": "LPDDR5X",
-        "storageGb": 512,
-        "storageOptions": [
-          512
-        ],
-        "expandableStorage": false
+        "storageGb": 128
       },
       "camera": {
-        "mainMp": "12 MP",
-        "ultrawideMp": "12 MP",
-        "telephotoMp": "50 MP (5x Optik Zoom)",
-        "selfieMp": "12 MP Dual Pixel",
-        "videoRes": "8K @ 30fps",
-        "dxomarkScore": 154
+        "mainMp": "12 MP + 12 MP + 16 MP Ultra Geniş",
+        "frontMp": "10 MP + 8 MP Çift Ön"
       },
       "battery": {
         "capacitymAh": 4100,
-        "chargingWatts": 45,
-        "wirelessCharging": true,
-        "reverseWireless": true
+        "fastChargingWatt": 15
       },
       "connectivity": {
         "has5G": false,
@@ -46203,7 +46147,7 @@
   },
   {
     "id": "samsung-samsung-galaxy-note-10-18",
-    "slug": "samsung-galaxy-note-10",
+    "slug": "samsung-galaxy-note-10-plus",
     "name": "Samsung Galaxy Note 10+",
     "brand": "Samsung",
     "category": "smartphones",
@@ -46220,9 +46164,9 @@
       "12 GB RAM & 512 GB Depolama",
       "4300 mAh Batarya Kapasitesi"
     ],
-    "image": "/images/products/smartphones/samsung-samsung-galaxy-note-10-18.jpg",
+    "image": "/images/phones/samsung/samsung-galaxy-note-10-plus.jpg",
     "images": [
-      "/images/products/smartphones/samsung-samsung-galaxy-note-10-18.jpg"
+      "/images/phones/samsung/samsung-galaxy-note-10-plus.jpg"
     ],
     "storeOffers": [
       {
@@ -46307,12 +46251,9 @@
     ],
     "specs": {
       "screen": {
-        "size": "6.8\"",
-        "type": "6.8\" Quad HD+ Dynamic AMOLED (S-Pen)",
-        "resolution": "3080 x 1440 px",
-        "refreshRate": 120,
-        "ppi": 500,
-        "brightnessNits": 2600
+        "size": "6.8 inç",
+        "resolution": "1440 x 3040 px",
+        "technology": "Dynamic AMOLED"
       },
       "processor": {
         "chip": "Exynos 9825",
@@ -46322,26 +46263,15 @@
       },
       "memory": {
         "ramGb": 12,
-        "ramType": "LPDDR5X",
-        "storageGb": 512,
-        "storageOptions": [
-          512
-        ],
-        "expandableStorage": false
+        "storageGb": 256
       },
       "camera": {
-        "mainMp": "12 MP",
-        "ultrawideMp": "12 MP",
-        "telephotoMp": "50 MP (5x Optik Zoom)",
-        "selfieMp": "12 MP Dual Pixel",
-        "videoRes": "8K @ 30fps",
-        "dxomarkScore": 154
+        "mainMp": "12 MP + 12 MP + 16 MP + TOF 3D",
+        "frontMp": "10 MP"
       },
       "battery": {
         "capacitymAh": 4300,
-        "chargingWatts": 45,
-        "wirelessCharging": true,
-        "reverseWireless": true
+        "fastChargingWatt": 45
       },
       "connectivity": {
         "has5G": false,
@@ -48618,7 +48548,7 @@
   },
   {
     "id": "samsung-samsung-galaxy-s20-33",
-    "slug": "samsung-galaxy-s20",
+    "slug": "samsung-galaxy-s20-plus",
     "name": "Samsung Galaxy S20+",
     "brand": "Samsung",
     "category": "smartphones",
@@ -48635,9 +48565,9 @@
       "8 GB RAM & 128 GB Depolama",
       "4500 mAh Batarya Kapasitesi"
     ],
-    "image": "/images/products/smartphones/samsung-samsung-galaxy-s20-33.jpg",
+    "image": "/images/phones/samsung/samsung-galaxy-s20-plus.jpg",
     "images": [
-      "/images/products/smartphones/samsung-samsung-galaxy-s20-33.jpg"
+      "/images/phones/samsung/samsung-galaxy-s20-plus.jpg"
     ],
     "storeOffers": [
       {
@@ -48722,12 +48652,9 @@
     ],
     "specs": {
       "screen": {
-        "size": "6.7\"",
-        "type": "6.7\" Quad HD+ 120Hz Dynamic AMOLED 2X",
-        "resolution": "3080 x 1440 px",
-        "refreshRate": 120,
-        "ppi": 500,
-        "brightnessNits": 2600
+        "size": "6.7 inç",
+        "resolution": "1440 x 3200 px",
+        "technology": "Dynamic AMOLED 2X 120Hz"
       },
       "processor": {
         "chip": "Exynos 990",
@@ -48737,26 +48664,15 @@
       },
       "memory": {
         "ramGb": 8,
-        "ramType": "LPDDR5X",
-        "storageGb": 128,
-        "storageOptions": [
-          128
-        ],
-        "expandableStorage": false
+        "storageGb": 128
       },
       "camera": {
-        "mainMp": "64 MP",
-        "ultrawideMp": "12 MP",
-        "telephotoMp": "50 MP (5x Optik Zoom)",
-        "selfieMp": "12 MP Dual Pixel",
-        "videoRes": "8K @ 30fps",
-        "dxomarkScore": 154
+        "mainMp": "12 MP + 64 MP + 12 MP + TOF",
+        "frontMp": "10 MP"
       },
       "battery": {
         "capacitymAh": 4500,
-        "chargingWatts": 45,
-        "wirelessCharging": true,
-        "reverseWireless": true
+        "fastChargingWatt": 25
       },
       "connectivity": {
         "has5G": false,
@@ -51516,7 +51432,7 @@
   },
   {
     "id": "samsung-samsung-galaxy-s21-51",
-    "slug": "samsung-galaxy-s21",
+    "slug": "samsung-galaxy-s21-plus",
     "name": "Samsung Galaxy S21+",
     "brand": "Samsung",
     "category": "smartphones",
@@ -51533,9 +51449,9 @@
       "8 GB RAM & 256 GB Depolama",
       "4800 mAh Batarya Kapasitesi"
     ],
-    "image": "/images/products/smartphones/samsung-samsung-galaxy-s21-51.jpg",
+    "image": "/images/phones/samsung/samsung-galaxy-s21-plus.jpg",
     "images": [
-      "/images/products/smartphones/samsung-samsung-galaxy-s21-51.jpg"
+      "/images/phones/samsung/samsung-galaxy-s21-plus.jpg"
     ],
     "storeOffers": [
       {
@@ -51620,12 +51536,9 @@
     ],
     "specs": {
       "screen": {
-        "size": "6.7\"",
-        "type": "6.7\" FHD+ 120Hz Dynamic AMOLED 2X",
-        "resolution": "3080 x 1440 px",
-        "refreshRate": 120,
-        "ppi": 500,
-        "brightnessNits": 2600
+        "size": "6.7 inç",
+        "resolution": "1080 x 2400 px",
+        "technology": "Dynamic AMOLED 2X 120Hz"
       },
       "processor": {
         "chip": "Exynos 2100",
@@ -51635,26 +51548,15 @@
       },
       "memory": {
         "ramGb": 8,
-        "ramType": "LPDDR5X",
-        "storageGb": 256,
-        "storageOptions": [
-          256
-        ],
-        "expandableStorage": false
+        "storageGb": 128
       },
       "camera": {
-        "mainMp": "64 MP",
-        "ultrawideMp": "12 MP",
-        "telephotoMp": "50 MP (5x Optik Zoom)",
-        "selfieMp": "12 MP Dual Pixel",
-        "videoRes": "8K @ 30fps",
-        "dxomarkScore": 154
+        "mainMp": "12 MP + 64 MP + 12 MP",
+        "frontMp": "10 MP"
       },
       "battery": {
         "capacitymAh": 4800,
-        "chargingWatts": 45,
-        "wirelessCharging": true,
-        "reverseWireless": true
+        "fastChargingWatt": 25
       },
       "connectivity": {
         "has5G": true,
@@ -54106,7 +54008,7 @@
   },
   {
     "id": "samsung-samsung-galaxy-s22-67",
-    "slug": "samsung-galaxy-s22",
+    "slug": "samsung-galaxy-s22-plus",
     "name": "Samsung Galaxy S22+",
     "brand": "Samsung",
     "category": "smartphones",
@@ -54123,9 +54025,9 @@
       "8 GB RAM & 256 GB Depolama",
       "4500 mAh Batarya Kapasitesi"
     ],
-    "image": "/images/products/smartphones/samsung-samsung-galaxy-s22-67.jpg",
+    "image": "/images/phones/samsung/samsung-galaxy-s22-plus.jpg",
     "images": [
-      "/images/products/smartphones/samsung-samsung-galaxy-s22-67.jpg"
+      "/images/phones/samsung/samsung-galaxy-s22-plus.jpg"
     ],
     "storeOffers": [
       {
@@ -54210,12 +54112,9 @@
     ],
     "specs": {
       "screen": {
-        "size": "6.6\"",
-        "type": "6.6\" FHD+ 120Hz Dynamic AMOLED 2X",
-        "resolution": "3080 x 1440 px",
-        "refreshRate": 120,
-        "ppi": 500,
-        "brightnessNits": 2600
+        "size": "6.6 inç",
+        "resolution": "1080 x 2340 px",
+        "technology": "Dynamic AMOLED 2X 120Hz"
       },
       "processor": {
         "chip": "Snapdragon 8 Gen 1",
@@ -54225,26 +54124,15 @@
       },
       "memory": {
         "ramGb": 8,
-        "ramType": "LPDDR5X",
-        "storageGb": 256,
-        "storageOptions": [
-          256
-        ],
-        "expandableStorage": false
+        "storageGb": 128
       },
       "camera": {
-        "mainMp": "50 MP",
-        "ultrawideMp": "12 MP",
-        "telephotoMp": "50 MP (5x Optik Zoom)",
-        "selfieMp": "12 MP Dual Pixel",
-        "videoRes": "8K @ 30fps",
-        "dxomarkScore": 154
+        "mainMp": "50 MP + 10 MP + 12 MP",
+        "frontMp": "10 MP"
       },
       "battery": {
         "capacitymAh": 4500,
-        "chargingWatts": 45,
-        "wirelessCharging": true,
-        "reverseWireless": true
+        "fastChargingWatt": 45
       },
       "connectivity": {
         "has5G": true,
@@ -56388,7 +56276,7 @@
   },
   {
     "id": "samsung-samsung-galaxy-s23-81",
-    "slug": "samsung-galaxy-s23",
+    "slug": "samsung-galaxy-s23-plus",
     "name": "Samsung Galaxy S23+",
     "brand": "Samsung",
     "category": "smartphones",
@@ -56492,12 +56380,9 @@
     ],
     "specs": {
       "screen": {
-        "size": "6.6\"",
-        "type": "6.6\" FHD+ 120Hz Dynamic AMOLED 2X",
-        "resolution": "3080 x 1440 px",
-        "refreshRate": 120,
-        "ppi": 500,
-        "brightnessNits": 2600
+        "size": "6.6 inç",
+        "resolution": "1080 x 2340 px",
+        "technology": "Dynamic AMOLED 2X 120Hz"
       },
       "processor": {
         "chip": "Snapdragon 8 Gen 2 for Galaxy",
@@ -56507,26 +56392,15 @@
       },
       "memory": {
         "ramGb": 8,
-        "ramType": "LPDDR5X",
-        "storageGb": 256,
-        "storageOptions": [
-          256
-        ],
-        "expandableStorage": false
+        "storageGb": 256
       },
       "camera": {
-        "mainMp": "50 MP",
-        "ultrawideMp": "12 MP",
-        "telephotoMp": "50 MP (5x Optik Zoom)",
-        "selfieMp": "12 MP Dual Pixel",
-        "videoRes": "8K @ 30fps",
-        "dxomarkScore": 154
+        "mainMp": "50 MP + 10 MP + 12 MP",
+        "frontMp": "12 MP"
       },
       "battery": {
         "capacitymAh": 4700,
-        "chargingWatts": 45,
-        "wirelessCharging": true,
-        "reverseWireless": true
+        "fastChargingWatt": 45
       },
       "connectivity": {
         "has5G": true,
@@ -58569,7 +58443,7 @@
   },
   {
     "id": "samsung-samsung-galaxy-s24-94",
-    "slug": "samsung-galaxy-s24",
+    "slug": "samsung-galaxy-s24-plus",
     "name": "Samsung Galaxy S24+",
     "brand": "Samsung",
     "category": "smartphones",
@@ -58673,12 +58547,9 @@
     ],
     "specs": {
       "screen": {
-        "size": "6.7\"",
-        "type": "6.7\" QHD+ 1-120Hz LTPO Dynamic AMOLED 2X (Galaxy AI)",
-        "resolution": "3080 x 1440 px",
-        "refreshRate": 120,
-        "ppi": 500,
-        "brightnessNits": 2600
+        "size": "6.7 inç",
+        "resolution": "1440 x 3120 px",
+        "technology": "Dynamic LTPO AMOLED 2X 120Hz"
       },
       "processor": {
         "chip": "Exynos 2400",
@@ -58688,26 +58559,15 @@
       },
       "memory": {
         "ramGb": 12,
-        "ramType": "LPDDR5X",
-        "storageGb": 256,
-        "storageOptions": [
-          256
-        ],
-        "expandableStorage": false
+        "storageGb": 256
       },
       "camera": {
-        "mainMp": "50 MP",
-        "ultrawideMp": "12 MP",
-        "telephotoMp": "50 MP (5x Optik Zoom)",
-        "selfieMp": "12 MP Dual Pixel",
-        "videoRes": "8K @ 30fps",
-        "dxomarkScore": 154
+        "mainMp": "50 MP + 10 MP + 12 MP",
+        "frontMp": "12 MP"
       },
       "battery": {
         "capacitymAh": 4900,
-        "chargingWatts": 45,
-        "wirelessCharging": true,
-        "reverseWireless": true
+        "fastChargingWatt": 45
       },
       "connectivity": {
         "has5G": true,
@@ -61017,7 +60877,7 @@
   },
   {
     "id": "samsung-samsung-galaxy-s25-108",
-    "slug": "samsung-galaxy-s25",
+    "slug": "samsung-galaxy-s25-plus",
     "name": "Samsung Galaxy S25+",
     "brand": "Samsung",
     "category": "smartphones",
@@ -61121,12 +60981,9 @@
     ],
     "specs": {
       "screen": {
-        "size": "6.7\"",
-        "type": "6.7\" QHD+ 1-120Hz Dynamic AMOLED 2X (Galaxy AI 2.0)",
-        "resolution": "3080 x 1440 px",
-        "refreshRate": 120,
-        "ppi": 500,
-        "brightnessNits": 2600
+        "size": "6.7 inç",
+        "resolution": "1440 x 3120 px",
+        "technology": "Dynamic LTPO AMOLED 2X 120Hz"
       },
       "processor": {
         "chip": "Snapdragon 8 Elite for Galaxy",
@@ -61136,26 +60993,15 @@
       },
       "memory": {
         "ramGb": 12,
-        "ramType": "LPDDR5X",
-        "storageGb": 256,
-        "storageOptions": [
-          256
-        ],
-        "expandableStorage": false
+        "storageGb": 256
       },
       "camera": {
-        "mainMp": "50 MP",
-        "ultrawideMp": "12 MP",
-        "telephotoMp": "50 MP (5x Optik Zoom)",
-        "selfieMp": "12 MP Dual Pixel",
-        "videoRes": "8K @ 30fps",
-        "dxomarkScore": 154
+        "mainMp": "50 MP + 10 MP + 12 MP",
+        "frontMp": "12 MP"
       },
       "battery": {
         "capacitymAh": 4900,
-        "chargingWatts": 45,
-        "wirelessCharging": true,
-        "reverseWireless": true
+        "fastChargingWatt": 45
       },
       "connectivity": {
         "has5G": true,
@@ -62814,7 +62660,7 @@
   },
   {
     "id": "samsung-samsung-galaxy-s26-119",
-    "slug": "samsung-galaxy-s26",
+    "slug": "samsung-galaxy-s26-plus",
     "name": "Samsung Galaxy S26+",
     "brand": "Samsung",
     "category": "smartphones",
@@ -62833,7 +62679,7 @@
     ],
     "image": "/images/phones/samsung/samsung-galaxy-s26-plus.png",
     "images": [
-      "/images/products/smartphones/samsung-samsung-galaxy-s26-119.jpg"
+      "/images/phones/samsung/samsung-galaxy-s26-plus.png"
     ],
     "storeOffers": [
       {
@@ -62901,12 +62747,9 @@
     ],
     "specs": {
       "screen": {
-        "size": "6.7\"",
-        "type": "6.7\" QHD+ 1-120Hz LTPO OLED 3.0 (Galaxy AI 3.0)",
-        "resolution": "3080 x 1440 px",
-        "refreshRate": 120,
-        "ppi": 500,
-        "brightnessNits": 2600
+        "size": "6.7 inç",
+        "resolution": "1440 x 3120 px",
+        "technology": "Dynamic LTPO AMOLED 2X 120Hz"
       },
       "processor": {
         "chip": "Snapdragon 8 Gen 5 for Galaxy",
@@ -62916,26 +62759,15 @@
       },
       "memory": {
         "ramGb": 12,
-        "ramType": "LPDDR5X",
-        "storageGb": 256,
-        "storageOptions": [
-          256
-        ],
-        "expandableStorage": false
+        "storageGb": 256
       },
       "camera": {
-        "mainMp": "50 MP",
-        "ultrawideMp": "12 MP",
-        "telephotoMp": "50 MP (5x Optik Zoom)",
-        "selfieMp": "12 MP Dual Pixel",
-        "videoRes": "8K @ 30fps",
-        "dxomarkScore": 154
+        "mainMp": "50 MP + 10 MP + 12 MP",
+        "frontMp": "12 MP"
       },
       "battery": {
-        "capacitymAh": 5100,
-        "chargingWatts": 45,
-        "wirelessCharging": true,
-        "reverseWireless": true
+        "capacitymAh": 4900,
+        "fastChargingWatt": 45
       },
       "connectivity": {
         "has5G": true,
@@ -64863,1518 +64695,6 @@
       {
         "date": "Ağustos 2026",
         "price": 91732
-      }
-    ],
-    "pros": [
-      "Fiyat / performans dengesi",
-      "Akıcı ve stabil kullanıcı deneyimi",
-      "Kaliteli malzeme yapısı"
-    ],
-    "cons": [
-      "Kutudan hızlı şarj adaptörü çıkmayabilir"
-    ],
-    "isLatestModel": true
-  },
-  {
-    "id": "samsung-galaxy-s26-ultra",
-    "slug": "samsung-galaxy-s26-ultra",
-    "name": "Samsung Galaxy S26 Ultra",
-    "brand": "Samsung",
-    "category": "smartphones",
-    "price": 131999,
-    "priceFormatted": "131.999 TL",
-    "modelCode": "SM-S948BZVGTUR",
-    "rating": 4.8,
-    "reviewCount": 29801,
-    "releaseDate": "2026",
-    "image": "/images/phones/samsung/samsung-galaxy-s26-ultra.png",
-    "images": [
-      "/images/phones/samsung/samsung-galaxy-s26-ultra.png"
-    ],
-    "specs": {
-      "display": "6.8\" Dynamic LTPO AMOLED 2X, 120Hz, 3120x1440, Dahili S-Pen",
-      "processor": {
-        "chip": "Qualcomm Snapdragon 8 Elite for Galaxy (4.74 GHz, 3.6 GHz)",
-        "cores": "8 Çekirdek (2x4.32 GHz Oryon + 6x3.53 GHz)",
-        "process": "3nm TSMC",
-        "antutuScore": 2850000
-      },
-      "camera": {
-        "mainMp": "200 MP",
-        "ultrawideMp": "50 MP Ultra Geniş",
-        "telephotoMp": "50 MP Periskop Telefoto (5x Optik)",
-        "selfieMp": "12 MP Ön Kamera",
-        "videoRes": "8K @30fps, 4K @120fps"
-      },
-      "battery": {
-        "capacitymAh": 5000,
-        "chargingWatts": 45,
-        "wirelessCharging": true,
-        "reverseWireless": true
-      },
-      "ram": "12 GB / 16 GB",
-      "storage": "256 GB, 512 GB, 1 TB",
-      "weight": "214 g",
-      "os": "Android 16, One UI 8.0",
-      "screen": {
-        "size": "6.8 inç",
-        "type": "Dynamic LTPO AMOLED 2X",
-        "resolution": "3120x1440",
-        "refreshRate": 120,
-        "ppi": 505,
-        "brightnessNits": 2600
-      },
-      "memory": {
-        "ramGb": 12,
-        "ramType": "LPDDR5X",
-        "storageGb": 256,
-        "storageOptions": [
-          256,
-          512,
-          1024
-        ],
-        "expandableStorage": false
-      },
-      "connectivity": {
-        "has5G": true,
-        "wifiStandard": "Wi-Fi 7 (802.11be)",
-        "bluetooth": "5.4",
-        "hasNFC": true,
-        "hasesim": true
-      },
-      "build": {
-        "weightGrams": 214,
-        "thicknessMm": 8.2,
-        "waterResistance": "IP68 (1.5m, 30dk)",
-        "frameMaterial": "Grade 5 Titanyum Kasa"
-      },
-      "software": {
-        "osName": "Android 16, One UI 8.0",
-        "updateYears": 7
-      }
-    },
-    "basePrice": 124831,
-    "currency": "TL",
-    "releaseYear": 2026,
-    "highlights": [
-      "Samsung Galaxy S26 Ultra - Yüksek Performans",
-      "6.8\" Dynamic LTPO AMOLED 2X, 120Hz, 3120x1440, Dahili S-Pen",
-      "Qualcomm Snapdragon 8 Elite for Galaxy (4.74 GHz, 3.6 GHz)",
-      "200 MP + 50 MP (5x) + 50 MP (3x) + 12 MP, 8K Video"
-    ],
-    "storeOffers": [
-      {
-        "storeName": "Hepsiburada",
-        "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 125478,
-        "shippingFee": 0,
-        "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Samsung%20Samsung%20Galaxy%20S26%20Ultra",
-        "rating": 4.8
-      },
-      {
-        "storeName": "Trendyol",
-        "storeLogo": "/images/stores/trendyol.png",
-        "price": 124831,
-        "shippingFee": 0,
-        "inStock": true,
-        "url": "https://www.trendyol.com/sr?q=Samsung%20Samsung%20Galaxy%20S26%20Ultra",
-        "rating": 4.8
-      },
-      {
-        "storeName": "Vatan Bilgisayar",
-        "storeLogo": "/images/stores/vatan.png",
-        "price": 126200,
-        "shippingFee": 0,
-        "inStock": true,
-        "url": "https://www.vatanbilgisayar.com/arama/Samsung%20Samsung%20Galaxy%20S26%20Ultra",
-        "rating": 4.8
-      },
-      {
-        "storeName": "MediaMarkt",
-        "storeLogo": "/images/stores/mediamarkt.png",
-        "price": 128065,
-        "shippingFee": 0,
-        "inStock": true,
-        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Samsung%20Samsung%20Galaxy%20S26%20Ultra",
-        "rating": 4.8
-      }
-    ],
-    "priceHistory": [
-      {
-        "date": "2026-05-01",
-        "price": 133999,
-        "store": "Samsung Store"
-      },
-      {
-        "date": "2026-06-01",
-        "price": 132999,
-        "store": "Samsung Store"
-      },
-      {
-        "date": "2026-07-01",
-        "price": 131999,
-        "store": "Samsung Store"
-      },
-      {
-        "date": "Ağustos 2026",
-        "price": 94999
-      }
-    ],
-    "pros": [
-      "Fiyat / performans dengesi",
-      "Akıcı ve stabil kullanıcı deneyimi",
-      "Kaliteli malzeme yapısı"
-    ],
-    "cons": [
-      "Kutudan hızlı şarj adaptörü çıkmayabilir"
-    ],
-    "isLatestModel": true
-  },
-  {
-    "id": "samsung-galaxy-s26-plus",
-    "slug": "samsung-galaxy-s26-plus",
-    "name": "Samsung Galaxy S26+",
-    "brand": "Samsung",
-    "category": "smartphones",
-    "price": 87999,
-    "priceFormatted": "87.999 TL",
-    "modelCode": "SM-S946BDBDTUR",
-    "rating": 4.8,
-    "reviewCount": 4150,
-    "releaseDate": "2026",
-    "image": "/images/phones/samsung/samsung-galaxy-s26-plus.jpg",
-    "images": [
-      "/images/phones/samsung/samsung-galaxy-s26-plus.png"
-    ],
-    "specs": {
-      "display": "6.7\" Dynamic LTPO AMOLED 2X, 120Hz, QHD+",
-      "processor": {
-        "chip": "Qualcomm Snapdragon 8 Elite for Galaxy (4.74 GHz)",
-        "cores": "8 Çekirdek (2x4.32 GHz Oryon + 6x3.53 GHz)",
-        "process": "3nm TSMC",
-        "antutuScore": 2850000
-      },
-      "camera": {
-        "mainMp": "50 MP",
-        "ultrawideMp": "50 MP Ultra Geniş",
-        "telephotoMp": "50 MP Periskop Telefoto (5x Optik)",
-        "selfieMp": "12 MP Ön Kamera",
-        "videoRes": "8K @30fps, 4K @120fps"
-      },
-      "battery": {
-        "capacitymAh": 4900,
-        "chargingWatts": 45,
-        "wirelessCharging": true,
-        "reverseWireless": true
-      },
-      "ram": "12 GB",
-      "storage": "256 GB, 512 GB",
-      "weight": "195 g",
-      "os": "Android 16, One UI 8.0",
-      "screen": {
-        "size": "6.7 inç",
-        "type": "Dynamic LTPO AMOLED 2X",
-        "resolution": "QHD+",
-        "refreshRate": 120,
-        "ppi": 505,
-        "brightnessNits": 2600
-      },
-      "memory": {
-        "ramGb": 12,
-        "ramType": "LPDDR5X",
-        "storageGb": 256,
-        "storageOptions": [
-          256,
-          512,
-          1024
-        ],
-        "expandableStorage": false
-      },
-      "connectivity": {
-        "has5G": true,
-        "wifiStandard": "Wi-Fi 7 (802.11be)",
-        "bluetooth": "5.4",
-        "hasNFC": true,
-        "hasesim": true
-      },
-      "build": {
-        "weightGrams": 195,
-        "thicknessMm": 8.2,
-        "waterResistance": "IP68 (1.5m, 30dk)",
-        "frameMaterial": "Grade 5 Titanyum Kasa"
-      },
-      "software": {
-        "osName": "Android 16, One UI 8.0",
-        "updateYears": 7
-      }
-    },
-    "basePrice": 83221,
-    "currency": "TL",
-    "releaseYear": 2026,
-    "highlights": [
-      "Samsung Galaxy S26+ - Yüksek Performans",
-      "6.7\" Dynamic LTPO AMOLED 2X, 120Hz, QHD+",
-      "Qualcomm Snapdragon 8 Elite for Galaxy (4.74 GHz)",
-      "50 MP + 10 MP (3x) + 12 MP ultra-geniş"
-    ],
-    "storeOffers": [
-      {
-        "storeName": "Hepsiburada",
-        "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 83652,
-        "shippingFee": 0,
-        "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Samsung%20Samsung%20Galaxy%20S26%2B",
-        "rating": 4.8
-      },
-      {
-        "storeName": "Trendyol",
-        "storeLogo": "/images/stores/trendyol.png",
-        "price": 83221,
-        "shippingFee": 0,
-        "inStock": true,
-        "url": "https://www.trendyol.com/sr?q=Samsung%20Samsung%20Galaxy%20S26%2B",
-        "rating": 4.8
-      },
-      {
-        "storeName": "Vatan Bilgisayar",
-        "storeLogo": "/images/stores/vatan.png",
-        "price": 84200,
-        "shippingFee": 0,
-        "inStock": true,
-        "url": "https://www.vatanbilgisayar.com/arama/Samsung%20Samsung%20Galaxy%20S26%2B",
-        "rating": 4.8
-      },
-      {
-        "storeName": "MediaMarkt",
-        "storeLogo": "/images/stores/mediamarkt.png",
-        "price": 85377,
-        "shippingFee": 0,
-        "inStock": true,
-        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Samsung%20Samsung%20Galaxy%20S26%2B",
-        "rating": 4.8
-      }
-    ],
-    "priceHistory": [
-      {
-        "date": "2026-05-01",
-        "price": 89999,
-        "store": "Samsung Store"
-      },
-      {
-        "date": "2026-06-01",
-        "price": 88999,
-        "store": "Samsung Store"
-      },
-      {
-        "date": "2026-07-01",
-        "price": 87999,
-        "store": "Samsung Store"
-      },
-      {
-        "date": "Ağustos 2026",
-        "price": 67499
-      }
-    ],
-    "pros": [
-      "Fiyat / performans dengesi",
-      "Akıcı ve stabil kullanıcı deneyimi",
-      "Kaliteli malzeme yapısı"
-    ],
-    "cons": [
-      "Kutudan hızlı şarj adaptörü çıkmayabilir"
-    ],
-    "isLatestModel": true
-  },
-  {
-    "id": "samsung-galaxy-s26",
-    "slug": "samsung-galaxy-s26",
-    "name": "Samsung Galaxy S26",
-    "brand": "Samsung",
-    "category": "smartphones",
-    "price": 77999,
-    "priceFormatted": "77.999 TL",
-    "modelCode": "SM-S942BZWGTUR",
-    "rating": 4.77,
-    "reviewCount": 5247,
-    "releaseDate": "2026",
-    "image": "/images/phones/samsung/samsung-galaxy-s26.jpg",
-    "images": [
-      "/images/phones/samsung/samsung-galaxy-s26.png"
-    ],
-    "specs": {
-      "display": "6.2\" Dynamic LTPO AMOLED 2X, 120Hz, FHD+",
-      "processor": {
-        "chip": "Snapdragon 8 Elite / Exynos 2600 (3.8 GHz, 3.26 GHz)",
-        "cores": "8 Çekirdek (2x4.32 GHz Oryon + 6x3.53 GHz)",
-        "process": "3nm TSMC",
-        "antutuScore": 2850000
-      },
-      "camera": {
-        "mainMp": "50 MP",
-        "ultrawideMp": "50 MP Ultra Geniş",
-        "telephotoMp": "50 MP Periskop Telefoto (5x Optik)",
-        "selfieMp": "12 MP Ön Kamera",
-        "videoRes": "8K @30fps, 4K @120fps"
-      },
-      "battery": {
-        "capacitymAh": 4000,
-        "chargingWatts": 25,
-        "wirelessCharging": true,
-        "reverseWireless": true
-      },
-      "ram": "12 GB",
-      "storage": "128 GB, 256 GB, 512 GB",
-      "weight": "167 g",
-      "os": "Android 16, One UI 8.0",
-      "screen": {
-        "size": "6.2 inç",
-        "type": "Dynamic LTPO AMOLED 2X",
-        "resolution": "FHD+",
-        "refreshRate": 120,
-        "ppi": 505,
-        "brightnessNits": 2600
-      },
-      "memory": {
-        "ramGb": 12,
-        "ramType": "LPDDR5X",
-        "storageGb": 128,
-        "storageOptions": [
-          256,
-          512,
-          1024
-        ],
-        "expandableStorage": false
-      },
-      "connectivity": {
-        "has5G": true,
-        "wifiStandard": "Wi-Fi 7 (802.11be)",
-        "bluetooth": "5.4",
-        "hasNFC": true,
-        "hasesim": true
-      },
-      "build": {
-        "weightGrams": 167,
-        "thicknessMm": 8.2,
-        "waterResistance": "IP68 (1.5m, 30dk)",
-        "frameMaterial": "Grade 5 Titanyum Kasa"
-      },
-      "software": {
-        "osName": "Android 16, One UI 8.0",
-        "updateYears": 7
-      }
-    },
-    "basePrice": 73764,
-    "currency": "TL",
-    "releaseYear": 2026,
-    "highlights": [
-      "Samsung Galaxy S26 - Yüksek Performans",
-      "6.2\" Dynamic LTPO AMOLED 2X, 120Hz, FHD+",
-      "Snapdragon 8 Elite / Exynos 2600 (3.8 GHz, 3.26 GHz)",
-      "50 MP + 10 MP + 12 MP"
-    ],
-    "storeOffers": [
-      {
-        "storeName": "Hepsiburada",
-        "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 74146,
-        "shippingFee": 0,
-        "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Samsung%20Samsung%20Galaxy%20S26",
-        "rating": 4.8
-      },
-      {
-        "storeName": "Trendyol",
-        "storeLogo": "/images/stores/trendyol.png",
-        "price": 73764,
-        "shippingFee": 0,
-        "inStock": true,
-        "url": "https://www.trendyol.com/sr?q=Samsung%20Samsung%20Galaxy%20S26",
-        "rating": 4.8
-      },
-      {
-        "storeName": "Vatan Bilgisayar",
-        "storeLogo": "/images/stores/vatan.png",
-        "price": 74500,
-        "shippingFee": 0,
-        "inStock": true,
-        "url": "https://www.vatanbilgisayar.com/arama/Samsung%20Samsung%20Galaxy%20S26",
-        "rating": 4.8
-      },
-      {
-        "storeName": "MediaMarkt",
-        "storeLogo": "/images/stores/mediamarkt.png",
-        "price": 75675,
-        "shippingFee": 0,
-        "inStock": true,
-        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Samsung%20Samsung%20Galaxy%20S26",
-        "rating": 4.8
-      }
-    ],
-    "priceHistory": [
-      {
-        "date": "2026-05-01",
-        "price": 79999,
-        "store": "Samsung Store"
-      },
-      {
-        "date": "2026-06-01",
-        "price": 78999,
-        "store": "Samsung Store"
-      },
-      {
-        "date": "2026-07-01",
-        "price": 77999,
-        "store": "Samsung Store"
-      },
-      {
-        "date": "Ağustos 2026",
-        "price": 67499
-      }
-    ],
-    "pros": [
-      "Fiyat / performans dengesi",
-      "Akıcı ve stabil kullanıcı deneyimi",
-      "Kaliteli malzeme yapısı"
-    ],
-    "cons": [
-      "Kutudan hızlı şarj adaptörü çıkmayabilir"
-    ],
-    "isLatestModel": true
-  },
-  {
-    "id": "samsung-galaxy-s25-ultra",
-    "slug": "samsung-galaxy-s25-ultra",
-    "name": "Samsung Galaxy S25 Ultra",
-    "brand": "Samsung",
-    "category": "smartphones",
-    "price": 111499,
-    "priceFormatted": "111.499 TL",
-    "modelCode": "SM-S938BZSHTUR",
-    "rating": 4.87,
-    "reviewCount": 26987,
-    "releaseDate": "2025",
-    "image": "/images/phones/samsung/samsung-galaxy-s25-ultra.svg",
-    "images": [
-      "/images/phones/samsung/samsung-galaxy-s25-ultra.svg"
-    ],
-    "specs": {
-      "display": "6.86\" Dynamic LTPO AMOLED 2X, 120Hz, 3120x1440, Titanyum Kasa",
-      "processor": {
-        "chip": "Qualcomm Snapdragon 8 Elite for Galaxy (4.47 GHz)",
-        "cores": "8 Çekirdek (2x4.32 GHz Oryon + 6x3.53 GHz)",
-        "process": "3nm TSMC",
-        "antutuScore": 2850000
-      },
-      "camera": {
-        "mainMp": "200 MP",
-        "ultrawideMp": "50 MP Ultra Geniş",
-        "telephotoMp": "50 MP Periskop Telefoto (5x Optik)",
-        "selfieMp": "12 MP Ön Kamera",
-        "videoRes": "8K @30fps, 4K @120fps"
-      },
-      "battery": {
-        "capacitymAh": 5000,
-        "chargingWatts": 45,
-        "wirelessCharging": true,
-        "reverseWireless": true
-      },
-      "ram": "12 GB / 16 GB",
-      "storage": "256 GB, 512 GB, 1 TB",
-      "weight": "219 g",
-      "os": "Android 15, One UI 7.0",
-      "screen": {
-        "size": "6.86 inç",
-        "type": "Dynamic LTPO AMOLED 2X",
-        "resolution": "3120x1440",
-        "refreshRate": 120,
-        "ppi": 505,
-        "brightnessNits": 2600
-      },
-      "memory": {
-        "ramGb": 12,
-        "ramType": "LPDDR5X",
-        "storageGb": 256,
-        "storageOptions": [
-          256,
-          512,
-          1024
-        ],
-        "expandableStorage": false
-      },
-      "connectivity": {
-        "has5G": true,
-        "wifiStandard": "Wi-Fi 7 (802.11be)",
-        "bluetooth": "5.4",
-        "hasNFC": true,
-        "hasesim": true
-      },
-      "build": {
-        "weightGrams": 219,
-        "thicknessMm": 8.2,
-        "waterResistance": "IP68 (1.5m, 30dk)",
-        "frameMaterial": "Grade 5 Titanyum Kasa"
-      },
-      "software": {
-        "osName": "Android 15, One UI 7.0",
-        "updateYears": 7
-      }
-    },
-    "basePrice": 111499,
-    "currency": "TL",
-    "releaseYear": 2025,
-    "highlights": [
-      "Samsung Galaxy S25 Ultra - Yüksek Performans",
-      "6.86\" Dynamic LTPO AMOLED 2X, 120Hz, 3120x1440, Titanyum Kasa",
-      "Qualcomm Snapdragon 8 Elite for Galaxy (4.47 GHz)",
-      "200 MP + 50 MP (5x periskop) + 50 MP (3x) + 50 MP ultra-geniş"
-    ],
-    "storeOffers": [
-      {
-        "id": "samsung-galaxy-s25-ultra-offer-1",
-        "storeName": "Samsung Yetkili Satıcı",
-        "storeLogoColor": "#1428a0",
-        "price": 111499,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Distribütör Garantili",
-          "Ücretsiz Kargo"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 850,
-        "url": "https://www.samsung.com/tr/"
-      }
-    ],
-    "priceHistory": [
-      {
-        "date": "2026-05-01",
-        "price": 113499,
-        "store": "Samsung Store"
-      },
-      {
-        "date": "2026-06-01",
-        "price": 112499,
-        "store": "Samsung Store"
-      },
-      {
-        "date": "2026-07-01",
-        "price": 111499,
-        "store": "Samsung Store"
-      }
-    ],
-    "pros": [
-      "Fiyat / performans dengesi",
-      "Akıcı ve stabil kullanıcı deneyimi",
-      "Kaliteli malzeme yapısı"
-    ],
-    "cons": [
-      "Kutudan hızlı şarj adaptörü çıkmayabilir"
-    ],
-    "colorOptions": [
-      {
-        "name": "Titanyum Gümüş Mavi",
-        "hex": "#4D5D6E"
-      },
-      {
-        "name": "Titanyum Siyah",
-        "hex": "#1C1C1E"
-      },
-      {
-        "name": "Titanyum Gri",
-        "hex": "#8E8E93"
-      }
-    ]
-  },
-  {
-    "id": "samsung-galaxy-s25-plus",
-    "slug": "samsung-galaxy-s25-plus",
-    "name": "Samsung Galaxy S25+",
-    "brand": "Samsung",
-    "category": "smartphones",
-    "price": 73499,
-    "priceFormatted": "73.499 TL",
-    "modelCode": "SM-S936BDBDTUR",
-    "rating": 4.65,
-    "reviewCount": 2477,
-    "releaseDate": "2025",
-    "image": "/images/phones/samsung/samsung-galaxy-s25-plus.svg",
-    "images": [
-      "/images/phones/samsung/samsung-galaxy-s25-plus.svg"
-    ],
-    "specs": {
-      "display": "6.7\" Dynamic LTPO AMOLED 2X, 120Hz, QHD+",
-      "processor": {
-        "chip": "Qualcomm Snapdragon 8 Elite for Galaxy",
-        "cores": "8 Çekirdek (2x4.32 GHz Oryon + 6x3.53 GHz)",
-        "process": "3nm TSMC",
-        "antutuScore": 2850000
-      },
-      "camera": {
-        "mainMp": "50 MP",
-        "ultrawideMp": "50 MP Ultra Geniş",
-        "telephotoMp": "50 MP Periskop Telefoto (5x Optik)",
-        "selfieMp": "12 MP Ön Kamera",
-        "videoRes": "8K @30fps, 4K @120fps"
-      },
-      "battery": {
-        "capacitymAh": 4900,
-        "chargingWatts": 45,
-        "wirelessCharging": true,
-        "reverseWireless": true
-      },
-      "ram": "12 GB",
-      "storage": "256 GB, 512 GB",
-      "weight": "190 g",
-      "os": "Android 15, One UI 7.0",
-      "screen": {
-        "size": "6.7 inç",
-        "type": "Dynamic LTPO AMOLED 2X",
-        "resolution": "QHD+",
-        "refreshRate": 120,
-        "ppi": 505,
-        "brightnessNits": 2600
-      },
-      "memory": {
-        "ramGb": 12,
-        "ramType": "LPDDR5X",
-        "storageGb": 256,
-        "storageOptions": [
-          256,
-          512,
-          1024
-        ],
-        "expandableStorage": false
-      },
-      "connectivity": {
-        "has5G": true,
-        "wifiStandard": "Wi-Fi 7 (802.11be)",
-        "bluetooth": "5.4",
-        "hasNFC": true,
-        "hasesim": true
-      },
-      "build": {
-        "weightGrams": 190,
-        "thicknessMm": 8.2,
-        "waterResistance": "IP68 (1.5m, 30dk)",
-        "frameMaterial": "Grade 5 Titanyum Kasa"
-      },
-      "software": {
-        "osName": "Android 15, One UI 7.0",
-        "updateYears": 7
-      }
-    },
-    "basePrice": 73499,
-    "currency": "TL",
-    "releaseYear": 2025,
-    "highlights": [
-      "Samsung Galaxy S25+ - Yüksek Performans",
-      "6.7\" Dynamic LTPO AMOLED 2X, 120Hz, QHD+",
-      "Qualcomm Snapdragon 8 Elite for Galaxy",
-      "50 MP + 10 MP + 12 MP"
-    ],
-    "storeOffers": [
-      {
-        "id": "samsung-galaxy-s25-plus-offer-1",
-        "storeName": "Samsung Yetkili Satıcı",
-        "storeLogoColor": "#1428a0",
-        "price": 73499,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Distribütör Garantili",
-          "Ücretsiz Kargo"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 850,
-        "url": "https://www.samsung.com/tr/"
-      }
-    ],
-    "priceHistory": [
-      {
-        "date": "2026-05-01",
-        "price": 75499,
-        "store": "Samsung Store"
-      },
-      {
-        "date": "2026-06-01",
-        "price": 74499,
-        "store": "Samsung Store"
-      },
-      {
-        "date": "2026-07-01",
-        "price": 73499,
-        "store": "Samsung Store"
-      }
-    ],
-    "pros": [
-      "Fiyat / performans dengesi",
-      "Akıcı ve stabil kullanıcı deneyimi",
-      "Kaliteli malzeme yapısı"
-    ],
-    "cons": [
-      "Kutudan hızlı şarj adaptörü çıkmayabilir"
-    ],
-    "colorOptions": [
-      {
-        "name": "Parlak Mavi",
-        "hex": "#5C7891"
-      },
-      {
-        "name": "Geceyarısı Siyahı",
-        "hex": "#18191B"
-      },
-      {
-        "name": "Gümüş Gölge",
-        "hex": "#B8B9BD"
-      }
-    ]
-  },
-  {
-    "id": "samsung-galaxy-s25",
-    "slug": "samsung-galaxy-s25",
-    "name": "Samsung Galaxy S25",
-    "brand": "Samsung",
-    "category": "smartphones",
-    "price": 64999,
-    "priceFormatted": "64.999 TL",
-    "modelCode": "SM-S931BDBGTUR",
-    "rating": 4.7,
-    "reviewCount": 3120,
-    "releaseDate": "2025",
-    "image": "/images/phones/samsung/samsung-galaxy-s25.svg",
-    "images": [
-      "/images/phones/samsung/samsung-galaxy-s25.svg"
-    ],
-    "specs": {
-      "display": "6.2\" Dynamic LTPO AMOLED 2X, 120Hz, FHD+",
-      "processor": {
-        "chip": "Qualcomm Snapdragon 8 Elite for Galaxy",
-        "cores": "8 Çekirdek (2x4.32 GHz Oryon + 6x3.53 GHz)",
-        "process": "3nm TSMC",
-        "antutuScore": 2850000
-      },
-      "camera": {
-        "mainMp": "50 MP",
-        "ultrawideMp": "50 MP Ultra Geniş",
-        "telephotoMp": "50 MP Periskop Telefoto (5x Optik)",
-        "selfieMp": "12 MP Ön Kamera",
-        "videoRes": "8K @30fps, 4K @120fps"
-      },
-      "battery": {
-        "capacitymAh": 4000,
-        "chargingWatts": 25,
-        "wirelessCharging": true,
-        "reverseWireless": true
-      },
-      "ram": "12 GB",
-      "storage": "128 GB, 256 GB, 512 GB",
-      "weight": "162 g",
-      "os": "Android 15, One UI 7.0",
-      "screen": {
-        "size": "6.2 inç",
-        "type": "Dynamic LTPO AMOLED 2X",
-        "resolution": "FHD+",
-        "refreshRate": 120,
-        "ppi": 505,
-        "brightnessNits": 2600
-      },
-      "memory": {
-        "ramGb": 12,
-        "ramType": "LPDDR5X",
-        "storageGb": 128,
-        "storageOptions": [
-          256,
-          512,
-          1024
-        ],
-        "expandableStorage": false
-      },
-      "connectivity": {
-        "has5G": true,
-        "wifiStandard": "Wi-Fi 7 (802.11be)",
-        "bluetooth": "5.4",
-        "hasNFC": true,
-        "hasesim": true
-      },
-      "build": {
-        "weightGrams": 162,
-        "thicknessMm": 8.2,
-        "waterResistance": "IP68 (1.5m, 30dk)",
-        "frameMaterial": "Grade 5 Titanyum Kasa"
-      },
-      "software": {
-        "osName": "Android 15, One UI 7.0",
-        "updateYears": 7
-      }
-    },
-    "basePrice": 64999,
-    "currency": "TL",
-    "releaseYear": 2025,
-    "highlights": [
-      "Samsung Galaxy S25 - Yüksek Performans",
-      "6.2\" Dynamic LTPO AMOLED 2X, 120Hz, FHD+",
-      "Qualcomm Snapdragon 8 Elite for Galaxy",
-      "50 MP + 10 MP + 12 MP"
-    ],
-    "storeOffers": [
-      {
-        "id": "samsung-galaxy-s25-offer-1",
-        "storeName": "Samsung Yetkili Satıcı",
-        "storeLogoColor": "#1428a0",
-        "price": 64999,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Distribütör Garantili",
-          "Ücretsiz Kargo"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 850,
-        "url": "https://www.samsung.com/tr/"
-      }
-    ],
-    "priceHistory": [
-      {
-        "date": "2026-05-01",
-        "price": 66999,
-        "store": "Samsung Store"
-      },
-      {
-        "date": "2026-06-01",
-        "price": 65999,
-        "store": "Samsung Store"
-      },
-      {
-        "date": "2026-07-01",
-        "price": 64999,
-        "store": "Samsung Store"
-      }
-    ],
-    "pros": [
-      "Fiyat / performans dengesi",
-      "Akıcı ve stabil kullanıcı deneyimi",
-      "Kaliteli malzeme yapısı"
-    ],
-    "cons": [
-      "Kutudan hızlı şarj adaptörü çıkmayabilir"
-    ],
-    "colorOptions": [
-      {
-        "name": "Zümrüt Yeşili",
-        "hex": "#2E7D62"
-      },
-      {
-        "name": "Işıltılı Mavi",
-        "hex": "#4A6B82"
-      },
-      {
-        "name": "Ay Işığı Beyazı",
-        "hex": "#F0EFF4"
-      }
-    ]
-  },
-  {
-    "id": "samsung-galaxy-s25-fe",
-    "slug": "samsung-galaxy-s25-fe",
-    "name": "Samsung Galaxy S25 FE",
-    "brand": "Samsung",
-    "category": "smartphones",
-    "price": 46999,
-    "priceFormatted": "46.999 TL",
-    "modelCode": "SM-S731BDBGTUR",
-    "rating": 4.25,
-    "reviewCount": 36,
-    "releaseDate": "2025",
-    "image": "/images/phones/samsung/samsung-galaxy-s25-fe.svg",
-    "images": [
-      "/images/phones/samsung/samsung-galaxy-s25-fe.svg"
-    ],
-    "specs": {
-      "display": "6.7\" Dynamic AMOLED 2X, 120Hz, FHD+",
-      "processor": {
-        "chip": "Samsung Exynos 2400e (4nm)",
-        "cores": "8 Çekirdek (2x4.32 GHz Oryon + 6x3.53 GHz)",
-        "process": "3nm TSMC",
-        "antutuScore": 1650000
-      },
-      "camera": {
-        "mainMp": "50 MP",
-        "ultrawideMp": "50 MP Ultra Geniş",
-        "telephotoMp": "50 MP Periskop Telefoto (5x Optik)",
-        "selfieMp": "12 MP Ön Kamera",
-        "videoRes": "8K @30fps, 4K @120fps"
-      },
-      "battery": {
-        "capacitymAh": 4700,
-        "chargingWatts": 25,
-        "wirelessCharging": true,
-        "reverseWireless": true
-      },
-      "ram": "8 GB",
-      "storage": "128 GB, 256 GB, 512 GB",
-      "weight": "190 g",
-      "os": "Android 15, One UI 7.0",
-      "screen": {
-        "size": "6.7 inç",
-        "type": "Dynamic LTPO AMOLED 2X",
-        "resolution": "FHD+",
-        "refreshRate": 120,
-        "ppi": 505,
-        "brightnessNits": 2600
-      },
-      "memory": {
-        "ramGb": 8,
-        "ramType": "LPDDR5X",
-        "storageGb": 128,
-        "storageOptions": [
-          256,
-          512,
-          1024
-        ],
-        "expandableStorage": false
-      },
-      "connectivity": {
-        "has5G": true,
-        "wifiStandard": "Wi-Fi 7 (802.11be)",
-        "bluetooth": "5.4",
-        "hasNFC": true,
-        "hasesim": true
-      },
-      "build": {
-        "weightGrams": 190,
-        "thicknessMm": 8.2,
-        "waterResistance": "IP68 (1.5m, 30dk)",
-        "frameMaterial": "Grade 5 Titanyum Kasa"
-      },
-      "software": {
-        "osName": "Android 15, One UI 7.0",
-        "updateYears": 7
-      }
-    },
-    "basePrice": 46999,
-    "currency": "TL",
-    "releaseYear": 2025,
-    "highlights": [
-      "Samsung Galaxy S25 FE - Yüksek Performans",
-      "6.7\" Dynamic AMOLED 2X, 120Hz, FHD+",
-      "Samsung Exynos 2400e (4nm)",
-      "50 MP + 8 MP (3x) + 12 MP ultra-geniş"
-    ],
-    "storeOffers": [
-      {
-        "id": "samsung-galaxy-s25-fe-offer-1",
-        "storeName": "Samsung Yetkili Satıcı",
-        "storeLogoColor": "#1428a0",
-        "price": 46999,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Distribütör Garantili",
-          "Ücretsiz Kargo"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 850,
-        "url": "https://www.samsung.com/tr/"
-      }
-    ],
-    "priceHistory": [
-      {
-        "date": "2026-05-01",
-        "price": 48999,
-        "store": "Samsung Store"
-      },
-      {
-        "date": "2026-06-01",
-        "price": 47999,
-        "store": "Samsung Store"
-      },
-      {
-        "date": "2026-07-01",
-        "price": 46999,
-        "store": "Samsung Store"
-      }
-    ],
-    "pros": [
-      "Fiyat / performans dengesi",
-      "Akıcı ve stabil kullanıcı deneyimi",
-      "Kaliteli malzeme yapısı"
-    ],
-    "cons": [
-      "Kutudan hızlı şarj adaptörü çıkmayabilir"
-    ],
-    "colorOptions": [
-      {
-        "name": "Zümrüt Yeşili",
-        "hex": "#2E7D62"
-      },
-      {
-        "name": "Işıltılı Mavi",
-        "hex": "#4A6B82"
-      },
-      {
-        "name": "Ay Işığı Beyazı",
-        "hex": "#F0EFF4"
-      }
-    ]
-  },
-  {
-    "id": "samsung-galaxy-a57-5g",
-    "slug": "samsung-galaxy-a57-5g",
-    "name": "Samsung Galaxy A57 5G",
-    "brand": "Samsung",
-    "category": "smartphones",
-    "price": 36999,
-    "priceFormatted": "36.999 TL",
-    "modelCode": "SM-A576BDGGTUR",
-    "rating": 4.7,
-    "reviewCount": 1420,
-    "releaseDate": "2026",
-    "image": "/images/phones/samsung/samsung-galaxy-a57-5g.png",
-    "images": [
-      "/images/phones/samsung/samsung-galaxy-a57-5g.png"
-    ],
-    "specs": {
-      "display": "6.6\" Super AMOLED, 120Hz, HDR10+, 1080x2340",
-      "processor": {
-        "chip": "Samsung Exynos 1680 (4nm)",
-        "cores": "8 Çekirdek (2x4.32 GHz Oryon + 6x3.53 GHz)",
-        "process": "3nm TSMC",
-        "antutuScore": 850000
-      },
-      "camera": {
-        "mainMp": "50 MP (OIS)",
-        "ultrawideMp": "50 MP Ultra Geniş",
-        "telephotoMp": "50 MP Periskop Telefoto (5x Optik)",
-        "selfieMp": "12 MP Ön Kamera",
-        "videoRes": "8K @30fps, 4K @120fps"
-      },
-      "battery": {
-        "capacitymAh": 5000,
-        "chargingWatts": 45,
-        "wirelessCharging": true,
-        "reverseWireless": true
-      },
-      "ram": "8 GB / 12 GB",
-      "storage": "128 GB, 256 GB",
-      "weight": "205 g",
-      "os": "Android 16, One UI 8.0",
-      "screen": {
-        "size": "6.6 inç",
-        "type": "Dynamic LTPO AMOLED 2X",
-        "resolution": "1080x2340",
-        "refreshRate": 120,
-        "ppi": 505,
-        "brightnessNits": 2600
-      },
-      "memory": {
-        "ramGb": 8,
-        "ramType": "LPDDR5X",
-        "storageGb": 128,
-        "storageOptions": [
-          256,
-          512,
-          1024
-        ],
-        "expandableStorage": false
-      },
-      "connectivity": {
-        "has5G": true,
-        "wifiStandard": "Wi-Fi 7 (802.11be)",
-        "bluetooth": "5.4",
-        "hasNFC": true,
-        "hasesim": true
-      },
-      "build": {
-        "weightGrams": 205,
-        "thicknessMm": 8.2,
-        "waterResistance": "IP68 (1.5m, 30dk)",
-        "frameMaterial": "Grade 5 Titanyum Kasa"
-      },
-      "software": {
-        "osName": "Android 16, One UI 8.0",
-        "updateYears": 7
-      }
-    },
-    "basePrice": 31999,
-    "currency": "TL",
-    "releaseYear": 2026,
-    "highlights": [
-      "Samsung Galaxy A57 5G - Yüksek Performans",
-      "6.6\" Super AMOLED, 120Hz, HDR10+, 1080x2340",
-      "Samsung Exynos 1680 (4nm)",
-      "50 MP (OIS) + 12 MP + 5 MP"
-    ],
-    "storeOffers": [
-      {
-        "storeName": "Hepsiburada",
-        "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 35171,
-        "shippingFee": 0,
-        "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Samsung%20Samsung%20Galaxy%20A57%205G",
-        "rating": 4.8
-      },
-      {
-        "storeName": "Trendyol",
-        "storeLogo": "/images/stores/trendyol.png",
-        "price": 34990,
-        "shippingFee": 0,
-        "inStock": true,
-        "url": "https://www.trendyol.com/sr?q=Samsung%20Samsung%20Galaxy%20A57%205G",
-        "rating": 4.8
-      },
-      {
-        "storeName": "Vatan Bilgisayar",
-        "storeLogo": "/images/stores/vatan.png",
-        "price": 31999,
-        "shippingFee": 0,
-        "inStock": true,
-        "url": "https://www.vatanbilgisayar.com/arama/Samsung%20Samsung%20Galaxy%20A57%205G",
-        "rating": 4.8
-      },
-      {
-        "storeName": "MediaMarkt",
-        "storeLogo": "/images/stores/mediamarkt.png",
-        "price": 35896,
-        "shippingFee": 0,
-        "inStock": true,
-        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Samsung%20Samsung%20Galaxy%20A57%205G",
-        "rating": 4.8
-      }
-    ],
-    "priceHistory": [
-      {
-        "date": "2026-05-01",
-        "price": 38999,
-        "store": "Samsung Store"
-      },
-      {
-        "date": "2026-06-01",
-        "price": 37999,
-        "store": "Samsung Store"
-      },
-      {
-        "date": "2026-07-01",
-        "price": 36999,
-        "store": "Samsung Store"
-      },
-      {
-        "date": "Ağustos 2026",
-        "price": 31999
-      }
-    ],
-    "pros": [
-      "Fiyat / performans dengesi",
-      "Akıcı ve stabil kullanıcı deneyimi",
-      "Kaliteli malzeme yapısı"
-    ],
-    "cons": [
-      "Kutudan hızlı şarj adaptörü çıkmayabilir"
-    ],
-    "isLatestModel": true
-  },
-  {
-    "id": "samsung-galaxy-a37-5g",
-    "slug": "samsung-galaxy-a37-5g",
-    "name": "Samsung Galaxy A37 5G",
-    "brand": "Samsung",
-    "category": "smartphones",
-    "price": 29499,
-    "priceFormatted": "29.499 TL",
-    "modelCode": "SM-A376BDGGTUR",
-    "rating": 4.53,
-    "reviewCount": 170,
-    "releaseDate": "2026",
-    "image": "/images/phones/samsung/samsung-galaxy-a37-5g.png",
-    "images": [
-      "/images/phones/samsung/samsung-galaxy-a37-5g.png"
-    ],
-    "specs": {
-      "display": "6.6\" Super AMOLED, 120Hz, FHD+",
-      "processor": {
-        "chip": "Samsung Exynos 1580",
-        "cores": "8 Çekirdek (2x4.32 GHz Oryon + 6x3.53 GHz)",
-        "process": "3nm TSMC",
-        "antutuScore": 850000
-      },
-      "camera": {
-        "mainMp": "50 MP",
-        "ultrawideMp": "50 MP Ultra Geniş",
-        "telephotoMp": "50 MP Periskop Telefoto (5x Optik)",
-        "selfieMp": "12 MP Ön Kamera",
-        "videoRes": "8K @30fps, 4K @120fps"
-      },
-      "battery": {
-        "capacitymAh": 5000,
-        "chargingWatts": 25,
-        "wirelessCharging": true,
-        "reverseWireless": true
-      },
-      "ram": "6 GB / 8 GB",
-      "storage": "128 GB, 256 GB",
-      "weight": "199 g",
-      "os": "Android 16, One UI 8.0",
-      "screen": {
-        "size": "6.6 inç",
-        "type": "Dynamic LTPO AMOLED 2X",
-        "resolution": "FHD+",
-        "refreshRate": 120,
-        "ppi": 505,
-        "brightnessNits": 2600
-      },
-      "memory": {
-        "ramGb": 6,
-        "ramType": "LPDDR5X",
-        "storageGb": 128,
-        "storageOptions": [
-          256,
-          512,
-          1024
-        ],
-        "expandableStorage": false
-      },
-      "connectivity": {
-        "has5G": true,
-        "wifiStandard": "Wi-Fi 7 (802.11be)",
-        "bluetooth": "5.4",
-        "hasNFC": true,
-        "hasesim": true
-      },
-      "build": {
-        "weightGrams": 199,
-        "thicknessMm": 8.2,
-        "waterResistance": "IP68 (1.5m, 30dk)",
-        "frameMaterial": "Grade 5 Titanyum Kasa"
-      },
-      "software": {
-        "osName": "Android 16, One UI 8.0",
-        "updateYears": 7
-      }
-    },
-    "basePrice": 27499,
-    "currency": "TL",
-    "releaseYear": 2026,
-    "highlights": [
-      "Samsung Galaxy A37 5G - Yüksek Performans",
-      "6.6\" Super AMOLED, 120Hz, FHD+",
-      "Samsung Exynos 1580",
-      "50 MP + 8 MP + 5 MP"
-    ],
-    "storeOffers": [
-      {
-        "storeName": "Hepsiburada",
-        "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 28042,
-        "shippingFee": 0,
-        "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Samsung%20Samsung%20Galaxy%20A37%205G",
-        "rating": 4.8
-      },
-      {
-        "storeName": "Trendyol",
-        "storeLogo": "/images/stores/trendyol.png",
-        "price": 27897,
-        "shippingFee": 0,
-        "inStock": true,
-        "url": "https://www.trendyol.com/sr?q=Samsung%20Samsung%20Galaxy%20A37%205G",
-        "rating": 4.8
-      },
-      {
-        "storeName": "Vatan Bilgisayar",
-        "storeLogo": "/images/stores/vatan.png",
-        "price": 27499,
-        "shippingFee": 0,
-        "inStock": true,
-        "url": "https://www.vatanbilgisayar.com/arama/Samsung%20Samsung%20Galaxy%20A37%205G",
-        "rating": 4.8
-      },
-      {
-        "storeName": "MediaMarkt",
-        "storeLogo": "/images/stores/mediamarkt.png",
-        "price": 28620,
-        "shippingFee": 0,
-        "inStock": true,
-        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Samsung%20Samsung%20Galaxy%20A37%205G",
-        "rating": 4.8
-      }
-    ],
-    "priceHistory": [
-      {
-        "date": "2026-05-01",
-        "price": 31499,
-        "store": "Samsung Store"
-      },
-      {
-        "date": "2026-06-01",
-        "price": 30499,
-        "store": "Samsung Store"
-      },
-      {
-        "date": "2026-07-01",
-        "price": 29499,
-        "store": "Samsung Store"
-      },
-      {
-        "date": "Ağustos 2026",
-        "price": 27499
-      }
-    ],
-    "pros": [
-      "Fiyat / performans dengesi",
-      "Akıcı ve stabil kullanıcı deneyimi",
-      "Kaliteli malzeme yapısı"
-    ],
-    "cons": [
-      "Kutudan hızlı şarj adaptörü çıkmayabilir"
-    ],
-    "isLatestModel": true
-  },
-  {
-    "id": "samsung-galaxy-a17-5g",
-    "slug": "samsung-galaxy-a17-5g",
-    "name": "Samsung Galaxy A17 5G",
-    "brand": "Samsung",
-    "category": "smartphones",
-    "price": 17499,
-    "priceFormatted": "17.499 TL",
-    "modelCode": "SM-A176BZABTUR",
-    "rating": 4.22,
-    "reviewCount": 9,
-    "releaseDate": "2026",
-    "image": "/images/phones/samsung/samsung-galaxy-a17-5g.jpg",
-    "images": [
-      "/images/phones/samsung/samsung-galaxy-a17-5g.png"
-    ],
-    "specs": {
-      "display": "6.5\" Super AMOLED, 90Hz, FHD+",
-      "processor": {
-        "chip": "MediaTek Dimensity 6300 (6nm)",
-        "cores": "8 Çekirdek (2x4.32 GHz Oryon + 6x3.53 GHz)",
-        "process": "3nm TSMC",
-        "antutuScore": 650000
-      },
-      "camera": {
-        "mainMp": "50 MP",
-        "ultrawideMp": "50 MP Ultra Geniş",
-        "telephotoMp": "50 MP Periskop Telefoto (5x Optik)",
-        "selfieMp": "12 MP Ön Kamera",
-        "videoRes": "8K @30fps, 4K @120fps"
-      },
-      "battery": {
-        "capacitymAh": 5000,
-        "chargingWatts": 25,
-        "wirelessCharging": true,
-        "reverseWireless": true
-      },
-      "ram": "4 GB / 6 GB / 8 GB",
-      "storage": "128 GB, 256 GB",
-      "weight": "192 g",
-      "os": "Android 16, One UI 8.0",
-      "screen": {
-        "size": "6.5 inç",
-        "type": "Dynamic LTPO AMOLED 2X",
-        "resolution": "FHD+",
-        "refreshRate": 90,
-        "ppi": 505,
-        "brightnessNits": 2600
-      },
-      "memory": {
-        "ramGb": 4,
-        "ramType": "LPDDR5X",
-        "storageGb": 128,
-        "storageOptions": [
-          256,
-          512,
-          1024
-        ],
-        "expandableStorage": false
-      },
-      "connectivity": {
-        "has5G": true,
-        "wifiStandard": "Wi-Fi 7 (802.11be)",
-        "bluetooth": "5.4",
-        "hasNFC": true,
-        "hasesim": true
-      },
-      "build": {
-        "weightGrams": 192,
-        "thicknessMm": 8.2,
-        "waterResistance": "IP68 (1.5m, 30dk)",
-        "frameMaterial": "Grade 5 Titanyum Kasa"
-      },
-      "software": {
-        "osName": "Android 16, One UI 8.0",
-        "updateYears": 7
-      }
-    },
-    "basePrice": 16549,
-    "currency": "TL",
-    "releaseYear": 2026,
-    "highlights": [
-      "Samsung Galaxy A17 5G - Yüksek Performans",
-      "6.5\" Super AMOLED, 90Hz, FHD+",
-      "MediaTek Dimensity 6300 (6nm)",
-      "50 MP + 5 MP + 2 MP"
-    ],
-    "storeOffers": [
-      {
-        "storeName": "Hepsiburada",
-        "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 16635,
-        "shippingFee": 0,
-        "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Samsung%20Samsung%20Galaxy%20A17%205G",
-        "rating": 4.8
-      },
-      {
-        "storeName": "Trendyol",
-        "storeLogo": "/images/stores/trendyol.png",
-        "price": 16549,
-        "shippingFee": 0,
-        "inStock": true,
-        "url": "https://www.trendyol.com/sr?q=Samsung%20Samsung%20Galaxy%20A17%205G",
-        "rating": 4.8
-      },
-      {
-        "storeName": "Vatan Bilgisayar",
-        "storeLogo": "/images/stores/vatan.png",
-        "price": 16999,
-        "shippingFee": 0,
-        "inStock": true,
-        "url": "https://www.vatanbilgisayar.com/arama/Samsung%20Samsung%20Galaxy%20A17%205G",
-        "rating": 4.8
-      },
-      {
-        "storeName": "MediaMarkt",
-        "storeLogo": "/images/stores/mediamarkt.png",
-        "price": 16978,
-        "shippingFee": 0,
-        "inStock": true,
-        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Samsung%20Samsung%20Galaxy%20A17%205G",
-        "rating": 4.8
-      }
-    ],
-    "priceHistory": [
-      {
-        "date": "2026-05-01",
-        "price": 19499,
-        "store": "Samsung Store"
-      },
-      {
-        "date": "2026-06-01",
-        "price": 18499,
-        "store": "Samsung Store"
-      },
-      {
-        "date": "2026-07-01",
-        "price": 17499,
-        "store": "Samsung Store"
-      },
-      {
-        "date": "Ağustos 2026",
-        "price": 16549
       }
     ],
     "pros": [

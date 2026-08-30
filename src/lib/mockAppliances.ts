@@ -77518,7 +77518,7 @@ export const mockAppliances: Product[] = [
   },
   {
     "id": "appliance-robot_vacuum-xiaomi-6",
-    "slug": "xiaomi-robot-vacuum-x20-plus",
+    "slug": "xiaomi-robot-vacuum-x20-plus-pro-mop",
     "name": "Xiaomi Robot Vacuum X20+ Robot Süpürge ve Mop",
     "brand": "Xiaomi",
     "category": "appliances",

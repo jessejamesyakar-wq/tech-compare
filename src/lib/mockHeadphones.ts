@@ -46874,7 +46874,7 @@ export const mockHeadphones: Product[] = [
   },
   {
     "id": "samsung-samsung-galaxy-buds",
-    "slug": "samsung-samsung-galaxy-buds",
+    "slug": "samsung-galaxy-buds-plus",
     "name": "Samsung Galaxy Buds+",
     "brand": "Samsung",
     "category": "headphones",
