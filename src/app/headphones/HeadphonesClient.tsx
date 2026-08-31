@@ -1,444 +1,375 @@
 'use client';
 
-import React, { useState, useMemo, useRef, useEffect } from 'react';
+import React, { useState, useMemo, useRef, Suspense } from 'react';
 import Link from 'next/link';
+import { useRouter, useSearchParams } from 'next/navigation';
 import { Product } from '@/lib/types';
 import { CompactProductCard } from '@/components/catalog/CompactProductCard';
 import { CategoryIconStrip } from '@/components/layout/CategoryIconStrip';
-import { Search, ChevronDown, SlidersHorizontal, Sparkles, Check, X, Layers, Filter } from 'lucide-react';
+import { Search, ChevronDown, X, Flame } from 'lucide-react';
 
 const ITEMS_PER_PAGE = 24;
-const POPULAR_BRANDS_LIMIT = 8;
 
 const TABS = [
-  { id: 'all', label: 'Tümü' },
-  { id: 'tws', label: 'Kulak İçi TWS' },
-  { id: 'over_ear', label: 'Kulak Üstü' },
-  { id: 'gaming', label: 'Oyuncu' },
-  { id: 'speaker', label: 'Hoparlör' }
+  { id: 'all', label: 'Tüm Ses & Kulaklık', desc: 'Tüm kulaklık ve hoparlörler' },
+  { id: 'tws', label: 'TWS Tam Kablosuz', desc: 'AirPods, Galaxy Buds, ANC & mikrofon' },
+  { id: 'over_ear', label: 'Kulak Üstü (Hi-Fi ANC)', desc: 'Sony WH, Bose, derin bas ve konfor' },
+  { id: 'gaming', label: 'Oyuncu Kulaklıkları', desc: '7.1 Surround, düşük gecikme & mikrofon' },
+  { id: 'speaker', label: 'Taşınabilir Hoparlör', desc: 'JBL, Marshall su geçirmez Bluetooth ses' }
 ];
 
-export default function HeadphonesClient({ initialProducts }: { initialProducts: Product[] }) {
+function HeadphonesContent({ initialProducts }: { initialProducts: Product[] }) {
+  const router = useRouter();
+  const searchParams = useSearchParams();
+
   const [products] = useState<Product[]>(initialProducts);
   const [activeTab, setActiveTab] = useState<string>('all');
-  const [selectedBrand, setSelectedBrand] = useState<string>('all');
   const [searchQuery, setSearchQuery] = useState('');
   const [sortBy, setSortBy] = useState('popular');
   const [visibleCount, setVisibleCount] = useState(ITEMS_PER_PAGE);
 
-  // Modal / Drawer state for "All Brands"
-  const [isBrandModalOpen, setIsBrandModalOpen] = useState(false);
-  const [brandSearchQuery, setBrandSearchQuery] = useState('');
-  const modalInputRef = useRef<HTMLInputElement>(null);
+  // Hover Popover States
+  const [brandDropdownOpen, setBrandDropdownOpen] = useState(false);
+  const [tabDropdownOpen, setTabDropdownOpen] = useState(false);
 
-  // Compute brand counts and sorted lists
-  const { brandCounts, sortedBrands, topBrands, otherBrands } = useMemo(() => {
-    const counts: Record<string, number> = {};
+  const brandTimeoutRef = useRef<NodeJS.Timeout | null>(null);
+  const tabTimeoutRef = useRef<NodeJS.Timeout | null>(null);
+
+  const brandParam = searchParams.get('brand');
+  const selectedBrand = brandParam || 'all';
+
+  // Available top brands derived dynamically
+  const brands = useMemo(() => {
+    const counts = new Map<string, number>();
     products.forEach((p) => {
-      if (p.brand) {
-        counts[p.brand] = (counts[p.brand] || 0) + 1;
-      }
+      if (p.brand) counts.set(p.brand, (counts.get(p.brand) || 0) + 1);
     });
-
-    const sorted = Object.keys(counts).sort((a, b) => counts[b] - counts[a]);
-    const top = sorted.slice(0, POPULAR_BRANDS_LIMIT);
-    const others = sorted.slice(POPULAR_BRANDS_LIMIT);
-
-    return {
-      brandCounts: counts,
-      sortedBrands: sorted,
-      topBrands: top,
-      otherBrands: others
-    };
+    return Array.from(counts.entries())
+      .sort((a, b) => b[1] - a[1])
+      .map(([brand, count]) => ({ name: brand, count }))
+      .slice(0, 16);
   }, [products]);
 
-  // Filtered brands for modal search
-  const modalFilteredBrands = useMemo(() => {
-    if (!brandSearchQuery.trim()) {
-      return sortedBrands;
-    }
-    const q = brandSearchQuery.toLowerCase();
-    return sortedBrands.filter((b) => b.toLowerCase().includes(q));
-  }, [sortedBrands, brandSearchQuery]);
-
-  // Focus modal search input when modal opens
-  useEffect(() => {
-    if (isBrandModalOpen) {
-      setTimeout(() => modalInputRef.current?.focus(), 50);
+  const handleSelectBrand = (brandName: string) => {
+    const params = new URLSearchParams(searchParams.toString());
+    if (brandName === 'all') {
+      params.delete('brand');
     } else {
-      setBrandSearchQuery('');
+      params.set('brand', brandName);
     }
-  }, [isBrandModalOpen]);
+    setVisibleCount(ITEMS_PER_PAGE);
+    setBrandDropdownOpen(false);
+    router.push(`/headphones?${params.toString()}`, { scroll: false });
+  };
 
-  // Filter products by tab, brand, search, and sort
+  const handleBrandMouseEnter = () => {
+    if (brandTimeoutRef.current) clearTimeout(brandTimeoutRef.current);
+    setBrandDropdownOpen(true);
+  };
+  const handleBrandMouseLeave = () => {
+    brandTimeoutRef.current = setTimeout(() => setBrandDropdownOpen(false), 180);
+  };
+
+  const handleTabMouseEnter = () => {
+    if (tabTimeoutRef.current) clearTimeout(tabTimeoutRef.current);
+    setTabDropdownOpen(true);
+  };
+  const handleTabMouseLeave = () => {
+    tabTimeoutRef.current = setTimeout(() => setTabDropdownOpen(false), 180);
+  };
+
   const displayProducts = useMemo(() => {
     return products
       .filter((p) => {
-        // Search filter
-        const matchesSearch =
-          !searchQuery ||
-          p.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
-          p.brand.toLowerCase().includes(searchQuery.toLowerCase());
+        if (selectedBrand !== 'all' && p.brand.toLowerCase() !== selectedBrand.toLowerCase()) {
+          return false;
+        }
 
-        // Brand filter
-        const matchesBrand = selectedBrand === 'all' || p.brand === selectedBrand;
+        if (searchQuery) {
+          const q = searchQuery.toLowerCase();
+          const matchesName = p.name.toLowerCase().includes(q);
+          const matchesBrand = p.brand.toLowerCase().includes(q);
+          if (!matchesName && !matchesBrand) return false;
+        }
 
-        // Form factor tab filter
         const formFactor = ((p.specs as any)?.formFactor || '').toLowerCase();
         const pName = p.name.toLowerCase();
 
-        let matchesTab = true;
         if (activeTab === 'tws') {
-          matchesTab =
+          return (
             formFactor.includes('tws') ||
             formFactor.includes('kulak içi') ||
-            pName.includes('airpods pro') ||
+            pName.includes('airpods') ||
             pName.includes('buds') ||
             pName.includes('wf-') ||
-            pName.includes('tat');
+            pName.includes('freebuds')
+          );
         } else if (activeTab === 'over_ear') {
-          matchesTab =
+          return (
             formFactor.includes('kulak üstü') ||
             formFactor.includes('over-ear') ||
-            formFactor.includes('on-ear') ||
-            pName.includes('max') ||
             pName.includes('wh-') ||
+            pName.includes('max') ||
             pName.includes('quietcomfort') ||
-            pName.includes('momentum 4') ||
-            pName.includes('major');
+            pName.includes('major')
+          );
         } else if (activeTab === 'gaming') {
-          matchesTab =
-            formFactor.includes('pc') ||
+          return (
             formFactor.includes('oyuncu') ||
-            pName.includes('gaming') ||
+            formFactor.includes('gaming') ||
             pName.includes('arctis') ||
+            pName.includes('cloud') ||
+            pName.includes('kraken') ||
             pName.includes('blackshark') ||
-            pName.includes('logitech g');
+            pName.includes('g pro') ||
+            pName.includes('quantum')
+          );
         } else if (activeTab === 'speaker') {
-          matchesTab =
+          return (
             formFactor.includes('hoparlör') ||
-            formFactor.includes('soundbar') ||
-            pName.includes('speaker') ||
+            formFactor.includes('speaker') ||
+            pName.includes('flip') ||
             pName.includes('charge') ||
-            pName.includes('stanmore') ||
-            pName.includes('soundlink');
+            pName.includes('emberton') ||
+            pName.includes('boombox') ||
+            pName.includes('soundlink')
+          );
         }
 
-        return matchesSearch && matchesBrand && matchesTab;
+        return true;
       })
       .sort((a, b) => {
         if (sortBy === 'priceAsc') return a.basePrice - b.basePrice;
         if (sortBy === 'priceDesc') return b.basePrice - a.basePrice;
         if (sortBy === 'rating') return b.rating - a.rating;
+        if (sortBy === 'newest') return (b.releaseYear || 2024) - (a.releaseYear || 2024);
         return (b.isPopular ? 1 : 0) - (a.isPopular ? 1 : 0);
       });
-  }, [products, searchQuery, selectedBrand, activeTab, sortBy]);
+  }, [products, selectedBrand, searchQuery, activeTab, sortBy]);
 
-  // Is selected brand outside of top list?
-  const isCustomBrandSelected = selectedBrand !== 'all' && !topBrands.includes(selectedBrand);
+  const activeTabObj = TABS.find((t) => t.id === activeTab) || TABS[0];
 
   return (
-    <div className="space-y-8 pb-16 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      {/* Top Header Section - Minimalist & Centered */}
-      <div className="pt-4 pb-2 text-center space-y-3">
-        <div className="text-xs text-slate-400 font-semibold flex items-center justify-center gap-1.5">
-          <Link href="/" className="hover:text-slate-900 transition-colors">Ana Sayfa</Link>
-          <span>/</span>
-          <span className="text-slate-800 font-bold">Ses & Kulaklık</span>
-        </div>
+    <div className="space-y-6 pb-16 max-w-7xl mx-auto px-3 sm:px-6 lg:px-8">
+      
+      {/* 🌿 TOP CONTROLS & SPONSORED BANNER ROW */}
+      <div className="pt-2 space-y-3">
+        
+        {/* Main Title & Search Bar */}
+        <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
+          
+          <div className="flex items-center gap-3">
+            <h1 className="text-2xl sm:text-3xl font-black text-slate-900 dark:text-white tracking-tight">
+              Ses & Kulaklık
+            </h1>
+            <span className="text-xs font-black bg-emerald-100 dark:bg-emerald-950/80 text-emerald-800 dark:text-emerald-300 px-3 py-1 rounded-full border border-emerald-300/80 dark:border-emerald-800 shadow-2xs">
+              {displayProducts.length} Model
+            </span>
+          </div>
 
-        <div className="flex items-center justify-center gap-2.5">
-          <h1 className="text-3xl sm:text-4xl font-black text-slate-900 tracking-tight">
-            Ses & Kulaklık
-          </h1>
-          <span className="text-[11px] font-bold bg-slate-100 text-slate-600 px-3 py-1 rounded-full">
-            {displayProducts.length} Model
-          </span>
-        </div>
-
-        <p className="text-xs sm:text-sm text-slate-500 font-medium max-w-md mx-auto">
-          En popüler kablosuz kulaklıklar, ses sistemleri ve canlı mağaza fiyat karşılaştırmaları
-        </p>
-
-        {/* Minimalist Search & Sort Bar */}
-        <div className="max-w-xl mx-auto pt-2 flex flex-col sm:flex-row items-stretch sm:items-center gap-2">
-          <div className="relative flex-1">
-            <Search className="w-4 h-4 text-slate-400 absolute left-4 top-1/2 -translate-y-1/2" />
+          {/* Search Input */}
+          <div className="relative w-full md:w-80">
+            <Search className="w-4 h-4 text-slate-400 absolute left-3.5 top-1/2 -translate-y-1/2" />
             <input
               type="text"
-              placeholder="Ses ve kulaklık ara (model, marka, özellik)..."
+              placeholder="Kulaklık ara (AirPods, Sony, JBL, marka)..."
               value={searchQuery}
               onChange={(e) => {
                 setSearchQuery(e.target.value);
                 setVisibleCount(ITEMS_PER_PAGE);
               }}
-              className="w-full bg-slate-50 hover:bg-slate-100/80 focus:bg-white border border-slate-200/90 focus:border-slate-800 rounded-full pl-10 pr-4 py-2.5 text-xs font-semibold text-slate-800 outline-none transition-all shadow-2xs placeholder:text-slate-400"
+              className="w-full bg-white dark:bg-slate-900 hover:bg-slate-50 focus:bg-white border border-slate-200 dark:border-slate-800 focus:border-emerald-600 rounded-full pl-9 pr-8 py-2.5 text-xs font-semibold text-slate-800 dark:text-slate-200 outline-none transition-all shadow-xs placeholder:text-slate-400"
             />
+            {searchQuery && (
+              <button
+                onClick={() => setSearchQuery('')}
+                className="absolute right-3 top-1/2 -translate-y-1/2 text-slate-400 hover:text-slate-600 cursor-pointer"
+              >
+                <X className="w-3.5 h-3.5" />
+              </button>
+            )}
           </div>
 
-          <select
-            value={sortBy}
-            onChange={(e) => {
-              setSortBy(e.target.value);
-              setVisibleCount(ITEMS_PER_PAGE);
-            }}
-            className="bg-slate-50 hover:bg-slate-100/80 border border-slate-200/90 rounded-full px-4 py-2.5 text-xs font-bold text-slate-800 outline-none cursor-pointer transition-all shadow-2xs shrink-0"
-          >
-            <option value="popular">Öne Çıkanlar</option>
-            <option value="priceAsc">Fiyat: Düşükten Yükseğe</option>
-            <option value="priceDesc">Fiyat: Yüksekten Düşüğe</option>
-            <option value="rating">En Yüksek Puanlılar</option>
-          </select>
         </div>
-      </div>
 
-      {/* Segmented Form Factor Tabs (Apple / B&O Style) */}
-      <div className="border-b border-slate-200/80 flex items-center justify-start sm:justify-center gap-2 sm:gap-8 overflow-x-auto scrollbar-none pb-0.5 px-2 -mx-2">
-        {TABS.map((tab) => {
-          const isActive = activeTab === tab.id;
-          return (
-            <button
-              key={tab.id}
-              onClick={() => {
-                setActiveTab(tab.id);
-                setVisibleCount(ITEMS_PER_PAGE);
-              }}
-              className={`pb-3 px-3 text-xs sm:text-sm font-bold tracking-tight transition-all relative cursor-pointer whitespace-nowrap shrink-0 ${
-                isActive ? 'text-slate-900' : 'text-slate-400 hover:text-slate-700'
-              }`}
+        {/* 🎯 HOVER FLYOUT FILTERS & MONETIZED SPONSORED DEAL BANNER */}
+        <div className="flex flex-col lg:flex-row lg:items-center justify-between gap-3 pt-1">
+          
+          {/* Left: Hoverable Pill Dropdowns */}
+          <div className="flex items-center gap-2 flex-wrap relative z-30">
+            
+            {/* 1. Brand Hover Pill */}
+            <div
+              className="relative"
+              onMouseEnter={handleBrandMouseEnter}
+              onMouseLeave={handleBrandMouseLeave}
             >
-              <span>{tab.label}</span>
-              {isActive && (
-                <div className="absolute bottom-0 left-0 right-0 h-0.5 bg-slate-900 rounded-full" />
-              )}
-            </button>
-          );
-        })}
-      </div>
-
-      {/* Modern Clean Brand Bar (Single-row with Popular Brands + "All Brands" Search Modal) */}
-      <div className="flex items-center justify-start sm:justify-center gap-1.5 overflow-x-auto no-scrollbar py-1 px-1 -mx-1">
-        {/* All Brands Pill */}
-        <button
-          onClick={() => {
-            setSelectedBrand('all');
-            setVisibleCount(ITEMS_PER_PAGE);
-          }}
-          className={`px-3.5 py-1.5 rounded-full text-xs font-bold transition-all cursor-pointer whitespace-nowrap shrink-0 flex items-center gap-1.5 ${
-            selectedBrand === 'all'
-              ? 'bg-slate-900 text-white shadow-xs'
-              : 'bg-slate-100 hover:bg-slate-200 text-slate-700'
-          }`}
-        >
-          <span>Tüm Markalar</span>
-          <span className={`text-[10px] px-1.5 py-0.2 rounded-full font-medium ${selectedBrand === 'all' ? 'bg-white/20 text-white' : 'bg-slate-200/70 text-slate-500'}`}>
-            {products.length}
-          </span>
-        </button>
-
-        {/* If user selected a brand outside of top list, show it pinned first with active clear button */}
-        {isCustomBrandSelected && (
-          <button
-            onClick={() => {
-              setSelectedBrand('all');
-              setVisibleCount(ITEMS_PER_PAGE);
-            }}
-            className="px-3.5 py-1.5 rounded-full text-xs font-bold bg-emerald-600 hover:bg-emerald-700 text-white shadow-xs transition-all cursor-pointer whitespace-nowrap shrink-0 flex items-center gap-1.5"
-            title="Marka filtresini kaldır"
-          >
-            <span>{selectedBrand}</span>
-            <span className="text-[10px] bg-white/20 px-1.5 py-0.2 rounded-full font-medium">
-              {brandCounts[selectedBrand] || 0}
-            </span>
-            <X className="w-3 h-3 ml-0.5" />
-          </button>
-        )}
-
-        {/* Top 8 Popular Brands */}
-        {topBrands.map((brandName) => {
-          const isSelected = selectedBrand === brandName;
-          const count = brandCounts[brandName] || 0;
-          return (
-            <button
-              key={brandName}
-              onClick={() => {
-                setSelectedBrand(isSelected ? 'all' : brandName);
-                setVisibleCount(ITEMS_PER_PAGE);
-              }}
-              className={`px-3.5 py-1.5 rounded-full text-xs font-semibold transition-all cursor-pointer whitespace-nowrap shrink-0 flex items-center gap-1.5 ${
-                isSelected
-                  ? 'bg-slate-900 text-white shadow-xs font-bold'
-                  : 'bg-slate-100 hover:bg-slate-200 text-slate-700'
-              }`}
-            >
-              <span>{brandName}</span>
-              <span className={`text-[10px] font-medium px-1.5 py-0.2 rounded-full ${isSelected ? 'bg-white/20 text-white' : 'bg-slate-200/70 text-slate-400'}`}>
-                {count}
-              </span>
-            </button>
-          );
-        })}
-
-        {/* "+ Diğer Markalar" Modal Trigger Button */}
-        <button
-          onClick={() => setIsBrandModalOpen(true)}
-          className={`px-3.5 py-1.5 rounded-full text-xs font-bold transition-all cursor-pointer whitespace-nowrap shrink-0 flex items-center gap-1.5 border ${
-            isCustomBrandSelected
-              ? 'bg-emerald-50 text-emerald-800 border-emerald-300 hover:bg-emerald-100'
-              : 'bg-white hover:bg-slate-100 text-slate-700 border-slate-200/90 shadow-2xs'
-          }`}
-        >
-          <Search className="w-3 h-3 text-slate-400" />
-          <span>Tüm Markalar ({sortedBrands.length})</span>
-          <ChevronDown className="w-3 h-3 text-slate-400" />
-        </button>
-      </div>
-
-      {/* Brand Search & Selection Modal / Drawer */}
-      {isBrandModalOpen && (
-        <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-slate-900/40 backdrop-blur-xs animate-in fade-in duration-150">
-          <div 
-            className="bg-white rounded-3xl shadow-2xl border border-slate-200/80 w-full max-w-2xl max-h-[85vh] flex flex-col overflow-hidden animate-in zoom-in-95 duration-150"
-            onClick={(e) => e.stopPropagation()}
-          >
-            {/* Modal Header */}
-            <div className="px-6 pt-6 pb-4 border-b border-slate-100 flex items-center justify-between">
-              <div>
-                <h3 className="text-base font-black text-slate-900 flex items-center gap-2">
-                  <SlidersHorizontal className="w-4 h-4 text-emerald-600" />
-                  <span>Tüm Markalar ({sortedBrands.length})</span>
-                </h3>
-                <p className="text-xs text-slate-500 font-medium mt-0.5">
-                  Kulaklık modellerini markaya göre filtreleyin
-                </p>
-              </div>
               <button
-                onClick={() => setIsBrandModalOpen(false)}
-                className="w-8 h-8 rounded-full bg-slate-100 hover:bg-slate-200 text-slate-600 flex items-center justify-center transition-colors cursor-pointer"
+                onClick={() => setBrandDropdownOpen((prev) => !prev)}
+                className={`px-4 py-2 rounded-full text-xs font-bold transition-all flex items-center gap-2 cursor-pointer border shadow-2xs ${
+                  selectedBrand !== 'all'
+                    ? 'bg-slate-900 text-white border-slate-900'
+                    : 'bg-white dark:bg-slate-900 text-slate-700 dark:text-slate-200 border-slate-200 dark:border-slate-800 hover:border-emerald-500'
+                }`}
               >
-                <X className="w-4 h-4" />
+                <span>{selectedBrand === 'all' ? 'Tüm Markalar' : selectedBrand}</span>
+                <ChevronDown className={`w-3.5 h-3.5 transition-transform ${brandDropdownOpen ? 'rotate-180' : ''}`} />
               </button>
-            </div>
 
-            {/* Modal Search Input */}
-            <div className="p-4 bg-slate-50/70 border-b border-slate-100">
-              <div className="relative">
-                <Search className="w-4 h-4 text-slate-400 absolute left-3.5 top-1/2 -translate-y-1/2" />
-                <input
-                  ref={modalInputRef}
-                  type="text"
-                  placeholder="Marka adı yazın (örn: Razer, Snopy, Bose, Anker)..."
-                  value={brandSearchQuery}
-                  onChange={(e) => setBrandSearchQuery(e.target.value)}
-                  className="w-full bg-white border border-slate-200 focus:border-slate-800 rounded-xl pl-10 pr-9 py-2.5 text-xs font-semibold text-slate-800 outline-none transition-all shadow-2xs placeholder:text-slate-400"
-                />
-                {brandSearchQuery && (
+              {brandDropdownOpen && (
+                <div className="absolute top-full left-0 mt-2 w-72 sm:w-80 bg-white/95 dark:bg-slate-900/95 backdrop-blur-xl border border-slate-200 dark:border-slate-800 rounded-2xl shadow-xl p-3 grid grid-cols-2 gap-1.5 z-50 animate-in fade-in zoom-in-95 duration-150">
                   <button
-                    onClick={() => setBrandSearchQuery('')}
-                    className="absolute right-3 top-1/2 -translate-y-1/2 text-slate-400 hover:text-slate-600 text-xs"
-                  >
-                    <X className="w-3.5 h-3.5" />
-                  </button>
-                )}
-              </div>
-            </div>
-
-            {/* Modal Brands Grid */}
-            <div className="p-6 overflow-y-auto flex-1 max-h-[55vh] space-y-4">
-              {modalFilteredBrands.length > 0 ? (
-                <div className="grid grid-cols-2 sm:grid-cols-3 gap-2">
-                  {/* Reset Option */}
-                  <button
-                    onClick={() => {
-                      setSelectedBrand('all');
-                      setIsBrandModalOpen(false);
-                      setVisibleCount(ITEMS_PER_PAGE);
-                    }}
-                    className={`px-3.5 py-2.5 rounded-xl text-left text-xs font-bold transition-all flex items-center justify-between border cursor-pointer ${
+                    onClick={() => handleSelectBrand('all')}
+                    className={`col-span-2 text-left px-3 py-2 rounded-xl text-xs font-bold transition-colors ${
                       selectedBrand === 'all'
-                        ? 'bg-slate-900 text-white border-slate-900 shadow-xs'
-                        : 'bg-white hover:bg-slate-50 text-slate-700 border-slate-200'
+                        ? 'bg-emerald-50 dark:bg-emerald-950/60 text-emerald-700 dark:text-emerald-300 font-black'
+                        : 'text-slate-700 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800'
                     }`}
                   >
-                    <span>Tüm Markalar</span>
-                    <span className={`text-[10px] px-2 py-0.5 rounded-md font-semibold ${selectedBrand === 'all' ? 'bg-white/20 text-white' : 'bg-slate-100 text-slate-500'}`}>
-                      {products.length}
-                    </span>
+                    Tüm Ses Markaları ({products.length})
                   </button>
 
-                  {modalFilteredBrands.map((b) => {
-                    const isSelected = selectedBrand === b;
-                    const count = brandCounts[b] || 0;
+                  {brands.map((b) => {
+                    const isSelected = selectedBrand.toLowerCase() === b.name.toLowerCase();
                     return (
                       <button
-                        key={b}
-                        onClick={() => {
-                          setSelectedBrand(isSelected ? 'all' : b);
-                          setIsBrandModalOpen(false);
-                          setVisibleCount(ITEMS_PER_PAGE);
-                        }}
-                        className={`px-3.5 py-2.5 rounded-xl text-left text-xs font-semibold transition-all flex items-center justify-between border cursor-pointer ${
+                        key={b.name}
+                        onClick={() => handleSelectBrand(b.name)}
+                        className={`text-left px-3 py-2 rounded-xl text-xs font-semibold flex items-center justify-between transition-colors ${
                           isSelected
-                            ? 'bg-slate-900 text-white border-slate-900 shadow-xs font-bold'
-                            : 'bg-white hover:bg-slate-50 hover:border-slate-300 text-slate-700 border-slate-200/90'
+                            ? 'bg-slate-900 dark:bg-white text-white dark:text-slate-900 font-bold'
+                            : 'text-slate-700 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800'
                         }`}
                       >
-                        <span className="truncate mr-1">{b}</span>
-                        <span className={`text-[10px] px-2 py-0.5 rounded-md font-semibold shrink-0 ${isSelected ? 'bg-white/20 text-white' : 'bg-slate-100 text-slate-500'}`}>
-                          {count}
-                        </span>
+                        <span className="truncate">{b.name}</span>
+                        <span className="text-[10px] opacity-60 ml-1">{b.count}</span>
                       </button>
                     );
                   })}
                 </div>
-              ) : (
-                <div className="py-10 text-center text-slate-400 space-y-2">
-                  <p className="text-xs font-semibold">"{brandSearchQuery}" aramasına uygun marka bulunamadı.</p>
-                  <button
-                    onClick={() => setBrandSearchQuery('')}
-                    className="text-xs text-emerald-600 font-bold hover:underline"
-                  >
-                    Aramayı Temizle
-                  </button>
+              )}
+            </div>
+
+            {/* 2. Type / Segment Hover Pill */}
+            <div
+              className="relative"
+              onMouseEnter={handleTabMouseEnter}
+              onMouseLeave={handleTabMouseLeave}
+            >
+              <button
+                onClick={() => setTabDropdownOpen((prev) => !prev)}
+                className={`px-4 py-2 rounded-full text-xs font-bold transition-all flex items-center gap-2 cursor-pointer border shadow-2xs ${
+                  activeTab !== 'all'
+                    ? 'bg-emerald-600 text-white border-emerald-600'
+                    : 'bg-white dark:bg-slate-900 text-slate-700 dark:text-slate-200 border-slate-200 dark:border-slate-800 hover:border-emerald-500'
+                }`}
+              >
+                <span>{activeTabObj.label}</span>
+                <ChevronDown className={`w-3.5 h-3.5 transition-transform ${tabDropdownOpen ? 'rotate-180' : ''}`} />
+              </button>
+
+              {tabDropdownOpen && (
+                <div className="absolute top-full left-0 mt-2 w-64 sm:w-72 bg-white/95 dark:bg-slate-900/95 backdrop-blur-xl border border-slate-200 dark:border-slate-800 rounded-2xl shadow-xl p-2 space-y-1 z-50 animate-in fade-in zoom-in-95 duration-150">
+                  {TABS.map((tab) => {
+                    const isActive = activeTab === tab.id;
+                    return (
+                      <button
+                        key={tab.id}
+                        onClick={() => {
+                          setActiveTab(tab.id);
+                          setVisibleCount(ITEMS_PER_PAGE);
+                          setTabDropdownOpen(false);
+                        }}
+                        className={`w-full text-left px-3 py-2 rounded-xl text-xs transition-colors ${
+                          isActive
+                            ? 'bg-emerald-600 text-white font-bold'
+                            : 'text-slate-700 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800'
+                        }`}
+                      >
+                        <div className="font-bold">{tab.label}</div>
+                        <div className={`text-[10px] ${isActive ? 'text-white/80' : 'text-slate-400'}`}>
+                          {tab.desc}
+                        </div>
+                      </button>
+                    );
+                  })}
                 </div>
               )}
             </div>
 
-            {/* Modal Footer */}
-            <div className="px-6 py-3 bg-slate-50 border-t border-slate-100 flex items-center justify-between text-xs">
-              <span className="text-slate-500 font-medium">
-                {modalFilteredBrands.length} marka gösteriliyor
-              </span>
+            {/* 3. Sort Select */}
+            <select
+              value={sortBy}
+              onChange={(e) => {
+                setSortBy(e.target.value);
+                setVisibleCount(ITEMS_PER_PAGE);
+              }}
+              className="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 hover:border-emerald-500 rounded-full px-4 py-2 text-xs font-bold text-slate-700 dark:text-slate-200 outline-none cursor-pointer transition-all shadow-2xs"
+            >
+              <option value="popular">Sırala: Öne Çıkanlar</option>
+              <option value="priceAsc">Fiyat: Düşükten Yükseğe</option>
+              <option value="priceDesc">Fiyat: Yüksekten Düşüğe</option>
+              <option value="rating">En Yüksek Puanlılar</option>
+              <option value="newest">En Yeni Çıkanlar</option>
+            </select>
+
+            {/* Active Filters Clear Button */}
+            {(selectedBrand !== 'all' || activeTab !== 'all' || searchQuery) && (
               <button
                 onClick={() => {
-                  setSelectedBrand('all');
-                  setIsBrandModalOpen(false);
-                  setVisibleCount(ITEMS_PER_PAGE);
+                  handleSelectBrand('all');
+                  setActiveTab('all');
+                  setSearchQuery('');
                 }}
-                className="text-slate-600 hover:text-slate-900 font-bold underline cursor-pointer"
+                className="text-xs font-bold text-rose-600 hover:text-rose-700 bg-rose-50 dark:bg-rose-950/40 px-3 py-1.5 rounded-full border border-rose-200 dark:border-rose-900 flex items-center gap-1 transition-colors cursor-pointer"
               >
-                Filtreyi Sıfırla
+                <span>Temizle</span>
+                <X className="w-3 h-3" />
               </button>
-            </div>
-          </div>
-        </div>
-      )}
+            )}
 
-      {/* Products Grid */}
+          </div>
+
+          {/* 💎 HIGH-VALUE SPONSORED DEAL BANNER */}
+          <Link
+            href="/headphones?sortBy=popular"
+            className="group flex items-center justify-between gap-3 bg-gradient-to-r from-slate-900 via-slate-800 to-indigo-950 hover:to-indigo-900 text-white px-4 py-2.5 rounded-2xl border border-slate-700 shadow-md transition-all hover:scale-[1.01] cursor-pointer"
+          >
+            <div className="flex items-center gap-2.5">
+              <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
+              <div>
+                <span className="text-[11px] font-black tracking-wide text-emerald-300 block uppercase">
+                  Ses & Kulaklık Fırsatları
+                </span>
+                <span className="text-xs font-bold text-slate-200 group-hover:text-white transition-colors">
+                  Hepsiburada & MediaMarkt Canlı Kulaklık İndirimleri
+                </span>
+              </div>
+            </div>
+            <div className="flex items-center gap-1 text-[11px] font-black text-amber-400 bg-white/10 px-2.5 py-1 rounded-lg shrink-0">
+              <Flame className="w-3.5 h-3.5 text-amber-400 fill-amber-400" />
+              <span>%35&apos;e Varan</span>
+            </div>
+          </Link>
+
+        </div>
+
+      </div>
+
+      {/* 🛍️ PRODUCT CARDS GRID */}
       {displayProducts.length > 0 ? (
-        <div className="space-y-10">
-          <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-6">
+        <div className="space-y-10 pt-2">
+          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3 sm:gap-5">
             {displayProducts.slice(0, visibleCount).map((product, idx) => (
               <CompactProductCard key={product.id} product={product} index={idx} />
             ))}
           </div>
 
-          {/* Load More Button */}
           {visibleCount < displayProducts.length && (
-            <div className="text-center pt-6">
+            <div className="text-center pt-4">
               <button
                 onClick={() => setVisibleCount((prev) => prev + ITEMS_PER_PAGE)}
-                className="inline-flex items-center gap-2 bg-slate-900 hover:bg-slate-800 text-white font-bold text-xs px-8 py-3.5 rounded-full shadow-sm transition-all cursor-pointer hover:scale-105 active:scale-95"
+                className="inline-flex items-center gap-2 bg-slate-900 hover:bg-slate-800 dark:bg-white dark:hover:bg-slate-100 text-white dark:text-slate-900 font-bold text-xs px-8 py-3.5 rounded-full shadow-sm transition-all cursor-pointer hover:scale-105 active:scale-95"
               >
                 <span>Daha Fazla Kulaklık Göster ({displayProducts.length - visibleCount} model kaldı)</span>
                 <ChevronDown className="w-4 h-4" />
@@ -450,15 +381,15 @@ export default function HeadphonesClient({ initialProducts }: { initialProducts:
           )}
         </div>
       ) : (
-        <div className="bg-slate-50 border border-slate-200/80 rounded-3xl p-12 text-center space-y-3">
-          <p className="text-sm font-bold text-slate-700">Seçilen filtrelere uygun ses ürünü bulunamadı.</p>
+        <div className="bg-white dark:bg-slate-900 border border-slate-200/80 dark:border-slate-800 rounded-3xl p-12 text-center space-y-3 shadow-xs">
+          <p className="text-sm font-bold text-slate-700 dark:text-slate-300">Seçilen filtrelere uygun ses ürünü bulunamadı.</p>
           <button
             onClick={() => {
               setSearchQuery('');
-              setSelectedBrand('all');
+              handleSelectBrand('all');
               setActiveTab('all');
             }}
-            className="text-xs text-emerald-700 font-bold underline cursor-pointer hover:text-emerald-800"
+            className="text-xs text-emerald-600 dark:text-emerald-400 font-bold underline cursor-pointer hover:text-emerald-700"
           >
             Filtreleri Temizle
           </button>
@@ -469,3 +400,13 @@ export default function HeadphonesClient({ initialProducts }: { initialProducts:
     </div>
   );
 }
+
+export function HeadphonesClient({ initialProducts }: { initialProducts: Product[] }) {
+  return (
+    <Suspense fallback={<div className="p-8 text-center text-xs text-slate-400">Yükleniyor...</div>}>
+      <HeadphonesContent initialProducts={initialProducts} />
+    </Suspense>
+  );
+}
+
+export default HeadphonesClient;
