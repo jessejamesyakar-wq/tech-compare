@@ -165,7 +165,7 @@ export default function HeadphonesDetailClient({ initialProduct }: { initialProd
           </div>
         )}
 
-        <StoreTable offers={product.storeOffers} currency={product.currency} />
+        <StoreTable offers={product.storeOffers} currency={product.currency}  product={product} />
         <PriceHistoryChart data={product.priceHistory} currency={product.currency} />
       </div>
 

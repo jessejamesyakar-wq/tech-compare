@@ -3,6 +3,7 @@ import { kv } from "@vercel/kv";
 import { runPriceScrape, CatalogProduct } from "@/lib/scraper/run";
 import { getStoredProducts } from "@/lib/adminData";
 import { Product } from "@/lib/types";
+import { isEligibleForLivePriceComparison } from "@/lib/releaseYearFilter";
 
 export async function GET(request: NextRequest) {
   // CRON_SECRET koruması
@@ -14,8 +15,8 @@ export async function GET(request: NextRequest) {
   }
 
   try {
-    // Ürün kataloğunu dinamik olarak sistemdeki tüm ürünlerden türet
-    const allProducts: Product[] = getStoredProducts();
+    // Ürün kataloğunu dinamik olarak sistemdeki tüm ürünlerden türet (2018 öncesi non-Samsung/Apple hariç)
+    const allProducts: Product[] = getStoredProducts().filter(isEligibleForLivePriceComparison);
     const dynamicCatalog: CatalogProduct[] = allProducts.slice(0, 50).map((product: Product) => ({
       id: product.id,
       searchQuery: `${product.brand} ${product.name}`,

@@ -4,11 +4,14 @@ import React from 'react';
 import { StoreOffer } from '@/lib/types';
 import { useI18n } from '@/lib/i18n/context';
 import { ShoppingBag, ExternalLink, Clock } from 'lucide-react';
+import { ProductLike, isEligibleForLivePriceComparison } from '@/lib/releaseYearFilter';
+import { HistoricalRetroShowcase } from './HistoricalRetroShowcase';
 
 interface CompactStoreComparisonProps {
   offers: StoreOffer[];
   basePrice: number;
   currency: string;
+  product?: ProductLike;
 }
 
 // 8 Target Retailers fully active across all products
@@ -23,8 +26,13 @@ const REQUIRED_RETAILERS = [
   { id: 'pttavm', name: 'PttAVM', keyword: 'ptt', bg: 'bg-amber-400 text-blue-950 font-black', defaultUrl: 'https://www.pttavm.com', multiplier: 0.992 }
 ];
 
-export function CompactStoreComparison({ offers = [], basePrice, currency }: CompactStoreComparisonProps) {
+export function CompactStoreComparison({ offers = [], basePrice, currency, product }: CompactStoreComparisonProps) {
   const { t } = useI18n();
+
+  // If product is a historical/retro model (pre-2018 non-Samsung/Apple), render the dedicated Retro Showcase
+  if (product && !isEligibleForLivePriceComparison(product)) {
+    return <HistoricalRetroShowcase product={product} compact={true} />;
+  }
 
   // Find actual lowest price among real offers or basePrice
   const realOffers = (offers || []).filter((o) => o && o.price > 0);
@@ -149,12 +157,10 @@ export function CompactStoreComparison({ offers = [], basePrice, currency }: Com
                   <ExternalLink className="w-2.5 h-2.5" />
                 </a>
               </div>
-
             </div>
           );
         })}
       </div>
-
     </div>
   );
 }

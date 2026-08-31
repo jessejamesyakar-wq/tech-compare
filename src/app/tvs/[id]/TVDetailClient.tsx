@@ -145,7 +145,7 @@ export default function TVDetailClient({ initialTVProduct }: { initialTVProduct:
               offers={tv.storeOffers}
               basePrice={tv.basePrice}
               currency={tv.currency}
-            />
+             product={tv} />
 
           </div>
 
@@ -228,7 +228,7 @@ export default function TVDetailClient({ initialTVProduct }: { initialTVProduct:
       </div>
 
       {/* Store Comparison Table (8 Stores) */}
-      <StoreTable offers={tv.storeOffers} currency={tv.currency} />
+      <StoreTable offers={tv.storeOffers} currency={tv.currency}  product={tv} />
 
       {/* 6-Month Price History Chart */}
       <PriceHistoryChart data={tv.priceHistory} currency={tv.currency} product={tv} />

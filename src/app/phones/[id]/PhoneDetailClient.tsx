@@ -172,6 +172,7 @@ export default function PhoneDetailClient({ initialPhone }: { initialPhone: Smar
               offers={phone.storeOffers}
               basePrice={phone.basePrice}
               currency={phone.currency}
+              product={phone}
             />
 
             {/* AI Module 2: AI Price Forecast Badge */}
@@ -214,7 +215,7 @@ export default function PhoneDetailClient({ initialPhone }: { initialPhone: Smar
 
       {/* Store Comparison Table (Full View) */}
       <div id="store-section">
-        <StoreTable offers={phone.storeOffers} currency={phone.currency} />
+        <StoreTable offers={phone.storeOffers} currency={phone.currency} product={phone} />
       </div>
 
       {/* 6-Month Price History Chart */}

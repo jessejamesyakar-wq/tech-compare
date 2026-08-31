@@ -2,6 +2,9 @@ import { mockSmartphones, popularComparisonsList } from './mockData';
 import { mockTVs } from './mockTVs';
 import { Product, Smartphone, TVProduct, LaptopProduct, ApplianceProduct, FilterOptions } from './types';
 import { getStoredProducts } from './adminData';
+import { isEligibleForLivePriceComparison, isHistoricalRetroModel, getProductReleaseYear } from './releaseYearFilter';
+
+export { isEligibleForLivePriceComparison, isHistoricalRetroModel, getProductReleaseYear };
 
 // Deduplicate products by unique ID to prevent duplicate React keys
 function deduplicateProducts<T extends Product>(list: T[]): T[] {
@@ -589,3 +592,21 @@ export async function getDynamicCategoryDistributionProducts(total: number = 20)
     }
   };
 }
+
+/**
+ * Returns products eligible for the 8-Store Live Price Comparison pool.
+ * (Excludes non-Samsung/Apple products released before 2018).
+ */
+export async function getLivePriceComparisonProducts(): Promise<Product[]> {
+  const all = await getAllProducts();
+  return all.filter(isEligibleForLivePriceComparison);
+}
+
+/**
+ * Returns historical/retro models (pre-2018 non-Samsung/Apple products).
+ */
+export async function getHistoricalRetroProducts(): Promise<Product[]> {
+  const all = await getAllProducts();
+  return all.filter(isHistoricalRetroModel);
+}
+
