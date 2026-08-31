@@ -1,4 +1,4 @@
-import { Product } from "./types";
+import { Product } from './types';
 
 export const mockMonitors: Product[] = [
   {
@@ -15,9 +15,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2023,
     "isPopular": false,
     "isFeatured": false,
-    "image": "/images/monitors/lg-27up650p-w.jpg",
+    "image": "/images/products/monitors/icecat-lg-27up650p-w.jpg",
     "images": [
-      "/images/monitors/lg-27up650p-w.jpg"
+      "/images/products/monitors/icecat-lg-27up650p-w.jpg",
+      "/images/products/monitors/icecat-lg-27up650p-w-1.jpg",
+      "/images/products/monitors/icecat-lg-27up650p-w-2.jpg",
+      "/images/products/monitors/icecat-lg-27up650p-w-3.jpg"
     ],
     "highlights": [
       "27 inç 4K UHD (3840x2160) 60Hz Geniş Açılı IPS Panel",
@@ -94,9 +97,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2021,
     "isPopular": false,
     "isFeatured": false,
-    "image": "/images/monitors/dell-p3421w.jpg",
+    "image": "/images/products/monitors/icecat-dell-p3421w.jpg",
     "images": [
-      "/images/monitors/dell-p3421w.jpg"
+      "/images/products/monitors/icecat-dell-p3421w.jpg",
+      "/images/products/monitors/icecat-dell-p3421w-1.jpg",
+      "/images/products/monitors/icecat-dell-p3421w-2.jpg",
+      "/images/products/monitors/icecat-dell-p3421w-3.jpg"
     ],
     "highlights": [
       "34.14 inç 21:9 UWQHD (3440x1440) 60Hz 3800R Kavisli Geniş IPS Panel",
@@ -172,9 +178,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2024,
     "isPopular": false,
     "isFeatured": false,
-    "image": "/images/monitors/asus-mh2741a.jpg",
+    "image": "/images/products/monitors/icecat-asus-mh2741a.jpg",
     "images": [
-      "/images/monitors/asus-mh2741a.jpg"
+      "/images/products/monitors/icecat-asus-mh2741a.jpg",
+      "/images/products/monitors/icecat-asus-mh2741a-1.jpg",
+      "/images/products/monitors/icecat-asus-mh2741a-2.jpg",
+      "/images/products/monitors/icecat-asus-mh2741a-3.jpg"
     ],
     "highlights": [
       "27 inç WQHD (2560x1440) 75Hz Geniş Açılı Profesyonel IPS Panel",
@@ -250,9 +259,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2020,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/monitors/asus-tuf-gaming-vg279qm.jpg",
+    "image": "/images/products/monitors/icecat-asus-tuf-gaming-vg279qm.jpg",
     "images": [
-      "/images/monitors/asus-tuf-gaming-vg279qm.jpg"
+      "/images/products/monitors/icecat-asus-tuf-gaming-vg279qm.jpg",
+      "/images/products/monitors/icecat-asus-tuf-gaming-vg279qm-1.jpg",
+      "/images/products/monitors/icecat-asus-tuf-gaming-vg279qm-2.jpg",
+      "/images/products/monitors/icecat-asus-tuf-gaming-vg279qm-3.jpg"
     ],
     "highlights": [
       "27 inç FHD (1920x1080) 280Hz (OC) Fast IPS Ultra Hızlı E-Spor Paneli",
@@ -329,9 +341,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2022,
     "isPopular": false,
     "isFeatured": false,
-    "image": "/images/monitors/aoc-agon-ag275qxn-eu.jpg",
+    "image": "/images/products/monitors/icecat-aoc-agon-ag275qxn-eu.jpg",
     "images": [
-      "/images/monitors/aoc-agon-ag275qxn-eu.jpg"
+      "/images/products/monitors/icecat-aoc-agon-ag275qxn-eu.jpg",
+      "/images/products/monitors/icecat-aoc-agon-ag275qxn-eu-1.jpg",
+      "/images/products/monitors/icecat-aoc-agon-ag275qxn-eu-2.jpg",
+      "/images/products/monitors/icecat-aoc-agon-ag275qxn-eu-3.jpg"
     ],
     "highlights": [
       "27 inç WQHD (2560x1440) 165Hz Hızlı Fast VA E-Spor Paneli",
@@ -408,9 +423,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2022,
     "isPopular": false,
     "isFeatured": false,
-    "image": "/images/monitors/lg-ultrawide-34wq650-w.jpg",
+    "image": "/images/products/monitors/icecat-lg-ultrawide-34wq650-w.jpg",
     "images": [
-      "/images/monitors/lg-ultrawide-34wq650-w.jpg"
+      "/images/products/monitors/icecat-lg-ultrawide-34wq650-w.jpg",
+      "/images/products/monitors/icecat-lg-ultrawide-34wq650-w-1.jpg",
+      "/images/products/monitors/icecat-lg-ultrawide-34wq650-w-2.jpg",
+      "/images/products/monitors/icecat-lg-ultrawide-34wq650-w-3.jpg"
     ],
     "highlights": [
       "34 inç 21:9 WFHD (2560x1080) 100Hz Geniş Ekran IPS Panel",
@@ -566,9 +584,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2019,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/monitors/asus-tuf-gaming-vg27aq.jpg",
+    "image": "/images/products/monitors/icecat-asus-tuf-gaming-vg27aq.jpg",
     "images": [
-      "/images/monitors/asus-tuf-gaming-vg27aq.jpg"
+      "/images/products/monitors/icecat-asus-tuf-gaming-vg27aq.jpg",
+      "/images/products/monitors/icecat-asus-tuf-gaming-vg27aq-1.jpg",
+      "/images/products/monitors/icecat-asus-tuf-gaming-vg27aq-2.jpg",
+      "/images/products/monitors/icecat-asus-tuf-gaming-vg27aq-3.jpg"
     ],
     "highlights": [
       "27 inç WQHD (2560x1440) 165Hz Hızlı IPS Panel",
@@ -882,9 +903,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2020,
     "isPopular": false,
     "isFeatured": false,
-    "image": "/images/monitors/aoc-cu34g2-bk.jpg",
+    "image": "/images/products/monitors/icecat-aoc-cu34g2-bk.jpg",
     "images": [
-      "/images/monitors/aoc-cu34g2-bk.jpg"
+      "/images/products/monitors/icecat-aoc-cu34g2-bk.jpg",
+      "/images/products/monitors/icecat-aoc-cu34g2-bk-1.jpg",
+      "/images/products/monitors/icecat-aoc-cu34g2-bk-2.jpg",
+      "/images/products/monitors/icecat-aoc-cu34g2-bk-3.jpg"
     ],
     "highlights": [
       "34 inç 21:9 UWQHD (3440x1440) 100Hz 1500R Kavisli VA Panel",
@@ -1040,9 +1064,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2020,
     "isPopular": false,
     "isFeatured": false,
-    "image": "/images/monitors/philips-325b1l-00.jpg",
+    "image": "/images/products/monitors/icecat-philips-325b1l-00.jpg",
     "images": [
-      "/images/monitors/philips-325b1l-00.jpg"
+      "/images/products/monitors/icecat-philips-325b1l-00.jpg",
+      "/images/products/monitors/icecat-philips-325b1l-00-1.jpg",
+      "/images/products/monitors/icecat-philips-325b1l-00-2.jpg",
+      "/images/products/monitors/icecat-philips-325b1l-00-3.jpg"
     ],
     "highlights": [
       "31.5 inç WQHD (2560x1440) 75Hz Geniş Açılı IPS Panel",
@@ -1119,9 +1146,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2024,
     "isPopular": false,
     "isFeatured": false,
-    "image": "/images/monitors/asus-ha2741a.jpg",
+    "image": "/images/products/monitors/icecat-asus-ha2741a.jpg",
     "images": [
-      "/images/monitors/asus-ha2741a.jpg"
+      "/images/products/monitors/icecat-asus-ha2741a.jpg",
+      "/images/products/monitors/icecat-asus-ha2741a-1.jpg",
+      "/images/products/monitors/icecat-asus-ha2741a-2.jpg",
+      "/images/products/monitors/icecat-asus-ha2741a-3.jpg"
     ],
     "highlights": [
       "27 inç WQHD (2560x1440) 75Hz DICOM Part 14 Uyumlu Klinik & Medikal IPS Panel",
@@ -1197,9 +1227,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2022,
     "isPopular": false,
     "isFeatured": false,
-    "image": "/images/monitors/asus-proart-pa248cnv.jpg",
+    "image": "/images/products/monitors/icecat-asus-proart-pa248cnv.jpg",
     "images": [
-      "/images/monitors/asus-proart-pa248cnv.jpg"
+      "/images/products/monitors/icecat-asus-proart-pa248cnv.jpg",
+      "/images/products/monitors/icecat-asus-proart-pa248cnv-1.jpg",
+      "/images/products/monitors/icecat-asus-proart-pa248cnv-2.jpg",
+      "/images/products/monitors/icecat-asus-proart-pa248cnv-3.jpg"
     ],
     "highlights": [
       "24.1 inç 16:10 WUXGA (1920x1200) 75Hz Calman Doğrulamalı IPS Panel (Delta E < 2)",
@@ -1276,9 +1309,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2023,
     "isPopular": false,
     "isFeatured": false,
-    "image": "/images/monitors/asus-proart-pa169cdv.jpg",
+    "image": "/images/products/monitors/icecat-asus-proart-pa169cdv.jpg",
     "images": [
-      "/images/monitors/asus-proart-pa169cdv.jpg"
+      "/images/products/monitors/icecat-asus-proart-pa169cdv.jpg",
+      "/images/products/monitors/icecat-asus-proart-pa169cdv-1.jpg",
+      "/images/products/monitors/icecat-asus-proart-pa169cdv-2.jpg",
+      "/images/products/monitors/icecat-asus-proart-pa169cdv-3.jpg"
     ],
     "highlights": [
       "15.6 inç 4K UHD (3840x2160) 10 Nokta Dokunmatik & Wacom EMR Kalem Destekli Calman IPS",
@@ -1432,9 +1468,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/monitors/asus-rog-strix-xg27wcs.jpg",
+    "image": "/images/products/monitors/icecat-asus-rog-strix-xg27wcs.jpg",
     "images": [
-      "/images/monitors/asus-rog-strix-xg27wcs.jpg"
+      "/images/products/monitors/icecat-asus-rog-strix-xg27wcs.jpg",
+      "/images/products/monitors/icecat-asus-rog-strix-xg27wcs-1.jpg",
+      "/images/products/monitors/icecat-asus-rog-strix-xg27wcs-2.jpg",
+      "/images/products/monitors/icecat-asus-rog-strix-xg27wcs-3.jpg"
     ],
     "highlights": [
       "27 inç WQHD (2560x1440) 180Hz 1500R Kavisli Fast VA Oyuncu Paneli",
@@ -2453,9 +2492,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2023,
     "isPopular": false,
     "isFeatured": false,
-    "image": "/images/monitors/asus-proart-pa248crv.jpg",
+    "image": "/images/products/monitors/icecat-asus-proart-pa248crv.jpg",
     "images": [
-      "/images/monitors/asus-proart-pa248crv.jpg"
+      "/images/products/monitors/icecat-asus-proart-pa248crv.jpg",
+      "/images/products/monitors/icecat-asus-proart-pa248crv-1.jpg",
+      "/images/products/monitors/icecat-asus-proart-pa248crv-2.jpg",
+      "/images/products/monitors/icecat-asus-proart-pa248crv-3.jpg"
     ],
     "highlights": [
       "24.1 inç 16:10 WUXGA (1920x1200) 75Hz Calman Doğrulamalı IPS Panel (Delta E < 2)",
@@ -2611,9 +2653,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2023,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/monitors/asus-tuf-gaming-vg27aqm1a.jpg",
+    "image": "/images/products/monitors/icecat-asus-tuf-gaming-vg27aqm1a.jpg",
     "images": [
-      "/images/monitors/asus-tuf-gaming-vg27aqm1a.jpg"
+      "/images/products/monitors/icecat-asus-tuf-gaming-vg27aqm1a.jpg",
+      "/images/products/monitors/icecat-asus-tuf-gaming-vg27aqm1a-1.jpg",
+      "/images/products/monitors/icecat-asus-tuf-gaming-vg27aqm1a-2.jpg",
+      "/images/products/monitors/icecat-asus-tuf-gaming-vg27aqm1a-3.jpg"
     ],
     "highlights": [
       "27 inç WQHD (2560x1440) 260Hz (OC) Fast IPS Hızlı E-Spor Paneli",
@@ -2690,9 +2735,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2023,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/monitors/dell-g2524h.jpg",
+    "image": "/images/products/monitors/icecat-dell-g2524h.jpg",
     "images": [
-      "/images/monitors/dell-g2524h.jpg"
+      "/images/products/monitors/icecat-dell-g2524h.jpg",
+      "/images/products/monitors/icecat-dell-g2524h-1.jpg",
+      "/images/products/monitors/icecat-dell-g2524h-2.jpg",
+      "/images/products/monitors/icecat-dell-g2524h-3.jpg"
     ],
     "highlights": [
       "24.5 inç FHD (1920x1080) 280Hz (OC) Fast IPS E-Spor Paneli",
@@ -2927,9 +2975,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2021,
     "isPopular": false,
     "isFeatured": false,
-    "image": "/images/monitors/aoc-q27g2s-eu.jpg",
+    "image": "/images/products/monitors/icecat-aoc-q27g2s-eu.jpg",
     "images": [
-      "/images/monitors/aoc-q27g2s-eu.jpg"
+      "/images/products/monitors/icecat-aoc-q27g2s-eu.jpg",
+      "/images/products/monitors/icecat-aoc-q27g2s-eu-1.jpg",
+      "/images/products/monitors/icecat-aoc-q27g2s-eu-2.jpg",
+      "/images/products/monitors/icecat-aoc-q27g2s-eu-3.jpg"
     ],
     "highlights": [
       "27 inç WQHD (2560x1440) 165Hz Geniş Açılı IPS Panel",
@@ -3006,9 +3057,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/monitors/msi-g272qpf-e2.jpg",
+    "image": "/images/products/monitors/icecat-msi-g272qpf-e2.jpg",
     "images": [
-      "/images/monitors/msi-g272qpf-e2.jpg"
+      "/images/products/monitors/icecat-msi-g272qpf-e2.jpg",
+      "/images/products/monitors/icecat-msi-g272qpf-e2-1.jpg",
+      "/images/products/monitors/icecat-msi-g272qpf-e2-2.jpg",
+      "/images/products/monitors/icecat-msi-g272qpf-e2-3.jpg"
     ],
     "highlights": [
       "27 inç WQHD (2560x1440) 180Hz Rapid IPS Panel",
@@ -3085,9 +3139,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2020,
     "isPopular": false,
     "isFeatured": false,
-    "image": "/images/monitors/msi-optix-mag251rx.jpg",
+    "image": "/images/products/monitors/icecat-msi-optix-mag251rx.jpg",
     "images": [
-      "/images/monitors/msi-optix-mag251rx.jpg"
+      "/images/products/monitors/icecat-msi-optix-mag251rx.jpg",
+      "/images/products/monitors/icecat-msi-optix-mag251rx-1.jpg",
+      "/images/products/monitors/icecat-msi-optix-mag251rx-2.jpg",
+      "/images/products/monitors/icecat-msi-optix-mag251rx-3.jpg"
     ],
     "highlights": [
       "24.5 inç FHD (1920x1080) 240Hz Rapid IPS E-Spor Paneli",
@@ -3243,9 +3300,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2023,
     "isPopular": false,
     "isFeatured": false,
-    "image": "/images/monitors/dell-p3424we.jpg",
+    "image": "/images/products/monitors/icecat-dell-p3424we.jpg",
     "images": [
-      "/images/monitors/dell-p3424we.jpg"
+      "/images/products/monitors/icecat-dell-p3424we.jpg",
+      "/images/products/monitors/icecat-dell-p3424we-1.jpg",
+      "/images/products/monitors/icecat-dell-p3424we-2.jpg",
+      "/images/products/monitors/icecat-dell-p3424we-3.jpg"
     ],
     "highlights": [
       "34.14 inç 21:9 UWQHD (3440x1440) 60Hz 3800R Kavisli IPS Panel",
@@ -3321,9 +3381,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/monitors/aoc-27g4zr.jpg",
+    "image": "/images/products/monitors/icecat-aoc-27g4zr.jpg",
     "images": [
-      "/images/monitors/aoc-27g4zr.jpg"
+      "/images/products/monitors/icecat-aoc-27g4zr.jpg",
+      "/images/products/monitors/icecat-aoc-27g4zr-1.jpg",
+      "/images/products/monitors/icecat-aoc-27g4zr-2.jpg",
+      "/images/products/monitors/icecat-aoc-27g4zr-3.jpg"
     ],
     "highlights": [
       "27 inç FHD (1920x1080) 260Hz Fast IPS Hızlı E-Spor Paneli",
@@ -3716,9 +3779,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/monitors/aoc-u27b3cf.jpg",
+    "image": "/images/products/monitors/icecat-aoc-u27b3cf.jpg",
     "images": [
-      "/images/monitors/aoc-u27b3cf.jpg"
+      "/images/products/monitors/icecat-aoc-u27b3cf.jpg",
+      "/images/products/monitors/icecat-aoc-u27b3cf-1.jpg",
+      "/images/products/monitors/icecat-aoc-u27b3cf-2.jpg",
+      "/images/products/monitors/icecat-aoc-u27b3cf-3.jpg"
     ],
     "highlights": [
       "27 inç 4K UHD (3840x2160) 60Hz 3 Taraflı Çerçevesiz IPS Panel",
@@ -3873,9 +3939,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2021,
     "isPopular": false,
     "isFeatured": false,
-    "image": "/images/monitors/dell-s3422dwg.jpg",
+    "image": "/images/products/monitors/icecat-dell-s3422dwg.jpg",
     "images": [
-      "/images/monitors/dell-s3422dwg.jpg"
+      "/images/products/monitors/icecat-dell-s3422dwg.jpg",
+      "/images/products/monitors/icecat-dell-s3422dwg-1.jpg",
+      "/images/products/monitors/icecat-dell-s3422dwg-2.jpg",
+      "/images/products/monitors/icecat-dell-s3422dwg-3.jpg"
     ],
     "highlights": [
       "34 inç 21:9 UWQHD (3440x1440) 144Hz 1800R Kavisli VA Panel",
@@ -3952,9 +4021,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2024,
     "isPopular": false,
     "isFeatured": false,
-    "image": "/images/monitors/aoc-agon-pro-ag246fk.jpg",
+    "image": "/images/products/monitors/icecat-aoc-agon-pro-ag246fk.jpg",
     "images": [
-      "/images/monitors/aoc-agon-pro-ag246fk.jpg"
+      "/images/products/monitors/icecat-aoc-agon-pro-ag246fk.jpg",
+      "/images/products/monitors/icecat-aoc-agon-pro-ag246fk-1.jpg",
+      "/images/products/monitors/icecat-aoc-agon-pro-ag246fk-2.jpg",
+      "/images/products/monitors/icecat-aoc-agon-pro-ag246fk-3.jpg"
     ],
     "highlights": [
       "24.1 inç FHD (1920x1080) 540Hz Ultra Hızlı Fast TN E-Spor Paneli",
@@ -4109,9 +4181,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/monitors/asus-zenscreen-mb27acf.jpg",
+    "image": "/images/products/monitors/icecat-asus-zenscreen-mb27acf.jpg",
     "images": [
-      "/images/monitors/asus-zenscreen-mb27acf.jpg"
+      "/images/products/monitors/icecat-asus-zenscreen-mb27acf.jpg",
+      "/images/products/monitors/icecat-asus-zenscreen-mb27acf-1.jpg",
+      "/images/products/monitors/icecat-asus-zenscreen-mb27acf-2.jpg",
+      "/images/products/monitors/icecat-asus-zenscreen-mb27acf-3.jpg"
     ],
     "highlights": [
       "27 inç WQHD (2560x1440) 100Hz Ultra İnce IPS Panel",
@@ -4267,9 +4342,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2023,
     "isPopular": false,
     "isFeatured": false,
-    "image": "/images/monitors/benq-sw272q.jpg",
+    "image": "/images/products/monitors/icecat-benq-sw272q.jpg",
     "images": [
-      "/images/monitors/benq-sw272q.jpg"
+      "/images/products/monitors/icecat-benq-sw272q.jpg",
+      "/images/products/monitors/icecat-benq-sw272q-1.jpg",
+      "/images/products/monitors/icecat-benq-sw272q-2.jpg",
+      "/images/products/monitors/icecat-benq-sw272q-3.jpg"
     ],
     "highlights": [
       "27 inç WQHD (2560x1440) 60Hz Profesyonel Fotoğrafçı Paneli (Delta E ≤ 1.5, 16-bit 3D LUT)",
@@ -5131,9 +5209,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2021,
     "isPopular": false,
     "isFeatured": false,
-    "image": "/images/monitors/viewsonic-xg2431.jpg",
+    "image": "/images/products/monitors/icecat-viewsonic-xg2431.jpg",
     "images": [
-      "/images/monitors/viewsonic-xg2431.jpg"
+      "/images/products/monitors/icecat-viewsonic-xg2431.jpg",
+      "/images/products/monitors/icecat-viewsonic-xg2431-1.jpg",
+      "/images/products/monitors/icecat-viewsonic-xg2431-2.jpg",
+      "/images/products/monitors/icecat-viewsonic-xg2431-3.jpg"
     ],
     "highlights": [
       "23.8 inç FHD (1920x1080) 240Hz Fast IPS E-Spor Paneli",
@@ -5289,9 +5370,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/monitors/asus-zenscreen-smart-ms27uc.jpg",
+    "image": "/images/products/monitors/icecat-asus-zenscreen-smart-ms27uc.jpg",
     "images": [
-      "/images/monitors/asus-zenscreen-smart-ms27uc.jpg"
+      "/images/products/monitors/icecat-asus-zenscreen-smart-ms27uc.jpg",
+      "/images/products/monitors/icecat-asus-zenscreen-smart-ms27uc-1.jpg",
+      "/images/products/monitors/icecat-asus-zenscreen-smart-ms27uc-2.jpg",
+      "/images/products/monitors/icecat-asus-zenscreen-smart-ms27uc-3.jpg"
     ],
     "highlights": [
       "27 inç 4K UHD (3840x2160) 60Hz Google TV Entegre Akıllı Monitör",
@@ -5446,9 +5530,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2021,
     "isPopular": false,
     "isFeatured": false,
-    "image": "/images/monitors/viewsonic-vg3456.jpg",
+    "image": "/images/products/monitors/icecat-viewsonic-vg3456.jpg",
     "images": [
-      "/images/monitors/viewsonic-vg3456.jpg"
+      "/images/products/monitors/icecat-viewsonic-vg3456.jpg",
+      "/images/products/monitors/icecat-viewsonic-vg3456-1.jpg",
+      "/images/products/monitors/icecat-viewsonic-vg3456-2.jpg",
+      "/images/products/monitors/icecat-viewsonic-vg3456-3.jpg"
     ],
     "highlights": [
       "34.1 inç 21:9 UWQHD (3440x1440) 60Hz 1800R Kavisli VA Panel",
@@ -5602,9 +5689,11 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/monitors/asus-vg259qmrl5a.jpg",
+    "image": "/images/products/monitors/icecat-asus-vg259qmrl5a.jpg",
     "images": [
-      "/images/monitors/asus-vg259qmrl5a.jpg"
+      "/images/products/monitors/icecat-asus-vg259qmrl5a.jpg",
+      "/images/products/monitors/icecat-asus-vg259qmrl5a-1.jpg",
+      "/images/products/monitors/icecat-asus-vg259qmrl5a-2.jpg"
     ],
     "highlights": [
       "24.5 inç FHD (1920x1080) 310Hz (OC) Fast IPS Ultra Hızlı E-Spor Paneli",
@@ -5917,9 +6006,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2023,
     "isPopular": false,
     "isFeatured": false,
-    "image": "/images/monitors/asus-tuf-gaming-vg34vqel1a.jpg",
+    "image": "/images/products/monitors/icecat-asus-tuf-gaming-vg34vqel1a.jpg",
     "images": [
-      "/images/monitors/asus-tuf-gaming-vg34vqel1a.jpg"
+      "/images/products/monitors/icecat-asus-tuf-gaming-vg34vqel1a.jpg",
+      "/images/products/monitors/icecat-asus-tuf-gaming-vg34vqel1a-1.jpg",
+      "/images/products/monitors/icecat-asus-tuf-gaming-vg34vqel1a-2.jpg",
+      "/images/products/monitors/icecat-asus-tuf-gaming-vg34vqel1a-3.jpg"
     ],
     "highlights": [
       "34 inç 21:9 UWQHD (3440x1440) 100Hz 1500R Kavisli VA Panel",
@@ -5996,9 +6088,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2023,
     "isPopular": false,
     "isFeatured": false,
-    "image": "/images/monitors/philips-evnia-25m2n5200p-00.jpg",
+    "image": "/images/products/monitors/icecat-philips-evnia-25m2n5200p-00.jpg",
     "images": [
-      "/images/monitors/philips-evnia-25m2n5200p-00.jpg"
+      "/images/products/monitors/icecat-philips-evnia-25m2n5200p-00.jpg",
+      "/images/products/monitors/icecat-philips-evnia-25m2n5200p-00-1.jpg",
+      "/images/products/monitors/icecat-philips-evnia-25m2n5200p-00-2.jpg",
+      "/images/products/monitors/icecat-philips-evnia-25m2n5200p-00-3.jpg"
     ],
     "highlights": [
       "24.5 inç FHD (1920x1080) 280Hz (OC) Fast IPS E-Spor Paneli",
@@ -6075,9 +6170,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2021,
     "isPopular": false,
     "isFeatured": false,
-    "image": "/images/monitors/asus-proart-pa328qv.jpg",
+    "image": "/images/products/monitors/icecat-asus-proart-pa328qv.jpg",
     "images": [
-      "/images/monitors/asus-proart-pa328qv.jpg"
+      "/images/products/monitors/icecat-asus-proart-pa328qv.jpg",
+      "/images/products/monitors/icecat-asus-proart-pa328qv-1.jpg",
+      "/images/products/monitors/icecat-asus-proart-pa328qv-2.jpg",
+      "/images/products/monitors/icecat-asus-proart-pa328qv-3.jpg"
     ],
     "highlights": [
       "31.5 inç WQHD (2560x1440) 75Hz Calman Doğrulamalı IPS Panel (Delta E < 2)",
@@ -6232,9 +6330,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/monitors/asus-tuf-gaming-vg27aq5a.jpg",
+    "image": "/images/products/monitors/icecat-asus-tuf-gaming-vg27aq5a.jpg",
     "images": [
-      "/images/monitors/asus-tuf-gaming-vg27aq5a.jpg"
+      "/images/products/monitors/icecat-asus-tuf-gaming-vg27aq5a.jpg",
+      "/images/products/monitors/icecat-asus-tuf-gaming-vg27aq5a-1.jpg",
+      "/images/products/monitors/icecat-asus-tuf-gaming-vg27aq5a-2.jpg",
+      "/images/products/monitors/icecat-asus-tuf-gaming-vg27aq5a-3.jpg"
     ],
     "highlights": [
       "27 inç WQHD (2560x1440) 210Hz (OC) Fast IPS Hızlı Oyuncu Paneli",
@@ -6311,9 +6412,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2022,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/monitors/dell-p2723qe.jpg",
+    "image": "/images/products/monitors/icecat-dell-p2723qe.jpg",
     "images": [
-      "/images/monitors/dell-p2723qe.jpg"
+      "/images/products/monitors/icecat-dell-p2723qe.jpg",
+      "/images/products/monitors/icecat-dell-p2723qe-1.jpg",
+      "/images/products/monitors/icecat-dell-p2723qe-2.jpg",
+      "/images/products/monitors/icecat-dell-p2723qe-3.jpg"
     ],
     "highlights": [
       "27 inç 4K UHD (3840x2160) 60Hz 3 Taraflı Ultra İnce Çerçeveli IPS Panel",
@@ -6389,9 +6493,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/monitors/benq-ew2790u.jpg",
+    "image": "/images/products/monitors/icecat-benq-ew2790u.jpg",
     "images": [
-      "/images/monitors/benq-ew2790u.jpg"
+      "/images/products/monitors/icecat-benq-ew2790u.jpg",
+      "/images/products/monitors/icecat-benq-ew2790u-1.jpg",
+      "/images/products/monitors/icecat-benq-ew2790u-2.jpg",
+      "/images/products/monitors/icecat-benq-ew2790u-3.jpg"
     ],
     "highlights": [
       "27 inç 4K UHD (3840x2160) 60Hz Sinematik IPS Panel",
@@ -6703,9 +6810,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2024,
     "isPopular": false,
     "isFeatured": false,
-    "image": "/images/monitors/asus-tuf-gaming-vg34vq3b.jpg",
+    "image": "/images/products/monitors/icecat-asus-tuf-gaming-vg34vq3b.jpg",
     "images": [
-      "/images/monitors/asus-tuf-gaming-vg34vq3b.jpg"
+      "/images/products/monitors/icecat-asus-tuf-gaming-vg34vq3b.jpg",
+      "/images/products/monitors/icecat-asus-tuf-gaming-vg34vq3b-1.jpg",
+      "/images/products/monitors/icecat-asus-tuf-gaming-vg34vq3b-2.jpg",
+      "/images/products/monitors/icecat-asus-tuf-gaming-vg34vq3b-3.jpg"
     ],
     "highlights": [
       "34 inç 21:9 UWQHD (3440x1440) 180Hz 1500R Kavisli VA Panel",
@@ -6782,9 +6892,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/monitors/aoc-q27g4xf.jpg",
+    "image": "/images/products/monitors/icecat-aoc-q27g4xf.jpg",
     "images": [
-      "/images/monitors/aoc-q27g4xf.jpg"
+      "/images/products/monitors/icecat-aoc-q27g4xf.jpg",
+      "/images/products/monitors/icecat-aoc-q27g4xf-1.jpg",
+      "/images/products/monitors/icecat-aoc-q27g4xf-2.jpg",
+      "/images/products/monitors/icecat-aoc-q27g4xf-3.jpg"
     ],
     "highlights": [
       "27 inç WQHD (2560x1440) 180Hz Fast IPS Panel",
@@ -7097,9 +7210,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/monitors/benq-ew270q.jpg",
+    "image": "/images/products/monitors/icecat-benq-ew270q.jpg",
     "images": [
-      "/images/monitors/benq-ew270q.jpg"
+      "/images/products/monitors/icecat-benq-ew270q.jpg",
+      "/images/products/monitors/icecat-benq-ew270q-1.jpg",
+      "/images/products/monitors/icecat-benq-ew270q-2.jpg",
+      "/images/products/monitors/icecat-benq-ew270q-3.jpg"
     ],
     "highlights": [
       "27 inç WQHD (2560x1440) 200Hz Fast IPS Hızlı Eğlence Paneli",
@@ -7491,9 +7607,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2023,
     "isPopular": false,
     "isFeatured": false,
-    "image": "/images/monitors/philips-346e2lae-00.jpg",
+    "image": "/images/products/monitors/icecat-philips-346e2lae-00.jpg",
     "images": [
-      "/images/monitors/philips-346e2lae-00.jpg"
+      "/images/products/monitors/icecat-philips-346e2lae-00.jpg",
+      "/images/products/monitors/icecat-philips-346e2lae-00-1.jpg",
+      "/images/products/monitors/icecat-philips-346e2lae-00-2.jpg",
+      "/images/products/monitors/icecat-philips-346e2lae-00-3.jpg"
     ],
     "highlights": [
       "34 inç 21:9 UWQHD (3440x1440) 100Hz 1500R Kavisli VA Panel",
@@ -7570,9 +7689,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2022,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/monitors/dell-g2723h.jpg",
+    "image": "/images/products/monitors/icecat-dell-g2723h.jpg",
     "images": [
-      "/images/monitors/dell-g2723h.jpg"
+      "/images/products/monitors/icecat-dell-g2723h.jpg",
+      "/images/products/monitors/icecat-dell-g2723h-1.jpg",
+      "/images/products/monitors/icecat-dell-g2723h-2.jpg",
+      "/images/products/monitors/icecat-dell-g2723h-3.jpg"
     ],
     "highlights": [
       "27 inç FHD (1920x1080) 280Hz (OC) Fast IPS Hızlı Oyuncu Paneli",
@@ -7649,9 +7771,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/monitors/benq-ma270up.jpg",
+    "image": "/images/products/monitors/icecat-benq-ma270up.jpg",
     "images": [
-      "/images/monitors/benq-ma270up.jpg"
+      "/images/products/monitors/icecat-benq-ma270up.jpg",
+      "/images/products/monitors/icecat-benq-ma270up-1.jpg",
+      "/images/products/monitors/icecat-benq-ma270up-2.jpg",
+      "/images/products/monitors/icecat-benq-ma270up-3.jpg"
     ],
     "highlights": [
       "27 inç 4K UHD (3840x2160) 60Hz IPS Mac ile Mükemmel Renk Eşleşmesi (M-book)",
@@ -7805,9 +7930,10 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2023,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/monitors/benq-gw3290qt.jpg",
+    "image": "/images/products/monitors/icecat-benq-gw3290qt.jpg",
     "images": [
-      "/images/monitors/benq-gw3290qt.jpg"
+      "/images/products/monitors/icecat-benq-gw3290qt.jpg",
+      "/images/products/monitors/icecat-benq-gw3290qt-1.jpg"
     ],
     "highlights": [
       "31.5 inç WQHD (2560x1440) 75Hz 3 Taraflı Çerçevesiz IPS Panel",
@@ -7883,9 +8009,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2020,
     "isPopular": false,
     "isFeatured": false,
-    "image": "/images/monitors/benq-pd2705q.jpg",
+    "image": "/images/products/monitors/icecat-benq-pd2705q.jpg",
     "images": [
-      "/images/monitors/benq-pd2705q.jpg"
+      "/images/products/monitors/icecat-benq-pd2705q.jpg",
+      "/images/products/monitors/icecat-benq-pd2705q-1.jpg",
+      "/images/products/monitors/icecat-benq-pd2705q-2.jpg",
+      "/images/products/monitors/icecat-benq-pd2705q-3.jpg"
     ],
     "highlights": [
       "27 inç WQHD (2560x1440) 60Hz Calman & Pantone Doğrulamalı IPS Panel (Delta E ≤ 3)",
@@ -8277,9 +8406,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2023,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/monitors/dell-p3424web.jpg",
+    "image": "/images/products/monitors/icecat-dell-p3424web.jpg",
     "images": [
-      "/images/monitors/dell-p3424web.jpg"
+      "/images/products/monitors/icecat-dell-p3424web.jpg",
+      "/images/products/monitors/icecat-dell-p3424web-1.jpg",
+      "/images/products/monitors/icecat-dell-p3424web-2.jpg",
+      "/images/products/monitors/icecat-dell-p3424web-3.jpg"
     ],
     "highlights": [
       "34.14 inç 21:9 UWQHD (3440x1440) 3800R Kavisli IPS Panel",
@@ -8513,9 +8645,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/monitors/lg-ultragear-32gs75q-b.jpg",
+    "image": "/images/products/monitors/icecat-lg-ultragear-32gs75q-b.jpg",
     "images": [
-      "/images/monitors/lg-ultragear-32gs75q-b.jpg"
+      "/images/products/monitors/icecat-lg-ultragear-32gs75q-b.jpg",
+      "/images/products/monitors/icecat-lg-ultragear-32gs75q-b-1.jpg",
+      "/images/products/monitors/icecat-lg-ultragear-32gs75q-b-2.jpg",
+      "/images/products/monitors/icecat-lg-ultragear-32gs75q-b-3.jpg"
     ],
     "highlights": [
       "31.5 inç WQHD (2560x1440) 180Hz (OC) Fast IPS Hızlı Oyuncu Paneli",
@@ -8984,9 +9119,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2019,
     "isPopular": false,
     "isFeatured": false,
-    "image": "/images/monitors/asus-cg32uq.jpg",
+    "image": "/images/products/monitors/icecat-asus-cg32uq.jpg",
     "images": [
-      "/images/monitors/asus-cg32uq.jpg"
+      "/images/products/monitors/icecat-asus-cg32uq.jpg",
+      "/images/products/monitors/icecat-asus-cg32uq-1.jpg",
+      "/images/products/monitors/icecat-asus-cg32uq-2.jpg",
+      "/images/products/monitors/icecat-asus-cg32uq-3.jpg"
     ],
     "highlights": [
       "31.5 inç 4K UHD (3840x2160) 60Hz VESA DisplayHDR 600 Sertifikalı Panel",
@@ -9535,9 +9673,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2021,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/monitors/asus-proart-pa278cv.jpg",
+    "image": "/images/products/monitors/icecat-asus-proart-pa278cv.jpg",
     "images": [
-      "/images/monitors/asus-proart-pa278cv.jpg"
+      "/images/products/monitors/icecat-asus-proart-pa278cv.jpg",
+      "/images/products/monitors/icecat-asus-proart-pa278cv-1.jpg",
+      "/images/products/monitors/icecat-asus-proart-pa278cv-2.jpg",
+      "/images/products/monitors/icecat-asus-proart-pa278cv-3.jpg"
     ],
     "highlights": [
       "27 inç WQHD (2560x1440) 75Hz Calman Doğrulamalı IPS Panel (Delta E < 2)",
@@ -9613,9 +9754,9 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/monitors/asus-tuf-gaming-vg27uq1a.jpg",
+    "image": "/images/products/monitors/icecat-asus-tuf-gaming-vg27uq1a.jpg",
     "images": [
-      "/images/monitors/asus-tuf-gaming-vg27uq1a.jpg"
+      "/images/products/monitors/icecat-asus-tuf-gaming-vg27uq1a.jpg"
     ],
     "highlights": [
       "27 inç 4K UHD (3840x2160) 160Hz Fast IPS Panel",
@@ -9771,9 +9912,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2020,
     "isPopular": false,
     "isFeatured": false,
-    "image": "/images/monitors/lg-27uk670-b.jpg",
+    "image": "/images/products/monitors/icecat-lg-27uk670-b.jpg",
     "images": [
-      "/images/monitors/lg-27uk670-b.jpg"
+      "/images/products/monitors/icecat-lg-27uk670-b.jpg",
+      "/images/products/monitors/icecat-lg-27uk670-b-1.jpg",
+      "/images/products/monitors/icecat-lg-27uk670-b-2.jpg",
+      "/images/products/monitors/icecat-lg-27uk670-b-3.jpg"
     ],
     "highlights": [
       "27 inç 4K UHD (3840x2160) 60Hz 3 Taraflı Çerçevesiz IPS Panel",
@@ -9929,9 +10073,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2020,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/monitors/dell-s2721qs.jpg",
+    "image": "/images/products/monitors/icecat-dell-s2721qs.jpg",
     "images": [
-      "/images/monitors/dell-s2721qs.jpg"
+      "/images/products/monitors/icecat-dell-s2721qs.jpg",
+      "/images/products/monitors/icecat-dell-s2721qs-1.jpg",
+      "/images/products/monitors/icecat-dell-s2721qs-2.jpg",
+      "/images/products/monitors/icecat-dell-s2721qs-3.jpg"
     ],
     "highlights": [
       "27 inç 4K UHD (3840x2160) 60Hz Kristal Netliğinde IPS Panel",
@@ -10086,9 +10233,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2024,
     "isPopular": false,
     "isFeatured": false,
-    "image": "/images/monitors/asus-zenscreen-fold-mq17qh.jpg",
+    "image": "/images/products/monitors/icecat-asus-zenscreen-fold-mq17qh.jpg",
     "images": [
-      "/images/monitors/asus-zenscreen-fold-mq17qh.jpg"
+      "/images/products/monitors/icecat-asus-zenscreen-fold-mq17qh.jpg",
+      "/images/products/monitors/icecat-asus-zenscreen-fold-mq17qh-1.jpg",
+      "/images/products/monitors/icecat-asus-zenscreen-fold-mq17qh-2.jpg",
+      "/images/products/monitors/icecat-asus-zenscreen-fold-mq17qh-3.jpg"
     ],
     "highlights": [
       "17.3 inç Katlanabilir OLED (2560x1920 / Katlandığında 12.5 inç FHD) Esnek Panel",
@@ -10243,9 +10393,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/monitors/aoc-25g4sxu.jpg",
+    "image": "/images/products/monitors/icecat-aoc-25g4sxu.jpg",
     "images": [
-      "/images/monitors/aoc-25g4sxu.jpg"
+      "/images/products/monitors/icecat-aoc-25g4sxu.jpg",
+      "/images/products/monitors/icecat-aoc-25g4sxu-1.jpg",
+      "/images/products/monitors/icecat-aoc-25g4sxu-2.jpg",
+      "/images/products/monitors/icecat-aoc-25g4sxu-3.jpg"
     ],
     "highlights": [
       "24.5 inç FHD (1920x1080) 310Hz (OC) Fast IPS E-Spor Paneli",
@@ -10322,9 +10475,9 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/monitors/benq-pd2706qn.jpg",
+    "image": "/images/products/monitors/icecat-benq-pd2706qn.jpg",
     "images": [
-      "/images/monitors/benq-pd2706qn.jpg"
+      "/images/products/monitors/icecat-benq-pd2706qn.jpg"
     ],
     "highlights": [
       "27 inç WQHD (2560x1440) 100Hz IPS Black Panel (2000:1 Kontrast)",
@@ -10400,9 +10553,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/monitors/dahua-lm34-e330ca.jpg",
+    "image": "/images/products/monitors/icecat-dahua-lm34-e330ca.jpg",
     "images": [
-      "/images/monitors/dahua-lm34-e330ca.jpg"
+      "/images/products/monitors/icecat-dahua-lm34-e330ca.jpg",
+      "/images/products/monitors/icecat-dahua-lm34-e330ca-1.jpg",
+      "/images/products/monitors/icecat-dahua-lm34-e330ca-2.jpg",
+      "/images/products/monitors/icecat-dahua-lm34-e330ca-3.jpg"
     ],
     "highlights": [
       "34 inç 21:9 UWQHD (3440x1440) 200Hz 1500R Kavisli VA Panel",
@@ -10716,9 +10872,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/monitors/lg-ultragear-27g610a-b.jpg",
+    "image": "/images/products/monitors/icecat-lg-ultragear-27g610a-b.jpg",
     "images": [
-      "/images/monitors/lg-ultragear-27g610a-b.jpg"
+      "/images/products/monitors/icecat-lg-ultragear-27g610a-b.jpg",
+      "/images/products/monitors/icecat-lg-ultragear-27g610a-b-1.jpg",
+      "/images/products/monitors/icecat-lg-ultragear-27g610a-b-2.jpg",
+      "/images/products/monitors/icecat-lg-ultragear-27g610a-b-3.jpg"
     ],
     "highlights": [
       "27 inç WQHD (2560x1440) 200Hz (OC) Fast IPS Akıcı Panel",
@@ -10795,9 +10954,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2023,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/monitors/dell-ultrasharp-u2724d.jpg",
+    "image": "/images/products/monitors/icecat-dell-ultrasharp-u2724d.jpg",
     "images": [
-      "/images/monitors/dell-ultrasharp-u2724d.jpg"
+      "/images/products/monitors/icecat-dell-ultrasharp-u2724d.jpg",
+      "/images/products/monitors/icecat-dell-ultrasharp-u2724d-1.jpg",
+      "/images/products/monitors/icecat-dell-ultrasharp-u2724d-2.jpg",
+      "/images/products/monitors/icecat-dell-ultrasharp-u2724d-3.jpg"
     ],
     "highlights": [
       "27 inç WQHD (2560x1440) 120Hz IPS Black Panel (2000:1 Kontrast Oranı)",
@@ -11031,9 +11193,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2023,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/monitors/asus-va27uqsb.jpg",
+    "image": "/images/products/monitors/icecat-asus-va27uqsb.jpg",
     "images": [
-      "/images/monitors/asus-va27uqsb.jpg"
+      "/images/products/monitors/icecat-asus-va27uqsb.jpg",
+      "/images/products/monitors/icecat-asus-va27uqsb-1.jpg",
+      "/images/products/monitors/icecat-asus-va27uqsb-2.jpg",
+      "/images/products/monitors/icecat-asus-va27uqsb-3.jpg"
     ],
     "highlights": [
       "27 inç 4K UHD (3840x2160) 60Hz Kristal Netliğinde IPS Panel",
@@ -11267,9 +11432,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2021,
     "isPopular": false,
     "isFeatured": false,
-    "image": "/images/monitors/msi-optix-mag301cr2.jpg",
+    "image": "/images/products/monitors/icecat-msi-optix-mag301cr2.jpg",
     "images": [
-      "/images/monitors/msi-optix-mag301cr2.jpg"
+      "/images/products/monitors/icecat-msi-optix-mag301cr2.jpg",
+      "/images/products/monitors/icecat-msi-optix-mag301cr2-1.jpg",
+      "/images/products/monitors/icecat-msi-optix-mag301cr2-2.jpg",
+      "/images/products/monitors/icecat-msi-optix-mag301cr2-3.jpg"
     ],
     "highlights": [
       "29.5 inç 21:9 WFHD (2560x1080) 200Hz 1500R Kavisli VA Panel",
@@ -11662,9 +11830,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/monitors/lg-ultrafine-27up850k-w.jpg",
+    "image": "/images/products/monitors/icecat-lg-ultrafine-27up850k-w.jpg",
     "images": [
-      "/images/monitors/lg-ultrafine-27up850k-w.jpg"
+      "/images/products/monitors/icecat-lg-ultrafine-27up850k-w.jpg",
+      "/images/products/monitors/icecat-lg-ultrafine-27up850k-w-1.jpg",
+      "/images/products/monitors/icecat-lg-ultrafine-27up850k-w-2.jpg",
+      "/images/products/monitors/icecat-lg-ultrafine-27up850k-w-3.jpg"
     ],
     "highlights": [
       "27 inç 4K UHD (3840x2160) VESA DisplayHDR 400 IPS Panel",
@@ -11740,9 +11911,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/monitors/aoc-cu34g4.jpg",
+    "image": "/images/products/monitors/icecat-aoc-cu34g4.jpg",
     "images": [
-      "/images/monitors/aoc-cu34g4.jpg"
+      "/images/products/monitors/icecat-aoc-cu34g4.jpg",
+      "/images/products/monitors/icecat-aoc-cu34g4-1.jpg",
+      "/images/products/monitors/icecat-aoc-cu34g4-2.jpg",
+      "/images/products/monitors/icecat-aoc-cu34g4-3.jpg"
     ],
     "highlights": [
       "34 inç 21:9 UWQHD (3440x1440) 180Hz 1500R Kavisli Fast VA Panel",
@@ -12056,9 +12230,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2021,
     "isPopular": false,
     "isFeatured": false,
-    "image": "/images/monitors/dell-s2722qc.jpg",
+    "image": "/images/products/monitors/icecat-dell-s2722qc.jpg",
     "images": [
-      "/images/monitors/dell-s2722qc.jpg"
+      "/images/products/monitors/icecat-dell-s2722qc.jpg",
+      "/images/products/monitors/icecat-dell-s2722qc-1.jpg",
+      "/images/products/monitors/icecat-dell-s2722qc-2.jpg",
+      "/images/products/monitors/icecat-dell-s2722qc-3.jpg"
     ],
     "highlights": [
       "27 inç 4K UHD (3840x2160) 60Hz Kristal Netliğinde IPS Panel",
@@ -12135,9 +12312,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2021,
     "isPopular": false,
     "isFeatured": false,
-    "image": "/images/monitors/philips-278b1-00.jpg",
+    "image": "/images/products/monitors/icecat-philips-278b1-00.jpg",
     "images": [
-      "/images/monitors/philips-278b1-00.jpg"
+      "/images/products/monitors/icecat-philips-278b1-00.jpg",
+      "/images/products/monitors/icecat-philips-278b1-00-1.jpg",
+      "/images/products/monitors/icecat-philips-278b1-00-2.jpg",
+      "/images/products/monitors/icecat-philips-278b1-00-3.jpg"
     ],
     "highlights": [
       "27 inç 4K UHD (3840x2160) 60Hz Profesyonel IPS Panel",
@@ -12291,9 +12471,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2020,
     "isPopular": false,
     "isFeatured": false,
-    "image": "/images/monitors/aoc-u27p2.jpg",
+    "image": "/images/products/monitors/icecat-aoc-u27p2.jpg",
     "images": [
-      "/images/monitors/aoc-u27p2.jpg"
+      "/images/products/monitors/icecat-aoc-u27p2.jpg",
+      "/images/products/monitors/icecat-aoc-u27p2-1.jpg",
+      "/images/products/monitors/icecat-aoc-u27p2-2.jpg",
+      "/images/products/monitors/icecat-aoc-u27p2-3.jpg"
     ],
     "highlights": [
       "27 inç 4K UHD (3840x2160) 60Hz Çerçevesiz IPS Panel",
@@ -12369,9 +12552,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2023,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/monitors/dell-ultrasharp-u2724de.jpg",
+    "image": "/images/products/monitors/icecat-dell-ultrasharp-u2724de.jpg",
     "images": [
-      "/images/monitors/dell-ultrasharp-u2724de.jpg"
+      "/images/products/monitors/icecat-dell-ultrasharp-u2724de.jpg",
+      "/images/products/monitors/icecat-dell-ultrasharp-u2724de-1.jpg",
+      "/images/products/monitors/icecat-dell-ultrasharp-u2724de-2.jpg",
+      "/images/products/monitors/icecat-dell-ultrasharp-u2724de-3.jpg"
     ],
     "highlights": [
       "27 inç WQHD (2560x1440) 120Hz IPS Black Panel (2000:1 Kontrast)",
@@ -12604,9 +12790,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/monitors/asus-rog-strix-xg248qsg-ace.jpg",
+    "image": "/images/products/monitors/icecat-asus-rog-strix-xg248qsg-ace.jpg",
     "images": [
-      "/images/monitors/asus-rog-strix-xg248qsg-ace.jpg"
+      "/images/products/monitors/icecat-asus-rog-strix-xg248qsg-ace.jpg",
+      "/images/products/monitors/icecat-asus-rog-strix-xg248qsg-ace-1.jpg",
+      "/images/products/monitors/icecat-asus-rog-strix-xg248qsg-ace-2.jpg",
+      "/images/products/monitors/icecat-asus-rog-strix-xg248qsg-ace-3.jpg"
     ],
     "highlights": [
       "24.1 inç FHD (1920x1080) 610Hz (OC) Dünyanın En Hızlı E-Spor TN Paneli",
@@ -12919,9 +13108,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/monitors/aoc-q27g4x.jpg",
+    "image": "/images/products/monitors/icecat-aoc-q27g4x.jpg",
     "images": [
-      "/images/monitors/aoc-q27g4x.jpg"
+      "/images/products/monitors/icecat-aoc-q27g4x.jpg",
+      "/images/products/monitors/icecat-aoc-q27g4x-1.jpg",
+      "/images/products/monitors/icecat-aoc-q27g4x-2.jpg",
+      "/images/products/monitors/icecat-aoc-q27g4x-3.jpg"
     ],
     "highlights": [
       "27 inç WQHD (2560x1440) 180Hz Fast IPS Panel",
@@ -12998,9 +13190,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/monitors/asus-tuf-gaming-vg27aqm5a.jpg",
+    "image": "/images/products/monitors/icecat-asus-tuf-gaming-vg27aqm5a.jpg",
     "images": [
-      "/images/monitors/asus-tuf-gaming-vg27aqm5a.jpg"
+      "/images/products/monitors/icecat-asus-tuf-gaming-vg27aqm5a.jpg",
+      "/images/products/monitors/icecat-asus-tuf-gaming-vg27aqm5a-1.jpg",
+      "/images/products/monitors/icecat-asus-tuf-gaming-vg27aqm5a-2.jpg",
+      "/images/products/monitors/icecat-asus-tuf-gaming-vg27aqm5a-3.jpg"
     ],
     "highlights": [
       "27 inç WQHD (2560x1440) 300Hz (OC) Fast IPS E-Spor Paneli",
@@ -13077,9 +13272,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2023,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/monitors/viewsonic-vg3419c.jpg",
+    "image": "/images/products/monitors/icecat-viewsonic-vg3419c.jpg",
     "images": [
-      "/images/monitors/viewsonic-vg3419c.jpg"
+      "/images/products/monitors/icecat-viewsonic-vg3419c.jpg",
+      "/images/products/monitors/icecat-viewsonic-vg3419c-1.jpg",
+      "/images/products/monitors/icecat-viewsonic-vg3419c-2.jpg",
+      "/images/products/monitors/icecat-viewsonic-vg3419c-3.jpg"
     ],
     "highlights": [
       "34 inç 21:9 UWQHD (3440x1440) 120Hz 1500R Kavisli VA Panel",
@@ -13155,9 +13353,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2021,
     "isPopular": false,
     "isFeatured": false,
-    "image": "/images/monitors/philips-328b1-00.jpg",
+    "image": "/images/products/monitors/icecat-philips-328b1-00.jpg",
     "images": [
-      "/images/monitors/philips-328b1-00.jpg"
+      "/images/products/monitors/icecat-philips-328b1-00.jpg",
+      "/images/products/monitors/icecat-philips-328b1-00-1.jpg",
+      "/images/products/monitors/icecat-philips-328b1-00-2.jpg",
+      "/images/products/monitors/icecat-philips-328b1-00-3.jpg"
     ],
     "highlights": [
       "31.5 inç 4K UHD (3840x2160) 60Hz Yüksek Kontrastlı VA Panel (3000:1)",
@@ -13469,9 +13670,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2023,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/monitors/asus-tuf-gaming-vg27aql3a.jpg",
+    "image": "/images/products/monitors/icecat-asus-tuf-gaming-vg27aql3a.jpg",
     "images": [
-      "/images/monitors/asus-tuf-gaming-vg27aql3a.jpg"
+      "/images/products/monitors/icecat-asus-tuf-gaming-vg27aql3a.jpg",
+      "/images/products/monitors/icecat-asus-tuf-gaming-vg27aql3a-1.jpg",
+      "/images/products/monitors/icecat-asus-tuf-gaming-vg27aql3a-2.jpg",
+      "/images/products/monitors/icecat-asus-tuf-gaming-vg27aql3a-3.jpg"
     ],
     "highlights": [
       "27 inç WQHD (2560x1440) 180Hz Fast IPS Panel",
@@ -13548,9 +13752,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2024,
     "isPopular": false,
     "isFeatured": false,
-    "image": "/images/monitors/asus-proart-pa24acrv.jpg",
+    "image": "/images/products/monitors/icecat-asus-proart-pa24acrv.jpg",
     "images": [
-      "/images/monitors/asus-proart-pa24acrv.jpg"
+      "/images/products/monitors/icecat-asus-proart-pa24acrv.jpg",
+      "/images/products/monitors/icecat-asus-proart-pa24acrv-1.jpg",
+      "/images/products/monitors/icecat-asus-proart-pa24acrv-2.jpg",
+      "/images/products/monitors/icecat-asus-proart-pa24acrv-3.jpg"
     ],
     "highlights": [
       "23.8 inç WQHD (2560x1440) Calman Doğrulamalı Profesyonel IPS Panel",
@@ -13705,9 +13912,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/monitors/asus-rog-strix-xg27acs-w.jpg",
+    "image": "/images/products/monitors/icecat-asus-rog-strix-xg27acs-w.jpg",
     "images": [
-      "/images/monitors/asus-rog-strix-xg27acs-w.jpg"
+      "/images/products/monitors/icecat-asus-rog-strix-xg27acs-w.jpg",
+      "/images/products/monitors/icecat-asus-rog-strix-xg27acs-w-1.jpg",
+      "/images/products/monitors/icecat-asus-rog-strix-xg27acs-w-2.jpg",
+      "/images/products/monitors/icecat-asus-rog-strix-xg27acs-w-3.jpg"
     ],
     "highlights": [
       "27 inç WQHD (2560x1440) 180Hz Fast IPS Beyaz Tasarım Panel",
@@ -13784,9 +13994,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/monitors/asus-rog-strix-xg27acs.jpg",
+    "image": "/images/products/monitors/icecat-asus-rog-strix-xg27acs.jpg",
     "images": [
-      "/images/monitors/asus-rog-strix-xg27acs.jpg"
+      "/images/products/monitors/icecat-asus-rog-strix-xg27acs.jpg",
+      "/images/products/monitors/icecat-asus-rog-strix-xg27acs-1.jpg",
+      "/images/products/monitors/icecat-asus-rog-strix-xg27acs-2.jpg",
+      "/images/products/monitors/icecat-asus-rog-strix-xg27acs-3.jpg"
     ],
     "highlights": [
       "27 inç WQHD (2560x1440) 180Hz Fast IPS Panel",
@@ -13863,9 +14076,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/monitors/aoc-agon-pro-cs24a.jpg",
+    "image": "/images/products/monitors/icecat-aoc-agon-pro-cs24a.jpg",
     "images": [
-      "/images/monitors/aoc-agon-pro-cs24a.jpg"
+      "/images/products/monitors/icecat-aoc-agon-pro-cs24a.jpg",
+      "/images/products/monitors/icecat-aoc-agon-pro-cs24a-1.jpg",
+      "/images/products/monitors/icecat-aoc-agon-pro-cs24a-2.jpg",
+      "/images/products/monitors/icecat-aoc-agon-pro-cs24a-3.jpg"
     ],
     "highlights": [
       "24.1 inç FHD (1920x1080) Dünyanın Zirvesi 610Hz (OC) Ultra Fast TN Panel",
@@ -14178,9 +14394,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2023,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/monitors/asus-tuf-gaming-vg32aql1a.jpg",
+    "image": "/images/products/monitors/icecat-asus-tuf-gaming-vg32aql1a.jpg",
     "images": [
-      "/images/monitors/asus-tuf-gaming-vg32aql1a.jpg"
+      "/images/products/monitors/icecat-asus-tuf-gaming-vg32aql1a.jpg",
+      "/images/products/monitors/icecat-asus-tuf-gaming-vg32aql1a-1.jpg",
+      "/images/products/monitors/icecat-asus-tuf-gaming-vg32aql1a-2.jpg",
+      "/images/products/monitors/icecat-asus-tuf-gaming-vg32aql1a-3.jpg"
     ],
     "highlights": [
       "31.5 inç WQHD (2560x1440) 170Hz (OC) Fast IPS Panel",
@@ -14257,9 +14476,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/monitors/aoc-agon-pro-ag246fk6.jpg",
+    "image": "/images/products/monitors/icecat-aoc-agon-pro-ag246fk6.jpg",
     "images": [
-      "/images/monitors/aoc-agon-pro-ag246fk6.jpg"
+      "/images/products/monitors/icecat-aoc-agon-pro-ag246fk6.jpg",
+      "/images/products/monitors/icecat-aoc-agon-pro-ag246fk6-1.jpg",
+      "/images/products/monitors/icecat-aoc-agon-pro-ag246fk6-2.jpg",
+      "/images/products/monitors/icecat-aoc-agon-pro-ag246fk6-3.jpg"
     ],
     "highlights": [
       "24.1 inç FHD (1920x1080) 610Hz (OC) Ultra Hızlı E-Spor TN Panel",
@@ -14492,9 +14714,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/monitors/asus-va34vcpsr.jpg",
+    "image": "/images/products/monitors/icecat-asus-va34vcpsr.jpg",
     "images": [
-      "/images/monitors/asus-va34vcpsr.jpg"
+      "/images/products/monitors/icecat-asus-va34vcpsr.jpg",
+      "/images/products/monitors/icecat-asus-va34vcpsr-1.jpg",
+      "/images/products/monitors/icecat-asus-va34vcpsr-2.jpg",
+      "/images/products/monitors/icecat-asus-va34vcpsr-3.jpg"
     ],
     "highlights": [
       "34 inç 21:9 UWQHD (3440x1440) 100Hz 1500R Kavisli VA Panel",
@@ -14571,9 +14796,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/monitors/viewsonic-va3420c-2.jpg",
+    "image": "/images/products/monitors/icecat-viewsonic-va3420c-2.jpg",
     "images": [
-      "/images/monitors/viewsonic-va3420c-2.jpg"
+      "/images/products/monitors/icecat-viewsonic-va3420c-2.jpg",
+      "/images/products/monitors/icecat-viewsonic-va3420c-2-1.jpg",
+      "/images/products/monitors/icecat-viewsonic-va3420c-2-2.jpg",
+      "/images/products/monitors/icecat-viewsonic-va3420c-2-3.jpg"
     ],
     "highlights": [
       "34 inç 21:9 UWQHD (3440x1440) 120Hz 1500R Kavisli VA Panel",
@@ -14886,9 +15114,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/monitors/viewsonic-va3420c.jpg",
+    "image": "/images/products/monitors/icecat-viewsonic-va3420c.jpg",
     "images": [
-      "/images/monitors/viewsonic-va3420c.jpg"
+      "/images/products/monitors/icecat-viewsonic-va3420c.jpg",
+      "/images/products/monitors/icecat-viewsonic-va3420c-1.jpg",
+      "/images/products/monitors/icecat-viewsonic-va3420c-2.jpg",
+      "/images/products/monitors/icecat-viewsonic-va3420c-3.jpg"
     ],
     "highlights": [
       "34.1 inç 21:9 Ultra Geniş UWQHD (3440x1440) 120Hz IPS Panel",
@@ -14964,9 +15195,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2023,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/monitors/asus-rog-swift-pro-pg248qp.jpg",
+    "image": "/images/products/monitors/icecat-asus-rog-swift-pro-pg248qp.jpg",
     "images": [
-      "/images/monitors/asus-rog-swift-pro-pg248qp.jpg"
+      "/images/products/monitors/icecat-asus-rog-swift-pro-pg248qp.jpg",
+      "/images/products/monitors/icecat-asus-rog-swift-pro-pg248qp-1.jpg",
+      "/images/products/monitors/icecat-asus-rog-swift-pro-pg248qp-2.jpg",
+      "/images/products/monitors/icecat-asus-rog-swift-pro-pg248qp-3.jpg"
     ],
     "highlights": [
       "24.1 inç FHD (1920x1080) Dünyanın En Hızlı 540Hz (OC) Esports-TN Paneli",
@@ -15122,9 +15356,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2023,
     "isPopular": false,
     "isFeatured": false,
-    "image": "/images/monitors/asus-tuf-gaming-vg32uqa1a.jpg",
+    "image": "/images/products/monitors/icecat-asus-tuf-gaming-vg32uqa1a.jpg",
     "images": [
-      "/images/monitors/asus-tuf-gaming-vg32uqa1a.jpg"
+      "/images/products/monitors/icecat-asus-tuf-gaming-vg32uqa1a.jpg",
+      "/images/products/monitors/icecat-asus-tuf-gaming-vg32uqa1a-1.jpg",
+      "/images/products/monitors/icecat-asus-tuf-gaming-vg32uqa1a-2.jpg",
+      "/images/products/monitors/icecat-asus-tuf-gaming-vg32uqa1a-3.jpg"
     ],
     "highlights": [
       "31.5 inç 4K UHD (3840x2160) 160Hz (OC) VA Panel",
@@ -15280,9 +15517,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/monitors/benq-ma320up.jpg",
+    "image": "/images/products/monitors/icecat-benq-ma320up.jpg",
     "images": [
-      "/images/monitors/benq-ma320up.jpg"
+      "/images/products/monitors/icecat-benq-ma320up.jpg",
+      "/images/products/monitors/icecat-benq-ma320up-1.jpg",
+      "/images/products/monitors/icecat-benq-ma320up-2.jpg",
+      "/images/products/monitors/icecat-benq-ma320up-3.jpg"
     ],
     "highlights": [
       "31.5 inç 4K UHD (3840x2160) MacBook için Optimize Edilmiş Nano Mat IPS Panel",
@@ -15358,9 +15598,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/monitors/benq-ma320u.jpg",
+    "image": "/images/products/monitors/icecat-benq-ma320u.jpg",
     "images": [
-      "/images/monitors/benq-ma320u.jpg"
+      "/images/products/monitors/icecat-benq-ma320u.jpg",
+      "/images/products/monitors/icecat-benq-ma320u-1.jpg",
+      "/images/products/monitors/icecat-benq-ma320u-2.jpg",
+      "/images/products/monitors/icecat-benq-ma320u-3.jpg"
     ],
     "highlights": [
       "31.5 inç 4K UHD (3840x2160) MacBook Renk Uyumluluğu ve P3 Geniş Gamut",
@@ -15671,9 +15914,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/monitors/msi-g274qpf-e2.jpg",
+    "image": "/images/products/monitors/icecat-msi-g274qpf-e2.jpg",
     "images": [
-      "/images/monitors/msi-g274qpf-e2.jpg"
+      "/images/products/monitors/icecat-msi-g274qpf-e2.jpg",
+      "/images/products/monitors/icecat-msi-g274qpf-e2-1.jpg",
+      "/images/products/monitors/icecat-msi-g274qpf-e2-2.jpg",
+      "/images/products/monitors/icecat-msi-g274qpf-e2-3.jpg"
     ],
     "highlights": [
       "27 inç WQHD (2560x1440) 180Hz Rapid IPS Panel",
@@ -15750,9 +15996,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2020,
     "isPopular": false,
     "isFeatured": false,
-    "image": "/images/monitors/philips-279c9-00.jpg",
+    "image": "/images/products/monitors/icecat-philips-279c9-00.jpg",
     "images": [
-      "/images/monitors/philips-279c9-00.jpg"
+      "/images/products/monitors/icecat-philips-279c9-00.jpg",
+      "/images/products/monitors/icecat-philips-279c9-00-1.jpg",
+      "/images/products/monitors/icecat-philips-279c9-00-2.jpg",
+      "/images/products/monitors/icecat-philips-279c9-00-3.jpg"
     ],
     "highlights": [
       "27 inç 4K UHD (3840x2160) 4 Tarafı Sıfır Çerçeveli IPS Panel",
@@ -16066,9 +16315,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/monitors/asus-rog-strix-xg32wcms.jpg",
+    "image": "/images/products/monitors/icecat-asus-rog-strix-xg32wcms.jpg",
     "images": [
-      "/images/monitors/asus-rog-strix-xg32wcms.jpg"
+      "/images/products/monitors/icecat-asus-rog-strix-xg32wcms.jpg",
+      "/images/products/monitors/icecat-asus-rog-strix-xg32wcms-1.jpg",
+      "/images/products/monitors/icecat-asus-rog-strix-xg32wcms-2.jpg",
+      "/images/products/monitors/icecat-asus-rog-strix-xg32wcms-3.jpg"
     ],
     "highlights": [
       "31.5 inç WQHD (2560x1440) 280Hz (OC) 1500R Kavisli Fast VA Panel",
@@ -16224,9 +16476,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2023,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/monitors/dell-alienware-aw2724hf.jpg",
+    "image": "/images/products/monitors/icecat-dell-alienware-aw2724hf.jpg",
     "images": [
-      "/images/monitors/dell-alienware-aw2724hf.jpg"
+      "/images/products/monitors/icecat-dell-alienware-aw2724hf.jpg",
+      "/images/products/monitors/icecat-dell-alienware-aw2724hf-1.jpg",
+      "/images/products/monitors/icecat-dell-alienware-aw2724hf-2.jpg",
+      "/images/products/monitors/icecat-dell-alienware-aw2724hf-3.jpg"
     ],
     "highlights": [
       "27 inç FHD (1920x1080) 360Hz Saf Fast IPS E-Spor Paneli",
@@ -16303,9 +16558,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2023,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/monitors/asus-proart-pa278cgv.jpg",
+    "image": "/images/products/monitors/icecat-asus-proart-pa278cgv.jpg",
     "images": [
-      "/images/monitors/asus-proart-pa278cgv.jpg"
+      "/images/products/monitors/icecat-asus-proart-pa278cgv.jpg",
+      "/images/products/monitors/icecat-asus-proart-pa278cgv-1.jpg",
+      "/images/products/monitors/icecat-asus-proart-pa278cgv-2.jpg",
+      "/images/products/monitors/icecat-asus-proart-pa278cgv-3.jpg"
     ],
     "highlights": [
       "27 inç WQHD (2560x1440) 144Hz Calman Doğrulamalı IPS Panel",
@@ -16382,9 +16640,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2020,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/monitors/dell-s2721dgfa.jpg",
+    "image": "/images/products/monitors/icecat-dell-s2721dgfa.jpg",
     "images": [
-      "/images/monitors/dell-s2721dgfa.jpg"
+      "/images/products/monitors/icecat-dell-s2721dgfa.jpg",
+      "/images/products/monitors/icecat-dell-s2721dgfa-1.jpg",
+      "/images/products/monitors/icecat-dell-s2721dgfa-2.jpg",
+      "/images/products/monitors/icecat-dell-s2721dgfa-3.jpg"
     ],
     "highlights": [
       "27 inç WQHD (2560x1440) 165Hz Fast IPS (Nano IPS) Panel",
@@ -17087,9 +17348,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/monitors/aoc-25g4kur.jpg",
+    "image": "/images/products/monitors/icecat-aoc-25g4kur.jpg",
     "images": [
-      "/images/monitors/aoc-25g4kur.jpg"
+      "/images/products/monitors/icecat-aoc-25g4kur.jpg",
+      "/images/products/monitors/icecat-aoc-25g4kur-1.jpg",
+      "/images/products/monitors/icecat-aoc-25g4kur-2.jpg",
+      "/images/products/monitors/icecat-aoc-25g4kur-3.jpg"
     ],
     "highlights": [
       "24.5 inç FHD (1920x1080) Rekor 420Hz (OC) Fast IPS E-Spor Paneli",
@@ -17166,9 +17430,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/monitors/aoc-q27g4zr.jpg",
+    "image": "/images/products/monitors/icecat-aoc-q27g4zr.jpg",
     "images": [
-      "/images/monitors/aoc-q27g4zr.jpg"
+      "/images/products/monitors/icecat-aoc-q27g4zr.jpg",
+      "/images/products/monitors/icecat-aoc-q27g4zr-1.jpg",
+      "/images/products/monitors/icecat-aoc-q27g4zr-2.jpg",
+      "/images/products/monitors/icecat-aoc-q27g4zr-3.jpg"
     ],
     "highlights": [
       "27 inç WQHD (2560x1440) 260Hz (OC) Fast IPS Panel",
@@ -17245,9 +17512,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/monitors/dell-p3225qe.jpg",
+    "image": "/images/products/monitors/icecat-dell-p3225qe.jpg",
     "images": [
-      "/images/monitors/dell-p3225qe.jpg"
+      "/images/products/monitors/icecat-dell-p3225qe.jpg",
+      "/images/products/monitors/icecat-dell-p3225qe-1.jpg",
+      "/images/products/monitors/icecat-dell-p3225qe-2.jpg",
+      "/images/products/monitors/icecat-dell-p3225qe-3.jpg"
     ],
     "highlights": [
       "31.5 inç 4K UHD (3840x2160) 100Hz Akıcı IPS Panel",
@@ -17323,9 +17593,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/monitors/asus-proart-pa278cfrv.jpg",
+    "image": "/images/products/monitors/icecat-asus-proart-pa278cfrv.jpg",
     "images": [
-      "/images/monitors/asus-proart-pa278cfrv.jpg"
+      "/images/products/monitors/icecat-asus-proart-pa278cfrv.jpg",
+      "/images/products/monitors/icecat-asus-proart-pa278cfrv-1.jpg",
+      "/images/products/monitors/icecat-asus-proart-pa278cfrv-2.jpg",
+      "/images/products/monitors/icecat-asus-proart-pa278cfrv-3.jpg"
     ],
     "highlights": [
       "27 inç WQHD (2560x1440) 100Hz Calman Doğrulamalı Profesyonel IPS Panel",
@@ -17401,9 +17674,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/monitors/lg-ultrafine-32un880k-b.jpg",
+    "image": "/images/products/monitors/icecat-lg-ultrafine-32un880k-b.jpg",
     "images": [
-      "/images/monitors/lg-ultrafine-32un880k-b.jpg"
+      "/images/products/monitors/icecat-lg-ultrafine-32un880k-b.jpg",
+      "/images/products/monitors/icecat-lg-ultrafine-32un880k-b-1.jpg",
+      "/images/products/monitors/icecat-lg-ultrafine-32un880k-b-2.jpg",
+      "/images/products/monitors/icecat-lg-ultrafine-32un880k-b-3.jpg"
     ],
     "highlights": [
       "31.5 inç 4K UHD (3840x2160) %95 DCI-P3 IPS Panel",
@@ -17479,9 +17755,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2023,
     "isPopular": false,
     "isFeatured": false,
-    "image": "/images/monitors/lg-27up85np-w.jpg",
+    "image": "/images/products/monitors/icecat-lg-27up85np-w.jpg",
     "images": [
-      "/images/monitors/lg-27up85np-w.jpg"
+      "/images/products/monitors/icecat-lg-27up85np-w.jpg",
+      "/images/products/monitors/icecat-lg-27up85np-w-1.jpg",
+      "/images/products/monitors/icecat-lg-27up85np-w-2.jpg",
+      "/images/products/monitors/icecat-lg-27up85np-w-3.jpg"
     ],
     "highlights": [
       "27 inç 4K UHD (3840x2160) DCI-P3 %95 Donanımsal Kalibrasyon Destekli IPS",
@@ -17557,9 +17836,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/monitors/gigabyte-g27q20.jpg",
+    "image": "/images/products/monitors/icecat-gigabyte-g27q20.jpg",
     "images": [
-      "/images/monitors/gigabyte-g27q20.jpg"
+      "/images/products/monitors/icecat-gigabyte-g27q20.jpg",
+      "/images/products/monitors/icecat-gigabyte-g27q20-1.jpg",
+      "/images/products/monitors/icecat-gigabyte-g27q20-2.jpg",
+      "/images/products/monitors/icecat-gigabyte-g27q20-3.jpg"
     ],
     "highlights": [
       "27 inç WQHD (2560x1440) 210Hz (OC) SS Fast IPS Panel",
@@ -17636,9 +17918,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2023,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/monitors/asus-tuf-gaming-vg34vql3a.jpg",
+    "image": "/images/products/monitors/icecat-asus-tuf-gaming-vg34vql3a.jpg",
     "images": [
-      "/images/monitors/asus-tuf-gaming-vg34vql3a.jpg"
+      "/images/products/monitors/icecat-asus-tuf-gaming-vg34vql3a.jpg",
+      "/images/products/monitors/icecat-asus-tuf-gaming-vg34vql3a-1.jpg",
+      "/images/products/monitors/icecat-asus-tuf-gaming-vg34vql3a-2.jpg",
+      "/images/products/monitors/icecat-asus-tuf-gaming-vg34vql3a-3.jpg"
     ],
     "highlights": [
       "34 inç Ultra Geniş 21:9 UWQHD (3440x1440) 180Hz 1500R Kavisli VA Panel",
@@ -17715,9 +18000,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2021,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/monitors/asus-tuf-gaming-vg34vql1b.jpg",
+    "image": "/images/products/monitors/icecat-asus-tuf-gaming-vg34vql1b.jpg",
     "images": [
-      "/images/monitors/asus-tuf-gaming-vg34vql1b.jpg"
+      "/images/products/monitors/icecat-asus-tuf-gaming-vg34vql1b.jpg",
+      "/images/products/monitors/icecat-asus-tuf-gaming-vg34vql1b-1.jpg",
+      "/images/products/monitors/icecat-asus-tuf-gaming-vg34vql1b-2.jpg",
+      "/images/products/monitors/icecat-asus-tuf-gaming-vg34vql1b-3.jpg"
     ],
     "highlights": [
       "34 inç 21:9 UWQHD (3440x1440) 165Hz 1500R Kavisli VA Panel",
@@ -18031,9 +18319,9 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/monitors/viewsonic-va3820c.jpg",
+    "image": "/images/products/monitors/icecat-viewsonic-va3820c.jpg",
     "images": [
-      "/images/monitors/viewsonic-va3820c.jpg"
+      "/images/products/monitors/icecat-viewsonic-va3820c.jpg"
     ],
     "highlights": [
       "37.5 inç Dev UWQHD+ (3840x1600) 2300R Kavisli IPS Panel",
@@ -18187,9 +18475,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2021,
     "isPopular": false,
     "isFeatured": false,
-    "image": "/images/monitors/viewsonic-elite-xg251g.jpg",
+    "image": "/images/products/monitors/icecat-viewsonic-elite-xg251g.jpg",
     "images": [
-      "/images/monitors/viewsonic-elite-xg251g.jpg"
+      "/images/products/monitors/icecat-viewsonic-elite-xg251g.jpg",
+      "/images/products/monitors/icecat-viewsonic-elite-xg251g-1.jpg",
+      "/images/products/monitors/icecat-viewsonic-elite-xg251g-2.jpg",
+      "/images/products/monitors/icecat-viewsonic-elite-xg251g-3.jpg"
     ],
     "highlights": [
       "24.5 inç FHD (1920x1080) 360Hz Saf E-Spor Fast IPS Panel",
@@ -18344,9 +18635,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/monitors/gigabyte-m27qs.jpg",
+    "image": "/images/products/monitors/icecat-gigabyte-m27qs.jpg",
     "images": [
-      "/images/monitors/gigabyte-m27qs.jpg"
+      "/images/products/monitors/icecat-gigabyte-m27qs.jpg",
+      "/images/products/monitors/icecat-gigabyte-m27qs-1.jpg",
+      "/images/products/monitors/icecat-gigabyte-m27qs-2.jpg",
+      "/images/products/monitors/icecat-gigabyte-m27qs-3.jpg"
     ],
     "highlights": [
       "27 inç WQHD (2560x1440) 180Hz SS IPS Panel",
@@ -18501,9 +18795,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2022,
     "isPopular": false,
     "isFeatured": false,
-    "image": "/images/monitors/asus-rog-strix-xg309cm.jpg",
+    "image": "/images/products/monitors/icecat-asus-rog-strix-xg309cm.jpg",
     "images": [
-      "/images/monitors/asus-rog-strix-xg309cm.jpg"
+      "/images/products/monitors/icecat-asus-rog-strix-xg309cm.jpg",
+      "/images/products/monitors/icecat-asus-rog-strix-xg309cm-1.jpg",
+      "/images/products/monitors/icecat-asus-rog-strix-xg309cm-2.jpg",
+      "/images/products/monitors/icecat-asus-rog-strix-xg309cm-3.jpg"
     ],
     "highlights": [
       "29.5 inç Ultra Geniş 21:9 WFHD (2560x1080) 220Hz (OC) Fast IPS Panel",
@@ -18659,9 +18956,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2022,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/monitors/hp-omen-27u.jpg",
+    "image": "/images/products/monitors/icecat-hp-omen-27u.jpg",
     "images": [
-      "/images/monitors/hp-omen-27u.jpg"
+      "/images/products/monitors/icecat-hp-omen-27u.jpg",
+      "/images/products/monitors/icecat-hp-omen-27u-1.jpg",
+      "/images/products/monitors/icecat-hp-omen-27u-2.jpg",
+      "/images/products/monitors/icecat-hp-omen-27u-3.jpg"
     ],
     "highlights": [
       "27 inç 4K UHD (3840x2160) 144Hz IPS Panel (HDMI 2.1 ile Konsol 4K 120Hz Desteği)",
@@ -18817,9 +19117,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2022,
     "isPopular": false,
     "isFeatured": false,
-    "image": "/images/monitors/asus-rog-strix-xg32aq.jpg",
+    "image": "/images/products/monitors/icecat-asus-rog-strix-xg32aq.jpg",
     "images": [
-      "/images/monitors/asus-rog-strix-xg32aq.jpg"
+      "/images/products/monitors/icecat-asus-rog-strix-xg32aq.jpg",
+      "/images/products/monitors/icecat-asus-rog-strix-xg32aq-1.jpg",
+      "/images/products/monitors/icecat-asus-rog-strix-xg32aq-2.jpg",
+      "/images/products/monitors/icecat-asus-rog-strix-xg32aq-3.jpg"
     ],
     "highlights": [
       "32 inç WQHD (2560x1440) 175Hz (OC) Fast IPS Panel",
@@ -18896,9 +19199,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2021,
     "isPopular": false,
     "isFeatured": false,
-    "image": "/images/monitors/msi-summit-ms321up.jpg",
+    "image": "/images/products/monitors/icecat-msi-summit-ms321up.jpg",
     "images": [
-      "/images/monitors/msi-summit-ms321up.jpg"
+      "/images/products/monitors/icecat-msi-summit-ms321up.jpg",
+      "/images/products/monitors/icecat-msi-summit-ms321up-1.jpg",
+      "/images/products/monitors/icecat-msi-summit-ms321up-2.jpg",
+      "/images/products/monitors/icecat-msi-summit-ms321up-3.jpg"
     ],
     "highlights": [
       "32 inç 4K UHD (3840x2160) Fabrika Kalibrasyonlu (Delta E <= 2) IPS Panel",
@@ -19053,9 +19359,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2021,
     "isPopular": false,
     "isFeatured": false,
-    "image": "/images/monitors/aoc-u27p2ca.jpg",
+    "image": "/images/products/monitors/icecat-aoc-u27p2ca.jpg",
     "images": [
-      "/images/monitors/aoc-u27p2ca.jpg"
+      "/images/products/monitors/icecat-aoc-u27p2ca.jpg",
+      "/images/products/monitors/icecat-aoc-u27p2ca-1.jpg",
+      "/images/products/monitors/icecat-aoc-u27p2ca-2.jpg",
+      "/images/products/monitors/icecat-aoc-u27p2ca-3.jpg"
     ],
     "highlights": [
       "27 inç 4K UHD (3840x2160) Çerçevesiz IPS Panel",
@@ -19131,9 +19440,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/monitors/asus-rog-strix-xg279cns.jpg",
+    "image": "/images/products/monitors/icecat-asus-rog-strix-xg279cns.jpg",
     "images": [
-      "/images/monitors/asus-rog-strix-xg279cns.jpg"
+      "/images/products/monitors/icecat-asus-rog-strix-xg279cns.jpg",
+      "/images/products/monitors/icecat-asus-rog-strix-xg279cns-1.jpg",
+      "/images/products/monitors/icecat-asus-rog-strix-xg279cns-2.jpg",
+      "/images/products/monitors/icecat-asus-rog-strix-xg279cns-3.jpg"
     ],
     "highlights": [
       "27 inç FHD (1920x1080) 380Hz (OC) Fast IPS Panel",
@@ -19210,9 +19522,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/monitors/dell-ultrasharp-u3425we.jpg",
+    "image": "/images/products/monitors/icecat-dell-ultrasharp-u3425we.jpg",
     "images": [
-      "/images/monitors/dell-ultrasharp-u3425we.jpg"
+      "/images/products/monitors/icecat-dell-ultrasharp-u3425we.jpg",
+      "/images/products/monitors/icecat-dell-ultrasharp-u3425we-1.jpg",
+      "/images/products/monitors/icecat-dell-ultrasharp-u3425we-2.jpg",
+      "/images/products/monitors/icecat-dell-ultrasharp-u3425we-3.jpg"
     ],
     "highlights": [
       "34.14 inç UWQHD (3440x1440) 120Hz 1900R Kavisli IPS Black Panel (2000:1 Kontrast)",
@@ -19288,9 +19603,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/monitors/dell-s2725qc.jpg",
+    "image": "/images/products/monitors/icecat-dell-s2725qc.jpg",
     "images": [
-      "/images/monitors/dell-s2725qc.jpg"
+      "/images/products/monitors/icecat-dell-s2725qc.jpg",
+      "/images/products/monitors/icecat-dell-s2725qc-1.jpg",
+      "/images/products/monitors/icecat-dell-s2725qc-2.jpg",
+      "/images/products/monitors/icecat-dell-s2725qc-3.jpg"
     ],
     "highlights": [
       "27 inç 4K UHD (3840x2160) 120Hz Akıcı IPS Panel",
@@ -19366,9 +19684,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/monitors/hp-omen-27qs-g2.jpg",
+    "image": "/images/products/monitors/icecat-hp-omen-27qs-g2.jpg",
     "images": [
-      "/images/monitors/hp-omen-27qs-g2.jpg"
+      "/images/products/monitors/icecat-hp-omen-27qs-g2.jpg",
+      "/images/products/monitors/icecat-hp-omen-27qs-g2-1.jpg",
+      "/images/products/monitors/icecat-hp-omen-27qs-g2-2.jpg",
+      "/images/products/monitors/icecat-hp-omen-27qs-g2-3.jpg"
     ],
     "highlights": [
       "27 inç WQHD (2560x1440) 280Hz Fast IPS Panel",
@@ -19760,9 +20081,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2024,
     "isPopular": false,
     "isFeatured": false,
-    "image": "/images/monitors/gigabyte-g34wqc2.jpg",
+    "image": "/images/products/monitors/icecat-gigabyte-g34wqc2.jpg",
     "images": [
-      "/images/monitors/gigabyte-g34wqc2.jpg"
+      "/images/products/monitors/icecat-gigabyte-g34wqc2.jpg",
+      "/images/products/monitors/icecat-gigabyte-g34wqc2-1.jpg",
+      "/images/products/monitors/icecat-gigabyte-g34wqc2-2.jpg",
+      "/images/products/monitors/icecat-gigabyte-g34wqc2-3.jpg"
     ],
     "highlights": [
       "34 inç Ultra Geniş 21:9 UWQHD (3440x1440) 200Hz (OC) 1500R Kavisli VA Panel",
@@ -19839,9 +20163,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2023,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/monitors/dell-ultrasharp-u3824dw.jpg",
+    "image": "/images/products/monitors/icecat-dell-ultrasharp-u3824dw.jpg",
     "images": [
-      "/images/monitors/dell-ultrasharp-u3824dw.jpg"
+      "/images/products/monitors/icecat-dell-ultrasharp-u3824dw.jpg",
+      "/images/products/monitors/icecat-dell-ultrasharp-u3824dw-1.jpg",
+      "/images/products/monitors/icecat-dell-ultrasharp-u3824dw-2.jpg",
+      "/images/products/monitors/icecat-dell-ultrasharp-u3824dw-3.jpg"
     ],
     "highlights": [
       "37.5 inç Dev UWQHD+ (3840x1600) 2300R IPS Black Panel (2000:1 Kontrast)",
@@ -20075,9 +20402,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2022,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/monitors/benq-pd2705u.jpg",
+    "image": "/images/products/monitors/icecat-benq-pd2705u.jpg",
     "images": [
-      "/images/monitors/benq-pd2705u.jpg"
+      "/images/products/monitors/icecat-benq-pd2705u.jpg",
+      "/images/products/monitors/icecat-benq-pd2705u-1.jpg",
+      "/images/products/monitors/icecat-benq-pd2705u-2.jpg",
+      "/images/products/monitors/icecat-benq-pd2705u-3.jpg"
     ],
     "highlights": [
       "27 inç 4K UHD (3840x2160) Fabrika Kalibrasyonlu AQCOLOR IPS Panel",
@@ -20153,9 +20483,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2020,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/monitors/asus-proart-pa279cv.jpg",
+    "image": "/images/products/monitors/icecat-asus-proart-pa279cv.jpg",
     "images": [
-      "/images/monitors/asus-proart-pa279cv.jpg"
+      "/images/products/monitors/icecat-asus-proart-pa279cv.jpg",
+      "/images/products/monitors/icecat-asus-proart-pa279cv-1.jpg",
+      "/images/products/monitors/icecat-asus-proart-pa279cv-2.jpg",
+      "/images/products/monitors/icecat-asus-proart-pa279cv-3.jpg"
     ],
     "highlights": [
       "27 inç 4K UHD (3840x2160) Calman Doğrulamalı IPS Panel",
@@ -20231,9 +20564,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2023,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/monitors/asus-tuf-gaming-vg27aqml1a.jpg",
+    "image": "/images/products/monitors/icecat-asus-tuf-gaming-vg27aqml1a.jpg",
     "images": [
-      "/images/monitors/asus-tuf-gaming-vg27aqml1a.jpg"
+      "/images/products/monitors/icecat-asus-tuf-gaming-vg27aqml1a.jpg",
+      "/images/products/monitors/icecat-asus-tuf-gaming-vg27aqml1a-1.jpg",
+      "/images/products/monitors/icecat-asus-tuf-gaming-vg27aqml1a-2.jpg",
+      "/images/products/monitors/icecat-asus-tuf-gaming-vg27aqml1a-3.jpg"
     ],
     "highlights": [
       "27 inç WQHD (2560x1440) 260Hz (OC) Fast IPS Panel",
@@ -20310,9 +20646,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2023,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/monitors/dell-ultrasharp-u4323qe.jpg",
+    "image": "/images/products/monitors/icecat-dell-ultrasharp-u4323qe.jpg",
     "images": [
-      "/images/monitors/dell-ultrasharp-u4323qe.jpg"
+      "/images/products/monitors/icecat-dell-ultrasharp-u4323qe.jpg",
+      "/images/products/monitors/icecat-dell-ultrasharp-u4323qe-1.jpg",
+      "/images/products/monitors/icecat-dell-ultrasharp-u4323qe-2.jpg",
+      "/images/products/monitors/icecat-dell-ultrasharp-u4323qe-3.jpg"
     ],
     "highlights": [
       "42.5 inç Dev 4K UHD (3840x2160) IPS Panel (4 Bağımsız FHD Ekran Bölme - iKVM)",
@@ -20388,9 +20727,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2023,
     "isPopular": false,
     "isFeatured": false,
-    "image": "/images/monitors/aoc-cu34g2xp-bk.jpg",
+    "image": "/images/products/monitors/icecat-aoc-cu34g2xp-bk.jpg",
     "images": [
-      "/images/monitors/aoc-cu34g2xp-bk.jpg"
+      "/images/products/monitors/icecat-aoc-cu34g2xp-bk.jpg",
+      "/images/products/monitors/icecat-aoc-cu34g2xp-bk-1.jpg",
+      "/images/products/monitors/icecat-aoc-cu34g2xp-bk-2.jpg",
+      "/images/products/monitors/icecat-aoc-cu34g2xp-bk-3.jpg"
     ],
     "highlights": [
       "34 inç UWQHD (3440x1440) 180Hz 1500R Kavisli VA Panel",
@@ -20625,9 +20967,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2021,
     "isPopular": false,
     "isFeatured": false,
-    "image": "/images/monitors/benq-pd2725u.jpg",
+    "image": "/images/products/monitors/icecat-benq-pd2725u.jpg",
     "images": [
-      "/images/monitors/benq-pd2725u.jpg"
+      "/images/products/monitors/icecat-benq-pd2725u.jpg",
+      "/images/products/monitors/icecat-benq-pd2725u-1.jpg",
+      "/images/products/monitors/icecat-benq-pd2725u-2.jpg",
+      "/images/products/monitors/icecat-benq-pd2725u-3.jpg"
     ],
     "highlights": [
       "27 inç 4K UHD (3840x2160) Thunderbolt 3 IPS Panel (Daisy Chain)",
@@ -20860,9 +21205,9 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/monitors/benq-mobiuz-ex271q.jpg",
+    "image": "/images/products/monitors/icecat-benq-mobiuz-ex271q.jpg",
     "images": [
-      "/images/monitors/benq-mobiuz-ex271q.jpg"
+      "/images/products/monitors/icecat-benq-mobiuz-ex271q.jpg"
     ],
     "highlights": [
       "27 inç WQHD (2560x1440) 180Hz Fast IPS Panel",
@@ -20939,9 +21284,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2020,
     "isPopular": false,
     "isFeatured": false,
-    "image": "/images/monitors/benq-sw321c.jpg",
+    "image": "/images/products/monitors/icecat-benq-sw321c.jpg",
     "images": [
-      "/images/monitors/benq-sw321c.jpg"
+      "/images/products/monitors/icecat-benq-sw321c.jpg",
+      "/images/products/monitors/icecat-benq-sw321c-1.jpg",
+      "/images/products/monitors/icecat-benq-sw321c-2.jpg",
+      "/images/products/monitors/icecat-benq-sw321c-3.jpg"
     ],
     "highlights": [
       "31.5 inç 4K UHD (3840x2160) Paper Color Sync Mat IPS Panel",
@@ -21096,9 +21444,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2023,
     "isPopular": false,
     "isFeatured": false,
-    "image": "/images/monitors/benq-sw272u.jpg",
+    "image": "/images/products/monitors/icecat-benq-sw272u.jpg",
     "images": [
-      "/images/monitors/benq-sw272u.jpg"
+      "/images/products/monitors/icecat-benq-sw272u.jpg",
+      "/images/products/monitors/icecat-benq-sw272u-1.jpg",
+      "/images/products/monitors/icecat-benq-sw272u-2.jpg",
+      "/images/products/monitors/icecat-benq-sw272u-3.jpg"
     ],
     "highlights": [
       "27 inç 4K UHD (3840x2160) Parlamayan Fine-Coated IPS Panel",
@@ -21252,9 +21603,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/monitors/tcl-32g64.jpg",
+    "image": "/images/products/monitors/icecat-tcl-32g64.jpg",
     "images": [
-      "/images/monitors/tcl-32g64.jpg"
+      "/images/products/monitors/icecat-tcl-32g64.jpg",
+      "/images/products/monitors/icecat-tcl-32g64-1.jpg",
+      "/images/products/monitors/icecat-tcl-32g64-2.jpg",
+      "/images/products/monitors/icecat-tcl-32g64-3.jpg"
     ],
     "highlights": [
       "31.5 inç WQHD (2560x1440) 180Hz 1500R Kavisli Fast HVA Panel",
@@ -21566,9 +21920,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2020,
     "isPopular": false,
     "isFeatured": false,
-    "image": "/images/monitors/asus-rog-strix-xg32vc.jpg",
+    "image": "/images/products/monitors/icecat-asus-rog-strix-xg32vc.jpg",
     "images": [
-      "/images/monitors/asus-rog-strix-xg32vc.jpg"
+      "/images/products/monitors/icecat-asus-rog-strix-xg32vc.jpg",
+      "/images/products/monitors/icecat-asus-rog-strix-xg32vc-1.jpg",
+      "/images/products/monitors/icecat-asus-rog-strix-xg32vc-2.jpg",
+      "/images/products/monitors/icecat-asus-rog-strix-xg32vc-3.jpg"
     ],
     "highlights": [
       "31.5 inç WQHD (2560x1440) 170Hz (OC) 1800R Kavisli VA Panel",
@@ -21645,9 +22002,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2023,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/monitors/dell-alienware-aw2724dm.jpg",
+    "image": "/images/products/monitors/icecat-dell-alienware-aw2724dm.jpg",
     "images": [
-      "/images/monitors/dell-alienware-aw2724dm.jpg"
+      "/images/products/monitors/icecat-dell-alienware-aw2724dm.jpg",
+      "/images/products/monitors/icecat-dell-alienware-aw2724dm-1.jpg",
+      "/images/products/monitors/icecat-dell-alienware-aw2724dm-2.jpg",
+      "/images/products/monitors/icecat-dell-alienware-aw2724dm-3.jpg"
     ],
     "highlights": [
       "27 inç WQHD (2560x1440) 180Hz (OC) Fast IPS Panel",
@@ -21724,9 +22084,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/monitors/benq-rd280u.jpg",
+    "image": "/images/products/monitors/icecat-benq-rd280u.jpg",
     "images": [
-      "/images/monitors/benq-rd280u.jpg"
+      "/images/products/monitors/icecat-benq-rd280u.jpg",
+      "/images/products/monitors/icecat-benq-rd280u-1.jpg",
+      "/images/products/monitors/icecat-benq-rd280u-2.jpg",
+      "/images/products/monitors/icecat-benq-rd280u-3.jpg"
     ],
     "highlights": [
       "28.2 inç 3:2 Verimlilik Formatı 4K UHD+ (3840x2560) Fine-Coated IPS Panel",
@@ -21802,9 +22165,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2023,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/monitors/lg-32uq750p-w.jpg",
+    "image": "/images/products/monitors/icecat-lg-32uq750p-w.jpg",
     "images": [
-      "/images/monitors/lg-32uq750p-w.jpg"
+      "/images/products/monitors/icecat-lg-32uq750p-w.jpg",
+      "/images/products/monitors/icecat-lg-32uq750p-w-1.jpg",
+      "/images/products/monitors/icecat-lg-32uq750p-w-2.jpg",
+      "/images/products/monitors/icecat-lg-32uq750p-w-3.jpg"
     ],
     "highlights": [
       "31.5 inç 4K UHD (3840x2160) 144Hz VA Panel (HDMI 2.1 Destekli)",
@@ -21881,9 +22247,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2022,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/monitors/dell-alienware-aw2723df.jpg",
+    "image": "/images/products/monitors/icecat-dell-alienware-aw2723df.jpg",
     "images": [
-      "/images/monitors/dell-alienware-aw2723df.jpg"
+      "/images/products/monitors/icecat-dell-alienware-aw2723df.jpg",
+      "/images/products/monitors/icecat-dell-alienware-aw2723df-1.jpg",
+      "/images/products/monitors/icecat-dell-alienware-aw2723df-2.jpg",
+      "/images/products/monitors/icecat-dell-alienware-aw2723df-3.jpg"
     ],
     "highlights": [
       "27 inç WQHD (2560x1440) 280Hz (OC) Fast Nano IPS Panel",
@@ -22116,9 +22485,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2019,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/monitors/asus-rog-strix-xg49vq.jpg",
+    "image": "/images/products/monitors/icecat-asus-rog-strix-xg49vq.jpg",
     "images": [
-      "/images/monitors/asus-rog-strix-xg49vq.jpg"
+      "/images/products/monitors/icecat-asus-rog-strix-xg49vq.jpg",
+      "/images/products/monitors/icecat-asus-rog-strix-xg49vq-1.jpg",
+      "/images/products/monitors/icecat-asus-rog-strix-xg49vq-2.jpg",
+      "/images/products/monitors/icecat-asus-rog-strix-xg49vq-3.jpg"
     ],
     "highlights": [
       "49 inç Dual Full HD (3840x1080) 32:9 Süper Ultra Geniş 1800R Kavisli Panel",
@@ -22353,9 +22725,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2020,
     "isPopular": false,
     "isFeatured": false,
-    "image": "/images/monitors/philips-279p1-00.jpg",
+    "image": "/images/products/monitors/icecat-philips-279p1-00.jpg",
     "images": [
-      "/images/monitors/philips-279p1-00.jpg"
+      "/images/products/monitors/icecat-philips-279p1-00.jpg",
+      "/images/products/monitors/icecat-philips-279p1-00-1.jpg",
+      "/images/products/monitors/icecat-philips-279p1-00-2.jpg",
+      "/images/products/monitors/icecat-philips-279p1-00-3.jpg"
     ],
     "highlights": [
       "27 inç 4K UHD (3840x2160) Profesyonel IPS Panel",
@@ -22431,9 +22806,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2023,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/monitors/benq-pd2706u.jpg",
+    "image": "/images/products/monitors/icecat-benq-pd2706u.jpg",
     "images": [
-      "/images/monitors/benq-pd2706u.jpg"
+      "/images/products/monitors/icecat-benq-pd2706u.jpg",
+      "/images/products/monitors/icecat-benq-pd2706u-1.jpg",
+      "/images/products/monitors/icecat-benq-pd2706u-2.jpg",
+      "/images/products/monitors/icecat-benq-pd2706u-3.jpg"
     ],
     "highlights": [
       "27 inç 4K UHD (3840x2160) Fabrika Kalibrasyonlu AQCOLOR IPS Panel",
@@ -22587,9 +22965,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2021,
     "isPopular": false,
     "isFeatured": false,
-    "image": "/images/monitors/viewsonic-xg271qg.jpg",
+    "image": "/images/products/monitors/icecat-viewsonic-xg271qg.jpg",
     "images": [
-      "/images/monitors/viewsonic-xg271qg.jpg"
+      "/images/products/monitors/icecat-viewsonic-xg271qg.jpg",
+      "/images/products/monitors/icecat-viewsonic-xg271qg-1.jpg",
+      "/images/products/monitors/icecat-viewsonic-xg271qg-2.jpg",
+      "/images/products/monitors/icecat-viewsonic-xg271qg-3.jpg"
     ],
     "highlights": [
       "27 inç WQHD (2560x1440) 240Hz Fast IPS Panel",
@@ -22666,9 +23047,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2023,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/monitors/aoc-q27g3xmn-bk.jpg",
+    "image": "/images/products/monitors/icecat-aoc-q27g3xmn-bk.jpg",
     "images": [
-      "/images/monitors/aoc-q27g3xmn-bk.jpg"
+      "/images/products/monitors/icecat-aoc-q27g3xmn-bk.jpg",
+      "/images/products/monitors/icecat-aoc-q27g3xmn-bk-1.jpg",
+      "/images/products/monitors/icecat-aoc-q27g3xmn-bk-2.jpg",
+      "/images/products/monitors/icecat-aoc-q27g3xmn-bk-3.jpg"
     ],
     "highlights": [
       "27 inç WQHD (2560x1440) 180Hz 336 Bölgeli Yerel Karartmalı Mini-LED Fast VA Panel",
@@ -22745,9 +23129,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2023,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/monitors/msi-mag401qr.jpg",
+    "image": "/images/products/monitors/icecat-msi-mag401qr.jpg",
     "images": [
-      "/images/monitors/msi-mag401qr.jpg"
+      "/images/products/monitors/icecat-msi-mag401qr.jpg",
+      "/images/products/monitors/icecat-msi-mag401qr-1.jpg",
+      "/images/products/monitors/icecat-msi-mag401qr-2.jpg",
+      "/images/products/monitors/icecat-msi-mag401qr-3.jpg"
     ],
     "highlights": [
       "40 inç UWQHD (3440x1440) 21:9 Düz IPS Panel (155Hz VRR)",
@@ -22824,9 +23211,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/monitors/aoc-q27g41zdf.jpg",
+    "image": "/images/products/monitors/icecat-aoc-q27g41zdf.jpg",
     "images": [
-      "/images/monitors/aoc-q27g41zdf.jpg"
+      "/images/products/monitors/icecat-aoc-q27g41zdf.jpg",
+      "/images/products/monitors/icecat-aoc-q27g41zdf-1.jpg",
+      "/images/products/monitors/icecat-aoc-q27g41zdf-2.jpg",
+      "/images/products/monitors/icecat-aoc-q27g41zdf-3.jpg"
     ],
     "highlights": [
       "26.5 inç WQHD (2560x1440) 240Hz Saf OLED Panel",
@@ -22903,9 +23293,9 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/monitors/benq-rd320u.jpg",
+    "image": "/images/products/monitors/icecat-benq-rd320u.jpg",
     "images": [
-      "/images/monitors/benq-rd320u.jpg"
+      "/images/products/monitors/icecat-benq-rd320u.jpg"
     ],
     "highlights": [
       "31.5 inç 4K UHD (3840x2160) Parlama Önleyici Fine-Coated IPS Panel",
@@ -23139,9 +23529,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/monitors/asus-tuf-gaming-vg27aql5a.jpg",
+    "image": "/images/products/monitors/icecat-asus-tuf-gaming-vg27aql5a.jpg",
     "images": [
-      "/images/monitors/asus-tuf-gaming-vg27aql5a.jpg"
+      "/images/products/monitors/icecat-asus-tuf-gaming-vg27aql5a.jpg",
+      "/images/products/monitors/icecat-asus-tuf-gaming-vg27aql5a-1.jpg",
+      "/images/products/monitors/icecat-asus-tuf-gaming-vg27aql5a-2.jpg",
+      "/images/products/monitors/icecat-asus-tuf-gaming-vg27aql5a-3.jpg"
     ],
     "highlights": [
       "27 inç WQHD (2560x1440) 210Hz (OC) Fast IPS Panel",
@@ -23376,9 +23769,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/monitors/viewsonic-xg2737.jpg",
+    "image": "/images/products/monitors/icecat-viewsonic-xg2737.jpg",
     "images": [
-      "/images/monitors/viewsonic-xg2737.jpg"
+      "/images/products/monitors/icecat-viewsonic-xg2737.jpg",
+      "/images/products/monitors/icecat-viewsonic-xg2737-1.jpg",
+      "/images/products/monitors/icecat-viewsonic-xg2737-2.jpg",
+      "/images/products/monitors/icecat-viewsonic-xg2737-3.jpg"
     ],
     "highlights": [
       "27 inç FHD (1920x1080) 520Hz Ekstrem Hızlı Fast IPS Panel",
@@ -23612,9 +24008,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/monitors/gigabyte-g27q2.jpg",
+    "image": "/images/products/monitors/icecat-gigabyte-g27q2.jpg",
     "images": [
-      "/images/monitors/gigabyte-g27q2.jpg"
+      "/images/products/monitors/icecat-gigabyte-g27q2.jpg",
+      "/images/products/monitors/icecat-gigabyte-g27q2-1.jpg",
+      "/images/products/monitors/icecat-gigabyte-g27q2-2.jpg",
+      "/images/products/monitors/icecat-gigabyte-g27q2-3.jpg"
     ],
     "highlights": [
       "27 inç WQHD (2560x1440) 210Hz (OC) Super Speed IPS Panel",
@@ -23691,9 +24090,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/monitors/asus-rog-strix-xg27acmg.jpg",
+    "image": "/images/products/monitors/icecat-asus-rog-strix-xg27acmg.jpg",
     "images": [
-      "/images/monitors/asus-rog-strix-xg27acmg.jpg"
+      "/images/products/monitors/icecat-asus-rog-strix-xg27acmg.jpg",
+      "/images/products/monitors/icecat-asus-rog-strix-xg27acmg-1.jpg",
+      "/images/products/monitors/icecat-asus-rog-strix-xg27acmg-2.jpg",
+      "/images/products/monitors/icecat-asus-rog-strix-xg27acmg-3.jpg"
     ],
     "highlights": [
       "27 inç WQHD (2560x1440) 270Hz (OC) Fast IPS Panel",
@@ -23770,9 +24172,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2023,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/monitors/asus-proart-pa279crv.jpg",
+    "image": "/images/products/monitors/icecat-asus-proart-pa279crv.jpg",
     "images": [
-      "/images/monitors/asus-proart-pa279crv.jpg"
+      "/images/products/monitors/icecat-asus-proart-pa279crv.jpg",
+      "/images/products/monitors/icecat-asus-proart-pa279crv-1.jpg",
+      "/images/products/monitors/icecat-asus-proart-pa279crv-2.jpg",
+      "/images/products/monitors/icecat-asus-proart-pa279crv-3.jpg"
     ],
     "highlights": [
       "27 inç 4K UHD (3840x2160) Profesyonel IPS Panel",
@@ -23848,9 +24253,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2021,
     "isPopular": false,
     "isFeatured": false,
-    "image": "/images/monitors/asus-proart-pa329cv.jpg",
+    "image": "/images/products/monitors/icecat-asus-proart-pa329cv.jpg",
     "images": [
-      "/images/monitors/asus-proart-pa329cv.jpg"
+      "/images/products/monitors/icecat-asus-proart-pa329cv.jpg",
+      "/images/products/monitors/icecat-asus-proart-pa329cv-1.jpg",
+      "/images/products/monitors/icecat-asus-proart-pa329cv-2.jpg",
+      "/images/products/monitors/icecat-asus-proart-pa329cv-3.jpg"
     ],
     "highlights": [
       "32 inç 4K UHD (3840x2160) Fabrika Kalibrasyonlu IPS Panel",
@@ -23926,9 +24334,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2021,
     "isPopular": false,
     "isFeatured": false,
-    "image": "/images/monitors/gigabyte-m34wq.jpg",
+    "image": "/images/products/monitors/icecat-gigabyte-m34wq.jpg",
     "images": [
-      "/images/monitors/gigabyte-m34wq.jpg"
+      "/images/products/monitors/icecat-gigabyte-m34wq.jpg",
+      "/images/products/monitors/icecat-gigabyte-m34wq-1.jpg",
+      "/images/products/monitors/icecat-gigabyte-m34wq-2.jpg",
+      "/images/products/monitors/icecat-gigabyte-m34wq-3.jpg"
     ],
     "highlights": [
       "34 inç UWQHD (3440x1440) 21:9 Düz IPS Panel",
@@ -24242,9 +24653,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/monitors/asus-rog-strix-xg27acms.jpg",
+    "image": "/images/products/monitors/icecat-asus-rog-strix-xg27acms.jpg",
     "images": [
-      "/images/monitors/asus-rog-strix-xg27acms.jpg"
+      "/images/products/monitors/icecat-asus-rog-strix-xg27acms.jpg",
+      "/images/products/monitors/icecat-asus-rog-strix-xg27acms-1.jpg",
+      "/images/products/monitors/icecat-asus-rog-strix-xg27acms-2.jpg",
+      "/images/products/monitors/icecat-asus-rog-strix-xg27acms-3.jpg"
     ],
     "highlights": [
       "27 inç WQHD (2560x1440) 320Hz (OC) Fast IPS Panel",
@@ -24321,9 +24735,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2022,
     "isPopular": false,
     "isFeatured": false,
-    "image": "/images/monitors/msi-optix-mag274qrx.jpg",
+    "image": "/images/products/monitors/icecat-msi-optix-mag274qrx.jpg",
     "images": [
-      "/images/monitors/msi-optix-mag274qrx.jpg"
+      "/images/products/monitors/icecat-msi-optix-mag274qrx.jpg",
+      "/images/products/monitors/icecat-msi-optix-mag274qrx-1.jpg",
+      "/images/products/monitors/icecat-msi-optix-mag274qrx-2.jpg",
+      "/images/products/monitors/icecat-msi-optix-mag274qrx-3.jpg"
     ],
     "highlights": [
       "27 inç WQHD (2560x1440) 240Hz Rapid IPS Panel",
@@ -24400,9 +24817,11 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2022,
     "isPopular": false,
     "isFeatured": false,
-    "image": "/images/monitors/asus-proart-pa348cgv.jpg",
+    "image": "/images/products/monitors/icecat-asus-proart-pa348cgv.jpg",
     "images": [
-      "/images/monitors/asus-proart-pa348cgv.jpg"
+      "/images/products/monitors/icecat-asus-proart-pa348cgv.jpg",
+      "/images/products/monitors/icecat-asus-proart-pa348cgv-1.jpg",
+      "/images/products/monitors/icecat-asus-proart-pa348cgv-2.jpg"
     ],
     "highlights": [
       "34 inç UWQHD (3440x1440) 21:9 Düz IPS Panel (120Hz VRR)",
@@ -24636,9 +25055,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/monitors/asus-tuf-gaming-vg27aqml5a.jpg",
+    "image": "/images/products/monitors/icecat-asus-tuf-gaming-vg27aqml5a.jpg",
     "images": [
-      "/images/monitors/asus-tuf-gaming-vg27aqml5a.jpg"
+      "/images/products/monitors/icecat-asus-tuf-gaming-vg27aqml5a.jpg",
+      "/images/products/monitors/icecat-asus-tuf-gaming-vg27aqml5a-1.jpg",
+      "/images/products/monitors/icecat-asus-tuf-gaming-vg27aqml5a-2.jpg",
+      "/images/products/monitors/icecat-asus-tuf-gaming-vg27aqml5a-3.jpg"
     ],
     "highlights": [
       "27 inç WQHD (2560x1440) 300Hz Fast IPS Panel",
@@ -24715,9 +25137,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2023,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/monitors/lg-ultragear-27gr93u-b.jpg",
+    "image": "/images/products/monitors/icecat-lg-ultragear-27gr93u-b.jpg",
     "images": [
-      "/images/monitors/lg-ultragear-27gr93u-b.jpg"
+      "/images/products/monitors/icecat-lg-ultragear-27gr93u-b.jpg",
+      "/images/products/monitors/icecat-lg-ultragear-27gr93u-b-1.jpg",
+      "/images/products/monitors/icecat-lg-ultragear-27gr93u-b-2.jpg",
+      "/images/products/monitors/icecat-lg-ultragear-27gr93u-b-3.jpg"
     ],
     "highlights": [
       "27 inç 4K UHD (3840x2160) 144Hz IPS Panel",
@@ -24873,9 +25298,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/monitors/aoc-cu34g4z.jpg",
+    "image": "/images/products/monitors/icecat-aoc-cu34g4z.jpg",
     "images": [
-      "/images/monitors/aoc-cu34g4z.jpg"
+      "/images/products/monitors/icecat-aoc-cu34g4z.jpg",
+      "/images/products/monitors/icecat-aoc-cu34g4z-1.jpg",
+      "/images/products/monitors/icecat-aoc-cu34g4z-2.jpg",
+      "/images/products/monitors/icecat-aoc-cu34g4z-3.jpg"
     ],
     "highlights": [
       "34 inç UWQHD (3440x1440) 240Hz 1500R Kavisli Fast VA Panel",
@@ -25031,9 +25459,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/monitors/asus-tuf-gaming-vg34wqml5a.jpg",
+    "image": "/images/products/monitors/icecat-asus-tuf-gaming-vg34wqml5a.jpg",
     "images": [
-      "/images/monitors/asus-tuf-gaming-vg34wqml5a.jpg"
+      "/images/products/monitors/icecat-asus-tuf-gaming-vg34wqml5a.jpg",
+      "/images/products/monitors/icecat-asus-tuf-gaming-vg34wqml5a-1.jpg",
+      "/images/products/monitors/icecat-asus-tuf-gaming-vg34wqml5a-2.jpg",
+      "/images/products/monitors/icecat-asus-tuf-gaming-vg34wqml5a-3.jpg"
     ],
     "highlights": [
       "34 inç UWQHD (3440x1440) 250Hz (OC) 1500R Kavisli Fast VA Panel",
@@ -25189,9 +25620,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/monitors/asus-rog-strix-xg27acmes.jpg",
+    "image": "/images/products/monitors/icecat-asus-rog-strix-xg27acmes.jpg",
     "images": [
-      "/images/monitors/asus-rog-strix-xg27acmes.jpg"
+      "/images/products/monitors/icecat-asus-rog-strix-xg27acmes.jpg",
+      "/images/products/monitors/icecat-asus-rog-strix-xg27acmes-1.jpg",
+      "/images/products/monitors/icecat-asus-rog-strix-xg27acmes-2.jpg",
+      "/images/products/monitors/icecat-asus-rog-strix-xg27acmes-3.jpg"
     ],
     "highlights": [
       "27 inç WQHD (2560x1440) 255Hz Fast IPS Panel",
@@ -25268,9 +25702,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/monitors/asus-rog-strix-xg27acmes-w.jpg",
+    "image": "/images/products/monitors/icecat-asus-rog-strix-xg27acmes-w.jpg",
     "images": [
-      "/images/monitors/asus-rog-strix-xg27acmes-w.jpg"
+      "/images/products/monitors/icecat-asus-rog-strix-xg27acmes-w.jpg",
+      "/images/products/monitors/icecat-asus-rog-strix-xg27acmes-w-1.jpg",
+      "/images/products/monitors/icecat-asus-rog-strix-xg27acmes-w-2.jpg",
+      "/images/products/monitors/icecat-asus-rog-strix-xg27acmes-w-3.jpg"
     ],
     "highlights": [
       "27 inç WQHD 255Hz Şık Beyaz Kasa Fast IPS Panel",
@@ -25425,9 +25862,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2023,
     "isPopular": false,
     "isFeatured": false,
-    "image": "/images/monitors/asus-rog-strix-xg27aqmr.jpg",
+    "image": "/images/products/monitors/icecat-asus-rog-strix-xg27aqmr.jpg",
     "images": [
-      "/images/monitors/asus-rog-strix-xg27aqmr.jpg"
+      "/images/products/monitors/icecat-asus-rog-strix-xg27aqmr.jpg",
+      "/images/products/monitors/icecat-asus-rog-strix-xg27aqmr-1.jpg",
+      "/images/products/monitors/icecat-asus-rog-strix-xg27aqmr-2.jpg",
+      "/images/products/monitors/icecat-asus-rog-strix-xg27aqmr-3.jpg"
     ],
     "highlights": [
       "27 inç WQHD (2560x1440) 300Hz Fast IPS Panel",
@@ -25583,9 +26023,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2022,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/monitors/benq-pd3205u.jpg",
+    "image": "/images/products/monitors/icecat-benq-pd3205u.jpg",
     "images": [
-      "/images/monitors/benq-pd3205u.jpg"
+      "/images/products/monitors/icecat-benq-pd3205u.jpg",
+      "/images/products/monitors/icecat-benq-pd3205u-1.jpg",
+      "/images/products/monitors/icecat-benq-pd3205u-2.jpg",
+      "/images/products/monitors/icecat-benq-pd3205u-3.jpg"
     ],
     "highlights": [
       "31.5 inç 4K UHD (3840x2160) Profesyonel IPS Panel",
@@ -25661,9 +26104,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/monitors/aoc-agon-pro-ag276fk.jpg",
+    "image": "/images/products/monitors/icecat-aoc-agon-pro-ag276fk.jpg",
     "images": [
-      "/images/monitors/aoc-agon-pro-ag276fk.jpg"
+      "/images/products/monitors/icecat-aoc-agon-pro-ag276fk.jpg",
+      "/images/products/monitors/icecat-aoc-agon-pro-ag276fk-1.jpg",
+      "/images/products/monitors/icecat-aoc-agon-pro-ag276fk-2.jpg",
+      "/images/products/monitors/icecat-aoc-agon-pro-ag276fk-3.jpg"
     ],
     "highlights": [
       "27 inç FHD (1920x1080) 520Hz Ultra Yüksek Yenileme Hızlı Fast IPS Panel",
@@ -25898,9 +26344,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2024,
     "isPopular": false,
     "isFeatured": false,
-    "image": "/images/monitors/benq-pd3225u.jpg",
+    "image": "/images/products/monitors/icecat-benq-pd3225u.jpg",
     "images": [
-      "/images/monitors/benq-pd3225u.jpg"
+      "/images/products/monitors/icecat-benq-pd3225u.jpg",
+      "/images/products/monitors/icecat-benq-pd3225u-1.jpg",
+      "/images/products/monitors/icecat-benq-pd3225u-2.jpg",
+      "/images/products/monitors/icecat-benq-pd3225u-3.jpg"
     ],
     "highlights": [
       "31.5 inç 4K UHD IPS Black Panel (2000:1 Kontrast Oranı)",
@@ -26291,9 +26740,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2022,
     "isPopular": false,
     "isFeatured": false,
-    "image": "/images/monitors/dell-g3223q.jpg",
+    "image": "/images/products/monitors/icecat-dell-g3223q.jpg",
     "images": [
-      "/images/monitors/dell-g3223q.jpg"
+      "/images/products/monitors/icecat-dell-g3223q.jpg",
+      "/images/products/monitors/icecat-dell-g3223q-1.jpg",
+      "/images/products/monitors/icecat-dell-g3223q-2.jpg",
+      "/images/products/monitors/icecat-dell-g3223q-3.jpg"
     ],
     "highlights": [
       "31.5 inç 4K UHD (3840x2160) 144Hz Fast IPS Panel",
@@ -26607,9 +27059,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/monitors/asus-rog-strix-xg27ucs.jpg",
+    "image": "/images/products/monitors/icecat-asus-rog-strix-xg27ucs.jpg",
     "images": [
-      "/images/monitors/asus-rog-strix-xg27ucs.jpg"
+      "/images/products/monitors/icecat-asus-rog-strix-xg27ucs.jpg",
+      "/images/products/monitors/icecat-asus-rog-strix-xg27ucs-1.jpg",
+      "/images/products/monitors/icecat-asus-rog-strix-xg27ucs-2.jpg",
+      "/images/products/monitors/icecat-asus-rog-strix-xg27ucs-3.jpg"
     ],
     "highlights": [
       "27 inç 4K UHD 160Hz Fast IPS Panel",
@@ -26686,9 +27141,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/monitors/aoc-q27g4sru.jpg",
+    "image": "/images/products/monitors/icecat-aoc-q27g4sru.jpg",
     "images": [
-      "/images/monitors/aoc-q27g4sru.jpg"
+      "/images/products/monitors/icecat-aoc-q27g4sru.jpg",
+      "/images/products/monitors/icecat-aoc-q27g4sru-1.jpg",
+      "/images/products/monitors/icecat-aoc-q27g4sru-2.jpg",
+      "/images/products/monitors/icecat-aoc-q27g4sru-3.jpg"
     ],
     "highlights": [
       "27 inç WQHD (2560x1440) 320Hz Fast IPS Panel",
@@ -26922,9 +27380,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2022,
     "isPopular": false,
     "isFeatured": false,
-    "image": "/images/monitors/dell-ultrasharp-u3223qe.jpg",
+    "image": "/images/products/monitors/icecat-dell-ultrasharp-u3223qe.jpg",
     "images": [
-      "/images/monitors/dell-ultrasharp-u3223qe.jpg"
+      "/images/products/monitors/icecat-dell-ultrasharp-u3223qe.jpg",
+      "/images/products/monitors/icecat-dell-ultrasharp-u3223qe-1.jpg",
+      "/images/products/monitors/icecat-dell-ultrasharp-u3223qe-2.jpg",
+      "/images/products/monitors/icecat-dell-ultrasharp-u3223qe-3.jpg"
     ],
     "highlights": [
       "31.5 inç 4K UHD IPS Black Panel (2000:1 Kontrast)",
@@ -27237,9 +27698,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/monitors/aoc-u27g4r.jpg",
+    "image": "/images/products/monitors/icecat-aoc-u27g4r.jpg",
     "images": [
-      "/images/monitors/aoc-u27g4r.jpg"
+      "/images/products/monitors/icecat-aoc-u27g4r.jpg",
+      "/images/products/monitors/icecat-aoc-u27g4r-1.jpg",
+      "/images/products/monitors/icecat-aoc-u27g4r-2.jpg",
+      "/images/products/monitors/icecat-aoc-u27g4r-3.jpg"
     ],
     "highlights": [
       "27 inç 4K UHD 160Hz Fast IPS Panel",
@@ -27316,9 +27780,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/monitors/lg-ultragear-27g640a-b.jpg",
+    "image": "/images/products/monitors/icecat-lg-ultragear-27g640a-b.jpg",
     "images": [
-      "/images/monitors/lg-ultragear-27g640a-b.jpg"
+      "/images/products/monitors/icecat-lg-ultragear-27g640a-b.jpg",
+      "/images/products/monitors/icecat-lg-ultragear-27g640a-b-1.jpg",
+      "/images/products/monitors/icecat-lg-ultragear-27g640a-b-2.jpg",
+      "/images/products/monitors/icecat-lg-ultragear-27g640a-b-3.jpg"
     ],
     "highlights": [
       "27 inç WQHD (2560x1440) 200Hz IPS Panel",
@@ -27395,9 +27862,9 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/monitors/benq-pd2730s.jpg",
+    "image": "/images/products/monitors/icecat-benq-pd2730s.jpg",
     "images": [
-      "/images/monitors/benq-pd2730s.jpg"
+      "/images/products/monitors/icecat-benq-pd2730s.jpg"
     ],
     "highlights": [
       "27 inç 5K WUHD (5120x2880) 218 PPI Ultra Keskin IPS Panel",
@@ -27788,9 +28255,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2022,
     "isPopular": false,
     "isFeatured": false,
-    "image": "/images/monitors/asus-tuf-gaming-vg28uql1a.jpg",
+    "image": "/images/products/monitors/icecat-asus-tuf-gaming-vg28uql1a.jpg",
     "images": [
-      "/images/monitors/asus-tuf-gaming-vg28uql1a.jpg"
+      "/images/products/monitors/icecat-asus-tuf-gaming-vg28uql1a.jpg",
+      "/images/products/monitors/icecat-asus-tuf-gaming-vg28uql1a-1.jpg",
+      "/images/products/monitors/icecat-asus-tuf-gaming-vg28uql1a-2.jpg",
+      "/images/products/monitors/icecat-asus-tuf-gaming-vg28uql1a-3.jpg"
     ],
     "highlights": [
       "28 inç 4K UHD (3840x2160) 144Hz Fast IPS Panel",
@@ -28575,9 +29045,9 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/monitors/benq-mobiuz-ex271u.jpg",
+    "image": "/images/products/monitors/icecat-benq-mobiuz-ex271u.jpg",
     "images": [
-      "/images/monitors/benq-mobiuz-ex271u.jpg"
+      "/images/products/monitors/icecat-benq-mobiuz-ex271u.jpg"
     ],
     "highlights": [
       "27 inç 4K UHD 165Hz IPS Panel ve HDMI 2.1 eARC 7.1 Ses Desteği",
@@ -28888,9 +29358,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/monitors/lg-ultragear-27g810a-b.jpg",
+    "image": "/images/products/monitors/icecat-lg-ultragear-27g810a-b.jpg",
     "images": [
-      "/images/monitors/lg-ultragear-27g810a-b.jpg"
+      "/images/products/monitors/icecat-lg-ultragear-27g810a-b.jpg",
+      "/images/products/monitors/icecat-lg-ultragear-27g810a-b-1.jpg",
+      "/images/products/monitors/icecat-lg-ultragear-27g810a-b-2.jpg",
+      "/images/products/monitors/icecat-lg-ultragear-27g810a-b-3.jpg"
     ],
     "highlights": [
       "27 inç 4K UHD 180Hz IPS Panel",
@@ -28967,9 +29440,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/monitors/lg-ultragear-34g630a-b.jpg",
+    "image": "/images/products/monitors/icecat-lg-ultragear-34g630a-b.jpg",
     "images": [
-      "/images/monitors/lg-ultragear-34g630a-b.jpg"
+      "/images/products/monitors/icecat-lg-ultragear-34g630a-b.jpg",
+      "/images/products/monitors/icecat-lg-ultragear-34g630a-b-1.jpg",
+      "/images/products/monitors/icecat-lg-ultragear-34g630a-b-2.jpg",
+      "/images/products/monitors/icecat-lg-ultragear-34g630a-b-3.jpg"
     ],
     "highlights": [
       "34 inç UWQHD (3440x1440) 240Hz 1000R Kavisli VA Panel",
@@ -29046,9 +29522,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/monitors/gigabyte-m27q3.jpg",
+    "image": "/images/products/monitors/icecat-gigabyte-m27q3.jpg",
     "images": [
-      "/images/monitors/gigabyte-m27q3.jpg"
+      "/images/products/monitors/icecat-gigabyte-m27q3.jpg",
+      "/images/products/monitors/icecat-gigabyte-m27q3-1.jpg",
+      "/images/products/monitors/icecat-gigabyte-m27q3-2.jpg",
+      "/images/products/monitors/icecat-gigabyte-m27q3-3.jpg"
     ],
     "highlights": [
       "27 inç WQHD (2560x1440) 320Hz (OC) Super Speed IPS Panel",
@@ -29204,9 +29683,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/monitors/lg-ultrafine-40u990a-w.jpg",
+    "image": "/images/products/monitors/icecat-lg-ultrafine-40u990a-w.jpg",
     "images": [
-      "/images/monitors/lg-ultrafine-40u990a-w.jpg"
+      "/images/products/monitors/icecat-lg-ultrafine-40u990a-w.jpg",
+      "/images/products/monitors/icecat-lg-ultrafine-40u990a-w-1.jpg",
+      "/images/products/monitors/icecat-lg-ultrafine-40u990a-w-2.jpg",
+      "/images/products/monitors/icecat-lg-ultrafine-40u990a-w-3.jpg"
     ],
     "highlights": [
       "39.7 inç 5K2K (5120x2160) 120Hz Kavisli Nano IPS Black Panel",
@@ -29361,9 +29843,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2024,
     "isPopular": false,
     "isFeatured": false,
-    "image": "/images/monitors/asus-proart-pa24us.jpg",
+    "image": "/images/products/monitors/icecat-asus-proart-pa24us.jpg",
     "images": [
-      "/images/monitors/asus-proart-pa24us.jpg"
+      "/images/products/monitors/icecat-asus-proart-pa24us.jpg",
+      "/images/products/monitors/icecat-asus-proart-pa24us-1.jpg",
+      "/images/products/monitors/icecat-asus-proart-pa24us-2.jpg",
+      "/images/products/monitors/icecat-asus-proart-pa24us-3.jpg"
     ],
     "highlights": [
       "23.6 inç 4K UHD (3840x2160) 187 PPI IPS Panel",
@@ -29596,9 +30081,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/monitors/aoc-q27g4zdr.jpg",
+    "image": "/images/products/monitors/icecat-aoc-q27g4zdr.jpg",
     "images": [
-      "/images/monitors/aoc-q27g4zdr.jpg"
+      "/images/products/monitors/icecat-aoc-q27g4zdr.jpg",
+      "/images/products/monitors/icecat-aoc-q27g4zdr-1.jpg",
+      "/images/products/monitors/icecat-aoc-q27g4zdr-2.jpg",
+      "/images/products/monitors/icecat-aoc-q27g4zdr-3.jpg"
     ],
     "highlights": [
       "26.5 inç WQHD 240Hz Ultra Tepkisel OLED Panel",
@@ -29753,9 +30241,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/monitors/dell-ultrasharp-u3225qe.jpg",
+    "image": "/images/products/monitors/icecat-dell-ultrasharp-u3225qe.jpg",
     "images": [
-      "/images/monitors/dell-ultrasharp-u3225qe.jpg"
+      "/images/products/monitors/icecat-dell-ultrasharp-u3225qe.jpg",
+      "/images/products/monitors/icecat-dell-ultrasharp-u3225qe-1.jpg",
+      "/images/products/monitors/icecat-dell-ultrasharp-u3225qe-2.jpg",
+      "/images/products/monitors/icecat-dell-ultrasharp-u3225qe-3.jpg"
     ],
     "highlights": [
       "31.5 inç 4K UHD (3840x2160) 120Hz IPS Black Panel (2000:1 Kontrast)",
@@ -29831,9 +30322,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/monitors/dell-ultrasharp-u2725qe.jpg",
+    "image": "/images/products/monitors/icecat-dell-ultrasharp-u2725qe.jpg",
     "images": [
-      "/images/monitors/dell-ultrasharp-u2725qe.jpg"
+      "/images/products/monitors/icecat-dell-ultrasharp-u2725qe.jpg",
+      "/images/products/monitors/icecat-dell-ultrasharp-u2725qe-1.jpg",
+      "/images/products/monitors/icecat-dell-ultrasharp-u2725qe-2.jpg",
+      "/images/products/monitors/icecat-dell-ultrasharp-u2725qe-3.jpg"
     ],
     "highlights": [
       "27 inç 4K UHD 120Hz IPS Black Panel (2000:1 Kontrast)",
@@ -30224,9 +30718,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/monitors/dell-ultrasharp-u4025qw.jpg",
+    "image": "/images/products/monitors/icecat-dell-ultrasharp-u4025qw.jpg",
     "images": [
-      "/images/monitors/dell-ultrasharp-u4025qw.jpg"
+      "/images/products/monitors/icecat-dell-ultrasharp-u4025qw.jpg",
+      "/images/products/monitors/icecat-dell-ultrasharp-u4025qw-1.jpg",
+      "/images/products/monitors/icecat-dell-ultrasharp-u4025qw-2.jpg",
+      "/images/products/monitors/icecat-dell-ultrasharp-u4025qw-3.jpg"
     ],
     "highlights": [
       "39.7 inç 5K2K (5120x2160) 120Hz Kavisli IPS Black Panel (2000:1 Kontrast)",
@@ -30302,9 +30799,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2023,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/monitors/asus-rog-swift-pg27aqn.jpg",
+    "image": "/images/products/monitors/icecat-asus-rog-swift-pg27aqn.jpg",
     "images": [
-      "/images/monitors/asus-rog-swift-pg27aqn.jpg"
+      "/images/products/monitors/icecat-asus-rog-swift-pg27aqn.jpg",
+      "/images/products/monitors/icecat-asus-rog-swift-pg27aqn-1.jpg",
+      "/images/products/monitors/icecat-asus-rog-swift-pg27aqn-2.jpg",
+      "/images/products/monitors/icecat-asus-rog-swift-pg27aqn-3.jpg"
     ],
     "highlights": [
       "27 inç WQHD (2560x1440) 360Hz Dünyanın İlk Ultrafast IPS Monitörü",
@@ -30696,9 +31196,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/monitors/asus-rog-strix-xg32ucg.jpg",
+    "image": "/images/products/monitors/icecat-asus-rog-strix-xg32ucg.jpg",
     "images": [
-      "/images/monitors/asus-rog-strix-xg32ucg.jpg"
+      "/images/products/monitors/icecat-asus-rog-strix-xg32ucg.jpg",
+      "/images/products/monitors/icecat-asus-rog-strix-xg32ucg-1.jpg",
+      "/images/products/monitors/icecat-asus-rog-strix-xg32ucg-2.jpg",
+      "/images/products/monitors/icecat-asus-rog-strix-xg32ucg-3.jpg"
     ],
     "highlights": [
       "31.5 inç 4K UHD 160Hz ve FHD 320Hz Dual Mode Fast IPS",
@@ -31245,9 +31748,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/monitors/gigabyte-m27up.jpg",
+    "image": "/images/products/monitors/icecat-gigabyte-m27up.jpg",
     "images": [
-      "/images/monitors/gigabyte-m27up.jpg"
+      "/images/products/monitors/icecat-gigabyte-m27up.jpg",
+      "/images/products/monitors/icecat-gigabyte-m27up-1.jpg",
+      "/images/products/monitors/icecat-gigabyte-m27up-2.jpg",
+      "/images/products/monitors/icecat-gigabyte-m27up-3.jpg"
     ],
     "highlights": [
       "27 inç 4K UHD 160Hz SS IPS Panel",
@@ -31402,9 +31908,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/monitors/lg-ultragear-27g850a-b.jpg",
+    "image": "/images/products/monitors/icecat-lg-ultragear-27g850a-b.jpg",
     "images": [
-      "/images/monitors/lg-ultragear-27g850a-b.jpg"
+      "/images/products/monitors/icecat-lg-ultragear-27g850a-b.jpg",
+      "/images/products/monitors/icecat-lg-ultragear-27g850a-b-1.jpg",
+      "/images/products/monitors/icecat-lg-ultragear-27g850a-b-2.jpg",
+      "/images/products/monitors/icecat-lg-ultragear-27g850a-b-3.jpg"
     ],
     "highlights": [
       "27 inç 4K UHD 240Hz Nano IPS 1ms Panel",
@@ -31560,9 +32069,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/monitors/asus-rog-strix-pulsar-xg27aqngv.jpg",
+    "image": "/images/products/monitors/icecat-asus-rog-strix-pulsar-xg27aqngv.jpg",
     "images": [
-      "/images/monitors/asus-rog-strix-pulsar-xg27aqngv.jpg"
+      "/images/products/monitors/icecat-asus-rog-strix-pulsar-xg27aqngv.jpg",
+      "/images/products/monitors/icecat-asus-rog-strix-pulsar-xg27aqngv-1.jpg",
+      "/images/products/monitors/icecat-asus-rog-strix-pulsar-xg27aqngv-2.jpg",
+      "/images/products/monitors/icecat-asus-rog-strix-pulsar-xg27aqngv-3.jpg"
     ],
     "highlights": [
       "27 inç WQHD (2560x1440) 360Hz ROG Pulsar Teknolojili Fast IPS",
@@ -31717,9 +32229,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/monitors/aoc-q27g4zd.jpg",
+    "image": "/images/products/monitors/icecat-aoc-q27g4zd.jpg",
     "images": [
-      "/images/monitors/aoc-q27g4zd.jpg"
+      "/images/products/monitors/icecat-aoc-q27g4zd.jpg",
+      "/images/products/monitors/icecat-aoc-q27g4zd-1.jpg",
+      "/images/products/monitors/icecat-aoc-q27g4zd-2.jpg",
+      "/images/products/monitors/icecat-aoc-q27g4zd-3.jpg"
     ],
     "highlights": [
       "26.5 inç WQHD (2560x1440) 280Hz OLED Panel",
@@ -31796,9 +32311,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2022,
     "isPopular": false,
     "isFeatured": false,
-    "image": "/images/monitors/dell-ultrasharp-up3221q.jpg",
+    "image": "/images/products/monitors/icecat-dell-ultrasharp-up3221q.jpg",
     "images": [
-      "/images/monitors/dell-ultrasharp-up3221q.jpg"
+      "/images/products/monitors/icecat-dell-ultrasharp-up3221q.jpg",
+      "/images/products/monitors/icecat-dell-ultrasharp-up3221q-1.jpg",
+      "/images/products/monitors/icecat-dell-ultrasharp-up3221q-2.jpg",
+      "/images/products/monitors/icecat-dell-ultrasharp-up3221q-3.jpg"
     ],
     "highlights": [
       "31.5 inç 4K UHD 2000 Bölgeli Doğrudan Arkadan Aydınlatmalı Mini-LED IPS",
@@ -31874,9 +32392,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/monitors/aoc-agon-pro-ag276qzd2.jpg",
+    "image": "/images/products/monitors/icecat-aoc-agon-pro-ag276qzd2.jpg",
     "images": [
-      "/images/monitors/aoc-agon-pro-ag276qzd2.jpg"
+      "/images/products/monitors/icecat-aoc-agon-pro-ag276qzd2.jpg",
+      "/images/products/monitors/icecat-aoc-agon-pro-ag276qzd2-1.jpg",
+      "/images/products/monitors/icecat-aoc-agon-pro-ag276qzd2-2.jpg",
+      "/images/products/monitors/icecat-aoc-agon-pro-ag276qzd2-3.jpg"
     ],
     "highlights": [
       "26.7 inç WQHD (2560x1440) 240Hz QD-OLED Panel",
@@ -32030,9 +32551,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/monitors/gigabyte-go27q24.jpg",
+    "image": "/images/products/monitors/icecat-gigabyte-go27q24.jpg",
     "images": [
-      "/images/monitors/gigabyte-go27q24.jpg"
+      "/images/products/monitors/icecat-gigabyte-go27q24.jpg",
+      "/images/products/monitors/icecat-gigabyte-go27q24-1.jpg",
+      "/images/products/monitors/icecat-gigabyte-go27q24-2.jpg",
+      "/images/products/monitors/icecat-gigabyte-go27q24-3.jpg"
     ],
     "highlights": [
       "27 inç WQHD (2560x1440) 240Hz OLED Panel",
@@ -32108,9 +32632,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/monitors/lg-ultragear-27gs95qe-b.jpg",
+    "image": "/images/products/monitors/icecat-lg-ultragear-27gs95qe-b.jpg",
     "images": [
-      "/images/monitors/lg-ultragear-27gs95qe-b.jpg"
+      "/images/products/monitors/icecat-lg-ultragear-27gs95qe-b.jpg",
+      "/images/products/monitors/icecat-lg-ultragear-27gs95qe-b-1.jpg",
+      "/images/products/monitors/icecat-lg-ultragear-27gs95qe-b-2.jpg",
+      "/images/products/monitors/icecat-lg-ultragear-27gs95qe-b-3.jpg"
     ],
     "highlights": [
       "26.5 inç WQHD (2560x1440) 240Hz OLED Panel",
@@ -32187,9 +32714,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/monitors/aoc-u27g4xm.jpg",
+    "image": "/images/products/monitors/icecat-aoc-u27g4xm.jpg",
     "images": [
-      "/images/monitors/aoc-u27g4xm.jpg"
+      "/images/products/monitors/icecat-aoc-u27g4xm.jpg",
+      "/images/products/monitors/icecat-aoc-u27g4xm-1.jpg",
+      "/images/products/monitors/icecat-aoc-u27g4xm-2.jpg",
+      "/images/products/monitors/icecat-aoc-u27g4xm-3.jpg"
     ],
     "highlights": [
       "27 inç 4K UHD 160Hz 1152 Bölgeli Mini-LED Fast IPS Panel",
@@ -32266,9 +32796,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/monitors/aoc-u32g4u.jpg",
+    "image": "/images/products/monitors/icecat-aoc-u32g4u.jpg",
     "images": [
-      "/images/monitors/aoc-u32g4u.jpg"
+      "/images/products/monitors/icecat-aoc-u32g4u.jpg",
+      "/images/products/monitors/icecat-aoc-u32g4u-1.jpg",
+      "/images/products/monitors/icecat-aoc-u32g4u-2.jpg",
+      "/images/products/monitors/icecat-aoc-u32g4u-3.jpg"
     ],
     "highlights": [
       "31.5 inç 4K UHD 160Hz Fast IPS Panel",
@@ -32344,9 +32877,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/monitors/asus-rog-strix-xg27ucg.jpg",
+    "image": "/images/products/monitors/icecat-asus-rog-strix-xg27ucg.jpg",
     "images": [
-      "/images/monitors/asus-rog-strix-xg27ucg.jpg"
+      "/images/products/monitors/icecat-asus-rog-strix-xg27ucg.jpg",
+      "/images/products/monitors/icecat-asus-rog-strix-xg27ucg-1.jpg",
+      "/images/products/monitors/icecat-asus-rog-strix-xg27ucg-2.jpg",
+      "/images/products/monitors/icecat-asus-rog-strix-xg27ucg-3.jpg"
     ],
     "highlights": [
       "27 inç 4K UHD 160Hz ve Tek Tuşla FHD 320Hz Çift Çözünürlük Modu (Dual-Mode)",
@@ -32423,9 +32959,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/monitors/lg-ultragear-32g810sa-w.jpg",
+    "image": "/images/products/monitors/icecat-lg-ultragear-32g810sa-w.jpg",
     "images": [
-      "/images/monitors/lg-ultragear-32g810sa-w.jpg"
+      "/images/products/monitors/icecat-lg-ultragear-32g810sa-w.jpg",
+      "/images/products/monitors/icecat-lg-ultragear-32g810sa-w-1.jpg",
+      "/images/products/monitors/icecat-lg-ultragear-32g810sa-w-2.jpg",
+      "/images/products/monitors/icecat-lg-ultragear-32g810sa-w-3.jpg"
     ],
     "highlights": [
       "31.5 inç 4K UHD 144Hz IPS Beyaz Kasa Panel",
@@ -32501,9 +33040,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2023,
     "isPopular": false,
     "isFeatured": false,
-    "image": "/images/monitors/aoc-agon-pro-ag276qzd.jpg",
+    "image": "/images/products/monitors/icecat-aoc-agon-pro-ag276qzd.jpg",
     "images": [
-      "/images/monitors/aoc-agon-pro-ag276qzd.jpg"
+      "/images/products/monitors/icecat-aoc-agon-pro-ag276qzd.jpg",
+      "/images/products/monitors/icecat-aoc-agon-pro-ag276qzd-1.jpg",
+      "/images/products/monitors/icecat-aoc-agon-pro-ag276qzd-2.jpg",
+      "/images/products/monitors/icecat-aoc-agon-pro-ag276qzd-3.jpg"
     ],
     "highlights": [
       "26.5 inç WQHD (2560x1440) 240Hz OLED Panel",
@@ -32815,9 +33357,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/monitors/gigabyte-mo34wqc.jpg",
+    "image": "/images/products/monitors/icecat-gigabyte-mo34wqc.jpg",
     "images": [
-      "/images/monitors/gigabyte-mo34wqc.jpg"
+      "/images/products/monitors/icecat-gigabyte-mo34wqc.jpg",
+      "/images/products/monitors/icecat-gigabyte-mo34wqc-1.jpg",
+      "/images/products/monitors/icecat-gigabyte-mo34wqc-2.jpg",
+      "/images/products/monitors/icecat-gigabyte-mo34wqc-3.jpg"
     ],
     "highlights": [
       "34 inç 21:9 UWQHD 175Hz 1800R Kavisli QD-OLED Panel",
@@ -32893,9 +33438,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/monitors/gigabyte-mo27q2.jpg",
+    "image": "/images/products/monitors/icecat-gigabyte-mo27q2.jpg",
     "images": [
-      "/images/monitors/gigabyte-mo27q2.jpg"
+      "/images/products/monitors/icecat-gigabyte-mo27q2.jpg",
+      "/images/products/monitors/icecat-gigabyte-mo27q2-1.jpg",
+      "/images/products/monitors/icecat-gigabyte-mo27q2-2.jpg",
+      "/images/products/monitors/icecat-gigabyte-mo27q2-3.jpg"
     ],
     "highlights": [
       "27 inç WQHD (2560x1440) 240Hz QD-OLED Panel",
@@ -33127,9 +33675,9 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/monitors/lg-ultragear-27gx704a-b.jpg",
+    "image": "/images/products/monitors/icecat-lg-ultragear-27gx704a-b.jpg",
     "images": [
-      "/images/monitors/lg-ultragear-27gx704a-b.jpg"
+      "/images/products/monitors/icecat-lg-ultragear-27gx704a-b.jpg"
     ],
     "highlights": [
       "26.5 inç WQHD (2560x1440) 240Hz OLED Panel",
@@ -33206,9 +33754,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/monitors/asus-rog-strix-oled-xg27aqdmg-gen2.jpg",
+    "image": "/images/products/monitors/icecat-asus-rog-strix-oled-xg27aqdmg-gen2.jpg",
     "images": [
-      "/images/monitors/asus-rog-strix-oled-xg27aqdmg-gen2.jpg"
+      "/images/products/monitors/icecat-asus-rog-strix-oled-xg27aqdmg-gen2.jpg",
+      "/images/products/monitors/icecat-asus-rog-strix-oled-xg27aqdmg-gen2-1.jpg",
+      "/images/products/monitors/icecat-asus-rog-strix-oled-xg27aqdmg-gen2-2.jpg",
+      "/images/products/monitors/icecat-asus-rog-strix-oled-xg27aqdmg-gen2-3.jpg"
     ],
     "highlights": [
       "26.5 inç 2560x1440 WQHD 240Hz 3. Nesil WOLED Panel",
@@ -33285,9 +33836,9 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2024,
     "isPopular": false,
     "isFeatured": false,
-    "image": "/images/monitors/benq-pd3226g.jpg",
+    "image": "/images/products/monitors/icecat-benq-pd3226g.jpg",
     "images": [
-      "/images/monitors/benq-pd3226g.jpg"
+      "/images/products/monitors/icecat-benq-pd3226g.jpg"
     ],
     "highlights": [
       "31.5 inç 4K UHD 144Hz IPS Black Panel (%98 DCI-P3 / %100 sRGB)",
@@ -33363,9 +33914,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/monitors/asus-rog-strix-oled-xg27acdms.jpg",
+    "image": "/images/products/monitors/icecat-asus-rog-strix-oled-xg27acdms.jpg",
     "images": [
-      "/images/monitors/asus-rog-strix-oled-xg27acdms.jpg"
+      "/images/products/monitors/icecat-asus-rog-strix-oled-xg27acdms.jpg",
+      "/images/products/monitors/icecat-asus-rog-strix-oled-xg27acdms-1.jpg",
+      "/images/products/monitors/icecat-asus-rog-strix-oled-xg27acdms-2.jpg",
+      "/images/products/monitors/icecat-asus-rog-strix-oled-xg27acdms-3.jpg"
     ],
     "highlights": [
       "26.5 inç WQHD (2560x1440) 280Hz QD-OLED Panel",
@@ -33521,9 +34075,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/monitors/aoc-agon-pro-ag346ucd.jpg",
+    "image": "/images/products/monitors/icecat-aoc-agon-pro-ag346ucd.jpg",
     "images": [
-      "/images/monitors/aoc-agon-pro-ag346ucd.jpg"
+      "/images/products/monitors/icecat-aoc-agon-pro-ag346ucd.jpg",
+      "/images/products/monitors/icecat-aoc-agon-pro-ag346ucd-1.jpg",
+      "/images/products/monitors/icecat-aoc-agon-pro-ag346ucd-2.jpg",
+      "/images/products/monitors/icecat-aoc-agon-pro-ag346ucd-3.jpg"
     ],
     "highlights": [
       "34 inç UWQHD 175Hz 1800R Kavisli QD-OLED Panel",
@@ -33599,9 +34156,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2024,
     "isPopular": false,
     "isFeatured": false,
-    "image": "/images/monitors/dell-ultrasharp-52-u5226kw.jpg",
+    "image": "/images/products/monitors/icecat-dell-ultrasharp-52-u5226kw.jpg",
     "images": [
-      "/images/monitors/dell-ultrasharp-52-u5226kw.jpg"
+      "/images/products/monitors/icecat-dell-ultrasharp-52-u5226kw.jpg",
+      "/images/products/monitors/icecat-dell-ultrasharp-52-u5226kw-1.jpg",
+      "/images/products/monitors/icecat-dell-ultrasharp-52-u5226kw-2.jpg",
+      "/images/products/monitors/icecat-dell-ultrasharp-52-u5226kw-3.jpg"
     ],
     "highlights": [
       "51.5 inç 6K (6144x2560) 120Hz Ultra Geniş IPS Black Panel",
@@ -33677,9 +34237,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/monitors/aoc-q27g4sdr.jpg",
+    "image": "/images/products/monitors/icecat-aoc-q27g4sdr.jpg",
     "images": [
-      "/images/monitors/aoc-q27g4sdr.jpg"
+      "/images/products/monitors/icecat-aoc-q27g4sdr.jpg",
+      "/images/products/monitors/icecat-aoc-q27g4sdr-1.jpg",
+      "/images/products/monitors/icecat-aoc-q27g4sdr-2.jpg",
+      "/images/products/monitors/icecat-aoc-q27g4sdr-3.jpg"
     ],
     "highlights": [
       "26.5 inç WQHD (2560x1440) 360Hz OLED Panel",
@@ -33912,9 +34475,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/monitors/asus-rog-strix-xg27aqdmg.jpg",
+    "image": "/images/products/monitors/icecat-asus-rog-strix-xg27aqdmg.jpg",
     "images": [
-      "/images/monitors/asus-rog-strix-xg27aqdmg.jpg"
+      "/images/products/monitors/icecat-asus-rog-strix-xg27aqdmg.jpg",
+      "/images/products/monitors/icecat-asus-rog-strix-xg27aqdmg-1.jpg",
+      "/images/products/monitors/icecat-asus-rog-strix-xg27aqdmg-2.jpg",
+      "/images/products/monitors/icecat-asus-rog-strix-xg27aqdmg-3.jpg"
     ],
     "highlights": [
       "26.5 inç WQHD (2560x1440) 240Hz Parlak WOLED Panel",
@@ -34461,9 +35027,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2023,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/monitors/asus-rog-swift-pg27aqdm.jpg",
+    "image": "/images/products/monitors/icecat-asus-rog-swift-pg27aqdm.jpg",
     "images": [
-      "/images/monitors/asus-rog-swift-pg27aqdm.jpg"
+      "/images/products/monitors/icecat-asus-rog-swift-pg27aqdm.jpg",
+      "/images/products/monitors/icecat-asus-rog-swift-pg27aqdm-1.jpg",
+      "/images/products/monitors/icecat-asus-rog-swift-pg27aqdm-2.jpg",
+      "/images/products/monitors/icecat-asus-rog-swift-pg27aqdm-3.jpg"
     ],
     "highlights": [
       "26.5 inç WQHD (2560x1440) 240Hz OLED Panel",
@@ -34540,9 +35109,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/monitors/asus-rog-strix-5k-xg27jcg.jpg",
+    "image": "/images/products/monitors/icecat-asus-rog-strix-5k-xg27jcg.jpg",
     "images": [
-      "/images/monitors/asus-rog-strix-5k-xg27jcg.jpg"
+      "/images/products/monitors/icecat-asus-rog-strix-5k-xg27jcg.jpg",
+      "/images/products/monitors/icecat-asus-rog-strix-5k-xg27jcg-1.jpg",
+      "/images/products/monitors/icecat-asus-rog-strix-5k-xg27jcg-2.jpg",
+      "/images/products/monitors/icecat-asus-rog-strix-5k-xg27jcg-3.jpg"
     ],
     "highlights": [
       "27 inç 5K WUHD (5120x2880) Ultra Yüksek Çözünürlüklü Fast IPS Panel",
@@ -34932,9 +35504,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/monitors/aoc-agon-pro-ag276qkd2.jpg",
+    "image": "/images/products/monitors/icecat-aoc-agon-pro-ag276qkd2.jpg",
     "images": [
-      "/images/monitors/aoc-agon-pro-ag276qkd2.jpg"
+      "/images/products/monitors/icecat-aoc-agon-pro-ag276qkd2.jpg",
+      "/images/products/monitors/icecat-aoc-agon-pro-ag276qkd2-1.jpg",
+      "/images/products/monitors/icecat-aoc-agon-pro-ag276qkd2-2.jpg",
+      "/images/products/monitors/icecat-aoc-agon-pro-ag276qkd2-3.jpg"
     ],
     "highlights": [
       "26.5 inç WQHD (2560x1440) 500Hz Ultra Hızlı OLED Panel",
@@ -35011,9 +35586,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2024,
     "isPopular": false,
     "isFeatured": false,
-    "image": "/images/monitors/asus-proart-oled-pa32ucdm.jpg",
+    "image": "/images/products/monitors/icecat-asus-proart-oled-pa32ucdm.jpg",
     "images": [
-      "/images/monitors/asus-proart-oled-pa32ucdm.jpg"
+      "/images/products/monitors/icecat-asus-proart-oled-pa32ucdm.jpg",
+      "/images/products/monitors/icecat-asus-proart-oled-pa32ucdm-1.jpg",
+      "/images/products/monitors/icecat-asus-proart-oled-pa32ucdm-2.jpg",
+      "/images/products/monitors/icecat-asus-proart-oled-pa32ucdm-3.jpg"
     ],
     "highlights": [
       "31.5 inç 4K UHD 240Hz QD-OLED %99 DCI-P3 Renk Gamutu",
@@ -35167,9 +35745,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/monitors/gigabyte-mo27q3.jpg",
+    "image": "/images/products/monitors/icecat-gigabyte-mo27q3.jpg",
     "images": [
-      "/images/monitors/gigabyte-mo27q3.jpg"
+      "/images/products/monitors/icecat-gigabyte-mo27q3.jpg",
+      "/images/products/monitors/icecat-gigabyte-mo27q3-1.jpg",
+      "/images/products/monitors/icecat-gigabyte-mo27q3-2.jpg",
+      "/images/products/monitors/icecat-gigabyte-mo27q3-3.jpg"
     ],
     "highlights": [
       "27 inç WQHD (2560x1440) 360Hz QD-OLED Panel",
@@ -35245,9 +35826,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/monitors/asus-rog-strix-oled-xg32ucds.jpg",
+    "image": "/images/products/monitors/icecat-asus-rog-strix-oled-xg32ucds.jpg",
     "images": [
-      "/images/monitors/asus-rog-strix-oled-xg32ucds.jpg"
+      "/images/products/monitors/icecat-asus-rog-strix-oled-xg32ucds.jpg",
+      "/images/products/monitors/icecat-asus-rog-strix-oled-xg32ucds-1.jpg",
+      "/images/products/monitors/icecat-asus-rog-strix-oled-xg32ucds-2.jpg",
+      "/images/products/monitors/icecat-asus-rog-strix-oled-xg32ucds-3.jpg"
     ],
     "highlights": [
       "31.5 inç 4K UHD 165Hz QD-OLED Panel",
@@ -35323,9 +35907,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/monitors/aoc-agon-pro-ag326ud.jpg",
+    "image": "/images/products/monitors/icecat-aoc-agon-pro-ag326ud.jpg",
     "images": [
-      "/images/monitors/aoc-agon-pro-ag326ud.jpg"
+      "/images/products/monitors/icecat-aoc-agon-pro-ag326ud.jpg",
+      "/images/products/monitors/icecat-aoc-agon-pro-ag326ud-1.jpg",
+      "/images/products/monitors/icecat-aoc-agon-pro-ag326ud-2.jpg",
+      "/images/products/monitors/icecat-aoc-agon-pro-ag326ud-3.jpg"
     ],
     "highlights": [
       "31.5 inç 4K UHD 165Hz 3. Nesil QD-OLED Panel",
@@ -35479,9 +36066,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/monitors/gigabyte-mo34wqc2.jpg",
+    "image": "/images/products/monitors/icecat-gigabyte-mo34wqc2.jpg",
     "images": [
-      "/images/monitors/gigabyte-mo34wqc2.jpg"
+      "/images/products/monitors/icecat-gigabyte-mo34wqc2.jpg",
+      "/images/products/monitors/icecat-gigabyte-mo34wqc2-1.jpg",
+      "/images/products/monitors/icecat-gigabyte-mo34wqc2-2.jpg",
+      "/images/products/monitors/icecat-gigabyte-mo34wqc2-3.jpg"
     ],
     "highlights": [
       "34 inç 21:9 UWQHD 240Hz 1800R Kavisli OLED Ekran",
@@ -35713,9 +36303,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/monitors/lg-ultragear-34gs95qe-b.jpg",
+    "image": "/images/products/monitors/icecat-lg-ultragear-34gs95qe-b.jpg",
     "images": [
-      "/images/monitors/lg-ultragear-34gs95qe-b.jpg"
+      "/images/products/monitors/icecat-lg-ultragear-34gs95qe-b.jpg",
+      "/images/products/monitors/icecat-lg-ultragear-34gs95qe-b-1.jpg",
+      "/images/products/monitors/icecat-lg-ultragear-34gs95qe-b-2.jpg",
+      "/images/products/monitors/icecat-lg-ultragear-34gs95qe-b-3.jpg"
     ],
     "highlights": [
       "33.9 inç 21:9 UWQHD 240Hz 800R Kavisli OLED Panel",
@@ -36419,9 +37012,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/monitors/lg-ultragear-27gx790a-b.jpg",
+    "image": "/images/products/monitors/icecat-lg-ultragear-27gx790a-b.jpg",
     "images": [
-      "/images/monitors/lg-ultragear-27gx790a-b.jpg"
+      "/images/products/monitors/icecat-lg-ultragear-27gx790a-b.jpg",
+      "/images/products/monitors/icecat-lg-ultragear-27gx790a-b-1.jpg",
+      "/images/products/monitors/icecat-lg-ultragear-27gx790a-b-2.jpg",
+      "/images/products/monitors/icecat-lg-ultragear-27gx790a-b-3.jpg"
     ],
     "highlights": [
       "26.5 inç WQHD (2560x1440) 480Hz Ultra Hızlı OLED Panel",
@@ -36576,9 +37172,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/monitors/asus-rog-swift-oled-pg27aqdp.jpg",
+    "image": "/images/products/monitors/icecat-asus-rog-swift-oled-pg27aqdp.jpg",
     "images": [
-      "/images/monitors/asus-rog-swift-oled-pg27aqdp.jpg"
+      "/images/products/monitors/icecat-asus-rog-swift-oled-pg27aqdp.jpg",
+      "/images/products/monitors/icecat-asus-rog-swift-oled-pg27aqdp-1.jpg",
+      "/images/products/monitors/icecat-asus-rog-swift-oled-pg27aqdp-2.jpg",
+      "/images/products/monitors/icecat-asus-rog-swift-oled-pg27aqdp-3.jpg"
     ],
     "highlights": [
       "26.5 inç WQHD (2560x1440) 480Hz 3. Nesil WOLED Panel (RWGB Alt Piksel)",
@@ -36895,9 +37494,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2024,
     "isPopular": false,
     "isFeatured": false,
-    "image": "/images/monitors/asus-proart-pa32uce.jpg",
+    "image": "/images/products/monitors/icecat-asus-proart-pa32uce.jpg",
     "images": [
-      "/images/monitors/asus-proart-pa32uce.jpg"
+      "/images/products/monitors/icecat-asus-proart-pa32uce.jpg",
+      "/images/products/monitors/icecat-asus-proart-pa32uce-1.jpg",
+      "/images/products/monitors/icecat-asus-proart-pa32uce-2.jpg",
+      "/images/products/monitors/icecat-asus-proart-pa32uce-3.jpg"
     ],
     "highlights": [
       "31.5 inç 4K UHD (3840x2160) %98 DCI-P3 Profesyonel IPS Panel",
@@ -36978,9 +37580,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/monitors/lg-ultragear-34gx900a-b.jpg",
+    "image": "/images/products/monitors/icecat-lg-ultragear-34gx900a-b.jpg",
     "images": [
-      "/images/monitors/lg-ultragear-34gx900a-b.jpg"
+      "/images/products/monitors/icecat-lg-ultragear-34gx900a-b.jpg",
+      "/images/products/monitors/icecat-lg-ultragear-34gx900a-b-1.jpg",
+      "/images/products/monitors/icecat-lg-ultragear-34gx900a-b-2.jpg",
+      "/images/products/monitors/icecat-lg-ultragear-34gx900a-b-3.jpg"
     ],
     "highlights": [
       "33.9 inç 21:9 UWQHD 240Hz 800R OLED Panel",
@@ -37297,9 +37902,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/monitors/tcl-27c2a-pro.jpg",
+    "image": "/images/products/monitors/icecat-tcl-27c2a-pro.jpg",
     "images": [
-      "/images/monitors/tcl-27c2a-pro.jpg"
+      "/images/products/monitors/icecat-tcl-27c2a-pro.jpg",
+      "/images/products/monitors/icecat-tcl-27c2a-pro-1.jpg",
+      "/images/products/monitors/icecat-tcl-27c2a-pro-2.jpg",
+      "/images/products/monitors/icecat-tcl-27c2a-pro-3.jpg"
     ],
     "highlights": [
       "27 inç 4K UHD (3840x2160) 160Hz HVA QD-Mini LED Ekran",
@@ -37453,9 +38061,11 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/monitors/lg-ultragear-32gx850a-b.jpg",
+    "image": "/images/products/monitors/icecat-lg-ultragear-32gx850a-b.jpg",
     "images": [
-      "/images/monitors/lg-ultragear-32gx850a-b.jpg"
+      "/images/products/monitors/icecat-lg-ultragear-32gx850a-b.jpg",
+      "/images/products/monitors/icecat-lg-ultragear-32gx850a-b-1.jpg",
+      "/images/products/monitors/icecat-lg-ultragear-32gx850a-b-2.jpg"
     ],
     "highlights": [
       "31.5 inç 4K UHD 165Hz OLED Panel",
@@ -37532,9 +38142,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/monitors/gigabyte-mo27q28g.jpg",
+    "image": "/images/products/monitors/icecat-gigabyte-mo27q28g.jpg",
     "images": [
-      "/images/monitors/gigabyte-mo27q28g.jpg"
+      "/images/products/monitors/icecat-gigabyte-mo27q28g.jpg",
+      "/images/products/monitors/icecat-gigabyte-mo27q28g-1.jpg",
+      "/images/products/monitors/icecat-gigabyte-mo27q28g-2.jpg",
+      "/images/products/monitors/icecat-gigabyte-mo27q28g-3.jpg"
     ],
     "highlights": [
       "27 inç WQHD (2560x1440) 280Hz QD-OLED Panel",
@@ -37689,9 +38302,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/monitors/asus-rog-strix-oled-xg27aqwmg.jpg",
+    "image": "/images/products/monitors/icecat-asus-rog-strix-oled-xg27aqwmg.jpg",
     "images": [
-      "/images/monitors/asus-rog-strix-oled-xg27aqwmg.jpg"
+      "/images/products/monitors/icecat-asus-rog-strix-oled-xg27aqwmg.jpg",
+      "/images/products/monitors/icecat-asus-rog-strix-oled-xg27aqwmg-1.jpg",
+      "/images/products/monitors/icecat-asus-rog-strix-oled-xg27aqwmg-2.jpg",
+      "/images/products/monitors/icecat-asus-rog-strix-oled-xg27aqwmg-3.jpg"
     ],
     "highlights": [
       "26.5 inç WQHD 280Hz 3. Nesil WOLED Panel",
@@ -38008,9 +38624,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/monitors/gigabyte-mo32u2.jpg",
+    "image": "/images/products/monitors/icecat-gigabyte-mo32u2.jpg",
     "images": [
-      "/images/monitors/gigabyte-mo32u2.jpg"
+      "/images/products/monitors/icecat-gigabyte-mo32u2.jpg",
+      "/images/products/monitors/icecat-gigabyte-mo32u2-1.jpg",
+      "/images/products/monitors/icecat-gigabyte-mo32u2-2.jpg",
+      "/images/products/monitors/icecat-gigabyte-mo32u2-3.jpg"
     ],
     "highlights": [
       "31.5 inç 3840x2160 4K UHD QD-OLED Panel",
@@ -38412,9 +39031,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/monitors/asus-rog-swift-oled-pg32ucdm.jpg",
+    "image": "/images/products/monitors/icecat-asus-rog-swift-oled-pg32ucdm.jpg",
     "images": [
-      "/images/monitors/asus-rog-swift-oled-pg32ucdm.jpg"
+      "/images/products/monitors/icecat-asus-rog-swift-oled-pg32ucdm.jpg",
+      "/images/products/monitors/icecat-asus-rog-swift-oled-pg32ucdm-1.jpg",
+      "/images/products/monitors/icecat-asus-rog-swift-oled-pg32ucdm-2.jpg",
+      "/images/products/monitors/icecat-asus-rog-swift-oled-pg32ucdm-3.jpg"
     ],
     "highlights": [
       "31.5 inç 3. Nesil 4K UHD 240Hz QD-OLED Panel",
@@ -39290,9 +39912,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/monitors/dell-alienware-32-aw3225qf.jpg",
+    "image": "/images/products/monitors/icecat-dell-alienware-32-aw3225qf.jpg",
     "images": [
-      "/images/monitors/dell-alienware-32-aw3225qf.jpg"
+      "/images/products/monitors/icecat-dell-alienware-32-aw3225qf.jpg",
+      "/images/products/monitors/icecat-dell-alienware-32-aw3225qf-1.jpg",
+      "/images/products/monitors/icecat-dell-alienware-32-aw3225qf-2.jpg",
+      "/images/products/monitors/icecat-dell-alienware-32-aw3225qf-3.jpg"
     ],
     "highlights": [
       "Dünyanın İlk 4K 240Hz 1700R Kavisli QD-OLED Gaming Monitörü",
@@ -39374,9 +39999,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/monitors/asus-rog-strix-oled-xg27aqdpg.jpg",
+    "image": "/images/products/monitors/icecat-asus-rog-strix-oled-xg27aqdpg.jpg",
     "images": [
-      "/images/monitors/asus-rog-strix-oled-xg27aqdpg.jpg"
+      "/images/products/monitors/icecat-asus-rog-strix-oled-xg27aqdpg.jpg",
+      "/images/products/monitors/icecat-asus-rog-strix-oled-xg27aqdpg-1.jpg",
+      "/images/products/monitors/icecat-asus-rog-strix-oled-xg27aqdpg-2.jpg",
+      "/images/products/monitors/icecat-asus-rog-strix-oled-xg27aqdpg-3.jpg"
     ],
     "highlights": [
       "26.5 inç WQHD (2560x1440) 500Hz WOLED Panel",
@@ -39453,9 +40081,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/monitors/asus-rog-swift-pg27ucdm.jpg",
+    "image": "/images/products/monitors/icecat-asus-rog-swift-pg27ucdm.jpg",
     "images": [
-      "/images/monitors/asus-rog-swift-pg27ucdm.jpg"
+      "/images/products/monitors/icecat-asus-rog-swift-pg27ucdm.jpg",
+      "/images/products/monitors/icecat-asus-rog-swift-pg27ucdm-1.jpg",
+      "/images/products/monitors/icecat-asus-rog-swift-pg27ucdm-2.jpg",
+      "/images/products/monitors/icecat-asus-rog-swift-pg27ucdm-3.jpg"
     ],
     "highlights": [
       "26.5 inç 4K UHD 240Hz QD-OLED Panel",
@@ -39693,9 +40324,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": true,
-    "image": "/images/monitors/lg-ultragear-27gx790b-b.jpg",
+    "image": "/images/products/monitors/icecat-lg-ultragear-27gx790b-b.jpg",
     "images": [
-      "/images/monitors/lg-ultragear-27gx790b-b.jpg"
+      "/images/products/monitors/icecat-lg-ultragear-27gx790b-b.jpg",
+      "/images/products/monitors/icecat-lg-ultragear-27gx790b-b-1.jpg",
+      "/images/products/monitors/icecat-lg-ultragear-27gx790b-b-2.jpg",
+      "/images/products/monitors/icecat-lg-ultragear-27gx790b-b-3.jpg"
     ],
     "highlights": [
       "Dünyanın İlk 540Hz OLED Gaming Paneli ile Akıl Almaz Akıcılık",
@@ -39865,9 +40499,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": true,
-    "image": "/images/monitors/asus-rog-swift-oled-pg27aqwp-w.jpg",
+    "image": "/images/products/monitors/icecat-asus-rog-swift-oled-pg27aqwp-w.jpg",
     "images": [
-      "/images/monitors/asus-rog-swift-oled-pg27aqwp-w.jpg"
+      "/images/products/monitors/icecat-asus-rog-swift-oled-pg27aqwp-w.jpg",
+      "/images/products/monitors/icecat-asus-rog-swift-oled-pg27aqwp-w-1.jpg",
+      "/images/products/monitors/icecat-asus-rog-swift-oled-pg27aqwp-w-2.jpg",
+      "/images/products/monitors/icecat-asus-rog-swift-oled-pg27aqwp-w-3.jpg"
     ],
     "highlights": [
       "540Hz Rekor Tazeleme Hızı ve 0.03ms GtG OLED Piksel Tepkisi",
@@ -39949,9 +40586,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/monitors/lg-ultragear-45gx950a-b.jpg",
+    "image": "/images/products/monitors/icecat-lg-ultragear-45gx950a-b.jpg",
     "images": [
-      "/images/monitors/lg-ultragear-45gx950a-b.jpg"
+      "/images/products/monitors/icecat-lg-ultragear-45gx950a-b.jpg",
+      "/images/products/monitors/icecat-lg-ultragear-45gx950a-b-1.jpg",
+      "/images/products/monitors/icecat-lg-ultragear-45gx950a-b-2.jpg",
+      "/images/products/monitors/icecat-lg-ultragear-45gx950a-b-3.jpg"
     ],
     "highlights": [
       "44.5 inç 21:9 UltraWide 5K (5120x2160) Çözünürlük ve 800R Agresif Kavis",
@@ -40119,9 +40759,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": true,
-    "image": "/images/monitors/gigabyte-aorus-fo32u2p.jpg",
+    "image": "/images/products/monitors/icecat-gigabyte-aorus-fo32u2p.jpg",
     "images": [
-      "/images/monitors/gigabyte-aorus-fo32u2p.jpg"
+      "/images/products/monitors/icecat-gigabyte-aorus-fo32u2p.jpg",
+      "/images/products/monitors/icecat-gigabyte-aorus-fo32u2p-1.jpg",
+      "/images/products/monitors/icecat-gigabyte-aorus-fo32u2p-2.jpg",
+      "/images/products/monitors/icecat-gigabyte-aorus-fo32u2p-3.jpg"
     ],
     "highlights": [
       "Dünyanın İlk DisplayPort 2.1 UHBR20 (80 Gbps) Destekli 4K 240Hz QD-OLED Monitörü",
@@ -40368,9 +41011,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": true,
-    "image": "/images/monitors/asus-rog-swift-oled-pg32ucdp.jpg",
+    "image": "/images/products/monitors/icecat-asus-rog-swift-oled-pg32ucdp.jpg",
     "images": [
-      "/images/monitors/asus-rog-swift-oled-pg32ucdp.jpg"
+      "/images/products/monitors/icecat-asus-rog-swift-oled-pg32ucdp.jpg",
+      "/images/products/monitors/icecat-asus-rog-swift-oled-pg32ucdp-1.jpg",
+      "/images/products/monitors/icecat-asus-rog-swift-oled-pg32ucdp-2.jpg",
+      "/images/products/monitors/icecat-asus-rog-swift-oled-pg32ucdp-3.jpg"
     ],
     "highlights": [
       "Tek Tuşla Çift Mod Geçişi: 4K UHD @ 240Hz (Görsel Şölen) veya FHD @ 480Hz (Rekabetçi E-Spor)",
@@ -40538,9 +41184,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/monitors/asus-rog-strix-oled-xg32ucwmg.jpg",
+    "image": "/images/products/monitors/icecat-asus-rog-strix-oled-xg32ucwmg.jpg",
     "images": [
-      "/images/monitors/asus-rog-strix-oled-xg32ucwmg.jpg"
+      "/images/products/monitors/icecat-asus-rog-strix-oled-xg32ucwmg.jpg",
+      "/images/products/monitors/icecat-asus-rog-strix-oled-xg32ucwmg-1.jpg",
+      "/images/products/monitors/icecat-asus-rog-strix-oled-xg32ucwmg-2.jpg",
+      "/images/products/monitors/icecat-asus-rog-strix-oled-xg32ucwmg-3.jpg"
     ],
     "highlights": [
       "31.5 inç 4K UHD (3840x2160) WOLED Panel ve 240Hz Yenileme Hızı",
@@ -40617,9 +41266,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/monitors/asus-rog-swift-oled-gen3-pg32ucdm3.jpg",
+    "image": "/images/products/monitors/icecat-asus-rog-swift-oled-gen3-pg32ucdm3.jpg",
     "images": [
-      "/images/monitors/asus-rog-swift-oled-gen3-pg32ucdm3.jpg"
+      "/images/products/monitors/icecat-asus-rog-swift-oled-gen3-pg32ucdm3.jpg",
+      "/images/products/monitors/icecat-asus-rog-swift-oled-gen3-pg32ucdm3-1.jpg",
+      "/images/products/monitors/icecat-asus-rog-swift-oled-gen3-pg32ucdm3-2.jpg",
+      "/images/products/monitors/icecat-asus-rog-swift-oled-gen3-pg32ucdm3-3.jpg"
     ],
     "highlights": [
       "3. Nesil QD-OLED Teknolojisi ile Üstün Metin Netliği ve Canlı Renkler",
@@ -40774,9 +41426,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2024,
     "isPopular": false,
     "isFeatured": false,
-    "image": "/images/monitors/tcl-32x3a.jpg",
+    "image": "/images/products/monitors/icecat-tcl-32x3a.jpg",
     "images": [
-      "/images/monitors/tcl-32x3a.jpg"
+      "/images/products/monitors/icecat-tcl-32x3a.jpg",
+      "/images/products/monitors/icecat-tcl-32x3a-1.jpg",
+      "/images/products/monitors/icecat-tcl-32x3a-2.jpg",
+      "/images/products/monitors/icecat-tcl-32x3a-3.jpg"
     ],
     "highlights": [
       "31.5 inç 4K UHD 240Hz QD-OLED Panel",
@@ -41250,9 +41905,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/monitors/asus-rog-strix-oled-xg27ucdmg.jpg",
+    "image": "/images/products/monitors/icecat-asus-rog-strix-oled-xg27ucdmg.jpg",
     "images": [
-      "/images/monitors/asus-rog-strix-oled-xg27ucdmg.jpg"
+      "/images/products/monitors/icecat-asus-rog-strix-oled-xg27ucdmg.jpg",
+      "/images/products/monitors/icecat-asus-rog-strix-oled-xg27ucdmg-1.jpg",
+      "/images/products/monitors/icecat-asus-rog-strix-oled-xg27ucdmg-2.jpg",
+      "/images/products/monitors/icecat-asus-rog-strix-oled-xg27ucdmg-3.jpg"
     ],
     "highlights": [
       "26.5 inç 4K UHD 240Hz WOLED Panel",
@@ -41328,9 +41986,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2024,
     "isPopular": false,
     "isFeatured": false,
-    "image": "/images/monitors/asus-rog-strix-oled-xg32ucwg.jpg",
+    "image": "/images/products/monitors/icecat-asus-rog-strix-oled-xg32ucwg.jpg",
     "images": [
-      "/images/monitors/asus-rog-strix-oled-xg32ucwg.jpg"
+      "/images/products/monitors/icecat-asus-rog-strix-oled-xg32ucwg.jpg",
+      "/images/products/monitors/icecat-asus-rog-strix-oled-xg32ucwg-1.jpg",
+      "/images/products/monitors/icecat-asus-rog-strix-oled-xg32ucwg-2.jpg",
+      "/images/products/monitors/icecat-asus-rog-strix-oled-xg32ucwg-3.jpg"
     ],
     "highlights": [
       "31.5 inç 4K UHD 165Hz WOLED Panel",
@@ -41405,9 +42066,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/monitors/gigabyte-aorus-fo32u2.jpg",
+    "image": "/images/products/monitors/icecat-gigabyte-aorus-fo32u2.jpg",
     "images": [
-      "/images/monitors/gigabyte-aorus-fo32u2.jpg"
+      "/images/products/monitors/icecat-gigabyte-aorus-fo32u2.jpg",
+      "/images/products/monitors/icecat-gigabyte-aorus-fo32u2-1.jpg",
+      "/images/products/monitors/icecat-gigabyte-aorus-fo32u2-2.jpg",
+      "/images/products/monitors/icecat-gigabyte-aorus-fo32u2-3.jpg"
     ],
     "highlights": [
       "31.5 inç 4K UHD 240Hz QD-OLED Panel",
@@ -41483,9 +42147,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2024,
     "isPopular": false,
     "isFeatured": false,
-    "image": "/images/monitors/aoc-agon-pro-ag326uzd2.jpg",
+    "image": "/images/products/monitors/icecat-aoc-agon-pro-ag326uzd2.jpg",
     "images": [
-      "/images/monitors/aoc-agon-pro-ag326uzd2.jpg"
+      "/images/products/monitors/icecat-aoc-agon-pro-ag326uzd2.jpg",
+      "/images/products/monitors/icecat-aoc-agon-pro-ag326uzd2-1.jpg",
+      "/images/products/monitors/icecat-aoc-agon-pro-ag326uzd2-2.jpg",
+      "/images/products/monitors/icecat-aoc-agon-pro-ag326uzd2-3.jpg"
     ],
     "highlights": [
       "31.5 inç 4K UHD 240Hz QD-OLED Panel",
@@ -41561,9 +42228,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2024,
     "isPopular": false,
     "isFeatured": false,
-    "image": "/images/monitors/asus-rog-swift-oled-pg32ucdmz.jpg",
+    "image": "/images/products/monitors/icecat-asus-rog-swift-oled-pg32ucdmz.jpg",
     "images": [
-      "/images/monitors/asus-rog-swift-oled-pg32ucdmz.jpg"
+      "/images/products/monitors/icecat-asus-rog-swift-oled-pg32ucdmz.jpg",
+      "/images/products/monitors/icecat-asus-rog-swift-oled-pg32ucdmz-1.jpg",
+      "/images/products/monitors/icecat-asus-rog-swift-oled-pg32ucdmz-2.jpg",
+      "/images/products/monitors/icecat-asus-rog-swift-oled-pg32ucdmz-3.jpg"
     ],
     "highlights": [
       "31.5 inç 4K UHD 240Hz QD-OLED Panel",
@@ -42000,9 +42670,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": true,
-    "image": "/images/monitors/asus-proart-pa32ucxr.jpg",
+    "image": "/images/products/monitors/icecat-asus-proart-pa32ucxr.jpg",
     "images": [
-      "/images/monitors/asus-proart-pa32ucxr.jpg"
+      "/images/products/monitors/icecat-asus-proart-pa32ucxr.jpg",
+      "/images/products/monitors/icecat-asus-proart-pa32ucxr-1.jpg",
+      "/images/products/monitors/icecat-asus-proart-pa32ucxr-2.jpg",
+      "/images/products/monitors/icecat-asus-proart-pa32ucxr-3.jpg"
     ],
     "highlights": [
       "2304 Bölgeli Mini-LED Arka Aydınlatma ile Üstün Kontrast ve Sıfır Halo Etkisi",
@@ -42140,9 +42813,12 @@ export const mockMonitors: Product[] = [
     "currency": "TL",
     "releaseYear": 2020,
     "isPopular": false,
-    "image": "/images/monitors/asus-proart-pa32ucx.jpg",
+    "image": "/images/products/monitors/icecat-asus-proart-pa32ucx.jpg",
     "images": [
-      "/images/monitors/asus-proart-pa32ucx.jpg"
+      "/images/products/monitors/icecat-asus-proart-pa32ucx.jpg",
+      "/images/products/monitors/icecat-asus-proart-pa32ucx-1.jpg",
+      "/images/products/monitors/icecat-asus-proart-pa32ucx-2.jpg",
+      "/images/products/monitors/icecat-asus-proart-pa32ucx-3.jpg"
     ],
     "highlights": [
       "1152 Bölge Mini-LED ve 1200 Nit Parlaklık",
@@ -42202,9 +42878,12 @@ export const mockMonitors: Product[] = [
     "currency": "TL",
     "releaseYear": 2021,
     "isPopular": true,
-    "image": "/images/monitors/asus-rog-swift-pg32uqx.jpg",
+    "image": "/images/products/monitors/icecat-asus-rog-swift-pg32uqx.jpg",
     "images": [
-      "/images/monitors/asus-rog-swift-pg32uqx.jpg"
+      "/images/products/monitors/icecat-asus-rog-swift-pg32uqx.jpg",
+      "/images/products/monitors/icecat-asus-rog-swift-pg32uqx-1.jpg",
+      "/images/products/monitors/icecat-asus-rog-swift-pg32uqx-2.jpg",
+      "/images/products/monitors/icecat-asus-rog-swift-pg32uqx-3.jpg"
     ],
     "highlights": [
       "1152 Bölgeli Mini-LED ve NVIDIA G-Sync Ultimate Donanım İşlemcisi",
@@ -42266,9 +42945,9 @@ export const mockMonitors: Product[] = [
     "currency": "TL",
     "releaseYear": 2022,
     "isPopular": false,
-    "image": "/images/monitors/viewsonic-xg320q.jpg",
+    "image": "/images/products/monitors/icecat-viewsonic-xg320q.jpg",
     "images": [
-      "/images/monitors/viewsonic-xg320q.jpg"
+      "/images/products/monitors/icecat-viewsonic-xg320q.jpg"
     ],
     "highlights": [
       "Quantum Dot IPS Panel ile %99 Adobe RGB Canlı Renkler",
@@ -42330,9 +43009,12 @@ export const mockMonitors: Product[] = [
     "currency": "TL",
     "releaseYear": 2023,
     "isPopular": true,
-    "image": "/images/monitors/asus-rog-swift-pg32uqxr.jpg",
+    "image": "/images/products/monitors/icecat-asus-rog-swift-pg32uqxr.jpg",
     "images": [
-      "/images/monitors/asus-rog-swift-pg32uqxr.jpg"
+      "/images/products/monitors/icecat-asus-rog-swift-pg32uqxr.jpg",
+      "/images/products/monitors/icecat-asus-rog-swift-pg32uqxr-1.jpg",
+      "/images/products/monitors/icecat-asus-rog-swift-pg32uqxr-2.jpg",
+      "/images/products/monitors/icecat-asus-rog-swift-pg32uqxr-3.jpg"
     ],
     "highlights": [
       "576 Bölge Mini-LED Yerel Karartma ve DisplayHDR 1000 (1000 Nit Tepe Parlaklık)",
@@ -42949,9 +43631,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/products/monitors/lg-24mr400-b.jpg",
+    "image": "/images/products/monitors/icecat-lg-24mr400-b.jpg",
     "images": [
-      "/images/products/monitors/lg-24mr400-b.jpg"
+      "/images/products/monitors/icecat-lg-24mr400-b.jpg",
+      "/images/products/monitors/icecat-lg-24mr400-b-1.jpg",
+      "/images/products/monitors/icecat-lg-24mr400-b-2.jpg",
+      "/images/products/monitors/icecat-lg-24mr400-b-3.jpg"
     ],
     "highlights": [
       "23.8 inç Full HD (1920x1080) IPS Panel",
@@ -43055,9 +43740,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": true,
-    "image": "/images/products/monitors/lg-25ms500-b.jpg",
+    "image": "/images/products/monitors/icecat-lg-25ms500-b.jpg",
     "images": [
-      "/images/products/monitors/lg-25ms500-b.jpg"
+      "/images/products/monitors/icecat-lg-25ms500-b.jpg",
+      "/images/products/monitors/icecat-lg-25ms500-b-1.jpg",
+      "/images/products/monitors/icecat-lg-25ms500-b-2.jpg",
+      "/images/products/monitors/icecat-lg-25ms500-b-3.jpg"
     ],
     "highlights": [
       "24.5 inç Full HD (1920x1080) Geniş IPS Ekran",
@@ -43157,9 +43845,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2023,
     "isPopular": true,
     "isFeatured": true,
-    "image": "/images/products/monitors/lg-ultragear-24gn53a-b.jpg",
+    "image": "/images/products/monitors/icecat-lg-ultragear-24gn53a-b.jpg",
     "images": [
-      "/images/products/monitors/lg-ultragear-24gn53a-b.jpg"
+      "/images/products/monitors/icecat-lg-ultragear-24gn53a-b.jpg",
+      "/images/products/monitors/icecat-lg-ultragear-24gn53a-b-1.jpg",
+      "/images/products/monitors/icecat-lg-ultragear-24gn53a-b-2.jpg",
+      "/images/products/monitors/icecat-lg-ultragear-24gn53a-b-3.jpg"
     ],
     "highlights": [
       "24 inç Full HD 144Hz E-Spor Oyuncu Monitörü",
@@ -43225,9 +43916,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2023,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/products/monitors/lg-ultragear-32gn55r-b.jpg",
+    "image": "/images/products/monitors/icecat-lg-ultragear-32gn55r-b.jpg",
     "images": [
-      "/images/products/monitors/lg-ultragear-32gn55r-b.jpg"
+      "/images/products/monitors/icecat-lg-ultragear-32gn55r-b.jpg",
+      "/images/products/monitors/icecat-lg-ultragear-32gn55r-b-1.jpg",
+      "/images/products/monitors/icecat-lg-ultragear-32gn55r-b-2.jpg",
+      "/images/products/monitors/icecat-lg-ultragear-32gn55r-b-3.jpg"
     ],
     "highlights": [
       "31.5 inç Büyük Ekran Full HD VA Panel",
@@ -43294,9 +43988,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": true,
-    "image": "/images/products/monitors/lg-ultrawide-34wr50qk-b.jpg",
+    "image": "/images/products/monitors/icecat-lg-ultrawide-34wr50qk-b.jpg",
     "images": [
-      "/images/products/monitors/lg-ultrawide-34wr50qk-b.jpg"
+      "/images/products/monitors/icecat-lg-ultrawide-34wr50qk-b.jpg",
+      "/images/products/monitors/icecat-lg-ultrawide-34wr50qk-b-1.jpg",
+      "/images/products/monitors/icecat-lg-ultrawide-34wr50qk-b-2.jpg",
+      "/images/products/monitors/icecat-lg-ultrawide-34wr50qk-b-3.jpg"
     ],
     "highlights": [
       "34 inç UltraWide 21:9 WQHD (3440x1440) Kavisli Panel",
@@ -43363,9 +44060,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2023,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/products/monitors/lg-ultragear-27gn60r-b.jpg",
+    "image": "/images/products/monitors/icecat-lg-ultragear-27gn60r-b.jpg",
     "images": [
-      "/images/products/monitors/lg-ultragear-27gn60r-b.jpg"
+      "/images/products/monitors/icecat-lg-ultragear-27gn60r-b.jpg",
+      "/images/products/monitors/icecat-lg-ultragear-27gn60r-b-1.jpg",
+      "/images/products/monitors/icecat-lg-ultragear-27gn60r-b-2.jpg",
+      "/images/products/monitors/icecat-lg-ultragear-27gn60r-b-3.jpg"
     ],
     "highlights": [
       "27 inç Full HD IPS 1ms GtG Hızlı Panel",
@@ -43432,9 +44132,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/products/monitors/lg-24u411b-b.jpg",
+    "image": "/images/products/monitors/icecat-lg-24u411b-b.jpg",
     "images": [
-      "/images/products/monitors/lg-24u411b-b.jpg"
+      "/images/products/monitors/icecat-lg-24u411b-b.jpg",
+      "/images/products/monitors/icecat-lg-24u411b-b-1.jpg",
+      "/images/products/monitors/icecat-lg-24u411b-b-2.jpg",
+      "/images/products/monitors/icecat-lg-24u411b-b-3.jpg"
     ],
     "highlights": [
       "23.8 inç Full HD IPS Panel",
@@ -43556,9 +44259,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2022,
     "isPopular": false,
     "isFeatured": false,
-    "image": "/images/products/monitors/lg-22mp410-b.jpg",
+    "image": "/images/products/monitors/icecat-lg-22mp410-b.jpg",
     "images": [
-      "/images/products/monitors/lg-22mp410-b.jpg"
+      "/images/products/monitors/icecat-lg-22mp410-b.jpg",
+      "/images/products/monitors/icecat-lg-22mp410-b-1.jpg",
+      "/images/products/monitors/icecat-lg-22mp410-b-2.jpg",
+      "/images/products/monitors/icecat-lg-22mp410-b-3.jpg"
     ],
     "highlights": [
       "21.45 inç Full HD VA Panel",
@@ -43615,9 +44321,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2021,
     "isPopular": false,
     "isFeatured": false,
-    "image": "/images/products/monitors/lg-24mk430h-b.jpg",
+    "image": "/images/products/monitors/icecat-lg-24mk430h-b.jpg",
     "images": [
-      "/images/products/monitors/lg-24mk430h-b.jpg"
+      "/images/products/monitors/icecat-lg-24mk430h-b.jpg",
+      "/images/products/monitors/icecat-lg-24mk430h-b-1.jpg",
+      "/images/products/monitors/icecat-lg-24mk430h-b-2.jpg",
+      "/images/products/monitors/icecat-lg-24mk430h-b-3.jpg"
     ],
     "highlights": [
       "23.8 inç Full HD IPS Panel",
@@ -43675,9 +44384,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2023,
     "isPopular": true,
     "isFeatured": true,
-    "image": "/images/products/monitors/lg-ultragear-27gr83q-b.jpg",
+    "image": "/images/products/monitors/icecat-lg-ultragear-27gr83q-b.jpg",
     "images": [
-      "/images/products/monitors/lg-ultragear-27gr83q-b.jpg"
+      "/images/products/monitors/icecat-lg-ultragear-27gr83q-b.jpg",
+      "/images/products/monitors/icecat-lg-ultragear-27gr83q-b-1.jpg",
+      "/images/products/monitors/icecat-lg-ultragear-27gr83q-b-2.jpg",
+      "/images/products/monitors/icecat-lg-ultragear-27gr83q-b-3.jpg"
     ],
     "highlights": [
       "27 inç QHD (2560x1440) Ultra Hızlı IPS Panel",
@@ -43744,9 +44456,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2023,
     "isPopular": true,
     "isFeatured": true,
-    "image": "/images/products/monitors/lg-dualup-28mq780-b.jpg",
+    "image": "/images/products/monitors/icecat-lg-dualup-28mq780-b.jpg",
     "images": [
-      "/images/products/monitors/lg-dualup-28mq780-b.jpg"
+      "/images/products/monitors/icecat-lg-dualup-28mq780-b.jpg",
+      "/images/products/monitors/icecat-lg-dualup-28mq780-b-1.jpg",
+      "/images/products/monitors/icecat-lg-dualup-28mq780-b-2.jpg",
+      "/images/products/monitors/icecat-lg-dualup-28mq780-b-3.jpg"
     ],
     "highlights": [
       "27.6 inç Benzersiz 16:18 SDQHD (2560x2880) Nano IPS Panel",
@@ -43816,9 +44531,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2022,
     "isPopular": false,
     "isFeatured": false,
-    "image": "/images/products/monitors/lg-ultrawide-34wp65g-b.jpg",
+    "image": "/images/products/monitors/icecat-lg-ultrawide-34wp65g-b.jpg",
     "images": [
-      "/images/products/monitors/lg-ultrawide-34wp65g-b.jpg"
+      "/images/products/monitors/icecat-lg-ultrawide-34wp65g-b.jpg",
+      "/images/products/monitors/icecat-lg-ultrawide-34wp65g-b-1.jpg",
+      "/images/products/monitors/icecat-lg-ultrawide-34wp65g-b-2.jpg",
+      "/images/products/monitors/icecat-lg-ultrawide-34wp65g-b-3.jpg"
     ],
     "highlights": [
       "34 inç 21:9 UltraWide Full HD (2560x1080) IPS Ekran",
@@ -43967,9 +44685,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": true,
-    "image": "/images/products/monitors/lg-ultragear-45gs95qe-b.jpg",
+    "image": "/images/products/monitors/icecat-lg-ultragear-45gs95qe-b.jpg",
     "images": [
-      "/images/products/monitors/lg-ultragear-45gs95qe-b.jpg"
+      "/images/products/monitors/icecat-lg-ultragear-45gs95qe-b.jpg",
+      "/images/products/monitors/icecat-lg-ultragear-45gs95qe-b-1.jpg",
+      "/images/products/monitors/icecat-lg-ultragear-45gs95qe-b-2.jpg",
+      "/images/products/monitors/icecat-lg-ultragear-45gs95qe-b-3.jpg"
     ],
     "highlights": [
       "44.5 inç 21:9 WQHD (3440x1440) 800R Agresif Kavisli OLED",
@@ -44031,9 +44752,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": true,
-    "image": "/images/products/monitors/lg-ultragear-39gs95qe-b.jpg",
+    "image": "/images/products/monitors/icecat-lg-ultragear-39gs95qe-b.jpg",
     "images": [
-      "/images/products/monitors/lg-ultragear-39gs95qe-b.jpg"
+      "/images/products/monitors/icecat-lg-ultragear-39gs95qe-b.jpg",
+      "/images/products/monitors/icecat-lg-ultragear-39gs95qe-b-1.jpg",
+      "/images/products/monitors/icecat-lg-ultragear-39gs95qe-b-2.jpg",
+      "/images/products/monitors/icecat-lg-ultragear-39gs95qe-b-3.jpg"
     ],
     "highlights": [
       "39 inç 21:9 WQHD (3440x1440) 800R Kavisli OLED Panel",
@@ -44301,9 +45025,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2023,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/products/monitors/lg-ultragear-48gq900-b.jpg",
+    "image": "/images/products/monitors/icecat-lg-ultragear-48gq900-b.jpg",
     "images": [
-      "/images/products/monitors/lg-ultragear-48gq900-b.jpg"
+      "/images/products/monitors/icecat-lg-ultragear-48gq900-b.jpg",
+      "/images/products/monitors/icecat-lg-ultragear-48gq900-b-1.jpg",
+      "/images/products/monitors/icecat-lg-ultragear-48gq900-b-2.jpg",
+      "/images/products/monitors/icecat-lg-ultragear-48gq900-b-3.jpg"
     ],
     "highlights": [
       "47.5 inç 4K UHD (3840x2160) Dev OLED Oyuncu Ekranı",
@@ -44437,9 +45164,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2023,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/products/monitors/lg-ultragear-32gr93u-b.jpg",
+    "image": "/images/products/monitors/icecat-lg-ultragear-32gr93u-b.jpg",
     "images": [
-      "/images/products/monitors/lg-ultragear-32gr93u-b.jpg"
+      "/images/products/monitors/icecat-lg-ultragear-32gr93u-b.jpg",
+      "/images/products/monitors/icecat-lg-ultragear-32gr93u-b-1.jpg",
+      "/images/products/monitors/icecat-lg-ultragear-32gr93u-b-2.jpg",
+      "/images/products/monitors/icecat-lg-ultragear-32gr93u-b-3.jpg"
     ],
     "highlights": [
       "31.5 inç 4K UHD (3840x2160) Ultra Net IPS Panel",
@@ -44506,9 +45236,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2022,
     "isPopular": true,
     "isFeatured": true,
-    "image": "/images/products/monitors/lg-ultragear-27gp950-b.jpg",
+    "image": "/images/products/monitors/icecat-lg-ultragear-27gp950-b.jpg",
     "images": [
-      "/images/products/monitors/lg-ultragear-27gp950-b.jpg"
+      "/images/products/monitors/icecat-lg-ultragear-27gp950-b.jpg",
+      "/images/products/monitors/icecat-lg-ultragear-27gp950-b-1.jpg",
+      "/images/products/monitors/icecat-lg-ultragear-27gp950-b-2.jpg",
+      "/images/products/monitors/icecat-lg-ultragear-27gp950-b-3.jpg"
     ],
     "highlights": [
       "27 inç 4K UHD (3840x2160) Nano IPS 1ms Panel",
@@ -44575,9 +45308,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2023,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/products/monitors/lg-ultrawide-49wl95c-we.jpg",
+    "image": "/images/products/monitors/icecat-lg-ultrawide-49wl95c-we.jpg",
     "images": [
-      "/images/products/monitors/lg-ultrawide-49wl95c-we.jpg"
+      "/images/products/monitors/icecat-lg-ultrawide-49wl95c-we.jpg",
+      "/images/products/monitors/icecat-lg-ultrawide-49wl95c-we-1.jpg",
+      "/images/products/monitors/icecat-lg-ultrawide-49wl95c-we-2.jpg",
+      "/images/products/monitors/icecat-lg-ultrawide-49wl95c-we-3.jpg"
     ],
     "highlights": [
       "49 inç 32:9 Dual QHD (5120x1440) Ultra Geniş Kavisli IPS Panel",
@@ -44641,9 +45377,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2021,
     "isPopular": false,
     "isFeatured": false,
-    "image": "/images/products/monitors/lg-ultragear-27gn950-b.jpg",
+    "image": "/images/products/monitors/icecat-lg-ultragear-27gn950-b.jpg",
     "images": [
-      "/images/products/monitors/lg-ultragear-27gn950-b.jpg"
+      "/images/products/monitors/icecat-lg-ultragear-27gn950-b.jpg",
+      "/images/products/monitors/icecat-lg-ultragear-27gn950-b-1.jpg",
+      "/images/products/monitors/icecat-lg-ultragear-27gn950-b-2.jpg",
+      "/images/products/monitors/icecat-lg-ultragear-27gn950-b-3.jpg"
     ],
     "highlights": [
       "27 inç 4K UHD Nano IPS 1ms (GtG) Ekran",
@@ -44704,9 +45443,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2022,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/products/monitors/lg-ultragear-38gn950-b.jpg",
+    "image": "/images/products/monitors/icecat-lg-ultragear-38gn950-b.jpg",
     "images": [
-      "/images/products/monitors/lg-ultragear-38gn950-b.jpg"
+      "/images/products/monitors/icecat-lg-ultragear-38gn950-b.jpg",
+      "/images/products/monitors/icecat-lg-ultragear-38gn950-b-1.jpg",
+      "/images/products/monitors/icecat-lg-ultragear-38gn950-b-2.jpg",
+      "/images/products/monitors/icecat-lg-ultragear-38gn950-b-3.jpg"
     ],
     "highlights": [
       "37.5 inç 21:9 WQHD+ (3840x1600) Kavisli Nano IPS Panel",
@@ -44768,9 +45510,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2021,
     "isPopular": false,
     "isFeatured": false,
-    "image": "/images/products/monitors/lg-34wk95u-w.jpg",
+    "image": "/images/products/monitors/icecat-lg-34wk95u-w.jpg",
     "images": [
-      "/images/products/monitors/lg-34wk95u-w.jpg"
+      "/images/products/monitors/icecat-lg-34wk95u-w.jpg",
+      "/images/products/monitors/icecat-lg-34wk95u-w-1.jpg",
+      "/images/products/monitors/icecat-lg-34wk95u-w-2.jpg",
+      "/images/products/monitors/icecat-lg-34wk95u-w-3.jpg"
     ],
     "highlights": [
       "34 inç 21:9 5K2K UltraWide (5120x2160) Nano IPS Panel",
@@ -44834,9 +45579,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2023,
     "isPopular": true,
     "isFeatured": true,
-    "image": "/images/products/monitors/lg-ultrafine-32un880p-b.jpg",
+    "image": "/images/products/monitors/icecat-lg-ultrafine-32un880p-b.jpg",
     "images": [
-      "/images/products/monitors/lg-ultrafine-32un880p-b.jpg"
+      "/images/products/monitors/icecat-lg-ultrafine-32un880p-b.jpg",
+      "/images/products/monitors/icecat-lg-ultrafine-32un880p-b-1.jpg",
+      "/images/products/monitors/icecat-lg-ultrafine-32un880p-b-2.jpg",
+      "/images/products/monitors/icecat-lg-ultrafine-32un880p-b-3.jpg"
     ],
     "highlights": [
       "31.5 inç 4K UHD (3840x2160) Canlı IPS Panel",
@@ -44919,9 +45667,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2023,
     "isPopular": true,
     "isFeatured": true,
-    "image": "/images/products/monitors/lg-ultrafine-32un880-b.jpg",
+    "image": "/images/products/monitors/icecat-lg-ultrafine-32un880-b.jpg",
     "images": [
-      "/images/products/monitors/lg-ultrafine-32un880-b.jpg"
+      "/images/products/monitors/icecat-lg-ultrafine-32un880-b.jpg",
+      "/images/products/monitors/icecat-lg-ultrafine-32un880-b-1.jpg",
+      "/images/products/monitors/icecat-lg-ultrafine-32un880-b-2.jpg",
+      "/images/products/monitors/icecat-lg-ultrafine-32un880-b-3.jpg"
     ],
     "highlights": [
       "31.5 inç 4K UHD (3840x2160) Canlı IPS Panel",
@@ -45004,9 +45755,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2023,
     "isPopular": true,
     "isFeatured": true,
-    "image": "/images/products/monitors/lg-ultragear-32gq850-b.jpg",
+    "image": "/images/products/monitors/icecat-lg-ultragear-32gq850-b.jpg",
     "images": [
-      "/images/products/monitors/lg-ultragear-32gq850-b.jpg"
+      "/images/products/monitors/icecat-lg-ultragear-32gq850-b.jpg",
+      "/images/products/monitors/icecat-lg-ultragear-32gq850-b-1.jpg",
+      "/images/products/monitors/icecat-lg-ultragear-32gq850-b-2.jpg",
+      "/images/products/monitors/icecat-lg-ultragear-32gq850-b-3.jpg"
     ],
     "highlights": [
       "31.5 inç QHD (2560x1440) Nano IPS with ATW Polarizer",
@@ -45073,9 +45827,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2022,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/products/monitors/lg-ultrafine-32un88a-w.jpg",
+    "image": "/images/products/monitors/icecat-lg-ultrafine-32un88a-w.jpg",
     "images": [
-      "/images/products/monitors/lg-ultrafine-32un88a-w.jpg"
+      "/images/products/monitors/icecat-lg-ultrafine-32un88a-w.jpg",
+      "/images/products/monitors/icecat-lg-ultrafine-32un88a-w-1.jpg",
+      "/images/products/monitors/icecat-lg-ultrafine-32un88a-w-2.jpg",
+      "/images/products/monitors/icecat-lg-ultrafine-32un88a-w-3.jpg"
     ],
     "highlights": [
       "31.5 inç 4K UHD IPS Ekran",
@@ -45136,9 +45893,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2023,
     "isPopular": true,
     "isFeatured": true,
-    "image": "/images/products/monitors/lg-ultragear-34gp950g-b.jpg",
+    "image": "/images/products/monitors/icecat-lg-ultragear-34gp950g-b.jpg",
     "images": [
-      "/images/products/monitors/lg-ultragear-34gp950g-b.jpg"
+      "/images/products/monitors/icecat-lg-ultragear-34gp950g-b.jpg",
+      "/images/products/monitors/icecat-lg-ultragear-34gp950g-b-1.jpg",
+      "/images/products/monitors/icecat-lg-ultragear-34gp950g-b-2.jpg",
+      "/images/products/monitors/icecat-lg-ultragear-34gp950g-b-3.jpg"
     ],
     "highlights": [
       "34 inç 21:9 WQHD (3440x1440) Kavisli Nano IPS Panel",
@@ -45206,9 +45966,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2023,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/products/monitors/lg-ultrafine-27un880p-b.jpg",
+    "image": "/images/products/monitors/icecat-lg-ultrafine-27un880p-b.jpg",
     "images": [
-      "/images/products/monitors/lg-ultrafine-27un880p-b.jpg"
+      "/images/products/monitors/icecat-lg-ultrafine-27un880p-b.jpg",
+      "/images/products/monitors/icecat-lg-ultrafine-27un880p-b-1.jpg",
+      "/images/products/monitors/icecat-lg-ultrafine-27un880p-b-2.jpg",
+      "/images/products/monitors/icecat-lg-ultrafine-27un880p-b-3.jpg"
     ],
     "highlights": [
       "27 inç 4K UHD (3840x2160) Ultra Net IPS Panel",
@@ -45271,9 +46034,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2022,
     "isPopular": false,
     "isFeatured": false,
-    "image": "/images/products/monitors/lg-ultrafine-27un880-b.jpg",
+    "image": "/images/products/monitors/icecat-lg-ultrafine-27un880-b.jpg",
     "images": [
-      "/images/products/monitors/lg-ultrafine-27un880-b.jpg"
+      "/images/products/monitors/icecat-lg-ultrafine-27un880-b.jpg",
+      "/images/products/monitors/icecat-lg-ultrafine-27un880-b-1.jpg",
+      "/images/products/monitors/icecat-lg-ultrafine-27un880-b-2.jpg",
+      "/images/products/monitors/icecat-lg-ultrafine-27un880-b-3.jpg"
     ],
     "highlights": [
       "27 inç 4K UHD IPS Ekran",
@@ -45333,9 +46099,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2021,
     "isPopular": false,
     "isFeatured": false,
-    "image": "/images/products/monitors/lg-ultragear-34gk950f-b.jpg",
+    "image": "/images/products/monitors/icecat-lg-ultragear-34gk950f-b.jpg",
     "images": [
-      "/images/products/monitors/lg-ultragear-34gk950f-b.jpg"
+      "/images/products/monitors/icecat-lg-ultragear-34gk950f-b.jpg",
+      "/images/products/monitors/icecat-lg-ultragear-34gk950f-b-1.jpg",
+      "/images/products/monitors/icecat-lg-ultragear-34gk950f-b-2.jpg",
+      "/images/products/monitors/icecat-lg-ultragear-34gk950f-b-3.jpg"
     ],
     "highlights": [
       "34 inç UltraWide 21:9 WQHD (3440x1440) Kavisli Panel",
@@ -45395,9 +46164,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2023,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/products/monitors/lg-ultrawide-34wp75c-b.jpg",
+    "image": "/images/products/monitors/icecat-lg-ultrawide-34wp75c-b.jpg",
     "images": [
-      "/images/products/monitors/lg-ultrawide-34wp75c-b.jpg"
+      "/images/products/monitors/icecat-lg-ultrawide-34wp75c-b.jpg",
+      "/images/products/monitors/icecat-lg-ultrawide-34wp75c-b-1.jpg",
+      "/images/products/monitors/icecat-lg-ultrawide-34wp75c-b-2.jpg",
+      "/images/products/monitors/icecat-lg-ultrawide-34wp75c-b-3.jpg"
     ],
     "highlights": [
       "34 inç 21:9 WQHD (3440x1440) 1800R Kavisli VA Panel",
@@ -45457,9 +46229,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2023,
     "isPopular": true,
     "isFeatured": true,
-    "image": "/images/products/monitors/lg-ultrawide-38wp85c-w.jpg",
+    "image": "/images/products/monitors/icecat-lg-ultrawide-38wp85c-w.jpg",
     "images": [
-      "/images/products/monitors/lg-ultrawide-38wp85c-w.jpg"
+      "/images/products/monitors/icecat-lg-ultrawide-38wp85c-w.jpg",
+      "/images/products/monitors/icecat-lg-ultrawide-38wp85c-w-1.jpg",
+      "/images/products/monitors/icecat-lg-ultrawide-38wp85c-w-2.jpg",
+      "/images/products/monitors/icecat-lg-ultrawide-38wp85c-w-3.jpg"
     ],
     "highlights": [
       "37.5 inç 21:9 WQHD+ (3840x1600) Ultra Geniş Kavisli IPS Panel",
@@ -45528,9 +46303,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2023,
     "isPopular": true,
     "isFeatured": true,
-    "image": "/images/products/monitors/lg-ultrawide-ergo-38wq88c-w.jpg",
+    "image": "/images/products/monitors/icecat-lg-ultrawide-ergo-38wq88c-w.jpg",
     "images": [
-      "/images/products/monitors/lg-ultrawide-ergo-38wq88c-w.jpg"
+      "/images/products/monitors/icecat-lg-ultrawide-ergo-38wq88c-w.jpg",
+      "/images/products/monitors/icecat-lg-ultrawide-ergo-38wq88c-w-1.jpg",
+      "/images/products/monitors/icecat-lg-ultrawide-ergo-38wq88c-w-2.jpg",
+      "/images/products/monitors/icecat-lg-ultrawide-ergo-38wq88c-w-3.jpg"
     ],
     "highlights": [
       "37.5 inç 21:9 WQHD+ (3840x1600) Kavisli IPS Panel",
@@ -45600,9 +46378,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2021,
     "isPopular": false,
     "isFeatured": false,
-    "image": "/images/products/monitors/lg-38wk95c-w.jpg",
+    "image": "/images/products/monitors/icecat-lg-38wk95c-w.jpg",
     "images": [
-      "/images/products/monitors/lg-38wk95c-w.jpg"
+      "/images/products/monitors/icecat-lg-38wk95c-w.jpg",
+      "/images/products/monitors/icecat-lg-38wk95c-w-1.jpg",
+      "/images/products/monitors/icecat-lg-38wk95c-w-2.jpg",
+      "/images/products/monitors/icecat-lg-38wk95c-w-3.jpg"
     ],
     "highlights": [
       "37.5 inç 21:9 WQHD+ (3840x1600) Kavisli IPS Panel",
@@ -45663,9 +46444,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2021,
     "isPopular": false,
     "isFeatured": false,
-    "image": "/images/products/monitors/lg-27uk850-w.jpg",
+    "image": "/images/products/monitors/icecat-lg-27uk850-w.jpg",
     "images": [
-      "/images/products/monitors/lg-27uk850-w.jpg"
+      "/images/products/monitors/icecat-lg-27uk850-w.jpg",
+      "/images/products/monitors/icecat-lg-27uk850-w-1.jpg",
+      "/images/products/monitors/icecat-lg-27uk850-w-2.jpg",
+      "/images/products/monitors/icecat-lg-27uk850-w-3.jpg"
     ],
     "highlights": [
       "27 inç 4K UHD (3840x2160) IPS Panel",
@@ -45726,9 +46510,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2022,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/products/monitors/lg-27ul850-w.jpg",
+    "image": "/images/products/monitors/icecat-lg-27ul850-w.jpg",
     "images": [
-      "/images/products/monitors/lg-27ul850-w.jpg"
+      "/images/products/monitors/icecat-lg-27ul850-w.jpg",
+      "/images/products/monitors/icecat-lg-27ul850-w-1.jpg",
+      "/images/products/monitors/icecat-lg-27ul850-w-2.jpg",
+      "/images/products/monitors/icecat-lg-27ul850-w-3.jpg"
     ],
     "highlights": [
       "27 inç 4K UHD IPS Panel",
@@ -45788,9 +46575,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2022,
     "isPopular": true,
     "isFeatured": true,
-    "image": "/images/products/monitors/lg-34gn850-b.jpg",
+    "image": "/images/products/monitors/icecat-lg-34gn850-b.jpg",
     "images": [
-      "/images/products/monitors/lg-34gn850-b.jpg"
+      "/images/products/monitors/icecat-lg-34gn850-b.jpg",
+      "/images/products/monitors/icecat-lg-34gn850-b-1.jpg",
+      "/images/products/monitors/icecat-lg-34gn850-b-2.jpg",
+      "/images/products/monitors/icecat-lg-34gn850-b-3.jpg"
     ],
     "highlights": [
       "34 inç 21:9 WQHD (3440x1440) Kavisli Nano IPS Panel",
@@ -45856,9 +46646,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2023,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/products/monitors/lg-27up550p-w.jpg",
+    "image": "/images/products/monitors/icecat-lg-27up550p-w.jpg",
     "images": [
-      "/images/products/monitors/lg-27up550p-w.jpg"
+      "/images/products/monitors/icecat-lg-27up550p-w.jpg",
+      "/images/products/monitors/icecat-lg-27up550p-w-1.jpg",
+      "/images/products/monitors/icecat-lg-27up550p-w-2.jpg",
+      "/images/products/monitors/icecat-lg-27up550p-w-3.jpg"
     ],
     "highlights": [
       "27 inç 4K UHD (3840x2160) Canlı IPS Panel",
@@ -45920,9 +46713,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2022,
     "isPopular": false,
     "isFeatured": false,
-    "image": "/images/products/monitors/lg-27up550-w.jpg",
+    "image": "/images/products/monitors/icecat-lg-27up550-w.jpg",
     "images": [
-      "/images/products/monitors/lg-27up550-w.jpg"
+      "/images/products/monitors/icecat-lg-27up550-w.jpg",
+      "/images/products/monitors/icecat-lg-27up550-w-1.jpg",
+      "/images/products/monitors/icecat-lg-27up550-w-2.jpg",
+      "/images/products/monitors/icecat-lg-27up550-w-3.jpg"
     ],
     "highlights": [
       "27 inç 4K UHD IPS Panel",
@@ -45982,9 +46778,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2023,
     "isPopular": true,
     "isFeatured": true,
-    "image": "/images/products/monitors/lg-43bn70u-b.jpg",
+    "image": "/images/products/monitors/icecat-lg-43bn70u-b.jpg",
     "images": [
-      "/images/products/monitors/lg-43bn70u-b.jpg"
+      "/images/products/monitors/icecat-lg-43bn70u-b.jpg",
+      "/images/products/monitors/icecat-lg-43bn70u-b-1.jpg",
+      "/images/products/monitors/icecat-lg-43bn70u-b-2.jpg",
+      "/images/products/monitors/icecat-lg-43bn70u-b-3.jpg"
     ],
     "highlights": [
       "42.5 inç 4K UHD (3840x2160) Devasa IPS Ekran",
@@ -46052,9 +46851,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2022,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/products/monitors/lg-ultragear-32gp83b-b.jpg",
+    "image": "/images/products/monitors/icecat-lg-ultragear-32gp83b-b.jpg",
     "images": [
-      "/images/products/monitors/lg-ultragear-32gp83b-b.jpg"
+      "/images/products/monitors/icecat-lg-ultragear-32gp83b-b.jpg",
+      "/images/products/monitors/icecat-lg-ultragear-32gp83b-b-1.jpg",
+      "/images/products/monitors/icecat-lg-ultragear-32gp83b-b-2.jpg",
+      "/images/products/monitors/icecat-lg-ultragear-32gp83b-b-3.jpg"
     ],
     "highlights": [
       "31.5 inç QHD (2560x1440) Nano IPS 1ms Panel",
@@ -46114,9 +46916,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2022,
     "isPopular": false,
     "isFeatured": false,
-    "image": "/images/products/monitors/lg-32up550-w.jpg",
+    "image": "/images/products/monitors/icecat-lg-32up550-w.jpg",
     "images": [
-      "/images/products/monitors/lg-32up550-w.jpg"
+      "/images/products/monitors/icecat-lg-32up550-w.jpg",
+      "/images/products/monitors/icecat-lg-32up550-w-1.jpg",
+      "/images/products/monitors/icecat-lg-32up550-w-2.jpg",
+      "/images/products/monitors/icecat-lg-32up550-w-3.jpg"
     ],
     "highlights": [
       "31.5 inç 4K UHD (3840x2160) Yüksek Kontrastlı VA Panel",
@@ -46179,9 +46984,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2022,
     "isPopular": true,
     "isFeatured": true,
-    "image": "/images/products/monitors/lg-ultragear-27gn88a-b.jpg",
+    "image": "/images/products/monitors/icecat-lg-ultragear-27gn88a-b.jpg",
     "images": [
-      "/images/products/monitors/lg-ultragear-27gn88a-b.jpg"
+      "/images/products/monitors/icecat-lg-ultragear-27gn88a-b.jpg",
+      "/images/products/monitors/icecat-lg-ultragear-27gn88a-b-1.jpg",
+      "/images/products/monitors/icecat-lg-ultragear-27gn88a-b-2.jpg",
+      "/images/products/monitors/icecat-lg-ultragear-27gn88a-b-3.jpg"
     ],
     "highlights": [
       "27 inç QHD (2560x1440) Nano IPS 1ms Panel",
@@ -46242,9 +47050,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2022,
     "isPopular": true,
     "isFeatured": true,
-    "image": "/images/products/monitors/lg-ultragear-27gp850-b.jpg",
+    "image": "/images/products/monitors/icecat-lg-ultragear-27gp850-b.jpg",
     "images": [
-      "/images/products/monitors/lg-ultragear-27gp850-b.jpg"
+      "/images/products/monitors/icecat-lg-ultragear-27gp850-b.jpg",
+      "/images/products/monitors/icecat-lg-ultragear-27gp850-b-1.jpg",
+      "/images/products/monitors/icecat-lg-ultragear-27gp850-b-2.jpg",
+      "/images/products/monitors/icecat-lg-ultragear-27gp850-b-3.jpg"
     ],
     "highlights": [
       "27 inç QHD (2560x1440) Nano IPS 1ms GtG Hız",
@@ -46324,9 +47135,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2022,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/products/monitors/lg-ultrawide-34wp65c-b.jpg",
+    "image": "/images/products/monitors/icecat-lg-ultrawide-34wp65c-b.jpg",
     "images": [
-      "/images/products/monitors/lg-ultrawide-34wp65c-b.jpg"
+      "/images/products/monitors/icecat-lg-ultrawide-34wp65c-b.jpg",
+      "/images/products/monitors/icecat-lg-ultrawide-34wp65c-b-1.jpg",
+      "/images/products/monitors/icecat-lg-ultrawide-34wp65c-b-2.jpg",
+      "/images/products/monitors/icecat-lg-ultrawide-34wp65c-b-3.jpg"
     ],
     "highlights": [
       "34 inç 21:9 WQHD (3440x1440) 1800R Kavisli Panel",
@@ -46386,9 +47200,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2023,
     "isPopular": true,
     "isFeatured": true,
-    "image": "/images/products/monitors/lg-ergo-dual-27qp88d-b.jpg",
+    "image": "/images/products/monitors/icecat-lg-ergo-dual-27qp88d-b.jpg",
     "images": [
-      "/images/products/monitors/lg-ergo-dual-27qp88d-b.jpg"
+      "/images/products/monitors/icecat-lg-ergo-dual-27qp88d-b.jpg",
+      "/images/products/monitors/icecat-lg-ergo-dual-27qp88d-b-1.jpg",
+      "/images/products/monitors/icecat-lg-ergo-dual-27qp88d-b-2.jpg",
+      "/images/products/monitors/icecat-lg-ergo-dual-27qp88d-b-3.jpg"
     ],
     "highlights": [
       "Kutudan Çıkan Çift 27 inç QHD (2560x1440) IPS Monitör",
@@ -46457,9 +47274,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2023,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/products/monitors/lg-ultragear-32gp750-b.jpg",
+    "image": "/images/products/monitors/icecat-lg-ultragear-32gp750-b.jpg",
     "images": [
-      "/images/products/monitors/lg-ultragear-32gp750-b.jpg"
+      "/images/products/monitors/icecat-lg-ultragear-32gp750-b.jpg",
+      "/images/products/monitors/icecat-lg-ultragear-32gp750-b-1.jpg",
+      "/images/products/monitors/icecat-lg-ultragear-32gp750-b-2.jpg",
+      "/images/products/monitors/icecat-lg-ultragear-32gp750-b-3.jpg"
     ],
     "highlights": [
       "31.5 inç QHD (2560x1440) IPS Panel",
@@ -46538,9 +47358,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2021,
     "isPopular": false,
     "isFeatured": false,
-    "image": "/images/products/monitors/lg-43un700-b.jpg",
+    "image": "/images/products/monitors/icecat-lg-43un700-b.jpg",
     "images": [
-      "/images/products/monitors/lg-43un700-b.jpg"
+      "/images/products/monitors/icecat-lg-43un700-b.jpg",
+      "/images/products/monitors/icecat-lg-43un700-b-1.jpg",
+      "/images/products/monitors/icecat-lg-43un700-b-2.jpg",
+      "/images/products/monitors/icecat-lg-43un700-b-3.jpg"
     ],
     "highlights": [
       "42.5 inç 4K UHD (3840x2160) IPS Ekran",
@@ -46602,9 +47425,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2020,
     "isPopular": false,
     "isFeatured": false,
-    "image": "/images/products/monitors/lg-43ud79-b.jpg",
+    "image": "/images/products/monitors/icecat-lg-43ud79-b.jpg",
     "images": [
-      "/images/products/monitors/lg-43ud79-b.jpg"
+      "/images/products/monitors/icecat-lg-43ud79-b.jpg",
+      "/images/products/monitors/icecat-lg-43ud79-b-1.jpg",
+      "/images/products/monitors/icecat-lg-43ud79-b-2.jpg",
+      "/images/products/monitors/icecat-lg-43ud79-b-3.jpg"
     ],
     "highlights": [
       "42.5 inç 4K UHD IPS Panel",
@@ -46664,9 +47490,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2022,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/products/monitors/lg-ultrawide-34wn780-b.jpg",
+    "image": "/images/products/monitors/icecat-lg-ultrawide-34wn780-b.jpg",
     "images": [
-      "/images/products/monitors/lg-ultrawide-34wn780-b.jpg"
+      "/images/products/monitors/icecat-lg-ultrawide-34wn780-b.jpg",
+      "/images/products/monitors/icecat-lg-ultrawide-34wn780-b-1.jpg",
+      "/images/products/monitors/icecat-lg-ultrawide-34wn780-b-2.jpg",
+      "/images/products/monitors/icecat-lg-ultrawide-34wn780-b-3.jpg"
     ],
     "highlights": [
       "34 inç 21:9 UltraWide QHD (3440x1440) Düz IPS Panel",
@@ -46727,9 +47556,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2021,
     "isPopular": false,
     "isFeatured": false,
-    "image": "/images/products/monitors/lg-32ul750-w.jpg",
+    "image": "/images/products/monitors/icecat-lg-32ul750-w.jpg",
     "images": [
-      "/images/products/monitors/lg-32ul750-w.jpg"
+      "/images/products/monitors/icecat-lg-32ul750-w.jpg",
+      "/images/products/monitors/icecat-lg-32ul750-w-1.jpg",
+      "/images/products/monitors/icecat-lg-32ul750-w-2.jpg",
+      "/images/products/monitors/icecat-lg-32ul750-w-3.jpg"
     ],
     "highlights": [
       "31.5 inç 4K UHD (3840x2160) VA Panel",
@@ -46793,9 +47625,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2021,
     "isPopular": false,
     "isFeatured": false,
-    "image": "/images/products/monitors/lg-32gk850f-b.jpg",
+    "image": "/images/products/monitors/icecat-lg-32gk850f-b.jpg",
     "images": [
-      "/images/products/monitors/lg-32gk850f-b.jpg"
+      "/images/products/monitors/icecat-lg-32gk850f-b.jpg",
+      "/images/products/monitors/icecat-lg-32gk850f-b-1.jpg",
+      "/images/products/monitors/icecat-lg-32gk850f-b-2.jpg",
+      "/images/products/monitors/icecat-lg-32gk850f-b-3.jpg"
     ],
     "highlights": [
       "31.5 inç QHD (2560x1440) VA Panel",
@@ -46856,9 +47691,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2022,
     "isPopular": true,
     "isFeatured": true,
-    "image": "/images/products/monitors/lg-ultragear-32gn650-b.jpg",
+    "image": "/images/products/monitors/icecat-lg-ultragear-32gn650-b.jpg",
     "images": [
-      "/images/products/monitors/lg-ultragear-32gn650-b.jpg"
+      "/images/products/monitors/icecat-lg-ultragear-32gn650-b.jpg",
+      "/images/products/monitors/icecat-lg-ultragear-32gn650-b-1.jpg",
+      "/images/products/monitors/icecat-lg-ultragear-32gn650-b-2.jpg",
+      "/images/products/monitors/icecat-lg-ultragear-32gn650-b-3.jpg"
     ],
     "highlights": [
       "31.5 inç QHD (2560x1440) Yüksek Çözünürlüklü VA Panel",
@@ -46938,9 +47776,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2020,
     "isPopular": false,
     "isFeatured": false,
-    "image": "/images/products/monitors/lg-34uc79g-b.jpg",
+    "image": "/images/products/monitors/icecat-lg-34uc79g-b.jpg",
     "images": [
-      "/images/products/monitors/lg-34uc79g-b.jpg"
+      "/images/products/monitors/icecat-lg-34uc79g-b.jpg",
+      "/images/products/monitors/icecat-lg-34uc79g-b-1.jpg",
+      "/images/products/monitors/icecat-lg-34uc79g-b-2.jpg",
+      "/images/products/monitors/icecat-lg-34uc79g-b-3.jpg"
     ],
     "highlights": [
       "34 inç 21:9 UltraWide Kavisli IPS Panel",
@@ -46999,9 +47840,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2022,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/products/monitors/lg-ultrawide-35wn65c-b.jpg",
+    "image": "/images/products/monitors/icecat-lg-ultrawide-35wn65c-b.jpg",
     "images": [
-      "/images/products/monitors/lg-ultrawide-35wn65c-b.jpg"
+      "/images/products/monitors/icecat-lg-ultrawide-35wn65c-b.jpg",
+      "/images/products/monitors/icecat-lg-ultrawide-35wn65c-b-1.jpg",
+      "/images/products/monitors/icecat-lg-ultrawide-35wn65c-b-2.jpg",
+      "/images/products/monitors/icecat-lg-ultrawide-35wn65c-b-3.jpg"
     ],
     "highlights": [
       "35 inç 21:9 UltraWide QHD (3440x1440) 1800R Kavisli Panel",
@@ -47062,9 +47906,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2021,
     "isPopular": false,
     "isFeatured": false,
-    "image": "/images/products/monitors/lg-32gk850g-b.jpg",
+    "image": "/images/products/monitors/icecat-lg-32gk850g-b.jpg",
     "images": [
-      "/images/products/monitors/lg-32gk850g-b.jpg"
+      "/images/products/monitors/icecat-lg-32gk850g-b.jpg",
+      "/images/products/monitors/icecat-lg-32gk850g-b-1.jpg",
+      "/images/products/monitors/icecat-lg-32gk850g-b-2.jpg",
+      "/images/products/monitors/icecat-lg-32gk850g-b-3.jpg"
     ],
     "highlights": [
       "31.5 inç QHD (2560x1440) VA Panel",
@@ -47124,9 +47971,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2021,
     "isPopular": false,
     "isFeatured": false,
-    "image": "/images/products/monitors/lg-34wl750-b.jpg",
+    "image": "/images/products/monitors/icecat-lg-34wl750-b.jpg",
     "images": [
-      "/images/products/monitors/lg-34wl750-b.jpg"
+      "/images/products/monitors/icecat-lg-34wl750-b.jpg",
+      "/images/products/monitors/icecat-lg-34wl750-b-1.jpg",
+      "/images/products/monitors/icecat-lg-34wl750-b-2.jpg",
+      "/images/products/monitors/icecat-lg-34wl750-b-3.jpg"
     ],
     "highlights": [
       "34 inç 21:9 UltraWide WQHD (3440x1440) Düz IPS Panel",
@@ -47186,9 +48036,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2022,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/products/monitors/lg-32un500-w.jpg",
+    "image": "/images/products/monitors/icecat-lg-32un500-w.jpg",
     "images": [
-      "/images/products/monitors/lg-32un500-w.jpg"
+      "/images/products/monitors/icecat-lg-32un500-w.jpg",
+      "/images/products/monitors/icecat-lg-32un500-w-1.jpg",
+      "/images/products/monitors/icecat-lg-32un500-w-2.jpg",
+      "/images/products/monitors/icecat-lg-32un500-w-3.jpg"
     ],
     "highlights": [
       "31.5 inç 4K UHD (3840x2160) Yüksek Kontrastlı VA Panel",
@@ -47311,9 +48164,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2022,
     "isPopular": false,
     "isFeatured": false,
-    "image": "/images/products/monitors/lg-ultragear-32gn550-b.jpg",
+    "image": "/images/products/monitors/icecat-lg-ultragear-32gn550-b.jpg",
     "images": [
-      "/images/products/monitors/lg-ultragear-32gn550-b.jpg"
+      "/images/products/monitors/icecat-lg-ultragear-32gn550-b.jpg",
+      "/images/products/monitors/icecat-lg-ultragear-32gn550-b-1.jpg",
+      "/images/products/monitors/icecat-lg-ultragear-32gn550-b-2.jpg",
+      "/images/products/monitors/icecat-lg-ultragear-32gn550-b-3.jpg"
     ],
     "highlights": [
       "31.5 inç Full HD VA Panel",
@@ -47370,9 +48226,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2022,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/products/monitors/lg-27ul600-w.jpg",
+    "image": "/images/products/monitors/icecat-lg-27ul600-w.jpg",
     "images": [
-      "/images/products/monitors/lg-27ul600-w.jpg"
+      "/images/products/monitors/icecat-lg-27ul600-w.jpg",
+      "/images/products/monitors/icecat-lg-27ul600-w-1.jpg",
+      "/images/products/monitors/icecat-lg-27ul600-w-2.jpg",
+      "/images/products/monitors/icecat-lg-27ul600-w-3.jpg"
     ],
     "highlights": [
       "27 inç 4K UHD (3840x2160) Canlı IPS Panel",
@@ -47432,9 +48291,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": true,
-    "image": "/images/products/monitors/lg-ultragear-27gs65f-b.jpg",
+    "image": "/images/products/monitors/icecat-lg-ultragear-27gs65f-b.jpg",
     "images": [
-      "/images/products/monitors/lg-ultragear-27gs65f-b.jpg"
+      "/images/products/monitors/icecat-lg-ultragear-27gs65f-b.jpg",
+      "/images/products/monitors/icecat-lg-ultragear-27gs65f-b-1.jpg",
+      "/images/products/monitors/icecat-lg-ultragear-27gs65f-b-2.jpg",
+      "/images/products/monitors/icecat-lg-ultragear-27gs65f-b-3.jpg"
     ],
     "highlights": [
       "27 inç Full HD (1920x1080) Ultra Hızlı IPS Panel",
@@ -47514,9 +48376,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2021,
     "isPopular": false,
     "isFeatured": false,
-    "image": "/images/products/monitors/lg-34uc89g-b.jpg",
+    "image": "/images/products/monitors/icecat-lg-34uc89g-b.jpg",
     "images": [
-      "/images/products/monitors/lg-34uc89g-b.jpg"
+      "/images/products/monitors/icecat-lg-34uc89g-b.jpg",
+      "/images/products/monitors/icecat-lg-34uc89g-b-1.jpg",
+      "/images/products/monitors/icecat-lg-34uc89g-b-2.jpg",
+      "/images/products/monitors/icecat-lg-34uc89g-b-3.jpg"
     ],
     "highlights": [
       "34 inç 21:9 Kavisli UltraWide IPS Panel",
@@ -47658,9 +48523,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2022,
     "isPopular": false,
     "isFeatured": false,
-    "image": "/images/products/monitors/lg-ultrawide-34wn650-w.jpg",
+    "image": "/images/products/monitors/icecat-lg-ultrawide-34wn650-w.jpg",
     "images": [
-      "/images/products/monitors/lg-ultrawide-34wn650-w.jpg"
+      "/images/products/monitors/icecat-lg-ultrawide-34wn650-w.jpg",
+      "/images/products/monitors/icecat-lg-ultrawide-34wn650-w-1.jpg",
+      "/images/products/monitors/icecat-lg-ultrawide-34wn650-w-2.jpg",
+      "/images/products/monitors/icecat-lg-ultrawide-34wn650-w-3.jpg"
     ],
     "highlights": [
       "34 inç 21:9 UltraWide Full HD (2560x1080) Düz IPS Panel",
@@ -47720,9 +48588,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2022,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/products/monitors/lg-ultrawide-34wn700-b.jpg",
+    "image": "/images/products/monitors/icecat-lg-ultrawide-34wn700-b.jpg",
     "images": [
-      "/images/products/monitors/lg-ultrawide-34wn700-b.jpg"
+      "/images/products/monitors/icecat-lg-ultrawide-34wn700-b.jpg",
+      "/images/products/monitors/icecat-lg-ultrawide-34wn700-b-1.jpg",
+      "/images/products/monitors/icecat-lg-ultrawide-34wn700-b-2.jpg",
+      "/images/products/monitors/icecat-lg-ultrawide-34wn700-b-3.jpg"
     ],
     "highlights": [
       "34 inç 21:9 UltraWide QHD (3440x1440) Düz IPS Ekran",
@@ -47782,9 +48653,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2023,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/products/monitors/lg-ultrawide-29wq600-w.jpg",
+    "image": "/images/products/monitors/icecat-lg-ultrawide-29wq600-w.jpg",
     "images": [
-      "/images/products/monitors/lg-ultrawide-29wq600-w.jpg"
+      "/images/products/monitors/icecat-lg-ultrawide-29wq600-w.jpg",
+      "/images/products/monitors/icecat-lg-ultrawide-29wq600-w-1.jpg",
+      "/images/products/monitors/icecat-lg-ultrawide-29wq600-w-2.jpg",
+      "/images/products/monitors/icecat-lg-ultrawide-29wq600-w-3.jpg"
     ],
     "highlights": [
       "29 inç 21:9 UltraWide Full HD (2560x1080) IPS Panel",
@@ -47846,9 +48720,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2022,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/products/monitors/lg-ultragear-27gn800-b.jpg",
+    "image": "/images/products/monitors/icecat-lg-ultragear-27gn800-b.jpg",
     "images": [
-      "/images/products/monitors/lg-ultragear-27gn800-b.jpg"
+      "/images/products/monitors/icecat-lg-ultragear-27gn800-b.jpg",
+      "/images/products/monitors/icecat-lg-ultragear-27gn800-b-1.jpg",
+      "/images/products/monitors/icecat-lg-ultragear-27gn800-b-2.jpg",
+      "/images/products/monitors/icecat-lg-ultragear-27gn800-b-3.jpg"
     ],
     "highlights": [
       "27 inç QHD (2560x1440) Ultra Net IPS Ekran",
@@ -47908,9 +48785,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2023,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/products/monitors/lg-ultragear-27gn65r-b.jpg",
+    "image": "/images/products/monitors/icecat-lg-ultragear-27gn65r-b.jpg",
     "images": [
-      "/images/products/monitors/lg-ultragear-27gn65r-b.jpg"
+      "/images/products/monitors/icecat-lg-ultragear-27gn65r-b.jpg",
+      "/images/products/monitors/icecat-lg-ultragear-27gn65r-b-1.jpg",
+      "/images/products/monitors/icecat-lg-ultragear-27gn65r-b-2.jpg",
+      "/images/products/monitors/icecat-lg-ultragear-27gn65r-b-3.jpg"
     ],
     "highlights": [
       "27 inç Full HD IPS 1ms GtG Panel",
@@ -47969,9 +48849,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2022,
     "isPopular": false,
     "isFeatured": false,
-    "image": "/images/products/monitors/lg-32qn650-b.jpg",
+    "image": "/images/products/monitors/icecat-lg-32qn650-b.jpg",
     "images": [
-      "/images/products/monitors/lg-32qn650-b.jpg"
+      "/images/products/monitors/icecat-lg-32qn650-b.jpg",
+      "/images/products/monitors/icecat-lg-32qn650-b-1.jpg",
+      "/images/products/monitors/icecat-lg-32qn650-b-2.jpg",
+      "/images/products/monitors/icecat-lg-32qn650-b-3.jpg"
     ],
     "highlights": [
       "31.5 inç QHD (2560x1440) Canlı IPS Ekran",
@@ -48030,9 +48913,11 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2020,
     "isPopular": false,
     "isFeatured": false,
-    "image": "/images/products/monitors/lg-27ud58-b.jpg",
+    "image": "/images/products/monitors/icecat-lg-27ud58-b.jpg",
     "images": [
-      "/images/products/monitors/lg-27ud58-b.jpg"
+      "/images/products/monitors/icecat-lg-27ud58-b.jpg",
+      "/images/products/monitors/icecat-lg-27ud58-b-1.jpg",
+      "/images/products/monitors/icecat-lg-27ud58-b-2.jpg"
     ],
     "highlights": [
       "27 inç 4K UHD (3840x2160) IPS Panel",
@@ -48090,9 +48975,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2021,
     "isPopular": false,
     "isFeatured": false,
-    "image": "/images/products/monitors/lg-ultragear-27gl63t-b.jpg",
+    "image": "/images/products/monitors/icecat-lg-ultragear-27gl63t-b.jpg",
     "images": [
-      "/images/products/monitors/lg-ultragear-27gl63t-b.jpg"
+      "/images/products/monitors/icecat-lg-ultragear-27gl63t-b.jpg",
+      "/images/products/monitors/icecat-lg-ultragear-27gl63t-b-1.jpg",
+      "/images/products/monitors/icecat-lg-ultragear-27gl63t-b-2.jpg",
+      "/images/products/monitors/icecat-lg-ultragear-27gl63t-b-3.jpg"
     ],
     "highlights": [
       "27 inç Full HD IPS Panel",
@@ -48150,9 +49038,11 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2021,
     "isPopular": false,
     "isFeatured": false,
-    "image": "/images/products/monitors/lg-ultragear-27gl650f-b.jpg",
+    "image": "/images/products/monitors/icecat-lg-ultragear-27gl650f-b.jpg",
     "images": [
-      "/images/products/monitors/lg-ultragear-27gl650f-b.jpg"
+      "/images/products/monitors/icecat-lg-ultragear-27gl650f-b.jpg",
+      "/images/products/monitors/icecat-lg-ultragear-27gl650f-b-1.jpg",
+      "/images/products/monitors/icecat-lg-ultragear-27gl650f-b-2.jpg"
     ],
     "highlights": [
       "27 inç Full HD IPS Panel",
@@ -48210,9 +49100,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2020,
     "isPopular": false,
     "isFeatured": false,
-    "image": "/images/products/monitors/lg-34wk650-w.jpg",
+    "image": "/images/products/monitors/icecat-lg-34wk650-w.jpg",
     "images": [
-      "/images/products/monitors/lg-34wk650-w.jpg"
+      "/images/products/monitors/icecat-lg-34wk650-w.jpg",
+      "/images/products/monitors/icecat-lg-34wk650-w-1.jpg",
+      "/images/products/monitors/icecat-lg-34wk650-w-2.jpg",
+      "/images/products/monitors/icecat-lg-34wk650-w-3.jpg"
     ],
     "highlights": [
       "34 inç 21:9 WFHD (2560x1080) Düz IPS Panel",
@@ -48332,9 +49225,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2022,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/products/monitors/lg-ultragear-32gn600-b.jpg",
+    "image": "/images/products/monitors/icecat-lg-ultragear-32gn600-b.jpg",
     "images": [
-      "/images/products/monitors/lg-ultragear-32gn600-b.jpg"
+      "/images/products/monitors/icecat-lg-ultragear-32gn600-b.jpg",
+      "/images/products/monitors/icecat-lg-ultragear-32gn600-b-1.jpg",
+      "/images/products/monitors/icecat-lg-ultragear-32gn600-b-2.jpg",
+      "/images/products/monitors/icecat-lg-ultragear-32gn600-b-3.jpg"
     ],
     "highlights": [
       "31.5 inç QHD (2560x1440) Yüksek Çözünürlüklü VA Panel",
@@ -48394,9 +49290,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2022,
     "isPopular": false,
     "isFeatured": false,
-    "image": "/images/products/monitors/lg-ultragear-27gn650-b.jpg",
+    "image": "/images/products/monitors/icecat-lg-ultragear-27gn650-b.jpg",
     "images": [
-      "/images/products/monitors/lg-ultragear-27gn650-b.jpg"
+      "/images/products/monitors/icecat-lg-ultragear-27gn650-b.jpg",
+      "/images/products/monitors/icecat-lg-ultragear-27gn650-b-1.jpg",
+      "/images/products/monitors/icecat-lg-ultragear-27gn650-b-2.jpg",
+      "/images/products/monitors/icecat-lg-ultragear-27gn650-b-3.jpg"
     ],
     "highlights": [
       "27 inç Full HD IPS 1ms (GtG) Panel",
@@ -48454,9 +49353,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2020,
     "isPopular": false,
     "isFeatured": false,
-    "image": "/images/products/monitors/lg-29ub67-b.jpg",
+    "image": "/images/products/monitors/icecat-lg-29ub67-b.jpg",
     "images": [
-      "/images/products/monitors/lg-29ub67-b.jpg"
+      "/images/products/monitors/icecat-lg-29ub67-b.jpg",
+      "/images/products/monitors/icecat-lg-29ub67-b-1.jpg",
+      "/images/products/monitors/icecat-lg-29ub67-b-2.jpg",
+      "/images/products/monitors/icecat-lg-29ub67-b-3.jpg"
     ],
     "highlights": [
       "29 inç 21:9 UltraWide Full HD IPS Panel",
@@ -48517,9 +49419,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2022,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/products/monitors/lg-ultrawide-29wp60g-b.jpg",
+    "image": "/images/products/monitors/icecat-lg-ultrawide-29wp60g-b.jpg",
     "images": [
-      "/images/products/monitors/lg-ultrawide-29wp60g-b.jpg"
+      "/images/products/monitors/icecat-lg-ultrawide-29wp60g-b.jpg",
+      "/images/products/monitors/icecat-lg-ultrawide-29wp60g-b-1.jpg",
+      "/images/products/monitors/icecat-lg-ultrawide-29wp60g-b-2.jpg",
+      "/images/products/monitors/icecat-lg-ultrawide-29wp60g-b-3.jpg"
     ],
     "highlights": [
       "29 inç 21:9 UltraWide IPS Ekran",
@@ -48579,9 +49484,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2022,
     "isPopular": true,
     "isFeatured": true,
-    "image": "/images/products/monitors/lg-ultragear-24gn650-b.jpg",
+    "image": "/images/products/monitors/icecat-lg-ultragear-24gn650-b.jpg",
     "images": [
-      "/images/products/monitors/lg-ultragear-24gn650-b.jpg"
+      "/images/products/monitors/icecat-lg-ultragear-24gn650-b.jpg",
+      "/images/products/monitors/icecat-lg-ultragear-24gn650-b-1.jpg",
+      "/images/products/monitors/icecat-lg-ultragear-24gn650-b-2.jpg",
+      "/images/products/monitors/icecat-lg-ultragear-24gn650-b-3.jpg"
     ],
     "highlights": [
       "23.8 inç Full HD IPS 1ms (GtG) E-Spor Ekranı",

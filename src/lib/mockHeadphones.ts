@@ -23515,9 +23515,12 @@ export const mockHeadphones: Product[] = [
     "rating": 4.3,
     "epeyScore": 77,
     "reviewCount": 890,
-    "image": "/images/headphones/hp-dhe-8009.jpg",
+    "image": "/images/products/headphones/icecat-hp-dhe-8009.jpg",
     "images": [
-      "/images/headphones/hp-dhe-8009.jpg"
+      "/images/products/headphones/icecat-hp-dhe-8009.jpg",
+      "/images/products/headphones/icecat-hp-dhe-8009-1.jpg",
+      "/images/products/headphones/icecat-hp-dhe-8009-2.jpg",
+      "/images/products/headphones/icecat-hp-dhe-8009-3.jpg"
     ],
     "releaseYear": 2022,
     "highlights": [
@@ -35630,9 +35633,12 @@ export const mockHeadphones: Product[] = [
     "rating": 4.6,
     "epeyScore": 87,
     "reviewCount": 920,
-    "image": "/images/headphones/cougar-vm410.jpg",
+    "image": "/images/products/headphones/icecat-cougar-vm410.jpg",
     "images": [
-      "/images/headphones/cougar-vm410.jpg"
+      "/images/products/headphones/icecat-cougar-vm410.jpg",
+      "/images/products/headphones/icecat-cougar-vm410-1.jpg",
+      "/images/products/headphones/icecat-cougar-vm410-2.jpg",
+      "/images/products/headphones/icecat-cougar-vm410-3.jpg"
     ],
     "releaseYear": 2021,
     "highlights": [
@@ -36604,9 +36610,12 @@ export const mockHeadphones: Product[] = [
     "rating": 4.8,
     "epeyScore": 95,
     "reviewCount": 620,
-    "image": "/images/headphones/dell-alienware-aw920h.jpg",
+    "image": "/images/products/headphones/icecat-dell-alienware-aw920h.jpg",
     "images": [
-      "/images/headphones/dell-alienware-aw920h.jpg"
+      "/images/products/headphones/icecat-dell-alienware-aw920h.jpg",
+      "/images/products/headphones/icecat-dell-alienware-aw920h-1.jpg",
+      "/images/products/headphones/icecat-dell-alienware-aw920h-2.jpg",
+      "/images/products/headphones/icecat-dell-alienware-aw920h-3.jpg"
     ],
     "releaseYear": 2022,
     "highlights": [
@@ -43287,9 +43296,12 @@ export const mockHeadphones: Product[] = [
     "rating": 4.4,
     "epeyScore": 78,
     "reviewCount": 310,
-    "image": "/images/headphones/hp-stereo-usb-g2.jpg",
+    "image": "/images/products/headphones/icecat-hp-stereo-usb-g2.jpg",
     "images": [
-      "/images/headphones/hp-stereo-usb-g2.jpg"
+      "/images/products/headphones/icecat-hp-stereo-usb-g2.jpg",
+      "/images/products/headphones/icecat-hp-stereo-usb-g2-1.jpg",
+      "/images/products/headphones/icecat-hp-stereo-usb-g2-2.jpg",
+      "/images/products/headphones/icecat-hp-stereo-usb-g2-3.jpg"
     ],
     "releaseYear": 2023,
     "highlights": [
@@ -45126,9 +45138,10 @@ export const mockHeadphones: Product[] = [
     "rating": 4.8,
     "epeyScore": 94,
     "reviewCount": 120,
-    "image": "/images/headphones/philips-shc8800.jpg",
+    "image": "/images/products/headphones/icecat-philips-shc8800.jpg",
     "images": [
-      "/images/headphones/philips-shc8800.jpg"
+      "/images/products/headphones/icecat-philips-shc8800.jpg",
+      "/images/products/headphones/icecat-philips-shc8800-1.jpg"
     ],
     "releaseYear": 2024,
     "highlights": [
@@ -45247,9 +45260,9 @@ export const mockHeadphones: Product[] = [
     "rating": 4.4,
     "epeyScore": 83,
     "reviewCount": 380,
-    "image": "/images/headphones/philips-taun102bk.jpg",
+    "image": "/images/products/headphones/icecat-philips-taun102bk.jpg",
     "images": [
-      "/images/headphones/philips-taun102bk.jpg"
+      "/images/products/headphones/icecat-philips-taun102bk.jpg"
     ],
     "releaseYear": 2024,
     "highlights": [
@@ -47613,9 +47626,12 @@ export const mockHeadphones: Product[] = [
     "releaseYear": 2021,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/headphones/lg-369026.jpg",
+    "image": "/images/products/headphones/icecat-lg-lg-tone-pro-hbs-770.jpg",
     "images": [
-      "/images/headphones/lg-369026.jpg"
+      "/images/products/headphones/icecat-lg-lg-tone-pro-hbs-770.jpg",
+      "/images/products/headphones/icecat-lg-lg-tone-pro-hbs-770-1.jpg",
+      "/images/products/headphones/icecat-lg-lg-tone-pro-hbs-770-2.jpg",
+      "/images/products/headphones/icecat-lg-lg-tone-pro-hbs-770-3.jpg"
     ],
     "highlights": [
       "QuadBeat Çok Katmanlı Diyafram ile Zengin Baslar",
@@ -47781,9 +47797,12 @@ export const mockHeadphones: Product[] = [
     "releaseYear": 2021,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/headphones/lg-170683.jpg",
+    "image": "/images/products/headphones/icecat-lg-lg-hbs-910.jpg",
     "images": [
-      "/images/headphones/lg-170683.jpg"
+      "/images/products/headphones/icecat-lg-lg-hbs-910.jpg",
+      "/images/products/headphones/icecat-lg-lg-hbs-910-1.jpg",
+      "/images/products/headphones/icecat-lg-lg-hbs-910-2.jpg",
+      "/images/products/headphones/icecat-lg-lg-hbs-910-3.jpg"
     ],
     "highlights": [
       "QuadBeat Çok Katmanlı Diyafram ile Zengin Baslar",
@@ -48005,9 +48024,12 @@ export const mockHeadphones: Product[] = [
     "releaseYear": 2021,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/headphones/lg-77394.jpg",
+    "image": "/images/products/headphones/icecat-lg-lg-tone-platinum-hbs-1100.jpg",
     "images": [
-      "/images/headphones/lg-77394.jpg"
+      "/images/products/headphones/icecat-lg-lg-tone-platinum-hbs-1100.jpg",
+      "/images/products/headphones/icecat-lg-lg-tone-platinum-hbs-1100-1.jpg",
+      "/images/products/headphones/icecat-lg-lg-tone-platinum-hbs-1100-2.jpg",
+      "/images/products/headphones/icecat-lg-lg-tone-platinum-hbs-1100-3.jpg"
     ],
     "highlights": [
       "QuadBeat Çok Katmanlı Diyafram ile Zengin Baslar",

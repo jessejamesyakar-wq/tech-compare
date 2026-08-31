@@ -1,4 +1,4 @@
-import { LaptopProduct, Product } from "./types";
+import { Product } from './types';
 
 export const mockLaptops: Product[] = [
   {
@@ -25936,9 +25936,12 @@ export const mockLaptops: Product[] = [
     "brand": "DELL",
     "category": "laptops",
     "productType": "Geniş Ekranlı Kurumsal İş Laptopu",
-    "image": "/images/products/laptops/dell-pro-16-pc16250-64gb-2tbssd-dos-1.jpg",
+    "image": "/images/products/laptops/icecat-dell-pro-16-pc16250-64gb-2tbssd-dos.jpg",
     "images": [
-      "/images/products/laptops/dell-pro-16-pc16250-64gb-2tbssd-dos-1.jpg"
+      "/images/products/laptops/icecat-dell-pro-16-pc16250-64gb-2tbssd-dos.jpg",
+      "/images/products/laptops/icecat-dell-pro-16-pc16250-64gb-2tbssd-dos-1.jpg",
+      "/images/products/laptops/icecat-dell-pro-16-pc16250-64gb-2tbssd-dos-2.jpg",
+      "/images/products/laptops/icecat-dell-pro-16-pc16250-64gb-2tbssd-dos-3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 56,
@@ -26620,9 +26623,12 @@ export const mockLaptops: Product[] = [
     "brand": "DELL",
     "category": "laptops",
     "productType": "Geniş Ekranlı Kurumsal İş Laptopu",
-    "image": "/images/products/laptops/dell-pro-16-pc16250-64gb-1tbssd-w11p-1.jpg",
+    "image": "/images/products/laptops/icecat-dell-pro-16-pc16250-64gb-1tbssd-w11p.jpg",
     "images": [
-      "/images/products/laptops/dell-pro-16-pc16250-64gb-1tbssd-w11p-1.jpg"
+      "/images/products/laptops/icecat-dell-pro-16-pc16250-64gb-1tbssd-w11p.jpg",
+      "/images/products/laptops/icecat-dell-pro-16-pc16250-64gb-1tbssd-w11p-1.jpg",
+      "/images/products/laptops/icecat-dell-pro-16-pc16250-64gb-1tbssd-w11p-2.jpg",
+      "/images/products/laptops/icecat-dell-pro-16-pc16250-64gb-1tbssd-w11p-3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 55,
@@ -27076,9 +27082,12 @@ export const mockLaptops: Product[] = [
     "brand": "DELL",
     "category": "laptops",
     "productType": "Geniş Ekranlı Kurumsal İş Laptopu",
-    "image": "/images/products/laptops/dell-pro-16-pc16250-64gb-1tbssd-lnx-1.jpg",
+    "image": "/images/products/laptops/icecat-dell-pro-16-pc16250-64gb-1tbssd-lnx.jpg",
     "images": [
-      "/images/products/laptops/dell-pro-16-pc16250-64gb-1tbssd-lnx-1.jpg"
+      "/images/products/laptops/icecat-dell-pro-16-pc16250-64gb-1tbssd-lnx.jpg",
+      "/images/products/laptops/icecat-dell-pro-16-pc16250-64gb-1tbssd-lnx-1.jpg",
+      "/images/products/laptops/icecat-dell-pro-16-pc16250-64gb-1tbssd-lnx-2.jpg",
+      "/images/products/laptops/icecat-dell-pro-16-pc16250-64gb-1tbssd-lnx-3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 55,
@@ -27874,9 +27883,12 @@ export const mockLaptops: Product[] = [
     "brand": "DELL",
     "category": "laptops",
     "productType": "Geniş Ekranlı Kurumsal İş Laptopu",
-    "image": "/images/products/laptops/dell-pro-16-pc16250-64gb-512gbssd-w11p-1.jpg",
+    "image": "/images/products/laptops/icecat-dell-pro-16-pc16250-64gb-512gbssd-w11p.jpg",
     "images": [
-      "/images/products/laptops/dell-pro-16-pc16250-64gb-512gbssd-w11p-1.jpg"
+      "/images/products/laptops/icecat-dell-pro-16-pc16250-64gb-512gbssd-w11p.jpg",
+      "/images/products/laptops/icecat-dell-pro-16-pc16250-64gb-512gbssd-w11p-1.jpg",
+      "/images/products/laptops/icecat-dell-pro-16-pc16250-64gb-512gbssd-w11p-2.jpg",
+      "/images/products/laptops/icecat-dell-pro-16-pc16250-64gb-512gbssd-w11p-3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 55,
@@ -30268,9 +30280,12 @@ export const mockLaptops: Product[] = [
     "brand": "DELL",
     "category": "laptops",
     "productType": "Kurumsal & İş Dünyası Laptopu",
-    "image": "/images/products/laptops/dell-pro-16-pc16250-32gb-2tbssd-dos-1.jpg",
+    "image": "/images/products/laptops/icecat-dell-pro-16-pc16250-32gb-2tbssd-dos.jpg",
     "images": [
-      "/images/products/laptops/dell-pro-16-pc16250-32gb-2tbssd-dos-1.jpg"
+      "/images/products/laptops/icecat-dell-pro-16-pc16250-32gb-2tbssd-dos.jpg",
+      "/images/products/laptops/icecat-dell-pro-16-pc16250-32gb-2tbssd-dos-1.jpg",
+      "/images/products/laptops/icecat-dell-pro-16-pc16250-32gb-2tbssd-dos-2.jpg",
+      "/images/products/laptops/icecat-dell-pro-16-pc16250-32gb-2tbssd-dos-3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 52,
@@ -31180,9 +31195,12 @@ export const mockLaptops: Product[] = [
     "brand": "DELL",
     "category": "laptops",
     "productType": "Kurumsal & İş Dünyası Laptopu",
-    "image": "/images/products/laptops/dell-pro-16-pc16250-bto107-pc16250a014-1.jpg",
+    "image": "/images/products/laptops/icecat-dell-pro-16-pc16250-bto107-pc16250a014.jpg",
     "images": [
-      "/images/products/laptops/dell-pro-16-pc16250-bto107-pc16250a014-1.jpg"
+      "/images/products/laptops/icecat-dell-pro-16-pc16250-bto107-pc16250a014.jpg",
+      "/images/products/laptops/icecat-dell-pro-16-pc16250-bto107-pc16250a014-1.jpg",
+      "/images/products/laptops/icecat-dell-pro-16-pc16250-bto107-pc16250a014-2.jpg",
+      "/images/products/laptops/icecat-dell-pro-16-pc16250-bto107-pc16250a014-3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 52,
@@ -31294,9 +31312,12 @@ export const mockLaptops: Product[] = [
     "brand": "DELL",
     "category": "laptops",
     "productType": "Kurumsal & İş Dünyası Laptopu",
-    "image": "/images/products/laptops/dell-pro-16-pc16250-32gb-1tbssd-w11p-1.jpg",
+    "image": "/images/products/laptops/icecat-dell-pro-16-pc16250-32gb-1tbssd-w11p.jpg",
     "images": [
-      "/images/products/laptops/dell-pro-16-pc16250-32gb-1tbssd-w11p-1.jpg"
+      "/images/products/laptops/icecat-dell-pro-16-pc16250-32gb-1tbssd-w11p.jpg",
+      "/images/products/laptops/icecat-dell-pro-16-pc16250-32gb-1tbssd-w11p-1.jpg",
+      "/images/products/laptops/icecat-dell-pro-16-pc16250-32gb-1tbssd-w11p-2.jpg",
+      "/images/products/laptops/icecat-dell-pro-16-pc16250-32gb-1tbssd-w11p-3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 52,
@@ -31864,9 +31885,12 @@ export const mockLaptops: Product[] = [
     "brand": "DELL",
     "category": "laptops",
     "productType": "Kurumsal & İş Dünyası Laptopu",
-    "image": "/images/products/laptops/dell-pro-16-pc16250-bto108-pc16250-emea-u-1.jpg",
+    "image": "/images/products/laptops/icecat-dell-pro-16-pc16250-bto108-pc16250-emea-u.jpg",
     "images": [
-      "/images/products/laptops/dell-pro-16-pc16250-bto108-pc16250-emea-u-1.jpg"
+      "/images/products/laptops/icecat-dell-pro-16-pc16250-bto108-pc16250-emea-u.jpg",
+      "/images/products/laptops/icecat-dell-pro-16-pc16250-bto108-pc16250-emea-u-1.jpg",
+      "/images/products/laptops/icecat-dell-pro-16-pc16250-bto108-pc16250-emea-u-2.jpg",
+      "/images/products/laptops/icecat-dell-pro-16-pc16250-bto108-pc16250-emea-u-3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 51,
@@ -32551,9 +32575,12 @@ export const mockLaptops: Product[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "productType": "Yaratıcı Profesyoneller & İş Dünyası Laptopu",
-    "image": "/images/products/laptops/lenovo-thinkbook-16p-g6-21u00013tx-atl17-1.jpg",
+    "image": "/images/products/laptops/icecat-lenovo-thinkbook-16p-g6-21u00013tx-atl17.jpg",
     "images": [
-      "/images/products/laptops/lenovo-thinkbook-16p-g6-21u00013tx-atl17-1.jpg"
+      "/images/products/laptops/icecat-lenovo-thinkbook-16p-g6-21u00013tx-atl17.jpg",
+      "/images/products/laptops/icecat-lenovo-thinkbook-16p-g6-21u00013tx-atl17-1.jpg",
+      "/images/products/laptops/icecat-lenovo-thinkbook-16p-g6-21u00013tx-atl17-2.jpg",
+      "/images/products/laptops/icecat-lenovo-thinkbook-16p-g6-21u00013tx-atl17-3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 89,
@@ -32666,9 +32693,12 @@ export const mockLaptops: Product[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "productType": "Mobil Kurumsal İş İstasyonu (Workstation)",
-    "image": "/images/products/laptops/lenovo-thinkpad-p16-g3-21rq000jtx-1.jpg",
+    "image": "/images/products/laptops/icecat-lenovo-thinkpad-p16-g3-21rq000jtx.jpg",
     "images": [
-      "/images/products/laptops/lenovo-thinkpad-p16-g3-21rq000jtx-1.jpg"
+      "/images/products/laptops/icecat-lenovo-thinkpad-p16-g3-21rq000jtx.jpg",
+      "/images/products/laptops/icecat-lenovo-thinkpad-p16-g3-21rq000jtx-1.jpg",
+      "/images/products/laptops/icecat-lenovo-thinkpad-p16-g3-21rq000jtx-2.jpg",
+      "/images/products/laptops/icecat-lenovo-thinkpad-p16-g3-21rq000jtx-3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 89,
@@ -33011,9 +33041,12 @@ export const mockLaptops: Product[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "productType": "Yaratıcı Profesyoneller & İş Dünyası Laptopu",
-    "image": "/images/products/laptops/lenovo-thinkbook-16p-g6-21u00013tx-atl8-1.jpg",
+    "image": "/images/products/laptops/icecat-lenovo-thinkbook-16p-g6-21u00013tx-atl8.jpg",
     "images": [
-      "/images/products/laptops/lenovo-thinkbook-16p-g6-21u00013tx-atl8-1.jpg"
+      "/images/products/laptops/icecat-lenovo-thinkbook-16p-g6-21u00013tx-atl8.jpg",
+      "/images/products/laptops/icecat-lenovo-thinkbook-16p-g6-21u00013tx-atl8-1.jpg",
+      "/images/products/laptops/icecat-lenovo-thinkbook-16p-g6-21u00013tx-atl8-2.jpg",
+      "/images/products/laptops/icecat-lenovo-thinkbook-16p-g6-21u00013tx-atl8-3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 88,
@@ -33126,9 +33159,12 @@ export const mockLaptops: Product[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "productType": "Yaratıcı Profesyoneller & İş Dünyası Laptopu",
-    "image": "/images/products/laptops/lenovo-thinkbook-16p-g6-21u00013tx-atl16-1.jpg",
+    "image": "/images/products/laptops/icecat-lenovo-thinkbook-16p-g6-21u00013tx-atl16.jpg",
     "images": [
-      "/images/products/laptops/lenovo-thinkbook-16p-g6-21u00013tx-atl16-1.jpg"
+      "/images/products/laptops/icecat-lenovo-thinkbook-16p-g6-21u00013tx-atl16.jpg",
+      "/images/products/laptops/icecat-lenovo-thinkbook-16p-g6-21u00013tx-atl16-1.jpg",
+      "/images/products/laptops/icecat-lenovo-thinkbook-16p-g6-21u00013tx-atl16-2.jpg",
+      "/images/products/laptops/icecat-lenovo-thinkbook-16p-g6-21u00013tx-atl16-3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 88,
@@ -33241,9 +33277,12 @@ export const mockLaptops: Product[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "productType": "Yaratıcı Profesyoneller & İş Dünyası Laptopu",
-    "image": "/images/products/laptops/lenovo-thinkbook-16p-g6-21u00013tx-atl15-1.jpg",
+    "image": "/images/products/laptops/icecat-lenovo-thinkbook-16p-g6-21u00013tx-atl15.jpg",
     "images": [
-      "/images/products/laptops/lenovo-thinkbook-16p-g6-21u00013tx-atl15-1.jpg"
+      "/images/products/laptops/icecat-lenovo-thinkbook-16p-g6-21u00013tx-atl15.jpg",
+      "/images/products/laptops/icecat-lenovo-thinkbook-16p-g6-21u00013tx-atl15-1.jpg",
+      "/images/products/laptops/icecat-lenovo-thinkbook-16p-g6-21u00013tx-atl15-2.jpg",
+      "/images/products/laptops/icecat-lenovo-thinkbook-16p-g6-21u00013tx-atl15-3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 87,
@@ -33356,9 +33395,12 @@ export const mockLaptops: Product[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "productType": "Yaratıcı Profesyoneller & İş Dünyası Laptopu",
-    "image": "/images/products/laptops/lenovo-thinkbook-16p-g6-21u00013tx-atl6-1.jpg",
+    "image": "/images/products/laptops/icecat-lenovo-thinkbook-16p-g6-21u00013tx-atl6.jpg",
     "images": [
-      "/images/products/laptops/lenovo-thinkbook-16p-g6-21u00013tx-atl6-1.jpg"
+      "/images/products/laptops/icecat-lenovo-thinkbook-16p-g6-21u00013tx-atl6.jpg",
+      "/images/products/laptops/icecat-lenovo-thinkbook-16p-g6-21u00013tx-atl6-1.jpg",
+      "/images/products/laptops/icecat-lenovo-thinkbook-16p-g6-21u00013tx-atl6-2.jpg",
+      "/images/products/laptops/icecat-lenovo-thinkbook-16p-g6-21u00013tx-atl6-3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 87,
@@ -33931,9 +33973,12 @@ export const mockLaptops: Product[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "productType": "Yaratıcı Profesyoneller & İş Dünyası Laptopu",
-    "image": "/images/products/laptops/lenovo-thinkbook-16p-g6-21u00013tx-atl14-1.jpg",
+    "image": "/images/products/laptops/icecat-lenovo-thinkbook-16p-g6-21u00013tx-atl14.jpg",
     "images": [
-      "/images/products/laptops/lenovo-thinkbook-16p-g6-21u00013tx-atl14-1.jpg"
+      "/images/products/laptops/icecat-lenovo-thinkbook-16p-g6-21u00013tx-atl14.jpg",
+      "/images/products/laptops/icecat-lenovo-thinkbook-16p-g6-21u00013tx-atl14-1.jpg",
+      "/images/products/laptops/icecat-lenovo-thinkbook-16p-g6-21u00013tx-atl14-2.jpg",
+      "/images/products/laptops/icecat-lenovo-thinkbook-16p-g6-21u00013tx-atl14-3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 85,
@@ -34046,9 +34091,12 @@ export const mockLaptops: Product[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "productType": "Yaratıcı Profesyoneller & İş Dünyası Laptopu",
-    "image": "/images/products/laptops/lenovo-thinkbook-16p-g6-21u00013tx-atl10-1.jpg",
+    "image": "/images/products/laptops/icecat-lenovo-thinkbook-16p-g6-21u00013tx-atl10.jpg",
     "images": [
-      "/images/products/laptops/lenovo-thinkbook-16p-g6-21u00013tx-atl10-1.jpg"
+      "/images/products/laptops/icecat-lenovo-thinkbook-16p-g6-21u00013tx-atl10.jpg",
+      "/images/products/laptops/icecat-lenovo-thinkbook-16p-g6-21u00013tx-atl10-1.jpg",
+      "/images/products/laptops/icecat-lenovo-thinkbook-16p-g6-21u00013tx-atl10-2.jpg",
+      "/images/products/laptops/icecat-lenovo-thinkbook-16p-g6-21u00013tx-atl10-3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 81,
@@ -34274,9 +34322,11 @@ export const mockLaptops: Product[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "productType": "Üst Seviye Profesyonel Oyuncu Laptopu",
-    "image": "/images/products/laptops/lenovo-legion-5-pro-83lt005rtr-1.jpg",
+    "image": "/images/products/laptops/icecat-lenovo-legion-5-pro-83lt005rtr.jpg",
     "images": [
-      "/images/products/laptops/lenovo-legion-5-pro-83lt005rtr-1.jpg"
+      "/images/products/laptops/icecat-lenovo-legion-5-pro-83lt005rtr.jpg",
+      "/images/products/laptops/icecat-lenovo-legion-5-pro-83lt005rtr-2.jpg",
+      "/images/products/laptops/icecat-lenovo-legion-5-pro-83lt005rtr-3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 81,
@@ -34388,9 +34438,12 @@ export const mockLaptops: Product[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "productType": "Yaratıcı Profesyoneller & İş Dünyası Laptopu",
-    "image": "/images/products/laptops/lenovo-thinkbook-16p-g6-21u00013tx-atl9-1.jpg",
+    "image": "/images/products/laptops/icecat-lenovo-thinkbook-16p-g6-21u00013tx-atl9.jpg",
     "images": [
-      "/images/products/laptops/lenovo-thinkbook-16p-g6-21u00013tx-atl9-1.jpg"
+      "/images/products/laptops/icecat-lenovo-thinkbook-16p-g6-21u00013tx-atl9.jpg",
+      "/images/products/laptops/icecat-lenovo-thinkbook-16p-g6-21u00013tx-atl9-1.jpg",
+      "/images/products/laptops/icecat-lenovo-thinkbook-16p-g6-21u00013tx-atl9-2.jpg",
+      "/images/products/laptops/icecat-lenovo-thinkbook-16p-g6-21u00013tx-atl9-3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 81,
@@ -34502,9 +34555,12 @@ export const mockLaptops: Product[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "productType": "Yaratıcı Profesyoneller & İş Dünyası Laptopu",
-    "image": "/images/products/laptops/lenovo-thinkbook-16p-g6-21u00013tx-atl2-1.jpg",
+    "image": "/images/products/laptops/icecat-lenovo-thinkbook-16p-g6-21u00013tx-atl2.jpg",
     "images": [
-      "/images/products/laptops/lenovo-thinkbook-16p-g6-21u00013tx-atl2-1.jpg"
+      "/images/products/laptops/icecat-lenovo-thinkbook-16p-g6-21u00013tx-atl2.jpg",
+      "/images/products/laptops/icecat-lenovo-thinkbook-16p-g6-21u00013tx-atl2-1.jpg",
+      "/images/products/laptops/icecat-lenovo-thinkbook-16p-g6-21u00013tx-atl2-2.jpg",
+      "/images/products/laptops/icecat-lenovo-thinkbook-16p-g6-21u00013tx-atl2-3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 80,
@@ -35072,9 +35128,12 @@ export const mockLaptops: Product[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "productType": "Yaratıcı Profesyoneller & İş Dünyası Laptopu",
-    "image": "/images/products/laptops/lenovo-thinkbook-16p-g6-21u00013tx-atl1-1.jpg",
+    "image": "/images/products/laptops/icecat-lenovo-thinkbook-16p-g6-21u00013tx-atl1.jpg",
     "images": [
-      "/images/products/laptops/lenovo-thinkbook-16p-g6-21u00013tx-atl1-1.jpg"
+      "/images/products/laptops/icecat-lenovo-thinkbook-16p-g6-21u00013tx-atl1.jpg",
+      "/images/products/laptops/icecat-lenovo-thinkbook-16p-g6-21u00013tx-atl1-1.jpg",
+      "/images/products/laptops/icecat-lenovo-thinkbook-16p-g6-21u00013tx-atl1-2.jpg",
+      "/images/products/laptops/icecat-lenovo-thinkbook-16p-g6-21u00013tx-atl1-3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 80,
@@ -35300,9 +35359,12 @@ export const mockLaptops: Product[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "productType": "Sıvı Soğutmalı Flagship Oyuncu Laptopu",
-    "image": "/images/products/laptops/lenovo-legion-9-83g00010tr-1.jpg",
+    "image": "/images/products/laptops/icecat-lenovo-legion-9-83g00010tr.jpg",
     "images": [
-      "/images/products/laptops/lenovo-legion-9-83g00010tr-1.jpg"
+      "/images/products/laptops/icecat-lenovo-legion-9-83g00010tr.jpg",
+      "/images/products/laptops/icecat-lenovo-legion-9-83g00010tr-1.jpg",
+      "/images/products/laptops/icecat-lenovo-legion-9-83g00010tr-2.jpg",
+      "/images/products/laptops/icecat-lenovo-legion-9-83g00010tr-3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 79,
@@ -37808,9 +37870,12 @@ export const mockLaptops: Product[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "productType": "Üst Seviye Profesyonel Oyuncu Laptopu",
-    "image": "/images/products/laptops/lenovo-legion-5-pro-83df00altr-1.jpg",
+    "image": "/images/products/laptops/icecat-lenovo-legion-5-pro-83df00altr.jpg",
     "images": [
-      "/images/products/laptops/lenovo-legion-5-pro-83df00altr-1.jpg"
+      "/images/products/laptops/icecat-lenovo-legion-5-pro-83df00altr.jpg",
+      "/images/products/laptops/icecat-lenovo-legion-5-pro-83df00altr-1.jpg",
+      "/images/products/laptops/icecat-lenovo-legion-5-pro-83df00altr-2.jpg",
+      "/images/products/laptops/icecat-lenovo-legion-5-pro-83df00altr-3.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 75,
@@ -37922,9 +37987,12 @@ export const mockLaptops: Product[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "productType": "Gelişmiş Oyuncu & Mühendislik Laptopu",
-    "image": "/images/products/laptops/lenovo-loq-17irx10-83jh00bctr-11pro-1.jpg",
+    "image": "/images/products/laptops/icecat-lenovo-loq-17irx10-83jh00bctr-11pro.jpg",
     "images": [
-      "/images/products/laptops/lenovo-loq-17irx10-83jh00bctr-11pro-1.jpg"
+      "/images/products/laptops/icecat-lenovo-loq-17irx10-83jh00bctr-11pro.jpg",
+      "/images/products/laptops/icecat-lenovo-loq-17irx10-83jh00bctr-11pro-1.jpg",
+      "/images/products/laptops/icecat-lenovo-loq-17irx10-83jh00bctr-11pro-2.jpg",
+      "/images/products/laptops/icecat-lenovo-loq-17irx10-83jh00bctr-11pro-3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 74,
@@ -38378,9 +38446,12 @@ export const mockLaptops: Product[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "productType": "Yüksek Performanslı Oyuncu Laptopu",
-    "image": "/images/products/laptops/lenovo-legion-5-15irx10-83ly009ltr-1.jpg",
+    "image": "/images/products/laptops/icecat-lenovo-legion-5-15irx10-83ly009ltr.jpg",
     "images": [
-      "/images/products/laptops/lenovo-legion-5-15irx10-83ly009ltr-1.jpg"
+      "/images/products/laptops/icecat-lenovo-legion-5-15irx10-83ly009ltr.jpg",
+      "/images/products/laptops/icecat-lenovo-legion-5-15irx10-83ly009ltr-1.jpg",
+      "/images/products/laptops/icecat-lenovo-legion-5-15irx10-83ly009ltr-2.jpg",
+      "/images/products/laptops/icecat-lenovo-legion-5-15irx10-83ly009ltr-3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 74,
@@ -39518,9 +39589,12 @@ export const mockLaptops: Product[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "productType": "Gelişmiş Oyuncu & Mühendislik Laptopu",
-    "image": "/images/products/laptops/lenovo-loq-15ahp10-83jg006atr-fr45-1.jpg",
+    "image": "/images/products/laptops/icecat-lenovo-loq-15ahp10-83jg006atr-fr45.jpg",
     "images": [
-      "/images/products/laptops/lenovo-loq-15ahp10-83jg006atr-fr45-1.jpg"
+      "/images/products/laptops/icecat-lenovo-loq-15ahp10-83jg006atr-fr45.jpg",
+      "/images/products/laptops/icecat-lenovo-loq-15ahp10-83jg006atr-fr45-1.jpg",
+      "/images/products/laptops/icecat-lenovo-loq-15ahp10-83jg006atr-fr45-2.jpg",
+      "/images/products/laptops/icecat-lenovo-loq-15ahp10-83jg006atr-fr45-3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 73,
@@ -41114,9 +41188,12 @@ export const mockLaptops: Product[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "productType": "Gelişmiş Oyuncu & Mühendislik Laptopu",
-    "image": "/images/products/laptops/lenovo-loq-15ahp10-83jg006atr-fr51-1.jpg",
+    "image": "/images/products/laptops/icecat-lenovo-loq-15ahp10-83jg006atr-fr51.jpg",
     "images": [
-      "/images/products/laptops/lenovo-loq-15ahp10-83jg006atr-fr51-1.jpg"
+      "/images/products/laptops/icecat-lenovo-loq-15ahp10-83jg006atr-fr51.jpg",
+      "/images/products/laptops/icecat-lenovo-loq-15ahp10-83jg006atr-fr51-1.jpg",
+      "/images/products/laptops/icecat-lenovo-loq-15ahp10-83jg006atr-fr51-2.jpg",
+      "/images/products/laptops/icecat-lenovo-loq-15ahp10-83jg006atr-fr51-3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 72,
@@ -42140,9 +42217,12 @@ export const mockLaptops: Product[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "productType": "Yüksek Performanslı Oyuncu Laptopu",
-    "image": "/images/products/laptops/lenovo-loq-15ahp10-83jg006atr-fr47-1.jpg",
+    "image": "/images/products/laptops/icecat-lenovo-loq-15ahp10-83jg006atr-fr47.jpg",
     "images": [
-      "/images/products/laptops/lenovo-loq-15ahp10-83jg006atr-fr47-1.jpg"
+      "/images/products/laptops/icecat-lenovo-loq-15ahp10-83jg006atr-fr47.jpg",
+      "/images/products/laptops/icecat-lenovo-loq-15ahp10-83jg006atr-fr47-1.jpg",
+      "/images/products/laptops/icecat-lenovo-loq-15ahp10-83jg006atr-fr47-2.jpg",
+      "/images/products/laptops/icecat-lenovo-loq-15ahp10-83jg006atr-fr47-3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 71,
@@ -43508,9 +43588,12 @@ export const mockLaptops: Product[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "productType": "Yüksek Performanslı Oyuncu Laptopu",
-    "image": "/images/products/laptops/lenovo-loq-15ahp10-83jg006atr-fr27-1.jpg",
+    "image": "/images/products/laptops/icecat-lenovo-loq-15ahp10-83jg006atr-fr27.jpg",
     "images": [
-      "/images/products/laptops/lenovo-loq-15ahp10-83jg006atr-fr27-1.jpg"
+      "/images/products/laptops/icecat-lenovo-loq-15ahp10-83jg006atr-fr27.jpg",
+      "/images/products/laptops/icecat-lenovo-loq-15ahp10-83jg006atr-fr27-1.jpg",
+      "/images/products/laptops/icecat-lenovo-loq-15ahp10-83jg006atr-fr27-2.jpg",
+      "/images/products/laptops/icecat-lenovo-loq-15ahp10-83jg006atr-fr27-3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 71,
@@ -43736,9 +43819,12 @@ export const mockLaptops: Product[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "productType": "Yüksek Performanslı Oyuncu Laptopu",
-    "image": "/images/products/laptops/lenovo-loq-15ahp10-83jg006atr-fr53-1.jpg",
+    "image": "/images/products/laptops/icecat-lenovo-loq-15ahp10-83jg006atr-fr53.jpg",
     "images": [
-      "/images/products/laptops/lenovo-loq-15ahp10-83jg006atr-fr53-1.jpg"
+      "/images/products/laptops/icecat-lenovo-loq-15ahp10-83jg006atr-fr53.jpg",
+      "/images/products/laptops/icecat-lenovo-loq-15ahp10-83jg006atr-fr53-1.jpg",
+      "/images/products/laptops/icecat-lenovo-loq-15ahp10-83jg006atr-fr53-2.jpg",
+      "/images/products/laptops/icecat-lenovo-loq-15ahp10-83jg006atr-fr53-3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 70,
@@ -43964,9 +44050,12 @@ export const mockLaptops: Product[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "productType": "Yüksek Performanslı Oyuncu Laptopu",
-    "image": "/images/products/laptops/lenovo-loq-15ahp10-83jg006atr-fr48-1.jpg",
+    "image": "/images/products/laptops/icecat-lenovo-loq-15ahp10-83jg006atr-fr48.jpg",
     "images": [
-      "/images/products/laptops/lenovo-loq-15ahp10-83jg006atr-fr48-1.jpg"
+      "/images/products/laptops/icecat-lenovo-loq-15ahp10-83jg006atr-fr48.jpg",
+      "/images/products/laptops/icecat-lenovo-loq-15ahp10-83jg006atr-fr48-1.jpg",
+      "/images/products/laptops/icecat-lenovo-loq-15ahp10-83jg006atr-fr48-2.jpg",
+      "/images/products/laptops/icecat-lenovo-loq-15ahp10-83jg006atr-fr48-3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 70,
@@ -45218,9 +45307,12 @@ export const mockLaptops: Product[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "productType": "Ultra Premium İçerik Üretici & Tasarım Laptopu",
-    "image": "/images/products/laptops/lenovo-yoga-pro-9-16iah10-83l0002ltr-1.jpg",
+    "image": "/images/products/laptops/icecat-lenovo-yoga-pro-9-16iah10-83l0002ltr.jpg",
     "images": [
-      "/images/products/laptops/lenovo-yoga-pro-9-16iah10-83l0002ltr-1.jpg"
+      "/images/products/laptops/icecat-lenovo-yoga-pro-9-16iah10-83l0002ltr.jpg",
+      "/images/products/laptops/icecat-lenovo-yoga-pro-9-16iah10-83l0002ltr-1.jpg",
+      "/images/products/laptops/icecat-lenovo-yoga-pro-9-16iah10-83l0002ltr-2.jpg",
+      "/images/products/laptops/icecat-lenovo-yoga-pro-9-16iah10-83l0002ltr-3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 70,
@@ -45788,9 +45880,12 @@ export const mockLaptops: Product[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "productType": "Yüksek Performanslı Oyuncu Laptopu",
-    "image": "/images/products/laptops/lenovo-loq-15ahp10-83jg006atr-fr9-1.jpg",
+    "image": "/images/products/laptops/icecat-lenovo-loq-15ahp10-83jg006atr-fr9.jpg",
     "images": [
-      "/images/products/laptops/lenovo-loq-15ahp10-83jg006atr-fr9-1.jpg"
+      "/images/products/laptops/icecat-lenovo-loq-15ahp10-83jg006atr-fr9.jpg",
+      "/images/products/laptops/icecat-lenovo-loq-15ahp10-83jg006atr-fr9-1.jpg",
+      "/images/products/laptops/icecat-lenovo-loq-15ahp10-83jg006atr-fr9-2.jpg",
+      "/images/products/laptops/icecat-lenovo-loq-15ahp10-83jg006atr-fr9-3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 70,
@@ -46928,9 +47023,12 @@ export const mockLaptops: Product[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "productType": "Yüksek Performanslı Oyuncu Laptopu",
-    "image": "/images/products/laptops/lenovo-loq-15arp9-83jc00fktr-cd62-1.jpg",
+    "image": "/images/products/laptops/icecat-lenovo-loq-15arp9-83jc00fktr-cd62.jpg",
     "images": [
-      "/images/products/laptops/lenovo-loq-15arp9-83jc00fktr-cd62-1.jpg"
+      "/images/products/laptops/icecat-lenovo-loq-15arp9-83jc00fktr-cd62.jpg",
+      "/images/products/laptops/icecat-lenovo-loq-15arp9-83jc00fktr-cd62-1.jpg",
+      "/images/products/laptops/icecat-lenovo-loq-15arp9-83jc00fktr-cd62-2.jpg",
+      "/images/products/laptops/icecat-lenovo-loq-15arp9-83jc00fktr-cd62-3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 70,
@@ -47384,9 +47482,12 @@ export const mockLaptops: Product[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "productType": "Yüksek Performanslı Oyuncu Laptopu",
-    "image": "/images/products/laptops/lenovo-loq-15ahp10-83jg006atr-fr54-1.jpg",
+    "image": "/images/products/laptops/icecat-lenovo-loq-15ahp10-83jg006atr-fr54.jpg",
     "images": [
-      "/images/products/laptops/lenovo-loq-15ahp10-83jg006atr-fr54-1.jpg"
+      "/images/products/laptops/icecat-lenovo-loq-15ahp10-83jg006atr-fr54.jpg",
+      "/images/products/laptops/icecat-lenovo-loq-15ahp10-83jg006atr-fr54-1.jpg",
+      "/images/products/laptops/icecat-lenovo-loq-15ahp10-83jg006atr-fr54-2.jpg",
+      "/images/products/laptops/icecat-lenovo-loq-15ahp10-83jg006atr-fr54-3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 70,
@@ -47498,9 +47599,12 @@ export const mockLaptops: Product[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "productType": "Yüksek Performanslı Oyuncu Laptopu",
-    "image": "/images/products/laptops/lenovo-loq-15ahp10-83jg006atr-fr44-1.jpg",
+    "image": "/images/products/laptops/icecat-lenovo-loq-15ahp10-83jg006atr-fr44.jpg",
     "images": [
-      "/images/products/laptops/lenovo-loq-15ahp10-83jg006atr-fr44-1.jpg"
+      "/images/products/laptops/icecat-lenovo-loq-15ahp10-83jg006atr-fr44.jpg",
+      "/images/products/laptops/icecat-lenovo-loq-15ahp10-83jg006atr-fr44-1.jpg",
+      "/images/products/laptops/icecat-lenovo-loq-15ahp10-83jg006atr-fr44-2.jpg",
+      "/images/products/laptops/icecat-lenovo-loq-15ahp10-83jg006atr-fr44-3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 70,

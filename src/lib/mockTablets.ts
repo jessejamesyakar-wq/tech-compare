@@ -12722,9 +12722,12 @@ export const mockTablets: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": true,
-    "image": "/images/products/tablets/samsung-galaxy-tab-s10-fe-wi-fi-sm-x526-1.jpg",
+    "image": "/images/products/tablets/icecat-samsung-galaxy-tab-s10-fe-wi-fi-sm-x526.jpg",
     "images": [
-      "/images/products/tablets/samsung-galaxy-tab-s10-fe-wi-fi-sm-x526-1.jpg"
+      "/images/products/tablets/icecat-samsung-galaxy-tab-s10-fe-wi-fi-sm-x526.jpg",
+      "/images/products/tablets/icecat-samsung-galaxy-tab-s10-fe-wi-fi-sm-x526-1.jpg",
+      "/images/products/tablets/icecat-samsung-galaxy-tab-s10-fe-wi-fi-sm-x526-2.jpg",
+      "/images/products/tablets/icecat-samsung-galaxy-tab-s10-fe-wi-fi-sm-x526-3.jpg"
     ],
     "highlights": [
       "10.9\" IPS LCD 90Hz Ekran",
@@ -14782,9 +14785,12 @@ export const mockTablets: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": true,
-    "image": "/images/products/tablets/samsung-galaxy-tab-s6-lite-lte-2024-1.jpg",
+    "image": "/images/products/tablets/icecat-samsung-galaxy-tab-s6-lite-lte-2024.jpg",
     "images": [
-      "/images/products/tablets/samsung-galaxy-tab-s6-lite-lte-2024-1.jpg"
+      "/images/products/tablets/icecat-samsung-galaxy-tab-s6-lite-lte-2024.jpg",
+      "/images/products/tablets/icecat-samsung-galaxy-tab-s6-lite-lte-2024-1.jpg",
+      "/images/products/tablets/icecat-samsung-galaxy-tab-s6-lite-lte-2024-2.jpg",
+      "/images/products/tablets/icecat-samsung-galaxy-tab-s6-lite-lte-2024-3.jpg"
     ],
     "highlights": [
       "10.4\" TFT LCD (2000 x 1200) Ekran",
@@ -19242,9 +19248,12 @@ export const mockTablets: Product[] = [
     "releaseYear": 2022,
     "isPopular": false,
     "isFeatured": false,
-    "image": "/images/products/tablets/honor-pad-8-2022-1.jpg",
+    "image": "/images/products/tablets/icecat-honor-pad-8-2022.jpg",
     "images": [
-      "/images/products/tablets/honor-pad-8-2022-1.jpg"
+      "/images/products/tablets/icecat-honor-pad-8-2022.jpg",
+      "/images/products/tablets/icecat-honor-pad-8-2022-1.jpg",
+      "/images/products/tablets/icecat-honor-pad-8-2022-2.jpg",
+      "/images/products/tablets/icecat-honor-pad-8-2022-3.jpg"
     ],
     "highlights": [
       "12.0\" 2K IPS Ekran (2000 x 1200, %87 Ekran/Gövde)",
@@ -22770,9 +22779,12 @@ export const mockTablets: Product[] = [
     "releaseYear": 2021,
     "isPopular": true,
     "isFeatured": true,
-    "image": "/images/products/tablets/lenovo-tab-p11-plus-1.jpg",
+    "image": "/images/products/tablets/icecat-lenovo-tab-p11-plus.jpg",
     "images": [
-      "/images/products/tablets/lenovo-tab-p11-plus-1.jpg"
+      "/images/products/tablets/icecat-lenovo-tab-p11-plus.jpg",
+      "/images/products/tablets/icecat-lenovo-tab-p11-plus-1.jpg",
+      "/images/products/tablets/icecat-lenovo-tab-p11-plus-2.jpg",
+      "/images/products/tablets/icecat-lenovo-tab-p11-plus-3.jpg"
     ],
     "highlights": [
       "11\" 2K IPS LCD 60Hz Ekran",
@@ -24105,9 +24117,12 @@ export const mockTablets: Product[] = [
     "releaseYear": 2020,
     "isPopular": true,
     "isFeatured": true,
-    "image": "/images/products/tablets/lenovo-tab-p11-pro-tb-j706f-1.jpg",
+    "image": "/images/products/tablets/icecat-lenovo-tab-p11-pro-tb-j706f.jpg",
     "images": [
-      "/images/products/tablets/lenovo-tab-p11-pro-tb-j706f-1.jpg"
+      "/images/products/tablets/icecat-lenovo-tab-p11-pro-tb-j706f.jpg",
+      "/images/products/tablets/icecat-lenovo-tab-p11-pro-tb-j706f-1.jpg",
+      "/images/products/tablets/icecat-lenovo-tab-p11-pro-tb-j706f-2.jpg",
+      "/images/products/tablets/icecat-lenovo-tab-p11-pro-tb-j706f-3.jpg"
     ],
     "highlights": [
       "11.5\" 2.5K OLED Dolby Vision HDR10 Ekran",
@@ -24387,9 +24402,12 @@ export const mockTablets: Product[] = [
     "releaseYear": 2020,
     "isPopular": false,
     "isFeatured": false,
-    "image": "/images/products/tablets/samsung-galaxy-tab-s6-lite-lte-2020-1.jpg",
+    "image": "/images/products/tablets/icecat-samsung-galaxy-tab-s6-lite-lte-2020.jpg",
     "images": [
-      "/images/products/tablets/samsung-galaxy-tab-s6-lite-lte-2020-1.jpg"
+      "/images/products/tablets/icecat-samsung-galaxy-tab-s6-lite-lte-2020.jpg",
+      "/images/products/tablets/icecat-samsung-galaxy-tab-s6-lite-lte-2020-1.jpg",
+      "/images/products/tablets/icecat-samsung-galaxy-tab-s6-lite-lte-2020-2.jpg",
+      "/images/products/tablets/icecat-samsung-galaxy-tab-s6-lite-lte-2020-3.jpg"
     ],
     "highlights": [
       "10.4\" TFT LCD (2000 x 1200) Ekran",
@@ -26094,9 +26112,12 @@ export const mockTablets: Product[] = [
     "releaseYear": 2019,
     "isPopular": true,
     "isFeatured": true,
-    "image": "/images/products/tablets/lenovo-tab-m10-tb-x605lc-lte-1.jpg",
+    "image": "/images/products/tablets/icecat-lenovo-tab-m10-tb-x605lc-lte.jpg",
     "images": [
-      "/images/products/tablets/lenovo-tab-m10-tb-x605lc-lte-1.jpg"
+      "/images/products/tablets/icecat-lenovo-tab-m10-tb-x605lc-lte.jpg",
+      "/images/products/tablets/icecat-lenovo-tab-m10-tb-x605lc-lte-1.jpg",
+      "/images/products/tablets/icecat-lenovo-tab-m10-tb-x605lc-lte-2.jpg",
+      "/images/products/tablets/icecat-lenovo-tab-m10-tb-x605lc-lte-3.jpg"
     ],
     "highlights": [
       "10.1\" FHD IPS LCD Ekran",
@@ -29903,9 +29924,12 @@ export const mockTablets: Product[] = [
     "releaseYear": 2017,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/products/tablets/lenovo-tab4-10-1.jpg",
+    "image": "/images/products/tablets/icecat-lenovo-tab4-10.jpg",
     "images": [
-      "/images/products/tablets/lenovo-tab4-10-1.jpg"
+      "/images/products/tablets/icecat-lenovo-tab4-10.jpg",
+      "/images/products/tablets/icecat-lenovo-tab4-10-1.jpg",
+      "/images/products/tablets/icecat-lenovo-tab4-10-2.jpg",
+      "/images/products/tablets/icecat-lenovo-tab4-10-3.jpg"
     ],
     "highlights": [
       "10.1\" HD IPS LCD Ekran",
@@ -30080,9 +30104,12 @@ export const mockTablets: Product[] = [
     "releaseYear": 2017,
     "isPopular": true,
     "isFeatured": true,
-    "image": "/images/products/tablets/lenovo-tab-10-za1u0062tr-1.jpg",
+    "image": "/images/products/tablets/icecat-lenovo-tab-10-za1u0062tr.jpg",
     "images": [
-      "/images/products/tablets/lenovo-tab-10-za1u0062tr-1.jpg"
+      "/images/products/tablets/icecat-lenovo-tab-10-za1u0062tr.jpg",
+      "/images/products/tablets/icecat-lenovo-tab-10-za1u0062tr-1.jpg",
+      "/images/products/tablets/icecat-lenovo-tab-10-za1u0062tr-2.jpg",
+      "/images/products/tablets/icecat-lenovo-tab-10-za1u0062tr-3.jpg"
     ],
     "highlights": [
       "10.1\" HD IPS LCD Ekran",
@@ -38687,9 +38714,12 @@ export const mockTablets: Product[] = [
     "releaseYear": 2014,
     "isPopular": false,
     "isFeatured": false,
-    "image": "/images/products/tablets/samsung-galaxy-note-101-2014-edition-1.png",
+    "image": "/images/products/tablets/icecat-samsung-galaxy-note-101-2014-edition.jpg",
     "images": [
-      "/images/products/tablets/samsung-galaxy-note-101-2014-edition-1.png"
+      "/images/products/tablets/icecat-samsung-galaxy-note-101-2014-edition.jpg",
+      "/images/products/tablets/icecat-samsung-galaxy-note-101-2014-edition-1.jpg",
+      "/images/products/tablets/icecat-samsung-galaxy-note-101-2014-edition-2.jpg",
+      "/images/products/tablets/icecat-samsung-galaxy-note-101-2014-edition-3.jpg"
     ],
     "highlights": [
       "10.1\" 2K WQXGA Ekran & Dahili S Pen Kalem Yuvası",
@@ -41479,9 +41509,12 @@ export const mockTablets: Product[] = [
     "releaseYear": 2013,
     "isPopular": false,
     "isFeatured": false,
-    "image": "/images/products/tablets/samsung-galaxy-tab-3-8-0-1.png",
+    "image": "/images/products/tablets/icecat-samsung-galaxy-tab-3-8-0.jpg",
     "images": [
-      "/images/products/tablets/samsung-galaxy-tab-3-8-0-1.png"
+      "/images/products/tablets/icecat-samsung-galaxy-tab-3-8-0.jpg",
+      "/images/products/tablets/icecat-samsung-galaxy-tab-3-8-0-1.jpg",
+      "/images/products/tablets/icecat-samsung-galaxy-tab-3-8-0-2.jpg",
+      "/images/products/tablets/icecat-samsung-galaxy-tab-3-8-0-3.jpg"
     ],
     "highlights": [
       "8.0\" WXGA Parlak Ekran & İnce Hafif Tasarım (314 gr)",

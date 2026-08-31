@@ -1,4 +1,4 @@
-import { ApplianceProduct, Product } from "./types";
+import { Product } from './types';
 
 export const mockAppliances: Product[] = [
   {
@@ -155,9 +155,12 @@ export const mockAppliances: Product[] = [
     "rating": 4.8,
     "epeyScore": 94,
     "reviewCount": 310,
-    "image": "/images/appliances/philips-cafe-gaia-hd7548-20.jpg",
+    "image": "/images/products/appliances/icecat-philips-cafe-gaia-hd7548-20.jpg",
     "images": [
-      "/images/appliances/philips-cafe-gaia-hd7548-20.jpg"
+      "/images/products/appliances/icecat-philips-cafe-gaia-hd7548-20.jpg",
+      "/images/products/appliances/icecat-philips-cafe-gaia-hd7548-20-1.jpg",
+      "/images/products/appliances/icecat-philips-cafe-gaia-hd7548-20-2.jpg",
+      "/images/products/appliances/icecat-philips-cafe-gaia-hd7548-20-3.jpg"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -227,9 +230,12 @@ export const mockAppliances: Product[] = [
     "rating": 4.8,
     "epeyScore": 95,
     "reviewCount": 380,
-    "image": "/images/appliances/philips-senseo-csa250-10.jpg",
+    "image": "/images/products/appliances/icecat-philips-senseo-select-csa250.jpg",
     "images": [
-      "/images/appliances/philips-senseo-csa250-10.jpg"
+      "/images/products/appliances/icecat-philips-senseo-select-csa250.jpg",
+      "/images/products/appliances/icecat-philips-senseo-select-csa250-1.jpg",
+      "/images/products/appliances/icecat-philips-senseo-select-csa250-2.jpg",
+      "/images/products/appliances/icecat-philips-senseo-select-csa250-3.jpg"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -300,9 +306,12 @@ export const mockAppliances: Product[] = [
     "rating": 4.8,
     "epeyScore": 94,
     "reviewCount": 290,
-    "image": "/images/appliances/philips-senseo-csa230-50.jpg",
+    "image": "/images/products/appliances/icecat-philips-senseo-csa230-50.jpg",
     "images": [
-      "/images/appliances/philips-senseo-csa230-50.jpg"
+      "/images/products/appliances/icecat-philips-senseo-csa230-50.jpg",
+      "/images/products/appliances/icecat-philips-senseo-csa230-50-1.jpg",
+      "/images/products/appliances/icecat-philips-senseo-csa230-50-2.jpg",
+      "/images/products/appliances/icecat-philips-senseo-csa230-50-3.jpg"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -372,9 +381,12 @@ export const mockAppliances: Product[] = [
     "rating": 4.8,
     "epeyScore": 93,
     "reviewCount": 340,
-    "image": "/images/appliances/philips-hr1565-40.png",
+    "image": "/images/products/appliances/icecat-philips-cucina-hr1565-40.jpg",
     "images": [
-      "/images/appliances/philips-hr1565-40.png"
+      "/images/products/appliances/icecat-philips-cucina-hr1565-40.jpg",
+      "/images/products/appliances/icecat-philips-cucina-hr1565-40-1.jpg",
+      "/images/products/appliances/icecat-philips-cucina-hr1565-40-2.jpg",
+      "/images/products/appliances/icecat-philips-cucina-hr1565-40-3.jpg"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -443,9 +455,12 @@ export const mockAppliances: Product[] = [
     "rating": 4.9,
     "epeyScore": 96,
     "reviewCount": 620,
-    "image": "/images/appliances/philips-hd5416-60.jpg",
+    "image": "/images/products/appliances/icecat-philips-cafe-gourmet-hd5416-60.jpg",
     "images": [
-      "/images/appliances/philips-hd5416-60.jpg"
+      "/images/products/appliances/icecat-philips-cafe-gourmet-hd5416-60.jpg",
+      "/images/products/appliances/icecat-philips-cafe-gourmet-hd5416-60-1.jpg",
+      "/images/products/appliances/icecat-philips-cafe-gourmet-hd5416-60-2.jpg",
+      "/images/products/appliances/icecat-philips-cafe-gourmet-hd5416-60-3.jpg"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -589,9 +604,9 @@ export const mockAppliances: Product[] = [
     "rating": 4.7,
     "epeyScore": 91,
     "reviewCount": 480,
-    "image": "/images/appliances/philips-hr1364.png",
+    "image": "/images/products/appliances/icecat-philips-hr1364.jpg",
     "images": [
-      "/images/appliances/philips-hr1364.png"
+      "/images/products/appliances/icecat-philips-hr1364.jpg"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -660,9 +675,12 @@ export const mockAppliances: Product[] = [
     "rating": 4.8,
     "epeyScore": 94,
     "reviewCount": 790,
-    "image": "/images/appliances/philips-hd5120-00.png",
+    "image": "/images/products/appliances/icecat-philips-eco-conscious-edition-hd5120-00.jpg",
     "images": [
-      "/images/appliances/philips-hd5120-00.png"
+      "/images/products/appliances/icecat-philips-eco-conscious-edition-hd5120-00.jpg",
+      "/images/products/appliances/icecat-philips-eco-conscious-edition-hd5120-00-1.jpg",
+      "/images/products/appliances/icecat-philips-eco-conscious-edition-hd5120-00-2.jpg",
+      "/images/products/appliances/icecat-philips-eco-conscious-edition-hd5120-00-3.jpg"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -733,9 +751,12 @@ export const mockAppliances: Product[] = [
     "rating": 4.8,
     "epeyScore": 94,
     "reviewCount": 3800,
-    "image": "/images/appliances/philips-hd7462-20.png",
+    "image": "/images/products/appliances/icecat-philips-hd7462-20-daily-collection.jpg",
     "images": [
-      "/images/appliances/philips-hd7462-20.png"
+      "/images/products/appliances/icecat-philips-hd7462-20-daily-collection.jpg",
+      "/images/products/appliances/icecat-philips-hd7462-20-daily-collection-1.jpg",
+      "/images/products/appliances/icecat-philips-hd7462-20-daily-collection-2.jpg",
+      "/images/products/appliances/icecat-philips-hd7462-20-daily-collection-3.jpg"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -805,9 +826,12 @@ export const mockAppliances: Product[] = [
     "rating": 4.8,
     "epeyScore": 93,
     "reviewCount": 3100,
-    "image": "/images/appliances/philips-hd7461-20.png",
+    "image": "/images/products/appliances/icecat-philips-daily-collection-hd7461.jpg",
     "images": [
-      "/images/appliances/philips-hd7461-20.png"
+      "/images/products/appliances/icecat-philips-daily-collection-hd7461.jpg",
+      "/images/products/appliances/icecat-philips-daily-collection-hd7461-1.jpg",
+      "/images/products/appliances/icecat-philips-daily-collection-hd7461-2.jpg",
+      "/images/products/appliances/icecat-philips-daily-collection-hd7461-3.jpg"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -877,9 +901,12 @@ export const mockAppliances: Product[] = [
     "rating": 4.8,
     "epeyScore": 94,
     "reviewCount": 3600,
-    "image": "/images/appliances/philips-hd7459-filtre-kahve-makinesi.png",
+    "image": "/images/products/appliances/icecat-philips-daily-collection-hd7459-20.jpg",
     "images": [
-      "/images/appliances/philips-hd7459-filtre-kahve-makinesi.png"
+      "/images/products/appliances/icecat-philips-daily-collection-hd7459-20.jpg",
+      "/images/products/appliances/icecat-philips-daily-collection-hd7459-20-1.jpg",
+      "/images/products/appliances/icecat-philips-daily-collection-hd7459-20-2.jpg",
+      "/images/products/appliances/icecat-philips-daily-collection-hd7459-20-3.jpg"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -950,9 +977,9 @@ export const mockAppliances: Product[] = [
     "rating": 4.8,
     "epeyScore": 93,
     "reviewCount": 310,
-    "image": "/images/appliances/philips-gc4860-22.png",
+    "image": "/images/products/appliances/icecat-philips-gc4860-22.jpg",
     "images": [
-      "/images/appliances/philips-gc4860-22.png"
+      "/images/products/appliances/icecat-philips-gc4860-22.jpg"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -1023,9 +1050,9 @@ export const mockAppliances: Product[] = [
     "rating": 4.8,
     "epeyScore": 94,
     "reviewCount": 380,
-    "image": "/images/appliances/philips-gc4870-35.jpg",
+    "image": "/images/products/appliances/icecat-philips-azur-gc4870-35.jpg",
     "images": [
-      "/images/appliances/philips-gc4870-35.jpg"
+      "/images/products/appliances/icecat-philips-azur-gc4870-35.jpg"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -1097,9 +1124,9 @@ export const mockAppliances: Product[] = [
     "rating": 4.8,
     "epeyScore": 93,
     "reviewCount": 420,
-    "image": "/images/appliances/philips-gc4870-22.png",
+    "image": "/images/products/appliances/icecat-philips-azur-gc4870-22.jpg",
     "images": [
-      "/images/appliances/philips-gc4870-22.png"
+      "/images/products/appliances/icecat-philips-azur-gc4870-22.jpg"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -1170,9 +1197,9 @@ export const mockAppliances: Product[] = [
     "rating": 4.8,
     "epeyScore": 95,
     "reviewCount": 520,
-    "image": "/images/appliances/philips-gc4930-11.jpg",
+    "image": "/images/products/appliances/icecat-philips-gc4930-11.jpg",
     "images": [
-      "/images/appliances/philips-gc4930-11.jpg"
+      "/images/products/appliances/icecat-philips-gc4930-11.jpg"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -1244,9 +1271,12 @@ export const mockAppliances: Product[] = [
     "rating": 4.7,
     "epeyScore": 92,
     "reviewCount": 380,
-    "image": "/images/appliances/philips-gc4551-20.png",
+    "image": "/images/products/appliances/icecat-philips-gc4551-20.jpg",
     "images": [
-      "/images/appliances/philips-gc4551-20.png"
+      "/images/products/appliances/icecat-philips-gc4551-20.jpg",
+      "/images/products/appliances/icecat-philips-gc4551-20-1.jpg",
+      "/images/products/appliances/icecat-philips-gc4551-20-2.jpg",
+      "/images/products/appliances/icecat-philips-gc4551-20-3.jpg"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -1317,9 +1347,12 @@ export const mockAppliances: Product[] = [
     "rating": 4.8,
     "epeyScore": 93,
     "reviewCount": 460,
-    "image": "/images/appliances/philips-gc4567-80.jpg",
+    "image": "/images/products/appliances/icecat-philips-azur-gc4567-80.jpg",
     "images": [
-      "/images/appliances/philips-gc4567-80.jpg"
+      "/images/products/appliances/icecat-philips-azur-gc4567-80.jpg",
+      "/images/products/appliances/icecat-philips-azur-gc4567-80-1.jpg",
+      "/images/products/appliances/icecat-philips-azur-gc4567-80-2.jpg",
+      "/images/products/appliances/icecat-philips-azur-gc4567-80-3.jpg"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -1391,9 +1424,12 @@ export const mockAppliances: Product[] = [
     "rating": 4.8,
     "epeyScore": 94,
     "reviewCount": 680,
-    "image": "/images/appliances/philips-gc3929-64.jpg",
+    "image": "/images/products/appliances/icecat-philips-perfectcare-gc3929-64.jpg",
     "images": [
-      "/images/appliances/philips-gc3929-64.jpg"
+      "/images/products/appliances/icecat-philips-perfectcare-gc3929-64.jpg",
+      "/images/products/appliances/icecat-philips-perfectcare-gc3929-64-1.jpg",
+      "/images/products/appliances/icecat-philips-perfectcare-gc3929-64-2.jpg",
+      "/images/products/appliances/icecat-philips-perfectcare-gc3929-64-3.jpg"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -1464,9 +1500,12 @@ export const mockAppliances: Product[] = [
     "rating": 4.7,
     "epeyScore": 92,
     "reviewCount": 420,
-    "image": "/images/appliances/philips-gc4554-40.png",
+    "image": "/images/products/appliances/icecat-philips-azur-gc4554-40.jpg",
     "images": [
-      "/images/appliances/philips-gc4554-40.png"
+      "/images/products/appliances/icecat-philips-azur-gc4554-40.jpg",
+      "/images/products/appliances/icecat-philips-azur-gc4554-40-1.jpg",
+      "/images/products/appliances/icecat-philips-azur-gc4554-40-2.jpg",
+      "/images/products/appliances/icecat-philips-azur-gc4554-40-3.jpg"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -1537,9 +1576,9 @@ export const mockAppliances: Product[] = [
     "rating": 4.7,
     "epeyScore": 91,
     "reviewCount": 390,
-    "image": "/images/appliances/philips-gc4850-22.png",
+    "image": "/images/products/appliances/icecat-philips-azur-gc4850-22.jpg",
     "images": [
-      "/images/appliances/philips-gc4850-22.png"
+      "/images/products/appliances/icecat-philips-azur-gc4850-22.jpg"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -1610,9 +1649,12 @@ export const mockAppliances: Product[] = [
     "rating": 4.7,
     "epeyScore": 92,
     "reviewCount": 450,
-    "image": "/images/appliances/philips-gc4552-00.jpg",
+    "image": "/images/products/appliances/icecat-philips-azur-gc4552-00.jpg",
     "images": [
-      "/images/appliances/philips-gc4552-00.jpg"
+      "/images/products/appliances/icecat-philips-azur-gc4552-00.jpg",
+      "/images/products/appliances/icecat-philips-azur-gc4552-00-1.jpg",
+      "/images/products/appliances/icecat-philips-azur-gc4552-00-2.jpg",
+      "/images/products/appliances/icecat-philips-azur-gc4552-00-3.jpg"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -1684,9 +1726,12 @@ export const mockAppliances: Product[] = [
     "rating": 4.7,
     "epeyScore": 92,
     "reviewCount": 890,
-    "image": "/images/appliances/philips-dst3040-70.jpg",
+    "image": "/images/products/appliances/icecat-philips-dst3040-70.jpg",
     "images": [
-      "/images/appliances/philips-dst3040-70.jpg"
+      "/images/products/appliances/icecat-philips-dst3040-70.jpg",
+      "/images/products/appliances/icecat-philips-dst3040-70-1.jpg",
+      "/images/products/appliances/icecat-philips-dst3040-70-2.jpg",
+      "/images/products/appliances/icecat-philips-dst3040-70-3.jpg"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -1757,9 +1802,9 @@ export const mockAppliances: Product[] = [
     "rating": 4.7,
     "epeyScore": 92,
     "reviewCount": 780,
-    "image": "/images/appliances/philips-gc4860-37.png",
+    "image": "/images/products/appliances/icecat-philips-azur-gc4860-37.jpg",
     "images": [
-      "/images/appliances/philips-gc4860-37.png"
+      "/images/products/appliances/icecat-philips-azur-gc4860-37.jpg"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -1830,9 +1875,12 @@ export const mockAppliances: Product[] = [
     "rating": 4.7,
     "epeyScore": 91,
     "reviewCount": 920,
-    "image": "/images/appliances/philips-gc4537-70.png",
+    "image": "/images/products/appliances/icecat-philips-azur-steam-iron-gc4537-70.jpg",
     "images": [
-      "/images/appliances/philips-gc4537-70.png"
+      "/images/products/appliances/icecat-philips-azur-steam-iron-gc4537-70.jpg",
+      "/images/products/appliances/icecat-philips-azur-steam-iron-gc4537-70-1.jpg",
+      "/images/products/appliances/icecat-philips-azur-steam-iron-gc4537-70-2.jpg",
+      "/images/products/appliances/icecat-philips-azur-steam-iron-gc4537-70-3.jpg"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -1903,9 +1951,12 @@ export const mockAppliances: Product[] = [
     "rating": 4.8,
     "epeyScore": 94,
     "reviewCount": 2600,
-    "image": "/images/appliances/philips-dst7022-40.jpg",
+    "image": "/images/products/appliances/icecat-philips-dst7022-40.jpg",
     "images": [
-      "/images/appliances/philips-dst7022-40.jpg"
+      "/images/products/appliances/icecat-philips-dst7022-40.jpg",
+      "/images/products/appliances/icecat-philips-dst7022-40-1.jpg",
+      "/images/products/appliances/icecat-philips-dst7022-40-2.jpg",
+      "/images/products/appliances/icecat-philips-dst7022-40-3.jpg"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -1976,9 +2027,12 @@ export const mockAppliances: Product[] = [
     "rating": 4.8,
     "epeyScore": 94,
     "reviewCount": 420,
-    "image": "/images/appliances/philips-hr7310-00.png",
+    "image": "/images/products/appliances/icecat-philips-hr7310-00.jpg",
     "images": [
-      "/images/appliances/philips-hr7310-00.png"
+      "/images/products/appliances/icecat-philips-hr7310-00.jpg",
+      "/images/products/appliances/icecat-philips-hr7310-00-1.jpg",
+      "/images/products/appliances/icecat-philips-hr7310-00-2.jpg",
+      "/images/products/appliances/icecat-philips-hr7310-00-3.jpg"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -2047,9 +2101,12 @@ export const mockAppliances: Product[] = [
     "rating": 4.8,
     "epeyScore": 93,
     "reviewCount": 1900,
-    "image": "/images/appliances/philips-hd7546-20.png",
+    "image": "/images/products/appliances/icecat-philips-hd7546-20-cafe-gaia.jpg",
     "images": [
-      "/images/appliances/philips-hd7546-20.png"
+      "/images/products/appliances/icecat-philips-hd7546-20-cafe-gaia.jpg",
+      "/images/products/appliances/icecat-philips-hd7546-20-cafe-gaia-1.jpg",
+      "/images/products/appliances/icecat-philips-hd7546-20-cafe-gaia-2.jpg",
+      "/images/products/appliances/icecat-philips-hd7546-20-cafe-gaia-3.jpg"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -2120,9 +2177,9 @@ export const mockAppliances: Product[] = [
     "rating": 4.9,
     "epeyScore": 98,
     "reviewCount": 780,
-    "image": "/images/appliances/philips-hc9450-20.jpg",
+    "image": "/images/products/appliances/icecat-philips-9000-serisi-hc9450-20.jpg",
     "images": [
-      "/images/appliances/philips-hc9450-20.jpg"
+      "/images/products/appliances/icecat-philips-9000-serisi-hc9450-20.jpg"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -2192,9 +2249,12 @@ export const mockAppliances: Product[] = [
     "rating": 4.8,
     "epeyScore": 95,
     "reviewCount": 340,
-    "image": "/images/appliances/philips-gc4909-60.jpg",
+    "image": "/images/products/appliances/icecat-philips-azur-gc4909-60.jpg",
     "images": [
-      "/images/appliances/philips-gc4909-60.jpg"
+      "/images/products/appliances/icecat-philips-azur-gc4909-60.jpg",
+      "/images/products/appliances/icecat-philips-azur-gc4909-60-1.jpg",
+      "/images/products/appliances/icecat-philips-azur-gc4909-60-2.jpg",
+      "/images/products/appliances/icecat-philips-azur-gc4909-60-3.jpg"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -2265,9 +2325,12 @@ export const mockAppliances: Product[] = [
     "rating": 4.8,
     "epeyScore": 96,
     "reviewCount": 480,
-    "image": "/images/appliances/philips-dst8020-20.png",
+    "image": "/images/products/appliances/icecat-philips-azur-8000-dst8020-20.jpg",
     "images": [
-      "/images/appliances/philips-dst8020-20.png"
+      "/images/products/appliances/icecat-philips-azur-8000-dst8020-20.jpg",
+      "/images/products/appliances/icecat-philips-azur-8000-dst8020-20-1.jpg",
+      "/images/products/appliances/icecat-philips-azur-8000-dst8020-20-2.jpg",
+      "/images/products/appliances/icecat-philips-azur-8000-dst8020-20-3.jpg"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -2339,9 +2402,9 @@ export const mockAppliances: Product[] = [
     "rating": 4.7,
     "epeyScore": 93,
     "reviewCount": 280,
-    "image": "/images/appliances/philips-gc5060-02.jpg",
+    "image": "/images/products/appliances/icecat-philips-perfectcare-xpress-gc5060-02.jpg",
     "images": [
-      "/images/appliances/philips-gc5060-02.jpg"
+      "/images/products/appliances/icecat-philips-perfectcare-xpress-gc5060-02.jpg"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -2412,9 +2475,12 @@ export const mockAppliances: Product[] = [
     "rating": 4.7,
     "epeyScore": 92,
     "reviewCount": 310,
-    "image": "/images/appliances/philips-gc4902-20.jpg",
+    "image": "/images/products/appliances/icecat-philips-gc4902-20.jpg",
     "images": [
-      "/images/appliances/philips-gc4902-20.jpg"
+      "/images/products/appliances/icecat-philips-gc4902-20.jpg",
+      "/images/products/appliances/icecat-philips-gc4902-20-1.jpg",
+      "/images/products/appliances/icecat-philips-gc4902-20-2.jpg",
+      "/images/products/appliances/icecat-philips-gc4902-20-3.jpg"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -2485,9 +2551,12 @@ export const mockAppliances: Product[] = [
     "rating": 4.8,
     "epeyScore": 94,
     "reviewCount": 520,
-    "image": "/images/appliances/philips-gc4905-40.jpg",
+    "image": "/images/products/appliances/icecat-philips-azur-gc4905-40.jpg",
     "images": [
-      "/images/appliances/philips-gc4905-40.jpg"
+      "/images/products/appliances/icecat-philips-azur-gc4905-40.jpg",
+      "/images/products/appliances/icecat-philips-azur-gc4905-40-1.jpg",
+      "/images/products/appliances/icecat-philips-azur-gc4905-40-2.jpg",
+      "/images/products/appliances/icecat-philips-azur-gc4905-40-3.jpg"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -2559,9 +2628,12 @@ export const mockAppliances: Product[] = [
     "rating": 4.8,
     "epeyScore": 95,
     "reviewCount": 620,
-    "image": "/images/appliances/philips-gc5034-20.png",
+    "image": "/images/products/appliances/icecat-philips-gc5034-20.jpg",
     "images": [
-      "/images/appliances/philips-gc5034-20.png"
+      "/images/products/appliances/icecat-philips-gc5034-20.jpg",
+      "/images/products/appliances/icecat-philips-gc5034-20-1.jpg",
+      "/images/products/appliances/icecat-philips-gc5034-20-2.jpg",
+      "/images/products/appliances/icecat-philips-gc5034-20-3.jpg"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -2632,9 +2704,12 @@ export const mockAppliances: Product[] = [
     "rating": 4.8,
     "epeyScore": 95,
     "reviewCount": 940,
-    "image": "/images/appliances/philips-dst8021-30.jpg",
+    "image": "/images/products/appliances/icecat-philips-azur-8000-dst8021-30.jpg",
     "images": [
-      "/images/appliances/philips-dst8021-30.jpg"
+      "/images/products/appliances/icecat-philips-azur-8000-dst8021-30.jpg",
+      "/images/products/appliances/icecat-philips-azur-8000-dst8021-30-1.jpg",
+      "/images/products/appliances/icecat-philips-azur-8000-dst8021-30-2.jpg",
+      "/images/products/appliances/icecat-philips-azur-8000-dst8021-30-3.jpg"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -2705,9 +2780,12 @@ export const mockAppliances: Product[] = [
     "rating": 4.8,
     "epeyScore": 94,
     "reviewCount": 450,
-    "image": "/images/appliances/philips-dst7051-30.jpg",
+    "image": "/images/products/appliances/icecat-philips-azur-7000-dst7051-30.jpg",
     "images": [
-      "/images/appliances/philips-dst7051-30.jpg"
+      "/images/products/appliances/icecat-philips-azur-7000-dst7051-30.jpg",
+      "/images/products/appliances/icecat-philips-azur-7000-dst7051-30-1.jpg",
+      "/images/products/appliances/icecat-philips-azur-7000-dst7051-30-2.jpg",
+      "/images/products/appliances/icecat-philips-azur-7000-dst7051-30-3.jpg"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -2779,9 +2857,12 @@ export const mockAppliances: Product[] = [
     "rating": 4.7,
     "epeyScore": 92,
     "reviewCount": 880,
-    "image": "/images/appliances/philips-gc4564-20.jpg",
+    "image": "/images/products/appliances/icecat-philips-azur-gc4564-20.jpg",
     "images": [
-      "/images/appliances/philips-gc4564-20.jpg"
+      "/images/products/appliances/icecat-philips-azur-gc4564-20.jpg",
+      "/images/products/appliances/icecat-philips-azur-gc4564-20-1.jpg",
+      "/images/products/appliances/icecat-philips-azur-gc4564-20-2.jpg",
+      "/images/products/appliances/icecat-philips-azur-gc4564-20-3.jpg"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -2852,9 +2933,12 @@ export const mockAppliances: Product[] = [
     "rating": 4.8,
     "epeyScore": 94,
     "reviewCount": 1600,
-    "image": "/images/appliances/philips-dst7020-20.jpg",
+    "image": "/images/products/appliances/icecat-philips-azur-dst7020-20.jpg",
     "images": [
-      "/images/appliances/philips-dst7020-20.jpg"
+      "/images/products/appliances/icecat-philips-azur-dst7020-20.jpg",
+      "/images/products/appliances/icecat-philips-azur-dst7020-20-1.jpg",
+      "/images/products/appliances/icecat-philips-azur-dst7020-20-2.jpg",
+      "/images/products/appliances/icecat-philips-azur-dst7020-20-3.jpg"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -2925,9 +3009,12 @@ export const mockAppliances: Product[] = [
     "rating": 4.8,
     "epeyScore": 94,
     "reviewCount": 1900,
-    "image": "/images/appliances/philips-dst7040-80.jpg",
+    "image": "/images/products/appliances/icecat-philips-7000-dst7040-80.jpg",
     "images": [
-      "/images/appliances/philips-dst7040-80.jpg"
+      "/images/products/appliances/icecat-philips-7000-dst7040-80.jpg",
+      "/images/products/appliances/icecat-philips-7000-dst7040-80-1.jpg",
+      "/images/products/appliances/icecat-philips-7000-dst7040-80-2.jpg",
+      "/images/products/appliances/icecat-philips-7000-dst7040-80-3.jpg"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -2998,9 +3085,12 @@ export const mockAppliances: Product[] = [
     "rating": 4.8,
     "epeyScore": 94,
     "reviewCount": 1400,
-    "image": "/images/appliances/philips-dst7031-70.jpg",
+    "image": "/images/products/appliances/icecat-philips-dst7031-70.jpg",
     "images": [
-      "/images/appliances/philips-dst7031-70.jpg"
+      "/images/products/appliances/icecat-philips-dst7031-70.jpg",
+      "/images/products/appliances/icecat-philips-dst7031-70-1.jpg",
+      "/images/products/appliances/icecat-philips-dst7031-70-2.jpg",
+      "/images/products/appliances/icecat-philips-dst7031-70-3.jpg"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -3072,9 +3162,12 @@ export const mockAppliances: Product[] = [
     "rating": 4.8,
     "epeyScore": 94,
     "reviewCount": 2200,
-    "image": "/images/appliances/philips-dst7041-20.jpg",
+    "image": "/images/products/appliances/icecat-philips-7000-dst7041-20.jpg",
     "images": [
-      "/images/appliances/philips-dst7041-20.jpg"
+      "/images/products/appliances/icecat-philips-7000-dst7041-20.jpg",
+      "/images/products/appliances/icecat-philips-7000-dst7041-20-1.jpg",
+      "/images/products/appliances/icecat-philips-7000-dst7041-20-2.jpg",
+      "/images/products/appliances/icecat-philips-7000-dst7041-20-3.jpg"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -3145,9 +3238,12 @@ export const mockAppliances: Product[] = [
     "rating": 4.8,
     "epeyScore": 94,
     "reviewCount": 2400,
-    "image": "/images/appliances/philips-dst7030-20.jpg",
+    "image": "/images/products/appliances/icecat-philips-7000-series-dst7030-20.jpg",
     "images": [
-      "/images/appliances/philips-dst7030-20.jpg"
+      "/images/products/appliances/icecat-philips-7000-series-dst7030-20.jpg",
+      "/images/products/appliances/icecat-philips-7000-series-dst7030-20-1.jpg",
+      "/images/products/appliances/icecat-philips-7000-series-dst7030-20-2.jpg",
+      "/images/products/appliances/icecat-philips-7000-series-dst7030-20-3.jpg"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -3218,9 +3314,12 @@ export const mockAppliances: Product[] = [
     "rating": 4.8,
     "epeyScore": 94,
     "reviewCount": 520,
-    "image": "/images/appliances/philips-l-or-barista-lm8012-60.jpg",
+    "image": "/images/products/appliances/icecat-philips-l-or-barista-lm8012-60.jpg",
     "images": [
-      "/images/appliances/philips-l-or-barista-lm8012-60.jpg"
+      "/images/products/appliances/icecat-philips-l-or-barista-lm8012-60.jpg",
+      "/images/products/appliances/icecat-philips-l-or-barista-lm8012-60-1.jpg",
+      "/images/products/appliances/icecat-philips-l-or-barista-lm8012-60-2.jpg",
+      "/images/products/appliances/icecat-philips-l-or-barista-lm8012-60-3.jpg"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -3292,9 +3391,11 @@ export const mockAppliances: Product[] = [
     "rating": 4.9,
     "epeyScore": 97,
     "reviewCount": 380,
-    "image": "/images/appliances/philips-hd7888-01-all-in-1-brew.jpg",
+    "image": "/images/products/appliances/icecat-philips-hd7888-01-all-in-1-brew.jpg",
     "images": [
-      "/images/appliances/philips-hd7888-01-all-in-1-brew.jpg"
+      "/images/products/appliances/icecat-philips-hd7888-01-all-in-1-brew.jpg",
+      "/images/products/appliances/icecat-philips-hd7888-01-all-in-1-brew-1.jpg",
+      "/images/products/appliances/icecat-philips-hd7888-01-all-in-1-brew-2.jpg"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -3365,9 +3466,12 @@ export const mockAppliances: Product[] = [
     "rating": 4.8,
     "epeyScore": 94,
     "reviewCount": 310,
-    "image": "/images/appliances/philips-hr2203-80.jpg",
+    "image": "/images/products/appliances/icecat-philips-hr2203-80-soupmaker.jpg",
     "images": [
-      "/images/appliances/philips-hr2203-80.jpg"
+      "/images/products/appliances/icecat-philips-hr2203-80-soupmaker.jpg",
+      "/images/products/appliances/icecat-philips-hr2203-80-soupmaker-1.jpg",
+      "/images/products/appliances/icecat-philips-hr2203-80-soupmaker-2.jpg",
+      "/images/products/appliances/icecat-philips-hr2203-80-soupmaker-3.jpg"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -3437,9 +3541,12 @@ export const mockAppliances: Product[] = [
     "rating": 4.8,
     "epeyScore": 93,
     "reviewCount": 290,
-    "image": "/images/appliances/philips-hd9365-10.png",
+    "image": "/images/products/appliances/icecat-philips-hd9365-10.jpg",
     "images": [
-      "/images/appliances/philips-hd9365-10.png"
+      "/images/products/appliances/icecat-philips-hd9365-10.jpg",
+      "/images/products/appliances/icecat-philips-hd9365-10-1.jpg",
+      "/images/products/appliances/icecat-philips-hd9365-10-2.jpg",
+      "/images/products/appliances/icecat-philips-hd9365-10-3.jpg"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -3508,9 +3615,12 @@ export const mockAppliances: Product[] = [
     "rating": 4.8,
     "epeyScore": 94,
     "reviewCount": 2900,
-    "image": "/images/appliances/philips-5000-hd9339-80.jpg",
+    "image": "/images/products/appliances/icecat-philips-5000-hd9339-80.jpg",
     "images": [
-      "/images/appliances/philips-5000-hd9339-80.jpg"
+      "/images/products/appliances/icecat-philips-5000-hd9339-80.jpg",
+      "/images/products/appliances/icecat-philips-5000-hd9339-80-1.jpg",
+      "/images/products/appliances/icecat-philips-5000-hd9339-80-2.jpg",
+      "/images/products/appliances/icecat-philips-5000-hd9339-80-3.jpg"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -3579,9 +3689,12 @@ export const mockAppliances: Product[] = [
     "rating": 4.8,
     "epeyScore": 92,
     "reviewCount": 3400,
-    "image": "/images/appliances/philips-hd2581.png",
+    "image": "/images/products/appliances/icecat-philips-hd2581.jpg",
     "images": [
-      "/images/appliances/philips-hd2581.png"
+      "/images/products/appliances/icecat-philips-hd2581.jpg",
+      "/images/products/appliances/icecat-philips-hd2581-1.jpg",
+      "/images/products/appliances/icecat-philips-hd2581-2.jpg",
+      "/images/products/appliances/icecat-philips-hd2581-3.jpg"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -3650,9 +3763,12 @@ export const mockAppliances: Product[] = [
     "rating": 4.7,
     "epeyScore": 90,
     "reviewCount": 2100,
-    "image": "/images/appliances/philips-hd9318-20.png",
+    "image": "/images/products/appliances/icecat-philips-hd9318-20.jpg",
     "images": [
-      "/images/appliances/philips-hd9318-20.png"
+      "/images/products/appliances/icecat-philips-hd9318-20.jpg",
+      "/images/products/appliances/icecat-philips-hd9318-20-1.jpg",
+      "/images/products/appliances/icecat-philips-hd9318-20-2.jpg",
+      "/images/products/appliances/icecat-philips-hd9318-20-3.jpg"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -3721,9 +3837,12 @@ export const mockAppliances: Product[] = [
     "rating": 4.9,
     "epeyScore": 98,
     "reviewCount": 420,
-    "image": "/images/appliances/philips-gc5037-80.jpg",
+    "image": "/images/products/appliances/icecat-philips-azur-elite-gc5037-80.jpg",
     "images": [
-      "/images/appliances/philips-gc5037-80.jpg"
+      "/images/products/appliances/icecat-philips-azur-elite-gc5037-80.jpg",
+      "/images/products/appliances/icecat-philips-azur-elite-gc5037-80-1.jpg",
+      "/images/products/appliances/icecat-philips-azur-elite-gc5037-80-2.jpg",
+      "/images/products/appliances/icecat-philips-azur-elite-gc5037-80-3.jpg"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -3794,9 +3913,12 @@ export const mockAppliances: Product[] = [
     "rating": 4.7,
     "epeyScore": 90,
     "reviewCount": 190,
-    "image": "/images/appliances/philips-hi5910-20.png",
+    "image": "/images/products/appliances/icecat-philips-hi5910-20.jpg",
     "images": [
-      "/images/appliances/philips-hi5910-20.png"
+      "/images/products/appliances/icecat-philips-hi5910-20.jpg",
+      "/images/products/appliances/icecat-philips-hi5910-20-1.jpg",
+      "/images/products/appliances/icecat-philips-hi5910-20-2.jpg",
+      "/images/products/appliances/icecat-philips-hi5910-20-3.jpg"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -3869,9 +3991,9 @@ export const mockAppliances: Product[] = [
     "rating": 4.8,
     "epeyScore": 96,
     "reviewCount": 380,
-    "image": "/images/appliances/philips-gc5032-20.jpg",
+    "image": "/images/products/appliances/icecat-philips-azur-elite-gc5032-20.jpg",
     "images": [
-      "/images/appliances/philips-gc5032-20.jpg"
+      "/images/products/appliances/icecat-philips-azur-elite-gc5032-20.jpg"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -3942,9 +4064,12 @@ export const mockAppliances: Product[] = [
     "rating": 4.8,
     "epeyScore": 95,
     "reviewCount": 310,
-    "image": "/images/appliances/philips-gc5036-20.jpg",
+    "image": "/images/products/appliances/icecat-philips-gc5036-20.jpg",
     "images": [
-      "/images/appliances/philips-gc5036-20.jpg"
+      "/images/products/appliances/icecat-philips-gc5036-20.jpg",
+      "/images/products/appliances/icecat-philips-gc5036-20-1.jpg",
+      "/images/products/appliances/icecat-philips-gc5036-20-2.jpg",
+      "/images/products/appliances/icecat-philips-gc5036-20-3.jpg"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -4015,9 +4140,12 @@ export const mockAppliances: Product[] = [
     "rating": 4.9,
     "epeyScore": 97,
     "reviewCount": 1800,
-    "image": "/images/appliances/philips-dst8050-20.jpg",
+    "image": "/images/products/appliances/icecat-philips-azur-8000-dst8050-20.jpg",
     "images": [
-      "/images/appliances/philips-dst8050-20.jpg"
+      "/images/products/appliances/icecat-philips-azur-8000-dst8050-20.jpg",
+      "/images/products/appliances/icecat-philips-azur-8000-dst8050-20-1.jpg",
+      "/images/products/appliances/icecat-philips-azur-8000-dst8050-20-2.jpg",
+      "/images/products/appliances/icecat-philips-azur-8000-dst8050-20-3.jpg"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -4089,9 +4217,12 @@ export const mockAppliances: Product[] = [
     "rating": 4.8,
     "epeyScore": 96,
     "reviewCount": 1400,
-    "image": "/images/appliances/philips-dst8040-30.jpg",
+    "image": "/images/products/appliances/icecat-philips-azur-8000-dst8040-30.jpg",
     "images": [
-      "/images/appliances/philips-dst8040-30.jpg"
+      "/images/products/appliances/icecat-philips-azur-8000-dst8040-30.jpg",
+      "/images/products/appliances/icecat-philips-azur-8000-dst8040-30-1.jpg",
+      "/images/products/appliances/icecat-philips-azur-8000-dst8040-30-2.jpg",
+      "/images/products/appliances/icecat-philips-azur-8000-dst8040-30-3.jpg"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -4162,9 +4293,12 @@ export const mockAppliances: Product[] = [
     "rating": 4.8,
     "epeyScore": 95,
     "reviewCount": 980,
-    "image": "/images/appliances/philips-dst8030-70.jpg",
+    "image": "/images/products/appliances/icecat-philips-azur-dst8030-70.jpg",
     "images": [
-      "/images/appliances/philips-dst8030-70.jpg"
+      "/images/products/appliances/icecat-philips-azur-dst8030-70.jpg",
+      "/images/products/appliances/icecat-philips-azur-dst8030-70-1.jpg",
+      "/images/products/appliances/icecat-philips-azur-dst8030-70-2.jpg",
+      "/images/products/appliances/icecat-philips-azur-dst8030-70-3.jpg"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -4235,9 +4369,12 @@ export const mockAppliances: Product[] = [
     "rating": 4.8,
     "epeyScore": 95,
     "reviewCount": 1600,
-    "image": "/images/appliances/philips-dst7510-80.jpg",
+    "image": "/images/products/appliances/icecat-philips-azur-dst7510-80.jpg",
     "images": [
-      "/images/appliances/philips-dst7510-80.jpg"
+      "/images/products/appliances/icecat-philips-azur-dst7510-80.jpg",
+      "/images/products/appliances/icecat-philips-azur-dst7510-80-1.jpg",
+      "/images/products/appliances/icecat-philips-azur-dst7510-80-2.jpg",
+      "/images/products/appliances/icecat-philips-azur-dst7510-80-3.jpg"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -4309,9 +4446,12 @@ export const mockAppliances: Product[] = [
     "rating": 4.8,
     "epeyScore": 94,
     "reviewCount": 1100,
-    "image": "/images/appliances/philips-dst7061-30.jpg",
+    "image": "/images/products/appliances/icecat-philips-azur-dst7061-30.jpg",
     "images": [
-      "/images/appliances/philips-dst7061-30.jpg"
+      "/images/products/appliances/icecat-philips-azur-dst7061-30.jpg",
+      "/images/products/appliances/icecat-philips-azur-dst7061-30-1.jpg",
+      "/images/products/appliances/icecat-philips-azur-dst7061-30-2.jpg",
+      "/images/products/appliances/icecat-philips-azur-dst7061-30-3.jpg"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -4382,9 +4522,10 @@ export const mockAppliances: Product[] = [
     "rating": 4.8,
     "epeyScore": 95,
     "reviewCount": 1500,
-    "image": "/images/appliances/philips-dst7511-80.jpg",
+    "image": "/images/products/appliances/icecat-philips-dst7511-80.jpg",
     "images": [
-      "/images/appliances/philips-dst7511-80.jpg"
+      "/images/products/appliances/icecat-philips-dst7511-80.jpg",
+      "/images/products/appliances/icecat-philips-dst7511-80-1.jpg"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -4455,9 +4596,10 @@ export const mockAppliances: Product[] = [
     "rating": 4.7,
     "epeyScore": 90,
     "reviewCount": 180,
-    "image": "/images/appliances/philips-bhd029-00.jpg",
+    "image": "/images/products/appliances/icecat-philips-bhd029-00.jpg",
     "images": [
-      "/images/appliances/philips-bhd029-00.jpg"
+      "/images/products/appliances/icecat-philips-bhd029-00.jpg",
+      "/images/products/appliances/icecat-philips-bhd029-00-1.jpg"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -4525,9 +4667,9 @@ export const mockAppliances: Product[] = [
     "rating": 4.7,
     "epeyScore": 91,
     "reviewCount": 220,
-    "image": "/images/appliances/philips-hp4935-22.jpg",
+    "image": "/images/products/appliances/icecat-philips-hp4935-22.jpg",
     "images": [
-      "/images/appliances/philips-hp4935-22.jpg"
+      "/images/products/appliances/icecat-philips-hp4935-22.jpg"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -4596,9 +4738,10 @@ export const mockAppliances: Product[] = [
     "rating": 4.8,
     "epeyScore": 93,
     "reviewCount": 340,
-    "image": "/images/appliances/philips-bhd274-00.jpg",
+    "image": "/images/products/appliances/icecat-philips-bhd274-00.jpg",
     "images": [
-      "/images/appliances/philips-bhd274-00.jpg"
+      "/images/products/appliances/icecat-philips-bhd274-00.jpg",
+      "/images/products/appliances/icecat-philips-bhd274-00-1.jpg"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -4666,9 +4809,11 @@ export const mockAppliances: Product[] = [
     "rating": 4.8,
     "epeyScore": 94,
     "reviewCount": 2200,
-    "image": "/images/appliances/philips-hc5630-15.jpg",
+    "image": "/images/products/appliances/icecat-philips-hc5630-15.jpg",
     "images": [
-      "/images/appliances/philips-hc5630-15.jpg"
+      "/images/products/appliances/icecat-philips-hc5630-15.jpg",
+      "/images/products/appliances/icecat-philips-hc5630-15-1.jpg",
+      "/images/products/appliances/icecat-philips-hc5630-15-2.jpg"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -4739,9 +4884,12 @@ export const mockAppliances: Product[] = [
     "rating": 4.7,
     "epeyScore": 92,
     "reviewCount": 3800,
-    "image": "/images/appliances/philips-mg3710-15.jpg",
+    "image": "/images/products/appliances/icecat-philips-mg3710-15.jpg",
     "images": [
-      "/images/appliances/philips-mg3710-15.jpg"
+      "/images/products/appliances/icecat-philips-mg3710-15.jpg",
+      "/images/products/appliances/icecat-philips-mg3710-15-1.jpg",
+      "/images/products/appliances/icecat-philips-mg3710-15-2.jpg",
+      "/images/products/appliances/icecat-philips-mg3710-15-3.jpg"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -4810,9 +4958,10 @@ export const mockAppliances: Product[] = [
     "rating": 4.8,
     "epeyScore": 93,
     "reviewCount": 3100,
-    "image": "/images/appliances/philips-bhd350-10.png",
+    "image": "/images/products/appliances/icecat-philips-3000-serisi-bhd350-10.jpg",
     "images": [
-      "/images/appliances/philips-bhd350-10.png"
+      "/images/products/appliances/icecat-philips-3000-serisi-bhd350-10.jpg",
+      "/images/products/appliances/icecat-philips-3000-serisi-bhd350-10-1.jpg"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -4880,9 +5029,12 @@ export const mockAppliances: Product[] = [
     "rating": 4.8,
     "epeyScore": 92,
     "reviewCount": 380,
-    "image": "/images/appliances/philips-senseo-select-csa240.jpg",
+    "image": "/images/products/appliances/icecat-philips-senseo-select-csa240.jpg",
     "images": [
-      "/images/appliances/philips-senseo-select-csa240.jpg"
+      "/images/products/appliances/icecat-philips-senseo-select-csa240.jpg",
+      "/images/products/appliances/icecat-philips-senseo-select-csa240-1.jpg",
+      "/images/products/appliances/icecat-philips-senseo-select-csa240-2.jpg",
+      "/images/products/appliances/icecat-philips-senseo-select-csa240-3.jpg"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -4954,9 +5106,12 @@ export const mockAppliances: Product[] = [
     "rating": 4.8,
     "epeyScore": 93,
     "reviewCount": 340,
-    "image": "/images/appliances/philips-hd2650-90.jpg",
+    "image": "/images/products/appliances/icecat-philips-hd2650-90.jpg",
     "images": [
-      "/images/appliances/philips-hd2650-90.jpg"
+      "/images/products/appliances/icecat-philips-hd2650-90.jpg",
+      "/images/products/appliances/icecat-philips-hd2650-90-1.jpg",
+      "/images/products/appliances/icecat-philips-hd2650-90-2.jpg",
+      "/images/products/appliances/icecat-philips-hd2650-90-3.jpg"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -5024,9 +5179,12 @@ export const mockAppliances: Product[] = [
     "rating": 4.7,
     "epeyScore": 89,
     "reviewCount": 1850,
-    "image": "/images/appliances/philips-hd4646-20.png",
+    "image": "/images/products/appliances/icecat-philips-hd4646-20.jpg",
     "images": [
-      "/images/appliances/philips-hd4646-20.png"
+      "/images/products/appliances/icecat-philips-hd4646-20.jpg",
+      "/images/products/appliances/icecat-philips-hd4646-20-1.jpg",
+      "/images/products/appliances/icecat-philips-hd4646-20-2.jpg",
+      "/images/products/appliances/icecat-philips-hd4646-20-3.jpg"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -5096,9 +5254,12 @@ export const mockAppliances: Product[] = [
     "rating": 4.9,
     "epeyScore": 97,
     "reviewCount": 940,
-    "image": "/images/appliances/philips-dst8070-80.jpg",
+    "image": "/images/products/appliances/icecat-philips-azur-8000-dst8070-80.jpg",
     "images": [
-      "/images/appliances/philips-dst8070-80.jpg"
+      "/images/products/appliances/icecat-philips-azur-8000-dst8070-80.jpg",
+      "/images/products/appliances/icecat-philips-azur-8000-dst8070-80-1.jpg",
+      "/images/products/appliances/icecat-philips-azur-8000-dst8070-80-2.jpg",
+      "/images/products/appliances/icecat-philips-azur-8000-dst8070-80-3.jpg"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -5169,9 +5330,12 @@ export const mockAppliances: Product[] = [
     "rating": 4.7,
     "epeyScore": 91,
     "reviewCount": 310,
-    "image": "/images/appliances/philips-hi5922-30.jpg",
+    "image": "/images/products/appliances/icecat-philips-hi5922-30.jpg",
     "images": [
-      "/images/appliances/philips-hi5922-30.jpg"
+      "/images/products/appliances/icecat-philips-hi5922-30.jpg",
+      "/images/products/appliances/icecat-philips-hi5922-30-1.jpg",
+      "/images/products/appliances/icecat-philips-hi5922-30-2.jpg",
+      "/images/products/appliances/icecat-philips-hi5922-30-3.jpg"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -5243,9 +5407,10 @@ export const mockAppliances: Product[] = [
     "rating": 4.8,
     "epeyScore": 93,
     "reviewCount": 220,
-    "image": "/images/appliances/philips-bhd290-00.jpg",
+    "image": "/images/products/appliances/icecat-philips-bhd290-00.jpg",
     "images": [
-      "/images/appliances/philips-bhd290-00.jpg"
+      "/images/products/appliances/icecat-philips-bhd290-00.jpg",
+      "/images/products/appliances/icecat-philips-bhd290-00-1.jpg"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -5383,9 +5548,12 @@ export const mockAppliances: Product[] = [
     "rating": 4.8,
     "epeyScore": 94,
     "reviewCount": 3800,
-    "image": "/images/appliances/philips-bhd500.png",
+    "image": "/images/products/appliances/icecat-philips-bhd500-00.jpg",
     "images": [
-      "/images/appliances/philips-bhd500.png"
+      "/images/products/appliances/icecat-philips-bhd500-00.jpg",
+      "/images/products/appliances/icecat-philips-bhd500-00-1.jpg",
+      "/images/products/appliances/icecat-philips-bhd500-00-2.jpg",
+      "/images/products/appliances/icecat-philips-bhd500-00-3.jpg"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -5453,9 +5621,10 @@ export const mockAppliances: Product[] = [
     "rating": 4.7,
     "epeyScore": 91,
     "reviewCount": 310,
-    "image": "/images/appliances/philips-hr2156-90.png",
+    "image": "/images/products/appliances/icecat-philips-hr2156-90.jpg",
     "images": [
-      "/images/appliances/philips-hr2156-90.png"
+      "/images/products/appliances/icecat-philips-hr2156-90.jpg",
+      "/images/products/appliances/icecat-philips-hr2156-90-1.jpg"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -5524,9 +5693,12 @@ export const mockAppliances: Product[] = [
     "rating": 4.6,
     "epeyScore": 89,
     "reviewCount": 280,
-    "image": "/images/appliances/philips-hr2602.jpg",
+    "image": "/images/products/appliances/icecat-philips-daily-collection-hr2602.jpg",
     "images": [
-      "/images/appliances/philips-hr2602.jpg"
+      "/images/products/appliances/icecat-philips-daily-collection-hr2602.jpg",
+      "/images/products/appliances/icecat-philips-daily-collection-hr2602-1.jpg",
+      "/images/products/appliances/icecat-philips-daily-collection-hr2602-2.jpg",
+      "/images/products/appliances/icecat-philips-daily-collection-hr2602-3.jpg"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -5596,9 +5768,12 @@ export const mockAppliances: Product[] = [
     "rating": 4.8,
     "epeyScore": 92,
     "reviewCount": 410,
-    "image": "/images/appliances/philips-hd2640-10.jpg",
+    "image": "/images/products/appliances/icecat-philips-eco-conscious-hd2640-10.jpg",
     "images": [
-      "/images/appliances/philips-hd2640-10.jpg"
+      "/images/products/appliances/icecat-philips-eco-conscious-hd2640-10.jpg",
+      "/images/products/appliances/icecat-philips-eco-conscious-hd2640-10-1.jpg",
+      "/images/products/appliances/icecat-philips-eco-conscious-hd2640-10-2.jpg",
+      "/images/products/appliances/icecat-philips-eco-conscious-hd2640-10-3.jpg"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -5666,9 +5841,12 @@ export const mockAppliances: Product[] = [
     "rating": 4.9,
     "epeyScore": 96,
     "reviewCount": 390,
-    "image": "/images/appliances/philips-gc9420-80.jpg",
+    "image": "/images/products/appliances/icecat-philips-perfectcare-aqua-pro-gc9420-80.jpg",
     "images": [
-      "/images/appliances/philips-gc9420-80.jpg"
+      "/images/products/appliances/icecat-philips-perfectcare-aqua-pro-gc9420-80.jpg",
+      "/images/products/appliances/icecat-philips-perfectcare-aqua-pro-gc9420-80-1.jpg",
+      "/images/products/appliances/icecat-philips-perfectcare-aqua-pro-gc9420-80-2.jpg",
+      "/images/products/appliances/icecat-philips-perfectcare-aqua-pro-gc9420-80-3.jpg"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -5741,9 +5919,9 @@ export const mockAppliances: Product[] = [
     "rating": 4.7,
     "epeyScore": 91,
     "reviewCount": 320,
-    "image": "/images/appliances/philips-gc6800-20.jpg",
+    "image": "/images/products/appliances/icecat-philips-perfectcare-compact-essential-gc6800-20.jpg",
     "images": [
-      "/images/appliances/philips-gc6800-20.jpg"
+      "/images/products/appliances/icecat-philips-perfectcare-compact-essential-gc6800-20.jpg"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -5815,9 +5993,12 @@ export const mockAppliances: Product[] = [
     "rating": 4.7,
     "epeyScore": 90,
     "reviewCount": 3200,
-    "image": "/images/appliances/philips-nt1650.jpg",
+    "image": "/images/products/appliances/icecat-philips-1000-serisi-nt1650-16.jpg",
     "images": [
-      "/images/appliances/philips-nt1650.jpg"
+      "/images/products/appliances/icecat-philips-1000-serisi-nt1650-16.jpg",
+      "/images/products/appliances/icecat-philips-1000-serisi-nt1650-16-1.jpg",
+      "/images/products/appliances/icecat-philips-1000-serisi-nt1650-16-2.jpg",
+      "/images/products/appliances/icecat-philips-1000-serisi-nt1650-16-3.jpg"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -5885,9 +6066,10 @@ export const mockAppliances: Product[] = [
     "rating": 4.9,
     "epeyScore": 96,
     "reviewCount": 480,
-    "image": "/images/appliances/philips-hd2151-62.png",
+    "image": "/images/products/appliances/icecat-philips-all-in-one-cooker-hd2151-62.jpg",
     "images": [
-      "/images/appliances/philips-hd2151-62.png"
+      "/images/products/appliances/icecat-philips-all-in-one-cooker-hd2151-62.jpg",
+      "/images/products/appliances/icecat-philips-all-in-one-cooker-hd2151-62-1.jpg"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -5957,9 +6139,12 @@ export const mockAppliances: Product[] = [
     "rating": 4.8,
     "epeyScore": 94,
     "reviewCount": 320,
-    "image": "/images/appliances/philips-hd9359-90.png",
+    "image": "/images/products/appliances/icecat-philips-hd9359-90.jpg",
     "images": [
-      "/images/appliances/philips-hd9359-90.png"
+      "/images/products/appliances/icecat-philips-hd9359-90.jpg",
+      "/images/products/appliances/icecat-philips-hd9359-90-1.jpg",
+      "/images/products/appliances/icecat-philips-hd9359-90-2.jpg",
+      "/images/products/appliances/icecat-philips-hd9359-90-3.jpg"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -6031,9 +6216,12 @@ export const mockAppliances: Product[] = [
     "rating": 4.6,
     "epeyScore": 88,
     "reviewCount": 180,
-    "image": "/images/appliances/philips-hd2566-70.png",
+    "image": "/images/products/appliances/icecat-philips-hd2566-70.jpg",
     "images": [
-      "/images/appliances/philips-hd2566-70.png"
+      "/images/products/appliances/icecat-philips-hd2566-70.jpg",
+      "/images/products/appliances/icecat-philips-hd2566-70-1.jpg",
+      "/images/products/appliances/icecat-philips-hd2566-70-2.jpg",
+      "/images/products/appliances/icecat-philips-hd2566-70-3.jpg"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -6101,9 +6289,12 @@ export const mockAppliances: Product[] = [
     "rating": 4.9,
     "epeyScore": 98,
     "reviewCount": 95,
-    "image": "/images/appliances/philips-ais8540-80.jpg",
+    "image": "/images/products/appliances/icecat-philips-all-in-one-8500-ais8540-80.jpg",
     "images": [
-      "/images/appliances/philips-ais8540-80.jpg"
+      "/images/products/appliances/icecat-philips-all-in-one-8500-ais8540-80.jpg",
+      "/images/products/appliances/icecat-philips-all-in-one-8500-ais8540-80-1.jpg",
+      "/images/products/appliances/icecat-philips-all-in-one-8500-ais8540-80-2.jpg",
+      "/images/products/appliances/icecat-philips-all-in-one-8500-ais8540-80-3.jpg"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -6175,9 +6366,12 @@ export const mockAppliances: Product[] = [
     "rating": 4.7,
     "epeyScore": 91,
     "reviewCount": 140,
-    "image": "/images/appliances/philips-hi5918-20.jpg",
+    "image": "/images/products/appliances/icecat-philips-hi5918-20.jpg",
     "images": [
-      "/images/appliances/philips-hi5918-20.jpg"
+      "/images/products/appliances/icecat-philips-hi5918-20.jpg",
+      "/images/products/appliances/icecat-philips-hi5918-20-1.jpg",
+      "/images/products/appliances/icecat-philips-hi5918-20-2.jpg",
+      "/images/products/appliances/icecat-philips-hi5918-20-3.jpg"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -6249,9 +6443,12 @@ export const mockAppliances: Product[] = [
     "rating": 4.7,
     "epeyScore": 91,
     "reviewCount": 160,
-    "image": "/images/appliances/philips-hi5920-20.jpg",
+    "image": "/images/products/appliances/icecat-philips-hi5920-20.jpg",
     "images": [
-      "/images/appliances/philips-hi5920-20.jpg"
+      "/images/products/appliances/icecat-philips-hi5920-20.jpg",
+      "/images/products/appliances/icecat-philips-hi5920-20-1.jpg",
+      "/images/products/appliances/icecat-philips-hi5920-20-2.jpg",
+      "/images/products/appliances/icecat-philips-hi5920-20-3.jpg"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -6324,9 +6521,9 @@ export const mockAppliances: Product[] = [
     "rating": 4.7,
     "epeyScore": 90,
     "reviewCount": 310,
-    "image": "/images/appliances/philips-gc6707-20.jpg",
+    "image": "/images/products/appliances/icecat-philips-fastcare-compact-gc6707-20.jpg",
     "images": [
-      "/images/appliances/philips-gc6707-20.jpg"
+      "/images/products/appliances/icecat-philips-fastcare-compact-gc6707-20.jpg"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -6398,9 +6595,12 @@ export const mockAppliances: Product[] = [
     "rating": 4.8,
     "epeyScore": 92,
     "reviewCount": 290,
-    "image": "/images/appliances/philips-gc6802-30.jpg",
+    "image": "/images/products/appliances/icecat-philips-perfectcare-compact-essential-gc6802-30.jpg",
     "images": [
-      "/images/appliances/philips-gc6802-30.jpg"
+      "/images/products/appliances/icecat-philips-perfectcare-compact-essential-gc6802-30.jpg",
+      "/images/products/appliances/icecat-philips-perfectcare-compact-essential-gc6802-30-1.jpg",
+      "/images/products/appliances/icecat-philips-perfectcare-compact-essential-gc6802-30-2.jpg",
+      "/images/products/appliances/icecat-philips-perfectcare-compact-essential-gc6802-30-3.jpg"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -6473,9 +6673,10 @@ export const mockAppliances: Product[] = [
     "rating": 4.7,
     "epeyScore": 91,
     "reviewCount": 420,
-    "image": "/images/appliances/philips-gc6820-20.jpg",
+    "image": "/images/products/appliances/icecat-philips-perfectcare-compact-essential-gc6820-20.jpg",
     "images": [
-      "/images/appliances/philips-gc6820-20.jpg"
+      "/images/products/appliances/icecat-philips-perfectcare-compact-essential-gc6820-20.jpg",
+      "/images/products/appliances/icecat-philips-perfectcare-compact-essential-gc6820-20-1.jpg"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -6547,9 +6748,10 @@ export const mockAppliances: Product[] = [
     "rating": 4.6,
     "epeyScore": 89,
     "reviewCount": 380,
-    "image": "/images/appliances/philips-bg1026-60.jpg",
+    "image": "/images/products/appliances/icecat-philips-bodygroom-bg1026-60.jpg",
     "images": [
-      "/images/appliances/philips-bg1026-60.jpg"
+      "/images/products/appliances/icecat-philips-bodygroom-bg1026-60.jpg",
+      "/images/products/appliances/icecat-philips-bodygroom-bg1026-60-1.jpg"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -6616,9 +6818,12 @@ export const mockAppliances: Product[] = [
     "rating": 4.8,
     "epeyScore": 92,
     "reviewCount": 4800,
-    "image": "/images/appliances/philips-nt3650-16.jpg",
+    "image": "/images/products/appliances/icecat-philips-nt3650-16.jpg",
     "images": [
-      "/images/appliances/philips-nt3650-16.jpg"
+      "/images/products/appliances/icecat-philips-nt3650-16.jpg",
+      "/images/products/appliances/icecat-philips-nt3650-16-1.jpg",
+      "/images/products/appliances/icecat-philips-nt3650-16-2.jpg",
+      "/images/products/appliances/icecat-philips-nt3650-16-3.jpg"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -6686,9 +6891,12 @@ export const mockAppliances: Product[] = [
     "rating": 4.7,
     "epeyScore": 89,
     "reviewCount": 3100,
-    "image": "/images/appliances/philips-hd2590-90.png",
+    "image": "/images/products/appliances/icecat-philips-hd2590-90.jpg",
     "images": [
-      "/images/appliances/philips-hd2590-90.png"
+      "/images/products/appliances/icecat-philips-hd2590-90.jpg",
+      "/images/products/appliances/icecat-philips-hd2590-90-1.jpg",
+      "/images/products/appliances/icecat-philips-hd2590-90-2.jpg",
+      "/images/products/appliances/icecat-philips-hd2590-90-3.jpg"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -6757,9 +6965,12 @@ export const mockAppliances: Product[] = [
     "rating": 4.8,
     "epeyScore": 92,
     "reviewCount": 380,
-    "image": "/images/appliances/philips-gc6833-30.png",
+    "image": "/images/products/appliances/icecat-philips-perfectcare-compact-essential-gc6833-30.jpg",
     "images": [
-      "/images/appliances/philips-gc6833-30.png"
+      "/images/products/appliances/icecat-philips-perfectcare-compact-essential-gc6833-30.jpg",
+      "/images/products/appliances/icecat-philips-perfectcare-compact-essential-gc6833-30-1.jpg",
+      "/images/products/appliances/icecat-philips-perfectcare-compact-essential-gc6833-30-2.jpg",
+      "/images/products/appliances/icecat-philips-perfectcare-compact-essential-gc6833-30-3.jpg"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -6831,9 +7042,12 @@ export const mockAppliances: Product[] = [
     "rating": 4.8,
     "epeyScore": 93,
     "reviewCount": 920,
-    "image": "/images/appliances/philips-gc7920-20.jpg",
+    "image": "/images/products/appliances/icecat-philips-perfectcare-compact-plus-gc7920-20.jpg",
     "images": [
-      "/images/appliances/philips-gc7920-20.jpg"
+      "/images/products/appliances/icecat-philips-perfectcare-compact-plus-gc7920-20.jpg",
+      "/images/products/appliances/icecat-philips-perfectcare-compact-plus-gc7920-20-1.jpg",
+      "/images/products/appliances/icecat-philips-perfectcare-compact-plus-gc7920-20-2.jpg",
+      "/images/products/appliances/icecat-philips-perfectcare-compact-plus-gc7920-20-3.jpg"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -6906,9 +7120,9 @@ export const mockAppliances: Product[] = [
     "rating": 4.7,
     "epeyScore": 90,
     "reviewCount": 450,
-    "image": "/images/appliances/philips-gc6734-20.png",
+    "image": "/images/products/appliances/icecat-philips-fastcare-compact-gc6734-20.jpg",
     "images": [
-      "/images/appliances/philips-gc6734-20.png"
+      "/images/products/appliances/icecat-philips-fastcare-compact-gc6734-20.jpg"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -6980,9 +7194,12 @@ export const mockAppliances: Product[] = [
     "rating": 4.8,
     "epeyScore": 93,
     "reviewCount": 2900,
-    "image": "/images/appliances/philips-qp2620-20.jpg",
+    "image": "/images/products/appliances/icecat-philips-oneblade-face-body-qp2620-20.jpg",
     "images": [
-      "/images/appliances/philips-qp2620-20.jpg"
+      "/images/products/appliances/icecat-philips-oneblade-face-body-qp2620-20.jpg",
+      "/images/products/appliances/icecat-philips-oneblade-face-body-qp2620-20-1.jpg",
+      "/images/products/appliances/icecat-philips-oneblade-face-body-qp2620-20-2.jpg",
+      "/images/products/appliances/icecat-philips-oneblade-face-body-qp2620-20-3.jpg"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -7051,9 +7268,10 @@ export const mockAppliances: Product[] = [
     "rating": 4.8,
     "epeyScore": 94,
     "reviewCount": 1650,
-    "image": "/images/appliances/philips-bt5515-15.png",
+    "image": "/images/products/appliances/icecat-philips-series-5000-bt5515-15.jpg",
     "images": [
-      "/images/appliances/philips-bt5515-15.png"
+      "/images/products/appliances/icecat-philips-series-5000-bt5515-15.jpg",
+      "/images/products/appliances/icecat-philips-series-5000-bt5515-15-1.jpg"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -7123,9 +7341,12 @@ export const mockAppliances: Product[] = [
     "rating": 4.8,
     "epeyScore": 92,
     "reviewCount": 2800,
-    "image": "/images/appliances/philips-hd9350-90.jpg",
+    "image": "/images/products/appliances/icecat-philips-hd9350-90.jpg",
     "images": [
-      "/images/appliances/philips-hd9350-90.jpg"
+      "/images/products/appliances/icecat-philips-hd9350-90.jpg",
+      "/images/products/appliances/icecat-philips-hd9350-90-1.jpg",
+      "/images/products/appliances/icecat-philips-hd9350-90-2.jpg",
+      "/images/products/appliances/icecat-philips-hd9350-90-3.jpg"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -7196,9 +7417,12 @@ export const mockAppliances: Product[] = [
     "rating": 4.7,
     "epeyScore": 90,
     "reviewCount": 750,
-    "image": "/images/appliances/philips-hd2637-10.jpg",
+    "image": "/images/products/appliances/icecat-philips-hd2637-10.jpg",
     "images": [
-      "/images/appliances/philips-hd2637-10.jpg"
+      "/images/products/appliances/icecat-philips-hd2637-10.jpg",
+      "/images/products/appliances/icecat-philips-hd2637-10-1.jpg",
+      "/images/products/appliances/icecat-philips-hd2637-10-2.jpg",
+      "/images/products/appliances/icecat-philips-hd2637-10-3.jpg"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -7267,9 +7491,9 @@ export const mockAppliances: Product[] = [
     "rating": 4.8,
     "epeyScore": 93,
     "reviewCount": 310,
-    "image": "/images/appliances/philips-gc8717-20.png",
+    "image": "/images/products/appliances/icecat-philips-perfectcare-performer-gc8717-20.jpg",
     "images": [
-      "/images/appliances/philips-gc8717-20.png"
+      "/images/products/appliances/icecat-philips-perfectcare-performer-gc8717-20.jpg"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -7341,9 +7565,12 @@ export const mockAppliances: Product[] = [
     "rating": 4.7,
     "epeyScore": 90,
     "reviewCount": 520,
-    "image": "/images/appliances/philips-gc6815-20.png",
+    "image": "/images/products/appliances/icecat-philips-perfectcare-compact-essential-gc6815-20.jpg",
     "images": [
-      "/images/appliances/philips-gc6815-20.png"
+      "/images/products/appliances/icecat-philips-perfectcare-compact-essential-gc6815-20.jpg",
+      "/images/products/appliances/icecat-philips-perfectcare-compact-essential-gc6815-20-1.jpg",
+      "/images/products/appliances/icecat-philips-perfectcare-compact-essential-gc6815-20-2.jpg",
+      "/images/products/appliances/icecat-philips-perfectcare-compact-essential-gc6815-20-3.jpg"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -7415,9 +7642,12 @@ export const mockAppliances: Product[] = [
     "rating": 4.6,
     "epeyScore": 88,
     "reviewCount": 680,
-    "image": "/images/appliances/philips-psg2000-20.jpg",
+    "image": "/images/products/appliances/icecat-philips-2000-psg2000-20.jpg",
     "images": [
-      "/images/appliances/philips-psg2000-20.jpg"
+      "/images/products/appliances/icecat-philips-2000-psg2000-20.jpg",
+      "/images/products/appliances/icecat-philips-2000-psg2000-20-1.jpg",
+      "/images/products/appliances/icecat-philips-2000-psg2000-20-2.jpg",
+      "/images/products/appliances/icecat-philips-2000-psg2000-20-3.jpg"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -7490,9 +7720,10 @@ export const mockAppliances: Product[] = [
     "rating": 4.8,
     "epeyScore": 93,
     "reviewCount": 420,
-    "image": "/images/appliances/philips-hp8233-00.png",
+    "image": "/images/products/appliances/icecat-philips-drycare-advanced-hp8233-00.jpg",
     "images": [
-      "/images/appliances/philips-hp8233-00.png"
+      "/images/products/appliances/icecat-philips-drycare-advanced-hp8233-00.jpg",
+      "/images/products/appliances/icecat-philips-drycare-advanced-hp8233-00-1.jpg"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -7559,9 +7790,12 @@ export const mockAppliances: Product[] = [
     "rating": 4.8,
     "epeyScore": 92,
     "reviewCount": 3400,
-    "image": "/images/appliances/philips-bhd510-00.png",
+    "image": "/images/products/appliances/icecat-philips-bhd510-00.jpg",
     "images": [
-      "/images/appliances/philips-bhd510-00.png"
+      "/images/products/appliances/icecat-philips-bhd510-00.jpg",
+      "/images/products/appliances/icecat-philips-bhd510-00-1.jpg",
+      "/images/products/appliances/icecat-philips-bhd510-00-2.jpg",
+      "/images/products/appliances/icecat-philips-bhd510-00-3.jpg"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -7628,9 +7862,9 @@ export const mockAppliances: Product[] = [
     "rating": 4.6,
     "epeyScore": 89,
     "reviewCount": 620,
-    "image": "/images/appliances/philips-bg1024-16.jpg",
+    "image": "/images/products/appliances/icecat-philips-bodygroom-bg1024-16.jpg",
     "images": [
-      "/images/appliances/philips-bg1024-16.jpg"
+      "/images/products/appliances/icecat-philips-bodygroom-bg1024-16.jpg"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -7697,9 +7931,9 @@ export const mockAppliances: Product[] = [
     "rating": 4.8,
     "epeyScore": 92,
     "reviewCount": 1890,
-    "image": "/images/appliances/philips-qp2520-30.jpg",
+    "image": "/images/products/appliances/icecat-philips-qp2520-30.jpg",
     "images": [
-      "/images/appliances/philips-qp2520-30.jpg"
+      "/images/products/appliances/icecat-philips-qp2520-30.jpg"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -7768,9 +8002,11 @@ export const mockAppliances: Product[] = [
     "rating": 4.7,
     "epeyScore": 90,
     "reviewCount": 4200,
-    "image": "/images/appliances/philips-bg1024-15.jpg",
+    "image": "/images/products/appliances/icecat-philips-bodygroom-bg1024-15.jpg",
     "images": [
-      "/images/appliances/philips-bg1024-15.jpg"
+      "/images/products/appliances/icecat-philips-bodygroom-bg1024-15.jpg",
+      "/images/products/appliances/icecat-philips-bodygroom-bg1024-15-1.jpg",
+      "/images/products/appliances/icecat-philips-bodygroom-bg1024-15-2.jpg"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -7838,9 +8074,12 @@ export const mockAppliances: Product[] = [
     "rating": 4.9,
     "epeyScore": 96,
     "reviewCount": 95,
-    "image": "/images/appliances/philips-gc9325-30.jpg",
+    "image": "/images/products/appliances/icecat-philips-perfectcare-aqua-pro-gc9325-30.jpg",
     "images": [
-      "/images/appliances/philips-gc9325-30.jpg"
+      "/images/products/appliances/icecat-philips-perfectcare-aqua-pro-gc9325-30.jpg",
+      "/images/products/appliances/icecat-philips-perfectcare-aqua-pro-gc9325-30-1.jpg",
+      "/images/products/appliances/icecat-philips-perfectcare-aqua-pro-gc9325-30-2.jpg",
+      "/images/products/appliances/icecat-philips-perfectcare-aqua-pro-gc9325-30-3.jpg"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -7913,9 +8152,12 @@ export const mockAppliances: Product[] = [
     "rating": 4.7,
     "epeyScore": 90,
     "reviewCount": 680,
-    "image": "/images/appliances/philips-gc6842-30.jpg",
+    "image": "/images/products/appliances/icecat-philips-perfectcare-compact-essential-gc6842-30.jpg",
     "images": [
-      "/images/appliances/philips-gc6842-30.jpg"
+      "/images/products/appliances/icecat-philips-perfectcare-compact-essential-gc6842-30.jpg",
+      "/images/products/appliances/icecat-philips-perfectcare-compact-essential-gc6842-30-1.jpg",
+      "/images/products/appliances/icecat-philips-perfectcare-compact-essential-gc6842-30-2.jpg",
+      "/images/products/appliances/icecat-philips-perfectcare-compact-essential-gc6842-30-3.jpg"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -7988,9 +8230,12 @@ export const mockAppliances: Product[] = [
     "rating": 4.7,
     "epeyScore": 89,
     "reviewCount": 390,
-    "image": "/images/appliances/philips-psg3000-20.jpg",
+    "image": "/images/products/appliances/icecat-philips-3000-psg3000-20.jpg",
     "images": [
-      "/images/appliances/philips-psg3000-20.jpg"
+      "/images/products/appliances/icecat-philips-3000-psg3000-20.jpg",
+      "/images/products/appliances/icecat-philips-3000-psg3000-20-1.jpg",
+      "/images/products/appliances/icecat-philips-3000-psg3000-20-2.jpg",
+      "/images/products/appliances/icecat-philips-3000-psg3000-20-3.jpg"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -8062,9 +8307,12 @@ export const mockAppliances: Product[] = [
     "rating": 4.7,
     "epeyScore": 89,
     "reviewCount": 420,
-    "image": "/images/appliances/philips-psg3000-30.png",
+    "image": "/images/products/appliances/icecat-philips-3000-psg3000-30.jpg",
     "images": [
-      "/images/appliances/philips-psg3000-30.png"
+      "/images/products/appliances/icecat-philips-3000-psg3000-30.jpg",
+      "/images/products/appliances/icecat-philips-3000-psg3000-30-1.jpg",
+      "/images/products/appliances/icecat-philips-3000-psg3000-30-2.jpg",
+      "/images/products/appliances/icecat-philips-3000-psg3000-30-3.jpg"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -8137,9 +8385,12 @@ export const mockAppliances: Product[] = [
     "rating": 4.6,
     "epeyScore": 88,
     "reviewCount": 890,
-    "image": "/images/appliances/philips-s1223-41.jpg",
+    "image": "/images/products/appliances/icecat-philips-s1223-41.jpg",
     "images": [
-      "/images/appliances/philips-s1223-41.jpg"
+      "/images/products/appliances/icecat-philips-s1223-41.jpg",
+      "/images/products/appliances/icecat-philips-s1223-41-1.jpg",
+      "/images/products/appliances/icecat-philips-s1223-41-2.jpg",
+      "/images/products/appliances/icecat-philips-s1223-41-3.jpg"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -8207,9 +8458,12 @@ export const mockAppliances: Product[] = [
     "rating": 4.7,
     "epeyScore": 90,
     "reviewCount": 1450,
-    "image": "/images/appliances/philips-qp2510-11.png",
+    "image": "/images/products/appliances/icecat-philips-oneblade-qp2510-11.jpg",
     "images": [
-      "/images/appliances/philips-qp2510-11.png"
+      "/images/products/appliances/icecat-philips-oneblade-qp2510-11.jpg",
+      "/images/products/appliances/icecat-philips-oneblade-qp2510-11-1.jpg",
+      "/images/products/appliances/icecat-philips-oneblade-qp2510-11-2.jpg",
+      "/images/products/appliances/icecat-philips-oneblade-qp2510-11-3.jpg"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -8277,9 +8531,12 @@ export const mockAppliances: Product[] = [
     "rating": 4.7,
     "epeyScore": 89,
     "reviewCount": 1400,
-    "image": "/images/appliances/philips-hd7301-00.jpg",
+    "image": "/images/products/appliances/icecat-philips-daily-collection-hd7301-00.jpg",
     "images": [
-      "/images/appliances/philips-hd7301-00.jpg"
+      "/images/products/appliances/icecat-philips-daily-collection-hd7301-00.jpg",
+      "/images/products/appliances/icecat-philips-daily-collection-hd7301-00-1.jpg",
+      "/images/products/appliances/icecat-philips-daily-collection-hd7301-00-2.jpg",
+      "/images/products/appliances/icecat-philips-daily-collection-hd7301-00-3.jpg"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -8350,9 +8607,10 @@ export const mockAppliances: Product[] = [
     "rating": 4.8,
     "epeyScore": 94,
     "reviewCount": 880,
-    "image": "/images/appliances/philips-ep2231-40.jpg",
+    "image": "/images/products/appliances/icecat-philips-2200-serisi-lattego-ep2231-40.jpg",
     "images": [
-      "/images/appliances/philips-ep2231-40.jpg"
+      "/images/products/appliances/icecat-philips-2200-serisi-lattego-ep2231-40.jpg",
+      "/images/products/appliances/icecat-philips-2200-serisi-lattego-ep2231-40-1.jpg"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -8424,9 +8682,12 @@ export const mockAppliances: Product[] = [
     "rating": 4.7,
     "epeyScore": 90,
     "reviewCount": 1600,
-    "image": "/images/appliances/philips-ep2220-10.jpg",
+    "image": "/images/products/appliances/icecat-philips-2200-serisi-ep2220-10.jpg",
     "images": [
-      "/images/appliances/philips-ep2220-10.jpg"
+      "/images/products/appliances/icecat-philips-2200-serisi-ep2220-10.jpg",
+      "/images/products/appliances/icecat-philips-2200-serisi-ep2220-10-1.jpg",
+      "/images/products/appliances/icecat-philips-2200-serisi-ep2220-10-2.jpg",
+      "/images/products/appliances/icecat-philips-2200-serisi-ep2220-10-3.jpg"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -8497,9 +8758,12 @@ export const mockAppliances: Product[] = [
     "rating": 4.9,
     "epeyScore": 95,
     "reviewCount": 180,
-    "image": "/images/appliances/philips-gc9324-20.png",
+    "image": "/images/products/appliances/icecat-philips-perfectcare-aqua-pro-gc9324-20.jpg",
     "images": [
-      "/images/appliances/philips-gc9324-20.png"
+      "/images/products/appliances/icecat-philips-perfectcare-aqua-pro-gc9324-20.jpg",
+      "/images/products/appliances/icecat-philips-perfectcare-aqua-pro-gc9324-20-1.jpg",
+      "/images/products/appliances/icecat-philips-perfectcare-aqua-pro-gc9324-20-2.jpg",
+      "/images/products/appliances/icecat-philips-perfectcare-aqua-pro-gc9324-20-3.jpg"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -8572,9 +8836,12 @@ export const mockAppliances: Product[] = [
     "rating": 4.8,
     "epeyScore": 93,
     "reviewCount": 290,
-    "image": "/images/appliances/philips-gc8723-20.png",
+    "image": "/images/products/appliances/icecat-philips-perfectcare-performer-gc8723-20.jpg",
     "images": [
-      "/images/appliances/philips-gc8723-20.png"
+      "/images/products/appliances/icecat-philips-perfectcare-performer-gc8723-20.jpg",
+      "/images/products/appliances/icecat-philips-perfectcare-performer-gc8723-20-1.jpg",
+      "/images/products/appliances/icecat-philips-perfectcare-performer-gc8723-20-2.jpg",
+      "/images/products/appliances/icecat-philips-perfectcare-performer-gc8723-20-3.jpg"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -8646,9 +8913,12 @@ export const mockAppliances: Product[] = [
     "rating": 4.8,
     "epeyScore": 94,
     "reviewCount": 350,
-    "image": "/images/appliances/philips-gc9330-20.jpg",
+    "image": "/images/products/appliances/icecat-philips-perfectcare-aqua-pro-gc9330-20.jpg",
     "images": [
-      "/images/appliances/philips-gc9330-20.jpg"
+      "/images/products/appliances/icecat-philips-perfectcare-aqua-pro-gc9330-20.jpg",
+      "/images/products/appliances/icecat-philips-perfectcare-aqua-pro-gc9330-20-1.jpg",
+      "/images/products/appliances/icecat-philips-perfectcare-aqua-pro-gc9330-20-2.jpg",
+      "/images/products/appliances/icecat-philips-perfectcare-aqua-pro-gc9330-20-3.jpg"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -8720,9 +8990,12 @@ export const mockAppliances: Product[] = [
     "rating": 4.8,
     "epeyScore": 92,
     "reviewCount": 420,
-    "image": "/images/appliances/philips-gc7844-20.png",
+    "image": "/images/products/appliances/icecat-philips-perfectcare-compact-gc7844-20.jpg",
     "images": [
-      "/images/appliances/philips-gc7844-20.png"
+      "/images/products/appliances/icecat-philips-perfectcare-compact-gc7844-20.jpg",
+      "/images/products/appliances/icecat-philips-perfectcare-compact-gc7844-20-1.jpg",
+      "/images/products/appliances/icecat-philips-perfectcare-compact-gc7844-20-2.jpg",
+      "/images/products/appliances/icecat-philips-perfectcare-compact-gc7844-20-3.jpg"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -8795,9 +9068,12 @@ export const mockAppliances: Product[] = [
     "rating": 4.8,
     "epeyScore": 93,
     "reviewCount": 380,
-    "image": "/images/appliances/philips-gc9315-30.jpg",
+    "image": "/images/products/appliances/icecat-philips-perfect-care-aqua-pro-gc9315-30.jpg",
     "images": [
-      "/images/appliances/philips-gc9315-30.jpg"
+      "/images/products/appliances/icecat-philips-perfect-care-aqua-pro-gc9315-30.jpg",
+      "/images/products/appliances/icecat-philips-perfect-care-aqua-pro-gc9315-30-1.jpg",
+      "/images/products/appliances/icecat-philips-perfect-care-aqua-pro-gc9315-30-2.jpg",
+      "/images/products/appliances/icecat-philips-perfect-care-aqua-pro-gc9315-30-3.jpg"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -8869,9 +9145,9 @@ export const mockAppliances: Product[] = [
     "rating": 4.7,
     "epeyScore": 91,
     "reviewCount": 310,
-    "image": "/images/appliances/philips-gc8721-30.png",
+    "image": "/images/products/appliances/icecat-philips-perfectcare-performer-gc8721-30.jpg",
     "images": [
-      "/images/appliances/philips-gc8721-30.png"
+      "/images/products/appliances/icecat-philips-perfectcare-performer-gc8721-30.jpg"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -8943,9 +9219,12 @@ export const mockAppliances: Product[] = [
     "rating": 4.8,
     "epeyScore": 92,
     "reviewCount": 490,
-    "image": "/images/appliances/philips-gc7933-30.jpg",
+    "image": "/images/products/appliances/icecat-philips-perfectcare-compact-plus-gc7933-30.jpg",
     "images": [
-      "/images/appliances/philips-gc7933-30.jpg"
+      "/images/products/appliances/icecat-philips-perfectcare-compact-plus-gc7933-30.jpg",
+      "/images/products/appliances/icecat-philips-perfectcare-compact-plus-gc7933-30-1.jpg",
+      "/images/products/appliances/icecat-philips-perfectcare-compact-plus-gc7933-30-2.jpg",
+      "/images/products/appliances/icecat-philips-perfectcare-compact-plus-gc7933-30-3.jpg"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -9092,9 +9371,12 @@ export const mockAppliances: Product[] = [
     "rating": 4.8,
     "epeyScore": 92,
     "reviewCount": 520,
-    "image": "/images/appliances/philips-gc8752-30.jpg",
+    "image": "/images/products/appliances/icecat-philips-gc8752-30.jpg",
     "images": [
-      "/images/appliances/philips-gc8752-30.jpg"
+      "/images/products/appliances/icecat-philips-gc8752-30.jpg",
+      "/images/products/appliances/icecat-philips-gc8752-30-1.jpg",
+      "/images/products/appliances/icecat-philips-gc8752-30-2.jpg",
+      "/images/products/appliances/icecat-philips-gc8752-30-3.jpg"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -9166,9 +9448,10 @@ export const mockAppliances: Product[] = [
     "rating": 4.8,
     "epeyScore": 93,
     "reviewCount": 540,
-    "image": "/images/appliances/philips-bg3015-15.jpg",
+    "image": "/images/products/appliances/icecat-philips-bodygroom-bg-3015-15.jpg",
     "images": [
-      "/images/appliances/philips-bg3015-15.jpg"
+      "/images/products/appliances/icecat-philips-bodygroom-bg-3015-15.jpg",
+      "/images/products/appliances/icecat-philips-bodygroom-bg-3015-15-1.jpg"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -9236,9 +9519,10 @@ export const mockAppliances: Product[] = [
     "rating": 4.8,
     "epeyScore": 92,
     "reviewCount": 780,
-    "image": "/images/appliances/philips-bg3017-01.jpg",
+    "image": "/images/products/appliances/icecat-philips-bodygroom-bg3017-01.jpg",
     "images": [
-      "/images/appliances/philips-bg3017-01.jpg"
+      "/images/products/appliances/icecat-philips-bodygroom-bg3017-01.jpg",
+      "/images/products/appliances/icecat-philips-bodygroom-bg3017-01-1.jpg"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -9307,9 +9591,10 @@ export const mockAppliances: Product[] = [
     "rating": 4.7,
     "epeyScore": 91,
     "reviewCount": 920,
-    "image": "/images/appliances/philips-bg3010-15.jpg",
+    "image": "/images/products/appliances/icecat-philips-bg3010-15.jpg",
     "images": [
-      "/images/appliances/philips-bg3010-15.jpg"
+      "/images/products/appliances/icecat-philips-bg3010-15.jpg",
+      "/images/products/appliances/icecat-philips-bg3010-15-1.jpg"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -9377,9 +9662,10 @@ export const mockAppliances: Product[] = [
     "rating": 4.8,
     "epeyScore": 92,
     "reviewCount": 3100,
-    "image": "/images/appliances/philips-qp2520-20.jpg",
+    "image": "/images/products/appliances/icecat-philips-oneblade-qp2520-20.jpg",
     "images": [
-      "/images/appliances/philips-qp2520-20.jpg"
+      "/images/products/appliances/icecat-philips-oneblade-qp2520-20.jpg",
+      "/images/products/appliances/icecat-philips-oneblade-qp2520-20-1.jpg"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -9448,9 +9734,12 @@ export const mockAppliances: Product[] = [
     "rating": 4.9,
     "epeyScore": 98,
     "reviewCount": 440,
-    "image": "/images/appliances/philips-ep5144-70.jpg",
+    "image": "/images/products/appliances/icecat-philips-5400-serisi-lattego-ep5144-70.jpg",
     "images": [
-      "/images/appliances/philips-ep5144-70.jpg"
+      "/images/products/appliances/icecat-philips-5400-serisi-lattego-ep5144-70.jpg",
+      "/images/products/appliances/icecat-philips-5400-serisi-lattego-ep5144-70-1.jpg",
+      "/images/products/appliances/icecat-philips-5400-serisi-lattego-ep5144-70-2.jpg",
+      "/images/products/appliances/icecat-philips-5400-serisi-lattego-ep5144-70-3.jpg"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -9522,9 +9811,12 @@ export const mockAppliances: Product[] = [
     "rating": 4.7,
     "epeyScore": 91,
     "reviewCount": 950,
-    "image": "/images/appliances/philips-ep2220-40.jpg",
+    "image": "/images/products/appliances/icecat-philips-2200-serisi-ep2220-40.jpg",
     "images": [
-      "/images/appliances/philips-ep2220-40.jpg"
+      "/images/products/appliances/icecat-philips-2200-serisi-ep2220-40.jpg",
+      "/images/products/appliances/icecat-philips-2200-serisi-ep2220-40-1.jpg",
+      "/images/products/appliances/icecat-philips-2200-serisi-ep2220-40-2.jpg",
+      "/images/products/appliances/icecat-philips-2200-serisi-ep2220-40-3.jpg"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -9595,9 +9887,12 @@ export const mockAppliances: Product[] = [
     "rating": 4.6,
     "epeyScore": 89,
     "reviewCount": 390,
-    "image": "/images/appliances/philips-ep0820-00.jpg",
+    "image": "/images/products/appliances/icecat-philips-800-serisi-ep0820-00.jpg",
     "images": [
-      "/images/appliances/philips-ep0820-00.jpg"
+      "/images/products/appliances/icecat-philips-800-serisi-ep0820-00.jpg",
+      "/images/products/appliances/icecat-philips-800-serisi-ep0820-00-1.jpg",
+      "/images/products/appliances/icecat-philips-800-serisi-ep0820-00-2.jpg",
+      "/images/products/appliances/icecat-philips-800-serisi-ep0820-00-3.jpg"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -9668,9 +9963,12 @@ export const mockAppliances: Product[] = [
     "rating": 4.9,
     "epeyScore": 97,
     "reviewCount": 210,
-    "image": "/images/appliances/philips-gc8962-40.jpg",
+    "image": "/images/products/appliances/icecat-philips-perfectcare-gc8962-40.jpg",
     "images": [
-      "/images/appliances/philips-gc8962-40.jpg"
+      "/images/products/appliances/icecat-philips-perfectcare-gc8962-40.jpg",
+      "/images/products/appliances/icecat-philips-perfectcare-gc8962-40-1.jpg",
+      "/images/products/appliances/icecat-philips-perfectcare-gc8962-40-2.jpg",
+      "/images/products/appliances/icecat-philips-perfectcare-gc8962-40-3.jpg"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -9743,9 +10041,12 @@ export const mockAppliances: Product[] = [
     "rating": 4.9,
     "epeyScore": 96,
     "reviewCount": 390,
-    "image": "/images/appliances/philips-psg7150-30.jpg",
+    "image": "/images/products/appliances/icecat-philips-perfectcare-psg7150-30.jpg",
     "images": [
-      "/images/appliances/philips-psg7150-30.jpg"
+      "/images/products/appliances/icecat-philips-perfectcare-psg7150-30.jpg",
+      "/images/products/appliances/icecat-philips-perfectcare-psg7150-30-1.jpg",
+      "/images/products/appliances/icecat-philips-perfectcare-psg7150-30-2.jpg",
+      "/images/products/appliances/icecat-philips-perfectcare-psg7150-30-3.jpg"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -9817,9 +10118,12 @@ export const mockAppliances: Product[] = [
     "rating": 4.8,
     "epeyScore": 94,
     "reviewCount": 310,
-    "image": "/images/appliances/philips-gc9640-60.png",
+    "image": "/images/products/appliances/icecat-philips-perfectcare-elite-silence-gc9640-60.jpg",
     "images": [
-      "/images/appliances/philips-gc9640-60.png"
+      "/images/products/appliances/icecat-philips-perfectcare-elite-silence-gc9640-60.jpg",
+      "/images/products/appliances/icecat-philips-perfectcare-elite-silence-gc9640-60-1.jpg",
+      "/images/products/appliances/icecat-philips-perfectcare-elite-silence-gc9640-60-2.jpg",
+      "/images/products/appliances/icecat-philips-perfectcare-elite-silence-gc9640-60-3.jpg"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -9891,9 +10195,12 @@ export const mockAppliances: Product[] = [
     "rating": 4.8,
     "epeyScore": 93,
     "reviewCount": 420,
-    "image": "/images/appliances/philips-psg7024-20.jpg",
+    "image": "/images/products/appliances/icecat-philips-perfectcare-7000-series-psg7024-20.jpg",
     "images": [
-      "/images/appliances/philips-psg7024-20.jpg"
+      "/images/products/appliances/icecat-philips-perfectcare-7000-series-psg7024-20.jpg",
+      "/images/products/appliances/icecat-philips-perfectcare-7000-series-psg7024-20-1.jpg",
+      "/images/products/appliances/icecat-philips-perfectcare-7000-series-psg7024-20-2.jpg",
+      "/images/products/appliances/icecat-philips-perfectcare-7000-series-psg7024-20-3.jpg"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -9965,9 +10272,12 @@ export const mockAppliances: Product[] = [
     "rating": 4.8,
     "epeyScore": 91,
     "reviewCount": 650,
-    "image": "/images/appliances/philips-psg6024-30.jpg",
+    "image": "/images/products/appliances/icecat-philips-psg6024-30.jpg",
     "images": [
-      "/images/appliances/philips-psg6024-30.jpg"
+      "/images/products/appliances/icecat-philips-psg6024-30.jpg",
+      "/images/products/appliances/icecat-philips-psg6024-30-1.jpg",
+      "/images/products/appliances/icecat-philips-psg6024-30-2.jpg",
+      "/images/products/appliances/icecat-philips-psg6024-30-3.jpg"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -10039,9 +10349,12 @@ export const mockAppliances: Product[] = [
     "rating": 4.8,
     "epeyScore": 90,
     "reviewCount": 580,
-    "image": "/images/appliances/philips-psg6026-20.jpg",
+    "image": "/images/products/appliances/icecat-philips-psg6026-20.jpg",
     "images": [
-      "/images/appliances/philips-psg6026-20.jpg"
+      "/images/products/appliances/icecat-philips-psg6026-20.jpg",
+      "/images/products/appliances/icecat-philips-psg6026-20-1.jpg",
+      "/images/products/appliances/icecat-philips-psg6026-20-2.jpg",
+      "/images/products/appliances/icecat-philips-psg6026-20-3.jpg"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -10113,9 +10426,10 @@ export const mockAppliances: Product[] = [
     "rating": 4.9,
     "epeyScore": 98,
     "reviewCount": 410,
-    "image": "/images/appliances/philips-mg7750-49.jpg",
+    "image": "/images/products/appliances/icecat-philips-mg7750-49.jpg",
     "images": [
-      "/images/appliances/philips-mg7750-49.jpg"
+      "/images/products/appliances/icecat-philips-mg7750-49.jpg",
+      "/images/products/appliances/icecat-philips-mg7750-49-1.jpg"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -10185,9 +10499,12 @@ export const mockAppliances: Product[] = [
     "rating": 4.8,
     "epeyScore": 94,
     "reviewCount": 310,
-    "image": "/images/appliances/philips-bg5020-15.jpg",
+    "image": "/images/products/appliances/icecat-philips-bodygroom-5000-serisi-bg5020-15.jpg",
     "images": [
-      "/images/appliances/philips-bg5020-15.jpg"
+      "/images/products/appliances/icecat-philips-bodygroom-5000-serisi-bg5020-15.jpg",
+      "/images/products/appliances/icecat-philips-bodygroom-5000-serisi-bg5020-15-1.jpg",
+      "/images/products/appliances/icecat-philips-bodygroom-5000-serisi-bg5020-15-2.jpg",
+      "/images/products/appliances/icecat-philips-bodygroom-5000-serisi-bg5020-15-3.jpg"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -10255,9 +10572,10 @@ export const mockAppliances: Product[] = [
     "rating": 4.8,
     "epeyScore": 92,
     "reviewCount": 780,
-    "image": "/images/appliances/philips-s5445-03.jpg",
+    "image": "/images/products/appliances/icecat-philips-s5445-03.jpg",
     "images": [
-      "/images/appliances/philips-s5445-03.jpg"
+      "/images/products/appliances/icecat-philips-s5445-03.jpg",
+      "/images/products/appliances/icecat-philips-s5445-03-1.jpg"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -10326,9 +10644,11 @@ export const mockAppliances: Product[] = [
     "rating": 4.8,
     "epeyScore": 92,
     "reviewCount": 1200,
-    "image": "/images/appliances/philips-qp2824-10.jpg",
+    "image": "/images/products/appliances/icecat-philips-oneblade-qp2824-10.jpg",
     "images": [
-      "/images/appliances/philips-qp2824-10.jpg"
+      "/images/products/appliances/icecat-philips-oneblade-qp2824-10.jpg",
+      "/images/products/appliances/icecat-philips-oneblade-qp2824-10-1.jpg",
+      "/images/products/appliances/icecat-philips-oneblade-qp2824-10-2.jpg"
     ],
     "releaseYear": 2025,
     "isPopular": true,
@@ -10396,9 +10716,9 @@ export const mockAppliances: Product[] = [
     "rating": 4.7,
     "epeyScore": 90,
     "reviewCount": 2200,
-    "image": "/images/appliances/philips-qp2724-10.jpg",
+    "image": "/images/products/appliances/icecat-philips-oneblade-qp2724-10.jpg",
     "images": [
-      "/images/appliances/philips-qp2724-10.jpg"
+      "/images/products/appliances/icecat-philips-oneblade-qp2724-10.jpg"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -10467,9 +10787,12 @@ export const mockAppliances: Product[] = [
     "rating": 4.9,
     "epeyScore": 98,
     "reviewCount": 520,
-    "image": "/images/appliances/philips-ep5443-70.jpg",
+    "image": "/images/products/appliances/icecat-philips-5400-serisi-ep5443-70.jpg",
     "images": [
-      "/images/appliances/philips-ep5443-70.jpg"
+      "/images/products/appliances/icecat-philips-5400-serisi-ep5443-70.jpg",
+      "/images/products/appliances/icecat-philips-5400-serisi-ep5443-70-1.jpg",
+      "/images/products/appliances/icecat-philips-5400-serisi-ep5443-70-2.jpg",
+      "/images/products/appliances/icecat-philips-5400-serisi-ep5443-70-3.jpg"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -10541,9 +10864,12 @@ export const mockAppliances: Product[] = [
     "rating": 4.8,
     "epeyScore": 95,
     "reviewCount": 380,
-    "image": "/images/appliances/philips-ep4346-70.png",
+    "image": "/images/products/appliances/icecat-philips-4300-serisi-lattego-ep4346-70.jpg",
     "images": [
-      "/images/appliances/philips-ep4346-70.png"
+      "/images/products/appliances/icecat-philips-4300-serisi-lattego-ep4346-70.jpg",
+      "/images/products/appliances/icecat-philips-4300-serisi-lattego-ep4346-70-1.jpg",
+      "/images/products/appliances/icecat-philips-4300-serisi-lattego-ep4346-70-2.jpg",
+      "/images/products/appliances/icecat-philips-4300-serisi-lattego-ep4346-70-3.jpg"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -10614,9 +10940,12 @@ export const mockAppliances: Product[] = [
     "rating": 4.9,
     "epeyScore": 97,
     "reviewCount": 940,
-    "image": "/images/appliances/philips-ep5447-90.jpg",
+    "image": "/images/products/appliances/icecat-philips-5400-serisi-lattego-ep5447-90.jpg",
     "images": [
-      "/images/appliances/philips-ep5447-90.jpg"
+      "/images/products/appliances/icecat-philips-5400-serisi-lattego-ep5447-90.jpg",
+      "/images/products/appliances/icecat-philips-5400-serisi-lattego-ep5447-90-1.jpg",
+      "/images/products/appliances/icecat-philips-5400-serisi-lattego-ep5447-90-2.jpg",
+      "/images/products/appliances/icecat-philips-5400-serisi-lattego-ep5447-90-3.jpg"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -10687,9 +11016,12 @@ export const mockAppliances: Product[] = [
     "rating": 4.8,
     "epeyScore": 93,
     "reviewCount": 810,
-    "image": "/images/appliances/philips-ep3246-70.jpg",
+    "image": "/images/products/appliances/icecat-philips-3200-serisi-lattego-ep3246-70.jpg",
     "images": [
-      "/images/appliances/philips-ep3246-70.jpg"
+      "/images/products/appliances/icecat-philips-3200-serisi-lattego-ep3246-70.jpg",
+      "/images/products/appliances/icecat-philips-3200-serisi-lattego-ep3246-70-1.jpg",
+      "/images/products/appliances/icecat-philips-3200-serisi-lattego-ep3246-70-2.jpg",
+      "/images/products/appliances/icecat-philips-3200-serisi-lattego-ep3246-70-3.jpg"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -10760,9 +11092,12 @@ export const mockAppliances: Product[] = [
     "rating": 4.8,
     "epeyScore": 94,
     "reviewCount": 1100,
-    "image": "/images/appliances/philips-ep3347-90.jpg",
+    "image": "/images/products/appliances/icecat-philips-3300-serisi-lattego-ep3347-90.jpg",
     "images": [
-      "/images/appliances/philips-ep3347-90.jpg"
+      "/images/products/appliances/icecat-philips-3300-serisi-lattego-ep3347-90.jpg",
+      "/images/products/appliances/icecat-philips-3300-serisi-lattego-ep3347-90-1.jpg",
+      "/images/products/appliances/icecat-philips-3300-serisi-lattego-ep3347-90-2.jpg",
+      "/images/products/appliances/icecat-philips-3300-serisi-lattego-ep3347-90-3.jpg"
     ],
     "releaseYear": 2025,
     "isPopular": true,
@@ -10834,9 +11169,12 @@ export const mockAppliances: Product[] = [
     "rating": 4.7,
     "epeyScore": 90,
     "reviewCount": 680,
-    "image": "/images/appliances/philips-ep1220-00.jpg",
+    "image": "/images/products/appliances/icecat-philips-1200-serisi-ep1220-00.jpg",
     "images": [
-      "/images/appliances/philips-ep1220-00.jpg"
+      "/images/products/appliances/icecat-philips-1200-serisi-ep1220-00.jpg",
+      "/images/products/appliances/icecat-philips-1200-serisi-ep1220-00-1.jpg",
+      "/images/products/appliances/icecat-philips-1200-serisi-ep1220-00-2.jpg",
+      "/images/products/appliances/icecat-philips-1200-serisi-ep1220-00-3.jpg"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -10907,9 +11245,12 @@ export const mockAppliances: Product[] = [
     "rating": 4.8,
     "epeyScore": 92,
     "reviewCount": 920,
-    "image": "/images/appliances/philips-ep2331-10.jpg",
+    "image": "/images/products/appliances/icecat-philips-2300-serisi-lattego-ep2331-10.jpg",
     "images": [
-      "/images/appliances/philips-ep2331-10.jpg"
+      "/images/products/appliances/icecat-philips-2300-serisi-lattego-ep2331-10.jpg",
+      "/images/products/appliances/icecat-philips-2300-serisi-lattego-ep2331-10-1.jpg",
+      "/images/products/appliances/icecat-philips-2300-serisi-lattego-ep2331-10-2.jpg",
+      "/images/products/appliances/icecat-philips-2300-serisi-lattego-ep2331-10-3.jpg"
     ],
     "releaseYear": 2025,
     "isPopular": true,
@@ -10980,9 +11321,12 @@ export const mockAppliances: Product[] = [
     "rating": 4.6,
     "epeyScore": 88,
     "reviewCount": 190,
-    "image": "/images/appliances/philips-hd4407-20.png",
+    "image": "/images/products/appliances/icecat-philips-hd4407-20.jpg",
     "images": [
-      "/images/appliances/philips-hd4407-20.png"
+      "/images/products/appliances/icecat-philips-hd4407-20.jpg",
+      "/images/products/appliances/icecat-philips-hd4407-20-1.jpg",
+      "/images/products/appliances/icecat-philips-hd4407-20-2.jpg",
+      "/images/products/appliances/icecat-philips-hd4407-20-3.jpg"
     ],
     "releaseYear": 2023,
     "isPopular": false,
@@ -11049,9 +11393,12 @@ export const mockAppliances: Product[] = [
     "rating": 4.9,
     "epeyScore": 95,
     "reviewCount": 310,
-    "image": "/images/appliances/philips-psg7040-10.jpg",
+    "image": "/images/products/appliances/icecat-philips-perfectcare-7000-series-psg7040-10.jpg",
     "images": [
-      "/images/appliances/philips-psg7040-10.jpg"
+      "/images/products/appliances/icecat-philips-perfectcare-7000-series-psg7040-10.jpg",
+      "/images/products/appliances/icecat-philips-perfectcare-7000-series-psg7040-10-1.jpg",
+      "/images/products/appliances/icecat-philips-perfectcare-7000-series-psg7040-10-2.jpg",
+      "/images/products/appliances/icecat-philips-perfectcare-7000-series-psg7040-10-3.jpg"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -11123,9 +11470,12 @@ export const mockAppliances: Product[] = [
     "rating": 4.9,
     "epeyScore": 94,
     "reviewCount": 480,
-    "image": "/images/appliances/philips-gc9635-20.jpg",
+    "image": "/images/products/appliances/icecat-philips-gc9635-20-perfectcare-elite.jpg",
     "images": [
-      "/images/appliances/philips-gc9635-20.jpg"
+      "/images/products/appliances/icecat-philips-gc9635-20-perfectcare-elite.jpg",
+      "/images/products/appliances/icecat-philips-gc9635-20-perfectcare-elite-1.jpg",
+      "/images/products/appliances/icecat-philips-gc9635-20-perfectcare-elite-2.jpg",
+      "/images/products/appliances/icecat-philips-gc9635-20-perfectcare-elite-3.jpg"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -11197,9 +11547,12 @@ export const mockAppliances: Product[] = [
     "rating": 4.8,
     "epeyScore": 91,
     "reviewCount": 720,
-    "image": "/images/appliances/philips-psg6042-20.jpg",
+    "image": "/images/products/appliances/icecat-philips-perfectcare-psg6042-20.jpg",
     "images": [
-      "/images/appliances/philips-psg6042-20.jpg"
+      "/images/products/appliances/icecat-philips-perfectcare-psg6042-20.jpg",
+      "/images/products/appliances/icecat-philips-perfectcare-psg6042-20-1.jpg",
+      "/images/products/appliances/icecat-philips-perfectcare-psg6042-20-2.jpg",
+      "/images/products/appliances/icecat-philips-perfectcare-psg6042-20-3.jpg"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -11271,9 +11624,10 @@ export const mockAppliances: Product[] = [
     "rating": 4.9,
     "epeyScore": 96,
     "reviewCount": 310,
-    "image": "/images/appliances/philips-qp6520-20.jpg",
+    "image": "/images/products/appliances/icecat-philips-oneblade-pro-qp6520-20.jpg",
     "images": [
-      "/images/appliances/philips-qp6520-20.jpg"
+      "/images/products/appliances/icecat-philips-oneblade-pro-qp6520-20.jpg",
+      "/images/products/appliances/icecat-philips-oneblade-pro-qp6520-20-1.jpg"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -11342,9 +11696,10 @@ export const mockAppliances: Product[] = [
     "rating": 4.9,
     "epeyScore": 97,
     "reviewCount": 420,
-    "image": "/images/appliances/philips-bg7025-15.jpg",
+    "image": "/images/products/appliances/icecat-philips-bg7025-15.jpg",
     "images": [
-      "/images/appliances/philips-bg7025-15.jpg"
+      "/images/products/appliances/icecat-philips-bg7025-15.jpg",
+      "/images/products/appliances/icecat-philips-bg7025-15-1.jpg"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -11413,9 +11768,12 @@ export const mockAppliances: Product[] = [
     "rating": 4.8,
     "epeyScore": 94,
     "reviewCount": 650,
-    "image": "/images/appliances/philips-qp6550-15.jpg",
+    "image": "/images/products/appliances/icecat-philips-oneblade-pro-qp6550-15.jpg",
     "images": [
-      "/images/appliances/philips-qp6550-15.jpg"
+      "/images/products/appliances/icecat-philips-oneblade-pro-qp6550-15.jpg",
+      "/images/products/appliances/icecat-philips-oneblade-pro-qp6550-15-1.jpg",
+      "/images/products/appliances/icecat-philips-oneblade-pro-qp6550-15-2.jpg",
+      "/images/products/appliances/icecat-philips-oneblade-pro-qp6550-15-3.jpg"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -11483,9 +11841,12 @@ export const mockAppliances: Product[] = [
     "rating": 4.8,
     "epeyScore": 92,
     "reviewCount": 480,
-    "image": "/images/appliances/philips-qp6530-15.jpg",
+    "image": "/images/products/appliances/icecat-philips-oneblade-pro-qp6530-15.jpg",
     "images": [
-      "/images/appliances/philips-qp6530-15.jpg"
+      "/images/products/appliances/icecat-philips-oneblade-pro-qp6530-15.jpg",
+      "/images/products/appliances/icecat-philips-oneblade-pro-qp6530-15-1.jpg",
+      "/images/products/appliances/icecat-philips-oneblade-pro-qp6530-15-2.jpg",
+      "/images/products/appliances/icecat-philips-oneblade-pro-qp6530-15-3.jpg"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -11553,9 +11914,10 @@ export const mockAppliances: Product[] = [
     "rating": 4.8,
     "epeyScore": 93,
     "reviewCount": 390,
-    "image": "/images/appliances/philips-bg5021-16.jpg",
+    "image": "/images/products/appliances/icecat-philips-5000-serisi-bg5021-16.jpg",
     "images": [
-      "/images/appliances/philips-bg5021-16.jpg"
+      "/images/products/appliances/icecat-philips-5000-serisi-bg5021-16.jpg",
+      "/images/products/appliances/icecat-philips-5000-serisi-bg5021-16-1.jpg"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -11624,9 +11986,10 @@ export const mockAppliances: Product[] = [
     "rating": 4.8,
     "epeyScore": 92,
     "reviewCount": 890,
-    "image": "/images/appliances/philips-mg5730-15.jpg",
+    "image": "/images/products/appliances/icecat-philips-mg5730-15.jpg",
     "images": [
-      "/images/appliances/philips-mg5730-15.jpg"
+      "/images/products/appliances/icecat-philips-mg5730-15.jpg",
+      "/images/products/appliances/icecat-philips-mg5730-15-1.jpg"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -11694,9 +12057,11 @@ export const mockAppliances: Product[] = [
     "rating": 4.8,
     "epeyScore": 93,
     "reviewCount": 760,
-    "image": "/images/appliances/philips-mg5940-15.jpg",
+    "image": "/images/products/appliances/icecat-philips-5000-serisi-mg5940-15.jpg",
     "images": [
-      "/images/appliances/philips-mg5940-15.jpg"
+      "/images/products/appliances/icecat-philips-5000-serisi-mg5940-15.jpg",
+      "/images/products/appliances/icecat-philips-5000-serisi-mg5940-15-1.jpg",
+      "/images/products/appliances/icecat-philips-5000-serisi-mg5940-15-2.jpg"
     ],
     "releaseYear": 2025,
     "isPopular": true,
@@ -11765,9 +12130,12 @@ export const mockAppliances: Product[] = [
     "rating": 4.8,
     "epeyScore": 93,
     "reviewCount": 450,
-    "image": "/images/appliances/philips-mg5950-15.jpg",
+    "image": "/images/products/appliances/icecat-philips-mg5950-15.jpg",
     "images": [
-      "/images/appliances/philips-mg5950-15.jpg"
+      "/images/products/appliances/icecat-philips-mg5950-15.jpg",
+      "/images/products/appliances/icecat-philips-mg5950-15-1.jpg",
+      "/images/products/appliances/icecat-philips-mg5950-15-2.jpg",
+      "/images/products/appliances/icecat-philips-mg5950-15-3.jpg"
     ],
     "releaseYear": 2025,
     "isPopular": false,
@@ -11835,9 +12203,12 @@ export const mockAppliances: Product[] = [
     "rating": 4.7,
     "epeyScore": 91,
     "reviewCount": 520,
-    "image": "/images/appliances/philips-mg5920-15.jpg",
+    "image": "/images/products/appliances/icecat-philips-5000-serisi-mg5920-15.jpg",
     "images": [
-      "/images/appliances/philips-mg5920-15.jpg"
+      "/images/products/appliances/icecat-philips-5000-serisi-mg5920-15.jpg",
+      "/images/products/appliances/icecat-philips-5000-serisi-mg5920-15-1.jpg",
+      "/images/products/appliances/icecat-philips-5000-serisi-mg5920-15-2.jpg",
+      "/images/products/appliances/icecat-philips-5000-serisi-mg5920-15-3.jpg"
     ],
     "releaseYear": 2025,
     "isPopular": false,
@@ -11905,9 +12276,12 @@ export const mockAppliances: Product[] = [
     "rating": 4.7,
     "epeyScore": 89,
     "reviewCount": 840,
-    "image": "/images/appliances/philips-s1323-41.jpg",
+    "image": "/images/products/appliances/icecat-philips-s1323-41.jpg",
     "images": [
-      "/images/appliances/philips-s1323-41.jpg"
+      "/images/products/appliances/icecat-philips-s1323-41.jpg",
+      "/images/products/appliances/icecat-philips-s1323-41-1.jpg",
+      "/images/products/appliances/icecat-philips-s1323-41-2.jpg",
+      "/images/products/appliances/icecat-philips-s1323-41-3.jpg"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -11975,9 +12349,12 @@ export const mockAppliances: Product[] = [
     "rating": 4.7,
     "epeyScore": 89,
     "reviewCount": 1400,
-    "image": "/images/appliances/philips-qp1424-10.jpg",
+    "image": "/images/products/appliances/icecat-philips-oneblade-qp1424-10.jpg",
     "images": [
-      "/images/appliances/philips-qp1424-10.jpg"
+      "/images/products/appliances/icecat-philips-oneblade-qp1424-10.jpg",
+      "/images/products/appliances/icecat-philips-oneblade-qp1424-10-1.jpg",
+      "/images/products/appliances/icecat-philips-oneblade-qp1424-10-2.jpg",
+      "/images/products/appliances/icecat-philips-oneblade-qp1424-10-3.jpg"
     ],
     "releaseYear": 2025,
     "isPopular": true,
@@ -12046,9 +12423,12 @@ export const mockAppliances: Product[] = [
     "rating": 4.8,
     "epeyScore": 91,
     "reviewCount": 1800,
-    "image": "/images/appliances/philips-qp2724-20.jpg",
+    "image": "/images/products/appliances/icecat-philips-oneblade-qp2724-20.jpg",
     "images": [
-      "/images/appliances/philips-qp2724-20.jpg"
+      "/images/products/appliances/icecat-philips-oneblade-qp2724-20.jpg",
+      "/images/products/appliances/icecat-philips-oneblade-qp2724-20-1.jpg",
+      "/images/products/appliances/icecat-philips-oneblade-qp2724-20-2.jpg",
+      "/images/products/appliances/icecat-philips-oneblade-qp2724-20-3.jpg"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -12117,9 +12497,12 @@ export const mockAppliances: Product[] = [
     "rating": 4.9,
     "epeyScore": 94,
     "reviewCount": 390,
-    "image": "/images/appliances/philips-psg8030-20.jpg",
+    "image": "/images/products/appliances/icecat-philips-perfectcare-8000-series-psg8030-20.jpg",
     "images": [
-      "/images/appliances/philips-psg8030-20.jpg"
+      "/images/products/appliances/icecat-philips-perfectcare-8000-series-psg8030-20.jpg",
+      "/images/products/appliances/icecat-philips-perfectcare-8000-series-psg8030-20-1.jpg",
+      "/images/products/appliances/icecat-philips-perfectcare-8000-series-psg8030-20-2.jpg",
+      "/images/products/appliances/icecat-philips-perfectcare-8000-series-psg8030-20-3.jpg"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -12191,9 +12574,12 @@ export const mockAppliances: Product[] = [
     "rating": 4.9,
     "epeyScore": 94,
     "reviewCount": 310,
-    "image": "/images/appliances/philips-psg8050-30.jpg",
+    "image": "/images/products/appliances/icecat-philips-perfectcare-8000-series-psg8050-30.jpg",
     "images": [
-      "/images/appliances/philips-psg8050-30.jpg"
+      "/images/products/appliances/icecat-philips-perfectcare-8000-series-psg8050-30.jpg",
+      "/images/products/appliances/icecat-philips-perfectcare-8000-series-psg8050-30-1.jpg",
+      "/images/products/appliances/icecat-philips-perfectcare-8000-series-psg8050-30-2.jpg",
+      "/images/products/appliances/icecat-philips-perfectcare-8000-series-psg8050-30-3.jpg"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -12265,9 +12651,12 @@ export const mockAppliances: Product[] = [
     "rating": 4.9,
     "epeyScore": 95,
     "reviewCount": 650,
-    "image": "/images/appliances/philips-gc9682-80.jpg",
+    "image": "/images/products/appliances/icecat-philips-perfectcare-elite-plus-gc9682-80.jpg",
     "images": [
-      "/images/appliances/philips-gc9682-80.jpg"
+      "/images/products/appliances/icecat-philips-perfectcare-elite-plus-gc9682-80.jpg",
+      "/images/products/appliances/icecat-philips-perfectcare-elite-plus-gc9682-80-1.jpg",
+      "/images/products/appliances/icecat-philips-perfectcare-elite-plus-gc9682-80-2.jpg",
+      "/images/products/appliances/icecat-philips-perfectcare-elite-plus-gc9682-80-3.jpg"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -12340,9 +12729,12 @@ export const mockAppliances: Product[] = [
     "rating": 4.8,
     "epeyScore": 91,
     "reviewCount": 140,
-    "image": "/images/appliances/philips-psg7200-30.jpg",
+    "image": "/images/products/appliances/icecat-philips-perfectcare-7000-psg7200-30.jpg",
     "images": [
-      "/images/appliances/philips-psg7200-30.jpg"
+      "/images/products/appliances/icecat-philips-perfectcare-7000-psg7200-30.jpg",
+      "/images/products/appliances/icecat-philips-perfectcare-7000-psg7200-30-1.jpg",
+      "/images/products/appliances/icecat-philips-perfectcare-7000-psg7200-30-2.jpg",
+      "/images/products/appliances/icecat-philips-perfectcare-7000-psg7200-30-3.jpg"
     ],
     "releaseYear": 2025,
     "isPopular": false,
@@ -12414,9 +12806,12 @@ export const mockAppliances: Product[] = [
     "rating": 4.8,
     "epeyScore": 90,
     "reviewCount": 230,
-    "image": "/images/appliances/philips-psg7200-20.jpg",
+    "image": "/images/products/appliances/icecat-philips-perfectcare-7000-psg7200-20.jpg",
     "images": [
-      "/images/appliances/philips-psg7200-20.jpg"
+      "/images/products/appliances/icecat-philips-perfectcare-7000-psg7200-20.jpg",
+      "/images/products/appliances/icecat-philips-perfectcare-7000-psg7200-20-1.jpg",
+      "/images/products/appliances/icecat-philips-perfectcare-7000-psg7200-20-2.jpg",
+      "/images/products/appliances/icecat-philips-perfectcare-7000-psg7200-20-3.jpg"
     ],
     "releaseYear": 2025,
     "isPopular": true,
@@ -12488,9 +12883,12 @@ export const mockAppliances: Product[] = [
     "rating": 4.7,
     "epeyScore": 89,
     "reviewCount": 280,
-    "image": "/images/appliances/philips-hd4467-90.png",
+    "image": "/images/products/appliances/icecat-philips-hd4467-90.jpg",
     "images": [
-      "/images/appliances/philips-hd4467-90.png"
+      "/images/products/appliances/icecat-philips-hd4467-90.jpg",
+      "/images/products/appliances/icecat-philips-hd4467-90-1.jpg",
+      "/images/products/appliances/icecat-philips-hd4467-90-2.jpg",
+      "/images/products/appliances/icecat-philips-hd4467-90-3.jpg"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -12558,9 +12956,12 @@ export const mockAppliances: Product[] = [
     "rating": 5,
     "epeyScore": 99,
     "reviewCount": 140,
-    "image": "/images/appliances/philips-s9721-41.jpg",
+    "image": "/images/products/appliances/icecat-philips-s9721-41.jpg",
     "images": [
-      "/images/appliances/philips-s9721-41.jpg"
+      "/images/products/appliances/icecat-philips-s9721-41.jpg",
+      "/images/products/appliances/icecat-philips-s9721-41-1.jpg",
+      "/images/products/appliances/icecat-philips-s9721-41-2.jpg",
+      "/images/products/appliances/icecat-philips-s9721-41-3.jpg"
     ],
     "releaseYear": 2025,
     "isPopular": true,
@@ -12631,9 +13032,10 @@ export const mockAppliances: Product[] = [
     "rating": 4.7,
     "epeyScore": 89,
     "reviewCount": 310,
-    "image": "/images/appliances/philips-s3120-06.jpg",
+    "image": "/images/products/appliances/icecat-philips-3000-serisi-s3120-06.jpg",
     "images": [
-      "/images/appliances/philips-s3120-06.jpg"
+      "/images/products/appliances/icecat-philips-3000-serisi-s3120-06.jpg",
+      "/images/products/appliances/icecat-philips-3000-serisi-s3120-06-1.jpg"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -12701,9 +13103,10 @@ export const mockAppliances: Product[] = [
     "rating": 4.8,
     "epeyScore": 91,
     "reviewCount": 420,
-    "image": "/images/appliances/philips-s3133-51.jpg",
+    "image": "/images/products/appliances/icecat-philips-3000-serisi-s3133-51.jpg",
     "images": [
-      "/images/appliances/philips-s3133-51.jpg"
+      "/images/products/appliances/icecat-philips-3000-serisi-s3133-51.jpg",
+      "/images/products/appliances/icecat-philips-3000-serisi-s3133-51-1.jpg"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -12772,9 +13175,11 @@ export const mockAppliances: Product[] = [
     "rating": 4.8,
     "epeyScore": 92,
     "reviewCount": 360,
-    "image": "/images/appliances/philips-mg5930-15.jpg",
+    "image": "/images/products/appliances/icecat-philips-mg5930-15.jpg",
     "images": [
-      "/images/appliances/philips-mg5930-15.jpg"
+      "/images/products/appliances/icecat-philips-mg5930-15.jpg",
+      "/images/products/appliances/icecat-philips-mg5930-15-1.jpg",
+      "/images/products/appliances/icecat-philips-mg5930-15-2.jpg"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -12842,9 +13247,10 @@ export const mockAppliances: Product[] = [
     "rating": 4.7,
     "epeyScore": 89,
     "reviewCount": 540,
-    "image": "/images/appliances/philips-x3063-00.jpg",
+    "image": "/images/products/appliances/icecat-philips-3000x-serisi-x3063-00.jpg",
     "images": [
-      "/images/appliances/philips-x3063-00.jpg"
+      "/images/products/appliances/icecat-philips-3000x-serisi-x3063-00.jpg",
+      "/images/products/appliances/icecat-philips-3000x-serisi-x3063-00-1.jpg"
     ],
     "releaseYear": 2025,
     "isPopular": true,
@@ -12912,9 +13318,11 @@ export const mockAppliances: Product[] = [
     "rating": 4.6,
     "epeyScore": 88,
     "reviewCount": 680,
-    "image": "/images/appliances/philips-x3021-00.jpg",
+    "image": "/images/products/appliances/icecat-philips-3000x-serisi-x3021-00.jpg",
     "images": [
-      "/images/appliances/philips-x3021-00.jpg"
+      "/images/products/appliances/icecat-philips-3000x-serisi-x3021-00.jpg",
+      "/images/products/appliances/icecat-philips-3000x-serisi-x3021-00-1.jpg",
+      "/images/products/appliances/icecat-philips-3000x-serisi-x3021-00-2.jpg"
     ],
     "releaseYear": 2025,
     "isPopular": true,
@@ -12982,9 +13390,12 @@ export const mockAppliances: Product[] = [
     "rating": 4.9,
     "epeyScore": 96,
     "reviewCount": 310,
-    "image": "/images/appliances/philips-psg8130-80.jpg",
+    "image": "/images/products/appliances/icecat-philips-perfectcare-8000-psg8130-80.jpg",
     "images": [
-      "/images/appliances/philips-psg8130-80.jpg"
+      "/images/products/appliances/icecat-philips-perfectcare-8000-psg8130-80.jpg",
+      "/images/products/appliances/icecat-philips-perfectcare-8000-psg8130-80-1.jpg",
+      "/images/products/appliances/icecat-philips-perfectcare-8000-psg8130-80-2.jpg",
+      "/images/products/appliances/icecat-philips-perfectcare-8000-psg8130-80-3.jpg"
     ],
     "releaseYear": 2025,
     "isPopular": true,
@@ -13056,9 +13467,12 @@ export const mockAppliances: Product[] = [
     "rating": 4.8,
     "epeyScore": 93,
     "reviewCount": 180,
-    "image": "/images/appliances/philips-psg7300-20.jpg",
+    "image": "/images/products/appliances/icecat-philips-perfectcare-7000-psg7300-20.jpg",
     "images": [
-      "/images/appliances/philips-psg7300-20.jpg"
+      "/images/products/appliances/icecat-philips-perfectcare-7000-psg7300-20.jpg",
+      "/images/products/appliances/icecat-philips-perfectcare-7000-psg7300-20-1.jpg",
+      "/images/products/appliances/icecat-philips-perfectcare-7000-psg7300-20-2.jpg",
+      "/images/products/appliances/icecat-philips-perfectcare-7000-psg7300-20-3.jpg"
     ],
     "releaseYear": 2025,
     "isPopular": false,
@@ -13130,9 +13544,12 @@ export const mockAppliances: Product[] = [
     "rating": 4.8,
     "epeyScore": 92,
     "reviewCount": 160,
-    "image": "/images/appliances/philips-psg7300-70.jpg",
+    "image": "/images/products/appliances/icecat-philips-perfectcare-7000-psg7300-70.jpg",
     "images": [
-      "/images/appliances/philips-psg7300-70.jpg"
+      "/images/products/appliances/icecat-philips-perfectcare-7000-psg7300-70.jpg",
+      "/images/products/appliances/icecat-philips-perfectcare-7000-psg7300-70-1.jpg",
+      "/images/products/appliances/icecat-philips-perfectcare-7000-psg7300-70-2.jpg",
+      "/images/products/appliances/icecat-philips-perfectcare-7000-psg7300-70-3.jpg"
     ],
     "releaseYear": 2025,
     "isPopular": false,
@@ -13204,9 +13621,12 @@ export const mockAppliances: Product[] = [
     "rating": 4.9,
     "epeyScore": 94,
     "reviewCount": 420,
-    "image": "/images/appliances/philips-psg8160-30.jpg",
+    "image": "/images/products/appliances/icecat-philips-perfectcare-8000-psg8160-30.jpg",
     "images": [
-      "/images/appliances/philips-psg8160-30.jpg"
+      "/images/products/appliances/icecat-philips-perfectcare-8000-psg8160-30.jpg",
+      "/images/products/appliances/icecat-philips-perfectcare-8000-psg8160-30-1.jpg",
+      "/images/products/appliances/icecat-philips-perfectcare-8000-psg8160-30-2.jpg",
+      "/images/products/appliances/icecat-philips-perfectcare-8000-psg8160-30-3.jpg"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -13278,9 +13698,12 @@ export const mockAppliances: Product[] = [
     "rating": 4.8,
     "epeyScore": 91,
     "reviewCount": 290,
-    "image": "/images/appliances/philips-psg7300-80.jpg",
+    "image": "/images/products/appliances/icecat-philips-perfectcare-7000-psg7300-80.jpg",
     "images": [
-      "/images/appliances/philips-psg7300-80.jpg"
+      "/images/products/appliances/icecat-philips-perfectcare-7000-psg7300-80.jpg",
+      "/images/products/appliances/icecat-philips-perfectcare-7000-psg7300-80-1.jpg",
+      "/images/products/appliances/icecat-philips-perfectcare-7000-psg7300-80-2.jpg",
+      "/images/products/appliances/icecat-philips-perfectcare-7000-psg7300-80-3.jpg"
     ],
     "releaseYear": 2025,
     "isPopular": true,
@@ -13352,9 +13775,10 @@ export const mockAppliances: Product[] = [
     "rating": 4.9,
     "epeyScore": 98,
     "reviewCount": 310,
-    "image": "/images/appliances/philips-s9987-85.jpg",
+    "image": "/images/products/appliances/icecat-philips-norelco-9800-s9987-85.jpg",
     "images": [
-      "/images/appliances/philips-s9987-85.jpg"
+      "/images/products/appliances/icecat-philips-norelco-9800-s9987-85.jpg",
+      "/images/products/appliances/icecat-philips-norelco-9800-s9987-85-1.jpg"
     ],
     "releaseYear": 2025,
     "isPopular": true,
@@ -13425,9 +13849,11 @@ export const mockAppliances: Product[] = [
     "rating": 4.9,
     "epeyScore": 97,
     "reviewCount": 450,
-    "image": "/images/appliances/philips-sp9872-22.jpg",
+    "image": "/images/products/appliances/icecat-philips-9000-serisi-sp9872-22.jpg",
     "images": [
-      "/images/appliances/philips-sp9872-22.jpg"
+      "/images/products/appliances/icecat-philips-9000-serisi-sp9872-22.jpg",
+      "/images/products/appliances/icecat-philips-9000-serisi-sp9872-22-1.jpg",
+      "/images/products/appliances/icecat-philips-9000-serisi-sp9872-22-2.jpg"
     ],
     "releaseYear": 2025,
     "isPopular": true,
@@ -13498,9 +13924,11 @@ export const mockAppliances: Product[] = [
     "rating": 4.8,
     "epeyScore": 93,
     "reviewCount": 220,
-    "image": "/images/appliances/philips-s5880-81.jpg",
+    "image": "/images/products/appliances/icecat-philips-s5880-81.jpg",
     "images": [
-      "/images/appliances/philips-s5880-81.jpg"
+      "/images/products/appliances/icecat-philips-s5880-81.jpg",
+      "/images/products/appliances/icecat-philips-s5880-81-1.jpg",
+      "/images/products/appliances/icecat-philips-s5880-81-2.jpg"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -13779,9 +14207,12 @@ export const mockAppliances: Product[] = [
     "rating": 4.9,
     "epeyScore": 96,
     "reviewCount": 520,
-    "image": "/images/appliances/philips-mg7950-15.jpg",
+    "image": "/images/products/appliances/icecat-philips-7000-serisi-mg7950-15.jpg",
     "images": [
-      "/images/appliances/philips-mg7950-15.jpg"
+      "/images/products/appliances/icecat-philips-7000-serisi-mg7950-15.jpg",
+      "/images/products/appliances/icecat-philips-7000-serisi-mg7950-15-1.jpg",
+      "/images/products/appliances/icecat-philips-7000-serisi-mg7950-15-2.jpg",
+      "/images/products/appliances/icecat-philips-7000-serisi-mg7950-15-3.jpg"
     ],
     "releaseYear": 2025,
     "isPopular": true,
@@ -13849,9 +14280,12 @@ export const mockAppliances: Product[] = [
     "rating": 4.8,
     "epeyScore": 92,
     "reviewCount": 680,
-    "image": "/images/appliances/philips-s5887-10.jpg",
+    "image": "/images/products/appliances/icecat-philips-s5887-10.jpg",
     "images": [
-      "/images/appliances/philips-s5887-10.jpg"
+      "/images/products/appliances/icecat-philips-s5887-10.jpg",
+      "/images/products/appliances/icecat-philips-s5887-10-1.jpg",
+      "/images/products/appliances/icecat-philips-s5887-10-2.jpg",
+      "/images/products/appliances/icecat-philips-s5887-10-3.jpg"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -13919,9 +14353,10 @@ export const mockAppliances: Product[] = [
     "rating": 4.8,
     "epeyScore": 93,
     "reviewCount": 420,
-    "image": "/images/appliances/philips-mg7930-15.jpg",
+    "image": "/images/products/appliances/icecat-philips-mg7930-15.jpg",
     "images": [
-      "/images/appliances/philips-mg7930-15.jpg"
+      "/images/products/appliances/icecat-philips-mg7930-15.jpg",
+      "/images/products/appliances/icecat-philips-mg7930-15-1.jpg"
     ],
     "releaseYear": 2025,
     "isPopular": true,
@@ -13989,9 +14424,12 @@ export const mockAppliances: Product[] = [
     "rating": 4.7,
     "epeyScore": 89,
     "reviewCount": 780,
-    "image": "/images/appliances/philips-s3144-00.jpg",
+    "image": "/images/products/appliances/icecat-philips-3000-serisi-s3144-00.jpg",
     "images": [
-      "/images/appliances/philips-s3144-00.jpg"
+      "/images/products/appliances/icecat-philips-3000-serisi-s3144-00.jpg",
+      "/images/products/appliances/icecat-philips-3000-serisi-s3144-00-1.jpg",
+      "/images/products/appliances/icecat-philips-3000-serisi-s3144-00-2.jpg",
+      "/images/products/appliances/icecat-philips-3000-serisi-s3144-00-3.jpg"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -14059,9 +14497,12 @@ export const mockAppliances: Product[] = [
     "rating": 5,
     "epeyScore": 98,
     "reviewCount": 420,
-    "image": "/images/appliances/philips-psg9050-20.jpg",
+    "image": "/images/products/appliances/icecat-philips-perfectcare-9000-psg9050-20.jpg",
     "images": [
-      "/images/appliances/philips-psg9050-20.jpg"
+      "/images/products/appliances/icecat-philips-perfectcare-9000-psg9050-20.jpg",
+      "/images/products/appliances/icecat-philips-perfectcare-9000-psg9050-20-1.jpg",
+      "/images/products/appliances/icecat-philips-perfectcare-9000-psg9050-20-2.jpg",
+      "/images/products/appliances/icecat-philips-perfectcare-9000-psg9050-20-3.jpg"
     ],
     "releaseYear": 2025,
     "isPopular": true,
@@ -14167,9 +14608,12 @@ export const mockAppliances: Product[] = [
     "rating": 4.9,
     "epeyScore": 95,
     "reviewCount": 275,
-    "image": "/images/appliances/philips-psg8300-30.jpg",
+    "image": "/images/products/appliances/icecat-philips-perfectcare-8000-psg8300-30.jpg",
     "images": [
-      "/images/appliances/philips-psg8300-30.jpg"
+      "/images/products/appliances/icecat-philips-perfectcare-8000-psg8300-30.jpg",
+      "/images/products/appliances/icecat-philips-perfectcare-8000-psg8300-30-1.jpg",
+      "/images/products/appliances/icecat-philips-perfectcare-8000-psg8300-30-2.jpg",
+      "/images/products/appliances/icecat-philips-perfectcare-8000-psg8300-30-3.jpg"
     ],
     "releaseYear": 2025,
     "isPopular": true,
@@ -14256,9 +14700,12 @@ export const mockAppliances: Product[] = [
     "rating": 4.9,
     "epeyScore": 94,
     "reviewCount": 312,
-    "image": "/images/appliances/philips-psg8300-20.jpg",
+    "image": "/images/products/appliances/icecat-philips-perfectcare-8000-psg8300-20.jpg",
     "images": [
-      "/images/appliances/philips-psg8300-20.jpg"
+      "/images/products/appliances/icecat-philips-perfectcare-8000-psg8300-20.jpg",
+      "/images/products/appliances/icecat-philips-perfectcare-8000-psg8300-20-1.jpg",
+      "/images/products/appliances/icecat-philips-perfectcare-8000-psg8300-20-2.jpg",
+      "/images/products/appliances/icecat-philips-perfectcare-8000-psg8300-20-3.jpg"
     ],
     "releaseYear": 2025,
     "isPopular": true,
@@ -14330,9 +14777,12 @@ export const mockAppliances: Product[] = [
     "rating": 4.9,
     "epeyScore": 93,
     "reviewCount": 145,
-    "image": "/images/appliances/philips-psg8200-70.jpg",
+    "image": "/images/products/appliances/icecat-philips-perfectcare-8000-psg8200-70.jpg",
     "images": [
-      "/images/appliances/philips-psg8200-70.jpg"
+      "/images/products/appliances/icecat-philips-perfectcare-8000-psg8200-70.jpg",
+      "/images/products/appliances/icecat-philips-perfectcare-8000-psg8200-70-1.jpg",
+      "/images/products/appliances/icecat-philips-perfectcare-8000-psg8200-70-2.jpg",
+      "/images/products/appliances/icecat-philips-perfectcare-8000-psg8200-70-3.jpg"
     ],
     "releaseYear": 2025,
     "isPopular": false,
@@ -14404,9 +14854,10 @@ export const mockAppliances: Product[] = [
     "rating": 4.8,
     "epeyScore": 96,
     "reviewCount": 198,
-    "image": "/images/appliances/philips-shaver-s9711-31.jpg",
+    "image": "/images/products/appliances/icecat-philips-shaver-s9711-31.jpg",
     "images": [
-      "/images/appliances/philips-shaver-s9711-31.jpg"
+      "/images/products/appliances/icecat-philips-shaver-s9711-31.jpg",
+      "/images/products/appliances/icecat-philips-shaver-s9711-31-1.jpg"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -14620,9 +15071,11 @@ export const mockAppliances: Product[] = [
     "rating": 4.9,
     "epeyScore": 95,
     "reviewCount": 260,
-    "image": "/images/appliances/philips-s8692-35.jpg",
+    "image": "/images/products/appliances/icecat-philips-8000-serisi-s8692-35.jpg",
     "images": [
-      "/images/appliances/philips-s8692-35.jpg"
+      "/images/products/appliances/icecat-philips-8000-serisi-s8692-35.jpg",
+      "/images/products/appliances/icecat-philips-8000-serisi-s8692-35-1.jpg",
+      "/images/products/appliances/icecat-philips-8000-serisi-s8692-35-2.jpg"
     ],
     "releaseYear": 2025,
     "isPopular": true,
@@ -14691,9 +15144,11 @@ export const mockAppliances: Product[] = [
     "rating": 4.8,
     "epeyScore": 92,
     "reviewCount": 410,
-    "image": "/images/appliances/philips-s5587-10.png",
+    "image": "/images/products/appliances/icecat-philips-5000-serisi-s5587-10.jpg",
     "images": [
-      "/images/appliances/philips-s5587-10.png"
+      "/images/products/appliances/icecat-philips-5000-serisi-s5587-10.jpg",
+      "/images/products/appliances/icecat-philips-5000-serisi-s5587-10-1.jpg",
+      "/images/products/appliances/icecat-philips-5000-serisi-s5587-10-2.jpg"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -14761,9 +15216,11 @@ export const mockAppliances: Product[] = [
     "rating": 4.9,
     "epeyScore": 94,
     "reviewCount": 610,
-    "image": "/images/appliances/philips-mg7940-15.jpg",
+    "image": "/images/products/appliances/icecat-philips-7000-serisi-mg7940-15.jpg",
     "images": [
-      "/images/appliances/philips-mg7940-15.jpg"
+      "/images/products/appliances/icecat-philips-7000-serisi-mg7940-15.jpg",
+      "/images/products/appliances/icecat-philips-7000-serisi-mg7940-15-1.jpg",
+      "/images/products/appliances/icecat-philips-7000-serisi-mg7940-15-2.jpg"
     ],
     "releaseYear": 2025,
     "isPopular": true,
@@ -14831,9 +15288,11 @@ export const mockAppliances: Product[] = [
     "rating": 4.8,
     "epeyScore": 93,
     "reviewCount": 540,
-    "image": "/images/appliances/philips-mg7920-15.jpg",
+    "image": "/images/products/appliances/icecat-philips-7000-serisi-mg7920-15.jpg",
     "images": [
-      "/images/appliances/philips-mg7920-15.jpg"
+      "/images/products/appliances/icecat-philips-7000-serisi-mg7920-15.jpg",
+      "/images/products/appliances/icecat-philips-7000-serisi-mg7920-15-1.jpg",
+      "/images/products/appliances/icecat-philips-7000-serisi-mg7920-15-2.jpg"
     ],
     "releaseYear": 2025,
     "isPopular": false,
@@ -14901,9 +15360,9 @@ export const mockAppliances: Product[] = [
     "rating": 4.7,
     "epeyScore": 90,
     "reviewCount": 320,
-    "image": "/images/appliances/philips-aquatouch-s5070.jpg",
+    "image": "/images/products/appliances/icecat-philips-aquatouch-s5070-06.jpg",
     "images": [
-      "/images/appliances/philips-aquatouch-s5070.jpg"
+      "/images/products/appliances/icecat-philips-aquatouch-s5070-06.jpg"
     ],
     "releaseYear": 2023,
     "isPopular": false,
@@ -15040,9 +15499,12 @@ export const mockAppliances: Product[] = [
     "rating": 4.8,
     "epeyScore": 93,
     "reviewCount": 195,
-    "image": "/images/appliances/philips-hr3770-00.jpg",
+    "image": "/images/products/appliances/icecat-philips-hr3770-00.jpg",
     "images": [
-      "/images/appliances/philips-hr3770-00.jpg"
+      "/images/products/appliances/icecat-philips-hr3770-00.jpg",
+      "/images/products/appliances/icecat-philips-hr3770-00-1.jpg",
+      "/images/products/appliances/icecat-philips-hr3770-00-2.jpg",
+      "/images/products/appliances/icecat-philips-hr3770-00-3.jpg"
     ],
     "releaseYear": 2025,
     "isPopular": true,
@@ -24331,9 +24793,9 @@ export const mockAppliances: Product[] = [
     "rating": 4.6,
     "epeyScore": 81,
     "reviewCount": 780,
-    "image": "/images/appliances/roborock-605149.jpg",
+    "image": "/images/products/appliances/icecat-roborock-s502-00.jpg",
     "images": [
-      "/images/appliances/roborock-605149.jpg"
+      "/images/products/appliances/icecat-roborock-s502-00.jpg"
     ],
     "releaseYear": 2018,
     "isPopular": false,
@@ -41594,9 +42056,10 @@ export const mockAppliances: Product[] = [
     "name": "Dreame Air Style RLS3L Saç Şekillendirici ve Kurutma Seti",
     "brand": "Dreame",
     "category": "appliances",
-    "image": "/images/appliances/dreame-1005031.jpg",
+    "image": "/images/products/appliances/icecat-dreame-air-style-rls3l.jpg",
     "images": [
-      "/images/appliances/dreame-1005031.jpg"
+      "/images/products/appliances/icecat-dreame-air-style-rls3l.jpg",
+      "/images/products/appliances/icecat-dreame-air-style-rls3l-1.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 94,
@@ -44489,9 +44952,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips FC9919/07 Marathon Ultimate (650 W)",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-32047.jpg",
+    "image": "/images/products/appliances/icecat-philips-philips-fc991907-marathon-ultimate-650-w.jpg",
     "images": [
-      "/images/appliances/philips-32047.jpg"
+      "/images/products/appliances/icecat-philips-philips-fc991907-marathon-ultimate-650-w.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc991907-marathon-ultimate-650-w-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc991907-marathon-ultimate-650-w-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc991907-marathon-ultimate-650-w-3.jpg"
     ],
     "rating": 4.9,
     "epeyScore": 93,
@@ -44595,9 +45061,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips FC9923/07 Marathon Ultimate (650 W)",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-31026.png",
+    "image": "/images/products/appliances/icecat-philips-philips-fc992307-marathon-ultimate-650-w.jpg",
     "images": [
-      "/images/appliances/philips-31026.png"
+      "/images/products/appliances/icecat-philips-philips-fc992307-marathon-ultimate-650-w.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc992307-marathon-ultimate-650-w-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc992307-marathon-ultimate-650-w-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc992307-marathon-ultimate-650-w-3.jpg"
     ],
     "rating": 4.9,
     "epeyScore": 93,
@@ -44701,9 +45170,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips Marathon Daily XB7151/07",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-878443.jpg",
+    "image": "/images/products/appliances/icecat-philips-philips-marathon-daily-xb715107.jpg",
     "images": [
-      "/images/appliances/philips-878443.jpg"
+      "/images/products/appliances/icecat-philips-philips-marathon-daily-xb715107.jpg",
+      "/images/products/appliances/icecat-philips-philips-marathon-daily-xb715107-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-marathon-daily-xb715107-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-marathon-daily-xb715107-3.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 86,
@@ -44807,9 +45279,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips Marathon Ultimate XB9125/07",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-345076.jpg",
+    "image": "/images/products/appliances/icecat-philips-philips-marathon-ultimate-xb912507.jpg",
     "images": [
-      "/images/appliances/philips-345076.jpg"
+      "/images/products/appliances/icecat-philips-philips-marathon-ultimate-xb912507.jpg",
+      "/images/products/appliances/icecat-philips-philips-marathon-ultimate-xb912507-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-marathon-ultimate-xb912507-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-marathon-ultimate-xb912507-3.jpg"
     ],
     "rating": 4.9,
     "epeyScore": 93,
@@ -44913,9 +45388,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips Marathon Ultimate XB9185/07",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-345073.jpg",
+    "image": "/images/products/appliances/icecat-philips-philips-marathon-ultimate-xb918507.jpg",
     "images": [
-      "/images/appliances/philips-345073.jpg"
+      "/images/products/appliances/icecat-philips-philips-marathon-ultimate-xb918507.jpg",
+      "/images/products/appliances/icecat-philips-philips-marathon-ultimate-xb918507-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-marathon-ultimate-xb918507-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-marathon-ultimate-xb918507-3.jpg"
     ],
     "rating": 4.9,
     "epeyScore": 93,
@@ -45019,9 +45497,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips FC9749/07 PowerPro Max",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-779795.png",
+    "image": "/images/products/appliances/icecat-philips-philips-fc974907-powerpro-max.jpg",
     "images": [
-      "/images/appliances/philips-779795.png"
+      "/images/products/appliances/icecat-philips-philips-fc974907-powerpro-max.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc974907-powerpro-max-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc974907-powerpro-max-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc974907-powerpro-max-3.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 87,
@@ -45124,9 +45605,9 @@ export const mockAppliances: Product[] = [
     "name": "Philips Marathon Ultimate XB9145/07",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-345075.jpg",
+    "image": "/images/products/appliances/icecat-philips-philips-marathon-ultimate-xb914507.jpg",
     "images": [
-      "/images/appliances/philips-345075.jpg"
+      "/images/products/appliances/icecat-philips-philips-marathon-ultimate-xb914507.jpg"
     ],
     "rating": 4.9,
     "epeyScore": 93,
@@ -45230,9 +45711,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips FC9750/07 PowerPro Max",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-158463.jpg",
+    "image": "/images/products/appliances/icecat-philips-philips-fc975007-powerpro-max.jpg",
     "images": [
-      "/images/appliances/philips-158463.jpg"
+      "/images/products/appliances/icecat-philips-philips-fc975007-powerpro-max.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc975007-powerpro-max-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc975007-powerpro-max-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc975007-powerpro-max-3.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 87,
@@ -45335,9 +45819,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips FC9751/07 PowerPro Max",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-156362.jpg",
+    "image": "/images/products/appliances/icecat-philips-philips-fc975107-powerpro-max.jpg",
     "images": [
-      "/images/appliances/philips-156362.jpg"
+      "/images/products/appliances/icecat-philips-philips-fc975107-powerpro-max.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc975107-powerpro-max-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc975107-powerpro-max-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc975107-powerpro-max-3.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 87,
@@ -45440,9 +45927,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips FC9330/09",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-428817.jpg",
+    "image": "/images/products/appliances/icecat-philips-philips-fc933009.jpg",
     "images": [
-      "/images/appliances/philips-428817.jpg"
+      "/images/products/appliances/icecat-philips-philips-fc933009.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc933009-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc933009-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc933009-3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 84,
@@ -45544,9 +46034,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips Marathon Daily XB7150/07",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-878450.jpg",
+    "image": "/images/products/appliances/icecat-philips-philips-marathon-daily-xb715007.jpg",
     "images": [
-      "/images/appliances/philips-878450.jpg"
+      "/images/products/appliances/icecat-philips-philips-marathon-daily-xb715007.jpg",
+      "/images/products/appliances/icecat-philips-philips-marathon-daily-xb715007-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-marathon-daily-xb715007-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-marathon-daily-xb715007-3.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 86,
@@ -45650,9 +46143,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips FC9330/07",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-863312.jpg",
+    "image": "/images/products/appliances/icecat-philips-philips-fc933007.jpg",
     "images": [
-      "/images/appliances/philips-863312.jpg"
+      "/images/products/appliances/icecat-philips-philips-fc933007.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc933007-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc933007-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc933007-3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 84,
@@ -45754,9 +46250,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips FC9331/07 PowerPro City",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-90131.jpg",
+    "image": "/images/products/appliances/icecat-philips-philips-fc933107-powerpro-city.jpg",
     "images": [
-      "/images/appliances/philips-90131.jpg"
+      "/images/products/appliances/icecat-philips-philips-fc933107-powerpro-city.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc933107-powerpro-city-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc933107-powerpro-city-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc933107-powerpro-city-3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 84,
@@ -45859,9 +46358,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips FC9332/07 PowerPro City",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-90388.png",
+    "image": "/images/products/appliances/icecat-philips-philips-fc933207-powerpro-city.jpg",
     "images": [
-      "/images/appliances/philips-90388.png"
+      "/images/products/appliances/icecat-philips-philips-fc933207-powerpro-city.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc933207-powerpro-city-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc933207-powerpro-city-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc933207-powerpro-city-3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 84,
@@ -45964,9 +46466,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips Marathon Ultimate XB9155/07",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-345074.jpg",
+    "image": "/images/products/appliances/icecat-philips-philips-marathon-ultimate-xb915507.jpg",
     "images": [
-      "/images/appliances/philips-345074.jpg"
+      "/images/products/appliances/icecat-philips-philips-marathon-ultimate-xb915507.jpg",
+      "/images/products/appliances/icecat-philips-philips-marathon-ultimate-xb915507-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-marathon-ultimate-xb915507-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-marathon-ultimate-xb915507-3.jpg"
     ],
     "rating": 4.9,
     "epeyScore": 93,
@@ -46070,9 +46575,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips FC9744/09 PowerPro Expert",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-428826.jpg",
+    "image": "/images/products/appliances/icecat-philips-philips-fc974409-powerpro-expert.jpg",
     "images": [
-      "/images/appliances/philips-428826.jpg"
+      "/images/products/appliances/icecat-philips-philips-fc974409-powerpro-expert.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc974409-powerpro-expert-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc974409-powerpro-expert-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc974409-powerpro-expert-3.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 87,
@@ -46175,9 +46683,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips FC9925/07 Marathon Ultimate",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-122491.jpg",
+    "image": "/images/products/appliances/icecat-philips-philips-fc992507-marathon-ultimate.jpg",
     "images": [
-      "/images/appliances/philips-122491.jpg"
+      "/images/products/appliances/icecat-philips-philips-fc992507-marathon-ultimate.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc992507-marathon-ultimate-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc992507-marathon-ultimate-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc992507-marathon-ultimate-3.jpg"
     ],
     "rating": 4.9,
     "epeyScore": 93,
@@ -46496,9 +47007,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips FC9323/07 PowerPro Compact",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-32024.jpg",
+    "image": "/images/products/appliances/icecat-philips-philips-fc932307-powerpro-compact.jpg",
     "images": [
-      "/images/appliances/philips-32024.jpg"
+      "/images/products/appliances/icecat-philips-philips-fc932307-powerpro-compact.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc932307-powerpro-compact-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc932307-powerpro-compact-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc932307-powerpro-compact-3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 84,
@@ -46601,9 +47115,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips FC9745/09 PowerPro Expert",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-628739.jpg",
+    "image": "/images/products/appliances/icecat-philips-philips-fc974509-powerpro-expert.jpg",
     "images": [
-      "/images/appliances/philips-628739.jpg"
+      "/images/products/appliances/icecat-philips-philips-fc974509-powerpro-expert.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc974509-powerpro-expert-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc974509-powerpro-expert-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc974509-powerpro-expert-3.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 87,
@@ -46706,9 +47223,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips 2000 Series XB2142/09",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-856000.png",
+    "image": "/images/products/appliances/icecat-philips-philips-2000-series-xb214209.jpg",
     "images": [
-      "/images/appliances/philips-856000.png"
+      "/images/products/appliances/icecat-philips-philips-2000-series-xb214209.jpg",
+      "/images/products/appliances/icecat-philips-philips-2000-series-xb214209-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-2000-series-xb214209-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-2000-series-xb214209-3.jpg"
     ],
     "rating": 4.5,
     "epeyScore": 81,
@@ -46810,9 +47330,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips 2000 Series XB2122/09",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-856002.png",
+    "image": "/images/products/appliances/icecat-philips-philips-2000-series-xb212209.jpg",
     "images": [
-      "/images/appliances/philips-856002.png"
+      "/images/products/appliances/icecat-philips-philips-2000-series-xb212209.jpg",
+      "/images/products/appliances/icecat-philips-philips-2000-series-xb212209-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-2000-series-xb212209-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-2000-series-xb212209-3.jpg"
     ],
     "rating": 4.5,
     "epeyScore": 81,
@@ -46914,9 +47437,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips FC9532/09 PowerPro Active",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-50975.jpg",
+    "image": "/images/products/appliances/icecat-philips-philips-fc953209-powerpro-active.jpg",
     "images": [
-      "/images/appliances/philips-50975.jpg"
+      "/images/products/appliances/icecat-philips-philips-fc953209-powerpro-active.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc953209-powerpro-active-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc953209-powerpro-active-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc953209-powerpro-active-3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 83,
@@ -47019,9 +47545,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips FC9729/09 PowerPro Expert",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-428818.jpg",
+    "image": "/images/products/appliances/icecat-philips-philips-fc972909-powerpro-expert.jpg",
     "images": [
-      "/images/appliances/philips-428818.jpg"
+      "/images/products/appliances/icecat-philips-philips-fc972909-powerpro-expert.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc972909-powerpro-expert-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc972909-powerpro-expert-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc972909-powerpro-expert-3.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 87,
@@ -47124,9 +47653,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips XB2123/09",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-856003.png",
+    "image": "/images/products/appliances/icecat-philips-philips-xb212309.jpg",
     "images": [
-      "/images/appliances/philips-856003.png"
+      "/images/products/appliances/icecat-philips-philips-xb212309.jpg",
+      "/images/products/appliances/icecat-philips-philips-xb212309-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-xb212309-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-xb212309-3.jpg"
     ],
     "rating": 4.5,
     "epeyScore": 81,
@@ -47228,9 +47760,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips 3000 Series XD3110/09",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-626150.jpg",
+    "image": "/images/products/appliances/icecat-philips-philips-3000-series-xd311009.jpg",
     "images": [
-      "/images/appliances/philips-626150.jpg"
+      "/images/products/appliances/icecat-philips-philips-3000-series-xd311009.jpg",
+      "/images/products/appliances/icecat-philips-philips-3000-series-xd311009-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-3000-series-xd311009-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-3000-series-xd311009-3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 83,
@@ -47545,9 +48080,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips XC7057/01 Aqua",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-929083.jpg",
+    "image": "/images/products/appliances/icecat-philips-philips-xc705701-aqua.jpg",
     "images": [
-      "/images/appliances/philips-929083.jpg"
+      "/images/products/appliances/icecat-philips-philips-xc705701-aqua.jpg",
+      "/images/products/appliances/icecat-philips-philips-xc705701-aqua-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-xc705701-aqua-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-xc705701-aqua-3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 91,
@@ -47652,9 +48190,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips FC6724/01 SpeedPro",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-573718.jpg",
+    "image": "/images/products/appliances/icecat-philips-philips-fc672401-speedpro.jpg",
     "images": [
-      "/images/appliances/philips-573718.jpg"
+      "/images/products/appliances/icecat-philips-philips-fc672401-speedpro.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc672401-speedpro-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc672401-speedpro-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc672401-speedpro-3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 85,
@@ -47758,9 +48299,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips Aqua Plus 8000 Series XC8349/01",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-779779.jpg",
+    "image": "/images/products/appliances/icecat-philips-philips-aqua-plus-8000-series-xc834901.jpg",
     "images": [
-      "/images/appliances/philips-779779.jpg"
+      "/images/products/appliances/icecat-philips-philips-aqua-plus-8000-series-xc834901.jpg",
+      "/images/products/appliances/icecat-philips-philips-aqua-plus-8000-series-xc834901-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-aqua-plus-8000-series-xc834901-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-aqua-plus-8000-series-xc834901-3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 91,
@@ -47865,9 +48409,10 @@ export const mockAppliances: Product[] = [
     "name": "Philips XC7040/01 SpeedPro Max",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-873679.jpg",
+    "image": "/images/products/appliances/icecat-philips-philips-xc704001-speedpro-max.jpg",
     "images": [
-      "/images/appliances/philips-873679.jpg"
+      "/images/products/appliances/icecat-philips-philips-xc704001-speedpro-max.jpg",
+      "/images/products/appliances/icecat-philips-philips-xc704001-speedpro-max-1.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 88,
@@ -47971,9 +48516,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips SpeedPro Max XC7043/01",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-628738.jpg",
+    "image": "/images/products/appliances/icecat-philips-philips-speedpro-max-xc704301.jpg",
     "images": [
-      "/images/appliances/philips-628738.jpg"
+      "/images/products/appliances/icecat-philips-philips-speedpro-max-xc704301.jpg",
+      "/images/products/appliances/icecat-philips-philips-speedpro-max-xc704301-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-speedpro-max-xc704301-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-speedpro-max-xc704301-3.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 88,
@@ -48077,9 +48625,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips SpeedPro Max FC6823/01",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-156360.jpg",
+    "image": "/images/products/appliances/icecat-philips-philips-speedpro-max-fc682301.jpg",
     "images": [
-      "/images/appliances/philips-156360.jpg"
+      "/images/products/appliances/icecat-philips-philips-speedpro-max-fc682301.jpg",
+      "/images/products/appliances/icecat-philips-philips-speedpro-max-fc682301-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-speedpro-max-fc682301-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-speedpro-max-fc682301-3.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 88,
@@ -48183,9 +48734,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips XC8043/01",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-578827.png",
+    "image": "/images/products/appliances/icecat-philips-philips-xc804301.jpg",
     "images": [
-      "/images/appliances/philips-578827.png"
+      "/images/products/appliances/icecat-philips-philips-xc804301.jpg",
+      "/images/products/appliances/icecat-philips-philips-xc804301-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-xc804301-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-xc804301-3.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 88,
@@ -48289,9 +48843,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips FC8781/09",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-863399.jpg",
+    "image": "/images/products/appliances/icecat-philips-philips-fc878109.jpg",
     "images": [
-      "/images/appliances/philips-863399.jpg"
+      "/images/products/appliances/icecat-philips-philips-fc878109.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc878109-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc878109-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc878109-3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 90,
@@ -48396,9 +48953,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips FC8785/07",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-130000.jpg",
+    "image": "/images/products/appliances/icecat-philips-philips-fc878507.jpg",
     "images": [
-      "/images/appliances/philips-130000.jpg"
+      "/images/products/appliances/icecat-philips-philips-fc878507.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc878507-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc878507-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc878507-3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 90,
@@ -48503,9 +49063,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips FC8371/09 Performer Compact",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-54101.jpg",
+    "image": "/images/products/appliances/icecat-philips-philips-fc837109-performer-compact.jpg",
     "images": [
-      "/images/appliances/philips-54101.jpg"
+      "/images/products/appliances/icecat-philips-philips-fc837109-performer-compact.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc837109-performer-compact-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc837109-performer-compact-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc837109-performer-compact-3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 84,
@@ -48608,9 +49171,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips FC7020/01",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-32399.jpg",
+    "image": "/images/products/appliances/icecat-philips-philips-fc702001.jpg",
     "images": [
-      "/images/appliances/philips-32399.jpg"
+      "/images/products/appliances/icecat-philips-philips-fc702001.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc702001-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc702001-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc702001-3.jpg"
     ],
     "rating": 4.5,
     "epeyScore": 83,
@@ -48712,9 +49278,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips Aqua Trio 9000 Series XW9383/01",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-855169.png",
+    "image": "/images/products/appliances/icecat-philips-philips-aqua-trio-9000-series-xw938301.jpg",
     "images": [
-      "/images/appliances/philips-855169.png"
+      "/images/products/appliances/icecat-philips-philips-aqua-trio-9000-series-xw938301.jpg",
+      "/images/products/appliances/icecat-philips-philips-aqua-trio-9000-series-xw938301-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-aqua-trio-9000-series-xw938301-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-aqua-trio-9000-series-xw938301-3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 93,
@@ -48820,9 +49389,9 @@ export const mockAppliances: Product[] = [
     "name": "Philips FC7025/01",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-69647.jpg",
+    "image": "/images/products/appliances/icecat-philips-philips-fc702501.jpg",
     "images": [
-      "/images/appliances/philips-69647.jpg"
+      "/images/products/appliances/icecat-philips-philips-fc702501.jpg"
     ],
     "rating": 4.5,
     "epeyScore": 83,
@@ -48924,9 +49493,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips Aqua Trio 9000 Series XW9463/11",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-969779.png",
+    "image": "/images/products/appliances/icecat-philips-philips-aqua-trio-9000-series-xw946311.jpg",
     "images": [
-      "/images/appliances/philips-969779.png"
+      "/images/products/appliances/icecat-philips-philips-aqua-trio-9000-series-xw946311.jpg",
+      "/images/products/appliances/icecat-philips-philips-aqua-trio-9000-series-xw946311-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-aqua-trio-9000-series-xw946311-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-aqua-trio-9000-series-xw946311-3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 93,
@@ -49032,9 +49604,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips Aqua Plus 8000 Series XC8053/01",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-969094.png",
+    "image": "/images/products/appliances/icecat-philips-philips-aqua-plus-8000-series-xc805301.jpg",
     "images": [
-      "/images/appliances/philips-969094.png"
+      "/images/products/appliances/icecat-philips-philips-aqua-plus-8000-series-xc805301.jpg",
+      "/images/products/appliances/icecat-philips-philips-aqua-plus-8000-series-xc805301-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-aqua-plus-8000-series-xc805301-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-aqua-plus-8000-series-xc805301-3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 91,
@@ -49139,9 +49714,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips XB2142/10",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-1030547.png",
+    "image": "/images/products/appliances/icecat-philips-philips-xb214210.jpg",
     "images": [
-      "/images/appliances/philips-1030547.png"
+      "/images/products/appliances/icecat-philips-philips-xb214210.jpg",
+      "/images/products/appliances/icecat-philips-philips-xb214210-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-xb214210-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-xb214210-3.jpg"
     ],
     "rating": 4.5,
     "epeyScore": 82,
@@ -49243,9 +49821,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips AC3220/10",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-997697.jpg",
+    "image": "/images/products/appliances/icecat-philips-philips-ac322010.jpg",
     "images": [
-      "/images/appliances/philips-997697.jpg"
+      "/images/products/appliances/icecat-philips-philips-ac322010.jpg",
+      "/images/products/appliances/icecat-philips-philips-ac322010-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-ac322010-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-ac322010-3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 91,
@@ -49349,9 +49930,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips XC6557/01",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-989523.png",
+    "image": "/images/products/appliances/icecat-philips-philips-xc655701.jpg",
     "images": [
-      "/images/appliances/philips-989523.png"
+      "/images/products/appliances/icecat-philips-philips-xc655701.jpg",
+      "/images/products/appliances/icecat-philips-philips-xc655701-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-xc655701-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-xc655701-3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 85,
@@ -49562,9 +50146,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips XC6552/01",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-989795.png",
+    "image": "/images/products/appliances/icecat-philips-philips-xc655201.jpg",
     "images": [
-      "/images/appliances/philips-989795.png"
+      "/images/products/appliances/icecat-philips-philips-xc655201.jpg",
+      "/images/products/appliances/icecat-philips-philips-xc655201-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-xc655201-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-xc655201-3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 85,
@@ -49668,9 +50255,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips PureProtect Quiet 2200 Serisi AC2220/10",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-1043487.jpg",
+    "image": "/images/products/appliances/icecat-philips-philips-pureprotect-quiet-2200-serisi-ac222010.jpg",
     "images": [
-      "/images/appliances/philips-1043487.jpg"
+      "/images/products/appliances/icecat-philips-philips-pureprotect-quiet-2200-serisi-ac222010.jpg",
+      "/images/products/appliances/icecat-philips-philips-pureprotect-quiet-2200-serisi-ac222010-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-pureprotect-quiet-2200-serisi-ac222010-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-pureprotect-quiet-2200-serisi-ac222010-3.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 88,
@@ -49773,9 +50363,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips XC6453/10",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-1037133.png",
+    "image": "/images/products/appliances/icecat-philips-philips-xc645310.jpg",
     "images": [
-      "/images/appliances/philips-1037133.png"
+      "/images/products/appliances/icecat-philips-philips-xc645310.jpg",
+      "/images/products/appliances/icecat-philips-philips-xc645310-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-xc645310-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-xc645310-3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 85,
@@ -49879,9 +50472,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips 7000 Serisi Aqua XC7055/01",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-968510.jpg",
+    "image": "/images/products/appliances/icecat-philips-philips-7000-serisi-aqua-xc705501.jpg",
     "images": [
-      "/images/appliances/philips-968510.jpg"
+      "/images/products/appliances/icecat-philips-philips-7000-serisi-aqua-xc705501.jpg",
+      "/images/products/appliances/icecat-philips-philips-7000-serisi-aqua-xc705501-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-7000-serisi-aqua-xc705501-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-7000-serisi-aqua-xc705501-3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 91,
@@ -49986,9 +50582,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips 6000 Series XC6551/01",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-1056817.png",
+    "image": "/images/products/appliances/icecat-philips-philips-6000-series-xc655101.jpg",
     "images": [
-      "/images/appliances/philips-1056817.png"
+      "/images/products/appliances/icecat-philips-philips-6000-series-xc655101.jpg",
+      "/images/products/appliances/icecat-philips-philips-6000-series-xc655101-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-6000-series-xc655101-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-6000-series-xc655101-3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 85,
@@ -50200,9 +50799,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips HomeRun 9000 Serisi XU9100/10",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-974260.jpg",
+    "image": "/images/products/appliances/icecat-philips-philips-homerun-9000-serisi-xu910010.jpg",
     "images": [
-      "/images/appliances/philips-974260.jpg"
+      "/images/products/appliances/icecat-philips-philips-homerun-9000-serisi-xu910010.jpg",
+      "/images/products/appliances/icecat-philips-philips-homerun-9000-serisi-xu910010-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-homerun-9000-serisi-xu910010-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-homerun-9000-serisi-xu910010-3.jpg"
     ],
     "rating": 4.9,
     "epeyScore": 96,
@@ -50415,9 +51017,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips XC6456/10",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-1065725.png",
+    "image": "/images/products/appliances/icecat-philips-philips-xc645610.jpg",
     "images": [
-      "/images/appliances/philips-1065725.png"
+      "/images/products/appliances/icecat-philips-philips-xc645610.jpg",
+      "/images/products/appliances/icecat-philips-philips-xc645610-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-xc645610-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-xc645610-3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 85,
@@ -50521,9 +51126,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips XC6553/01",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-989783.png",
+    "image": "/images/products/appliances/icecat-philips-philips-xc655301.jpg",
     "images": [
-      "/images/appliances/philips-989783.png"
+      "/images/products/appliances/icecat-philips-philips-xc655301.jpg",
+      "/images/products/appliances/icecat-philips-philips-xc655301-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-xc655301-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-xc655301-3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 85,
@@ -50627,9 +51235,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips 7000 Serisi Aqua XC7053/01",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-969511.png",
+    "image": "/images/products/appliances/icecat-philips-philips-7000-serisi-aqua-xc705301.jpg",
     "images": [
-      "/images/appliances/philips-969511.png"
+      "/images/products/appliances/icecat-philips-philips-7000-serisi-aqua-xc705301.jpg",
+      "/images/products/appliances/icecat-philips-philips-7000-serisi-aqua-xc705301-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-7000-serisi-aqua-xc705301-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-7000-serisi-aqua-xc705301-3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 91,
@@ -50842,9 +51453,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips XC6451/10",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-1061461.png",
+    "image": "/images/products/appliances/icecat-philips-philips-xc645110.jpg",
     "images": [
-      "/images/appliances/philips-1061461.png"
+      "/images/products/appliances/icecat-philips-philips-xc645110.jpg",
+      "/images/products/appliances/icecat-philips-philips-xc645110-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-xc645110-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-xc645110-3.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 87,
@@ -50947,9 +51561,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips AC0651/10",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-955251.jpg",
+    "image": "/images/products/appliances/icecat-philips-philips-ac065110.jpg",
     "images": [
-      "/images/appliances/philips-955251.jpg"
+      "/images/products/appliances/icecat-philips-philips-ac065110.jpg",
+      "/images/products/appliances/icecat-philips-philips-ac065110-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-ac065110-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-ac065110-3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 85,
@@ -51051,9 +51668,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips XC6452/10",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-1065727.png",
+    "image": "/images/products/appliances/icecat-philips-philips-xc645210.jpg",
     "images": [
-      "/images/appliances/philips-1065727.png"
+      "/images/products/appliances/icecat-philips-philips-xc645210.jpg",
+      "/images/products/appliances/icecat-philips-philips-xc645210-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-xc645210-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-xc645210-3.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 87,
@@ -51156,9 +51776,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips AC3420/10",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-997700.jpg",
+    "image": "/images/products/appliances/icecat-philips-philips-ac342010.jpg",
     "images": [
-      "/images/appliances/philips-997700.jpg"
+      "/images/products/appliances/icecat-philips-philips-ac342010.jpg",
+      "/images/products/appliances/icecat-philips-philips-ac342010-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-ac342010-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-ac342010-3.jpg"
     ],
     "rating": 4.9,
     "epeyScore": 93,
@@ -51262,9 +51885,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips XC8054/01 Aqua Plus",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-974138.png",
+    "image": "/images/products/appliances/icecat-philips-philips-xc805401-aqua-plus.jpg",
     "images": [
-      "/images/appliances/philips-974138.png"
+      "/images/products/appliances/icecat-philips-philips-xc805401-aqua-plus.jpg",
+      "/images/products/appliances/icecat-philips-philips-xc805401-aqua-plus-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-xc805401-aqua-plus-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-xc805401-aqua-plus-3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 91,
@@ -51369,9 +51995,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips Aqua Plus 8000 XC8153/10",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-1065740.jpg",
+    "image": "/images/products/appliances/icecat-philips-philips-aqua-plus-8000-xc815310.jpg",
     "images": [
-      "/images/appliances/philips-1065740.jpg"
+      "/images/products/appliances/icecat-philips-philips-aqua-plus-8000-xc815310.jpg",
+      "/images/products/appliances/icecat-philips-philips-aqua-plus-8000-xc815310-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-aqua-plus-8000-xc815310-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-aqua-plus-8000-xc815310-3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 91,
@@ -51476,9 +52105,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips XW7263/11 Aquatrio",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-989520.jpg",
+    "image": "/images/products/appliances/icecat-philips-philips-xw726311-aquatrio.jpg",
     "images": [
-      "/images/appliances/philips-989520.jpg"
+      "/images/products/appliances/icecat-philips-philips-xw726311-aquatrio.jpg",
+      "/images/products/appliances/icecat-philips-philips-xw726311-aquatrio-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-xw726311-aquatrio-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-xw726311-aquatrio-3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 89,
@@ -51798,9 +52430,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips Aqua 7000 XC7153/10",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-1065726.png",
+    "image": "/images/products/appliances/icecat-philips-philips-aqua-7000-xc715310.jpg",
     "images": [
-      "/images/appliances/philips-1065726.png"
+      "/images/products/appliances/icecat-philips-philips-aqua-7000-xc715310.jpg",
+      "/images/products/appliances/icecat-philips-philips-aqua-7000-xc715310-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-aqua-7000-xc715310-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-aqua-7000-xc715310-3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 91,
@@ -51905,9 +52540,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips OneUp 3000 XV3101/01",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-1061610.png",
+    "image": "/images/products/appliances/icecat-philips-philips-oneup-3000-xv310101.jpg",
     "images": [
-      "/images/appliances/philips-1061610.png"
+      "/images/products/appliances/icecat-philips-philips-oneup-3000-xv310101.jpg",
+      "/images/products/appliances/icecat-philips-philips-oneup-3000-xv310101-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-oneup-3000-xv310101-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-oneup-3000-xv310101-3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 84,
@@ -52010,9 +52648,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips AC0951/13",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-995352.jpg",
+    "image": "/images/products/appliances/icecat-philips-philips-ac095113.jpg",
     "images": [
-      "/images/appliances/philips-995352.jpg"
+      "/images/products/appliances/icecat-philips-philips-ac095113.jpg",
+      "/images/products/appliances/icecat-philips-philips-ac095113-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-ac095113-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-ac095113-3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 85,
@@ -52324,9 +52965,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips 3000 Serisi XW3192/11",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-1061060.png",
+    "image": "/images/products/appliances/icecat-philips-philips-3000-serisi-xw319211.jpg",
     "images": [
-      "/images/appliances/philips-1061060.png"
+      "/images/products/appliances/icecat-philips-philips-3000-serisi-xw319211.jpg",
+      "/images/products/appliances/icecat-philips-philips-3000-serisi-xw319211-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-3000-serisi-xw319211-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-3000-serisi-xw319211-3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 89,
@@ -52432,9 +53076,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips AC2959/53",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-955250.jpg",
+    "image": "/images/products/appliances/icecat-philips-philips-ac295953.jpg",
     "images": [
-      "/images/appliances/philips-955250.jpg"
+      "/images/products/appliances/icecat-philips-philips-ac295953.jpg",
+      "/images/products/appliances/icecat-philips-philips-ac295953-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-ac295953-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-ac295953-3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 90,
@@ -52538,9 +53185,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips Performer XD8122/10",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-946786.png",
+    "image": "/images/products/appliances/icecat-philips-philips-performer-xd812210.jpg",
     "images": [
-      "/images/appliances/philips-946786.png"
+      "/images/products/appliances/icecat-philips-philips-performer-xd812210.jpg",
+      "/images/products/appliances/icecat-philips-philips-performer-xd812210-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-performer-xd812210-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-performer-xd812210-3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 91,
@@ -52644,9 +53294,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips XC6450/10",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-1065742.png",
+    "image": "/images/products/appliances/icecat-philips-philips-xc645010.jpg",
     "images": [
-      "/images/appliances/philips-1065742.png"
+      "/images/products/appliances/icecat-philips-philips-xc645010.jpg",
+      "/images/products/appliances/icecat-philips-philips-xc645010-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-xc645010-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-xc645010-3.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 87,
@@ -52749,9 +53402,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips AquaTrio 9000 Series XW9465/11",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-1062027.png",
+    "image": "/images/products/appliances/icecat-philips-philips-aquatrio-9000-series-xw946511.jpg",
     "images": [
-      "/images/appliances/philips-1062027.png"
+      "/images/products/appliances/icecat-philips-philips-aquatrio-9000-series-xw946511.jpg",
+      "/images/products/appliances/icecat-philips-philips-aquatrio-9000-series-xw946511-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-aquatrio-9000-series-xw946511-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-aquatrio-9000-series-xw946511-3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 94,
@@ -52857,9 +53513,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips XB2122/10",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-1061612.jpg",
+    "image": "/images/products/appliances/icecat-philips-philips-xb212210.jpg",
     "images": [
-      "/images/appliances/philips-1061612.jpg"
+      "/images/products/appliances/icecat-philips-philips-xb212210.jpg",
+      "/images/products/appliances/icecat-philips-philips-xb212210-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-xb212210-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-xb212210-3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 84,
@@ -52961,9 +53620,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips AC0850/11",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-849729.jpg",
+    "image": "/images/products/appliances/icecat-philips-philips-ac085011.jpg",
     "images": [
-      "/images/appliances/philips-849729.jpg"
+      "/images/products/appliances/icecat-philips-philips-ac085011.jpg",
+      "/images/products/appliances/icecat-philips-philips-ac085011-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-ac085011-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-ac085011-3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 85,
@@ -53065,9 +53727,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips Performer XD8152/12",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-946781.png",
+    "image": "/images/products/appliances/icecat-philips-philips-performer-xd815212.jpg",
     "images": [
-      "/images/appliances/philips-946781.png"
+      "/images/products/appliances/icecat-philips-philips-performer-xd815212.jpg",
+      "/images/products/appliances/icecat-philips-philips-performer-xd815212-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-performer-xd815212-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-performer-xd815212-3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 91,
@@ -53382,9 +54047,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips XC7157/10",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-1065741.png",
+    "image": "/images/products/appliances/icecat-philips-philips-xc715710.jpg",
     "images": [
-      "/images/appliances/philips-1065741.png"
+      "/images/products/appliances/icecat-philips-philips-xc715710.jpg",
+      "/images/products/appliances/icecat-philips-philips-xc715710-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-xc715710-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-xc715710-3.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 87,
@@ -53487,9 +54155,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips XV5113/11",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-1061607.png",
+    "image": "/images/products/appliances/icecat-philips-philips-xv511311.jpg",
     "images": [
-      "/images/appliances/philips-1061607.png"
+      "/images/products/appliances/icecat-philips-philips-xv511311.jpg",
+      "/images/products/appliances/icecat-philips-philips-xv511311-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-xv511311-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-xv511311-3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 84,
@@ -53592,9 +54263,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips Aqua 8000 Serisi XC8156/10",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-1061074.jpg",
+    "image": "/images/products/appliances/icecat-philips-philips-aqua-8000-serisi-xc815610.jpg",
     "images": [
-      "/images/appliances/philips-1061074.jpg"
+      "/images/products/appliances/icecat-philips-philips-aqua-8000-serisi-xc815610.jpg",
+      "/images/products/appliances/icecat-philips-philips-aqua-8000-serisi-xc815610-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-aqua-8000-serisi-xc815610-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-aqua-8000-serisi-xc815610-3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 91,
@@ -53699,9 +54373,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips XV5113/01",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-1065743.png",
+    "image": "/images/products/appliances/icecat-philips-philips-xv511301.jpg",
     "images": [
-      "/images/appliances/philips-1065743.png"
+      "/images/products/appliances/icecat-philips-philips-xv511301.jpg",
+      "/images/products/appliances/icecat-philips-philips-xv511301-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-xv511301-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-xv511301-3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 84,
@@ -53911,9 +54588,9 @@ export const mockAppliances: Product[] = [
     "name": "Philips FC8766/01 PowerPro",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-4125.jpg",
+    "image": "/images/products/appliances/icecat-philips-philips-fc876601-powerpro.jpg",
     "images": [
-      "/images/appliances/philips-4125.jpg"
+      "/images/products/appliances/icecat-philips-philips-fc876601-powerpro.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 85,
@@ -54016,9 +54693,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips FC9555/09 PowerPro Active",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-709129.png",
+    "image": "/images/products/appliances/icecat-philips-philips-fc955509-powerpro-active.jpg",
     "images": [
-      "/images/appliances/philips-709129.png"
+      "/images/products/appliances/icecat-philips-philips-fc955509-powerpro-active.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc955509-powerpro-active-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc955509-powerpro-active-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc955509-powerpro-active-3.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 86,
@@ -54121,9 +54801,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips FC9747/09  PowerPro Expert",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-745843.jpg",
+    "image": "/images/products/appliances/icecat-philips-philips-fc974709-powerpro-expert.jpg",
     "images": [
-      "/images/appliances/philips-745843.jpg"
+      "/images/products/appliances/icecat-philips-philips-fc974709-powerpro-expert.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc974709-powerpro-expert-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc974709-powerpro-expert-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc974709-powerpro-expert-3.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 88,
@@ -54227,9 +54910,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips FC9724/09 PowerPro Expert",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-43519.jpg",
+    "image": "/images/products/appliances/icecat-philips-philips-fc972409-powerpro-expert.jpg",
     "images": [
-      "/images/appliances/philips-43519.jpg"
+      "/images/products/appliances/icecat-philips-philips-fc972409-powerpro-expert.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc972409-powerpro-expert-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc972409-powerpro-expert-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc972409-powerpro-expert-3.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 88,
@@ -54333,9 +55019,11 @@ export const mockAppliances: Product[] = [
     "name": "Philips FC9924/07 Marathon Ultimate (650 W)",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-31025.jpg",
+    "image": "/images/products/appliances/icecat-philips-philips-fc992407-marathon-ultimate-650-w.jpg",
     "images": [
-      "/images/appliances/philips-31025.jpg"
+      "/images/products/appliances/icecat-philips-philips-fc992407-marathon-ultimate-650-w.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc992407-marathon-ultimate-650-w-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc992407-marathon-ultimate-650-w-2.jpg"
     ],
     "rating": 4.9,
     "epeyScore": 93,
@@ -54439,9 +55127,9 @@ export const mockAppliances: Product[] = [
     "name": "Philips PowerPro FC8769/01",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-396034.jpg",
+    "image": "/images/products/appliances/icecat-philips-philips-powerpro-fc876901.jpg",
     "images": [
-      "/images/appliances/philips-396034.jpg"
+      "/images/products/appliances/icecat-philips-philips-powerpro-fc876901.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 85,
@@ -54544,9 +55232,9 @@ export const mockAppliances: Product[] = [
     "name": "Philips FC8761/01 PowerPro",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-30455.jpg",
+    "image": "/images/products/appliances/icecat-philips-philips-fc876101-powerpro.jpg",
     "images": [
-      "/images/appliances/philips-30455.jpg"
+      "/images/products/appliances/icecat-philips-philips-fc876101-powerpro.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 85,
@@ -54649,9 +55337,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips FC9929/07",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-111539.jpg",
+    "image": "/images/products/appliances/icecat-philips-philips-fc992907.jpg",
     "images": [
-      "/images/appliances/philips-111539.jpg"
+      "/images/products/appliances/icecat-philips-philips-fc992907.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc992907-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc992907-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc992907-3.jpg"
     ],
     "rating": 4.9,
     "epeyScore": 93,
@@ -54755,9 +55446,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips FC9921/09 PowerPro Ultimate",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-428823.png",
+    "image": "/images/products/appliances/icecat-philips-philips-fc992109-powerpro-ultimate.jpg",
     "images": [
-      "/images/appliances/philips-428823.png"
+      "/images/products/appliances/icecat-philips-philips-fc992109-powerpro-ultimate.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc992109-powerpro-ultimate-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc992109-powerpro-ultimate-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc992109-powerpro-ultimate-3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 90,
@@ -54860,9 +55554,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips FC9926/07 Marathon Ultimate",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-127545.png",
+    "image": "/images/products/appliances/icecat-philips-philips-fc992607-marathon-ultimate.jpg",
     "images": [
-      "/images/appliances/philips-127545.png"
+      "/images/products/appliances/icecat-philips-philips-fc992607-marathon-ultimate.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc992607-marathon-ultimate-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc992607-marathon-ultimate-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc992607-marathon-ultimate-3.jpg"
     ],
     "rating": 4.9,
     "epeyScore": 93,
@@ -54966,9 +55663,9 @@ export const mockAppliances: Product[] = [
     "name": "Philips FC8633/01 PowerPro Active",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-31081.png",
+    "image": "/images/products/appliances/icecat-philips-philips-fc863301-powerpro-active.jpg",
     "images": [
-      "/images/appliances/philips-31081.png"
+      "/images/products/appliances/icecat-philips-philips-fc863301-powerpro-active.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 86,
@@ -55071,9 +55768,9 @@ export const mockAppliances: Product[] = [
     "name": "Philips FC8632/02",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-31030.png",
+    "image": "/images/products/appliances/icecat-philips-philips-fc863202.jpg",
     "images": [
-      "/images/appliances/philips-31030.png"
+      "/images/products/appliances/icecat-philips-philips-fc863202.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 86,
@@ -55176,9 +55873,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips FC9334/09 PowerPro Compact",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-707583.png",
+    "image": "/images/products/appliances/icecat-philips-philips-fc933409-powerpro-compact.jpg",
     "images": [
-      "/images/appliances/philips-707583.png"
+      "/images/products/appliances/icecat-philips-philips-fc933409-powerpro-compact.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc933409-powerpro-compact-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc933409-powerpro-compact-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc933409-powerpro-compact-3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 85,
@@ -55281,9 +55981,9 @@ export const mockAppliances: Product[] = [
     "name": "Philips FC8475/01 PowerPro Compact",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-4126.jpg",
+    "image": "/images/products/appliances/icecat-philips-philips-fc847501-powerpro-compact.jpg",
     "images": [
-      "/images/appliances/philips-4126.jpg"
+      "/images/products/appliances/icecat-philips-philips-fc847501-powerpro-compact.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 85,
@@ -55386,9 +56086,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips FC9920/69 PowerPro Ultimate",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-902776.jpg",
+    "image": "/images/products/appliances/icecat-philips-philips-fc992069-powerpro-ultimate.jpg",
     "images": [
-      "/images/appliances/philips-902776.jpg"
+      "/images/products/appliances/icecat-philips-philips-fc992069-powerpro-ultimate.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc992069-powerpro-ultimate-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc992069-powerpro-ultimate-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc992069-powerpro-ultimate-3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 90,
@@ -55596,9 +56299,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips FC9931/07",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-112253.jpg",
+    "image": "/images/products/appliances/icecat-philips-philips-fc993107.jpg",
     "images": [
-      "/images/appliances/philips-112253.jpg"
+      "/images/products/appliances/icecat-philips-philips-fc993107.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc993107-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc993107-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc993107-3.jpg"
     ],
     "rating": 4.9,
     "epeyScore": 93,
@@ -55807,9 +56513,9 @@ export const mockAppliances: Product[] = [
     "name": "Philips FC8770/91 PowerPro Expert",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-104959.jpg",
+    "image": "/images/products/appliances/icecat-philips-philips-fc877091-powerpro-expert.jpg",
     "images": [
-      "/images/appliances/philips-104959.jpg"
+      "/images/products/appliances/icecat-philips-philips-fc877091-powerpro-expert.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 88,
@@ -55913,9 +56619,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips FC8478/91 PowerPro Compact",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-32075.jpg",
+    "image": "/images/products/appliances/icecat-philips-philips-fc847891-powerpro-compact.jpg",
     "images": [
-      "/images/appliances/philips-32075.jpg"
+      "/images/products/appliances/icecat-philips-philips-fc847891-powerpro-compact.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc847891-powerpro-compact-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc847891-powerpro-compact-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc847891-powerpro-compact-3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 85,
@@ -56018,9 +56727,9 @@ export const mockAppliances: Product[] = [
     "name": "Philips FC9721/09 PowerPro Expert",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-32030.jpg",
+    "image": "/images/products/appliances/icecat-philips-philips-fc972109-powerpro-expert.jpg",
     "images": [
-      "/images/appliances/philips-32030.jpg"
+      "/images/products/appliances/icecat-philips-philips-fc972109-powerpro-expert.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 88,
@@ -56124,9 +56833,9 @@ export const mockAppliances: Product[] = [
     "name": "Philips FC9521/09 PowerPro Active",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-32026.jpg",
+    "image": "/images/products/appliances/icecat-philips-philips-fc952109-powerpro-active.jpg",
     "images": [
-      "/images/appliances/philips-32026.jpg"
+      "/images/products/appliances/icecat-philips-philips-fc952109-powerpro-active.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 86,
@@ -56229,9 +56938,9 @@ export const mockAppliances: Product[] = [
     "name": "Philips FC9525/09 PowerPro Active",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-146763.png",
+    "image": "/images/products/appliances/icecat-philips-philips-fc952509-powerpro-active.jpg",
     "images": [
-      "/images/appliances/philips-146763.png"
+      "/images/products/appliances/icecat-philips-philips-fc952509-powerpro-active.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 86,
@@ -56334,9 +57043,10 @@ export const mockAppliances: Product[] = [
     "name": "Philips FC9912/01 Marathon Ultimate (2400 W)",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-4119.png",
+    "image": "/images/products/appliances/icecat-philips-philips-fc991201-marathon-ultimate-2400-w.jpg",
     "images": [
-      "/images/appliances/philips-4119.png"
+      "/images/products/appliances/icecat-philips-philips-fc991201-marathon-ultimate-2400-w.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc991201-marathon-ultimate-2400-w-1.jpg"
     ],
     "rating": 4.9,
     "epeyScore": 93,
@@ -56440,9 +57150,9 @@ export const mockAppliances: Product[] = [
     "name": "Philips FC9911/01 PowerPro Ultimate (2200 W)",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-4120.jpg",
+    "image": "/images/products/appliances/icecat-philips-philips-fc991101-powerpro-ultimate-2200-w.jpg",
     "images": [
-      "/images/appliances/philips-4120.jpg"
+      "/images/products/appliances/icecat-philips-philips-fc991101-powerpro-ultimate-2200-w.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 90,
@@ -56545,9 +57255,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips FC9712/01 PowerPro Expert",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-30453.jpg",
+    "image": "/images/products/appliances/icecat-philips-philips-fc971201-powerpro-expert.jpg",
     "images": [
-      "/images/appliances/philips-30453.jpg"
+      "/images/products/appliances/icecat-philips-philips-fc971201-powerpro-expert.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc971201-powerpro-expert-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc971201-powerpro-expert-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc971201-powerpro-expert-3.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 88,
@@ -56651,9 +57364,10 @@ export const mockAppliances: Product[] = [
     "name": "Philips FC9192/01 PerformerPro",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-4115.png",
+    "image": "/images/products/appliances/icecat-philips-philips-fc919201-performerpro.jpg",
     "images": [
-      "/images/appliances/philips-4115.png"
+      "/images/products/appliances/icecat-philips-philips-fc919201-performerpro.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc919201-performerpro-1.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 90,
@@ -56758,9 +57472,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips FC9194/01 PerformerPro",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-4114.png",
+    "image": "/images/products/appliances/icecat-philips-philips-fc919401-performerpro.jpg",
     "images": [
-      "/images/appliances/philips-4114.png"
+      "/images/products/appliances/icecat-philips-philips-fc919401-performerpro.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc919401-performerpro-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc919401-performerpro-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc919401-performerpro-3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 90,
@@ -56865,9 +57582,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips FC9553/09",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-608507.png",
+    "image": "/images/products/appliances/icecat-philips-philips-fc955309.jpg",
     "images": [
-      "/images/appliances/philips-608507.png"
+      "/images/products/appliances/icecat-philips-philips-fc955309.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc955309-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc955309-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc955309-3.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 86,
@@ -56970,9 +57690,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips FC9741/09 PowerPro Expert",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-396033.jpg",
+    "image": "/images/products/appliances/icecat-philips-philips-fc974109-powerpro-expert.jpg",
     "images": [
-      "/images/appliances/philips-396033.jpg"
+      "/images/products/appliances/icecat-philips-philips-fc974109-powerpro-expert.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc974109-powerpro-expert-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc974109-powerpro-expert-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc974109-powerpro-expert-3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 89,
@@ -57075,9 +57798,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips FC9552/09 PowerPro Active",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-428821.jpg",
+    "image": "/images/products/appliances/icecat-philips-philips-fc955209-powerpro-active.jpg",
     "images": [
-      "/images/appliances/philips-428821.jpg"
+      "/images/products/appliances/icecat-philips-philips-fc955209-powerpro-active.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc955209-powerpro-active-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc955209-powerpro-active-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc955209-powerpro-active-3.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 86,
@@ -57180,9 +57906,9 @@ export const mockAppliances: Product[] = [
     "name": "Philips FC9170/07",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-704867.jpg",
+    "image": "/images/products/appliances/icecat-philips-philips-fc917007.jpg",
     "images": [
-      "/images/appliances/philips-704867.jpg"
+      "/images/products/appliances/icecat-philips-philips-fc917007.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 84,
@@ -57284,9 +58010,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips FC9238/01 Marathon (2200 W)",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-4118.jpg",
+    "image": "/images/products/appliances/icecat-philips-philips-fc923801-marathon-2200-w.jpg",
     "images": [
-      "/images/appliances/philips-4118.jpg"
+      "/images/products/appliances/icecat-philips-philips-fc923801-marathon-2200-w.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc923801-marathon-2200-w-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc923801-marathon-2200-w-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc923801-marathon-2200-w-3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 90,
@@ -57389,9 +58118,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips FC9205/01 Marathon (2200 W)",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-4123.png",
+    "image": "/images/products/appliances/icecat-philips-philips-fc920501-marathon-2200-w.jpg",
     "images": [
-      "/images/appliances/philips-4123.png"
+      "/images/products/appliances/icecat-philips-philips-fc920501-marathon-2200-w.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc920501-marathon-2200-w-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc920501-marathon-2200-w-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc920501-marathon-2200-w-3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 90,
@@ -57494,9 +58226,11 @@ export const mockAppliances: Product[] = [
     "name": "Philips FC9225/01 (2200 W)",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-4121.jpg",
+    "image": "/images/products/appliances/icecat-philips-philips-fc922501-2200-w.jpg",
     "images": [
-      "/images/appliances/philips-4121.jpg"
+      "/images/products/appliances/icecat-philips-philips-fc922501-2200-w.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc922501-2200-w-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc922501-2200-w-2.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 90,
@@ -57705,9 +58439,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips FC8950/01 AquaAction",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-4124.jpg",
+    "image": "/images/products/appliances/icecat-philips-philips-fc895001-aquaaction.jpg",
     "images": [
-      "/images/appliances/philips-4124.jpg"
+      "/images/products/appliances/icecat-philips-philips-fc895001-aquaaction.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc895001-aquaaction-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc895001-aquaaction-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc895001-aquaaction-3.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 88,
@@ -57811,9 +58548,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips FC9742/09 PowerPro Expert",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-714549.png",
+    "image": "/images/products/appliances/icecat-philips-philips-fc974209-powerpro-expert.jpg",
     "images": [
-      "/images/appliances/philips-714549.png"
+      "/images/products/appliances/icecat-philips-philips-fc974209-powerpro-expert.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc974209-powerpro-expert-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc974209-powerpro-expert-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc974209-powerpro-expert-3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 89,
@@ -57916,9 +58656,11 @@ export const mockAppliances: Product[] = [
     "name": "Philips Performer Expert FC8728/09",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-155473.jpg",
+    "image": "/images/products/appliances/icecat-philips-philips-performer-expert-fc872809.jpg",
     "images": [
-      "/images/appliances/philips-155473.jpg"
+      "/images/products/appliances/icecat-philips-philips-performer-expert-fc872809.jpg",
+      "/images/products/appliances/icecat-philips-philips-performer-expert-fc872809-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-performer-expert-fc872809-2.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 90,
@@ -58022,9 +58764,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips FC9932/07 Marathon Ultimate",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-77050.jpg",
+    "image": "/images/products/appliances/icecat-philips-philips-fc993207-marathon-ultimate.jpg",
     "images": [
-      "/images/appliances/philips-77050.jpg"
+      "/images/products/appliances/icecat-philips-philips-fc993207-marathon-ultimate.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc993207-marathon-ultimate-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc993207-marathon-ultimate-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc993207-marathon-ultimate-3.jpg"
     ],
     "rating": 4.9,
     "epeyScore": 94,
@@ -58128,9 +58873,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips FC8721/09 Performer Expert",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-32063.jpg",
+    "image": "/images/products/appliances/icecat-philips-philips-fc872109-performer-expert.jpg",
     "images": [
-      "/images/appliances/philips-32063.jpg"
+      "/images/products/appliances/icecat-philips-philips-fc872109-performer-expert.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc872109-performer-expert-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc872109-performer-expert-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc872109-performer-expert-3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 90,
@@ -58234,9 +58982,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips XB9154/09",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-714547.jpg",
+    "image": "/images/products/appliances/icecat-philips-philips-xb915409.jpg",
     "images": [
-      "/images/appliances/philips-714547.jpg"
+      "/images/products/appliances/icecat-philips-philips-xb915409.jpg",
+      "/images/products/appliances/icecat-philips-philips-xb915409-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-xb915409-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-xb915409-3.jpg"
     ],
     "rating": 4.9,
     "epeyScore": 94,
@@ -58340,9 +59091,10 @@ export const mockAppliances: Product[] = [
     "name": "Philips FC8727/09 Performer Expert",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-32019.jpg",
+    "image": "/images/products/appliances/icecat-philips-philips-fc872709-performer-expert.jpg",
     "images": [
-      "/images/appliances/philips-32019.jpg"
+      "/images/products/appliances/icecat-philips-philips-fc872709-performer-expert.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc872709-performer-expert-1.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 90,
@@ -58446,9 +59198,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips FC8726/09 Performer Expert",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-32014.jpg",
+    "image": "/images/products/appliances/icecat-philips-philips-fc872609-performer-expert.jpg",
     "images": [
-      "/images/appliances/philips-32014.jpg"
+      "/images/products/appliances/icecat-philips-philips-fc872609-performer-expert.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc872609-performer-expert-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc872609-performer-expert-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc872609-performer-expert-3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 90,
@@ -58552,9 +59307,10 @@ export const mockAppliances: Product[] = [
     "name": "Philips FC8654/01 Performer Active",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-4117.jpg",
+    "image": "/images/products/appliances/icecat-philips-philips-fc865401-performer-active.jpg",
     "images": [
-      "/images/appliances/philips-4117.jpg"
+      "/images/products/appliances/icecat-philips-philips-fc865401-performer-active.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc865401-performer-active-1.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 87,
@@ -58657,9 +59413,10 @@ export const mockAppliances: Product[] = [
     "name": "Philips FC8657/01 Performer Active",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-4116.png",
+    "image": "/images/products/appliances/icecat-philips-philips-fc865701-performer-active.jpg",
     "images": [
-      "/images/appliances/philips-4116.png"
+      "/images/products/appliances/icecat-philips-philips-fc865701-performer-active.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc865701-performer-active-1.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 87,
@@ -58762,9 +59519,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips XB2125/09",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-707582.png",
+    "image": "/images/products/appliances/icecat-philips-philips-xb212509.jpg",
     "images": [
-      "/images/appliances/philips-707582.png"
+      "/images/products/appliances/icecat-philips-philips-xb212509.jpg",
+      "/images/products/appliances/icecat-philips-philips-xb212509-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-xb212509-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-xb212509-3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 84,
@@ -58866,9 +59626,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips FC9331/09 PowerPro Compact",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-729398.jpg",
+    "image": "/images/products/appliances/icecat-philips-philips-fc933109-powerpro-compact.jpg",
     "images": [
-      "/images/appliances/philips-729398.jpg"
+      "/images/products/appliances/icecat-philips-philips-fc933109-powerpro-compact.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc933109-powerpro-compact-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc933109-powerpro-compact-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc933109-powerpro-compact-3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 84,
@@ -58970,9 +59733,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips FC9333/09 PowerPro City",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-723914.jpg",
+    "image": "/images/products/appliances/icecat-philips-philips-fc933309-powerpro-city.jpg",
     "images": [
-      "/images/appliances/philips-723914.jpg"
+      "/images/products/appliances/icecat-philips-philips-fc933309-powerpro-city.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc933309-powerpro-city-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc933309-powerpro-city-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc933309-powerpro-city-3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 84,
@@ -59074,9 +59840,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips FC9934/07",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-110224.jpg",
+    "image": "/images/products/appliances/icecat-philips-philips-fc993407.jpg",
     "images": [
-      "/images/appliances/philips-110224.jpg"
+      "/images/products/appliances/icecat-philips-philips-fc993407.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc993407-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc993407-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc993407-3.jpg"
     ],
     "rating": 4.9,
     "epeyScore": 94,
@@ -59180,9 +59949,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips Performer Active FC8577/09",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-608505.jpg",
+    "image": "/images/products/appliances/icecat-philips-philips-performer-active-fc857709.jpg",
     "images": [
-      "/images/appliances/philips-608505.jpg"
+      "/images/products/appliances/icecat-philips-philips-performer-active-fc857709.jpg",
+      "/images/products/appliances/icecat-philips-philips-performer-active-fc857709-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-performer-active-fc857709-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-performer-active-fc857709-3.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 87,
@@ -59390,9 +60162,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips FC9928/07",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-110225.jpg",
+    "image": "/images/products/appliances/icecat-philips-philips-fc992807.jpg",
     "images": [
-      "/images/appliances/philips-110225.jpg"
+      "/images/products/appliances/icecat-philips-philips-fc992807.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc992807-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc992807-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc992807-3.jpg"
     ],
     "rating": 4.9,
     "epeyScore": 94,
@@ -59600,9 +60375,9 @@ export const mockAppliances: Product[] = [
     "name": "Philips FC8144/01",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-569231.jpg",
+    "image": "/images/products/appliances/icecat-philips-philips-fc814401.jpg",
     "images": [
-      "/images/appliances/philips-569231.jpg"
+      "/images/products/appliances/icecat-philips-philips-fc814401.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 84,
@@ -59704,9 +60479,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips FC8241/09",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-608506.jpg",
+    "image": "/images/products/appliances/icecat-philips-philips-fc824109.jpg",
     "images": [
-      "/images/appliances/philips-608506.jpg"
+      "/images/products/appliances/icecat-philips-philips-fc824109.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc824109-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc824109-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc824109-3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 84,
@@ -59808,9 +60586,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips FC8832/01",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-595626.jpg",
+    "image": "/images/products/appliances/icecat-philips-philips-fc883201.jpg",
     "images": [
-      "/images/appliances/philips-595626.jpg"
+      "/images/products/appliances/icecat-philips-philips-fc883201.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc883201-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc883201-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc883201-3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 85,
@@ -59917,9 +60698,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips FC8452/01 PowerLife",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-30452.png",
+    "image": "/images/products/appliances/icecat-philips-philips-fc845201-powerlife.jpg",
     "images": [
-      "/images/appliances/philips-30452.png"
+      "/images/products/appliances/icecat-philips-philips-fc845201-powerlife.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc845201-powerlife-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc845201-powerlife-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc845201-powerlife-3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 84,
@@ -60022,9 +60806,9 @@ export const mockAppliances: Product[] = [
     "name": "Philips FC8455/01 PowerLife",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-30451.png",
+    "image": "/images/products/appliances/icecat-philips-philips-fc845501-powerlife.jpg",
     "images": [
-      "/images/appliances/philips-30451.png"
+      "/images/products/appliances/icecat-philips-philips-fc845501-powerlife.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 84,
@@ -60127,9 +60911,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips SmartPro Active FC8822/01",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-595715.jpg",
+    "image": "/images/products/appliances/icecat-philips-philips-smartpro-active-fc882201.jpg",
     "images": [
-      "/images/appliances/philips-595715.jpg"
+      "/images/products/appliances/icecat-philips-philips-smartpro-active-fc882201.jpg",
+      "/images/products/appliances/icecat-philips-philips-smartpro-active-fc882201-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-smartpro-active-fc882201-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-smartpro-active-fc882201-3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 85,
@@ -60236,9 +61023,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips Speedpro Aqua FC6719/01",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-865510.png",
+    "image": "/images/products/appliances/icecat-philips-philips-speedpro-aqua-fc671901.jpg",
     "images": [
-      "/images/appliances/philips-865510.png"
+      "/images/products/appliances/icecat-philips-philips-speedpro-aqua-fc671901.jpg",
+      "/images/products/appliances/icecat-philips-philips-speedpro-aqua-fc671901-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-speedpro-aqua-fc671901-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-speedpro-aqua-fc671901-3.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 88,
@@ -60344,9 +61134,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips PowerPro Duo FC6169/01",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-428816.png",
+    "image": "/images/products/appliances/icecat-philips-philips-powerpro-duo-fc616901.jpg",
     "images": [
-      "/images/appliances/philips-428816.png"
+      "/images/products/appliances/icecat-philips-philips-powerpro-duo-fc616901.jpg",
+      "/images/products/appliances/icecat-philips-philips-powerpro-duo-fc616901-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-powerpro-duo-fc616901-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-powerpro-duo-fc616901-3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 85,
@@ -60450,9 +61243,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips FC6405/01",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-428819.jpg",
+    "image": "/images/products/appliances/icecat-philips-philips-fc640501.jpg",
     "images": [
-      "/images/appliances/philips-428819.jpg"
+      "/images/products/appliances/icecat-philips-philips-fc640501.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc640501-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc640501-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc640501-3.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 88,
@@ -60558,9 +61354,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips FC6404/01",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-155472.jpg",
+    "image": "/images/products/appliances/icecat-philips-philips-fc640401.jpg",
     "images": [
-      "/images/appliances/philips-155472.jpg"
+      "/images/products/appliances/icecat-philips-philips-fc640401.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc640401-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc640401-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc640401-3.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 88,
@@ -60666,9 +61465,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips 8000 Series XC8049/01",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-695596.jpg",
+    "image": "/images/products/appliances/icecat-philips-philips-8000-series-xc804901.jpg",
     "images": [
-      "/images/appliances/philips-695596.jpg"
+      "/images/products/appliances/icecat-philips-philips-8000-series-xc804901.jpg",
+      "/images/products/appliances/icecat-philips-philips-8000-series-xc804901-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-8000-series-xc804901-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-8000-series-xc804901-3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 91,
@@ -60773,9 +61575,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips XC7041/01 SpeedPro Max",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-710829.jpg",
+    "image": "/images/products/appliances/icecat-philips-philips-xc704101-speedpro-max.jpg",
     "images": [
-      "/images/appliances/philips-710829.jpg"
+      "/images/products/appliances/icecat-philips-philips-xc704101-speedpro-max.jpg",
+      "/images/products/appliances/icecat-philips-philips-xc704101-speedpro-max-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-xc704101-speedpro-max-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-xc704101-speedpro-max-3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 91,
@@ -60880,9 +61685,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips FC6802/01",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-608504.png",
+    "image": "/images/products/appliances/icecat-philips-philips-fc680201.jpg",
     "images": [
-      "/images/appliances/philips-608504.png"
+      "/images/products/appliances/icecat-philips-philips-fc680201.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc680201-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc680201-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc680201-3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 91,
@@ -60987,9 +61795,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips FC6168/01",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-161574.jpg",
+    "image": "/images/products/appliances/icecat-philips-philips-fc616801.jpg",
     "images": [
-      "/images/appliances/philips-161574.jpg"
+      "/images/products/appliances/icecat-philips-philips-fc616801.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc616801-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc616801-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc616801-3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 85,
@@ -61093,9 +61904,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips FC6144/01",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-78373.jpg",
+    "image": "/images/products/appliances/icecat-philips-philips-fc614401.jpg",
     "images": [
-      "/images/appliances/philips-78373.jpg"
+      "/images/products/appliances/icecat-philips-philips-fc614401.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc614401-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc614401-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc614401-3.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 86,
@@ -61199,9 +62013,9 @@ export const mockAppliances: Product[] = [
     "name": "Philips FC6162/02 PowerPro Duo",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-32537.jpg",
+    "image": "/images/products/appliances/icecat-philips-philips-fc616202-powerpro-duo.jpg",
     "images": [
-      "/images/appliances/philips-32537.jpg"
+      "/images/products/appliances/icecat-philips-philips-fc616202-powerpro-duo.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 85,
@@ -61305,9 +62119,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips ECO FC6148/01",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-73005.jpg",
+    "image": "/images/products/appliances/icecat-philips-philips-eco-fc614801.jpg",
     "images": [
-      "/images/appliances/philips-73005.jpg"
+      "/images/products/appliances/icecat-philips-philips-eco-fc614801.jpg",
+      "/images/products/appliances/icecat-philips-philips-eco-fc614801-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-eco-fc614801-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-eco-fc614801-3.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 86,
@@ -61411,9 +62228,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips FC8781/07",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-130001.jpg",
+    "image": "/images/products/appliances/icecat-philips-philips-fc878107.jpg",
     "images": [
-      "/images/appliances/philips-130001.jpg"
+      "/images/products/appliances/icecat-philips-philips-fc878107.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc878107-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc878107-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc878107-3.jpg"
     ],
     "rating": 4.9,
     "epeyScore": 93,
@@ -61518,9 +62338,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips FC8784/09",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-707586.png",
+    "image": "/images/products/appliances/icecat-philips-philips-fc878409.jpg",
     "images": [
-      "/images/appliances/philips-707586.png"
+      "/images/products/appliances/icecat-philips-philips-fc878409.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc878409-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc878409-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc878409-3.jpg"
     ],
     "rating": 4.9,
     "epeyScore": 93,
@@ -61732,9 +62555,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips FC8812/01",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-595636.png",
+    "image": "/images/products/appliances/icecat-philips-philips-fc881201.jpg",
     "images": [
-      "/images/appliances/philips-595636.png"
+      "/images/products/appliances/icecat-philips-philips-fc881201.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc881201-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc881201-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc881201-3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 85,
@@ -61841,9 +62667,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips FC8785/09",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-720640.png",
+    "image": "/images/products/appliances/icecat-philips-philips-fc878509.jpg",
     "images": [
-      "/images/appliances/philips-720640.png"
+      "/images/products/appliances/icecat-philips-philips-fc878509.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc878509-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc878509-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc878509-3.jpg"
     ],
     "rating": 4.9,
     "epeyScore": 93,
@@ -61948,9 +62777,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips FC8783/09",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-695519.jpg",
+    "image": "/images/products/appliances/icecat-philips-philips-fc878309.jpg",
     "images": [
-      "/images/appliances/philips-695519.jpg"
+      "/images/products/appliances/icecat-philips-philips-fc878309.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc878309-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc878309-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc878309-3.jpg"
     ],
     "rating": 4.9,
     "epeyScore": 93,
@@ -62055,9 +62887,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips FC8458/91 PowerLife",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-32068.jpg",
+    "image": "/images/products/appliances/icecat-philips-philips-fc845891-powerlife.jpg",
     "images": [
-      "/images/appliances/philips-32068.jpg"
+      "/images/products/appliances/icecat-philips-philips-fc845891-powerlife.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc845891-powerlife-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc845891-powerlife-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc845891-powerlife-3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 85,
@@ -62159,9 +62994,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips FC8580/09",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-738803.jpg",
+    "image": "/images/products/appliances/icecat-philips-philips-fc858009.jpg",
     "images": [
-      "/images/appliances/philips-738803.jpg"
+      "/images/products/appliances/icecat-philips-philips-fc858009.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc858009-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc858009-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc858009-3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 88,
@@ -62265,9 +63103,11 @@ export const mockAppliances: Product[] = [
     "name": "Philips FC8579/09 Performer Active",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-707585.png",
+    "image": "/images/products/appliances/icecat-philips-philips-fc857909-performer-active.jpg",
     "images": [
-      "/images/appliances/philips-707585.png"
+      "/images/products/appliances/icecat-philips-philips-fc857909-performer-active.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc857909-performer-active-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc857909-performer-active-2.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 88,
@@ -62371,9 +63211,11 @@ export const mockAppliances: Product[] = [
     "name": "Philips FC8146/01",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-633526.jpg",
+    "image": "/images/products/appliances/icecat-philips-philips-fc814601.jpg",
     "images": [
-      "/images/appliances/philips-633526.jpg"
+      "/images/products/appliances/icecat-philips-philips-fc814601.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc814601-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc814601-2.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 85,
@@ -62475,9 +63317,9 @@ export const mockAppliances: Product[] = [
     "name": "Philips FC8810/01 SmartPro Aktif",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-694369.jpg",
+    "image": "/images/products/appliances/icecat-philips-philips-fc881001-smartpro-aktif.jpg",
     "images": [
-      "/images/appliances/philips-694369.jpg"
+      "/images/products/appliances/icecat-philips-philips-fc881001-smartpro-aktif.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 85,
@@ -62584,9 +63426,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips FC8245/09",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-428815.jpg",
+    "image": "/images/products/appliances/icecat-philips-philips-fc824509.jpg",
     "images": [
-      "/images/appliances/philips-428815.jpg"
+      "/images/products/appliances/icecat-philips-philips-fc824509.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc824509-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc824509-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc824509-3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 85,
@@ -62688,9 +63533,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips FC8244/09",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-608508.jpg",
+    "image": "/images/products/appliances/icecat-philips-philips-fc824409.jpg",
     "images": [
-      "/images/appliances/philips-608508.jpg"
+      "/images/products/appliances/icecat-philips-philips-fc824409.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc824409-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc824409-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc824409-3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 85,
@@ -62792,9 +63640,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips FC8955/09 Performer Ultimate (750 W)",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-66089.jpg",
+    "image": "/images/products/appliances/icecat-philips-philips-fc895509-performer-ultimate-750-w.jpg",
     "images": [
-      "/images/appliances/philips-66089.jpg"
+      "/images/products/appliances/icecat-philips-philips-fc895509-performer-ultimate-750-w.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc895509-performer-ultimate-750-w-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc895509-performer-ultimate-750-w-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc895509-performer-ultimate-750-w-3.jpg"
     ],
     "rating": 4.9,
     "epeyScore": 92,
@@ -62899,9 +63750,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips PowerGo FC8243/09",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-723794.png",
+    "image": "/images/products/appliances/icecat-philips-philips-powergo-fc824309.jpg",
     "images": [
-      "/images/appliances/philips-723794.png"
+      "/images/products/appliances/icecat-philips-philips-powergo-fc824309.jpg",
+      "/images/products/appliances/icecat-philips-philips-powergo-fc824309-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-powergo-fc824309-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-powergo-fc824309-3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 85,
@@ -63003,9 +63857,10 @@ export const mockAppliances: Product[] = [
     "name": "Philips FC8576/09",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-155474.jpg",
+    "image": "/images/products/appliances/icecat-philips-philips-fc857609.jpg",
     "images": [
-      "/images/appliances/philips-155474.jpg"
+      "/images/products/appliances/icecat-philips-philips-fc857609.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc857609-1.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 88,
@@ -63109,9 +63964,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips FC8375/09 Performer Compact",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-428820.png",
+    "image": "/images/products/appliances/icecat-philips-philips-fc837509-performer-compact.jpg",
     "images": [
-      "/images/appliances/philips-428820.png"
+      "/images/products/appliances/icecat-philips-philips-fc837509-performer-compact.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc837509-performer-compact-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc837509-performer-compact-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc837509-performer-compact-3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 85,
@@ -63213,9 +64071,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips FC8578/09",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-608503.png",
+    "image": "/images/products/appliances/icecat-philips-philips-fc857809.jpg",
     "images": [
-      "/images/appliances/philips-608503.png"
+      "/images/products/appliances/icecat-philips-philips-fc857809.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc857809-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc857809-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc857809-3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 88,
@@ -63319,9 +64180,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips FC8820/01 SmartPro",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-595687.jpg",
+    "image": "/images/products/appliances/icecat-philips-philips-fc882001-smartpro.jpg",
     "images": [
-      "/images/appliances/philips-595687.jpg"
+      "/images/products/appliances/icecat-philips-philips-fc882001-smartpro.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc882001-smartpro-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc882001-smartpro-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc882001-smartpro-3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 85,
@@ -63428,9 +64292,9 @@ export const mockAppliances: Product[] = [
     "name": "Philips FC8792/01 SmartPro Easy",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-595721.jpg",
+    "image": "/images/products/appliances/icecat-philips-philips-fc879201-smartpro-easy.jpg",
     "images": [
-      "/images/appliances/philips-595721.jpg"
+      "/images/products/appliances/icecat-philips-philips-fc879201-smartpro-easy.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 85,
@@ -63537,9 +64401,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips FC8776/01",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-595662.jpg",
+    "image": "/images/products/appliances/icecat-philips-philips-fc877601.jpg",
     "images": [
-      "/images/appliances/philips-595662.jpg"
+      "/images/products/appliances/icecat-philips-philips-fc877601.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc877601-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc877601-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc877601-3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 85,
@@ -63646,9 +64513,9 @@ export const mockAppliances: Product[] = [
     "name": "Philips FC8326/09",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-428825.jpg",
+    "image": "/images/products/appliances/icecat-philips-philips-fc832609.jpg",
     "images": [
-      "/images/appliances/philips-428825.jpg"
+      "/images/products/appliances/icecat-philips-philips-fc832609.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 84,
@@ -63750,9 +64617,9 @@ export const mockAppliances: Product[] = [
     "name": "Philips FC8796/01 SmartPro Easy",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-899158.jpg",
+    "image": "/images/products/appliances/icecat-philips-philips-fc879601-smartpro-easy.jpg",
     "images": [
-      "/images/appliances/philips-899158.jpg"
+      "/images/products/appliances/icecat-philips-philips-fc879601-smartpro-easy.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 85,
@@ -63859,9 +64726,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips FC8774/01",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-584318.jpg",
+    "image": "/images/products/appliances/icecat-philips-philips-fc877401.jpg",
     "images": [
-      "/images/appliances/philips-584318.jpg"
+      "/images/products/appliances/icecat-philips-philips-fc877401.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc877401-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc877401-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc877401-3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 85,
@@ -63968,9 +64838,10 @@ export const mockAppliances: Product[] = [
     "name": "Philips FC8715/01",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-595698.jpg",
+    "image": "/images/products/appliances/icecat-philips-philips-fc871501.jpg",
     "images": [
-      "/images/appliances/philips-595698.jpg"
+      "/images/products/appliances/icecat-philips-philips-fc871501.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc871501-1.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 85,
@@ -64077,9 +64948,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips FC8710/01 SmartPro",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-595675.png",
+    "image": "/images/products/appliances/icecat-philips-philips-fc871001-smartpro.jpg",
     "images": [
-      "/images/appliances/philips-595675.png"
+      "/images/products/appliances/icecat-philips-philips-fc871001-smartpro.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc871001-smartpro-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc871001-smartpro-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc871001-smartpro-3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 85,
@@ -64186,9 +65060,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips FC8786/09 Performer Silent",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-707581.jpg",
+    "image": "/images/products/appliances/icecat-philips-philips-fc878609-performer-silent.jpg",
     "images": [
-      "/images/appliances/philips-707581.jpg"
+      "/images/products/appliances/icecat-philips-philips-fc878609-performer-silent.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc878609-performer-silent-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc878609-performer-silent-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc878609-performer-silent-3.jpg"
     ],
     "rating": 4.9,
     "epeyScore": 93,
@@ -64293,9 +65170,9 @@ export const mockAppliances: Product[] = [
     "name": "Philips Minivac FC6048/01",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-613509.jpg",
+    "image": "/images/products/appliances/icecat-philips-philips-minivac-fc604801.jpg",
     "images": [
-      "/images/appliances/philips-613509.jpg"
+      "/images/products/appliances/icecat-philips-philips-minivac-fc604801.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 85,
@@ -64399,9 +65276,11 @@ export const mockAppliances: Product[] = [
     "name": "Philips FC8246/09",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-707584.png",
+    "image": "/images/products/appliances/icecat-philips-philips-fc824609.jpg",
     "images": [
-      "/images/appliances/philips-707584.png"
+      "/images/products/appliances/icecat-philips-philips-fc824609.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc824609-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc824609-2.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 84,
@@ -64503,9 +65382,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips FC6149/01",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-76280.png",
+    "image": "/images/products/appliances/icecat-philips-philips-fc614901.jpg",
     "images": [
-      "/images/appliances/philips-76280.png"
+      "/images/products/appliances/icecat-philips-philips-fc614901.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc614901-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc614901-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc614901-3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 85,
@@ -64609,9 +65491,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips FC6722/01",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-428822.png",
+    "image": "/images/products/appliances/icecat-philips-philips-fc672201.jpg",
     "images": [
-      "/images/appliances/philips-428822.png"
+      "/images/products/appliances/icecat-philips-philips-fc672201.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc672201-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc672201-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc672201-3.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 88,
@@ -64716,9 +65601,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips FC6727/01",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-553585.jpg",
+    "image": "/images/products/appliances/icecat-philips-philips-fc672701.jpg",
     "images": [
-      "/images/appliances/philips-553585.jpg"
+      "/images/products/appliances/icecat-philips-philips-fc672701.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc672701-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc672701-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc672701-3.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 88,
@@ -64823,9 +65711,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips FC6723/01",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-677722.jpg",
+    "image": "/images/products/appliances/icecat-philips-philips-fc672301.jpg",
     "images": [
-      "/images/appliances/philips-677722.jpg"
+      "/images/products/appliances/icecat-philips-philips-fc672301.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc672301-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc672301-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc672301-3.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 88,
@@ -64930,9 +65821,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips FC6142/01",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-77038.jpg",
+    "image": "/images/products/appliances/icecat-philips-philips-fc614201.jpg",
     "images": [
-      "/images/appliances/philips-77038.jpg"
+      "/images/products/appliances/icecat-philips-philips-fc614201.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc614201-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc614201-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc614201-3.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 85,
@@ -65036,9 +65930,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips FC6171/01",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-428824.jpg",
+    "image": "/images/products/appliances/icecat-philips-philips-fc617101.jpg",
     "images": [
-      "/images/appliances/philips-428824.jpg"
+      "/images/products/appliances/icecat-philips-philips-fc617101.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc617101-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc617101-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-fc617101-3.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 88,
@@ -65143,9 +66040,9 @@ export const mockAppliances: Product[] = [
     "name": "Philips FC7028/01",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-120592.jpg",
+    "image": "/images/products/appliances/icecat-philips-philips-fc702801.jpg",
     "images": [
-      "/images/appliances/philips-120592.jpg"
+      "/images/products/appliances/icecat-philips-philips-fc702801.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 87,
@@ -65249,9 +66146,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips 3000i Serisi AC3033/10",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-420618.png",
+    "image": "/images/products/appliances/icecat-philips-philips-3000i-serisi-ac303310.jpg",
     "images": [
-      "/images/appliances/philips-420618.png"
+      "/images/products/appliances/icecat-philips-philips-3000i-serisi-ac303310.jpg",
+      "/images/products/appliances/icecat-philips-philips-3000i-serisi-ac303310-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-3000i-serisi-ac303310-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-3000i-serisi-ac303310-3.jpg"
     ],
     "rating": 4.9,
     "epeyScore": 95,
@@ -65466,9 +66366,11 @@ export const mockAppliances: Product[] = [
     "name": "Philips AC3055/51",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-955254.jpg",
+    "image": "/images/products/appliances/icecat-philips-philips-ac305551.jpg",
     "images": [
-      "/images/appliances/philips-955254.jpg"
+      "/images/products/appliances/icecat-philips-philips-ac305551.jpg",
+      "/images/products/appliances/icecat-philips-philips-ac305551-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-ac305551-2.jpg"
     ],
     "rating": 4.9,
     "epeyScore": 95,
@@ -65679,9 +66581,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips AC0830/10",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-850541.jpg",
+    "image": "/images/products/appliances/icecat-philips-philips-ac083010.jpg",
     "images": [
-      "/images/appliances/philips-850541.jpg"
+      "/images/products/appliances/icecat-philips-philips-ac083010.jpg",
+      "/images/products/appliances/icecat-philips-philips-ac083010-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-ac083010-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-ac083010-3.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 88,
@@ -67274,9 +68179,9 @@ export const mockAppliances: Product[] = [
     "name": "Philips Avent SCH580-20",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-416349.png",
+    "image": "/images/products/appliances/icecat-philips-philips-avent-sch580-20.jpg",
     "images": [
-      "/images/appliances/philips-416349.png"
+      "/images/products/appliances/icecat-philips-philips-avent-sch580-20.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 89,
@@ -67380,9 +68285,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips NA350/00 Airfryer",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-932002.png",
+    "image": "/images/products/appliances/icecat-philips-philips-na35000-airfryer.jpg",
     "images": [
-      "/images/appliances/philips-932002.png"
+      "/images/products/appliances/icecat-philips-philips-na35000-airfryer.jpg",
+      "/images/products/appliances/icecat-philips-philips-na35000-airfryer-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-na35000-airfryer-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-na35000-airfryer-3.jpg"
     ],
     "rating": 4.9,
     "epeyScore": 95,
@@ -67488,9 +68396,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips Premium XXL HD9867/90 Airfryer",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-694149.png",
+    "image": "/images/products/appliances/icecat-philips-philips-premium-xxl-hd986790-airfryer.jpg",
     "images": [
-      "/images/appliances/philips-694149.png"
+      "/images/products/appliances/icecat-philips-philips-premium-xxl-hd986790-airfryer.jpg",
+      "/images/products/appliances/icecat-philips-philips-premium-xxl-hd986790-airfryer-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-premium-xxl-hd986790-airfryer-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-premium-xxl-hd986790-airfryer-3.jpg"
     ],
     "rating": 4.9,
     "epeyScore": 96,
@@ -67596,9 +68507,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips Premium XXL HD9650/90 Airfryer",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-145556.png",
+    "image": "/images/products/appliances/icecat-philips-philips-premium-xxl-hd965090-airfryer.jpg",
     "images": [
-      "/images/appliances/philips-145556.png"
+      "/images/products/appliances/icecat-philips-philips-premium-xxl-hd965090-airfryer.jpg",
+      "/images/products/appliances/icecat-philips-philips-premium-xxl-hd965090-airfryer-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-premium-xxl-hd965090-airfryer-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-premium-xxl-hd965090-airfryer-3.jpg"
     ],
     "rating": 4.9,
     "epeyScore": 96,
@@ -67704,9 +68618,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips Premium XXL HD9870/20 Airfryer",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-801347.png",
+    "image": "/images/products/appliances/icecat-philips-philips-premium-xxl-hd987020-airfryer.jpg",
     "images": [
-      "/images/appliances/philips-801347.png"
+      "/images/products/appliances/icecat-philips-philips-premium-xxl-hd987020-airfryer.jpg",
+      "/images/products/appliances/icecat-philips-philips-premium-xxl-hd987020-airfryer-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-premium-xxl-hd987020-airfryer-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-premium-xxl-hd987020-airfryer-3.jpg"
     ],
     "rating": 4.9,
     "epeyScore": 96,
@@ -67812,9 +68729,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips Viva Collection HD9630/90 Airfryer",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-145550.png",
+    "image": "/images/products/appliances/icecat-philips-philips-viva-collection-hd963090-airfryer.jpg",
     "images": [
-      "/images/appliances/philips-145550.png"
+      "/images/products/appliances/icecat-philips-philips-viva-collection-hd963090-airfryer.jpg",
+      "/images/products/appliances/icecat-philips-philips-viva-collection-hd963090-airfryer-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-viva-collection-hd963090-airfryer-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-viva-collection-hd963090-airfryer-3.jpg"
     ],
     "rating": 4.9,
     "epeyScore": 96,
@@ -67920,9 +68840,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips Essential HD9260/90 XL Airfryer",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-584240.png",
+    "image": "/images/products/appliances/icecat-philips-philips-essential-hd926090-xl-airfryer.jpg",
     "images": [
-      "/images/appliances/philips-584240.png"
+      "/images/products/appliances/icecat-philips-philips-essential-hd926090-xl-airfryer.jpg",
+      "/images/products/appliances/icecat-philips-philips-essential-hd926090-xl-airfryer-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-essential-hd926090-xl-airfryer-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-essential-hd926090-xl-airfryer-3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 91,
@@ -68028,9 +68951,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips HD9880/90 Airfryer",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-877307.png",
+    "image": "/images/products/appliances/icecat-philips-philips-hd988090-airfryer.jpg",
     "images": [
-      "/images/appliances/philips-877307.png"
+      "/images/products/appliances/icecat-philips-philips-hd988090-airfryer.jpg",
+      "/images/products/appliances/icecat-philips-philips-hd988090-airfryer-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-hd988090-airfryer-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-hd988090-airfryer-3.jpg"
     ],
     "rating": 4.9,
     "epeyScore": 97,
@@ -68137,9 +69063,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips HD9875/90 Airfryer",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-890838.jpg",
+    "image": "/images/products/appliances/icecat-philips-philips-hd987590-airfryer.jpg",
     "images": [
-      "/images/appliances/philips-890838.jpg"
+      "/images/products/appliances/icecat-philips-philips-hd987590-airfryer.jpg",
+      "/images/products/appliances/icecat-philips-philips-hd987590-airfryer-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-hd987590-airfryer-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-hd987590-airfryer-3.jpg"
     ],
     "rating": 4.9,
     "epeyScore": 97,
@@ -68246,9 +69175,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips Essential Dijital XXL 5000 Series HD9285/96 Airfryer",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-863885.png",
+    "image": "/images/products/appliances/icecat-philips-philips-essential-dijital-xxl-5000-series-hd928596-airfryer.jpg",
     "images": [
-      "/images/appliances/philips-863885.png"
+      "/images/products/appliances/icecat-philips-philips-essential-dijital-xxl-5000-series-hd928596-airfryer.jpg",
+      "/images/products/appliances/icecat-philips-philips-essential-dijital-xxl-5000-series-hd928596-airfryer-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-essential-dijital-xxl-5000-series-hd928596-airfryer-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-essential-dijital-xxl-5000-series-hd928596-airfryer-3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 92,
@@ -68354,9 +69286,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips HD9270/90 XL Airfryer",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-740841.png",
+    "image": "/images/products/appliances/icecat-philips-philips-hd927090-xl-airfryer.jpg",
     "images": [
-      "/images/appliances/philips-740841.png"
+      "/images/products/appliances/icecat-philips-philips-hd927090-xl-airfryer.jpg",
+      "/images/products/appliances/icecat-philips-philips-hd927090-xl-airfryer-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-hd927090-xl-airfryer-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-hd927090-xl-airfryer-3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 91,
@@ -68462,9 +69397,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips XL HD9270/96 Airfryer",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-791852.jpg",
+    "image": "/images/products/appliances/icecat-philips-philips-xl-hd927096-airfryer.jpg",
     "images": [
-      "/images/appliances/philips-791852.jpg"
+      "/images/products/appliances/icecat-philips-philips-xl-hd927096-airfryer.jpg",
+      "/images/products/appliances/icecat-philips-philips-xl-hd927096-airfryer-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-xl-hd927096-airfryer-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-xl-hd927096-airfryer-3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 91,
@@ -68570,9 +69508,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips 3000 Series L HD9252/90 Airfryer",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-629293.jpg",
+    "image": "/images/products/appliances/icecat-philips-philips-3000-series-l-hd925290-airfryer.jpg",
     "images": [
-      "/images/appliances/philips-629293.jpg"
+      "/images/products/appliances/icecat-philips-philips-3000-series-l-hd925290-airfryer.jpg",
+      "/images/products/appliances/icecat-philips-philips-3000-series-l-hd925290-airfryer-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-3000-series-l-hd925290-airfryer-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-3000-series-l-hd925290-airfryer-3.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 88,
@@ -68676,9 +69617,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips Essential 3000 Series HD9200/90 Airfryer",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-803022.png",
+    "image": "/images/products/appliances/icecat-philips-philips-essential-3000-series-hd920090-airfryer.jpg",
     "images": [
-      "/images/appliances/philips-803022.png"
+      "/images/products/appliances/icecat-philips-philips-essential-3000-series-hd920090-airfryer.jpg",
+      "/images/products/appliances/icecat-philips-philips-essential-3000-series-hd920090-airfryer-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-essential-3000-series-hd920090-airfryer-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-essential-3000-series-hd920090-airfryer-3.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 88,
@@ -68782,9 +69726,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips 3000 Series XL HD9257/80 Airfryer",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-890850.jpg",
+    "image": "/images/products/appliances/icecat-philips-philips-3000-series-xl-hd925780-airfryer.jpg",
     "images": [
-      "/images/appliances/philips-890850.jpg"
+      "/images/products/appliances/icecat-philips-philips-3000-series-xl-hd925780-airfryer.jpg",
+      "/images/products/appliances/icecat-philips-philips-3000-series-xl-hd925780-airfryer-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-3000-series-xl-hd925780-airfryer-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-3000-series-xl-hd925780-airfryer-3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 91,
@@ -68890,9 +69837,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips 3000 Series HD9243/90 Airfryer",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-890845.png",
+    "image": "/images/products/appliances/icecat-philips-philips-3000-series-hd924390-airfryer.jpg",
     "images": [
-      "/images/appliances/philips-890845.png"
+      "/images/products/appliances/icecat-philips-philips-3000-series-hd924390-airfryer.jpg",
+      "/images/products/appliances/icecat-philips-philips-3000-series-hd924390-airfryer-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-3000-series-hd924390-airfryer-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-3000-series-hd924390-airfryer-3.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 88,
@@ -68996,9 +69946,11 @@ export const mockAppliances: Product[] = [
     "name": "Philips 5000 Series HD9255/60 Airfryer",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-838197.png",
+    "image": "/images/products/appliances/icecat-philips-philips-5000-series-hd925560-airfryer.jpg",
     "images": [
-      "/images/appliances/philips-838197.png"
+      "/images/products/appliances/icecat-philips-philips-5000-series-hd925560-airfryer.jpg",
+      "/images/products/appliances/icecat-philips-philips-5000-series-hd925560-airfryer-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-5000-series-hd925560-airfryer-2.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 92,
@@ -69212,9 +70164,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips HD9220/20 Airfryer",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-130794.png",
+    "image": "/images/products/appliances/icecat-philips-philips-hd922020-airfryer.jpg",
     "images": [
-      "/images/appliances/philips-130794.png"
+      "/images/products/appliances/icecat-philips-philips-hd922020-airfryer.jpg",
+      "/images/products/appliances/icecat-philips-philips-hd922020-airfryer-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-hd922020-airfryer-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-hd922020-airfryer-3.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 88,
@@ -69318,9 +70273,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips NA322/00 Airfryer",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-995339.png",
+    "image": "/images/products/appliances/icecat-philips-philips-na32200-airfryer.jpg",
     "images": [
-      "/images/appliances/philips-995339.png"
+      "/images/products/appliances/icecat-philips-philips-na32200-airfryer.jpg",
+      "/images/products/appliances/icecat-philips-philips-na32200-airfryer-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-na32200-airfryer-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-na32200-airfryer-3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 91,
@@ -69534,9 +70492,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips NA120/00 Airfryer",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-999943.png",
+    "image": "/images/products/appliances/icecat-philips-philips-na12000-airfryer.jpg",
     "images": [
-      "/images/appliances/philips-999943.png"
+      "/images/products/appliances/icecat-philips-philips-na12000-airfryer.jpg",
+      "/images/products/appliances/icecat-philips-philips-na12000-airfryer-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-na12000-airfryer-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-na12000-airfryer-3.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 88,
@@ -69640,9 +70601,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips NA555/00 Airfryer",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-995351.png",
+    "image": "/images/products/appliances/icecat-philips-philips-na55500-airfryer.jpg",
     "images": [
-      "/images/appliances/philips-995351.png"
+      "/images/products/appliances/icecat-philips-philips-na55500-airfryer.jpg",
+      "/images/products/appliances/icecat-philips-philips-na55500-airfryer-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-na55500-airfryer-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-na55500-airfryer-3.jpg"
     ],
     "rating": 4.9,
     "epeyScore": 95,
@@ -70176,9 +71140,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips Spectre XL Double HD9270/60 Airfryer",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-838156.png",
+    "image": "/images/products/appliances/icecat-philips-philips-spectre-xl-double-hd927060-airfryer.jpg",
     "images": [
-      "/images/appliances/philips-838156.png"
+      "/images/products/appliances/icecat-philips-philips-spectre-xl-double-hd927060-airfryer.jpg",
+      "/images/products/appliances/icecat-philips-philips-spectre-xl-double-hd927060-airfryer-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-spectre-xl-double-hd927060-airfryer-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-spectre-xl-double-hd927060-airfryer-3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 91,
@@ -70284,9 +71251,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips Essential XL HD9270/66 Airfryer",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-760093.png",
+    "image": "/images/products/appliances/icecat-philips-philips-essential-xl-hd927066-airfryer.jpg",
     "images": [
-      "/images/appliances/philips-760093.png"
+      "/images/products/appliances/icecat-philips-philips-essential-xl-hd927066-airfryer.jpg",
+      "/images/products/appliances/icecat-philips-philips-essential-xl-hd927066-airfryer-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-essential-xl-hd927066-airfryer-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-essential-xl-hd927066-airfryer-3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 91,
@@ -70392,9 +71362,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips HD9651/90 Airfryer",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-854822.png",
+    "image": "/images/products/appliances/icecat-philips-philips-hd965190-airfryer.jpg",
     "images": [
-      "/images/appliances/philips-854822.png"
+      "/images/products/appliances/icecat-philips-philips-hd965190-airfryer.jpg",
+      "/images/products/appliances/icecat-philips-philips-hd965190-airfryer-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-hd965190-airfryer-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-hd965190-airfryer-3.jpg"
     ],
     "rating": 4.9,
     "epeyScore": 96,
@@ -70608,9 +71581,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips XXL HD9652/90 Airfryer",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-173975.png",
+    "image": "/images/products/appliances/icecat-philips-philips-xxl-hd965290-airfryer.jpg",
     "images": [
-      "/images/appliances/philips-173975.png"
+      "/images/products/appliances/icecat-philips-philips-xxl-hd965290-airfryer.jpg",
+      "/images/products/appliances/icecat-philips-philips-xxl-hd965290-airfryer-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-xxl-hd965290-airfryer-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-xxl-hd965290-airfryer-3.jpg"
     ],
     "rating": 4.9,
     "epeyScore": 95,
@@ -70715,9 +71691,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips Premium XXL HD9650/91 Airfryer",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-791855.png",
+    "image": "/images/products/appliances/icecat-philips-philips-premium-xxl-hd965091-airfryer.jpg",
     "images": [
-      "/images/appliances/philips-791855.png"
+      "/images/products/appliances/icecat-philips-philips-premium-xxl-hd965091-airfryer.jpg",
+      "/images/products/appliances/icecat-philips-philips-premium-xxl-hd965091-airfryer-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-premium-xxl-hd965091-airfryer-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-premium-xxl-hd965091-airfryer-3.jpg"
     ],
     "rating": 4.9,
     "epeyScore": 95,
@@ -70822,9 +71801,9 @@ export const mockAppliances: Product[] = [
     "name": "Philips Premium XXL HD9650/96 Airfryer",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-162331.png",
+    "image": "/images/products/appliances/icecat-philips-philips-premium-xxl-hd965096-airfryer.jpg",
     "images": [
-      "/images/appliances/philips-162331.png"
+      "/images/products/appliances/icecat-philips-philips-premium-xxl-hd965096-airfryer.jpg"
     ],
     "rating": 4.9,
     "epeyScore": 95,
@@ -70929,9 +71908,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips 5000 Series Connected HD9280/90 Airfryer",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-838158.png",
+    "image": "/images/products/appliances/icecat-philips-philips-5000-series-connected-hd928090-airfryer.jpg",
     "images": [
-      "/images/appliances/philips-838158.png"
+      "/images/products/appliances/icecat-philips-philips-5000-series-connected-hd928090-airfryer.jpg",
+      "/images/products/appliances/icecat-philips-philips-5000-series-connected-hd928090-airfryer-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-5000-series-connected-hd928090-airfryer-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-5000-series-connected-hd928090-airfryer-3.jpg"
     ],
     "rating": 4.9,
     "epeyScore": 93,
@@ -71143,9 +72125,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips HD9200/21 Airfryer",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-854824.png",
+    "image": "/images/products/appliances/icecat-philips-philips-hd920021-airfryer.jpg",
     "images": [
-      "/images/appliances/philips-854824.png"
+      "/images/products/appliances/icecat-philips-philips-hd920021-airfryer.jpg",
+      "/images/products/appliances/icecat-philips-philips-hd920021-airfryer-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-hd920021-airfryer-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-hd920021-airfryer-3.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 87,
@@ -71248,9 +72233,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips HD9200/91 Airfryer",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-854825.png",
+    "image": "/images/products/appliances/icecat-philips-philips-hd920091-airfryer.jpg",
     "images": [
-      "/images/appliances/philips-854825.png"
+      "/images/products/appliances/icecat-philips-philips-hd920091-airfryer.jpg",
+      "/images/products/appliances/icecat-philips-philips-hd920091-airfryer-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-hd920091-airfryer-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-hd920091-airfryer-3.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 87,
@@ -71353,9 +72341,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips 3000 Series L HD9200/11 Airfryer",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-853842.png",
+    "image": "/images/products/appliances/icecat-philips-philips-3000-series-l-hd920011-airfryer.jpg",
     "images": [
-      "/images/appliances/philips-853842.png"
+      "/images/products/appliances/icecat-philips-philips-3000-series-l-hd920011-airfryer.jpg",
+      "/images/products/appliances/icecat-philips-philips-3000-series-l-hd920011-airfryer-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-3000-series-l-hd920011-airfryer-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-3000-series-l-hd920011-airfryer-3.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 87,
@@ -71563,9 +72554,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips Essential HD9252/70 Airfryer",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-791865.png",
+    "image": "/images/products/appliances/icecat-philips-philips-essential-hd925270-airfryer.jpg",
     "images": [
-      "/images/appliances/philips-791865.png"
+      "/images/products/appliances/icecat-philips-philips-essential-hd925270-airfryer.jpg",
+      "/images/products/appliances/icecat-philips-philips-essential-hd925270-airfryer-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-essential-hd925270-airfryer-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-essential-hd925270-airfryer-3.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 87,
@@ -71668,9 +72662,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips 3000 Series HD9252/91 Airfryer",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-791862.png",
+    "image": "/images/products/appliances/icecat-philips-philips-3000-series-hd925291-airfryer.jpg",
     "images": [
-      "/images/appliances/philips-791862.png"
+      "/images/products/appliances/icecat-philips-philips-3000-series-hd925291-airfryer.jpg",
+      "/images/products/appliances/icecat-philips-philips-3000-series-hd925291-airfryer-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-3000-series-hd925291-airfryer-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-3000-series-hd925291-airfryer-3.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 87,
@@ -71879,9 +72876,9 @@ export const mockAppliances: Product[] = [
     "name": "Philips HD6159/52",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-401632.png",
+    "image": "/images/products/appliances/icecat-philips-philips-hd615952.jpg",
     "images": [
-      "/images/appliances/philips-401632.png"
+      "/images/products/appliances/icecat-philips-philips-hd615952.jpg"
     ],
     "rating": 4.5,
     "epeyScore": 78,
@@ -71985,9 +72982,10 @@ export const mockAppliances: Product[] = [
     "name": "Philips XXL HD9750/20 Airfryer",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-420799.png",
+    "image": "/images/products/appliances/icecat-philips-philips-xxl-hd975020-airfryer.jpg",
     "images": [
-      "/images/appliances/philips-420799.png"
+      "/images/products/appliances/icecat-philips-philips-xxl-hd975020-airfryer.jpg",
+      "/images/products/appliances/icecat-philips-philips-xxl-hd975020-airfryer-1.jpg"
     ],
     "rating": 4.9,
     "epeyScore": 95,
@@ -72303,9 +73301,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips Avance Collection XL HD9240/30 Airfryer (Siyah)",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-803082.png",
+    "image": "/images/products/appliances/icecat-philips-philips-avance-collection-xl-hd924030-airfryer-siyah.jpg",
     "images": [
-      "/images/appliances/philips-803082.png"
+      "/images/products/appliances/icecat-philips-philips-avance-collection-xl-hd924030-airfryer-siyah.jpg",
+      "/images/products/appliances/icecat-philips-philips-avance-collection-xl-hd924030-airfryer-siyah-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-avance-collection-xl-hd924030-airfryer-siyah-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-avance-collection-xl-hd924030-airfryer-siyah-3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 89,
@@ -72409,9 +73410,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips Avance Collection XL HD9240/30 Airfryer (Beyaz)",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-91237.png",
+    "image": "/images/products/appliances/icecat-philips-philips-avance-collection-xl-hd924030-airfryer-beyaz.jpg",
     "images": [
-      "/images/appliances/philips-91237.png"
+      "/images/products/appliances/icecat-philips-philips-avance-collection-xl-hd924030-airfryer-beyaz.jpg",
+      "/images/products/appliances/icecat-philips-philips-avance-collection-xl-hd924030-airfryer-beyaz-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-avance-collection-xl-hd924030-airfryer-beyaz-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-avance-collection-xl-hd924030-airfryer-beyaz-3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 89,
@@ -72621,9 +73625,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips Premium HD9741/10 Airfryer",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-141185.png",
+    "image": "/images/products/appliances/icecat-philips-philips-premium-hd974110-airfryer.jpg",
     "images": [
-      "/images/appliances/philips-141185.png"
+      "/images/products/appliances/icecat-philips-philips-premium-hd974110-airfryer.jpg",
+      "/images/products/appliances/icecat-philips-philips-premium-hd974110-airfryer-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-premium-hd974110-airfryer-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-premium-hd974110-airfryer-3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 90,
@@ -72727,9 +73734,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips Daily Collection HD9216/80 Airfryer",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-647393.png",
+    "image": "/images/products/appliances/icecat-philips-philips-daily-collection-hd921680-airfryer.jpg",
     "images": [
-      "/images/appliances/philips-647393.png"
+      "/images/products/appliances/icecat-philips-philips-daily-collection-hd921680-airfryer.jpg",
+      "/images/products/appliances/icecat-philips-philips-daily-collection-hd921680-airfryer-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-daily-collection-hd921680-airfryer-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-daily-collection-hd921680-airfryer-3.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 87,
@@ -72832,9 +73842,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips Viva Collection HD9621/80 Airfryer",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-647394.png",
+    "image": "/images/products/appliances/icecat-philips-philips-viva-collection-hd962180-airfryer.jpg",
     "images": [
-      "/images/appliances/philips-647394.png"
+      "/images/products/appliances/icecat-philips-philips-viva-collection-hd962180-airfryer.jpg",
+      "/images/products/appliances/icecat-philips-philips-viva-collection-hd962180-airfryer-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-viva-collection-hd962180-airfryer-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-viva-collection-hd962180-airfryer-3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 90,
@@ -72938,9 +73951,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips TurboStar HD9621/90 Airfryer",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-199840.png",
+    "image": "/images/products/appliances/icecat-philips-philips-turbostar-hd962190-airfryer.jpg",
     "images": [
-      "/images/appliances/philips-199840.png"
+      "/images/products/appliances/icecat-philips-philips-turbostar-hd962190-airfryer.jpg",
+      "/images/products/appliances/icecat-philips-philips-turbostar-hd962190-airfryer-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-turbostar-hd962190-airfryer-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-turbostar-hd962190-airfryer-3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 90,
@@ -73044,9 +74060,11 @@ export const mockAppliances: Product[] = [
     "name": "Philips TurboStar HD9641/90 Airfryer",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-157640.jpg",
+    "image": "/images/products/appliances/icecat-philips-philips-turbostar-hd964190-airfryer.jpg",
     "images": [
-      "/images/appliances/philips-157640.jpg"
+      "/images/products/appliances/icecat-philips-philips-turbostar-hd964190-airfryer.jpg",
+      "/images/products/appliances/icecat-philips-philips-turbostar-hd964190-airfryer-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-turbostar-hd964190-airfryer-2.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 90,
@@ -73150,9 +74168,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips Avance Collection HD9642/20 Airfryer",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-173973.png",
+    "image": "/images/products/appliances/icecat-philips-philips-avance-collection-hd964220-airfryer.jpg",
     "images": [
-      "/images/appliances/philips-173973.png"
+      "/images/products/appliances/icecat-philips-philips-avance-collection-hd964220-airfryer.jpg",
+      "/images/products/appliances/icecat-philips-philips-avance-collection-hd964220-airfryer-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-avance-collection-hd964220-airfryer-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-avance-collection-hd964220-airfryer-3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 90,
@@ -73256,9 +74277,11 @@ export const mockAppliances: Product[] = [
     "name": "Philips Viva Collection Digitaler HD9236/20 Airfryer",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-584237.png",
+    "image": "/images/products/appliances/icecat-philips-philips-viva-collection-digitaler-hd923620-airfryer.jpg",
     "images": [
-      "/images/appliances/philips-584237.png"
+      "/images/products/appliances/icecat-philips-philips-viva-collection-digitaler-hd923620-airfryer.jpg",
+      "/images/products/appliances/icecat-philips-philips-viva-collection-digitaler-hd923620-airfryer-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-viva-collection-digitaler-hd923620-airfryer-2.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 87,
@@ -73361,9 +74384,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips HD9220/40 Airfryer",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-203654.png",
+    "image": "/images/products/appliances/icecat-philips-philips-hd922040-airfryer.jpg",
     "images": [
-      "/images/appliances/philips-203654.png"
+      "/images/products/appliances/icecat-philips-philips-hd922040-airfryer.jpg",
+      "/images/products/appliances/icecat-philips-philips-hd922040-airfryer-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-hd922040-airfryer-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-hd922040-airfryer-3.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 87,
@@ -73466,9 +74492,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips Viva Collection HD9621/96 Airfryer",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-162333.jpg",
+    "image": "/images/products/appliances/icecat-philips-philips-viva-collection-hd962196-airfryer.jpg",
     "images": [
-      "/images/appliances/philips-162333.jpg"
+      "/images/products/appliances/icecat-philips-philips-viva-collection-hd962196-airfryer.jpg",
+      "/images/products/appliances/icecat-philips-philips-viva-collection-hd962196-airfryer-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-viva-collection-hd962196-airfryer-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-viva-collection-hd962196-airfryer-3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 90,
@@ -73572,9 +74601,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips Premium HD9762/90 Airfryer",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-159171.png",
+    "image": "/images/products/appliances/icecat-philips-philips-premium-hd976290-airfryer.jpg",
     "images": [
-      "/images/appliances/philips-159171.png"
+      "/images/products/appliances/icecat-philips-philips-premium-hd976290-airfryer.jpg",
+      "/images/products/appliances/icecat-philips-philips-premium-hd976290-airfryer-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-premium-hd976290-airfryer-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-premium-hd976290-airfryer-3.jpg"
     ],
     "rating": 4.9,
     "epeyScore": 95,
@@ -73679,9 +74711,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips Avance Collection XL HD9240/90 Airfryer",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-203653.png",
+    "image": "/images/products/appliances/icecat-philips-philips-avance-collection-xl-hd924090-airfryer.jpg",
     "images": [
-      "/images/appliances/philips-203653.png"
+      "/images/products/appliances/icecat-philips-philips-avance-collection-xl-hd924090-airfryer.jpg",
+      "/images/products/appliances/icecat-philips-philips-avance-collection-xl-hd924090-airfryer-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-avance-collection-xl-hd924090-airfryer-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-avance-collection-xl-hd924090-airfryer-3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 89,
@@ -73785,9 +74820,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips Turbostar HD9621/20 Airfryer",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-166353.png",
+    "image": "/images/products/appliances/icecat-philips-philips-turbostar-hd962120-airfryer.jpg",
     "images": [
-      "/images/appliances/philips-166353.png"
+      "/images/products/appliances/icecat-philips-philips-turbostar-hd962120-airfryer.jpg",
+      "/images/products/appliances/icecat-philips-philips-turbostar-hd962120-airfryer-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-turbostar-hd962120-airfryer-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-turbostar-hd962120-airfryer-3.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 87,
@@ -73890,9 +74928,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips Turbostar HD9640/00 Airfryer",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-172551.png",
+    "image": "/images/products/appliances/icecat-philips-philips-turbostar-hd964000-airfryer.jpg",
     "images": [
-      "/images/appliances/philips-172551.png"
+      "/images/products/appliances/icecat-philips-philips-turbostar-hd964000-airfryer.jpg",
+      "/images/products/appliances/icecat-philips-philips-turbostar-hd964000-airfryer-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-turbostar-hd964000-airfryer-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-turbostar-hd964000-airfryer-3.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 89,
@@ -73996,9 +75037,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips Essential HD9218/51 Airfryer",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-801438.png",
+    "image": "/images/products/appliances/icecat-philips-philips-essential-hd921851-airfryer.jpg",
     "images": [
-      "/images/appliances/philips-801438.png"
+      "/images/products/appliances/icecat-philips-philips-essential-hd921851-airfryer.jpg",
+      "/images/products/appliances/icecat-philips-philips-essential-hd921851-airfryer-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-essential-hd921851-airfryer-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-essential-hd921851-airfryer-3.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 86,
@@ -74102,9 +75146,12 @@ export const mockAppliances: Product[] = [
     "name": "Philips HD6103/70",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-130795.jpg",
+    "image": "/images/products/appliances/icecat-philips-philips-hd610370.jpg",
     "images": [
-      "/images/appliances/philips-130795.jpg"
+      "/images/products/appliances/icecat-philips-philips-hd610370.jpg",
+      "/images/products/appliances/icecat-philips-philips-hd610370-1.jpg",
+      "/images/products/appliances/icecat-philips-philips-hd610370-2.jpg",
+      "/images/products/appliances/icecat-philips-philips-hd610370-3.jpg"
     ],
     "rating": 4.4,
     "epeyScore": 76,

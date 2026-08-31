@@ -407,9 +407,12 @@ export const mockConsoles: Product[] = [
     "releaseYear": 2020,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/consoles/430620.jpg",
+    "image": "/images/products/consoles/icecat-sony-sony-playstation-5-825gb-standart-blu-ray-oyun-konsolu-cfi-1015a-430620.jpg",
     "images": [
-      "/images/consoles/430620.jpg"
+      "/images/products/consoles/icecat-sony-sony-playstation-5-825gb-standart-blu-ray-oyun-konsolu-cfi-1015a-430620.jpg",
+      "/images/products/consoles/icecat-sony-sony-playstation-5-825gb-standart-blu-ray-oyun-konsolu-cfi-1015a-430620-1.jpg",
+      "/images/products/consoles/icecat-sony-sony-playstation-5-825gb-standart-blu-ray-oyun-konsolu-cfi-1015a-430620-2.jpg",
+      "/images/products/consoles/icecat-sony-sony-playstation-5-825gb-standart-blu-ray-oyun-konsolu-cfi-1015a-430620-3.jpg"
     ],
     "highlights": [
       "825 GB Özel Ultra Hızlı NVMe SSD (5.5 GB/s Ham Veri Okuma Hızı)",
@@ -538,9 +541,12 @@ export const mockConsoles: Product[] = [
     "releaseYear": 2020,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/consoles/568287.jpg",
+    "image": "/images/products/consoles/icecat-sony-sony-playstation-5-digital-edition-825gb-oyun-konsolu-cfi-1015b-568287.jpg",
     "images": [
-      "/images/consoles/568287.jpg"
+      "/images/products/consoles/icecat-sony-sony-playstation-5-digital-edition-825gb-oyun-konsolu-cfi-1015b-568287.jpg",
+      "/images/products/consoles/icecat-sony-sony-playstation-5-digital-edition-825gb-oyun-konsolu-cfi-1015b-568287-1.jpg",
+      "/images/products/consoles/icecat-sony-sony-playstation-5-digital-edition-825gb-oyun-konsolu-cfi-1015b-568287-2.jpg",
+      "/images/products/consoles/icecat-sony-sony-playstation-5-digital-edition-825gb-oyun-konsolu-cfi-1015b-568287-3.jpg"
     ],
     "highlights": [
       "825 GB Ultra Hızlı SSD Depolama ile Sıfıra Yakın Yükleme Süreleri",
