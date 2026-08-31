@@ -4559,8 +4559,7 @@ export const mockTVs: Product[] = [
     },
     "epeyScore": 61,
     "images": [
-      "/images/products/tvs/icecat-lg-75-75nu900b6la-75-inc.jpg",
-      "/images/products/tvs/lg-75-75nu900b6la.jpg"
+      "/images/products/tvs/icecat-lg-75-75nu900b6la-75-inc.jpg"
     ]
   },
   {
@@ -4673,8 +4672,7 @@ export const mockTVs: Product[] = [
     },
     "epeyScore": 59,
     "images": [
-      "/images/products/tvs/icecat-lg-65-65nu900b6la-65-inc.jpg",
-      "/images/products/tvs/lg-65-65nu900b6la.jpg"
+      "/images/products/tvs/icecat-lg-65-65nu900b6la-65-inc.jpg"
     ]
   },
   {
@@ -4787,8 +4785,7 @@ export const mockTVs: Product[] = [
     },
     "epeyScore": 57,
     "images": [
-      "/images/products/tvs/icecat-lg-55-55nu900b6la-55-inc.jpg",
-      "/images/products/tvs/lg-55-55nu900b6la.jpg"
+      "/images/products/tvs/icecat-lg-55-55nu900b6la-55-inc.jpg"
     ]
   },
   {
@@ -19169,7 +19166,7 @@ export const mockTVs: Product[] = [
     "isPopular": true,
     "rating": 4.9,
     "reviewCount": 495,
-    "image": "/images/products/tvs/tv-tcl-75-75q7dpro-75-inc.jpg",
+    "image": "/images/products/tvs/icecat-tcl-75-75q7dpro-75-inc.jpg",
     "highlights": [
       "%100'e Varan BT.2020 Tüm Sahnelerde Geniş Renk Gamı",
       "760 Hassas Karartma Bölgesi",
@@ -19342,7 +19339,9 @@ export const mockTVs: Product[] = [
       "energyClass": "G"
     },
     "images": [
-      "/images/products/tvs/tv-tcl-75-75q7dpro-75-inc.jpg"
+      "/images/products/tvs/icecat-tcl-75-75q7dpro-75-inc.jpg",
+      "/images/products/tvs/icecat-tcl-75-75q7dpro-75-inc-1.jpg",
+      "/images/products/tvs/icecat-tcl-75-75q7dpro-75-inc-2.jpg"
     ],
     "epeyScore": 99
   },
@@ -19358,7 +19357,7 @@ export const mockTVs: Product[] = [
     "isPopular": true,
     "rating": 4.7,
     "reviewCount": 435,
-    "image": "/images/products/tvs/tv-tcl-65-65q7dpro-65-inc.jpg",
+    "image": "/images/products/tvs/icecat-tcl-65-65q7dpro-65-inc.jpg",
     "highlights": [
       "%100'e Varan BT.2020 Tüm Sahnelerde Geniş Renk Gamı",
       "646 Hassas Karartma Bölgesi",
@@ -19531,7 +19530,9 @@ export const mockTVs: Product[] = [
       "energyClass": "G"
     },
     "images": [
-      "/images/products/tvs/tv-tcl-65-65q7dpro-65-inc.jpg"
+      "/images/products/tvs/icecat-tcl-65-65q7dpro-65-inc.jpg",
+      "/images/products/tvs/icecat-tcl-65-65q7dpro-65-inc-1.jpg",
+      "/images/products/tvs/icecat-tcl-65-65q7dpro-65-inc-2.jpg"
     ],
     "epeyScore": 97
   },
@@ -19547,7 +19548,7 @@ export const mockTVs: Product[] = [
     "isPopular": false,
     "rating": 4.7,
     "reviewCount": 375,
-    "image": "/images/products/tvs/tv-tcl-55-55q7dpro-55-inc.jpg",
+    "image": "/images/products/tvs/icecat-tcl-55-55q7dpro-55-inc.jpg",
     "highlights": [
       "%100'e Varan BT.2020 Tüm Sahnelerde Geniş Renk Gamı",
       "480 Hassas Karartma Bölgesi",
@@ -19720,7 +19721,9 @@ export const mockTVs: Product[] = [
       "energyClass": "G"
     },
     "images": [
-      "/images/products/tvs/tv-tcl-55-55q7dpro-55-inc.jpg"
+      "/images/products/tvs/icecat-tcl-55-55q7dpro-55-inc.jpg",
+      "/images/products/tvs/icecat-tcl-55-55q7dpro-55-inc-1.jpg",
+      "/images/products/tvs/icecat-tcl-55-55q7dpro-55-inc-2.jpg"
     ],
     "epeyScore": 95
   },
@@ -66624,7 +66627,8 @@ export const mockTVs: Product[] = [
     "category": "tvs",
     "image": "/images/products/tvs/icecat-philips-85mled910.jpg",
     "images": [
-      "/images/products/tvs/icecat-philips-85mled910.jpg"
+      "/images/products/tvs/icecat-philips-85mled910.jpg",
+      "/images/products/tvs/icecat-philips-85mled910-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 29,
@@ -66721,7 +66725,8 @@ export const mockTVs: Product[] = [
     "category": "tvs",
     "image": "/images/products/tvs/icecat-philips-65mled950.jpg",
     "images": [
-      "/images/products/tvs/icecat-philips-65mled950.jpg"
+      "/images/products/tvs/icecat-philips-65mled950.jpg",
+      "/images/products/tvs/icecat-philips-65mled950-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 32,
