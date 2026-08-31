@@ -223,51 +223,8 @@ export function Navbar() {
             )}
           </div>
 
-          {/* Right Actions: Mascot & Language */}
-          <div className="shrink-0 flex items-center justify-end gap-3 sm:gap-4">
-
-            {/* 🚀 DİNAMİK ANTI-GRAVITY SÜZÜLEN MASKOT (ACTIVE AI ASSISTANT) */}
-            <motion.div
-              animate={{
-                y: [0, -6, 0],
-                rotate: [0, -1.5, 0, 1.5, 0],
-              }}
-              transition={{
-                duration: 3.2,
-                repeat: Infinity,
-                ease: "easeInOut"
-              }}
-              className="relative flex items-center group cursor-pointer"
-              title="aceleEtme Akıllı Asistanı: Fiyatları Canlı Tarıyorum!"
-            >
-              {/* Bioluminescent Pulsating Energy Halo Underglow */}
-              <div className="absolute -bottom-1 left-1/2 -translate-x-1/2 w-8 h-2.5 bg-gradient-to-r from-emerald-400 via-cyan-400 to-teal-400 rounded-full blur-xs opacity-70 animate-pulse pointer-events-none" />
-
-              {/* The Floating Mascot Character */}
-              <div className="relative z-10 w-11 h-11 sm:w-12 sm:h-12 rounded-2xl p-0.5 flex items-center justify-center filter drop-shadow-md">
-                <img
-                  src="/emblem.png"
-                  alt="aceleEtme Anti-Gravity Asistanı"
-                  className="w-full h-full object-contain"
-                />
-                
-                {/* Live Status Pulse Dot */}
-                <span className="absolute -top-0.5 -right-0.5 flex h-2.5 w-2.5">
-                  <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
-                  <span className="relative inline-flex rounded-full h-2.5 w-2.5 bg-emerald-500 border border-white dark:border-slate-900"></span>
-                </span>
-              </div>
-
-              {/* Interactive Hover Speech Bubble */}
-              <div className="hidden group-hover:flex absolute top-full right-0 mt-2 w-48 bg-slate-900 dark:bg-slate-950 text-white text-[11px] p-2.5 rounded-2xl shadow-2xl border border-slate-700 flex-col gap-0.5 z-50 animate-in fade-in zoom-in-95 pointer-events-none">
-                <span className="font-extrabold text-emerald-400 flex items-center gap-1">
-                  <span>⚡</span> Fiyat Avcısı Aktif
-                </span>
-                <span className="text-slate-300 text-[10px] leading-tight font-medium">
-                  8 büyük mağazayı yerçekimsiz radarla canlı tarıyorum!
-                </span>
-              </div>
-            </motion.div>
+          {/* Right Actions: Language / Settings */}
+          <div className="w-52 sm:w-64 shrink-0 flex items-center justify-end gap-2">
 
             {/* Language / Region Selector Pill (TR) */}
             <div className="relative">
