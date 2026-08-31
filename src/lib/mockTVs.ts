@@ -28406,9 +28406,9 @@ export const mockTVs: Product[] = [
     "name": "Vestel 75UG9750 75\" 4K Ultra HD Android Smart TV (2025)",
     "brand": "Vestel",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/vestel-75ug9750-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/vestel-75ug9750-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 18,
@@ -28510,9 +28510,9 @@ export const mockTVs: Product[] = [
     "name": "Vestel 55QG9950 55\" 4K Ultra HD QLED Android Smart TV (2025)",
     "brand": "Vestel",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/vestel-55qg9950-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/vestel-55qg9950-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 24,
@@ -28596,9 +28596,9 @@ export const mockTVs: Product[] = [
     "name": "Vestel 65UG9750 65\" 4K Ultra HD Android Smart TV (2025)",
     "brand": "Vestel",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/vestel-65ug9750-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/vestel-65ug9750-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 31,
@@ -28695,9 +28695,9 @@ export const mockTVs: Product[] = [
     "name": "Vestel 75UV9750 75\" 4K Ultra HD TiVo Smart TV (2025)",
     "brand": "Vestel",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/vestel-75uv9750-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/vestel-75uv9750-1.jpg"
     ],
     "rating": 4.5,
     "reviewCount": 14,
@@ -28778,9 +28778,9 @@ export const mockTVs: Product[] = [
     "name": "Vestel 65QT9850 65\" 4K Ultra HD QLED TiVo Smart TV (2025)",
     "brand": "Vestel",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/vestel-65qt9850-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/vestel-65qt9850-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 22,
@@ -28878,9 +28878,9 @@ export const mockTVs: Product[] = [
     "name": "Vestel 55UG9750 55\" 4K Ultra HD Android Smart TV (2025)",
     "brand": "Vestel",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/vestel-55ug9750-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/vestel-55ug9750-1.jpg"
     ],
     "rating": 4.5,
     "reviewCount": 29,
@@ -28962,9 +28962,9 @@ export const mockTVs: Product[] = [
     "name": "Vestel 65UT9850 65\" 4K Ultra HD TiVo Smart TV (2025)",
     "brand": "Vestel",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/vestel-65ut9850-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/vestel-65ut9850-1.jpg"
     ],
     "rating": 4.5,
     "reviewCount": 16,
@@ -29045,9 +29045,9 @@ export const mockTVs: Product[] = [
     "name": "Vestel 65UV9750 65\" 4K Ultra HD TiVo Smart TV (2025)",
     "brand": "Vestel",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/vestel-65uv9750-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/vestel-65uv9750-1.jpg"
     ],
     "rating": 4.5,
     "reviewCount": 20,
@@ -29128,9 +29128,9 @@ export const mockTVs: Product[] = [
     "name": "Vestel 65UT9760 65\" 4K Ultra HD TiVo Smart TV (2026)",
     "brand": "Vestel",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/vestel-65ut9760-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/vestel-65ut9760-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 12,
@@ -29213,9 +29213,9 @@ export const mockTVs: Product[] = [
     "name": "Vestel 55QT9850 55\" 4K Ultra HD QLED TiVo Smart TV (2025)",
     "brand": "Vestel",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/vestel-55qt9850-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/vestel-55qt9850-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 35,
@@ -29313,9 +29313,9 @@ export const mockTVs: Product[] = [
     "name": "Vestel 50UG9750 50\" 4K Ultra HD Android Smart TV (2025)",
     "brand": "Vestel",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/vestel-50ug9750-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/vestel-50ug9750-1.jpg"
     ],
     "rating": 4.5,
     "reviewCount": 22,
@@ -29397,9 +29397,9 @@ export const mockTVs: Product[] = [
     "name": "Vestel 50QT9850 50\" 4K Ultra HD QLED TiVo Smart TV (2025)",
     "brand": "Vestel",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/vestel-50qt9850-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/vestel-50qt9850-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 15,
@@ -29481,9 +29481,9 @@ export const mockTVs: Product[] = [
     "name": "Vestel 58UT9850 58\" 4K Ultra HD TiVo Smart TV (2025)",
     "brand": "Vestel",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/vestel-58ut9850-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/vestel-58ut9850-1.jpg"
     ],
     "rating": 4.5,
     "reviewCount": 19,
@@ -29564,9 +29564,9 @@ export const mockTVs: Product[] = [
     "name": "Vestel 55UT9760 55\" 4K Ultra HD TiVo Smart TV (2026)",
     "brand": "Vestel",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/vestel-55ut9760-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/vestel-55ut9760-1.jpg"
     ],
     "rating": 4.5,
     "reviewCount": 14,
@@ -29649,9 +29649,9 @@ export const mockTVs: Product[] = [
     "name": "Vestel 55UV9750 55\" 4K Ultra HD TiVo Smart TV (2025)",
     "brand": "Vestel",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/vestel-55uv9750-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/vestel-55uv9750-1.jpg"
     ],
     "rating": 4.5,
     "reviewCount": 20,
@@ -29732,9 +29732,9 @@ export const mockTVs: Product[] = [
     "name": "Vestel 43UG9750 43\" 4K Ultra HD Android Smart TV (2025)",
     "brand": "Vestel",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/vestel-43ug9750-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/vestel-43ug9750-1.jpg"
     ],
     "rating": 4.4,
     "reviewCount": 18,
@@ -29815,9 +29815,9 @@ export const mockTVs: Product[] = [
     "name": "Vestel 50UT9760 50\" 4K Ultra HD TiVo Smart TV (2026)",
     "brand": "Vestel",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/vestel-50ut9760-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/vestel-50ut9760-1.jpg"
     ],
     "rating": 4.5,
     "reviewCount": 11,
@@ -29899,9 +29899,9 @@ export const mockTVs: Product[] = [
     "name": "Vestel 50UT9850 50\" 4K Ultra HD TiVo Smart TV (2025)",
     "brand": "Vestel",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/vestel-50ut9850-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/vestel-50ut9850-1.jpg"
     ],
     "rating": 4.5,
     "reviewCount": 17,
@@ -29982,9 +29982,9 @@ export const mockTVs: Product[] = [
     "name": "Vestel 50UV9750 50\" 4K Ultra HD TiVo Smart TV (2025)",
     "brand": "Vestel",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/vestel-50uv9750-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/vestel-50uv9750-1.jpg"
     ],
     "rating": 4.5,
     "reviewCount": 19,
@@ -30065,9 +30065,9 @@ export const mockTVs: Product[] = [
     "name": "Vestel 43UV9750 43\" 4K Ultra HD TiVo Smart TV (2025)",
     "brand": "Vestel",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/vestel-43uv9750-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/vestel-43uv9750-1.jpg"
     ],
     "rating": 4.4,
     "reviewCount": 16,
@@ -30148,9 +30148,9 @@ export const mockTVs: Product[] = [
     "name": "Vestel 43UT9760 43\" 4K Ultra HD TiVo Smart TV (2026)",
     "brand": "Vestel",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/vestel-43ut9760-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/vestel-43ut9760-1.jpg"
     ],
     "rating": 4.4,
     "reviewCount": 9,
@@ -30232,9 +30232,9 @@ export const mockTVs: Product[] = [
     "name": "Vestel 43FT9751 43\" Full HD TiVo Smart TV (2026)",
     "brand": "Vestel",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/vestel-43ft9751-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/vestel-43ft9751-1.jpg"
     ],
     "rating": 4.3,
     "reviewCount": 11,
@@ -30314,9 +30314,9 @@ export const mockTVs: Product[] = [
     "name": "Vestel 43FV9750 43\" Full HD VIDAA Smart TV (2025)",
     "brand": "Vestel",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/vestel-43fv9750-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/vestel-43fv9750-1.jpg"
     ],
     "rating": 4.3,
     "reviewCount": 14,
@@ -30395,9 +30395,9 @@ export const mockTVs: Product[] = [
     "name": "Vestel 40FV9750 40\" Full HD VIDAA Smart TV (2025)",
     "brand": "Vestel",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/vestel-40fv9750-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/vestel-40fv9750-1.jpg"
     ],
     "rating": 4.3,
     "reviewCount": 16,
@@ -30476,9 +30476,9 @@ export const mockTVs: Product[] = [
     "name": "Vestel 40FT9760 40\" Full HD TiVo Smart TV (2026)",
     "brand": "Vestel",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/vestel-40ft9760-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/vestel-40ft9760-1.jpg"
     ],
     "rating": 4.4,
     "reviewCount": 14,
@@ -30625,9 +30625,9 @@ export const mockTVs: Product[] = [
     "name": "Vestel 32FA9950L 32\" Full HD Android Smart TV (2025)",
     "brand": "Vestel",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/vestel-32fa9950l-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/vestel-32fa9950l-1.jpg"
     ],
     "rating": 4.3,
     "reviewCount": 9,
@@ -30731,9 +30731,9 @@ export const mockTVs: Product[] = [
     "name": "Vestel 32FA9950B 32\" Full HD Beyaz Android Smart TV (2025)",
     "brand": "Vestel",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/vestel-32fa9950b-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/vestel-32fa9950b-1.jpg"
     ],
     "rating": 4.3,
     "reviewCount": 11,
@@ -30851,9 +30851,9 @@ export const mockTVs: Product[] = [
     "name": "Vestel 32FA9950Y 32\" Full HD Android Smart TV (2025)",
     "brand": "Vestel",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/vestel-32fa9950y-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/vestel-32fa9950y-1.jpg"
     ],
     "rating": 4.3,
     "reviewCount": 7,
@@ -30970,9 +30970,9 @@ export const mockTVs: Product[] = [
     "name": "Vestel 32FV9750 32\" Full HD VIDAA Smart TV (2025)",
     "brand": "Vestel",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/vestel-32fv9750-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/vestel-32fv9750-1.jpg"
     ],
     "rating": 4.2,
     "reviewCount": 8,
@@ -31089,9 +31089,9 @@ export const mockTVs: Product[] = [
     "name": "Vestel 24HA9950M 24\" HD Android Smart TV Mavi (2025)",
     "brand": "Vestel",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/vestel-24ha9950m-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/vestel-24ha9950m-1.jpg"
     ],
     "rating": 4.1,
     "reviewCount": 6,
@@ -31218,9 +31218,9 @@ export const mockTVs: Product[] = [
     "name": "Vestel 24HA9950Y 24\" HD Android Smart TV Yeşil (2025)",
     "brand": "Vestel",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/vestel-24ha9950y-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/vestel-24ha9950y-1.jpg"
     ],
     "rating": 4.1,
     "reviewCount": 5,
@@ -31319,9 +31319,9 @@ export const mockTVs: Product[] = [
     "name": "Vestel 24HA9950S 24\" HD Android Smart TV Sarı (2025)",
     "brand": "Vestel",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/vestel-24ha9950s-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/vestel-24ha9950s-1.jpg"
     ],
     "rating": 4.1,
     "reviewCount": 4,
@@ -31448,9 +31448,9 @@ export const mockTVs: Product[] = [
     "name": "Vestel 32HV9750 32\" HD VIDAA Smart TV (2025)",
     "brand": "Vestel",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/vestel-32hv9750-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/vestel-32hv9750-1.jpg"
     ],
     "rating": 4.1,
     "reviewCount": 8,
@@ -31565,9 +31565,9 @@ export const mockTVs: Product[] = [
     "name": "Vestel 32HT9760 32\" HD TiVo Smart TV (2026)",
     "brand": "Vestel",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/vestel-32ht9760-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/vestel-32ht9760-1.jpg"
     ],
     "rating": 4,
     "reviewCount": 6,
@@ -31696,9 +31696,9 @@ export const mockTVs: Product[] = [
     "name": "Vestel 32HT9150 32\" HD TiVo Smart TV (2025)",
     "brand": "Vestel",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/vestel-32ht9150-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/vestel-32ht9150-1.jpg"
     ],
     "rating": 4,
     "reviewCount": 15,
@@ -31841,9 +31841,9 @@ export const mockTVs: Product[] = [
     "name": "Vestel 40F8750 40\" Full HD LED TV (2025)",
     "brand": "Vestel",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/vestel-40f8750-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/vestel-40f8750-1.jpg"
     ],
     "rating": 3.8,
     "reviewCount": 12,
@@ -31970,9 +31970,9 @@ export const mockTVs: Product[] = [
     "name": "Vestel 65OG9950 65\" 4K Ultra HD 120Hz OLED Android TV (2025)",
     "brand": "Vestel",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/vestel-65og9950-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/vestel-65og9950-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 22,
@@ -32096,9 +32096,9 @@ export const mockTVs: Product[] = [
     "name": "Vestel 55OG9950 55\" 4K Ultra HD 120Hz OLED Android TV (2025)",
     "brand": "Vestel",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/vestel-55og9950-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/vestel-55og9950-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 19,
@@ -32222,9 +32222,9 @@ export const mockTVs: Product[] = [
     "name": "Vestel 65QMG9950 65\" 4K Mini LED Android TV (2025)",
     "brand": "Vestel",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/vestel-65qmg9950-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/vestel-65qmg9950-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 16,
@@ -32347,9 +32347,9 @@ export const mockTVs: Product[] = [
     "name": "Vestel 65QG9960 65\" 4K QLED Android TV (2026)",
     "brand": "Vestel",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/vestel-65qg9960-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/vestel-65qg9960-1.jpg"
     ],
     "rating": 4.5,
     "reviewCount": 14,
@@ -32469,9 +32469,9 @@ export const mockTVs: Product[] = [
     "name": "Vestel 65QG9950 (20300357) 65\" 4K QLED Android TV (2025)",
     "brand": "Vestel",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/vestel-65qg9950-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/vestel-65qg9950-1.jpg"
     ],
     "rating": 4,
     "reviewCount": 2,
@@ -32595,9 +32595,9 @@ export const mockTVs: Product[] = [
     "name": "Vestel 55QG9960 55\" 4K QLED Android TV (2026)",
     "brand": "Vestel",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/vestel-55qg9960-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/vestel-55qg9960-1.jpg"
     ],
     "rating": 4.4,
     "reviewCount": 12,
@@ -32717,9 +32717,9 @@ export const mockTVs: Product[] = [
     "name": "Vestel 75QT9850 75\" 4K QLED TiVo Smart TV (2025)",
     "brand": "Vestel",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/vestel-75qt9850-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/vestel-75qt9850-1.jpg"
     ],
     "rating": 4.5,
     "reviewCount": 16,
@@ -32839,9 +32839,9 @@ export const mockTVs: Product[] = [
     "name": "Vestel 65UG9760 65\" 4K Android Smart TV (2026)",
     "brand": "Vestel",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/vestel-65ug9760-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/vestel-65ug9760-1.jpg"
     ],
     "rating": 4.3,
     "reviewCount": 10,
@@ -32959,9 +32959,9 @@ export const mockTVs: Product[] = [
     "name": "Vestel 55UG9760 55\" 4K Android Smart TV (2026)",
     "brand": "Vestel",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/vestel-55ug9760-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/vestel-55ug9760-1.jpg"
     ],
     "rating": 4.3,
     "reviewCount": 9,
@@ -33079,9 +33079,9 @@ export const mockTVs: Product[] = [
     "name": "Vestel 50UG9760 50\" 4K Android Smart TV (2026)",
     "brand": "Vestel",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/vestel-50ug9760-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/vestel-50ug9760-1.jpg"
     ],
     "rating": 4.2,
     "reviewCount": 11,
@@ -33199,9 +33199,9 @@ export const mockTVs: Product[] = [
     "name": "Vestel 55UT9850 55\" 4K TiVo Smart TV (2025)",
     "brand": "Vestel",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/vestel-55ut9850-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/vestel-55ut9850-1.jpg"
     ],
     "rating": 4.2,
     "reviewCount": 14,
@@ -33320,9 +33320,9 @@ export const mockTVs: Product[] = [
     "name": "Vestel 43UG9760 43\" 4K Android Smart TV (2026)",
     "brand": "Vestel",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/vestel-43ug9760-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/vestel-43ug9760-1.jpg"
     ],
     "rating": 4.2,
     "reviewCount": 8,
@@ -33440,9 +33440,9 @@ export const mockTVs: Product[] = [
     "name": "Vestel 32H8750 (20300384) 32\" HD LED TV (2025)",
     "brand": "Vestel",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/vestel-32h8750-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/vestel-32h8750-1.jpg"
     ],
     "rating": 3.9,
     "reviewCount": 7,
@@ -33556,9 +33556,9 @@ export const mockTVs: Product[] = [
     "name": "Vestel 24H8750 (20300385) 24\" HD LED TV (2025)",
     "brand": "Vestel",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/vestel-24h8750-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/vestel-24h8750-1.jpg"
     ],
     "rating": 3.8,
     "reviewCount": 5,
@@ -33672,9 +33672,9 @@ export const mockTVs: Product[] = [
     "name": "Vestel 65UA9740 (20278806) 65\" 4K Android TV (2024)",
     "brand": "Vestel",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/vestel-65ua9740-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/vestel-65ua9740-1.jpg"
     ],
     "rating": 4.1,
     "reviewCount": 14,
@@ -33781,9 +33781,9 @@ export const mockTVs: Product[] = [
     "name": "Vestel 65UA9540 (20278445) 65\" 4K Android TV (2024)",
     "brand": "Vestel",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/vestel-65ua9540-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/vestel-65ua9540-1.jpg"
     ],
     "rating": 4,
     "reviewCount": 9,
@@ -33873,9 +33873,9 @@ export const mockTVs: Product[] = [
     "name": "Vestel 70UT9740 (20278809) 70\" 4K TiVo Smart TV (2024)",
     "brand": "Vestel",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/vestel-70ut9740-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/vestel-70ut9740-1.jpg"
     ],
     "rating": 4.2,
     "reviewCount": 11,
@@ -33982,9 +33982,9 @@ export const mockTVs: Product[] = [
     "name": "Vestel 50QG9840 (20278786) 50\" 4K QLED Android TV (2024)",
     "brand": "Vestel",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/vestel-50qg9840-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/vestel-50qg9840-1.jpg"
     ],
     "rating": 4.2,
     "reviewCount": 16,
@@ -34092,9 +34092,9 @@ export const mockTVs: Product[] = [
     "name": "Vestel 58UA9740 (20278798) 58\" 4K Android TV (2024)",
     "brand": "Vestel",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/vestel-58ua9740-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/vestel-58ua9740-1.jpg"
     ],
     "rating": 4.1,
     "reviewCount": 12,
@@ -34186,9 +34186,9 @@ export const mockTVs: Product[] = [
     "name": "Vestel 50QA9701 (20278695) 50\" 4K QLED Android TV (2024)",
     "brand": "Vestel",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/vestel-50qa9701-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/vestel-50qa9701-1.jpg"
     ],
     "rating": 4.1,
     "reviewCount": 15,
@@ -34295,9 +34295,9 @@ export const mockTVs: Product[] = [
     "name": "Vestel 55UA9740 (20278797) 55\" 4K Android TV (2024)",
     "brand": "Vestel",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/vestel-55ua9740-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/vestel-55ua9740-1.jpg"
     ],
     "rating": 4.1,
     "reviewCount": 18,
@@ -34404,9 +34404,9 @@ export const mockTVs: Product[] = [
     "name": "Vestel 65UT9840 (20278804) 65\" 4K TiVo Smart TV (2024)",
     "brand": "Vestel",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/vestel-65ut9840-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/vestel-65ut9840-1.jpg"
     ],
     "rating": 4.2,
     "reviewCount": 13,
@@ -34498,9 +34498,9 @@ export const mockTVs: Product[] = [
     "name": "Vestel 65UT9740 (20278803) 65\" 4K TiVo Smart TV (2024)",
     "brand": "Vestel",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/vestel-65ut9740-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/vestel-65ut9740-1.jpg"
     ],
     "rating": 4.1,
     "reviewCount": 10,
@@ -34592,9 +34592,9 @@ export const mockTVs: Product[] = [
     "name": "Vestel 55UA9540 (20278443) 55\" 4K Android TV (2024)",
     "brand": "Vestel",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/vestel-55ua9540-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/vestel-55ua9540-1.jpg"
     ],
     "rating": 4,
     "reviewCount": 11,
@@ -34684,9 +34684,9 @@ export const mockTVs: Product[] = [
     "name": "Vestel 50UA9740 (20278789) 50\" 4K Android TV (2024)",
     "brand": "Vestel",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/vestel-50ua9740-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/vestel-50ua9740-1.jpg"
     ],
     "rating": 4.1,
     "reviewCount": 14,
@@ -34793,9 +34793,9 @@ export const mockTVs: Product[] = [
     "name": "Vestel 50UT9740 (20278787) 50\" 4K TiVo Smart TV (2024)",
     "brand": "Vestel",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/vestel-50ut9740-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/vestel-50ut9740-1.jpg"
     ],
     "rating": 4,
     "reviewCount": 9,
@@ -34901,9 +34901,9 @@ export const mockTVs: Product[] = [
     "name": "Vestel 43FA9740 (20278781) 43\" Full HD Android TV (2024)",
     "brand": "Vestel",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/vestel-43fa9740-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/vestel-43fa9740-1.jpg"
     ],
     "rating": 4.1,
     "reviewCount": 14,
@@ -34994,9 +34994,9 @@ export const mockTVs: Product[] = [
     "name": "Vestel 40FA9740 (20278778) 40\" Full HD Android TV (2024)",
     "brand": "Vestel",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/vestel-40fa9740-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/vestel-40fa9740-1.jpg"
     ],
     "rating": 4,
     "reviewCount": 16,
@@ -35100,9 +35100,9 @@ export const mockTVs: Product[] = [
     "name": "Vestel 40FT9740 (20278777) 40\" Full HD TiVo Smart TV (2024)",
     "brand": "Vestel",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/vestel-40ft9740-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/vestel-40ft9740-1.jpg"
     ],
     "rating": 3.9,
     "reviewCount": 8,
@@ -35192,9 +35192,9 @@ export const mockTVs: Product[] = [
     "name": "Vestel 32HT9740 (20278776) 32\" HD TiVo Smart TV (2024)",
     "brand": "Vestel",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/vestel-32ht9740-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/vestel-32ht9740-1.jpg"
     ],
     "rating": 4,
     "reviewCount": 11,
@@ -35284,9 +35284,9 @@ export const mockTVs: Product[] = [
     "name": "Vestel 24HA9530G (20277937) 24\" HD Android TV (2024)",
     "brand": "Vestel",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/vestel-24ha9530g-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/vestel-24ha9530g-1.jpg"
     ],
     "rating": 3.9,
     "reviewCount": 7,
@@ -35373,9 +35373,9 @@ export const mockTVs: Product[] = [
     "name": "Vestel 32H9530T (20278747) 32\" HD LED TV (2024)",
     "brand": "Vestel",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/vestel-32h9530t-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/vestel-32h9530t-1.jpg"
     ],
     "rating": 3.9,
     "reviewCount": 6,
@@ -35460,9 +35460,9 @@ export const mockTVs: Product[] = [
     "name": "Vestel 32H9530M (20277946) 32\" HD LED TV Mavi (2024)",
     "brand": "Vestel",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/vestel-32h9530m-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/vestel-32h9530m-1.jpg"
     ],
     "rating": 3.9,
     "reviewCount": 5,
@@ -35547,9 +35547,9 @@ export const mockTVs: Product[] = [
     "name": "Vestel 32H9530Y (20277948) 32\" HD LED TV Yeşil (2024)",
     "brand": "Vestel",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/vestel-32h9530y-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/vestel-32h9530y-1.jpg"
     ],
     "rating": 3.9,
     "reviewCount": 5,
@@ -35634,9 +35634,9 @@ export const mockTVs: Product[] = [
     "name": "Vestel 24H8740 (20278772) 24\" HD LED TV (2024)",
     "brand": "Vestel",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/vestel-24h8740-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/vestel-24h8740-1.jpg"
     ],
     "rating": 3.8,
     "reviewCount": 4,
@@ -35721,9 +35721,9 @@ export const mockTVs: Product[] = [
     "name": "Vestel 43F8740 (20278779) 43\" Full HD LED TV (2024)",
     "brand": "Vestel",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/vestel-43f8740-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/vestel-43f8740-1.jpg"
     ],
     "rating": 3.9,
     "reviewCount": 6,
@@ -35808,9 +35808,9 @@ export const mockTVs: Product[] = [
     "name": "Vestel 65QMG9940 (20278807) 65\" 4K Mini LED Android TV (2024)",
     "brand": "Vestel",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/vestel-65qmg9940-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/vestel-65qmg9940-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 22,
@@ -35906,9 +35906,9 @@ export const mockTVs: Product[] = [
     "name": "Vestel 75QG9840 (20278823) 75\" 4K QLED Android TV (2024)",
     "brand": "Vestel",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/vestel-75qg9840-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/vestel-75qg9840-1.jpg"
     ],
     "rating": 4.5,
     "reviewCount": 19,
@@ -36003,9 +36003,9 @@ export const mockTVs: Product[] = [
     "name": "Samsung 115MR95 (MRE115MR95FXTK) 115\" 4K Micro LED Smart TV (2026)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/samsung-115mr95-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/samsung-115mr95-1.jpg"
     ],
     "rating": 4.9,
     "reviewCount": 8,
@@ -37504,9 +37504,9 @@ export const mockTVs: Product[] = [
     "name": "Samsung 85R95H (MRE85R95HATXTK) 85\" 4K The Frame Pro Smart TV (2026)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/samsung-85r95h-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/samsung-85r95h-1.jpg"
     ],
     "rating": 4.9,
     "reviewCount": 12,
@@ -38441,9 +38441,9 @@ export const mockTVs: Product[] = [
     "name": "Samsung 75R95H (MRE75R95HATXTK) 75\" 4K The Frame Pro Smart TV (2026)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/samsung-75r95h-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/samsung-75r95h-1.jpg"
     ],
     "rating": 4.9,
     "reviewCount": 18,
@@ -39068,9 +39068,9 @@ export const mockTVs: Product[] = [
     "name": "Samsung 65R95H (MRE65R95HATXTK) 65\" 4K The Frame Pro Smart TV (2026)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/samsung-65r95h-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/samsung-65r95h-1.jpg"
     ],
     "rating": 4.9,
     "reviewCount": 22,
@@ -40100,9 +40100,9 @@ export const mockTVs: Product[] = [
     "name": "Samsung 85R85H (MRE85R85HAUXTK) 85\" 4K The Frame Smart TV (2026)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/samsung-85r85h-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/samsung-85r85h-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 17,
@@ -41051,9 +41051,9 @@ export const mockTVs: Product[] = [
     "name": "Samsung 75QN80F (QE75QN80FAUXTK) 75\" 4K Neo QLED Smart TV (2025)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/samsung-75qn80f-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/samsung-75qn80f-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 18,
@@ -41262,9 +41262,9 @@ export const mockTVs: Product[] = [
     "name": "Samsung 48S90F (QE48S90FAEXTK) 48\" 4K OLED Smart TV (2025)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/samsung-48s90f-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/samsung-48s90f-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 28,
@@ -41360,9 +41360,9 @@ export const mockTVs: Product[] = [
     "name": "Samsung 75R85H (MRE75R85HAUXTK) 75\" 4K The Frame Smart TV (2026)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/samsung-75r85h-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/samsung-75r85h-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 19,
@@ -42019,9 +42019,9 @@ export const mockTVs: Product[] = [
     "name": "Samsung 65R85H (MRE65R85HAUXTK) 65\" 4K The Frame Smart TV (2026)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/samsung-65r85h-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/samsung-65r85h-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 25,
@@ -42968,9 +42968,9 @@ export const mockTVs: Product[] = [
     "name": "Samsung 55QN80F (QE55QN80FAUXTK) 55\" 4K Neo QLED Smart TV (2025)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/samsung-55qn80f-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/samsung-55qn80f-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 33,
@@ -43080,9 +43080,9 @@ export const mockTVs: Product[] = [
     "name": "Samsung 55R85H (MRE55R85HAUXTK) 55\" 4K The Frame Smart TV (2026)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/samsung-55r85h-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/samsung-55r85h-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 26,
@@ -43850,9 +43850,9 @@ export const mockTVs: Product[] = [
     "name": "Samsung 65LS03F (QE65LS03FWUXTK) 65\" 4K The Frame Sanat TV (2025)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/samsung-65ls03f-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/samsung-65ls03f-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 29,
@@ -44924,9 +44924,9 @@ export const mockTVs: Product[] = [
     "name": "Samsung 85Q8FA (QE85Q8FAAUXTK) 85\" 4K QLED Smart TV (2025)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/samsung-85q8fa-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/samsung-85q8fa-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 21,
@@ -45649,9 +45649,9 @@ export const mockTVs: Product[] = [
     "name": "Samsung 75Q8FA (QE75Q8FAAUXTK) 75\" 4K QLED Smart TV (2025)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/samsung-75q8fa-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/samsung-75q8fa-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 28,
@@ -46192,9 +46192,9 @@ export const mockTVs: Product[] = [
     "name": "Samsung 75Q6FA (QE75Q6FAAUXTK) 75\" 4K QLED Smart TV (2025)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/samsung-75q6fa-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/samsung-75q6fa-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 22,
@@ -46511,9 +46511,9 @@ export const mockTVs: Product[] = [
     "name": "Samsung 65Q8FA (QE65Q8FAAUXTK) 65\" 4K QLED Smart TV (2025)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/samsung-65q8fa-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/samsung-65q8fa-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 30,
@@ -46736,9 +46736,9 @@ export const mockTVs: Product[] = [
     "name": "Samsung 65Q7FA (QE65Q7FAAUXTK) 65\" 4K QLED Smart TV (2025)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/samsung-65q7fa-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/samsung-65q7fa-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 34,
@@ -47040,9 +47040,9 @@ export const mockTVs: Product[] = [
     "name": "Samsung 65Q6FA (QE65Q6FAAUXTK) 65\" 4K QLED Smart TV (2025)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/samsung-65q6fa-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/samsung-65q6fa-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 36,
@@ -47357,9 +47357,9 @@ export const mockTVs: Product[] = [
     "name": "Samsung 70U8000F (UE70U8000FUXTK) 70\" 4K Crystal UHD Smart TV (2025)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/samsung-70u8000-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/samsung-70u8000-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 29,
@@ -47770,9 +47770,9 @@ export const mockTVs: Product[] = [
     "name": "Samsung 55Q8FA (QE55Q8FAAUXTK) 55\" 4K QLED Smart TV (2025)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/samsung-55q8fa-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/samsung-55q8fa-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 32,
@@ -48203,9 +48203,9 @@ export const mockTVs: Product[] = [
     "name": "Samsung 65U8200F (UE65U8200FUXTK) 65\" 4K Crystal UHD Smart TV (2025)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/samsung-65u8200f-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/samsung-65u8200f-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 28,
@@ -48505,9 +48505,9 @@ export const mockTVs: Product[] = [
     "name": "Samsung 55Q6FA (QE55Q6FAAUXTK) 55\" 4K QLED Smart TV (2025)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/samsung-55q6fa-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/samsung-55q6fa-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 42,
@@ -48808,9 +48808,9 @@ export const mockTVs: Product[] = [
     "name": "Samsung 50Q8FA (QE50Q8FAAUXTK) 50\" 4K QLED Smart TV (2025)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/samsung-50q8fa-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/samsung-50q8fa-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 35,
@@ -49031,9 +49031,9 @@ export const mockTVs: Product[] = [
     "name": "Samsung 50Q7FA (QE50Q7FAAUXTK) 50\" 4K QLED Smart TV (2025)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/samsung-50q7fa-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/samsung-50q7fa-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 38,
@@ -49143,9 +49143,9 @@ export const mockTVs: Product[] = [
     "name": "Samsung 58U8000F (UE58U8000FUXTK) 58\" 4K Crystal UHD Smart TV (2025)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/samsung-58u8000-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/samsung-58u8000-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 36,
@@ -49363,9 +49363,9 @@ export const mockTVs: Product[] = [
     "name": "Samsung 55U8200F (UE55U8200FUXTK) 55\" 4K Crystal UHD Smart TV (2025)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/samsung-55u8200f-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/samsung-55u8200f-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 39,
@@ -49965,9 +49965,9 @@ export const mockTVs: Product[] = [
     "name": "Samsung 50U8200F (UE50U8200FUXTK) 50\" 4K Crystal UHD Smart TV (2025)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/samsung-50u8200f-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/samsung-50u8200f-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 31,
@@ -50061,9 +50061,9 @@ export const mockTVs: Product[] = [
     "name": "Samsung 50U8000F (UE50U8000FUXTK) 50\" 4K Crystal UHD Smart TV (2025)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/samsung-50u8000-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/samsung-50u8000-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 46,
@@ -50361,9 +50361,9 @@ export const mockTVs: Product[] = [
     "name": "Samsung 43U8000H (UE43U8000HUXTK) 43\" 4K Crystal UHD Smart TV (2026)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/samsung-43u8000h-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/samsung-43u8000h-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 40,
@@ -50457,9 +50457,9 @@ export const mockTVs: Product[] = [
     "name": "Samsung 43U8000F (UE43U8000FUXTK) 43\" 4K Crystal UHD Smart TV (2025)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/samsung-43u8000-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/samsung-43u8000-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 44,
@@ -50567,9 +50567,9 @@ export const mockTVs: Product[] = [
     "name": "Samsung 43DU7000 (UE43DU7000USTK) 43\" 4K Crystal UHD Smart TV (2024)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/samsung-43du7000-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/samsung-43du7000-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 36,
@@ -50662,9 +50662,9 @@ export const mockTVs: Product[] = [
     "name": "Samsung 32H5000F (UE32H5000FUXTK) 32\" HD Ready Smart LED TV (2025)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/samsung-32h5000f-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/samsung-32h5000f-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 52,
@@ -50889,9 +50889,9 @@ export const mockTVs: Product[] = [
     "name": "Samsung 114MS1C (MNA114MS1CCXTK) 114\" 4K Micro LED Smart TV (2025)",
     "brand": "Samsung",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/samsung-114ms1c-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/samsung-114ms1c-1.jpg"
     ],
     "rating": 5,
     "reviewCount": 14,
@@ -51200,9 +51200,9 @@ export const mockTVs: Product[] = [
     "name": "TCL 115C7K (115C7KGTV) 115\" 4K QD-Mini LED Google TV (2025)",
     "brand": "TCL",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/tcl-115c7k-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/tcl-115c7k-1.jpg"
     ],
     "rating": 4.9,
     "reviewCount": 18,
@@ -51297,9 +51297,9 @@ export const mockTVs: Product[] = [
     "name": "TCL 85C7K (85C7KGTV) 85\" 4K QD-Mini LED Google TV (2025)",
     "brand": "TCL",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/tcl-85c7k-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/tcl-85c7k-1.jpg"
     ],
     "rating": 4.9,
     "reviewCount": 28,
@@ -51395,9 +51395,9 @@ export const mockTVs: Product[] = [
     "name": "TCL 98C755 98\" 4K QD-Mini LED Google TV (2024)",
     "brand": "TCL",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/tcl-98c755-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/tcl-98c755-1.jpg"
     ],
     "rating": 4.9,
     "reviewCount": 32,
@@ -51493,9 +51493,9 @@ export const mockTVs: Product[] = [
     "name": "TCL 98P8L (98P8LGTV) 98\" 4K QLED Google TV (2026)",
     "brand": "TCL",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/tcl-98p8l-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/tcl-98p8l-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 30,
@@ -51591,9 +51591,9 @@ export const mockTVs: Product[] = [
     "name": "TCL 98C6K (98C6KGTV) 98\" 4K QD-Mini LED Google TV (2025)",
     "brand": "TCL",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/tcl-98c6k-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/tcl-98c6k-1.jpg"
     ],
     "rating": 4.9,
     "reviewCount": 34,
@@ -51786,9 +51786,9 @@ export const mockTVs: Product[] = [
     "name": "TCL 75C8L (75C8LGTV) 75\" 4K QD-Mini LED Google TV (2026)",
     "brand": "TCL",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/tcl-75c8l-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/tcl-75c8l-1.jpg"
     ],
     "rating": 4.9,
     "reviewCount": 38,
@@ -51885,9 +51885,9 @@ export const mockTVs: Product[] = [
     "name": "TCL 75C8K 75\" 4K QD-Mini LED Google TV (2025)",
     "brand": "TCL",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/tcl-75c8k-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/tcl-75c8k-1.jpg"
     ],
     "rating": 4.9,
     "reviewCount": 35,
@@ -52080,9 +52080,9 @@ export const mockTVs: Product[] = [
     "name": "TCL 85P8L (85P8LGTV) 85\" 4K QLED Google TV (2026)",
     "brand": "TCL",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/tcl-85p8l-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/tcl-85p8l-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 37,
@@ -52178,9 +52178,9 @@ export const mockTVs: Product[] = [
     "name": "TCL 75C7L (75C7LGTV) 75\" 4K QD-Mini LED Google TV (2026)",
     "brand": "TCL",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/tcl-75c7l-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/tcl-75c7l-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 33,
@@ -52472,9 +52472,9 @@ export const mockTVs: Product[] = [
     "name": "TCL 65C8L (65C8LGTV) 65\" 4K SQD-Mini LED Google TV (2026)",
     "brand": "TCL",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/tcl-65c8l-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/tcl-65c8l-1.jpg"
     ],
     "rating": 4.4,
     "reviewCount": 6,
@@ -52748,9 +52748,9 @@ export const mockTVs: Product[] = [
     "name": "TCL 98P8K (98P8KGTV) 98\" 4K QLED Google TV (2025)",
     "brand": "TCL",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/tcl-98p8k-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/tcl-98p8k-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 31,
@@ -52944,9 +52944,9 @@ export const mockTVs: Product[] = [
     "name": "TCL 75Q7D Pro 75\" 4K QD-Mini LED Google TV (2026)",
     "brand": "TCL",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/tcl-75q7d-pro-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/tcl-75q7d-pro-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 39,
@@ -53141,9 +53141,9 @@ export const mockTVs: Product[] = [
     "name": "TCL 75Q6C (75Q6CGTV) 75\" 4K QLED Google TV (2025)",
     "brand": "TCL",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/tcl-75q6c-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/tcl-75q6c-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 38,
@@ -53239,9 +53239,9 @@ export const mockTVs: Product[] = [
     "name": "TCL 75C6K (75C6KGTV) 75\" 4K QD-Mini LED Google TV (2025)",
     "brand": "TCL",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/tcl-75c6k-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/tcl-75c6k-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 45,
@@ -53436,9 +53436,9 @@ export const mockTVs: Product[] = [
     "name": "TCL 75P8L (75P8LGTV) 75\" 4K QLED Google TV (2026)",
     "brand": "TCL",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/tcl-75p8l-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/tcl-75p8l-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 36,
@@ -53534,9 +53534,9 @@ export const mockTVs: Product[] = [
     "name": "TCL 98P755 98\" 4K UHD Google TV (2024)",
     "brand": "TCL",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/tcl-98p755-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/tcl-98p755-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 26,
@@ -53632,9 +53632,9 @@ export const mockTVs: Product[] = [
     "name": "TCL 75T8D (75T8DGTV) 75\" 4K QLED Google TV (2026)",
     "brand": "TCL",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/tcl-75t8d-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/tcl-75t8d-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 31,
@@ -53730,9 +53730,9 @@ export const mockTVs: Product[] = [
     "name": "TCL 55Q7C (55Q7CGTV) 55\" 4K QD-Mini LED Google TV (2025)",
     "brand": "TCL",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/tcl-55q7c-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/tcl-55q7c-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 33,
@@ -53925,9 +53925,9 @@ export const mockTVs: Product[] = [
     "name": "TCL 85P8K (85P8KGTV) 85\" 4K QLED Google TV (2025)",
     "brand": "TCL",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/tcl-85p8k-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/tcl-85p8k-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 29,
@@ -54022,9 +54022,9 @@ export const mockTVs: Product[] = [
     "name": "TCL 65Q7D Pro 65\" 4K QD-Mini LED Google TV (2026)",
     "brand": "TCL",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/tcl-65q7d-pro-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/tcl-65q7d-pro-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 37,
@@ -54121,9 +54121,9 @@ export const mockTVs: Product[] = [
     "name": "TCL 75C755 (75C755GTV) 75\" 4K QD-Mini LED Google TV (2024)",
     "brand": "TCL",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/tcl-75c755-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/tcl-75c755-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 39,
@@ -54219,9 +54219,9 @@ export const mockTVs: Product[] = [
     "name": "TCL 65Q6C (65Q6CGTV) 65\" 4K QLED Google TV (2025)",
     "brand": "TCL",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/tcl-65q6c-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/tcl-65q6c-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 35,
@@ -54317,9 +54317,9 @@ export const mockTVs: Product[] = [
     "name": "TCL 65C6K (65C6KGTV) 65\" 4K QD-Mini LED Google TV (2025)",
     "brand": "TCL",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/tcl-65c6k-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/tcl-65c6k-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 48,
@@ -54415,9 +54415,9 @@ export const mockTVs: Product[] = [
     "name": "TCL 65P8L (65P8LGTV) 65\" 4K QLED Google TV (2026)",
     "brand": "TCL",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/tcl-65p8l-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/tcl-65p8l-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 38,
@@ -54513,9 +54513,9 @@ export const mockTVs: Product[] = [
     "name": "TCL 75T8B (75T8BGTV) 75\" 4K QLED Google TV (2024)",
     "brand": "TCL",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/tcl-75t8b-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/tcl-75t8b-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 30,
@@ -54610,9 +54610,9 @@ export const mockTVs: Product[] = [
     "name": "TCL 65T8D (65T8DGTV) 65\" 4K QLED Google TV (2026)",
     "brand": "TCL",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/tcl-65t8d-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/tcl-65t8d-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 32,
@@ -54708,9 +54708,9 @@ export const mockTVs: Product[] = [
     "name": "TCL 75P89K (75P89KGTV) 75\" 4K QLED Google TV (2025)",
     "brand": "TCL",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/tcl-75p89k-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/tcl-75p89k-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 31,
@@ -54805,9 +54805,9 @@ export const mockTVs: Product[] = [
     "name": "TCL 75P8K (75P8KGTV) 75\" 4K QLED Google TV (2025)",
     "brand": "TCL",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/tcl-75p8k-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/tcl-75p8k-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 37,
@@ -54903,9 +54903,9 @@ export const mockTVs: Product[] = [
     "name": "TCL 85T7B (85T7BGTV) 85\" 4K QLED Google TV (2024)",
     "brand": "TCL",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/tcl-85t7b-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/tcl-85t7b-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 33,
@@ -55098,9 +55098,9 @@ export const mockTVs: Product[] = [
     "name": "TCL 75T8C (75T8CGTV) 75\" 4K QLED Google TV (2025)",
     "brand": "TCL",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/tcl-75t8c-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/tcl-75t8c-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 34,
@@ -55196,9 +55196,9 @@ export const mockTVs: Product[] = [
     "name": "TCL 55Q7D Pro 55\" 4K QD-Mini LED Google TV (2026)",
     "brand": "TCL",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/tcl-55q7d-pro-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/tcl-55q7d-pro-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 36,
@@ -55393,9 +55393,9 @@ export const mockTVs: Product[] = [
     "name": "TCL 55C6K (55C6KGTV) 55\" 4K QD-Mini LED Google TV (2025)",
     "brand": "TCL",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/tcl-55c6k-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/tcl-55c6k-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 46,
@@ -55491,9 +55491,9 @@ export const mockTVs: Product[] = [
     "name": "TCL 65P8K (65P8KGTV) 65\" 4K QLED Google TV (2025)",
     "brand": "TCL",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/tcl-65p8k-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/tcl-65p8k-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 38,
@@ -55785,9 +55785,9 @@ export const mockTVs: Product[] = [
     "name": "TCL 55C755 (55C755GTV) 55\" 4K QD-Mini LED Google TV (2024)",
     "brand": "TCL",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/tcl-55c755-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/tcl-55c755-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 40,
@@ -55981,9 +55981,9 @@ export const mockTVs: Product[] = [
     "name": "TCL 55P8L (55P8LGTV) 55\" 4K QLED Google TV (2026)",
     "brand": "TCL",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/tcl-55p8l-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/tcl-55p8l-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 35,
@@ -56079,9 +56079,9 @@ export const mockTVs: Product[] = [
     "name": "TCL 55T8D 55\" 4K QLED Google TV (2026)",
     "brand": "TCL",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/tcl-55t8d-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/tcl-55t8d-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 30,
@@ -56275,9 +56275,9 @@ export const mockTVs: Product[] = [
     "name": "TCL 55P89K (55P89KGTV) 55\" 4K QLED Google TV (2025)",
     "brand": "TCL",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/tcl-55p89k-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/tcl-55p89k-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 30,
@@ -56372,9 +56372,9 @@ export const mockTVs: Product[] = [
     "name": "TCL 55P8K (55P8KGTV) 55\" 4K QLED Google TV (2025)",
     "brand": "TCL",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/tcl-55p8k-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/tcl-55p8k-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 39,
@@ -56666,9 +56666,9 @@ export const mockTVs: Product[] = [
     "name": "TCL 75P7L (75P7LGTV) 75\" 4K UHD Google TV (2026)",
     "brand": "TCL",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/tcl-75p7l-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/tcl-75p7l-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 34,
@@ -56763,9 +56763,9 @@ export const mockTVs: Product[] = [
     "name": "TCL 75P79K (75P79KGTV) 75\" 4K UHD Google TV (2025)",
     "brand": "TCL",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/tcl-75p79k-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/tcl-75p79k-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 32,
@@ -56857,9 +56857,9 @@ export const mockTVs: Product[] = [
     "name": "TCL 75P7K (75P7KGTV) 75\" 4K UHD Google TV (2025)",
     "brand": "TCL",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/tcl-75p7k-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/tcl-75p7k-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 31,
@@ -57046,9 +57046,9 @@ export const mockTVs: Product[] = [
     "name": "TCL 75T7B (75T7BGTV) 75\" 4K QLED Google TV (2024)",
     "brand": "TCL",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/tcl-75t7b-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/tcl-75t7b-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 33,
@@ -57143,9 +57143,9 @@ export const mockTVs: Product[] = [
     "name": "TCL 75T6D 75\" 4K UHD Google TV (2026)",
     "brand": "TCL",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/tcl-75t6d-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/tcl-75t6d-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 31,
@@ -57336,9 +57336,9 @@ export const mockTVs: Product[] = [
     "name": "TCL 65P7L (65P7LGTV) 65\" 4K UHD Google TV (2026)",
     "brand": "TCL",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/tcl-65p7l-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/tcl-65p7l-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 36,
@@ -57526,9 +57526,9 @@ export const mockTVs: Product[] = [
     "name": "TCL 65P7K (65P7KGTV) 65\" 4K UHD Google TV (2025)",
     "brand": "TCL",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/tcl-65p7k-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/tcl-65p7k-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 32,
@@ -57621,9 +57621,9 @@ export const mockTVs: Product[] = [
     "name": "TCL 65P79L (65P79LGTV) 65\" 4K UHD Google TV (2026)",
     "brand": "TCL",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/tcl-65p79l-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/tcl-65p79l-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 31,
@@ -57716,9 +57716,9 @@ export const mockTVs: Product[] = [
     "name": "TCL 65T6D 65\" 4K UHD Google TV (2026)",
     "brand": "TCL",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/tcl-65t6d-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/tcl-65t6d-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 32,
@@ -57811,9 +57811,9 @@ export const mockTVs: Product[] = [
     "name": "TCL 65T61C 65\" 4K UHD Google TV (2025)",
     "brand": "TCL",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/tcl-65t61c-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/tcl-65t61c-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 28,
@@ -57903,9 +57903,9 @@ export const mockTVs: Product[] = [
     "name": "TCL 75V61C 75\" 4K UHD Google TV (2025)",
     "brand": "TCL",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/tcl-75v61c-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/tcl-75v61c-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 29,
@@ -58088,9 +58088,9 @@ export const mockTVs: Product[] = [
     "name": "TCL 55P7L (55P7LGTV) 55\" 4K UHD Google TV (2026)",
     "brand": "TCL",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/tcl-55p7l-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/tcl-55p7l-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 38,
@@ -58279,9 +58279,9 @@ export const mockTVs: Product[] = [
     "name": "TCL 55P7K (55P7KGTV) 55\" 4K UHD Google TV (2025)",
     "brand": "TCL",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/tcl-55p7k-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/tcl-55p7k-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 36,
@@ -58373,9 +58373,9 @@ export const mockTVs: Product[] = [
     "name": "TCL 55P79L (55P79LGTV) 55\" 4K UHD Google TV (2026)",
     "brand": "TCL",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/tcl-55p79l-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/tcl-55p79l-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 33,
@@ -58467,9 +58467,9 @@ export const mockTVs: Product[] = [
     "name": "TCL 55T6D 55\" 4K UHD Google TV (2026)",
     "brand": "TCL",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/tcl-55t6d-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/tcl-55t6d-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 32,
@@ -58656,9 +58656,9 @@ export const mockTVs: Product[] = [
     "name": "TCL 55T61C 55\" 4K UHD Google TV (2025)",
     "brand": "TCL",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/tcl-55t61c-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/tcl-55t61c-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 29,
@@ -58749,9 +58749,9 @@ export const mockTVs: Product[] = [
     "name": "TCL 50P7L (50P7LGTV) 50\" 4K UHD Google TV (2026)",
     "brand": "TCL",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/tcl-50p7l-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/tcl-50p7l-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 34,
@@ -58845,9 +58845,9 @@ export const mockTVs: Product[] = [
     "name": "TCL 50P79L (50P79LGTV) 50\" 4K UHD Google TV (2026)",
     "brand": "TCL",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/tcl-50p79l-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/tcl-50p79l-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 31,
@@ -59219,9 +59219,9 @@ export const mockTVs: Product[] = [
     "name": "TCL 65V6B (65V6BGTV) 65\" 4K UHD Google TV (2024)",
     "brand": "TCL",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/tcl-65v6b-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/tcl-65v6b-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 33,
@@ -59404,9 +59404,9 @@ export const mockTVs: Product[] = [
     "name": "TCL 55V6B (55V6BGTV) 55\" 4K UHD Google TV (2024)",
     "brand": "TCL",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/tcl-55v6b-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/tcl-55v6b-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 34,
@@ -59497,9 +59497,9 @@ export const mockTVs: Product[] = [
     "name": "TCL 50V6B (50V6BGTV) 50\" 4K UHD Google TV (2024)",
     "brand": "TCL",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/tcl-50v6b-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/tcl-50v6b-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 30,
@@ -59959,9 +59959,9 @@ export const mockTVs: Product[] = [
     "name": "TCL 85C7L (85C7LGTV) 85\" 4K QD-Mini LED Google TV (2026)",
     "brand": "TCL",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/tcl-85c7l-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/tcl-85c7l-1.jpg"
     ],
     "rating": 4.9,
     "reviewCount": 35,
@@ -60058,9 +60058,9 @@ export const mockTVs: Product[] = [
     "name": "TCL 65C7L (65C7LGTV) 65\" 4K QD-Mini LED Google TV (2026)",
     "brand": "TCL",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/tcl-65c7l-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/tcl-65c7l-1.jpg"
     ],
     "rating": 4.9,
     "reviewCount": 38,
@@ -60157,9 +60157,9 @@ export const mockTVs: Product[] = [
     "name": "TCL 98C8L (98C8LGTV) 98\" 4K QD-Mini LED Google TV (2026)",
     "brand": "TCL",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/tcl-98c8l-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/tcl-98c8l-1.jpg"
     ],
     "rating": 4.9,
     "reviewCount": 25,
@@ -62006,9 +62006,9 @@ export const mockTVs: Product[] = [
     "name": "Philips 65PUS8500 (65PUS8500/62) 65\" 4K LED Smart TV (2025)",
     "brand": "Philips",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/philips-65pus8500-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/philips-65pus8500-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 38,
@@ -62295,9 +62295,9 @@ export const mockTVs: Product[] = [
     "name": "Philips 65PUS7800 (65PUS7800/62) 65\" 4K LED Smart TV (2025)",
     "brand": "Philips",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/philips-65pus7800-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/philips-65pus7800-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 39,
@@ -62484,9 +62484,9 @@ export const mockTVs: Product[] = [
     "name": "Philips 65PUS8200 (65PUS8200/62) 65\" 4K LED Smart TV (2025)",
     "brand": "Philips",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/philips-65pus8200-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/philips-65pus8200-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 37,
@@ -62676,9 +62676,9 @@ export const mockTVs: Product[] = [
     "name": "Philips 65PUS8050 (65PUS8050/62) 65\" 4K LED Smart TV (2025)",
     "brand": "Philips",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/philips-65pus8050-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/philips-65pus8050-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 35,
@@ -62771,9 +62771,9 @@ export const mockTVs: Product[] = [
     "name": "Philips 65PUS8609 (65PUS8609/62) 65\" 4K LED Smart TV (2024)",
     "brand": "Philips",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/philips-65pus8609-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/philips-65pus8609-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 37,
@@ -63059,9 +63059,9 @@ export const mockTVs: Product[] = [
     "name": "Philips 55PUS7800 (55PUS7800/62) 55\" 4K LED Smart TV (2025)",
     "brand": "Philips",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/philips-55pus7800-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/philips-55pus7800-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 38,
@@ -63155,9 +63155,9 @@ export const mockTVs: Product[] = [
     "name": "Philips 65PUS7009 (65PUS7009/62) 65\" 4K LED Smart TV (2024)",
     "brand": "Philips",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/philips-65pus7009-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/philips-65pus7009-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 35,
@@ -63343,9 +63343,9 @@ export const mockTVs: Product[] = [
     "name": "Philips 55PUS8349 (55PUS8349/62) 55\" 4K LED Smart TV (2024)",
     "brand": "Philips",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/philips-55pus8349-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/philips-55pus8349-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 33,
@@ -63439,9 +63439,9 @@ export const mockTVs: Product[] = [
     "name": "Philips 50PUS7800 (50PUS7800/62) 50\" 4K LED Smart TV (2025)",
     "brand": "Philips",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/philips-50pus7800-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/philips-50pus7800-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 37,
@@ -63631,9 +63631,9 @@ export const mockTVs: Product[] = [
     "name": "Philips 55PUS8050 (55PUS8050/62) 55\" 4K LED Smart TV (2025)",
     "brand": "Philips",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/philips-55pus8050-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/philips-55pus8050-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 39,
@@ -63726,9 +63726,9 @@ export const mockTVs: Product[] = [
     "name": "Philips 55PUS8609 (55PUS8609/62) 55\" 4K LED Smart TV (2024)",
     "brand": "Philips",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/philips-55pus8609-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/philips-55pus8609-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 36,
@@ -63823,9 +63823,9 @@ export const mockTVs: Product[] = [
     "name": "Philips 55PUS8009 (55PUS8009/62) 55\" 4K LED Smart TV (2024)",
     "brand": "Philips",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/philips-55pus8009-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/philips-55pus8009-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 35,
@@ -63919,9 +63919,9 @@ export const mockTVs: Product[] = [
     "name": "Philips 55PUS7009 (55PUS7009/62) 55\" 4K LED Smart TV (2024)",
     "brand": "Philips",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/philips-55pus7009-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/philips-55pus7009-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 38,
@@ -64013,9 +64013,9 @@ export const mockTVs: Product[] = [
     "name": "Philips 55PUS7609 (55PUS7609/62) 55\" 4K LED Smart TV (2024)",
     "brand": "Philips",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/philips-55pus7609-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/philips-55pus7609-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 37,
@@ -64109,9 +64109,9 @@ export const mockTVs: Product[] = [
     "name": "Philips 55PUS7000 (55PUS7000/62) 55\" 4K LED Smart TV (2025)",
     "brand": "Philips",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/philips-55pus7000-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/philips-55pus7000-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 41,
@@ -64203,9 +64203,9 @@ export const mockTVs: Product[] = [
     "name": "Philips 50PUS8050 (50PUS8050/62) 50\" 4K LED Smart TV (2025)",
     "brand": "Philips",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/philips-50pus8050-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/philips-50pus8050-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 36,
@@ -64298,9 +64298,9 @@ export const mockTVs: Product[] = [
     "name": "Philips 43PUS7800 (43PUS7800/62) 43\" 4K LED Smart TV (2025)",
     "brand": "Philips",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/philips-43pus7800-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/philips-43pus7800-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 38,
@@ -64394,9 +64394,9 @@ export const mockTVs: Product[] = [
     "name": "Philips 50PUS8009 (50PUS8009/62) 50\" 4K LED Smart TV (2024)",
     "brand": "Philips",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/philips-50pus8009-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/philips-50pus8009-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 34,
@@ -64489,9 +64489,9 @@ export const mockTVs: Product[] = [
     "name": "Philips 50PUS7609 (50PUS7609/62) 50\" 4K LED Smart TV (2024)",
     "brand": "Philips",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/philips-50pus7609-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/philips-50pus7609-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 36,
@@ -64585,9 +64585,9 @@ export const mockTVs: Product[] = [
     "name": "Philips 50PUS7000 (50PUS7000/62) 50\" 4K LED Smart TV (2025)",
     "brand": "Philips",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/philips-50pus7000-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/philips-50pus7000-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 38,
@@ -64869,9 +64869,9 @@ export const mockTVs: Product[] = [
     "name": "Philips 43PUS7609 (43PUS7609/62) 43\" 4K LED Smart TV (2024)",
     "brand": "Philips",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/philips-43pus7609-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/philips-43pus7609-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 36,
@@ -65058,9 +65058,9 @@ export const mockTVs: Product[] = [
     "name": "Philips 32PHS6009 (32PHS6009/62) 32\" HD LED Smart TV (2024)",
     "brand": "Philips",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/philips-32phs6009-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/philips-32phs6009-1.jpg"
     ],
     "rating": 4.5,
     "reviewCount": 33,
@@ -68169,9 +68169,9 @@ export const mockTVs: Product[] = [
     "name": "Philips 65PUS8949 (65PUS8949/62) 65\" 4K \"The One\" LED Smart TV (2024)",
     "brand": "Philips",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/philips-65pus8949-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/philips-65pus8949-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 39,
@@ -68458,9 +68458,9 @@ export const mockTVs: Product[] = [
     "name": "Philips 55PUS8949 (55PUS8949/62) 55\" 4K \"The One\" LED Smart TV (2024)",
     "brand": "Philips",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/philips-55pus8949-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/philips-55pus8949-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 44,
@@ -68555,9 +68555,9 @@ export const mockTVs: Product[] = [
     "name": "Philips 55PML8709 (55PML8709/12) 55\" 4K Mini LED Android TV (2024)",
     "brand": "Philips",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/philips-55pml8709-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/philips-55pml8709-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 38,
@@ -68845,9 +68845,9 @@ export const mockTVs: Product[] = [
     "name": "Philips 65PUS8349 (65PUS8349/62) 65\" 4K LED Smart TV (2024)",
     "brand": "Philips",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/philips-65pus8349-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/philips-65pus8349-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 36,
@@ -69036,9 +69036,9 @@ export const mockTVs: Product[] = [
     "name": "Philips 65PUS8009 (65PUS8009/62) 65\" 4K LED Smart TV (2024)",
     "brand": "Philips",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/philips-65pus8009-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/philips-65pus8009-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 35,
@@ -69129,9 +69129,9 @@ export const mockTVs: Product[] = [
     "name": "Philips 50PUS8349 (50PUS8349/62) 50\" 4K LED Smart TV (2024)",
     "brand": "Philips",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/philips-50pus8349-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/philips-50pus8349-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 38,
@@ -69321,9 +69321,9 @@ export const mockTVs: Product[] = [
     "name": "Philips 50PUS7009 (50PUS7009/62) 50\" 4K LED Smart TV (2024)",
     "brand": "Philips",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/philips-50pus7009-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/philips-50pus7009-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 36,
@@ -69414,9 +69414,9 @@ export const mockTVs: Product[] = [
     "name": "Philips 43PUS8009 (43PUS8009/62) 43\" 4K LED Smart TV (2024)",
     "brand": "Philips",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/philips-43pus8009-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/philips-43pus8009-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 38,
@@ -69508,9 +69508,9 @@ export const mockTVs: Product[] = [
     "name": "Philips 43PUS7009 (43PUS7009/62) 43\" 4K LED Smart TV (2024)",
     "brand": "Philips",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/philips-43pus7009-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/philips-43pus7009-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 39,
@@ -69602,9 +69602,9 @@ export const mockTVs: Product[] = [
     "name": "Philips 43PUS7000 (43PUS7000/62) 43\" 4K LED Smart TV (2025)",
     "brand": "Philips",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/philips-43pus7000-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/philips-43pus7000-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 35,
@@ -69696,9 +69696,9 @@ export const mockTVs: Product[] = [
     "name": "Grundig 65 GO 990A 65\" 4K Ultra HD Smart OLED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/grundig-65-go-990a-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/grundig-65-go-990a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 34,
@@ -69807,9 +69807,9 @@ export const mockTVs: Product[] = [
     "name": "Grundig 65 GHO 9900 65\" 4K Ultra HD Smart OLED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/grundig-65-gho-9900-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/grundig-65-gho-9900-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 28,
@@ -69902,9 +69902,9 @@ export const mockTVs: Product[] = [
     "name": "Grundig Dubai 65 GHO 9905 65\" 4K Ultra HD Smart OLED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/grundig-dubai-65-gho-9905-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/grundig-dubai-65-gho-9905-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 22,
@@ -69997,9 +69997,9 @@ export const mockTVs: Product[] = [
     "name": "Grundig 100 GQ 880 100\" 4K Ultra HD Smart QLED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/grundig-100-gq-880-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/grundig-100-gq-880-1.jpg"
     ],
     "rating": 4.9,
     "reviewCount": 15,
@@ -70094,9 +70094,9 @@ export const mockTVs: Product[] = [
     "name": "Grundig 65 GO 975A 65\" 4K Ultra HD Smart OLED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/grundig-65-go-975a-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/grundig-65-go-975a-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 19,
@@ -70189,9 +70189,9 @@ export const mockTVs: Product[] = [
     "name": "Grundig 55 GO 990A 55\" 4K Ultra HD Smart OLED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/grundig-55-go-990a-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/grundig-55-go-990a-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 31,
@@ -70285,9 +70285,9 @@ export const mockTVs: Product[] = [
     "name": "Grundig 55 GO 975A 55\" 4K Ultra HD Smart OLED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/grundig-55-go-975a-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/grundig-55-go-975a-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 20,
@@ -70380,9 +70380,9 @@ export const mockTVs: Product[] = [
     "name": "Grundig 85 GQ 880 85\" 4K Ultra HD Smart QLED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/grundig-85-gq-880-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/grundig-85-gq-880-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 16,
@@ -70476,9 +70476,9 @@ export const mockTVs: Product[] = [
     "name": "Grundig 75 GQ 850A 75\" 4K Ultra HD Smart QLED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/grundig-75-gq-850a-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/grundig-75-gq-850a-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 25,
@@ -70572,9 +70572,9 @@ export const mockTVs: Product[] = [
     "name": "Grundig 75 GQ 800A 75\" 4K Ultra HD Smart QLED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/grundig-75-gq-800a-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/grundig-75-gq-800a-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 18,
@@ -70666,9 +70666,9 @@ export const mockTVs: Product[] = [
     "name": "Grundig 65 GQ 950A 65\" 4K Ultra HD Smart QLED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/grundig-65-gq-950a-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/grundig-65-gq-950a-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 29,
@@ -70762,9 +70762,9 @@ export const mockTVs: Product[] = [
     "name": "Grundig 65 GQ 850A 65\" 4K Ultra HD Smart QLED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/grundig-65-gq-850a-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/grundig-65-gq-850a-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 24,
@@ -70857,9 +70857,9 @@ export const mockTVs: Product[] = [
     "name": "Grundig 65 GQ 800A 65\" 4K Ultra HD Smart QLED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/grundig-65-gq-800a-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/grundig-65-gq-800a-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 16,
@@ -70951,9 +70951,9 @@ export const mockTVs: Product[] = [
     "name": "Grundig 75 GQ 750A 75\" 4K Ultra HD Smart QLED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/grundig-75-gq-750a-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/grundig-75-gq-750a-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 22,
@@ -71044,9 +71044,9 @@ export const mockTVs: Product[] = [
     "name": "Grundig 75 GJQ 9200 A 75\" 4K Ultra HD Smart QLED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/grundig-75-gjq-9200-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/grundig-75-gjq-9200-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 18,
@@ -71138,9 +71138,9 @@ export const mockTVs: Product[] = [
     "name": "Grundig 75 GJQ 9400 A 75\" 4K Ultra HD Smart QLED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/grundig-75-gjq-9400-a-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/grundig-75-gjq-9400-a-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 15,
@@ -71232,9 +71232,9 @@ export const mockTVs: Product[] = [
     "name": "Grundig 75 GQ 700A 75\" 4K Ultra HD Smart QLED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/grundig-75-gq-700a-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/grundig-75-gq-700a-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 14,
@@ -71325,9 +71325,9 @@ export const mockTVs: Product[] = [
     "name": "Grundig Madrid 75 GJQ 9250 75\" 4K Ultra HD Smart QLED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/grundig-madrid-75-gjq-9250-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/grundig-madrid-75-gjq-9250-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 19,
@@ -71420,9 +71420,9 @@ export const mockTVs: Product[] = [
     "name": "Grundig 55 GQ 950A 55\" 4K Ultra HD Smart QLED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/grundig-55-gq-950a-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/grundig-55-gq-950a-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 28,
@@ -71516,9 +71516,9 @@ export const mockTVs: Product[] = [
     "name": "Grundig 65 GHQ 9500 65\" 4K Ultra HD Smart QLED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/grundig-65-ghq-9500-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/grundig-65-ghq-9500-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 26,
@@ -71612,9 +71612,9 @@ export const mockTVs: Product[] = [
     "name": "Grundig Monaco 65 GHQ 9550A 65\" 4K Ultra HD Smart QLED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/grundig-monaco-65-ghq-9550a-1.png",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/grundig-monaco-65-ghq-9550a-1.png"
     ],
     "rating": 4.7,
     "reviewCount": 17,
@@ -71708,9 +71708,9 @@ export const mockTVs: Product[] = [
     "name": "Grundig 55 GQ 850A 55\" 4K Ultra HD Smart QLED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/grundig-55-gq-850a-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/grundig-55-gq-850a-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 33,
@@ -71803,9 +71803,9 @@ export const mockTVs: Product[] = [
     "name": "Grundig 55 GQ 800A 55\" 4K Ultra HD Smart QLED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/grundig-55-gq-800a-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/grundig-55-gq-800a-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 21,
@@ -71897,9 +71897,9 @@ export const mockTVs: Product[] = [
     "name": "Grundig Paris 75 GHU 9055 75\" 4K Ultra HD Smart LED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/grundig-paris-75-ghu-9055-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/grundig-paris-75-ghu-9055-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 16,
@@ -71990,9 +71990,9 @@ export const mockTVs: Product[] = [
     "name": "Grundig 65 GJQ 9200 A 65\" 4K Ultra HD Smart QLED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/grundig-65-gjq-9200-a-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/grundig-65-gjq-9200-a-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 22,
@@ -72085,9 +72085,9 @@ export const mockTVs: Product[] = [
     "name": "Grundig 65 GQ 700A 65\" 4K Ultra HD Smart QLED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/grundig-65-gq-700a-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/grundig-65-gq-700a-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 19,
@@ -72178,9 +72178,9 @@ export const mockTVs: Product[] = [
     "name": "Grundig 65 GQ 750A 65\" 4K Ultra HD Smart QLED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/grundig-65-gq-750a-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/grundig-65-gq-750a-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 31,
@@ -72271,9 +72271,9 @@ export const mockTVs: Product[] = [
     "name": "Grundig Madrid 65 GJQ 9250 65\" 4K Ultra HD Smart QLED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/grundig-madrid-65-gjq-9250-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/grundig-madrid-65-gjq-9250-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 17,
@@ -72366,9 +72366,9 @@ export const mockTVs: Product[] = [
     "name": "Grundig 55 GHQ 9500 55\" 4K Ultra HD Smart QLED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/grundig-55-ghq-9500-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/grundig-55-ghq-9500-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 26,
@@ -72462,9 +72462,9 @@ export const mockTVs: Product[] = [
     "name": "Grundig 75 GJU 8500 A 75\" 4K Ultra HD Smart LED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/grundig-75-gju-8500-a-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/grundig-75-gju-8500-a-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 20,
@@ -72555,9 +72555,9 @@ export const mockTVs: Product[] = [
     "name": "Grundig 75 GKU 750 75\" 4K Ultra HD Smart LED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/grundig-75-gku-750-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/grundig-75-gku-750-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 18,
@@ -72648,9 +72648,9 @@ export const mockTVs: Product[] = [
     "name": "Grundig 75 GKU 700 75\" 4K Ultra HD Smart LED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/grundig-75-gku-700-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/grundig-75-gku-700-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 14,
@@ -72741,9 +72741,9 @@ export const mockTVs: Product[] = [
     "name": "Grundig Madrid 65 GHQ 9250 65\" 4K Ultra HD Smart QLED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/grundig-madrid-65-ghq-9250-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/grundig-madrid-65-ghq-9250-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 22,
@@ -72835,9 +72835,9 @@ export const mockTVs: Product[] = [
     "name": "Grundig Monaco 55 GHQ 9550A 55\" 4K Ultra HD Smart QLED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/grundig-monaco-55-ghq-9550a-1.png",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/grundig-monaco-55-ghq-9550a-1.png"
     ],
     "rating": 4.7,
     "reviewCount": 20,
@@ -72931,9 +72931,9 @@ export const mockTVs: Product[] = [
     "name": "Grundig 65 GHQ 9200 65\" 4K Ultra HD Smart QLED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/grundig-65-ghq-9200-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/grundig-65-ghq-9200-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 16,
@@ -73025,9 +73025,9 @@ export const mockTVs: Product[] = [
     "name": "Grundig 55 GQ 700A 55\" 4K Ultra HD Smart QLED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/grundig-55-gq-700a-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/grundig-55-gq-700a-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 24,
@@ -73118,9 +73118,9 @@ export const mockTVs: Product[] = [
     "name": "Grundig 55 GQ 750A 55\" 4K Ultra HD Smart QLED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/grundig-55-gq-750a-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/grundig-55-gq-750a-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 38,
@@ -73211,9 +73211,9 @@ export const mockTVs: Product[] = [
     "name": "Grundig 55 GJQ 9200 A 55\" 4K Ultra HD Smart QLED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/grundig-55-gjq-9200-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/grundig-55-gjq-9200-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 19,
@@ -73305,9 +73305,9 @@ export const mockTVs: Product[] = [
     "name": "Grundig Rio 65 GJU 8900S 65\" 4K Ultra HD Smart LED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/grundig-rio-65-gju-8900s-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/grundig-rio-65-gju-8900s-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 18,
@@ -73398,9 +73398,9 @@ export const mockTVs: Product[] = [
     "name": "Grundig 65 GJU 7100 65\" 4K Ultra HD Smart LED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/grundig-65-gju-7100-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/grundig-65-gju-7100-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 22,
@@ -73491,9 +73491,9 @@ export const mockTVs: Product[] = [
     "name": "Grundig 75 GJU 8000 75\" 4K Ultra HD Smart LED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/grundig-75-gju-8000-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/grundig-75-gju-8000-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 15,
@@ -73584,9 +73584,9 @@ export const mockTVs: Product[] = [
     "name": "Grundig 65 GKU 700 65\" 4K Ultra HD Smart LED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/grundig-65-gku-700-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/grundig-65-gku-700-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 21,
@@ -73677,9 +73677,9 @@ export const mockTVs: Product[] = [
     "name": "Grundig Madrid 55 GJQ 9250 55\" 4K Ultra HD Smart QLED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/grundig-madrid-55-gjq-9250-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/grundig-madrid-55-gjq-9250-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 16,
@@ -73771,9 +73771,9 @@ export const mockTVs: Product[] = [
     "name": "Grundig Madrid 55 GHQ 9250 55\" 4K Ultra HD Smart QLED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/grundig-madrid-55-ghq-9250-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/grundig-madrid-55-ghq-9250-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 20,
@@ -73865,9 +73865,9 @@ export const mockTVs: Product[] = [
     "name": "Grundig 55 GHQ 9100 55\" 4K Ultra HD Smart QLED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/grundig-55-ghq-9100-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/grundig-55-ghq-9100-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 15,
@@ -73959,9 +73959,9 @@ export const mockTVs: Product[] = [
     "name": "Grundig 50 GQ 700A 50\" 4K Ultra HD Smart QLED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/grundig-50-gq-700a-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/grundig-50-gq-700a-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 17,
@@ -74052,9 +74052,9 @@ export const mockTVs: Product[] = [
     "name": "Grundig 50 GQ 750A 50\" 4K Ultra HD Smart QLED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/grundig-50-gq-750a-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/grundig-50-gq-750a-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 35,
@@ -74145,9 +74145,9 @@ export const mockTVs: Product[] = [
     "name": "Grundig 65 GJU 7505 B 65\" 4K Ultra HD Smart LED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/grundig-65-gju-7505-b-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/grundig-65-gju-7505-b-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 16,
@@ -74238,9 +74238,9 @@ export const mockTVs: Product[] = [
     "name": "Grundig 65 GKU 750 65\" 4K Ultra HD Smart LED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/grundig-65-gku-750-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/grundig-65-gku-750-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 28,
@@ -74331,9 +74331,9 @@ export const mockTVs: Product[] = [
     "name": "Grundig 55 GJQ 9100 55\" 4K Ultra HD Smart QLED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/grundig-55-gjq-9100-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/grundig-55-gjq-9100-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 18,
@@ -74425,9 +74425,9 @@ export const mockTVs: Product[] = [
     "name": "Grundig Tokyo 65 GJU 7900G 65\" 4K Ultra HD Smart LED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/grundig-tokyo-65-gju-7900g-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/grundig-tokyo-65-gju-7900g-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 24,
@@ -74518,9 +74518,9 @@ export const mockTVs: Product[] = [
     "name": "Grundig 55 GHQ 9200 55\" 4K Ultra HD Smart QLED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/grundig-55-ghq-9200-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/grundig-55-ghq-9200-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 20,
@@ -74612,9 +74612,9 @@ export const mockTVs: Product[] = [
     "name": "Grundig Madrid 50 GJQ 9250 50\" 4K Ultra HD Smart QLED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/grundig-madrid-50-gjq-9250-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/grundig-madrid-50-gjq-9250-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 22,
@@ -74706,9 +74706,9 @@ export const mockTVs: Product[] = [
     "name": "Grundig 43 GJQ 9200 A 43\" 4K Ultra HD Smart QLED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/grundig-43-gjq-9200-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/grundig-43-gjq-9200-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 30,
@@ -74800,9 +74800,9 @@ export const mockTVs: Product[] = [
     "name": "Grundig 65 GJU 7000 B 65\" 4K Ultra HD Smart LED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/grundig-65-gju-7000-b-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/grundig-65-gju-7000-b-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 16,
@@ -74893,9 +74893,9 @@ export const mockTVs: Product[] = [
     "name": "Grundig Rio 55 GJU 8900S 55\" 4K Ultra HD Smart LED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/grundig-rio-55-gju-8900s-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/grundig-rio-55-gju-8900s-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 22,
@@ -74986,9 +74986,9 @@ export const mockTVs: Product[] = [
     "name": "Grundig 55 GJU 7100 55\" 4K Ultra HD Smart LED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/grundig-55-gju-7100-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/grundig-55-gju-7100-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 33,
@@ -75079,9 +75079,9 @@ export const mockTVs: Product[] = [
     "name": "Grundig 65 GJU 8000 65\" 4K Ultra HD Smart LED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/grundig-65-gju-8000-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/grundig-65-gju-8000-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 14,
@@ -75172,9 +75172,9 @@ export const mockTVs: Product[] = [
     "name": "Grundig 55 GKU 700 55\" 4K Ultra HD Smart LED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/grundig-55-gku-700-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/grundig-55-gku-700-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 30,
@@ -75265,9 +75265,9 @@ export const mockTVs: Product[] = [
     "name": "Grundig 55 GJU 8500 A 55\" 4K Ultra HD Smart LED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/grundig-55-gju-8500-a-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/grundig-55-gju-8500-a-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 26,
@@ -75358,9 +75358,9 @@ export const mockTVs: Product[] = [
     "name": "Grundig 55 GKU 750 55\" 4K Ultra HD Smart LED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/grundig-55-gku-750-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/grundig-55-gku-750-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 29,
@@ -75451,9 +75451,9 @@ export const mockTVs: Product[] = [
     "name": "Grundig Tokyo 55 GJU 7900G 55\" 4K Ultra HD Smart LED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/grundig-tokyo-55-gju-7900g-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/grundig-tokyo-55-gju-7900g-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 21,
@@ -75544,9 +75544,9 @@ export const mockTVs: Product[] = [
     "name": "Grundig Rio 50 GJU 8900S 50\" 4K Ultra HD Smart LED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/grundig-rio-50-gju-8900s-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/grundig-rio-50-gju-8900s-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 20,
@@ -75637,9 +75637,9 @@ export const mockTVs: Product[] = [
     "name": "Beko Atlanta 55 GGU 8965 BE 55\" 4K Ultra HD Smart LED TV",
     "brand": "Beko",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/beko-atlanta-55-ggu-8965-be-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/beko-atlanta-55-ggu-8965-be-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 23,
@@ -75730,9 +75730,9 @@ export const mockTVs: Product[] = [
     "name": "Grundig 50 GKU 700 50\" 4K Ultra HD Smart LED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/grundig-50-gku-700-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/grundig-50-gku-700-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 25,
@@ -75823,9 +75823,9 @@ export const mockTVs: Product[] = [
     "name": "Grundig 50 GJU 8500 A 50\" 4K Ultra HD Smart LED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/grundig-50-gju-8500-a-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/grundig-50-gju-8500-a-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 21,
@@ -75916,9 +75916,9 @@ export const mockTVs: Product[] = [
     "name": "Grundig 50 GKU 750 50\" 4K Ultra HD Smart LED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/grundig-50-gku-750-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/grundig-50-gku-750-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 28,
@@ -76009,9 +76009,9 @@ export const mockTVs: Product[] = [
     "name": "Grundig 55 GJU 7000 B 55\" 4K Ultra HD Smart LED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/grundig-55-gju-7000-b-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/grundig-55-gju-7000-b-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 22,
@@ -76102,9 +76102,9 @@ export const mockTVs: Product[] = [
     "name": "Grundig 50 GJU 7500 B 50\" 4K Ultra HD Smart LED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/grundig-50-gju-7500-b-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/grundig-50-gju-7500-b-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 20,
@@ -76195,9 +76195,9 @@ export const mockTVs: Product[] = [
     "name": "Grundig 43 GJU 8500 A 43\" 4K Ultra HD Smart LED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/grundig-43-gju-8500-a-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/grundig-43-gju-8500-a-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 26,
@@ -76288,9 +76288,9 @@ export const mockTVs: Product[] = [
     "name": "Grundig Munich 43 GJF 6900 B 43\" Full HD Smart LED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/grundig-munich-43-gjf-6900-b-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/grundig-munich-43-gjf-6900-b-1.jpg"
     ],
     "rating": 4.5,
     "reviewCount": 22,
@@ -76378,9 +76378,9 @@ export const mockTVs: Product[] = [
     "name": "Grundig 43 GKF 6500 43\" Full HD Smart LED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/grundig-43-gkf-6500-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/grundig-43-gkf-6500-1.jpg"
     ],
     "rating": 4.5,
     "reviewCount": 31,
@@ -76468,9 +76468,9 @@ export const mockTVs: Product[] = [
     "name": "Grundig Toronto 32 GIH 6900 32\" HD Ready Smart LED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/grundig-toronto-32-gih-6900-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/grundig-toronto-32-gih-6900-1.jpg"
     ],
     "rating": 4.4,
     "reviewCount": 19,
@@ -76558,9 +76558,9 @@ export const mockTVs: Product[] = [
     "name": "Grundig 40 GJF 6000 B 40\" Full HD Smart LED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/grundig-40-gjf-6000-b-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/grundig-40-gjf-6000-b-1.jpg"
     ],
     "rating": 4.4,
     "reviewCount": 22,
@@ -76648,9 +76648,9 @@ export const mockTVs: Product[] = [
     "name": "Grundig 40 GKF 6500 40\" Full HD Smart LED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/grundig-40-gkf-6500-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/grundig-40-gkf-6500-1.jpg"
     ],
     "rating": 4.5,
     "reviewCount": 35,
@@ -76738,9 +76738,9 @@ export const mockTVs: Product[] = [
     "name": "Grundig 32 GIH 6000 B 32\" HD Ready Smart LED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/grundig-32-gih-6000-b-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/grundig-32-gih-6000-b-1.jpg"
     ],
     "rating": 4.3,
     "reviewCount": 20,
@@ -76828,9 +76828,9 @@ export const mockTVs: Product[] = [
     "name": "Grundig 32 GKH 6500 32\" HD Ready Smart LED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/grundig-32-gkh-6500-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/grundig-32-gkh-6500-1.jpg"
     ],
     "rating": 4.4,
     "reviewCount": 38,
@@ -76918,9 +76918,9 @@ export const mockTVs: Product[] = [
     "name": "Grundig 65 GHO 9700 65\" 4K Ultra HD Smart OLED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/grundig-65-gho-9700-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/grundig-65-gho-9700-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 16,
@@ -77015,9 +77015,9 @@ export const mockTVs: Product[] = [
     "name": "Grundig 55 GHO 9900 55\" 4K Ultra HD Smart OLED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/grundig-55-gho-9900-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/grundig-55-gho-9900-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 22,
@@ -77111,9 +77111,9 @@ export const mockTVs: Product[] = [
     "name": "Grundig 55 GHO 9700 55\" 4K Ultra HD Smart OLED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/grundig-55-gho-9700-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/grundig-55-gho-9700-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 18,
@@ -77207,9 +77207,9 @@ export const mockTVs: Product[] = [
     "name": "Grundig 75 GJQ 9100 75\" 4K Ultra HD Smart QLED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/grundig-75-gjq-9100-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/grundig-75-gjq-9100-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 15,
@@ -77301,9 +77301,9 @@ export const mockTVs: Product[] = [
     "name": "Grundig 65 GHQ 9100 65\" 4K Ultra HD Smart QLED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/grundig-65-ghq-9100-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/grundig-65-ghq-9100-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 20,
@@ -77395,9 +77395,9 @@ export const mockTVs: Product[] = [
     "name": "Grundig 75 GJU 7505 B 75\" 4K Ultra HD Smart LED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/grundig-75-gju-7505-b-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/grundig-75-gju-7505-b-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 16,
@@ -77488,9 +77488,9 @@ export const mockTVs: Product[] = [
     "name": "Grundig Tokyo 75 GJU 7900G 75\" 4K Ultra HD Smart LED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/grundig-tokyo-75-gju-7900g-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/grundig-tokyo-75-gju-7900g-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 18,
@@ -77581,9 +77581,9 @@ export const mockTVs: Product[] = [
     "name": "Grundig 65 GJQ 9100 65\" 4K Ultra HD Smart QLED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/grundig-65-gjq-9100-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/grundig-65-gjq-9100-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 17,
@@ -77675,9 +77675,9 @@ export const mockTVs: Product[] = [
     "name": "Grundig 75 GJU 7500 B 75\" 4K Ultra HD Smart LED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/grundig-75-gju-7500-b-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/grundig-75-gju-7500-b-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 15,
@@ -77768,9 +77768,9 @@ export const mockTVs: Product[] = [
     "name": "Grundig 75 GJU 7000 B 75\" 4K Ultra HD Smart LED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/grundig-75-gju-7000-b-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/grundig-75-gju-7000-b-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 14,
@@ -77861,9 +77861,9 @@ export const mockTVs: Product[] = [
     "name": "Grundig 50 GJQ 9200 A 50\" 4K Ultra HD Smart QLED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/grundig-50-gjq-9200-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/grundig-50-gjq-9200-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 24,
@@ -77955,9 +77955,9 @@ export const mockTVs: Product[] = [
     "name": "Grundig 65 GJU 8500 A 65\" 4K Ultra HD Smart LED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/grundig-65-gju-8500-a-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/grundig-65-gju-8500-a-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 22,
@@ -78048,9 +78048,9 @@ export const mockTVs: Product[] = [
     "name": "Grundig 50 GJQ 9100 50\" 4K Ultra HD Smart QLED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/grundig-50-gjq-9100-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/grundig-50-gjq-9100-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 20,
@@ -78142,9 +78142,9 @@ export const mockTVs: Product[] = [
     "name": "Grundig 65 GJU 7500 B 65\" 4K Ultra HD Smart LED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/grundig-65-gju-7500-b-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/grundig-65-gju-7500-b-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 16,
@@ -78235,9 +78235,9 @@ export const mockTVs: Product[] = [
     "name": "Grundig 50 GJO 9100 50\" 4K Ultra HD Smart QLED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/grundig-50-gjo-9100-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/grundig-50-gjo-9100-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 15,
@@ -78329,9 +78329,9 @@ export const mockTVs: Product[] = [
     "name": "Grundig 55 GJU 7505 B 55\" 4K Ultra HD Smart LED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/grundig-55-gju-7505-b-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/grundig-55-gju-7505-b-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 18,
@@ -78422,9 +78422,9 @@ export const mockTVs: Product[] = [
     "name": "Grundig 43 GJQ 9100 43\" 4K Ultra HD Smart QLED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/grundig-43-gjq-9100-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/grundig-43-gjq-9100-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 22,
@@ -78516,9 +78516,9 @@ export const mockTVs: Product[] = [
     "name": "Grundig Tokyo 50 GJU 7900G 50\" 4K Ultra HD Smart LED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/grundig-tokyo-50-gju-7900g-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/grundig-tokyo-50-gju-7900g-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 19,
@@ -78609,9 +78609,9 @@ export const mockTVs: Product[] = [
     "name": "Grundig 55 GJU 7500 B 55\" 4K Ultra HD Smart LED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/grundig-55-gju-7500-b-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/grundig-55-gju-7500-b-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 25,
@@ -78702,9 +78702,9 @@ export const mockTVs: Product[] = [
     "name": "Grundig 55 GJU 8000 55\" 4K Ultra HD Smart LED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/grundig-55-gju-8000-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/grundig-55-gju-8000-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 16,
@@ -78795,9 +78795,9 @@ export const mockTVs: Product[] = [
     "name": "Grundig 50 GJU 7000 B 50\" 4K Ultra HD Smart LED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/grundig-50-gju-7000-b-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/grundig-50-gju-7000-b-1.jpg"
     ],
     "rating": 4.5,
     "reviewCount": 20,
@@ -78888,9 +78888,9 @@ export const mockTVs: Product[] = [
     "name": "Grundig 50 GJU 8000 50\" 4K Ultra HD Smart LED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/grundig-50-gju-8000-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/grundig-50-gju-8000-1.jpg"
     ],
     "rating": 4.5,
     "reviewCount": 18,
@@ -78981,9 +78981,9 @@ export const mockTVs: Product[] = [
     "name": "Grundig 43 GJU 7000 B 43\" 4K Ultra HD Smart LED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/grundig-43-gju-7000-b-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/grundig-43-gju-7000-b-1.jpg"
     ],
     "rating": 4.5,
     "reviewCount": 25,
@@ -79074,9 +79074,9 @@ export const mockTVs: Product[] = [
     "name": "Grundig 43 GJU 7500 B 43\" 4K Ultra HD Smart LED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/grundig-43-gju-7500-b-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/grundig-43-gju-7500-b-1.jpg"
     ],
     "rating": 4.5,
     "reviewCount": 22,
@@ -79167,9 +79167,9 @@ export const mockTVs: Product[] = [
     "name": "Grundig 43 GJF 6000 B 43\" Full HD Smart LED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/grundig-43-gjf-6000-b-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/grundig-43-gjf-6000-b-1.jpg"
     ],
     "rating": 4.4,
     "reviewCount": 20,
@@ -79257,9 +79257,9 @@ export const mockTVs: Product[] = [
     "name": "Grundig 43 GJF 6500 B 43\" Full HD Smart LED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/grundig-43-gjf-6500-b-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/grundig-43-gjf-6500-b-1.jpg"
     ],
     "rating": 4.4,
     "reviewCount": 18,
@@ -79347,9 +79347,9 @@ export const mockTVs: Product[] = [
     "name": "Grundig 40 GJF 6500 B 40\" Full HD Smart LED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/grundig-40-gjf-6500-b-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/grundig-40-gjf-6500-b-1.jpg"
     ],
     "rating": 4.4,
     "reviewCount": 22,
@@ -79437,9 +79437,9 @@ export const mockTVs: Product[] = [
     "name": "Grundig 32 GJH 6000 B 32\" HD Ready Smart LED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/grundig-32-gjh-6000b-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/grundig-32-gjh-6000b-1.jpg"
     ],
     "rating": 4.3,
     "reviewCount": 19,
@@ -79527,9 +79527,9 @@ export const mockTVs: Product[] = [
     "name": "Grundig Hamburg 32 GIH 5500 32\" HD Ready LED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/grundig-hamburg-32-gih-5500-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/grundig-hamburg-32-gih-5500-1.jpg"
     ],
     "rating": 4.2,
     "reviewCount": 15,
@@ -79617,9 +79617,9 @@ export const mockTVs: Product[] = [
     "name": "Grundig 85 GHU 9001 85\" 4K Ultra HD Smart LED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/grundig-85-ghu-9001-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/grundig-85-ghu-9001-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 14,
@@ -79710,9 +79710,9 @@ export const mockTVs: Product[] = [
     "name": "Grundig 98 GHQ 9501 98\" 4K Ultra HD Smart QLED TV",
     "brand": "Grundig",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/grundig-98-ghq-9501-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/grundig-98-ghq-9501-1.jpg"
     ],
     "rating": 4.9,
     "reviewCount": 16,
@@ -79807,9 +79807,9 @@ export const mockTVs: Product[] = [
     "name": "Onvo 100VQ90F3UB 100\" 4K Ultra HD Smart QLED Android TV",
     "brand": "Onvo",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/onvo-100vq90f3ub-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/onvo-100vq90f3ub-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 14,
@@ -79915,9 +79915,9 @@ export const mockTVs: Product[] = [
     "name": "Onvo 85VQ90F2UA 85\" 4K Ultra HD Smart QLED Android TV",
     "brand": "Onvo",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/onvo-85vq90f2ua-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/onvo-85vq90f2ua-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 22,
@@ -80023,9 +80023,9 @@ export const mockTVs: Product[] = [
     "name": "Onvo 85VQ90F3UA 85\" 4K Ultra HD Smart QLED Android TV",
     "brand": "Onvo",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/onvo-85vq90f3ua-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/onvo-85vq90f3ua-1.jpg"
     ],
     "rating": 4.7,
     "reviewCount": 20,
@@ -80116,9 +80116,9 @@ export const mockTVs: Product[] = [
     "name": "Onvo 75OVF9001UQ 75\" 4K Ultra HD Smart Frameless LED Android TV",
     "brand": "Onvo",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/onvo-75ovf9001uq-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/onvo-75ovf9001uq-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 30,
@@ -80224,9 +80224,9 @@ export const mockTVs: Product[] = [
     "name": "Onvo 75OVF9000UQ 75\" 4K Ultra HD Smart Frameless LED Android TV",
     "brand": "Onvo",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/onvo-75ovf9000uq-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/onvo-75ovf9000uq-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 28,
@@ -80317,9 +80317,9 @@ export const mockTVs: Product[] = [
     "name": "Onvo 75VQ90F2UA 75\" 4K Ultra HD Smart QLED Android TV",
     "brand": "Onvo",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/onvo-75vq90f2ua-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/onvo-75vq90f2ua-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 20,
@@ -80410,9 +80410,9 @@ export const mockTVs: Product[] = [
     "name": "Onvo 75VQ90F3UA 75\" 4K Ultra HD Smart QLED Android TV",
     "brand": "Onvo",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/onvo-75vq90f3ua-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/onvo-75vq90f3ua-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 35,
@@ -80518,9 +80518,9 @@ export const mockTVs: Product[] = [
     "name": "Onvo 70OVF9000UQ 70\" 4K Ultra HD Smart Frameless LED Android TV",
     "brand": "Onvo",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/onvo-70ovf9000uq-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/onvo-70ovf9000uq-1.jpg"
     ],
     "rating": 4.5,
     "reviewCount": 22,
@@ -80611,9 +80611,9 @@ export const mockTVs: Product[] = [
     "name": "Onvo 70OVF9001UQ 70\" 4K Ultra HD Smart LED Android TV",
     "brand": "Onvo",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/onvo-70ovf9001uq-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/onvo-70ovf9001uq-1.jpg"
     ],
     "rating": 4.5,
     "reviewCount": 18,
@@ -80704,9 +80704,9 @@ export const mockTVs: Product[] = [
     "name": "Onvo 65VQ90F3UA 65\" 4K Ultra HD Smart QLED Android TV",
     "brand": "Onvo",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/onvo-65vq90f3ua-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/onvo-65vq90f3ua-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 42,
@@ -80812,9 +80812,9 @@ export const mockTVs: Product[] = [
     "name": "Onvo 65OVF9250UQ 65\" 4K Ultra HD Smart Frameless LED Android TV",
     "brand": "Onvo",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/onvo-65ovf9250uq-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/onvo-65ovf9250uq-1.jpg"
     ],
     "rating": 4.5,
     "reviewCount": 26,
@@ -80905,9 +80905,9 @@ export const mockTVs: Product[] = [
     "name": "Onvo 65OVF9000UQ 65\" 4K Ultra HD Smart Frameless LED Android TV",
     "brand": "Onvo",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/onvo-65ovf9000uq-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/onvo-65ovf9000uq-1.jpg"
     ],
     "rating": 4.5,
     "reviewCount": 30,
@@ -80998,9 +80998,9 @@ export const mockTVs: Product[] = [
     "name": "Onvo 65OVF9001UQ 65\" 4K Ultra HD Smart Frameless LED Android TV",
     "brand": "Onvo",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/onvo-65ovf9001uq-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/onvo-65ovf9001uq-1.jpg"
     ],
     "rating": 4.5,
     "reviewCount": 28,
@@ -81091,9 +81091,9 @@ export const mockTVs: Product[] = [
     "name": "Onvo 65OVF5000AQ 65\" 4K Ultra HD Smart LED Android TV",
     "brand": "Onvo",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/onvo-65ovf5000aq-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/onvo-65ovf5000aq-1.jpg"
     ],
     "rating": 4.4,
     "reviewCount": 16,
@@ -81184,9 +81184,9 @@ export const mockTVs: Product[] = [
     "name": "Onvo 65OV9000U 65\" 4K Ultra HD Smart LED Android TV",
     "brand": "Onvo",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/onvo-65ov9000u-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/onvo-65ov9000u-1.jpg"
     ],
     "rating": 4.4,
     "reviewCount": 22,
@@ -81277,9 +81277,9 @@ export const mockTVs: Product[] = [
     "name": "Onvo 55VQ90F3UA 55\" 4K Ultra HD Smart QLED Android TV",
     "brand": "Onvo",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/onvo-55vq90f3ua-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/onvo-55vq90f3ua-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 45,
@@ -81385,9 +81385,9 @@ export const mockTVs: Product[] = [
     "name": "Onvo 55OVF9250UQ 55\" 4K Ultra HD Smart Frameless LED Android TV",
     "brand": "Onvo",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/onvo-55ovf9250uq-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/onvo-55ovf9250uq-1.jpg"
     ],
     "rating": 4.5,
     "reviewCount": 30,
@@ -81478,9 +81478,9 @@ export const mockTVs: Product[] = [
     "name": "Onvo 55OVF9001UQ 55\" 4K Ultra HD Smart Frameless LED Android TV",
     "brand": "Onvo",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/onvo-55ovf9001uq-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/onvo-55ovf9001uq-1.jpg"
     ],
     "rating": 4.5,
     "reviewCount": 28,
@@ -81571,9 +81571,9 @@ export const mockTVs: Product[] = [
     "name": "Onvo 55OVF9000UQ 55\" 4K Ultra HD Smart Frameless LED Android TV",
     "brand": "Onvo",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/onvo-55ovf9000uq-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/onvo-55ovf9000uq-1.jpg"
     ],
     "rating": 4.5,
     "reviewCount": 32,
@@ -81664,9 +81664,9 @@ export const mockTVs: Product[] = [
     "name": "Onvo 55OVF5000AQ 55\" 4K Ultra HD Smart LED Android TV",
     "brand": "Onvo",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/onvo-55ovf5000aq-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/onvo-55ovf5000aq-1.jpg"
     ],
     "rating": 4.4,
     "reviewCount": 18,
@@ -81757,9 +81757,9 @@ export const mockTVs: Product[] = [
     "name": "Onvo 50VQ90F3UA 50\" 4K Ultra HD Smart QLED Android TV",
     "brand": "Onvo",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/onvo-50vq90f3ua-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/onvo-50vq90f3ua-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 40,
@@ -81865,9 +81865,9 @@ export const mockTVs: Product[] = [
     "name": "Onvo 50OVF9001UQ 50\" 4K Ultra HD Smart Frameless LED Android TV",
     "brand": "Onvo",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/onvo-50ovf9001uq-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/onvo-50ovf9001uq-1.jpg"
     ],
     "rating": 4.5,
     "reviewCount": 34,
@@ -81958,9 +81958,9 @@ export const mockTVs: Product[] = [
     "name": "Onvo 50OVF9000UQ 50\" 4K Ultra HD Smart Frameless LED Android TV",
     "brand": "Onvo",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/onvo-50ovf9000uq-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/onvo-50ovf9000uq-1.jpg"
     ],
     "rating": 4.5,
     "reviewCount": 30,
@@ -82051,9 +82051,9 @@ export const mockTVs: Product[] = [
     "name": "Onvo 43VQ80F3FA 43\" Full HD Smart LED TV (whaleOS)",
     "brand": "Onvo",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/onvo-43vq80f3fa-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/onvo-43vq80f3fa-1.jpg"
     ],
     "rating": 4.4,
     "reviewCount": 19,
@@ -82141,9 +82141,9 @@ export const mockTVs: Product[] = [
     "name": "Onvo 50VQ80F2FA 50\" Full HD Smart LED TV (whaleOS)",
     "brand": "Onvo",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/onvo-50vq80f2fa-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/onvo-50vq80f2fa-1.jpg"
     ],
     "rating": 4.4,
     "reviewCount": 20,
@@ -82246,9 +82246,9 @@ export const mockTVs: Product[] = [
     "name": "Onvo 43VQ80F2FA 43\" Full HD Smart LED TV (whaleOS)",
     "brand": "Onvo",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/onvo-43vq80f2fa-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/onvo-43vq80f2fa-1.jpg"
     ],
     "rating": 4.4,
     "reviewCount": 24,
@@ -82336,9 +82336,9 @@ export const mockTVs: Product[] = [
     "name": "Onvo 40VQ80F3FA 40\" Full HD Smart LED TV (whaleOS)",
     "brand": "Onvo",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/onvo-40vq80f3fa-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/onvo-40vq80f3fa-1.jpg"
     ],
     "rating": 4.4,
     "reviewCount": 18,
@@ -82426,9 +82426,9 @@ export const mockTVs: Product[] = [
     "name": "Onvo 40VQ80F2FA 40\" Full HD Smart LED TV (whaleOS)",
     "brand": "Onvo",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/onvo-40vq80f2fa-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/onvo-40vq80f2fa-1.jpg"
     ],
     "rating": 4.4,
     "reviewCount": 22,
@@ -82516,9 +82516,9 @@ export const mockTVs: Product[] = [
     "name": "Onvo 32VQ80F2HA 32\" HD Ready Smart LED TV (whaleOS)",
     "brand": "Onvo",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/onvo-32vq80f2ha-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/onvo-32vq80f2ha-1.jpg"
     ],
     "rating": 4.3,
     "reviewCount": 35,
@@ -82621,9 +82621,9 @@ export const mockTVs: Product[] = [
     "name": "Onvo 32VQ80F3HA 32\" HD Ready Smart LED TV (whaleOS)",
     "brand": "Onvo",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/onvo-32vq80f3ha-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/onvo-32vq80f3ha-1.jpg"
     ],
     "rating": 4.3,
     "reviewCount": 20,
@@ -82711,9 +82711,9 @@ export const mockTVs: Product[] = [
     "name": "Onvo 43VL80F3FA 43\" Full HD Smart LED TV (whaleOS)",
     "brand": "Onvo",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/onvo-43vl80f3fa-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/onvo-43vl80f3fa-1.jpg"
     ],
     "rating": 4.3,
     "reviewCount": 16,
@@ -82801,9 +82801,9 @@ export const mockTVs: Product[] = [
     "name": "Onvo 40VL80F2FA 40\" Full HD Smart LED TV (whaleOS)",
     "brand": "Onvo",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/onvo-40vl80f2fa-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/onvo-40vl80f2fa-1.jpg"
     ],
     "rating": 4.3,
     "reviewCount": 19,
@@ -82891,9 +82891,9 @@ export const mockTVs: Product[] = [
     "name": "Onvo 32OVPROHF9000H 32\" HD Ready Smart Android TV",
     "brand": "Onvo",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/onvo-32ovprohf9000h-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/onvo-32ovprohf9000h-1.jpg"
     ],
     "rating": 4.4,
     "reviewCount": 14,
@@ -82983,9 +82983,9 @@ export const mockTVs: Product[] = [
     "name": "Onvo 40OVF4000AF 40\" Full HD Smart Android TV",
     "brand": "Onvo",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/onvo-40ovf4000af-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/onvo-40ovf4000af-1.jpg"
     ],
     "rating": 4.3,
     "reviewCount": 17,
@@ -83073,9 +83073,9 @@ export const mockTVs: Product[] = [
     "name": "Onvo 32VL80F2HA 32\" HD Ready Smart LED TV (whaleOS)",
     "brand": "Onvo",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/onvo-32vl80f2ha-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/onvo-32vl80f2ha-1.jpg"
     ],
     "rating": 4.3,
     "reviewCount": 22,
@@ -83163,9 +83163,9 @@ export const mockTVs: Product[] = [
     "name": "Onvo 40OVF6000F 40\" Full HD Smart Android TV",
     "brand": "Onvo",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/onvo-40ovf6000f-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/onvo-40ovf6000f-1.jpg"
     ],
     "rating": 4.3,
     "reviewCount": 15,
@@ -83253,9 +83253,9 @@ export const mockTVs: Product[] = [
     "name": "Onvo 32VL80F3HA 32\" HD Ready Smart LED TV (whaleOS)",
     "brand": "Onvo",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/onvo-32vl80f3ha-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/onvo-32vl80f3ha-1.jpg"
     ],
     "rating": 4.3,
     "reviewCount": 16,
@@ -83343,9 +83343,9 @@ export const mockTVs: Product[] = [
     "name": "Onvo 32OV6001H 32\" HD Ready Smart Android TV",
     "brand": "Onvo",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/onvo-32ov6001h-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/onvo-32ov6001h-1.jpg"
     ],
     "rating": 4.3,
     "reviewCount": 25,
@@ -83433,9 +83433,9 @@ export const mockTVs: Product[] = [
     "name": "Onvo 24VL80F2HA 24\" HD Ready Smart LED TV (whaleOS)",
     "brand": "Onvo",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/onvo-24vl80f2ha-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/onvo-24vl80f2ha-1.jpg"
     ],
     "rating": 4.2,
     "reviewCount": 18,
@@ -83523,9 +83523,9 @@ export const mockTVs: Product[] = [
     "name": "Onvo 24OVF6001H 24\" HD Ready Smart Android TV",
     "brand": "Onvo",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/onvo-24ovf6001h-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/onvo-24ovf6001h-1.jpg"
     ],
     "rating": 4.2,
     "reviewCount": 20,
@@ -83613,9 +83613,9 @@ export const mockTVs: Product[] = [
     "name": "Onvo 32OVM6500X 32\" Full HD Smart Android Taşınabilir Stand TV",
     "brand": "Onvo",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/onvo-32ovm6500x-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/onvo-32ovm6500x-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 30,
@@ -83720,9 +83720,9 @@ export const mockTVs: Product[] = [
     "name": "Onvo 32OVF4000AH 32\" HD Ready Smart Android TV",
     "brand": "Onvo",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/onvo-32ovf4000ah-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/onvo-32ovf4000ah-1.jpg"
     ],
     "rating": 4.2,
     "reviewCount": 16,
@@ -83810,9 +83810,9 @@ export const mockTVs: Product[] = [
     "name": "Onvo 100OVF9001UQ 100\" 4K Ultra HD Smart Frameless LED Android TV",
     "brand": "Onvo",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/onvo-100ovf9001uq-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/onvo-100ovf9001uq-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 15,
@@ -83903,9 +83903,9 @@ export const mockTVs: Product[] = [
     "name": "Onvo 100OVF9000UQ 100\" 4K Ultra HD Smart Frameless LED Android TV",
     "brand": "Onvo",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/onvo-100ovf9000uq-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/onvo-100ovf9000uq-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 12,
@@ -83996,9 +83996,9 @@ export const mockTVs: Product[] = [
     "name": "Onvo 85OVF9001UQ 85\" 4K Ultra HD Smart Frameless LED Android TV",
     "brand": "Onvo",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/onvo-85ovf9001uq-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/onvo-85ovf9001uq-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 22,
@@ -84089,9 +84089,9 @@ export const mockTVs: Product[] = [
     "name": "Onvo 85OVF9000UQ 85\" 4K Ultra HD Smart Frameless LED Android TV",
     "brand": "Onvo",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/onvo-85ovf9000uq-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/onvo-85ovf9000uq-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 20,
@@ -84182,9 +84182,9 @@ export const mockTVs: Product[] = [
     "name": "Onvo 85OVF9000U 85\" 4K Ultra HD Smart LED Android TV",
     "brand": "Onvo",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/onvo-85ovf9000u-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/onvo-85ovf9000u-1.jpg"
     ],
     "rating": 4.5,
     "reviewCount": 18,
@@ -84275,9 +84275,9 @@ export const mockTVs: Product[] = [
     "name": "Onvo 55VL90N4UA 55\" 4K Ultra HD Smart LED Android TV",
     "brand": "Onvo",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/onvo-55vl90n4ua-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/onvo-55vl90n4ua-1.jpg"
     ],
     "rating": 4.5,
     "reviewCount": 22,
@@ -84368,9 +84368,9 @@ export const mockTVs: Product[] = [
     "name": "Onvo 43OVF9000FQ 43\" Full HD Smart Frameless LED Android TV",
     "brand": "Onvo",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/onvo-43ovf9000fq-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/onvo-43ovf9000fq-1.jpg"
     ],
     "rating": 4.4,
     "reviewCount": 22,
@@ -84460,9 +84460,9 @@ export const mockTVs: Product[] = [
     "name": "Onvo 43OVF5000AF 43\" Full HD Smart LED Android TV",
     "brand": "Onvo",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/onvo-43ovf5000af-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/onvo-43ovf5000af-1.jpg"
     ],
     "rating": 4.3,
     "reviewCount": 20,
@@ -84550,9 +84550,9 @@ export const mockTVs: Product[] = [
     "name": "Onvo 43OVF9000F 43\" Full HD Smart Frameless LED Android TV",
     "brand": "Onvo",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/onvo-43ovf9000f-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/onvo-43ovf9000f-1.jpg"
     ],
     "rating": 4.3,
     "reviewCount": 26,
@@ -84640,9 +84640,9 @@ export const mockTVs: Product[] = [
     "name": "Onvo 42OVF9000F 42\" Full HD Smart Frameless LED Android TV",
     "brand": "Onvo",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/onvo-42ovf9000f-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/onvo-42ovf9000f-1.jpg"
     ],
     "rating": 4.3,
     "reviewCount": 24,
@@ -84730,9 +84730,9 @@ export const mockTVs: Product[] = [
     "name": "Onvo 43OVF9001F 43\" Full HD Smart Frameless LED Android TV",
     "brand": "Onvo",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/onvo-43ovf9001f-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/onvo-43ovf9001f-1.jpg"
     ],
     "rating": 4.3,
     "reviewCount": 18,
@@ -84820,9 +84820,9 @@ export const mockTVs: Product[] = [
     "name": "Onvo 42OV9000F 42\" Full HD Smart LED Android TV",
     "brand": "Onvo",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/onvo-42ov9000f-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/onvo-42ov9000f-1.jpg"
     ],
     "rating": 4.3,
     "reviewCount": 20,
@@ -84910,9 +84910,9 @@ export const mockTVs: Product[] = [
     "name": "Onvo 43OV4000AF 43\" Full HD Smart Android TV",
     "brand": "Onvo",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/onvo-43ov4000af-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/onvo-43ov4000af-1.jpg"
     ],
     "rating": 4.3,
     "reviewCount": 16,
@@ -85000,9 +85000,9 @@ export const mockTVs: Product[] = [
     "name": "Onvo 32OVF9000H 32\" HD Ready Smart Frameless LED Android TV",
     "brand": "Onvo",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/onvo-32ovf9000h-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/onvo-32ovf9000h-1.jpg"
     ],
     "rating": 4.3,
     "reviewCount": 22,
@@ -85090,9 +85090,9 @@ export const mockTVs: Product[] = [
     "name": "Onvo 32VL6000H2 32\" HD Ready Smart LED TV (whaleOS)",
     "brand": "Onvo",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/onvo-32vl6000h2-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/onvo-32vl6000h2-1.jpg"
     ],
     "rating": 4.2,
     "reviewCount": 17,
@@ -85180,9 +85180,9 @@ export const mockTVs: Product[] = [
     "name": "Onvo 32OVF6001H 32\" HD Ready Smart LED Android TV",
     "brand": "Onvo",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/onvo-32ovf6001h-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/onvo-32ovf6001h-1.jpg"
     ],
     "rating": 4.2,
     "reviewCount": 20,
@@ -85270,9 +85270,9 @@ export const mockTVs: Product[] = [
     "name": "Onvo 24OVF6000H 24\" HD Ready Smart Android TV",
     "brand": "Onvo",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/onvo-24ovf6000h-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/onvo-24ovf6000h-1.jpg"
     ],
     "rating": 4.2,
     "reviewCount": 18,
@@ -85360,9 +85360,9 @@ export const mockTVs: Product[] = [
     "name": "Onvo 24OV6001H 24\" HD Ready Smart Android TV",
     "brand": "Onvo",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/onvo-24ov6001h-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/onvo-24ov6001h-1.jpg"
     ],
     "rating": 4.2,
     "reviewCount": 16,
@@ -85450,9 +85450,9 @@ export const mockTVs: Product[] = [
     "name": "Onvo 32OVM6000 Slide & Go 32\" Full HD Smart Taşınabilir Stand TV",
     "brand": "Onvo",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/onvo-32ovm6000-slide-go-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/onvo-32ovm6000-slide-go-1.jpg"
     ],
     "rating": 4.6,
     "reviewCount": 28,
@@ -85542,9 +85542,9 @@ export const mockTVs: Product[] = [
     "name": "Onvo 24OV5002H 24\" HD Ready LED TV (Dahili Uydu Alıcılı)",
     "brand": "Onvo",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/onvo-24ov5002h-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/onvo-24ov5002h-1.jpg"
     ],
     "rating": 4.1,
     "reviewCount": 15,
@@ -85632,9 +85632,9 @@ export const mockTVs: Product[] = [
     "name": "Onvo 24OV5001H 24\" HD Ready LED TV (Dahili Uydu Alıcılı)",
     "brand": "Onvo",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/onvo-24ov5001h-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/onvo-24ov5001h-1.jpg"
     ],
     "rating": 4.1,
     "reviewCount": 14,
@@ -85722,9 +85722,9 @@ export const mockTVs: Product[] = [
     "name": "Onvo 24OV5000H 24\" HD Ready LED TV (Dahili Uydu Alıcılı)",
     "brand": "Onvo",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/onvo-24ov5000h-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/onvo-24ov5000h-1.jpg"
     ],
     "rating": 4.1,
     "reviewCount": 16,
@@ -85812,9 +85812,9 @@ export const mockTVs: Product[] = [
     "name": "Onvo 43OVF5000AQ 43\" Full HD Smart Frameless LED Android TV",
     "brand": "Onvo",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/onvo-43ovf5000aq-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/onvo-43ovf5000aq-1.jpg"
     ],
     "rating": 4.3,
     "reviewCount": 18,
@@ -85902,9 +85902,9 @@ export const mockTVs: Product[] = [
     "name": "SEG 55SUA740 (20278080) 55\" 4K Ultra HD Smart LED Android TV",
     "brand": "SEG",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/seg-55sua740-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/seg-55sua740-1.jpg"
     ],
     "rating": 4.4,
     "epeyScore": 56,
@@ -85994,9 +85994,9 @@ export const mockTVs: Product[] = [
     "name": "SEG 32SBH550 (20278321) 32\" HD Ready LED TV (Dahili Uydu Alıcılı)",
     "brand": "SEG",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/seg-32sbh550-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/seg-32sbh550-1.jpg"
     ],
     "rating": 4.1,
     "epeyScore": 24,
@@ -86084,9 +86084,9 @@ export const mockTVs: Product[] = [
     "name": "SEG 65SUA740 (20278081) 65\" 4K Ultra HD Smart LED Android TV",
     "brand": "SEG",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/seg-65sua740-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/seg-65sua740-1.jpg"
     ],
     "rating": 4.5,
     "epeyScore": 59,
@@ -86176,9 +86176,9 @@ export const mockTVs: Product[] = [
     "name": "SEG 50SUA740 50\" 4K Ultra HD Smart LED Android TV",
     "brand": "SEG",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/seg-50sua740-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/seg-50sua740-1.jpg"
     ],
     "rating": 4.4,
     "epeyScore": 55,
@@ -86268,9 +86268,9 @@ export const mockTVs: Product[] = [
     "name": "SEG 58SBU730 (20276460) 58\" 4K Ultra HD LED TV (Dahili Uydu Alıcılı)",
     "brand": "SEG",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/seg-58sbu730-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/seg-58sbu730-1.jpg"
     ],
     "rating": 4.3,
     "epeyScore": 53,
@@ -86360,9 +86360,9 @@ export const mockTVs: Product[] = [
     "name": "SEG 55SRB900 (20300624) 55\" 4K Ultra HD Smart LED TV (TiVo OS)",
     "brand": "SEG",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/seg-55srb900-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/seg-55srb900-1.jpg"
     ],
     "rating": 4.3,
     "epeyScore": 51,
@@ -86452,9 +86452,9 @@ export const mockTVs: Product[] = [
     "name": "SEG 50SRB900 (20300702) 50\" 4K Ultra HD Smart LED TV (TiVo OS)",
     "brand": "SEG",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/seg-50srb900-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/seg-50srb900-1.jpg"
     ],
     "rating": 4.3,
     "epeyScore": 49,
@@ -86544,9 +86544,9 @@ export const mockTVs: Product[] = [
     "name": "SEG 43SFA750 (20278325) 43\" Full HD Smart LED Android TV",
     "brand": "SEG",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/seg-43sfa750-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/seg-43sfa750-1.jpg"
     ],
     "rating": 4.3,
     "epeyScore": 48,
@@ -86634,9 +86634,9 @@ export const mockTVs: Product[] = [
     "name": "SEG 40SFA750 (20278594) 40\" Full HD Smart LED Android TV",
     "brand": "SEG",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/seg-40sfa750-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/seg-40sfa750-1.jpg"
     ],
     "rating": 4.3,
     "epeyScore": 47,
@@ -86724,9 +86724,9 @@ export const mockTVs: Product[] = [
     "name": "SEG 43SRB900 (20300701) 43\" 4K Ultra HD Smart LED TV (TiVo OS)",
     "brand": "SEG",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/seg-43srb900-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/seg-43srb900-1.jpg"
     ],
     "rating": 4.2,
     "epeyScore": 47,
@@ -86816,9 +86816,9 @@ export const mockTVs: Product[] = [
     "name": "SEG 40SRB900 (20279384) 40\" Full HD Smart LED TV (TiVo OS)",
     "brand": "SEG",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/seg-40srb900-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/seg-40srb900-1.jpg"
     ],
     "rating": 4.2,
     "epeyScore": 43,
@@ -86906,9 +86906,9 @@ export const mockTVs: Product[] = [
     "name": "SEG 32SBA750 (20278323) 32\" HD Ready Smart LED Android TV",
     "brand": "SEG",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/seg-32sba750-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/seg-32sba750-1.jpg"
     ],
     "rating": 4.2,
     "epeyScore": 43,
@@ -86996,9 +86996,9 @@ export const mockTVs: Product[] = [
     "name": "SEG 32SRB900 (20279382) 32\" HD Ready Smart LED TV (TiVo OS)",
     "brand": "SEG",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/seg-32srb900-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/seg-32srb900-1.jpg"
     ],
     "rating": 4.1,
     "epeyScore": 39,
@@ -87086,9 +87086,9 @@ export const mockTVs: Product[] = [
     "name": "Xiaomi TV Max 100 2025 (L100MA-MAXME) 100\" 144Hz 4K Ultra HD Google TV",
     "brand": "Xiaomi",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/xiaomi-tv-max-100-2025-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/xiaomi-tv-max-100-2025-1.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 78,
@@ -87183,9 +87183,9 @@ export const mockTVs: Product[] = [
     "name": "Xiaomi TV S Pro Mini LED 75 (2026) (L75MB-SME) 75\" 144Hz 4K Google TV",
     "brand": "Xiaomi",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/xiaomi-tv-s-pro-mini-led-75-2026-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/xiaomi-tv-s-pro-mini-led-75-2026-1.jpg"
     ],
     "rating": 4.9,
     "epeyScore": 76,
@@ -87280,9 +87280,9 @@ export const mockTVs: Product[] = [
     "name": "Xiaomi TV Max 85 2025 (L85MA-MAXME) 85\" 144Hz 4K Ultra HD Google TV",
     "brand": "Xiaomi",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/xiaomi-tv-max-85-2025-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/xiaomi-tv-max-85-2025-1.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 74,
@@ -87390,9 +87390,9 @@ export const mockTVs: Product[] = [
     "name": "Xiaomi TV A Pro 75 2026 (L75MB-APTR) 75\" 4K Ultra HD QLED Google TV",
     "brand": "Xiaomi",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/xiaomi-tv-a-pro-75-2026-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/xiaomi-tv-a-pro-75-2026-1.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 65,
@@ -87499,9 +87499,9 @@ export const mockTVs: Product[] = [
     "name": "Xiaomi TV A Pro 65 2026 (L65MB-APTR) 65\" 4K Ultra HD QLED Google TV",
     "brand": "Xiaomi",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/xiaomi-tv-a-pro-65-2026-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/xiaomi-tv-a-pro-65-2026-1.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 62,
@@ -87607,9 +87607,9 @@ export const mockTVs: Product[] = [
     "name": "Xiaomi TV A Pro 55 2026 (L55MB-APTR) 55\" 4K Ultra HD QLED Google TV",
     "brand": "Xiaomi",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/xiaomi-tv-a-pro-55-2026-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/xiaomi-tv-a-pro-55-2026-1.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 60,
@@ -87716,9 +87716,9 @@ export const mockTVs: Product[] = [
     "name": "Xiaomi TV A 65 2026 (L65MB-ATR) 65\" 4K Ultra HD Smart Google TV",
     "brand": "Xiaomi",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/xiaomi-tv-a-65-2026-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/xiaomi-tv-a-65-2026-1.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 59,
@@ -87808,9 +87808,9 @@ export const mockTVs: Product[] = [
     "name": "Xiaomi TV Max 86\" (L86M7-ESMI) 120Hz 4K Ultra HD Android Smart TV",
     "brand": "Xiaomi",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/xiaomi-tv-max-86-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/xiaomi-tv-max-86-1.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 72,
@@ -87917,9 +87917,9 @@ export const mockTVs: Product[] = [
     "name": "Xiaomi Mi TV Q1 75\" (L75M6-ESG) 120Hz 4K QLED Android Smart TV",
     "brand": "Xiaomi",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/xiaomi-mi-tv-q1-75-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/xiaomi-mi-tv-q1-75-1.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 69,
@@ -88026,9 +88026,9 @@ export const mockTVs: Product[] = [
     "name": "Xiaomi TV P1E 65\" (L65M7-7AEU) 65\" 4K Ultra HD Android Smart LED TV",
     "brand": "Xiaomi",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/xiaomi-tv-p1e-65-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/xiaomi-tv-p1e-65-1.jpg"
     ],
     "rating": 4.5,
     "epeyScore": 59,
@@ -88132,9 +88132,9 @@ export const mockTVs: Product[] = [
     "name": "Xiaomi Mi TV P1 55\" (L55M6-6AEU) 55\" 4K Ultra HD Android Smart LED TV",
     "brand": "Xiaomi",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/xiaomi-mi-tv-p1-55-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/xiaomi-mi-tv-p1-55-1.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 58,
@@ -88240,9 +88240,9 @@ export const mockTVs: Product[] = [
     "name": "Xiaomi TV P1E 55\" (L55M7-7AEU) 55\" 4K Ultra HD Android Smart LED TV",
     "brand": "Xiaomi",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/xiaomi-tv-p1e-55-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/xiaomi-tv-p1e-55-1.jpg"
     ],
     "rating": 4.5,
     "epeyScore": 56,
@@ -88346,9 +88346,9 @@ export const mockTVs: Product[] = [
     "name": "Xiaomi TV A 55 2026 (L55MB-ATR) 55\" 4K Ultra HD Smart Google TV",
     "brand": "Xiaomi",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/xiaomi-tv-a-55-2026-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/xiaomi-tv-a-55-2026-1.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 56,
@@ -88452,9 +88452,9 @@ export const mockTVs: Product[] = [
     "name": "iFFALCON 98U95A 98\" 144Hz 4K Ultra HD QLED Google TV",
     "brand": "iFFALCON",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/iffalcon-98u95a-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/iffalcon-98u95a-1.jpg"
     ],
     "rating": 4.9,
     "epeyScore": 88,
@@ -88564,9 +88564,9 @@ export const mockTVs: Product[] = [
     "name": "iFFALCON 85U95A 85\" 144Hz 4K Ultra HD QLED Google TV",
     "brand": "iFFALCON",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/iffalcon-85u95a-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/iffalcon-85u95a-1.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 84,
@@ -88661,9 +88661,9 @@ export const mockTVs: Product[] = [
     "name": "iFFALCON 85U85A 85\" 144Hz 4K Ultra HD QLED Google TV",
     "brand": "iFFALCON",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/iffalcon-85u85a-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/iffalcon-85u85a-1.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 84,
@@ -88756,9 +88756,9 @@ export const mockTVs: Product[] = [
     "name": "iFFALCON 75U95A 75\" 144Hz 4K Ultra HD QLED Google TV",
     "brand": "iFFALCON",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/iffalcon-75u95a-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/iffalcon-75u95a-1.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 82,
@@ -88854,9 +88854,9 @@ export const mockTVs: Product[] = [
     "name": "iFFALCON 85U75A 85\" 4K Ultra HD Google TV",
     "brand": "iFFALCON",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/iffalcon-85u75a-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/iffalcon-85u75a-1.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 79,
@@ -88949,9 +88949,9 @@ export const mockTVs: Product[] = [
     "name": "iFFALCON 65U95A 65\" 144Hz 4K Ultra HD QLED Google TV",
     "brand": "iFFALCON",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/iffalcon-65u95a-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/iffalcon-65u95a-1.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 79,
@@ -89047,9 +89047,9 @@ export const mockTVs: Product[] = [
     "name": "iFFALCON 75U85A 75\" 144Hz 4K Ultra HD QLED Google TV",
     "brand": "iFFALCON",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/iffalcon-75u85a-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/iffalcon-75u85a-1.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 78,
@@ -89142,9 +89142,9 @@ export const mockTVs: Product[] = [
     "name": "iFFALCON 55U95A 55\" 144Hz 4K Ultra HD QLED Google TV",
     "brand": "iFFALCON",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/iffalcon-55u95a-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/iffalcon-55u95a-1.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 77,
@@ -89254,9 +89254,9 @@ export const mockTVs: Product[] = [
     "name": "iFFALCON 65U85A 65\" 144Hz 4K Ultra HD QLED Google TV",
     "brand": "iFFALCON",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/iffalcon-65u85a-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/iffalcon-65u85a-1.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 76,
@@ -89349,9 +89349,9 @@ export const mockTVs: Product[] = [
     "name": "iFFALCON 75U75A 75\" 4K Ultra HD Google TV",
     "brand": "iFFALCON",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/iffalcon-75u75a-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/iffalcon-75u75a-1.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 74,
@@ -89444,9 +89444,9 @@ export const mockTVs: Product[] = [
     "name": "iFFALCON 55U85A 55\" 144Hz 4K Ultra HD QLED Google TV",
     "brand": "iFFALCON",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/iffalcon-55u85a-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/iffalcon-55u85a-1.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 73,
@@ -89539,9 +89539,9 @@ export const mockTVs: Product[] = [
     "name": "iFFALCON 50U95A 50\" 144Hz 4K Ultra HD QLED Google TV",
     "brand": "iFFALCON",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/iffalcon-50u95a-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/iffalcon-50u95a-1.jpg"
     ],
     "rating": 4.7,
     "epeyScore": 72,
@@ -89636,9 +89636,9 @@ export const mockTVs: Product[] = [
     "name": "iFFALCON 65U75A 65\" 4K Ultra HD Google TV",
     "brand": "iFFALCON",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/iffalcon-65u75a-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/iffalcon-65u75a-1.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 71,
@@ -89731,9 +89731,9 @@ export const mockTVs: Product[] = [
     "name": "iFFALCON 55U75A 55\" 4K Ultra HD Google TV",
     "brand": "iFFALCON",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/iffalcon-55u75a-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/iffalcon-55u75a-1.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 68,
@@ -89826,9 +89826,9 @@ export const mockTVs: Product[] = [
     "name": "iFFALCON 75U65 75\" 4K Ultra HD Smart Google TV",
     "brand": "iFFALCON",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/iffalcon-75u65-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/iffalcon-75u65-1.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 65,
@@ -89920,9 +89920,9 @@ export const mockTVs: Product[] = [
     "name": "iFFALCON 65U65A 65\" 4K Ultra HD Smart Google TV",
     "brand": "iFFALCON",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/iffalcon-65u65a-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/iffalcon-65u65a-1.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 61,
@@ -90012,9 +90012,9 @@ export const mockTVs: Product[] = [
     "name": "iFFALCON 65U65 65\" 4K Ultra HD Smart Google TV",
     "brand": "iFFALCON",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/iffalcon-65u65-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/iffalcon-65u65-1.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 61,
@@ -90104,9 +90104,9 @@ export const mockTVs: Product[] = [
     "name": "iFFALCON 55U65A 55\" 4K Ultra HD Smart Google TV",
     "brand": "iFFALCON",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/iffalcon-55u65a-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/iffalcon-55u65a-1.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 59,
@@ -90197,9 +90197,9 @@ export const mockTVs: Product[] = [
     "name": "iFFALCON 55U65 55\" 4K Ultra HD Smart Google TV",
     "brand": "iFFALCON",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/iffalcon-55u65-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/iffalcon-55u65-1.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 59,
@@ -90289,9 +90289,9 @@ export const mockTVs: Product[] = [
     "name": "iFFALCON 50U65 50\" 4K Ultra HD Smart Google TV",
     "brand": "iFFALCON",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/iffalcon-50u65-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/iffalcon-50u65-1.jpg"
     ],
     "rating": 4.5,
     "epeyScore": 57,
@@ -90381,9 +90381,9 @@ export const mockTVs: Product[] = [
     "name": "iFFALCON 43U65 43\" 4K Ultra HD Smart Google TV",
     "brand": "iFFALCON",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/iffalcon-43u65-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/iffalcon-43u65-1.jpg"
     ],
     "rating": 4.6,
     "epeyScore": 56,
@@ -90474,9 +90474,9 @@ export const mockTVs: Product[] = [
     "name": "iFFALCON 50S55A 50\" Full HD Smart Google TV",
     "brand": "iFFALCON",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/iffalcon-50s55a-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/iffalcon-50s55a-1.jpg"
     ],
     "rating": 4.5,
     "epeyScore": 50,
@@ -90565,9 +90565,9 @@ export const mockTVs: Product[] = [
     "name": "iFFALCON 43S55A 43\" Full HD Smart Google TV",
     "brand": "iFFALCON",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/iffalcon-43s55a-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/iffalcon-43s55a-1.jpg"
     ],
     "rating": 4.5,
     "epeyScore": 49,
@@ -90656,9 +90656,9 @@ export const mockTVs: Product[] = [
     "name": "iFFALCON 43S55 43\" Full HD Smart Google TV",
     "brand": "iFFALCON",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/iffalcon-43s55-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/iffalcon-43s55-1.jpg"
     ],
     "rating": 4.5,
     "epeyScore": 48,
@@ -90747,9 +90747,9 @@ export const mockTVs: Product[] = [
     "name": "iFFALCON 32S55 32\" HD Ready Smart Android TV",
     "brand": "iFFALCON",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/iffalcon-32s55-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/iffalcon-32s55-1.jpg"
     ],
     "rating": 4.4,
     "epeyScore": 44,
@@ -90853,9 +90853,9 @@ export const mockTVs: Product[] = [
     "name": "iFFALCON 32S55A 32\" Full HD Smart Google TV",
     "brand": "iFFALCON",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/iffalcon-32s55a-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/iffalcon-32s55a-1.jpg"
     ],
     "rating": 4.5,
     "epeyScore": 46,
@@ -90944,9 +90944,9 @@ export const mockTVs: Product[] = [
     "name": "iFFALCON 50S55 50\" Full HD Smart Android TV",
     "brand": "iFFALCON",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/iffalcon-50s55-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/iffalcon-50s55-1.jpg"
     ],
     "rating": 4.5,
     "epeyScore": 50,
@@ -91035,9 +91035,9 @@ export const mockTVs: Product[] = [
     "name": "iFFALCON 40S55 40\" Full HD Smart Android TV",
     "brand": "iFFALCON",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/iffalcon-40s55-1.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/iffalcon-40s55-1.jpg"
     ],
     "rating": 4.5,
     "epeyScore": 48,

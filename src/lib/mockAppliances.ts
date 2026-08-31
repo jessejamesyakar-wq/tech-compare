@@ -17906,9 +17906,9 @@ export const mockAppliances: Product[] = [
       "4.8 Litre ve 3 Litre İkili Paslanmaz Çelik Kase",
       "Hamur Çengeli, Düz Çırpıcı ve Tel Çırpıcı Dahil"
     ],
-    "image": "/images/products/appliances/dyson-v15-detect.jpg",
+    "image": "/images/products/appliances/icecat-philips-5000-hd9339-80.jpg",
     "images": [
-      "/images/products/appliances/dyson-v15-detect.jpg"
+      "/images/products/appliances/icecat-philips-5000-hd9339-80.jpg"
     ],
     "storeOffers": [
       {
@@ -18177,9 +18177,9 @@ export const mockAppliances: Product[] = [
       "Tek Tuşla Espresso & Long Coffee Hazırlama",
       "Çıkarılabilir Demleme Ünitesi ile Kolay ve Hijyenik Temizlik"
     ],
-    "image": "/images/products/appliances/dyson-v15-detect.jpg",
+    "image": "/images/products/appliances/icecat-philips-1200-serisi-ep1220-00.jpg",
     "images": [
-      "/images/products/appliances/dyson-v15-detect.jpg"
+      "/images/products/appliances/icecat-philips-1200-serisi-ep1220-00.jpg"
     ],
     "storeOffers": [
       {
@@ -19411,9 +19411,9 @@ export const mockAppliances: Product[] = [
       "VeSync Mobil Uygulama ile Wi-Fi Uzaktan Kontrol ve Tarifler",
       "12 Özelleştirilebilir Pişirme Programı ve Bulaşık Makinesinde Yıkanabilir"
     ],
-    "image": "/images/products/appliances/dyson-v15-detect.jpg",
+    "image": "/images/products/appliances/icecat-philips-5000-hd9339-80.jpg",
     "images": [
-      "/images/products/appliances/dyson-v15-detect.jpg"
+      "/images/products/appliances/icecat-philips-5000-hd9339-80.jpg"
     ],
     "storeOffers": [
       {
@@ -19533,9 +19533,9 @@ export const mockAppliances: Product[] = [
       "Akıllı Su Teknolojisi: Fincan Boyutunu Seçin, Suyu Otomatik Alsın",
       "Taşma Önleyici Akıllı Pişirme Sensörü & Dokunmatik Panel"
     ],
-    "image": "/images/products/appliances/dyson-v15-detect.jpg",
+    "image": "/images/products/appliances/icecat-philips-5000-hd9339-80.jpg",
     "images": [
-      "/images/products/appliances/dyson-v15-detect.jpg"
+      "/images/products/appliances/icecat-philips-5000-hd9339-80.jpg"
     ],
     "storeOffers": [
       {
@@ -19654,9 +19654,9 @@ export const mockAppliances: Product[] = [
       "Karaca Connect Uygulaması ile Yataktan veya İşten Çayı Hazırlama",
       "Biberon Maması ve Filtre Kahve için Özel Sıcaklık Kademeleri"
     ],
-    "image": "/images/products/appliances/dyson-v15-detect.jpg",
+    "image": "/images/products/appliances/icecat-philips-5000-hd9339-80.jpg",
     "images": [
-      "/images/products/appliances/dyson-v15-detect.jpg"
+      "/images/products/appliances/icecat-philips-5000-hd9339-80.jpg"
     ],
     "storeOffers": [
       {
@@ -19776,9 +19776,9 @@ export const mockAppliances: Product[] = [
       "BPA-Free 900 ml & 700 ml Taşınabilir Seyahat Bardakları",
       "Kolay Temizlenebilir, Saniyeler İçinde Karıştır ve Çık"
     ],
-    "image": "/images/products/appliances/dyson-v15-detect.jpg",
+    "image": "/images/products/appliances/icecat-philips-5000-hd9339-80.jpg",
     "images": [
-      "/images/products/appliances/dyson-v15-detect.jpg"
+      "/images/products/appliances/icecat-philips-5000-hd9339-80.jpg"
     ],
     "storeOffers": [
       {
