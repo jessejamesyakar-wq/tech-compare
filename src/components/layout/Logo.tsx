@@ -114,7 +114,13 @@ export function Logo({ variant = 'light', size = 'md', showEditBadge = true }: L
             isDarkTheme ? 'text-white' : 'text-slate-900 dark:text-white'
           }`}
         >
-          {logoConfig.titleText || 'aceleEtme'}
+          {logoConfig.titleText === 'aceleEtme' || !logoConfig.titleText ? (
+            <>
+              acele<span className="text-emerald-600 dark:text-emerald-400">Etme</span>
+            </>
+          ) : (
+            logoConfig.titleText
+          )}
         </span>
         <span
           className={`text-[9px] tracking-[0.2em] font-black uppercase mt-0.5 ${
