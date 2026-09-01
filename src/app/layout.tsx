@@ -5,6 +5,7 @@ import '@fontsource/plus-jakarta-sans/600.css';
 import '@fontsource/plus-jakarta-sans/700.css';
 import '@fontsource/plus-jakarta-sans/800.css';
 import './globals.css';
+import { Analytics } from '@vercel/analytics/next';
 import { I18nProvider } from '@/lib/i18n/context';
 import { CompareProvider } from '@/context/CompareContext';
 import { LogoProvider } from '@/context/LogoContext';
@@ -46,6 +47,7 @@ export default function RootLayout({
             </LogoProvider>
           </CompareProvider>
         </I18nProvider>
+        <Analytics />
       </body>
     </html>
   );
