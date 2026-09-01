@@ -37,7 +37,7 @@ export function Logo({ variant = 'light', size = 'md', showEditBadge = true }: L
   
   // Try to use context safely, or fallback to defaults
   let logoConfig = {
-    type: 'presetIcon',
+    type: 'image',
     imageUrl: '/emblem.png',
     presetIcon: 'scale',
     bgGradient: 'from-emerald-600 via-teal-600 to-emerald-500',
@@ -76,12 +76,11 @@ export function Logo({ variant = 'light', size = 'md', showEditBadge = true }: L
         className="relative shrink-0"
       >
         {logoConfig.type === 'image' && logoConfig.imageUrl ? (
-          <div className="w-11 h-11 rounded-2xl bg-slate-950 p-0.5 border-2 border-emerald-500/50 shadow-md shadow-emerald-500/20 flex items-center justify-center overflow-hidden ring-2 ring-emerald-400/20">
+          <div className="w-11 h-11 rounded-full bg-slate-950 p-0.5 border-2 border-emerald-500/60 shadow-md shadow-emerald-500/25 flex items-center justify-center overflow-hidden">
             <img
               src={logoConfig.imageUrl}
-              alt=""
-              aria-hidden="true"
-              className="w-full h-full object-cover rounded-xl"
+              alt="aceleEtme Amblem"
+              className="w-full h-full object-cover rounded-full"
             />
           </div>
         ) : (
