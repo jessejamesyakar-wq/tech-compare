@@ -4,6 +4,7 @@ import React from 'react';
 import Link from 'next/link';
 import { Product } from '@/lib/types';
 import { ArrowRight, Store } from 'lucide-react';
+import { TiltCard } from '@/components/ui/TiltCard';
 
 export interface CompactProductCardProps {
   product: Product;
@@ -120,7 +121,7 @@ export function CompactProductCard({
   }
 
   return (
-    <div className="group relative bg-white border border-slate-200/90 hover:border-slate-400/80 rounded-2xl sm:rounded-3xl p-3 sm:p-4.5 transition-all duration-300 shadow-xs hover:shadow-xl hover:-translate-y-0.5 sm:hover:-translate-y-1 flex flex-col justify-between overflow-hidden">
+    <TiltCard className="group bg-white border border-slate-200/90 hover:border-emerald-500/50 rounded-2xl sm:rounded-3xl p-3 sm:p-4.5 transition-all duration-300 shadow-xs hover:shadow-xl flex flex-col justify-between">
       {/* Product Image Box */}
       <Link href={href} className="block relative mb-1.5 sm:mb-2">
         <div className="w-full h-36 xs:h-40 sm:h-52 bg-slate-50/90 rounded-xl sm:rounded-2xl p-2.5 sm:p-4 flex items-center justify-center overflow-hidden border border-slate-100 group-hover:bg-slate-100/60 transition-colors">
@@ -227,6 +228,6 @@ export function CompactProductCard({
           <ArrowRight className="w-2.5 h-2.5 sm:w-3 sm:h-3" />
         </Link>
       </div>
-    </div>
+    </TiltCard>
   );
 }

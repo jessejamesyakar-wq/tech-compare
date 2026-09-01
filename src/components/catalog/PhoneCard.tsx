@@ -20,6 +20,7 @@ import {
   ArrowRight,
   ShieldCheck
 } from 'lucide-react';
+import { TiltCard } from '@/components/ui/TiltCard';
 
 interface PhoneCardProps {
   phone: Smartphone;
@@ -120,14 +121,7 @@ export function PhoneCard({ phone, index = 0 }: PhoneCardProps) {
   const [imgSrc, setImgSrc] = React.useState(phone.image || fallbackImg);
 
   return (
-    <motion.div
-      layout
-      initial={{ opacity: 0, scale: 0.96 }}
-      animate={{ opacity: 1, scale: 1 }}
-      exit={{ opacity: 0, scale: 0.96 }}
-      transition={{ duration: 0.25, delay: Math.min(index * 0.02, 0.2) }}
-      className="group relative bg-white border border-slate-200/90 hover:border-emerald-500/60 rounded-2xl p-3.5 transition-all duration-200 shadow-2xs hover:shadow-lg flex flex-col justify-between overflow-hidden cursor-pointer"
-    >
+    <TiltCard className="group bg-white border border-slate-200/90 hover:border-emerald-500/60 rounded-2xl p-3.5 transition-all duration-200 shadow-2xs hover:shadow-lg flex flex-col justify-between cursor-pointer">
       {/* Vatan Bilgisayar Tarzı Sol Üst Köşe Badgeleri */}
       <div className="absolute top-2.5 left-2.5 z-10 flex flex-col gap-1 items-start">
         {phone.isPopular && (
@@ -264,6 +258,6 @@ export function PhoneCard({ phone, index = 0 }: PhoneCardProps) {
           </motion.button>
         </Link>
       </div>
-    </motion.div>
+    </TiltCard>
   );
 }
