@@ -525,10 +525,13 @@ export async function getDynamicCategoryDistributionProducts(total: number = 20)
   }
   const topTVs = curatedTVs.slice(0, tvCount);
 
-  const topAppliances = sortPopular(appliances).slice(0, applianceCount);
-  const topTablets = sortPopular(tablets).slice(0, tabletCount);
-  const topSmartwatches = sortPopular(smartwatches).slice(0, smartwatchCount);
-  const topHeadphones = sortPopular(headphones).slice(0, headphoneCount);
+  const topLaptops = sortPopular(all.filter((p) => p.category === 'laptops')).slice(0, 4);
+  const topConsoles = sortPopular(all.filter((p) => p.category === 'consoles')).slice(0, 3);
+  const topMonitors = sortPopular(all.filter((p) => p.category === 'monitors')).slice(0, 3);
+  const topAppliances = sortPopular(appliances).slice(0, 4);
+  const topTablets = sortPopular(tablets).slice(0, 3);
+  const topSmartwatches = sortPopular(smartwatches).slice(0, 3);
+  const topHeadphones = sortPopular(headphones).slice(0, 4);
 
   // Fallbacks: if any list is empty, borrow from top products or provide safe defaults
   const fallbackProduct = (cat: string, fallbackName: string): Product => ({
@@ -550,21 +553,28 @@ export async function getDynamicCategoryDistributionProducts(total: number = 20)
   });
 
   const safePhones = topPhones.length > 0 ? topPhones : [fallbackProduct('smartphones', 'Samsung Galaxy S26 Ultra')];
-  const safeTVs = topTVs.length > 0 ? topTVs : [fallbackProduct('tvs', 'Samsung 65" Neo QLED 4K TV')];
+  const safeLaptops = topLaptops.length > 0 ? topLaptops : [fallbackProduct('laptops', 'Apple MacBook Pro 14" M3 Pro')];
+  const safeTVs = topTVs.length > 0 ? topTVs : [fallbackProduct('tvs', 'LG OLED55C4 55" 4K OLED evo TV')];
   const safeAppliances = topAppliances.length > 0 ? topAppliances : [fallbackProduct('appliances', 'Dyson Gen5detect Kablosuz Süpürge')];
-  const safeTablets = topTablets.length > 0 ? topTablets : [fallbackProduct('tablets', 'Apple iPad Pro M4 11"')];
-  const safeSmartwatches = topSmartwatches.length > 0 ? topSmartwatches : [fallbackProduct('smartwatches', 'Apple Watch Ultra 2')];
-  const safeHeadphones = topHeadphones.length > 0 ? topHeadphones : [fallbackProduct('headphones', 'Apple AirPods Pro 2 USB-C')];
+  const safeConsoles = topConsoles.length > 0 ? topConsoles : [fallbackProduct('consoles', 'Sony PlayStation 5 Pro 2TB')];
+  const safeHeadphones = topHeadphones.length > 0 ? topHeadphones : [fallbackProduct('headphones', 'Sony WH-1000XM5 ANC Kulaklık')];
+  const safeSmartwatches = topSmartwatches.length > 0 ? topSmartwatches : [fallbackProduct('smartwatches', 'Apple Watch Series 10 46mm')];
+  const safeTablets = topTablets.length > 0 ? topTablets : [fallbackProduct('tablets', 'Apple iPad Pro 13" M4 OLED')];
+  const safeMonitors = topMonitors.length > 0 ? topMonitors : [fallbackProduct('monitors', 'ASUS ROG Swift OLED 240Hz')];
 
-  // Interleave harmoniously: Phone, TV, Appliance, Phone, Tablet, Smartwatch, Phone, TV, Headphone, etc.
+  // Interleave harmoniously across all 9 categories:
+  // Phone -> Laptop -> TV -> Appliance -> Console -> Headphone -> Watch -> Tablet -> Monitor
   const interleaved: Product[] = [];
   const pools = [
-    { list: [...safePhones], weight: 4 },
-    { list: [...safeTVs], weight: 2 },
-    { list: [...safeAppliances], weight: 1 },
-    { list: [...safeTablets], weight: 1 },
-    { list: [...safeSmartwatches], weight: 1 },
-    { list: [...safeHeadphones], weight: 1 }
+    { list: [...safePhones] },
+    { list: [...safeLaptops] },
+    { list: [...safeTVs] },
+    { list: [...safeAppliances] },
+    { list: [...safeConsoles] },
+    { list: [...safeHeadphones] },
+    { list: [...safeSmartwatches] },
+    { list: [...safeTablets] },
+    { list: [...safeMonitors] }
   ];
 
   while (interleaved.length < total) {
@@ -583,12 +593,15 @@ export async function getDynamicCategoryDistributionProducts(total: number = 20)
     total: interleaved.length,
     items: interleaved,
     categoryBreakdown: {
-      smartphones: { count: safePhones.length, ratio: 0.40, items: safePhones },
-      tvs: { count: safeTVs.length, ratio: 0.20, items: safeTVs },
+      smartphones: { count: safePhones.length, ratio: 0.25, items: safePhones },
+      laptops: { count: safeLaptops.length, ratio: 0.15, items: safeLaptops },
+      tvs: { count: safeTVs.length, ratio: 0.15, items: safeTVs },
       appliances: { count: safeAppliances.length, ratio: 0.10, items: safeAppliances },
-      tablets: { count: safeTablets.length, ratio: 0.10, items: safeTablets },
-      smartwatches: { count: safeSmartwatches.length, ratio: 0.10, items: safeSmartwatches },
-      headphones: { count: safeHeadphones.length, ratio: 0.10, items: safeHeadphones }
+      consoles: { count: safeConsoles.length, ratio: 0.10, items: safeConsoles },
+      headphones: { count: safeHeadphones.length, ratio: 0.10, items: safeHeadphones },
+      smartwatches: { count: safeSmartwatches.length, ratio: 0.05, items: safeSmartwatches },
+      tablets: { count: safeTablets.length, ratio: 0.05, items: safeTablets },
+      monitors: { count: safeMonitors.length, ratio: 0.05, items: safeMonitors }
     }
   };
 }

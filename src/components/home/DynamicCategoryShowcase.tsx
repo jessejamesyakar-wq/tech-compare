@@ -6,77 +6,110 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { Product } from '@/lib/types';
 import { getDynamicCategoryDistributionProducts, DynamicCategoryDistribution } from '@/lib/data';
 import { useCompare } from '@/context/CompareContext';
+import { TiltCard } from '@/components/ui/TiltCard';
 import {
   Sparkles,
   Zap,
   Scale,
   Check,
   Star,
-  ShoppingBag,
   ArrowRight,
   Smartphone as PhoneIcon,
   Tv as TvIcon,
   Headphones as HeadphoneIcon,
   Watch,
   Tablet as TabletIcon,
+  Laptop as LaptopIcon,
+  Gamepad2,
+  Monitor as MonitorIcon,
   Flame,
   Award,
-  Layers
+  Layers,
+  Store
 } from 'lucide-react';
 
 const CATEGORY_CONFIG: Record<
   string,
-  { label: string; shortLabel: string; ratio: string; color: string; badgeBg: string; icon: React.ComponentType<{ className?: string }> }
+  {
+    label: string;
+    shortLabel: string;
+    emoji: string;
+    badgeStyle: string;
+    icon: React.ComponentType<{ className?: string }>;
+  }
 > = {
   smartphones: {
     label: 'Akıllı Telefonlar',
     shortLabel: 'Telefon',
-    ratio: '%40',
-    color: 'text-blue-600 border-blue-200 bg-blue-50',
-    badgeBg: 'bg-blue-600 text-white',
+    emoji: '📱',
+    badgeStyle: 'bg-blue-50 text-blue-700 border-blue-200',
     icon: PhoneIcon
+  },
+  laptops: {
+    label: 'Laptop & Bilgisayar',
+    shortLabel: 'Laptop',
+    emoji: '💻',
+    badgeStyle: 'bg-slate-100 text-slate-800 border-slate-200',
+    icon: LaptopIcon
   },
   tvs: {
     label: 'Televizyonlar',
     shortLabel: 'TV',
-    ratio: '%20',
-    color: 'text-purple-600 border-purple-200 bg-purple-50',
-    badgeBg: 'bg-purple-600 text-white',
+    emoji: '📺',
+    badgeStyle: 'bg-purple-50 text-purple-700 border-purple-200',
     icon: TvIcon
   },
   appliances: {
-    label: 'Ev ve Yaşam Teknolojileri',
-    shortLabel: 'Ev & Yaşam',
-    ratio: '%10',
-    color: 'text-amber-600 border-amber-200 bg-amber-50',
-    badgeBg: 'bg-amber-600 text-white',
+    label: 'Ev ve Yaşam',
+    shortLabel: 'Ev Aleti',
+    emoji: '⚡',
+    badgeStyle: 'bg-amber-50 text-amber-700 border-amber-200',
     icon: Zap
   },
-  tablets: {
-    label: 'Tabletler',
-    shortLabel: 'Tablet',
-    ratio: '%10',
-    color: 'text-emerald-600 border-emerald-200 bg-emerald-50',
-    badgeBg: 'bg-emerald-600 text-white',
-    icon: TabletIcon
-  },
-  smartwatches: {
-    label: 'Akıllı Saatler',
-    shortLabel: 'Saat',
-    ratio: '%10',
-    color: 'text-rose-600 border-rose-200 bg-rose-50',
-    badgeBg: 'bg-rose-600 text-white',
-    icon: Watch
+  consoles: {
+    label: 'Oyun Konsolları',
+    shortLabel: 'Konsol',
+    emoji: '🎮',
+    badgeStyle: 'bg-indigo-50 text-indigo-700 border-indigo-200',
+    icon: Gamepad2
   },
   headphones: {
     label: 'Ses & Kulaklık',
     shortLabel: 'Kulaklık',
-    ratio: '%10',
-    color: 'text-teal-600 border-teal-200 bg-teal-50',
-    badgeBg: 'bg-teal-600 text-white',
+    emoji: '🎧',
+    badgeStyle: 'bg-teal-50 text-teal-700 border-teal-200',
     icon: HeadphoneIcon
+  },
+  smartwatches: {
+    label: 'Akıllı Saatler',
+    shortLabel: 'Saat',
+    emoji: '⌚',
+    badgeStyle: 'bg-rose-50 text-rose-700 border-rose-200',
+    icon: Watch
+  },
+  tablets: {
+    label: 'Tabletler',
+    shortLabel: 'Tablet',
+    emoji: '📱',
+    badgeStyle: 'bg-emerald-50 text-emerald-700 border-emerald-200',
+    icon: TabletIcon
+  },
+  monitors: {
+    label: 'Monitörler',
+    shortLabel: 'Monitör',
+    emoji: '🖥️',
+    badgeStyle: 'bg-cyan-50 text-cyan-700 border-cyan-200',
+    icon: MonitorIcon
   }
 };
+
+const DYNAMIC_BADGES = [
+  { text: '🔥 Trend #1', style: 'bg-emerald-50 text-emerald-700 border-emerald-200' },
+  { text: '⭐ Editörün Seçimi', style: 'bg-amber-50 text-amber-700 border-amber-200' },
+  { text: '🏆 En Yüksek Puan', style: 'bg-purple-50 text-purple-700 border-purple-200' },
+  { text: '⚡ Fırsat Fiyat', style: 'bg-rose-50 text-rose-700 border-rose-200' },
+  { text: '✨ Çok Satan', style: 'bg-blue-50 text-blue-700 border-blue-200' }
+];
 
 export function DynamicCategoryShowcase() {
   const { addToCompare, removeFromCompare, isInCompare } = useCompare();
@@ -88,7 +121,7 @@ export function DynamicCategoryShowcase() {
     async function load() {
       try {
         setIsLoading(true);
-        const res = await getDynamicCategoryDistributionProducts(20);
+        const res = await getDynamicCategoryDistributionProducts(24);
         setDistributionData(res);
       } catch (e) {
         console.error('Failed to load dynamic distribution showcase:', e);
@@ -132,45 +165,94 @@ export function DynamicCategoryShowcase() {
     }
   };
 
+  const getSpecSummary = (p: Product) => {
+    const specs = (p.specs || {}) as Record<string, any>;
+    if (p.category === 'smartphones') {
+      const screen = specs.screen?.size ? `${specs.screen.size}"` : '';
+      const chip = specs.processor?.chip ? String(specs.processor.chip).split(' ')[0] : '';
+      const cam = specs.camera?.mainMp ? `${String(specs.camera.mainMp).split(' ')[0]} MP` : '';
+      return [screen, chip, cam].filter(Boolean).join(' • ') || (p.highlights?.[0] || '');
+    } else if (p.category === 'laptops') {
+      const cpu = specs.processor ? String(specs.processor).split(' ')[0] : '';
+      const ram = specs.ramGb ? `${specs.ramGb}GB RAM` : '';
+      const gpu = specs.gpu ? String(specs.gpu).split(' ')[0] : '';
+      return [cpu, ram, gpu].filter(Boolean).join(' • ') || (p.highlights?.[0] || '');
+    } else if (p.category === 'tvs') {
+      const size = specs.screenSizeInches ? `${specs.screenSizeInches}"` : '';
+      const tech = specs.displayTech || '';
+      const hz = specs.refreshRateHz ? `${specs.refreshRateHz}Hz` : '';
+      return [size, tech, hz].filter(Boolean).join(' • ') || (p.highlights?.[0] || '');
+    } else if (p.category === 'appliances') {
+      const suction = specs.suctionPowerPa ? `${Number(specs.suctionPowerPa).toLocaleString()} Pa` : '';
+      const power = specs.powerWatts ? `${specs.powerWatts}W` : '';
+      return [suction, power].filter(Boolean).join(' • ') || (p.highlights?.[0] || '');
+    } else if (p.category === 'consoles') {
+      const res = specs.resolution || '4K 120 FPS';
+      const storage = specs.storage || '1 TB SSD';
+      return [res, storage].join(' • ');
+    } else if (p.category === 'headphones') {
+      const anc = specs.anc && specs.anc !== 'Yok' ? 'ANC' : '';
+      const bat = specs.batteryLife ? `${specs.batteryLife}` : '';
+      return [anc, bat].filter(Boolean).join(' • ') || (p.highlights?.[0] || '');
+    } else if (p.category === 'smartwatches') {
+      const size = specs.caseSize || '';
+      const gps = specs.gps ? 'GPS' : '';
+      return [size, gps].filter(Boolean).join(' • ') || (p.highlights?.[0] || '');
+    }
+    return p.highlights?.[0] || '';
+  };
+
   return (
     <section className="space-y-6 pt-4 pb-2">
-      {/* 1. Header with Category Shortcut Strip */}
-      <div className="bg-gradient-to-r from-slate-900 via-slate-800 to-indigo-950 text-white rounded-3xl p-6 sm:p-8 shadow-xl border border-slate-800 flex flex-col lg:flex-row lg:items-center justify-between gap-6 relative overflow-hidden">
+      {/* 1. Header with Glassmorphism Ambient Banner */}
+      <div className="relative overflow-hidden rounded-3xl bg-gradient-to-r from-slate-900/85 via-slate-800/80 to-emerald-950/85 backdrop-blur-xl border border-emerald-500/25 p-6 sm:p-8 text-white shadow-xl flex flex-col lg:flex-row lg:items-center justify-between gap-6">
+        
+        {/* Soft Ambient Glows */}
         <div className="absolute -top-16 -right-16 w-80 h-80 bg-emerald-500/20 rounded-full blur-3xl pointer-events-none" />
-        <div className="absolute -bottom-16 -left-16 w-80 h-80 bg-blue-500/20 rounded-full blur-3xl pointer-events-none" />
+        <div className="absolute -bottom-16 -left-16 w-80 h-80 bg-teal-500/15 rounded-full blur-3xl pointer-events-none" />
 
         <div className="space-y-2 relative z-10">
-          <div className="inline-flex items-center gap-1.5 bg-emerald-500/20 text-emerald-300 text-[11px] font-black px-3 py-1 rounded-full border border-emerald-500/30 backdrop-blur-xs">
+          <div className="inline-flex items-center gap-1.5 bg-emerald-500/20 text-emerald-300 text-[10.5px] font-black px-3 py-1 rounded-full border border-emerald-500/30 backdrop-blur-xs uppercase tracking-wider">
             <Layers className="w-3.5 h-3.5" />
-            <span>ÖNE ÇIKAN KATEGORİLER</span>
+            <span>9 KATEGORİ HARMANI</span>
           </div>
           <h2 className="text-2xl sm:text-3xl font-black tracking-tight flex items-center gap-2.5">
             <Sparkles className="w-6 h-6 text-emerald-400" />
             <span>Trend Ürünler Karma Vitrini</span>
           </h2>
           <p className="text-xs text-slate-300 font-medium max-w-xl leading-relaxed">
-            Piyasadaki en popüler ve en çok tercih edilen akıllı telefon, televizyon, ev aletleri, tablet, akıllı saat ve kulaklık modelleri listelenmektedir.
+            Piyasadaki en popüler ve en çok tercih edilen akıllı telefon, laptop, televizyon, ev aletleri, tablet, kulaklık ve konsol modelleri canlı takipte.
           </p>
         </div>
 
         {/* Category Badges Matrix */}
         <div className="grid grid-cols-3 sm:grid-cols-6 gap-2 relative z-10">
-          {Object.entries(CATEGORY_CONFIG).map(([catKey, cfg]) => {
-            const Icon = cfg.icon;
-            const isSelected = activeFilter === catKey;
+          <button
+            onClick={() => setActiveFilter('all')}
+            className={`p-2.5 rounded-2xl border text-center transition-all cursor-pointer flex flex-col items-center justify-center gap-1 min-w-[70px] ${
+              activeFilter === 'all'
+                ? 'bg-white text-slate-900 border-white font-black shadow-lg scale-105'
+                : 'bg-white/10 hover:bg-white/20 text-slate-200 border-white/10'
+            }`}
+          >
+            <span className="text-base">✨</span>
+            <span className="text-[11px] font-bold whitespace-nowrap">Tümü</span>
+          </button>
 
+          {Object.entries(CATEGORY_CONFIG).slice(0, 5).map(([catKey, cfg]) => {
+            const isSelected = activeFilter === catKey;
             return (
               <button
                 key={catKey}
                 onClick={() => setActiveFilter(activeFilter === catKey ? 'all' : catKey)}
-                className={`p-3 rounded-2xl border text-center transition-all cursor-pointer flex flex-col items-center justify-center gap-1.5 min-w-[70px] ${
+                className={`p-2.5 rounded-2xl border text-center transition-all cursor-pointer flex flex-col items-center justify-center gap-1 min-w-[70px] ${
                   isSelected
-                    ? 'bg-white text-slate-900 border-white font-extrabold shadow-lg scale-105'
-                    : 'bg-white/10 hover:bg-white/15 text-slate-200 border-white/10'
+                    ? 'bg-white text-slate-900 border-white font-black shadow-lg scale-105'
+                    : 'bg-white/10 hover:bg-white/20 text-slate-200 border-white/10'
                 }`}
               >
-                <Icon className="w-5 h-5" />
-                <span className="text-xs font-bold whitespace-nowrap">{cfg.shortLabel}</span>
+                <span className="text-base">{cfg.emoji}</span>
+                <span className="text-[11px] font-bold whitespace-nowrap">{cfg.shortLabel}</span>
               </button>
             );
           })}
@@ -188,12 +270,13 @@ export function DynamicCategoryShowcase() {
           }`}
         >
           <Flame className="w-3.5 h-3.5 text-amber-500" />
-          <span>Tüm Kategoriler</span>
+          <span>Tüm Kategoriler ({distributionData.items.length})</span>
         </button>
 
         {Object.entries(CATEGORY_CONFIG).map(([catKey, cfg]) => {
           const Icon = cfg.icon;
           const isSelected = activeFilter === catKey;
+          const count = distributionData.items.filter((p) => p.category === catKey).length;
 
           return (
             <button
@@ -206,150 +289,124 @@ export function DynamicCategoryShowcase() {
               }`}
             >
               <Icon className="w-3.5 h-3.5" />
-              <span>{cfg.label}</span>
+              <span>{cfg.label} {count > 0 && `(${count})`}</span>
             </button>
           );
         })}
       </div>
 
-      {/* 3. Products Grid (4 Columns) */}
+      {/* 3. Products Grid (Apple/Stripe 3D Tilt Cards) */}
       <motion.div layout className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
         <AnimatePresence>
           {displayedItems.map((product, idx) => {
             const inCompare = isInCompare(product.id);
             const cfg = CATEGORY_CONFIG[product.category] || CATEGORY_CONFIG.smartphones;
-            const CatIcon = cfg.icon;
-            const score100 = Math.round((product.rating || 4.7) * 20);
+            const badge = DYNAMIC_BADGES[idx % DYNAMIC_BADGES.length];
             const href = getProductHref(product);
-
-            const handleCompareClick = (e: React.MouseEvent) => {
-              e.preventDefault();
-              e.stopPropagation();
-              if (inCompare) {
-                removeFromCompare(product.id);
-              } else {
-                addToCompare(product);
-              }
-            };
+            const offers = product.storeOffers || [];
+            const offerCount = offers.length > 0 ? offers.length : 3;
+            const prices = offers.map((o) => o.price).filter((p) => p > 0);
+            const minPrice = prices.length > 0 ? Math.min(...prices) : product.basePrice;
+            const specSub = getSpecSummary(product);
 
             return (
-              <motion.div
+              <TiltCard
                 key={product.id}
-                layout
-                initial={{ opacity: 0, y: 15 }}
-                animate={{ opacity: 1, y: 0 }}
-                exit={{ opacity: 0, scale: 0.95 }}
-                transition={{ duration: 0.25, delay: idx * 0.02 }}
-                className="group relative bg-white border border-slate-200/90 hover:border-emerald-500/60 rounded-2xl p-3.5 sm:p-4 transition-all duration-200 shadow-2xs hover:shadow-xl flex flex-col justify-between overflow-hidden"
+                className="group bg-white border border-slate-200/90 hover:border-emerald-500/50 rounded-3xl p-4.5 transition-all duration-300 shadow-xs hover:shadow-xl flex flex-col justify-between"
               >
-                {/* Top Floating Badges */}
-                <div className="flex items-center justify-between gap-1.5 mb-2 relative z-10">
-                  <span className={`text-[10px] font-black px-2.5 py-0.5 rounded-full border flex items-center gap-1 ${cfg.color}`}>
-                    <CatIcon className="w-3 h-3" />
-                    <span>{cfg.shortLabel}</span>
-                  </span>
-
-                  <button
-                    onClick={handleCompareClick}
-                    className={`p-1.5 rounded-full border text-xs font-semibold flex items-center gap-1 transition-all cursor-pointer ${
-                      inCompare
-                        ? 'bg-emerald-600 text-white border-emerald-500 shadow-xs font-extrabold'
-                        : 'bg-slate-50 text-slate-700 border-slate-200 hover:border-slate-300 shadow-2xs'
-                    }`}
-                    title="Kıyaslama Listesine Ekle"
-                  >
-                    {inCompare ? <Check className="w-3 h-3 stroke-[3]" /> : <Scale className="w-3 h-3" />}
-                    <span className="text-[9px]">{inCompare ? 'Listede' : 'Kıyasla'}</span>
-                  </button>
-                </div>
-
                 <div>
-                  {/* Product Image Stage */}
-                  <Link href={href} className="block relative my-2">
-                    <div className="w-full h-44 sm:h-48 rounded-xl bg-slate-50 border border-slate-100 p-3 sm:p-4 flex items-center justify-center overflow-hidden relative group-hover:bg-slate-100/80 transition-all">
+                  {/* Top Category Badge & Dynamic Badge */}
+                  <div className="flex items-center justify-between gap-1.5 mb-2.5">
+                    <span className={`text-[10px] font-black px-2.5 py-0.5 rounded-full border flex items-center gap-1 ${cfg.badgeStyle}`}>
+                      <span>{cfg.emoji}</span>
+                      <span>{cfg.shortLabel}</span>
+                    </span>
+
+                    <span className={`text-[10px] font-black px-2 py-0.5 rounded-md border ${badge.style}`}>
+                      {badge.text}
+                    </span>
+                  </div>
+
+                  {/* Product Image Box */}
+                  <Link href={href} className="block relative mb-2.5">
+                    <div className="w-full h-44 bg-slate-50/90 rounded-2xl p-3.5 flex items-center justify-center overflow-hidden border border-slate-100 group-hover:bg-slate-100/60 transition-colors">
                       <img
-                        src={product.image || 'https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=800&auto=format&fit=crop&q=80'}
+                        src={product.image}
                         alt={product.name}
                         loading="lazy"
-                        className="max-h-full max-w-full w-auto h-auto object-contain group-hover:scale-105 transition-transform duration-300 drop-shadow-xs"
+                        className="max-h-full max-w-full w-auto h-auto object-contain group-hover:scale-105 transition-transform duration-300 ease-out drop-shadow-xs"
                       />
-
-                      <span className="absolute bottom-2 left-2 bg-slate-900/90 backdrop-blur-md text-white text-[9px] font-black px-2 py-0.5 rounded-md flex items-center gap-1 shadow-md">
-                        <Award className="w-3 h-3 text-amber-400" />
-                        <span>{score100} / 100</span>
-                      </span>
-
-                      {product.isPopular && (
-                        <span className="absolute top-2 right-2 bg-emerald-50 text-emerald-700 border border-emerald-200 text-[9px] font-black px-2 py-0.5 rounded-full flex items-center gap-0.5 shadow-2xs">
-                          <Zap className="w-2.5 h-2.5 fill-emerald-600 text-emerald-600" />
-                          <span>Trend</span>
-                        </span>
-                      )}
                     </div>
                   </Link>
 
-                  {/* Brand & Name */}
-                  <div className="space-y-1 mt-2">
-                    <div className="flex items-center justify-between text-[11px] text-slate-500 font-bold">
-                      <span className="uppercase tracking-wider text-slate-400 font-black">{product.brand}</span>
-                      <div className="flex items-center gap-1 text-amber-500 font-black">
-                        <Star className="w-3 h-3 fill-amber-400 text-amber-400" />
-                        <span>{product.rating}</span>
-                        <span className="text-slate-400 text-[10px] font-medium">({product.reviewCount})</span>
+                  {/* Product Brand & Title */}
+                  <div className="space-y-0.5">
+                    <span className="text-[10px] font-bold text-slate-400 uppercase tracking-wider block">
+                      {product.brand}
+                    </span>
+
+                    <Link href={href} className="block">
+                      <h4 className="text-xs sm:text-sm font-black text-slate-900 group-hover:text-emerald-700 transition-colors line-clamp-2 leading-snug">
+                        {product.name}
+                      </h4>
+                    </Link>
+
+                    {specSub && (
+                      <p className="text-[10.5px] text-slate-500 font-medium line-clamp-1 pt-0.5">
+                        {specSub}
+                      </p>
+                    )}
+                  </div>
+                </div>
+
+                {/* Seller & Price Comparison Info */}
+                <div className="mt-3 pt-2.5 border-t border-slate-100/90 space-y-2">
+                  <div className="flex items-baseline justify-between">
+                    <div>
+                      <span className="text-[9px] font-bold text-slate-400 uppercase tracking-wider block">
+                        En İyi Fiyat
+                      </span>
+                      <div className="text-base sm:text-lg font-black text-slate-900 tracking-tight tabular-nums">
+                        ₺{minPrice.toLocaleString()}
                       </div>
                     </div>
 
-                    <Link href={href} className="block group-hover:text-emerald-600 transition-colors">
-                      <h3 className="text-xs sm:text-sm font-black text-slate-900 line-clamp-2 leading-snug">
-                        {product.name}
-                      </h3>
+                    <span className="text-emerald-700 font-bold lowercase flex items-center gap-1 text-[10px] sm:text-[11px] bg-emerald-50 px-2 py-0.5 rounded-md border border-emerald-200">
+                      <Store className="w-3 h-3" />
+                      {offerCount} satıcı
+                    </span>
+                  </div>
+
+                  {/* Compare Prices Link */}
+                  <div className="flex items-center gap-2 pt-0.5">
+                    <Link
+                      href={href}
+                      className="flex-1 bg-slate-900 hover:bg-emerald-600 text-white text-xs font-bold py-2 px-3 rounded-xl flex items-center justify-center gap-1.5 transition-all shadow-xs"
+                    >
+                      <span>İncele</span>
+                      <ArrowRight className="w-3 h-3" />
                     </Link>
+
+                    <button
+                      onClick={() => (inCompare ? removeFromCompare(product.id) : addToCompare(product))}
+                      className={`p-2 rounded-xl border text-xs font-bold transition-all shadow-2xs cursor-pointer ${
+                        inCompare
+                          ? 'bg-emerald-600 text-white border-emerald-500'
+                          : 'bg-white text-slate-700 border-slate-200 hover:bg-slate-50'
+                      }`}
+                      title="Kıyasla"
+                    >
+                      {inCompare ? <Check className="w-4 h-4 stroke-[3]" /> : <Scale className="w-4 h-4" />}
+                    </button>
                   </div>
                 </div>
-
-                {/* Bottom: Price & 8-Store Tracking Badge */}
-                <div className="pt-3 mt-3 border-t border-slate-100 space-y-2">
-                  <div className="flex items-center justify-between">
-                    <div>
-                      <span className="text-[10px] text-slate-400 font-bold block">Başlangıç Fiyatı</span>
-                      <span className="text-base sm:text-lg font-black text-emerald-600">
-                        {product.basePrice > 0 ? `${product.basePrice.toLocaleString('tr-TR')} ${product.currency || 'TL'}` : 'Fiyat Güncelleniyor'}
-                      </span>
-                    </div>
-
-                    <div className="text-right">
-                      <span className="bg-slate-100 text-slate-700 text-[9px] font-extrabold px-2 py-1 rounded-md border border-slate-200 flex items-center gap-1">
-                        <ShoppingBag className="w-3 h-3 text-emerald-600" />
-                        <span>8 Mağaza</span>
-                      </span>
-                    </div>
-                  </div>
-
-                  {/* Action Link Button */}
-                  <Link
-                    href={href}
-                    className="w-full bg-slate-50 hover:bg-emerald-600 text-slate-700 hover:text-white text-[11px] font-black py-2 rounded-xl border border-slate-200 hover:border-emerald-600 transition-all flex items-center justify-center gap-1.5 shadow-2xs group/btn cursor-pointer"
-                  >
-                    <span>Fiyatları ve Detayları Gör</span>
-                    <ArrowRight className="w-3.5 h-3.5 group-hover/btn:translate-x-0.5 transition-transform" />
-                  </Link>
-                </div>
-              </motion.div>
+              </TiltCard>
             );
           })}
         </AnimatePresence>
       </motion.div>
-
-      {/* 4. Footer CTA link to full compare page */}
-      <div className="text-center pt-3 pb-2">
-        <Link
-          href="/compare"
-          className="inline-flex items-center gap-2 bg-white hover:bg-slate-50 text-slate-900 font-black text-xs px-8 py-4 rounded-full border border-slate-200 shadow-xs transition-all hover:border-emerald-400 cursor-pointer"
-        >
-          <span>Tüm Kategoriler Arasında Serbest Kıyaslama Yap</span>
-          <ArrowRight className="w-4 h-4 text-emerald-600" />
-        </Link>
-      </div>
     </section>
   );
 }
+
+export default DynamicCategoryShowcase;

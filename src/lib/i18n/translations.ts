@@ -111,7 +111,7 @@ export const translations: Record<Language, TranslationKeys> = {
     appName: 'aceleEtme',
     appTagline: '%100 Tarafsız Ürün Karşılaştırma & Fiyat Takibi',
     heroTitle: 'Akıllı Telefonları & Teknolojiyi Şeffafça Kıyaslayın',
-    heroSubtitle: 'Reklamsız, bağımsız ve 6 aylık fiyat geçmişi grafikleriyle en doğru kararı verin.',
+    heroSubtitle: 'Bağımsız, şeffaf ve 6 aylık fiyat geçmişi grafikleriyle en doğru kararı verin.',
     heroSearchBtn: 'Ürünleri Kıyasla',
     navHome: 'Ana Sayfa',
     navCatalog: 'Katalog',

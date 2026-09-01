@@ -15,7 +15,7 @@ import { LogoModal } from '@/components/layout/LogoModal';
 
 export const metadata: Metadata = {
   title: 'aceleEtme | Akıllı Telefon, TV & Teknoloji Karşılaştırma ve Fiyat Takip Platformu',
-  description: 'Türkiye’nin %100 tarafsız, reklamsız akıllı telefon, bilgisayar ve teknoloji karşılaştırma platformu. 8 mağaza canlı fiyat kıyaslaması ve fiyat geçmişi grafikleri.',
+  description: 'Türkiye’nin %100 bağımsız ve algoritmik akıllı telefon, bilgisayar ve teknoloji karşılaştırma platformu. 8 mağaza canlı fiyat kıyaslaması ve fiyat geçmişi grafikleri.',
   manifest: '/manifest.json',
 };
 

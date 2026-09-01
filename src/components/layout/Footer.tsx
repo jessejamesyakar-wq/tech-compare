@@ -24,7 +24,7 @@ export function Footer() {
               </span>
             </Link>
             <p className="text-xs leading-relaxed text-slate-400">
-              Türkiye&apos;nin reklamsız, %100 bağımsız ve algoritmik akıllı telefon, bilgisayar ve teknoloji karşılaştırma kılavuzu. Piyasadaki tüm fırsatları şeffaf bir şekilde analiz eder.
+              Türkiye&apos;nin %100 bağımsız ve algoritmik akıllı telefon, bilgisayar ve teknoloji karşılaştırma kılavuzu. Piyasadaki tüm fırsatları şeffaf bir şekilde analiz eder.
             </p>
           </div>
 
