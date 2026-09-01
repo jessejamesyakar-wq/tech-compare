@@ -76,11 +76,11 @@ export function Logo({ variant = 'light', size = 'md', showEditBadge = true }: L
         className="relative shrink-0"
       >
         {logoConfig.type === 'image' && logoConfig.imageUrl ? (
-          <div className="w-11 h-11 rounded-full bg-slate-950 p-0.5 border-2 border-emerald-500/60 shadow-md shadow-emerald-500/25 flex items-center justify-center overflow-hidden">
+          <div className="w-11 h-11 sm:w-12 sm:h-12 rounded-full flex items-center justify-center overflow-hidden shrink-0">
             <img
               src={logoConfig.imageUrl}
               alt="aceleEtme Amblem"
-              className="w-full h-full object-cover rounded-full"
+              className="w-full h-full object-contain"
             />
           </div>
         ) : (
