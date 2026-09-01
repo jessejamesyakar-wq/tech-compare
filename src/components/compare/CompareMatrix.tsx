@@ -6,6 +6,7 @@ import { motion } from 'framer-motion';
 import { Product, Smartphone, TVProduct, LaptopProduct } from '@/lib/types';
 import { useI18n } from '@/lib/i18n/context';
 import { useCompare } from '@/context/CompareContext';
+import { PriceDisclaimer } from '@/components/legal/PriceDisclaimer';
 import { CompareVerdictCard } from './CompareVerdictCard';
 import {
   Scale,
@@ -516,6 +517,9 @@ export function CompareMatrix({ products }: CompareMatrixProps) {
           </table>
         </div>
       </div>
+
+      {/* Legal & Price Transparency Disclaimer */}
+      <PriceDisclaimer variant="card" />
     </div>
   );
 }

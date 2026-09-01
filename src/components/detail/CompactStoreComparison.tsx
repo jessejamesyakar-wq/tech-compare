@@ -1,11 +1,13 @@
 'use client';
 
-import React from 'react';
+import React, { useState } from 'react';
 import { StoreOffer } from '@/lib/types';
 import { useI18n } from '@/lib/i18n/context';
 import { ShoppingBag, ExternalLink, Clock } from 'lucide-react';
 import { ProductLike, isEligibleForLivePriceComparison } from '@/lib/releaseYearFilter';
 import { HistoricalRetroShowcase } from './HistoricalRetroShowcase';
+import { OutboundPriceModal } from '@/components/outbound/OutboundPriceModal';
+import { PriceDisclaimer } from '@/components/legal/PriceDisclaimer';
 
 interface CompactStoreComparisonProps {
   offers: StoreOffer[];
@@ -28,6 +30,19 @@ const REQUIRED_RETAILERS = [
 
 export function CompactStoreComparison({ offers = [], basePrice, currency, product }: CompactStoreComparisonProps) {
   const { t } = useI18n();
+  const [outboundModal, setOutboundModal] = useState<{
+    isOpen: boolean;
+    productName: string;
+    storeName: string;
+    price: number;
+    targetUrl: string;
+  }>({
+    isOpen: false,
+    productName: '',
+    storeName: '',
+    price: 0,
+    targetUrl: ''
+  });
 
   // If product is a historical/retro model (pre-2018 non-Samsung/Apple), render the dedicated Retro Showcase
   if (product && !isEligibleForLivePriceComparison(product)) {
@@ -39,12 +54,6 @@ export function CompactStoreComparison({ offers = [], basePrice, currency, produ
   const effectiveBasePrice =
     realOffers.length > 0 ? Math.min(...realOffers.map((o) => o.price)) : basePrice > 0 ? basePrice : 0;
 
-  /**
-   * LIVE DATA INTEGRATION POINT:
-   * Maps product offers to all 8 target retailers.
-   * If a real offer is provided in `offers`, use its exact price & URL.
-   * Otherwise, calculate a realistic non-undercutting store price from effectiveBasePrice.
-   */
   const mappedStores = REQUIRED_RETAILERS.map((retailer, idx) => {
     const matchedOffer = offers.find((o) => o.storeName.toLowerCase().includes(retailer.keyword));
 
@@ -80,8 +89,18 @@ export function CompactStoreComparison({ offers = [], basePrice, currency, produ
   // Sort all 8 active stores lowest price first
   const sortedStores = [...mappedStores].sort((a, b) => (a.price || 0) - (b.price || 0));
 
+  const handleGoToStore = (store: typeof mappedStores[0]) => {
+    setOutboundModal({
+      isOpen: true,
+      productName: product?.name || 'Seçili Ürün',
+      storeName: store.name,
+      price: store.price || effectiveBasePrice,
+      targetUrl: store.url
+    });
+  };
+
   return (
-    <div className="bg-white border border-slate-200/90 rounded-2xl p-4 space-y-3 shadow-xs my-4">
+    <div className="bg-white border border-slate-200/90 rounded-2xl p-4 space-y-3.5 shadow-xs my-4">
       
       {/* Header with CANLI Badge & Last Updated Timestamp */}
       <div className="flex items-center justify-between border-b border-slate-100 pb-2.5">
@@ -146,21 +165,34 @@ export function CompactStoreComparison({ offers = [], basePrice, currency, produ
                   </span>
                 )}
 
-                <a
-                  href={store.url}
-                  target="_blank"
-                  rel="noopener noreferrer"
+                <button
+                  onClick={() => handleGoToStore(store)}
                   className="bg-emerald-600 hover:bg-emerald-500 text-white font-extrabold text-[10px] px-2.5 py-1 rounded-lg transition-all flex items-center gap-1 shadow-2xs cursor-pointer"
                   title={`${store.name} Mağazasına Git`}
                 >
                   <span>Git</span>
                   <ExternalLink className="w-2.5 h-2.5" />
-                </a>
+                </button>
               </div>
             </div>
           );
         })}
       </div>
+
+      {/* Mini Disclaimer in buybox */}
+      <PriceDisclaimer variant="compact" />
+
+      {/* Outbound Confirmation & Verification Modal */}
+      <OutboundPriceModal
+        isOpen={outboundModal.isOpen}
+        onClose={() => setOutboundModal((prev) => ({ ...prev, isOpen: false }))}
+        productName={outboundModal.productName}
+        storeName={outboundModal.storeName}
+        price={outboundModal.price}
+        targetUrl={outboundModal.targetUrl}
+      />
     </div>
   );
 }
+
+export default CompactStoreComparison;

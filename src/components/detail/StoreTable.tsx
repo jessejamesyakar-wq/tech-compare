@@ -1,11 +1,13 @@
 'use client';
 
-import React from 'react';
+import React, { useState } from 'react';
 import { StoreOffer } from '@/lib/types';
 import { useI18n } from '@/lib/i18n/context';
 import { ShoppingBag, Star, ExternalLink, ShieldCheck, Award } from 'lucide-react';
 import { ProductLike, isEligibleForLivePriceComparison } from '@/lib/releaseYearFilter';
 import { HistoricalRetroShowcase } from './HistoricalRetroShowcase';
+import { OutboundPriceModal } from '@/components/outbound/OutboundPriceModal';
+import { PriceDisclaimer } from '@/components/legal/PriceDisclaimer';
 
 interface StoreTableProps {
   offers: StoreOffer[];
@@ -26,6 +28,19 @@ const ALL_STORE_DEFAULTS = [
 
 export function StoreTable({ offers = [], currency, product }: StoreTableProps) {
   const { t } = useI18n();
+  const [outboundModal, setOutboundModal] = useState<{
+    isOpen: boolean;
+    productName: string;
+    storeName: string;
+    price: number;
+    targetUrl: string;
+  }>({
+    isOpen: false,
+    productName: '',
+    storeName: '',
+    price: 0,
+    targetUrl: ''
+  });
 
   // If product is a historical/retro model (pre-2018 non-Samsung/Apple), render the dedicated Retro Showcase
   if (product && !isEligibleForLivePriceComparison(product)) {
@@ -66,8 +81,18 @@ export function StoreTable({ offers = [], currency, product }: StoreTableProps) 
   // Sorted by lowest price first
   const sortedOffers = [...combinedOffers].sort((a, b) => a.price - b.price);
 
+  const handleGoToStore = (offer: typeof combinedOffers[0]) => {
+    setOutboundModal({
+      isOpen: true,
+      productName: product?.name || 'Seçili Ürün',
+      storeName: offer.storeName,
+      price: offer.price,
+      targetUrl: offer.url
+    });
+  };
+
   return (
-    <div className="bg-white border border-slate-200 rounded-3xl p-6 sm:p-8 space-y-4 shadow-xs">
+    <div className="bg-white border border-slate-200 rounded-3xl p-6 sm:p-8 space-y-6 shadow-xs">
       
       {/* Table Header Title */}
       <div className="flex items-center justify-between border-b border-slate-100 pb-4">
@@ -86,10 +111,8 @@ export function StoreTable({ offers = [], currency, product }: StoreTableProps) 
       </div>
 
       {/* Stores List */}
-      <div className="space-y-3 pt-2">
+      <div className="space-y-3">
         {sortedOffers.map((offer, idx) => {
-          const storeLink = offer.url;
-
           return (
             <div
               key={offer.id}
@@ -136,15 +159,13 @@ export function StoreTable({ offers = [], currency, product }: StoreTableProps) 
                   </span>
                 </div>
 
-                <a
-                  href={storeLink}
-                  target="_blank"
-                  rel="noopener noreferrer"
+                <button
+                  onClick={() => handleGoToStore(offer)}
                   className="bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-xs sm:text-sm px-5 py-3 rounded-xl transition-all shadow-xs flex items-center gap-1.5 cursor-pointer shrink-0"
                 >
-                  <span>Mağazaya Git</span>
+                  <span>Fiyata Git</span>
                   <ExternalLink className="w-3.5 h-3.5" />
-                </a>
+                </button>
               </div>
 
             </div>
@@ -152,15 +173,21 @@ export function StoreTable({ offers = [], currency, product }: StoreTableProps) 
         })}
       </div>
 
-      {/* Trust banner */}
-      <div className="pt-2 flex items-center justify-between text-xs text-slate-400 border-t border-slate-100">
-        <span className="flex items-center gap-1.5">
-          <ShieldCheck className="w-4 h-4 text-emerald-600" />
-          <span>Fiyatlar 8 perakende mağazasından anlık olarak kontrol edilmektedir.</span>
-        </span>
-        <span className="text-[11px] text-slate-400">Son güncelleme: Az önce</span>
-      </div>
+      {/* Legal Transparency & Disclaimer Component */}
+      <PriceDisclaimer variant="card" />
+
+      {/* Outbound Confirmation & Verification Modal */}
+      <OutboundPriceModal
+        isOpen={outboundModal.isOpen}
+        onClose={() => setOutboundModal((prev) => ({ ...prev, isOpen: false }))}
+        productName={outboundModal.productName}
+        storeName={outboundModal.storeName}
+        price={outboundModal.price}
+        targetUrl={outboundModal.targetUrl}
+      />
 
     </div>
   );
 }
+
+export default StoreTable;

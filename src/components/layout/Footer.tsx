@@ -117,9 +117,13 @@ export function Footer() {
         </div>
 
         {/* Full Legal Disclaimer Box */}
-        <div className="pt-6 pb-6 border-t border-slate-800 text-[11px] leading-relaxed text-slate-400 space-y-1.5 bg-slate-950/40 p-4 sm:p-5 rounded-2xl border border-slate-800/80">
-          <p className="font-bold text-slate-300 text-xs">
-            Yasal Bilgilendirme ve Sorumluluk Reddi Beyanı:
+        <div className="pt-6 pb-6 border-t border-slate-800 text-[11px] leading-relaxed text-slate-400 space-y-2 bg-slate-950/40 p-4 sm:p-5 rounded-2xl border border-slate-800/80">
+          <p className="font-bold text-slate-200 text-xs flex items-center gap-1.5">
+            <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
+            <span>Yasal Bilgilendirme ve Sorumluluk Reddi Beyanı:</span>
+          </p>
+          <p className="text-emerald-400/90 font-semibold">
+            &ldquo;aceleEtme, anlık fiyat değişikliklerini 3üncü parti kaynaklardan toplar. Satın alma aşamasında fiyatı satıcının sitesinden teyit ediniz.&rdquo;
           </p>
           <p className="text-slate-400 text-justify sm:text-left">
             aceleEtme, internet üzerindeki çeşitli e-ticaret mağazalarına ait fiyat, stok ve ürün özelliklerini derleyerek kullanıcıya sunan bağımsız bir fiyat karşılaştırma ve yönlendirme platformudur. aceleEtme, doğrudan ürün satışı gerçekleştiren bir mağaza veya e-ticaret sitesi değildir; kullanıcıları ilgili üçüncü taraf satıcılara yönlendirir. Sitede listelenen fiyat, stok ve kampanya bilgileri anlık olarak değişiklik gösterebileceğinden, nihai ve geçerli bilgiler ilgili mağazanın kendi web sitesindedir. Mağazalardan gerçekleştirilecek alışveriş süreçlerinde, kargo teslimatlarında veya fiyat uyumsuzluklarında doğabilecek her türlü sorumluluk ilgili satıcıya ait olup, aceleEtme bu süreçlerin tarafı veya sorumlusu değildir.

@@ -1,3 +1,5 @@
+import { PriceAnomalyGuard, AnomalyRecord, priceAnomalyStore } from '@/lib/security/priceAnomalyGuard';
+
 export interface AnomalyEvaluationResult {
   isAnomaly: boolean;
   severity: 'NORMAL' | 'SUSPICIOUS' | 'CRITICAL_ANOMALY';
@@ -8,68 +10,38 @@ export interface AnomalyEvaluationResult {
 export class PriceAnomalyDetector {
   /**
    * Evaluates price change against previous historical price or base price
+   * Automatically adheres to the %30 deviation threshold.
    */
   static evaluate(
     newPrice: number,
     previousPrice?: number,
-    baseCatalogPrice?: number
+    baseCatalogPrice?: number,
+    meta?: { productId?: string; productName?: string; storeName?: string; rawUrl?: string }
   ): AnomalyEvaluationResult {
-    // Basic sanity checks
-    if (newPrice <= 0) {
+    const baseline = previousPrice || baseCatalogPrice || newPrice;
+
+    const guardResult = PriceAnomalyGuard.evaluateAndGuard({
+      productId: meta?.productId || 'unknown',
+      productName: meta?.productName || 'Ürün',
+      storeName: meta?.storeName || 'Pazaryeri Satıcısı',
+      incomingPrice: newPrice,
+      baselinePrice: baseline,
+      rawUrl: meta?.rawUrl
+    });
+
+    if (!guardResult.isAllowed) {
       return {
         isAnomaly: true,
-        severity: 'CRITICAL_ANOMALY',
-        reason: 'Geçersiz fiyat: 0 veya negatif değer',
-        changePercentage: -100,
-      };
-    }
-
-    const baseline = previousPrice || baseCatalogPrice;
-    if (!baseline || baseline <= 0) {
-      return {
-        isAnomaly: false,
-        severity: 'NORMAL',
-        changePercentage: 0,
-      };
-    }
-
-    const diff = newPrice - baseline;
-    const changePct = Number(((diff / baseline) * 100).toFixed(2));
-
-    // Sudden extreme drop (e.g. -70% or more, likely typo like 59.999 -> 599)
-    if (changePct <= -70) {
-      return {
-        isAnomaly: true,
-        severity: 'CRITICAL_ANOMALY',
-        reason: `Olağandışı aşırı fiyat düşüşü (%${changePct}). Olası hatalı ilan veya veri girişi.`,
-        changePercentage: changePct,
-      };
-    }
-
-    // Moderate suspicious drop (e.g. -50% to -70%)
-    if (changePct <= -50) {
-      return {
-        isAnomaly: true,
-        severity: 'SUSPICIOUS',
-        reason: `Yüksek fiyat düşüşü (%${changePct}). İnceleme önerilir.`,
-        changePercentage: changePct,
-      };
-    }
-
-    // Extreme price surge (e.g. +300% or more)
-    if (changePct >= 300) {
-      return {
-        isAnomaly: true,
-        severity: 'SUSPICIOUS',
-        reason: `Olağandışı aşırı fiyat artışı (%+${changePct}).`,
-        changePercentage: changePct,
+        severity: guardResult.severity === 'CRITICAL_SUSPICIOUS' ? 'CRITICAL_ANOMALY' : 'SUSPICIOUS',
+        reason: guardResult.reason,
+        changePercentage: guardResult.deviationPercentage
       };
     }
 
     return {
       isAnomaly: false,
       severity: 'NORMAL',
-      changePercentage: changePct,
+      changePercentage: guardResult.deviationPercentage
     };
   }
 }
