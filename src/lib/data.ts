@@ -438,17 +438,11 @@ export async function getAllMonitors(): Promise<Product[]> {
 export interface DynamicCategoryDistribution {
   total: number;
   items: Product[];
-  categoryBreakdown: {
-    smartphones: { count: number; ratio: number; items: Product[] };
-    tvs: { count: number; ratio: number; items: Product[] };
-    appliances: { count: number; ratio: number; items: Product[] };
-    tablets: { count: number; ratio: number; items: Product[] };
-    smartwatches: { count: number; ratio: number; items: Product[] };
-    headphones: { count: number; ratio: number; items: Product[] };
-  };
+  categoryBreakdown: Record<string, { count: number; ratio: number; items: Product[] }>;
 }
 
 export async function getDynamicCategoryDistributionProducts(total: number = 20): Promise<DynamicCategoryDistribution> {
+  const all = getStoredProducts();
   const phones = await getAllSmartphones();
   const tvs = await getAllTVs();
   const appliances = await getAllAppliances();
