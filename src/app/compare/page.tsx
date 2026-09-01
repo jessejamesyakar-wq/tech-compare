@@ -54,8 +54,8 @@ function CompareContent() {
   const [copiedLink, setCopiedLink] = useState(false);
 
   // URL Query Sync
-  const p1 = searchParams.get('p1');
-  const p2 = searchParams.get('p2');
+  const p1 = searchParams.get('p1') || searchParams.get('phone1') || searchParams.get('product1') || searchParams.get('id1');
+  const p2 = searchParams.get('p2') || searchParams.get('phone2') || searchParams.get('product2') || searchParams.get('id2');
 
   useEffect(() => {
     getAllProducts().then((res) => {

@@ -60,19 +60,19 @@ export function CompareVerdictCard({ products }: CompareVerdictCardProps) {
       const ram = specs.ramGb || 16;
       const npu = specs.npuTops || 0;
 
-      if (cpu) pros.push(`${cpu.split(' ')[0]} Yüksek Performans İşlemci`);
-      if (gpu && !gpu.toLowerCase().includes('intel') && !gpu.toLowerCase().includes('iris')) pros.push(`${gpu} Harici Grafik Kartı`);
+      if (cpu) pros.push(`${String(cpu).split(' ')[0]} Yüksek Performans İşlemci`);
+      if (gpu && !String(gpu).toLowerCase().includes('intel') && !String(gpu).toLowerCase().includes('iris')) pros.push(`${gpu} Harici Grafik Kartı`);
       if (ram >= 32) pros.push(`${ram}GB Yüksek Kapasiteli RAM`);
       if (npu > 0) pros.push(`${npu} TOPS Yapay Zekâ NPU Birimi`);
 
       con = specs.weightKg && specs.weightKg > 2.2 ? 'Ağır gövde, taşınabilirlik sınırlı' : 'Yüksek yük altında fan sesi';
-      idealFor = gpu && !gpu.toLowerCase().includes('intel')
+      idealFor = gpu && !String(gpu).toLowerCase().includes('intel')
         ? '3D render, yazılım geliştirme ve AAA oyunlar için ideal güç.'
         : 'Ofis, üniversite ve uzun pil ömrü odaklı mobil çalışma için ideal.';
     } else if (p.category === 'tvs') {
-      const tech = specs.displayTech || 'LED';
-      const hz = specs.refreshRateHz || 60;
-      const audio = specs.audioPowerWatts || 20;
+      const tech = String(specs.displayTech || 'LED');
+      const hz = Number(specs.refreshRateHz || 60);
+      const audio = Number(specs.audioPowerWatts || 20);
 
       if (tech.toLowerCase().includes('oled')) pros.push('Sonsuz Kontrast ve Kusursuz Siyah Seviyesi');
       else if (tech.toLowerCase().includes('mini')) pros.push('Yüksek Zirve Parlaklık & Mini-LED Hassasiyeti');
@@ -108,9 +108,9 @@ export function CompareVerdictCard({ products }: CompareVerdictCardProps) {
       idealFor = 'Spor, fitness ve sağlık takibi odaklı kullanıcılar için ideal.';
     } else {
       // Smartphones or Generic
-      const chip = specs.processor?.chip || specs.processor || '';
-      const cam = specs.camera?.mainMp || specs.camera || '';
-      const bat = specs.battery?.capacitymAh || specs.battery || '';
+      const chip = String(specs.processor?.chip || specs.processor || '');
+      const cam = String(specs.camera?.mainMp || specs.camera || '');
+      const bat = String(specs.battery?.capacitymAh || specs.battery || '');
 
       if (chip) pros.push(`${chip.split(' ')[0]} Zirve İşlemci Gücü`);
       if (cam) pros.push(`${cam.split(' ')[0]} Yüksek Çözünürlüklü Kamera Sistemi`);

@@ -575,13 +575,13 @@ export default function HomePage() {
           {popularComparisons.map((duel, idx) => {
             const p1 = allPhones.find((p) => p.id === duel.phone1Id || p.slug === duel.phone1Id);
             const p2 = allPhones.find((p) => p.id === duel.phone2Id || p.slug === duel.phone2Id);
-            const duelTitle = p1 && p2 ? `${p1.brand} ${p1.name.split(' ')[1]} vs ${p2.brand} ${p2.name.split(' ')[1]}` : `Karşılaştırma Düellosu #${idx + 1}`;
+            const duelTitle = p1 && p2 ? `${p1.name} vs ${p2.name}` : `Karşılaştırma Düellosu #${idx + 1}`;
             const duelDesc = `${(duel.viewCount || 10000).toLocaleString()} Canlı İnceleme`;
 
             return (
               <Link
                 key={idx}
-                href={`/compare?phone1=${duel.phone1Id}&phone2=${duel.phone2Id}`}
+                href={`/compare?p1=${duel.phone1Id}&p2=${duel.phone2Id}`}
                 className="group bg-white border border-slate-200 hover:border-emerald-400 rounded-3xl p-5 transition-all flex items-center justify-between gap-4 shadow-xs hover:shadow-md"
               >
                 <div className="space-y-1">
