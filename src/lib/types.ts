@@ -298,6 +298,7 @@ export type Product = Smartphone | TVProduct | LaptopProduct | ApplianceProduct 
 export interface StoreOffer {
   id?: string;
   storeName: string;
+  storeLogo?: string;
   storeLogoColor?: string;
   price: number;
   subsidyPrice?: number;
@@ -308,6 +309,7 @@ export interface StoreOffer {
   sellerRating?: number;
   sellerReviews?: number;
   merchantRating?: number;
+  rating?: number;
   reviewCount?: number;
   shippingFee?: number;
   freeShipping?: boolean;
