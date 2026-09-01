@@ -11,8 +11,7 @@ import {
   Flame,
   Rocket,
   Crown,
-  Sparkles,
-  Edit3
+  Sparkles
 } from 'lucide-react';
 
 const ICON_MAP: Record<string, React.ComponentType<{ className?: string }>> = {
@@ -29,10 +28,9 @@ const ICON_MAP: Record<string, React.ComponentType<{ className?: string }>> = {
 interface LogoProps {
   variant?: 'light' | 'dark';
   size?: 'sm' | 'md' | 'lg';
-  showEditBadge?: boolean;
 }
 
-export function Logo({ variant = 'light', size = 'md', showEditBadge = true }: LogoProps) {
+export function Logo({ variant = 'light', size = 'md' }: LogoProps) {
   const isDarkTheme = variant === 'dark';
   
   // Try to use context safely, or fallback to defaults
@@ -95,13 +93,6 @@ export function Logo({ variant = 'light', size = 'md', showEditBadge = true }: L
             <div className="absolute -top-1 -right-1 w-4 h-4 rounded-full bg-amber-400 text-slate-950 flex items-center justify-center shadow-xs border border-white dark:border-slate-900">
               <Cpu className="w-2.5 h-2.5 stroke-[2.5]" />
             </div>
-          </div>
-        )}
-
-        {/* Hover Edit Badge ("Amblem Değiştir") */}
-        {showEditBadge && (
-          <div className="absolute -bottom-1 -right-1 w-4 h-4 rounded-full bg-emerald-600 text-white flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity shadow-xs">
-            <Edit3 className="w-2.5 h-2.5" />
           </div>
         )}
       </motion.div>
