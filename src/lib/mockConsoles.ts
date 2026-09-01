@@ -9,7 +9,7 @@ export const mockConsoles: Product[] = [
     "category": "consoles",
     "rating": 4.95,
     "reviewCount": 860,
-    "basePrice": 63649,
+    "basePrice": 46759,
     "currency": "TL",
     "releaseYear": 2024,
     "isPopular": true,
@@ -42,93 +42,84 @@ export const mockConsoles: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "960253-0",
-        "storeName": "Amazon.com.tr",
-        "storeLogoColor": "#ff9900",
-        "price": 63649,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Distribütör Garantili",
-          "Ücretsiz Kargo"
-        ],
-        "sellerRating": 4.7,
-        "sellerReviews": 320,
-        "url": "https://www.amazon.com.tr"
-      },
-      {
-        "id": "960253-1",
         "storeName": "Hepsiburada",
-        "storeLogoColor": "#ff6000",
-        "price": 63869,
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 46999,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Aynı Gün Kargo"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 560,
-        "url": "https://www.hepsiburada.com"
+        "url": "https://www.hepsiburada.com/ara?q=Sony%20PlayStation%205%20Pro%20(PS5%20Pro)%202TB%20SSD%20Oyun%20Konsolu",
+        "rating": 4.8
       },
       {
-        "id": "960253-2",
         "storeName": "Trendyol",
-        "storeLogoColor": "#f27a1a",
-        "price": 64299,
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 47559,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Aynı Gün Kargo"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 800,
-        "url": "https://www.trendyol.com"
+        "url": "https://www.trendyol.com/sr?q=Sony%20PlayStation%205%20Pro%20(PS5%20Pro)%202TB%20SSD%20Oyun%20Konsolu",
+        "rating": 4.8
       },
       {
-        "id": "960253-3",
-        "storeName": "Vatan Bilgisayar",
-        "storeLogoColor": "#003d79",
-        "price": 64429,
-        "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Aynı Gün Kargo"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 1040,
-        "url": "https://www.vatanbilgisayar.com"
-      },
-      {
-        "id": "960253-4",
         "storeName": "MediaMarkt",
-        "storeLogoColor": "#df0000",
-        "price": 64859,
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 48169,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Aynı Gün Kargo"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 1280,
-        "url": "https://www.mediamarkt.com.tr"
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Sony%20PlayStation%205%20Pro%20(PS5%20Pro)%202TB%20SSD%20Oyun%20Konsolu",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 48639,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Sony%20PlayStation%205%20Pro%20(PS5%20Pro)%202TB%20SSD%20Oyun%20Konsolu",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 46759,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Sony%20PlayStation%205%20Pro%20(PS5%20Pro)%202TB%20SSD%20Oyun%20Konsolu",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 48319,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Sony%20PlayStation%205%20Pro%20(PS5%20Pro)%202TB%20SSD%20Oyun%20Konsolu",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-03-01",
-        "price": 68741
+        "date": "Ekim 2025",
+        "price": 53580
       },
       {
-        "date": "2026-04-15",
-        "price": 66832
+        "date": "Kasım 2025",
+        "price": 52170
       },
       {
-        "date": "2026-06-01",
-        "price": 64922
+        "date": "Aralık 2025",
+        "price": 50760
       },
       {
-        "date": "2026-08-01",
-        "price": 63649
+        "date": "Ocak 2026",
+        "price": 49350
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 47940
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 47000
       }
     ]
   },
@@ -140,7 +131,7 @@ export const mockConsoles: Product[] = [
     "category": "consoles",
     "rating": 4.86,
     "reviewCount": 700,
-    "basePrice": 38975,
+    "basePrice": 24869,
     "currency": "TL",
     "releaseYear": 2023,
     "isPopular": true,
@@ -173,93 +164,84 @@ export const mockConsoles: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "908887-0",
-        "storeName": "Amazon.com.tr",
-        "storeLogoColor": "#ff9900",
-        "price": 38975,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Distribütör Garantili",
-          "Ücretsiz Kargo"
-        ],
-        "sellerRating": 4.7,
-        "sellerReviews": 320,
-        "url": "https://www.amazon.com.tr"
-      },
-      {
-        "id": "908887-1",
         "storeName": "Hepsiburada",
-        "storeLogoColor": "#ff6000",
-        "price": 39195,
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 24999,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Aynı Gün Kargo"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 560,
-        "url": "https://www.hepsiburada.com"
+        "url": "https://www.hepsiburada.com/ara?q=Sony%20PlayStation%205%20Slim%201TB%20Blu-ray%20S%C3%BCr%C3%BCc%C3%BCl%C3%BC%20Oyun%20Konsolu%20(CFI-2000A01)",
+        "rating": 4.8
       },
       {
-        "id": "908887-2",
         "storeName": "Trendyol",
-        "storeLogoColor": "#f27a1a",
-        "price": 39625,
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 25299,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Aynı Gün Kargo"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 800,
-        "url": "https://www.trendyol.com"
+        "url": "https://www.trendyol.com/sr?q=Sony%20PlayStation%205%20Slim%201TB%20Blu-ray%20S%C3%BCr%C3%BCc%C3%BCl%C3%BC%20Oyun%20Konsolu%20(CFI-2000A01)",
+        "rating": 4.8
       },
       {
-        "id": "908887-3",
-        "storeName": "Vatan Bilgisayar",
-        "storeLogoColor": "#003d79",
-        "price": 39755,
-        "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Aynı Gün Kargo"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 1040,
-        "url": "https://www.vatanbilgisayar.com"
-      },
-      {
-        "id": "908887-4",
         "storeName": "MediaMarkt",
-        "storeLogoColor": "#df0000",
-        "price": 40185,
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 25619,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Aynı Gün Kargo"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 1280,
-        "url": "https://www.mediamarkt.com.tr"
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Sony%20PlayStation%205%20Slim%201TB%20Blu-ray%20S%C3%BCr%C3%BCc%C3%BCl%C3%BC%20Oyun%20Konsolu%20(CFI-2000A01)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 25869,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Sony%20PlayStation%205%20Slim%201TB%20Blu-ray%20S%C3%BCr%C3%BCc%C3%BCl%C3%BC%20Oyun%20Konsolu%20(CFI-2000A01)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 24869,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Sony%20PlayStation%205%20Slim%201TB%20Blu-ray%20S%C3%BCr%C3%BCc%C3%BCl%C3%BC%20Oyun%20Konsolu%20(CFI-2000A01)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 25699,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Sony%20PlayStation%205%20Slim%201TB%20Blu-ray%20S%C3%BCr%C3%BCc%C3%BCl%C3%BC%20Oyun%20Konsolu%20(CFI-2000A01)",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-03-01",
-        "price": 42093
+        "date": "Ekim 2025",
+        "price": 28500
       },
       {
-        "date": "2026-04-15",
-        "price": 40924
+        "date": "Kasım 2025",
+        "price": 27750
       },
       {
-        "date": "2026-06-01",
-        "price": 39755
+        "date": "Aralık 2025",
+        "price": 27000
       },
       {
-        "date": "2026-08-01",
-        "price": 38975
+        "date": "Ocak 2026",
+        "price": 26250
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 25500
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 25000
       }
     ]
   },
@@ -271,7 +253,7 @@ export const mockConsoles: Product[] = [
     "category": "consoles",
     "rating": 4.86,
     "reviewCount": 700,
-    "basePrice": 32699,
+    "basePrice": 24869,
     "currency": "TL",
     "releaseYear": 2023,
     "isPopular": true,
@@ -304,93 +286,84 @@ export const mockConsoles: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "908934-0",
-        "storeName": "Amazon.com.tr",
-        "storeLogoColor": "#ff9900",
-        "price": 32699,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Distribütör Garantili",
-          "Ücretsiz Kargo"
-        ],
-        "sellerRating": 4.7,
-        "sellerReviews": 320,
-        "url": "https://www.amazon.com.tr"
-      },
-      {
-        "id": "908934-1",
         "storeName": "Hepsiburada",
-        "storeLogoColor": "#ff6000",
-        "price": 32919,
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 24999,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Aynı Gün Kargo"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 560,
-        "url": "https://www.hepsiburada.com"
+        "url": "https://www.hepsiburada.com/ara?q=Sony%20PlayStation%205%20Slim%20Digital%20Edition%201TB%20Oyun%20Konsolu%20(CFI-2000B01)",
+        "rating": 4.8
       },
       {
-        "id": "908934-2",
         "storeName": "Trendyol",
-        "storeLogoColor": "#f27a1a",
-        "price": 33349,
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 25299,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Aynı Gün Kargo"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 800,
-        "url": "https://www.trendyol.com"
+        "url": "https://www.trendyol.com/sr?q=Sony%20PlayStation%205%20Slim%20Digital%20Edition%201TB%20Oyun%20Konsolu%20(CFI-2000B01)",
+        "rating": 4.8
       },
       {
-        "id": "908934-3",
-        "storeName": "Vatan Bilgisayar",
-        "storeLogoColor": "#003d79",
-        "price": 33479,
-        "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Aynı Gün Kargo"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 1040,
-        "url": "https://www.vatanbilgisayar.com"
-      },
-      {
-        "id": "908934-4",
         "storeName": "MediaMarkt",
-        "storeLogoColor": "#df0000",
-        "price": 33909,
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 25619,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Aynı Gün Kargo"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 1280,
-        "url": "https://www.mediamarkt.com.tr"
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Sony%20PlayStation%205%20Slim%20Digital%20Edition%201TB%20Oyun%20Konsolu%20(CFI-2000B01)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 25869,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Sony%20PlayStation%205%20Slim%20Digital%20Edition%201TB%20Oyun%20Konsolu%20(CFI-2000B01)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 24869,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Sony%20PlayStation%205%20Slim%20Digital%20Edition%201TB%20Oyun%20Konsolu%20(CFI-2000B01)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 25699,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Sony%20PlayStation%205%20Slim%20Digital%20Edition%201TB%20Oyun%20Konsolu%20(CFI-2000B01)",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-03-01",
-        "price": 35315
+        "date": "Ekim 2025",
+        "price": 28500
       },
       {
-        "date": "2026-04-15",
-        "price": 34334
+        "date": "Kasım 2025",
+        "price": 27750
       },
       {
-        "date": "2026-06-01",
-        "price": 33353
+        "date": "Aralık 2025",
+        "price": 27000
       },
       {
-        "date": "2026-08-01",
-        "price": 32699
+        "date": "Ocak 2026",
+        "price": 26250
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 25500
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 25000
       }
     ]
   },
@@ -402,7 +375,7 @@ export const mockConsoles: Product[] = [
     "category": "consoles",
     "rating": 4.86,
     "reviewCount": 692,
-    "basePrice": 36161,
+    "basePrice": 24869,
     "currency": "TL",
     "releaseYear": 2020,
     "isPopular": true,
@@ -438,93 +411,84 @@ export const mockConsoles: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "430620-0",
-        "storeName": "Amazon.com.tr",
-        "storeLogoColor": "#ff9900",
-        "price": 36161,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Distribütör Garantili",
-          "Ücretsiz Kargo"
-        ],
-        "sellerRating": 4.7,
-        "sellerReviews": 320,
-        "url": "https://www.amazon.com.tr"
-      },
-      {
-        "id": "430620-1",
         "storeName": "Hepsiburada",
-        "storeLogoColor": "#ff6000",
-        "price": 36381,
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 24999,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Aynı Gün Kargo"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 560,
-        "url": "https://www.hepsiburada.com"
+        "url": "https://www.hepsiburada.com/ara?q=Sony%20PlayStation%205%20825GB%20Standart%20Blu-ray%20Oyun%20Konsolu%20(CFI-1015A)",
+        "rating": 4.8
       },
       {
-        "id": "430620-2",
         "storeName": "Trendyol",
-        "storeLogoColor": "#f27a1a",
-        "price": 36811,
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 25299,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Aynı Gün Kargo"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 800,
-        "url": "https://www.trendyol.com"
+        "url": "https://www.trendyol.com/sr?q=Sony%20PlayStation%205%20825GB%20Standart%20Blu-ray%20Oyun%20Konsolu%20(CFI-1015A)",
+        "rating": 4.8
       },
       {
-        "id": "430620-3",
-        "storeName": "Vatan Bilgisayar",
-        "storeLogoColor": "#003d79",
-        "price": 36941,
-        "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Aynı Gün Kargo"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 1040,
-        "url": "https://www.vatanbilgisayar.com"
-      },
-      {
-        "id": "430620-4",
         "storeName": "MediaMarkt",
-        "storeLogoColor": "#df0000",
-        "price": 37371,
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 25619,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Aynı Gün Kargo"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 1280,
-        "url": "https://www.mediamarkt.com.tr"
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Sony%20PlayStation%205%20825GB%20Standart%20Blu-ray%20Oyun%20Konsolu%20(CFI-1015A)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 25869,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Sony%20PlayStation%205%20825GB%20Standart%20Blu-ray%20Oyun%20Konsolu%20(CFI-1015A)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 24869,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Sony%20PlayStation%205%20825GB%20Standart%20Blu-ray%20Oyun%20Konsolu%20(CFI-1015A)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 25699,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Sony%20PlayStation%205%20825GB%20Standart%20Blu-ray%20Oyun%20Konsolu%20(CFI-1015A)",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-03-01",
-        "price": 39054
+        "date": "Ekim 2025",
+        "price": 28500
       },
       {
-        "date": "2026-04-15",
-        "price": 37969
+        "date": "Kasım 2025",
+        "price": 27750
       },
       {
-        "date": "2026-06-01",
-        "price": 36884
+        "date": "Aralık 2025",
+        "price": 27000
       },
       {
-        "date": "2026-08-01",
-        "price": 36161
+        "date": "Ocak 2026",
+        "price": 26250
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 25500
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 25000
       }
     ]
   },
@@ -536,7 +500,7 @@ export const mockConsoles: Product[] = [
     "category": "consoles",
     "rating": 4.86,
     "reviewCount": 692,
-    "basePrice": 33724,
+    "basePrice": 24869,
     "currency": "TL",
     "releaseYear": 2020,
     "isPopular": true,
@@ -572,93 +536,84 @@ export const mockConsoles: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "568287-0",
-        "storeName": "Amazon.com.tr",
-        "storeLogoColor": "#ff9900",
-        "price": 33724,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Distribütör Garantili",
-          "Ücretsiz Kargo"
-        ],
-        "sellerRating": 4.7,
-        "sellerReviews": 320,
-        "url": "https://www.amazon.com.tr"
-      },
-      {
-        "id": "568287-1",
         "storeName": "Hepsiburada",
-        "storeLogoColor": "#ff6000",
-        "price": 33944,
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 24999,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Aynı Gün Kargo"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 560,
-        "url": "https://www.hepsiburada.com"
+        "url": "https://www.hepsiburada.com/ara?q=Sony%20PlayStation%205%20Digital%20Edition%20825GB%20Oyun%20Konsolu%20(CFI-1015B)",
+        "rating": 4.8
       },
       {
-        "id": "568287-2",
         "storeName": "Trendyol",
-        "storeLogoColor": "#f27a1a",
-        "price": 34374,
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 25299,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Aynı Gün Kargo"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 800,
-        "url": "https://www.trendyol.com"
+        "url": "https://www.trendyol.com/sr?q=Sony%20PlayStation%205%20Digital%20Edition%20825GB%20Oyun%20Konsolu%20(CFI-1015B)",
+        "rating": 4.8
       },
       {
-        "id": "568287-3",
-        "storeName": "Vatan Bilgisayar",
-        "storeLogoColor": "#003d79",
-        "price": 34504,
-        "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Aynı Gün Kargo"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 1040,
-        "url": "https://www.vatanbilgisayar.com"
-      },
-      {
-        "id": "568287-4",
         "storeName": "MediaMarkt",
-        "storeLogoColor": "#df0000",
-        "price": 34934,
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 25619,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Aynı Gün Kargo"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 1280,
-        "url": "https://www.mediamarkt.com.tr"
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Sony%20PlayStation%205%20Digital%20Edition%20825GB%20Oyun%20Konsolu%20(CFI-1015B)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 25869,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Sony%20PlayStation%205%20Digital%20Edition%20825GB%20Oyun%20Konsolu%20(CFI-1015B)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 24869,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Sony%20PlayStation%205%20Digital%20Edition%20825GB%20Oyun%20Konsolu%20(CFI-1015B)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 25699,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Sony%20PlayStation%205%20Digital%20Edition%20825GB%20Oyun%20Konsolu%20(CFI-1015B)",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-03-01",
-        "price": 36422
+        "date": "Ekim 2025",
+        "price": 28500
       },
       {
-        "date": "2026-04-15",
-        "price": 35410
+        "date": "Kasım 2025",
+        "price": 27750
       },
       {
-        "date": "2026-06-01",
-        "price": 34399
+        "date": "Aralık 2025",
+        "price": 27000
       },
       {
-        "date": "2026-08-01",
-        "price": 33724
+        "date": "Ocak 2026",
+        "price": 26250
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 25500
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 25000
       }
     ]
   },
@@ -670,7 +625,7 @@ export const mockConsoles: Product[] = [
     "category": "consoles",
     "rating": 4.85,
     "reviewCount": 676,
-    "basePrice": 62369,
+    "basePrice": 62059,
     "currency": "TL",
     "releaseYear": 2025,
     "isPopular": true,
@@ -703,65 +658,84 @@ export const mockConsoles: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "1024535-0",
-        "storeName": "Amazon.com.tr",
-        "storeLogoColor": "#ff9900",
-        "price": 62369,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Distribütör Garantili",
-          "Ücretsiz Kargo"
-        ],
-        "sellerRating": 4.7,
-        "sellerReviews": 320,
-        "url": "https://www.amazon.com.tr"
-      },
-      {
-        "id": "1024535-1",
         "storeName": "Hepsiburada",
-        "storeLogoColor": "#ff6000",
-        "price": 62589,
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 62369,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Aynı Gün Kargo"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 560,
-        "url": "https://www.hepsiburada.com"
+        "url": "https://www.hepsiburada.com/ara?q=Asus%20ROG%20Xbox%20Ally%20X%20El%20Konsolu%20AMD%20Ryzen%20AI%20Z2%20Extreme%20(RC73XA)",
+        "rating": 4.8
       },
       {
-        "id": "1024535-2",
         "storeName": "Trendyol",
-        "storeLogoColor": "#f27a1a",
-        "price": 63019,
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 63119,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Aynı Gün Kargo"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 800,
-        "url": "https://www.trendyol.com"
+        "url": "https://www.trendyol.com/sr?q=Asus%20ROG%20Xbox%20Ally%20X%20El%20Konsolu%20AMD%20Ryzen%20AI%20Z2%20Extreme%20(RC73XA)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 63929,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Asus%20ROG%20Xbox%20Ally%20X%20El%20Konsolu%20AMD%20Ryzen%20AI%20Z2%20Extreme%20(RC73XA)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 64549,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Asus%20ROG%20Xbox%20Ally%20X%20El%20Konsolu%20AMD%20Ryzen%20AI%20Z2%20Extreme%20(RC73XA)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 62059,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Asus%20ROG%20Xbox%20Ally%20X%20El%20Konsolu%20AMD%20Ryzen%20AI%20Z2%20Extreme%20(RC73XA)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 64119,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Asus%20ROG%20Xbox%20Ally%20X%20El%20Konsolu%20AMD%20Ryzen%20AI%20Z2%20Extreme%20(RC73XA)",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-03-01",
-        "price": 67359
+        "date": "Ekim 2025",
+        "price": 71100
       },
       {
-        "date": "2026-04-15",
-        "price": 65487
+        "date": "Kasım 2025",
+        "price": 69230
       },
       {
-        "date": "2026-06-01",
-        "price": 63616
+        "date": "Aralık 2025",
+        "price": 67360
       },
       {
-        "date": "2026-08-01",
-        "price": 62369
+        "date": "Ocak 2026",
+        "price": 65490
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 63620
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 62370
       }
     ]
   },
@@ -773,7 +747,7 @@ export const mockConsoles: Product[] = [
     "category": "consoles",
     "rating": 4.85,
     "reviewCount": 676,
-    "basePrice": 77698,
+    "basePrice": 77309,
     "currency": "TL",
     "releaseYear": 2024,
     "isPopular": true,
@@ -806,93 +780,84 @@ export const mockConsoles: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "975529-0",
-        "storeName": "Amazon.com.tr",
-        "storeLogoColor": "#ff9900",
-        "price": 77698,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Distribütör Garantili",
-          "Ücretsiz Kargo"
-        ],
-        "sellerRating": 4.7,
-        "sellerReviews": 320,
-        "url": "https://www.amazon.com.tr"
-      },
-      {
-        "id": "975529-1",
         "storeName": "Hepsiburada",
-        "storeLogoColor": "#ff6000",
-        "price": 77918,
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 77699,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Aynı Gün Kargo"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 560,
-        "url": "https://www.hepsiburada.com"
+        "url": "https://www.hepsiburada.com/ara?q=MSI%20Claw%208%20AI%2B%20El%20Konsolu%20Intel%20Core%20Ultra%207%20258V%20(CLAW8A2001)",
+        "rating": 4.8
       },
       {
-        "id": "975529-2",
         "storeName": "Trendyol",
-        "storeLogoColor": "#f27a1a",
-        "price": 78348,
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 78629,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Aynı Gün Kargo"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 800,
-        "url": "https://www.trendyol.com"
+        "url": "https://www.trendyol.com/sr?q=MSI%20Claw%208%20AI%2B%20El%20Konsolu%20Intel%20Core%20Ultra%207%20258V%20(CLAW8A2001)",
+        "rating": 4.8
       },
       {
-        "id": "975529-3",
-        "storeName": "Vatan Bilgisayar",
-        "storeLogoColor": "#003d79",
-        "price": 78478,
-        "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Aynı Gün Kargo"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 1040,
-        "url": "https://www.vatanbilgisayar.com"
-      },
-      {
-        "id": "975529-4",
         "storeName": "MediaMarkt",
-        "storeLogoColor": "#df0000",
-        "price": 78908,
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 79639,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Aynı Gün Kargo"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 1280,
-        "url": "https://www.mediamarkt.com.tr"
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=MSI%20Claw%208%20AI%2B%20El%20Konsolu%20Intel%20Core%20Ultra%207%20258V%20(CLAW8A2001)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 80419,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/MSI%20Claw%208%20AI%2B%20El%20Konsolu%20Intel%20Core%20Ultra%207%20258V%20(CLAW8A2001)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 77309,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=MSI%20Claw%208%20AI%2B%20El%20Konsolu%20Intel%20Core%20Ultra%207%20258V%20(CLAW8A2001)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 79869,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=MSI%20Claw%208%20AI%2B%20El%20Konsolu%20Intel%20Core%20Ultra%207%20258V%20(CLAW8A2001)",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-03-01",
-        "price": 83914
+        "date": "Ekim 2025",
+        "price": 88580
       },
       {
-        "date": "2026-04-15",
-        "price": 81583
+        "date": "Kasım 2025",
+        "price": 86240
       },
       {
-        "date": "2026-06-01",
-        "price": 79252
+        "date": "Aralık 2025",
+        "price": 83910
       },
       {
-        "date": "2026-08-01",
-        "price": 77698
+        "date": "Ocak 2026",
+        "price": 81580
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 79250
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 77700
       }
     ]
   },
@@ -904,7 +869,7 @@ export const mockConsoles: Product[] = [
     "category": "consoles",
     "rating": 4.84,
     "reviewCount": 660,
-    "basePrice": 67165,
+    "basePrice": 66829,
     "currency": "TL",
     "releaseYear": 2025,
     "isPopular": true,
@@ -937,93 +902,84 @@ export const mockConsoles: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "1042179-0",
-        "storeName": "Amazon.com.tr",
-        "storeLogoColor": "#ff9900",
-        "price": 67165,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Distribütör Garantili",
-          "Ücretsiz Kargo"
-        ],
-        "sellerRating": 4.7,
-        "sellerReviews": 320,
-        "url": "https://www.amazon.com.tr"
-      },
-      {
-        "id": "1042179-1",
         "storeName": "Hepsiburada",
-        "storeLogoColor": "#ff6000",
-        "price": 67385,
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 67169,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Aynı Gün Kargo"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 560,
-        "url": "https://www.hepsiburada.com"
+        "url": "https://www.hepsiburada.com/ara?q=MSI%20Claw%20A8%20El%20Konsolu%20AMD%20Ryzen%20Z2%20Extreme%20(BZ2EM-024TR)",
+        "rating": 4.8
       },
       {
-        "id": "1042179-2",
         "storeName": "Trendyol",
-        "storeLogoColor": "#f27a1a",
-        "price": 67815,
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 67969,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Aynı Gün Kargo"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 800,
-        "url": "https://www.trendyol.com"
+        "url": "https://www.trendyol.com/sr?q=MSI%20Claw%20A8%20El%20Konsolu%20AMD%20Ryzen%20Z2%20Extreme%20(BZ2EM-024TR)",
+        "rating": 4.8
       },
       {
-        "id": "1042179-3",
-        "storeName": "Vatan Bilgisayar",
-        "storeLogoColor": "#003d79",
-        "price": 67945,
-        "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Aynı Gün Kargo"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 1040,
-        "url": "https://www.vatanbilgisayar.com"
-      },
-      {
-        "id": "1042179-4",
         "storeName": "MediaMarkt",
-        "storeLogoColor": "#df0000",
-        "price": 68375,
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 68839,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Aynı Gün Kargo"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 1280,
-        "url": "https://www.mediamarkt.com.tr"
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=MSI%20Claw%20A8%20El%20Konsolu%20AMD%20Ryzen%20Z2%20Extreme%20(BZ2EM-024TR)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 69519,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/MSI%20Claw%20A8%20El%20Konsolu%20AMD%20Ryzen%20Z2%20Extreme%20(BZ2EM-024TR)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 66829,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=MSI%20Claw%20A8%20El%20Konsolu%20AMD%20Ryzen%20Z2%20Extreme%20(BZ2EM-024TR)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 69049,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=MSI%20Claw%20A8%20El%20Konsolu%20AMD%20Ryzen%20Z2%20Extreme%20(BZ2EM-024TR)",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-03-01",
-        "price": 72538
+        "date": "Ekim 2025",
+        "price": 76570
       },
       {
-        "date": "2026-04-15",
-        "price": 70523
+        "date": "Kasım 2025",
+        "price": 74550
       },
       {
-        "date": "2026-06-01",
-        "price": 68508
+        "date": "Aralık 2025",
+        "price": 72540
       },
       {
-        "date": "2026-08-01",
-        "price": 67165
+        "date": "Ocak 2026",
+        "price": 70520
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 68510
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 67170
       }
     ]
   },
@@ -1035,7 +991,7 @@ export const mockConsoles: Product[] = [
     "category": "consoles",
     "rating": 4.79,
     "reviewCount": 580,
-    "basePrice": 97017,
+    "basePrice": 28849,
     "currency": "TL",
     "releaseYear": 2023,
     "isPopular": true,
@@ -1068,51 +1024,84 @@ export const mockConsoles: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "902784-0",
-        "storeName": "Amazon.com.tr",
-        "storeLogoColor": "#ff9900",
-        "price": 97017,
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 28999,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Distribütör Garantili",
-          "Ücretsiz Kargo"
-        ],
-        "sellerRating": 4.7,
-        "sellerReviews": 320,
-        "url": "https://www.amazon.com.tr"
+        "url": "https://www.hepsiburada.com/ara?q=Asus%20ROG%20Ally%202023%20512GB%20AMD%20Ryzen%20Z1%20Extreme%20(RC71L-NH021)",
+        "rating": 4.8
       },
       {
-        "id": "902784-1",
-        "storeName": "Hepsiburada",
-        "storeLogoColor": "#ff6000",
-        "price": 97237,
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 29349,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Aynı Gün Kargo"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 560,
-        "url": "https://www.hepsiburada.com"
+        "url": "https://www.trendyol.com/sr?q=Asus%20ROG%20Ally%202023%20512GB%20AMD%20Ryzen%20Z1%20Extreme%20(RC71L-NH021)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 29719,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Asus%20ROG%20Ally%202023%20512GB%20AMD%20Ryzen%20Z1%20Extreme%20(RC71L-NH021)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 30009,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Asus%20ROG%20Ally%202023%20512GB%20AMD%20Ryzen%20Z1%20Extreme%20(RC71L-NH021)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 28849,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Asus%20ROG%20Ally%202023%20512GB%20AMD%20Ryzen%20Z1%20Extreme%20(RC71L-NH021)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 29809,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Asus%20ROG%20Ally%202023%20512GB%20AMD%20Ryzen%20Z1%20Extreme%20(RC71L-NH021)",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-03-01",
-        "price": 104779
+        "date": "Ekim 2025",
+        "price": 33060
       },
       {
-        "date": "2026-04-15",
-        "price": 101868
+        "date": "Kasım 2025",
+        "price": 32190
       },
       {
-        "date": "2026-06-01",
-        "price": 98958
+        "date": "Aralık 2025",
+        "price": 31320
       },
       {
-        "date": "2026-08-01",
-        "price": 97017
+        "date": "Ocak 2026",
+        "price": 30450
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 29580
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 29000
       }
     ]
   },
@@ -1124,7 +1113,7 @@ export const mockConsoles: Product[] = [
     "category": "consoles",
     "rating": 4.77,
     "reviewCount": 540,
-    "basePrice": 38219,
+    "basePrice": 38029,
     "currency": "TL",
     "releaseYear": 2025,
     "isPopular": true,
@@ -1157,51 +1146,84 @@ export const mockConsoles: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "1024538-0",
-        "storeName": "Amazon.com.tr",
-        "storeLogoColor": "#ff9900",
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
         "price": 38219,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Distribütör Garantili",
-          "Ücretsiz Kargo"
-        ],
-        "sellerRating": 4.7,
-        "sellerReviews": 320,
-        "url": "https://www.amazon.com.tr"
+        "url": "https://www.hepsiburada.com/ara?q=Asus%20ROG%20Xbox%20Ally%20AMD%20Ryzen%20Z2%20A%20512GB%20El%20Konsolu%20(RC73YA)",
+        "rating": 4.8
       },
       {
-        "id": "1024538-1",
-        "storeName": "Hepsiburada",
-        "storeLogoColor": "#ff6000",
-        "price": 38439,
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 38679,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Aynı Gün Kargo"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 560,
-        "url": "https://www.hepsiburada.com"
+        "url": "https://www.trendyol.com/sr?q=Asus%20ROG%20Xbox%20Ally%20AMD%20Ryzen%20Z2%20A%20512GB%20El%20Konsolu%20(RC73YA)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 39169,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Asus%20ROG%20Xbox%20Ally%20AMD%20Ryzen%20Z2%20A%20512GB%20El%20Konsolu%20(RC73YA)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 39559,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Asus%20ROG%20Xbox%20Ally%20AMD%20Ryzen%20Z2%20A%20512GB%20El%20Konsolu%20(RC73YA)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 38029,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Asus%20ROG%20Xbox%20Ally%20AMD%20Ryzen%20Z2%20A%20512GB%20El%20Konsolu%20(RC73YA)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 39289,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Asus%20ROG%20Xbox%20Ally%20AMD%20Ryzen%20Z2%20A%20512GB%20El%20Konsolu%20(RC73YA)",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-03-01",
-        "price": 41277
+        "date": "Ekim 2025",
+        "price": 43570
       },
       {
-        "date": "2026-04-15",
+        "date": "Kasım 2025",
+        "price": 42420
+      },
+      {
+        "date": "Aralık 2025",
+        "price": 41280
+      },
+      {
+        "date": "Ocak 2026",
         "price": 40130
       },
       {
-        "date": "2026-06-01",
-        "price": 38983
+        "date": "Şubat 2026",
+        "price": 38980
       },
       {
-        "date": "2026-08-01",
-        "price": 38219
+        "date": "Ağustos 2026",
+        "price": 38220
       }
     ]
   },
@@ -1213,7 +1235,7 @@ export const mockConsoles: Product[] = [
     "category": "consoles",
     "rating": 4.75,
     "reviewCount": 508,
-    "basePrice": 69979,
+    "basePrice": 31839,
     "currency": "TL",
     "releaseYear": 2023,
     "isPopular": true,
@@ -1246,51 +1268,84 @@ export const mockConsoles: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "934851-0",
-        "storeName": "Amazon.com.tr",
-        "storeLogoColor": "#ff9900",
-        "price": 69979,
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 31999,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Distribütör Garantili",
-          "Ücretsiz Kargo"
-        ],
-        "sellerRating": 4.7,
-        "sellerReviews": 320,
-        "url": "https://www.amazon.com.tr"
+        "url": "https://www.hepsiburada.com/ara?q=Valve%20Steam%20Deck%20OLED%201%20TB%20Ta%C5%9F%C4%B1nabilir%20Oyun%20Konsolu",
+        "rating": 4.8
       },
       {
-        "id": "934851-1",
-        "storeName": "Hepsiburada",
-        "storeLogoColor": "#ff6000",
-        "price": 70199,
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 32379,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Aynı Gün Kargo"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 560,
-        "url": "https://www.hepsiburada.com"
+        "url": "https://www.trendyol.com/sr?q=Valve%20Steam%20Deck%20OLED%201%20TB%20Ta%C5%9F%C4%B1nabilir%20Oyun%20Konsolu",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 32799,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Valve%20Steam%20Deck%20OLED%201%20TB%20Ta%C5%9F%C4%B1nabilir%20Oyun%20Konsolu",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 33119,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Valve%20Steam%20Deck%20OLED%201%20TB%20Ta%C5%9F%C4%B1nabilir%20Oyun%20Konsolu",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 31839,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Valve%20Steam%20Deck%20OLED%201%20TB%20Ta%C5%9F%C4%B1nabilir%20Oyun%20Konsolu",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 32899,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Valve%20Steam%20Deck%20OLED%201%20TB%20Ta%C5%9F%C4%B1nabilir%20Oyun%20Konsolu",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-03-01",
-        "price": 75577
+        "date": "Ekim 2025",
+        "price": 36480
       },
       {
-        "date": "2026-04-15",
-        "price": 73478
+        "date": "Kasım 2025",
+        "price": 35520
       },
       {
-        "date": "2026-06-01",
-        "price": 71379
+        "date": "Aralık 2025",
+        "price": 34560
       },
       {
-        "date": "2026-08-01",
-        "price": 69979
+        "date": "Ocak 2026",
+        "price": 33600
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 32640
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 32000
       }
     ]
   },
@@ -1302,7 +1357,7 @@ export const mockConsoles: Product[] = [
     "category": "consoles",
     "rating": 4.74,
     "reviewCount": 492,
-    "basePrice": 50000,
+    "basePrice": 31839,
     "currency": "TL",
     "releaseYear": 2023,
     "isPopular": true,
@@ -1335,79 +1390,84 @@ export const mockConsoles: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "934838-0",
-        "storeName": "Amazon.com.tr",
-        "storeLogoColor": "#ff9900",
-        "price": 50000,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Distribütör Garantili",
-          "Ücretsiz Kargo"
-        ],
-        "sellerRating": 4.7,
-        "sellerReviews": 320,
-        "url": "https://www.amazon.com.tr"
-      },
-      {
-        "id": "934838-1",
         "storeName": "Hepsiburada",
-        "storeLogoColor": "#ff6000",
-        "price": 50220,
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 31999,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Aynı Gün Kargo"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 560,
-        "url": "https://www.hepsiburada.com"
+        "url": "https://www.hepsiburada.com/ara?q=Valve%20Steam%20Deck%20OLED%20512%20GB%20Ta%C5%9F%C4%B1nabilir%20Oyun%20Konsolu",
+        "rating": 4.8
       },
       {
-        "id": "934838-2",
         "storeName": "Trendyol",
-        "storeLogoColor": "#f27a1a",
-        "price": 50650,
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 32379,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Aynı Gün Kargo"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 800,
-        "url": "https://www.trendyol.com"
+        "url": "https://www.trendyol.com/sr?q=Valve%20Steam%20Deck%20OLED%20512%20GB%20Ta%C5%9F%C4%B1nabilir%20Oyun%20Konsolu",
+        "rating": 4.8
       },
       {
-        "id": "934838-3",
-        "storeName": "Vatan Bilgisayar",
-        "storeLogoColor": "#003d79",
-        "price": 50780,
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 32799,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Aynı Gün Kargo"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 1040,
-        "url": "https://www.vatanbilgisayar.com"
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Valve%20Steam%20Deck%20OLED%20512%20GB%20Ta%C5%9F%C4%B1nabilir%20Oyun%20Konsolu",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 33119,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Valve%20Steam%20Deck%20OLED%20512%20GB%20Ta%C5%9F%C4%B1nabilir%20Oyun%20Konsolu",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 31839,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Valve%20Steam%20Deck%20OLED%20512%20GB%20Ta%C5%9F%C4%B1nabilir%20Oyun%20Konsolu",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 32899,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Valve%20Steam%20Deck%20OLED%20512%20GB%20Ta%C5%9F%C4%B1nabilir%20Oyun%20Konsolu",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-03-01",
-        "price": 54000
+        "date": "Ekim 2025",
+        "price": 36480
       },
       {
-        "date": "2026-04-15",
-        "price": 52500
+        "date": "Kasım 2025",
+        "price": 35520
       },
       {
-        "date": "2026-06-01",
-        "price": 51000
+        "date": "Aralık 2025",
+        "price": 34560
       },
       {
-        "date": "2026-08-01",
-        "price": 50000
+        "date": "Ocak 2026",
+        "price": 33600
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 32640
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 32000
       }
     ]
   },
@@ -1419,7 +1479,7 @@ export const mockConsoles: Product[] = [
     "category": "consoles",
     "rating": 4.73,
     "reviewCount": 476,
-    "basePrice": 54979,
+    "basePrice": 31839,
     "currency": "TL",
     "releaseYear": 2022,
     "isPopular": true,
@@ -1452,51 +1512,84 @@ export const mockConsoles: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "862165-0",
-        "storeName": "Amazon.com.tr",
-        "storeLogoColor": "#ff9900",
-        "price": 54979,
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 31999,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Distribütör Garantili",
-          "Ücretsiz Kargo"
-        ],
-        "sellerRating": 4.7,
-        "sellerReviews": 320,
-        "url": "https://www.amazon.com.tr"
+        "url": "https://www.hepsiburada.com/ara?q=Valve%20Steam%20Deck%20LCD%20512%20GB%20Oyun%20Konsolu%20(V004287-10)",
+        "rating": 4.8
       },
       {
-        "id": "862165-1",
-        "storeName": "Hepsiburada",
-        "storeLogoColor": "#ff6000",
-        "price": 55199,
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 32379,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Aynı Gün Kargo"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 560,
-        "url": "https://www.hepsiburada.com"
+        "url": "https://www.trendyol.com/sr?q=Valve%20Steam%20Deck%20LCD%20512%20GB%20Oyun%20Konsolu%20(V004287-10)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 32799,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Valve%20Steam%20Deck%20LCD%20512%20GB%20Oyun%20Konsolu%20(V004287-10)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 33119,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Valve%20Steam%20Deck%20LCD%20512%20GB%20Oyun%20Konsolu%20(V004287-10)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 31839,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Valve%20Steam%20Deck%20LCD%20512%20GB%20Oyun%20Konsolu%20(V004287-10)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 32899,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Valve%20Steam%20Deck%20LCD%20512%20GB%20Oyun%20Konsolu%20(V004287-10)",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-03-01",
-        "price": 59377
+        "date": "Ekim 2025",
+        "price": 36480
       },
       {
-        "date": "2026-04-15",
-        "price": 57728
+        "date": "Kasım 2025",
+        "price": 35520
       },
       {
-        "date": "2026-06-01",
-        "price": 56079
+        "date": "Aralık 2025",
+        "price": 34560
       },
       {
-        "date": "2026-08-01",
-        "price": 54979
+        "date": "Ocak 2026",
+        "price": 33600
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 32640
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 32000
       }
     ]
   },
@@ -1508,7 +1601,7 @@ export const mockConsoles: Product[] = [
     "category": "consoles",
     "rating": 4.73,
     "reviewCount": 468,
-    "basePrice": 27499,
+    "basePrice": 27359,
     "currency": "TL",
     "releaseYear": 2025,
     "isPopular": true,
@@ -1541,93 +1634,84 @@ export const mockConsoles: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "982167-0",
-        "storeName": "Amazon.com.tr",
-        "storeLogoColor": "#ff9900",
-        "price": 27499,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Distribütör Garantili",
-          "Ücretsiz Kargo"
-        ],
-        "sellerRating": 4.7,
-        "sellerReviews": 320,
-        "url": "https://www.amazon.com.tr"
-      },
-      {
-        "id": "982167-1",
         "storeName": "Hepsiburada",
-        "storeLogoColor": "#ff6000",
-        "price": 27719,
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 27499,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Aynı Gün Kargo"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 560,
-        "url": "https://www.hepsiburada.com"
+        "url": "https://www.hepsiburada.com/ara?q=Nintendo%20Switch%202%20Hibrit%20Oyun%20Konsolu%20256GB",
+        "rating": 4.8
       },
       {
-        "id": "982167-2",
         "storeName": "Trendyol",
-        "storeLogoColor": "#f27a1a",
-        "price": 28149,
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 27829,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Aynı Gün Kargo"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 800,
-        "url": "https://www.trendyol.com"
+        "url": "https://www.trendyol.com/sr?q=Nintendo%20Switch%202%20Hibrit%20Oyun%20Konsolu%20256GB",
+        "rating": 4.8
       },
       {
-        "id": "982167-3",
-        "storeName": "Vatan Bilgisayar",
-        "storeLogoColor": "#003d79",
-        "price": 28279,
-        "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Aynı Gün Kargo"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 1040,
-        "url": "https://www.vatanbilgisayar.com"
-      },
-      {
-        "id": "982167-4",
         "storeName": "MediaMarkt",
-        "storeLogoColor": "#df0000",
-        "price": 28709,
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 28189,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Aynı Gün Kargo"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 1280,
-        "url": "https://www.mediamarkt.com.tr"
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Nintendo%20Switch%202%20Hibrit%20Oyun%20Konsolu%20256GB",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 28459,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Nintendo%20Switch%202%20Hibrit%20Oyun%20Konsolu%20256GB",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 27359,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Nintendo%20Switch%202%20Hibrit%20Oyun%20Konsolu%20256GB",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 28269,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Nintendo%20Switch%202%20Hibrit%20Oyun%20Konsolu%20256GB",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-03-01",
-        "price": 29698
+        "date": "Ekim 2025",
+        "price": 31350
       },
       {
-        "date": "2026-04-15",
-        "price": 28873
+        "date": "Kasım 2025",
+        "price": 30520
       },
       {
-        "date": "2026-06-01",
-        "price": 28049
+        "date": "Aralık 2025",
+        "price": 29700
       },
       {
-        "date": "2026-08-01",
-        "price": 27499
+        "date": "Ocak 2026",
+        "price": 28870
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 28050
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 27500
       }
     ]
   },
@@ -1639,7 +1723,7 @@ export const mockConsoles: Product[] = [
     "category": "consoles",
     "rating": 4.68,
     "reviewCount": 372,
-    "basePrice": 19348,
+    "basePrice": 16419,
     "currency": "TL",
     "releaseYear": 2021,
     "isPopular": true,
@@ -1672,93 +1756,84 @@ export const mockConsoles: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "724754-0",
-        "storeName": "Amazon.com.tr",
-        "storeLogoColor": "#ff9900",
-        "price": 19348,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Distribütör Garantili",
-          "Ücretsiz Kargo"
-        ],
-        "sellerRating": 4.7,
-        "sellerReviews": 320,
-        "url": "https://www.amazon.com.tr"
-      },
-      {
-        "id": "724754-1",
         "storeName": "Hepsiburada",
-        "storeLogoColor": "#ff6000",
-        "price": 19568,
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 16499,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Aynı Gün Kargo"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 560,
-        "url": "https://www.hepsiburada.com"
+        "url": "https://www.hepsiburada.com/ara?q=Nintendo%20Switch%20OLED%20Model%20Oyun%20Konsolu%2064GB",
+        "rating": 4.8
       },
       {
-        "id": "724754-2",
         "storeName": "Trendyol",
-        "storeLogoColor": "#f27a1a",
-        "price": 19998,
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 16699,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Aynı Gün Kargo"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 800,
-        "url": "https://www.trendyol.com"
+        "url": "https://www.trendyol.com/sr?q=Nintendo%20Switch%20OLED%20Model%20Oyun%20Konsolu%2064GB",
+        "rating": 4.8
       },
       {
-        "id": "724754-3",
-        "storeName": "Vatan Bilgisayar",
-        "storeLogoColor": "#003d79",
-        "price": 20128,
-        "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Aynı Gün Kargo"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 1040,
-        "url": "https://www.vatanbilgisayar.com"
-      },
-      {
-        "id": "724754-4",
         "storeName": "MediaMarkt",
-        "storeLogoColor": "#df0000",
-        "price": 20558,
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 16909,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Aynı Gün Kargo"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 1280,
-        "url": "https://www.mediamarkt.com.tr"
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Nintendo%20Switch%20OLED%20Model%20Oyun%20Konsolu%2064GB",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 17079,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Nintendo%20Switch%20OLED%20Model%20Oyun%20Konsolu%2064GB",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 16419,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Nintendo%20Switch%20OLED%20Model%20Oyun%20Konsolu%2064GB",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 16959,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Nintendo%20Switch%20OLED%20Model%20Oyun%20Konsolu%2064GB",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-03-01",
-        "price": 20896
+        "date": "Ekim 2025",
+        "price": 18810
       },
       {
-        "date": "2026-04-15",
-        "price": 20315
+        "date": "Kasım 2025",
+        "price": 18310
       },
       {
-        "date": "2026-06-01",
-        "price": 19735
+        "date": "Aralık 2025",
+        "price": 17820
       },
       {
-        "date": "2026-08-01",
-        "price": 19348
+        "date": "Ocak 2026",
+        "price": 17320
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 16830
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 16500
       }
     ]
   },
@@ -1770,7 +1845,7 @@ export const mockConsoles: Product[] = [
     "category": "consoles",
     "rating": 4.68,
     "reviewCount": 372,
-    "basePrice": 15940,
+    "basePrice": 15859,
     "currency": "TL",
     "releaseYear": 2016,
     "isPopular": true,
@@ -1803,78 +1878,83 @@ export const mockConsoles: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "80276-0",
-        "storeName": "Amazon.com.tr",
-        "storeLogoColor": "#ff9900",
-        "price": 15940,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Distribütör Garantili",
-          "Ücretsiz Kargo"
-        ],
-        "sellerRating": 4.7,
-        "sellerReviews": 320,
-        "url": "https://www.amazon.com.tr"
-      },
-      {
-        "id": "80276-1",
         "storeName": "Hepsiburada",
-        "storeLogoColor": "#ff6000",
-        "price": 16160,
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 15939,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Aynı Gün Kargo"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 560,
-        "url": "https://www.hepsiburada.com"
+        "url": "https://www.hepsiburada.com/ara?q=Sony%20PlayStation%204%20Slim%201%20TB%20Oyun%20Konsolu%20(CUH-2200)",
+        "rating": 4.8
       },
       {
-        "id": "80276-2",
         "storeName": "Trendyol",
-        "storeLogoColor": "#f27a1a",
-        "price": 16590,
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 16129,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Aynı Gün Kargo"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 800,
-        "url": "https://www.trendyol.com"
+        "url": "https://www.trendyol.com/sr?q=Sony%20PlayStation%204%20Slim%201%20TB%20Oyun%20Konsolu%20(CUH-2200)",
+        "rating": 4.8
       },
       {
-        "id": "80276-3",
-        "storeName": "Vatan Bilgisayar",
-        "storeLogoColor": "#003d79",
-        "price": 16720,
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 16339,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Aynı Gün Kargo"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 1040,
-        "url": "https://www.vatanbilgisayar.com"
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Sony%20PlayStation%204%20Slim%201%20TB%20Oyun%20Konsolu%20(CUH-2200)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 16499,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Sony%20PlayStation%204%20Slim%201%20TB%20Oyun%20Konsolu%20(CUH-2200)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 15859,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Sony%20PlayStation%204%20Slim%201%20TB%20Oyun%20Konsolu%20(CUH-2200)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 16389,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Sony%20PlayStation%204%20Slim%201%20TB%20Oyun%20Konsolu%20(CUH-2200)",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-03-01",
-        "price": 17215
+        "date": "Ekim 2025",
+        "price": 18170
       },
       {
-        "date": "2026-04-15",
-        "price": 16737
+        "date": "Kasım 2025",
+        "price": 17690
       },
       {
-        "date": "2026-06-01",
-        "price": 16259
+        "date": "Aralık 2025",
+        "price": 17220
       },
       {
-        "date": "2026-08-01",
+        "date": "Ocak 2026",
+        "price": 16740
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 16260
+      },
+      {
+        "date": "Ağustos 2026",
         "price": 15940
       }
     ]
@@ -1887,7 +1967,7 @@ export const mockConsoles: Product[] = [
     "category": "consoles",
     "rating": 4.67,
     "reviewCount": 364,
-    "basePrice": 21578,
+    "basePrice": 21469,
     "currency": "TL",
     "releaseYear": 2019,
     "isPopular": true,
@@ -1920,51 +2000,84 @@ export const mockConsoles: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "80860-0",
-        "storeName": "Amazon.com.tr",
-        "storeLogoColor": "#ff9900",
-        "price": 21578,
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 21579,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Distribütör Garantili",
-          "Ücretsiz Kargo"
-        ],
-        "sellerRating": 4.7,
-        "sellerReviews": 320,
-        "url": "https://www.amazon.com.tr"
+        "url": "https://www.hepsiburada.com/ara?q=Nintendo%20Switch%20Standart%20Hibrit%20Oyun%20Konsolu%2032GB%20(Yeni%20Pil%20Revizyonu)",
+        "rating": 4.8
       },
       {
-        "id": "80860-1",
-        "storeName": "Hepsiburada",
-        "storeLogoColor": "#ff6000",
-        "price": 21798,
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 21839,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Aynı Gün Kargo"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 560,
-        "url": "https://www.hepsiburada.com"
+        "url": "https://www.trendyol.com/sr?q=Nintendo%20Switch%20Standart%20Hibrit%20Oyun%20Konsolu%2032GB%20(Yeni%20Pil%20Revizyonu)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 22119,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Nintendo%20Switch%20Standart%20Hibrit%20Oyun%20Konsolu%2032GB%20(Yeni%20Pil%20Revizyonu)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 22329,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Nintendo%20Switch%20Standart%20Hibrit%20Oyun%20Konsolu%2032GB%20(Yeni%20Pil%20Revizyonu)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 21469,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Nintendo%20Switch%20Standart%20Hibrit%20Oyun%20Konsolu%2032GB%20(Yeni%20Pil%20Revizyonu)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 22179,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Nintendo%20Switch%20Standart%20Hibrit%20Oyun%20Konsolu%2032GB%20(Yeni%20Pil%20Revizyonu)",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-03-01",
-        "price": 23304
+        "date": "Ekim 2025",
+        "price": 24600
       },
       {
-        "date": "2026-04-15",
-        "price": 22656
+        "date": "Kasım 2025",
+        "price": 23950
       },
       {
-        "date": "2026-06-01",
-        "price": 22009
+        "date": "Aralık 2025",
+        "price": 23300
       },
       {
-        "date": "2026-08-01",
-        "price": 21578
+        "date": "Ocak 2026",
+        "price": 22660
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 22010
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 21580
       }
     ]
   },
@@ -1976,7 +2089,7 @@ export const mockConsoles: Product[] = [
     "category": "consoles",
     "rating": 4.67,
     "reviewCount": 356,
-    "basePrice": 13349,
+    "basePrice": 13279,
     "currency": "TL",
     "releaseYear": 2016,
     "isPopular": false,
@@ -2009,93 +2122,84 @@ export const mockConsoles: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "80266-0",
-        "storeName": "Amazon.com.tr",
-        "storeLogoColor": "#ff9900",
-        "price": 13349,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Distribütör Garantili",
-          "Ücretsiz Kargo"
-        ],
-        "sellerRating": 4.7,
-        "sellerReviews": 320,
-        "url": "https://www.amazon.com.tr"
-      },
-      {
-        "id": "80266-1",
         "storeName": "Hepsiburada",
-        "storeLogoColor": "#ff6000",
-        "price": 13569,
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 13349,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Aynı Gün Kargo"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 560,
-        "url": "https://www.hepsiburada.com"
+        "url": "https://www.hepsiburada.com/ara?q=Sony%20PlayStation%204%20Slim%20500%20GB%20Oyun%20Konsolu%20(CUH-2000)",
+        "rating": 4.8
       },
       {
-        "id": "80266-2",
         "storeName": "Trendyol",
-        "storeLogoColor": "#f27a1a",
-        "price": 13999,
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 13509,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Aynı Gün Kargo"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 800,
-        "url": "https://www.trendyol.com"
+        "url": "https://www.trendyol.com/sr?q=Sony%20PlayStation%204%20Slim%20500%20GB%20Oyun%20Konsolu%20(CUH-2000)",
+        "rating": 4.8
       },
       {
-        "id": "80266-3",
-        "storeName": "Vatan Bilgisayar",
-        "storeLogoColor": "#003d79",
-        "price": 14129,
-        "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Aynı Gün Kargo"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 1040,
-        "url": "https://www.vatanbilgisayar.com"
-      },
-      {
-        "id": "80266-4",
         "storeName": "MediaMarkt",
-        "storeLogoColor": "#df0000",
-        "price": 14559,
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 13679,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Aynı Gün Kargo"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 1280,
-        "url": "https://www.mediamarkt.com.tr"
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Sony%20PlayStation%204%20Slim%20500%20GB%20Oyun%20Konsolu%20(CUH-2000)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 13819,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Sony%20PlayStation%204%20Slim%20500%20GB%20Oyun%20Konsolu%20(CUH-2000)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 13279,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Sony%20PlayStation%204%20Slim%20500%20GB%20Oyun%20Konsolu%20(CUH-2000)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 13719,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Sony%20PlayStation%204%20Slim%20500%20GB%20Oyun%20Konsolu%20(CUH-2000)",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-03-01",
-        "price": 14417
+        "date": "Ekim 2025",
+        "price": 15220
       },
       {
-        "date": "2026-04-15",
-        "price": 14016
+        "date": "Kasım 2025",
+        "price": 14820
       },
       {
-        "date": "2026-06-01",
-        "price": 13616
+        "date": "Aralık 2025",
+        "price": 14420
       },
       {
-        "date": "2026-08-01",
-        "price": 13349
+        "date": "Ocak 2026",
+        "price": 14020
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 13620
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 13350
       }
     ]
   },
@@ -2107,7 +2211,7 @@ export const mockConsoles: Product[] = [
     "category": "consoles",
     "rating": 4.66,
     "reviewCount": 348,
-    "basePrice": 13990,
+    "basePrice": 13919,
     "currency": "TL",
     "releaseYear": 2015,
     "isPopular": false,
@@ -2140,50 +2244,83 @@ export const mockConsoles: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "80150-0",
-        "storeName": "Amazon.com.tr",
-        "storeLogoColor": "#ff9900",
-        "price": 13990,
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 13989,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Distribütör Garantili",
-          "Ücretsiz Kargo"
-        ],
-        "sellerRating": 4.7,
-        "sellerReviews": 320,
-        "url": "https://www.amazon.com.tr"
+        "url": "https://www.hepsiburada.com/ara?q=Sony%20PlayStation%204%20500%20GB%20Mat%20Kasa%20Oyun%20Konsolu%20(CUH-1200)",
+        "rating": 4.8
       },
       {
-        "id": "80150-1",
-        "storeName": "Hepsiburada",
-        "storeLogoColor": "#ff6000",
-        "price": 14210,
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 14159,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Aynı Gün Kargo"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 560,
-        "url": "https://www.hepsiburada.com"
+        "url": "https://www.trendyol.com/sr?q=Sony%20PlayStation%204%20500%20GB%20Mat%20Kasa%20Oyun%20Konsolu%20(CUH-1200)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 14339,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Sony%20PlayStation%204%20500%20GB%20Mat%20Kasa%20Oyun%20Konsolu%20(CUH-1200)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 14479,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Sony%20PlayStation%204%20500%20GB%20Mat%20Kasa%20Oyun%20Konsolu%20(CUH-1200)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 13919,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Sony%20PlayStation%204%20500%20GB%20Mat%20Kasa%20Oyun%20Konsolu%20(CUH-1200)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 14379,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Sony%20PlayStation%204%20500%20GB%20Mat%20Kasa%20Oyun%20Konsolu%20(CUH-1200)",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-03-01",
-        "price": 15109
+        "date": "Ekim 2025",
+        "price": 15950
       },
       {
-        "date": "2026-04-15",
+        "date": "Kasım 2025",
+        "price": 15530
+      },
+      {
+        "date": "Aralık 2025",
+        "price": 15110
+      },
+      {
+        "date": "Ocak 2026",
         "price": 14690
       },
       {
-        "date": "2026-06-01",
+        "date": "Şubat 2026",
         "price": 14270
       },
       {
-        "date": "2026-08-01",
+        "date": "Ağustos 2026",
         "price": 13990
       }
     ]
@@ -2196,7 +2333,7 @@ export const mockConsoles: Product[] = [
     "category": "consoles",
     "rating": 4.61,
     "reviewCount": 260,
-    "basePrice": 12198,
+    "basePrice": 12139,
     "currency": "TL",
     "releaseYear": 2019,
     "isPopular": false,
@@ -2229,93 +2366,84 @@ export const mockConsoles: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "174653-0",
-        "storeName": "Amazon.com.tr",
-        "storeLogoColor": "#ff9900",
-        "price": 12198,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Distribütör Garantili",
-          "Ücretsiz Kargo"
-        ],
-        "sellerRating": 4.7,
-        "sellerReviews": 320,
-        "url": "https://www.amazon.com.tr"
-      },
-      {
-        "id": "174653-1",
         "storeName": "Hepsiburada",
-        "storeLogoColor": "#ff6000",
-        "price": 12418,
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 12199,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Aynı Gün Kargo"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 560,
-        "url": "https://www.hepsiburada.com"
+        "url": "https://www.hepsiburada.com/ara?q=Nintendo%20Switch%20Lite%2032GB%20Kompakt%20Ta%C5%9F%C4%B1nabilir%20El%20Konsolu",
+        "rating": 4.8
       },
       {
-        "id": "174653-2",
         "storeName": "Trendyol",
-        "storeLogoColor": "#f27a1a",
-        "price": 12848,
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 12339,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Aynı Gün Kargo"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 800,
-        "url": "https://www.trendyol.com"
+        "url": "https://www.trendyol.com/sr?q=Nintendo%20Switch%20Lite%2032GB%20Kompakt%20Ta%C5%9F%C4%B1nabilir%20El%20Konsolu",
+        "rating": 4.8
       },
       {
-        "id": "174653-3",
-        "storeName": "Vatan Bilgisayar",
-        "storeLogoColor": "#003d79",
-        "price": 12978,
-        "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Aynı Gün Kargo"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 1040,
-        "url": "https://www.vatanbilgisayar.com"
-      },
-      {
-        "id": "174653-4",
         "storeName": "MediaMarkt",
-        "storeLogoColor": "#df0000",
-        "price": 13408,
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 12499,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Aynı Gün Kargo"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 1280,
-        "url": "https://www.mediamarkt.com.tr"
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Nintendo%20Switch%20Lite%2032GB%20Kompakt%20Ta%C5%9F%C4%B1nabilir%20El%20Konsolu",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 12629,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Nintendo%20Switch%20Lite%2032GB%20Kompakt%20Ta%C5%9F%C4%B1nabilir%20El%20Konsolu",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 12139,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Nintendo%20Switch%20Lite%2032GB%20Kompakt%20Ta%C5%9F%C4%B1nabilir%20El%20Konsolu",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 12539,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Nintendo%20Switch%20Lite%2032GB%20Kompakt%20Ta%C5%9F%C4%B1nabilir%20El%20Konsolu",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-03-01",
-        "price": 13174
+        "date": "Ekim 2025",
+        "price": 13910
       },
       {
-        "date": "2026-04-15",
-        "price": 12808
+        "date": "Kasım 2025",
+        "price": 13540
       },
       {
-        "date": "2026-06-01",
-        "price": 12442
+        "date": "Aralık 2025",
+        "price": 13170
       },
       {
-        "date": "2026-08-01",
-        "price": 12198
+        "date": "Ocak 2026",
+        "price": 12810
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 12440
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 12200
       }
     ]
   },
@@ -2327,7 +2455,7 @@ export const mockConsoles: Product[] = [
     "category": "consoles",
     "rating": 4.58,
     "reviewCount": 204,
-    "basePrice": 10990,
+    "basePrice": 10939,
     "currency": "TL",
     "releaseYear": 2011,
     "isPopular": false,
@@ -2360,50 +2488,83 @@ export const mockConsoles: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "82204-0",
-        "storeName": "Amazon.com.tr",
-        "storeLogoColor": "#ff9900",
-        "price": 10990,
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 10989,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Distribütör Garantili",
-          "Ücretsiz Kargo"
-        ],
-        "sellerRating": 4.7,
-        "sellerReviews": 320,
-        "url": "https://www.amazon.com.tr"
+        "url": "https://www.hepsiburada.com/ara?q=Sony%20PlayStation%203%20Slim%20500%20GB%20Oyun%20Konsolu%20(CECH-3000)",
+        "rating": 4.8
       },
       {
-        "id": "82204-1",
-        "storeName": "Hepsiburada",
-        "storeLogoColor": "#ff6000",
-        "price": 11210,
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 11119,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Aynı Gün Kargo"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 560,
-        "url": "https://www.hepsiburada.com"
+        "url": "https://www.trendyol.com/sr?q=Sony%20PlayStation%203%20Slim%20500%20GB%20Oyun%20Konsolu%20(CECH-3000)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 11269,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Sony%20PlayStation%203%20Slim%20500%20GB%20Oyun%20Konsolu%20(CECH-3000)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 11379,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Sony%20PlayStation%203%20Slim%20500%20GB%20Oyun%20Konsolu%20(CECH-3000)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 10939,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Sony%20PlayStation%203%20Slim%20500%20GB%20Oyun%20Konsolu%20(CECH-3000)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 11299,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Sony%20PlayStation%203%20Slim%20500%20GB%20Oyun%20Konsolu%20(CECH-3000)",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-03-01",
-        "price": 11869
+        "date": "Ekim 2025",
+        "price": 12530
       },
       {
-        "date": "2026-04-15",
+        "date": "Kasım 2025",
+        "price": 12200
+      },
+      {
+        "date": "Aralık 2025",
+        "price": 11870
+      },
+      {
+        "date": "Ocak 2026",
         "price": 11540
       },
       {
-        "date": "2026-06-01",
+        "date": "Şubat 2026",
         "price": 11210
       },
       {
-        "date": "2026-08-01",
+        "date": "Ağustos 2026",
         "price": 10990
       }
     ]
@@ -2416,7 +2577,7 @@ export const mockConsoles: Product[] = [
     "category": "consoles",
     "rating": 4.58,
     "reviewCount": 196,
-    "basePrice": 9990,
+    "basePrice": 9939,
     "currency": "TL",
     "releaseYear": 2010,
     "isPopular": false,
@@ -2449,50 +2610,83 @@ export const mockConsoles: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "82198-0",
-        "storeName": "Amazon.com.tr",
-        "storeLogoColor": "#ff9900",
-        "price": 9990,
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 9989,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Distribütör Garantili",
-          "Ücretsiz Kargo"
-        ],
-        "sellerRating": 4.7,
-        "sellerReviews": 320,
-        "url": "https://www.amazon.com.tr"
+        "url": "https://www.hepsiburada.com/ara?q=Sony%20PlayStation%203%20Slim%20320%20GB%20Oyun%20Konsolu%20(CECH-2500)",
+        "rating": 4.8
       },
       {
-        "id": "82198-1",
-        "storeName": "Hepsiburada",
-        "storeLogoColor": "#ff6000",
-        "price": 10210,
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 10109,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Aynı Gün Kargo"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 560,
-        "url": "https://www.hepsiburada.com"
+        "url": "https://www.trendyol.com/sr?q=Sony%20PlayStation%203%20Slim%20320%20GB%20Oyun%20Konsolu%20(CECH-2500)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 10239,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Sony%20PlayStation%203%20Slim%20320%20GB%20Oyun%20Konsolu%20(CECH-2500)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 10339,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Sony%20PlayStation%203%20Slim%20320%20GB%20Oyun%20Konsolu%20(CECH-2500)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 9939,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Sony%20PlayStation%203%20Slim%20320%20GB%20Oyun%20Konsolu%20(CECH-2500)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 10269,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Sony%20PlayStation%203%20Slim%20320%20GB%20Oyun%20Konsolu%20(CECH-2500)",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-03-01",
-        "price": 10789
+        "date": "Ekim 2025",
+        "price": 11390
       },
       {
-        "date": "2026-04-15",
+        "date": "Kasım 2025",
+        "price": 11090
+      },
+      {
+        "date": "Aralık 2025",
+        "price": 10790
+      },
+      {
+        "date": "Ocak 2026",
         "price": 10490
       },
       {
-        "date": "2026-06-01",
+        "date": "Şubat 2026",
         "price": 10190
       },
       {
-        "date": "2026-08-01",
+        "date": "Ağustos 2026",
         "price": 9990
       }
     ]
@@ -2505,7 +2699,7 @@ export const mockConsoles: Product[] = [
     "category": "consoles",
     "rating": 4.57,
     "reviewCount": 180,
-    "basePrice": 10490,
+    "basePrice": 10439,
     "currency": "TL",
     "releaseYear": 2012,
     "isPopular": false,
@@ -2538,50 +2732,83 @@ export const mockConsoles: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "82184-0",
-        "storeName": "Amazon.com.tr",
-        "storeLogoColor": "#ff9900",
-        "price": 10490,
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 10489,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Distribütör Garantili",
-          "Ücretsiz Kargo"
-        ],
-        "sellerRating": 4.7,
-        "sellerReviews": 320,
-        "url": "https://www.amazon.com.tr"
+        "url": "https://www.hepsiburada.com/ara?q=Sony%20PlayStation%203%20Super%20Slim%20500%20GB%20Oyun%20Konsolu%20(CECH-4000)",
+        "rating": 4.8
       },
       {
-        "id": "82184-1",
-        "storeName": "Hepsiburada",
-        "storeLogoColor": "#ff6000",
-        "price": 10710,
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 10619,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Aynı Gün Kargo"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 560,
-        "url": "https://www.hepsiburada.com"
+        "url": "https://www.trendyol.com/sr?q=Sony%20PlayStation%203%20Super%20Slim%20500%20GB%20Oyun%20Konsolu%20(CECH-4000)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 10749,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Sony%20PlayStation%203%20Super%20Slim%20500%20GB%20Oyun%20Konsolu%20(CECH-4000)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 10859,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Sony%20PlayStation%203%20Super%20Slim%20500%20GB%20Oyun%20Konsolu%20(CECH-4000)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 10439,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Sony%20PlayStation%203%20Super%20Slim%20500%20GB%20Oyun%20Konsolu%20(CECH-4000)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 10779,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Sony%20PlayStation%203%20Super%20Slim%20500%20GB%20Oyun%20Konsolu%20(CECH-4000)",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-03-01",
-        "price": 11329
+        "date": "Ekim 2025",
+        "price": 11960
       },
       {
-        "date": "2026-04-15",
-        "price": 11015
+        "date": "Kasım 2025",
+        "price": 11640
       },
       {
-        "date": "2026-06-01",
+        "date": "Aralık 2025",
+        "price": 11330
+      },
+      {
+        "date": "Ocak 2026",
+        "price": 11010
+      },
+      {
+        "date": "Şubat 2026",
         "price": 10700
       },
       {
-        "date": "2026-08-01",
+        "date": "Ağustos 2026",
         "price": 10490
       }
     ]
@@ -2594,7 +2821,7 @@ export const mockConsoles: Product[] = [
     "category": "consoles",
     "rating": 4.88,
     "reviewCount": 740,
-    "basePrice": 48999,
+    "basePrice": 28849,
     "currency": "TL",
     "releaseYear": 2024,
     "isPopular": true,
@@ -2627,65 +2854,84 @@ export const mockConsoles: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "942574-0",
-        "storeName": "Amazon.com.tr",
-        "storeLogoColor": "#ff9900",
-        "price": 48999,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Distribütör Garantili",
-          "Ücretsiz Kargo"
-        ],
-        "sellerRating": 4.7,
-        "sellerReviews": 320,
-        "url": "https://www.amazon.com.tr"
-      },
-      {
-        "id": "942574-1",
         "storeName": "Hepsiburada",
-        "storeLogoColor": "#ff6000",
-        "price": 49219,
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 28999,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Aynı Gün Kargo"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 560,
-        "url": "https://www.hepsiburada.com"
+        "url": "https://www.hepsiburada.com/ara?q=Asus%20ROG%20Ally%20X%20El%20Konsolu%201TB%20AMD%20Ryzen%20Z1%20Extreme%20(RC72LA)",
+        "rating": 4.8
       },
       {
-        "id": "942574-2",
         "storeName": "Trendyol",
-        "storeLogoColor": "#f27a1a",
-        "price": 49649,
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 29349,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Aynı Gün Kargo"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 800,
-        "url": "https://www.trendyol.com"
+        "url": "https://www.trendyol.com/sr?q=Asus%20ROG%20Ally%20X%20El%20Konsolu%201TB%20AMD%20Ryzen%20Z1%20Extreme%20(RC72LA)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 29719,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Asus%20ROG%20Ally%20X%20El%20Konsolu%201TB%20AMD%20Ryzen%20Z1%20Extreme%20(RC72LA)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 30009,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Asus%20ROG%20Ally%20X%20El%20Konsolu%201TB%20AMD%20Ryzen%20Z1%20Extreme%20(RC72LA)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 28849,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Asus%20ROG%20Ally%20X%20El%20Konsolu%201TB%20AMD%20Ryzen%20Z1%20Extreme%20(RC72LA)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 29809,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Asus%20ROG%20Ally%20X%20El%20Konsolu%201TB%20AMD%20Ryzen%20Z1%20Extreme%20(RC72LA)",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-03-01",
-        "price": 52919
+        "date": "Ekim 2025",
+        "price": 33060
       },
       {
-        "date": "2026-04-15",
-        "price": 51449
+        "date": "Kasım 2025",
+        "price": 32190
       },
       {
-        "date": "2026-06-01",
-        "price": 49979
+        "date": "Aralık 2025",
+        "price": 31320
       },
       {
-        "date": "2026-08-01",
-        "price": 48999
+        "date": "Ocak 2026",
+        "price": 30450
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 29580
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 29000
       }
     ]
   },
@@ -2697,7 +2943,7 @@ export const mockConsoles: Product[] = [
     "category": "consoles",
     "rating": 4.87,
     "reviewCount": 724,
-    "basePrice": 39999,
+    "basePrice": 39799,
     "currency": "TL",
     "releaseYear": 2023,
     "isPopular": true,
@@ -2730,65 +2976,84 @@ export const mockConsoles: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "973322-0",
-        "storeName": "Amazon.com.tr",
-        "storeLogoColor": "#ff9900",
-        "price": 39999,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Distribütör Garantili",
-          "Ücretsiz Kargo"
-        ],
-        "sellerRating": 4.7,
-        "sellerReviews": 320,
-        "url": "https://www.amazon.com.tr"
-      },
-      {
-        "id": "973322-1",
         "storeName": "Hepsiburada",
-        "storeLogoColor": "#ff6000",
-        "price": 40219,
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 39999,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Aynı Gün Kargo"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 560,
-        "url": "https://www.hepsiburada.com"
+        "url": "https://www.hepsiburada.com/ara?q=Lenovo%20Legion%20Go%201%20TB%20Ta%C5%9F%C4%B1nabilir%20Oyun%20Konsolu%20(8.8%20in%C3%A7%20144Hz%20QHD%2B)",
+        "rating": 4.8
       },
       {
-        "id": "973322-2",
         "storeName": "Trendyol",
-        "storeLogoColor": "#f27a1a",
-        "price": 40649,
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 40479,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Aynı Gün Kargo"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 800,
-        "url": "https://www.trendyol.com"
+        "url": "https://www.trendyol.com/sr?q=Lenovo%20Legion%20Go%201%20TB%20Ta%C5%9F%C4%B1nabilir%20Oyun%20Konsolu%20(8.8%20in%C3%A7%20144Hz%20QHD%2B)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 40999,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Lenovo%20Legion%20Go%201%20TB%20Ta%C5%9F%C4%B1nabilir%20Oyun%20Konsolu%20(8.8%20in%C3%A7%20144Hz%20QHD%2B)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 41399,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Lenovo%20Legion%20Go%201%20TB%20Ta%C5%9F%C4%B1nabilir%20Oyun%20Konsolu%20(8.8%20in%C3%A7%20144Hz%20QHD%2B)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 39799,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Lenovo%20Legion%20Go%201%20TB%20Ta%C5%9F%C4%B1nabilir%20Oyun%20Konsolu%20(8.8%20in%C3%A7%20144Hz%20QHD%2B)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 41119,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Lenovo%20Legion%20Go%201%20TB%20Ta%C5%9F%C4%B1nabilir%20Oyun%20Konsolu%20(8.8%20in%C3%A7%20144Hz%20QHD%2B)",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-03-01",
-        "price": 43199
+        "date": "Ekim 2025",
+        "price": 45600
       },
       {
-        "date": "2026-04-15",
-        "price": 41999
+        "date": "Kasım 2025",
+        "price": 44400
       },
       {
-        "date": "2026-06-01",
-        "price": 40799
+        "date": "Aralık 2025",
+        "price": 43200
       },
       {
-        "date": "2026-08-01",
-        "price": 39999
+        "date": "Ocak 2026",
+        "price": 42000
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 40800
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 40000
       }
     ]
   },
@@ -2800,7 +3065,7 @@ export const mockConsoles: Product[] = [
     "category": "consoles",
     "rating": 4.87,
     "reviewCount": 724,
-    "basePrice": 79999,
+    "basePrice": 79599,
     "currency": "TL",
     "releaseYear": 2025,
     "isPopular": true,
@@ -2833,65 +3098,84 @@ export const mockConsoles: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "1058630-0",
-        "storeName": "Amazon.com.tr",
-        "storeLogoColor": "#ff9900",
-        "price": 79999,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Distribütör Garantili",
-          "Ücretsiz Kargo"
-        ],
-        "sellerRating": 4.7,
-        "sellerReviews": 320,
-        "url": "https://www.amazon.com.tr"
-      },
-      {
-        "id": "1058630-1",
         "storeName": "Hepsiburada",
-        "storeLogoColor": "#ff6000",
-        "price": 80219,
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 79999,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Aynı Gün Kargo"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 560,
-        "url": "https://www.hepsiburada.com"
+        "url": "https://www.hepsiburada.com/ara?q=MSI%20Claw%208%20EX%20AI%2B%201%20TB%20Ta%C5%9F%C4%B1nabilir%20Oyun%20Konsolu%20(Lunar%20Lake)",
+        "rating": 4.8
       },
       {
-        "id": "1058630-2",
         "storeName": "Trendyol",
-        "storeLogoColor": "#f27a1a",
-        "price": 80649,
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 80959,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Aynı Gün Kargo"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 800,
-        "url": "https://www.trendyol.com"
+        "url": "https://www.trendyol.com/sr?q=MSI%20Claw%208%20EX%20AI%2B%201%20TB%20Ta%C5%9F%C4%B1nabilir%20Oyun%20Konsolu%20(Lunar%20Lake)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 81999,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=MSI%20Claw%208%20EX%20AI%2B%201%20TB%20Ta%C5%9F%C4%B1nabilir%20Oyun%20Konsolu%20(Lunar%20Lake)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 82799,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/MSI%20Claw%208%20EX%20AI%2B%201%20TB%20Ta%C5%9F%C4%B1nabilir%20Oyun%20Konsolu%20(Lunar%20Lake)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 79599,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=MSI%20Claw%208%20EX%20AI%2B%201%20TB%20Ta%C5%9F%C4%B1nabilir%20Oyun%20Konsolu%20(Lunar%20Lake)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 82239,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=MSI%20Claw%208%20EX%20AI%2B%201%20TB%20Ta%C5%9F%C4%B1nabilir%20Oyun%20Konsolu%20(Lunar%20Lake)",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-03-01",
-        "price": 86399
+        "date": "Ekim 2025",
+        "price": 91200
       },
       {
-        "date": "2026-04-15",
-        "price": 83999
+        "date": "Kasım 2025",
+        "price": 88800
       },
       {
-        "date": "2026-06-01",
-        "price": 81599
+        "date": "Aralık 2025",
+        "price": 86400
       },
       {
-        "date": "2026-08-01",
-        "price": 79999
+        "date": "Ocak 2026",
+        "price": 84000
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 81600
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 80000
       }
     ]
   },
@@ -2903,7 +3187,7 @@ export const mockConsoles: Product[] = [
     "category": "consoles",
     "rating": 4.85,
     "reviewCount": 684,
-    "basePrice": 34999,
+    "basePrice": 28849,
     "currency": "TL",
     "releaseYear": 2023,
     "isPopular": true,
@@ -2936,65 +3220,84 @@ export const mockConsoles: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "867459-0",
-        "storeName": "Amazon.com.tr",
-        "storeLogoColor": "#ff9900",
-        "price": 34999,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Distribütör Garantili",
-          "Ücretsiz Kargo"
-        ],
-        "sellerRating": 4.7,
-        "sellerReviews": 320,
-        "url": "https://www.amazon.com.tr"
-      },
-      {
-        "id": "867459-1",
         "storeName": "Hepsiburada",
-        "storeLogoColor": "#ff6000",
-        "price": 35219,
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 28999,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Aynı Gün Kargo"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 560,
-        "url": "https://www.hepsiburada.com"
+        "url": "https://www.hepsiburada.com/ara?q=Asus%20ROG%20Ally%202023%20Extreme%20512GB%20(RC71L-NH001W)",
+        "rating": 4.8
       },
       {
-        "id": "867459-2",
         "storeName": "Trendyol",
-        "storeLogoColor": "#f27a1a",
-        "price": 35649,
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 29349,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Aynı Gün Kargo"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 800,
-        "url": "https://www.trendyol.com"
+        "url": "https://www.trendyol.com/sr?q=Asus%20ROG%20Ally%202023%20Extreme%20512GB%20(RC71L-NH001W)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 29719,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Asus%20ROG%20Ally%202023%20Extreme%20512GB%20(RC71L-NH001W)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 30009,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Asus%20ROG%20Ally%202023%20Extreme%20512GB%20(RC71L-NH001W)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 28849,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Asus%20ROG%20Ally%202023%20Extreme%20512GB%20(RC71L-NH001W)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 29809,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Asus%20ROG%20Ally%202023%20Extreme%20512GB%20(RC71L-NH001W)",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-03-01",
-        "price": 37799
+        "date": "Ekim 2025",
+        "price": 33060
       },
       {
-        "date": "2026-04-15",
-        "price": 36749
+        "date": "Kasım 2025",
+        "price": 32190
       },
       {
-        "date": "2026-06-01",
-        "price": 35699
+        "date": "Aralık 2025",
+        "price": 31320
       },
       {
-        "date": "2026-08-01",
-        "price": 34999
+        "date": "Ocak 2026",
+        "price": 30450
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 29580
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 29000
       }
     ]
   },
@@ -3006,7 +3309,7 @@ export const mockConsoles: Product[] = [
     "category": "consoles",
     "rating": 4.85,
     "reviewCount": 684,
-    "basePrice": 65999,
+    "basePrice": 65669,
     "currency": "TL",
     "releaseYear": 2025,
     "isPopular": true,
@@ -3039,65 +3342,84 @@ export const mockConsoles: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "1059392-0",
-        "storeName": "Amazon.com.tr",
-        "storeLogoColor": "#ff9900",
-        "price": 65999,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Distribütör Garantili",
-          "Ücretsiz Kargo"
-        ],
-        "sellerRating": 4.7,
-        "sellerReviews": 320,
-        "url": "https://www.amazon.com.tr"
-      },
-      {
-        "id": "1059392-1",
         "storeName": "Hepsiburada",
-        "storeLogoColor": "#ff6000",
-        "price": 66219,
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 65999,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Aynı Gün Kargo"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 560,
-        "url": "https://www.hepsiburada.com"
+        "url": "https://www.hepsiburada.com/ara?q=Asus%20ROG%20Xbox%20Ally%20X20%20Bundle%201TB%20(RC74XA-TW004W)",
+        "rating": 4.8
       },
       {
-        "id": "1059392-2",
         "storeName": "Trendyol",
-        "storeLogoColor": "#f27a1a",
-        "price": 66649,
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 66789,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Aynı Gün Kargo"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 800,
-        "url": "https://www.trendyol.com"
+        "url": "https://www.trendyol.com/sr?q=Asus%20ROG%20Xbox%20Ally%20X20%20Bundle%201TB%20(RC74XA-TW004W)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 67649,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Asus%20ROG%20Xbox%20Ally%20X20%20Bundle%201TB%20(RC74XA-TW004W)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 68309,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Asus%20ROG%20Xbox%20Ally%20X20%20Bundle%201TB%20(RC74XA-TW004W)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 65669,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Asus%20ROG%20Xbox%20Ally%20X20%20Bundle%201TB%20(RC74XA-TW004W)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 67849,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Asus%20ROG%20Xbox%20Ally%20X20%20Bundle%201TB%20(RC74XA-TW004W)",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-03-01",
-        "price": 71279
+        "date": "Ekim 2025",
+        "price": 75240
       },
       {
-        "date": "2026-04-15",
-        "price": 69299
+        "date": "Kasım 2025",
+        "price": 73260
       },
       {
-        "date": "2026-06-01",
-        "price": 67319
+        "date": "Aralık 2025",
+        "price": 71280
       },
       {
-        "date": "2026-08-01",
-        "price": 65999
+        "date": "Ocak 2026",
+        "price": 69300
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 67320
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 66000
       }
     ]
   },
@@ -3109,7 +3431,7 @@ export const mockConsoles: Product[] = [
     "category": "consoles",
     "rating": 4.85,
     "reviewCount": 676,
-    "basePrice": 42999,
+    "basePrice": 42779,
     "currency": "TL",
     "releaseYear": 2024,
     "isPopular": true,
@@ -3142,65 +3464,84 @@ export const mockConsoles: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "959344-0",
-        "storeName": "Amazon.com.tr",
-        "storeLogoColor": "#ff9900",
-        "price": 42999,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Distribütör Garantili",
-          "Ücretsiz Kargo"
-        ],
-        "sellerRating": 4.7,
-        "sellerReviews": 320,
-        "url": "https://www.amazon.com.tr"
-      },
-      {
-        "id": "959344-1",
         "storeName": "Hepsiburada",
-        "storeLogoColor": "#ff6000",
-        "price": 43219,
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 42999,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Aynı Gün Kargo"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 560,
-        "url": "https://www.hepsiburada.com"
+        "url": "https://www.hepsiburada.com/ara?q=Acer%20Nitro%20Blaze%207%202TB%20El%20Konsolu%20AMD%20Ryzen%207%208840HS%20(GN771)",
+        "rating": 4.8
       },
       {
-        "id": "959344-2",
         "storeName": "Trendyol",
-        "storeLogoColor": "#f27a1a",
-        "price": 43649,
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 43519,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Aynı Gün Kargo"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 800,
-        "url": "https://www.trendyol.com"
+        "url": "https://www.trendyol.com/sr?q=Acer%20Nitro%20Blaze%207%202TB%20El%20Konsolu%20AMD%20Ryzen%207%208840HS%20(GN771)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 44069,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Acer%20Nitro%20Blaze%207%202TB%20El%20Konsolu%20AMD%20Ryzen%207%208840HS%20(GN771)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 44499,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Acer%20Nitro%20Blaze%207%202TB%20El%20Konsolu%20AMD%20Ryzen%207%208840HS%20(GN771)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 42779,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Acer%20Nitro%20Blaze%207%202TB%20El%20Konsolu%20AMD%20Ryzen%207%208840HS%20(GN771)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 44199,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Acer%20Nitro%20Blaze%207%202TB%20El%20Konsolu%20AMD%20Ryzen%207%208840HS%20(GN771)",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-03-01",
-        "price": 46439
+        "date": "Ekim 2025",
+        "price": 49020
       },
       {
-        "date": "2026-04-15",
-        "price": 45149
+        "date": "Kasım 2025",
+        "price": 47730
       },
       {
-        "date": "2026-06-01",
-        "price": 43859
+        "date": "Aralık 2025",
+        "price": 46440
       },
       {
-        "date": "2026-08-01",
-        "price": 42999
+        "date": "Ocak 2026",
+        "price": 45150
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 43860
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 43000
       }
     ]
   },
@@ -3212,7 +3553,7 @@ export const mockConsoles: Product[] = [
     "category": "consoles",
     "rating": 4.84,
     "reviewCount": 660,
-    "basePrice": 34999,
+    "basePrice": 34819,
     "currency": "TL",
     "releaseYear": 2023,
     "isPopular": true,
@@ -3245,65 +3586,84 @@ export const mockConsoles: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "892469-0",
-        "storeName": "Amazon.com.tr",
-        "storeLogoColor": "#ff9900",
-        "price": 34999,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Distribütör Garantili",
-          "Ücretsiz Kargo"
-        ],
-        "sellerRating": 4.7,
-        "sellerReviews": 320,
-        "url": "https://www.amazon.com.tr"
-      },
-      {
-        "id": "892469-1",
         "storeName": "Hepsiburada",
-        "storeLogoColor": "#ff6000",
-        "price": 35219,
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 34999,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Aynı Gün Kargo"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 560,
-        "url": "https://www.hepsiburada.com"
+        "url": "https://www.hepsiburada.com/ara?q=Lenovo%20Legion%20Go%20512%20GB%20Ta%C5%9F%C4%B1nabilir%20Oyun%20Konsolu%20(83E10031TR)",
+        "rating": 4.8
       },
       {
-        "id": "892469-2",
         "storeName": "Trendyol",
-        "storeLogoColor": "#f27a1a",
-        "price": 35649,
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 35419,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Aynı Gün Kargo"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 800,
-        "url": "https://www.trendyol.com"
+        "url": "https://www.trendyol.com/sr?q=Lenovo%20Legion%20Go%20512%20GB%20Ta%C5%9F%C4%B1nabilir%20Oyun%20Konsolu%20(83E10031TR)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 35869,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Lenovo%20Legion%20Go%20512%20GB%20Ta%C5%9F%C4%B1nabilir%20Oyun%20Konsolu%20(83E10031TR)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 36219,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Lenovo%20Legion%20Go%20512%20GB%20Ta%C5%9F%C4%B1nabilir%20Oyun%20Konsolu%20(83E10031TR)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 34819,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Lenovo%20Legion%20Go%20512%20GB%20Ta%C5%9F%C4%B1nabilir%20Oyun%20Konsolu%20(83E10031TR)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 35979,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Lenovo%20Legion%20Go%20512%20GB%20Ta%C5%9F%C4%B1nabilir%20Oyun%20Konsolu%20(83E10031TR)",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-03-01",
-        "price": 37799
+        "date": "Ekim 2025",
+        "price": 39900
       },
       {
-        "date": "2026-04-15",
-        "price": 36749
+        "date": "Kasım 2025",
+        "price": 38850
       },
       {
-        "date": "2026-06-01",
-        "price": 35699
+        "date": "Aralık 2025",
+        "price": 37800
       },
       {
-        "date": "2026-08-01",
-        "price": 34999
+        "date": "Ocak 2026",
+        "price": 36750
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 35700
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 35000
       }
     ]
   },
@@ -3315,7 +3675,7 @@ export const mockConsoles: Product[] = [
     "category": "consoles",
     "rating": 4.83,
     "reviewCount": 652,
-    "basePrice": 47999,
+    "basePrice": 47759,
     "currency": "TL",
     "releaseYear": 2024,
     "isPopular": true,
@@ -3348,65 +3708,84 @@ export const mockConsoles: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "975543-0",
-        "storeName": "Amazon.com.tr",
-        "storeLogoColor": "#ff9900",
-        "price": 47999,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Distribütör Garantili",
-          "Ücretsiz Kargo"
-        ],
-        "sellerRating": 4.7,
-        "sellerReviews": 320,
-        "url": "https://www.amazon.com.tr"
-      },
-      {
-        "id": "975543-1",
         "storeName": "Hepsiburada",
-        "storeLogoColor": "#ff6000",
-        "price": 48219,
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 47999,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Aynı Gün Kargo"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 560,
-        "url": "https://www.hepsiburada.com"
+        "url": "https://www.hepsiburada.com/ara?q=MSI%20Claw%207%20AI%2B%20512%20GB%20El%20Konsolu%20(CLAW7A2001)",
+        "rating": 4.8
       },
       {
-        "id": "975543-2",
         "storeName": "Trendyol",
-        "storeLogoColor": "#f27a1a",
-        "price": 48649,
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 48579,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Aynı Gün Kargo"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 800,
-        "url": "https://www.trendyol.com"
+        "url": "https://www.trendyol.com/sr?q=MSI%20Claw%207%20AI%2B%20512%20GB%20El%20Konsolu%20(CLAW7A2001)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 49199,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=MSI%20Claw%207%20AI%2B%20512%20GB%20El%20Konsolu%20(CLAW7A2001)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 49679,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/MSI%20Claw%207%20AI%2B%20512%20GB%20El%20Konsolu%20(CLAW7A2001)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 47759,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=MSI%20Claw%207%20AI%2B%20512%20GB%20El%20Konsolu%20(CLAW7A2001)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 49339,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=MSI%20Claw%207%20AI%2B%20512%20GB%20El%20Konsolu%20(CLAW7A2001)",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-03-01",
-        "price": 51839
+        "date": "Ekim 2025",
+        "price": 54720
       },
       {
-        "date": "2026-04-15",
-        "price": 50399
+        "date": "Kasım 2025",
+        "price": 53280
       },
       {
-        "date": "2026-06-01",
-        "price": 48959
+        "date": "Aralık 2025",
+        "price": 51840
       },
       {
-        "date": "2026-08-01",
-        "price": 47999
+        "date": "Ocak 2026",
+        "price": 50400
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 48960
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 48000
       }
     ]
   },
@@ -3418,7 +3797,7 @@ export const mockConsoles: Product[] = [
     "category": "consoles",
     "rating": 4.83,
     "reviewCount": 644,
-    "basePrice": 43999,
+    "basePrice": 43779,
     "currency": "TL",
     "releaseYear": 2024,
     "isPopular": true,
@@ -3451,65 +3830,84 @@ export const mockConsoles: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "986356-0",
-        "storeName": "Amazon.com.tr",
-        "storeLogoColor": "#ff9900",
-        "price": 43999,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Distribütör Garantili",
-          "Ücretsiz Kargo"
-        ],
-        "sellerRating": 4.7,
-        "sellerReviews": 320,
-        "url": "https://www.amazon.com.tr"
-      },
-      {
-        "id": "986356-1",
         "storeName": "Hepsiburada",
-        "storeLogoColor": "#ff6000",
-        "price": 44219,
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 43999,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Aynı Gün Kargo"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 560,
-        "url": "https://www.hepsiburada.com"
+        "url": "https://www.hepsiburada.com/ara?q=Acer%20Nitro%20Blaze%2011%202TB%20El%20Konsolu%20AMD%20Ryzen%207%20(GN7112U)",
+        "rating": 4.8
       },
       {
-        "id": "986356-2",
         "storeName": "Trendyol",
-        "storeLogoColor": "#f27a1a",
-        "price": 44649,
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 44529,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Aynı Gün Kargo"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 800,
-        "url": "https://www.trendyol.com"
+        "url": "https://www.trendyol.com/sr?q=Acer%20Nitro%20Blaze%2011%202TB%20El%20Konsolu%20AMD%20Ryzen%207%20(GN7112U)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 45099,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Acer%20Nitro%20Blaze%2011%202TB%20El%20Konsolu%20AMD%20Ryzen%207%20(GN7112U)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 45539,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Acer%20Nitro%20Blaze%2011%202TB%20El%20Konsolu%20AMD%20Ryzen%207%20(GN7112U)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 43779,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Acer%20Nitro%20Blaze%2011%202TB%20El%20Konsolu%20AMD%20Ryzen%207%20(GN7112U)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 45229,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Acer%20Nitro%20Blaze%2011%202TB%20El%20Konsolu%20AMD%20Ryzen%207%20(GN7112U)",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-03-01",
-        "price": 47519
+        "date": "Ekim 2025",
+        "price": 50160
       },
       {
-        "date": "2026-04-15",
-        "price": 46199
+        "date": "Kasım 2025",
+        "price": 48840
       },
       {
-        "date": "2026-06-01",
-        "price": 44879
+        "date": "Aralık 2025",
+        "price": 47520
       },
       {
-        "date": "2026-08-01",
-        "price": 43999
+        "date": "Ocak 2026",
+        "price": 46200
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 44880
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 44000
       }
     ]
   },
@@ -3521,7 +3919,7 @@ export const mockConsoles: Product[] = [
     "category": "consoles",
     "rating": 4.83,
     "reviewCount": 644,
-    "basePrice": 41999,
+    "basePrice": 41789,
     "currency": "TL",
     "releaseYear": 2024,
     "isPopular": true,
@@ -3554,65 +3952,84 @@ export const mockConsoles: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "986354-0",
-        "storeName": "Amazon.com.tr",
-        "storeLogoColor": "#ff9900",
-        "price": 41999,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Distribütör Garantili",
-          "Ücretsiz Kargo"
-        ],
-        "sellerRating": 4.7,
-        "sellerReviews": 320,
-        "url": "https://www.amazon.com.tr"
-      },
-      {
-        "id": "986354-1",
         "storeName": "Hepsiburada",
-        "storeLogoColor": "#ff6000",
-        "price": 42219,
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 41999,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Aynı Gün Kargo"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 560,
-        "url": "https://www.hepsiburada.com"
+        "url": "https://www.hepsiburada.com/ara?q=Acer%20Nitro%20Blaze%208%202TB%20El%20Konsolu%20(GN782U)",
+        "rating": 4.8
       },
       {
-        "id": "986354-2",
         "storeName": "Trendyol",
-        "storeLogoColor": "#f27a1a",
-        "price": 42649,
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 42499,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Aynı Gün Kargo"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 800,
-        "url": "https://www.trendyol.com"
+        "url": "https://www.trendyol.com/sr?q=Acer%20Nitro%20Blaze%208%202TB%20El%20Konsolu%20(GN782U)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 43049,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Acer%20Nitro%20Blaze%208%202TB%20El%20Konsolu%20(GN782U)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 43469,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Acer%20Nitro%20Blaze%208%202TB%20El%20Konsolu%20(GN782U)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 41789,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Acer%20Nitro%20Blaze%208%202TB%20El%20Konsolu%20(GN782U)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 43179,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Acer%20Nitro%20Blaze%208%202TB%20El%20Konsolu%20(GN782U)",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-03-01",
-        "price": 45359
+        "date": "Ekim 2025",
+        "price": 47880
       },
       {
-        "date": "2026-04-15",
-        "price": 44099
+        "date": "Kasım 2025",
+        "price": 46620
       },
       {
-        "date": "2026-06-01",
-        "price": 42839
+        "date": "Aralık 2025",
+        "price": 45360
       },
       {
-        "date": "2026-08-01",
-        "price": 41999
+        "date": "Ocak 2026",
+        "price": 44100
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 42840
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 42000
       }
     ]
   },
@@ -3624,7 +4041,7 @@ export const mockConsoles: Product[] = [
     "category": "consoles",
     "rating": 4.82,
     "reviewCount": 636,
-    "basePrice": 32999,
+    "basePrice": 32829,
     "currency": "TL",
     "releaseYear": 2025,
     "isPopular": true,
@@ -3657,65 +4074,84 @@ export const mockConsoles: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "975394-0",
-        "storeName": "Amazon.com.tr",
-        "storeLogoColor": "#ff9900",
-        "price": 32999,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Distribütör Garantili",
-          "Ücretsiz Kargo"
-        ],
-        "sellerRating": 4.7,
-        "sellerReviews": 320,
-        "url": "https://www.amazon.com.tr"
-      },
-      {
-        "id": "975394-1",
         "storeName": "Hepsiburada",
-        "storeLogoColor": "#ff6000",
-        "price": 33219,
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 32999,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Aynı Gün Kargo"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 560,
-        "url": "https://www.hepsiburada.com"
+        "url": "https://www.hepsiburada.com/ara?q=Lenovo%20Legion%20Go%20S%201TB%20Ta%C5%9F%C4%B1nabilir%20Oyun%20Konsolu%20(83L3002BTR)",
+        "rating": 4.8
       },
       {
-        "id": "975394-2",
         "storeName": "Trendyol",
-        "storeLogoColor": "#f27a1a",
-        "price": 33649,
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 33399,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Aynı Gün Kargo"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 800,
-        "url": "https://www.trendyol.com"
+        "url": "https://www.trendyol.com/sr?q=Lenovo%20Legion%20Go%20S%201TB%20Ta%C5%9F%C4%B1nabilir%20Oyun%20Konsolu%20(83L3002BTR)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 33819,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Lenovo%20Legion%20Go%20S%201TB%20Ta%C5%9F%C4%B1nabilir%20Oyun%20Konsolu%20(83L3002BTR)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 34149,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Lenovo%20Legion%20Go%20S%201TB%20Ta%C5%9F%C4%B1nabilir%20Oyun%20Konsolu%20(83L3002BTR)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 32829,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Lenovo%20Legion%20Go%20S%201TB%20Ta%C5%9F%C4%B1nabilir%20Oyun%20Konsolu%20(83L3002BTR)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 33919,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Lenovo%20Legion%20Go%20S%201TB%20Ta%C5%9F%C4%B1nabilir%20Oyun%20Konsolu%20(83L3002BTR)",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-03-01",
-        "price": 35639
+        "date": "Ekim 2025",
+        "price": 37620
       },
       {
-        "date": "2026-04-15",
-        "price": 34649
+        "date": "Kasım 2025",
+        "price": 36630
       },
       {
-        "date": "2026-06-01",
-        "price": 33659
+        "date": "Aralık 2025",
+        "price": 35640
       },
       {
-        "date": "2026-08-01",
-        "price": 32999
+        "date": "Ocak 2026",
+        "price": 34650
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 33660
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 33000
       }
     ]
   },
@@ -3727,7 +4163,7 @@ export const mockConsoles: Product[] = [
     "category": "consoles",
     "rating": 4.82,
     "reviewCount": 628,
-    "basePrice": 37999,
+    "basePrice": 37809,
     "currency": "TL",
     "releaseYear": 2024,
     "isPopular": true,
@@ -3760,65 +4196,84 @@ export const mockConsoles: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "943073-0",
-        "storeName": "Amazon.com.tr",
-        "storeLogoColor": "#ff9900",
-        "price": 37999,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Distribütör Garantili",
-          "Ücretsiz Kargo"
-        ],
-        "sellerRating": 4.7,
-        "sellerReviews": 320,
-        "url": "https://www.amazon.com.tr"
-      },
-      {
-        "id": "943073-1",
         "storeName": "Hepsiburada",
-        "storeLogoColor": "#ff6000",
-        "price": 38219,
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 37999,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Aynı Gün Kargo"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 560,
-        "url": "https://www.hepsiburada.com"
+        "url": "https://www.hepsiburada.com/ara?q=Zotac%20Zone%20512GB%20AMOLED%20120Hz%20El%20Konsolu%20(ZGC-G1A1W-01)",
+        "rating": 4.8
       },
       {
-        "id": "943073-2",
         "storeName": "Trendyol",
-        "storeLogoColor": "#f27a1a",
-        "price": 38649,
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 38459,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Aynı Gün Kargo"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 800,
-        "url": "https://www.trendyol.com"
+        "url": "https://www.trendyol.com/sr?q=Zotac%20Zone%20512GB%20AMOLED%20120Hz%20El%20Konsolu%20(ZGC-G1A1W-01)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 38949,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Zotac%20Zone%20512GB%20AMOLED%20120Hz%20El%20Konsolu%20(ZGC-G1A1W-01)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 39329,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Zotac%20Zone%20512GB%20AMOLED%20120Hz%20El%20Konsolu%20(ZGC-G1A1W-01)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 37809,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Zotac%20Zone%20512GB%20AMOLED%20120Hz%20El%20Konsolu%20(ZGC-G1A1W-01)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 39059,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Zotac%20Zone%20512GB%20AMOLED%20120Hz%20El%20Konsolu%20(ZGC-G1A1W-01)",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-03-01",
-        "price": 41039
+        "date": "Ekim 2025",
+        "price": 43320
       },
       {
-        "date": "2026-04-15",
-        "price": 39899
+        "date": "Kasım 2025",
+        "price": 42180
       },
       {
-        "date": "2026-06-01",
-        "price": 38759
+        "date": "Aralık 2025",
+        "price": 41040
       },
       {
-        "date": "2026-08-01",
-        "price": 37999
+        "date": "Ocak 2026",
+        "price": 39900
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 38760
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 38000
       }
     ]
   },
@@ -3830,7 +4285,7 @@ export const mockConsoles: Product[] = [
     "category": "consoles",
     "rating": 4.8,
     "reviewCount": 588,
-    "basePrice": 33999,
+    "basePrice": 33829,
     "currency": "TL",
     "releaseYear": 2024,
     "isPopular": true,
@@ -3863,65 +4318,84 @@ export const mockConsoles: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "918423-0",
-        "storeName": "Amazon.com.tr",
-        "storeLogoColor": "#ff9900",
-        "price": 33999,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Distribütör Garantili",
-          "Ücretsiz Kargo"
-        ],
-        "sellerRating": 4.7,
-        "sellerReviews": 320,
-        "url": "https://www.amazon.com.tr"
-      },
-      {
-        "id": "918423-1",
         "storeName": "Hepsiburada",
-        "storeLogoColor": "#ff6000",
-        "price": 34219,
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 33999,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Aynı Gün Kargo"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 560,
-        "url": "https://www.hepsiburada.com"
+        "url": "https://www.hepsiburada.com/ara?q=MSI%20Claw%20A1M%20Intel%20Core%20Ultra%207%20155H%20%2F%201%20TB%20(A1M-089TR)",
+        "rating": 4.8
       },
       {
-        "id": "918423-2",
         "storeName": "Trendyol",
-        "storeLogoColor": "#f27a1a",
-        "price": 34649,
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 34409,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Aynı Gün Kargo"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 800,
-        "url": "https://www.trendyol.com"
+        "url": "https://www.trendyol.com/sr?q=MSI%20Claw%20A1M%20Intel%20Core%20Ultra%207%20155H%20%2F%201%20TB%20(A1M-089TR)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 34849,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=MSI%20Claw%20A1M%20Intel%20Core%20Ultra%207%20155H%20%2F%201%20TB%20(A1M-089TR)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 35189,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/MSI%20Claw%20A1M%20Intel%20Core%20Ultra%207%20155H%20%2F%201%20TB%20(A1M-089TR)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 33829,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=MSI%20Claw%20A1M%20Intel%20Core%20Ultra%207%20155H%20%2F%201%20TB%20(A1M-089TR)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 34949,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=MSI%20Claw%20A1M%20Intel%20Core%20Ultra%207%20155H%20%2F%201%20TB%20(A1M-089TR)",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-03-01",
-        "price": 36719
+        "date": "Ekim 2025",
+        "price": 38760
       },
       {
-        "date": "2026-04-15",
-        "price": 35699
+        "date": "Kasım 2025",
+        "price": 37740
       },
       {
-        "date": "2026-06-01",
-        "price": 34679
+        "date": "Aralık 2025",
+        "price": 36720
       },
       {
-        "date": "2026-08-01",
-        "price": 33999
+        "date": "Ocak 2026",
+        "price": 35700
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 34680
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 34000
       }
     ]
   },
@@ -3933,7 +4407,7 @@ export const mockConsoles: Product[] = [
     "category": "consoles",
     "rating": 4.79,
     "reviewCount": 572,
-    "basePrice": 29999,
+    "basePrice": 29849,
     "currency": "TL",
     "releaseYear": 2024,
     "isPopular": true,
@@ -3966,65 +4440,84 @@ export const mockConsoles: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "936357-0",
-        "storeName": "Amazon.com.tr",
-        "storeLogoColor": "#ff9900",
-        "price": 29999,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Distribütör Garantili",
-          "Ücretsiz Kargo"
-        ],
-        "sellerRating": 4.7,
-        "sellerReviews": 320,
-        "url": "https://www.amazon.com.tr"
-      },
-      {
-        "id": "936357-1",
         "storeName": "Hepsiburada",
-        "storeLogoColor": "#ff6000",
-        "price": 30219,
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 29999,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Aynı Gün Kargo"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 560,
-        "url": "https://www.hepsiburada.com"
+        "url": "https://www.hepsiburada.com/ara?q=MSI%20Claw%20A1M%20Intel%20Core%20Ultra%207%20155H%20%2F%20512%20GB%20(A1M-088TR)",
+        "rating": 4.8
       },
       {
-        "id": "936357-2",
         "storeName": "Trendyol",
-        "storeLogoColor": "#f27a1a",
-        "price": 30649,
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 30359,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Aynı Gün Kargo"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 800,
-        "url": "https://www.trendyol.com"
+        "url": "https://www.trendyol.com/sr?q=MSI%20Claw%20A1M%20Intel%20Core%20Ultra%207%20155H%20%2F%20512%20GB%20(A1M-088TR)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 30749,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=MSI%20Claw%20A1M%20Intel%20Core%20Ultra%207%20155H%20%2F%20512%20GB%20(A1M-088TR)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 31049,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/MSI%20Claw%20A1M%20Intel%20Core%20Ultra%207%20155H%20%2F%20512%20GB%20(A1M-088TR)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 29849,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=MSI%20Claw%20A1M%20Intel%20Core%20Ultra%207%20155H%20%2F%20512%20GB%20(A1M-088TR)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 30839,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=MSI%20Claw%20A1M%20Intel%20Core%20Ultra%207%20155H%20%2F%20512%20GB%20(A1M-088TR)",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-03-01",
-        "price": 32399
+        "date": "Ekim 2025",
+        "price": 34200
       },
       {
-        "date": "2026-04-15",
-        "price": 31499
+        "date": "Kasım 2025",
+        "price": 33300
       },
       {
-        "date": "2026-06-01",
-        "price": 30599
+        "date": "Aralık 2025",
+        "price": 32400
       },
       {
-        "date": "2026-08-01",
-        "price": 29999
+        "date": "Ocak 2026",
+        "price": 31500
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 30600
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 30000
       }
     ]
   },
@@ -4036,7 +4529,7 @@ export const mockConsoles: Product[] = [
     "category": "consoles",
     "rating": 4.78,
     "reviewCount": 564,
-    "basePrice": 26999,
+    "basePrice": 26859,
     "currency": "TL",
     "releaseYear": 2024,
     "isPopular": true,
@@ -4069,65 +4562,84 @@ export const mockConsoles: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "936358-0",
-        "storeName": "Amazon.com.tr",
-        "storeLogoColor": "#ff9900",
-        "price": 26999,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Distribütör Garantili",
-          "Ücretsiz Kargo"
-        ],
-        "sellerRating": 4.7,
-        "sellerReviews": 320,
-        "url": "https://www.amazon.com.tr"
-      },
-      {
-        "id": "936358-1",
         "storeName": "Hepsiburada",
-        "storeLogoColor": "#ff6000",
-        "price": 27219,
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 26999,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Aynı Gün Kargo"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 560,
-        "url": "https://www.hepsiburada.com"
+        "url": "https://www.hepsiburada.com/ara?q=MSI%20Claw%20A1M%20Intel%20Core%20Ultra%205%20135H%20%2F%20512%20GB%20(A1M-087TR)",
+        "rating": 4.8
       },
       {
-        "id": "936358-2",
         "storeName": "Trendyol",
-        "storeLogoColor": "#f27a1a",
-        "price": 27649,
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 27319,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Aynı Gün Kargo"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 800,
-        "url": "https://www.trendyol.com"
+        "url": "https://www.trendyol.com/sr?q=MSI%20Claw%20A1M%20Intel%20Core%20Ultra%205%20135H%20%2F%20512%20GB%20(A1M-087TR)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 27669,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=MSI%20Claw%20A1M%20Intel%20Core%20Ultra%205%20135H%20%2F%20512%20GB%20(A1M-087TR)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 27939,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/MSI%20Claw%20A1M%20Intel%20Core%20Ultra%205%20135H%20%2F%20512%20GB%20(A1M-087TR)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 26859,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=MSI%20Claw%20A1M%20Intel%20Core%20Ultra%205%20135H%20%2F%20512%20GB%20(A1M-087TR)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 27759,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=MSI%20Claw%20A1M%20Intel%20Core%20Ultra%205%20135H%20%2F%20512%20GB%20(A1M-087TR)",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-03-01",
-        "price": 29159
+        "date": "Ekim 2025",
+        "price": 30780
       },
       {
-        "date": "2026-04-15",
-        "price": 28349
+        "date": "Kasım 2025",
+        "price": 29970
       },
       {
-        "date": "2026-06-01",
-        "price": 27539
+        "date": "Aralık 2025",
+        "price": 29160
       },
       {
-        "date": "2026-08-01",
-        "price": 26999
+        "date": "Ocak 2026",
+        "price": 28350
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 27540
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 27000
       }
     ]
   },
@@ -4139,7 +4651,7 @@ export const mockConsoles: Product[] = [
     "category": "consoles",
     "rating": 4.77,
     "reviewCount": 548,
-    "basePrice": 38999,
+    "basePrice": 38799,
     "currency": "TL",
     "releaseYear": 2023,
     "isPopular": true,
@@ -4172,65 +4684,84 @@ export const mockConsoles: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "890202-0",
-        "storeName": "Amazon.com.tr",
-        "storeLogoColor": "#ff9900",
-        "price": 38999,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Distribütör Garantili",
-          "Ücretsiz Kargo"
-        ],
-        "sellerRating": 4.7,
-        "sellerReviews": 320,
-        "url": "https://www.amazon.com.tr"
-      },
-      {
-        "id": "890202-1",
         "storeName": "Hepsiburada",
-        "storeLogoColor": "#ff6000",
-        "price": 39219,
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 38999,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Aynı Gün Kargo"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 560,
-        "url": "https://www.hepsiburada.com"
+        "url": "https://www.hepsiburada.com/ara?q=Ayaneo%202%2032GB%20RAM%20%2F%202TB%20SSD%20Ta%C5%9F%C4%B1nabilir%20Oyun%20Konsolu",
+        "rating": 4.8
       },
       {
-        "id": "890202-2",
         "storeName": "Trendyol",
-        "storeLogoColor": "#f27a1a",
-        "price": 39649,
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 39469,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Aynı Gün Kargo"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 800,
-        "url": "https://www.trendyol.com"
+        "url": "https://www.trendyol.com/sr?q=Ayaneo%202%2032GB%20RAM%20%2F%202TB%20SSD%20Ta%C5%9F%C4%B1nabilir%20Oyun%20Konsolu",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 39969,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Ayaneo%202%2032GB%20RAM%20%2F%202TB%20SSD%20Ta%C5%9F%C4%B1nabilir%20Oyun%20Konsolu",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 40359,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Ayaneo%202%2032GB%20RAM%20%2F%202TB%20SSD%20Ta%C5%9F%C4%B1nabilir%20Oyun%20Konsolu",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 38799,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Ayaneo%202%2032GB%20RAM%20%2F%202TB%20SSD%20Ta%C5%9F%C4%B1nabilir%20Oyun%20Konsolu",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 40089,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Ayaneo%202%2032GB%20RAM%20%2F%202TB%20SSD%20Ta%C5%9F%C4%B1nabilir%20Oyun%20Konsolu",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-03-01",
-        "price": 42119
+        "date": "Ekim 2025",
+        "price": 44460
       },
       {
-        "date": "2026-04-15",
-        "price": 40949
+        "date": "Kasım 2025",
+        "price": 43290
       },
       {
-        "date": "2026-06-01",
-        "price": 39779
+        "date": "Aralık 2025",
+        "price": 42120
       },
       {
-        "date": "2026-08-01",
-        "price": 38999
+        "date": "Ocak 2026",
+        "price": 40950
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 39780
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 39000
       }
     ]
   },
@@ -4242,7 +4773,7 @@ export const mockConsoles: Product[] = [
     "category": "consoles",
     "rating": 4.76,
     "reviewCount": 524,
-    "basePrice": 39999,
+    "basePrice": 31839,
     "currency": "TL",
     "releaseYear": 2023,
     "isPopular": true,
@@ -4275,65 +4806,84 @@ export const mockConsoles: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "910087-0",
-        "storeName": "Amazon.com.tr",
-        "storeLogoColor": "#ff9900",
-        "price": 39999,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Distribütör Garantili",
-          "Ücretsiz Kargo"
-        ],
-        "sellerRating": 4.7,
-        "sellerReviews": 320,
-        "url": "https://www.amazon.com.tr"
-      },
-      {
-        "id": "910087-1",
         "storeName": "Hepsiburada",
-        "storeLogoColor": "#ff6000",
-        "price": 40219,
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 31999,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Aynı Gün Kargo"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 560,
-        "url": "https://www.hepsiburada.com"
+        "url": "https://www.hepsiburada.com/ara?q=Valve%20Steam%20Deck%20LCD%202%20TB%20Ta%C5%9F%C4%B1nabilir%20Oyun%20Konsolu",
+        "rating": 4.8
       },
       {
-        "id": "910087-2",
         "storeName": "Trendyol",
-        "storeLogoColor": "#f27a1a",
-        "price": 40649,
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 32379,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Aynı Gün Kargo"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 800,
-        "url": "https://www.trendyol.com"
+        "url": "https://www.trendyol.com/sr?q=Valve%20Steam%20Deck%20LCD%202%20TB%20Ta%C5%9F%C4%B1nabilir%20Oyun%20Konsolu",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 32799,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Valve%20Steam%20Deck%20LCD%202%20TB%20Ta%C5%9F%C4%B1nabilir%20Oyun%20Konsolu",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 33119,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Valve%20Steam%20Deck%20LCD%202%20TB%20Ta%C5%9F%C4%B1nabilir%20Oyun%20Konsolu",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 31839,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Valve%20Steam%20Deck%20LCD%202%20TB%20Ta%C5%9F%C4%B1nabilir%20Oyun%20Konsolu",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 32899,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Valve%20Steam%20Deck%20LCD%202%20TB%20Ta%C5%9F%C4%B1nabilir%20Oyun%20Konsolu",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-03-01",
-        "price": 43199
+        "date": "Ekim 2025",
+        "price": 36480
       },
       {
-        "date": "2026-04-15",
-        "price": 41999
+        "date": "Kasım 2025",
+        "price": 35520
       },
       {
-        "date": "2026-06-01",
-        "price": 40799
+        "date": "Aralık 2025",
+        "price": 34560
       },
       {
-        "date": "2026-08-01",
-        "price": 39999
+        "date": "Ocak 2026",
+        "price": 33600
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 32640
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 32000
       }
     ]
   },
@@ -4345,7 +4895,7 @@ export const mockConsoles: Product[] = [
     "category": "consoles",
     "rating": 4.75,
     "reviewCount": 508,
-    "basePrice": 16999,
+    "basePrice": 16909,
     "currency": "TL",
     "releaseYear": 2017,
     "isPopular": true,
@@ -4378,65 +4928,84 @@ export const mockConsoles: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "83965-0",
-        "storeName": "Amazon.com.tr",
-        "storeLogoColor": "#ff9900",
-        "price": 16999,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Distribütör Garantili",
-          "Ücretsiz Kargo"
-        ],
-        "sellerRating": 4.7,
-        "sellerReviews": 320,
-        "url": "https://www.amazon.com.tr"
-      },
-      {
-        "id": "83965-1",
         "storeName": "Hepsiburada",
-        "storeLogoColor": "#ff6000",
-        "price": 17219,
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 16999,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Aynı Gün Kargo"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 560,
-        "url": "https://www.hepsiburada.com"
+        "url": "https://www.hepsiburada.com/ara?q=Microsoft%20Xbox%20One%20X%201%20TB%204K%20HDR%20Oyun%20Konsolu",
+        "rating": 4.8
       },
       {
-        "id": "83965-2",
         "storeName": "Trendyol",
-        "storeLogoColor": "#f27a1a",
-        "price": 17649,
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 17199,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Aynı Gün Kargo"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 800,
-        "url": "https://www.trendyol.com"
+        "url": "https://www.trendyol.com/sr?q=Microsoft%20Xbox%20One%20X%201%20TB%204K%20HDR%20Oyun%20Konsolu",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 17419,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Microsoft%20Xbox%20One%20X%201%20TB%204K%20HDR%20Oyun%20Konsolu",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 17589,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Microsoft%20Xbox%20One%20X%201%20TB%204K%20HDR%20Oyun%20Konsolu",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 16909,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Microsoft%20Xbox%20One%20X%201%20TB%204K%20HDR%20Oyun%20Konsolu",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 17479,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Microsoft%20Xbox%20One%20X%201%20TB%204K%20HDR%20Oyun%20Konsolu",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-03-01",
-        "price": 18359
+        "date": "Ekim 2025",
+        "price": 19380
       },
       {
-        "date": "2026-04-15",
-        "price": 17849
+        "date": "Kasım 2025",
+        "price": 18870
       },
       {
-        "date": "2026-06-01",
-        "price": 17339
+        "date": "Aralık 2025",
+        "price": 18360
       },
       {
-        "date": "2026-08-01",
-        "price": 16999
+        "date": "Ocak 2026",
+        "price": 17850
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 17340
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 17000
       }
     ]
   },
@@ -4448,7 +5017,7 @@ export const mockConsoles: Product[] = [
     "category": "consoles",
     "rating": 4.75,
     "reviewCount": 500,
-    "basePrice": 34999,
+    "basePrice": 34819,
     "currency": "TL",
     "releaseYear": 2023,
     "isPopular": true,
@@ -4481,65 +5050,84 @@ export const mockConsoles: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "890203-0",
-        "storeName": "Amazon.com.tr",
-        "storeLogoColor": "#ff9900",
-        "price": 34999,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Distribütör Garantili",
-          "Ücretsiz Kargo"
-        ],
-        "sellerRating": 4.7,
-        "sellerReviews": 320,
-        "url": "https://www.amazon.com.tr"
-      },
-      {
-        "id": "890203-1",
         "storeName": "Hepsiburada",
-        "storeLogoColor": "#ff6000",
-        "price": 35219,
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 34999,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Aynı Gün Kargo"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 560,
-        "url": "https://www.hepsiburada.com"
+        "url": "https://www.hepsiburada.com/ara?q=Ayaneo%202%2016GB%20RAM%20%2F%202TB%20SSD%20Oyun%20Konsolu",
+        "rating": 4.8
       },
       {
-        "id": "890203-2",
         "storeName": "Trendyol",
-        "storeLogoColor": "#f27a1a",
-        "price": 35649,
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 35419,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Aynı Gün Kargo"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 800,
-        "url": "https://www.trendyol.com"
+        "url": "https://www.trendyol.com/sr?q=Ayaneo%202%2016GB%20RAM%20%2F%202TB%20SSD%20Oyun%20Konsolu",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 35869,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Ayaneo%202%2016GB%20RAM%20%2F%202TB%20SSD%20Oyun%20Konsolu",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 36219,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Ayaneo%202%2016GB%20RAM%20%2F%202TB%20SSD%20Oyun%20Konsolu",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 34819,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Ayaneo%202%2016GB%20RAM%20%2F%202TB%20SSD%20Oyun%20Konsolu",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 35979,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Ayaneo%202%2016GB%20RAM%20%2F%202TB%20SSD%20Oyun%20Konsolu",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-03-01",
-        "price": 37799
+        "date": "Ekim 2025",
+        "price": 39900
       },
       {
-        "date": "2026-04-15",
-        "price": 36749
+        "date": "Kasım 2025",
+        "price": 38850
       },
       {
-        "date": "2026-06-01",
-        "price": 35699
+        "date": "Aralık 2025",
+        "price": 37800
       },
       {
-        "date": "2026-08-01",
-        "price": 34999
+        "date": "Ocak 2026",
+        "price": 36750
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 35700
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 35000
       }
     ]
   },
@@ -4551,7 +5139,7 @@ export const mockConsoles: Product[] = [
     "category": "consoles",
     "rating": 4.74,
     "reviewCount": 492,
-    "basePrice": 33999,
+    "basePrice": 31839,
     "currency": "TL",
     "releaseYear": 2023,
     "isPopular": true,
@@ -4584,65 +5172,84 @@ export const mockConsoles: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "910088-0",
-        "storeName": "Amazon.com.tr",
-        "storeLogoColor": "#ff9900",
-        "price": 33999,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Distribütör Garantili",
-          "Ücretsiz Kargo"
-        ],
-        "sellerRating": 4.7,
-        "sellerReviews": 320,
-        "url": "https://www.amazon.com.tr"
-      },
-      {
-        "id": "910088-1",
         "storeName": "Hepsiburada",
-        "storeLogoColor": "#ff6000",
-        "price": 34219,
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 31999,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Aynı Gün Kargo"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 560,
-        "url": "https://www.hepsiburada.com"
+        "url": "https://www.hepsiburada.com/ara?q=Valve%20Steam%20Deck%20LCD%201%20TB%20Ta%C5%9F%C4%B1nabilir%20Oyun%20Konsolu",
+        "rating": 4.8
       },
       {
-        "id": "910088-2",
         "storeName": "Trendyol",
-        "storeLogoColor": "#f27a1a",
-        "price": 34649,
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 32379,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Aynı Gün Kargo"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 800,
-        "url": "https://www.trendyol.com"
+        "url": "https://www.trendyol.com/sr?q=Valve%20Steam%20Deck%20LCD%201%20TB%20Ta%C5%9F%C4%B1nabilir%20Oyun%20Konsolu",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 32799,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Valve%20Steam%20Deck%20LCD%201%20TB%20Ta%C5%9F%C4%B1nabilir%20Oyun%20Konsolu",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 33119,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Valve%20Steam%20Deck%20LCD%201%20TB%20Ta%C5%9F%C4%B1nabilir%20Oyun%20Konsolu",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 31839,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Valve%20Steam%20Deck%20LCD%201%20TB%20Ta%C5%9F%C4%B1nabilir%20Oyun%20Konsolu",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 32899,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Valve%20Steam%20Deck%20LCD%201%20TB%20Ta%C5%9F%C4%B1nabilir%20Oyun%20Konsolu",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-03-01",
-        "price": 36719
+        "date": "Ekim 2025",
+        "price": 36480
       },
       {
-        "date": "2026-04-15",
-        "price": 35699
+        "date": "Kasım 2025",
+        "price": 35520
       },
       {
-        "date": "2026-06-01",
-        "price": 34679
+        "date": "Aralık 2025",
+        "price": 34560
       },
       {
-        "date": "2026-08-01",
-        "price": 33999
+        "date": "Ocak 2026",
+        "price": 33600
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 32640
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 32000
       }
     ]
   },
@@ -4654,7 +5261,7 @@ export const mockConsoles: Product[] = [
     "category": "consoles",
     "rating": 4.74,
     "reviewCount": 484,
-    "basePrice": 28999,
+    "basePrice": 28849,
     "currency": "TL",
     "releaseYear": 2018,
     "isPopular": true,
@@ -4687,65 +5294,84 @@ export const mockConsoles: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "617955-0",
-        "storeName": "Amazon.com.tr",
-        "storeLogoColor": "#ff9900",
-        "price": 28999,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Distribütör Garantili",
-          "Ücretsiz Kargo"
-        ],
-        "sellerRating": 4.7,
-        "sellerReviews": 320,
-        "url": "https://www.amazon.com.tr"
-      },
-      {
-        "id": "617955-1",
         "storeName": "Hepsiburada",
-        "storeLogoColor": "#ff6000",
-        "price": 29219,
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 28999,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Aynı Gün Kargo"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 560,
-        "url": "https://www.hepsiburada.com"
+        "url": "https://www.hepsiburada.com/ara?q=Sony%20PlayStation%204%20Pro%20500%20Million%20Limited%20Edition%202%20TB%20(CUH-7100)",
+        "rating": 4.8
       },
       {
-        "id": "617955-2",
         "storeName": "Trendyol",
-        "storeLogoColor": "#f27a1a",
-        "price": 29649,
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 29349,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Aynı Gün Kargo"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 800,
-        "url": "https://www.trendyol.com"
+        "url": "https://www.trendyol.com/sr?q=Sony%20PlayStation%204%20Pro%20500%20Million%20Limited%20Edition%202%20TB%20(CUH-7100)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 29719,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Sony%20PlayStation%204%20Pro%20500%20Million%20Limited%20Edition%202%20TB%20(CUH-7100)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 30009,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Sony%20PlayStation%204%20Pro%20500%20Million%20Limited%20Edition%202%20TB%20(CUH-7100)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 28849,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Sony%20PlayStation%204%20Pro%20500%20Million%20Limited%20Edition%202%20TB%20(CUH-7100)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 29809,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Sony%20PlayStation%204%20Pro%20500%20Million%20Limited%20Edition%202%20TB%20(CUH-7100)",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-03-01",
-        "price": 31319
+        "date": "Ekim 2025",
+        "price": 33060
       },
       {
-        "date": "2026-04-15",
-        "price": 30449
+        "date": "Kasım 2025",
+        "price": 32190
       },
       {
-        "date": "2026-06-01",
-        "price": 29579
+        "date": "Aralık 2025",
+        "price": 31320
       },
       {
-        "date": "2026-08-01",
-        "price": 28999
+        "date": "Ocak 2026",
+        "price": 30450
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 29580
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 29000
       }
     ]
   },
@@ -4757,7 +5383,7 @@ export const mockConsoles: Product[] = [
     "category": "consoles",
     "rating": 4.73,
     "reviewCount": 468,
-    "basePrice": 28999,
+    "basePrice": 31839,
     "currency": "TL",
     "releaseYear": 2022,
     "isPopular": true,
@@ -4790,65 +5416,84 @@ export const mockConsoles: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "865477-0",
-        "storeName": "Amazon.com.tr",
-        "storeLogoColor": "#ff9900",
-        "price": 28999,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Distribütör Garantili",
-          "Ücretsiz Kargo"
-        ],
-        "sellerRating": 4.7,
-        "sellerReviews": 320,
-        "url": "https://www.amazon.com.tr"
-      },
-      {
-        "id": "865477-1",
         "storeName": "Hepsiburada",
-        "storeLogoColor": "#ff6000",
-        "price": 29219,
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 31999,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Aynı Gün Kargo"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 560,
-        "url": "https://www.hepsiburada.com"
+        "url": "https://www.hepsiburada.com/ara?q=Valve%20Steam%20Deck%20LCD%20256%20GB%20Oyun%20Konsolu%20(V004284-30)",
+        "rating": 4.8
       },
       {
-        "id": "865477-2",
         "storeName": "Trendyol",
-        "storeLogoColor": "#f27a1a",
-        "price": 29649,
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 32379,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Aynı Gün Kargo"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 800,
-        "url": "https://www.trendyol.com"
+        "url": "https://www.trendyol.com/sr?q=Valve%20Steam%20Deck%20LCD%20256%20GB%20Oyun%20Konsolu%20(V004284-30)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 32799,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Valve%20Steam%20Deck%20LCD%20256%20GB%20Oyun%20Konsolu%20(V004284-30)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 33119,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Valve%20Steam%20Deck%20LCD%20256%20GB%20Oyun%20Konsolu%20(V004284-30)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 31839,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Valve%20Steam%20Deck%20LCD%20256%20GB%20Oyun%20Konsolu%20(V004284-30)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 32899,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Valve%20Steam%20Deck%20LCD%20256%20GB%20Oyun%20Konsolu%20(V004284-30)",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-03-01",
-        "price": 31319
+        "date": "Ekim 2025",
+        "price": 36480
       },
       {
-        "date": "2026-04-15",
-        "price": 30449
+        "date": "Kasım 2025",
+        "price": 35520
       },
       {
-        "date": "2026-06-01",
-        "price": 29579
+        "date": "Aralık 2025",
+        "price": 34560
       },
       {
-        "date": "2026-08-01",
-        "price": 28999
+        "date": "Ocak 2026",
+        "price": 33600
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 32640
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 32000
       }
     ]
   },
@@ -4860,7 +5505,7 @@ export const mockConsoles: Product[] = [
     "category": "consoles",
     "rating": 4.73,
     "reviewCount": 468,
-    "basePrice": 31999,
+    "basePrice": 31839,
     "currency": "TL",
     "releaseYear": 2023,
     "isPopular": true,
@@ -4893,65 +5538,84 @@ export const mockConsoles: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "890017-0",
-        "storeName": "Amazon.com.tr",
-        "storeLogoColor": "#ff9900",
-        "price": 31999,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Distribütör Garantili",
-          "Ücretsiz Kargo"
-        ],
-        "sellerRating": 4.7,
-        "sellerReviews": 320,
-        "url": "https://www.amazon.com.tr"
-      },
-      {
-        "id": "890017-1",
         "storeName": "Hepsiburada",
-        "storeLogoColor": "#ff6000",
-        "price": 32219,
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 31999,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Aynı Gün Kargo"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 560,
-        "url": "https://www.hepsiburada.com"
+        "url": "https://www.hepsiburada.com/ara?q=Ayaneo%202%2016GB%20RAM%20%2F%201TB%20SSD%20Ta%C5%9F%C4%B1nabilir%20Oyun%20Konsolu",
+        "rating": 4.8
       },
       {
-        "id": "890017-2",
         "storeName": "Trendyol",
-        "storeLogoColor": "#f27a1a",
-        "price": 32649,
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 32379,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Aynı Gün Kargo"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 800,
-        "url": "https://www.trendyol.com"
+        "url": "https://www.trendyol.com/sr?q=Ayaneo%202%2016GB%20RAM%20%2F%201TB%20SSD%20Ta%C5%9F%C4%B1nabilir%20Oyun%20Konsolu",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 32799,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Ayaneo%202%2016GB%20RAM%20%2F%201TB%20SSD%20Ta%C5%9F%C4%B1nabilir%20Oyun%20Konsolu",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 33119,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Ayaneo%202%2016GB%20RAM%20%2F%201TB%20SSD%20Ta%C5%9F%C4%B1nabilir%20Oyun%20Konsolu",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 31839,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Ayaneo%202%2016GB%20RAM%20%2F%201TB%20SSD%20Ta%C5%9F%C4%B1nabilir%20Oyun%20Konsolu",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 32899,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Ayaneo%202%2016GB%20RAM%20%2F%201TB%20SSD%20Ta%C5%9F%C4%B1nabilir%20Oyun%20Konsolu",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-03-01",
-        "price": 34559
+        "date": "Ekim 2025",
+        "price": 36480
       },
       {
-        "date": "2026-04-15",
-        "price": 33599
+        "date": "Kasım 2025",
+        "price": 35520
       },
       {
-        "date": "2026-06-01",
-        "price": 32639
+        "date": "Aralık 2025",
+        "price": 34560
       },
       {
-        "date": "2026-08-01",
-        "price": 31999
+        "date": "Ocak 2026",
+        "price": 33600
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 32640
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 32000
       }
     ]
   },
@@ -4963,7 +5627,7 @@ export const mockConsoles: Product[] = [
     "category": "consoles",
     "rating": 4.72,
     "reviewCount": 452,
-    "basePrice": 24999,
+    "basePrice": 31839,
     "currency": "TL",
     "releaseYear": 2022,
     "isPopular": true,
@@ -4996,65 +5660,84 @@ export const mockConsoles: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "862171-0",
-        "storeName": "Amazon.com.tr",
-        "storeLogoColor": "#ff9900",
-        "price": 24999,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Distribütör Garantili",
-          "Ücretsiz Kargo"
-        ],
-        "sellerRating": 4.7,
-        "sellerReviews": 320,
-        "url": "https://www.amazon.com.tr"
-      },
-      {
-        "id": "862171-1",
         "storeName": "Hepsiburada",
-        "storeLogoColor": "#ff6000",
-        "price": 25219,
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 31999,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Aynı Gün Kargo"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 560,
-        "url": "https://www.hepsiburada.com"
+        "url": "https://www.hepsiburada.com/ara?q=Valve%20Steam%20Deck%20LCD%2064%20GB%20eMMC%20Oyun%20Konsolu%20(V004281-30)",
+        "rating": 4.8
       },
       {
-        "id": "862171-2",
         "storeName": "Trendyol",
-        "storeLogoColor": "#f27a1a",
-        "price": 25649,
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 32379,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Aynı Gün Kargo"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 800,
-        "url": "https://www.trendyol.com"
+        "url": "https://www.trendyol.com/sr?q=Valve%20Steam%20Deck%20LCD%2064%20GB%20eMMC%20Oyun%20Konsolu%20(V004281-30)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 32799,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Valve%20Steam%20Deck%20LCD%2064%20GB%20eMMC%20Oyun%20Konsolu%20(V004281-30)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 33119,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Valve%20Steam%20Deck%20LCD%2064%20GB%20eMMC%20Oyun%20Konsolu%20(V004281-30)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 31839,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Valve%20Steam%20Deck%20LCD%2064%20GB%20eMMC%20Oyun%20Konsolu%20(V004281-30)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 32899,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Valve%20Steam%20Deck%20LCD%2064%20GB%20eMMC%20Oyun%20Konsolu%20(V004281-30)",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-03-01",
-        "price": 26999
+        "date": "Ekim 2025",
+        "price": 36480
       },
       {
-        "date": "2026-04-15",
-        "price": 26249
+        "date": "Kasım 2025",
+        "price": 35520
       },
       {
-        "date": "2026-06-01",
-        "price": 25499
+        "date": "Aralık 2025",
+        "price": 34560
       },
       {
-        "date": "2026-08-01",
-        "price": 24999
+        "date": "Ocak 2026",
+        "price": 33600
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 32640
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 32000
       }
     ]
   },
@@ -5066,7 +5749,7 @@ export const mockConsoles: Product[] = [
     "category": "consoles",
     "rating": 4.72,
     "reviewCount": 452,
-    "basePrice": 18999,
+    "basePrice": 18899,
     "currency": "TL",
     "releaseYear": 2016,
     "isPopular": true,
@@ -5099,65 +5782,84 @@ export const mockConsoles: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "80278-0",
-        "storeName": "Amazon.com.tr",
-        "storeLogoColor": "#ff9900",
-        "price": 18999,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Distribütör Garantili",
-          "Ücretsiz Kargo"
-        ],
-        "sellerRating": 4.7,
-        "sellerReviews": 320,
-        "url": "https://www.amazon.com.tr"
-      },
-      {
-        "id": "80278-1",
         "storeName": "Hepsiburada",
-        "storeLogoColor": "#ff6000",
-        "price": 19219,
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 18999,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Aynı Gün Kargo"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 560,
-        "url": "https://www.hepsiburada.com"
+        "url": "https://www.hepsiburada.com/ara?q=Sony%20PlayStation%204%20Pro%201%20TB%204K%20HDR%20Oyun%20Konsolu%20(CUH-7200)",
+        "rating": 4.8
       },
       {
-        "id": "80278-2",
         "storeName": "Trendyol",
-        "storeLogoColor": "#f27a1a",
-        "price": 19649,
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 19229,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Aynı Gün Kargo"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 800,
-        "url": "https://www.trendyol.com"
+        "url": "https://www.trendyol.com/sr?q=Sony%20PlayStation%204%20Pro%201%20TB%204K%20HDR%20Oyun%20Konsolu%20(CUH-7200)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 19469,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Sony%20PlayStation%204%20Pro%201%20TB%204K%20HDR%20Oyun%20Konsolu%20(CUH-7200)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 19659,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Sony%20PlayStation%204%20Pro%201%20TB%204K%20HDR%20Oyun%20Konsolu%20(CUH-7200)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 18899,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Sony%20PlayStation%204%20Pro%201%20TB%204K%20HDR%20Oyun%20Konsolu%20(CUH-7200)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 19529,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Sony%20PlayStation%204%20Pro%201%20TB%204K%20HDR%20Oyun%20Konsolu%20(CUH-7200)",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-03-01",
-        "price": 20519
+        "date": "Ekim 2025",
+        "price": 21660
       },
       {
-        "date": "2026-04-15",
-        "price": 19949
+        "date": "Kasım 2025",
+        "price": 21090
       },
       {
-        "date": "2026-06-01",
-        "price": 19379
+        "date": "Aralık 2025",
+        "price": 20520
       },
       {
-        "date": "2026-08-01",
-        "price": 18999
+        "date": "Ocak 2026",
+        "price": 19950
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 19380
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 19000
       }
     ]
   },
@@ -5169,7 +5871,7 @@ export const mockConsoles: Product[] = [
     "category": "consoles",
     "rating": 4.69,
     "reviewCount": 396,
-    "basePrice": 14999,
+    "basePrice": 14919,
     "currency": "TL",
     "releaseYear": 2016,
     "isPopular": true,
@@ -5202,65 +5904,84 @@ export const mockConsoles: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "80840-0",
-        "storeName": "Amazon.com.tr",
-        "storeLogoColor": "#ff9900",
-        "price": 14999,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Distribütör Garantili",
-          "Ücretsiz Kargo"
-        ],
-        "sellerRating": 4.7,
-        "sellerReviews": 320,
-        "url": "https://www.amazon.com.tr"
-      },
-      {
-        "id": "80840-1",
         "storeName": "Hepsiburada",
-        "storeLogoColor": "#ff6000",
-        "price": 15219,
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 14999,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Aynı Gün Kargo"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 560,
-        "url": "https://www.hepsiburada.com"
+        "url": "https://www.hepsiburada.com/ara?q=Microsoft%20Xbox%20One%20S%202%20TB%204K%20HDR%20Blu-ray%20S%C3%BCr%C3%BCc%C3%BCl%C3%BC%20Oyun%20Konsolu",
+        "rating": 4.8
       },
       {
-        "id": "80840-2",
         "storeName": "Trendyol",
-        "storeLogoColor": "#f27a1a",
-        "price": 15649,
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 15179,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Aynı Gün Kargo"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 800,
-        "url": "https://www.trendyol.com"
+        "url": "https://www.trendyol.com/sr?q=Microsoft%20Xbox%20One%20S%202%20TB%204K%20HDR%20Blu-ray%20S%C3%BCr%C3%BCc%C3%BCl%C3%BC%20Oyun%20Konsolu",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 15369,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Microsoft%20Xbox%20One%20S%202%20TB%204K%20HDR%20Blu-ray%20S%C3%BCr%C3%BCc%C3%BCl%C3%BC%20Oyun%20Konsolu",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 15519,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Microsoft%20Xbox%20One%20S%202%20TB%204K%20HDR%20Blu-ray%20S%C3%BCr%C3%BCc%C3%BCl%C3%BC%20Oyun%20Konsolu",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 14919,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Microsoft%20Xbox%20One%20S%202%20TB%204K%20HDR%20Blu-ray%20S%C3%BCr%C3%BCc%C3%BCl%C3%BC%20Oyun%20Konsolu",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 15419,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Microsoft%20Xbox%20One%20S%202%20TB%204K%20HDR%20Blu-ray%20S%C3%BCr%C3%BCc%C3%BCl%C3%BC%20Oyun%20Konsolu",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-03-01",
-        "price": 16199
+        "date": "Ekim 2025",
+        "price": 17100
       },
       {
-        "date": "2026-04-15",
-        "price": 15749
+        "date": "Kasım 2025",
+        "price": 16650
       },
       {
-        "date": "2026-06-01",
-        "price": 15299
+        "date": "Aralık 2025",
+        "price": 16200
       },
       {
-        "date": "2026-08-01",
-        "price": 14999
+        "date": "Ocak 2026",
+        "price": 15750
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 15300
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 15000
       }
     ]
   },
@@ -5272,7 +5993,7 @@ export const mockConsoles: Product[] = [
     "category": "consoles",
     "rating": 4.68,
     "reviewCount": 372,
-    "basePrice": 24999,
+    "basePrice": 24869,
     "currency": "TL",
     "releaseYear": 2023,
     "isPopular": true,
@@ -5305,65 +6026,84 @@ export const mockConsoles: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "890989-0",
-        "storeName": "Amazon.com.tr",
-        "storeLogoColor": "#ff9900",
-        "price": 24999,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Distribütör Garantili",
-          "Ücretsiz Kargo"
-        ],
-        "sellerRating": 4.7,
-        "sellerReviews": 320,
-        "url": "https://www.amazon.com.tr"
-      },
-      {
-        "id": "890989-1",
         "storeName": "Hepsiburada",
-        "storeLogoColor": "#ff6000",
-        "price": 25219,
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 24999,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Aynı Gün Kargo"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 560,
-        "url": "https://www.hepsiburada.com"
+        "url": "https://www.hepsiburada.com/ara?q=Razer%20Edge%20%26%20Kishi%20V2%20Pro%20Ta%C5%9F%C4%B1nabilir%20Oyun%20Konsolu%20(RZ80-04610100-B3G1)",
+        "rating": 4.8
       },
       {
-        "id": "890989-2",
         "storeName": "Trendyol",
-        "storeLogoColor": "#f27a1a",
-        "price": 25649,
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 25299,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Aynı Gün Kargo"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 800,
-        "url": "https://www.trendyol.com"
+        "url": "https://www.trendyol.com/sr?q=Razer%20Edge%20%26%20Kishi%20V2%20Pro%20Ta%C5%9F%C4%B1nabilir%20Oyun%20Konsolu%20(RZ80-04610100-B3G1)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 25619,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Razer%20Edge%20%26%20Kishi%20V2%20Pro%20Ta%C5%9F%C4%B1nabilir%20Oyun%20Konsolu%20(RZ80-04610100-B3G1)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 25869,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Razer%20Edge%20%26%20Kishi%20V2%20Pro%20Ta%C5%9F%C4%B1nabilir%20Oyun%20Konsolu%20(RZ80-04610100-B3G1)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 24869,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Razer%20Edge%20%26%20Kishi%20V2%20Pro%20Ta%C5%9F%C4%B1nabilir%20Oyun%20Konsolu%20(RZ80-04610100-B3G1)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 25699,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Razer%20Edge%20%26%20Kishi%20V2%20Pro%20Ta%C5%9F%C4%B1nabilir%20Oyun%20Konsolu%20(RZ80-04610100-B3G1)",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-03-01",
-        "price": 26999
+        "date": "Ekim 2025",
+        "price": 28500
       },
       {
-        "date": "2026-04-15",
-        "price": 26249
+        "date": "Kasım 2025",
+        "price": 27750
       },
       {
-        "date": "2026-06-01",
-        "price": 25499
+        "date": "Aralık 2025",
+        "price": 27000
       },
       {
-        "date": "2026-08-01",
-        "price": 24999
+        "date": "Ocak 2026",
+        "price": 26250
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 25500
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 25000
       }
     ]
   },
@@ -5375,7 +6115,7 @@ export const mockConsoles: Product[] = [
     "category": "consoles",
     "rating": 4.67,
     "reviewCount": 364,
-    "basePrice": 14999,
+    "basePrice": 14919,
     "currency": "TL",
     "releaseYear": 2015,
     "isPopular": true,
@@ -5408,65 +6148,84 @@ export const mockConsoles: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "80264-0",
-        "storeName": "Amazon.com.tr",
-        "storeLogoColor": "#ff9900",
-        "price": 14999,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Distribütör Garantili",
-          "Ücretsiz Kargo"
-        ],
-        "sellerRating": 4.7,
-        "sellerReviews": 320,
-        "url": "https://www.amazon.com.tr"
-      },
-      {
-        "id": "80264-1",
         "storeName": "Hepsiburada",
-        "storeLogoColor": "#ff6000",
-        "price": 15219,
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 14999,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Aynı Gün Kargo"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 560,
-        "url": "https://www.hepsiburada.com"
+        "url": "https://www.hepsiburada.com/ara?q=Sony%20PlayStation%204%201%20TB%20Orijinal%20Kasa%20Oyun%20Konsolu%20(CUH-1216B)",
+        "rating": 4.8
       },
       {
-        "id": "80264-2",
         "storeName": "Trendyol",
-        "storeLogoColor": "#f27a1a",
-        "price": 15649,
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 15179,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Aynı Gün Kargo"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 800,
-        "url": "https://www.trendyol.com"
+        "url": "https://www.trendyol.com/sr?q=Sony%20PlayStation%204%201%20TB%20Orijinal%20Kasa%20Oyun%20Konsolu%20(CUH-1216B)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 15369,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Sony%20PlayStation%204%201%20TB%20Orijinal%20Kasa%20Oyun%20Konsolu%20(CUH-1216B)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 15519,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Sony%20PlayStation%204%201%20TB%20Orijinal%20Kasa%20Oyun%20Konsolu%20(CUH-1216B)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 14919,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Sony%20PlayStation%204%201%20TB%20Orijinal%20Kasa%20Oyun%20Konsolu%20(CUH-1216B)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 15419,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Sony%20PlayStation%204%201%20TB%20Orijinal%20Kasa%20Oyun%20Konsolu%20(CUH-1216B)",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-03-01",
-        "price": 16199
+        "date": "Ekim 2025",
+        "price": 17100
       },
       {
-        "date": "2026-04-15",
-        "price": 15749
+        "date": "Kasım 2025",
+        "price": 16650
       },
       {
-        "date": "2026-06-01",
-        "price": 15299
+        "date": "Aralık 2025",
+        "price": 16200
       },
       {
-        "date": "2026-08-01",
-        "price": 14999
+        "date": "Ocak 2026",
+        "price": 15750
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 15300
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 15000
       }
     ]
   },
@@ -5478,7 +6237,7 @@ export const mockConsoles: Product[] = [
     "category": "consoles",
     "rating": 4.67,
     "reviewCount": 364,
-    "basePrice": 12999,
+    "basePrice": 12929,
     "currency": "TL",
     "releaseYear": 2016,
     "isPopular": true,
@@ -5511,65 +6270,84 @@ export const mockConsoles: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "80838-0",
-        "storeName": "Amazon.com.tr",
-        "storeLogoColor": "#ff9900",
-        "price": 12999,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Distribütör Garantili",
-          "Ücretsiz Kargo"
-        ],
-        "sellerRating": 4.7,
-        "sellerReviews": 320,
-        "url": "https://www.amazon.com.tr"
-      },
-      {
-        "id": "80838-1",
         "storeName": "Hepsiburada",
-        "storeLogoColor": "#ff6000",
-        "price": 13219,
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 12999,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Aynı Gün Kargo"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 560,
-        "url": "https://www.hepsiburada.com"
+        "url": "https://www.hepsiburada.com/ara?q=Microsoft%20Xbox%20One%20S%201%20TB%20Blu-ray%20S%C3%BCr%C3%BCc%C3%BCl%C3%BC%20Oyun%20Konsolu",
+        "rating": 4.8
       },
       {
-        "id": "80838-2",
         "storeName": "Trendyol",
-        "storeLogoColor": "#f27a1a",
-        "price": 13649,
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 13159,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Aynı Gün Kargo"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 800,
-        "url": "https://www.trendyol.com"
+        "url": "https://www.trendyol.com/sr?q=Microsoft%20Xbox%20One%20S%201%20TB%20Blu-ray%20S%C3%BCr%C3%BCc%C3%BCl%C3%BC%20Oyun%20Konsolu",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 13319,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Microsoft%20Xbox%20One%20S%201%20TB%20Blu-ray%20S%C3%BCr%C3%BCc%C3%BCl%C3%BC%20Oyun%20Konsolu",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 13449,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Microsoft%20Xbox%20One%20S%201%20TB%20Blu-ray%20S%C3%BCr%C3%BCc%C3%BCl%C3%BC%20Oyun%20Konsolu",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 12929,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Microsoft%20Xbox%20One%20S%201%20TB%20Blu-ray%20S%C3%BCr%C3%BCc%C3%BCl%C3%BC%20Oyun%20Konsolu",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 13359,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Microsoft%20Xbox%20One%20S%201%20TB%20Blu-ray%20S%C3%BCr%C3%BCc%C3%BCl%C3%BC%20Oyun%20Konsolu",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-03-01",
-        "price": 14039
+        "date": "Ekim 2025",
+        "price": 14820
       },
       {
-        "date": "2026-04-15",
-        "price": 13649
+        "date": "Kasım 2025",
+        "price": 14430
       },
       {
-        "date": "2026-06-01",
-        "price": 13259
+        "date": "Aralık 2025",
+        "price": 14040
       },
       {
-        "date": "2026-08-01",
-        "price": 12999
+        "date": "Ocak 2026",
+        "price": 13650
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 13260
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 13000
       }
     ]
   },
@@ -5581,7 +6359,7 @@ export const mockConsoles: Product[] = [
     "category": "consoles",
     "rating": 4.67,
     "reviewCount": 364,
-    "basePrice": 11999,
+    "basePrice": 11939,
     "currency": "TL",
     "releaseYear": 2019,
     "isPopular": true,
@@ -5614,65 +6392,84 @@ export const mockConsoles: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "391532-0",
-        "storeName": "Amazon.com.tr",
-        "storeLogoColor": "#ff9900",
-        "price": 11999,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Distribütör Garantili",
-          "Ücretsiz Kargo"
-        ],
-        "sellerRating": 4.7,
-        "sellerReviews": 320,
-        "url": "https://www.amazon.com.tr"
-      },
-      {
-        "id": "391532-1",
         "storeName": "Hepsiburada",
-        "storeLogoColor": "#ff6000",
-        "price": 12219,
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 11999,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Aynı Gün Kargo"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 560,
-        "url": "https://www.hepsiburada.com"
+        "url": "https://www.hepsiburada.com/ara?q=Microsoft%20Xbox%20One%20S%20All-Digital%20Edition%201%20TB%20(NJP-00024)",
+        "rating": 4.8
       },
       {
-        "id": "391532-2",
         "storeName": "Trendyol",
-        "storeLogoColor": "#f27a1a",
-        "price": 12649,
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 12139,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Aynı Gün Kargo"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 800,
-        "url": "https://www.trendyol.com"
+        "url": "https://www.trendyol.com/sr?q=Microsoft%20Xbox%20One%20S%20All-Digital%20Edition%201%20TB%20(NJP-00024)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 12299,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Microsoft%20Xbox%20One%20S%20All-Digital%20Edition%201%20TB%20(NJP-00024)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 12419,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Microsoft%20Xbox%20One%20S%20All-Digital%20Edition%201%20TB%20(NJP-00024)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 11939,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Microsoft%20Xbox%20One%20S%20All-Digital%20Edition%201%20TB%20(NJP-00024)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 12339,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Microsoft%20Xbox%20One%20S%20All-Digital%20Edition%201%20TB%20(NJP-00024)",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-03-01",
-        "price": 12959
+        "date": "Ekim 2025",
+        "price": 13680
       },
       {
-        "date": "2026-04-15",
-        "price": 12599
+        "date": "Kasım 2025",
+        "price": 13320
       },
       {
-        "date": "2026-06-01",
-        "price": 12239
+        "date": "Aralık 2025",
+        "price": 12960
       },
       {
-        "date": "2026-08-01",
-        "price": 11999
+        "date": "Ocak 2026",
+        "price": 12600
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 12240
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 12000
       }
     ]
   },
@@ -5684,7 +6481,7 @@ export const mockConsoles: Product[] = [
     "category": "consoles",
     "rating": 4.66,
     "reviewCount": 348,
-    "basePrice": 10999,
+    "basePrice": 10939,
     "currency": "TL",
     "releaseYear": 2016,
     "isPopular": false,
@@ -5717,65 +6514,84 @@ export const mockConsoles: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "80305-0",
-        "storeName": "Amazon.com.tr",
-        "storeLogoColor": "#ff9900",
-        "price": 10999,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Distribütör Garantili",
-          "Ücretsiz Kargo"
-        ],
-        "sellerRating": 4.7,
-        "sellerReviews": 320,
-        "url": "https://www.amazon.com.tr"
-      },
-      {
-        "id": "80305-1",
         "storeName": "Hepsiburada",
-        "storeLogoColor": "#ff6000",
-        "price": 11219,
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 10999,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Aynı Gün Kargo"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 560,
-        "url": "https://www.hepsiburada.com"
+        "url": "https://www.hepsiburada.com/ara?q=Microsoft%20Xbox%20One%20S%20500%20GB%20Blu-ray%20S%C3%BCr%C3%BCc%C3%BCl%C3%BC%20Oyun%20Konsolu",
+        "rating": 4.8
       },
       {
-        "id": "80305-2",
         "storeName": "Trendyol",
-        "storeLogoColor": "#f27a1a",
-        "price": 11649,
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 11129,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Aynı Gün Kargo"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 800,
-        "url": "https://www.trendyol.com"
+        "url": "https://www.trendyol.com/sr?q=Microsoft%20Xbox%20One%20S%20500%20GB%20Blu-ray%20S%C3%BCr%C3%BCc%C3%BCl%C3%BC%20Oyun%20Konsolu",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 11269,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Microsoft%20Xbox%20One%20S%20500%20GB%20Blu-ray%20S%C3%BCr%C3%BCc%C3%BCl%C3%BC%20Oyun%20Konsolu",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 11379,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Microsoft%20Xbox%20One%20S%20500%20GB%20Blu-ray%20S%C3%BCr%C3%BCc%C3%BCl%C3%BC%20Oyun%20Konsolu",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 10939,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Microsoft%20Xbox%20One%20S%20500%20GB%20Blu-ray%20S%C3%BCr%C3%BCc%C3%BCl%C3%BC%20Oyun%20Konsolu",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 11309,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Microsoft%20Xbox%20One%20S%20500%20GB%20Blu-ray%20S%C3%BCr%C3%BCc%C3%BCl%C3%BC%20Oyun%20Konsolu",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-03-01",
-        "price": 11879
+        "date": "Ekim 2025",
+        "price": 12540
       },
       {
-        "date": "2026-04-15",
-        "price": 11549
+        "date": "Kasım 2025",
+        "price": 12210
       },
       {
-        "date": "2026-06-01",
-        "price": 11219
+        "date": "Aralık 2025",
+        "price": 11880
       },
       {
-        "date": "2026-08-01",
-        "price": 10999
+        "date": "Ocak 2026",
+        "price": 11550
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 11220
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 11000
       }
     ]
   },
@@ -5787,7 +6603,7 @@ export const mockConsoles: Product[] = [
     "category": "consoles",
     "rating": 4.62,
     "reviewCount": 276,
-    "basePrice": 9999,
+    "basePrice": 9949,
     "currency": "TL",
     "releaseYear": 2012,
     "isPopular": false,
@@ -5820,65 +6636,84 @@ export const mockConsoles: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "80855-0",
-        "storeName": "Amazon.com.tr",
-        "storeLogoColor": "#ff9900",
-        "price": 9999,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Distribütör Garantili",
-          "Ücretsiz Kargo"
-        ],
-        "sellerRating": 4.7,
-        "sellerReviews": 320,
-        "url": "https://www.amazon.com.tr"
-      },
-      {
-        "id": "80855-1",
         "storeName": "Hepsiburada",
-        "storeLogoColor": "#ff6000",
-        "price": 10219,
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 9999,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Aynı Gün Kargo"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 560,
-        "url": "https://www.hepsiburada.com"
+        "url": "https://www.hepsiburada.com/ara?q=Nintendo%20Wii%20U%20Premium%2032%20GB%20Siyah%20Oyun%20Konsolu",
+        "rating": 4.8
       },
       {
-        "id": "80855-2",
         "storeName": "Trendyol",
-        "storeLogoColor": "#f27a1a",
-        "price": 10649,
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 10119,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Aynı Gün Kargo"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 800,
-        "url": "https://www.trendyol.com"
+        "url": "https://www.trendyol.com/sr?q=Nintendo%20Wii%20U%20Premium%2032%20GB%20Siyah%20Oyun%20Konsolu",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 10249,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Nintendo%20Wii%20U%20Premium%2032%20GB%20Siyah%20Oyun%20Konsolu",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 10349,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Nintendo%20Wii%20U%20Premium%2032%20GB%20Siyah%20Oyun%20Konsolu",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 9949,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Nintendo%20Wii%20U%20Premium%2032%20GB%20Siyah%20Oyun%20Konsolu",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 10279,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Nintendo%20Wii%20U%20Premium%2032%20GB%20Siyah%20Oyun%20Konsolu",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-03-01",
-        "price": 10799
+        "date": "Ekim 2025",
+        "price": 11400
       },
       {
-        "date": "2026-04-15",
-        "price": 10499
+        "date": "Kasım 2025",
+        "price": 11100
       },
       {
-        "date": "2026-06-01",
-        "price": 10199
+        "date": "Aralık 2025",
+        "price": 10800
       },
       {
-        "date": "2026-08-01",
-        "price": 9999
+        "date": "Ocak 2026",
+        "price": 10500
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 10200
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 10000
       }
     ]
   },
@@ -5890,7 +6725,7 @@ export const mockConsoles: Product[] = [
     "category": "consoles",
     "rating": 4.62,
     "reviewCount": 276,
-    "basePrice": 8499,
+    "basePrice": 8459,
     "currency": "TL",
     "releaseYear": 2012,
     "isPopular": false,
@@ -5923,65 +6758,84 @@ export const mockConsoles: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "80849-0",
-        "storeName": "Amazon.com.tr",
-        "storeLogoColor": "#ff9900",
-        "price": 8499,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Distribütör Garantili",
-          "Ücretsiz Kargo"
-        ],
-        "sellerRating": 4.7,
-        "sellerReviews": 320,
-        "url": "https://www.amazon.com.tr"
-      },
-      {
-        "id": "80849-1",
         "storeName": "Hepsiburada",
-        "storeLogoColor": "#ff6000",
-        "price": 8719,
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 8499,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Aynı Gün Kargo"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 560,
-        "url": "https://www.hepsiburada.com"
+        "url": "https://www.hepsiburada.com/ara?q=Nintendo%20Wii%20U%20Basic%208%20GB%20Beyaz%20Oyun%20Konsolu",
+        "rating": 4.8
       },
       {
-        "id": "80849-2",
         "storeName": "Trendyol",
-        "storeLogoColor": "#f27a1a",
-        "price": 9149,
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 8599,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Aynı Gün Kargo"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 800,
-        "url": "https://www.trendyol.com"
+        "url": "https://www.trendyol.com/sr?q=Nintendo%20Wii%20U%20Basic%208%20GB%20Beyaz%20Oyun%20Konsolu",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 8709,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Nintendo%20Wii%20U%20Basic%208%20GB%20Beyaz%20Oyun%20Konsolu",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 8799,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Nintendo%20Wii%20U%20Basic%208%20GB%20Beyaz%20Oyun%20Konsolu",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 8459,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Nintendo%20Wii%20U%20Basic%208%20GB%20Beyaz%20Oyun%20Konsolu",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 8739,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Nintendo%20Wii%20U%20Basic%208%20GB%20Beyaz%20Oyun%20Konsolu",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-03-01",
-        "price": 9179
+        "date": "Ekim 2025",
+        "price": 9690
       },
       {
-        "date": "2026-04-15",
-        "price": 8924
+        "date": "Kasım 2025",
+        "price": 9430
       },
       {
-        "date": "2026-06-01",
-        "price": 8669
+        "date": "Aralık 2025",
+        "price": 9180
       },
       {
-        "date": "2026-08-01",
-        "price": 8499
+        "date": "Ocak 2026",
+        "price": 8920
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 8670
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 8500
       }
     ]
   },
@@ -5993,7 +6847,7 @@ export const mockConsoles: Product[] = [
     "category": "consoles",
     "rating": 4.59,
     "reviewCount": 220,
-    "basePrice": 11499,
+    "basePrice": 11439,
     "currency": "TL",
     "releaseYear": 2011,
     "isPopular": false,
@@ -6026,65 +6880,84 @@ export const mockConsoles: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "391517-0",
-        "storeName": "Amazon.com.tr",
-        "storeLogoColor": "#ff9900",
-        "price": 11499,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Distribütör Garantili",
-          "Ücretsiz Kargo"
-        ],
-        "sellerRating": 4.7,
-        "sellerReviews": 320,
-        "url": "https://www.amazon.com.tr"
-      },
-      {
-        "id": "391517-1",
         "storeName": "Hepsiburada",
-        "storeLogoColor": "#ff6000",
-        "price": 11719,
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 11499,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Aynı Gün Kargo"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 560,
-        "url": "https://www.hepsiburada.com"
+        "url": "https://www.hepsiburada.com/ara?q=Sony%20PlayStation%203%20Slim%201%20TB%20%C3%96zel%20Depolamal%C4%B1%20Oyun%20Konsolu",
+        "rating": 4.8
       },
       {
-        "id": "391517-2",
         "storeName": "Trendyol",
-        "storeLogoColor": "#f27a1a",
-        "price": 12149,
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 11639,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Aynı Gün Kargo"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 800,
-        "url": "https://www.trendyol.com"
+        "url": "https://www.trendyol.com/sr?q=Sony%20PlayStation%203%20Slim%201%20TB%20%C3%96zel%20Depolamal%C4%B1%20Oyun%20Konsolu",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 11789,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Sony%20PlayStation%203%20Slim%201%20TB%20%C3%96zel%20Depolamal%C4%B1%20Oyun%20Konsolu",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 11899,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Sony%20PlayStation%203%20Slim%201%20TB%20%C3%96zel%20Depolamal%C4%B1%20Oyun%20Konsolu",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 11439,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Sony%20PlayStation%203%20Slim%201%20TB%20%C3%96zel%20Depolamal%C4%B1%20Oyun%20Konsolu",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 11819,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Sony%20PlayStation%203%20Slim%201%20TB%20%C3%96zel%20Depolamal%C4%B1%20Oyun%20Konsolu",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-03-01",
-        "price": 12419
+        "date": "Ekim 2025",
+        "price": 13110
       },
       {
-        "date": "2026-04-15",
-        "price": 12074
+        "date": "Kasım 2025",
+        "price": 12760
       },
       {
-        "date": "2026-06-01",
-        "price": 11729
+        "date": "Aralık 2025",
+        "price": 12420
       },
       {
-        "date": "2026-08-01",
-        "price": 11499
+        "date": "Ocak 2026",
+        "price": 12070
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 11730
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 11500
       }
     ]
   },
@@ -6096,7 +6969,7 @@ export const mockConsoles: Product[] = [
     "category": "consoles",
     "rating": 4.59,
     "reviewCount": 212,
-    "basePrice": 10799,
+    "basePrice": 10749,
     "currency": "TL",
     "releaseYear": 2011,
     "isPopular": false,
@@ -6129,65 +7002,84 @@ export const mockConsoles: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "910119-0",
-        "storeName": "Amazon.com.tr",
-        "storeLogoColor": "#ff9900",
-        "price": 10799,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Distribütör Garantili",
-          "Ücretsiz Kargo"
-        ],
-        "sellerRating": 4.7,
-        "sellerReviews": 320,
-        "url": "https://www.amazon.com.tr"
-      },
-      {
-        "id": "910119-1",
         "storeName": "Hepsiburada",
-        "storeLogoColor": "#ff6000",
-        "price": 11019,
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 10799,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Aynı Gün Kargo"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 560,
-        "url": "https://www.hepsiburada.com"
+        "url": "https://www.hepsiburada.com/ara?q=Sony%20PlayStation%203%20Slim%20750%20GB%20Oyun%20Konsolu",
+        "rating": 4.8
       },
       {
-        "id": "910119-2",
         "storeName": "Trendyol",
-        "storeLogoColor": "#f27a1a",
-        "price": 11449,
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 10929,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Aynı Gün Kargo"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 800,
-        "url": "https://www.trendyol.com"
+        "url": "https://www.trendyol.com/sr?q=Sony%20PlayStation%203%20Slim%20750%20GB%20Oyun%20Konsolu",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 11069,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Sony%20PlayStation%203%20Slim%20750%20GB%20Oyun%20Konsolu",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 11179,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Sony%20PlayStation%203%20Slim%20750%20GB%20Oyun%20Konsolu",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 10749,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Sony%20PlayStation%203%20Slim%20750%20GB%20Oyun%20Konsolu",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 11099,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Sony%20PlayStation%203%20Slim%20750%20GB%20Oyun%20Konsolu",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-03-01",
-        "price": 11663
+        "date": "Ekim 2025",
+        "price": 12310
       },
       {
-        "date": "2026-04-15",
-        "price": 11339
+        "date": "Kasım 2025",
+        "price": 11990
       },
       {
-        "date": "2026-06-01",
-        "price": 11015
+        "date": "Aralık 2025",
+        "price": 11660
       },
       {
-        "date": "2026-08-01",
-        "price": 10799
+        "date": "Ocak 2026",
+        "price": 11340
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 11010
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 10800
       }
     ]
   },
@@ -6199,7 +7091,7 @@ export const mockConsoles: Product[] = [
     "category": "consoles",
     "rating": 4.58,
     "reviewCount": 196,
-    "basePrice": 9499,
+    "basePrice": 9449,
     "currency": "TL",
     "releaseYear": 2009,
     "isPopular": false,
@@ -6232,65 +7124,84 @@ export const mockConsoles: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "82201-0",
-        "storeName": "Amazon.com.tr",
-        "storeLogoColor": "#ff9900",
-        "price": 9499,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Distribütör Garantili",
-          "Ücretsiz Kargo"
-        ],
-        "sellerRating": 4.7,
-        "sellerReviews": 320,
-        "url": "https://www.amazon.com.tr"
-      },
-      {
-        "id": "82201-1",
         "storeName": "Hepsiburada",
-        "storeLogoColor": "#ff6000",
-        "price": 9719,
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 9499,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Aynı Gün Kargo"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 560,
-        "url": "https://www.hepsiburada.com"
+        "url": "https://www.hepsiburada.com/ara?q=Sony%20PlayStation%203%20Slim%20250%20GB%20Oyun%20Konsolu%20(CECH-2000B)",
+        "rating": 4.8
       },
       {
-        "id": "82201-2",
         "storeName": "Trendyol",
-        "storeLogoColor": "#f27a1a",
-        "price": 10149,
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 9609,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Aynı Gün Kargo"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 800,
-        "url": "https://www.trendyol.com"
+        "url": "https://www.trendyol.com/sr?q=Sony%20PlayStation%203%20Slim%20250%20GB%20Oyun%20Konsolu%20(CECH-2000B)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 9739,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Sony%20PlayStation%203%20Slim%20250%20GB%20Oyun%20Konsolu%20(CECH-2000B)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 9829,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Sony%20PlayStation%203%20Slim%20250%20GB%20Oyun%20Konsolu%20(CECH-2000B)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 9449,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Sony%20PlayStation%203%20Slim%20250%20GB%20Oyun%20Konsolu%20(CECH-2000B)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 9769,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Sony%20PlayStation%203%20Slim%20250%20GB%20Oyun%20Konsolu%20(CECH-2000B)",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-03-01",
-        "price": 10259
+        "date": "Ekim 2025",
+        "price": 10830
       },
       {
-        "date": "2026-04-15",
-        "price": 9974
+        "date": "Kasım 2025",
+        "price": 10540
       },
       {
-        "date": "2026-06-01",
-        "price": 9689
+        "date": "Aralık 2025",
+        "price": 10260
       },
       {
-        "date": "2026-08-01",
-        "price": 9499
+        "date": "Ocak 2026",
+        "price": 9970
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 9690
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 9500
       }
     ]
   },
@@ -6302,7 +7213,7 @@ export const mockConsoles: Product[] = [
     "category": "consoles",
     "rating": 4.57,
     "reviewCount": 188,
-    "basePrice": 8999,
+    "basePrice": 8949,
     "currency": "TL",
     "releaseYear": 2010,
     "isPopular": false,
@@ -6335,65 +7246,84 @@ export const mockConsoles: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "82202-0",
-        "storeName": "Amazon.com.tr",
-        "storeLogoColor": "#ff9900",
-        "price": 8999,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Distribütör Garantili",
-          "Ücretsiz Kargo"
-        ],
-        "sellerRating": 4.7,
-        "sellerReviews": 320,
-        "url": "https://www.amazon.com.tr"
-      },
-      {
-        "id": "82202-1",
         "storeName": "Hepsiburada",
-        "storeLogoColor": "#ff6000",
-        "price": 9219,
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 8999,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Aynı Gün Kargo"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 560,
-        "url": "https://www.hepsiburada.com"
+        "url": "https://www.hepsiburada.com/ara?q=Sony%20PlayStation%203%20Slim%20160%20GB%20Oyun%20Konsolu%20(CECH-2500A)",
+        "rating": 4.8
       },
       {
-        "id": "82202-2",
         "storeName": "Trendyol",
-        "storeLogoColor": "#f27a1a",
-        "price": 9649,
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 9109,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Aynı Gün Kargo"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 800,
-        "url": "https://www.trendyol.com"
+        "url": "https://www.trendyol.com/sr?q=Sony%20PlayStation%203%20Slim%20160%20GB%20Oyun%20Konsolu%20(CECH-2500A)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 9219,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Sony%20PlayStation%203%20Slim%20160%20GB%20Oyun%20Konsolu%20(CECH-2500A)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 9309,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Sony%20PlayStation%203%20Slim%20160%20GB%20Oyun%20Konsolu%20(CECH-2500A)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 8949,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Sony%20PlayStation%203%20Slim%20160%20GB%20Oyun%20Konsolu%20(CECH-2500A)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 9249,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Sony%20PlayStation%203%20Slim%20160%20GB%20Oyun%20Konsolu%20(CECH-2500A)",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-03-01",
-        "price": 9719
+        "date": "Ekim 2025",
+        "price": 10260
       },
       {
-        "date": "2026-04-15",
-        "price": 9449
+        "date": "Kasım 2025",
+        "price": 9990
       },
       {
-        "date": "2026-06-01",
-        "price": 9179
+        "date": "Aralık 2025",
+        "price": 9720
       },
       {
-        "date": "2026-08-01",
-        "price": 8999
+        "date": "Ocak 2026",
+        "price": 9450
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 9180
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 9000
       }
     ]
   },
@@ -6405,7 +7335,7 @@ export const mockConsoles: Product[] = [
     "category": "consoles",
     "rating": 4.57,
     "reviewCount": 188,
-    "basePrice": 8499,
+    "basePrice": 8459,
     "currency": "TL",
     "releaseYear": 2009,
     "isPopular": false,
@@ -6438,65 +7368,84 @@ export const mockConsoles: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "82203-0",
-        "storeName": "Amazon.com.tr",
-        "storeLogoColor": "#ff9900",
-        "price": 8499,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Distribütör Garantili",
-          "Ücretsiz Kargo"
-        ],
-        "sellerRating": 4.7,
-        "sellerReviews": 320,
-        "url": "https://www.amazon.com.tr"
-      },
-      {
-        "id": "82203-1",
         "storeName": "Hepsiburada",
-        "storeLogoColor": "#ff6000",
-        "price": 8719,
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 8499,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Aynı Gün Kargo"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 560,
-        "url": "https://www.hepsiburada.com"
+        "url": "https://www.hepsiburada.com/ara?q=Sony%20PlayStation%203%20Slim%20120%20GB%20Oyun%20Konsolu%20(CECH-2000A)",
+        "rating": 4.8
       },
       {
-        "id": "82203-2",
         "storeName": "Trendyol",
-        "storeLogoColor": "#f27a1a",
-        "price": 9149,
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 8599,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Aynı Gün Kargo"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 800,
-        "url": "https://www.trendyol.com"
+        "url": "https://www.trendyol.com/sr?q=Sony%20PlayStation%203%20Slim%20120%20GB%20Oyun%20Konsolu%20(CECH-2000A)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 8709,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Sony%20PlayStation%203%20Slim%20120%20GB%20Oyun%20Konsolu%20(CECH-2000A)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 8799,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Sony%20PlayStation%203%20Slim%20120%20GB%20Oyun%20Konsolu%20(CECH-2000A)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 8459,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Sony%20PlayStation%203%20Slim%20120%20GB%20Oyun%20Konsolu%20(CECH-2000A)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 8739,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Sony%20PlayStation%203%20Slim%20120%20GB%20Oyun%20Konsolu%20(CECH-2000A)",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-03-01",
-        "price": 9179
+        "date": "Ekim 2025",
+        "price": 9690
       },
       {
-        "date": "2026-04-15",
-        "price": 8924
+        "date": "Kasım 2025",
+        "price": 9430
       },
       {
-        "date": "2026-06-01",
-        "price": 8669
+        "date": "Aralık 2025",
+        "price": 9180
       },
       {
-        "date": "2026-08-01",
-        "price": 8499
+        "date": "Ocak 2026",
+        "price": 8920
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 8670
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 8500
       }
     ]
   },
@@ -6508,7 +7457,7 @@ export const mockConsoles: Product[] = [
     "category": "consoles",
     "rating": 4.56,
     "reviewCount": 172,
-    "basePrice": 9799,
+    "basePrice": 9749,
     "currency": "TL",
     "releaseYear": 2012,
     "isPopular": false,
@@ -6541,65 +7490,84 @@ export const mockConsoles: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "391516-0",
-        "storeName": "Amazon.com.tr",
-        "storeLogoColor": "#ff9900",
-        "price": 9799,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Distribütör Garantili",
-          "Ücretsiz Kargo"
-        ],
-        "sellerRating": 4.7,
-        "sellerReviews": 320,
-        "url": "https://www.amazon.com.tr"
-      },
-      {
-        "id": "391516-1",
         "storeName": "Hepsiburada",
-        "storeLogoColor": "#ff6000",
-        "price": 10019,
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 9799,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Aynı Gün Kargo"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 560,
-        "url": "https://www.hepsiburada.com"
+        "url": "https://www.hepsiburada.com/ara?q=Sony%20PlayStation%203%20Super%20Slim%20320%20GB%20Oyun%20Konsolu",
+        "rating": 4.8
       },
       {
-        "id": "391516-2",
         "storeName": "Trendyol",
-        "storeLogoColor": "#f27a1a",
-        "price": 10449,
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 9919,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Aynı Gün Kargo"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 800,
-        "url": "https://www.trendyol.com"
+        "url": "https://www.trendyol.com/sr?q=Sony%20PlayStation%203%20Super%20Slim%20320%20GB%20Oyun%20Konsolu",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 10039,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Sony%20PlayStation%203%20Super%20Slim%20320%20GB%20Oyun%20Konsolu",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 10139,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Sony%20PlayStation%203%20Super%20Slim%20320%20GB%20Oyun%20Konsolu",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 9749,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Sony%20PlayStation%203%20Super%20Slim%20320%20GB%20Oyun%20Konsolu",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 10069,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Sony%20PlayStation%203%20Super%20Slim%20320%20GB%20Oyun%20Konsolu",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-03-01",
-        "price": 10583
+        "date": "Ekim 2025",
+        "price": 11170
       },
       {
-        "date": "2026-04-15",
-        "price": 10289
+        "date": "Kasım 2025",
+        "price": 10880
       },
       {
-        "date": "2026-06-01",
-        "price": 9995
+        "date": "Aralık 2025",
+        "price": 10580
       },
       {
-        "date": "2026-08-01",
-        "price": 9799
+        "date": "Ocak 2026",
+        "price": 10290
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 9990
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 9800
       }
     ]
   },
@@ -6611,7 +7579,7 @@ export const mockConsoles: Product[] = [
     "category": "consoles",
     "rating": 4.56,
     "reviewCount": 172,
-    "basePrice": 9299,
+    "basePrice": 9249,
     "currency": "TL",
     "releaseYear": 2012,
     "isPopular": false,
@@ -6644,65 +7612,84 @@ export const mockConsoles: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "82196-0",
-        "storeName": "Amazon.com.tr",
-        "storeLogoColor": "#ff9900",
-        "price": 9299,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Distribütör Garantili",
-          "Ücretsiz Kargo"
-        ],
-        "sellerRating": 4.7,
-        "sellerReviews": 320,
-        "url": "https://www.amazon.com.tr"
-      },
-      {
-        "id": "82196-1",
         "storeName": "Hepsiburada",
-        "storeLogoColor": "#ff6000",
-        "price": 9519,
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 9299,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Aynı Gün Kargo"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 560,
-        "url": "https://www.hepsiburada.com"
+        "url": "https://www.hepsiburada.com/ara?q=Sony%20PlayStation%203%20Super%20Slim%20250%20GB%20Oyun%20Konsolu%20(CECH-4000B)",
+        "rating": 4.8
       },
       {
-        "id": "82196-2",
         "storeName": "Trendyol",
-        "storeLogoColor": "#f27a1a",
-        "price": 9949,
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 9409,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Aynı Gün Kargo"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 800,
-        "url": "https://www.trendyol.com"
+        "url": "https://www.trendyol.com/sr?q=Sony%20PlayStation%203%20Super%20Slim%20250%20GB%20Oyun%20Konsolu%20(CECH-4000B)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 9529,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Sony%20PlayStation%203%20Super%20Slim%20250%20GB%20Oyun%20Konsolu%20(CECH-4000B)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 9619,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Sony%20PlayStation%203%20Super%20Slim%20250%20GB%20Oyun%20Konsolu%20(CECH-4000B)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 9249,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Sony%20PlayStation%203%20Super%20Slim%20250%20GB%20Oyun%20Konsolu%20(CECH-4000B)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 9559,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Sony%20PlayStation%203%20Super%20Slim%20250%20GB%20Oyun%20Konsolu%20(CECH-4000B)",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-03-01",
-        "price": 10043
+        "date": "Ekim 2025",
+        "price": 10600
       },
       {
-        "date": "2026-04-15",
-        "price": 9764
+        "date": "Kasım 2025",
+        "price": 10320
       },
       {
-        "date": "2026-06-01",
-        "price": 9485
+        "date": "Aralık 2025",
+        "price": 10040
       },
       {
-        "date": "2026-08-01",
-        "price": 9299
+        "date": "Ocak 2026",
+        "price": 9760
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 9480
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 9300
       }
     ]
   },
@@ -6714,7 +7701,7 @@ export const mockConsoles: Product[] = [
     "category": "consoles",
     "rating": 4.56,
     "reviewCount": 164,
-    "basePrice": 7999,
+    "basePrice": 7959,
     "currency": "TL",
     "releaseYear": 2012,
     "isPopular": false,
@@ -6747,65 +7734,84 @@ export const mockConsoles: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "82197-0",
-        "storeName": "Amazon.com.tr",
-        "storeLogoColor": "#ff9900",
-        "price": 7999,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Distribütör Garantili",
-          "Ücretsiz Kargo"
-        ],
-        "sellerRating": 4.7,
-        "sellerReviews": 320,
-        "url": "https://www.amazon.com.tr"
-      },
-      {
-        "id": "82197-1",
         "storeName": "Hepsiburada",
-        "storeLogoColor": "#ff6000",
-        "price": 8219,
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 7999,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Aynı Gün Kargo"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 560,
-        "url": "https://www.hepsiburada.com"
+        "url": "https://www.hepsiburada.com/ara?q=Sony%20PlayStation%203%20Super%20Slim%2012%20GB%20Flash%20Haf%C4%B1zal%C4%B1%20Konsol%20(CECH-4000A)",
+        "rating": 4.8
       },
       {
-        "id": "82197-2",
         "storeName": "Trendyol",
-        "storeLogoColor": "#f27a1a",
-        "price": 8649,
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 8099,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Aynı Gün Kargo"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 800,
-        "url": "https://www.trendyol.com"
+        "url": "https://www.trendyol.com/sr?q=Sony%20PlayStation%203%20Super%20Slim%2012%20GB%20Flash%20Haf%C4%B1zal%C4%B1%20Konsol%20(CECH-4000A)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 8199,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Sony%20PlayStation%203%20Super%20Slim%2012%20GB%20Flash%20Haf%C4%B1zal%C4%B1%20Konsol%20(CECH-4000A)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 8279,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Sony%20PlayStation%203%20Super%20Slim%2012%20GB%20Flash%20Haf%C4%B1zal%C4%B1%20Konsol%20(CECH-4000A)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 7959,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Sony%20PlayStation%203%20Super%20Slim%2012%20GB%20Flash%20Haf%C4%B1zal%C4%B1%20Konsol%20(CECH-4000A)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 8219,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Sony%20PlayStation%203%20Super%20Slim%2012%20GB%20Flash%20Haf%C4%B1zal%C4%B1%20Konsol%20(CECH-4000A)",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-03-01",
-        "price": 8639
+        "date": "Ekim 2025",
+        "price": 9120
       },
       {
-        "date": "2026-04-15",
-        "price": 8399
+        "date": "Kasım 2025",
+        "price": 8880
       },
       {
-        "date": "2026-06-01",
-        "price": 8159
+        "date": "Aralık 2025",
+        "price": 8640
       },
       {
-        "date": "2026-08-01",
-        "price": 7999
+        "date": "Ocak 2026",
+        "price": 8400
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 8160
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 8000
       }
     ]
   },
@@ -6817,7 +7823,7 @@ export const mockConsoles: Product[] = [
     "category": "consoles",
     "rating": 4.7,
     "reviewCount": 380,
-    "basePrice": 31999,
+    "basePrice": 31839,
     "currency": "TL",
     "releaseYear": 2024,
     "isPopular": true,
@@ -6850,65 +7856,84 @@ export const mockConsoles: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "1035711-0",
-        "storeName": "Amazon.com.tr",
-        "storeLogoColor": "#ff9900",
-        "price": 31999,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Distribütör Garantili",
-          "Ücretsiz Kargo"
-        ],
-        "sellerRating": 4.7,
-        "sellerReviews": 320,
-        "url": "https://www.amazon.com.tr"
-      },
-      {
-        "id": "1035711-1",
         "storeName": "Hepsiburada",
-        "storeLogoColor": "#ff6000",
-        "price": 32219,
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 31999,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Aynı Gün Kargo"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 560,
-        "url": "https://www.hepsiburada.com"
+        "url": "https://www.hepsiburada.com/ara?q=Valve%20Steam%20Machine%20512%20GB%20Salon%20Oyun%20Konsolu",
+        "rating": 4.8
       },
       {
-        "id": "1035711-2",
         "storeName": "Trendyol",
-        "storeLogoColor": "#f27a1a",
-        "price": 32649,
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 32379,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Aynı Gün Kargo"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 800,
-        "url": "https://www.trendyol.com"
+        "url": "https://www.trendyol.com/sr?q=Valve%20Steam%20Machine%20512%20GB%20Salon%20Oyun%20Konsolu",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 32799,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Valve%20Steam%20Machine%20512%20GB%20Salon%20Oyun%20Konsolu",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 33119,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Valve%20Steam%20Machine%20512%20GB%20Salon%20Oyun%20Konsolu",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 31839,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Valve%20Steam%20Machine%20512%20GB%20Salon%20Oyun%20Konsolu",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 32899,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Valve%20Steam%20Machine%20512%20GB%20Salon%20Oyun%20Konsolu",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-03-01",
-        "price": 34559
+        "date": "Ekim 2025",
+        "price": 36480
       },
       {
-        "date": "2026-04-15",
-        "price": 33599
+        "date": "Kasım 2025",
+        "price": 35520
       },
       {
-        "date": "2026-06-01",
-        "price": 32639
+        "date": "Aralık 2025",
+        "price": 34560
       },
       {
-        "date": "2026-08-01",
-        "price": 31999
+        "date": "Ocak 2026",
+        "price": 33600
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 32640
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 32000
       }
     ]
   },
@@ -6920,7 +7945,7 @@ export const mockConsoles: Product[] = [
     "category": "consoles",
     "rating": 4.7,
     "reviewCount": 380,
-    "basePrice": 59999,
+    "basePrice": 59699,
     "currency": "TL",
     "releaseYear": 2025,
     "isPopular": true,
@@ -6953,65 +7978,84 @@ export const mockConsoles: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "1026303-0",
-        "storeName": "Amazon.com.tr",
-        "storeLogoColor": "#ff9900",
-        "price": 59999,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Distribütör Garantili",
-          "Ücretsiz Kargo"
-        ],
-        "sellerRating": 4.7,
-        "sellerReviews": 320,
-        "url": "https://www.amazon.com.tr"
-      },
-      {
-        "id": "1026303-1",
         "storeName": "Hepsiburada",
-        "storeLogoColor": "#ff6000",
-        "price": 60219,
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 59999,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Aynı Gün Kargo"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 560,
-        "url": "https://www.hepsiburada.com"
+        "url": "https://www.hepsiburada.com/ara?q=Lenovo%20Legion%20Go%202%20Ta%C5%9F%C4%B1nabilir%20Oyun%20Konsolu%20(AMD%20Ryzen%20Z2%20Extreme)",
+        "rating": 4.8
       },
       {
-        "id": "1026303-2",
         "storeName": "Trendyol",
-        "storeLogoColor": "#f27a1a",
-        "price": 60649,
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 60719,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Aynı Gün Kargo"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 800,
-        "url": "https://www.trendyol.com"
+        "url": "https://www.trendyol.com/sr?q=Lenovo%20Legion%20Go%202%20Ta%C5%9F%C4%B1nabilir%20Oyun%20Konsolu%20(AMD%20Ryzen%20Z2%20Extreme)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 61499,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Lenovo%20Legion%20Go%202%20Ta%C5%9F%C4%B1nabilir%20Oyun%20Konsolu%20(AMD%20Ryzen%20Z2%20Extreme)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 62099,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Lenovo%20Legion%20Go%202%20Ta%C5%9F%C4%B1nabilir%20Oyun%20Konsolu%20(AMD%20Ryzen%20Z2%20Extreme)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 59699,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Lenovo%20Legion%20Go%202%20Ta%C5%9F%C4%B1nabilir%20Oyun%20Konsolu%20(AMD%20Ryzen%20Z2%20Extreme)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 61679,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Lenovo%20Legion%20Go%202%20Ta%C5%9F%C4%B1nabilir%20Oyun%20Konsolu%20(AMD%20Ryzen%20Z2%20Extreme)",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-03-01",
-        "price": 64799
+        "date": "Ekim 2025",
+        "price": 68400
       },
       {
-        "date": "2026-04-15",
-        "price": 62999
+        "date": "Kasım 2025",
+        "price": 66600
       },
       {
-        "date": "2026-06-01",
-        "price": 61199
+        "date": "Aralık 2025",
+        "price": 64800
       },
       {
-        "date": "2026-08-01",
-        "price": 59999
+        "date": "Ocak 2026",
+        "price": 63000
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 61200
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 60000
       }
     ]
   },
@@ -7023,7 +8067,7 @@ export const mockConsoles: Product[] = [
     "category": "consoles",
     "rating": 4.7,
     "reviewCount": 380,
-    "basePrice": 3499,
+    "basePrice": 3479,
     "currency": "TL",
     "releaseYear": 2024,
     "isPopular": false,
@@ -7056,65 +8100,84 @@ export const mockConsoles: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "933198-0",
-        "storeName": "Amazon.com.tr",
-        "storeLogoColor": "#ff9900",
-        "price": 3499,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Distribütör Garantili",
-          "Ücretsiz Kargo"
-        ],
-        "sellerRating": 4.7,
-        "sellerReviews": 320,
-        "url": "https://www.amazon.com.tr"
-      },
-      {
-        "id": "933198-1",
         "storeName": "Hepsiburada",
-        "storeLogoColor": "#ff6000",
-        "price": 3719,
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 3499,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Aynı Gün Kargo"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 560,
-        "url": "https://www.hepsiburada.com"
+        "url": "https://www.hepsiburada.com/ara?q=Anbernic%20RG35XX%20H%20Retro%20Ta%C5%9F%C4%B1nabilir%20El%20Konsolu%2064GB",
+        "rating": 4.8
       },
       {
-        "id": "933198-2",
         "storeName": "Trendyol",
-        "storeLogoColor": "#f27a1a",
-        "price": 4149,
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 3539,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Aynı Gün Kargo"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 800,
-        "url": "https://www.trendyol.com"
+        "url": "https://www.trendyol.com/sr?q=Anbernic%20RG35XX%20H%20Retro%20Ta%C5%9F%C4%B1nabilir%20El%20Konsolu%2064GB",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 3589,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Anbernic%20RG35XX%20H%20Retro%20Ta%C5%9F%C4%B1nabilir%20El%20Konsolu%2064GB",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 3619,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Anbernic%20RG35XX%20H%20Retro%20Ta%C5%9F%C4%B1nabilir%20El%20Konsolu%2064GB",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 3479,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Anbernic%20RG35XX%20H%20Retro%20Ta%C5%9F%C4%B1nabilir%20El%20Konsolu%2064GB",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 3599,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Anbernic%20RG35XX%20H%20Retro%20Ta%C5%9F%C4%B1nabilir%20El%20Konsolu%2064GB",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-03-01",
-        "price": 3779
+        "date": "Ekim 2025",
+        "price": 3990
       },
       {
-        "date": "2026-04-15",
-        "price": 3674
+        "date": "Kasım 2025",
+        "price": 3880
       },
       {
-        "date": "2026-06-01",
-        "price": 3569
+        "date": "Aralık 2025",
+        "price": 3780
       },
       {
-        "date": "2026-08-01",
-        "price": 3499
+        "date": "Ocak 2026",
+        "price": 3670
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 3570
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 3500
       }
     ]
   },
@@ -7126,7 +8189,7 @@ export const mockConsoles: Product[] = [
     "category": "consoles",
     "rating": 4.7,
     "reviewCount": 380,
-    "basePrice": 28999,
+    "basePrice": 28849,
     "currency": "TL",
     "releaseYear": 2023,
     "isPopular": true,
@@ -7159,65 +8222,84 @@ export const mockConsoles: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "910090-0",
-        "storeName": "Amazon.com.tr",
-        "storeLogoColor": "#ff9900",
-        "price": 28999,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Distribütör Garantili",
-          "Ücretsiz Kargo"
-        ],
-        "sellerRating": 4.7,
-        "sellerReviews": 320,
-        "url": "https://www.amazon.com.tr"
-      },
-      {
-        "id": "910090-1",
         "storeName": "Hepsiburada",
-        "storeLogoColor": "#ff6000",
-        "price": 29219,
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 28999,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Aynı Gün Kargo"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 560,
-        "url": "https://www.hepsiburada.com"
+        "url": "https://www.hepsiburada.com/ara?q=Ayaneo%20Geek%206800U%20512GB%20Ta%C5%9F%C4%B1nabilir%20Oyun%20Konsolu",
+        "rating": 4.8
       },
       {
-        "id": "910090-2",
         "storeName": "Trendyol",
-        "storeLogoColor": "#f27a1a",
-        "price": 29649,
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 29349,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Aynı Gün Kargo"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 800,
-        "url": "https://www.trendyol.com"
+        "url": "https://www.trendyol.com/sr?q=Ayaneo%20Geek%206800U%20512GB%20Ta%C5%9F%C4%B1nabilir%20Oyun%20Konsolu",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 29719,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Ayaneo%20Geek%206800U%20512GB%20Ta%C5%9F%C4%B1nabilir%20Oyun%20Konsolu",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 30009,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Ayaneo%20Geek%206800U%20512GB%20Ta%C5%9F%C4%B1nabilir%20Oyun%20Konsolu",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 28849,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Ayaneo%20Geek%206800U%20512GB%20Ta%C5%9F%C4%B1nabilir%20Oyun%20Konsolu",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 29809,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Ayaneo%20Geek%206800U%20512GB%20Ta%C5%9F%C4%B1nabilir%20Oyun%20Konsolu",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-03-01",
-        "price": 31319
+        "date": "Ekim 2025",
+        "price": 33060
       },
       {
-        "date": "2026-04-15",
-        "price": 30449
+        "date": "Kasım 2025",
+        "price": 32190
       },
       {
-        "date": "2026-06-01",
-        "price": 29579
+        "date": "Aralık 2025",
+        "price": 31320
       },
       {
-        "date": "2026-08-01",
-        "price": 28999
+        "date": "Ocak 2026",
+        "price": 30450
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 29580
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 29000
       }
     ]
   }

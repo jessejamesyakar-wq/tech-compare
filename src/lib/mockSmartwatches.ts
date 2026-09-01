@@ -9,7 +9,7 @@ export const mockSmartwatches: Product[] = [
     "category": "smartwatches",
     "rating": 4.9,
     "reviewCount": 4355,
-    "basePrice": 18999,
+    "basePrice": 18899,
     "currency": "TL",
     "releaseYear": 2024,
     "isPopular": true,
@@ -80,64 +80,84 @@ export const mockSmartwatches: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "st-ap-apple-watch-s10-46mm-alu-gps-jetblack-sport",
-        "storeName": "Apple Store",
-        "storeLogoColor": "bg-black",
-        "price": 19999,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Satıcı",
-          "Ücretsiz Kargo"
-        ],
-        "sellerRating": 5,
-        "sellerReviews": 12500,
-        "url": "https://www.apple.com/tr/apple-watch-series-10/"
-      },
-      {
-        "id": "st-hb-apple-watch-s10-46mm-alu-gps-jetblack-sport",
         "storeName": "Hepsiburada",
-        "price": 19199,
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 18999,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Hızlı Teslimat",
-          "Peşin Fiyatına Taksit"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 4800,
-        "url": "https://www.hepsiburada.com/ara?q=Apple%20Watch%20Series%2010%20(46mm%20Simsiyah%20Al%C3%BCminyum%20GPS%20-%20Spor%20Kordon)"
+        "url": "https://www.hepsiburada.com/ara?q=Apple%20Watch%20Series%2010%20(46mm%20Simsiyah%20Al%C3%BCminyum%20GPS%20-%20Spor%20Kordon)",
+        "rating": 4.8
       },
       {
-        "id": "st-amz-apple-watch-s10-46mm-alu-gps-jetblack-sport",
-        "storeName": "Amazon TR",
-        "price": 18999,
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 19229,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Prime",
-          "Günün Fırsatı"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 6200,
-        "url": "https://www.amazon.com.tr/s?k=Apple%20Watch%20Series%2010%20(46mm%20Simsiyah%20Al%C3%BCminyum%20GPS%20-%20Spor%20Kordon)"
+        "url": "https://www.trendyol.com/sr?q=Apple%20Watch%20Series%2010%20(46mm%20Simsiyah%20Al%C3%BCminyum%20GPS%20-%20Spor%20Kordon)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 19469,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Apple%20Watch%20Series%2010%20(46mm%20Simsiyah%20Al%C3%BCminyum%20GPS%20-%20Spor%20Kordon)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 19659,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Apple%20Watch%20Series%2010%20(46mm%20Simsiyah%20Al%C3%BCminyum%20GPS%20-%20Spor%20Kordon)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 18899,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Apple%20Watch%20Series%2010%20(46mm%20Simsiyah%20Al%C3%BCminyum%20GPS%20-%20Spor%20Kordon)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 19529,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Apple%20Watch%20Series%2010%20(46mm%20Simsiyah%20Al%C3%BCminyum%20GPS%20-%20Spor%20Kordon)",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-06-01",
-        "price": 19999,
-        "store": "Apple Store"
+        "date": "Ekim 2025",
+        "price": 21660
       },
       {
-        "date": "2026-07-01",
-        "price": 19399,
-        "store": "Hepsiburada"
+        "date": "Kasım 2025",
+        "price": 21090
       },
       {
-        "date": "2026-08-01",
-        "price": 18999,
-        "store": "Amazon TR"
+        "date": "Aralık 2025",
+        "price": 20520
+      },
+      {
+        "date": "Ocak 2026",
+        "price": 19950
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 19380
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 19000
       }
     ],
     "colorOptions": [
@@ -155,7 +175,7 @@ export const mockSmartwatches: Product[] = [
     "category": "smartwatches",
     "rating": 4.9,
     "reviewCount": 4434,
-    "basePrice": 18999,
+    "basePrice": 18899,
     "currency": "TL",
     "releaseYear": 2024,
     "isPopular": false,
@@ -226,64 +246,84 @@ export const mockSmartwatches: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "st-ap-apple-watch-s10-46mm-alu-gps-silver-loop",
-        "storeName": "Apple Store",
-        "storeLogoColor": "bg-black",
-        "price": 19999,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Satıcı",
-          "Ücretsiz Kargo"
-        ],
-        "sellerRating": 5,
-        "sellerReviews": 12500,
-        "url": "https://www.apple.com/tr/apple-watch-series-10/"
-      },
-      {
-        "id": "st-hb-apple-watch-s10-46mm-alu-gps-silver-loop",
         "storeName": "Hepsiburada",
-        "price": 19199,
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 18999,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Hızlı Teslimat",
-          "Peşin Fiyatına Taksit"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 4800,
-        "url": "https://www.hepsiburada.com/ara?q=Apple%20Watch%20Series%2010%20(46mm%20G%C3%BCm%C3%BC%C5%9F%20Al%C3%BCminyum%20GPS%20-%20Spor%20Loop)"
+        "url": "https://www.hepsiburada.com/ara?q=Apple%20Watch%20Series%2010%20(46mm%20G%C3%BCm%C3%BC%C5%9F%20Al%C3%BCminyum%20GPS%20-%20Spor%20Loop)",
+        "rating": 4.8
       },
       {
-        "id": "st-amz-apple-watch-s10-46mm-alu-gps-silver-loop",
-        "storeName": "Amazon TR",
-        "price": 18999,
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 19229,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Prime",
-          "Günün Fırsatı"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 6200,
-        "url": "https://www.amazon.com.tr/s?k=Apple%20Watch%20Series%2010%20(46mm%20G%C3%BCm%C3%BC%C5%9F%20Al%C3%BCminyum%20GPS%20-%20Spor%20Loop)"
+        "url": "https://www.trendyol.com/sr?q=Apple%20Watch%20Series%2010%20(46mm%20G%C3%BCm%C3%BC%C5%9F%20Al%C3%BCminyum%20GPS%20-%20Spor%20Loop)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 19469,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Apple%20Watch%20Series%2010%20(46mm%20G%C3%BCm%C3%BC%C5%9F%20Al%C3%BCminyum%20GPS%20-%20Spor%20Loop)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 19659,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Apple%20Watch%20Series%2010%20(46mm%20G%C3%BCm%C3%BC%C5%9F%20Al%C3%BCminyum%20GPS%20-%20Spor%20Loop)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 18899,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Apple%20Watch%20Series%2010%20(46mm%20G%C3%BCm%C3%BC%C5%9F%20Al%C3%BCminyum%20GPS%20-%20Spor%20Loop)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 19529,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Apple%20Watch%20Series%2010%20(46mm%20G%C3%BCm%C3%BC%C5%9F%20Al%C3%BCminyum%20GPS%20-%20Spor%20Loop)",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-06-01",
-        "price": 19999,
-        "store": "Apple Store"
+        "date": "Ekim 2025",
+        "price": 21660
       },
       {
-        "date": "2026-07-01",
-        "price": 19399,
-        "store": "Hepsiburada"
+        "date": "Kasım 2025",
+        "price": 21090
       },
       {
-        "date": "2026-08-01",
-        "price": 18999,
-        "store": "Amazon TR"
+        "date": "Aralık 2025",
+        "price": 20520
+      },
+      {
+        "date": "Ocak 2026",
+        "price": 19950
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 19380
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 19000
       }
     ],
     "colorOptions": [
@@ -301,7 +341,7 @@ export const mockSmartwatches: Product[] = [
     "category": "smartwatches",
     "rating": 4.9,
     "reviewCount": 4279,
-    "basePrice": 18999,
+    "basePrice": 18899,
     "currency": "TL",
     "releaseYear": 2024,
     "isPopular": false,
@@ -368,64 +408,84 @@ export const mockSmartwatches: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "st-ap-apple-watch-s10-46mm-alu-gps-rosegold-sport",
-        "storeName": "Apple Store",
-        "storeLogoColor": "bg-black",
-        "price": 19999,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Satıcı",
-          "Ücretsiz Kargo"
-        ],
-        "sellerRating": 5,
-        "sellerReviews": 12500,
-        "url": "https://www.apple.com/tr/apple-watch-series-10/"
-      },
-      {
-        "id": "st-hb-apple-watch-s10-46mm-alu-gps-rosegold-sport",
         "storeName": "Hepsiburada",
-        "price": 19199,
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 18999,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Hızlı Teslimat",
-          "Peşin Fiyatına Taksit"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 4800,
-        "url": "https://www.hepsiburada.com/ara?q=Apple%20Watch%20Series%2010%20(46mm%20Rose%20Gold%20Al%C3%BCminyum%20GPS%20-%20Spor%20Kordon)"
+        "url": "https://www.hepsiburada.com/ara?q=Apple%20Watch%20Series%2010%20(46mm%20Rose%20Gold%20Al%C3%BCminyum%20GPS%20-%20Spor%20Kordon)",
+        "rating": 4.8
       },
       {
-        "id": "st-amz-apple-watch-s10-46mm-alu-gps-rosegold-sport",
-        "storeName": "Amazon TR",
-        "price": 18999,
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 19229,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Prime",
-          "Günün Fırsatı"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 6200,
-        "url": "https://www.amazon.com.tr/s?k=Apple%20Watch%20Series%2010%20(46mm%20Rose%20Gold%20Al%C3%BCminyum%20GPS%20-%20Spor%20Kordon)"
+        "url": "https://www.trendyol.com/sr?q=Apple%20Watch%20Series%2010%20(46mm%20Rose%20Gold%20Al%C3%BCminyum%20GPS%20-%20Spor%20Kordon)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 19469,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Apple%20Watch%20Series%2010%20(46mm%20Rose%20Gold%20Al%C3%BCminyum%20GPS%20-%20Spor%20Kordon)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 19659,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Apple%20Watch%20Series%2010%20(46mm%20Rose%20Gold%20Al%C3%BCminyum%20GPS%20-%20Spor%20Kordon)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 18899,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Apple%20Watch%20Series%2010%20(46mm%20Rose%20Gold%20Al%C3%BCminyum%20GPS%20-%20Spor%20Kordon)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 19529,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Apple%20Watch%20Series%2010%20(46mm%20Rose%20Gold%20Al%C3%BCminyum%20GPS%20-%20Spor%20Kordon)",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-06-01",
-        "price": 19999,
-        "store": "Apple Store"
+        "date": "Ekim 2025",
+        "price": 21660
       },
       {
-        "date": "2026-07-01",
-        "price": 19399,
-        "store": "Hepsiburada"
+        "date": "Kasım 2025",
+        "price": 21090
       },
       {
-        "date": "2026-08-01",
-        "price": 18999,
-        "store": "Amazon TR"
+        "date": "Aralık 2025",
+        "price": 20520
+      },
+      {
+        "date": "Ocak 2026",
+        "price": 19950
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 19380
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 19000
       }
     ],
     "colorOptions": [
@@ -443,7 +503,7 @@ export const mockSmartwatches: Product[] = [
     "category": "smartwatches",
     "rating": 4.9,
     "reviewCount": 4400,
-    "basePrice": 23749,
+    "basePrice": 23629,
     "currency": "TL",
     "releaseYear": 2024,
     "isPopular": true,
@@ -515,64 +575,84 @@ export const mockSmartwatches: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "st-ap-apple-watch-s10-46mm-alu-cell-jetblack",
-        "storeName": "Apple Store",
-        "storeLogoColor": "bg-black",
-        "price": 24999,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Satıcı",
-          "Ücretsiz Kargo"
-        ],
-        "sellerRating": 5,
-        "sellerReviews": 12500,
-        "url": "https://www.apple.com/tr/apple-watch-series-10/"
-      },
-      {
-        "id": "st-hb-apple-watch-s10-46mm-alu-cell-jetblack",
         "storeName": "Hepsiburada",
-        "price": 23999,
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 23749,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Hızlı Teslimat",
-          "Peşin Fiyatına Taksit"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 4800,
-        "url": "https://www.hepsiburada.com/ara?q=Apple%20Watch%20Series%2010%20(46mm%20Simsiyah%20Al%C3%BCminyum%20GPS%20%2B%20Cellular)"
+        "url": "https://www.hepsiburada.com/ara?q=Apple%20Watch%20Series%2010%20(46mm%20Simsiyah%20Al%C3%BCminyum%20GPS%20%2B%20Cellular)",
+        "rating": 4.8
       },
       {
-        "id": "st-amz-apple-watch-s10-46mm-alu-cell-jetblack",
-        "storeName": "Amazon TR",
-        "price": 23749,
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 24029,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Prime",
-          "Günün Fırsatı"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 6200,
-        "url": "https://www.amazon.com.tr/s?k=Apple%20Watch%20Series%2010%20(46mm%20Simsiyah%20Al%C3%BCminyum%20GPS%20%2B%20Cellular)"
+        "url": "https://www.trendyol.com/sr?q=Apple%20Watch%20Series%2010%20(46mm%20Simsiyah%20Al%C3%BCminyum%20GPS%20%2B%20Cellular)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 24339,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Apple%20Watch%20Series%2010%20(46mm%20Simsiyah%20Al%C3%BCminyum%20GPS%20%2B%20Cellular)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 24579,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Apple%20Watch%20Series%2010%20(46mm%20Simsiyah%20Al%C3%BCminyum%20GPS%20%2B%20Cellular)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 23629,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Apple%20Watch%20Series%2010%20(46mm%20Simsiyah%20Al%C3%BCminyum%20GPS%20%2B%20Cellular)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 24409,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Apple%20Watch%20Series%2010%20(46mm%20Simsiyah%20Al%C3%BCminyum%20GPS%20%2B%20Cellular)",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-06-01",
-        "price": 24999,
-        "store": "Apple Store"
+        "date": "Ekim 2025",
+        "price": 27070
       },
       {
-        "date": "2026-07-01",
-        "price": 24249,
-        "store": "Hepsiburada"
+        "date": "Kasım 2025",
+        "price": 26360
       },
       {
-        "date": "2026-08-01",
-        "price": 23749,
-        "store": "Amazon TR"
+        "date": "Aralık 2025",
+        "price": 25650
+      },
+      {
+        "date": "Ocak 2026",
+        "price": 24940
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 24220
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 23750
       }
     ],
     "colorOptions": [
@@ -590,7 +670,7 @@ export const mockSmartwatches: Product[] = [
     "category": "smartwatches",
     "rating": 4.9,
     "reviewCount": 2229,
-    "basePrice": 23749,
+    "basePrice": 23629,
     "currency": "TL",
     "releaseYear": 2024,
     "isPopular": false,
@@ -662,64 +742,84 @@ export const mockSmartwatches: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "st-ap-apple-watch-s10-46mm-alu-cell-silver",
-        "storeName": "Apple Store",
-        "storeLogoColor": "bg-black",
-        "price": 24999,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Satıcı",
-          "Ücretsiz Kargo"
-        ],
-        "sellerRating": 5,
-        "sellerReviews": 12500,
-        "url": "https://www.apple.com/tr/apple-watch-series-10/"
-      },
-      {
-        "id": "st-hb-apple-watch-s10-46mm-alu-cell-silver",
         "storeName": "Hepsiburada",
-        "price": 23999,
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 23749,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Hızlı Teslimat",
-          "Peşin Fiyatına Taksit"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 4800,
-        "url": "https://www.hepsiburada.com/ara?q=Apple%20Watch%20Series%2010%20(46mm%20G%C3%BCm%C3%BC%C5%9F%20Al%C3%BCminyum%20GPS%20%2B%20Cellular)"
+        "url": "https://www.hepsiburada.com/ara?q=Apple%20Watch%20Series%2010%20(46mm%20G%C3%BCm%C3%BC%C5%9F%20Al%C3%BCminyum%20GPS%20%2B%20Cellular)",
+        "rating": 4.8
       },
       {
-        "id": "st-amz-apple-watch-s10-46mm-alu-cell-silver",
-        "storeName": "Amazon TR",
-        "price": 23749,
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 24029,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Prime",
-          "Günün Fırsatı"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 6200,
-        "url": "https://www.amazon.com.tr/s?k=Apple%20Watch%20Series%2010%20(46mm%20G%C3%BCm%C3%BC%C5%9F%20Al%C3%BCminyum%20GPS%20%2B%20Cellular)"
+        "url": "https://www.trendyol.com/sr?q=Apple%20Watch%20Series%2010%20(46mm%20G%C3%BCm%C3%BC%C5%9F%20Al%C3%BCminyum%20GPS%20%2B%20Cellular)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 24339,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Apple%20Watch%20Series%2010%20(46mm%20G%C3%BCm%C3%BC%C5%9F%20Al%C3%BCminyum%20GPS%20%2B%20Cellular)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 24579,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Apple%20Watch%20Series%2010%20(46mm%20G%C3%BCm%C3%BC%C5%9F%20Al%C3%BCminyum%20GPS%20%2B%20Cellular)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 23629,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Apple%20Watch%20Series%2010%20(46mm%20G%C3%BCm%C3%BC%C5%9F%20Al%C3%BCminyum%20GPS%20%2B%20Cellular)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 24409,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Apple%20Watch%20Series%2010%20(46mm%20G%C3%BCm%C3%BC%C5%9F%20Al%C3%BCminyum%20GPS%20%2B%20Cellular)",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-06-01",
-        "price": 24999,
-        "store": "Apple Store"
+        "date": "Ekim 2025",
+        "price": 27070
       },
       {
-        "date": "2026-07-01",
-        "price": 24249,
-        "store": "Hepsiburada"
+        "date": "Kasım 2025",
+        "price": 26360
       },
       {
-        "date": "2026-08-01",
-        "price": 23749,
-        "store": "Amazon TR"
+        "date": "Aralık 2025",
+        "price": 25650
+      },
+      {
+        "date": "Ocak 2026",
+        "price": 24940
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 24220
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 23750
       }
     ],
     "colorOptions": [
@@ -737,7 +837,7 @@ export const mockSmartwatches: Product[] = [
     "category": "smartwatches",
     "rating": 4.9,
     "reviewCount": 576,
-    "basePrice": 37049,
+    "basePrice": 36859,
     "currency": "TL",
     "releaseYear": 2024,
     "isPopular": true,
@@ -810,64 +910,84 @@ export const mockSmartwatches: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "st-ap-apple-watch-s10-46mm-ti-cell-natural-link",
-        "storeName": "Apple Store",
-        "storeLogoColor": "bg-black",
-        "price": 38999,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Satıcı",
-          "Ücretsiz Kargo"
-        ],
-        "sellerRating": 5,
-        "sellerReviews": 12500,
-        "url": "https://www.apple.com/tr/apple-watch-series-10/"
-      },
-      {
-        "id": "st-hb-apple-watch-s10-46mm-ti-cell-natural-link",
         "storeName": "Hepsiburada",
-        "price": 37439,
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 37049,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Hızlı Teslimat",
-          "Peşin Fiyatına Taksit"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 4800,
-        "url": "https://www.hepsiburada.com/ara?q=Apple%20Watch%20Series%2010%20(46mm%20Do%C4%9Fal%20Titanyum%20GPS%20%2B%20Cellular%20-%20Manyetik%20Link)"
+        "url": "https://www.hepsiburada.com/ara?q=Apple%20Watch%20Series%2010%20(46mm%20Do%C4%9Fal%20Titanyum%20GPS%20%2B%20Cellular%20-%20Manyetik%20Link)",
+        "rating": 4.8
       },
       {
-        "id": "st-amz-apple-watch-s10-46mm-ti-cell-natural-link",
-        "storeName": "Amazon TR",
-        "price": 37049,
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 37489,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Prime",
-          "Günün Fırsatı"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 6200,
-        "url": "https://www.amazon.com.tr/s?k=Apple%20Watch%20Series%2010%20(46mm%20Do%C4%9Fal%20Titanyum%20GPS%20%2B%20Cellular%20-%20Manyetik%20Link)"
+        "url": "https://www.trendyol.com/sr?q=Apple%20Watch%20Series%2010%20(46mm%20Do%C4%9Fal%20Titanyum%20GPS%20%2B%20Cellular%20-%20Manyetik%20Link)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 37979,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Apple%20Watch%20Series%2010%20(46mm%20Do%C4%9Fal%20Titanyum%20GPS%20%2B%20Cellular%20-%20Manyetik%20Link)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 38349,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Apple%20Watch%20Series%2010%20(46mm%20Do%C4%9Fal%20Titanyum%20GPS%20%2B%20Cellular%20-%20Manyetik%20Link)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 36859,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Apple%20Watch%20Series%2010%20(46mm%20Do%C4%9Fal%20Titanyum%20GPS%20%2B%20Cellular%20-%20Manyetik%20Link)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 38089,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Apple%20Watch%20Series%2010%20(46mm%20Do%C4%9Fal%20Titanyum%20GPS%20%2B%20Cellular%20-%20Manyetik%20Link)",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-06-01",
-        "price": 38999,
-        "store": "Apple Store"
+        "date": "Ekim 2025",
+        "price": 42240
       },
       {
-        "date": "2026-07-01",
-        "price": 37829,
-        "store": "Hepsiburada"
+        "date": "Kasım 2025",
+        "price": 41120
       },
       {
-        "date": "2026-08-01",
-        "price": 37049,
-        "store": "Amazon TR"
+        "date": "Aralık 2025",
+        "price": 40010
+      },
+      {
+        "date": "Ocak 2026",
+        "price": 38900
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 37790
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 37050
       }
     ],
     "colorOptions": [
@@ -885,7 +1005,7 @@ export const mockSmartwatches: Product[] = [
     "category": "smartwatches",
     "rating": 4.9,
     "reviewCount": 4103,
-    "basePrice": 39899,
+    "basePrice": 39699,
     "currency": "TL",
     "releaseYear": 2024,
     "isPopular": false,
@@ -954,64 +1074,84 @@ export const mockSmartwatches: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "st-ap-apple-watch-s10-46mm-ti-cell-gold-milanese",
-        "storeName": "Apple Store",
-        "storeLogoColor": "bg-black",
-        "price": 41999,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Satıcı",
-          "Ücretsiz Kargo"
-        ],
-        "sellerRating": 5,
-        "sellerReviews": 12500,
-        "url": "https://www.apple.com/tr/apple-watch-series-10/"
-      },
-      {
-        "id": "st-hb-apple-watch-s10-46mm-ti-cell-gold-milanese",
         "storeName": "Hepsiburada",
-        "price": 40319,
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 39899,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Hızlı Teslimat",
-          "Peşin Fiyatına Taksit"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 4800,
-        "url": "https://www.hepsiburada.com/ara?q=Apple%20Watch%20Series%2010%20(46mm%20Alt%C4%B1n%20Titanyum%20GPS%20%2B%20Cellular%20-%20Milano%20Loop)"
+        "url": "https://www.hepsiburada.com/ara?q=Apple%20Watch%20Series%2010%20(46mm%20Alt%C4%B1n%20Titanyum%20GPS%20%2B%20Cellular%20-%20Milano%20Loop)",
+        "rating": 4.8
       },
       {
-        "id": "st-amz-apple-watch-s10-46mm-ti-cell-gold-milanese",
-        "storeName": "Amazon TR",
-        "price": 39899,
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 40379,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Prime",
-          "Günün Fırsatı"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 6200,
-        "url": "https://www.amazon.com.tr/s?k=Apple%20Watch%20Series%2010%20(46mm%20Alt%C4%B1n%20Titanyum%20GPS%20%2B%20Cellular%20-%20Milano%20Loop)"
+        "url": "https://www.trendyol.com/sr?q=Apple%20Watch%20Series%2010%20(46mm%20Alt%C4%B1n%20Titanyum%20GPS%20%2B%20Cellular%20-%20Milano%20Loop)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 40899,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Apple%20Watch%20Series%2010%20(46mm%20Alt%C4%B1n%20Titanyum%20GPS%20%2B%20Cellular%20-%20Milano%20Loop)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 41299,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Apple%20Watch%20Series%2010%20(46mm%20Alt%C4%B1n%20Titanyum%20GPS%20%2B%20Cellular%20-%20Milano%20Loop)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 39699,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Apple%20Watch%20Series%2010%20(46mm%20Alt%C4%B1n%20Titanyum%20GPS%20%2B%20Cellular%20-%20Milano%20Loop)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 41019,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Apple%20Watch%20Series%2010%20(46mm%20Alt%C4%B1n%20Titanyum%20GPS%20%2B%20Cellular%20-%20Milano%20Loop)",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-06-01",
-        "price": 41999,
-        "store": "Apple Store"
+        "date": "Ekim 2025",
+        "price": 45480
       },
       {
-        "date": "2026-07-01",
-        "price": 40739,
-        "store": "Hepsiburada"
+        "date": "Kasım 2025",
+        "price": 44290
       },
       {
-        "date": "2026-08-01",
-        "price": 39899,
-        "store": "Amazon TR"
+        "date": "Aralık 2025",
+        "price": 43090
+      },
+      {
+        "date": "Ocak 2026",
+        "price": 41890
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 40700
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 39900
       }
     ],
     "colorOptions": [
@@ -1029,7 +1169,7 @@ export const mockSmartwatches: Product[] = [
     "category": "smartwatches",
     "rating": 4.9,
     "reviewCount": 2821,
-    "basePrice": 37049,
+    "basePrice": 36859,
     "currency": "TL",
     "releaseYear": 2024,
     "isPopular": false,
@@ -1102,64 +1242,84 @@ export const mockSmartwatches: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "st-ap-apple-watch-s10-46mm-ti-cell-slate-sport",
-        "storeName": "Apple Store",
-        "storeLogoColor": "bg-black",
-        "price": 38999,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Satıcı",
-          "Ücretsiz Kargo"
-        ],
-        "sellerRating": 5,
-        "sellerReviews": 12500,
-        "url": "https://www.apple.com/tr/apple-watch-series-10/"
-      },
-      {
-        "id": "st-hb-apple-watch-s10-46mm-ti-cell-slate-sport",
         "storeName": "Hepsiburada",
-        "price": 37439,
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 37049,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Hızlı Teslimat",
-          "Peşin Fiyatına Taksit"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 4800,
-        "url": "https://www.hepsiburada.com/ara?q=Apple%20Watch%20Series%2010%20(46mm%20Arduvaz%20Titanyum%20GPS%20%2B%20Cellular%20-%20Spor%20Kordon)"
+        "url": "https://www.hepsiburada.com/ara?q=Apple%20Watch%20Series%2010%20(46mm%20Arduvaz%20Titanyum%20GPS%20%2B%20Cellular%20-%20Spor%20Kordon)",
+        "rating": 4.8
       },
       {
-        "id": "st-amz-apple-watch-s10-46mm-ti-cell-slate-sport",
-        "storeName": "Amazon TR",
-        "price": 37049,
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 37489,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Prime",
-          "Günün Fırsatı"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 6200,
-        "url": "https://www.amazon.com.tr/s?k=Apple%20Watch%20Series%2010%20(46mm%20Arduvaz%20Titanyum%20GPS%20%2B%20Cellular%20-%20Spor%20Kordon)"
+        "url": "https://www.trendyol.com/sr?q=Apple%20Watch%20Series%2010%20(46mm%20Arduvaz%20Titanyum%20GPS%20%2B%20Cellular%20-%20Spor%20Kordon)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 37979,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Apple%20Watch%20Series%2010%20(46mm%20Arduvaz%20Titanyum%20GPS%20%2B%20Cellular%20-%20Spor%20Kordon)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 38349,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Apple%20Watch%20Series%2010%20(46mm%20Arduvaz%20Titanyum%20GPS%20%2B%20Cellular%20-%20Spor%20Kordon)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 36859,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Apple%20Watch%20Series%2010%20(46mm%20Arduvaz%20Titanyum%20GPS%20%2B%20Cellular%20-%20Spor%20Kordon)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 38089,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Apple%20Watch%20Series%2010%20(46mm%20Arduvaz%20Titanyum%20GPS%20%2B%20Cellular%20-%20Spor%20Kordon)",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-06-01",
-        "price": 38999,
-        "store": "Apple Store"
+        "date": "Ekim 2025",
+        "price": 42240
       },
       {
-        "date": "2026-07-01",
-        "price": 37829,
-        "store": "Hepsiburada"
+        "date": "Kasım 2025",
+        "price": 41120
       },
       {
-        "date": "2026-08-01",
-        "price": 37049,
-        "store": "Amazon TR"
+        "date": "Aralık 2025",
+        "price": 40010
+      },
+      {
+        "date": "Ocak 2026",
+        "price": 38900
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 37790
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 37050
       }
     ],
     "colorOptions": [
@@ -1177,7 +1337,7 @@ export const mockSmartwatches: Product[] = [
     "category": "smartwatches",
     "rating": 4.9,
     "reviewCount": 577,
-    "basePrice": 17574,
+    "basePrice": 17489,
     "currency": "TL",
     "releaseYear": 2024,
     "isPopular": true,
@@ -1248,64 +1408,84 @@ export const mockSmartwatches: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "st-ap-apple-watch-s10-42mm-alu-gps-jetblack",
-        "storeName": "Apple Store",
-        "storeLogoColor": "bg-black",
-        "price": 18499,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Satıcı",
-          "Ücretsiz Kargo"
-        ],
-        "sellerRating": 5,
-        "sellerReviews": 12500,
-        "url": "https://www.apple.com/tr/apple-watch-series-10/"
-      },
-      {
-        "id": "st-hb-apple-watch-s10-42mm-alu-gps-jetblack",
         "storeName": "Hepsiburada",
-        "price": 17759,
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 17569,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Hızlı Teslimat",
-          "Peşin Fiyatına Taksit"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 4800,
-        "url": "https://www.hepsiburada.com/ara?q=Apple%20Watch%20Series%2010%20(42mm%20Simsiyah%20Al%C3%BCminyum%20GPS%20-%20Spor%20Kordon)"
+        "url": "https://www.hepsiburada.com/ara?q=Apple%20Watch%20Series%2010%20(42mm%20Simsiyah%20Al%C3%BCminyum%20GPS%20-%20Spor%20Kordon)",
+        "rating": 4.8
       },
       {
-        "id": "st-amz-apple-watch-s10-42mm-alu-gps-jetblack",
-        "storeName": "Amazon TR",
-        "price": 17574,
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 17789,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Prime",
-          "Günün Fırsatı"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 6200,
-        "url": "https://www.amazon.com.tr/s?k=Apple%20Watch%20Series%2010%20(42mm%20Simsiyah%20Al%C3%BCminyum%20GPS%20-%20Spor%20Kordon)"
+        "url": "https://www.trendyol.com/sr?q=Apple%20Watch%20Series%2010%20(42mm%20Simsiyah%20Al%C3%BCminyum%20GPS%20-%20Spor%20Kordon)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 18009,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Apple%20Watch%20Series%2010%20(42mm%20Simsiyah%20Al%C3%BCminyum%20GPS%20-%20Spor%20Kordon)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 18189,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Apple%20Watch%20Series%2010%20(42mm%20Simsiyah%20Al%C3%BCminyum%20GPS%20-%20Spor%20Kordon)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 17489,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Apple%20Watch%20Series%2010%20(42mm%20Simsiyah%20Al%C3%BCminyum%20GPS%20-%20Spor%20Kordon)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 18069,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Apple%20Watch%20Series%2010%20(42mm%20Simsiyah%20Al%C3%BCminyum%20GPS%20-%20Spor%20Kordon)",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-06-01",
-        "price": 18499,
-        "store": "Apple Store"
+        "date": "Ekim 2025",
+        "price": 20030
       },
       {
-        "date": "2026-07-01",
-        "price": 17944,
-        "store": "Hepsiburada"
+        "date": "Kasım 2025",
+        "price": 19510
       },
       {
-        "date": "2026-08-01",
-        "price": 17574,
-        "store": "Amazon TR"
+        "date": "Aralık 2025",
+        "price": 18980
+      },
+      {
+        "date": "Ocak 2026",
+        "price": 18450
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 17930
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 17570
       }
     ],
     "colorOptions": [
@@ -1323,7 +1503,7 @@ export const mockSmartwatches: Product[] = [
     "category": "smartwatches",
     "rating": 4.9,
     "reviewCount": 1024,
-    "basePrice": 17574,
+    "basePrice": 17489,
     "currency": "TL",
     "releaseYear": 2024,
     "isPopular": false,
@@ -1390,64 +1570,84 @@ export const mockSmartwatches: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "st-ap-apple-watch-s10-42mm-alu-gps-rosegold",
-        "storeName": "Apple Store",
-        "storeLogoColor": "bg-black",
-        "price": 18499,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Satıcı",
-          "Ücretsiz Kargo"
-        ],
-        "sellerRating": 5,
-        "sellerReviews": 12500,
-        "url": "https://www.apple.com/tr/apple-watch-series-10/"
-      },
-      {
-        "id": "st-hb-apple-watch-s10-42mm-alu-gps-rosegold",
         "storeName": "Hepsiburada",
-        "price": 17759,
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 17569,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Hızlı Teslimat",
-          "Peşin Fiyatına Taksit"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 4800,
-        "url": "https://www.hepsiburada.com/ara?q=Apple%20Watch%20Series%2010%20(42mm%20Rose%20Gold%20Al%C3%BCminyum%20GPS%20-%20Spor%20Loop)"
+        "url": "https://www.hepsiburada.com/ara?q=Apple%20Watch%20Series%2010%20(42mm%20Rose%20Gold%20Al%C3%BCminyum%20GPS%20-%20Spor%20Loop)",
+        "rating": 4.8
       },
       {
-        "id": "st-amz-apple-watch-s10-42mm-alu-gps-rosegold",
-        "storeName": "Amazon TR",
-        "price": 17574,
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 17789,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Prime",
-          "Günün Fırsatı"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 6200,
-        "url": "https://www.amazon.com.tr/s?k=Apple%20Watch%20Series%2010%20(42mm%20Rose%20Gold%20Al%C3%BCminyum%20GPS%20-%20Spor%20Loop)"
+        "url": "https://www.trendyol.com/sr?q=Apple%20Watch%20Series%2010%20(42mm%20Rose%20Gold%20Al%C3%BCminyum%20GPS%20-%20Spor%20Loop)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 18009,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Apple%20Watch%20Series%2010%20(42mm%20Rose%20Gold%20Al%C3%BCminyum%20GPS%20-%20Spor%20Loop)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 18189,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Apple%20Watch%20Series%2010%20(42mm%20Rose%20Gold%20Al%C3%BCminyum%20GPS%20-%20Spor%20Loop)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 17489,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Apple%20Watch%20Series%2010%20(42mm%20Rose%20Gold%20Al%C3%BCminyum%20GPS%20-%20Spor%20Loop)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 18069,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Apple%20Watch%20Series%2010%20(42mm%20Rose%20Gold%20Al%C3%BCminyum%20GPS%20-%20Spor%20Loop)",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-06-01",
-        "price": 18499,
-        "store": "Apple Store"
+        "date": "Ekim 2025",
+        "price": 20030
       },
       {
-        "date": "2026-07-01",
-        "price": 17944,
-        "store": "Hepsiburada"
+        "date": "Kasım 2025",
+        "price": 19510
       },
       {
-        "date": "2026-08-01",
-        "price": 17574,
-        "store": "Amazon TR"
+        "date": "Aralık 2025",
+        "price": 18980
+      },
+      {
+        "date": "Ocak 2026",
+        "price": 18450
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 17930
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 17570
       }
     ],
     "colorOptions": [
@@ -1465,7 +1665,7 @@ export const mockSmartwatches: Product[] = [
     "category": "smartwatches",
     "rating": 4.9,
     "reviewCount": 3288,
-    "basePrice": 35149,
+    "basePrice": 34969,
     "currency": "TL",
     "releaseYear": 2024,
     "isPopular": false,
@@ -1538,64 +1738,84 @@ export const mockSmartwatches: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "st-ap-apple-watch-s10-42mm-ti-cell-natural",
-        "storeName": "Apple Store",
-        "storeLogoColor": "bg-black",
-        "price": 36999,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Satıcı",
-          "Ücretsiz Kargo"
-        ],
-        "sellerRating": 5,
-        "sellerReviews": 12500,
-        "url": "https://www.apple.com/tr/apple-watch-series-10/"
-      },
-      {
-        "id": "st-hb-apple-watch-s10-42mm-ti-cell-natural",
         "storeName": "Hepsiburada",
-        "price": 35519,
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 35149,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Hızlı Teslimat",
-          "Peşin Fiyatına Taksit"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 4800,
-        "url": "https://www.hepsiburada.com/ara?q=Apple%20Watch%20Series%2010%20(42mm%20Do%C4%9Fal%20Titanyum%20GPS%20%2B%20Cellular)"
+        "url": "https://www.hepsiburada.com/ara?q=Apple%20Watch%20Series%2010%20(42mm%20Do%C4%9Fal%20Titanyum%20GPS%20%2B%20Cellular)",
+        "rating": 4.8
       },
       {
-        "id": "st-amz-apple-watch-s10-42mm-ti-cell-natural",
-        "storeName": "Amazon TR",
-        "price": 35149,
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 35569,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Prime",
-          "Günün Fırsatı"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 6200,
-        "url": "https://www.amazon.com.tr/s?k=Apple%20Watch%20Series%2010%20(42mm%20Do%C4%9Fal%20Titanyum%20GPS%20%2B%20Cellular)"
+        "url": "https://www.trendyol.com/sr?q=Apple%20Watch%20Series%2010%20(42mm%20Do%C4%9Fal%20Titanyum%20GPS%20%2B%20Cellular)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 36029,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Apple%20Watch%20Series%2010%20(42mm%20Do%C4%9Fal%20Titanyum%20GPS%20%2B%20Cellular)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 36379,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Apple%20Watch%20Series%2010%20(42mm%20Do%C4%9Fal%20Titanyum%20GPS%20%2B%20Cellular)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 34969,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Apple%20Watch%20Series%2010%20(42mm%20Do%C4%9Fal%20Titanyum%20GPS%20%2B%20Cellular)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 36129,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Apple%20Watch%20Series%2010%20(42mm%20Do%C4%9Fal%20Titanyum%20GPS%20%2B%20Cellular)",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-06-01",
-        "price": 36999,
-        "store": "Apple Store"
+        "date": "Ekim 2025",
+        "price": 40070
       },
       {
-        "date": "2026-07-01",
-        "price": 35889,
-        "store": "Hepsiburada"
+        "date": "Kasım 2025",
+        "price": 39020
       },
       {
-        "date": "2026-08-01",
-        "price": 35149,
-        "store": "Amazon TR"
+        "date": "Aralık 2025",
+        "price": 37960
+      },
+      {
+        "date": "Ocak 2026",
+        "price": 36910
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 35850
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 35150
       }
     ],
     "colorOptions": [
@@ -1613,7 +1833,7 @@ export const mockSmartwatches: Product[] = [
     "category": "smartwatches",
     "rating": 4.9,
     "reviewCount": 804,
-    "basePrice": 37999,
+    "basePrice": 37809,
     "currency": "TL",
     "releaseYear": 2024,
     "isPopular": false,
@@ -1682,64 +1902,84 @@ export const mockSmartwatches: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "st-ap-apple-watch-s10-42mm-ti-cell-gold-milanese",
-        "storeName": "Apple Store",
-        "storeLogoColor": "bg-black",
-        "price": 39999,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Satıcı",
-          "Ücretsiz Kargo"
-        ],
-        "sellerRating": 5,
-        "sellerReviews": 12500,
-        "url": "https://www.apple.com/tr/apple-watch-series-10/"
-      },
-      {
-        "id": "st-hb-apple-watch-s10-42mm-ti-cell-gold-milanese",
         "storeName": "Hepsiburada",
-        "price": 38399,
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 37999,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Hızlı Teslimat",
-          "Peşin Fiyatına Taksit"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 4800,
-        "url": "https://www.hepsiburada.com/ara?q=Apple%20Watch%20Series%2010%20(42mm%20Alt%C4%B1n%20Titanyum%20GPS%20%2B%20Cellular%20-%20Milano%20Loop)"
+        "url": "https://www.hepsiburada.com/ara?q=Apple%20Watch%20Series%2010%20(42mm%20Alt%C4%B1n%20Titanyum%20GPS%20%2B%20Cellular%20-%20Milano%20Loop)",
+        "rating": 4.8
       },
       {
-        "id": "st-amz-apple-watch-s10-42mm-ti-cell-gold-milanese",
-        "storeName": "Amazon TR",
-        "price": 37999,
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 38459,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Prime",
-          "Günün Fırsatı"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 6200,
-        "url": "https://www.amazon.com.tr/s?k=Apple%20Watch%20Series%2010%20(42mm%20Alt%C4%B1n%20Titanyum%20GPS%20%2B%20Cellular%20-%20Milano%20Loop)"
+        "url": "https://www.trendyol.com/sr?q=Apple%20Watch%20Series%2010%20(42mm%20Alt%C4%B1n%20Titanyum%20GPS%20%2B%20Cellular%20-%20Milano%20Loop)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 38949,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Apple%20Watch%20Series%2010%20(42mm%20Alt%C4%B1n%20Titanyum%20GPS%20%2B%20Cellular%20-%20Milano%20Loop)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 39329,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Apple%20Watch%20Series%2010%20(42mm%20Alt%C4%B1n%20Titanyum%20GPS%20%2B%20Cellular%20-%20Milano%20Loop)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 37809,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Apple%20Watch%20Series%2010%20(42mm%20Alt%C4%B1n%20Titanyum%20GPS%20%2B%20Cellular%20-%20Milano%20Loop)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 39059,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Apple%20Watch%20Series%2010%20(42mm%20Alt%C4%B1n%20Titanyum%20GPS%20%2B%20Cellular%20-%20Milano%20Loop)",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-06-01",
-        "price": 39999,
-        "store": "Apple Store"
+        "date": "Ekim 2025",
+        "price": 43320
       },
       {
-        "date": "2026-07-01",
-        "price": 38799,
-        "store": "Hepsiburada"
+        "date": "Kasım 2025",
+        "price": 42180
       },
       {
-        "date": "2026-08-01",
-        "price": 37999,
-        "store": "Amazon TR"
+        "date": "Aralık 2025",
+        "price": 41040
+      },
+      {
+        "date": "Ocak 2026",
+        "price": 39900
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 38760
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 38000
       }
     ],
     "colorOptions": [
@@ -1757,7 +1997,7 @@ export const mockSmartwatches: Product[] = [
     "category": "smartwatches",
     "rating": 4.9,
     "reviewCount": 4013,
-    "basePrice": 52249,
+    "basePrice": 51989,
     "currency": "TL",
     "releaseYear": 2024,
     "isPopular": true,
@@ -1826,64 +2066,84 @@ export const mockSmartwatches: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "st-ap-apple-watch-ultra-2-black-milanese",
-        "storeName": "Apple Store",
-        "storeLogoColor": "bg-black",
-        "price": 54999,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Satıcı",
-          "Ücretsiz Kargo"
-        ],
-        "sellerRating": 5,
-        "sellerReviews": 12500,
-        "url": "https://www.apple.com/tr/apple-watch-ultra-2/"
-      },
-      {
-        "id": "st-hb-apple-watch-ultra-2-black-milanese",
         "storeName": "Hepsiburada",
-        "price": 52799,
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 52249,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Hızlı Teslimat",
-          "Peşin Fiyatına Taksit"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 4800,
-        "url": "https://www.hepsiburada.com/ara?q=Apple%20Watch%20Ultra%202%20(49mm%20Siyah%20Titanyum%20-%20Siyah%20Titanyum%20Milano%20Loop)"
+        "url": "https://www.hepsiburada.com/ara?q=Apple%20Watch%20Ultra%202%20(49mm%20Siyah%20Titanyum%20-%20Siyah%20Titanyum%20Milano%20Loop)",
+        "rating": 4.8
       },
       {
-        "id": "st-amz-apple-watch-ultra-2-black-milanese",
-        "storeName": "Amazon TR",
-        "price": 52249,
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 52879,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Prime",
-          "Günün Fırsatı"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 6200,
-        "url": "https://www.amazon.com.tr/s?k=Apple%20Watch%20Ultra%202%20(49mm%20Siyah%20Titanyum%20-%20Siyah%20Titanyum%20Milano%20Loop)"
+        "url": "https://www.trendyol.com/sr?q=Apple%20Watch%20Ultra%202%20(49mm%20Siyah%20Titanyum%20-%20Siyah%20Titanyum%20Milano%20Loop)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 53559,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Apple%20Watch%20Ultra%202%20(49mm%20Siyah%20Titanyum%20-%20Siyah%20Titanyum%20Milano%20Loop)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 54079,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Apple%20Watch%20Ultra%202%20(49mm%20Siyah%20Titanyum%20-%20Siyah%20Titanyum%20Milano%20Loop)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 51989,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Apple%20Watch%20Ultra%202%20(49mm%20Siyah%20Titanyum%20-%20Siyah%20Titanyum%20Milano%20Loop)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 53709,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Apple%20Watch%20Ultra%202%20(49mm%20Siyah%20Titanyum%20-%20Siyah%20Titanyum%20Milano%20Loop)",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-06-01",
-        "price": 54999,
-        "store": "Apple Store"
+        "date": "Ekim 2025",
+        "price": 59560
       },
       {
-        "date": "2026-07-01",
-        "price": 53349,
-        "store": "Hepsiburada"
+        "date": "Kasım 2025",
+        "price": 58000
       },
       {
-        "date": "2026-08-01",
-        "price": 52249,
-        "store": "Amazon TR"
+        "date": "Aralık 2025",
+        "price": 56430
+      },
+      {
+        "date": "Ocak 2026",
+        "price": 54860
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 53290
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 52250
       }
     ],
     "colorOptions": [
@@ -1901,7 +2161,7 @@ export const mockSmartwatches: Product[] = [
     "category": "smartwatches",
     "rating": 4.9,
     "reviewCount": 1032,
-    "basePrice": 47499,
+    "basePrice": 47259,
     "currency": "TL",
     "releaseYear": 2024,
     "isPopular": true,
@@ -1974,64 +2234,84 @@ export const mockSmartwatches: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "st-ap-apple-watch-ultra-2-black-alpine-darkgreen",
-        "storeName": "Apple Store",
-        "storeLogoColor": "bg-black",
-        "price": 49999,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Satıcı",
-          "Ücretsiz Kargo"
-        ],
-        "sellerRating": 5,
-        "sellerReviews": 12500,
-        "url": "https://www.apple.com/tr/apple-watch-ultra-2/"
-      },
-      {
-        "id": "st-hb-apple-watch-ultra-2-black-alpine-darkgreen",
         "storeName": "Hepsiburada",
-        "price": 47999,
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 47499,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Hızlı Teslimat",
-          "Peşin Fiyatına Taksit"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 4800,
-        "url": "https://www.hepsiburada.com/ara?q=Apple%20Watch%20Ultra%202%20(49mm%20Siyah%20Titanyum%20-%20Koyu%20Ye%C5%9Fil%20Alpine%20Loop)"
+        "url": "https://www.hepsiburada.com/ara?q=Apple%20Watch%20Ultra%202%20(49mm%20Siyah%20Titanyum%20-%20Koyu%20Ye%C5%9Fil%20Alpine%20Loop)",
+        "rating": 4.8
       },
       {
-        "id": "st-amz-apple-watch-ultra-2-black-alpine-darkgreen",
-        "storeName": "Amazon TR",
-        "price": 47499,
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 48069,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Prime",
-          "Günün Fırsatı"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 6200,
-        "url": "https://www.amazon.com.tr/s?k=Apple%20Watch%20Ultra%202%20(49mm%20Siyah%20Titanyum%20-%20Koyu%20Ye%C5%9Fil%20Alpine%20Loop)"
+        "url": "https://www.trendyol.com/sr?q=Apple%20Watch%20Ultra%202%20(49mm%20Siyah%20Titanyum%20-%20Koyu%20Ye%C5%9Fil%20Alpine%20Loop)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 48689,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Apple%20Watch%20Ultra%202%20(49mm%20Siyah%20Titanyum%20-%20Koyu%20Ye%C5%9Fil%20Alpine%20Loop)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 49159,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Apple%20Watch%20Ultra%202%20(49mm%20Siyah%20Titanyum%20-%20Koyu%20Ye%C5%9Fil%20Alpine%20Loop)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 47259,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Apple%20Watch%20Ultra%202%20(49mm%20Siyah%20Titanyum%20-%20Koyu%20Ye%C5%9Fil%20Alpine%20Loop)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 48829,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Apple%20Watch%20Ultra%202%20(49mm%20Siyah%20Titanyum%20-%20Koyu%20Ye%C5%9Fil%20Alpine%20Loop)",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-06-01",
-        "price": 49999,
-        "store": "Apple Store"
+        "date": "Ekim 2025",
+        "price": 54150
       },
       {
-        "date": "2026-07-01",
-        "price": 48499,
-        "store": "Hepsiburada"
+        "date": "Kasım 2025",
+        "price": 52720
       },
       {
-        "date": "2026-08-01",
-        "price": 47499,
-        "store": "Amazon TR"
+        "date": "Aralık 2025",
+        "price": 51300
+      },
+      {
+        "date": "Ocak 2026",
+        "price": 49870
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 48450
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 47500
       }
     ],
     "colorOptions": [
@@ -2049,7 +2329,7 @@ export const mockSmartwatches: Product[] = [
     "category": "smartwatches",
     "rating": 4.9,
     "reviewCount": 4583,
-    "basePrice": 47499,
+    "basePrice": 47259,
     "currency": "TL",
     "releaseYear": 2024,
     "isPopular": false,
@@ -2122,64 +2402,84 @@ export const mockSmartwatches: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "st-ap-apple-watch-ultra-2-black-ocean-black",
-        "storeName": "Apple Store",
-        "storeLogoColor": "bg-black",
-        "price": 49999,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Satıcı",
-          "Ücretsiz Kargo"
-        ],
-        "sellerRating": 5,
-        "sellerReviews": 12500,
-        "url": "https://www.apple.com/tr/apple-watch-ultra-2/"
-      },
-      {
-        "id": "st-hb-apple-watch-ultra-2-black-ocean-black",
         "storeName": "Hepsiburada",
-        "price": 47999,
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 47499,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Hızlı Teslimat",
-          "Peşin Fiyatına Taksit"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 4800,
-        "url": "https://www.hepsiburada.com/ara?q=Apple%20Watch%20Ultra%202%20(49mm%20Siyah%20Titanyum%20-%20Siyah%20Ocean%20Kordon)"
+        "url": "https://www.hepsiburada.com/ara?q=Apple%20Watch%20Ultra%202%20(49mm%20Siyah%20Titanyum%20-%20Siyah%20Ocean%20Kordon)",
+        "rating": 4.8
       },
       {
-        "id": "st-amz-apple-watch-ultra-2-black-ocean-black",
-        "storeName": "Amazon TR",
-        "price": 47499,
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 48069,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Prime",
-          "Günün Fırsatı"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 6200,
-        "url": "https://www.amazon.com.tr/s?k=Apple%20Watch%20Ultra%202%20(49mm%20Siyah%20Titanyum%20-%20Siyah%20Ocean%20Kordon)"
+        "url": "https://www.trendyol.com/sr?q=Apple%20Watch%20Ultra%202%20(49mm%20Siyah%20Titanyum%20-%20Siyah%20Ocean%20Kordon)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 48689,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Apple%20Watch%20Ultra%202%20(49mm%20Siyah%20Titanyum%20-%20Siyah%20Ocean%20Kordon)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 49159,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Apple%20Watch%20Ultra%202%20(49mm%20Siyah%20Titanyum%20-%20Siyah%20Ocean%20Kordon)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 47259,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Apple%20Watch%20Ultra%202%20(49mm%20Siyah%20Titanyum%20-%20Siyah%20Ocean%20Kordon)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 48829,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Apple%20Watch%20Ultra%202%20(49mm%20Siyah%20Titanyum%20-%20Siyah%20Ocean%20Kordon)",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-06-01",
-        "price": 49999,
-        "store": "Apple Store"
+        "date": "Ekim 2025",
+        "price": 54150
       },
       {
-        "date": "2026-07-01",
-        "price": 48499,
-        "store": "Hepsiburada"
+        "date": "Kasım 2025",
+        "price": 52720
       },
       {
-        "date": "2026-08-01",
-        "price": 47499,
-        "store": "Amazon TR"
+        "date": "Aralık 2025",
+        "price": 51300
+      },
+      {
+        "date": "Ocak 2026",
+        "price": 49870
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 48450
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 47500
       }
     ],
     "colorOptions": [
@@ -2197,7 +2497,7 @@ export const mockSmartwatches: Product[] = [
     "category": "smartwatches",
     "rating": 4.8,
     "reviewCount": 574,
-    "basePrice": 45599,
+    "basePrice": 45369,
     "currency": "TL",
     "releaseYear": 2023,
     "isPopular": true,
@@ -2270,64 +2570,84 @@ export const mockSmartwatches: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "st-ap-apple-watch-ultra-2-natural-trail-blue",
-        "storeName": "Apple Store",
-        "storeLogoColor": "bg-black",
-        "price": 47999,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Satıcı",
-          "Ücretsiz Kargo"
-        ],
-        "sellerRating": 5,
-        "sellerReviews": 12500,
-        "url": "https://www.apple.com/tr/apple-watch-ultra-2/"
-      },
-      {
-        "id": "st-hb-apple-watch-ultra-2-natural-trail-blue",
         "storeName": "Hepsiburada",
-        "price": 46079,
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 45599,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Hızlı Teslimat",
-          "Peşin Fiyatına Taksit"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 4800,
-        "url": "https://www.hepsiburada.com/ara?q=Apple%20Watch%20Ultra%202%20(49mm%20Do%C4%9Fal%20Titanyum%20-%20Mavi%2FSiyah%20Trail%20Loop)"
+        "url": "https://www.hepsiburada.com/ara?q=Apple%20Watch%20Ultra%202%20(49mm%20Do%C4%9Fal%20Titanyum%20-%20Mavi%2FSiyah%20Trail%20Loop)",
+        "rating": 4.8
       },
       {
-        "id": "st-amz-apple-watch-ultra-2-natural-trail-blue",
-        "storeName": "Amazon TR",
-        "price": 45599,
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 46149,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Prime",
-          "Günün Fırsatı"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 6200,
-        "url": "https://www.amazon.com.tr/s?k=Apple%20Watch%20Ultra%202%20(49mm%20Do%C4%9Fal%20Titanyum%20-%20Mavi%2FSiyah%20Trail%20Loop)"
+        "url": "https://www.trendyol.com/sr?q=Apple%20Watch%20Ultra%202%20(49mm%20Do%C4%9Fal%20Titanyum%20-%20Mavi%2FSiyah%20Trail%20Loop)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 46739,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Apple%20Watch%20Ultra%202%20(49mm%20Do%C4%9Fal%20Titanyum%20-%20Mavi%2FSiyah%20Trail%20Loop)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 47199,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Apple%20Watch%20Ultra%202%20(49mm%20Do%C4%9Fal%20Titanyum%20-%20Mavi%2FSiyah%20Trail%20Loop)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 45369,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Apple%20Watch%20Ultra%202%20(49mm%20Do%C4%9Fal%20Titanyum%20-%20Mavi%2FSiyah%20Trail%20Loop)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 46879,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Apple%20Watch%20Ultra%202%20(49mm%20Do%C4%9Fal%20Titanyum%20-%20Mavi%2FSiyah%20Trail%20Loop)",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-06-01",
-        "price": 47999,
-        "store": "Apple Store"
+        "date": "Ekim 2025",
+        "price": 51980
       },
       {
-        "date": "2026-07-01",
-        "price": 46559,
-        "store": "Hepsiburada"
+        "date": "Kasım 2025",
+        "price": 50610
       },
       {
-        "date": "2026-08-01",
-        "price": 45599,
-        "store": "Amazon TR"
+        "date": "Aralık 2025",
+        "price": 49250
+      },
+      {
+        "date": "Ocak 2026",
+        "price": 47880
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 46510
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 45600
       }
     ],
     "colorOptions": [
@@ -2345,7 +2665,7 @@ export const mockSmartwatches: Product[] = [
     "category": "smartwatches",
     "rating": 4.8,
     "reviewCount": 4609,
-    "basePrice": 45599,
+    "basePrice": 45369,
     "currency": "TL",
     "releaseYear": 2023,
     "isPopular": false,
@@ -2418,64 +2738,84 @@ export const mockSmartwatches: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "st-ap-apple-watch-ultra-2-natural-ocean-white",
-        "storeName": "Apple Store",
-        "storeLogoColor": "bg-black",
-        "price": 47999,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Satıcı",
-          "Ücretsiz Kargo"
-        ],
-        "sellerRating": 5,
-        "sellerReviews": 12500,
-        "url": "https://www.apple.com/tr/apple-watch-ultra-2/"
-      },
-      {
-        "id": "st-hb-apple-watch-ultra-2-natural-ocean-white",
         "storeName": "Hepsiburada",
-        "price": 46079,
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 45599,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Hızlı Teslimat",
-          "Peşin Fiyatına Taksit"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 4800,
-        "url": "https://www.hepsiburada.com/ara?q=Apple%20Watch%20Ultra%202%20(49mm%20Do%C4%9Fal%20Titanyum%20-%20Beyaz%20Ocean%20Kordon)"
+        "url": "https://www.hepsiburada.com/ara?q=Apple%20Watch%20Ultra%202%20(49mm%20Do%C4%9Fal%20Titanyum%20-%20Beyaz%20Ocean%20Kordon)",
+        "rating": 4.8
       },
       {
-        "id": "st-amz-apple-watch-ultra-2-natural-ocean-white",
-        "storeName": "Amazon TR",
-        "price": 45599,
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 46149,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Prime",
-          "Günün Fırsatı"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 6200,
-        "url": "https://www.amazon.com.tr/s?k=Apple%20Watch%20Ultra%202%20(49mm%20Do%C4%9Fal%20Titanyum%20-%20Beyaz%20Ocean%20Kordon)"
+        "url": "https://www.trendyol.com/sr?q=Apple%20Watch%20Ultra%202%20(49mm%20Do%C4%9Fal%20Titanyum%20-%20Beyaz%20Ocean%20Kordon)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 46739,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Apple%20Watch%20Ultra%202%20(49mm%20Do%C4%9Fal%20Titanyum%20-%20Beyaz%20Ocean%20Kordon)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 47199,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Apple%20Watch%20Ultra%202%20(49mm%20Do%C4%9Fal%20Titanyum%20-%20Beyaz%20Ocean%20Kordon)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 45369,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Apple%20Watch%20Ultra%202%20(49mm%20Do%C4%9Fal%20Titanyum%20-%20Beyaz%20Ocean%20Kordon)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 46879,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Apple%20Watch%20Ultra%202%20(49mm%20Do%C4%9Fal%20Titanyum%20-%20Beyaz%20Ocean%20Kordon)",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-06-01",
-        "price": 47999,
-        "store": "Apple Store"
+        "date": "Ekim 2025",
+        "price": 51980
       },
       {
-        "date": "2026-07-01",
-        "price": 46559,
-        "store": "Hepsiburada"
+        "date": "Kasım 2025",
+        "price": 50610
       },
       {
-        "date": "2026-08-01",
-        "price": 45599,
-        "store": "Amazon TR"
+        "date": "Aralık 2025",
+        "price": 49250
+      },
+      {
+        "date": "Ocak 2026",
+        "price": 47880
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 46510
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 45600
       }
     ],
     "colorOptions": [
@@ -2493,7 +2833,7 @@ export const mockSmartwatches: Product[] = [
     "category": "smartwatches",
     "rating": 4.8,
     "reviewCount": 2902,
-    "basePrice": 37049,
+    "basePrice": 36859,
     "currency": "TL",
     "releaseYear": 2022,
     "isPopular": false,
@@ -2565,64 +2905,84 @@ export const mockSmartwatches: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "st-ap-apple-watch-ultra-1st-gen-orange-alpine",
-        "storeName": "Apple Store",
-        "storeLogoColor": "bg-black",
-        "price": 38999,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Satıcı",
-          "Ücretsiz Kargo"
-        ],
-        "sellerRating": 5,
-        "sellerReviews": 12500,
-        "url": "https://www.apple.com/tr/apple-watch-ultra-2/"
-      },
-      {
-        "id": "st-hb-apple-watch-ultra-1st-gen-orange-alpine",
         "storeName": "Hepsiburada",
-        "price": 37439,
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 37049,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Hızlı Teslimat",
-          "Peşin Fiyatına Taksit"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 4800,
-        "url": "https://www.hepsiburada.com/ara?q=Apple%20Watch%20Ultra%20(49mm%20Titanyum%20-%20Turuncu%20Alpine%20Loop)"
+        "url": "https://www.hepsiburada.com/ara?q=Apple%20Watch%20Ultra%20(49mm%20Titanyum%20-%20Turuncu%20Alpine%20Loop)",
+        "rating": 4.8
       },
       {
-        "id": "st-amz-apple-watch-ultra-1st-gen-orange-alpine",
-        "storeName": "Amazon TR",
-        "price": 37049,
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 37489,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Prime",
-          "Günün Fırsatı"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 6200,
-        "url": "https://www.amazon.com.tr/s?k=Apple%20Watch%20Ultra%20(49mm%20Titanyum%20-%20Turuncu%20Alpine%20Loop)"
+        "url": "https://www.trendyol.com/sr?q=Apple%20Watch%20Ultra%20(49mm%20Titanyum%20-%20Turuncu%20Alpine%20Loop)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 37979,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Apple%20Watch%20Ultra%20(49mm%20Titanyum%20-%20Turuncu%20Alpine%20Loop)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 38349,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Apple%20Watch%20Ultra%20(49mm%20Titanyum%20-%20Turuncu%20Alpine%20Loop)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 36859,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Apple%20Watch%20Ultra%20(49mm%20Titanyum%20-%20Turuncu%20Alpine%20Loop)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 38089,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Apple%20Watch%20Ultra%20(49mm%20Titanyum%20-%20Turuncu%20Alpine%20Loop)",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-06-01",
-        "price": 38999,
-        "store": "Apple Store"
+        "date": "Ekim 2025",
+        "price": 42240
       },
       {
-        "date": "2026-07-01",
-        "price": 37829,
-        "store": "Hepsiburada"
+        "date": "Kasım 2025",
+        "price": 41120
       },
       {
-        "date": "2026-08-01",
-        "price": 37049,
-        "store": "Amazon TR"
+        "date": "Aralık 2025",
+        "price": 40010
+      },
+      {
+        "date": "Ocak 2026",
+        "price": 38900
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 37790
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 37050
       }
     ],
     "colorOptions": [
@@ -2640,7 +3000,7 @@ export const mockSmartwatches: Product[] = [
     "category": "smartwatches",
     "rating": 4.8,
     "reviewCount": 4176,
-    "basePrice": 30399,
+    "basePrice": 30249,
     "currency": "TL",
     "releaseYear": 2023,
     "isPopular": true,
@@ -2707,64 +3067,84 @@ export const mockSmartwatches: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "st-ap-apple-watch-s9-45mm-ss-cell-graphite-milanese",
-        "storeName": "Apple Store",
-        "storeLogoColor": "bg-black",
-        "price": 31999,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Satıcı",
-          "Ücretsiz Kargo"
-        ],
-        "sellerRating": 5,
-        "sellerReviews": 12500,
-        "url": "https://www.apple.com/tr/apple-watch-se/"
-      },
-      {
-        "id": "st-hb-apple-watch-s9-45mm-ss-cell-graphite-milanese",
         "storeName": "Hepsiburada",
-        "price": 30719,
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 30399,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Hızlı Teslimat",
-          "Peşin Fiyatına Taksit"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 4800,
-        "url": "https://www.hepsiburada.com/ara?q=Apple%20Watch%20Series%209%20(45mm%20Paslanmaz%20%C3%87elik%20Cellular%20-%20Grafit%20Milano%20Loop)"
+        "url": "https://www.hepsiburada.com/ara?q=Apple%20Watch%20Series%209%20(45mm%20Paslanmaz%20%C3%87elik%20Cellular%20-%20Grafit%20Milano%20Loop)",
+        "rating": 4.8
       },
       {
-        "id": "st-amz-apple-watch-s9-45mm-ss-cell-graphite-milanese",
-        "storeName": "Amazon TR",
-        "price": 30399,
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 30759,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Prime",
-          "Günün Fırsatı"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 6200,
-        "url": "https://www.amazon.com.tr/s?k=Apple%20Watch%20Series%209%20(45mm%20Paslanmaz%20%C3%87elik%20Cellular%20-%20Grafit%20Milano%20Loop)"
+        "url": "https://www.trendyol.com/sr?q=Apple%20Watch%20Series%209%20(45mm%20Paslanmaz%20%C3%87elik%20Cellular%20-%20Grafit%20Milano%20Loop)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 31159,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Apple%20Watch%20Series%209%20(45mm%20Paslanmaz%20%C3%87elik%20Cellular%20-%20Grafit%20Milano%20Loop)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 31459,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Apple%20Watch%20Series%209%20(45mm%20Paslanmaz%20%C3%87elik%20Cellular%20-%20Grafit%20Milano%20Loop)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 30249,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Apple%20Watch%20Series%209%20(45mm%20Paslanmaz%20%C3%87elik%20Cellular%20-%20Grafit%20Milano%20Loop)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 31249,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Apple%20Watch%20Series%209%20(45mm%20Paslanmaz%20%C3%87elik%20Cellular%20-%20Grafit%20Milano%20Loop)",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-06-01",
-        "price": 31999,
-        "store": "Apple Store"
+        "date": "Ekim 2025",
+        "price": 34650
       },
       {
-        "date": "2026-07-01",
-        "price": 31039,
-        "store": "Hepsiburada"
+        "date": "Kasım 2025",
+        "price": 33740
       },
       {
-        "date": "2026-08-01",
-        "price": 30399,
-        "store": "Amazon TR"
+        "date": "Aralık 2025",
+        "price": 32830
+      },
+      {
+        "date": "Ocak 2026",
+        "price": 31920
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 31010
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 30400
       }
     ],
     "colorOptions": [
@@ -2782,7 +3162,7 @@ export const mockSmartwatches: Product[] = [
     "category": "smartwatches",
     "rating": 4.8,
     "reviewCount": 2256,
-    "basePrice": 30399,
+    "basePrice": 30249,
     "currency": "TL",
     "releaseYear": 2023,
     "isPopular": false,
@@ -2853,64 +3233,84 @@ export const mockSmartwatches: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "st-ap-apple-watch-s9-45mm-ss-cell-gold-sport",
-        "storeName": "Apple Store",
-        "storeLogoColor": "bg-black",
-        "price": 31999,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Satıcı",
-          "Ücretsiz Kargo"
-        ],
-        "sellerRating": 5,
-        "sellerReviews": 12500,
-        "url": "https://www.apple.com/tr/apple-watch-series-9/"
-      },
-      {
-        "id": "st-hb-apple-watch-s9-45mm-ss-cell-gold-sport",
         "storeName": "Hepsiburada",
-        "price": 30719,
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 30399,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Hızlı Teslimat",
-          "Peşin Fiyatına Taksit"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 4800,
-        "url": "https://www.hepsiburada.com/ara?q=Apple%20Watch%20Series%209%20(45mm%20Paslanmaz%20%C3%87elik%20Cellular%20-%20Alt%C4%B1n%20%2F%20Krem%20Spor)"
+        "url": "https://www.hepsiburada.com/ara?q=Apple%20Watch%20Series%209%20(45mm%20Paslanmaz%20%C3%87elik%20Cellular%20-%20Alt%C4%B1n%20%2F%20Krem%20Spor)",
+        "rating": 4.8
       },
       {
-        "id": "st-amz-apple-watch-s9-45mm-ss-cell-gold-sport",
-        "storeName": "Amazon TR",
-        "price": 30399,
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 30759,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Prime",
-          "Günün Fırsatı"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 6200,
-        "url": "https://www.amazon.com.tr/s?k=Apple%20Watch%20Series%209%20(45mm%20Paslanmaz%20%C3%87elik%20Cellular%20-%20Alt%C4%B1n%20%2F%20Krem%20Spor)"
+        "url": "https://www.trendyol.com/sr?q=Apple%20Watch%20Series%209%20(45mm%20Paslanmaz%20%C3%87elik%20Cellular%20-%20Alt%C4%B1n%20%2F%20Krem%20Spor)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 31159,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Apple%20Watch%20Series%209%20(45mm%20Paslanmaz%20%C3%87elik%20Cellular%20-%20Alt%C4%B1n%20%2F%20Krem%20Spor)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 31459,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Apple%20Watch%20Series%209%20(45mm%20Paslanmaz%20%C3%87elik%20Cellular%20-%20Alt%C4%B1n%20%2F%20Krem%20Spor)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 30249,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Apple%20Watch%20Series%209%20(45mm%20Paslanmaz%20%C3%87elik%20Cellular%20-%20Alt%C4%B1n%20%2F%20Krem%20Spor)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 31249,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Apple%20Watch%20Series%209%20(45mm%20Paslanmaz%20%C3%87elik%20Cellular%20-%20Alt%C4%B1n%20%2F%20Krem%20Spor)",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-06-01",
-        "price": 31999,
-        "store": "Apple Store"
+        "date": "Ekim 2025",
+        "price": 34650
       },
       {
-        "date": "2026-07-01",
-        "price": 31039,
-        "store": "Hepsiburada"
+        "date": "Kasım 2025",
+        "price": 33740
       },
       {
-        "date": "2026-08-01",
-        "price": 30399,
-        "store": "Amazon TR"
+        "date": "Aralık 2025",
+        "price": 32830
+      },
+      {
+        "date": "Ocak 2026",
+        "price": 31920
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 31010
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 30400
       }
     ],
     "colorOptions": [
@@ -2928,7 +3328,7 @@ export const mockSmartwatches: Product[] = [
     "category": "smartwatches",
     "rating": 4.8,
     "reviewCount": 4202,
-    "basePrice": 15674,
+    "basePrice": 15599,
     "currency": "TL",
     "releaseYear": 2023,
     "isPopular": true,
@@ -2998,64 +3398,84 @@ export const mockSmartwatches: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "st-ap-apple-watch-s9-45mm-alu-gps-midnight-sport",
-        "storeName": "Apple Store",
-        "storeLogoColor": "bg-black",
-        "price": 16499,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Satıcı",
-          "Ücretsiz Kargo"
-        ],
-        "sellerRating": 5,
-        "sellerReviews": 12500,
-        "url": "https://www.apple.com/tr/apple-watch-series-9/"
-      },
-      {
-        "id": "st-hb-apple-watch-s9-45mm-alu-gps-midnight-sport",
         "storeName": "Hepsiburada",
-        "price": 15839,
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 15669,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Hızlı Teslimat",
-          "Peşin Fiyatına Taksit"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 4800,
-        "url": "https://www.hepsiburada.com/ara?q=Apple%20Watch%20Series%209%20(45mm%20Gece%20Yar%C4%B1s%C4%B1%20Al%C3%BCminyum%20GPS%20-%20Spor%20Kordon)"
+        "url": "https://www.hepsiburada.com/ara?q=Apple%20Watch%20Series%209%20(45mm%20Gece%20Yar%C4%B1s%C4%B1%20Al%C3%BCminyum%20GPS%20-%20Spor%20Kordon)",
+        "rating": 4.8
       },
       {
-        "id": "st-amz-apple-watch-s9-45mm-alu-gps-midnight-sport",
-        "storeName": "Amazon TR",
-        "price": 15674,
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 15859,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Prime",
-          "Günün Fırsatı"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 6200,
-        "url": "https://www.amazon.com.tr/s?k=Apple%20Watch%20Series%209%20(45mm%20Gece%20Yar%C4%B1s%C4%B1%20Al%C3%BCminyum%20GPS%20-%20Spor%20Kordon)"
+        "url": "https://www.trendyol.com/sr?q=Apple%20Watch%20Series%209%20(45mm%20Gece%20Yar%C4%B1s%C4%B1%20Al%C3%BCminyum%20GPS%20-%20Spor%20Kordon)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 16069,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Apple%20Watch%20Series%209%20(45mm%20Gece%20Yar%C4%B1s%C4%B1%20Al%C3%BCminyum%20GPS%20-%20Spor%20Kordon)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 16219,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Apple%20Watch%20Series%209%20(45mm%20Gece%20Yar%C4%B1s%C4%B1%20Al%C3%BCminyum%20GPS%20-%20Spor%20Kordon)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 15599,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Apple%20Watch%20Series%209%20(45mm%20Gece%20Yar%C4%B1s%C4%B1%20Al%C3%BCminyum%20GPS%20-%20Spor%20Kordon)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 16109,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Apple%20Watch%20Series%209%20(45mm%20Gece%20Yar%C4%B1s%C4%B1%20Al%C3%BCminyum%20GPS%20-%20Spor%20Kordon)",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-06-01",
-        "price": 16499,
-        "store": "Apple Store"
+        "date": "Ekim 2025",
+        "price": 17870
       },
       {
-        "date": "2026-07-01",
-        "price": 16004,
-        "store": "Hepsiburada"
+        "date": "Kasım 2025",
+        "price": 17400
       },
       {
-        "date": "2026-08-01",
-        "price": 15674,
-        "store": "Amazon TR"
+        "date": "Aralık 2025",
+        "price": 16930
+      },
+      {
+        "date": "Ocak 2026",
+        "price": 16460
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 15990
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 15670
       }
     ],
     "colorOptions": [
@@ -3073,7 +3493,7 @@ export const mockSmartwatches: Product[] = [
     "category": "smartwatches",
     "rating": 4.8,
     "reviewCount": 3040,
-    "basePrice": 15674,
+    "basePrice": 15599,
     "currency": "TL",
     "releaseYear": 2023,
     "isPopular": false,
@@ -3143,64 +3563,84 @@ export const mockSmartwatches: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "st-ap-apple-watch-s9-45mm-alu-gps-starlight-loop",
-        "storeName": "Apple Store",
-        "storeLogoColor": "bg-black",
-        "price": 16499,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Satıcı",
-          "Ücretsiz Kargo"
-        ],
-        "sellerRating": 5,
-        "sellerReviews": 12500,
-        "url": "https://www.apple.com/tr/apple-watch-series-9/"
-      },
-      {
-        "id": "st-hb-apple-watch-s9-45mm-alu-gps-starlight-loop",
         "storeName": "Hepsiburada",
-        "price": 15839,
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 15669,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Hızlı Teslimat",
-          "Peşin Fiyatına Taksit"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 4800,
-        "url": "https://www.hepsiburada.com/ara?q=Apple%20Watch%20Series%209%20(45mm%20Y%C4%B1ld%C4%B1z%20I%C5%9F%C4%B1%C4%9F%C4%B1%20Al%C3%BCminyum%20GPS%20-%20Spor%20Loop)"
+        "url": "https://www.hepsiburada.com/ara?q=Apple%20Watch%20Series%209%20(45mm%20Y%C4%B1ld%C4%B1z%20I%C5%9F%C4%B1%C4%9F%C4%B1%20Al%C3%BCminyum%20GPS%20-%20Spor%20Loop)",
+        "rating": 4.8
       },
       {
-        "id": "st-amz-apple-watch-s9-45mm-alu-gps-starlight-loop",
-        "storeName": "Amazon TR",
-        "price": 15674,
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 15859,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Prime",
-          "Günün Fırsatı"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 6200,
-        "url": "https://www.amazon.com.tr/s?k=Apple%20Watch%20Series%209%20(45mm%20Y%C4%B1ld%C4%B1z%20I%C5%9F%C4%B1%C4%9F%C4%B1%20Al%C3%BCminyum%20GPS%20-%20Spor%20Loop)"
+        "url": "https://www.trendyol.com/sr?q=Apple%20Watch%20Series%209%20(45mm%20Y%C4%B1ld%C4%B1z%20I%C5%9F%C4%B1%C4%9F%C4%B1%20Al%C3%BCminyum%20GPS%20-%20Spor%20Loop)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 16069,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Apple%20Watch%20Series%209%20(45mm%20Y%C4%B1ld%C4%B1z%20I%C5%9F%C4%B1%C4%9F%C4%B1%20Al%C3%BCminyum%20GPS%20-%20Spor%20Loop)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 16219,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Apple%20Watch%20Series%209%20(45mm%20Y%C4%B1ld%C4%B1z%20I%C5%9F%C4%B1%C4%9F%C4%B1%20Al%C3%BCminyum%20GPS%20-%20Spor%20Loop)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 15599,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Apple%20Watch%20Series%209%20(45mm%20Y%C4%B1ld%C4%B1z%20I%C5%9F%C4%B1%C4%9F%C4%B1%20Al%C3%BCminyum%20GPS%20-%20Spor%20Loop)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 16109,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Apple%20Watch%20Series%209%20(45mm%20Y%C4%B1ld%C4%B1z%20I%C5%9F%C4%B1%C4%9F%C4%B1%20Al%C3%BCminyum%20GPS%20-%20Spor%20Loop)",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-06-01",
-        "price": 16499,
-        "store": "Apple Store"
+        "date": "Ekim 2025",
+        "price": 17870
       },
       {
-        "date": "2026-07-01",
-        "price": 16004,
-        "store": "Hepsiburada"
+        "date": "Kasım 2025",
+        "price": 17400
       },
       {
-        "date": "2026-08-01",
-        "price": 15674,
-        "store": "Amazon TR"
+        "date": "Aralık 2025",
+        "price": 16930
+      },
+      {
+        "date": "Ocak 2026",
+        "price": 16460
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 15990
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 15670
       }
     ],
     "colorOptions": [
@@ -3218,7 +3658,7 @@ export const mockSmartwatches: Product[] = [
     "category": "smartwatches",
     "rating": 4.8,
     "reviewCount": 2752,
-    "basePrice": 15674,
+    "basePrice": 15599,
     "currency": "TL",
     "releaseYear": 2023,
     "isPopular": false,
@@ -3288,64 +3728,84 @@ export const mockSmartwatches: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "st-ap-apple-watch-s9-45mm-alu-gps-pink-sport",
-        "storeName": "Apple Store",
-        "storeLogoColor": "bg-black",
-        "price": 16499,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Satıcı",
-          "Ücretsiz Kargo"
-        ],
-        "sellerRating": 5,
-        "sellerReviews": 12500,
-        "url": "https://www.apple.com/tr/apple-watch-series-9/"
-      },
-      {
-        "id": "st-hb-apple-watch-s9-45mm-alu-gps-pink-sport",
         "storeName": "Hepsiburada",
-        "price": 15839,
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 15669,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Hızlı Teslimat",
-          "Peşin Fiyatına Taksit"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 4800,
-        "url": "https://www.hepsiburada.com/ara?q=Apple%20Watch%20Series%209%20(45mm%20Pembe%20Al%C3%BCminyum%20GPS%20-%20Spor%20Kordon)"
+        "url": "https://www.hepsiburada.com/ara?q=Apple%20Watch%20Series%209%20(45mm%20Pembe%20Al%C3%BCminyum%20GPS%20-%20Spor%20Kordon)",
+        "rating": 4.8
       },
       {
-        "id": "st-amz-apple-watch-s9-45mm-alu-gps-pink-sport",
-        "storeName": "Amazon TR",
-        "price": 15674,
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 15859,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Prime",
-          "Günün Fırsatı"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 6200,
-        "url": "https://www.amazon.com.tr/s?k=Apple%20Watch%20Series%209%20(45mm%20Pembe%20Al%C3%BCminyum%20GPS%20-%20Spor%20Kordon)"
+        "url": "https://www.trendyol.com/sr?q=Apple%20Watch%20Series%209%20(45mm%20Pembe%20Al%C3%BCminyum%20GPS%20-%20Spor%20Kordon)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 16069,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Apple%20Watch%20Series%209%20(45mm%20Pembe%20Al%C3%BCminyum%20GPS%20-%20Spor%20Kordon)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 16219,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Apple%20Watch%20Series%209%20(45mm%20Pembe%20Al%C3%BCminyum%20GPS%20-%20Spor%20Kordon)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 15599,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Apple%20Watch%20Series%209%20(45mm%20Pembe%20Al%C3%BCminyum%20GPS%20-%20Spor%20Kordon)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 16109,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Apple%20Watch%20Series%209%20(45mm%20Pembe%20Al%C3%BCminyum%20GPS%20-%20Spor%20Kordon)",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-06-01",
-        "price": 16499,
-        "store": "Apple Store"
+        "date": "Ekim 2025",
+        "price": 17870
       },
       {
-        "date": "2026-07-01",
-        "price": 16004,
-        "store": "Hepsiburada"
+        "date": "Kasım 2025",
+        "price": 17400
       },
       {
-        "date": "2026-08-01",
-        "price": 15674,
-        "store": "Amazon TR"
+        "date": "Aralık 2025",
+        "price": 16930
+      },
+      {
+        "date": "Ocak 2026",
+        "price": 16460
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 15990
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 15670
       }
     ],
     "colorOptions": [
@@ -3363,7 +3823,7 @@ export const mockSmartwatches: Product[] = [
     "category": "smartwatches",
     "rating": 4.8,
     "reviewCount": 3134,
-    "basePrice": 15674,
+    "basePrice": 15599,
     "currency": "TL",
     "releaseYear": 2023,
     "isPopular": false,
@@ -3433,64 +3893,84 @@ export const mockSmartwatches: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "st-ap-apple-watch-s9-45mm-alu-gps-red-sport",
-        "storeName": "Apple Store",
-        "storeLogoColor": "bg-black",
-        "price": 16499,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Satıcı",
-          "Ücretsiz Kargo"
-        ],
-        "sellerRating": 5,
-        "sellerReviews": 12500,
-        "url": "https://www.apple.com/tr/apple-watch-series-9/"
-      },
-      {
-        "id": "st-hb-apple-watch-s9-45mm-alu-gps-red-sport",
         "storeName": "Hepsiburada",
-        "price": 15839,
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 15669,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Hızlı Teslimat",
-          "Peşin Fiyatına Taksit"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 4800,
-        "url": "https://www.hepsiburada.com/ara?q=Apple%20Watch%20Series%209%20(45mm%20(PRODUCT)RED%20Al%C3%BCminyum%20GPS)"
+        "url": "https://www.hepsiburada.com/ara?q=Apple%20Watch%20Series%209%20(45mm%20(PRODUCT)RED%20Al%C3%BCminyum%20GPS)",
+        "rating": 4.8
       },
       {
-        "id": "st-amz-apple-watch-s9-45mm-alu-gps-red-sport",
-        "storeName": "Amazon TR",
-        "price": 15674,
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 15859,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Prime",
-          "Günün Fırsatı"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 6200,
-        "url": "https://www.amazon.com.tr/s?k=Apple%20Watch%20Series%209%20(45mm%20(PRODUCT)RED%20Al%C3%BCminyum%20GPS)"
+        "url": "https://www.trendyol.com/sr?q=Apple%20Watch%20Series%209%20(45mm%20(PRODUCT)RED%20Al%C3%BCminyum%20GPS)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 16069,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Apple%20Watch%20Series%209%20(45mm%20(PRODUCT)RED%20Al%C3%BCminyum%20GPS)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 16219,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Apple%20Watch%20Series%209%20(45mm%20(PRODUCT)RED%20Al%C3%BCminyum%20GPS)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 15599,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Apple%20Watch%20Series%209%20(45mm%20(PRODUCT)RED%20Al%C3%BCminyum%20GPS)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 16109,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Apple%20Watch%20Series%209%20(45mm%20(PRODUCT)RED%20Al%C3%BCminyum%20GPS)",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-06-01",
-        "price": 16499,
-        "store": "Apple Store"
+        "date": "Ekim 2025",
+        "price": 17870
       },
       {
-        "date": "2026-07-01",
-        "price": 16004,
-        "store": "Hepsiburada"
+        "date": "Kasım 2025",
+        "price": 17400
       },
       {
-        "date": "2026-08-01",
-        "price": 15674,
-        "store": "Amazon TR"
+        "date": "Aralık 2025",
+        "price": 16930
+      },
+      {
+        "date": "Ocak 2026",
+        "price": 16460
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 15990
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 15670
       }
     ],
     "colorOptions": [
@@ -3508,7 +3988,7 @@ export const mockSmartwatches: Product[] = [
     "category": "smartwatches",
     "rating": 4.8,
     "reviewCount": 3217,
-    "basePrice": 14724,
+    "basePrice": 19399,
     "currency": "TL",
     "releaseYear": 2023,
     "isPopular": true,
@@ -3578,64 +4058,84 @@ export const mockSmartwatches: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "st-ap-apple-watch-s9-41mm-alu-gps-midnight-sport",
-        "storeName": "Apple Store",
-        "storeLogoColor": "bg-black",
-        "price": 15499,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Satıcı",
-          "Ücretsiz Kargo"
-        ],
-        "sellerRating": 5,
-        "sellerReviews": 12500,
-        "url": "https://www.apple.com/tr/apple-watch-series-9/"
-      },
-      {
-        "id": "st-hb-apple-watch-s9-41mm-alu-gps-midnight-sport",
         "storeName": "Hepsiburada",
-        "price": 14879,
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 19499,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Hızlı Teslimat",
-          "Peşin Fiyatına Taksit"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 4800,
-        "url": "https://www.hepsiburada.com/ara?q=Apple%20Watch%20Series%209%20(41mm%20Gece%20Yar%C4%B1s%C4%B1%20Al%C3%BCminyum%20GPS)"
+        "url": "https://www.hepsiburada.com/ara?q=Apple%20Watch%20Series%209%20(41mm%20Gece%20Yar%C4%B1s%C4%B1%20Al%C3%BCminyum%20GPS)",
+        "rating": 4.8
       },
       {
-        "id": "st-amz-apple-watch-s9-41mm-alu-gps-midnight-sport",
-        "storeName": "Amazon TR",
-        "price": 14724,
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 19729,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Prime",
-          "Günün Fırsatı"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 6200,
-        "url": "https://www.amazon.com.tr/s?k=Apple%20Watch%20Series%209%20(41mm%20Gece%20Yar%C4%B1s%C4%B1%20Al%C3%BCminyum%20GPS)"
+        "url": "https://www.trendyol.com/sr?q=Apple%20Watch%20Series%209%20(41mm%20Gece%20Yar%C4%B1s%C4%B1%20Al%C3%BCminyum%20GPS)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 19989,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Apple%20Watch%20Series%209%20(41mm%20Gece%20Yar%C4%B1s%C4%B1%20Al%C3%BCminyum%20GPS)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 20179,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Apple%20Watch%20Series%209%20(41mm%20Gece%20Yar%C4%B1s%C4%B1%20Al%C3%BCminyum%20GPS)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 19399,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Apple%20Watch%20Series%209%20(41mm%20Gece%20Yar%C4%B1s%C4%B1%20Al%C3%BCminyum%20GPS)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 20049,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Apple%20Watch%20Series%209%20(41mm%20Gece%20Yar%C4%B1s%C4%B1%20Al%C3%BCminyum%20GPS)",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-06-01",
-        "price": 15499,
-        "store": "Apple Store"
+        "date": "Ekim 2025",
+        "price": 22230
       },
       {
-        "date": "2026-07-01",
-        "price": 15034,
-        "store": "Hepsiburada"
+        "date": "Kasım 2025",
+        "price": 21640
       },
       {
-        "date": "2026-08-01",
-        "price": 14724,
-        "store": "Amazon TR"
+        "date": "Aralık 2025",
+        "price": 21060
+      },
+      {
+        "date": "Ocak 2026",
+        "price": 20470
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 19890
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 19500
       }
     ],
     "colorOptions": [
@@ -3653,7 +4153,7 @@ export const mockSmartwatches: Product[] = [
     "category": "smartwatches",
     "rating": 4.8,
     "reviewCount": 3122,
-    "basePrice": 14724,
+    "basePrice": 19399,
     "currency": "TL",
     "releaseYear": 2023,
     "isPopular": false,
@@ -3723,64 +4223,84 @@ export const mockSmartwatches: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "st-ap-apple-watch-s9-41mm-alu-gps-pink-sport",
-        "storeName": "Apple Store",
-        "storeLogoColor": "bg-black",
-        "price": 15499,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Satıcı",
-          "Ücretsiz Kargo"
-        ],
-        "sellerRating": 5,
-        "sellerReviews": 12500,
-        "url": "https://www.apple.com/tr/apple-watch-series-9/"
-      },
-      {
-        "id": "st-hb-apple-watch-s9-41mm-alu-gps-pink-sport",
         "storeName": "Hepsiburada",
-        "price": 14879,
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 19499,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Hızlı Teslimat",
-          "Peşin Fiyatına Taksit"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 4800,
-        "url": "https://www.hepsiburada.com/ara?q=Apple%20Watch%20Series%209%20(41mm%20Pembe%20Al%C3%BCminyum%20GPS)"
+        "url": "https://www.hepsiburada.com/ara?q=Apple%20Watch%20Series%209%20(41mm%20Pembe%20Al%C3%BCminyum%20GPS)",
+        "rating": 4.8
       },
       {
-        "id": "st-amz-apple-watch-s9-41mm-alu-gps-pink-sport",
-        "storeName": "Amazon TR",
-        "price": 14724,
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 19729,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Prime",
-          "Günün Fırsatı"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 6200,
-        "url": "https://www.amazon.com.tr/s?k=Apple%20Watch%20Series%209%20(41mm%20Pembe%20Al%C3%BCminyum%20GPS)"
+        "url": "https://www.trendyol.com/sr?q=Apple%20Watch%20Series%209%20(41mm%20Pembe%20Al%C3%BCminyum%20GPS)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 19989,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Apple%20Watch%20Series%209%20(41mm%20Pembe%20Al%C3%BCminyum%20GPS)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 20179,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Apple%20Watch%20Series%209%20(41mm%20Pembe%20Al%C3%BCminyum%20GPS)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 19399,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Apple%20Watch%20Series%209%20(41mm%20Pembe%20Al%C3%BCminyum%20GPS)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 20049,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Apple%20Watch%20Series%209%20(41mm%20Pembe%20Al%C3%BCminyum%20GPS)",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-06-01",
-        "price": 15499,
-        "store": "Apple Store"
+        "date": "Ekim 2025",
+        "price": 22230
       },
       {
-        "date": "2026-07-01",
-        "price": 15034,
-        "store": "Hepsiburada"
+        "date": "Kasım 2025",
+        "price": 21640
       },
       {
-        "date": "2026-08-01",
-        "price": 14724,
-        "store": "Amazon TR"
+        "date": "Aralık 2025",
+        "price": 21060
+      },
+      {
+        "date": "Ocak 2026",
+        "price": 20470
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 19890
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 19500
       }
     ],
     "colorOptions": [
@@ -3798,7 +4318,7 @@ export const mockSmartwatches: Product[] = [
     "category": "smartwatches",
     "rating": 4.8,
     "reviewCount": 2130,
-    "basePrice": 28499,
+    "basePrice": 28359,
     "currency": "TL",
     "releaseYear": 2023,
     "isPopular": false,
@@ -3865,64 +4385,84 @@ export const mockSmartwatches: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "st-ap-apple-watch-s9-41mm-ss-cell-gold-milanese",
-        "storeName": "Apple Store",
-        "storeLogoColor": "bg-black",
-        "price": 29999,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Satıcı",
-          "Ücretsiz Kargo"
-        ],
-        "sellerRating": 5,
-        "sellerReviews": 12500,
-        "url": "https://www.apple.com/tr/apple-watch-se/"
-      },
-      {
-        "id": "st-hb-apple-watch-s9-41mm-ss-cell-gold-milanese",
         "storeName": "Hepsiburada",
-        "price": 28799,
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 28499,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Hızlı Teslimat",
-          "Peşin Fiyatına Taksit"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 4800,
-        "url": "https://www.hepsiburada.com/ara?q=Apple%20Watch%20Series%209%20(41mm%20Paslanmaz%20%C3%87elik%20Cellular%20-%20Alt%C4%B1n%20Milano%20Loop)"
+        "url": "https://www.hepsiburada.com/ara?q=Apple%20Watch%20Series%209%20(41mm%20Paslanmaz%20%C3%87elik%20Cellular%20-%20Alt%C4%B1n%20Milano%20Loop)",
+        "rating": 4.8
       },
       {
-        "id": "st-amz-apple-watch-s9-41mm-ss-cell-gold-milanese",
-        "storeName": "Amazon TR",
-        "price": 28499,
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 28839,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Prime",
-          "Günün Fırsatı"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 6200,
-        "url": "https://www.amazon.com.tr/s?k=Apple%20Watch%20Series%209%20(41mm%20Paslanmaz%20%C3%87elik%20Cellular%20-%20Alt%C4%B1n%20Milano%20Loop)"
+        "url": "https://www.trendyol.com/sr?q=Apple%20Watch%20Series%209%20(41mm%20Paslanmaz%20%C3%87elik%20Cellular%20-%20Alt%C4%B1n%20Milano%20Loop)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 29209,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Apple%20Watch%20Series%209%20(41mm%20Paslanmaz%20%C3%87elik%20Cellular%20-%20Alt%C4%B1n%20Milano%20Loop)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 29499,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Apple%20Watch%20Series%209%20(41mm%20Paslanmaz%20%C3%87elik%20Cellular%20-%20Alt%C4%B1n%20Milano%20Loop)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 28359,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Apple%20Watch%20Series%209%20(41mm%20Paslanmaz%20%C3%87elik%20Cellular%20-%20Alt%C4%B1n%20Milano%20Loop)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 29299,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Apple%20Watch%20Series%209%20(41mm%20Paslanmaz%20%C3%87elik%20Cellular%20-%20Alt%C4%B1n%20Milano%20Loop)",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-06-01",
-        "price": 29999,
-        "store": "Apple Store"
+        "date": "Ekim 2025",
+        "price": 32490
       },
       {
-        "date": "2026-07-01",
-        "price": 29099,
-        "store": "Hepsiburada"
+        "date": "Kasım 2025",
+        "price": 31630
       },
       {
-        "date": "2026-08-01",
-        "price": 28499,
-        "store": "Amazon TR"
+        "date": "Aralık 2025",
+        "price": 30780
+      },
+      {
+        "date": "Ocak 2026",
+        "price": 29920
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 29070
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 28500
       }
     ],
     "colorOptions": [
@@ -3940,7 +4480,7 @@ export const mockSmartwatches: Product[] = [
     "category": "smartwatches",
     "rating": 4.8,
     "reviewCount": 4420,
-    "basePrice": 25649,
+    "basePrice": 25519,
     "currency": "TL",
     "releaseYear": 2022,
     "isPopular": false,
@@ -4007,64 +4547,84 @@ export const mockSmartwatches: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "st-ap-apple-watch-s8-45mm-ss-cell-silver-milanese",
-        "storeName": "Apple Store",
-        "storeLogoColor": "bg-black",
-        "price": 26999,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Satıcı",
-          "Ücretsiz Kargo"
-        ],
-        "sellerRating": 5,
-        "sellerReviews": 12500,
-        "url": "https://www.apple.com/tr/apple-watch-se/"
-      },
-      {
-        "id": "st-hb-apple-watch-s8-45mm-ss-cell-silver-milanese",
         "storeName": "Hepsiburada",
-        "price": 25919,
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 25649,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Hızlı Teslimat",
-          "Peşin Fiyatına Taksit"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 4800,
-        "url": "https://www.hepsiburada.com/ara?q=Apple%20Watch%20Series%208%20(45mm%20Paslanmaz%20%C3%87elik%20Cellular%20-%20G%C3%BCm%C3%BC%C5%9F%20Milano%20Loop)"
+        "url": "https://www.hepsiburada.com/ara?q=Apple%20Watch%20Series%208%20(45mm%20Paslanmaz%20%C3%87elik%20Cellular%20-%20G%C3%BCm%C3%BC%C5%9F%20Milano%20Loop)",
+        "rating": 4.8
       },
       {
-        "id": "st-amz-apple-watch-s8-45mm-ss-cell-silver-milanese",
-        "storeName": "Amazon TR",
-        "price": 25649,
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 25959,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Prime",
-          "Günün Fırsatı"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 6200,
-        "url": "https://www.amazon.com.tr/s?k=Apple%20Watch%20Series%208%20(45mm%20Paslanmaz%20%C3%87elik%20Cellular%20-%20G%C3%BCm%C3%BC%C5%9F%20Milano%20Loop)"
+        "url": "https://www.trendyol.com/sr?q=Apple%20Watch%20Series%208%20(45mm%20Paslanmaz%20%C3%87elik%20Cellular%20-%20G%C3%BCm%C3%BC%C5%9F%20Milano%20Loop)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 26289,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Apple%20Watch%20Series%208%20(45mm%20Paslanmaz%20%C3%87elik%20Cellular%20-%20G%C3%BCm%C3%BC%C5%9F%20Milano%20Loop)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 26549,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Apple%20Watch%20Series%208%20(45mm%20Paslanmaz%20%C3%87elik%20Cellular%20-%20G%C3%BCm%C3%BC%C5%9F%20Milano%20Loop)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 25519,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Apple%20Watch%20Series%208%20(45mm%20Paslanmaz%20%C3%87elik%20Cellular%20-%20G%C3%BCm%C3%BC%C5%9F%20Milano%20Loop)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 26369,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Apple%20Watch%20Series%208%20(45mm%20Paslanmaz%20%C3%87elik%20Cellular%20-%20G%C3%BCm%C3%BC%C5%9F%20Milano%20Loop)",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-06-01",
-        "price": 26999,
-        "store": "Apple Store"
+        "date": "Ekim 2025",
+        "price": 29240
       },
       {
-        "date": "2026-07-01",
-        "price": 26189,
-        "store": "Hepsiburada"
+        "date": "Kasım 2025",
+        "price": 28470
       },
       {
-        "date": "2026-08-01",
-        "price": 25649,
-        "store": "Amazon TR"
+        "date": "Aralık 2025",
+        "price": 27700
+      },
+      {
+        "date": "Ocak 2026",
+        "price": 26930
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 26160
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 25650
       }
     ],
     "colorOptions": [
@@ -4082,7 +4642,7 @@ export const mockSmartwatches: Product[] = [
     "category": "smartwatches",
     "rating": 4.8,
     "reviewCount": 2360,
-    "basePrice": 13299,
+    "basePrice": 13229,
     "currency": "TL",
     "releaseYear": 2022,
     "isPopular": true,
@@ -4152,64 +4712,84 @@ export const mockSmartwatches: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "st-ap-apple-watch-s8-45mm-alu-gps-midnight",
-        "storeName": "Apple Store",
-        "storeLogoColor": "bg-black",
-        "price": 13999,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Satıcı",
-          "Ücretsiz Kargo"
-        ],
-        "sellerRating": 5,
-        "sellerReviews": 12500,
-        "url": "https://www.apple.com/tr/apple-watch-series-9/"
-      },
-      {
-        "id": "st-hb-apple-watch-s8-45mm-alu-gps-midnight",
         "storeName": "Hepsiburada",
-        "price": 13439,
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 13299,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Hızlı Teslimat",
-          "Peşin Fiyatına Taksit"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 4800,
-        "url": "https://www.hepsiburada.com/ara?q=Apple%20Watch%20Series%208%20(45mm%20Gece%20Yar%C4%B1s%C4%B1%20Al%C3%BCminyum%20GPS)"
+        "url": "https://www.hepsiburada.com/ara?q=Apple%20Watch%20Series%208%20(45mm%20Gece%20Yar%C4%B1s%C4%B1%20Al%C3%BCminyum%20GPS)",
+        "rating": 4.8
       },
       {
-        "id": "st-amz-apple-watch-s8-45mm-alu-gps-midnight",
-        "storeName": "Amazon TR",
-        "price": 13299,
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 13459,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Prime",
-          "Günün Fırsatı"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 6200,
-        "url": "https://www.amazon.com.tr/s?k=Apple%20Watch%20Series%208%20(45mm%20Gece%20Yar%C4%B1s%C4%B1%20Al%C3%BCminyum%20GPS)"
+        "url": "https://www.trendyol.com/sr?q=Apple%20Watch%20Series%208%20(45mm%20Gece%20Yar%C4%B1s%C4%B1%20Al%C3%BCminyum%20GPS)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 13629,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Apple%20Watch%20Series%208%20(45mm%20Gece%20Yar%C4%B1s%C4%B1%20Al%C3%BCminyum%20GPS)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 13759,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Apple%20Watch%20Series%208%20(45mm%20Gece%20Yar%C4%B1s%C4%B1%20Al%C3%BCminyum%20GPS)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 13229,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Apple%20Watch%20Series%208%20(45mm%20Gece%20Yar%C4%B1s%C4%B1%20Al%C3%BCminyum%20GPS)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 13669,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Apple%20Watch%20Series%208%20(45mm%20Gece%20Yar%C4%B1s%C4%B1%20Al%C3%BCminyum%20GPS)",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-06-01",
-        "price": 13999,
-        "store": "Apple Store"
+        "date": "Ekim 2025",
+        "price": 15160
       },
       {
-        "date": "2026-07-01",
-        "price": 13579,
-        "store": "Hepsiburada"
+        "date": "Kasım 2025",
+        "price": 14760
       },
       {
-        "date": "2026-08-01",
-        "price": 13299,
-        "store": "Amazon TR"
+        "date": "Aralık 2025",
+        "price": 14360
+      },
+      {
+        "date": "Ocak 2026",
+        "price": 13960
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 13560
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 13300
       }
     ],
     "colorOptions": [
@@ -4227,7 +4807,7 @@ export const mockSmartwatches: Product[] = [
     "category": "smartwatches",
     "rating": 4.8,
     "reviewCount": 4909,
-    "basePrice": 13299,
+    "basePrice": 13229,
     "currency": "TL",
     "releaseYear": 2022,
     "isPopular": false,
@@ -4297,64 +4877,84 @@ export const mockSmartwatches: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "st-ap-apple-watch-s8-45mm-alu-gps-starlight",
-        "storeName": "Apple Store",
-        "storeLogoColor": "bg-black",
-        "price": 13999,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Satıcı",
-          "Ücretsiz Kargo"
-        ],
-        "sellerRating": 5,
-        "sellerReviews": 12500,
-        "url": "https://www.apple.com/tr/apple-watch-series-9/"
-      },
-      {
-        "id": "st-hb-apple-watch-s8-45mm-alu-gps-starlight",
         "storeName": "Hepsiburada",
-        "price": 13439,
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 13299,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Hızlı Teslimat",
-          "Peşin Fiyatına Taksit"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 4800,
-        "url": "https://www.hepsiburada.com/ara?q=Apple%20Watch%20Series%208%20(45mm%20Y%C4%B1ld%C4%B1z%20I%C5%9F%C4%B1%C4%9F%C4%B1%20Al%C3%BCminyum%20GPS)"
+        "url": "https://www.hepsiburada.com/ara?q=Apple%20Watch%20Series%208%20(45mm%20Y%C4%B1ld%C4%B1z%20I%C5%9F%C4%B1%C4%9F%C4%B1%20Al%C3%BCminyum%20GPS)",
+        "rating": 4.8
       },
       {
-        "id": "st-amz-apple-watch-s8-45mm-alu-gps-starlight",
-        "storeName": "Amazon TR",
-        "price": 13299,
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 13459,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Prime",
-          "Günün Fırsatı"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 6200,
-        "url": "https://www.amazon.com.tr/s?k=Apple%20Watch%20Series%208%20(45mm%20Y%C4%B1ld%C4%B1z%20I%C5%9F%C4%B1%C4%9F%C4%B1%20Al%C3%BCminyum%20GPS)"
+        "url": "https://www.trendyol.com/sr?q=Apple%20Watch%20Series%208%20(45mm%20Y%C4%B1ld%C4%B1z%20I%C5%9F%C4%B1%C4%9F%C4%B1%20Al%C3%BCminyum%20GPS)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 13629,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Apple%20Watch%20Series%208%20(45mm%20Y%C4%B1ld%C4%B1z%20I%C5%9F%C4%B1%C4%9F%C4%B1%20Al%C3%BCminyum%20GPS)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 13759,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Apple%20Watch%20Series%208%20(45mm%20Y%C4%B1ld%C4%B1z%20I%C5%9F%C4%B1%C4%9F%C4%B1%20Al%C3%BCminyum%20GPS)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 13229,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Apple%20Watch%20Series%208%20(45mm%20Y%C4%B1ld%C4%B1z%20I%C5%9F%C4%B1%C4%9F%C4%B1%20Al%C3%BCminyum%20GPS)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 13669,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Apple%20Watch%20Series%208%20(45mm%20Y%C4%B1ld%C4%B1z%20I%C5%9F%C4%B1%C4%9F%C4%B1%20Al%C3%BCminyum%20GPS)",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-06-01",
-        "price": 13999,
-        "store": "Apple Store"
+        "date": "Ekim 2025",
+        "price": 15160
       },
       {
-        "date": "2026-07-01",
-        "price": 13579,
-        "store": "Hepsiburada"
+        "date": "Kasım 2025",
+        "price": 14760
       },
       {
-        "date": "2026-08-01",
-        "price": 13299,
-        "store": "Amazon TR"
+        "date": "Aralık 2025",
+        "price": 14360
+      },
+      {
+        "date": "Ocak 2026",
+        "price": 13960
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 13560
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 13300
       }
     ],
     "colorOptions": [
@@ -4372,7 +4972,7 @@ export const mockSmartwatches: Product[] = [
     "category": "smartwatches",
     "rating": 4.8,
     "reviewCount": 2441,
-    "basePrice": 12349,
+    "basePrice": 12289,
     "currency": "TL",
     "releaseYear": 2022,
     "isPopular": false,
@@ -4442,64 +5042,84 @@ export const mockSmartwatches: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "st-ap-apple-watch-s8-41mm-alu-gps-silver",
-        "storeName": "Apple Store",
-        "storeLogoColor": "bg-black",
-        "price": 12999,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Satıcı",
-          "Ücretsiz Kargo"
-        ],
-        "sellerRating": 5,
-        "sellerReviews": 12500,
-        "url": "https://www.apple.com/tr/apple-watch-series-9/"
-      },
-      {
-        "id": "st-hb-apple-watch-s8-41mm-alu-gps-silver",
         "storeName": "Hepsiburada",
-        "price": 12479,
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 12349,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Hızlı Teslimat",
-          "Peşin Fiyatına Taksit"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 4800,
-        "url": "https://www.hepsiburada.com/ara?q=Apple%20Watch%20Series%208%20(41mm%20G%C3%BCm%C3%BC%C5%9F%20Al%C3%BCminyum%20GPS)"
+        "url": "https://www.hepsiburada.com/ara?q=Apple%20Watch%20Series%208%20(41mm%20G%C3%BCm%C3%BC%C5%9F%20Al%C3%BCminyum%20GPS)",
+        "rating": 4.8
       },
       {
-        "id": "st-amz-apple-watch-s8-41mm-alu-gps-silver",
-        "storeName": "Amazon TR",
-        "price": 12349,
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 12499,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Prime",
-          "Günün Fırsatı"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 6200,
-        "url": "https://www.amazon.com.tr/s?k=Apple%20Watch%20Series%208%20(41mm%20G%C3%BCm%C3%BC%C5%9F%20Al%C3%BCminyum%20GPS)"
+        "url": "https://www.trendyol.com/sr?q=Apple%20Watch%20Series%208%20(41mm%20G%C3%BCm%C3%BC%C5%9F%20Al%C3%BCminyum%20GPS)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 12659,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Apple%20Watch%20Series%208%20(41mm%20G%C3%BCm%C3%BC%C5%9F%20Al%C3%BCminyum%20GPS)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 12779,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Apple%20Watch%20Series%208%20(41mm%20G%C3%BCm%C3%BC%C5%9F%20Al%C3%BCminyum%20GPS)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 12289,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Apple%20Watch%20Series%208%20(41mm%20G%C3%BCm%C3%BC%C5%9F%20Al%C3%BCminyum%20GPS)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 12699,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Apple%20Watch%20Series%208%20(41mm%20G%C3%BCm%C3%BC%C5%9F%20Al%C3%BCminyum%20GPS)",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-06-01",
-        "price": 12999,
-        "store": "Apple Store"
+        "date": "Ekim 2025",
+        "price": 14080
       },
       {
-        "date": "2026-07-01",
-        "price": 12609,
-        "store": "Hepsiburada"
+        "date": "Kasım 2025",
+        "price": 13710
       },
       {
-        "date": "2026-08-01",
-        "price": 12349,
-        "store": "Amazon TR"
+        "date": "Aralık 2025",
+        "price": 13340
+      },
+      {
+        "date": "Ocak 2026",
+        "price": 12970
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 12600
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 12350
       }
     ],
     "colorOptions": [
@@ -4517,7 +5137,7 @@ export const mockSmartwatches: Product[] = [
     "category": "smartwatches",
     "rating": 4.8,
     "reviewCount": 3785,
-    "basePrice": 12349,
+    "basePrice": 12289,
     "currency": "TL",
     "releaseYear": 2022,
     "isPopular": false,
@@ -4587,64 +5207,84 @@ export const mockSmartwatches: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "st-ap-apple-watch-s8-41mm-alu-gps-red",
-        "storeName": "Apple Store",
-        "storeLogoColor": "bg-black",
-        "price": 12999,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Satıcı",
-          "Ücretsiz Kargo"
-        ],
-        "sellerRating": 5,
-        "sellerReviews": 12500,
-        "url": "https://www.apple.com/tr/apple-watch-series-9/"
-      },
-      {
-        "id": "st-hb-apple-watch-s8-41mm-alu-gps-red",
         "storeName": "Hepsiburada",
-        "price": 12479,
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 12349,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Hızlı Teslimat",
-          "Peşin Fiyatına Taksit"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 4800,
-        "url": "https://www.hepsiburada.com/ara?q=Apple%20Watch%20Series%208%20(41mm%20(PRODUCT)RED%20Al%C3%BCminyum%20GPS)"
+        "url": "https://www.hepsiburada.com/ara?q=Apple%20Watch%20Series%208%20(41mm%20(PRODUCT)RED%20Al%C3%BCminyum%20GPS)",
+        "rating": 4.8
       },
       {
-        "id": "st-amz-apple-watch-s8-41mm-alu-gps-red",
-        "storeName": "Amazon TR",
-        "price": 12349,
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 12499,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Prime",
-          "Günün Fırsatı"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 6200,
-        "url": "https://www.amazon.com.tr/s?k=Apple%20Watch%20Series%208%20(41mm%20(PRODUCT)RED%20Al%C3%BCminyum%20GPS)"
+        "url": "https://www.trendyol.com/sr?q=Apple%20Watch%20Series%208%20(41mm%20(PRODUCT)RED%20Al%C3%BCminyum%20GPS)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 12659,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Apple%20Watch%20Series%208%20(41mm%20(PRODUCT)RED%20Al%C3%BCminyum%20GPS)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 12779,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Apple%20Watch%20Series%208%20(41mm%20(PRODUCT)RED%20Al%C3%BCminyum%20GPS)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 12289,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Apple%20Watch%20Series%208%20(41mm%20(PRODUCT)RED%20Al%C3%BCminyum%20GPS)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 12699,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Apple%20Watch%20Series%208%20(41mm%20(PRODUCT)RED%20Al%C3%BCminyum%20GPS)",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-06-01",
-        "price": 12999,
-        "store": "Apple Store"
+        "date": "Ekim 2025",
+        "price": 14080
       },
       {
-        "date": "2026-07-01",
-        "price": 12609,
-        "store": "Hepsiburada"
+        "date": "Kasım 2025",
+        "price": 13710
       },
       {
-        "date": "2026-08-01",
-        "price": 12349,
-        "store": "Amazon TR"
+        "date": "Aralık 2025",
+        "price": 13340
+      },
+      {
+        "date": "Ocak 2026",
+        "price": 12970
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 12600
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 12350
       }
     ],
     "colorOptions": [
@@ -4662,7 +5302,7 @@ export const mockSmartwatches: Product[] = [
     "category": "smartwatches",
     "rating": 4.8,
     "reviewCount": 738,
-    "basePrice": 13299,
+    "basePrice": 13229,
     "currency": "TL",
     "releaseYear": 2022,
     "isPopular": true,
@@ -4729,64 +5369,84 @@ export const mockSmartwatches: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "st-ap-apple-watch-se-2-44mm-cell-midnight",
-        "storeName": "Apple Store",
-        "storeLogoColor": "bg-black",
-        "price": 13999,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Satıcı",
-          "Ücretsiz Kargo"
-        ],
-        "sellerRating": 5,
-        "sellerReviews": 12500,
-        "url": "https://www.apple.com/tr/apple-watch-se/"
-      },
-      {
-        "id": "st-hb-apple-watch-se-2-44mm-cell-midnight",
         "storeName": "Hepsiburada",
-        "price": 13439,
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 13299,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Hızlı Teslimat",
-          "Peşin Fiyatına Taksit"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 4800,
-        "url": "https://www.hepsiburada.com/ara?q=Apple%20Watch%20SE%202.%20Nesil%20(44mm%20Gece%20Yar%C4%B1s%C4%B1%20Al%C3%BCminyum%20GPS%20%2B%20Cellular)"
+        "url": "https://www.hepsiburada.com/ara?q=Apple%20Watch%20SE%202.%20Nesil%20(44mm%20Gece%20Yar%C4%B1s%C4%B1%20Al%C3%BCminyum%20GPS%20%2B%20Cellular)",
+        "rating": 4.8
       },
       {
-        "id": "st-amz-apple-watch-se-2-44mm-cell-midnight",
-        "storeName": "Amazon TR",
-        "price": 13299,
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 13459,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Prime",
-          "Günün Fırsatı"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 6200,
-        "url": "https://www.amazon.com.tr/s?k=Apple%20Watch%20SE%202.%20Nesil%20(44mm%20Gece%20Yar%C4%B1s%C4%B1%20Al%C3%BCminyum%20GPS%20%2B%20Cellular)"
+        "url": "https://www.trendyol.com/sr?q=Apple%20Watch%20SE%202.%20Nesil%20(44mm%20Gece%20Yar%C4%B1s%C4%B1%20Al%C3%BCminyum%20GPS%20%2B%20Cellular)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 13629,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Apple%20Watch%20SE%202.%20Nesil%20(44mm%20Gece%20Yar%C4%B1s%C4%B1%20Al%C3%BCminyum%20GPS%20%2B%20Cellular)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 13759,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Apple%20Watch%20SE%202.%20Nesil%20(44mm%20Gece%20Yar%C4%B1s%C4%B1%20Al%C3%BCminyum%20GPS%20%2B%20Cellular)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 13229,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Apple%20Watch%20SE%202.%20Nesil%20(44mm%20Gece%20Yar%C4%B1s%C4%B1%20Al%C3%BCminyum%20GPS%20%2B%20Cellular)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 13669,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Apple%20Watch%20SE%202.%20Nesil%20(44mm%20Gece%20Yar%C4%B1s%C4%B1%20Al%C3%BCminyum%20GPS%20%2B%20Cellular)",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-06-01",
-        "price": 13999,
-        "store": "Apple Store"
+        "date": "Ekim 2025",
+        "price": 15160
       },
       {
-        "date": "2026-07-01",
-        "price": 13579,
-        "store": "Hepsiburada"
+        "date": "Kasım 2025",
+        "price": 14760
       },
       {
-        "date": "2026-08-01",
-        "price": 13299,
-        "store": "Amazon TR"
+        "date": "Aralık 2025",
+        "price": 14360
+      },
+      {
+        "date": "Ocak 2026",
+        "price": 13960
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 13560
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 13300
       }
     ],
     "colorOptions": [
@@ -4804,7 +5464,7 @@ export const mockSmartwatches: Product[] = [
     "category": "smartwatches",
     "rating": 4.8,
     "reviewCount": 2643,
-    "basePrice": 10449,
+    "basePrice": 10399,
     "currency": "TL",
     "releaseYear": 2022,
     "isPopular": true,
@@ -4870,64 +5530,84 @@ export const mockSmartwatches: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "st-ap-apple-watch-se-2-44mm-gps-starlight",
-        "storeName": "Apple Store",
-        "storeLogoColor": "bg-black",
-        "price": 10999,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Satıcı",
-          "Ücretsiz Kargo"
-        ],
-        "sellerRating": 5,
-        "sellerReviews": 12500,
-        "url": "https://www.apple.com/tr/apple-watch-se/"
-      },
-      {
-        "id": "st-hb-apple-watch-se-2-44mm-gps-starlight",
         "storeName": "Hepsiburada",
-        "price": 10559,
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 10449,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Hızlı Teslimat",
-          "Peşin Fiyatına Taksit"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 4800,
-        "url": "https://www.hepsiburada.com/ara?q=Apple%20Watch%20SE%202.%20Nesil%20(44mm%20Y%C4%B1ld%C4%B1z%20I%C5%9F%C4%B1%C4%9F%C4%B1%20Al%C3%BCminyum%20GPS)"
+        "url": "https://www.hepsiburada.com/ara?q=Apple%20Watch%20SE%202.%20Nesil%20(44mm%20Y%C4%B1ld%C4%B1z%20I%C5%9F%C4%B1%C4%9F%C4%B1%20Al%C3%BCminyum%20GPS)",
+        "rating": 4.8
       },
       {
-        "id": "st-amz-apple-watch-se-2-44mm-gps-starlight",
-        "storeName": "Amazon TR",
-        "price": 10449,
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 10569,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Prime",
-          "Günün Fırsatı"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 6200,
-        "url": "https://www.amazon.com.tr/s?k=Apple%20Watch%20SE%202.%20Nesil%20(44mm%20Y%C4%B1ld%C4%B1z%20I%C5%9F%C4%B1%C4%9F%C4%B1%20Al%C3%BCminyum%20GPS)"
+        "url": "https://www.trendyol.com/sr?q=Apple%20Watch%20SE%202.%20Nesil%20(44mm%20Y%C4%B1ld%C4%B1z%20I%C5%9F%C4%B1%C4%9F%C4%B1%20Al%C3%BCminyum%20GPS)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 10709,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Apple%20Watch%20SE%202.%20Nesil%20(44mm%20Y%C4%B1ld%C4%B1z%20I%C5%9F%C4%B1%C4%9F%C4%B1%20Al%C3%BCminyum%20GPS)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 10819,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Apple%20Watch%20SE%202.%20Nesil%20(44mm%20Y%C4%B1ld%C4%B1z%20I%C5%9F%C4%B1%C4%9F%C4%B1%20Al%C3%BCminyum%20GPS)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 10399,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Apple%20Watch%20SE%202.%20Nesil%20(44mm%20Y%C4%B1ld%C4%B1z%20I%C5%9F%C4%B1%C4%9F%C4%B1%20Al%C3%BCminyum%20GPS)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 10739,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Apple%20Watch%20SE%202.%20Nesil%20(44mm%20Y%C4%B1ld%C4%B1z%20I%C5%9F%C4%B1%C4%9F%C4%B1%20Al%C3%BCminyum%20GPS)",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-06-01",
-        "price": 10999,
-        "store": "Apple Store"
+        "date": "Ekim 2025",
+        "price": 11910
       },
       {
-        "date": "2026-07-01",
-        "price": 10669,
-        "store": "Hepsiburada"
+        "date": "Kasım 2025",
+        "price": 11600
       },
       {
-        "date": "2026-08-01",
-        "price": 10449,
-        "store": "Amazon TR"
+        "date": "Aralık 2025",
+        "price": 11280
+      },
+      {
+        "date": "Ocak 2026",
+        "price": 10970
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 10660
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 10450
       }
     ],
     "colorOptions": [
@@ -4945,7 +5625,7 @@ export const mockSmartwatches: Product[] = [
     "category": "smartwatches",
     "rating": 4.8,
     "reviewCount": 1128,
-    "basePrice": 10449,
+    "basePrice": 10399,
     "currency": "TL",
     "releaseYear": 2022,
     "isPopular": false,
@@ -5011,64 +5691,84 @@ export const mockSmartwatches: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "st-ap-apple-watch-se-2-44mm-gps-silver",
-        "storeName": "Apple Store",
-        "storeLogoColor": "bg-black",
-        "price": 10999,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Satıcı",
-          "Ücretsiz Kargo"
-        ],
-        "sellerRating": 5,
-        "sellerReviews": 12500,
-        "url": "https://www.apple.com/tr/apple-watch-se/"
-      },
-      {
-        "id": "st-hb-apple-watch-se-2-44mm-gps-silver",
         "storeName": "Hepsiburada",
-        "price": 10559,
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 10449,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Hızlı Teslimat",
-          "Peşin Fiyatına Taksit"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 4800,
-        "url": "https://www.hepsiburada.com/ara?q=Apple%20Watch%20SE%202.%20Nesil%20(44mm%20G%C3%BCm%C3%BC%C5%9F%20Al%C3%BCminyum%20GPS)"
+        "url": "https://www.hepsiburada.com/ara?q=Apple%20Watch%20SE%202.%20Nesil%20(44mm%20G%C3%BCm%C3%BC%C5%9F%20Al%C3%BCminyum%20GPS)",
+        "rating": 4.8
       },
       {
-        "id": "st-amz-apple-watch-se-2-44mm-gps-silver",
-        "storeName": "Amazon TR",
-        "price": 10449,
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 10569,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Prime",
-          "Günün Fırsatı"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 6200,
-        "url": "https://www.amazon.com.tr/s?k=Apple%20Watch%20SE%202.%20Nesil%20(44mm%20G%C3%BCm%C3%BC%C5%9F%20Al%C3%BCminyum%20GPS)"
+        "url": "https://www.trendyol.com/sr?q=Apple%20Watch%20SE%202.%20Nesil%20(44mm%20G%C3%BCm%C3%BC%C5%9F%20Al%C3%BCminyum%20GPS)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 10709,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Apple%20Watch%20SE%202.%20Nesil%20(44mm%20G%C3%BCm%C3%BC%C5%9F%20Al%C3%BCminyum%20GPS)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 10819,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Apple%20Watch%20SE%202.%20Nesil%20(44mm%20G%C3%BCm%C3%BC%C5%9F%20Al%C3%BCminyum%20GPS)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 10399,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Apple%20Watch%20SE%202.%20Nesil%20(44mm%20G%C3%BCm%C3%BC%C5%9F%20Al%C3%BCminyum%20GPS)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 10739,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Apple%20Watch%20SE%202.%20Nesil%20(44mm%20G%C3%BCm%C3%BC%C5%9F%20Al%C3%BCminyum%20GPS)",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-06-01",
-        "price": 10999,
-        "store": "Apple Store"
+        "date": "Ekim 2025",
+        "price": 11910
       },
       {
-        "date": "2026-07-01",
-        "price": 10669,
-        "store": "Hepsiburada"
+        "date": "Kasım 2025",
+        "price": 11600
       },
       {
-        "date": "2026-08-01",
-        "price": 10449,
-        "store": "Amazon TR"
+        "date": "Aralık 2025",
+        "price": 11280
+      },
+      {
+        "date": "Ocak 2026",
+        "price": 10970
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 10660
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 10450
       }
     ],
     "colorOptions": [
@@ -5086,7 +5786,7 @@ export const mockSmartwatches: Product[] = [
     "category": "smartwatches",
     "rating": 4.8,
     "reviewCount": 2203,
-    "basePrice": 9499,
+    "basePrice": 9449,
     "currency": "TL",
     "releaseYear": 2022,
     "isPopular": true,
@@ -5152,64 +5852,84 @@ export const mockSmartwatches: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "st-ap-apple-watch-se-2-40mm-gps-midnight",
-        "storeName": "Apple Store",
-        "storeLogoColor": "bg-black",
-        "price": 9999,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Satıcı",
-          "Ücretsiz Kargo"
-        ],
-        "sellerRating": 5,
-        "sellerReviews": 12500,
-        "url": "https://www.apple.com/tr/apple-watch-se/"
-      },
-      {
-        "id": "st-hb-apple-watch-se-2-40mm-gps-midnight",
         "storeName": "Hepsiburada",
-        "price": 9599,
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 9499,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Hızlı Teslimat",
-          "Peşin Fiyatına Taksit"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 4800,
-        "url": "https://www.hepsiburada.com/ara?q=Apple%20Watch%20SE%202.%20Nesil%20(40mm%20Gece%20Yar%C4%B1s%C4%B1%20Al%C3%BCminyum%20GPS)"
+        "url": "https://www.hepsiburada.com/ara?q=Apple%20Watch%20SE%202.%20Nesil%20(40mm%20Gece%20Yar%C4%B1s%C4%B1%20Al%C3%BCminyum%20GPS)",
+        "rating": 4.8
       },
       {
-        "id": "st-amz-apple-watch-se-2-40mm-gps-midnight",
-        "storeName": "Amazon TR",
-        "price": 9499,
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 9609,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Prime",
-          "Günün Fırsatı"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 6200,
-        "url": "https://www.amazon.com.tr/s?k=Apple%20Watch%20SE%202.%20Nesil%20(40mm%20Gece%20Yar%C4%B1s%C4%B1%20Al%C3%BCminyum%20GPS)"
+        "url": "https://www.trendyol.com/sr?q=Apple%20Watch%20SE%202.%20Nesil%20(40mm%20Gece%20Yar%C4%B1s%C4%B1%20Al%C3%BCminyum%20GPS)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 9739,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Apple%20Watch%20SE%202.%20Nesil%20(40mm%20Gece%20Yar%C4%B1s%C4%B1%20Al%C3%BCminyum%20GPS)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 9829,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Apple%20Watch%20SE%202.%20Nesil%20(40mm%20Gece%20Yar%C4%B1s%C4%B1%20Al%C3%BCminyum%20GPS)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 9449,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Apple%20Watch%20SE%202.%20Nesil%20(40mm%20Gece%20Yar%C4%B1s%C4%B1%20Al%C3%BCminyum%20GPS)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 9769,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Apple%20Watch%20SE%202.%20Nesil%20(40mm%20Gece%20Yar%C4%B1s%C4%B1%20Al%C3%BCminyum%20GPS)",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-06-01",
-        "price": 9999,
-        "store": "Apple Store"
+        "date": "Ekim 2025",
+        "price": 10830
       },
       {
-        "date": "2026-07-01",
-        "price": 9699,
-        "store": "Hepsiburada"
+        "date": "Kasım 2025",
+        "price": 10540
       },
       {
-        "date": "2026-08-01",
-        "price": 9499,
-        "store": "Amazon TR"
+        "date": "Aralık 2025",
+        "price": 10260
+      },
+      {
+        "date": "Ocak 2026",
+        "price": 9970
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 9690
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 9500
       }
     ],
     "colorOptions": [
@@ -5227,7 +5947,7 @@ export const mockSmartwatches: Product[] = [
     "category": "smartwatches",
     "rating": 4.8,
     "reviewCount": 1966,
-    "basePrice": 9499,
+    "basePrice": 9449,
     "currency": "TL",
     "releaseYear": 2022,
     "isPopular": false,
@@ -5293,64 +6013,84 @@ export const mockSmartwatches: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "st-ap-apple-watch-se-2-40mm-gps-starlight",
-        "storeName": "Apple Store",
-        "storeLogoColor": "bg-black",
-        "price": 9999,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Satıcı",
-          "Ücretsiz Kargo"
-        ],
-        "sellerRating": 5,
-        "sellerReviews": 12500,
-        "url": "https://www.apple.com/tr/apple-watch-se/"
-      },
-      {
-        "id": "st-hb-apple-watch-se-2-40mm-gps-starlight",
         "storeName": "Hepsiburada",
-        "price": 9599,
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 9499,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Hızlı Teslimat",
-          "Peşin Fiyatına Taksit"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 4800,
-        "url": "https://www.hepsiburada.com/ara?q=Apple%20Watch%20SE%202.%20Nesil%20(40mm%20Y%C4%B1ld%C4%B1z%20I%C5%9F%C4%B1%C4%9F%C4%B1%20Al%C3%BCminyum%20GPS)"
+        "url": "https://www.hepsiburada.com/ara?q=Apple%20Watch%20SE%202.%20Nesil%20(40mm%20Y%C4%B1ld%C4%B1z%20I%C5%9F%C4%B1%C4%9F%C4%B1%20Al%C3%BCminyum%20GPS)",
+        "rating": 4.8
       },
       {
-        "id": "st-amz-apple-watch-se-2-40mm-gps-starlight",
-        "storeName": "Amazon TR",
-        "price": 9499,
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 9609,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Prime",
-          "Günün Fırsatı"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 6200,
-        "url": "https://www.amazon.com.tr/s?k=Apple%20Watch%20SE%202.%20Nesil%20(40mm%20Y%C4%B1ld%C4%B1z%20I%C5%9F%C4%B1%C4%9F%C4%B1%20Al%C3%BCminyum%20GPS)"
+        "url": "https://www.trendyol.com/sr?q=Apple%20Watch%20SE%202.%20Nesil%20(40mm%20Y%C4%B1ld%C4%B1z%20I%C5%9F%C4%B1%C4%9F%C4%B1%20Al%C3%BCminyum%20GPS)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 9739,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Apple%20Watch%20SE%202.%20Nesil%20(40mm%20Y%C4%B1ld%C4%B1z%20I%C5%9F%C4%B1%C4%9F%C4%B1%20Al%C3%BCminyum%20GPS)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 9829,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Apple%20Watch%20SE%202.%20Nesil%20(40mm%20Y%C4%B1ld%C4%B1z%20I%C5%9F%C4%B1%C4%9F%C4%B1%20Al%C3%BCminyum%20GPS)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 9449,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Apple%20Watch%20SE%202.%20Nesil%20(40mm%20Y%C4%B1ld%C4%B1z%20I%C5%9F%C4%B1%C4%9F%C4%B1%20Al%C3%BCminyum%20GPS)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 9769,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Apple%20Watch%20SE%202.%20Nesil%20(40mm%20Y%C4%B1ld%C4%B1z%20I%C5%9F%C4%B1%C4%9F%C4%B1%20Al%C3%BCminyum%20GPS)",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-06-01",
-        "price": 9999,
-        "store": "Apple Store"
+        "date": "Ekim 2025",
+        "price": 10830
       },
       {
-        "date": "2026-07-01",
-        "price": 9699,
-        "store": "Hepsiburada"
+        "date": "Kasım 2025",
+        "price": 10540
       },
       {
-        "date": "2026-08-01",
-        "price": 9499,
-        "store": "Amazon TR"
+        "date": "Aralık 2025",
+        "price": 10260
+      },
+      {
+        "date": "Ocak 2026",
+        "price": 9970
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 9690
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 9500
       }
     ],
     "colorOptions": [
@@ -5368,7 +6108,7 @@ export const mockSmartwatches: Product[] = [
     "category": "smartwatches",
     "rating": 4.8,
     "reviewCount": 4216,
-    "basePrice": 12349,
+    "basePrice": 12289,
     "currency": "TL",
     "releaseYear": 2022,
     "isPopular": false,
@@ -5435,64 +6175,84 @@ export const mockSmartwatches: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "st-ap-apple-watch-se-2-40mm-cell-starlight",
-        "storeName": "Apple Store",
-        "storeLogoColor": "bg-black",
-        "price": 12999,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Satıcı",
-          "Ücretsiz Kargo"
-        ],
-        "sellerRating": 5,
-        "sellerReviews": 12500,
-        "url": "https://www.apple.com/tr/apple-watch-se/"
-      },
-      {
-        "id": "st-hb-apple-watch-se-2-40mm-cell-starlight",
         "storeName": "Hepsiburada",
-        "price": 12479,
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 12349,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Hızlı Teslimat",
-          "Peşin Fiyatına Taksit"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 4800,
-        "url": "https://www.hepsiburada.com/ara?q=Apple%20Watch%20SE%202.%20Nesil%20(40mm%20Y%C4%B1ld%C4%B1z%20I%C5%9F%C4%B1%C4%9F%C4%B1%20Al%C3%BCminyum%20GPS%20%2B%20Cellular)"
+        "url": "https://www.hepsiburada.com/ara?q=Apple%20Watch%20SE%202.%20Nesil%20(40mm%20Y%C4%B1ld%C4%B1z%20I%C5%9F%C4%B1%C4%9F%C4%B1%20Al%C3%BCminyum%20GPS%20%2B%20Cellular)",
+        "rating": 4.8
       },
       {
-        "id": "st-amz-apple-watch-se-2-40mm-cell-starlight",
-        "storeName": "Amazon TR",
-        "price": 12349,
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 12499,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Prime",
-          "Günün Fırsatı"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 6200,
-        "url": "https://www.amazon.com.tr/s?k=Apple%20Watch%20SE%202.%20Nesil%20(40mm%20Y%C4%B1ld%C4%B1z%20I%C5%9F%C4%B1%C4%9F%C4%B1%20Al%C3%BCminyum%20GPS%20%2B%20Cellular)"
+        "url": "https://www.trendyol.com/sr?q=Apple%20Watch%20SE%202.%20Nesil%20(40mm%20Y%C4%B1ld%C4%B1z%20I%C5%9F%C4%B1%C4%9F%C4%B1%20Al%C3%BCminyum%20GPS%20%2B%20Cellular)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 12659,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Apple%20Watch%20SE%202.%20Nesil%20(40mm%20Y%C4%B1ld%C4%B1z%20I%C5%9F%C4%B1%C4%9F%C4%B1%20Al%C3%BCminyum%20GPS%20%2B%20Cellular)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 12779,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Apple%20Watch%20SE%202.%20Nesil%20(40mm%20Y%C4%B1ld%C4%B1z%20I%C5%9F%C4%B1%C4%9F%C4%B1%20Al%C3%BCminyum%20GPS%20%2B%20Cellular)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 12289,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Apple%20Watch%20SE%202.%20Nesil%20(40mm%20Y%C4%B1ld%C4%B1z%20I%C5%9F%C4%B1%C4%9F%C4%B1%20Al%C3%BCminyum%20GPS%20%2B%20Cellular)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 12699,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Apple%20Watch%20SE%202.%20Nesil%20(40mm%20Y%C4%B1ld%C4%B1z%20I%C5%9F%C4%B1%C4%9F%C4%B1%20Al%C3%BCminyum%20GPS%20%2B%20Cellular)",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-06-01",
-        "price": 12999,
-        "store": "Apple Store"
+        "date": "Ekim 2025",
+        "price": 14080
       },
       {
-        "date": "2026-07-01",
-        "price": 12609,
-        "store": "Hepsiburada"
+        "date": "Kasım 2025",
+        "price": 13710
       },
       {
-        "date": "2026-08-01",
-        "price": 12349,
-        "store": "Amazon TR"
+        "date": "Aralık 2025",
+        "price": 13340
+      },
+      {
+        "date": "Ocak 2026",
+        "price": 12970
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 12600
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 12350
       }
     ],
     "colorOptions": [
@@ -5510,7 +6270,7 @@ export const mockSmartwatches: Product[] = [
     "category": "smartwatches",
     "rating": 4.8,
     "reviewCount": 2769,
-    "basePrice": 11399,
+    "basePrice": 11339,
     "currency": "TL",
     "releaseYear": 2021,
     "isPopular": true,
@@ -5578,64 +6338,84 @@ export const mockSmartwatches: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "st-ap-apple-watch-s7-45mm-alu-gps-midnight",
-        "storeName": "Apple Store",
-        "storeLogoColor": "bg-black",
-        "price": 11999,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Satıcı",
-          "Ücretsiz Kargo"
-        ],
-        "sellerRating": 5,
-        "sellerReviews": 12500,
-        "url": "https://www.apple.com/tr/apple-watch-series-9/"
-      },
-      {
-        "id": "st-hb-apple-watch-s7-45mm-alu-gps-midnight",
         "storeName": "Hepsiburada",
-        "price": 11519,
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 11399,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Hızlı Teslimat",
-          "Peşin Fiyatına Taksit"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 4800,
-        "url": "https://www.hepsiburada.com/ara?q=Apple%20Watch%20Series%207%20(45mm%20Gece%20Yar%C4%B1s%C4%B1%20Al%C3%BCminyum%20GPS)"
+        "url": "https://www.hepsiburada.com/ara?q=Apple%20Watch%20Series%207%20(45mm%20Gece%20Yar%C4%B1s%C4%B1%20Al%C3%BCminyum%20GPS)",
+        "rating": 4.8
       },
       {
-        "id": "st-amz-apple-watch-s7-45mm-alu-gps-midnight",
-        "storeName": "Amazon TR",
-        "price": 11399,
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 11539,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Prime",
-          "Günün Fırsatı"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 6200,
-        "url": "https://www.amazon.com.tr/s?k=Apple%20Watch%20Series%207%20(45mm%20Gece%20Yar%C4%B1s%C4%B1%20Al%C3%BCminyum%20GPS)"
+        "url": "https://www.trendyol.com/sr?q=Apple%20Watch%20Series%207%20(45mm%20Gece%20Yar%C4%B1s%C4%B1%20Al%C3%BCminyum%20GPS)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 11679,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Apple%20Watch%20Series%207%20(45mm%20Gece%20Yar%C4%B1s%C4%B1%20Al%C3%BCminyum%20GPS)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 11799,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Apple%20Watch%20Series%207%20(45mm%20Gece%20Yar%C4%B1s%C4%B1%20Al%C3%BCminyum%20GPS)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 11339,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Apple%20Watch%20Series%207%20(45mm%20Gece%20Yar%C4%B1s%C4%B1%20Al%C3%BCminyum%20GPS)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 11719,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Apple%20Watch%20Series%207%20(45mm%20Gece%20Yar%C4%B1s%C4%B1%20Al%C3%BCminyum%20GPS)",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-06-01",
-        "price": 11999,
-        "store": "Apple Store"
+        "date": "Ekim 2025",
+        "price": 12990
       },
       {
-        "date": "2026-07-01",
-        "price": 11639,
-        "store": "Hepsiburada"
+        "date": "Kasım 2025",
+        "price": 12650
       },
       {
-        "date": "2026-08-01",
-        "price": 11399,
-        "store": "Amazon TR"
+        "date": "Aralık 2025",
+        "price": 12310
+      },
+      {
+        "date": "Ocak 2026",
+        "price": 11970
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 11630
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 11400
       }
     ],
     "colorOptions": [
@@ -5653,7 +6433,7 @@ export const mockSmartwatches: Product[] = [
     "category": "smartwatches",
     "rating": 4.8,
     "reviewCount": 4938,
-    "basePrice": 11399,
+    "basePrice": 11339,
     "currency": "TL",
     "releaseYear": 2021,
     "isPopular": false,
@@ -5721,64 +6501,84 @@ export const mockSmartwatches: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "st-ap-apple-watch-s7-45mm-alu-gps-green",
-        "storeName": "Apple Store",
-        "storeLogoColor": "bg-black",
-        "price": 11999,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Satıcı",
-          "Ücretsiz Kargo"
-        ],
-        "sellerRating": 5,
-        "sellerReviews": 12500,
-        "url": "https://www.apple.com/tr/apple-watch-series-9/"
-      },
-      {
-        "id": "st-hb-apple-watch-s7-45mm-alu-gps-green",
         "storeName": "Hepsiburada",
-        "price": 11519,
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 11399,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Hızlı Teslimat",
-          "Peşin Fiyatına Taksit"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 4800,
-        "url": "https://www.hepsiburada.com/ara?q=Apple%20Watch%20Series%207%20(45mm%20Ye%C5%9Fil%20Al%C3%BCminyum%20GPS)"
+        "url": "https://www.hepsiburada.com/ara?q=Apple%20Watch%20Series%207%20(45mm%20Ye%C5%9Fil%20Al%C3%BCminyum%20GPS)",
+        "rating": 4.8
       },
       {
-        "id": "st-amz-apple-watch-s7-45mm-alu-gps-green",
-        "storeName": "Amazon TR",
-        "price": 11399,
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 11539,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Prime",
-          "Günün Fırsatı"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 6200,
-        "url": "https://www.amazon.com.tr/s?k=Apple%20Watch%20Series%207%20(45mm%20Ye%C5%9Fil%20Al%C3%BCminyum%20GPS)"
+        "url": "https://www.trendyol.com/sr?q=Apple%20Watch%20Series%207%20(45mm%20Ye%C5%9Fil%20Al%C3%BCminyum%20GPS)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 11679,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Apple%20Watch%20Series%207%20(45mm%20Ye%C5%9Fil%20Al%C3%BCminyum%20GPS)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 11799,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Apple%20Watch%20Series%207%20(45mm%20Ye%C5%9Fil%20Al%C3%BCminyum%20GPS)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 11339,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Apple%20Watch%20Series%207%20(45mm%20Ye%C5%9Fil%20Al%C3%BCminyum%20GPS)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 11719,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Apple%20Watch%20Series%207%20(45mm%20Ye%C5%9Fil%20Al%C3%BCminyum%20GPS)",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-06-01",
-        "price": 11999,
-        "store": "Apple Store"
+        "date": "Ekim 2025",
+        "price": 12990
       },
       {
-        "date": "2026-07-01",
-        "price": 11639,
-        "store": "Hepsiburada"
+        "date": "Kasım 2025",
+        "price": 12650
       },
       {
-        "date": "2026-08-01",
-        "price": 11399,
-        "store": "Amazon TR"
+        "date": "Aralık 2025",
+        "price": 12310
+      },
+      {
+        "date": "Ocak 2026",
+        "price": 11970
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 11630
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 11400
       }
     ],
     "colorOptions": [
@@ -5796,7 +6596,7 @@ export const mockSmartwatches: Product[] = [
     "category": "smartwatches",
     "rating": 4.8,
     "reviewCount": 3752,
-    "basePrice": 11399,
+    "basePrice": 11339,
     "currency": "TL",
     "releaseYear": 2021,
     "isPopular": false,
@@ -5864,64 +6664,84 @@ export const mockSmartwatches: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "st-ap-apple-watch-s7-45mm-alu-gps-blue",
-        "storeName": "Apple Store",
-        "storeLogoColor": "bg-black",
-        "price": 11999,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Satıcı",
-          "Ücretsiz Kargo"
-        ],
-        "sellerRating": 5,
-        "sellerReviews": 12500,
-        "url": "https://www.apple.com/tr/apple-watch-series-9/"
-      },
-      {
-        "id": "st-hb-apple-watch-s7-45mm-alu-gps-blue",
         "storeName": "Hepsiburada",
-        "price": 11519,
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 11399,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Hızlı Teslimat",
-          "Peşin Fiyatına Taksit"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 4800,
-        "url": "https://www.hepsiburada.com/ara?q=Apple%20Watch%20Series%207%20(45mm%20Mavi%20Al%C3%BCminyum%20GPS)"
+        "url": "https://www.hepsiburada.com/ara?q=Apple%20Watch%20Series%207%20(45mm%20Mavi%20Al%C3%BCminyum%20GPS)",
+        "rating": 4.8
       },
       {
-        "id": "st-amz-apple-watch-s7-45mm-alu-gps-blue",
-        "storeName": "Amazon TR",
-        "price": 11399,
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 11539,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Prime",
-          "Günün Fırsatı"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 6200,
-        "url": "https://www.amazon.com.tr/s?k=Apple%20Watch%20Series%207%20(45mm%20Mavi%20Al%C3%BCminyum%20GPS)"
+        "url": "https://www.trendyol.com/sr?q=Apple%20Watch%20Series%207%20(45mm%20Mavi%20Al%C3%BCminyum%20GPS)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 11679,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Apple%20Watch%20Series%207%20(45mm%20Mavi%20Al%C3%BCminyum%20GPS)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 11799,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Apple%20Watch%20Series%207%20(45mm%20Mavi%20Al%C3%BCminyum%20GPS)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 11339,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Apple%20Watch%20Series%207%20(45mm%20Mavi%20Al%C3%BCminyum%20GPS)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 11719,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Apple%20Watch%20Series%207%20(45mm%20Mavi%20Al%C3%BCminyum%20GPS)",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-06-01",
-        "price": 11999,
-        "store": "Apple Store"
+        "date": "Ekim 2025",
+        "price": 12990
       },
       {
-        "date": "2026-07-01",
-        "price": 11639,
-        "store": "Hepsiburada"
+        "date": "Kasım 2025",
+        "price": 12650
       },
       {
-        "date": "2026-08-01",
-        "price": 11399,
-        "store": "Amazon TR"
+        "date": "Aralık 2025",
+        "price": 12310
+      },
+      {
+        "date": "Ocak 2026",
+        "price": 11970
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 11630
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 11400
       }
     ],
     "colorOptions": [
@@ -5939,7 +6759,7 @@ export const mockSmartwatches: Product[] = [
     "category": "smartwatches",
     "rating": 4.8,
     "reviewCount": 3939,
-    "basePrice": 10449,
+    "basePrice": 10399,
     "currency": "TL",
     "releaseYear": 2021,
     "isPopular": false,
@@ -6007,64 +6827,84 @@ export const mockSmartwatches: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "st-ap-apple-watch-s7-41mm-alu-gps-starlight",
-        "storeName": "Apple Store",
-        "storeLogoColor": "bg-black",
-        "price": 10999,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Satıcı",
-          "Ücretsiz Kargo"
-        ],
-        "sellerRating": 5,
-        "sellerReviews": 12500,
-        "url": "https://www.apple.com/tr/apple-watch-series-9/"
-      },
-      {
-        "id": "st-hb-apple-watch-s7-41mm-alu-gps-starlight",
         "storeName": "Hepsiburada",
-        "price": 10559,
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 10449,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Hızlı Teslimat",
-          "Peşin Fiyatına Taksit"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 4800,
-        "url": "https://www.hepsiburada.com/ara?q=Apple%20Watch%20Series%207%20(41mm%20Y%C4%B1ld%C4%B1z%20I%C5%9F%C4%B1%C4%9F%C4%B1%20Al%C3%BCminyum%20GPS)"
+        "url": "https://www.hepsiburada.com/ara?q=Apple%20Watch%20Series%207%20(41mm%20Y%C4%B1ld%C4%B1z%20I%C5%9F%C4%B1%C4%9F%C4%B1%20Al%C3%BCminyum%20GPS)",
+        "rating": 4.8
       },
       {
-        "id": "st-amz-apple-watch-s7-41mm-alu-gps-starlight",
-        "storeName": "Amazon TR",
-        "price": 10449,
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 10569,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Prime",
-          "Günün Fırsatı"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 6200,
-        "url": "https://www.amazon.com.tr/s?k=Apple%20Watch%20Series%207%20(41mm%20Y%C4%B1ld%C4%B1z%20I%C5%9F%C4%B1%C4%9F%C4%B1%20Al%C3%BCminyum%20GPS)"
+        "url": "https://www.trendyol.com/sr?q=Apple%20Watch%20Series%207%20(41mm%20Y%C4%B1ld%C4%B1z%20I%C5%9F%C4%B1%C4%9F%C4%B1%20Al%C3%BCminyum%20GPS)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 10709,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Apple%20Watch%20Series%207%20(41mm%20Y%C4%B1ld%C4%B1z%20I%C5%9F%C4%B1%C4%9F%C4%B1%20Al%C3%BCminyum%20GPS)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 10819,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Apple%20Watch%20Series%207%20(41mm%20Y%C4%B1ld%C4%B1z%20I%C5%9F%C4%B1%C4%9F%C4%B1%20Al%C3%BCminyum%20GPS)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 10399,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Apple%20Watch%20Series%207%20(41mm%20Y%C4%B1ld%C4%B1z%20I%C5%9F%C4%B1%C4%9F%C4%B1%20Al%C3%BCminyum%20GPS)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 10739,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Apple%20Watch%20Series%207%20(41mm%20Y%C4%B1ld%C4%B1z%20I%C5%9F%C4%B1%C4%9F%C4%B1%20Al%C3%BCminyum%20GPS)",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-06-01",
-        "price": 10999,
-        "store": "Apple Store"
+        "date": "Ekim 2025",
+        "price": 11910
       },
       {
-        "date": "2026-07-01",
-        "price": 10669,
-        "store": "Hepsiburada"
+        "date": "Kasım 2025",
+        "price": 11600
       },
       {
-        "date": "2026-08-01",
-        "price": 10449,
-        "store": "Amazon TR"
+        "date": "Aralık 2025",
+        "price": 11280
+      },
+      {
+        "date": "Ocak 2026",
+        "price": 10970
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 10660
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 10450
       }
     ],
     "colorOptions": [
@@ -6082,7 +6922,7 @@ export const mockSmartwatches: Product[] = [
     "category": "smartwatches",
     "rating": 4.8,
     "reviewCount": 4289,
-    "basePrice": 13299,
+    "basePrice": 13229,
     "currency": "TL",
     "releaseYear": 2021,
     "isPopular": true,
@@ -6150,64 +6990,84 @@ export const mockSmartwatches: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "st-ap-apple-watch-nike-s7-45mm-anthracite-sport",
-        "storeName": "Apple Store",
-        "storeLogoColor": "bg-black",
-        "price": 13999,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Satıcı",
-          "Ücretsiz Kargo"
-        ],
-        "sellerRating": 5,
-        "sellerReviews": 12500,
-        "url": "https://www.apple.com/tr/apple-watch-series-9/"
-      },
-      {
-        "id": "st-hb-apple-watch-nike-s7-45mm-anthracite-sport",
         "storeName": "Hepsiburada",
-        "price": 13439,
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 13299,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Hızlı Teslimat",
-          "Peşin Fiyatına Taksit"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 4800,
-        "url": "https://www.hepsiburada.com/ara?q=Apple%20Watch%20Nike%20Series%207%20(45mm%20Al%C3%BCminyum%20GPS%20-%20Antrasit%20Nike%20Kordon)"
+        "url": "https://www.hepsiburada.com/ara?q=Apple%20Watch%20Nike%20Series%207%20(45mm%20Al%C3%BCminyum%20GPS%20-%20Antrasit%20Nike%20Kordon)",
+        "rating": 4.8
       },
       {
-        "id": "st-amz-apple-watch-nike-s7-45mm-anthracite-sport",
-        "storeName": "Amazon TR",
-        "price": 13299,
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 13459,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Prime",
-          "Günün Fırsatı"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 6200,
-        "url": "https://www.amazon.com.tr/s?k=Apple%20Watch%20Nike%20Series%207%20(45mm%20Al%C3%BCminyum%20GPS%20-%20Antrasit%20Nike%20Kordon)"
+        "url": "https://www.trendyol.com/sr?q=Apple%20Watch%20Nike%20Series%207%20(45mm%20Al%C3%BCminyum%20GPS%20-%20Antrasit%20Nike%20Kordon)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 13629,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Apple%20Watch%20Nike%20Series%207%20(45mm%20Al%C3%BCminyum%20GPS%20-%20Antrasit%20Nike%20Kordon)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 13759,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Apple%20Watch%20Nike%20Series%207%20(45mm%20Al%C3%BCminyum%20GPS%20-%20Antrasit%20Nike%20Kordon)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 13229,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Apple%20Watch%20Nike%20Series%207%20(45mm%20Al%C3%BCminyum%20GPS%20-%20Antrasit%20Nike%20Kordon)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 13669,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Apple%20Watch%20Nike%20Series%207%20(45mm%20Al%C3%BCminyum%20GPS%20-%20Antrasit%20Nike%20Kordon)",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-06-01",
-        "price": 13999,
-        "store": "Apple Store"
+        "date": "Ekim 2025",
+        "price": 15160
       },
       {
-        "date": "2026-07-01",
-        "price": 13579,
-        "store": "Hepsiburada"
+        "date": "Kasım 2025",
+        "price": 14760
       },
       {
-        "date": "2026-08-01",
-        "price": 13299,
-        "store": "Amazon TR"
+        "date": "Aralık 2025",
+        "price": 14360
+      },
+      {
+        "date": "Ocak 2026",
+        "price": 13960
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 13560
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 13300
       }
     ],
     "colorOptions": [
@@ -6225,7 +7085,7 @@ export const mockSmartwatches: Product[] = [
     "category": "smartwatches",
     "rating": 4.8,
     "reviewCount": 3251,
-    "basePrice": 12349,
+    "basePrice": 12289,
     "currency": "TL",
     "releaseYear": 2021,
     "isPopular": false,
@@ -6293,64 +7153,84 @@ export const mockSmartwatches: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "st-ap-apple-watch-nike-s7-41mm-platinum-loop",
-        "storeName": "Apple Store",
-        "storeLogoColor": "bg-black",
-        "price": 12999,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Satıcı",
-          "Ücretsiz Kargo"
-        ],
-        "sellerRating": 5,
-        "sellerReviews": 12500,
-        "url": "https://www.apple.com/tr/apple-watch-series-9/"
-      },
-      {
-        "id": "st-hb-apple-watch-nike-s7-41mm-platinum-loop",
         "storeName": "Hepsiburada",
-        "price": 12479,
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 12349,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Hızlı Teslimat",
-          "Peşin Fiyatına Taksit"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 4800,
-        "url": "https://www.hepsiburada.com/ara?q=Apple%20Watch%20Nike%20Series%207%20(41mm%20Al%C3%BCminyum%20GPS%20-%20Platin%20Nike%20Loop)"
+        "url": "https://www.hepsiburada.com/ara?q=Apple%20Watch%20Nike%20Series%207%20(41mm%20Al%C3%BCminyum%20GPS%20-%20Platin%20Nike%20Loop)",
+        "rating": 4.8
       },
       {
-        "id": "st-amz-apple-watch-nike-s7-41mm-platinum-loop",
-        "storeName": "Amazon TR",
-        "price": 12349,
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 12499,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Prime",
-          "Günün Fırsatı"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 6200,
-        "url": "https://www.amazon.com.tr/s?k=Apple%20Watch%20Nike%20Series%207%20(41mm%20Al%C3%BCminyum%20GPS%20-%20Platin%20Nike%20Loop)"
+        "url": "https://www.trendyol.com/sr?q=Apple%20Watch%20Nike%20Series%207%20(41mm%20Al%C3%BCminyum%20GPS%20-%20Platin%20Nike%20Loop)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 12659,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Apple%20Watch%20Nike%20Series%207%20(41mm%20Al%C3%BCminyum%20GPS%20-%20Platin%20Nike%20Loop)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 12779,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Apple%20Watch%20Nike%20Series%207%20(41mm%20Al%C3%BCminyum%20GPS%20-%20Platin%20Nike%20Loop)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 12289,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Apple%20Watch%20Nike%20Series%207%20(41mm%20Al%C3%BCminyum%20GPS%20-%20Platin%20Nike%20Loop)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 12699,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Apple%20Watch%20Nike%20Series%207%20(41mm%20Al%C3%BCminyum%20GPS%20-%20Platin%20Nike%20Loop)",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-06-01",
-        "price": 12999,
-        "store": "Apple Store"
+        "date": "Ekim 2025",
+        "price": 14080
       },
       {
-        "date": "2026-07-01",
-        "price": 12609,
-        "store": "Hepsiburada"
+        "date": "Kasım 2025",
+        "price": 13710
       },
       {
-        "date": "2026-08-01",
-        "price": 12349,
-        "store": "Amazon TR"
+        "date": "Aralık 2025",
+        "price": 13340
+      },
+      {
+        "date": "Ocak 2026",
+        "price": 12970
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 12600
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 12350
       }
     ],
     "colorOptions": [
@@ -6368,7 +7248,7 @@ export const mockSmartwatches: Product[] = [
     "category": "smartwatches",
     "rating": 4.9,
     "reviewCount": 2477,
-    "basePrice": 75999,
+    "basePrice": 75619,
     "currency": "TL",
     "releaseYear": 2024,
     "isPopular": true,
@@ -6441,64 +7321,84 @@ export const mockSmartwatches: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "st-ap-apple-watch-hermes-s10-46mm-grand-h",
-        "storeName": "Apple Store",
-        "storeLogoColor": "bg-black",
-        "price": 79999,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Satıcı",
-          "Ücretsiz Kargo"
-        ],
-        "sellerRating": 5,
-        "sellerReviews": 12500,
-        "url": "https://www.apple.com/tr/apple-watch-series-10/"
-      },
-      {
-        "id": "st-hb-apple-watch-hermes-s10-46mm-grand-h",
         "storeName": "Hepsiburada",
-        "price": 76799,
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 75999,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Hızlı Teslimat",
-          "Peşin Fiyatına Taksit"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 4800,
-        "url": "https://www.hepsiburada.com/ara?q=Apple%20Watch%20Herm%C3%A8s%20Series%2010%20(46mm%20Titanyum%20Cellular%20-%20Grand%20H%20%C3%87elik%20Kordon)"
+        "url": "https://www.hepsiburada.com/ara?q=Apple%20Watch%20Herm%C3%A8s%20Series%2010%20(46mm%20Titanyum%20Cellular%20-%20Grand%20H%20%C3%87elik%20Kordon)",
+        "rating": 4.8
       },
       {
-        "id": "st-amz-apple-watch-hermes-s10-46mm-grand-h",
-        "storeName": "Amazon TR",
-        "price": 75999,
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 76909,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Prime",
-          "Günün Fırsatı"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 6200,
-        "url": "https://www.amazon.com.tr/s?k=Apple%20Watch%20Herm%C3%A8s%20Series%2010%20(46mm%20Titanyum%20Cellular%20-%20Grand%20H%20%C3%87elik%20Kordon)"
+        "url": "https://www.trendyol.com/sr?q=Apple%20Watch%20Herm%C3%A8s%20Series%2010%20(46mm%20Titanyum%20Cellular%20-%20Grand%20H%20%C3%87elik%20Kordon)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 77899,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Apple%20Watch%20Herm%C3%A8s%20Series%2010%20(46mm%20Titanyum%20Cellular%20-%20Grand%20H%20%C3%87elik%20Kordon)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 78659,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Apple%20Watch%20Herm%C3%A8s%20Series%2010%20(46mm%20Titanyum%20Cellular%20-%20Grand%20H%20%C3%87elik%20Kordon)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 75619,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Apple%20Watch%20Herm%C3%A8s%20Series%2010%20(46mm%20Titanyum%20Cellular%20-%20Grand%20H%20%C3%87elik%20Kordon)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 78129,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Apple%20Watch%20Herm%C3%A8s%20Series%2010%20(46mm%20Titanyum%20Cellular%20-%20Grand%20H%20%C3%87elik%20Kordon)",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-06-01",
-        "price": 79999,
-        "store": "Apple Store"
+        "date": "Ekim 2025",
+        "price": 86640
       },
       {
-        "date": "2026-07-01",
-        "price": 77599,
-        "store": "Hepsiburada"
+        "date": "Kasım 2025",
+        "price": 84360
       },
       {
-        "date": "2026-08-01",
-        "price": 75999,
-        "store": "Amazon TR"
+        "date": "Aralık 2025",
+        "price": 82080
+      },
+      {
+        "date": "Ocak 2026",
+        "price": 79800
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 77520
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 76000
       }
     ],
     "colorOptions": [
@@ -6516,7 +7416,7 @@ export const mockSmartwatches: Product[] = [
     "category": "smartwatches",
     "rating": 4.9,
     "reviewCount": 3628,
-    "basePrice": 66499,
+    "basePrice": 66169,
     "currency": "TL",
     "releaseYear": 2024,
     "isPopular": false,
@@ -6589,64 +7489,84 @@ export const mockSmartwatches: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "st-ap-apple-watch-hermes-s10-46mm-kilim-single-tour",
-        "storeName": "Apple Store",
-        "storeLogoColor": "bg-black",
-        "price": 69999,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Satıcı",
-          "Ücretsiz Kargo"
-        ],
-        "sellerRating": 5,
-        "sellerReviews": 12500,
-        "url": "https://www.apple.com/tr/apple-watch-series-10/"
-      },
-      {
-        "id": "st-hb-apple-watch-hermes-s10-46mm-kilim-single-tour",
         "storeName": "Hepsiburada",
-        "price": 67199,
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 66499,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Hızlı Teslimat",
-          "Peşin Fiyatına Taksit"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 4800,
-        "url": "https://www.hepsiburada.com/ara?q=Apple%20Watch%20Herm%C3%A8s%20Series%2010%20(46mm%20Titanyum%20Cellular%20-%20Kilim%20Turuncu%20Tek%20Tur)"
+        "url": "https://www.hepsiburada.com/ara?q=Apple%20Watch%20Herm%C3%A8s%20Series%2010%20(46mm%20Titanyum%20Cellular%20-%20Kilim%20Turuncu%20Tek%20Tur)",
+        "rating": 4.8
       },
       {
-        "id": "st-amz-apple-watch-hermes-s10-46mm-kilim-single-tour",
-        "storeName": "Amazon TR",
-        "price": 66499,
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 67299,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Prime",
-          "Günün Fırsatı"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 6200,
-        "url": "https://www.amazon.com.tr/s?k=Apple%20Watch%20Herm%C3%A8s%20Series%2010%20(46mm%20Titanyum%20Cellular%20-%20Kilim%20Turuncu%20Tek%20Tur)"
+        "url": "https://www.trendyol.com/sr?q=Apple%20Watch%20Herm%C3%A8s%20Series%2010%20(46mm%20Titanyum%20Cellular%20-%20Kilim%20Turuncu%20Tek%20Tur)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 68159,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Apple%20Watch%20Herm%C3%A8s%20Series%2010%20(46mm%20Titanyum%20Cellular%20-%20Kilim%20Turuncu%20Tek%20Tur)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 68829,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Apple%20Watch%20Herm%C3%A8s%20Series%2010%20(46mm%20Titanyum%20Cellular%20-%20Kilim%20Turuncu%20Tek%20Tur)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 66169,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Apple%20Watch%20Herm%C3%A8s%20Series%2010%20(46mm%20Titanyum%20Cellular%20-%20Kilim%20Turuncu%20Tek%20Tur)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 68359,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Apple%20Watch%20Herm%C3%A8s%20Series%2010%20(46mm%20Titanyum%20Cellular%20-%20Kilim%20Turuncu%20Tek%20Tur)",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-06-01",
-        "price": 69999,
-        "store": "Apple Store"
+        "date": "Ekim 2025",
+        "price": 75810
       },
       {
-        "date": "2026-07-01",
-        "price": 67899,
-        "store": "Hepsiburada"
+        "date": "Kasım 2025",
+        "price": 73810
       },
       {
-        "date": "2026-08-01",
-        "price": 66499,
-        "store": "Amazon TR"
+        "date": "Aralık 2025",
+        "price": 71820
+      },
+      {
+        "date": "Ocak 2026",
+        "price": 69820
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 67830
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 66500
       }
     ],
     "colorOptions": [
@@ -6664,7 +7584,7 @@ export const mockSmartwatches: Product[] = [
     "category": "smartwatches",
     "rating": 4.9,
     "reviewCount": 1943,
-    "basePrice": 61749,
+    "basePrice": 61439,
     "currency": "TL",
     "releaseYear": 2024,
     "isPopular": false,
@@ -6737,64 +7657,84 @@ export const mockSmartwatches: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "st-ap-apple-watch-hermes-s10-42mm-twill-jump",
-        "storeName": "Apple Store",
-        "storeLogoColor": "bg-black",
-        "price": 64999,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Satıcı",
-          "Ücretsiz Kargo"
-        ],
-        "sellerRating": 5,
-        "sellerReviews": 12500,
-        "url": "https://www.apple.com/tr/apple-watch-series-10/"
-      },
-      {
-        "id": "st-hb-apple-watch-hermes-s10-42mm-twill-jump",
         "storeName": "Hepsiburada",
-        "price": 62399,
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 61749,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Hızlı Teslimat",
-          "Peşin Fiyatına Taksit"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 4800,
-        "url": "https://www.hepsiburada.com/ara?q=Apple%20Watch%20Herm%C3%A8s%20Series%2010%20(42mm%20Titanyum%20Cellular%20-%20Twill%20Jump%20Kordon)"
+        "url": "https://www.hepsiburada.com/ara?q=Apple%20Watch%20Herm%C3%A8s%20Series%2010%20(42mm%20Titanyum%20Cellular%20-%20Twill%20Jump%20Kordon)",
+        "rating": 4.8
       },
       {
-        "id": "st-amz-apple-watch-hermes-s10-42mm-twill-jump",
-        "storeName": "Amazon TR",
-        "price": 61749,
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 62489,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Prime",
-          "Günün Fırsatı"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 6200,
-        "url": "https://www.amazon.com.tr/s?k=Apple%20Watch%20Herm%C3%A8s%20Series%2010%20(42mm%20Titanyum%20Cellular%20-%20Twill%20Jump%20Kordon)"
+        "url": "https://www.trendyol.com/sr?q=Apple%20Watch%20Herm%C3%A8s%20Series%2010%20(42mm%20Titanyum%20Cellular%20-%20Twill%20Jump%20Kordon)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 63289,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Apple%20Watch%20Herm%C3%A8s%20Series%2010%20(42mm%20Titanyum%20Cellular%20-%20Twill%20Jump%20Kordon)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 63909,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Apple%20Watch%20Herm%C3%A8s%20Series%2010%20(42mm%20Titanyum%20Cellular%20-%20Twill%20Jump%20Kordon)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 61439,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Apple%20Watch%20Herm%C3%A8s%20Series%2010%20(42mm%20Titanyum%20Cellular%20-%20Twill%20Jump%20Kordon)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 63479,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Apple%20Watch%20Herm%C3%A8s%20Series%2010%20(42mm%20Titanyum%20Cellular%20-%20Twill%20Jump%20Kordon)",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-06-01",
-        "price": 64999,
-        "store": "Apple Store"
+        "date": "Ekim 2025",
+        "price": 70390
       },
       {
-        "date": "2026-07-01",
-        "price": 63049,
-        "store": "Hepsiburada"
+        "date": "Kasım 2025",
+        "price": 68540
       },
       {
-        "date": "2026-08-01",
-        "price": 61749,
-        "store": "Amazon TR"
+        "date": "Aralık 2025",
+        "price": 66690
+      },
+      {
+        "date": "Ocak 2026",
+        "price": 64840
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 62980
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 61750
       }
     ],
     "colorOptions": [
@@ -6812,7 +7752,7 @@ export const mockSmartwatches: Product[] = [
     "category": "smartwatches",
     "rating": 4.8,
     "reviewCount": 2714,
-    "basePrice": 56049,
+    "basePrice": 55769,
     "currency": "TL",
     "releaseYear": 2023,
     "isPopular": false,
@@ -6883,64 +7823,84 @@ export const mockSmartwatches: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "st-ap-apple-watch-hermes-s9-45mm-toile-h",
-        "storeName": "Apple Store",
-        "storeLogoColor": "bg-black",
-        "price": 58999,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Satıcı",
-          "Ücretsiz Kargo"
-        ],
-        "sellerRating": 5,
-        "sellerReviews": 12500,
-        "url": "https://www.apple.com/tr/apple-watch-series-9/"
-      },
-      {
-        "id": "st-hb-apple-watch-hermes-s9-45mm-toile-h",
         "storeName": "Hepsiburada",
-        "price": 56639,
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 56049,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Hızlı Teslimat",
-          "Peşin Fiyatına Taksit"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 4800,
-        "url": "https://www.hepsiburada.com/ara?q=Apple%20Watch%20Herm%C3%A8s%20Series%209%20(45mm%20Paslanmaz%20%C3%87elik%20Cellular%20-%20Toile%20H%20Kordon)"
+        "url": "https://www.hepsiburada.com/ara?q=Apple%20Watch%20Herm%C3%A8s%20Series%209%20(45mm%20Paslanmaz%20%C3%87elik%20Cellular%20-%20Toile%20H%20Kordon)",
+        "rating": 4.8
       },
       {
-        "id": "st-amz-apple-watch-hermes-s9-45mm-toile-h",
-        "storeName": "Amazon TR",
-        "price": 56049,
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 56719,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Prime",
-          "Günün Fırsatı"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 6200,
-        "url": "https://www.amazon.com.tr/s?k=Apple%20Watch%20Herm%C3%A8s%20Series%209%20(45mm%20Paslanmaz%20%C3%87elik%20Cellular%20-%20Toile%20H%20Kordon)"
+        "url": "https://www.trendyol.com/sr?q=Apple%20Watch%20Herm%C3%A8s%20Series%209%20(45mm%20Paslanmaz%20%C3%87elik%20Cellular%20-%20Toile%20H%20Kordon)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 57449,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Apple%20Watch%20Herm%C3%A8s%20Series%209%20(45mm%20Paslanmaz%20%C3%87elik%20Cellular%20-%20Toile%20H%20Kordon)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 58009,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Apple%20Watch%20Herm%C3%A8s%20Series%209%20(45mm%20Paslanmaz%20%C3%87elik%20Cellular%20-%20Toile%20H%20Kordon)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 55769,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Apple%20Watch%20Herm%C3%A8s%20Series%209%20(45mm%20Paslanmaz%20%C3%87elik%20Cellular%20-%20Toile%20H%20Kordon)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 57619,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Apple%20Watch%20Herm%C3%A8s%20Series%209%20(45mm%20Paslanmaz%20%C3%87elik%20Cellular%20-%20Toile%20H%20Kordon)",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-06-01",
-        "price": 58999,
-        "store": "Apple Store"
+        "date": "Ekim 2025",
+        "price": 63900
       },
       {
-        "date": "2026-07-01",
-        "price": 57229,
-        "store": "Hepsiburada"
+        "date": "Kasım 2025",
+        "price": 62210
       },
       {
-        "date": "2026-08-01",
-        "price": 56049,
-        "store": "Amazon TR"
+        "date": "Aralık 2025",
+        "price": 60530
+      },
+      {
+        "date": "Ocak 2026",
+        "price": 58850
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 57170
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 56050
       }
     ],
     "colorOptions": [
@@ -6958,7 +7918,7 @@ export const mockSmartwatches: Product[] = [
     "category": "smartwatches",
     "rating": 4.8,
     "reviewCount": 2564,
-    "basePrice": 9024,
+    "basePrice": 8979,
     "currency": "TL",
     "releaseYear": 2020,
     "isPopular": true,
@@ -7026,64 +7986,84 @@ export const mockSmartwatches: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "st-ap-apple-watch-s6-44mm-alu-gps-blue",
-        "storeName": "Apple Store",
-        "storeLogoColor": "bg-black",
-        "price": 9499,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Satıcı",
-          "Ücretsiz Kargo"
-        ],
-        "sellerRating": 5,
-        "sellerReviews": 12500,
-        "url": "https://www.apple.com/tr/apple-watch-series-9/"
-      },
-      {
-        "id": "st-hb-apple-watch-s6-44mm-alu-gps-blue",
         "storeName": "Hepsiburada",
-        "price": 9119,
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 9019,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Hızlı Teslimat",
-          "Peşin Fiyatına Taksit"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 4800,
-        "url": "https://www.hepsiburada.com/ara?q=Apple%20Watch%20Series%206%20(44mm%20Mavi%20Al%C3%BCminyum%20GPS)"
+        "url": "https://www.hepsiburada.com/ara?q=Apple%20Watch%20Series%206%20(44mm%20Mavi%20Al%C3%BCminyum%20GPS)",
+        "rating": 4.8
       },
       {
-        "id": "st-amz-apple-watch-s6-44mm-alu-gps-blue",
-        "storeName": "Amazon TR",
-        "price": 9024,
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 9129,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Prime",
-          "Günün Fırsatı"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 6200,
-        "url": "https://www.amazon.com.tr/s?k=Apple%20Watch%20Series%206%20(44mm%20Mavi%20Al%C3%BCminyum%20GPS)"
+        "url": "https://www.trendyol.com/sr?q=Apple%20Watch%20Series%206%20(44mm%20Mavi%20Al%C3%BCminyum%20GPS)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 9249,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Apple%20Watch%20Series%206%20(44mm%20Mavi%20Al%C3%BCminyum%20GPS)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 9339,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Apple%20Watch%20Series%206%20(44mm%20Mavi%20Al%C3%BCminyum%20GPS)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 8979,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Apple%20Watch%20Series%206%20(44mm%20Mavi%20Al%C3%BCminyum%20GPS)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 9279,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Apple%20Watch%20Series%206%20(44mm%20Mavi%20Al%C3%BCminyum%20GPS)",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-06-01",
-        "price": 9499,
-        "store": "Apple Store"
+        "date": "Ekim 2025",
+        "price": 10290
       },
       {
-        "date": "2026-07-01",
-        "price": 9214,
-        "store": "Hepsiburada"
+        "date": "Kasım 2025",
+        "price": 10020
       },
       {
-        "date": "2026-08-01",
-        "price": 9024,
-        "store": "Amazon TR"
+        "date": "Aralık 2025",
+        "price": 9750
+      },
+      {
+        "date": "Ocak 2026",
+        "price": 9480
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 9200
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 9020
       }
     ],
     "colorOptions": [
@@ -7101,7 +8081,7 @@ export const mockSmartwatches: Product[] = [
     "category": "smartwatches",
     "rating": 4.8,
     "reviewCount": 3509,
-    "basePrice": 9024,
+    "basePrice": 8979,
     "currency": "TL",
     "releaseYear": 2020,
     "isPopular": false,
@@ -7169,64 +8149,84 @@ export const mockSmartwatches: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "st-ap-apple-watch-s6-44mm-alu-gps-red",
-        "storeName": "Apple Store",
-        "storeLogoColor": "bg-black",
-        "price": 9499,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Satıcı",
-          "Ücretsiz Kargo"
-        ],
-        "sellerRating": 5,
-        "sellerReviews": 12500,
-        "url": "https://www.apple.com/tr/apple-watch-series-9/"
-      },
-      {
-        "id": "st-hb-apple-watch-s6-44mm-alu-gps-red",
         "storeName": "Hepsiburada",
-        "price": 9119,
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 9019,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Hızlı Teslimat",
-          "Peşin Fiyatına Taksit"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 4800,
-        "url": "https://www.hepsiburada.com/ara?q=Apple%20Watch%20Series%206%20(44mm%20(PRODUCT)RED%20Al%C3%BCminyum%20GPS)"
+        "url": "https://www.hepsiburada.com/ara?q=Apple%20Watch%20Series%206%20(44mm%20(PRODUCT)RED%20Al%C3%BCminyum%20GPS)",
+        "rating": 4.8
       },
       {
-        "id": "st-amz-apple-watch-s6-44mm-alu-gps-red",
-        "storeName": "Amazon TR",
-        "price": 9024,
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 9129,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Prime",
-          "Günün Fırsatı"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 6200,
-        "url": "https://www.amazon.com.tr/s?k=Apple%20Watch%20Series%206%20(44mm%20(PRODUCT)RED%20Al%C3%BCminyum%20GPS)"
+        "url": "https://www.trendyol.com/sr?q=Apple%20Watch%20Series%206%20(44mm%20(PRODUCT)RED%20Al%C3%BCminyum%20GPS)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 9249,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Apple%20Watch%20Series%206%20(44mm%20(PRODUCT)RED%20Al%C3%BCminyum%20GPS)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 9339,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Apple%20Watch%20Series%206%20(44mm%20(PRODUCT)RED%20Al%C3%BCminyum%20GPS)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 8979,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Apple%20Watch%20Series%206%20(44mm%20(PRODUCT)RED%20Al%C3%BCminyum%20GPS)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 9279,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Apple%20Watch%20Series%206%20(44mm%20(PRODUCT)RED%20Al%C3%BCminyum%20GPS)",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-06-01",
-        "price": 9499,
-        "store": "Apple Store"
+        "date": "Ekim 2025",
+        "price": 10290
       },
       {
-        "date": "2026-07-01",
-        "price": 9214,
-        "store": "Hepsiburada"
+        "date": "Kasım 2025",
+        "price": 10020
       },
       {
-        "date": "2026-08-01",
-        "price": 9024,
-        "store": "Amazon TR"
+        "date": "Aralık 2025",
+        "price": 9750
+      },
+      {
+        "date": "Ocak 2026",
+        "price": 9480
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 9200
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 9020
       }
     ],
     "colorOptions": [
@@ -7244,7 +8244,7 @@ export const mockSmartwatches: Product[] = [
     "category": "smartwatches",
     "rating": 4.8,
     "reviewCount": 1005,
-    "basePrice": 18049,
+    "basePrice": 17959,
     "currency": "TL",
     "releaseYear": 2020,
     "isPopular": false,
@@ -7313,64 +8313,84 @@ export const mockSmartwatches: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "st-ap-apple-watch-s6-44mm-ss-cell-graphite",
-        "storeName": "Apple Store",
-        "storeLogoColor": "bg-black",
-        "price": 18999,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Satıcı",
-          "Ücretsiz Kargo"
-        ],
-        "sellerRating": 5,
-        "sellerReviews": 12500,
-        "url": "https://www.apple.com/tr/apple-watch-series-9/"
-      },
-      {
-        "id": "st-hb-apple-watch-s6-44mm-ss-cell-graphite",
         "storeName": "Hepsiburada",
-        "price": 18239,
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 18049,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Hızlı Teslimat",
-          "Peşin Fiyatına Taksit"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 4800,
-        "url": "https://www.hepsiburada.com/ara?q=Apple%20Watch%20Series%206%20(44mm%20Paslanmaz%20%C3%87elik%20Cellular%20-%20Grafit%20Milano%20Loop)"
+        "url": "https://www.hepsiburada.com/ara?q=Apple%20Watch%20Series%206%20(44mm%20Paslanmaz%20%C3%87elik%20Cellular%20-%20Grafit%20Milano%20Loop)",
+        "rating": 4.8
       },
       {
-        "id": "st-amz-apple-watch-s6-44mm-ss-cell-graphite",
-        "storeName": "Amazon TR",
-        "price": 18049,
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 18269,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Prime",
-          "Günün Fırsatı"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 6200,
-        "url": "https://www.amazon.com.tr/s?k=Apple%20Watch%20Series%206%20(44mm%20Paslanmaz%20%C3%87elik%20Cellular%20-%20Grafit%20Milano%20Loop)"
+        "url": "https://www.trendyol.com/sr?q=Apple%20Watch%20Series%206%20(44mm%20Paslanmaz%20%C3%87elik%20Cellular%20-%20Grafit%20Milano%20Loop)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 18499,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Apple%20Watch%20Series%206%20(44mm%20Paslanmaz%20%C3%87elik%20Cellular%20-%20Grafit%20Milano%20Loop)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 18679,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Apple%20Watch%20Series%206%20(44mm%20Paslanmaz%20%C3%87elik%20Cellular%20-%20Grafit%20Milano%20Loop)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 17959,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Apple%20Watch%20Series%206%20(44mm%20Paslanmaz%20%C3%87elik%20Cellular%20-%20Grafit%20Milano%20Loop)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 18549,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Apple%20Watch%20Series%206%20(44mm%20Paslanmaz%20%C3%87elik%20Cellular%20-%20Grafit%20Milano%20Loop)",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-06-01",
-        "price": 18999,
-        "store": "Apple Store"
+        "date": "Ekim 2025",
+        "price": 20580
       },
       {
-        "date": "2026-07-01",
-        "price": 18429,
-        "store": "Hepsiburada"
+        "date": "Kasım 2025",
+        "price": 20030
       },
       {
-        "date": "2026-08-01",
-        "price": 18049,
-        "store": "Amazon TR"
+        "date": "Aralık 2025",
+        "price": 19490
+      },
+      {
+        "date": "Ocak 2026",
+        "price": 18950
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 18410
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 18050
       }
     ],
     "colorOptions": [
@@ -7388,7 +8408,7 @@ export const mockSmartwatches: Product[] = [
     "category": "smartwatches",
     "rating": 4.8,
     "reviewCount": 4870,
-    "basePrice": 7599,
+    "basePrice": 7559,
     "currency": "TL",
     "releaseYear": 2020,
     "isPopular": false,
@@ -7454,64 +8474,84 @@ export const mockSmartwatches: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "st-ap-apple-watch-se-1-44mm-gps-spacegray",
-        "storeName": "Apple Store",
-        "storeLogoColor": "bg-black",
-        "price": 7999,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Satıcı",
-          "Ücretsiz Kargo"
-        ],
-        "sellerRating": 5,
-        "sellerReviews": 12500,
-        "url": "https://www.apple.com/tr/apple-watch-se/"
-      },
-      {
-        "id": "st-hb-apple-watch-se-1-44mm-gps-spacegray",
         "storeName": "Hepsiburada",
-        "price": 7679,
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 7599,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Hızlı Teslimat",
-          "Peşin Fiyatına Taksit"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 4800,
-        "url": "https://www.hepsiburada.com/ara?q=Apple%20Watch%20SE%201.%20Nesil%20(44mm%20Uzay%20Grisi%20Al%C3%BCminyum%20GPS)"
+        "url": "https://www.hepsiburada.com/ara?q=Apple%20Watch%20SE%201.%20Nesil%20(44mm%20Uzay%20Grisi%20Al%C3%BCminyum%20GPS)",
+        "rating": 4.8
       },
       {
-        "id": "st-amz-apple-watch-se-1-44mm-gps-spacegray",
-        "storeName": "Amazon TR",
-        "price": 7599,
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 7689,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Prime",
-          "Günün Fırsatı"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 6200,
-        "url": "https://www.amazon.com.tr/s?k=Apple%20Watch%20SE%201.%20Nesil%20(44mm%20Uzay%20Grisi%20Al%C3%BCminyum%20GPS)"
+        "url": "https://www.trendyol.com/sr?q=Apple%20Watch%20SE%201.%20Nesil%20(44mm%20Uzay%20Grisi%20Al%C3%BCminyum%20GPS)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 7789,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Apple%20Watch%20SE%201.%20Nesil%20(44mm%20Uzay%20Grisi%20Al%C3%BCminyum%20GPS)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 7869,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Apple%20Watch%20SE%201.%20Nesil%20(44mm%20Uzay%20Grisi%20Al%C3%BCminyum%20GPS)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 7559,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Apple%20Watch%20SE%201.%20Nesil%20(44mm%20Uzay%20Grisi%20Al%C3%BCminyum%20GPS)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 7809,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Apple%20Watch%20SE%201.%20Nesil%20(44mm%20Uzay%20Grisi%20Al%C3%BCminyum%20GPS)",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-06-01",
-        "price": 7999,
-        "store": "Apple Store"
+        "date": "Ekim 2025",
+        "price": 8660
       },
       {
-        "date": "2026-07-01",
-        "price": 7759,
-        "store": "Hepsiburada"
+        "date": "Kasım 2025",
+        "price": 8430
       },
       {
-        "date": "2026-08-01",
-        "price": 7599,
-        "store": "Amazon TR"
+        "date": "Aralık 2025",
+        "price": 8210
+      },
+      {
+        "date": "Ocak 2026",
+        "price": 7980
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 7750
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 7600
       }
     ],
     "colorOptions": [
@@ -7529,7 +8569,7 @@ export const mockSmartwatches: Product[] = [
     "category": "smartwatches",
     "rating": 4.8,
     "reviewCount": 1797,
-    "basePrice": 33249,
+    "basePrice": 33079,
     "currency": "TL",
     "releaseYear": 2019,
     "isPopular": true,
@@ -7597,64 +8637,84 @@ export const mockSmartwatches: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "st-ap-apple-watch-edition-s5-44mm-white-ceramic",
-        "storeName": "Apple Store",
-        "storeLogoColor": "bg-black",
-        "price": 34999,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Satıcı",
-          "Ücretsiz Kargo"
-        ],
-        "sellerRating": 5,
-        "sellerReviews": 12500,
-        "url": "https://www.apple.com/tr/apple-watch-series-9/"
-      },
-      {
-        "id": "st-hb-apple-watch-edition-s5-44mm-white-ceramic",
         "storeName": "Hepsiburada",
-        "price": 33599,
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 33249,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Hızlı Teslimat",
-          "Peşin Fiyatına Taksit"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 4800,
-        "url": "https://www.hepsiburada.com/ara?q=Apple%20Watch%20Edition%20Series%205%20(44mm%20Beyaz%20Saf%20Seramik%20Cellular)"
+        "url": "https://www.hepsiburada.com/ara?q=Apple%20Watch%20Edition%20Series%205%20(44mm%20Beyaz%20Saf%20Seramik%20Cellular)",
+        "rating": 4.8
       },
       {
-        "id": "st-amz-apple-watch-edition-s5-44mm-white-ceramic",
-        "storeName": "Amazon TR",
-        "price": 33249,
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 33649,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Prime",
-          "Günün Fırsatı"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 6200,
-        "url": "https://www.amazon.com.tr/s?k=Apple%20Watch%20Edition%20Series%205%20(44mm%20Beyaz%20Saf%20Seramik%20Cellular)"
+        "url": "https://www.trendyol.com/sr?q=Apple%20Watch%20Edition%20Series%205%20(44mm%20Beyaz%20Saf%20Seramik%20Cellular)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 34079,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Apple%20Watch%20Edition%20Series%205%20(44mm%20Beyaz%20Saf%20Seramik%20Cellular)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 34409,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Apple%20Watch%20Edition%20Series%205%20(44mm%20Beyaz%20Saf%20Seramik%20Cellular)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 33079,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Apple%20Watch%20Edition%20Series%205%20(44mm%20Beyaz%20Saf%20Seramik%20Cellular)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 34179,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Apple%20Watch%20Edition%20Series%205%20(44mm%20Beyaz%20Saf%20Seramik%20Cellular)",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-06-01",
-        "price": 34999,
-        "store": "Apple Store"
+        "date": "Ekim 2025",
+        "price": 37900
       },
       {
-        "date": "2026-07-01",
-        "price": 33949,
-        "store": "Hepsiburada"
+        "date": "Kasım 2025",
+        "price": 36910
       },
       {
-        "date": "2026-08-01",
-        "price": 33249,
-        "store": "Amazon TR"
+        "date": "Aralık 2025",
+        "price": 35910
+      },
+      {
+        "date": "Ocak 2026",
+        "price": 34910
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 33910
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 33250
       }
     ],
     "colorOptions": [
@@ -7672,7 +8732,7 @@ export const mockSmartwatches: Product[] = [
     "category": "smartwatches",
     "rating": 4.8,
     "reviewCount": 3125,
-    "basePrice": 6649,
+    "basePrice": 6619,
     "currency": "TL",
     "releaseYear": 2019,
     "isPopular": false,
@@ -7739,64 +8799,84 @@ export const mockSmartwatches: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "st-ap-apple-watch-s5-44mm-alu-gps-spacegray",
-        "storeName": "Apple Store",
-        "storeLogoColor": "bg-black",
-        "price": 6999,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Satıcı",
-          "Ücretsiz Kargo"
-        ],
-        "sellerRating": 5,
-        "sellerReviews": 12500,
-        "url": "https://www.apple.com/tr/apple-watch-series-9/"
-      },
-      {
-        "id": "st-hb-apple-watch-s5-44mm-alu-gps-spacegray",
         "storeName": "Hepsiburada",
-        "price": 6719,
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 6649,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Hızlı Teslimat",
-          "Peşin Fiyatına Taksit"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 4800,
-        "url": "https://www.hepsiburada.com/ara?q=Apple%20Watch%20Series%205%20(44mm%20Uzay%20Grisi%20Al%C3%BCminyum%20GPS)"
+        "url": "https://www.hepsiburada.com/ara?q=Apple%20Watch%20Series%205%20(44mm%20Uzay%20Grisi%20Al%C3%BCminyum%20GPS)",
+        "rating": 4.8
       },
       {
-        "id": "st-amz-apple-watch-s5-44mm-alu-gps-spacegray",
-        "storeName": "Amazon TR",
-        "price": 6649,
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 6729,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Prime",
-          "Günün Fırsatı"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 6200,
-        "url": "https://www.amazon.com.tr/s?k=Apple%20Watch%20Series%205%20(44mm%20Uzay%20Grisi%20Al%C3%BCminyum%20GPS)"
+        "url": "https://www.trendyol.com/sr?q=Apple%20Watch%20Series%205%20(44mm%20Uzay%20Grisi%20Al%C3%BCminyum%20GPS)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 6819,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Apple%20Watch%20Series%205%20(44mm%20Uzay%20Grisi%20Al%C3%BCminyum%20GPS)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 6879,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Apple%20Watch%20Series%205%20(44mm%20Uzay%20Grisi%20Al%C3%BCminyum%20GPS)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 6619,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Apple%20Watch%20Series%205%20(44mm%20Uzay%20Grisi%20Al%C3%BCminyum%20GPS)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 6839,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Apple%20Watch%20Series%205%20(44mm%20Uzay%20Grisi%20Al%C3%BCminyum%20GPS)",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-06-01",
-        "price": 6999,
-        "store": "Apple Store"
+        "date": "Ekim 2025",
+        "price": 7580
       },
       {
-        "date": "2026-07-01",
-        "price": 6789,
-        "store": "Hepsiburada"
+        "date": "Kasım 2025",
+        "price": 7380
       },
       {
-        "date": "2026-08-01",
-        "price": 6649,
-        "store": "Amazon TR"
+        "date": "Aralık 2025",
+        "price": 7180
+      },
+      {
+        "date": "Ocak 2026",
+        "price": 6980
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 6780
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 6650
       }
     ],
     "colorOptions": [
@@ -7814,7 +8894,7 @@ export const mockSmartwatches: Product[] = [
     "category": "smartwatches",
     "rating": 4.8,
     "reviewCount": 2899,
-    "basePrice": 5224,
+    "basePrice": 5199,
     "currency": "TL",
     "releaseYear": 2018,
     "isPopular": false,
@@ -7881,64 +8961,84 @@ export const mockSmartwatches: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "st-ap-apple-watch-s4-44mm-alu-gps-spacegray",
-        "storeName": "Apple Store",
-        "storeLogoColor": "bg-black",
-        "price": 5499,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Satıcı",
-          "Ücretsiz Kargo"
-        ],
-        "sellerRating": 5,
-        "sellerReviews": 12500,
-        "url": "https://www.apple.com/tr/apple-watch-series-9/"
-      },
-      {
-        "id": "st-hb-apple-watch-s4-44mm-alu-gps-spacegray",
         "storeName": "Hepsiburada",
-        "price": 5279,
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 5219,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Hızlı Teslimat",
-          "Peşin Fiyatına Taksit"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 4800,
-        "url": "https://www.hepsiburada.com/ara?q=Apple%20Watch%20Series%204%20(44mm%20Uzay%20Grisi%20Al%C3%BCminyum%20GPS)"
+        "url": "https://www.hepsiburada.com/ara?q=Apple%20Watch%20Series%204%20(44mm%20Uzay%20Grisi%20Al%C3%BCminyum%20GPS)",
+        "rating": 4.8
       },
       {
-        "id": "st-amz-apple-watch-s4-44mm-alu-gps-spacegray",
-        "storeName": "Amazon TR",
-        "price": 5224,
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 5289,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Prime",
-          "Günün Fırsatı"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 6200,
-        "url": "https://www.amazon.com.tr/s?k=Apple%20Watch%20Series%204%20(44mm%20Uzay%20Grisi%20Al%C3%BCminyum%20GPS)"
+        "url": "https://www.trendyol.com/sr?q=Apple%20Watch%20Series%204%20(44mm%20Uzay%20Grisi%20Al%C3%BCminyum%20GPS)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 5359,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Apple%20Watch%20Series%204%20(44mm%20Uzay%20Grisi%20Al%C3%BCminyum%20GPS)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 5409,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Apple%20Watch%20Series%204%20(44mm%20Uzay%20Grisi%20Al%C3%BCminyum%20GPS)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 5199,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Apple%20Watch%20Series%204%20(44mm%20Uzay%20Grisi%20Al%C3%BCminyum%20GPS)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 5369,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Apple%20Watch%20Series%204%20(44mm%20Uzay%20Grisi%20Al%C3%BCminyum%20GPS)",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-06-01",
-        "price": 5499,
-        "store": "Apple Store"
+        "date": "Ekim 2025",
+        "price": 5960
       },
       {
-        "date": "2026-07-01",
-        "price": 5334,
-        "store": "Hepsiburada"
+        "date": "Kasım 2025",
+        "price": 5800
       },
       {
-        "date": "2026-08-01",
-        "price": 5224,
-        "store": "Amazon TR"
+        "date": "Aralık 2025",
+        "price": 5640
+      },
+      {
+        "date": "Ocak 2026",
+        "price": 5490
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 5330
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 5220
       }
     ],
     "colorOptions": [
@@ -7956,7 +9056,7 @@ export const mockSmartwatches: Product[] = [
     "category": "smartwatches",
     "rating": 4.8,
     "reviewCount": 3158,
-    "basePrice": 4084,
+    "basePrice": 4059,
     "currency": "TL",
     "releaseYear": 2017,
     "isPopular": false,
@@ -8022,64 +9122,84 @@ export const mockSmartwatches: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "st-ap-apple-watch-s3-42mm-alu-gps-spacegray",
-        "storeName": "Apple Store",
-        "storeLogoColor": "bg-black",
-        "price": 4299,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Satıcı",
-          "Ücretsiz Kargo"
-        ],
-        "sellerRating": 5,
-        "sellerReviews": 12500,
-        "url": "https://www.apple.com/tr/apple-watch-series-9/"
-      },
-      {
-        "id": "st-hb-apple-watch-s3-42mm-alu-gps-spacegray",
         "storeName": "Hepsiburada",
-        "price": 4127,
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 4079,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Hızlı Teslimat",
-          "Peşin Fiyatına Taksit"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 4800,
-        "url": "https://www.hepsiburada.com/ara?q=Apple%20Watch%20Series%203%20(42mm%20Uzay%20Grisi%20Al%C3%BCminyum%20GPS)"
+        "url": "https://www.hepsiburada.com/ara?q=Apple%20Watch%20Series%203%20(42mm%20Uzay%20Grisi%20Al%C3%BCminyum%20GPS)",
+        "rating": 4.8
       },
       {
-        "id": "st-amz-apple-watch-s3-42mm-alu-gps-spacegray",
-        "storeName": "Amazon TR",
-        "price": 4084,
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 4129,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Prime",
-          "Günün Fırsatı"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 6200,
-        "url": "https://www.amazon.com.tr/s?k=Apple%20Watch%20Series%203%20(42mm%20Uzay%20Grisi%20Al%C3%BCminyum%20GPS)"
+        "url": "https://www.trendyol.com/sr?q=Apple%20Watch%20Series%203%20(42mm%20Uzay%20Grisi%20Al%C3%BCminyum%20GPS)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 4189,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Apple%20Watch%20Series%203%20(42mm%20Uzay%20Grisi%20Al%C3%BCminyum%20GPS)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 4229,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Apple%20Watch%20Series%203%20(42mm%20Uzay%20Grisi%20Al%C3%BCminyum%20GPS)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 4059,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Apple%20Watch%20Series%203%20(42mm%20Uzay%20Grisi%20Al%C3%BCminyum%20GPS)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 4199,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Apple%20Watch%20Series%203%20(42mm%20Uzay%20Grisi%20Al%C3%BCminyum%20GPS)",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-06-01",
-        "price": 4299,
-        "store": "Apple Store"
+        "date": "Ekim 2025",
+        "price": 4660
       },
       {
-        "date": "2026-07-01",
-        "price": 4170,
-        "store": "Hepsiburada"
+        "date": "Kasım 2025",
+        "price": 4530
       },
       {
-        "date": "2026-08-01",
-        "price": 4084,
-        "store": "Amazon TR"
+        "date": "Aralık 2025",
+        "price": 4410
+      },
+      {
+        "date": "Ocak 2026",
+        "price": 4290
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 4170
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 4080
       }
     ],
     "colorOptions": [
@@ -8097,7 +9217,7 @@ export const mockSmartwatches: Product[] = [
     "category": "smartwatches",
     "rating": 4.8,
     "reviewCount": 3887,
-    "basePrice": 3704,
+    "basePrice": 3689,
     "currency": "TL",
     "releaseYear": 2017,
     "isPopular": false,
@@ -8163,64 +9283,84 @@ export const mockSmartwatches: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "st-ap-apple-watch-s3-38mm-alu-gps-silver",
-        "storeName": "Apple Store",
-        "storeLogoColor": "bg-black",
-        "price": 3899,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Satıcı",
-          "Ücretsiz Kargo"
-        ],
-        "sellerRating": 5,
-        "sellerReviews": 12500,
-        "url": "https://www.apple.com/tr/apple-watch-series-9/"
-      },
-      {
-        "id": "st-hb-apple-watch-s3-38mm-alu-gps-silver",
         "storeName": "Hepsiburada",
-        "price": 3743,
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 3699,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Hızlı Teslimat",
-          "Peşin Fiyatına Taksit"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 4800,
-        "url": "https://www.hepsiburada.com/ara?q=Apple%20Watch%20Series%203%20(38mm%20G%C3%BCm%C3%BC%C5%9F%20Al%C3%BCminyum%20GPS)"
+        "url": "https://www.hepsiburada.com/ara?q=Apple%20Watch%20Series%203%20(38mm%20G%C3%BCm%C3%BC%C5%9F%20Al%C3%BCminyum%20GPS)",
+        "rating": 4.8
       },
       {
-        "id": "st-amz-apple-watch-s3-38mm-alu-gps-silver",
-        "storeName": "Amazon TR",
-        "price": 3704,
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 3749,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Prime",
-          "Günün Fırsatı"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 6200,
-        "url": "https://www.amazon.com.tr/s?k=Apple%20Watch%20Series%203%20(38mm%20G%C3%BCm%C3%BC%C5%9F%20Al%C3%BCminyum%20GPS)"
+        "url": "https://www.trendyol.com/sr?q=Apple%20Watch%20Series%203%20(38mm%20G%C3%BCm%C3%BC%C5%9F%20Al%C3%BCminyum%20GPS)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 3799,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Apple%20Watch%20Series%203%20(38mm%20G%C3%BCm%C3%BC%C5%9F%20Al%C3%BCminyum%20GPS)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 3829,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Apple%20Watch%20Series%203%20(38mm%20G%C3%BCm%C3%BC%C5%9F%20Al%C3%BCminyum%20GPS)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 3689,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Apple%20Watch%20Series%203%20(38mm%20G%C3%BCm%C3%BC%C5%9F%20Al%C3%BCminyum%20GPS)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 3809,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Apple%20Watch%20Series%203%20(38mm%20G%C3%BCm%C3%BC%C5%9F%20Al%C3%BCminyum%20GPS)",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-06-01",
-        "price": 3899,
-        "store": "Apple Store"
+        "date": "Ekim 2025",
+        "price": 4220
       },
       {
-        "date": "2026-07-01",
-        "price": 3782,
-        "store": "Hepsiburada"
+        "date": "Kasım 2025",
+        "price": 4110
       },
       {
-        "date": "2026-08-01",
-        "price": 3704,
-        "store": "Amazon TR"
+        "date": "Aralık 2025",
+        "price": 4000
+      },
+      {
+        "date": "Ocak 2026",
+        "price": 3890
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 3780
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 3700
       }
     ],
     "colorOptions": [
@@ -8238,7 +9378,7 @@ export const mockSmartwatches: Product[] = [
     "category": "smartwatches",
     "rating": 4.8,
     "reviewCount": 1254,
-    "basePrice": 3134,
+    "basePrice": 3119,
     "currency": "TL",
     "releaseYear": 2016,
     "isPopular": false,
@@ -8303,64 +9443,84 @@ export const mockSmartwatches: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "st-ap-apple-watch-s2-42mm-alu-gps-spacegray",
-        "storeName": "Apple Store",
-        "storeLogoColor": "bg-black",
-        "price": 3299,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Satıcı",
-          "Ücretsiz Kargo"
-        ],
-        "sellerRating": 5,
-        "sellerReviews": 12500,
-        "url": "https://www.apple.com/tr/apple-watch-series-9/"
-      },
-      {
-        "id": "st-hb-apple-watch-s2-42mm-alu-gps-spacegray",
         "storeName": "Hepsiburada",
-        "price": 3167,
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 3129,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Hızlı Teslimat",
-          "Peşin Fiyatına Taksit"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 4800,
-        "url": "https://www.hepsiburada.com/ara?q=Apple%20Watch%20Series%202%20(42mm%20Uzay%20Grisi%20Al%C3%BCminyum%20GPS)"
+        "url": "https://www.hepsiburada.com/ara?q=Apple%20Watch%20Series%202%20(42mm%20Uzay%20Grisi%20Al%C3%BCminyum%20GPS)",
+        "rating": 4.8
       },
       {
-        "id": "st-amz-apple-watch-s2-42mm-alu-gps-spacegray",
-        "storeName": "Amazon TR",
-        "price": 3134,
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 3169,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Prime",
-          "Günün Fırsatı"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 6200,
-        "url": "https://www.amazon.com.tr/s?k=Apple%20Watch%20Series%202%20(42mm%20Uzay%20Grisi%20Al%C3%BCminyum%20GPS)"
+        "url": "https://www.trendyol.com/sr?q=Apple%20Watch%20Series%202%20(42mm%20Uzay%20Grisi%20Al%C3%BCminyum%20GPS)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 3209,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Apple%20Watch%20Series%202%20(42mm%20Uzay%20Grisi%20Al%C3%BCminyum%20GPS)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 3239,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Apple%20Watch%20Series%202%20(42mm%20Uzay%20Grisi%20Al%C3%BCminyum%20GPS)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 3119,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Apple%20Watch%20Series%202%20(42mm%20Uzay%20Grisi%20Al%C3%BCminyum%20GPS)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 3219,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Apple%20Watch%20Series%202%20(42mm%20Uzay%20Grisi%20Al%C3%BCminyum%20GPS)",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-06-01",
-        "price": 3299,
-        "store": "Apple Store"
+        "date": "Ekim 2025",
+        "price": 3570
       },
       {
-        "date": "2026-07-01",
-        "price": 3200,
-        "store": "Hepsiburada"
+        "date": "Kasım 2025",
+        "price": 3480
       },
       {
-        "date": "2026-08-01",
-        "price": 3134,
-        "store": "Amazon TR"
+        "date": "Aralık 2025",
+        "price": 3380
+      },
+      {
+        "date": "Ocak 2026",
+        "price": 3290
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 3200
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 3130
       }
     ],
     "colorOptions": [
@@ -8378,7 +9538,7 @@ export const mockSmartwatches: Product[] = [
     "category": "smartwatches",
     "rating": 4.8,
     "reviewCount": 973,
-    "basePrice": 2659,
+    "basePrice": 2649,
     "currency": "TL",
     "releaseYear": 2016,
     "isPopular": false,
@@ -8443,64 +9603,84 @@ export const mockSmartwatches: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "st-ap-apple-watch-s1-42mm-alu-spacegray",
-        "storeName": "Apple Store",
-        "storeLogoColor": "bg-black",
-        "price": 2799,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Satıcı",
-          "Ücretsiz Kargo"
-        ],
-        "sellerRating": 5,
-        "sellerReviews": 12500,
-        "url": "https://www.apple.com/tr/apple-watch-series-9/"
-      },
-      {
-        "id": "st-hb-apple-watch-s1-42mm-alu-spacegray",
         "storeName": "Hepsiburada",
-        "price": 2687,
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 2659,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Hızlı Teslimat",
-          "Peşin Fiyatına Taksit"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 4800,
-        "url": "https://www.hepsiburada.com/ara?q=Apple%20Watch%20Series%201%20(42mm%20Uzay%20Grisi%20Al%C3%BCminyum)"
+        "url": "https://www.hepsiburada.com/ara?q=Apple%20Watch%20Series%201%20(42mm%20Uzay%20Grisi%20Al%C3%BCminyum)",
+        "rating": 4.8
       },
       {
-        "id": "st-amz-apple-watch-s1-42mm-alu-spacegray",
-        "storeName": "Amazon TR",
-        "price": 2659,
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 2689,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Prime",
-          "Günün Fırsatı"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 6200,
-        "url": "https://www.amazon.com.tr/s?k=Apple%20Watch%20Series%201%20(42mm%20Uzay%20Grisi%20Al%C3%BCminyum)"
+        "url": "https://www.trendyol.com/sr?q=Apple%20Watch%20Series%201%20(42mm%20Uzay%20Grisi%20Al%C3%BCminyum)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 2729,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Apple%20Watch%20Series%201%20(42mm%20Uzay%20Grisi%20Al%C3%BCminyum)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 2749,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Apple%20Watch%20Series%201%20(42mm%20Uzay%20Grisi%20Al%C3%BCminyum)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 2649,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Apple%20Watch%20Series%201%20(42mm%20Uzay%20Grisi%20Al%C3%BCminyum)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 2729,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Apple%20Watch%20Series%201%20(42mm%20Uzay%20Grisi%20Al%C3%BCminyum)",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-06-01",
-        "price": 2799,
-        "store": "Apple Store"
+        "date": "Ekim 2025",
+        "price": 3030
       },
       {
-        "date": "2026-07-01",
-        "price": 2715,
-        "store": "Hepsiburada"
+        "date": "Kasım 2025",
+        "price": 2950
       },
       {
-        "date": "2026-08-01",
-        "price": 2659,
-        "store": "Amazon TR"
+        "date": "Aralık 2025",
+        "price": 2870
+      },
+      {
+        "date": "Ocak 2026",
+        "price": 2790
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 2710
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 2660
       }
     ],
     "colorOptions": [
@@ -8518,7 +9698,7 @@ export const mockSmartwatches: Product[] = [
     "category": "smartwatches",
     "rating": 4.8,
     "reviewCount": 755,
-    "basePrice": 3324,
+    "basePrice": 3309,
     "currency": "TL",
     "releaseYear": 2015,
     "isPopular": false,
@@ -8582,64 +9762,84 @@ export const mockSmartwatches: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "st-ap-apple-watch-1st-gen-42mm-ss-milanese",
-        "storeName": "Apple Store",
-        "storeLogoColor": "bg-black",
-        "price": 3499,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Satıcı",
-          "Ücretsiz Kargo"
-        ],
-        "sellerRating": 5,
-        "sellerReviews": 12500,
-        "url": "https://www.apple.com/tr/apple-watch-se/"
-      },
-      {
-        "id": "st-hb-apple-watch-1st-gen-42mm-ss-milanese",
         "storeName": "Hepsiburada",
-        "price": 3359,
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 3319,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Hızlı Teslimat",
-          "Peşin Fiyatına Taksit"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 4800,
-        "url": "https://www.hepsiburada.com/ara?q=Apple%20Watch%201.%20Nesil%20(42mm%20Paslanmaz%20%C3%87elik%20-%20Milano%20Loop)"
+        "url": "https://www.hepsiburada.com/ara?q=Apple%20Watch%201.%20Nesil%20(42mm%20Paslanmaz%20%C3%87elik%20-%20Milano%20Loop)",
+        "rating": 4.8
       },
       {
-        "id": "st-amz-apple-watch-1st-gen-42mm-ss-milanese",
-        "storeName": "Amazon TR",
-        "price": 3324,
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 3359,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Prime",
-          "Günün Fırsatı"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 6200,
-        "url": "https://www.amazon.com.tr/s?k=Apple%20Watch%201.%20Nesil%20(42mm%20Paslanmaz%20%C3%87elik%20-%20Milano%20Loop)"
+        "url": "https://www.trendyol.com/sr?q=Apple%20Watch%201.%20Nesil%20(42mm%20Paslanmaz%20%C3%87elik%20-%20Milano%20Loop)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 3409,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Apple%20Watch%201.%20Nesil%20(42mm%20Paslanmaz%20%C3%87elik%20-%20Milano%20Loop)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 3439,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Apple%20Watch%201.%20Nesil%20(42mm%20Paslanmaz%20%C3%87elik%20-%20Milano%20Loop)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 3309,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Apple%20Watch%201.%20Nesil%20(42mm%20Paslanmaz%20%C3%87elik%20-%20Milano%20Loop)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 3419,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Apple%20Watch%201.%20Nesil%20(42mm%20Paslanmaz%20%C3%87elik%20-%20Milano%20Loop)",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-06-01",
-        "price": 3499,
-        "store": "Apple Store"
+        "date": "Ekim 2025",
+        "price": 3790
       },
       {
-        "date": "2026-07-01",
-        "price": 3394,
-        "store": "Hepsiburada"
+        "date": "Kasım 2025",
+        "price": 3690
       },
       {
-        "date": "2026-08-01",
-        "price": 3324,
-        "store": "Amazon TR"
+        "date": "Aralık 2025",
+        "price": 3590
+      },
+      {
+        "date": "Ocak 2026",
+        "price": 3490
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 3390
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 3320
       }
     ],
     "colorOptions": [
@@ -8657,7 +9857,7 @@ export const mockSmartwatches: Product[] = [
     "category": "smartwatches",
     "rating": 4.8,
     "reviewCount": 4762,
-    "basePrice": 151999,
+    "basePrice": 151239,
     "currency": "TL",
     "releaseYear": 2015,
     "isPopular": true,
@@ -8721,64 +9921,84 @@ export const mockSmartwatches: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "st-ap-apple-watch-edition-1st-gen-42mm-gold",
-        "storeName": "Apple Store",
-        "storeLogoColor": "bg-black",
-        "price": 159999,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Satıcı",
-          "Ücretsiz Kargo"
-        ],
-        "sellerRating": 5,
-        "sellerReviews": 12500,
-        "url": "https://www.apple.com/tr/apple-watch-series-9/"
-      },
-      {
-        "id": "st-hb-apple-watch-edition-1st-gen-42mm-gold",
         "storeName": "Hepsiburada",
-        "price": 153599,
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 151999,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Hızlı Teslimat",
-          "Peşin Fiyatına Taksit"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 4800,
-        "url": "https://www.hepsiburada.com/ara?q=Apple%20Watch%20Edition%201.%20Nesil%20(42mm%2018%20Ayar%20Som%20Sar%C4%B1%20Alt%C4%B1n)"
+        "url": "https://www.hepsiburada.com/ara?q=Apple%20Watch%20Edition%201.%20Nesil%20(42mm%2018%20Ayar%20Som%20Sar%C4%B1%20Alt%C4%B1n)",
+        "rating": 4.8
       },
       {
-        "id": "st-amz-apple-watch-edition-1st-gen-42mm-gold",
-        "storeName": "Amazon TR",
-        "price": 151999,
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 153819,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Prime",
-          "Günün Fırsatı"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 6200,
-        "url": "https://www.amazon.com.tr/s?k=Apple%20Watch%20Edition%201.%20Nesil%20(42mm%2018%20Ayar%20Som%20Sar%C4%B1%20Alt%C4%B1n)"
+        "url": "https://www.trendyol.com/sr?q=Apple%20Watch%20Edition%201.%20Nesil%20(42mm%2018%20Ayar%20Som%20Sar%C4%B1%20Alt%C4%B1n)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 155799,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Apple%20Watch%20Edition%201.%20Nesil%20(42mm%2018%20Ayar%20Som%20Sar%C4%B1%20Alt%C4%B1n)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 157319,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Apple%20Watch%20Edition%201.%20Nesil%20(42mm%2018%20Ayar%20Som%20Sar%C4%B1%20Alt%C4%B1n)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 151239,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Apple%20Watch%20Edition%201.%20Nesil%20(42mm%2018%20Ayar%20Som%20Sar%C4%B1%20Alt%C4%B1n)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 156259,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Apple%20Watch%20Edition%201.%20Nesil%20(42mm%2018%20Ayar%20Som%20Sar%C4%B1%20Alt%C4%B1n)",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-06-01",
-        "price": 159999,
-        "store": "Apple Store"
+        "date": "Ekim 2025",
+        "price": 173280
       },
       {
-        "date": "2026-07-01",
-        "price": 155199,
-        "store": "Hepsiburada"
+        "date": "Kasım 2025",
+        "price": 168720
       },
       {
-        "date": "2026-08-01",
-        "price": 151999,
-        "store": "Amazon TR"
+        "date": "Aralık 2025",
+        "price": 164160
+      },
+      {
+        "date": "Ocak 2026",
+        "price": 159600
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 155040
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 152000
       }
     ],
     "colorOptions": [
@@ -8796,7 +10016,7 @@ export const mockSmartwatches: Product[] = [
     "category": "smartwatches",
     "rating": 4.8,
     "reviewCount": 3650,
-    "basePrice": 132999,
+    "basePrice": 132329,
     "currency": "TL",
     "releaseYear": 2015,
     "isPopular": false,
@@ -8860,64 +10080,84 @@ export const mockSmartwatches: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "st-ap-apple-watch-edition-1st-gen-38mm-rosegold",
-        "storeName": "Apple Store",
-        "storeLogoColor": "bg-black",
-        "price": 139999,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Satıcı",
-          "Ücretsiz Kargo"
-        ],
-        "sellerRating": 5,
-        "sellerReviews": 12500,
-        "url": "https://www.apple.com/tr/apple-watch-se/"
-      },
-      {
-        "id": "st-hb-apple-watch-edition-1st-gen-38mm-rosegold",
         "storeName": "Hepsiburada",
-        "price": 134399,
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 132999,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Hızlı Teslimat",
-          "Peşin Fiyatına Taksit"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 4800,
-        "url": "https://www.hepsiburada.com/ara?q=Apple%20Watch%20Edition%201.%20Nesil%20(38mm%2018%20Ayar%20Som%20Rose%20Alt%C4%B1n)"
+        "url": "https://www.hepsiburada.com/ara?q=Apple%20Watch%20Edition%201.%20Nesil%20(38mm%2018%20Ayar%20Som%20Rose%20Alt%C4%B1n)",
+        "rating": 4.8
       },
       {
-        "id": "st-amz-apple-watch-edition-1st-gen-38mm-rosegold",
-        "storeName": "Amazon TR",
-        "price": 132999,
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 134599,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Prime",
-          "Günün Fırsatı"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 6200,
-        "url": "https://www.amazon.com.tr/s?k=Apple%20Watch%20Edition%201.%20Nesil%20(38mm%2018%20Ayar%20Som%20Rose%20Alt%C4%B1n)"
+        "url": "https://www.trendyol.com/sr?q=Apple%20Watch%20Edition%201.%20Nesil%20(38mm%2018%20Ayar%20Som%20Rose%20Alt%C4%B1n)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 136319,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Apple%20Watch%20Edition%201.%20Nesil%20(38mm%2018%20Ayar%20Som%20Rose%20Alt%C4%B1n)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 137649,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Apple%20Watch%20Edition%201.%20Nesil%20(38mm%2018%20Ayar%20Som%20Rose%20Alt%C4%B1n)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 132329,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Apple%20Watch%20Edition%201.%20Nesil%20(38mm%2018%20Ayar%20Som%20Rose%20Alt%C4%B1n)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 136719,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Apple%20Watch%20Edition%201.%20Nesil%20(38mm%2018%20Ayar%20Som%20Rose%20Alt%C4%B1n)",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-06-01",
-        "price": 139999,
-        "store": "Apple Store"
+        "date": "Ekim 2025",
+        "price": 151620
       },
       {
-        "date": "2026-07-01",
-        "price": 135799,
-        "store": "Hepsiburada"
+        "date": "Kasım 2025",
+        "price": 147630
       },
       {
-        "date": "2026-08-01",
-        "price": 132999,
-        "store": "Amazon TR"
+        "date": "Aralık 2025",
+        "price": 143640
+      },
+      {
+        "date": "Ocak 2026",
+        "price": 139650
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 135660
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 133000
       }
     ],
     "colorOptions": [
@@ -8935,7 +10175,7 @@ export const mockSmartwatches: Product[] = [
     "category": "smartwatches",
     "rating": 4.9,
     "reviewCount": 1840,
-    "basePrice": 28299,
+    "basePrice": 42779,
     "currency": "TL",
     "releaseYear": 2024,
     "isPopular": true,
@@ -8996,63 +10236,84 @@ export const mockSmartwatches: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "st-sm-ultra-lte",
-        "storeName": "Samsung Türkiye",
-        "storeLogoColor": "bg-blue-900",
-        "price": 29999,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Distribütör Garantili"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 2450,
-        "url": "https://www.samsung.com/tr/watches/galaxy-watch-ultra/"
-      },
-      {
-        "id": "st-hb-ultra-lte",
         "storeName": "Hepsiburada",
-        "storeLogoColor": "bg-orange-600",
-        "price": 28499,
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 42999,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Hızlı Teslimat"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 1980,
-        "url": "https://www.hepsiburada.com/ara?q=Samsung+Galaxy+Watch+Ultra"
+        "url": "https://www.hepsiburada.com/ara?q=Samsung%20Galaxy%20Watch%20Ultra%20(47mm%20LTE)",
+        "rating": 4.8
       },
       {
-        "id": "st-ty-ultra-lte",
         "storeName": "Trendyol",
-        "storeLogoColor": "bg-amber-600",
-        "price": 28299,
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 43519,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Kupon Fırsatı"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 3120,
-        "url": "https://www.trendyol.com/sr?q=Samsung+Galaxy+Watch+Ultra"
+        "url": "https://www.trendyol.com/sr?q=Samsung%20Galaxy%20Watch%20Ultra%20(47mm%20LTE)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 44069,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Samsung%20Galaxy%20Watch%20Ultra%20(47mm%20LTE)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 44499,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Samsung%20Galaxy%20Watch%20Ultra%20(47mm%20LTE)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 42779,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Samsung%20Galaxy%20Watch%20Ultra%20(47mm%20LTE)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 44199,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Samsung%20Galaxy%20Watch%20Ultra%20(47mm%20LTE)",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-05-01",
-        "price": 32999,
-        "store": "Samsung Türkiye"
+        "date": "Ekim 2025",
+        "price": 49020
       },
       {
-        "date": "2026-06-01",
-        "price": 30999,
-        "store": "Hepsiburada"
+        "date": "Kasım 2025",
+        "price": 47730
       },
       {
-        "date": "2026-07-01",
-        "price": 28299,
-        "store": "Trendyol"
+        "date": "Aralık 2025",
+        "price": 46440
+      },
+      {
+        "date": "Ocak 2026",
+        "price": 45150
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 43860
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 43000
       }
     ],
     "colorOptions": [
@@ -9078,7 +10339,7 @@ export const mockSmartwatches: Product[] = [
     "category": "smartwatches",
     "rating": 4.8,
     "reviewCount": 920,
-    "basePrice": 12999,
+    "basePrice": 12929,
     "currency": "TL",
     "releaseYear": 2024,
     "isPopular": true,
@@ -9137,29 +10398,84 @@ export const mockSmartwatches: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "st-sm-w7-44-lte",
-        "storeName": "Samsung Türkiye",
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
         "price": 12999,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Distribütör"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 950,
-        "url": "https://www.samsung.com/tr/watches/galaxy-watch7/"
+        "url": "https://www.hepsiburada.com/ara?q=Samsung%20Galaxy%20Watch%207%20(44mm%20LTE)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 13159,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.trendyol.com/sr?q=Samsung%20Galaxy%20Watch%207%20(44mm%20LTE)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 13319,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Samsung%20Galaxy%20Watch%207%20(44mm%20LTE)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 13449,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Samsung%20Galaxy%20Watch%207%20(44mm%20LTE)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 12929,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Samsung%20Galaxy%20Watch%207%20(44mm%20LTE)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 13359,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Samsung%20Galaxy%20Watch%207%20(44mm%20LTE)",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-06-01",
-        "price": 13999,
-        "store": "Samsung"
+        "date": "Ekim 2025",
+        "price": 14820
       },
       {
-        "date": "2026-07-01",
-        "price": 12999,
-        "store": "Samsung"
+        "date": "Kasım 2025",
+        "price": 14430
+      },
+      {
+        "date": "Aralık 2025",
+        "price": 14040
+      },
+      {
+        "date": "Ocak 2026",
+        "price": 13650
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 13260
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 13000
       }
     ],
     "colorOptions": [
@@ -9181,7 +10497,7 @@ export const mockSmartwatches: Product[] = [
     "category": "smartwatches",
     "rating": 4.8,
     "reviewCount": 1240,
-    "basePrice": 9799,
+    "basePrice": 9749,
     "currency": "TL",
     "releaseYear": 2024,
     "isPopular": true,
@@ -9238,63 +10554,84 @@ export const mockSmartwatches: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "st-sm-w7-44",
-        "storeName": "Samsung Türkiye",
-        "storeLogoColor": "bg-blue-900",
-        "price": 10999,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Distribütör Garantili"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 2100,
-        "url": "https://www.samsung.com/tr/watches/galaxy-watch7/"
-      },
-      {
-        "id": "st-hb-w7-44",
         "storeName": "Hepsiburada",
-        "storeLogoColor": "bg-orange-600",
-        "price": 9899,
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 9799,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Fırsat Ürünü"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 1450,
-        "url": "https://www.hepsiburada.com/ara?q=Galaxy+Watch+7+44mm"
+        "url": "https://www.hepsiburada.com/ara?q=Samsung%20Galaxy%20Watch%207%20(44mm)",
+        "rating": 4.8
       },
       {
-        "id": "st-ty-w7-44",
         "storeName": "Trendyol",
-        "storeLogoColor": "bg-amber-600",
-        "price": 9799,
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 9919,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Hızlı Teslimat"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 2300,
-        "url": "https://www.trendyol.com/sr?q=Galaxy+Watch+7+44mm"
+        "url": "https://www.trendyol.com/sr?q=Samsung%20Galaxy%20Watch%207%20(44mm)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 10039,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Samsung%20Galaxy%20Watch%207%20(44mm)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 10139,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Samsung%20Galaxy%20Watch%207%20(44mm)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 9749,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Samsung%20Galaxy%20Watch%207%20(44mm)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 10069,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Samsung%20Galaxy%20Watch%207%20(44mm)",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-05-01",
-        "price": 11999,
-        "store": "Samsung Türkiye"
+        "date": "Ekim 2025",
+        "price": 11170
       },
       {
-        "date": "2026-06-01",
-        "price": 10499,
-        "store": "Hepsiburada"
+        "date": "Kasım 2025",
+        "price": 10880
       },
       {
-        "date": "2026-07-01",
-        "price": 9799,
-        "store": "Trendyol"
+        "date": "Aralık 2025",
+        "price": 10580
+      },
+      {
+        "date": "Ocak 2026",
+        "price": 10290
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 9990
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 9800
       }
     ],
     "colorOptions": [
@@ -9316,7 +10653,7 @@ export const mockSmartwatches: Product[] = [
     "category": "smartwatches",
     "rating": 4.8,
     "reviewCount": 710,
-    "basePrice": 11499,
+    "basePrice": 11439,
     "currency": "TL",
     "releaseYear": 2024,
     "isPopular": false,
@@ -9374,29 +10711,84 @@ export const mockSmartwatches: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "st-sm-w7-40-lte",
-        "storeName": "Samsung Türkiye",
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
         "price": 11499,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Distribütör"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 680,
-        "url": "https://www.samsung.com/tr/watches/galaxy-watch7/"
+        "url": "https://www.hepsiburada.com/ara?q=Samsung%20Galaxy%20Watch%207%20(40mm%20LTE)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 11639,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.trendyol.com/sr?q=Samsung%20Galaxy%20Watch%207%20(40mm%20LTE)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 11789,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Samsung%20Galaxy%20Watch%207%20(40mm%20LTE)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 11899,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Samsung%20Galaxy%20Watch%207%20(40mm%20LTE)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 11439,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Samsung%20Galaxy%20Watch%207%20(40mm%20LTE)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 11819,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Samsung%20Galaxy%20Watch%207%20(40mm%20LTE)",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-06-01",
-        "price": 12499,
-        "store": "Samsung"
+        "date": "Ekim 2025",
+        "price": 13110
       },
       {
-        "date": "2026-07-01",
-        "price": 11499,
-        "store": "Samsung"
+        "date": "Kasım 2025",
+        "price": 12760
+      },
+      {
+        "date": "Aralık 2025",
+        "price": 12420
+      },
+      {
+        "date": "Ocak 2026",
+        "price": 12070
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 11730
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 11500
       }
     ],
     "colorOptions": [
@@ -9418,7 +10810,7 @@ export const mockSmartwatches: Product[] = [
     "category": "smartwatches",
     "rating": 4.8,
     "reviewCount": 960,
-    "basePrice": 8399,
+    "basePrice": 8359,
     "currency": "TL",
     "releaseYear": 2024,
     "isPopular": true,
@@ -9474,42 +10866,84 @@ export const mockSmartwatches: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "st-hb-w7-40",
         "storeName": "Hepsiburada",
-        "price": 8499,
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 8399,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Samsung Garantili"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 950,
-        "url": "https://www.hepsiburada.com/ara?q=Galaxy+Watch+7+40mm"
+        "url": "https://www.hepsiburada.com/ara?q=Samsung%20Galaxy%20Watch%207%20(40mm)",
+        "rating": 4.8
       },
       {
-        "id": "st-ty-w7-40",
         "storeName": "Trendyol",
-        "price": 8399,
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 8499,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Fırsat"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 1200,
-        "url": "https://www.trendyol.com/sr?q=Galaxy+Watch+7+40mm"
+        "url": "https://www.trendyol.com/sr?q=Samsung%20Galaxy%20Watch%207%20(40mm)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 8609,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Samsung%20Galaxy%20Watch%207%20(40mm)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 8689,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Samsung%20Galaxy%20Watch%207%20(40mm)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 8359,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Samsung%20Galaxy%20Watch%207%20(40mm)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 8629,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Samsung%20Galaxy%20Watch%207%20(40mm)",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-06-01",
-        "price": 9499,
-        "store": "Samsung"
+        "date": "Ekim 2025",
+        "price": 9570
       },
       {
-        "date": "2026-07-01",
-        "price": 8399,
-        "store": "Trendyol"
+        "date": "Kasım 2025",
+        "price": 9320
+      },
+      {
+        "date": "Aralık 2025",
+        "price": 9070
+      },
+      {
+        "date": "Ocak 2026",
+        "price": 8820
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 8570
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 8400
       }
     ],
     "colorOptions": [
@@ -9531,7 +10965,7 @@ export const mockSmartwatches: Product[] = [
     "category": "smartwatches",
     "rating": 4.7,
     "reviewCount": 540,
-    "basePrice": 6999,
+    "basePrice": 6959,
     "currency": "TL",
     "releaseYear": 2024,
     "isPopular": false,
@@ -9588,29 +11022,84 @@ export const mockSmartwatches: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "st-sm-fe-lte",
-        "storeName": "Samsung",
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
         "price": 6999,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Distribütör"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 510,
-        "url": "https://www.samsung.com/tr/watches/galaxy-watch-fe/"
+        "url": "https://www.hepsiburada.com/ara?q=Samsung%20Galaxy%20Watch%20FE%20(40mm%20LTE)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 7079,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.trendyol.com/sr?q=Samsung%20Galaxy%20Watch%20FE%20(40mm%20LTE)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 7169,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Samsung%20Galaxy%20Watch%20FE%20(40mm%20LTE)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 7239,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Samsung%20Galaxy%20Watch%20FE%20(40mm%20LTE)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 6959,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Samsung%20Galaxy%20Watch%20FE%20(40mm%20LTE)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 7199,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Samsung%20Galaxy%20Watch%20FE%20(40mm%20LTE)",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-06-01",
-        "price": 7499,
-        "store": "Samsung"
+        "date": "Ekim 2025",
+        "price": 7980
       },
       {
-        "date": "2026-07-01",
-        "price": 6999,
-        "store": "Samsung"
+        "date": "Kasım 2025",
+        "price": 7770
+      },
+      {
+        "date": "Aralık 2025",
+        "price": 7560
+      },
+      {
+        "date": "Ocak 2026",
+        "price": 7350
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 7140
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 7000
       }
     ],
     "colorOptions": [
@@ -9632,7 +11121,7 @@ export const mockSmartwatches: Product[] = [
     "category": "smartwatches",
     "rating": 4.7,
     "reviewCount": 810,
-    "basePrice": 4899,
+    "basePrice": 4879,
     "currency": "TL",
     "releaseYear": 2024,
     "isPopular": true,
@@ -9687,42 +11176,84 @@ export const mockSmartwatches: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "st-hb-wfe",
         "storeName": "Hepsiburada",
-        "price": 4999,
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 4899,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Fırsat Ürünü"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 870,
-        "url": "https://www.hepsiburada.com/ara?q=Galaxy+Watch+FE"
+        "url": "https://www.hepsiburada.com/ara?q=Samsung%20Galaxy%20Watch%20FE%20(40mm)",
+        "rating": 4.8
       },
       {
-        "id": "st-ty-wfe",
         "storeName": "Trendyol",
-        "price": 4899,
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 4959,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "En İyi Fiyat"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 1100,
-        "url": "https://www.trendyol.com/sr?q=Galaxy+Watch+FE"
+        "url": "https://www.trendyol.com/sr?q=Samsung%20Galaxy%20Watch%20FE%20(40mm)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 5019,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Samsung%20Galaxy%20Watch%20FE%20(40mm)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 5069,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Samsung%20Galaxy%20Watch%20FE%20(40mm)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 4879,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Samsung%20Galaxy%20Watch%20FE%20(40mm)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 5039,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Samsung%20Galaxy%20Watch%20FE%20(40mm)",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-06-01",
-        "price": 5499,
-        "store": "Samsung"
+        "date": "Ekim 2025",
+        "price": 5580
       },
       {
-        "date": "2026-07-01",
-        "price": 4899,
-        "store": "Trendyol"
+        "date": "Kasım 2025",
+        "price": 5440
+      },
+      {
+        "date": "Aralık 2025",
+        "price": 5290
+      },
+      {
+        "date": "Ocak 2026",
+        "price": 5140
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 5000
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 4900
       }
     ],
     "colorOptions": [
@@ -9748,7 +11279,7 @@ export const mockSmartwatches: Product[] = [
     "category": "smartwatches",
     "rating": 4.7,
     "reviewCount": 2420,
-    "basePrice": 2149,
+    "basePrice": 2139,
     "currency": "TL",
     "releaseYear": 2024,
     "isPopular": true,
@@ -9799,47 +11330,84 @@ export const mockSmartwatches: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "st-hb-fit3",
         "storeName": "Hepsiburada",
-        "price": 2199,
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 2149,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Çok Satan 1."
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 3200,
-        "url": "https://www.hepsiburada.com/ara?q=Galaxy+Fit+3"
+        "url": "https://www.hepsiburada.com/ara?q=Samsung%20Galaxy%20Fit%203%20Ak%C4%B1ll%C4%B1%20Bileklik",
+        "rating": 4.8
       },
       {
-        "id": "st-ty-fit3",
         "storeName": "Trendyol",
-        "price": 2149,
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 2179,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Süper Fırsat"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 4500,
-        "url": "https://www.trendyol.com/sr?q=Galaxy+Fit+3"
+        "url": "https://www.trendyol.com/sr?q=Samsung%20Galaxy%20Fit%203%20Ak%C4%B1ll%C4%B1%20Bileklik",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 2199,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Samsung%20Galaxy%20Fit%203%20Ak%C4%B1ll%C4%B1%20Bileklik",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 2219,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Samsung%20Galaxy%20Fit%203%20Ak%C4%B1ll%C4%B1%20Bileklik",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 2139,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Samsung%20Galaxy%20Fit%203%20Ak%C4%B1ll%C4%B1%20Bileklik",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 2209,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Samsung%20Galaxy%20Fit%203%20Ak%C4%B1ll%C4%B1%20Bileklik",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-05-01",
-        "price": 2499,
-        "store": "Samsung"
+        "date": "Ekim 2025",
+        "price": 2450
       },
       {
-        "date": "2026-06-01",
-        "price": 2299,
-        "store": "Hepsiburada"
+        "date": "Kasım 2025",
+        "price": 2390
       },
       {
-        "date": "2026-07-01",
-        "price": 2149,
-        "store": "Trendyol"
+        "date": "Aralık 2025",
+        "price": 2320
+      },
+      {
+        "date": "Ocak 2026",
+        "price": 2260
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 2190
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 2150
       }
     ],
     "colorOptions": [
@@ -9865,7 +11433,7 @@ export const mockSmartwatches: Product[] = [
     "category": "smartwatches",
     "rating": 4.8,
     "reviewCount": 940,
-    "basePrice": 10499,
+    "basePrice": 10449,
     "currency": "TL",
     "releaseYear": 2023,
     "isPopular": false,
@@ -9923,29 +11491,84 @@ export const mockSmartwatches: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "st-sm-w6c-47-lte",
-        "storeName": "Samsung",
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
         "price": 10499,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Distribütör"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 890,
-        "url": "https://www.samsung.com/tr/watches/galaxy-watch6-classic/"
+        "url": "https://www.hepsiburada.com/ara?q=Samsung%20Galaxy%20Watch%206%20Classic%20(47mm%20LTE)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 10629,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.trendyol.com/sr?q=Samsung%20Galaxy%20Watch%206%20Classic%20(47mm%20LTE)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 10759,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Samsung%20Galaxy%20Watch%206%20Classic%20(47mm%20LTE)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 10869,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Samsung%20Galaxy%20Watch%206%20Classic%20(47mm%20LTE)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 10449,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Samsung%20Galaxy%20Watch%206%20Classic%20(47mm%20LTE)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 10789,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Samsung%20Galaxy%20Watch%206%20Classic%20(47mm%20LTE)",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-06-01",
-        "price": 11499,
-        "store": "Samsung"
+        "date": "Ekim 2025",
+        "price": 11970
       },
       {
-        "date": "2026-07-01",
-        "price": 10499,
-        "store": "Samsung"
+        "date": "Kasım 2025",
+        "price": 11650
+      },
+      {
+        "date": "Aralık 2025",
+        "price": 11340
+      },
+      {
+        "date": "Ocak 2026",
+        "price": 11020
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 10710
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 10500
       }
     ],
     "colorOptions": [
@@ -9967,7 +11590,7 @@ export const mockSmartwatches: Product[] = [
     "category": "smartwatches",
     "rating": 4.8,
     "reviewCount": 1650,
-    "basePrice": 8299,
+    "basePrice": 8259,
     "currency": "TL",
     "releaseYear": 2023,
     "isPopular": true,
@@ -10024,47 +11647,84 @@ export const mockSmartwatches: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "st-hb-w6c-47",
         "storeName": "Hepsiburada",
-        "price": 8499,
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 8299,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Distribütör Garantili"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 1200,
-        "url": "https://www.hepsiburada.com/ara?q=Galaxy+Watch+6+Classic+47mm"
+        "url": "https://www.hepsiburada.com/ara?q=Samsung%20Galaxy%20Watch%206%20Classic%20(47mm)",
+        "rating": 4.8
       },
       {
-        "id": "st-ty-w6c-47",
         "storeName": "Trendyol",
-        "price": 8299,
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 8399,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "En İyi Fiyat"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 1600,
-        "url": "https://www.trendyol.com/sr?q=Galaxy+Watch+6+Classic+47mm"
+        "url": "https://www.trendyol.com/sr?q=Samsung%20Galaxy%20Watch%206%20Classic%20(47mm)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 8509,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Samsung%20Galaxy%20Watch%206%20Classic%20(47mm)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 8589,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Samsung%20Galaxy%20Watch%206%20Classic%20(47mm)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 8259,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Samsung%20Galaxy%20Watch%206%20Classic%20(47mm)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 8529,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Samsung%20Galaxy%20Watch%206%20Classic%20(47mm)",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-05-01",
-        "price": 9499,
-        "store": "Samsung"
+        "date": "Ekim 2025",
+        "price": 9460
       },
       {
-        "date": "2026-06-01",
-        "price": 8799,
-        "store": "Hepsiburada"
+        "date": "Kasım 2025",
+        "price": 9210
       },
       {
-        "date": "2026-07-01",
-        "price": 8299,
-        "store": "Trendyol"
+        "date": "Aralık 2025",
+        "price": 8960
+      },
+      {
+        "date": "Ocak 2026",
+        "price": 8710
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 8460
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 8300
       }
     ],
     "colorOptions": [
@@ -10086,7 +11746,7 @@ export const mockSmartwatches: Product[] = [
     "category": "smartwatches",
     "rating": 4.7,
     "reviewCount": 680,
-    "basePrice": 9499,
+    "basePrice": 9449,
     "currency": "TL",
     "releaseYear": 2023,
     "isPopular": false,
@@ -10142,29 +11802,84 @@ export const mockSmartwatches: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "st-sm-w6c-43-lte",
-        "storeName": "Samsung",
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
         "price": 9499,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Distribütör"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 610,
-        "url": "https://www.samsung.com/tr/watches/galaxy-watch6-classic/"
+        "url": "https://www.hepsiburada.com/ara?q=Samsung%20Galaxy%20Watch%206%20Classic%20(43mm%20LTE)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 9609,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.trendyol.com/sr?q=Samsung%20Galaxy%20Watch%206%20Classic%20(43mm%20LTE)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 9739,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Samsung%20Galaxy%20Watch%206%20Classic%20(43mm%20LTE)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 9829,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Samsung%20Galaxy%20Watch%206%20Classic%20(43mm%20LTE)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 9449,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Samsung%20Galaxy%20Watch%206%20Classic%20(43mm%20LTE)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 9769,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Samsung%20Galaxy%20Watch%206%20Classic%20(43mm%20LTE)",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-06-01",
-        "price": 9999,
-        "store": "Samsung"
+        "date": "Ekim 2025",
+        "price": 10830
       },
       {
-        "date": "2026-07-01",
-        "price": 9499,
-        "store": "Samsung"
+        "date": "Kasım 2025",
+        "price": 10540
+      },
+      {
+        "date": "Aralık 2025",
+        "price": 10260
+      },
+      {
+        "date": "Ocak 2026",
+        "price": 9970
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 9690
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 9500
       }
     ],
     "colorOptions": [
@@ -10186,7 +11901,7 @@ export const mockSmartwatches: Product[] = [
     "category": "smartwatches",
     "rating": 4.8,
     "reviewCount": 920,
-    "basePrice": 7499,
+    "basePrice": 7459,
     "currency": "TL",
     "releaseYear": 2023,
     "isPopular": false,
@@ -10240,29 +11955,84 @@ export const mockSmartwatches: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "st-hb-w6c-43",
         "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
         "price": 7499,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Distribütör"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 890,
-        "url": "https://www.hepsiburada.com/ara?q=Galaxy+Watch+6+Classic+43mm"
+        "url": "https://www.hepsiburada.com/ara?q=Samsung%20Galaxy%20Watch%206%20Classic%20(43mm)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 7589,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.trendyol.com/sr?q=Samsung%20Galaxy%20Watch%206%20Classic%20(43mm)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 7689,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Samsung%20Galaxy%20Watch%206%20Classic%20(43mm)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 7759,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Samsung%20Galaxy%20Watch%206%20Classic%20(43mm)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 7459,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Samsung%20Galaxy%20Watch%206%20Classic%20(43mm)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 7709,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Samsung%20Galaxy%20Watch%206%20Classic%20(43mm)",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-06-01",
-        "price": 7999,
-        "store": "Samsung"
+        "date": "Ekim 2025",
+        "price": 8550
       },
       {
-        "date": "2026-07-01",
-        "price": 7499,
-        "store": "Hepsiburada"
+        "date": "Kasım 2025",
+        "price": 8320
+      },
+      {
+        "date": "Aralık 2025",
+        "price": 8100
+      },
+      {
+        "date": "Ocak 2026",
+        "price": 7870
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 7650
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 7500
       }
     ],
     "colorOptions": [
@@ -10284,7 +12054,7 @@ export const mockSmartwatches: Product[] = [
     "category": "smartwatches",
     "rating": 4.7,
     "reviewCount": 780,
-    "basePrice": 8499,
+    "basePrice": 8459,
     "currency": "TL",
     "releaseYear": 2023,
     "isPopular": false,
@@ -10340,29 +12110,84 @@ export const mockSmartwatches: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "st-sm-w6-44-lte",
-        "storeName": "Samsung",
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
         "price": 8499,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Distribütör"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 670,
-        "url": "https://www.samsung.com/tr/watches/galaxy-watch6/"
+        "url": "https://www.hepsiburada.com/ara?q=Samsung%20Galaxy%20Watch%206%20(44mm%20LTE)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 8599,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.trendyol.com/sr?q=Samsung%20Galaxy%20Watch%206%20(44mm%20LTE)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 8709,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Samsung%20Galaxy%20Watch%206%20(44mm%20LTE)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 8799,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Samsung%20Galaxy%20Watch%206%20(44mm%20LTE)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 8459,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Samsung%20Galaxy%20Watch%206%20(44mm%20LTE)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 8739,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Samsung%20Galaxy%20Watch%206%20(44mm%20LTE)",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-06-01",
-        "price": 8999,
-        "store": "Samsung"
+        "date": "Ekim 2025",
+        "price": 9690
       },
       {
-        "date": "2026-07-01",
-        "price": 8499,
-        "store": "Samsung"
+        "date": "Kasım 2025",
+        "price": 9430
+      },
+      {
+        "date": "Aralık 2025",
+        "price": 9180
+      },
+      {
+        "date": "Ocak 2026",
+        "price": 8920
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 8670
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 8500
       }
     ],
     "colorOptions": [
@@ -10384,7 +12209,7 @@ export const mockSmartwatches: Product[] = [
     "category": "smartwatches",
     "rating": 4.8,
     "reviewCount": 1420,
-    "basePrice": 6399,
+    "basePrice": 6369,
     "currency": "TL",
     "releaseYear": 2023,
     "isPopular": true,
@@ -10441,47 +12266,84 @@ export const mockSmartwatches: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "st-hb-w6-44",
         "storeName": "Hepsiburada",
-        "price": 6499,
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 6399,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Fırsat"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 1200,
-        "url": "https://www.hepsiburada.com/ara?q=Galaxy+Watch+6+44mm"
+        "url": "https://www.hepsiburada.com/ara?q=Samsung%20Galaxy%20Watch%206%20(44mm)",
+        "rating": 4.8
       },
       {
-        "id": "st-ty-w6-44",
         "storeName": "Trendyol",
-        "price": 6399,
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 6479,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Kuponlu Ürün"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 1800,
-        "url": "https://www.trendyol.com/sr?q=Galaxy+Watch+6+44mm"
+        "url": "https://www.trendyol.com/sr?q=Samsung%20Galaxy%20Watch%206%20(44mm)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 6559,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Samsung%20Galaxy%20Watch%206%20(44mm)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 6619,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Samsung%20Galaxy%20Watch%206%20(44mm)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 6369,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Samsung%20Galaxy%20Watch%206%20(44mm)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 6579,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Samsung%20Galaxy%20Watch%206%20(44mm)",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-05-01",
-        "price": 7499,
-        "store": "Samsung"
+        "date": "Ekim 2025",
+        "price": 7290
       },
       {
-        "date": "2026-06-01",
-        "price": 6899,
-        "store": "Hepsiburada"
+        "date": "Kasım 2025",
+        "price": 7100
       },
       {
-        "date": "2026-07-01",
-        "price": 6399,
-        "store": "Trendyol"
+        "date": "Aralık 2025",
+        "price": 6910
+      },
+      {
+        "date": "Ocak 2026",
+        "price": 6720
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 6530
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 6400
       }
     ],
     "colorOptions": [
@@ -10503,7 +12365,7 @@ export const mockSmartwatches: Product[] = [
     "category": "smartwatches",
     "rating": 4.7,
     "reviewCount": 520,
-    "basePrice": 7499,
+    "basePrice": 7459,
     "currency": "TL",
     "releaseYear": 2023,
     "isPopular": false,
@@ -10559,29 +12421,84 @@ export const mockSmartwatches: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "st-sm-w6-40-lte",
-        "storeName": "Samsung",
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
         "price": 7499,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Distribütör"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 480,
-        "url": "https://www.samsung.com/tr/watches/galaxy-watch6/"
+        "url": "https://www.hepsiburada.com/ara?q=Samsung%20Galaxy%20Watch%206%20(40mm%20LTE)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 7589,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.trendyol.com/sr?q=Samsung%20Galaxy%20Watch%206%20(40mm%20LTE)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 7689,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Samsung%20Galaxy%20Watch%206%20(40mm%20LTE)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 7759,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Samsung%20Galaxy%20Watch%206%20(40mm%20LTE)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 7459,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Samsung%20Galaxy%20Watch%206%20(40mm%20LTE)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 7709,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Samsung%20Galaxy%20Watch%206%20(40mm%20LTE)",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-06-01",
-        "price": 7999,
-        "store": "Samsung"
+        "date": "Ekim 2025",
+        "price": 8550
       },
       {
-        "date": "2026-07-01",
-        "price": 7499,
-        "store": "Samsung"
+        "date": "Kasım 2025",
+        "price": 8320
+      },
+      {
+        "date": "Aralık 2025",
+        "price": 8100
+      },
+      {
+        "date": "Ocak 2026",
+        "price": 7870
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 7650
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 7500
       }
     ],
     "colorOptions": [
@@ -10603,7 +12520,7 @@ export const mockSmartwatches: Product[] = [
     "category": "smartwatches",
     "rating": 4.7,
     "reviewCount": 1100,
-    "basePrice": 5499,
+    "basePrice": 5469,
     "currency": "TL",
     "releaseYear": 2023,
     "isPopular": false,
@@ -10657,29 +12574,84 @@ export const mockSmartwatches: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "st-hb-w6-40",
         "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
         "price": 5499,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Distribütör Garantili"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 900,
-        "url": "https://www.hepsiburada.com/ara?q=Galaxy+Watch+6+40mm"
+        "url": "https://www.hepsiburada.com/ara?q=Samsung%20Galaxy%20Watch%206%20(40mm)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 5569,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.trendyol.com/sr?q=Samsung%20Galaxy%20Watch%206%20(40mm)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 5639,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Samsung%20Galaxy%20Watch%206%20(40mm)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 5689,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Samsung%20Galaxy%20Watch%206%20(40mm)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 5469,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Samsung%20Galaxy%20Watch%206%20(40mm)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 5649,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Samsung%20Galaxy%20Watch%206%20(40mm)",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-06-01",
-        "price": 5999,
-        "store": "Samsung"
+        "date": "Ekim 2025",
+        "price": 6270
       },
       {
-        "date": "2026-07-01",
-        "price": 5499,
-        "store": "Hepsiburada"
+        "date": "Kasım 2025",
+        "price": 6100
+      },
+      {
+        "date": "Aralık 2025",
+        "price": 5940
+      },
+      {
+        "date": "Ocak 2026",
+        "price": 5770
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 5610
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 5500
       }
     ],
     "colorOptions": [
@@ -10701,7 +12673,7 @@ export const mockSmartwatches: Product[] = [
     "category": "smartwatches",
     "rating": 4.8,
     "reviewCount": 1100,
-    "basePrice": 9499,
+    "basePrice": 9449,
     "currency": "TL",
     "releaseYear": 2022,
     "isPopular": false,
@@ -10758,29 +12730,84 @@ export const mockSmartwatches: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "st-sm-w5pro-lte",
-        "storeName": "Samsung",
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
         "price": 9499,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Distribütör"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 950,
-        "url": "https://www.samsung.com/tr/watches/galaxy-watch5-pro/"
+        "url": "https://www.hepsiburada.com/ara?q=Samsung%20Galaxy%20Watch%205%20Pro%20(45mm%20LTE%20Titanyum)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 9609,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.trendyol.com/sr?q=Samsung%20Galaxy%20Watch%205%20Pro%20(45mm%20LTE%20Titanyum)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 9739,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Samsung%20Galaxy%20Watch%205%20Pro%20(45mm%20LTE%20Titanyum)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 9829,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Samsung%20Galaxy%20Watch%205%20Pro%20(45mm%20LTE%20Titanyum)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 9449,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Samsung%20Galaxy%20Watch%205%20Pro%20(45mm%20LTE%20Titanyum)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 9769,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Samsung%20Galaxy%20Watch%205%20Pro%20(45mm%20LTE%20Titanyum)",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-06-01",
-        "price": 9999,
-        "store": "Samsung"
+        "date": "Ekim 2025",
+        "price": 10830
       },
       {
-        "date": "2026-07-01",
-        "price": 9499,
-        "store": "Samsung"
+        "date": "Kasım 2025",
+        "price": 10540
+      },
+      {
+        "date": "Aralık 2025",
+        "price": 10260
+      },
+      {
+        "date": "Ocak 2026",
+        "price": 9970
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 9690
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 9500
       }
     ],
     "colorOptions": [
@@ -10802,7 +12829,7 @@ export const mockSmartwatches: Product[] = [
     "category": "smartwatches",
     "rating": 4.8,
     "reviewCount": 1950,
-    "basePrice": 7299,
+    "basePrice": 7259,
     "currency": "TL",
     "releaseYear": 2022,
     "isPopular": true,
@@ -10859,47 +12886,84 @@ export const mockSmartwatches: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "st-hb-w5pro",
         "storeName": "Hepsiburada",
-        "price": 7499,
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 7299,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Distribütör Garantili"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 1800,
-        "url": "https://www.hepsiburada.com/ara?q=Galaxy+Watch+5+Pro"
+        "url": "https://www.hepsiburada.com/ara?q=Samsung%20Galaxy%20Watch%205%20Pro%20(45mm%20Titanyum)",
+        "rating": 4.8
       },
       {
-        "id": "st-ty-w5pro",
         "storeName": "Trendyol",
-        "price": 7299,
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 7389,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Kupon Fırsatı"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 2400,
-        "url": "https://www.trendyol.com/sr?q=Galaxy+Watch+5+Pro"
+        "url": "https://www.trendyol.com/sr?q=Samsung%20Galaxy%20Watch%205%20Pro%20(45mm%20Titanyum)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 7479,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Samsung%20Galaxy%20Watch%205%20Pro%20(45mm%20Titanyum)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 7549,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Samsung%20Galaxy%20Watch%205%20Pro%20(45mm%20Titanyum)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 7259,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Samsung%20Galaxy%20Watch%205%20Pro%20(45mm%20Titanyum)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 7499,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Samsung%20Galaxy%20Watch%205%20Pro%20(45mm%20Titanyum)",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-05-01",
-        "price": 8499,
-        "store": "Samsung"
+        "date": "Ekim 2025",
+        "price": 8320
       },
       {
-        "date": "2026-06-01",
-        "price": 7799,
-        "store": "Hepsiburada"
+        "date": "Kasım 2025",
+        "price": 8100
       },
       {
-        "date": "2026-07-01",
-        "price": 7299,
-        "store": "Trendyol"
+        "date": "Aralık 2025",
+        "price": 7880
+      },
+      {
+        "date": "Ocak 2026",
+        "price": 7660
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 7440
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 7300
       }
     ],
     "colorOptions": [
@@ -10921,7 +12985,7 @@ export const mockSmartwatches: Product[] = [
     "category": "smartwatches",
     "rating": 4.7,
     "reviewCount": 840,
-    "basePrice": 5999,
+    "basePrice": 5969,
     "currency": "TL",
     "releaseYear": 2022,
     "isPopular": false,
@@ -10977,29 +13041,84 @@ export const mockSmartwatches: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "st-sm-w5-44-lte",
-        "storeName": "Samsung",
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
         "price": 5999,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Distribütör"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 690,
-        "url": "https://www.samsung.com/tr/watches/galaxy-watch5/"
+        "url": "https://www.hepsiburada.com/ara?q=Samsung%20Galaxy%20Watch%205%20(44mm%20LTE)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 6069,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.trendyol.com/sr?q=Samsung%20Galaxy%20Watch%205%20(44mm%20LTE)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 6149,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Samsung%20Galaxy%20Watch%205%20(44mm%20LTE)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 6209,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Samsung%20Galaxy%20Watch%205%20(44mm%20LTE)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 5969,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Samsung%20Galaxy%20Watch%205%20(44mm%20LTE)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 6169,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Samsung%20Galaxy%20Watch%205%20(44mm%20LTE)",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-06-01",
-        "price": 6499,
-        "store": "Samsung"
+        "date": "Ekim 2025",
+        "price": 6840
       },
       {
-        "date": "2026-07-01",
-        "price": 5999,
-        "store": "Samsung"
+        "date": "Kasım 2025",
+        "price": 6660
+      },
+      {
+        "date": "Aralık 2025",
+        "price": 6480
+      },
+      {
+        "date": "Ocak 2026",
+        "price": 6300
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 6120
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 6000
       }
     ],
     "colorOptions": [
@@ -11021,7 +13140,7 @@ export const mockSmartwatches: Product[] = [
     "category": "smartwatches",
     "rating": 4.7,
     "reviewCount": 1380,
-    "basePrice": 4599,
+    "basePrice": 4579,
     "currency": "TL",
     "releaseYear": 2022,
     "isPopular": false,
@@ -11075,29 +13194,84 @@ export const mockSmartwatches: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "st-hb-w5-44",
         "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
         "price": 4599,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Samsung Garantili"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 950,
-        "url": "https://www.hepsiburada.com/ara?q=Galaxy+Watch+5+44mm"
+        "url": "https://www.hepsiburada.com/ara?q=Samsung%20Galaxy%20Watch%205%20(44mm)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 4649,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.trendyol.com/sr?q=Samsung%20Galaxy%20Watch%205%20(44mm)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 4709,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Samsung%20Galaxy%20Watch%205%20(44mm)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 4759,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Samsung%20Galaxy%20Watch%205%20(44mm)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 4579,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Samsung%20Galaxy%20Watch%205%20(44mm)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 4729,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Samsung%20Galaxy%20Watch%205%20(44mm)",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-06-01",
-        "price": 4999,
-        "store": "Samsung"
+        "date": "Ekim 2025",
+        "price": 5240
       },
       {
-        "date": "2026-07-01",
-        "price": 4599,
-        "store": "Hepsiburada"
+        "date": "Kasım 2025",
+        "price": 5100
+      },
+      {
+        "date": "Aralık 2025",
+        "price": 4970
+      },
+      {
+        "date": "Ocak 2026",
+        "price": 4830
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 4690
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 4600
       }
     ],
     "colorOptions": [
@@ -11123,7 +13297,7 @@ export const mockSmartwatches: Product[] = [
     "category": "smartwatches",
     "rating": 4.6,
     "reviewCount": 620,
-    "basePrice": 5299,
+    "basePrice": 5269,
     "currency": "TL",
     "releaseYear": 2022,
     "isPopular": false,
@@ -11179,29 +13353,84 @@ export const mockSmartwatches: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "st-sm-w5-40-lte",
-        "storeName": "Samsung",
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
         "price": 5299,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Distribütör"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 540,
-        "url": "https://www.samsung.com/tr/watches/galaxy-watch5/"
+        "url": "https://www.hepsiburada.com/ara?q=Samsung%20Galaxy%20Watch%205%20(40mm%20LTE)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 5359,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.trendyol.com/sr?q=Samsung%20Galaxy%20Watch%205%20(40mm%20LTE)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 5429,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Samsung%20Galaxy%20Watch%205%20(40mm%20LTE)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 5479,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Samsung%20Galaxy%20Watch%205%20(40mm%20LTE)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 5269,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Samsung%20Galaxy%20Watch%205%20(40mm%20LTE)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 5449,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Samsung%20Galaxy%20Watch%205%20(40mm%20LTE)",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-06-01",
-        "price": 5699,
-        "store": "Samsung"
+        "date": "Ekim 2025",
+        "price": 6040
       },
       {
-        "date": "2026-07-01",
-        "price": 5299,
-        "store": "Samsung"
+        "date": "Kasım 2025",
+        "price": 5880
+      },
+      {
+        "date": "Aralık 2025",
+        "price": 5720
+      },
+      {
+        "date": "Ocak 2026",
+        "price": 5560
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 5400
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 5300
       }
     ],
     "colorOptions": [
@@ -11223,7 +13452,7 @@ export const mockSmartwatches: Product[] = [
     "category": "smartwatches",
     "rating": 4.7,
     "reviewCount": 1120,
-    "basePrice": 4199,
+    "basePrice": 4179,
     "currency": "TL",
     "releaseYear": 2022,
     "isPopular": false,
@@ -11277,29 +13506,84 @@ export const mockSmartwatches: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "st-hb-w5-40",
         "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
         "price": 4199,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Distribütör Garantili"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 890,
-        "url": "https://www.hepsiburada.com/ara?q=Galaxy+Watch+5+40mm"
+        "url": "https://www.hepsiburada.com/ara?q=Samsung%20Galaxy%20Watch%205%20(40mm)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 4249,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.trendyol.com/sr?q=Samsung%20Galaxy%20Watch%205%20(40mm)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 4299,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Samsung%20Galaxy%20Watch%205%20(40mm)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 4349,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Samsung%20Galaxy%20Watch%205%20(40mm)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 4179,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Samsung%20Galaxy%20Watch%205%20(40mm)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 4319,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Samsung%20Galaxy%20Watch%205%20(40mm)",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-06-01",
-        "price": 4499,
-        "store": "Samsung"
+        "date": "Ekim 2025",
+        "price": 4790
       },
       {
-        "date": "2026-07-01",
-        "price": 4199,
-        "store": "Hepsiburada"
+        "date": "Kasım 2025",
+        "price": 4660
+      },
+      {
+        "date": "Aralık 2025",
+        "price": 4530
+      },
+      {
+        "date": "Ocak 2026",
+        "price": 4410
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 4280
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 4200
       }
     ],
     "colorOptions": [
@@ -11325,7 +13609,7 @@ export const mockSmartwatches: Product[] = [
     "category": "smartwatches",
     "rating": 4.7,
     "reviewCount": 980,
-    "basePrice": 5199,
+    "basePrice": 5169,
     "currency": "TL",
     "releaseYear": 2021,
     "isPopular": false,
@@ -11381,29 +13665,84 @@ export const mockSmartwatches: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "st-sm-w4c-46-lte",
-        "storeName": "Samsung",
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
         "price": 5199,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Distribütör"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 780,
-        "url": "https://www.samsung.com/tr/watches/galaxy-watch4-classic/"
+        "url": "https://www.hepsiburada.com/ara?q=Samsung%20Galaxy%20Watch%204%20Classic%20(46mm%20LTE)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 5259,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.trendyol.com/sr?q=Samsung%20Galaxy%20Watch%204%20Classic%20(46mm%20LTE)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 5329,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Samsung%20Galaxy%20Watch%204%20Classic%20(46mm%20LTE)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 5379,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Samsung%20Galaxy%20Watch%204%20Classic%20(46mm%20LTE)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 5169,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Samsung%20Galaxy%20Watch%204%20Classic%20(46mm%20LTE)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 5349,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Samsung%20Galaxy%20Watch%204%20Classic%20(46mm%20LTE)",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-06-01",
-        "price": 5499,
-        "store": "Samsung"
+        "date": "Ekim 2025",
+        "price": 5930
       },
       {
-        "date": "2026-07-01",
-        "price": 5199,
-        "store": "Samsung"
+        "date": "Kasım 2025",
+        "price": 5770
+      },
+      {
+        "date": "Aralık 2025",
+        "price": 5610
+      },
+      {
+        "date": "Ocak 2026",
+        "price": 5460
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 5300
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 5200
       }
     ],
     "colorOptions": [
@@ -11425,7 +13764,7 @@ export const mockSmartwatches: Product[] = [
     "category": "smartwatches",
     "rating": 4.7,
     "reviewCount": 2200,
-    "basePrice": 3999,
+    "basePrice": 3979,
     "currency": "TL",
     "releaseYear": 2021,
     "isPopular": false,
@@ -11480,29 +13819,84 @@ export const mockSmartwatches: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "st-hb-w4c-46",
         "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
         "price": 3999,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Avantajlı Fiyat"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 1600,
-        "url": "https://www.hepsiburada.com/ara?q=Galaxy+Watch+4+Classic+46mm"
+        "url": "https://www.hepsiburada.com/ara?q=Samsung%20Galaxy%20Watch%204%20Classic%20(46mm)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 4049,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.trendyol.com/sr?q=Samsung%20Galaxy%20Watch%204%20Classic%20(46mm)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 4099,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Samsung%20Galaxy%20Watch%204%20Classic%20(46mm)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 4139,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Samsung%20Galaxy%20Watch%204%20Classic%20(46mm)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 3979,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Samsung%20Galaxy%20Watch%204%20Classic%20(46mm)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 4109,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Samsung%20Galaxy%20Watch%204%20Classic%20(46mm)",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-06-01",
-        "price": 4299,
-        "store": "Samsung"
+        "date": "Ekim 2025",
+        "price": 4560
       },
       {
-        "date": "2026-07-01",
-        "price": 3999,
-        "store": "Hepsiburada"
+        "date": "Kasım 2025",
+        "price": 4440
+      },
+      {
+        "date": "Aralık 2025",
+        "price": 4320
+      },
+      {
+        "date": "Ocak 2026",
+        "price": 4200
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 4080
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 4000
       }
     ],
     "colorOptions": [
@@ -11524,7 +13918,7 @@ export const mockSmartwatches: Product[] = [
     "category": "smartwatches",
     "rating": 4.6,
     "reviewCount": 610,
-    "basePrice": 4699,
+    "basePrice": 4679,
     "currency": "TL",
     "releaseYear": 2021,
     "isPopular": false,
@@ -11579,29 +13973,84 @@ export const mockSmartwatches: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "st-sm-w4c-42-lte",
-        "storeName": "Samsung",
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
         "price": 4699,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Distribütör"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 540,
-        "url": "https://www.samsung.com/tr/watches/galaxy-watch4-classic/"
+        "url": "https://www.hepsiburada.com/ara?q=Samsung%20Galaxy%20Watch%204%20Classic%20(42mm%20LTE)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 4759,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.trendyol.com/sr?q=Samsung%20Galaxy%20Watch%204%20Classic%20(42mm%20LTE)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 4819,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Samsung%20Galaxy%20Watch%204%20Classic%20(42mm%20LTE)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 4859,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Samsung%20Galaxy%20Watch%204%20Classic%20(42mm%20LTE)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 4679,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Samsung%20Galaxy%20Watch%204%20Classic%20(42mm%20LTE)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 4829,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Samsung%20Galaxy%20Watch%204%20Classic%20(42mm%20LTE)",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-06-01",
-        "price": 4999,
-        "store": "Samsung"
+        "date": "Ekim 2025",
+        "price": 5360
       },
       {
-        "date": "2026-07-01",
-        "price": 4699,
-        "store": "Samsung"
+        "date": "Kasım 2025",
+        "price": 5220
+      },
+      {
+        "date": "Aralık 2025",
+        "price": 5070
+      },
+      {
+        "date": "Ocak 2026",
+        "price": 4930
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 4790
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 4700
       }
     ],
     "colorOptions": [
@@ -11623,7 +14072,7 @@ export const mockSmartwatches: Product[] = [
     "category": "smartwatches",
     "rating": 4.7,
     "reviewCount": 1400,
-    "basePrice": 3699,
+    "basePrice": 3679,
     "currency": "TL",
     "releaseYear": 2021,
     "isPopular": false,
@@ -11677,29 +14126,84 @@ export const mockSmartwatches: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "st-hb-w4c-42",
         "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
         "price": 3699,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Uygun Fiyat"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 950,
-        "url": "https://www.hepsiburada.com/ara?q=Galaxy+Watch+4+Classic+42mm"
+        "url": "https://www.hepsiburada.com/ara?q=Samsung%20Galaxy%20Watch%204%20Classic%20(42mm)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 3739,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.trendyol.com/sr?q=Samsung%20Galaxy%20Watch%204%20Classic%20(42mm)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 3789,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Samsung%20Galaxy%20Watch%204%20Classic%20(42mm)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 3829,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Samsung%20Galaxy%20Watch%204%20Classic%20(42mm)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 3679,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Samsung%20Galaxy%20Watch%204%20Classic%20(42mm)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 3799,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Samsung%20Galaxy%20Watch%204%20Classic%20(42mm)",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-06-01",
-        "price": 3899,
-        "store": "Hepsiburada"
+        "date": "Ekim 2025",
+        "price": 4220
       },
       {
-        "date": "2026-07-01",
-        "price": 3699,
-        "store": "Trendyol"
+        "date": "Kasım 2025",
+        "price": 4110
+      },
+      {
+        "date": "Aralık 2025",
+        "price": 3990
+      },
+      {
+        "date": "Ocak 2026",
+        "price": 3880
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 3770
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 3700
       }
     ],
     "colorOptions": [
@@ -11721,7 +14225,7 @@ export const mockSmartwatches: Product[] = [
     "category": "smartwatches",
     "rating": 4.6,
     "reviewCount": 890,
-    "basePrice": 4299,
+    "basePrice": 4279,
     "currency": "TL",
     "releaseYear": 2021,
     "isPopular": false,
@@ -11776,29 +14280,84 @@ export const mockSmartwatches: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "st-sm-w4-44-lte",
-        "storeName": "Samsung",
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
         "price": 4299,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Distribütör"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 690,
-        "url": "https://www.samsung.com/tr/watches/galaxy-watch4/"
+        "url": "https://www.hepsiburada.com/ara?q=Samsung%20Galaxy%20Watch%204%20(44mm%20LTE)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 4349,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.trendyol.com/sr?q=Samsung%20Galaxy%20Watch%204%20(44mm%20LTE)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 4409,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Samsung%20Galaxy%20Watch%204%20(44mm%20LTE)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 4449,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Samsung%20Galaxy%20Watch%204%20(44mm%20LTE)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 4279,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Samsung%20Galaxy%20Watch%204%20(44mm%20LTE)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 4419,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Samsung%20Galaxy%20Watch%204%20(44mm%20LTE)",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-06-01",
-        "price": 4699,
-        "store": "Samsung"
+        "date": "Ekim 2025",
+        "price": 4900
       },
       {
-        "date": "2026-07-01",
-        "price": 4299,
-        "store": "Samsung"
+        "date": "Kasım 2025",
+        "price": 4770
+      },
+      {
+        "date": "Aralık 2025",
+        "price": 4640
+      },
+      {
+        "date": "Ocak 2026",
+        "price": 4510
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 4380
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 4300
       }
     ],
     "colorOptions": [
@@ -11820,7 +14379,7 @@ export const mockSmartwatches: Product[] = [
     "category": "smartwatches",
     "rating": 4.6,
     "reviewCount": 1950,
-    "basePrice": 3299,
+    "basePrice": 3279,
     "currency": "TL",
     "releaseYear": 2021,
     "isPopular": false,
@@ -11876,29 +14435,84 @@ export const mockSmartwatches: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "st-hb-w4-44",
         "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
         "price": 3299,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Uygun Fiyat"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 1400,
-        "url": "https://www.hepsiburada.com/ara?q=Galaxy+Watch+4+44mm"
+        "url": "https://www.hepsiburada.com/ara?q=Samsung%20Galaxy%20Watch%204%20(44mm)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 3339,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.trendyol.com/sr?q=Samsung%20Galaxy%20Watch%204%20(44mm)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 3379,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Samsung%20Galaxy%20Watch%204%20(44mm)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 3409,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Samsung%20Galaxy%20Watch%204%20(44mm)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 3279,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Samsung%20Galaxy%20Watch%204%20(44mm)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 3389,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Samsung%20Galaxy%20Watch%204%20(44mm)",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-06-01",
-        "price": 3499,
-        "store": "Samsung"
+        "date": "Ekim 2025",
+        "price": 3760
       },
       {
-        "date": "2026-07-01",
-        "price": 3299,
-        "store": "Hepsiburada"
+        "date": "Kasım 2025",
+        "price": 3660
+      },
+      {
+        "date": "Aralık 2025",
+        "price": 3560
+      },
+      {
+        "date": "Ocak 2026",
+        "price": 3460
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 3360
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 3300
       }
     ],
     "colorOptions": [
@@ -11924,7 +14538,7 @@ export const mockSmartwatches: Product[] = [
     "category": "smartwatches",
     "rating": 4.6,
     "reviewCount": 710,
-    "basePrice": 3899,
+    "basePrice": 3879,
     "currency": "TL",
     "releaseYear": 2021,
     "isPopular": false,
@@ -11979,29 +14593,84 @@ export const mockSmartwatches: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "st-sm-w4-40-lte",
-        "storeName": "Samsung",
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
         "price": 3899,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Distribütör"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 540,
-        "url": "https://www.samsung.com/tr/watches/galaxy-watch4/"
+        "url": "https://www.hepsiburada.com/ara?q=Samsung%20Galaxy%20Watch%204%20(40mm%20LTE)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 3949,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.trendyol.com/sr?q=Samsung%20Galaxy%20Watch%204%20(40mm%20LTE)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 3999,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Samsung%20Galaxy%20Watch%204%20(40mm%20LTE)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 4039,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Samsung%20Galaxy%20Watch%204%20(40mm%20LTE)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 3879,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Samsung%20Galaxy%20Watch%204%20(40mm%20LTE)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 4009,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Samsung%20Galaxy%20Watch%204%20(40mm%20LTE)",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-06-01",
-        "price": 4199,
-        "store": "Samsung"
+        "date": "Ekim 2025",
+        "price": 4440
       },
       {
-        "date": "2026-07-01",
-        "price": 3899,
-        "store": "Samsung"
+        "date": "Kasım 2025",
+        "price": 4330
+      },
+      {
+        "date": "Aralık 2025",
+        "price": 4210
+      },
+      {
+        "date": "Ocak 2026",
+        "price": 4090
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 3980
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 3900
       }
     ],
     "colorOptions": [
@@ -12023,7 +14692,7 @@ export const mockSmartwatches: Product[] = [
     "category": "smartwatches",
     "rating": 4.6,
     "reviewCount": 1650,
-    "basePrice": 2999,
+    "basePrice": 2979,
     "currency": "TL",
     "releaseYear": 2021,
     "isPopular": false,
@@ -12077,29 +14746,84 @@ export const mockSmartwatches: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "st-hb-w4-40",
         "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
         "price": 2999,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Fiyat / Performans"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 1200,
-        "url": "https://www.hepsiburada.com/ara?q=Galaxy+Watch+4+40mm"
+        "url": "https://www.hepsiburada.com/ara?q=Samsung%20Galaxy%20Watch%204%20(40mm)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 3039,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.trendyol.com/sr?q=Samsung%20Galaxy%20Watch%204%20(40mm)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 3069,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Samsung%20Galaxy%20Watch%204%20(40mm)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 3099,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Samsung%20Galaxy%20Watch%204%20(40mm)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 2979,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Samsung%20Galaxy%20Watch%204%20(40mm)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 3079,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Samsung%20Galaxy%20Watch%204%20(40mm)",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-06-01",
-        "price": 3199,
-        "store": "Hepsiburada"
+        "date": "Ekim 2025",
+        "price": 3420
       },
       {
-        "date": "2026-07-01",
-        "price": 2999,
-        "store": "Trendyol"
+        "date": "Kasım 2025",
+        "price": 3330
+      },
+      {
+        "date": "Aralık 2025",
+        "price": 3240
+      },
+      {
+        "date": "Ocak 2026",
+        "price": 3150
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 3060
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 3000
       }
     ],
     "colorOptions": [
@@ -12125,7 +14849,7 @@ export const mockSmartwatches: Product[] = [
     "category": "smartwatches",
     "rating": 4.7,
     "reviewCount": 650,
-    "basePrice": 4899,
+    "basePrice": 4879,
     "currency": "TL",
     "releaseYear": 2020,
     "isPopular": false,
@@ -12183,29 +14907,84 @@ export const mockSmartwatches: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "st-sm-w3-45-ti",
-        "storeName": "Samsung",
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
         "price": 4899,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Distribütör"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 450,
-        "url": "https://www.samsung.com/tr/watches/galaxy-watch3/"
+        "url": "https://www.hepsiburada.com/ara?q=Samsung%20Galaxy%20Watch%203%20(45mm%20LTE%20Titanyum)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 4959,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.trendyol.com/sr?q=Samsung%20Galaxy%20Watch%203%20(45mm%20LTE%20Titanyum)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 5019,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Samsung%20Galaxy%20Watch%203%20(45mm%20LTE%20Titanyum)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 5069,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Samsung%20Galaxy%20Watch%203%20(45mm%20LTE%20Titanyum)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 4879,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Samsung%20Galaxy%20Watch%203%20(45mm%20LTE%20Titanyum)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 5039,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Samsung%20Galaxy%20Watch%203%20(45mm%20LTE%20Titanyum)",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-06-01",
-        "price": 5199,
-        "store": "Samsung"
+        "date": "Ekim 2025",
+        "price": 5580
       },
       {
-        "date": "2026-07-01",
-        "price": 4899,
-        "store": "Samsung"
+        "date": "Kasım 2025",
+        "price": 5440
+      },
+      {
+        "date": "Aralık 2025",
+        "price": 5290
+      },
+      {
+        "date": "Ocak 2026",
+        "price": 5140
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 5000
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 4900
       }
     ],
     "colorOptions": [
@@ -12223,7 +15002,7 @@ export const mockSmartwatches: Product[] = [
     "category": "smartwatches",
     "rating": 4.7,
     "reviewCount": 1450,
-    "basePrice": 3199,
+    "basePrice": 3179,
     "currency": "TL",
     "releaseYear": 2020,
     "isPopular": false,
@@ -12278,29 +15057,84 @@ export const mockSmartwatches: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "st-hb-w3-45",
         "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
         "price": 3199,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Fırsat"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 980,
-        "url": "https://www.hepsiburada.com/ara?q=Galaxy+Watch+3+45mm"
+        "url": "https://www.hepsiburada.com/ara?q=Samsung%20Galaxy%20Watch%203%20(45mm)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 3239,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.trendyol.com/sr?q=Samsung%20Galaxy%20Watch%203%20(45mm)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 3279,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Samsung%20Galaxy%20Watch%203%20(45mm)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 3309,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Samsung%20Galaxy%20Watch%203%20(45mm)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 3179,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Samsung%20Galaxy%20Watch%203%20(45mm)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 3289,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Samsung%20Galaxy%20Watch%203%20(45mm)",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-06-01",
-        "price": 3499,
-        "store": "Hepsiburada"
+        "date": "Ekim 2025",
+        "price": 3650
       },
       {
-        "date": "2026-07-01",
-        "price": 3199,
-        "store": "Hepsiburada"
+        "date": "Kasım 2025",
+        "price": 3550
+      },
+      {
+        "date": "Aralık 2025",
+        "price": 3450
+      },
+      {
+        "date": "Ocak 2026",
+        "price": 3360
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 3260
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 3200
       }
     ],
     "colorOptions": [
@@ -12322,7 +15156,7 @@ export const mockSmartwatches: Product[] = [
     "category": "smartwatches",
     "rating": 4.6,
     "reviewCount": 920,
-    "basePrice": 2899,
+    "basePrice": 2889,
     "currency": "TL",
     "releaseYear": 2020,
     "isPopular": false,
@@ -12376,29 +15210,84 @@ export const mockSmartwatches: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "st-hb-w3-41",
         "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
         "price": 2899,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "İndirimli"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 620,
-        "url": "https://www.hepsiburada.com/ara?q=Galaxy+Watch+3+41mm"
+        "url": "https://www.hepsiburada.com/ara?q=Samsung%20Galaxy%20Watch%203%20(41mm)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 2929,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.trendyol.com/sr?q=Samsung%20Galaxy%20Watch%203%20(41mm)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 2969,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Samsung%20Galaxy%20Watch%203%20(41mm)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 2999,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Samsung%20Galaxy%20Watch%203%20(41mm)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 2889,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Samsung%20Galaxy%20Watch%203%20(41mm)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 2979,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Samsung%20Galaxy%20Watch%203%20(41mm)",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-06-01",
-        "price": 3199,
-        "store": "Hepsiburada"
+        "date": "Ekim 2025",
+        "price": 3300
       },
       {
-        "date": "2026-07-01",
-        "price": 2899,
-        "store": "Hepsiburada"
+        "date": "Kasım 2025",
+        "price": 3220
+      },
+      {
+        "date": "Aralık 2025",
+        "price": 3130
+      },
+      {
+        "date": "Ocak 2026",
+        "price": 3040
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 2960
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 2900
       }
     ],
     "colorOptions": [
@@ -12420,7 +15309,7 @@ export const mockSmartwatches: Product[] = [
     "category": "smartwatches",
     "rating": 4.7,
     "reviewCount": 880,
-    "basePrice": 3399,
+    "basePrice": 3379,
     "currency": "TL",
     "releaseYear": 2019,
     "isPopular": false,
@@ -12479,29 +15368,84 @@ export const mockSmartwatches: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "st-hb-act2-44-lte",
         "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
         "price": 3399,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Distribütör"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 540,
-        "url": "https://www.hepsiburada.com/ara?q=Galaxy+Watch+Active+2+44mm+LTE"
+        "url": "https://www.hepsiburada.com/ara?q=Samsung%20Galaxy%20Watch%20Active%202%20(44mm%20LTE%20Paslanmaz%20%C3%87elik)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 3439,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.trendyol.com/sr?q=Samsung%20Galaxy%20Watch%20Active%202%20(44mm%20LTE%20Paslanmaz%20%C3%87elik)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 3479,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Samsung%20Galaxy%20Watch%20Active%202%20(44mm%20LTE%20Paslanmaz%20%C3%87elik)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 3519,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Samsung%20Galaxy%20Watch%20Active%202%20(44mm%20LTE%20Paslanmaz%20%C3%87elik)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 3379,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Samsung%20Galaxy%20Watch%20Active%202%20(44mm%20LTE%20Paslanmaz%20%C3%87elik)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 3489,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Samsung%20Galaxy%20Watch%20Active%202%20(44mm%20LTE%20Paslanmaz%20%C3%87elik)",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-06-01",
-        "price": 3699,
-        "store": "Hepsiburada"
+        "date": "Ekim 2025",
+        "price": 3870
       },
       {
-        "date": "2026-07-01",
-        "price": 3399,
-        "store": "Hepsiburada"
+        "date": "Kasım 2025",
+        "price": 3770
+      },
+      {
+        "date": "Aralık 2025",
+        "price": 3670
+      },
+      {
+        "date": "Ocak 2026",
+        "price": 3570
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 3470
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 3400
       }
     ],
     "colorOptions": [
@@ -12523,7 +15467,7 @@ export const mockSmartwatches: Product[] = [
     "category": "smartwatches",
     "rating": 4.7,
     "reviewCount": 2600,
-    "basePrice": 2699,
+    "basePrice": 2689,
     "currency": "TL",
     "releaseYear": 2019,
     "isPopular": false,
@@ -12578,29 +15522,84 @@ export const mockSmartwatches: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "st-hb-act2-44",
         "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
         "price": 2699,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Kargo Bedava"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 1800,
-        "url": "https://www.hepsiburada.com/ara?q=Galaxy+Watch+Active+2+44mm"
+        "url": "https://www.hepsiburada.com/ara?q=Samsung%20Galaxy%20Watch%20Active%202%20(44mm)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 2729,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.trendyol.com/sr?q=Samsung%20Galaxy%20Watch%20Active%202%20(44mm)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 2769,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Samsung%20Galaxy%20Watch%20Active%202%20(44mm)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 2789,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Samsung%20Galaxy%20Watch%20Active%202%20(44mm)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 2689,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Samsung%20Galaxy%20Watch%20Active%202%20(44mm)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 2779,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Samsung%20Galaxy%20Watch%20Active%202%20(44mm)",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-06-01",
-        "price": 2999,
-        "store": "Hepsiburada"
+        "date": "Ekim 2025",
+        "price": 3080
       },
       {
-        "date": "2026-07-01",
-        "price": 2699,
-        "store": "Hepsiburada"
+        "date": "Kasım 2025",
+        "price": 3000
+      },
+      {
+        "date": "Aralık 2025",
+        "price": 2910
+      },
+      {
+        "date": "Ocak 2026",
+        "price": 2830
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 2750
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 2700
       }
     ],
     "colorOptions": [
@@ -12626,7 +15625,7 @@ export const mockSmartwatches: Product[] = [
     "category": "smartwatches",
     "rating": 4.6,
     "reviewCount": 1800,
-    "basePrice": 2399,
+    "basePrice": 2389,
     "currency": "TL",
     "releaseYear": 2019,
     "isPopular": false,
@@ -12680,29 +15679,84 @@ export const mockSmartwatches: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "st-hb-act2-40",
         "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
         "price": 2399,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Fırsat"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 1200,
-        "url": "https://www.hepsiburada.com/ara?q=Galaxy+Watch+Active+2+40mm"
+        "url": "https://www.hepsiburada.com/ara?q=Samsung%20Galaxy%20Watch%20Active%202%20(40mm)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 2429,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.trendyol.com/sr?q=Samsung%20Galaxy%20Watch%20Active%202%20(40mm)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 2459,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Samsung%20Galaxy%20Watch%20Active%202%20(40mm)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 2479,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Samsung%20Galaxy%20Watch%20Active%202%20(40mm)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 2389,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Samsung%20Galaxy%20Watch%20Active%202%20(40mm)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 2469,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Samsung%20Galaxy%20Watch%20Active%202%20(40mm)",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-06-01",
-        "price": 2699,
-        "store": "Hepsiburada"
+        "date": "Ekim 2025",
+        "price": 2730
       },
       {
-        "date": "2026-07-01",
-        "price": 2399,
-        "store": "Hepsiburada"
+        "date": "Kasım 2025",
+        "price": 2660
+      },
+      {
+        "date": "Aralık 2025",
+        "price": 2590
+      },
+      {
+        "date": "Ocak 2026",
+        "price": 2520
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 2450
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 2400
       }
     ],
     "colorOptions": [
@@ -12724,7 +15778,7 @@ export const mockSmartwatches: Product[] = [
     "category": "smartwatches",
     "rating": 4.5,
     "reviewCount": 1600,
-    "basePrice": 1899,
+    "basePrice": 1889,
     "currency": "TL",
     "releaseYear": 2019,
     "isPopular": false,
@@ -12779,29 +15833,84 @@ export const mockSmartwatches: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "st-hb-act1",
         "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
         "price": 1899,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Uygun"
-        ],
-        "sellerRating": 4.7,
-        "sellerReviews": 890,
-        "url": "https://www.hepsiburada.com/ara?q=Galaxy+Watch+Active"
+        "url": "https://www.hepsiburada.com/ara?q=Samsung%20Galaxy%20Watch%20Active%20(40mm)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 1919,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.trendyol.com/sr?q=Samsung%20Galaxy%20Watch%20Active%20(40mm)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 1949,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Samsung%20Galaxy%20Watch%20Active%20(40mm)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 1969,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Samsung%20Galaxy%20Watch%20Active%20(40mm)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 1889,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Samsung%20Galaxy%20Watch%20Active%20(40mm)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 1949,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Samsung%20Galaxy%20Watch%20Active%20(40mm)",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-06-01",
-        "price": 2199,
-        "store": "Hepsiburada"
+        "date": "Ekim 2025",
+        "price": 2160
       },
       {
-        "date": "2026-07-01",
-        "price": 1899,
-        "store": "Hepsiburada"
+        "date": "Kasım 2025",
+        "price": 2110
+      },
+      {
+        "date": "Aralık 2025",
+        "price": 2050
+      },
+      {
+        "date": "Ocak 2026",
+        "price": 1990
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 1940
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 1900
       }
     ],
     "colorOptions": [
@@ -12827,7 +15936,7 @@ export const mockSmartwatches: Product[] = [
     "category": "smartwatches",
     "rating": 4.8,
     "reviewCount": 3100,
-    "basePrice": 2799,
+    "basePrice": 2789,
     "currency": "TL",
     "releaseYear": 2018,
     "isPopular": false,
@@ -12883,29 +15992,84 @@ export const mockSmartwatches: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "st-hb-gw-46",
         "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
         "price": 2799,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Efsane Model"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 2100,
-        "url": "https://www.hepsiburada.com/ara?q=Galaxy+Watch+46mm"
+        "url": "https://www.hepsiburada.com/ara?q=Samsung%20Galaxy%20Watch%20(46mm%20G%C3%BCm%C3%BC%C5%9F)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 2829,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.trendyol.com/sr?q=Samsung%20Galaxy%20Watch%20(46mm%20G%C3%BCm%C3%BC%C5%9F)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 2869,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Samsung%20Galaxy%20Watch%20(46mm%20G%C3%BCm%C3%BC%C5%9F)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 2899,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Samsung%20Galaxy%20Watch%20(46mm%20G%C3%BCm%C3%BC%C5%9F)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 2789,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Samsung%20Galaxy%20Watch%20(46mm%20G%C3%BCm%C3%BC%C5%9F)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 2879,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Samsung%20Galaxy%20Watch%20(46mm%20G%C3%BCm%C3%BC%C5%9F)",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-06-01",
-        "price": 2999,
-        "store": "Hepsiburada"
+        "date": "Ekim 2025",
+        "price": 3190
       },
       {
-        "date": "2026-07-01",
-        "price": 2799,
-        "store": "Hepsiburada"
+        "date": "Kasım 2025",
+        "price": 3110
+      },
+      {
+        "date": "Aralık 2025",
+        "price": 3020
+      },
+      {
+        "date": "Ocak 2026",
+        "price": 2940
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 2850
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 2800
       }
     ],
     "colorOptions": [
@@ -12923,7 +16087,7 @@ export const mockSmartwatches: Product[] = [
     "category": "smartwatches",
     "rating": 4.7,
     "reviewCount": 1900,
-    "basePrice": 2399,
+    "basePrice": 2389,
     "currency": "TL",
     "releaseYear": 2018,
     "isPopular": false,
@@ -12978,29 +16142,84 @@ export const mockSmartwatches: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "st-hb-gw-42",
         "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
         "price": 2399,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Klasik"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 1200,
-        "url": "https://www.hepsiburada.com/ara?q=Galaxy+Watch+42mm"
+        "url": "https://www.hepsiburada.com/ara?q=Samsung%20Galaxy%20Watch%20(42mm)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 2429,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.trendyol.com/sr?q=Samsung%20Galaxy%20Watch%20(42mm)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 2459,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Samsung%20Galaxy%20Watch%20(42mm)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 2479,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Samsung%20Galaxy%20Watch%20(42mm)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 2389,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Samsung%20Galaxy%20Watch%20(42mm)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 2469,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Samsung%20Galaxy%20Watch%20(42mm)",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-06-01",
-        "price": 2699,
-        "store": "Hepsiburada"
+        "date": "Ekim 2025",
+        "price": 2730
       },
       {
-        "date": "2026-07-01",
-        "price": 2399,
-        "store": "Hepsiburada"
+        "date": "Kasım 2025",
+        "price": 2660
+      },
+      {
+        "date": "Aralık 2025",
+        "price": 2590
+      },
+      {
+        "date": "Ocak 2026",
+        "price": 2520
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 2450
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 2400
       }
     ],
     "colorOptions": [
@@ -13022,7 +16241,7 @@ export const mockSmartwatches: Product[] = [
     "category": "smartwatches",
     "rating": 4.6,
     "reviewCount": 3400,
-    "basePrice": 1399,
+    "basePrice": 1389,
     "currency": "TL",
     "releaseYear": 2020,
     "isPopular": false,
@@ -13070,29 +16289,84 @@ export const mockSmartwatches: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "st-hb-fit2",
         "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
         "price": 1399,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Kargo Bedava"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 4100,
-        "url": "https://www.hepsiburada.com/ara?q=Galaxy+Fit+2"
+        "url": "https://www.hepsiburada.com/ara?q=Samsung%20Galaxy%20Fit%202%20Ak%C4%B1ll%C4%B1%20Bileklik",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 1419,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.trendyol.com/sr?q=Samsung%20Galaxy%20Fit%202%20Ak%C4%B1ll%C4%B1%20Bileklik",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 1429,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Samsung%20Galaxy%20Fit%202%20Ak%C4%B1ll%C4%B1%20Bileklik",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 1449,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Samsung%20Galaxy%20Fit%202%20Ak%C4%B1ll%C4%B1%20Bileklik",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 1389,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Samsung%20Galaxy%20Fit%202%20Ak%C4%B1ll%C4%B1%20Bileklik",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 1439,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Samsung%20Galaxy%20Fit%202%20Ak%C4%B1ll%C4%B1%20Bileklik",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-06-01",
-        "price": 1499,
-        "store": "Hepsiburada"
+        "date": "Ekim 2025",
+        "price": 1590
       },
       {
-        "date": "2026-07-01",
-        "price": 1399,
-        "store": "Trendyol"
+        "date": "Kasım 2025",
+        "price": 1550
+      },
+      {
+        "date": "Aralık 2025",
+        "price": 1510
+      },
+      {
+        "date": "Ocak 2026",
+        "price": 1470
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 1430
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 1400
       }
     ],
     "colorOptions": [
@@ -13114,7 +16388,7 @@ export const mockSmartwatches: Product[] = [
     "category": "smartwatches",
     "rating": 4.5,
     "reviewCount": 1400,
-    "basePrice": 1199,
+    "basePrice": 1189,
     "currency": "TL",
     "releaseYear": 2019,
     "isPopular": false,
@@ -13161,29 +16435,84 @@ export const mockSmartwatches: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "st-hb-fit1",
         "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
         "price": 1199,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Fırsat"
-        ],
-        "sellerRating": 4.7,
-        "sellerReviews": 890,
-        "url": "https://www.hepsiburada.com/ara?q=Galaxy+Fit"
+        "url": "https://www.hepsiburada.com/ara?q=Samsung%20Galaxy%20Fit%20Ak%C4%B1ll%C4%B1%20Bileklik",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 1209,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.trendyol.com/sr?q=Samsung%20Galaxy%20Fit%20Ak%C4%B1ll%C4%B1%20Bileklik",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 1229,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Samsung%20Galaxy%20Fit%20Ak%C4%B1ll%C4%B1%20Bileklik",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 1239,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Samsung%20Galaxy%20Fit%20Ak%C4%B1ll%C4%B1%20Bileklik",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 1189,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Samsung%20Galaxy%20Fit%20Ak%C4%B1ll%C4%B1%20Bileklik",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 1229,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Samsung%20Galaxy%20Fit%20Ak%C4%B1ll%C4%B1%20Bileklik",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-06-01",
-        "price": 1399,
-        "store": "Hepsiburada"
+        "date": "Ekim 2025",
+        "price": 1370
       },
       {
-        "date": "2026-07-01",
-        "price": 1199,
-        "store": "Hepsiburada"
+        "date": "Kasım 2025",
+        "price": 1330
+      },
+      {
+        "date": "Aralık 2025",
+        "price": 1290
+      },
+      {
+        "date": "Ocak 2026",
+        "price": 1260
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 1220
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 1200
       }
     ],
     "colorOptions": [
@@ -13252,29 +16581,84 @@ export const mockSmartwatches: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "st-hb-fite",
         "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
         "price": 849,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Ekonomik"
-        ],
-        "sellerRating": 4.7,
-        "sellerReviews": 1400,
-        "url": "https://www.hepsiburada.com/ara?q=Galaxy+Fit+e"
+        "url": "https://www.hepsiburada.com/ara?q=Samsung%20Galaxy%20Fit%20e%20Ak%C4%B1ll%C4%B1%20Bileklik",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 859,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.trendyol.com/sr?q=Samsung%20Galaxy%20Fit%20e%20Ak%C4%B1ll%C4%B1%20Bileklik",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 869,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Samsung%20Galaxy%20Fit%20e%20Ak%C4%B1ll%C4%B1%20Bileklik",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 879,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Samsung%20Galaxy%20Fit%20e%20Ak%C4%B1ll%C4%B1%20Bileklik",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 849,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Samsung%20Galaxy%20Fit%20e%20Ak%C4%B1ll%C4%B1%20Bileklik",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 869,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Samsung%20Galaxy%20Fit%20e%20Ak%C4%B1ll%C4%B1%20Bileklik",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-06-01",
-        "price": 999,
-        "store": "Hepsiburada"
+        "date": "Ekim 2025",
+        "price": 970
       },
       {
-        "date": "2026-07-01",
-        "price": 849,
-        "store": "Hepsiburada"
+        "date": "Kasım 2025",
+        "price": 940
+      },
+      {
+        "date": "Aralık 2025",
+        "price": 920
+      },
+      {
+        "date": "Ocak 2026",
+        "price": 890
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 870
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 850
       }
     ],
     "colorOptions": [
@@ -13300,7 +16684,7 @@ export const mockSmartwatches: Product[] = [
     "category": "smartwatches",
     "rating": 4.8,
     "reviewCount": 3800,
-    "basePrice": 2899,
+    "basePrice": 2889,
     "currency": "TL",
     "releaseYear": 2016,
     "isPopular": false,
@@ -13356,29 +16740,84 @@ export const mockSmartwatches: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "st-hb-gears3f",
         "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
         "price": 2899,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Klasik Efsane"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 2900,
-        "url": "https://www.hepsiburada.com/ara?q=Gear+S3+Frontier"
+        "url": "https://www.hepsiburada.com/ara?q=Samsung%20Gear%20S3%20Frontier",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 2929,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.trendyol.com/sr?q=Samsung%20Gear%20S3%20Frontier",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 2969,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Samsung%20Gear%20S3%20Frontier",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 2999,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Samsung%20Gear%20S3%20Frontier",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 2889,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Samsung%20Gear%20S3%20Frontier",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 2979,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Samsung%20Gear%20S3%20Frontier",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-06-01",
-        "price": 3199,
-        "store": "Hepsiburada"
+        "date": "Ekim 2025",
+        "price": 3300
       },
       {
-        "date": "2026-07-01",
-        "price": 2899,
-        "store": "Hepsiburada"
+        "date": "Kasım 2025",
+        "price": 3220
+      },
+      {
+        "date": "Aralık 2025",
+        "price": 3130
+      },
+      {
+        "date": "Ocak 2026",
+        "price": 3040
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 2960
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 2900
       }
     ],
     "colorOptions": [
@@ -13396,7 +16835,7 @@ export const mockSmartwatches: Product[] = [
     "category": "smartwatches",
     "rating": 4.7,
     "reviewCount": 2200,
-    "basePrice": 2699,
+    "basePrice": 2689,
     "currency": "TL",
     "releaseYear": 2016,
     "isPopular": false,
@@ -13451,29 +16890,84 @@ export const mockSmartwatches: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "st-hb-gears3c",
         "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
         "price": 2699,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Klasik"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 1400,
-        "url": "https://www.hepsiburada.com/ara?q=Gear+S3+Classic"
+        "url": "https://www.hepsiburada.com/ara?q=Samsung%20Gear%20S3%20Classic",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 2729,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.trendyol.com/sr?q=Samsung%20Gear%20S3%20Classic",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 2769,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Samsung%20Gear%20S3%20Classic",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 2789,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Samsung%20Gear%20S3%20Classic",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 2689,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Samsung%20Gear%20S3%20Classic",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 2779,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Samsung%20Gear%20S3%20Classic",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-06-01",
-        "price": 2999,
-        "store": "Hepsiburada"
+        "date": "Ekim 2025",
+        "price": 3080
       },
       {
-        "date": "2026-07-01",
-        "price": 2699,
-        "store": "Hepsiburada"
+        "date": "Kasım 2025",
+        "price": 3000
+      },
+      {
+        "date": "Aralık 2025",
+        "price": 2910
+      },
+      {
+        "date": "Ocak 2026",
+        "price": 2830
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 2750
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 2700
       }
     ],
     "colorOptions": [
@@ -13491,7 +16985,7 @@ export const mockSmartwatches: Product[] = [
     "category": "smartwatches",
     "rating": 4.6,
     "reviewCount": 1600,
-    "basePrice": 2099,
+    "basePrice": 2089,
     "currency": "TL",
     "releaseYear": 2017,
     "isPopular": false,
@@ -13546,29 +17040,84 @@ export const mockSmartwatches: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "st-hb-gearsport",
         "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
         "price": 2099,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Sporcu Saati"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 980,
-        "url": "https://www.hepsiburada.com/ara?q=Gear+Sport"
+        "url": "https://www.hepsiburada.com/ara?q=Samsung%20Gear%20Sport%20(42mm)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 2119,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.trendyol.com/sr?q=Samsung%20Gear%20Sport%20(42mm)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 2149,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Samsung%20Gear%20Sport%20(42mm)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 2169,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Samsung%20Gear%20Sport%20(42mm)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 2089,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Samsung%20Gear%20Sport%20(42mm)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 2159,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Samsung%20Gear%20Sport%20(42mm)",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-06-01",
-        "price": 2399,
-        "store": "Hepsiburada"
+        "date": "Ekim 2025",
+        "price": 2390
       },
       {
-        "date": "2026-07-01",
-        "price": 2099,
-        "store": "Hepsiburada"
+        "date": "Kasım 2025",
+        "price": 2330
+      },
+      {
+        "date": "Aralık 2025",
+        "price": 2270
+      },
+      {
+        "date": "Ocak 2026",
+        "price": 2200
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 2140
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 2100
       }
     ],
     "colorOptions": [
@@ -13590,7 +17139,7 @@ export const mockSmartwatches: Product[] = [
     "category": "smartwatches",
     "rating": 4.5,
     "reviewCount": 1800,
-    "basePrice": 1699,
+    "basePrice": 1689,
     "currency": "TL",
     "releaseYear": 2015,
     "isPopular": false,
@@ -13643,29 +17192,84 @@ export const mockSmartwatches: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "st-hb-gears2c",
         "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
         "price": 1699,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Klasik"
-        ],
-        "sellerRating": 4.7,
-        "sellerReviews": 950,
-        "url": "https://www.hepsiburada.com/ara?q=Gear+S2+Classic"
+        "url": "https://www.hepsiburada.com/ara?q=Samsung%20Gear%20S2%20Classic",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 1719,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.trendyol.com/sr?q=Samsung%20Gear%20S2%20Classic",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 1739,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Samsung%20Gear%20S2%20Classic",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 1759,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Samsung%20Gear%20S2%20Classic",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 1689,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Samsung%20Gear%20S2%20Classic",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 1749,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Samsung%20Gear%20S2%20Classic",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-06-01",
-        "price": 1899,
-        "store": "Hepsiburada"
+        "date": "Ekim 2025",
+        "price": 1940
       },
       {
-        "date": "2026-07-01",
-        "price": 1699,
-        "store": "Hepsiburada"
+        "date": "Kasım 2025",
+        "price": 1890
+      },
+      {
+        "date": "Aralık 2025",
+        "price": 1830
+      },
+      {
+        "date": "Ocak 2026",
+        "price": 1780
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 1730
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 1700
       }
     ],
     "colorOptions": [
@@ -13683,7 +17287,7 @@ export const mockSmartwatches: Product[] = [
     "category": "smartwatches",
     "rating": 4.5,
     "reviewCount": 2400,
-    "basePrice": 1499,
+    "basePrice": 1489,
     "currency": "TL",
     "releaseYear": 2015,
     "isPopular": false,
@@ -13735,29 +17339,84 @@ export const mockSmartwatches: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "st-hb-gears2",
         "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
         "price": 1499,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Avantaj"
-        ],
-        "sellerRating": 4.7,
-        "sellerReviews": 1200,
-        "url": "https://www.hepsiburada.com/ara?q=Gear+S2"
+        "url": "https://www.hepsiburada.com/ara?q=Samsung%20Gear%20S2",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 1519,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.trendyol.com/sr?q=Samsung%20Gear%20S2",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 1539,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Samsung%20Gear%20S2",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 1549,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Samsung%20Gear%20S2",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 1489,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Samsung%20Gear%20S2",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 1539,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Samsung%20Gear%20S2",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-06-01",
-        "price": 1699,
-        "store": "Hepsiburada"
+        "date": "Ekim 2025",
+        "price": 1710
       },
       {
-        "date": "2026-07-01",
-        "price": 1499,
-        "store": "Hepsiburada"
+        "date": "Kasım 2025",
+        "price": 1660
+      },
+      {
+        "date": "Aralık 2025",
+        "price": 1620
+      },
+      {
+        "date": "Ocak 2026",
+        "price": 1570
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 1530
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 1500
       }
     ],
     "colorOptions": [
@@ -13779,7 +17438,7 @@ export const mockSmartwatches: Product[] = [
     "category": "smartwatches",
     "rating": 4.6,
     "reviewCount": 1900,
-    "basePrice": 1599,
+    "basePrice": 1589,
     "currency": "TL",
     "releaseYear": 2017,
     "isPopular": false,
@@ -13832,29 +17491,84 @@ export const mockSmartwatches: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "st-hb-fit2pro",
         "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
         "price": 1599,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Yüzme Takibi"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 950,
-        "url": "https://www.hepsiburada.com/ara?q=Gear+Fit+2+Pro"
+        "url": "https://www.hepsiburada.com/ara?q=Samsung%20Gear%20Fit%202%20Pro",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 1619,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.trendyol.com/sr?q=Samsung%20Gear%20Fit%202%20Pro",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 1639,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Samsung%20Gear%20Fit%202%20Pro",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 1659,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Samsung%20Gear%20Fit%202%20Pro",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 1589,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Samsung%20Gear%20Fit%202%20Pro",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 1639,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Samsung%20Gear%20Fit%202%20Pro",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-06-01",
-        "price": 1799,
-        "store": "Hepsiburada"
+        "date": "Ekim 2025",
+        "price": 1820
       },
       {
-        "date": "2026-07-01",
-        "price": 1599,
-        "store": "Hepsiburada"
+        "date": "Kasım 2025",
+        "price": 1770
+      },
+      {
+        "date": "Aralık 2025",
+        "price": 1730
+      },
+      {
+        "date": "Ocak 2026",
+        "price": 1680
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 1630
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 1600
       }
     ],
     "colorOptions": [
@@ -13876,7 +17590,7 @@ export const mockSmartwatches: Product[] = [
     "category": "smartwatches",
     "rating": 4.5,
     "reviewCount": 2200,
-    "basePrice": 1299,
+    "basePrice": 1289,
     "currency": "TL",
     "releaseYear": 2016,
     "isPopular": false,
@@ -13930,29 +17644,84 @@ export const mockSmartwatches: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "st-hb-fit2-old",
         "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
         "price": 1299,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Klasik"
-        ],
-        "sellerRating": 4.7,
-        "sellerReviews": 1200,
-        "url": "https://www.hepsiburada.com/ara?q=Gear+Fit+2"
+        "url": "https://www.hepsiburada.com/ara?q=Samsung%20Gear%20Fit%202",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 1319,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.trendyol.com/sr?q=Samsung%20Gear%20Fit%202",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 1329,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Samsung%20Gear%20Fit%202",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 1339,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Samsung%20Gear%20Fit%202",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 1289,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Samsung%20Gear%20Fit%202",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 1339,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Samsung%20Gear%20Fit%202",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-06-01",
-        "price": 1499,
-        "store": "Hepsiburada"
+        "date": "Ekim 2025",
+        "price": 1480
       },
       {
-        "date": "2026-07-01",
-        "price": 1299,
-        "store": "Hepsiburada"
+        "date": "Kasım 2025",
+        "price": 1440
+      },
+      {
+        "date": "Aralık 2025",
+        "price": 1400
+      },
+      {
+        "date": "Ocak 2026",
+        "price": 1360
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 1320
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 1300
       }
     ],
     "colorOptions": [
@@ -13978,7 +17747,7 @@ export const mockSmartwatches: Product[] = [
     "category": "smartwatches",
     "rating": 4.9,
     "reviewCount": 1850,
-    "basePrice": 14999,
+    "basePrice": 14919,
     "currency": "TL",
     "releaseYear": 2024,
     "isPopular": true,
@@ -14031,44 +17800,84 @@ export const mockSmartwatches: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "st-hw-gt5p-46",
-        "storeName": "Huawei Store TR",
-        "storeLogoColor": "bg-red-600",
-        "price": 15999,
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 14999,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Distribütör Garantili"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 2400,
-        "url": "https://consumer.huawei.com/tr/wearables/watch-gt5-pro/"
+        "url": "https://www.hepsiburada.com/ara?q=Huawei%20Watch%20GT%205%20Pro%20(46mm%20Titanyum)",
+        "rating": 4.8
       },
       {
-        "id": "st-hb-gt5p-46",
-        "storeName": "Hepsiburada",
-        "storeLogoColor": "bg-orange-600",
-        "price": 14999,
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 15179,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Hızlı Kargo"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 1800,
-        "url": "https://www.hepsiburada.com/ara?q=Huawei+Watch+GT+5+Pro"
+        "url": "https://www.trendyol.com/sr?q=Huawei%20Watch%20GT%205%20Pro%20(46mm%20Titanyum)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 15369,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Huawei%20Watch%20GT%205%20Pro%20(46mm%20Titanyum)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 15519,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Huawei%20Watch%20GT%205%20Pro%20(46mm%20Titanyum)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 14919,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Huawei%20Watch%20GT%205%20Pro%20(46mm%20Titanyum)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 15419,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Huawei%20Watch%20GT%205%20Pro%20(46mm%20Titanyum)",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-06-01",
-        "price": 16999,
-        "store": "Huawei"
+        "date": "Ekim 2025",
+        "price": 17100
       },
       {
-        "date": "2026-07-01",
-        "price": 14999,
-        "store": "Hepsiburada"
+        "date": "Kasım 2025",
+        "price": 16650
+      },
+      {
+        "date": "Aralık 2025",
+        "price": 16200
+      },
+      {
+        "date": "Ocak 2026",
+        "price": 15750
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 15300
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 15000
       }
     ],
     "colorOptions": [
@@ -14090,7 +17899,7 @@ export const mockSmartwatches: Product[] = [
     "category": "smartwatches",
     "rating": 4.8,
     "reviewCount": 2200,
-    "basePrice": 9499,
+    "basePrice": 9449,
     "currency": "TL",
     "releaseYear": 2024,
     "isPopular": true,
@@ -14141,29 +17950,84 @@ export const mockSmartwatches: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "st-hb-gt5-46",
         "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
         "price": 9499,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Distribütör"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 1900,
-        "url": "https://www.hepsiburada.com/ara?q=Huawei+Watch+GT+5"
+        "url": "https://www.hepsiburada.com/ara?q=Huawei%20Watch%20GT%205%20(46mm)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 9609,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.trendyol.com/sr?q=Huawei%20Watch%20GT%205%20(46mm)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 9739,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Huawei%20Watch%20GT%205%20(46mm)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 9829,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Huawei%20Watch%20GT%205%20(46mm)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 9449,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Huawei%20Watch%20GT%205%20(46mm)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 9769,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Huawei%20Watch%20GT%205%20(46mm)",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-06-01",
-        "price": 9999,
-        "store": "Huawei"
+        "date": "Ekim 2025",
+        "price": 10830
       },
       {
-        "date": "2026-07-01",
-        "price": 9499,
-        "store": "Hepsiburada"
+        "date": "Kasım 2025",
+        "price": 10540
+      },
+      {
+        "date": "Aralık 2025",
+        "price": 10260
+      },
+      {
+        "date": "Ocak 2026",
+        "price": 9970
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 9690
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 9500
       }
     ],
     "colorOptions": [
@@ -14185,7 +18049,7 @@ export const mockSmartwatches: Product[] = [
     "category": "smartwatches",
     "rating": 5,
     "reviewCount": 320,
-    "basePrice": 99999,
+    "basePrice": 99499,
     "currency": "TL",
     "releaseYear": 2023,
     "isPopular": false,
@@ -14237,29 +18101,84 @@ export const mockSmartwatches: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "st-hw-ult-gold",
-        "storeName": "Huawei Exclusive",
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
         "price": 99999,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "18 Ayar Altın"
-        ],
-        "sellerRating": 5,
-        "sellerReviews": 120,
-        "url": "https://consumer.huawei.com/tr/"
+        "url": "https://www.hepsiburada.com/ara?q=Huawei%20Watch%20Ultimate%20Design%20(18%20Ayar%20Alt%C4%B1n)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 101199,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.trendyol.com/sr?q=Huawei%20Watch%20Ultimate%20Design%20(18%20Ayar%20Alt%C4%B1n)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 102499,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Huawei%20Watch%20Ultimate%20Design%20(18%20Ayar%20Alt%C4%B1n)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 103499,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Huawei%20Watch%20Ultimate%20Design%20(18%20Ayar%20Alt%C4%B1n)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 99499,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Huawei%20Watch%20Ultimate%20Design%20(18%20Ayar%20Alt%C4%B1n)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 102799,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Huawei%20Watch%20Ultimate%20Design%20(18%20Ayar%20Alt%C4%B1n)",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-06-01",
-        "price": 109999,
-        "store": "Huawei"
+        "date": "Ekim 2025",
+        "price": 114000
       },
       {
-        "date": "2026-07-01",
-        "price": 99999,
-        "store": "Huawei"
+        "date": "Kasım 2025",
+        "price": 111000
+      },
+      {
+        "date": "Aralık 2025",
+        "price": 108000
+      },
+      {
+        "date": "Ocak 2026",
+        "price": 105000
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 102000
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 100000
       }
     ],
     "colorOptions": [
@@ -14277,7 +18196,7 @@ export const mockSmartwatches: Product[] = [
     "category": "smartwatches",
     "rating": 4.9,
     "reviewCount": 890,
-    "basePrice": 16499,
+    "basePrice": 16419,
     "currency": "TL",
     "releaseYear": 2024,
     "isPopular": true,
@@ -14330,29 +18249,84 @@ export const mockSmartwatches: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "st-hb-d2",
         "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
         "price": 16499,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Distribütör"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 950,
-        "url": "https://www.hepsiburada.com/ara?q=Huawei+Watch+D2"
+        "url": "https://www.hepsiburada.com/ara?q=Huawei%20Watch%20D2%20(Hava%20Yast%C4%B1kl%C4%B1%20Tansiyon%20%C3%96l%C3%A7er%20Saat)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 16699,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.trendyol.com/sr?q=Huawei%20Watch%20D2%20(Hava%20Yast%C4%B1kl%C4%B1%20Tansiyon%20%C3%96l%C3%A7er%20Saat)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 16909,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Huawei%20Watch%20D2%20(Hava%20Yast%C4%B1kl%C4%B1%20Tansiyon%20%C3%96l%C3%A7er%20Saat)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 17079,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Huawei%20Watch%20D2%20(Hava%20Yast%C4%B1kl%C4%B1%20Tansiyon%20%C3%96l%C3%A7er%20Saat)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 16419,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Huawei%20Watch%20D2%20(Hava%20Yast%C4%B1kl%C4%B1%20Tansiyon%20%C3%96l%C3%A7er%20Saat)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 16959,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Huawei%20Watch%20D2%20(Hava%20Yast%C4%B1kl%C4%B1%20Tansiyon%20%C3%96l%C3%A7er%20Saat)",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-06-01",
-        "price": 16999,
-        "store": "Huawei"
+        "date": "Ekim 2025",
+        "price": 18810
       },
       {
-        "date": "2026-07-01",
-        "price": 16499,
-        "store": "Hepsiburada"
+        "date": "Kasım 2025",
+        "price": 18310
+      },
+      {
+        "date": "Aralık 2025",
+        "price": 17820
+      },
+      {
+        "date": "Ocak 2026",
+        "price": 17320
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 16830
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 16500
       }
     ],
     "colorOptions": [
@@ -14374,7 +18348,7 @@ export const mockSmartwatches: Product[] = [
     "category": "smartwatches",
     "rating": 4.8,
     "reviewCount": 1400,
-    "basePrice": 11999,
+    "basePrice": 11939,
     "currency": "TL",
     "releaseYear": 2023,
     "isPopular": true,
@@ -14425,29 +18399,84 @@ export const mockSmartwatches: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "st-hb-wbuds",
         "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
         "price": 11999,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Özel Ürün"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 1200,
-        "url": "https://www.hepsiburada.com/ara?q=Huawei+Watch+Buds"
+        "url": "https://www.hepsiburada.com/ara?q=Huawei%20Watch%20Buds%20(Kulakl%C4%B1k%20Entegreli%20Ak%C4%B1ll%C4%B1%20Saat)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 12139,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.trendyol.com/sr?q=Huawei%20Watch%20Buds%20(Kulakl%C4%B1k%20Entegreli%20Ak%C4%B1ll%C4%B1%20Saat)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 12299,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Huawei%20Watch%20Buds%20(Kulakl%C4%B1k%20Entegreli%20Ak%C4%B1ll%C4%B1%20Saat)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 12419,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Huawei%20Watch%20Buds%20(Kulakl%C4%B1k%20Entegreli%20Ak%C4%B1ll%C4%B1%20Saat)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 11939,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Huawei%20Watch%20Buds%20(Kulakl%C4%B1k%20Entegreli%20Ak%C4%B1ll%C4%B1%20Saat)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 12339,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Huawei%20Watch%20Buds%20(Kulakl%C4%B1k%20Entegreli%20Ak%C4%B1ll%C4%B1%20Saat)",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-06-01",
-        "price": 12999,
-        "store": "Huawei"
+        "date": "Ekim 2025",
+        "price": 13680
       },
       {
-        "date": "2026-07-01",
-        "price": 11999,
-        "store": "Hepsiburada"
+        "date": "Kasım 2025",
+        "price": 13320
+      },
+      {
+        "date": "Aralık 2025",
+        "price": 12960
+      },
+      {
+        "date": "Ocak 2026",
+        "price": 12600
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 12240
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 12000
       }
     ],
     "colorOptions": [
@@ -14469,7 +18498,7 @@ export const mockSmartwatches: Product[] = [
     "category": "smartwatches",
     "rating": 4.8,
     "reviewCount": 1650,
-    "basePrice": 16999,
+    "basePrice": 16909,
     "currency": "TL",
     "releaseYear": 2023,
     "isPopular": false,
@@ -14524,29 +18553,84 @@ export const mockSmartwatches: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "st-hb-w4pro",
         "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
         "price": 16999,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Distribütör"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 1400,
-        "url": "https://www.hepsiburada.com/ara?q=Huawei+Watch+4+Pro"
+        "url": "https://www.hepsiburada.com/ara?q=Huawei%20Watch%204%20Pro%20(48mm%20Titanyum%20LTE)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 17199,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.trendyol.com/sr?q=Huawei%20Watch%204%20Pro%20(48mm%20Titanyum%20LTE)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 17419,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Huawei%20Watch%204%20Pro%20(48mm%20Titanyum%20LTE)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 17589,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Huawei%20Watch%204%20Pro%20(48mm%20Titanyum%20LTE)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 16909,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Huawei%20Watch%204%20Pro%20(48mm%20Titanyum%20LTE)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 17479,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Huawei%20Watch%204%20Pro%20(48mm%20Titanyum%20LTE)",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-06-01",
-        "price": 17999,
-        "store": "Huawei"
+        "date": "Ekim 2025",
+        "price": 19380
       },
       {
-        "date": "2026-07-01",
-        "price": 16999,
-        "store": "Hepsiburada"
+        "date": "Kasım 2025",
+        "price": 18870
+      },
+      {
+        "date": "Aralık 2025",
+        "price": 18360
+      },
+      {
+        "date": "Ocak 2026",
+        "price": 17850
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 17340
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 17000
       }
     ],
     "colorOptions": [
@@ -14568,7 +18652,7 @@ export const mockSmartwatches: Product[] = [
     "category": "smartwatches",
     "rating": 4.8,
     "reviewCount": 1950,
-    "basePrice": 5499,
+    "basePrice": 5469,
     "currency": "TL",
     "releaseYear": 2024,
     "isPopular": true,
@@ -14621,44 +18705,84 @@ export const mockSmartwatches: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "st-xm-s3",
-        "storeName": "Mi Store TR",
-        "storeLogoColor": "bg-orange-500",
-        "price": 5999,
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 5499,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Distribütör"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 2100,
-        "url": "https://www.mi.com/tr/product/xiaomi-watch-s3/"
+        "url": "https://www.hepsiburada.com/ara?q=Xiaomi%20Watch%20S3%20(De%C4%9Fi%C5%9Ftirilebilir%20%C3%87er%C3%A7eveli)",
+        "rating": 4.8
       },
       {
-        "id": "st-hb-s3",
-        "storeName": "Hepsiburada",
-        "storeLogoColor": "bg-orange-600",
-        "price": 5499,
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 5569,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Fırsat"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 1800,
-        "url": "https://www.hepsiburada.com/ara?q=Xiaomi+Watch+S3"
+        "url": "https://www.trendyol.com/sr?q=Xiaomi%20Watch%20S3%20(De%C4%9Fi%C5%9Ftirilebilir%20%C3%87er%C3%A7eveli)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 5639,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Xiaomi%20Watch%20S3%20(De%C4%9Fi%C5%9Ftirilebilir%20%C3%87er%C3%A7eveli)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 5689,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Xiaomi%20Watch%20S3%20(De%C4%9Fi%C5%9Ftirilebilir%20%C3%87er%C3%A7eveli)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 5469,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Xiaomi%20Watch%20S3%20(De%C4%9Fi%C5%9Ftirilebilir%20%C3%87er%C3%A7eveli)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 5649,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Xiaomi%20Watch%20S3%20(De%C4%9Fi%C5%9Ftirilebilir%20%C3%87er%C3%A7eveli)",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-06-01",
-        "price": 5999,
-        "store": "Mi Store"
+        "date": "Ekim 2025",
+        "price": 6270
       },
       {
-        "date": "2026-07-01",
-        "price": 5499,
-        "store": "Hepsiburada"
+        "date": "Kasım 2025",
+        "price": 6100
+      },
+      {
+        "date": "Aralık 2025",
+        "price": 5940
+      },
+      {
+        "date": "Ocak 2026",
+        "price": 5770
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 5610
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 5500
       }
     ],
     "colorOptions": [
@@ -14680,7 +18804,7 @@ export const mockSmartwatches: Product[] = [
     "category": "smartwatches",
     "rating": 4.8,
     "reviewCount": 3800,
-    "basePrice": 3149,
+    "basePrice": 3129,
     "currency": "TL",
     "releaseYear": 2024,
     "isPopular": true,
@@ -14732,42 +18856,84 @@ export const mockSmartwatches: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "st-hb-rw4",
         "storeName": "Hepsiburada",
-        "price": 3199,
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 3149,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Fiyat / Performans Lideri"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 4200,
-        "url": "https://www.hepsiburada.com/ara?q=Redmi+Watch+4"
+        "url": "https://www.hepsiburada.com/ara?q=Xiaomi%20Redmi%20Watch%204",
+        "rating": 4.8
       },
       {
-        "id": "st-ty-rw4",
         "storeName": "Trendyol",
-        "price": 3149,
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 3189,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Kuponlu"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 5600,
-        "url": "https://www.trendyol.com/sr?q=Redmi+Watch+4"
+        "url": "https://www.trendyol.com/sr?q=Xiaomi%20Redmi%20Watch%204",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 3229,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Xiaomi%20Redmi%20Watch%204",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 3259,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Xiaomi%20Redmi%20Watch%204",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 3129,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Xiaomi%20Redmi%20Watch%204",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 3239,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Xiaomi%20Redmi%20Watch%204",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-06-01",
-        "price": 3499,
-        "store": "Mi Store"
+        "date": "Ekim 2025",
+        "price": 3590
       },
       {
-        "date": "2026-07-01",
-        "price": 3149,
-        "store": "Trendyol"
+        "date": "Kasım 2025",
+        "price": 3500
+      },
+      {
+        "date": "Aralık 2025",
+        "price": 3400
+      },
+      {
+        "date": "Ocak 2026",
+        "price": 3310
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 3210
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 3150
       }
     ],
     "colorOptions": [
@@ -14789,7 +18955,7 @@ export const mockSmartwatches: Product[] = [
     "category": "smartwatches",
     "rating": 5,
     "reviewCount": 650,
-    "basePrice": 54999,
+    "basePrice": 54719,
     "currency": "TL",
     "releaseYear": 2024,
     "isPopular": true,
@@ -14845,29 +19011,84 @@ export const mockSmartwatches: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "st-garmin-f8",
-        "storeName": "Baytekin Garmin TR",
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
         "price": 54999,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Distribütör"
-        ],
-        "sellerRating": 5,
-        "sellerReviews": 450,
-        "url": "https://www.baytekin.com.tr/"
+        "url": "https://www.hepsiburada.com/ara?q=Garmin%20Fenix%208%20(51mm%20AMOLED%20Safir%20Titanyum)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 55659,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.trendyol.com/sr?q=Garmin%20Fenix%208%20(51mm%20AMOLED%20Safir%20Titanyum)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 56369,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Garmin%20Fenix%208%20(51mm%20AMOLED%20Safir%20Titanyum)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 56919,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Garmin%20Fenix%208%20(51mm%20AMOLED%20Safir%20Titanyum)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 54719,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Garmin%20Fenix%208%20(51mm%20AMOLED%20Safir%20Titanyum)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 56539,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Garmin%20Fenix%208%20(51mm%20AMOLED%20Safir%20Titanyum)",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-06-01",
-        "price": 57999,
-        "store": "Garmin"
+        "date": "Ekim 2025",
+        "price": 62700
       },
       {
-        "date": "2026-07-01",
-        "price": 54999,
-        "store": "Garmin"
+        "date": "Kasım 2025",
+        "price": 61050
+      },
+      {
+        "date": "Aralık 2025",
+        "price": 59400
+      },
+      {
+        "date": "Ocak 2026",
+        "price": 57750
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 56100
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 55000
       }
     ],
     "colorOptions": [
@@ -14885,7 +19106,7 @@ export const mockSmartwatches: Product[] = [
     "category": "smartwatches",
     "rating": 4.9,
     "reviewCount": 920,
-    "basePrice": 33499,
+    "basePrice": 33329,
     "currency": "TL",
     "releaseYear": 2023,
     "isPopular": true,
@@ -14938,29 +19159,84 @@ export const mockSmartwatches: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "st-hb-fr965",
         "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
         "price": 33499,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Distribütör"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 620,
-        "url": "https://www.hepsiburada.com/ara?q=Garmin+Forerunner+965"
+        "url": "https://www.hepsiburada.com/ara?q=Garmin%20Forerunner%20965%20(Titanyum%20Bezel)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 33899,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.trendyol.com/sr?q=Garmin%20Forerunner%20965%20(Titanyum%20Bezel)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 34339,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Garmin%20Forerunner%20965%20(Titanyum%20Bezel)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 34669,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Garmin%20Forerunner%20965%20(Titanyum%20Bezel)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 33329,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Garmin%20Forerunner%20965%20(Titanyum%20Bezel)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 34439,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Garmin%20Forerunner%20965%20(Titanyum%20Bezel)",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-06-01",
-        "price": 34999,
-        "store": "Garmin"
+        "date": "Ekim 2025",
+        "price": 38190
       },
       {
-        "date": "2026-07-01",
-        "price": 33499,
-        "store": "Hepsiburada"
+        "date": "Kasım 2025",
+        "price": 37180
+      },
+      {
+        "date": "Aralık 2025",
+        "price": 36180
+      },
+      {
+        "date": "Ocak 2026",
+        "price": 35170
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 34170
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 33500
       }
     ],
     "colorOptions": [
@@ -14982,7 +19258,7 @@ export const mockSmartwatches: Product[] = [
     "category": "smartwatches",
     "rating": 4.8,
     "reviewCount": 1400,
-    "basePrice": 11499,
+    "basePrice": 11439,
     "currency": "TL",
     "releaseYear": 2024,
     "isPopular": true,
@@ -15035,29 +19311,84 @@ export const mockSmartwatches: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "st-hb-trex3",
         "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
         "price": 11499,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Outdoor Lideri"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 1200,
-        "url": "https://www.hepsiburada.com/ara?q=Amazfit+T-Rex+3"
+        "url": "https://www.hepsiburada.com/ara?q=Amazfit%20T-Rex%203%20(Askeri%20Dayan%C4%B1kl%C4%B1%20Outdoor)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 11639,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.trendyol.com/sr?q=Amazfit%20T-Rex%203%20(Askeri%20Dayan%C4%B1kl%C4%B1%20Outdoor)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 11789,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Amazfit%20T-Rex%203%20(Askeri%20Dayan%C4%B1kl%C4%B1%20Outdoor)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 11899,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Amazfit%20T-Rex%203%20(Askeri%20Dayan%C4%B1kl%C4%B1%20Outdoor)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 11439,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Amazfit%20T-Rex%203%20(Askeri%20Dayan%C4%B1kl%C4%B1%20Outdoor)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 11819,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Amazfit%20T-Rex%203%20(Askeri%20Dayan%C4%B1kl%C4%B1%20Outdoor)",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-06-01",
-        "price": 11999,
-        "store": "Amazfit"
+        "date": "Ekim 2025",
+        "price": 13110
       },
       {
-        "date": "2026-07-01",
-        "price": 11499,
-        "store": "Hepsiburada"
+        "date": "Kasım 2025",
+        "price": 12760
+      },
+      {
+        "date": "Aralık 2025",
+        "price": 12420
+      },
+      {
+        "date": "Ocak 2026",
+        "price": 12070
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 11730
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 11500
       }
     ],
     "colorOptions": [
@@ -15075,7 +19406,7 @@ export const mockSmartwatches: Product[] = [
     "category": "smartwatches",
     "rating": 4.7,
     "reviewCount": 780,
-    "basePrice": 8499,
+    "basePrice": 8459,
     "currency": "TL",
     "releaseYear": 2023,
     "isPopular": false,
@@ -15128,29 +19459,84 @@ export const mockSmartwatches: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "st-hb-hw4p",
         "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
         "price": 8499,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Distribütör"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 650,
-        "url": "https://www.hepsiburada.com/ara?q=Honor+Watch+4+Pro"
+        "url": "https://www.hepsiburada.com/ara?q=Honor%20Watch%204%20Pro%20(Paslanmaz%20%C3%87elik%20eSIM%20LTE)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 8599,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.trendyol.com/sr?q=Honor%20Watch%204%20Pro%20(Paslanmaz%20%C3%87elik%20eSIM%20LTE)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 8709,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Honor%20Watch%204%20Pro%20(Paslanmaz%20%C3%87elik%20eSIM%20LTE)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 8799,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Honor%20Watch%204%20Pro%20(Paslanmaz%20%C3%87elik%20eSIM%20LTE)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 8459,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Honor%20Watch%204%20Pro%20(Paslanmaz%20%C3%87elik%20eSIM%20LTE)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 8739,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Honor%20Watch%204%20Pro%20(Paslanmaz%20%C3%87elik%20eSIM%20LTE)",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-06-01",
-        "price": 8999,
-        "store": "Honor"
+        "date": "Ekim 2025",
+        "price": 9690
       },
       {
-        "date": "2026-07-01",
-        "price": 8499,
-        "store": "Hepsiburada"
+        "date": "Kasım 2025",
+        "price": 9430
+      },
+      {
+        "date": "Aralık 2025",
+        "price": 9180
+      },
+      {
+        "date": "Ocak 2026",
+        "price": 8920
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 8670
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 8500
       }
     ],
     "colorOptions": [
@@ -15172,7 +19558,7 @@ export const mockSmartwatches: Product[] = [
     "category": "smartwatches",
     "rating": 4.8,
     "reviewCount": 3400,
-    "basePrice": 6499,
+    "basePrice": 6469,
     "currency": "TL",
     "releaseYear": 2023,
     "isPopular": true,
@@ -15223,29 +19609,84 @@ export const mockSmartwatches: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "st-hb-gt4",
         "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
         "price": 6499,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Çok Satan"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 4500,
-        "url": "https://www.hepsiburada.com/ara?q=Huawei+Watch+GT+4"
+        "url": "https://www.hepsiburada.com/ara?q=Huawei%20Watch%20GT%204%20(46mm)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 6579,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.trendyol.com/sr?q=Huawei%20Watch%20GT%204%20(46mm)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 6659,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Huawei%20Watch%20GT%204%20(46mm)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 6729,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Huawei%20Watch%20GT%204%20(46mm)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 6469,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Huawei%20Watch%20GT%204%20(46mm)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 6679,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Huawei%20Watch%20GT%204%20(46mm)",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-06-01",
-        "price": 6999,
-        "store": "Huawei"
+        "date": "Ekim 2025",
+        "price": 7410
       },
       {
-        "date": "2026-07-01",
-        "price": 6499,
-        "store": "Hepsiburada"
+        "date": "Kasım 2025",
+        "price": 7210
+      },
+      {
+        "date": "Aralık 2025",
+        "price": 7020
+      },
+      {
+        "date": "Ocak 2026",
+        "price": 6820
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 6630
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 6500
       }
     ],
     "colorOptions": [
@@ -15271,7 +19712,7 @@ export const mockSmartwatches: Product[] = [
     "category": "smartwatches",
     "rating": 4.9,
     "reviewCount": 2900,
-    "basePrice": 9499,
+    "basePrice": 9449,
     "currency": "TL",
     "releaseYear": 2022,
     "isPopular": false,
@@ -15324,29 +19765,84 @@ export const mockSmartwatches: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "st-hb-gt3p",
         "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
         "price": 9499,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Premium"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 3100,
-        "url": "https://www.hepsiburada.com/ara?q=Huawei+Watch+GT+3+Pro"
+        "url": "https://www.hepsiburada.com/ara?q=Huawei%20Watch%20GT%203%20Pro%20(46mm%20Titanyum%20%26%20Safir)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 9609,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.trendyol.com/sr?q=Huawei%20Watch%20GT%203%20Pro%20(46mm%20Titanyum%20%26%20Safir)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 9739,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Huawei%20Watch%20GT%203%20Pro%20(46mm%20Titanyum%20%26%20Safir)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 9829,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Huawei%20Watch%20GT%203%20Pro%20(46mm%20Titanyum%20%26%20Safir)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 9449,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Huawei%20Watch%20GT%203%20Pro%20(46mm%20Titanyum%20%26%20Safir)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 9769,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Huawei%20Watch%20GT%203%20Pro%20(46mm%20Titanyum%20%26%20Safir)",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-06-01",
-        "price": 9999,
-        "store": "Huawei"
+        "date": "Ekim 2025",
+        "price": 10830
       },
       {
-        "date": "2026-07-01",
-        "price": 9499,
-        "store": "Hepsiburada"
+        "date": "Kasım 2025",
+        "price": 10540
+      },
+      {
+        "date": "Aralık 2025",
+        "price": 10260
+      },
+      {
+        "date": "Ocak 2026",
+        "price": 9970
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 9690
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 9500
       }
     ],
     "colorOptions": [
@@ -15368,7 +19864,7 @@ export const mockSmartwatches: Product[] = [
     "category": "smartwatches",
     "rating": 4.8,
     "reviewCount": 2600,
-    "basePrice": 3999,
+    "basePrice": 3979,
     "currency": "TL",
     "releaseYear": 2024,
     "isPopular": true,
@@ -15418,29 +19914,84 @@ export const mockSmartwatches: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "st-hb-wf3",
         "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
         "price": 3999,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Trend"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 2800,
-        "url": "https://www.hepsiburada.com/ara?q=Huawei+Watch+Fit+3"
+        "url": "https://www.hepsiburada.com/ara?q=Huawei%20Watch%20Fit%203",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 4049,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.trendyol.com/sr?q=Huawei%20Watch%20Fit%203",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 4099,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Huawei%20Watch%20Fit%203",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 4139,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Huawei%20Watch%20Fit%203",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 3979,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Huawei%20Watch%20Fit%203",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 4109,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Huawei%20Watch%20Fit%203",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-06-01",
-        "price": 4499,
-        "store": "Huawei"
+        "date": "Ekim 2025",
+        "price": 4560
       },
       {
-        "date": "2026-07-01",
-        "price": 3999,
-        "store": "Hepsiburada"
+        "date": "Kasım 2025",
+        "price": 4440
+      },
+      {
+        "date": "Aralık 2025",
+        "price": 4320
+      },
+      {
+        "date": "Ocak 2026",
+        "price": 4200
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 4080
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 4000
       }
     ],
     "colorOptions": [
@@ -15466,7 +20017,7 @@ export const mockSmartwatches: Product[] = [
     "category": "smartwatches",
     "rating": 4.7,
     "reviewCount": 1100,
-    "basePrice": 8999,
+    "basePrice": 8949,
     "currency": "TL",
     "releaseYear": 2023,
     "isPopular": false,
@@ -15522,29 +20073,84 @@ export const mockSmartwatches: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "st-hb-w2plte",
         "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
         "price": 8999,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Wear OS"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 950,
-        "url": "https://www.hepsiburada.com/ara?q=Xiaomi+Watch+2+Pro"
+        "url": "https://www.hepsiburada.com/ara?q=Xiaomi%20Watch%202%20Pro%20(46mm%20LTE%20eSIM%20Snapdragon%20W5%2B%20Gen%201)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 9109,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.trendyol.com/sr?q=Xiaomi%20Watch%202%20Pro%20(46mm%20LTE%20eSIM%20Snapdragon%20W5%2B%20Gen%201)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 9219,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Xiaomi%20Watch%202%20Pro%20(46mm%20LTE%20eSIM%20Snapdragon%20W5%2B%20Gen%201)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 9309,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Xiaomi%20Watch%202%20Pro%20(46mm%20LTE%20eSIM%20Snapdragon%20W5%2B%20Gen%201)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 8949,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Xiaomi%20Watch%202%20Pro%20(46mm%20LTE%20eSIM%20Snapdragon%20W5%2B%20Gen%201)",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 9249,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Xiaomi%20Watch%202%20Pro%20(46mm%20LTE%20eSIM%20Snapdragon%20W5%2B%20Gen%201)",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-06-01",
-        "price": 9499,
-        "store": "Mi Store"
+        "date": "Ekim 2025",
+        "price": 10260
       },
       {
-        "date": "2026-07-01",
-        "price": 8999,
-        "store": "Hepsiburada"
+        "date": "Kasım 2025",
+        "price": 9990
+      },
+      {
+        "date": "Aralık 2025",
+        "price": 9720
+      },
+      {
+        "date": "Ocak 2026",
+        "price": 9450
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 9180
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 9000
       }
     ],
     "colorOptions": [
@@ -15566,7 +20172,7 @@ export const mockSmartwatches: Product[] = [
     "category": "smartwatches",
     "rating": 4.7,
     "reviewCount": 5200,
-    "basePrice": 1549,
+    "basePrice": 1539,
     "currency": "TL",
     "releaseYear": 2023,
     "isPopular": true,
@@ -15614,29 +20220,84 @@ export const mockSmartwatches: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "st-hb-rw3a",
         "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
         "price": 1549,
+        "shippingFee": 0,
         "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "En Çok Satan"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 6800,
-        "url": "https://www.hepsiburada.com/ara?q=Redmi+Watch+3+Active"
+        "url": "https://www.hepsiburada.com/ara?q=Xiaomi%20Redmi%20Watch%203%20Active",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 1569,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.trendyol.com/sr?q=Xiaomi%20Redmi%20Watch%203%20Active",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 1589,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Xiaomi%20Redmi%20Watch%203%20Active",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 1599,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Xiaomi%20Redmi%20Watch%203%20Active",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 1539,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Xiaomi%20Redmi%20Watch%203%20Active",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 1589,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Xiaomi%20Redmi%20Watch%203%20Active",
+        "rating": 4.8
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-06-01",
-        "price": 1699,
-        "store": "Mi Store"
+        "date": "Ekim 2025",
+        "price": 1770
       },
       {
-        "date": "2026-07-01",
-        "price": 1549,
-        "store": "Hepsiburada"
+        "date": "Kasım 2025",
+        "price": 1720
+      },
+      {
+        "date": "Aralık 2025",
+        "price": 1670
+      },
+      {
+        "date": "Ocak 2026",
+        "price": 1630
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 1580
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 1550
       }
     ],
     "colorOptions": [
