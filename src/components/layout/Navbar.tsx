@@ -139,14 +139,14 @@ export function Navbar() {
     }
   };
 
-  // Reusable Search Results List Renderer for both Desktop & Mobile Dropdowns
+  // Reusable Search Results List Renderer
   const renderDropdownResults = () => {
     if (!isFocused || query.trim().length <= 1) return null;
 
     return (
       <div
         className="absolute top-full left-0 right-0 mt-2 bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl shadow-2xl p-2 z-50 animate-in fade-in zoom-in-95 backdrop-blur-xl max-h-[60vh] sm:max-h-96 overflow-y-auto"
-        onMouseDown={(e) => e.preventDefault()} // Prevent premature blur on mobile/desktop
+        onMouseDown={(e) => e.preventDefault()}
       >
         {searchResults.length === 0 ? (
           <div className="py-6 text-center text-slate-500 text-xs font-semibold">
@@ -213,7 +213,7 @@ export function Navbar() {
     <header className="sticky top-0 z-40 bg-white/95 dark:bg-[#090D16]/95 backdrop-blur-xl border-b border-slate-200/80 dark:border-slate-800/80 shadow-xs">
       <div className="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8">
         
-        {/* Row 1: Logo & Desktop Search Bar & Language/Compare */}
+        {/* Row 1: Logo & Desktop Inline Search Bar & Right Language/Compare */}
         <div className="flex items-center justify-between h-14 sm:h-16 gap-3 sm:gap-4">
           
           {/* 1. Left: Logo */}
@@ -223,7 +223,7 @@ export function Navbar() {
             </Link>
           </div>
 
-          {/* 2. Center: Desktop & Tablet Inline Search Bar (md and up) */}
+          {/* 2. Center: Desktop Inline Search Bar (md and up) */}
           <div ref={searchContainerRef} className="hidden md:flex flex-1 max-w-xl mx-auto relative">
             <form onSubmit={handleSearchSubmit} className="w-full">
               <div
@@ -344,18 +344,18 @@ export function Navbar() {
 
         {/* ========================================================================= */}
         {/* 📱 MOBILE & TABLET FULL-WIDTH DIRECT INLINE SEARCH BAR (< md)            */}
-        {/* Exact same inline typing & live product dropdown as website, 100% visible */}
+        {/* Generously padded, full screen width, crystal clear, 0% clipping         */}
         {/* ========================================================================= */}
-        <div ref={mobileSearchContainerRef} className="block md:hidden pb-2.5 relative">
+        <div ref={mobileSearchContainerRef} className="block md:hidden pb-3 relative">
           <form onSubmit={handleSearchSubmit} className="w-full">
             <div
-              className={`w-full flex items-center justify-between bg-slate-100/95 dark:bg-slate-900/90 text-slate-900 dark:text-slate-100 text-xs px-3.5 py-2.5 rounded-2xl border transition-all shadow-2xs backdrop-blur-md ${
+              className={`w-full flex items-center justify-between bg-slate-100 dark:bg-slate-900 text-slate-900 dark:text-slate-100 text-xs px-3.5 py-2.5 rounded-full border transition-all shadow-2xs ${
                 isFocused
                   ? 'border-emerald-500 ring-2 ring-emerald-500/20 bg-white dark:bg-slate-900 shadow-md'
                   : 'border-slate-200 dark:border-slate-800'
               }`}
             >
-              <div className="flex items-center gap-2.5 flex-1 min-w-0">
+              <div className="flex items-center gap-2 flex-1 min-w-0">
                 <button type="submit" aria-label="Arama yap" className="cursor-pointer">
                   <Search className={`w-4 h-4 shrink-0 transition-colors ${isFocused ? 'text-emerald-600' : 'text-slate-400'}`} />
                 </button>
