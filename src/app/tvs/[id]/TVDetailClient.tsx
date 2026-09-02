@@ -242,11 +242,6 @@ export default function TVDetailClient({ initialTVProduct }: { initialTVProduct:
         <TVSpecSheet specs={tv.specs} />
       </div>
 
-      {/* Brand Logos Bar */}
-      <div className="pt-8 border-t border-slate-200">
-        <BrandLogoBar />
-      </div>
-
       {/* Price Alert Subscription Modal */}
       <PriceAlertModal
         phone={tv}

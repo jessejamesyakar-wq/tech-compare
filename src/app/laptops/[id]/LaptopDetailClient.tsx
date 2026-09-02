@@ -176,11 +176,6 @@ export default function LaptopDetailClient({ initialLaptopProduct }: { initialLa
         <PriceHistoryChart data={laptop.priceHistory || []} currency="TL" />
       </section>
 
-      {/* Top Brands Logo Bar */}
-      <section className="pt-6 border-t border-slate-200">
-        <BrandLogoBar />
-      </section>
-
       {/* Price Alert Modal */}
       <PriceAlertModal
         phone={laptop}

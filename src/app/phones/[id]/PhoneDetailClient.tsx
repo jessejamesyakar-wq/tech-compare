@@ -233,11 +233,6 @@ export default function PhoneDetailClient({ initialPhone }: { initialPhone: Smar
       {/* AI Module 6: ELI5 Tech Term Explainer */}
       <TechTermExplainer />
 
-      {/* Brand Logos Bar */}
-      <div className="pt-8 border-t border-slate-200">
-        <BrandLogoBar />
-      </div>
-
       {/* Price Alert Subscription Modal */}
       <PriceAlertModal
         phone={phone}
