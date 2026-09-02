@@ -100,7 +100,7 @@ export function Logo({ variant = 'light', size = 'md' }: LogoProps) {
       {/* Typography */}
       <div className="flex flex-col leading-none">
         <span
-          className={`text-xl sm:text-2xl font-black tracking-tight font-sans ${
+          className={`text-lg sm:text-xl md:text-2xl font-black tracking-tight font-sans whitespace-nowrap ${
             isDarkTheme ? 'text-white' : 'text-slate-900 dark:text-white'
           }`}
         >
@@ -113,7 +113,7 @@ export function Logo({ variant = 'light', size = 'md' }: LogoProps) {
           )}
         </span>
         <span
-          className={`text-[9px] tracking-[0.2em] font-black uppercase mt-0.5 ${
+          className={`text-[8px] sm:text-[9px] tracking-[0.15em] sm:tracking-[0.2em] font-black uppercase mt-0.5 whitespace-nowrap ${
             isDarkTheme ? 'text-emerald-400/90' : 'text-slate-500 dark:text-slate-400'
           }`}
         >
