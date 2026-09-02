@@ -3,6 +3,7 @@
 import React from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
+import { useI18n } from '@/lib/i18n/context';
 import {
   Smartphone,
   Tv,
@@ -17,18 +18,19 @@ import {
 
 export function CategoryBar() {
   const pathname = usePathname();
+  const { t } = useI18n();
 
-  // 9 Core Product Categories (Comparison removed so everything fits perfectly in 1 row)
+  // 9 Core Product Categories with dynamic i18n translations
   const categories = [
-    { id: 'phones', label: 'Akıllı Telefonlar', href: '/phones', icon: Smartphone },
-    { id: 'laptops', label: 'Laptop & PC', href: '/laptops', icon: Laptop },
-    { id: 'tvs', label: 'Televizyonlar', href: '/tvs', icon: Tv },
-    { id: 'appliances', label: 'Ev ve Yaşam', href: '/appliances', icon: PlugZap },
-    { id: 'tablets', label: 'Tabletler', href: '/tablets', icon: Tablet },
-    { id: 'smartwatches', label: 'Akıllı Saatler', href: '/smartwatches', icon: Watch },
-    { id: 'headphones', label: 'Ses & Kulaklık', href: '/headphones', icon: Headphones },
-    { id: 'monitors', label: 'Monitörler', href: '/monitors', icon: Monitor },
-    { id: 'consoles', label: 'Oyun Konsolları', href: '/consoles', icon: Gamepad2 }
+    { id: 'phones', label: t.catPhones || 'Akıllı Telefonlar', href: '/phones', icon: Smartphone },
+    { id: 'laptops', label: t.catLaptops || 'Laptop & PC', href: '/laptops', icon: Laptop },
+    { id: 'tvs', label: t.catTvs || 'Televizyonlar', href: '/tvs', icon: Tv },
+    { id: 'appliances', label: t.catAppliances || 'Ev ve Yaşam', href: '/appliances', icon: PlugZap },
+    { id: 'tablets', label: t.catTablets || 'Tabletler', href: '/tablets', icon: Tablet },
+    { id: 'smartwatches', label: t.catSmartwatches || 'Akıllı Saatler', href: '/smartwatches', icon: Watch },
+    { id: 'headphones', label: t.catHeadphones || 'Ses & Kulaklık', href: '/headphones', icon: Headphones },
+    { id: 'monitors', label: t.catMonitors || 'Monitörler', href: '/monitors', icon: Monitor },
+    { id: 'consoles', label: t.catConsoles || 'Oyun Konsolları', href: '/consoles', icon: Gamepad2 }
   ];
 
   return (
@@ -63,3 +65,5 @@ export function CategoryBar() {
     </div>
   );
 }
+
+export default CategoryBar;
