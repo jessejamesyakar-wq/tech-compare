@@ -4,6 +4,7 @@ import React, { useState, useMemo, useRef, Suspense } from 'react';
 import Link from 'next/link';
 import { useRouter, useSearchParams } from 'next/navigation';
 import { Smartphone } from '@/lib/types';
+import { useI18n } from '@/lib/i18n/context';
 import { CompactProductCard } from '@/components/catalog/CompactProductCard';
 import { CategoryIconStrip } from '@/components/layout/CategoryIconStrip';
 import {
@@ -36,7 +37,8 @@ interface PhonesContentProps {
   initialBrandCounts?: Record<string, number>;
 }
 
-function PhonesContent({ initialPhones }: PhonesContentProps) {
+function PhonesContent({  initialPhones  }: PhonesContentProps) {
+  const { t } = useI18n();
   const router = useRouter();
   const searchParams = useSearchParams();
 

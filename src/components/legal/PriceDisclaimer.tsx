@@ -1,6 +1,7 @@
 'use client';
 
 import React from 'react';
+import { useI18n } from '@/lib/i18n/context';
 import { Info, ShieldAlert, CheckCircle2 } from 'lucide-react';
 
 interface PriceDisclaimerProps {

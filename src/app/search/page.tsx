@@ -1,5 +1,6 @@
 'use client';
 
+import { useI18n } from '@/lib/i18n/context';
 import React, { useState, useEffect, Suspense } from 'react';
 import Link from 'next/link';
 import { useSearchParams, useRouter } from 'next/navigation';
@@ -9,6 +10,7 @@ import { useCompare } from '@/context/CompareContext';
 import { Search, ChevronRight, Scale, Check, Filter, Sparkles, ShoppingBag, Award, ArrowUpDown, RefreshCw } from 'lucide-react';
 
 function SearchContent() {
+  const { t } = useI18n();
   const searchParams = useSearchParams();
   const router = useRouter();
   const queryParam = searchParams.get('q') || '';

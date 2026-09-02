@@ -5,6 +5,7 @@ import Link from 'next/link';
 import { Product } from '@/lib/types';
 import { ArrowRight, Store } from 'lucide-react';
 import { TiltCard } from '@/components/ui/TiltCard';
+import { useI18n } from '@/lib/i18n/context';
 
 export interface CompactProductCardProps {
   product: Product;
@@ -17,6 +18,7 @@ export interface CompactProductCardProps {
 export function CompactProductCard({
   product
 }: CompactProductCardProps) {
+  const { t } = useI18n();
   const slug = product.slug || product.id;
   const href =
     product.category === 'tvs'
@@ -101,7 +103,7 @@ export function CompactProductCard({
     subInfo = [inch, tech, refresh, os].filter(Boolean).slice(0, 3).join(' • ') || (product.highlights?.[0] || '');
   } else if (product.category === 'laptops') {
     const inch = specs.screenSizeInches ? `${specs.screenSizeInches}"` : '';
-    const cpu = specs.processor ? (specs.processor.includes('Apple') ? specs.processor.split(' (')[0] : specs.processor.split(' ')[0] + ' ' + (specs.processor.split(' ')[1] || '')) : '';
+    const cpu = specs.processor ? (specs.processor.includes('Apple') ? specs.processor.split(' ')[0] : specs.processor.split(' ')[0] + ' ' + (specs.processor.split(' ')[1] || '')) : '';
     const ram = specs.ramGb ? `${specs.ramGb}GB RAM` : '';
     const storage = specs.storageGb ? `${specs.storageGb >= 1000 ? (specs.storageGb / 1000) + 'TB' : specs.storageGb + 'GB'}` : '';
     const gpu = specs.gpu && !specs.gpu.toLowerCase().includes('intel') && !specs.gpu.toLowerCase().includes('iris') ? specs.gpu.split(' ')[0] + ' ' + (specs.gpu.split(' ')[1] || '') : '';
@@ -177,10 +179,10 @@ export function CompactProductCard({
       <div className="mt-2.5 sm:mt-3 pt-2 sm:pt-2.5 border-t border-slate-100/90 space-y-1.5 sm:space-y-2">
         <div>
           <div className="text-[9px] sm:text-[10px] font-bold text-slate-400 uppercase tracking-wider flex items-center justify-between">
-            <span>En Düşük</span>
+            <span>{t.bestPriceLabel}</span>
             <span className="text-emerald-700 font-bold lowercase flex items-center gap-0.5 sm:gap-1 text-[10px] sm:text-[11px]">
               <Store className="w-2.5 h-2.5 sm:w-3 sm:h-3" />
-              {offerCount} satıcı
+              {offerCount} {t.storeOffers}
             </span>
           </div>
           <div className="flex items-baseline justify-between pt-0.5">
@@ -193,7 +195,7 @@ export function CompactProductCard({
               </span>
             ) : (
               <span className="text-[9px] font-semibold text-slate-500 bg-slate-100 px-1.5 py-0.5 rounded">
-                Piyasa Fiyatı
+                {t.storeOffers}
               </span>
             )}
           </div>
@@ -215,7 +217,7 @@ export function CompactProductCard({
         ) : (
           <div className="flex items-center gap-1 text-[10px] sm:text-[11px] text-slate-500 font-medium pt-0.5">
             <span className="w-1 h-1 sm:w-1.5 sm:h-1.5 rounded-full bg-emerald-500" />
-            <span>Yetkili Satıcılar</span>
+            <span>{t.officialSeller}</span>
           </div>
         )}
 
@@ -224,7 +226,7 @@ export function CompactProductCard({
           href={href}
           className="w-full bg-slate-900 hover:bg-emerald-600 text-white text-[10px] sm:text-[11px] font-bold py-1.5 sm:py-2 px-2.5 sm:px-3 rounded-xl flex items-center justify-center gap-1 sm:gap-1.5 transition-all mt-1"
         >
-          <span>Fiyatları Karşılaştır ({offerCount})</span>
+          <span>{t.compareNavBtn} ({offerCount})</span>
           <ArrowRight className="w-2.5 h-2.5 sm:w-3 sm:h-3" />
         </Link>
       </div>

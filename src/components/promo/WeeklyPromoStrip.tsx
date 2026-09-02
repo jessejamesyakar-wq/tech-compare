@@ -1,3 +1,4 @@
+import { useI18n } from '@/lib/i18n/context';
 'use client';
 
 import React, { useState } from 'react';
@@ -5,6 +6,7 @@ import Link from 'next/link';
 import { Sparkles, ChevronRight, X } from 'lucide-react';
 
 export function WeeklyPromoStrip() {
+  const { t } = useI18n();
   const [isVisible, setIsVisible] = useState(true);
 
   if (!isVisible) return null;

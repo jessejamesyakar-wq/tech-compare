@@ -6,6 +6,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { Product } from '@/lib/types';
 import { getDynamicCategoryDistributionProducts, DynamicCategoryDistribution } from '@/lib/data';
 import { useCompare } from '@/context/CompareContext';
+import { useI18n } from '@/lib/i18n/context';
 import { TiltCard } from '@/components/ui/TiltCard';
 import {
   Sparkles,
@@ -112,6 +113,7 @@ const DYNAMIC_BADGES = [
 ];
 
 export function DynamicCategoryShowcase() {
+  const { t } = useI18n();
   const { addToCompare, removeFromCompare, isInCompare } = useCompare();
   const [distributionData, setDistributionData] = useState<DynamicCategoryDistribution | null>(null);
   const [activeFilter, setActiveFilter] = useState<string>('all');

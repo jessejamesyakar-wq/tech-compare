@@ -4,6 +4,7 @@ import React, { useState, useMemo, useRef, Suspense } from 'react';
 import Link from 'next/link';
 import { useRouter, useSearchParams } from 'next/navigation';
 import { Product } from '@/lib/types';
+import { useI18n } from '@/lib/i18n/context';
 import { CompactProductCard } from '@/components/catalog/CompactProductCard';
 import { CategoryIconStrip } from '@/components/layout/CategoryIconStrip';
 import { Search, ChevronDown, X, Flame } from 'lucide-react';
