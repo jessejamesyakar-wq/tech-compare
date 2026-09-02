@@ -113768,5 +113768,3616 @@
     "images": [
       "/images/phones/oppo/oppo-oppo-a5-pro-4g-13738.jpg"
     ]
+  },
+  {
+    "id": "xiaomi-17-ultra-1tb-2027",
+    "slug": "xiaomi-17-ultra-1-tb",
+    "name": "Xiaomi 17 Ultra (1 TB)",
+    "brand": "Xiaomi",
+    "category": "smartphones",
+    "image": "/images/phones/xiaomi/xiaomi-17-ultra.jpg",
+    "rating": 4.95,
+    "epeyScore": 98,
+    "reviewCount": 2650,
+    "basePrice": 84999,
+    "currency": "TL",
+    "releaseYear": 2027,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "Leica Summilux Dörtlü Kamera (200 MP Periskop & 1 inç Sony Ana Sensör)",
+      "Qualcomm Snapdragon 8 Gen 5 (2nm TSMC) Yeni Nesil Mimari",
+      "6.73 inç 2K LTPO M10 OLED Ekran (144Hz, 5000 nits)",
+      "6500 mAh Silikon-Karbon Batarya & 120W Kablolu / 80W Kablosuz HyperCharge"
+    ],
+    "pros": [
+      "2nm Snapdragon 8 Gen 5 işlemci verimliliği",
+      "200 MP Leica periskop telefoto",
+      "6500 mAh silikon-karbon batarya"
+    ],
+    "cons": [
+      "Ağırlık 228g"
+    ],
+    "specs": {
+      "screenSize": 6.73,
+      "screenResolution": "1440x3200 (2K WQHD+)",
+      "displayType": "LTPO AMOLED (144Hz)",
+      "chipset": "Qualcomm Snapdragon 8 Gen 5 (2nm)",
+      "cpuCores": 8,
+      "ram": 16,
+      "storage": 1024,
+      "batteryCapacity": 6500,
+      "chargingSpeed": 120,
+      "mainCamera": "50 MP (Sony 1-inç OIS) + 200 MP Leica Periskop + 50 MP Telefoto + 50 MP Ultra Geniş",
+      "frontCamera": "50 MP",
+      "operatingSystem": "Xiaomi HyperOS 3.0 (Android 17)",
+      "has5G": true,
+      "waterResistance": "IP68 & IP69"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Amazon TR",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 84999,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Amazon%20TR%20xiaomi%20fiyat",
+        "sellerName": "Amazon Türkiye",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 85679,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Hepsiburada%20xiaomi%20fiyat",
+        "sellerName": "Hepsiburada Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 86274,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Trendyol%20xiaomi%20fiyat",
+        "sellerName": "Trendyol Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 87124,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=MediaMarkt%20xiaomi%20fiyat",
+        "sellerName": "MediaMarkt Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 87549,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Vatan%20Bilgisayar%20xiaomi%20fiyat",
+        "sellerName": "Vatan Bilgisayar Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 87974,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Teknosa%20xiaomi%20fiyat",
+        "sellerName": "Teknosa Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "N11",
+        "storeLogo": "/images/stores/n11.png",
+        "price": 86529,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=N11%20xiaomi%20fiyat",
+        "sellerName": "N11 Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Pazarama",
+        "storeLogo": "/images/stores/pazarama.png",
+        "price": 86869,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Pazarama%20xiaomi%20fiyat",
+        "sellerName": "Pazarama Resmi Satıcı",
+        "isOfficialSeller": true
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 91799
+      },
+      {
+        "date": "2026-04-01",
+        "price": 90099
+      },
+      {
+        "date": "2026-05-01",
+        "price": 88399
+      },
+      {
+        "date": "2026-06-01",
+        "price": 86699
+      },
+      {
+        "date": "2026-07-01",
+        "price": 85849
+      },
+      {
+        "date": "2026-08-01",
+        "price": 84999
+      }
+    ],
+    "images": [
+      "/images/phones/xiaomi/xiaomi-17-ultra.jpg"
+    ]
+  },
+  {
+    "id": "xiaomi-17-pro-512gb-2027",
+    "slug": "xiaomi-17-pro-512-gb",
+    "name": "Xiaomi 17 Pro (512 GB)",
+    "brand": "Xiaomi",
+    "category": "smartphones",
+    "image": "/images/phones/xiaomi/xiaomi-17-pro.jpg",
+    "rating": 4.9,
+    "epeyScore": 95,
+    "reviewCount": 2180,
+    "basePrice": 69999,
+    "currency": "TL",
+    "releaseYear": 2027,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "Leica Vario-Summilux 50 MP Üçlü Kamera Sistemi (5x Optik Zoom)",
+      "Qualcomm Snapdragon 8 Gen 5 (2nm) Çipi",
+      "6.73 inç 2K 144Hz Dört Tarafı Kavisli LTPO Ekran",
+      "6200 mAh Batarya & 120W HyperCharge"
+    ],
+    "pros": [
+      "6200 mAh yüksek pil",
+      "120W hızlı dolum",
+      "2K 144Hz canlı Leica ekran"
+    ],
+    "cons": [
+      "Büyük arka kamera halkası"
+    ],
+    "specs": {
+      "screenSize": 6.73,
+      "screenResolution": "1440x3200 (2K WQHD+)",
+      "displayType": "LTPO AMOLED (144Hz)",
+      "chipset": "Qualcomm Snapdragon 8 Gen 5 (2nm)",
+      "cpuCores": 8,
+      "ram": 16,
+      "storage": 512,
+      "batteryCapacity": 6200,
+      "chargingSpeed": 120,
+      "mainCamera": "50 MP (Light Fusion 950 OIS) + 50 MP Periskop (5x) + 50 MP Ultra Geniş",
+      "frontCamera": "32 MP",
+      "operatingSystem": "Xiaomi HyperOS 3.0 (Android 17)",
+      "has5G": true,
+      "waterResistance": "IP68"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Amazon TR",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 69999,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Amazon%20TR%20xiaomi%20fiyat",
+        "sellerName": "Amazon Türkiye",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 70559,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Hepsiburada%20xiaomi%20fiyat",
+        "sellerName": "Hepsiburada Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 71049,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Trendyol%20xiaomi%20fiyat",
+        "sellerName": "Trendyol Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 71749,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=MediaMarkt%20xiaomi%20fiyat",
+        "sellerName": "MediaMarkt Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 72099,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Vatan%20Bilgisayar%20xiaomi%20fiyat",
+        "sellerName": "Vatan Bilgisayar Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 72449,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Teknosa%20xiaomi%20fiyat",
+        "sellerName": "Teknosa Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "N11",
+        "storeLogo": "/images/stores/n11.png",
+        "price": 71259,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=N11%20xiaomi%20fiyat",
+        "sellerName": "N11 Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Pazarama",
+        "storeLogo": "/images/stores/pazarama.png",
+        "price": 71539,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Pazarama%20xiaomi%20fiyat",
+        "sellerName": "Pazarama Resmi Satıcı",
+        "isOfficialSeller": true
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 75599
+      },
+      {
+        "date": "2026-04-01",
+        "price": 74199
+      },
+      {
+        "date": "2026-05-01",
+        "price": 72799
+      },
+      {
+        "date": "2026-06-01",
+        "price": 71399
+      },
+      {
+        "date": "2026-07-01",
+        "price": 70699
+      },
+      {
+        "date": "2026-08-01",
+        "price": 69999
+      }
+    ],
+    "images": [
+      "/images/phones/xiaomi/xiaomi-17-pro.jpg"
+    ]
+  },
+  {
+    "id": "xiaomi-17-256gb-2027",
+    "slug": "xiaomi-17-256-gb",
+    "name": "Xiaomi 17 (256 GB)",
+    "brand": "Xiaomi",
+    "category": "smartphones",
+    "image": "/images/phones/xiaomi/xiaomi-17.jpg",
+    "rating": 4.85,
+    "epeyScore": 92,
+    "reviewCount": 1940,
+    "basePrice": 54999,
+    "currency": "TL",
+    "releaseYear": 2027,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "6.36 inç Kompakt Boyut & 1.28 mm Rekor İnce Çerçeveler",
+      "Qualcomm Snapdragon 8 Gen 5 (2nm) Amiral Gemisi İşlemci",
+      "Leica 50 MP Üçlü Kamera & 3.2x Yüzen Telefoto Lensi",
+      "6000 mAh Silikon-Karbon Batarya & 90W Hızlı Şarj"
+    ],
+    "pros": [
+      "Tek elle kullanımda kusursuz kompaktlık",
+      "Kompakt gövdede 6000 mAh pil",
+      "Leica portre kalitesi"
+    ],
+    "cons": [
+      "Kablosuz şarj hızı 50W"
+    ],
+    "specs": {
+      "screenSize": 6.36,
+      "screenResolution": "1200x2670 (1.5K)",
+      "displayType": "LTPO AMOLED (144Hz)",
+      "chipset": "Qualcomm Snapdragon 8 Gen 5 (2nm)",
+      "cpuCores": 8,
+      "ram": 12,
+      "storage": 256,
+      "batteryCapacity": 6000,
+      "chargingSpeed": 90,
+      "mainCamera": "50 MP (Light Fusion 900 OIS) + 50 MP Telefoto (3.2x) + 50 MP Ultra Geniş",
+      "frontCamera": "32 MP",
+      "operatingSystem": "Xiaomi HyperOS 3.0 (Android 17)",
+      "has5G": true,
+      "waterResistance": "IP68"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Amazon TR",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 54999,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Amazon%20TR%20xiaomi%20fiyat",
+        "sellerName": "Amazon Türkiye",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 55439,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Hepsiburada%20xiaomi%20fiyat",
+        "sellerName": "Hepsiburada Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 55824,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Trendyol%20xiaomi%20fiyat",
+        "sellerName": "Trendyol Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 56374,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=MediaMarkt%20xiaomi%20fiyat",
+        "sellerName": "MediaMarkt Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 56649,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Vatan%20Bilgisayar%20xiaomi%20fiyat",
+        "sellerName": "Vatan Bilgisayar Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 56924,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Teknosa%20xiaomi%20fiyat",
+        "sellerName": "Teknosa Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "N11",
+        "storeLogo": "/images/stores/n11.png",
+        "price": 55989,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=N11%20xiaomi%20fiyat",
+        "sellerName": "N11 Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Pazarama",
+        "storeLogo": "/images/stores/pazarama.png",
+        "price": 56209,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Pazarama%20xiaomi%20fiyat",
+        "sellerName": "Pazarama Resmi Satıcı",
+        "isOfficialSeller": true
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 59399
+      },
+      {
+        "date": "2026-04-01",
+        "price": 58299
+      },
+      {
+        "date": "2026-05-01",
+        "price": 57199
+      },
+      {
+        "date": "2026-06-01",
+        "price": 56099
+      },
+      {
+        "date": "2026-07-01",
+        "price": 55549
+      },
+      {
+        "date": "2026-08-01",
+        "price": 54999
+      }
+    ],
+    "images": [
+      "/images/phones/xiaomi/xiaomi-17.jpg"
+    ]
+  },
+  {
+    "id": "xiaomi-17t-pro-512gb-2027",
+    "slug": "xiaomi-17t-pro-512-gb",
+    "name": "Xiaomi 17T Pro (512 GB)",
+    "brand": "Xiaomi",
+    "category": "smartphones",
+    "image": "/images/phones/xiaomi/xiaomi-17t-pro.jpg",
+    "rating": 4.9,
+    "epeyScore": 93,
+    "reviewCount": 2450,
+    "basePrice": 47999,
+    "currency": "TL",
+    "releaseYear": 2027,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "MediaTek Dimensity 9600+ (2nm) Amiral Gemisi Canavarı",
+      "6.67 inç 165Hz Kristal Netliğinde AMOLED Ekran (4500 nits)",
+      "Leica Vario-Summilux 50 MP Üçlü Kamera",
+      "6000 mAh Batarya & 140W HyperCharge (15 dakikada %100 dolum)"
+    ],
+    "pros": [
+      "165Hz akıcı ekran",
+      "140W süper şarj hızı",
+      "2nm Dimensity 9600+ gücü"
+    ],
+    "cons": [
+      "Plastik orta çerçeve"
+    ],
+    "specs": {
+      "screenSize": 6.67,
+      "screenResolution": "1220x2712 (1.5K)",
+      "displayType": "AMOLED (165Hz)",
+      "chipset": "MediaTek Dimensity 9600+",
+      "cpuCores": 8,
+      "ram": 16,
+      "storage": 512,
+      "batteryCapacity": 6000,
+      "chargingSpeed": 140,
+      "mainCamera": "50 MP (OIS) + 50 MP Telefoto + 12 MP Ultra Geniş",
+      "frontCamera": "32 MP",
+      "operatingSystem": "Xiaomi HyperOS 3.0 (Android 17)",
+      "has5G": true,
+      "waterResistance": "IP68"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Amazon TR",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 47999,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Amazon%20TR%20xiaomi%20fiyat",
+        "sellerName": "Amazon Türkiye",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 48383,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Hepsiburada%20xiaomi%20fiyat",
+        "sellerName": "Hepsiburada Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 48719,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Trendyol%20xiaomi%20fiyat",
+        "sellerName": "Trendyol Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 49199,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=MediaMarkt%20xiaomi%20fiyat",
+        "sellerName": "MediaMarkt Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 49439,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Vatan%20Bilgisayar%20xiaomi%20fiyat",
+        "sellerName": "Vatan Bilgisayar Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 49679,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Teknosa%20xiaomi%20fiyat",
+        "sellerName": "Teknosa Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "N11",
+        "storeLogo": "/images/stores/n11.png",
+        "price": 48863,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=N11%20xiaomi%20fiyat",
+        "sellerName": "N11 Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Pazarama",
+        "storeLogo": "/images/stores/pazarama.png",
+        "price": 49055,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Pazarama%20xiaomi%20fiyat",
+        "sellerName": "Pazarama Resmi Satıcı",
+        "isOfficialSeller": true
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 51839
+      },
+      {
+        "date": "2026-04-01",
+        "price": 50879
+      },
+      {
+        "date": "2026-05-01",
+        "price": 49919
+      },
+      {
+        "date": "2026-06-01",
+        "price": 48959
+      },
+      {
+        "date": "2026-07-01",
+        "price": 48479
+      },
+      {
+        "date": "2026-08-01",
+        "price": 47999
+      }
+    ],
+    "images": [
+      "/images/phones/xiaomi/xiaomi-17t-pro.jpg"
+    ]
+  },
+  {
+    "id": "xiaomi-15-ultra-512gb-2025",
+    "slug": "xiaomi-15-ultra-512-gb",
+    "name": "Xiaomi 15 Ultra (512 GB)",
+    "brand": "Xiaomi",
+    "category": "smartphones",
+    "image": "/images/phones/xiaomi/xiaomi-15-ultra.jpg",
+    "rating": 4.95,
+    "epeyScore": 96,
+    "reviewCount": 4120,
+    "basePrice": 76999,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "Leica 200 MP 100mm Periskop Telefoto (Samsung ISOCELL HP9 Sensör)",
+      "Sony LYT-900 (1 inç) 50 MP OIS Ana Kamera",
+      "Qualcomm Snapdragon 8 Elite (3nm TSMC) İşlemci",
+      "6000 mAh Silikon-Karbon Batarya & 90W Kablolu / 80W Kablosuz Şarj"
+    ],
+    "pros": [
+      "200 MP periskop telefoto ile rakipsiz zoom netliği",
+      "Snapdragon 8 Elite gücü",
+      "6000 mAh batarya"
+    ],
+    "cons": [
+      "Ağırlık 226g"
+    ],
+    "specs": {
+      "screenSize": 6.73,
+      "screenResolution": "1440x3200 (2K WQHD+)",
+      "displayType": "LTPO AMOLED (120Hz, 3200 nits)",
+      "chipset": "Qualcomm Snapdragon 8 Elite (3nm)",
+      "cpuCores": 8,
+      "ram": 16,
+      "storage": 512,
+      "batteryCapacity": 6000,
+      "chargingSpeed": 90,
+      "mainCamera": "50 MP (Sony LYT-900 1-inç OIS) + 200 MP Leica Periskop (4.3x) + 50 MP Telefoto (3x) + 50 MP Ultra Geniş",
+      "frontCamera": "32 MP",
+      "operatingSystem": "Xiaomi HyperOS 2.0 (Android 15)",
+      "has5G": true,
+      "waterResistance": "IP68 & IP69"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Amazon TR",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 76999,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Amazon%20TR%20xiaomi%20fiyat",
+        "sellerName": "Amazon Türkiye",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 77615,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Hepsiburada%20xiaomi%20fiyat",
+        "sellerName": "Hepsiburada Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 78154,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Trendyol%20xiaomi%20fiyat",
+        "sellerName": "Trendyol Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 78924,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=MediaMarkt%20xiaomi%20fiyat",
+        "sellerName": "MediaMarkt Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 79309,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Vatan%20Bilgisayar%20xiaomi%20fiyat",
+        "sellerName": "Vatan Bilgisayar Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 79694,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Teknosa%20xiaomi%20fiyat",
+        "sellerName": "Teknosa Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "N11",
+        "storeLogo": "/images/stores/n11.png",
+        "price": 78385,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=N11%20xiaomi%20fiyat",
+        "sellerName": "N11 Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Pazarama",
+        "storeLogo": "/images/stores/pazarama.png",
+        "price": 78693,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Pazarama%20xiaomi%20fiyat",
+        "sellerName": "Pazarama Resmi Satıcı",
+        "isOfficialSeller": true
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 83159
+      },
+      {
+        "date": "2026-04-01",
+        "price": 81619
+      },
+      {
+        "date": "2026-05-01",
+        "price": 80079
+      },
+      {
+        "date": "2026-06-01",
+        "price": 78539
+      },
+      {
+        "date": "2026-07-01",
+        "price": 77769
+      },
+      {
+        "date": "2026-08-01",
+        "price": 76999
+      }
+    ],
+    "images": [
+      "/images/phones/xiaomi/xiaomi-15-ultra.jpg"
+    ]
+  },
+  {
+    "id": "xiaomi-15-pro-512gb-2025",
+    "slug": "xiaomi-15-pro-512-gb",
+    "name": "Xiaomi 15 Pro (512 GB)",
+    "brand": "Xiaomi",
+    "category": "smartphones",
+    "image": "/images/phones/xiaomi/xiaomi-15-pro.jpg",
+    "rating": 4.9,
+    "epeyScore": 94,
+    "reviewCount": 3650,
+    "basePrice": 63999,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "Qualcomm Snapdragon 8 Elite (3nm) Yeni Nesil Oryon Çekirdekleri",
+      "6.73 inç 2K M9 Mikro Dört Kavisli LTPO AMOLED Ekran (3200 nits)",
+      "Leica 50 MP Üçlü Kamera & 5x Periskop Telefoto (Sony IMX858)",
+      "6100 mAh Silikon-Karbon Batarya & 90W Hızlı Şarj"
+    ],
+    "pros": [
+      "6100 mAh rekor pil süresi",
+      "Snapdragon 8 Elite performansı",
+      "5x Leica periskop zoom"
+    ],
+    "cons": [
+      "Kamera çıkıntısı belirgin"
+    ],
+    "specs": {
+      "screenSize": 6.73,
+      "screenResolution": "1440x3200 (2K WQHD+)",
+      "displayType": "LTPO AMOLED (120Hz)",
+      "chipset": "Qualcomm Snapdragon 8 Elite (3nm)",
+      "cpuCores": 8,
+      "ram": 16,
+      "storage": 512,
+      "batteryCapacity": 6100,
+      "chargingSpeed": 90,
+      "mainCamera": "50 MP (Light Fusion 900 OIS) + 50 MP Periskop (5x) + 50 MP Ultra Geniş",
+      "frontCamera": "32 MP",
+      "operatingSystem": "Xiaomi HyperOS 2.0 (Android 15)",
+      "has5G": true,
+      "waterResistance": "IP68"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Amazon TR",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 63999,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Amazon%20TR%20xiaomi%20fiyat",
+        "sellerName": "Amazon Türkiye",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 64511,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Hepsiburada%20xiaomi%20fiyat",
+        "sellerName": "Hepsiburada Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 64959,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Trendyol%20xiaomi%20fiyat",
+        "sellerName": "Trendyol Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 65599,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=MediaMarkt%20xiaomi%20fiyat",
+        "sellerName": "MediaMarkt Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 65919,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Vatan%20Bilgisayar%20xiaomi%20fiyat",
+        "sellerName": "Vatan Bilgisayar Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 66239,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Teknosa%20xiaomi%20fiyat",
+        "sellerName": "Teknosa Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "N11",
+        "storeLogo": "/images/stores/n11.png",
+        "price": 65151,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=N11%20xiaomi%20fiyat",
+        "sellerName": "N11 Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Pazarama",
+        "storeLogo": "/images/stores/pazarama.png",
+        "price": 65407,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Pazarama%20xiaomi%20fiyat",
+        "sellerName": "Pazarama Resmi Satıcı",
+        "isOfficialSeller": true
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 69119
+      },
+      {
+        "date": "2026-04-01",
+        "price": 67839
+      },
+      {
+        "date": "2026-05-01",
+        "price": 66559
+      },
+      {
+        "date": "2026-06-01",
+        "price": 65279
+      },
+      {
+        "date": "2026-07-01",
+        "price": 64639
+      },
+      {
+        "date": "2026-08-01",
+        "price": 63999
+      }
+    ],
+    "images": [
+      "/images/phones/xiaomi/xiaomi-15-pro.jpg"
+    ]
+  },
+  {
+    "id": "xiaomi-15-256gb-2025",
+    "slug": "xiaomi-15-256-gb",
+    "name": "Xiaomi 15 (256 GB)",
+    "brand": "Xiaomi",
+    "category": "smartphones",
+    "image": "/images/phones/xiaomi/xiaomi-15.jpg",
+    "rating": 4.85,
+    "epeyScore": 92,
+    "reviewCount": 3120,
+    "basePrice": 49999,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "6.36 inç Kompakt Gövde & 1.38 mm Dört Tarafı Eşit Ultra İnce Çerçeve",
+      "Qualcomm Snapdragon 8 Elite (3nm) İşlemci",
+      "Leica 50 MP Üçlü Kamera & Yüzen Telefoto (3.2x Optik)",
+      "5400 mAh Silikon-Karbon Batarya & 90W Kablolu / 50W Kablosuz Şarj"
+    ],
+    "pros": [
+      "191g ultra hafif ve dengeli tasarım",
+      "Kompakt gövdede 5400 mAh batarya",
+      "Leica portre stili"
+    ],
+    "cons": [
+      "Periskop zoom 5x üzeri yok"
+    ],
+    "specs": {
+      "screenSize": 6.36,
+      "screenResolution": "1200x2670 (1.5K)",
+      "displayType": "LTPO OLED (120Hz)",
+      "chipset": "Qualcomm Snapdragon 8 Elite (3nm)",
+      "cpuCores": 8,
+      "ram": 12,
+      "storage": 256,
+      "batteryCapacity": 5400,
+      "chargingSpeed": 90,
+      "mainCamera": "50 MP (Light Fusion 900 OIS) + 50 MP Telefoto (3.2x) + 50 MP Ultra Geniş",
+      "frontCamera": "32 MP",
+      "operatingSystem": "Xiaomi HyperOS 2.0 (Android 15)",
+      "has5G": true,
+      "waterResistance": "IP68"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Amazon TR",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 49999,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Amazon%20TR%20xiaomi%20fiyat",
+        "sellerName": "Amazon Türkiye",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 50399,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Hepsiburada%20xiaomi%20fiyat",
+        "sellerName": "Hepsiburada Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 50749,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Trendyol%20xiaomi%20fiyat",
+        "sellerName": "Trendyol Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 51249,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=MediaMarkt%20xiaomi%20fiyat",
+        "sellerName": "MediaMarkt Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 51499,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Vatan%20Bilgisayar%20xiaomi%20fiyat",
+        "sellerName": "Vatan Bilgisayar Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 51749,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Teknosa%20xiaomi%20fiyat",
+        "sellerName": "Teknosa Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "N11",
+        "storeLogo": "/images/stores/n11.png",
+        "price": 50899,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=N11%20xiaomi%20fiyat",
+        "sellerName": "N11 Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Pazarama",
+        "storeLogo": "/images/stores/pazarama.png",
+        "price": 51099,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Pazarama%20xiaomi%20fiyat",
+        "sellerName": "Pazarama Resmi Satıcı",
+        "isOfficialSeller": true
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 53999
+      },
+      {
+        "date": "2026-04-01",
+        "price": 52999
+      },
+      {
+        "date": "2026-05-01",
+        "price": 51999
+      },
+      {
+        "date": "2026-06-01",
+        "price": 50999
+      },
+      {
+        "date": "2026-07-01",
+        "price": 50499
+      },
+      {
+        "date": "2026-08-01",
+        "price": 49999
+      }
+    ],
+    "images": [
+      "/images/phones/xiaomi/xiaomi-15.jpg"
+    ]
+  },
+  {
+    "id": "xiaomi-15t-pro-512gb-2025",
+    "slug": "xiaomi-15t-pro-512-gb",
+    "name": "Xiaomi 15T Pro (512 GB)",
+    "brand": "Xiaomi",
+    "category": "smartphones",
+    "image": "/images/phones/xiaomi/xiaomi-15t-pro.jpg",
+    "rating": 4.85,
+    "epeyScore": 90,
+    "reviewCount": 2890,
+    "basePrice": 44999,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "MediaTek Dimensity 9400+ (3nm) Yonga Seti",
+      "6.67 inç 144Hz AMOLED Ekran (4000 nits)",
+      "Leica Vario-Summilux 50 MP Üçlü Kamera (5x Optik Zoom)",
+      "5500 mAh Batarya & 120W HyperCharge"
+    ],
+    "pros": [
+      "144Hz akıcı ekran",
+      "120W HyperCharge ile 19 dakikada dolum",
+      "Leica renk doğruluğu"
+    ],
+    "cons": [
+      "Kablosuz şarj hızı 50W"
+    ],
+    "specs": {
+      "screenSize": 6.67,
+      "screenResolution": "1220x2712 (1.5K)",
+      "displayType": "AMOLED (144Hz)",
+      "chipset": "MediaTek Dimensity 9400+",
+      "cpuCores": 8,
+      "ram": 16,
+      "storage": 512,
+      "batteryCapacity": 5500,
+      "chargingSpeed": 120,
+      "mainCamera": "50 MP (Light Fusion 900 OIS) + 50 MP Telefoto + 12 MP Ultra Geniş",
+      "frontCamera": "32 MP",
+      "operatingSystem": "Xiaomi HyperOS 2.0 (Android 15)",
+      "has5G": true,
+      "waterResistance": "IP68"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Amazon TR",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 44999,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Amazon%20TR%20xiaomi%20fiyat",
+        "sellerName": "Amazon Türkiye",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 45359,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Hepsiburada%20xiaomi%20fiyat",
+        "sellerName": "Hepsiburada Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 45674,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Trendyol%20xiaomi%20fiyat",
+        "sellerName": "Trendyol Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 46124,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=MediaMarkt%20xiaomi%20fiyat",
+        "sellerName": "MediaMarkt Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 46349,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Vatan%20Bilgisayar%20xiaomi%20fiyat",
+        "sellerName": "Vatan Bilgisayar Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 46574,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Teknosa%20xiaomi%20fiyat",
+        "sellerName": "Teknosa Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "N11",
+        "storeLogo": "/images/stores/n11.png",
+        "price": 45809,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=N11%20xiaomi%20fiyat",
+        "sellerName": "N11 Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Pazarama",
+        "storeLogo": "/images/stores/pazarama.png",
+        "price": 45989,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Pazarama%20xiaomi%20fiyat",
+        "sellerName": "Pazarama Resmi Satıcı",
+        "isOfficialSeller": true
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 48599
+      },
+      {
+        "date": "2026-04-01",
+        "price": 47699
+      },
+      {
+        "date": "2026-05-01",
+        "price": 46799
+      },
+      {
+        "date": "2026-06-01",
+        "price": 45899
+      },
+      {
+        "date": "2026-07-01",
+        "price": 45449
+      },
+      {
+        "date": "2026-08-01",
+        "price": 44999
+      }
+    ],
+    "images": [
+      "/images/phones/xiaomi/xiaomi-15t-pro.jpg"
+    ]
+  },
+  {
+    "id": "xiaomi-mix-flip-2-512gb-2026",
+    "slug": "xiaomi-mix-flip-2-512-gb",
+    "name": "Xiaomi MIX Flip 2 (512 GB - Katlanabilir)",
+    "brand": "Xiaomi",
+    "category": "smartphones",
+    "image": "/images/phones/xiaomi/xiaomi-mix-flip-2-5g-13980.jpg",
+    "rating": 4.9,
+    "epeyScore": 93,
+    "reviewCount": 2150,
+    "basePrice": 59999,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "4.01 inç Tam Boyutlu Dış Ekran (Tüm Uygulamaları Çalıştırma Desteği)",
+      "Qualcomm Snapdragon 8 Elite (3nm) İşlemci",
+      "Leica 50 MP Çift Kamera & Yüzen Telefoto (2x Optik)",
+      "5000 mAh Çift Hücreli Batarya & 67W HyperCharge"
+    ],
+    "pros": [
+      "Geniş 4.01 inç dış ekran",
+      "Kompakt dikey katlanabilir tasarım",
+      "Leica portre kalitesi"
+    ],
+    "cons": [
+      "Kablosuz şarj yok"
+    ],
+    "specs": {
+      "screenSize": 6.86,
+      "screenResolution": "1224x2912 (Foldable AMOLED 120Hz)",
+      "displayType": "Foldable AMOLED (120Hz)",
+      "chipset": "Qualcomm Snapdragon 8 Elite (3nm)",
+      "cpuCores": 8,
+      "ram": 16,
+      "storage": 512,
+      "batteryCapacity": 5000,
+      "chargingSpeed": 67,
+      "mainCamera": "50 MP (Light Fusion 800 OIS) + 50 MP Leica Telefoto (2x)",
+      "frontCamera": "32 MP",
+      "operatingSystem": "Xiaomi HyperOS 2.5 (Android 16)",
+      "has5G": true,
+      "waterResistance": "IPX8"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Amazon TR",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 59999,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Amazon%20TR%20xiaomi%20fiyat",
+        "sellerName": "Amazon Türkiye",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 60479,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Hepsiburada%20xiaomi%20fiyat",
+        "sellerName": "Hepsiburada Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 60899,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Trendyol%20xiaomi%20fiyat",
+        "sellerName": "Trendyol Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 61499,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=MediaMarkt%20xiaomi%20fiyat",
+        "sellerName": "MediaMarkt Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 61799,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Vatan%20Bilgisayar%20xiaomi%20fiyat",
+        "sellerName": "Vatan Bilgisayar Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 62099,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Teknosa%20xiaomi%20fiyat",
+        "sellerName": "Teknosa Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "N11",
+        "storeLogo": "/images/stores/n11.png",
+        "price": 61079,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=N11%20xiaomi%20fiyat",
+        "sellerName": "N11 Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Pazarama",
+        "storeLogo": "/images/stores/pazarama.png",
+        "price": 61319,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Pazarama%20xiaomi%20fiyat",
+        "sellerName": "Pazarama Resmi Satıcı",
+        "isOfficialSeller": true
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 64799
+      },
+      {
+        "date": "2026-04-01",
+        "price": 63599
+      },
+      {
+        "date": "2026-05-01",
+        "price": 62399
+      },
+      {
+        "date": "2026-06-01",
+        "price": 61199
+      },
+      {
+        "date": "2026-07-01",
+        "price": 60599
+      },
+      {
+        "date": "2026-08-01",
+        "price": 59999
+      }
+    ],
+    "images": [
+      "/images/phones/xiaomi/xiaomi-mix-flip-2-5g-13980.jpg"
+    ]
+  },
+  {
+    "id": "xiaomi-mix-fold-4-512gb-2025",
+    "slug": "xiaomi-mix-fold-4-512-gb",
+    "name": "Xiaomi MIX Fold 4 (512 GB)",
+    "brand": "Xiaomi",
+    "category": "smartphones",
+    "image": "/images/phones/xiaomi/xiaomi-mix-fold-4.jpg",
+    "rating": 4.95,
+    "epeyScore": 95,
+    "reviewCount": 1980,
+    "basePrice": 82999,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "Yalnızca 9.47 mm Ultra İnce Gövde & 226g Hafiflik (Karbon Fiber Menteşe)",
+      "7.98 inç Katlanabilir LTPO OLED İç Ekran (1-120Hz, 3000 nits)",
+      "Qualcomm Snapdragon 8 Gen 3 & Dörtlü Leica Kamera Sistemi",
+      "5100 mAh Silikon-Karbon Batarya & 67W Kablolu / 50W Kablosuz Şarj"
+    ],
+    "pros": [
+      "Ultra ince ve hafif katlanabilir kasa",
+      "Dörtlü Leica kamera seti ve 5x periskop",
+      "IPX8 su geçirmezlik"
+    ],
+    "cons": [
+      "Yüksek fiyat segmenti"
+    ],
+    "specs": {
+      "screenSize": 7.98,
+      "screenResolution": "2224x2488 (Foldable LTPO 120Hz)",
+      "displayType": "Foldable LTPO AMOLED (120Hz)",
+      "chipset": "Qualcomm Snapdragon 8 Gen 3",
+      "cpuCores": 8,
+      "ram": 16,
+      "storage": 512,
+      "batteryCapacity": 5100,
+      "chargingSpeed": 67,
+      "mainCamera": "50 MP (OIS) + 50 MP Telefoto (2x) + 10 MP Periskop (5x) + 12 MP Ultra Geniş",
+      "frontCamera": "16 MP İç / 16 MP Dış",
+      "operatingSystem": "Xiaomi HyperOS (Android 14/15)",
+      "has5G": true,
+      "waterResistance": "IPX8"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Amazon TR",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 82999,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Amazon%20TR%20xiaomi%20fiyat",
+        "sellerName": "Amazon Türkiye",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 83663,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Hepsiburada%20xiaomi%20fiyat",
+        "sellerName": "Hepsiburada Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 84244,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Trendyol%20xiaomi%20fiyat",
+        "sellerName": "Trendyol Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 85074,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=MediaMarkt%20xiaomi%20fiyat",
+        "sellerName": "MediaMarkt Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 85489,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Vatan%20Bilgisayar%20xiaomi%20fiyat",
+        "sellerName": "Vatan Bilgisayar Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 85904,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Teknosa%20xiaomi%20fiyat",
+        "sellerName": "Teknosa Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "N11",
+        "storeLogo": "/images/stores/n11.png",
+        "price": 84493,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=N11%20xiaomi%20fiyat",
+        "sellerName": "N11 Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Pazarama",
+        "storeLogo": "/images/stores/pazarama.png",
+        "price": 84825,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Pazarama%20xiaomi%20fiyat",
+        "sellerName": "Pazarama Resmi Satıcı",
+        "isOfficialSeller": true
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 89639
+      },
+      {
+        "date": "2026-04-01",
+        "price": 87979
+      },
+      {
+        "date": "2026-05-01",
+        "price": 86319
+      },
+      {
+        "date": "2026-06-01",
+        "price": 84659
+      },
+      {
+        "date": "2026-07-01",
+        "price": 83829
+      },
+      {
+        "date": "2026-08-01",
+        "price": 82999
+      }
+    ],
+    "images": [
+      "/images/phones/xiaomi/xiaomi-mix-fold-4.jpg"
+    ]
+  },
+  {
+    "id": "redmi-note-15-pro-plus-5g-512gb-2026",
+    "slug": "redmi-note-15-pro-plus-5g-512-gb",
+    "name": "Redmi Note 15 Pro+ 5G (512 GB)",
+    "brand": "Xiaomi",
+    "category": "smartphones",
+    "image": "/images/phones/xiaomi/redmi-note-15-pro-plus-5g.jpg",
+    "rating": 4.85,
+    "epeyScore": 90,
+    "reviewCount": 3450,
+    "basePrice": 28999,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "200 MP Ultra Net OIS Kamera & 2.5x Portre Telefoto Lensi",
+      "MediaTek Dimensity 7400-Ultra (4nm) İşlemci",
+      "6.74 inç 1.5K 120Hz Kavisli AMOLED Ekran (3000 nits)",
+      "6200 mAh Silikon-Karbon Batarya & 120W HyperCharge"
+    ],
+    "pros": [
+      "6200 mAh batarya ve 120W hızlı dolum",
+      "200 MP OIS ana kamera",
+      "IP68 suya dayanıklılık"
+    ],
+    "cons": [
+      "Plastik çerçeve"
+    ],
+    "specs": {
+      "screenSize": 6.74,
+      "screenResolution": "1240x2772 (1.5K)",
+      "displayType": "Curved AMOLED (120Hz)",
+      "chipset": "MediaTek Dimensity 7400-Ultra",
+      "cpuCores": 8,
+      "ram": 12,
+      "storage": 512,
+      "batteryCapacity": 6200,
+      "chargingSpeed": 120,
+      "mainCamera": "200 MP (OIS) + 50 MP Telefoto (2.5x) + 8 MP Ultra Geniş",
+      "frontCamera": "32 MP",
+      "operatingSystem": "Xiaomi HyperOS 2.0 (Android 16)",
+      "has5G": true,
+      "waterResistance": "IP68 & IP69K"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Amazon TR",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 28999,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Amazon%20TR%20xiaomi%20fiyat",
+        "sellerName": "Amazon Türkiye",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 29231,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Hepsiburada%20xiaomi%20fiyat",
+        "sellerName": "Hepsiburada Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 29434,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Trendyol%20xiaomi%20fiyat",
+        "sellerName": "Trendyol Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 29724,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=MediaMarkt%20xiaomi%20fiyat",
+        "sellerName": "MediaMarkt Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 29869,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Vatan%20Bilgisayar%20xiaomi%20fiyat",
+        "sellerName": "Vatan Bilgisayar Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 30014,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Teknosa%20xiaomi%20fiyat",
+        "sellerName": "Teknosa Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "N11",
+        "storeLogo": "/images/stores/n11.png",
+        "price": 29521,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=N11%20xiaomi%20fiyat",
+        "sellerName": "N11 Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Pazarama",
+        "storeLogo": "/images/stores/pazarama.png",
+        "price": 29637,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Pazarama%20xiaomi%20fiyat",
+        "sellerName": "Pazarama Resmi Satıcı",
+        "isOfficialSeller": true
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 31319
+      },
+      {
+        "date": "2026-04-01",
+        "price": 30739
+      },
+      {
+        "date": "2026-05-01",
+        "price": 30159
+      },
+      {
+        "date": "2026-06-01",
+        "price": 29579
+      },
+      {
+        "date": "2026-07-01",
+        "price": 29289
+      },
+      {
+        "date": "2026-08-01",
+        "price": 28999
+      }
+    ],
+    "images": [
+      "/images/phones/xiaomi/redmi-note-15-pro-plus-5g.jpg"
+    ]
+  },
+  {
+    "id": "redmi-note-15-pro-5g-256gb-2026",
+    "slug": "redmi-note-15-pro-5g-256-gb",
+    "name": "Redmi Note 15 Pro 5G (256 GB)",
+    "brand": "Xiaomi",
+    "category": "smartphones",
+    "image": "/images/phones/xiaomi/redmi-note-15-pro-5g.jpg",
+    "rating": 4.8,
+    "epeyScore": 88,
+    "reviewCount": 2980,
+    "basePrice": 22999,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "200 MP Süper OIS Ana Kamera Sistemi",
+      "MediaTek Dimensity 7350 5G Yonga Seti",
+      "6.67 inç 120Hz AMOLED Ekran (Gorilla Glass Victus 2)",
+      "6000 mAh Batarya & 67W Hızlı Şarj"
+    ],
+    "pros": [
+      "6000 mAh uzun pil ömrü",
+      "200 MP kamera detayı",
+      "IP68 su geçirmezlik"
+    ],
+    "cons": [
+      "Telefoto lensi bulunmuyor"
+    ],
+    "specs": {
+      "screenSize": 6.67,
+      "screenResolution": "1080x2400 (FHD+)",
+      "displayType": "AMOLED (120Hz)",
+      "chipset": "MediaTek Dimensity 7350",
+      "cpuCores": 8,
+      "ram": 8,
+      "storage": 256,
+      "batteryCapacity": 6000,
+      "chargingSpeed": 67,
+      "mainCamera": "200 MP (OIS) + 8 MP Ultra Geniş",
+      "frontCamera": "20 MP",
+      "operatingSystem": "Xiaomi HyperOS 2.0 (Android 16)",
+      "has5G": true,
+      "waterResistance": "IP68"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Amazon TR",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 22999,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Amazon%20TR%20xiaomi%20fiyat",
+        "sellerName": "Amazon Türkiye",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 23183,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Hepsiburada%20xiaomi%20fiyat",
+        "sellerName": "Hepsiburada Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 23344,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Trendyol%20xiaomi%20fiyat",
+        "sellerName": "Trendyol Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 23574,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=MediaMarkt%20xiaomi%20fiyat",
+        "sellerName": "MediaMarkt Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 23689,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Vatan%20Bilgisayar%20xiaomi%20fiyat",
+        "sellerName": "Vatan Bilgisayar Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 23804,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Teknosa%20xiaomi%20fiyat",
+        "sellerName": "Teknosa Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "N11",
+        "storeLogo": "/images/stores/n11.png",
+        "price": 23413,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=N11%20xiaomi%20fiyat",
+        "sellerName": "N11 Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Pazarama",
+        "storeLogo": "/images/stores/pazarama.png",
+        "price": 23505,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Pazarama%20xiaomi%20fiyat",
+        "sellerName": "Pazarama Resmi Satıcı",
+        "isOfficialSeller": true
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 24839
+      },
+      {
+        "date": "2026-04-01",
+        "price": 24379
+      },
+      {
+        "date": "2026-05-01",
+        "price": 23919
+      },
+      {
+        "date": "2026-06-01",
+        "price": 23459
+      },
+      {
+        "date": "2026-07-01",
+        "price": 23229
+      },
+      {
+        "date": "2026-08-01",
+        "price": 22999
+      }
+    ],
+    "images": [
+      "/images/phones/xiaomi/redmi-note-15-pro-5g.jpg"
+    ]
+  },
+  {
+    "id": "redmi-note-14-pro-plus-5g-512gb-2025",
+    "slug": "redmi-note-14-pro-plus-5g-512-gb",
+    "name": "Redmi Note 14 Pro+ 5G (512 GB)",
+    "brand": "Xiaomi",
+    "category": "smartphones",
+    "image": "/images/phones/xiaomi/redmi-note-14-pro-plus-5g.jpg",
+    "rating": 4.85,
+    "epeyScore": 89,
+    "reviewCount": 3750,
+    "basePrice": 26999,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "Qualcomm Snapdragon 7s Gen 3 (4nm) Yüksek Verimli İşlemci",
+      "50 MP Light Hunter 800 OIS Ana Kamera & 50 MP Portre Telefoto",
+      "6.67 inç 1.5K 120Hz Kavisli AMOLED Ekran (3000 nits)",
+      "6200 mAh Silikon-Karbon Batarya & 90W Hızlı Şarj (IP68 & IP69K)"
+    ],
+    "pros": [
+      "6200 mAh rekor batarya",
+      "IP68 ve IP69K sıcak basınçlı su dayanıklılığı",
+      "50 MP telefoto portre"
+    ],
+    "cons": [
+      "Kablosuz şarj yok"
+    ],
+    "specs": {
+      "screenSize": 6.67,
+      "screenResolution": "1220x2712 (1.5K)",
+      "displayType": "Curved AMOLED (120Hz)",
+      "chipset": "Qualcomm Snapdragon 7s Gen 3 (4nm)",
+      "cpuCores": 8,
+      "ram": 12,
+      "storage": 512,
+      "batteryCapacity": 6200,
+      "chargingSpeed": 90,
+      "mainCamera": "50 MP (Light Hunter 800 OIS) + 50 MP Telefoto (2.5x) + 8 MP Ultra Geniş",
+      "frontCamera": "20 MP",
+      "operatingSystem": "Xiaomi HyperOS (Android 14/15)",
+      "has5G": true,
+      "waterResistance": "IP68 & IP69K"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Amazon TR",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 26999,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Amazon%20TR%20xiaomi%20fiyat",
+        "sellerName": "Amazon Türkiye",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 27215,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Hepsiburada%20xiaomi%20fiyat",
+        "sellerName": "Hepsiburada Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 27404,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Trendyol%20xiaomi%20fiyat",
+        "sellerName": "Trendyol Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 27674,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=MediaMarkt%20xiaomi%20fiyat",
+        "sellerName": "MediaMarkt Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 27809,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Vatan%20Bilgisayar%20xiaomi%20fiyat",
+        "sellerName": "Vatan Bilgisayar Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 27944,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Teknosa%20xiaomi%20fiyat",
+        "sellerName": "Teknosa Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "N11",
+        "storeLogo": "/images/stores/n11.png",
+        "price": 27485,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=N11%20xiaomi%20fiyat",
+        "sellerName": "N11 Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Pazarama",
+        "storeLogo": "/images/stores/pazarama.png",
+        "price": 27593,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Pazarama%20xiaomi%20fiyat",
+        "sellerName": "Pazarama Resmi Satıcı",
+        "isOfficialSeller": true
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 29159
+      },
+      {
+        "date": "2026-04-01",
+        "price": 28619
+      },
+      {
+        "date": "2026-05-01",
+        "price": 28079
+      },
+      {
+        "date": "2026-06-01",
+        "price": 27539
+      },
+      {
+        "date": "2026-07-01",
+        "price": 27269
+      },
+      {
+        "date": "2026-08-01",
+        "price": 26999
+      }
+    ],
+    "images": [
+      "/images/phones/xiaomi/redmi-note-14-pro-plus-5g.jpg"
+    ]
+  },
+  {
+    "id": "redmi-note-14-pro-5g-256gb-2025",
+    "slug": "redmi-note-14-pro-5g-256-gb",
+    "name": "Redmi Note 14 Pro 5G (256 GB)",
+    "brand": "Xiaomi",
+    "category": "smartphones",
+    "image": "/images/phones/xiaomi/redmi-note-14-pro-5g.jpg",
+    "rating": 4.8,
+    "epeyScore": 87,
+    "reviewCount": 3120,
+    "basePrice": 20999,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "MediaTek Dimensity 7300-Ultra (4nm) İşlemci",
+      "50 MP Sony LYT-600 OIS Ana Kamera & 4K Video",
+      "6.67 inç 1.5K 120Hz Kavisli AMOLED Ekran (3000 nits)",
+      "5500 mAh Batarya & 45W Hızlı Şarj (IP68 Dayanıklılık)"
+    ],
+    "pros": [
+      "IP68 sertifikalı dayanıklı gövde",
+      "1.5K kavisli AMOLED ekran",
+      "5500 mAh pil"
+    ],
+    "cons": [
+      "45W şarj hızı"
+    ],
+    "specs": {
+      "screenSize": 6.67,
+      "screenResolution": "1220x2712 (1.5K)",
+      "displayType": "Curved AMOLED (120Hz)",
+      "chipset": "MediaTek Dimensity 7300-Ultra",
+      "cpuCores": 8,
+      "ram": 8,
+      "storage": 256,
+      "batteryCapacity": 5500,
+      "chargingSpeed": 45,
+      "mainCamera": "50 MP (Sony LYT-600 OIS) + 8 MP Ultra Geniş",
+      "frontCamera": "20 MP",
+      "operatingSystem": "Xiaomi HyperOS (Android 14/15)",
+      "has5G": true,
+      "waterResistance": "IP68"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Amazon TR",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 20999,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Amazon%20TR%20xiaomi%20fiyat",
+        "sellerName": "Amazon Türkiye",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 21167,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Hepsiburada%20xiaomi%20fiyat",
+        "sellerName": "Hepsiburada Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 21314,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Trendyol%20xiaomi%20fiyat",
+        "sellerName": "Trendyol Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 21524,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=MediaMarkt%20xiaomi%20fiyat",
+        "sellerName": "MediaMarkt Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 21629,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Vatan%20Bilgisayar%20xiaomi%20fiyat",
+        "sellerName": "Vatan Bilgisayar Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 21734,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Teknosa%20xiaomi%20fiyat",
+        "sellerName": "Teknosa Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "N11",
+        "storeLogo": "/images/stores/n11.png",
+        "price": 21377,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=N11%20xiaomi%20fiyat",
+        "sellerName": "N11 Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Pazarama",
+        "storeLogo": "/images/stores/pazarama.png",
+        "price": 21461,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Pazarama%20xiaomi%20fiyat",
+        "sellerName": "Pazarama Resmi Satıcı",
+        "isOfficialSeller": true
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 22679
+      },
+      {
+        "date": "2026-04-01",
+        "price": 22259
+      },
+      {
+        "date": "2026-05-01",
+        "price": 21839
+      },
+      {
+        "date": "2026-06-01",
+        "price": 21419
+      },
+      {
+        "date": "2026-07-01",
+        "price": 21209
+      },
+      {
+        "date": "2026-08-01",
+        "price": 20999
+      }
+    ],
+    "images": [
+      "/images/phones/xiaomi/redmi-note-14-pro-5g.jpg"
+    ]
+  },
+  {
+    "id": "redmi-k90-pro-max-5g-512gb-2027",
+    "slug": "redmi-k90-pro-max-5g-512-gb",
+    "name": "Redmi K90 Pro Max 5G (512 GB)",
+    "brand": "Xiaomi",
+    "category": "smartphones",
+    "image": "/images/phones/xiaomi/xiaomi-redmi-k90-pro-max-5g-14252.jpg",
+    "rating": 4.9,
+    "epeyScore": 94,
+    "reviewCount": 2840,
+    "basePrice": 42999,
+    "currency": "TL",
+    "releaseYear": 2027,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "Qualcomm Snapdragon 8 Gen 5 (2nm) Amiral Gemisi Canavarı",
+      "6.78 inç 2K M10 144Hz Düz OLED Ekran (TCL Huaxing)",
+      "6500 mAh Devasa Batarya & 120W HyperCharge",
+      "50 MP Light Hunter OIS Kamera & 50 MP Periskop Telefoto"
+    ],
+    "pros": [
+      "2K 144Hz düz OLED ekran",
+      "6500 mAh silikon-karbon pil",
+      "Snapdragon 8 Gen 5 gücü"
+    ],
+    "cons": [
+      "Plastik yan çerçeve"
+    ],
+    "specs": {
+      "screenSize": 6.78,
+      "screenResolution": "1440x3200 (2K WQHD+)",
+      "displayType": "OLED (144Hz)",
+      "chipset": "Qualcomm Snapdragon 8 Gen 5 (2nm)",
+      "cpuCores": 8,
+      "ram": 16,
+      "storage": 512,
+      "batteryCapacity": 6500,
+      "chargingSpeed": 120,
+      "mainCamera": "50 MP (Light Hunter OIS) + 50 MP Periskop (3x) + 12 MP Ultra Geniş",
+      "frontCamera": "20 MP",
+      "operatingSystem": "Xiaomi HyperOS 3.0 (Android 17)",
+      "has5G": true,
+      "waterResistance": "IP68"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Amazon TR",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 42999,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Amazon%20TR%20xiaomi%20fiyat",
+        "sellerName": "Amazon Türkiye",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 43343,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Hepsiburada%20xiaomi%20fiyat",
+        "sellerName": "Hepsiburada Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 43644,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Trendyol%20xiaomi%20fiyat",
+        "sellerName": "Trendyol Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 44074,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=MediaMarkt%20xiaomi%20fiyat",
+        "sellerName": "MediaMarkt Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 44289,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Vatan%20Bilgisayar%20xiaomi%20fiyat",
+        "sellerName": "Vatan Bilgisayar Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 44504,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Teknosa%20xiaomi%20fiyat",
+        "sellerName": "Teknosa Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "N11",
+        "storeLogo": "/images/stores/n11.png",
+        "price": 43773,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=N11%20xiaomi%20fiyat",
+        "sellerName": "N11 Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Pazarama",
+        "storeLogo": "/images/stores/pazarama.png",
+        "price": 43945,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Pazarama%20xiaomi%20fiyat",
+        "sellerName": "Pazarama Resmi Satıcı",
+        "isOfficialSeller": true
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 46439
+      },
+      {
+        "date": "2026-04-01",
+        "price": 45579
+      },
+      {
+        "date": "2026-05-01",
+        "price": 44719
+      },
+      {
+        "date": "2026-06-01",
+        "price": 43859
+      },
+      {
+        "date": "2026-07-01",
+        "price": 43429
+      },
+      {
+        "date": "2026-08-01",
+        "price": 42999
+      }
+    ],
+    "images": [
+      "/images/phones/xiaomi/xiaomi-redmi-k90-pro-max-5g-14252.jpg"
+    ]
+  },
+  {
+    "id": "redmi-k80-pro-512gb-2025",
+    "slug": "redmi-k80-pro-512-gb",
+    "name": "Redmi K80 Pro (512 GB)",
+    "brand": "Xiaomi",
+    "category": "smartphones",
+    "image": "/images/phones/xiaomi/xiaomi-redmi-k80-pro-13524.jpg",
+    "rating": 4.9,
+    "epeyScore": 93,
+    "reviewCount": 3670,
+    "basePrice": 38999,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "Qualcomm Snapdragon 8 Elite (3nm TSMC) Güç Çipi",
+      "6.67 inç 2K M9 Düz OLED Ekran (120Hz, 3200 nits, DCI-P3)",
+      "50 MP Light Hunter 800 OIS + 50 MP Yüzen Telefoto (2.5x)",
+      "6000 mAh Silikon-Karbon Batarya & 120W Kablolu / 50W Kablosuz Şarj"
+    ],
+    "pros": [
+      "Snapdragon 8 Elite üst seviye oyun performansı",
+      "6000 mAh batarya ve 120W şarj",
+      "Ultrasonik ekran altı parmak izi"
+    ],
+    "cons": [
+      "Kamera modülü sol üst dairesel tasarım"
+    ],
+    "specs": {
+      "screenSize": 6.67,
+      "screenResolution": "1440x3200 (2K WQHD+)",
+      "displayType": "OLED (120Hz)",
+      "chipset": "Qualcomm Snapdragon 8 Elite (3nm)",
+      "cpuCores": 8,
+      "ram": 16,
+      "storage": 512,
+      "batteryCapacity": 6000,
+      "chargingSpeed": 120,
+      "mainCamera": "50 MP (Light Hunter 800 OIS) + 50 MP Telefoto (2.5x) + 32 MP Ultra Geniş",
+      "frontCamera": "20 MP",
+      "operatingSystem": "Xiaomi HyperOS 2.0 (Android 15)",
+      "has5G": true,
+      "waterResistance": "IP68"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Amazon TR",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 38999,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Amazon%20TR%20xiaomi%20fiyat",
+        "sellerName": "Amazon Türkiye",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 39311,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Hepsiburada%20xiaomi%20fiyat",
+        "sellerName": "Hepsiburada Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 39584,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Trendyol%20xiaomi%20fiyat",
+        "sellerName": "Trendyol Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 39974,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=MediaMarkt%20xiaomi%20fiyat",
+        "sellerName": "MediaMarkt Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 40169,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Vatan%20Bilgisayar%20xiaomi%20fiyat",
+        "sellerName": "Vatan Bilgisayar Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 40364,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Teknosa%20xiaomi%20fiyat",
+        "sellerName": "Teknosa Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "N11",
+        "storeLogo": "/images/stores/n11.png",
+        "price": 39701,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=N11%20xiaomi%20fiyat",
+        "sellerName": "N11 Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Pazarama",
+        "storeLogo": "/images/stores/pazarama.png",
+        "price": 39857,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Pazarama%20xiaomi%20fiyat",
+        "sellerName": "Pazarama Resmi Satıcı",
+        "isOfficialSeller": true
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 42119
+      },
+      {
+        "date": "2026-04-01",
+        "price": 41339
+      },
+      {
+        "date": "2026-05-01",
+        "price": 40559
+      },
+      {
+        "date": "2026-06-01",
+        "price": 39779
+      },
+      {
+        "date": "2026-07-01",
+        "price": 39389
+      },
+      {
+        "date": "2026-08-01",
+        "price": 38999
+      }
+    ],
+    "images": [
+      "/images/phones/xiaomi/xiaomi-redmi-k80-pro-13524.jpg"
+    ]
+  },
+  {
+    "id": "poco-f8-ultra-512gb-2027",
+    "slug": "poco-f8-ultra-512-gb",
+    "name": "Poco F8 Ultra (512 GB)",
+    "brand": "Xiaomi",
+    "category": "smartphones",
+    "image": "/images/phones/xiaomi/poco-f8-ultra.jpg",
+    "rating": 4.9,
+    "epeyScore": 94,
+    "reviewCount": 3120,
+    "basePrice": 39999,
+    "currency": "TL",
+    "releaseYear": 2027,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "Qualcomm Snapdragon 8 Elite / 8 Gen 5 E-Spor Çipi",
+      "6.74 inç 144Hz 1.5K Flow AMOLED Ekran (3840Hz PWM Karartma)",
+      "6500 mAh Glacier Silikon Batarya & 120W HyperCharge",
+      "LiquidCool 4.0 Çift Kanallı Buhar Odacıklı Soğutma"
+    ],
+    "pros": [
+      "Fiyat/performans lideri Snapdragon amiral gemisi işlemci",
+      "6500 mAh dev batarya",
+      "144Hz e-spor akıcılığı"
+    ],
+    "cons": [
+      "Telefoto lensi yok"
+    ],
+    "specs": {
+      "screenSize": 6.74,
+      "screenResolution": "1240x2772 (1.5K)",
+      "displayType": "Flow AMOLED (144Hz)",
+      "chipset": "Qualcomm Snapdragon 8 Elite",
+      "cpuCores": 8,
+      "ram": 16,
+      "storage": 512,
+      "batteryCapacity": 6500,
+      "chargingSpeed": 120,
+      "mainCamera": "50 MP (Sony LYT-700 OIS) + 8 MP Ultra Geniş",
+      "frontCamera": "20 MP",
+      "operatingSystem": "Xiaomi HyperOS for POCO (Android 17)",
+      "has5G": true,
+      "waterResistance": "IP65"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Amazon TR",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 39999,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Amazon%20TR%20xiaomi%20fiyat",
+        "sellerName": "Amazon Türkiye",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 40319,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Hepsiburada%20xiaomi%20fiyat",
+        "sellerName": "Hepsiburada Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 40599,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Trendyol%20xiaomi%20fiyat",
+        "sellerName": "Trendyol Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 40999,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=MediaMarkt%20xiaomi%20fiyat",
+        "sellerName": "MediaMarkt Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 41199,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Vatan%20Bilgisayar%20xiaomi%20fiyat",
+        "sellerName": "Vatan Bilgisayar Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 41399,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Teknosa%20xiaomi%20fiyat",
+        "sellerName": "Teknosa Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "N11",
+        "storeLogo": "/images/stores/n11.png",
+        "price": 40719,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=N11%20xiaomi%20fiyat",
+        "sellerName": "N11 Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Pazarama",
+        "storeLogo": "/images/stores/pazarama.png",
+        "price": 40879,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Pazarama%20xiaomi%20fiyat",
+        "sellerName": "Pazarama Resmi Satıcı",
+        "isOfficialSeller": true
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 43199
+      },
+      {
+        "date": "2026-04-01",
+        "price": 42399
+      },
+      {
+        "date": "2026-05-01",
+        "price": 41599
+      },
+      {
+        "date": "2026-06-01",
+        "price": 40799
+      },
+      {
+        "date": "2026-07-01",
+        "price": 40399
+      },
+      {
+        "date": "2026-08-01",
+        "price": 39999
+      }
+    ],
+    "images": [
+      "/images/phones/xiaomi/poco-f8-ultra.jpg"
+    ]
+  },
+  {
+    "id": "poco-f7-pro-512gb-2025",
+    "slug": "poco-f7-pro-512-gb",
+    "name": "Poco F7 Pro (512 GB)",
+    "brand": "Xiaomi",
+    "category": "smartphones",
+    "image": "/images/phones/xiaomi/xiaomi-poco-f7-pro-13724.jpg",
+    "rating": 4.85,
+    "epeyScore": 91,
+    "reviewCount": 3450,
+    "basePrice": 32999,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "Qualcomm Snapdragon 8 Gen 3 (4nm) Üst Seviye Güç Çipi",
+      "6.67 inç 2K 120Hz Flow AMOLED Ekran (4000 nits)",
+      "6000 mAh Silikon Batarya & 120W HyperCharge (19 dakikada dolum)",
+      "WildBoost Optimization 3.0 Oyun Kararlılık Sistemi"
+    ],
+    "pros": [
+      "Snapdragon 8 Gen 3 gücü",
+      "2K 120Hz canlı ekran",
+      "6000 mAh batarya ve 120W şarj"
+    ],
+    "cons": [
+      "Plastik yan çerçeve"
+    ],
+    "specs": {
+      "screenSize": 6.67,
+      "screenResolution": "1440x3200 (2K WQHD+)",
+      "displayType": "Flow AMOLED (120Hz)",
+      "chipset": "Qualcomm Snapdragon 8 Gen 3 (4nm)",
+      "cpuCores": 8,
+      "ram": 12,
+      "storage": 512,
+      "batteryCapacity": 6000,
+      "chargingSpeed": 120,
+      "mainCamera": "50 MP (Light Fusion 800 OIS) + 8 MP Ultra Geniş",
+      "frontCamera": "16 MP",
+      "operatingSystem": "Xiaomi HyperOS for POCO (Android 15)",
+      "has5G": true,
+      "waterResistance": "IP64"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Amazon TR",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 32999,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Amazon%20TR%20xiaomi%20fiyat",
+        "sellerName": "Amazon Türkiye",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 33263,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Hepsiburada%20xiaomi%20fiyat",
+        "sellerName": "Hepsiburada Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 33494,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Trendyol%20xiaomi%20fiyat",
+        "sellerName": "Trendyol Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 33824,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=MediaMarkt%20xiaomi%20fiyat",
+        "sellerName": "MediaMarkt Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 33989,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Vatan%20Bilgisayar%20xiaomi%20fiyat",
+        "sellerName": "Vatan Bilgisayar Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 34154,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Teknosa%20xiaomi%20fiyat",
+        "sellerName": "Teknosa Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "N11",
+        "storeLogo": "/images/stores/n11.png",
+        "price": 33593,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=N11%20xiaomi%20fiyat",
+        "sellerName": "N11 Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Pazarama",
+        "storeLogo": "/images/stores/pazarama.png",
+        "price": 33725,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Pazarama%20xiaomi%20fiyat",
+        "sellerName": "Pazarama Resmi Satıcı",
+        "isOfficialSeller": true
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 35639
+      },
+      {
+        "date": "2026-04-01",
+        "price": 34979
+      },
+      {
+        "date": "2026-05-01",
+        "price": 34319
+      },
+      {
+        "date": "2026-06-01",
+        "price": 33659
+      },
+      {
+        "date": "2026-07-01",
+        "price": 33329
+      },
+      {
+        "date": "2026-08-01",
+        "price": 32999
+      }
+    ],
+    "images": [
+      "/images/phones/xiaomi/xiaomi-poco-f7-pro-13724.jpg"
+    ]
+  },
+  {
+    "id": "poco-x8-pro-max-512gb-2027",
+    "slug": "poco-x8-pro-max-512-gb",
+    "name": "Poco X8 Pro Max (512 GB)",
+    "brand": "Xiaomi",
+    "category": "smartphones",
+    "image": "/images/phones/xiaomi/poco-x8-pro-max.jpg",
+    "rating": 4.85,
+    "epeyScore": 90,
+    "reviewCount": 2780,
+    "basePrice": 27999,
+    "currency": "TL",
+    "releaseYear": 2027,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "MediaTek Dimensity 8450-Ultra (4nm) Yüksek Hızlı Oyun Çipi",
+      "6.74 inç 144Hz 1.5K Flow AMOLED Ekran",
+      "6000 mAh Batarya & 90W Hızlı Dolum",
+      "64 MP OIS Çift Kamera & Çift Stereo Hoparlör (Dolby Atmos)"
+    ],
+    "pros": [
+      "Orta segmentte rekor oyun FPS değerleri",
+      "6000 mAh batarya",
+      "144Hz akıcı ekran"
+    ],
+    "cons": [
+      "Telefoto lensi yok"
+    ],
+    "specs": {
+      "screenSize": 6.74,
+      "screenResolution": "1240x2772 (1.5K)",
+      "displayType": "Flow AMOLED (144Hz)",
+      "chipset": "MediaTek Dimensity 8450-Ultra",
+      "cpuCores": 8,
+      "ram": 12,
+      "storage": 512,
+      "batteryCapacity": 6000,
+      "chargingSpeed": 90,
+      "mainCamera": "64 MP (OIS) + 8 MP Ultra Geniş",
+      "frontCamera": "16 MP",
+      "operatingSystem": "Xiaomi HyperOS for POCO (Android 17)",
+      "has5G": true,
+      "waterResistance": "IP65"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Amazon TR",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 27999,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Amazon%20TR%20xiaomi%20fiyat",
+        "sellerName": "Amazon Türkiye",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 28223,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Hepsiburada%20xiaomi%20fiyat",
+        "sellerName": "Hepsiburada Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 28419,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Trendyol%20xiaomi%20fiyat",
+        "sellerName": "Trendyol Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 28699,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=MediaMarkt%20xiaomi%20fiyat",
+        "sellerName": "MediaMarkt Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 28839,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Vatan%20Bilgisayar%20xiaomi%20fiyat",
+        "sellerName": "Vatan Bilgisayar Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 28979,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Teknosa%20xiaomi%20fiyat",
+        "sellerName": "Teknosa Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "N11",
+        "storeLogo": "/images/stores/n11.png",
+        "price": 28503,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=N11%20xiaomi%20fiyat",
+        "sellerName": "N11 Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Pazarama",
+        "storeLogo": "/images/stores/pazarama.png",
+        "price": 28615,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Pazarama%20xiaomi%20fiyat",
+        "sellerName": "Pazarama Resmi Satıcı",
+        "isOfficialSeller": true
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 30239
+      },
+      {
+        "date": "2026-04-01",
+        "price": 29679
+      },
+      {
+        "date": "2026-05-01",
+        "price": 29119
+      },
+      {
+        "date": "2026-06-01",
+        "price": 28559
+      },
+      {
+        "date": "2026-07-01",
+        "price": 28279
+      },
+      {
+        "date": "2026-08-01",
+        "price": 27999
+      }
+    ],
+    "images": [
+      "/images/phones/xiaomi/poco-x8-pro-max.jpg"
+    ]
+  },
+  {
+    "id": "poco-x8-pro-256gb-2027",
+    "slug": "poco-x8-pro-256-gb",
+    "name": "Poco X8 Pro (256 GB)",
+    "brand": "Xiaomi",
+    "category": "smartphones",
+    "image": "/images/phones/xiaomi/poco-x8-pro.jpg",
+    "rating": 4.8,
+    "epeyScore": 88,
+    "reviewCount": 2340,
+    "basePrice": 22999,
+    "currency": "TL",
+    "releaseYear": 2027,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "MediaTek Dimensity 8350 5G İşlemci",
+      "6.67 inç 120Hz 1.5K Flow AMOLED Ekran",
+      "5800 mAh Batarya & 67W Hızlı Şarj",
+      "64 MP OIS Ana Kamera"
+    ],
+    "pros": [
+      "Yüksek fiyat/performans dengesi",
+      "5800 mAh batarya",
+      "İnce çerçeveli ekran"
+    ],
+    "cons": [
+      "Plastik kasa"
+    ],
+    "specs": {
+      "screenSize": 6.67,
+      "screenResolution": "1220x2712 (1.5K)",
+      "displayType": "Flow AMOLED (120Hz)",
+      "chipset": "MediaTek Dimensity 8350",
+      "cpuCores": 8,
+      "ram": 8,
+      "storage": 256,
+      "batteryCapacity": 5800,
+      "chargingSpeed": 67,
+      "mainCamera": "64 MP (OIS) + 8 MP Ultra Geniş",
+      "frontCamera": "16 MP",
+      "operatingSystem": "Xiaomi HyperOS for POCO (Android 17)",
+      "has5G": true,
+      "waterResistance": "IP54"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Amazon TR",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 22999,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Amazon%20TR%20xiaomi%20fiyat",
+        "sellerName": "Amazon Türkiye",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 23183,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Hepsiburada%20xiaomi%20fiyat",
+        "sellerName": "Hepsiburada Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 23344,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Trendyol%20xiaomi%20fiyat",
+        "sellerName": "Trendyol Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 23574,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=MediaMarkt%20xiaomi%20fiyat",
+        "sellerName": "MediaMarkt Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 23689,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Vatan%20Bilgisayar%20xiaomi%20fiyat",
+        "sellerName": "Vatan Bilgisayar Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 23804,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Teknosa%20xiaomi%20fiyat",
+        "sellerName": "Teknosa Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "N11",
+        "storeLogo": "/images/stores/n11.png",
+        "price": 23413,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=N11%20xiaomi%20fiyat",
+        "sellerName": "N11 Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Pazarama",
+        "storeLogo": "/images/stores/pazarama.png",
+        "price": 23505,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Pazarama%20xiaomi%20fiyat",
+        "sellerName": "Pazarama Resmi Satıcı",
+        "isOfficialSeller": true
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 24839
+      },
+      {
+        "date": "2026-04-01",
+        "price": 24379
+      },
+      {
+        "date": "2026-05-01",
+        "price": 23919
+      },
+      {
+        "date": "2026-06-01",
+        "price": 23459
+      },
+      {
+        "date": "2026-07-01",
+        "price": 23229
+      },
+      {
+        "date": "2026-08-01",
+        "price": 22999
+      }
+    ],
+    "images": [
+      "/images/phones/xiaomi/poco-x8-pro.jpg"
+    ]
+  },
+  {
+    "id": "poco-x6-pro-512gb-2024",
+    "slug": "poco-x6-pro-512-gb",
+    "name": "Poco X6 Pro (512 GB)",
+    "brand": "Xiaomi",
+    "category": "smartphones",
+    "image": "/images/phones/xiaomi/poco-x6-pro.jpg",
+    "rating": 4.85,
+    "epeyScore": 89,
+    "reviewCount": 4560,
+    "basePrice": 19999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "MediaTek Dimensity 8300-Ultra (4nm) Fiyat/Performans Rekortmeni",
+      "6.67 inç 1.5K 120Hz CrystalRes Flow AMOLED Ekran",
+      "64 MP OIS Üçlü Kamera Sistemi",
+      "5000 mAh Batarya & 67W Turbo Şarj"
+    ],
+    "pros": [
+      "1.4 Milyon AnTuTu puanıyla segment lideri",
+      "1.5K canlı AMOLED ekran",
+      "512 GB geniş depolama"
+    ],
+    "cons": [
+      "Plastik arka kapak parmak izi tutabilir"
+    ],
+    "specs": {
+      "screenSize": 6.67,
+      "screenResolution": "1220x2712 (1.5K)",
+      "displayType": "Flow AMOLED (120Hz)",
+      "chipset": "MediaTek Dimensity 8300-Ultra (4nm)",
+      "cpuCores": 8,
+      "ram": 12,
+      "storage": 512,
+      "batteryCapacity": 5000,
+      "chargingSpeed": 67,
+      "mainCamera": "64 MP (OIS) + 8 MP Ultra Geniş + 2 MP Makro",
+      "frontCamera": "16 MP",
+      "operatingSystem": "Xiaomi HyperOS (Android 14)",
+      "has5G": true,
+      "waterResistance": "IP54"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Amazon TR",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 19999,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Amazon%20TR%20xiaomi%20fiyat",
+        "sellerName": "Amazon Türkiye",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 20159,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Hepsiburada%20xiaomi%20fiyat",
+        "sellerName": "Hepsiburada Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 20299,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Trendyol%20xiaomi%20fiyat",
+        "sellerName": "Trendyol Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 20499,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=MediaMarkt%20xiaomi%20fiyat",
+        "sellerName": "MediaMarkt Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 20599,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Vatan%20Bilgisayar%20xiaomi%20fiyat",
+        "sellerName": "Vatan Bilgisayar Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 20699,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Teknosa%20xiaomi%20fiyat",
+        "sellerName": "Teknosa Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "N11",
+        "storeLogo": "/images/stores/n11.png",
+        "price": 20359,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=N11%20xiaomi%20fiyat",
+        "sellerName": "N11 Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Pazarama",
+        "storeLogo": "/images/stores/pazarama.png",
+        "price": 20439,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Pazarama%20xiaomi%20fiyat",
+        "sellerName": "Pazarama Resmi Satıcı",
+        "isOfficialSeller": true
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 21599
+      },
+      {
+        "date": "2026-04-01",
+        "price": 21199
+      },
+      {
+        "date": "2026-05-01",
+        "price": 20799
+      },
+      {
+        "date": "2026-06-01",
+        "price": 20399
+      },
+      {
+        "date": "2026-07-01",
+        "price": 20199
+      },
+      {
+        "date": "2026-08-01",
+        "price": 19999
+      }
+    ],
+    "images": [
+      "/images/phones/xiaomi/poco-x6-pro.jpg"
+    ]
+  },
+  {
+    "id": "poco-m8-pro-5g-256gb-2027",
+    "slug": "poco-m8-pro-5g-256-gb",
+    "name": "Poco M8 Pro 5G (256 GB)",
+    "brand": "Xiaomi",
+    "category": "smartphones",
+    "image": "/images/phones/xiaomi/poco-m8-pro-5g.jpg",
+    "rating": 4.75,
+    "epeyScore": 86,
+    "reviewCount": 1650,
+    "basePrice": 15499,
+    "currency": "TL",
+    "releaseYear": 2027,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "MediaTek Dimensity 7050 5G İşlemci",
+      "6.67 inç 120Hz AMOLED Ekran & İnce Çerçeveler",
+      "5500 mAh Batarya & 45W Turbo Şarj",
+      "50 MP OIS Ana Kamera"
+    ],
+    "pros": [
+      "5500 mAh batarya",
+      "120Hz AMOLED ekran",
+      "5G bağlantı desteği"
+    ],
+    "cons": [
+      "Giriş-orta segment kamera performansı"
+    ],
+    "specs": {
+      "screenSize": 6.67,
+      "screenResolution": "1080x2400 (FHD+)",
+      "displayType": "AMOLED (120Hz)",
+      "chipset": "MediaTek Dimensity 7050",
+      "cpuCores": 8,
+      "ram": 8,
+      "storage": 256,
+      "batteryCapacity": 5500,
+      "chargingSpeed": 45,
+      "mainCamera": "50 MP (f/1.8 OIS) + 2 MP Derinlik",
+      "frontCamera": "16 MP",
+      "operatingSystem": "Xiaomi HyperOS for POCO (Android 17)",
+      "has5G": true,
+      "waterResistance": "IP54"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Amazon TR",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 15499,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Amazon%20TR%20xiaomi%20fiyat",
+        "sellerName": "Amazon Türkiye",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 15623,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Hepsiburada%20xiaomi%20fiyat",
+        "sellerName": "Hepsiburada Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 15731,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Trendyol%20xiaomi%20fiyat",
+        "sellerName": "Trendyol Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 15886,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=MediaMarkt%20xiaomi%20fiyat",
+        "sellerName": "MediaMarkt Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 15964,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Vatan%20Bilgisayar%20xiaomi%20fiyat",
+        "sellerName": "Vatan Bilgisayar Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 16041,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Teknosa%20xiaomi%20fiyat",
+        "sellerName": "Teknosa Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "N11",
+        "storeLogo": "/images/stores/n11.png",
+        "price": 15778,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=N11%20xiaomi%20fiyat",
+        "sellerName": "N11 Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Pazarama",
+        "storeLogo": "/images/stores/pazarama.png",
+        "price": 15840,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Pazarama%20xiaomi%20fiyat",
+        "sellerName": "Pazarama Resmi Satıcı",
+        "isOfficialSeller": true
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 16739
+      },
+      {
+        "date": "2026-04-01",
+        "price": 16429
+      },
+      {
+        "date": "2026-05-01",
+        "price": 16119
+      },
+      {
+        "date": "2026-06-01",
+        "price": 15809
+      },
+      {
+        "date": "2026-07-01",
+        "price": 15654
+      },
+      {
+        "date": "2026-08-01",
+        "price": 15499
+      }
+    ],
+    "images": [
+      "/images/phones/xiaomi/poco-m8-pro-5g.jpg"
+    ]
+  },
+  {
+    "id": "poco-m7-pro-5g-256gb-2025",
+    "slug": "poco-m7-pro-5g-256-gb",
+    "name": "Poco M7 Pro 5G (256 GB)",
+    "brand": "Xiaomi",
+    "category": "smartphones",
+    "image": "/images/phones/xiaomi/xiaomi-poco-m7-pro-5g-13570.jpg",
+    "rating": 4.7,
+    "epeyScore": 84,
+    "reviewCount": 1890,
+    "basePrice": 13999,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "MediaTek Dimensity 6100+ 5G Yonga Seti",
+      "6.67 inç 120Hz AMOLED Ekran (1000 nits)",
+      "5000 mAh Batarya & 33W Hızlı Şarj",
+      "50 MP AI Ana Kamera"
+    ],
+    "pros": [
+      "Ekonomik fiyata 5G ve 120Hz AMOLED ekran",
+      "5000 mAh pil",
+      "Hafif gövde"
+    ],
+    "cons": [
+      "33W şarj hızı"
+    ],
+    "specs": {
+      "screenSize": 6.67,
+      "screenResolution": "1080x2400 (FHD+)",
+      "displayType": "AMOLED (120Hz)",
+      "chipset": "MediaTek Dimensity 6100+",
+      "cpuCores": 8,
+      "ram": 8,
+      "storage": 256,
+      "batteryCapacity": 5000,
+      "chargingSpeed": 33,
+      "mainCamera": "50 MP (f/1.8) + 2 MP Derinlik",
+      "frontCamera": "13 MP",
+      "operatingSystem": "Xiaomi HyperOS for POCO (Android 15)",
+      "has5G": true,
+      "waterResistance": "IP54"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Amazon TR",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 13999,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Amazon%20TR%20xiaomi%20fiyat",
+        "sellerName": "Amazon Türkiye",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 14111,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Hepsiburada%20xiaomi%20fiyat",
+        "sellerName": "Hepsiburada Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 14209,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Trendyol%20xiaomi%20fiyat",
+        "sellerName": "Trendyol Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 14349,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=MediaMarkt%20xiaomi%20fiyat",
+        "sellerName": "MediaMarkt Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 14419,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Vatan%20Bilgisayar%20xiaomi%20fiyat",
+        "sellerName": "Vatan Bilgisayar Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 14489,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Teknosa%20xiaomi%20fiyat",
+        "sellerName": "Teknosa Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "N11",
+        "storeLogo": "/images/stores/n11.png",
+        "price": 14251,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=N11%20xiaomi%20fiyat",
+        "sellerName": "N11 Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Pazarama",
+        "storeLogo": "/images/stores/pazarama.png",
+        "price": 14307,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Pazarama%20xiaomi%20fiyat",
+        "sellerName": "Pazarama Resmi Satıcı",
+        "isOfficialSeller": true
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 15119
+      },
+      {
+        "date": "2026-04-01",
+        "price": 14839
+      },
+      {
+        "date": "2026-05-01",
+        "price": 14559
+      },
+      {
+        "date": "2026-06-01",
+        "price": 14279
+      },
+      {
+        "date": "2026-07-01",
+        "price": 14139
+      },
+      {
+        "date": "2026-08-01",
+        "price": 13999
+      }
+    ],
+    "images": [
+      "/images/phones/xiaomi/xiaomi-poco-m7-pro-5g-13570.jpg"
+    ]
   }
 ]
