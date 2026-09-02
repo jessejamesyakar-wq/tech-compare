@@ -112355,5 +112355,1418 @@
     "images": [
       "/images/products/smartphones/vivo-vivo-y05-col1.png"
     ]
+  },
+  {
+    "id": "oppo-find-x10-pro-512gb-2027",
+    "slug": "oppo-find-x10-pro-512-gb",
+    "name": "OPPO Find X10 Pro (512 GB)",
+    "brand": "Oppo",
+    "category": "smartphones",
+    "image": "/images/phones/oppo/oppo-oppo-find-x8s-5g-13770.jpg",
+    "rating": 4.95,
+    "epeyScore": 97,
+    "reviewCount": 1540,
+    "basePrice": 79999,
+    "currency": "TL",
+    "releaseYear": 2027,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "Hasselblad 200 MP Periskop Telefoto & 1-inç Sony Yeni Nesil Ana Sensör",
+      "Qualcomm Snapdragon 8 Gen 5 (2nm TSMC) Yeni Nesil Mimari",
+      "6.82 inç 2K 144Hz LTPO OLED Ekran (5000 nits)",
+      "6500 mAh Yarı-Katı Silikon Batarya & 120W SUPERVOOC / 50W AIRVOOC"
+    ],
+    "pros": [
+      "2nm TSMC süper enerji verimli çip",
+      "6500 mAh devasa batarya",
+      "Hasselblad 200 MP periskop telefoto"
+    ],
+    "cons": [
+      "Üst segment fiyat seviyesi"
+    ],
+    "specs": {
+      "screenSize": 6.82,
+      "screenResolution": "1440x3168 (2K QHD+)",
+      "displayType": "LTPO AMOLED (144Hz)",
+      "chipset": "Qualcomm Snapdragon 8 Gen 5 (2nm)",
+      "cpuCores": 8,
+      "ram": 16,
+      "storage": 512,
+      "batteryCapacity": 6500,
+      "chargingSpeed": 120,
+      "mainCamera": "50 MP (Sony 1-inç OIS) + 200 MP Hasselblad Periskop + 50 MP Ultra Geniş",
+      "frontCamera": "50 MP AF",
+      "operatingSystem": "ColorOS 17 (Android 17)",
+      "has5G": true,
+      "waterResistance": "IP68 & IP69"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Amazon TR",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 79999,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Amazon%20TR%20oppo%202027%20fiyat",
+        "sellerName": "Amazon Türkiye",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 80639,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Hepsiburada%20oppo%202027%20fiyat",
+        "sellerName": "Hepsiburada Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 81199,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Trendyol%20oppo%202027%20fiyat",
+        "sellerName": "Trendyol Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 81999,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=MediaMarkt%20oppo%202027%20fiyat",
+        "sellerName": "MediaMarkt Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 82399,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Vatan%20Bilgisayar%20oppo%202027%20fiyat",
+        "sellerName": "Vatan Bilgisayar Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 82799,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Teknosa%20oppo%202027%20fiyat",
+        "sellerName": "Teknosa Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "N11",
+        "storeLogo": "/images/stores/n11.png",
+        "price": 81439,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=N11%20oppo%202027%20fiyat",
+        "sellerName": "N11 Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Pazarama",
+        "storeLogo": "/images/stores/pazarama.png",
+        "price": 81759,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Pazarama%20oppo%202027%20fiyat",
+        "sellerName": "Pazarama Resmi Satıcı",
+        "isOfficialSeller": true
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 86399
+      },
+      {
+        "date": "2026-04-01",
+        "price": 84799
+      },
+      {
+        "date": "2026-05-01",
+        "price": 83199
+      },
+      {
+        "date": "2026-06-01",
+        "price": 81599
+      },
+      {
+        "date": "2026-07-01",
+        "price": 80799
+      },
+      {
+        "date": "2026-08-01",
+        "price": 79999
+      }
+    ],
+    "images": [
+      "/images/phones/oppo/oppo-oppo-find-x8s-5g-13770.jpg"
+    ]
+  },
+  {
+    "id": "oppo-find-x10-5g-256gb-2027",
+    "slug": "oppo-find-x10-5g-256-gb",
+    "name": "OPPO Find X10 5G (256 GB)",
+    "brand": "Oppo",
+    "category": "smartphones",
+    "image": "/images/phones/oppo/oppo-oppo-find-x9-5g-14235.jpg",
+    "rating": 4.9,
+    "epeyScore": 94,
+    "reviewCount": 1280,
+    "basePrice": 63999,
+    "currency": "TL",
+    "releaseYear": 2027,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "6.6 inç Simetrik İnce Çerçeveli 144Hz AMOLED Ekran",
+      "MediaTek Dimensity 9600 (2nm) Amiral Gemisi İşlemci",
+      "Hasselblad 50 MP Üçlü Kamera & Periskop Zoom (5x Optik)",
+      "6000 mAh Glacier Batarya & 100W SUPERVOOC"
+    ],
+    "pros": [
+      "Kompakt amiral gemisi ergonomisi",
+      "6000 mAh uzun pil ömrü",
+      "144Hz ultra akıcı ekran"
+    ],
+    "cons": [
+      "Kablosuz şarj hızı 30W"
+    ],
+    "specs": {
+      "screenSize": 6.6,
+      "screenResolution": "1264x2780 (1.5K)",
+      "displayType": "AMOLED (144Hz)",
+      "chipset": "MediaTek Dimensity 9600 (2nm)",
+      "cpuCores": 8,
+      "ram": 12,
+      "storage": 256,
+      "batteryCapacity": 6000,
+      "chargingSpeed": 100,
+      "mainCamera": "50 MP (Sony OIS) + 50 MP Periskop (5x) + 50 MP Ultra Geniş",
+      "frontCamera": "32 MP",
+      "operatingSystem": "ColorOS 17 (Android 17)",
+      "has5G": true,
+      "waterResistance": "IP68 & IP69"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Amazon TR",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 63999,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Amazon%20TR%20oppo%202027%20fiyat",
+        "sellerName": "Amazon Türkiye",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 64511,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Hepsiburada%20oppo%202027%20fiyat",
+        "sellerName": "Hepsiburada Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 64959,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Trendyol%20oppo%202027%20fiyat",
+        "sellerName": "Trendyol Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 65599,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=MediaMarkt%20oppo%202027%20fiyat",
+        "sellerName": "MediaMarkt Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 65919,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Vatan%20Bilgisayar%20oppo%202027%20fiyat",
+        "sellerName": "Vatan Bilgisayar Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 66239,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Teknosa%20oppo%202027%20fiyat",
+        "sellerName": "Teknosa Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "N11",
+        "storeLogo": "/images/stores/n11.png",
+        "price": 65151,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=N11%20oppo%202027%20fiyat",
+        "sellerName": "N11 Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Pazarama",
+        "storeLogo": "/images/stores/pazarama.png",
+        "price": 65407,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Pazarama%20oppo%202027%20fiyat",
+        "sellerName": "Pazarama Resmi Satıcı",
+        "isOfficialSeller": true
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 69119
+      },
+      {
+        "date": "2026-04-01",
+        "price": 67839
+      },
+      {
+        "date": "2026-05-01",
+        "price": 66559
+      },
+      {
+        "date": "2026-06-01",
+        "price": 65279
+      },
+      {
+        "date": "2026-07-01",
+        "price": 64639
+      },
+      {
+        "date": "2026-08-01",
+        "price": 63999
+      }
+    ],
+    "images": [
+      "/images/phones/oppo/oppo-oppo-find-x9-5g-14235.jpg"
+    ]
+  },
+  {
+    "id": "oppo-f31-pro-plus-512gb-2027",
+    "slug": "oppo-f31-pro-plus-512-gb",
+    "name": "OPPO F31 Pro+ 5G (512 GB)",
+    "brand": "Oppo",
+    "category": "smartphones",
+    "image": "/images/phones/oppo/oppo-f31-pro-plus.jpg",
+    "rating": 4.85,
+    "epeyScore": 90,
+    "reviewCount": 2150,
+    "basePrice": 28999,
+    "currency": "TL",
+    "releaseYear": 2027,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "Askeri Sınıf Zırhlı Gövde (MIL-STD-810H) & IP69K Basınç Koruması",
+      "6.74 inç 120Hz 3D Kavisli Vision AMOLED Ekran",
+      "MediaTek Dimensity 7400 5G Yonga Seti",
+      "6000 mAh Devasa Batarya & 90W SUPERVOOC"
+    ],
+    "pros": [
+      "IP69K sıcak buhar ve basınç dayanıklılığı",
+      "6000 mAh silikon-karbon pil",
+      "Lüks deri desenli arka kapak"
+    ],
+    "cons": [
+      "Telefoto lensi yok"
+    ],
+    "specs": {
+      "screenSize": 6.74,
+      "screenResolution": "1080x2412 (FHD+)",
+      "displayType": "Curved AMOLED (120Hz)",
+      "chipset": "MediaTek Dimensity 7400",
+      "cpuCores": 8,
+      "ram": 12,
+      "storage": 512,
+      "batteryCapacity": 6000,
+      "chargingSpeed": 90,
+      "mainCamera": "64 MP (Sony OIS) + 8 MP Ultra Geniş",
+      "frontCamera": "32 MP",
+      "operatingSystem": "ColorOS 17 (Android 17)",
+      "has5G": true,
+      "waterResistance": "IP68 & IP69K"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Amazon TR",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 28999,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Amazon%20TR%20oppo%202027%20fiyat",
+        "sellerName": "Amazon Türkiye",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 29231,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Hepsiburada%20oppo%202027%20fiyat",
+        "sellerName": "Hepsiburada Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 29434,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Trendyol%20oppo%202027%20fiyat",
+        "sellerName": "Trendyol Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 29724,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=MediaMarkt%20oppo%202027%20fiyat",
+        "sellerName": "MediaMarkt Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 29869,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Vatan%20Bilgisayar%20oppo%202027%20fiyat",
+        "sellerName": "Vatan Bilgisayar Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 30014,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Teknosa%20oppo%202027%20fiyat",
+        "sellerName": "Teknosa Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "N11",
+        "storeLogo": "/images/stores/n11.png",
+        "price": 29521,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=N11%20oppo%202027%20fiyat",
+        "sellerName": "N11 Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Pazarama",
+        "storeLogo": "/images/stores/pazarama.png",
+        "price": 29637,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Pazarama%20oppo%202027%20fiyat",
+        "sellerName": "Pazarama Resmi Satıcı",
+        "isOfficialSeller": true
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 31319
+      },
+      {
+        "date": "2026-04-01",
+        "price": 30739
+      },
+      {
+        "date": "2026-05-01",
+        "price": 30159
+      },
+      {
+        "date": "2026-06-01",
+        "price": 29579
+      },
+      {
+        "date": "2026-07-01",
+        "price": 29289
+      },
+      {
+        "date": "2026-08-01",
+        "price": 28999
+      }
+    ],
+    "images": [
+      "/images/phones/oppo/oppo-f31-pro-plus.jpg"
+    ]
+  },
+  {
+    "id": "oppo-f31-256gb-2027",
+    "slug": "oppo-f31-256-gb",
+    "name": "OPPO F31 5G (256 GB)",
+    "brand": "Oppo",
+    "category": "smartphones",
+    "image": "/images/phones/oppo/oppo-f31.jpg",
+    "rating": 4.8,
+    "epeyScore": 87,
+    "reviewCount": 1680,
+    "basePrice": 22999,
+    "currency": "TL",
+    "releaseYear": 2027,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "6.7 inç 120Hz Kavisli AMOLED Ekran & İnce Çerçeveler",
+      "MediaTek Dimensity 7200-Ultra (4nm) İşlemci",
+      "50 MP OIS Ana Kamera & 5500 mAh Batarya",
+      "80W SUPERVOOC Hızlı Dolum"
+    ],
+    "pros": [
+      "80W hızlı dolum",
+      "5500 mAh batarya",
+      "Şık ve hafif tasarım"
+    ],
+    "cons": [
+      "Plastik yan çerçeve"
+    ],
+    "specs": {
+      "screenSize": 6.7,
+      "screenResolution": "1080x2412 (FHD+)",
+      "displayType": "Curved AMOLED (120Hz)",
+      "chipset": "MediaTek Dimensity 7200-Ultra",
+      "cpuCores": 8,
+      "ram": 8,
+      "storage": 256,
+      "batteryCapacity": 5500,
+      "chargingSpeed": 80,
+      "mainCamera": "50 MP (OIS) + 8 MP Ultra Geniş",
+      "frontCamera": "32 MP",
+      "operatingSystem": "ColorOS 17 (Android 17)",
+      "has5G": true,
+      "waterResistance": "IP65"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Amazon TR",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 22999,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Amazon%20TR%20oppo%202027%20fiyat",
+        "sellerName": "Amazon Türkiye",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 23183,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Hepsiburada%20oppo%202027%20fiyat",
+        "sellerName": "Hepsiburada Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 23344,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Trendyol%20oppo%202027%20fiyat",
+        "sellerName": "Trendyol Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 23574,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=MediaMarkt%20oppo%202027%20fiyat",
+        "sellerName": "MediaMarkt Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 23689,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Vatan%20Bilgisayar%20oppo%202027%20fiyat",
+        "sellerName": "Vatan Bilgisayar Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 23804,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Teknosa%20oppo%202027%20fiyat",
+        "sellerName": "Teknosa Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "N11",
+        "storeLogo": "/images/stores/n11.png",
+        "price": 23413,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=N11%20oppo%202027%20fiyat",
+        "sellerName": "N11 Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Pazarama",
+        "storeLogo": "/images/stores/pazarama.png",
+        "price": 23505,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Pazarama%20oppo%202027%20fiyat",
+        "sellerName": "Pazarama Resmi Satıcı",
+        "isOfficialSeller": true
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 24839
+      },
+      {
+        "date": "2026-04-01",
+        "price": 24379
+      },
+      {
+        "date": "2026-05-01",
+        "price": 23919
+      },
+      {
+        "date": "2026-06-01",
+        "price": 23459
+      },
+      {
+        "date": "2026-07-01",
+        "price": 23229
+      },
+      {
+        "date": "2026-08-01",
+        "price": 22999
+      }
+    ],
+    "images": [
+      "/images/phones/oppo/oppo-f31.jpg"
+    ]
+  },
+  {
+    "id": "oppo-k14-turbo-pro-512gb-2027",
+    "slug": "oppo-k14-turbo-pro-512-gb",
+    "name": "OPPO K14 Turbo Pro 5G (512 GB)",
+    "brand": "Oppo",
+    "category": "smartphones",
+    "image": "/images/phones/oppo/oppo-k14-turbo-pro.jpg",
+    "rating": 4.9,
+    "epeyScore": 92,
+    "reviewCount": 2940,
+    "basePrice": 33999,
+    "currency": "TL",
+    "releaseYear": 2027,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "Qualcomm Snapdragon 8s Gen 4 (3nm TSMC) E-Spor Oyun Çipi",
+      "6.78 inç 165Hz 1.5K Düz E-Spor AMOLED Ekran (3840Hz PWM)",
+      "6000 mAh Glacier Batarya & 120W SUPERVOOC Hızlı Şarj",
+      "Buhar Odacıklı 3D Sıvı Soğutma Mimarisi"
+    ],
+    "pros": [
+      "165Hz rekortmen e-spor ekranı",
+      "Snapdragon 8s Gen 4 üst seviye performans",
+      "120W hızlı şarj"
+    ],
+    "cons": [
+      "Telefoto lensi yok"
+    ],
+    "specs": {
+      "screenSize": 6.78,
+      "screenResolution": "1264x2780 (1.5K)",
+      "displayType": "AMOLED (165Hz)",
+      "chipset": "Qualcomm Snapdragon 8s Gen 4 (3nm)",
+      "cpuCores": 8,
+      "ram": 16,
+      "storage": 512,
+      "batteryCapacity": 6000,
+      "chargingSpeed": 120,
+      "mainCamera": "50 MP (Sony LYT-700 OIS) + 8 MP Ultra Geniş",
+      "frontCamera": "16 MP",
+      "operatingSystem": "ColorOS 17 (Android 17)",
+      "has5G": true,
+      "waterResistance": "IP65"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Amazon TR",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 33999,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Amazon%20TR%20oppo%202027%20fiyat",
+        "sellerName": "Amazon Türkiye",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 34271,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Hepsiburada%20oppo%202027%20fiyat",
+        "sellerName": "Hepsiburada Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 34509,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Trendyol%20oppo%202027%20fiyat",
+        "sellerName": "Trendyol Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 34849,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=MediaMarkt%20oppo%202027%20fiyat",
+        "sellerName": "MediaMarkt Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 35019,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Vatan%20Bilgisayar%20oppo%202027%20fiyat",
+        "sellerName": "Vatan Bilgisayar Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 35189,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Teknosa%20oppo%202027%20fiyat",
+        "sellerName": "Teknosa Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "N11",
+        "storeLogo": "/images/stores/n11.png",
+        "price": 34611,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=N11%20oppo%202027%20fiyat",
+        "sellerName": "N11 Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Pazarama",
+        "storeLogo": "/images/stores/pazarama.png",
+        "price": 34747,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Pazarama%20oppo%202027%20fiyat",
+        "sellerName": "Pazarama Resmi Satıcı",
+        "isOfficialSeller": true
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 36719
+      },
+      {
+        "date": "2026-04-01",
+        "price": 36039
+      },
+      {
+        "date": "2026-05-01",
+        "price": 35359
+      },
+      {
+        "date": "2026-06-01",
+        "price": 34679
+      },
+      {
+        "date": "2026-07-01",
+        "price": 34339
+      },
+      {
+        "date": "2026-08-01",
+        "price": 33999
+      }
+    ],
+    "images": [
+      "/images/phones/oppo/oppo-k14-turbo-pro.jpg"
+    ]
+  },
+  {
+    "id": "oppo-k14-turbo-256gb-2027",
+    "slug": "oppo-k14-turbo-256-gb",
+    "name": "OPPO K14 Turbo 5G (256 GB)",
+    "brand": "Oppo",
+    "category": "smartphones",
+    "image": "/images/phones/oppo/oppo-k14-turbo.jpg",
+    "rating": 4.8,
+    "epeyScore": 89,
+    "reviewCount": 1850,
+    "basePrice": 25999,
+    "currency": "TL",
+    "releaseYear": 2027,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "MediaTek Dimensity 8450 (4nm) Yüksek Hızlı Oyun Çipi",
+      "6.74 inç 144Hz 1.5K AMOLED Ekran",
+      "5800 mAh Batarya & 100W SUPERVOOC",
+      "HyperBoost 3.0 Oyun Kararlılık Motoru"
+    ],
+    "pros": [
+      "100W SUPERVOOC ile 20 dakikada dolum",
+      "144Hz akıcı ekran",
+      "5800 mAh pil"
+    ],
+    "cons": [
+      "Plastik arka kapak"
+    ],
+    "specs": {
+      "screenSize": 6.74,
+      "screenResolution": "1240x2772 (1.5K)",
+      "displayType": "AMOLED (144Hz)",
+      "chipset": "MediaTek Dimensity 8450",
+      "cpuCores": 8,
+      "ram": 12,
+      "storage": 256,
+      "batteryCapacity": 5800,
+      "chargingSpeed": 100,
+      "mainCamera": "50 MP (Sony OIS) + 2 MP Derinlik",
+      "frontCamera": "16 MP",
+      "operatingSystem": "ColorOS 17 (Android 17)",
+      "has5G": true,
+      "waterResistance": "IP54"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Amazon TR",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 25999,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Amazon%20TR%20oppo%202027%20fiyat",
+        "sellerName": "Amazon Türkiye",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 26207,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Hepsiburada%20oppo%202027%20fiyat",
+        "sellerName": "Hepsiburada Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 26389,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Trendyol%20oppo%202027%20fiyat",
+        "sellerName": "Trendyol Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 26649,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=MediaMarkt%20oppo%202027%20fiyat",
+        "sellerName": "MediaMarkt Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 26779,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Vatan%20Bilgisayar%20oppo%202027%20fiyat",
+        "sellerName": "Vatan Bilgisayar Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 26909,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Teknosa%20oppo%202027%20fiyat",
+        "sellerName": "Teknosa Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "N11",
+        "storeLogo": "/images/stores/n11.png",
+        "price": 26467,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=N11%20oppo%202027%20fiyat",
+        "sellerName": "N11 Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Pazarama",
+        "storeLogo": "/images/stores/pazarama.png",
+        "price": 26571,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Pazarama%20oppo%202027%20fiyat",
+        "sellerName": "Pazarama Resmi Satıcı",
+        "isOfficialSeller": true
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 28079
+      },
+      {
+        "date": "2026-04-01",
+        "price": 27559
+      },
+      {
+        "date": "2026-05-01",
+        "price": 27039
+      },
+      {
+        "date": "2026-06-01",
+        "price": 26519
+      },
+      {
+        "date": "2026-07-01",
+        "price": 26259
+      },
+      {
+        "date": "2026-08-01",
+        "price": 25999
+      }
+    ],
+    "images": [
+      "/images/phones/oppo/oppo-k14-turbo.jpg"
+    ]
+  },
+  {
+    "id": "oppo-a7-pro-5g-256gb-2027",
+    "slug": "oppo-a7-pro-5g-256-gb",
+    "name": "OPPO A7 Pro 5G (256 GB)",
+    "brand": "Oppo",
+    "category": "smartphones",
+    "image": "/images/phones/oppo/oppo-oppo-a5-pro-china.jpg",
+    "rating": 4.75,
+    "epeyScore": 86,
+    "reviewCount": 1720,
+    "basePrice": 18999,
+    "currency": "TL",
+    "releaseYear": 2027,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "IP69 Su ve Toz Direnci ile 360 Derece Darbeye Dayanıklı Gövde",
+      "6.7 inç 120Hz Kavisli AMOLED Ekran",
+      "MediaTek Dimensity 7300-Energy 5G İşlemci",
+      "6000 mAh Devasa Batarya & 67W SUPERVOOC"
+    ],
+    "pros": [
+      "6000 mAh dev batarya",
+      "IP69 sıcak su koruması",
+      "Kavisli AMOLED ekran"
+    ],
+    "cons": [
+      "67W şarj hızı"
+    ],
+    "specs": {
+      "screenSize": 6.7,
+      "screenResolution": "1080x2412 (FHD+)",
+      "displayType": "Curved AMOLED (120Hz)",
+      "chipset": "MediaTek Dimensity 7300-Energy",
+      "cpuCores": 8,
+      "ram": 12,
+      "storage": 256,
+      "batteryCapacity": 6000,
+      "chargingSpeed": 67,
+      "mainCamera": "50 MP (f/1.8 OIS) + 2 MP Portre",
+      "frontCamera": "16 MP",
+      "operatingSystem": "ColorOS 17 (Android 17)",
+      "has5G": true,
+      "waterResistance": "IP69"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Amazon TR",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 18999,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Amazon%20TR%20oppo%202027%20fiyat",
+        "sellerName": "Amazon Türkiye",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 19151,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Hepsiburada%20oppo%202027%20fiyat",
+        "sellerName": "Hepsiburada Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 19284,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Trendyol%20oppo%202027%20fiyat",
+        "sellerName": "Trendyol Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 19474,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=MediaMarkt%20oppo%202027%20fiyat",
+        "sellerName": "MediaMarkt Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 19569,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Vatan%20Bilgisayar%20oppo%202027%20fiyat",
+        "sellerName": "Vatan Bilgisayar Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 19664,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Teknosa%20oppo%202027%20fiyat",
+        "sellerName": "Teknosa Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "N11",
+        "storeLogo": "/images/stores/n11.png",
+        "price": 19341,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=N11%20oppo%202027%20fiyat",
+        "sellerName": "N11 Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Pazarama",
+        "storeLogo": "/images/stores/pazarama.png",
+        "price": 19417,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Pazarama%20oppo%202027%20fiyat",
+        "sellerName": "Pazarama Resmi Satıcı",
+        "isOfficialSeller": true
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 20519
+      },
+      {
+        "date": "2026-04-01",
+        "price": 20139
+      },
+      {
+        "date": "2026-05-01",
+        "price": 19759
+      },
+      {
+        "date": "2026-06-01",
+        "price": 19379
+      },
+      {
+        "date": "2026-07-01",
+        "price": 19189
+      },
+      {
+        "date": "2026-08-01",
+        "price": 18999
+      }
+    ],
+    "images": [
+      "/images/phones/oppo/oppo-oppo-a5-pro-china.jpg"
+    ]
+  },
+  {
+    "id": "oppo-a6-pro-5g-256gb-2027",
+    "slug": "oppo-a6-pro-5g-256-gb",
+    "name": "OPPO A6 Pro 5G (256 GB)",
+    "brand": "Oppo",
+    "category": "smartphones",
+    "image": "/images/phones/oppo/oppo-oppo-a5-4g-13871.jpg",
+    "rating": 4.7,
+    "epeyScore": 84,
+    "reviewCount": 1450,
+    "basePrice": 15499,
+    "currency": "TL",
+    "releaseYear": 2027,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "6.67 inç 120Hz Ultra Parlak Ekran (Splash Touch Islak Parmak Desteği)",
+      "MediaTek Dimensity 6400 (6nm) 5G İşlemci",
+      "5800 mAh Uzun Ömürlü Batarya & 45W SUPERVOOC",
+      "Düşmelere Karşı Askeri Standartta Zırhlı Kasa"
+    ],
+    "pros": [
+      "5800 mAh uzun pil süresi",
+      "Islak elle kullanım kolaylığı",
+      "Dayanıklı gövde"
+    ],
+    "cons": [
+      "HD+ çözünürlük"
+    ],
+    "specs": {
+      "screenSize": 6.67,
+      "screenResolution": "720x1604 (HD+ 120Hz)",
+      "displayType": "IPS LCD (120Hz)",
+      "chipset": "MediaTek Dimensity 6400",
+      "cpuCores": 8,
+      "ram": 8,
+      "storage": 256,
+      "batteryCapacity": 5800,
+      "chargingSpeed": 45,
+      "mainCamera": "50 MP (f/1.8) + 2 MP Portre",
+      "frontCamera": "8 MP",
+      "operatingSystem": "ColorOS 17 (Android 17)",
+      "has5G": true,
+      "waterResistance": "IP54"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Amazon TR",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 15499,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Amazon%20TR%20oppo%202027%20fiyat",
+        "sellerName": "Amazon Türkiye",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 15623,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Hepsiburada%20oppo%202027%20fiyat",
+        "sellerName": "Hepsiburada Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 15731,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Trendyol%20oppo%202027%20fiyat",
+        "sellerName": "Trendyol Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 15886,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=MediaMarkt%20oppo%202027%20fiyat",
+        "sellerName": "MediaMarkt Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 15964,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Vatan%20Bilgisayar%20oppo%202027%20fiyat",
+        "sellerName": "Vatan Bilgisayar Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 16041,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Teknosa%20oppo%202027%20fiyat",
+        "sellerName": "Teknosa Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "N11",
+        "storeLogo": "/images/stores/n11.png",
+        "price": 15778,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=N11%20oppo%202027%20fiyat",
+        "sellerName": "N11 Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Pazarama",
+        "storeLogo": "/images/stores/pazarama.png",
+        "price": 15840,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Pazarama%20oppo%202027%20fiyat",
+        "sellerName": "Pazarama Resmi Satıcı",
+        "isOfficialSeller": true
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 16739
+      },
+      {
+        "date": "2026-04-01",
+        "price": 16429
+      },
+      {
+        "date": "2026-05-01",
+        "price": 16119
+      },
+      {
+        "date": "2026-06-01",
+        "price": 15809
+      },
+      {
+        "date": "2026-07-01",
+        "price": 15654
+      },
+      {
+        "date": "2026-08-01",
+        "price": 15499
+      }
+    ],
+    "images": [
+      "/images/phones/oppo/oppo-oppo-a5-4g-13871.jpg"
+    ]
+  },
+  {
+    "id": "oppo-a6-max-5g-256gb-2027",
+    "slug": "oppo-a6-max-5g-256-gb",
+    "name": "OPPO A6 Max 5G (256 GB)",
+    "brand": "Oppo",
+    "category": "smartphones",
+    "image": "/images/phones/oppo/oppo-oppo-a5-pro-4g-13738.jpg",
+    "rating": 4.7,
+    "epeyScore": 85,
+    "reviewCount": 1340,
+    "basePrice": 16499,
+    "currency": "TL",
+    "releaseYear": 2027,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "6.8 inç Geniş Ekran & Çift Stereo Hoparlör (%300 Ultra Ses)",
+      "MediaTek Dimensity 6300 5G Yonga Seti",
+      "6000 mAh Batarya & 45W SUPERVOOC Hızlı Şarj",
+      "Zırhlı Çerçeve ve IP64 Dayanıklılık"
+    ],
+    "pros": [
+      "6000 mAh batarya",
+      "%300 ekstra yüksek ses modu",
+      "Geniş ekran"
+    ],
+    "cons": [
+      "IPS panel"
+    ],
+    "specs": {
+      "screenSize": 6.8,
+      "screenResolution": "1080x2400 (FHD+ 120Hz)",
+      "displayType": "IPS LCD (120Hz)",
+      "chipset": "MediaTek Dimensity 6300",
+      "cpuCores": 8,
+      "ram": 8,
+      "storage": 256,
+      "batteryCapacity": 6000,
+      "chargingSpeed": 45,
+      "mainCamera": "50 MP (f/1.8) + 2 MP Portre",
+      "frontCamera": "16 MP",
+      "operatingSystem": "ColorOS 17 (Android 17)",
+      "has5G": true,
+      "waterResistance": "IP64"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Amazon TR",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 16499,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Amazon%20TR%20oppo%202027%20fiyat",
+        "sellerName": "Amazon Türkiye",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 16631,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Hepsiburada%20oppo%202027%20fiyat",
+        "sellerName": "Hepsiburada Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 16746,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Trendyol%20oppo%202027%20fiyat",
+        "sellerName": "Trendyol Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 16911,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=MediaMarkt%20oppo%202027%20fiyat",
+        "sellerName": "MediaMarkt Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 16994,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Vatan%20Bilgisayar%20oppo%202027%20fiyat",
+        "sellerName": "Vatan Bilgisayar Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 17076,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Teknosa%20oppo%202027%20fiyat",
+        "sellerName": "Teknosa Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "N11",
+        "storeLogo": "/images/stores/n11.png",
+        "price": 16796,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=N11%20oppo%202027%20fiyat",
+        "sellerName": "N11 Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Pazarama",
+        "storeLogo": "/images/stores/pazarama.png",
+        "price": 16862,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Pazarama%20oppo%202027%20fiyat",
+        "sellerName": "Pazarama Resmi Satıcı",
+        "isOfficialSeller": true
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 17819
+      },
+      {
+        "date": "2026-04-01",
+        "price": 17489
+      },
+      {
+        "date": "2026-05-01",
+        "price": 17159
+      },
+      {
+        "date": "2026-06-01",
+        "price": 16829
+      },
+      {
+        "date": "2026-07-01",
+        "price": 16664
+      },
+      {
+        "date": "2026-08-01",
+        "price": 16499
+      }
+    ],
+    "images": [
+      "/images/phones/oppo/oppo-oppo-a5-pro-4g-13738.jpg"
+    ]
   }
 ]
