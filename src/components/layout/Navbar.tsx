@@ -249,7 +249,7 @@ export function Navbar() {
                     onChange={(e) => setQuery(e.target.value)}
                     onFocus={() => setIsFocused(true)}
                     placeholder={isFocused ? '' : 'Model, Marka veya Özellik Ara (ör. iPhone 17, OLED, 144Hz...)'}
-                    className="w-full bg-transparent text-slate-900 dark:text-white text-xs font-bold focus:outline-none placeholder:text-slate-400 dark:placeholder:text-slate-500"
+                    className="w-full bg-transparent text-slate-900 dark:text-white text-[16px] md:text-xs font-bold focus:outline-none placeholder:text-slate-400 dark:placeholder:text-slate-500"
                   />
 
                   {query && (
@@ -371,7 +371,7 @@ export function Navbar() {
                   onChange={(e) => setQuery(e.target.value)}
                   onFocus={() => setIsFocused(true)}
                   placeholder="Model, Marka veya Özellik Ara..."
-                  className="w-full bg-transparent text-slate-900 dark:text-white text-xs sm:text-sm font-bold focus:outline-none placeholder:text-slate-400"
+                  className="w-full bg-transparent text-slate-900 dark:text-white text-[16px] font-bold focus:outline-none placeholder:text-slate-400"
                 />
 
                 {query && (
