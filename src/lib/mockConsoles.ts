@@ -8302,5 +8302,312 @@ export const mockConsoles: Product[] = [
         "price": 29000
       }
     ]
+  },
+  {
+    "id": "sony-playstation-5-pro-2tb-cfi7000",
+    "slug": "sony-playstation-5-pro-2-tb-ssd",
+    "name": "Sony PlayStation 5 Pro (2 TB SSD - PSSR Yapay Zeka Yükseltme)",
+    "brand": "Sony",
+    "category": "consoles",
+    "rating": 4.95,
+    "reviewCount": 4890,
+    "basePrice": 49999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/consoles/960253.jpg",
+    "highlights": [
+      "%67 Daha Güçlü GPU & 2 Kat İleri Düzey Işın İzleme (Ray Tracing)",
+      "PlayStation Spectral Super Resolution (PSSR) AI Görüntü Yükseltme",
+      "Dahili 2 TB Ultra Hızlı NVMe SSD Depolama",
+      "Wi-Fi 7 Desteği & PS5 Pro Enhanced Oyun Modu (4K 60/120 FPS)"
+    ],
+    "tags": [
+      "Sony",
+      "PlayStation 5 Pro",
+      "PS5 Pro",
+      "2TB",
+      "PSSR",
+      "Konsol"
+    ],
+    "specs": {
+      "subCategory": "home_console",
+      "processor": "Özel AMD Zen 2 (8 Çekirdek / 16 İzlek, 3.85 GHz)",
+      "gpu": "AMD RDNA Özel GPU (16.7 TFLOPs FP32 / ~33.5 TFLOPs FP16 AI)",
+      "ram": "16 GB GDDR6 (576 GB/s) + 2 GB DDR5 Sistem RAM",
+      "storage": "2 TB Dahili Özel NVMe SSD",
+      "storageExpandable": true,
+      "maxResolution": "8K 60Hz & 4K 120Hz VRR",
+      "opticalDrive": "Opsiyonel Harici Disk Sürücüsü Takılabilir",
+      "audioTech": "Tempest 3D AudioTech",
+      "connectivity": "Wi-Fi 7 (IEEE 802.11be), Bluetooth 5.1, Gigabit Ethernet, 2x USB-C",
+      "controllerIncluded": "1x DualSense Kablosuz Kontrolcü",
+      "weightKg": 3.1
+    },
+    "storeOffers": [
+      {
+        "storeName": "Amazon TR",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 49999,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Amazon%20TR%20fiyat",
+        "sellerName": "Amazon Türkiye",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 50399,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Hepsiburada%20fiyat",
+        "sellerName": "Hepsiburada Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 50749,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Trendyol%20fiyat",
+        "sellerName": "Trendyol Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 51249,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=MediaMarkt%20fiyat",
+        "sellerName": "MediaMarkt Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 51499,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Vatan%20Bilgisayar%20fiyat",
+        "sellerName": "Vatan Bilgisayar Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 51749,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Teknosa%20fiyat",
+        "sellerName": "Teknosa Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "N11",
+        "storeLogo": "/images/stores/n11.png",
+        "price": 50899,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=N11%20fiyat",
+        "sellerName": "N11 Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Pazarama",
+        "storeLogo": "/images/stores/pazarama.png",
+        "price": 51099,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Pazarama%20fiyat",
+        "sellerName": "Pazarama Resmi Satıcı",
+        "isOfficialSeller": true
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 53999
+      },
+      {
+        "date": "2026-04-01",
+        "price": 52999
+      },
+      {
+        "date": "2026-05-01",
+        "price": 51999
+      },
+      {
+        "date": "2026-06-01",
+        "price": 50999
+      },
+      {
+        "date": "2026-07-01",
+        "price": 50499
+      },
+      {
+        "date": "2026-08-01",
+        "price": 49999
+      }
+    ],
+    "images": [
+      "/images/consoles/960253.jpg"
+    ]
+  },
+  {
+    "id": "asus-rog-ally-x-2024-1tb-24gb",
+    "slug": "asus-rog-ally-x-1-tb-24gb-ram",
+    "name": "ASUS ROG Ally X (2024 - AMD Z1 Extreme, 24GB LPDDR5X, 1TB SSD, 80Wh)",
+    "brand": "Asus",
+    "category": "consoles",
+    "rating": 4.9,
+    "reviewCount": 2650,
+    "basePrice": 38999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/consoles/1024535.jpg",
+    "highlights": [
+      "24 GB Ultra Hızlı LPDDR5X-7500 RAM (Ekran Kartına 8GB+ Ayrılabilir)",
+      "80 Wh 2 Kat Büyütülmüş Batarya Kapasitesi (Uzun Oyun Süreleri)",
+      "1 TB Standart M.2 2280 NVMe PCIe 4.0 SSD Depolama",
+      "7 inç 120Hz FHD FreeSync Premium 500 Nit IPS Dokunmatik Ekran"
+    ],
+    "tags": [
+      "ASUS",
+      "ROG Ally X",
+      "El Konsolu",
+      "AMD Z1 Extreme",
+      "24GB RAM"
+    ],
+    "specs": {
+      "subCategory": "handheld_console",
+      "processor": "AMD Ryzen Z1 Extreme (8 Çekirdek / 16 İzlek, 5.1 GHz Boost)",
+      "gpu": "AMD Radeon 780M (12 RDNA3 CU, 8.6 TFLOPs)",
+      "ram": "24 GB LPDDR5X-7500 MHz Çift Kanal",
+      "storage": "1 TB PCIe 4.0 NVMe M.2 2280 SSD",
+      "storageExpandable": true,
+      "displaySizeInch": 7,
+      "displayResolution": "1920x1080 (FHD 120Hz, FreeSync Premium)",
+      "batteryWh": 80,
+      "connectivity": "Wi-Fi 6E, Bluetooth 5.2, USB4 / Thunderbolt 4 Destekli Type-C",
+      "operatingSystem": "Windows 11 Home & Armoury Crate SE",
+      "weightKg": 0.678
+    },
+    "storeOffers": [
+      {
+        "storeName": "Amazon TR",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 38999,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Amazon%20TR%20fiyat",
+        "sellerName": "Amazon Türkiye",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 39311,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Hepsiburada%20fiyat",
+        "sellerName": "Hepsiburada Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 39584,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Trendyol%20fiyat",
+        "sellerName": "Trendyol Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 39974,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=MediaMarkt%20fiyat",
+        "sellerName": "MediaMarkt Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 40169,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Vatan%20Bilgisayar%20fiyat",
+        "sellerName": "Vatan Bilgisayar Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 40364,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Teknosa%20fiyat",
+        "sellerName": "Teknosa Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "N11",
+        "storeLogo": "/images/stores/n11.png",
+        "price": 39701,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=N11%20fiyat",
+        "sellerName": "N11 Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Pazarama",
+        "storeLogo": "/images/stores/pazarama.png",
+        "price": 39857,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Pazarama%20fiyat",
+        "sellerName": "Pazarama Resmi Satıcı",
+        "isOfficialSeller": true
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 42119
+      },
+      {
+        "date": "2026-04-01",
+        "price": 41339
+      },
+      {
+        "date": "2026-05-01",
+        "price": 40559
+      },
+      {
+        "date": "2026-06-01",
+        "price": 39779
+      },
+      {
+        "date": "2026-07-01",
+        "price": 39389
+      },
+      {
+        "date": "2026-08-01",
+        "price": 38999
+      }
+    ],
+    "images": [
+      "/images/consoles/1024535.jpg"
+    ]
   }
 ];

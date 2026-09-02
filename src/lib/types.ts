@@ -315,6 +315,7 @@ export interface StoreOffer {
   freeShipping?: boolean;
   warrantyType?: string;
   sellerName?: string;
+  isOfficialSeller?: boolean;
   affiliateUrl?: string;
   url?: string;
 }

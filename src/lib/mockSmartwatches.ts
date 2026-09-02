@@ -20310,5 +20310,1313 @@ export const mockSmartwatches: Product[] = [
         "hex": "#94a3b8"
       }
     ]
+  },
+  {
+    "id": "amazfit-t-rex-3-outdoor-gps",
+    "slug": "amazfit-t-rex-3-outdoor-gps",
+    "name": "Amazfit T-Rex 3 (Akıllı Doğa & Taktik GPS Saati)",
+    "brand": "Amazfit",
+    "category": "smartwatches",
+    "rating": 4.8,
+    "reviewCount": 1420,
+    "basePrice": 11499,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/smartwatches/amazfit/amazfit-t-rex-3.jpg",
+    "highlights": [
+      "1.5 inç 2000 Nit AMOLED Ekran (Gorilla Glass Korumalı)",
+      "27 Güne Varan İnanılmaz Batarya Ömrü",
+      "Çift Bant 6 Uydu Konumlandırma & Çevrimdışı Topo Haritalar",
+      "Askeri Standartta (MIL-STD-810H) Dayanıklılık & 10 ATM Su Geçirmezlik"
+    ],
+    "tags": [
+      "Amazfit",
+      "T-Rex 3",
+      "Outdoor",
+      "GPS",
+      "Dayanıklı"
+    ],
+    "specs": {
+      "displaySizeInch": 1.5,
+      "displayType": "AMOLED (2000 nits)",
+      "resolution": "480x480 piksel",
+      "batteryLifeDays": 27,
+      "batteryCapacityMah": 700,
+      "waterResistance": "10 ATM (100 metre) & 45m Serbest Dalış",
+      "hasGps": true,
+      "hasHeartRate": true,
+      "hasSpO2": true,
+      "hasECG": false,
+      "hasNfc": true,
+      "hasMicrophone": true,
+      "hasSpeaker": false,
+      "voiceCalling": false,
+      "hasCellular": false,
+      "casingMaterial": "Paslanmaz Çelik Çerçeve & Polimer Gövde",
+      "caseSizeMm": 48.5,
+      "strapMaterial": "Silikon Outdoor Kordon",
+      "os": "Zepp OS 4 (Yapay Zeka Destekli)",
+      "compatibility": [
+        "Android 7.0+",
+        "iOS 14.0+"
+      ]
+    },
+    "storeOffers": [
+      {
+        "storeName": "Amazon TR",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 11499,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Amazon%20TR%20fiyat",
+        "sellerName": "Amazon Türkiye",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 11591,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Hepsiburada%20fiyat",
+        "sellerName": "Hepsiburada Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 11671,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Trendyol%20fiyat",
+        "sellerName": "Trendyol Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 11786,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=MediaMarkt%20fiyat",
+        "sellerName": "MediaMarkt Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 11844,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Vatan%20Bilgisayar%20fiyat",
+        "sellerName": "Vatan Bilgisayar Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 11901,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Teknosa%20fiyat",
+        "sellerName": "Teknosa Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "N11",
+        "storeLogo": "/images/stores/n11.png",
+        "price": 11706,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=N11%20fiyat",
+        "sellerName": "N11 Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Pazarama",
+        "storeLogo": "/images/stores/pazarama.png",
+        "price": 11752,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Pazarama%20fiyat",
+        "sellerName": "Pazarama Resmi Satıcı",
+        "isOfficialSeller": true
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 12419
+      },
+      {
+        "date": "2026-04-01",
+        "price": 12189
+      },
+      {
+        "date": "2026-05-01",
+        "price": 11959
+      },
+      {
+        "date": "2026-06-01",
+        "price": 11729
+      },
+      {
+        "date": "2026-07-01",
+        "price": 11614
+      },
+      {
+        "date": "2026-08-01",
+        "price": 11499
+      }
+    ],
+    "images": [
+      "/images/smartwatches/amazfit/amazfit-t-rex-3.jpg"
+    ]
+  },
+  {
+    "id": "amazfit-balance-midnight-smartwatch",
+    "slug": "amazfit-balance-midnight-smartwatch",
+    "name": "Amazfit Balance (1.5 inç AMOLED - Vücut Kompozisyonu Analizi)",
+    "brand": "Amazfit",
+    "category": "smartwatches",
+    "rating": 4.8,
+    "reviewCount": 980,
+    "basePrice": 8999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/smartwatches/amazfit/amazfit-balance.jpg",
+    "highlights": [
+      "Biyoelektrik Empedans Sensörüyle Vücut Yağ & Kas Analizi",
+      "1.5 inç HD AMOLED Ekran (1500 nits)",
+      "14 Güne Varan Tipik Pil Ömrü",
+      "Bluetooth Telefon Görüşmesi & Zepp Pay Temassız Ödeme"
+    ],
+    "tags": [
+      "Amazfit",
+      "Balance",
+      "Vücut Analizi",
+      "AMOLED"
+    ],
+    "specs": {
+      "displaySizeInch": 1.5,
+      "displayType": "HD AMOLED",
+      "resolution": "480x480 piksel",
+      "batteryLifeDays": 14,
+      "batteryCapacityMah": 475,
+      "waterResistance": "5 ATM (50 metre)",
+      "hasGps": true,
+      "hasHeartRate": true,
+      "hasSpO2": true,
+      "hasECG": false,
+      "hasNfc": true,
+      "hasMicrophone": true,
+      "hasSpeaker": true,
+      "voiceCalling": true,
+      "hasCellular": false,
+      "casingMaterial": "Alüminyum Alaşım Kasa",
+      "caseSizeMm": 46,
+      "strapMaterial": "Naylon / Sıvı Silikon Kordon",
+      "os": "Zepp OS 3.5",
+      "compatibility": [
+        "Android 7.0+",
+        "iOS 14.0+"
+      ]
+    },
+    "storeOffers": [
+      {
+        "storeName": "Amazon TR",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 8999,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Amazon%20TR%20fiyat",
+        "sellerName": "Amazon Türkiye",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 9071,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Hepsiburada%20fiyat",
+        "sellerName": "Hepsiburada Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 9134,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Trendyol%20fiyat",
+        "sellerName": "Trendyol Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 9224,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=MediaMarkt%20fiyat",
+        "sellerName": "MediaMarkt Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 9269,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Vatan%20Bilgisayar%20fiyat",
+        "sellerName": "Vatan Bilgisayar Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 9314,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Teknosa%20fiyat",
+        "sellerName": "Teknosa Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "N11",
+        "storeLogo": "/images/stores/n11.png",
+        "price": 9161,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=N11%20fiyat",
+        "sellerName": "N11 Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Pazarama",
+        "storeLogo": "/images/stores/pazarama.png",
+        "price": 9197,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Pazarama%20fiyat",
+        "sellerName": "Pazarama Resmi Satıcı",
+        "isOfficialSeller": true
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 9719
+      },
+      {
+        "date": "2026-04-01",
+        "price": 9539
+      },
+      {
+        "date": "2026-05-01",
+        "price": 9359
+      },
+      {
+        "date": "2026-06-01",
+        "price": 9179
+      },
+      {
+        "date": "2026-07-01",
+        "price": 9089
+      },
+      {
+        "date": "2026-08-01",
+        "price": 8999
+      }
+    ],
+    "images": [
+      "/images/smartwatches/amazfit/amazfit-balance.jpg"
+    ]
+  },
+  {
+    "id": "amazfit-cheetah-pro-running-gps",
+    "slug": "amazfit-cheetah-pro-running-gps",
+    "name": "Amazfit Cheetah Pro (Profesyonel Koşu & Maraton GPS Saati)",
+    "brand": "Amazfit",
+    "category": "smartwatches",
+    "rating": 4.8,
+    "reviewCount": 760,
+    "basePrice": 10499,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/smartwatches/amazfit/amazfit-cheetah-pro.jpg",
+    "highlights": [
+      "MaxTrack Çift Bant Dairesel Kutuplu GPS Anteni",
+      "1.45 inç HD AMOLED Ekran (1000 nits, Titanyum Çerçeve)",
+      "Zepp Coach Yapay Zeka Destekli Kişiselleştirilmiş Koşu Planları",
+      "Çevrimdışı Renkli Harita Navigasyonu"
+    ],
+    "tags": [
+      "Amazfit",
+      "Cheetah Pro",
+      "Koşu",
+      "Maraton",
+      "GPS"
+    ],
+    "specs": {
+      "displaySizeInch": 1.45,
+      "displayType": "HD AMOLED",
+      "resolution": "480x480 piksel",
+      "batteryLifeDays": 14,
+      "batteryCapacityMah": 440,
+      "waterResistance": "5 ATM (50 metre)",
+      "hasGps": true,
+      "hasHeartRate": true,
+      "hasSpO2": true,
+      "hasECG": false,
+      "hasNfc": true,
+      "hasMicrophone": true,
+      "hasSpeaker": true,
+      "voiceCalling": true,
+      "hasCellular": false,
+      "casingMaterial": "Titanyum Alaşım Çerçeve & Elyaf Takviyeli Polimer",
+      "caseSizeMm": 47,
+      "strapMaterial": "Hafif Naylon Koşu Kordonu",
+      "os": "Zepp OS 2.0",
+      "compatibility": [
+        "Android 7.0+",
+        "iOS 12.0+"
+      ]
+    },
+    "storeOffers": [
+      {
+        "storeName": "Amazon TR",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 10499,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Amazon%20TR%20fiyat",
+        "sellerName": "Amazon Türkiye",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 10583,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Hepsiburada%20fiyat",
+        "sellerName": "Hepsiburada Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 10656,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Trendyol%20fiyat",
+        "sellerName": "Trendyol Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 10761,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=MediaMarkt%20fiyat",
+        "sellerName": "MediaMarkt Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 10814,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Vatan%20Bilgisayar%20fiyat",
+        "sellerName": "Vatan Bilgisayar Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 10866,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Teknosa%20fiyat",
+        "sellerName": "Teknosa Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "N11",
+        "storeLogo": "/images/stores/n11.png",
+        "price": 10688,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=N11%20fiyat",
+        "sellerName": "N11 Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Pazarama",
+        "storeLogo": "/images/stores/pazarama.png",
+        "price": 10730,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Pazarama%20fiyat",
+        "sellerName": "Pazarama Resmi Satıcı",
+        "isOfficialSeller": true
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 11339
+      },
+      {
+        "date": "2026-04-01",
+        "price": 11129
+      },
+      {
+        "date": "2026-05-01",
+        "price": 10919
+      },
+      {
+        "date": "2026-06-01",
+        "price": 10709
+      },
+      {
+        "date": "2026-07-01",
+        "price": 10604
+      },
+      {
+        "date": "2026-08-01",
+        "price": 10499
+      }
+    ],
+    "images": [
+      "/images/smartwatches/amazfit/amazfit-cheetah-pro.jpg"
+    ]
+  },
+  {
+    "id": "huawei-watch-gt-5-pro-46mm-black",
+    "slug": "huawei-watch-gt-5-pro-46mm-black",
+    "name": "Huawei Watch GT 5 Pro (46mm Titanyum Kasa - Siyah Floroelastomer)",
+    "brand": "Huawei",
+    "category": "smartwatches",
+    "rating": 4.9,
+    "reviewCount": 3120,
+    "basePrice": 13999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/smartwatches/huawei/huawei-huawei-watch-gt-5-pro-13349.jpg",
+    "highlights": [
+      "Havacılık Sınıfı TC4 Titanyum Alaşım Kasa & Safir Cam Ekran",
+      "HUAWEI TruSense Çok Kanallı Sağlık & EKG / Nabız Analizi",
+      "14 Güne Varan Şarj Ömrü",
+      "40 Metreye Kadar Serbest Dalış & Küresel Golf Sahaları Haritası"
+    ],
+    "tags": [
+      "Huawei",
+      "Watch GT 5 Pro",
+      "Titanyum",
+      "Safir",
+      "EKG"
+    ],
+    "specs": {
+      "displaySizeInch": 1.43,
+      "displayType": "AMOLED Dokunmatik Ekran",
+      "resolution": "466x466 piksel",
+      "batteryLifeDays": 14,
+      "batteryCapacityMah": 524,
+      "waterResistance": "IP69K & 5 ATM (50m) & 40m Serbest Dalış",
+      "hasGps": true,
+      "hasHeartRate": true,
+      "hasSpO2": true,
+      "hasECG": true,
+      "hasNfc": true,
+      "hasMicrophone": true,
+      "hasSpeaker": true,
+      "voiceCalling": true,
+      "hasCellular": false,
+      "casingMaterial": "Havacılık Sınıfı Titanyum Alaşım",
+      "caseSizeMm": 46,
+      "strapMaterial": "Siyah Floroelastomer Kordon",
+      "os": "HarmonyOS",
+      "compatibility": [
+        "Android 8.0+",
+        "iOS 13.0+"
+      ]
+    },
+    "storeOffers": [
+      {
+        "storeName": "Amazon TR",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 13999,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Amazon%20TR%20fiyat",
+        "sellerName": "Amazon Türkiye",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 14111,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Hepsiburada%20fiyat",
+        "sellerName": "Hepsiburada Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 14209,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Trendyol%20fiyat",
+        "sellerName": "Trendyol Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 14349,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=MediaMarkt%20fiyat",
+        "sellerName": "MediaMarkt Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 14419,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Vatan%20Bilgisayar%20fiyat",
+        "sellerName": "Vatan Bilgisayar Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 14489,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Teknosa%20fiyat",
+        "sellerName": "Teknosa Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "N11",
+        "storeLogo": "/images/stores/n11.png",
+        "price": 14251,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=N11%20fiyat",
+        "sellerName": "N11 Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Pazarama",
+        "storeLogo": "/images/stores/pazarama.png",
+        "price": 14307,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Pazarama%20fiyat",
+        "sellerName": "Pazarama Resmi Satıcı",
+        "isOfficialSeller": true
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 15119
+      },
+      {
+        "date": "2026-04-01",
+        "price": 14839
+      },
+      {
+        "date": "2026-05-01",
+        "price": 14559
+      },
+      {
+        "date": "2026-06-01",
+        "price": 14279
+      },
+      {
+        "date": "2026-07-01",
+        "price": 14139
+      },
+      {
+        "date": "2026-08-01",
+        "price": 13999
+      }
+    ],
+    "images": [
+      "/images/smartwatches/huawei/huawei-huawei-watch-gt-5-pro-13349.jpg"
+    ]
+  },
+  {
+    "id": "huawei-watch-gt-5-46mm-blue",
+    "slug": "huawei-watch-gt-5-46mm-blue",
+    "name": "Huawei Watch GT 5 (46mm Paslanmaz Çelik - Mavi Dokuma Kordon)",
+    "brand": "Huawei",
+    "category": "smartwatches",
+    "rating": 4.8,
+    "reviewCount": 2240,
+    "basePrice": 9499,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/smartwatches/huawei/huawei-huawei-watch-gt-5-13350.jpg",
+    "highlights": [
+      "Geometrik Kesimli Paslanmaz Çelik Gövde & Ultra İnce Çerçeve",
+      "HUAWEI TruSense Gelişmiş Nabız, SpO2 & Uyku Takip Sistemi",
+      "14 Güne Varan Uzun Batarya Ömrü",
+      "Gelişmiş Rota Çizimi & Bluetooth Telefon Görüşmesi"
+    ],
+    "tags": [
+      "Huawei",
+      "Watch GT 5",
+      "Paslanmaz Çelik",
+      "TruSense"
+    ],
+    "specs": {
+      "displaySizeInch": 1.43,
+      "displayType": "AMOLED Ekran",
+      "resolution": "466x466 piksel",
+      "batteryLifeDays": 14,
+      "batteryCapacityMah": 524,
+      "waterResistance": "5 ATM (50 metre) & IP69K",
+      "hasGps": true,
+      "hasHeartRate": true,
+      "hasSpO2": true,
+      "hasECG": false,
+      "hasNfc": true,
+      "hasMicrophone": true,
+      "hasSpeaker": true,
+      "voiceCalling": true,
+      "hasCellular": false,
+      "casingMaterial": "Paslanmaz Çelik Kasa",
+      "caseSizeMm": 46,
+      "strapMaterial": "Mavi Kompozit Dokuma Kordon",
+      "os": "HarmonyOS",
+      "compatibility": [
+        "Android 8.0+",
+        "iOS 13.0+"
+      ]
+    },
+    "storeOffers": [
+      {
+        "storeName": "Amazon TR",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 9499,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Amazon%20TR%20fiyat",
+        "sellerName": "Amazon Türkiye",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 9575,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Hepsiburada%20fiyat",
+        "sellerName": "Hepsiburada Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 9641,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Trendyol%20fiyat",
+        "sellerName": "Trendyol Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 9736,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=MediaMarkt%20fiyat",
+        "sellerName": "MediaMarkt Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 9784,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Vatan%20Bilgisayar%20fiyat",
+        "sellerName": "Vatan Bilgisayar Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 9831,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Teknosa%20fiyat",
+        "sellerName": "Teknosa Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "N11",
+        "storeLogo": "/images/stores/n11.png",
+        "price": 9670,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=N11%20fiyat",
+        "sellerName": "N11 Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Pazarama",
+        "storeLogo": "/images/stores/pazarama.png",
+        "price": 9708,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Pazarama%20fiyat",
+        "sellerName": "Pazarama Resmi Satıcı",
+        "isOfficialSeller": true
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 10259
+      },
+      {
+        "date": "2026-04-01",
+        "price": 10069
+      },
+      {
+        "date": "2026-05-01",
+        "price": 9879
+      },
+      {
+        "date": "2026-06-01",
+        "price": 9689
+      },
+      {
+        "date": "2026-07-01",
+        "price": 9594
+      },
+      {
+        "date": "2026-08-01",
+        "price": 9499
+      }
+    ],
+    "images": [
+      "/images/smartwatches/huawei/huawei-huawei-watch-gt-5-13350.jpg"
+    ]
+  },
+  {
+    "id": "garmin-forerunner-965-titanium",
+    "slug": "garmin-forerunner-965-titanium",
+    "name": "Garmin Forerunner 965 (1.4 inç AMOLED - Titanyum Çerçeve)",
+    "brand": "Garmin",
+    "category": "smartwatches",
+    "rating": 4.9,
+    "reviewCount": 1450,
+    "basePrice": 32999,
+    "currency": "TL",
+    "releaseYear": 2023,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/smartwatches/garmin/garmin-forerunner-965.jpg",
+    "highlights": [
+      "1.4 inç Parlak AMOLED Dokunmatik Ekran & Titanyum Çerçeve",
+      "23 Güne Varan Akıllı Saat Modunda Pil Ömrü",
+      "Dahili Tam Renkli Topo Haritalar & Gelişmiş Antrenman Metrikleri",
+      "Multi-Band GNSS (SatIQ Teknolojili Keskin Konumlandırma)"
+    ],
+    "tags": [
+      "Garmin",
+      "Forerunner 965",
+      "Triatlon",
+      "Koşu",
+      "AMOLED"
+    ],
+    "specs": {
+      "displaySizeInch": 1.4,
+      "displayType": "AMOLED",
+      "resolution": "454x454 piksel",
+      "batteryLifeDays": 23,
+      "batteryCapacityMah": 420,
+      "waterResistance": "5 ATM (50 metre)",
+      "hasGps": true,
+      "hasHeartRate": true,
+      "hasSpO2": true,
+      "hasECG": false,
+      "hasNfc": true,
+      "hasMicrophone": false,
+      "hasSpeaker": false,
+      "voiceCalling": false,
+      "hasCellular": false,
+      "casingMaterial": "Titanyum Çerçeve & Elyaf Takviyeli Polimer",
+      "caseSizeMm": 47,
+      "strapMaterial": "Silikon Spor Kordon",
+      "os": "Garmin OS",
+      "compatibility": [
+        "Android",
+        "iOS"
+      ]
+    },
+    "storeOffers": [
+      {
+        "storeName": "Amazon TR",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 32999,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Amazon%20TR%20fiyat",
+        "sellerName": "Amazon Türkiye",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 33263,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Hepsiburada%20fiyat",
+        "sellerName": "Hepsiburada Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 33494,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Trendyol%20fiyat",
+        "sellerName": "Trendyol Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 33824,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=MediaMarkt%20fiyat",
+        "sellerName": "MediaMarkt Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 33989,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Vatan%20Bilgisayar%20fiyat",
+        "sellerName": "Vatan Bilgisayar Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 34154,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Teknosa%20fiyat",
+        "sellerName": "Teknosa Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "N11",
+        "storeLogo": "/images/stores/n11.png",
+        "price": 33593,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=N11%20fiyat",
+        "sellerName": "N11 Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Pazarama",
+        "storeLogo": "/images/stores/pazarama.png",
+        "price": 33725,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Pazarama%20fiyat",
+        "sellerName": "Pazarama Resmi Satıcı",
+        "isOfficialSeller": true
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 35639
+      },
+      {
+        "date": "2026-04-01",
+        "price": 34979
+      },
+      {
+        "date": "2026-05-01",
+        "price": 34319
+      },
+      {
+        "date": "2026-06-01",
+        "price": 33659
+      },
+      {
+        "date": "2026-07-01",
+        "price": 33329
+      },
+      {
+        "date": "2026-08-01",
+        "price": 32999
+      }
+    ],
+    "images": [
+      "/images/smartwatches/garmin/garmin-forerunner-965.jpg"
+    ]
+  },
+  {
+    "id": "xiaomi-watch-s3-black",
+    "slug": "xiaomi-watch-s3-black",
+    "name": "Xiaomi Watch S3 (Değiştirilebilir Çerçeve - HyperOS)",
+    "brand": "Xiaomi",
+    "category": "smartwatches",
+    "rating": 4.7,
+    "reviewCount": 1840,
+    "basePrice": 5499,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/smartwatches/xiaomi/xiaomi-watch-s3-12834.jpg",
+    "highlights": [
+      "Yenilikçi Çıkarılıp Değiştirilebilir Mekanik Saat Çerçevesi Tasarımı",
+      "1.43 inç 60Hz AMOLED Ekran (600 nits)",
+      "15 Güne Varan Uzun Batarya Ömrü & Hızlı Şarj",
+      "Bluetooth Telefon Görüşmesi & Çift Frekanslı L1+L5 GPS"
+    ],
+    "tags": [
+      "Xiaomi",
+      "Watch S3",
+      "HyperOS",
+      "Değiştirilebilir Çerçeve"
+    ],
+    "specs": {
+      "displaySizeInch": 1.43,
+      "displayType": "AMOLED (60Hz)",
+      "resolution": "466x466 piksel",
+      "batteryLifeDays": 15,
+      "batteryCapacityMah": 486,
+      "waterResistance": "5 ATM (50 metre)",
+      "hasGps": true,
+      "hasHeartRate": true,
+      "hasSpO2": true,
+      "hasECG": false,
+      "hasNfc": true,
+      "hasMicrophone": true,
+      "hasSpeaker": true,
+      "voiceCalling": true,
+      "hasCellular": false,
+      "casingMaterial": "Alüminyum Alaşım Kasa & Paslanmaz Çelik Çerçeve",
+      "caseSizeMm": 47,
+      "strapMaterial": "Floro Kauçuk Kordon",
+      "os": "Xiaomi HyperOS",
+      "compatibility": [
+        "Android 8.0+",
+        "iOS 12.0+"
+      ]
+    },
+    "storeOffers": [
+      {
+        "storeName": "Amazon TR",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 5499,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Amazon%20TR%20fiyat",
+        "sellerName": "Amazon Türkiye",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 5543,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Hepsiburada%20fiyat",
+        "sellerName": "Hepsiburada Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 5581,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Trendyol%20fiyat",
+        "sellerName": "Trendyol Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 5636,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=MediaMarkt%20fiyat",
+        "sellerName": "MediaMarkt Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 5664,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Vatan%20Bilgisayar%20fiyat",
+        "sellerName": "Vatan Bilgisayar Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 5691,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Teknosa%20fiyat",
+        "sellerName": "Teknosa Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "N11",
+        "storeLogo": "/images/stores/n11.png",
+        "price": 5598,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=N11%20fiyat",
+        "sellerName": "N11 Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Pazarama",
+        "storeLogo": "/images/stores/pazarama.png",
+        "price": 5620,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Pazarama%20fiyat",
+        "sellerName": "Pazarama Resmi Satıcı",
+        "isOfficialSeller": true
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 5939
+      },
+      {
+        "date": "2026-04-01",
+        "price": 5829
+      },
+      {
+        "date": "2026-05-01",
+        "price": 5719
+      },
+      {
+        "date": "2026-06-01",
+        "price": 5609
+      },
+      {
+        "date": "2026-07-01",
+        "price": 5554
+      },
+      {
+        "date": "2026-08-01",
+        "price": 5499
+      }
+    ],
+    "images": [
+      "/images/smartwatches/xiaomi/xiaomi-watch-s3-12834.jpg"
+    ]
+  },
+  {
+    "id": "xiaomi-redmi-watch-4-silver",
+    "slug": "xiaomi-redmi-watch-4-silver",
+    "name": "Xiaomi Redmi Watch 4 (1.97 inç LTPS AMOLED - Alüminyum Kasa)",
+    "brand": "Xiaomi",
+    "category": "smartwatches",
+    "rating": 4.7,
+    "reviewCount": 2650,
+    "basePrice": 3499,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/smartwatches/xiaomi/xiaomi-redmi-watch-4-12711.jpg",
+    "highlights": [
+      "Geniş 1.97 inç 60Hz LTPS AMOLED Ekran (600 nits)",
+      "Dayanıklı Alüminyum Alaşım Kasa & Paslanmaz Çelik Dönen Taç",
+      "20 Güne Varan Uzun Batarya Kullanım Süresi",
+      "Bluetooth Sesli Arama Desteği & 5 ATM Suya Dayanıklılık"
+    ],
+    "tags": [
+      "Xiaomi",
+      "Redmi Watch 4",
+      "AMOLED",
+      "Alüminyum"
+    ],
+    "specs": {
+      "displaySizeInch": 1.97,
+      "displayType": "LTPS AMOLED (60Hz)",
+      "resolution": "390x450 piksel",
+      "batteryLifeDays": 20,
+      "batteryCapacityMah": 470,
+      "waterResistance": "5 ATM (50 metre)",
+      "hasGps": true,
+      "hasHeartRate": true,
+      "hasSpO2": true,
+      "hasECG": false,
+      "hasNfc": false,
+      "hasMicrophone": true,
+      "hasSpeaker": true,
+      "voiceCalling": true,
+      "hasCellular": false,
+      "casingMaterial": "Alüminyum Alaşım Çerçeve",
+      "caseSizeMm": 47.5,
+      "strapMaterial": "TPU Kordon",
+      "os": "Xiaomi HyperOS",
+      "compatibility": [
+        "Android 8.0+",
+        "iOS 12.0+"
+      ]
+    },
+    "storeOffers": [
+      {
+        "storeName": "Amazon TR",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 3499,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Amazon%20TR%20fiyat",
+        "sellerName": "Amazon Türkiye",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 3527,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Hepsiburada%20fiyat",
+        "sellerName": "Hepsiburada Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 3551,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Trendyol%20fiyat",
+        "sellerName": "Trendyol Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 3586,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=MediaMarkt%20fiyat",
+        "sellerName": "MediaMarkt Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 3604,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Vatan%20Bilgisayar%20fiyat",
+        "sellerName": "Vatan Bilgisayar Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 3621,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Teknosa%20fiyat",
+        "sellerName": "Teknosa Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "N11",
+        "storeLogo": "/images/stores/n11.png",
+        "price": 3562,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=N11%20fiyat",
+        "sellerName": "N11 Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Pazarama",
+        "storeLogo": "/images/stores/pazarama.png",
+        "price": 3576,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Pazarama%20fiyat",
+        "sellerName": "Pazarama Resmi Satıcı",
+        "isOfficialSeller": true
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 3779
+      },
+      {
+        "date": "2026-04-01",
+        "price": 3709
+      },
+      {
+        "date": "2026-05-01",
+        "price": 3639
+      },
+      {
+        "date": "2026-06-01",
+        "price": 3569
+      },
+      {
+        "date": "2026-07-01",
+        "price": 3534
+      },
+      {
+        "date": "2026-08-01",
+        "price": 3499
+      }
+    ],
+    "images": [
+      "/images/smartwatches/xiaomi/xiaomi-redmi-watch-4-12711.jpg"
+    ]
   }
 ];

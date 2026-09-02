@@ -75930,5 +75930,165 @@ export const mockMonitors: Product[] = [
         "price": 11500
       }
     ]
+  },
+  {
+    "id": "aoc-agon-pro-ag276qzd-oled-240hz",
+    "slug": "aoc-agon-pro-ag276qzd-27-qhd-oled-240hz",
+    "name": "AOC AGON PRO AG276QZD 27\" 240Hz 0.03ms QHD OLED Oyuncu Monitörü",
+    "brand": "AOC",
+    "category": "monitors",
+    "rating": 4.9,
+    "reviewCount": 980,
+    "basePrice": 32999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/products/monitors/icecat-aoc-25g4kur.jpg",
+    "highlights": [
+      "27 inç QHD (2560x1440) Sonsuz Kontrastlı OLED Panel",
+      "240Hz Ekran Yenileme Hızı & 0.03ms (GtG) Tepki Süresi",
+      "G-Sync Uyumlu & HDR10 Destekli Renk Doğruluğu",
+      "Light FX RGB Arka Aydınlatma & Ergonomik Ayarlanabilir Ayak"
+    ],
+    "tags": [
+      "AOC",
+      "AGON PRO",
+      "OLED",
+      "240Hz",
+      "0.03ms",
+      "QHD"
+    ],
+    "specs": {
+      "screenSizeInch": 27,
+      "resolution": "2560x1440 (2K QHD)",
+      "panelType": "OLED",
+      "refreshRateHz": 240,
+      "responseTimeMs": 0.03,
+      "hdr": "HDR10",
+      "curved": false,
+      "gSync": true,
+      "freeSync": true,
+      "brightnessNits": 1000,
+      "ports": [
+        "2x HDMI 2.0",
+        "2x DisplayPort 1.4",
+        "2x USB 3.2 Gen 1"
+      ],
+      "speakers": true,
+      "hasPivot": true,
+      "vesaMount": true
+    },
+    "storeOffers": [
+      {
+        "storeName": "Amazon TR",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 32999,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Amazon%20TR%20fiyat",
+        "sellerName": "Amazon Türkiye",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 33263,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Hepsiburada%20fiyat",
+        "sellerName": "Hepsiburada Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 33494,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Trendyol%20fiyat",
+        "sellerName": "Trendyol Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 33824,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=MediaMarkt%20fiyat",
+        "sellerName": "MediaMarkt Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 33989,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Vatan%20Bilgisayar%20fiyat",
+        "sellerName": "Vatan Bilgisayar Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 34154,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Teknosa%20fiyat",
+        "sellerName": "Teknosa Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "N11",
+        "storeLogo": "/images/stores/n11.png",
+        "price": 33593,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=N11%20fiyat",
+        "sellerName": "N11 Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Pazarama",
+        "storeLogo": "/images/stores/pazarama.png",
+        "price": 33725,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Pazarama%20fiyat",
+        "sellerName": "Pazarama Resmi Satıcı",
+        "isOfficialSeller": true
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 35639
+      },
+      {
+        "date": "2026-04-01",
+        "price": 34979
+      },
+      {
+        "date": "2026-05-01",
+        "price": 34319
+      },
+      {
+        "date": "2026-06-01",
+        "price": 33659
+      },
+      {
+        "date": "2026-07-01",
+        "price": 33329
+      },
+      {
+        "date": "2026-08-01",
+        "price": 32999
+      }
+    ],
+    "images": [
+      "/images/products/monitors/icecat-aoc-25g4kur.jpg"
+    ]
   }
 ];

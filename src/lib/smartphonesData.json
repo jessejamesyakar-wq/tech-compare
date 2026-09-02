@@ -104819,5 +104819,1418 @@
         "price": 5470
       }
     ]
+  },
+  {
+    "id": "xiaomi-14-ultra-512gb-icecat",
+    "slug": "xiaomi-14-ultra-512-gb",
+    "name": "Xiaomi 14 Ultra (512 GB)",
+    "brand": "Xiaomi",
+    "category": "smartphones",
+    "image": "/images/phones/xiaomi/xiaomi-14-ultra.jpg",
+    "rating": 4.9,
+    "epeyScore": 92,
+    "reviewCount": 3240,
+    "basePrice": 69999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "Leica Dörtlü 50 MP Kamera Sistemi (1 inç Sony LYT-900 Ana Sensör)",
+      "6.73 inç LTPO AMOLED WQHD+ (120Hz, 3000 nits)",
+      "Snapdragon 8 Gen 3 (4nm) Yonga Seti",
+      "5000 mAh Batarya & 90W Kablolu / 80W Kablosuz HyperCharge"
+    ],
+    "pros": [
+      "1 inç Leica profesyonel kamera seti",
+      "Ultra parlak WQHD+ ekran",
+      "80W hızlı kablosuz şarj"
+    ],
+    "cons": [
+      "Büyük ve ağır kamera modülü"
+    ],
+    "specs": {
+      "screenSize": 6.73,
+      "screenResolution": "1440x3200 (WQHD+)",
+      "displayType": "LTPO AMOLED (120Hz)",
+      "chipset": "Qualcomm Snapdragon 8 Gen 3",
+      "cpuCores": 8,
+      "ram": 16,
+      "storage": 512,
+      "batteryCapacity": 5000,
+      "chargingSpeed": 90,
+      "mainCamera": "50 MP (Sony LYT-900 1-inç OIS)",
+      "frontCamera": "32 MP",
+      "operatingSystem": "Android 14 (Xiaomi HyperOS)",
+      "has5G": true,
+      "waterResistance": "IP68"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Amazon TR",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 69999,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Amazon%20TR%20fiyat",
+        "sellerName": "Amazon Türkiye",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 70559,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Hepsiburada%20fiyat",
+        "sellerName": "Hepsiburada Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 71049,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Trendyol%20fiyat",
+        "sellerName": "Trendyol Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 71749,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=MediaMarkt%20fiyat",
+        "sellerName": "MediaMarkt Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 72099,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Vatan%20Bilgisayar%20fiyat",
+        "sellerName": "Vatan Bilgisayar Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 72449,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Teknosa%20fiyat",
+        "sellerName": "Teknosa Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "N11",
+        "storeLogo": "/images/stores/n11.png",
+        "price": 71259,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=N11%20fiyat",
+        "sellerName": "N11 Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Pazarama",
+        "storeLogo": "/images/stores/pazarama.png",
+        "price": 71539,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Pazarama%20fiyat",
+        "sellerName": "Pazarama Resmi Satıcı",
+        "isOfficialSeller": true
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 75599
+      },
+      {
+        "date": "2026-04-01",
+        "price": 74199
+      },
+      {
+        "date": "2026-05-01",
+        "price": 72799
+      },
+      {
+        "date": "2026-06-01",
+        "price": 71399
+      },
+      {
+        "date": "2026-07-01",
+        "price": 70699
+      },
+      {
+        "date": "2026-08-01",
+        "price": 69999
+      }
+    ],
+    "images": [
+      "/images/phones/xiaomi/xiaomi-14-ultra.jpg"
+    ]
+  },
+  {
+    "id": "xiaomi-14t-pro-512gb-icecat",
+    "slug": "xiaomi-14t-pro-512-gb",
+    "name": "Xiaomi 14T Pro (512 GB)",
+    "brand": "Xiaomi",
+    "category": "smartphones",
+    "image": "/images/phones/xiaomi/xiaomi-14t-pro.jpg",
+    "rating": 4.8,
+    "epeyScore": 88,
+    "reviewCount": 2180,
+    "basePrice": 42999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "MediaTek Dimensity 9300+ (4nm) Amiral Gemisi İşlemci",
+      "6.67 inç 144Hz Kristal Netliğinde AMOLED Ekran (4000 nits)",
+      "Leica Vario-Summilux 50 MP Üçlü Kamera",
+      "5000 mAh & 120W HyperCharge (19 dakikada tam dolum)"
+    ],
+    "pros": [
+      "144Hz ultra akıcı ekran",
+      "120W HyperCharge",
+      "Leica renk kalibrasyonu"
+    ],
+    "cons": [
+      "Kablosuz şarj hızı 50W ile sınırlı"
+    ],
+    "specs": {
+      "screenSize": 6.67,
+      "screenResolution": "1220x2712 (1.5K)",
+      "displayType": "AMOLED (144Hz)",
+      "chipset": "MediaTek Dimensity 9300+",
+      "cpuCores": 8,
+      "ram": 12,
+      "storage": 512,
+      "batteryCapacity": 5000,
+      "chargingSpeed": 120,
+      "mainCamera": "50 MP (Light Fusion 900 OIS)",
+      "frontCamera": "32 MP",
+      "operatingSystem": "Android 14 (HyperOS)",
+      "has5G": true,
+      "waterResistance": "IP68"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Amazon TR",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 42999,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Amazon%20TR%20fiyat",
+        "sellerName": "Amazon Türkiye",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 43343,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Hepsiburada%20fiyat",
+        "sellerName": "Hepsiburada Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 43644,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Trendyol%20fiyat",
+        "sellerName": "Trendyol Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 44074,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=MediaMarkt%20fiyat",
+        "sellerName": "MediaMarkt Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 44289,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Vatan%20Bilgisayar%20fiyat",
+        "sellerName": "Vatan Bilgisayar Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 44504,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Teknosa%20fiyat",
+        "sellerName": "Teknosa Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "N11",
+        "storeLogo": "/images/stores/n11.png",
+        "price": 43773,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=N11%20fiyat",
+        "sellerName": "N11 Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Pazarama",
+        "storeLogo": "/images/stores/pazarama.png",
+        "price": 43945,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Pazarama%20fiyat",
+        "sellerName": "Pazarama Resmi Satıcı",
+        "isOfficialSeller": true
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 46439
+      },
+      {
+        "date": "2026-04-01",
+        "price": 45579
+      },
+      {
+        "date": "2026-05-01",
+        "price": 44719
+      },
+      {
+        "date": "2026-06-01",
+        "price": 43859
+      },
+      {
+        "date": "2026-07-01",
+        "price": 43429
+      },
+      {
+        "date": "2026-08-01",
+        "price": 42999
+      }
+    ],
+    "images": [
+      "/images/phones/xiaomi/xiaomi-14t-pro.jpg"
+    ]
+  },
+  {
+    "id": "oneplus-12-512gb-icecat",
+    "slug": "oneplus-12-512-gb",
+    "name": "OnePlus 12 (512 GB)",
+    "brand": "OnePlus",
+    "category": "smartphones",
+    "image": "/images/phones/oneplus/oneplus-12.jpg",
+    "rating": 4.9,
+    "epeyScore": 93,
+    "reviewCount": 3670,
+    "basePrice": 53999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "4. Nesil Hasselblad Kamera Sistemi & Sony LYT-808 Sensör",
+      "6.82 inç 2K ProXDR LTPO AMOLED (120Hz, 4500 nits tepe parlaklık)",
+      "Qualcomm Snapdragon 8 Gen 3 & 16 GB LPDDR5X RAM",
+      "5400 mAh Dev Batarya & 100W SuperVOOC / 50W AirVOOC"
+    ],
+    "pros": [
+      "4500 nit rekor ekran parlaklığı",
+      "Hasselblad doğal renk kalibrasyonu",
+      "5400 mAh uzun pil ömrü"
+    ],
+    "cons": [
+      "Gövde ağırlığı 220g"
+    ],
+    "specs": {
+      "screenSize": 6.82,
+      "screenResolution": "1440x3168 (2K QHD+)",
+      "displayType": "LTPO4 AMOLED (120Hz)",
+      "chipset": "Qualcomm Snapdragon 8 Gen 3",
+      "cpuCores": 8,
+      "ram": 16,
+      "storage": 512,
+      "batteryCapacity": 5400,
+      "chargingSpeed": 100,
+      "mainCamera": "50 MP (LYT-808 OIS) + 64 MP Periskop Telefoto (3x)",
+      "frontCamera": "32 MP",
+      "operatingSystem": "OxygenOS 14 (Android 14)",
+      "has5G": true,
+      "waterResistance": "IP65"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Amazon TR",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 53999,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Amazon%20TR%20fiyat",
+        "sellerName": "Amazon Türkiye",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 54431,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Hepsiburada%20fiyat",
+        "sellerName": "Hepsiburada Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 54809,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Trendyol%20fiyat",
+        "sellerName": "Trendyol Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 55349,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=MediaMarkt%20fiyat",
+        "sellerName": "MediaMarkt Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 55619,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Vatan%20Bilgisayar%20fiyat",
+        "sellerName": "Vatan Bilgisayar Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 55889,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Teknosa%20fiyat",
+        "sellerName": "Teknosa Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "N11",
+        "storeLogo": "/images/stores/n11.png",
+        "price": 54971,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=N11%20fiyat",
+        "sellerName": "N11 Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Pazarama",
+        "storeLogo": "/images/stores/pazarama.png",
+        "price": 55187,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Pazarama%20fiyat",
+        "sellerName": "Pazarama Resmi Satıcı",
+        "isOfficialSeller": true
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 58319
+      },
+      {
+        "date": "2026-04-01",
+        "price": 57239
+      },
+      {
+        "date": "2026-05-01",
+        "price": 56159
+      },
+      {
+        "date": "2026-06-01",
+        "price": 55079
+      },
+      {
+        "date": "2026-07-01",
+        "price": 54539
+      },
+      {
+        "date": "2026-08-01",
+        "price": 53999
+      }
+    ],
+    "images": [
+      "/images/phones/oneplus/oneplus-12.jpg"
+    ]
+  },
+  {
+    "id": "oneplus-nord-4-256gb-icecat",
+    "slug": "oneplus-nord-4-256-gb",
+    "name": "OnePlus Nord 4 (256 GB)",
+    "brand": "OnePlus",
+    "category": "smartphones",
+    "image": "/images/phones/oneplus/oneplus-nord-4.jpg",
+    "rating": 4.8,
+    "epeyScore": 87,
+    "reviewCount": 1950,
+    "basePrice": 24999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "5G Çağının İlk Yekpare Tam Metal Gövdesi (All-Metal Unibody)",
+      "Snapdragon 7+ Gen 3 (4nm) Yüksek Verimli İşlemci",
+      "6.74 inç 120Hz Ultra Parlak AMOLED Ekran",
+      "5500 mAh Devasa Batarya & 100W Hızlı Şarj"
+    ],
+    "pros": [
+      "Tamamen yekpare metal kasa dayanıklılığı",
+      "5500 mAh batarya ve 100W şarj",
+      "Akıcı OxygenOS deneyimi"
+    ],
+    "cons": [
+      "Kablosuz şarj desteği yok"
+    ],
+    "specs": {
+      "screenSize": 6.74,
+      "screenResolution": "1240x2772 (1.5K)",
+      "displayType": "AMOLED (120Hz)",
+      "chipset": "Qualcomm Snapdragon 7+ Gen 3",
+      "cpuCores": 8,
+      "ram": 12,
+      "storage": 256,
+      "batteryCapacity": 5500,
+      "chargingSpeed": 100,
+      "mainCamera": "50 MP (Sony LYT-600 OIS)",
+      "frontCamera": "16 MP",
+      "operatingSystem": "OxygenOS 14.1 (Android 14)",
+      "has5G": true,
+      "waterResistance": "IP65"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Amazon TR",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 24999,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Amazon%20TR%20fiyat",
+        "sellerName": "Amazon Türkiye",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 25199,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Hepsiburada%20fiyat",
+        "sellerName": "Hepsiburada Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 25374,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Trendyol%20fiyat",
+        "sellerName": "Trendyol Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 25624,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=MediaMarkt%20fiyat",
+        "sellerName": "MediaMarkt Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 25749,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Vatan%20Bilgisayar%20fiyat",
+        "sellerName": "Vatan Bilgisayar Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 25874,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Teknosa%20fiyat",
+        "sellerName": "Teknosa Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "N11",
+        "storeLogo": "/images/stores/n11.png",
+        "price": 25449,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=N11%20fiyat",
+        "sellerName": "N11 Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Pazarama",
+        "storeLogo": "/images/stores/pazarama.png",
+        "price": 25549,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Pazarama%20fiyat",
+        "sellerName": "Pazarama Resmi Satıcı",
+        "isOfficialSeller": true
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 26999
+      },
+      {
+        "date": "2026-04-01",
+        "price": 26499
+      },
+      {
+        "date": "2026-05-01",
+        "price": 25999
+      },
+      {
+        "date": "2026-06-01",
+        "price": 25499
+      },
+      {
+        "date": "2026-07-01",
+        "price": 25249
+      },
+      {
+        "date": "2026-08-01",
+        "price": 24999
+      }
+    ],
+    "images": [
+      "/images/phones/oneplus/oneplus-nord-4.jpg"
+    ]
+  },
+  {
+    "id": "google-pixel-10-pro-xl-256gb-icecat",
+    "slug": "google-pixel-10-pro-xl-256-gb",
+    "name": "Google Pixel 10 Pro XL (256 GB)",
+    "brand": "Google",
+    "category": "smartphones",
+    "image": "/images/phones/google/google-pixel-10-pro-xl.jpg",
+    "rating": 4.9,
+    "epeyScore": 92,
+    "reviewCount": 2890,
+    "basePrice": 62999,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "Google Tensor G5 (3nm TSMC) Yeni Nesil AI Çipi",
+      "6.8 inç Super Actua LTPO OLED (1-120Hz, 3200 nits)",
+      "50 MP Fusion Ana Kamera & 48 MP Periskop (5x Optik Zoom)",
+      "7 Yıl Tam Android ve Güvenlik Güncelleme Desteği"
+    ],
+    "pros": [
+      "TSMC üretimi yüksek verimli Tensor G5",
+      "Yerleşik Gemini Nano 2 AI",
+      "Rakipsiz fotoğraf işleme kalitesi"
+    ],
+    "cons": [
+      "Kutu içeriğinde şarj adaptörü bulunmuyor"
+    ],
+    "specs": {
+      "screenSize": 6.8,
+      "screenResolution": "1344x2992 (QHD+)",
+      "displayType": "Super Actua LTPO OLED (120Hz)",
+      "chipset": "Google Tensor G5 (3nm)",
+      "cpuCores": 8,
+      "ram": 16,
+      "storage": 256,
+      "batteryCapacity": 5100,
+      "chargingSpeed": 45,
+      "mainCamera": "50 MP (OIS, f/1.68) + 48 MP Periskop Telefoto",
+      "frontCamera": "42 MP",
+      "operatingSystem": "Android 16",
+      "has5G": true,
+      "waterResistance": "IP68"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Amazon TR",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 62999,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Amazon%20TR%20fiyat",
+        "sellerName": "Amazon Türkiye",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 63503,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Hepsiburada%20fiyat",
+        "sellerName": "Hepsiburada Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 63944,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Trendyol%20fiyat",
+        "sellerName": "Trendyol Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 64574,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=MediaMarkt%20fiyat",
+        "sellerName": "MediaMarkt Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 64889,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Vatan%20Bilgisayar%20fiyat",
+        "sellerName": "Vatan Bilgisayar Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 65204,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Teknosa%20fiyat",
+        "sellerName": "Teknosa Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "N11",
+        "storeLogo": "/images/stores/n11.png",
+        "price": 64133,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=N11%20fiyat",
+        "sellerName": "N11 Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Pazarama",
+        "storeLogo": "/images/stores/pazarama.png",
+        "price": 64385,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Pazarama%20fiyat",
+        "sellerName": "Pazarama Resmi Satıcı",
+        "isOfficialSeller": true
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 68039
+      },
+      {
+        "date": "2026-04-01",
+        "price": 66779
+      },
+      {
+        "date": "2026-05-01",
+        "price": 65519
+      },
+      {
+        "date": "2026-06-01",
+        "price": 64259
+      },
+      {
+        "date": "2026-07-01",
+        "price": 63629
+      },
+      {
+        "date": "2026-08-01",
+        "price": 62999
+      }
+    ],
+    "images": [
+      "/images/phones/google/google-pixel-10-pro-xl.jpg"
+    ]
+  },
+  {
+    "id": "google-pixel-9a-128gb-icecat",
+    "slug": "google-pixel-9a-128-gb",
+    "name": "Google Pixel 9a (128 GB)",
+    "brand": "Google",
+    "category": "smartphones",
+    "image": "/images/phones/google/google-pixel-9a.jpg",
+    "rating": 4.8,
+    "epeyScore": 86,
+    "reviewCount": 1620,
+    "basePrice": 28999,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "Google Tensor G4 İşlemci & Gemini Live Desteği",
+      "6.3 inç Actua 120Hz OLED Ekran",
+      "48 MP Gelişmiş Sony Sensörlü Ana Kamera",
+      "5000 mAh Genişletilmiş Batarya Kapasitesi"
+    ],
+    "pros": [
+      "Kompakt premium tasarım",
+      "Tensor G4 işlemci gücü",
+      "5000 mAh batarya"
+    ],
+    "cons": [
+      "Telefoto lensi yok"
+    ],
+    "specs": {
+      "screenSize": 6.3,
+      "screenResolution": "1080x2424 (FHD+)",
+      "displayType": "Actua OLED (120Hz)",
+      "chipset": "Google Tensor G4 (4nm)",
+      "cpuCores": 8,
+      "ram": 8,
+      "storage": 128,
+      "batteryCapacity": 5000,
+      "chargingSpeed": 25,
+      "mainCamera": "48 MP (OIS) + 13 MP Ultra Geniş",
+      "frontCamera": "13 MP",
+      "operatingSystem": "Android 15",
+      "has5G": true,
+      "waterResistance": "IP68"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Amazon TR",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 28999,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Amazon%20TR%20fiyat",
+        "sellerName": "Amazon Türkiye",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 29231,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Hepsiburada%20fiyat",
+        "sellerName": "Hepsiburada Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 29434,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Trendyol%20fiyat",
+        "sellerName": "Trendyol Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 29724,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=MediaMarkt%20fiyat",
+        "sellerName": "MediaMarkt Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 29869,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Vatan%20Bilgisayar%20fiyat",
+        "sellerName": "Vatan Bilgisayar Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 30014,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Teknosa%20fiyat",
+        "sellerName": "Teknosa Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "N11",
+        "storeLogo": "/images/stores/n11.png",
+        "price": 29521,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=N11%20fiyat",
+        "sellerName": "N11 Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Pazarama",
+        "storeLogo": "/images/stores/pazarama.png",
+        "price": 29637,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Pazarama%20fiyat",
+        "sellerName": "Pazarama Resmi Satıcı",
+        "isOfficialSeller": true
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 31319
+      },
+      {
+        "date": "2026-04-01",
+        "price": 30739
+      },
+      {
+        "date": "2026-05-01",
+        "price": 30159
+      },
+      {
+        "date": "2026-06-01",
+        "price": 29579
+      },
+      {
+        "date": "2026-07-01",
+        "price": 29289
+      },
+      {
+        "date": "2026-08-01",
+        "price": 28999
+      }
+    ],
+    "images": [
+      "/images/phones/google/google-pixel-9a.jpg"
+    ]
+  },
+  {
+    "id": "nothing-phone-2-256gb-icecat",
+    "slug": "nothing-phone-2-256-gb",
+    "name": "Nothing Phone (2) (256 GB)",
+    "brand": "Nothing",
+    "category": "smartphones",
+    "image": "/images/phones/nothing/nothing-phone-2.jpg",
+    "rating": 4.8,
+    "epeyScore": 88,
+    "reviewCount": 3120,
+    "basePrice": 28999,
+    "currency": "TL",
+    "releaseYear": 2023,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "33 Bölgeli Gelişmiş Glyph LED Işık Arayüzü",
+      "Qualcomm Snapdragon 8+ Gen 1 Amiral Gemisi İşlemci",
+      "6.7 inç Esnek LTPO OLED Ekran (1-120Hz, 1600 nits)",
+      "50 MP Sony IMX890 Çift Kamera Sistemi"
+    ],
+    "pros": [
+      "Şeffaf ikonik tasarım ve Glyph bildirimleri",
+      "Akıcı Nothing OS deneyimi",
+      "Kablosuz şarj desteği"
+    ],
+    "cons": [
+      "Kamera modülü 2x üzeri optik zoom içermiyor"
+    ],
+    "specs": {
+      "screenSize": 6.7,
+      "screenResolution": "1080x2412 (FHD+)",
+      "displayType": "Flexible LTPO OLED (120Hz)",
+      "chipset": "Qualcomm Snapdragon 8+ Gen 1 (4nm)",
+      "cpuCores": 8,
+      "ram": 12,
+      "storage": 256,
+      "batteryCapacity": 4700,
+      "chargingSpeed": 45,
+      "mainCamera": "50 MP (Sony IMX890 OIS) + 50 MP Ultra Geniş",
+      "frontCamera": "32 MP",
+      "operatingSystem": "Nothing OS 2.5 (Android 14)",
+      "has5G": true,
+      "waterResistance": "IP54"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Amazon TR",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 28999,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Amazon%20TR%20fiyat",
+        "sellerName": "Amazon Türkiye",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 29231,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Hepsiburada%20fiyat",
+        "sellerName": "Hepsiburada Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 29434,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Trendyol%20fiyat",
+        "sellerName": "Trendyol Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 29724,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=MediaMarkt%20fiyat",
+        "sellerName": "MediaMarkt Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 29869,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Vatan%20Bilgisayar%20fiyat",
+        "sellerName": "Vatan Bilgisayar Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 30014,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Teknosa%20fiyat",
+        "sellerName": "Teknosa Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "N11",
+        "storeLogo": "/images/stores/n11.png",
+        "price": 29521,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=N11%20fiyat",
+        "sellerName": "N11 Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Pazarama",
+        "storeLogo": "/images/stores/pazarama.png",
+        "price": 29637,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Pazarama%20fiyat",
+        "sellerName": "Pazarama Resmi Satıcı",
+        "isOfficialSeller": true
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 31319
+      },
+      {
+        "date": "2026-04-01",
+        "price": 30739
+      },
+      {
+        "date": "2026-05-01",
+        "price": 30159
+      },
+      {
+        "date": "2026-06-01",
+        "price": 29579
+      },
+      {
+        "date": "2026-07-01",
+        "price": 29289
+      },
+      {
+        "date": "2026-08-01",
+        "price": 28999
+      }
+    ],
+    "images": [
+      "/images/phones/nothing/nothing-phone-2.jpg"
+    ]
+  },
+  {
+    "id": "nothing-phone-3a-256gb-icecat",
+    "slug": "nothing-phone-3a-256-gb",
+    "name": "Nothing Phone (3a) (256 GB)",
+    "brand": "Nothing",
+    "category": "smartphones",
+    "image": "/images/phones/nothing/nothing-phone-3a.jpg",
+    "rating": 4.8,
+    "epeyScore": 87,
+    "reviewCount": 1940,
+    "basePrice": 24999,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "Geliştirilmiş Glyph Işık Arayüzü & Mat Şeffaf Gövde",
+      "MediaTek Dimensity 7350 Pro (4nm) Yüksek Performanslı Çip",
+      "6.7 inç 120Hz 1.07 Milyar Renk Destekli AMOLED Ekran",
+      "50 MP Çift OIS Kamera & 5000 mAh Batarya"
+    ],
+    "pros": [
+      "Benzersiz tasarım estetiği",
+      "Sade, reklamsız Nothing OS",
+      "Yüksek ekran-gövde oranı"
+    ],
+    "cons": [
+      "Kablosuz şarj yok"
+    ],
+    "specs": {
+      "screenSize": 6.7,
+      "screenResolution": "1080x2412 (FHD+)",
+      "displayType": "AMOLED (120Hz)",
+      "chipset": "MediaTek Dimensity 7350 Pro",
+      "cpuCores": 8,
+      "ram": 12,
+      "storage": 256,
+      "batteryCapacity": 5000,
+      "chargingSpeed": 50,
+      "mainCamera": "50 MP (OIS) + 50 MP Ultra Geniş",
+      "frontCamera": "32 MP",
+      "operatingSystem": "Nothing OS 3.0 (Android 15)",
+      "has5G": true,
+      "waterResistance": "IP54"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Amazon TR",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 24999,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Amazon%20TR%20fiyat",
+        "sellerName": "Amazon Türkiye",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 25199,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Hepsiburada%20fiyat",
+        "sellerName": "Hepsiburada Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 25374,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Trendyol%20fiyat",
+        "sellerName": "Trendyol Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 25624,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=MediaMarkt%20fiyat",
+        "sellerName": "MediaMarkt Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 25749,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Vatan%20Bilgisayar%20fiyat",
+        "sellerName": "Vatan Bilgisayar Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 25874,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Teknosa%20fiyat",
+        "sellerName": "Teknosa Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "N11",
+        "storeLogo": "/images/stores/n11.png",
+        "price": 25449,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=N11%20fiyat",
+        "sellerName": "N11 Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Pazarama",
+        "storeLogo": "/images/stores/pazarama.png",
+        "price": 25549,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Pazarama%20fiyat",
+        "sellerName": "Pazarama Resmi Satıcı",
+        "isOfficialSeller": true
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 26999
+      },
+      {
+        "date": "2026-04-01",
+        "price": 26499
+      },
+      {
+        "date": "2026-05-01",
+        "price": 25999
+      },
+      {
+        "date": "2026-06-01",
+        "price": 25499
+      },
+      {
+        "date": "2026-07-01",
+        "price": 25249
+      },
+      {
+        "date": "2026-08-01",
+        "price": 24999
+      }
+    ],
+    "images": [
+      "/images/phones/nothing/nothing-phone-3a.jpg"
+    ]
+  },
+  {
+    "id": "realme-14-pro-plus-512gb-icecat",
+    "slug": "realme-14-pro-plus-512-gb",
+    "name": "Realme 14 Pro+ 5G (512 GB)",
+    "brand": "Realme",
+    "category": "smartphones",
+    "image": "/images/phones/realme/realme-14-pro-plus.jpg",
+    "rating": 4.8,
+    "epeyScore": 88,
+    "reviewCount": 1560,
+    "basePrice": 27999,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "Sony LYT-701 OIS Ana Kamera & 3x Periskop Portre Lensi",
+      "Qualcomm Snapdragon 7s Gen 3 (4nm) Güçlü İşlemci",
+      "6.7 inç 120Hz Kavisli Vision AMOLED Ekran",
+      "5500 mAh Batarya & 80W SUPERVOOC Hızlı Şarj"
+    ],
+    "pros": [
+      "Orta segmentte periskop zoom kamerası",
+      "Lüks deri desenli arka kapak",
+      "Geniş 5500 mAh pil"
+    ],
+    "cons": [
+      "Maksimum video kaydı 4K 30fps"
+    ],
+    "specs": {
+      "screenSize": 6.7,
+      "screenResolution": "1080x2412 (FHD+)",
+      "displayType": "Curved AMOLED (120Hz)",
+      "chipset": "Qualcomm Snapdragon 7s Gen 3",
+      "cpuCores": 8,
+      "ram": 12,
+      "storage": 512,
+      "batteryCapacity": 5500,
+      "chargingSpeed": 80,
+      "mainCamera": "50 MP (Sony LYT-701 OIS) + 50 MP Periskop (3x)",
+      "frontCamera": "32 MP",
+      "operatingSystem": "realme UI 6.0 (Android 15)",
+      "has5G": true,
+      "waterResistance": "IP68"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Amazon TR",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 27999,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Amazon%20TR%20fiyat",
+        "sellerName": "Amazon Türkiye",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 28223,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Hepsiburada%20fiyat",
+        "sellerName": "Hepsiburada Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 28419,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Trendyol%20fiyat",
+        "sellerName": "Trendyol Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 28699,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=MediaMarkt%20fiyat",
+        "sellerName": "MediaMarkt Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 28839,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Vatan%20Bilgisayar%20fiyat",
+        "sellerName": "Vatan Bilgisayar Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 28979,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Teknosa%20fiyat",
+        "sellerName": "Teknosa Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "N11",
+        "storeLogo": "/images/stores/n11.png",
+        "price": 28503,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=N11%20fiyat",
+        "sellerName": "N11 Resmi Satıcı",
+        "isOfficialSeller": true
+      },
+      {
+        "storeName": "Pazarama",
+        "storeLogo": "/images/stores/pazarama.png",
+        "price": 28615,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.google.com/search?q=Pazarama%20fiyat",
+        "sellerName": "Pazarama Resmi Satıcı",
+        "isOfficialSeller": true
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 30239
+      },
+      {
+        "date": "2026-04-01",
+        "price": 29679
+      },
+      {
+        "date": "2026-05-01",
+        "price": 29119
+      },
+      {
+        "date": "2026-06-01",
+        "price": 28559
+      },
+      {
+        "date": "2026-07-01",
+        "price": 28279
+      },
+      {
+        "date": "2026-08-01",
+        "price": 27999
+      }
+    ],
+    "images": [
+      "/images/phones/realme/realme-14-pro-plus.jpg"
+    ]
   }
 ]
