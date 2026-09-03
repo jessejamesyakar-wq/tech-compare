@@ -91,30 +91,125 @@ export function HeroCarousel({ activeIndex = 0, onSelect, initialSlides = [] }: 
     <div
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
-      className="group/carousel relative bg-gradient-to-br from-emerald-50/90 via-white to-teal-50/80 border border-emerald-500/25 rounded-3xl p-6 sm:p-8 lg:p-10 shadow-xl hover:shadow-2xl transition-all duration-500 overflow-hidden"
+      className="group/carousel relative bg-gradient-to-br from-emerald-50/90 via-white to-teal-50/80 border border-emerald-500/25 rounded-3xl p-4 sm:p-6 lg:p-10 shadow-xl hover:shadow-2xl transition-all duration-500 overflow-hidden"
     >
       {/* Vibrant Ambient Glow Orbs */}
-      <div className="absolute -right-16 -top-16 w-[500px] h-[500px] bg-gradient-to-tr from-emerald-500/25 via-teal-400/20 to-transparent rounded-full blur-3xl pointer-events-none" />
-      <div className="absolute -left-16 -bottom-16 w-[450px] h-[450px] bg-gradient-to-br from-blue-500/15 via-indigo-500/10 to-teal-500/15 rounded-full blur-3xl pointer-events-none" />
+      <div className="absolute -right-16 -top-16 w-64 sm:w-96 lg:w-[500px] h-64 sm:h-96 lg:h-[500px] bg-gradient-to-tr from-emerald-500/25 via-teal-400/20 to-transparent rounded-full blur-3xl pointer-events-none" />
+      <div className="absolute -left-16 -bottom-16 w-64 sm:w-96 lg:w-[450px] h-64 sm:h-96 lg:h-[450px] bg-gradient-to-br from-blue-500/15 via-indigo-500/10 to-teal-500/15 rounded-full blur-3xl pointer-events-none" />
 
+      {/* Prev / Next Arrows */}
       <button
         onClick={handlePrev}
         aria-label="Önceki Slayt"
-        className="absolute left-3 top-1/2 -translate-y-1/2 z-30 w-10 h-10 rounded-full bg-white/95 hover:bg-emerald-600 hover:text-white text-slate-800 shadow-xl border border-slate-200/90 backdrop-blur-md flex items-center justify-center transition-all opacity-0 group-hover/carousel:opacity-100 cursor-pointer"
+        className="absolute left-2 sm:left-3 top-1/2 -translate-y-1/2 z-30 w-8 sm:w-10 h-8 sm:h-10 rounded-full bg-white/95 hover:bg-emerald-600 hover:text-white text-slate-800 shadow-xl border border-slate-200/90 backdrop-blur-md flex items-center justify-center transition-all opacity-0 group-hover/carousel:opacity-100 cursor-pointer"
       >
-        <ChevronLeft className="w-5 h-5 stroke-[2.5]" />
+        <ChevronLeft className="w-4 sm:w-5 h-4 sm:h-5 stroke-[2.5]" />
       </button>
 
       <button
         onClick={handleNext}
         aria-label="Sonraki Slayt"
-        className="absolute right-3 top-1/2 -translate-y-1/2 z-30 w-10 h-10 rounded-full bg-white/95 hover:bg-emerald-600 hover:text-white text-slate-800 shadow-xl border border-slate-200/90 backdrop-blur-md flex items-center justify-center transition-all opacity-0 group-hover/carousel:opacity-100 cursor-pointer"
+        className="absolute right-2 sm:right-3 top-1/2 -translate-y-1/2 z-30 w-8 sm:w-10 h-8 sm:h-10 rounded-full bg-white/95 hover:bg-emerald-600 hover:text-white text-slate-800 shadow-xl border border-slate-200/90 backdrop-blur-md flex items-center justify-center transition-all opacity-0 group-hover/carousel:opacity-100 cursor-pointer"
       >
-        <ChevronRight className="w-5 h-5 stroke-[2.5]" />
+        <ChevronRight className="w-4 sm:w-5 h-4 sm:h-5 stroke-[2.5]" />
       </button>
 
-      <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center relative z-10">
-        
+      {/* 📱 MOBILE VIEW (< lg): Compact Side-by-Side without vertical bloat */}
+      <div className="block lg:hidden relative z-10 space-y-3">
+        {/* Badges */}
+        <div className="flex items-center gap-1.5 flex-wrap">
+          <span className="inline-flex items-center gap-1 bg-emerald-600 text-white text-[10px] font-black px-2.5 py-0.5 rounded-full shadow-xs tracking-wide uppercase">
+            <Zap className="w-3 h-3 fill-current" />
+            {slide.badgeText}
+          </span>
+          <span className="inline-flex items-center gap-1 bg-white/90 border border-slate-200 text-slate-700 text-[10px] font-bold px-2 py-0.5 rounded-full shadow-2xs">
+            <ShieldCheck className="w-3 h-3 text-emerald-600" />
+            %100 Bağımsız Analiz
+          </span>
+        </div>
+
+        {/* Side-by-Side: Text on Left (7 cols) + Hero Image on Right (5 cols) */}
+        <div className="grid grid-cols-12 gap-3 items-center">
+          <div className="col-span-7 space-y-2">
+            <div>
+              <h1 className="text-base sm:text-lg font-black text-slate-900 tracking-tight leading-tight line-clamp-2">
+                {slide.productName}
+              </h1>
+              <p className="text-[11px] text-slate-500 font-medium line-clamp-1 mt-0.5">
+                {slide.productSpec}
+              </p>
+            </div>
+
+            <div className="inline-flex items-baseline gap-1.5 bg-white/95 border border-emerald-300 px-2.5 py-1 rounded-xl shadow-2xs">
+              <span className="text-[9px] text-slate-400 font-bold uppercase">En Düşük:</span>
+              <span className="text-xs sm:text-sm font-black text-emerald-700 tabular-nums">
+                {slide.price}
+              </span>
+            </div>
+
+            <div className="flex items-center gap-2 pt-0.5">
+              <Link
+                href={targetHref}
+                className="bg-slate-900 hover:bg-emerald-600 text-white font-black text-[10.5px] px-3 py-1.5 rounded-xl shadow-xs transition-all flex items-center gap-1 cursor-pointer"
+              >
+                <span>İncele</span>
+                <ArrowRight className="w-3 h-3" />
+              </Link>
+              <Link
+                href={`/compare?p1=${slide.slug}`}
+                className="bg-white hover:bg-slate-50 border border-slate-200 text-slate-800 font-bold text-[10.5px] px-2.5 py-1.5 rounded-xl shadow-2xs transition-all flex items-center gap-1 cursor-pointer"
+              >
+                <span className="text-emerald-600 font-black">⚖️</span>
+                <span>Kıyasla</span>
+              </Link>
+            </div>
+          </div>
+
+          {/* Right Image Stage */}
+          <div className="col-span-5 flex items-center justify-center">
+            <Link href={targetHref} className="relative w-full h-28 sm:h-36 flex items-center justify-center group/img cursor-pointer">
+              <Image
+                src={slide.image}
+                alt={slide.productName}
+                width={200}
+                height={200}
+                priority={true}
+                sizes="40vw"
+                className="max-h-full max-w-full object-contain filter drop-shadow-xl group-hover/img:scale-105 transition-transform duration-300"
+              />
+            </Link>
+          </div>
+        </div>
+
+        {/* Bottom Ticker & Dots */}
+        <div className="flex items-center justify-between pt-2.5 border-t border-slate-200/70 text-[10px] text-slate-500 font-bold">
+          <span className="flex items-center gap-1 text-emerald-800">
+            <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse" />
+            <span>8 Büyük Mağaza Canlı Takipte</span>
+          </span>
+
+          <div className="flex items-center gap-1">
+            {heroSlides.slice(0, 8).map((_, idx) => (
+              <button
+                key={idx}
+                onClick={() => {
+                  setCurrentSlideIndex(idx);
+                  onSelect(idx);
+                }}
+                aria-label={`Slayt ${idx + 1}`}
+                className={`transition-all rounded-full cursor-pointer ${
+                  currentSlideIndex === idx
+                    ? 'w-3.5 h-1 bg-emerald-600'
+                    : 'w-1 h-1 bg-slate-300 hover:bg-slate-400'
+                }`}
+              />
+            ))}
+          </div>
+        </div>
+      </div>
+
+      {/* 🖥️ DESKTOP VIEW (lg+): Full Luxurious Editorial Layout */}
+      <div className="hidden lg:grid lg:grid-cols-12 gap-8 items-center relative z-10">
         {/* Left Column: Headlines & Editorial Pitch */}
         <div className="lg:col-span-7 space-y-5">
           <div className="flex flex-wrap items-center gap-2">
@@ -192,6 +287,7 @@ export function HeroCarousel({ activeIndex = 0, onSelect, initialSlides = [] }: 
           </div>
         </div>
       </div>
+
     </div>
   );
 }
