@@ -18,6 +18,9 @@ export const metadata: Metadata = {
   alternates: {
     canonical: 'https://www.aceleetme.tech',
   },
+  verification: {
+    google: 'Dy00YlAE7Le0s97gjpLXinIwfoupK2XNeVjJ10MtJsU',
+  },
   title: 'aceleEtme | Akıllı Telefon, TV & Teknoloji Karşılaştırma ve Fiyat Takip Platformu',
   description: 'Türkiye’nin %100 bağımsız ve algoritmik akıllı telefon, bilgisayar ve teknoloji karşılaştırma platformu. 8 mağaza canlı fiyat kıyaslaması ve fiyat geçmişi grafikleri.',
   manifest: '/manifest.json',
