@@ -122,17 +122,17 @@ export function PhoneCard({ phone, index = 0 }: PhoneCardProps) {
   const [imgSrc, setImgSrc] = React.useState(phone.image || fallbackImg);
 
   return (
-    <TiltCard className="group bg-white border border-slate-200/90 hover:border-emerald-500/60 rounded-2xl p-3.5 transition-all duration-200 shadow-2xs hover:shadow-lg flex flex-col justify-between cursor-pointer">
+    <TiltCard className="group bg-white border border-slate-200 hover:border-emerald-500/60 rounded-2xl sm:rounded-3xl p-4 sm:p-5 transition-all duration-300 shadow-md hover:shadow-2xl hover:-translate-y-1 flex flex-col justify-between cursor-pointer">
       {/* Vatan Bilgisayar Tarzı Sol Üst Köşe Badgeleri */}
-      <div className="absolute top-2.5 left-2.5 z-10 flex flex-col gap-1 items-start">
+      <div className="absolute top-3 left-3 z-10 flex flex-col gap-1 items-start">
         {phone.isPopular && (
-          <span className="bg-emerald-50 text-emerald-800 text-[8.5px] font-black uppercase px-2 py-0.5 rounded-md border border-emerald-200 shadow-2xs flex items-center gap-1">
+          <span className="bg-emerald-50 text-emerald-800 text-[8.5px] font-black uppercase px-2.5 py-0.5 rounded-md border border-emerald-200 shadow-xs flex items-center gap-1">
             <Zap className="w-2.5 h-2.5 text-emerald-600 fill-emerald-600" />
             <span>Popüler</span>
           </span>
         )}
         {phone.releaseYear === 2026 && (
-          <span className="bg-slate-900 text-white text-[8.5px] font-black uppercase px-2 py-0.5 rounded-md shadow-2xs">
+          <span className="bg-slate-900 text-white text-[8.5px] font-black uppercase px-2.5 py-0.5 rounded-md shadow-xs">
             2026 Seri
           </span>
         )}
@@ -141,10 +141,10 @@ export function PhoneCard({ phone, index = 0 }: PhoneCardProps) {
       {/* Sağ Üst Kıyaslama Butonu (Vatan Stil) */}
       <button
         onClick={() => (inCompare ? removeFromCompare(phone.id) : addToCompare(phone))}
-        className={`absolute top-2.5 right-2.5 z-10 p-1.5 rounded-lg border text-xs font-bold transition-all shadow-2xs flex items-center gap-1 cursor-pointer ${
+        className={`absolute top-3 right-3 z-10 p-1.5 rounded-xl border text-xs font-bold transition-all shadow-xs flex items-center gap-1 cursor-pointer ${
           inCompare
-            ? 'bg-emerald-600 text-white border-emerald-500 shadow-emerald-500/20'
-            : 'bg-white/90 text-slate-600 border-slate-200 hover:bg-slate-50 hover:text-slate-900'
+            ? 'bg-emerald-600 text-white border-emerald-500 shadow-emerald-500/25'
+            : 'bg-white/95 text-slate-600 border-slate-200 hover:bg-slate-50 hover:text-slate-900'
         }`}
         title={t.addToCompare}
       >
@@ -153,13 +153,13 @@ export function PhoneCard({ phone, index = 0 }: PhoneCardProps) {
       </button>
 
       <div>
-        {/* Vatan Bilgisayar Ürün Görseli Ölçeği (Height: 180px, Object-Fit: Contain, Margin-Bottom: 10px) */}
-        <Link href={`/phones/${phone.slug}`} className="block relative mb-2.5">
-          <div className="w-full h-44 sm:h-48 rounded-xl bg-slate-50/80 border border-slate-100 p-3 sm:p-4 flex items-center justify-center overflow-hidden relative group-hover:bg-slate-50 transition-all">
-            <Image src={imgSrc} alt={phone.name} width={240} height={240} loading="lazy" sizes="(max-width: 640px) 45vw, (max-width: 1024px) 30vw, 240px" onError={() => setImgSrc(fallbackImg)} className="max-h-full max-w-full w-auto h-auto object-contain group-hover:scale-105 transition-transform duration-200 ease-out drop-shadow-xs" />
+        {/* Vatan Bilgisayar Ürün Görseli Ölçeği */}
+        <Link href={`/phones/${phone.slug}`} className="block relative mb-3">
+          <div className="w-full h-44 sm:h-52 rounded-2xl bg-slate-50 border border-slate-100 p-3.5 sm:p-4 flex items-center justify-center overflow-hidden relative group-hover:bg-slate-100/70 transition-all">
+            <Image src={imgSrc} alt={phone.name} width={240} height={240} loading="lazy" sizes="(max-width: 640px) 45vw, (max-width: 1024px) 30vw, 240px" onError={() => setImgSrc(fallbackImg)} className="max-h-full max-w-full w-auto h-auto object-contain group-hover:scale-105 transition-transform duration-300 ease-out drop-shadow-sm" />
 
             {/* Circular Score Badge Overlay */}
-            <div className="absolute bottom-2 right-2 z-10 bg-white/95 backdrop-blur-xs border border-slate-200 rounded-lg px-1.5 py-0.5 shadow-xs flex items-center gap-1">
+            <div className="absolute bottom-2 right-2 z-10 bg-white/95 backdrop-blur-md border border-slate-200 rounded-xl px-2 py-0.5 shadow-sm flex items-center gap-1">
               <span className="text-[10px] font-black text-slate-900">{score100}</span>
               <span className="text-[7.5px] uppercase font-bold text-slate-400">puan</span>
             </div>

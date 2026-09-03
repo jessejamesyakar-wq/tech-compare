@@ -87,7 +87,7 @@ export function CategoryIconStrip({ customCounts }: { customCounts?: typeof STAT
   ];
 
   return (
-    <div className="w-full bg-white/90 backdrop-blur-md border border-slate-200/90 rounded-3xl p-3 sm:p-4 shadow-xs">
+    <div className="w-full bg-white/95 backdrop-blur-md border border-slate-200 rounded-3xl p-4 sm:p-5 shadow-md hover:shadow-lg transition-all duration-300">
       <div className="flex items-center gap-3 sm:gap-4 overflow-x-auto no-scrollbar py-1 px-1">
         {categories.map((cat) => {
           const Icon = cat.icon;

@@ -312,31 +312,31 @@ export function DynamicCategoryShowcase({ initialData }: { initialData?: Dynamic
             return (
               <TiltCard
                 key={product.id}
-                className="group bg-white border border-slate-200/90 hover:border-emerald-500/50 rounded-3xl p-4.5 transition-all duration-300 shadow-xs hover:shadow-xl flex flex-col justify-between"
+                className="group bg-white border border-slate-200 hover:border-emerald-500/60 rounded-3xl p-5 sm:p-6 transition-all duration-300 shadow-md hover:shadow-2xl hover:-translate-y-1.5 flex flex-col justify-between"
               >
                 <div>
                   {/* Top Category Badge & Dynamic Badge */}
-                  <div className="flex items-center justify-between gap-1.5 mb-2.5">
+                  <div className="flex items-center justify-between gap-1.5 mb-3">
                     <span className={`text-[10px] font-black px-2.5 py-0.5 rounded-full border flex items-center gap-1 ${cfg.badgeStyle}`}>
                       <span>{cfg.emoji}</span>
                       <span>{cfg.shortLabel}</span>
                     </span>
 
-                    <span className={`text-[10px] font-black px-2 py-0.5 rounded-md border ${badge.style}`}>
+                    <span className={`text-[10px] font-black px-2.5 py-0.5 rounded-md border ${badge.style}`}>
                       {badge.text}
                     </span>
                   </div>
 
                   {/* Product Image Box */}
-                  <Link href={href} className="block relative mb-2.5">
-                    <div className="w-full h-44 bg-slate-50/90 rounded-2xl p-3.5 flex items-center justify-center overflow-hidden border border-slate-100 group-hover:bg-slate-100/60 transition-colors">
+                  <Link href={href} className="block relative mb-3">
+                    <div className="w-full h-44 sm:h-48 bg-slate-50 rounded-2xl p-4 flex items-center justify-center overflow-hidden border border-slate-100 group-hover:bg-slate-100/70 transition-colors">
                       <Image
                         src={product.image}
                         alt={product.name}
                         width={200}
                         height={176}
                         loading="lazy"
-                        className="max-h-full max-w-full w-auto h-auto object-contain group-hover:scale-105 transition-transform duration-300 ease-out drop-shadow-xs"
+                        className="max-h-full max-w-full w-auto h-auto object-contain group-hover:scale-105 transition-transform duration-300 ease-out drop-shadow-sm"
                       />
                     </div>
                   </Link>

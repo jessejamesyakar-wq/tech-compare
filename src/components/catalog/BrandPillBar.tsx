@@ -47,7 +47,7 @@ export function BrandPillBar({ selectedBrands, onSelectBrand, brandCounts = DEFA
   }, [brandCounts]);
 
   return (
-    <div className="bg-white/90 backdrop-blur-md border border-slate-200/90 rounded-3xl p-3 sm:p-4 shadow-xs space-y-2">
+    <div className="bg-white/95 backdrop-blur-md border border-slate-200 rounded-3xl p-4 sm:p-5 shadow-md hover:shadow-lg transition-all duration-300 space-y-2">
       <div className="flex items-center gap-2 overflow-x-auto no-scrollbar py-1 px-1">
         
         {/* All Brands Pill */}

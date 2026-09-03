@@ -283,7 +283,7 @@ export function HomePageClient({
             return (
               <div
                 key={tv.id}
-                className="bg-white backdrop-blur-md border border-slate-200 hover:border-emerald-500/50 hover:-translate-y-1 transition-all duration-300 shadow-md rounded-2xl p-4 flex flex-col justify-between group relative overflow-hidden"
+                className="bg-white backdrop-blur-md border border-slate-200 hover:border-emerald-500/60 hover:-translate-y-1.5 transition-all duration-300 shadow-md hover:shadow-2xl rounded-3xl p-5 flex flex-col justify-between group relative overflow-hidden"
               >
                 <div>
                   {/* Image Stage */}
@@ -450,7 +450,7 @@ export function HomePageClient({
             <Link
               key={idx}
               href={`/compare?p1=${duel.phone1Id}&p2=${duel.phone2Id}`}
-              className="group bg-white border border-slate-200 hover:border-emerald-400 rounded-3xl p-5 transition-all flex items-center justify-between gap-4 shadow-xs hover:shadow-md"
+              className="group bg-white border border-slate-200 hover:border-emerald-500/60 rounded-3xl p-6 transition-all duration-300 flex items-center justify-between gap-4 shadow-md hover:shadow-2xl hover:-translate-y-1"
             >
               <div className="space-y-1">
                 <span className="text-[10px] font-black text-emerald-600 uppercase tracking-widest block">

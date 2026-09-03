@@ -91,15 +91,16 @@ export function HeroCarousel({ activeIndex = 0, onSelect, initialSlides = [] }: 
     <div
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
-      className="group/carousel relative bg-gradient-to-br from-emerald-50/80 via-white to-slate-50/80 border border-emerald-500/20 rounded-3xl p-6 sm:p-8 lg:p-10 shadow-sm overflow-hidden"
+      className="group/carousel relative bg-gradient-to-br from-emerald-50/90 via-white to-teal-50/80 border border-emerald-500/25 rounded-3xl p-6 sm:p-8 lg:p-10 shadow-xl hover:shadow-2xl transition-all duration-500 overflow-hidden"
     >
-      <div className="absolute -right-24 -top-24 w-96 h-96 bg-emerald-500/10 rounded-full blur-3xl pointer-events-none" />
-      <div className="absolute -left-24 -bottom-24 w-96 h-96 bg-blue-500/5 rounded-full blur-3xl pointer-events-none" />
+      {/* Vibrant Ambient Glow Orbs */}
+      <div className="absolute -right-16 -top-16 w-[500px] h-[500px] bg-gradient-to-tr from-emerald-500/25 via-teal-400/20 to-transparent rounded-full blur-3xl pointer-events-none" />
+      <div className="absolute -left-16 -bottom-16 w-[450px] h-[450px] bg-gradient-to-br from-blue-500/15 via-indigo-500/10 to-teal-500/15 rounded-full blur-3xl pointer-events-none" />
 
       <button
         onClick={handlePrev}
         aria-label="Önceki Slayt"
-        className="absolute left-3 top-1/2 -translate-y-1/2 z-30 w-10 h-10 rounded-full bg-white/90 hover:bg-emerald-600 hover:text-white text-slate-800 shadow-lg border border-slate-200 backdrop-blur-md flex items-center justify-center transition-all opacity-0 group-hover/carousel:opacity-100 cursor-pointer"
+        className="absolute left-3 top-1/2 -translate-y-1/2 z-30 w-10 h-10 rounded-full bg-white/95 hover:bg-emerald-600 hover:text-white text-slate-800 shadow-xl border border-slate-200/90 backdrop-blur-md flex items-center justify-center transition-all opacity-0 group-hover/carousel:opacity-100 cursor-pointer"
       >
         <ChevronLeft className="w-5 h-5 stroke-[2.5]" />
       </button>
@@ -107,7 +108,7 @@ export function HeroCarousel({ activeIndex = 0, onSelect, initialSlides = [] }: 
       <button
         onClick={handleNext}
         aria-label="Sonraki Slayt"
-        className="absolute right-3 top-1/2 -translate-y-1/2 z-30 w-10 h-10 rounded-full bg-white/90 hover:bg-emerald-600 hover:text-white text-slate-800 shadow-lg border border-slate-200 backdrop-blur-md flex items-center justify-center transition-all opacity-0 group-hover/carousel:opacity-100 cursor-pointer"
+        className="absolute right-3 top-1/2 -translate-y-1/2 z-30 w-10 h-10 rounded-full bg-white/95 hover:bg-emerald-600 hover:text-white text-slate-800 shadow-xl border border-slate-200/90 backdrop-blur-md flex items-center justify-center transition-all opacity-0 group-hover/carousel:opacity-100 cursor-pointer"
       >
         <ChevronRight className="w-5 h-5 stroke-[2.5]" />
       </button>
@@ -117,11 +118,11 @@ export function HeroCarousel({ activeIndex = 0, onSelect, initialSlides = [] }: 
         {/* Left Column: Headlines & Editorial Pitch */}
         <div className="lg:col-span-7 space-y-5">
           <div className="flex flex-wrap items-center gap-2">
-            <span className="inline-flex items-center gap-1.5 bg-emerald-600 text-white text-[11px] font-black px-3.5 py-1 rounded-full shadow-sm tracking-wide uppercase">
+            <span className="inline-flex items-center gap-1.5 bg-emerald-600 text-white text-[11px] font-black px-3.5 py-1 rounded-full shadow-md tracking-wide uppercase">
               <Zap className="w-3.5 h-3.5 fill-current" />
               {slide.badgeText}
             </span>
-            <span className="inline-flex items-center gap-1 bg-white/90 border border-slate-200 text-slate-700 text-[11px] font-bold px-3 py-1 rounded-full shadow-2xs">
+            <span className="inline-flex items-center gap-1 bg-white/95 border border-slate-200/90 text-slate-700 text-[11px] font-bold px-3 py-1 rounded-full shadow-xs">
               <ShieldCheck className="w-3.5 h-3.5 text-emerald-600" />
               %100 Bağımsız Algoritmik Analiz
             </span>
@@ -141,7 +142,7 @@ export function HeroCarousel({ activeIndex = 0, onSelect, initialSlides = [] }: 
           </div>
 
           {/* Featured Product Mini-Card inside Hero */}
-          <div className="bg-white/95 backdrop-blur-md border border-slate-200/90 rounded-2xl p-4 sm:p-5 shadow-xs flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+          <div className="bg-white/95 backdrop-blur-md border border-slate-200 rounded-2xl p-4 sm:p-5 shadow-md hover:shadow-lg transition-shadow flex flex-col sm:flex-row sm:items-center justify-between gap-4">
             <div className="space-y-1">
               <span className="text-[10px] font-black text-emerald-600 uppercase tracking-widest block">
                 ÖNE ÇIKAN MODEL
@@ -163,7 +164,7 @@ export function HeroCarousel({ activeIndex = 0, onSelect, initialSlides = [] }: 
               </div>
               <Link
                 href={targetHref}
-                className="bg-emerald-600 hover:bg-emerald-700 text-white font-extrabold text-xs px-4 py-2.5 rounded-xl transition-all shadow-sm hover:shadow-md flex items-center gap-1.5 cursor-pointer shrink-0"
+                className="bg-emerald-600 hover:bg-emerald-700 text-white font-extrabold text-xs px-4 py-2.5 rounded-xl transition-all shadow-md hover:shadow-lg flex items-center gap-1.5 cursor-pointer shrink-0"
               >
                 <span>İncele</span>
                 <ArrowRight className="w-3.5 h-3.5" />
@@ -175,7 +176,7 @@ export function HeroCarousel({ activeIndex = 0, onSelect, initialSlides = [] }: 
         {/* Right Column: Hero Visual Showcase */}
         <div className="lg:col-span-5 flex justify-center items-center relative">
           <div className="relative w-64 h-64 sm:w-80 sm:h-80 flex items-center justify-center">
-            <div className="absolute inset-0 bg-radial from-emerald-500/20 via-emerald-500/5 to-transparent rounded-full blur-2xl pointer-events-none" />
+            <div className="absolute inset-0 bg-radial from-emerald-500/30 via-teal-500/15 to-transparent rounded-full blur-2xl pointer-events-none" />
             
             <Link href={targetHref} className="relative z-10 block group/img cursor-pointer">
               <Image
@@ -185,7 +186,7 @@ export function HeroCarousel({ activeIndex = 0, onSelect, initialSlides = [] }: 
                 height={480}
                 priority={true}
                 sizes="(max-width: 640px) 90vw, (max-width: 1024px) 50vw, 480px"
-                className="max-h-60 sm:max-h-72 w-auto max-w-full object-contain filter drop-shadow-xl group-hover/img:scale-105 transition-transform duration-300"
+                className="max-h-60 sm:max-h-72 w-auto max-w-full object-contain filter drop-shadow-2xl group-hover/img:scale-105 transition-transform duration-300"
               />
             </Link>
           </div>
