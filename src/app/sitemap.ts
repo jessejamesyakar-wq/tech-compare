@@ -5,7 +5,7 @@ export const dynamic = 'force-dynamic';
 export const revalidate = 3600; // Automatically revalidate every 1 hour
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
-  const baseUrl = 'https://aceleetme.com';
+  const baseUrl = 'https://www.aceleetme.tech';
   const now = new Date();
 
   // 1. Static Pages

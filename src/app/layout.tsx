@@ -14,6 +14,10 @@ import { CompareBar } from '@/components/layout/CompareBar';
 import { LogoModal } from '@/components/layout/LogoModal';
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://www.aceleetme.tech'),
+  alternates: {
+    canonical: 'https://www.aceleetme.tech',
+  },
   title: 'aceleEtme | Akıllı Telefon, TV & Teknoloji Karşılaştırma ve Fiyat Takip Platformu',
   description: 'Türkiye’nin %100 bağımsız ve algoritmik akıllı telefon, bilgisayar ve teknoloji karşılaştırma platformu. 8 mağaza canlı fiyat kıyaslaması ve fiyat geçmişi grafikleri.',
   manifest: '/manifest.json',

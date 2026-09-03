@@ -9,7 +9,8 @@
     "https://www.trendyol.com/*",
     "https://www.mediamarkt.com.tr/*",
     "https://www.vatanbilgisayar.com/*",
-    "https://aceleetme.com/*",
+    "https://www.aceleetme.tech/*",
+    "https://aceleetme.tech/*",
     "http://localhost:3000/*"
   ],
   "content_scripts": [

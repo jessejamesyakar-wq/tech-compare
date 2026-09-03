@@ -136,7 +136,7 @@ export async function GET(req: NextRequest) {
 
   const category = product.category === "smartphones" ? "phones" : product.category || "phones";
   const slug = product.slug || product.id;
-  const aceleetmeUrl = `https://aceleetme.com/${category}/${slug}`;
+  const aceleetmeUrl = `https://www.aceleetme.tech/${category}/${slug}`;
 
   return NextResponse.json(
     {
