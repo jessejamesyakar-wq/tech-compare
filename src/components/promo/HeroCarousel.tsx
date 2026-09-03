@@ -1,5 +1,6 @@
 'use client';
 
+import Image from 'next/image';
 import React, { useState, useEffect, useMemo } from 'react';
 import Link from 'next/link';
 import { motion, AnimatePresence } from 'framer-motion';
@@ -235,11 +236,7 @@ export function HeroCarousel({ activeIndex, onSelect, slides }: HeroCarouselProp
           <div className="lg:col-span-5 flex flex-col items-center justify-center relative">
             <Link href={targetHref} className="group relative w-full flex flex-col items-center">
               <div className="w-full h-48 sm:h-56 bg-white/90 rounded-2xl p-4 flex items-center justify-center relative overflow-hidden border border-slate-200/90 shadow-lg group-hover:border-emerald-500/60 transition-colors">
-                <img
-                  src={slide.image}
-                  alt={slide.productName}
-                  className="max-h-40 sm:max-h-48 w-auto object-contain drop-shadow-md group-hover:scale-105 transition-transform duration-300"
-                />
+                <Image src={slide.image} alt={slide.productName} width={480} height={480} priority={true} sizes="(max-width: 640px) 90vw, (max-width: 1024px) 50vw, 480px" className="max-h-40 sm:max-h-48 w-auto object-contain drop-shadow-md group-hover:scale-105 transition-transform duration-300" />
               </div>
               <div className="mt-2.5 text-center">
                 <h2 className="text-sm font-black text-slate-900 group-hover:text-emerald-700 transition-colors line-clamp-1">

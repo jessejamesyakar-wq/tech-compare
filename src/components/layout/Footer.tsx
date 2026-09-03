@@ -1,5 +1,6 @@
 'use client';
 
+import Image from 'next/image';
 import React from 'react';
 import Link from 'next/link';
 import { useI18n } from '@/lib/i18n/context';
@@ -17,7 +18,7 @@ export function Footer() {
           <div className="space-y-4">
             <Link href="/" className="flex items-center gap-2.5" aria-label="aceleEtme Ana Sayfa">
               <div className="w-9 h-9 rounded-full overflow-hidden flex items-center justify-center shrink-0">
-                <img src="/emblem.png" alt="aceleEtme" className="w-full h-full object-contain" />
+                <Image src="/emblem.png" alt="aceleEtme" width={32} height={32} className="w-full h-full object-contain" />
               </div>
               <span className="text-lg font-extrabold text-white tracking-tight">
                 acele<span className="text-emerald-500">Etme</span>

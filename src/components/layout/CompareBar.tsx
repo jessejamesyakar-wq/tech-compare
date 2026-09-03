@@ -1,5 +1,6 @@
 'use client';
 
+import Image from 'next/image';
 import React from 'react';
 import Link from 'next/link';
 import { useCompare } from '@/context/CompareContext';
@@ -24,7 +25,7 @@ export function CompareBar() {
               className="relative flex items-center gap-2 bg-slate-100 px-2.5 py-1.5 rounded-xl border border-slate-200 shrink-0 group"
             >
               <div className="w-8 h-8 rounded bg-white p-0.5 overflow-hidden flex items-center justify-center border border-slate-200">
-                <img src={phone.image} alt={phone.name} className="w-full h-full object-contain" />
+                <Image src={phone.image} alt={phone.name} width={48} height={48} className="w-full h-full object-contain" />
               </div>
               <span className="text-xs text-slate-900 font-semibold max-w-[100px] truncate">
                 {phone.name}

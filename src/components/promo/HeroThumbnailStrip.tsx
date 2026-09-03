@@ -1,5 +1,6 @@
 'use client';
 
+import Image from 'next/image';
 import React, { useRef, useState, useEffect } from 'react';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 
@@ -97,11 +98,7 @@ export function HeroThumbnailStrip({ items, activeIndex, onSelect }: HeroThumbna
             >
               {/* Product Image Stage */}
               <div className="w-full h-12 sm:h-14 flex items-center justify-center overflow-hidden">
-                <img
-                  src={item.image}
-                  alt={item.name}
-                  className="max-h-full max-w-full object-contain group-hover:scale-105 transition-transform duration-200"
-                />
+                <Image src={item.image} alt={item.name} width={64} height={64} loading="lazy" className="max-h-full max-w-full object-contain group-hover:scale-105 transition-transform duration-200" />
               </div>
 
               {/* Single Line Truncated Product Title & Price */}

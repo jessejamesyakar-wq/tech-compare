@@ -1,5 +1,6 @@
 'use client';
 
+import Image from 'next/image';
 import React, { useState, useEffect } from 'react';
 import { Product } from '@/lib/types';
 import { useI18n } from '@/lib/i18n/context';
@@ -55,7 +56,7 @@ export function StickyHeaderBar({ phone }: StickyHeaderBarProps) {
         {/* Left: Thumbnail & Name */}
         <div className="flex items-center gap-3">
           <div className="w-10 h-10 rounded-lg bg-slate-50 p-1 border border-slate-200 flex items-center justify-center shrink-0">
-            <img src={phone.image} alt={phone.name} className="h-full object-contain" />
+            <Image src={phone.image} alt={phone.name} width={40} height={40} className="h-full w-auto object-contain" />
           </div>
           <div>
             <h4 className="text-slate-900 text-xs sm:text-sm font-extrabold line-clamp-1">

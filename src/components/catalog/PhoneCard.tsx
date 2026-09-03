@@ -1,5 +1,6 @@
 'use client';
 
+import Image from 'next/image';
 import React from 'react';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
@@ -155,13 +156,7 @@ export function PhoneCard({ phone, index = 0 }: PhoneCardProps) {
         {/* Vatan Bilgisayar Ürün Görseli Ölçeği (Height: 180px, Object-Fit: Contain, Margin-Bottom: 10px) */}
         <Link href={`/phones/${phone.slug}`} className="block relative mb-2.5">
           <div className="w-full h-44 sm:h-48 rounded-xl bg-slate-50/80 border border-slate-100 p-3 sm:p-4 flex items-center justify-center overflow-hidden relative group-hover:bg-slate-50 transition-all">
-            <img
-              src={imgSrc}
-              alt={phone.name}
-              loading="lazy"
-              onError={() => setImgSrc(fallbackImg)}
-              className="max-h-full max-w-full w-auto h-auto object-contain group-hover:scale-105 transition-transform duration-200 ease-out drop-shadow-xs"
-            />
+            <Image src={imgSrc} alt={phone.name} width={240} height={240} loading="lazy" sizes="(max-width: 640px) 45vw, (max-width: 1024px) 30vw, 240px" onError={() => setImgSrc(fallbackImg)} className="max-h-full max-w-full w-auto h-auto object-contain group-hover:scale-105 transition-transform duration-200 ease-out drop-shadow-xs" />
 
             {/* Circular Score Badge Overlay */}
             <div className="absolute bottom-2 right-2 z-10 bg-white/95 backdrop-blur-xs border border-slate-200 rounded-lg px-1.5 py-0.5 shadow-xs flex items-center gap-1">

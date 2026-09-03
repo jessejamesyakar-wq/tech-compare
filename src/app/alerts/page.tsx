@@ -1,5 +1,6 @@
 'use client';
 
+import Image from 'next/image';
 import React from 'react';
 import Link from 'next/link';
 import { useI18n } from '@/lib/i18n/context';
@@ -55,7 +56,7 @@ export default function AlertsPage() {
             >
               <div className="flex items-center gap-4">
                 <div className="w-14 h-14 rounded-xl bg-slate-50 p-2 overflow-hidden flex items-center justify-center border border-slate-200 shrink-0">
-                  <img src={alert.productImage} alt={alert.productName} className="h-full object-contain" />
+                  <Image src={alert.productImage || '/icon.png'} alt={alert.productName || 'Ürün'} width={64} height={64} className="h-full w-auto object-contain" />
                 </div>
                 <div>
                   <h4 className="text-slate-900 text-sm font-bold">{alert.productName}</h4>
