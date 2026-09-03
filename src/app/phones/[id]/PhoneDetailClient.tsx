@@ -241,30 +241,7 @@ export default function PhoneDetailClient({ initialPhone }: { initialPhone: Smar
         onClose={() => setAlertModalOpen(false)}
       />
 
-      {/* Schema.org Product Structured Data */}
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            '@context': 'https://schema.org/',
-            '@type': 'Product',
-            name: phone.name,
-            image: [phone.image, ...(phone.images || [])],
-            description: (phone.highlights || []).join('. '),
-            brand: {
-              '@type': 'Brand',
-              name: phone.brand
-            },
-            offers: {
-              '@type': 'AggregateOffer',
-              priceCurrency: phone.currency || 'TL',
-              lowPrice: phone.basePrice,
-              offerCount: phone.storeOffers?.length || 8
-            }
-          })
-        }}
-      />
-
+      {/* Centralized Schema.org Product Structured Data (TRY ISO, Rich Snippets) */}
       <ProductJsonLd product={phone as any} />
     </div>
   );

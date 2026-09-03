@@ -250,30 +250,7 @@ export default function TVDetailClient({ initialTVProduct }: { initialTVProduct:
         onClose={() => setAlertModalOpen(false)}
       />
 
-      {/* Schema.org Product Structured Data */}
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            '@context': 'https://schema.org/',
-            '@type': 'Product',
-            name: tv.name,
-            image: [tv.image, ...(tv.images || [])],
-            description: (tv.highlights || []).join('. '),
-            brand: {
-              '@type': 'Brand',
-              name: tv.brand
-            },
-            offers: {
-              '@type': 'AggregateOffer',
-              priceCurrency: tv.currency || 'TL',
-              lowPrice: tv.basePrice,
-              offerCount: tv.storeOffers?.length || 8
-            }
-          })
-        }}
-      />
-
+      {/* Centralized Schema.org Product Structured Data (TRY ISO, Rich Snippets) */}
       <ProductJsonLd product={tv as any} />
     </div>
   );
