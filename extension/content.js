@@ -6,7 +6,7 @@
 // sayfasındayken çalışır. Sayfadan ürün adını çıkarır, aceleEtme'nin
 // /api/compare endpoint'ine sorar ve sonucu küçük bir widget olarak gösterir.
 
-const ACELEETME_API_BASE = "https://aceleetme.com";
+const ACELEETME_API_BASE = "https://www.aceleetme.tech";
 
 function cleanTitle(raw) {
   if (!raw) return "";
