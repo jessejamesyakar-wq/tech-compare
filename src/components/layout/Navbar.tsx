@@ -7,7 +7,6 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { useI18n } from '@/lib/i18n/context';
 import { useCompare } from '@/context/CompareContext';
 import { Language } from '@/lib/types';
-import { searchProducts } from '@/lib/data';
 import { Product } from '@/lib/types';
 import { Logo } from './Logo';
 import { CategoryBar } from './CategoryBar';
@@ -37,17 +36,31 @@ export function Navbar() {
   const searchContainerRef = useRef<HTMLDivElement>(null);
   const mobileSearchContainerRef = useRef<HTMLDivElement>(null);
 
-  // Real-time live product search
+  // Real-time live product search via lightweight API route
   useEffect(() => {
-    if (query.trim().length > 1) {
-      searchProducts(query).then((res) => {
-        setSearchResults(res);
-        setSelectedIndex(-1);
-      });
+    let isMounted = true;
+    const trimmed = query.trim();
+
+    if (trimmed.length > 1) {
+      fetch(`/api/search?q=${encodeURIComponent(trimmed)}`)
+        .then((res) => (res.ok ? res.json() : []))
+        .then((data: Product[]) => {
+          if (isMounted) {
+            setSearchResults(Array.isArray(data) ? data : []);
+            setSelectedIndex(-1);
+          }
+        })
+        .catch(() => {
+          if (isMounted) setSearchResults([]);
+        });
     } else {
       setSearchResults([]);
       setSelectedIndex(-1);
     }
+
+    return () => {
+      isMounted = false;
+    };
   }, [query]);
 
   // Global ⌘K / Ctrl+K keyboard shortcut listener & TV D-Pad / Arrow keys navigation

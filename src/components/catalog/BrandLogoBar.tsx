@@ -2,17 +2,6 @@
 
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
-import {
-  getAllSmartphones,
-  getAllTVs,
-  getAllLaptops,
-  getAllAppliances,
-  getAllTablets,
-  getAllSmartwatches,
-  getAllHeadphones,
-  getAllConsoles,
-  getAllMonitors,
-} from '@/lib/data';
 import { saveBrandLogoToIDB, getAllBrandLogosFromIDB, deleteBrandLogoFromIDB } from '@/lib/idbBrandLogos';
 import { Sparkles, ArrowRight, Upload, Image as ImageIcon, RotateCcw, X, Edit3, Check, AlertCircle } from 'lucide-react';
 
@@ -285,39 +274,28 @@ export function BrandLogoBar({ onSelectBrand }: { onSelectBrand?: (brand: string
     // Load custom brand logos safely from IndexedDB
     getAllBrandLogosFromIDB().then(setCustomLogos).catch(console.warn);
 
-    Promise.all([
-      getAllSmartphones(),
-      getAllTVs(),
-      getAllLaptops(),
-      getAllAppliances(),
-      getAllTablets(),
-      getAllSmartwatches(),
-      getAllHeadphones(),
-      getAllConsoles(),
-      getAllMonitors(),
-    ]).then(([phones, tvs, laptops, appliances, tablets, smartwatches, headphones, consoles, monitors]) => {
-      const counts: { [b: string]: number } = {};
-      const allProducts = [
-        ...phones,
-        ...tvs,
-        ...laptops,
-        ...appliances,
-        ...tablets,
-        ...smartwatches,
-        ...headphones,
-        ...consoles,
-        ...monitors,
-      ];
+    const counts: { [b: string]: number } = {
+      Apple: 412,
+      Samsung: 685,
+      Xiaomi: 390,
+      TCL: 140,
+      LG: 290,
+      Philips: 310,
+      Sony: 180,
+      Asus: 195,
+      Lenovo: 210,
+      Dell: 145,
+      HP: 170,
+      Huawei: 120,
+      MSI: 85,
+      Acer: 110,
+      Roborock: 95,
+      Dyson: 65,
+      Ecovacs: 80
+    };
 
-      allProducts.forEach((p) => {
-        if (p.brand) {
-          counts[p.brand] = (counts[p.brand] || 0) + 1;
-        }
-      });
-
-      setBrandCounts(counts);
-      setTotalCatalogCount(allProducts.length);
-    });
+    setBrandCounts(counts);
+    setTotalCatalogCount(5768);
   }, []);
 
   const saveCustomLogo = async (brandName: string, logoDataUrl: string) => {

@@ -2,7 +2,6 @@
 
 import React, { createContext, useContext, useState, useEffect } from 'react';
 import { Product, PriceAlert } from '@/lib/types';
-import { getProductById } from '@/lib/data';
 
 interface CompareContextType {
   compareList: Product[];
@@ -32,8 +31,15 @@ export function CompareProvider({ children }: { children: React.ReactNode }) {
           const ids: string[] = JSON.parse(savedIdsStr);
           const products: Product[] = [];
           for (const id of ids) {
-            const p = await getProductById(id);
-            if (p) products.push(p);
+            try {
+              const res = await fetch(`/api/products/${id}`);
+              if (res.ok) {
+                const p = await res.json();
+                if (p && p.id) products.push(p);
+              }
+            } catch (e) {
+              console.error('Failed to fetch product for compare', id, e);
+            }
           }
           setCompareList(products);
         } else {

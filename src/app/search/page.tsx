@@ -4,7 +4,6 @@ import { useI18n } from '@/lib/i18n/context';
 import React, { useState, useEffect, Suspense } from 'react';
 import Link from 'next/link';
 import { useSearchParams, useRouter } from 'next/navigation';
-import { searchProducts } from '@/lib/data';
 import { Product } from '@/lib/types';
 import { useCompare } from '@/context/CompareContext';
 import { Search, ChevronRight, Scale, Check, Filter, Sparkles, ShoppingBag, Award, ArrowUpDown, RefreshCw } from 'lucide-react';
@@ -25,12 +24,15 @@ function SearchContent() {
 
   useEffect(() => {
     setQueryInput(queryParam);
-    if (queryParam.trim()) {
+    const trimmed = queryParam.trim();
+    if (trimmed) {
       setLoading(true);
-      searchProducts(queryParam)
-        .then((res) => {
-          setResults(res);
+      fetch(`/api/search?q=${encodeURIComponent(trimmed)}`)
+        .then((res) => (res.ok ? res.json() : []))
+        .then((data: Product[]) => {
+          setResults(Array.isArray(data) ? data : []);
         })
+        .catch(() => setResults([]))
         .finally(() => setLoading(false));
     } else {
       setResults([]);
