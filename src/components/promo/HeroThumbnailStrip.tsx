@@ -53,18 +53,18 @@ export function HeroThumbnailStrip({ items, activeIndex, onSelect }: HeroThumbna
   };
 
   return (
-    <div className="relative w-full bg-slate-100/90 border border-slate-200/80 rounded-2xl p-2.5 sm:p-3 shadow-2xs my-3 group/strip overflow-hidden">
+    <div className="relative w-full bg-white/95 backdrop-blur-md border border-slate-200 rounded-2xl sm:rounded-3xl p-2.5 sm:p-4 shadow-md hover:shadow-lg transition-all duration-300 my-3 sm:my-4 group/strip overflow-hidden">
       
       {/* Left Edge Fade Overlay (Appears when scrolled right) */}
       <div
-        className={`absolute left-0 top-0 bottom-0 w-16 sm:w-20 rounded-l-2xl bg-gradient-to-r from-slate-100 via-slate-100/80 to-transparent pointer-events-none z-10 transition-opacity duration-300 ${
+        className={`absolute left-0 top-0 bottom-0 w-12 sm:w-20 rounded-l-2xl sm:rounded-l-3xl bg-gradient-to-r from-white via-white/80 to-transparent pointer-events-none z-10 transition-opacity duration-300 ${
           showLeftFade ? 'opacity-100' : 'opacity-0'
         }`}
       />
 
       {/* Right Edge Fade Overlay (Netflix/Apple style soft scroll fade overlay) */}
       <div
-        className={`absolute right-0 top-0 bottom-0 w-16 sm:w-24 rounded-r-2xl bg-gradient-to-l from-slate-100 via-slate-100/85 to-transparent pointer-events-none z-10 transition-opacity duration-300 ${
+        className={`absolute right-0 top-0 bottom-0 w-12 sm:w-24 rounded-r-2xl sm:rounded-r-3xl bg-gradient-to-l from-white via-white/85 to-transparent pointer-events-none z-10 transition-opacity duration-300 ${
           showRightFade ? 'opacity-100' : 'opacity-0'
         }`}
       />
@@ -72,7 +72,7 @@ export function HeroThumbnailStrip({ items, activeIndex, onSelect }: HeroThumbna
       {/* Scroll Left Arrow Button */}
       <button
         onClick={scrollLeft}
-        className="absolute left-2 top-1/2 -translate-y-1/2 z-20 w-8 h-8 rounded-full bg-white hover:bg-emerald-600 hover:text-white text-slate-800 shadow-md border border-slate-200 flex items-center justify-center transition-all opacity-0 group-hover/strip:opacity-100 cursor-pointer"
+        className="absolute left-2 top-1/2 -translate-y-1/2 z-20 w-8 h-8 rounded-full bg-white hover:bg-emerald-600 hover:text-white text-slate-800 shadow-md border border-slate-200 hidden sm:flex items-center justify-center transition-all opacity-0 group-hover/strip:opacity-100 cursor-pointer"
         title="Sola Kaydır"
       >
         <ChevronLeft className="w-4 h-4 stroke-[3]" />
@@ -81,7 +81,7 @@ export function HeroThumbnailStrip({ items, activeIndex, onSelect }: HeroThumbna
       {/* Horizontal Scroll Track */}
       <div
         ref={scrollContainerRef}
-        className="flex items-center gap-2.5 overflow-x-auto no-scrollbar scroll-smooth px-1"
+        className="flex items-center gap-2 sm:gap-2.5 overflow-x-auto no-scrollbar scroll-smooth px-1"
       >
         {items.map((item, idx) => {
           const isActive = activeIndex === idx;
@@ -89,24 +89,24 @@ export function HeroThumbnailStrip({ items, activeIndex, onSelect }: HeroThumbna
             <button
               key={item.id}
               onClick={() => onSelect(idx)}
-              className={`group relative flex flex-col items-center justify-between w-24 sm:w-28 h-24 sm:h-28 rounded-xl p-2 transition-all duration-200 shrink-0 cursor-pointer text-left ${
+              className={`group relative flex flex-col items-center justify-between w-20 sm:w-28 h-20 sm:h-28 rounded-xl sm:rounded-2xl p-1.5 sm:p-2.5 transition-all duration-200 shrink-0 cursor-pointer text-left ${
                 isActive
-                  ? 'bg-white border-2 border-emerald-500 shadow-md scale-105 z-10'
-                  : 'bg-white/90 hover:bg-white border border-slate-200/90 hover:border-slate-300 shadow-2xs opacity-85 hover:opacity-100'
+                  ? 'bg-emerald-50/90 border-2 border-emerald-500 shadow-lg scale-105 z-10'
+                  : 'bg-slate-50/80 hover:bg-white border border-slate-200/90 hover:border-emerald-400 shadow-xs opacity-90 hover:opacity-100'
               }`}
               title={`${item.name} - ${item.price}`}
             >
               {/* Product Image Stage */}
-              <div className="w-full h-12 sm:h-14 flex items-center justify-center overflow-hidden">
-                <Image src={item.image} alt={item.name} width={64} height={64} loading="lazy" className="max-h-full max-w-full object-contain group-hover:scale-105 transition-transform duration-200" />
+              <div className="w-full h-10 sm:h-14 flex items-center justify-center overflow-hidden">
+                <Image src={item.image} alt={item.name} width={56} height={56} loading="lazy" className="max-h-full max-w-full object-contain group-hover:scale-105 transition-transform duration-200" />
               </div>
 
               {/* Single Line Truncated Product Title & Price */}
-              <div className="w-full text-center space-y-0.5 mt-1">
-                <span className="text-[10px] font-bold text-slate-800 truncate block leading-tight px-0.5">
+              <div className="w-full text-center space-y-0.5 mt-0.5">
+                <span className="text-[9px] sm:text-[10px] font-bold text-slate-800 truncate block leading-tight px-0.5">
                   {item.name}
                 </span>
-                <span className={`text-[10px] font-black tracking-tight block tabular-nums ${
+                <span className={`text-[9px] sm:text-[10px] font-black tracking-tight block tabular-nums ${
                   isActive ? 'text-emerald-700 font-black' : 'text-slate-900'
                 }`}>
                   {item.price}
