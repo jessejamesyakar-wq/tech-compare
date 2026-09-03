@@ -6,7 +6,6 @@ import { useSearchParams } from 'next/navigation';
 import Link from 'next/link';
 import { useI18n } from '@/lib/i18n/context';
 import { useCompare } from '@/context/CompareContext';
-import { getProductById, getAllProducts } from '@/lib/data';
 import { Product, Smartphone, TVProduct, LaptopProduct } from '@/lib/types';
 import { CompareMatrix } from '@/components/compare/CompareMatrix';
 import {
@@ -58,22 +57,48 @@ function CompareContent() {
   const p1 = searchParams.get('p1') || searchParams.get('phone1') || searchParams.get('product1') || searchParams.get('id1');
   const p2 = searchParams.get('p2') || searchParams.get('phone2') || searchParams.get('product2') || searchParams.get('id2');
 
+  const fetchProduct = async (id: string): Promise<Product | null> => {
+    try {
+      const res = await fetch(`/api/products/${id}`);
+      if (res.ok) return await res.json();
+    } catch (e) {
+      console.error('Failed to fetch product for comparison', id, e);
+    }
+    return null;
+  };
+
   useEffect(() => {
-    getAllProducts().then((res) => {
-      setAllProducts(res);
-    });
+    // Fetch initial modal products via search API
+    fetch('/api/search?q=a')
+      .then((r) => (r.ok ? r.json() : []))
+      .then((data: Product[]) => {
+        if (Array.isArray(data)) setAllProducts(data);
+      })
+      .catch(() => {});
   }, []);
+
+  // Update modal search when user types
+  useEffect(() => {
+    if (searchQuery.trim().length > 1) {
+      fetch(`/api/search?q=${encodeURIComponent(searchQuery.trim())}`)
+        .then((r) => (r.ok ? r.json() : []))
+        .then((data: Product[]) => {
+          if (Array.isArray(data)) setAllProducts(data);
+        })
+        .catch(() => {});
+    }
+  }, [searchQuery]);
 
   useEffect(() => {
     async function loadFromUrl() {
       if (p1 || p2) {
         const list: Product[] = [];
         if (p1) {
-          const res1 = await getProductById(p1);
+          const res1 = await fetchProduct(p1);
           if (res1) list.push(res1);
         }
         if (p2) {
-          const res2 = await getProductById(p2);
+          const res2 = await fetchProduct(p2);
           if (res2) list.push(res2);
         }
         if (list.length > 0) {
@@ -84,8 +109,8 @@ function CompareContent() {
       if (compareList.length > 0) {
         setSelectedProducts(compareList);
       } else {
-        const p1Item = await getProductById('iphone-16-pro-max');
-        const p2Item = await getProductById('samsung-galaxy-s24-ultra');
+        const p1Item = await fetchProduct('apple-apple-iphone-16-pro-max-1-tb-960862') || await fetchProduct('iphone-16-pro-max');
+        const p2Item = await fetchProduct('samsung-samsung-galaxy-s24-ultra-95') || await fetchProduct('samsung-galaxy-s24-ultra');
         if (p1Item && p2Item) {
           setSelectedProducts([p1Item, p2Item]);
         }
@@ -95,8 +120,8 @@ function CompareContent() {
   }, [p1, p2, compareList]);
 
   const handleSelectPreset = async (id1: string, id2: string) => {
-    const item1 = await getProductById(id1);
-    const item2 = await getProductById(id2);
+    const item1 = await fetchProduct(id1);
+    const item2 = await fetchProduct(id2);
     if (item1 && item2) {
       setSelectedProducts([item1, item2]);
     }

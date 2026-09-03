@@ -4,7 +4,6 @@ import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Product } from '@/lib/types';
-import { getDynamicCategoryDistributionProducts, DynamicCategoryDistribution } from '@/lib/data';
 import { useCompare } from '@/context/CompareContext';
 import { useI18n } from '@/lib/i18n/context';
 import { TiltCard } from '@/components/ui/TiltCard';
@@ -112,27 +111,25 @@ const DYNAMIC_BADGES = [
   { text: '✨ Çok Satan', style: 'bg-blue-50 text-blue-700 border-blue-200' }
 ];
 
-export function DynamicCategoryShowcase() {
+export interface DynamicCategoryDistribution {
+  total: number;
+  items: Product[];
+  categoryBreakdown: Record<string, { count: number; ratio: number; items: Product[] }>;
+}
+
+export function DynamicCategoryShowcase({ initialData }: { initialData?: DynamicCategoryDistribution }) {
   const { t } = useI18n();
   const { addToCompare, removeFromCompare, isInCompare } = useCompare();
-  const [distributionData, setDistributionData] = useState<DynamicCategoryDistribution | null>(null);
+  const [distributionData, setDistributionData] = useState<DynamicCategoryDistribution | null>(initialData || null);
   const [activeFilter, setActiveFilter] = useState<string>('all');
-  const [isLoading, setIsLoading] = useState<boolean>(true);
+  const [isLoading, setIsLoading] = useState<boolean>(!initialData);
 
   useEffect(() => {
-    async function load() {
-      try {
-        setIsLoading(true);
-        const res = await getDynamicCategoryDistributionProducts(24);
-        setDistributionData(res);
-      } catch (e) {
-        console.error('Failed to load dynamic distribution showcase:', e);
-      } finally {
-        setIsLoading(false);
-      }
+    if (initialData) {
+      setDistributionData(initialData);
+      setIsLoading(false);
     }
-    load();
-  }, []);
+  }, [initialData]);
 
   if (isLoading || !distributionData) {
     return (
