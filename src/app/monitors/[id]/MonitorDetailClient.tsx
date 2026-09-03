@@ -32,7 +32,7 @@ export default function MonitorDetailClient({ initialProduct }: { initialProduct
   if (!initialProduct) {
     return (
       <div className="text-center py-20 space-y-4">
-        <h1 className="text-2xl font-black text-slate-900">Ürün Bulunamadı</h1>
+        <h2 className="text-2xl font-black text-slate-900">Ürün Bulunamadı</h2>
         <p className="text-xs text-slate-500">Aradığınız monitör mevcut değil veya kaldırılmış olabilir.</p>
         <Link href="/monitors" className="inline-flex items-center gap-2 bg-emerald-600 text-white text-xs font-bold px-6 py-3 rounded-full">
           <ArrowLeft className="w-4 h-4" />
