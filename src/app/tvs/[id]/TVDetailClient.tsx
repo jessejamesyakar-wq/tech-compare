@@ -3,18 +3,29 @@
 import { ProductJsonLd } from '@/components/seo/ProductJsonLd';
 import React, { useState } from 'react';
 import Link from 'next/link';
+import dynamic from 'next/dynamic';
 import { TVProduct } from '@/lib/types';
 import { useCompare } from '@/context/CompareContext';
 import { StoreTable } from '@/components/detail/StoreTable';
-import { PriceHistoryChart } from '@/components/detail/PriceHistoryChart';
 import { CompactStoreComparison } from '@/components/detail/CompactStoreComparison';
 import { ProductImageGallery } from '@/components/detail/ProductImageGallery';
 import { StickyHeaderBar } from '@/components/detail/StickyHeaderBar';
-import { PriceAlertModal } from '@/components/detail/PriceAlertModal';
-import { BrandLogoBar } from '@/components/catalog/BrandLogoBar';
-import { TVSpecSheet } from '@/components/detail/TVSpecSheet';
 import { TVScoreBreakdown } from '@/components/detail/TVScoreBreakdown';
 import { calculateTVScore } from '@/lib/tvScoring';
+
+const PriceHistoryChart = dynamic(
+  () => import('@/components/detail/PriceHistoryChart').then((m) => m.PriceHistoryChart),
+  { loading: () => <div className="h-64 bg-slate-50 rounded-3xl animate-pulse" /> }
+);
+const TVSpecSheet = dynamic(
+  () => import('@/components/detail/TVSpecSheet').then((m) => m.TVSpecSheet),
+  { loading: () => <div className="h-64 bg-slate-50 rounded-3xl animate-pulse" /> }
+);
+const PriceAlertModal = dynamic(
+  () => import('@/components/detail/PriceAlertModal').then((m) => m.PriceAlertModal),
+  { ssr: false }
+);
+const BrandLogoBar = dynamic(() => import('@/components/catalog/BrandLogoBar').then((m) => m.BrandLogoBar));
 import {
   Tv,
   Star,

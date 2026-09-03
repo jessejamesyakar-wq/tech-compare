@@ -1,12 +1,14 @@
 'use client';
 
 import { ProductJsonLd } from '@/components/seo/ProductJsonLd';
+import Image from 'next/image';
+import dynamic from 'next/dynamic';
 import React, { useState } from 'react';
 import Link from 'next/link';
 import { Product } from '@/lib/types';
 import { StoreTable } from '@/components/detail/StoreTable';
-import { PriceHistoryChart } from '@/components/detail/PriceHistoryChart';
-import { PriceAlertModal } from '@/components/detail/PriceAlertModal';
+const PriceHistoryChart = dynamic(() => import('@/components/detail/PriceHistoryChart').then(m => m.PriceHistoryChart), { loading: () => <div className="h-64 bg-slate-50 rounded-3xl animate-pulse" /> });
+const PriceAlertModal = dynamic(() => import('@/components/detail/PriceAlertModal').then(m => m.PriceAlertModal), { ssr: false });
 import { StickyHeaderBar } from '@/components/detail/StickyHeaderBar';
 import { useCompare } from '@/context/CompareContext';
 import {
@@ -55,11 +57,7 @@ export default function HeadphonesDetailClient({ initialProduct }: { initialProd
 
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
           <div className="lg:col-span-6 bg-white border border-slate-200/80 rounded-3xl p-6 sm:p-8 flex items-center justify-center min-h-[380px] shadow-sm">
-            <img
-              src={product.image}
-              alt={product.name}
-              className="max-h-[340px] w-auto object-contain drop-shadow-md hover:scale-105 transition-transform duration-300"
-            />
+            <Image src={product.image} alt={product.name} width={420} height={420} priority={true} sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 420px" className="max-h-[340px] w-auto object-contain drop-shadow-md hover:scale-105 transition-transform duration-300" />
           </div>
 
           <div className="lg:col-span-6 space-y-6">

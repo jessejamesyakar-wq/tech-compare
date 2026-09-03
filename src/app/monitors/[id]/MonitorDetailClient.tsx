@@ -1,6 +1,8 @@
 'use client';
 
 import { ProductJsonLd } from '@/components/seo/ProductJsonLd';
+import Image from 'next/image';
+import dynamic from 'next/dynamic';
 import React, { useState } from 'react';
 import Link from 'next/link';
 import { Product } from '@/lib/types';
@@ -64,11 +66,7 @@ export default function MonitorDetailClient({ initialProduct }: { initialProduct
         {/* Left: Gallery (5 Cols) */}
         <div className="lg:col-span-5 space-y-4">
           <div className="w-full h-80 sm:h-96 rounded-2xl bg-slate-50 border border-slate-100 p-6 flex items-center justify-center relative overflow-hidden">
-            <img
-              src={images[selectedImage]}
-              alt={initialProduct.name}
-              className="max-h-full max-w-full object-contain drop-shadow-md"
-            />
+            <Image src={images[selectedImage]} alt={initialProduct.name} width={420} height={420} priority={true} sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 420px" className="max-h-full max-w-full object-contain drop-shadow-md" />
 
             {/* Score Badge */}
             <div className="absolute top-3 left-3 bg-slate-900 text-white text-xs font-black px-3 py-1 rounded-xl flex items-center gap-1.5 shadow-md">

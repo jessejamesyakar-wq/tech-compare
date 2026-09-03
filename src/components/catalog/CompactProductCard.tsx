@@ -2,6 +2,7 @@
 
 import React from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { Product } from '@/lib/types';
 import { ArrowRight, Store } from 'lucide-react';
 import { TiltCard } from '@/components/ui/TiltCard';
@@ -126,11 +127,14 @@ export function CompactProductCard({
     <TiltCard className="group bg-white border border-slate-200/90 hover:border-emerald-500/50 rounded-2xl sm:rounded-3xl p-3 sm:p-4.5 transition-all duration-300 shadow-xs hover:shadow-xl flex flex-col justify-between">
       {/* Product Image Box */}
       <Link href={href} className="block relative mb-1.5 sm:mb-2">
-        <div className="w-full h-36 xs:h-40 sm:h-52 bg-slate-50/90 rounded-xl sm:rounded-2xl p-2.5 sm:p-4 flex items-center justify-center overflow-hidden border border-slate-100 group-hover:bg-slate-100/60 transition-colors">
-          <img
+        <div className="w-full h-36 xs:h-40 sm:h-52 bg-slate-50/90 rounded-xl sm:rounded-2xl p-2.5 sm:p-4 flex items-center justify-center overflow-hidden border border-slate-100 group-hover:bg-slate-100/60 transition-colors relative">
+          <Image
             src={imgSrc}
             alt={product.name}
+            width={220}
+            height={220}
             loading="lazy"
+            sizes="(max-width: 640px) 45vw, (max-width: 1024px) 30vw, 220px"
             onError={() => setImgSrc(fallbackImg)}
             className="max-h-full max-w-full w-auto h-auto object-contain group-hover:scale-105 transition-transform duration-300 ease-out drop-shadow-xs"
           />

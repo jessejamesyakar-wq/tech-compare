@@ -1,16 +1,18 @@
 'use client';
 
 import { ProductJsonLd } from '@/components/seo/ProductJsonLd';
+import Image from 'next/image';
+import dynamic from 'next/dynamic';
 import React, { useState } from 'react';
 import Link from 'next/link';
 import { LaptopProduct } from '@/lib/types';
 import { StoreTable } from '@/components/detail/StoreTable';
-import { PriceHistoryChart } from '@/components/detail/PriceHistoryChart';
-import { PriceAlertModal } from '@/components/detail/PriceAlertModal';
+const PriceHistoryChart = dynamic(() => import('@/components/detail/PriceHistoryChart').then(m => m.PriceHistoryChart), { loading: () => <div className="h-64 bg-slate-50 rounded-3xl animate-pulse" /> });
+const PriceAlertModal = dynamic(() => import('@/components/detail/PriceAlertModal').then(m => m.PriceAlertModal), { ssr: false });
 import { StickyHeaderBar } from '@/components/detail/StickyHeaderBar';
-import { BrandLogoBar } from '@/components/catalog/BrandLogoBar';
+const BrandLogoBar = dynamic(() => import('@/components/catalog/BrandLogoBar').then(m => m.BrandLogoBar));
 import { useCompare } from '@/context/CompareContext';
-import { LaptopSpecSheet } from '@/components/detail/LaptopSpecSheet';
+const LaptopSpecSheet = dynamic(() => import('@/components/detail/LaptopSpecSheet').then(m => m.LaptopSpecSheet), { loading: () => <div className="h-64 bg-slate-50 rounded-3xl animate-pulse" /> });
 import {
   Star,
   Scale,
@@ -61,11 +63,7 @@ export default function LaptopDetailClient({ initialLaptopProduct }: { initialLa
         
         {/* Product Image Stage */}
         <div className="lg:col-span-5 flex flex-col items-center justify-center bg-slate-50/80 rounded-3xl p-8 border border-slate-100 relative group">
-          <img
-            src={laptop.image}
-            alt={laptop.name}
-            className="max-h-72 object-contain group-hover:scale-105 transition-transform duration-300"
-          />
+          <Image src={laptop.image} alt={laptop.name} width={420} height={420} priority={true} sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 420px" className="max-h-72 object-contain group-hover:scale-105 transition-transform duration-300" />
         </div>
 
         {/* Info & CTA Panel */}

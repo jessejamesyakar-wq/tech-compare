@@ -1,6 +1,7 @@
 'use client';
 
 import React, { useState } from 'react';
+import Image from 'next/image';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Product } from '@/lib/types';
 import { Maximize2, Zap, ChevronLeft, ChevronRight, Image as ImageIcon, X } from 'lucide-react';
@@ -19,6 +20,7 @@ export function ProductImageGallery({ product, activeColorImage }: ProductImageG
 
   const [activeIndex, setActiveIndex] = useState<number>(0);
   const [isZoomOpen, setIsZoomOpen] = useState(false);
+  const [imgError, setImgError] = useState(false);
 
   // Sync active image when activeColorImage changes
   React.useEffect(() => {
@@ -29,13 +31,15 @@ export function ProductImageGallery({ product, activeColorImage }: ProductImageG
     }
   }, [activeColorImage]);
 
-  const activeImage = activeColorImage || allImages[activeIndex] || defaultImage;
+  const activeImage = imgError ? defaultImage : (activeColorImage || allImages[activeIndex] || defaultImage);
 
   const handlePrev = () => {
+    setImgError(false);
     setActiveIndex((prev) => (prev === 0 ? allImages.length - 1 : prev - 1));
   };
 
   const handleNext = () => {
+    setImgError(false);
     setActiveIndex((prev) => (prev === allImages.length - 1 ? 0 : prev + 1));
   };
 
@@ -90,21 +94,29 @@ export function ProductImageGallery({ product, activeColorImage }: ProductImageG
           <Maximize2 className="w-4 h-4" />
         </button>
 
-        {/* Animated Active Image with Original Untouched Colors */}
+        {/* Optimized Active Hero Image with Priority & Native Next.js Image Optimization */}
         <AnimatePresence mode="wait">
-          <motion.img
+          <motion.div
             key={activeImage}
             initial={{ opacity: 0, scale: 0.96 }}
             animate={{ opacity: 1, scale: 1 }}
             exit={{ opacity: 0, scale: 0.96 }}
             transition={{ duration: 0.2, ease: 'easeOut' }}
-            src={activeImage}
-            onError={(e) => {
-              (e.target as HTMLImageElement).src = defaultImage;
-            }}
-            alt={`${product.name} Görsel ${activeIndex + 1}`}
-            className="h-72 w-auto max-w-full object-contain filter drop-shadow-xs group-hover:scale-105 transition-transform duration-300"
-          />
+            className="relative w-full h-full flex items-center justify-center"
+          >
+            <Image
+              src={activeImage}
+              alt={`${product.name} Görsel ${activeIndex + 1}`}
+              priority={activeIndex === 0}
+              loading={activeIndex === 0 ? 'eager' : 'lazy'}
+              fetchPriority={activeIndex === 0 ? 'high' : 'auto'}
+              width={420}
+              height={420}
+              sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 420px"
+              onError={() => setImgError(true)}
+              className="max-h-72 w-auto max-w-full object-contain filter drop-shadow-xs group-hover:scale-105 transition-transform duration-300"
+            />
+          </motion.div>
         </AnimatePresence>
       </div>
 
@@ -124,14 +136,24 @@ export function ProductImageGallery({ product, activeColorImage }: ProductImageG
               return (
                 <button
                   key={i}
-                  onClick={() => setActiveIndex(i)}
-                  className={`w-16 h-16 rounded-2xl bg-white border p-1 shrink-0 overflow-hidden transition-all cursor-pointer ${
+                  onClick={() => {
+                    setImgError(false);
+                    setActiveIndex(i);
+                  }}
+                  className={`w-16 h-16 rounded-2xl bg-white border p-1 shrink-0 overflow-hidden transition-all cursor-pointer relative ${
                     isActive
                       ? 'border-emerald-600 ring-2 ring-emerald-500/40 shadow-xs scale-105 opacity-100'
                       : 'border-slate-200 hover:border-slate-300 opacity-70 hover:opacity-100'
                   }`}
                 >
-                  <img src={imgUrl} alt={`${product.name} Fotoğraf ${i + 1}`} className="w-full h-full object-contain" />
+                  <Image
+                    src={imgUrl}
+                    alt={`${product.name} Fotoğraf ${i + 1}`}
+                    width={64}
+                    height={64}
+                    loading="lazy"
+                    className="w-full h-full object-contain"
+                  />
                 </button>
               );
             })}
@@ -163,7 +185,15 @@ export function ProductImageGallery({ product, activeColorImage }: ProductImageG
                 <X className="w-3.5 h-3.5" />
                 <span>Kapat</span>
               </button>
-              <img src={activeImage} alt={product.name} className="max-h-[72vh] object-contain rounded-2xl" />
+              <div className="relative w-full max-h-[72vh] flex items-center justify-center">
+                <Image
+                  src={activeImage}
+                  alt={product.name}
+                  width={800}
+                  height={800}
+                  className="max-h-[72vh] w-auto h-auto object-contain rounded-2xl"
+                />
+              </div>
               <div className="mt-3 text-slate-900 font-extrabold text-sm text-center">
                 {product.name} — <span className="text-emerald-600 font-black">Fotoğraf {activeIndex + 1} / {allImages.length}</span>
               </div>

@@ -3,23 +3,38 @@
 import { ProductJsonLd } from '@/components/seo/ProductJsonLd';
 import React, { useState } from 'react';
 import Link from 'next/link';
+import dynamic from 'next/dynamic';
 import { useI18n } from '@/lib/i18n/context';
 import { useCompare } from '@/context/CompareContext';
 import { Smartphone } from '@/lib/types';
 import { StoreTable } from '@/components/detail/StoreTable';
-import { PriceHistoryChart } from '@/components/detail/PriceHistoryChart';
-import { SpecSheet } from '@/components/detail/SpecSheet';
-import { PriceAlertModal } from '@/components/detail/PriceAlertModal';
-import { BentoFeatureCards } from '@/components/detail/BentoFeatureCards';
 import { StickyHeaderBar } from '@/components/detail/StickyHeaderBar';
-import { BrandLogoBar } from '@/components/catalog/BrandLogoBar';
 import { ProductImageGallery } from '@/components/detail/ProductImageGallery';
 import { ProductColorPicker } from '@/components/detail/ProductColorPicker';
 import { CompactStoreComparison } from '@/components/detail/CompactStoreComparison';
 import { AIPriceForecastBadge } from '@/components/ai/AIPriceForecastBadge';
-import { AIReviewSummaryCard } from '@/components/ai/AIReviewSummaryCard';
-import { AIUpgradeAdvisor } from '@/components/ai/AIUpgradeAdvisor';
-import { TechTermExplainer } from '@/components/ai/TechTermExplainer';
+
+// Code-split heavy below-the-fold components
+const PriceHistoryChart = dynamic(
+  () => import('@/components/detail/PriceHistoryChart').then((m) => m.PriceHistoryChart),
+  { loading: () => <div className="h-64 bg-slate-50 rounded-3xl animate-pulse" /> }
+);
+const BentoFeatureCards = dynamic(
+  () => import('@/components/detail/BentoFeatureCards').then((m) => m.BentoFeatureCards),
+  { loading: () => <div className="h-48 bg-slate-50 rounded-3xl animate-pulse" /> }
+);
+const SpecSheet = dynamic(
+  () => import('@/components/detail/SpecSheet').then((m) => m.SpecSheet),
+  { loading: () => <div className="h-64 bg-slate-50 rounded-3xl animate-pulse" /> }
+);
+const PriceAlertModal = dynamic(
+  () => import('@/components/detail/PriceAlertModal').then((m) => m.PriceAlertModal),
+  { ssr: false }
+);
+const BrandLogoBar = dynamic(() => import('@/components/catalog/BrandLogoBar').then((m) => m.BrandLogoBar));
+const AIReviewSummaryCard = dynamic(() => import('@/components/ai/AIReviewSummaryCard').then((m) => m.AIReviewSummaryCard));
+const AIUpgradeAdvisor = dynamic(() => import('@/components/ai/AIUpgradeAdvisor').then((m) => m.AIUpgradeAdvisor));
+const TechTermExplainer = dynamic(() => import('@/components/ai/TechTermExplainer').then((m) => m.TechTermExplainer));
 import {
   Star,
   Scale,

@@ -1,9 +1,5 @@
 import type { Metadata, Viewport } from 'next';
-import '@fontsource/plus-jakarta-sans/400.css';
-import '@fontsource/plus-jakarta-sans/500.css';
-import '@fontsource/plus-jakarta-sans/600.css';
-import '@fontsource/plus-jakarta-sans/700.css';
-import '@fontsource/plus-jakarta-sans/800.css';
+import { Plus_Jakarta_Sans } from 'next/font/google';
 import './globals.css';
 import { I18nProvider } from '@/lib/i18n/context';
 import { CompareProvider } from '@/context/CompareContext';
@@ -12,6 +8,12 @@ import { Navbar } from '@/components/layout/Navbar';
 import { Footer } from '@/components/layout/Footer';
 import { CompareBar } from '@/components/layout/CompareBar';
 import { LogoModal } from '@/components/layout/LogoModal';
+
+const plusJakartaSans = Plus_Jakarta_Sans({
+  subsets: ['latin'],
+  weight: ['400', '500', '600', '700', '800'],
+  display: 'swap',
+});
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://www.aceleetme.tech'),
@@ -53,7 +55,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="tr" className="light">
-      <body className="font-sans bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-slate-50 via-slate-100/70 to-slate-200/50 text-slate-900 min-h-screen flex flex-col justify-between selection:bg-emerald-600 selection:text-white antialiased">
+      <body className={`${plusJakartaSans.className} font-sans bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-slate-50 via-slate-100/70 to-slate-200/50 text-slate-900 min-h-screen flex flex-col justify-between selection:bg-emerald-600 selection:text-white antialiased`}>
         <I18nProvider>
           <CompareProvider>
             <LogoProvider>
