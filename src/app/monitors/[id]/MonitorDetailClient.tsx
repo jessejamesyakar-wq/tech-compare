@@ -1,5 +1,6 @@
 'use client';
 
+import { ProductJsonLd } from '@/components/seo/ProductJsonLd';
 import React, { useState } from 'react';
 import Link from 'next/link';
 import { Product } from '@/lib/types';
@@ -222,6 +223,7 @@ export default function MonitorDetailClient({ initialProduct }: { initialProduct
           <TechTermExplainer />
         </div>
       </div>
+      <ProductJsonLd product={initialProduct as any} />
     </div>
   );
 }

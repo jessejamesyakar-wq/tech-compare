@@ -1,5 +1,6 @@
 'use client';
 
+import { ProductJsonLd } from '@/components/seo/ProductJsonLd';
 import React, { useState } from 'react';
 import Link from 'next/link';
 import { Product } from '@/lib/types';
@@ -157,6 +158,7 @@ export default function ConsolesDetailClient({ initialProduct }: { initialProduc
         isOpen={alertModalOpen}
         onClose={() => setAlertModalOpen(false)}
       />
+      <ProductJsonLd product={product as any} />
     </div>
   );
 }

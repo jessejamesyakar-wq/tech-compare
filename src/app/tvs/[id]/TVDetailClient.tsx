@@ -1,5 +1,6 @@
 'use client';
 
+import { ProductJsonLd } from '@/components/seo/ProductJsonLd';
 import React, { useState } from 'react';
 import Link from 'next/link';
 import { TVProduct } from '@/lib/types';
@@ -273,6 +274,7 @@ export default function TVDetailClient({ initialTVProduct }: { initialTVProduct:
         }}
       />
 
+      <ProductJsonLd product={tv as any} />
     </div>
   );
 }

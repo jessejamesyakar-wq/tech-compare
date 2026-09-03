@@ -1,5 +1,6 @@
 'use client';
 
+import { ProductJsonLd } from '@/components/seo/ProductJsonLd';
 import React, { useState } from 'react';
 import Link from 'next/link';
 import { ApplianceProduct } from '@/lib/types';
@@ -415,6 +416,7 @@ export default function ApplianceDetailClient({ initialApplianceProduct }: { ini
         isOpen={alertModalOpen}
         onClose={() => setAlertModalOpen(false)}
       />
+      <ProductJsonLd product={product as any} />
     </div>
   );
 }

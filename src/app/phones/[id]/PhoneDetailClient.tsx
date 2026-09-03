@@ -1,5 +1,6 @@
 'use client';
 
+import { ProductJsonLd } from '@/components/seo/ProductJsonLd';
 import React, { useState } from 'react';
 import Link from 'next/link';
 import { useI18n } from '@/lib/i18n/context';
@@ -264,6 +265,7 @@ export default function PhoneDetailClient({ initialPhone }: { initialPhone: Smar
         }}
       />
 
+      <ProductJsonLd product={phone as any} />
     </div>
   );
 }
