@@ -1,7 +1,6 @@
-'use client';
-
 import React from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { ArrowRight, ChevronRight, Sparkles } from 'lucide-react';
 
 export interface BannerItem {
@@ -51,11 +50,13 @@ export function CategoryBannerGrid({
             }`}
           >
             {/* Background Lifestyle Image */}
-            <img
+            <Image
               src={item.image}
               alt={item.title}
+              fill
+              sizes={isWide ? "(max-width: 768px) 100vw, 50vw" : "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"}
               loading="lazy"
-              className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 ease-out"
+              className="object-cover group-hover:scale-105 transition-transform duration-500 ease-out"
             />
 
             {/* Gradient Overlay */}

@@ -1,6 +1,7 @@
 'use client';
 
 import React from 'react';
+import Image from 'next/image';
 import { motion } from 'framer-motion';
 import { useLogo } from '@/context/LogoContext';
 import {
@@ -75,9 +76,12 @@ export function Logo({ variant = 'light', size = 'md' }: LogoProps) {
       >
         {logoConfig.type === 'image' && logoConfig.imageUrl ? (
           <div className="w-11 h-11 sm:w-12 sm:h-12 rounded-full flex items-center justify-center overflow-hidden shrink-0">
-            <img
+            <Image
               src={logoConfig.imageUrl}
               alt="aceleEtme Amblem"
+              width={77}
+              height={77}
+              priority={true}
               className="w-full h-full object-contain"
             />
           </div>

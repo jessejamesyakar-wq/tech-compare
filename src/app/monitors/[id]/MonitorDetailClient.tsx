@@ -85,7 +85,7 @@ export default function MonitorDetailClient({ initialProduct }: { initialProduct
                     selectedImage === i ? 'border-emerald-600 ring-2 ring-emerald-500/20' : 'border-slate-200 opacity-70 hover:opacity-100'
                   }`}
                 >
-                  <img src={img} alt="Thumbnail" className="max-h-full max-w-full object-contain" />
+                  <Image src={img} alt="Thumbnail" width={64} height={64} loading="lazy" className="max-h-full max-w-full object-contain" />
                 </button>
               ))}
             </div>

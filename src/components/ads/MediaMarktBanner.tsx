@@ -1,6 +1,7 @@
 'use client';
 
 import React from 'react';
+import Image from 'next/image';
 
 interface MediaMarktBannerProps {
   customImage?: string;
@@ -24,11 +25,14 @@ export function MediaMarktBanner({
       </div>
 
       {/* Banner Görseli */}
-      <div className="relative w-full overflow-hidden rounded-3xl bg-red-600 aspect-[2/1] sm:aspect-[2.1/1] max-h-[300px] flex items-center justify-center">
-        <img
+      <div className="relative w-full overflow-hidden rounded-3xl bg-red-600 aspect-[2/1] sm:aspect-[2.1/1] max-h-[300px] flex items-center justify-center min-h-[140px]">
+        <Image
           src={customImage}
           alt="MediaMarkt Club İndirim Kampanyası"
-          className="w-full h-full object-cover sm:object-contain object-center transition-transform duration-500 group-hover:scale-105"
+          fill
+          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px"
+          loading="lazy"
+          className="object-cover sm:object-contain object-center transition-transform duration-500 group-hover:scale-105"
         />
         {/* Subtle Ambient Hover Glow */}
         <div className="absolute inset-0 bg-gradient-to-t from-black/20 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none" />

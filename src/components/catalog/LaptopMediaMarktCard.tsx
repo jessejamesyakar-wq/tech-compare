@@ -2,6 +2,7 @@
 
 import React from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { LaptopProduct } from '@/lib/types';
 import { useCompare } from '@/context/CompareContext';
 import {
@@ -78,13 +79,12 @@ export function LaptopMediaMarktCard({ laptop, index = 0 }: LaptopMediaMarktCard
 
         {/* Product Image Stage */}
         <Link href={`/laptops/${laptop.slug}`} className="w-full h-44 sm:h-48 bg-slate-50 rounded-2xl p-3 sm:p-4 flex items-center justify-center relative overflow-hidden border border-slate-200/80 group-hover:bg-slate-100/80 group-hover:border-emerald-400 transition-all">
-          <img
+          <Image
             src={laptop.image}
             alt={laptop.name}
+            width={200}
+            height={180}
             loading="lazy"
-            onError={(e) => {
-              (e.target as HTMLImageElement).src = 'https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=800&q=80';
-            }}
             className="max-h-full max-w-full w-auto h-auto object-contain group-hover:scale-105 transition-transform duration-300 ease-out drop-shadow-xs"
           />
         </Link>

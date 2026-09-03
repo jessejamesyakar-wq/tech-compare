@@ -3,6 +3,7 @@
 import { useI18n } from '@/lib/i18n/context';
 import React, { useState, useEffect, Suspense } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { useSearchParams, useRouter } from 'next/navigation';
 import { Product } from '@/lib/types';
 import { useCompare } from '@/context/CompareContext';
@@ -244,9 +245,12 @@ function SearchContent() {
                 <Link href={getProductHref(product)} className="flex flex-col items-center text-center w-full">
                   {/* Product Image Stage */}
                   <div className="w-full h-44 sm:h-48 bg-slate-50 rounded-xl p-3 sm:p-4 flex items-center justify-center overflow-hidden mb-2.5 border border-slate-100 group-hover:bg-slate-100/70 transition-colors">
-                    <img
+                    <Image
                       src={product.image}
                       alt={product.name}
+                      width={200}
+                      height={180}
+                      loading="lazy"
                       className="max-h-full max-w-full w-auto h-auto object-contain group-hover:scale-105 transition-transform duration-300 drop-shadow-xs"
                     />
                   </div>

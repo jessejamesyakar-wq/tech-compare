@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { saveBrandLogoToIDB, getAllBrandLogosFromIDB, deleteBrandLogoFromIDB } from '@/lib/idbBrandLogos';
 import { Sparkles, ArrowRight, Upload, Image as ImageIcon, RotateCcw, X, Edit3, Check, AlertCircle } from 'lucide-react';
 
@@ -417,9 +418,12 @@ export function BrandLogoBar({ onSelectBrand }: { onSelectBrand?: (brand: string
                 className="w-full h-full flex items-center justify-center my-auto"
               >
                 {hasCustomLogo ? (
-                  <img
+                  <Image
                     src={customLogos[brand.name]}
                     alt={`${brand.name} Logosu`}
+                    width={90}
+                    height={32}
+                    loading="lazy"
                     className="max-h-7 sm:max-h-8 max-w-[85%] object-contain transition-transform group-hover:scale-110 duration-300"
                   />
                 ) : (

@@ -1,6 +1,7 @@
 'use client';
 
 import React, { useState, useRef } from 'react';
+import Image from 'next/image';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useLogo } from '@/context/LogoContext';
 import {
@@ -126,9 +127,11 @@ export function LogoModal() {
             </span>
             <div className="flex items-center gap-3 bg-slate-950/80 px-4 py-2 rounded-2xl border border-slate-800 shadow-inner">
               {logoConfig.type === 'image' && logoConfig.imageUrl ? (
-                <img
+                <Image
                   src={logoConfig.imageUrl}
                   alt="Custom Emblem"
+                  width={40}
+                  height={40}
                   className="w-10 h-10 object-contain rounded-xl border border-slate-700 bg-slate-900 p-1"
                 />
               ) : (
