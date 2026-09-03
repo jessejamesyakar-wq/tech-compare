@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from 'next';
 import { Plus_Jakarta_Sans } from 'next/font/google';
 import './globals.css';
+import { Analytics } from '@vercel/analytics/next';
 import { I18nProvider } from '@/lib/i18n/context';
 import { CompareProvider } from '@/context/CompareContext';
 import { LogoProvider } from '@/context/LogoContext';
@@ -74,6 +75,7 @@ export default function RootLayout({
             </LogoProvider>
           </CompareProvider>
         </I18nProvider>
+        <Analytics />
       </body>
     </html>
   );
