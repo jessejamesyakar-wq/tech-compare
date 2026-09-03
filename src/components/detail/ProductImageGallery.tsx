@@ -2,7 +2,6 @@
 
 import React, { useState } from 'react';
 import Image from 'next/image';
-import { motion, AnimatePresence } from 'framer-motion';
 import { Product } from '@/lib/types';
 import { Maximize2, Zap, ChevronLeft, ChevronRight, Image as ImageIcon, X } from 'lucide-react';
 
@@ -95,29 +94,20 @@ export function ProductImageGallery({ product, activeColorImage }: ProductImageG
         </button>
 
         {/* Optimized Active Hero Image with Priority & Native Next.js Image Optimization */}
-        <AnimatePresence mode="wait">
-          <motion.div
-            key={activeImage}
-            initial={{ opacity: 0, scale: 0.96 }}
-            animate={{ opacity: 1, scale: 1 }}
-            exit={{ opacity: 0, scale: 0.96 }}
-            transition={{ duration: 0.2, ease: 'easeOut' }}
-            className="relative w-full h-full flex items-center justify-center"
-          >
-            <Image
-              src={activeImage}
-              alt={`${product.name} Görsel ${activeIndex + 1}`}
-              priority={activeIndex === 0}
-              loading={activeIndex === 0 ? 'eager' : 'lazy'}
-              fetchPriority={activeIndex === 0 ? 'high' : 'auto'}
-              width={420}
-              height={420}
-              sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 420px"
-              onError={() => setImgError(true)}
-              className="max-h-72 w-auto max-w-full object-contain filter drop-shadow-xs group-hover:scale-105 transition-transform duration-300"
-            />
-          </motion.div>
-        </AnimatePresence>
+        <div className="relative w-full h-full flex items-center justify-center transition-all duration-300">
+          <Image
+            src={activeImage}
+            alt={`${product.name} Görsel ${activeIndex + 1}`}
+            priority={activeIndex === 0}
+            loading={activeIndex === 0 ? 'eager' : 'lazy'}
+            fetchPriority={activeIndex === 0 ? 'high' : 'auto'}
+            width={420}
+            height={420}
+            sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 420px"
+            onError={() => setImgError(true)}
+            className="max-h-72 w-auto max-w-full object-contain filter drop-shadow-xs group-hover:scale-105 transition-transform duration-300"
+          />
+        </div>
       </div>
 
       {/* Thumbnail Bar Carousel for All Uploaded Photos */}
@@ -161,46 +151,38 @@ export function ProductImageGallery({ product, activeColorImage }: ProductImageG
         </div>
       )}
 
-      {/* Zoom Full Screen Modal (Clean White Aesthetic & Original Colors) */}
-      <AnimatePresence>
-        {isZoomOpen && (
-          <motion.div
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            exit={{ opacity: 0 }}
-            className="fixed inset-0 z-50 bg-slate-900/40 backdrop-blur-md flex items-center justify-center p-4"
-            onClick={() => setIsZoomOpen(false)}
+      {/* Zoom Full Screen Modal (Pure CSS modal without framer-motion weight) */}
+      {isZoomOpen && (
+        <div
+          className="fixed inset-0 z-50 bg-slate-900/40 backdrop-blur-md flex items-center justify-center p-4 transition-opacity animate-in fade-in duration-200"
+          onClick={() => setIsZoomOpen(false)}
+        >
+          <div
+            className="relative max-w-4xl max-h-[85vh] p-6 bg-white rounded-3xl overflow-hidden shadow-2xl border border-slate-200 flex flex-col items-center animate-in zoom-in-95 duration-200"
+            onClick={(e) => e.stopPropagation()}
           >
-            <motion.div
-              initial={{ scale: 0.9 }}
-              animate={{ scale: 1 }}
-              exit={{ scale: 0.9 }}
-              className="relative max-w-4xl max-h-[85vh] p-6 bg-white rounded-3xl overflow-hidden shadow-2xl border border-slate-200 flex flex-col items-center"
-              onClick={(e) => e.stopPropagation()}
+            <button
+              onClick={() => setIsZoomOpen(false)}
+              className="absolute top-4 right-4 bg-slate-100 hover:bg-slate-200 text-slate-800 px-3.5 py-1.5 rounded-full font-bold text-xs shadow-xs z-10 cursor-pointer flex items-center gap-1"
             >
-              <button
-                onClick={() => setIsZoomOpen(false)}
-                className="absolute top-4 right-4 bg-slate-100 hover:bg-slate-200 text-slate-800 px-3.5 py-1.5 rounded-full font-bold text-xs shadow-xs z-10 cursor-pointer flex items-center gap-1"
-              >
-                <X className="w-3.5 h-3.5" />
-                <span>Kapat</span>
-              </button>
-              <div className="relative w-full max-h-[72vh] flex items-center justify-center">
-                <Image
-                  src={activeImage}
-                  alt={product.name}
-                  width={800}
-                  height={800}
-                  className="max-h-[72vh] w-auto h-auto object-contain rounded-2xl"
-                />
-              </div>
-              <div className="mt-3 text-slate-900 font-extrabold text-sm text-center">
-                {product.name} — <span className="text-emerald-600 font-black">Fotoğraf {activeIndex + 1} / {allImages.length}</span>
-              </div>
-            </motion.div>
-          </motion.div>
-        )}
-      </AnimatePresence>
+              <X className="w-3.5 h-3.5" />
+              <span>Kapat</span>
+            </button>
+            <div className="relative w-full max-h-[72vh] flex items-center justify-center">
+              <Image
+                src={activeImage}
+                alt={product.name}
+                width={800}
+                height={800}
+                className="max-h-[72vh] w-auto h-auto object-contain rounded-2xl"
+              />
+            </div>
+            <div className="mt-3 text-slate-900 font-extrabold text-sm text-center">
+              {product.name} — <span className="text-emerald-600 font-black">Fotoğraf {activeIndex + 1} / {allImages.length}</span>
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 }

@@ -13,9 +13,6 @@ const plusJakartaSans = Plus_Jakarta_Sans({
   subsets: ['latin'],
   weight: ['400', '500', '600', '700', '800'],
   display: 'swap',
-  preload: true,
-  variable: '--font-sans',
-  adjustFontFallback: true,
 });
 
 export const metadata: Metadata = {
@@ -57,13 +54,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="tr" className={`light ${plusJakartaSans.variable}`}>
+    <html lang="tr" className={`light ${plusJakartaSans.className}`}>
       <head>
-        <link rel="preconnect" href="https://images.unsplash.com" crossOrigin="anonymous" />
-        <link rel="dns-prefetch" href="https://images.unsplash.com" />
         <link rel="preconnect" href="https://www.aceleetme.tech" />
       </head>
-      <body className={`${plusJakartaSans.className} font-sans bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-slate-50 via-slate-100/70 to-slate-200/50 text-slate-900 min-h-screen flex flex-col justify-between selection:bg-emerald-600 selection:text-white antialiased`}>
+      <body className="font-sans bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-slate-50 via-slate-100/70 to-slate-200/50 text-slate-900 min-h-screen flex flex-col justify-between selection:bg-emerald-600 selection:text-white antialiased">
         <I18nProvider>
           <CompareProvider>
             <LogoProvider>
