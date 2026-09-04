@@ -1,5 +1,6 @@
 import React from 'react';
 import {
+  getAllProducts,
   getAllSmartphones,
   getAllTVs,
   getPopularComparisonsData,
@@ -12,7 +13,8 @@ import { HomePageClient } from '@/components/home/HomePageClient';
 export const revalidate = 3600; // Revalidate every 1 hour
 
 export default async function HomePage() {
-  const [allPhones, allTVs, popComparisons, showcaseData] = await Promise.all([
+  const [allProducts, allPhones, allTVs, popComparisons, showcaseData] = await Promise.all([
+    getAllProducts(),
     getAllSmartphones(),
     getAllTVs(),
     getPopularComparisonsData(),
@@ -31,11 +33,8 @@ export default async function HomePage() {
     monitors: 634
   };
 
-  // Hero Slides
-  const dynamicHeroSlides = getDynamicHeroSlides([
-    ...allPhones.slice(0, 15),
-    ...allTVs.slice(0, 15)
-  ]);
+  // Hero Slides showcasing top-tier flagships across all categories
+  const dynamicHeroSlides = getDynamicHeroSlides(allProducts);
 
   // Mixed 16-card Discount Grid
   const topPhones = [...allPhones].sort((a, b) => (b.rating || 0) - (a.rating || 0)).slice(0, 10);
