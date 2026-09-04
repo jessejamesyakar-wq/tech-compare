@@ -28506,7 +28506,10 @@ export const mockTVs: Product[] = [
     "category": "tvs",
     "image": "/images/products/tvs/tv-lg-oled83m49la.jpg",
     "images": [
-      "/images/products/tvs/tv-lg-oled83m49la.jpg"
+            "/images/products/tvs/tv-lg-oled83m49la.jpg",
+            "/images/products/tvs/tv-lg-oled83m49la-angle.jpg",
+            "/images/products/tvs/tv-lg-oled83m49la-box.jpg",
+            "/images/products/tvs/tv-lg-oled83m49la-side.jpg"
     ],
     "rating": 9.3,
     "reviewCount": 35,
