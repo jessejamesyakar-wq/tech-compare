@@ -37,7 +37,21 @@ export function Navbar() {
   const searchContainerRef = useRef<HTMLDivElement>(null);
   const mobileSearchContainerRef = useRef<HTMLDivElement>(null);
 
-  // Real-time live product search via lightweight API route
+  // Helper for generating category-specific URLs
+  const getProductUrl = (item: Product) => {
+    const slug = item.slug || item.id;
+    if (item.category === 'tvs') return `/tvs/${slug}`;
+    if (item.category === 'laptops') return `/laptops/${slug}`;
+    if (item.category === 'appliances') return `/appliances/${slug}`;
+    if (item.category === 'tablets') return `/tablets/${slug}`;
+    if (item.category === 'smartwatches') return `/smartwatches/${slug}`;
+    if (item.category === 'headphones') return `/headphones/${slug}`;
+    if (item.category === 'consoles') return `/consoles/${slug}`;
+    if (item.category === 'monitors') return `/monitors/${slug}`;
+    return `/phones/${slug}`;
+  };
+
+  // Real-time live product search
   useEffect(() => {
     let isMounted = true;
     const trimmed = query.trim();
@@ -81,7 +95,7 @@ export function Navbar() {
         mobileInputRef.current?.blur();
       }
 
-      // TV / Keyboard Arrow navigation inside results
+      // Keyboard Arrow navigation inside results
       if (isFocused && searchResults.length > 0) {
         if (e.key === 'ArrowDown') {
           e.preventDefault();
@@ -91,14 +105,17 @@ export function Navbar() {
           setSelectedIndex((prev) => (prev > 0 ? prev - 1 : searchResults.length - 1));
         } else if (e.key === 'Enter' && selectedIndex >= 0 && searchResults[selectedIndex]) {
           e.preventDefault();
-          handleSelectResult(searchResults[selectedIndex]);
+          const targetItem = searchResults[selectedIndex];
+          setQuery('');
+          setIsFocused(false);
+          router.push(getProductUrl(targetItem));
         }
       }
     };
 
     window.addEventListener('keydown', handleKeyDown);
     return () => window.removeEventListener('keydown', handleKeyDown);
-  }, [isFocused, searchResults, selectedIndex]);
+  }, [isFocused, searchResults, selectedIndex, router]);
 
   // Close dropdown when clicking outside
   useEffect(() => {
@@ -131,67 +148,12 @@ export function Navbar() {
     }
   };
 
-  const handleSelectResult = (item: Product) => {
-    setQuery('');
-    setIsFocused(false);
-    
-    if (item.category === 'tvs') {
-      router.push(`/tvs/${item.slug || item.id}`);
-    } else if (item.category === 'laptops') {
-      router.push(`/laptops/${item.slug || item.id}`);
-    } else if (item.category === 'appliances') {
-      router.push(`/appliances/${item.slug || item.id}`);
-    } else if (item.category === 'tablets') {
-      router.push(`/tablets/${item.slug || item.id}`);
-    } else if (item.category === 'smartwatches') {
-      router.push(`/smartwatches/${item.slug || item.id}`);
-    } else if (item.category === 'headphones') {
-      router.push(`/headphones/${item.slug || item.id}`);
-    } else if (item.category === 'consoles') {
-      router.push(`/consoles/${item.slug || item.id}`);
-    } else if (item.category === 'monitors') {
-      router.push(`/monitors/${item.slug || item.id}`);
-    } else {
-      router.push(`/phones/${item.slug || item.id}`);
-    }
-  };
-
-  const popularQuickTags = ['iPhone 17', 'LG OLED', 'Samsung S26', 'MacBook Pro', 'PS5 Pro', 'Dyson V15'];
-
-  // Reusable Search Results List Renderer
+  // Live Search Results List Renderer (No popular searches box when empty)
   const renderDropdownResults = () => {
     if (!isFocused) return null;
+    const trimmed = query.trim();
+    if (trimmed.length === 0) return null;
 
-    // 1. Show Popular Quick Tags when query is empty
-    if (query.trim().length === 0) {
-      return (
-        <div
-          className="absolute top-full left-0 right-0 mt-2 bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl shadow-2xl p-3 z-50 animate-in fade-in zoom-in-95 backdrop-blur-xl"
-        >
-          <div className="text-[11px] font-black text-slate-400 dark:text-slate-500 uppercase tracking-wider mb-2 px-1">
-            🔥 Popüler Aramalar
-          </div>
-          <div className="flex flex-wrap gap-1.5">
-            {popularQuickTags.map((tag) => (
-              <button
-                key={tag}
-                type="button"
-                onClick={() => {
-                  setQuery(tag);
-                  setIsFocused(false);
-                  router.push(`/search?q=${encodeURIComponent(tag)}`);
-                }}
-                className="bg-slate-100 dark:bg-slate-800 hover:bg-emerald-50 hover:text-emerald-700 dark:hover:bg-emerald-950 dark:hover:text-emerald-400 text-slate-700 dark:text-slate-300 text-xs font-bold px-3 py-1.5 rounded-xl border border-slate-200 dark:border-slate-700 transition-colors cursor-pointer"
-              >
-                {tag}
-              </button>
-            ))}
-          </div>
-        </div>
-      );
-    }
-
-    // 2. Show Live Search Results
     return (
       <div
         className="absolute top-full left-0 right-0 mt-2 bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl shadow-2xl p-2 z-50 animate-in fade-in zoom-in-95 backdrop-blur-xl max-h-[60vh] sm:max-h-96 overflow-y-auto"
@@ -203,9 +165,13 @@ export function Navbar() {
         ) : (
           <>
             {searchResults.slice(0, 8).map((item, idx) => (
-              <div
+              <Link
                 key={item.id}
-                onClick={() => handleSelectResult(item)}
+                href={getProductUrl(item)}
+                onClick={() => {
+                  setQuery('');
+                  setIsFocused(false);
+                }}
                 className={`flex items-center justify-between p-2.5 sm:p-3 rounded-xl transition-all cursor-pointer group ${
                   selectedIndex === idx
                     ? 'bg-emerald-50 dark:bg-emerald-950/60 border border-emerald-300 dark:border-emerald-700'
@@ -242,20 +208,20 @@ export function Navbar() {
                     ₺{item.basePrice.toLocaleString('tr-TR')}
                   </span>
                 </div>
-              </div>
+              </Link>
             ))}
 
-            <div
-              onClick={() => handleSearchSubmit()}
-              className="mt-1 pt-2 border-t border-slate-100 dark:border-slate-800 text-center"
-            >
-              <button
-                type="button"
+            <div className="mt-1 pt-2 border-t border-slate-100 dark:border-slate-800 text-center">
+              <Link
+                href={`/search?q=${encodeURIComponent(trimmed)}`}
+                onClick={() => {
+                  setIsFocused(false);
+                }}
                 className="w-full py-2.5 bg-emerald-50 dark:bg-emerald-950/40 hover:bg-emerald-100 dark:hover:bg-emerald-900/60 text-emerald-700 dark:text-emerald-400 text-xs font-extrabold rounded-xl transition-colors flex items-center justify-center gap-1.5 cursor-pointer"
               >
                 <span>{t.allResultsCount || 'Tüm Sonuçları Gör'} ({searchResults.length} {t.productsWord || 'Ürün'})</span>
                 <ArrowRight className="w-3.5 h-3.5" />
-              </button>
+              </Link>
             </div>
           </>
         )}
@@ -311,7 +277,10 @@ export function Navbar() {
                     autoCapitalize="off"
                     autoCorrect="off"
                     value={query}
-                    onChange={(e) => setQuery(e.target.value)}
+                    onChange={(e) => {
+                      setQuery(e.target.value);
+                      setIsFocused(true);
+                    }}
                     onFocus={() => setIsFocused(true)}
                     placeholder={isFocused ? '' : (t.searchBarPlaceholder || 'Model, Marka veya Özellik Ara (ör. iPhone 17, OLED, 144Hz...)')}
                     className="w-full bg-transparent text-slate-900 dark:text-white text-[16px] md:text-xs font-bold focus:outline-none placeholder:text-slate-400 dark:placeholder:text-slate-500"
@@ -446,7 +415,10 @@ export function Navbar() {
                   autoCapitalize="off"
                   autoCorrect="off"
                   value={query}
-                  onChange={(e) => setQuery(e.target.value)}
+                  onChange={(e) => {
+                    setQuery(e.target.value);
+                    setIsFocused(true);
+                  }}
                   onFocus={() => setIsFocused(true)}
                   placeholder={t.searchBarMobilePlaceholder || "Model, Marka veya Özellik Ara..."}
                   className="w-full bg-transparent text-slate-900 dark:text-white text-[16px] font-bold focus:outline-none placeholder:text-slate-400"
