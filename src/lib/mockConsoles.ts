@@ -752,9 +752,12 @@ export const mockConsoles: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/consoles/975529.jpg",
+    "image": "/images/products/consoles/icecat-msi-msi-claw-8-ai-el-konsolu-intel-core-ultra-7-258v-claw8a2001-975529.jpg",
     "images": [
-      "/images/consoles/975529.jpg"
+      "/images/products/consoles/icecat-msi-msi-claw-8-ai-el-konsolu-intel-core-ultra-7-258v-claw8a2001-975529.jpg",
+      "/images/products/consoles/icecat-msi-msi-claw-8-ai-el-konsolu-intel-core-ultra-7-258v-claw8a2001-975529-1.jpg",
+      "/images/products/consoles/icecat-msi-msi-claw-8-ai-el-konsolu-intel-core-ultra-7-258v-claw8a2001-975529-2.jpg",
+      "/images/products/consoles/icecat-msi-msi-claw-8-ai-el-konsolu-intel-core-ultra-7-258v-claw8a2001-975529-3.jpg"
     ],
     "highlights": [
       "8 inç Geniş 120Hz VRR Dokunmatik Ekran & Ergonomik Pençe Kavrama",

@@ -23323,9 +23323,12 @@ export const mockMonitors: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/monitors/dell-s2725qs.jpg",
+    "image": "/images/products/monitors/icecat-dell-s2725qs.jpg",
     "images": [
-      "/images/monitors/dell-s2725qs.jpg"
+      "/images/products/monitors/icecat-dell-s2725qs.jpg",
+      "/images/products/monitors/icecat-dell-s2725qs-1.jpg",
+      "/images/products/monitors/icecat-dell-s2725qs-2.jpg",
+      "/images/products/monitors/icecat-dell-s2725qs-3.jpg"
     ],
     "highlights": [
       "27 inç 4K UHD (3840x2160) 120Hz Akıcı IPS Panel",
