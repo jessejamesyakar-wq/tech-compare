@@ -51,30 +51,36 @@ export function Navbar() {
     return `/phones/${slug}`;
   };
 
-  // Real-time live product search
+  // Real-time live product search with debouncing & cancellation
   useEffect(() => {
-    let isMounted = true;
     const trimmed = query.trim();
 
-    if (trimmed.length > 0) {
-      fetch(`/api/search?q=${encodeURIComponent(trimmed)}`)
-        .then((res) => (res.ok ? res.json() : []))
-        .then((data: Product[]) => {
-          if (isMounted) {
-            setSearchResults(Array.isArray(data) ? data : []);
-            setSelectedIndex(-1);
-          }
-        })
-        .catch(() => {
-          if (isMounted) setSearchResults([]);
-        });
-    } else {
+    if (trimmed.length === 0) {
       setSearchResults([]);
       setSelectedIndex(-1);
+      return;
     }
 
+    const controller = new AbortController();
+    const timer = setTimeout(() => {
+      fetch(`/api/search?q=${encodeURIComponent(trimmed)}&limit=8`, {
+        signal: controller.signal,
+      })
+        .then((res) => (res.ok ? res.json() : []))
+        .then((data: Product[]) => {
+          setSearchResults(Array.isArray(data) ? data : []);
+          setSelectedIndex(-1);
+        })
+        .catch((err) => {
+          if (err.name !== 'AbortError') {
+            setSearchResults([]);
+          }
+        });
+    }, 120);
+
     return () => {
-      isMounted = false;
+      clearTimeout(timer);
+      controller.abort();
     };
   }, [query]);
 
