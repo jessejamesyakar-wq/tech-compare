@@ -120,11 +120,14 @@ export function Navbar() {
     };
   }, []);
 
-  const handleSearchSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    if (query.trim().length > 0) {
-      setIsFocused(false);
-      router.push(`/search?q=${encodeURIComponent(query.trim())}`);
+  const handleSearchSubmit = (e?: React.FormEvent) => {
+    if (e) e.preventDefault();
+    setIsFocused(false);
+    const trimmed = query.trim();
+    if (trimmed.length > 0) {
+      router.push(`/search?q=${encodeURIComponent(trimmed)}`);
+    } else {
+      router.push('/search');
     }
   };
 
@@ -153,18 +156,49 @@ export function Navbar() {
     }
   };
 
+  const popularQuickTags = ['iPhone 17', 'LG OLED', 'Samsung S26', 'MacBook Pro', 'PS5 Pro', 'Dyson V15'];
+
   // Reusable Search Results List Renderer
   const renderDropdownResults = () => {
-    if (!isFocused || query.trim().length <= 1) return null;
+    if (!isFocused) return null;
 
+    // 1. Show Popular Quick Tags when query is empty or 1 char
+    if (query.trim().length <= 1) {
+      return (
+        <div
+          className="absolute top-full left-0 right-0 mt-2 bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl shadow-2xl p-3 z-50 animate-in fade-in zoom-in-95 backdrop-blur-xl"
+        >
+          <div className="text-[11px] font-black text-slate-400 dark:text-slate-500 uppercase tracking-wider mb-2 px-1">
+            🔥 Popüler Aramalar
+          </div>
+          <div className="flex flex-wrap gap-1.5">
+            {popularQuickTags.map((tag) => (
+              <button
+                key={tag}
+                type="button"
+                onClick={() => {
+                  setQuery(tag);
+                  setIsFocused(false);
+                  router.push(`/search?q=${encodeURIComponent(tag)}`);
+                }}
+                className="bg-slate-100 dark:bg-slate-800 hover:bg-emerald-50 hover:text-emerald-700 dark:hover:bg-emerald-950 dark:hover:text-emerald-400 text-slate-700 dark:text-slate-300 text-xs font-bold px-3 py-1.5 rounded-xl border border-slate-200 dark:border-slate-700 transition-colors cursor-pointer"
+              >
+                {tag}
+              </button>
+            ))}
+          </div>
+        </div>
+      );
+    }
+
+    // 2. Show Live Search Results
     return (
       <div
         className="absolute top-full left-0 right-0 mt-2 bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl shadow-2xl p-2 z-50 animate-in fade-in zoom-in-95 backdrop-blur-xl max-h-[60vh] sm:max-h-96 overflow-y-auto"
-        onMouseDown={(e) => e.preventDefault()}
       >
         {searchResults.length === 0 ? (
           <div className="py-6 text-center text-slate-500 text-xs font-semibold">
-            {t.noResults}
+            {t.noResults || 'Eşleşen ürün bulunamadı'}
           </div>
         ) : (
           <>
@@ -212,10 +246,13 @@ export function Navbar() {
             ))}
 
             <div
-              onClick={(e) => handleSearchSubmit(e)}
+              onClick={() => handleSearchSubmit()}
               className="mt-1 pt-2 border-t border-slate-100 dark:border-slate-800 text-center"
             >
-              <button className="w-full py-2.5 bg-emerald-50 dark:bg-emerald-950/40 hover:bg-emerald-100 dark:hover:bg-emerald-900/60 text-emerald-700 dark:text-emerald-400 text-xs font-extrabold rounded-xl transition-colors flex items-center justify-center gap-1.5 cursor-pointer">
+              <button
+                type="button"
+                className="w-full py-2.5 bg-emerald-50 dark:bg-emerald-950/40 hover:bg-emerald-100 dark:hover:bg-emerald-900/60 text-emerald-700 dark:text-emerald-400 text-xs font-extrabold rounded-xl transition-colors flex items-center justify-center gap-1.5 cursor-pointer"
+              >
                 <span>{t.allResultsCount || 'Tüm Sonuçları Gör'} ({searchResults.length} {t.productsWord || 'Ürün'})</span>
                 <ArrowRight className="w-3.5 h-3.5" />
               </button>
@@ -241,7 +278,14 @@ export function Navbar() {
           </div>
 
           {/* 2. Center: Desktop Inline Search Bar (md and up) */}
-          <div ref={searchContainerRef} className="hidden md:flex flex-1 max-w-xl mx-auto relative">
+          <div
+            ref={searchContainerRef}
+            onClick={() => {
+              searchInputRef.current?.focus();
+              setIsFocused(true);
+            }}
+            className="hidden md:flex flex-1 max-w-xl mx-auto relative cursor-text"
+          >
             <form onSubmit={handleSearchSubmit} className="w-full">
               <div
                 className={`w-full flex items-center justify-between bg-slate-100/90 dark:bg-slate-900/80 text-slate-900 dark:text-slate-100 text-xs px-4 py-2.5 rounded-full border transition-all shadow-2xs backdrop-blur-md ${
@@ -251,7 +295,15 @@ export function Navbar() {
                 }`}
               >
                 <div className="flex items-center gap-2.5 flex-1 min-w-0">
-                  <button type="submit" aria-label="Arama yap" className="cursor-pointer">
+                  <button
+                    type="submit"
+                    aria-label="Arama yap"
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      handleSearchSubmit(e);
+                    }}
+                    className="p-1 rounded-full text-slate-400 hover:text-emerald-600 dark:hover:text-emerald-400 transition-colors cursor-pointer"
+                  >
                     <Search className={`w-4 h-4 shrink-0 transition-colors ${isFocused ? 'text-emerald-600 dark:text-emerald-400' : 'text-slate-400'}`} />
                   </button>
                   
@@ -272,7 +324,8 @@ export function Navbar() {
                   {query && (
                     <button
                       type="button"
-                      onClick={() => {
+                      onClick={(e) => {
+                        e.stopPropagation();
                         setQuery('');
                         searchInputRef.current?.focus();
                       }}
@@ -284,11 +337,19 @@ export function Navbar() {
                 </div>
 
                 {!isFocused && !query && (
-                  <div className="hidden lg:flex items-center gap-1.5 shrink-0 pl-2 pointer-events-none">
-                    <kbd className="bg-white dark:bg-slate-800 text-slate-500 dark:text-slate-400 text-[10px] px-2 py-0.5 rounded-full border border-slate-200 dark:border-slate-700 font-extrabold shadow-2xs">
+                  <button
+                    type="button"
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      searchInputRef.current?.focus();
+                      setIsFocused(true);
+                    }}
+                    className="hidden lg:flex items-center gap-1.5 shrink-0 pl-2 cursor-pointer"
+                  >
+                    <span className="bg-white dark:bg-slate-800 hover:bg-slate-50 text-slate-600 dark:text-slate-300 text-[10px] px-2.5 py-0.5 rounded-full border border-slate-200 dark:border-slate-700 font-extrabold shadow-2xs transition-colors">
                       {t.quickSearchKbd || '⌘K / Hızlı Ara'}
-                    </kbd>
-                  </div>
+                    </span>
+                  </button>
                 )}
               </div>
             </form>
@@ -373,7 +434,15 @@ export function Navbar() {
               }`}
             >
               <div className="flex items-center gap-2 flex-1 min-w-0">
-                <button type="submit" aria-label="Arama yap" className="cursor-pointer">
+                <button
+                  type="submit"
+                  aria-label="Arama yap"
+                  onClick={(e) => {
+                    e.stopPropagation();
+                    handleSearchSubmit(e);
+                  }}
+                  className="p-1 rounded-full text-slate-400 hover:text-emerald-600 dark:hover:text-emerald-400 cursor-pointer"
+                >
                   <Search className={`w-4 h-4 shrink-0 transition-colors ${isFocused ? 'text-emerald-600' : 'text-slate-400'}`} />
                 </button>
                 
