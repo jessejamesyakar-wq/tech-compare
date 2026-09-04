@@ -170,19 +170,19 @@ export function HeroCarousel({ activeIndex = 0, onSelect, initialSlides = [] }: 
 
               {/* Right Image Stage */}
               <div className="col-span-5 flex items-center justify-center">
-                <Link href={targetHref} className="relative w-full h-32 bg-white/90 rounded-2xl p-2 border border-slate-200/90 shadow-sm flex flex-col items-center justify-center group/img cursor-pointer">
-                  <div className="w-full h-20 flex items-center justify-center overflow-hidden">
+                <Link href={targetHref} className="relative w-full h-36 sm:h-40 bg-white/95 rounded-2xl p-2.5 border border-slate-200/90 shadow-md flex flex-col items-center justify-center group/img cursor-pointer">
+                  <div className="w-full h-24 sm:h-28 flex items-center justify-center overflow-hidden">
                     <Image
                       src={slide.image}
                       alt={slide.productName}
-                      width={200}
-                      height={200}
+                      width={240}
+                      height={240}
                       priority={true}
                       sizes="40vw"
-                      className="max-h-20 max-w-[120px] w-auto h-auto object-contain filter drop-shadow-md group-hover/img:scale-105 transition-transform duration-300"
+                      className="w-full h-full max-h-24 sm:max-h-28 object-contain filter drop-shadow-md group-hover/img:scale-105 transition-transform duration-300"
                     />
                   </div>
-                  <span className="text-[9.5px] font-extrabold text-slate-900 truncate block w-full text-center mt-1 px-1">
+                  <span className="text-[10px] font-extrabold text-slate-900 truncate block w-full text-center mt-1 px-1">
                     {slide.productName}
                   </span>
                 </Link>
@@ -297,15 +297,15 @@ export function HeroCarousel({ activeIndex = 0, onSelect, initialSlides = [] }: 
                   <div className="absolute inset-0 bg-gradient-to-b from-emerald-500/5 via-transparent to-transparent pointer-events-none" />
 
                   {/* Standardized Optical Bounding Box (Uniform Visual Weight for All Product Categories) */}
-                  <div className="w-full h-60 flex items-center justify-center relative overflow-hidden">
+                  <div className="w-full h-72 sm:h-80 flex items-center justify-center relative overflow-hidden p-2">
                     <Image
                       src={slide.image}
                       alt={slide.productName}
-                      width={400}
-                      height={400}
+                      width={480}
+                      height={480}
                       priority={true}
-                      sizes="(max-width: 1024px) 50vw, 400px"
-                      className="max-h-52 max-w-[280px] w-auto h-auto object-contain filter drop-shadow-xl group-hover/card:scale-105 transition-transform duration-500 ease-out"
+                      sizes="(max-width: 1024px) 50vw, 480px"
+                      className="max-h-72 max-w-[340px] w-full h-full object-contain filter drop-shadow-2xl group-hover/card:scale-105 transition-transform duration-500 ease-out"
                     />
                   </div>
 
