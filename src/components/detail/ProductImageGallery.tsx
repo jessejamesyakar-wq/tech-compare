@@ -44,8 +44,8 @@ export function ProductImageGallery({ product, activeColorImage }: ProductImageG
 
   return (
     <div className="space-y-4">
-      {/* Main Large Photo Stage with Pure White Background & Original Untouched Colors */}
-      <div className="relative w-full h-80 sm:h-96 rounded-3xl bg-white p-6 border border-slate-200/90 flex items-center justify-center overflow-hidden group shadow-xs">
+      {/* Main Large Photo Stage with Pure White Background & Apple/Epey Showcase Proportions */}
+      <div className="relative w-full h-80 sm:h-[420px] rounded-3xl bg-white p-4 sm:p-6 border border-slate-200/90 flex items-center justify-center overflow-hidden group shadow-sm">
         
         {/* Popular Tag Badge */}
         {product.isPopular && (
@@ -57,7 +57,7 @@ export function ProductImageGallery({ product, activeColorImage }: ProductImageG
 
         {/* Multi Photo Counter Badge */}
         {allImages.length > 1 && (
-          <div className="absolute top-4 right-4 z-10 bg-white/90 text-slate-800 backdrop-blur-md text-xs font-extrabold px-3 py-1 rounded-full shadow-xs flex items-center gap-1.5 border border-slate-200">
+          <div className="absolute top-4 right-4 z-10 bg-white/95 text-slate-800 backdrop-blur-md text-xs font-extrabold px-3 py-1 rounded-full shadow-xs flex items-center gap-1.5 border border-slate-200">
             <ImageIcon className="w-3.5 h-3.5 text-emerald-600" />
             <span>{activeIndex + 1} / {allImages.length} Fotoğraf</span>
           </div>
@@ -93,7 +93,7 @@ export function ProductImageGallery({ product, activeColorImage }: ProductImageG
           <Maximize2 className="w-4 h-4" />
         </button>
 
-        {/* Optimized Active Hero Image with Priority & Native Next.js Image Optimization */}
+        {/* Optimized Active Hero Image with Priority & Apple-style Fill */}
         <div className="relative w-full h-full flex items-center justify-center transition-all duration-300">
           <Image
             src={activeImage}
@@ -101,11 +101,11 @@ export function ProductImageGallery({ product, activeColorImage }: ProductImageG
             priority={activeIndex === 0}
             loading={activeIndex === 0 ? 'eager' : 'lazy'}
             fetchPriority={activeIndex === 0 ? 'high' : 'auto'}
-            width={420}
-            height={420}
-            sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 420px"
+            width={800}
+            height={800}
+            sizes="(max-width: 640px) 90vw, (max-width: 1024px) 50vw, 800px"
             onError={() => setImgError(true)}
-            className="max-h-72 w-auto max-w-full object-contain filter drop-shadow-xs group-hover:scale-105 transition-transform duration-300"
+            className="w-full h-full max-h-[300px] sm:max-h-[380px] object-contain filter drop-shadow-md group-hover:scale-105 transition-transform duration-300"
           />
         </div>
       </div>
