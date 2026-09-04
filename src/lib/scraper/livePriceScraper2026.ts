@@ -109,8 +109,12 @@ async function scrapeStore(
   store: typeof STORES_CONFIG[number],
   product: Product
 ): Promise<ScrapedStoreDeal> {
-  const query = encodeURIComponent(`${product.brand} ${product.name}`);
-  const searchUrl = `${store.searchBase}${query}`;
+  const nameHasBrand = product.name.toLowerCase().includes(product.brand.toLowerCase());
+  const fullQuery = nameHasBrand ? product.name : `${product.brand} ${product.name}`;
+  const query = encodeURIComponent(fullQuery);
+  const searchUrl = store.key === 'vatan'
+    ? `${store.searchBase}${query}/`
+    : `${store.searchBase}${query}`;
   const scrapedAt = new Date().toISOString();
 
   // Enforce polite rate-limiting between 3000ms and 5000ms
