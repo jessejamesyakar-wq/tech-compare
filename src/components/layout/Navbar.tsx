@@ -298,10 +298,6 @@ export function Navbar() {
                   <button
                     type="submit"
                     aria-label="Arama yap"
-                    onClick={(e) => {
-                      e.stopPropagation();
-                      handleSearchSubmit(e);
-                    }}
                     className="p-1 rounded-full text-slate-400 hover:text-emerald-600 dark:hover:text-emerald-400 transition-colors cursor-pointer"
                   >
                     <Search className={`w-4 h-4 shrink-0 transition-colors ${isFocused ? 'text-emerald-600 dark:text-emerald-400' : 'text-slate-400'}`} />
@@ -437,10 +433,6 @@ export function Navbar() {
                 <button
                   type="submit"
                   aria-label="Arama yap"
-                  onClick={(e) => {
-                    e.stopPropagation();
-                    handleSearchSubmit(e);
-                  }}
                   className="p-1 rounded-full text-slate-400 hover:text-emerald-600 dark:hover:text-emerald-400 cursor-pointer"
                 >
                   <Search className={`w-4 h-4 shrink-0 transition-colors ${isFocused ? 'text-emerald-600' : 'text-slate-400'}`} />
