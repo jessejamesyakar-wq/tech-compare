@@ -42,7 +42,7 @@ export function Navbar() {
     let isMounted = true;
     const trimmed = query.trim();
 
-    if (trimmed.length > 1) {
+    if (trimmed.length > 0) {
       fetch(`/api/search?q=${encodeURIComponent(trimmed)}`)
         .then((res) => (res.ok ? res.json() : []))
         .then((data: Product[]) => {
@@ -162,8 +162,8 @@ export function Navbar() {
   const renderDropdownResults = () => {
     if (!isFocused) return null;
 
-    // 1. Show Popular Quick Tags when query is empty or 1 char
-    if (query.trim().length <= 1) {
+    // 1. Show Popular Quick Tags when query is empty
+    if (query.trim().length === 0) {
       return (
         <div
           className="absolute top-full left-0 right-0 mt-2 bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl shadow-2xl p-3 z-50 animate-in fade-in zoom-in-95 backdrop-blur-xl"
