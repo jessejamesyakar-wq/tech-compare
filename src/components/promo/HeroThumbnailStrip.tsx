@@ -89,7 +89,7 @@ export function HeroThumbnailStrip({ items, activeIndex, onSelect }: HeroThumbna
             <button
               key={item.id}
               onClick={() => onSelect(idx)}
-              className={`group relative flex flex-col items-center justify-between w-20 sm:w-28 h-20 sm:h-28 rounded-xl sm:rounded-2xl p-1.5 sm:p-2.5 transition-all duration-200 shrink-0 cursor-pointer text-left ${
+              className={`group relative flex flex-col items-center justify-between w-24 sm:w-32 h-24 sm:h-32 rounded-xl sm:rounded-2xl p-2 sm:p-3 transition-all duration-200 shrink-0 cursor-pointer text-left ${
                 isActive
                   ? 'bg-emerald-50/90 border-2 border-emerald-500 shadow-lg scale-105 z-10'
                   : 'bg-slate-50/80 hover:bg-white border border-slate-200/90 hover:border-emerald-400 shadow-xs opacity-90 hover:opacity-100'
@@ -97,16 +97,16 @@ export function HeroThumbnailStrip({ items, activeIndex, onSelect }: HeroThumbna
               title={`${item.name} - ${item.price}`}
             >
               {/* Product Image Stage */}
-              <div className="w-full h-10 sm:h-14 flex items-center justify-center overflow-hidden">
-                <Image src={item.image} alt={item.name} width={56} height={56} loading="lazy" className="max-h-full max-w-full object-contain group-hover:scale-105 transition-transform duration-200" />
+              <div className="w-full h-12 sm:h-16 flex items-center justify-center overflow-hidden">
+                <Image src={item.image} alt={item.name} width={72} height={72} loading="lazy" className="max-h-full max-w-full object-contain group-hover:scale-105 transition-transform duration-200" />
               </div>
 
               {/* Single Line Truncated Product Title & Price */}
-              <div className="w-full text-center space-y-0.5 mt-0.5">
-                <span className="text-[9px] sm:text-[10px] font-bold text-slate-800 truncate block leading-tight px-0.5">
+              <div className="w-full text-center space-y-0.5 mt-1">
+                <span className="text-[9.5px] sm:text-[10.5px] font-bold text-slate-800 truncate block leading-tight px-0.5">
                   {item.name}
                 </span>
-                <span className={`text-[9px] sm:text-[10px] font-black tracking-tight block tabular-nums ${
+                <span className={`text-[9.5px] sm:text-[11px] font-black tracking-tight block tabular-nums ${
                   isActive ? 'text-emerald-700 font-black' : 'text-slate-900'
                 }`}>
                   {item.price}

@@ -17,7 +17,6 @@ interface HeroCarouselProps {
 
 export function HeroCarousel({ activeIndex = 0, onSelect, initialSlides = [] }: HeroCarouselProps) {
   const [currentSlideIndex, setCurrentSlideIndex] = useState(activeIndex);
-  const [isHovered, setIsHovered] = useState(false);
 
   const heroSlides = useMemo(() => {
     if (initialSlides && initialSlides.length > 0) return initialSlides;
@@ -29,9 +28,9 @@ export function HeroCarousel({ activeIndex = 0, onSelect, initialSlides = [] }: 
     setCurrentSlideIndex(activeIndex);
   }, [activeIndex]);
 
-  // Auto-play timer every 5 seconds
+  // Reliable Auto-play timer every 4.5 seconds
   useEffect(() => {
-    if (isHovered || heroSlides.length <= 1) return;
+    if (heroSlides.length <= 1) return;
 
     const timer = setInterval(() => {
       setCurrentSlideIndex((prev) => {
@@ -39,10 +38,10 @@ export function HeroCarousel({ activeIndex = 0, onSelect, initialSlides = [] }: 
         onSelect(nextIndex);
         return nextIndex;
       });
-    }, 5000);
+    }, 4500);
 
     return () => clearInterval(timer);
-  }, [isHovered, heroSlides.length, onSelect]);
+  }, [heroSlides.length, onSelect]);
 
   const slide = heroSlides[currentSlideIndex] || heroSlides[0];
 
@@ -88,11 +87,7 @@ export function HeroCarousel({ activeIndex = 0, onSelect, initialSlides = [] }: 
   const targetHref = getProductHref(slide.category, slide.slug);
 
   return (
-    <div
-      onMouseEnter={() => setIsHovered(true)}
-      onMouseLeave={() => setIsHovered(false)}
-      className="group/carousel relative bg-gradient-to-br from-emerald-50/90 via-white to-teal-50/80 border border-emerald-500/25 rounded-3xl p-6 sm:p-8 lg:p-10 shadow-xl hover:shadow-2xl transition-all duration-500 overflow-hidden"
-    >
+    <div className="group/carousel relative bg-gradient-to-br from-emerald-50/90 via-white to-teal-50/80 border border-emerald-500/25 rounded-3xl p-6 sm:p-8 lg:p-10 shadow-xl hover:shadow-2xl transition-all duration-500 overflow-hidden">
       {/* Vibrant Ambient Glow Orbs */}
       <div className="absolute -right-16 -top-16 w-[500px] h-[500px] bg-gradient-to-tr from-emerald-500/25 via-teal-400/20 to-transparent rounded-full blur-3xl pointer-events-none" />
       <div className="absolute -left-16 -bottom-16 w-[450px] h-[450px] bg-gradient-to-br from-blue-500/15 via-indigo-500/10 to-teal-500/15 rounded-full blur-3xl pointer-events-none" />
@@ -175,17 +170,17 @@ export function HeroCarousel({ activeIndex = 0, onSelect, initialSlides = [] }: 
 
               {/* Right Image Stage */}
               <div className="col-span-5 flex items-center justify-center">
-                <Link href={targetHref} className="relative w-full h-28 sm:h-36 bg-white/90 rounded-2xl p-2 border border-slate-200/90 shadow-sm flex flex-col items-center justify-center group/img cursor-pointer">
+                <Link href={targetHref} className="relative w-full h-36 sm:h-44 bg-white/90 rounded-2xl p-2.5 border border-slate-200/90 shadow-sm flex flex-col items-center justify-center group/img cursor-pointer">
                   <Image
                     src={slide.image}
                     alt={slide.productName}
-                    width={200}
-                    height={200}
+                    width={300}
+                    height={300}
                     priority={true}
-                    sizes="40vw"
-                    className="max-h-20 sm:max-h-28 w-auto object-contain filter drop-shadow-md group-hover/img:scale-105 transition-transform duration-300"
+                    sizes="50vw"
+                    className="max-h-28 sm:max-h-36 w-auto max-w-full object-contain filter drop-shadow-md group-hover/img:scale-105 transition-transform duration-300"
                   />
-                  <span className="text-[9.5px] font-extrabold text-slate-800 truncate block w-full text-center mt-1">
+                  <span className="text-[10px] font-extrabold text-slate-900 truncate block w-full text-center mt-1.5 px-1">
                     {slide.productName}
                   </span>
                 </Link>
@@ -294,27 +289,27 @@ export function HeroCarousel({ activeIndex = 0, onSelect, initialSlides = [] }: 
             {/* Right Column: Apple Keynote Glass Pedestal (5 cols) */}
             <div className="lg:col-span-5 flex flex-col items-center justify-center relative">
               <Link href={targetHref} className="group/card w-full block cursor-pointer">
-                <div className="w-full bg-white/90 backdrop-blur-xl rounded-[28px] p-6 shadow-xl hover:shadow-2xl transition-all duration-500 text-center flex flex-col items-center border border-white/90 relative overflow-hidden">
+                <div className="w-full bg-white/90 backdrop-blur-xl rounded-[32px] p-6 sm:p-7 shadow-xl hover:shadow-2xl transition-all duration-500 text-center flex flex-col items-center border border-white/90 relative overflow-hidden">
                   
                   {/* Subtle Inner Radial Sheen */}
                   <div className="absolute inset-0 bg-gradient-to-b from-emerald-500/5 via-transparent to-transparent pointer-events-none" />
 
-                  {/* Phone Image Stage */}
-                  <div className="w-full h-52 flex items-center justify-center relative overflow-hidden">
+                  {/* Enlarged Majestic Product Image Stage */}
+                  <div className="w-full h-64 sm:h-72 lg:h-80 flex items-center justify-center relative overflow-hidden">
                     <Image
                       src={slide.image}
                       alt={slide.productName}
-                      width={400}
-                      height={400}
+                      width={500}
+                      height={500}
                       priority={true}
-                      sizes="(max-width: 1024px) 50vw, 400px"
-                      className="max-h-48 w-auto object-contain filter drop-shadow-2xl group-hover/card:scale-105 transition-transform duration-500 ease-out"
+                      sizes="(max-width: 1024px) 50vw, 500px"
+                      className="max-h-60 sm:max-h-68 lg:max-h-76 w-auto max-w-full object-contain filter drop-shadow-2xl group-hover/card:scale-105 transition-transform duration-500 ease-out"
                     />
                   </div>
 
                   {/* Model Name & Hardware Specs Pills */}
                   <div className="mt-4 text-center w-full px-2 space-y-2">
-                    <h3 className="text-base font-black text-slate-950 group-hover/card:text-emerald-700 transition-colors line-clamp-1">
+                    <h3 className="text-base sm:text-lg font-black text-slate-950 group-hover/card:text-emerald-700 transition-colors line-clamp-1">
                       {slide.productName}
                     </h3>
                     
@@ -329,7 +324,7 @@ export function HeroCarousel({ activeIndex = 0, onSelect, initialSlides = [] }: 
                             pIdx === 2
                               ? 'bg-emerald-50 text-emerald-800 border-emerald-200'
                               : 'bg-slate-100/90 text-slate-700 border-slate-200/80'
-                          } border text-[10px] font-extrabold px-2.5 py-0.5 rounded-lg shadow-2xs`}
+                          } border text-[10px] sm:text-[11px] font-extrabold px-2.5 py-0.5 rounded-lg shadow-2xs`}
                         >
                           {pill}
                         </span>
