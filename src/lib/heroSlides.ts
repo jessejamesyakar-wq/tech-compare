@@ -12,6 +12,8 @@ export interface HeroSlideItem {
   productSpec: string;
   price: string;
   image: string;
+  specPills?: string[];
+  score?: number;
 }
 
 export function getDynamicHeroSlides(products: Product[] = []): HeroSlideItem[] {
@@ -33,7 +35,9 @@ export function getDynamicHeroSlides(products: Product[] = []): HeroSlideItem[] 
         productName: 'OPPO Find X9 Pro (512 GB)',
         productSpec: '6.82 inç 2K 120Hz LTPO AMOLED Ekran (4500 nits)',
         price: '72.999 ₺',
-        image: '/images/phones/oppo/oppo-find-x8-pro.jpg'
+        image: '/images/phones/oppo/oppo-find-x8-pro.jpg',
+        specPills: ['📱 2K 120Hz LTPO', '⚡ Dimensity 9500', '📸 Sony LYT-900 1"'],
+        score: 98
       },
       {
         id: 'samsung-s26-ultra',
@@ -46,7 +50,9 @@ export function getDynamicHeroSlides(products: Product[] = []): HeroSlideItem[] 
         productName: 'Samsung Galaxy S26 Ultra (512 GB)',
         productSpec: '6.8 inç QHD+ Dynamic AMOLED 2X (3200 nits) • Titanyum Kasa',
         price: '123.589 ₺',
-        image: '/images/phones/samsung/epey/samsung-galaxy-s26-ultra.png'
+        image: '/images/phones/samsung/epey/samsung-galaxy-s26-ultra.png',
+        specPills: ['📱 QHD+ Dynamic AMOLED', '⚡ Snapdragon 8 Elite', '📸 200 MP Sensör'],
+        score: 99
       },
       {
         id: 'apple-iphone-16-pro-max',
@@ -59,7 +65,9 @@ export function getDynamicHeroSlides(products: Product[] = []): HeroSlideItem[] 
         productName: 'Apple iPhone 16 Pro Max (256 GB)',
         productSpec: '6.9 inç ProMotion 120Hz OLED • 4K 120 fps Dolby Vision',
         price: '109.999 ₺',
-        image: '/images/phones/apple/apple-iphone-16-pro-max.jpg'
+        image: '/images/phones/apple/apple-iphone-16-pro-max.jpg',
+        specPills: ['📱 ProMotion 120Hz', '⚡ Apple A18 Pro 3nm', '🎥 4K 120fps Dolby'],
+        score: 99
       }
     ];
   }
@@ -71,27 +79,35 @@ export function getDynamicHeroSlides(products: Product[] = []): HeroSlideItem[] 
     let mainHeadline = 'Akıllı Teknolojide Zirve Donanım & Performans';
     let subHeadline = '8 farklı mağaza arasında en uygun fiyatı ve gerçek donanım skorunu keşfedin.';
     let specText = highlights.slice(0, 2).join(' • ');
+    let specPills = ['📱 120Hz LTPO Panel', '⚡ 3nm NPU Çip', '🎥 4K Pro Video'];
 
     if (nameLower.includes('oppo') || nameLower.includes('find')) {
       mainHeadline = 'Hasselblad Master HyperTone Kamera Sistemi (Sony 1-inç LYT-900 & Çift Periskop)';
       subHeadline = 'MediaTek Dimensity 9500 (3nm TSMC) / Snapdragon 8 Elite Çipi';
       specText = '6.82 inç 2K 120Hz LTPO AMOLED Ekran (4500 nits)';
+      specPills = ['📱 2K 120Hz LTPO', '⚡ Dimensity 9500', '📸 Sony LYT-900 1"'];
     } else if (nameLower.includes('s26') || nameLower.includes('s25')) {
       mainHeadline = '200 MP UltraSensör & Galaxy AI Destekli Profesyonel Görsel Motoru';
       subHeadline = 'Snapdragon 8 Elite for Galaxy (3nm) • 1-120Hz Dinamik LTPO 2X Panel';
       specText = '6.8 inç QHD+ Dynamic AMOLED 2X (3200 nits) • Titanyum Kasa';
+      specPills = ['📱 QHD+ Dynamic AMOLED', '⚡ Snapdragon 8 Elite', '📸 200 MP Ultra'];
     } else if (nameLower.includes('iphone')) {
       mainHeadline = 'Apple A18 Pro 3nm Çip & 48 MP Fusion Çift Katmanlı Telefoto Kamera';
       subHeadline = 'Super Retina XDR OLED • Titanyum Gövde & Camera Control Tuşu';
       specText = '6.9 inç ProMotion 120Hz OLED • 4K 120 fps Dolby Vision';
+      specPills = ['📱 ProMotion 120Hz', '⚡ Apple A18 Pro 3nm', '🎥 4K 120fps Dolby'];
     } else if (nameLower.includes('vivo') || nameLower.includes('x200')) {
       mainHeadline = 'ZEISS APO 200 MP Periskop Telefoto & 1-inç Sony LYT-900 Sensör';
       subHeadline = 'Dimensity 9400 (3nm) • V3+ Görüntüleme Çipi • 6000 mAh BlueOcean Batarya';
       specText = '6.78 inç 1.5K 120Hz LTPO OLED (4500 nits)';
+      specPills = ['📱 1.5K 120Hz LTPO', '⚡ Dimensity 9400', '📸 ZEISS APO 200MP'];
     } else if (p.category === 'tvs') {
       mainHeadline = 'Kendi Işığını Yayan Piksellerle Sinema Kalitesinde Görsel Şölen';
       subHeadline = 'Yapay Zekâ Destekli Görüntü İşleme & 144Hz Kusursuz Oyun Akıcılığı';
       specText = highlights[0] || '4K Ultra HD • OLED evo / Mini-LED Panel';
+      specPills = ['📺 4K OLED evo Panel', '⚡ 144Hz VRR Oyun', '🔊 Dolby Atmos Ses'];
+    } else if (highlights.length > 0) {
+      specPills = highlights.slice(0, 3).map((h) => h.length > 22 ? h.slice(0, 20) + '...' : h);
     }
 
     const badges = [
@@ -101,6 +117,8 @@ export function getDynamicHeroSlides(products: Product[] = []): HeroSlideItem[] 
       '✨ YAPAY ZEKÂ DESTEKLİ',
       '💎 PREMİUM SEGMENT LİDERİ'
     ];
+
+    const calculatedScore = p.rating ? Math.min(99, Math.max(85, Math.round(p.rating * 10) + 50)) : (95 + (idx % 5));
 
     return {
       id: p.id || `slide-${idx}`,
@@ -113,7 +131,9 @@ export function getDynamicHeroSlides(products: Product[] = []): HeroSlideItem[] 
       productName: p.name,
       productSpec: specText,
       price: `${p.basePrice.toLocaleString('tr-TR')} ₺`,
-      image: p.image || '/images/phones/apple/apple-iphone-16.jpg'
+      image: p.image || '/images/phones/apple/apple-iphone-16.jpg',
+      specPills,
+      score: calculatedScore
     };
   });
 }
