@@ -153,13 +153,22 @@ export function PhoneCard({ phone, index = 0 }: PhoneCardProps) {
       </button>
 
       <div>
-        {/* Vatan Bilgisayar Ürün Görseli Ölçeği */}
+        {/* Standart 1:1 Kare Ürün Görseli Container */}
         <Link href={`/phones/${phone.slug}`} className="block relative mb-3">
-          <div className="w-full h-44 sm:h-52 rounded-2xl bg-slate-50 border border-slate-100 p-3.5 sm:p-4 flex items-center justify-center overflow-hidden relative group-hover:bg-slate-100/70 transition-all">
-            <Image src={imgSrc} alt={phone.name} width={240} height={240} loading="lazy" sizes="(max-width: 640px) 45vw, (max-width: 1024px) 30vw, 240px" onError={() => setImgSrc(fallbackImg)} className="max-h-full max-w-full w-auto h-auto object-contain group-hover:scale-105 transition-transform duration-300 ease-out drop-shadow-sm" />
+          <div className="fixed-product-img-container border border-slate-100 group-hover:bg-slate-50/80 transition-colors">
+            <Image
+              src={imgSrc}
+              alt={phone.name}
+              width={240}
+              height={240}
+              loading="lazy"
+              sizes="(max-width: 640px) 45vw, (max-width: 1024px) 30vw, 240px"
+              onError={() => setImgSrc(fallbackImg)}
+              className="fixed-product-img group-hover:scale-105 drop-shadow-sm"
+            />
 
             {/* Circular Score Badge Overlay */}
-            <div className="absolute bottom-2 right-2 z-10 bg-white/95 backdrop-blur-md border border-slate-200 rounded-xl px-2 py-0.5 shadow-sm flex items-center gap-1">
+            <div className="absolute bottom-2 right-2 z-10 bg-white/95 backdrop-blur-md border border-slate-200 rounded-xl px-2 py-0.5 shadow-xs flex items-center gap-1">
               <span className="text-[10px] font-black text-slate-900">{score100}</span>
               <span className="text-[7.5px] uppercase font-bold text-slate-400">puan</span>
             </div>

@@ -24,6 +24,8 @@ import {
   Award
 } from 'lucide-react';
 
+import { ProductImageGallery } from '@/components/detail/ProductImageGallery';
+
 export default function LaptopDetailClient({ initialLaptopProduct }: { initialLaptopProduct: LaptopProduct | null }) {
   const { addToCompare, removeFromCompare, isInCompare } = useCompare();
 
@@ -61,9 +63,9 @@ export default function LaptopDetailClient({ initialLaptopProduct }: { initialLa
       {/* Hero Overview Card */}
       <div className="bg-white border border-slate-200 rounded-3xl p-6 sm:p-8 shadow-xs grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
         
-        {/* Product Image Stage */}
-        <div className="lg:col-span-5 flex flex-col items-center justify-center bg-slate-50/80 rounded-3xl p-8 border border-slate-100 relative group">
-          <Image src={laptop.image} alt={laptop.name} width={420} height={420} priority={true} sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 420px" className="max-h-72 object-contain group-hover:scale-105 transition-transform duration-300" />
+        {/* Left: Interactive Multi-Photo Gallery Stage (Strict 500x500 Square) */}
+        <div className="lg:col-span-5">
+          <ProductImageGallery product={laptop} />
         </div>
 
         {/* Info & CTA Panel */}

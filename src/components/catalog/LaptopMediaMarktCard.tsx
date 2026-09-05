@@ -77,16 +77,19 @@ export function LaptopMediaMarktCard({ laptop, index = 0 }: LaptopMediaMarktCard
           </div>
         </div>
 
-        {/* Product Image Stage */}
-        <Link href={`/laptops/${laptop.slug}`} className="w-full h-44 sm:h-48 bg-slate-50 rounded-2xl p-3 sm:p-4 flex items-center justify-center relative overflow-hidden border border-slate-200/80 group-hover:bg-slate-100/80 group-hover:border-emerald-400 transition-all">
-          <Image
-            src={laptop.image}
-            alt={laptop.name}
-            width={200}
-            height={180}
-            loading="lazy"
-            className="max-h-full max-w-full w-auto h-auto object-contain group-hover:scale-105 transition-transform duration-300 ease-out drop-shadow-xs"
-          />
+        {/* Standart 1:1 Kare Ürün Görseli Container */}
+        <Link href={`/laptops/${laptop.slug}`} className="block w-full">
+          <div className="fixed-product-img-container border border-slate-200/80 group-hover:border-emerald-400 transition-all">
+            <Image
+              src={laptop.image}
+              alt={laptop.name}
+              width={240}
+              height={240}
+              loading="lazy"
+              sizes="(max-width: 640px) 45vw, (max-width: 1024px) 30vw, 240px"
+              className="fixed-product-img group-hover:scale-105 drop-shadow-xs"
+            />
+          </div>
         </Link>
 
         {/* Star Rating & Compare Checkbox */}

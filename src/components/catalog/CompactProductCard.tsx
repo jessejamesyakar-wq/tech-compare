@@ -125,18 +125,18 @@ export function CompactProductCard({
 
   return (
     <TiltCard className="group bg-white border border-slate-200 hover:border-emerald-500/50 rounded-2xl sm:rounded-3xl p-3.5 sm:p-5 transition-all duration-300 shadow-md hover:shadow-2xl hover:-translate-y-1 flex flex-col justify-between">
-      {/* Product Image Box */}
+      {/* Standart 1:1 Kare Ürün Görseli Container */}
       <Link href={href} className="block relative mb-2 sm:mb-2.5">
-        <div className="w-full h-36 xs:h-40 sm:h-52 bg-slate-50 rounded-xl sm:rounded-2xl p-2.5 sm:p-4 flex items-center justify-center overflow-hidden border border-slate-100 group-hover:bg-slate-100/70 transition-colors relative">
+        <div className="fixed-product-img-container border border-slate-100 group-hover:bg-slate-50/80 transition-colors">
           <Image
             src={imgSrc}
             alt={product.name}
-            width={220}
-            height={220}
+            width={240}
+            height={240}
             loading="lazy"
-            sizes="(max-width: 640px) 45vw, (max-width: 1024px) 30vw, 220px"
+            sizes="(max-width: 640px) 45vw, (max-width: 1024px) 30vw, 240px"
             onError={() => setImgSrc(fallbackImg)}
-            className="max-h-full max-w-full w-auto h-auto object-contain group-hover:scale-105 transition-transform duration-300 ease-out drop-shadow-sm"
+            className="fixed-product-img group-hover:scale-105 drop-shadow-sm"
           />
         </div>
       </Link>

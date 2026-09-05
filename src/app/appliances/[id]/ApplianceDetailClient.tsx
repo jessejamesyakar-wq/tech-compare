@@ -7,6 +7,7 @@ import React, { useState } from 'react';
 import Link from 'next/link';
 import { ApplianceProduct } from '@/lib/types';
 import { StoreTable } from '@/components/detail/StoreTable';
+import { ProductImageGallery } from '@/components/detail/ProductImageGallery';
 const PriceHistoryChart = dynamic(() => import('@/components/detail/PriceHistoryChart').then(m => m.PriceHistoryChart), { loading: () => <div className="h-64 bg-slate-50 rounded-3xl animate-pulse" /> });
 const PriceAlertModal = dynamic(() => import('@/components/detail/PriceAlertModal').then(m => m.PriceAlertModal), { ssr: false });
 import { StickyHeaderBar } from '@/components/detail/StickyHeaderBar';
@@ -68,14 +69,9 @@ export default function ApplianceDetailClient({ initialApplianceProduct }: { ini
       <div className="bg-white border border-slate-200 rounded-3xl p-6 sm:p-8 shadow-xs">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
           
-          {/* Left: Product Image */}
-          <div className="lg:col-span-5 flex flex-col items-center">
-            <div className="relative w-full aspect-4/3 max-h-[380px] bg-slate-50 rounded-2xl p-6 flex items-center justify-center border border-slate-100 overflow-hidden shadow-2xs">
-              <Image src={product.image} alt={product.name} width={420} height={420} priority={true} sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 420px" className="max-h-[300px] w-auto object-contain hover:scale-105 transition-transform duration-300 drop-shadow-sm" />
-              <div className="absolute top-3 left-3 bg-emerald-600 text-white text-[10px] font-black px-2.5 py-1 rounded-md uppercase tracking-wider shadow-xs">
-                {product.specs.subCategoryLabel}
-              </div>
-            </div>
+          {/* Left: Product Image Showcase Stage (Strict 500x500 Square) */}
+          <div className="lg:col-span-5">
+            <ProductImageGallery product={product} />
             
             <div className="mt-4 flex items-center gap-3 text-xs text-slate-500 font-semibold">
               <span className="flex items-center gap-1">

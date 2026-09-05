@@ -7,6 +7,7 @@ import React, { useState } from 'react';
 import Link from 'next/link';
 import { Product } from '@/lib/types';
 import { useCompare } from '@/context/CompareContext';
+import { ProductImageGallery } from '@/components/detail/ProductImageGallery';
 import { AIPriceForecastBadge } from '@/components/ai/AIPriceForecastBadge';
 import { AIReviewSummaryCard } from '@/components/ai/AIReviewSummaryCard';
 import { AIUpgradeAdvisor } from '@/components/ai/AIUpgradeAdvisor';
@@ -64,32 +65,8 @@ export default function MonitorDetailClient({ initialProduct }: { initialProduct
       {/* Main Showcase Grid */}
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 bg-white border border-slate-200 rounded-3xl p-6 sm:p-8 shadow-xs">
         {/* Left: Gallery (5 Cols) */}
-        <div className="lg:col-span-5 space-y-4">
-          <div className="w-full h-80 sm:h-96 rounded-2xl bg-slate-50 border border-slate-100 p-6 flex items-center justify-center relative overflow-hidden">
-            <Image src={images[selectedImage]} alt={initialProduct.name} width={420} height={420} priority={true} sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 420px" className="max-h-full max-w-full object-contain drop-shadow-md" />
-
-            {/* Score Badge */}
-            <div className="absolute top-3 left-3 bg-slate-900 text-white text-xs font-black px-3 py-1 rounded-xl flex items-center gap-1.5 shadow-md">
-              <Award className="w-4 h-4 text-amber-400" />
-              <span>{score100} / 100 Tech Puanı</span>
-            </div>
-          </div>
-
-          {images.length > 1 && (
-            <div className="flex gap-2 overflow-x-auto pb-1">
-              {images.map((img, i) => (
-                <button
-                  key={i}
-                  onClick={() => setSelectedImage(i)}
-                  className={`w-16 h-16 rounded-xl border p-1 bg-slate-50 flex items-center justify-center transition-all cursor-pointer ${
-                    selectedImage === i ? 'border-emerald-600 ring-2 ring-emerald-500/20' : 'border-slate-200 opacity-70 hover:opacity-100'
-                  }`}
-                >
-                  <Image src={img} alt="Thumbnail" width={64} height={64} loading="lazy" className="max-h-full max-w-full object-contain" />
-                </button>
-              ))}
-            </div>
-          )}
+        <div className="lg:col-span-5">
+          <ProductImageGallery product={initialProduct} />
         </div>
 
         {/* Right: Info & Price Offers (7 Cols) */}

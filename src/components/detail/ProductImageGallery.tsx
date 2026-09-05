@@ -45,8 +45,8 @@ export function ProductImageGallery({ product, activeColorImage }: ProductImageG
 
   return (
     <div className="space-y-4">
-      {/* Main Large Photo Stage with Pure White Background & Apple/Epey Showcase Proportions */}
-      <div className="relative w-full h-80 sm:h-[420px] rounded-3xl bg-white p-4 sm:p-6 border border-slate-200/90 flex items-center justify-center overflow-hidden group shadow-sm">
+      {/* Strict 500px x 500px Square Grid/Flex Main Showcase Stage (Immutable Standard) */}
+      <div className="fixed-detail-gallery-stage relative group">
         
         {/* Popular Tag Badge */}
         {product.isPopular && (
@@ -94,19 +94,19 @@ export function ProductImageGallery({ product, activeColorImage }: ProductImageG
           <Maximize2 className="w-4 h-4" />
         </button>
 
-        {/* Optimized Active Hero Image with Priority & Apple-style Fill */}
-        <div className="relative w-full h-full flex items-center justify-center transition-all duration-300">
+        {/* Optimized Active Hero Image with 1000x1000 High-Res Resolution & Contain Fit */}
+        <div className="relative w-full h-full flex items-center justify-center">
           <Image
             src={activeImage}
             alt={`${product.name} Görsel ${activeIndex + 1}`}
             priority={activeIndex === 0}
             loading={activeIndex === 0 ? 'eager' : 'lazy'}
             fetchPriority={activeIndex === 0 ? 'high' : 'auto'}
-            width={800}
-            height={800}
-            sizes="(max-width: 640px) 90vw, (max-width: 1024px) 50vw, 800px"
+            width={1000}
+            height={1000}
+            sizes="(max-width: 640px) 90vw, (max-width: 1024px) 500px, 500px"
             onError={() => setImgError(true)}
-            className="w-full h-full max-h-[300px] sm:max-h-[380px] object-contain filter drop-shadow-md group-hover:scale-105 transition-transform duration-300"
+            className="fixed-detail-main-img group-hover:scale-105 drop-shadow-md"
           />
         </div>
       </div>
@@ -116,7 +116,7 @@ export function ProductImageGallery({ product, activeColorImage }: ProductImageG
         <div className="space-y-2">
           <div className="flex items-center justify-between px-1">
             <span className="text-[11px] font-black text-slate-400 uppercase tracking-wider block">
-              Yüklenen Tüm Fotoğraflar ({allImages.length}):
+              Tüm Fotoğraflar ({allImages.length}):
             </span>
             <span className="text-[10px] text-slate-400 font-semibold">Tıklayarak inceleyebilirsiniz</span>
           </div>
@@ -131,10 +131,10 @@ export function ProductImageGallery({ product, activeColorImage }: ProductImageG
                     setImgError(false);
                     setActiveIndex(i);
                   }}
-                  className={`w-16 h-16 rounded-2xl bg-white border p-1 shrink-0 overflow-hidden transition-all cursor-pointer relative ${
+                  className={`fixed-product-thumb transition-all cursor-pointer ${
                     isActive
-                      ? 'border-emerald-600 ring-2 ring-emerald-500/40 shadow-xs scale-105 opacity-100'
-                      : 'border-slate-200 hover:border-slate-300 opacity-70 hover:opacity-100'
+                      ? 'border-2 border-emerald-600 ring-2 ring-emerald-500/30 shadow-xs scale-105 opacity-100'
+                      : 'border border-slate-200 hover:border-slate-300 opacity-70 hover:opacity-100'
                   }`}
                 >
                   <Image
@@ -143,7 +143,7 @@ export function ProductImageGallery({ product, activeColorImage }: ProductImageG
                     width={64}
                     height={64}
                     loading="lazy"
-                    className="w-full h-full object-contain"
+                    className="fixed-product-thumb-img"
                   />
                 </button>
               );
@@ -152,10 +152,10 @@ export function ProductImageGallery({ product, activeColorImage }: ProductImageG
         </div>
       )}
 
-      {/* Zoom Full Screen Modal (Pure CSS modal without framer-motion weight) */}
+      {/* Zoom Full Screen Modal (1000x1000+ Master Layer) */}
       {isZoomOpen && (
         <div
-          className="fixed inset-0 z-50 bg-slate-900/40 backdrop-blur-md flex items-center justify-center p-4 transition-opacity animate-in fade-in duration-200"
+          className="fixed inset-0 z-50 bg-slate-900/50 backdrop-blur-md flex items-center justify-center p-4 transition-opacity animate-in fade-in duration-200"
           onClick={() => setIsZoomOpen(false)}
         >
           <div
@@ -164,22 +164,25 @@ export function ProductImageGallery({ product, activeColorImage }: ProductImageG
           >
             <button
               onClick={() => setIsZoomOpen(false)}
-              className="absolute top-4 right-4 bg-slate-100 hover:bg-slate-200 text-slate-800 px-3.5 py-1.5 rounded-full font-bold text-xs shadow-xs z-10 cursor-pointer flex items-center gap-1"
+              className="absolute top-4 right-4 z-10 p-2 rounded-full bg-slate-100 hover:bg-slate-200 text-slate-800 transition-all cursor-pointer"
+              title="Kapat"
             >
-              <X className="w-3.5 h-3.5" />
-              <span>Kapat</span>
+              <X className="w-5 h-5" />
             </button>
-            <div className="relative w-full max-h-[72vh] flex items-center justify-center">
+
+            <div className="relative w-[80vw] max-w-[700px] h-[60vh] max-h-[700px] flex items-center justify-center p-4">
               <Image
                 src={activeImage}
-                alt={product.name}
-                width={800}
-                height={800}
-                className="max-h-[72vh] w-auto h-auto object-contain rounded-2xl"
+                alt={`${product.name} - Orijinal Yüksek Çözünürlüklü Görsel`}
+                width={1200}
+                height={1200}
+                className="w-full h-full object-contain filter drop-shadow-lg"
               />
             </div>
-            <div className="mt-3 text-slate-900 font-extrabold text-sm text-center">
-              {product.name} — <span className="text-emerald-600 font-black">Fotoğraf {activeIndex + 1} / {allImages.length}</span>
+
+            <div className="text-center pt-3 border-t border-slate-100 w-full">
+              <p className="text-sm font-black text-slate-900">{product.name}</p>
+              <p className="text-xs text-slate-400 font-medium">Orijinal Üretici Stüdyo Render Görseli (1000x1000+)</p>
             </div>
           </div>
         </div>

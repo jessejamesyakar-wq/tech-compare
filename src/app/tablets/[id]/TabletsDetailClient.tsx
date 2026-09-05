@@ -22,6 +22,8 @@ import {
   ChevronRight
 } from 'lucide-react';
 
+import { ProductImageGallery } from '@/components/detail/ProductImageGallery';
+
 export default function TabletsDetailClient({ initialProduct }: { initialProduct: Product | null }) {
   const { addToCompare, removeFromCompare, isInCompare } = useCompare();
 
@@ -56,11 +58,11 @@ export default function TabletsDetailClient({ initialProduct }: { initialProduct
         </nav>
 
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
-          <div className="lg:col-span-6 bg-white border border-slate-200/80 rounded-3xl p-6 sm:p-8 flex items-center justify-center min-h-[380px] shadow-sm">
-            <Image src={product.image} alt={product.name} width={420} height={420} priority={true} sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 420px" className="max-h-[340px] w-auto object-contain drop-shadow-md hover:scale-105 transition-transform duration-300" />
+          <div className="lg:col-span-5">
+            <ProductImageGallery product={product} />
           </div>
 
-          <div className="lg:col-span-6 space-y-6">
+          <div className="lg:col-span-7 space-y-6">
             <div className="space-y-2">
               <span className="text-xs font-black text-emerald-700 bg-emerald-50 px-2.5 py-1 rounded-full uppercase tracking-wider">
                 {product.brand}
