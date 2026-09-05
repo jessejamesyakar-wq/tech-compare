@@ -1,12 +1,14 @@
 'use client';
 
 import { ProductJsonLd } from '@/components/seo/ProductJsonLd';
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import dynamic from 'next/dynamic';
+import { useSearchParams } from 'next/navigation';
 import { useI18n } from '@/lib/i18n/context';
 import { useCompare } from '@/context/CompareContext';
 import { Smartphone } from '@/lib/types';
+import { resolveActiveColor } from '@/lib/colorVariantHelper';
 import { StoreTable } from '@/components/detail/StoreTable';
 import { StickyHeaderBar } from '@/components/detail/StickyHeaderBar';
 import { ProductImageGallery } from '@/components/detail/ProductImageGallery';
@@ -50,15 +52,62 @@ import {
 export default function PhoneDetailClient({ initialPhone }: { initialPhone: Smartphone | null }) {
   const { t } = useI18n();
   const { addToCompare, removeFromCompare, isInCompare } = useCompare();
+  const searchParams = useSearchParams();
 
   const [phone] = useState<Smartphone | null>(initialPhone);
   const [alertModalOpen, setAlertModalOpen] = useState<boolean>(false);
 
-  // Active Color Variant State
-  const initialColor = phone?.colorOptions?.[0]?.name || phone?.variants?.[0]?.colorName || phone?.variants?.[0]?.name || '';
-  const initialColorImg = phone?.variants?.[0]?.image || phone?.image || '';
-  const [selectedColor, setSelectedColor] = useState<string>(initialColor);
-  const [selectedColorImage, setSelectedColorImage] = useState<string>(initialColorImg);
+  // Read route search params
+  const colorParam = searchParams.get('color');
+  const variantIdParam = searchParams.get('variantId');
+
+  // Initialize active color with full resolution logic
+  const initialResolved = resolveActiveColor(initialPhone || ({} as any), colorParam, variantIdParam);
+  const [selectedColor, setSelectedColor] = useState<string>(initialResolved.selectedColor);
+  const [selectedColorImage, setSelectedColorImage] = useState<string>(initialResolved.selectedColorImage);
+  const [selectedColorImages, setSelectedColorImages] = useState<string[]>(initialResolved.selectedColorImages);
+  const [selectedVariantId, setSelectedVariantId] = useState<string | undefined>(initialResolved.selectedVariantId);
+
+  // Keep state synchronized if URL search params change
+  useEffect(() => {
+    if (phone) {
+      const resolved = resolveActiveColor(phone, colorParam, variantIdParam);
+      if (resolved.selectedColor) {
+        setSelectedColor(resolved.selectedColor);
+        setSelectedColorImage(resolved.selectedColorImage);
+        setSelectedColorImages(resolved.selectedColorImages);
+        setSelectedVariantId(resolved.selectedVariantId);
+      }
+    }
+  }, [colorParam, variantIdParam, phone]);
+
+  const handleSelectColor = (
+    colorName: string,
+    colorImg?: string,
+    colorImages?: string[],
+    variantId?: string
+  ) => {
+    setSelectedColor(colorName);
+    if (colorImg) setSelectedColorImage(colorImg);
+    if (colorImages && colorImages.length > 0) {
+      setSelectedColorImages(colorImages);
+    } else if (colorImg) {
+      setSelectedColorImages([colorImg]);
+    }
+    setSelectedVariantId(variantId);
+
+    // Update URL query parameters silently without refreshing or jumping scroll
+    if (typeof window !== 'undefined') {
+      const url = new URL(window.location.href);
+      url.searchParams.set('color', colorName);
+      if (variantId) {
+        url.searchParams.set('variantId', variantId);
+      } else {
+        url.searchParams.delete('variantId');
+      }
+      window.history.replaceState({}, '', url.toString());
+    }
+  };
 
   if (!phone) {
     return (
@@ -94,7 +143,11 @@ export default function PhoneDetailClient({ initialPhone }: { initialPhone: Smar
         
         {/* Left: Interactive Multi-Photo Gallery Stage */}
         <div className="lg:col-span-5">
-          <ProductImageGallery product={phone} activeColorImage={selectedColorImage} />
+          <ProductImageGallery
+            product={phone}
+            activeColorImage={selectedColorImage}
+            activeColorImages={selectedColorImages}
+          />
         </div>
 
         {/* Right: Info & Actions */}
@@ -136,15 +189,9 @@ export default function PhoneDetailClient({ initialPhone }: { initialPhone: Smar
             {(phone.colorOptions || phone.variants) && (
               <div className="mb-4">
                 <ProductColorPicker
-                  colorOptions={phone.colorOptions}
-                  variants={phone.variants}
+                  product={phone}
                   selectedColor={selectedColor}
-                  onSelectColor={(colorName, colorImg) => {
-                    setSelectedColor(colorName);
-                    if (colorImg) {
-                      setSelectedColorImage(colorImg);
-                    }
-                  }}
+                  onSelectColor={handleSelectColor}
                 />
               </div>
             )}

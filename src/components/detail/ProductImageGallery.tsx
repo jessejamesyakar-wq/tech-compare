@@ -1,37 +1,48 @@
 'use client';
 
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Image from 'next/image';
-import { Product } from '@/lib/types';
+import { BaseProduct, Product } from '@/lib/types';
 import { Maximize2, Zap, ChevronLeft, ChevronRight, Image as ImageIcon, X } from 'lucide-react';
 
 interface ProductImageGalleryProps {
-  product: Product;
+  product: BaseProduct | Product;
   activeColorImage?: string;
+  activeColorImages?: string[];
 }
 
-export function ProductImageGallery({ product, activeColorImage }: ProductImageGalleryProps) {
-  const defaultImage = activeColorImage || product.image || 'https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=800&auto=format&fit=crop&q=80';
-  const extraImages = (product.images || []).filter(Boolean);
+export function ProductImageGallery({
+  product,
+  activeColorImage,
+  activeColorImages
+}: ProductImageGalleryProps) {
+  const fallbackImg = 'https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=800&auto=format&fit=crop&q=80';
+  const defaultImage = activeColorImage || product.image || fallbackImg;
 
-  const rawImages = [defaultImage, ...extraImages];
-  const allImages = Array.from(new Set(rawImages)).filter(Boolean);
+  // Build the unified image array for the current active color
+  const allImages = React.useMemo(() => {
+    if (activeColorImages && activeColorImages.length > 0) {
+      return Array.from(new Set(activeColorImages.filter(Boolean)));
+    }
+    if (activeColorImage) {
+      const extraImages = (product.images || []).filter(Boolean);
+      return Array.from(new Set([activeColorImage, ...extraImages]));
+    }
+    const rawImages = [product.image, ...(product.images || [])].filter(Boolean);
+    return Array.from(new Set(rawImages.length > 0 ? rawImages : [fallbackImg]));
+  }, [activeColorImage, activeColorImages, product.image, product.images]);
 
   const [activeIndex, setActiveIndex] = useState<number>(0);
   const [isZoomOpen, setIsZoomOpen] = useState(false);
   const [imgError, setImgError] = useState(false);
 
-  // Sync active index when activeColorImage prop changes
-  React.useEffect(() => {
-    if (activeColorImage) {
-      const idx = allImages.indexOf(activeColorImage);
-      if (idx !== -1) {
-        setActiveIndex(idx);
-      }
-    }
-  }, [activeColorImage]);
+  // When active color or its images change, immediately reset gallery to the primary image (index 0)
+  useEffect(() => {
+    setActiveIndex(0);
+    setImgError(false);
+  }, [activeColorImage, activeColorImages]);
 
-  const activeImage = imgError ? defaultImage : (allImages[activeIndex] || defaultImage);
+  const activeImage = imgError ? (allImages[0] || defaultImage) : (allImages[activeIndex] || allImages[0] || defaultImage);
 
   const handlePrev = () => {
     setImgError(false);
@@ -95,8 +106,9 @@ export function ProductImageGallery({ product, activeColorImage }: ProductImageG
         </button>
 
         {/* Optimized Active Hero Image with 1000x1000 High-Res Resolution & Contain Fit */}
-        <div className="relative w-full h-full flex items-center justify-center">
+        <div className="relative w-full h-full flex items-center justify-center p-2">
           <Image
+            key={activeImage}
             src={activeImage}
             alt={`${product.name} Görsel ${activeIndex + 1}`}
             priority={activeIndex === 0}
@@ -106,7 +118,7 @@ export function ProductImageGallery({ product, activeColorImage }: ProductImageG
             height={1000}
             sizes="(max-width: 640px) 90vw, (max-width: 1024px) 500px, 500px"
             onError={() => setImgError(true)}
-            className="fixed-detail-main-img group-hover:scale-105 drop-shadow-md"
+            className="fixed-detail-main-img group-hover:scale-105 drop-shadow-md transition-transform duration-300"
           />
         </div>
       </div>
@@ -116,7 +128,7 @@ export function ProductImageGallery({ product, activeColorImage }: ProductImageG
         <div className="space-y-2">
           <div className="flex items-center justify-between px-1">
             <span className="text-[11px] font-black text-slate-400 uppercase tracking-wider block">
-              Tüm Fotoğraflar ({allImages.length}):
+              Fotoğraflar ({allImages.length}):
             </span>
             <span className="text-[10px] text-slate-400 font-semibold">Tıklayarak inceleyebilirsiniz</span>
           </div>

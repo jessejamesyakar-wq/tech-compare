@@ -1,3 +1,4 @@
+import { Suspense } from 'react';
 import { Metadata } from 'next';
 import { getHeadphoneById, getProductById } from '@/lib/data';
 import HeadphonesDetailClient from './HeadphonesDetailClient';
@@ -57,5 +58,9 @@ export default async function HeadphonesDetailPage({
 }) {
   const { id } = await params;
   const product = (await getHeadphoneById(id)) ?? (await getProductById(id)) ?? null;
-  return <HeadphonesDetailClient initialProduct={product as any} />;
+  return (
+    <Suspense fallback={<div className="py-24 text-center text-xs font-bold text-slate-400 animate-pulse">Ürün yükleniyor...</div>}>
+      <HeadphonesDetailClient initialProduct={product as any} />
+    </Suspense>
+  );
 }

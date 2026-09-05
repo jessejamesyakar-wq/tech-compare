@@ -1,3 +1,4 @@
+import { Suspense } from 'react';
 import { Metadata } from 'next';
 import { getMonitorById, getProductById } from '@/lib/data';
 import MonitorDetailClient from './MonitorDetailClient';
@@ -57,5 +58,9 @@ export default async function MonitorDetailPage({
 }) {
   const { id } = await params;
   const product = (await getMonitorById(id)) ?? (await getProductById(id)) ?? null;
-  return <MonitorDetailClient initialProduct={product as any} />;
+  return (
+    <Suspense fallback={<div className="py-24 text-center text-xs font-bold text-slate-400 animate-pulse">Ürün yükleniyor...</div>}>
+      <MonitorDetailClient initialProduct={product as any} />
+    </Suspense>
+  );
 }

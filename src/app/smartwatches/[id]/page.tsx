@@ -1,3 +1,4 @@
+import { Suspense } from 'react';
 import { Metadata } from 'next';
 import { getSmartwatchById, getProductById } from '@/lib/data';
 import SmartwatchesDetailClient from './SmartwatchesDetailClient';
@@ -57,5 +58,9 @@ export default async function SmartwatchesDetailPage({
 }) {
   const { id } = await params;
   const product = (await getSmartwatchById(id)) ?? (await getProductById(id)) ?? null;
-  return <SmartwatchesDetailClient initialProduct={product as any} />;
+  return (
+    <Suspense fallback={<div className="py-24 text-center text-xs font-bold text-slate-400 animate-pulse">Ürün yükleniyor...</div>}>
+      <SmartwatchesDetailClient initialProduct={product as any} />
+    </Suspense>
+  );
 }

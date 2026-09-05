@@ -1,3 +1,4 @@
+import { Suspense } from 'react';
 import { Metadata } from 'next';
 import { getSmartphoneById, getProductById } from '@/lib/data';
 import PhoneDetailClient from './PhoneDetailClient';
@@ -57,5 +58,9 @@ export default async function PhoneDetailPage({
 }) {
   const { id } = await params;
   const product = (await getSmartphoneById(id)) ?? (await getProductById(id)) ?? null;
-  return <PhoneDetailClient initialPhone={product as any} />;
+  return (
+    <Suspense fallback={<div className="py-24 text-center text-xs font-bold text-slate-400 animate-pulse">Ürün yükleniyor...</div>}>
+      <PhoneDetailClient initialPhone={product as any} />
+    </Suspense>
+  );
 }

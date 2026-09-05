@@ -19,6 +19,7 @@ export interface ProductVariant {
   colorHex?: string;
   image: string;
   images?: string[];
+  price?: number;
   priceOffset?: number;
   inStock?: boolean;
   sku?: string;

@@ -5,9 +5,12 @@ import Image from 'next/image';
 import dynamic from 'next/dynamic';
 import React, { useState } from 'react';
 import Link from 'next/link';
+import { useSearchParams } from 'next/navigation';
 import { Product } from '@/lib/types';
+import { resolveActiveColor } from '@/lib/colorVariantHelper';
 import { useCompare } from '@/context/CompareContext';
 import { ProductImageGallery } from '@/components/detail/ProductImageGallery';
+import { ProductColorPicker } from '@/components/detail/ProductColorPicker';
 import { AIPriceForecastBadge } from '@/components/ai/AIPriceForecastBadge';
 import { AIReviewSummaryCard } from '@/components/ai/AIReviewSummaryCard';
 import { AIUpgradeAdvisor } from '@/components/ai/AIUpgradeAdvisor';
@@ -31,7 +34,55 @@ import {
 
 export default function MonitorDetailClient({ initialProduct }: { initialProduct: Product | null }) {
   const { addToCompare, removeFromCompare, isInCompare } = useCompare();
-  const [selectedImage, setSelectedImage] = useState(0);
+  const searchParams = useSearchParams();
+
+  const colorParam = searchParams.get('color');
+  const variantIdParam = searchParams.get('variantId');
+
+  const initialResolved = resolveActiveColor(initialProduct || ({} as any), colorParam, variantIdParam);
+  const [selectedColor, setSelectedColor] = useState<string>(initialResolved.selectedColor);
+  const [selectedColorImage, setSelectedColorImage] = useState<string>(initialResolved.selectedColorImage);
+  const [selectedColorImages, setSelectedColorImages] = useState<string[]>(initialResolved.selectedColorImages);
+  const [selectedVariantId, setSelectedVariantId] = useState<string | undefined>(initialResolved.selectedVariantId);
+
+  React.useEffect(() => {
+    if (initialProduct) {
+      const resolved = resolveActiveColor(initialProduct, colorParam, variantIdParam);
+      if (resolved.selectedColor) {
+        setSelectedColor(resolved.selectedColor);
+        setSelectedColorImage(resolved.selectedColorImage);
+        setSelectedColorImages(resolved.selectedColorImages);
+        setSelectedVariantId(resolved.selectedVariantId);
+      }
+    }
+  }, [colorParam, variantIdParam, initialProduct]);
+
+  const handleSelectColor = (
+    colorName: string,
+    colorImg?: string,
+    colorImages?: string[],
+    variantId?: string
+  ) => {
+    setSelectedColor(colorName);
+    if (colorImg) setSelectedColorImage(colorImg);
+    if (colorImages && colorImages.length > 0) {
+      setSelectedColorImages(colorImages);
+    } else if (colorImg) {
+      setSelectedColorImages([colorImg]);
+    }
+    setSelectedVariantId(variantId);
+
+    if (typeof window !== 'undefined') {
+      const url = new URL(window.location.href);
+      url.searchParams.set('color', colorName);
+      if (variantId) {
+        url.searchParams.set('variantId', variantId);
+      } else {
+        url.searchParams.delete('variantId');
+      }
+      window.history.replaceState({}, '', url.toString());
+    }
+  };
 
   if (!initialProduct) {
     return (
@@ -47,7 +98,6 @@ export default function MonitorDetailClient({ initialProduct }: { initialProduct
   }
 
   const inCompare = isInCompare(initialProduct.id);
-  const images = initialProduct.images && initialProduct.images.length > 0 ? initialProduct.images : [initialProduct.image];
   const score100 = initialProduct.epeyScore || Math.round((initialProduct.rating || 4.8) * 20);
   const specs = (initialProduct.specs as Record<string, any>) || {};
 
@@ -66,7 +116,11 @@ export default function MonitorDetailClient({ initialProduct }: { initialProduct
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 bg-white border border-slate-200 rounded-3xl p-6 sm:p-8 shadow-xs">
         {/* Left: Gallery (5 Cols) */}
         <div className="lg:col-span-5">
-          <ProductImageGallery product={initialProduct} />
+          <ProductImageGallery
+            product={initialProduct}
+            activeColorImage={selectedColorImage}
+            activeColorImages={selectedColorImages}
+          />
         </div>
 
         {/* Right: Info & Price Offers (7 Cols) */}
@@ -85,6 +139,15 @@ export default function MonitorDetailClient({ initialProduct }: { initialProduct
               {initialProduct.name}
             </h1>
           </div>
+
+          {/* Interactive Color Variant Picker */}
+          {(initialProduct.colorOptions || initialProduct.variants) && (
+            <ProductColorPicker
+              product={initialProduct}
+              selectedColor={selectedColor}
+              onSelectColor={handleSelectColor}
+            />
+          )}
 
           {/* Highlights */}
           <div className="bg-slate-50 border border-slate-200/80 rounded-2xl p-4 space-y-2">

@@ -1,9 +1,11 @@
 'use client';
 
-import React from 'react';
+import React, { useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
+import { useRouter } from 'next/navigation';
 import { Product } from '@/lib/types';
+import { getProductColorList, ResolvedColorOption } from '@/lib/colorVariantHelper';
 import { ArrowRight, Store } from 'lucide-react';
 import { TiltCard } from '@/components/ui/TiltCard';
 import { useI18n } from '@/lib/i18n/context';
@@ -20,8 +22,9 @@ export function CompactProductCard({
   product
 }: CompactProductCardProps) {
   const { t } = useI18n();
+  const router = useRouter();
   const slug = product.slug || product.id;
-  const href =
+  const baseHref =
     product.category === 'tvs'
       ? `/tvs/${slug}`
       : product.category === 'laptops'
@@ -62,11 +65,38 @@ export function CompactProductCard({
       ? '/images/products/laptops/apple-macbook-air-m3.jpg'
       : '/images/products/smartphones/apple/iphone-16-pro-natural.jpg';
 
-  const [imgSrc, setImgSrc] = React.useState(product.image || fallbackImg);
+  const availableColors = React.useMemo(() => getProductColorList(product), [product]);
+  const [activeColor, setActiveColor] = useState<ResolvedColorOption | null>(availableColors[0] || null);
+  const [imgSrc, setImgSrc] = useState<string>(availableColors[0]?.image || product.image || fallbackImg);
 
   React.useEffect(() => {
-    setImgSrc(product.image || fallbackImg);
-  }, [product.image, fallbackImg]);
+    if (availableColors.length > 0 && availableColors[0]?.image) {
+      setImgSrc(availableColors[0].image);
+      setActiveColor(availableColors[0]);
+    } else {
+      setImgSrc(product.image || fallbackImg);
+      setActiveColor(null);
+    }
+  }, [product.image, fallbackImg, availableColors]);
+
+  const handleColorClick = (e: React.MouseEvent, color: ResolvedColorOption) => {
+    e.preventDefault();
+    e.stopPropagation();
+    setActiveColor(color);
+    if (color.image) {
+      setImgSrc(color.image);
+    }
+    router.push(`${baseHref}?color=${encodeURIComponent(color.name)}`);
+  };
+
+  const handleColorHover = (color: ResolvedColorOption) => {
+    setActiveColor(color);
+    if (color.image) {
+      setImgSrc(color.image);
+    }
+  };
+
+  const targetHref = `${baseHref}${activeColor ? `?color=${encodeURIComponent(activeColor.name)}` : ''}`;
 
   // Clean Unified Card Layout for all categories
   const specs = (product.specs || {}) as Record<string, any>;
@@ -126,9 +156,10 @@ export function CompactProductCard({
   return (
     <TiltCard className="group bg-white border border-slate-200 hover:border-emerald-500/50 rounded-2xl sm:rounded-3xl p-3.5 sm:p-5 transition-all duration-300 shadow-md hover:shadow-2xl hover:-translate-y-1 flex flex-col justify-between">
       {/* Standart 1:1 Kare Ürün Görseli Container */}
-      <Link href={href} className="block relative mb-2 sm:mb-2.5">
+      <Link href={targetHref} className="block relative mb-2 sm:mb-2.5">
         <div className="fixed-product-img-container border border-slate-100 group-hover:bg-slate-50/80 transition-colors">
           <Image
+            key={imgSrc}
             src={imgSrc}
             alt={product.name}
             width={240}
@@ -136,7 +167,7 @@ export function CompactProductCard({
             loading="lazy"
             sizes="(max-width: 640px) 45vw, (max-width: 1024px) 30vw, 240px"
             onError={() => setImgSrc(fallbackImg)}
-            className="fixed-product-img group-hover:scale-105 drop-shadow-sm"
+            className="fixed-product-img group-hover:scale-105 drop-shadow-sm transition-all duration-300"
           />
         </div>
       </Link>
@@ -147,7 +178,7 @@ export function CompactProductCard({
           {product.brand}
         </span>
 
-        <Link href={href} className="block">
+        <Link href={targetHref} className="block">
           <h4 className="text-xs sm:text-sm font-bold text-slate-900 group-hover:text-emerald-700 transition-colors line-clamp-2 leading-snug">
             {product.name}
           </h4>
@@ -159,20 +190,35 @@ export function CompactProductCard({
           </p>
         )}
 
-        {/* Color Swatches */}
-        {product.colorOptions && product.colorOptions.length > 0 && (
+        {/* Interactive Color Swatches */}
+        {availableColors.length > 0 && (
           <div className="flex items-center gap-1.5 pt-1.5">
-            {product.colorOptions.slice(0, 4).map((c, cIdx) => (
-              <span
-                key={cIdx}
-                title={c.name}
-                className="w-2.5 h-2.5 sm:w-3 sm:h-3 rounded-full border border-slate-300 shadow-2xs shrink-0"
-                style={{ backgroundColor: c.hex }}
-              />
-            ))}
-            {product.colorOptions.length > 4 && (
+            {availableColors.slice(0, 5).map((c, cIdx) => {
+              const isCurrent = activeColor?.name.toLowerCase() === c.name.toLowerCase();
+              return (
+                <button
+                  key={cIdx}
+                  type="button"
+                  onClick={(e) => handleColorClick(e, c)}
+                  onMouseEnter={() => handleColorHover(c)}
+                  title={c.name}
+                  className={`w-3 h-3 rounded-full border transition-all cursor-pointer ${
+                    isCurrent
+                      ? 'ring-2 ring-emerald-500 border-white scale-110 shadow-xs'
+                      : 'border-slate-300/80 hover:scale-110'
+                  }`}
+                  style={{ backgroundColor: c.hex }}
+                />
+              );
+            })}
+            {availableColors.length > 5 && (
               <span className="text-[9px] text-slate-400 font-bold">
-                +{product.colorOptions.length - 4}
+                +{availableColors.length - 5}
+              </span>
+            )}
+            {activeColor && (
+              <span className="text-[9px] text-slate-500 font-medium truncate ml-1">
+                {activeColor.name.split(' ')[0]}
               </span>
             )}
           </div>
@@ -227,8 +273,8 @@ export function CompactProductCard({
 
         {/* Compare Prices Link */}
         <Link
-          href={href}
-          className="w-full bg-slate-900 hover:bg-emerald-600 text-white text-[10px] sm:text-[11px] font-bold py-1.5 sm:py-2 px-2.5 sm:px-3 rounded-xl flex items-center justify-center gap-1 sm:gap-1.5 transition-all mt-1"
+          href={targetHref}
+          className="w-full bg-slate-900 hover:bg-emerald-600 text-white text-[10px] sm:text-[11px] font-bold py-1.5 sm:py-2 px-2.5 sm:px-3 rounded-xl flex items-center justify-center gap-1 sm:gap-1.5 transition-all mt-1 cursor-pointer"
         >
           <span>{t.compareNavBtn} ({offerCount})</span>
           <ArrowRight className="w-2.5 h-2.5 sm:w-3 sm:h-3" />

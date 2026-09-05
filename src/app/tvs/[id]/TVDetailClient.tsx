@@ -4,11 +4,14 @@ import { ProductJsonLd } from '@/components/seo/ProductJsonLd';
 import React, { useState } from 'react';
 import Link from 'next/link';
 import dynamic from 'next/dynamic';
+import { useSearchParams } from 'next/navigation';
 import { TVProduct } from '@/lib/types';
+import { resolveActiveColor } from '@/lib/colorVariantHelper';
 import { useCompare } from '@/context/CompareContext';
 import { StoreTable } from '@/components/detail/StoreTable';
 import { CompactStoreComparison } from '@/components/detail/CompactStoreComparison';
 import { ProductImageGallery } from '@/components/detail/ProductImageGallery';
+import { ProductColorPicker } from '@/components/detail/ProductColorPicker';
 import { StickyHeaderBar } from '@/components/detail/StickyHeaderBar';
 import { TVScoreBreakdown } from '@/components/detail/TVScoreBreakdown';
 import { calculateTVScore } from '@/lib/tvScoring';
@@ -43,9 +46,58 @@ import {
 
 export default function TVDetailClient({ initialTVProduct }: { initialTVProduct: TVProduct | null }) {
   const { addToCompare, removeFromCompare, isInCompare } = useCompare();
+  const searchParams = useSearchParams();
 
   const [tv] = useState<TVProduct | null>(initialTVProduct);
   const [alertModalOpen, setAlertModalOpen] = useState<boolean>(false);
+
+  const colorParam = searchParams.get('color');
+  const variantIdParam = searchParams.get('variantId');
+
+  const initialResolved = resolveActiveColor(initialTVProduct || ({} as any), colorParam, variantIdParam);
+  const [selectedColor, setSelectedColor] = useState<string>(initialResolved.selectedColor);
+  const [selectedColorImage, setSelectedColorImage] = useState<string>(initialResolved.selectedColorImage);
+  const [selectedColorImages, setSelectedColorImages] = useState<string[]>(initialResolved.selectedColorImages);
+  const [selectedVariantId, setSelectedVariantId] = useState<string | undefined>(initialResolved.selectedVariantId);
+
+  React.useEffect(() => {
+    if (tv) {
+      const resolved = resolveActiveColor(tv, colorParam, variantIdParam);
+      if (resolved.selectedColor) {
+        setSelectedColor(resolved.selectedColor);
+        setSelectedColorImage(resolved.selectedColorImage);
+        setSelectedColorImages(resolved.selectedColorImages);
+        setSelectedVariantId(resolved.selectedVariantId);
+      }
+    }
+  }, [colorParam, variantIdParam, tv]);
+
+  const handleSelectColor = (
+    colorName: string,
+    colorImg?: string,
+    colorImages?: string[],
+    variantId?: string
+  ) => {
+    setSelectedColor(colorName);
+    if (colorImg) setSelectedColorImage(colorImg);
+    if (colorImages && colorImages.length > 0) {
+      setSelectedColorImages(colorImages);
+    } else if (colorImg) {
+      setSelectedColorImages([colorImg]);
+    }
+    setSelectedVariantId(variantId);
+
+    if (typeof window !== 'undefined') {
+      const url = new URL(window.location.href);
+      url.searchParams.set('color', colorName);
+      if (variantId) {
+        url.searchParams.set('variantId', variantId);
+      } else {
+        url.searchParams.delete('variantId');
+      }
+      window.history.replaceState({}, '', url.toString());
+    }
+  };
 
   if (!tv) {
     return (
@@ -80,7 +132,11 @@ export default function TVDetailClient({ initialTVProduct }: { initialTVProduct:
         
         {/* Left: Interactive Multi-Photo Gallery Stage */}
         <div className="lg:col-span-5">
-          <ProductImageGallery product={tv} />
+          <ProductImageGallery
+            product={tv}
+            activeColorImage={selectedColorImage}
+            activeColorImages={selectedColorImages}
+          />
         </div>
 
         {/* Right: Info & Actions */}
@@ -107,6 +163,17 @@ export default function TVDetailClient({ initialTVProduct }: { initialTVProduct:
             <h1 className="text-2xl sm:text-3xl font-black text-slate-900 leading-tight mb-4">
               {tv.name}
             </h1>
+
+            {/* Interactive Color Variant Picker */}
+            {(tv.colorOptions || tv.variants) && (
+              <div className="mb-4">
+                <ProductColorPicker
+                  product={tv}
+                  selectedColor={selectedColor}
+                  onSelectColor={handleSelectColor}
+                />
+              </div>
+            )}
 
             {/* Highlights Chips */}
             <div className="flex flex-wrap gap-2 mb-6">

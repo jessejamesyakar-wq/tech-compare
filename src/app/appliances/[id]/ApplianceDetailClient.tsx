@@ -5,9 +5,12 @@ import Image from 'next/image';
 import dynamic from 'next/dynamic';
 import React, { useState } from 'react';
 import Link from 'next/link';
+import { useSearchParams } from 'next/navigation';
 import { ApplianceProduct } from '@/lib/types';
+import { resolveActiveColor } from '@/lib/colorVariantHelper';
 import { StoreTable } from '@/components/detail/StoreTable';
 import { ProductImageGallery } from '@/components/detail/ProductImageGallery';
+import { ProductColorPicker } from '@/components/detail/ProductColorPicker';
 const PriceHistoryChart = dynamic(() => import('@/components/detail/PriceHistoryChart').then(m => m.PriceHistoryChart), { loading: () => <div className="h-64 bg-slate-50 rounded-3xl animate-pulse" /> });
 const PriceAlertModal = dynamic(() => import('@/components/detail/PriceAlertModal').then(m => m.PriceAlertModal), { ssr: false });
 import { StickyHeaderBar } from '@/components/detail/StickyHeaderBar';
@@ -31,9 +34,58 @@ import {
 
 export default function ApplianceDetailClient({ initialApplianceProduct }: { initialApplianceProduct: ApplianceProduct | null }) {
   const { addToCompare, removeFromCompare, isInCompare } = useCompare();
+  const searchParams = useSearchParams();
 
   const [product] = useState<ApplianceProduct | null>(initialApplianceProduct);
   const [alertModalOpen, setAlertModalOpen] = useState<boolean>(false);
+
+  const colorParam = searchParams.get('color');
+  const variantIdParam = searchParams.get('variantId');
+
+  const initialResolved = resolveActiveColor(initialApplianceProduct || ({} as any), colorParam, variantIdParam);
+  const [selectedColor, setSelectedColor] = useState<string>(initialResolved.selectedColor);
+  const [selectedColorImage, setSelectedColorImage] = useState<string>(initialResolved.selectedColorImage);
+  const [selectedColorImages, setSelectedColorImages] = useState<string[]>(initialResolved.selectedColorImages);
+  const [selectedVariantId, setSelectedVariantId] = useState<string | undefined>(initialResolved.selectedVariantId);
+
+  React.useEffect(() => {
+    if (product) {
+      const resolved = resolveActiveColor(product, colorParam, variantIdParam);
+      if (resolved.selectedColor) {
+        setSelectedColor(resolved.selectedColor);
+        setSelectedColorImage(resolved.selectedColorImage);
+        setSelectedColorImages(resolved.selectedColorImages);
+        setSelectedVariantId(resolved.selectedVariantId);
+      }
+    }
+  }, [colorParam, variantIdParam, product]);
+
+  const handleSelectColor = (
+    colorName: string,
+    colorImg?: string,
+    colorImages?: string[],
+    variantId?: string
+  ) => {
+    setSelectedColor(colorName);
+    if (colorImg) setSelectedColorImage(colorImg);
+    if (colorImages && colorImages.length > 0) {
+      setSelectedColorImages(colorImages);
+    } else if (colorImg) {
+      setSelectedColorImages([colorImg]);
+    }
+    setSelectedVariantId(variantId);
+
+    if (typeof window !== 'undefined') {
+      const url = new URL(window.location.href);
+      url.searchParams.set('color', colorName);
+      if (variantId) {
+        url.searchParams.set('variantId', variantId);
+      } else {
+        url.searchParams.delete('variantId');
+      }
+      window.history.replaceState({}, '', url.toString());
+    }
+  };
 
   if (!product) {
     return (
@@ -71,7 +123,11 @@ export default function ApplianceDetailClient({ initialApplianceProduct }: { ini
           
           {/* Left: Product Image Showcase Stage (Strict 500x500 Square) */}
           <div className="lg:col-span-5">
-            <ProductImageGallery product={product} />
+            <ProductImageGallery
+              product={product}
+              activeColorImage={selectedColorImage}
+              activeColorImages={selectedColorImages}
+            />
             
             <div className="mt-4 flex items-center gap-3 text-xs text-slate-500 font-semibold">
               <span className="flex items-center gap-1">
@@ -104,6 +160,15 @@ export default function ApplianceDetailClient({ initialApplianceProduct }: { ini
                 {product.name}
               </h1>
             </div>
+
+            {/* Interactive Color Variant Picker */}
+            {(product.colorOptions || product.variants) && (
+              <ProductColorPicker
+                product={product}
+                selectedColor={selectedColor}
+                onSelectColor={handleSelectColor}
+              />
+            )}
 
             {/* Price & Score Highlight Card */}
             <div className="bg-gradient-to-br from-emerald-50/70 via-slate-50 to-teal-50/50 border border-emerald-100/80 rounded-2xl p-5 flex flex-wrap items-center justify-between gap-4">

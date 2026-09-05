@@ -1,10 +1,12 @@
 'use client';
 
 import Image from 'next/image';
-import React from 'react';
+import React, { useState } from 'react';
 import Link from 'next/link';
+import { useRouter } from 'next/navigation';
 import { motion } from 'framer-motion';
 import { Smartphone } from '@/lib/types';
+import { getProductColorList, ResolvedColorOption } from '@/lib/colorVariantHelper';
 import { useI18n } from '@/lib/i18n/context';
 import { useCompare } from '@/context/CompareContext';
 import {
@@ -30,6 +32,7 @@ interface PhoneCardProps {
 
 export function PhoneCard({ phone, index = 0 }: PhoneCardProps) {
   const { t } = useI18n();
+  const router = useRouter();
   const { addToCompare, removeFromCompare, isInCompare } = useCompare();
   const inCompare = isInCompare(phone.id);
 
@@ -119,7 +122,30 @@ export function PhoneCard({ phone, index = 0 }: PhoneCardProps) {
 
   const lowestPrice = Math.min(...storeList.map((s) => s.price));
   const fallbackImg = 'https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=800&auto=format&fit=crop&q=80';
-  const [imgSrc, setImgSrc] = React.useState(phone.image || fallbackImg);
+
+  // Resolved colors list for card interactive preview
+  const availableColors = React.useMemo(() => getProductColorList(phone), [phone]);
+  const [activeColor, setActiveColor] = useState<ResolvedColorOption | null>(availableColors[0] || null);
+  const [imgSrc, setImgSrc] = useState<string>(availableColors[0]?.image || phone.image || fallbackImg);
+
+  const handleColorClick = (e: React.MouseEvent, color: ResolvedColorOption) => {
+    e.preventDefault();
+    e.stopPropagation();
+    setActiveColor(color);
+    if (color.image) {
+      setImgSrc(color.image);
+    }
+    router.push(`/phones/${phone.slug}?color=${encodeURIComponent(color.name)}`);
+  };
+
+  const handleColorHover = (color: ResolvedColorOption) => {
+    setActiveColor(color);
+    if (color.image) {
+      setImgSrc(color.image);
+    }
+  };
+
+  const targetHref = `/phones/${phone.slug}${activeColor ? `?color=${encodeURIComponent(activeColor.name)}` : ''}`;
 
   return (
     <TiltCard className="group bg-white border border-slate-200 hover:border-emerald-500/60 rounded-2xl sm:rounded-3xl p-4 sm:p-5 transition-all duration-300 shadow-md hover:shadow-2xl hover:-translate-y-1 flex flex-col justify-between cursor-pointer">
@@ -140,7 +166,7 @@ export function PhoneCard({ phone, index = 0 }: PhoneCardProps) {
 
       {/* Sağ Üst Kıyaslama Butonu (Vatan Stil) */}
       <button
-        onClick={() => (inCompare ? removeFromCompare(phone.id) : addToCompare(phone))}
+        onClick={handleCompareClick}
         className={`absolute top-3 right-3 z-10 p-1.5 rounded-xl border text-xs font-bold transition-all shadow-xs flex items-center gap-1 cursor-pointer ${
           inCompare
             ? 'bg-emerald-600 text-white border-emerald-500 shadow-emerald-500/25'
@@ -154,9 +180,10 @@ export function PhoneCard({ phone, index = 0 }: PhoneCardProps) {
 
       <div>
         {/* Standart 1:1 Kare Ürün Görseli Container */}
-        <Link href={`/phones/${phone.slug}`} className="block relative mb-3">
+        <Link href={targetHref} className="block relative mb-3">
           <div className="fixed-product-img-container border border-slate-100 group-hover:bg-slate-50/80 transition-colors">
             <Image
+              key={imgSrc}
               src={imgSrc}
               alt={phone.name}
               width={240}
@@ -164,7 +191,7 @@ export function PhoneCard({ phone, index = 0 }: PhoneCardProps) {
               loading="lazy"
               sizes="(max-width: 640px) 45vw, (max-width: 1024px) 30vw, 240px"
               onError={() => setImgSrc(fallbackImg)}
-              className="fixed-product-img group-hover:scale-105 drop-shadow-sm"
+              className="fixed-product-img group-hover:scale-105 drop-shadow-sm transition-all duration-300"
             />
 
             {/* Circular Score Badge Overlay */}
@@ -190,11 +217,45 @@ export function PhoneCard({ phone, index = 0 }: PhoneCardProps) {
         </div>
 
         {/* Product Title */}
-        <Link href={`/phones/${phone.slug}`} className="block mb-2">
+        <Link href={targetHref} className="block mb-1.5">
           <h3 className="text-slate-900 font-bold text-xs leading-snug group-hover:text-blue-700 transition-colors line-clamp-2 min-h-[32px]">
             {phone.name}
           </h3>
         </Link>
+
+        {/* Interactive Color Variant Swatches on Card */}
+        {availableColors.length > 0 && (
+          <div className="flex items-center gap-1.5 mb-2 py-0.5">
+            {availableColors.slice(0, 5).map((c, cIdx) => {
+              const isCurrent = activeColor?.name.toLowerCase() === c.name.toLowerCase();
+              return (
+                <button
+                  key={cIdx}
+                  type="button"
+                  onClick={(e) => handleColorClick(e, c)}
+                  onMouseEnter={() => handleColorHover(c)}
+                  title={c.name}
+                  className={`w-3.5 h-3.5 rounded-full border transition-all cursor-pointer ${
+                    isCurrent
+                      ? 'ring-2 ring-emerald-500 border-white scale-110 shadow-xs'
+                      : 'border-slate-300/80 hover:scale-110'
+                  }`}
+                  style={{ backgroundColor: c.hex }}
+                />
+              );
+            })}
+            {availableColors.length > 5 && (
+              <span className="text-[9px] text-slate-400 font-bold">
+                +{availableColors.length - 5}
+              </span>
+            )}
+            {activeColor && (
+              <span className="text-[9px] text-slate-500 font-medium truncate ml-1">
+                {activeColor.name.split(' ')[0]}
+              </span>
+            )}
+          </div>
+        )}
 
         {/* Specs Highlights Pills */}
         <div className="grid grid-cols-2 gap-1 mb-2.5 text-[10px]">
@@ -251,7 +312,7 @@ export function PhoneCard({ phone, index = 0 }: PhoneCardProps) {
           </span>
         </div>
 
-        <Link href={`/phones/${phone.slug}`}>
+        <Link href={targetHref}>
           <motion.button
             whileHover={{ scale: 1.03 }}
             whileTap={{ scale: 0.97 }}

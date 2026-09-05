@@ -1,3 +1,4 @@
+import { Suspense } from 'react';
 import { Metadata } from 'next';
 import { getLaptopById, getProductById } from '@/lib/data';
 import LaptopDetailClient from './LaptopDetailClient';
@@ -57,5 +58,9 @@ export default async function LaptopDetailPage({
 }) {
   const { id } = await params;
   const product = (await getLaptopById(id)) ?? (await getProductById(id)) ?? null;
-  return <LaptopDetailClient initialLaptopProduct={product as any} />;
+  return (
+    <Suspense fallback={<div className="py-24 text-center text-xs font-bold text-slate-400 animate-pulse">Ürün yükleniyor...</div>}>
+      <LaptopDetailClient initialLaptopProduct={product as any} />
+    </Suspense>
+  );
 }

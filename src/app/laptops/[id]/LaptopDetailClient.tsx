@@ -3,16 +3,22 @@
 import { ProductJsonLd } from '@/components/seo/ProductJsonLd';
 import Image from 'next/image';
 import dynamic from 'next/dynamic';
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
+import { useSearchParams } from 'next/navigation';
 import { LaptopProduct } from '@/lib/types';
+import { resolveActiveColor } from '@/lib/colorVariantHelper';
 import { StoreTable } from '@/components/detail/StoreTable';
+import { StickyHeaderBar } from '@/components/detail/StickyHeaderBar';
+import { ProductImageGallery } from '@/components/detail/ProductImageGallery';
+import { ProductColorPicker } from '@/components/detail/ProductColorPicker';
+import { useCompare } from '@/context/CompareContext';
+
 const PriceHistoryChart = dynamic(() => import('@/components/detail/PriceHistoryChart').then(m => m.PriceHistoryChart), { loading: () => <div className="h-64 bg-slate-50 rounded-3xl animate-pulse" /> });
 const PriceAlertModal = dynamic(() => import('@/components/detail/PriceAlertModal').then(m => m.PriceAlertModal), { ssr: false });
-import { StickyHeaderBar } from '@/components/detail/StickyHeaderBar';
 const BrandLogoBar = dynamic(() => import('@/components/catalog/BrandLogoBar').then(m => m.BrandLogoBar));
-import { useCompare } from '@/context/CompareContext';
 const LaptopSpecSheet = dynamic(() => import('@/components/detail/LaptopSpecSheet').then(m => m.LaptopSpecSheet), { loading: () => <div className="h-64 bg-slate-50 rounded-3xl animate-pulse" /> });
+
 import {
   Star,
   Scale,
@@ -24,13 +30,60 @@ import {
   Award
 } from 'lucide-react';
 
-import { ProductImageGallery } from '@/components/detail/ProductImageGallery';
-
 export default function LaptopDetailClient({ initialLaptopProduct }: { initialLaptopProduct: LaptopProduct | null }) {
   const { addToCompare, removeFromCompare, isInCompare } = useCompare();
+  const searchParams = useSearchParams();
 
   const [laptop] = useState<LaptopProduct | null>(initialLaptopProduct);
   const [alertModalOpen, setAlertModalOpen] = useState<boolean>(false);
+
+  const colorParam = searchParams.get('color');
+  const variantIdParam = searchParams.get('variantId');
+
+  const initialResolved = resolveActiveColor(initialLaptopProduct || ({} as any), colorParam, variantIdParam);
+  const [selectedColor, setSelectedColor] = useState<string>(initialResolved.selectedColor);
+  const [selectedColorImage, setSelectedColorImage] = useState<string>(initialResolved.selectedColorImage);
+  const [selectedColorImages, setSelectedColorImages] = useState<string[]>(initialResolved.selectedColorImages);
+  const [selectedVariantId, setSelectedVariantId] = useState<string | undefined>(initialResolved.selectedVariantId);
+
+  useEffect(() => {
+    if (laptop) {
+      const resolved = resolveActiveColor(laptop, colorParam, variantIdParam);
+      if (resolved.selectedColor) {
+        setSelectedColor(resolved.selectedColor);
+        setSelectedColorImage(resolved.selectedColorImage);
+        setSelectedColorImages(resolved.selectedColorImages);
+        setSelectedVariantId(resolved.selectedVariantId);
+      }
+    }
+  }, [colorParam, variantIdParam, laptop]);
+
+  const handleSelectColor = (
+    colorName: string,
+    colorImg?: string,
+    colorImages?: string[],
+    variantId?: string
+  ) => {
+    setSelectedColor(colorName);
+    if (colorImg) setSelectedColorImage(colorImg);
+    if (colorImages && colorImages.length > 0) {
+      setSelectedColorImages(colorImages);
+    } else if (colorImg) {
+      setSelectedColorImages([colorImg]);
+    }
+    setSelectedVariantId(variantId);
+
+    if (typeof window !== 'undefined') {
+      const url = new URL(window.location.href);
+      url.searchParams.set('color', colorName);
+      if (variantId) {
+        url.searchParams.set('variantId', variantId);
+      } else {
+        url.searchParams.delete('variantId');
+      }
+      window.history.replaceState({}, '', url.toString());
+    }
+  };
 
   if (!laptop) {
     return (
@@ -65,7 +118,11 @@ export default function LaptopDetailClient({ initialLaptopProduct }: { initialLa
         
         {/* Left: Interactive Multi-Photo Gallery Stage (Strict 500x500 Square) */}
         <div className="lg:col-span-5">
-          <ProductImageGallery product={laptop} />
+          <ProductImageGallery
+            product={laptop}
+            activeColorImage={selectedColorImage}
+            activeColorImages={selectedColorImages}
+          />
         </div>
 
         {/* Info & CTA Panel */}
@@ -95,6 +152,15 @@ export default function LaptopDetailClient({ initialLaptopProduct }: { initialLa
               <span className="text-slate-400">({laptop.reviewCount} kullanıcı değerlendirmesi)</span>
             </div>
           </div>
+
+          {/* Interactive Color Variant Picker */}
+          {(laptop.colorOptions || laptop.variants) && (
+            <ProductColorPicker
+              product={laptop}
+              selectedColor={selectedColor}
+              onSelectColor={handleSelectColor}
+            />
+          )}
 
           {/* Key Specs Summary Chips */}
           <div className="grid grid-cols-2 sm:grid-cols-3 gap-2 bg-slate-50 p-4 rounded-2xl border border-slate-100 text-xs">
@@ -140,49 +206,47 @@ export default function LaptopDetailClient({ initialLaptopProduct }: { initialLa
                 className="bg-slate-100 hover:bg-slate-200 text-slate-800 font-extrabold text-xs px-4 py-3 rounded-2xl flex items-center gap-1.5 transition-colors cursor-pointer"
               >
                 <Bell className="w-4 h-4 text-slate-600" />
-                <span>Fiyat Alarmı Kur</span>
+                <span>Fiyat Alarmı</span>
               </button>
 
               <button
                 onClick={() => (inCompare ? removeFromCompare(laptop.id) : addToCompare(laptop))}
-                className={`font-black text-xs px-5 py-3 rounded-2xl flex items-center gap-1.5 transition-all shadow-md cursor-pointer ${
+                className={`font-extrabold text-xs px-5 py-3 rounded-2xl flex items-center gap-1.5 transition-colors shadow-xs cursor-pointer ${
                   inCompare
-                    ? 'bg-emerald-600 text-white hover:bg-emerald-700'
-                    : 'bg-slate-900 text-white hover:bg-slate-800'
+                    ? 'bg-emerald-600 text-white'
+                    : 'bg-emerald-600 hover:bg-emerald-700 text-white'
                 }`}
               >
-                <Scale className="w-4 h-4 text-emerald-400" />
-                <span>{inCompare ? 'Kıyaslamada Eklendi' : '+ Kıyaslamaya Ekle'}</span>
+                <Scale className="w-4 h-4" />
+                <span>{inCompare ? 'Listede' : 'Karşılaştır'}</span>
               </button>
             </div>
           </div>
         </div>
-
       </div>
 
-      {/* Detailed Technical Spec Sheet */}
-      <LaptopSpecSheet specs={laptop.specs} />
-
-      {/* 8 Retailers Store Offers Table */}
-      <section className="space-y-4">
-        <h2 className="text-lg font-black text-slate-900 flex items-center gap-2">
+      {/* Store Offers Comparison Table */}
+      <div className="space-y-4">
+        <h2 className="text-lg font-black text-slate-900 tracking-tight flex items-center gap-2">
           <ShoppingBag className="w-5 h-5 text-emerald-600" />
-          <span>Canlı Mağaza Fiyat Karşılaştırması ({(laptop.storeOffers || []).length} Mağaza)</span>
+          <span>Mağaza Fiyat Karşılaştırması</span>
         </h2>
-        <StoreTable offers={laptop.storeOffers || []} currency="TL" />
-      </section>
+        <StoreTable offers={laptop.storeOffers} currency={laptop.currency} product={laptop} />
+      </div>
 
-      {/* Price History Chart */}
-      <section className="space-y-4">
-        <PriceHistoryChart data={laptop.priceHistory || []} currency="TL" />
-      </section>
+      {/* Price History Section */}
+      <PriceHistoryChart data={laptop.priceHistory} currency={laptop.currency} product={laptop} />
+
+      {/* Comprehensive Spec Sheet */}
+      <LaptopSpecSheet specs={laptop.specs} />
 
       {/* Price Alert Modal */}
       <PriceAlertModal
-        phone={laptop}
+        phone={laptop as any}
         isOpen={alertModalOpen}
         onClose={() => setAlertModalOpen(false)}
       />
+
       <ProductJsonLd product={laptop as any} />
     </div>
   );
