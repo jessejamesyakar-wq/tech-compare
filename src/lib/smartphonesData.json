@@ -1494,7 +1494,9 @@
       "/images/phones/apple/iphone-17-lineup.jpg",
       "/images/phones/apple/iphone-17-lavender.jpg",
       "/images/phones/apple/iphone-17-sage.jpg",
-      "/images/phones/apple/iphone-17-mistblue.jpg"
+      "/images/phones/apple/iphone-17-mistblue.jpg",
+      "/images/phones/apple/iphone-17-white.jpg",
+      "/images/phones/apple/iphone-17-black.jpg"
     ],
     "rating": 4.9,
     "epeyScore": 96,
@@ -1541,12 +1543,12 @@
       {
         "name": "Beyaz",
         "hex": "#fafafa",
-        "image": "/images/phones/apple/iphone-17-lineup.jpg"
+        "image": "/images/phones/apple/iphone-17-white.jpg"
       },
       {
         "name": "Siyah",
         "hex": "#343538",
-        "image": "/images/phones/apple/iphone-17-lineup.jpg"
+        "image": "/images/phones/apple/iphone-17-black.jpg"
       }
     ],
     "storeOffers": [
@@ -1738,7 +1740,9 @@
       "/images/phones/apple/iphone-17-lineup.jpg",
       "/images/phones/apple/iphone-17-lavender.jpg",
       "/images/phones/apple/iphone-17-sage.jpg",
-      "/images/phones/apple/iphone-17-mistblue.jpg"
+      "/images/phones/apple/iphone-17-mistblue.jpg",
+      "/images/phones/apple/iphone-17-white.jpg",
+      "/images/phones/apple/iphone-17-black.jpg"
     ]
   },
   {
@@ -1752,7 +1756,9 @@
       "/images/phones/apple/iphone-17-lineup.jpg",
       "/images/phones/apple/iphone-17-lavender.jpg",
       "/images/phones/apple/iphone-17-sage.jpg",
-      "/images/phones/apple/iphone-17-mistblue.jpg"
+      "/images/phones/apple/iphone-17-mistblue.jpg",
+      "/images/phones/apple/iphone-17-white.jpg",
+      "/images/phones/apple/iphone-17-black.jpg"
     ],
     "rating": 4.9,
     "epeyScore": 96,
@@ -1799,12 +1805,12 @@
       {
         "name": "Beyaz",
         "hex": "#fafafa",
-        "image": "/images/phones/apple/iphone-17-lineup.jpg"
+        "image": "/images/phones/apple/iphone-17-white.jpg"
       },
       {
         "name": "Siyah",
         "hex": "#343538",
-        "image": "/images/phones/apple/iphone-17-lineup.jpg"
+        "image": "/images/phones/apple/iphone-17-black.jpg"
       }
     ],
     "storeOffers": [
@@ -1997,7 +2003,9 @@
       "/images/phones/apple/iphone-17-lineup.jpg",
       "/images/phones/apple/iphone-17-lavender.jpg",
       "/images/phones/apple/iphone-17-sage.jpg",
-      "/images/phones/apple/iphone-17-mistblue.jpg"
+      "/images/phones/apple/iphone-17-mistblue.jpg",
+      "/images/phones/apple/iphone-17-white.jpg",
+      "/images/phones/apple/iphone-17-black.jpg"
     ]
   },
   {
@@ -2011,7 +2019,9 @@
       "/images/phones/apple/iphone-17-lineup.jpg",
       "/images/phones/apple/iphone-17-lavender.jpg",
       "/images/phones/apple/iphone-17-sage.jpg",
-      "/images/phones/apple/iphone-17-mistblue.jpg"
+      "/images/phones/apple/iphone-17-mistblue.jpg",
+      "/images/phones/apple/iphone-17-white.jpg",
+      "/images/phones/apple/iphone-17-black.jpg"
     ],
     "rating": 4.9,
     "epeyScore": 96,
@@ -2058,12 +2068,12 @@
       {
         "name": "Beyaz",
         "hex": "#fafafa",
-        "image": "/images/phones/apple/iphone-17-lineup.jpg"
+        "image": "/images/phones/apple/iphone-17-white.jpg"
       },
       {
         "name": "Siyah",
         "hex": "#343538",
-        "image": "/images/phones/apple/iphone-17-lineup.jpg"
+        "image": "/images/phones/apple/iphone-17-black.jpg"
       }
     ],
     "storeOffers": [
@@ -2256,7 +2266,9 @@
       "/images/phones/apple/iphone-17-lineup.jpg",
       "/images/phones/apple/iphone-17-lavender.jpg",
       "/images/phones/apple/iphone-17-sage.jpg",
-      "/images/phones/apple/iphone-17-mistblue.jpg"
+      "/images/phones/apple/iphone-17-mistblue.jpg",
+      "/images/phones/apple/iphone-17-white.jpg",
+      "/images/phones/apple/iphone-17-black.jpg"
     ]
   },
   {
@@ -3702,12 +3714,13 @@
     "name": "Apple iPhone 16 Pro Max (1 TB)",
     "brand": "Apple",
     "category": "smartphones",
-    "image": "/images/phones/apple/apple-iphone-16-pro-max.jpg",
+    "image": "/images/phones/apple/iphone-16-promax-desert-dm.jpg",
     "images": [
-      "/images/phones/apple/iphone-16-pro-desert.jpg",
-      "/images/phones/apple/iphone-16-pro-natural.jpg",
-      "/images/phones/apple/iphone-16-pro-white.jpg",
-      "/images/phones/apple/iphone-16-pro-black.jpg"
+      "/images/phones/apple/iphone-16-promax-lineup.jpg",
+      "/images/phones/apple/iphone-16-promax-desert-dm.jpg",
+      "/images/phones/apple/iphone-16-promax-natural-dm.jpg",
+      "/images/phones/apple/iphone-16-promax-white-dm.jpg",
+      "/images/phones/apple/iphone-16-promax-black-dm.jpg"
     ],
     "rating": 4.95,
     "epeyScore": 98,
@@ -3737,24 +3750,24 @@
     ],
     "colorOptions": [
       {
-        "name": "Çöl Titanyum (Desert Titanium)",
+        "name": "Çöl Titanyum",
         "hex": "#C5A992",
-        "image": "/images/phones/apple/iphone-16-pro-desert.jpg"
+        "image": "/images/phones/apple/iphone-16-promax-desert-dm.jpg"
       },
       {
-        "name": "Natürel Titanyum (Natural Titanium)",
+        "name": "Natürel Titanyum",
         "hex": "#9F988F",
-        "image": "/images/phones/apple/iphone-16-pro-natural.jpg"
+        "image": "/images/phones/apple/iphone-16-promax-natural-dm.jpg"
       },
       {
-        "name": "Beyaz Titanyum (White Titanium)",
+        "name": "Beyaz Titanyum",
         "hex": "#F2F2F2",
-        "image": "/images/phones/apple/iphone-16-pro-white.jpg"
+        "image": "/images/phones/apple/iphone-16-promax-white-dm.jpg"
       },
       {
-        "name": "Siyah Titanyum (Black Titanium)",
+        "name": "Siyah Titanyum",
         "hex": "#3C3B3A",
-        "image": "/images/phones/apple/iphone-16-pro-black.jpg"
+        "image": "/images/phones/apple/iphone-16-promax-black-dm.jpg"
       }
     ],
     "storeOffers": [
@@ -3927,6 +3940,13 @@
         "image": "/images/phones/apple/iphone-16-pro-black.jpg",
         "price": 123749
       }
+    ],
+    "gallery": [
+      "/images/phones/apple/iphone-16-promax-lineup.jpg",
+      "/images/phones/apple/iphone-16-promax-desert-dm.jpg",
+      "/images/phones/apple/iphone-16-promax-natural-dm.jpg",
+      "/images/phones/apple/iphone-16-promax-white-dm.jpg",
+      "/images/phones/apple/iphone-16-promax-black-dm.jpg"
     ]
   },
   {
@@ -4176,12 +4196,13 @@
     "name": "Apple iPhone 16 Pro Max (512 GB)",
     "brand": "Apple",
     "category": "smartphones",
-    "image": "/images/phones/apple/apple-iphone-16-pro-max.jpg",
+    "image": "/images/phones/apple/iphone-16-promax-desert-dm.jpg",
     "images": [
-      "/images/phones/apple/iphone-16-pro-desert.jpg",
-      "/images/phones/apple/iphone-16-pro-natural.jpg",
-      "/images/phones/apple/iphone-16-pro-white.jpg",
-      "/images/phones/apple/iphone-16-pro-black.jpg"
+      "/images/phones/apple/iphone-16-promax-lineup.jpg",
+      "/images/phones/apple/iphone-16-promax-desert-dm.jpg",
+      "/images/phones/apple/iphone-16-promax-natural-dm.jpg",
+      "/images/phones/apple/iphone-16-promax-white-dm.jpg",
+      "/images/phones/apple/iphone-16-promax-black-dm.jpg"
     ],
     "rating": 4.95,
     "epeyScore": 98,
@@ -4211,24 +4232,24 @@
     ],
     "colorOptions": [
       {
-        "name": "Çöl Titanyum (Desert Titanium)",
+        "name": "Çöl Titanyum",
         "hex": "#C5A992",
-        "image": "/images/phones/apple/iphone-16-pro-desert.jpg"
+        "image": "/images/phones/apple/iphone-16-promax-desert-dm.jpg"
       },
       {
-        "name": "Natürel Titanyum (Natural Titanium)",
+        "name": "Natürel Titanyum",
         "hex": "#9F988F",
-        "image": "/images/phones/apple/iphone-16-pro-natural.jpg"
+        "image": "/images/phones/apple/iphone-16-promax-natural-dm.jpg"
       },
       {
-        "name": "Beyaz Titanyum (White Titanium)",
+        "name": "Beyaz Titanyum",
         "hex": "#F2F2F2",
-        "image": "/images/phones/apple/iphone-16-pro-white.jpg"
+        "image": "/images/phones/apple/iphone-16-promax-white-dm.jpg"
       },
       {
-        "name": "Siyah Titanyum (Black Titanium)",
+        "name": "Siyah Titanyum",
         "hex": "#3C3B3A",
-        "image": "/images/phones/apple/iphone-16-pro-black.jpg"
+        "image": "/images/phones/apple/iphone-16-promax-black-dm.jpg"
       }
     ],
     "storeOffers": [
@@ -4402,6 +4423,13 @@
         "image": "/images/phones/apple/iphone-16-pro-black.jpg",
         "price": 113849
       }
+    ],
+    "gallery": [
+      "/images/phones/apple/iphone-16-promax-lineup.jpg",
+      "/images/phones/apple/iphone-16-promax-desert-dm.jpg",
+      "/images/phones/apple/iphone-16-promax-natural-dm.jpg",
+      "/images/phones/apple/iphone-16-promax-white-dm.jpg",
+      "/images/phones/apple/iphone-16-promax-black-dm.jpg"
     ]
   },
   {
@@ -4410,12 +4438,13 @@
     "name": "Apple iPhone 16 Pro Max (256 GB)",
     "brand": "Apple",
     "category": "smartphones",
-    "image": "/images/phones/apple/apple-iphone-16-pro-max.jpg",
+    "image": "/images/phones/apple/iphone-16-promax-desert-dm.jpg",
     "images": [
-      "/images/phones/apple/iphone-16-pro-desert.jpg",
-      "/images/phones/apple/iphone-16-pro-natural.jpg",
-      "/images/phones/apple/iphone-16-pro-white.jpg",
-      "/images/phones/apple/iphone-16-pro-black.jpg"
+      "/images/phones/apple/iphone-16-promax-lineup.jpg",
+      "/images/phones/apple/iphone-16-promax-desert-dm.jpg",
+      "/images/phones/apple/iphone-16-promax-natural-dm.jpg",
+      "/images/phones/apple/iphone-16-promax-white-dm.jpg",
+      "/images/phones/apple/iphone-16-promax-black-dm.jpg"
     ],
     "rating": 4.95,
     "epeyScore": 98,
@@ -4445,24 +4474,24 @@
     ],
     "colorOptions": [
       {
-        "name": "Çöl Titanyum (Desert Titanium)",
+        "name": "Çöl Titanyum",
         "hex": "#C5A992",
-        "image": "/images/phones/apple/iphone-16-pro-desert.jpg"
+        "image": "/images/phones/apple/iphone-16-promax-desert-dm.jpg"
       },
       {
-        "name": "Natürel Titanyum (Natural Titanium)",
+        "name": "Natürel Titanyum",
         "hex": "#9F988F",
-        "image": "/images/phones/apple/iphone-16-pro-natural.jpg"
+        "image": "/images/phones/apple/iphone-16-promax-natural-dm.jpg"
       },
       {
-        "name": "Beyaz Titanyum (White Titanium)",
+        "name": "Beyaz Titanyum",
         "hex": "#F2F2F2",
-        "image": "/images/phones/apple/iphone-16-pro-white.jpg"
+        "image": "/images/phones/apple/iphone-16-promax-white-dm.jpg"
       },
       {
-        "name": "Siyah Titanyum (Black Titanium)",
+        "name": "Siyah Titanyum",
         "hex": "#3C3B3A",
-        "image": "/images/phones/apple/iphone-16-pro-black.jpg"
+        "image": "/images/phones/apple/iphone-16-promax-black-dm.jpg"
       }
     ],
     "storeOffers": [
@@ -4637,6 +4666,13 @@
         "image": "/images/phones/apple/iphone-16-pro-black.jpg",
         "price": 106919
       }
+    ],
+    "gallery": [
+      "/images/phones/apple/iphone-16-promax-lineup.jpg",
+      "/images/phones/apple/iphone-16-promax-desert-dm.jpg",
+      "/images/phones/apple/iphone-16-promax-natural-dm.jpg",
+      "/images/phones/apple/iphone-16-promax-white-dm.jpg",
+      "/images/phones/apple/iphone-16-promax-black-dm.jpg"
     ]
   },
   {
@@ -4645,12 +4681,13 @@
     "name": "Apple iPhone 16 Pro (256 GB)",
     "brand": "Apple",
     "category": "smartphones",
-    "image": "/images/phones/apple/apple-iphone-16-pro.jpg",
+    "image": "/images/phones/apple/iphone-16-pro-desert-dm.jpg",
     "images": [
-      "/images/phones/apple/iphone-16-pro-desert.jpg",
-      "/images/phones/apple/iphone-16-pro-natural.jpg",
-      "/images/phones/apple/iphone-16-pro-white.jpg",
-      "/images/phones/apple/iphone-16-pro-black.jpg"
+      "/images/phones/apple/iphone-16-pro-lineup.jpg",
+      "/images/phones/apple/iphone-16-pro-desert-dm.jpg",
+      "/images/phones/apple/iphone-16-pro-natural-dm.jpg",
+      "/images/phones/apple/iphone-16-pro-white-dm.jpg",
+      "/images/phones/apple/iphone-16-pro-black-dm.jpg"
     ],
     "rating": 4.93,
     "epeyScore": 97,
@@ -4680,24 +4717,24 @@
     ],
     "colorOptions": [
       {
-        "name": "Çöl Titanyum (Desert Titanium)",
+        "name": "Çöl Titanyum",
         "hex": "#C5A992",
-        "image": "/images/phones/apple/iphone-16-pro-desert.jpg"
+        "image": "/images/phones/apple/iphone-16-pro-desert-dm.jpg"
       },
       {
-        "name": "Natürel Titanyum (Natural Titanium)",
+        "name": "Natürel Titanyum",
         "hex": "#9F988F",
-        "image": "/images/phones/apple/iphone-16-pro-natural.jpg"
+        "image": "/images/phones/apple/iphone-16-pro-natural-dm.jpg"
       },
       {
-        "name": "Beyaz Titanyum (White Titanium)",
+        "name": "Beyaz Titanyum",
         "hex": "#F2F2F2",
-        "image": "/images/phones/apple/iphone-16-pro-white.jpg"
+        "image": "/images/phones/apple/iphone-16-pro-white-dm.jpg"
       },
       {
-        "name": "Siyah Titanyum (Black Titanium)",
+        "name": "Siyah Titanyum",
         "hex": "#3C3B3A",
-        "image": "/images/phones/apple/iphone-16-pro-black.jpg"
+        "image": "/images/phones/apple/iphone-16-pro-black-dm.jpg"
       }
     ],
     "storeOffers": [
@@ -4872,6 +4909,13 @@
         "image": "/images/phones/apple/iphone-16-pro-black.jpg",
         "price": 89639
       }
+    ],
+    "gallery": [
+      "/images/phones/apple/iphone-16-pro-lineup.jpg",
+      "/images/phones/apple/iphone-16-pro-desert-dm.jpg",
+      "/images/phones/apple/iphone-16-pro-natural-dm.jpg",
+      "/images/phones/apple/iphone-16-pro-white-dm.jpg",
+      "/images/phones/apple/iphone-16-pro-black-dm.jpg"
     ]
   },
   {
@@ -5347,12 +5391,13 @@
     "name": "Apple iPhone 16 Pro (128 GB)",
     "brand": "Apple",
     "category": "smartphones",
-    "image": "/images/phones/apple/apple-iphone-16-pro.jpg",
+    "image": "/images/phones/apple/iphone-16-pro-desert-dm.jpg",
     "images": [
-      "/images/phones/apple/iphone-16-pro-desert.jpg",
-      "/images/phones/apple/iphone-16-pro-natural.jpg",
-      "/images/phones/apple/iphone-16-pro-white.jpg",
-      "/images/phones/apple/iphone-16-pro-black.jpg"
+      "/images/phones/apple/iphone-16-pro-lineup.jpg",
+      "/images/phones/apple/iphone-16-pro-desert-dm.jpg",
+      "/images/phones/apple/iphone-16-pro-natural-dm.jpg",
+      "/images/phones/apple/iphone-16-pro-white-dm.jpg",
+      "/images/phones/apple/iphone-16-pro-black-dm.jpg"
     ],
     "rating": 4.93,
     "epeyScore": 97,
@@ -5382,24 +5427,24 @@
     ],
     "colorOptions": [
       {
-        "name": "Çöl Titanyum (Desert Titanium)",
+        "name": "Çöl Titanyum",
         "hex": "#C5A992",
-        "image": "/images/phones/apple/iphone-16-pro-desert.jpg"
+        "image": "/images/phones/apple/iphone-16-pro-desert-dm.jpg"
       },
       {
-        "name": "Natürel Titanyum (Natural Titanium)",
+        "name": "Natürel Titanyum",
         "hex": "#9F988F",
-        "image": "/images/phones/apple/iphone-16-pro-natural.jpg"
+        "image": "/images/phones/apple/iphone-16-pro-natural-dm.jpg"
       },
       {
-        "name": "Beyaz Titanyum (White Titanium)",
+        "name": "Beyaz Titanyum",
         "hex": "#F2F2F2",
-        "image": "/images/phones/apple/iphone-16-pro-white.jpg"
+        "image": "/images/phones/apple/iphone-16-pro-white-dm.jpg"
       },
       {
-        "name": "Siyah Titanyum (Black Titanium)",
+        "name": "Siyah Titanyum",
         "hex": "#3C3B3A",
-        "image": "/images/phones/apple/iphone-16-pro-black.jpg"
+        "image": "/images/phones/apple/iphone-16-pro-black-dm.jpg"
       }
     ],
     "storeOffers": [
@@ -5574,6 +5619,13 @@
         "image": "/images/phones/apple/iphone-16-pro-black.jpg",
         "price": 82999
       }
+    ],
+    "gallery": [
+      "/images/phones/apple/iphone-16-pro-lineup.jpg",
+      "/images/phones/apple/iphone-16-pro-desert-dm.jpg",
+      "/images/phones/apple/iphone-16-pro-natural-dm.jpg",
+      "/images/phones/apple/iphone-16-pro-white-dm.jpg",
+      "/images/phones/apple/iphone-16-pro-black-dm.jpg"
     ]
   },
   {
@@ -5582,12 +5634,12 @@
     "name": "Apple iPhone 16 Plus (128 GB)",
     "brand": "Apple",
     "category": "smartphones",
-    "image": "/images/phones/apple/iphone-16-ultramarine.jpg",
+    "image": "/images/phones/apple/iphone-16-plus-ultramarine.jpg",
     "images": [
-      "/images/phones/apple/iphone-16-lineup.jpg",
-      "/images/phones/apple/iphone-16-ultramarine.jpg",
-      "/images/phones/apple/iphone-16-teal.jpg",
-      "/images/phones/apple/iphone-16-pink.jpg"
+      "/images/phones/apple/iphone-16-plus-lineup.jpg",
+      "/images/phones/apple/iphone-16-plus-ultramarine.jpg",
+      "/images/phones/apple/iphone-16-plus-teal.jpg",
+      "/images/phones/apple/iphone-16-plus-pink.jpg"
     ],
     "rating": 4.89,
     "epeyScore": 95,
@@ -5619,27 +5671,17 @@
       {
         "name": "Laciverttaş",
         "hex": "#344865",
-        "image": "/images/phones/apple/iphone-16-ultramarine.jpg"
+        "image": "/images/phones/apple/iphone-16-plus-ultramarine.jpg"
       },
       {
         "name": "Deniz Mavisi",
         "hex": "#8ba9a7",
-        "image": "/images/phones/apple/iphone-16-teal.jpg"
+        "image": "/images/phones/apple/iphone-16-plus-teal.jpg"
       },
       {
         "name": "Pembe",
         "hex": "#e7bcc6",
-        "image": "/images/phones/apple/iphone-16-pink.jpg"
-      },
-      {
-        "name": "Beyaz",
-        "hex": "#ffffff",
-        "image": "/images/phones/apple/iphone-16-lineup.jpg"
-      },
-      {
-        "name": "Siyah",
-        "hex": "#3c4048",
-        "image": "/images/phones/apple/iphone-16-lineup.jpg"
+        "image": "/images/phones/apple/iphone-16-plus-pink.jpg"
       }
     ],
     "storeOffers": [
@@ -5828,10 +5870,10 @@
       }
     ],
     "gallery": [
-      "/images/phones/apple/iphone-16-lineup.jpg",
-      "/images/phones/apple/iphone-16-ultramarine.jpg",
-      "/images/phones/apple/iphone-16-teal.jpg",
-      "/images/phones/apple/iphone-16-pink.jpg"
+      "/images/phones/apple/iphone-16-plus-lineup.jpg",
+      "/images/phones/apple/iphone-16-plus-ultramarine.jpg",
+      "/images/phones/apple/iphone-16-plus-teal.jpg",
+      "/images/phones/apple/iphone-16-plus-pink.jpg"
     ]
   },
   {
@@ -6567,10 +6609,11 @@
     "name": "Apple iPhone 16e (512 GB)",
     "brand": "Apple",
     "category": "smartphones",
-    "image": "/images/phones/apple/apple-iphone-16e.jpg",
+    "image": "/images/phones/apple/iphone-16e-white.jpg",
     "images": [
-      "/images/phones/apple/iphone-16-white.jpg",
-      "/images/phones/apple/iphone-16-black.jpg"
+      "/images/phones/apple/iphone-16e-lineup.jpg",
+      "/images/phones/apple/iphone-16e-white.jpg",
+      "/images/phones/apple/iphone-16e-black.jpg"
     ],
     "rating": 4.89,
     "epeyScore": 92,
@@ -6600,14 +6643,14 @@
     ],
     "colorOptions": [
       {
-        "name": "Beyaz (White)",
+        "name": "Beyaz",
         "hex": "#F7F7F7",
-        "image": "/images/phones/apple/iphone-16-white.jpg"
+        "image": "/images/phones/apple/iphone-16e-white.jpg"
       },
       {
-        "name": "Siyah (Black)",
+        "name": "Siyah",
         "hex": "#31353A",
-        "image": "/images/phones/apple/iphone-16-black.jpg"
+        "image": "/images/phones/apple/iphone-16e-black.jpg"
       }
     ],
     "storeOffers": [
@@ -6764,6 +6807,11 @@
         "image": "/images/phones/apple/iphone-16-black.jpg",
         "price": 60949
       }
+    ],
+    "gallery": [
+      "/images/phones/apple/iphone-16e-lineup.jpg",
+      "/images/phones/apple/iphone-16e-white.jpg",
+      "/images/phones/apple/iphone-16e-black.jpg"
     ]
   },
   {
@@ -7028,7 +7076,9 @@
       "/images/phones/apple/iphone-16-lineup.jpg",
       "/images/phones/apple/iphone-16-ultramarine.jpg",
       "/images/phones/apple/iphone-16-teal.jpg",
-      "/images/phones/apple/iphone-16-pink.jpg"
+      "/images/phones/apple/iphone-16-pink.jpg",
+      "/images/phones/apple/iphone-16-white.jpg",
+      "/images/phones/apple/iphone-16-black.jpg"
     ],
     "rating": 4.89,
     "epeyScore": 94,
@@ -7075,12 +7125,12 @@
       {
         "name": "Beyaz",
         "hex": "#ffffff",
-        "image": "/images/phones/apple/iphone-16-lineup.jpg"
+        "image": "/images/phones/apple/iphone-16-white.jpg"
       },
       {
         "name": "Siyah",
         "hex": "#3c4048",
-        "image": "/images/phones/apple/iphone-16-lineup.jpg"
+        "image": "/images/phones/apple/iphone-16-black.jpg"
       }
     ],
     "storeOffers": [
@@ -7272,7 +7322,9 @@
       "/images/phones/apple/iphone-16-lineup.jpg",
       "/images/phones/apple/iphone-16-ultramarine.jpg",
       "/images/phones/apple/iphone-16-teal.jpg",
-      "/images/phones/apple/iphone-16-pink.jpg"
+      "/images/phones/apple/iphone-16-pink.jpg",
+      "/images/phones/apple/iphone-16-white.jpg",
+      "/images/phones/apple/iphone-16-black.jpg"
     ]
   },
   {
@@ -7519,10 +7571,11 @@
     "name": "Apple iPhone 16e (256 GB)",
     "brand": "Apple",
     "category": "smartphones",
-    "image": "/images/phones/apple/apple-iphone-16e.jpg",
+    "image": "/images/phones/apple/iphone-16e-white.jpg",
     "images": [
-      "/images/phones/apple/iphone-16-white.jpg",
-      "/images/phones/apple/iphone-16-black.jpg"
+      "/images/phones/apple/iphone-16e-lineup.jpg",
+      "/images/phones/apple/iphone-16e-white.jpg",
+      "/images/phones/apple/iphone-16e-black.jpg"
     ],
     "rating": 4.89,
     "epeyScore": 92,
@@ -7552,14 +7605,14 @@
     ],
     "colorOptions": [
       {
-        "name": "Beyaz (White)",
+        "name": "Beyaz",
         "hex": "#F7F7F7",
-        "image": "/images/phones/apple/iphone-16-white.jpg"
+        "image": "/images/phones/apple/iphone-16e-white.jpg"
       },
       {
-        "name": "Siyah (Black)",
+        "name": "Siyah",
         "hex": "#31353A",
-        "image": "/images/phones/apple/iphone-16-black.jpg"
+        "image": "/images/phones/apple/iphone-16e-black.jpg"
       }
     ],
     "storeOffers": [
@@ -7717,6 +7770,11 @@
         "image": "/images/phones/apple/iphone-16-black.jpg",
         "price": 57239
       }
+    ],
+    "gallery": [
+      "/images/phones/apple/iphone-16e-lineup.jpg",
+      "/images/phones/apple/iphone-16e-white.jpg",
+      "/images/phones/apple/iphone-16e-black.jpg"
     ]
   },
   {
@@ -7971,10 +8029,11 @@
     "name": "Apple iPhone 16e (128 GB)",
     "brand": "Apple",
     "category": "smartphones",
-    "image": "/images/phones/apple/apple-iphone-16e.jpg",
+    "image": "/images/phones/apple/iphone-16e-white.jpg",
     "images": [
-      "/images/phones/apple/iphone-16-white.jpg",
-      "/images/phones/apple/iphone-16-black.jpg"
+      "/images/phones/apple/iphone-16e-lineup.jpg",
+      "/images/phones/apple/iphone-16e-white.jpg",
+      "/images/phones/apple/iphone-16e-black.jpg"
     ],
     "rating": 4.89,
     "epeyScore": 92,
@@ -8004,14 +8063,14 @@
     ],
     "colorOptions": [
       {
-        "name": "Beyaz (White)",
+        "name": "Beyaz",
         "hex": "#F7F7F7",
-        "image": "/images/phones/apple/iphone-16-white.jpg"
+        "image": "/images/phones/apple/iphone-16e-white.jpg"
       },
       {
-        "name": "Siyah (Black)",
+        "name": "Siyah",
         "hex": "#31353A",
-        "image": "/images/phones/apple/iphone-16-black.jpg"
+        "image": "/images/phones/apple/iphone-16e-black.jpg"
       }
     ],
     "storeOffers": [
@@ -8169,6 +8228,11 @@
         "image": "/images/phones/apple/iphone-16-black.jpg",
         "price": 52999
       }
+    ],
+    "gallery": [
+      "/images/phones/apple/iphone-16e-lineup.jpg",
+      "/images/phones/apple/iphone-16e-white.jpg",
+      "/images/phones/apple/iphone-16e-black.jpg"
     ]
   },
   {
@@ -10383,12 +10447,13 @@
     "name": "Apple iPhone 16 Pro (1 TB)",
     "brand": "Apple",
     "category": "smartphones",
-    "image": "/images/phones/apple/apple-iphone-16-pro.jpg",
+    "image": "/images/phones/apple/iphone-16-pro-desert-dm.jpg",
     "images": [
-      "/images/phones/apple/iphone-16-pro-desert.jpg",
-      "/images/phones/apple/iphone-16-pro-natural.jpg",
-      "/images/phones/apple/iphone-16-pro-white.jpg",
-      "/images/phones/apple/iphone-16-pro-black.jpg"
+      "/images/phones/apple/iphone-16-pro-lineup.jpg",
+      "/images/phones/apple/iphone-16-pro-desert-dm.jpg",
+      "/images/phones/apple/iphone-16-pro-natural-dm.jpg",
+      "/images/phones/apple/iphone-16-pro-white-dm.jpg",
+      "/images/phones/apple/iphone-16-pro-black-dm.jpg"
     ],
     "rating": 4.93,
     "epeyScore": 97,
@@ -10418,24 +10483,24 @@
     ],
     "colorOptions": [
       {
-        "name": "Çöl Titanyum (Desert Titanium)",
+        "name": "Çöl Titanyum",
         "hex": "#C5A992",
-        "image": "/images/phones/apple/iphone-16-pro-desert.jpg"
+        "image": "/images/phones/apple/iphone-16-pro-desert-dm.jpg"
       },
       {
-        "name": "Natürel Titanyum (Natural Titanium)",
+        "name": "Natürel Titanyum",
         "hex": "#9F988F",
-        "image": "/images/phones/apple/iphone-16-pro-natural.jpg"
+        "image": "/images/phones/apple/iphone-16-pro-natural-dm.jpg"
       },
       {
-        "name": "Beyaz Titanyum (White Titanium)",
+        "name": "Beyaz Titanyum",
         "hex": "#F2F2F2",
-        "image": "/images/phones/apple/iphone-16-pro-white.jpg"
+        "image": "/images/phones/apple/iphone-16-pro-white-dm.jpg"
       },
       {
-        "name": "Siyah Titanyum (Black Titanium)",
+        "name": "Siyah Titanyum",
         "hex": "#3C3B3A",
-        "image": "/images/phones/apple/iphone-16-pro-black.jpg"
+        "image": "/images/phones/apple/iphone-16-pro-black-dm.jpg"
       }
     ],
     "storeOffers": [
@@ -10608,6 +10673,13 @@
         "image": "/images/phones/apple/iphone-16-pro-black.jpg",
         "price": 103749
       }
+    ],
+    "gallery": [
+      "/images/phones/apple/iphone-16-pro-lineup.jpg",
+      "/images/phones/apple/iphone-16-pro-desert-dm.jpg",
+      "/images/phones/apple/iphone-16-pro-natural-dm.jpg",
+      "/images/phones/apple/iphone-16-pro-white-dm.jpg",
+      "/images/phones/apple/iphone-16-pro-black-dm.jpg"
     ]
   },
   {
@@ -10616,12 +10688,13 @@
     "name": "Apple iPhone 16 Pro (512 GB)",
     "brand": "Apple",
     "category": "smartphones",
-    "image": "/images/phones/apple/apple-iphone-16-pro.jpg",
+    "image": "/images/phones/apple/iphone-16-pro-desert-dm.jpg",
     "images": [
-      "/images/phones/apple/iphone-16-pro-desert.jpg",
-      "/images/phones/apple/iphone-16-pro-natural.jpg",
-      "/images/phones/apple/iphone-16-pro-white.jpg",
-      "/images/phones/apple/iphone-16-pro-black.jpg"
+      "/images/phones/apple/iphone-16-pro-lineup.jpg",
+      "/images/phones/apple/iphone-16-pro-desert-dm.jpg",
+      "/images/phones/apple/iphone-16-pro-natural-dm.jpg",
+      "/images/phones/apple/iphone-16-pro-white-dm.jpg",
+      "/images/phones/apple/iphone-16-pro-black-dm.jpg"
     ],
     "rating": 4.93,
     "epeyScore": 97,
@@ -10651,24 +10724,24 @@
     ],
     "colorOptions": [
       {
-        "name": "Çöl Titanyum (Desert Titanium)",
+        "name": "Çöl Titanyum",
         "hex": "#C5A992",
-        "image": "/images/phones/apple/iphone-16-pro-desert.jpg"
+        "image": "/images/phones/apple/iphone-16-pro-desert-dm.jpg"
       },
       {
-        "name": "Natürel Titanyum (Natural Titanium)",
+        "name": "Natürel Titanyum",
         "hex": "#9F988F",
-        "image": "/images/phones/apple/iphone-16-pro-natural.jpg"
+        "image": "/images/phones/apple/iphone-16-pro-natural-dm.jpg"
       },
       {
-        "name": "Beyaz Titanyum (White Titanium)",
+        "name": "Beyaz Titanyum",
         "hex": "#F2F2F2",
-        "image": "/images/phones/apple/iphone-16-pro-white.jpg"
+        "image": "/images/phones/apple/iphone-16-pro-white-dm.jpg"
       },
       {
-        "name": "Siyah Titanyum (Black Titanium)",
+        "name": "Siyah Titanyum",
         "hex": "#3C3B3A",
-        "image": "/images/phones/apple/iphone-16-pro-black.jpg"
+        "image": "/images/phones/apple/iphone-16-pro-black-dm.jpg"
       }
     ],
     "storeOffers": [
@@ -10842,6 +10915,13 @@
         "image": "/images/phones/apple/iphone-16-pro-black.jpg",
         "price": 95449
       }
+    ],
+    "gallery": [
+      "/images/phones/apple/iphone-16-pro-lineup.jpg",
+      "/images/phones/apple/iphone-16-pro-desert-dm.jpg",
+      "/images/phones/apple/iphone-16-pro-natural-dm.jpg",
+      "/images/phones/apple/iphone-16-pro-white-dm.jpg",
+      "/images/phones/apple/iphone-16-pro-black-dm.jpg"
     ]
   },
   {
@@ -11564,7 +11644,9 @@
       "/images/phones/apple/iphone-16-lineup.jpg",
       "/images/phones/apple/iphone-16-ultramarine.jpg",
       "/images/phones/apple/iphone-16-teal.jpg",
-      "/images/phones/apple/iphone-16-pink.jpg"
+      "/images/phones/apple/iphone-16-pink.jpg",
+      "/images/phones/apple/iphone-16-white.jpg",
+      "/images/phones/apple/iphone-16-black.jpg"
     ],
     "rating": 4.89,
     "epeyScore": 94,
@@ -11611,12 +11693,12 @@
       {
         "name": "Beyaz",
         "hex": "#ffffff",
-        "image": "/images/phones/apple/iphone-16-lineup.jpg"
+        "image": "/images/phones/apple/iphone-16-white.jpg"
       },
       {
         "name": "Siyah",
         "hex": "#3c4048",
-        "image": "/images/phones/apple/iphone-16-lineup.jpg"
+        "image": "/images/phones/apple/iphone-16-black.jpg"
       }
     ],
     "storeOffers": [
@@ -11808,7 +11890,9 @@
       "/images/phones/apple/iphone-16-lineup.jpg",
       "/images/phones/apple/iphone-16-ultramarine.jpg",
       "/images/phones/apple/iphone-16-teal.jpg",
-      "/images/phones/apple/iphone-16-pink.jpg"
+      "/images/phones/apple/iphone-16-pink.jpg",
+      "/images/phones/apple/iphone-16-white.jpg",
+      "/images/phones/apple/iphone-16-black.jpg"
     ]
   },
   {
