@@ -5,13 +5,12 @@
     "name": "Apple iPhone 17e (512 GB)",
     "brand": "Apple",
     "category": "smartphones",
-    "image": "/images/phones/apple/apple-iphone-17e.jpg",
+    "image": "/images/phones/apple/iphone-17e-softpink.jpg",
     "images": [
-      "/images/phones/apple/iphone-17-lavender.jpg",
-      "/images/phones/apple/iphone-17-sage.jpg",
-      "/images/phones/apple/iphone-17-blue.jpg",
-      "/images/phones/apple/iphone-17-starlight.jpg",
-      "/images/phones/apple/iphone-17-midnight.jpg"
+      "/images/phones/apple/iphone-17e-lineup.jpg",
+      "/images/phones/apple/iphone-17e-softpink.jpg",
+      "/images/phones/apple/iphone-17e-white.jpg",
+      "/images/phones/apple/iphone-17e-black.jpg"
     ],
     "rating": 4.9,
     "epeyScore": 93,
@@ -41,29 +40,19 @@
     ],
     "colorOptions": [
       {
-        "name": "Lavanta (Lavender)",
-        "hex": "#D4CBE5",
-        "image": "/images/phones/apple/iphone-17-lavender.jpg"
+        "name": "Açık Pembe",
+        "hex": "#f6d1d4",
+        "image": "/images/phones/apple/iphone-17e-softpink.jpg"
       },
       {
-        "name": "Adaçayı Yeşili (Sage Green)",
-        "hex": "#B2C9B6",
-        "image": "/images/phones/apple/iphone-17-sage.jpg"
+        "name": "Beyaz",
+        "hex": "#fbfbfb",
+        "image": "/images/phones/apple/iphone-17e-white.jpg"
       },
       {
-        "name": "Açık Mavi (Sky Blue)",
-        "hex": "#B8D5E5",
-        "image": "/images/phones/apple/iphone-17-blue.jpg"
-      },
-      {
-        "name": "Yıldız Işığı (Starlight)",
-        "hex": "#FAF6EE",
-        "image": "/images/phones/apple/iphone-17-starlight.jpg"
-      },
-      {
-        "name": "Gece Yarısı (Midnight)",
-        "hex": "#232A31",
-        "image": "/images/phones/apple/iphone-17-midnight.jpg"
+        "name": "Siyah",
+        "hex": "#2e2f33",
+        "image": "/images/phones/apple/iphone-17e-black.jpg"
       }
     ],
     "storeOffers": [
@@ -209,42 +198,53 @@
         "id": "apple-apple-iphone-17e-512-gb-1048094-lavanta",
         "name": "Apple iPhone 17e (512 GB) - Lavanta",
         "colorName": "Lavanta (Lavender)",
-        "colorHex": "#D4CBE5",
-        "image": "/images/phones/apple/iphone-17-lavender.jpg",
-        "price": 66700
+        "colorHex": "#f6d1d4",
+        "image": "/images/phones/apple/iphone-17e-softpink.jpg",
+        "price": 66700,
+        "color": "Açık Pembe"
       },
       {
         "id": "apple-apple-iphone-17e-512-gb-1048094-adaçayı",
         "name": "Apple iPhone 17e (512 GB) - Adaçayı",
         "colorName": "Adaçayı Yeşili (Sage Green)",
-        "colorHex": "#B2C9B6",
-        "image": "/images/phones/apple/iphone-17-sage.jpg",
-        "price": 66700
+        "colorHex": "#fbfbfb",
+        "image": "/images/phones/apple/iphone-17e-white.jpg",
+        "price": 66700,
+        "color": "Beyaz"
       },
       {
         "id": "apple-apple-iphone-17e-512-gb-1048094-açık",
         "name": "Apple iPhone 17e (512 GB) - Açık",
         "colorName": "Açık Mavi (Sky Blue)",
-        "colorHex": "#B8D5E5",
-        "image": "/images/phones/apple/iphone-17-blue.jpg",
-        "price": 66700
+        "colorHex": "#2e2f33",
+        "image": "/images/phones/apple/iphone-17e-black.jpg",
+        "price": 66700,
+        "color": "Siyah"
       },
       {
         "id": "apple-apple-iphone-17e-512-gb-1048094-yıldız",
         "name": "Apple iPhone 17e (512 GB) - Yıldız",
         "colorName": "Yıldız Işığı (Starlight)",
-        "colorHex": "#FAF6EE",
-        "image": "/images/phones/apple/iphone-17-starlight.jpg",
-        "price": 66700
+        "colorHex": "#f6d1d4",
+        "image": "/images/phones/apple/iphone-17e-softpink.jpg",
+        "price": 66700,
+        "color": "Açık Pembe"
       },
       {
         "id": "apple-apple-iphone-17e-512-gb-1048094-gece",
         "name": "Apple iPhone 17e (512 GB) - Gece",
         "colorName": "Gece Yarısı (Midnight)",
-        "colorHex": "#232A31",
-        "image": "/images/phones/apple/iphone-17-midnight.jpg",
-        "price": 66700
+        "colorHex": "#fbfbfb",
+        "image": "/images/phones/apple/iphone-17e-white.jpg",
+        "price": 66700,
+        "color": "Beyaz"
       }
+    ],
+    "gallery": [
+      "/images/phones/apple/iphone-17e-lineup.jpg",
+      "/images/phones/apple/iphone-17e-softpink.jpg",
+      "/images/phones/apple/iphone-17e-white.jpg",
+      "/images/phones/apple/iphone-17e-black.jpg"
     ]
   },
   {
@@ -253,13 +253,12 @@
     "name": "Apple iPhone 17e (256 GB)",
     "brand": "Apple",
     "category": "smartphones",
-    "image": "/images/phones/apple/apple-iphone-17e.jpg",
+    "image": "/images/phones/apple/iphone-17e-softpink.jpg",
     "images": [
-      "/images/phones/apple/iphone-17-lavender.jpg",
-      "/images/phones/apple/iphone-17-sage.jpg",
-      "/images/phones/apple/iphone-17-blue.jpg",
-      "/images/phones/apple/iphone-17-starlight.jpg",
-      "/images/phones/apple/iphone-17-midnight.jpg"
+      "/images/phones/apple/iphone-17e-lineup.jpg",
+      "/images/phones/apple/iphone-17e-softpink.jpg",
+      "/images/phones/apple/iphone-17e-white.jpg",
+      "/images/phones/apple/iphone-17e-black.jpg"
     ],
     "rating": 4.9,
     "epeyScore": 93,
@@ -289,29 +288,19 @@
     ],
     "colorOptions": [
       {
-        "name": "Lavanta (Lavender)",
-        "hex": "#D4CBE5",
-        "image": "/images/phones/apple/iphone-17-lavender.jpg"
+        "name": "Açık Pembe",
+        "hex": "#f6d1d4",
+        "image": "/images/phones/apple/iphone-17e-softpink.jpg"
       },
       {
-        "name": "Adaçayı Yeşili (Sage Green)",
-        "hex": "#B2C9B6",
-        "image": "/images/phones/apple/iphone-17-sage.jpg"
+        "name": "Beyaz",
+        "hex": "#fbfbfb",
+        "image": "/images/phones/apple/iphone-17e-white.jpg"
       },
       {
-        "name": "Açık Mavi (Sky Blue)",
-        "hex": "#B8D5E5",
-        "image": "/images/phones/apple/iphone-17-blue.jpg"
-      },
-      {
-        "name": "Yıldız Işığı (Starlight)",
-        "hex": "#FAF6EE",
-        "image": "/images/phones/apple/iphone-17-starlight.jpg"
-      },
-      {
-        "name": "Gece Yarısı (Midnight)",
-        "hex": "#232A31",
-        "image": "/images/phones/apple/iphone-17-midnight.jpg"
+        "name": "Siyah",
+        "hex": "#2e2f33",
+        "image": "/images/phones/apple/iphone-17e-black.jpg"
       }
     ],
     "storeOffers": [
@@ -458,42 +447,53 @@
         "id": "apple-apple-iphone-17e-256-gb-1048093-lavanta",
         "name": "Apple iPhone 17e (256 GB) - Lavanta",
         "colorName": "Lavanta (Lavender)",
-        "colorHex": "#D4CBE5",
-        "image": "/images/phones/apple/iphone-17-lavender.jpg",
-        "price": 62640
+        "colorHex": "#f6d1d4",
+        "image": "/images/phones/apple/iphone-17e-softpink.jpg",
+        "price": 62640,
+        "color": "Açık Pembe"
       },
       {
         "id": "apple-apple-iphone-17e-256-gb-1048093-adaçayı",
         "name": "Apple iPhone 17e (256 GB) - Adaçayı",
         "colorName": "Adaçayı Yeşili (Sage Green)",
-        "colorHex": "#B2C9B6",
-        "image": "/images/phones/apple/iphone-17-sage.jpg",
-        "price": 62640
+        "colorHex": "#fbfbfb",
+        "image": "/images/phones/apple/iphone-17e-white.jpg",
+        "price": 62640,
+        "color": "Beyaz"
       },
       {
         "id": "apple-apple-iphone-17e-256-gb-1048093-açık",
         "name": "Apple iPhone 17e (256 GB) - Açık",
         "colorName": "Açık Mavi (Sky Blue)",
-        "colorHex": "#B8D5E5",
-        "image": "/images/phones/apple/iphone-17-blue.jpg",
-        "price": 62640
+        "colorHex": "#2e2f33",
+        "image": "/images/phones/apple/iphone-17e-black.jpg",
+        "price": 62640,
+        "color": "Siyah"
       },
       {
         "id": "apple-apple-iphone-17e-256-gb-1048093-yıldız",
         "name": "Apple iPhone 17e (256 GB) - Yıldız",
         "colorName": "Yıldız Işığı (Starlight)",
-        "colorHex": "#FAF6EE",
-        "image": "/images/phones/apple/iphone-17-starlight.jpg",
-        "price": 62640
+        "colorHex": "#f6d1d4",
+        "image": "/images/phones/apple/iphone-17e-softpink.jpg",
+        "price": 62640,
+        "color": "Açık Pembe"
       },
       {
         "id": "apple-apple-iphone-17e-256-gb-1048093-gece",
         "name": "Apple iPhone 17e (256 GB) - Gece",
         "colorName": "Gece Yarısı (Midnight)",
-        "colorHex": "#232A31",
-        "image": "/images/phones/apple/iphone-17-midnight.jpg",
-        "price": 62640
+        "colorHex": "#fbfbfb",
+        "image": "/images/phones/apple/iphone-17e-white.jpg",
+        "price": 62640,
+        "color": "Beyaz"
       }
+    ],
+    "gallery": [
+      "/images/phones/apple/iphone-17e-lineup.jpg",
+      "/images/phones/apple/iphone-17e-softpink.jpg",
+      "/images/phones/apple/iphone-17e-white.jpg",
+      "/images/phones/apple/iphone-17e-black.jpg"
     ]
   },
   {
@@ -502,13 +502,12 @@
     "name": "Apple iPhone 17e (128 GB)",
     "brand": "Apple",
     "category": "smartphones",
-    "image": "/images/phones/apple/apple-iphone-17e.jpg",
+    "image": "/images/phones/apple/iphone-17e-softpink.jpg",
     "images": [
-      "/images/phones/apple/iphone-17-lavender.jpg",
-      "/images/phones/apple/iphone-17-sage.jpg",
-      "/images/phones/apple/iphone-17-blue.jpg",
-      "/images/phones/apple/iphone-17-starlight.jpg",
-      "/images/phones/apple/iphone-17-midnight.jpg"
+      "/images/phones/apple/iphone-17e-lineup.jpg",
+      "/images/phones/apple/iphone-17e-softpink.jpg",
+      "/images/phones/apple/iphone-17e-white.jpg",
+      "/images/phones/apple/iphone-17e-black.jpg"
     ],
     "rating": 4.9,
     "epeyScore": 93,
@@ -538,29 +537,19 @@
     ],
     "colorOptions": [
       {
-        "name": "Lavanta (Lavender)",
-        "hex": "#D4CBE5",
-        "image": "/images/phones/apple/iphone-17-lavender.jpg"
+        "name": "Açık Pembe",
+        "hex": "#f6d1d4",
+        "image": "/images/phones/apple/iphone-17e-softpink.jpg"
       },
       {
-        "name": "Adaçayı Yeşili (Sage Green)",
-        "hex": "#B2C9B6",
-        "image": "/images/phones/apple/iphone-17-sage.jpg"
+        "name": "Beyaz",
+        "hex": "#fbfbfb",
+        "image": "/images/phones/apple/iphone-17e-white.jpg"
       },
       {
-        "name": "Açık Mavi (Sky Blue)",
-        "hex": "#B8D5E5",
-        "image": "/images/phones/apple/iphone-17-blue.jpg"
-      },
-      {
-        "name": "Yıldız Işığı (Starlight)",
-        "hex": "#FAF6EE",
-        "image": "/images/phones/apple/iphone-17-starlight.jpg"
-      },
-      {
-        "name": "Gece Yarısı (Midnight)",
-        "hex": "#232A31",
-        "image": "/images/phones/apple/iphone-17-midnight.jpg"
+        "name": "Siyah",
+        "hex": "#2e2f33",
+        "image": "/images/phones/apple/iphone-17e-black.jpg"
       }
     ],
     "storeOffers": [
@@ -707,42 +696,53 @@
         "id": "apple-apple-iphone-17e-128-gb-1048092-lavanta",
         "name": "Apple iPhone 17e (128 GB) - Lavanta",
         "colorName": "Lavanta (Lavender)",
-        "colorHex": "#D4CBE5",
-        "image": "/images/phones/apple/iphone-17-lavender.jpg",
-        "price": 58000
+        "colorHex": "#f6d1d4",
+        "image": "/images/phones/apple/iphone-17e-softpink.jpg",
+        "price": 58000,
+        "color": "Açık Pembe"
       },
       {
         "id": "apple-apple-iphone-17e-128-gb-1048092-adaçayı",
         "name": "Apple iPhone 17e (128 GB) - Adaçayı",
         "colorName": "Adaçayı Yeşili (Sage Green)",
-        "colorHex": "#B2C9B6",
-        "image": "/images/phones/apple/iphone-17-sage.jpg",
-        "price": 58000
+        "colorHex": "#fbfbfb",
+        "image": "/images/phones/apple/iphone-17e-white.jpg",
+        "price": 58000,
+        "color": "Beyaz"
       },
       {
         "id": "apple-apple-iphone-17e-128-gb-1048092-açık",
         "name": "Apple iPhone 17e (128 GB) - Açık",
         "colorName": "Açık Mavi (Sky Blue)",
-        "colorHex": "#B8D5E5",
-        "image": "/images/phones/apple/iphone-17-blue.jpg",
-        "price": 58000
+        "colorHex": "#2e2f33",
+        "image": "/images/phones/apple/iphone-17e-black.jpg",
+        "price": 58000,
+        "color": "Siyah"
       },
       {
         "id": "apple-apple-iphone-17e-128-gb-1048092-yıldız",
         "name": "Apple iPhone 17e (128 GB) - Yıldız",
         "colorName": "Yıldız Işığı (Starlight)",
-        "colorHex": "#FAF6EE",
-        "image": "/images/phones/apple/iphone-17-starlight.jpg",
-        "price": 58000
+        "colorHex": "#f6d1d4",
+        "image": "/images/phones/apple/iphone-17e-softpink.jpg",
+        "price": 58000,
+        "color": "Açık Pembe"
       },
       {
         "id": "apple-apple-iphone-17e-128-gb-1048092-gece",
         "name": "Apple iPhone 17e (128 GB) - Gece",
         "colorName": "Gece Yarısı (Midnight)",
-        "colorHex": "#232A31",
-        "image": "/images/phones/apple/iphone-17-midnight.jpg",
-        "price": 58000
+        "colorHex": "#fbfbfb",
+        "image": "/images/phones/apple/iphone-17e-white.jpg",
+        "price": 58000,
+        "color": "Beyaz"
       }
+    ],
+    "gallery": [
+      "/images/phones/apple/iphone-17e-lineup.jpg",
+      "/images/phones/apple/iphone-17e-softpink.jpg",
+      "/images/phones/apple/iphone-17e-white.jpg",
+      "/images/phones/apple/iphone-17e-black.jpg"
     ]
   },
   {
@@ -751,12 +751,13 @@
     "name": "Apple iPhone Air (1 TB)",
     "brand": "Apple",
     "category": "smartphones",
-    "image": "/images/phones/apple/apple-iphone-17-air.jpg",
+    "image": "/images/phones/apple/iphone-air-skyblue.jpg",
     "images": [
-      "/images/phones/apple/iphone-17-air-skyblue.jpg",
-      "/images/phones/apple/iphone-17-air-gold.jpg",
-      "/images/phones/apple/iphone-17-air-silver.jpg",
-      "/images/phones/apple/iphone-17-air-black.jpg"
+      "/images/phones/apple/iphone-air-lineup.jpg",
+      "/images/phones/apple/iphone-air-skyblue.jpg",
+      "/images/phones/apple/iphone-air-lightgold.jpg",
+      "/images/phones/apple/iphone-air-cloudwhite.jpg",
+      "/images/phones/apple/iphone-air-spaceblack.jpg"
     ],
     "rating": 4.9,
     "epeyScore": 94,
@@ -785,24 +786,24 @@
     ],
     "colorOptions": [
       {
-        "name": "Gök Mavisi (Sky Blue)",
-        "hex": "#B5D0E8",
-        "image": "/images/phones/apple/iphone-17-air-skyblue.jpg"
+        "name": "Gök Mavisi",
+        "hex": "#a2b9cc",
+        "image": "/images/phones/apple/iphone-air-skyblue.jpg"
       },
       {
-        "name": "Açık Altın (Light Gold)",
-        "hex": "#EEDCB3",
-        "image": "/images/phones/apple/iphone-17-air-gold.jpg"
+        "name": "Uçuk Altın Rengi",
+        "hex": "#eedcc8",
+        "image": "/images/phones/apple/iphone-air-lightgold.jpg"
       },
       {
-        "name": "Gümüş (Silver)",
-        "hex": "#E2E4E1",
-        "image": "/images/phones/apple/iphone-17-air-silver.jpg"
+        "name": "Pamuk Beyazı",
+        "hex": "#f3f2ee",
+        "image": "/images/phones/apple/iphone-air-cloudwhite.jpg"
       },
       {
-        "name": "Uzay Siyahı (Space Black)",
-        "hex": "#232A31",
-        "image": "/images/phones/apple/iphone-17-air-black.jpg"
+        "name": "Uzay Siyahı",
+        "hex": "#2c2b2f",
+        "image": "/images/phones/apple/iphone-air-spaceblack.jpg"
       }
     ],
     "storeOffers": [
@@ -949,34 +950,45 @@
         "id": "apple-apple-iphone-air-1-tb-1027085-gök",
         "name": "Apple iPhone Air (1 TB) - Gök",
         "colorName": "Gök Mavisi (Sky Blue)",
-        "colorHex": "#B5D0E8",
-        "image": "/images/phones/apple/iphone-17-air-skyblue.jpg",
-        "price": 68750
+        "colorHex": "#a2b9cc",
+        "image": "/images/phones/apple/iphone-air-skyblue.jpg",
+        "price": 68750,
+        "color": "Gök Mavisi"
       },
       {
         "id": "apple-apple-iphone-air-1-tb-1027085-açık",
         "name": "Apple iPhone Air (1 TB) - Açık",
         "colorName": "Açık Altın (Light Gold)",
-        "colorHex": "#EEDCB3",
-        "image": "/images/phones/apple/iphone-17-air-gold.jpg",
-        "price": 68750
+        "colorHex": "#eedcc8",
+        "image": "/images/phones/apple/iphone-air-lightgold.jpg",
+        "price": 68750,
+        "color": "Uçuk Altın Rengi"
       },
       {
         "id": "apple-apple-iphone-air-1-tb-1027085-gümüş",
         "name": "Apple iPhone Air (1 TB) - Gümüş",
         "colorName": "Gümüş (Silver)",
-        "colorHex": "#E2E4E1",
-        "image": "/images/phones/apple/iphone-17-air-silver.jpg",
-        "price": 68750
+        "colorHex": "#f3f2ee",
+        "image": "/images/phones/apple/iphone-air-cloudwhite.jpg",
+        "price": 68750,
+        "color": "Pamuk Beyazı"
       },
       {
         "id": "apple-apple-iphone-air-1-tb-1027085-uzay",
         "name": "Apple iPhone Air (1 TB) - Uzay",
         "colorName": "Uzay Siyahı (Space Black)",
-        "colorHex": "#232A31",
-        "image": "/images/phones/apple/iphone-17-air-black.jpg",
-        "price": 68750
+        "colorHex": "#2c2b2f",
+        "image": "/images/phones/apple/iphone-air-spaceblack.jpg",
+        "price": 68750,
+        "color": "Uzay Siyahı"
       }
+    ],
+    "gallery": [
+      "/images/phones/apple/iphone-air-lineup.jpg",
+      "/images/phones/apple/iphone-air-skyblue.jpg",
+      "/images/phones/apple/iphone-air-lightgold.jpg",
+      "/images/phones/apple/iphone-air-cloudwhite.jpg",
+      "/images/phones/apple/iphone-air-spaceblack.jpg"
     ]
   },
   {
@@ -985,12 +997,13 @@
     "name": "Apple iPhone Air (512 GB)",
     "brand": "Apple",
     "category": "smartphones",
-    "image": "/images/phones/apple/apple-iphone-17-air.jpg",
+    "image": "/images/phones/apple/iphone-air-skyblue.jpg",
     "images": [
-      "/images/phones/apple/iphone-17-air-skyblue.jpg",
-      "/images/phones/apple/iphone-17-air-gold.jpg",
-      "/images/phones/apple/iphone-17-air-silver.jpg",
-      "/images/phones/apple/iphone-17-air-black.jpg"
+      "/images/phones/apple/iphone-air-lineup.jpg",
+      "/images/phones/apple/iphone-air-skyblue.jpg",
+      "/images/phones/apple/iphone-air-lightgold.jpg",
+      "/images/phones/apple/iphone-air-cloudwhite.jpg",
+      "/images/phones/apple/iphone-air-spaceblack.jpg"
     ],
     "rating": 4.9,
     "epeyScore": 94,
@@ -1019,24 +1032,24 @@
     ],
     "colorOptions": [
       {
-        "name": "Gök Mavisi (Sky Blue)",
-        "hex": "#B5D0E8",
-        "image": "/images/phones/apple/iphone-17-air-skyblue.jpg"
+        "name": "Gök Mavisi",
+        "hex": "#a2b9cc",
+        "image": "/images/phones/apple/iphone-air-skyblue.jpg"
       },
       {
-        "name": "Açık Altın (Light Gold)",
-        "hex": "#EEDCB3",
-        "image": "/images/phones/apple/iphone-17-air-gold.jpg"
+        "name": "Uçuk Altın Rengi",
+        "hex": "#eedcc8",
+        "image": "/images/phones/apple/iphone-air-lightgold.jpg"
       },
       {
-        "name": "Gümüş (Silver)",
-        "hex": "#E2E4E1",
-        "image": "/images/phones/apple/iphone-17-air-silver.jpg"
+        "name": "Pamuk Beyazı",
+        "hex": "#f3f2ee",
+        "image": "/images/phones/apple/iphone-air-cloudwhite.jpg"
       },
       {
-        "name": "Uzay Siyahı (Space Black)",
-        "hex": "#232A31",
-        "image": "/images/phones/apple/iphone-17-air-black.jpg"
+        "name": "Uzay Siyahı",
+        "hex": "#2c2b2f",
+        "image": "/images/phones/apple/iphone-air-spaceblack.jpg"
       }
     ],
     "storeOffers": [
@@ -1183,34 +1196,45 @@
         "id": "apple-apple-iphone-air-512-gb-1027084-gök",
         "name": "Apple iPhone Air (512 GB) - Gök",
         "colorName": "Gök Mavisi (Sky Blue)",
-        "colorHex": "#B5D0E8",
-        "image": "/images/phones/apple/iphone-17-air-skyblue.jpg",
-        "price": 36799
+        "colorHex": "#a2b9cc",
+        "image": "/images/phones/apple/iphone-air-skyblue.jpg",
+        "price": 36799,
+        "color": "Gök Mavisi"
       },
       {
         "id": "apple-apple-iphone-air-512-gb-1027084-açık",
         "name": "Apple iPhone Air (512 GB) - Açık",
         "colorName": "Açık Altın (Light Gold)",
-        "colorHex": "#EEDCB3",
-        "image": "/images/phones/apple/iphone-17-air-gold.jpg",
-        "price": 36799
+        "colorHex": "#eedcc8",
+        "image": "/images/phones/apple/iphone-air-lightgold.jpg",
+        "price": 36799,
+        "color": "Uçuk Altın Rengi"
       },
       {
         "id": "apple-apple-iphone-air-512-gb-1027084-gümüş",
         "name": "Apple iPhone Air (512 GB) - Gümüş",
         "colorName": "Gümüş (Silver)",
-        "colorHex": "#E2E4E1",
-        "image": "/images/phones/apple/iphone-17-air-silver.jpg",
-        "price": 36799
+        "colorHex": "#f3f2ee",
+        "image": "/images/phones/apple/iphone-air-cloudwhite.jpg",
+        "price": 36799,
+        "color": "Pamuk Beyazı"
       },
       {
         "id": "apple-apple-iphone-air-512-gb-1027084-uzay",
         "name": "Apple iPhone Air (512 GB) - Uzay",
         "colorName": "Uzay Siyahı (Space Black)",
-        "colorHex": "#232A31",
-        "image": "/images/phones/apple/iphone-17-air-black.jpg",
-        "price": 36799
+        "colorHex": "#2c2b2f",
+        "image": "/images/phones/apple/iphone-air-spaceblack.jpg",
+        "price": 36799,
+        "color": "Uzay Siyahı"
       }
+    ],
+    "gallery": [
+      "/images/phones/apple/iphone-air-lineup.jpg",
+      "/images/phones/apple/iphone-air-skyblue.jpg",
+      "/images/phones/apple/iphone-air-lightgold.jpg",
+      "/images/phones/apple/iphone-air-cloudwhite.jpg",
+      "/images/phones/apple/iphone-air-spaceblack.jpg"
     ]
   },
   {
@@ -1219,12 +1243,13 @@
     "name": "Apple iPhone Air (256 GB)",
     "brand": "Apple",
     "category": "smartphones",
-    "image": "/images/phones/apple/apple-iphone-17-air.jpg",
+    "image": "/images/phones/apple/iphone-air-skyblue.jpg",
     "images": [
-      "/images/phones/apple/iphone-17-air-skyblue.jpg",
-      "/images/phones/apple/iphone-17-air-gold.jpg",
-      "/images/phones/apple/iphone-17-air-silver.jpg",
-      "/images/phones/apple/iphone-17-air-black.jpg"
+      "/images/phones/apple/iphone-air-lineup.jpg",
+      "/images/phones/apple/iphone-air-skyblue.jpg",
+      "/images/phones/apple/iphone-air-lightgold.jpg",
+      "/images/phones/apple/iphone-air-cloudwhite.jpg",
+      "/images/phones/apple/iphone-air-spaceblack.jpg"
     ],
     "rating": 4.9,
     "epeyScore": 94,
@@ -1253,24 +1278,24 @@
     ],
     "colorOptions": [
       {
-        "name": "Gök Mavisi (Sky Blue)",
-        "hex": "#B5D0E8",
-        "image": "/images/phones/apple/iphone-17-air-skyblue.jpg"
+        "name": "Gök Mavisi",
+        "hex": "#a2b9cc",
+        "image": "/images/phones/apple/iphone-air-skyblue.jpg"
       },
       {
-        "name": "Açık Altın (Light Gold)",
-        "hex": "#EEDCB3",
-        "image": "/images/phones/apple/iphone-17-air-gold.jpg"
+        "name": "Uçuk Altın Rengi",
+        "hex": "#eedcc8",
+        "image": "/images/phones/apple/iphone-air-lightgold.jpg"
       },
       {
-        "name": "Gümüş (Silver)",
-        "hex": "#E2E4E1",
-        "image": "/images/phones/apple/iphone-17-air-silver.jpg"
+        "name": "Pamuk Beyazı",
+        "hex": "#f3f2ee",
+        "image": "/images/phones/apple/iphone-air-cloudwhite.jpg"
       },
       {
-        "name": "Uzay Siyahı (Space Black)",
-        "hex": "#232A31",
-        "image": "/images/phones/apple/iphone-17-air-black.jpg"
+        "name": "Uzay Siyahı",
+        "hex": "#2c2b2f",
+        "image": "/images/phones/apple/iphone-air-spaceblack.jpg"
       }
     ],
     "storeOffers": [
@@ -1417,34 +1442,45 @@
         "id": "apple-apple-iphone-air-256-gb-1027083-gök",
         "name": "Apple iPhone Air (256 GB) - Gök",
         "colorName": "Gök Mavisi (Sky Blue)",
-        "colorHex": "#B5D0E8",
-        "image": "/images/phones/apple/iphone-17-air-skyblue.jpg",
-        "price": 59400
+        "colorHex": "#a2b9cc",
+        "image": "/images/phones/apple/iphone-air-skyblue.jpg",
+        "price": 59400,
+        "color": "Gök Mavisi"
       },
       {
         "id": "apple-apple-iphone-air-256-gb-1027083-açık",
         "name": "Apple iPhone Air (256 GB) - Açık",
         "colorName": "Açık Altın (Light Gold)",
-        "colorHex": "#EEDCB3",
-        "image": "/images/phones/apple/iphone-17-air-gold.jpg",
-        "price": 59400
+        "colorHex": "#eedcc8",
+        "image": "/images/phones/apple/iphone-air-lightgold.jpg",
+        "price": 59400,
+        "color": "Uçuk Altın Rengi"
       },
       {
         "id": "apple-apple-iphone-air-256-gb-1027083-gümüş",
         "name": "Apple iPhone Air (256 GB) - Gümüş",
         "colorName": "Gümüş (Silver)",
-        "colorHex": "#E2E4E1",
-        "image": "/images/phones/apple/iphone-17-air-silver.jpg",
-        "price": 59400
+        "colorHex": "#f3f2ee",
+        "image": "/images/phones/apple/iphone-air-cloudwhite.jpg",
+        "price": 59400,
+        "color": "Pamuk Beyazı"
       },
       {
         "id": "apple-apple-iphone-air-256-gb-1027083-uzay",
         "name": "Apple iPhone Air (256 GB) - Uzay",
         "colorName": "Uzay Siyahı (Space Black)",
-        "colorHex": "#232A31",
-        "image": "/images/phones/apple/iphone-17-air-black.jpg",
-        "price": 59400
+        "colorHex": "#2c2b2f",
+        "image": "/images/phones/apple/iphone-air-spaceblack.jpg",
+        "price": 59400,
+        "color": "Uzay Siyahı"
       }
+    ],
+    "gallery": [
+      "/images/phones/apple/iphone-air-lineup.jpg",
+      "/images/phones/apple/iphone-air-skyblue.jpg",
+      "/images/phones/apple/iphone-air-lightgold.jpg",
+      "/images/phones/apple/iphone-air-cloudwhite.jpg",
+      "/images/phones/apple/iphone-air-spaceblack.jpg"
     ]
   },
   {
@@ -1453,13 +1489,14 @@
     "name": "Apple iPhone 17 (512 GB)",
     "brand": "Apple",
     "category": "smartphones",
-    "image": "/images/phones/apple/apple-iphone-17.jpg",
+    "image": "/images/phones/apple/iphone-17-lavender.png",
     "images": [
-      "/images/phones/apple/iphone-17-lavender.jpg",
-      "/images/phones/apple/iphone-17-sage.jpg",
-      "/images/phones/apple/iphone-17-blue.jpg",
-      "/images/phones/apple/iphone-17-starlight.jpg",
-      "/images/phones/apple/iphone-17-midnight.jpg"
+      "/images/phones/apple/iphone-17-lineup.jpg",
+      "/images/phones/apple/iphone-17-lavender.png",
+      "/images/phones/apple/iphone-17-sage.png",
+      "/images/phones/apple/iphone-17-mistblue.png",
+      "/images/phones/apple/iphone-17-white.png",
+      "/images/phones/apple/iphone-17-black.png"
     ],
     "rating": 4.9,
     "epeyScore": 96,
@@ -1489,29 +1526,29 @@
     ],
     "colorOptions": [
       {
-        "name": "Lavanta (Lavender)",
-        "hex": "#D4CBE5",
-        "image": "/images/phones/apple/iphone-17-lavender.jpg"
+        "name": "Lavanta",
+        "hex": "#c7bcdb",
+        "image": "/images/phones/apple/iphone-17-lavender.png"
       },
       {
-        "name": "Adaçayı Yeşili (Sage Green)",
-        "hex": "#B2C9B6",
-        "image": "/images/phones/apple/iphone-17-sage.jpg"
+        "name": "Ada Çayı",
+        "hex": "#a9b5a2",
+        "image": "/images/phones/apple/iphone-17-sage.png"
       },
       {
-        "name": "Açık Mavi (Sky Blue)",
-        "hex": "#B8D5E5",
-        "image": "/images/phones/apple/iphone-17-blue.jpg"
+        "name": "Sis Mavisi",
+        "hex": "#9bb5c6",
+        "image": "/images/phones/apple/iphone-17-mistblue.png"
       },
       {
-        "name": "Yıldız Işığı (Starlight)",
-        "hex": "#FAF6EE",
-        "image": "/images/phones/apple/iphone-17-starlight.jpg"
+        "name": "Beyaz",
+        "hex": "#fafafa",
+        "image": "/images/phones/apple/iphone-17-white.png"
       },
       {
-        "name": "Gece Yarısı (Midnight)",
-        "hex": "#232A31",
-        "image": "/images/phones/apple/iphone-17-midnight.jpg"
+        "name": "Siyah",
+        "hex": "#343538",
+        "image": "/images/phones/apple/iphone-17-black.png"
       }
     ],
     "storeOffers": [
@@ -1657,42 +1694,55 @@
         "id": "apple-apple-iphone-17-512-gb-1027085-lavanta",
         "name": "Apple iPhone 17 (512 GB) - Lavanta",
         "colorName": "Lavanta (Lavender)",
-        "colorHex": "#D4CBE5",
-        "image": "/images/phones/apple/iphone-17-lavender.jpg",
-        "price": 85100
+        "colorHex": "#c7bcdb",
+        "image": "/images/phones/apple/iphone-17-lavender.png",
+        "price": 85100,
+        "color": "Lavanta"
       },
       {
         "id": "apple-apple-iphone-17-512-gb-1027085-adaçayı",
         "name": "Apple iPhone 17 (512 GB) - Adaçayı",
         "colorName": "Adaçayı Yeşili (Sage Green)",
-        "colorHex": "#B2C9B6",
-        "image": "/images/phones/apple/iphone-17-sage.jpg",
-        "price": 85100
+        "colorHex": "#a9b5a2",
+        "image": "/images/phones/apple/iphone-17-sage.png",
+        "price": 85100,
+        "color": "Ada Çayı"
       },
       {
         "id": "apple-apple-iphone-17-512-gb-1027085-açık",
         "name": "Apple iPhone 17 (512 GB) - Açık",
         "colorName": "Açık Mavi (Sky Blue)",
-        "colorHex": "#B8D5E5",
-        "image": "/images/phones/apple/iphone-17-blue.jpg",
-        "price": 85100
+        "colorHex": "#9bb5c6",
+        "image": "/images/phones/apple/iphone-17-mistblue.png",
+        "price": 85100,
+        "color": "Sis Mavisi"
       },
       {
         "id": "apple-apple-iphone-17-512-gb-1027085-yıldız",
         "name": "Apple iPhone 17 (512 GB) - Yıldız",
         "colorName": "Yıldız Işığı (Starlight)",
-        "colorHex": "#FAF6EE",
-        "image": "/images/phones/apple/iphone-17-starlight.jpg",
-        "price": 85100
+        "colorHex": "#fafafa",
+        "image": "/images/phones/apple/iphone-17-white.png",
+        "price": 85100,
+        "color": "Beyaz"
       },
       {
         "id": "apple-apple-iphone-17-512-gb-1027085-gece",
         "name": "Apple iPhone 17 (512 GB) - Gece",
         "colorName": "Gece Yarısı (Midnight)",
-        "colorHex": "#232A31",
-        "image": "/images/phones/apple/iphone-17-midnight.jpg",
-        "price": 85100
+        "colorHex": "#343538",
+        "image": "/images/phones/apple/iphone-17-black.png",
+        "price": 85100,
+        "color": "Siyah"
       }
+    ],
+    "gallery": [
+      "/images/phones/apple/iphone-17-lineup.jpg",
+      "/images/phones/apple/iphone-17-lavender.png",
+      "/images/phones/apple/iphone-17-sage.png",
+      "/images/phones/apple/iphone-17-mistblue.png",
+      "/images/phones/apple/iphone-17-white.png",
+      "/images/phones/apple/iphone-17-black.png"
     ]
   },
   {
@@ -1701,13 +1751,14 @@
     "name": "Apple iPhone 17 (256 GB)",
     "brand": "Apple",
     "category": "smartphones",
-    "image": "/images/phones/apple/apple-iphone-17.jpg",
+    "image": "/images/phones/apple/iphone-17-lavender.png",
     "images": [
-      "/images/phones/apple/iphone-17-lavender.jpg",
-      "/images/phones/apple/iphone-17-sage.jpg",
-      "/images/phones/apple/iphone-17-blue.jpg",
-      "/images/phones/apple/iphone-17-starlight.jpg",
-      "/images/phones/apple/iphone-17-midnight.jpg"
+      "/images/phones/apple/iphone-17-lineup.jpg",
+      "/images/phones/apple/iphone-17-lavender.png",
+      "/images/phones/apple/iphone-17-sage.png",
+      "/images/phones/apple/iphone-17-mistblue.png",
+      "/images/phones/apple/iphone-17-white.png",
+      "/images/phones/apple/iphone-17-black.png"
     ],
     "rating": 4.9,
     "epeyScore": 96,
@@ -1737,29 +1788,29 @@
     ],
     "colorOptions": [
       {
-        "name": "Lavanta (Lavender)",
-        "hex": "#D4CBE5",
-        "image": "/images/phones/apple/iphone-17-lavender.jpg"
+        "name": "Lavanta",
+        "hex": "#c7bcdb",
+        "image": "/images/phones/apple/iphone-17-lavender.png"
       },
       {
-        "name": "Adaçayı Yeşili (Sage Green)",
-        "hex": "#B2C9B6",
-        "image": "/images/phones/apple/iphone-17-sage.jpg"
+        "name": "Ada Çayı",
+        "hex": "#a9b5a2",
+        "image": "/images/phones/apple/iphone-17-sage.png"
       },
       {
-        "name": "Açık Mavi (Sky Blue)",
-        "hex": "#B8D5E5",
-        "image": "/images/phones/apple/iphone-17-blue.jpg"
+        "name": "Sis Mavisi",
+        "hex": "#9bb5c6",
+        "image": "/images/phones/apple/iphone-17-mistblue.png"
       },
       {
-        "name": "Yıldız Işığı (Starlight)",
-        "hex": "#FAF6EE",
-        "image": "/images/phones/apple/iphone-17-starlight.jpg"
+        "name": "Beyaz",
+        "hex": "#fafafa",
+        "image": "/images/phones/apple/iphone-17-white.png"
       },
       {
-        "name": "Gece Yarısı (Midnight)",
-        "hex": "#232A31",
-        "image": "/images/phones/apple/iphone-17-midnight.jpg"
+        "name": "Siyah",
+        "hex": "#343538",
+        "image": "/images/phones/apple/iphone-17-black.png"
       }
     ],
     "storeOffers": [
@@ -1906,42 +1957,55 @@
         "id": "apple-apple-iphone-17-256-gb-1027084-lavanta",
         "name": "Apple iPhone 17 (256 GB) - Lavanta",
         "colorName": "Lavanta (Lavender)",
-        "colorHex": "#D4CBE5",
-        "image": "/images/phones/apple/iphone-17-lavender.jpg",
-        "price": 79920
+        "colorHex": "#c7bcdb",
+        "image": "/images/phones/apple/iphone-17-lavender.png",
+        "price": 79920,
+        "color": "Lavanta"
       },
       {
         "id": "apple-apple-iphone-17-256-gb-1027084-adaçayı",
         "name": "Apple iPhone 17 (256 GB) - Adaçayı",
         "colorName": "Adaçayı Yeşili (Sage Green)",
-        "colorHex": "#B2C9B6",
-        "image": "/images/phones/apple/iphone-17-sage.jpg",
-        "price": 79920
+        "colorHex": "#a9b5a2",
+        "image": "/images/phones/apple/iphone-17-sage.png",
+        "price": 79920,
+        "color": "Ada Çayı"
       },
       {
         "id": "apple-apple-iphone-17-256-gb-1027084-açık",
         "name": "Apple iPhone 17 (256 GB) - Açık",
         "colorName": "Açık Mavi (Sky Blue)",
-        "colorHex": "#B8D5E5",
-        "image": "/images/phones/apple/iphone-17-blue.jpg",
-        "price": 79920
+        "colorHex": "#9bb5c6",
+        "image": "/images/phones/apple/iphone-17-mistblue.png",
+        "price": 79920,
+        "color": "Sis Mavisi"
       },
       {
         "id": "apple-apple-iphone-17-256-gb-1027084-yıldız",
         "name": "Apple iPhone 17 (256 GB) - Yıldız",
         "colorName": "Yıldız Işığı (Starlight)",
-        "colorHex": "#FAF6EE",
-        "image": "/images/phones/apple/iphone-17-starlight.jpg",
-        "price": 79920
+        "colorHex": "#fafafa",
+        "image": "/images/phones/apple/iphone-17-white.png",
+        "price": 79920,
+        "color": "Beyaz"
       },
       {
         "id": "apple-apple-iphone-17-256-gb-1027084-gece",
         "name": "Apple iPhone 17 (256 GB) - Gece",
         "colorName": "Gece Yarısı (Midnight)",
-        "colorHex": "#232A31",
-        "image": "/images/phones/apple/iphone-17-midnight.jpg",
-        "price": 79920
+        "colorHex": "#343538",
+        "image": "/images/phones/apple/iphone-17-black.png",
+        "price": 79920,
+        "color": "Siyah"
       }
+    ],
+    "gallery": [
+      "/images/phones/apple/iphone-17-lineup.jpg",
+      "/images/phones/apple/iphone-17-lavender.png",
+      "/images/phones/apple/iphone-17-sage.png",
+      "/images/phones/apple/iphone-17-mistblue.png",
+      "/images/phones/apple/iphone-17-white.png",
+      "/images/phones/apple/iphone-17-black.png"
     ]
   },
   {
@@ -1950,13 +2014,14 @@
     "name": "Apple iPhone 17 (128 GB)",
     "brand": "Apple",
     "category": "smartphones",
-    "image": "/images/phones/apple/apple-iphone-17.jpg",
+    "image": "/images/phones/apple/iphone-17-lavender.png",
     "images": [
-      "/images/phones/apple/iphone-17-lavender.jpg",
-      "/images/phones/apple/iphone-17-sage.jpg",
-      "/images/phones/apple/iphone-17-blue.jpg",
-      "/images/phones/apple/iphone-17-starlight.jpg",
-      "/images/phones/apple/iphone-17-midnight.jpg"
+      "/images/phones/apple/iphone-17-lineup.jpg",
+      "/images/phones/apple/iphone-17-lavender.png",
+      "/images/phones/apple/iphone-17-sage.png",
+      "/images/phones/apple/iphone-17-mistblue.png",
+      "/images/phones/apple/iphone-17-white.png",
+      "/images/phones/apple/iphone-17-black.png"
     ],
     "rating": 4.9,
     "epeyScore": 96,
@@ -1986,29 +2051,29 @@
     ],
     "colorOptions": [
       {
-        "name": "Lavanta (Lavender)",
-        "hex": "#D4CBE5",
-        "image": "/images/phones/apple/iphone-17-lavender.jpg"
+        "name": "Lavanta",
+        "hex": "#c7bcdb",
+        "image": "/images/phones/apple/iphone-17-lavender.png"
       },
       {
-        "name": "Adaçayı Yeşili (Sage Green)",
-        "hex": "#B2C9B6",
-        "image": "/images/phones/apple/iphone-17-sage.jpg"
+        "name": "Ada Çayı",
+        "hex": "#a9b5a2",
+        "image": "/images/phones/apple/iphone-17-sage.png"
       },
       {
-        "name": "Açık Mavi (Sky Blue)",
-        "hex": "#B8D5E5",
-        "image": "/images/phones/apple/iphone-17-blue.jpg"
+        "name": "Sis Mavisi",
+        "hex": "#9bb5c6",
+        "image": "/images/phones/apple/iphone-17-mistblue.png"
       },
       {
-        "name": "Yıldız Işığı (Starlight)",
-        "hex": "#FAF6EE",
-        "image": "/images/phones/apple/iphone-17-starlight.jpg"
+        "name": "Beyaz",
+        "hex": "#fafafa",
+        "image": "/images/phones/apple/iphone-17-white.png"
       },
       {
-        "name": "Gece Yarısı (Midnight)",
-        "hex": "#232A31",
-        "image": "/images/phones/apple/iphone-17-midnight.jpg"
+        "name": "Siyah",
+        "hex": "#343538",
+        "image": "/images/phones/apple/iphone-17-black.png"
       }
     ],
     "storeOffers": [
@@ -2155,42 +2220,55 @@
         "id": "apple-apple-iphone-17-128-gb-1023347-lavanta",
         "name": "Apple iPhone 17 (128 GB) - Lavanta",
         "colorName": "Lavanta (Lavender)",
-        "colorHex": "#D4CBE5",
-        "image": "/images/phones/apple/iphone-17-lavender.jpg",
-        "price": 74000
+        "colorHex": "#c7bcdb",
+        "image": "/images/phones/apple/iphone-17-lavender.png",
+        "price": 74000,
+        "color": "Lavanta"
       },
       {
         "id": "apple-apple-iphone-17-128-gb-1023347-adaçayı",
         "name": "Apple iPhone 17 (128 GB) - Adaçayı",
         "colorName": "Adaçayı Yeşili (Sage Green)",
-        "colorHex": "#B2C9B6",
-        "image": "/images/phones/apple/iphone-17-sage.jpg",
-        "price": 74000
+        "colorHex": "#a9b5a2",
+        "image": "/images/phones/apple/iphone-17-sage.png",
+        "price": 74000,
+        "color": "Ada Çayı"
       },
       {
         "id": "apple-apple-iphone-17-128-gb-1023347-açık",
         "name": "Apple iPhone 17 (128 GB) - Açık",
         "colorName": "Açık Mavi (Sky Blue)",
-        "colorHex": "#B8D5E5",
-        "image": "/images/phones/apple/iphone-17-blue.jpg",
-        "price": 74000
+        "colorHex": "#9bb5c6",
+        "image": "/images/phones/apple/iphone-17-mistblue.png",
+        "price": 74000,
+        "color": "Sis Mavisi"
       },
       {
         "id": "apple-apple-iphone-17-128-gb-1023347-yıldız",
         "name": "Apple iPhone 17 (128 GB) - Yıldız",
         "colorName": "Yıldız Işığı (Starlight)",
-        "colorHex": "#FAF6EE",
-        "image": "/images/phones/apple/iphone-17-starlight.jpg",
-        "price": 74000
+        "colorHex": "#fafafa",
+        "image": "/images/phones/apple/iphone-17-white.png",
+        "price": 74000,
+        "color": "Beyaz"
       },
       {
         "id": "apple-apple-iphone-17-128-gb-1023347-gece",
         "name": "Apple iPhone 17 (128 GB) - Gece",
         "colorName": "Gece Yarısı (Midnight)",
-        "colorHex": "#232A31",
-        "image": "/images/phones/apple/iphone-17-midnight.jpg",
-        "price": 74000
+        "colorHex": "#343538",
+        "image": "/images/phones/apple/iphone-17-black.png",
+        "price": 74000,
+        "color": "Siyah"
       }
+    ],
+    "gallery": [
+      "/images/phones/apple/iphone-17-lineup.jpg",
+      "/images/phones/apple/iphone-17-lavender.png",
+      "/images/phones/apple/iphone-17-sage.png",
+      "/images/phones/apple/iphone-17-mistblue.png",
+      "/images/phones/apple/iphone-17-white.png",
+      "/images/phones/apple/iphone-17-black.png"
     ]
   },
   {
@@ -2199,12 +2277,12 @@
     "name": "Apple iPhone 17 Pro Max (2 TB)",
     "brand": "Apple",
     "category": "smartphones",
-    "image": "/images/phones/apple/apple-iphone-17-pro-max.jpg",
+    "image": "/images/phones/apple/iphone-17-promax-deepblue.jpg",
     "images": [
-      "/images/phones/apple/iphone-17-pro-orange.jpg",
-      "/images/phones/apple/iphone-17-pro-darkblue.jpg",
-      "/images/phones/apple/iphone-17-pro-silver.jpg",
-      "/images/phones/apple/iphone-17-pro-black.jpg"
+      "/images/phones/apple/iphone-17-promax-lineup.jpg",
+      "/images/phones/apple/iphone-17-promax-deepblue.jpg",
+      "/images/phones/apple/iphone-17-promax-cosmicorange.jpg",
+      "/images/phones/apple/iphone-17-promax-silver.jpg"
     ],
     "rating": 4.95,
     "epeyScore": 99,
@@ -2234,24 +2312,19 @@
     ],
     "colorOptions": [
       {
-        "name": "Kozmik Turuncu (Cosmic Orange)",
-        "hex": "#E56B38",
-        "image": "/images/phones/apple/iphone-17-pro-orange.jpg"
+        "name": "Abis",
+        "hex": "#22303c",
+        "image": "/images/phones/apple/iphone-17-promax-deepblue.jpg"
       },
       {
-        "name": "Koyu Mavi (Dark Blue)",
-        "hex": "#243342",
-        "image": "/images/phones/apple/iphone-17-pro-darkblue.jpg"
+        "name": "Kozmik Turuncu",
+        "hex": "#d46b38",
+        "image": "/images/phones/apple/iphone-17-promax-cosmicorange.jpg"
       },
       {
-        "name": "Gümüş (Silver)",
-        "hex": "#E2E4E1",
-        "image": "/images/phones/apple/iphone-17-pro-silver.jpg"
-      },
-      {
-        "name": "Uzay Siyahı (Space Black)",
-        "hex": "#232426",
-        "image": "/images/phones/apple/iphone-17-pro-black.jpg"
+        "name": "Gümüş",
+        "hex": "#e2e4e1",
+        "image": "/images/phones/apple/iphone-17-promax-silver.jpg"
       }
     ],
     "storeOffers": [
@@ -2396,34 +2469,44 @@
         "id": "apple-apple-iphone-17-pro-max-2-tb-1027080-kozmik",
         "name": "Apple iPhone 17 Pro Max (2 TB) - Kozmik",
         "colorName": "Kozmik Turuncu (Cosmic Orange)",
-        "colorHex": "#E56B38",
-        "image": "/images/phones/apple/iphone-17-pro-orange.jpg",
-        "price": 155250
+        "colorHex": "#22303c",
+        "image": "/images/phones/apple/iphone-17-promax-deepblue.jpg",
+        "price": 155250,
+        "color": "Abis"
       },
       {
         "id": "apple-apple-iphone-17-pro-max-2-tb-1027080-koyu",
         "name": "Apple iPhone 17 Pro Max (2 TB) - Koyu",
         "colorName": "Koyu Mavi (Dark Blue)",
-        "colorHex": "#243342",
-        "image": "/images/phones/apple/iphone-17-pro-darkblue.jpg",
-        "price": 155250
+        "colorHex": "#d46b38",
+        "image": "/images/phones/apple/iphone-17-promax-cosmicorange.jpg",
+        "price": 155250,
+        "color": "Kozmik Turuncu"
       },
       {
         "id": "apple-apple-iphone-17-pro-max-2-tb-1027080-gümüş",
         "name": "Apple iPhone 17 Pro Max (2 TB) - Gümüş",
         "colorName": "Gümüş (Silver)",
-        "colorHex": "#E2E4E1",
-        "image": "/images/phones/apple/iphone-17-pro-silver.jpg",
-        "price": 155250
+        "colorHex": "#e2e4e1",
+        "image": "/images/phones/apple/iphone-17-promax-silver.jpg",
+        "price": 155250,
+        "color": "Gümüş"
       },
       {
         "id": "apple-apple-iphone-17-pro-max-2-tb-1027080-uzay",
         "name": "Apple iPhone 17 Pro Max (2 TB) - Uzay",
         "colorName": "Uzay Siyahı (Space Black)",
-        "colorHex": "#232426",
-        "image": "/images/phones/apple/iphone-17-pro-black.jpg",
-        "price": 155250
+        "colorHex": "#22303c",
+        "image": "/images/phones/apple/iphone-17-promax-deepblue.jpg",
+        "price": 155250,
+        "color": "Abis"
       }
+    ],
+    "gallery": [
+      "/images/phones/apple/iphone-17-promax-lineup.jpg",
+      "/images/phones/apple/iphone-17-promax-deepblue.jpg",
+      "/images/phones/apple/iphone-17-promax-cosmicorange.jpg",
+      "/images/phones/apple/iphone-17-promax-silver.jpg"
     ]
   },
   {
@@ -2432,12 +2515,12 @@
     "name": "Apple iPhone 17 Pro Max (1 TB)",
     "brand": "Apple",
     "category": "smartphones",
-    "image": "/images/phones/apple/apple-iphone-17-pro-max.jpg",
+    "image": "/images/phones/apple/iphone-17-promax-deepblue.jpg",
     "images": [
-      "/images/phones/apple/iphone-17-pro-orange.jpg",
-      "/images/phones/apple/iphone-17-pro-darkblue.jpg",
-      "/images/phones/apple/iphone-17-pro-silver.jpg",
-      "/images/phones/apple/iphone-17-pro-black.jpg"
+      "/images/phones/apple/iphone-17-promax-lineup.jpg",
+      "/images/phones/apple/iphone-17-promax-deepblue.jpg",
+      "/images/phones/apple/iphone-17-promax-cosmicorange.jpg",
+      "/images/phones/apple/iphone-17-promax-silver.jpg"
     ],
     "rating": 4.95,
     "epeyScore": 99,
@@ -2467,24 +2550,19 @@
     ],
     "colorOptions": [
       {
-        "name": "Kozmik Turuncu (Cosmic Orange)",
-        "hex": "#E56B38",
-        "image": "/images/phones/apple/iphone-17-pro-orange.jpg"
+        "name": "Abis",
+        "hex": "#22303c",
+        "image": "/images/phones/apple/iphone-17-promax-deepblue.jpg"
       },
       {
-        "name": "Koyu Mavi (Dark Blue)",
-        "hex": "#243342",
-        "image": "/images/phones/apple/iphone-17-pro-darkblue.jpg"
+        "name": "Kozmik Turuncu",
+        "hex": "#d46b38",
+        "image": "/images/phones/apple/iphone-17-promax-cosmicorange.jpg"
       },
       {
-        "name": "Gümüş (Silver)",
-        "hex": "#E2E4E1",
-        "image": "/images/phones/apple/iphone-17-pro-silver.jpg"
-      },
-      {
-        "name": "Uzay Siyahı (Space Black)",
-        "hex": "#232426",
-        "image": "/images/phones/apple/iphone-17-pro-black.jpg"
+        "name": "Gümüş",
+        "hex": "#e2e4e1",
+        "image": "/images/phones/apple/iphone-17-promax-silver.jpg"
       }
     ],
     "storeOffers": [
@@ -2630,34 +2708,44 @@
         "id": "apple-apple-iphone-17-pro-max-1-tb-1027079-kozmik",
         "name": "Apple iPhone 17 Pro Max (1 TB) - Kozmik",
         "colorName": "Kozmik Turuncu (Cosmic Orange)",
-        "colorHex": "#E56B38",
-        "image": "/images/phones/apple/iphone-17-pro-orange.jpg",
-        "price": 143750
+        "colorHex": "#22303c",
+        "image": "/images/phones/apple/iphone-17-promax-deepblue.jpg",
+        "price": 143750,
+        "color": "Abis"
       },
       {
         "id": "apple-apple-iphone-17-pro-max-1-tb-1027079-koyu",
         "name": "Apple iPhone 17 Pro Max (1 TB) - Koyu",
         "colorName": "Koyu Mavi (Dark Blue)",
-        "colorHex": "#243342",
-        "image": "/images/phones/apple/iphone-17-pro-darkblue.jpg",
-        "price": 143750
+        "colorHex": "#d46b38",
+        "image": "/images/phones/apple/iphone-17-promax-cosmicorange.jpg",
+        "price": 143750,
+        "color": "Kozmik Turuncu"
       },
       {
         "id": "apple-apple-iphone-17-pro-max-1-tb-1027079-gümüş",
         "name": "Apple iPhone 17 Pro Max (1 TB) - Gümüş",
         "colorName": "Gümüş (Silver)",
-        "colorHex": "#E2E4E1",
-        "image": "/images/phones/apple/iphone-17-pro-silver.jpg",
-        "price": 143750
+        "colorHex": "#e2e4e1",
+        "image": "/images/phones/apple/iphone-17-promax-silver.jpg",
+        "price": 143750,
+        "color": "Gümüş"
       },
       {
         "id": "apple-apple-iphone-17-pro-max-1-tb-1027079-uzay",
         "name": "Apple iPhone 17 Pro Max (1 TB) - Uzay",
         "colorName": "Uzay Siyahı (Space Black)",
-        "colorHex": "#232426",
-        "image": "/images/phones/apple/iphone-17-pro-black.jpg",
-        "price": 143750
+        "colorHex": "#22303c",
+        "image": "/images/phones/apple/iphone-17-promax-deepblue.jpg",
+        "price": 143750,
+        "color": "Abis"
       }
+    ],
+    "gallery": [
+      "/images/phones/apple/iphone-17-promax-lineup.jpg",
+      "/images/phones/apple/iphone-17-promax-deepblue.jpg",
+      "/images/phones/apple/iphone-17-promax-cosmicorange.jpg",
+      "/images/phones/apple/iphone-17-promax-silver.jpg"
     ]
   },
   {
@@ -2666,12 +2754,12 @@
     "name": "Apple iPhone 17 Pro Max (512 GB)",
     "brand": "Apple",
     "category": "smartphones",
-    "image": "/images/phones/apple/apple-iphone-17-pro-max.jpg",
+    "image": "/images/phones/apple/iphone-17-promax-deepblue.jpg",
     "images": [
-      "/images/phones/apple/iphone-17-pro-orange.jpg",
-      "/images/phones/apple/iphone-17-pro-darkblue.jpg",
-      "/images/phones/apple/iphone-17-pro-silver.jpg",
-      "/images/phones/apple/iphone-17-pro-black.jpg"
+      "/images/phones/apple/iphone-17-promax-lineup.jpg",
+      "/images/phones/apple/iphone-17-promax-deepblue.jpg",
+      "/images/phones/apple/iphone-17-promax-cosmicorange.jpg",
+      "/images/phones/apple/iphone-17-promax-silver.jpg"
     ],
     "rating": 4.95,
     "epeyScore": 99,
@@ -2701,24 +2789,19 @@
     ],
     "colorOptions": [
       {
-        "name": "Kozmik Turuncu (Cosmic Orange)",
-        "hex": "#E56B38",
-        "image": "/images/phones/apple/iphone-17-pro-orange.jpg"
+        "name": "Abis",
+        "hex": "#22303c",
+        "image": "/images/phones/apple/iphone-17-promax-deepblue.jpg"
       },
       {
-        "name": "Koyu Mavi (Dark Blue)",
-        "hex": "#243342",
-        "image": "/images/phones/apple/iphone-17-pro-darkblue.jpg"
+        "name": "Kozmik Turuncu",
+        "hex": "#d46b38",
+        "image": "/images/phones/apple/iphone-17-promax-cosmicorange.jpg"
       },
       {
-        "name": "Gümüş (Silver)",
-        "hex": "#E2E4E1",
-        "image": "/images/phones/apple/iphone-17-pro-silver.jpg"
-      },
-      {
-        "name": "Uzay Siyahı (Space Black)",
-        "hex": "#232426",
-        "image": "/images/phones/apple/iphone-17-pro-black.jpg"
+        "name": "Gümüş",
+        "hex": "#e2e4e1",
+        "image": "/images/phones/apple/iphone-17-promax-silver.jpg"
       }
     ],
     "storeOffers": [
@@ -2865,34 +2948,44 @@
         "id": "apple-apple-iphone-17-pro-max-512-gb-1027078-kozmik",
         "name": "Apple iPhone 17 Pro Max (512 GB) - Kozmik",
         "colorName": "Kozmik Turuncu (Cosmic Orange)",
-        "colorHex": "#E56B38",
-        "image": "/images/phones/apple/iphone-17-pro-orange.jpg",
-        "price": 132250
+        "colorHex": "#22303c",
+        "image": "/images/phones/apple/iphone-17-promax-deepblue.jpg",
+        "price": 132250,
+        "color": "Abis"
       },
       {
         "id": "apple-apple-iphone-17-pro-max-512-gb-1027078-koyu",
         "name": "Apple iPhone 17 Pro Max (512 GB) - Koyu",
         "colorName": "Koyu Mavi (Dark Blue)",
-        "colorHex": "#243342",
-        "image": "/images/phones/apple/iphone-17-pro-darkblue.jpg",
-        "price": 132250
+        "colorHex": "#d46b38",
+        "image": "/images/phones/apple/iphone-17-promax-cosmicorange.jpg",
+        "price": 132250,
+        "color": "Kozmik Turuncu"
       },
       {
         "id": "apple-apple-iphone-17-pro-max-512-gb-1027078-gümüş",
         "name": "Apple iPhone 17 Pro Max (512 GB) - Gümüş",
         "colorName": "Gümüş (Silver)",
-        "colorHex": "#E2E4E1",
-        "image": "/images/phones/apple/iphone-17-pro-silver.jpg",
-        "price": 132250
+        "colorHex": "#e2e4e1",
+        "image": "/images/phones/apple/iphone-17-promax-silver.jpg",
+        "price": 132250,
+        "color": "Gümüş"
       },
       {
         "id": "apple-apple-iphone-17-pro-max-512-gb-1027078-uzay",
         "name": "Apple iPhone 17 Pro Max (512 GB) - Uzay",
         "colorName": "Uzay Siyahı (Space Black)",
-        "colorHex": "#232426",
-        "image": "/images/phones/apple/iphone-17-pro-black.jpg",
-        "price": 132250
+        "colorHex": "#22303c",
+        "image": "/images/phones/apple/iphone-17-promax-deepblue.jpg",
+        "price": 132250,
+        "color": "Abis"
       }
+    ],
+    "gallery": [
+      "/images/phones/apple/iphone-17-promax-lineup.jpg",
+      "/images/phones/apple/iphone-17-promax-deepblue.jpg",
+      "/images/phones/apple/iphone-17-promax-cosmicorange.jpg",
+      "/images/phones/apple/iphone-17-promax-silver.jpg"
     ]
   },
   {
@@ -2901,12 +2994,12 @@
     "name": "Apple iPhone 17 Pro (1 TB)",
     "brand": "Apple",
     "category": "smartphones",
-    "image": "/images/phones/apple/apple-iphone-17-pro.jpg",
+    "image": "/images/phones/apple/iphone-17-pro-deepblue.jpg",
     "images": [
-      "/images/phones/apple/iphone-17-pro-orange.jpg",
-      "/images/phones/apple/iphone-17-pro-darkblue.jpg",
-      "/images/phones/apple/iphone-17-pro-silver.jpg",
-      "/images/phones/apple/iphone-17-pro-black.jpg"
+      "/images/phones/apple/iphone-17-pro-lineup.jpg",
+      "/images/phones/apple/iphone-17-pro-deepblue.jpg",
+      "/images/phones/apple/iphone-17-pro-cosmicorange.jpg",
+      "/images/phones/apple/iphone-17-pro-silver.jpg"
     ],
     "rating": 4.93,
     "epeyScore": 98,
@@ -2936,24 +3029,19 @@
     ],
     "colorOptions": [
       {
-        "name": "Kozmik Turuncu (Cosmic Orange)",
-        "hex": "#E56B38",
-        "image": "/images/phones/apple/iphone-17-pro-orange.jpg"
+        "name": "Abis",
+        "hex": "#22303c",
+        "image": "/images/phones/apple/iphone-17-pro-deepblue.jpg"
       },
       {
-        "name": "Koyu Mavi (Dark Blue)",
-        "hex": "#243342",
-        "image": "/images/phones/apple/iphone-17-pro-darkblue.jpg"
+        "name": "Kozmik Turuncu",
+        "hex": "#d46b38",
+        "image": "/images/phones/apple/iphone-17-pro-cosmicorange.jpg"
       },
       {
-        "name": "Gümüş (Silver)",
-        "hex": "#E2E4E1",
+        "name": "Gümüş",
+        "hex": "#e2e4e1",
         "image": "/images/phones/apple/iphone-17-pro-silver.jpg"
-      },
-      {
-        "name": "Uzay Siyahı (Space Black)",
-        "hex": "#232426",
-        "image": "/images/phones/apple/iphone-17-pro-black.jpg"
       }
     ],
     "storeOffers": [
@@ -3099,34 +3187,44 @@
         "id": "apple-apple-iphone-17-pro-1-tb-1027083-kozmik",
         "name": "Apple iPhone 17 Pro (1 TB) - Kozmik",
         "colorName": "Kozmik Turuncu (Cosmic Orange)",
-        "colorHex": "#E56B38",
-        "image": "/images/phones/apple/iphone-17-pro-orange.jpg",
-        "price": 122500
+        "colorHex": "#22303c",
+        "image": "/images/phones/apple/iphone-17-pro-deepblue.jpg",
+        "price": 122500,
+        "color": "Abis"
       },
       {
         "id": "apple-apple-iphone-17-pro-1-tb-1027083-koyu",
         "name": "Apple iPhone 17 Pro (1 TB) - Koyu",
         "colorName": "Koyu Mavi (Dark Blue)",
-        "colorHex": "#243342",
-        "image": "/images/phones/apple/iphone-17-pro-darkblue.jpg",
-        "price": 122500
+        "colorHex": "#d46b38",
+        "image": "/images/phones/apple/iphone-17-pro-cosmicorange.jpg",
+        "price": 122500,
+        "color": "Kozmik Turuncu"
       },
       {
         "id": "apple-apple-iphone-17-pro-1-tb-1027083-gümüş",
         "name": "Apple iPhone 17 Pro (1 TB) - Gümüş",
         "colorName": "Gümüş (Silver)",
-        "colorHex": "#E2E4E1",
+        "colorHex": "#e2e4e1",
         "image": "/images/phones/apple/iphone-17-pro-silver.jpg",
-        "price": 122500
+        "price": 122500,
+        "color": "Gümüş"
       },
       {
         "id": "apple-apple-iphone-17-pro-1-tb-1027083-uzay",
         "name": "Apple iPhone 17 Pro (1 TB) - Uzay",
         "colorName": "Uzay Siyahı (Space Black)",
-        "colorHex": "#232426",
-        "image": "/images/phones/apple/iphone-17-pro-black.jpg",
-        "price": 122500
+        "colorHex": "#22303c",
+        "image": "/images/phones/apple/iphone-17-pro-deepblue.jpg",
+        "price": 122500,
+        "color": "Abis"
       }
+    ],
+    "gallery": [
+      "/images/phones/apple/iphone-17-pro-lineup.jpg",
+      "/images/phones/apple/iphone-17-pro-deepblue.jpg",
+      "/images/phones/apple/iphone-17-pro-cosmicorange.jpg",
+      "/images/phones/apple/iphone-17-pro-silver.jpg"
     ]
   },
   {
@@ -3135,12 +3233,12 @@
     "name": "Apple iPhone 17 Pro Max (256 GB)",
     "brand": "Apple",
     "category": "smartphones",
-    "image": "/images/phones/apple/apple-iphone-17-pro-max.jpg",
+    "image": "/images/phones/apple/iphone-17-promax-deepblue.jpg",
     "images": [
-      "/images/phones/apple/iphone-17-pro-orange.jpg",
-      "/images/phones/apple/iphone-17-pro-darkblue.jpg",
-      "/images/phones/apple/iphone-17-pro-silver.jpg",
-      "/images/phones/apple/iphone-17-pro-black.jpg"
+      "/images/phones/apple/iphone-17-promax-lineup.jpg",
+      "/images/phones/apple/iphone-17-promax-deepblue.jpg",
+      "/images/phones/apple/iphone-17-promax-cosmicorange.jpg",
+      "/images/phones/apple/iphone-17-promax-silver.jpg"
     ],
     "rating": 4.95,
     "epeyScore": 99,
@@ -3170,24 +3268,19 @@
     ],
     "colorOptions": [
       {
-        "name": "Kozmik Turuncu (Cosmic Orange)",
-        "hex": "#E56B38",
-        "image": "/images/phones/apple/iphone-17-pro-orange.jpg"
+        "name": "Abis",
+        "hex": "#22303c",
+        "image": "/images/phones/apple/iphone-17-promax-deepblue.jpg"
       },
       {
-        "name": "Koyu Mavi (Dark Blue)",
-        "hex": "#243342",
-        "image": "/images/phones/apple/iphone-17-pro-darkblue.jpg"
+        "name": "Kozmik Turuncu",
+        "hex": "#d46b38",
+        "image": "/images/phones/apple/iphone-17-promax-cosmicorange.jpg"
       },
       {
-        "name": "Gümüş (Silver)",
-        "hex": "#E2E4E1",
-        "image": "/images/phones/apple/iphone-17-pro-silver.jpg"
-      },
-      {
-        "name": "Uzay Siyahı (Space Black)",
-        "hex": "#232426",
-        "image": "/images/phones/apple/iphone-17-pro-black.jpg"
+        "name": "Gümüş",
+        "hex": "#e2e4e1",
+        "image": "/images/phones/apple/iphone-17-promax-silver.jpg"
       }
     ],
     "storeOffers": [
@@ -3335,34 +3428,44 @@
         "id": "apple-apple-iphone-17-pro-max-256-gb-1023353-kozmik",
         "name": "Apple iPhone 17 Pro Max (256 GB) - Kozmik",
         "colorName": "Kozmik Turuncu (Cosmic Orange)",
-        "colorHex": "#E56B38",
-        "image": "/images/phones/apple/iphone-17-pro-orange.jpg",
-        "price": 124200
+        "colorHex": "#22303c",
+        "image": "/images/phones/apple/iphone-17-promax-deepblue.jpg",
+        "price": 124200,
+        "color": "Abis"
       },
       {
         "id": "apple-apple-iphone-17-pro-max-256-gb-1023353-koyu",
         "name": "Apple iPhone 17 Pro Max (256 GB) - Koyu",
         "colorName": "Koyu Mavi (Dark Blue)",
-        "colorHex": "#243342",
-        "image": "/images/phones/apple/iphone-17-pro-darkblue.jpg",
-        "price": 124200
+        "colorHex": "#d46b38",
+        "image": "/images/phones/apple/iphone-17-promax-cosmicorange.jpg",
+        "price": 124200,
+        "color": "Kozmik Turuncu"
       },
       {
         "id": "apple-apple-iphone-17-pro-max-256-gb-1023353-gümüş",
         "name": "Apple iPhone 17 Pro Max (256 GB) - Gümüş",
         "colorName": "Gümüş (Silver)",
-        "colorHex": "#E2E4E1",
-        "image": "/images/phones/apple/iphone-17-pro-silver.jpg",
-        "price": 124200
+        "colorHex": "#e2e4e1",
+        "image": "/images/phones/apple/iphone-17-promax-silver.jpg",
+        "price": 124200,
+        "color": "Gümüş"
       },
       {
         "id": "apple-apple-iphone-17-pro-max-256-gb-1023353-uzay",
         "name": "Apple iPhone 17 Pro Max (256 GB) - Uzay",
         "colorName": "Uzay Siyahı (Space Black)",
-        "colorHex": "#232426",
-        "image": "/images/phones/apple/iphone-17-pro-black.jpg",
-        "price": 124200
+        "colorHex": "#22303c",
+        "image": "/images/phones/apple/iphone-17-promax-deepblue.jpg",
+        "price": 124200,
+        "color": "Abis"
       }
+    ],
+    "gallery": [
+      "/images/phones/apple/iphone-17-promax-lineup.jpg",
+      "/images/phones/apple/iphone-17-promax-deepblue.jpg",
+      "/images/phones/apple/iphone-17-promax-cosmicorange.jpg",
+      "/images/phones/apple/iphone-17-promax-silver.jpg"
     ]
   },
   {
@@ -3371,12 +3474,12 @@
     "name": "Apple iPhone 17 Pro (512 GB)",
     "brand": "Apple",
     "category": "smartphones",
-    "image": "/images/phones/apple/apple-iphone-17-pro.jpg",
+    "image": "/images/phones/apple/iphone-17-pro-deepblue.jpg",
     "images": [
-      "/images/phones/apple/iphone-17-pro-orange.jpg",
-      "/images/phones/apple/iphone-17-pro-darkblue.jpg",
-      "/images/phones/apple/iphone-17-pro-silver.jpg",
-      "/images/phones/apple/iphone-17-pro-black.jpg"
+      "/images/phones/apple/iphone-17-pro-lineup.jpg",
+      "/images/phones/apple/iphone-17-pro-deepblue.jpg",
+      "/images/phones/apple/iphone-17-pro-cosmicorange.jpg",
+      "/images/phones/apple/iphone-17-pro-silver.jpg"
     ],
     "rating": 4.93,
     "epeyScore": 98,
@@ -3406,24 +3509,19 @@
     ],
     "colorOptions": [
       {
-        "name": "Kozmik Turuncu (Cosmic Orange)",
-        "hex": "#E56B38",
-        "image": "/images/phones/apple/iphone-17-pro-orange.jpg"
+        "name": "Abis",
+        "hex": "#22303c",
+        "image": "/images/phones/apple/iphone-17-pro-deepblue.jpg"
       },
       {
-        "name": "Koyu Mavi (Dark Blue)",
-        "hex": "#243342",
-        "image": "/images/phones/apple/iphone-17-pro-darkblue.jpg"
+        "name": "Kozmik Turuncu",
+        "hex": "#d46b38",
+        "image": "/images/phones/apple/iphone-17-pro-cosmicorange.jpg"
       },
       {
-        "name": "Gümüş (Silver)",
-        "hex": "#E2E4E1",
+        "name": "Gümüş",
+        "hex": "#e2e4e1",
         "image": "/images/phones/apple/iphone-17-pro-silver.jpg"
-      },
-      {
-        "name": "Uzay Siyahı (Space Black)",
-        "hex": "#232426",
-        "image": "/images/phones/apple/iphone-17-pro-black.jpg"
       }
     ],
     "storeOffers": [
@@ -3570,34 +3668,44 @@
         "id": "apple-apple-iphone-17-pro-512-gb-1027082-kozmik",
         "name": "Apple iPhone 17 Pro (512 GB) - Kozmik",
         "colorName": "Kozmik Turuncu (Cosmic Orange)",
-        "colorHex": "#E56B38",
-        "image": "/images/phones/apple/iphone-17-pro-orange.jpg",
-        "price": 112700
+        "colorHex": "#22303c",
+        "image": "/images/phones/apple/iphone-17-pro-deepblue.jpg",
+        "price": 112700,
+        "color": "Abis"
       },
       {
         "id": "apple-apple-iphone-17-pro-512-gb-1027082-koyu",
         "name": "Apple iPhone 17 Pro (512 GB) - Koyu",
         "colorName": "Koyu Mavi (Dark Blue)",
-        "colorHex": "#243342",
-        "image": "/images/phones/apple/iphone-17-pro-darkblue.jpg",
-        "price": 112700
+        "colorHex": "#d46b38",
+        "image": "/images/phones/apple/iphone-17-pro-cosmicorange.jpg",
+        "price": 112700,
+        "color": "Kozmik Turuncu"
       },
       {
         "id": "apple-apple-iphone-17-pro-512-gb-1027082-gümüş",
         "name": "Apple iPhone 17 Pro (512 GB) - Gümüş",
         "colorName": "Gümüş (Silver)",
-        "colorHex": "#E2E4E1",
+        "colorHex": "#e2e4e1",
         "image": "/images/phones/apple/iphone-17-pro-silver.jpg",
-        "price": 112700
+        "price": 112700,
+        "color": "Gümüş"
       },
       {
         "id": "apple-apple-iphone-17-pro-512-gb-1027082-uzay",
         "name": "Apple iPhone 17 Pro (512 GB) - Uzay",
         "colorName": "Uzay Siyahı (Space Black)",
-        "colorHex": "#232426",
-        "image": "/images/phones/apple/iphone-17-pro-black.jpg",
-        "price": 112700
+        "colorHex": "#22303c",
+        "image": "/images/phones/apple/iphone-17-pro-deepblue.jpg",
+        "price": 112700,
+        "color": "Abis"
       }
+    ],
+    "gallery": [
+      "/images/phones/apple/iphone-17-pro-lineup.jpg",
+      "/images/phones/apple/iphone-17-pro-deepblue.jpg",
+      "/images/phones/apple/iphone-17-pro-cosmicorange.jpg",
+      "/images/phones/apple/iphone-17-pro-silver.jpg"
     ]
   },
   {
@@ -3839,12 +3947,12 @@
     "name": "Apple iPhone 17 Pro (256 GB)",
     "brand": "Apple",
     "category": "smartphones",
-    "image": "/images/phones/apple/apple-iphone-17-pro.jpg",
+    "image": "/images/phones/apple/iphone-17-pro-deepblue.jpg",
     "images": [
-      "/images/phones/apple/iphone-17-pro-orange.jpg",
-      "/images/phones/apple/iphone-17-pro-darkblue.jpg",
-      "/images/phones/apple/iphone-17-pro-silver.jpg",
-      "/images/phones/apple/iphone-17-pro-black.jpg"
+      "/images/phones/apple/iphone-17-pro-lineup.jpg",
+      "/images/phones/apple/iphone-17-pro-deepblue.jpg",
+      "/images/phones/apple/iphone-17-pro-cosmicorange.jpg",
+      "/images/phones/apple/iphone-17-pro-silver.jpg"
     ],
     "rating": 4.93,
     "epeyScore": 98,
@@ -3874,24 +3982,19 @@
     ],
     "colorOptions": [
       {
-        "name": "Kozmik Turuncu (Cosmic Orange)",
-        "hex": "#E56B38",
-        "image": "/images/phones/apple/iphone-17-pro-orange.jpg"
+        "name": "Abis",
+        "hex": "#22303c",
+        "image": "/images/phones/apple/iphone-17-pro-deepblue.jpg"
       },
       {
-        "name": "Koyu Mavi (Dark Blue)",
-        "hex": "#243342",
-        "image": "/images/phones/apple/iphone-17-pro-darkblue.jpg"
+        "name": "Kozmik Turuncu",
+        "hex": "#d46b38",
+        "image": "/images/phones/apple/iphone-17-pro-cosmicorange.jpg"
       },
       {
-        "name": "Gümüş (Silver)",
-        "hex": "#E2E4E1",
+        "name": "Gümüş",
+        "hex": "#e2e4e1",
         "image": "/images/phones/apple/iphone-17-pro-silver.jpg"
-      },
-      {
-        "name": "Uzay Siyahı (Space Black)",
-        "hex": "#232426",
-        "image": "/images/phones/apple/iphone-17-pro-black.jpg"
       }
     ],
     "storeOffers": [
@@ -4039,34 +4142,44 @@
         "id": "apple-apple-iphone-17-pro-256-gb-1023349-kozmik",
         "name": "Apple iPhone 17 Pro (256 GB) - Kozmik",
         "colorName": "Kozmik Turuncu (Cosmic Orange)",
-        "colorHex": "#E56B38",
-        "image": "/images/phones/apple/iphone-17-pro-orange.jpg",
-        "price": 105840
+        "colorHex": "#22303c",
+        "image": "/images/phones/apple/iphone-17-pro-deepblue.jpg",
+        "price": 105840,
+        "color": "Abis"
       },
       {
         "id": "apple-apple-iphone-17-pro-256-gb-1023349-koyu",
         "name": "Apple iPhone 17 Pro (256 GB) - Koyu",
         "colorName": "Koyu Mavi (Dark Blue)",
-        "colorHex": "#243342",
-        "image": "/images/phones/apple/iphone-17-pro-darkblue.jpg",
-        "price": 105840
+        "colorHex": "#d46b38",
+        "image": "/images/phones/apple/iphone-17-pro-cosmicorange.jpg",
+        "price": 105840,
+        "color": "Kozmik Turuncu"
       },
       {
         "id": "apple-apple-iphone-17-pro-256-gb-1023349-gümüş",
         "name": "Apple iPhone 17 Pro (256 GB) - Gümüş",
         "colorName": "Gümüş (Silver)",
-        "colorHex": "#E2E4E1",
+        "colorHex": "#e2e4e1",
         "image": "/images/phones/apple/iphone-17-pro-silver.jpg",
-        "price": 105840
+        "price": 105840,
+        "color": "Gümüş"
       },
       {
         "id": "apple-apple-iphone-17-pro-256-gb-1023349-uzay",
         "name": "Apple iPhone 17 Pro (256 GB) - Uzay",
         "colorName": "Uzay Siyahı (Space Black)",
-        "colorHex": "#232426",
-        "image": "/images/phones/apple/iphone-17-pro-black.jpg",
-        "price": 105840
+        "colorHex": "#22303c",
+        "image": "/images/phones/apple/iphone-17-pro-deepblue.jpg",
+        "price": 105840,
+        "color": "Abis"
       }
+    ],
+    "gallery": [
+      "/images/phones/apple/iphone-17-pro-lineup.jpg",
+      "/images/phones/apple/iphone-17-pro-deepblue.jpg",
+      "/images/phones/apple/iphone-17-pro-cosmicorange.jpg",
+      "/images/phones/apple/iphone-17-pro-silver.jpg"
     ]
   },
   {
@@ -5481,13 +5594,13 @@
     "name": "Apple iPhone 16 Plus (128 GB)",
     "brand": "Apple",
     "category": "smartphones",
-    "image": "/images/phones/apple/apple-iphone-16-plus.jpg",
+    "image": "/images/phones/apple/iphone-16-ultramarine.png",
     "images": [
-      "/images/phones/apple/iphone-16-ultramarine.jpg",
-      "/images/phones/apple/iphone-16-teal.jpg",
-      "/images/phones/apple/iphone-16-pink.jpg",
-      "/images/phones/apple/iphone-16-white.jpg",
-      "/images/phones/apple/iphone-16-black.jpg"
+      "/images/phones/apple/iphone-16-ultramarine.png",
+      "/images/phones/apple/iphone-16-teal.png",
+      "/images/phones/apple/iphone-16-pink.png",
+      "/images/phones/apple/iphone-16-white.png",
+      "/images/phones/apple/iphone-16-black.png"
     ],
     "rating": 4.89,
     "epeyScore": 95,
@@ -5517,29 +5630,29 @@
     ],
     "colorOptions": [
       {
-        "name": "Deniz Mavisi (Ultramarine)",
-        "hex": "#455E89",
-        "image": "/images/phones/apple/iphone-16-ultramarine.jpg"
+        "name": "Laciverttaş",
+        "hex": "#344865",
+        "image": "/images/phones/apple/iphone-16-ultramarine.png"
       },
       {
-        "name": "Çivit Yeşili (Teal)",
-        "hex": "#8EB4AD",
-        "image": "/images/phones/apple/iphone-16-teal.jpg"
+        "name": "Deniz Mavisi",
+        "hex": "#8ba9a7",
+        "image": "/images/phones/apple/iphone-16-teal.png"
       },
       {
-        "name": "Pembe (Pink)",
-        "hex": "#E399B5",
-        "image": "/images/phones/apple/iphone-16-pink.jpg"
+        "name": "Pembe",
+        "hex": "#e7bcc6",
+        "image": "/images/phones/apple/iphone-16-pink.png"
       },
       {
-        "name": "Beyaz (White)",
-        "hex": "#F7F7F7",
-        "image": "/images/phones/apple/iphone-16-white.jpg"
+        "name": "Beyaz",
+        "hex": "#ffffff",
+        "image": "/images/phones/apple/iphone-16-white.png"
       },
       {
-        "name": "Siyah (Black)",
-        "hex": "#31353A",
-        "image": "/images/phones/apple/iphone-16-black.jpg"
+        "name": "Siyah",
+        "hex": "#3c4048",
+        "image": "/images/phones/apple/iphone-16-black.png"
       }
     ],
     "storeOffers": [
@@ -5685,42 +5798,54 @@
         "id": "apple-apple-iphone-16-plus-128-gb-959953-deniz",
         "name": "Apple iPhone 16 Plus (128 GB) - Deniz",
         "colorName": "Deniz Mavisi (Ultramarine)",
-        "colorHex": "#455E89",
-        "image": "/images/phones/apple/iphone-16-ultramarine.jpg",
-        "price": 73999
+        "colorHex": "#344865",
+        "image": "/images/phones/apple/iphone-16-ultramarine.png",
+        "price": 73999,
+        "color": "Laciverttaş"
       },
       {
         "id": "apple-apple-iphone-16-plus-128-gb-959953-ivit",
         "name": "Apple iPhone 16 Plus (128 GB) - Çivit",
         "colorName": "Çivit Yeşili (Teal)",
-        "colorHex": "#8EB4AD",
-        "image": "/images/phones/apple/iphone-16-teal.jpg",
-        "price": 73999
+        "colorHex": "#8ba9a7",
+        "image": "/images/phones/apple/iphone-16-teal.png",
+        "price": 73999,
+        "color": "Deniz Mavisi"
       },
       {
         "id": "apple-apple-iphone-16-plus-128-gb-959953-pembe",
         "name": "Apple iPhone 16 Plus (128 GB) - Pembe",
         "colorName": "Pembe (Pink)",
-        "colorHex": "#E399B5",
-        "image": "/images/phones/apple/iphone-16-pink.jpg",
-        "price": 73999
+        "colorHex": "#e7bcc6",
+        "image": "/images/phones/apple/iphone-16-pink.png",
+        "price": 73999,
+        "color": "Pembe"
       },
       {
         "id": "apple-apple-iphone-16-plus-128-gb-959953-beyaz",
         "name": "Apple iPhone 16 Plus (128 GB) - Beyaz",
         "colorName": "Beyaz (White)",
-        "colorHex": "#F7F7F7",
-        "image": "/images/phones/apple/iphone-16-white.jpg",
-        "price": 73999
+        "colorHex": "#ffffff",
+        "image": "/images/phones/apple/iphone-16-white.png",
+        "price": 73999,
+        "color": "Beyaz"
       },
       {
         "id": "apple-apple-iphone-16-plus-128-gb-959953-siyah",
         "name": "Apple iPhone 16 Plus (128 GB) - Siyah",
         "colorName": "Siyah (Black)",
-        "colorHex": "#31353A",
-        "image": "/images/phones/apple/iphone-16-black.jpg",
-        "price": 73999
+        "colorHex": "#3c4048",
+        "image": "/images/phones/apple/iphone-16-black.png",
+        "price": 73999,
+        "color": "Siyah"
       }
+    ],
+    "gallery": [
+      "/images/phones/apple/iphone-16-ultramarine.png",
+      "/images/phones/apple/iphone-16-teal.png",
+      "/images/phones/apple/iphone-16-pink.png",
+      "/images/phones/apple/iphone-16-white.png",
+      "/images/phones/apple/iphone-16-black.png"
     ]
   },
   {
@@ -6912,13 +7037,13 @@
     "name": "Apple iPhone 16 (128 GB)",
     "brand": "Apple",
     "category": "smartphones",
-    "image": "/images/phones/apple/apple-iphone-16.jpg",
+    "image": "/images/phones/apple/iphone-16-ultramarine.png",
     "images": [
-      "/images/phones/apple/iphone-16-ultramarine.jpg",
-      "/images/phones/apple/iphone-16-teal.jpg",
-      "/images/phones/apple/iphone-16-pink.jpg",
-      "/images/phones/apple/iphone-16-white.jpg",
-      "/images/phones/apple/iphone-16-black.jpg"
+      "/images/phones/apple/iphone-16-ultramarine.png",
+      "/images/phones/apple/iphone-16-teal.png",
+      "/images/phones/apple/iphone-16-pink.png",
+      "/images/phones/apple/iphone-16-white.png",
+      "/images/phones/apple/iphone-16-black.png"
     ],
     "rating": 4.89,
     "epeyScore": 94,
@@ -6948,29 +7073,29 @@
     ],
     "colorOptions": [
       {
-        "name": "Deniz Mavisi (Ultramarine)",
-        "hex": "#455E89",
-        "image": "/images/phones/apple/iphone-16-ultramarine.jpg"
+        "name": "Laciverttaş",
+        "hex": "#344865",
+        "image": "/images/phones/apple/iphone-16-ultramarine.png"
       },
       {
-        "name": "Çivit Yeşili (Teal)",
-        "hex": "#8EB4AD",
-        "image": "/images/phones/apple/iphone-16-teal.jpg"
+        "name": "Deniz Mavisi",
+        "hex": "#8ba9a7",
+        "image": "/images/phones/apple/iphone-16-teal.png"
       },
       {
-        "name": "Pembe (Pink)",
-        "hex": "#E399B5",
-        "image": "/images/phones/apple/iphone-16-pink.jpg"
+        "name": "Pembe",
+        "hex": "#e7bcc6",
+        "image": "/images/phones/apple/iphone-16-pink.png"
       },
       {
-        "name": "Beyaz (White)",
-        "hex": "#F7F7F7",
-        "image": "/images/phones/apple/iphone-16-white.jpg"
+        "name": "Beyaz",
+        "hex": "#ffffff",
+        "image": "/images/phones/apple/iphone-16-white.png"
       },
       {
-        "name": "Siyah (Black)",
-        "hex": "#31353A",
-        "image": "/images/phones/apple/iphone-16-black.jpg"
+        "name": "Siyah",
+        "hex": "#3c4048",
+        "image": "/images/phones/apple/iphone-16-black.png"
       }
     ],
     "storeOffers": [
@@ -7116,42 +7241,54 @@
         "id": "apple-apple-iphone-16-128-gb-959779-deniz",
         "name": "Apple iPhone 16 (128 GB) - Deniz",
         "colorName": "Deniz Mavisi (Ultramarine)",
-        "colorHex": "#455E89",
-        "image": "/images/phones/apple/iphone-16-ultramarine.jpg",
-        "price": 64999
+        "colorHex": "#344865",
+        "image": "/images/phones/apple/iphone-16-ultramarine.png",
+        "price": 64999,
+        "color": "Laciverttaş"
       },
       {
         "id": "apple-apple-iphone-16-128-gb-959779-ivit",
         "name": "Apple iPhone 16 (128 GB) - Çivit",
         "colorName": "Çivit Yeşili (Teal)",
-        "colorHex": "#8EB4AD",
-        "image": "/images/phones/apple/iphone-16-teal.jpg",
-        "price": 64999
+        "colorHex": "#8ba9a7",
+        "image": "/images/phones/apple/iphone-16-teal.png",
+        "price": 64999,
+        "color": "Deniz Mavisi"
       },
       {
         "id": "apple-apple-iphone-16-128-gb-959779-pembe",
         "name": "Apple iPhone 16 (128 GB) - Pembe",
         "colorName": "Pembe (Pink)",
-        "colorHex": "#E399B5",
-        "image": "/images/phones/apple/iphone-16-pink.jpg",
-        "price": 64999
+        "colorHex": "#e7bcc6",
+        "image": "/images/phones/apple/iphone-16-pink.png",
+        "price": 64999,
+        "color": "Pembe"
       },
       {
         "id": "apple-apple-iphone-16-128-gb-959779-beyaz",
         "name": "Apple iPhone 16 (128 GB) - Beyaz",
         "colorName": "Beyaz (White)",
-        "colorHex": "#F7F7F7",
-        "image": "/images/phones/apple/iphone-16-white.jpg",
-        "price": 64999
+        "colorHex": "#ffffff",
+        "image": "/images/phones/apple/iphone-16-white.png",
+        "price": 64999,
+        "color": "Beyaz"
       },
       {
         "id": "apple-apple-iphone-16-128-gb-959779-siyah",
         "name": "Apple iPhone 16 (128 GB) - Siyah",
         "colorName": "Siyah (Black)",
-        "colorHex": "#31353A",
-        "image": "/images/phones/apple/iphone-16-black.jpg",
-        "price": 64999
+        "colorHex": "#3c4048",
+        "image": "/images/phones/apple/iphone-16-black.png",
+        "price": 64999,
+        "color": "Siyah"
       }
+    ],
+    "gallery": [
+      "/images/phones/apple/iphone-16-ultramarine.png",
+      "/images/phones/apple/iphone-16-teal.png",
+      "/images/phones/apple/iphone-16-pink.png",
+      "/images/phones/apple/iphone-16-white.png",
+      "/images/phones/apple/iphone-16-black.png"
     ]
   },
   {
@@ -11438,13 +11575,13 @@
     "name": "Apple iPhone 16 (256 GB)",
     "brand": "Apple",
     "category": "smartphones",
-    "image": "/images/phones/apple/apple-iphone-16.jpg",
+    "image": "/images/phones/apple/iphone-16-ultramarine.png",
     "images": [
-      "/images/phones/apple/iphone-16-ultramarine.jpg",
-      "/images/phones/apple/iphone-16-teal.jpg",
-      "/images/phones/apple/iphone-16-pink.jpg",
-      "/images/phones/apple/iphone-16-white.jpg",
-      "/images/phones/apple/iphone-16-black.jpg"
+      "/images/phones/apple/iphone-16-ultramarine.png",
+      "/images/phones/apple/iphone-16-teal.png",
+      "/images/phones/apple/iphone-16-pink.png",
+      "/images/phones/apple/iphone-16-white.png",
+      "/images/phones/apple/iphone-16-black.png"
     ],
     "rating": 4.89,
     "epeyScore": 94,
@@ -11474,29 +11611,29 @@
     ],
     "colorOptions": [
       {
-        "name": "Deniz Mavisi (Ultramarine)",
-        "hex": "#455E89",
-        "image": "/images/phones/apple/iphone-16-ultramarine.jpg"
+        "name": "Laciverttaş",
+        "hex": "#344865",
+        "image": "/images/phones/apple/iphone-16-ultramarine.png"
       },
       {
-        "name": "Çivit Yeşili (Teal)",
-        "hex": "#8EB4AD",
-        "image": "/images/phones/apple/iphone-16-teal.jpg"
+        "name": "Deniz Mavisi",
+        "hex": "#8ba9a7",
+        "image": "/images/phones/apple/iphone-16-teal.png"
       },
       {
-        "name": "Pembe (Pink)",
-        "hex": "#E399B5",
-        "image": "/images/phones/apple/iphone-16-pink.jpg"
+        "name": "Pembe",
+        "hex": "#e7bcc6",
+        "image": "/images/phones/apple/iphone-16-pink.png"
       },
       {
-        "name": "Beyaz (White)",
-        "hex": "#F7F7F7",
-        "image": "/images/phones/apple/iphone-16-white.jpg"
+        "name": "Beyaz",
+        "hex": "#ffffff",
+        "image": "/images/phones/apple/iphone-16-white.png"
       },
       {
-        "name": "Siyah (Black)",
-        "hex": "#31353A",
-        "image": "/images/phones/apple/iphone-16-black.jpg"
+        "name": "Siyah",
+        "hex": "#3c4048",
+        "image": "/images/phones/apple/iphone-16-black.png"
       }
     ],
     "storeOffers": [
@@ -11642,42 +11779,54 @@
         "id": "apple-apple-iphone-16-256-gb-960853-deniz",
         "name": "Apple iPhone 16 (256 GB) - Deniz",
         "colorName": "Deniz Mavisi (Ultramarine)",
-        "colorHex": "#455E89",
-        "image": "/images/phones/apple/iphone-16-ultramarine.jpg",
-        "price": 70199
+        "colorHex": "#344865",
+        "image": "/images/phones/apple/iphone-16-ultramarine.png",
+        "price": 70199,
+        "color": "Laciverttaş"
       },
       {
         "id": "apple-apple-iphone-16-256-gb-960853-ivit",
         "name": "Apple iPhone 16 (256 GB) - Çivit",
         "colorName": "Çivit Yeşili (Teal)",
-        "colorHex": "#8EB4AD",
-        "image": "/images/phones/apple/iphone-16-teal.jpg",
-        "price": 70199
+        "colorHex": "#8ba9a7",
+        "image": "/images/phones/apple/iphone-16-teal.png",
+        "price": 70199,
+        "color": "Deniz Mavisi"
       },
       {
         "id": "apple-apple-iphone-16-256-gb-960853-pembe",
         "name": "Apple iPhone 16 (256 GB) - Pembe",
         "colorName": "Pembe (Pink)",
-        "colorHex": "#E399B5",
-        "image": "/images/phones/apple/iphone-16-pink.jpg",
-        "price": 70199
+        "colorHex": "#e7bcc6",
+        "image": "/images/phones/apple/iphone-16-pink.png",
+        "price": 70199,
+        "color": "Pembe"
       },
       {
         "id": "apple-apple-iphone-16-256-gb-960853-beyaz",
         "name": "Apple iPhone 16 (256 GB) - Beyaz",
         "colorName": "Beyaz (White)",
-        "colorHex": "#F7F7F7",
-        "image": "/images/phones/apple/iphone-16-white.jpg",
-        "price": 70199
+        "colorHex": "#ffffff",
+        "image": "/images/phones/apple/iphone-16-white.png",
+        "price": 70199,
+        "color": "Beyaz"
       },
       {
         "id": "apple-apple-iphone-16-256-gb-960853-siyah",
         "name": "Apple iPhone 16 (256 GB) - Siyah",
         "colorName": "Siyah (Black)",
-        "colorHex": "#31353A",
-        "image": "/images/phones/apple/iphone-16-black.jpg",
-        "price": 70199
+        "colorHex": "#3c4048",
+        "image": "/images/phones/apple/iphone-16-black.png",
+        "price": 70199,
+        "color": "Siyah"
       }
+    ],
+    "gallery": [
+      "/images/phones/apple/iphone-16-ultramarine.png",
+      "/images/phones/apple/iphone-16-teal.png",
+      "/images/phones/apple/iphone-16-pink.png",
+      "/images/phones/apple/iphone-16-white.png",
+      "/images/phones/apple/iphone-16-black.png"
     ]
   },
   {
