@@ -21,16 +21,17 @@ export function ProductImageGallery({ product, activeColorImage }: ProductImageG
   const [isZoomOpen, setIsZoomOpen] = useState(false);
   const [imgError, setImgError] = useState(false);
 
-  // Sync active image when activeColorImage changes
+  // Sync active index when activeColorImage prop changes
   React.useEffect(() => {
     if (activeColorImage) {
       const idx = allImages.indexOf(activeColorImage);
-      if (idx !== -1) setActiveIndex(idx);
-      else setActiveIndex(0);
+      if (idx !== -1) {
+        setActiveIndex(idx);
+      }
     }
   }, [activeColorImage]);
 
-  const activeImage = imgError ? defaultImage : (activeColorImage || allImages[activeIndex] || defaultImage);
+  const activeImage = imgError ? defaultImage : (allImages[activeIndex] || defaultImage);
 
   const handlePrev = () => {
     setImgError(false);
