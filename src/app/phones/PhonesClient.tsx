@@ -6,7 +6,6 @@ import { useRouter, useSearchParams } from 'next/navigation';
 import { Smartphone } from '@/lib/types';
 import { useI18n } from '@/lib/i18n/context';
 import { CompactProductCard } from '@/components/catalog/CompactProductCard';
-import { QuickFilterSliders } from '@/components/catalog/QuickFilterSliders';
 import { CategoryIconStrip } from '@/components/layout/CategoryIconStrip';
 import {
   Search,
@@ -226,17 +225,6 @@ function PhonesContent({  initialPhones  }: PhonesContentProps) {
           </div>
 
         </div>
-
-        {/* 🚀 QUICK FILTER DRAG-SLIDERS (BRANDS & POPULAR MODELS) */}
-        <QuickFilterSliders
-          selectedBrand={selectedBrand}
-          onBrandSelect={handleSelectBrand}
-          activeModelQuery={searchQuery}
-          onSearchChange={(q) => {
-            setSearchQuery(q);
-            setVisibleCount(ITEMS_PER_PAGE);
-          }}
-        />
 
         {/* 🎯 HOVER FLYOUT FILTERS & MONETIZED SPONSORED DEAL BANNER ROW */}
         <div className="flex flex-col lg:flex-row lg:items-center justify-between gap-3 pt-1">
