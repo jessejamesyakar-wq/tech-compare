@@ -1,10 +1,67 @@
-import { mockSmartphones, popularComparisonsList } from './mockData';
-import { mockTVs } from './mockTVs';
-import { Product, Smartphone, TVProduct, LaptopProduct, ApplianceProduct, FilterOptions } from './types';
+import { mockSmartphones as phoneProducts, popularComparisonsList } from './mockData';
+import { mockTVs as tvProducts } from './mockTVs';
+import { mockAppliances as whiteGoodsProducts } from './mockAppliances';
+import { mockTablets as tabletProducts } from './mockTablets';
+import { mockSmartwatches as watchProducts } from './mockSmartwatches';
+import { mockHeadphones as headphoneProducts } from './mockHeadphones';
+import { mockLaptops as laptopProducts } from './mockLaptops';
+import { mockMonitors as monitorProducts } from './mockMonitors';
+import { mockConsoles as consoleProducts } from './mockConsoles';
+import type { Product, Smartphone, TVProduct, LaptopProduct, ApplianceProduct, FilterOptions } from './types';
 import { getStoredProducts } from './adminData';
 import { isEligibleForLivePriceComparison, isHistoricalRetroModel, getProductReleaseYear } from './releaseYearFilter';
 
 export { isEligibleForLivePriceComparison, isHistoricalRetroModel, getProductReleaseYear };
+
+const ALL_PRODUCTS: Product[] = [
+  ...phoneProducts.flatMap((p) => (p.slug && p.slug !== p.id ? [p, { ...p, id: p.slug }] : [p])),
+  ...tvProducts.flatMap((p) => (p.slug && p.slug !== p.id ? [p, { ...p, id: p.slug }] : [p])),
+  ...whiteGoodsProducts.flatMap((p) => (p.slug && p.slug !== p.id ? [p, { ...p, id: p.slug }] : [p])),
+  ...tabletProducts.flatMap((p) => (p.slug && p.slug !== p.id ? [p, { ...p, id: p.slug }] : [p])),
+  ...watchProducts.flatMap((p) => (p.slug && p.slug !== p.id ? [p, { ...p, id: p.slug }] : [p])),
+  ...headphoneProducts.flatMap((p) => (p.slug && p.slug !== p.id ? [p, { ...p, id: p.slug }] : [p])),
+  ...laptopProducts.flatMap((p) => (p.slug && p.slug !== p.id ? [p, { ...p, id: p.slug }] : [p])),
+  ...monitorProducts.flatMap((p) => (p.slug && p.slug !== p.id ? [p, { ...p, id: p.slug }] : [p])),
+  ...consoleProducts.flatMap((p) => (p.slug && p.slug !== p.id ? [p, { ...p, id: p.slug }] : [p])),
+];
+
+/**
+ * ID NORMALİZASYONU
+ * Boşluk, büyük/küçük harf farkı veya URL encode kaynaklı ID
+ * uyuşmazlıklarını (örn. detay sayfasında yanlış/boş ürün gelmesi)
+ * burada tek noktadan engelliyoruz.
+ */
+function normalizeId(id: string): string {
+  return id.trim().toLowerCase();
+}
+
+export function getProductById(id: string): Product | null {
+  if (!id) return null;
+
+  const normalized = normalizeId(id);
+  const found = ALL_PRODUCTS.find((p) => normalizeId(p.id) === normalized);
+
+  if (!found) {
+    // Geliştirme sırasında hangi ID'lerin eşleşmediğini görmek için.
+    // Prod'a çıkmadan önce bu satırı kaldırabilir veya bir logging
+    // servisine bağlayabilirsin.
+    console.warn(`[getProductById] Ürün bulunamadı: "${id}"`);
+    return null;
+  }
+
+  return found;
+}
+
+/**
+ * Kategoriye göre filtreleme gerektiğinde (örn. "sadece 2026 model
+ * telefonlar") kullanılacak yardımcı fonksiyon. Scraping cron job'ı
+ * bunu kullanacak.
+ */
+export function getProductsByFilter(
+  predicate: (product: Product) => boolean
+): Product[] {
+  return ALL_PRODUCTS.filter(predicate);
+}
 
 // Deduplicate products by unique ID to prevent duplicate React keys
 function deduplicateProducts<T extends Product>(list: T[]): T[] {
@@ -148,84 +205,9 @@ export async function getCatalogAppliances(): Promise<ApplianceProduct[]> {
   return all.map(toCatalogProduct);
 }
 
-export async function getProductById(id: string | number): Promise<Product> {
-  if (id === undefined || id === null || id === '') {
-    throw new Error('[getProductById] Ürün ID belirtilmedi.');
-  }
-
-  const normalizedRequestedId = String(id).trim();
-  const decoded = decodeURIComponent(normalizedRequestedId).toLowerCase().trim();
-  const all = getStoredProducts();
-
-  // 1. Direct exact match by normalized ID, slug, or sanitized slug
-  let product = all.find(
-    (p) =>
-      String(p.id).trim() === normalizedRequestedId ||
-      String(p.id).toLowerCase().trim() === decoded ||
-      (p.slug && p.slug.toLowerCase().trim() === decoded) ||
-      (p.slug && p.slug.toLowerCase().replace(/_/g, '-') === decoded.replace(/_/g, '-'))
-  );
-
-  // 2. Normalized prefix/suffix fallback matching (e.g. brand duplicated prefix or trailing numeric ID)
-  if (!product) {
-    const stripNumbers = (str: string) => str.replace(/-[0-9]+$/, '');
-    const stripPrefix = (str: string) => str.replace(/^[a-z0-9]+-([a-z0-9]+-)/, '$1');
-
-    product = all.find(
-      (p) =>
-        stripNumbers(p.slug?.toLowerCase() || '') === stripNumbers(decoded) ||
-        stripNumbers(String(p.id).toLowerCase()) === stripNumbers(decoded) ||
-        stripPrefix(p.slug?.toLowerCase() || '') === stripPrefix(decoded) ||
-        stripPrefix(String(p.id).toLowerCase()) === stripPrefix(decoded) ||
-        (p.slug && p.slug.toLowerCase().includes(decoded)) ||
-        (p.slug && decoded.includes(p.slug.toLowerCase()))
-    );
-  }
-
-  // 3. Name fallback matching
-  if (!product) {
-    product = all.find(
-      (p) =>
-        p.name.toLowerCase().trim() === decoded ||
-        p.name.toLowerCase().includes(decoded) ||
-        decoded.includes(p.name.toLowerCase())
-    );
-  }
-
-  // 4. Fuzzy alphanumeric canonical key matching (e.g. apple-iphone-16-pro-256gb matches apple-iphone-16-pro-256-gb)
-  if (!product) {
-    const alphaKey = (s: string) => String(s || '').toLowerCase().replace(/[^a-z0-9]/g, '');
-    const searchAlpha = alphaKey(decoded);
-    if (searchAlpha) {
-      product = all.find(
-        (p) =>
-          alphaKey(p.slug) === searchAlpha ||
-          alphaKey(p.id) === searchAlpha ||
-          alphaKey(p.name) === searchAlpha
-      );
-    }
-  }
-
-  if (!product) {
-    throw new Error(`[getProductById] Ürün bulunamadı. Aranan id: "${normalizedRequestedId}"`);
-  }
-
-  // GÜVENLİK KONTROLÜ: Bulunan ürünün geçerli bir ID'ye sahip olduğunu ve veri tutarlılığını doğrula
-  if (!product.id || typeof product.name !== 'string') {
-    throw new Error(
-      `[getProductById] VERİ TUTARSIZLIĞI: "${normalizedRequestedId}" için dönen ürün geçerli bir veri yapısına sahip değil.`
-    );
-  }
-
-  return product;
-}
-
 export async function findProductByIdSafe(id: string | number): Promise<Product | undefined> {
-  try {
-    return await getProductById(id);
-  } catch {
-    return undefined;
-  }
+  const p = getProductById(String(id));
+  return p ?? undefined;
 }
 
 export async function getSmartphoneById(id: string): Promise<Smartphone | undefined> {

@@ -1,6 +1,6 @@
 'use client';
 
-import Image from 'next/image';
+import { ProductImage } from '@/components/ui/ProductImage';
 import React, { useState, useEffect, Suspense } from 'react';
 import { useSearchParams } from 'next/navigation';
 import Link from 'next/link';
@@ -399,7 +399,7 @@ function CompareContent() {
                     >
                       <div className="flex items-center gap-3">
                         <div className="w-12 h-12 rounded-xl bg-slate-100 p-1 flex items-center justify-center shrink-0 border border-slate-200/80">
-                          <Image src={product.image} alt={product.name} width={180} height={180} className="h-full w-auto object-contain" />
+                          <ProductImage src={product.image} alt={product.name} variant="card" className="w-full h-full" />
                         </div>
                         <div>
                           <h4 className="text-slate-900 text-xs font-black group-hover:text-emerald-600 transition-colors line-clamp-1">

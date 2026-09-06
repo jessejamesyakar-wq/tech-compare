@@ -10,6 +10,7 @@ import { calculateTVScore } from '@/lib/tvScoring';
 import { HeroCarousel, HeroSlideItem } from '@/components/promo/HeroCarousel';
 import { HeroThumbnailStrip } from '@/components/promo/HeroThumbnailStrip';
 import { CompactProductCard } from '@/components/catalog/CompactProductCard';
+import { ProductImage } from '@/components/ui/ProductImage';
 import { CategoryBannerGrid } from '@/components/promo/CategoryBannerGrid';
 import { ProductCarousel } from '@/components/catalog/ProductCarousel';
 import { CategoryIconStrip } from '@/components/layout/CategoryIconStrip';
@@ -288,13 +289,10 @@ export function HomePageClient({
                 <div>
                   {/* Image Stage */}
                   <div className="w-full h-44 sm:h-48 bg-slate-50 rounded-xl p-3 sm:p-4 flex items-center justify-center border border-slate-100 relative mb-3 overflow-hidden group-hover:border-slate-200 transition-colors">
-                    <Image
+                    <ProductImage
                       src={tv.image}
                       alt={tv.name}
-                      width={220}
-                      height={180}
-                      loading="lazy"
-                      className="max-h-full max-w-full w-auto h-auto object-contain transition-transform duration-300 group-hover:scale-105 drop-shadow-xs"
+                      variant="card"
                     />
 
                     <span className="absolute top-2 left-2 bg-slate-900/90 backdrop-blur-md text-white text-[9px] font-black px-2 py-0.5 rounded-full uppercase tracking-wider shadow-md">

@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
-import Image from 'next/image';
+import { ProductImage } from '@/components/ui/ProductImage';
 import { usePathname, useRouter } from 'next/navigation';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useI18n } from '@/lib/i18n/context';
@@ -186,13 +186,11 @@ export function Navbar() {
               >
                 <div className="flex items-center gap-3 min-w-0 flex-1 pr-2">
                   <div className="w-10 h-10 sm:w-11 sm:h-11 rounded-lg bg-slate-50 dark:bg-slate-800 overflow-hidden flex items-center justify-center p-1 border border-slate-200 dark:border-slate-700 shrink-0">
-                    <Image
+                    <ProductImage
                       src={item.image}
                       alt={item.name}
-                      width={44}
-                      height={44}
-                      loading="lazy"
-                      className="w-full h-full object-contain group-hover:scale-105 transition-transform"
+                      variant="card"
+                      className="w-full h-full group-hover:scale-105 transition-transform"
                     />
                   </div>
                   <div className="min-w-0 flex-1">
