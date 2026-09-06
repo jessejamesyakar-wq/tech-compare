@@ -1,6 +1,7 @@
 import { Suspense } from 'react';
 import { Metadata } from 'next';
-import { getSmartphoneById, getProductById } from '@/lib/data';
+import { notFound } from 'next/navigation';
+import { getSmartphoneById, findProductByIdSafe } from '@/lib/data';
 import PhoneDetailClient from './PhoneDetailClient';
 
 export async function generateMetadata({
@@ -9,7 +10,7 @@ export async function generateMetadata({
   params: Promise<{ id: string }>;
 }): Promise<Metadata> {
   const { id } = await params;
-  const product = (await getSmartphoneById(id)) ?? (await getProductById(id)) ?? null;
+  const product = (await getSmartphoneById(id)) ?? (await findProductByIdSafe(id)) ?? null;
 
   if (!product) {
     return {
@@ -57,7 +58,12 @@ export default async function PhoneDetailPage({
   params: Promise<{ id: string }>;
 }) {
   const { id } = await params;
-  const product = (await getSmartphoneById(id)) ?? (await getProductById(id)) ?? null;
+  const product = (await getSmartphoneById(id)) ?? (await findProductByIdSafe(id)) ?? null;
+
+  if (!product) {
+    notFound();
+  }
+
   return (
     <Suspense fallback={<div className="py-24 text-center text-xs font-bold text-slate-400 animate-pulse">Ürün yükleniyor...</div>}>
       <PhoneDetailClient initialPhone={product as any} />

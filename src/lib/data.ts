@@ -192,6 +192,20 @@ export async function getProductById(id: string | number): Promise<Product> {
     );
   }
 
+  // 4. Fuzzy alphanumeric canonical key matching (e.g. apple-iphone-16-pro-256gb matches apple-iphone-16-pro-256-gb)
+  if (!product) {
+    const alphaKey = (s: string) => String(s || '').toLowerCase().replace(/[^a-z0-9]/g, '');
+    const searchAlpha = alphaKey(decoded);
+    if (searchAlpha) {
+      product = all.find(
+        (p) =>
+          alphaKey(p.slug) === searchAlpha ||
+          alphaKey(p.id) === searchAlpha ||
+          alphaKey(p.name) === searchAlpha
+      );
+    }
+  }
+
   if (!product) {
     throw new Error(`[getProductById] Ürün bulunamadı. Aranan id: "${normalizedRequestedId}"`);
   }
@@ -217,96 +231,128 @@ export async function findProductByIdSafe(id: string | number): Promise<Product 
 export async function getSmartphoneById(id: string): Promise<Smartphone | undefined> {
   const decoded = decodeURIComponent(id).toLowerCase().trim();
   const all = getStoredProducts();
+  const alphaKey = (s: string) => String(s || '').toLowerCase().replace(/[^a-z0-9]/g, '');
+  const searchAlpha = alphaKey(decoded);
+
   const found = all.find(
     (p) =>
+      p.category === 'smartphones' &&
       (p.id.toLowerCase() === decoded ||
         p.slug.toLowerCase() === decoded ||
         p.slug.toLowerCase().replace(/_/g, '-') === decoded.replace(/_/g, '-') ||
-        p.name.toLowerCase() === decoded) &&
-      p.category === 'smartphones'
+        p.name.toLowerCase() === decoded ||
+        (searchAlpha && (alphaKey(p.slug) === searchAlpha || alphaKey(p.id) === searchAlpha)))
   );
   if (found) return found as Smartphone;
-  return (await getProductById(id)) as Smartphone | undefined;
+  const safeProd = await findProductByIdSafe(id);
+  return safeProd?.category === 'smartphones' ? (safeProd as Smartphone) : undefined;
 }
 
 export async function getTabletById(id: string): Promise<Product | undefined> {
   const decoded = decodeURIComponent(id).toLowerCase().trim();
   const all = getStoredProducts();
+  const alphaKey = (s: string) => String(s || '').toLowerCase().replace(/[^a-z0-9]/g, '');
+  const searchAlpha = alphaKey(decoded);
+
   const found = all.find(
     (p) =>
+      p.category === 'tablets' &&
       (p.id.toLowerCase() === decoded ||
         p.slug.toLowerCase() === decoded ||
         p.slug.toLowerCase().replace(/_/g, '-') === decoded.replace(/_/g, '-') ||
-        p.name.toLowerCase() === decoded) &&
-      p.category === 'tablets'
+        p.name.toLowerCase() === decoded ||
+        (searchAlpha && (alphaKey(p.slug) === searchAlpha || alphaKey(p.id) === searchAlpha)))
   );
   if (found) return found;
-  return getProductById(id);
+  const safeProd = await findProductByIdSafe(id);
+  return safeProd?.category === 'tablets' ? safeProd : undefined;
 }
 
 export async function getSmartwatchById(id: string): Promise<Product | undefined> {
   const decoded = decodeURIComponent(id).toLowerCase().trim();
   const all = getStoredProducts();
+  const alphaKey = (s: string) => String(s || '').toLowerCase().replace(/[^a-z0-9]/g, '');
+  const searchAlpha = alphaKey(decoded);
+
   const found = all.find(
     (p) =>
+      p.category === 'smartwatches' &&
       (p.id.toLowerCase() === decoded ||
         p.slug.toLowerCase() === decoded ||
         p.slug.toLowerCase().replace(/_/g, '-') === decoded.replace(/_/g, '-') ||
-        p.name.toLowerCase() === decoded) &&
-      p.category === 'smartwatches'
+        p.name.toLowerCase() === decoded ||
+        (searchAlpha && (alphaKey(p.slug) === searchAlpha || alphaKey(p.id) === searchAlpha)))
   );
   if (found) return found;
-  return getProductById(id);
+  const safeProd = await findProductByIdSafe(id);
+  return safeProd?.category === 'smartwatches' ? safeProd : undefined;
 }
 
 export async function getHeadphoneById(id: string): Promise<Product | undefined> {
   const decoded = decodeURIComponent(id).toLowerCase().trim();
   const all = getStoredProducts();
+  const alphaKey = (s: string) => String(s || '').toLowerCase().replace(/[^a-z0-9]/g, '');
+  const searchAlpha = alphaKey(decoded);
+
   const found = all.find(
     (p) =>
+      p.category === 'headphones' &&
       (p.id.toLowerCase() === decoded ||
         p.slug.toLowerCase() === decoded ||
         p.slug.toLowerCase().replace(/_/g, '-') === decoded.replace(/_/g, '-') ||
-        p.name.toLowerCase() === decoded) &&
-      p.category === 'headphones'
+        p.name.toLowerCase() === decoded ||
+        (searchAlpha && (alphaKey(p.slug) === searchAlpha || alphaKey(p.id) === searchAlpha)))
   );
   if (found) return found;
-  return getProductById(id);
+  const safeProd = await findProductByIdSafe(id);
+  return safeProd?.category === 'headphones' ? safeProd : undefined;
 }
 
 export async function getConsoleById(id: string): Promise<Product | undefined> {
   const decoded = decodeURIComponent(id).toLowerCase().trim();
   const all = getStoredProducts();
+  const alphaKey = (s: string) => String(s || '').toLowerCase().replace(/[^a-z0-9]/g, '');
+  const searchAlpha = alphaKey(decoded);
+
   const found = all.find(
     (p) =>
+      p.category === 'consoles' &&
       (p.id.toLowerCase() === decoded ||
         p.slug.toLowerCase() === decoded ||
         p.slug.toLowerCase().replace(/_/g, '-') === decoded.replace(/_/g, '-') ||
-        p.name.toLowerCase() === decoded) &&
-      p.category === 'consoles'
+        p.name.toLowerCase() === decoded ||
+        (searchAlpha && (alphaKey(p.slug) === searchAlpha || alphaKey(p.id) === searchAlpha)))
   );
   if (found) return found;
-  return getProductById(id);
+  const safeProd = await findProductByIdSafe(id);
+  return safeProd?.category === 'consoles' ? safeProd : undefined;
 }
 
 export async function getMonitorById(id: string): Promise<Product | undefined> {
   const decoded = decodeURIComponent(id).toLowerCase().trim();
   const all = getStoredProducts();
+  const alphaKey = (s: string) => String(s || '').toLowerCase().replace(/[^a-z0-9]/g, '');
+  const searchAlpha = alphaKey(decoded);
+
   const found = all.find(
     (p) =>
+      p.category === 'monitors' &&
       (p.id.toLowerCase() === decoded ||
         p.slug.toLowerCase() === decoded ||
         p.slug.toLowerCase().replace(/_/g, '-') === decoded.replace(/_/g, '-') ||
-        p.name.toLowerCase() === decoded) &&
-      p.category === 'monitors'
+        p.name.toLowerCase() === decoded ||
+        (searchAlpha && (alphaKey(p.slug) === searchAlpha || alphaKey(p.id) === searchAlpha)))
   );
   if (found) return found;
-  return getProductById(id);
+  const safeProd = await findProductByIdSafe(id);
+  return safeProd?.category === 'monitors' ? safeProd : undefined;
 }
 
 export async function getTVById(id: string): Promise<TVProduct | undefined> {
   const decoded = decodeURIComponent(id).toLowerCase().trim();
   const all = getStoredProducts().filter((p) => p.category === 'tvs') as TVProduct[];
+  const alphaKey = (s: string) => String(s || '').toLowerCase().replace(/[^a-z0-9]/g, '');
+  const searchAlpha = alphaKey(decoded);
 
   // 1. Exact match by id, slug, or name
   const exact = all.find(
@@ -314,7 +360,8 @@ export async function getTVById(id: string): Promise<TVProduct | undefined> {
       p.id.toLowerCase() === decoded ||
       p.slug.toLowerCase() === decoded ||
       p.slug.toLowerCase().replace(/_/g, '-') === decoded.replace(/_/g, '-') ||
-      p.name.toLowerCase() === decoded
+      p.name.toLowerCase() === decoded ||
+      (searchAlpha && (alphaKey(p.slug) === searchAlpha || alphaKey(p.id) === searchAlpha))
   );
   if (exact) return exact;
 
@@ -327,37 +374,48 @@ export async function getTVById(id: string): Promise<TVProduct | undefined> {
   );
   if (modelMatch) return modelMatch;
 
-  return (await getProductById(id)) as TVProduct | undefined;
+  const safeProd = await findProductByIdSafe(id);
+  return safeProd?.category === 'tvs' ? (safeProd as TVProduct) : undefined;
 }
 
 export async function getLaptopById(id: string): Promise<LaptopProduct | undefined> {
   const decoded = decodeURIComponent(id).toLowerCase().trim();
   const all = getStoredProducts();
+  const alphaKey = (s: string) => String(s || '').toLowerCase().replace(/[^a-z0-9]/g, '');
+  const searchAlpha = alphaKey(decoded);
+
   const found = all.find(
     (p) =>
+      p.category === 'laptops' &&
       (p.id.toLowerCase() === decoded ||
         p.slug.toLowerCase() === decoded ||
         p.slug.toLowerCase().replace(/_/g, '-') === decoded.replace(/_/g, '-') ||
-        p.name.toLowerCase() === decoded) &&
-      p.category === 'laptops'
+        p.name.toLowerCase() === decoded ||
+        (searchAlpha && (alphaKey(p.slug) === searchAlpha || alphaKey(p.id) === searchAlpha)))
   ) as LaptopProduct | undefined;
   if (found) return found;
-  return (await getProductById(id)) as LaptopProduct | undefined;
+  const safeProd = await findProductByIdSafe(id);
+  return safeProd?.category === 'laptops' ? (safeProd as LaptopProduct) : undefined;
 }
 
 export async function getApplianceById(id: string): Promise<ApplianceProduct | undefined> {
   const decoded = decodeURIComponent(id).toLowerCase().trim();
   const all = getStoredProducts();
+  const alphaKey = (s: string) => String(s || '').toLowerCase().replace(/[^a-z0-9]/g, '');
+  const searchAlpha = alphaKey(decoded);
+
   const found = all.find(
     (p) =>
+      p.category === 'appliances' &&
       (p.id.toLowerCase() === decoded ||
         p.slug.toLowerCase() === decoded ||
         p.slug.toLowerCase().replace(/_/g, '-') === decoded.replace(/_/g, '-') ||
-        p.name.toLowerCase() === decoded) &&
-      p.category === 'appliances'
+        p.name.toLowerCase() === decoded ||
+        (searchAlpha && (alphaKey(p.slug) === searchAlpha || alphaKey(p.id) === searchAlpha)))
   ) as ApplianceProduct | undefined;
   if (found) return found;
-  return (await getProductById(id)) as ApplianceProduct | undefined;
+  const safeProd = await findProductByIdSafe(id);
+  return safeProd?.category === 'appliances' ? (safeProd as ApplianceProduct) : undefined;
 }
 
 export async function getFeaturedSmartphones(): Promise<Smartphone[]> {
