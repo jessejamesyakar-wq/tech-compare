@@ -319,6 +319,7 @@ export interface StoreOffer {
   isOfficialSeller?: boolean;
   affiliateUrl?: string;
   url?: string;
+  updatedAt?: string;
 }
 
 export interface PriceHistoryPoint {

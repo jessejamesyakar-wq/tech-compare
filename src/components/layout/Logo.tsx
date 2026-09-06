@@ -66,7 +66,6 @@ export function Logo({ variant = 'light', size = 'md' }: LogoProps) {
   return (
     <div
       className="flex items-center gap-3 select-none group cursor-pointer"
-      title="Ana Sayfaya Git"
     >
       {/* Emblem Icon / Custom Image Container */}
       <motion.div

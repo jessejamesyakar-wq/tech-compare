@@ -20801,11 +20801,12 @@ export const mockTVs: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 54449,
+        "price": 123284,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=TCL%2065C8L%20SQD-Mini%20LED%20TV'de%20Yeni%20ve%20Nihai%20Se%C3%A7im%20%7C%20TCL%20C8L%20SQD-Mini%20LED%20TV",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/tcl-65c8l-65-165-ekran-uydu-alicili-4k-ulta-hd-google-sqd-miniled-tv-p-HBCV0000ET0IX1",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T19:07:24.498Z"
       },
       {
         "storeName": "Trendyol",
@@ -20877,6 +20878,10 @@ export const mockTVs: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 54450
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 54179
       }
     ],
     "specs": {
@@ -28506,10 +28511,10 @@ export const mockTVs: Product[] = [
     "category": "tvs",
     "image": "/images/products/tvs/tv-lg-oled83m49la.jpg",
     "images": [
-            "/images/products/tvs/tv-lg-oled83m49la.jpg",
-            "/images/products/tvs/tv-lg-oled83m49la-angle.jpg",
-            "/images/products/tvs/tv-lg-oled83m49la-box.jpg",
-            "/images/products/tvs/tv-lg-oled83m49la-side.jpg"
+      "/images/products/tvs/tv-lg-oled83m49la.jpg",
+      "/images/products/tvs/tv-lg-oled83m49la-angle.jpg",
+      "/images/products/tvs/tv-lg-oled83m49la-box.jpg",
+      "/images/products/tvs/tv-lg-oled83m49la-side.jpg"
     ],
     "rating": 9.3,
     "reviewCount": 35,
@@ -30972,11 +30977,12 @@ export const mockTVs: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 42999,
+        "price": 56399.06,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=LG%20StanbyME%202%2027LX6TDGA%2027%22%20QHD%20(2K)%20Dokunmatik%20Ta%C5%9F%C4%B1nabilir%20webOS%20Smart%20Ekran%20(2025)",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/lg-stanbyme-2-27lx6tdga-27-70-ekran-webos-smart-dokunmatik-tasinabilir-led-tv-p-HBCV0000DEKUS4",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T19:12:07.959Z"
       },
       {
         "storeName": "Trendyol",
@@ -31048,6 +31054,10 @@ export const mockTVs: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 43000
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 42779
       }
     ],
     "epeyScore": 51
@@ -39920,11 +39930,12 @@ export const mockTVs: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 21379,
+        "price": 25003.06,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Vestel%2043FA9740%20(20278781)%2043%22%20Full%20HD%20Android%20TV%20(2024)",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/vestel-43fa9740-43-108-ekran-uydu-alicili-full-hd-smart-android-led-tv-p-HBCV0000705W7G",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T19:15:45.300Z"
       },
       {
         "storeName": "Trendyol",
@@ -39996,6 +40007,10 @@ export const mockTVs: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 21380
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 21269
       }
     ],
     "epeyScore": 49
@@ -40061,11 +40076,12 @@ export const mockTVs: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 18399,
+        "price": 25003.06,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Vestel%2040FA9740%20(20278778)%2040%22%20Full%20HD%20Android%20TV%20(2024)",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/vestel-40fa9740-40-100-ekran-uydu-alicili-full-hd-smart-android-led-tv-p-HBCV00007044CA",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T19:15:50.098Z"
       },
       {
         "storeName": "Trendyol",
@@ -40137,6 +40153,10 @@ export const mockTVs: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 18400
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 18309
       }
     ],
     "epeyScore": 48
@@ -50173,7 +50193,7 @@ export const mockTVs: Product[] = [
     ],
     "rating": 4.8,
     "reviewCount": 20,
-    "basePrice": 112299,
+    "basePrice": 93060,
     "currency": "TL",
     "releaseYear": 2026,
     "isPopular": true,
@@ -50227,11 +50247,12 @@ export const mockTVs: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 112859,
+        "price": 93060,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Samsung%2075LS03HW%20(QE75LS03HWUXTK)%2075%22%204K%20The%20Frame%20Sanat%20TV%20(2026)",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/samsung-75ls03hw-75-190-ekran-uydu-alicili-4k-ulta-hd-tizen-qled-tv-p-HBCV0000EXAYRI",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T19:19:59.382Z"
       },
       {
         "storeName": "Trendyol",
@@ -50303,6 +50324,10 @@ export const mockTVs: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 112860
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 93060
       }
     ],
     "epeyScore": 77
@@ -50758,7 +50783,7 @@ export const mockTVs: Product[] = [
     ],
     "rating": 4.7,
     "reviewCount": 22,
-    "basePrice": 91329,
+    "basePrice": 56499,
     "currency": "TL",
     "releaseYear": 2026,
     "isPopular": true,
@@ -50810,11 +50835,12 @@ export const mockTVs: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 91789,
+        "price": 56499,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Samsung%2085M80H%20(UE85M80HAUXTK)%2085%22%204K%20Crystal%20UHD%20Smart%20TV%20(2026)",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/samsung-85m80h-85-216-ekran-uydu-alicili-4k-ulta-hd-tizen-mini-led-tv-p-HBCV0000EXC18Q",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T19:20:16.716Z"
       },
       {
         "storeName": "Trendyol",
@@ -50886,6 +50912,10 @@ export const mockTVs: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 91780
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 56499
       }
     ],
     "epeyScore": 76
@@ -51832,11 +51862,12 @@ export const mockTVs: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 90489,
+        "price": 93060,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Samsung%2065LS03HW%20(QE65LS03HWUXTK)%2065%22%204K%20The%20Frame%20Sanat%20TV%20(2026)",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/samsung-65ls03hw-65-165-ekran-uydu-alicili-4k-ulta-hd-tizen-qled-tv-p-HBCV0000EXC889",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T19:20:44.352Z"
       },
       {
         "storeName": "Trendyol",
@@ -51908,6 +51939,10 @@ export const mockTVs: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 90490
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 90029
       }
     ],
     "epeyScore": 74
@@ -52218,7 +52253,7 @@ export const mockTVs: Product[] = [
     ],
     "rating": 4.7,
     "reviewCount": 22,
-    "basePrice": 71379,
+    "basePrice": 56499,
     "currency": "TL",
     "releaseYear": 2026,
     "isPopular": true,
@@ -52270,11 +52305,12 @@ export const mockTVs: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 71739,
+        "price": 56499,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Samsung%2075M80H%20(UE75M80HAUXTK)%2075%22%204K%20Crystal%20UHD%20Smart%20TV%20(2026)",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/samsung-75m80h-75-190-ekran-uydu-alicili-4k-ulta-hd-tizen-mini-led-tv-p-HBCV0000EXC93P",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T19:20:55.719Z"
       },
       {
         "storeName": "Trendyol",
@@ -52346,6 +52382,10 @@ export const mockTVs: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 71740
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 56499
       }
     ],
     "epeyScore": 74
@@ -53238,7 +53278,7 @@ export const mockTVs: Product[] = [
     ],
     "rating": 4.7,
     "reviewCount": 30,
-    "basePrice": 61449,
+    "basePrice": 56499,
     "currency": "TL",
     "releaseYear": 2026,
     "isPopular": true,
@@ -53290,11 +53330,12 @@ export const mockTVs: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 61759,
+        "price": 56499,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Samsung%2065M80H%20(UE65M80HAUXTK)%2065%22%204K%20Crystal%20UHD%20Smart%20TV%20(2026)",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/samsung-65m80h-65-165-ekran-uydu-alicili-4k-ulta-hd-tizen-mini-led-tv-p-HBCV0000EXBO4V",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T19:21:22.412Z"
       },
       {
         "storeName": "Trendyol",
@@ -53366,6 +53407,10 @@ export const mockTVs: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 61760
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 56499
       }
     ],
     "epeyScore": 71
@@ -53382,7 +53427,7 @@ export const mockTVs: Product[] = [
     ],
     "rating": 4.7,
     "reviewCount": 27,
-    "basePrice": 72779,
+    "basePrice": 37239.02,
     "currency": "TL",
     "releaseYear": 2026,
     "isPopular": true,
@@ -53434,11 +53479,12 @@ export const mockTVs: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 73149,
+        "price": 37239.02,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Samsung%2085M70H%20(UE85M70HAUXTK)%2085%22%204K%20Crystal%20UHD%20Smart%20TV%20(2026)",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/samsung-85m70h-85-216-ekran-uydu-alicili-4k-ulta-hd-tizen-mini-led-tv-p-HBCV0000EXC7IV",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T19:21:26.727Z"
       },
       {
         "storeName": "Trendyol",
@@ -53510,6 +53556,10 @@ export const mockTVs: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 73150
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 37239.02
       }
     ],
     "epeyScore": 71

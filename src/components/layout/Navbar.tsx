@@ -55,7 +55,6 @@ export function Navbar() {
     return `/phones/${slug}`;
   };
 
-  // Gemini AI Assistant State
   const [geminiData, setGeminiData] = useState<{
     reply: string;
     recommendations: {
@@ -70,6 +69,27 @@ export function Navbar() {
   const [geminiLoading, setGeminiLoading] = useState(false);
   const [geminiRequested, setGeminiRequested] = useState(false);
   const abortGeminiRef = useRef<AbortController | null>(null);
+
+  // Animated rotating placeholder for luxury search bar (never clips)
+  const placeholderList = [
+    t.searchBarPlaceholder || 'Model, Marka veya Özellik Ara...',
+    'Örn: iPhone 17 Pro Max...',
+    'Örn: 20.000 TL bütçeye telefon...',
+    'Örn: Yazılım için hafif laptop...',
+    'Örn: 55 inç OLED 120Hz TV...',
+    'Örn: En ucuz PS5 Pro...',
+  ];
+  const [placeholderIndex, setPlaceholderIndex] = useState(0);
+
+  useEffect(() => {
+    if (isFocused || query.length > 0) return;
+    const interval = setInterval(() => {
+      setPlaceholderIndex((prev) => (prev + 1) % placeholderList.length);
+    }, 3200);
+    return () => clearInterval(interval);
+  }, [isFocused, query.length, placeholderList.length]);
+
+  const currentPlaceholder = placeholderList[placeholderIndex];
 
   const askGemini = async (promptText: string) => {
     const trimmed = promptText.trim();
@@ -227,7 +247,40 @@ export function Navbar() {
   const renderDropdownResults = () => {
     if (!isFocused) return null;
     const trimmed = query.trim();
-    if (trimmed.length === 0) return null;
+
+    // Quick suggestion prompt chips when search bar is focused but empty
+    if (trimmed.length === 0) {
+      return (
+        <div className="absolute top-full left-0 right-0 mt-2 bg-white/95 dark:bg-slate-900/95 border border-slate-200 dark:border-slate-800 rounded-2xl shadow-2xl p-3 z-50 animate-in fade-in zoom-in-95 backdrop-blur-xl space-y-2.5">
+          <div className="flex items-center justify-between text-xs text-slate-500 pb-1.5 border-b border-slate-100 dark:border-slate-800">
+            <span className="font-extrabold uppercase text-[10px] tracking-wider text-slate-400 dark:text-slate-500">✨ Gemini 3.8 Hızlı Tavsiye Soruları</span>
+            <span className="text-emerald-700 dark:text-emerald-400 font-bold text-[10px]">RoboPengu 🐧</span>
+          </div>
+          <div className="flex flex-wrap gap-1.5">
+            {[
+              '20.000 TL bütçeye telefon',
+              'Yazılım için hafif laptop',
+              '55 inç OLED 120Hz TV',
+              'En ucuz PS5 Pro',
+              'Dyson V15 Süpürge',
+            ].map((qText) => (
+              <button
+                key={qText}
+                type="button"
+                onMouseDown={(e) => {
+                  e.preventDefault();
+                  setQuery(qText);
+                  askGemini(qText);
+                }}
+                className="px-3 py-1.5 rounded-xl bg-slate-100 dark:bg-slate-800 hover:bg-emerald-50 dark:hover:bg-emerald-950/60 hover:text-emerald-700 dark:hover:text-emerald-300 text-slate-700 dark:text-slate-300 text-xs font-bold border border-slate-200/80 dark:border-slate-700 transition-all cursor-pointer"
+              >
+                {qText}
+              </button>
+            ))}
+          </div>
+        </div>
+      );
+    }
 
     const hasGeminiRecs = geminiData && geminiData.recommendations && geminiData.recommendations.length > 0;
     const hasLexicalResults = searchResults.length > 0;
@@ -411,35 +464,35 @@ export function Navbar() {
         {/* Row 1: Logo & Desktop Inline Search Bar & Right Language/Compare */}
         <div className="flex items-center justify-between h-14 sm:h-16 gap-3 sm:gap-4">
           
-          {/* 1. Left: Logo */}
+          {/* 1. Left: Logo (Clean, no native browser tooltip) */}
           <div className="shrink-0 flex items-center">
-            <Link href="/" className="group block" title="aceleEtme Ana Sayfası">
+            <Link href="/" className="group block">
               <Logo />
             </Link>
           </div>
 
-          {/* 2. Center: Desktop Inline Search Bar (md and up) */}
+          {/* 2. Center: Desktop Luxury Inline Search Bar (max-w-2xl ferah kapsül) */}
           <div
             ref={searchContainerRef}
             onClick={() => {
               searchInputRef.current?.focus();
               setIsFocused(true);
             }}
-            className="hidden md:flex flex-1 max-w-xl mx-auto relative cursor-text"
+            className="hidden md:flex flex-1 max-w-2xl mx-auto relative cursor-text"
           >
             <form onSubmit={handleSearchSubmit} className="w-full">
               <div
-                className={`w-full flex items-center justify-between bg-slate-100/90 dark:bg-slate-900/80 text-slate-900 dark:text-slate-100 text-xs px-4 py-2.5 rounded-full border transition-all shadow-2xs backdrop-blur-md ${
+                className={`w-full flex items-center justify-between bg-slate-100/90 dark:bg-slate-900/80 text-slate-900 dark:text-slate-100 text-xs pl-4 pr-2 py-2 rounded-full border transition-all shadow-2xs backdrop-blur-md ${
                   isFocused
                     ? 'border-emerald-500 ring-2 ring-emerald-500/20 bg-white dark:bg-slate-900 shadow-md'
-                    : 'border-slate-200/90 dark:border-slate-800 hover:border-emerald-500/40 hover:bg-white dark:hover:bg-slate-900'
+                    : 'border-slate-200/90 dark:border-slate-800 hover:border-emerald-500/50 hover:bg-white dark:hover:bg-slate-900'
                 }`}
               >
-                <div className="flex items-center gap-2.5 flex-1 min-w-0">
+                <div className="flex items-center gap-3 flex-1 min-w-0 pr-2">
                   <button
                     type="submit"
                     aria-label="Arama yap"
-                    className="p-1 rounded-full text-slate-400 hover:text-emerald-600 dark:hover:text-emerald-400 transition-colors cursor-pointer"
+                    className="p-0.5 rounded-full text-slate-400 hover:text-emerald-600 dark:hover:text-emerald-400 transition-colors cursor-pointer"
                   >
                     <Search className={`w-4 h-4 shrink-0 transition-colors ${isFocused ? 'text-emerald-600 dark:text-emerald-400' : 'text-slate-400'}`} />
                   </button>
@@ -457,8 +510,8 @@ export function Navbar() {
                       setIsFocused(true);
                     }}
                     onFocus={() => setIsFocused(true)}
-                    placeholder={isFocused ? '' : (t.searchBarPlaceholder || 'Model, Marka veya Özellik Ara (ör. iPhone 17, OLED, 144Hz...)')}
-                    className="w-full bg-transparent text-slate-900 dark:text-white text-[16px] md:text-xs font-bold focus:outline-none placeholder:text-slate-400 dark:placeholder:text-slate-500"
+                    placeholder={isFocused ? '' : (currentPlaceholder || t.searchBarPlaceholder || 'Model, Marka veya Özellik Ara...')}
+                    className="w-full bg-transparent text-slate-900 dark:text-white text-[16px] md:text-xs sm:text-sm font-bold focus:outline-none placeholder:text-slate-400 dark:placeholder:text-slate-500"
                   />
 
                   {query && (
@@ -476,49 +529,42 @@ export function Navbar() {
                   )}
                 </div>
 
-                {/* Gemini AI pill action button */}
-                <button
-                  type="button"
-                  onClick={(e) => {
-                    e.stopPropagation();
-                    if (!isFocused) {
-                      searchInputRef.current?.focus();
-                      setIsFocused(true);
-                    }
-                    askGemini(query || 'en çok satan teknolojik ürünler');
-                  }}
-                  className={`flex items-center gap-1.5 px-2.5 py-1 rounded-full text-[10px] font-black transition-all cursor-pointer shrink-0 ml-1.5 ${
-                    geminiLoading
-                      ? 'bg-amber-100 text-amber-800 dark:bg-amber-950/80 dark:text-amber-300 animate-pulse border border-amber-300'
-                      : geminiData
-                      ? 'bg-emerald-600 text-white shadow-2xs'
-                      : 'bg-emerald-50 hover:bg-emerald-100 text-emerald-700 dark:bg-emerald-950/80 dark:text-emerald-300 border border-emerald-300/80 dark:border-emerald-700/60'
-                  }`}
-                  title="Google Gemini 3.8 AI Asistanı"
-                >
-                  {geminiLoading ? (
-                    <Loader2 className="w-3 h-3 animate-spin text-amber-600" />
-                  ) : (
-                    <Sparkles className="w-3 h-3 text-emerald-500 fill-emerald-500" />
+                {/* Right Action Cluster: Minimal ⌘K + Jewel Gemini 3.8 AI Button */}
+                <div className="flex items-center gap-2 shrink-0">
+                  {!isFocused && !query && (
+                    <kbd className="hidden lg:inline-flex items-center bg-white/90 dark:bg-slate-800 text-slate-500 dark:text-slate-400 px-2 py-0.5 rounded-md text-[10px] font-black border border-slate-200 dark:border-slate-700 shadow-2xs font-mono">
+                      ⌘K
+                    </kbd>
                   )}
-                  <span>✨ Gemini AI</span>
-                </button>
 
-                {!isFocused && !query && (
                   <button
                     type="button"
                     onClick={(e) => {
                       e.stopPropagation();
-                      searchInputRef.current?.focus();
-                      setIsFocused(true);
+                      if (!isFocused) {
+                        searchInputRef.current?.focus();
+                        setIsFocused(true);
+                      }
+                      askGemini(query || 'en çok satan teknolojik ürünler');
                     }}
-                    className="hidden lg:flex items-center gap-1.5 shrink-0 pl-2 cursor-pointer"
+                    className={`relative flex items-center gap-1.5 px-3 py-1.5 rounded-full text-white text-[11px] font-black shadow-md transition-all duration-200 cursor-pointer overflow-hidden ${
+                      geminiLoading
+                        ? 'bg-gradient-to-r from-amber-500 to-orange-500 shadow-amber-500/25 animate-pulse'
+                        : 'bg-gradient-to-r from-emerald-600 via-teal-600 to-emerald-600 shadow-emerald-500/20 hover:shadow-emerald-500/35 hover:scale-105 active:scale-95'
+                    }`}
+                    title="Google Gemini 3.8 AI Asistanı"
                   >
-                    <span className="bg-white dark:bg-slate-800 hover:bg-slate-50 text-slate-600 dark:text-slate-300 text-[10px] px-2.5 py-0.5 rounded-full border border-slate-200 dark:border-slate-700 font-extrabold shadow-2xs transition-colors">
-                      {t.quickSearchKbd || '⌘K / Hızlı Ara'}
+                    {geminiLoading ? (
+                      <Loader2 className="w-3.5 h-3.5 animate-spin text-white" />
+                    ) : (
+                      <Sparkles className="w-3.5 h-3.5 text-emerald-200 fill-emerald-200" />
+                    )}
+                    <span>Gemini 3.8</span>
+                    <span className="bg-white/20 text-white text-[9px] px-1.5 py-0.2 rounded-full font-extrabold uppercase">
+                      AI
                     </span>
                   </button>
-                )}
+                </div>
               </div>
             </form>
 
@@ -623,8 +669,8 @@ export function Navbar() {
                     setIsFocused(true);
                   }}
                   onFocus={() => setIsFocused(true)}
-                  placeholder={t.searchBarMobilePlaceholder || "Model, Marka veya Özellik Ara..."}
-                  className="w-full bg-transparent text-slate-900 dark:text-white text-[16px] font-bold focus:outline-none placeholder:text-slate-400"
+                  placeholder={isFocused ? '' : (currentPlaceholder || t.searchBarMobilePlaceholder || "Model, Marka veya Özellik Ara...")}
+                  className="w-full bg-transparent text-slate-900 dark:text-white text-[15px] sm:text-xs font-bold focus:outline-none placeholder:text-slate-400 dark:placeholder:text-slate-500"
                 />
 
                 {query && (
@@ -640,7 +686,7 @@ export function Navbar() {
                   </button>
                 )}
 
-                {/* Mobile Gemini AI button */}
+                {/* Mobile Luxury Gemini 3.8 Pill */}
                 <button
                   type="button"
                   onClick={(e) => {
@@ -651,21 +697,19 @@ export function Navbar() {
                     }
                     askGemini(query || 'en popüler teknoloji ürünleri');
                   }}
-                  className={`flex items-center gap-1 px-2 py-1 rounded-full text-[10px] font-black transition-all cursor-pointer shrink-0 ml-1 ${
+                  className={`flex items-center gap-1.5 px-3 py-1.5 rounded-full text-[10px] font-black transition-all cursor-pointer shrink-0 ml-1 text-white shadow-sm ${
                     geminiLoading
-                      ? 'bg-amber-100 text-amber-800 animate-pulse'
-                      : geminiData
-                      ? 'bg-emerald-600 text-white'
-                      : 'bg-emerald-50 text-emerald-700 dark:bg-emerald-950/80 dark:text-emerald-300 border border-emerald-300 dark:border-emerald-700'
+                      ? 'bg-gradient-to-r from-amber-500 to-orange-500 animate-pulse'
+                      : 'bg-gradient-to-r from-emerald-600 via-teal-600 to-emerald-600 shadow-emerald-500/20 active:scale-95'
                   }`}
                   title="Google Gemini 3.8 AI"
                 >
                   {geminiLoading ? (
-                    <Loader2 className="w-3 h-3 animate-spin text-amber-600" />
+                    <Loader2 className="w-3 h-3 animate-spin text-white" />
                   ) : (
-                    <Sparkles className="w-3 h-3 text-emerald-500 fill-emerald-500" />
+                    <Sparkles className="w-3 h-3 text-emerald-200 fill-emerald-200" />
                   )}
-                  <span>Gemini</span>
+                  <span>Gemini 3.8</span>
                 </button>
               </div>
             </div>
