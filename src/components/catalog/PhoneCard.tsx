@@ -1,9 +1,9 @@
 'use client';
 
-import Image from 'next/image';
 import React, { useState } from 'react';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
+import { ProductImage } from '@/components/ui/ProductImage';
 import { motion } from 'framer-motion';
 import { Smartphone } from '@/lib/types';
 import { getProductColorList, ResolvedColorOption } from '@/lib/colorVariantHelper';
@@ -180,18 +180,14 @@ export function PhoneCard({ phone, index = 0 }: PhoneCardProps) {
 
       <div>
         {/* Standart 1:1 Kare Ürün Görseli Container */}
-        <Link href={targetHref} className="block relative mb-3">
-          <div className="fixed-product-img-container border border-slate-100 group-hover:bg-slate-50/80 transition-colors">
-            <Image
+        <Link href={targetHref} className="block relative mb-3 flex justify-center">
+          <div className="relative">
+            <ProductImage
               key={imgSrc}
               src={imgSrc}
               alt={phone.name}
-              width={240}
-              height={240}
-              loading="lazy"
-              sizes="(max-width: 640px) 45vw, (max-width: 1024px) 30vw, 240px"
-              onError={() => setImgSrc(fallbackImg)}
-              className="fixed-product-img group-hover:scale-105 drop-shadow-sm transition-all duration-300"
+              variant="card"
+              className="group-hover:scale-105 drop-shadow-sm transition-all duration-300"
             />
 
             {/* Circular Score Badge Overlay */}

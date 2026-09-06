@@ -2,8 +2,8 @@
 
 import React, { useState } from 'react';
 import Link from 'next/link';
-import Image from 'next/image';
 import { useRouter } from 'next/navigation';
+import { ProductImage } from '@/components/ui/ProductImage';
 import { LaptopProduct } from '@/lib/types';
 import { getProductColorList, ResolvedColorOption } from '@/lib/colorVariantHelper';
 import { useCompare } from '@/context/CompareContext';
@@ -103,20 +103,14 @@ export function LaptopMediaMarktCard({ laptop, index = 0 }: LaptopMediaMarktCard
         </div>
 
         {/* Standart 1:1 Kare Ürün Görseli Container */}
-        <Link href={targetHref} className="block w-full">
-          <div className="fixed-product-img-container border border-slate-200/80 group-hover:border-emerald-400 transition-all">
-            <Image
-              key={imgSrc}
-              src={imgSrc}
-              alt={laptop.name}
-              width={240}
-              height={240}
-              loading="lazy"
-              sizes="(max-width: 640px) 45vw, (max-width: 1024px) 30vw, 240px"
-              onError={() => setImgSrc(fallbackImg)}
-              className="fixed-product-img group-hover:scale-105 drop-shadow-xs transition-all duration-300"
-            />
-          </div>
+        <Link href={targetHref} className="block w-full flex justify-center">
+          <ProductImage
+            key={imgSrc}
+            src={imgSrc}
+            alt={laptop.name}
+            variant="card"
+            className="group-hover:scale-105 drop-shadow-xs transition-all duration-300"
+          />
         </Link>
 
         {/* Color Variant Dots on Laptop Card */}

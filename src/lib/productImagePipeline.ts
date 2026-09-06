@@ -3,6 +3,7 @@ import path from 'path';
 import https from 'https';
 import http from 'http';
 import { URL } from 'url';
+import { trimAndPadImage } from './imageTrimmer';
 
 export interface ProductImageFetchOptions {
   id: string;
@@ -47,7 +48,15 @@ export function downloadImageToFile(url: string, destPath: string): Promise<bool
 
         response.pipe(file);
         file.on('finish', () => {
-          file.close(() => resolve(true));
+          file.close(async () => {
+            // Automatically trim white/transparent borders with uniform 6% padding
+            try {
+              await trimAndPadImage(destPath, destPath, { paddingPercent: 0.06 });
+            } catch {
+              // Non-blocking: proceed with original image if trim fails
+            }
+            resolve(true);
+          });
         });
       });
 

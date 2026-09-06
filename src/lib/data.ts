@@ -44,38 +44,70 @@ export async function getAllAppliances(): Promise<ApplianceProduct[]> {
   return all.filter((p) => p.category === 'appliances') as ApplianceProduct[];
 }
 
-export async function getProductById(id: string): Promise<Product | undefined> {
-  if (!id) return undefined;
-  const decoded = decodeURIComponent(id).toLowerCase().trim();
+export async function getProductById(id: string | number): Promise<Product> {
+  if (id === undefined || id === null || id === '') {
+    throw new Error('[getProductById] Ürün ID belirtilmedi.');
+  }
+
+  const normalizedRequestedId = String(id).trim();
+  const decoded = decodeURIComponent(normalizedRequestedId).toLowerCase().trim();
   const all = getStoredProducts();
 
-  // 1. Direct exact matches
-  const exact = all.find(
+  // 1. Direct exact match by normalized ID, slug, or sanitized slug
+  let product = all.find(
     (p) =>
-      p.id.toLowerCase() === decoded ||
-      p.slug.toLowerCase() === decoded ||
-      p.slug.toLowerCase().replace(/_/g, '-') === decoded.replace(/_/g, '-') ||
-      p.name.toLowerCase() === decoded
+      String(p.id).trim() === normalizedRequestedId ||
+      String(p.id).toLowerCase().trim() === decoded ||
+      (p.slug && p.slug.toLowerCase().trim() === decoded) ||
+      (p.slug && p.slug.toLowerCase().replace(/_/g, '-') === decoded.replace(/_/g, '-'))
   );
-  if (exact) return exact;
 
-  // 2. Normalized prefix/suffix matching (e.g. brand duplicated prefix or trailing numeric ID)
-  const stripNumbers = (str: string) => str.replace(/-[0-9]+$/, '');
-  const stripPrefix = (str: string) => str.replace(/^[a-z0-9]+-([a-z0-9]+-)/, '$1');
+  // 2. Normalized prefix/suffix fallback matching (e.g. brand duplicated prefix or trailing numeric ID)
+  if (!product) {
+    const stripNumbers = (str: string) => str.replace(/-[0-9]+$/, '');
+    const stripPrefix = (str: string) => str.replace(/^[a-z0-9]+-([a-z0-9]+-)/, '$1');
 
-  const normalized = all.find(
-    (p) =>
-      stripNumbers(p.slug.toLowerCase()) === stripNumbers(decoded) ||
-      stripNumbers(p.id.toLowerCase()) === stripNumbers(decoded) ||
-      stripPrefix(p.slug.toLowerCase()) === stripPrefix(decoded) ||
-      stripPrefix(p.id.toLowerCase()) === stripPrefix(decoded) ||
-      p.slug.toLowerCase().includes(decoded) ||
-      decoded.includes(p.slug.toLowerCase())
-  );
-  if (normalized) return normalized;
+    product = all.find(
+      (p) =>
+        stripNumbers(p.slug?.toLowerCase() || '') === stripNumbers(decoded) ||
+        stripNumbers(String(p.id).toLowerCase()) === stripNumbers(decoded) ||
+        stripPrefix(p.slug?.toLowerCase() || '') === stripPrefix(decoded) ||
+        stripPrefix(String(p.id).toLowerCase()) === stripPrefix(decoded) ||
+        (p.slug && p.slug.toLowerCase().includes(decoded)) ||
+        (p.slug && decoded.includes(p.slug.toLowerCase()))
+    );
+  }
 
-  // 3. Name fuzzy match
-  return all.find((p) => p.name.toLowerCase().includes(decoded) || decoded.includes(p.name.toLowerCase()));
+  // 3. Name fallback matching
+  if (!product) {
+    product = all.find(
+      (p) =>
+        p.name.toLowerCase().trim() === decoded ||
+        p.name.toLowerCase().includes(decoded) ||
+        decoded.includes(p.name.toLowerCase())
+    );
+  }
+
+  if (!product) {
+    throw new Error(`[getProductById] Ürün bulunamadı. Aranan id: "${normalizedRequestedId}"`);
+  }
+
+  // GÜVENLİK KONTROLÜ: Bulunan ürünün geçerli bir ID'ye sahip olduğunu ve veri tutarlılığını doğrula
+  if (!product.id || typeof product.name !== 'string') {
+    throw new Error(
+      `[getProductById] VERİ TUTARSIZLIĞI: "${normalizedRequestedId}" için dönen ürün geçerli bir veri yapısına sahip değil.`
+    );
+  }
+
+  return product;
+}
+
+export async function findProductByIdSafe(id: string | number): Promise<Product | undefined> {
+  try {
+    return await getProductById(id);
+  } catch {
+    return undefined;
+  }
 }
 
 export async function getSmartphoneById(id: string): Promise<Smartphone | undefined> {

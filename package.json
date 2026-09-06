@@ -8,6 +8,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
+    "trim:images": "node scripts/trim-product-images.js",
     "pre-deploy": "node scripts/preDeployCheck.js",
     "scrape:2026": "node scripts/scrape2026Prices.js",
     "test:links": "node scripts/testBrandProductIntegrity.js"

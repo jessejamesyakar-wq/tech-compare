@@ -1,6 +1,6 @@
 'use client';
 
-import Image from 'next/image';
+import { ProductImage } from '@/components/ui/ProductImage';
 import React, { useState } from 'react';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
@@ -424,8 +424,8 @@ export function CompareMatrix({ products }: CompareMatrixProps) {
                       <X className="w-4 h-4" />
                     </button>
 
-                    <div className="w-24 h-24 mx-auto mb-2 bg-white rounded-2xl p-2 border border-slate-200 flex items-center justify-center shadow-2xs">
-                      <Image src={product.image} alt={product.name} width={160} height={160} className="h-full w-auto object-contain" />
+                    <div className="mx-auto mb-2 flex items-center justify-center">
+                      <ProductImage src={product.image} alt={product.name} variant="card" className="w-24 h-24 max-w-[96px] shadow-2xs border border-slate-200" />
                     </div>
 
                     <Link href={getItemUrl(product)} className="block">

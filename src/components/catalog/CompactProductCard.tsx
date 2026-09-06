@@ -2,8 +2,8 @@
 
 import React, { useState } from 'react';
 import Link from 'next/link';
-import Image from 'next/image';
 import { useRouter } from 'next/navigation';
+import { ProductImage } from '@/components/ui/ProductImage';
 import { Product } from '@/lib/types';
 import { getProductColorList, ResolvedColorOption } from '@/lib/colorVariantHelper';
 import { ArrowRight, Store } from 'lucide-react';
@@ -156,20 +156,14 @@ export function CompactProductCard({
   return (
     <TiltCard className="group bg-white border border-slate-200 hover:border-emerald-500/50 rounded-2xl sm:rounded-3xl p-3.5 sm:p-5 transition-all duration-300 shadow-md hover:shadow-2xl hover:-translate-y-1 flex flex-col justify-between">
       {/* Standart 1:1 Kare Ürün Görseli Container */}
-      <Link href={targetHref} className="block relative mb-2 sm:mb-2.5">
-        <div className="fixed-product-img-container border border-slate-100 group-hover:bg-slate-50/80 transition-colors">
-          <Image
-            key={imgSrc}
-            src={imgSrc}
-            alt={product.name}
-            width={240}
-            height={240}
-            loading="lazy"
-            sizes="(max-width: 640px) 45vw, (max-width: 1024px) 30vw, 240px"
-            onError={() => setImgSrc(fallbackImg)}
-            className="fixed-product-img group-hover:scale-105 drop-shadow-sm transition-all duration-300"
-          />
-        </div>
+      <Link href={targetHref} className="block relative mb-2 sm:mb-2.5 flex justify-center">
+        <ProductImage
+          key={imgSrc}
+          src={imgSrc}
+          alt={product.name}
+          variant="card"
+          className="group-hover:scale-105 drop-shadow-sm transition-all duration-300"
+        />
       </Link>
 
       {/* Product Brand & Title */}

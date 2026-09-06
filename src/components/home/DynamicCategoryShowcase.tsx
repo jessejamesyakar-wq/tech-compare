@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
-import Image from 'next/image';
+import { ProductImage } from '@/components/ui/ProductImage';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Product } from '@/lib/types';
 import { useCompare } from '@/context/CompareContext';
@@ -328,17 +328,13 @@ export function DynamicCategoryShowcase({ initialData }: { initialData?: Dynamic
                   </div>
 
                   {/* Product Image Box */}
-                  <Link href={href} className="block relative mb-3">
-                    <div className="w-full h-44 sm:h-48 bg-slate-50 rounded-2xl p-4 flex items-center justify-center overflow-hidden border border-slate-100 group-hover:bg-slate-100/70 transition-colors">
-                      <Image
-                        src={product.image}
-                        alt={product.name}
-                        width={200}
-                        height={176}
-                        loading="lazy"
-                        className="max-h-full max-w-full w-auto h-auto object-contain group-hover:scale-105 transition-transform duration-300 ease-out drop-shadow-sm"
-                      />
-                    </div>
+                  <Link href={href} className="block relative mb-3 flex justify-center">
+                    <ProductImage
+                      src={product.image}
+                      alt={product.name}
+                      variant="card"
+                      className="group-hover:scale-105 transition-transform duration-300 ease-out drop-shadow-sm"
+                    />
                   </Link>
 
                   {/* Product Brand & Title */}

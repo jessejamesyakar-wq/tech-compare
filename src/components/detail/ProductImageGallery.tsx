@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect } from 'react';
 import Image from 'next/image';
+import { ProductImage } from '@/components/ui/ProductImage';
 import { BaseProduct, Product } from '@/lib/types';
 import { Maximize2, Zap, ChevronLeft, ChevronRight, Image as ImageIcon, X } from 'lucide-react';
 
@@ -105,20 +106,15 @@ export function ProductImageGallery({
           <Maximize2 className="w-4 h-4" />
         </button>
 
-        {/* Optimized Active Hero Image with 1000x1000 High-Res Resolution & Contain Fit */}
+        {/* Optimized Active Hero Image with ProductImage variant="detail" (Strict 520px fixed box, object-fit contain) */}
         <div className="relative w-full h-full flex items-center justify-center p-2">
-          <Image
+          <ProductImage
             key={activeImage}
             src={activeImage}
             alt={`${product.name} Görsel ${activeIndex + 1}`}
+            variant="detail"
             priority={activeIndex === 0}
-            loading={activeIndex === 0 ? 'eager' : 'lazy'}
-            fetchPriority={activeIndex === 0 ? 'high' : 'auto'}
-            width={1000}
-            height={1000}
-            sizes="(max-width: 640px) 90vw, (max-width: 1024px) 500px, 500px"
-            onError={() => setImgError(true)}
-            className="fixed-detail-main-img group-hover:scale-105 drop-shadow-md transition-transform duration-300"
+            className="group-hover:scale-105 drop-shadow-md transition-transform duration-300"
           />
         </div>
       </div>
