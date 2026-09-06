@@ -98,7 +98,7 @@ export default function MonitorDetailClient({ initialProduct }: { initialProduct
   }
 
   const inCompare = isInCompare(initialProduct.id);
-  const score100 = initialProduct.epeyScore || Math.round((initialProduct.rating || 4.8) * 20);
+  const score100 = initialProduct.aceleEtmeScore || initialProduct.epeyScore || Math.round((initialProduct.rating || 4.8) * 20);
   const specs = (initialProduct.specs as Record<string, any>) || {};
 
   return (

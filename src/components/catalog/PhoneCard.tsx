@@ -47,8 +47,8 @@ export function PhoneCard({ phone, index = 0 }: PhoneCardProps) {
     }
   };
 
-  // Score Calculation (Out of 100 - Epey/Akakçe style)
-  const score100 = Math.round(phone.rating * 20);
+  // Score Calculation (Out of 100 - aceleEtme 5-star normalized score)
+  const score100 = phone.aceleEtmeScore || phone.epeyScore || Math.round(phone.rating * 20);
 
   // Safe spec extraction from product data
   const screenSize = phone.specs?.screen?.size || '6.7 inç';

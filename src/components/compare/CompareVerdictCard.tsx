@@ -26,7 +26,7 @@ export function CompareVerdictCard({ products }: CompareVerdictCardProps) {
     let con = 'Temel segment özellikleri';
     let idealFor = 'Günlük kullanım ve multimedya için dengeli tercih.';
     const specs = (p.specs || {}) as Record<string, any>;
-    const score = p.epeyScore || (p.rating ? Math.round(p.rating * 20) : 85);
+    const score = p.aceleEtmeScore || p.epeyScore || (p.rating ? Math.round(p.rating * 20) : 85);
 
     if (p.category === 'monitors') {
       const hz = specs.refreshRateHz || 60;

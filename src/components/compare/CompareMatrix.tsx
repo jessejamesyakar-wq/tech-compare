@@ -70,7 +70,7 @@ export function CompareMatrix({ products }: CompareMatrixProps) {
         getRawNumber: (p) => p.basePrice,
         getValue: (p) => `${p.basePrice.toLocaleString()} ${p.currency}`
       },
-      { category: 'Fiyat & Puan', label: 'aceleEtme Puanı', isNumericHigherBetter: true, getRawNumber: (p) => p.epeyScore || Math.round(p.rating * 20), getValue: (p) => `${p.epeyScore || Math.round(p.rating * 20)} / 100` },
+      { category: 'Fiyat & Puan', label: 'aceleEtme Puanı', isNumericHigherBetter: true, getRawNumber: (p) => p.aceleEtmeScore || p.epeyScore || Math.round(p.rating * 20), getValue: (p) => `${p.aceleEtmeScore || p.epeyScore || Math.round(p.rating * 20)} / 100` },
       { category: 'Fiyat & Puan', label: 'Kullanıcı Puanı', getValue: (p) => `⭐ ${p.rating} / 5 (${p.reviewCount})` },
       { category: 'Fiyat & Puan', label: 'Çıkış Yılı', getValue: (p) => p.releaseYear || '-' },
 
@@ -221,7 +221,7 @@ export function CompareMatrix({ products }: CompareMatrixProps) {
     // Smartphone or Mixed comparison
     specRows = [
       { category: 'Fiyat & Puan', label: 'Başlangıç Fiyatı', isNumericLowerBetter: true, getRawNumber: (p) => p.basePrice, getValue: (p) => `${p.basePrice.toLocaleString()} ${p.currency}` },
-      { category: 'Fiyat & Puan', label: 'aceleEtme Puanı', isNumericHigherBetter: true, getRawNumber: (p) => p.epeyScore || Math.round(p.rating * 20), getValue: (p) => `${p.epeyScore || Math.round(p.rating * 20)} / 100` },
+      { category: 'Fiyat & Puan', label: 'aceleEtme Puanı', isNumericHigherBetter: true, getRawNumber: (p) => p.aceleEtmeScore || p.epeyScore || Math.round(p.rating * 20), getValue: (p) => `${p.aceleEtmeScore || p.epeyScore || Math.round(p.rating * 20)} / 100` },
       { category: 'Fiyat & Puan', label: 'Kullanıcı Puanı', getValue: (p) => `⭐ ${p.rating} / 5 (${p.reviewCount})` },
       { category: 'Fiyat & Puan', label: 'AnTuTu Performans', isNumericHigherBetter: true, getRawNumber: (p) => ((p as Smartphone).specs?.processor?.antutuScore) || null, getValue: (p) => {
         const score = (p as Smartphone).specs?.processor?.antutuScore;

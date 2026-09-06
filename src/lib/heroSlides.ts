@@ -88,7 +88,7 @@ export function getDynamicHeroSlides(products: Product[] = []): HeroSlideItem[] 
         productName: 'Samsung Galaxy S26 Ultra (512 GB)',
         productSpec: '6.8 inç QHD+ Dynamic AMOLED 2X (3200 nits) • Titanyum Kasa',
         price: '123.589 ₺',
-        image: '/images/phones/samsung/epey/samsung-galaxy-s26-ultra.png',
+        image: '/images/phones/samsung/studio/samsung-galaxy-s26-ultra.png',
         specPills: ['📱 QHD+ Dynamic AMOLED', '⚡ Snapdragon 8 Elite', '📸 200 MP Sensör'],
         score: 99
       },

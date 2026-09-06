@@ -20,10 +20,10 @@ export interface TVScoreResult {
 }
 
 /**
- * Computes an authoritative 100-point Epey/TechCompare score for any TV model
+ * Computes an authoritative 100-point aceleEtme score for any TV model
  */
 export function calculateTVScore(tv: TVProduct): TVScoreResult {
-  const explicitScore = tv.epeyScore;
+  const explicitScore = tv.aceleEtmeScore || tv.epeyScore;
 
   const nameUpper = (tv.name || '').toUpperCase();
   const tech = (tv.specs?.displayTech || '').toUpperCase();
@@ -109,7 +109,7 @@ export function calculateTVScore(tv: TVProduct): TVScoreResult {
     designScore = 88;
   }
 
-  // Total Score: Use explicit epeyScore if present, otherwise calculate weighted average
+  // Total Score: Use explicit aceleEtmeScore if present, otherwise calculate weighted average
   let totalScore = explicitScore;
   if (!totalScore) {
     const yearBonus = (year - 2020) * 0.5;

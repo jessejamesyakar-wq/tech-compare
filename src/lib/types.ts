@@ -34,6 +34,7 @@ export interface BaseProduct {
   image: string;
   images?: string[];
   rating: number;
+  aceleEtmeScore?: number;
   epeyScore?: number;
   reviewCount: number;
   basePrice: number;
