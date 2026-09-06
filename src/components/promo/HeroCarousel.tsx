@@ -7,6 +7,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { Sparkles, ChevronLeft, ChevronRight, Zap, Award, ArrowRight, ShieldCheck } from 'lucide-react';
 import { Product } from '@/lib/types';
 import { HeroSlideItem, getDynamicHeroSlides } from '@/lib/heroSlides';
+import { ACTIVE_STORE_COUNT, ACTIVE_RETAILERS } from '@/lib/activeStores';
 export type { HeroSlideItem };
 export { getDynamicHeroSlides };
 interface HeroCarouselProps {
@@ -195,7 +196,11 @@ export function HeroCarousel({ activeIndex = 0, onSelect, initialSlides = [] }: 
         <div className="flex items-center justify-between pt-2.5 border-t border-slate-200/70 text-[10px] text-slate-500 font-bold">
           <span className="flex items-center gap-1 text-emerald-800">
             <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse" />
-            <span>8 Büyük Mağaza Canlı Takipte</span>
+            <span>
+              {ACTIVE_STORE_COUNT === 1
+                ? `${ACTIVE_RETAILERS[0]?.name || 'Hepsiburada'} Canlı Takipte`
+                : `${ACTIVE_STORE_COUNT} Büyük Mağaza Canlı Takipte`}
+            </span>
           </span>
 
           <div className="flex items-center gap-1">
@@ -343,17 +348,22 @@ export function HeroCarousel({ activeIndex = 0, onSelect, initialSlides = [] }: 
 
       {/* Bottom Ticker & Dots */}
       <div className="hidden lg:flex mt-8 pt-4 border-t border-slate-200/80 items-center justify-between gap-3 text-xs">
-        {/* Live 8-Store Chic Badges */}
+        {/* Live Active Stores Chic Badges */}
         <div className="flex items-center gap-3">
           <span className="flex items-center gap-1.5 text-slate-800 font-black">
             <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse" />
-            <span>8 Büyük Mağaza Canlı Takipte:</span>
+            <span>
+              {ACTIVE_STORE_COUNT === 1
+                ? `${ACTIVE_RETAILERS[0]?.name || 'Hepsiburada'} Canlı Takipte:`
+                : `${ACTIVE_STORE_COUNT} Büyük Mağaza Canlı Takipte:`}
+            </span>
           </span>
           <div className="hidden sm:flex items-center gap-1.5 text-[10px] font-bold text-slate-500">
-            <span className="bg-white/90 px-2 py-0.5 rounded-md border border-slate-200 shadow-2xs">Amazon</span>
-            <span className="bg-white/90 px-2 py-0.5 rounded-md border border-slate-200 shadow-2xs">Hepsiburada</span>
-            <span className="bg-white/90 px-2 py-0.5 rounded-md border border-slate-200 shadow-2xs">Trendyol</span>
-            <span className="bg-white/90 px-2 py-0.5 rounded-md border border-slate-200 shadow-2xs">Vatan</span>
+            {ACTIVE_RETAILERS.map((r) => (
+              <span key={r.id} className="bg-white/90 px-2 py-0.5 rounded-md border border-slate-200 shadow-2xs">
+                {r.name}
+              </span>
+            ))}
           </div>
         </div>
 

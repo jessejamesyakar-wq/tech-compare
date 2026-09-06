@@ -8,6 +8,7 @@ import { ProductLike, isEligibleForLivePriceComparison } from '@/lib/releaseYear
 import { HistoricalRetroShowcase } from './HistoricalRetroShowcase';
 import { OutboundPriceModal } from '@/components/outbound/OutboundPriceModal';
 import { PriceDisclaimer } from '@/components/legal/PriceDisclaimer';
+import { ACTIVE_RETAILERS, ACTIVE_STORE_COUNT, getActiveStoreComparisonTitle } from '@/lib/activeStores';
 
 interface CompactStoreComparisonProps {
   offers: StoreOffer[];
@@ -16,17 +17,8 @@ interface CompactStoreComparisonProps {
   product?: ProductLike;
 }
 
-// 8 Target Retailers fully active across all products
-const REQUIRED_RETAILERS = [
-  { id: 'hb', name: 'Hepsiburada', keyword: 'hepsiburada', bg: 'bg-orange-500 text-white', defaultUrl: 'https://www.hepsiburada.com', multiplier: 0.996 },
-  { id: 'ty', name: 'Trendyol', keyword: 'trendyol', bg: 'bg-amber-600 text-white', defaultUrl: 'https://www.trendyol.com', multiplier: 1.002 },
-  { id: 'vatan', name: 'Vatan Bilgisayar', keyword: 'vatan', bg: 'bg-blue-800 text-white', defaultUrl: 'https://www.vatanbilgisayar.com', multiplier: 1.0 },
-  { id: 'mm', name: 'MediaMarkt', keyword: 'media', bg: 'bg-red-600 text-white', defaultUrl: 'https://www.mediamarkt.com.tr', multiplier: 1.006 },
-  { id: 'teknosa', name: 'Teknosa', keyword: 'teknosa', bg: 'bg-orange-600 text-white', defaultUrl: 'https://www.teknosa.com', multiplier: 1.004 },
-  { id: 'amazon', name: 'Amazon', keyword: 'amazon', bg: 'bg-amber-500 text-slate-900', defaultUrl: 'https://www.amazon.com.tr', multiplier: 0.998 },
-  { id: 'n11', name: 'n11', keyword: 'n11', bg: 'bg-purple-700 text-white', defaultUrl: 'https://www.n11.com', multiplier: 0.994 },
-  { id: 'pttavm', name: 'PttAVM', keyword: 'ptt', bg: 'bg-amber-400 text-blue-950 font-black', defaultUrl: 'https://www.pttavm.com', multiplier: 0.992 }
-];
+// Active Retailers controlled via src/lib/activeStores.ts (currently Hepsiburada only)
+const REQUIRED_RETAILERS = ACTIVE_RETAILERS;
 
 export function CompactStoreComparison({ offers = [], basePrice, currency, product }: CompactStoreComparisonProps) {
   const { t } = useI18n();
@@ -107,7 +99,7 @@ export function CompactStoreComparison({ offers = [], basePrice, currency, produ
         <div className="flex items-center gap-2">
           <ShoppingBag className="w-4 h-4 text-emerald-600" />
           <h3 className="text-slate-900 text-xs font-black uppercase tracking-wider">
-            8 Mağaza Canlı Fiyat Karşılaştırması
+            {getActiveStoreComparisonTitle()}
           </h3>
         </div>
 

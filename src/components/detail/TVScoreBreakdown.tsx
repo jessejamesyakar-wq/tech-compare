@@ -28,7 +28,7 @@ export function TVScoreBreakdown({ tv }: TVScoreBreakdownProps) {
         <div className="space-y-1">
           <div className="inline-flex items-center gap-1.5 bg-amber-50 text-amber-800 text-xs font-extrabold px-3 py-1 rounded-full border border-amber-200">
             <Award className="w-4 h-4 text-amber-600" />
-            <span>TechCompare / Epey TV Performans Puanı</span>
+            <span>aceleEtme TV Performans Puanı</span>
           </div>
           <h2 className="text-xl sm:text-2xl font-black text-slate-900 tracking-tight">
             Televizyon Puanlama Analizi

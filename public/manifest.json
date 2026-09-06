@@ -1,7 +1,7 @@
 {
   "name": "aceleEtme - Akıllı Karşılaştırma ve Fiyat Takip",
   "short_name": "aceleEtme",
-  "description": "Türkiye'nin %100 tarafsız akıllı telefon, bilgisayar ve teknoloji karşılaştırma, 8 mağaza canlı fiyat takip platformu.",
+  "description": "Türkiye'nin %100 tarafsız akıllı telefon, bilgisayar ve teknoloji karşılaştırma, anlık mağaza canlı fiyat takip platformu.",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#0f172a",

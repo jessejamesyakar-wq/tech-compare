@@ -54213,11 +54213,12 @@ export const mockTVs: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 49999,
+        "price": 56499,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Samsung%2055M80H%20(UE55M80HAUXTK)%2055%22%204K%20Crystal%20UHD%20Smart%20TV%20(2026)",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/samsung-55m80h-55-139-ekran-uydu-alicili-4k-ulta-hd-tizen-mini-led-tv-p-HBCV0000EXC5H5",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T19:21:47.129Z"
       },
       {
         "storeName": "Trendyol",
@@ -54289,6 +54290,10 @@ export const mockTVs: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 50000
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 49749
       }
     ],
     "epeyScore": 69
@@ -54305,7 +54310,7 @@ export const mockTVs: Product[] = [
     ],
     "rating": 4.7,
     "reviewCount": 32,
-    "basePrice": 57709,
+    "basePrice": 37239.02,
     "currency": "TL",
     "releaseYear": 2026,
     "isPopular": true,
@@ -54357,11 +54362,12 @@ export const mockTVs: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 57999,
+        "price": 37239.02,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Samsung%2075M70H%20(UE75M70HAUXTK)%2075%22%204K%20Crystal%20UHD%20Smart%20TV%20(2026)",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/samsung-75m70h-75-190-ekran-uydu-alicili-4k-mini-led-smart-tv-p-HBCV0000EXC80C",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T19:21:50.873Z"
       },
       {
         "storeName": "Trendyol",
@@ -54433,6 +54439,10 @@ export const mockTVs: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 58000
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 37239.02
       }
     ],
     "epeyScore": 68
@@ -55759,7 +55769,7 @@ export const mockTVs: Product[] = [
     ],
     "rating": 4.7,
     "reviewCount": 38,
-    "basePrice": 47949,
+    "basePrice": 37239.02,
     "currency": "TL",
     "releaseYear": 2026,
     "isPopular": true,
@@ -55811,11 +55821,12 @@ export const mockTVs: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 48189,
+        "price": 37239.02,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Samsung%2065M70H%20(UE65M70HAUXTK)%2065%22%204K%20Crystal%20UHD%20Smart%20TV%20(2026)",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/samsung-65m70h-65-165-ekran-uydu-alicili-4k-ulta-hd-tizen-mini-led-tv-p-HBCV0000EXC7J9",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T19:22:27.813Z"
       },
       {
         "storeName": "Trendyol",
@@ -55887,6 +55898,10 @@ export const mockTVs: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 48190
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 37239.02
       }
     ],
     "epeyScore": 65
@@ -56922,7 +56937,7 @@ export const mockTVs: Product[] = [
     ],
     "rating": 4.7,
     "reviewCount": 41,
-    "basePrice": 38999,
+    "basePrice": 37239.02,
     "currency": "TL",
     "releaseYear": 2026,
     "isPopular": true,
@@ -56974,11 +56989,12 @@ export const mockTVs: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 39189,
+        "price": 37239.02,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Samsung%2055M70H%20(UE55M70HAUXTK)%2055%22%204K%20Crystal%20UHD%20Smart%20TV%20(2026)",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/samsung-55m70h-55-139-ekran-uydu-alicili-4k-ulta-hd-tizen-mini-led-tv-p-HBCV0000EXBO4B",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T19:23:00.589Z"
       },
       {
         "storeName": "Trendyol",
@@ -57050,6 +57066,10 @@ export const mockTVs: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 39190
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 37239.02
       }
     ],
     "epeyScore": 63
@@ -57406,11 +57426,12 @@ export const mockTVs: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 34059,
+        "price": 37239.02,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Samsung%2050M70H%20(UE50M70HAUXTK)%2050%22%204K%20Crystal%20UHD%20Smart%20TV%20(2026)",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/samsung-50m70h-50-127-ekran-uydu-alicili-4k-ulta-hd-tizen-mini-led-tv-p-HBCV0000EXC2SH",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T19:23:11.595Z"
       },
       {
         "storeName": "Trendyol",
@@ -57482,6 +57503,10 @@ export const mockTVs: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 34060
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 33889
       }
     ],
     "epeyScore": 62

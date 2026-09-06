@@ -8,6 +8,7 @@ import Link from 'next/link';
 import { useSearchParams } from 'next/navigation';
 import { ApplianceProduct } from '@/lib/types';
 import { resolveActiveColor } from '@/lib/colorVariantHelper';
+import { ACTIVE_STORE_COUNT, ACTIVE_RETAILERS } from '@/lib/activeStores';
 import { StoreTable } from '@/components/detail/StoreTable';
 import { ProductImageGallery } from '@/components/detail/ProductImageGallery';
 import { ProductColorPicker } from '@/components/detail/ProductColorPicker';
@@ -184,7 +185,9 @@ export default function ApplianceDetailClient({ initialApplianceProduct }: { ini
                 </div>
                 <span className="text-[11px] text-emerald-700 font-bold flex items-center gap-1 mt-1">
                   <TrendingDown className="w-3.5 h-3.5" />
-                  4 Mağazada Canlı Fiyat Karşılaştırması
+                  {ACTIVE_STORE_COUNT === 1
+                    ? `${ACTIVE_RETAILERS[0]?.name || 'Hepsiburada'} Canlı Fiyatı`
+                    : `${ACTIVE_STORE_COUNT} Mağazada Canlı Fiyat Karşılaştırması`}
                 </span>
               </div>
 

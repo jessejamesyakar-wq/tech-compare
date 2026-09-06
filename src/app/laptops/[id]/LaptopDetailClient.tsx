@@ -8,6 +8,7 @@ import Link from 'next/link';
 import { useSearchParams } from 'next/navigation';
 import { LaptopProduct } from '@/lib/types';
 import { resolveActiveColor } from '@/lib/colorVariantHelper';
+import { ACTIVE_STORE_COUNT, ACTIVE_RETAILERS } from '@/lib/activeStores';
 import { StoreTable } from '@/components/detail/StoreTable';
 import { StickyHeaderBar } from '@/components/detail/StickyHeaderBar';
 import { ProductImageGallery } from '@/components/detail/ProductImageGallery';
@@ -197,7 +198,11 @@ export default function LaptopDetailClient({ initialLaptopProduct }: { initialLa
               <div className="text-3xl font-black text-slate-900 tracking-tight">
                 ₺{laptop.basePrice.toLocaleString()},-
               </div>
-              <span className="text-[11px] font-bold text-emerald-700 block">8 Mağazada Stokta Mevcut</span>
+              <span className="text-[11px] font-bold text-emerald-700 block">
+                {ACTIVE_STORE_COUNT === 1
+                  ? `${ACTIVE_RETAILERS[0]?.name || 'Hepsiburada'} Üzerinde Stokta Mevcut`
+                  : `${ACTIVE_STORE_COUNT} Mağazada Stokta Mevcut`}
+              </span>
             </div>
 
             <div className="flex items-center gap-2">

@@ -7,6 +7,7 @@ import { useI18n } from '@/lib/i18n/context';
 import { useCompare } from '@/context/CompareContext';
 import { Smartphone, TVProduct } from '@/lib/types';
 import { calculateTVScore } from '@/lib/tvScoring';
+import { ACTIVE_STORE_COUNT, ACTIVE_RETAILERS } from '@/lib/activeStores';
 import { HeroCarousel, HeroSlideItem } from '@/components/promo/HeroCarousel';
 import { HeroThumbnailStrip } from '@/components/promo/HeroThumbnailStrip';
 import { CompactProductCard } from '@/components/catalog/CompactProductCard';
@@ -140,7 +141,7 @@ export function HomePageClient({
     {
       id: 'wide-1',
       title: 'Sezon Sonu Canlı Fiyat Düşüşleri',
-      subtitle: '8 MAĞAZA ANLIK TAKİP',
+      subtitle: ACTIVE_STORE_COUNT === 1 ? `${(ACTIVE_RETAILERS[0]?.name || 'HEPSİBURADA').toUpperCase()} ANLIK TAKİP` : `${ACTIVE_STORE_COUNT} MAĞAZA ANLIK TAKİP`,
       badge: '⚡ FIRSAT ALARMI',
       image: 'https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=800&auto=format&fit=crop&q=80',
       href: '/phones?sortBy=popular'
@@ -365,7 +366,11 @@ export function HomePageClient({
               <Sparkles className="w-5 h-5 text-rose-600" />
               <span>Günün İndirimli Ürün Fırsatları</span>
             </h2>
-            <p className="text-xs text-slate-500 font-medium mt-0.5">8 perakende mağazasında son 24 saatte fiyatı düşen popüler modeller</p>
+            <p className="text-xs text-slate-500 font-medium mt-0.5">
+              {ACTIVE_STORE_COUNT === 1
+                ? `${ACTIVE_RETAILERS[0]?.name || 'Hepsiburada'} üzerinde son 24 saatte fiyatı düşen popüler modeller`
+                : `${ACTIVE_STORE_COUNT} perakende mağazasında son 24 saatte fiyatı düşen popüler modeller`}
+            </p>
           </div>
 
           <Link

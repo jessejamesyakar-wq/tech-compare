@@ -6,6 +6,7 @@ import { useRouter } from 'next/navigation';
 import { ProductImage } from '@/components/ui/ProductImage';
 import { LaptopProduct } from '@/lib/types';
 import { getProductColorList, ResolvedColorOption } from '@/lib/colorVariantHelper';
+import { ACTIVE_STORE_COUNT, ACTIVE_RETAILERS } from '@/lib/activeStores';
 import { useCompare } from '@/context/CompareContext';
 import {
   Star,
@@ -252,7 +253,9 @@ export function LaptopMediaMarktCard({ laptop, index = 0 }: LaptopMediaMarktCard
             <span className="text-base font-bold text-slate-700">TL</span>
           </div>
 
-          <p className="text-[10px] text-slate-400 font-medium mt-0.5">KDV Dahildir • 8 Mağaza Fiyatı</p>
+          <p className="text-[10px] text-slate-400 font-medium mt-0.5">
+            KDV Dahildir • {ACTIVE_STORE_COUNT === 1 ? `${ACTIVE_RETAILERS[0]?.name || 'Hepsiburada'} Fiyatı` : `${ACTIVE_STORE_COUNT} Mağaza Fiyatı`}
+          </p>
 
           {/* Installment Badge Options */}
           <div className="mt-3 p-2 bg-slate-50 rounded-xl border border-slate-100 space-y-1 text-[11px]">

@@ -8,6 +8,7 @@ import { ProductLike, isEligibleForLivePriceComparison } from '@/lib/releaseYear
 import { HistoricalRetroShowcase } from './HistoricalRetroShowcase';
 import { OutboundPriceModal } from '@/components/outbound/OutboundPriceModal';
 import { PriceDisclaimer } from '@/components/legal/PriceDisclaimer';
+import { ACTIVE_RETAILERS, ACTIVE_STORE_COUNT } from '@/lib/activeStores';
 
 interface StoreTableProps {
   offers: StoreOffer[];
@@ -15,16 +16,15 @@ interface StoreTableProps {
   product?: ProductLike;
 }
 
-const ALL_STORE_DEFAULTS = [
-  { keyword: 'hepsiburada', storeName: 'Hepsiburada', bg: 'bg-orange-500 text-white', label: 'HB', url: 'https://www.hepsiburada.com', multiplier: 0.996 },
-  { keyword: 'trendyol', storeName: 'Trendyol', bg: 'bg-amber-600 text-white', label: 'TY', url: 'https://www.trendyol.com', multiplier: 1.002 },
-  { keyword: 'vatan', storeName: 'Vatan Bilgisayar', bg: 'bg-blue-800 text-white', label: 'VT', url: 'https://www.vatanbilgisayar.com', multiplier: 1.0 },
-  { keyword: 'media', storeName: 'MediaMarkt', bg: 'bg-red-600 text-white', label: 'MM', url: 'https://www.mediamarkt.com.tr', multiplier: 1.006 },
-  { keyword: 'teknosa', storeName: 'Teknosa', bg: 'bg-orange-600 text-white', label: 'TK', url: 'https://www.teknosa.com', multiplier: 1.004 },
-  { keyword: 'amazon', storeName: 'Amazon', bg: 'bg-amber-500 text-slate-900', label: 'AZ', url: 'https://www.amazon.com.tr', multiplier: 0.998 },
-  { keyword: 'n11', storeName: 'n11', bg: 'bg-purple-700 text-white', label: 'N11', url: 'https://www.n11.com', multiplier: 0.994 },
-  { keyword: 'ptt', storeName: 'PttAVM', bg: 'bg-amber-400 text-blue-950 font-black', label: 'PTT', url: 'https://www.pttavm.com', multiplier: 0.992 }
-];
+// Active store defaults controlled via src/lib/activeStores.ts (currently Hepsiburada only)
+const ALL_STORE_DEFAULTS = ACTIVE_RETAILERS.map((r) => ({
+  keyword: r.keyword,
+  storeName: r.name,
+  bg: r.bg,
+  label: r.label,
+  url: r.defaultUrl,
+  multiplier: r.multiplier
+}));
 
 export function StoreTable({ offers = [], currency, product }: StoreTableProps) {
   const { t } = useI18n();
@@ -99,14 +99,18 @@ export function StoreTable({ offers = [], currency, product }: StoreTableProps) 
         <div>
           <h3 className="text-slate-900 text-lg font-black flex items-center gap-2">
             <ShoppingBag className="w-5 h-5 text-emerald-600" />
-            <span>8 Mağaza Detaylı Fiyat Karşılaştırması</span>
+            <span>
+              {ACTIVE_STORE_COUNT === 1
+                ? `${ACTIVE_RETAILERS[0]?.name || 'Hepsiburada'} Detaylı Fiyatı`
+                : `${ACTIVE_STORE_COUNT} Mağaza Detaylı Fiyat Karşılaştırması`}
+            </span>
           </h3>
           <p className="text-xs text-slate-500 mt-0.5">
-            Hepsiburada, Trendyol, Vatan Bilgisayar, MediaMarkt, Teknosa, Amazon, n11 ve PttAVM canlı teklifleri.
+            {ACTIVE_RETAILERS.map((r) => r.name).join(', ')} canlı teklifleri.
           </p>
         </div>
         <span className="text-xs text-emerald-800 font-black bg-emerald-100 px-3.5 py-1.5 rounded-full border border-emerald-200">
-          8 Canlı Mağaza Aktif
+          {ACTIVE_STORE_COUNT} Canlı Mağaza Aktif
         </span>
       </div>
 

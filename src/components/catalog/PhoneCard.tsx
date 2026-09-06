@@ -7,6 +7,7 @@ import { ProductImage } from '@/components/ui/ProductImage';
 import { motion } from 'framer-motion';
 import { Smartphone } from '@/lib/types';
 import { getProductColorList, ResolvedColorOption } from '@/lib/colorVariantHelper';
+import { ACTIVE_RETAILERS, ACTIVE_STORE_COUNT } from '@/lib/activeStores';
 import { useI18n } from '@/lib/i18n/context';
 import { useCompare } from '@/context/CompareContext';
 import {
@@ -69,56 +70,12 @@ export function PhoneCard({ phone, index = 0 }: PhoneCardProps) {
     return found ? found.price : Math.round(effectiveBase * fallbackOffset);
   };
 
-  const storeList = [
-    {
-      id: 'hb',
-      name: 'Hepsiburada',
-      price: findStorePrice('hepsiburada', 1.0),
-      color: 'text-orange-600'
-    },
-    {
-      id: 'ty',
-      name: 'Trendyol',
-      price: findStorePrice('trendyol', 1.002),
-      color: 'text-amber-600'
-    },
-    {
-      id: 'vatan',
-      name: 'Vatan',
-      price: findStorePrice('vatan', 1.004),
-      color: 'text-blue-700'
-    },
-    {
-      id: 'mm',
-      name: 'MediaMarkt',
-      price: findStorePrice('media', 1.006),
-      color: 'text-red-600'
-    },
-    {
-      id: 'teknosa',
-      name: 'Teknosa',
-      price: findStorePrice('teknosa', 1.008),
-      color: 'text-orange-600'
-    },
-    {
-      id: 'amazon',
-      name: 'Amazon',
-      price: findStorePrice('amazon', 1.01),
-      color: 'text-amber-600'
-    },
-    {
-      id: 'n11',
-      name: 'n11',
-      price: findStorePrice('n11', 1.012),
-      color: 'text-purple-700'
-    },
-    {
-      id: 'pttavm',
-      name: 'PttAVM',
-      price: findStorePrice('ptt', 1.014),
-      color: 'text-blue-900 font-extrabold'
-    }
-  ];
+  const storeList = ACTIVE_RETAILERS.map((r, idx) => ({
+    id: r.id,
+    name: r.name,
+    price: findStorePrice(r.keyword, 1.0 + idx * 0.002),
+    color: r.color
+  }));
 
   const lowestPrice = Math.min(...storeList.map((s) => s.price));
   const fallbackImg = 'https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=800&auto=format&fit=crop&q=80';
@@ -285,7 +242,8 @@ export function PhoneCard({ phone, index = 0 }: PhoneCardProps) {
         <div className="bg-slate-50 border border-slate-200/80 rounded-lg p-2 space-y-1.5 mb-2.5">
           <div className="flex items-center justify-between text-[9px] font-extrabold text-slate-500 uppercase tracking-wider border-b border-slate-200 pb-1">
             <span className="flex items-center gap-1">
-              <Store className="w-2.5 h-2.5 text-blue-700" /> 8 Mağaza Fiyatı
+              <Store className="w-2.5 h-2.5 text-blue-700" />{' '}
+              {ACTIVE_STORE_COUNT === 1 ? `${ACTIVE_RETAILERS[0]?.name || 'Hepsiburada'} Fiyatı` : `${ACTIVE_STORE_COUNT} Mağaza Fiyatı`}
             </span>
             <span className="text-blue-900 bg-blue-100 px-1 py-0.2 rounded text-[8px] font-black">
               Canlı

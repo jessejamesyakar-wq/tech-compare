@@ -8,6 +8,7 @@ import { Navbar } from '@/components/layout/Navbar';
 import { Footer } from '@/components/layout/Footer';
 import { CompareBar } from '@/components/layout/CompareBar';
 import { LogoModal } from '@/components/layout/LogoModal';
+import { ACTIVE_STORE_COUNT, ACTIVE_RETAILERS } from '@/lib/activeStores';
 
 const plusJakartaSans = Plus_Jakarta_Sans({
   subsets: ['latin', 'latin-ext'],
@@ -25,7 +26,9 @@ export const metadata: Metadata = {
     google: 'Dy00YlAE7Le0s97gjpLXinIwfoupK2XNeVjJ10MtJsU',
   },
   title: 'aceleEtme | Akıllı Telefon, TV & Teknoloji Karşılaştırma ve Fiyat Takip Platformu',
-  description: 'Türkiye’nin %100 bağımsız ve algoritmik akıllı telefon, bilgisayar ve teknoloji karşılaştırma platformu. 8 mağaza canlı fiyat kıyaslaması ve fiyat geçmişi grafikleri.',
+  description: `Türkiye’nin %100 bağımsız ve algoritmik akıllı telefon, bilgisayar ve teknoloji karşılaştırma platformu. ${
+    ACTIVE_STORE_COUNT === 1 ? `${ACTIVE_RETAILERS[0]?.name || 'Hepsiburada'} canlı fiyat takibi` : `${ACTIVE_STORE_COUNT} mağaza canlı fiyat kıyaslaması`
+  } ve fiyat geçmişi grafikleri.`,
   manifest: '/manifest.json',
   icons: {
     icon: [

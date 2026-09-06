@@ -4,6 +4,7 @@ import React from 'react';
 import Link from 'next/link';
 import PenguinMascot from '@/components/PenguinMascot';
 import { TrendingDown, Sparkles, ArrowRight, Scale, BarChart3, BellRing } from 'lucide-react';
+import { ACTIVE_STORE_COUNT, ACTIVE_RETAILERS } from '@/lib/activeStores';
 
 export function LiveDealsBillboard() {
   return (
@@ -51,7 +52,11 @@ export function LiveDealsBillboard() {
 
               <div className="inline-flex items-center gap-2 bg-emerald-100/90 border border-emerald-300 text-emerald-900 text-xs sm:text-sm font-black px-3.5 py-1.5 rounded-2xl shadow-2xs">
                 <TrendingDown className="w-4 h-4 text-emerald-700 shrink-0" />
-                <span>8 Büyük Mağazada 5.670+ Model Canlı Takipte • Sahte İndirimlere Son!</span>
+                <span>
+                  {ACTIVE_STORE_COUNT === 1
+                    ? `${ACTIVE_RETAILERS[0]?.name || 'Hepsiburada'} Üzerinde 5.670+ Model Canlı Takipte • Sahte İndirimlere Son!`
+                    : `${ACTIVE_STORE_COUNT} Büyük Mağazada 5.670+ Model Canlı Takipte • Sahte İndirimlere Son!`}
+                </span>
               </div>
             </div>
 

@@ -1,4 +1,5 @@
 import { Product } from '@/lib/types';
+import { ACTIVE_STORE_COUNT, ACTIVE_RETAILERS } from '@/lib/activeStores';
 
 export interface HeroSlideItem {
   id: string;
@@ -145,7 +146,9 @@ export function getDynamicHeroSlides(products: Product[] = []): HeroSlideItem[] 
     const cat = p.category;
 
     let mainHeadline = `${p.name} ile Teknolojide Zirve Performans ve Şeffaf Fiyat`;
-    let subHeadline = '8 büyük perakende mağazasında anlık stok, resmi garanti ve en düşük fiyat analizi.';
+    let subHeadline = ACTIVE_STORE_COUNT === 1
+      ? `${ACTIVE_RETAILERS[0]?.name || 'Hepsiburada'} üzerinde anlık stok, resmi garanti ve en düşük fiyat analizi.`
+      : `${ACTIVE_STORE_COUNT} büyük perakende mağazasında anlık stok, resmi garanti ve en düşük fiyat analizi.`;
     let specText = highlights.slice(0, 2).join(' • ') || 'Üst Segment Amiral Gemisi Donanım';
     let specPills: string[] = ['⚡ Zirve Performans', '✨ Resmi Distribütör', '🛡️ %100 Orijinal'];
     let badgeText = '💎 PREMİUM SEGMENT LİDERİ';
