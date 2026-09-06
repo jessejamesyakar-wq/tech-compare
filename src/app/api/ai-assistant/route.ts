@@ -114,7 +114,7 @@ function preFilterProducts(userMessage: string, limit = 45): CatalogItem[] {
   return sorted.slice(0, limit).map((s) => s.item);
 }
 
-// Fallback algorithm if Anthropic API key is not configured
+// Fallback algorithm if Gemini API key is not configured or fails
 function generateFallbackResponse(userMessage: string, candidates: CatalogItem[]): AssistantResponse {
   const lower = userMessage.toLowerCase();
 
@@ -155,7 +155,7 @@ function generateFallbackResponse(userMessage: string, candidates: CatalogItem[]
   }));
 
   return {
-    reply: `Sizin için kataloğumuzdan en uygun ${recommendations.length} modeli seçtim. Detaylarını ve mağaza fiyatlarını kartlara tıklayarak inceleyebilirsiniz.`,
+    reply: `Sizin için güncel piyasa kataloğumuzdan en uygun ${recommendations.length} modeli seçtim. Detaylarını ve mağaza fiyatlarını inceleyebilirsiniz.`,
     recommendations,
   };
 }
@@ -164,7 +164,15 @@ function generateFallbackResponse(userMessage: string, candidates: CatalogItem[]
 
 export async function POST(req: NextRequest) {
   try {
-    const body: AssistantRequestBody = await req.json();
+    let body: AssistantRequestBody;
+    try {
+      body = await req.json();
+    } catch {
+      return NextResponse.json(
+        { error: "Geçersiz istek: JSON gövdesi okunamadı." },
+        { status: 400 }
+      );
+    }
 
     if (!body.message || typeof body.message !== "string") {
       return NextResponse.json(
@@ -174,78 +182,111 @@ export async function POST(req: NextRequest) {
     }
 
     const relevantProducts = preFilterProducts(body.message);
-    const apiKey = process.env.ANTHROPIC_API_KEY;
+    const apiKey = process.env.GEMINI_API_KEY;
 
     // If API key is missing, use intelligent local catalog fallback
-    if (!apiKey || apiKey === "your_anthropic_api_key_here" || apiKey.trim() === "") {
+    if (!apiKey || apiKey === "your_gemini_api_key_here" || apiKey.trim() === "") {
       const fallback = generateFallbackResponse(body.message, relevantProducts);
       return NextResponse.json(fallback);
     }
 
-    const systemPrompt = `Sen RoboPengu'sun, aceleEtme'nin sevimli robot penguen AI asistanı ve uzman alışveriş danışmanısın. 🐧
+    const systemPrompt = `Sen RoboPengu'sun, aceleEtme'nin sevimli robot penguen AI asistanı ve uzman teknoloji & fiyat danışmanısın. 🐧
+Google Gemini 3 destekli akıllı arama ve tavsiye motoru olarak çalışıyorsun.
 
 Görevin, kullanıcının ihtiyacına göre aşağıdaki katalogdan EN FAZLA 3 ürün önermek.
 
 Kalite kuralları:
-- Kullanıcının isteği belirsizse (bütçe, kullanım amacı, marka tercihi gibi kritik bir bilgi eksikse) ÜRÜN ÖNERMEDEN ÖNCE tek bir netleştirici soru sor. Örn: "Bütçe aralığınız veya kullanım amacınız nedir?" Boş recommendations dizisiyle dön, reply alanına soruyu yaz.
-- Kullanıcı zaten yeterli bilgi verdiyse (bütçe + kategori gibi) direkt öner, tekrar soru sorup vakit kaybettirme.
-- SADECE aşağıda verilen katalogdaki ürünleri öner, ASLA uydurma ürün/marka/özellik ekleme. Katalogda yeterli seçenek yoksa bunu açıkça söyle.
-- Her öneri için SADECE gerçek veriye (fiyat, kategori, specs alanındaki bilgiler) dayanan somut bir gerekçe yaz — "harika bir ürün" gibi boş ifadeler kullanma, "X TL, Y özelliğiyle bütçenize ve ihtiyacınıza uyuyor" gibi spesifik ol.
-- Kullanıcının bütçesini aşan tek seçenek varsa bunu ÖNERMEDEN ÖNCE açıkça belirt: "Bütçenizin biraz üzerinde ama..." gibi.
-- Kullanıcı önceki önerilerden birini beğenmediyse (history'den anlaşılıyorsa), AYNI ürünü tekrar önerme, farklı bir açıdan (fiyat/performans dengesi farklı bir model) yaklaş.
-- Alakasız bir soru sorulursa (ürünle ilgisi yoksa), nazikçe konuyu teknoloji ve ürün kıyaslamaya geri getir.
+- Kullanıcı bütçe veya detay belirtmemiş olsa dahi, aradığı amaca/kategoriye en uygun, kataloğumuzdaki EN İYİ 3 ÜRÜNÜ MUTLAKA ÖNER (Fiyat/Performans, Orta ve Üst segment dengesi kurarak).
+- SADECE aşağıda verilen katalogdaki ürünleri öner, ASLA uydurma ürün/marka/özellik ekleme.
+- Her öneri için SADECE gerçek veriye dayanan somut bir gerekçe yaz — "harika bir ürün" yerine "₺X fiyatı, Y özelliğiyle bütçenize ve ihtiyacınıza tam uyuyor" gibi spesifik ol.
+- Kullanıcı bütçesini aşan bir seçenek varsa bunu açıkça belirt: "Bütçenizin biraz üzerinde ama..." gibi.
+- Alakasız bir soru sorulursa, nazikçe konuyu teknoloji ve fiyat kıyaslamaya geri getir.
 
-Yanıtını SADECE aşağıdaki JSON formatında ver, başka hiçbir metin, markdown veya açıklama ekleme:
-
+Yanıtını SADECE aşağıdaki JSON formatında ver:
 {
-  "reply": "Kullanıcıya doğal dilde, samimi bir Türkçe yanıt (2-3 cümle, gerekirse netleştirici soru)",
+  "reply": "Kullanıcıya samimi, uzman ve Türkçe açıklama (2-3 cümle)",
   "recommendations": [
     {
-      "productId": "ürünün id'si",
-      "slug": "ürünün slug'ı",
+      "productId": "ürünün katalogdaki id'si",
+      "slug": "ürünün katalogdaki slug'ı",
       "productName": "tam ürün adı",
-      "category": "ürünün kategorisi (örn. phones, tvs, laptops, appliances, headphones, tablets, smartwatches, monitors, consoles)",
+      "category": "ürünün kategorisi (phones, tvs, laptops, appliances, headphones, tablets, smartwatches, monitors, consoles)",
       "price": 45000,
-      "reason": "somut veriye dayanan, 1 cümlelik gerekçe"
+      "reason": "somut veriye dayanan 1 cümlelik tavsiye gerekçesi"
     }
   ]
 }
 
-KATALOG:
+GÜNCEL KATALOG:
 ${JSON.stringify(relevantProducts, null, 2)}`;
 
-    const messages = [
-      ...(body.history ?? []),
-      { role: "user" as const, content: body.message },
-    ];
+    // Format conversation history for Gemini
+    const contents: any[] = [];
 
-    const claudeResponse = await fetch("https://api.anthropic.com/v1/messages", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-        "x-api-key": apiKey,
-        "anthropic-version": "2023-06-01",
-      },
-      body: JSON.stringify({
-        model: "claude-3-7-sonnet-20250219",
-        max_tokens: 1024,
-        system: systemPrompt,
-        messages,
-      }),
+    if (body.history && body.history.length > 0) {
+      for (const h of body.history) {
+        contents.push({
+          role: h.role === "assistant" ? "model" : "user",
+          parts: [{ text: h.content }],
+        });
+      }
+    }
+
+    contents.push({
+      role: "user",
+      parts: [
+        {
+          text: `Sistem Yönergesi:\n${systemPrompt}\n\nKullanıcı Mesajı: "${body.message}"`,
+        },
+      ],
     });
 
-    if (!claudeResponse.ok) {
-      const errText = await claudeResponse.text();
-      console.error("Claude API hatası:", errText);
+    const candidateModels = ["gemini-3.8-flash", "gemini-3.6-flash"];
+    let rawText: string | null = null;
+
+    for (const model of candidateModels) {
+      try {
+        const controller = new AbortController();
+        const timeout = setTimeout(() => controller.abort(), 6000);
+
+        const response = await fetch(
+          `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${apiKey}`,
+          {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            signal: controller.signal,
+            body: JSON.stringify({
+              contents,
+              generationConfig: {
+                responseMimeType: "application/json",
+                temperature: 0.2,
+                maxOutputTokens: 2048,
+              },
+            }),
+          }
+        );
+        clearTimeout(timeout);
+
+        if (response.ok) {
+          const data = await response.json();
+          rawText = data.candidates?.[0]?.content?.parts?.[0]?.text ?? null;
+          if (rawText) break; // Successfully got response
+        } else {
+          const errText = await response.text();
+          console.warn(`Gemini (${model}) API hatası [${response.status}]:`, errText.slice(0, 150));
+        }
+      } catch (err) {
+        console.warn(`Gemini (${model}) bağlantı hatası:`, err);
+      }
+    }
+
+    if (!rawText) {
+      // Fallback to local intelligent ranking if all Gemini models were busy/failed
       const fallback = generateFallbackResponse(body.message, relevantProducts);
       return NextResponse.json(fallback);
     }
 
-    const data = await claudeResponse.json();
-    const textBlock = data.content?.find((b: { type: string }) => b.type === "text");
-    const rawText: string = textBlock?.text ?? "{}";
-
-    // Claude markdown bloklarını temizle
+    // Clean markdown wrappers if any
     const cleaned = rawText.replace(/```json|```/g, "").trim();
 
     let parsed: AssistantResponse;
@@ -253,19 +294,32 @@ ${JSON.stringify(relevantProducts, null, 2)}`;
       parsed = JSON.parse(cleaned);
       if (Array.isArray(parsed.recommendations)) {
         parsed.recommendations = parsed.recommendations.map((r) => {
-          const matched = relevantProducts.find((p) => p.id === r.productId || p.slug === r.slug);
+          const matched = relevantProducts.find((p) => p.id === r.productId || p.slug === r.slug || p.name.toLowerCase() === (r.productName || "").toLowerCase());
           return {
-            productId: r.productId || matched?.id || "",
-            slug: r.slug || matched?.slug || r.productId,
-            productName: r.productName || matched?.name || "Ürün",
-            category: r.category || matched?.category || "phones",
-            price: r.price || matched?.price || 0,
-            reason: r.reason || "Kriterlerinize uygun model.",
+            productId: matched?.id || r.productId || "",
+            slug: matched?.slug || r.slug || r.productId,
+            productName: matched?.name || r.productName || "Ürün",
+            category: matched?.category || r.category || "phones",
+            price: matched?.price || r.price || 0,
+            reason: r.reason || "Kriterlerinize uygun güncel model.",
           };
         });
+      } else {
+        parsed.recommendations = [];
       }
     } catch {
-      parsed = { reply: rawText, recommendations: [] };
+      // If parsing fails due to truncation, attempt to extract valid JSON or fallback
+      try {
+        const lastBrace = cleaned.lastIndexOf("}");
+        if (lastBrace > 0) {
+          parsed = JSON.parse(cleaned.slice(0, lastBrace + 1));
+          if (!Array.isArray(parsed.recommendations)) parsed.recommendations = [];
+        } else {
+          parsed = { reply: cleaned, recommendations: [] };
+        }
+      } catch {
+        parsed = { reply: cleaned, recommendations: [] };
+      }
     }
 
     return NextResponse.json(parsed);

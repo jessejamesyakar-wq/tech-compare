@@ -15,7 +15,7 @@
     "rating": 4.9,
     "epeyScore": 93,
     "reviewCount": 1650,
-    "basePrice": 66700,
+    "basePrice": 62700,
     "currency": "TL",
     "releaseYear": 2026,
     "isPopular": true,
@@ -58,9 +58,10 @@
     "storeOffers": [
       {
         "storeName": "Hepsiburada",
-        "price": 66700,
-        "url": "https://www.hepsiburada.com/ara?q=Apple%20iPhone%2017e%20(512%20GB)",
-        "inStock": true
+        "price": 62700,
+        "url": "https://www.hepsiburada.com/apple-iphone-17e-256gb-acik-pembe-p-HBCV0000D58K88",
+        "inStock": true,
+        "updatedAt": "2026-09-06T18:04:26.078Z"
       },
       {
         "storeName": "Trendyol",
@@ -133,6 +134,10 @@
       {
         "date": "2026-09-01",
         "price": 66700
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 62700
       }
     ],
     "specs": {
@@ -263,7 +268,7 @@
     "rating": 4.9,
     "epeyScore": 93,
     "reviewCount": 1650,
-    "basePrice": 62640,
+    "basePrice": 62700,
     "currency": "TL",
     "releaseYear": 2026,
     "isPopular": true,
@@ -306,9 +311,10 @@
     "storeOffers": [
       {
         "storeName": "Hepsiburada",
-        "price": 62640,
-        "url": "https://www.hepsiburada.com/ara?q=Apple%20iPhone%2017e%20(256%20GB)",
-        "inStock": true
+        "price": 62700,
+        "url": "https://www.hepsiburada.com/apple-iphone-17e-256gb-acik-pembe-p-HBCV0000D58K88",
+        "inStock": true,
+        "updatedAt": "2026-09-06T18:04:28.747Z"
       },
       {
         "storeName": "Trendyol",
@@ -381,6 +387,10 @@
       {
         "date": "2026-09-01",
         "price": 62640
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 62700
       }
     ],
     "specs": {
@@ -512,7 +522,7 @@
     "rating": 4.9,
     "epeyScore": 93,
     "reviewCount": 1650,
-    "basePrice": 58000,
+    "basePrice": 58116,
     "currency": "TL",
     "releaseYear": 2026,
     "isPopular": true,
@@ -555,9 +565,10 @@
     "storeOffers": [
       {
         "storeName": "Hepsiburada",
-        "price": 58000,
-        "url": "https://www.hepsiburada.com/ara?q=Apple%20iPhone%2017e%20(128%20GB)",
-        "inStock": true
+        "price": 62700,
+        "url": "https://www.hepsiburada.com/apple-iphone-17e-256gb-acik-pembe-p-HBCV0000D58K88",
+        "inStock": true,
+        "updatedAt": "2026-09-06T18:04:32.068Z"
       },
       {
         "storeName": "Trendyol",
@@ -630,6 +641,10 @@
       {
         "date": "2026-09-01",
         "price": 58000
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 58116
       }
     ],
     "specs": {
@@ -1501,7 +1516,7 @@
     "rating": 4.9,
     "epeyScore": 96,
     "reviewCount": 1850,
-    "basePrice": 85100,
+    "basePrice": 81799,
     "currency": "TL",
     "releaseYear": 2026,
     "isPopular": true,
@@ -1554,9 +1569,10 @@
     "storeOffers": [
       {
         "storeName": "Hepsiburada",
-        "price": 85100,
-        "url": "https://www.hepsiburada.com/ara?q=Apple%20iPhone%2017%20(512%20GB)",
-        "inStock": true
+        "price": 81799,
+        "url": "https://www.hepsiburada.com/apple-iphone-17-256-gb-beyaz-p-HBCV00009Z3YJ1",
+        "inStock": true,
+        "updatedAt": "2026-09-06T18:04:46.766Z"
       },
       {
         "storeName": "Trendyol",
@@ -1629,6 +1645,10 @@
       {
         "date": "2026-09-01",
         "price": 85100
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 81799
       }
     ],
     "specs": {
@@ -1763,7 +1783,7 @@
     "rating": 4.9,
     "epeyScore": 96,
     "reviewCount": 1650,
-    "basePrice": 79920,
+    "basePrice": 80080,
     "currency": "TL",
     "releaseYear": 2026,
     "isPopular": true,
@@ -1816,9 +1836,10 @@
     "storeOffers": [
       {
         "storeName": "Hepsiburada",
-        "price": 79920,
-        "url": "https://www.hepsiburada.com/ara?q=Apple%20iPhone%2017%20(256%20GB)",
-        "inStock": true
+        "price": 81799,
+        "url": "https://www.hepsiburada.com/apple-iphone-17-256-gb-beyaz-p-HBCV00009Z3YJ1",
+        "inStock": true,
+        "updatedAt": "2026-09-06T18:04:50.427Z"
       },
       {
         "storeName": "Trendyol",
@@ -1891,6 +1912,10 @@
       {
         "date": "2026-09-01",
         "price": 79920
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 80080
       }
     ],
     "specs": {
@@ -2026,7 +2051,7 @@
     "rating": 4.9,
     "epeyScore": 96,
     "reviewCount": 1450,
-    "basePrice": 74000,
+    "basePrice": 74148,
     "currency": "TL",
     "releaseYear": 2026,
     "isPopular": true,
@@ -2079,9 +2104,10 @@
     "storeOffers": [
       {
         "storeName": "Hepsiburada",
-        "price": 74000,
-        "url": "https://www.hepsiburada.com/ara?q=Apple%20iPhone%2017%20(128%20GB)",
-        "inStock": true
+        "price": 81799,
+        "url": "https://www.hepsiburada.com/apple-iphone-17-256-gb-beyaz-p-HBCV00009Z3YJ1",
+        "inStock": true,
+        "updatedAt": "2026-09-06T18:04:53.689Z"
       },
       {
         "storeName": "Trendyol",
@@ -2154,6 +2180,10 @@
       {
         "date": "2026-09-01",
         "price": 74000
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 74148
       }
     ],
     "specs": {
@@ -2287,7 +2317,7 @@
     "rating": 4.95,
     "epeyScore": 99,
     "reviewCount": 2500,
-    "basePrice": 155250,
+    "basePrice": 118499,
     "currency": "TL",
     "releaseYear": 2026,
     "isPopular": true,
@@ -2330,9 +2360,10 @@
     "storeOffers": [
       {
         "storeName": "Hepsiburada",
-        "price": 155250,
-        "url": "https://www.hepsiburada.com/ara?q=Apple%20iPhone%2017%20Pro%20Max%20(2%20TB)",
-        "inStock": true
+        "price": 118499,
+        "url": "https://www.hepsiburada.com/apple-iphone-17-pro-max-256-gb-kozmik-turuncu-p-HBCV00009Z3Z8C",
+        "inStock": true,
+        "updatedAt": "2026-09-06T18:04:58.442Z"
       },
       {
         "storeName": "Trendyol",
@@ -2405,6 +2436,10 @@
       {
         "date": "2026-09-01",
         "price": 155250
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 118499
       }
     ],
     "specs": {
@@ -2525,7 +2560,7 @@
     "rating": 4.95,
     "epeyScore": 99,
     "reviewCount": 2470,
-    "basePrice": 143750,
+    "basePrice": 118499,
     "currency": "TL",
     "releaseYear": 2026,
     "isPopular": true,
@@ -2568,9 +2603,10 @@
     "storeOffers": [
       {
         "storeName": "Hepsiburada",
-        "price": 143750,
-        "url": "https://www.hepsiburada.com/ara?q=Apple%20iPhone%2017%20Pro%20Max%20(1%20TB)",
-        "inStock": true
+        "price": 118499,
+        "url": "https://www.hepsiburada.com/apple-iphone-17-pro-max-256-gb-kozmik-turuncu-p-HBCV00009Z3Z8C",
+        "inStock": true,
+        "updatedAt": "2026-09-06T18:05:02.173Z"
       },
       {
         "storeName": "Trendyol",
@@ -2643,6 +2679,10 @@
       {
         "date": "2026-09-01",
         "price": 143750
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 118499
       }
     ],
     "specs": {
@@ -2764,7 +2804,7 @@
     "rating": 4.95,
     "epeyScore": 99,
     "reviewCount": 2440,
-    "basePrice": 132250,
+    "basePrice": 118499,
     "currency": "TL",
     "releaseYear": 2026,
     "isPopular": true,
@@ -2807,9 +2847,10 @@
     "storeOffers": [
       {
         "storeName": "Hepsiburada",
-        "price": 132250,
-        "url": "https://www.hepsiburada.com/ara?q=Apple%20iPhone%2017%20Pro%20Max%20(512%20GB)",
-        "inStock": true
+        "price": 118499,
+        "url": "https://www.hepsiburada.com/apple-iphone-17-pro-max-256-gb-kozmik-turuncu-p-HBCV00009Z3Z8C",
+        "inStock": true,
+        "updatedAt": "2026-09-06T18:05:05.893Z"
       },
       {
         "storeName": "Trendyol",
@@ -2882,6 +2923,10 @@
       {
         "date": "2026-09-01",
         "price": 132250
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 118499
       }
     ],
     "specs": {
@@ -3004,7 +3049,7 @@
     "rating": 4.93,
     "epeyScore": 98,
     "reviewCount": 2410,
-    "basePrice": 122500,
+    "basePrice": 107499,
     "currency": "TL",
     "releaseYear": 2026,
     "isPopular": true,
@@ -3047,9 +3092,10 @@
     "storeOffers": [
       {
         "storeName": "Hepsiburada",
-        "price": 122500,
-        "url": "https://www.hepsiburada.com/ara?q=Apple%20iPhone%2017%20Pro%20(1%20TB)",
-        "inStock": true
+        "price": 107499,
+        "url": "https://www.hepsiburada.com/apple-iphone-17-pro-256-gb-kozmik-turuncu-p-HBCV00009Z3XL5",
+        "inStock": true,
+        "updatedAt": "2026-09-06T18:05:09.762Z"
       },
       {
         "storeName": "Trendyol",
@@ -3122,6 +3168,10 @@
       {
         "date": "2026-09-01",
         "price": 122500
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 107499
       }
     ],
     "specs": {
@@ -3243,7 +3293,7 @@
     "rating": 4.95,
     "epeyScore": 99,
     "reviewCount": 2380,
-    "basePrice": 124200,
+    "basePrice": 118499,
     "currency": "TL",
     "releaseYear": 2026,
     "isPopular": true,
@@ -3286,9 +3336,10 @@
     "storeOffers": [
       {
         "storeName": "Hepsiburada",
-        "price": 124200,
-        "url": "https://www.hepsiburada.com/ara?q=Apple%20iPhone%2017%20Pro%20Max%20(256%20GB)",
-        "inStock": true
+        "price": 118499,
+        "url": "https://www.hepsiburada.com/apple-iphone-17-pro-max-256-gb-kozmik-turuncu-p-HBCV00009Z3Z8C",
+        "inStock": true,
+        "updatedAt": "2026-09-06T18:05:14.377Z"
       },
       {
         "storeName": "Trendyol",
@@ -3361,6 +3412,10 @@
       {
         "date": "2026-09-01",
         "price": 124200
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 118499
       }
     ],
     "specs": {
@@ -3484,7 +3539,7 @@
     "rating": 4.93,
     "epeyScore": 98,
     "reviewCount": 2350,
-    "basePrice": 112700,
+    "basePrice": 107499,
     "currency": "TL",
     "releaseYear": 2026,
     "isPopular": true,
@@ -3527,9 +3582,10 @@
     "storeOffers": [
       {
         "storeName": "Hepsiburada",
-        "price": 112700,
-        "url": "https://www.hepsiburada.com/ara?q=Apple%20iPhone%2017%20Pro%20(512%20GB)",
-        "inStock": true
+        "price": 107499,
+        "url": "https://www.hepsiburada.com/apple-iphone-17-pro-256-gb-kozmik-turuncu-p-HBCV00009Z3XL5",
+        "inStock": true,
+        "updatedAt": "2026-09-06T18:05:18.372Z"
       },
       {
         "storeName": "Trendyol",
@@ -3602,6 +3658,10 @@
       {
         "date": "2026-09-01",
         "price": 112700
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 107499
       }
     ],
     "specs": {
@@ -3725,7 +3785,7 @@
     "rating": 4.95,
     "epeyScore": 98,
     "reviewCount": 2320,
-    "basePrice": 123749,
+    "basePrice": 123996,
     "currency": "TL",
     "releaseYear": 2025,
     "isPopular": true,
@@ -3773,9 +3833,10 @@
     "storeOffers": [
       {
         "storeName": "Hepsiburada",
-        "price": 123749,
-        "url": "https://www.hepsiburada.com/ara?q=Apple%20iPhone%2016%20Pro%20Max%20(1%20TB)",
-        "inStock": true
+        "price": 139999,
+        "url": "https://www.hepsiburada.com/apple-iphone-16-pro-max-512gb-beyaz-p-HBCV00006Y4HCB",
+        "inStock": true,
+        "updatedAt": "2026-09-06T18:05:22.756Z"
       },
       {
         "storeName": "Trendyol",
@@ -3848,6 +3909,10 @@
       {
         "date": "2026-09-01",
         "price": 123749
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 123996
       }
     ],
     "specs": {
@@ -3965,7 +4030,7 @@
     "rating": 4.93,
     "epeyScore": 98,
     "reviewCount": 2290,
-    "basePrice": 105840,
+    "basePrice": 106052,
     "currency": "TL",
     "releaseYear": 2026,
     "isPopular": true,
@@ -4008,9 +4073,10 @@
     "storeOffers": [
       {
         "storeName": "Hepsiburada",
-        "price": 105840,
-        "url": "https://www.hepsiburada.com/ara?q=Apple%20iPhone%2017%20Pro%20(256%20GB)",
-        "inStock": true
+        "price": 107499,
+        "url": "https://www.hepsiburada.com/apple-iphone-17-pro-256-gb-kozmik-turuncu-p-HBCV00009Z3XL5",
+        "inStock": true,
+        "updatedAt": "2026-09-06T18:05:26.917Z"
       },
       {
         "storeName": "Trendyol",
@@ -4083,6 +4149,10 @@
       {
         "date": "2026-09-01",
         "price": 105840
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 106052
       }
     ],
     "specs": {
@@ -4207,7 +4277,7 @@
     "rating": 4.95,
     "epeyScore": 98,
     "reviewCount": 2260,
-    "basePrice": 113849,
+    "basePrice": 114077,
     "currency": "TL",
     "releaseYear": 2025,
     "isPopular": true,
@@ -4255,9 +4325,10 @@
     "storeOffers": [
       {
         "storeName": "Hepsiburada",
-        "price": 113849,
-        "url": "https://www.hepsiburada.com/ara?q=Apple%20iPhone%2016%20Pro%20Max%20(512%20GB)",
-        "inStock": true
+        "price": 139999,
+        "url": "https://www.hepsiburada.com/apple-iphone-16-pro-max-512gb-beyaz-p-HBCV00006Y4HCB",
+        "inStock": true,
+        "updatedAt": "2026-09-06T18:05:30.458Z"
       },
       {
         "storeName": "Trendyol",
@@ -4330,6 +4401,10 @@
       {
         "date": "2026-09-01",
         "price": 113849
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 114077
       }
     ],
     "specs": {
@@ -4449,7 +4524,7 @@
     "rating": 4.95,
     "epeyScore": 98,
     "reviewCount": 2230,
-    "basePrice": 106919,
+    "basePrice": 107133,
     "currency": "TL",
     "releaseYear": 2025,
     "isPopular": true,
@@ -4497,9 +4572,10 @@
     "storeOffers": [
       {
         "storeName": "Hepsiburada",
-        "price": 106919,
-        "url": "https://www.hepsiburada.com/ara?q=Apple%20iPhone%2016%20Pro%20Max%20(256%20GB)",
-        "inStock": true
+        "price": 139999,
+        "url": "https://www.hepsiburada.com/apple-iphone-16-pro-max-512gb-beyaz-p-HBCV00006Y4HCB",
+        "inStock": true,
+        "updatedAt": "2026-09-06T18:05:33.225Z"
       },
       {
         "storeName": "Trendyol",
@@ -4572,6 +4648,10 @@
       {
         "date": "2026-09-01",
         "price": 106919
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 107133
       }
     ],
     "specs": {
@@ -4692,7 +4772,7 @@
     "rating": 4.93,
     "epeyScore": 97,
     "reviewCount": 2200,
-    "basePrice": 89639,
+    "basePrice": 89818,
     "currency": "TL",
     "releaseYear": 2025,
     "isPopular": false,
@@ -4740,9 +4820,10 @@
     "storeOffers": [
       {
         "storeName": "Hepsiburada",
-        "price": 89639,
-        "url": "https://www.hepsiburada.com/ara?q=Apple%20iPhone%2016%20Pro%20(256%20GB)",
-        "inStock": true
+        "price": 119499,
+        "url": "https://www.hepsiburada.com/apple-iphone-16-pro-128gb-col-titanyum-p-HBCV00006Y4HGL",
+        "inStock": true,
+        "updatedAt": "2026-09-06T18:05:38.912Z"
       },
       {
         "storeName": "Trendyol",
@@ -4815,6 +4896,10 @@
       {
         "date": "2026-09-01",
         "price": 89639
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 89818
       }
     ],
     "specs": {
@@ -5402,7 +5487,7 @@
     "rating": 4.93,
     "epeyScore": 97,
     "reviewCount": 2110,
-    "basePrice": 82999,
+    "basePrice": 83165,
     "currency": "TL",
     "releaseYear": 2025,
     "isPopular": false,
@@ -5450,9 +5535,10 @@
     "storeOffers": [
       {
         "storeName": "Hepsiburada",
-        "price": 82999,
-        "url": "https://www.hepsiburada.com/ara?q=Apple%20iPhone%2016%20Pro%20(128%20GB)",
-        "inStock": true
+        "price": 119499,
+        "url": "https://www.hepsiburada.com/apple-iphone-16-pro-128gb-col-titanyum-p-HBCV00006Y4HGL",
+        "inStock": true,
+        "updatedAt": "2026-09-06T18:05:51.220Z"
       },
       {
         "storeName": "Trendyol",
@@ -5525,6 +5611,10 @@
       {
         "date": "2026-09-01",
         "price": 82999
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 83165
       }
     ],
     "specs": {
@@ -5644,7 +5734,7 @@
     "rating": 4.89,
     "epeyScore": 95,
     "reviewCount": 2080,
-    "basePrice": 73999,
+    "basePrice": 74147,
     "currency": "TL",
     "releaseYear": 2025,
     "isPopular": false,
@@ -5687,9 +5777,10 @@
     "storeOffers": [
       {
         "storeName": "Hepsiburada",
-        "price": 73999,
-        "url": "https://www.hepsiburada.com/ara?q=Apple%20iPhone%2016%20Plus%20(128%20GB)",
-        "inStock": true
+        "price": 77499,
+        "url": "https://www.hepsiburada.com/apple-iphone-16-plus-128gb-lacivert-tas-p-HBCV00006Y4HUD",
+        "inStock": true,
+        "updatedAt": "2026-09-06T18:05:55.165Z"
       },
       {
         "storeName": "Trendyol",
@@ -5762,6 +5853,10 @@
       {
         "date": "2026-09-01",
         "price": 73999
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 74147
       }
     ],
     "specs": {
@@ -5890,7 +5985,7 @@
     "rating": 4.8,
     "epeyScore": 94,
     "reviewCount": 2050,
-    "basePrice": 68999,
+    "basePrice": 60999,
     "currency": "TL",
     "releaseYear": 2022,
     "isPopular": false,
@@ -5937,9 +6032,10 @@
     "storeOffers": [
       {
         "storeName": "Hepsiburada",
-        "price": 68999,
-        "url": "https://www.hepsiburada.com/ara?q=Apple%20iPhone%2014%20Pro%20Max%20(128%20GB)",
-        "inStock": true
+        "price": 60999,
+        "url": "https://www.hepsiburada.com/iphone-14-pro-max-128gb-derin-mor-yenilenmis-outlet-p-HBCV000076RAHD",
+        "inStock": true,
+        "updatedAt": "2026-09-06T18:06:00.063Z"
       },
       {
         "storeName": "Trendyol",
@@ -6012,6 +6108,10 @@
       {
         "date": "2026-09-01",
         "price": 68999
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 60999
       }
     ],
     "specs": {
@@ -6366,7 +6466,7 @@
     "rating": 4.8,
     "epeyScore": 91,
     "reviewCount": 1990,
-    "basePrice": 68749,
+    "basePrice": 68886,
     "currency": "TL",
     "releaseYear": 2021,
     "isPopular": false,
@@ -6418,9 +6518,10 @@
     "storeOffers": [
       {
         "storeName": "Hepsiburada",
-        "price": 68749,
-        "url": "https://www.hepsiburada.com/ara?q=Apple%20iPhone%2013%20Pro%20Max%20(1%20TB)",
-        "inStock": true
+        "price": 106999,
+        "url": "https://www.hepsiburada.com/iphone-13-pro-max-1-tb-gumus-p-HBCV00000OM9OX",
+        "inStock": true,
+        "updatedAt": "2026-09-06T18:06:09.792Z"
       },
       {
         "storeName": "Trendyol",
@@ -6493,6 +6594,10 @@
       {
         "date": "2026-09-01",
         "price": 68749
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 68886
       }
     ],
     "specs": {
@@ -6618,7 +6723,7 @@
     "rating": 4.89,
     "epeyScore": 92,
     "reviewCount": 1960,
-    "basePrice": 60949,
+    "basePrice": 44499,
     "currency": "TL",
     "releaseYear": 2025,
     "isPopular": false,
@@ -6656,9 +6761,10 @@
     "storeOffers": [
       {
         "storeName": "Hepsiburada",
-        "price": 60949,
-        "url": "https://www.hepsiburada.com/ara?q=Apple%20iPhone%2016e%20(512%20GB)",
-        "inStock": true
+        "price": 44499,
+        "url": "https://www.hepsiburada.com/apple-iphone-16e-128gb-beyaz-p-HBCV0000823QX8",
+        "inStock": true,
+        "updatedAt": "2026-09-06T18:06:13.987Z"
       },
       {
         "storeName": "Trendyol",
@@ -6731,6 +6837,10 @@
       {
         "date": "2026-09-01",
         "price": 60949
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 44499
       }
     ],
     "specs": {
@@ -6828,7 +6938,7 @@
     "rating": 4.8,
     "epeyScore": 91,
     "reviewCount": 1930,
-    "basePrice": 63249,
+    "basePrice": 63375,
     "currency": "TL",
     "releaseYear": 2021,
     "isPopular": false,
@@ -6880,9 +6990,10 @@
     "storeOffers": [
       {
         "storeName": "Hepsiburada",
-        "price": 63249,
-        "url": "https://www.hepsiburada.com/ara?q=Apple%20iPhone%2013%20Pro%20Max%20(512%20GB)",
-        "inStock": true
+        "price": 106999,
+        "url": "https://www.hepsiburada.com/iphone-13-pro-max-1-tb-gumus-p-HBCV00000OM9OX",
+        "inStock": true,
+        "updatedAt": "2026-09-06T18:06:17.478Z"
       },
       {
         "storeName": "Trendyol",
@@ -6955,6 +7066,10 @@
       {
         "date": "2026-09-01",
         "price": 63249
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 63375
       }
     ],
     "specs": {
@@ -7083,7 +7198,7 @@
     "rating": 4.89,
     "epeyScore": 94,
     "reviewCount": 1900,
-    "basePrice": 64999,
+    "basePrice": 63999,
     "currency": "TL",
     "releaseYear": 2025,
     "isPopular": false,
@@ -7136,9 +7251,10 @@
     "storeOffers": [
       {
         "storeName": "Hepsiburada",
-        "price": 64999,
-        "url": "https://www.hepsiburada.com/ara?q=Apple%20iPhone%2016%20(128%20GB)",
-        "inStock": true
+        "price": 63999,
+        "url": "https://www.hepsiburada.com/apple-iphone-16-128gb-pembe-p-HBCV00006Y4HU3",
+        "inStock": true,
+        "updatedAt": "2026-09-06T18:06:21.203Z"
       },
       {
         "storeName": "Trendyol",
@@ -7211,6 +7327,10 @@
       {
         "date": "2026-09-01",
         "price": 64999
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 63999
       }
     ],
     "specs": {
@@ -7580,7 +7700,7 @@
     "rating": 4.89,
     "epeyScore": 92,
     "reviewCount": 1840,
-    "basePrice": 57239,
+    "basePrice": 44499,
     "currency": "TL",
     "releaseYear": 2025,
     "isPopular": false,
@@ -7618,9 +7738,10 @@
     "storeOffers": [
       {
         "storeName": "Hepsiburada",
-        "price": 57239,
-        "url": "https://www.hepsiburada.com/ara?q=Apple%20iPhone%2016e%20(256%20GB)",
-        "inStock": true
+        "price": 44499,
+        "url": "https://www.hepsiburada.com/apple-iphone-16e-128gb-beyaz-p-HBCV0000823QX8",
+        "inStock": true,
+        "updatedAt": "2026-09-06T18:06:27.835Z"
       },
       {
         "storeName": "Trendyol",
@@ -7693,6 +7814,10 @@
       {
         "date": "2026-09-01",
         "price": 57239
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 44499
       }
     ],
     "specs": {
@@ -8038,7 +8163,7 @@
     "rating": 4.89,
     "epeyScore": 92,
     "reviewCount": 1780,
-    "basePrice": 52999,
+    "basePrice": 44499,
     "currency": "TL",
     "releaseYear": 2025,
     "isPopular": false,
@@ -8076,9 +8201,10 @@
     "storeOffers": [
       {
         "storeName": "Hepsiburada",
-        "price": 52999,
-        "url": "https://www.hepsiburada.com/ara?q=Apple%20iPhone%2016e%20(128%20GB)",
-        "inStock": true
+        "price": 44499,
+        "url": "https://www.hepsiburada.com/apple-iphone-16e-128gb-beyaz-p-HBCV0000823QX8",
+        "inStock": true,
+        "updatedAt": "2026-09-06T18:06:35.228Z"
       },
       {
         "storeName": "Trendyol",
@@ -8151,6 +8277,10 @@
       {
         "date": "2026-09-01",
         "price": 52999
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 44499
       }
     ],
     "specs": {
@@ -8249,7 +8379,7 @@
     "rating": 4.8,
     "epeyScore": 90,
     "reviewCount": 1750,
-    "basePrice": 55199,
+    "basePrice": 55309,
     "currency": "TL",
     "releaseYear": 2021,
     "isPopular": false,
@@ -8301,9 +8431,10 @@
     "storeOffers": [
       {
         "storeName": "Hepsiburada",
-        "price": 55199,
-        "url": "https://www.hepsiburada.com/ara?q=Apple%20iPhone%2013%20Pro%20(512%20GB)",
-        "inStock": true
+        "price": 81999,
+        "url": "https://www.hepsiburada.com/apple-iphone-13-pro-128-gb-kursun-gri-p-HBCV00000ODIGK",
+        "inStock": true,
+        "updatedAt": "2026-09-06T18:06:41.472Z"
       },
       {
         "storeName": "Trendyol",
@@ -8376,6 +8507,10 @@
       {
         "date": "2026-09-01",
         "price": 55199
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 55309
       }
     ],
     "specs": {
@@ -8500,7 +8635,7 @@
     "rating": 4.8,
     "epeyScore": 91,
     "reviewCount": 1720,
-    "basePrice": 54999,
+    "basePrice": 55109,
     "currency": "TL",
     "releaseYear": 2021,
     "isPopular": false,
@@ -8552,9 +8687,10 @@
     "storeOffers": [
       {
         "storeName": "Hepsiburada",
-        "price": 54999,
-        "url": "https://www.hepsiburada.com/ara?q=Apple%20iPhone%2013%20Pro%20Max%20(128%20GB)",
-        "inStock": true
+        "price": 106999,
+        "url": "https://www.hepsiburada.com/iphone-13-pro-max-1-tb-gumus-p-HBCV00000OM9OX",
+        "inStock": true,
+        "updatedAt": "2026-09-06T18:06:44.473Z"
       },
       {
         "storeName": "Trendyol",
@@ -8627,6 +8763,10 @@
       {
         "date": "2026-09-01",
         "price": 54999
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 55109
       }
     ],
     "specs": {
@@ -8754,7 +8894,7 @@
     "rating": 4.86,
     "epeyScore": 92,
     "reviewCount": 1690,
-    "basePrice": 62099,
+    "basePrice": 48999,
     "currency": "TL",
     "releaseYear": 2023,
     "isPopular": false,
@@ -8806,9 +8946,10 @@
     "storeOffers": [
       {
         "storeName": "Hepsiburada",
-        "price": 62099,
-        "url": "https://www.hepsiburada.com/ara?q=Apple%20iPhone%2015%20(512%20GB)",
-        "inStock": true
+        "price": 48999,
+        "url": "https://www.hepsiburada.com/apple-iphone-15-128-gb-siyah-p-HBCV00004X9ZCH",
+        "inStock": true,
+        "updatedAt": "2026-09-06T18:06:49.249Z"
       },
       {
         "storeName": "Trendyol",
@@ -8881,6 +9022,10 @@
       {
         "date": "2026-09-01",
         "price": 62099
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 48999
       }
     ],
     "specs": {
@@ -8996,7 +9141,7 @@
     "rating": 4.8,
     "epeyScore": 76,
     "reviewCount": 1660,
-    "basePrice": 31999,
+    "basePrice": 32063,
     "currency": "TL",
     "releaseYear": 2020,
     "isPopular": false,
@@ -9053,9 +9198,10 @@
     "storeOffers": [
       {
         "storeName": "Hepsiburada",
-        "price": 31999,
-        "url": "https://www.hepsiburada.com/ara?q=Apple%20iPhone%2011%20(128%20GB)",
-        "inStock": true
+        "price": 35000,
+        "url": "https://www.hepsiburada.com/iphone-11-64-gb-red-special-edition-p-HBV0000120X67",
+        "inStock": true,
+        "updatedAt": "2026-09-06T18:06:53.966Z"
       },
       {
         "storeName": "Trendyol",
@@ -9128,6 +9274,10 @@
       {
         "date": "2026-09-01",
         "price": 31999
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 32063
       }
     ],
     "specs": {
@@ -9258,7 +9408,7 @@
     "rating": 4.8,
     "epeyScore": 76,
     "reviewCount": 1630,
-    "basePrice": 22999,
+    "basePrice": 23045,
     "currency": "TL",
     "releaseYear": 2019,
     "isPopular": false,
@@ -9315,9 +9465,10 @@
     "storeOffers": [
       {
         "storeName": "Hepsiburada",
-        "price": 22999,
-        "url": "https://www.hepsiburada.com/ara?q=Apple%20iPhone%2011%20(64%20GB)",
-        "inStock": true
+        "price": 35000,
+        "url": "https://www.hepsiburada.com/iphone-11-64-gb-red-special-edition-p-HBV0000120X67",
+        "inStock": true,
+        "updatedAt": "2026-09-06T18:06:58.061Z"
       },
       {
         "storeName": "Trendyol",
@@ -9390,6 +9541,10 @@
       {
         "date": "2026-09-01",
         "price": 22999
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 23045
       }
     ],
     "specs": {
@@ -9746,7 +9901,7 @@
     "rating": 4.8,
     "epeyScore": 75,
     "reviewCount": 1570,
-    "basePrice": 18999,
+    "basePrice": 9699,
     "currency": "TL",
     "releaseYear": 2020,
     "isPopular": false,
@@ -9788,9 +9943,10 @@
     "storeOffers": [
       {
         "storeName": "Hepsiburada",
-        "price": 18999,
-        "url": "https://www.hepsiburada.com/ara?q=Apple%20iPhone%20SE%202%20(2020)",
-        "inStock": true
+        "price": 9699,
+        "url": "https://www.hepsiburada.com/yenilenmis-apple-iphone-se-2020-128-gb-2-nesil-12-ay-garantili-a-grade-p-HBCV0000202AE5",
+        "inStock": true,
+        "updatedAt": "2026-09-06T18:07:05.885Z"
       },
       {
         "storeName": "Trendyol",
@@ -9863,6 +10019,10 @@
       {
         "date": "2026-09-01",
         "price": 18999
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 9699
       }
     ],
     "specs": {
@@ -10458,7 +10618,7 @@
     "rating": 4.93,
     "epeyScore": 97,
     "reviewCount": 1480,
-    "basePrice": 103749,
+    "basePrice": 103956,
     "currency": "TL",
     "releaseYear": 2025,
     "isPopular": false,
@@ -10506,9 +10666,10 @@
     "storeOffers": [
       {
         "storeName": "Hepsiburada",
-        "price": 103749,
-        "url": "https://www.hepsiburada.com/ara?q=Apple%20iPhone%2016%20Pro%20(1%20TB)",
-        "inStock": true
+        "price": 119499,
+        "url": "https://www.hepsiburada.com/apple-iphone-16-pro-128gb-col-titanyum-p-HBCV00006Y4HGL",
+        "inStock": true,
+        "updatedAt": "2026-09-06T18:07:20.601Z"
       },
       {
         "storeName": "Trendyol",
@@ -10581,6 +10742,10 @@
       {
         "date": "2026-09-01",
         "price": 103749
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 103956
       }
     ],
     "specs": {
@@ -10699,7 +10864,7 @@
     "rating": 4.93,
     "epeyScore": 97,
     "reviewCount": 1450,
-    "basePrice": 95449,
+    "basePrice": 95640,
     "currency": "TL",
     "releaseYear": 2025,
     "isPopular": false,
@@ -10747,9 +10912,10 @@
     "storeOffers": [
       {
         "storeName": "Hepsiburada",
-        "price": 95449,
-        "url": "https://www.hepsiburada.com/ara?q=Apple%20iPhone%2016%20Pro%20(512%20GB)",
-        "inStock": true
+        "price": 119499,
+        "url": "https://www.hepsiburada.com/apple-iphone-16-pro-128gb-col-titanyum-p-HBCV00006Y4HGL",
+        "inStock": true,
+        "updatedAt": "2026-09-06T18:07:24.975Z"
       },
       {
         "storeName": "Trendyol",
@@ -10822,6 +10988,10 @@
       {
         "date": "2026-09-01",
         "price": 95449
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 95640
       }
     ],
     "specs": {
@@ -10940,7 +11110,7 @@
     "rating": 4.9,
     "epeyScore": 95,
     "reviewCount": 1420,
-    "basePrice": 91249,
+    "basePrice": 91431,
     "currency": "TL",
     "releaseYear": 2023,
     "isPopular": false,
@@ -10988,9 +11158,10 @@
     "storeOffers": [
       {
         "storeName": "Hepsiburada",
-        "price": 91249,
-        "url": "https://www.hepsiburada.com/ara?q=Apple%20iPhone%2015%20Pro%20(1%20TB)",
-        "inStock": true
+        "price": 117000,
+        "url": "https://www.hepsiburada.com/apple-iphone-15-pro-128-gb-naturel-titanyum-p-HBCV00004XA874",
+        "inStock": true,
+        "updatedAt": "2026-09-06T18:07:31.445Z"
       },
       {
         "storeName": "Trendyol",
@@ -11063,6 +11234,10 @@
       {
         "date": "2026-09-01",
         "price": 91249
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 91431
       }
     ],
     "specs": {
@@ -11651,7 +11826,7 @@
     "rating": 4.89,
     "epeyScore": 94,
     "reviewCount": 1330,
-    "basePrice": 70199,
+    "basePrice": 63999,
     "currency": "TL",
     "releaseYear": 2025,
     "isPopular": false,
@@ -11704,9 +11879,10 @@
     "storeOffers": [
       {
         "storeName": "Hepsiburada",
-        "price": 70199,
-        "url": "https://www.hepsiburada.com/ara?q=Apple%20iPhone%2016%20(256%20GB)",
-        "inStock": true
+        "price": 63999,
+        "url": "https://www.hepsiburada.com/apple-iphone-16-128gb-pembe-p-HBCV00006Y4HU3",
+        "inStock": true,
+        "updatedAt": "2026-09-06T18:07:42.653Z"
       },
       {
         "storeName": "Trendyol",
@@ -11779,6 +11955,10 @@
       {
         "date": "2026-09-01",
         "price": 70199
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 63999
       }
     ],
     "specs": {
@@ -11909,7 +12089,7 @@
     "rating": 4.8,
     "epeyScore": 91,
     "reviewCount": 1300,
-    "basePrice": 59399,
+    "basePrice": 59518,
     "currency": "TL",
     "releaseYear": 2021,
     "isPopular": false,
@@ -11961,9 +12141,10 @@
     "storeOffers": [
       {
         "storeName": "Hepsiburada",
-        "price": 59399,
-        "url": "https://www.hepsiburada.com/ara?q=Apple%20iPhone%2013%20Pro%20Max%20(256%20GB)",
-        "inStock": true
+        "price": 106999,
+        "url": "https://www.hepsiburada.com/iphone-13-pro-max-1-tb-gumus-p-HBCV00000OM9OX",
+        "inStock": true,
+        "updatedAt": "2026-09-06T18:07:45.868Z"
       },
       {
         "storeName": "Trendyol",
@@ -12036,6 +12217,10 @@
       {
         "date": "2026-09-01",
         "price": 59399
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 59518
       }
     ],
     "specs": {
@@ -12160,7 +12345,7 @@
     "rating": 4.8,
     "epeyScore": 90,
     "reviewCount": 1270,
-    "basePrice": 59999,
+    "basePrice": 60119,
     "currency": "TL",
     "releaseYear": 2021,
     "isPopular": false,
@@ -12212,9 +12397,10 @@
     "storeOffers": [
       {
         "storeName": "Hepsiburada",
-        "price": 59999,
-        "url": "https://www.hepsiburada.com/ara?q=Apple%20iPhone%2013%20Pro%20(1%20TB)",
-        "inStock": true
+        "price": 81999,
+        "url": "https://www.hepsiburada.com/apple-iphone-13-pro-128-gb-kursun-gri-p-HBCV00000ODIGK",
+        "inStock": true,
+        "updatedAt": "2026-09-06T18:07:51.194Z"
       },
       {
         "storeName": "Trendyol",
@@ -12287,6 +12473,10 @@
       {
         "date": "2026-09-01",
         "price": 59999
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 60119
       }
     ],
     "specs": {
@@ -13806,7 +13996,7 @@
     "rating": 4.8,
     "epeyScore": 76,
     "reviewCount": 1060,
-    "basePrice": 26999,
+    "basePrice": 27053,
     "currency": "TL",
     "releaseYear": 2019,
     "isPopular": false,
@@ -13863,9 +14053,10 @@
     "storeOffers": [
       {
         "storeName": "Hepsiburada",
-        "price": 26999,
-        "url": "https://www.hepsiburada.com/ara?q=Apple%20iPhone%2011%20(256%20GB)",
-        "inStock": true
+        "price": 35000,
+        "url": "https://www.hepsiburada.com/iphone-11-64-gb-red-special-edition-p-HBV0000120X67",
+        "inStock": true,
+        "updatedAt": "2026-09-06T18:08:26.454Z"
       },
       {
         "storeName": "Trendyol",
@@ -13938,6 +14129,10 @@
       {
         "date": "2026-09-01",
         "price": 26999
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 27053
       }
     ],
     "specs": {
@@ -15180,7 +15375,7 @@
     "rating": 4.8,
     "epeyScore": 82,
     "reviewCount": 880,
-    "basePrice": 26999,
+    "basePrice": 9699,
     "currency": "TL",
     "releaseYear": 2022,
     "isPopular": false,
@@ -15222,9 +15417,10 @@
     "storeOffers": [
       {
         "storeName": "Hepsiburada",
-        "price": 26999,
-        "url": "https://www.hepsiburada.com/ara?q=Apple%20iPhone%20SE%203%20(2022)",
-        "inStock": true
+        "price": 9699,
+        "url": "https://www.hepsiburada.com/yenilenmis-apple-iphone-se-2020-128-gb-2-nesil-12-ay-garantili-a-grade-p-HBCV0000202AE5",
+        "inStock": true,
+        "updatedAt": "2026-09-06T18:08:53.425Z"
       },
       {
         "storeName": "Trendyol",
@@ -15297,6 +15493,10 @@
       {
         "date": "2026-09-01",
         "price": 26999
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 9699
       }
     ],
     "specs": {
@@ -15630,7 +15830,7 @@
     "rating": 4.8,
     "epeyScore": 75,
     "reviewCount": 820,
-    "basePrice": 20519,
+    "basePrice": 9699,
     "currency": "TL",
     "releaseYear": 2020,
     "isPopular": false,
@@ -15672,9 +15872,10 @@
     "storeOffers": [
       {
         "storeName": "Hepsiburada",
-        "price": 20519,
-        "url": "https://www.hepsiburada.com/ara?q=Apple%20iPhone%20SE%202%20(2020)%20(256%20GB)",
-        "inStock": true
+        "price": 9699,
+        "url": "https://www.hepsiburada.com/yenilenmis-apple-iphone-se-2020-128-gb-2-nesil-12-ay-garantili-a-grade-p-HBCV0000202AE5",
+        "inStock": true,
+        "updatedAt": "2026-09-06T18:09:01.488Z"
       },
       {
         "storeName": "Trendyol",
@@ -15747,6 +15948,10 @@
       {
         "date": "2026-09-01",
         "price": 20519
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 9699
       }
     ],
     "specs": {
@@ -18161,7 +18366,7 @@
     "rating": 4.8,
     "epeyScore": 42,
     "reviewCount": 520,
-    "basePrice": 31999,
+    "basePrice": 32063,
     "currency": "TL",
     "releaseYear": 2020,
     "isPopular": false,
@@ -18203,9 +18408,10 @@
     "storeOffers": [
       {
         "storeName": "Hepsiburada",
-        "price": 31999,
-        "url": "https://www.hepsiburada.com/ara?q=Apple%20iPhone%206%20Plus%20(128%20GB)",
-        "inStock": true
+        "price": 77499,
+        "url": "https://www.hepsiburada.com/apple-iphone-16-plus-128gb-lacivert-tas-p-HBCV00006Y4HUD",
+        "inStock": true,
+        "updatedAt": "2026-09-06T18:09:44.622Z"
       },
       {
         "storeName": "Trendyol",
@@ -18278,6 +18484,10 @@
       {
         "date": "2026-09-01",
         "price": 31999
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 32063
       }
     ],
     "specs": {
@@ -19314,7 +19524,7 @@
     "rating": 4.8,
     "epeyScore": 40,
     "reviewCount": 370,
-    "basePrice": 31999,
+    "basePrice": 32063,
     "currency": "TL",
     "releaseYear": 2020,
     "isPopular": false,
@@ -19356,9 +19566,10 @@
     "storeOffers": [
       {
         "storeName": "Hepsiburada",
-        "price": 31999,
-        "url": "https://www.hepsiburada.com/ara?q=Apple%20iPhone%206%20(128%20GB)",
-        "inStock": true
+        "price": 48999,
+        "url": "https://www.hepsiburada.com/apple-iphone-15-128-gb-siyah-p-HBCV00004X9ZCH",
+        "inStock": true,
+        "updatedAt": "2026-09-06T18:10:10.217Z"
       },
       {
         "storeName": "Trendyol",
@@ -19431,6 +19642,10 @@
       {
         "date": "2026-09-01",
         "price": 31999
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 32063
       }
     ],
     "specs": {
@@ -22764,11 +22979,12 @@
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 18259,
+        "price": 19949,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=vivo%20V50%20Lite",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/vivo-v50-lite-8gb-256gb-altin-vivo-turkiye-garantili-p-HBCV000087D1NC",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T18:11:18.653Z"
       },
       {
         "storeName": "Trendyol",
@@ -22840,6 +23056,10 @@
       {
         "date": "Ağustos 2026",
         "price": 18260
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 18169
       }
     ],
     "specs": {
@@ -23796,11 +24016,12 @@
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 27709,
+        "price": 29899,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=vivo%20V50%205G",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/vivo-v50-12gb-256gb-uzay-mavisi-5g-cep-telefonu-hizli-mobil-baglanti-ozellikleriyle-p-HBCV00007YNKFO",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T18:11:44.239Z"
       },
       {
         "storeName": "Trendyol",
@@ -23872,6 +24093,10 @@
       {
         "date": "Ağustos 2026",
         "price": 27710
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 27569
       }
     ],
     "specs": {
@@ -24723,11 +24948,12 @@
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 7999,
+        "price": 8899,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Poco%20C81%20Pro",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/poco-c81-pro-128-gb-4-gb-ram-poco-turkiye-garantili-siyah-p-HBCV0000F7Z39B",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T18:12:08.315Z"
       },
       {
         "storeName": "Trendyol",
@@ -24799,6 +25025,10 @@
       {
         "date": "Ağustos 2026",
         "price": 8000
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 7959
       }
     ],
     "colorOptions": [
@@ -26091,11 +26321,12 @@
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 42339,
+        "price": 53999,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Poco%20F8%20Pro",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/poco-f8-pro-512-gb-12-gb-ram-poco-turkiye-garantili-siyah-p-HBCV0000AZWUL6",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T18:12:37.915Z"
       },
       {
         "storeName": "Trendyol",
@@ -26167,6 +26398,10 @@
       {
         "date": "Ağustos 2026",
         "price": 42340
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 42129
       }
     ],
     "colorOptions": [
@@ -26624,11 +26859,12 @@
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 43729,
+        "price": 54599,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Honor%20600%20Pro",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/honor-600-pro-5g-512-gb-12-gb-ram-honor-turkiye-garantili-altin-beyazi-p-HBCV0000E0R6MX",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T18:12:55.116Z"
       },
       {
         "storeName": "Trendyol",
@@ -26700,6 +26936,10 @@
       {
         "date": "Ağustos 2026",
         "price": 43730
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 43509
       }
     ],
     "specs": {
@@ -26779,7 +27019,7 @@
     "name": "Honor 600",
     "brand": "Honor",
     "category": "smartphones",
-    "basePrice": 33839,
+    "basePrice": 29899,
     "currency": "TL",
     "rating": 4.4,
     "reviewCount": 642,
@@ -26797,11 +27037,12 @@
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 34009,
+        "price": 29899,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Honor%20600",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/honor-600-5g-256-gb-8-gb-ram-honor-turkiye-garantili-altin-beyazi-p-HBCV0000E0R6N1",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T18:13:00.906Z"
       },
       {
         "storeName": "Trendyol",
@@ -26873,6 +27114,10 @@
       {
         "date": "Ağustos 2026",
         "price": 34010
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 29899
       }
     ],
     "specs": {
@@ -27143,11 +27388,12 @@
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 19429,
+        "price": 29199,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Honor%20Magic8%20Lite",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/honor-magic-8-lite-5g-256-gb-8-gb-ram-honor-turkiye-garantili-orman-yesili-p-HBCV0000B5VKGG",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T18:13:11.210Z"
       },
       {
         "storeName": "Trendyol",
@@ -27219,6 +27465,10 @@
       {
         "date": "Ağustos 2026",
         "price": 19430
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 19329
       }
     ],
     "specs": {
@@ -27298,7 +27548,7 @@
     "name": "Honor Magic8 Pro",
     "brand": "Honor",
     "category": "smartphones",
-    "basePrice": 75739,
+    "basePrice": 70049,
     "currency": "TL",
     "rating": 4.6,
     "reviewCount": 519,
@@ -27316,11 +27566,12 @@
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 76119,
+        "price": 70049,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Honor%20Magic8%20Pro",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/honor-magic-8-pro-5g-512-gb-12-gb-ram-honor-turkiye-garantili-siyah-p-HBCV0000CATQ5D",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T18:13:14.929Z"
       },
       {
         "storeName": "Trendyol",
@@ -27392,6 +27643,10 @@
       {
         "date": "Ağustos 2026",
         "price": 76120
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 70049
       }
     ],
     "specs": {
@@ -40554,11 +40809,12 @@
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 12679,
+        "price": 13999,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Spark%2020%20Pro",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/tecno-spark-20-pro-256-gb-8-gb-ram-tecno-turkiye-garantili-siyah-p-HBCV00006TZQYN",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T18:17:53.833Z"
       },
       {
         "storeName": "Trendyol",
@@ -40630,6 +40886,10 @@
       {
         "date": "Ağustos 2026",
         "price": 12680
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 12619
       }
     ],
     "price": 12999,
@@ -40902,11 +41162,12 @@
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 11699,
+        "price": 26999,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Pova%207",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/tecno-pova-curve-2-5g-256-gb-8-gb-ram-tecno-turkiye-garantili-mor-p-HBCV0000DUW39R",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T18:18:01.180Z"
       },
       {
         "storeName": "Trendyol",
@@ -40978,6 +41239,10 @@
       {
         "date": "Ağustos 2026",
         "price": 11700
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 11639
       }
     ],
     "price": 11999,
@@ -41424,11 +41689,12 @@
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 12679,
+        "price": 14999,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Spark%2040%20Pro",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/tecno-spark-40-pro-256-gb-8-gb-ram-tecno-turkiye-garantili-titanyum-p-HBCV00009Z6Z5D",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T18:18:12.177Z"
       },
       {
         "storeName": "Trendyol",
@@ -41500,6 +41766,10 @@
       {
         "date": "Ağustos 2026",
         "price": 12680
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 12619
       }
     ],
     "price": 12999,
@@ -41598,11 +41868,12 @@
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 8779,
+        "price": 10990,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Spark%2040%204G",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/tecno-spark-40c-128-gb-4-gb-ram-tecno-turkiye-garantili-murekkep-siyah-p-HBCV00009Z6V0O",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T18:18:16.097Z"
       },
       {
         "storeName": "Trendyol",
@@ -41674,6 +41945,10 @@
       {
         "date": "Ağustos 2026",
         "price": 8780
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 8739
       }
     ],
     "price": 8999,
@@ -42407,11 +42682,12 @@
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 34479,
+        "price": 53999,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=POCO%20F7%20Ultra",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/poco-f7-ultra-512-gb-16-gb-ram-poco-turkiye-garantili-sari-p-HBCV00008CEJRV",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T18:18:33.046Z"
       },
       {
         "storeName": "Trendyol",
@@ -42483,6 +42759,10 @@
       {
         "date": "Ağustos 2026",
         "price": 34480
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 34309
       }
     ],
     "specs": {
@@ -44394,11 +44674,12 @@
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 4429,
+        "price": 7500,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Samsung%20Galaxy%20A9%20(2018)",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/samsung-galaxy-tab-a9-wi-fi-sm-x110-4gb-64gb-8-7-tablet-graphite-p-HBCV0000514IL0",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T18:19:21.392Z"
       },
       {
         "storeName": "Trendyol",
@@ -44470,6 +44751,10 @@
       {
         "date": "Ağustos 2026",
         "price": 4430
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 4409
       }
     ],
     "specs": {
@@ -45204,11 +45489,12 @@
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 12309,
+        "price": 19690.03,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Samsung%20Galaxy%20S10",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/samsung-galaxy-tab-s10-fe-8gb-128gb-sm-x520-samsung-turkiye-garantili-p-HBCV00008E1T2M",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T18:19:41.954Z"
       },
       {
         "storeName": "Trendyol",
@@ -45280,6 +45566,10 @@
       {
         "date": "Ağustos 2026",
         "price": 12310
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 12249
       }
     ],
     "specs": {
@@ -45366,11 +45656,12 @@
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 14779,
+        "price": 24599,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Samsung%20Galaxy%20S10%2B",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/samsung-galaxy-tab-s10-fe-plus-sm-x620-12-gb-256-gb-13-1-tablet-p-HBCV00008LK0KW",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T18:19:45.766Z"
       },
       {
         "storeName": "Trendyol",
@@ -45442,6 +45733,10 @@
       {
         "date": "Ağustos 2026",
         "price": 14780
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 14709
       }
     ],
     "specs": {
@@ -49421,11 +49716,12 @@
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 2459,
+        "price": 5296.06,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Samsung%20Galaxy%20A11",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/samsung-galaxy-tab-a11-4gb-64gb-sm-x130-gri-p-HBCV0000AKZWC4",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T18:21:19.613Z"
       },
       {
         "storeName": "Trendyol",
@@ -49497,6 +49793,10 @@
       {
         "date": "Ağustos 2026",
         "price": 2460
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 2449
       }
     ],
     "specs": {
@@ -54157,11 +54457,12 @@
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 27579,
+        "price": 61599,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Samsung%20Galaxy%20Z%20Flip%204",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/samsung-galaxy-z-flip7-256-gb-12-gb-ram-samsung-turkiye-garantili-golge-mavisi-p-HBCV000096XANB",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T18:23:05.741Z"
       },
       {
         "storeName": "Trendyol",
@@ -54233,6 +54534,10 @@
       {
         "date": "Ağustos 2026",
         "price": 27580
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 27439
       }
     ],
     "specs": {
@@ -55945,11 +56250,12 @@
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 29549,
+        "price": 44999,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Samsung%20Galaxy%20S23",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/samsung-galaxy-s23-256-gb-8-gb-ram-samsung-turkiye-garantili-yesil-p-HBCV00003P2GG0",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T18:23:47.987Z"
       },
       {
         "storeName": "Trendyol",
@@ -56021,6 +56327,10 @@
       {
         "date": "Ağustos 2026",
         "price": 29550
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 29399
       }
     ],
     "specs": {
@@ -56512,11 +56822,12 @@
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 23639,
+        "price": 43999,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Samsung%20Galaxy%20S23%20FE",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/samsung-galaxy-s23-fe-128-gb-samsung-turkiye-garantili-mor-p-HBCV000052WYQ3",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T18:24:02.670Z"
       },
       {
         "storeName": "Trendyol",
@@ -56588,6 +56899,10 @@
       {
         "date": "Ağustos 2026",
         "price": 23640
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 23519
       }
     ],
     "specs": {
@@ -56688,11 +57003,12 @@
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 37429,
+        "price": 61599,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Samsung%20Galaxy%20Z%20Flip%205",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/samsung-galaxy-z-flip7-256-gb-12-gb-ram-samsung-turkiye-garantili-golge-mavisi-p-HBCV000096XANB",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T18:24:06.345Z"
       },
       {
         "storeName": "Trendyol",
@@ -56764,6 +57080,10 @@
       {
         "date": "Ağustos 2026",
         "price": 37430
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 37239
       }
     ],
     "specs": {
@@ -57013,11 +57333,12 @@
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 5909,
+        "price": 10909,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Samsung%20Galaxy%20A14",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/samsung-galaxy-a14-64-gb-4-gb-ram-samsung-turkiye-garantili-siyah-p-HBCV00003Z9534",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T18:24:14.239Z"
       },
       {
         "storeName": "Trendyol",
@@ -57089,6 +57410,10 @@
       {
         "date": "Ağustos 2026",
         "price": 5910
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 5879
       }
     ],
     "specs": {
@@ -58182,11 +58507,12 @@
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 38419,
+        "price": 44699,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Samsung%20Galaxy%20S24",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/samsung-galaxy-s24-256-gb-8-gb-ram-samsung-turkiye-garantili-siyah-p-HBCV00005MLJA9",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T18:24:41.382Z"
       },
       {
         "storeName": "Trendyol",
@@ -58258,6 +58584,10 @@
       {
         "date": "Ağustos 2026",
         "price": 38420
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 38229
       }
     ],
     "specs": {
@@ -58608,11 +58938,12 @@
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 64029,
+        "price": 76000,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Samsung%20Galaxy%20S24%20Ultra",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/samsung-galaxy-s24-ultra-256-gb-12-gb-ram-samsung-turkiye-garantili-mor-p-HBCV00005MLL3L",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T18:24:51.038Z"
       },
       {
         "storeName": "Trendyol",
@@ -58684,6 +59015,10 @@
       {
         "date": "Ağustos 2026",
         "price": 64030
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 63709
       }
     ],
     "specs": {
@@ -58797,7 +59132,7 @@
     "name": "Samsung Galaxy S24 FE",
     "brand": "Samsung",
     "category": "smartphones",
-    "basePrice": 39599,
+    "basePrice": 38759.05,
     "currency": "TL",
     "rating": 4.9,
     "reviewCount": 335,
@@ -58819,11 +59154,12 @@
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 39799,
+        "price": 38759.05,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Samsung%20Galaxy%20S24%20FE",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/samsung-galaxy-s24-fe-256-gb-8-gb-ram-samsung-turkiye-garantili-gri-p-HBCV00006Y95D9",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T18:24:55.316Z"
       },
       {
         "storeName": "Trendyol",
@@ -58895,6 +59231,10 @@
       {
         "date": "Ağustos 2026",
         "price": 39800
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 38759.05
       }
     ],
     "specs": {
@@ -58995,11 +59335,12 @@
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 49249,
+        "price": 61599,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Samsung%20Galaxy%20Z%20Flip%206",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/samsung-galaxy-z-flip7-256-gb-12-gb-ram-samsung-turkiye-garantili-golge-mavisi-p-HBCV000096XANB",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T18:24:58.711Z"
       },
       {
         "storeName": "Trendyol",
@@ -59071,6 +59412,10 @@
       {
         "date": "Ağustos 2026",
         "price": 49250
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 48999
       }
     ],
     "specs": {
@@ -59209,11 +59554,12 @@
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 73879,
+        "price": 167999,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Samsung%20Galaxy%20Z%20Fold%206",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/samsung-galaxy-z-fold8-1-tb-16-gb-ram-samsung-turkiye-garantili-grafit-gri-p-HBCV0000FNJJ30",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T18:25:02.692Z"
       },
       {
         "storeName": "Trendyol",
@@ -59285,6 +59631,10 @@
       {
         "date": "Ağustos 2026",
         "price": 73880
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 73509
       }
     ],
     "specs": {
@@ -59586,11 +59936,12 @@
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 7189,
+        "price": 16990,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Samsung%20Galaxy%20A15",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/samsung-galaxy-a15-128-gb-4-gb-ram-samsung-turkiye-garantili-siyah-p-HBCV00005MKF5X",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T18:25:11.831Z"
       },
       {
         "storeName": "Trendyol",
@@ -59662,6 +60013,10 @@
       {
         "date": "Ağustos 2026",
         "price": 7190
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 7149
       }
     ],
     "specs": {
@@ -59762,11 +60117,12 @@
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 9849,
+        "price": 22949,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Samsung%20Galaxy%20A25%205G",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/samsung-galaxy-a25-5g-128-gb-6-gb-ram-samsung-turkiye-garantili-acik-mavi-p-HBCV00005MKDIL",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T18:25:16.215Z"
       },
       {
         "storeName": "Trendyol",
@@ -59838,6 +60194,10 @@
       {
         "date": "Ağustos 2026",
         "price": 9850
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 9799
       }
     ],
     "specs": {
@@ -60820,7 +61180,7 @@
     "name": "Samsung Galaxy S25",
     "brand": "Samsung",
     "category": "smartphones",
-    "basePrice": 46069,
+    "basePrice": 37239.05,
     "currency": "TL",
     "rating": 4.8,
     "reviewCount": 852,
@@ -60842,11 +61202,12 @@
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 46299,
+        "price": 37239.05,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Samsung%20Galaxy%20S25",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/samsung-galaxy-s25-fe-256-gb-8-gb-ram-samsung-turkiye-garantili-buz-mavisi-p-HBCV00009S5CRQ",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T18:25:42.138Z"
       },
       {
         "storeName": "Trendyol",
@@ -60918,6 +61279,10 @@
       {
         "date": "Ağustos 2026",
         "price": 46300
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 37239.05
       }
     ],
     "specs": {
@@ -61371,11 +61736,12 @@
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 34479,
+        "price": 37239.05,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Samsung%20Galaxy%20S25%20FE",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/samsung-galaxy-s25-fe-256-gb-8-gb-ram-samsung-turkiye-garantili-buz-mavisi-p-HBCV00009S5CRQ",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T18:25:54.733Z"
       },
       {
         "storeName": "Trendyol",
@@ -61447,6 +61813,10 @@
       {
         "date": "Ağustos 2026",
         "price": 34480
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 34309
       }
     ],
     "specs": {
@@ -61547,11 +61917,12 @@
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 59099,
+        "price": 61599,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Samsung%20Galaxy%20Z%20Flip%207",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/samsung-galaxy-z-flip7-256-gb-12-gb-ram-samsung-turkiye-garantili-golge-mavisi-p-HBCV000096XANB",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T18:25:57.648Z"
       },
       {
         "storeName": "Trendyol",
@@ -61623,6 +61994,10 @@
       {
         "date": "Ağustos 2026",
         "price": 59100
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 58799
       }
     ],
     "specs": {
@@ -61709,11 +62084,12 @@
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 88649,
+        "price": 167999,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Samsung%20Galaxy%20Z%20Fold%207",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/samsung-galaxy-z-fold8-1-tb-16-gb-ram-samsung-turkiye-garantili-grafit-gri-p-HBCV0000FNJJ30",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T18:26:01.486Z"
       },
       {
         "storeName": "Trendyol",
@@ -61785,6 +62161,10 @@
       {
         "date": "Ağustos 2026",
         "price": 88650
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 88209
       }
     ],
     "specs": {
@@ -61871,11 +62251,12 @@
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 5909,
+        "price": 11302.15,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Samsung%20Galaxy%20A06",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/samsung-galaxy-a06-128-gb-4-gb-ram-samsung-turkiye-garantili-acik-mavi-p-HBCV00006Y95TG",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T18:26:05.457Z"
       },
       {
         "storeName": "Trendyol",
@@ -61947,6 +62328,10 @@
       {
         "date": "Ağustos 2026",
         "price": 5910
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 5879
       }
     ],
     "specs": {
@@ -62195,11 +62580,12 @@
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 11819,
+        "price": 18999,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Samsung%20Galaxy%20A26%205G",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/samsung-galaxy-a26-5g-256-gb-8-gb-ram-samsung-turkiye-garantili-siyah-p-HBCV000088BPES",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T18:26:13.952Z"
       },
       {
         "storeName": "Trendyol",
@@ -62271,6 +62657,10 @@
       {
         "date": "Ağustos 2026",
         "price": 11820
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 11759
       }
     ],
     "specs": {
@@ -62357,11 +62747,12 @@
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 15759,
+        "price": 22137,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Samsung%20Galaxy%20A36%205G",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/samsung-galaxy-a36-5g-128-gb-8-gb-ram-samsung-turkiye-garantili-siyah-p-HBCV000088BXJB",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T18:26:17.905Z"
       },
       {
         "storeName": "Trendyol",
@@ -62433,6 +62824,10 @@
       {
         "date": "Ağustos 2026",
         "price": 15760
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 15679
       }
     ],
     "specs": {
@@ -62519,11 +62914,12 @@
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 21669,
+        "price": 28261.55,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Samsung%20Galaxy%20A56%205G",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/samsung-galaxy-a56-5g-128-gb-8-gb-ram-samsung-turkiye-garantili-gri-p-HBCV000088BXB7",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T18:26:21.968Z"
       },
       {
         "storeName": "Trendyol",
@@ -62595,6 +62991,10 @@
       {
         "date": "Ağustos 2026",
         "price": 21670
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 21559
       }
     ],
     "specs": {
@@ -62682,11 +63082,12 @@
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 51749,
+        "price": 58630.68,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Samsung%20Galaxy%20S26",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/samsung-galaxy-s26-256-gb-12-gb-ram-samsung-turkiye-garantili-siyah-p-HBCV0000CVHLYQ",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T18:26:29.092Z"
       },
       {
         "storeName": "Trendyol",
@@ -62758,6 +63159,10 @@
       {
         "date": "Ağustos 2026",
         "price": 51750
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 51489
       }
     ],
     "specs": {
@@ -63009,11 +63414,12 @@
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 87509,
+        "price": 88999,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Samsung%20Galaxy%20S26%20Ultra",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/samsung-galaxy-s26-ultra-512-gb-12-gb-ram-samsung-turkiye-garantili-gok-mavisi-p-HBCV0000CVGX62",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T18:26:37.010Z"
       },
       {
         "storeName": "Trendyol",
@@ -63085,6 +63491,10 @@
       {
         "date": "Ağustos 2026",
         "price": 87510
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 87069
       }
     ],
     "specs": {
@@ -63151,7 +63561,7 @@
     "name": "Samsung Galaxy Z Flip 8",
     "brand": "Samsung",
     "category": "smartphones",
-    "basePrice": 65539,
+    "basePrice": 61599,
     "currency": "TL",
     "rating": 4.6,
     "reviewCount": 660,
@@ -63172,11 +63582,12 @@
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 65869,
+        "price": 61599,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Samsung%20Galaxy%20Z%20Flip%208",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/samsung-galaxy-z-flip7-256-gb-12-gb-ram-samsung-turkiye-garantili-golge-mavisi-p-HBCV000096XANB",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T18:26:40.773Z"
       },
       {
         "storeName": "Trendyol",
@@ -63248,6 +63659,10 @@
       {
         "date": "Ağustos 2026",
         "price": 65870
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 61599
       }
     ],
     "specs": {
@@ -63335,11 +63750,12 @@
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 94099,
+        "price": 167999,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Samsung%20Galaxy%20Z%20Fold%208",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/samsung-galaxy-z-fold8-1-tb-16-gb-ram-samsung-turkiye-garantili-grafit-gri-p-HBCV0000FNJJ30",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T18:26:43.996Z"
       },
       {
         "storeName": "Trendyol",
@@ -63411,6 +63827,10 @@
       {
         "date": "Ağustos 2026",
         "price": 94100
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 93629
       }
     ],
     "specs": {
@@ -63498,11 +63918,12 @@
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 112919,
+        "price": 167999,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Samsung%20Galaxy%20Z%20Fold%208%20Ultra",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/samsung-galaxy-z-fold8-1-tb-16-gb-ram-samsung-turkiye-garantili-grafit-gri-p-HBCV0000FNJJ30",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T18:26:47.075Z"
       },
       {
         "storeName": "Trendyol",
@@ -63574,6 +63995,10 @@
       {
         "date": "Ağustos 2026",
         "price": 112920
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 112349
       }
     ],
     "specs": {
@@ -63661,11 +64086,12 @@
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 9409,
+        "price": 16499,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Samsung%20Galaxy%20A17%205G",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/samsung-galaxy-a17-5g-256-gb-8-gb-ram-samsung-turkiye-garantili-gri-p-HBCV00009S6B27",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T18:26:51.851Z"
       },
       {
         "storeName": "Trendyol",
@@ -63737,6 +64163,10 @@
       {
         "date": "Ağustos 2026",
         "price": 9410
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 9359
       }
     ],
     "specs": {
@@ -63824,11 +64254,12 @@
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 16939,
+        "price": 23999,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Samsung%20Galaxy%20A37%205G",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/samsung-galaxy-a37-5g-256-gb-8-gb-ram-samsung-turkiye-garantili-cam-yesili-p-HBCV0000DU647I",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T18:26:55.188Z"
       },
       {
         "storeName": "Trendyol",
@@ -63900,6 +64331,10 @@
       {
         "date": "Ağustos 2026",
         "price": 16940
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 16849
       }
     ],
     "specs": {
@@ -63987,11 +64422,12 @@
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 23519,
+        "price": 30599,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Samsung%20Galaxy%20A57%205G",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/samsung-galaxy-a57-5g-256-gb-8-gb-ram-samsung-turkiye-garantili-gri-p-HBCV0000DU666R",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T18:26:58.639Z"
       },
       {
         "storeName": "Trendyol",
@@ -64063,6 +64499,10 @@
       {
         "date": "Ağustos 2026",
         "price": 23520
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 23399
       }
     ],
     "specs": {
@@ -64703,11 +65143,12 @@
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 143029,
+        "price": 167999,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Samsung%20Galaxy%20Z%20Fold8%20Ultra",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/samsung-galaxy-z-fold8-1-tb-16-gb-ram-samsung-turkiye-garantili-grafit-gri-p-HBCV0000FNJJ30",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T18:27:14.007Z"
       },
       {
         "storeName": "Trendyol",
@@ -64779,6 +65220,10 @@
       {
         "date": "Ağustos 2026",
         "price": 143030
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 142309
       }
     ],
     "pros": [
@@ -64882,11 +65327,12 @@
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 124209,
+        "price": 167999,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Samsung%20Galaxy%20Z%20Fold8",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/samsung-galaxy-z-fold8-1-tb-16-gb-ram-samsung-turkiye-garantili-grafit-gri-p-HBCV0000FNJJ30",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T18:27:17.179Z"
       },
       {
         "storeName": "Trendyol",
@@ -64958,6 +65404,10 @@
       {
         "date": "Ağustos 2026",
         "price": 124210
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 123589
       }
     ],
     "pros": [
@@ -65048,7 +65498,7 @@
         "updateYears": 7
       }
     },
-    "basePrice": 90809,
+    "basePrice": 84000,
     "currency": "TL",
     "releaseYear": 2026,
     "highlights": [
@@ -65061,11 +65511,12 @@
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 91269,
+        "price": 84000,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Samsung%20Galaxy%20Z%20Flip8",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/samsung-galaxy-z-flip8-256-gb-12-gb-ram-samsung-turkiye-garantili-pembe-p-HBCV0000FNJH5T",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T18:27:20.852Z"
       },
       {
         "storeName": "Trendyol",
@@ -65137,6 +65588,10 @@
       {
         "date": "Ağustos 2026",
         "price": 91270
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 84000
       }
     ],
     "pros": [
@@ -65228,7 +65683,7 @@
         "updateYears": 7
       }
     },
-    "basePrice": 123589,
+    "basePrice": 88999,
     "currency": "TL",
     "releaseYear": 2026,
     "highlights": [
@@ -65241,11 +65696,12 @@
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 124209,
+        "price": 88999,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Samsung%20Galaxy%20S26%20Ultra%20(256%20GB)",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/samsung-galaxy-s26-ultra-512-gb-12-gb-ram-samsung-turkiye-garantili-gok-mavisi-p-HBCV0000CVGX62",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T18:27:23.958Z"
       },
       {
         "storeName": "Trendyol",
@@ -65317,6 +65773,10 @@
       {
         "date": "Ağustos 2026",
         "price": 124210
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 88999
       }
     ],
     "pros": [
@@ -65587,7 +66047,7 @@
         "updateYears": 7
       }
     },
-    "basePrice": 73029,
+    "basePrice": 58630.68,
     "currency": "TL",
     "releaseYear": 2026,
     "highlights": [
@@ -65600,11 +66060,12 @@
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 73399,
+        "price": 58630.68,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Samsung%20Galaxy%20S26%20(128%20GB)",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/samsung-galaxy-s26-256-gb-12-gb-ram-samsung-turkiye-garantili-siyah-p-HBCV0000CVHLYQ",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T18:27:30.580Z"
       },
       {
         "storeName": "Trendyol",
@@ -65676,6 +66137,10 @@
       {
         "date": "Ağustos 2026",
         "price": 73400
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 58630.68
       }
     ],
     "pros": [
@@ -66152,7 +66617,7 @@
         "updateYears": 7
       }
     },
-    "basePrice": 64349,
+    "basePrice": 37239.05,
     "currency": "TL",
     "releaseYear": 2025,
     "highlights": [
@@ -66165,11 +66630,12 @@
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 64669,
+        "price": 37239.05,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Samsung%20Galaxy%20S25%20(128%20GB)",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/samsung-galaxy-s25-fe-256-gb-8-gb-ram-samsung-turkiye-garantili-buz-mavisi-p-HBCV00009S5CRQ",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T18:27:40.599Z"
       },
       {
         "storeName": "Trendyol",
@@ -66241,6 +66707,10 @@
       {
         "date": "Ağustos 2026",
         "price": 64670
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 37239.05
       }
     ],
     "pros": [
@@ -66344,7 +66814,7 @@
         "updateYears": 7
       }
     },
-    "basePrice": 46529,
+    "basePrice": 37239.05,
     "currency": "TL",
     "releaseYear": 2025,
     "highlights": [
@@ -66357,11 +66827,12 @@
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 46759,
+        "price": 37239.05,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Samsung%20Galaxy%20S25%20FE%20(128%20GB)",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/samsung-galaxy-s25-fe-256-gb-8-gb-ram-samsung-turkiye-garantili-buz-mavisi-p-HBCV00009S5CRQ",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T18:27:43.914Z"
       },
       {
         "storeName": "Trendyol",
@@ -66433,6 +66904,10 @@
       {
         "date": "Ağustos 2026",
         "price": 46760
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 37239.05
       }
     ],
     "pros": [
@@ -66536,7 +67011,7 @@
         "updateYears": 7
       }
     },
-    "basePrice": 31679,
+    "basePrice": 30599,
     "currency": "TL",
     "releaseYear": 2026,
     "highlights": [
@@ -66549,11 +67024,12 @@
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 31839,
+        "price": 30599,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Samsung%20Galaxy%20A57%205G%20(128%20GB)",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/samsung-galaxy-a57-5g-256-gb-8-gb-ram-samsung-turkiye-garantili-gri-p-HBCV0000DU666R",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T18:27:47.264Z"
       },
       {
         "storeName": "Trendyol",
@@ -66625,6 +67101,10 @@
       {
         "date": "Ağustos 2026",
         "price": 31840
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 30599
       }
     ],
     "pros": [
@@ -66715,7 +67195,7 @@
         "updateYears": 7
       }
     },
-    "basePrice": 27219,
+    "basePrice": 23999,
     "currency": "TL",
     "releaseYear": 2026,
     "highlights": [
@@ -66728,11 +67208,12 @@
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 27359,
+        "price": 23999,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Samsung%20Galaxy%20A37%205G%20(128%20GB)",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/samsung-galaxy-a37-5g-256-gb-8-gb-ram-samsung-turkiye-garantili-cam-yesili-p-HBCV0000DU647I",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T18:27:50.491Z"
       },
       {
         "storeName": "Trendyol",
@@ -66804,6 +67285,10 @@
       {
         "date": "Ağustos 2026",
         "price": 27360
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 23999
       }
     ],
     "pros": [
@@ -67001,7 +67486,7 @@
     "brand": "Huawei",
     "category": "smartphones",
     "slug": "huawei-pura-70-ultra",
-    "basePrice": 69299,
+    "basePrice": 58999,
     "rating": 4.9,
     "reviewCount": 244,
     "image": "/images/phones/huawei/huawei-huawei-pura-70-ultra-12940.jpg",
@@ -67023,11 +67508,12 @@
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 69649,
+        "price": 58999,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Huawei%20Pura%2070%20Ultra",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/huawei-pura-70-ultra-16-512gb-siyah-huawei-turkiye-garantili-p-HBCV00006C4OJ2",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T18:27:56.877Z"
       },
       {
         "storeName": "Trendyol",
@@ -67099,6 +67585,10 @@
       {
         "date": "Ağustos 2026",
         "price": 69650
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 58999
       }
     ]
   },
@@ -67108,7 +67598,7 @@
     "brand": "Huawei",
     "category": "smartphones",
     "slug": "huawei-pura-70-pro",
-    "basePrice": 54449,
+    "basePrice": 45799,
     "rating": 4.6,
     "reviewCount": 323,
     "image": "/images/phones/huawei/huawei-huawei-pura-70-pro-12942.jpg",
@@ -67130,11 +67620,12 @@
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 54719,
+        "price": 45799,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Huawei%20Pura%2070%20Pro",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/huawei-pura-70-pro-12-512gb-siyah-huawei-turkiye-garantili-siyah-p-HBCV00006C4QCI",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T18:28:00.490Z"
       },
       {
         "storeName": "Trendyol",
@@ -67206,6 +67697,10 @@
       {
         "date": "Ağustos 2026",
         "price": 54720
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 45799
       }
     ]
   },
@@ -67344,11 +67839,12 @@
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 39799,
+        "price": 44999,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Huawei%20P50%20Pro",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/huawei-p50-pro-256-gb-huawei-turkiye-garantili-altin-p-HBCV00001SJWPG",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T18:28:06.831Z"
       },
       {
         "storeName": "Trendyol",
@@ -67420,6 +67916,10 @@
       {
         "date": "Ağustos 2026",
         "price": 39800
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 39599
       }
     ]
   },
@@ -85855,11 +86355,12 @@
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 69649,
+        "price": 89999,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Huawei%20Mate%20X6",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/huawei-mate-x6-512-gb-huawei-turkiye-garantili-siyah-p-HBCV00007X5KPS",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T18:39:37.347Z"
       },
       {
         "storeName": "Trendyol",
@@ -85931,6 +86432,10 @@
       {
         "date": "Ağustos 2026",
         "price": 69650
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 69299
       }
     ]
   },
@@ -86711,11 +87216,12 @@
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 19899,
+        "price": 19999,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Huawei%20nova%2010",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/huawei-nova-10-se-128-gb-8-gb-ram-huawei-turkiye-garantili-yesil-p-HBCV000036JF24",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T18:40:09.160Z"
       },
       {
         "storeName": "Trendyol",
@@ -86787,6 +87293,10 @@
       {
         "date": "Ağustos 2026",
         "price": 19900
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 19799
       }
     ]
   },
@@ -86818,11 +87328,12 @@
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 19899,
+        "price": 19999,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Huawei%20nova%2010%20SE",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/huawei-nova-10-se-128-gb-8-gb-ram-huawei-turkiye-garantili-yesil-p-HBCV000036JF24",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T18:40:12.027Z"
       },
       {
         "storeName": "Trendyol",
@@ -86894,6 +87405,10 @@
       {
         "date": "Ağustos 2026",
         "price": 19900
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 19799
       }
     ]
   },
@@ -87139,11 +87654,12 @@
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 19899,
+        "price": 25274.49,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Huawei%20nova%2011",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/huawei-nova-11-256-gb-8-gb-ram-huawei-turkiye-garantili-siyah-p-HBCV00004HPMU5",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T18:40:24.152Z"
       },
       {
         "storeName": "Trendyol",
@@ -87215,6 +87731,10 @@
       {
         "date": "Ağustos 2026",
         "price": 19900
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 19799
       }
     ]
   },
@@ -87567,11 +88087,12 @@
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 19899,
+        "price": 20999,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Huawei%20nova%2012",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/huawei-nova-12-se-256-gb-8-gb-ram-siyah-huawei-turkiye-garantili-siyah-p-HBCV00006752WC",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T18:40:38.448Z"
       },
       {
         "storeName": "Trendyol",
@@ -87643,6 +88164,10 @@
       {
         "date": "Ağustos 2026",
         "price": 19900
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 19799
       }
     ]
   },

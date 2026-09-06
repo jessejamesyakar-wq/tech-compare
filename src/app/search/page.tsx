@@ -23,6 +23,20 @@ function SearchContent() {
   const [selectedCategory, setSelectedCategory] = useState<string>('all');
   const [sortBy, setSortBy] = useState<'relevance' | 'price-asc' | 'price-desc' | 'rating'>('relevance');
 
+  // Gemini 3.8 AI Assistant State
+  const [geminiData, setGeminiData] = useState<{
+    reply: string;
+    recommendations: {
+      productId: string;
+      slug: string;
+      productName: string;
+      category: string;
+      price: number;
+      reason: string;
+    }[];
+  } | null>(null);
+  const [geminiLoading, setGeminiLoading] = useState(false);
+
   useEffect(() => {
     setQueryInput(queryParam);
     const trimmed = queryParam.trim();
@@ -35,10 +49,51 @@ function SearchContent() {
         })
         .catch(() => setResults([]))
         .finally(() => setLoading(false));
+
+      // Fetch Gemini recommendations if query has natural language intent or is long
+      const isAiIntent =
+        trimmed.length >= 6 &&
+        (/\b(bütçe|öneri|tavsiye|en iyi|hangisi|fiyat|uygun|için|kamera|oyun|alınır mı|\?)\b/i.test(trimmed) ||
+          trimmed.split(/\s+/).length >= 2);
+
+      if (isAiIntent) {
+        setGeminiLoading(true);
+        fetch('/api/ai-assistant', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ message: trimmed }),
+        })
+          .then((res) => (res.ok ? res.json() : null))
+          .then((data) => {
+            if (data) setGeminiData(data);
+          })
+          .catch((err) => console.error('Search page Gemini error:', err))
+          .finally(() => setGeminiLoading(false));
+      } else {
+        setGeminiData(null);
+      }
     } else {
       setResults([]);
+      setGeminiData(null);
     }
   }, [queryParam]);
+
+  const triggerGeminiExplicitly = () => {
+    const trimmed = queryParam.trim() || queryInput.trim();
+    if (!trimmed) return;
+    setGeminiLoading(true);
+    fetch('/api/ai-assistant', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ message: trimmed }),
+    })
+      .then((res) => (res.ok ? res.json() : null))
+      .then((data) => {
+        if (data) setGeminiData(data);
+      })
+      .catch((err) => console.error('Search page Gemini error:', err))
+      .finally(() => setGeminiLoading(false));
+  };
 
   const handleSearchSubmit = (e: React.FormEvent) => {
     e.preventDefault();
@@ -150,6 +205,95 @@ function SearchContent() {
           </div>
         </div>
       </div>
+
+      {/* ========================================================= */}
+      {/* ✨ GEMINI 3.8 AI SHOPPING ADVISOR BANNER                  */}
+      {/* ========================================================= */}
+      {geminiLoading && (
+        <div className="bg-gradient-to-r from-emerald-50 via-teal-50 to-cyan-50 dark:from-emerald-950/30 dark:via-teal-950/20 dark:to-cyan-950/30 border border-emerald-300/80 dark:border-emerald-700/60 rounded-3xl p-5 shadow-xs animate-pulse">
+          <div className="flex items-center gap-2.5 text-emerald-700 dark:text-emerald-300 font-extrabold text-sm">
+            <RefreshCw className="w-4 h-4 animate-spin text-emerald-600" />
+            <span>Google Gemini 3.8 bütçe ve donanım analizini yapıyor...</span>
+            <span className="text-[10px] ml-auto bg-emerald-200/70 dark:bg-emerald-800/60 text-emerald-900 dark:text-emerald-200 px-2.5 py-0.5 rounded-full font-black">
+              RoboPengu 🐧
+            </span>
+          </div>
+          <p className="text-xs text-slate-500 mt-1">
+            Katalogdaki tüm alternatifler taranıyor, en yüksek fiyat/performans dengeli modeller seçiliyor...
+          </p>
+        </div>
+      )}
+
+      {geminiData && geminiData.recommendations && geminiData.recommendations.length > 0 && (
+        <div className="bg-gradient-to-br from-emerald-50/90 via-white to-teal-50/60 dark:from-emerald-950/30 dark:via-slate-900 dark:to-teal-950/20 border border-emerald-300/90 dark:border-emerald-700/60 rounded-3xl p-5 sm:p-6 shadow-md space-y-4">
+          <div className="flex items-center justify-between border-b border-emerald-200/60 dark:border-emerald-800/40 pb-3">
+            <div className="flex items-center gap-2 text-emerald-800 dark:text-emerald-300 font-black text-sm sm:text-base">
+              <Sparkles className="w-5 h-5 text-emerald-600 fill-emerald-500" />
+              <span>Gemini 3.8 & RoboPengu Uzman Tavsiyesi</span>
+              <span className="text-base">🐧</span>
+            </div>
+            <span className="bg-emerald-600 text-white text-[10px] font-black uppercase px-2.5 py-1 rounded-full shadow-2xs">
+              Yapay Zeka Analizi
+            </span>
+          </div>
+
+          {geminiData.reply && (
+            <p className="text-xs sm:text-sm text-slate-700 dark:text-slate-200 font-semibold leading-relaxed bg-white/80 dark:bg-slate-800/60 p-3.5 rounded-2xl border border-emerald-100 dark:border-slate-700">
+              "{geminiData.reply}"
+            </p>
+          )}
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3 pt-1">
+            {geminiData.recommendations.map((rec, idx) => (
+              <Link
+                key={rec.productId || idx}
+                href={getProductHref({ id: rec.productId, slug: rec.slug, category: rec.category } as any)}
+                className="bg-white dark:bg-slate-800 border border-emerald-200/80 dark:border-slate-700 hover:border-emerald-500 rounded-2xl p-3.5 flex flex-col justify-between shadow-2xs hover:shadow-md transition-all group"
+              >
+                <div>
+                  <div className="flex items-center justify-between gap-1 mb-1.5">
+                    <span className="text-[9px] font-black uppercase text-emerald-700 bg-emerald-100 dark:bg-emerald-900/60 dark:text-emerald-300 px-2 py-0.5 rounded-md">
+                      {getCategoryLabel(rec.category)}
+                    </span>
+                    <span className="text-[9px] font-black text-emerald-600 bg-emerald-50 dark:bg-emerald-950/60 px-2 py-0.5 rounded-md">
+                      ✨ En İyi Tercih #{idx + 1}
+                    </span>
+                  </div>
+                  <h4 className="text-xs font-black text-slate-900 dark:text-white group-hover:text-emerald-600 dark:group-hover:text-emerald-400 truncate">
+                    {rec.productName}
+                  </h4>
+                  {rec.reason && (
+                    <p className="text-[11px] text-slate-600 dark:text-slate-300 font-medium mt-1.5 leading-snug">
+                      💡 {rec.reason}
+                    </p>
+                  )}
+                </div>
+
+                <div className="pt-3 mt-2 border-t border-slate-100 dark:border-slate-700 flex items-center justify-between">
+                  <span className="text-[10px] text-slate-500 font-bold">En Uygun Fiyat</span>
+                  <span className="text-xs font-black text-emerald-600 dark:text-emerald-400 tabular-nums">
+                    ₺{rec.price.toLocaleString('tr-TR')}
+                  </span>
+                </div>
+              </Link>
+            ))}
+          </div>
+        </div>
+      )}
+
+      {/* Explicit trigger button if Gemini hasn't run yet */}
+      {!geminiData && !geminiLoading && queryParam && (
+        <div className="flex justify-center">
+          <button
+            type="button"
+            onClick={triggerGeminiExplicitly}
+            className="px-5 py-2.5 rounded-2xl bg-gradient-to-r from-emerald-600 to-teal-600 hover:from-emerald-500 hover:to-teal-500 text-white text-xs font-black shadow-md flex items-center gap-2 cursor-pointer transition-all hover:scale-105 active:scale-95"
+          >
+            <Sparkles className="w-4 h-4 fill-white" />
+            <span>"{queryParam}" için Gemini 3.8 Alışveriş Danışmanına Sor</span>
+          </button>
+        </div>
+      )}
 
       {/* Filter Tabs & Sort Controls */}
       <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 bg-white border border-slate-200 rounded-2xl p-3 shadow-2xs">
