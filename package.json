@@ -11,6 +11,8 @@
     "trim:images": "node scripts/trim-product-images.js",
     "pre-deploy": "node scripts/preDeployCheck.js",
     "scrape:2026": "node scripts/scrape2026Prices.js",
+    "sync-prices": "node scripts/nightlyPriceSync.js --limit=50 --push",
+    "sync-prices:dry": "node scripts/nightlyPriceSync.js --dry-run --limit=20",
     "test:links": "node scripts/testBrandProductIntegrity.js"
   },
   "dependencies": {

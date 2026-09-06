@@ -13,10 +13,12 @@
 
 const fs = require('fs');
 const path = require('path');
+const { execSync } = require('child_process');
 
 // Komut satırı argümanları
 const args = process.argv.slice(2);
 const isDryRun = args.includes('--dry-run');
+const shouldPush = args.includes('--push');
 const limitArg = args.find(a => a.startsWith('--limit='));
 const maxLimit = limitArg ? parseInt(limitArg.split('=')[1], 10) : 50;
 
@@ -53,14 +55,73 @@ function parseTurkishPrice(raw) {
   return isNaN(num) ? null : num;
 }
 
-// Modelin ayırt edici anahtar kelimelerini çıkarır (örn: "Poco X6 Pro" -> ["x6"], "Galaxy S24" -> ["s24"])
-function getSignificantTokens(productName) {
-  const clean = productName.replace(/\s*\([^)]*\)/g, '').toLowerCase();
+// Modelin ve alt serilerin kusursuz eşleşmesini denetler (Yanlış model, alt seri ve varyant karışmasını kesin önler)
+function validateProductMatch(productName, rawSlug) {
+  const normName = productName.toLowerCase().replace(/\+/g, ' plus ');
+  const cleanNameTokens = normName.replace(/\s*\([^)]*\)/g, '').split(/[\s-]+/).filter(Boolean);
+  const slugTokens = new Set(rawSlug.toLowerCase().split(/[\s-]+/).filter(Boolean));
+
+  // 1. Kritik Seri Kontrolleri (Cross-Series Kirlenmesini Kesin Önler)
+  const isRedmiName = cleanNameTokens.includes('redmi');
+  const isRedmiSlug = slugTokens.has('redmi');
+  if (isRedmiName !== isRedmiSlug) return false;
+
+  const isNoteName = cleanNameTokens.includes('note');
+  const isNoteSlug = slugTokens.has('note');
+  if (isNoteName !== isNoteSlug) return false;
+
+  const isPocoName = cleanNameTokens.includes('poco');
+  const isPocoSlug = slugTokens.has('poco');
+  if (isPocoName !== isPocoSlug) return false;
+
+  const isNordName = cleanNameTokens.includes('nord');
+  const isNordSlug = slugTokens.has('nord');
+  if (isNordName !== isNordSlug) return false;
+
+  // 2. Model Seviyesi (Tier / Suffix) Kontrolleri
+  const isUltraName = cleanNameTokens.includes('ultra');
+  const isUltraSlug = slugTokens.has('ultra');
+  if (isUltraName !== isUltraSlug) return false;
+
+  const isProName = cleanNameTokens.includes('pro');
+  const isProSlug = slugTokens.has('pro');
+  if (isProName !== isProSlug) return false;
+
+  const isPlusName = cleanNameTokens.includes('plus');
+  const isPlusSlug = slugTokens.has('plus');
+  if (isPlusName !== isPlusSlug) return false;
+
+  const isMaxName = cleanNameTokens.includes('max');
+  const isMaxSlug = slugTokens.has('max');
+  if (isMaxName !== isMaxSlug) return false;
+
+  const isLiteName = cleanNameTokens.includes('lite');
+  const isLiteSlug = slugTokens.has('lite');
+  if (isLiteName !== isLiteSlug) return false;
+
+  // T-Serisi Kontrolü (örn: Xiaomi 15 ile Xiaomi 15T Pro karışmasını kesin önler)
+  const isTName = cleanNameTokens.some(t => /^\d+t$/i.test(t));
+  const isTSlug = [...slugTokens].some(t => /^\d+t$/i.test(t));
+  if (isTName !== isTSlug) return false;
+
+  // 3. Model Numarası / Kodu Kontrolü (örn: 15, 14, 16, x6, s24, magic6)
   const stopWords = new Set([
-    'apple', 'samsung', 'xiaomi', 'vivo', 'oppo', 'poco', 'honor', 'realme', 'huawei', 'google', 'nothing',
-    'galaxy', 'phone', 'akilli', 'akıllı', 'cep', 'telefonu', '5g', '4g', 'lte', 'plus', 'ultra', 'pro', 'max', 'mini', 'fe', 'gb'
+    'apple', 'samsung', 'xiaomi', 'vivo', 'oppo', 'poco', 'honor', 'realme', 'huawei', 'google', 'nothing', 'redmi',
+    'galaxy', 'phone', 'akilli', 'akıllı', 'cep', 'telefonu', '5g', '4g', 'lte', 'plus', 'ultra', 'pro', 'max', 'mini', 'fe', 'gb', 'note', 'nord', 'series'
   ]);
-  return clean.split(/[\s-]+/).filter(w => w.length >= 2 && !stopWords.has(w));
+  const coreTokens = cleanNameTokens.filter(w => w.length >= 2 && !stopWords.has(w));
+
+  if (coreTokens.length > 0) {
+    const slugWithoutHyphens = rawSlug.toLowerCase().replace(/[^a-z0-9]/g, '');
+    for (const tok of coreTokens) {
+      const cleanTok = tok.replace(/[^a-z0-9]/g, '');
+      if (!slugWithoutHyphens.includes(cleanTok)) {
+        return false;
+      }
+    }
+  }
+
+  return true;
 }
 
 // Hepsiburada üzerinde ürün araması yapar ve modelle tam uyuşan ilk geçerli ürün URL'ini döner
@@ -79,26 +140,22 @@ async function findHepsiburadaProduct(productName) {
   const linkMatches = [...html.matchAll(/href="(https:\/\/www\.hepsiburada\.com\/([^\"]+)-p-([A-Za-z0-9]+)|\/([^\"]+)-p-([A-Za-z0-9]+))"/g)];
   if (!linkMatches || linkMatches.length === 0) return null;
 
-  const significantTokens = getSignificantTokens(productName);
-
   // Linkleri kontrol et
   for (const m of linkMatches) {
     let fullUrl = m[1];
     if (fullUrl.startsWith('/')) {
       fullUrl = 'https://www.hepsiburada.com' + fullUrl;
     }
-    const slug = (m[2] || m[4] || '').toLowerCase();
+    const rawSlug = m[2] || m[4] || '';
+    const slugLower = rawSlug.toLowerCase();
     
     // 1. Kılıf / Aksesuar kontrolü
-    const isAccessory = ACCESSORY_BLACKLIST.some(badWord => slug.includes(badWord));
+    const isAccessory = ACCESSORY_BLACKLIST.some(badWord => slugLower.includes(badWord));
     if (isAccessory) continue;
 
-    // 2. Model Doğrulama: Model kodu (örn: x6, s24, 16) link slug'ında geçiyor mu?
-    if (significantTokens.length > 0) {
-      const matchesAllTokens = significantTokens.every(tok => slug.includes(tok));
-      if (!matchesAllTokens) {
-        continue; // Yanlış model (örn: X6 aranırken X8 önerisi geldiyse atla)
-      }
+    // 2. Kusursuz Model ve Seri Doğrulaması
+    if (!validateProductMatch(productName, rawSlug)) {
+      continue; // Yanlış model/seri (örn: Xiaomi yerine Redmi, Pro yerine düz model vb.)
     }
 
     return fullUrl;
@@ -290,6 +347,22 @@ async function main() {
   if (!isDryRun && successCount > 0) {
     fs.writeFileSync(filePath, JSON.stringify(allPhones, null, 2), 'utf8');
     console.log(`\n💾 ${filePath} dosyası başarıyla güncellendi!`);
+
+    if (shouldPush) {
+      console.log('\n🚀 Otomatik Push Modu Aktif:');
+      try {
+        console.log('1. Pre-deploy bütünlük testi çalıştırılıyor...');
+        execSync('node scripts/preDeployCheck.js', { stdio: 'inherit' });
+        
+        console.log('2. Git commit ve push yapılıyor...');
+        execSync('git add src/lib/smartphonesData.json', { stdio: 'inherit' });
+        execSync('git commit -m "chore(prices): update smartphone store offers and prices"', { stdio: 'inherit' });
+        execSync('git push origin main', { stdio: 'inherit' });
+        console.log('\n🎉 Değişiklikler başarıyla GitHub\'a push edildi ve Vercel otomatik yayına alıyor!');
+      } catch (e) {
+        console.error('\n❌ Git push sırasında hata oluştu:', e.message);
+      }
+    }
   } else if (isDryRun) {
     console.log(`\n🔍 Dry-run modunda çalıştırıldığı için dosya değiştirilmedi.`);
   } else {
