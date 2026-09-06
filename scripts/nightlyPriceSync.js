@@ -221,18 +221,25 @@ async function main() {
 
   const allPhones = JSON.parse(fs.readFileSync(filePath, 'utf8'));
   
-  // Hedef ürünler: Öncelikle popüler ve çok satan modeller (en çok arananlar), sonra en yeniler
-  const targetPhones = allPhones
-    .filter(p => p.isPopular || p.isFeatured || p.releaseYear === 2026)
-    .sort((a, b) => {
-      if (a.isPopular && !b.isPopular) return -1;
-      if (!a.isPopular && b.isPopular) return 1;
-      return (b.reviewCount || 0) - (a.reviewCount || 0);
-    })
-    .slice(0, maxLimit);
+  const isAll = args.includes('--all');
+
+  // Hedef ürünler: --all verilirse 823 telefonun tamamı, aksi halde en popüler ve 2026 modeller
+  let targetPhones = [];
+  if (isAll) {
+    targetPhones = allPhones;
+  } else {
+    targetPhones = allPhones
+      .filter(p => p.isPopular || p.isFeatured || p.releaseYear === 2026)
+      .sort((a, b) => {
+        if (a.isPopular && !b.isPopular) return -1;
+        if (!a.isPopular && b.isPopular) return 1;
+        return (b.reviewCount || 0) - (a.reviewCount || 0);
+      })
+      .slice(0, maxLimit);
+  }
 
   console.log(`📋 Toplam Telefon Sayısı: ${allPhones.length}`);
-  console.log(`🎯 Taranacak Hedef Ürün Sayısı: ${targetPhones.length}\n`);
+  console.log(`🎯 Taranacak Hedef Ürün Sayısı: ${targetPhones.length}${isAll ? ' (Tüm Katalog)' : ''}\n`);
 
   let successCount = 0;
   let rejectedCount = 0;
@@ -324,6 +331,12 @@ async function main() {
 
       console.log(`   ✅ BAŞARILI: Hepsiburada fiyatı ${scrapedPrice.toLocaleString('tr-TR')} TL olarak güncellendi.`);
       successCount++;
+
+      // Veri Güvenliği: Her 5 başarılı güncellemede diske otomatik yaz (Elektrik/kapanma durumunda veri kaybını önler)
+      if (!isDryRun && successCount % 5 === 0) {
+        fs.writeFileSync(filePath, JSON.stringify(allPhones, null, 2), 'utf8');
+        console.log(`   💾 [OTOMATİK KAYIT]: İlerleme güvenle diske kaydedildi (${successCount} ürün güncellendi).`);
+      }
 
       // Rate limit yememek için insansı bekleme (1.5 sn)
       await sleep(1500);
