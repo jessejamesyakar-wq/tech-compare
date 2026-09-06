@@ -1,0 +1,70 @@
+name: Nightly Price Sync
+
+on:
+  schedule:
+    # Her gece Türkiye saati ile 03:00'te çalışır (UTC 00:00)
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: 'Taranacak ürün sayısı'
+        required: false
+        default: '50'
+      dry_run:
+        description: 'Dry-run modu (Değişiklikleri diske kaydetmez)'
+        type: boolean
+        required: false
+        default: false
+
+permissions:
+  contents: write
+
+jobs:
+  sync-prices:
+    name: Gece Fiyat Senkronizasyonu
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+
+    steps:
+      - name: Kodu Çek
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Node.js Kurulumu
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'npm'
+
+      - name: Bağımlılıkları Yükle
+        run: npm ci
+
+      - name: Fiyat Senkronizasyonunu Çalıştır
+        run: |
+          LIMIT="${{ github.event.inputs.limit || '50' }}"
+          DRY_FLAG=""
+          if [ "${{ github.event.inputs.dry_run }}" = "true" ]; then
+            DRY_FLAG="--dry-run"
+          fi
+          echo "Tarama başlatılıyor: Limit=$LIMIT DryRun=$DRY_FLAG"
+          node scripts/nightlyPriceSync.js --limit=$LIMIT $DRY_FLAG
+
+      - name: Veri Bütünlüğü ve Güvenlik Doğrulaması
+        run: |
+          node scripts/preDeployCheck.js
+
+      - name: Değişiklikleri Kaydet ve Push Et
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          
+          if ! git diff --quiet src/lib/smartphonesData.json; then
+            echo "smartphonesData.json dosyasında güncellemeler tespit edildi. Commit ediliyor..."
+            git add src/lib/smartphonesData.json
+            git commit -m "chore(prices): automated nightly price sync [skip ci]"
+            git push
+            echo "Değişiklikler başarıyla main branch'e gönderildi!"
+          else
+            echo "Herhangi bir fiyat değişikliği olmadı veya dry-run modunda çalıştırıldı."
+          fi
