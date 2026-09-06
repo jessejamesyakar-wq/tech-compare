@@ -125,8 +125,24 @@ export function PhoneCard({ phone, index = 0 }: PhoneCardProps) {
 
   // Resolved colors list for card interactive preview
   const availableColors = React.useMemo(() => getProductColorList(phone), [phone]);
-  const [activeColor, setActiveColor] = useState<ResolvedColorOption | null>(availableColors[0] || null);
-  const [imgSrc, setImgSrc] = useState<string>(availableColors[0]?.image || phone.image || fallbackImg);
+  const initialColor = React.useMemo(() => {
+    if (!availableColors || availableColors.length === 0) return null;
+    if (phone.image) {
+      const match = availableColors.find((c) => c.image === phone.image);
+      if (match) return match;
+    }
+    return availableColors[0];
+  }, [availableColors, phone.image]);
+
+  const [activeColor, setActiveColor] = useState<ResolvedColorOption | null>(initialColor);
+  const [imgSrc, setImgSrc] = useState<string>(phone.image || initialColor?.image || fallbackImg);
+
+  React.useEffect(() => {
+    const match = phone.image ? availableColors.find((c) => c.image === phone.image) : null;
+    const selected = match || availableColors[0] || null;
+    setActiveColor(selected);
+    setImgSrc(phone.image || selected?.image || fallbackImg);
+  }, [phone.id, phone.image, availableColors, fallbackImg]);
 
   const handleColorClick = (e: React.MouseEvent, color: ResolvedColorOption) => {
     e.preventDefault();

@@ -66,13 +66,24 @@ export function CompactProductCard({
       : '/images/products/smartphones/apple/iphone-16-pro-natural.jpg';
 
   const availableColors = React.useMemo(() => getProductColorList(product), [product]);
-  const [activeColor, setActiveColor] = useState<ResolvedColorOption | null>(availableColors[0] || null);
-  const [imgSrc, setImgSrc] = useState<string>(availableColors[0]?.image || product.image || fallbackImg);
+  const initialColor = React.useMemo(() => {
+    if (!availableColors || availableColors.length === 0) return null;
+    if (product.image) {
+      const match = availableColors.find((c) => c.image === product.image);
+      if (match) return match;
+    }
+    return availableColors[0];
+  }, [availableColors, product.image]);
+
+  const [activeColor, setActiveColor] = useState<ResolvedColorOption | null>(initialColor);
+  const [imgSrc, setImgSrc] = useState<string>(product.image || initialColor?.image || fallbackImg);
 
   React.useEffect(() => {
-    if (availableColors.length > 0 && availableColors[0]?.image) {
-      setImgSrc(availableColors[0].image);
-      setActiveColor(availableColors[0]);
+    if (availableColors.length > 0) {
+      const match = product.image ? availableColors.find((c) => c.image === product.image) : null;
+      const selected = match || availableColors[0] || null;
+      setImgSrc(product.image || selected?.image || fallbackImg);
+      setActiveColor(selected);
     } else {
       setImgSrc(product.image || fallbackImg);
       setActiveColor(null);
