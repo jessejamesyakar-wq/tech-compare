@@ -1,12 +1,8 @@
 {
   "crons": [
     {
-      "path": "/api/cron/scrape-2026-prices",
+      "path": "/api/cron/scrape-prices",
       "schedule": "0 3 * * *"
-    },
-    {
-      "path": "/api/cron/update-prices",
-      "schedule": "0 6 * * *"
     }
   ]
 }
