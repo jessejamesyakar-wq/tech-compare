@@ -166,11 +166,12 @@ export const mockConsoles: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 24999,
+        "price": 43099,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Sony%20PlayStation%205%20Slim%201TB%20Blu-ray%20S%C3%BCr%C3%BCc%C3%BCl%C3%BC%20Oyun%20Konsolu%20(CFI-2000A01)",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/sony-playstation-5-slim-1-tb-digital-versiyon-2-dualsense-oyun-konsolu-bilkom-garantili-p-HBCV0000BEMRER",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T23:45:14.472Z"
       },
       {
         "storeName": "Trendyol",
@@ -242,6 +243,10 @@ export const mockConsoles: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 25000
+      },
+      {
+        "date": "7 Eylül 2026",
+        "price": 24869
       }
     ]
   },
@@ -288,11 +293,12 @@ export const mockConsoles: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 24999,
+        "price": 43099,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Sony%20PlayStation%205%20Slim%20Digital%20Edition%201TB%20Oyun%20Konsolu%20(CFI-2000B01)",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/sony-playstation-5-slim-digital-versiyon-oyun-konsolu-bilkom-garantili-p-HBCV0000B0K0NR",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T23:45:19.231Z"
       },
       {
         "storeName": "Trendyol",
@@ -364,6 +370,10 @@ export const mockConsoles: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 25000
+      },
+      {
+        "date": "7 Eylül 2026",
+        "price": 24869
       }
     ]
   },
@@ -1761,11 +1771,12 @@ export const mockConsoles: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 16499,
+        "price": 20499,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Nintendo%20Switch%20OLED%20Model%20Oyun%20Konsolu%2064GB",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/nintendo-switch-oled-oyun-konsolu-kirmizi-mavi-g-p-HBCV00000U7QS6",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T23:45:57.501Z"
       },
       {
         "storeName": "Trendyol",
@@ -1837,6 +1848,10 @@ export const mockConsoles: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 16500
+      },
+      {
+        "date": "7 Eylül 2026",
+        "price": 16419
       }
     ]
   },

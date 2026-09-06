@@ -64483,7 +64483,7 @@ export const mockTVs: Product[] = [
     ],
     "rating": 4.4,
     "reviewCount": 6,
-    "basePrice": 125059,
+    "basePrice": 123284,
     "currency": "TL",
     "releaseYear": 2026,
     "isPopular": true,
@@ -64542,11 +64542,12 @@ export const mockTVs: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 125689,
+        "price": 123284,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=TCL%2065C8L%20(65C8LGTV)%2065%22%204K%20SQD-Mini%20LED%20Google%20TV%20(2026)",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/tcl-65c8l-65-165-ekran-uydu-alicili-4k-ulta-hd-google-sqd-miniled-tv-p-HBCV0000ET0IX1",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T19:26:05.576Z"
       },
       {
         "storeName": "Trendyol",
@@ -64618,6 +64619,10 @@ export const mockTVs: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 125690
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 123284
       }
     ],
     "epeyScore": 84
@@ -75196,7 +75201,7 @@ export const mockTVs: Product[] = [
     ],
     "rating": 4.5,
     "reviewCount": 30,
-    "basePrice": 16319,
+    "basePrice": 12023.19,
     "currency": "TL",
     "releaseYear": 2025,
     "isPopular": true,
@@ -75245,11 +75250,12 @@ export const mockTVs: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 16399,
+        "price": 12023.19,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=TCL%2043S5K%2043%22%20Full%20HD%20Google%20TV%20(2025)",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/tcl-43s5k-43-109-ekran-uydu-alicili-full-hd-google-smart-qled-tv-p-HBCV00009NRJ4D",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T19:30:23.815Z"
       },
       {
         "storeName": "Trendyol",
@@ -75321,6 +75327,10 @@ export const mockTVs: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 16400
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 12023.19
       }
     ],
     "epeyScore": 51
@@ -75386,11 +75396,12 @@ export const mockTVs: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 11459,
+        "price": 12023.19,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=TCL%2032S5K%2032%22%20Full%20HD%20Google%20TV%20(2025)",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/tcl-32s5k-32-82-ekran-uydu-alicili-full-hd-google-qled-tv-p-HBCV0000ADW75T",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T19:30:27.492Z"
       },
       {
         "storeName": "Trendyol",
@@ -75462,6 +75473,10 @@ export const mockTVs: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 11460
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 11399
       }
     ],
     "epeyScore": 50
@@ -121258,7 +121273,7 @@ export const mockTVs: Product[] = [
     "rating": 4.5,
     "epeyScore": 50,
     "reviewCount": 41,
-    "basePrice": 16479,
+    "basePrice": 15999,
     "currency": "TL",
     "releaseYear": 2026,
     "isPopular": false,
@@ -121306,11 +121321,12 @@ export const mockTVs: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 16559,
+        "price": 15999,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=iFFALCON%2050S55A%2050%22%20Full%20HD%20Smart%20Google%20TV",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/iffalcon-50s55a-50-127-ekran-uydu-alicili-full-hd-android-qled-tv-p-HBCV0000C4Q8AZ",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T19:50:05.971Z"
       },
       {
         "storeName": "Trendyol",
@@ -121382,6 +121398,10 @@ export const mockTVs: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 16560
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 15999
       }
     ]
   },
@@ -121586,11 +121606,12 @@ export const mockTVs: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 13439,
+        "price": 15999,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=iFFALCON%2043S55%2043%22%20Full%20HD%20Smart%20Google%20TV",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/iffalcon-43s55-43-109-ekran-uydu-alicili-full-hd-android-tv-p-HBCV0000C4Q8AY",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T19:50:14.502Z"
       },
       {
         "storeName": "Trendyol",
@@ -121662,6 +121683,10 @@ export const mockTVs: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 13440
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 13369
       }
     ]
   },
@@ -122009,8 +122034,9 @@ export const mockTVs: Product[] = [
         "price": 15999,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=iFFALCON%2050S55%2050%22%20Full%20HD%20Smart%20Android%20TV",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/iffalcon-50s55a-50-127-ekran-uydu-alicili-full-hd-android-qled-tv-p-HBCV0000C4Q8AZ",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T19:50:23.771Z"
       },
       {
         "storeName": "Trendyol",
@@ -122082,6 +122108,10 @@ export const mockTVs: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 16000
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 15919
       }
     ]
   },

@@ -26727,11 +26727,12 @@ export const mockAppliances: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 79999,
+        "price": 117999,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Roborock%20Saros%2020%20Sonic%20Robot%20S%C3%BCp%C3%BCrge%20%26%20Paspas",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/roborock-saros-20-sonic-akilli-robot-supurge-36-000-pa-siyah-p-HBCV0000D7T8LY",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T22:32:25.937Z"
       },
       {
         "storeName": "Trendyol",
@@ -26803,6 +26804,10 @@ export const mockAppliances: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 80000
+      },
+      {
+        "date": "7 Eylül 2026",
+        "price": 79599
       }
     ],
     "subCategory": "robot_vacuum",
@@ -26855,11 +26860,12 @@ export const mockAppliances: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 78319,
+        "price": 117999,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Roborock%20Saros%2020%20Robot%20S%C3%BCp%C3%BCrge",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/roborock-saros-20-sonic-akilli-robot-supurge-36-000-pa-siyah-p-HBCV0000D7T8LY",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T22:32:28.887Z"
       },
       {
         "storeName": "Trendyol",
@@ -26931,6 +26937,10 @@ export const mockAppliances: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 78320
+      },
+      {
+        "date": "7 Eylül 2026",
+        "price": 77929
       }
     ],
     "subCategory": "robot_vacuum",
@@ -26983,11 +26993,12 @@ export const mockAppliances: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 66519,
+        "price": 79450,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Roborock%20Saros%20Z70%20Robot%20S%C3%BCp%C3%BCrge",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/roborock-saros-z70-akilli-robot-supurge-p-HBCV00008MB128",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T22:32:32.581Z"
       },
       {
         "storeName": "Trendyol",
@@ -27059,6 +27070,10 @@ export const mockAppliances: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 66520
+      },
+      {
+        "date": "7 Eylül 2026",
+        "price": 66189
       }
     ],
     "subCategory": "robot_vacuum",
@@ -29543,11 +29558,12 @@ export const mockAppliances: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 71729,
+        "price": 80750,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Roborock%20S8%20MaxV%20Ultra%20Robot%20S%C3%BCp%C3%BCrge%20%26%20Paspas",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/roborock-s8-maxv-ultra-akilli-robot-supurge-siyah-p-HBCV000067LNIZ",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T22:33:33.851Z"
       },
       {
         "storeName": "Trendyol",
@@ -29619,6 +29635,10 @@ export const mockAppliances: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 71730
+      },
+      {
+        "date": "7 Eylül 2026",
+        "price": 71369
       }
     ],
     "subCategory": "robot_vacuum",
@@ -30550,11 +30570,12 @@ export const mockAppliances: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 28499,
+        "price": 54839.09,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=KitchenAid%20Artisan%204.8L%20Stand%20Mikser%20%26%20Mutfak%20%C5%9Eefi",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/kitchenaid-artisan-4-8-l-stand-mikser-300-w-guc-kapasite-4-4-9-lt-opsiyonel-kiyma-cekme-p-HBV00000HGY9M",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T22:34:00.612Z"
       },
       {
         "storeName": "Trendyol",
@@ -30626,6 +30647,10 @@ export const mockAppliances: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 28500
+      },
+      {
+        "date": "7 Eylül 2026",
+        "price": 28359
       }
     ],
     "specs": {
@@ -31582,11 +31607,12 @@ export const mockAppliances: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 44899,
+        "price": 46489.14,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Roborock%20Qrevo%20S%20Robot%20S%C3%BCp%C3%BCrge%20%26%20Paspas",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/roborock-q-revo-s-akilli-robot-supurge-siyah-p-HBCV000075HQHT",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T22:34:26.300Z"
       },
       {
         "storeName": "Trendyol",
@@ -31658,6 +31684,10 @@ export const mockAppliances: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 44900
+      },
+      {
+        "date": "7 Eylül 2026",
+        "price": 44669
       }
     ],
     "subCategory": "robot_vacuum",
@@ -34251,11 +34281,12 @@ export const mockAppliances: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 13439,
+        "price": 15600,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Roborock%20Q8%20Max%20Pro%20Robot%20S%C3%BCp%C3%BCrge",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/roborock-q8-max-pro-akilli-robot-supurge-p-HBCV00008MBGQE",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T22:35:33.511Z"
       },
       {
         "storeName": "Trendyol",
@@ -34327,6 +34358,10 @@ export const mockAppliances: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 13440
+      },
+      {
+        "date": "7 Eylül 2026",
+        "price": 13369
       }
     ],
     "subCategory": "robot_vacuum",
@@ -35620,7 +35655,7 @@ export const mockAppliances: Product[] = [
     "name": "Roborock S8 Sonic Robot Süpürge",
     "brand": "Roborock",
     "category": "appliances",
-    "basePrice": 35219,
+    "basePrice": 33479.07,
     "currency": "TL",
     "rating": 4.8,
     "epeyScore": 88,
@@ -35659,11 +35694,12 @@ export const mockAppliances: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 35399,
+        "price": 33479.07,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Roborock%20S8%20Sonic%20Robot%20S%C3%BCp%C3%BCrge",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/roborock-s8-sonic-mopping-akilli-robot-supurge-s8-beyaz-p-HBCV00004I6Z2A",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T22:36:07.197Z"
       },
       {
         "storeName": "Trendyol",
@@ -35735,6 +35771,10 @@ export const mockAppliances: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 35400
+      },
+      {
+        "date": "7 Eylül 2026",
+        "price": 33479.07
       }
     ],
     "subCategory": "robot_vacuum",
@@ -35915,11 +35955,12 @@ export const mockAppliances: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 32999,
+        "price": 34999,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Dyson%20V12s%20Detect%20Slim%20Submarine%20Islak%20Kuru%20Kablosuz%20S%C3%BCp%C3%BCrge",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/dyson-v12s-detect-slim-submarine-detayli-temizlik-seti-p-HBCV0000GHPGBW",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T22:36:14.596Z"
       },
       {
         "storeName": "Trendyol",
@@ -35991,6 +36032,10 @@ export const mockAppliances: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 33000
+      },
+      {
+        "date": "7 Eylül 2026",
+        "price": 32829
       }
     ],
     "subCategory": "stick_vacuum",
@@ -36299,11 +36344,12 @@ export const mockAppliances: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 18219,
+        "price": 20244.9,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Roborock%20Q8%20Max%20Robot%20S%C3%BCp%C3%BCrge",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/roborock-vacuum-cleanner-q8-max-robot-supurge-beyaz-p-HBCV000055P4JM",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T22:36:24.031Z"
       },
       {
         "storeName": "Trendyol",
@@ -36375,6 +36421,10 @@ export const mockAppliances: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 18220
+      },
+      {
+        "date": "7 Eylül 2026",
+        "price": 18129
       }
     ],
     "subCategory": "robot_vacuum",
@@ -37796,7 +37846,7 @@ export const mockAppliances: Product[] = [
     "name": "Roborock Q7 Max Robot Süpürge",
     "brand": "Roborock",
     "category": "appliances",
-    "basePrice": 37859,
+    "basePrice": 29824,
     "currency": "TL",
     "rating": 4.8,
     "epeyScore": 85,
@@ -37835,11 +37885,12 @@ export const mockAppliances: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 38049,
+        "price": 29824,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Roborock%20Q7%20Max%20Robot%20S%C3%BCp%C3%BCrge",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/roborock-q7-max-beyaz-akilli-robot-supurge-p-HBCV00002H4FKI",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T22:37:06.275Z"
       },
       {
         "storeName": "Trendyol",
@@ -37911,6 +37962,10 @@ export const mockAppliances: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 38050
+      },
+      {
+        "date": "7 Eylül 2026",
+        "price": 29824
       }
     ],
     "subCategory": "robot_vacuum",
@@ -40014,8 +40069,9 @@ export const mockAppliances: Product[] = [
         "price": 59699,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Roborock%20S6%20Pure%20Robot%20S%C3%BCp%C3%BCrge",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/roborock-s6-pure-beyaz-akilli-robot-supurge-mop-p-HBV00000XHF3C",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T22:38:08.475Z"
       },
       {
         "storeName": "Trendyol",
@@ -40087,6 +40143,10 @@ export const mockAppliances: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 59700
+      },
+      {
+        "date": "7 Eylül 2026",
+        "price": 59399
       }
     ],
     "subCategory": "robot_vacuum",
@@ -42699,11 +42759,12 @@ export const mockAppliances: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 13999,
+        "price": 14000,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Dyson%20Supersonic%20Sa%C3%A7%20Kurutma%20Makinesi",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/dyson-supersonic-sac-kurutma-makinesi-ithalatci-garantili-p-HBCV00007P10O1",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T22:39:19.266Z"
       },
       {
         "storeName": "Trendyol",
@@ -42775,6 +42836,10 @@ export const mockAppliances: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 14000
+      },
+      {
+        "date": "7 Eylül 2026",
+        "price": 13929
       }
     ],
     "subCategory": "personal_care",
@@ -47446,7 +47511,7 @@ export const mockAppliances: Product[] = [
     "rating": 4.9,
     "epeyScore": 94,
     "reviewCount": 38,
-    "basePrice": 20889,
+    "basePrice": 14000,
     "currency": "TL",
     "releaseYear": 2024,
     "highlights": [
@@ -47478,11 +47543,12 @@ export const mockAppliances: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 20999,
+        "price": 14000,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Dyson%20Supersonic%E2%84%A2%20Sa%C3%A7%20Kurutma%20Makinesi%20(113277-01)",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/dyson-supersonic-sac-kurutma-makinesi-ithalatci-garantili-p-HBCV00007P10LM",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T22:41:06.165Z"
       },
       {
         "storeName": "Trendyol",
@@ -47554,6 +47620,10 @@ export const mockAppliances: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 21000
+      },
+      {
+        "date": "7 Eylül 2026",
+        "price": 14000
       }
     ],
     "subCategory": "personal_care",
@@ -62164,7 +62234,7 @@ export const mockAppliances: Product[] = [
     "rating": 4.9,
     "epeyScore": 96,
     "reviewCount": 65,
-    "basePrice": 16909,
+    "basePrice": 14000,
     "currency": "TL",
     "releaseYear": 2024,
     "isPopular": true,
@@ -62197,11 +62267,12 @@ export const mockAppliances: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 16999,
+        "price": 14000,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Dyson%20Supersonic%E2%84%A2%20Sa%C3%A7%20Kurutma%20Makinesi%20%C3%96zel%20Seri%20(453981-01)",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/dyson-supersonic-sac-kurutma-makinesi-ithalatci-garantili-p-HBCV00007P10LM",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T22:46:59.852Z"
       },
       {
         "storeName": "Trendyol",
@@ -62273,6 +62344,10 @@ export const mockAppliances: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 17000
+      },
+      {
+        "date": "7 Eylül 2026",
+        "price": 14000
       }
     ],
     "subCategory": "personal_care",
@@ -67292,11 +67367,12 @@ export const mockAppliances: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 14999,
+        "price": 21999,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Dreame%20R20%20Ak%C4%B1ll%C4%B1%20Lazerli%20Kablosuz%20Dikey%20S%C3%BCp%C3%BCrge",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/dreame-r20-dikey-supurge-190aw-guclu-emis-akilli-kir-algilama-gri-p-HBCV0000CUKW9T",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T22:48:58.114Z"
       },
       {
         "storeName": "Trendyol",
@@ -67368,6 +67444,10 @@ export const mockAppliances: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 15000
+      },
+      {
+        "date": "7 Eylül 2026",
+        "price": 14919
       }
     ],
     "subCategory": "stick_vacuum",
@@ -67702,11 +67782,12 @@ export const mockAppliances: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 33899,
+        "price": 34999.01,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Dreame%20X40%20Ultra%20Ak%C4%B1ll%C4%B1%20Robot%20S%C3%BCp%C3%BCrge%20%26%20Paspas",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/dreame-x40-ultra-robot-supurge-beyaz-12-000pa-emis-gucu-p-HBCV00006WWJMV",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T22:49:07.843Z"
       },
       {
         "storeName": "Trendyol",
@@ -67778,6 +67859,10 @@ export const mockAppliances: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 33900
+      },
+      {
+        "date": "7 Eylül 2026",
+        "price": 33729
       }
     ],
     "subCategory": "robot_vacuum",
@@ -78735,11 +78820,12 @@ export const mockAppliances: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 14749,
+        "price": 22750,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Philips%20Marathon%20Ultimate%20XB9185%2F07",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/philips-xb9185-07-marathon-ultimate-899-w-toz-torbasiz-elektrikli-supurge-p-HBCV00009SZ5UE",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T22:53:28.833Z"
       },
       {
         "storeName": "Trendyol",
@@ -78811,6 +78897,10 @@ export const mockAppliances: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 14750
+      },
+      {
+        "date": "7 Eylül 2026",
+        "price": 14679
       }
     ],
     "subCategory": "stick_vacuum",
@@ -78867,11 +78957,12 @@ export const mockAppliances: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 8239,
+        "price": 17990,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Philips%20FC9749%2F07%20PowerPro%20Max",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/philips-7000-serisi-powerpro-max-torbasiz-elektrikli-supurge-fc9749-07-yuz-masaj-aleti-hediye-p-HBCV0000H6OLVB",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T22:53:32.331Z"
       },
       {
         "storeName": "Trendyol",
@@ -78943,6 +79034,10 @@ export const mockAppliances: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 8240
+      },
+      {
+        "date": "7 Eylül 2026",
+        "price": 8199
       }
     ],
     "subCategory": "stick_vacuum",
@@ -81894,11 +81989,12 @@ export const mockAppliances: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 16829,
+        "price": 30999,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Philips%20XC8057_01%20Aqua%20Plus",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/philips-xc8057-01-aqua-plus-8000-islak-kuru-sarjli-dikey-supurge-2200-w-guclu-performans-p-HBCV00009XWR9E",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T22:54:48.665Z"
       },
       {
         "storeName": "Trendyol",
@@ -81970,6 +82066,10 @@ export const mockAppliances: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 16830
+      },
+      {
+        "date": "7 Eylül 2026",
+        "price": 16749
       }
     ],
     "subCategory": "stick_vacuum",
@@ -82295,11 +82395,12 @@ export const mockAppliances: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 28899,
+        "price": 30999,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Philips%20Aqua%20Plus%208000%20Series%20XC8349%2F01",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/philips-xc8057-01-aqua-plus-8000-islak-kuru-sarjli-dikey-supurge-2200-w-guclu-performans-p-HBCV00009XWR9E",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T22:54:57.392Z"
       },
       {
         "storeName": "Trendyol",
@@ -82371,6 +82472,10 @@ export const mockAppliances: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 28900
+      },
+      {
+        "date": "7 Eylül 2026",
+        "price": 28759
       }
     ],
     "subCategory": "stick_vacuum",
@@ -83491,11 +83596,12 @@ export const mockAppliances: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 24749,
+        "price": 38999,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Philips%20Aqua%20Trio%209000%20Series%20XW9383%2F01",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/aqua-trio-9000-serisi-islak-kuru-dikey-supurge-tek-supurge-3-islem-kendini-temizleme-fonksiyonu-otomatik-temizlik-aplik-lambader-onerous-p-HBCV0000A746ZJ",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T22:55:24.457Z"
       },
       {
         "storeName": "Trendyol",
@@ -83567,6 +83673,10 @@ export const mockAppliances: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 24750
+      },
+      {
+        "date": "7 Eylül 2026",
+        "price": 24629
       }
     ],
     "subCategory": "stick_vacuum",
@@ -83754,11 +83864,12 @@ export const mockAppliances: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 22569,
+        "price": 38999,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Philips%20Aqua%20Trio%209000%20Series%20XW9463%2F11",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/aqua-trio-9000-serisi-islak-kuru-dikey-supurge-tek-supurge-3-islem-kendini-temizleme-fonksiyonu-otomatik-temizlik-aplik-lambader-onerous-p-HBCV0000A746ZJ",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T22:55:31.035Z"
       },
       {
         "storeName": "Trendyol",
@@ -83830,6 +83941,10 @@ export const mockAppliances: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 22570
+      },
+      {
+        "date": "7 Eylül 2026",
+        "price": 22459
       }
     ],
     "subCategory": "stick_vacuum",
@@ -83888,11 +84003,12 @@ export const mockAppliances: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 13629,
+        "price": 30999,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Philips%20Aqua%20Plus%208000%20Series%20XC8053%2F01",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/philips-xc8057-01-aqua-plus-8000-islak-kuru-sarjli-dikey-supurge-2200-w-guclu-performans-p-HBCV00009XWR9E",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T22:55:33.696Z"
       },
       {
         "storeName": "Trendyol",
@@ -83964,6 +84080,10 @@ export const mockAppliances: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 13630
+      },
+      {
+        "date": "7 Eylül 2026",
+        "price": 13559
       }
     ],
     "subCategory": "stick_vacuum",
@@ -85213,11 +85333,12 @@ export const mockAppliances: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 20529,
+        "price": 37000,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Philips%20XU5100",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/philips-philips-homerun-5000-serisi-xu5100-10-siyah-cop-istasyonlu-akilli-robot-supurge-p-HBCV0000B20P65",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T22:56:04.757Z"
       },
       {
         "storeName": "Trendyol",
@@ -85289,6 +85410,10 @@ export const mockAppliances: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 20530
+      },
+      {
+        "date": "7 Eylül 2026",
+        "price": 20429
       }
     ],
     "subCategory": "robot_vacuum",
@@ -86807,11 +86932,12 @@ export const mockAppliances: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 17669,
+        "price": 30999,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Philips%20Aqua%20Plus%208000%20XC8153%2F10",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/philips-xc8057-01-aqua-plus-8000-islak-kuru-sarjli-dikey-supurge-2200-w-guclu-performans-p-HBCV00009XWR9E",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T22:56:38.721Z"
       },
       {
         "storeName": "Trendyol",
@@ -86883,6 +87009,10 @@ export const mockAppliances: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 17670
+      },
+      {
+        "date": "7 Eylül 2026",
+        "price": 17579
       }
     ],
     "subCategory": "stick_vacuum",
@@ -106857,11 +106987,12 @@ export const mockAppliances: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 11389,
+        "price": 15433.8,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Philips%20Premium%20XXL%20HD9867%2F90%20Airfryer",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/philips-premium-airfryer-xxl-fritoz-hda150-60-turk-kahvesi-hd9867-90-p-HBCV00009XUQUG",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T23:05:32.205Z"
       },
       {
         "storeName": "Trendyol",
@@ -106933,6 +107064,10 @@ export const mockAppliances: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 11390
+      },
+      {
+        "date": "7 Eylül 2026",
+        "price": 11329
       }
     ],
     "subCategory": "airfryer",
@@ -115313,7 +115448,7 @@ export const mockAppliances: Product[] = [
     "image": "/images/appliances/ecovacs-deebot-t30-pro-omni.png",
     "rating": 4.9,
     "reviewCount": 328,
-    "basePrice": 38799,
+    "basePrice": 35499,
     "currency": "TL",
     "releaseYear": 2024,
     "isPopular": true,
@@ -115350,11 +115485,12 @@ export const mockAppliances: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 38999,
+        "price": 35499,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Ecovacs%20Deebot%20T30%20Pro%20Omni%20Robot%20S%C3%BCp%C3%BCrge%20ve%20Mop",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/ecovacs-deebot-t30-pro-omni-akilli-robot-supurge-ve-paspas-beyaz-p-HBCV00006L8ZZ8",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T23:09:09.099Z"
       },
       {
         "storeName": "Trendyol",
@@ -115426,6 +115562,10 @@ export const mockAppliances: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 39000
+      },
+      {
+        "date": "7 Eylül 2026",
+        "price": 35499
       }
     ]
   },
@@ -115694,7 +115834,7 @@ export const mockAppliances: Product[] = [
     "image": "/images/appliances/ecovacs-deebot-n20-pro-plus.jpg",
     "rating": 4.7,
     "reviewCount": 190,
-    "basePrice": 21889,
+    "basePrice": 11219,
     "currency": "TL",
     "releaseYear": 2024,
     "isPopular": false,
@@ -115731,11 +115871,12 @@ export const mockAppliances: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 21999,
+        "price": 11219,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Ecovacs%20Deebot%20N20%20Pro%20Plus%20Robot%20S%C3%BCp%C3%BCrge",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/ecovacs-deebot-n20-pro-akilli-robot-supurge-8000pa-emis-gucu-2-si-1-arada-supurme-ve-paspaslama-truemapping-lazer-navigasyon-300-dakika-calisma-suresi-p-HBCV00006XVQLI",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T23:09:18.428Z"
       },
       {
         "storeName": "Trendyol",
@@ -115807,6 +115948,10 @@ export const mockAppliances: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 22000
+      },
+      {
+        "date": "7 Eylül 2026",
+        "price": 11219
       }
     ]
   },
@@ -122678,7 +122823,7 @@ export const mockAppliances: Product[] = [
     "subCategoryLabel": "Robot Süpürge",
     "rating": 4.9,
     "reviewCount": 48,
-    "basePrice": 59699,
+    "basePrice": 39999,
     "currency": "TL",
     "releaseYear": 2025,
     "highlights": [
@@ -122721,11 +122866,12 @@ export const mockAppliances: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 59999,
+        "price": 39999,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Ecovacs%20Deebot%20X11%20OmniCyclone%20Robot%20S%C3%BCp%C3%BCrge%20ve%20Paspas",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/ecovacs-deebot-x11-omnicyclone-toz-torbasiz-robot-supurge-ve-paspas-powerboost-p-HBCV0000AD5LL1",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T23:12:04.563Z"
       },
       {
         "storeName": "Trendyol",
@@ -122798,6 +122944,10 @@ export const mockAppliances: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 60000
+      },
+      {
+        "date": "7 Eylül 2026",
+        "price": 39999
       }
     ]
   },
@@ -122811,7 +122961,7 @@ export const mockAppliances: Product[] = [
     "subCategoryLabel": "Robot Süpürge",
     "rating": 4.9,
     "reviewCount": 32,
-    "basePrice": 64669,
+    "basePrice": 39999,
     "currency": "TL",
     "releaseYear": 2025,
     "highlights": [
@@ -122854,11 +123004,12 @@ export const mockAppliances: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 64999,
+        "price": 39999,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Ecovacs%20Deebot%20X11%20Pro%20Omni%20Robot%20S%C3%BCp%C3%BCrge%20ve%20Paspas",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/ecovacs-deebot-x11-pro-omni-robot-supurge-ve-paspas-powerboost-p-HBCV0000AAVW0D",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T23:12:07.814Z"
       },
       {
         "storeName": "Trendyol",
@@ -122931,6 +123082,10 @@ export const mockAppliances: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 65000
+      },
+      {
+        "date": "7 Eylül 2026",
+        "price": 39999
       }
     ]
   },
@@ -123077,7 +123232,7 @@ export const mockAppliances: Product[] = [
     "subCategoryLabel": "Robot Süpürge",
     "rating": 5,
     "reviewCount": 42,
-    "basePrice": 49749,
+    "basePrice": 38999,
     "currency": "TL",
     "releaseYear": 2025,
     "highlights": [
@@ -123120,11 +123275,12 @@ export const mockAppliances: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 49999,
+        "price": 38999,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Ecovacs%20Deebot%20T90%20Pro%20Omni%20Robot%20S%C3%BCp%C3%BCrge%20ve%20Paspas",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/ecovacs-deebot-t90-pro-omni-robot-supurge-ve-paspas-30-000-pa-emis-gucu-hizli-sarj-truedge-ozellikli-ozmo-roller-3-0-paspas-sistemi-otomatik-temizlik-solusyonu-dozajlama-akilli-omni-istasyon-p-HBCV0000DBKNVI",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T23:12:13.578Z"
       },
       {
         "storeName": "Trendyol",
@@ -123197,6 +123353,10 @@ export const mockAppliances: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 50000
+      },
+      {
+        "date": "7 Eylül 2026",
+        "price": 38999
       }
     ]
   },
@@ -123875,7 +124035,7 @@ export const mockAppliances: Product[] = [
     "subCategoryLabel": "Robot Süpürge",
     "rating": 4.7,
     "reviewCount": 68,
-    "basePrice": 21889,
+    "basePrice": 11219,
     "currency": "TL",
     "releaseYear": 2025,
     "highlights": [
@@ -123918,11 +124078,12 @@ export const mockAppliances: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 21999,
+        "price": 11219,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Ecovacs%20Deebot%20N20E%20Plus%20Robot%20S%C3%BCp%C3%BCrge%20(Torbas%C4%B1z%20Siklon%20%C4%B0stasyon)",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/ecovacs-deebot-n20e-plus-robot-supurge-ve-paspas-11000pa-emis-gucu-otomatik-toz-torbasiz-bosaltma-istasyonu-akilli-haritalama-ve-mobil-uygulama-esik-tirmanma-ve-akilli-engel-navigasyonu-p-HBCV0000B6C9CY",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T23:12:31.719Z"
       },
       {
         "storeName": "Trendyol",
@@ -123995,6 +124156,10 @@ export const mockAppliances: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 22000
+      },
+      {
+        "date": "7 Eylül 2026",
+        "price": 11219
       }
     ]
   },

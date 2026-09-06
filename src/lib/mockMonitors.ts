@@ -852,7 +852,7 @@ export const mockMonitors: Product[] = [
     "rating": 4.9,
     "epeyScore": 69,
     "reviewCount": 1150,
-    "basePrice": 72009,
+    "basePrice": 57999,
     "currency": "TL",
     "releaseYear": 2019,
     "isPopular": true,
@@ -885,11 +885,12 @@ export const mockMonitors: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 72379,
+        "price": 57999,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Asus%20TUF%20Gaming%20VG27AQ%2027%20in%C3%A7%20165Hz%201ms%20WQHD%20IPS%20G-Sync%20Pivot%20Gaming",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/asus-tuf-gaming-f16-fx607vu-rl144-gaming-intel-core-5-210h-16gb-ddr5-5200mhz-512gb-ssd-rtx-4050-6gb-140w-144hz-16-ips-panel-wuxga-freedos-tasinabilir-bilgisayar-p-HBCV0000853EP1",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T23:13:10.301Z"
       },
       {
         "storeName": "Trendyol",
@@ -961,6 +962,10 @@ export const mockMonitors: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 72380
+      },
+      {
+        "date": "7 Eylül 2026",
+        "price": 57999
       }
     ]
   },
@@ -8959,11 +8964,12 @@ export const mockMonitors: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 31269,
+        "price": 57999,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Asus%20TUF%20Gaming%20VG34VQEL1A%2034%20in%C3%A7%20100Hz%201ms%201500R%20UWQHD%20Kavisli%20Monit%C3%B6r",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/asus-tuf-gaming-f16-fx607vu-rl144-gaming-intel-core-5-210h-16gb-ddr5-5200mhz-512gb-ssd-rtx-4050-6gb-140w-144hz-16-ips-panel-wuxga-freedos-tasinabilir-bilgisayar-p-HBCV0000853EP1",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T23:16:44.815Z"
       },
       {
         "storeName": "Trendyol",
@@ -9035,6 +9041,10 @@ export const mockMonitors: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 31270
+      },
+      {
+        "date": "7 Eylül 2026",
+        "price": 31109
       }
     ]
   },
@@ -10153,11 +10163,12 @@ export const mockMonitors: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 36939,
+        "price": 57999,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Asus%20TUF%20Gaming%20VG34VQ3B%2034%20in%C3%A7%20180Hz%201ms%201500R%20UWQHD%20Kavisli%20Gaming%20Monit%C3%B6r",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/asus-tuf-gaming-f16-fx607vu-rl144-gaming-intel-core-5-210h-16gb-ddr5-5200mhz-512gb-ssd-rtx-4050-6gb-140w-144hz-16-ips-panel-wuxga-freedos-tasinabilir-bilgisayar-p-HBCV0000853EP1",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T23:17:15.938Z"
       },
       {
         "storeName": "Trendyol",
@@ -10229,6 +10240,10 @@ export const mockMonitors: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 36940
+      },
+      {
+        "date": "7 Eylül 2026",
+        "price": 36749
       }
     ]
   },
@@ -21442,11 +21457,12 @@ export const mockMonitors: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 29999,
+        "price": 57999,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Asus%20TUF%20Gaming%20VG32AQL1A%2031.5%20in%C3%A7%20170Hz%201ms%20WQHD%20Fast%20IPS%20Monit%C3%B6r",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/asus-tuf-gaming-f16-fx607vu-rl144-gaming-intel-core-5-210h-16gb-ddr5-5200mhz-512gb-ssd-rtx-4050-6gb-140w-144hz-16-ips-panel-wuxga-freedos-tasinabilir-bilgisayar-p-HBCV0000853EP1",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T23:22:03.628Z"
       },
       {
         "storeName": "Trendyol",
@@ -21518,6 +21534,10 @@ export const mockMonitors: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 30000
+      },
+      {
+        "date": "7 Eylül 2026",
+        "price": 29849
       }
     ]
   },
@@ -22839,7 +22859,7 @@ export const mockMonitors: Product[] = [
     "rating": 4.8,
     "epeyScore": 73,
     "reviewCount": 310,
-    "basePrice": 94139,
+    "basePrice": 57999,
     "currency": "TL",
     "releaseYear": 2023,
     "isPopular": false,
@@ -22872,11 +22892,12 @@ export const mockMonitors: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 94609,
+        "price": 57999,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Asus%20TUF%20Gaming%20VG32UQA1A%2031.5%20in%C3%A7%20160Hz%201ms%204K%20UHD%20VA%20Monit%C3%B6r",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/asus-tuf-gaming-f16-fx607vu-rl144-gaming-intel-core-5-210h-16gb-ddr5-5200mhz-512gb-ssd-rtx-4050-6gb-140w-144hz-16-ips-panel-wuxga-freedos-tasinabilir-bilgisayar-p-HBCV0000853EP1",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T23:22:41.458Z"
       },
       {
         "storeName": "Trendyol",
@@ -22948,6 +22969,10 @@ export const mockMonitors: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 94610
+      },
+      {
+        "date": "7 Eylül 2026",
+        "price": 57999
       }
     ]
   },
@@ -23915,7 +23940,7 @@ export const mockMonitors: Product[] = [
     "rating": 4.9,
     "epeyScore": 73,
     "reviewCount": 460,
-    "basePrice": 39799,
+    "basePrice": 17250,
     "currency": "TL",
     "releaseYear": 2024,
     "isPopular": true,
@@ -23945,11 +23970,12 @@ export const mockMonitors: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 39999,
+        "price": 17250,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Samsung%20Odyssey%20OLED%20G5%2027%20in%C3%A7%20180Hz%200.03ms%20WQHD%20OLED%20Gaming%20Monit%C3%B6r",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/samsung-27-odyssey-g3-ls27dg302euxuf-1-ms-180-hz-fhd-hdmi-dp-pivot-gaming-monitor-p-HBCV00006VEYCB",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T23:23:09.472Z"
       },
       {
         "storeName": "Trendyol",
@@ -24021,6 +24047,10 @@ export const mockMonitors: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 40000
+      },
+      {
+        "date": "7 Eylül 2026",
+        "price": 17250
       }
     ]
   },
@@ -40003,7 +40033,7 @@ export const mockMonitors: Product[] = [
     "rating": 4.9,
     "epeyScore": 79,
     "reviewCount": 380,
-    "basePrice": 39799,
+    "basePrice": 24644.07,
     "currency": "TL",
     "releaseYear": 2024,
     "isPopular": true,
@@ -40033,11 +40063,12 @@ export const mockMonitors: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 39999,
+        "price": 24644.07,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Dell%20Alienware%20AW2726DM%2027%20in%C3%A7%20240Hz%200.03ms%20WQHD%20QD-OLED%20Monit%C3%B6r",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/dell-alienware-aw2726dm-27-2560x1440-wqhd-240hz-0-03-ms-hdmi-dp-adaptive-sync-qd-oled-gaming-monitor-p-HBCV0000GP2LNX",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T23:30:06.812Z"
       },
       {
         "storeName": "Trendyol",
@@ -40109,6 +40140,10 @@ export const mockMonitors: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 40000
+      },
+      {
+        "date": "7 Eylül 2026",
+        "price": 24644.07
       }
     ]
   },
@@ -42020,7 +42055,7 @@ export const mockMonitors: Product[] = [
     "rating": 4.8,
     "epeyScore": 80,
     "reviewCount": 410,
-    "basePrice": 93159,
+    "basePrice": 57999,
     "currency": "TL",
     "releaseYear": 2022,
     "isPopular": false,
@@ -42053,11 +42088,12 @@ export const mockMonitors: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 93619,
+        "price": 57999,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Asus%20TUF%20Gaming%20VG28UQL1A%2028%20in%C3%A7%20144Hz%204K%20UHD%20Fast%20IPS%20HDMI%202.1%20Monit%C3%B6r",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/asus-tuf-gaming-f16-fx607vu-rl144-gaming-intel-core-5-210h-16gb-ddr5-5200mhz-512gb-ssd-rtx-4050-6gb-140w-144hz-16-ips-panel-wuxga-freedos-tasinabilir-bilgisayar-p-HBCV0000853EP1",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T23:31:00.782Z"
       },
       {
         "storeName": "Trendyol",
@@ -42129,6 +42165,10 @@ export const mockMonitors: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 93620
+      },
+      {
+        "date": "7 Eylül 2026",
+        "price": 57999
       }
     ]
   },
@@ -42730,7 +42770,7 @@ export const mockMonitors: Product[] = [
     "rating": 4.8,
     "epeyScore": 80,
     "reviewCount": 290,
-    "basePrice": 39799,
+    "basePrice": 17250,
     "currency": "TL",
     "releaseYear": 2024,
     "isPopular": true,
@@ -42760,11 +42800,12 @@ export const mockMonitors: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 39999,
+        "price": 17250,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Samsung%20Odyssey%20OLED%20G6%2027%20in%C3%A7%20240Hz%200.03ms%20WQHD%20QD-OLED%20Monit%C3%B6r",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/samsung-27-odyssey-g3-ls27dg302euxuf-1-ms-180-hz-fhd-hdmi-dp-pivot-gaming-monitor-p-HBCV00006VEYCB",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T23:31:18.832Z"
       },
       {
         "storeName": "Trendyol",
@@ -42836,6 +42877,10 @@ export const mockMonitors: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 40000
+      },
+      {
+        "date": "7 Eylül 2026",
+        "price": 17250
       }
     ]
   },
@@ -46080,11 +46125,12 @@ export const mockMonitors: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 39999,
+        "price": 84999,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Asus%20ROG%20Strix%20OLED%20XG27AQDMES%2027%20in%C3%A7%20240Hz%200.03ms%20WQHD%20OLED%20Monit%C3%B6r",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/asus-rog-strix-g16-g615jh-n3112-intel-core-i5-13450hx-16gb-512gb-ssd-rtx5050-freedos-16-tasinabilir-bilgisayar-p-HBCV0000CBGGHP",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T23:32:48.113Z"
       },
       {
         "storeName": "Trendyol",
@@ -46156,6 +46202,10 @@ export const mockMonitors: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 40000
+      },
+      {
+        "date": "7 Eylül 2026",
+        "price": 39799
       }
     ]
   },
@@ -46759,7 +46809,7 @@ export const mockMonitors: Product[] = [
     "rating": 4.8,
     "epeyScore": 81,
     "reviewCount": 310,
-    "basePrice": 32829,
+    "basePrice": 17250,
     "currency": "TL",
     "releaseYear": 2024,
     "isPopular": true,
@@ -46789,11 +46839,12 @@ export const mockMonitors: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 32999,
+        "price": 17250,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Samsung%20Odyssey%20OLED%20G6%2027%20in%C3%A7%20240Hz%200.03ms%20WQHD%20OLED%20Gaming%20Monit%C3%B6r",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/samsung-27-odyssey-g3-ls27dg302euxuf-1-ms-180-hz-fhd-hdmi-dp-pivot-gaming-monitor-p-HBCV00006VEYCB",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T23:33:04.892Z"
       },
       {
         "storeName": "Trendyol",
@@ -46865,6 +46916,10 @@ export const mockMonitors: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 33000
+      },
+      {
+        "date": "7 Eylül 2026",
+        "price": 17250
       }
     ]
   },
@@ -49501,7 +49556,7 @@ export const mockMonitors: Product[] = [
     "rating": 4.8,
     "epeyScore": 86,
     "reviewCount": 310,
-    "basePrice": 34819,
+    "basePrice": 17250,
     "currency": "TL",
     "releaseYear": 2024,
     "isPopular": true,
@@ -49530,11 +49585,12 @@ export const mockMonitors: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 34999,
+        "price": 17250,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Samsung%20Odyssey%20OLED%20G8%2027%20in%C3%A7%20240Hz%204K%20UHD%20OLED%20Gaming%20Monit%C3%B6r",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/samsung-27-odyssey-g3-ls27dg302euxuf-1-ms-180-hz-fhd-hdmi-dp-pivot-gaming-monitor-p-HBCV00006VEYCB",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T23:34:12.765Z"
       },
       {
         "storeName": "Trendyol",
@@ -49606,6 +49662,10 @@ export const mockMonitors: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 35000
+      },
+      {
+        "date": "7 Eylül 2026",
+        "price": 17250
       }
     ]
   },
@@ -50243,11 +50303,12 @@ export const mockMonitors: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 39999,
+        "price": 84999,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Asus%20ROG%20Strix%20OLED%20XG27AQDMG%20Gen2%2027%20in%C3%A7%20240Hz%20WQHD%20WOLED%20Monit%C3%B6r",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/asus-rog-strix-g16-g615jh-n3112-intel-core-i5-13450hx-16gb-512gb-ssd-rtx5050-freedos-16-tasinabilir-bilgisayar-p-HBCV0000CBGGHP",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T23:34:29.950Z"
       },
       {
         "storeName": "Trendyol",
@@ -50319,6 +50380,10 @@ export const mockMonitors: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 40000
+      },
+      {
+        "date": "7 Eylül 2026",
+        "price": 39799
       }
     ]
   },
@@ -51315,11 +51380,12 @@ export const mockMonitors: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 58649,
+        "price": 84999,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Asus%20ROG%20Strix%20OLED%20XG27AQDMG%2027%20in%C3%A7%20240Hz%20WQHD%20Parlak%20WOLED%20Gaming%20Monit%C3%B6r",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/asus-rog-strix-g16-g615jh-n3112-intel-core-i5-13450hx-16gb-512gb-ssd-rtx5050-freedos-16-tasinabilir-bilgisayar-p-HBCV0000CBGGHP",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T23:34:58.019Z"
       },
       {
         "storeName": "Trendyol",
@@ -51391,6 +51457,10 @@ export const mockMonitors: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 58650
+      },
+      {
+        "date": "7 Eylül 2026",
+        "price": 58359
       }
     ]
   },
@@ -52466,7 +52536,7 @@ export const mockMonitors: Product[] = [
     "rating": 4.9,
     "epeyScore": 88,
     "reviewCount": 420,
-    "basePrice": 44769,
+    "basePrice": 17250,
     "currency": "TL",
     "releaseYear": 2024,
     "isPopular": true,
@@ -52496,11 +52566,12 @@ export const mockMonitors: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 44999,
+        "price": 17250,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Samsung%20Odyssey%20OLED%20G9%2049%20in%C3%A7%20144Hz%200.03ms%20Dual%20QHD%20OLED%20Kavisli%20Monit%C3%B6r",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/samsung-27-odyssey-g3-ls27dg302euxuf-1-ms-180-hz-fhd-hdmi-dp-pivot-gaming-monitor-p-HBCV00006VEYCB",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T23:35:27.814Z"
       },
       {
         "storeName": "Trendyol",
@@ -52572,6 +52643,10 @@ export const mockMonitors: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 45000
+      },
+      {
+        "date": "7 Eylül 2026",
+        "price": 17250
       }
     ]
   },
@@ -52613,11 +52688,12 @@ export const mockMonitors: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 54939,
+        "price": 84999,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Asus%20ROG%20Strix%20OLED%20XG32UQDMS%2032%20in%C3%A7%20240Hz%204K%20UHD%20WOLED%20Monit%C3%B6r",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/asus-rog-strix-g16-g615jh-n3112-intel-core-i5-13450hx-16gb-512gb-ssd-rtx5050-freedos-16-tasinabilir-bilgisayar-p-HBCV0000CBGGHP",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T23:35:31.106Z"
       },
       {
         "storeName": "Trendyol",
@@ -52689,6 +52765,10 @@ export const mockMonitors: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 54940
+      },
+      {
+        "date": "7 Eylül 2026",
+        "price": 54669
       }
     ]
   },
@@ -53328,11 +53408,12 @@ export const mockMonitors: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 42249,
+        "price": 84999,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Asus%20ROG%20Strix%20OLED%20XG32UCDS%2032%20in%C3%A7%20165Hz%204K%20UHD%20QD-OLED%20Monit%C3%B6r",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/asus-rog-strix-g16-g615jh-n3112-intel-core-i5-13450hx-16gb-512gb-ssd-rtx5050-freedos-16-tasinabilir-bilgisayar-p-HBCV0000CBGGHP",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T23:35:49.931Z"
       },
       {
         "storeName": "Trendyol",
@@ -53404,6 +53485,10 @@ export const mockMonitors: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 42250
+      },
+      {
+        "date": "7 Eylül 2026",
+        "price": 42039
       }
     ]
   },
@@ -53536,7 +53621,7 @@ export const mockMonitors: Product[] = [
     "rating": 4.8,
     "epeyScore": 87,
     "reviewCount": 310,
-    "basePrice": 44769,
+    "basePrice": 17250,
     "currency": "TL",
     "releaseYear": 2024,
     "isPopular": true,
@@ -53565,11 +53650,12 @@ export const mockMonitors: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 44999,
+        "price": 17250,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Samsung%20Odyssey%20OLED%20G8%2032%20in%C3%A7%20240Hz%204K%20UHD%20QD-OLED%20Gaming%20Monit%C3%B6r",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/samsung-27-odyssey-g3-ls27dg302euxuf-1-ms-180-hz-fhd-hdmi-dp-pivot-gaming-monitor-p-HBCV00006VEYCB",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T23:35:55.672Z"
       },
       {
         "storeName": "Trendyol",
@@ -53641,6 +53727,10 @@ export const mockMonitors: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 45000
+      },
+      {
+        "date": "7 Eylül 2026",
+        "price": 17250
       }
     ]
   },
@@ -54596,7 +54686,7 @@ export const mockMonitors: Product[] = [
     "rating": 4.8,
     "epeyScore": 86,
     "reviewCount": 340,
-    "basePrice": 39799,
+    "basePrice": 29721.87,
     "currency": "TL",
     "releaseYear": 2024,
     "isPopular": true,
@@ -54626,11 +54716,12 @@ export const mockMonitors: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 39999,
+        "price": 29721.87,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Dell%20Alienware%20AW2725D%2027%20in%C3%A7%20280Hz%20WQHD%20QD-OLED%20Gaming%20Monit%C3%B6r",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/dell-alienware-aw2725d-27-2560x1440-qhd-280hz-0-03-ms-hdmi-dp-type-c-true-black-400-qd-oled-gaming-monitor-p-HBCV00009S982S",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T23:36:20.855Z"
       },
       {
         "storeName": "Trendyol",
@@ -54702,6 +54793,10 @@ export const mockMonitors: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 40000
+      },
+      {
+        "date": "7 Eylül 2026",
+        "price": 29721.87
       }
     ]
   },
@@ -55338,11 +55433,12 @@ export const mockMonitors: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 38769,
+        "price": 40332.65,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Asus%20ROG%20Swift%20OLED%20PG27AQDP%2027%20in%C3%A7%20480Hz%200.03ms%20WQHD%20Gaming%20Monit%C3%B6r",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/asus-rog-swift-oled-pg27ucdm-26-5-0-03-ms-4k-pivot-240-hz-oled-oyuncu-monitoru-outlet-p-HBCV0000GWZ88W",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T23:36:37.777Z"
       },
       {
         "storeName": "Trendyol",
@@ -55414,6 +55510,10 @@ export const mockMonitors: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 38770
+      },
+      {
+        "date": "7 Eylül 2026",
+        "price": 38569
       }
     ]
   },
@@ -55456,11 +55556,12 @@ export const mockMonitors: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 36899,
+        "price": 84999,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Asus%20ROG%20Strix%20OLED%20XG27ACDNG%2027%20in%C3%A7%20360Hz%200.03ms%20WQHD%20QD-OLED%20Monit%C3%B6r",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/asus-rog-strix-g16-g615jh-n3112-intel-core-i5-13450hx-16gb-512gb-ssd-rtx5050-freedos-16-tasinabilir-bilgisayar-p-HBCV0000CBGGHP",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T23:36:40.902Z"
       },
       {
         "storeName": "Trendyol",
@@ -55532,6 +55633,10 @@ export const mockMonitors: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 36900
+      },
+      {
+        "date": "7 Eylül 2026",
+        "price": 36719
       }
     ]
   },
@@ -56151,7 +56256,7 @@ export const mockMonitors: Product[] = [
     "rating": 4.8,
     "epeyScore": 90,
     "reviewCount": 390,
-    "basePrice": 39299,
+    "basePrice": 17250,
     "currency": "TL",
     "releaseYear": 2024,
     "isPopular": true,
@@ -56181,11 +56286,12 @@ export const mockMonitors: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 39499,
+        "price": 17250,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Samsung%20Odyssey%20OLED%20G8%2027%20in%C3%A7%20240Hz%200.03ms%204K%20UHD%20Smart%20Monit%C3%B6r",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/samsung-27-odyssey-g3-ls27dg302euxuf-1-ms-180-hz-fhd-hdmi-dp-pivot-gaming-monitor-p-HBCV00006VEYCB",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T23:36:58.201Z"
       },
       {
         "storeName": "Trendyol",
@@ -56257,6 +56363,10 @@ export const mockMonitors: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 39500
+      },
+      {
+        "date": "7 Eylül 2026",
+        "price": 17250
       }
     ]
   },
@@ -56863,7 +56973,7 @@ export const mockMonitors: Product[] = [
     "rating": 4.9,
     "epeyScore": 89,
     "reviewCount": 350,
-    "basePrice": 34619,
+    "basePrice": 17250,
     "currency": "TL",
     "releaseYear": 2024,
     "isPopular": true,
@@ -56893,11 +57003,12 @@ export const mockMonitors: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 34789,
+        "price": 17250,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Samsung%20Odyssey%20OLED%20G6%2027%20in%C3%A7%20500Hz%20WQHD%20QD-OLED%20Gaming%20Monit%C3%B6r",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/samsung-27-odyssey-g3-ls27dg302euxuf-1-ms-180-hz-fhd-hdmi-dp-pivot-gaming-monitor-p-HBCV00006VEYCB",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T23:37:14.051Z"
       },
       {
         "storeName": "Trendyol",
@@ -56969,6 +57080,10 @@ export const mockMonitors: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 34790
+      },
+      {
+        "date": "7 Eylül 2026",
+        "price": 17250
       }
     ]
   },
@@ -57973,11 +58088,12 @@ export const mockMonitors: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 52319,
+        "price": 84999,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Asus%20ROG%20Strix%20OLED%20XG27UQDMS%2027%20in%C3%A7%20240Hz%204K%20WOLED%20Monit%C3%B6r",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/asus-rog-strix-g16-g615jh-n3112-intel-core-i5-13450hx-16gb-512gb-ssd-rtx5050-freedos-16-tasinabilir-bilgisayar-p-HBCV0000CBGGHP",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T23:37:39.635Z"
       },
       {
         "storeName": "Trendyol",
@@ -58049,6 +58165,10 @@ export const mockMonitors: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 52320
+      },
+      {
+        "date": "7 Eylül 2026",
+        "price": 52059
       }
     ]
   },
@@ -58061,7 +58181,7 @@ export const mockMonitors: Product[] = [
     "rating": 4.9,
     "epeyScore": 91,
     "reviewCount": 520,
-    "basePrice": 69679,
+    "basePrice": 40332.65,
     "currency": "TL",
     "releaseYear": 2024,
     "isPopular": true,
@@ -58094,11 +58214,12 @@ export const mockMonitors: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 70029,
+        "price": 40332.65,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Asus%20ROG%20Swift%20OLED%20PG32UCDM%2032%20in%C3%A7%20240Hz%200.03ms%204K%20QD-OLED%20Monit%C3%B6r",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/asus-rog-swift-oled-pg27ucdm-26-5-0-03-ms-4k-pivot-240-hz-oled-oyuncu-monitoru-outlet-p-HBCV0000GWZ88W",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T23:37:42.410Z"
       },
       {
         "storeName": "Trendyol",
@@ -58170,6 +58291,10 @@ export const mockMonitors: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 70030
+      },
+      {
+        "date": "7 Eylül 2026",
+        "price": 40332.65
       }
     ]
   },
@@ -59530,11 +59655,12 @@ export const mockMonitors: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 48869,
+        "price": 84999,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Asus%20ROG%20Strix%20OLED%20XG27AQDPG%2027%20in%C3%A7%20500Hz%200.03ms%20WQHD%20OLED%20Monit%C3%B6r",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/asus-rog-strix-g16-g615jh-n3112-intel-core-i5-13450hx-16gb-512gb-ssd-rtx5050-freedos-16-tasinabilir-bilgisayar-p-HBCV0000CBGGHP",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T23:38:14.278Z"
       },
       {
         "storeName": "Trendyol",
@@ -59606,6 +59732,10 @@ export const mockMonitors: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 48870
+      },
+      {
+        "date": "7 Eylül 2026",
+        "price": 48619
       }
     ]
   },
@@ -59618,7 +59748,7 @@ export const mockMonitors: Product[] = [
     "rating": 4.8,
     "epeyScore": 91,
     "reviewCount": 310,
-    "basePrice": 51869,
+    "basePrice": 40332.65,
     "currency": "TL",
     "releaseYear": 2024,
     "isPopular": true,
@@ -59650,11 +59780,12 @@ export const mockMonitors: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 52139,
+        "price": 40332.65,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Asus%20ROG%20Swift%20PG27UCDM%2027%20in%C3%A7%20240Hz%204K%20QD-OLED%20Gaming%20Monit%C3%B6r",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/asus-rog-swift-oled-pg27ucdm-26-5-0-03-ms-4k-pivot-240-hz-oled-oyuncu-monitoru-outlet-p-HBCV0000GWZ88W",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T23:38:17.004Z"
       },
       {
         "storeName": "Trendyol",
@@ -59726,6 +59857,10 @@ export const mockMonitors: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 52140
+      },
+      {
+        "date": "7 Eylül 2026",
+        "price": 40332.65
       }
     ]
   },
@@ -60231,7 +60366,7 @@ export const mockMonitors: Product[] = [
     "rating": 4.9,
     "epeyScore": 96,
     "reviewCount": 310,
-    "basePrice": 65069,
+    "basePrice": 40332.65,
     "currency": "TL",
     "releaseYear": 2024,
     "isPopular": true,
@@ -60269,11 +60404,12 @@ export const mockMonitors: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 65399,
+        "price": 40332.65,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Asus%20ROG%20Swift%20OLED%20PG27AQWP-W%2027%20in%C3%A7%20540Hz%200.03ms%20WQHD%20OLED%20Monit%C3%B6r",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/asus-rog-swift-oled-pg27ucdm-26-5-0-03-ms-4k-pivot-240-hz-oled-oyuncu-monitoru-outlet-p-HBCV0000GWZ88W",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T23:38:31.300Z"
       },
       {
         "storeName": "Trendyol",
@@ -60345,6 +60481,10 @@ export const mockMonitors: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 65400
+      },
+      {
+        "date": "7 Eylül 2026",
+        "price": 40332.65
       }
     ]
   },
@@ -60859,7 +60999,7 @@ export const mockMonitors: Product[] = [
     "rating": 4.9,
     "epeyScore": 96,
     "reviewCount": 190,
-    "basePrice": 79119,
+    "basePrice": 40332.65,
     "currency": "TL",
     "releaseYear": 2024,
     "isPopular": false,
@@ -60889,11 +61029,12 @@ export const mockMonitors: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 79519,
+        "price": 40332.65,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Asus%20ROG%20Swift%20OLED%20PG27AQWP-G%20Edition%2020%2027%20in%C3%A7%20540Hz%20OLED%20Monit%C3%B6r",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/asus-rog-swift-oled-pg27ucdm-26-5-0-03-ms-4k-pivot-240-hz-oled-oyuncu-monitoru-outlet-p-HBCV0000GWZ88W",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T23:38:44.430Z"
       },
       {
         "storeName": "Trendyol",
@@ -60965,6 +61106,10 @@ export const mockMonitors: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 79520
+      },
+      {
+        "date": "7 Eylül 2026",
+        "price": 40332.65
       }
     ]
   },
@@ -60977,7 +61122,7 @@ export const mockMonitors: Product[] = [
     "rating": 4.9,
     "epeyScore": 95,
     "reviewCount": 450,
-    "basePrice": 70149,
+    "basePrice": 40332.65,
     "currency": "TL",
     "releaseYear": 2024,
     "isPopular": true,
@@ -61017,11 +61162,12 @@ export const mockMonitors: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 70499,
+        "price": 40332.65,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Asus%20ROG%20Swift%20OLED%20PG32UCDP%2032%20in%C3%A7%20Dual-Mode%20(4K%20240Hz%20%2F%20FHD%20480Hz)%20WOLED%20Gaming%20Monit%C3%B6r",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/asus-rog-swift-oled-pg27ucdm-26-5-0-03-ms-4k-pivot-240-hz-oled-oyuncu-monitoru-outlet-p-HBCV0000GWZ88W",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T23:38:47.017Z"
       },
       {
         "storeName": "Trendyol",
@@ -61093,6 +61239,10 @@ export const mockMonitors: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 70500
+      },
+      {
+        "date": "7 Eylül 2026",
+        "price": 40332.65
       }
     ]
   },
@@ -61261,11 +61411,12 @@ export const mockMonitors: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 53999,
+        "price": 84999,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Asus%20ROG%20Strix%20OLED%20XG32UCWMG%2032%20in%C3%A7%20240Hz%204K%20WOLED%20Gaming%20Monit%C3%B6r",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/asus-rog-strix-g16-g615jh-n3112-intel-core-i5-13450hx-16gb-512gb-ssd-rtx5050-freedos-16-tasinabilir-bilgisayar-p-HBCV0000CBGGHP",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T23:38:52.933Z"
       },
       {
         "storeName": "Trendyol",
@@ -61337,6 +61488,10 @@ export const mockMonitors: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 54000
+      },
+      {
+        "date": "7 Eylül 2026",
+        "price": 53729
       }
     ]
   },
@@ -61349,7 +61504,7 @@ export const mockMonitors: Product[] = [
     "rating": 4.8,
     "epeyScore": 94,
     "reviewCount": 380,
-    "basePrice": 78599,
+    "basePrice": 40332.65,
     "currency": "TL",
     "releaseYear": 2024,
     "isPopular": true,
@@ -61382,11 +61537,12 @@ export const mockMonitors: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 78999,
+        "price": 40332.65,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Asus%20ROG%20Swift%20OLED%20Gen3%20(PG32UCDM3)%2032%20in%C3%A7%20240Hz%204K%20QD-OLED%20Monit%C3%B6r",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/asus-rog-swift-oled-pg27ucdm-26-5-0-03-ms-4k-pivot-240-hz-oled-oyuncu-monitoru-outlet-p-HBCV0000GWZ88W",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T23:38:55.378Z"
       },
       {
         "storeName": "Trendyol",
@@ -61458,6 +61614,10 @@ export const mockMonitors: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 79000
+      },
+      {
+        "date": "7 Eylül 2026",
+        "price": 40332.65
       }
     ]
   },
@@ -62332,11 +62492,12 @@ export const mockMonitors: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 45999,
+        "price": 84999,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Asus%20ROG%20Strix%20OLED%20XG27UCDMG%2027%20in%C3%A7%20240Hz%204K%20WOLED%20Monit%C3%B6r",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/asus-rog-strix-g16-g615jh-n3112-intel-core-i5-13450hx-16gb-512gb-ssd-rtx5050-freedos-16-tasinabilir-bilgisayar-p-HBCV0000CBGGHP",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T23:39:19.574Z"
       },
       {
         "storeName": "Trendyol",
@@ -62408,6 +62569,10 @@ export const mockMonitors: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 46000
+      },
+      {
+        "date": "7 Eylül 2026",
+        "price": 45769
       }
     ]
   },
@@ -62451,11 +62616,12 @@ export const mockMonitors: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 45139,
+        "price": 84999,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Asus%20ROG%20Strix%20OLED%20XG32UCWG%2032%20in%C3%A7%20165Hz%204K%20WOLED%20Monit%C3%B6r",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/asus-rog-strix-g16-g615jh-n3112-intel-core-i5-13450hx-16gb-512gb-ssd-rtx5050-freedos-16-tasinabilir-bilgisayar-p-HBCV0000CBGGHP",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T23:39:22.668Z"
       },
       {
         "storeName": "Trendyol",
@@ -62527,6 +62693,10 @@ export const mockMonitors: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 45140
+      },
+      {
+        "date": "7 Eylül 2026",
+        "price": 44919
       }
     ]
   },
@@ -62779,7 +62949,7 @@ export const mockMonitors: Product[] = [
     "rating": 4.8,
     "epeyScore": 92,
     "reviewCount": 190,
-    "basePrice": 88409,
+    "basePrice": 40332.65,
     "currency": "TL",
     "releaseYear": 2024,
     "isPopular": false,
@@ -62811,11 +62981,12 @@ export const mockMonitors: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 88849,
+        "price": 40332.65,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Asus%20ROG%20Swift%20OLED%20PG32UCDMZ%2032%20in%C3%A7%20240Hz%204K%20QD-OLED%20Monit%C3%B6r",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/asus-rog-swift-oled-pg27ucdm-26-5-0-03-ms-4k-pivot-240-hz-oled-oyuncu-monitoru-outlet-p-HBCV0000GWZ88W",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T23:39:30.431Z"
       },
       {
         "storeName": "Trendyol",
@@ -62887,6 +63058,10 @@ export const mockMonitors: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 88850
+      },
+      {
+        "date": "7 Eylül 2026",
+        "price": 40332.65
       }
     ]
   },

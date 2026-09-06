@@ -12089,7 +12089,7 @@ export const mockLaptops: Product[] = [
     "rating": 4.8,
     "epeyScore": 82,
     "reviewCount": 37,
-    "basePrice": 124769,
+    "basePrice": 119249,
     "currency": "TL",
     "releaseYear": 2025,
     "isPopular": true,
@@ -12144,11 +12144,12 @@ export const mockLaptops: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 125399,
+        "price": 119249,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Asus%20ROG%20Strix%20G16%20G614PH-RV036EP8",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/asus-rog-strix-g16-g615jmr-s5048-intel-i7-14650hx-16gb-512gb-8gb-rtx5060-16-2-5k-240hz-freedos-tasinabilir-bilgisayar-p-HBCV00009BDGH9",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T19:58:48.703Z"
       },
       {
         "storeName": "Trendyol",
@@ -12220,6 +12221,10 @@ export const mockLaptops: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 125400
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 119249
       }
     ]
   },
@@ -12385,7 +12390,7 @@ export const mockLaptops: Product[] = [
     "rating": 4.8,
     "epeyScore": 82,
     "reviewCount": 49,
-    "basePrice": 235719,
+    "basePrice": 119249,
     "currency": "TL",
     "releaseYear": 2025,
     "isPopular": true,
@@ -12440,11 +12445,12 @@ export const mockLaptops: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 236899,
+        "price": 119249,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Asus%20ROG%20Strix%20G16%20G615LW-S5185-A6",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/asus-rog-strix-g16-g615jmr-s5048-intel-i7-14650hx-16gb-512gb-8gb-rtx5060-16-2-5k-240hz-freedos-tasinabilir-bilgisayar-p-HBCV00009BDGH9",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T19:58:54.424Z"
       },
       {
         "storeName": "Trendyol",
@@ -12516,6 +12522,10 @@ export const mockLaptops: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 236900
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 119249
       }
     ]
   },
@@ -12533,7 +12543,7 @@ export const mockLaptops: Product[] = [
     "rating": 4.8,
     "epeyScore": 81,
     "reviewCount": 34,
-    "basePrice": 197559,
+    "basePrice": 119249,
     "currency": "TL",
     "releaseYear": 2025,
     "isPopular": true,
@@ -12588,11 +12598,12 @@ export const mockLaptops: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 198549,
+        "price": 119249,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Asus%20ROG%20Strix%20G16%20G615LW-S5187",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/asus-rog-strix-g16-g615jmr-s5048-intel-i7-14650hx-16gb-512gb-8gb-rtx5060-16-2-5k-240hz-freedos-tasinabilir-bilgisayar-p-HBCV00009BDGH9",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T19:58:57.571Z"
       },
       {
         "storeName": "Trendyol",
@@ -12664,6 +12675,10 @@ export const mockLaptops: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 198550
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 119249
       }
     ]
   },
@@ -12681,7 +12696,7 @@ export const mockLaptops: Product[] = [
     "rating": 4.8,
     "epeyScore": 81,
     "reviewCount": 39,
-    "basePrice": 241369,
+    "basePrice": 119249,
     "currency": "TL",
     "releaseYear": 2025,
     "isPopular": true,
@@ -12736,11 +12751,12 @@ export const mockLaptops: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 242589,
+        "price": 119249,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Asus%20ROG%20Strix%20G16%20G615LW-S5185",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/asus-rog-strix-g16-g615jmr-s5048-intel-i7-14650hx-16gb-512gb-8gb-rtx5060-16-2-5k-240hz-freedos-tasinabilir-bilgisayar-p-HBCV00009BDGH9",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T19:59:00.477Z"
       },
       {
         "storeName": "Trendyol",
@@ -12812,6 +12828,10 @@ export const mockLaptops: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 242580
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 119249
       }
     ]
   },
@@ -12977,7 +12997,7 @@ export const mockLaptops: Product[] = [
     "rating": 4.8,
     "epeyScore": 81,
     "reviewCount": 50,
-    "basePrice": 119569,
+    "basePrice": 119249,
     "currency": "TL",
     "releaseYear": 2025,
     "isPopular": true,
@@ -13032,11 +13052,12 @@ export const mockLaptops: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 120169,
+        "price": 119249,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Asus%20ROG%20Strix%20G16%20G614PH-RV036EP2",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/asus-rog-strix-g16-g615jmr-s5048-intel-i7-14650hx-16gb-512gb-8gb-rtx5060-16-2-5k-240hz-freedos-tasinabilir-bilgisayar-p-HBCV00009BDGH9",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T19:59:06.336Z"
       },
       {
         "storeName": "Trendyol",
@@ -13108,6 +13129,10 @@ export const mockLaptops: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 120170
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 119249
       }
     ]
   },
@@ -13180,11 +13205,12 @@ export const mockLaptops: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 118079,
+        "price": 119249,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Asus%20ROG%20Strix%20G16%20G614PH-RV036EP5",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/asus-rog-strix-g16-g615jmr-s5048-intel-i7-14650hx-16gb-512gb-8gb-rtx5060-16-2-5k-240hz-freedos-tasinabilir-bilgisayar-p-HBCV00009BDGH9",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T19:59:09.799Z"
       },
       {
         "storeName": "Trendyol",
@@ -13256,6 +13282,10 @@ export const mockLaptops: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 118080
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 117489
       }
     ]
   },
@@ -13273,7 +13303,7 @@ export const mockLaptops: Product[] = [
     "rating": 4.8,
     "epeyScore": 81,
     "reviewCount": 61,
-    "basePrice": 178649,
+    "basePrice": 119249,
     "currency": "TL",
     "releaseYear": 2025,
     "isPopular": true,
@@ -13328,11 +13358,12 @@ export const mockLaptops: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 179549,
+        "price": 119249,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Asus%20ROG%20Strix%20G16%20G615LP-S5115",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/asus-rog-strix-g16-g615jmr-s5048-intel-i7-14650hx-16gb-512gb-8gb-rtx5060-16-2-5k-240hz-freedos-tasinabilir-bilgisayar-p-HBCV00009BDGH9",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T19:59:13.507Z"
       },
       {
         "storeName": "Trendyol",
@@ -13404,6 +13435,10 @@ export const mockLaptops: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 179550
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 119249
       }
     ]
   },
@@ -13569,7 +13604,7 @@ export const mockLaptops: Product[] = [
     "rating": 4.8,
     "epeyScore": 80,
     "reviewCount": 59,
-    "basePrice": 172039,
+    "basePrice": 119249,
     "currency": "TL",
     "releaseYear": 2025,
     "isPopular": true,
@@ -13624,11 +13659,12 @@ export const mockLaptops: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 172899,
+        "price": 119249,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Asus%20ROG%20Strix%20G16%20G614PM-S5062HMF28",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/asus-rog-strix-g16-g615jmr-s5048-intel-i7-14650hx-16gb-512gb-8gb-rtx5060-16-2-5k-240hz-freedos-tasinabilir-bilgisayar-p-HBCV00009BDGH9",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T19:59:20.313Z"
       },
       {
         "storeName": "Trendyol",
@@ -13700,6 +13736,10 @@ export const mockLaptops: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 172900
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 119249
       }
     ]
   },
@@ -13717,7 +13757,7 @@ export const mockLaptops: Product[] = [
     "rating": 4.8,
     "epeyScore": 80,
     "reviewCount": 54,
-    "basePrice": 172129,
+    "basePrice": 119249,
     "currency": "TL",
     "releaseYear": 2025,
     "isPopular": true,
@@ -13772,11 +13812,12 @@ export const mockLaptops: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 172999,
+        "price": 119249,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Asus%20ROG%20Strix%20G16%20G614PR-RV052",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/asus-rog-strix-g16-g615jmr-s5048-intel-i7-14650hx-16gb-512gb-8gb-rtx5060-16-2-5k-240hz-freedos-tasinabilir-bilgisayar-p-HBCV00009BDGH9",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T19:59:23.610Z"
       },
       {
         "storeName": "Trendyol",
@@ -13848,6 +13889,10 @@ export const mockLaptops: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 173000
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 119249
       }
     ]
   },
@@ -13865,7 +13910,7 @@ export const mockLaptops: Product[] = [
     "rating": 4.8,
     "epeyScore": 80,
     "reviewCount": 74,
-    "basePrice": 181029,
+    "basePrice": 119249,
     "currency": "TL",
     "releaseYear": 2025,
     "isPopular": true,
@@ -13920,11 +13965,12 @@ export const mockLaptops: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 181939,
+        "price": 119249,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Asus%20ROG%20Strix%20G16%20G614PR-RV050",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/asus-rog-strix-g16-g615jmr-s5048-intel-i7-14650hx-16gb-512gb-8gb-rtx5060-16-2-5k-240hz-freedos-tasinabilir-bilgisayar-p-HBCV00009BDGH9",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T19:59:26.840Z"
       },
       {
         "storeName": "Trendyol",
@@ -13996,6 +14042,10 @@ export const mockLaptops: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 181940
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 119249
       }
     ]
   },
@@ -14161,7 +14211,7 @@ export const mockLaptops: Product[] = [
     "rating": 4.8,
     "epeyScore": 79,
     "reviewCount": 55,
-    "basePrice": 179689,
+    "basePrice": 119249,
     "currency": "TL",
     "releaseYear": 2025,
     "isPopular": true,
@@ -14216,11 +14266,12 @@ export const mockLaptops: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 180589,
+        "price": 119249,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Asus%20ROG%20Strix%20G16%20G614JVR-N3243%20C39",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/asus-rog-strix-g16-g615jmr-s5048-intel-i7-14650hx-16gb-512gb-8gb-rtx5060-16-2-5k-240hz-freedos-tasinabilir-bilgisayar-p-HBCV00009BDGH9",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T19:59:34.654Z"
       },
       {
         "storeName": "Trendyol",
@@ -14292,6 +14343,10 @@ export const mockLaptops: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 180590
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 119249
       }
     ]
   },
@@ -14309,7 +14364,7 @@ export const mockLaptops: Product[] = [
     "rating": 4.8,
     "epeyScore": 79,
     "reviewCount": 63,
-    "basePrice": 176709,
+    "basePrice": 119249,
     "currency": "TL",
     "releaseYear": 2025,
     "isPopular": true,
@@ -14364,11 +14419,12 @@ export const mockLaptops: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 177599,
+        "price": 119249,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Asus%20ROG%20Strix%20G16%20G614JVR-N3243%20FR39",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/asus-rog-strix-g16-g615jmr-s5048-intel-i7-14650hx-16gb-512gb-8gb-rtx5060-16-2-5k-240hz-freedos-tasinabilir-bilgisayar-p-HBCV00009BDGH9",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T19:59:37.769Z"
       },
       {
         "storeName": "Trendyol",
@@ -14440,6 +14496,10 @@ export const mockLaptops: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 177600
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 119249
       }
     ]
   },
@@ -14605,7 +14665,7 @@ export const mockLaptops: Product[] = [
     "rating": 4.8,
     "epeyScore": 77,
     "reviewCount": 78,
-    "basePrice": 172929,
+    "basePrice": 119249,
     "currency": "TL",
     "releaseYear": 2025,
     "isPopular": true,
@@ -14660,11 +14720,12 @@ export const mockLaptops: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 173799,
+        "price": 119249,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Asus%20ROG%20Strix%20G16%20G614JVR-N3243%20FR41",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/asus-rog-strix-g16-g615jmr-s5048-intel-i7-14650hx-16gb-512gb-8gb-rtx5060-16-2-5k-240hz-freedos-tasinabilir-bilgisayar-p-HBCV00009BDGH9",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T19:59:43.462Z"
       },
       {
         "storeName": "Trendyol",
@@ -14736,6 +14797,10 @@ export const mockLaptops: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 173800
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 119249
       }
     ]
   },
@@ -14753,7 +14818,7 @@ export const mockLaptops: Product[] = [
     "rating": 4.8,
     "epeyScore": 77,
     "reviewCount": 73,
-    "basePrice": 173969,
+    "basePrice": 119249,
     "currency": "TL",
     "releaseYear": 2025,
     "isPopular": true,
@@ -14808,11 +14873,12 @@ export const mockLaptops: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 174849,
+        "price": 119249,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Asus%20ROG%20Strix%20G16%20G614JVR-N3243%20C41",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/asus-rog-strix-g16-g615jmr-s5048-intel-i7-14650hx-16gb-512gb-8gb-rtx5060-16-2-5k-240hz-freedos-tasinabilir-bilgisayar-p-HBCV00009BDGH9",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T19:59:47.361Z"
       },
       {
         "storeName": "Trendyol",
@@ -14884,6 +14950,10 @@ export const mockLaptops: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 174850
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 119249
       }
     ]
   },
@@ -14901,7 +14971,7 @@ export const mockLaptops: Product[] = [
     "rating": 4.8,
     "epeyScore": 77,
     "reviewCount": 63,
-    "basePrice": 219959,
+    "basePrice": 119249,
     "currency": "TL",
     "releaseYear": 2025,
     "isPopular": true,
@@ -14956,11 +15026,12 @@ export const mockLaptops: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 221059,
+        "price": 119249,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Asus%20ROG%20Strix%20G16%20G614PW-RV035",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/asus-rog-strix-g16-g615jmr-s5048-intel-i7-14650hx-16gb-512gb-8gb-rtx5060-16-2-5k-240hz-freedos-tasinabilir-bilgisayar-p-HBCV00009BDGH9",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T19:59:52.497Z"
       },
       {
         "storeName": "Trendyol",
@@ -15032,6 +15103,10 @@ export const mockLaptops: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 221060
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 119249
       }
     ]
   },
@@ -15049,7 +15124,7 @@ export const mockLaptops: Product[] = [
     "rating": 4.8,
     "epeyScore": 77,
     "reviewCount": 75,
-    "basePrice": 208949,
+    "basePrice": 119249,
     "currency": "TL",
     "releaseYear": 2025,
     "isPopular": true,
@@ -15104,11 +15179,12 @@ export const mockLaptops: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 209999,
+        "price": 119249,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Asus%20ROG%20Strix%20G16%20G614PW-RV036",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/asus-rog-strix-g16-g615jmr-s5048-intel-i7-14650hx-16gb-512gb-8gb-rtx5060-16-2-5k-240hz-freedos-tasinabilir-bilgisayar-p-HBCV00009BDGH9",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T19:59:56.076Z"
       },
       {
         "storeName": "Trendyol",
@@ -15180,6 +15256,10 @@ export const mockLaptops: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 210000
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 119249
       }
     ]
   },
@@ -15197,7 +15277,7 @@ export const mockLaptops: Product[] = [
     "rating": 4.8,
     "epeyScore": 77,
     "reviewCount": 87,
-    "basePrice": 152229,
+    "basePrice": 119249,
     "currency": "TL",
     "releaseYear": 2025,
     "isPopular": true,
@@ -15252,11 +15332,12 @@ export const mockLaptops: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 152999,
+        "price": 119249,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Asus%20ROG%20Strix%20G16%20G614PP-RV218",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/asus-rog-strix-g16-g615jmr-s5048-intel-i7-14650hx-16gb-512gb-8gb-rtx5060-16-2-5k-240hz-freedos-tasinabilir-bilgisayar-p-HBCV00009BDGH9",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T19:59:59.268Z"
       },
       {
         "storeName": "Trendyol",
@@ -15328,6 +15409,10 @@ export const mockLaptops: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 153000
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 119249
       }
     ]
   },
@@ -15345,7 +15430,7 @@ export const mockLaptops: Product[] = [
     "rating": 4.8,
     "epeyScore": 77,
     "reviewCount": 63,
-    "basePrice": 158799,
+    "basePrice": 119249,
     "currency": "TL",
     "releaseYear": 2025,
     "isPopular": true,
@@ -15400,11 +15485,12 @@ export const mockLaptops: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 159599,
+        "price": 119249,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Asus%20ROG%20Strix%20G16%20G614PM-S5062HMF14",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/asus-rog-strix-g16-g615jmr-s5048-intel-i7-14650hx-16gb-512gb-8gb-rtx5060-16-2-5k-240hz-freedos-tasinabilir-bilgisayar-p-HBCV00009BDGH9",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T20:00:02.408Z"
       },
       {
         "storeName": "Trendyol",
@@ -15476,6 +15562,10 @@ export const mockLaptops: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 159600
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 119249
       }
     ]
   },
@@ -15493,7 +15583,7 @@ export const mockLaptops: Product[] = [
     "rating": 4.8,
     "epeyScore": 77,
     "reviewCount": 52,
-    "basePrice": 158799,
+    "basePrice": 119249,
     "currency": "TL",
     "releaseYear": 2025,
     "isPopular": true,
@@ -15548,11 +15638,12 @@ export const mockLaptops: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 159599,
+        "price": 119249,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Asus%20ROG%20Strix%20G16%20G614PM-S5062HMF30",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/asus-rog-strix-g16-g615jmr-s5048-intel-i7-14650hx-16gb-512gb-8gb-rtx5060-16-2-5k-240hz-freedos-tasinabilir-bilgisayar-p-HBCV00009BDGH9",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T20:00:05.584Z"
       },
       {
         "storeName": "Trendyol",
@@ -15624,6 +15715,10 @@ export const mockLaptops: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 159600
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 119249
       }
     ]
   },
@@ -15937,7 +16032,7 @@ export const mockLaptops: Product[] = [
     "rating": 4.8,
     "epeyScore": 77,
     "reviewCount": 30,
-    "basePrice": 164569,
+    "basePrice": 119249,
     "currency": "TL",
     "releaseYear": 2025,
     "isPopular": true,
@@ -15992,11 +16087,12 @@ export const mockLaptops: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 165389,
+        "price": 119249,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Asus%20ROG%20Strix%20G16%20G614JVR-N3243%20C21",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/asus-rog-strix-g16-g615jmr-s5048-intel-i7-14650hx-16gb-512gb-8gb-rtx5060-16-2-5k-240hz-freedos-tasinabilir-bilgisayar-p-HBCV00009BDGH9",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T20:00:22.900Z"
       },
       {
         "storeName": "Trendyol",
@@ -16068,6 +16164,10 @@ export const mockLaptops: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 165390
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 119249
       }
     ]
   },
@@ -16085,7 +16185,7 @@ export const mockLaptops: Product[] = [
     "rating": 4.8,
     "epeyScore": 77,
     "reviewCount": 40,
-    "basePrice": 163529,
+    "basePrice": 119249,
     "currency": "TL",
     "releaseYear": 2025,
     "isPopular": true,
@@ -16140,11 +16240,12 @@ export const mockLaptops: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 164349,
+        "price": 119249,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Asus%20ROG%20Strix%20G16%20G614JVR-N3243%20FR21",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/asus-rog-strix-g16-g615jmr-s5048-intel-i7-14650hx-16gb-512gb-8gb-rtx5060-16-2-5k-240hz-freedos-tasinabilir-bilgisayar-p-HBCV00009BDGH9",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T20:00:26.828Z"
       },
       {
         "storeName": "Trendyol",
@@ -16216,6 +16317,10 @@ export const mockLaptops: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 164350
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 119249
       }
     ]
   },
@@ -16288,11 +16393,12 @@ export const mockLaptops: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 90909,
+        "price": 119249,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Asus%20ROG%20Strix%20G16%20G614PH-RV036EP4",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/asus-rog-strix-g16-g615jmr-s5048-intel-i7-14650hx-16gb-512gb-8gb-rtx5060-16-2-5k-240hz-freedos-tasinabilir-bilgisayar-p-HBCV00009BDGH9",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T20:00:30.140Z"
       },
       {
         "storeName": "Trendyol",
@@ -16364,6 +16470,10 @@ export const mockLaptops: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 90910
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 90459
       }
     ]
   },
@@ -16381,7 +16491,7 @@ export const mockLaptops: Product[] = [
     "rating": 4.8,
     "epeyScore": 77,
     "reviewCount": 43,
-    "basePrice": 221569,
+    "basePrice": 119249,
     "currency": "TL",
     "releaseYear": 2025,
     "isPopular": true,
@@ -16436,11 +16546,12 @@ export const mockLaptops: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 222689,
+        "price": 119249,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Asus%20ROG%20Strix%20G16%20G614PM-S5074%20(64GB%2F2TB%2FDOS)",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/asus-rog-strix-g16-g615jmr-s5048-intel-i7-14650hx-16gb-512gb-8gb-rtx5060-16-2-5k-240hz-freedos-tasinabilir-bilgisayar-p-HBCV00009BDGH9",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T20:00:33.107Z"
       },
       {
         "storeName": "Trendyol",
@@ -16512,6 +16623,10 @@ export const mockLaptops: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 222690
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 119249
       }
     ]
   },
@@ -16529,7 +16644,7 @@ export const mockLaptops: Product[] = [
     "rating": 4.8,
     "epeyScore": 77,
     "reviewCount": 77,
-    "basePrice": 155019,
+    "basePrice": 119249,
     "currency": "TL",
     "releaseYear": 2025,
     "isPopular": true,
@@ -16584,11 +16699,12 @@ export const mockLaptops: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 155799,
+        "price": 119249,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Asus%20ROG%20Strix%20G16%20G614PM-S5062HMF8",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/asus-rog-strix-g16-g615jmr-s5048-intel-i7-14650hx-16gb-512gb-8gb-rtx5060-16-2-5k-240hz-freedos-tasinabilir-bilgisayar-p-HBCV00009BDGH9",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T20:00:36.772Z"
       },
       {
         "storeName": "Trendyol",
@@ -16660,6 +16776,10 @@ export const mockLaptops: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 155800
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 119249
       }
     ]
   },
@@ -16732,11 +16852,12 @@ export const mockLaptops: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 99269,
+        "price": 119249,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Asus%20ROG%20Strix%20G16%20G614PH-RV036EP6",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/asus-rog-strix-g16-g615jmr-s5048-intel-i7-14650hx-16gb-512gb-8gb-rtx5060-16-2-5k-240hz-freedos-tasinabilir-bilgisayar-p-HBCV00009BDGH9",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T20:00:40.404Z"
       },
       {
         "storeName": "Trendyol",
@@ -16808,6 +16929,10 @@ export const mockLaptops: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 99270
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 98779
       }
     ]
   },
@@ -16973,7 +17098,7 @@ export const mockLaptops: Product[] = [
     "rating": 4.8,
     "epeyScore": 76,
     "reviewCount": 53,
-    "basePrice": 156909,
+    "basePrice": 119249,
     "currency": "TL",
     "releaseYear": 2025,
     "isPopular": true,
@@ -17028,11 +17153,12 @@ export const mockLaptops: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 157699,
+        "price": 119249,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Asus%20ROG%20Strix%20G16%20G614PM-S5062HMF24",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/asus-rog-strix-g16-g615jmr-s5048-intel-i7-14650hx-16gb-512gb-8gb-rtx5060-16-2-5k-240hz-freedos-tasinabilir-bilgisayar-p-HBCV00009BDGH9",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T20:00:46.446Z"
       },
       {
         "storeName": "Trendyol",
@@ -17104,6 +17230,10 @@ export const mockLaptops: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 157700
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 119249
       }
     ]
   },
@@ -17121,7 +17251,7 @@ export const mockLaptops: Product[] = [
     "rating": 4.8,
     "epeyScore": 76,
     "reviewCount": 31,
-    "basePrice": 212139,
+    "basePrice": 119249,
     "currency": "TL",
     "releaseYear": 2025,
     "isPopular": true,
@@ -17176,11 +17306,12 @@ export const mockLaptops: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 213209,
+        "price": 119249,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Asus%20ROG%20Strix%20G16%20G614PM-S5074%20(64GB%2F1TB%2FDOS)",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/asus-rog-strix-g16-g615jmr-s5048-intel-i7-14650hx-16gb-512gb-8gb-rtx5060-16-2-5k-240hz-freedos-tasinabilir-bilgisayar-p-HBCV00009BDGH9",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T20:00:49.841Z"
       },
       {
         "storeName": "Trendyol",
@@ -17252,6 +17383,10 @@ export const mockLaptops: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 213210
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 119249
       }
     ]
   },
@@ -17269,7 +17404,7 @@ export const mockLaptops: Product[] = [
     "rating": 4.8,
     "epeyScore": 76,
     "reviewCount": 36,
-    "basePrice": 156909,
+    "basePrice": 119249,
     "currency": "TL",
     "releaseYear": 2025,
     "isPopular": true,
@@ -17324,11 +17459,12 @@ export const mockLaptops: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 157699,
+        "price": 119249,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Asus%20ROG%20Strix%20G16%20G614PM-S5062HMF3",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/asus-rog-strix-g16-g615jmr-s5048-intel-i7-14650hx-16gb-512gb-8gb-rtx5060-16-2-5k-240hz-freedos-tasinabilir-bilgisayar-p-HBCV00009BDGH9",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T20:00:52.587Z"
       },
       {
         "storeName": "Trendyol",
@@ -17400,6 +17536,10 @@ export const mockLaptops: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 157700
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 119249
       }
     ]
   },
@@ -17472,11 +17612,12 @@ export const mockLaptops: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 83839,
+        "price": 119249,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Asus%20ROG%20Strix%20G16%20G614PH%20(16GB%2F1TB%2FW11H)",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/asus-rog-strix-g16-g615jmr-s5048-intel-i7-14650hx-16gb-512gb-8gb-rtx5060-16-2-5k-240hz-freedos-tasinabilir-bilgisayar-p-HBCV00009BDGH9",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T20:00:55.803Z"
       },
       {
         "storeName": "Trendyol",
@@ -17548,6 +17689,10 @@ export const mockLaptops: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 83840
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 83419
       }
     ]
   },
@@ -17565,7 +17710,7 @@ export const mockLaptops: Product[] = [
     "rating": 4.8,
     "epeyScore": 75,
     "reviewCount": 88,
-    "basePrice": 158659,
+    "basePrice": 119249,
     "currency": "TL",
     "releaseYear": 2025,
     "isPopular": true,
@@ -17620,11 +17765,12 @@ export const mockLaptops: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 159459,
+        "price": 119249,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Asus%20ROG%20Strix%20G16%20G614JVR-N3243%20C38",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/asus-rog-strix-g16-g615jmr-s5048-intel-i7-14650hx-16gb-512gb-8gb-rtx5060-16-2-5k-240hz-freedos-tasinabilir-bilgisayar-p-HBCV00009BDGH9",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T20:00:58.842Z"
       },
       {
         "storeName": "Trendyol",
@@ -17696,6 +17842,10 @@ export const mockLaptops: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 159460
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 119249
       }
     ]
   },
@@ -17713,7 +17863,7 @@ export const mockLaptops: Product[] = [
     "rating": 4.8,
     "epeyScore": 75,
     "reviewCount": 68,
-    "basePrice": 157619,
+    "basePrice": 119249,
     "currency": "TL",
     "releaseYear": 2025,
     "isPopular": true,
@@ -17768,11 +17918,12 @@ export const mockLaptops: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 158409,
+        "price": 119249,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Asus%20ROG%20Strix%20G16%20G614JVR-N3243%20FR38",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/asus-rog-strix-g16-g615jmr-s5048-intel-i7-14650hx-16gb-512gb-8gb-rtx5060-16-2-5k-240hz-freedos-tasinabilir-bilgisayar-p-HBCV00009BDGH9",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T20:01:01.648Z"
       },
       {
         "storeName": "Trendyol",
@@ -17844,6 +17995,10 @@ export const mockLaptops: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 158410
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 119249
       }
     ]
   },
@@ -18157,7 +18312,7 @@ export const mockLaptops: Product[] = [
     "rating": 4.8,
     "epeyScore": 75,
     "reviewCount": 63,
-    "basePrice": 155019,
+    "basePrice": 119249,
     "currency": "TL",
     "releaseYear": 2025,
     "isPopular": true,
@@ -18212,11 +18367,12 @@ export const mockLaptops: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 155799,
+        "price": 119249,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Asus%20ROG%20Strix%20G16%20G614PM-S5062HMF12",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/asus-rog-strix-g16-g615jmr-s5048-intel-i7-14650hx-16gb-512gb-8gb-rtx5060-16-2-5k-240hz-freedos-tasinabilir-bilgisayar-p-HBCV00009BDGH9",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T20:01:10.071Z"
       },
       {
         "storeName": "Trendyol",
@@ -18288,6 +18444,10 @@ export const mockLaptops: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 155800
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 119249
       }
     ]
   },
@@ -18305,7 +18465,7 @@ export const mockLaptops: Product[] = [
     "rating": 4.8,
     "epeyScore": 75,
     "reviewCount": 81,
-    "basePrice": 154599,
+    "basePrice": 119249,
     "currency": "TL",
     "releaseYear": 2025,
     "isPopular": true,
@@ -18360,11 +18520,12 @@ export const mockLaptops: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 155369,
+        "price": 119249,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Asus%20ROG%20Strix%20G16%20G614JVR-N3243%20C57",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/asus-rog-strix-g16-g615jmr-s5048-intel-i7-14650hx-16gb-512gb-8gb-rtx5060-16-2-5k-240hz-freedos-tasinabilir-bilgisayar-p-HBCV00009BDGH9",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T20:01:13.489Z"
       },
       {
         "storeName": "Trendyol",
@@ -18436,6 +18597,10 @@ export const mockLaptops: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 155370
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 119249
       }
     ]
   },
@@ -18453,7 +18618,7 @@ export const mockLaptops: Product[] = [
     "rating": 4.8,
     "epeyScore": 75,
     "reviewCount": 38,
-    "basePrice": 151899,
+    "basePrice": 119249,
     "currency": "TL",
     "releaseYear": 2025,
     "isPopular": true,
@@ -18508,11 +18673,12 @@ export const mockLaptops: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 152659,
+        "price": 119249,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Asus%20ROG%20Strix%20G16%20G614JVR-N3243%20FR57",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/asus-rog-strix-g16-g615jmr-s5048-intel-i7-14650hx-16gb-512gb-8gb-rtx5060-16-2-5k-240hz-freedos-tasinabilir-bilgisayar-p-HBCV00009BDGH9",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T20:01:16.610Z"
       },
       {
         "storeName": "Trendyol",
@@ -18584,6 +18750,10 @@ export const mockLaptops: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 152660
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 119249
       }
     ]
   },
@@ -18897,7 +19067,7 @@ export const mockLaptops: Product[] = [
     "rating": 4.8,
     "epeyScore": 75,
     "reviewCount": 79,
-    "basePrice": 158849,
+    "basePrice": 119249,
     "currency": "TL",
     "releaseYear": 2025,
     "isPopular": true,
@@ -18952,11 +19122,12 @@ export const mockLaptops: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 159649,
+        "price": 119249,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Asus%20ROG%20Strix%20G16%20G614JVR-N3243%20C23",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/asus-rog-strix-g16-g615jmr-s5048-intel-i7-14650hx-16gb-512gb-8gb-rtx5060-16-2-5k-240hz-freedos-tasinabilir-bilgisayar-p-HBCV00009BDGH9",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T20:01:28.637Z"
       },
       {
         "storeName": "Trendyol",
@@ -19028,6 +19199,10 @@ export const mockLaptops: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 159650
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 119249
       }
     ]
   },
@@ -19045,7 +19220,7 @@ export const mockLaptops: Product[] = [
     "rating": 4.8,
     "epeyScore": 75,
     "reviewCount": 31,
-    "basePrice": 156109,
+    "basePrice": 119249,
     "currency": "TL",
     "releaseYear": 2025,
     "isPopular": true,
@@ -19100,11 +19275,12 @@ export const mockLaptops: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 156889,
+        "price": 119249,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Asus%20ROG%20Strix%20G16%20G614JVR-N3243%20FR23",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/asus-rog-strix-g16-g615jmr-s5048-intel-i7-14650hx-16gb-512gb-8gb-rtx5060-16-2-5k-240hz-freedos-tasinabilir-bilgisayar-p-HBCV00009BDGH9",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T20:01:31.450Z"
       },
       {
         "storeName": "Trendyol",
@@ -19176,6 +19352,10 @@ export const mockLaptops: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 156890
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 119249
       }
     ]
   },
@@ -19193,7 +19373,7 @@ export const mockLaptops: Product[] = [
     "rating": 4.8,
     "epeyScore": 75,
     "reviewCount": 39,
-    "basePrice": 207099,
+    "basePrice": 119249,
     "currency": "TL",
     "releaseYear": 2025,
     "isPopular": true,
@@ -19248,11 +19428,12 @@ export const mockLaptops: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 208139,
+        "price": 119249,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Asus%20ROG%20Strix%20G16%20G614PM-S5074%20(64GB%2F512SSD%2FDOS)",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/asus-rog-strix-g16-g615jmr-s5048-intel-i7-14650hx-16gb-512gb-8gb-rtx5060-16-2-5k-240hz-freedos-tasinabilir-bilgisayar-p-HBCV00009BDGH9",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T20:01:34.831Z"
       },
       {
         "storeName": "Trendyol",
@@ -19324,6 +19505,10 @@ export const mockLaptops: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 208140
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 119249
       }
     ]
   },
@@ -19396,11 +19581,12 @@ export const mockLaptops: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 78619,
+        "price": 119249,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Asus%20ROG%20Strix%20G16%20G614PH%20(16GB%2F512SSD%2FW11H)",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/asus-rog-strix-g16-g615jmr-s5048-intel-i7-14650hx-16gb-512gb-8gb-rtx5060-16-2-5k-240hz-freedos-tasinabilir-bilgisayar-p-HBCV00009BDGH9",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T20:01:38.169Z"
       },
       {
         "storeName": "Trendyol",
@@ -19472,6 +19658,10 @@ export const mockLaptops: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 78620
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 78229
       }
     ]
   },
@@ -19544,11 +19734,12 @@ export const mockLaptops: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 89869,
+        "price": 119249,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Asus%20ROG%20Strix%20G16%20G614PH-RV036EP3",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/asus-rog-strix-g16-g615jmr-s5048-intel-i7-14650hx-16gb-512gb-8gb-rtx5060-16-2-5k-240hz-freedos-tasinabilir-bilgisayar-p-HBCV00009BDGH9",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T20:01:41.272Z"
       },
       {
         "storeName": "Trendyol",
@@ -19620,6 +19811,10 @@ export const mockLaptops: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 89870
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 89419
       }
     ]
   },
@@ -19637,7 +19832,7 @@ export const mockLaptops: Product[] = [
     "rating": 4.8,
     "epeyScore": 74,
     "reviewCount": 80,
-    "basePrice": 147129,
+    "basePrice": 119249,
     "currency": "TL",
     "releaseYear": 2025,
     "isPopular": true,
@@ -19692,11 +19887,12 @@ export const mockLaptops: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 147869,
+        "price": 119249,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Asus%20ROG%20Strix%20G16%20G614JVR-N3243%20FR24",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/asus-rog-strix-g16-g615jmr-s5048-intel-i7-14650hx-16gb-512gb-8gb-rtx5060-16-2-5k-240hz-freedos-tasinabilir-bilgisayar-p-HBCV00009BDGH9",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T20:01:44.587Z"
       },
       {
         "storeName": "Trendyol",
@@ -19768,6 +19964,10 @@ export const mockLaptops: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 147870
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 119249
       }
     ]
   },
@@ -19785,7 +19985,7 @@ export const mockLaptops: Product[] = [
     "rating": 4.8,
     "epeyScore": 74,
     "reviewCount": 49,
-    "basePrice": 197059,
+    "basePrice": 119249,
     "currency": "TL",
     "releaseYear": 2025,
     "isPopular": true,
@@ -19840,11 +20040,12 @@ export const mockLaptops: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 198049,
+        "price": 119249,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Asus%20ROG%20Strix%20G16%20G614PM-S5074%20K32",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/asus-rog-strix-g16-g615jmr-s5048-intel-i7-14650hx-16gb-512gb-8gb-rtx5060-16-2-5k-240hz-freedos-tasinabilir-bilgisayar-p-HBCV00009BDGH9",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T20:01:47.689Z"
       },
       {
         "storeName": "Trendyol",
@@ -19916,6 +20117,10 @@ export const mockLaptops: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 198050
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 119249
       }
     ]
   },
@@ -20081,7 +20286,7 @@ export const mockLaptops: Product[] = [
     "rating": 4.8,
     "epeyScore": 74,
     "reviewCount": 58,
-    "basePrice": 241769,
+    "basePrice": 119249,
     "currency": "TL",
     "releaseYear": 2025,
     "isPopular": true,
@@ -20136,11 +20341,12 @@ export const mockLaptops: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 242979,
+        "price": 119249,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Asus%20ROG%20Strix%20G16%20G614JVR-N3096-38",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/asus-rog-strix-g16-g615jmr-s5048-intel-i7-14650hx-16gb-512gb-8gb-rtx5060-16-2-5k-240hz-freedos-tasinabilir-bilgisayar-p-HBCV00009BDGH9",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T20:01:55.097Z"
       },
       {
         "storeName": "Trendyol",
@@ -20212,6 +20418,10 @@ export const mockLaptops: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 242980
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 119249
       }
     ]
   },
@@ -20229,7 +20439,7 @@ export const mockLaptops: Product[] = [
     "rating": 4.8,
     "epeyScore": 74,
     "reviewCount": 77,
-    "basePrice": 149349,
+    "basePrice": 119249,
     "currency": "TL",
     "releaseYear": 2025,
     "isPopular": true,
@@ -20284,11 +20494,12 @@ export const mockLaptops: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 150099,
+        "price": 119249,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Asus%20ROG%20Strix%20G16%20G614PM-S5062HMF10",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/asus-rog-strix-g16-g615jmr-s5048-intel-i7-14650hx-16gb-512gb-8gb-rtx5060-16-2-5k-240hz-freedos-tasinabilir-bilgisayar-p-HBCV00009BDGH9",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T20:01:58.307Z"
       },
       {
         "storeName": "Trendyol",
@@ -20360,6 +20571,10 @@ export const mockLaptops: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 150100
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 119249
       }
     ]
   },
@@ -20377,7 +20592,7 @@ export const mockLaptops: Product[] = [
     "rating": 4.8,
     "epeyScore": 74,
     "reviewCount": 80,
-    "basePrice": 197059,
+    "basePrice": 119249,
     "currency": "TL",
     "releaseYear": 2025,
     "isPopular": true,
@@ -20432,11 +20647,12 @@ export const mockLaptops: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 198049,
+        "price": 119249,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Asus%20ROG%20Strix%20G16%20G614PM-S5074%20(32GB%2F2TB%2FW11P)",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/asus-rog-strix-g16-g615jmr-s5048-intel-i7-14650hx-16gb-512gb-8gb-rtx5060-16-2-5k-240hz-freedos-tasinabilir-bilgisayar-p-HBCV00009BDGH9",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T20:02:01.425Z"
       },
       {
         "storeName": "Trendyol",
@@ -20508,6 +20724,10 @@ export const mockLaptops: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 198050
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 119249
       }
     ]
   },
@@ -20525,7 +20745,7 @@ export const mockLaptops: Product[] = [
     "rating": 4.8,
     "epeyScore": 74,
     "reviewCount": 51,
-    "basePrice": 150959,
+    "basePrice": 119249,
     "currency": "TL",
     "releaseYear": 2025,
     "isPopular": true,
@@ -20580,11 +20800,12 @@ export const mockLaptops: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 151709,
+        "price": 119249,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Asus%20ROG%20Strix%20G16%20G614JVR-N3243%20FR5",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/asus-rog-strix-g16-g615jmr-s5048-intel-i7-14650hx-16gb-512gb-8gb-rtx5060-16-2-5k-240hz-freedos-tasinabilir-bilgisayar-p-HBCV00009BDGH9",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T20:02:04.606Z"
       },
       {
         "storeName": "Trendyol",
@@ -20656,6 +20877,10 @@ export const mockLaptops: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 151710
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 119249
       }
     ]
   },
@@ -20673,7 +20898,7 @@ export const mockLaptops: Product[] = [
     "rating": 4.8,
     "epeyScore": 74,
     "reviewCount": 48,
-    "basePrice": 153599,
+    "basePrice": 119249,
     "currency": "TL",
     "releaseYear": 2025,
     "isPopular": true,
@@ -20728,11 +20953,12 @@ export const mockLaptops: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 154369,
+        "price": 119249,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Asus%20ROG%20Strix%20G16%20G614JVR-N3243%20C5",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/asus-rog-strix-g16-g615jmr-s5048-intel-i7-14650hx-16gb-512gb-8gb-rtx5060-16-2-5k-240hz-freedos-tasinabilir-bilgisayar-p-HBCV00009BDGH9",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T20:02:09.169Z"
       },
       {
         "storeName": "Trendyol",
@@ -20804,6 +21030,10 @@ export const mockLaptops: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 154370
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 119249
       }
     ]
   },
@@ -20821,7 +21051,7 @@ export const mockLaptops: Product[] = [
     "rating": 4.8,
     "epeyScore": 74,
     "reviewCount": 63,
-    "basePrice": 148229,
+    "basePrice": 119249,
     "currency": "TL",
     "releaseYear": 2025,
     "isPopular": true,
@@ -20876,11 +21106,12 @@ export const mockLaptops: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 148979,
+        "price": 119249,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Asus%20ROG%20Strix%20G16%20G614PM-S5062HMF22",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/asus-rog-strix-g16-g615jmr-s5048-intel-i7-14650hx-16gb-512gb-8gb-rtx5060-16-2-5k-240hz-freedos-tasinabilir-bilgisayar-p-HBCV00009BDGH9",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T20:02:12.316Z"
       },
       {
         "storeName": "Trendyol",
@@ -20952,6 +21183,10 @@ export const mockLaptops: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 148980
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 119249
       }
     ]
   },
@@ -20969,7 +21204,7 @@ export const mockLaptops: Product[] = [
     "rating": 4.8,
     "epeyScore": 74,
     "reviewCount": 49,
-    "basePrice": 197059,
+    "basePrice": 119249,
     "currency": "TL",
     "releaseYear": 2025,
     "isPopular": true,
@@ -21024,11 +21259,12 @@ export const mockLaptops: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 198049,
+        "price": 119249,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Asus%20ROG%20Strix%20G16%20G614PM-S5074%20(48GB%2F1TB%2FDOS)",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/asus-rog-strix-g16-g615jmr-s5048-intel-i7-14650hx-16gb-512gb-8gb-rtx5060-16-2-5k-240hz-freedos-tasinabilir-bilgisayar-p-HBCV00009BDGH9",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T20:02:15.218Z"
       },
       {
         "storeName": "Trendyol",
@@ -21100,6 +21336,10 @@ export const mockLaptops: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 198050
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 119249
       }
     ]
   },
@@ -21117,7 +21357,7 @@ export const mockLaptops: Product[] = [
     "rating": 4.8,
     "epeyScore": 74,
     "reviewCount": 59,
-    "basePrice": 151239,
+    "basePrice": 119249,
     "currency": "TL",
     "releaseYear": 2025,
     "isPopular": true,
@@ -21172,11 +21412,12 @@ export const mockLaptops: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 151999,
+        "price": 119249,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Asus%20ROG%20Strix%20G16%20G614PM-S5062HMF4",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/asus-rog-strix-g16-g615jmr-s5048-intel-i7-14650hx-16gb-512gb-8gb-rtx5060-16-2-5k-240hz-freedos-tasinabilir-bilgisayar-p-HBCV00009BDGH9",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T20:02:18.739Z"
       },
       {
         "storeName": "Trendyol",
@@ -21248,6 +21489,10 @@ export const mockLaptops: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 152000
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 119249
       }
     ]
   },
@@ -21265,7 +21510,7 @@ export const mockLaptops: Product[] = [
     "rating": 4.8,
     "epeyScore": 74,
     "reviewCount": 31,
-    "basePrice": 193289,
+    "basePrice": 119249,
     "currency": "TL",
     "releaseYear": 2025,
     "isPopular": true,
@@ -21320,11 +21565,12 @@ export const mockLaptops: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 194259,
+        "price": 119249,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Asus%20ROG%20Strix%20G16%20G614PM-S5074%20(40GB%2F1TB%2FW11P)",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/asus-rog-strix-g16-g615jmr-s5048-intel-i7-14650hx-16gb-512gb-8gb-rtx5060-16-2-5k-240hz-freedos-tasinabilir-bilgisayar-p-HBCV00009BDGH9",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T20:02:21.436Z"
       },
       {
         "storeName": "Trendyol",
@@ -21396,6 +21642,10 @@ export const mockLaptops: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 194260
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 119249
       }
     ]
   },
@@ -21413,7 +21663,7 @@ export const mockLaptops: Product[] = [
     "rating": 4.8,
     "epeyScore": 74,
     "reviewCount": 76,
-    "basePrice": 212139,
+    "basePrice": 119249,
     "currency": "TL",
     "releaseYear": 2025,
     "isPopular": true,
@@ -21468,11 +21718,12 @@ export const mockLaptops: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 213209,
+        "price": 119249,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Asus%20ROG%20Strix%20G16%20G614JVR-N3096-58",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/asus-rog-strix-g16-g615jmr-s5048-intel-i7-14650hx-16gb-512gb-8gb-rtx5060-16-2-5k-240hz-freedos-tasinabilir-bilgisayar-p-HBCV00009BDGH9",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T20:02:24.649Z"
       },
       {
         "storeName": "Trendyol",
@@ -21544,6 +21795,10 @@ export const mockLaptops: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 213210
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 119249
       }
     ]
   },
@@ -21561,7 +21816,7 @@ export const mockLaptops: Product[] = [
     "rating": 4.8,
     "epeyScore": 73,
     "reviewCount": 82,
-    "basePrice": 148169,
+    "basePrice": 119249,
     "currency": "TL",
     "releaseYear": 2025,
     "isPopular": true,
@@ -21616,11 +21871,12 @@ export const mockLaptops: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 148909,
+        "price": 119249,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Asus%20ROG%20Strix%20G16%20G614JVR-N3243%20C37",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/asus-rog-strix-g16-g615jmr-s5048-intel-i7-14650hx-16gb-512gb-8gb-rtx5060-16-2-5k-240hz-freedos-tasinabilir-bilgisayar-p-HBCV00009BDGH9",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T20:02:28.142Z"
       },
       {
         "storeName": "Trendyol",
@@ -21692,6 +21948,10 @@ export const mockLaptops: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 148910
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 119249
       }
     ]
   },
@@ -21709,7 +21969,7 @@ export const mockLaptops: Product[] = [
     "rating": 4.8,
     "epeyScore": 73,
     "reviewCount": 68,
-    "basePrice": 145569,
+    "basePrice": 119249,
     "currency": "TL",
     "releaseYear": 2025,
     "isPopular": true,
@@ -21764,11 +22024,12 @@ export const mockLaptops: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 146299,
+        "price": 119249,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Asus%20ROG%20Strix%20G16%20G614JVR-N3243%20FR37",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/asus-rog-strix-g16-g615jmr-s5048-intel-i7-14650hx-16gb-512gb-8gb-rtx5060-16-2-5k-240hz-freedos-tasinabilir-bilgisayar-p-HBCV00009BDGH9",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T20:02:31.670Z"
       },
       {
         "storeName": "Trendyol",
@@ -21840,6 +22101,10 @@ export const mockLaptops: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 146300
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 119249
       }
     ]
   },
@@ -21857,7 +22122,7 @@ export const mockLaptops: Product[] = [
     "rating": 4.8,
     "epeyScore": 73,
     "reviewCount": 85,
-    "basePrice": 141789,
+    "basePrice": 119249,
     "currency": "TL",
     "releaseYear": 2025,
     "isPopular": true,
@@ -21912,11 +22177,12 @@ export const mockLaptops: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 142499,
+        "price": 119249,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Asus%20ROG%20Strix%20G16%20G614PM-S5062HMF11",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/asus-rog-strix-g16-g615jmr-s5048-intel-i7-14650hx-16gb-512gb-8gb-rtx5060-16-2-5k-240hz-freedos-tasinabilir-bilgisayar-p-HBCV00009BDGH9",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T20:02:34.698Z"
       },
       {
         "storeName": "Trendyol",
@@ -21988,6 +22254,10 @@ export const mockLaptops: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 142500
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 119249
       }
     ]
   },
@@ -22005,7 +22275,7 @@ export const mockLaptops: Product[] = [
     "rating": 4.8,
     "epeyScore": 73,
     "reviewCount": 63,
-    "basePrice": 148879,
+    "basePrice": 119249,
     "currency": "TL",
     "releaseYear": 2025,
     "isPopular": true,
@@ -22060,11 +22330,12 @@ export const mockLaptops: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 149619,
+        "price": 119249,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Asus%20ROG%20Strix%20G16%20G614JVR-N3243%20C59",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/asus-rog-strix-g16-g615jmr-s5048-intel-i7-14650hx-16gb-512gb-8gb-rtx5060-16-2-5k-240hz-freedos-tasinabilir-bilgisayar-p-HBCV00009BDGH9",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T20:02:37.755Z"
       },
       {
         "storeName": "Trendyol",
@@ -22136,6 +22407,10 @@ export const mockLaptops: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 149620
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 119249
       }
     ]
   },
@@ -22153,7 +22428,7 @@ export const mockLaptops: Product[] = [
     "rating": 4.8,
     "epeyScore": 74,
     "reviewCount": 40,
-    "basePrice": 146279,
+    "basePrice": 119249,
     "currency": "TL",
     "releaseYear": 2025,
     "isPopular": true,
@@ -22208,11 +22483,12 @@ export const mockLaptops: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 147009,
+        "price": 119249,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Asus%20ROG%20Strix%20G16%20G614JVR-N3243%20FR59",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/asus-rog-strix-g16-g615jmr-s5048-intel-i7-14650hx-16gb-512gb-8gb-rtx5060-16-2-5k-240hz-freedos-tasinabilir-bilgisayar-p-HBCV00009BDGH9",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T20:02:40.579Z"
       },
       {
         "storeName": "Trendyol",
@@ -22284,6 +22560,10 @@ export const mockLaptops: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 147010
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 119249
       }
     ]
   },
@@ -22301,7 +22581,7 @@ export const mockLaptops: Product[] = [
     "rating": 4.8,
     "epeyScore": 73,
     "reviewCount": 72,
-    "basePrice": 128879,
+    "basePrice": 119249,
     "currency": "TL",
     "releaseYear": 2025,
     "isPopular": true,
@@ -22356,11 +22636,12 @@ export const mockLaptops: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 129529,
+        "price": 119249,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Asus%20ROG%20Strix%20G16%20G615JH-RV052%20FR38",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/asus-rog-strix-g16-g615jmr-s5048-intel-i7-14650hx-16gb-512gb-8gb-rtx5060-16-2-5k-240hz-freedos-tasinabilir-bilgisayar-p-HBCV00009BDGH9",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T20:02:44.537Z"
       },
       {
         "storeName": "Trendyol",
@@ -22432,6 +22713,10 @@ export const mockLaptops: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 129530
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 119249
       }
     ]
   },
@@ -22449,7 +22734,7 @@ export const mockLaptops: Product[] = [
     "rating": 4.8,
     "epeyScore": 73,
     "reviewCount": 34,
-    "basePrice": 128879,
+    "basePrice": 119249,
     "currency": "TL",
     "releaseYear": 2025,
     "isPopular": true,
@@ -22504,11 +22789,12 @@ export const mockLaptops: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 129529,
+        "price": 119249,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Asus%20ROG%20Strix%20G16%20G615JH-RV052%20FR33",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/asus-rog-strix-g16-g615jmr-s5048-intel-i7-14650hx-16gb-512gb-8gb-rtx5060-16-2-5k-240hz-freedos-tasinabilir-bilgisayar-p-HBCV00009BDGH9",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T20:02:48.041Z"
       },
       {
         "storeName": "Trendyol",
@@ -22580,6 +22866,10 @@ export const mockLaptops: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 129530
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 119249
       }
     ]
   },
@@ -23041,7 +23331,7 @@ export const mockLaptops: Product[] = [
     "rating": 4.8,
     "epeyScore": 73,
     "reviewCount": 40,
-    "basePrice": 191399,
+    "basePrice": 119249,
     "currency": "TL",
     "releaseYear": 2025,
     "isPopular": true,
@@ -23096,11 +23386,12 @@ export const mockLaptops: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 192359,
+        "price": 119249,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Asus%20ROG%20Strix%20G16%20G614PM-S5074%20(40GB%2F1TB%2FDOS)",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/asus-rog-strix-g16-g615jmr-s5048-intel-i7-14650hx-16gb-512gb-8gb-rtx5060-16-2-5k-240hz-freedos-tasinabilir-bilgisayar-p-HBCV00009BDGH9",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T20:03:01.400Z"
       },
       {
         "storeName": "Trendyol",
@@ -23172,6 +23463,10 @@ export const mockLaptops: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 192360
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 119249
       }
     ]
   },
@@ -23189,7 +23484,7 @@ export const mockLaptops: Product[] = [
     "rating": 4.8,
     "epeyScore": 73,
     "reviewCount": 67,
-    "basePrice": 145569,
+    "basePrice": 119249,
     "currency": "TL",
     "releaseYear": 2025,
     "isPopular": true,
@@ -23244,11 +23539,12 @@ export const mockLaptops: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 146299,
+        "price": 119249,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Asus%20ROG%20Strix%20G16%20G614PM-S5062HMF5",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/asus-rog-strix-g16-g615jmr-s5048-intel-i7-14650hx-16gb-512gb-8gb-rtx5060-16-2-5k-240hz-freedos-tasinabilir-bilgisayar-p-HBCV00009BDGH9",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T20:03:04.630Z"
       },
       {
         "storeName": "Trendyol",
@@ -23320,6 +23616,10 @@ export const mockLaptops: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 146300
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 119249
       }
     ]
   },
@@ -23337,7 +23637,7 @@ export const mockLaptops: Product[] = [
     "rating": 4.8,
     "epeyScore": 73,
     "reviewCount": 63,
-    "basePrice": 143679,
+    "basePrice": 119249,
     "currency": "TL",
     "releaseYear": 2025,
     "isPopular": true,
@@ -23392,11 +23692,12 @@ export const mockLaptops: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 144399,
+        "price": 119249,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Asus%20ROG%20Strix%20G16%20G614PM-S5062HMF17",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/asus-rog-strix-g16-g615jmr-s5048-intel-i7-14650hx-16gb-512gb-8gb-rtx5060-16-2-5k-240hz-freedos-tasinabilir-bilgisayar-p-HBCV00009BDGH9",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T20:03:09.333Z"
       },
       {
         "storeName": "Trendyol",
@@ -23468,6 +23769,10 @@ export const mockLaptops: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 144400
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 119249
       }
     ]
   },
@@ -23485,7 +23790,7 @@ export const mockLaptops: Product[] = [
     "rating": 4.8,
     "epeyScore": 73,
     "reviewCount": 80,
-    "basePrice": 210259,
+    "basePrice": 119249,
     "currency": "TL",
     "releaseYear": 2025,
     "isPopular": true,
@@ -23540,11 +23845,12 @@ export const mockLaptops: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 211309,
+        "price": 119249,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Asus%20ROG%20Strix%20G16%20G614JVR-N3096-18",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/asus-rog-strix-g16-g615jmr-s5048-intel-i7-14650hx-16gb-512gb-8gb-rtx5060-16-2-5k-240hz-freedos-tasinabilir-bilgisayar-p-HBCV00009BDGH9",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T20:03:12.607Z"
       },
       {
         "storeName": "Trendyol",
@@ -23616,6 +23922,10 @@ export const mockLaptops: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 211310
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 119249
       }
     ]
   },
@@ -23633,7 +23943,7 @@ export const mockLaptops: Product[] = [
     "rating": 4.8,
     "epeyScore": 72,
     "reviewCount": 35,
-    "basePrice": 138199,
+    "basePrice": 119249,
     "currency": "TL",
     "releaseYear": 2025,
     "isPopular": true,
@@ -23688,11 +23998,12 @@ export const mockLaptops: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 138889,
+        "price": 119249,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Asus%20ROG%20Strix%20G16%20G614JVR-N3243%20C60",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/asus-rog-strix-g16-g615jmr-s5048-intel-i7-14650hx-16gb-512gb-8gb-rtx5060-16-2-5k-240hz-freedos-tasinabilir-bilgisayar-p-HBCV00009BDGH9",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T20:03:16.281Z"
       },
       {
         "storeName": "Trendyol",
@@ -23764,6 +24075,10 @@ export const mockLaptops: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 138890
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 119249
       }
     ]
   },
@@ -23781,7 +24096,7 @@ export const mockLaptops: Product[] = [
     "rating": 4.8,
     "epeyScore": 72,
     "reviewCount": 47,
-    "basePrice": 137159,
+    "basePrice": 119249,
     "currency": "TL",
     "releaseYear": 2025,
     "isPopular": true,
@@ -23836,11 +24151,12 @@ export const mockLaptops: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 137839,
+        "price": 119249,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Asus%20ROG%20Strix%20G16%20G614JVR-N3243%20FR60",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/asus-rog-strix-g16-g615jmr-s5048-intel-i7-14650hx-16gb-512gb-8gb-rtx5060-16-2-5k-240hz-freedos-tasinabilir-bilgisayar-p-HBCV00009BDGH9",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T20:03:21.024Z"
       },
       {
         "storeName": "Trendyol",
@@ -23912,6 +24228,10 @@ export const mockLaptops: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 137840
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 119249
       }
     ]
   },
@@ -24077,7 +24397,7 @@ export const mockLaptops: Product[] = [
     "rating": 4.8,
     "epeyScore": 72,
     "reviewCount": 89,
-    "basePrice": 199889,
+    "basePrice": 119249,
     "currency": "TL",
     "releaseYear": 2025,
     "isPopular": true,
@@ -24132,11 +24452,12 @@ export const mockLaptops: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 200889,
+        "price": 119249,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Asus%20ROG%20Strix%20G16%20G614JVR-N3096-76",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/asus-rog-strix-g16-g615jmr-s5048-intel-i7-14650hx-16gb-512gb-8gb-rtx5060-16-2-5k-240hz-freedos-tasinabilir-bilgisayar-p-HBCV00009BDGH9",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T20:03:27.222Z"
       },
       {
         "storeName": "Trendyol",
@@ -24208,6 +24529,10 @@ export const mockLaptops: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 200890
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 119249
       }
     ]
   },
@@ -24225,7 +24550,7 @@ export const mockLaptops: Product[] = [
     "rating": 4.8,
     "epeyScore": 72,
     "reviewCount": 64,
-    "basePrice": 143439,
+    "basePrice": 119249,
     "currency": "TL",
     "releaseYear": 2025,
     "isPopular": true,
@@ -24280,11 +24605,12 @@ export const mockLaptops: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 144159,
+        "price": 119249,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Asus%20ROG%20Strix%20G16%20G614JVR-N3243%20C22",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/asus-rog-strix-g16-g615jmr-s5048-intel-i7-14650hx-16gb-512gb-8gb-rtx5060-16-2-5k-240hz-freedos-tasinabilir-bilgisayar-p-HBCV00009BDGH9",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T20:03:31.098Z"
       },
       {
         "storeName": "Trendyol",
@@ -24356,6 +24682,10 @@ export const mockLaptops: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 144160
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 119249
       }
     ]
   },
@@ -24428,11 +24758,12 @@ export const mockLaptops: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 90969,
+        "price": 119249,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Asus%20ROG%20Strix%20G16%20G614PM-S5074%20(40GB%2F512SSD%2FDOS)",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/asus-rog-strix-g16-g615jmr-s5048-intel-i7-14650hx-16gb-512gb-8gb-rtx5060-16-2-5k-240hz-freedos-tasinabilir-bilgisayar-p-HBCV00009BDGH9",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T20:03:34.903Z"
       },
       {
         "storeName": "Trendyol",
@@ -24504,6 +24835,10 @@ export const mockLaptops: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 90970
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 90509
       }
     ]
   },
@@ -24521,7 +24856,7 @@ export const mockLaptops: Product[] = [
     "rating": 4.8,
     "epeyScore": 72,
     "reviewCount": 41,
-    "basePrice": 187629,
+    "basePrice": 119249,
     "currency": "TL",
     "releaseYear": 2025,
     "isPopular": true,
@@ -24576,11 +24911,12 @@ export const mockLaptops: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 188569,
+        "price": 119249,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Asus%20ROG%20Strix%20G16%20G614PM-S5074%20(32GB%2F512SSD%2FW11P)",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/asus-rog-strix-g16-g615jmr-s5048-intel-i7-14650hx-16gb-512gb-8gb-rtx5060-16-2-5k-240hz-freedos-tasinabilir-bilgisayar-p-HBCV00009BDGH9",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T20:03:38.599Z"
       },
       {
         "storeName": "Trendyol",
@@ -24652,6 +24988,10 @@ export const mockLaptops: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 188570
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 119249
       }
     ]
   },
@@ -104604,7 +104944,7 @@ export const mockLaptops: Product[] = [
     "rating": 4.8,
     "epeyScore": 75,
     "reviewCount": 39,
-    "basePrice": 139079,
+    "basePrice": 116299,
     "currency": "TL",
     "releaseYear": 2026,
     "isPopular": true,
@@ -104659,11 +104999,12 @@ export const mockLaptops: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 139779,
+        "price": 116299,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Casper%20Excalibur%20G915.1362-EN70A-C%20(Windows%2011%20Home)",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/casper-excalibur-g915-i7-13620h-64gb-4tb-rtx5070-165hz-16-w11h-gaming-laptop-g915-1362-en70a-c-p-HBCV0000C5NMRH",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T20:35:03.641Z"
       },
       {
         "storeName": "Trendyol",
@@ -104735,6 +105076,10 @@ export const mockLaptops: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 139780
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 116299
       }
     ]
   },
@@ -105492,7 +105837,7 @@ export const mockLaptops: Product[] = [
     "rating": 4.8,
     "epeyScore": 75,
     "reviewCount": 27,
-    "basePrice": 128599,
+    "basePrice": 105399,
     "currency": "TL",
     "releaseYear": 2026,
     "isPopular": true,
@@ -105547,11 +105892,12 @@ export const mockLaptops: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 129249,
+        "price": 105399,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Casper%20Excalibur%20G915.1362-EN60A-C%20(Windows%2011%20Home)",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/casper-excalibur-g915-i7-13620h-64gb-4tb-rtx5060-165hz-16-w11h-gaming-laptop-g915-1362-en60a-c-p-HBCV0000C5NQPH",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T20:35:31.746Z"
       },
       {
         "storeName": "Trendyol",
@@ -105623,6 +105969,10 @@ export const mockLaptops: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 129250
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 105399
       }
     ]
   },
@@ -106084,7 +106434,7 @@ export const mockLaptops: Product[] = [
     "rating": 4.8,
     "epeyScore": 74,
     "reviewCount": 31,
-    "basePrice": 132619,
+    "basePrice": 112699,
     "currency": "TL",
     "releaseYear": 2026,
     "isPopular": true,
@@ -106139,11 +106489,12 @@ export const mockLaptops: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 133279,
+        "price": 112699,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Casper%20Excalibur%20G915.1362-EN70X-C%20(FreeDOS)",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/casper-excalibur-g915-i7-13620h-64gb-2tb-2tb-8gb-rtx5070-165hz-16-freedos-gaming-laptop-g915-1362-en70x-c-p-HBCV00009QZPPK",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T20:35:47.944Z"
       },
       {
         "storeName": "Trendyol",
@@ -106215,6 +106566,10 @@ export const mockLaptops: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 133280
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 112699
       }
     ]
   },
@@ -106972,7 +107327,7 @@ export const mockLaptops: Product[] = [
     "rating": 4.7,
     "epeyScore": 72,
     "reviewCount": 23,
-    "basePrice": 119949,
+    "basePrice": 99299,
     "currency": "TL",
     "releaseYear": 2026,
     "isPopular": true,
@@ -107027,11 +107382,12 @@ export const mockLaptops: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 120549,
+        "price": 99299,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Casper%20Excalibur%20G870.1362-EN60X-C%20(FreeDOS)",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/casper-excalibur-g870-i7-13620h-64gb-4tb-8gb-rtx5060-165hz-15-6-freedos-g870-1362-en60x-c-p-HBCV00008WF7DZ",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T20:36:11.021Z"
       },
       {
         "storeName": "Trendyol",
@@ -107103,6 +107459,10 @@ export const mockLaptops: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 120550
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 99299
       }
     ]
   },
@@ -107175,11 +107535,12 @@ export const mockLaptops: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 109619,
+        "price": 116299,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Casper%20Excalibur%20G915.1362-EF70A-C%20(Windows%2011%20Home)",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/casper-excalibur-g915-i7-13620h-64gb-1tb-rtx5070-165hz-16-w11h-gaming-laptop-g915-1362-ef70a-c-p-HBCV0000C5N7IF",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T20:36:16.699Z"
       },
       {
         "storeName": "Trendyol",
@@ -107251,6 +107612,10 @@ export const mockLaptops: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 109620
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 109079
       }
     ]
   },
@@ -107268,7 +107633,7 @@ export const mockLaptops: Product[] = [
     "rating": 4.7,
     "epeyScore": 72,
     "reviewCount": 26,
-    "basePrice": 121779,
+    "basePrice": 98399,
     "currency": "TL",
     "releaseYear": 2026,
     "isPopular": true,
@@ -107323,11 +107688,12 @@ export const mockLaptops: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 122389,
+        "price": 98399,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Casper%20Excalibur%20G870.1362-EN50A-C%20(Windows%2011%20Home)",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/casper-excalibur-g870-i7-13620h-64gb-4tb-rtx5050-165hz-15-6-w11h-gaming-laptop-g870-1362-en50a-c-p-HBCV0000C5NLXG",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T20:36:21.340Z"
       },
       {
         "storeName": "Trendyol",
@@ -107399,6 +107765,10 @@ export const mockLaptops: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 122390
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 98399
       }
     ]
   },
@@ -107564,7 +107934,7 @@ export const mockLaptops: Product[] = [
     "rating": 4.7,
     "epeyScore": 72,
     "reviewCount": 12,
-    "basePrice": 122339,
+    "basePrice": 94199,
     "currency": "TL",
     "releaseYear": 2026,
     "isPopular": true,
@@ -107619,11 +107989,12 @@ export const mockLaptops: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 122949,
+        "price": 94199,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Casper%20Excalibur%20G915.1362-DN70A-C%20(Windows%2011%20Home)",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/casper-excalibur-g915-i7-13620h-32-gb-4tb-rtx5070-165hz-16-w11h-gaming-laptop-g915-1362-dn70a-c-p-HBCV0000C5NSJ9",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T20:36:29.451Z"
       },
       {
         "storeName": "Trendyol",
@@ -107695,6 +108066,10 @@ export const mockLaptops: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 122950
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 94199
       }
     ]
   },
@@ -107860,7 +108235,7 @@ export const mockLaptops: Product[] = [
     "rating": 4.7,
     "epeyScore": 71,
     "reviewCount": 31,
-    "basePrice": 105869,
+    "basePrice": 101799,
     "currency": "TL",
     "releaseYear": 2026,
     "isPopular": true,
@@ -107915,11 +108290,12 @@ export const mockLaptops: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 106399,
+        "price": 101799,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Casper%20Excalibur%20G915.1362-EX60X-C%20(FreeDOS)",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/casper-excalibur-g915-i7-13620h-64gb-2tb-8gb-rtx5060-165hz-16-freedos-gaming-laptop-g915-1362-ex60x-c-p-HBCV00009QZPYJ",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T20:36:37.195Z"
       },
       {
         "storeName": "Trendyol",
@@ -107991,6 +108367,10 @@ export const mockLaptops: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 106400
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 101799
       }
     ]
   },
@@ -108803,11 +109183,12 @@ export const mockLaptops: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 99209,
+        "price": 105399,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Casper%20Excalibur%20G915.1362-EF60A-C%20(Windows%2011%20Home)",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/casper-excalibur-g915-i7-13620h-64gb-1tb-rtx5060-165hz-16-w11h-gaming-laptop-g915-1362-ef60a-c-p-HBCV0000C5NR8W",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T20:37:01.225Z"
       },
       {
         "storeName": "Trendyol",
@@ -108879,6 +109260,10 @@ export const mockLaptops: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 99210
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 98709
       }
     ]
   },
@@ -109839,11 +110224,12 @@ export const mockLaptops: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 96519,
+        "price": 101799,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Casper%20Excalibur%20G915.1362-EF60X-C",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/casper-excalibur-g915-i7-13620h-64gb-1tb-8gb-rtx5060-165hz-16-freedos-gaming-laptop-g915-1362-ef60x-c-p-HBCV00009QZPY3",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T20:37:26.160Z"
       },
       {
         "storeName": "Trendyol",
@@ -109915,6 +110301,10 @@ export const mockLaptops: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 96520
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 96039
       }
     ]
   },
@@ -111708,7 +112098,7 @@ export const mockLaptops: Product[] = [
     "rating": 4.7,
     "epeyScore": 70,
     "reviewCount": 21,
-    "basePrice": 105869,
+    "basePrice": 81377.59,
     "currency": "TL",
     "releaseYear": 2026,
     "isPopular": true,
@@ -111763,11 +112153,12 @@ export const mockLaptops: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 106399,
+        "price": 81377.59,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Casper%20Excalibur%20G915.1362-DN60X-C",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/casper-excalibur-g915-i7-13620h-32gb-2tb-2tb-8gb-rtx5060-165hz-16-freedos-gaming-laptop-g915-1362-dn60x-c-p-HBCV00009QZQ7G",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T20:38:14.180Z"
       },
       {
         "storeName": "Trendyol",
@@ -111839,6 +112230,10 @@ export const mockLaptops: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 106400
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 81377.59
       }
     ]
   },
@@ -112004,7 +112399,7 @@ export const mockLaptops: Product[] = [
     "rating": 4.7,
     "epeyScore": 69,
     "reviewCount": 13,
-    "basePrice": 105029,
+    "basePrice": 98399,
     "currency": "TL",
     "releaseYear": 2026,
     "isPopular": true,
@@ -112059,11 +112454,12 @@ export const mockLaptops: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 105559,
+        "price": 98399,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Casper%20Excalibur%20G870.1362-EX50A-C",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/casper-excalibur-g870-i7-13620h-64gb-2tb-rtx5050-165hz-15-6-w11h-gaming-laptop-g870-1362-ex50a-c-p-HBCV0000C5NSJ7",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T20:38:22.318Z"
       },
       {
         "storeName": "Trendyol",
@@ -112135,6 +112531,10 @@ export const mockLaptops: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 105560
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 98399
       }
     ]
   },
@@ -113632,7 +114032,7 @@ export const mockLaptops: Product[] = [
     "rating": 4.7,
     "epeyScore": 69,
     "reviewCount": 13,
-    "basePrice": 109239,
+    "basePrice": 78999,
     "currency": "TL",
     "releaseYear": 2026,
     "isPopular": true,
@@ -113687,11 +114087,12 @@ export const mockLaptops: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 109789,
+        "price": 78999,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Casper%20Excalibur%20G870.1362-DN60A-C",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/casper-excalibur-g870-intel-core-i7-13620h-32-gb-4tb-rtx5060-165hz-15-6-w11h-gaming-laptop-g870-1362-dn60a-c-p-HBCV0000C5NCSM",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T20:39:04.763Z"
       },
       {
         "storeName": "Trendyol",
@@ -113763,6 +114164,10 @@ export const mockLaptops: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 109790
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 78999
       }
     ]
   },
@@ -114076,7 +114481,7 @@ export const mockLaptops: Product[] = [
     "rating": 4.7,
     "epeyScore": 69,
     "reviewCount": 32,
-    "basePrice": 104099,
+    "basePrice": 88599,
     "currency": "TL",
     "releaseYear": 2026,
     "isPopular": true,
@@ -114131,11 +114536,12 @@ export const mockLaptops: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 104619,
+        "price": 88599,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Casper%20Excalibur%20G915.1362-CN60X-C",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/casper-excalibur-g915-core-i7-13620h-24gb-2tb-2tb-8gb-rtx5060-16-freedos-gaming-laptop-g915-1362-cn60x-c-p-HBCV0000AAPA0G",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T20:39:16.278Z"
       },
       {
         "storeName": "Trendyol",
@@ -114207,6 +114613,10 @@ export const mockLaptops: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 104620
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 88599
       }
     ]
   },
@@ -114372,7 +114782,7 @@ export const mockLaptops: Product[] = [
     "rating": 4.7,
     "epeyScore": 68,
     "reviewCount": 19,
-    "basePrice": 99249,
+    "basePrice": 94799,
     "currency": "TL",
     "releaseYear": 2026,
     "isPopular": true,
@@ -114427,11 +114837,12 @@ export const mockLaptops: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 99749,
+        "price": 94799,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Casper%20Excalibur%20G870.1362-EX50X-C",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/casper-excalibur-g870-i7-13620h-64gb-2tb-8gb-rtx5050-165hz-15-6-freedos-g870-1362-ex50x-c-p-HBCV00009I2C2C",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T20:39:26.176Z"
       },
       {
         "storeName": "Trendyol",
@@ -114503,6 +114914,10 @@ export const mockLaptops: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 99750
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 94799
       }
     ]
   },
@@ -114964,7 +115379,7 @@ export const mockLaptops: Product[] = [
     "rating": 4.7,
     "epeyScore": 68,
     "reviewCount": 16,
-    "basePrice": 97179,
+    "basePrice": 90799,
     "currency": "TL",
     "releaseYear": 2026,
     "isPopular": true,
@@ -115019,11 +115434,12 @@ export const mockLaptops: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 97669,
+        "price": 90799,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Casper%20Excalibur%20G915.1362-DX70X-C",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/casper-excalibur-g915-i7-13620h-32gb-2tb-8gb-rtx5070-165hz-16-freedos-gaming-laptop-g915-1362-dx70x-c-p-HBCV00009QZQHU",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T20:39:42.385Z"
       },
       {
         "storeName": "Trendyol",
@@ -115095,6 +115511,10 @@ export const mockLaptops: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 97670
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 90799
       }
     ]
   },
@@ -115260,7 +115680,7 @@ export const mockLaptops: Product[] = [
     "rating": 4.7,
     "epeyScore": 68,
     "reviewCount": 31,
-    "basePrice": 96519,
+    "basePrice": 89899,
     "currency": "TL",
     "releaseYear": 2026,
     "isPopular": true,
@@ -115315,11 +115735,12 @@ export const mockLaptops: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 97009,
+        "price": 89899,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Casper%20Excalibur%20G915.1362-CX70A-C",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/casper-excalibur-g915-i7-13620h-24-gb-2tb-rtx5070-165hz-16-w11h-gaming-laptop-g915-1362-cx70a-c-p-HBCV0000C5NASG",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T20:39:50.128Z"
       },
       {
         "storeName": "Trendyol",
@@ -115391,6 +115812,10 @@ export const mockLaptops: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 97010
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 89899
       }
     ]
   },
@@ -115759,11 +116184,12 @@ export const mockLaptops: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 93269,
+        "price": 98399,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Casper%20Excalibur%20G870.1362-EF50A-C",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/casper-excalibur-g870-i7-13620h-64gb-1tb-rtx5050-165hz-15-6-w11h-gaming-laptop-g870-1362-ef50a-c-p-HBCV0000C5NA12",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T20:40:03.150Z"
       },
       {
         "storeName": "Trendyol",
@@ -115835,6 +116261,10 @@ export const mockLaptops: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 93270
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 92809
       }
     ]
   },
@@ -115852,7 +116282,7 @@ export const mockLaptops: Product[] = [
     "rating": 4.7,
     "epeyScore": 68,
     "reviewCount": 19,
-    "basePrice": 103499,
+    "basePrice": 75199,
     "currency": "TL",
     "releaseYear": 2026,
     "isPopular": true,
@@ -115907,11 +116337,12 @@ export const mockLaptops: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 104019,
+        "price": 75199,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Casper%20Excalibur%20G870.1362-DN60X-C",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/casper-excalibur-g870-i7-13620h-32gb-4tb-8gb-rtx5060-165hz-15-6-freedos-g870-1362-dn60x-c-p-HBCV00008WF72W",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T20:40:08.119Z"
       },
       {
         "storeName": "Trendyol",
@@ -115983,6 +116414,10 @@ export const mockLaptops: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 104020
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 75199
       }
     ]
   },
@@ -116000,7 +116435,7 @@ export const mockLaptops: Product[] = [
     "rating": 4.7,
     "epeyScore": 68,
     "reviewCount": 11,
-    "basePrice": 103499,
+    "basePrice": 99299,
     "currency": "TL",
     "releaseYear": 2026,
     "isPopular": true,
@@ -116055,11 +116490,12 @@ export const mockLaptops: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 104019,
+        "price": 99299,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Casper%20Excalibur%20G870.1362-EX60X-C",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/casper-excalibur-g870-i7-13620h-64gb-2tb-8gb-rtx5060-165hz-15-6-freedos-g870-1362-ex60x-c-p-HBCV00008WF69M",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T20:40:12.147Z"
       },
       {
         "storeName": "Trendyol",
@@ -116131,6 +116567,10 @@ export const mockLaptops: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 104020
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 99299
       }
     ]
   },
@@ -116203,11 +116643,12 @@ export const mockLaptops: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 89489,
+        "price": 94199,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Casper%20Excalibur%20G915.1362-DF70A-C",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/casper-excalibur-g915-i7-13620h-32gb-1tb-8gb-rtx5070-165hz-16-w11h-gaming-laptop-g915-1362-df70a-c-p-HBCV00009QZPT9",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T20:40:16.866Z"
       },
       {
         "storeName": "Trendyol",
@@ -116279,6 +116720,10 @@ export const mockLaptops: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 89490
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 89039
       }
     ]
   },
@@ -117239,11 +117684,12 @@ export const mockLaptops: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 81979,
+        "price": 86299,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Casper%20Excalibur%20G915.1362-DF60A-C",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/casper-excalibur-g915-core-i7-13620h-32gb-1tb-rtx5060-16-w11-home-gaming-laptop-g915-1362-df60a-c-p-HBCV00009QZQNG",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T20:40:42.070Z"
       },
       {
         "storeName": "Trendyol",
@@ -117315,6 +117761,10 @@ export const mockLaptops: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 81980
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 81569
       }
     ]
   },
@@ -117480,7 +117930,7 @@ export const mockLaptops: Product[] = [
     "rating": 4.6,
     "epeyScore": 67,
     "reviewCount": 14,
-    "basePrice": 93159,
+    "basePrice": 82364.05,
     "currency": "TL",
     "releaseYear": 2026,
     "isPopular": true,
@@ -117535,11 +117985,12 @@ export const mockLaptops: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 93619,
+        "price": 82364.05,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Casper%20Excalibur%20G915.1362-CX70X-C",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/casper-excalibur-g915-core-i7-13620h-24gb-2tb-8gb-rtx5070-16-freedos-gaming-laptop-g915-1362-cx70x-c-p-HBCV0000AATRDU",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T20:40:52.810Z"
       },
       {
         "storeName": "Trendyol",
@@ -117611,6 +118062,10 @@ export const mockLaptops: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 93620
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 82364.05
       }
     ]
   },
@@ -117628,7 +118083,7 @@ export const mockLaptops: Product[] = [
     "rating": 4.6,
     "epeyScore": 67,
     "reviewCount": 33,
-    "basePrice": 92499,
+    "basePrice": 85999,
     "currency": "TL",
     "releaseYear": 2026,
     "isPopular": true,
@@ -117683,11 +118138,12 @@ export const mockLaptops: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 92969,
+        "price": 85999,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Casper%20Excalibur%20G915.1362-BX70A-C",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/casper-excalibur-g915-i7-13620h-16-gb-2tb-rtx5070-165hz-16-w11h-gaming-laptop-g915-1362-bx70a-c-p-HBCV0000C5NOID",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T20:40:58.283Z"
       },
       {
         "storeName": "Trendyol",
@@ -117759,6 +118215,10 @@ export const mockLaptops: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 92970
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 85999
       }
     ]
   },
@@ -117979,11 +118439,12 @@ export const mockLaptops: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 89829,
+        "price": 94799,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Casper%20Excalibur%20G870.1362-EF50X-C",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/casper-excalibur-g870-i7-13620h-64gb-1tb-8gb-rtx5050-165hz-15-6-freedos-g870-1362-ef50x-c-p-HBCV00009I2CGN",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T20:41:07.760Z"
       },
       {
         "storeName": "Trendyol",
@@ -118055,6 +118516,10 @@ export const mockLaptops: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 89830
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 89379
       }
     ]
   },
@@ -118127,11 +118592,12 @@ export const mockLaptops: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 85899,
+        "price": 90799,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Casper%20Excalibur%20G915.1362-DF70X-C",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/casper-excalibur-g915-i7-13620h-32gb-1tb-8gb-rtx5070-165hz-16-freedos-gaming-laptop-g915-1362-df70x-c-p-HBCV00009QZQHS",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T20:41:13.688Z"
       },
       {
         "storeName": "Trendyol",
@@ -118203,6 +118669,10 @@ export const mockLaptops: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 85900
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 85469
       }
     ]
   },
@@ -118719,11 +119189,12 @@ export const mockLaptops: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 85149,
+        "price": 89899,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Casper%20Excalibur%20G915.1362-CF70A-C",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/casper-excalibur-g915-core-i7-13620h-24gb-1tb-8gb-rtx5070-16-w11-home-gaming-laptop-g915-1362-cf70a-c-p-HBCV0000AATR3Q",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T20:41:28.680Z"
       },
       {
         "storeName": "Trendyol",
@@ -118795,6 +119266,10 @@ export const mockLaptops: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 85150
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 84719
       }
     ]
   },
@@ -119015,11 +119490,12 @@ export const mockLaptops: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 94329,
+        "price": 99299,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Casper%20Excalibur%20G870.1362-EF60X-C",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/casper-excalibur-g870-i7-13620h-64gb-1tb-8gb-rtx5060-165hz-15-6-freedos-g870-1362-ef60x-c-p-HBCV00008WF6SD",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T20:41:37.246Z"
       },
       {
         "storeName": "Trendyol",
@@ -119091,6 +119567,10 @@ export const mockLaptops: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 94330
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 93859
       }
     ]
   },
@@ -120051,11 +120531,12 @@ export const mockLaptops: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 77609,
+        "price": 81999,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Casper%20Excalibur%20G915.1362-CF60A-C",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/casper-excalibur-g915-core-i7-13620h-24gb-1tb-rtx5060-16-w11-home-gaming-laptop-g915-1362-cf60a-c-p-HBCV0000AAPO51",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T20:42:03.646Z"
       },
       {
         "storeName": "Trendyol",
@@ -120127,6 +120608,10 @@ export const mockLaptops: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 77610
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 77219
       }
     ]
   },
@@ -120292,7 +120777,7 @@ export const mockLaptops: Product[] = [
     "rating": 4.6,
     "epeyScore": 66,
     "reviewCount": 19,
-    "basePrice": 87249,
+    "basePrice": 82499,
     "currency": "TL",
     "releaseYear": 2026,
     "isPopular": true,
@@ -120347,11 +120832,12 @@ export const mockLaptops: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 87679,
+        "price": 82499,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Casper%20Excalibur%20G915.1362-BX70X-C",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/casper-excalibur-g915-i7-13620h-16gb-2tb-8gb-rtx5070-165hz-16-freedos-gaming-laptop-g915-1362-bx70x-c-p-HBCV00009QZPT7",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T20:42:12.661Z"
       },
       {
         "storeName": "Trendyol",
@@ -120423,6 +120909,10 @@ export const mockLaptops: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 87680
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 82499
       }
     ]
   },
@@ -121679,11 +122169,12 @@ export const mockLaptops: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 81699,
+        "price": 85999,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Casper%20Excalibur%20G915.1362-BF70A-C",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/casper-excalibur-g915-i7-13620h-16gb-1tb-8gb-rtx5070-165hz-16-w11h-gaming-laptop-g915-1362-bf70a-c-p-HBCV00009QZQD5",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T20:42:50.335Z"
       },
       {
         "storeName": "Trendyol",
@@ -121755,6 +122246,10 @@ export const mockLaptops: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 81700
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 81289
       }
     ]
   },

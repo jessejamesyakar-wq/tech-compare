@@ -10279,7 +10279,7 @@ export const mockHeadphones: Product[] = [
     "name": "Anker Soundcore Liberty 4 Pro Ekranlı Akıllı Kutulu Adaptif ANC 3.0 TWS Kulaklık",
     "brand": "Anker",
     "category": "headphones",
-    "basePrice": 7949,
+    "basePrice": 4999,
     "currency": "TL",
     "rating": 4.9,
     "epeyScore": 95,
@@ -10310,11 +10310,12 @@ export const mockHeadphones: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 7989,
+        "price": 4999,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Anker%20Soundcore%20Liberty%204%20Pro%20Ekranl%C4%B1%20Ak%C4%B1ll%C4%B1%20Kutulu%20Adaptif%20ANC%203.0%20TWS%20Kulakl%C4%B1k",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/anker-soundcore-liberty-5-kulak-ici-bluetooth-kulaklik-gercek-zamanli-gurultu-engelleme-siyah-a3957-p-HBCV000090AKC1",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T21:36:13.289Z"
       },
       {
         "storeName": "Trendyol",
@@ -10386,6 +10387,10 @@ export const mockHeadphones: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 7990
+      },
+      {
+        "date": "7 Eylül 2026",
+        "price": 4999
       }
     ]
   },
@@ -14089,11 +14094,12 @@ export const mockHeadphones: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 4249,
+        "price": 4798.99,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Anker%20Soundcore%20Space%20One%20Adaptif%20ANC%20LDAC%20Hi-Res%20Kablosuz%20Kulakl%C4%B1k",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/anker-soundcore-space-one-kulak-ustu-bluetooth-kulaklik-aktif-gurultu-engelleme-siyah-a3035-p-HBCV000060VOBC",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T21:38:18.666Z"
       },
       {
         "storeName": "Trendyol",
@@ -14165,6 +14171,10 @@ export const mockHeadphones: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 4250
+      },
+      {
+        "date": "7 Eylül 2026",
+        "price": 4229
       }
     ]
   },
@@ -24652,11 +24662,12 @@ export const mockHeadphones: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 2749,
+        "price": 3088.5,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=SteelSeries%20Arctis%20Nova%201P%20PlayStation%205%20%26%20PC%20Gaming%20Kulakl%C4%B1k",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/steelseries-arctis-nova-1p-playstation-oyun-kulakligi-p-HBCV00002Y14I4",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T21:44:20.290Z"
       },
       {
         "storeName": "Trendyol",
@@ -24728,6 +24739,10 @@ export const mockHeadphones: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 2750
+      },
+      {
+        "date": "7 Eylül 2026",
+        "price": 2729
       }
     ]
   },
@@ -28217,11 +28232,12 @@ export const mockHeadphones: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 1889,
+        "price": 2799,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=JBL%20Tune%20Buds%204%20Mikrofonlu%20ANC%20TWS%20Bluetooth%20Kulakl%C4%B1k",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/jbl-tune-buds2-kulakici-tws-kulaklik-siyah-p-HBCV000078I4QM",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T21:46:23.367Z"
       },
       {
         "storeName": "Trendyol",
@@ -28293,6 +28309,10 @@ export const mockHeadphones: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 1890
+      },
+      {
+        "date": "7 Eylül 2026",
+        "price": 1879
       }
     ]
   },
@@ -43681,11 +43701,12 @@ export const mockHeadphones: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 11489,
+        "price": 14999,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=JBL%20Tour%20Pro%203%20Smart%20Charging%20Case%20Ekranl%C4%B1%20Hibrit%20ANC%20TWS%20Kulakl%C4%B1k",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/jbl-tour-pro-3-wireless-kulakici-kulaklik-ie-latte-p-HBCV000078I3S0",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T21:54:55.819Z"
       },
       {
         "storeName": "Trendyol",
@@ -43757,6 +43778,10 @@ export const mockHeadphones: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 11490
+      },
+      {
+        "date": "7 Eylül 2026",
+        "price": 11429
       }
     ]
   },
@@ -45552,7 +45577,7 @@ export const mockHeadphones: Product[] = [
     "name": "Rampage RM-K90 Vector 3.5mm Çoklu Platform Gaming Kulaklık",
     "brand": "Rampage",
     "category": "headphones",
-    "basePrice": 899,
+    "basePrice": 889,
     "currency": "TL",
     "rating": 4.3,
     "epeyScore": 78,
@@ -45576,11 +45601,12 @@ export const mockHeadphones: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 909,
+        "price": 889,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Rampage%20RM-K90%20Vector%203.5mm%20%C3%87oklu%20Platform%20Gaming%20Kulakl%C4%B1k",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/rampage-rm-k90-vector-siyah-rgb-led-3-5mm-gaming-mikrofonlu-oyuncu-kulakligi-p-HBCV00003HVQPH",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T21:55:59.320Z"
       },
       {
         "storeName": "Trendyol",
@@ -45652,6 +45678,10 @@ export const mockHeadphones: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 900
+      },
+      {
+        "date": "7 Eylül 2026",
+        "price": 889
       }
     ]
   },
@@ -46910,11 +46940,12 @@ export const mockHeadphones: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 20499,
+        "price": 22224.92,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=SteelSeries%20Arctis%20Nova%20Pro%20GameDAC%20Gen%202%20Hi-Res%20Gaming%20Kulakl%C4%B1k",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/steelseries-arctis-nova-pro-omni-wireless-ve-bluetooth-hi-res-oyuncu-kulakligi-mavi-p-HBCV0000EJM11V",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T21:56:43.858Z"
       },
       {
         "storeName": "Trendyol",
@@ -46986,6 +47017,10 @@ export const mockHeadphones: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 20500
+      },
+      {
+        "date": "7 Eylül 2026",
+        "price": 20399
       }
     ]
   },
@@ -47133,11 +47168,12 @@ export const mockHeadphones: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 13999,
+        "price": 22224.92,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=SteelSeries%20Arctis%20Nova%20Pro%20Xbox%20%2F%20Multi-Platform%20Gaming%20Kulakl%C4%B1k",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/steelseries-arctis-nova-pro-omni-wireless-ve-bluetooth-hi-res-oyuncu-kulakligi-mavi-p-HBCV0000EJM11V",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T21:56:50.441Z"
       },
       {
         "storeName": "Trendyol",
@@ -47209,6 +47245,10 @@ export const mockHeadphones: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 14000
+      },
+      {
+        "date": "7 Eylül 2026",
+        "price": 13929
       }
     ]
   },
@@ -52255,11 +52295,12 @@ export const mockHeadphones: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 1089,
+        "price": 1152.59,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Rampage%20RM-K91%20X%20Catty%20I%C5%9F%C4%B1kl%C4%B1%20Kedi%20Kula%C4%9F%C4%B1%20Gaming%20Kulakl%C4%B1k",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/rampage-rm-k91-x-catty-beyaz-usb-7-1-version-rgb-gaming-oyuncu-mikrofonlu-kulaklik-p-HBCV00006L369L",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T21:59:29.359Z"
       },
       {
         "storeName": "Trendyol",
@@ -52331,6 +52372,10 @@ export const mockHeadphones: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 1090
+      },
+      {
+        "date": "7 Eylül 2026",
+        "price": 1079
       }
     ]
   },
@@ -58577,11 +58622,12 @@ export const mockHeadphones: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 1409,
+        "price": 1499,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Rampage%20M7%20Moncher%207.1%20RGB%20Gaming%20Kulakl%C4%B1k",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/rampage-m7-moncher-pembe-rgb-led-usb-7-1-gaming-mikrofonlu-oyuncu-kulakligi-p-HBCV00002XWOO4",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T22:03:02.377Z"
       },
       {
         "storeName": "Trendyol",
@@ -58653,6 +58699,10 @@ export const mockHeadphones: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 1410
+      },
+      {
+        "date": "7 Eylül 2026",
+        "price": 1399
       }
     ]
   },
@@ -59131,11 +59181,12 @@ export const mockHeadphones: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 999,
+        "price": 1093.9,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Rampage%20Rogue%207.1%20Surround%20RGB%20Gaming%20Kulakl%C4%B1k",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/rampage-rogue-kirmizi-usb-7-1-surround-rgb-ledli-gaming-esnek-mikrofonlu-oyuncu-kulaklik-p-HBV000019OKGQ",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T22:03:20.007Z"
       },
       {
         "storeName": "Trendyol",
@@ -59207,6 +59258,10 @@ export const mockHeadphones: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 1000
+      },
+      {
+        "date": "7 Eylül 2026",
+        "price": 989
       }
     ]
   },
@@ -63440,11 +63495,12 @@ export const mockHeadphones: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 14499,
+        "price": 21625,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Sennheiser%20Momentum%20True%20Wireless%204%20Amiral%20Gemisi%20ANC%20Kulakl%C4%B1k",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/sennheiser-momentum-true-wireless-2-anc-bluetooth-kulaklik-siyah-p-HBV00000SUI6D",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T22:05:37.093Z"
       },
       {
         "storeName": "Trendyol",
@@ -63516,6 +63572,10 @@ export const mockHeadphones: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 14500
+      },
+      {
+        "date": "7 Eylül 2026",
+        "price": 14429
       }
     ]
   },
@@ -63555,11 +63615,12 @@ export const mockHeadphones: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 13489,
+        "price": 21625,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Sennheiser%20Momentum%20True%20Wireless%203%20Odyofil%20ANC%20Kulakl%C4%B1k",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/sennheiser-momentum-true-wireless-2-anc-bluetooth-kulaklik-siyah-p-HBV00000SUI6D",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T22:05:39.977Z"
       },
       {
         "storeName": "Trendyol",
@@ -63631,6 +63692,10 @@ export const mockHeadphones: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 13490
+      },
+      {
+        "date": "7 Eylül 2026",
+        "price": 13419
       }
     ]
   },
@@ -65553,11 +65618,12 @@ export const mockHeadphones: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 1139,
+        "price": 1141.15,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Rampage%20RM-K1%20Pulsar%207.1%20Surround%20Titre%C5%9Fimli%20RGB%20Gaming%20Kulakl%C4%B1k",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/rampage-rm-k1-pulsar-pembe-usb-7-1-surround-titresim-rgb-isik-efektli-gaming-oyuncu-mikrofonlu-kulaklik-p-HBCV00000TIFKE",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T22:06:39.427Z"
       },
       {
         "storeName": "Trendyol",
@@ -65629,6 +65695,10 @@ export const mockHeadphones: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 1140
+      },
+      {
+        "date": "7 Eylül 2026",
+        "price": 1129
       }
     ]
   },
@@ -74706,11 +74776,12 @@ export const mockHeadphones: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 9999,
+        "price": 10097.4,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=JBL%20Tour%20One%20M2%20Ger%C3%A7ek%20Uyarlanabilir%20ANC%20Kulakl%C4%B1k",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/jbl-tour-one-m2-wireless-kulaklik-oe-siyah-p-HBCV0000615957",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T22:11:35.443Z"
       },
       {
         "storeName": "Trendyol",
@@ -74782,6 +74853,10 @@ export const mockHeadphones: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 10000
+      },
+      {
+        "date": "7 Eylül 2026",
+        "price": 9949
       }
     ]
   },
@@ -76280,11 +76355,12 @@ export const mockHeadphones: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 1749,
+        "price": 1799,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=JBL%20Tune%20570BT%20Kablosuz%20Kulak%20%C3%9Cst%C3%BC%20Kulakl%C4%B1k",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/jbl-tune-570bt-wireless-kulaklik-ct-oe-beyaz-p-HBCV000066CL0D",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T22:12:26.369Z"
       },
       {
         "storeName": "Trendyol",
@@ -76356,6 +76432,10 @@ export const mockHeadphones: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 1750
+      },
+      {
+        "date": "7 Eylül 2026",
+        "price": 1739
       }
     ]
   },
@@ -77379,7 +77459,7 @@ export const mockHeadphones: Product[] = [
     "name": "SteelSeries Arctis Nova Pro Omni Kablosuz Gaming Kulaklık",
     "brand": "SteelSeries",
     "category": "headphones",
-    "basePrice": 24869,
+    "basePrice": 22224.92,
     "currency": "TL",
     "rating": 4.9,
     "epeyScore": 98,
@@ -77408,11 +77488,12 @@ export const mockHeadphones: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 24999,
+        "price": 22224.92,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=SteelSeries%20Arctis%20Nova%20Pro%20Omni%20Kablosuz%20Gaming%20Kulakl%C4%B1k",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/steelseries-arctis-nova-pro-omni-wireless-ve-bluetooth-hi-res-oyuncu-kulakligi-mavi-p-HBCV0000EJM11V",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T22:13:01.277Z"
       },
       {
         "storeName": "Trendyol",
@@ -77484,6 +77565,10 @@ export const mockHeadphones: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 25000
+      },
+      {
+        "date": "7 Eylül 2026",
+        "price": 22224.92
       }
     ]
   },
@@ -77635,11 +77720,12 @@ export const mockHeadphones: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 16999,
+        "price": 22224.92,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=SteelSeries%20Arctis%20Pro%20Wireless%20Hi-Res%20Gaming%20Kulakl%C4%B1k",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/steelseries-arctis-nova-pro-omni-wireless-ve-bluetooth-hi-res-oyuncu-kulakligi-mavi-p-HBCV0000EJM11V",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T22:13:07.595Z"
       },
       {
         "storeName": "Trendyol",
@@ -77711,6 +77797,10 @@ export const mockHeadphones: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 17000
+      },
+      {
+        "date": "7 Eylül 2026",
+        "price": 16909
       }
     ]
   },
@@ -77749,11 +77839,12 @@ export const mockHeadphones: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 15999,
+        "price": 22224.92,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=SteelSeries%20Arctis%20Nova%20Pro%20Wireless%20Xbox%20%2F%20PC%20Kulakl%C4%B1k",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/steelseries-arctis-nova-pro-omni-wireless-ve-bluetooth-hi-res-oyuncu-kulakligi-mavi-p-HBCV0000EJM11V",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T22:13:10.622Z"
       },
       {
         "storeName": "Trendyol",
@@ -77825,6 +77916,10 @@ export const mockHeadphones: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 16000
+      },
+      {
+        "date": "7 Eylül 2026",
+        "price": 15919
       }
     ]
   },
@@ -77862,11 +77957,12 @@ export const mockHeadphones: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 14699,
+        "price": 22224.92,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=SteelSeries%20Arctis%20Nova%20Pro%20Wireless%20(PC%20%2F%20PS5)%20Kulakl%C4%B1k",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/steelseries-arctis-nova-pro-omni-wireless-ve-bluetooth-hi-res-oyuncu-kulakligi-mavi-p-HBCV0000EJM11V",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T22:13:13.153Z"
       },
       {
         "storeName": "Trendyol",
@@ -77938,6 +78034,10 @@ export const mockHeadphones: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 14700
+      },
+      {
+        "date": "7 Eylül 2026",
+        "price": 14629
       }
     ]
   },
@@ -77977,11 +78077,12 @@ export const mockHeadphones: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 14999,
+        "price": 15999,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Sony%20WH-1000XM5%20Kablosuz%20G%C3%BCr%C3%BClt%C3%BC%20Engelleme%20%C3%96zellikli%20Kulakl%C4%B1k",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/sony-wh-1000xm5-kulak-ustu-bluetooth-kulaklik-siyah-p-HBCV00002HTTV3",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T22:13:16.886Z"
       },
       {
         "storeName": "Trendyol",
@@ -78053,6 +78154,10 @@ export const mockHeadphones: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 15000
+      },
+      {
+        "date": "7 Eylül 2026",
+        "price": 14919
       }
     ]
   },
@@ -78431,11 +78536,12 @@ export const mockHeadphones: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 8999,
+        "price": 9696.22,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Sennheiser%20Accentum%20Kablosuz%20Hibrit%20ANC%20Kulakl%C4%B1k",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/sennheiser-accentum-true-wireless-kulak-ici-kulaklik-p-HBCV00006EMGZM",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T22:13:33.099Z"
       },
       {
         "storeName": "Trendyol",
@@ -78507,6 +78613,10 @@ export const mockHeadphones: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 9000
+      },
+      {
+        "date": "7 Eylül 2026",
+        "price": 8949
       }
     ]
   },
@@ -79667,11 +79777,12 @@ export const mockHeadphones: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 1569,
+        "price": 1949,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=JBL%20Tune%20520BT%20Kablosuz%20Kulak%20%C3%9Cst%C3%BC%20Kulakl%C4%B1k",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/jbl-tune-520bt-multi-connect-wireless-kulaklik-siyah-p-HBCV00004D5WU0",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T22:14:15.348Z"
       },
       {
         "storeName": "Trendyol",
@@ -79743,6 +79854,10 @@ export const mockHeadphones: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 1570
+      },
+      {
+        "date": "7 Eylül 2026",
+        "price": 1559
       }
     ]
   },
@@ -79889,11 +80004,12 @@ export const mockHeadphones: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 1449,
+        "price": 2199,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=JBL%20Tune%20510BT%20Kablosuz%20Kulak%20%C3%9Cst%C3%BC%20Kulakl%C4%B1k",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/jbl-tune-jbl-510-bt-kulak-ustu-bluetooth-kulaklik-siyah-cift-telefon-destegi-ve-suya-dayanikli-p-HBCV00005CFJA1",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T22:14:24.817Z"
       },
       {
         "storeName": "Trendyol",
@@ -79965,6 +80081,10 @@ export const mockHeadphones: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 1450
+      },
+      {
+        "date": "7 Eylül 2026",
+        "price": 1439
       }
     ]
   },
@@ -80433,7 +80553,7 @@ export const mockHeadphones: Product[] = [
     "name": "Sennheiser Momentum 5 Kablosuz Kulak Üstü Kulaklık",
     "brand": "Sennheiser",
     "category": "headphones",
-    "basePrice": 33429,
+    "basePrice": 21625,
     "currency": "TL",
     "rating": 4.9,
     "epeyScore": 98,
@@ -80464,11 +80584,12 @@ export const mockHeadphones: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 33599,
+        "price": 21625,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Sennheiser%20Momentum%205%20Kablosuz%20Kulak%20%C3%9Cst%C3%BC%20Kulakl%C4%B1k",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/sennheiser-momentum-true-wireless-2-anc-bluetooth-kulaklik-siyah-p-HBV00000SUI6D",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T22:14:41.150Z"
       },
       {
         "storeName": "Trendyol",
@@ -80540,6 +80661,10 @@ export const mockHeadphones: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 33600
+      },
+      {
+        "date": "7 Eylül 2026",
+        "price": 21625
       }
     ]
   },
@@ -83132,7 +83257,7 @@ export const mockHeadphones: Product[] = [
     "name": "JBL Tune 720BT Kablosuz Kulak Üstü Kulaklık",
     "brand": "JBL",
     "category": "headphones",
-    "basePrice": 2669,
+    "basePrice": 2499,
     "currency": "TL",
     "rating": 4.7,
     "epeyScore": 88,
@@ -83161,11 +83286,12 @@ export const mockHeadphones: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 2679,
+        "price": 2499,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=JBL%20Tune%20720BT%20Kablosuz%20Kulak%20%C3%9Cst%C3%BC%20Kulakl%C4%B1k",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/jbl-tune-720bt-wireless-kulaklik-ct-oe-beyaz-p-HBCV000066CL04",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T22:15:58.701Z"
       },
       {
         "storeName": "Trendyol",
@@ -83237,6 +83363,10 @@ export const mockHeadphones: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 2680
+      },
+      {
+        "date": "7 Eylül 2026",
+        "price": 2499
       }
     ]
   },
@@ -83503,11 +83633,12 @@ export const mockHeadphones: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 26999,
+        "price": 36999,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Apple%20AirPods%20Max%202%20(USB-C)",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/apple-airpods-max-2-siyah-p-HBCV0000DF9Q78",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T22:16:08.881Z"
       },
       {
         "storeName": "Trendyol",
@@ -83579,6 +83710,10 @@ export const mockHeadphones: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 27000
+      },
+      {
+        "date": "7 Eylül 2026",
+        "price": 26859
       }
     ]
   },
@@ -83620,11 +83755,12 @@ export const mockHeadphones: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 26999,
+        "price": 36999,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Apple%20AirPods%20Max%20(Lightning)",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/apple-airpods-max-2-siyah-p-HBCV0000DF9Q78",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T22:16:13.599Z"
       },
       {
         "storeName": "Trendyol",
@@ -83696,6 +83832,10 @@ export const mockHeadphones: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 27000
+      },
+      {
+        "date": "7 Eylül 2026",
+        "price": 26859
       }
     ]
   },
@@ -84207,11 +84347,12 @@ export const mockHeadphones: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 9459,
+        "price": 11999,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Apple%20AirPods%203%20MagSafe%20%C5%9Earj%20Kutulu",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/apple-airpods-3-nesil-kulakici-bluetooth-kulaklik-beyaz-renk-magsafe-sarj-kutusu-ile-mme73tu-a-p-HBCV00000U44QM",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T22:16:30.342Z"
       },
       {
         "storeName": "Trendyol",
@@ -84283,6 +84424,10 @@ export const mockHeadphones: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 9460
+      },
+      {
+        "date": "7 Eylül 2026",
+        "price": 9409
       }
     ]
   },
@@ -84323,11 +84468,12 @@ export const mockHeadphones: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 9309,
+        "price": 11999,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Apple%20AirPods%203%20(Lightning%20%C5%9Earj%20Kutulu)",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/apple-airpods-3-nesil-bluetooth-kulakici-kulaklik-suya-ve-tere-dayanikli-dokunmatik-kontrol-p-HBCV00002VLPJM",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T22:16:34.636Z"
       },
       {
         "storeName": "Trendyol",
@@ -84399,6 +84545,10 @@ export const mockHeadphones: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 9310
+      },
+      {
+        "date": "7 Eylül 2026",
+        "price": 9259
       }
     ]
   },
@@ -84899,11 +85049,12 @@ export const mockHeadphones: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 5999,
+        "price": 11999,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Apple%20AirPods%20(1.%20Nesil%20Orijinal%20Klasik)",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/apple-airpods-3-nesil-bluetooth-kulakici-kulaklik-suya-ve-tere-dayanikli-dokunmatik-kontrol-p-HBCV00002VLPJM",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T22:16:52.000Z"
       },
       {
         "storeName": "Trendyol",
@@ -84975,6 +85126,10 @@ export const mockHeadphones: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 6000
+      },
+      {
+        "date": "7 Eylül 2026",
+        "price": 5969
       }
     ]
   },
@@ -87653,11 +87808,12 @@ export const mockHeadphones: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 14999,
+        "price": 15999,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Sony%20WH-1000XM5%20Kablosuz%20G%C3%BCr%C3%BClt%C3%BC%20Engelleme%20%C3%96zellikli%20Kulak%20%C3%9Cst%C3%BC%20Kulakl%C4%B1k",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/sony-wh-1000xm5-kulak-ustu-bluetooth-kulaklik-siyah-p-HBCV00002HTTV3",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T22:18:24.189Z"
       },
       {
         "storeName": "Trendyol",
@@ -87729,6 +87885,10 @@ export const mockHeadphones: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 15000
+      },
+      {
+        "date": "7 Eylül 2026",
+        "price": 14919
       }
     ]
   },
@@ -87765,11 +87925,12 @@ export const mockHeadphones: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 1749,
+        "price": 1949,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=JBL%20Tune%20520BT%20Multi%20Connect%20Kablosuz%20Kulak%20%C3%9Cst%C3%BC%20Kulakl%C4%B1k",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/jbl-tune-520bt-multi-connect-wireless-kulaklik-siyah-p-HBCV00004D5WU0",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T22:18:27.375Z"
       },
       {
         "storeName": "Trendyol",
@@ -87841,6 +88002,10 @@ export const mockHeadphones: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 1750
+      },
+      {
+        "date": "7 Eylül 2026",
+        "price": 1739
       }
     ]
   },
@@ -87877,11 +88042,12 @@ export const mockHeadphones: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 6499,
+        "price": 6498,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Samsung%20Galaxy%20Buds%203%20Pro%20ANC%20Kablosuz%20Kulakl%C4%B1k",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/samsung-galaxy-buds3-fe-siyah-sm-r420nzkatur-samsung-turkiye-garantili-p-HBCV0000A0QEEJ",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T22:18:31.568Z"
       },
       {
         "storeName": "Trendyol",
@@ -87953,6 +88119,10 @@ export const mockHeadphones: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 6500
+      },
+      {
+        "date": "7 Eylül 2026",
+        "price": 6469
       }
     ]
   },
@@ -88105,11 +88275,12 @@ export const mockHeadphones: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 3519,
+        "price": 6498,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Samsung%20Galaxy%20Buds%20FE",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/samsung-galaxy-buds3-fe-siyah-sm-r420nzkatur-samsung-turkiye-garantili-p-HBCV0000A0QEEJ",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T22:18:39.231Z"
       },
       {
         "storeName": "Trendyol",
@@ -88181,6 +88352,10 @@ export const mockHeadphones: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 3520
+      },
+      {
+        "date": "7 Eylül 2026",
+        "price": 3499
       }
     ]
   },
@@ -88221,11 +88396,12 @@ export const mockHeadphones: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 6299,
+        "price": 7499,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Samsung%20Galaxy%20Buds%202",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/samsung-galaxy-buds4-bluetooth-kulaklik-beyaz-anc-p-HBCV0000CWH9PS",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T22:18:43.672Z"
       },
       {
         "storeName": "Trendyol",
@@ -88297,6 +88473,10 @@ export const mockHeadphones: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 6300
+      },
+      {
+        "date": "7 Eylül 2026",
+        "price": 6269
       }
     ]
   },
@@ -88306,7 +88486,7 @@ export const mockHeadphones: Product[] = [
     "name": "Samsung Galaxy Buds Pro",
     "brand": "Samsung",
     "category": "headphones",
-    "basePrice": 25209,
+    "basePrice": 12219,
     "currency": "TL",
     "rating": 4.8,
     "epeyScore": 90,
@@ -88337,11 +88517,12 @@ export const mockHeadphones: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 25329,
+        "price": 12219,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Samsung%20Galaxy%20Buds%20Pro",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/samsung-galaxy-buds4-pro-bluetooth-kulaklik-beyaz-anc-p-HBCV0000CWGXC9",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T22:18:48.776Z"
       },
       {
         "storeName": "Trendyol",
@@ -88413,6 +88594,10 @@ export const mockHeadphones: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 25330
+      },
+      {
+        "date": "7 Eylül 2026",
+        "price": 12219
       }
     ]
   },
@@ -88422,7 +88607,7 @@ export const mockHeadphones: Product[] = [
     "name": "Samsung Galaxy Buds 2 Pro",
     "brand": "Samsung",
     "category": "headphones",
-    "basePrice": 10399,
+    "basePrice": 7499,
     "currency": "TL",
     "rating": 4.8,
     "epeyScore": 87,
@@ -88453,11 +88638,12 @@ export const mockHeadphones: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 10449,
+        "price": 7499,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Samsung%20Galaxy%20Buds%202%20Pro",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/samsung-galaxy-buds4-bluetooth-kulaklik-beyaz-anc-p-HBCV0000CWH9PS",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T22:18:51.503Z"
       },
       {
         "storeName": "Trendyol",
@@ -88529,6 +88715,10 @@ export const mockHeadphones: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 10450
+      },
+      {
+        "date": "7 Eylül 2026",
+        "price": 7499
       }
     ]
   },
@@ -88569,11 +88759,12 @@ export const mockHeadphones: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 3599,
+        "price": 6498,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Samsung%20Galaxy%20Buds%203%20FE",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/samsung-galaxy-buds3-fe-siyah-sm-r420nzkatur-samsung-turkiye-garantili-p-HBCV0000A0QEEJ",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T22:18:54.368Z"
       },
       {
         "storeName": "Trendyol",
@@ -88645,6 +88836,10 @@ export const mockHeadphones: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 3600
+      },
+      {
+        "date": "7 Eylül 2026",
+        "price": 3579
       }
     ]
   },
@@ -88685,11 +88880,12 @@ export const mockHeadphones: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 5949,
+        "price": 6498,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Samsung%20Galaxy%20Buds%204",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/samsung-galaxy-buds3-fe-siyah-sm-r420nzkatur-samsung-turkiye-garantili-p-HBCV0000A0QEEJ",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T22:18:57.820Z"
       },
       {
         "storeName": "Trendyol",
@@ -88761,6 +88957,10 @@ export const mockHeadphones: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 5950
+      },
+      {
+        "date": "7 Eylül 2026",
+        "price": 5919
       }
     ]
   },
@@ -88770,7 +88970,7 @@ export const mockHeadphones: Product[] = [
     "name": "Samsung Galaxy Buds 4 Pro",
     "brand": "Samsung",
     "category": "headphones",
-    "basePrice": 10939,
+    "basePrice": 6498,
     "currency": "TL",
     "rating": 4.8,
     "epeyScore": 90,
@@ -88801,11 +89001,12 @@ export const mockHeadphones: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 10999,
+        "price": 6498,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Samsung%20Galaxy%20Buds%204%20Pro",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/samsung-galaxy-buds3-fe-siyah-sm-r420nzkatur-samsung-turkiye-garantili-p-HBCV0000A0QEEJ",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T22:19:00.972Z"
       },
       {
         "storeName": "Trendyol",
@@ -88877,6 +89078,10 @@ export const mockHeadphones: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 11000
+      },
+      {
+        "date": "7 Eylül 2026",
+        "price": 6498
       }
     ]
   },
@@ -88917,11 +89122,12 @@ export const mockHeadphones: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 4219,
+        "price": 6498,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Samsung%20Galaxy%20Buds%203",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/samsung-galaxy-buds3-fe-siyah-sm-r420nzkatur-samsung-turkiye-garantili-p-HBCV0000A0QEEJ",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T22:19:04.226Z"
       },
       {
         "storeName": "Trendyol",
@@ -88993,6 +89199,10 @@ export const mockHeadphones: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 4220
+      },
+      {
+        "date": "7 Eylül 2026",
+        "price": 4199
       }
     ]
   },
@@ -89149,11 +89359,12 @@ export const mockHeadphones: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 6499,
+        "price": 6498,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Samsung%20Galaxy%20Buds%203%20Pro",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/samsung-galaxy-buds3-fe-siyah-sm-r420nzkatur-samsung-turkiye-garantili-p-HBCV0000A0QEEJ",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T22:19:11.857Z"
       },
       {
         "storeName": "Trendyol",
@@ -89225,6 +89436,10 @@ export const mockHeadphones: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 6500
+      },
+      {
+        "date": "7 Eylül 2026",
+        "price": 6469
       }
     ]
   },

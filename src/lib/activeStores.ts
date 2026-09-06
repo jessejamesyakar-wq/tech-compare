@@ -138,6 +138,25 @@ export const ACTIVE_RETAILERS: StoreDefinition[] = ACTIVE_STORES.map(
 export const ACTIVE_STORE_COUNT = ACTIVE_STORES.length;
 
 /**
+ * Filter an array of store offers to include ONLY currently active stores
+ */
+export function filterActiveStoreOffers<T extends { storeName: string }>(offers: T[] = []): T[] {
+  if (!offers || offers.length === 0) return [];
+  return offers.filter((offer) => {
+    const sName = (offer.storeName || '').toLowerCase();
+    return ACTIVE_RETAILERS.some((retailer) => sName.includes(retailer.keyword.toLowerCase()));
+  });
+}
+
+/**
+ * Get effective active store count for a product
+ */
+export function getEffectiveStoreCount(offers: { storeName: string; price?: number }[] = []): number {
+  const activeOffers = filterActiveStoreOffers(offers).filter((o) => (o.price || 0) > 0);
+  return activeOffers.length > 0 ? activeOffers.length : ACTIVE_STORE_COUNT;
+}
+
+/**
  * Helper to generate dynamic title or description text
  * Example: getActiveStoreComparisonTitle() -> "{count} Mağaza Canlı Fiyat Karşılaştırması"
  */

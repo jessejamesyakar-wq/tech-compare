@@ -1480,7 +1480,7 @@ export const mockTablets: Product[] = [
     "name": "Apple iPad Pro 13 (M5) Wi-Fi + Cellular (Nano-texture Cam) 16 GB / 2048 GB / 5G",
     "brand": "Apple",
     "category": "tablets",
-    "basePrice": 154239,
+    "basePrice": 75499,
     "currency": "TL",
     "rating": 5,
     "reviewCount": 685,
@@ -1517,11 +1517,12 @@ export const mockTablets: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 155009,
+        "price": 75499,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Apple%20iPad%20Pro%2013%20(M5)%20Wi-Fi%20%2B%20Cellular%20(Nano-texture%20Cam)%2016%20GB%20%2F%202048%20GB%20%2F%205G",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/apple-ipad-pro-m5-wi-fi-256gb-13-standart-cam-gumus-mdyk4tu-a-p-HBCV0000AIH05S",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T20:44:08.084Z"
       },
       {
         "storeName": "Trendyol",
@@ -1593,6 +1594,10 @@ export const mockTablets: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 155010
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 75499
       }
     ]
   },
@@ -1602,7 +1607,7 @@ export const mockTablets: Product[] = [
     "name": "Apple iPad Pro 13 (M5) Wi-Fi + Cellular (Standart Cam) 16 GB / 2048 GB / 5G",
     "brand": "Apple",
     "category": "tablets",
-    "basePrice": 127069,
+    "basePrice": 75499,
     "currency": "TL",
     "rating": 5,
     "reviewCount": 565,
@@ -1639,11 +1644,12 @@ export const mockTablets: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 127709,
+        "price": 75499,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Apple%20iPad%20Pro%2013%20(M5)%20Wi-Fi%20%2B%20Cellular%20(Standart%20Cam)%2016%20GB%20%2F%202048%20GB%20%2F%205G",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/apple-ipad-pro-m5-wi-fi-256gb-13-standart-cam-gumus-mdyk4tu-a-p-HBCV0000AIH05S",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T20:44:11.654Z"
       },
       {
         "storeName": "Trendyol",
@@ -1715,6 +1721,10 @@ export const mockTablets: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 127710
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 75499
       }
     ]
   },
@@ -1724,7 +1734,7 @@ export const mockTablets: Product[] = [
     "name": "Apple iPad Pro 13 (M5) Wi-Fi + Cellular (Standart Cam) 16 GB / 1024 GB / 5G",
     "brand": "Apple",
     "category": "tablets",
-    "basePrice": 113279,
+    "basePrice": 75499,
     "currency": "TL",
     "rating": 5,
     "reviewCount": 754,
@@ -1761,11 +1771,12 @@ export const mockTablets: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 113849,
+        "price": 75499,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Apple%20iPad%20Pro%2013%20(M5)%20Wi-Fi%20%2B%20Cellular%20(Standart%20Cam)%2016%20GB%20%2F%201024%20GB%20%2F%205G",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/apple-ipad-pro-m5-wi-fi-256gb-13-standart-cam-gumus-mdyk4tu-a-p-HBCV0000AIH05S",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T20:44:14.991Z"
       },
       {
         "storeName": "Trendyol",
@@ -1837,6 +1848,10 @@ export const mockTablets: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 113850
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 75499
       }
     ]
   },
@@ -1846,7 +1861,7 @@ export const mockTablets: Product[] = [
     "name": "Apple iPad Pro 13 (M5) Wi-Fi + Cellular (Nano-texture Cam) 16 GB / 1024 GB / 5G",
     "brand": "Apple",
     "category": "tablets",
-    "basePrice": 113279,
+    "basePrice": 75499,
     "currency": "TL",
     "rating": 5,
     "reviewCount": 439,
@@ -1883,11 +1898,12 @@ export const mockTablets: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 113849,
+        "price": 75499,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Apple%20iPad%20Pro%2013%20(M5)%20Wi-Fi%20%2B%20Cellular%20(Nano-texture%20Cam)%2016%20GB%20%2F%201024%20GB%20%2F%205G",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/apple-ipad-pro-m5-wi-fi-256gb-13-standart-cam-gumus-mdyk4tu-a-p-HBCV0000AIH05S",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T20:44:18.274Z"
       },
       {
         "storeName": "Trendyol",
@@ -1959,6 +1975,10 @@ export const mockTablets: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 113850
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 75499
       }
     ]
   },
@@ -1968,7 +1988,7 @@ export const mockTablets: Product[] = [
     "name": "Apple iPad Pro 11 (M5)  Wi-Fi + Cellular 16 GB / 2048 GB / 5G",
     "brand": "Apple",
     "category": "tablets",
-    "basePrice": 131189,
+    "basePrice": 63649.05,
     "currency": "TL",
     "rating": 4.8,
     "reviewCount": 675,
@@ -2005,11 +2025,12 @@ export const mockTablets: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 131849,
+        "price": 63649.05,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Apple%20iPad%20Pro%2011%20(M5)%20%20Wi-Fi%20%2B%20Cellular%2016%20GB%20%2F%202048%20GB%20%2F%205G",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/apple-ipad-pro-m5-wi-fi-256gb-11-standart-cam-uzay-siyahi-mdwk4tu-a-p-HBCV0000AIHQ7E",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T20:44:23.760Z"
       },
       {
         "storeName": "Trendyol",
@@ -2081,6 +2102,10 @@ export const mockTablets: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 131850
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 63649.05
       }
     ]
   },
@@ -2090,7 +2115,7 @@ export const mockTablets: Product[] = [
     "name": "Apple iPad Pro 13 (M5) Wi-Fi (Standart Cam) 16 GB / 2048 GB",
     "brand": "Apple",
     "category": "tablets",
-    "basePrice": 121359,
+    "basePrice": 75499,
     "currency": "TL",
     "rating": 4.8,
     "reviewCount": 481,
@@ -2127,11 +2152,12 @@ export const mockTablets: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 121969,
+        "price": 75499,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Apple%20iPad%20Pro%2013%20(M5)%20Wi-Fi%20(Standart%20Cam)%2016%20GB%20%2F%202048%20GB",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/apple-ipad-pro-m5-wi-fi-256gb-13-standart-cam-gumus-mdyk4tu-a-p-HBCV0000AIH05S",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T20:44:27.920Z"
       },
       {
         "storeName": "Trendyol",
@@ -2203,6 +2229,10 @@ export const mockTablets: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 121970
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 75499
       }
     ]
   },
@@ -2212,7 +2242,7 @@ export const mockTablets: Product[] = [
     "name": "Apple iPad Pro 13 (M5) Wi-Fi (Nano-texture Cam) 16 GB / 2048 GB",
     "brand": "Apple",
     "category": "tablets",
-    "basePrice": 109349,
+    "basePrice": 75499,
     "currency": "TL",
     "rating": 4.8,
     "reviewCount": 588,
@@ -2249,11 +2279,12 @@ export const mockTablets: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 109899,
+        "price": 75499,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Apple%20iPad%20Pro%2013%20(M5)%20Wi-Fi%20(Nano-texture%20Cam)%2016%20GB%20%2F%202048%20GB",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/apple-ipad-pro-m5-wi-fi-256gb-13-standart-cam-gumus-mdyk4tu-a-p-HBCV0000AIH05S",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T20:44:32.302Z"
       },
       {
         "storeName": "Trendyol",
@@ -2325,6 +2356,10 @@ export const mockTablets: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 109900
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 75499
       }
     ]
   },
@@ -2456,7 +2491,7 @@ export const mockTablets: Product[] = [
     "name": "Apple iPad Pro 11 (M5)  Wi-Fi + Cellular 12 GB / 256 GB / 5G",
     "brand": "Apple",
     "category": "tablets",
-    "basePrice": 74999,
+    "basePrice": 63649.05,
     "currency": "TL",
     "rating": 4.5,
     "reviewCount": 551,
@@ -2493,11 +2528,12 @@ export const mockTablets: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 75379,
+        "price": 63649.05,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Apple%20iPad%20Pro%2011%20(M5)%20%20Wi-Fi%20%2B%20Cellular%2012%20GB%20%2F%20256%20GB%20%2F%205G",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/apple-ipad-pro-m5-wi-fi-256gb-11-standart-cam-uzay-siyahi-mdwk4tu-a-p-HBCV0000AIHQ7E",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T20:44:40.109Z"
       },
       {
         "storeName": "Trendyol",
@@ -2569,6 +2605,10 @@ export const mockTablets: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 75380
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 63649.05
       }
     ]
   },
@@ -2615,11 +2655,12 @@ export const mockTablets: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 71869,
+        "price": 75499,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Apple%20iPad%20Pro%2013%20(M5)%20Wi-Fi%2012%20GB%20%2F%20256%20GB",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/apple-ipad-pro-m5-wi-fi-256gb-13-standart-cam-gumus-mdyk4tu-a-p-HBCV0000AIH05S",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T20:44:43.666Z"
       },
       {
         "storeName": "Trendyol",
@@ -2691,6 +2732,10 @@ export const mockTablets: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 71870
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 71509
       }
     ]
   },
@@ -3066,7 +3111,7 @@ export const mockTablets: Product[] = [
     "name": "Apple iPad Pro 11 (M5) Wi-Fi 12 GB / 512 GB",
     "brand": "Apple",
     "category": "tablets",
-    "basePrice": 68949,
+    "basePrice": 63649.05,
     "currency": "TL",
     "rating": 4.4,
     "reviewCount": 690,
@@ -3103,11 +3148,12 @@ export const mockTablets: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 69299,
+        "price": 63649.05,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Apple%20iPad%20Pro%2011%20(M5)%20Wi-Fi%2012%20GB%20%2F%20512%20GB",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/apple-ipad-pro-m5-wi-fi-256gb-11-standart-cam-uzay-siyahi-mdwk4tu-a-p-HBCV0000AIHQ7E",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T20:44:58.740Z"
       },
       {
         "storeName": "Trendyol",
@@ -3179,6 +3225,10 @@ export const mockTablets: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 69300
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 63649.05
       }
     ]
   },
@@ -3676,7 +3726,7 @@ export const mockTablets: Product[] = [
     "name": "Samsung Galaxy Tab S11 Ultra Wi-Fi (SM-X930) 16 GB / 1024 GB",
     "brand": "Samsung",
     "category": "tablets",
-    "basePrice": 69549,
+    "basePrice": 36556,
     "currency": "TL",
     "rating": 4.2,
     "reviewCount": 95,
@@ -3713,11 +3763,12 @@ export const mockTablets: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 69899,
+        "price": 36556,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Samsung%20Galaxy%20Tab%20S11%20Ultra%20Wi-Fi%20(SM-X930)%2016%20GB%20%2F%201024%20GB",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/samsung-galaxy-tab-s11-11-12gb-128gb-sm-x730-p-HBCV00009UJ6LX",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T20:45:19.859Z"
       },
       {
         "storeName": "Trendyol",
@@ -3789,6 +3840,10 @@ export const mockTablets: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 69900
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 36556
       }
     ]
   },
@@ -3920,7 +3975,7 @@ export const mockTablets: Product[] = [
     "name": "Samsung Galaxy Tab S11 Ultra 5G 12 GB / 512 GB / 5G",
     "brand": "Samsung",
     "category": "tablets",
-    "basePrice": 67339,
+    "basePrice": 36556,
     "currency": "TL",
     "rating": 4.1,
     "reviewCount": 89,
@@ -3957,11 +4012,12 @@ export const mockTablets: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 67679,
+        "price": 36556,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Samsung%20Galaxy%20Tab%20S11%20Ultra%205G%2012%20GB%20%2F%20512%20GB%20%2F%205G",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/samsung-galaxy-tab-s11-11-12gb-128gb-sm-x730-p-HBCV00009UJ6LX",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T20:45:26.873Z"
       },
       {
         "storeName": "Trendyol",
@@ -4033,6 +4089,10 @@ export const mockTablets: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 67680
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 36556
       }
     ]
   },
@@ -4042,7 +4102,7 @@ export const mockTablets: Product[] = [
     "name": "Samsung Galaxy Tab S11 Ultra 5G 12 GB / 256 GB / 5G",
     "brand": "Samsung",
     "category": "tablets",
-    "basePrice": 59109,
+    "basePrice": 36556,
     "currency": "TL",
     "rating": 4,
     "reviewCount": 87,
@@ -4079,11 +4139,12 @@ export const mockTablets: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 59409,
+        "price": 36556,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Samsung%20Galaxy%20Tab%20S11%20Ultra%205G%2012%20GB%20%2F%20256%20GB%20%2F%205G",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/samsung-galaxy-tab-s11-11-12gb-128gb-sm-x730-p-HBCV00009UJ6LX",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T20:45:29.843Z"
       },
       {
         "storeName": "Trendyol",
@@ -4155,6 +4216,10 @@ export const mockTablets: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 59410
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 36556
       }
     ]
   },
@@ -4164,7 +4229,7 @@ export const mockTablets: Product[] = [
     "name": "Samsung Galaxy Tab S11 Ultra Wi-Fi 12 GB / 512 GB",
     "brand": "Samsung",
     "category": "tablets",
-    "basePrice": 57909,
+    "basePrice": 36556,
     "currency": "TL",
     "rating": 4,
     "reviewCount": 124,
@@ -4201,11 +4266,12 @@ export const mockTablets: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 58199,
+        "price": 36556,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Samsung%20Galaxy%20Tab%20S11%20Ultra%20Wi-Fi%2012%20GB%20%2F%20512%20GB",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/samsung-galaxy-tab-s11-11-12gb-128gb-sm-x730-p-HBCV00009UJ6LX",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T20:45:33.173Z"
       },
       {
         "storeName": "Trendyol",
@@ -4277,6 +4343,10 @@ export const mockTablets: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 58200
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 36556
       }
     ]
   },
@@ -4286,7 +4356,7 @@ export const mockTablets: Product[] = [
     "name": "Samsung Galaxy Tab S11 Ultra Wi-Fi 12 GB / 256 GB",
     "brand": "Samsung",
     "category": "tablets",
-    "basePrice": 51739,
+    "basePrice": 36556,
     "currency": "TL",
     "rating": 4,
     "reviewCount": 49,
@@ -4323,11 +4393,12 @@ export const mockTablets: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 51999,
+        "price": 36556,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Samsung%20Galaxy%20Tab%20S11%20Ultra%20Wi-Fi%2012%20GB%20%2F%20256%20GB",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/samsung-galaxy-tab-s11-11-12gb-128gb-sm-x730-p-HBCV00009UJ6LX",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T20:45:37.282Z"
       },
       {
         "storeName": "Trendyol",
@@ -4399,6 +4470,10 @@ export const mockTablets: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 52000
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 36556
       }
     ]
   },
@@ -4896,7 +4971,7 @@ export const mockTablets: Product[] = [
     "name": "Xiaomi Pad 8 Pro 16 GB / 512 GB",
     "brand": "Xiaomi",
     "category": "tablets",
-    "basePrice": 34819,
+    "basePrice": 31349.05,
     "currency": "TL",
     "rating": 3.9,
     "reviewCount": 25,
@@ -4933,11 +5008,12 @@ export const mockTablets: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 34999,
+        "price": 31349.05,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Xiaomi%20Pad%208%20Pro%2016%20GB%20%2F%20512%20GB",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/xiaomi-pad-8-pro-12gb-512gb-xiaomi-turkiye-garantili-gri-p-HBCV0000DFN37I",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T20:45:57.037Z"
       },
       {
         "storeName": "Trendyol",
@@ -5009,6 +5085,10 @@ export const mockTablets: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 35000
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 31349.05
       }
     ]
   },
@@ -5140,7 +5220,7 @@ export const mockTablets: Product[] = [
     "name": "Xiaomi Pad 8 Pro 12 GB / 512 GB",
     "brand": "Xiaomi",
     "category": "tablets",
-    "basePrice": 32469,
+    "basePrice": 31349.05,
     "currency": "TL",
     "rating": 3.9,
     "reviewCount": 38,
@@ -5177,11 +5257,12 @@ export const mockTablets: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 32629,
+        "price": 31349.05,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Xiaomi%20Pad%208%20Pro%2012%20GB%20%2F%20512%20GB",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/xiaomi-pad-8-pro-12gb-512gb-xiaomi-turkiye-garantili-gri-p-HBCV0000DFN37I",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T20:46:05.981Z"
       },
       {
         "storeName": "Trendyol",
@@ -5253,6 +5334,10 @@ export const mockTablets: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 32630
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 31349.05
       }
     ]
   },
@@ -5421,11 +5506,12 @@ export const mockTablets: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 29999,
+        "price": 31349.05,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Xiaomi%20Pad%208%20Pro%2012%20GB%20%2F%20256%20GB",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/xiaomi-pad-8-pro-12gb-512gb-xiaomi-turkiye-garantili-gri-p-HBCV0000DFN37I",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T20:46:13.525Z"
       },
       {
         "storeName": "Trendyol",
@@ -5497,6 +5583,10 @@ export const mockTablets: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 30000
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 29849
       }
     ]
   },
@@ -5665,11 +5755,12 @@ export const mockTablets: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 27999,
+        "price": 31349.05,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Xiaomi%20Pad%208%20Pro%208%20GB%20%2F%20256%20GB",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/xiaomi-pad-8-pro-12gb-512gb-xiaomi-turkiye-garantili-gri-p-HBCV0000DFN37I",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T20:46:20.969Z"
       },
       {
         "storeName": "Trendyol",
@@ -5741,6 +5832,10 @@ export const mockTablets: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 28000
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 27859
       }
     ]
   },
@@ -5787,11 +5882,12 @@ export const mockTablets: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 25999,
+        "price": 31349.05,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Xiaomi%20Pad%208%20Pro%208%20GB%20%2F%20128%20GB",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/xiaomi-pad-8-pro-12gb-512gb-xiaomi-turkiye-garantili-gri-p-HBCV0000DFN37I",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T20:46:24.321Z"
       },
       {
         "storeName": "Trendyol",
@@ -5863,6 +5959,10 @@ export const mockTablets: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 26000
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 25869
       }
     ]
   },
@@ -7824,7 +7924,7 @@ export const mockTablets: Product[] = [
     "name": "Huawei MatePad 12 X 2025 PaperMatte Edition (+Klavye) 12 GB / 256 GB",
     "brand": "Huawei",
     "category": "tablets",
-    "basePrice": 26489,
+    "basePrice": 25999,
     "currency": "TL",
     "rating": 3.4,
     "reviewCount": 78,
@@ -7861,11 +7961,12 @@ export const mockTablets: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 26629,
+        "price": 25999,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Huawei%20MatePad%2012%20X%202025%20PaperMatte%20Edition%20(%2BKlavye)%2012%20GB%20%2F%20256%20GB",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/huawei-yeni-2025-matepad-12x-12-0-papermatte-edition-12gb-256gb-yesil-klavye-p-HBCV0000A0MX2V",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T20:47:29.986Z"
       },
       {
         "storeName": "Trendyol",
@@ -7937,6 +8038,10 @@ export const mockTablets: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 26630
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 25999
       }
     ]
   },
@@ -8105,11 +8210,12 @@ export const mockTablets: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 19999,
+        "price": 25999,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Huawei%20MatePad%20Mini%208%20GB%20%2F%20256%20GB",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/huawei-yeni-2025-matepad-12x-12-0-papermatte-edition-12gb-256gb-yesil-klavye-p-HBCV0000A0MX2V",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T20:47:38.433Z"
       },
       {
         "storeName": "Trendyol",
@@ -8181,6 +8287,10 @@ export const mockTablets: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 20000
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 19899
       }
     ]
   },
@@ -8959,11 +9069,12 @@ export const mockTablets: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 14579,
+        "price": 16999,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Redmi%20Pad%202%20Pro%208%20GB%20%2F%20256%20GB",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/xiaomi-redmi-pad-2-pro-8gb-256gb-12-1-gri-klavye-p-HBCV0000A0OE1P",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T20:48:07.051Z"
       },
       {
         "storeName": "Trendyol",
@@ -9035,6 +9146,10 @@ export const mockTablets: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 14580
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 14509
       }
     ]
   },
@@ -9325,11 +9440,12 @@ export const mockTablets: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 12999,
+        "price": 16999,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Redmi%20Pad%202%20Pro%206%20GB%20%2F%20128%20GB",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/xiaomi-redmi-pad-2-pro-8gb-256gb-12-1-gri-klavye-p-HBCV0000A0OE1P",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T20:48:19.912Z"
       },
       {
         "storeName": "Trendyol",
@@ -9401,6 +9517,10 @@ export const mockTablets: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 13000
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 12929
       }
     ]
   },
@@ -9935,11 +10055,12 @@ export const mockTablets: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 75709,
+        "price": 75499,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Apple%20iPad%20Pro%2013%20(M4)%20Wi-Fi%20%2B%20Cellular%202048%20GB",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/apple-ipad-pro-m5-wi-fi-256gb-13-standart-cam-gumus-mdyk4tu-a-p-HBCV0000AIH05S",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T20:48:41.985Z"
       },
       {
         "storeName": "Trendyol",
@@ -10011,6 +10132,10 @@ export const mockTablets: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 75710
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 75329
       }
     ]
   },
@@ -10264,7 +10389,7 @@ export const mockTablets: Product[] = [
     "name": "Apple iPad Pro 13 (M4) Wi-Fi + Cellular 1024 GB",
     "brand": "Apple",
     "category": "tablets",
-    "basePrice": 84219,
+    "basePrice": 75499,
     "currency": "TL",
     "rating": 4.8,
     "reviewCount": 425,
@@ -10301,11 +10426,12 @@ export const mockTablets: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 84639,
+        "price": 75499,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Apple%20iPad%20Pro%2013%20(M4)%20Wi-Fi%20%2B%20Cellular%201024%20GB",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/apple-ipad-pro-m5-wi-fi-256gb-13-standart-cam-gumus-mdyk4tu-a-p-HBCV0000AIH05S",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T20:48:50.476Z"
       },
       {
         "storeName": "Trendyol",
@@ -10377,6 +10503,10 @@ export const mockTablets: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 84640
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 75499
       }
     ]
   },
@@ -11850,7 +11980,7 @@ export const mockTablets: Product[] = [
     "name": "Apple iPad Pro 13 (M4) Wi-Fi + Cellular 256 GB",
     "brand": "Apple",
     "category": "tablets",
-    "basePrice": 88649,
+    "basePrice": 75499,
     "currency": "TL",
     "rating": 4.5,
     "reviewCount": 692,
@@ -11887,11 +12017,12 @@ export const mockTablets: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 89099,
+        "price": 75499,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Apple%20iPad%20Pro%2013%20(M4)%20Wi-Fi%20%2B%20Cellular%20256%20GB",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/apple-ipad-pro-m5-wi-fi-256gb-13-standart-cam-gumus-mdyk4tu-a-p-HBCV0000AIH05S",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T20:49:32.882Z"
       },
       {
         "storeName": "Trendyol",
@@ -11963,6 +12094,10 @@ export const mockTablets: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 89100
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 75499
       }
     ]
   },
@@ -11972,7 +12107,7 @@ export const mockTablets: Product[] = [
     "name": "Apple iPad Air 13 (M4) Wi-Fi + Cellular 1024 GB / 5G (MH9V4TU/A)",
     "brand": "Apple",
     "category": "tablets",
-    "basePrice": 78799,
+    "basePrice": 51504.54,
     "currency": "TL",
     "rating": 4.5,
     "reviewCount": 500,
@@ -12009,11 +12144,12 @@ export const mockTablets: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 79199,
+        "price": 51504.54,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Apple%20iPad%20Air%2013%20(M4)%20Wi-Fi%20%2B%20Cellular%201024%20GB%20%2F%205G%20(MH9V4TU%2FA)",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/apple-ipad-air-m4-13-128gb-wi-fi-uzay-grisi-mh5n4tu-a-p-HBCV0000D5QK2C",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T20:49:39.603Z"
       },
       {
         "storeName": "Trendyol",
@@ -12085,6 +12221,10 @@ export const mockTablets: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 79200
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 51504.54
       }
     ]
   },
@@ -12338,7 +12478,7 @@ export const mockTablets: Product[] = [
     "name": "Apple iPad Pro 11 (M4) Wi-Fi 1024 GB / 16 GB",
     "brand": "Apple",
     "category": "tablets",
-    "basePrice": 67589,
+    "basePrice": 63649.05,
     "currency": "TL",
     "rating": 4.5,
     "reviewCount": 672,
@@ -12375,11 +12515,12 @@ export const mockTablets: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 67929,
+        "price": 63649.05,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Apple%20iPad%20Pro%2011%20(M4)%20Wi-Fi%201024%20GB%20%2F%2016%20GB",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/apple-ipad-pro-m5-wi-fi-256gb-11-standart-cam-uzay-siyahi-mdwk4tu-a-p-HBCV0000AIHQ7E",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T20:49:53.124Z"
       },
       {
         "storeName": "Trendyol",
@@ -12451,6 +12592,10 @@ export const mockTablets: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 67930
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 63649.05
       }
     ]
   },
@@ -12460,7 +12605,7 @@ export const mockTablets: Product[] = [
     "name": "Apple iPad Pro 11 (M4) Wi-Fi + Cellular 512 GB / 8 GB / 5G",
     "brand": "Apple",
     "category": "tablets",
-    "basePrice": 65589,
+    "basePrice": 63649.05,
     "currency": "TL",
     "rating": 4.5,
     "reviewCount": 536,
@@ -12497,11 +12642,12 @@ export const mockTablets: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 65919,
+        "price": 63649.05,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Apple%20iPad%20Pro%2011%20(M4)%20Wi-Fi%20%2B%20Cellular%20512%20GB%20%2F%208%20GB%20%2F%205G",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/apple-ipad-pro-m5-wi-fi-256gb-11-standart-cam-uzay-siyahi-mdwk4tu-a-p-HBCV0000AIHQ7E",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T20:49:56.209Z"
       },
       {
         "storeName": "Trendyol",
@@ -12573,6 +12719,10 @@ export const mockTablets: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 65920
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 63649.05
       }
     ]
   },
@@ -12582,7 +12732,7 @@ export const mockTablets: Product[] = [
     "name": "Apple iPad Pro 13 (M4) Wi-Fi 512 GB",
     "brand": "Apple",
     "category": "tablets",
-    "basePrice": 93109,
+    "basePrice": 75499,
     "currency": "TL",
     "rating": 4.4,
     "reviewCount": 496,
@@ -12619,11 +12769,12 @@ export const mockTablets: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 93579,
+        "price": 75499,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Apple%20iPad%20Pro%2013%20(M4)%20Wi-Fi%20512%20GB",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/apple-ipad-pro-m5-wi-fi-256gb-13-standart-cam-gumus-mdyk4tu-a-p-HBCV0000AIH05S",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T20:49:59.560Z"
       },
       {
         "storeName": "Trendyol",
@@ -12695,6 +12846,10 @@ export const mockTablets: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 93580
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 75499
       }
     ]
   },
@@ -12704,7 +12859,7 @@ export const mockTablets: Product[] = [
     "name": "Apple iPad Air 11 (M4) Wi-Fi + Cellular 1024 GB / 5G (MH7N4TU/A)",
     "brand": "Apple",
     "category": "tablets",
-    "basePrice": 68949,
+    "basePrice": 36669.04,
     "currency": "TL",
     "rating": 4.4,
     "reviewCount": 474,
@@ -12741,11 +12896,12 @@ export const mockTablets: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 69299,
+        "price": 36669.04,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Apple%20iPad%20Air%2011%20(M4)%20Wi-Fi%20%2B%20Cellular%201024%20GB%20%2F%205G%20(MH7N4TU%2FA)",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/apple-ipad-air-m3-11-128gb-wi-fi-mavi-mc9x4tu-a-p-HBCV0000870NM8",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T20:50:05.642Z"
       },
       {
         "storeName": "Trendyol",
@@ -12817,6 +12973,10 @@ export const mockTablets: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 69300
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 36669.04
       }
     ]
   },
@@ -12826,7 +12986,7 @@ export const mockTablets: Product[] = [
     "name": "Apple iPad Air 13 (M4) Wi-Fi + Cellular 512 GB / 5G (MH9N4TU/A)",
     "brand": "Apple",
     "category": "tablets",
-    "basePrice": 68559,
+    "basePrice": 51504.54,
     "currency": "TL",
     "rating": 4.4,
     "reviewCount": 461,
@@ -12863,11 +13023,12 @@ export const mockTablets: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 68899,
+        "price": 51504.54,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Apple%20iPad%20Air%2013%20(M4)%20Wi-Fi%20%2B%20Cellular%20512%20GB%20%2F%205G%20(MH9N4TU%2FA)",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/apple-ipad-air-m4-13-128gb-wi-fi-uzay-grisi-mh5n4tu-a-p-HBCV0000D5QK2C",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T20:50:11.803Z"
       },
       {
         "storeName": "Trendyol",
@@ -12939,6 +13100,10 @@ export const mockTablets: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 68900
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 51504.54
       }
     ]
   },
@@ -13962,11 +14127,12 @@ export const mockTablets: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 49599,
+        "price": 51504.54,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Apple%20iPad%20Air%2013%20(2024)%20Wi-Fi%20%2B%20Cellular%201024%20GB%20(MV743TU%2FA)",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/apple-ipad-air-m4-13-128gb-wi-fi-uzay-grisi-mh5n4tu-a-p-HBCV0000D5QK2C",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T20:50:47.890Z"
       },
       {
         "storeName": "Trendyol",
@@ -14038,6 +14204,10 @@ export const mockTablets: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 49600
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 49349
       }
     ]
   },
@@ -14047,7 +14217,7 @@ export const mockTablets: Product[] = [
     "name": "Apple iPad Air 11 (M4) Wi-Fi + Cellular 128 GB / 5G (MH794TU/A)",
     "brand": "Apple",
     "category": "tablets",
-    "basePrice": 39579,
+    "basePrice": 36669.04,
     "currency": "TL",
     "rating": 4.2,
     "reviewCount": 599,
@@ -14084,11 +14254,12 @@ export const mockTablets: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 39769,
+        "price": 36669.04,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Apple%20iPad%20Air%2011%20(M4)%20Wi-Fi%20%2B%20Cellular%20128%20GB%20%2F%205G%20(MH794TU%2FA)",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/apple-ipad-air-m3-11-128gb-wi-fi-mavi-mc9x4tu-a-p-HBCV0000870NM8",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T20:50:53.325Z"
       },
       {
         "storeName": "Trendyol",
@@ -14160,6 +14331,10 @@ export const mockTablets: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 39770
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 36669.04
       }
     ]
   },
@@ -14535,7 +14710,7 @@ export const mockTablets: Product[] = [
     "name": "Apple iPad Air 11 (M4) 512 GB (MH3C4TU/A)",
     "brand": "Apple",
     "category": "tablets",
-    "basePrice": 55159,
+    "basePrice": 36669.04,
     "currency": "TL",
     "rating": 4.1,
     "reviewCount": 326,
@@ -14572,11 +14747,12 @@ export const mockTablets: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 55439,
+        "price": 36669.04,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Apple%20iPad%20Air%2011%20(M4)%20512%20GB%20(MH3C4TU%2FA)",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/apple-ipad-air-m3-11-128gb-wi-fi-mavi-mc9x4tu-a-p-HBCV0000870NM8",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T20:51:12.838Z"
       },
       {
         "storeName": "Trendyol",
@@ -14648,6 +14824,10 @@ export const mockTablets: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 55440
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 36669.04
       }
     ]
   },
@@ -14657,7 +14837,7 @@ export const mockTablets: Product[] = [
     "name": "Apple iPad Air 13 (M3) 1024 GB",
     "brand": "Apple",
     "category": "tablets",
-    "basePrice": 52409,
+    "basePrice": 51504.54,
     "currency": "TL",
     "rating": 4.1,
     "reviewCount": 539,
@@ -14694,11 +14874,12 @@ export const mockTablets: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 52669,
+        "price": 51504.54,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Apple%20iPad%20Air%2013%20(M3)%201024%20GB",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/apple-ipad-air-m4-13-128gb-wi-fi-uzay-grisi-mh5n4tu-a-p-HBCV0000D5QK2C",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T20:51:17.717Z"
       },
       {
         "storeName": "Trendyol",
@@ -14770,6 +14951,10 @@ export const mockTablets: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 52670
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 51504.54
       }
     ]
   },
@@ -14816,11 +15001,12 @@ export const mockTablets: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 42409,
+        "price": 51504.54,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Apple%20iPad%20Air%2013%20(M4)%20128%20GB%20(MH5Q4TU%2FA)",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/apple-ipad-air-m4-13-128gb-wi-fi-uzay-grisi-mh5n4tu-a-p-HBCV0000D5QK2C",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T20:51:22.783Z"
       },
       {
         "storeName": "Trendyol",
@@ -14892,6 +15078,10 @@ export const mockTablets: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 42410
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 42199
       }
     ]
   },
@@ -15060,11 +15250,12 @@ export const mockTablets: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 49499,
+        "price": 51504.54,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Apple%20iPad%20Air%2013%20(2024)%201024%20GB%20(MV2P3TU%2FA)",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/apple-ipad-air-m4-13-128gb-wi-fi-uzay-grisi-mh5n4tu-a-p-HBCV0000D5QK2C",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T20:51:31.459Z"
       },
       {
         "storeName": "Trendyol",
@@ -15136,6 +15327,10 @@ export const mockTablets: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 49500
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 49249
       }
     ]
   },
@@ -15145,7 +15340,7 @@ export const mockTablets: Product[] = [
     "name": "Apple iPad Air 11 (M3) Wi-Fi + Cellular 512 GB",
     "brand": "Apple",
     "category": "tablets",
-    "basePrice": 44329,
+    "basePrice": 36669.04,
     "currency": "TL",
     "rating": 4,
     "reviewCount": 560,
@@ -15182,11 +15377,12 @@ export const mockTablets: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 44549,
+        "price": 36669.04,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Apple%20iPad%20Air%2011%20(M3)%20Wi-Fi%20%2B%20Cellular%20512%20GB",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/apple-ipad-air-m3-11-128gb-wi-fi-mavi-mc9x4tu-a-p-HBCV0000870NM8",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T20:51:35.716Z"
       },
       {
         "storeName": "Trendyol",
@@ -15258,6 +15454,10 @@ export const mockTablets: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 44550
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 36669.04
       }
     ]
   },
@@ -15267,7 +15467,7 @@ export const mockTablets: Product[] = [
     "name": "Apple iPad Air 11 (2024) 1024 GB",
     "brand": "Apple",
     "category": "tablets",
-    "basePrice": 41179,
+    "basePrice": 36669.04,
     "currency": "TL",
     "rating": 3.9,
     "reviewCount": 312,
@@ -15304,11 +15504,12 @@ export const mockTablets: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 41379,
+        "price": 36669.04,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Apple%20iPad%20Air%2011%20(2024)%201024%20GB",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/apple-ipad-air-m3-11-128gb-wi-fi-mavi-mc9x4tu-a-p-HBCV0000870NM8",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T20:51:39.916Z"
       },
       {
         "storeName": "Trendyol",
@@ -15380,6 +15581,10 @@ export const mockTablets: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 41380
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 36669.04
       }
     ]
   },
@@ -15426,11 +15631,12 @@ export const mockTablets: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 33659,
+        "price": 36669.04,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Apple%20iPad%20Air%2011%20(M3)%20128%20GB",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/apple-ipad-air-m3-11-128gb-wi-fi-mavi-mc9x4tu-a-p-HBCV0000870NM8",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T20:51:43.703Z"
       },
       {
         "storeName": "Trendyol",
@@ -15502,6 +15708,10 @@ export const mockTablets: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 33660
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 33489
       }
     ]
   },
@@ -15548,11 +15758,12 @@ export const mockTablets: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 31519,
+        "price": 36669.04,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Apple%20iPad%20Air%2011%20(2024)%20Wi-Fi%20%2B%20Cellular%20128%20GB",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/apple-ipad-air-m3-11-128gb-wi-fi-mavi-mc9x4tu-a-p-HBCV0000870NM8",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T20:51:47.591Z"
       },
       {
         "storeName": "Trendyol",
@@ -15624,6 +15835,10 @@ export const mockTablets: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 31520
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 31359
       }
     ]
   },
@@ -15670,11 +15885,12 @@ export const mockTablets: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 28709,
+        "price": 36669.04,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Apple%20iPad%20Air%2011%20(2024)%20128%20GB",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/apple-ipad-air-m3-11-128gb-wi-fi-mavi-mc9x4tu-a-p-HBCV0000870NM8",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T20:51:52.011Z"
       },
       {
         "storeName": "Trendyol",
@@ -15746,6 +15962,10 @@ export const mockTablets: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 28710
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 28569
       }
     ]
   },
@@ -16121,7 +16341,7 @@ export const mockTablets: Product[] = [
     "name": "Apple iPad Air 11 (2024) 256 GB",
     "brand": "Apple",
     "category": "tablets",
-    "basePrice": 39349,
+    "basePrice": 36669.04,
     "currency": "TL",
     "rating": 3.6,
     "reviewCount": 424,
@@ -16158,11 +16378,12 @@ export const mockTablets: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 39549,
+        "price": 36669.04,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Apple%20iPad%20Air%2011%20(2024)%20256%20GB",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/apple-ipad-air-m3-11-128gb-wi-fi-mavi-mc9x4tu-a-p-HBCV0000870NM8",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T20:52:04.852Z"
       },
       {
         "storeName": "Trendyol",
@@ -16234,6 +16455,10 @@ export const mockTablets: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 39550
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 36669.04
       }
     ]
   },
@@ -16243,7 +16468,7 @@ export const mockTablets: Product[] = [
     "name": "Apple iPad 11 (A16) Wi-Fi + Cellular 512",
     "brand": "Apple",
     "category": "tablets",
-    "basePrice": 38419,
+    "basePrice": 24134.75,
     "currency": "TL",
     "rating": 3.6,
     "reviewCount": 589,
@@ -16280,11 +16505,12 @@ export const mockTablets: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 38609,
+        "price": 24134.75,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Apple%20iPad%2011%20(A16)%20Wi-Fi%20%2B%20Cellular%20512",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/apple-ipad-a16-11-128gb-wi-fi-tablet-gumus-md3y4tu-a-p-HBCV0000870EE8",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T20:52:09.436Z"
       },
       {
         "storeName": "Trendyol",
@@ -16356,6 +16582,10 @@ export const mockTablets: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 38610
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 24134.75
       }
     ]
   },
@@ -17219,7 +17449,7 @@ export const mockTablets: Product[] = [
     "name": "Samsung Galaxy Tab Active5 Pro 5G (SM-X356BZGATUR) 6 GB / 128 GB",
     "brand": "Samsung",
     "category": "tablets",
-    "basePrice": 45839,
+    "basePrice": 38999,
     "currency": "TL",
     "rating": 3.3,
     "reviewCount": 62,
@@ -17256,11 +17486,12 @@ export const mockTablets: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 46069,
+        "price": 38999,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Samsung%20Galaxy%20Tab%20Active5%20Pro%205G%20(SM-X356BZGATUR)%206%20GB%20%2F%20128%20GB",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/samsung-galaxy-tab-active-5-tablet-sm-x306b-8-inc-ekran-128-gb-depolama-android-14-isletim-sistemi-p-HBCV0000DI580F",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T20:52:43.121Z"
       },
       {
         "storeName": "Trendyol",
@@ -17332,6 +17563,10 @@ export const mockTablets: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 46070
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 38999
       }
     ]
   },
@@ -17378,11 +17613,12 @@ export const mockTablets: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 36809,
+        "price": 38999,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Samsung%20Galaxy%20Tab%20Active5%205G%20(SM-X308BZGATUR)%206%20GB%20%2F%20128%20GB",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/samsung-galaxy-tab-active-5-tablet-sm-x306b-8-inc-ekran-128-gb-depolama-android-14-isletim-sistemi-p-HBCV0000DI580F",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T20:52:46.700Z"
       },
       {
         "storeName": "Trendyol",
@@ -17454,6 +17690,10 @@ export const mockTablets: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 36810
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 36629
       }
     ]
   },
@@ -17463,7 +17703,7 @@ export const mockTablets: Product[] = [
     "name": "Huawei MatePad 12 X PaperMatte Edition 12 GB / 256 GB",
     "brand": "Huawei",
     "category": "tablets",
-    "basePrice": 33329,
+    "basePrice": 25999,
     "currency": "TL",
     "rating": 3.2,
     "reviewCount": 68,
@@ -17500,11 +17740,12 @@ export const mockTablets: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 33499,
+        "price": 25999,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Huawei%20MatePad%2012%20X%20PaperMatte%20Edition%2012%20GB%20%2F%20256%20GB",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/huawei-yeni-2025-matepad-12x-12-0-papermatte-edition-12gb-256gb-yesil-klavye-p-HBCV0000A0MX2V",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T20:52:51.948Z"
       },
       {
         "storeName": "Trendyol",
@@ -17576,6 +17817,10 @@ export const mockTablets: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 33500
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 25999
       }
     ]
   },
@@ -17829,7 +18074,7 @@ export const mockTablets: Product[] = [
     "name": "Samsung Galaxy Tab S10 FE 5G 8 GB / 128 GB / 5G",
     "brand": "Samsung",
     "category": "tablets",
-    "basePrice": 43479,
+    "basePrice": 19959,
     "currency": "TL",
     "rating": 3.1,
     "reviewCount": 138,
@@ -17866,11 +18111,12 @@ export const mockTablets: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 43699,
+        "price": 19959,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Samsung%20Galaxy%20Tab%20S10%20FE%205G%208%20GB%20%2F%20128%20GB%20%2F%205G",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/samsung-galaxy-tab-s10-fe-8gb-128gb-sm-x520-samsung-turkiye-garantili-p-HBCV00008E1T2M",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T20:53:05.461Z"
       },
       {
         "storeName": "Trendyol",
@@ -17942,6 +18188,10 @@ export const mockTablets: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 43700
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 19959
       }
     ]
   },
@@ -18073,7 +18323,7 @@ export const mockTablets: Product[] = [
     "name": "Huawei MatePad 12 X 8 GB / 256 GB",
     "brand": "Huawei",
     "category": "tablets",
-    "basePrice": 28849,
+    "basePrice": 25999,
     "currency": "TL",
     "rating": 3.1,
     "reviewCount": 54,
@@ -18110,11 +18360,12 @@ export const mockTablets: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 28999,
+        "price": 25999,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Huawei%20MatePad%2012%20X%208%20GB%20%2F%20256%20GB",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/huawei-yeni-2025-matepad-12x-12-0-papermatte-edition-12gb-256gb-yesil-klavye-p-HBCV0000A0MX2V",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T20:53:12.860Z"
       },
       {
         "storeName": "Trendyol",
@@ -18186,6 +18437,10 @@ export const mockTablets: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 29000
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 25999
       }
     ]
   },
@@ -18317,7 +18572,7 @@ export const mockTablets: Product[] = [
     "name": "Samsung Galaxy Tab S10 FE Wi-Fi (SM-X520NZAPTUR) 12 GB / 256 GB",
     "brand": "Samsung",
     "category": "tablets",
-    "basePrice": 21889,
+    "basePrice": 19959,
     "currency": "TL",
     "rating": 3.1,
     "reviewCount": 110,
@@ -18357,11 +18612,12 @@ export const mockTablets: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 21999,
+        "price": 19959,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Samsung%20Galaxy%20Tab%20S10%20FE%20Wi-Fi%20(SM-X520NZAPTUR)%2012%20GB%20%2F%20256%20GB",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/samsung-galaxy-tab-s10-fe-8gb-128gb-sm-x520-samsung-turkiye-garantili-p-HBCV00008E1T2M",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T20:53:19.298Z"
       },
       {
         "storeName": "Trendyol",
@@ -18433,6 +18689,10 @@ export const mockTablets: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 22000
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 19959
       }
     ]
   },
@@ -18601,11 +18861,12 @@ export const mockTablets: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 31989,
+        "price": 32999,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Samsung%20Galaxy%20Tab%20S9%20FE%2B%20Wi-Fi%20(SM-X610NZAETUR)%2012%20GB%20%2F%20256%20GB",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/samsung-galaxy-tab-s9-fe-wifi-8-gb-ram-256-gb-gri-p-HBCV00005XCU0X",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T20:53:28.658Z"
       },
       {
         "storeName": "Trendyol",
@@ -18677,6 +18938,10 @@ export const mockTablets: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 31990
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 31829
       }
     ]
   },
@@ -19089,11 +19354,12 @@ export const mockTablets: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 17999,
+        "price": 19959,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Samsung%20Galaxy%20Tab%20S10%20FE%20Wi-Fi%20(SM-X520)%208%20GB%20%2F%20128%20GB",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/samsung-galaxy-tab-s10-fe-8gb-128gb-sm-x520-samsung-turkiye-garantili-p-HBCV00008E1T2M",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T20:53:44.262Z"
       },
       {
         "storeName": "Trendyol",
@@ -19165,6 +19431,10 @@ export const mockTablets: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 18000
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 17909
       }
     ]
   },
@@ -19174,7 +19444,7 @@ export const mockTablets: Product[] = [
     "name": "Redmi Pad Pro 8 GB / 256 GB",
     "brand": "Xiaomi",
     "category": "tablets",
-    "basePrice": 17719,
+    "basePrice": 16999,
     "currency": "TL",
     "rating": 3,
     "reviewCount": 65,
@@ -19211,11 +19481,12 @@ export const mockTablets: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 17809,
+        "price": 16999,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Redmi%20Pad%20Pro%208%20GB%20%2F%20256%20GB",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/xiaomi-redmi-pad-2-pro-8gb-256gb-12-1-gri-klavye-p-HBCV0000A0OE1P",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T20:53:48.872Z"
       },
       {
         "storeName": "Trendyol",
@@ -19287,6 +19558,10 @@ export const mockTablets: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 17810
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 16999
       }
     ]
   },
@@ -19699,11 +19974,12 @@ export const mockTablets: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 14999,
+        "price": 16999,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Redmi%20Pad%20Pro%208%20GB%20%2F%20128%20GB",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/xiaomi-redmi-pad-2-pro-8gb-256gb-12-1-gri-klavye-p-HBCV0000A0OE1P",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T20:54:03.717Z"
       },
       {
         "storeName": "Trendyol",
@@ -19775,6 +20051,10 @@ export const mockTablets: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 15000
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 14919
       }
     ]
   },
@@ -20919,11 +21199,12 @@ export const mockTablets: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 9999,
+        "price": 11999,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Huawei%20MatePad%20SE%2011%22%20LTE%204%20GB%20%2F%20128%20GB",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/huawei-matepad-se-11-4gb-ram-128gb-tablet-harmonyos-ips-ekran-ozellikleri-ile-p-HBCV0000DLHJ3C",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T20:54:49.611Z"
       },
       {
         "storeName": "Trendyol",
@@ -20995,6 +21276,10 @@ export const mockTablets: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 10000
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 9949
       }
     ]
   },
@@ -21532,11 +21817,12 @@ export const mockTablets: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 10669,
+        "price": 11999,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Huawei%20MatePad%20SE%2011%22%208%20GB%20%2F%20128%20GB",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/huawei-matepad-se-11-4gb-ram-128gb-tablet-harmonyos-ips-ekran-ozellikleri-ile-p-HBCV0000DLHJ3C",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T20:55:08.363Z"
       },
       {
         "storeName": "Trendyol",
@@ -21608,6 +21894,10 @@ export const mockTablets: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 10670
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 10619
       }
     ]
   },
@@ -21776,11 +22066,12 @@ export const mockTablets: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 8879,
+        "price": 11999,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Huawei%20MatePad%20SE%2011%22%206%20GB%20%2F%20128%20GB",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/huawei-matepad-se-11-4gb-ram-128gb-tablet-harmonyos-ips-ekran-ozellikleri-ile-p-HBCV0000DLHJ3C",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T20:55:15.662Z"
       },
       {
         "storeName": "Trendyol",
@@ -21852,6 +22143,10 @@ export const mockTablets: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 8880
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 8839
       }
     ]
   },
@@ -21898,11 +22193,12 @@ export const mockTablets: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 8199,
+        "price": 11999,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Huawei%20MatePad%20SE%2011%22%204%20GB%20%2F%20128%20GB",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/huawei-matepad-se-11-4gb-ram-128gb-tablet-harmonyos-ips-ekran-ozellikleri-ile-p-HBCV0000DLHJ3C",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T20:55:18.597Z"
       },
       {
         "storeName": "Trendyol",
@@ -21974,6 +22270,10 @@ export const mockTablets: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 8200
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 8159
       }
     ]
   },
@@ -24216,11 +24516,12 @@ export const mockTablets: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 10499,
+        "price": 16000,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Samsung%20Galaxy%20Tab%20A9%2B%205G%20(SM-X216)%204%20GB%20%2F%2064%20GB",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/samsung-galaxy-tab-a9-plus-128-gb-11-inc-1920-x-1200-tablet-navy-p-HBCV00005EVZJG",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T20:56:24.585Z"
       },
       {
         "storeName": "Trendyol",
@@ -24292,6 +24593,10 @@ export const mockTablets: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 10500
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 10449
       }
     ]
   },
@@ -24460,11 +24765,12 @@ export const mockTablets: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 9299,
+        "price": 16000,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Samsung%20Galaxy%20Tab%20A9%2B%20LTE%20(SM-X215)%204%20GB%20%2F%2064%20GB",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/samsung-galaxy-tab-a9-plus-128-gb-11-inc-1920-x-1200-tablet-navy-p-HBCV00005EVZJG",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T20:56:31.908Z"
       },
       {
         "storeName": "Trendyol",
@@ -24536,6 +24842,10 @@ export const mockTablets: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 9300
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 9249
       }
     ]
   },
@@ -24582,11 +24892,12 @@ export const mockTablets: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 8169,
+        "price": 16000,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Samsung%20Galaxy%20Tab%20A9%2B%20(SM-X210)%204%20GB%20%2F%2064%20GB",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/samsung-galaxy-tab-a9-plus-128-gb-11-inc-1920-x-1200-tablet-navy-p-HBCV00005EVZJG",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T20:56:35.491Z"
       },
       {
         "storeName": "Trendyol",
@@ -24658,6 +24969,10 @@ export const mockTablets: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 8170
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 8129
       }
     ]
   },
@@ -25680,11 +25995,12 @@ export const mockTablets: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 62369,
+        "price": 63649.05,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Apple%20iPad%20Pro%2011%20(MNXK3TU%2FA)%2016%20GB%20%2F%201024%20GB",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/apple-ipad-pro-m5-wi-fi-256gb-11-standart-cam-uzay-siyahi-mdwk4tu-a-p-HBCV0000AIHQ7E",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T20:57:02.417Z"
       },
       {
         "storeName": "Trendyol",
@@ -25756,6 +26072,10 @@ export const mockTablets: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 62370
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 62059
       }
     ]
   },
@@ -26046,11 +26366,12 @@ export const mockTablets: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 58409,
+        "price": 63649.05,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Apple%20iPad%20Pro%2011%20Wi-Fi%20%2B%20Cellular%20(MNYG3TU%2FA)%208%20GB%20%2F%20512%20GB",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/apple-ipad-pro-m5-wi-fi-256gb-11-standart-cam-uzay-siyahi-mdwk4tu-a-p-HBCV0000AIHQ7E",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T20:57:11.394Z"
       },
       {
         "storeName": "Trendyol",
@@ -26122,6 +26443,10 @@ export const mockTablets: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 58410
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 58119
       }
     ]
   },
@@ -26412,11 +26737,12 @@ export const mockTablets: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 44549,
+        "price": 63649.05,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Apple%20iPad%20Pro%2011%20(MNXG3TU%2FA)%208%20GB%20%2F%20256%20GB",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/apple-ipad-pro-m5-wi-fi-256gb-11-standart-cam-uzay-siyahi-mdwk4tu-a-p-HBCV0000AIHQ7E",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T20:57:21.653Z"
       },
       {
         "storeName": "Trendyol",
@@ -26488,6 +26814,10 @@ export const mockTablets: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 44550
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 44329
       }
     ]
   },
@@ -26534,11 +26864,12 @@ export const mockTablets: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 38609,
+        "price": 63649.05,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Apple%20iPad%20Pro%2011%20(MNXD3TU%2FA)%208%20GB%20%2F%20128%20GB",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/apple-ipad-pro-m5-wi-fi-256gb-11-standart-cam-uzay-siyahi-mdwk4tu-a-p-HBCV0000AIHQ7E",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T20:57:25.178Z"
       },
       {
         "storeName": "Trendyol",
@@ -26610,6 +26941,10 @@ export const mockTablets: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 38610
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 38419
       }
     ]
   },
@@ -29953,11 +30288,12 @@ export const mockTablets: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 54449,
+        "price": 63649.05,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Apple%20iPad%20Pro%2011%2016%20GB%20%2F%201024%20GB%20%2F%205G%20(MHWD3TU%2FA)",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/apple-ipad-pro-m5-wi-fi-256gb-11-standart-cam-uzay-siyahi-mdwk4tu-a-p-HBCV0000AIHQ7E",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T20:59:06.825Z"
       },
       {
         "storeName": "Trendyol",
@@ -30029,6 +30365,10 @@ export const mockTablets: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 54450
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 54179
       }
     ]
   },
@@ -31295,11 +31635,12 @@ export const mockTablets: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 39599,
+        "price": 63649.05,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Apple%20iPad%20Pro%2011%208%20GB%20%2F%20128%20GB%20%2F%205G%20(MHW63TU%2FA)",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/apple-ipad-pro-m5-wi-fi-256gb-11-standart-cam-uzay-siyahi-mdwk4tu-a-p-HBCV0000AIHQ7E",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T20:59:44.026Z"
       },
       {
         "storeName": "Trendyol",
@@ -31371,6 +31712,10 @@ export const mockTablets: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 39600
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 39399
       }
     ]
   },
@@ -31661,11 +32006,12 @@ export const mockTablets: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 46529,
+        "price": 63649.05,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Apple%20iPad%20Pro%2011%208%20GB%20%2F%20512%20GB%20(MHQW3TU%2FA)",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/apple-ipad-pro-m5-wi-fi-256gb-11-standart-cam-uzay-siyahi-mdwk4tu-a-p-HBCV0000AIHQ7E",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T20:59:53.066Z"
       },
       {
         "storeName": "Trendyol",
@@ -31737,6 +32083,10 @@ export const mockTablets: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 46530
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 46299
       }
     ]
   },
@@ -31905,11 +32255,12 @@ export const mockTablets: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 28709,
+        "price": 30388.31,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Apple%20iPad%20Mini%206%204%20GB%20%2F%20256%20GB%20%2F%205G%20(MK8H3TU%2FA)",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/apple-ipad-mini-128gb-8-3-wi-fi-tablet-mor-mxn93tu-a-p-HBCV000075T4AI",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T21:00:00.676Z"
       },
       {
         "storeName": "Trendyol",
@@ -31981,6 +32332,10 @@ export const mockTablets: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 28710
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 28569
       }
     ]
   },
@@ -32027,11 +32382,12 @@ export const mockTablets: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 21619,
+        "price": 36669.04,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Apple%20iPad%209%203%20GB%20%2F%20256%20GB%20(MK2P3TU%2FA)",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/apple-ipad-air-m3-11-128gb-wi-fi-mavi-mc9x4tu-a-p-HBCV0000870NM8",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T21:00:07.656Z"
       },
       {
         "storeName": "Trendyol",
@@ -32103,6 +32459,10 @@ export const mockTablets: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 21620
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 21509
       }
     ]
   },
@@ -32149,11 +32509,12 @@ export const mockTablets: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 28209,
+        "price": 36669.04,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Apple%20iPad%209%203%20GB%20%2F%2064%20GB%20%2F%204G%20(MK493TU%2FA)",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/apple-ipad-air-m3-11-128gb-wi-fi-mavi-mc9x4tu-a-p-HBCV0000870NM8",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T21:00:12.408Z"
       },
       {
         "storeName": "Trendyol",
@@ -32225,6 +32586,10 @@ export const mockTablets: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 28210
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 28069
       }
     ]
   },
@@ -32356,7 +32721,7 @@ export const mockTablets: Product[] = [
     "name": "Apple iPad Mini 6 4 GB / 64 GB / 5G (MK8E3TU/A)",
     "brand": "Apple",
     "category": "tablets",
-    "basePrice": 31899,
+    "basePrice": 30388.31,
     "currency": "TL",
     "rating": 2.8,
     "reviewCount": 545,
@@ -32393,11 +32758,12 @@ export const mockTablets: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 32059,
+        "price": 30388.31,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Apple%20iPad%20Mini%206%204%20GB%20%2F%2064%20GB%20%2F%205G%20(MK8E3TU%2FA)",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/apple-ipad-mini-128gb-8-3-wi-fi-tablet-mor-mxn93tu-a-p-HBCV000075T4AI",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T21:00:19.692Z"
       },
       {
         "storeName": "Trendyol",
@@ -32469,6 +32835,10 @@ export const mockTablets: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 32060
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 30388.31
       }
     ]
   },
@@ -32637,11 +33007,12 @@ export const mockTablets: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 19509,
+        "price": 36669.04,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Apple%20iPad%209%203%20GB%20%2F%2064%20GB%20(MK2L3TU%2FA)",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/apple-ipad-air-m3-11-128gb-wi-fi-mavi-mc9x4tu-a-p-HBCV0000870NM8",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T21:00:25.368Z"
       },
       {
         "storeName": "Trendyol",
@@ -32713,6 +33084,10 @@ export const mockTablets: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 19510
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 19409
       }
     ]
   },
@@ -33128,11 +33503,12 @@ export const mockTablets: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 23229,
+        "price": 30388.31,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Apple%20iPad%20Mini%206%204%20GB%20%2F%2064%20GB%20(MLWL3TU%2FA)",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/apple-ipad-mini-128gb-8-3-wi-fi-tablet-mor-mxn93tu-a-p-HBCV000075T4AI",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T21:00:49.158Z"
       },
       {
         "storeName": "Trendyol",
@@ -33204,6 +33580,10 @@ export const mockTablets: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 23230
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 23109
       }
     ]
   },
@@ -34592,11 +34972,12 @@ export const mockTablets: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 37619,
+        "price": 63649.05,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Apple%20iPad%20Pro%2011%20256%20GB%20%2F%204G%20(MXE52TU%2FA)",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/apple-ipad-pro-m5-wi-fi-256gb-11-standart-cam-uzay-siyahi-mdwk4tu-a-p-HBCV0000AIHQ7E",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T21:01:41.526Z"
       },
       {
         "storeName": "Trendyol",
@@ -34668,6 +35049,10 @@ export const mockTablets: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 37620
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 37429
       }
     ]
   },
@@ -34836,11 +35221,12 @@ export const mockTablets: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 21779,
+        "price": 36669.04,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Apple%20iPad%20Air%204%2064GB%20Wi-Fi%2064%20GB%20(MYFQ2TU%2FA)",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/apple-ipad-air-m3-11-128gb-wi-fi-mavi-mc9x4tu-a-p-HBCV0000870NM8",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T21:01:55.373Z"
       },
       {
         "storeName": "Trendyol",
@@ -34912,6 +35298,10 @@ export const mockTablets: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 21780
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 21669
       }
     ]
   },
@@ -35046,7 +35436,7 @@ export const mockTablets: Product[] = [
     "name": "Samsung Galaxy Tab Active Pro (SM-T547NZKATUR) 64 GB / 4G",
     "brand": "Samsung",
     "category": "tablets",
-    "basePrice": 48259,
+    "basePrice": 38999,
     "currency": "TL",
     "rating": 2.5,
     "reviewCount": 45,
@@ -35083,11 +35473,12 @@ export const mockTablets: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 48499,
+        "price": 38999,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Samsung%20Galaxy%20Tab%20Active%20Pro%20(SM-T547NZKATUR)%2064%20GB%20%2F%204G",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/samsung-galaxy-tab-active-5-tablet-sm-x306b-8-inc-ekran-128-gb-depolama-android-14-isletim-sistemi-p-HBCV0000DI580F",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T21:02:05.340Z"
       },
       {
         "storeName": "Trendyol",
@@ -35159,6 +35550,10 @@ export const mockTablets: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 48500
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 38999
       }
     ]
   },
@@ -37404,11 +37799,12 @@ export const mockTablets: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 18809,
+        "price": 36669.04,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Apple%20iPad%20Air%203%20256%20GB%20%2F%204G%20(MV0P2TU%2FA)",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/apple-ipad-air-m3-11-128gb-wi-fi-mavi-mc9x4tu-a-p-HBCV0000870NM8",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T21:03:24.547Z"
       },
       {
         "storeName": "Trendyol",
@@ -37480,6 +37876,10 @@ export const mockTablets: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 18810
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 18719
       }
     ]
   },
@@ -37526,11 +37926,12 @@ export const mockTablets: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 16829,
+        "price": 30388.31,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Apple%20iPad%20Mini%205%20%20256%20GB%20%2F%204G",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/apple-ipad-mini-128gb-8-3-wi-fi-tablet-mor-mxn93tu-a-p-HBCV000075T4AI",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T21:03:29.395Z"
       },
       {
         "storeName": "Trendyol",
@@ -37602,6 +38003,10 @@ export const mockTablets: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 16830
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 16749
       }
     ]
   },
@@ -37733,7 +38138,7 @@ export const mockTablets: Product[] = [
     "name": "Samsung Galaxy Tab A 10.1 (2019) LTE (SM-T517) 32 GB / 4G",
     "brand": "Samsung",
     "category": "tablets",
-    "basePrice": 6959,
+    "basePrice": 5296.06,
     "currency": "TL",
     "rating": 2.1,
     "reviewCount": 75,
@@ -37770,11 +38175,12 @@ export const mockTablets: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 6999,
+        "price": 5296.06,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Samsung%20Galaxy%20Tab%20A%2010.1%20(2019)%20LTE%20(SM-T517)%2032%20GB%20%2F%204G",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/samsung-galaxy-tab-a11-4gb-64gb-sm-x130-gri-p-HBCV0000AKZWC4",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T21:03:45.287Z"
       },
       {
         "storeName": "Trendyol",
@@ -37846,6 +38252,10 @@ export const mockTablets: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 7000
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 5296.06
       }
     ]
   },
@@ -40579,11 +40989,12 @@ export const mockTablets: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 11879,
+        "price": 24134.75,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Apple%20iPad%206%20128%20GB%20%2F%204G",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/apple-ipad-a16-11-128gb-wi-fi-tablet-gumus-md3y4tu-a-p-HBCV0000870EE8",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T21:05:32.847Z"
       },
       {
         "storeName": "Trendyol",
@@ -40655,6 +41066,10 @@ export const mockTablets: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 11880
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 11819
       }
     ]
   },
@@ -40945,11 +41360,12 @@ export const mockTablets: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 9899,
+        "price": 24134.75,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Apple%20iPad%206%20128%20GB",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/apple-ipad-a16-11-128gb-wi-fi-tablet-gumus-md3y4tu-a-p-HBCV0000870EE8",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T21:05:44.777Z"
       },
       {
         "storeName": "Trendyol",
@@ -41021,6 +41437,10 @@ export const mockTablets: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 9900
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 9849
       }
     ]
   },
@@ -47509,7 +47929,7 @@ export const mockTablets: Product[] = [
     "name": "Samsung Galaxy Tab A 7.0 (2016) (SM-T287) 8 GB / 4G",
     "brand": "Samsung",
     "category": "tablets",
-    "basePrice": 5969,
+    "basePrice": 5296.06,
     "currency": "TL",
     "rating": 1.5,
     "reviewCount": 48,
@@ -47546,11 +47966,12 @@ export const mockTablets: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 5999,
+        "price": 5296.06,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Samsung%20Galaxy%20Tab%20A%207.0%20(2016)%20(SM-T287)%208%20GB%20%2F%204G",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/samsung-galaxy-tab-a11-4gb-64gb-sm-x130-gri-p-HBCV0000AKZWC4",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T21:09:32.318Z"
       },
       {
         "storeName": "Trendyol",
@@ -47622,6 +48043,10 @@ export const mockTablets: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 6000
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 5296.06
       }
     ]
   },

@@ -2907,11 +2907,12 @@ export const mockSmartwatches: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 37049,
+        "price": 54525.73,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Apple%20Watch%20Ultra%20(49mm%20Titanyum%20-%20Turuncu%20Alpine%20Loop)",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/apple-watch-ultra-3-gps-cellular-49-mm-naturel-titanyum-kasa-ve-acik-mavi-alpine-loop-buyuk-boy-p-HBCV0000A11PEW",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T21:22:13.526Z"
       },
       {
         "storeName": "Trendyol",
@@ -2983,6 +2984,10 @@ export const mockSmartwatches: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 37050
+      },
+      {
+        "date": "7 Eylül 2026",
+        "price": 36859
       }
     ],
     "colorOptions": [
@@ -4480,7 +4485,7 @@ export const mockSmartwatches: Product[] = [
     "category": "smartwatches",
     "rating": 4.8,
     "reviewCount": 4420,
-    "basePrice": 25519,
+    "basePrice": 15399,
     "currency": "TL",
     "releaseYear": 2022,
     "isPopular": false,
@@ -4549,11 +4554,12 @@ export const mockSmartwatches: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 25649,
+        "price": 15399,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Apple%20Watch%20Series%208%20(45mm%20Paslanmaz%20%C3%87elik%20Cellular%20-%20G%C3%BCm%C3%BC%C5%9F%20Milano%20Loop)",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/apple-watch-series-8-gps-45mm-product-red-aluminium-case-with-product-red-sport-band-regular-mnp43tu-a-p-HBCV00002Y4VJR",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T21:22:51.683Z"
       },
       {
         "storeName": "Trendyol",
@@ -4625,6 +4631,10 @@ export const mockSmartwatches: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 25650
+      },
+      {
+        "date": "7 Eylül 2026",
+        "price": 15399
       }
     ],
     "colorOptions": [
@@ -4714,11 +4724,12 @@ export const mockSmartwatches: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 13299,
+        "price": 15399,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Apple%20Watch%20Series%208%20(45mm%20Gece%20Yar%C4%B1s%C4%B1%20Al%C3%BCminyum%20GPS)",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/apple-watch-series-8-gps-45mm-product-red-aluminium-case-with-product-red-sport-band-regular-mnp43tu-a-p-HBCV00002Y4VJR",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T21:22:54.589Z"
       },
       {
         "storeName": "Trendyol",
@@ -4790,6 +4801,10 @@ export const mockSmartwatches: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 13300
+      },
+      {
+        "date": "7 Eylül 2026",
+        "price": 13229
       }
     ],
     "colorOptions": [
@@ -4879,11 +4894,12 @@ export const mockSmartwatches: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 13299,
+        "price": 15399,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Apple%20Watch%20Series%208%20(45mm%20Y%C4%B1ld%C4%B1z%20I%C5%9F%C4%B1%C4%9F%C4%B1%20Al%C3%BCminyum%20GPS)",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/apple-watch-series-8-gps-45mm-product-red-aluminium-case-with-product-red-sport-band-regular-mnp43tu-a-p-HBCV00002Y4VJR",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T21:22:58.408Z"
       },
       {
         "storeName": "Trendyol",
@@ -4955,6 +4971,10 @@ export const mockSmartwatches: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 13300
+      },
+      {
+        "date": "7 Eylül 2026",
+        "price": 13229
       }
     ],
     "colorOptions": [
@@ -5044,11 +5064,12 @@ export const mockSmartwatches: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 12349,
+        "price": 15399,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Apple%20Watch%20Series%208%20(41mm%20G%C3%BCm%C3%BC%C5%9F%20Al%C3%BCminyum%20GPS)",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/apple-watch-series-8-gps-45mm-product-red-aluminium-case-with-product-red-sport-band-regular-mnp43tu-a-p-HBCV00002Y4VJR",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T21:23:01.354Z"
       },
       {
         "storeName": "Trendyol",
@@ -5120,6 +5141,10 @@ export const mockSmartwatches: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 12350
+      },
+      {
+        "date": "7 Eylül 2026",
+        "price": 12289
       }
     ],
     "colorOptions": [
@@ -7988,11 +8013,12 @@ export const mockSmartwatches: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 9019,
+        "price": 15399,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Apple%20Watch%20Series%206%20(44mm%20Mavi%20Al%C3%BCminyum%20GPS)",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/apple-watch-series-8-gps-45mm-silver-aluminium-case-with-white-sport-band-regular-mp6n3tu-a-p-HBCV00002Y4VJV",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T21:24:05.457Z"
       },
       {
         "storeName": "Trendyol",
@@ -8064,6 +8090,10 @@ export const mockSmartwatches: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 9020
+      },
+      {
+        "date": "7 Eylül 2026",
+        "price": 8979
       }
     ],
     "colorOptions": [
@@ -8244,7 +8274,7 @@ export const mockSmartwatches: Product[] = [
     "category": "smartwatches",
     "rating": 4.8,
     "reviewCount": 1005,
-    "basePrice": 17959,
+    "basePrice": 15399,
     "currency": "TL",
     "releaseYear": 2020,
     "isPopular": false,
@@ -8315,11 +8345,12 @@ export const mockSmartwatches: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 18049,
+        "price": 15399,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Apple%20Watch%20Series%206%20(44mm%20Paslanmaz%20%C3%87elik%20Cellular%20-%20Grafit%20Milano%20Loop)",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/apple-watch-series-8-gps-45mm-silver-aluminium-case-with-white-sport-band-regular-mp6n3tu-a-p-HBCV00002Y4VJV",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T21:24:12.525Z"
       },
       {
         "storeName": "Trendyol",
@@ -8391,6 +8422,10 @@ export const mockSmartwatches: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 18050
+      },
+      {
+        "date": "7 Eylül 2026",
+        "price": 15399
       }
     ],
     "colorOptions": [
@@ -10175,7 +10210,7 @@ export const mockSmartwatches: Product[] = [
     "category": "smartwatches",
     "rating": 4.9,
     "reviewCount": 1840,
-    "basePrice": 42779,
+    "basePrice": 26182.5,
     "currency": "TL",
     "releaseYear": 2024,
     "isPopular": true,
@@ -10238,11 +10273,12 @@ export const mockSmartwatches: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 42999,
+        "price": 26182.5,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Samsung%20Galaxy%20Watch%20Ultra%20(47mm%20LTE)",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/samsung-galaxy-watch-ultra-bluetooth-akilli-saat-titanyum-beyaz-47mm-sm-l700ndaatur-p-HBCV00007FGR8S",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T21:25:13.286Z"
       },
       {
         "storeName": "Trendyol",
@@ -10314,6 +10350,10 @@ export const mockSmartwatches: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 43000
+      },
+      {
+        "date": "7 Eylül 2026",
+        "price": 26182.5
       }
     ],
     "colorOptions": [
@@ -10339,7 +10379,7 @@ export const mockSmartwatches: Product[] = [
     "category": "smartwatches",
     "rating": 4.8,
     "reviewCount": 920,
-    "basePrice": 12929,
+    "basePrice": 10299,
     "currency": "TL",
     "releaseYear": 2024,
     "isPopular": true,
@@ -10400,11 +10440,12 @@ export const mockSmartwatches: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 12999,
+        "price": 10299,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Samsung%20Galaxy%20Watch%207%20(44mm%20LTE)",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/samsung-galaxy-watch7-akilli-saat-haki-40mm-sm-l300nzgatur-saglik-takibi-ve-sesli-gorusme-ozellikleri-p-HBCV00006M8EVU",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T21:25:18.985Z"
       },
       {
         "storeName": "Trendyol",
@@ -10476,6 +10517,10 @@ export const mockSmartwatches: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 13000
+      },
+      {
+        "date": "7 Eylül 2026",
+        "price": 10299
       }
     ],
     "colorOptions": [
@@ -10556,11 +10601,12 @@ export const mockSmartwatches: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 9799,
+        "price": 10299,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Samsung%20Galaxy%20Watch%207%20(44mm)",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/samsung-galaxy-watch7-akilli-saat-haki-40mm-sm-l300nzgatur-saglik-takibi-ve-sesli-gorusme-ozellikleri-p-HBCV00006M8EVU",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T21:25:22.920Z"
       },
       {
         "storeName": "Trendyol",
@@ -10632,6 +10678,10 @@ export const mockSmartwatches: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 9800
+      },
+      {
+        "date": "7 Eylül 2026",
+        "price": 9749
       }
     ],
     "colorOptions": [
@@ -10653,7 +10703,7 @@ export const mockSmartwatches: Product[] = [
     "category": "smartwatches",
     "rating": 4.8,
     "reviewCount": 710,
-    "basePrice": 11439,
+    "basePrice": 10299,
     "currency": "TL",
     "releaseYear": 2024,
     "isPopular": false,
@@ -10713,11 +10763,12 @@ export const mockSmartwatches: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 11499,
+        "price": 10299,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Samsung%20Galaxy%20Watch%207%20(40mm%20LTE)",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/samsung-galaxy-watch7-akilli-saat-haki-40mm-sm-l300nzgatur-saglik-takibi-ve-sesli-gorusme-ozellikleri-p-HBCV00006M8EVU",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T21:25:27.403Z"
       },
       {
         "storeName": "Trendyol",
@@ -10789,6 +10840,10 @@ export const mockSmartwatches: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 11500
+      },
+      {
+        "date": "7 Eylül 2026",
+        "price": 10299
       }
     ],
     "colorOptions": [
@@ -10868,11 +10923,12 @@ export const mockSmartwatches: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 8399,
+        "price": 10299,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Samsung%20Galaxy%20Watch%207%20(40mm)",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/samsung-galaxy-watch7-akilli-saat-haki-40mm-sm-l300nzgatur-saglik-takibi-ve-sesli-gorusme-ozellikleri-p-HBCV00006M8EVU",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T21:25:31.692Z"
       },
       {
         "storeName": "Trendyol",
@@ -10944,6 +11000,10 @@ export const mockSmartwatches: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 8400
+      },
+      {
+        "date": "7 Eylül 2026",
+        "price": 8359
       }
     ],
     "colorOptions": [
@@ -11024,11 +11084,12 @@ export const mockSmartwatches: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 6999,
+        "price": 7999,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Samsung%20Galaxy%20Watch%20FE%20(40mm%20LTE)",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/samsung-samsung-galaxy-watch-fe-akilli-saat-siyah-40mm-sm-r861nzkatur-samsung-turkiye-garantili-p-HBCV00006M85R1",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T21:25:37.115Z"
       },
       {
         "storeName": "Trendyol",
@@ -11100,6 +11161,10 @@ export const mockSmartwatches: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 7000
+      },
+      {
+        "date": "7 Eylül 2026",
+        "price": 6959
       }
     ],
     "colorOptions": [
@@ -11178,11 +11243,12 @@ export const mockSmartwatches: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 4899,
+        "price": 7999,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Samsung%20Galaxy%20Watch%20FE%20(40mm)",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/samsung-samsung-galaxy-watch-fe-akilli-saat-siyah-40mm-sm-r861nzkatur-samsung-turkiye-garantili-p-HBCV00006M85R1",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T21:25:40.648Z"
       },
       {
         "storeName": "Trendyol",
@@ -11254,6 +11320,10 @@ export const mockSmartwatches: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 4900
+      },
+      {
+        "date": "7 Eylül 2026",
+        "price": 4879
       }
     ],
     "colorOptions": [
@@ -11332,11 +11402,12 @@ export const mockSmartwatches: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 2149,
+        "price": 3200,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Samsung%20Galaxy%20Fit%203%20Ak%C4%B1ll%C4%B1%20Bileklik",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/samsung-galaxy-fit3-akilli-saat-p-HBCV00005UY6MH",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T21:25:45.339Z"
       },
       {
         "storeName": "Trendyol",
@@ -11408,6 +11479,10 @@ export const mockSmartwatches: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 2150
+      },
+      {
+        "date": "7 Eylül 2026",
+        "price": 2139
       }
     ],
     "colorOptions": [
@@ -11433,7 +11508,7 @@ export const mockSmartwatches: Product[] = [
     "category": "smartwatches",
     "rating": 4.8,
     "reviewCount": 940,
-    "basePrice": 10449,
+    "basePrice": 10259,
     "currency": "TL",
     "releaseYear": 2023,
     "isPopular": false,
@@ -11493,11 +11568,12 @@ export const mockSmartwatches: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 10499,
+        "price": 10259,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Samsung%20Galaxy%20Watch%206%20Classic%20(47mm%20LTE)",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/samsung-galaxy-watch6-classic-akilli-saat-gumus-47mm-sm-r960nzsatur-samsung-turkiye-garantili-p-HBCV00004N9OA7",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T21:25:50.836Z"
       },
       {
         "storeName": "Trendyol",
@@ -11569,6 +11645,10 @@ export const mockSmartwatches: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 10500
+      },
+      {
+        "date": "7 Eylül 2026",
+        "price": 10259
       }
     ],
     "colorOptions": [
@@ -11649,11 +11729,12 @@ export const mockSmartwatches: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 8299,
+        "price": 10259,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Samsung%20Galaxy%20Watch%206%20Classic%20(47mm)",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/samsung-galaxy-watch6-classic-akilli-saat-gumus-47mm-sm-r960nzsatur-samsung-turkiye-garantili-p-HBCV00004N9OA7",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T21:25:53.407Z"
       },
       {
         "storeName": "Trendyol",
@@ -11725,6 +11806,10 @@ export const mockSmartwatches: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 8300
+      },
+      {
+        "date": "7 Eylül 2026",
+        "price": 8259
       }
     ],
     "colorOptions": [
@@ -11804,11 +11889,12 @@ export const mockSmartwatches: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 9499,
+        "price": 10259,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Samsung%20Galaxy%20Watch%206%20Classic%20(43mm%20LTE)",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/samsung-galaxy-watch6-classic-akilli-saat-gumus-47mm-sm-r960nzsatur-samsung-turkiye-garantili-p-HBCV00004N9OA7",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T21:25:57.428Z"
       },
       {
         "storeName": "Trendyol",
@@ -11880,6 +11966,10 @@ export const mockSmartwatches: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 9500
+      },
+      {
+        "date": "7 Eylül 2026",
+        "price": 9449
       }
     ],
     "colorOptions": [
@@ -11957,11 +12047,12 @@ export const mockSmartwatches: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 7499,
+        "price": 10259,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Samsung%20Galaxy%20Watch%206%20Classic%20(43mm)",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/samsung-galaxy-watch6-classic-akilli-saat-gumus-47mm-sm-r960nzsatur-samsung-turkiye-garantili-p-HBCV00004N9OA7",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T21:25:59.949Z"
       },
       {
         "storeName": "Trendyol",
@@ -12033,6 +12124,10 @@ export const mockSmartwatches: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 7500
+      },
+      {
+        "date": "7 Eylül 2026",
+        "price": 7459
       }
     ],
     "colorOptions": [
@@ -12112,11 +12207,12 @@ export const mockSmartwatches: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 8499,
+        "price": 10259,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Samsung%20Galaxy%20Watch%206%20(44mm%20LTE)",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/samsung-galaxy-watch6-classic-akilli-saat-gumus-47mm-sm-r960nzsatur-samsung-turkiye-garantili-p-HBCV00004N9OA7",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T21:26:02.778Z"
       },
       {
         "storeName": "Trendyol",
@@ -12188,6 +12284,10 @@ export const mockSmartwatches: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 8500
+      },
+      {
+        "date": "7 Eylül 2026",
+        "price": 8459
       }
     ],
     "colorOptions": [
@@ -12268,11 +12368,12 @@ export const mockSmartwatches: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 6399,
+        "price": 10259,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Samsung%20Galaxy%20Watch%206%20(44mm)",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/samsung-galaxy-watch6-classic-akilli-saat-gumus-47mm-sm-r960nzsatur-samsung-turkiye-garantili-p-HBCV00004N9OA7",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T21:26:05.350Z"
       },
       {
         "storeName": "Trendyol",
@@ -12344,6 +12445,10 @@ export const mockSmartwatches: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 6400
+      },
+      {
+        "date": "7 Eylül 2026",
+        "price": 6369
       }
     ],
     "colorOptions": [
@@ -12423,11 +12528,12 @@ export const mockSmartwatches: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 7499,
+        "price": 10259,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Samsung%20Galaxy%20Watch%206%20(40mm%20LTE)",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/samsung-galaxy-watch6-classic-akilli-saat-gumus-47mm-sm-r960nzsatur-samsung-turkiye-garantili-p-HBCV00004N9OA7",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T21:26:11.180Z"
       },
       {
         "storeName": "Trendyol",
@@ -12499,6 +12605,10 @@ export const mockSmartwatches: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 7500
+      },
+      {
+        "date": "7 Eylül 2026",
+        "price": 7459
       }
     ],
     "colorOptions": [
@@ -12576,11 +12686,12 @@ export const mockSmartwatches: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 5499,
+        "price": 10259,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Samsung%20Galaxy%20Watch%206%20(40mm)",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/samsung-galaxy-watch6-classic-akilli-saat-gumus-47mm-sm-r960nzsatur-samsung-turkiye-garantili-p-HBCV00004N9OA7",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T21:26:13.953Z"
       },
       {
         "storeName": "Trendyol",
@@ -12652,6 +12763,10 @@ export const mockSmartwatches: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 5500
+      },
+      {
+        "date": "7 Eylül 2026",
+        "price": 5469
       }
     ],
     "colorOptions": [
@@ -12673,7 +12788,7 @@ export const mockSmartwatches: Product[] = [
     "category": "smartwatches",
     "rating": 4.8,
     "reviewCount": 1100,
-    "basePrice": 9449,
+    "basePrice": 9259,
     "currency": "TL",
     "releaseYear": 2022,
     "isPopular": false,
@@ -12732,11 +12847,12 @@ export const mockSmartwatches: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 9499,
+        "price": 9259,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Samsung%20Galaxy%20Watch%205%20Pro%20(45mm%20LTE%20Titanyum)",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/samsung-galaxy-watch-5-akilli-saat-graphite-40mm-sm-r900nzaatur-samsung-turkiye-garantili-p-HBCV00002QNCO2",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T21:26:19.426Z"
       },
       {
         "storeName": "Trendyol",
@@ -12808,6 +12924,10 @@ export const mockSmartwatches: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 9500
+      },
+      {
+        "date": "7 Eylül 2026",
+        "price": 9259
       }
     ],
     "colorOptions": [
@@ -12888,11 +13008,12 @@ export const mockSmartwatches: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 7299,
+        "price": 9259,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Samsung%20Galaxy%20Watch%205%20Pro%20(45mm%20Titanyum)",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/samsung-galaxy-watch-5-akilli-saat-graphite-40mm-sm-r900nzaatur-samsung-turkiye-garantili-p-HBCV00002QNCO2",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T21:26:22.756Z"
       },
       {
         "storeName": "Trendyol",
@@ -12964,6 +13085,10 @@ export const mockSmartwatches: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 7300
+      },
+      {
+        "date": "7 Eylül 2026",
+        "price": 7259
       }
     ],
     "colorOptions": [
@@ -13043,11 +13168,12 @@ export const mockSmartwatches: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 5999,
+        "price": 9259,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Samsung%20Galaxy%20Watch%205%20(44mm%20LTE)",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/samsung-galaxy-watch-5-akilli-saat-graphite-40mm-sm-r900nzaatur-samsung-turkiye-garantili-p-HBCV00002QNCO2",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T21:26:26.370Z"
       },
       {
         "storeName": "Trendyol",
@@ -13119,6 +13245,10 @@ export const mockSmartwatches: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 6000
+      },
+      {
+        "date": "7 Eylül 2026",
+        "price": 5969
       }
     ],
     "colorOptions": [
@@ -13196,11 +13326,12 @@ export const mockSmartwatches: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 4599,
+        "price": 9259,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Samsung%20Galaxy%20Watch%205%20(44mm)",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/samsung-galaxy-watch-5-akilli-saat-graphite-40mm-sm-r900nzaatur-samsung-turkiye-garantili-p-HBCV00002QNCO2",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T21:26:29.678Z"
       },
       {
         "storeName": "Trendyol",
@@ -13272,6 +13403,10 @@ export const mockSmartwatches: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 4600
+      },
+      {
+        "date": "7 Eylül 2026",
+        "price": 4579
       }
     ],
     "colorOptions": [
@@ -13355,11 +13490,12 @@ export const mockSmartwatches: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 5299,
+        "price": 9259,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Samsung%20Galaxy%20Watch%205%20(40mm%20LTE)",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/samsung-galaxy-watch-5-akilli-saat-graphite-40mm-sm-r900nzaatur-samsung-turkiye-garantili-p-HBCV00002QNCO2",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T21:26:32.810Z"
       },
       {
         "storeName": "Trendyol",
@@ -13431,6 +13567,10 @@ export const mockSmartwatches: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 5300
+      },
+      {
+        "date": "7 Eylül 2026",
+        "price": 5269
       }
     ],
     "colorOptions": [
@@ -13508,11 +13648,12 @@ export const mockSmartwatches: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 4199,
+        "price": 9259,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Samsung%20Galaxy%20Watch%205%20(40mm)",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/samsung-galaxy-watch-5-akilli-saat-graphite-40mm-sm-r900nzaatur-samsung-turkiye-garantili-p-HBCV00002QNCO2",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T21:26:35.498Z"
       },
       {
         "storeName": "Trendyol",
@@ -13584,6 +13725,10 @@ export const mockSmartwatches: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 4200
+      },
+      {
+        "date": "7 Eylül 2026",
+        "price": 4179
       }
     ],
     "colorOptions": [
@@ -13667,11 +13812,12 @@ export const mockSmartwatches: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 5199,
+        "price": 7999,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Samsung%20Galaxy%20Watch%204%20Classic%20(46mm%20LTE)",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/samsung-galaxy-watch-4-akilli-saat-40mm-small-black-modeli-saglik-takibi-ozellikleriyle-p-HBCV00000LG8NI",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T21:26:40.294Z"
       },
       {
         "storeName": "Trendyol",
@@ -13743,6 +13889,10 @@ export const mockSmartwatches: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 5200
+      },
+      {
+        "date": "7 Eylül 2026",
+        "price": 5169
       }
     ],
     "colorOptions": [
@@ -13821,11 +13971,12 @@ export const mockSmartwatches: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 3999,
+        "price": 7999,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Samsung%20Galaxy%20Watch%204%20Classic%20(46mm)",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/samsung-galaxy-watch-4-akilli-saat-40mm-small-black-modeli-saglik-takibi-ozellikleriyle-p-HBCV00000LG8NI",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T21:26:43.747Z"
       },
       {
         "storeName": "Trendyol",
@@ -13897,6 +14048,10 @@ export const mockSmartwatches: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 4000
+      },
+      {
+        "date": "7 Eylül 2026",
+        "price": 3979
       }
     ],
     "colorOptions": [
@@ -13975,11 +14130,12 @@ export const mockSmartwatches: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 4699,
+        "price": 7999,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Samsung%20Galaxy%20Watch%204%20Classic%20(42mm%20LTE)",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/samsung-galaxy-watch-4-akilli-saat-40mm-small-black-modeli-saglik-takibi-ozellikleriyle-p-HBCV00000LG8NI",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T21:26:51.751Z"
       },
       {
         "storeName": "Trendyol",
@@ -14051,6 +14207,10 @@ export const mockSmartwatches: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 4700
+      },
+      {
+        "date": "7 Eylül 2026",
+        "price": 4679
       }
     ],
     "colorOptions": [
@@ -14128,11 +14288,12 @@ export const mockSmartwatches: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 3699,
+        "price": 7999,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Samsung%20Galaxy%20Watch%204%20Classic%20(42mm)",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/samsung-galaxy-watch-4-akilli-saat-40mm-small-black-modeli-saglik-takibi-ozellikleriyle-p-HBCV00000LG8NI",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T21:26:55.567Z"
       },
       {
         "storeName": "Trendyol",
@@ -14204,6 +14365,10 @@ export const mockSmartwatches: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 3700
+      },
+      {
+        "date": "7 Eylül 2026",
+        "price": 3679
       }
     ],
     "colorOptions": [
@@ -14282,11 +14447,12 @@ export const mockSmartwatches: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 4299,
+        "price": 7999,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Samsung%20Galaxy%20Watch%204%20(44mm%20LTE)",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/samsung-galaxy-watch-4-akilli-saat-40mm-small-black-modeli-saglik-takibi-ozellikleriyle-p-HBCV00000LG8NI",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T21:27:00.045Z"
       },
       {
         "storeName": "Trendyol",
@@ -14358,6 +14524,10 @@ export const mockSmartwatches: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 4300
+      },
+      {
+        "date": "7 Eylül 2026",
+        "price": 4279
       }
     ],
     "colorOptions": [
@@ -14437,11 +14607,12 @@ export const mockSmartwatches: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 3299,
+        "price": 7999,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Samsung%20Galaxy%20Watch%204%20(44mm)",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/samsung-galaxy-watch-4-akilli-saat-40mm-small-black-modeli-saglik-takibi-ozellikleriyle-p-HBCV00000LG8NI",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T21:27:03.108Z"
       },
       {
         "storeName": "Trendyol",
@@ -14513,6 +14684,10 @@ export const mockSmartwatches: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 3300
+      },
+      {
+        "date": "7 Eylül 2026",
+        "price": 3279
       }
     ],
     "colorOptions": [
@@ -14595,11 +14770,12 @@ export const mockSmartwatches: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 3899,
+        "price": 7999,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Samsung%20Galaxy%20Watch%204%20(40mm%20LTE)",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/samsung-galaxy-watch-4-akilli-saat-40mm-small-black-modeli-saglik-takibi-ozellikleriyle-p-HBCV00000LG8NI",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T21:27:06.803Z"
       },
       {
         "storeName": "Trendyol",
@@ -14671,6 +14847,10 @@ export const mockSmartwatches: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 3900
+      },
+      {
+        "date": "7 Eylül 2026",
+        "price": 3879
       }
     ],
     "colorOptions": [
@@ -17747,7 +17927,7 @@ export const mockSmartwatches: Product[] = [
     "category": "smartwatches",
     "rating": 4.9,
     "reviewCount": 1850,
-    "basePrice": 14919,
+    "basePrice": 7832.42,
     "currency": "TL",
     "releaseYear": 2024,
     "isPopular": true,
@@ -17802,11 +17982,12 @@ export const mockSmartwatches: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 14999,
+        "price": 7832.42,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Huawei%20Watch%20GT%205%20Pro%20(46mm%20Titanyum)",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/huawei-watch-gt-5-46mm-siyah-p-HBCV00006XHFVV",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T21:28:31.672Z"
       },
       {
         "storeName": "Trendyol",
@@ -17878,6 +18059,10 @@ export const mockSmartwatches: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 15000
+      },
+      {
+        "date": "7 Eylül 2026",
+        "price": 7832.42
       }
     ],
     "colorOptions": [
@@ -17899,7 +18084,7 @@ export const mockSmartwatches: Product[] = [
     "category": "smartwatches",
     "rating": 4.8,
     "reviewCount": 2200,
-    "basePrice": 9449,
+    "basePrice": 7832.42,
     "currency": "TL",
     "releaseYear": 2024,
     "isPopular": true,
@@ -17952,11 +18137,12 @@ export const mockSmartwatches: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 9499,
+        "price": 7832.42,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Huawei%20Watch%20GT%205%20(46mm)",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/huawei-watch-gt-5-46mm-siyah-p-HBCV00006XHFVV",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T21:28:36.227Z"
       },
       {
         "storeName": "Trendyol",
@@ -18028,6 +18214,10 @@ export const mockSmartwatches: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 9500
+      },
+      {
+        "date": "7 Eylül 2026",
+        "price": 7832.42
       }
     ],
     "colorOptions": [
@@ -18251,11 +18441,12 @@ export const mockSmartwatches: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 16499,
+        "price": 16999,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Huawei%20Watch%20D2%20(Hava%20Yast%C4%B1kl%C4%B1%20Tansiyon%20%C3%96l%C3%A7er%20Saat)",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/huawei-watch-d2-siyah-kaucuk-p-HBCV00007YP8T6",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T21:28:44.289Z"
       },
       {
         "storeName": "Trendyol",
@@ -18327,6 +18518,10 @@ export const mockSmartwatches: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 16500
+      },
+      {
+        "date": "7 Eylül 2026",
+        "price": 16419
       }
     ],
     "colorOptions": [
@@ -18498,7 +18693,7 @@ export const mockSmartwatches: Product[] = [
     "category": "smartwatches",
     "rating": 4.8,
     "reviewCount": 1650,
-    "basePrice": 16909,
+    "basePrice": 8929.31,
     "currency": "TL",
     "releaseYear": 2023,
     "isPopular": false,
@@ -18555,11 +18750,12 @@ export const mockSmartwatches: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 16999,
+        "price": 8929.31,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Huawei%20Watch%204%20Pro%20(48mm%20Titanyum%20LTE)",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/huawei-watch-fit-4-pro-huawei-turkiye-garantili-siyah-p-HBCV00008NG1AN",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T21:28:53.653Z"
       },
       {
         "storeName": "Trendyol",
@@ -18631,6 +18827,10 @@ export const mockSmartwatches: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 17000
+      },
+      {
+        "date": "7 Eylül 2026",
+        "price": 8929.31
       }
     ],
     "colorOptions": [
@@ -18858,11 +19058,12 @@ export const mockSmartwatches: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 3149,
+        "price": 4199,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Xiaomi%20Redmi%20Watch%204",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/xiaomi-redmi-watch-4-siyah-akilli-saat-1-97-inc-amoled-ekran-ile-bluetooth-arama-ve-saglik-takibi-p-HBCV0000638BA6",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T21:29:04.173Z"
       },
       {
         "storeName": "Trendyol",
@@ -18934,6 +19135,10 @@ export const mockSmartwatches: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 3150
+      },
+      {
+        "date": "7 Eylül 2026",
+        "price": 3129
       }
     ],
     "colorOptions": [
@@ -19611,11 +19816,12 @@ export const mockSmartwatches: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 6499,
+        "price": 6999,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Huawei%20Watch%20GT%204%20(46mm)",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/huawei-watch-gt4-41mm-beyaz-p-HBCV00004W44FZ",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T21:29:27.228Z"
       },
       {
         "storeName": "Trendyol",
@@ -19687,6 +19893,10 @@ export const mockSmartwatches: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 6500
+      },
+      {
+        "date": "7 Eylül 2026",
+        "price": 6469
       }
     ],
     "colorOptions": [
@@ -19712,7 +19922,7 @@ export const mockSmartwatches: Product[] = [
     "category": "smartwatches",
     "rating": 4.9,
     "reviewCount": 2900,
-    "basePrice": 9449,
+    "basePrice": 5899,
     "currency": "TL",
     "releaseYear": 2022,
     "isPopular": false,
@@ -19767,11 +19977,12 @@ export const mockSmartwatches: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 9499,
+        "price": 5899,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Huawei%20Watch%20GT%203%20Pro%20(46mm%20Titanyum%20%26%20Safir)",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/huawei-watch-gt-3-se-siyah-p-HBCV00003871IO",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T21:29:36.247Z"
       },
       {
         "storeName": "Trendyol",
@@ -19843,6 +20054,10 @@ export const mockSmartwatches: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 9500
+      },
+      {
+        "date": "7 Eylül 2026",
+        "price": 5899
       }
     ],
     "colorOptions": [
@@ -20810,7 +21025,7 @@ export const mockSmartwatches: Product[] = [
     "category": "smartwatches",
     "rating": 4.9,
     "reviewCount": 3120,
-    "basePrice": 13999,
+    "basePrice": 7832.42,
     "currency": "TL",
     "releaseYear": 2024,
     "isPopular": true,
@@ -20868,12 +21083,13 @@ export const mockSmartwatches: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 14111,
+        "price": 7832.42,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.google.com/search?q=Hepsiburada%20fiyat",
+        "url": "https://www.hepsiburada.com/huawei-watch-gt-5-46mm-siyah-p-HBCV00006XHFVV",
         "sellerName": "Hepsiburada Resmi Satıcı",
-        "isOfficialSeller": true
+        "isOfficialSeller": true,
+        "updatedAt": "2026-09-06T21:30:04.475Z"
       },
       {
         "storeName": "Trendyol",
@@ -20960,6 +21176,10 @@ export const mockSmartwatches: Product[] = [
       {
         "date": "2026-08-01",
         "price": 13999
+      },
+      {
+        "date": "7 Eylül 2026",
+        "price": 7832.42
       }
     ],
     "images": [
@@ -20974,7 +21194,7 @@ export const mockSmartwatches: Product[] = [
     "category": "smartwatches",
     "rating": 4.8,
     "reviewCount": 2240,
-    "basePrice": 9499,
+    "basePrice": 7832.42,
     "currency": "TL",
     "releaseYear": 2024,
     "isPopular": true,
@@ -21031,12 +21251,13 @@ export const mockSmartwatches: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 9575,
+        "price": 7832.42,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.google.com/search?q=Hepsiburada%20fiyat",
+        "url": "https://www.hepsiburada.com/huawei-watch-gt-5-46mm-siyah-p-HBCV00006XHFVV",
         "sellerName": "Hepsiburada Resmi Satıcı",
-        "isOfficialSeller": true
+        "isOfficialSeller": true,
+        "updatedAt": "2026-09-06T21:30:07.697Z"
       },
       {
         "storeName": "Trendyol",
@@ -21123,6 +21344,10 @@ export const mockSmartwatches: Product[] = [
       {
         "date": "2026-08-01",
         "price": 9499
+      },
+      {
+        "date": "7 Eylül 2026",
+        "price": 7832.42
       }
     ],
     "images": [
@@ -21521,12 +21746,13 @@ export const mockSmartwatches: Product[] = [
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 3527,
+        "price": 4199,
         "shippingFee": 0,
         "inStock": true,
-        "url": "https://www.google.com/search?q=Hepsiburada%20fiyat",
+        "url": "https://www.hepsiburada.com/xiaomi-redmi-watch-4-siyah-akilli-saat-1-97-inc-amoled-ekran-ile-bluetooth-arama-ve-saglik-takibi-p-HBCV0000638BA6",
         "sellerName": "Hepsiburada Resmi Satıcı",
-        "isOfficialSeller": true
+        "isOfficialSeller": true,
+        "updatedAt": "2026-09-06T21:30:19.024Z"
       },
       {
         "storeName": "Trendyol",
@@ -21612,6 +21838,10 @@ export const mockSmartwatches: Product[] = [
       },
       {
         "date": "2026-08-01",
+        "price": 3499
+      },
+      {
+        "date": "7 Eylül 2026",
         "price": 3499
       }
     ],
