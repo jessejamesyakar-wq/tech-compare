@@ -4,7 +4,8 @@ import {
   getAllSmartphones,
   getAllTVs,
   getPopularComparisonsData,
-  getDynamicCategoryDistributionProducts
+  getDynamicCategoryDistributionProducts,
+  toCatalogProduct
 } from '@/lib/data';
 import { Smartphone, TVProduct } from '@/lib/types';
 import { getDynamicHeroSlides } from '@/lib/heroSlides';
@@ -78,9 +79,9 @@ export default async function HomePage() {
   return (
     <HomePageClient
       heroSlides={dynamicHeroSlides}
-      allTVsList={allTVs.slice(0, 24)}
-      mixedDiscountGrid={mixedDiscountGrid.slice(0, 16)}
-      bestSellerCarouselList={bestSellerCarouselList.slice(0, 20)}
+      allTVsList={allTVs.slice(0, 24).map(toCatalogProduct)}
+      mixedDiscountGrid={mixedDiscountGrid.slice(0, 16).map(toCatalogProduct)}
+      bestSellerCarouselList={bestSellerCarouselList.slice(0, 20).map(toCatalogProduct)}
       popularComparisons={enrichedPopularComparisons}
       showcaseData={showcaseData}
       counts={counts}

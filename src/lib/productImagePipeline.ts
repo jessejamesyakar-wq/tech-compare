@@ -148,8 +148,10 @@ export async function autoFetchAndSaveProductImage(options: ProductImageFetchOpt
     return { localPath: null, sourceUrl: null, isFallback: true };
   }
 
-  const relativePath = `/images/products/${category}/${id}.jpg`;
-  const absolutePath = path.join(process.cwd(), 'public', relativePath);
+  const safeCategory = String(category || 'products').replace(/[^a-zA-Z0-9_-]/g, '');
+  const safeId = String(id || 'item').replace(/[^a-zA-Z0-9_-]/g, '');
+  const relativePath = `/images/products/${safeCategory}/${safeId}.jpg`;
+  const absolutePath = [process.cwd(), 'public', 'images', 'products', safeCategory, `${safeId}.jpg`].join(path.sep);
 
   const success = await downloadImageToFile(ogImageUrl, absolutePath);
 

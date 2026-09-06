@@ -1,23 +1,23 @@
-import { getAllBrands, getAllSmartphones } from '@/lib/data';
+import { Suspense } from 'react';
+import { getAllBrands, getCatalogSmartphones } from '@/lib/data';
 import PhonesClient from './PhonesClient';
 
-export default async function PhonesPage({
-  searchParams
-}: {
-  searchParams: Promise<{ brand?: string }>;
-}) {
-  const { brand } = await searchParams;
-  const [phones, brands] = await Promise.all([getAllSmartphones(), getAllBrands()]);
+export const revalidate = 3600;
+
+export default async function PhonesPage() {
+  const [phones, brands] = await Promise.all([getCatalogSmartphones(), getAllBrands()]);
   const brandCounts: Record<string, number> = {};
   phones.forEach((p) => {
     if (p.brand) brandCounts[p.brand] = (brandCounts[p.brand] || 0) + 1;
   });
-  const initialPhones = brand ? phones.filter((p) => p.brand === brand) : phones;
+
   return (
-    <PhonesClient
-      initialPhones={initialPhones}
-      initialBrands={brands}
-      initialBrandCounts={brandCounts}
-    />
+    <Suspense fallback={<div className="min-h-[50vh] flex items-center justify-center text-slate-500 font-bold">Yükleniyor...</div>}>
+      <PhonesClient
+        initialPhones={phones}
+        initialBrands={brands}
+        initialBrandCounts={brandCounts}
+      />
+    </Suspense>
   );
 }

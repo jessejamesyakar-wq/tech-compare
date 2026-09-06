@@ -55,6 +55,10 @@ export function CompactProductCard({
   const isHistoryDeal = maxHistory > minPrice && ((maxHistory - minPrice) / maxHistory) >= 0.08;
   const isSpreadDeal = prices.length > 1 && maxPrice > minPrice && ((maxPrice - minPrice) / maxPrice) >= 0.07;
   const isRealDeal = isHistoryDeal || isSpreadDeal;
+  const discountPercent = maxHistory > minPrice && ((maxHistory - minPrice) / maxHistory) >= 0.05
+    ? Math.round(((maxHistory - minPrice) / maxHistory) * 100)
+    : 0;
+  const isLowest30d = isHistoryDeal || (historyPrices.length > 0 && minPrice <= Math.min(...historyPrices));
 
   const fallbackImg =
     product.category === 'appliances'
@@ -115,9 +119,20 @@ export function CompactProductCard({
 
   if (product.category === 'smartphones') {
     const screen = specs.screen?.size ? `${specs.screen.size}"` : (specs.screenSize ? `${specs.screenSize}"` : '');
-    const chipRaw = specs.processor?.chip || specs.processor || '';
-    const chip = chipRaw.split(' ')[0] + (chipRaw.split(' ')[1] ? ' ' + chipRaw.split(' ')[1] : '');
-    const cam = specs.camera?.mainMp ? `${specs.camera.mainMp.split(' ')[0]} MP` : '';
+    const chipRaw =
+      typeof specs.processor?.chip === 'string'
+        ? specs.processor.chip
+        : typeof specs.processor === 'string'
+        ? specs.processor
+        : '';
+    const chip = chipRaw ? chipRaw.split(' ')[0] + (chipRaw.split(' ')[1] ? ' ' + chipRaw.split(' ')[1] : '') : '';
+    const camRaw =
+      typeof specs.camera?.mainMp === 'string'
+        ? specs.camera.mainMp
+        : typeof specs.camera === 'string'
+        ? specs.camera
+        : '';
+    const cam = camRaw ? `${camRaw.split(' ')[0]} MP` : '';
     const storage = specs.memory?.storageGb ? `${specs.memory.storageGb} GB` : (specs.storage ? `${specs.storage} GB` : '');
     subInfo = [screen, chip, cam, storage].filter(Boolean).slice(0, 3).join(' • ') || (product.highlights?.[0] || '');
   } else if (product.category === 'headphones') {
@@ -168,6 +183,16 @@ export function CompactProductCard({
     <TiltCard className="group bg-white border border-slate-200 hover:border-emerald-500/50 rounded-2xl sm:rounded-3xl p-3.5 sm:p-5 transition-all duration-300 shadow-md hover:shadow-2xl hover:-translate-y-1 flex flex-col justify-between">
       {/* Standart 1:1 Kare Ürün Görseli Container */}
       <Link href={targetHref} className="block relative mb-2 sm:mb-2.5 flex justify-center">
+        {discountPercent >= 5 && (
+          <span className="absolute top-1 left-1 z-10 bg-rose-600 text-white font-black text-[10px] sm:text-xs px-2 py-0.5 rounded-lg shadow-sm">
+            -%{discountPercent}
+          </span>
+        )}
+        {isLowest30d && (
+          <span className="absolute top-1 right-1 z-10 bg-emerald-600/90 text-white font-bold text-[9px] sm:text-[10px] px-1.5 py-0.5 rounded-lg shadow-sm flex items-center gap-0.5">
+            🔥 En Düşük
+          </span>
+        )}
         <ProductImage
           key={imgSrc}
           src={imgSrc}
@@ -241,12 +266,23 @@ export function CompactProductCard({
             </span>
           </div>
           <div className="flex items-baseline justify-between pt-0.5">
-            <div className="text-sm sm:text-lg font-black text-slate-900 tracking-tight tabular-nums">
-              ₺{minPrice.toLocaleString()}
+            <div className="flex items-baseline gap-1.5">
+              <span className="text-sm sm:text-lg font-black text-slate-900 tracking-tight tabular-nums">
+                ₺{minPrice.toLocaleString()}
+              </span>
+              {discountPercent >= 5 && maxHistory > minPrice && (
+                <span className="text-[10px] sm:text-xs text-slate-400 line-through tabular-nums">
+                  ₺{maxHistory.toLocaleString()}
+                </span>
+              )}
             </div>
-            {isRealDeal ? (
+            {isLowest30d ? (
               <span className="text-[9px] font-black text-emerald-700 bg-emerald-50 px-1.5 py-0.5 rounded border border-emerald-200">
-                ⚡ AI: Fırsat Fiyat
+                ⚡ En İyi Fiyat
+              </span>
+            ) : isRealDeal ? (
+              <span className="text-[9px] font-black text-emerald-700 bg-emerald-50 px-1.5 py-0.5 rounded border border-emerald-200">
+                ⚡ Fırsat
               </span>
             ) : (
               <span className="text-[9px] font-semibold text-slate-500 bg-slate-100 px-1.5 py-0.5 rounded">

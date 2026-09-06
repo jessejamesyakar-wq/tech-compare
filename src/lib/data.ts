@@ -19,6 +19,90 @@ function deduplicateProducts<T extends Product>(list: T[]): T[] {
   return result;
 }
 
+// Helper to slim down products for high-speed catalog listing and edge caching
+export function toCatalogProduct<T extends Product>(p: T): T {
+  const historyPrices = (p.priceHistory || []).map((h) => h.price).filter(Boolean);
+  const maxHistory = historyPrices.length > 0 ? Math.max(...historyPrices) : p.basePrice;
+  const minHistory = historyPrices.length > 0 ? Math.min(...historyPrices) : p.basePrice;
+
+  const base: any = {
+    id: p.id,
+    slug: p.slug || p.id,
+    name: p.name,
+    brand: p.brand,
+    category: p.category,
+    image: p.image,
+    rating: p.rating || 4.5,
+    epeyScore: p.epeyScore,
+    reviewCount: p.reviewCount || 0,
+    basePrice: p.basePrice,
+    currency: p.currency || 'TL',
+    releaseYear: p.releaseYear,
+    isPopular: p.isPopular,
+    isFeatured: p.isFeatured,
+    highlights: (p.highlights || []).slice(0, 2),
+    colorOptions: (p.colorOptions || []).slice(0, 8),
+    storeOffers: (p.storeOffers || []).slice(0, 4).map((o) => ({
+      storeName: o.storeName,
+      price: o.price,
+      url: o.url,
+      inStock: o.inStock !== false
+    })),
+    priceHistory: [
+      { date: '2025-01-01', price: maxHistory },
+      { date: '2025-03-01', price: minHistory }
+    ]
+  };
+
+  if (p.category === 'smartphones') {
+    const sp = p as unknown as Smartphone;
+    base.specs = {
+      screen: {
+        size: sp.specs?.screen?.size,
+        refreshRate: sp.specs?.screen?.refreshRate
+      },
+      processor: {
+        chip: sp.specs?.processor?.chip
+      },
+      camera: {
+        mainMp: sp.specs?.camera?.mainMp
+      },
+      memory: {
+        storageGb: sp.specs?.memory?.storageGb
+      }
+    };
+  } else if (p.category === 'tvs') {
+    const tv = p as unknown as TVProduct;
+    base.specs = {
+      screenSizeInches: tv.specs?.screenSizeInches,
+      displayTech: tv.specs?.displayTech,
+      refreshRateHz: tv.specs?.refreshRateHz,
+      smartOs: tv.specs?.smartOs
+    };
+  } else if (p.category === 'laptops') {
+    const lp = p as unknown as LaptopProduct;
+    base.specs = {
+      screenSizeInches: lp.specs?.screenSizeInches,
+      processor: lp.specs?.processor,
+      ramGb: lp.specs?.ramGb,
+      storageGb: lp.specs?.storageGb,
+      gpu: lp.specs?.gpu
+    };
+  } else if (p.category === 'appliances') {
+    const ap = p as unknown as ApplianceProduct;
+    base.specs = {
+      suctionPowerPa: ap.specs?.suctionPowerPa,
+      powerWatts: ap.specs?.powerWatts,
+      capacity: ap.specs?.capacity,
+      subCategoryLabel: ap.specs?.subCategoryLabel
+    };
+  } else {
+    base.specs = p.specs;
+  }
+
+  return base as T;
+}
+
 // Aggregate all products across categories with local storage override support
 export async function getAllProducts(): Promise<Product[]> {
   return deduplicateProducts(getStoredProducts());
@@ -29,9 +113,19 @@ export async function getAllSmartphones(): Promise<Smartphone[]> {
   return all.filter((p) => p.category === 'smartphones') as Smartphone[];
 }
 
+export async function getCatalogSmartphones(): Promise<Smartphone[]> {
+  const all = await getAllSmartphones();
+  return all.map(toCatalogProduct);
+}
+
 export async function getAllTVs(): Promise<TVProduct[]> {
   const all = deduplicateProducts(getStoredProducts());
   return all.filter((p) => p.category === 'tvs') as TVProduct[];
+}
+
+export async function getCatalogTVs(): Promise<TVProduct[]> {
+  const all = await getAllTVs();
+  return all.map(toCatalogProduct);
 }
 
 export async function getAllLaptops(): Promise<LaptopProduct[]> {
@@ -39,9 +133,19 @@ export async function getAllLaptops(): Promise<LaptopProduct[]> {
   return all.filter((p) => p.category === 'laptops') as LaptopProduct[];
 }
 
+export async function getCatalogLaptops(): Promise<LaptopProduct[]> {
+  const all = await getAllLaptops();
+  return all.map(toCatalogProduct);
+}
+
 export async function getAllAppliances(): Promise<ApplianceProduct[]> {
   const all = deduplicateProducts(getStoredProducts());
   return all.filter((p) => p.category === 'appliances') as ApplianceProduct[];
+}
+
+export async function getCatalogAppliances(): Promise<ApplianceProduct[]> {
+  const all = await getAllAppliances();
+  return all.map(toCatalogProduct);
 }
 
 export async function getProductById(id: string | number): Promise<Product> {

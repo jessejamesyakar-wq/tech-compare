@@ -290,6 +290,20 @@ export function CompareMatrix({ products }: CompareMatrixProps) {
         if (p.category === 'laptops') return (p as LaptopProduct).specs?.batteryCapacityWh ? `${(p as LaptopProduct).specs.batteryCapacityWh} Wh` : '-';
         return (p as Smartphone).specs?.battery?.capacitymAh ? `${(p as Smartphone).specs.battery.capacitymAh} mAh` : '-';
       }},
+      { category: 'Batarya & Şarj', label: 'Hızlı Şarj Gücü', isNumericHigherBetter: true, getRawNumber: (p) => {
+        return (p as Smartphone).specs?.battery?.chargingWatts || null;
+      }, getValue: (p) => {
+        const w = (p as Smartphone).specs?.battery?.chargingWatts;
+        return w ? `${w} W Hızlı Şarj` : '-';
+      }},
+      { category: 'Tasarım & Kasa', label: 'Ağırlık', isNumericLowerBetter: true, getRawNumber: (p) => {
+        if (p.category === 'laptops') return (p as LaptopProduct).specs?.weightKg || null;
+        return (p as Smartphone).specs?.build?.weightGrams || null;
+      }, getValue: (p) => {
+        if (p.category === 'laptops') return (p as LaptopProduct).specs?.weightKg ? `${(p as LaptopProduct).specs.weightKg} kg` : '-';
+        const wt = (p as Smartphone).specs?.build?.weightGrams;
+        return wt ? `${wt} gram` : '-';
+      }},
       { category: 'Yazılım & Ekosistem', label: 'İşletim Sistemi', getValue: (p) => {
         if (p.category === 'tvs') return (p as TVProduct).specs?.smartOs || '-';
         if (p.category === 'laptops') return (p as LaptopProduct).specs?.os || '-';
