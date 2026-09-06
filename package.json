@@ -14,6 +14,8 @@
     "sync-prices": "node scripts/nightlyPriceSync.js --limit=50 --push",
     "sync-prices:all": "node scripts/nightlyPriceSync.js --all --push",
     "sync-prices:dry": "node scripts/nightlyPriceSync.js --dry-run --limit=20",
+    "sync-catalogs": "node scripts/syncAllCatalogs.js --limit=25 --push",
+    "sync-catalogs:all": "node scripts/syncAllCatalogs.js --all --push",
     "test:links": "node scripts/testBrandProductIntegrity.js"
   },
   "dependencies": {
