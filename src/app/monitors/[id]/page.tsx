@@ -1,6 +1,7 @@
 import { Suspense } from 'react';
 import { Metadata } from 'next';
 import { getMonitorById, getProductById } from '@/lib/data';
+import { getEffectiveStoreCount, ACTIVE_RETAILERS } from '@/lib/activeStores';
 import MonitorDetailClient from './MonitorDetailClient';
 
 export async function generateMetadata({
@@ -22,10 +23,12 @@ export async function generateMetadata({
   const offers = product.storeOffers || [];
   const prices = offers.map((o) => o.price).filter((pr) => pr > 0);
   const bestPrice = prices.length > 0 ? Math.min(...prices) : product.basePrice;
-  const storeCount = offers.length > 0 ? offers.length : 8;
+  const storeCount = getEffectiveStoreCount(offers);
 
   const title = `${product.name} Fiyatları - En Ucuz ${bestPrice.toLocaleString('tr-TR')}₺ | aceleEtme`;
-  const description = `${product.name} fiyatlarını karşılaştır, ${storeCount} mağazadan en uygun fiyatı bul. ${product.brand || ''} ${product.category || ''} modelleri arasında en iyi fırsatlar aceleEtme'de.`;
+  const description = storeCount === 1
+    ? `${product.name} en güncel ${ACTIVE_RETAILERS[0]?.name || 'Hepsiburada'} fiyatını incele, en uygun fiyatı bul. ${product.brand || ''} ${product.category || ''} modelleri arasında en iyi fırsatlar aceleEtme'de.`
+    : `${product.name} fiyatlarını karşılaştır, ${storeCount} mağazadan en uygun fiyatı bul. ${product.brand || ''} ${product.category || ''} modelleri arasında en iyi fırsatlar aceleEtme'de.`;
   const canonical = `https://www.aceleetme.tech/monitors/${slug}`;
 
   return {

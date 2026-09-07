@@ -1,5 +1,6 @@
 import React from 'react';
 import { Product } from '@/lib/types';
+import { filterActiveStoreOffers, getEffectiveStoreCount } from '@/lib/activeStores';
 
 interface ProductJsonLdProps {
   product: Product;
@@ -13,11 +14,13 @@ export function ProductJsonLd({ product, canonicalUrl }: ProductJsonLdProps) {
   const category = product.category || 'phones';
   const url = canonicalUrl || `https://www.aceleetme.tech/${category}/${slug}`;
 
-  const offers = product.storeOffers || [];
+  const allOffers = product.storeOffers || [];
+  const activeOffers = filterActiveStoreOffers(allOffers);
+  const offers = activeOffers.length > 0 ? activeOffers : allOffers;
   const prices = offers.map((o) => o.price).filter((p) => p > 0);
   const lowPrice = prices.length > 0 ? Math.min(...prices) : product.basePrice || 999;
   const highPrice = prices.length > 0 ? Math.max(...prices) : Math.round(lowPrice * 1.08);
-  const offerCount = offers.length > 0 ? offers.length : 8;
+  const offerCount = getEffectiveStoreCount(allOffers);
 
   const ratingValue = product.rating ? Number(product.rating.toFixed(1)) : 4.8;
   const reviewCount = product.reviewCount && product.reviewCount > 0 ? product.reviewCount : 150;

@@ -13,6 +13,7 @@ import { StickyHeaderBar } from '@/components/detail/StickyHeaderBar';
 import { ProductImageGallery } from '@/components/detail/ProductImageGallery';
 import { ProductColorPicker } from '@/components/detail/ProductColorPicker';
 import { useCompare } from '@/context/CompareContext';
+import { getActiveStoreComparisonTitle } from '@/lib/activeStores';
 
 const PriceHistoryChart = dynamic(() => import('@/components/detail/PriceHistoryChart').then(m => m.PriceHistoryChart), { loading: () => <div className="h-64 bg-slate-50 rounded-3xl animate-pulse" /> });
 const PriceAlertModal = dynamic(() => import('@/components/detail/PriceAlertModal').then(m => m.PriceAlertModal), { ssr: false });
@@ -201,7 +202,7 @@ export default function SmartwatchesDetailClient({ initialProduct }: { initialPr
         <div className="space-y-4">
           <h2 className="text-lg font-black text-slate-900 tracking-tight flex items-center gap-2">
             <Sparkles className="w-5 h-5 text-emerald-600" />
-            <span>Fiyat Karşılaştırması & Satıcılar</span>
+            <span>{getActiveStoreComparisonTitle()}</span>
           </h2>
           <StoreTable offers={product.storeOffers} currency={product.currency} product={product} />
         </div>

@@ -15,6 +15,7 @@ import { AIPriceForecastBadge } from '@/components/ai/AIPriceForecastBadge';
 import { AIReviewSummaryCard } from '@/components/ai/AIReviewSummaryCard';
 import { AIUpgradeAdvisor } from '@/components/ai/AIUpgradeAdvisor';
 import { TechTermExplainer } from '@/components/ai/TechTermExplainer';
+import { StoreTable } from '@/components/detail/StoreTable';
 import {
   Sparkles,
   ArrowLeft,
@@ -191,46 +192,7 @@ export default function MonitorDetailClient({ initialProduct }: { initialProduct
           <AIPriceForecastBadge product={initialProduct} />
 
           {/* Store Offers */}
-          <div className="space-y-3">
-            <h3 className="text-xs font-black text-slate-900 flex items-center gap-1.5">
-              <ShoppingBag className="w-4 h-4 text-emerald-600" />
-              <span>Satıcı ve Mağaza Fiyatları</span>
-            </h3>
-
-            <div className="space-y-2">
-              {(initialProduct.storeOffers || []).map((offer, idx) => (
-                <div key={idx} className="flex items-center justify-between p-3.5 bg-white border border-slate-200 rounded-xl hover:border-emerald-500 transition-colors">
-                  <div className="flex items-center gap-3">
-                    <span className={`w-8 h-8 rounded-lg ${offer.storeLogoColor || 'bg-slate-800'} text-white font-black text-xs flex items-center justify-center`}>
-                      {offer.storeName.charAt(0)}
-                    </span>
-                    <div>
-                      <span className="text-xs font-black text-slate-900 block">{offer.storeName}</span>
-                      <span className="text-[10px] text-slate-500 flex items-center gap-1">
-                        <Truck className="w-3 h-3 text-emerald-600" />
-                        <span>{offer.shippingDays || 1} günde kargoda • Ücretsiz Kargo</span>
-                      </span>
-                    </div>
-                  </div>
-
-                  <div className="flex items-center gap-4">
-                    <span className="text-sm sm:text-base font-black text-slate-900">
-                      {offer.price.toLocaleString('tr-TR')} TL
-                    </span>
-                    <a
-                      href={offer.url || '#'}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="bg-emerald-600 hover:bg-emerald-700 text-white text-xs font-bold px-4 py-2 rounded-xl flex items-center gap-1 shadow-xs"
-                    >
-                      <span>Mağazaya Git</span>
-                      <ExternalLink className="w-3 h-3" />
-                    </a>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
+          <StoreTable offers={initialProduct.storeOffers} currency="TL" product={initialProduct} />
 
           {/* AI Module 3: AI Review Summary Card */}
           <AIReviewSummaryCard product={initialProduct} />

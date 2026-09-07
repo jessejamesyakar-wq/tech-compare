@@ -8,6 +8,7 @@ import { useSearchParams, useRouter } from 'next/navigation';
 import { Product } from '@/lib/types';
 import { useCompare } from '@/context/CompareContext';
 import { Search, ChevronRight, Scale, Check, Filter, Sparkles, ShoppingBag, Award, ArrowUpDown, RefreshCw } from 'lucide-react';
+import { getEffectiveStoreCount, ACTIVE_RETAILERS } from '@/lib/activeStores';
 
 function SearchContent() {
   const { t } = useI18n();
@@ -355,7 +356,7 @@ function SearchContent() {
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-3.5">
           {sortedResults.map((product) => {
             const inCompare = isInCompare(product.id);
-            const offersCount = product.storeOffers?.length || 1;
+            const offersCount = getEffectiveStoreCount(product.storeOffers || []);
 
             return (
               <div
@@ -415,7 +416,7 @@ function SearchContent() {
                   {/* Offers Count & Price */}
                   <div className="w-full pt-2 border-t border-slate-100 flex flex-col items-center">
                     <span className="text-[10px] text-slate-500 font-semibold mb-0.5">
-                      {offersCount} Mağaza Teklifi
+                      {offersCount === 1 ? `${ACTIVE_RETAILERS[0]?.name || 'Hepsiburada'} Teklifi` : `${offersCount} Mağaza Teklifi`}
                     </span>
                     <div className="text-emerald-600 font-black text-xs">
                       {product.basePrice.toLocaleString()} {product.currency || 'TL'}

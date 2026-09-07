@@ -120,7 +120,7 @@ export default function AdminStoresPage() {
               <h1 className="text-2xl font-black tracking-tight">Mağaza Entegrasyonları & Fiyat Motoru</h1>
             </div>
             <p className="mt-1 text-sm text-slate-500 dark:text-slate-400">
-              8 Büyük Mağazanın API bağlantı durumları, anomali kontrolü ve otomatik fiyat toplama yönetimi.
+              Perakende mağazalarının API bağlantı durumları, anomali kontrolü ve otomatik fiyat toplama yönetimi.
             </p>
           </div>
 

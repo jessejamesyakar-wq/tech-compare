@@ -9,6 +9,7 @@ import { getProductColorList, ResolvedColorOption } from '@/lib/colorVariantHelp
 import { ArrowRight, Store } from 'lucide-react';
 import { TiltCard } from '@/components/ui/TiltCard';
 import { useI18n } from '@/lib/i18n/context';
+import { getEffectiveStoreCount, filterActiveStoreOffers, ACTIVE_RETAILERS, ACTIVE_STORE_COUNT } from '@/lib/activeStores';
 
 export interface CompactProductCardProps {
   product: Product;
@@ -44,8 +45,9 @@ export function CompactProductCard({
       : `/phones/${slug}`;
 
   const offers = product.storeOffers || [];
-  const offerCount = offers.length > 0 ? offers.length : 3;
-  const prices = offers.map((o) => o.price).filter((p) => p > 0);
+  const activeOffers = filterActiveStoreOffers(offers);
+  const offerCount = getEffectiveStoreCount(offers);
+  const prices = (activeOffers.length > 0 ? activeOffers : offers).map((o) => o.price).filter((p) => p > 0);
   const minPrice = prices.length > 0 ? Math.min(...prices) : product.basePrice;
   const maxPrice = prices.length > 0 ? Math.max(...prices) : Math.round(product.basePrice * 1.08);
 
@@ -260,9 +262,9 @@ export function CompactProductCard({
         <div>
           <div className="text-[9px] sm:text-[10px] font-bold text-slate-400 uppercase tracking-wider flex items-center justify-between">
             <span>{t.bestPriceLabel}</span>
-            <span className="text-emerald-700 font-bold lowercase flex items-center gap-0.5 sm:gap-1 text-[10px] sm:text-[11px]">
+            <span className="text-emerald-700 font-bold flex items-center gap-0.5 sm:gap-1 text-[10px] sm:text-[11px]">
               <Store className="w-2.5 h-2.5 sm:w-3 sm:h-3" />
-              {offerCount} {t.storeOffers}
+              {offerCount === 1 ? `${ACTIVE_RETAILERS[0]?.name || 'Hepsiburada'} Fiyatı` : `${offerCount} Mağaza Fiyatı`}
             </span>
           </div>
           <div className="flex items-baseline justify-between pt-0.5">
@@ -286,16 +288,16 @@ export function CompactProductCard({
               </span>
             ) : (
               <span className="text-[9px] font-semibold text-slate-500 bg-slate-100 px-1.5 py-0.5 rounded">
-                {t.storeOffers}
+                {ACTIVE_STORE_COUNT === 1 ? (ACTIVE_RETAILERS[0]?.name || 'Hepsiburada') : `${offerCount} Mağaza`}
               </span>
             )}
           </div>
         </div>
 
-        {/* Top 2 Stores Comparison Chips */}
-        {offers.length > 0 ? (
+        {/* Active Store Comparison Chips */}
+        {activeOffers.length > 0 ? (
           <div className="flex items-center gap-1 sm:gap-1.5 flex-wrap pt-0.5">
-            {offers.slice(0, 2).map((offer, oIdx) => (
+            {activeOffers.slice(0, 2).map((offer, oIdx) => (
               <span
                 key={oIdx}
                 className="text-[9px] sm:text-[10px] font-semibold bg-slate-100/80 text-slate-700 px-1.5 sm:px-2 py-0.5 rounded-md flex items-center gap-0.5 sm:gap-1 truncate max-w-full"
@@ -308,7 +310,7 @@ export function CompactProductCard({
         ) : (
           <div className="flex items-center gap-1 text-[10px] sm:text-[11px] text-slate-500 font-medium pt-0.5">
             <span className="w-1 h-1 sm:w-1.5 sm:h-1.5 rounded-full bg-emerald-500" />
-            <span>{t.officialSeller}</span>
+            <span>{ACTIVE_STORE_COUNT === 1 ? `${ACTIVE_RETAILERS[0]?.name || 'Hepsiburada'} Yetkili Fiyatı` : t.officialSeller}</span>
           </div>
         )}
 
@@ -317,7 +319,7 @@ export function CompactProductCard({
           href={targetHref}
           className="w-full bg-slate-900 hover:bg-emerald-600 text-white text-[10px] sm:text-[11px] font-bold py-1.5 sm:py-2 px-2.5 sm:px-3 rounded-xl flex items-center justify-center gap-1 sm:gap-1.5 transition-all mt-1 cursor-pointer"
         >
-          <span>{t.compareNavBtn} ({offerCount})</span>
+          <span>{offerCount === 1 ? `${ACTIVE_RETAILERS[0]?.name || 'Hepsiburada'} Fiyatını İncele` : `${t.compareNavBtn} (${offerCount} Mağaza)`}</span>
           <ArrowRight className="w-2.5 h-2.5 sm:w-3 sm:h-3" />
         </Link>
       </div>

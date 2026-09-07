@@ -8,6 +8,7 @@ import { Product } from '@/lib/types';
 import { useCompare } from '@/context/CompareContext';
 import { useI18n } from '@/lib/i18n/context';
 import { TiltCard } from '@/components/ui/TiltCard';
+import { getEffectiveStoreCount, filterActiveStoreOffers, ACTIVE_RETAILERS } from '@/lib/activeStores';
 import {
   Sparkles,
   Zap,
@@ -304,8 +305,9 @@ export function DynamicCategoryShowcase({ initialData }: { initialData?: Dynamic
             const badge = DYNAMIC_BADGES[idx % DYNAMIC_BADGES.length];
             const href = getProductHref(product);
             const offers = product.storeOffers || [];
-            const offerCount = offers.length > 0 ? offers.length : 3;
-            const prices = offers.map((o) => o.price).filter((p) => p > 0);
+            const activeOffers = filterActiveStoreOffers(offers);
+            const offerCount = getEffectiveStoreCount(offers);
+            const prices = (activeOffers.length > 0 ? activeOffers : offers).map((o) => o.price).filter((p) => p > 0);
             const minPrice = prices.length > 0 ? Math.min(...prices) : product.basePrice;
             const specSub = getSpecSummary(product);
 
@@ -369,9 +371,9 @@ export function DynamicCategoryShowcase({ initialData }: { initialData?: Dynamic
                       </div>
                     </div>
 
-                    <span className="text-emerald-700 font-bold lowercase flex items-center gap-1 text-[10px] sm:text-[11px] bg-emerald-50 px-2 py-0.5 rounded-md border border-emerald-200">
+                    <span className="text-emerald-700 font-bold flex items-center gap-1 text-[10px] sm:text-[11px] bg-emerald-50 px-2 py-0.5 rounded-md border border-emerald-200">
                       <Store className="w-3 h-3" />
-                      {offerCount} satıcı
+                      {offerCount === 1 ? `${ACTIVE_RETAILERS[0]?.name || 'Hepsiburada'} Fiyatı` : `${offerCount} Mağaza Fiyatı`}
                     </span>
                   </div>
 

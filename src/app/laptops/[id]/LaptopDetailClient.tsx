@@ -8,7 +8,7 @@ import Link from 'next/link';
 import { useSearchParams } from 'next/navigation';
 import { LaptopProduct } from '@/lib/types';
 import { resolveActiveColor } from '@/lib/colorVariantHelper';
-import { ACTIVE_STORE_COUNT, ACTIVE_RETAILERS } from '@/lib/activeStores';
+import { ACTIVE_STORE_COUNT, ACTIVE_RETAILERS, getActiveStoreComparisonTitle } from '@/lib/activeStores';
 import { StoreTable } from '@/components/detail/StoreTable';
 import { StickyHeaderBar } from '@/components/detail/StickyHeaderBar';
 import { ProductImageGallery } from '@/components/detail/ProductImageGallery';
@@ -234,7 +234,7 @@ export default function LaptopDetailClient({ initialLaptopProduct }: { initialLa
       <div className="space-y-4">
         <h2 className="text-lg font-black text-slate-900 tracking-tight flex items-center gap-2">
           <ShoppingBag className="w-5 h-5 text-emerald-600" />
-          <span>Mağaza Fiyat Karşılaştırması</span>
+          <span>{getActiveStoreComparisonTitle()}</span>
         </h2>
         <StoreTable offers={laptop.storeOffers} currency={laptop.currency} product={laptop} />
       </div>
