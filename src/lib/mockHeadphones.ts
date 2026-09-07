@@ -87788,7 +87788,10 @@ export const mockHeadphones: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": true,
-    "image": "/images/headphones/jbl-tune-520bt.jpg",
+    "image": "/images/headphones/sony-wh-1000xm5.jpg",
+    "images": [
+      "/images/headphones/sony-wh-1000xm5.jpg"
+    ],
     "highlights": [
       "Sektör Lideri Çift İşlemcili ANC",
       "LDAC Yüksek Çözünürlüklü Ses",
@@ -88022,7 +88025,10 @@ export const mockHeadphones: Product[] = [
     "releaseYear": 2025,
     "isPopular": true,
     "isFeatured": true,
-    "image": "/images/headphones/jbl-tune-520bt.jpg",
+    "image": "/images/headphones/samsung-galaxy-buds-3-pro.png",
+    "images": [
+      "/images/headphones/samsung-galaxy-buds-3-pro.png"
+    ],
     "highlights": [
       "Galaxy AI Akıllı Gürültü Kontrolü",
       "2 Yollu Hoparlör (Hi-Fi Ses)",
@@ -88139,7 +88145,10 @@ export const mockHeadphones: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/headphones/jbl-tune-520bt.jpg",
+    "image": "/images/headphones/marshall-major-iv.jpg",
+    "images": [
+      "/images/headphones/marshall-major-iv.jpg"
+    ],
     "highlights": [
       "80+ Saat Kablosuz Çalma Süresi",
       "İkonik Marshall Vintage Tasarımı",
