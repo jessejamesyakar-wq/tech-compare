@@ -1,8 +1,11 @@
 import { Suspense } from 'react';
 import { getAllBrands, getCatalogSmartphones } from '@/lib/data';
+import { Metadata } from 'next';
+import { buildCategoryMetadata } from '@/lib/seoHelper';
 import PhonesClient from './PhonesClient';
 
 export const revalidate = 3600;
+export const metadata: Metadata = buildCategoryMetadata('phones');
 
 export default async function PhonesPage() {
   const [phones, brands] = await Promise.all([getCatalogSmartphones(), getAllBrands()]);

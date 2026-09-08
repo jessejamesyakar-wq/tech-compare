@@ -1,8 +1,11 @@
 import { Suspense } from 'react';
+import { Metadata } from 'next';
 import { getCatalogAppliances } from '@/lib/data';
+import { buildCategoryMetadata } from '@/lib/seoHelper';
 import AppliancesClient from './AppliancesClient';
 
 export const revalidate = 3600;
+export const metadata: Metadata = buildCategoryMetadata('appliances');
 
 export default async function AppliancesPage() {
   const products = await getCatalogAppliances();

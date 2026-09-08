@@ -80,10 +80,15 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     priority: 0.9,
   }));
 
-  // 3. Dynamic Product Pages (from dataset)
+  // 3. Dynamic Product Pages (638 real 2026 model products, deduplicated)
   const allProducts = await getAllProducts();
+  const seenUrls = new Set<string>();
+  const productRoutes: MetadataRoute.Sitemap = [];
 
-  const productRoutes: MetadataRoute.Sitemap = allProducts.map((p) => {
+  for (const p of allProducts) {
+    const is2026 = p.releaseYear === 2026 || (p as any).modelYear === 2026;
+    if (!is2026) continue;
+
     const slug = p.slug || p.id;
     let pathPrefix = 'phones';
     if (p.category === 'tvs') pathPrefix = 'tvs';
@@ -95,13 +100,17 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     else if (p.category === 'consoles') pathPrefix = 'consoles';
     else if (p.category === 'monitors') pathPrefix = 'monitors';
 
-    return {
-      url: `${baseUrl}/${pathPrefix}/${slug}`,
-      lastModified: now,
-      changeFrequency: 'daily',
-      priority: p.isFeatured || p.isPopular ? 0.85 : 0.75,
-    };
-  });
+    const fullUrl = `${baseUrl}/${pathPrefix}/${slug}`;
+    if (!seenUrls.has(fullUrl)) {
+      seenUrls.add(fullUrl);
+      productRoutes.push({
+        url: fullUrl,
+        lastModified: now,
+        changeFrequency: 'daily',
+        priority: p.isFeatured || p.isPopular ? 0.85 : 0.75,
+      });
+    }
+  }
 
   return [...staticRoutes, ...categoryRoutes, ...productRoutes];
 }

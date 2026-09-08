@@ -17531,7 +17531,7 @@ export const mockTVs: Product[] = [
     "isPopular": true,
     "rating": 4.9,
     "reviewCount": 56,
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/lg-oled48c54la-1.jpg",
     "highlights": [
       "48\" 4K OLED evo Ekran & α9 (Alpha9) Gen8 AI Processor 4K",
       "100/120/144 Hz Gerçek Yenileme Hızı & VRR / G-Sync / FreeSync Premium",
@@ -17664,7 +17664,9 @@ export const mockTVs: Product[] = [
       "bezelStyle": "Süper İnce Çerçeve & Kare Metal Ayak Stand"
     },
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/lg-oled48c54la-1.jpg",
+      "/images/products/tvs/lg-oled48c54la-2.jpg",
+      "/images/products/tvs/lg-oled48c54la-3.jpg"
     ],
     "isFeatured": true,
     "epeyScore": 81
@@ -30212,9 +30214,9 @@ export const mockTVs: Product[] = [
     "name": "LG StanbyME Go 27LX5QKNA 27\" Dokunmatik Taşınabilir Akıllı Ekran & TV (webOS)",
     "brand": "LG",
     "category": "tvs",
-    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
+    "image": "/images/products/tvs/lg-stanbyme-go-27lx5qkna.jpg",
     "images": [
-      "/images/products/tvs/lg-55qned81b6a-1.jpg"
+      "/images/products/tvs/lg-stanbyme-go-27lx5qkna.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 43,

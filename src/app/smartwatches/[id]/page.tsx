@@ -1,7 +1,7 @@
 import { Suspense } from 'react';
 import { Metadata } from 'next';
 import { getSmartwatchById, getProductById } from '@/lib/data';
-import { getEffectiveStoreCount, ACTIVE_RETAILERS } from '@/lib/activeStores';
+import { buildProductMetadata } from '@/lib/seoHelper';
 import SmartwatchesDetailClient from './SmartwatchesDetailClient';
 
 export async function generateMetadata({
@@ -11,47 +11,7 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { id } = await params;
   const product = (await getSmartwatchById(id)) ?? (await getProductById(id)) ?? null;
-
-  if (!product) {
-    return {
-      title: 'Ürün Bulunamadı | aceleEtme',
-      description: 'Aradığınız ürün bulunamadı.',
-    };
-  }
-
-  const slug = product.slug || product.id;
-  const offers = product.storeOffers || [];
-  const prices = offers.map((o) => o.price).filter((pr) => pr > 0);
-  const bestPrice = prices.length > 0 ? Math.min(...prices) : product.basePrice;
-  const storeCount = getEffectiveStoreCount(offers);
-
-  const title = `${product.name} Fiyatları - En Ucuz ${bestPrice.toLocaleString('tr-TR')}₺ | aceleEtme`;
-  const description = storeCount === 1
-    ? `${product.name} en güncel ${ACTIVE_RETAILERS[0]?.name || 'Hepsiburada'} fiyatını incele, en uygun fiyatı bul. ${product.brand || ''} ${product.category || ''} modelleri arasında en iyi fırsatlar aceleEtme'de.`
-    : `${product.name} fiyatlarını karşılaştır, ${storeCount} mağazadan en uygun fiyatı bul. ${product.brand || ''} ${product.category || ''} modelleri arasında en iyi fırsatlar aceleEtme'de.`;
-  const canonical = `https://www.aceleetme.tech/smartwatches/${slug}`;
-
-  return {
-    title,
-    description,
-    alternates: {
-      canonical,
-    },
-    openGraph: {
-      title,
-      description,
-      url: canonical,
-      siteName: 'aceleEtme',
-      images: product.image ? [{ url: product.image, alt: product.name }] : [],
-      type: 'website',
-    },
-    twitter: {
-      card: 'summary_large_image',
-      title,
-      description,
-      images: product.image ? [product.image] : [],
-    },
-  };
+  return buildProductMetadata(product, 'smartwatches');
 }
 
 export default async function SmartwatchesDetailPage({
