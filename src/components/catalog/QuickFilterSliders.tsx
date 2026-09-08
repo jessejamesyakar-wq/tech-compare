@@ -54,6 +54,8 @@ const POPULAR_MODELS: QuickFilterModel[] = [
   { name: 'Vivo Y29', query: 'Vivo Y29', brand: 'Vivo' },
   { name: 'Infinix Hot 60i', query: 'Hot 60i', brand: 'Infinix' },
   { name: 'Infinix Hot 60 Pro+', query: 'Hot 60 Pro Plus', brand: 'Infinix' },
+  { name: 'Honor 600', query: 'Honor 600', brand: 'Honor' },
+  { name: 'Honor Magic 8 Pro', query: 'Magic 8 Pro', brand: 'Honor' },
 ];
 
 interface QuickFilterSlidersProps {

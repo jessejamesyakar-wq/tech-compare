@@ -26208,119 +26208,82 @@
   {
     "id": "honor-honor-600-lite-90",
     "slug": "honor-600-lite",
-    "name": "Honor 600 Lite",
+    "name": "Honor 600 Lite 5G (8/256 GB)",
     "brand": "Honor",
     "category": "smartphones",
-    "basePrice": 19329,
+    "basePrice": 34999,
     "currency": "TL",
-    "rating": 4.6,
-    "reviewCount": 724,
+    "rating": 4.8,
+    "reviewCount": 284,
     "releaseYear": 2026,
     "isPopular": true,
     "isFeatured": false,
     "highlights": [
-      "Honor 600 Lite Orijinal Türkiye Garantili",
-      "6.7\" FHD+ 120Hz AMOLED",
-      "8 GB RAM & 256 GB Depolama",
-      "5500 mAh Batarya Kapasitesi"
+      "6.7 inç 120Hz Parlak AMOLED Ekran (2000 nits)",
+      "108 MP OIS Destekli Ana Kamera & 50 MP AI Selfie",
+      "6000 mAh Yüksek Yoğunluklu Batarya Kapasitesi",
+      "5G & eSIM Desteği ile Kesintisiz Bağlantı"
     ],
-    "image": "/images/phones/honor/honor-600-lite.jpg",
+    "image": "/images/phones/honor/honor-600-lite-5g-siyah.jpg",
     "storeOffers": [
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 34999,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/honor-600-lite-5g-8-256-gb-akilli-telefon-siyah.html"
+      },
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 19429,
-        "shippingFee": 0,
+        "price": 34499,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/ara?q=Honor%20600%20Lite",
-        "rating": 4.8
+        "url": "https://www.hepsiburada.com/ara?q=Honor+600+Lite+5G"
       },
       {
         "storeName": "Trendyol",
         "storeLogo": "/images/stores/trendyol.png",
-        "price": 19659,
-        "shippingFee": 0,
+        "price": 34749,
         "inStock": true,
-        "url": "https://www.trendyol.com/sr?q=Honor%20600%20Lite",
-        "rating": 4.8
-      },
-      {
-        "storeName": "MediaMarkt",
-        "storeLogo": "/images/stores/mediamarkt.png",
-        "price": 19919,
-        "shippingFee": 0,
-        "inStock": true,
-        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Honor%20600%20Lite",
-        "rating": 4.8
-      },
-      {
-        "storeName": "Vatan Bilgisayar",
-        "storeLogo": "/images/stores/vatan.png",
-        "price": 20109,
-        "shippingFee": 0,
-        "inStock": true,
-        "url": "https://www.vatanbilgisayar.com/arama/Honor%20600%20Lite",
-        "rating": 4.8
-      },
-      {
-        "storeName": "Amazon Türkiye",
-        "storeLogo": "/images/stores/amazon.png",
-        "price": 19329,
-        "shippingFee": 0,
-        "inStock": true,
-        "url": "https://www.amazon.com.tr/s?k=Honor%20600%20Lite",
-        "rating": 4.8
-      },
-      {
-        "storeName": "Teknosa",
-        "storeLogo": "/images/stores/teknosa.png",
-        "price": 19969,
-        "shippingFee": 0,
-        "inStock": true,
-        "url": "https://www.teknosa.com/arama?s=Honor%20600%20Lite",
-        "rating": 4.8
+        "url": "https://www.trendyol.com/sr?q=Honor+600+Lite"
       }
     ],
     "priceHistory": [
       {
-        "date": "Ekim 2025",
-        "price": 22150
+        "date": "Mayıs 2026",
+        "price": 37999
       },
       {
-        "date": "Kasım 2025",
-        "price": 21570
+        "date": "Haziran 2026",
+        "price": 36499
       },
       {
-        "date": "Aralık 2025",
-        "price": 20980
-      },
-      {
-        "date": "Ocak 2026",
-        "price": 20400
-      },
-      {
-        "date": "Şubat 2026",
-        "price": 19820
+        "date": "Temmuz 2026",
+        "price": 35499
       },
       {
         "date": "Ağustos 2026",
-        "price": 19430
+        "price": 34999
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 34999
       }
     ],
     "specs": {
       "screen": {
-        "size": "6.7\"",
-        "type": "6.7\" FHD+ 120Hz AMOLED",
-        "resolution": "2400 x 1080 px",
+        "size": "6.7 inç",
+        "type": "120Hz AMOLED",
+        "resolution": "2412 x 1080 (FHD+)",
         "refreshRate": 120,
-        "ppi": 390,
-        "brightnessNits": 1600
+        "ppi": 394,
+        "brightnessNits": 2000
       },
       "processor": {
-        "chip": "Dimensity 6400+ 5G",
-        "cores": "8 Çekirdek",
-        "process": "2nm",
-        "antutuScore": 790000
+        "chip": "Qualcomm Snapdragon 6 Gen 3 / 7 Gen 3",
+        "cores": "8 Çekirdek (4nm)",
+        "process": "4nm",
+        "antutuScore": 680000
       },
       "memory": {
         "ramGb": 8,
@@ -26329,193 +26292,14 @@
         "storageOptions": [
           256
         ],
-        "expandableStorage": true
+        "expandableStorage": false
       },
       "camera": {
-        "mainMp": "108 MP",
-        "ultrawideMp": "12 MP",
-        "telephotoMp": "Yok",
-        "selfieMp": "16 MP",
-        "videoRes": "4K @ 30fps",
-        "dxomarkScore": 120
-      },
-      "battery": {
-        "capacitymAh": 5500,
-        "chargingWatts": 35,
-        "wirelessCharging": false,
-        "reverseWireless": false
-      },
-      "connectivity": {
-        "has5G": true,
-        "wifiStandard": "Wi-Fi 6",
-        "bluetooth": "5.3",
-        "hasNFC": true,
-        "hasesim": false
-      },
-      "build": {
-        "weightGrams": 185,
-        "thicknessMm": 8.1,
-        "waterResistance": "Yok",
-        "frameMaterial": "Polikarbonat"
-      },
-      "software": {
-        "osName": "MagicOS 10.0 (Android 16)",
-        "updateYears": 5
-      }
-    },
-    "images": [
-      "/images/phones/honor/honor-600-lite.jpg"
-    ],
-    "price": 19999,
-    "priceFormatted": "19.999 TL",
-    "pros": [
-      "Fiyat / performans dengesi",
-      "Akıcı ve stabil kullanıcı deneyimi",
-      "Kaliteli malzeme yapısı"
-    ],
-    "cons": [
-      "Kutudan hızlı şarj adaptörü çıkmayabilir"
-    ],
-    "isLatestModel": true
-  },
-  {
-    "id": "honor-honor-600-pro-89",
-    "slug": "honor-600-pro",
-    "name": "Honor 600 Pro",
-    "brand": "Honor",
-    "category": "smartphones",
-    "basePrice": 43509,
-    "currency": "TL",
-    "rating": 4.5,
-    "reviewCount": 683,
-    "releaseYear": 2026,
-    "isPopular": true,
-    "isFeatured": false,
-    "highlights": [
-      "Honor 600 Pro Orijinal Türkiye Garantili",
-      "6.78\" 1.5K 144Hz OLED (120W & 66W Kablosuz Şarj)",
-      "16 GB RAM & 512 GB Depolama",
-      "6000 mAh Batarya Kapasitesi"
-    ],
-    "image": "/images/phones/honor/honor-magic6-pro.jpg",
-    "storeOffers": [
-      {
-        "storeName": "Hepsiburada",
-        "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 54599,
-        "shippingFee": 0,
-        "inStock": true,
-        "url": "https://www.hepsiburada.com/honor-600-pro-5g-512-gb-12-gb-ram-honor-turkiye-garantili-altin-beyazi-p-HBCV0000E0R6MX",
-        "rating": 4.8,
-        "updatedAt": "2026-09-06T18:12:55.116Z"
-      },
-      {
-        "storeName": "Trendyol",
-        "storeLogo": "/images/stores/trendyol.png",
-        "price": 44249,
-        "shippingFee": 0,
-        "inStock": true,
-        "url": "https://www.trendyol.com/sr?q=Honor%20600%20Pro",
-        "rating": 4.8
-      },
-      {
-        "storeName": "MediaMarkt",
-        "storeLogo": "/images/stores/mediamarkt.png",
-        "price": 44819,
-        "shippingFee": 0,
-        "inStock": true,
-        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Honor%20600%20Pro",
-        "rating": 4.8
-      },
-      {
-        "storeName": "Vatan Bilgisayar",
-        "storeLogo": "/images/stores/vatan.png",
-        "price": 45259,
-        "shippingFee": 0,
-        "inStock": true,
-        "url": "https://www.vatanbilgisayar.com/arama/Honor%20600%20Pro",
-        "rating": 4.8
-      },
-      {
-        "storeName": "Amazon Türkiye",
-        "storeLogo": "/images/stores/amazon.png",
-        "price": 43509,
-        "shippingFee": 0,
-        "inStock": true,
-        "url": "https://www.amazon.com.tr/s?k=Honor%20600%20Pro",
-        "rating": 4.8
-      },
-      {
-        "storeName": "Teknosa",
-        "storeLogo": "/images/stores/teknosa.png",
-        "price": 44949,
-        "shippingFee": 0,
-        "inStock": true,
-        "url": "https://www.teknosa.com/arama?s=Honor%20600%20Pro",
-        "rating": 4.8
-      }
-    ],
-    "priceHistory": [
-      {
-        "date": "Ekim 2025",
-        "price": 49850
-      },
-      {
-        "date": "Kasım 2025",
-        "price": 48540
-      },
-      {
-        "date": "Aralık 2025",
-        "price": 47230
-      },
-      {
-        "date": "Ocak 2026",
-        "price": 45920
-      },
-      {
-        "date": "Şubat 2026",
-        "price": 44600
-      },
-      {
-        "date": "Ağustos 2026",
-        "price": 43730
-      },
-      {
-        "date": "6 Eylül 2026",
-        "price": 43509
-      }
-    ],
-    "specs": {
-      "screen": {
-        "size": "6.78\"",
-        "type": "6.78\" 1.5K 144Hz OLED (120W & 66W Kablosuz Şarj)",
-        "resolution": "2400 x 1080 px",
-        "refreshRate": 144,
-        "ppi": 390,
-        "brightnessNits": 1600
-      },
-      "processor": {
-        "chip": "Snapdragon 8s Gen 5 (IP69 Suya Dayanıklı)",
-        "cores": "8 Çekirdek",
-        "process": "2nm",
-        "antutuScore": 790000
-      },
-      "memory": {
-        "ramGb": 16,
-        "ramType": "LPDDR5X",
-        "storageGb": 512,
-        "storageOptions": [
-          512
-        ],
-        "expandableStorage": true
-      },
-      "camera": {
-        "mainMp": "50 MP",
-        "ultrawideMp": "12 MP",
-        "telephotoMp": "Yok",
-        "selfieMp": "50 MP 4K Selfie",
-        "videoRes": "4K @ 30fps",
-        "dxomarkScore": 120
+        "mainMp": "108 MP (OIS Destekli)",
+        "ultrawideMp": "5 MP Ultra Geniş Açı + 2 MP Makro",
+        "selfieMp": "50 MP AI Ön Portre Kamera",
+        "videoRes": "4K @ 30fps / 1080p @ 60fps",
+        "dxomarkScore": 118
       },
       "battery": {
         "capacitymAh": 6000,
@@ -26528,155 +26312,163 @@
         "wifiStandard": "Wi-Fi 6",
         "bluetooth": "5.3",
         "hasNFC": true,
-        "hasesim": false
+        "hasesim": true
       },
       "build": {
-        "weightGrams": 185,
-        "thicknessMm": 8.1,
-        "waterResistance": "Yok",
-        "frameMaterial": "Polikarbonat"
+        "weightGrams": 182,
+        "thicknessMm": 7.8,
+        "waterResistance": "IP54",
+        "frameMaterial": "Ultra İnce Ergonomik Tasarım"
       },
       "software": {
-        "osName": "MagicOS 10.0 (Android 16)",
-        "updateYears": 5
+        "osName": "MagicOS 8.0 (Android 14)",
+        "updateYears": 3
       }
     },
     "images": [
-      "/images/phones/honor/honor-magic6-pro.jpg"
+      "/images/phones/honor/honor-600-lite-5g-siyah.jpg",
+      "/images/phones/honor/honor-600-lite-5g-gri.jpg",
+      "/images/phones/honor/honor-600-lite-5g-filiz-yesili.jpg"
     ],
-    "price": 44999,
-    "priceFormatted": "44.999 TL",
+    "price": 34999,
+    "priceFormatted": "34.999 TL",
     "pros": [
-      "Fiyat / performans dengesi",
-      "Akıcı ve stabil kullanıcı deneyimi",
-      "Kaliteli malzeme yapısı"
+      "6000 mAh batarya kapasitesine rağmen yalnızca 7.8 mm incelik",
+      "50 MP yüksek çözünürlüklü ön kamera ile kaliteli selfie çekimleri",
+      "2000 nits tepe parlaklığa sahip 120Hz parlak AMOLED ekran"
     ],
     "cons": [
-      "Kutudan hızlı şarj adaptörü çıkmayabilir"
+      "Kablosuz şarj desteği yok"
     ],
-    "isLatestModel": true
+    "isLatestModel": true,
+    "gallery": [
+      "/images/phones/honor/honor-600-lite-5g-siyah.jpg",
+      "/images/phones/honor/honor-600-lite-5g-gri.jpg",
+      "/images/phones/honor/honor-600-lite-5g-filiz-yesili.jpg"
+    ],
+    "colorOptions": [
+      {
+        "name": "Siyah",
+        "hex": "#1B1C20",
+        "image": "/images/phones/honor/honor-600-lite-5g-siyah.jpg"
+      },
+      {
+        "name": "Gri",
+        "hex": "#8D9096",
+        "image": "/images/phones/honor/honor-600-lite-5g-gri.jpg"
+      },
+      {
+        "name": "Filiz Yeşili",
+        "hex": "#78957F",
+        "image": "/images/phones/honor/honor-600-lite-5g-filiz-yesili.jpg"
+      }
+    ],
+    "variants": [
+      {
+        "id": "honor-600-lite-5g-256gb-siyah",
+        "name": "Honor 600 Lite 5G 8/256 GB - Siyah",
+        "colorName": "Siyah",
+        "colorHex": "#1B1C20",
+        "image": "/images/phones/honor/honor-600-lite-5g-siyah.jpg",
+        "price": 34999
+      },
+      {
+        "id": "honor-600-lite-5g-256gb-gri",
+        "name": "Honor 600 Lite 5G 8/256 GB - Gri",
+        "colorName": "Gri",
+        "colorHex": "#8D9096",
+        "image": "/images/phones/honor/honor-600-lite-5g-gri.jpg",
+        "price": 34999
+      },
+      {
+        "id": "honor-600-lite-5g-256gb-filiz-yesili",
+        "name": "Honor 600 Lite 5G 8/256 GB - Filiz Yeşili",
+        "colorName": "Filiz Yeşili",
+        "colorHex": "#78957F",
+        "image": "/images/phones/honor/honor-600-lite-5g-filiz-yesili.jpg",
+        "price": 34999
+      }
+    ]
   },
   {
-    "id": "honor-honor-600-88",
-    "slug": "honor-600",
-    "name": "Honor 600",
+    "id": "honor-honor-600-pro-89",
+    "slug": "honor-600-pro",
+    "name": "Honor 600 Pro 5G (12/512 GB)",
     "brand": "Honor",
     "category": "smartphones",
-    "basePrice": 29899,
+    "basePrice": 62999,
     "currency": "TL",
-    "rating": 4.4,
-    "reviewCount": 642,
+    "rating": 4.9,
+    "reviewCount": 540,
     "releaseYear": 2026,
     "isPopular": true,
     "isFeatured": false,
     "highlights": [
-      "Honor 600 Orijinal Türkiye Garantili",
-      "6.7\" 1.5K 144Hz OLED (120W Şarj)",
-      "12 GB RAM & 512 GB Depolama",
-      "5800 mAh Batarya Kapasitesi"
+      "Snapdragon 8 Gen 3 Amiral Gemisi Yonga Seti (4nm)",
+      "6.78 inç 120Hz LTPO OLED Dört Kavisli Ekran (4000 nits)",
+      "100W Kablolu + 66W Kablosuz Honor SuperCharge",
+      "50 MP H9000 OIS Ana Kamera & IP68 Su Geçirmezlik"
     ],
-    "image": "/images/phones/honor/honor-magic6-pro.jpg",
+    "image": "/images/phones/honor/honor-600-pro-5g-siyah.jpg",
     "storeOffers": [
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 62999,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/honor-600-pro-12-512-gb-akilli-telefon-siyah.html"
+      },
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 29899,
-        "shippingFee": 0,
+        "price": 61999,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/honor-600-5g-256-gb-8-gb-ram-honor-turkiye-garantili-altin-beyazi-p-HBCV0000E0R6N1",
-        "rating": 4.8,
-        "updatedAt": "2026-09-06T18:13:00.906Z"
+        "url": "https://www.hepsiburada.com/ara?q=Honor+600+Pro+5G"
       },
       {
         "storeName": "Trendyol",
         "storeLogo": "/images/stores/trendyol.png",
-        "price": 34419,
-        "shippingFee": 0,
+        "price": 62499,
         "inStock": true,
-        "url": "https://www.trendyol.com/sr?q=Honor%20600",
-        "rating": 4.8
-      },
-      {
-        "storeName": "MediaMarkt",
-        "storeLogo": "/images/stores/mediamarkt.png",
-        "price": 34859,
-        "shippingFee": 0,
-        "inStock": true,
-        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Honor%20600",
-        "rating": 4.8
-      },
-      {
-        "storeName": "Vatan Bilgisayar",
-        "storeLogo": "/images/stores/vatan.png",
-        "price": 35199,
-        "shippingFee": 0,
-        "inStock": true,
-        "url": "https://www.vatanbilgisayar.com/arama/Honor%20600",
-        "rating": 4.8
-      },
-      {
-        "storeName": "Amazon Türkiye",
-        "storeLogo": "/images/stores/amazon.png",
-        "price": 33839,
-        "shippingFee": 0,
-        "inStock": true,
-        "url": "https://www.amazon.com.tr/s?k=Honor%20600",
-        "rating": 4.8
-      },
-      {
-        "storeName": "Teknosa",
-        "storeLogo": "/images/stores/teknosa.png",
-        "price": 34959,
-        "shippingFee": 0,
-        "inStock": true,
-        "url": "https://www.teknosa.com/arama?s=Honor%20600",
-        "rating": 4.8
+        "url": "https://www.trendyol.com/sr?q=Honor+600+Pro"
       }
     ],
     "priceHistory": [
       {
-        "date": "Ekim 2025",
-        "price": 38770
+        "date": "Mayıs 2026",
+        "price": 67999
       },
       {
-        "date": "Kasım 2025",
-        "price": 37750
+        "date": "Haziran 2026",
+        "price": 65999
       },
       {
-        "date": "Aralık 2025",
-        "price": 36730
-      },
-      {
-        "date": "Ocak 2026",
-        "price": 35710
-      },
-      {
-        "date": "Şubat 2026",
-        "price": 34690
+        "date": "Temmuz 2026",
+        "price": 63999
       },
       {
         "date": "Ağustos 2026",
-        "price": 34010
+        "price": 62999
       },
       {
         "date": "6 Eylül 2026",
-        "price": 29899
+        "price": 62999
       }
     ],
     "specs": {
       "screen": {
-        "size": "6.7\"",
-        "type": "6.7\" 1.5K 144Hz OLED (120W Şarj)",
-        "resolution": "2400 x 1080 px",
-        "refreshRate": 144,
-        "ppi": 390,
-        "brightnessNits": 1600
+        "size": "6.78 inç",
+        "type": "1-120Hz LTPO OLED Dört Kavisli Ekran",
+        "resolution": "2700 x 1224 (1.5K+)",
+        "refreshRate": 120,
+        "ppi": 437,
+        "brightnessNits": 4000
       },
       "processor": {
-        "chip": "Snapdragon 7+ Gen 4 5G (Harcourt Studio 3.0)",
-        "cores": "8 Çekirdek",
-        "process": "2nm",
-        "antutuScore": 790000
+        "chip": "Qualcomm Snapdragon 8 Gen 3",
+        "cores": "8 Çekirdek (1x3.3 GHz + 5x3.2 GHz + 2x2.3 GHz)",
+        "process": "4nm",
+        "antutuScore": 1850000
       },
       "memory": {
         "ramGb": 12,
@@ -26685,54 +26477,275 @@
         "storageOptions": [
           512
         ],
-        "expandableStorage": true
+        "expandableStorage": false
       },
       "camera": {
-        "mainMp": "50 MP",
-        "ultrawideMp": "12 MP",
-        "telephotoMp": "Yok",
-        "selfieMp": "16 MP",
-        "videoRes": "4K @ 30fps",
-        "dxomarkScore": 120
+        "mainMp": "50 MP H9000 Ultra Dinamik (1/1.3\", f/1.9, OIS)",
+        "ultrawideMp": "12 MP Ultra Geniş & Makro (112° FOV)",
+        "telephotoMp": "50 MP Sony IMX856 (2.5x Optik, 50x Dijital Zoom, OIS)",
+        "selfieMp": "50 MP + 3D Derinlik Yüz Tanıma Ön Kamera (4K 60fps)",
+        "videoRes": "4K @ 60fps HDR / 1080p @ 60fps",
+        "dxomarkScore": 142
       },
       "battery": {
-        "capacitymAh": 5800,
-        "chargingWatts": 35,
+        "capacitymAh": 5200,
+        "chargingWatts": 100,
+        "wirelessCharging": true,
+        "reverseWireless": true
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 7",
+        "bluetooth": "5.3",
+        "hasNFC": true,
+        "hasesim": true
+      },
+      "build": {
+        "weightGrams": 199,
+        "thicknessMm": 8.2,
+        "waterResistance": "IP68",
+        "frameMaterial": "Havacılık Sınıfı Alüminyum & Kavisli Cam Gövde"
+      },
+      "software": {
+        "osName": "MagicOS 8.0 (Android 14)",
+        "updateYears": 4
+      }
+    },
+    "images": [
+      "/images/phones/honor/honor-600-pro-5g-siyah.jpg",
+      "/images/phones/honor/honor-600-pro-5g-altin-beyazi.jpg"
+    ],
+    "price": 62999,
+    "priceFormatted": "62.999 TL",
+    "pros": [
+      "Snapdragon 8 Gen 3 üst seviye amiral gemisi işlemci performansı",
+      "100W kablolu ve 66W kablosuz ultra hızlı şarj kabiliyeti",
+      "1/1.3 inç H9000 özel sensörlü olağanüstü stüdyo portre kamerası"
+    ],
+    "cons": [
+      "Optik zoom mesafesi 2.5x ile sınırlı (periskop zoom Magic Pro serisinde)"
+    ],
+    "isLatestModel": true,
+    "gallery": [
+      "/images/phones/honor/honor-600-pro-5g-siyah.jpg",
+      "/images/phones/honor/honor-600-pro-5g-altin-beyazi.jpg"
+    ],
+    "colorOptions": [
+      {
+        "name": "Siyah",
+        "hex": "#17181A",
+        "image": "/images/phones/honor/honor-600-pro-5g-siyah.jpg"
+      },
+      {
+        "name": "Altın Beyazı",
+        "hex": "#F0EAE2",
+        "image": "/images/phones/honor/honor-600-pro-5g-altin-beyazi.jpg"
+      }
+    ],
+    "variants": [
+      {
+        "id": "honor-600-pro-5g-512gb-siyah",
+        "name": "Honor 600 Pro 5G 12/512 GB - Siyah",
+        "colorName": "Siyah",
+        "colorHex": "#17181A",
+        "image": "/images/phones/honor/honor-600-pro-5g-siyah.jpg",
+        "price": 62999
+      },
+      {
+        "id": "honor-600-pro-5g-512gb-altin-beyazi",
+        "name": "Honor 600 Pro 5G 12/512 GB - Altın Beyazı",
+        "colorName": "Altın Beyazı",
+        "colorHex": "#F0EAE2",
+        "image": "/images/phones/honor/honor-600-pro-5g-altin-beyazi.jpg",
+        "price": 62999
+      }
+    ]
+  },
+  {
+    "id": "honor-honor-600-88",
+    "slug": "honor-600",
+    "name": "Honor 600 5G (8/512 GB)",
+    "brand": "Honor",
+    "category": "smartphones",
+    "basePrice": 41999,
+    "currency": "TL",
+    "rating": 4.8,
+    "reviewCount": 420,
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "6.7 inç Dört Kavisli 120Hz OLED (4000 nits & 3840Hz PWM)",
+      "50 MP Sony IMX906 OIS Stüdyo Portre Kamera Sistemi",
+      "100W Kablolu Honor SuperCharge Hızlı Şarj",
+      "Qualcomm Snapdragon 7 Gen 3 Güçlü 4nm İşlemci"
+    ],
+    "image": "/images/phones/honor/honor-600-5g-siyah.jpg",
+    "storeOffers": [
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 41999,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/honor-600-5g-12-512-gb-akilli-telefon.html"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 41499,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com/ara?q=Honor+600+5G+512GB"
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 41699,
+        "inStock": true,
+        "url": "https://www.trendyol.com/sr?q=Honor+600"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "Mayıs 2026",
+        "price": 44999
+      },
+      {
+        "date": "Haziran 2026",
+        "price": 43499
+      },
+      {
+        "date": "Temmuz 2026",
+        "price": 42499
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 41999
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 41999
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.7 inç",
+        "type": "120Hz Dört Kavisli OLED (3840Hz PWM Karartma)",
+        "resolution": "2664 x 1200 (1.5K)",
+        "refreshRate": 120,
+        "ppi": 436,
+        "brightnessNits": 4000
+      },
+      "processor": {
+        "chip": "Qualcomm Snapdragon 7 Gen 3",
+        "cores": "8 Çekirdek (1x2.63 GHz + 3x2.40 GHz + 4x1.80 GHz)",
+        "process": "4nm",
+        "antutuScore": 820000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR5X",
+        "storageGb": 512,
+        "storageOptions": [
+          512
+        ],
+        "expandableStorage": false
+      },
+      "camera": {
+        "mainMp": "50 MP Sony IMX906 (1/1.56\", f/1.95, OIS)",
+        "ultrawideMp": "12 MP Ultra Geniş & Makro (112° FOV)",
+        "telephotoMp": "50 MP Sony IMX856 (2.5x Optik, 50x Dijital Zoom, OIS)",
+        "selfieMp": "50 MP Geniş Açılı AI Portre Ön Kamera (f/2.1, 4K Video)",
+        "videoRes": "4K @ 60fps / 1080p @ 60fps",
+        "dxomarkScore": 128
+      },
+      "battery": {
+        "capacitymAh": 5200,
+        "chargingWatts": 100,
         "wirelessCharging": false,
-        "reverseWireless": false
+        "reverseWireless": true
       },
       "connectivity": {
         "has5G": true,
         "wifiStandard": "Wi-Fi 6",
         "bluetooth": "5.3",
         "hasNFC": true,
-        "hasesim": false
+        "hasesim": true
       },
       "build": {
-        "weightGrams": 185,
-        "thicknessMm": 8.1,
-        "waterResistance": "Yok",
-        "frameMaterial": "Polikarbonat"
+        "weightGrams": 187,
+        "thicknessMm": 7.7,
+        "waterResistance": "IP65",
+        "frameMaterial": "Hafif ve Ergonomik Dört Kavisli Cam Gövde"
       },
       "software": {
-        "osName": "MagicOS 10.0 (Android 16)",
-        "updateYears": 5
+        "osName": "MagicOS 8.0 (Android 14)",
+        "updateYears": 4
       }
     },
     "images": [
-      "/images/phones/honor/honor-magic6-pro.jpg"
+      "/images/phones/honor/honor-600-5g-siyah.jpg",
+      "/images/phones/honor/honor-600-5g-altin-beyazi.jpg",
+      "/images/phones/honor/honor-600-5g-turuncu.jpg"
     ],
-    "price": 34999,
-    "priceFormatted": "34.999 TL",
+    "price": 41999,
+    "priceFormatted": "41.999 TL",
     "pros": [
-      "Fiyat / performans dengesi",
-      "Akıcı ve stabil kullanıcı deneyimi",
-      "Kaliteli malzeme yapısı"
+      "Harcourt stüdyo kalitesinde profesyonel portre fotoğrafçılığı motoru",
+      "100W kablolu süper hızlı şarj (%50 dolum yalnızca 15 dakika)",
+      "4000 nits tepe parlaklık ve 3840Hz titreşimsiz göz dostu OLED ekran"
     ],
     "cons": [
-      "Kutudan hızlı şarj adaptörü çıkmayabilir"
+      "Kablosuz şarj Pro modeline özel"
     ],
-    "isLatestModel": true
+    "isLatestModel": true,
+    "gallery": [
+      "/images/phones/honor/honor-600-5g-siyah.jpg",
+      "/images/phones/honor/honor-600-5g-altin-beyazi.jpg",
+      "/images/phones/honor/honor-600-5g-turuncu.jpg"
+    ],
+    "colorOptions": [
+      {
+        "name": "Siyah",
+        "hex": "#161719",
+        "image": "/images/phones/honor/honor-600-5g-siyah.jpg"
+      },
+      {
+        "name": "Altın Beyazı",
+        "hex": "#F3EFE9",
+        "image": "/images/phones/honor/honor-600-5g-altin-beyazi.jpg"
+      },
+      {
+        "name": "Turuncu",
+        "hex": "#D46238",
+        "image": "/images/phones/honor/honor-600-5g-turuncu.jpg"
+      }
+    ],
+    "variants": [
+      {
+        "id": "honor-600-5g-512gb-siyah",
+        "name": "Honor 600 5G 8/512 GB - Siyah",
+        "colorName": "Siyah",
+        "colorHex": "#161719",
+        "image": "/images/phones/honor/honor-600-5g-siyah.jpg",
+        "price": 41999
+      },
+      {
+        "id": "honor-600-5g-512gb-altin-beyazi",
+        "name": "Honor 600 5G 8/512 GB - Altın Beyazı",
+        "colorName": "Altın Beyazı",
+        "colorHex": "#F3EFE9",
+        "image": "/images/phones/honor/honor-600-5g-altin-beyazi.jpg",
+        "price": 41999
+      },
+      {
+        "id": "honor-600-5g-512gb-turuncu",
+        "name": "Honor 600 5G 8/512 GB - Turuncu",
+        "colorName": "Turuncu",
+        "colorHex": "#D46238",
+        "image": "/images/phones/honor/honor-600-5g-turuncu.jpg",
+        "price": 41999
+      }
+    ]
   },
   {
     "id": "honor-honor-magic-v6-87",
@@ -26910,305 +26923,255 @@
   {
     "id": "honor-honor-magic8-lite-86",
     "slug": "honor-magic8-lite",
-    "name": "Honor Magic8 Lite",
+    "name": "Honor Magic 8 Lite 5G (8/512 GB)",
     "brand": "Honor",
     "category": "smartphones",
-    "basePrice": 19329,
+    "basePrice": 29999,
     "currency": "TL",
-    "rating": 4.2,
-    "reviewCount": 560,
+    "rating": 4.7,
+    "reviewCount": 312,
     "releaseYear": 2026,
     "isPopular": true,
     "isFeatured": false,
     "highlights": [
-      "Honor Magic8 Lite Orijinal Türkiye Garantili",
-      "6.78\" 1.5K 120Hz OLED",
-      "12 GB RAM & 256 GB Depolama",
-      "6000 mAh Batarya Kapasitesi"
+      "6.78 inç 120Hz 1.5K Kavisli AMOLED Ekran (Ultra-Bounce)",
+      "108 MP Kayıpsız Zoomlu Ana Kamera Sistemi",
+      "8 GB RAM (+8GB Turbo RAM) & 512 GB Geniş Depolama",
+      "5800 mAh Ultra Dayanıklı Batarya & 35W Hızlı Şarj"
     ],
-    "image": "/images/phones/honor/honor-magic8-lite.jpg",
+    "image": "/images/phones/honor/honor-magic-8-lite-5g-siyah.jpg",
     "storeOffers": [
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 29999,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/honor-magic-8-lite-akilli-telefon.html"
+      },
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 29199,
-        "shippingFee": 0,
+        "price": 29499,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/honor-magic-8-lite-5g-256-gb-8-gb-ram-honor-turkiye-garantili-orman-yesili-p-HBCV0000B5VKGG",
-        "rating": 4.8,
-        "updatedAt": "2026-09-06T18:13:11.210Z"
+        "url": "https://www.hepsiburada.com/ara?q=Honor+Magic+8+Lite+512GB"
       },
       {
         "storeName": "Trendyol",
         "storeLogo": "/images/stores/trendyol.png",
-        "price": 19659,
-        "shippingFee": 0,
+        "price": 29799,
         "inStock": true,
-        "url": "https://www.trendyol.com/sr?q=Honor%20Magic8%20Lite",
-        "rating": 4.8
-      },
-      {
-        "storeName": "MediaMarkt",
-        "storeLogo": "/images/stores/mediamarkt.png",
-        "price": 19919,
-        "shippingFee": 0,
-        "inStock": true,
-        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Honor%20Magic8%20Lite",
-        "rating": 4.8
-      },
-      {
-        "storeName": "Vatan Bilgisayar",
-        "storeLogo": "/images/stores/vatan.png",
-        "price": 20109,
-        "shippingFee": 0,
-        "inStock": true,
-        "url": "https://www.vatanbilgisayar.com/arama/Honor%20Magic8%20Lite",
-        "rating": 4.8
-      },
-      {
-        "storeName": "Amazon Türkiye",
-        "storeLogo": "/images/stores/amazon.png",
-        "price": 19329,
-        "shippingFee": 0,
-        "inStock": true,
-        "url": "https://www.amazon.com.tr/s?k=Honor%20Magic8%20Lite",
-        "rating": 4.8
-      },
-      {
-        "storeName": "Teknosa",
-        "storeLogo": "/images/stores/teknosa.png",
-        "price": 19969,
-        "shippingFee": 0,
-        "inStock": true,
-        "url": "https://www.teknosa.com/arama?s=Honor%20Magic8%20Lite",
-        "rating": 4.8
+        "url": "https://www.trendyol.com/sr?q=Honor+Magic+8+Lite"
       }
     ],
     "priceHistory": [
       {
-        "date": "Ekim 2025",
-        "price": 22150
+        "date": "Mayıs 2026",
+        "price": 32999
       },
       {
-        "date": "Kasım 2025",
-        "price": 21570
+        "date": "Haziran 2026",
+        "price": 31999
       },
       {
-        "date": "Aralık 2025",
-        "price": 20980
-      },
-      {
-        "date": "Ocak 2026",
-        "price": 20400
-      },
-      {
-        "date": "Şubat 2026",
-        "price": 19820
+        "date": "Temmuz 2026",
+        "price": 30999
       },
       {
         "date": "Ağustos 2026",
-        "price": 19430
+        "price": 29999
       },
       {
         "date": "6 Eylül 2026",
-        "price": 19329
+        "price": 29999
       }
     ],
     "specs": {
       "screen": {
-        "size": "6.78\"",
-        "type": "6.78\" 1.5K 120Hz OLED",
-        "resolution": "2400 x 1080 px",
+        "size": "6.78 inç",
+        "type": "120Hz Kavisli AMOLED (Ultra-Bounce Anti-Drop)",
+        "resolution": "2652 x 1200 (1.5K)",
         "refreshRate": 120,
-        "ppi": 390,
-        "brightnessNits": 1600
+        "ppi": 429,
+        "brightnessNits": 1200
       },
       "processor": {
-        "chip": "Snapdragon 6s Gen 3 5G (Anti-Drop Kırılmaz Cam)",
-        "cores": "8 Çekirdek",
-        "process": "2nm",
-        "antutuScore": 790000
+        "chip": "Qualcomm Snapdragon 6 Gen 1",
+        "cores": "8 Çekirdek (4x2.2 GHz + 4x1.8 GHz)",
+        "process": "4nm",
+        "antutuScore": 580000
       },
       "memory": {
-        "ramGb": 12,
-        "ramType": "LPDDR5X",
-        "storageGb": 256,
+        "ramGb": 8,
+        "ramType": "LPDDR4X",
+        "storageGb": 512,
         "storageOptions": [
-          256
+          512
         ],
-        "expandableStorage": true
+        "expandableStorage": false
       },
       "camera": {
-        "mainMp": "108 MP",
-        "ultrawideMp": "12 MP",
-        "telephotoMp": "Yok",
-        "selfieMp": "16 MP",
-        "videoRes": "4K @ 30fps",
-        "dxomarkScore": 120
+        "mainMp": "108 MP (f/1.75, 3x Kayıpsız Zoom)",
+        "ultrawideMp": "5 MP Ultra Geniş Açı + 2 MP Makro",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "4K @ 30fps / 1080p @ 60fps",
+        "dxomarkScore": 112
       },
       "battery": {
-        "capacitymAh": 6000,
+        "capacitymAh": 5800,
         "chargingWatts": 35,
         "wirelessCharging": false,
         "reverseWireless": false
       },
       "connectivity": {
         "has5G": true,
-        "wifiStandard": "Wi-Fi 6",
-        "bluetooth": "5.3",
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.1",
         "hasNFC": true,
-        "hasesim": false
+        "hasesim": true
       },
       "build": {
         "weightGrams": 185,
-        "thicknessMm": 8.1,
-        "waterResistance": "Yok",
-        "frameMaterial": "Polikarbonat"
+        "thicknessMm": 7.98,
+        "waterResistance": "IP53",
+        "frameMaterial": "Ultra-Bounce Dayanıklı Kavisli Gövde"
       },
       "software": {
-        "osName": "MagicOS 10.0 (Android 16)",
-        "updateYears": 5
+        "osName": "MagicOS 8.0 (Android 14)",
+        "updateYears": 3
       }
     },
     "images": [
-      "/images/phones/honor/honor-magic8-lite.jpg"
+      "/images/phones/honor/honor-magic-8-lite-5g-siyah.jpg",
+      "/images/phones/honor/honor-magic-8-lite-5g-kirmizi.jpg"
     ],
-    "price": 19999,
-    "priceFormatted": "19.999 TL",
+    "price": 29999,
+    "priceFormatted": "29.999 TL",
     "pros": [
-      "Fiyat / performans dengesi",
-      "Akıcı ve stabil kullanıcı deneyimi",
-      "Kaliteli malzeme yapısı"
+      "Ultra-Bounce teknolojili darbelere ve düşmelere karşı son derece dayanıklı ekran",
+      "5800 mAh kapasiteli devasa batarya ile 2 güne varan pil ömrü",
+      "1.5K kavisli 120Hz net ve canlı AMOLED ekran"
     ],
     "cons": [
-      "Kutudan hızlı şarj adaptörü çıkmayabilir"
+      "Şarj hızı 35W ile orta segment standartlarında"
     ],
-    "isLatestModel": true
+    "isLatestModel": true,
+    "gallery": [
+      "/images/phones/honor/honor-magic-8-lite-5g-siyah.jpg",
+      "/images/phones/honor/honor-magic-8-lite-5g-kirmizi.jpg"
+    ],
+    "colorOptions": [
+      {
+        "name": "Siyah",
+        "hex": "#18191B",
+        "image": "/images/phones/honor/honor-magic-8-lite-5g-siyah.jpg"
+      },
+      {
+        "name": "Kırmızı",
+        "hex": "#9C1C26",
+        "image": "/images/phones/honor/honor-magic-8-lite-5g-kirmizi.jpg"
+      }
+    ],
+    "variants": [
+      {
+        "id": "honor-magic-8-lite-5g-512gb-siyah",
+        "name": "Honor Magic 8 Lite 5G 8/512 GB - Siyah",
+        "colorName": "Siyah",
+        "colorHex": "#18191B",
+        "image": "/images/phones/honor/honor-magic-8-lite-5g-siyah.jpg",
+        "price": 29999
+      },
+      {
+        "id": "honor-magic-8-lite-5g-512gb-kirmizi",
+        "name": "Honor Magic 8 Lite 5G 8/512 GB - Kırmızı",
+        "colorName": "Kırmızı",
+        "colorHex": "#9C1C26",
+        "image": "/images/phones/honor/honor-magic-8-lite-5g-kirmizi.jpg",
+        "price": 29999
+      }
+    ]
   },
   {
     "id": "honor-honor-magic8-pro-85",
     "slug": "honor-magic8-pro",
-    "name": "Honor Magic8 Pro",
+    "name": "Honor Magic 8 Pro 5G (12/512 GB)",
     "brand": "Honor",
     "category": "smartphones",
-    "basePrice": 70049,
+    "basePrice": 84999,
     "currency": "TL",
-    "rating": 4.6,
-    "reviewCount": 519,
+    "rating": 5,
+    "reviewCount": 680,
     "releaseYear": 2026,
     "isPopular": true,
     "isFeatured": true,
     "highlights": [
-      "Honor Magic8 Pro Orijinal Türkiye Garantili",
-      "6.8\" 1.5K 144Hz LTPO OLED Safir Zırh Ekran",
-      "16 GB RAM & 512 GB Depolama",
-      "6200 mAh Batarya Kapasitesi"
+      "180 MP Periskop Telefoto (100x Ultra Zoom, OIS)",
+      "50 MP Falcon Değişken Diyaframlı (f/1.4-f/2.0) Ana Kamera",
+      "6.8 inç 1-120Hz LTPO OLED Ekran (5000 nits & NanoCrystal Shield)",
+      "5600 mAh 2. Nesil Silikon-Karbon Batarya (80W Kablolu / 66W Kablosuz)"
     ],
-    "image": "/images/phones/honor/honor-magic8-pro.jpg",
+    "image": "/images/phones/honor/honor-magic-8-pro-5g-siyah.jpg",
     "storeOffers": [
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 84999,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/honor-magic-8-pro-12-512-gb-akilli-telefon-siyah.html"
+      },
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 70049,
-        "shippingFee": 0,
+        "price": 83999,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/honor-magic-8-pro-5g-512-gb-12-gb-ram-honor-turkiye-garantili-siyah-p-HBCV0000CATQ5D",
-        "rating": 4.8,
-        "updatedAt": "2026-09-06T18:13:14.929Z"
+        "url": "https://www.hepsiburada.com/ara?q=Honor+Magic+8+Pro"
       },
       {
         "storeName": "Trendyol",
         "storeLogo": "/images/stores/trendyol.png",
-        "price": 77029,
-        "shippingFee": 0,
+        "price": 84499,
         "inStock": true,
-        "url": "https://www.trendyol.com/sr?q=Honor%20Magic8%20Pro",
-        "rating": 4.8
-      },
-      {
-        "storeName": "MediaMarkt",
-        "storeLogo": "/images/stores/mediamarkt.png",
-        "price": 78019,
-        "shippingFee": 0,
-        "inStock": true,
-        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Honor%20Magic8%20Pro",
-        "rating": 4.8
-      },
-      {
-        "storeName": "Vatan Bilgisayar",
-        "storeLogo": "/images/stores/vatan.png",
-        "price": 78779,
-        "shippingFee": 0,
-        "inStock": true,
-        "url": "https://www.vatanbilgisayar.com/arama/Honor%20Magic8%20Pro",
-        "rating": 4.8
-      },
-      {
-        "storeName": "Amazon Türkiye",
-        "storeLogo": "/images/stores/amazon.png",
-        "price": 75739,
-        "shippingFee": 0,
-        "inStock": true,
-        "url": "https://www.amazon.com.tr/s?k=Honor%20Magic8%20Pro",
-        "rating": 4.8
-      },
-      {
-        "storeName": "Teknosa",
-        "storeLogo": "/images/stores/teknosa.png",
-        "price": 78249,
-        "shippingFee": 0,
-        "inStock": true,
-        "url": "https://www.teknosa.com/arama?s=Honor%20Magic8%20Pro",
-        "rating": 4.8
+        "url": "https://www.trendyol.com/sr?q=Honor+Magic+8+Pro"
       }
     ],
     "priceHistory": [
       {
-        "date": "Ekim 2025",
-        "price": 86780
+        "date": "Mayıs 2026",
+        "price": 89999
       },
       {
-        "date": "Kasım 2025",
-        "price": 84490
+        "date": "Haziran 2026",
+        "price": 87999
       },
       {
-        "date": "Aralık 2025",
-        "price": 82210
-      },
-      {
-        "date": "Ocak 2026",
-        "price": 79920
-      },
-      {
-        "date": "Şubat 2026",
-        "price": 77640
+        "date": "Temmuz 2026",
+        "price": 85999
       },
       {
         "date": "Ağustos 2026",
-        "price": 76120
+        "price": 84999
       },
       {
         "date": "6 Eylül 2026",
-        "price": 70049
+        "price": 84999
       }
     ],
     "specs": {
       "screen": {
-        "size": "6.8\"",
-        "type": "6.8\" 1.5K 144Hz LTPO OLED Safir Zırh Ekran",
-        "resolution": "2848 x 1312 px",
-        "refreshRate": 144,
-        "ppi": 460,
+        "size": "6.8 inç",
+        "type": "1-120Hz LTPO OLED Dört Kavisli Ekran (4320Hz PWM Karartma)",
+        "resolution": "2800 x 1280 (FHD+)",
+        "refreshRate": 120,
+        "ppi": 453,
         "brightnessNits": 5000
       },
       "processor": {
-        "chip": "Snapdragon 8 Gen 5 (200MP Falcon Periskop 2.0 / IP69)",
-        "cores": "8 Çekirdek",
-        "process": "2nm",
-        "antutuScore": 1910000
+        "chip": "Qualcomm Snapdragon 8 Gen 3 / Gen 4",
+        "cores": "8 Çekirdek (3nm/4nm)",
+        "process": "3nm",
+        "antutuScore": 2100000
       },
       "memory": {
-        "ramGb": 16,
+        "ramGb": 12,
         "ramType": "LPDDR5X",
         "storageGb": 512,
         "storageOptions": [
@@ -27217,15 +27180,15 @@
         "expandableStorage": false
       },
       "camera": {
-        "mainMp": "50 MP",
-        "ultrawideMp": "12 MP",
-        "telephotoMp": "180 MP Falcon Periskop OIS",
-        "selfieMp": "50 MP 4K Selfie",
-        "videoRes": "4K @ 60fps IMAX Enhanced",
+        "mainMp": "50 MP Falcon Süper Dinamik (1/1.3\", f/1.4-f/2.0 Değişken Diyafram, OIS)",
+        "ultrawideMp": "50 MP Ultra Geniş Açı (122° FOV, 2.5cm HD Makro)",
+        "telephotoMp": "180 MP Periskop Telefoto (1/1.49\", f/2.6, 2.5x Optik, 100x Dijital Zoom, OIS)",
+        "selfieMp": "50 MP 3D Derinlik Algılamalı Yüz Tanıma Ön Kamera (4K 60fps)",
+        "videoRes": "4K @ 60fps HDR10+ / 1080p @ 120fps",
         "dxomarkScore": 158
       },
       "battery": {
-        "capacitymAh": 6200,
+        "capacitymAh": 5600,
         "chargingWatts": 80,
         "wirelessCharging": true,
         "reverseWireless": true
@@ -27233,35 +27196,70 @@
       "connectivity": {
         "has5G": true,
         "wifiStandard": "Wi-Fi 7",
-        "bluetooth": "5.3",
+        "bluetooth": "5.4",
         "hasNFC": true,
         "hasesim": true
       },
       "build": {
-        "weightGrams": 209,
-        "thicknessMm": 8.1,
-        "waterResistance": "IP68 (1.5m 30dk)",
-        "frameMaterial": "Alüminyum"
+        "weightGrams": 225,
+        "thicknessMm": 8.9,
+        "waterResistance": "IP68",
+        "frameMaterial": "NanoCrystal Shield Zırhlı Cam & Havacılık Titanyum Çerçeve"
       },
       "software": {
-        "osName": "MagicOS 10.0 (Android 16)",
+        "osName": "MagicOS 9.0 (Android 15)",
         "updateYears": 5
       }
     },
     "images": [
-      "/images/phones/honor/honor-magic8-pro.jpg"
+      "/images/phones/honor/honor-magic-8-pro-5g-siyah.jpg",
+      "/images/phones/honor/honor-magic-8-pro-5g-gun-isigi-sarisi.jpg"
     ],
-    "price": 79999,
-    "priceFormatted": "79.999 TL",
+    "price": 84999,
+    "priceFormatted": "84.999 TL",
     "pros": [
-      "Fiyat / performans dengesi",
-      "Akıcı ve stabil kullanıcı deneyimi",
-      "Kaliteli malzeme yapısı"
+      "180 MP periskop telefoto kamera ile sektörün zirvesinde zoom netliği",
+      "5000 nits tepe parlaklık ve NanoCrystal Shield 10 kat düşme direnci",
+      "5600 mAh silikon-karbon batarya ve 66W kablosuz süper hızlı şarj"
     ],
     "cons": [
-      "Kutudan hızlı şarj adaptörü çıkmayabilir"
+      "225 gram ağırlık ile elde hissedilir gövde yapısı"
     ],
-    "isLatestModel": true
+    "isLatestModel": true,
+    "gallery": [
+      "/images/phones/honor/honor-magic-8-pro-5g-siyah.jpg",
+      "/images/phones/honor/honor-magic-8-pro-5g-gun-isigi-sarisi.jpg"
+    ],
+    "colorOptions": [
+      {
+        "name": "Siyah",
+        "hex": "#141517",
+        "image": "/images/phones/honor/honor-magic-8-pro-5g-siyah.jpg"
+      },
+      {
+        "name": "Gün Işığı Sarısı",
+        "hex": "#D6BE86",
+        "image": "/images/phones/honor/honor-magic-8-pro-5g-gun-isigi-sarisi.jpg"
+      }
+    ],
+    "variants": [
+      {
+        "id": "honor-magic-8-pro-5g-512gb-siyah",
+        "name": "Honor Magic 8 Pro 5G 12/512 GB - Siyah",
+        "colorName": "Siyah",
+        "colorHex": "#141517",
+        "image": "/images/phones/honor/honor-magic-8-pro-5g-siyah.jpg",
+        "price": 84999
+      },
+      {
+        "id": "honor-magic-8-pro-5g-512gb-gun-isigi-sarisi",
+        "name": "Honor Magic 8 Pro 5G 12/512 GB - Gün Işığı Sarısı",
+        "colorName": "Gün Işığı Sarısı",
+        "colorHex": "#D6BE86",
+        "image": "/images/phones/honor/honor-magic-8-pro-5g-gun-isigi-sarisi.jpg",
+        "price": 84999
+      }
+    ]
   },
   {
     "id": "honor-honor-magic8-84",
@@ -120952,7 +120950,9 @@
     ],
     "images": [
       "/images/phones/honor/honor-magic6-pro.jpg"
-    ]
+    ],
+    "price": 54999,
+    "priceFormatted": "54.999 TL"
   },
   {
     "id": "apple-apple-iphone-15-128-gb-895865",
