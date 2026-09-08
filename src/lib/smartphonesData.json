@@ -131832,5 +131832,1489 @@
         "reverseWireless": false
       }
     }
+  },
+  {
+    "id": "infinix-smart-10-4-128gb",
+    "slug": "infinix-smart-10-4-128gb",
+    "name": "Infinix Smart 10 (4/128 GB)",
+    "brand": "Infinix",
+    "category": "smartphones",
+    "basePrice": 8499,
+    "price": 8499,
+    "currency": "TL",
+    "rating": 4.4,
+    "reviewCount": 92,
+    "releaseYear": 2025,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "6.7 inç 120Hz Akıcı HD+ Ekran",
+      "5000 mAh Uzun Ömürlü Batarya",
+      "4 GB RAM + 128 GB Geniş Depolama",
+      "13 MP AI Arka & 8 MP Ön Kamera"
+    ],
+    "image": "/images/phones/infinix/infinix-smart-10-siyah.jpg",
+    "images": [
+      "/images/phones/infinix/infinix-smart-10-siyah.jpg",
+      "/images/phones/infinix/infinix-smart-10-gri.jpg",
+      "/images/phones/infinix/infinix-smart-10-mavi.jpg"
+    ],
+    "gallery": [
+      "/images/phones/infinix/infinix-smart-10-siyah.jpg",
+      "/images/phones/infinix/infinix-smart-10-gri.jpg",
+      "/images/phones/infinix/infinix-smart-10-mavi.jpg"
+    ],
+    "colorOptions": [
+      {
+        "name": "Siyah",
+        "hex": "#1C1C1E",
+        "image": "/images/phones/infinix/infinix-smart-10-siyah.jpg"
+      },
+      {
+        "name": "Titanyum Gri",
+        "hex": "#8E8E93",
+        "image": "/images/phones/infinix/infinix-smart-10-gri.jpg"
+      },
+      {
+        "name": "Mavi",
+        "hex": "#3A6B88",
+        "image": "/images/phones/infinix/infinix-smart-10-mavi.jpg"
+      }
+    ],
+    "variants": [
+      {
+        "id": "infinix-smart-10-4-128gb-siyah",
+        "name": "Infinix Smart 10 4/128 GB - Siyah",
+        "colorName": "Siyah",
+        "colorHex": "#1C1C1E",
+        "image": "/images/phones/infinix/infinix-smart-10-siyah.jpg",
+        "price": 8499
+      },
+      {
+        "id": "infinix-smart-10-4-128gb-gri",
+        "name": "Infinix Smart 10 4/128 GB - Titanyum Gri",
+        "colorName": "Titanyum Gri",
+        "colorHex": "#8E8E93",
+        "image": "/images/phones/infinix/infinix-smart-10-gri.jpg",
+        "price": 8499
+      },
+      {
+        "id": "infinix-smart-10-4-128gb-mavi",
+        "name": "Infinix Smart 10 4/128 GB - Mavi",
+        "colorName": "Mavi",
+        "colorHex": "#3A6B88",
+        "image": "/images/phones/infinix/infinix-smart-10-mavi.jpg",
+        "price": 8499
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.7 inç",
+        "type": "IPS LCD",
+        "resolution": "1600 x 720 (HD+)",
+        "refreshRate": 120,
+        "ppi": 262,
+        "brightnessNits": 500
+      },
+      "processor": {
+        "chip": "Unisoc T606 / Helio Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "12nm",
+        "antutuScore": 245000
+      },
+      "memory": {
+        "ramGb": 4,
+        "ramType": "LPDDR4X",
+        "storageGb": 128,
+        "storageOptions": [
+          128
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "13 MP",
+        "ultrawideMp": "AI Yardımcı Lens",
+        "selfieMp": "8 MP Selfie Kamera",
+        "videoRes": "1080p @ 30fps",
+        "dxomarkScore": 82
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 15,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.0",
+        "hasNFC": false,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 188,
+        "thicknessMm": 8.4,
+        "waterResistance": "IP54",
+        "frameMaterial": "Dayanıklı Polikarbonat Gövde"
+      },
+      "software": {
+        "osName": "Android 14 (XOS)",
+        "updateYears": 2
+      }
+    },
+    "storeOffers": [
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 8496,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/infinix-smart-10-4gb-128gb-akilli-telefon-siyah.html"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 8399,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com/ara?q=Infinix+Smart+10+128GB"
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 8449,
+        "inStock": true,
+        "url": "https://www.trendyol.com/sr?q=Infinix+Smart+10"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "Mayıs 2026",
+        "price": 9299
+      },
+      {
+        "date": "Haziran 2026",
+        "price": 8999
+      },
+      {
+        "date": "Temmuz 2026",
+        "price": 8699
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 8499
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 8499
+      }
+    ],
+    "pros": [
+      "Giriş segmentinde 120Hz yüksek yenileme hızı",
+      "5000 mAh geniş batarya kapasitesi",
+      "Genişletilebilir hafıza kartı desteği"
+    ],
+    "cons": [
+      "Ekran çözünürlüğü HD+ seviyesinde"
+    ]
+  },
+  {
+    "id": "infinix-hot-60i-4-128gb",
+    "slug": "infinix-hot-60i-4-128gb",
+    "name": "Infinix Hot 60i (4/128 GB)",
+    "brand": "Infinix",
+    "category": "smartphones",
+    "basePrice": 10999,
+    "price": 10999,
+    "currency": "TL",
+    "rating": 4.5,
+    "reviewCount": 114,
+    "releaseYear": 2025,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "6.78 inç 120Hz Akıcı Punch-Hole Ekran",
+      "50 MP Ultra Net Ana Kamera (f/1.6)",
+      "MediaTek Helio G81 Ultra İşlemci",
+      "5000 mAh Batarya & 18W Hızlı Şarj"
+    ],
+    "image": "/images/phones/infinix/infinix-hot-60i-4-128-mavi.jpg",
+    "images": [
+      "/images/phones/infinix/infinix-hot-60i-4-128-mavi.jpg",
+      "/images/phones/infinix/infinix-hot-60i-4-128-siyah.jpg",
+      "/images/phones/infinix/infinix-hot-60i-4-128-gumus.jpg"
+    ],
+    "gallery": [
+      "/images/phones/infinix/infinix-hot-60i-4-128-mavi.jpg",
+      "/images/phones/infinix/infinix-hot-60i-4-128-siyah.jpg",
+      "/images/phones/infinix/infinix-hot-60i-4-128-gumus.jpg"
+    ],
+    "colorOptions": [
+      {
+        "name": "Mavi",
+        "hex": "#44729B",
+        "image": "/images/phones/infinix/infinix-hot-60i-4-128-mavi.jpg"
+      },
+      {
+        "name": "Siyah",
+        "hex": "#1F2024",
+        "image": "/images/phones/infinix/infinix-hot-60i-4-128-siyah.jpg"
+      },
+      {
+        "name": "Gümüş",
+        "hex": "#D6D8DC",
+        "image": "/images/phones/infinix/infinix-hot-60i-4-128-gumus.jpg"
+      }
+    ],
+    "variants": [
+      {
+        "id": "infinix-hot-60i-4-128gb-mavi",
+        "name": "Infinix Hot 60i 4/128 GB - Mavi",
+        "colorName": "Mavi",
+        "colorHex": "#44729B",
+        "image": "/images/phones/infinix/infinix-hot-60i-4-128-mavi.jpg",
+        "price": 10999
+      },
+      {
+        "id": "infinix-hot-60i-4-128gb-siyah",
+        "name": "Infinix Hot 60i 4/128 GB - Siyah",
+        "colorName": "Siyah",
+        "colorHex": "#1F2024",
+        "image": "/images/phones/infinix/infinix-hot-60i-4-128-siyah.jpg",
+        "price": 10999
+      },
+      {
+        "id": "infinix-hot-60i-4-128gb-gumus",
+        "name": "Infinix Hot 60i 4/128 GB - Gümüş",
+        "colorName": "Gümüş",
+        "colorHex": "#D6D8DC",
+        "image": "/images/phones/infinix/infinix-hot-60i-4-128-gumus.jpg",
+        "price": 10999
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "IPS LCD",
+        "resolution": "1600 x 720 (HD+)",
+        "refreshRate": 120,
+        "ppi": 260,
+        "brightnessNits": 500
+      },
+      "processor": {
+        "chip": "MediaTek Helio G81 Ultra",
+        "cores": "8 Çekirdek (2.0 GHz)",
+        "process": "12nm",
+        "antutuScore": 275000
+      },
+      "memory": {
+        "ramGb": 4,
+        "ramType": "LPDDR4X",
+        "storageGb": 128,
+        "storageOptions": [
+          128
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "50 MP",
+        "ultrawideMp": "AI Lens",
+        "selfieMp": "8 MP Selfie Flaşlı",
+        "videoRes": "1080p @ 30fps",
+        "dxomarkScore": 92
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 18,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 189,
+        "thicknessMm": 7.88,
+        "waterResistance": "IP54",
+        "frameMaterial": "Ultra İnce Şık Gövde"
+      },
+      "software": {
+        "osName": "Android 14 (XOS 14.5)",
+        "updateYears": 2
+      }
+    },
+    "storeOffers": [
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 11096,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/infinix-hot-60i-4gb-128gb-akilli-telefon-mavi.html"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 10899,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com/ara?q=Infinix+Hot+60i+128GB"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "Mayıs 2026",
+        "price": 11999
+      },
+      {
+        "date": "Haziran 2026",
+        "price": 11499
+      },
+      {
+        "date": "Temmuz 2026",
+        "price": 11199
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 10999
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 10999
+      }
+    ],
+    "pros": [
+      "50 MP net ana kamera ve f/1.6 diyafram",
+      "7.88 mm ultra ince ve hafif tasarım",
+      "120Hz akıcı yenileme hızı ve NFC desteği"
+    ],
+    "cons": [
+      "4 GB temel RAM çoklu görevlerde sınırlandırabilir"
+    ]
+  },
+  {
+    "id": "infinix-hot-60i-6-128gb",
+    "slug": "infinix-hot-60i-6-128gb",
+    "name": "Infinix Hot 60i (6/128 GB)",
+    "brand": "Infinix",
+    "category": "smartphones",
+    "basePrice": 10499,
+    "price": 10499,
+    "currency": "TL",
+    "rating": 4.6,
+    "reviewCount": 135,
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "6 GB RAM + 6 GB Sanal Genişletme",
+      "6.78 inç 120Hz Dinamik Yenileme",
+      "50 MP Ultra Net Kamera Sistemi",
+      "5000 mAh Güçlü Batarya & 18W Şarj"
+    ],
+    "image": "/images/phones/infinix/infinix-hot-60i-6-128-gri.jpg",
+    "images": [
+      "/images/phones/infinix/infinix-hot-60i-6-128-gri.jpg",
+      "/images/phones/infinix/infinix-hot-60i-6-128-siyah.jpg"
+    ],
+    "gallery": [
+      "/images/phones/infinix/infinix-hot-60i-6-128-gri.jpg",
+      "/images/phones/infinix/infinix-hot-60i-6-128-siyah.jpg"
+    ],
+    "colorOptions": [
+      {
+        "name": "Gri",
+        "hex": "#63666A",
+        "image": "/images/phones/infinix/infinix-hot-60i-6-128-gri.jpg"
+      },
+      {
+        "name": "Siyah",
+        "hex": "#1C1D21",
+        "image": "/images/phones/infinix/infinix-hot-60i-6-128-siyah.jpg"
+      }
+    ],
+    "variants": [
+      {
+        "id": "infinix-hot-60i-6-128gb-gri",
+        "name": "Infinix Hot 60i 6/128 GB - Gri",
+        "colorName": "Gri",
+        "colorHex": "#63666A",
+        "image": "/images/phones/infinix/infinix-hot-60i-6-128-gri.jpg",
+        "price": 10499
+      },
+      {
+        "id": "infinix-hot-60i-6-128gb-siyah",
+        "name": "Infinix Hot 60i 6/128 GB - Siyah",
+        "colorName": "Siyah",
+        "colorHex": "#1C1D21",
+        "image": "/images/phones/infinix/infinix-hot-60i-6-128-siyah.jpg",
+        "price": 10499
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "IPS LCD",
+        "resolution": "1600 x 720 (HD+)",
+        "refreshRate": 120,
+        "ppi": 260,
+        "brightnessNits": 500
+      },
+      "processor": {
+        "chip": "MediaTek Helio G81 Ultra",
+        "cores": "8 Çekirdek (2.0 GHz)",
+        "process": "12nm",
+        "antutuScore": 280000
+      },
+      "memory": {
+        "ramGb": 6,
+        "ramType": "LPDDR4X",
+        "storageGb": 128,
+        "storageOptions": [
+          128
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "50 MP",
+        "ultrawideMp": "AI Lens",
+        "selfieMp": "8 MP Selfie Flaşlı",
+        "videoRes": "1080p @ 30fps",
+        "dxomarkScore": 92
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 18,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 189,
+        "thicknessMm": 7.88,
+        "waterResistance": "IP54",
+        "frameMaterial": "Ultra İnce Şık Gövde"
+      },
+      "software": {
+        "osName": "Android 14 (XOS 14.5)",
+        "updateYears": 2
+      }
+    },
+    "storeOffers": [
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 10196,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/infinix-hot-60i-6gb-128gb-akilli-telefon-gri.html"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 10399,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com/ara?q=Infinix+Hot+60i+6GB"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "Mayıs 2026",
+        "price": 11499
+      },
+      {
+        "date": "Haziran 2026",
+        "price": 10999
+      },
+      {
+        "date": "Temmuz 2026",
+        "price": 10699
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 10499
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 10499
+      }
+    ],
+    "pros": [
+      "6 GB RAM ile dengeli ve akıcı performans",
+      "Avantajlı fiyat/performans oranı",
+      "50 MP kaliteli ana kamera"
+    ],
+    "cons": [
+      "Kamera video kaydı 1080p 30fps ile sınırlı"
+    ]
+  },
+  {
+    "id": "infinix-hot-60i-8-256gb",
+    "slug": "infinix-hot-60i-8-256gb",
+    "name": "Infinix Hot 60i (8/256 GB)",
+    "brand": "Infinix",
+    "category": "smartphones",
+    "basePrice": 12999,
+    "price": 12999,
+    "currency": "TL",
+    "rating": 4.7,
+    "reviewCount": 188,
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "8 GB RAM + 256 GB Geniş Depolama",
+      "6.78 inç 120Hz Dinamik Ekran",
+      "50 MP Ultra Clear Ana Kamera",
+      "5000 mAh Batarya & 18W Hızlı Şarj"
+    ],
+    "image": "/images/phones/infinix/infinix-hot-60i-8-256-gri.jpg",
+    "images": [
+      "/images/phones/infinix/infinix-hot-60i-8-256-gri.jpg",
+      "/images/phones/infinix/infinix-hot-60i-8-256-siyah.jpg",
+      "/images/phones/infinix/infinix-hot-60i-8-256-mavi.jpg"
+    ],
+    "gallery": [
+      "/images/phones/infinix/infinix-hot-60i-8-256-gri.jpg",
+      "/images/phones/infinix/infinix-hot-60i-8-256-siyah.jpg",
+      "/images/phones/infinix/infinix-hot-60i-8-256-mavi.jpg"
+    ],
+    "colorOptions": [
+      {
+        "name": "Gri",
+        "hex": "#63666A",
+        "image": "/images/phones/infinix/infinix-hot-60i-8-256-gri.jpg"
+      },
+      {
+        "name": "Siyah",
+        "hex": "#1B1C20",
+        "image": "/images/phones/infinix/infinix-hot-60i-8-256-siyah.jpg"
+      },
+      {
+        "name": "Mavi",
+        "hex": "#3E6686",
+        "image": "/images/phones/infinix/infinix-hot-60i-8-256-mavi.jpg"
+      }
+    ],
+    "variants": [
+      {
+        "id": "infinix-hot-60i-8-256gb-gri",
+        "name": "Infinix Hot 60i 8/256 GB - Gri",
+        "colorName": "Gri",
+        "colorHex": "#63666A",
+        "image": "/images/phones/infinix/infinix-hot-60i-8-256-gri.jpg",
+        "price": 12999
+      },
+      {
+        "id": "infinix-hot-60i-8-256gb-siyah",
+        "name": "Infinix Hot 60i 8/256 GB - Siyah",
+        "colorName": "Siyah",
+        "colorHex": "#1B1C20",
+        "image": "/images/phones/infinix/infinix-hot-60i-8-256-siyah.jpg",
+        "price": 12999
+      },
+      {
+        "id": "infinix-hot-60i-8-256gb-mavi",
+        "name": "Infinix Hot 60i 8/256 GB - Mavi",
+        "colorName": "Mavi",
+        "colorHex": "#3E6686",
+        "image": "/images/phones/infinix/infinix-hot-60i-8-256-mavi.jpg",
+        "price": 12999
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "IPS LCD",
+        "resolution": "1600 x 720 (HD+)",
+        "refreshRate": 120,
+        "ppi": 260,
+        "brightnessNits": 500
+      },
+      "processor": {
+        "chip": "MediaTek Helio G81 Ultra",
+        "cores": "8 Çekirdek (2.0 GHz)",
+        "process": "12nm",
+        "antutuScore": 285000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR4X",
+        "storageGb": 256,
+        "storageOptions": [
+          256
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "50 MP",
+        "ultrawideMp": "AI Lens",
+        "selfieMp": "8 MP Selfie Flaşlı",
+        "videoRes": "1080p @ 30fps",
+        "dxomarkScore": 92
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 18,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 189,
+        "thicknessMm": 7.88,
+        "waterResistance": "IP54",
+        "frameMaterial": "Ultra İnce Şık Gövde"
+      },
+      "software": {
+        "osName": "Android 14 (XOS 14.5)",
+        "updateYears": 2
+      }
+    },
+    "storeOffers": [
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 13096,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/infinix-hot-60i-8-256gb-akilli-telefon-gri.html"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 12899,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com/ara?q=Infinix+Hot+60i+256GB"
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 12949,
+        "inStock": true,
+        "url": "https://www.trendyol.com/sr?q=Infinix+Hot+60i+256"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "Mayıs 2026",
+        "price": 13999
+      },
+      {
+        "date": "Haziran 2026",
+        "price": 13499
+      },
+      {
+        "date": "Temmuz 2026",
+        "price": 13199
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 12999
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 12999
+      }
+    ],
+    "pros": [
+      "256 GB yüksek dahili depolama ve 8 GB RAM",
+      "Çoklu uygulama geçişlerinde akıcı performans",
+      "Şık ve ergonomik ince gövde"
+    ],
+    "cons": [
+      "Ekran paneli FHD yerine HD+"
+    ]
+  },
+  {
+    "id": "infinix-hot-50-8-256gb",
+    "slug": "infinix-hot-50-8-256gb",
+    "name": "Infinix Hot 50 (8/256 GB)",
+    "brand": "Infinix",
+    "category": "smartphones",
+    "basePrice": 14999,
+    "price": 14999,
+    "currency": "TL",
+    "rating": 4.6,
+    "reviewCount": 162,
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "MediaTek Helio G100 Güçlü İşlemci (6nm)",
+      "6.78 inç 120Hz FHD+ Akıcı Ekran (AOD Destekli)",
+      "50 MP f/1.6 Ultra Net Ana Kamera",
+      "7.7 mm Ultra İnce Tasarım & 5000 mAh Batarya"
+    ],
+    "image": "/images/phones/infinix/infinix-hot-50-yesil.jpg",
+    "images": [
+      "/images/phones/infinix/infinix-hot-50-yesil.jpg"
+    ],
+    "gallery": [
+      "/images/phones/infinix/infinix-hot-50-yesil.jpg"
+    ],
+    "colorOptions": [
+      {
+        "name": "Adaçayı Yeşili",
+        "hex": "#7A8C7A",
+        "image": "/images/phones/infinix/infinix-hot-50-yesil.jpg"
+      }
+    ],
+    "variants": [
+      {
+        "id": "infinix-hot-50-8-256gb-yesil",
+        "name": "Infinix Hot 50 8/256 GB - Adaçayı Yeşili",
+        "colorName": "Adaçayı Yeşili",
+        "colorHex": "#7A8C7A",
+        "image": "/images/phones/infinix/infinix-hot-50-yesil.jpg",
+        "price": 14999
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "IPS LCD",
+        "resolution": "2460 x 1080 (FHD+)",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Helio G100",
+        "cores": "8 Çekirdek (2x2.2 GHz + 6x2.0 GHz)",
+        "process": "6nm",
+        "antutuScore": 430000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR4X",
+        "storageGb": 256,
+        "storageOptions": [
+          256
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "50 MP (f/1.6)",
+        "ultrawideMp": "2 MP Derinlik + AI Lens",
+        "selfieMp": "8 MP (f/2.0)",
+        "videoRes": "1440p @ 30fps / 1080p @ 60fps",
+        "dxomarkScore": 102
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 18,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.4",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 187,
+        "thicknessMm": 7.7,
+        "waterResistance": "IP54",
+        "frameMaterial": "İnce Ergonomik Kompozit Gövde"
+      },
+      "software": {
+        "osName": "Android 14 (XOS 14.5)",
+        "updateYears": 2
+      }
+    },
+    "storeOffers": [
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 15296,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/infinix-hot-50-8gb-256gb-akilli-telefon-adacayi-yesili.html"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 14899,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com/ara?q=Infinix+Hot+50+256GB"
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 14949,
+        "inStock": true,
+        "url": "https://www.trendyol.com/sr?q=Infinix+Hot+50"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "Mayıs 2026",
+        "price": 16299
+      },
+      {
+        "date": "Haziran 2026",
+        "price": 15799
+      },
+      {
+        "date": "Temmuz 2026",
+        "price": 15299
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 14999
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 14999
+      }
+    ],
+    "pros": [
+      "6nm MediaTek Helio G100 ile segmentinin ötesinde oyun performansı",
+      "FHD+ 120Hz parlak ve keskin ekran",
+      "7.7 mm ile sınıfının en ince tasarımlarından biri"
+    ],
+    "cons": [
+      "18W şarj hızı batarya kapasitesine kıyasla standart"
+    ]
+  },
+  {
+    "id": "infinix-hot-50-pro-plus-8-256gb",
+    "slug": "infinix-hot-50-pro-plus-8-256gb",
+    "name": "Infinix Hot 50 Pro Plus (8/256 GB)",
+    "brand": "Infinix",
+    "category": "smartphones",
+    "basePrice": 15999,
+    "price": 15999,
+    "currency": "TL",
+    "rating": 4.8,
+    "reviewCount": 240,
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "6.8 mm Dünyanın En İnce 3D Kavisli AMOLED Telefonu",
+      "6.78 inç 120Hz Kavisli AMOLED Ekran (1300 nits)",
+      "MediaTek Helio G100 İşlemci & 33W Hızlı Şarj",
+      "Ekran İçi Parmak İzi Okuyucu & JBL Çift Hoparlör"
+    ],
+    "image": "/images/phones/infinix/infinix-hot-50-pro-plus-siyah.jpg",
+    "images": [
+      "/images/phones/infinix/infinix-hot-50-pro-plus-siyah.jpg",
+      "/images/phones/infinix/infinix-hot-50-pro-plus-gri.jpg"
+    ],
+    "gallery": [
+      "/images/phones/infinix/infinix-hot-50-pro-plus-siyah.jpg",
+      "/images/phones/infinix/infinix-hot-50-pro-plus-gri.jpg"
+    ],
+    "colorOptions": [
+      {
+        "name": "Şık Siyah",
+        "hex": "#18191C",
+        "image": "/images/phones/infinix/infinix-hot-50-pro-plus-siyah.jpg"
+      },
+      {
+        "name": "Titanyum Gri",
+        "hex": "#9E9FA4",
+        "image": "/images/phones/infinix/infinix-hot-50-pro-plus-gri.jpg"
+      }
+    ],
+    "variants": [
+      {
+        "id": "infinix-hot-50-pro-plus-8-256gb-siyah",
+        "name": "Infinix Hot 50 Pro Plus 8/256 GB - Şık Siyah",
+        "colorName": "Şık Siyah",
+        "colorHex": "#18191C",
+        "image": "/images/phones/infinix/infinix-hot-50-pro-plus-siyah.jpg",
+        "price": 15999
+      },
+      {
+        "id": "infinix-hot-50-pro-plus-8-256gb-gri",
+        "name": "Infinix Hot 50 Pro Plus 8/256 GB - Titanyum Gri",
+        "colorName": "Titanyum Gri",
+        "colorHex": "#9E9FA4",
+        "image": "/images/phones/infinix/infinix-hot-50-pro-plus-gri.jpg",
+        "price": 15999
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "3D Kavisli AMOLED",
+        "resolution": "2436 x 1080 (FHD+)",
+        "refreshRate": 120,
+        "ppi": 393,
+        "brightnessNits": 1300
+      },
+      "processor": {
+        "chip": "MediaTek Helio G100",
+        "cores": "8 Çekirdek (6nm)",
+        "process": "6nm",
+        "antutuScore": 440000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR4X",
+        "storageGb": 256,
+        "storageOptions": [
+          256
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "50 MP (f/1.6, OIS Destekli)",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "13 MP Ön Kamera LED Flaşlı",
+        "videoRes": "1440p @ 30fps / 1080p @ 60fps",
+        "dxomarkScore": 110
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.4",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 162,
+        "thicknessMm": 6.8,
+        "waterResistance": "IP54",
+        "frameMaterial": "3D Kavisli Ultra Hafif Premium Gövde"
+      },
+      "software": {
+        "osName": "Android 14 (XOS 14.5)",
+        "updateYears": 3
+      }
+    },
+    "storeOffers": [
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 14896,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/infinix-hot-50-pro-plus-8gb-256gb-akilli-telefon-sik-siyah.html"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 15499,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com/ara?q=Infinix+Hot+50+Pro+Plus"
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 15699,
+        "inStock": true,
+        "url": "https://www.trendyol.com/sr?q=Infinix+Hot+50+Pro+Plus"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "Mayıs 2026",
+        "price": 17499
+      },
+      {
+        "date": "Haziran 2026",
+        "price": 16999
+      },
+      {
+        "date": "Temmuz 2026",
+        "price": 16499
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 15999
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 15999
+      }
+    ],
+    "pros": [
+      "6.8 mm kalınlık ve 162 gram ağırlıkla rekor düzeyde ince ve ergonomik",
+      "3D Kavisli 120Hz AMOLED ekran ve 1300 nits parlaklık",
+      "JBL akustiği ve ekran içi parmak izi okuyucu"
+    ],
+    "cons": [
+      "3.5 mm kulaklık girişi gövde inceliği nedeniyle bulunmuyor"
+    ]
+  },
+  {
+    "id": "infinix-hot-60-pro-8-256gb",
+    "slug": "infinix-hot-60-pro-8-256gb",
+    "name": "Infinix Hot 60 Pro (8/256 GB)",
+    "brand": "Infinix",
+    "category": "smartphones",
+    "basePrice": 15499,
+    "price": 15499,
+    "currency": "TL",
+    "rating": 4.7,
+    "reviewCount": 142,
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "6.78 inç 120Hz FHD+ AMOLED Ekran",
+      "MediaTek Helio G100 Yüksek Performanslı İşlemci",
+      "50 MP Ultra Clear Kamera & 33W Hızlı Şarj",
+      "Ekran İçi Parmak İzi & Çift Stereo Hoparlör"
+    ],
+    "image": "/images/phones/infinix/infinix-hot-60-pro-siyah.jpg",
+    "images": [
+      "/images/phones/infinix/infinix-hot-60-pro-siyah.jpg"
+    ],
+    "gallery": [
+      "/images/phones/infinix/infinix-hot-60-pro-siyah.jpg"
+    ],
+    "colorOptions": [
+      {
+        "name": "Siyah",
+        "hex": "#17181A",
+        "image": "/images/phones/infinix/infinix-hot-60-pro-siyah.jpg"
+      }
+    ],
+    "variants": [
+      {
+        "id": "infinix-hot-60-pro-8-256gb-siyah",
+        "name": "Infinix Hot 60 Pro 8/256 GB - Siyah",
+        "colorName": "Siyah",
+        "colorHex": "#17181A",
+        "image": "/images/phones/infinix/infinix-hot-60-pro-siyah.jpg",
+        "price": 15499
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "AMOLED",
+        "resolution": "2436 x 1080 (FHD+)",
+        "refreshRate": 120,
+        "ppi": 393,
+        "brightnessNits": 1300
+      },
+      "processor": {
+        "chip": "MediaTek Helio G100",
+        "cores": "8 Çekirdek (6nm)",
+        "process": "6nm",
+        "antutuScore": 435000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR4X",
+        "storageGb": 256,
+        "storageOptions": [
+          256
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "50 MP (f/1.6, PDAF)",
+        "ultrawideMp": "2 MP Derinlik",
+        "selfieMp": "13 MP AI Ön Kamera",
+        "videoRes": "1440p @ 30fps / 1080p @ 60fps",
+        "dxomarkScore": 108
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.4",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 175,
+        "thicknessMm": 7.4,
+        "waterResistance": "IP54",
+        "frameMaterial": "Şık ve Modern Düz Kenarlı Tasarım"
+      },
+      "software": {
+        "osName": "Android 15 (XOS 15)",
+        "updateYears": 3
+      }
+    },
+    "storeOffers": [
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 15496,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/infinix-hot-60-pro-8-256gb-akilli-telefon-siyah.html"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 15299,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com/ara?q=Infinix+Hot+60+Pro"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "Mayıs 2026",
+        "price": 16999
+      },
+      {
+        "date": "Haziran 2026",
+        "price": 16499
+      },
+      {
+        "date": "Temmuz 2026",
+        "price": 15999
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 15499
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 15499
+      }
+    ],
+    "pros": [
+      "120Hz parlak ve canlı AMOLED ekran",
+      "Helio G100 ile akıcı oyun ve günlük performans",
+      "33W hızlı şarj ve 5000 mAh pil"
+    ],
+    "cons": [
+      "5G bağlantı desteği yok"
+    ]
+  },
+  {
+    "id": "infinix-hot-60-pro-plus-8-256gb",
+    "slug": "infinix-hot-60-pro-plus-8-256gb",
+    "name": "Infinix Hot 60 Pro Plus (8/256 GB)",
+    "brand": "Infinix",
+    "category": "smartphones",
+    "basePrice": 16999,
+    "price": 16999,
+    "currency": "TL",
+    "rating": 4.8,
+    "reviewCount": 175,
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "6.78 inç 120Hz 3D Kavisli AMOLED Ekran (1400 nits)",
+      "50 MP OIS Destekli Ultra Net Ana Kamera",
+      "MediaTek Helio G200 / G100 Max Güçlü Yonga",
+      "45W Süper Hızlı Şarj & 6.75 mm Ultra İnce Tasarım"
+    ],
+    "image": "/images/phones/infinix/infinix-hot-60-pro-plus-siyah.jpg",
+    "images": [
+      "/images/phones/infinix/infinix-hot-60-pro-plus-siyah.jpg",
+      "/images/phones/infinix/infinix-hot-60-pro-plus-gri.jpg"
+    ],
+    "gallery": [
+      "/images/phones/infinix/infinix-hot-60-pro-plus-siyah.jpg",
+      "/images/phones/infinix/infinix-hot-60-pro-plus-gri.jpg"
+    ],
+    "colorOptions": [
+      {
+        "name": "Siyah",
+        "hex": "#161719",
+        "image": "/images/phones/infinix/infinix-hot-60-pro-plus-siyah.jpg"
+      },
+      {
+        "name": "Gri",
+        "hex": "#77797E",
+        "image": "/images/phones/infinix/infinix-hot-60-pro-plus-gri.jpg"
+      }
+    ],
+    "variants": [
+      {
+        "id": "infinix-hot-60-pro-plus-8-256gb-siyah",
+        "name": "Infinix Hot 60 Pro Plus 8/256 GB - Siyah",
+        "colorName": "Siyah",
+        "colorHex": "#161719",
+        "image": "/images/phones/infinix/infinix-hot-60-pro-plus-siyah.jpg",
+        "price": 16999
+      },
+      {
+        "id": "infinix-hot-60-pro-plus-8-256gb-gri",
+        "name": "Infinix Hot 60 Pro Plus 8/256 GB - Gri",
+        "colorName": "Gri",
+        "colorHex": "#77797E",
+        "image": "/images/phones/infinix/infinix-hot-60-pro-plus-gri.jpg",
+        "price": 16999
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "3D Kavisli AMOLED",
+        "resolution": "2436 x 1080 (FHD+)",
+        "refreshRate": 120,
+        "ppi": 393,
+        "brightnessNits": 1400
+      },
+      "processor": {
+        "chip": "MediaTek Helio G200 / G100 Max",
+        "cores": "8 Çekirdek (6nm)",
+        "process": "6nm",
+        "antutuScore": 460000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR4X",
+        "storageGb": 256,
+        "storageOptions": [
+          256
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "50 MP (f/1.6, OIS Destekli)",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera Flaşlı",
+        "videoRes": "2K @ 30fps / 1080p @ 60fps",
+        "dxomarkScore": 114
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 45,
+        "wirelessCharging": false,
+        "reverseWireless": true
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.4",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 165,
+        "thicknessMm": 6.75,
+        "waterResistance": "IP54",
+        "frameMaterial": "Ultra İnce 3D Kavisli Premium Gövde"
+      },
+      "software": {
+        "osName": "Android 15 (XOS 15)",
+        "updateYears": 3
+      }
+    },
+    "storeOffers": [
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 17296,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/infinix-hot-60-pro-plus-8-256gb-akilli-telefon-siyah.html"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 16899,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com/ara?q=Infinix+Hot+60+Pro+Plus"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "Mayıs 2026",
+        "price": 18499
+      },
+      {
+        "date": "Haziran 2026",
+        "price": 17999
+      },
+      {
+        "date": "Temmuz 2026",
+        "price": 17499
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 16999
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 16999
+      }
+    ],
+    "pros": [
+      "OIS (Optik Görüntü Sabitleme) özellikli 50 MP kamera",
+      "45W hızlı şarj desteği",
+      "6.75 mm ultra ince kavisli estetik gövde"
+    ],
+    "cons": [
+      "Gövde inceliğinden ötürü kulaklık jakı bulunmaz"
+    ]
+  },
+  {
+    "id": "infinix-note-50-8-256gb",
+    "slug": "infinix-note-50-8-256gb",
+    "name": "Infinix Note 50 (8/256 GB)",
+    "brand": "Infinix",
+    "category": "smartphones",
+    "basePrice": 18499,
+    "price": 18499,
+    "currency": "TL",
+    "rating": 4.8,
+    "reviewCount": 198,
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "108 MP OIS Destekli Süper Net Kamera Sistemi",
+      "6.78 inç 120Hz Çift Kavisli AMOLED Ekran (1300 nits)",
+      "45W Hızlı Şarj + 20W Manyetik Kablosuz Şarj (MagCharge)",
+      "Active Halo AI Bildirim Aydınlatması & JBL Ses"
+    ],
+    "image": "/images/phones/infinix/infinix-note-50-siyah.jpg",
+    "images": [
+      "/images/phones/infinix/infinix-note-50-siyah.jpg"
+    ],
+    "gallery": [
+      "/images/phones/infinix/infinix-note-50-siyah.jpg"
+    ],
+    "colorOptions": [
+      {
+        "name": "Siyah",
+        "hex": "#1A1A1D",
+        "image": "/images/phones/infinix/infinix-note-50-siyah.jpg"
+      }
+    ],
+    "variants": [
+      {
+        "id": "infinix-note-50-8-256gb-siyah",
+        "name": "Infinix Note 50 8/256 GB - Siyah",
+        "colorName": "Siyah",
+        "colorHex": "#1A1A1D",
+        "image": "/images/phones/infinix/infinix-note-50-siyah.jpg",
+        "price": 18499
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "3D Kavisli AMOLED (10-bit)",
+        "resolution": "2436 x 1080 (FHD+)",
+        "refreshRate": 120,
+        "ppi": 393,
+        "brightnessNits": 1300
+      },
+      "processor": {
+        "chip": "MediaTek Helio G99 Ultimate / Dimensity (6nm)",
+        "cores": "8 Çekirdek (2x2.2 GHz + 6x2.0 GHz)",
+        "process": "6nm",
+        "antutuScore": 465000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR4X",
+        "storageGb": 256,
+        "storageOptions": [
+          256
+        ],
+        "expandableStorage": false
+      },
+      "camera": {
+        "mainMp": "108 MP (1/1.52\", f/1.75, OIS, 3x Kayıpsız Zoom)",
+        "ultrawideMp": "2 MP Makro + 2 MP Derinlik",
+        "selfieMp": "32 MP Ultra Net Ön Kamera Çift Flaşlı",
+        "videoRes": "2K @ 30fps / 1080p @ 60fps",
+        "dxomarkScore": 118
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 45,
+        "wirelessCharging": true,
+        "reverseWireless": true
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.3",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Active Halo Işıklı Premium Kavisli Tasarım"
+      },
+      "software": {
+        "osName": "Android 14 / 15 (XOS 14/15)",
+        "updateYears": 3
+      }
+    },
+    "storeOffers": [
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 18696,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/infinix-note-50-8gb-256gb-akilli-telefon-siyah.html"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 18399,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com/ara?q=Infinix+Note+50"
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 18499,
+        "inStock": true,
+        "url": "https://www.trendyol.com/sr?q=Infinix+Note+50"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "Mayıs 2026",
+        "price": 19999
+      },
+      {
+        "date": "Haziran 2026",
+        "price": 19499
+      },
+      {
+        "date": "Temmuz 2026",
+        "price": 18999
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 18499
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 18499
+      }
+    ],
+    "pros": [
+      "108 MP OIS ana kamera ve 32 MP kaliteli selfie kamerası",
+      "20W manyetik kablosuz şarj ve 45W kablolu hızlı şarj desteği",
+      "Active Halo dinamik bildirim ışığı ve JBL stereo hoparlörler"
+    ],
+    "cons": [
+      "MicroSD kart yuvası bulunmuyor"
+    ]
   }
 ]

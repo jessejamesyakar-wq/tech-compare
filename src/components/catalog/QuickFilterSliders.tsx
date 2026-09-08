@@ -52,6 +52,8 @@ const POPULAR_MODELS: QuickFilterModel[] = [
   { name: 'Xiaomi Redmi 15C', query: 'Redmi 15C', brand: 'Xiaomi' },
   { name: 'Oppo Reno A6 Pro', query: 'Reno A6 Pro', brand: 'Oppo' },
   { name: 'Vivo Y29', query: 'Vivo Y29', brand: 'Vivo' },
+  { name: 'Infinix Hot 60i', query: 'Hot 60i', brand: 'Infinix' },
+  { name: 'Infinix Hot 60 Pro+', query: 'Hot 60 Pro Plus', brand: 'Infinix' },
 ];
 
 interface QuickFilterSlidersProps {
