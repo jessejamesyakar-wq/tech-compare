@@ -133316,5 +133316,1517 @@
     "cons": [
       "MicroSD kart yuvası bulunmuyor"
     ]
+  },
+  {
+    "id": "gm-gm-26-5g-128gb",
+    "slug": "general-mobile-gm-26-5g-128gb",
+    "name": "General Mobile GM 26 5G (8/128 GB)",
+    "brand": "General Mobile",
+    "category": "smartphones",
+    "basePrice": 17999,
+    "currency": "TL",
+    "rating": 4.6,
+    "reviewCount": 142,
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": false,
+    "isLatestModel": true,
+    "highlights": [
+      "6.78 inç 120Hz Akıcı FHD+ Ekran",
+      "MediaTek 5G Güçlü Sekiz Çekirdekli İşlemci",
+      "50 MP AI Net Ana Kamera Sistemi",
+      "5000 mAh Uzun Ömürlü Batarya & 33W Hızlı Şarj"
+    ],
+    "image": "/images/phones/general-mobile/gm-26-5g-siyah.jpg",
+    "gallery": [
+      "/images/phones/general-mobile/gm-26-5g-siyah.jpg",
+      "/images/phones/general-mobile/gm-26-5g-siyah-2.jpg",
+      "/images/phones/general-mobile/gm-26-5g-siyah-3.jpg",
+      "/images/phones/general-mobile/gm-26-5g-gumus.jpg",
+      "/images/phones/general-mobile/gm-26-5g-gumus-2.jpg"
+    ],
+    "images": [
+      "/images/phones/general-mobile/gm-26-5g-siyah.jpg",
+      "/images/phones/general-mobile/gm-26-5g-gumus.jpg"
+    ],
+    "colorOptions": [
+      {
+        "name": "Siyah",
+        "hex": "#222224",
+        "image": "/images/phones/general-mobile/gm-26-5g-siyah.jpg"
+      },
+      {
+        "name": "Gümüş",
+        "hex": "#D6D8DC",
+        "image": "/images/phones/general-mobile/gm-26-5g-gumus.jpg"
+      }
+    ],
+    "variants": [
+      {
+        "id": "gm-26-5g-128gb-siyah",
+        "name": "General Mobile GM 26 5G 8/128 GB - Siyah",
+        "colorName": "Siyah",
+        "colorHex": "#222224",
+        "image": "/images/phones/general-mobile/gm-26-5g-siyah.jpg",
+        "price": 17999
+      },
+      {
+        "id": "gm-26-5g-128gb-gumus",
+        "name": "General Mobile GM 26 5G 8/128 GB - Gümüş",
+        "colorName": "Gümüş",
+        "colorHex": "#D6D8DC",
+        "image": "/images/phones/general-mobile/gm-26-5g-gumus.jpg",
+        "price": 17999
+      }
+    ],
+    "storeOffers": [
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 17999,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/general-mobile-gm-26-pro-5g-dual-8-128-gb-akilli-telefon.html",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 17749,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com/ara?q=General+Mobile+GM+26+5G",
+        "rating": 4.7
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 17899,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.trendyol.com/sr?q=General+Mobile+GM+26+5G",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 17999,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=General+Mobile+GM+26",
+        "rating": 4.6
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "Nisan 2026",
+        "price": 18999
+      },
+      {
+        "date": "Mayıs 2026",
+        "price": 18499
+      },
+      {
+        "date": "Haziran 2026",
+        "price": 18199
+      },
+      {
+        "date": "Temmuz 2026",
+        "price": 17999
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 17999
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 17999
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "120Hz FHD+ IPS LCD",
+        "resolution": "2460 x 1080 px",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 580
+      },
+      "processor": {
+        "chip": "MediaTek Dimensity 6100+ 5G (6nm)",
+        "cores": "8 Çekirdek (2x 2.4 GHz + 6x 2.0 GHz)",
+        "process": "6nm",
+        "antutuScore": 420000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR4X",
+        "storageGb": 128,
+        "storageOptions": [
+          128,
+          256
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "50 MP AI",
+        "ultrawideMp": "2 MP Derinlik",
+        "selfieMp": "16 MP",
+        "videoRes": "2K @ 30fps / 1080p @ 60fps",
+        "dxomarkScore": 92
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.3",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 198,
+        "thicknessMm": 8.4,
+        "waterResistance": "Sıçramalara Dayanıklı",
+        "frameMaterial": "Polikarbonat Gövde & Cam Ön Yüzey"
+      },
+      "software": {
+        "osName": "Android 14 (GM Pure UI)",
+        "updateYears": 2
+      }
+    },
+    "price": 17999,
+    "priceFormatted": "17.999 TL",
+    "pros": [
+      "Fiyat segmentinde akıcı 120Hz ekran ve 5G desteği",
+      "Kutudan çıkan 33W hızlı şarj adaptörü ve koruma kılıfı",
+      "MicroSD hafıza kartı ile 1 TB'a kadar hafıza artırma imkanı"
+    ],
+    "cons": [
+      "AMOLED yerine IPS LCD panel tercih edilmiştir"
+    ]
+  },
+  {
+    "id": "gm-gm-26-5g-256gb",
+    "slug": "general-mobile-gm-26-5g-256gb",
+    "name": "General Mobile GM 26 5G (8/256 GB)",
+    "brand": "General Mobile",
+    "category": "smartphones",
+    "basePrice": 19999,
+    "currency": "TL",
+    "rating": 4.7,
+    "reviewCount": 188,
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": false,
+    "isLatestModel": true,
+    "highlights": [
+      "256 GB Geniş Depolama & 8 GB RAM (+8 GB Sanal RAM)",
+      "6.78 inç 120Hz Akıcı FHD+ Ekran",
+      "MediaTek 5G Güçlü Sekiz Çekirdekli İşlemci",
+      "50 MP AI Çift Kamera & 5000 mAh Batarya (33W Hızlı Şarj)"
+    ],
+    "image": "/images/phones/general-mobile/gm-26-5g-siyah.jpg",
+    "gallery": [
+      "/images/phones/general-mobile/gm-26-5g-siyah.jpg",
+      "/images/phones/general-mobile/gm-26-5g-siyah-2.jpg",
+      "/images/phones/general-mobile/gm-26-5g-siyah-3.jpg",
+      "/images/phones/general-mobile/gm-26-5g-gumus.jpg",
+      "/images/phones/general-mobile/gm-26-5g-gumus-2.jpg"
+    ],
+    "images": [
+      "/images/phones/general-mobile/gm-26-5g-siyah.jpg",
+      "/images/phones/general-mobile/gm-26-5g-gumus.jpg"
+    ],
+    "colorOptions": [
+      {
+        "name": "Siyah",
+        "hex": "#222224",
+        "image": "/images/phones/general-mobile/gm-26-5g-siyah.jpg"
+      },
+      {
+        "name": "Gümüş",
+        "hex": "#D6D8DC",
+        "image": "/images/phones/general-mobile/gm-26-5g-gumus.jpg"
+      }
+    ],
+    "variants": [
+      {
+        "id": "gm-26-5g-256gb-siyah",
+        "name": "General Mobile GM 26 5G 8/256 GB - Siyah",
+        "colorName": "Siyah",
+        "colorHex": "#222224",
+        "image": "/images/phones/general-mobile/gm-26-5g-siyah.jpg",
+        "price": 19999
+      },
+      {
+        "id": "gm-26-5g-256gb-gumus",
+        "name": "General Mobile GM 26 5G 8/256 GB - Gümüş",
+        "colorName": "Gümüş",
+        "colorHex": "#D6D8DC",
+        "image": "/images/phones/general-mobile/gm-26-5g-gumus.jpg",
+        "price": 19999
+      }
+    ],
+    "storeOffers": [
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 19999,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/general-mobile-gm-26-5g-8-256-gb-akilli-telefon-siyah.html",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 19699,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com/ara?q=General+Mobile+GM+26+5G+256",
+        "rating": 4.7
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 19799,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.trendyol.com/sr?q=General+Mobile+GM+26+5G+256",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 19999,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=General+Mobile+GM+26+256",
+        "rating": 4.6
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "Nisan 2026",
+        "price": 20999
+      },
+      {
+        "date": "Mayıs 2026",
+        "price": 20499
+      },
+      {
+        "date": "Haziran 2026",
+        "price": 20199
+      },
+      {
+        "date": "Temmuz 2026",
+        "price": 19999
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 19999
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 19999
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "120Hz FHD+ IPS LCD",
+        "resolution": "2460 x 1080 px",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 580
+      },
+      "processor": {
+        "chip": "MediaTek Dimensity 6100+ 5G (6nm)",
+        "cores": "8 Çekirdek (2x 2.4 GHz + 6x 2.0 GHz)",
+        "process": "6nm",
+        "antutuScore": 420000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR4X",
+        "storageGb": 256,
+        "storageOptions": [
+          128,
+          256
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "50 MP AI",
+        "ultrawideMp": "2 MP Derinlik",
+        "selfieMp": "16 MP",
+        "videoRes": "2K @ 30fps / 1080p @ 60fps",
+        "dxomarkScore": 92
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.3",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 198,
+        "thicknessMm": 8.4,
+        "waterResistance": "Sıçramalara Dayanıklı",
+        "frameMaterial": "Polikarbonat Gövde & Cam Ön Yüzey"
+      },
+      "software": {
+        "osName": "Android 14 (GM Pure UI)",
+        "updateYears": 2
+      }
+    },
+    "price": 19999,
+    "priceFormatted": "19.999 TL",
+    "pros": [
+      "256 GB yüksek depolama kapasitesi",
+      "Fiyat segmentinde akıcı 120Hz ekran ve 5G desteği",
+      "Kutudan çıkan 33W hızlı şarj adaptörü"
+    ],
+    "cons": [
+      "AMOLED yerine IPS LCD panel tercih edilmiştir"
+    ]
+  },
+  {
+    "id": "gm-gm-26-pro-5g-8-256gb",
+    "slug": "general-mobile-gm-26-pro-5g-8-256gb",
+    "name": "General Mobile GM 26 Pro 5G (8/256 GB)",
+    "brand": "General Mobile",
+    "category": "smartphones",
+    "basePrice": 24999,
+    "currency": "TL",
+    "rating": 4.8,
+    "reviewCount": 230,
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": true,
+    "isLatestModel": true,
+    "highlights": [
+      "6.78 inç 120Hz Kavisli 3D AMOLED Ekran (1.07 Milyar Renk)",
+      "108 MP OIS Destekli Ultra Net Ana Kamera",
+      "66W Süper Hızlı Şarj & 5000 mAh Batarya",
+      "MediaTek Dimensity 7050 5G Güçlü 6nm İşlemci"
+    ],
+    "image": "/images/phones/general-mobile/gm-26-pro-5g-siyah.jpg",
+    "gallery": [
+      "/images/phones/general-mobile/gm-26-pro-5g-siyah.jpg",
+      "/images/phones/general-mobile/gm-26-pro-5g-siyah-2.jpg",
+      "/images/phones/general-mobile/gm-26-pro-5g-siyah-3.jpg",
+      "/images/phones/general-mobile/gm-26-pro-5g-altin.jpg",
+      "/images/phones/general-mobile/gm-26-pro-5g-altin-2.jpg",
+      "/images/phones/general-mobile/gm-26-pro-5g-altin-3.jpg"
+    ],
+    "images": [
+      "/images/phones/general-mobile/gm-26-pro-5g-siyah.jpg",
+      "/images/phones/general-mobile/gm-26-pro-5g-altin.jpg"
+    ],
+    "colorOptions": [
+      {
+        "name": "Derin Uzay Siyah",
+        "hex": "#1A1A1E",
+        "image": "/images/phones/general-mobile/gm-26-pro-5g-siyah.jpg"
+      },
+      {
+        "name": "Yıldız Tozu Altın",
+        "hex": "#D8BC88",
+        "image": "/images/phones/general-mobile/gm-26-pro-5g-altin.jpg"
+      }
+    ],
+    "variants": [
+      {
+        "id": "gm-26-pro-5g-8-256gb-derin-uzay-siyah",
+        "name": "General Mobile GM 26 Pro 5G 8/256 GB - Derin Uzay Siyah",
+        "colorName": "Derin Uzay Siyah",
+        "colorHex": "#1A1A1E",
+        "image": "/images/phones/general-mobile/gm-26-pro-5g-siyah.jpg",
+        "price": 24999
+      },
+      {
+        "id": "gm-26-pro-5g-8-256gb-yildiz-tozu-altin",
+        "name": "General Mobile GM 26 Pro 5G 8/256 GB - Yıldız Tozu Altın",
+        "colorName": "Yıldız Tozu Altın",
+        "colorHex": "#D8BC88",
+        "image": "/images/phones/general-mobile/gm-26-pro-5g-altin.jpg",
+        "price": 24999
+      }
+    ],
+    "storeOffers": [
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 24999,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/general-mobile-gm-26-pro-5g-dual-8-256-gb-akilli-telefon-deep-space.html",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 24499,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com/ara?q=General+Mobile+GM+26+Pro+5G",
+        "rating": 4.7
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 24699,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.trendyol.com/sr?q=General+Mobile+GM+26+Pro+5G",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 24999,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=General+Mobile+GM+26+Pro",
+        "rating": 4.6
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "Mart 2026",
+        "price": 26999
+      },
+      {
+        "date": "Nisan 2026",
+        "price": 25999
+      },
+      {
+        "date": "Mayıs 2026",
+        "price": 25499
+      },
+      {
+        "date": "Haziran 2026",
+        "price": 24999
+      },
+      {
+        "date": "Temmuz 2026",
+        "price": 24999
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 24999
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "120Hz Kavisli 3D AMOLED",
+        "resolution": "2436 x 1080 px",
+        "refreshRate": 120,
+        "ppi": 393,
+        "brightnessNits": 1000
+      },
+      "processor": {
+        "chip": "MediaTek Dimensity 7050 5G (6nm)",
+        "cores": "8 Çekirdek (2x 2.6 GHz Cortex-A78 + 6x 2.0 GHz Cortex-A55)",
+        "process": "6nm",
+        "antutuScore": 590000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR5",
+        "storageGb": 256,
+        "storageOptions": [
+          256,
+          512
+        ],
+        "expandableStorage": false
+      },
+      "camera": {
+        "mainMp": "108 MP (OIS)",
+        "ultrawideMp": "8 MP Ultra Geniş Açı + 2 MP Makro",
+        "selfieMp": "32 MP AI Portre",
+        "videoRes": "4K @ 30fps / 1080p @ 60fps",
+        "dxomarkScore": 114
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 66,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 6",
+        "bluetooth": "5.3",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 189,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kavisli Cam Arka Panel & Metalik Çerçeve"
+      },
+      "software": {
+        "osName": "Android 14 (Pure Android GM UI)",
+        "updateYears": 3
+      }
+    },
+    "price": 24999,
+    "priceFormatted": "24.999 TL",
+    "pros": [
+      "120Hz kavisli AMOLED ekran ve 7.9 mm ince zarif tasarım",
+      "108 MP OIS optik sabitlemeli ana kamera ve 4K video kaydı",
+      "66W süper hızlı şarj ile yaklaşık 35 dakikada tam dolum"
+    ],
+    "cons": [
+      "3.5 mm kulaklık girişi ve MicroSD kart yuvası bulunmuyor"
+    ]
+  },
+  {
+    "id": "gm-gm-26-pro-5g-12-256gb",
+    "slug": "general-mobile-gm-26-pro-5g-12-256gb",
+    "name": "General Mobile GM 26 Pro 5G (12/256 GB)",
+    "brand": "General Mobile",
+    "category": "smartphones",
+    "basePrice": 26999,
+    "currency": "TL",
+    "rating": 4.8,
+    "reviewCount": 265,
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": false,
+    "isLatestModel": true,
+    "highlights": [
+      "12 GB LPDDR5 Yüksek Bellek Kapasitesi",
+      "6.78 inç 120Hz Kavisli 3D AMOLED Ekran",
+      "108 MP OIS Destekli Ultra Net Ana Kamera",
+      "66W Süper Hızlı Şarj & MediaTek Dimensity 7050 5G"
+    ],
+    "image": "/images/phones/general-mobile/gm-26-pro-5g-siyah.jpg",
+    "gallery": [
+      "/images/phones/general-mobile/gm-26-pro-5g-siyah.jpg",
+      "/images/phones/general-mobile/gm-26-pro-5g-siyah-2.jpg",
+      "/images/phones/general-mobile/gm-26-pro-5g-siyah-3.jpg",
+      "/images/phones/general-mobile/gm-26-pro-5g-altin.jpg",
+      "/images/phones/general-mobile/gm-26-pro-5g-altin-2.jpg",
+      "/images/phones/general-mobile/gm-26-pro-5g-altin-3.jpg"
+    ],
+    "images": [
+      "/images/phones/general-mobile/gm-26-pro-5g-siyah.jpg",
+      "/images/phones/general-mobile/gm-26-pro-5g-altin.jpg"
+    ],
+    "colorOptions": [
+      {
+        "name": "Derin Uzay Siyah",
+        "hex": "#1A1A1E",
+        "image": "/images/phones/general-mobile/gm-26-pro-5g-siyah.jpg"
+      },
+      {
+        "name": "Yıldız Tozu Altın",
+        "hex": "#D8BC88",
+        "image": "/images/phones/general-mobile/gm-26-pro-5g-altin.jpg"
+      }
+    ],
+    "variants": [
+      {
+        "id": "gm-26-pro-5g-12-256gb-derin-uzay-siyah",
+        "name": "General Mobile GM 26 Pro 5G 12/256 GB - Derin Uzay Siyah",
+        "colorName": "Derin Uzay Siyah",
+        "colorHex": "#1A1A1E",
+        "image": "/images/phones/general-mobile/gm-26-pro-5g-siyah.jpg",
+        "price": 26999
+      },
+      {
+        "id": "gm-26-pro-5g-12-256gb-yildiz-tozu-altin",
+        "name": "General Mobile GM 26 Pro 5G 12/256 GB - Yıldız Tozu Altın",
+        "colorName": "Yıldız Tozu Altın",
+        "colorHex": "#D8BC88",
+        "image": "/images/phones/general-mobile/gm-26-pro-5g-altin.jpg",
+        "price": 26999
+      }
+    ],
+    "storeOffers": [
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 26999,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/general-mobile-gm-26-pro-5g-akilli-telefon.html",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 26499,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com/ara?q=General+Mobile+GM+26+Pro+12GB",
+        "rating": 4.7
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 26749,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.trendyol.com/sr?q=General+Mobile+GM+26+Pro+12GB",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 26999,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=General+Mobile+GM+26+Pro+12GB",
+        "rating": 4.6
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "Mart 2026",
+        "price": 28999
+      },
+      {
+        "date": "Nisan 2026",
+        "price": 27999
+      },
+      {
+        "date": "Mayıs 2026",
+        "price": 27499
+      },
+      {
+        "date": "Haziran 2026",
+        "price": 26999
+      },
+      {
+        "date": "Temmuz 2026",
+        "price": 26999
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 26999
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "120Hz Kavisli 3D AMOLED",
+        "resolution": "2436 x 1080 px",
+        "refreshRate": 120,
+        "ppi": 393,
+        "brightnessNits": 1000
+      },
+      "processor": {
+        "chip": "MediaTek Dimensity 7050 5G (6nm)",
+        "cores": "8 Çekirdek (2x 2.6 GHz Cortex-A78 + 6x 2.0 GHz Cortex-A55)",
+        "process": "6nm",
+        "antutuScore": 590000
+      },
+      "memory": {
+        "ramGb": 12,
+        "ramType": "LPDDR5",
+        "storageGb": 256,
+        "storageOptions": [
+          256,
+          512
+        ],
+        "expandableStorage": false
+      },
+      "camera": {
+        "mainMp": "108 MP (OIS)",
+        "ultrawideMp": "8 MP Ultra Geniş Açı + 2 MP Makro",
+        "selfieMp": "32 MP AI Portre",
+        "videoRes": "4K @ 30fps / 1080p @ 60fps",
+        "dxomarkScore": 114
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 66,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 6",
+        "bluetooth": "5.3",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 189,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kavisli Cam Arka Panel & Metalik Çerçeve"
+      },
+      "software": {
+        "osName": "Android 14 (Pure Android GM UI)",
+        "updateYears": 3
+      }
+    },
+    "price": 26999,
+    "priceFormatted": "26.999 TL",
+    "pros": [
+      "12 GB yüksek RAM kapasitesiyle yoğun çoklu görev performansı",
+      "120Hz kavisli AMOLED ekran ve 108 MP OIS ana kamera",
+      "66W hızlı şarj ile yaklaşık 35 dakikada dolum"
+    ],
+    "cons": [
+      "3.5 mm kulaklık girişi bulunmuyor"
+    ]
+  },
+  {
+    "id": "gm-gm-26-pro-5g-12-512gb",
+    "slug": "general-mobile-gm-26-pro-5g-12-512gb",
+    "name": "General Mobile GM 26 Pro 5G (12/512 GB)",
+    "brand": "General Mobile",
+    "category": "smartphones",
+    "basePrice": 27999,
+    "currency": "TL",
+    "rating": 4.9,
+    "reviewCount": 312,
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": true,
+    "isLatestModel": true,
+    "highlights": [
+      "512 GB UFS 3.1 Üst Düzey Depolama & 12 GB RAM",
+      "6.78 inç 120Hz Kavisli 3D AMOLED Ekran (1.07 Milyar Renk)",
+      "108 MP OIS Destekli Ultra Net Ana Kamera",
+      "66W Süper Hızlı Şarj & 5000 mAh Batarya"
+    ],
+    "image": "/images/phones/general-mobile/gm-26-pro-5g-altin.jpg",
+    "gallery": [
+      "/images/phones/general-mobile/gm-26-pro-5g-altin.jpg",
+      "/images/phones/general-mobile/gm-26-pro-5g-altin-2.jpg",
+      "/images/phones/general-mobile/gm-26-pro-5g-altin-3.jpg",
+      "/images/phones/general-mobile/gm-26-pro-5g-siyah.jpg",
+      "/images/phones/general-mobile/gm-26-pro-5g-siyah-2.jpg",
+      "/images/phones/general-mobile/gm-26-pro-5g-siyah-3.jpg"
+    ],
+    "images": [
+      "/images/phones/general-mobile/gm-26-pro-5g-altin.jpg",
+      "/images/phones/general-mobile/gm-26-pro-5g-siyah.jpg"
+    ],
+    "colorOptions": [
+      {
+        "name": "Yıldız Tozu Altın",
+        "hex": "#D8BC88",
+        "image": "/images/phones/general-mobile/gm-26-pro-5g-altin.jpg"
+      },
+      {
+        "name": "Derin Uzay Siyah",
+        "hex": "#1A1A1E",
+        "image": "/images/phones/general-mobile/gm-26-pro-5g-siyah.jpg"
+      }
+    ],
+    "variants": [
+      {
+        "id": "gm-26-pro-5g-12-512gb-yildiz-tozu-altin",
+        "name": "General Mobile GM 26 Pro 5G 12/512 GB - Yıldız Tozu Altın",
+        "colorName": "Yıldız Tozu Altın",
+        "colorHex": "#D8BC88",
+        "image": "/images/phones/general-mobile/gm-26-pro-5g-altin.jpg",
+        "price": 27999
+      },
+      {
+        "id": "gm-26-pro-5g-12-512gb-derin-uzay-siyah",
+        "name": "General Mobile GM 26 Pro 5G 12/512 GB - Derin Uzay Siyah",
+        "colorName": "Derin Uzay Siyah",
+        "colorHex": "#1A1A1E",
+        "image": "/images/phones/general-mobile/gm-26-pro-5g-siyah.jpg",
+        "price": 27999
+      }
+    ],
+    "storeOffers": [
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 27999,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/general-mobile-gm-26-pro-5g-dual-12-512-gb-akilli-telefon-deep-space.html",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 27499,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com/ara?q=General+Mobile+GM+26+Pro+512",
+        "rating": 4.7
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 27699,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.trendyol.com/sr?q=General+Mobile+GM+26+Pro+512",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 27999,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=General+Mobile+GM+26+Pro+512",
+        "rating": 4.6
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "Mart 2026",
+        "price": 29999
+      },
+      {
+        "date": "Nisan 2026",
+        "price": 28999
+      },
+      {
+        "date": "Mayıs 2026",
+        "price": 28499
+      },
+      {
+        "date": "Haziran 2026",
+        "price": 27999
+      },
+      {
+        "date": "Temmuz 2026",
+        "price": 27999
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 27999
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "120Hz Kavisli 3D AMOLED",
+        "resolution": "2436 x 1080 px",
+        "refreshRate": 120,
+        "ppi": 393,
+        "brightnessNits": 1000
+      },
+      "processor": {
+        "chip": "MediaTek Dimensity 7050 5G (6nm)",
+        "cores": "8 Çekirdek (2x 2.6 GHz Cortex-A78 + 6x 2.0 GHz Cortex-A55)",
+        "process": "6nm",
+        "antutuScore": 590000
+      },
+      "memory": {
+        "ramGb": 12,
+        "ramType": "LPDDR5",
+        "storageGb": 512,
+        "storageOptions": [
+          256,
+          512
+        ],
+        "expandableStorage": false
+      },
+      "camera": {
+        "mainMp": "108 MP (OIS)",
+        "ultrawideMp": "8 MP Ultra Geniş Açı + 2 MP Makro",
+        "selfieMp": "32 MP AI Portre",
+        "videoRes": "4K @ 30fps / 1080p @ 60fps",
+        "dxomarkScore": 114
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 66,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 6",
+        "bluetooth": "5.3",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 189,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kavisli Cam Arka Panel & Metalik Çerçeve"
+      },
+      "software": {
+        "osName": "Android 14 (Pure Android GM UI)",
+        "updateYears": 3
+      }
+    },
+    "price": 27999,
+    "priceFormatted": "27.999 TL",
+    "pros": [
+      "512 GB devasa dahili depolama ve 12 GB RAM konfigürasyonu",
+      "120Hz kavisli AMOLED ekran ve 108 MP OIS optik sabitlemeli kamera",
+      "66W süper hızlı şarj desteği"
+    ],
+    "cons": [
+      "Kablosuz şarj desteği bulunmuyor"
+    ]
+  },
+  {
+    "id": "gm-gm-era-30-128gb",
+    "slug": "general-mobile-gm-era-30-128gb",
+    "name": "General Mobile GM Era 30 (4/128 GB)",
+    "brand": "General Mobile",
+    "category": "smartphones",
+    "basePrice": 9999,
+    "currency": "TL",
+    "rating": 4.5,
+    "reviewCount": 176,
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": false,
+    "isLatestModel": true,
+    "highlights": [
+      "6.56 inç 90Hz Akıcı HD+ Ekran",
+      "50 MP AI Çift Arka Kamera Sistemi",
+      "5000 mAh Uzun Süre Dayanan Batarya",
+      "MicroSD Kart Desteği & 3.5mm Kulaklık Girişi"
+    ],
+    "image": "/images/phones/general-mobile/gm-era-30-siyah.jpg",
+    "gallery": [
+      "/images/phones/general-mobile/gm-era-30-siyah.jpg",
+      "/images/phones/general-mobile/gm-era-30-siyah-2.jpg",
+      "/images/phones/general-mobile/gm-era-30-beyaz.jpg",
+      "/images/phones/general-mobile/gm-era-30-beyaz-2.jpg"
+    ],
+    "images": [
+      "/images/phones/general-mobile/gm-era-30-siyah.jpg",
+      "/images/phones/general-mobile/gm-era-30-beyaz.jpg"
+    ],
+    "colorOptions": [
+      {
+        "name": "Kozmik Siyah",
+        "hex": "#1C1C1E",
+        "image": "/images/phones/general-mobile/gm-era-30-siyah.jpg"
+      },
+      {
+        "name": "Yıldız Beyazı",
+        "hex": "#F2F4F7",
+        "image": "/images/phones/general-mobile/gm-era-30-beyaz.jpg"
+      }
+    ],
+    "variants": [
+      {
+        "id": "gm-era-30-128gb-kozmik-siyah",
+        "name": "General Mobile GM Era 30 4/128 GB - Kozmik Siyah",
+        "colorName": "Kozmik Siyah",
+        "colorHex": "#1C1C1E",
+        "image": "/images/phones/general-mobile/gm-era-30-siyah.jpg",
+        "price": 9999
+      },
+      {
+        "id": "gm-era-30-128gb-yildiz-beyazi",
+        "name": "General Mobile GM Era 30 4/128 GB - Yıldız Beyazı",
+        "colorName": "Yıldız Beyazı",
+        "colorHex": "#F2F4F7",
+        "image": "/images/phones/general-mobile/gm-era-30-beyaz.jpg",
+        "price": 11110
+      }
+    ],
+    "storeOffers": [
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 9999,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/general-mobile-gm-era-30.html",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 9899,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com/ara?q=General+Mobile+GM+Era+30",
+        "rating": 4.6
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 9949,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.trendyol.com/sr?q=General+Mobile+GM+Era+30",
+        "rating": 4.7
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 9999,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=General+Mobile+Era+30",
+        "rating": 4.6
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "Mart 2026",
+        "price": 10999
+      },
+      {
+        "date": "Nisan 2026",
+        "price": 10499
+      },
+      {
+        "date": "Mayıs 2026",
+        "price": 10299
+      },
+      {
+        "date": "Haziran 2026",
+        "price": 9999
+      },
+      {
+        "date": "Temmuz 2026",
+        "price": 9999
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 9999
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.56 inç",
+        "type": "90Hz HD+ IPS LCD",
+        "resolution": "1612 x 720 px",
+        "refreshRate": 90,
+        "ppi": 269,
+        "brightnessNits": 480
+      },
+      "processor": {
+        "chip": "Unisoc T606 (8 Çekirdek, 1.6 GHz)",
+        "cores": "8 Çekirdek (2x Cortex-A75 + 6x Cortex-A55)",
+        "process": "12nm",
+        "antutuScore": 245000
+      },
+      "memory": {
+        "ramGb": 4,
+        "ramType": "LPDDR4X",
+        "storageGb": 128,
+        "storageOptions": [
+          128
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "50 MP AI",
+        "ultrawideMp": "0.08 MP Yardımcı Sensör",
+        "selfieMp": "8 MP",
+        "videoRes": "1080p @ 30fps",
+        "dxomarkScore": 78
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 18,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.0",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 192,
+        "thicknessMm": 8.6,
+        "waterResistance": "Yok",
+        "frameMaterial": "Polikarbonat"
+      },
+      "software": {
+        "osName": "Android 14 (GM Pure OS)",
+        "updateYears": 2
+      }
+    },
+    "price": 9999,
+    "priceFormatted": "9.999 TL",
+    "pros": [
+      "Bütçe dostu fiyat etiketine karşılık 50 MP AI ana kamera",
+      "5000 mAh batarya ile 2 güne varan verimli pil ömrü",
+      "Sade, reklamsız saf Android kullanıcı deneyimi"
+    ],
+    "cons": [
+      "Ekran çözünürlüğü FHD+ yerine HD+ seviyesindedir"
+    ]
+  },
+  {
+    "id": "gm-gm-era-30-pro-256gb",
+    "slug": "general-mobile-gm-era-30-pro-256gb",
+    "name": "General Mobile GM Era 30 Pro (8/256 GB)",
+    "brand": "General Mobile",
+    "category": "smartphones",
+    "basePrice": 11299,
+    "currency": "TL",
+    "rating": 4.6,
+    "reviewCount": 194,
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": false,
+    "isLatestModel": true,
+    "highlights": [
+      "6.78 inç FHD+ 90Hz Canlı Ekran",
+      "64 MP AI Üçlü Arka Kamera & 16 MP Net Ön Kamera",
+      "256 GB Geniş Depolama & 8 GB RAM (+8 GB Sanal)",
+      "33W Hızlı Şarj & 5000 mAh Güçlü Batarya"
+    ],
+    "image": "/images/phones/general-mobile/gm-era-30-pro-siyah.jpg",
+    "gallery": [
+      "/images/phones/general-mobile/gm-era-30-pro-siyah.jpg",
+      "/images/phones/general-mobile/gm-era-30-pro-siyah-2.jpg",
+      "/images/phones/general-mobile/gm-era-30-pro-siyah-3.jpg"
+    ],
+    "images": [
+      "/images/phones/general-mobile/gm-era-30-pro-siyah.jpg"
+    ],
+    "colorOptions": [
+      {
+        "name": "Kozmik Siyah",
+        "hex": "#1D1E22",
+        "image": "/images/phones/general-mobile/gm-era-30-pro-siyah.jpg"
+      }
+    ],
+    "variants": [
+      {
+        "id": "gm-era-30-pro-256gb-kozmik-siyah",
+        "name": "General Mobile GM Era 30 Pro 8/256 GB - Kozmik Siyah",
+        "colorName": "Kozmik Siyah",
+        "colorHex": "#1D1E22",
+        "image": "/images/phones/general-mobile/gm-era-30-pro-siyah.jpg",
+        "price": 11299
+      }
+    ],
+    "storeOffers": [
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 11299,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/general-mobile-gm-era-30-pro-dual-8-256-akilli-telefon-cosmic-black.html",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 11099,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com/ara?q=General+Mobile+GM+Era+30+Pro",
+        "rating": 4.6
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 11199,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.trendyol.com/sr?q=General+Mobile+GM+Era+30+Pro",
+        "rating": 4.7
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 11299,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=General+Mobile+Era+30+Pro",
+        "rating": 4.6
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "Mart 2026",
+        "price": 12499
+      },
+      {
+        "date": "Nisan 2026",
+        "price": 11999
+      },
+      {
+        "date": "Mayıs 2026",
+        "price": 11699
+      },
+      {
+        "date": "Haziran 2026",
+        "price": 11499
+      },
+      {
+        "date": "Temmuz 2026",
+        "price": 11299
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 11299
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "90Hz FHD+ IPS LCD",
+        "resolution": "2460 x 1080 px",
+        "refreshRate": 90,
+        "ppi": 396,
+        "brightnessNits": 550
+      },
+      "processor": {
+        "chip": "MediaTek Helio G88 (12nm)",
+        "cores": "8 Çekirdek (2x 2.0 GHz + 6x 1.8 GHz)",
+        "process": "12nm",
+        "antutuScore": 290000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR4X",
+        "storageGb": 256,
+        "storageOptions": [
+          256
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "64 MP AI",
+        "ultrawideMp": "2 MP Derinlik + 0.08 MP AI Sensör",
+        "selfieMp": "16 MP",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 89
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 195,
+        "thicknessMm": 8.3,
+        "waterResistance": "Sıçramalara Dayanıklı",
+        "frameMaterial": "Polikarbonat"
+      },
+      "software": {
+        "osName": "Android 14 (Pure Android GM UI)",
+        "updateYears": 2
+      }
+    },
+    "price": 11299,
+    "priceFormatted": "11.299 TL",
+    "pros": [
+      "FHD+ yüksek çözünürlüklü 90Hz ekran ve 256 GB geniş hafıza",
+      "33W hızlı şarj desteği ile kısa sürede pratik dolum",
+      "NFC desteği ile temassız ödeme kolaylığı"
+    ],
+    "cons": [
+      "5G bağlantı desteği bulunmamaktadır"
+    ]
+  },
+  {
+    "id": "gm-gm-fenix-2-pro-5g-512gb",
+    "slug": "general-mobile-gm-fenix-ii-pro-5g-512gb",
+    "name": "General Mobile GM Fenix II Pro 5G (12/512 GB)",
+    "brand": "General Mobile",
+    "category": "smartphones",
+    "basePrice": 34999,
+    "currency": "TL",
+    "rating": 4.9,
+    "reviewCount": 382,
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": true,
+    "isLatestModel": true,
+    "highlights": [
+      "6.78 inç 120Hz 1.5K Kavisli AMOLED Ekran (1300 nits)",
+      "MediaTek Dimensity 8020 Amiral Gemisi 5G Çip (6nm)",
+      "108 MP OIS Destekli Ana Kamera + 13 MP Ultra Geniş Açı",
+      "66W Süper Hızlı Şarj & 15W Kablosuz Şarj (5100 mAh)"
+    ],
+    "image": "/images/phones/general-mobile/gm-fenix-2-pro-5g-gri.jpg",
+    "gallery": [
+      "/images/phones/general-mobile/gm-fenix-2-pro-5g-gri.jpg",
+      "/images/phones/general-mobile/gm-fenix-2-pro-5g-gri-2.jpg",
+      "/images/phones/general-mobile/gm-fenix-2-pro-5g-gri-3.jpg"
+    ],
+    "images": [
+      "/images/phones/general-mobile/gm-fenix-2-pro-5g-gri.jpg"
+    ],
+    "colorOptions": [
+      {
+        "name": "Metalik Gri",
+        "hex": "#63676E",
+        "image": "/images/phones/general-mobile/gm-fenix-2-pro-5g-gri.jpg"
+      }
+    ],
+    "variants": [
+      {
+        "id": "gm-fenix-2-pro-5g-512gb-metalik-gri",
+        "name": "General Mobile GM Fenix II Pro 5G 12/512 GB - Metalik Gri",
+        "colorName": "Metalik Gri",
+        "colorHex": "#63676E",
+        "image": "/images/phones/general-mobile/gm-fenix-2-pro-5g-gri.jpg",
+        "price": 34999
+      }
+    ],
+    "storeOffers": [
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 34999,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/general-mobile-gm-fenix-ii-pro-5g-dual-12-512-gb-akilli-telefon-metallic-gray.html",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 34299,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com/ara?q=General+Mobile+GM+Fenix+II+Pro",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 34599,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.trendyol.com/sr?q=General+Mobile+GM+Fenix+II+Pro",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 34999,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=General+Mobile+Fenix+II+Pro",
+        "rating": 4.7
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "Mart 2026",
+        "price": 37999
+      },
+      {
+        "date": "Nisan 2026",
+        "price": 36499
+      },
+      {
+        "date": "Mayıs 2026",
+        "price": 35999
+      },
+      {
+        "date": "Haziran 2026",
+        "price": 35499
+      },
+      {
+        "date": "Temmuz 2026",
+        "price": 34999
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 34999
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "120Hz 1.5K Kavisli AMOLED",
+        "resolution": "2652 x 1200 px",
+        "refreshRate": 120,
+        "ppi": 429,
+        "brightnessNits": 1300
+      },
+      "processor": {
+        "chip": "MediaTek Dimensity 8020 5G (6nm)",
+        "cores": "8 Çekirdek (4x 3.0 GHz Cortex-A78 + 4x 2.0 GHz Cortex-A55)",
+        "process": "6nm",
+        "antutuScore": 760000
+      },
+      "memory": {
+        "ramGb": 12,
+        "ramType": "LPDDR5",
+        "storageGb": 512,
+        "storageOptions": [
+          512
+        ],
+        "expandableStorage": false
+      },
+      "camera": {
+        "mainMp": "108 MP (1/1.52\", OIS)",
+        "ultrawideMp": "13 MP Ultra Geniş Açı + 5 MP Makro",
+        "selfieMp": "50 MP AF Ultra Net Portre",
+        "videoRes": "4K @ 60fps / 1080p @ 60fps HDR",
+        "dxomarkScore": 126
+      },
+      "battery": {
+        "capacitymAh": 5100,
+        "chargingWatts": 66,
+        "wirelessCharging": true,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 6",
+        "bluetooth": "5.3",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.8,
+        "waterResistance": "IP54",
+        "frameMaterial": "Premium Metal Çerçeve & AG Mat Cam"
+      },
+      "software": {
+        "osName": "Android 14 (Pure Android GM UI)",
+        "updateYears": 3
+      }
+    },
+    "price": 34999,
+    "priceFormatted": "34.999 TL",
+    "pros": [
+      "1.5K kavisli AMOLED ekran ve 1300 nits yüksek parlaklık",
+      "108 MP OIS ana kamera ve 50 MP otomatik odaklı ön portre kamerası",
+      "Hem 66W kablolu hem de 15W kablosuz şarj desteği",
+      "12 GB RAM ve 512 GB amiral gemisi sınıfı yüksek depolama"
+    ],
+    "cons": [
+      "MicroSD kart desteği bulunmamaktadır"
+    ]
   }
 ]

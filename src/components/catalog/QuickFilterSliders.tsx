@@ -56,6 +56,10 @@ const POPULAR_MODELS: QuickFilterModel[] = [
   { name: 'Infinix Hot 60 Pro+', query: 'Hot 60 Pro Plus', brand: 'Infinix' },
   { name: 'Honor 600', query: 'Honor 600', brand: 'Honor' },
   { name: 'Honor Magic 8 Pro', query: 'Magic 8 Pro', brand: 'Honor' },
+  { name: 'GM 26 Pro 5G', query: 'GM 26 Pro', brand: 'General Mobile' },
+  { name: 'GM 26 5G', query: 'GM 26', brand: 'General Mobile' },
+  { name: 'GM Fenix II Pro', query: 'GM Fenix', brand: 'General Mobile' },
+  { name: 'GM Era 30', query: 'GM Era 30', brand: 'General Mobile' },
 ];
 
 interface QuickFilterSlidersProps {
