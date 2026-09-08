@@ -109935,7 +109935,7 @@
     "rating": 4.9,
     "epeyScore": 92,
     "reviewCount": 2940,
-    "basePrice": 58999,
+    "basePrice": 74999,
     "currency": "TL",
     "releaseYear": 2026,
     "isPopular": true,
@@ -109972,114 +109972,68 @@
     },
     "storeOffers": [
       {
-        "storeName": "Amazon TR",
-        "storeLogo": "/images/stores/amazon.png",
-        "price": 58999,
-        "shippingFee": 0,
-        "inStock": true,
-        "url": "https://www.google.com/search?q=Amazon%20TR%20oppo%20fiyat",
-        "sellerName": "Amazon Türkiye",
-        "isOfficialSeller": true
-      },
-      {
-        "storeName": "Hepsiburada",
-        "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 59471,
-        "shippingFee": 0,
-        "inStock": true,
-        "url": "https://www.google.com/search?q=Hepsiburada%20oppo%20fiyat",
-        "sellerName": "Hepsiburada Resmi Satıcı",
-        "isOfficialSeller": true
-      },
-      {
-        "storeName": "Trendyol",
-        "storeLogo": "/images/stores/trendyol.png",
-        "price": 59884,
-        "shippingFee": 0,
-        "inStock": true,
-        "url": "https://www.google.com/search?q=Trendyol%20oppo%20fiyat",
-        "sellerName": "Trendyol Resmi Satıcı",
-        "isOfficialSeller": true
-      },
-      {
-        "storeName": "MediaMarkt",
-        "storeLogo": "/images/stores/mediamarkt.png",
-        "price": 60474,
-        "shippingFee": 0,
-        "inStock": true,
-        "url": "https://www.google.com/search?q=MediaMarkt%20oppo%20fiyat",
-        "sellerName": "MediaMarkt Resmi Satıcı",
-        "isOfficialSeller": true
-      },
-      {
         "storeName": "Vatan Bilgisayar",
         "storeLogo": "/images/stores/vatan.png",
-        "price": 60769,
-        "shippingFee": 0,
+        "price": 74999,
         "inStock": true,
-        "url": "https://www.google.com/search?q=Vatan%20Bilgisayar%20oppo%20fiyat",
-        "sellerName": "Vatan Bilgisayar Resmi Satıcı",
-        "isOfficialSeller": true
-      },
-      {
-        "storeName": "Teknosa",
-        "storeLogo": "/images/stores/teknosa.png",
-        "price": 61064,
-        "shippingFee": 0,
-        "inStock": true,
-        "url": "https://www.google.com/search?q=Teknosa%20oppo%20fiyat",
-        "sellerName": "Teknosa Resmi Satıcı",
-        "isOfficialSeller": true
-      },
-      {
-        "storeName": "N11",
-        "storeLogo": "/images/stores/n11.png",
-        "price": 60061,
-        "shippingFee": 0,
-        "inStock": true,
-        "url": "https://www.google.com/search?q=N11%20oppo%20fiyat",
-        "sellerName": "N11 Resmi Satıcı",
-        "isOfficialSeller": true
-      },
-      {
-        "storeName": "Pazarama",
-        "storeLogo": "/images/stores/pazarama.png",
-        "price": 60297,
-        "shippingFee": 0,
-        "inStock": true,
-        "url": "https://www.google.com/search?q=Pazarama%20oppo%20fiyat",
-        "sellerName": "Pazarama Resmi Satıcı",
-        "isOfficialSeller": true
+        "url": "https://www.vatanbilgisayar.com/oppo-find-x9-akilli-telefon.html"
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-03-01",
-        "price": 63719
+        "date": "Mayıs 2026",
+        "price": 79999
       },
       {
-        "date": "2026-04-01",
-        "price": 62539
+        "date": "Haziran 2026",
+        "price": 77999
       },
       {
-        "date": "2026-05-01",
-        "price": 61359
+        "date": "Temmuz 2026",
+        "price": 75999
       },
       {
-        "date": "2026-06-01",
-        "price": 60179
+        "date": "Ağustos 2026",
+        "price": 74999
       },
       {
-        "date": "2026-07-01",
-        "price": 59589
-      },
-      {
-        "date": "2026-08-01",
-        "price": 58999
+        "date": "6 Eylül 2026",
+        "price": 74999
       }
     ],
     "images": [
       "/images/phones/oppo/oppo-oppo-find-x9-5g-14101.jpg"
+    ],
+    "price": 74999,
+    "colorOptions": [
+      {
+        "name": "Siyah",
+        "hex": "#1C1D21",
+        "image": "/images/phones/oppo/oppo-oppo-find-x9-5g-14101.jpg"
+      },
+      {
+        "name": "Mavi",
+        "hex": "#4A627E",
+        "image": "/images/phones/oppo/oppo-oppo-find-x9-5g-14101.jpg"
+      }
+    ],
+    "variants": [
+      {
+        "id": "oppo-find-x9-5g-256gb-siyah",
+        "name": "OPPO Find X9 5G 12/256 GB - Siyah",
+        "colorName": "Siyah",
+        "colorHex": "#1C1D21",
+        "image": "/images/phones/oppo/oppo-oppo-find-x9-5g-14101.jpg",
+        "price": 74999
+      },
+      {
+        "id": "oppo-find-x9-5g-256gb-mavi",
+        "name": "OPPO Find X9 5G 12/256 GB - Mavi",
+        "colorName": "Mavi",
+        "colorHex": "#4A627E",
+        "image": "/images/phones/oppo/oppo-oppo-find-x9-5g-14101.jpg",
+        "price": 74999
+      }
     ]
   },
   {
@@ -110720,7 +110674,7 @@
     "rating": 4.85,
     "epeyScore": 90,
     "reviewCount": 3120,
-    "basePrice": 38999,
+    "basePrice": 58999,
     "currency": "TL",
     "releaseYear": 2026,
     "isPopular": true,
@@ -110757,114 +110711,75 @@
     },
     "storeOffers": [
       {
-        "storeName": "Amazon TR",
-        "storeLogo": "/images/stores/amazon.png",
-        "price": 38999,
-        "shippingFee": 0,
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 58999,
         "inStock": true,
-        "url": "https://www.google.com/search?q=Amazon%20TR%20oppo%20fiyat",
-        "sellerName": "Amazon Türkiye",
-        "isOfficialSeller": true
+        "url": "https://www.vatanbilgisayar.com/oppo-reno15-pro-5g-12-512-akilli-telefon.html"
       },
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 39311,
-        "shippingFee": 0,
+        "price": 58499,
         "inStock": true,
-        "url": "https://www.google.com/search?q=Hepsiburada%20oppo%20fiyat",
-        "sellerName": "Hepsiburada Resmi Satıcı",
-        "isOfficialSeller": true
-      },
-      {
-        "storeName": "Trendyol",
-        "storeLogo": "/images/stores/trendyol.png",
-        "price": 39584,
-        "shippingFee": 0,
-        "inStock": true,
-        "url": "https://www.google.com/search?q=Trendyol%20oppo%20fiyat",
-        "sellerName": "Trendyol Resmi Satıcı",
-        "isOfficialSeller": true
-      },
-      {
-        "storeName": "MediaMarkt",
-        "storeLogo": "/images/stores/mediamarkt.png",
-        "price": 39974,
-        "shippingFee": 0,
-        "inStock": true,
-        "url": "https://www.google.com/search?q=MediaMarkt%20oppo%20fiyat",
-        "sellerName": "MediaMarkt Resmi Satıcı",
-        "isOfficialSeller": true
-      },
-      {
-        "storeName": "Vatan Bilgisayar",
-        "storeLogo": "/images/stores/vatan.png",
-        "price": 40169,
-        "shippingFee": 0,
-        "inStock": true,
-        "url": "https://www.google.com/search?q=Vatan%20Bilgisayar%20oppo%20fiyat",
-        "sellerName": "Vatan Bilgisayar Resmi Satıcı",
-        "isOfficialSeller": true
-      },
-      {
-        "storeName": "Teknosa",
-        "storeLogo": "/images/stores/teknosa.png",
-        "price": 40364,
-        "shippingFee": 0,
-        "inStock": true,
-        "url": "https://www.google.com/search?q=Teknosa%20oppo%20fiyat",
-        "sellerName": "Teknosa Resmi Satıcı",
-        "isOfficialSeller": true
-      },
-      {
-        "storeName": "N11",
-        "storeLogo": "/images/stores/n11.png",
-        "price": 39701,
-        "shippingFee": 0,
-        "inStock": true,
-        "url": "https://www.google.com/search?q=N11%20oppo%20fiyat",
-        "sellerName": "N11 Resmi Satıcı",
-        "isOfficialSeller": true
-      },
-      {
-        "storeName": "Pazarama",
-        "storeLogo": "/images/stores/pazarama.png",
-        "price": 39857,
-        "shippingFee": 0,
-        "inStock": true,
-        "url": "https://www.google.com/search?q=Pazarama%20oppo%20fiyat",
-        "sellerName": "Pazarama Resmi Satıcı",
-        "isOfficialSeller": true
+        "url": "https://www.hepsiburada.com/ara?q=Oppo+Reno15+Pro+5G"
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-03-01",
-        "price": 42119
+        "date": "Mayıs 2026",
+        "price": 62999
       },
       {
-        "date": "2026-04-01",
-        "price": 41339
+        "date": "Haziran 2026",
+        "price": 60999
       },
       {
-        "date": "2026-05-01",
-        "price": 40559
+        "date": "Temmuz 2026",
+        "price": 59999
       },
       {
-        "date": "2026-06-01",
-        "price": 39779
+        "date": "Ağustos 2026",
+        "price": 58999
       },
       {
-        "date": "2026-07-01",
-        "price": 39389
-      },
-      {
-        "date": "2026-08-01",
-        "price": 38999
+        "date": "6 Eylül 2026",
+        "price": 58999
       }
     ],
     "images": [
       "/images/phones/oppo/oppo-oppo-reno15-pro-5g-14286.jpg"
+    ],
+    "price": 58999,
+    "colorOptions": [
+      {
+        "name": "Titanyum Gümüş",
+        "hex": "#D1D3D8",
+        "image": "/images/phones/oppo/oppo-oppo-reno15-pro-5g-14286.jpg"
+      },
+      {
+        "name": "Obsidyen Siyahı",
+        "hex": "#1C1C1F",
+        "image": "/images/phones/oppo/oppo-oppo-reno15-pro-5g-14286.jpg"
+      }
+    ],
+    "variants": [
+      {
+        "id": "oppo-reno-15-pro-5g-512gb-gumus",
+        "name": "OPPO Reno15 Pro 5G 12/512 GB - Titanyum Gümüş",
+        "colorName": "Titanyum Gümüş",
+        "colorHex": "#D1D3D8",
+        "image": "/images/phones/oppo/oppo-oppo-reno15-pro-5g-14286.jpg",
+        "price": 58999
+      },
+      {
+        "id": "oppo-reno-15-pro-5g-512gb-siyah",
+        "name": "OPPO Reno15 Pro 5G 12/512 GB - Obsidyen Siyahı",
+        "colorName": "Obsidyen Siyahı",
+        "colorHex": "#1C1C1F",
+        "image": "/images/phones/oppo/oppo-oppo-reno15-pro-5g-14286.jpg",
+        "price": 58999
+      }
     ]
   },
   {
@@ -110877,7 +110792,7 @@
     "rating": 4.8,
     "epeyScore": 88,
     "reviewCount": 2450,
-    "basePrice": 31999,
+    "basePrice": 46999,
     "currency": "TL",
     "releaseYear": 2026,
     "isPopular": true,
@@ -110914,119 +110829,75 @@
     },
     "storeOffers": [
       {
-        "storeName": "Amazon TR",
-        "storeLogo": "/images/stores/amazon.png",
-        "price": 31999,
-        "shippingFee": 0,
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 46999,
         "inStock": true,
-        "url": "https://www.google.com/search?q=Amazon%20TR%20oppo%20fiyat",
-        "sellerName": "Amazon Türkiye",
-        "isOfficialSeller": true
+        "url": "https://www.vatanbilgisayar.com/oppo-reno-15-12-256-akilli-telefon-twilight-blue.html"
       },
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 44600,
-        "shippingFee": 0,
+        "price": 46499,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/reno15-5g-256-gb-12-gb-ram-oppo-turkiye-garantili-alacakaranlik-mavisi-p-HBCV0000D2N1DZ",
-        "sellerName": "Hepsiburada Resmi Satıcı",
-        "isOfficialSeller": true,
-        "updatedAt": "2026-09-06T18:53:53.919Z"
-      },
-      {
-        "storeName": "Trendyol",
-        "storeLogo": "/images/stores/trendyol.png",
-        "price": 32479,
-        "shippingFee": 0,
-        "inStock": true,
-        "url": "https://www.google.com/search?q=Trendyol%20oppo%20fiyat",
-        "sellerName": "Trendyol Resmi Satıcı",
-        "isOfficialSeller": true
-      },
-      {
-        "storeName": "MediaMarkt",
-        "storeLogo": "/images/stores/mediamarkt.png",
-        "price": 32799,
-        "shippingFee": 0,
-        "inStock": true,
-        "url": "https://www.google.com/search?q=MediaMarkt%20oppo%20fiyat",
-        "sellerName": "MediaMarkt Resmi Satıcı",
-        "isOfficialSeller": true
-      },
-      {
-        "storeName": "Vatan Bilgisayar",
-        "storeLogo": "/images/stores/vatan.png",
-        "price": 32959,
-        "shippingFee": 0,
-        "inStock": true,
-        "url": "https://www.google.com/search?q=Vatan%20Bilgisayar%20oppo%20fiyat",
-        "sellerName": "Vatan Bilgisayar Resmi Satıcı",
-        "isOfficialSeller": true
-      },
-      {
-        "storeName": "Teknosa",
-        "storeLogo": "/images/stores/teknosa.png",
-        "price": 33119,
-        "shippingFee": 0,
-        "inStock": true,
-        "url": "https://www.google.com/search?q=Teknosa%20oppo%20fiyat",
-        "sellerName": "Teknosa Resmi Satıcı",
-        "isOfficialSeller": true
-      },
-      {
-        "storeName": "N11",
-        "storeLogo": "/images/stores/n11.png",
-        "price": 32575,
-        "shippingFee": 0,
-        "inStock": true,
-        "url": "https://www.google.com/search?q=N11%20oppo%20fiyat",
-        "sellerName": "N11 Resmi Satıcı",
-        "isOfficialSeller": true
-      },
-      {
-        "storeName": "Pazarama",
-        "storeLogo": "/images/stores/pazarama.png",
-        "price": 32703,
-        "shippingFee": 0,
-        "inStock": true,
-        "url": "https://www.google.com/search?q=Pazarama%20oppo%20fiyat",
-        "sellerName": "Pazarama Resmi Satıcı",
-        "isOfficialSeller": true
+        "url": "https://www.hepsiburada.com/ara?q=Oppo+Reno15+5G"
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-03-01",
-        "price": 34559
+        "date": "Mayıs 2026",
+        "price": 49999
       },
       {
-        "date": "2026-04-01",
-        "price": 33919
+        "date": "Haziran 2026",
+        "price": 48499
       },
       {
-        "date": "2026-05-01",
-        "price": 33279
+        "date": "Temmuz 2026",
+        "price": 47499
       },
       {
-        "date": "2026-06-01",
-        "price": 32639
-      },
-      {
-        "date": "2026-07-01",
-        "price": 32319
-      },
-      {
-        "date": "2026-08-01",
-        "price": 31999
+        "date": "Ağustos 2026",
+        "price": 46999
       },
       {
         "date": "6 Eylül 2026",
-        "price": 31999
+        "price": 46999
       }
     ],
     "images": [
       "/images/phones/oppo/oppo-oppo-reno15-5g-14288.jpg"
+    ],
+    "price": 46999,
+    "colorOptions": [
+      {
+        "name": "Alacakaranlık Mavi",
+        "hex": "#3B597B",
+        "image": "/images/phones/oppo/oppo-oppo-reno15-5g-14288.jpg"
+      },
+      {
+        "name": "Gece Siyahı",
+        "hex": "#1E1E22",
+        "image": "/images/phones/oppo/oppo-oppo-reno15-5g-14288.jpg"
+      }
+    ],
+    "variants": [
+      {
+        "id": "oppo-reno-15-5g-256gb-mavi",
+        "name": "OPPO Reno15 5G 12/256 GB - Alacakaranlık Mavi",
+        "colorName": "Alacakaranlık Mavi",
+        "colorHex": "#3B597B",
+        "image": "/images/phones/oppo/oppo-oppo-reno15-5g-14288.jpg",
+        "price": 46999
+      },
+      {
+        "id": "oppo-reno-15-5g-256gb-siyah",
+        "name": "OPPO Reno15 5G 12/256 GB - Gece Siyahı",
+        "colorName": "Gece Siyahı",
+        "colorHex": "#1E1E22",
+        "image": "/images/phones/oppo/oppo-oppo-reno15-5g-14288.jpg",
+        "price": 46999
+      }
     ]
   },
   {
@@ -111351,14 +111222,14 @@
   {
     "id": "oppo-reno-14-f-5g-256gb-2025",
     "slug": "oppo-reno-14-f-5g-256-gb",
-    "name": "OPPO Reno14 F 5G (256 GB)",
+    "name": "OPPO Reno14 F 5G (12/256 GB)",
     "brand": "Oppo",
     "category": "smartphones",
     "image": "/images/phones/oppo/oppo-oppo-reno14-f-5g-13977.jpg",
     "rating": 4.75,
     "epeyScore": 85,
     "reviewCount": 1780,
-    "basePrice": 22999,
+    "basePrice": 29999,
     "currency": "TL",
     "releaseYear": 2025,
     "isPopular": false,
@@ -111395,119 +111266,75 @@
     },
     "storeOffers": [
       {
-        "storeName": "Amazon TR",
-        "storeLogo": "/images/stores/amazon.png",
-        "price": 22999,
-        "shippingFee": 0,
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 29999,
         "inStock": true,
-        "url": "https://www.google.com/search?q=Amazon%20TR%20oppo%20fiyat",
-        "sellerName": "Amazon Türkiye",
-        "isOfficialSeller": true
+        "url": "https://www.vatanbilgisayar.com/oppo-reno14f-5g-12-256-gb-akilli-telefon-isiltili-yesil.html"
       },
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 29250,
-        "shippingFee": 0,
+        "price": 29699,
         "inStock": true,
-        "url": "https://www.hepsiburada.com/oppo-reno14-f-5g-256-gb-12-gb-ram-oppo-turkiye-garantili-isiltili-yesil-p-HBCV00009P18MA",
-        "sellerName": "Hepsiburada Resmi Satıcı",
-        "isOfficialSeller": true,
-        "updatedAt": "2026-09-06T18:54:05.150Z"
-      },
-      {
-        "storeName": "Trendyol",
-        "storeLogo": "/images/stores/trendyol.png",
-        "price": 23344,
-        "shippingFee": 0,
-        "inStock": true,
-        "url": "https://www.google.com/search?q=Trendyol%20oppo%20fiyat",
-        "sellerName": "Trendyol Resmi Satıcı",
-        "isOfficialSeller": true
-      },
-      {
-        "storeName": "MediaMarkt",
-        "storeLogo": "/images/stores/mediamarkt.png",
-        "price": 23574,
-        "shippingFee": 0,
-        "inStock": true,
-        "url": "https://www.google.com/search?q=MediaMarkt%20oppo%20fiyat",
-        "sellerName": "MediaMarkt Resmi Satıcı",
-        "isOfficialSeller": true
-      },
-      {
-        "storeName": "Vatan Bilgisayar",
-        "storeLogo": "/images/stores/vatan.png",
-        "price": 23689,
-        "shippingFee": 0,
-        "inStock": true,
-        "url": "https://www.google.com/search?q=Vatan%20Bilgisayar%20oppo%20fiyat",
-        "sellerName": "Vatan Bilgisayar Resmi Satıcı",
-        "isOfficialSeller": true
-      },
-      {
-        "storeName": "Teknosa",
-        "storeLogo": "/images/stores/teknosa.png",
-        "price": 23804,
-        "shippingFee": 0,
-        "inStock": true,
-        "url": "https://www.google.com/search?q=Teknosa%20oppo%20fiyat",
-        "sellerName": "Teknosa Resmi Satıcı",
-        "isOfficialSeller": true
-      },
-      {
-        "storeName": "N11",
-        "storeLogo": "/images/stores/n11.png",
-        "price": 23413,
-        "shippingFee": 0,
-        "inStock": true,
-        "url": "https://www.google.com/search?q=N11%20oppo%20fiyat",
-        "sellerName": "N11 Resmi Satıcı",
-        "isOfficialSeller": true
-      },
-      {
-        "storeName": "Pazarama",
-        "storeLogo": "/images/stores/pazarama.png",
-        "price": 23505,
-        "shippingFee": 0,
-        "inStock": true,
-        "url": "https://www.google.com/search?q=Pazarama%20oppo%20fiyat",
-        "sellerName": "Pazarama Resmi Satıcı",
-        "isOfficialSeller": true
+        "url": "https://www.hepsiburada.com/ara?q=Oppo+Reno14+F+5G"
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-03-01",
-        "price": 24839
+        "date": "Mayıs 2026",
+        "price": 32999
       },
       {
-        "date": "2026-04-01",
-        "price": 24379
+        "date": "Haziran 2026",
+        "price": 31499
       },
       {
-        "date": "2026-05-01",
-        "price": 23919
+        "date": "Temmuz 2026",
+        "price": 30499
       },
       {
-        "date": "2026-06-01",
-        "price": 23459
-      },
-      {
-        "date": "2026-07-01",
-        "price": 23229
-      },
-      {
-        "date": "2026-08-01",
-        "price": 22999
+        "date": "Ağustos 2026",
+        "price": 29999
       },
       {
         "date": "6 Eylül 2026",
-        "price": 22999
+        "price": 29999
       }
     ],
     "images": [
       "/images/phones/oppo/oppo-oppo-reno14-f-5g-13977.jpg"
+    ],
+    "price": 29999,
+    "colorOptions": [
+      {
+        "name": "Işıltılı Yeşil",
+        "hex": "#589A74",
+        "image": "/images/phones/oppo/oppo-oppo-reno14-f-5g-13977.jpg"
+      },
+      {
+        "name": "Opal Mavi",
+        "hex": "#6D8EAD",
+        "image": "/images/phones/oppo/oppo-oppo-reno14-f-5g-13977.jpg"
+      }
+    ],
+    "variants": [
+      {
+        "id": "oppo-reno-14-f-5g-256gb-yesil",
+        "name": "OPPO Reno14 F 5G 12/256 GB - Işıltılı Yeşil",
+        "colorName": "Işıltılı Yeşil",
+        "colorHex": "#589A74",
+        "image": "/images/phones/oppo/oppo-oppo-reno14-f-5g-13977.jpg",
+        "price": 29999
+      },
+      {
+        "id": "oppo-reno-14-f-5g-256gb-mavi",
+        "name": "OPPO Reno14 F 5G 12/256 GB - Opal Mavi",
+        "colorName": "Opal Mavi",
+        "colorHex": "#6D8EAD",
+        "image": "/images/phones/oppo/oppo-oppo-reno14-f-5g-13977.jpg",
+        "price": 29999
+      }
     ]
   },
   {
@@ -117028,14 +116855,14 @@
   {
     "id": "oppo-a6-pro-5g-256gb-2027",
     "slug": "oppo-a6-pro-5g-256-gb",
-    "name": "OPPO A6 Pro 5G (256 GB)",
+    "name": "OPPO A6 Pro 5G (8/256 GB)",
     "brand": "Oppo",
     "category": "smartphones",
-    "image": "/images/phones/oppo/oppo-oppo-a5-4g-13871.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-a6-pro-5g-14171.jpg",
     "rating": 4.7,
     "epeyScore": 84,
     "reviewCount": 1450,
-    "basePrice": 15499,
+    "basePrice": 28999,
     "currency": "TL",
     "releaseYear": 2027,
     "isPopular": false,
@@ -117072,114 +116899,78 @@
     },
     "storeOffers": [
       {
-        "storeName": "Amazon TR",
-        "storeLogo": "/images/stores/amazon.png",
-        "price": 15499,
-        "shippingFee": 0,
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 28999,
         "inStock": true,
-        "url": "https://www.google.com/search?q=Amazon%20TR%20oppo%202027%20fiyat",
-        "sellerName": "Amazon Türkiye",
-        "isOfficialSeller": true
+        "url": "https://www.vatanbilgisayar.com/oppo-a6-pro-5g-8gb-256-gb-akilli-telefon-yildiz-mavisi.html"
       },
       {
         "storeName": "Hepsiburada",
         "storeLogo": "/images/stores/hepsiburada.png",
-        "price": 15623,
-        "shippingFee": 0,
+        "price": 28699,
         "inStock": true,
-        "url": "https://www.google.com/search?q=Hepsiburada%20oppo%202027%20fiyat",
-        "sellerName": "Hepsiburada Resmi Satıcı",
-        "isOfficialSeller": true
-      },
-      {
-        "storeName": "Trendyol",
-        "storeLogo": "/images/stores/trendyol.png",
-        "price": 15731,
-        "shippingFee": 0,
-        "inStock": true,
-        "url": "https://www.google.com/search?q=Trendyol%20oppo%202027%20fiyat",
-        "sellerName": "Trendyol Resmi Satıcı",
-        "isOfficialSeller": true
-      },
-      {
-        "storeName": "MediaMarkt",
-        "storeLogo": "/images/stores/mediamarkt.png",
-        "price": 15886,
-        "shippingFee": 0,
-        "inStock": true,
-        "url": "https://www.google.com/search?q=MediaMarkt%20oppo%202027%20fiyat",
-        "sellerName": "MediaMarkt Resmi Satıcı",
-        "isOfficialSeller": true
-      },
-      {
-        "storeName": "Vatan Bilgisayar",
-        "storeLogo": "/images/stores/vatan.png",
-        "price": 15964,
-        "shippingFee": 0,
-        "inStock": true,
-        "url": "https://www.google.com/search?q=Vatan%20Bilgisayar%20oppo%202027%20fiyat",
-        "sellerName": "Vatan Bilgisayar Resmi Satıcı",
-        "isOfficialSeller": true
-      },
-      {
-        "storeName": "Teknosa",
-        "storeLogo": "/images/stores/teknosa.png",
-        "price": 16041,
-        "shippingFee": 0,
-        "inStock": true,
-        "url": "https://www.google.com/search?q=Teknosa%20oppo%202027%20fiyat",
-        "sellerName": "Teknosa Resmi Satıcı",
-        "isOfficialSeller": true
-      },
-      {
-        "storeName": "N11",
-        "storeLogo": "/images/stores/n11.png",
-        "price": 15778,
-        "shippingFee": 0,
-        "inStock": true,
-        "url": "https://www.google.com/search?q=N11%20oppo%202027%20fiyat",
-        "sellerName": "N11 Resmi Satıcı",
-        "isOfficialSeller": true
-      },
-      {
-        "storeName": "Pazarama",
-        "storeLogo": "/images/stores/pazarama.png",
-        "price": 15840,
-        "shippingFee": 0,
-        "inStock": true,
-        "url": "https://www.google.com/search?q=Pazarama%20oppo%202027%20fiyat",
-        "sellerName": "Pazarama Resmi Satıcı",
-        "isOfficialSeller": true
+        "url": "https://www.hepsiburada.com/ara?q=Oppo+A6+Pro+5G"
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-03-01",
-        "price": 16739
+        "date": "Mayıs 2026",
+        "price": 31999
       },
       {
-        "date": "2026-04-01",
-        "price": 16429
+        "date": "Haziran 2026",
+        "price": 30499
       },
       {
-        "date": "2026-05-01",
-        "price": 16119
+        "date": "Temmuz 2026",
+        "price": 29499
       },
       {
-        "date": "2026-06-01",
-        "price": 15809
+        "date": "Ağustos 2026",
+        "price": 28999
       },
       {
-        "date": "2026-07-01",
-        "price": 15654
-      },
-      {
-        "date": "2026-08-01",
-        "price": 15499
+        "date": "6 Eylül 2026",
+        "price": 28999
       }
     ],
     "images": [
-      "/images/phones/oppo/oppo-oppo-a5-4g-13871.jpg"
+      "/images/phones/oppo/oppo-oppo-a6-pro-5g-14171.jpg"
+    ],
+    "gallery": [
+      "/images/phones/oppo/oppo-oppo-a6-pro-5g-14171.jpg"
+    ],
+    "price": 28999,
+    "colorOptions": [
+      {
+        "name": "Yıldız Mavisi",
+        "hex": "#4A6FA5",
+        "image": "/images/phones/oppo/oppo-oppo-a6-pro-5g-14171.jpg"
+      },
+      {
+        "name": "Gül Ağacı Kırmızısı",
+        "hex": "#87323D",
+        "image": "/images/phones/oppo/oppo-oppo-a6-pro-5g-14171.jpg"
+      }
+    ],
+    "variants": [
+      {
+        "id": "oppo-a6-pro-5g-256gb-yildiz-mavisi",
+        "name": "OPPO A6 Pro 5G 8/256 GB - Yıldız Mavisi",
+        "colorName": "Yıldız Mavisi",
+        "colorHex": "#4A6FA5",
+        "image": "/images/phones/oppo/oppo-oppo-a6-pro-5g-14171.jpg",
+        "price": 28999
+      },
+      {
+        "id": "oppo-a6-pro-5g-256gb-gul-agaci-kirmizisi",
+        "name": "OPPO A6 Pro 5G 8/256 GB - Gül Ağacı Kırmızısı",
+        "colorName": "Gül Ağacı Kırmızısı",
+        "colorHex": "#87323D",
+        "image": "/images/phones/oppo/oppo-oppo-a6-pro-5g-14171.jpg",
+        "price": 28999
+      }
     ]
   },
   {
@@ -130460,6 +130251,1583 @@
       "battery": {
         "capacitymAh": 5000,
         "chargingWatts": 15,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      }
+    }
+  },
+  {
+    "id": "oppo-reno-16-pro-5g-12-512gb",
+    "slug": "oppo-reno-16-pro-5g-12-512-gb",
+    "name": "OPPO Reno16 Pro 5G (12/512 GB)",
+    "brand": "Oppo",
+    "category": "smartphones",
+    "basePrice": 68999,
+    "price": 68999,
+    "currency": "TL",
+    "rating": 4.9,
+    "reviewCount": 140,
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "MediaTek Dimensity 8350 Amiral Gemisi Yonga Seti (4nm)",
+      "6.74\" 120Hz 1.5K Kavisli AMOLED Ekran (1600 Nit)",
+      "50 MP Sony IMX890 OIS + 50 MP Portre Telefoto + 8 MP Ultra Geniş",
+      "50 MP Otomatik Odaklamalı Stüdyo Selfie Kamerası",
+      "6000 mAh Batarya & 80W SuperVOOC Flaş Şarj"
+    ],
+    "pros": [
+      "Olağanüstü portre ve telefoto optik çekim kalitesi",
+      "6000 mAh batarya ve 80W SuperVOOC ile 35 dakikada tam şarj",
+      "IP68/IP69K en üst düzey suya ve toza dayanıklılık sertifikası",
+      "12 GB LPDDR5X RAM ve 512 GB geniş UFS 3.1 depolama"
+    ],
+    "cons": [
+      "Kablosuz şarj hızı kabloluya göre daha mütevazı"
+    ],
+    "image": "/images/products/smartphones/oppo-oppo-reno16-pro-5g-col1.png",
+    "images": [
+      "/images/products/smartphones/oppo-oppo-reno16-pro-5g-col1.png"
+    ],
+    "gallery": [
+      "/images/products/smartphones/oppo-oppo-reno16-pro-5g-col1.png",
+      "/images/products/smartphones/oppo-oppo-reno16-pro-5g-col2.png",
+      "/images/products/smartphones/oppo-oppo-reno16-pro-78.jpg"
+    ],
+    "colorOptions": [
+      {
+        "name": "Titanyum Gümüş",
+        "hex": "#C8CAD0",
+        "image": "/images/products/smartphones/oppo-oppo-reno16-pro-5g-col1.png"
+      },
+      {
+        "name": "Obsidyen Siyahı",
+        "hex": "#1C1C1F",
+        "image": "/images/products/smartphones/oppo-oppo-reno16-pro-5g-col2.png"
+      }
+    ],
+    "variants": [
+      {
+        "id": "oppo-reno-16-pro-5g-12-512gb-gumus",
+        "name": "OPPO Reno16 Pro 5G 12/512 GB - Titanyum Gümüş",
+        "colorName": "Titanyum Gümüş",
+        "colorHex": "#C8CAD0",
+        "image": "/images/products/smartphones/oppo-oppo-reno16-pro-5g-col1.png",
+        "price": 68999
+      },
+      {
+        "id": "oppo-reno-16-pro-5g-12-512gb-siyah",
+        "name": "OPPO Reno16 Pro 5G 12/512 GB - Obsidyen Siyahı",
+        "colorName": "Obsidyen Siyahı",
+        "colorHex": "#1C1C1F",
+        "image": "/images/products/smartphones/oppo-oppo-reno16-pro-5g-col2.png",
+        "price": 68999
+      }
+    ],
+    "storeOffers": [
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 68999,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/oppo-reno16-pro-5g-12-512-akilli-telefon.html"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 68499,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com/ara?q=Oppo+Reno16+Pro+5G"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "Mayıs 2026",
+        "price": 72999
+      },
+      {
+        "date": "Haziran 2026",
+        "price": 70999
+      },
+      {
+        "date": "Temmuz 2026",
+        "price": 69999
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 68999
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 68999
+      }
+    ],
+    "specs": {
+      "screenSize": 6.74,
+      "screenResolution": "2772 x 1240 px (1.5K)",
+      "displayType": "AMOLED (120Hz Kavisli)",
+      "chipset": "MediaTek Dimensity 8350",
+      "cpuCores": 8,
+      "ram": 12,
+      "storage": 512,
+      "batteryCapacity": 6000,
+      "chargingSpeed": 80,
+      "mainCamera": "50 MP (f/1.8, OIS) + 50 MP Portre Telefoto (3.5x) + 8 MP Ultra Geniş",
+      "frontCamera": "50 MP AF",
+      "operatingSystem": "ColorOS 15 (Android 15)",
+      "has5G": true,
+      "waterResistance": "IP68 / IP69K",
+      "screen": {
+        "size": "6.74\"",
+        "type": "AMOLED",
+        "resolution": "2772 x 1240 px",
+        "refreshRate": 120,
+        "ppi": 450,
+        "brightnessNits": 1600
+      },
+      "processor": {
+        "chip": "MediaTek Dimensity 8350",
+        "cores": "8 Çekirdek",
+        "process": "4nm",
+        "antutuScore": 1400000
+      },
+      "memory": {
+        "ramGb": 12,
+        "ramType": "LPDDR5X",
+        "storageGb": 512,
+        "storageOptions": [
+          512
+        ],
+        "expandableStorage": false
+      },
+      "camera": {
+        "mainMp": "50 MP (f/1.8, OIS Sony IMX890)",
+        "ultrawideMp": "8 MP (f/2.2, 112°)",
+        "telephotoMp": "50 MP (f/2.8, 3.5x Optik, OIS)",
+        "selfieMp": "50 MP AF Ön Kamera",
+        "videoRes": "4K @ 60fps / 1080p @ 120fps",
+        "dxomarkScore": 142
+      },
+      "battery": {
+        "capacitymAh": 6000,
+        "chargingWatts": 80,
+        "wirelessCharging": true,
+        "reverseWireless": false
+      }
+    }
+  },
+  {
+    "id": "oppo-reno-16-5g-8-256gb",
+    "slug": "oppo-reno-16-5g-8-256-gb",
+    "name": "OPPO Reno16 5G (8/256 GB)",
+    "brand": "Oppo",
+    "category": "smartphones",
+    "basePrice": 55999,
+    "price": 55999,
+    "currency": "TL",
+    "rating": 4.8,
+    "reviewCount": 160,
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "MediaTek Dimensity 8300 Güçlü Yonga Seti (4nm)",
+      "6.7\" 120Hz Canlı AMOLED Ekran (1400 Nit)",
+      "50 MP Sony OIS Ultra Net Ana Kamera",
+      "50 MP Portre Özçekim Kamerası",
+      "6000 mAh Batarya & 80W SuperVOOC Flaş Şarj"
+    ],
+    "pros": [
+      "Kendi sınıfında benzersiz 6000 mAh batarya ve ince kasa",
+      "80W hızlı şarj ile gün boyu kesintisiz enerji",
+      "IP69K yüksek basınçlı sıcak suya dayanıklılık standardı",
+      "Parlak Beyaz ve Alacakaranlık Mor özel tasarım renkleri"
+    ],
+    "cons": [
+      "Optik telefoto lens bulunmuyor"
+    ],
+    "image": "/images/products/smartphones/oppo-oppo-reno16-5g-col1.png",
+    "images": [
+      "/images/products/smartphones/oppo-oppo-reno16-5g-col1.png"
+    ],
+    "gallery": [
+      "/images/products/smartphones/oppo-oppo-reno16-5g-col1.png",
+      "/images/products/smartphones/oppo-oppo-reno16-5g-col2.png",
+      "/images/products/smartphones/oppo-oppo-reno16-77.jpg"
+    ],
+    "colorOptions": [
+      {
+        "name": "Parlak Beyaz",
+        "hex": "#F2F4F7",
+        "image": "/images/products/smartphones/oppo-oppo-reno16-5g-col1.png"
+      },
+      {
+        "name": "Alacakaranlık Mor",
+        "hex": "#7E639B",
+        "image": "/images/products/smartphones/oppo-oppo-reno16-5g-col2.png"
+      }
+    ],
+    "variants": [
+      {
+        "id": "oppo-reno-16-5g-8-256gb-beyaz",
+        "name": "OPPO Reno16 5G 8/256 GB - Parlak Beyaz",
+        "colorName": "Parlak Beyaz",
+        "colorHex": "#F2F4F7",
+        "image": "/images/products/smartphones/oppo-oppo-reno16-5g-col1.png",
+        "price": 55999
+      },
+      {
+        "id": "oppo-reno-16-5g-8-256gb-mor",
+        "name": "OPPO Reno16 5G 8/256 GB - Alacakaranlık Mor",
+        "colorName": "Alacakaranlık Mor",
+        "colorHex": "#7E639B",
+        "image": "/images/products/smartphones/oppo-oppo-reno16-5g-col2.png",
+        "price": 55999
+      }
+    ],
+    "storeOffers": [
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 55999,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/oppo-reno16-5g-8-256-akilli-telefon.html"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 55499,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com/ara?q=Oppo+Reno16+5G"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "Mayıs 2026",
+        "price": 58999
+      },
+      {
+        "date": "Haziran 2026",
+        "price": 57499
+      },
+      {
+        "date": "Temmuz 2026",
+        "price": 56499
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 55999
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 55999
+      }
+    ],
+    "specs": {
+      "screenSize": 6.7,
+      "screenResolution": "2412 x 1080 px (FHD+)",
+      "displayType": "AMOLED (120Hz)",
+      "chipset": "MediaTek Dimensity 8300",
+      "cpuCores": 8,
+      "ram": 8,
+      "storage": 256,
+      "batteryCapacity": 6000,
+      "chargingSpeed": 80,
+      "mainCamera": "50 MP (f/1.8, OIS) + 8 MP Ultra Geniş + 2 MP Makro",
+      "frontCamera": "50 MP",
+      "operatingSystem": "ColorOS 15 (Android 15)",
+      "has5G": true,
+      "waterResistance": "IP68 / IP69K",
+      "screen": {
+        "size": "6.7\"",
+        "type": "AMOLED",
+        "resolution": "2412 x 1080 px",
+        "refreshRate": 120,
+        "ppi": 394,
+        "brightnessNits": 1400
+      },
+      "processor": {
+        "chip": "MediaTek Dimensity 8300",
+        "cores": "8 Çekirdek",
+        "process": "4nm",
+        "antutuScore": 1320000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR5X",
+        "storageGb": 256,
+        "storageOptions": [
+          256
+        ],
+        "expandableStorage": false
+      },
+      "camera": {
+        "mainMp": "50 MP (f/1.8, OIS)",
+        "ultrawideMp": "8 MP (f/2.2, 112°)",
+        "telephotoMp": "Yok",
+        "selfieMp": "50 MP Ön Kamera",
+        "videoRes": "4K @ 60fps / 1080p @ 60fps",
+        "dxomarkScore": 130
+      },
+      "battery": {
+        "capacitymAh": 6000,
+        "chargingWatts": 80,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      }
+    }
+  },
+  {
+    "id": "oppo-reno-16-f-5g-8-256gb",
+    "slug": "oppo-reno-16-f-5g-8-256-gb",
+    "name": "OPPO Reno16 F 5G (8/256 GB)",
+    "brand": "Oppo",
+    "category": "smartphones",
+    "basePrice": 45999,
+    "price": 45999,
+    "currency": "TL",
+    "rating": 4.7,
+    "reviewCount": 175,
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "Qualcomm Snapdragon 6 Gen 1 5G İşlemci",
+      "6.67\" 120Hz Akıcı AMOLED Ekran",
+      "Cosmos Ring Işıklı Arka Bildirim Halkası",
+      "50 MP AI Üçlü Arka Kamera Sistemi & 32 MP Ön Kamera",
+      "6000 mAh Büyük Pil & 45W SuperVOOC Hızlı Şarj"
+    ],
+    "pros": [
+      "Cosmos Ring akıllı LED aydınlatma ile şık bildirimler",
+      "6000 mAh batarya ile 2 güne varan kullanım",
+      "IP64 sıvı sıçramalarına ve toza dayanıklı tasarım"
+    ],
+    "cons": [
+      "Maksimum video kaydı 4K 30fps ile sınırlı"
+    ],
+    "image": "/images/phones/oppo/oppo-reno-16-f-5g-mor.jpg",
+    "images": [
+      "/images/phones/oppo/oppo-reno-16-f-5g-mor.jpg"
+    ],
+    "gallery": [
+      "/images/phones/oppo/oppo-reno-16-f-5g-mor.jpg",
+      "/images/phones/oppo/oppo-reno-16-f-5g-beyaz.jpg"
+    ],
+    "colorOptions": [
+      {
+        "name": "Alacakaranlık Mor",
+        "hex": "#6E5586",
+        "image": "/images/phones/oppo/oppo-reno-16-f-5g-mor.jpg"
+      },
+      {
+        "name": "Parlak Beyaz",
+        "hex": "#F0F2F6",
+        "image": "/images/phones/oppo/oppo-reno-16-f-5g-beyaz.jpg"
+      }
+    ],
+    "variants": [
+      {
+        "id": "oppo-reno-16-f-5g-8-256gb-mor",
+        "name": "OPPO Reno16 F 5G 8/256 GB - Alacakaranlık Mor",
+        "colorName": "Alacakaranlık Mor",
+        "colorHex": "#6E5586",
+        "image": "/images/phones/oppo/oppo-reno-16-f-5g-mor.jpg",
+        "price": 45999
+      },
+      {
+        "id": "oppo-reno-16-f-5g-8-256gb-beyaz",
+        "name": "OPPO Reno16 F 5G 8/256 GB - Parlak Beyaz",
+        "colorName": "Parlak Beyaz",
+        "colorHex": "#F0F2F6",
+        "image": "/images/phones/oppo/oppo-reno-16-f-5g-beyaz.jpg",
+        "price": 45999
+      }
+    ],
+    "storeOffers": [
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 45999,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/oppo-reno16-f-5g-8-256-akilli-telefon-alacakaranlik-mor.html"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 45499,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com/ara?q=Oppo+Reno16+F+5G"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "Mayıs 2026",
+        "price": 48999
+      },
+      {
+        "date": "Haziran 2026",
+        "price": 47499
+      },
+      {
+        "date": "Temmuz 2026",
+        "price": 46499
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 45999
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 45999
+      }
+    ],
+    "specs": {
+      "screenSize": 6.67,
+      "screenResolution": "2400 x 1080 px (FHD+)",
+      "displayType": "AMOLED (120Hz)",
+      "chipset": "Qualcomm Snapdragon 6 Gen 1",
+      "cpuCores": 8,
+      "ram": 8,
+      "storage": 256,
+      "batteryCapacity": 6000,
+      "chargingSpeed": 45,
+      "mainCamera": "50 MP (f/1.8, OIS) + 8 MP Ultra Geniş + 2 MP Makro",
+      "frontCamera": "32 MP",
+      "operatingSystem": "ColorOS 15 (Android 15)",
+      "has5G": true,
+      "waterResistance": "IP64",
+      "screen": {
+        "size": "6.67\"",
+        "type": "AMOLED",
+        "resolution": "2400 x 1080 px",
+        "refreshRate": 120,
+        "ppi": 395,
+        "brightnessNits": 1200
+      },
+      "processor": {
+        "chip": "Qualcomm Snapdragon 6 Gen 1",
+        "cores": "8 Çekirdek",
+        "process": "4nm",
+        "antutuScore": 570000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR4X",
+        "storageGb": 256,
+        "storageOptions": [
+          256
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "50 MP (f/1.8, OIS)",
+        "ultrawideMp": "8 MP (f/2.2, 112°)",
+        "telephotoMp": "Yok",
+        "selfieMp": "32 MP Ön Kamera",
+        "videoRes": "4K @ 30fps / 1080p @ 60fps",
+        "dxomarkScore": 120
+      },
+      "battery": {
+        "capacitymAh": 6000,
+        "chargingWatts": 45,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      }
+    }
+  },
+  {
+    "id": "oppo-reno-15-f-5g-12-256gb",
+    "slug": "oppo-reno-15-f-5g-12-256-gb",
+    "name": "OPPO Reno15 F 5G (12/256 GB)",
+    "brand": "Oppo",
+    "category": "smartphones",
+    "basePrice": 36999,
+    "price": 36999,
+    "currency": "TL",
+    "rating": 4.8,
+    "reviewCount": 190,
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "Qualcomm Snapdragon 6 Gen 1 5G Platformu",
+      "6.67\" 120Hz Akıcı AMOLED Ekran & İnce Çerçeveler",
+      "12 GB Yüksek Kapasiteli Bellek & 256 GB Depolama",
+      "50 MP OIS Ana Kamera & 32 MP Portre Ön Kamera",
+      "5000 mAh Pil & 45W SuperVOOC Flaş Şarj"
+    ],
+    "pros": [
+      "12 GB RAM ile olağanüstü çoklu görev rahatlığı",
+      "Hafif ve ince gövde yapısı ile konforlu tutuş",
+      "Canlı ve parlak AMOLED ekran"
+    ],
+    "cons": [
+      "Stereo hoparlör çıkışı orta seviye"
+    ],
+    "image": "/images/phones/oppo/oppo-reno-15-f-5g-mavi.jpg",
+    "images": [
+      "/images/phones/oppo/oppo-reno-15-f-5g-mavi.jpg"
+    ],
+    "gallery": [
+      "/images/phones/oppo/oppo-reno-15-f-5g-mavi.jpg",
+      "/images/phones/oppo/oppo-reno-15-f-5g-aurora.jpg"
+    ],
+    "colorOptions": [
+      {
+        "name": "Alacakaranlık Mavi",
+        "hex": "#2F4858",
+        "image": "/images/phones/oppo/oppo-reno-15-f-5g-mavi.jpg"
+      },
+      {
+        "name": "Aurora Mavi",
+        "hex": "#488FB1",
+        "image": "/images/phones/oppo/oppo-reno-15-f-5g-aurora.jpg"
+      }
+    ],
+    "variants": [
+      {
+        "id": "oppo-reno-15-f-5g-12-256gb-alacakaranlik",
+        "name": "OPPO Reno15 F 5G 12/256 GB - Alacakaranlık Mavi",
+        "colorName": "Alacakaranlık Mavi",
+        "colorHex": "#2F4858",
+        "image": "/images/phones/oppo/oppo-reno-15-f-5g-mavi.jpg",
+        "price": 36999
+      },
+      {
+        "id": "oppo-reno-15-f-5g-12-256gb-aurora",
+        "name": "OPPO Reno15 F 5G 12/256 GB - Aurora Mavi",
+        "colorName": "Aurora Mavi",
+        "colorHex": "#488FB1",
+        "image": "/images/phones/oppo/oppo-reno-15-f-5g-aurora.jpg",
+        "price": 36999
+      }
+    ],
+    "storeOffers": [
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 36999,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/oppo-reno-15f-5g-5g-12-256-akilli-telefon.html"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 36599,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com/ara?q=Oppo+Reno15+F+5G"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "Mayıs 2026",
+        "price": 39999
+      },
+      {
+        "date": "Haziran 2026",
+        "price": 38499
+      },
+      {
+        "date": "Temmuz 2026",
+        "price": 37499
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 36999
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 36999
+      }
+    ],
+    "specs": {
+      "screenSize": 6.67,
+      "screenResolution": "2400 x 1080 px (FHD+)",
+      "displayType": "AMOLED (120Hz)",
+      "chipset": "Qualcomm Snapdragon 6 Gen 1",
+      "cpuCores": 8,
+      "ram": 12,
+      "storage": 256,
+      "batteryCapacity": 5000,
+      "chargingSpeed": 45,
+      "mainCamera": "50 MP (f/1.8, OIS) + 8 MP Ultra Geniş + 2 MP Makro",
+      "frontCamera": "32 MP",
+      "operatingSystem": "ColorOS 15 (Android 15)",
+      "has5G": true,
+      "waterResistance": "IP64",
+      "screen": {
+        "size": "6.67\"",
+        "type": "AMOLED",
+        "resolution": "2400 x 1080 px",
+        "refreshRate": 120,
+        "ppi": 395,
+        "brightnessNits": 1200
+      },
+      "processor": {
+        "chip": "Qualcomm Snapdragon 6 Gen 1",
+        "cores": "8 Çekirdek",
+        "process": "4nm",
+        "antutuScore": 570000
+      },
+      "memory": {
+        "ramGb": 12,
+        "ramType": "LPDDR4X",
+        "storageGb": 256,
+        "storageOptions": [
+          256
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "50 MP (f/1.8, OIS)",
+        "ultrawideMp": "8 MP (f/2.2, 112°)",
+        "telephotoMp": "Yok",
+        "selfieMp": "32 MP Ön Kamera",
+        "videoRes": "4K @ 30fps / 1080p @ 60fps",
+        "dxomarkScore": 119
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 45,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      }
+    }
+  },
+  {
+    "id": "oppo-find-n6-5g-512gb",
+    "slug": "oppo-find-n6-5g-512-gb",
+    "name": "OPPO Find N6 5G (512 GB - Katlanabilir Amiral Gemisi)",
+    "brand": "Oppo",
+    "category": "smartphones",
+    "basePrice": 119999,
+    "price": 119999,
+    "currency": "TL",
+    "rating": 4.9,
+    "reviewCount": 95,
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "Qualcomm Snapdragon 8 Elite Amiral Gemisi Çipi (3nm)",
+      "7.82\" 120Hz Katlanabilir LTPO3 OLED & 6.31\" 120Hz Kapak Ekranı",
+      "Hasselblad Profesyonel 3x Periskop Telefoto Kamera Sistemi",
+      "5700 mAh Silikon-Karbon Batarya & 80W SuperVOOC & 50W Kablosuz Şarj",
+      "Sıfır Boşluklu Dayanıklı Titanyum Menteşe Mimarisi"
+    ],
+    "pros": [
+      "Katlanabilir cihazlar arasındaki en hafif ve ince gövdelerden biri",
+      "Hasselblad renk kalibrasyonu ve 3x optik periskop telefoto",
+      "5700 mAh dev batarya kapasitesi ile katlanabilir sınıfında rekor pil ömrü",
+      "IPX8 seviyesinde suya tam dayanıklılık"
+    ],
+    "cons": [
+      "Üst düzey lüks segment fiyat seviyesi"
+    ],
+    "image": "/images/products/smartphones/oppo-oppo-find-n6-76.jpg",
+    "images": [
+      "/images/products/smartphones/oppo-oppo-find-n6-76.jpg"
+    ],
+    "gallery": [
+      "/images/products/smartphones/oppo-oppo-find-n6-76.jpg"
+    ],
+    "colorOptions": [
+      {
+        "name": "Siyah",
+        "hex": "#1C1D21",
+        "image": "/images/products/smartphones/oppo-oppo-find-n6-76.jpg"
+      },
+      {
+        "name": "Altın",
+        "hex": "#D5C4A1",
+        "image": "/images/products/smartphones/oppo-oppo-find-n6-76.jpg"
+      }
+    ],
+    "variants": [
+      {
+        "id": "oppo-find-n6-5g-512gb-siyah",
+        "name": "OPPO Find N6 5G 16/512 GB - Siyah",
+        "colorName": "Siyah",
+        "colorHex": "#1C1D21",
+        "image": "/images/products/smartphones/oppo-oppo-find-n6-76.jpg",
+        "price": 119999
+      },
+      {
+        "id": "oppo-find-n6-5g-512gb-altin",
+        "name": "OPPO Find N6 5G 16/512 GB - Altın",
+        "colorName": "Altın",
+        "colorHex": "#D5C4A1",
+        "image": "/images/products/smartphones/oppo-oppo-find-n6-76.jpg",
+        "price": 119999
+      }
+    ],
+    "storeOffers": [
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 119999,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/oppo-find-n6-5g-akilli-telefon.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "Mayıs 2026",
+        "price": 129999
+      },
+      {
+        "date": "Haziran 2026",
+        "price": 124999
+      },
+      {
+        "date": "Temmuz 2026",
+        "price": 121999
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 119999
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 119999
+      }
+    ],
+    "specs": {
+      "screenSize": 7.82,
+      "screenResolution": "2440 x 2268 px (Katlanabilir LTPO3 OLED)",
+      "displayType": "LTPO3 OLED (120Hz, 2800 Nit)",
+      "chipset": "Qualcomm Snapdragon 8 Elite",
+      "cpuCores": 8,
+      "ram": 16,
+      "storage": 512,
+      "batteryCapacity": 5700,
+      "chargingSpeed": 80,
+      "mainCamera": "50 MP (f/1.7, OIS) + 64 MP Periskop Telefoto (3x Optik) + 48 MP Ultra Geniş",
+      "frontCamera": "32 MP (Kapak) + 20 MP (İç Ekran)",
+      "operatingSystem": "ColorOS 15 (Android 15)",
+      "has5G": true,
+      "waterResistance": "IPX8",
+      "screen": {
+        "size": "7.82\"",
+        "type": "LTPO3 OLED",
+        "resolution": "2440 x 2268 px",
+        "refreshRate": 120,
+        "ppi": 426,
+        "brightnessNits": 2800
+      },
+      "processor": {
+        "chip": "Qualcomm Snapdragon 8 Elite",
+        "cores": "8 Çekirdek",
+        "process": "3nm",
+        "antutuScore": 2900000
+      },
+      "memory": {
+        "ramGb": 16,
+        "ramType": "LPDDR5X",
+        "storageGb": 512,
+        "storageOptions": [
+          512
+        ],
+        "expandableStorage": false
+      },
+      "camera": {
+        "mainMp": "50 MP (f/1.7, OIS Sony Lytia)",
+        "ultrawideMp": "48 MP (f/2.2, 114°)",
+        "telephotoMp": "64 MP (f/2.6, 3x Optik, OIS)",
+        "selfieMp": "32 MP Kapak / 20 MP İç Ekran",
+        "videoRes": "4K @ 60fps Dolby Vision",
+        "dxomarkScore": 153
+      },
+      "battery": {
+        "capacitymAh": 5700,
+        "chargingWatts": 80,
+        "wirelessCharging": true,
+        "reverseWireless": true
+      }
+    }
+  },
+  {
+    "id": "oppo-a6-pro-4g-8-256gb",
+    "slug": "oppo-a6-pro-4g-8-256-gb",
+    "name": "OPPO A6 Pro 4G (8/256 GB)",
+    "brand": "Oppo",
+    "category": "smartphones",
+    "basePrice": 21999,
+    "price": 21999,
+    "currency": "TL",
+    "rating": 4.6,
+    "reviewCount": 150,
+    "releaseYear": 2026,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "MediaTek Helio G99 Ultimate 6nm Yonga Seti",
+      "6.67\" 120Hz Akıcı AMOLED Ekran",
+      "50 MP Ultra Net Ana Kamera & 16 MP Ön Kamera",
+      "5000 mAh Pil & 45W SuperVOOC Hızlı Şarj",
+      "Çift Stereo Hoparlör & IP54 Dayanıklılık"
+    ],
+    "pros": [
+      "Canlı ve yüksek kontrastlı AMOLED panel",
+      "45W hızlı şarj desteği",
+      "256 GB geniş dahili hafıza"
+    ],
+    "cons": [
+      "5G bağlantı bulunmuyor"
+    ],
+    "image": "/images/phones/oppo/oppo-oppo-a6-pro-14170.jpg",
+    "images": [
+      "/images/phones/oppo/oppo-oppo-a6-pro-14170.jpg"
+    ],
+    "gallery": [
+      "/images/phones/oppo/oppo-oppo-a6-pro-14170.jpg"
+    ],
+    "colorOptions": [
+      {
+        "name": "Siyah",
+        "hex": "#1C1D21",
+        "image": "/images/phones/oppo/oppo-oppo-a6-pro-14170.jpg"
+      },
+      {
+        "name": "Mavi",
+        "hex": "#3B6899",
+        "image": "/images/phones/oppo/oppo-oppo-a6-pro-14170.jpg"
+      }
+    ],
+    "variants": [
+      {
+        "id": "oppo-a6-pro-4g-8-256gb-siyah",
+        "name": "OPPO A6 Pro 4G 8/256 GB - Siyah",
+        "colorName": "Siyah",
+        "colorHex": "#1C1D21",
+        "image": "/images/phones/oppo/oppo-oppo-a6-pro-14170.jpg",
+        "price": 21999
+      },
+      {
+        "id": "oppo-a6-pro-4g-8-256gb-mavi",
+        "name": "OPPO A6 Pro 4G 8/256 GB - Mavi",
+        "colorName": "Mavi",
+        "colorHex": "#3B6899",
+        "image": "/images/phones/oppo/oppo-oppo-a6-pro-14170.jpg",
+        "price": 21999
+      }
+    ],
+    "storeOffers": [
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 21999,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/oppo-a6-pro-4g-8-256-akilli-telefon.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "Mayıs 2026",
+        "price": 23999
+      },
+      {
+        "date": "Haziran 2026",
+        "price": 22999
+      },
+      {
+        "date": "Temmuz 2026",
+        "price": 22499
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 21999
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 21999
+      }
+    ],
+    "specs": {
+      "screenSize": 6.67,
+      "screenResolution": "2400 x 1080 px (FHD+)",
+      "displayType": "AMOLED (120Hz)",
+      "chipset": "MediaTek Helio G99 Ultimate",
+      "cpuCores": 8,
+      "ram": 8,
+      "storage": 256,
+      "batteryCapacity": 5000,
+      "chargingSpeed": 45,
+      "mainCamera": "50 MP (f/1.8, OIS) + 2 MP Derinlik",
+      "frontCamera": "16 MP",
+      "operatingSystem": "ColorOS 14 (Android 14)",
+      "has5G": false,
+      "waterResistance": "IP54",
+      "screen": {
+        "size": "6.67\"",
+        "type": "AMOLED",
+        "resolution": "2400 x 1080 px",
+        "refreshRate": 120,
+        "ppi": 395,
+        "brightnessNits": 1200
+      },
+      "processor": {
+        "chip": "MediaTek Helio G99 Ultimate",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 430000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR4X",
+        "storageGb": 256,
+        "storageOptions": [
+          256
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "50 MP (f/1.8, OIS)",
+        "ultrawideMp": "Yok",
+        "telephotoMp": "Yok",
+        "selfieMp": "16 MP Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 108
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 45,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      }
+    }
+  },
+  {
+    "id": "oppo-a6t-5g-4-128gb",
+    "slug": "oppo-a6t-5g-4-128-gb",
+    "name": "OPPO A6T 5G (4/128 GB)",
+    "brand": "Oppo",
+    "category": "smartphones",
+    "basePrice": 17999,
+    "price": 17999,
+    "currency": "TL",
+    "rating": 4.4,
+    "reviewCount": 160,
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "MediaTek Dimensity 6300 5G Yonga Seti (6nm)",
+      "6.67\" 120Hz Ultra Akıcı Ekran (1000 Nit)",
+      "50 MP AI Ultra Net Ana Kamera",
+      "5100 mAh Uzun Ömürlü Batarya & 45W SuperVOOC Hızlı Şarj",
+      "Askeri Standartta Darbeye ve Suya Dayanıklılık (MIL-STD-810H & IP54)"
+    ],
+    "pros": [
+      "Giriş-orta seviyede 45W SuperVOOC hızlı şarj",
+      "120Hz yüksek yenileme hızlı parlak ekran",
+      "Geliştirilmiş darbe ve düşme direnci"
+    ],
+    "cons": [
+      "HD+ ekran çözünürlüğü"
+    ],
+    "image": "/images/phones/oppo/oppo-a6t-5g-mor.jpg",
+    "images": [
+      "/images/phones/oppo/oppo-a6t-5g-mor.jpg"
+    ],
+    "gallery": [
+      "/images/phones/oppo/oppo-a6t-5g-mor.jpg",
+      "/images/phones/oppo/oppo-a6t-5g-mavi.jpg"
+    ],
+    "colorOptions": [
+      {
+        "name": "Kristal Mor",
+        "hex": "#6A567D",
+        "image": "/images/phones/oppo/oppo-a6t-5g-mor.jpg"
+      },
+      {
+        "name": "Kristal Mavi",
+        "hex": "#4B779E",
+        "image": "/images/phones/oppo/oppo-a6t-5g-mavi.jpg"
+      }
+    ],
+    "variants": [
+      {
+        "id": "oppo-a6t-5g-4-128gb-mor",
+        "name": "OPPO A6T 5G 4/128 GB - Kristal Mor",
+        "colorName": "Kristal Mor",
+        "colorHex": "#6A567D",
+        "image": "/images/phones/oppo/oppo-a6t-5g-mor.jpg",
+        "price": 17999
+      },
+      {
+        "id": "oppo-a6t-5g-4-128gb-mavi",
+        "name": "OPPO A6T 5G 4/128 GB - Kristal Mavi",
+        "colorName": "Kristal Mavi",
+        "colorHex": "#4B779E",
+        "image": "/images/phones/oppo/oppo-a6t-5g-mavi.jpg",
+        "price": 17999
+      }
+    ],
+    "storeOffers": [
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 17999,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/oppo-a6t-5g-128-gb-akilli-telefon-kristal-mor.html"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 17799,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com/ara?q=Oppo+A6T+5G+128"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "Mayıs 2026",
+        "price": 19499
+      },
+      {
+        "date": "Haziran 2026",
+        "price": 18999
+      },
+      {
+        "date": "Temmuz 2026",
+        "price": 18499
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 17999
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 17999
+      }
+    ],
+    "specs": {
+      "screenSize": 6.67,
+      "screenResolution": "1604 x 720 px (HD+)",
+      "displayType": "IPS LCD (120Hz)",
+      "chipset": "MediaTek Dimensity 6300 5G",
+      "cpuCores": 8,
+      "ram": 4,
+      "storage": 128,
+      "batteryCapacity": 5100,
+      "chargingSpeed": 45,
+      "mainCamera": "50 MP (f/1.8) + AI Sensör",
+      "frontCamera": "8 MP",
+      "operatingSystem": "ColorOS 14 (Android 14)",
+      "has5G": true,
+      "waterResistance": "IP54",
+      "screen": {
+        "size": "6.67\"",
+        "type": "IPS LCD",
+        "resolution": "1604 x 720 px",
+        "refreshRate": 120,
+        "ppi": 264,
+        "brightnessNits": 1000
+      },
+      "processor": {
+        "chip": "MediaTek Dimensity 6300 5G",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 420000
+      },
+      "memory": {
+        "ramGb": 4,
+        "ramType": "LPDDR4X",
+        "storageGb": 128,
+        "storageOptions": [
+          128
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "50 MP (f/1.8)",
+        "ultrawideMp": "Yok",
+        "telephotoMp": "Yok",
+        "selfieMp": "8 MP Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 100
+      },
+      "battery": {
+        "capacitymAh": 5100,
+        "chargingWatts": 45,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      }
+    }
+  },
+  {
+    "id": "oppo-a6t-5g-4-256gb",
+    "slug": "oppo-a6t-5g-4-256-gb",
+    "name": "OPPO A6T 5G (4/256 GB)",
+    "brand": "Oppo",
+    "category": "smartphones",
+    "basePrice": 19999,
+    "price": 19999,
+    "currency": "TL",
+    "rating": 4.4,
+    "reviewCount": 155,
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "MediaTek Dimensity 6300 5G Yonga Seti",
+      "6.67\" 120Hz Ultra Akıcı Ekran (1000 Nit)",
+      "256 GB Geniş Depolama Kapasitesi",
+      "50 MP AI Ultra Net Ana Kamera",
+      "5100 mAh Pil & 45W SuperVOOC Flaş Şarj"
+    ],
+    "pros": [
+      "256 GB depolama alanı ile fotoğraf ve uygulamalar için bol yer",
+      "45W hızlı şarj ile yaklaşık 40 dakikada %80 dolum",
+      "Güçlendirilmiş gövde ve IP54 koruması"
+    ],
+    "cons": [
+      "HD+ ekran çözünürlüğü"
+    ],
+    "image": "/images/phones/oppo/oppo-a6t-5g-mavi.jpg",
+    "images": [
+      "/images/phones/oppo/oppo-a6t-5g-mavi.jpg"
+    ],
+    "gallery": [
+      "/images/phones/oppo/oppo-a6t-5g-mavi.jpg",
+      "/images/phones/oppo/oppo-a6t-5g-mor.jpg"
+    ],
+    "colorOptions": [
+      {
+        "name": "Kristal Mavi",
+        "hex": "#4B779E",
+        "image": "/images/phones/oppo/oppo-a6t-5g-mavi.jpg"
+      },
+      {
+        "name": "Kristal Mor",
+        "hex": "#6A567D",
+        "image": "/images/phones/oppo/oppo-a6t-5g-mor.jpg"
+      }
+    ],
+    "variants": [
+      {
+        "id": "oppo-a6t-5g-4-256gb-mavi",
+        "name": "OPPO A6T 5G 4/256 GB - Kristal Mavi",
+        "colorName": "Kristal Mavi",
+        "colorHex": "#4B779E",
+        "image": "/images/phones/oppo/oppo-a6t-5g-mavi.jpg",
+        "price": 19999
+      },
+      {
+        "id": "oppo-a6t-5g-4-256gb-mor",
+        "name": "OPPO A6T 5G 4/256 GB - Kristal Mor",
+        "colorName": "Kristal Mor",
+        "colorHex": "#6A567D",
+        "image": "/images/phones/oppo/oppo-a6t-5g-mor.jpg",
+        "price": 19999
+      }
+    ],
+    "storeOffers": [
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 19999,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/oppo-a6t-5g-256-gb-akilli-telefon-kristal-mavi.html"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 19799,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com/ara?q=Oppo+A6T+5G+256"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "Mayıs 2026",
+        "price": 21499
+      },
+      {
+        "date": "Haziran 2026",
+        "price": 20999
+      },
+      {
+        "date": "Temmuz 2026",
+        "price": 20499
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 19999
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 19999
+      }
+    ],
+    "specs": {
+      "screenSize": 6.67,
+      "screenResolution": "1604 x 720 px (HD+)",
+      "displayType": "IPS LCD (120Hz)",
+      "chipset": "MediaTek Dimensity 6300 5G",
+      "cpuCores": 8,
+      "ram": 4,
+      "storage": 256,
+      "batteryCapacity": 5100,
+      "chargingSpeed": 45,
+      "mainCamera": "50 MP (f/1.8) + AI Sensör",
+      "frontCamera": "8 MP",
+      "operatingSystem": "ColorOS 14 (Android 14)",
+      "has5G": true,
+      "waterResistance": "IP54",
+      "screen": {
+        "size": "6.67\"",
+        "type": "IPS LCD",
+        "resolution": "1604 x 720 px",
+        "refreshRate": 120,
+        "ppi": 264,
+        "brightnessNits": 1000
+      },
+      "processor": {
+        "chip": "MediaTek Dimensity 6300 5G",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 420000
+      },
+      "memory": {
+        "ramGb": 4,
+        "ramType": "LPDDR4X",
+        "storageGb": 256,
+        "storageOptions": [
+          256
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "50 MP (f/1.8)",
+        "ultrawideMp": "Yok",
+        "telephotoMp": "Yok",
+        "selfieMp": "8 MP Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 101
+      },
+      "battery": {
+        "capacitymAh": 5100,
+        "chargingWatts": 45,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      }
+    }
+  },
+  {
+    "id": "oppo-a5-5g-8-256gb",
+    "slug": "oppo-a5-5g-8-256-gb",
+    "name": "OPPO A5 5G (8/256 GB)",
+    "brand": "Oppo",
+    "category": "smartphones",
+    "basePrice": 23999,
+    "price": 23999,
+    "currency": "TL",
+    "rating": 4.6,
+    "reviewCount": 165,
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "MediaTek Dimensity 6300 5G İşlemci",
+      "6.67\" 120Hz Akıcı Ekran",
+      "50 MP AI Çift Arka Kamera",
+      "6000 mAh Ekstra Büyük Batarya & 45W SuperVOOC Flaş Şarj",
+      "Mistik Beyaz ve Aurora Yeşil Renk Seçenekleri"
+    ],
+    "pros": [
+      "6000 mAh batarya ile iki tam gün şarj aramadan kullanım",
+      "8 GB RAM ve 256 GB dahili depolama",
+      "Darbe ve düşmelere karşı sağlamlaştırılmış gövde"
+    ],
+    "cons": [
+      "Ekran paneli IPS LCD"
+    ],
+    "image": "/images/phones/oppo/oppo-oppo-a5-5g-13872.jpg",
+    "images": [
+      "/images/phones/oppo/oppo-oppo-a5-5g-13872.jpg"
+    ],
+    "gallery": [
+      "/images/phones/oppo/oppo-oppo-a5-5g-13872.jpg"
+    ],
+    "colorOptions": [
+      {
+        "name": "Mistik Beyaz",
+        "hex": "#F0F3F7",
+        "image": "/images/phones/oppo/oppo-oppo-a5-5g-13872.jpg"
+      },
+      {
+        "name": "Aurora Yeşil",
+        "hex": "#3C7362",
+        "image": "/images/phones/oppo/oppo-oppo-a5-5g-13872.jpg"
+      }
+    ],
+    "variants": [
+      {
+        "id": "oppo-a5-5g-8-256gb-beyaz",
+        "name": "OPPO A5 5G 8/256 GB - Mistik Beyaz",
+        "colorName": "Mistik Beyaz",
+        "colorHex": "#F0F3F7",
+        "image": "/images/phones/oppo/oppo-oppo-a5-5g-13872.jpg",
+        "price": 23999
+      },
+      {
+        "id": "oppo-a5-5g-8-256gb-yesil",
+        "name": "OPPO A5 5G 8/256 GB - Aurora Yeşil",
+        "colorName": "Aurora Yeşil",
+        "colorHex": "#3C7362",
+        "image": "/images/phones/oppo/oppo-oppo-a5-5g-13872.jpg",
+        "price": 23999
+      }
+    ],
+    "storeOffers": [
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 23999,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/oppo-a5-5g-8-256-akilli-telefon-mistik-beyaz.html"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 23699,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com/ara?q=Oppo+A5+5G"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "Mayıs 2026",
+        "price": 25999
+      },
+      {
+        "date": "Haziran 2026",
+        "price": 24999
+      },
+      {
+        "date": "Temmuz 2026",
+        "price": 24499
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 23999
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 23999
+      }
+    ],
+    "specs": {
+      "screenSize": 6.67,
+      "screenResolution": "1604 x 720 px (HD+)",
+      "displayType": "IPS LCD (120Hz)",
+      "chipset": "MediaTek Dimensity 6300 5G",
+      "cpuCores": 8,
+      "ram": 8,
+      "storage": 256,
+      "batteryCapacity": 6000,
+      "chargingSpeed": 45,
+      "mainCamera": "50 MP (f/1.8) + 2 MP Derinlik",
+      "frontCamera": "8 MP",
+      "operatingSystem": "ColorOS 14 (Android 14)",
+      "has5G": true,
+      "waterResistance": "IP54",
+      "screen": {
+        "size": "6.67\"",
+        "type": "IPS LCD",
+        "resolution": "1604 x 720 px",
+        "refreshRate": 120,
+        "ppi": 264,
+        "brightnessNits": 1000
+      },
+      "processor": {
+        "chip": "MediaTek Dimensity 6300 5G",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 425000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR4X",
+        "storageGb": 256,
+        "storageOptions": [
+          256
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "50 MP (f/1.8)",
+        "ultrawideMp": "Yok",
+        "telephotoMp": "Yok",
+        "selfieMp": "8 MP Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 104
+      },
+      "battery": {
+        "capacitymAh": 6000,
+        "chargingWatts": 45,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      }
+    }
+  },
+  {
+    "id": "oppo-a5-4g-6-128gb",
+    "slug": "oppo-a5-4g-6-128-gb",
+    "name": "OPPO A5 4G (6/128 GB)",
+    "brand": "Oppo",
+    "category": "smartphones",
+    "basePrice": 13499,
+    "price": 13499,
+    "currency": "TL",
+    "rating": 4.5,
+    "reviewCount": 155,
+    "releaseYear": 2026,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "Qualcomm Snapdragon 680 4G Güvenilir İşlemci",
+      "6.67\" 90Hz Akıcı Ekran",
+      "50 MP AI Çift Arka Kamera",
+      "5100 mAh Batarya & 45W SuperVOOC Flaş Şarj",
+      "Ultra Ses Modu ile %300 Yüksek Hoparlör Çıkışı"
+    ],
+    "pros": [
+      "Fiyatına göre 45W hızlı şarj desteği",
+      "Snapdragon 680 ile verimli pil tüketimi",
+      "Canlı Aurora Yeşil gövde rengi"
+    ],
+    "cons": [
+      "5G desteği yok"
+    ],
+    "image": "/images/phones/oppo/oppo-oppo-a5-4g-13871.jpg",
+    "images": [
+      "/images/phones/oppo/oppo-oppo-a5-4g-13871.jpg"
+    ],
+    "gallery": [
+      "/images/phones/oppo/oppo-oppo-a5-4g-13871.jpg"
+    ],
+    "colorOptions": [
+      {
+        "name": "Aurora Yeşil",
+        "hex": "#376856",
+        "image": "/images/phones/oppo/oppo-oppo-a5-4g-13871.jpg"
+      },
+      {
+        "name": "Gece Siyahı",
+        "hex": "#1E1E22",
+        "image": "/images/phones/oppo/oppo-oppo-a5-4g-13871.jpg"
+      }
+    ],
+    "variants": [
+      {
+        "id": "oppo-a5-4g-6-128gb-yesil",
+        "name": "OPPO A5 4G 6/128 GB - Aurora Yeşil",
+        "colorName": "Aurora Yeşil",
+        "colorHex": "#376856",
+        "image": "/images/phones/oppo/oppo-oppo-a5-4g-13871.jpg",
+        "price": 13499
+      },
+      {
+        "id": "oppo-a5-4g-6-128gb-siyah",
+        "name": "OPPO A5 4G 6/128 GB - Gece Siyahı",
+        "colorName": "Gece Siyahı",
+        "colorHex": "#1E1E22",
+        "image": "/images/phones/oppo/oppo-oppo-a5-4g-13871.jpg",
+        "price": 13499
+      }
+    ],
+    "storeOffers": [
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 13499,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/oppo-a5-4g-6-128-akilli-telefon-aurora-yesil.html"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 13299,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com/ara?q=Oppo+A5+4G"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "Mayıs 2026",
+        "price": 14999
+      },
+      {
+        "date": "Haziran 2026",
+        "price": 14299
+      },
+      {
+        "date": "Temmuz 2026",
+        "price": 13799
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 13499
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 13499
+      }
+    ],
+    "specs": {
+      "screenSize": 6.67,
+      "screenResolution": "1604 x 720 px (HD+)",
+      "displayType": "IPS LCD (90Hz)",
+      "chipset": "Qualcomm Snapdragon 680 4G",
+      "cpuCores": 8,
+      "ram": 6,
+      "storage": 128,
+      "batteryCapacity": 5100,
+      "chargingSpeed": 45,
+      "mainCamera": "50 MP (f/1.8) + 2 MP Derinlik",
+      "frontCamera": "8 MP",
+      "operatingSystem": "ColorOS 14 (Android 14)",
+      "has5G": false,
+      "waterResistance": "IP54",
+      "screen": {
+        "size": "6.67\"",
+        "type": "IPS LCD",
+        "resolution": "1604 x 720 px",
+        "refreshRate": 90,
+        "ppi": 264,
+        "brightnessNits": 950
+      },
+      "processor": {
+        "chip": "Qualcomm Snapdragon 680 4G",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 310000
+      },
+      "memory": {
+        "ramGb": 6,
+        "ramType": "LPDDR4X",
+        "storageGb": 128,
+        "storageOptions": [
+          128
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "50 MP (f/1.8)",
+        "ultrawideMp": "Yok",
+        "telephotoMp": "Yok",
+        "selfieMp": "8 MP Ön Kamera",
+        "videoRes": "1080p @ 30fps",
+        "dxomarkScore": 97
+      },
+      "battery": {
+        "capacitymAh": 5100,
+        "chargingWatts": 45,
         "wirelessCharging": false,
         "reverseWireless": false
       }
