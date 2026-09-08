@@ -125296,5 +125296,1695 @@
         "price": 69999
       }
     ]
+  },
+  {
+    "id": "xiaomi-17t-256gb-2026",
+    "slug": "xiaomi-17t-256-gb",
+    "name": "Xiaomi 17T (256 GB)",
+    "brand": "Xiaomi",
+    "category": "smartphones",
+    "basePrice": 34999,
+    "price": 34999,
+    "currency": "TL",
+    "rating": 4.8,
+    "reviewCount": 385,
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "Leica Profesyonel Optik & Summilux Lens Sistemi",
+      "MediaTek Dimensity 8400-Ultra Yonga Seti (4nm)",
+      "6.67\" 144Hz 1.5K CrystalRes AMOLED Ekran",
+      "50 MP OIS Sony IMX906 + 50 MP Portre Telefoto",
+      "6000 mAh Batarya & 67W HyperCharge Hızlı Şarj"
+    ],
+    "pros": [
+      "Leica iş birliğiyle üstün doğal renk ve portre fotoğrafçılığı",
+      "144 Hz akıcı CrystalRes AMOLED ekran ve 4000 nit tepe parlaklık",
+      "6000 mAh yüksek kapasiteli batarya ve uzun pil ömrü",
+      "IP68 suya ve toza tam dayanıklılık"
+    ],
+    "cons": [
+      "Kablosuz şarj desteği bulunmuyor (17T Pro modelinde mevcut)"
+    ],
+    "image": "/images/phones/xiaomi/xiaomi-17t.jpg",
+    "images": [
+      "/images/phones/xiaomi/xiaomi-17t.jpg"
+    ],
+    "gallery": [
+      "/images/phones/xiaomi/xiaomi-17t.jpg"
+    ],
+    "colorOptions": [
+      {
+        "name": "Siyah",
+        "hex": "#1E1E1E",
+        "image": "/images/phones/xiaomi/xiaomi-17t.jpg"
+      },
+      {
+        "name": "Mor",
+        "hex": "#685D79",
+        "image": "/images/phones/xiaomi/xiaomi-17t.jpg"
+      },
+      {
+        "name": "Opal Beyazı",
+        "hex": "#F0F2F5",
+        "image": "/images/phones/xiaomi/xiaomi-17t.jpg"
+      }
+    ],
+    "variants": [
+      {
+        "id": "xiaomi-17t-256gb-2026-siyah",
+        "name": "Xiaomi 17T 12/256GB - Siyah",
+        "colorName": "Siyah",
+        "colorHex": "#1E1E1E",
+        "image": "/images/phones/xiaomi/xiaomi-17t.jpg",
+        "price": 34999
+      },
+      {
+        "id": "xiaomi-17t-256gb-2026-mor",
+        "name": "Xiaomi 17T 12/256GB - Mor",
+        "colorName": "Mor",
+        "colorHex": "#685D79",
+        "image": "/images/phones/xiaomi/xiaomi-17t.jpg",
+        "price": 34999
+      },
+      {
+        "id": "xiaomi-17t-256gb-2026-opal-beyazi",
+        "name": "Xiaomi 17T 12/256GB - Opal Beyazı",
+        "colorName": "Opal Beyazı",
+        "colorHex": "#F0F2F5",
+        "image": "/images/phones/xiaomi/xiaomi-17t.jpg",
+        "price": 34999
+      }
+    ],
+    "storeOffers": [
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 34999,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/xiaomi-17t-12-256gb-akilli-telefon.html"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 34699,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com/ara?q=Xiaomi+17T+256+GB"
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 34799,
+        "inStock": true,
+        "url": "https://www.trendyol.com/sr?q=Xiaomi%2017T%20256%20GB"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 34999,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Xiaomi%2017T"
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 34999,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Xiaomi%2017T"
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 34500,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Xiaomi%2017T"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "Mayıs 2026",
+        "price": 36999
+      },
+      {
+        "date": "Haziran 2026",
+        "price": 36499
+      },
+      {
+        "date": "Temmuz 2026",
+        "price": 35999
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 34999
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 34999
+      }
+    ],
+    "specs": {
+      "screenSize": 6.67,
+      "screenResolution": "2712 x 1220 px (1.5K)",
+      "displayType": "CrystalRes AMOLED (144Hz)",
+      "chipset": "MediaTek Dimensity 8400-Ultra",
+      "cpuCores": 8,
+      "ram": 12,
+      "storage": 256,
+      "batteryCapacity": 6000,
+      "chargingSpeed": 67,
+      "mainCamera": "50 MP (Leica, OIS) + 50 MP Portre (2.6x) + 12 MP Ultra Geniş",
+      "frontCamera": "32 MP HDR",
+      "operatingSystem": "Xiaomi HyperOS 2.0 (Android 16)",
+      "has5G": true,
+      "waterResistance": "IP68",
+      "screen": {
+        "size": "6.67\"",
+        "type": "CrystalRes AMOLED",
+        "resolution": "2712 x 1220 px (1.5K)",
+        "refreshRate": 144,
+        "ppi": 446,
+        "brightnessNits": 4000
+      },
+      "processor": {
+        "chip": "MediaTek Dimensity 8400-Ultra",
+        "cores": "8 Çekirdek",
+        "process": "4nm",
+        "antutuScore": 1650000
+      },
+      "memory": {
+        "ramGb": 12,
+        "ramType": "LPDDR5X",
+        "storageGb": 256,
+        "storageOptions": [
+          256
+        ],
+        "expandableStorage": false
+      },
+      "camera": {
+        "mainMp": "50 MP (Leica Summilux, OIS, f/1.7)",
+        "ultrawideMp": "12 MP (f/2.2)",
+        "telephotoMp": "50 MP (2.6x Optik, f/1.9)",
+        "selfieMp": "32 MP (f/2.0)",
+        "videoRes": "4K @ 60fps / 8K @ 24fps",
+        "dxomarkScore": 138
+      },
+      "battery": {
+        "capacitymAh": 6000,
+        "chargingWatts": 67,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 7",
+        "bluetooth": "5.4",
+        "hasNFC": true,
+        "hasesim": true
+      },
+      "build": {
+        "weightGrams": 193,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP68",
+        "frameMaterial": "Alüminyum & Cam"
+      },
+      "software": {
+        "osName": "Xiaomi HyperOS 2.0 (Android 16)",
+        "updateYears": 5
+      }
+    },
+    "isLatestModel": true
+  },
+  {
+    "id": "xiaomi-redmi-a7-pro-128gb-2026",
+    "slug": "redmi-a7-pro-128-gb",
+    "name": "Redmi A7 Pro (128 GB)",
+    "brand": "Xiaomi",
+    "category": "smartphones",
+    "basePrice": 6999,
+    "price": 6999,
+    "currency": "TL",
+    "rating": 4.4,
+    "reviewCount": 210,
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "Giriş Segmentinde Fiyat/Performans Şampiyonu",
+      "6.74\" 90Hz Akıcı Geniş Ekran",
+      "50 MP AI Çift Arka Kamera",
+      "5000 mAh Uzun Ömürlü Batarya",
+      "4 GB RAM (+4 GB Sanal Bellek) & 128 GB Depolama"
+    ],
+    "pros": [
+      "Bütçe dostu fiyat etiketi ve şık tasarım",
+      "5000 mAh batarya ile tam 2 günlük pil performansı",
+      "MicroSD kart ile 1 TB'a kadar hafıza artırabilme",
+      "Parmak izi okuyucu ve yüz tanıma desteği"
+    ],
+    "cons": [
+      "HD+ ekran çözünürlüğü",
+      "10W/18W standart şarj süresi"
+    ],
+    "image": "/images/phones/xiaomi/xiaomi-redmi-a7-pro-14463.jpg",
+    "images": [
+      "/images/phones/xiaomi/xiaomi-redmi-a7-pro-14463.jpg"
+    ],
+    "gallery": [
+      "/images/phones/xiaomi/xiaomi-redmi-a7-pro-14463.jpg"
+    ],
+    "colorOptions": [
+      {
+        "name": "Siyah",
+        "hex": "#232323",
+        "image": "/images/phones/xiaomi/xiaomi-redmi-a7-pro-14463.jpg"
+      },
+      {
+        "name": "Sis Mavisi",
+        "hex": "#7D9AB3",
+        "image": "/images/phones/xiaomi/xiaomi-redmi-a7-pro-14463.jpg"
+      },
+      {
+        "name": "Mavi",
+        "hex": "#3B6896",
+        "image": "/images/phones/xiaomi/xiaomi-redmi-a7-pro-14463.jpg"
+      }
+    ],
+    "variants": [
+      {
+        "id": "xiaomi-redmi-a7-pro-128gb-2026-siyah",
+        "name": "Redmi A7 Pro 4/128GB - Siyah",
+        "colorName": "Siyah",
+        "colorHex": "#232323",
+        "image": "/images/phones/xiaomi/xiaomi-redmi-a7-pro-14463.jpg",
+        "price": 6999
+      },
+      {
+        "id": "xiaomi-redmi-a7-pro-128gb-2026-sis-mavisi",
+        "name": "Redmi A7 Pro 4/128GB - Sis Mavisi",
+        "colorName": "Sis Mavisi",
+        "colorHex": "#7D9AB3",
+        "image": "/images/phones/xiaomi/xiaomi-redmi-a7-pro-14463.jpg",
+        "price": 6999
+      },
+      {
+        "id": "xiaomi-redmi-a7-pro-128gb-2026-mavi",
+        "name": "Redmi A7 Pro 4/128GB - Mavi",
+        "colorName": "Mavi",
+        "colorHex": "#3B6896",
+        "image": "/images/phones/xiaomi/xiaomi-redmi-a7-pro-14463.jpg",
+        "price": 6999
+      }
+    ],
+    "storeOffers": [
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 6999,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/xiaomi-redmi-a7-pro-4-128gb-akilli-telefon.html"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 6899,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com/ara?q=Redmi+A7+Pro+128+GB"
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 6949,
+        "inStock": true,
+        "url": "https://www.trendyol.com/sr?q=Redmi%20A7%20Pro%20128%20GB"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 6999,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Redmi%20A7%20Pro"
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 6999,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Redmi%20A7%20Pro"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "Mayıs 2026",
+        "price": 7499
+      },
+      {
+        "date": "Haziran 2026",
+        "price": 7299
+      },
+      {
+        "date": "Temmuz 2026",
+        "price": 7149
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 6999
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 6999
+      }
+    ],
+    "specs": {
+      "screenSize": 6.74,
+      "screenResolution": "1600 x 720 px (HD+)",
+      "displayType": "IPS LCD (90Hz)",
+      "chipset": "Unisoc T616 Octa-Core",
+      "cpuCores": 8,
+      "ram": 4,
+      "storage": 128,
+      "batteryCapacity": 5000,
+      "chargingSpeed": 18,
+      "mainCamera": "50 MP AI Ana Kamera + 2 MP Derinlik",
+      "frontCamera": "8 MP",
+      "operatingSystem": "Xiaomi HyperOS (Android 15)",
+      "has5G": false,
+      "waterResistance": "Sıçramaya Dayanıklı",
+      "screen": {
+        "size": "6.74\"",
+        "type": "IPS LCD",
+        "resolution": "1600 x 720 px (HD+)",
+        "refreshRate": 90,
+        "ppi": 260,
+        "brightnessNits": 500
+      },
+      "processor": {
+        "chip": "Unisoc T616",
+        "cores": "8 Çekirdek",
+        "process": "12nm",
+        "antutuScore": 280000
+      },
+      "memory": {
+        "ramGb": 4,
+        "ramType": "LPDDR4X",
+        "storageGb": 128,
+        "storageOptions": [
+          128
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "50 MP (f/1.8)",
+        "ultrawideMp": "Yok",
+        "telephotoMp": "Yok",
+        "selfieMp": "8 MP (f/2.2)",
+        "videoRes": "1080p @ 30fps",
+        "dxomarkScore": 68
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 18,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": false,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 192,
+        "thicknessMm": 8.3,
+        "waterResistance": "IP52",
+        "frameMaterial": "Polimer"
+      },
+      "software": {
+        "osName": "Xiaomi HyperOS (Android 15)",
+        "updateYears": 3
+      }
+    },
+    "isLatestModel": true
+  },
+  {
+    "id": "xiaomi-redmi-note-15-256gb-2026",
+    "slug": "redmi-note-15-256-gb",
+    "name": "Redmi Note 15 (256 GB)",
+    "brand": "Xiaomi",
+    "category": "smartphones",
+    "basePrice": 13499,
+    "price": 13499,
+    "currency": "TL",
+    "rating": 4.6,
+    "reviewCount": 840,
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "108 MP Süper Net Üçlü AI Kamera Sistemi",
+      "6.67\" 120Hz FHD+ AMOLED Ekran (2100 Nit)",
+      "Qualcomm Snapdragon 685 (6nm Yonga Seti)",
+      "6000 mAh Güçlü Batarya & 33W Hızlı Şarj",
+      "8 GB RAM & 256 GB Dahili Depolama"
+    ],
+    "pros": [
+      "108 MP yüksek çözünürlüklü detaylı ana kamera",
+      "İnce çerçeveli, canlı ve parlak 120Hz AMOLED panel",
+      "6000 mAh batarya ile yoğun kullanımda dahi gün boyu şarj",
+      "Stereo çift hoparlör ve Dolby Atmos desteği"
+    ],
+    "cons": [
+      "5G desteği bulunmuyor (4G/LTE versiyonu)"
+    ],
+    "image": "/images/phones/xiaomi/redmi-note-15.jpg",
+    "images": [
+      "/images/phones/xiaomi/redmi-note-15.jpg"
+    ],
+    "gallery": [
+      "/images/phones/xiaomi/redmi-note-15.jpg"
+    ],
+    "colorOptions": [
+      {
+        "name": "Mavi",
+        "hex": "#44729B",
+        "image": "/images/phones/xiaomi/redmi-note-15.jpg"
+      },
+      {
+        "name": "Siyah",
+        "hex": "#1C1C1E",
+        "image": "/images/phones/xiaomi/redmi-note-15.jpg"
+      }
+    ],
+    "variants": [
+      {
+        "id": "xiaomi-redmi-note-15-256gb-2026-mavi",
+        "name": "Redmi Note 15 8+256GB - Mavi",
+        "colorName": "Mavi",
+        "colorHex": "#44729B",
+        "image": "/images/phones/xiaomi/redmi-note-15.jpg",
+        "price": 13499
+      },
+      {
+        "id": "xiaomi-redmi-note-15-256gb-2026-siyah",
+        "name": "Redmi Note 15 8+256GB - Siyah",
+        "colorName": "Siyah",
+        "colorHex": "#1C1C1E",
+        "image": "/images/phones/xiaomi/redmi-note-15.jpg",
+        "price": 13499
+      }
+    ],
+    "storeOffers": [
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 13499,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/xiaomi-redmi-note-15-8-256gb-akilli-telefon.html"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 13299,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com/ara?q=Redmi+Note+15+256+GB"
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 13399,
+        "inStock": true,
+        "url": "https://www.trendyol.com/sr?q=Redmi%20Note%2015%20256%20GB"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 13499,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Redmi%20Note%2015"
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 13499,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Redmi%20Note%2015"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "Mayıs 2026",
+        "price": 14499
+      },
+      {
+        "date": "Haziran 2026",
+        "price": 14199
+      },
+      {
+        "date": "Temmuz 2026",
+        "price": 13899
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 13499
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 13499
+      }
+    ],
+    "specs": {
+      "screenSize": 6.67,
+      "screenResolution": "2400 x 1080 px (FHD+)",
+      "displayType": "AMOLED (120Hz)",
+      "chipset": "Qualcomm Snapdragon 685",
+      "cpuCores": 8,
+      "ram": 8,
+      "storage": 256,
+      "batteryCapacity": 6000,
+      "chargingSpeed": 33,
+      "mainCamera": "108 MP (f/1.75) + 8 MP Ultra Geniş + 2 MP Makro",
+      "frontCamera": "16 MP",
+      "operatingSystem": "Xiaomi HyperOS (Android 15)",
+      "has5G": false,
+      "waterResistance": "IP54",
+      "screen": {
+        "size": "6.67\"",
+        "type": "AMOLED",
+        "resolution": "2400 x 1080 px (FHD+)",
+        "refreshRate": 120,
+        "ppi": 395,
+        "brightnessNits": 2100
+      },
+      "processor": {
+        "chip": "Qualcomm Snapdragon 685",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 390000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR4X",
+        "storageGb": 256,
+        "storageOptions": [
+          256
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "108 MP (f/1.75)",
+        "ultrawideMp": "8 MP (f/2.2)",
+        "telephotoMp": "Yok",
+        "selfieMp": "16 MP (f/2.4)",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 98
+      },
+      "battery": {
+        "capacitymAh": 6000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 188,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Polikarbonat"
+      },
+      "software": {
+        "osName": "Xiaomi HyperOS (Android 15)",
+        "updateYears": 4
+      }
+    },
+    "isLatestModel": true
+  },
+  {
+    "id": "xiaomi-redmi-note-15-pro-256gb-2026",
+    "slug": "redmi-note-15-pro-256-gb",
+    "name": "Redmi Note 15 Pro (256 GB)",
+    "brand": "Xiaomi",
+    "category": "smartphones",
+    "basePrice": 17999,
+    "price": 17999,
+    "currency": "TL",
+    "rating": 4.7,
+    "reviewCount": 1120,
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "200 MP OIS Ultra Net Ana Kamera Sistemi",
+      "MediaTek Helio G99-Ultra Performans İşlemcisi",
+      "6.67\" 120Hz FHD+ Flow AMOLED Ekran",
+      "6000 mAh Uzun Ömürlü Batarya & 67W Turbo Şarj",
+      "8 GB RAM & 256 GB Dahili Depolama"
+    ],
+    "pros": [
+      "200 MP OIS destekli ana kamera ile kayıpsız 2x/4x sensör içi zoom",
+      "67W Turbo şarj ile 45 dakikada tam dolum",
+      "Gorilla Glass Victus ön cam koruması ve IP65 dayanıklılık",
+      "Ekran içi parmak izi okuyucu ve kalp atış hızı sensörü"
+    ],
+    "cons": [
+      "4G modeli olup 5G modem içermez"
+    ],
+    "image": "/images/phones/xiaomi/redmi-note-15-pro.jpg",
+    "images": [
+      "/images/phones/xiaomi/redmi-note-15-pro.jpg"
+    ],
+    "gallery": [
+      "/images/phones/xiaomi/redmi-note-15-pro.jpg"
+    ],
+    "colorOptions": [
+      {
+        "name": "Siyah",
+        "hex": "#212124",
+        "image": "/images/phones/xiaomi/redmi-note-15-pro.jpg"
+      },
+      {
+        "name": "Mavi",
+        "hex": "#3E6B99",
+        "image": "/images/phones/xiaomi/redmi-note-15-pro.jpg"
+      },
+      {
+        "name": "Titanyum",
+        "hex": "#878682",
+        "image": "/images/phones/xiaomi/redmi-note-15-pro.jpg"
+      }
+    ],
+    "variants": [
+      {
+        "id": "xiaomi-redmi-note-15-pro-256gb-2026-siyah",
+        "name": "Redmi Note 15 Pro 8+256GB - Siyah",
+        "colorName": "Siyah",
+        "colorHex": "#212124",
+        "image": "/images/phones/xiaomi/redmi-note-15-pro.jpg",
+        "price": 17999
+      },
+      {
+        "id": "xiaomi-redmi-note-15-pro-256gb-2026-mavi",
+        "name": "Redmi Note 15 Pro 8+256GB - Mavi",
+        "colorName": "Mavi",
+        "colorHex": "#3E6B99",
+        "image": "/images/phones/xiaomi/redmi-note-15-pro.jpg",
+        "price": 17999
+      },
+      {
+        "id": "xiaomi-redmi-note-15-pro-256gb-2026-titanyum",
+        "name": "Redmi Note 15 Pro 8+256GB - Titanyum",
+        "colorName": "Titanyum",
+        "colorHex": "#878682",
+        "image": "/images/phones/xiaomi/redmi-note-15-pro.jpg",
+        "price": 17999
+      }
+    ],
+    "storeOffers": [
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 17999,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/xiaomi-redmi-note-15-pro-8-256gb-akilli-telefon.html"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 17799,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com/ara?q=Redmi+Note+15+Pro+256+GB"
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 17899,
+        "inStock": true,
+        "url": "https://www.trendyol.com/sr?q=Redmi%20Note%2015%20Pro%20256%20GB"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 17999,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Redmi%20Note%2015%20Pro"
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 17999,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Redmi%20Note%2015%20Pro"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "Mayıs 2026",
+        "price": 19499
+      },
+      {
+        "date": "Haziran 2026",
+        "price": 18999
+      },
+      {
+        "date": "Temmuz 2026",
+        "price": 18499
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 17999
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 17999
+      }
+    ],
+    "specs": {
+      "screenSize": 6.67,
+      "screenResolution": "2400 x 1080 px (FHD+)",
+      "displayType": "Flow AMOLED (120Hz)",
+      "chipset": "MediaTek Helio G99-Ultra",
+      "cpuCores": 8,
+      "ram": 8,
+      "storage": 256,
+      "batteryCapacity": 6000,
+      "chargingSpeed": 67,
+      "mainCamera": "200 MP (OIS) + 8 MP Ultra Geniş + 2 MP Makro",
+      "frontCamera": "32 MP",
+      "operatingSystem": "Xiaomi HyperOS (Android 15)",
+      "has5G": false,
+      "waterResistance": "IP65",
+      "screen": {
+        "size": "6.67\"",
+        "type": "Flow AMOLED",
+        "resolution": "2400 x 1080 px (FHD+)",
+        "refreshRate": 120,
+        "ppi": 395,
+        "brightnessNits": 2000
+      },
+      "processor": {
+        "chip": "MediaTek Helio G99-Ultra",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 480000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR4X",
+        "storageGb": 256,
+        "storageOptions": [
+          256
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "200 MP (OIS, f/1.65)",
+        "ultrawideMp": "8 MP (f/2.2)",
+        "telephotoMp": "Yok",
+        "selfieMp": "32 MP (f/2.2)",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 116
+      },
+      "battery": {
+        "capacitymAh": 6000,
+        "chargingWatts": 67,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 188,
+        "thicknessMm": 7.98,
+        "waterResistance": "IP65",
+        "frameMaterial": "Kompozit Cam & Polimer"
+      },
+      "software": {
+        "osName": "Xiaomi HyperOS (Android 15)",
+        "updateYears": 4
+      }
+    },
+    "isLatestModel": true
+  },
+  {
+    "id": "xiaomi-redmi-note-15-pro-512gb-2026",
+    "slug": "redmi-note-15-pro-512-gb",
+    "name": "Redmi Note 15 Pro (512 GB)",
+    "brand": "Xiaomi",
+    "category": "smartphones",
+    "basePrice": 20999,
+    "price": 20999,
+    "currency": "TL",
+    "rating": 4.8,
+    "reviewCount": 760,
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "Devasa 12 GB RAM & 512 GB Geniş Depolama Alanı",
+      "200 MP OIS Ultra Net Ana Kamera Sistemi",
+      "MediaTek Helio G99-Ultra Performans İşlemcisi",
+      "6.67\" 120Hz FHD+ Flow AMOLED Ekran",
+      "6000 mAh Batarya & 67W Turbo Şarj"
+    ],
+    "pros": [
+      "12 GB RAM ile kesintisiz çoklu görev ve uygulama geçişi",
+      "512 GB dahili hafıza ile sınırsız fotoğraf ve video kaydı",
+      "200 MP OIS ana kamera ile kristal netliğinde fotoğraflar",
+      "67W Turbo şarj ve 6000 mAh uzun batarya ömrü"
+    ],
+    "cons": [
+      "4G modeli olup 5G modem içermez"
+    ],
+    "image": "/images/phones/xiaomi/redmi-note-15-pro.jpg",
+    "images": [
+      "/images/phones/xiaomi/redmi-note-15-pro.jpg"
+    ],
+    "gallery": [
+      "/images/phones/xiaomi/redmi-note-15-pro.jpg"
+    ],
+    "colorOptions": [
+      {
+        "name": "Siyah",
+        "hex": "#212124",
+        "image": "/images/phones/xiaomi/redmi-note-15-pro.jpg"
+      },
+      {
+        "name": "Titanyum",
+        "hex": "#878682",
+        "image": "/images/phones/xiaomi/redmi-note-15-pro.jpg"
+      },
+      {
+        "name": "Mavi",
+        "hex": "#3E6B99",
+        "image": "/images/phones/xiaomi/redmi-note-15-pro.jpg"
+      }
+    ],
+    "variants": [
+      {
+        "id": "xiaomi-redmi-note-15-pro-512gb-2026-siyah",
+        "name": "Redmi Note 15 Pro 12+512GB - Siyah",
+        "colorName": "Siyah",
+        "colorHex": "#212124",
+        "image": "/images/phones/xiaomi/redmi-note-15-pro.jpg",
+        "price": 20999
+      },
+      {
+        "id": "xiaomi-redmi-note-15-pro-512gb-2026-titanyum",
+        "name": "Redmi Note 15 Pro 12+512GB - Titanyum",
+        "colorName": "Titanyum",
+        "colorHex": "#878682",
+        "image": "/images/phones/xiaomi/redmi-note-15-pro.jpg",
+        "price": 20999
+      },
+      {
+        "id": "xiaomi-redmi-note-15-pro-512gb-2026-mavi",
+        "name": "Redmi Note 15 Pro 12+512GB - Mavi",
+        "colorName": "Mavi",
+        "colorHex": "#3E6B99",
+        "image": "/images/phones/xiaomi/redmi-note-15-pro.jpg",
+        "price": 20999
+      }
+    ],
+    "storeOffers": [
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 20999,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/xiaomi-redmi-note-15-pro-12-512gb-akilli-telefon.html"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 20799,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com/ara?q=Redmi+Note+15+Pro+512+GB"
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 20899,
+        "inStock": true,
+        "url": "https://www.trendyol.com/sr?q=Redmi%20Note%2015%20Pro%20512%20GB"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 20999,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Redmi%20Note%2015%20Pro%20512"
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 20999,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Redmi%20Note%2015%20Pro%20512"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "Mayıs 2026",
+        "price": 22499
+      },
+      {
+        "date": "Haziran 2026",
+        "price": 21999
+      },
+      {
+        "date": "Temmuz 2026",
+        "price": 21499
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 20999
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 20999
+      }
+    ],
+    "specs": {
+      "screenSize": 6.67,
+      "screenResolution": "2400 x 1080 px (FHD+)",
+      "displayType": "Flow AMOLED (120Hz)",
+      "chipset": "MediaTek Helio G99-Ultra",
+      "cpuCores": 8,
+      "ram": 12,
+      "storage": 512,
+      "batteryCapacity": 6000,
+      "chargingSpeed": 67,
+      "mainCamera": "200 MP (OIS) + 8 MP Ultra Geniş + 2 MP Makro",
+      "frontCamera": "32 MP",
+      "operatingSystem": "Xiaomi HyperOS (Android 15)",
+      "has5G": false,
+      "waterResistance": "IP65",
+      "screen": {
+        "size": "6.67\"",
+        "type": "Flow AMOLED",
+        "resolution": "2400 x 1080 px (FHD+)",
+        "refreshRate": 120,
+        "ppi": 395,
+        "brightnessNits": 2000
+      },
+      "processor": {
+        "chip": "MediaTek Helio G99-Ultra",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 495000
+      },
+      "memory": {
+        "ramGb": 12,
+        "ramType": "LPDDR4X",
+        "storageGb": 512,
+        "storageOptions": [
+          512
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "200 MP (OIS, f/1.65)",
+        "ultrawideMp": "8 MP (f/2.2)",
+        "telephotoMp": "Yok",
+        "selfieMp": "32 MP (f/2.2)",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 116
+      },
+      "battery": {
+        "capacitymAh": 6000,
+        "chargingWatts": 67,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 188,
+        "thicknessMm": 7.98,
+        "waterResistance": "IP65",
+        "frameMaterial": "Kompozit Cam & Polimer"
+      },
+      "software": {
+        "osName": "Xiaomi HyperOS (Android 15)",
+        "updateYears": 4
+      }
+    },
+    "isLatestModel": true
+  },
+  {
+    "id": "redmi-note-15-pro-plus-5g-256gb-2026",
+    "slug": "redmi-note-15-pro-plus-5g-256-gb",
+    "name": "Redmi Note 15 Pro+ 5G (256 GB)",
+    "brand": "Xiaomi",
+    "category": "smartphones",
+    "basePrice": 25999,
+    "price": 25999,
+    "currency": "TL",
+    "rating": 4.8,
+    "reviewCount": 930,
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "200 MP Süper OIS Ana Kamera + 50 MP Portre Telefoto",
+      "MediaTek Dimensity 7400-Ultra (4nm) 5G Yonga Seti",
+      "6.74\" 1.5K 120Hz Kavisli AMOLED Ekran (3000 Nit)",
+      "6200 mAh Silikon-Karbon Batarya & 120W HyperCharge",
+      "IP68 & IP69K Üstün Su ve Toz Dayanıklılık Sertifikası"
+    ],
+    "pros": [
+      "120W HyperCharge ile sadece 19 dakikada %100 tam dolum",
+      "6200 mAh batarya ile amiral gemisi pil performansı",
+      "200 MP OIS + 50 MP telefoto ile çok yönlü profesyonel kamera",
+      "IP69K yüksek basınçlı sıcak suya dahi dayanıklılık"
+    ],
+    "cons": [
+      "Kavisli ekran tasarımı ekran koruyucu seçiminde dikkat gerektirebilir"
+    ],
+    "image": "/images/phones/xiaomi/redmi-note-15-pro-plus-5g.jpg",
+    "images": [
+      "/images/phones/xiaomi/redmi-note-15-pro-plus-5g.jpg"
+    ],
+    "gallery": [
+      "/images/phones/xiaomi/redmi-note-15-pro-plus-5g.jpg"
+    ],
+    "colorOptions": [
+      {
+        "name": "Kahverengi",
+        "hex": "#634832",
+        "image": "/images/phones/xiaomi/redmi-note-15-pro-plus-5g.jpg"
+      },
+      {
+        "name": "Siyah",
+        "hex": "#1E1E20",
+        "image": "/images/phones/xiaomi/redmi-note-15-pro-plus-5g.jpg"
+      },
+      {
+        "name": "Mavi",
+        "hex": "#3B6A96",
+        "image": "/images/phones/xiaomi/redmi-note-15-pro-plus-5g.jpg"
+      }
+    ],
+    "variants": [
+      {
+        "id": "redmi-note-15-pro-plus-5g-256gb-2026-kahverengi",
+        "name": "Redmi Note 15 Pro+ 5G 8+256GB - Kahverengi",
+        "colorName": "Kahverengi",
+        "colorHex": "#634832",
+        "image": "/images/phones/xiaomi/redmi-note-15-pro-plus-5g.jpg",
+        "price": 25999
+      },
+      {
+        "id": "redmi-note-15-pro-plus-5g-256gb-2026-siyah",
+        "name": "Redmi Note 15 Pro+ 5G 8+256GB - Siyah",
+        "colorName": "Siyah",
+        "colorHex": "#1E1E20",
+        "image": "/images/phones/xiaomi/redmi-note-15-pro-plus-5g.jpg",
+        "price": 25999
+      },
+      {
+        "id": "redmi-note-15-pro-plus-5g-256gb-2026-mavi",
+        "name": "Redmi Note 15 Pro+ 5G 8+256GB - Mavi",
+        "colorName": "Mavi",
+        "colorHex": "#3B6A96",
+        "image": "/images/phones/xiaomi/redmi-note-15-pro-plus-5g.jpg",
+        "price": 25999
+      }
+    ],
+    "storeOffers": [
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 25999,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/xiaomi-redmi-note-15-pro-plus-5g-8-256gb-akilli-telefon.html"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 25699,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com/ara?q=Redmi+Note+15+Pro+Plus+5G+256+GB"
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 25799,
+        "inStock": true,
+        "url": "https://www.trendyol.com/sr?q=Redmi%20Note%2015%20Pro%20Plus%205G%20256%20GB"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 25999,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Redmi%20Note%2015%20Pro%20Plus"
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 25999,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Redmi%20Note%2015%20Pro%20Plus"
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 25500,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Redmi%20Note%2015%20Pro%20Plus"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "Mayıs 2026",
+        "price": 27999
+      },
+      {
+        "date": "Haziran 2026",
+        "price": 27499
+      },
+      {
+        "date": "Temmuz 2026",
+        "price": 26899
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 25999
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 25999
+      }
+    ],
+    "specs": {
+      "screenSize": 6.74,
+      "screenResolution": "1240x2772 (1.5K)",
+      "displayType": "Curved AMOLED (120Hz)",
+      "chipset": "MediaTek Dimensity 7400-Ultra",
+      "cpuCores": 8,
+      "ram": 8,
+      "storage": 256,
+      "batteryCapacity": 6200,
+      "chargingSpeed": 120,
+      "mainCamera": "200 MP (OIS) + 50 MP Telefoto (2.5x) + 8 MP Ultra Geniş",
+      "frontCamera": "32 MP",
+      "operatingSystem": "Xiaomi HyperOS 2.0 (Android 16)",
+      "has5G": true,
+      "waterResistance": "IP68 & IP69K",
+      "screen": {
+        "size": "6.74\"",
+        "type": "Curved AMOLED",
+        "resolution": "1240 x 2772 px (1.5K)",
+        "refreshRate": 120,
+        "ppi": 446,
+        "brightnessNits": 3000
+      },
+      "processor": {
+        "chip": "MediaTek Dimensity 7400-Ultra",
+        "cores": "8 Çekirdek",
+        "process": "4nm",
+        "antutuScore": 1100000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR5X",
+        "storageGb": 256,
+        "storageOptions": [
+          256
+        ],
+        "expandableStorage": false
+      },
+      "camera": {
+        "mainMp": "200 MP (OIS, f/1.65)",
+        "ultrawideMp": "8 MP (f/2.2)",
+        "telephotoMp": "50 MP (2.5x Optik, f/2.0)",
+        "selfieMp": "32 MP (f/2.2)",
+        "videoRes": "4K @ 60fps",
+        "dxomarkScore": 128
+      },
+      "battery": {
+        "capacitymAh": 6200,
+        "chargingWatts": 120,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 6",
+        "bluetooth": "5.4",
+        "hasNFC": true,
+        "hasesim": true
+      },
+      "build": {
+        "weightGrams": 204,
+        "thicknessMm": 8.4,
+        "waterResistance": "IP68 & IP69K",
+        "frameMaterial": "Vegan Deri / Cam & Metal"
+      },
+      "software": {
+        "osName": "Xiaomi HyperOS 2.0 (Android 16)",
+        "updateYears": 5
+      }
+    },
+    "isLatestModel": true
+  },
+  {
+    "id": "xiaomi-redmi-15-256gb-2026",
+    "slug": "redmi-15-256-gb",
+    "name": "Redmi 15 (256 GB)",
+    "brand": "Xiaomi",
+    "category": "smartphones",
+    "basePrice": 11499,
+    "price": 11499,
+    "currency": "TL",
+    "rating": 4.5,
+    "reviewCount": 460,
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "6.88\" Devasa 120Hz Akıcı IPS LCD Ekran",
+      "6000 mAh Ekstra Uzun Batarya Kapasitesi & 33W Hızlı Şarj",
+      "50 MP AI Ultra Net Ana Kamera",
+      "Qualcomm Snapdragon 4 Gen 2 AE (4nm) Yonga Seti",
+      "8 GB RAM & 256 GB Geniş Depolama"
+    ],
+    "pros": [
+      "Geniş 6.88 inç ekran ile harika video ve oyun deneyimi",
+      "6000 mAh batarya ile tek şarjla 2 güne varan kullanım",
+      "4nm verimli Snapdragon işlemci ile pürüzsüz günlük akıcılık",
+      "Zarif cam arka kapak tasarımı"
+    ],
+    "cons": [
+      "Büyük ekran nedeniyle tek elle kullanım alışkanlık gerektirebilir"
+    ],
+    "image": "/images/phones/xiaomi/redmi-15.jpg",
+    "images": [
+      "/images/phones/xiaomi/redmi-15.jpg"
+    ],
+    "gallery": [
+      "/images/phones/xiaomi/redmi-15.jpg"
+    ],
+    "colorOptions": [
+      {
+        "name": "Siyah",
+        "hex": "#1B1B1D",
+        "image": "/images/phones/xiaomi/redmi-15.jpg"
+      },
+      {
+        "name": "Titanyum Gri",
+        "hex": "#77787B",
+        "image": "/images/phones/xiaomi/redmi-15.jpg"
+      },
+      {
+        "name": "Mavi",
+        "hex": "#4A76A8",
+        "image": "/images/phones/xiaomi/redmi-15.jpg"
+      }
+    ],
+    "variants": [
+      {
+        "id": "xiaomi-redmi-15-256gb-2026-siyah",
+        "name": "Redmi 15 8+256GB - Siyah",
+        "colorName": "Siyah",
+        "colorHex": "#1B1B1D",
+        "image": "/images/phones/xiaomi/redmi-15.jpg",
+        "price": 11499
+      },
+      {
+        "id": "xiaomi-redmi-15-256gb-2026-titanyum-gri",
+        "name": "Redmi 15 8+256GB - Titanyum Gri",
+        "colorName": "Titanyum Gri",
+        "colorHex": "#77787B",
+        "image": "/images/phones/xiaomi/redmi-15.jpg",
+        "price": 11499
+      },
+      {
+        "id": "xiaomi-redmi-15-256gb-2026-mavi",
+        "name": "Redmi 15 8+256GB - Mavi",
+        "colorName": "Mavi",
+        "colorHex": "#4A76A8",
+        "image": "/images/phones/xiaomi/redmi-15.jpg",
+        "price": 11499
+      }
+    ],
+    "storeOffers": [
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 11499,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/xiaomi-redmi-15-8-256gb-akilli-telefon.html"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 11299,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com/ara?q=Redmi+15+256+GB"
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 11399,
+        "inStock": true,
+        "url": "https://www.trendyol.com/sr?q=Redmi%2015%20256%20GB"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 11499,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Redmi%2015"
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 11499,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Redmi%2015"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "Mayıs 2026",
+        "price": 12499
+      },
+      {
+        "date": "Haziran 2026",
+        "price": 12199
+      },
+      {
+        "date": "Temmuz 2026",
+        "price": 11899
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 11499
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 11499
+      }
+    ],
+    "specs": {
+      "screenSize": 6.88,
+      "screenResolution": "1640 x 720 px (HD+)",
+      "displayType": "IPS LCD (120Hz)",
+      "chipset": "Qualcomm Snapdragon 4 Gen 2 AE",
+      "cpuCores": 8,
+      "ram": 8,
+      "storage": 256,
+      "batteryCapacity": 6000,
+      "chargingSpeed": 33,
+      "mainCamera": "50 MP (f/1.8) + Yardımcı AI Sensör",
+      "frontCamera": "13 MP",
+      "operatingSystem": "Xiaomi HyperOS (Android 15)",
+      "has5G": false,
+      "waterResistance": "IP52",
+      "screen": {
+        "size": "6.88\"",
+        "type": "IPS LCD",
+        "resolution": "1640 x 720 px (HD+)",
+        "refreshRate": 120,
+        "ppi": 260,
+        "brightnessNits": 600
+      },
+      "processor": {
+        "chip": "Qualcomm Snapdragon 4 Gen 2 AE",
+        "cores": "8 Çekirdek",
+        "process": "4nm",
+        "antutuScore": 450000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR4X",
+        "storageGb": 256,
+        "storageOptions": [
+          256
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "50 MP (f/1.8)",
+        "ultrawideMp": "Yok",
+        "telephotoMp": "Yok",
+        "selfieMp": "13 MP (f/2.0)",
+        "videoRes": "1080p @ 30fps",
+        "dxomarkScore": 84
+      },
+      "battery": {
+        "capacitymAh": 6000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.3",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 204,
+        "thicknessMm": 8.2,
+        "waterResistance": "IP52",
+        "frameMaterial": "Cam Görünümlü Polikarbonat"
+      },
+      "software": {
+        "osName": "Xiaomi HyperOS (Android 15)",
+        "updateYears": 3
+      }
+    },
+    "isLatestModel": true
+  },
+  {
+    "id": "xiaomi-redmi-15c-256gb-2026",
+    "slug": "redmi-15c-256-gb",
+    "name": "Redmi 15C (256 GB)",
+    "brand": "Xiaomi",
+    "category": "smartphones",
+    "basePrice": 9999,
+    "price": 9999,
+    "currency": "TL",
+    "rating": 4.4,
+    "reviewCount": 390,
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "6.88\" 120Hz Ultra Akıcı Geniş Ekran",
+      "6000 mAh Büyük Kapasiteli Batarya & 18W Hızlı Şarj",
+      "50 MP AI Ana Kamera",
+      "MediaTek Helio G81-Ultra Güçlü İşlemci",
+      "8 GB RAM & 256 GB Yüksek Depolama Alanı"
+    ],
+    "pros": [
+      "Geniş ekran ile sosyal medya ve dizi izlemede yüksek konfor",
+      "6000 mAh batarya ile priz aramaya son veren pil performansı",
+      "256 GB depolama ile uygun fiyata yüksek alan",
+      "3.5 mm kulaklık girişi ve FM radyo desteği"
+    ],
+    "cons": [
+      "Ekran çözünürlüğü HD+"
+    ],
+    "image": "/images/phones/xiaomi/redmi-15c.jpg",
+    "images": [
+      "/images/phones/xiaomi/redmi-15c.jpg"
+    ],
+    "gallery": [
+      "/images/phones/xiaomi/redmi-15c.jpg"
+    ],
+    "colorOptions": [
+      {
+        "name": "Siyah",
+        "hex": "#1D1E20",
+        "image": "/images/phones/xiaomi/redmi-15c.jpg"
+      },
+      {
+        "name": "Yeşil",
+        "hex": "#5D7C66",
+        "image": "/images/phones/xiaomi/redmi-15c.jpg"
+      },
+      {
+        "name": "Mavi",
+        "hex": "#3B6A96",
+        "image": "/images/phones/xiaomi/redmi-15c.jpg"
+      }
+    ],
+    "variants": [
+      {
+        "id": "xiaomi-redmi-15c-256gb-2026-siyah",
+        "name": "Redmi 15C 8+256GB - Siyah",
+        "colorName": "Siyah",
+        "colorHex": "#1D1E20",
+        "image": "/images/phones/xiaomi/redmi-15c.jpg",
+        "price": 9999
+      },
+      {
+        "id": "xiaomi-redmi-15c-256gb-2026-yesil",
+        "name": "Redmi 15C 8+256GB - Yeşil",
+        "colorName": "Yeşil",
+        "colorHex": "#5D7C66",
+        "image": "/images/phones/xiaomi/redmi-15c.jpg",
+        "price": 9999
+      },
+      {
+        "id": "xiaomi-redmi-15c-256gb-2026-mavi",
+        "name": "Redmi 15C 8+256GB - Mavi",
+        "colorName": "Mavi",
+        "colorHex": "#3B6A96",
+        "image": "/images/phones/xiaomi/redmi-15c.jpg",
+        "price": 9999
+      }
+    ],
+    "storeOffers": [
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 9999,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/xiaomi-redmi-15c-8-256gb-akilli-telefon.html"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 9799,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com/ara?q=Redmi+15C+256+GB"
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 9899,
+        "inStock": true,
+        "url": "https://www.trendyol.com/sr?q=Redmi%2015C%20256%20GB"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 9999,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Redmi%2015C"
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 9999,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Redmi%2015C"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "Mayıs 2026",
+        "price": 10999
+      },
+      {
+        "date": "Haziran 2026",
+        "price": 10699
+      },
+      {
+        "date": "Temmuz 2026",
+        "price": 10399
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 9999
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 9999
+      }
+    ],
+    "specs": {
+      "screenSize": 6.88,
+      "screenResolution": "1640 x 720 px (HD+)",
+      "displayType": "IPS LCD (120Hz)",
+      "chipset": "MediaTek Helio G81-Ultra",
+      "cpuCores": 8,
+      "ram": 8,
+      "storage": 256,
+      "batteryCapacity": 6000,
+      "chargingSpeed": 18,
+      "mainCamera": "50 MP (f/1.8) + Derinlik Sensörü",
+      "frontCamera": "13 MP",
+      "operatingSystem": "Xiaomi HyperOS (Android 15)",
+      "has5G": false,
+      "waterResistance": "IP52",
+      "screen": {
+        "size": "6.88\"",
+        "type": "IPS LCD",
+        "resolution": "1640 x 720 px (HD+)",
+        "refreshRate": 120,
+        "ppi": 260,
+        "brightnessNits": 600
+      },
+      "processor": {
+        "chip": "MediaTek Helio G81-Ultra",
+        "cores": "8 Çekirdek",
+        "process": "12nm",
+        "antutuScore": 260000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR4X",
+        "storageGb": 256,
+        "storageOptions": [
+          256
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "50 MP (f/1.8)",
+        "ultrawideMp": "Yok",
+        "telephotoMp": "Yok",
+        "selfieMp": "13 MP (f/2.0)",
+        "videoRes": "1080p @ 30fps",
+        "dxomarkScore": 78
+      },
+      "battery": {
+        "capacitymAh": 6000,
+        "chargingWatts": 18,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.3",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 204,
+        "thicknessMm": 8.2,
+        "waterResistance": "IP52",
+        "frameMaterial": "Polimer"
+      },
+      "software": {
+        "osName": "Xiaomi HyperOS (Android 15)",
+        "updateYears": 3
+      }
+    },
+    "isLatestModel": true
   }
 ]
