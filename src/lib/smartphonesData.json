@@ -123741,5 +123741,1560 @@
         "color": "Pembe"
       }
     ]
+  },
+  {
+    "id": "samsung-samsung-galaxy-a27-5g-127",
+    "slug": "samsung-galaxy-a27-5g-256gb",
+    "name": "Samsung Galaxy A27 5G (256 GB)",
+    "brand": "Samsung",
+    "category": "smartphones",
+    "basePrice": 21499,
+    "price": 21499,
+    "currency": "TL",
+    "rating": 4.7,
+    "reviewCount": 420,
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "Samsung Galaxy A27 5G Orijinal Türkiye Garantili",
+      "6.6\" FHD+ 120Hz Super AMOLED Ekran",
+      "8 GB RAM & 256 GB Dahili Depolama",
+      "50 MP OIS Destekli Ana Kamera",
+      "5000 mAh Uzun Ömürlü Batarya (25W Hızlı Şarj)"
+    ],
+    "pros": [
+      "Canlı ve akıcı 120 Hz Super AMOLED ekran deneyimi",
+      "50 MP OIS destekli ana kamera ile net gece ve gündüz çekimleri",
+      "5000 mAh geniş batarya kapasitesi ile 2 güne varan kullanım",
+      "IP67 suya ve toza dayanıklılık sertifikası"
+    ],
+    "cons": [
+      "Kutudan şarj adaptörü çıkmıyor",
+      "25W şarj hızı rakiplerine kıyasla standart seviyede"
+    ],
+    "image": "/images/phones/samsung/samsung-galaxy-a27-5g.png",
+    "images": [
+      "/images/phones/samsung/samsung-galaxy-a27-5g.png"
+    ],
+    "gallery": [
+      "/images/phones/samsung/samsung-galaxy-a27-5g.png"
+    ],
+    "colorOptions": [
+      {
+        "name": "Siyah",
+        "hex": "#222222",
+        "image": "/images/phones/samsung/samsung-galaxy-a27-5g.png"
+      },
+      {
+        "name": "Mavi",
+        "hex": "#5B7E9F",
+        "image": "/images/phones/samsung/samsung-galaxy-a27-5g.png"
+      },
+      {
+        "name": "Açık Pembe",
+        "hex": "#F3D1D5",
+        "image": "/images/phones/samsung/samsung-galaxy-a27-5g.png"
+      }
+    ],
+    "storeOffers": [
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 21499,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/samsung-galaxy-a27-5g-8-256-gb-akilli-telefon.html"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 21299,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com/ara?q=Samsung+Galaxy+A27+5G+256+GB"
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 21399,
+        "inStock": true,
+        "url": "https://www.trendyol.com/sr?q=Samsung%20Galaxy%20A27%205G%20256%20GB"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 21499,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Samsung%20Galaxy%20A27%205G"
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 21499,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Samsung%20Galaxy%20A27%205G"
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 21199,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Samsung%20Galaxy%20A27%205G"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "Mayıs 2026",
+        "price": 22999
+      },
+      {
+        "date": "Haziran 2026",
+        "price": 22499
+      },
+      {
+        "date": "Temmuz 2026",
+        "price": 21999
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 21499
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 21499
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.6\"",
+        "type": "Super AMOLED",
+        "resolution": "2340 x 1080 px",
+        "refreshRate": 120,
+        "ppi": 390,
+        "brightnessNits": 1000
+      },
+      "processor": {
+        "chip": "Exynos 1380 5G",
+        "cores": "8 Çekirdek",
+        "process": "5nm",
+        "antutuScore": 620000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR4X",
+        "storageGb": 256,
+        "storageOptions": [
+          256
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "50 MP (OIS, f/1.8)",
+        "ultrawideMp": "8 MP (f/2.2)",
+        "telephotoMp": "Yok",
+        "selfieMp": "13 MP (f/2.2)",
+        "videoRes": "4K @ 30fps",
+        "dxomarkScore": 112
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 25,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 6",
+        "bluetooth": "5.3",
+        "hasNFC": true,
+        "hasesim": true
+      },
+      "build": {
+        "weightGrams": 198,
+        "thicknessMm": 8.2,
+        "waterResistance": "IP67",
+        "frameMaterial": "Polikarbonat"
+      },
+      "software": {
+        "osName": "Android 15 (One UI 7.0)",
+        "updateYears": 6
+      }
+    },
+    "variants": [
+      {
+        "id": "samsung-samsung-galaxy-a27-5g-127-siyah",
+        "name": "Samsung Galaxy A27 5G (256 GB) - Siyah",
+        "colorName": "Siyah",
+        "colorHex": "#222222",
+        "image": "/images/phones/samsung/samsung-galaxy-a27-5g.png",
+        "price": 21499
+      },
+      {
+        "id": "samsung-samsung-galaxy-a27-5g-127-mavi",
+        "name": "Samsung Galaxy A27 5G (256 GB) - Mavi",
+        "colorName": "Mavi",
+        "colorHex": "#5B7E9F",
+        "image": "/images/phones/samsung/samsung-galaxy-a27-5g.png",
+        "price": 21499
+      },
+      {
+        "id": "samsung-samsung-galaxy-a27-5g-127-pembe",
+        "name": "Samsung Galaxy A27 5G (256 GB) - Açık Pembe",
+        "colorName": "Açık Pembe",
+        "colorHex": "#F3D1D5",
+        "image": "/images/phones/samsung/samsung-galaxy-a27-5g.png",
+        "price": 21499
+      }
+    ],
+    "isLatestModel": true
+  },
+  {
+    "id": "samsung-samsung-galaxy-a17-5g-256gb-128",
+    "slug": "samsung-galaxy-a17-5g-256gb",
+    "name": "Samsung Galaxy A17 5G (256 GB)",
+    "brand": "Samsung",
+    "category": "smartphones",
+    "basePrice": 16999,
+    "currency": "TL",
+    "rating": 4.5,
+    "reviewCount": 801,
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "Samsung Galaxy A17 5G Orijinal Türkiye Garantili",
+      "6.5\" FHD+ 90Hz Super AMOLED Ekran",
+      "8 GB RAM & 256 GB Dahili Hafıza",
+      "50 MP Net Ana Kamera",
+      "5000 mAh Uzun Ömürlü Batarya"
+    ],
+    "image": "/images/phones/samsung/samsung-galaxy-a17-5g.png",
+    "images": [
+      "/images/phones/samsung/samsung-galaxy-a17-5g.png"
+    ],
+    "storeOffers": [
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 18974,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com/samsung-galaxy-a17-5g-256-gb-8-gb-ram-samsung-turkiye-garantili-gri-p-HBCV00009S6B27",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T18:26:51.851Z"
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 10947,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.trendyol.com/sr?q=Samsung%20Galaxy%20A17%205G%20256%20GB",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 11085,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Samsung%20Galaxy%20A17%205G%20256%20GB",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 11200,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Samsung%20Galaxy%20A17%205G%20256%20GB",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 10763,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Samsung%20Galaxy%20A17%205G%20256%20GB",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 11119,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Samsung%20Galaxy%20A17%205G%20256%20GB",
+        "rating": 4.8
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "Ekim 2025",
+        "price": 12339
+      },
+      {
+        "date": "Kasım 2025",
+        "price": 12006
+      },
+      {
+        "date": "Aralık 2025",
+        "price": 11684
+      },
+      {
+        "date": "Ocak 2026",
+        "price": 11362
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 11040
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 10822
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 10763
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.7\"",
+        "type": "6.7\" FHD+ 90Hz Super AMOLED (6 Yıl Güncelleme)",
+        "resolution": "2340 x 1080 px",
+        "refreshRate": 120,
+        "ppi": 390,
+        "brightnessNits": 1000
+      },
+      "processor": {
+        "chip": "Exynos 1380 5G",
+        "cores": "8 Çekirdek",
+        "process": "2nm",
+        "antutuScore": 750000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR5X",
+        "storageGb": 256,
+        "storageOptions": [
+          256
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "50 MP",
+        "ultrawideMp": "12 MP",
+        "telephotoMp": "Yok",
+        "selfieMp": "13 MP",
+        "videoRes": "4K @ 30fps",
+        "dxomarkScore": 118
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 25,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 6",
+        "bluetooth": "5.3",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 185,
+        "thicknessMm": 7.9,
+        "waterResistance": "Yok",
+        "frameMaterial": "Polikarbonat"
+      },
+      "software": {
+        "osName": "Android 16 (One UI 8.0)",
+        "updateYears": 7
+      }
+    },
+    "isLatestModel": true,
+    "price": 16999,
+    "pros": [
+      "Geniş 256 GB depolama ve 8 GB RAM kapasitesi",
+      "5G mobil bağlantı ve akıcı Super AMOLED ekran",
+      "50 MP yüksek çözünürlüklü ana kamera",
+      "5000 mAh kapasiteli gün boyu dayanan batarya"
+    ],
+    "cons": [
+      "Kutuda şarj adaptörü bulunmuyor",
+      "Monofonik hoparlör çıkışı"
+    ],
+    "colorOptions": [
+      {
+        "name": "Siyah",
+        "hex": "#222222",
+        "image": "/images/phones/samsung/samsung-galaxy-a17-5g.png"
+      },
+      {
+        "name": "Gri",
+        "hex": "#888888",
+        "image": "/images/phones/samsung/samsung-galaxy-a17-5g.png"
+      },
+      {
+        "name": "Mavi",
+        "hex": "#4A709C",
+        "image": "/images/phones/samsung/samsung-galaxy-a17-5g.png"
+      }
+    ],
+    "variants": [
+      {
+        "id": "samsung-samsung-galaxy-a17-5g-256gb-128-siyah",
+        "name": "Samsung Galaxy A17 5G (256 GB) - Siyah",
+        "colorName": "Siyah",
+        "colorHex": "#222222",
+        "image": "/images/phones/samsung/samsung-galaxy-a17-5g.png",
+        "price": 16999
+      },
+      {
+        "id": "samsung-samsung-galaxy-a17-5g-256gb-128-gri",
+        "name": "Samsung Galaxy A17 5G (256 GB) - Gri",
+        "colorName": "Gri",
+        "colorHex": "#888888",
+        "image": "/images/phones/samsung/samsung-galaxy-a17-5g.png",
+        "price": 16999
+      },
+      {
+        "id": "samsung-samsung-galaxy-a17-5g-256gb-128-mavi",
+        "name": "Samsung Galaxy A17 5G (256 GB) - Mavi",
+        "colorName": "Mavi",
+        "colorHex": "#4A709C",
+        "image": "/images/phones/samsung/samsung-galaxy-a17-5g.png",
+        "price": 16999
+      }
+    ]
+  },
+  {
+    "id": "samsung-samsung-galaxy-a37-5g-256gb-129",
+    "slug": "samsung-galaxy-a37-5g-256gb",
+    "name": "Samsung Galaxy A37 5G (256 GB)",
+    "brand": "Samsung",
+    "category": "smartphones",
+    "basePrice": 27999,
+    "currency": "TL",
+    "rating": 4.6,
+    "reviewCount": 848,
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "Samsung Galaxy A37 5G Orijinal Türkiye Garantili",
+      "6.6\" FHD+ 120Hz Super AMOLED (IP67)",
+      "8 GB RAM & 256 GB Geniş Depolama",
+      "50 MP OIS Destekli Kamera Sistemi",
+      "5000 mAh Batarya Kapasitesi"
+    ],
+    "image": "/images/phones/samsung/samsung-galaxy-a37-5g.png",
+    "images": [
+      "/images/phones/samsung/samsung-galaxy-a37-5g.png"
+    ],
+    "storeOffers": [
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 29999,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com/samsung-galaxy-a37-5g-256-gb-8-gb-ram-samsung-turkiye-garantili-cam-yesili-p-HBCV0000DU647I",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T18:26:55.188Z"
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 21424,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.trendyol.com/sr?q=Samsung%20Galaxy%20A37%205G%20256%20GB",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 21699,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Samsung%20Galaxy%20A37%205G%20256%20GB",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 21911,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Samsung%20Galaxy%20A37%205G%20256%20GB",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 21061,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Samsung%20Galaxy%20A37%205G%20256%20GB",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 21761,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Samsung%20Galaxy%20A37%205G%20256%20GB",
+        "rating": 4.8
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "Ekim 2025",
+        "price": 24138
+      },
+      {
+        "date": "Kasım 2025",
+        "price": 23500
+      },
+      {
+        "date": "Aralık 2025",
+        "price": 22863
+      },
+      {
+        "date": "Ocak 2026",
+        "price": 22238
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 21600
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 21175
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 21061
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.6\"",
+        "type": "6.6\" FHD+ 120Hz Super AMOLED (IP67)",
+        "resolution": "2340 x 1080 px",
+        "refreshRate": 120,
+        "ppi": 390,
+        "brightnessNits": 1000
+      },
+      "processor": {
+        "chip": "Snapdragon 7s Gen 3 5G",
+        "cores": "8 Çekirdek",
+        "process": "2nm",
+        "antutuScore": 750000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR5X",
+        "storageGb": 256,
+        "storageOptions": [
+          256
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "50 MP",
+        "ultrawideMp": "12 MP",
+        "telephotoMp": "Yok",
+        "selfieMp": "13 MP",
+        "videoRes": "4K @ 30fps",
+        "dxomarkScore": 118
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 25,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 6",
+        "bluetooth": "5.3",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 185,
+        "thicknessMm": 7.9,
+        "waterResistance": "Yok",
+        "frameMaterial": "Polikarbonat"
+      },
+      "software": {
+        "osName": "Android 16 (One UI 8.0)",
+        "updateYears": 7
+      }
+    },
+    "isLatestModel": true,
+    "price": 27999,
+    "pros": [
+      "120 Hz akıcı Super AMOLED ekran ve IP67 koruması",
+      "50 MP OIS destekli ana kamera ve 4K video kaydı",
+      "Geniş 256 GB depolama ve 8 GB RAM",
+      "Uzun süreli yazılım desteği (One UI)"
+    ],
+    "cons": [
+      "25W hızlı şarj desteği",
+      "Kutu içeriğinde adaptör yer almıyor"
+    ],
+    "colorOptions": [
+      {
+        "name": "Antrasit",
+        "hex": "#383B3E",
+        "image": "/images/phones/samsung/samsung-galaxy-a37-5g.png"
+      },
+      {
+        "name": "Lavanta Moru",
+        "hex": "#B39DDB",
+        "image": "/images/phones/samsung/samsung-galaxy-a37-5g.png"
+      },
+      {
+        "name": "Beyaz",
+        "hex": "#F5F5F7",
+        "image": "/images/phones/samsung/samsung-galaxy-a37-5g.png"
+      }
+    ],
+    "variants": [
+      {
+        "id": "samsung-samsung-galaxy-a37-5g-256gb-129-antrasit",
+        "name": "Samsung Galaxy A37 5G (256 GB) - Antrasit",
+        "colorName": "Antrasit",
+        "colorHex": "#383B3E",
+        "image": "/images/phones/samsung/samsung-galaxy-a37-5g.png",
+        "price": 27999
+      },
+      {
+        "id": "samsung-samsung-galaxy-a37-5g-256gb-129-lavanta",
+        "name": "Samsung Galaxy A37 5G (256 GB) - Lavanta Moru",
+        "colorName": "Lavanta Moru",
+        "colorHex": "#B39DDB",
+        "image": "/images/phones/samsung/samsung-galaxy-a37-5g.png",
+        "price": 27999
+      },
+      {
+        "id": "samsung-samsung-galaxy-a37-5g-256gb-129-beyaz",
+        "name": "Samsung Galaxy A37 5G (256 GB) - Beyaz",
+        "colorName": "Beyaz",
+        "colorHex": "#F5F5F7",
+        "image": "/images/phones/samsung/samsung-galaxy-a37-5g.png",
+        "price": 27999
+      }
+    ]
+  },
+  {
+    "id": "samsung-samsung-galaxy-s25-fe-256gb-130",
+    "slug": "samsung-galaxy-s25-fe-256gb",
+    "name": "Samsung Galaxy S25 FE (256 GB)",
+    "brand": "Samsung",
+    "category": "smartphones",
+    "basePrice": 40999,
+    "currency": "TL",
+    "rating": 4.7,
+    "reviewCount": 143,
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "Samsung Galaxy S25 FE 5G Orijinal Türkiye Garantili",
+      "6.7\" Dynamic AMOLED 2X (1-120Hz, 1900 nit)",
+      "Exynos 2400e Güçlü Amiral Gemisi İşlemci & Galaxy AI",
+      "8 GB RAM & 256 GB Geniş Depolama",
+      "50 MP ProVisual Destekli Kamera & IP68 Dayanıklılık"
+    ],
+    "image": "/images/phones/samsung/samsung-galaxy-s25-fe.jpg",
+    "images": [
+      "/images/phones/samsung/samsung-galaxy-s25-fe.jpg"
+    ],
+    "storeOffers": [
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 40963,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com/samsung-galaxy-s25-fe-256-gb-8-gb-ram-samsung-turkiye-garantili-buz-mavisi-p-HBCV00009S5CRQ",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T18:25:54.733Z"
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 38378,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.trendyol.com/sr?q=Samsung%20Galaxy%20S25%20FE%20256%20GB",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 38873,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Samsung%20Galaxy%20S25%20FE%20256%20GB",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 39258,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Samsung%20Galaxy%20S25%20FE%20256%20GB",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 37740,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Samsung%20Galaxy%20S25%20FE%20256%20GB",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 38983,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Samsung%20Galaxy%20S25%20FE%20256%20GB",
+        "rating": 4.8
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "Ekim 2025",
+        "price": 43241
+      },
+      {
+        "date": "Kasım 2025",
+        "price": 42097
+      },
+      {
+        "date": "Aralık 2025",
+        "price": 40964
+      },
+      {
+        "date": "Ocak 2026",
+        "price": 39820
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 38687
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 37928
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 37740
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.7\"",
+        "type": "6.7\" FHD+ 120Hz Dynamic AMOLED 2X (Galaxy AI)",
+        "resolution": "3080 x 1440 px",
+        "refreshRate": 120,
+        "ppi": 500,
+        "brightnessNits": 2600
+      },
+      "processor": {
+        "chip": "Exynos 2500 / Snapdragon 8s Gen 3",
+        "cores": "8 Çekirdek",
+        "process": "3nm",
+        "antutuScore": 1850000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR5X",
+        "storageGb": 256,
+        "storageOptions": [
+          256
+        ],
+        "expandableStorage": false
+      },
+      "camera": {
+        "mainMp": "50 MP",
+        "ultrawideMp": "12 MP",
+        "telephotoMp": "50 MP (5x Optik Zoom)",
+        "selfieMp": "12 MP Dual Pixel",
+        "videoRes": "8K @ 30fps",
+        "dxomarkScore": 154
+      },
+      "battery": {
+        "capacitymAh": 4800,
+        "chargingWatts": 45,
+        "wirelessCharging": true,
+        "reverseWireless": true
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 7",
+        "bluetooth": "5.3",
+        "hasNFC": true,
+        "hasesim": true
+      },
+      "build": {
+        "weightGrams": 219,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP68 (1.5m 30dk)",
+        "frameMaterial": "Zırh Alüminyum"
+      },
+      "software": {
+        "osName": "Android 15 (One UI 7.0)",
+        "updateYears": 7
+      }
+    },
+    "colorOptions": [
+      {
+        "name": "Gece Siyahı",
+        "hex": "#1D1E22",
+        "image": "/images/phones/samsung/samsung-galaxy-s25-fe.jpg"
+      },
+      {
+        "name": "Lacivert",
+        "hex": "#2B3A4A",
+        "image": "/images/phones/samsung/samsung-galaxy-s25-fe.jpg"
+      },
+      {
+        "name": "Buz Mavisi",
+        "hex": "#C5D8E8",
+        "image": "/images/phones/samsung/samsung-galaxy-s25-fe.jpg"
+      },
+      {
+        "name": "Beyaz",
+        "hex": "#F3F3F5",
+        "image": "/images/phones/samsung/samsung-galaxy-s25-fe.jpg"
+      }
+    ],
+    "price": 40999,
+    "pros": [
+      "Amiral gemisi düzeyinde Exynos 2400e işlemci ve Galaxy AI yetenekleri",
+      "Dynamic AMOLED 2X 120 Hz yüksek parlaklıklı ekran",
+      "7 yıl işletim sistemi ve güvenlik güncelleme garantisi",
+      "IP68 suya ve toza tam dayanıklılık"
+    ],
+    "cons": [
+      "Hızlı şarj gücü 25W",
+      "Kutu içeriğinde şarj aleti bulunmuyor"
+    ],
+    "variants": [
+      {
+        "id": "samsung-samsung-galaxy-s25-fe-256gb-130-siyah",
+        "name": "Samsung Galaxy S25 FE (256 GB) - Gece Siyahı",
+        "colorName": "Gece Siyahı",
+        "colorHex": "#1D1E22",
+        "image": "/images/phones/samsung/samsung-galaxy-s25-fe.jpg",
+        "price": 40999
+      },
+      {
+        "id": "samsung-samsung-galaxy-s25-fe-256gb-130-lacivert",
+        "name": "Samsung Galaxy S25 FE (256 GB) - Lacivert",
+        "colorName": "Lacivert",
+        "colorHex": "#2B3A4A",
+        "image": "/images/phones/samsung/samsung-galaxy-s25-fe.jpg",
+        "price": 40999
+      },
+      {
+        "id": "samsung-samsung-galaxy-s25-fe-256gb-130-buz",
+        "name": "Samsung Galaxy S25 FE (256 GB) - Buz Mavisi",
+        "colorName": "Buz Mavisi",
+        "colorHex": "#C5D8E8",
+        "image": "/images/phones/samsung/samsung-galaxy-s25-fe.jpg",
+        "price": 40999
+      },
+      {
+        "id": "samsung-samsung-galaxy-s25-fe-256gb-130-beyaz",
+        "name": "Samsung Galaxy S25 FE (256 GB) - Beyaz",
+        "colorName": "Beyaz",
+        "colorHex": "#F3F3F5",
+        "image": "/images/phones/samsung/samsung-galaxy-s25-fe.jpg",
+        "price": 40999
+      }
+    ]
+  },
+  {
+    "id": "samsung-samsung-galaxy-s26-ultra-1tb-131",
+    "slug": "samsung-galaxy-s26-ultra-1tb",
+    "name": "Samsung Galaxy S26 Ultra (1 TB)",
+    "brand": "Samsung",
+    "category": "smartphones",
+    "basePrice": 119999,
+    "currency": "TL",
+    "rating": 4.9,
+    "reviewCount": 613,
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "Samsung Galaxy S26 Ultra 5G Orijinal Türkiye Garantili",
+      "1 TB UFS 4.1 Devasa Depolama & 16 GB LPDDR5X RAM",
+      "200 MP Ultra Çözünürlüklü Dörtlü Kamera & Yerleşik S-Pen",
+      "Corning Gorilla Armor 2 Yansıma Önleyici Ekran",
+      "Titanyum Çerçeve & Snapdragon 8 Elite Çip"
+    ],
+    "image": "/images/phones/samsung/studio/samsung-galaxy-s26-ultra.png",
+    "images": [
+      "/images/phones/samsung/studio/samsung-galaxy-s26-ultra.png",
+      "/images/phones/samsung/samsung-galaxy-s26-ultra.png"
+    ],
+    "storeOffers": [
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 115699,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com/samsung-galaxy-s26-ultra-512-gb-12-gb-ram-samsung-turkiye-garantili-gok-mavisi-p-HBCV0000CVGX62",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T18:26:37.010Z"
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 115127,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.trendyol.com/sr?q=Samsung%20Galaxy%20S26%20Ultra%201%20TB",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 116609,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Samsung%20Galaxy%20S26%20Ultra%201%20TB",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 117740,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Samsung%20Galaxy%20S26%20Ultra%201%20TB",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 113190,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Samsung%20Galaxy%20S26%20Ultra%201%20TB",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 116947,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Samsung%20Galaxy%20S26%20Ultra%201%20TB",
+        "rating": 4.8
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "Ekim 2025",
+        "price": 129688
+      },
+      {
+        "date": "Kasım 2025",
+        "price": 126269
+      },
+      {
+        "date": "Aralık 2025",
+        "price": 122863
+      },
+      {
+        "date": "Ocak 2026",
+        "price": 119444
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 116038
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 113763
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 113190
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.9\"",
+        "type": "6.9\" QHD+ 144Hz Titanyum Armor 2.0 (Galaxy AI 3.0)",
+        "resolution": "3080 x 1440 px",
+        "refreshRate": 120,
+        "ppi": 500,
+        "brightnessNits": 2600
+      },
+      "processor": {
+        "chip": "Snapdragon 8 Gen 5 for Galaxy (2nm)",
+        "cores": "8 Çekirdek",
+        "process": "2nm",
+        "antutuScore": 1850000
+      },
+      "memory": {
+        "ramGb": 16,
+        "ramType": "LPDDR5X",
+        "storageGb": 1024,
+        "storageOptions": [
+          1024
+        ],
+        "expandableStorage": false
+      },
+      "camera": {
+        "mainMp": "200 MP",
+        "ultrawideMp": "12 MP",
+        "telephotoMp": "50 MP (5x Optik Zoom)",
+        "selfieMp": "12 MP Dual Pixel",
+        "videoRes": "8K @ 30fps",
+        "dxomarkScore": 154
+      },
+      "battery": {
+        "capacitymAh": 5200,
+        "chargingWatts": 45,
+        "wirelessCharging": true,
+        "reverseWireless": true
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 7",
+        "bluetooth": "5.3",
+        "hasNFC": true,
+        "hasesim": true
+      },
+      "build": {
+        "weightGrams": 219,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP68 (1.5m 30dk)",
+        "frameMaterial": "Titanyum"
+      },
+      "software": {
+        "osName": "Android 16 (One UI 8.0)",
+        "updateYears": 7
+      }
+    },
+    "isLatestModel": true,
+    "price": 119999,
+    "pros": [
+      "1 TB devasa dahili hafıza ve 16 GB RAM ile en üst düzey güç",
+      "200 MP kamera ve yerleşik S-Pen kalemi ile benzersiz üretkenlik",
+      "Titanyum gövde ve Gorilla Armor 2 yansıma engelleyici cam",
+      "7 yıl Android ve güvenlik güncellemesi garantisi"
+    ],
+    "cons": [
+      "Üst segment yüksek fiyat seviyesi",
+      "Ağır ve köşeli amiral gemisi gövdesi"
+    ],
+    "colorOptions": [
+      {
+        "name": "Titanyum Siyah",
+        "hex": "#1C1D20",
+        "image": "/images/phones/samsung/studio/samsung-galaxy-s26-ultra.png"
+      },
+      {
+        "name": "Titanyum Gri",
+        "hex": "#6C6F72",
+        "image": "/images/phones/samsung/studio/samsung-galaxy-s26-ultra.png"
+      },
+      {
+        "name": "Titanyum Gümüş",
+        "hex": "#C2C4C6",
+        "image": "/images/phones/samsung/studio/samsung-galaxy-s26-ultra.png"
+      }
+    ],
+    "variants": [
+      {
+        "id": "samsung-samsung-galaxy-s26-ultra-1tb-131-siyah",
+        "name": "Samsung Galaxy S26 Ultra (1 TB) - Titanyum Siyah",
+        "colorName": "Titanyum Siyah",
+        "colorHex": "#1C1D20",
+        "image": "/images/phones/samsung/studio/samsung-galaxy-s26-ultra.png",
+        "price": 119999
+      },
+      {
+        "id": "samsung-samsung-galaxy-s26-ultra-1tb-131-gri",
+        "name": "Samsung Galaxy S26 Ultra (1 TB) - Titanyum Gri",
+        "colorName": "Titanyum Gri",
+        "colorHex": "#6C6F72",
+        "image": "/images/phones/samsung/studio/samsung-galaxy-s26-ultra.png",
+        "price": 119999
+      },
+      {
+        "id": "samsung-samsung-galaxy-s26-ultra-1tb-131-gumus",
+        "name": "Samsung Galaxy S26 Ultra (1 TB) - Titanyum Gümüş",
+        "colorName": "Titanyum Gümüş",
+        "colorHex": "#C2C4C6",
+        "image": "/images/phones/samsung/studio/samsung-galaxy-s26-ultra.png",
+        "price": 119999
+      }
+    ]
+  },
+  {
+    "id": "samsung-samsung-galaxy-z-fold-7-256gb-132",
+    "slug": "samsung-galaxy-z-fold-7-256gb",
+    "name": "Samsung Galaxy Z Fold 7 (256 GB)",
+    "brand": "Samsung",
+    "category": "smartphones",
+    "basePrice": 89999,
+    "currency": "TL",
+    "rating": 4.9,
+    "reviewCount": 237,
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "Samsung Galaxy Z Fold 7 5G Orijinal Türkiye Garantili",
+      "Geliştirilmiş İnce ve Hafif Katlanabilir Menteşe Tasarımı",
+      "7.6\" Dynamic AMOLED 2X İç Ekran & 6.3\" Dış Ekran",
+      "12 GB LPDDR5X RAM & 256 GB Depolama",
+      "Galaxy AI ile Gelişmiş Çoklu Görev ve Not Asistanı"
+    ],
+    "image": "/images/phones/samsung/studio/samsung-galaxy-z-fold7.png",
+    "images": [
+      "/images/phones/samsung/studio/samsung-galaxy-z-fold7.png"
+    ],
+    "storeOffers": [
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 154559,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com/samsung-galaxy-z-fold8-1-tb-16-gb-ram-samsung-turkiye-garantili-grafit-gri-p-HBCV0000FNJJ30",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T18:26:01.486Z"
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 82532,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.trendyol.com/sr?q=Samsung%20Galaxy%20Z%20Fold%207%20256%20GB",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 83599,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Samsung%20Galaxy%20Z%20Fold%207%20256%20GB",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 84409,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Samsung%20Galaxy%20Z%20Fold%207%20256%20GB",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 81152,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Samsung%20Galaxy%20Z%20Fold%207%20256%20GB",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 83839,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Samsung%20Galaxy%20Z%20Fold%207%20256%20GB",
+        "rating": 4.8
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "Ekim 2025",
+        "price": 92975
+      },
+      {
+        "date": "Kasım 2025",
+        "price": 90528
+      },
+      {
+        "date": "Aralık 2025",
+        "price": 88081
+      },
+      {
+        "date": "Ocak 2026",
+        "price": 85634
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 83186
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 81558
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 81152
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "8.0\"",
+        "type": "8.0\" QXGA+ 120Hz Ultra Thin Glass Katlanabilir",
+        "resolution": "3080 x 1440 px",
+        "refreshRate": 120,
+        "ppi": 500,
+        "brightnessNits": 2600
+      },
+      "processor": {
+        "chip": "Snapdragon 8 Elite for Galaxy",
+        "cores": "8 Çekirdek",
+        "process": "3nm",
+        "antutuScore": 1850000
+      },
+      "memory": {
+        "ramGb": 12,
+        "ramType": "LPDDR5X",
+        "storageGb": 256,
+        "storageOptions": [
+          256
+        ],
+        "expandableStorage": false
+      },
+      "camera": {
+        "mainMp": "200 MP",
+        "ultrawideMp": "12 MP",
+        "telephotoMp": "50 MP (5x Optik Zoom)",
+        "selfieMp": "12 MP Dual Pixel",
+        "videoRes": "8K @ 30fps",
+        "dxomarkScore": 154
+      },
+      "battery": {
+        "capacitymAh": 4600,
+        "chargingWatts": 45,
+        "wirelessCharging": true,
+        "reverseWireless": true
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 7",
+        "bluetooth": "5.3",
+        "hasNFC": true,
+        "hasesim": true
+      },
+      "build": {
+        "weightGrams": 219,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP68 (1.5m 30dk)",
+        "frameMaterial": "Zırh Alüminyum"
+      },
+      "software": {
+        "osName": "Android 15 (One UI 7.0)",
+        "updateYears": 7
+      }
+    },
+    "price": 89999,
+    "pros": [
+      "Daha ince ve hafif katlanabilir form faktörü",
+      "Geniş iç ekran ile benzersiz çoklu görev ve üretkenlik yeteneği",
+      "Snapdragon amiral gemisi işlemci ve gelişmiş Galaxy AI araçları",
+      "Armor Aluminum ve IP48 koruma"
+    ],
+    "cons": [
+      "Yüksek bütçe seviyesi",
+      "Ekran katlanma çizgisi belirli açılarda hissedilebilir"
+    ],
+    "colorOptions": [
+      {
+        "name": "Fantom Siyah",
+        "hex": "#1C1D20",
+        "image": "/images/phones/samsung/studio/samsung-galaxy-z-fold7.png"
+      },
+      {
+        "name": "Gümüş Gölge",
+        "hex": "#BFC1C5",
+        "image": "/images/phones/samsung/studio/samsung-galaxy-z-fold7.png"
+      },
+      {
+        "name": "Lacivert",
+        "hex": "#293A4C",
+        "image": "/images/phones/samsung/studio/samsung-galaxy-z-fold7.png"
+      }
+    ],
+    "variants": [
+      {
+        "id": "samsung-samsung-galaxy-z-fold-7-256gb-132-siyah",
+        "name": "Samsung Galaxy Z Fold 7 (256 GB) - Fantom Siyah",
+        "colorName": "Fantom Siyah",
+        "colorHex": "#1C1D20",
+        "image": "/images/phones/samsung/studio/samsung-galaxy-z-fold7.png",
+        "price": 89999
+      },
+      {
+        "id": "samsung-samsung-galaxy-z-fold-7-256gb-132-gumus",
+        "name": "Samsung Galaxy Z Fold 7 (256 GB) - Gümüş Gölge",
+        "colorName": "Gümüş Gölge",
+        "colorHex": "#BFC1C5",
+        "image": "/images/phones/samsung/studio/samsung-galaxy-z-fold7.png",
+        "price": 89999
+      },
+      {
+        "id": "samsung-samsung-galaxy-z-fold-7-256gb-132-lacivert",
+        "name": "Samsung Galaxy Z Fold 7 (256 GB) - Lacivert",
+        "colorName": "Lacivert",
+        "colorHex": "#293A4C",
+        "image": "/images/phones/samsung/studio/samsung-galaxy-z-fold7.png",
+        "price": 89999
+      }
+    ]
+  },
+  {
+    "id": "samsung-samsung-galaxy-z-flip-8-512gb-133",
+    "slug": "samsung-galaxy-z-flip-8-512gb",
+    "name": "Samsung Galaxy Z Flip 8 (512 GB)",
+    "brand": "Samsung",
+    "category": "smartphones",
+    "basePrice": 69999,
+    "currency": "TL",
+    "rating": 4.6,
+    "reviewCount": 660,
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "Samsung Galaxy Z Flip 8 5G Orijinal Türkiye Garantili",
+      "Genişletilmiş FlexWindow Tam Fonksiyonel Dış Ekran",
+      "Kompakt ve Şık Katlanabilir Form Faktörü",
+      "12 GB RAM & 512 GB Geniş Dahili Depolama",
+      "FlexCam ile Eller Serbest Profesyonel Çekim Modu"
+    ],
+    "image": "/images/phones/samsung/samsung-galaxy-z-flip8.jpg",
+    "images": [
+      "/images/phones/samsung/samsung-galaxy-z-flip8.jpg"
+    ],
+    "storeOffers": [
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 70839,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com/samsung-galaxy-z-flip7-256-gb-12-gb-ram-samsung-turkiye-garantili-golge-mavisi-p-HBCV000096XANB",
+        "rating": 4.8,
+        "updatedAt": "2026-09-06T18:26:40.773Z"
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 76658,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.trendyol.com/sr?q=Samsung%20Galaxy%20Z%20Flip%208%20512%20GB",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 77647,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Samsung%20Galaxy%20Z%20Flip%208%20512%20GB",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 78394,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/Samsung%20Galaxy%20Z%20Flip%208%20512%20GB",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 75370,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Samsung%20Galaxy%20Z%20Flip%208%20512%20GB",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 77865,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Samsung%20Galaxy%20Z%20Flip%208%20512%20GB",
+        "rating": 4.8
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "Ekim 2025",
+        "price": 86354
+      },
+      {
+        "date": "Kasım 2025",
+        "price": 84077
+      },
+      {
+        "date": "Aralık 2025",
+        "price": 81811
+      },
+      {
+        "date": "Ocak 2026",
+        "price": 79534
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 77269
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 75751
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 70839
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.85\"",
+        "type": "6.85\" Zero-Crease Flex Window OLED",
+        "resolution": "3080 x 1440 px",
+        "refreshRate": 120,
+        "ppi": 500,
+        "brightnessNits": 2600
+      },
+      "processor": {
+        "chip": "Snapdragon 8 Gen 5 for Galaxy",
+        "cores": "8 Çekirdek",
+        "process": "2nm",
+        "antutuScore": 1850000
+      },
+      "memory": {
+        "ramGb": 12,
+        "ramType": "LPDDR5X",
+        "storageGb": 512,
+        "storageOptions": [
+          512
+        ],
+        "expandableStorage": false
+      },
+      "camera": {
+        "mainMp": "50 MP",
+        "ultrawideMp": "12 MP",
+        "telephotoMp": "50 MP (5x Optik Zoom)",
+        "selfieMp": "12 MP Dual Pixel",
+        "videoRes": "8K @ 30fps",
+        "dxomarkScore": 154
+      },
+      "battery": {
+        "capacitymAh": 4400,
+        "chargingWatts": 45,
+        "wirelessCharging": true,
+        "reverseWireless": true
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 7",
+        "bluetooth": "5.3",
+        "hasNFC": true,
+        "hasesim": true
+      },
+      "build": {
+        "weightGrams": 219,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP68 (1.5m 30dk)",
+        "frameMaterial": "Zırh Alüminyum"
+      },
+      "software": {
+        "osName": "Android 16 (One UI 8.0)",
+        "updateYears": 7
+      }
+    },
+    "isLatestModel": true,
+    "price": 69999,
+    "pros": [
+      "Genişletilmiş FlexWindow dış ekran ile kapağı açmadan tam kontrol",
+      "Kompakt cep boyutuna katlanabilen şık ve ergonomik tasarım",
+      "512 GB geniş depolama ve 12 GB RAM gücü",
+      "FlexCam ile her açıdan eller serbest selfie ve video çekimi"
+    ],
+    "cons": [
+      "Telefoto periskop lens bulunmuyor",
+      "Katlanabilir yapısı gereği şarj hızı 25W"
+    ],
+    "colorOptions": [
+      {
+        "name": "Gece Siyahı",
+        "hex": "#1C1D20",
+        "image": "/images/phones/samsung/samsung-galaxy-z-flip8.jpg"
+      },
+      {
+        "name": "Mint Yeşili",
+        "hex": "#A8D5BA",
+        "image": "/images/phones/samsung/samsung-galaxy-z-flip8.jpg"
+      },
+      {
+        "name": "Sarı",
+        "hex": "#F7E38B",
+        "image": "/images/phones/samsung/samsung-galaxy-z-flip8.jpg"
+      }
+    ],
+    "variants": [
+      {
+        "id": "samsung-samsung-galaxy-z-flip-8-512gb-133-siyah",
+        "name": "Samsung Galaxy Z Flip 8 (512 GB) - Gece Siyahı",
+        "colorName": "Gece Siyahı",
+        "colorHex": "#1C1D20",
+        "image": "/images/phones/samsung/samsung-galaxy-z-flip8.jpg",
+        "price": 69999
+      },
+      {
+        "id": "samsung-samsung-galaxy-z-flip-8-512gb-133-mint",
+        "name": "Samsung Galaxy Z Flip 8 (512 GB) - Mint Yeşili",
+        "colorName": "Mint Yeşili",
+        "colorHex": "#A8D5BA",
+        "image": "/images/phones/samsung/samsung-galaxy-z-flip8.jpg",
+        "price": 69999
+      },
+      {
+        "id": "samsung-samsung-galaxy-z-flip-8-512gb-133-sari",
+        "name": "Samsung Galaxy Z Flip 8 (512 GB) - Sarı",
+        "colorName": "Sarı",
+        "colorHex": "#F7E38B",
+        "image": "/images/phones/samsung/samsung-galaxy-z-flip8.jpg",
+        "price": 69999
+      }
+    ]
   }
 ]
