@@ -22259,7 +22259,7 @@
   {
     "id": "vivo-vivo-y29",
     "slug": "vivo-y29",
-    "name": "vivo Y29",
+    "name": "vivo Y29 (256 GB)",
     "brand": "Vivo",
     "category": "smartphones",
     "basePrice": 14209,
@@ -22277,9 +22277,9 @@
       "5000 mAh Batarya Kapasitesi (44W Hızlı Şarj)",
       "50 MP Ana Kamera"
     ],
-    "image": "/images/phones/vivo/0740988ee3ab6ca09dfa11c743176ce2.png",
+    "image": "/images/products/smartphones/vivo-vivo-y29-col1.png",
     "images": [
-      "/images/phones/vivo/0740988ee3ab6ca09dfa11c743176ce2.png"
+      "/images/products/smartphones/vivo-vivo-y29-col1.png"
     ],
     "storeOffers": [
       {
@@ -22381,9 +22381,9 @@
       "memory": {
         "ramGb": 8,
         "ramType": "LPDDR5X",
-        "storageGb": 128,
+        "storageGb": 256,
         "storageOptions": [
-          128
+          256
         ],
         "expandableStorage": true
       },
@@ -22426,6 +22426,39 @@
     ],
     "cons": [
       "Kutudan hızlı şarj adaptörü çıkmayabilir"
+    ],
+    "gallery": [
+      "/images/products/smartphones/vivo-vivo-y29-col1.png"
+    ],
+    "colorOptions": [
+      {
+        "name": "Beyaz",
+        "hex": "#F0F2F5",
+        "image": "/images/products/smartphones/vivo-vivo-y29-col1.png"
+      },
+      {
+        "name": "Siyah",
+        "hex": "#212124",
+        "image": "/images/products/smartphones/vivo-vivo-y29-col1.png"
+      }
+    ],
+    "variants": [
+      {
+        "id": "vivo-vivo-y29-beyaz",
+        "name": "vivo Y29 8/256GB - Beyaz",
+        "colorName": "Beyaz",
+        "colorHex": "#F0F2F5",
+        "image": "/images/products/smartphones/vivo-vivo-y29-col1.png",
+        "price": 14499
+      },
+      {
+        "id": "vivo-vivo-y29-siyah",
+        "name": "vivo Y29 8/256GB - Siyah",
+        "colorName": "Siyah",
+        "colorHex": "#212124",
+        "image": "/images/products/smartphones/vivo-vivo-y29-col1.png",
+        "price": 14499
+      }
     ]
   },
   {
@@ -23818,7 +23851,7 @@
   {
     "id": "vivo-vivo-x300-ultra",
     "slug": "vivo-x300-ultra",
-    "name": "vivo X300 Ultra",
+    "name": "vivo X300 Ultra (512 GB)",
     "brand": "Vivo",
     "category": "smartphones",
     "basePrice": 86329,
@@ -23835,9 +23868,9 @@
       "6000 mAh Batarya & 100W Hızlı Şarj / 50W Kablosuz",
       "IP68 / IP69 Suya ve Toza Tam Dayanıklılık"
     ],
-    "image": "/images/phones/samsung/samsung-galaxy-a16-5g.jpg",
+    "image": "/images/products/smartphones/vivo-vivo-x300-ultra.jpg",
     "images": [
-      "/images/phones/samsung/samsung-galaxy-a16-5g.jpg"
+      "/images/products/smartphones/vivo-vivo-x300-ultra.jpg"
     ],
     "storeOffers": [
       {
@@ -23981,16 +24014,19 @@
     "priceFormatted": "89.999 TL",
     "colorOptions": [
       {
-        "name": "Zümrüt Yeşili",
-        "hex": "#87A55F"
+        "name": "Yeşil",
+        "hex": "#587A5E",
+        "image": "/images/products/smartphones/vivo-vivo-x300-ultra.jpg"
       },
       {
         "name": "Obsidyen Siyahı",
-        "hex": "#282A2D"
+        "hex": "#282A2D",
+        "image": "/images/products/smartphones/vivo-vivo-x300-ultra.jpg"
       },
       {
         "name": "Titanyum Grisi",
-        "hex": "#8E9196"
+        "hex": "#8E9196",
+        "image": "/images/products/smartphones/vivo-vivo-x300-ultra.jpg"
       }
     ],
     "pros": [
@@ -24001,7 +24037,36 @@
     "cons": [
       "Kutudan hızlı şarj adaptörü çıkmayabilir"
     ],
-    "isLatestModel": true
+    "isLatestModel": true,
+    "gallery": [
+      "/images/products/smartphones/vivo-vivo-x300-ultra.jpg"
+    ],
+    "variants": [
+      {
+        "id": "vivo-vivo-x300-ultra-yesil",
+        "name": "vivo X300 Ultra 16/512GB - Yeşil",
+        "colorName": "Yeşil",
+        "colorHex": "#587A5E",
+        "image": "/images/products/smartphones/vivo-vivo-x300-ultra.jpg",
+        "price": 129999
+      },
+      {
+        "id": "vivo-vivo-x300-ultra-siyah",
+        "name": "vivo X300 Ultra 16/512GB - Obsidyen Siyahı",
+        "colorName": "Obsidyen Siyahı",
+        "colorHex": "#282A2D",
+        "image": "/images/products/smartphones/vivo-vivo-x300-ultra.jpg",
+        "price": 129999
+      },
+      {
+        "id": "vivo-vivo-x300-ultra-titanyum",
+        "name": "vivo X300 Ultra 16/512GB - Titanyum Grisi",
+        "colorName": "Titanyum Grisi",
+        "colorHex": "#8E9196",
+        "image": "/images/products/smartphones/vivo-vivo-x300-ultra.jpg",
+        "price": 129999
+      }
+    ]
   },
   {
     "id": "xiaomi-xiaomi-mi-10t-lite-5g-10480",
@@ -126983,6 +127048,1230 @@
       "software": {
         "osName": "Xiaomi HyperOS (Android 15)",
         "updateYears": 3
+      }
+    },
+    "isLatestModel": true
+  },
+  {
+    "id": "vivo-y21-5g-128gb-2026",
+    "slug": "vivo-y21-5g-128-gb",
+    "name": "Vivo Y21 5G (128 GB)",
+    "brand": "Vivo",
+    "category": "smartphones",
+    "basePrice": 17999,
+    "price": 17999,
+    "currency": "TL",
+    "rating": 4.5,
+    "reviewCount": 310,
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "Giriş-Orta Segmentte Hızlı 5G Bağlantısı",
+      "MediaTek Dimensity 6300 5G Yonga Seti (6nm)",
+      "6.56\" 120Hz Ultra Akıcı IPS LCD Ekran",
+      "50 MP AI Ultra Net Ana Kamera",
+      "6000 mAh Uzun Ömürlü Batarya & 18W Hızlı Şarj"
+    ],
+    "pros": [
+      "Uygun fiyata güçlü 5G performansı",
+      "6000 mAh batarya ile 2 güne varan pil ömrü",
+      "IP64 toza ve su sıçramalarına dayanıklılık",
+      "Şık ve zarif metalik gövde tasarımı"
+    ],
+    "cons": [
+      "HD+ ekran çözünürlüğü"
+    ],
+    "image": "/images/products/smartphones/vivo-vivo-y21-5g-col1.png",
+    "images": [
+      "/images/products/smartphones/vivo-vivo-y21-5g-col1.png"
+    ],
+    "gallery": [
+      "/images/products/smartphones/vivo-vivo-y21-5g-col1.png"
+    ],
+    "colorOptions": [
+      {
+        "name": "Siyah",
+        "hex": "#1E1E20",
+        "image": "/images/products/smartphones/vivo-vivo-y21-5g-col1.png"
+      },
+      {
+        "name": "Altın",
+        "hex": "#D4AF37",
+        "image": "/images/products/smartphones/vivo-vivo-y21-5g-col1.png"
+      }
+    ],
+    "variants": [
+      {
+        "id": "vivo-y21-5g-128gb-2026-siyah",
+        "name": "Vivo Y21 5G 4/128 GB - Siyah",
+        "colorName": "Siyah",
+        "colorHex": "#1E1E20",
+        "image": "/images/products/smartphones/vivo-vivo-y21-5g-col1.png",
+        "price": 17999
+      },
+      {
+        "id": "vivo-y21-5g-128gb-2026-altin",
+        "name": "Vivo Y21 5G 4/128 GB - Altın",
+        "colorName": "Altın",
+        "colorHex": "#D4AF37",
+        "image": "/images/products/smartphones/vivo-vivo-y21-5g-col1.png",
+        "price": 17999
+      }
+    ],
+    "storeOffers": [
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 17999,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/vivo-y21-5g-4-128-gb-akilli-telefon.html"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 17799,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com/ara?q=Vivo+Y21+5G+128+GB"
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 17899,
+        "inStock": true,
+        "url": "https://www.trendyol.com/sr?q=Vivo%20Y21%205G%20128%20GB"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 17999,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Vivo%20Y21%205G"
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 17999,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Vivo%20Y21%205G"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "Mayıs 2026",
+        "price": 19499
+      },
+      {
+        "date": "Haziran 2026",
+        "price": 18999
+      },
+      {
+        "date": "Temmuz 2026",
+        "price": 18499
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 17999
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 17999
+      }
+    ],
+    "specs": {
+      "screenSize": 6.56,
+      "screenResolution": "1612 x 720 px (HD+)",
+      "displayType": "IPS LCD (120Hz)",
+      "chipset": "MediaTek Dimensity 6300 5G",
+      "cpuCores": 8,
+      "ram": 4,
+      "storage": 128,
+      "batteryCapacity": 6000,
+      "chargingSpeed": 18,
+      "mainCamera": "50 MP (f/1.8) + 2 MP Derinlik",
+      "frontCamera": "8 MP",
+      "operatingSystem": "Funtouch OS 15 (Android 15)",
+      "has5G": true,
+      "waterResistance": "IP64",
+      "screen": {
+        "size": "6.56\"",
+        "type": "IPS LCD",
+        "resolution": "1612 x 720 px (HD+)",
+        "refreshRate": 120,
+        "ppi": 269,
+        "brightnessNits": 840
+      },
+      "processor": {
+        "chip": "MediaTek Dimensity 6300 5G",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 420000
+      },
+      "memory": {
+        "ramGb": 4,
+        "ramType": "LPDDR4X",
+        "storageGb": 128,
+        "storageOptions": [
+          128
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "50 MP (f/1.8)",
+        "ultrawideMp": "Yok",
+        "telephotoMp": "Yok",
+        "selfieMp": "8 MP (f/2.0)",
+        "videoRes": "1080p @ 30fps",
+        "dxomarkScore": 82
+      },
+      "battery": {
+        "capacitymAh": 6000,
+        "chargingWatts": 18,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.4",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 189,
+        "thicknessMm": 8.1,
+        "waterResistance": "IP64",
+        "frameMaterial": "Kompozit Polimer"
+      },
+      "software": {
+        "osName": "Funtouch OS 15 (Android 15)",
+        "updateYears": 3
+      }
+    },
+    "isLatestModel": true
+  },
+  {
+    "id": "vivo-y21-5g-256gb-2026",
+    "slug": "vivo-y21-5g-256-gb",
+    "name": "Vivo Y21 5G (256 GB)",
+    "brand": "Vivo",
+    "category": "smartphones",
+    "basePrice": 21999,
+    "price": 21999,
+    "currency": "TL",
+    "rating": 4.6,
+    "reviewCount": 280,
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "Geniş 256 GB Depolama & 5G Hız Avantajı",
+      "MediaTek Dimensity 6300 5G Yonga Seti (6nm)",
+      "6.56\" 120Hz Akıcı IPS LCD Ekran",
+      "50 MP AI Ana Kamera & Gece Modu",
+      "6000 mAh Yüksek Kapasiteli Batarya"
+    ],
+    "pros": [
+      "256 GB geniş alan ile depolama sorunu yaşatmaz",
+      "6000 mAh batarya ile kesintisiz uzun kullanım",
+      "120 Hz akıcı ekran tazeleme oranı",
+      "IP64 toza ve su sıçramalarına dayanıklılık"
+    ],
+    "cons": [
+      "HD+ ekran çözünürlüğü"
+    ],
+    "image": "/images/products/smartphones/vivo-vivo-y21-5g-col1.png",
+    "images": [
+      "/images/products/smartphones/vivo-vivo-y21-5g-col1.png"
+    ],
+    "gallery": [
+      "/images/products/smartphones/vivo-vivo-y21-5g-col1.png"
+    ],
+    "colorOptions": [
+      {
+        "name": "Siyah",
+        "hex": "#1E1E20",
+        "image": "/images/products/smartphones/vivo-vivo-y21-5g-col1.png"
+      },
+      {
+        "name": "Altın",
+        "hex": "#D4AF37",
+        "image": "/images/products/smartphones/vivo-vivo-y21-5g-col1.png"
+      }
+    ],
+    "variants": [
+      {
+        "id": "vivo-y21-5g-256gb-2026-siyah",
+        "name": "Vivo Y21 5G 4/256 GB - Siyah",
+        "colorName": "Siyah",
+        "colorHex": "#1E1E20",
+        "image": "/images/products/smartphones/vivo-vivo-y21-5g-col1.png",
+        "price": 21999
+      },
+      {
+        "id": "vivo-y21-5g-256gb-2026-altin",
+        "name": "Vivo Y21 5G 4/256 GB - Altın",
+        "colorName": "Altın",
+        "colorHex": "#D4AF37",
+        "image": "/images/products/smartphones/vivo-vivo-y21-5g-col1.png",
+        "price": 21999
+      }
+    ],
+    "storeOffers": [
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 21999,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/vivo-y21-5g-4-256-gb-akilli-telefon-siyah.html"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 21699,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com/ara?q=Vivo+Y21+5G+256+GB"
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 21799,
+        "inStock": true,
+        "url": "https://www.trendyol.com/sr?q=Vivo%20Y21%205G%20256%20GB"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 21999,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Vivo%20Y21%205G%20256"
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 21999,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Vivo%20Y21%205G%20256"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "Mayıs 2026",
+        "price": 23499
+      },
+      {
+        "date": "Haziran 2026",
+        "price": 22999
+      },
+      {
+        "date": "Temmuz 2026",
+        "price": 22499
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 21999
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 21999
+      }
+    ],
+    "specs": {
+      "screenSize": 6.56,
+      "screenResolution": "1612 x 720 px (HD+)",
+      "displayType": "IPS LCD (120Hz)",
+      "chipset": "MediaTek Dimensity 6300 5G",
+      "cpuCores": 8,
+      "ram": 4,
+      "storage": 256,
+      "batteryCapacity": 6000,
+      "chargingSpeed": 18,
+      "mainCamera": "50 MP (f/1.8) + 2 MP Derinlik",
+      "frontCamera": "8 MP",
+      "operatingSystem": "Funtouch OS 15 (Android 15)",
+      "has5G": true,
+      "waterResistance": "IP64",
+      "screen": {
+        "size": "6.56\"",
+        "type": "IPS LCD",
+        "resolution": "1612 x 720 px (HD+)",
+        "refreshRate": 120,
+        "ppi": 269,
+        "brightnessNits": 840
+      },
+      "processor": {
+        "chip": "MediaTek Dimensity 6300 5G",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 420000
+      },
+      "memory": {
+        "ramGb": 4,
+        "ramType": "LPDDR4X",
+        "storageGb": 256,
+        "storageOptions": [
+          256
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "50 MP (f/1.8)",
+        "ultrawideMp": "Yok",
+        "telephotoMp": "Yok",
+        "selfieMp": "8 MP (f/2.0)",
+        "videoRes": "1080p @ 30fps",
+        "dxomarkScore": 82
+      },
+      "battery": {
+        "capacitymAh": 6000,
+        "chargingWatts": 18,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.4",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 189,
+        "thicknessMm": 8.1,
+        "waterResistance": "IP64",
+        "frameMaterial": "Kompozit Polimer"
+      },
+      "software": {
+        "osName": "Funtouch OS 15 (Android 15)",
+        "updateYears": 3
+      }
+    },
+    "isLatestModel": true
+  },
+  {
+    "id": "vivo-y11d-256gb-2026",
+    "slug": "vivo-y11d-256-gb",
+    "name": "Vivo Y11d (256 GB)",
+    "brand": "Vivo",
+    "category": "smartphones",
+    "basePrice": 17999,
+    "price": 17999,
+    "currency": "TL",
+    "rating": 4.5,
+    "reviewCount": 290,
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "Dayanıklı Tasarım & 6000 mAh Devasa Batarya Kapasitesi",
+      "6.68\" 90Hz / 120Hz IPS LCD Güneş Işığı Ekranı (1000 Nit)",
+      "50 MP AI Net Ana Kamera",
+      "6 GB / 4 GB RAM Seçeneği & 256 GB Geniş Hafıza",
+      "Askeri Sınıf Darbe Dayanıklılığı"
+    ],
+    "pros": [
+      "Güneş ışığında net görülebilen 1000 nit parlak ekran",
+      "6000 mAh batarya ile 2 gün boyunca kesintisiz performans",
+      "Düşmelere ve darbelere karşı ekstra güçlendirilmiş gövde",
+      "Stereo çift hoparlör ve %300 ses artırma desteği"
+    ],
+    "cons": [
+      "18W şarj hızı ile dolum süresi standart seviyede"
+    ],
+    "image": "/images/products/smartphones/vivo-vivo-y11d-col1.png",
+    "images": [
+      "/images/products/smartphones/vivo-vivo-y11d-col1.png"
+    ],
+    "gallery": [
+      "/images/products/smartphones/vivo-vivo-y11d-col1.png"
+    ],
+    "colorOptions": [
+      {
+        "name": "Siyah",
+        "hex": "#1F1F21",
+        "image": "/images/products/smartphones/vivo-vivo-y11d-col1.png"
+      },
+      {
+        "name": "Platin",
+        "hex": "#D9D9DF",
+        "image": "/images/products/smartphones/vivo-vivo-y11d-col1.png"
+      }
+    ],
+    "variants": [
+      {
+        "id": "vivo-y11d-256gb-2026-siyah-6gb",
+        "name": "Vivo Y11d 6/256 GB - Siyah",
+        "colorName": "Siyah",
+        "colorHex": "#1F1F21",
+        "image": "/images/products/smartphones/vivo-vivo-y11d-col1.png",
+        "price": 17999
+      },
+      {
+        "id": "vivo-y11d-256gb-2026-platin-6gb",
+        "name": "Vivo Y11d 6/256 GB - Platin",
+        "colorName": "Platin",
+        "colorHex": "#D9D9DF",
+        "image": "/images/products/smartphones/vivo-vivo-y11d-col1.png",
+        "price": 17999
+      },
+      {
+        "id": "vivo-y11d-256gb-2026-siyah-4gb",
+        "name": "Vivo Y11d 4/256 GB - Siyah",
+        "colorName": "Siyah",
+        "colorHex": "#1F1F21",
+        "image": "/images/products/smartphones/vivo-vivo-y11d-col1.png",
+        "price": 16999
+      },
+      {
+        "id": "vivo-y11d-256gb-2026-platin-4gb",
+        "name": "Vivo Y11d 4/256 GB - Platin",
+        "colorName": "Platin",
+        "colorHex": "#D9D9DF",
+        "image": "/images/products/smartphones/vivo-vivo-y11d-col1.png",
+        "price": 16999
+      }
+    ],
+    "storeOffers": [
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 17999,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/vivo-y11d-6-256-gb-akilli-telefon-siyah.html"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 17699,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com/ara?q=Vivo+Y11d+256+GB"
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 17799,
+        "inStock": true,
+        "url": "https://www.trendyol.com/sr?q=Vivo%20Y11d%20256%20GB"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 17999,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Vivo%20Y11d"
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 17999,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Vivo%20Y11d"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "Mayıs 2026",
+        "price": 19499
+      },
+      {
+        "date": "Haziran 2026",
+        "price": 18999
+      },
+      {
+        "date": "Temmuz 2026",
+        "price": 18499
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 17999
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 17999
+      }
+    ],
+    "specs": {
+      "screenSize": 6.68,
+      "screenResolution": "1608 x 720 px (HD+)",
+      "displayType": "IPS LCD (90Hz)",
+      "chipset": "Unisoc T612 Octa-Core",
+      "cpuCores": 8,
+      "ram": 6,
+      "storage": 256,
+      "batteryCapacity": 6000,
+      "chargingSpeed": 18,
+      "mainCamera": "50 MP (f/1.8) + Yardımcı AI Sensör",
+      "frontCamera": "8 MP",
+      "operatingSystem": "Funtouch OS 15 (Android 15)",
+      "has5G": false,
+      "waterResistance": "IP64",
+      "screen": {
+        "size": "6.68\"",
+        "type": "IPS LCD",
+        "resolution": "1608 x 720 px (HD+)",
+        "refreshRate": 90,
+        "ppi": 264,
+        "brightnessNits": 1000
+      },
+      "processor": {
+        "chip": "Unisoc T612",
+        "cores": "8 Çekirdek",
+        "process": "12nm",
+        "antutuScore": 260000
+      },
+      "memory": {
+        "ramGb": 6,
+        "ramType": "LPDDR4X",
+        "storageGb": 256,
+        "storageOptions": [
+          256
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "50 MP (f/1.8)",
+        "ultrawideMp": "Yok",
+        "telephotoMp": "Yok",
+        "selfieMp": "8 MP (f/2.0)",
+        "videoRes": "1080p @ 30fps",
+        "dxomarkScore": 76
+      },
+      "battery": {
+        "capacitymAh": 6000,
+        "chargingWatts": 18,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": false,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 199,
+        "thicknessMm": 8.39,
+        "waterResistance": "IP64",
+        "frameMaterial": "Darbeye Dayanıklı Polimer"
+      },
+      "software": {
+        "osName": "Funtouch OS 15 (Android 15)",
+        "updateYears": 3
+      }
+    },
+    "isLatestModel": true
+  },
+  {
+    "id": "vivo-y31-5g-256gb-2026",
+    "slug": "vivo-y31-5g-256-gb",
+    "name": "Vivo Y31 5G (256 GB)",
+    "brand": "Vivo",
+    "category": "smartphones",
+    "basePrice": 24999,
+    "price": 24999,
+    "currency": "TL",
+    "rating": 4.7,
+    "reviewCount": 340,
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "Gelişmiş 5G Performansı & Şık Gövde Mimarisi",
+      "MediaTek Dimensity 6300 5G Yonga Seti (6nm)",
+      "6.68\" 120Hz Canlı IPS LCD Ekran (1000 Nit)",
+      "6000 mAh Batarya & 44W FlashCharge Hızlı Şarj",
+      "6 GB RAM & 256 GB Yüksek Depolama"
+    ],
+    "pros": [
+      "44W FlashCharge ile 35 dakikada %50 dolum",
+      "6000 mAh batarya ve 4 yıl pil sağlığı garantisi",
+      "120 Hz akıcı ekran ile oyun ve içerik tüketiminde üst düzey konfor",
+      "IP64 sertifikası ile suya ve toza karşı koruma"
+    ],
+    "cons": [
+      "Ultra geniş açılı lens bulunmuyor"
+    ],
+    "image": "/images/products/smartphones/vivo-vivo-y31-5g-col1.png",
+    "images": [
+      "/images/products/smartphones/vivo-vivo-y31-5g-col1.png"
+    ],
+    "gallery": [
+      "/images/products/smartphones/vivo-vivo-y31-5g-col1.png"
+    ],
+    "colorOptions": [
+      {
+        "name": "Yeşil",
+        "hex": "#4E7B62",
+        "image": "/images/products/smartphones/vivo-vivo-y31-5g-col1.png"
+      },
+      {
+        "name": "Beyaz",
+        "hex": "#F5F5F7",
+        "image": "/images/products/smartphones/vivo-vivo-y31-5g-col1.png"
+      }
+    ],
+    "variants": [
+      {
+        "id": "vivo-y31-5g-256gb-2026-yesil",
+        "name": "Vivo Y31 5G 6/256 GB - Yeşil",
+        "colorName": "Yeşil",
+        "colorHex": "#4E7B62",
+        "image": "/images/products/smartphones/vivo-vivo-y31-5g-col1.png",
+        "price": 24999
+      },
+      {
+        "id": "vivo-y31-5g-256gb-2026-beyaz",
+        "name": "Vivo Y31 5G 6/256 GB - Beyaz",
+        "colorName": "Beyaz",
+        "colorHex": "#F5F5F7",
+        "image": "/images/products/smartphones/vivo-vivo-y31-5g-col1.png",
+        "price": 24999
+      }
+    ],
+    "storeOffers": [
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 24999,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/vivo-y31-5g-6-256-gb-akilli-telefon-yesil.html"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 24699,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com/ara?q=Vivo+Y31+5G+256+GB"
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 24799,
+        "inStock": true,
+        "url": "https://www.trendyol.com/sr?q=Vivo%20Y31%205G%20256%20GB"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 24999,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Vivo%20Y31%205G"
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 24999,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Vivo%20Y31%205G"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "Mayıs 2026",
+        "price": 26999
+      },
+      {
+        "date": "Haziran 2026",
+        "price": 26499
+      },
+      {
+        "date": "Temmuz 2026",
+        "price": 25899
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 24999
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 24999
+      }
+    ],
+    "specs": {
+      "screenSize": 6.68,
+      "screenResolution": "2408 x 1080 px (FHD+)",
+      "displayType": "IPS LCD (120Hz)",
+      "chipset": "MediaTek Dimensity 6300 5G",
+      "cpuCores": 8,
+      "ram": 6,
+      "storage": 256,
+      "batteryCapacity": 6000,
+      "chargingSpeed": 44,
+      "mainCamera": "50 MP (f/1.8) + 2 MP Derinlik",
+      "frontCamera": "8 MP",
+      "operatingSystem": "Funtouch OS 15 (Android 15)",
+      "has5G": true,
+      "waterResistance": "IP64",
+      "screen": {
+        "size": "6.68\"",
+        "type": "IPS LCD",
+        "resolution": "2408 x 1080 px (FHD+)",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 1000
+      },
+      "processor": {
+        "chip": "MediaTek Dimensity 6300 5G",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 430000
+      },
+      "memory": {
+        "ramGb": 6,
+        "ramType": "LPDDR4X",
+        "storageGb": 256,
+        "storageOptions": [
+          256
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "50 MP (f/1.8)",
+        "ultrawideMp": "Yok",
+        "telephotoMp": "Yok",
+        "selfieMp": "8 MP (f/2.0)",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 88
+      },
+      "battery": {
+        "capacitymAh": 6000,
+        "chargingWatts": 44,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.4",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 199,
+        "thicknessMm": 8.19,
+        "waterResistance": "IP64",
+        "frameMaterial": "Kompozit Cam & Polimer"
+      },
+      "software": {
+        "osName": "Funtouch OS 15 (Android 15)",
+        "updateYears": 3
+      }
+    },
+    "isLatestModel": true
+  },
+  {
+    "id": "vivo-v60-lite-4g-256gb-2026",
+    "slug": "vivo-v60-lite-4g-256-gb",
+    "name": "Vivo V60 Lite (256 GB)",
+    "brand": "Vivo",
+    "category": "smartphones",
+    "basePrice": 18999,
+    "price": 18999,
+    "currency": "TL",
+    "rating": 4.7,
+    "reviewCount": 410,
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "Aura Light Akıllı Portre Aydınlatma Sistemi",
+      "6.67\" 120Hz FHD+ AMOLED Ekran (1800 Nit Parlaklık)",
+      "80W FlashCharge Süper Hızlı Şarj Teknolojisi",
+      "50 MP Sony IMX882 Ana Kamera + 32 MP Selfie",
+      "8 GB RAM & 256 GB Dahili Hafıza"
+    ],
+    "pros": [
+      "80W FlashCharge ile yaklaşık 30 dakikada %80 şarj",
+      "Aura Light ile stüdyo kalitesinde gece portreleri",
+      "1800 nit AMOLED ekran ile güneş altında kristal netlik",
+      "İnce ve hafif gövde (7.79 mm)"
+    ],
+    "cons": [
+      "5G desteği bulunmuyor (4.5G LTE versiyonu)"
+    ],
+    "image": "/images/products/smartphones/vivo-vivo-v60-lite.jpg",
+    "images": [
+      "/images/products/smartphones/vivo-vivo-v60-lite.jpg"
+    ],
+    "gallery": [
+      "/images/products/smartphones/vivo-vivo-v60-lite.jpg"
+    ],
+    "colorOptions": [
+      {
+        "name": "Siyah",
+        "hex": "#1E1E22",
+        "image": "/images/products/smartphones/vivo-vivo-v60-lite.jpg"
+      },
+      {
+        "name": "Titanyum",
+        "hex": "#7E8187",
+        "image": "/images/products/smartphones/vivo-vivo-v60-lite.jpg"
+      }
+    ],
+    "variants": [
+      {
+        "id": "vivo-v60-lite-4g-256gb-2026-siyah",
+        "name": "Vivo V60 Lite 8/256GB - Siyah",
+        "colorName": "Siyah",
+        "colorHex": "#1E1E22",
+        "image": "/images/products/smartphones/vivo-vivo-v60-lite.jpg",
+        "price": 18999
+      },
+      {
+        "id": "vivo-v60-lite-4g-256gb-2026-titanyum",
+        "name": "Vivo V60 Lite 8/256GB - Titanyum",
+        "colorName": "Titanyum",
+        "colorHex": "#7E8187",
+        "image": "/images/products/smartphones/vivo-vivo-v60-lite.jpg",
+        "price": 18999
+      }
+    ],
+    "storeOffers": [
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 18999,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/vivo-v60-lite-8-256gb-akilli-telefon.html"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 18699,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com/ara?q=Vivo+V60+Lite+256+GB"
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 18799,
+        "inStock": true,
+        "url": "https://www.trendyol.com/sr?q=Vivo%20V60%20Lite%20256%20GB"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 18999,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Vivo%20V60%20Lite"
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 18999,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Vivo%20V60%20Lite"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "Mayıs 2026",
+        "price": 20499
+      },
+      {
+        "date": "Haziran 2026",
+        "price": 19999
+      },
+      {
+        "date": "Temmuz 2026",
+        "price": 19499
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 18999
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 18999
+      }
+    ],
+    "specs": {
+      "screenSize": 6.67,
+      "screenResolution": "2400 x 1080 px (FHD+)",
+      "displayType": "AMOLED (120Hz)",
+      "chipset": "Qualcomm Snapdragon 685",
+      "cpuCores": 8,
+      "ram": 8,
+      "storage": 256,
+      "batteryCapacity": 5500,
+      "chargingSpeed": 80,
+      "mainCamera": "50 MP (Sony IMX882, f/1.8) + 2 MP Derinlik",
+      "frontCamera": "32 MP",
+      "operatingSystem": "Funtouch OS 15 (Android 15)",
+      "has5G": false,
+      "waterResistance": "IP64",
+      "screen": {
+        "size": "6.67\"",
+        "type": "AMOLED",
+        "resolution": "2400 x 1080 px (FHD+)",
+        "refreshRate": 120,
+        "ppi": 395,
+        "brightnessNits": 1800
+      },
+      "processor": {
+        "chip": "Qualcomm Snapdragon 685",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 380000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR4X",
+        "storageGb": 256,
+        "storageOptions": [
+          256
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "50 MP (Sony IMX882, f/1.8)",
+        "ultrawideMp": "Yok",
+        "telephotoMp": "Yok",
+        "selfieMp": "32 MP (f/2.45)",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 104
+      },
+      "battery": {
+        "capacitymAh": 5500,
+        "chargingWatts": 80,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.0",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 187,
+        "thicknessMm": 7.79,
+        "waterResistance": "IP64",
+        "frameMaterial": "Ultra İnce Kompozit Gövde"
+      },
+      "software": {
+        "osName": "Funtouch OS 15 (Android 15)",
+        "updateYears": 3
+      }
+    },
+    "isLatestModel": true
+  },
+  {
+    "id": "vivo-x300-512gb-2026",
+    "slug": "vivo-x300-512-gb",
+    "name": "Vivo X300 (512 GB)",
+    "brand": "Vivo",
+    "category": "smartphones",
+    "basePrice": 79999,
+    "price": 79999,
+    "currency": "TL",
+    "rating": 4.9,
+    "reviewCount": 480,
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "16 GB RAM & 512 GB Devasa Amiral Gemisi Depolaması",
+      "MediaTek Dimensity 9400 (3nm TSMC) Performans Canavarı",
+      "6.78\" 1.5K 120Hz LTPO AMOLED Ekran (4500 Nit Tepe Parlaklık)",
+      "ZEISS T* Kaplamalı 50 MP Sony IMX921 VCS OIS Üçlü Kamera",
+      "6000 mAh Mavi Okyanus Bataryası & 90W Hızlı Şarj"
+    ],
+    "pros": [
+      "Dimensity 9400 ile AnTuTu rekoru kıran uç nokta işlem gücü",
+      "Zeiss renk kalibrasyonu ile olağanüstü profesyonel fotoğrafçılık",
+      "6000 mAh bataryaya rağmen sadece 7.9 mm ince ve zarif profil",
+      "IP68 ve IP69 sertifikaları ile tam sıvı koruması"
+    ],
+    "cons": [
+      "Üst segment amiral gemisi fiyatlandırması"
+    ],
+    "image": "/images/products/smartphones/vivo-vivo-x300.jpg",
+    "images": [
+      "/images/products/smartphones/vivo-vivo-x300.jpg"
+    ],
+    "gallery": [
+      "/images/products/smartphones/vivo-vivo-x300.jpg"
+    ],
+    "colorOptions": [
+      {
+        "name": "Siyah",
+        "hex": "#1E1E20",
+        "image": "/images/products/smartphones/vivo-vivo-x300.jpg"
+      },
+      {
+        "name": "Titanyum",
+        "hex": "#808285",
+        "image": "/images/products/smartphones/vivo-vivo-x300.jpg"
+      },
+      {
+        "name": "Mavi",
+        "hex": "#3C6B99",
+        "image": "/images/products/smartphones/vivo-vivo-x300.jpg"
+      }
+    ],
+    "variants": [
+      {
+        "id": "vivo-x300-512gb-2026-siyah",
+        "name": "Vivo X300 16/512GB - Siyah",
+        "colorName": "Siyah",
+        "colorHex": "#1E1E20",
+        "image": "/images/products/smartphones/vivo-vivo-x300.jpg",
+        "price": 79999
+      },
+      {
+        "id": "vivo-x300-512gb-2026-titanyum",
+        "name": "Vivo X300 16/512GB - Titanyum",
+        "colorName": "Titanyum",
+        "colorHex": "#808285",
+        "image": "/images/products/smartphones/vivo-vivo-x300.jpg",
+        "price": 79999
+      },
+      {
+        "id": "vivo-x300-512gb-2026-mavi",
+        "name": "Vivo X300 16/512GB - Mavi",
+        "colorName": "Mavi",
+        "colorHex": "#3C6B99",
+        "image": "/images/products/smartphones/vivo-vivo-x300.jpg",
+        "price": 79999
+      }
+    ],
+    "storeOffers": [
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 79999,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/vivo-x300-16-512gb-akilli-telefon-siyah.html"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 79499,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com/ara?q=Vivo+X300+512+GB"
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 79699,
+        "inStock": true,
+        "url": "https://www.trendyol.com/sr?q=Vivo%20X300%20512%20GB"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 79999,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Vivo%20X300%20512"
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 79999,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=Vivo%20X300%20512"
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 78999,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=Vivo%20X300%20512"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "Mayıs 2026",
+        "price": 84999
+      },
+      {
+        "date": "Haziran 2026",
+        "price": 83499
+      },
+      {
+        "date": "Temmuz 2026",
+        "price": 81999
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 79999
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 79999
+      }
+    ],
+    "specs": {
+      "screenSize": 6.78,
+      "screenResolution": "2800 x 1260 px (1.5K)",
+      "displayType": "LTPO AMOLED (120Hz)",
+      "chipset": "MediaTek Dimensity 9400",
+      "cpuCores": 8,
+      "ram": 16,
+      "storage": 512,
+      "batteryCapacity": 6000,
+      "chargingSpeed": 90,
+      "mainCamera": "50 MP (Zeiss VCS, OIS) + 50 MP Telefoto (3x) + 50 MP Ultra Geniş",
+      "frontCamera": "32 MP",
+      "operatingSystem": "OriginOS 5 / Funtouch OS 15 (Android 15)",
+      "has5G": true,
+      "waterResistance": "IP68 / IP69",
+      "screen": {
+        "size": "6.78\"",
+        "type": "LTPO AMOLED",
+        "resolution": "2800 x 1260 px (1.5K)",
+        "refreshRate": 120,
+        "ppi": 452,
+        "brightnessNits": 4500
+      },
+      "processor": {
+        "chip": "MediaTek Dimensity 9400",
+        "cores": "8 Çekirdek (3.63 GHz Cortex-X925)",
+        "process": "3nm TSMC",
+        "antutuScore": 2850000
+      },
+      "memory": {
+        "ramGb": 16,
+        "ramType": "LPDDR5X",
+        "storageGb": 512,
+        "storageOptions": [
+          512
+        ],
+        "expandableStorage": false
+      },
+      "camera": {
+        "mainMp": "50 MP (Sony IMX921, f/1.57 OIS)",
+        "ultrawideMp": "50 MP (f/2.0)",
+        "telephotoMp": "50 MP ZEISS Telefoto (3x Optik, f/2.57 OIS)",
+        "selfieMp": "32 MP (f/2.0)",
+        "videoRes": "4K @ 60fps",
+        "dxomarkScore": 146
+      },
+      "battery": {
+        "capacitymAh": 6000,
+        "chargingWatts": 90,
+        "wirelessCharging": true,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 7",
+        "bluetooth": "5.4",
+        "hasNFC": true,
+        "hasesim": true
+      },
+      "build": {
+        "weightGrams": 196,
+        "thicknessMm": 7.99,
+        "waterResistance": "IP68 / IP69",
+        "frameMaterial": "Alüminyum Çerçeve & ZEISS Cam"
+      },
+      "software": {
+        "osName": "OriginOS 5 / Funtouch OS 15 (Android 15)",
+        "updateYears": 4
       }
     },
     "isLatestModel": true
