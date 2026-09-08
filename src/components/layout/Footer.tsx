@@ -4,7 +4,7 @@ import Image from 'next/image';
 import React from 'react';
 import Link from 'next/link';
 import { useI18n } from '@/lib/i18n/context';
-import { Scale, CheckCircle2, ShieldCheck, FileText, ShieldAlert } from 'lucide-react';
+import { Scale, CheckCircle2, ShieldCheck, FileText, ShieldAlert, Mail } from 'lucide-react';
 
 export function Footer() {
   const { t } = useI18n();
@@ -112,6 +112,12 @@ export function Footer() {
                   <span>Yasal Uyarı & Sorumluluk Reddi</span>
                 </Link>
               </li>
+              <li>
+                <Link href="/iletisim" className="hover:text-emerald-400 transition-colors flex items-center gap-1.5">
+                  <Mail className="w-3.5 h-3.5 text-teal-400" />
+                  <span>İletişim</span>
+                </Link>
+              </li>
             </ul>
           </div>
 
@@ -145,6 +151,10 @@ export function Footer() {
             <span>•</span>
             <Link href="/yasal-uyari" className="hover:text-emerald-400 transition-colors">
               Yasal Uyarı
+            </Link>
+            <span>•</span>
+            <Link href="/iletisim" className="hover:text-emerald-400 transition-colors">
+              İletişim
             </Link>
           </div>
         </div>
