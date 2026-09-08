@@ -121035,5 +121035,2711 @@
     "images": [
       "/images/phones/honor/honor-magic6-pro.jpg"
     ]
+  },
+  {
+    "id": "apple-apple-iphone-15-128-gb-895865",
+    "slug": "apple-iphone-15-128-gb",
+    "name": "Apple iPhone 15 (128 GB)",
+    "brand": "Apple",
+    "category": "smartphones",
+    "image": "/images/phones/apple/apple-iphone-15.jpg",
+    "images": [
+      "/images/phones/apple/iphone-15-pink.jpg",
+      "/images/phones/apple/iphone-15-yellow.jpg",
+      "/images/phones/apple/iphone-15-green.jpg",
+      "/images/phones/apple/iphone-15-blue.jpg",
+      "/images/phones/apple/iphone-15-black.jpg"
+    ],
+    "rating": 4.86,
+    "epeyScore": 92,
+    "reviewCount": 1690,
+    "basePrice": 48999,
+    "currency": "TL",
+    "releaseYear": 2023,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "Dinamik Ada (Dynamic Island) Ekran Özelliği",
+      "48 MP Süper Yüksek Çözünürlüklü Ana Kamera",
+      "Apple A16 Bionic (4nm) Hızlı Çip",
+      "USB-C Şarj ve Bağlantı Kolaylığı",
+      "Doygun Renkli Mat Cam Arka Gövde"
+    ],
+    "pros": [
+      "Apple A16 Bionic (4 nm) ile akıcı ve güçlü performans",
+      "48 MP Ana kamera ve 2x kayıpsız optik kalitede zoom",
+      "Dinamik Ada (Dynamic Island) ve USB-C bağlantı kolaylığı",
+      "2000 nit tepe parlaklığa ulaşan Super Retina XDR OLED ekran"
+    ],
+    "cons": [
+      "60 Hz ekran tazeleme hızı (ProMotion bulunmuyor)",
+      "Hızlı şarj gücü 20W ile sınırlı"
+    ],
+    "colorOptions": [
+      {
+        "name": "Pembe (Pink)",
+        "hex": "#EAC3C5",
+        "image": "/images/phones/apple/iphone-15-pink.jpg"
+      },
+      {
+        "name": "Sarı (Yellow)",
+        "hex": "#EFE7BE",
+        "image": "/images/phones/apple/iphone-15-yellow.jpg"
+      },
+      {
+        "name": "Yeşil (Green)",
+        "hex": "#D1DEC7",
+        "image": "/images/phones/apple/iphone-15-green.jpg"
+      },
+      {
+        "name": "Mavi (Blue)",
+        "hex": "#D0D8DE",
+        "image": "/images/phones/apple/iphone-15-blue.jpg"
+      },
+      {
+        "name": "Siyah (Black)",
+        "hex": "#393C3F",
+        "image": "/images/phones/apple/iphone-15-black.jpg"
+      }
+    ],
+    "storeOffers": [
+      {
+        "storeName": "Hepsiburada",
+        "price": 40179,
+        "url": "https://www.hepsiburada.com/apple-iphone-15-128-gb-siyah-p-HBCV00004X9ZCH",
+        "inStock": true,
+        "updatedAt": "2026-09-06T18:06:49.249Z"
+      },
+      {
+        "storeName": "Trendyol",
+        "price": 51023,
+        "url": "https://www.trendyol.com/sr?q=Apple%20iPhone%2015%20(128%20GB)",
+        "inStock": true
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "price": 51175,
+        "url": "https://www.vatanbilgisayar.com/arama/Apple%20iPhone%2015%20(128%20GB)",
+        "inStock": true
+      },
+      {
+        "storeName": "MediaMarkt",
+        "price": 51227,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Apple%20iPhone%2015%20(128%20GB)",
+        "inStock": true
+      },
+      {
+        "storeName": "Teknosa",
+        "price": 51329,
+        "url": "https://www.teknosa.com/arama?s=Apple%20iPhone%2015%20(128%20GB)",
+        "inStock": true
+      },
+      {
+        "storeName": "Amazon TR",
+        "price": 51430,
+        "url": "https://www.amazon.com.tr/s?k=Apple%20iPhone%2015%20(128%20GB)",
+        "inStock": true
+      },
+      {
+        "storeName": "n11",
+        "price": 51532,
+        "url": "https://www.n11.com/arama?q=Apple%20iPhone%2015%20(128%20GB)",
+        "inStock": true
+      },
+      {
+        "storeName": "PttAVM",
+        "price": 51634,
+        "url": "https://www.pttavm.com/arama?q=Apple%20iPhone%2015%20(128%20GB)",
+        "inStock": true
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 52449
+      },
+      {
+        "date": "2026-04-01",
+        "price": 51940
+      },
+      {
+        "date": "2026-05-01",
+        "price": 51430
+      },
+      {
+        "date": "2026-06-01",
+        "price": 51175
+      },
+      {
+        "date": "2026-07-01",
+        "price": 51685
+      },
+      {
+        "date": "2026-08-01",
+        "price": 51329
+      },
+      {
+        "date": "2026-09-01",
+        "price": 50921
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 40179
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.1 inç",
+        "type": "Super Retina XDR OLED",
+        "resolution": "2556 x 1179 piksel",
+        "refreshRate": 60,
+        "brightnessNits": 2000
+      },
+      "processor": {
+        "chip": "Apple A16 Bionic (4nm)",
+        "cores": "6 Çekirdek",
+        "antutuScore": 1420000
+      },
+      "memory": {
+        "ramGb": 6,
+        "ramType": "LPDDR5",
+        "storageGb": 128,
+        "storageOptions": [
+          128,
+          512,
+          1024,
+          2048
+        ],
+        "expandableStorage": false
+      },
+      "camera": {
+        "mainMp": "48 MP, f/1.6",
+        "ultrawideMp": "12 MP, f/2.4",
+        "selfieMp": "12 MP TrueDepth",
+        "videoRes": "4K@60fps Dolby Vision",
+        "dxomarkScore": 145
+      },
+      "battery": {
+        "capacitymAh": 3349,
+        "chargingWatts": 20,
+        "wirelessCharging": true,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 6E (802.11ax)",
+        "bluetooth": "5.4",
+        "hasNFC": true,
+        "hasesim": true
+      },
+      "build": {
+        "weightGrams": 171,
+        "thicknessMm": 7.8,
+        "waterResistance": "IP68",
+        "frameMaterial": "Alüminyum"
+      },
+      "software": {
+        "osName": "iOS 18",
+        "updateYears": 6
+      }
+    },
+    "price": 48999,
+    "variants": [
+      {
+        "id": "apple-apple-iphone-15-512-gb-895865-pembe",
+        "name": "Apple iPhone 15 (128 GB) - Pembe",
+        "colorName": "Pembe (Pink)",
+        "colorHex": "#EAC3C5",
+        "image": "/images/phones/apple/iphone-15-pink.jpg",
+        "price": 48999
+      },
+      {
+        "id": "apple-apple-iphone-15-512-gb-895865-sar",
+        "name": "Apple iPhone 15 (128 GB) - Sarı",
+        "colorName": "Sarı (Yellow)",
+        "colorHex": "#EFE7BE",
+        "image": "/images/phones/apple/iphone-15-yellow.jpg",
+        "price": 48999
+      },
+      {
+        "id": "apple-apple-iphone-15-512-gb-895865-yeil",
+        "name": "Apple iPhone 15 (128 GB) - Yeşil",
+        "colorName": "Yeşil (Green)",
+        "colorHex": "#D1DEC7",
+        "image": "/images/phones/apple/iphone-15-green.jpg",
+        "price": 48999
+      },
+      {
+        "id": "apple-apple-iphone-15-512-gb-895865-mavi",
+        "name": "Apple iPhone 15 (128 GB) - Mavi",
+        "colorName": "Mavi (Blue)",
+        "colorHex": "#D0D8DE",
+        "image": "/images/phones/apple/iphone-15-blue.jpg",
+        "price": 48999
+      },
+      {
+        "id": "apple-apple-iphone-15-512-gb-895865-siyah",
+        "name": "Apple iPhone 15 (128 GB) - Siyah",
+        "colorName": "Siyah (Black)",
+        "colorHex": "#393C3F",
+        "image": "/images/phones/apple/iphone-15-black.jpg",
+        "price": 48999
+      }
+    ]
+  },
+  {
+    "id": "apple-apple-iphone-15-256-gb-895866",
+    "slug": "apple-iphone-15-256-gb",
+    "name": "Apple iPhone 15 (256 GB)",
+    "brand": "Apple",
+    "category": "smartphones",
+    "image": "/images/phones/apple/apple-iphone-15.jpg",
+    "images": [
+      "/images/phones/apple/iphone-15-pink.jpg",
+      "/images/phones/apple/iphone-15-yellow.jpg",
+      "/images/phones/apple/iphone-15-green.jpg",
+      "/images/phones/apple/iphone-15-blue.jpg",
+      "/images/phones/apple/iphone-15-black.jpg"
+    ],
+    "rating": 4.86,
+    "epeyScore": 92,
+    "reviewCount": 1690,
+    "basePrice": 53999,
+    "currency": "TL",
+    "releaseYear": 2023,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "Dinamik Ada (Dynamic Island) Ekran Özelliği",
+      "48 MP Süper Yüksek Çözünürlüklü Ana Kamera",
+      "Apple A16 Bionic (4nm) Hızlı Çip",
+      "USB-C Şarj ve Bağlantı Kolaylığı",
+      "Doygun Renkli Mat Cam Arka Gövde"
+    ],
+    "pros": [
+      "Apple A16 Bionic (4 nm) ile akıcı ve güçlü performans",
+      "48 MP Ana kamera ve 2x kayıpsız optik kalitede zoom",
+      "Dinamik Ada (Dynamic Island) ve USB-C bağlantı kolaylığı",
+      "2000 nit tepe parlaklığa ulaşan Super Retina XDR OLED ekran"
+    ],
+    "cons": [
+      "60 Hz ekran tazeleme hızı (ProMotion bulunmuyor)",
+      "Hızlı şarj gücü 20W ile sınırlı"
+    ],
+    "colorOptions": [
+      {
+        "name": "Pembe (Pink)",
+        "hex": "#EAC3C5",
+        "image": "/images/phones/apple/iphone-15-pink.jpg"
+      },
+      {
+        "name": "Sarı (Yellow)",
+        "hex": "#EFE7BE",
+        "image": "/images/phones/apple/iphone-15-yellow.jpg"
+      },
+      {
+        "name": "Yeşil (Green)",
+        "hex": "#D1DEC7",
+        "image": "/images/phones/apple/iphone-15-green.jpg"
+      },
+      {
+        "name": "Mavi (Blue)",
+        "hex": "#D0D8DE",
+        "image": "/images/phones/apple/iphone-15-blue.jpg"
+      },
+      {
+        "name": "Siyah (Black)",
+        "hex": "#393C3F",
+        "image": "/images/phones/apple/iphone-15-black.jpg"
+      }
+    ],
+    "storeOffers": [
+      {
+        "storeName": "Hepsiburada",
+        "price": 44099,
+        "url": "https://www.hepsiburada.com/apple-iphone-15-128-gb-siyah-p-HBCV00004X9ZCH",
+        "inStock": true,
+        "updatedAt": "2026-09-06T18:06:49.249Z"
+      },
+      {
+        "storeName": "Trendyol",
+        "price": 56001,
+        "url": "https://www.trendyol.com/sr?q=Apple%20iPhone%2015%20(256%20GB)",
+        "inStock": true
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "price": 56168,
+        "url": "https://www.vatanbilgisayar.com/arama/Apple%20iPhone%2015%20(256%20GB)",
+        "inStock": true
+      },
+      {
+        "storeName": "MediaMarkt",
+        "price": 56225,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Apple%20iPhone%2015%20(256%20GB)",
+        "inStock": true
+      },
+      {
+        "storeName": "Teknosa",
+        "price": 56336,
+        "url": "https://www.teknosa.com/arama?s=Apple%20iPhone%2015%20(256%20GB)",
+        "inStock": true
+      },
+      {
+        "storeName": "Amazon TR",
+        "price": 56448,
+        "url": "https://www.amazon.com.tr/s?k=Apple%20iPhone%2015%20(256%20GB)",
+        "inStock": true
+      },
+      {
+        "storeName": "n11",
+        "price": 56560,
+        "url": "https://www.n11.com/arama?q=Apple%20iPhone%2015%20(256%20GB)",
+        "inStock": true
+      },
+      {
+        "storeName": "PttAVM",
+        "price": 56671,
+        "url": "https://www.pttavm.com/arama?q=Apple%20iPhone%2015%20(256%20GB)",
+        "inStock": true
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 57566
+      },
+      {
+        "date": "2026-04-01",
+        "price": 57007
+      },
+      {
+        "date": "2026-05-01",
+        "price": 56448
+      },
+      {
+        "date": "2026-06-01",
+        "price": 56168
+      },
+      {
+        "date": "2026-07-01",
+        "price": 56727
+      },
+      {
+        "date": "2026-08-01",
+        "price": 56336
+      },
+      {
+        "date": "2026-09-01",
+        "price": 55889
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 44099
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.1 inç",
+        "type": "Super Retina XDR OLED",
+        "resolution": "2556 x 1179 piksel",
+        "refreshRate": 60,
+        "brightnessNits": 2000
+      },
+      "processor": {
+        "chip": "Apple A16 Bionic (4nm)",
+        "cores": "6 Çekirdek",
+        "antutuScore": 1420000
+      },
+      "memory": {
+        "ramGb": 6,
+        "ramType": "LPDDR5",
+        "storageGb": 256,
+        "storageOptions": [
+          128,
+          512,
+          1024,
+          2048
+        ],
+        "expandableStorage": false
+      },
+      "camera": {
+        "mainMp": "48 MP, f/1.6",
+        "ultrawideMp": "12 MP, f/2.4",
+        "selfieMp": "12 MP TrueDepth",
+        "videoRes": "4K@60fps Dolby Vision",
+        "dxomarkScore": 145
+      },
+      "battery": {
+        "capacitymAh": 3349,
+        "chargingWatts": 20,
+        "wirelessCharging": true,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 6E (802.11ax)",
+        "bluetooth": "5.4",
+        "hasNFC": true,
+        "hasesim": true
+      },
+      "build": {
+        "weightGrams": 171,
+        "thicknessMm": 7.8,
+        "waterResistance": "IP68",
+        "frameMaterial": "Alüminyum"
+      },
+      "software": {
+        "osName": "iOS 18",
+        "updateYears": 6
+      }
+    },
+    "price": 53999,
+    "variants": [
+      {
+        "id": "apple-apple-iphone-15-512-gb-895866-pembe",
+        "name": "Apple iPhone 15 (256 GB) - Pembe",
+        "colorName": "Pembe (Pink)",
+        "colorHex": "#EAC3C5",
+        "image": "/images/phones/apple/iphone-15-pink.jpg",
+        "price": 53999
+      },
+      {
+        "id": "apple-apple-iphone-15-512-gb-895866-sar",
+        "name": "Apple iPhone 15 (256 GB) - Sarı",
+        "colorName": "Sarı (Yellow)",
+        "colorHex": "#EFE7BE",
+        "image": "/images/phones/apple/iphone-15-yellow.jpg",
+        "price": 53999
+      },
+      {
+        "id": "apple-apple-iphone-15-512-gb-895866-yeil",
+        "name": "Apple iPhone 15 (256 GB) - Yeşil",
+        "colorName": "Yeşil (Green)",
+        "colorHex": "#D1DEC7",
+        "image": "/images/phones/apple/iphone-15-green.jpg",
+        "price": 53999
+      },
+      {
+        "id": "apple-apple-iphone-15-512-gb-895866-mavi",
+        "name": "Apple iPhone 15 (256 GB) - Mavi",
+        "colorName": "Mavi (Blue)",
+        "colorHex": "#D0D8DE",
+        "image": "/images/phones/apple/iphone-15-blue.jpg",
+        "price": 53999
+      },
+      {
+        "id": "apple-apple-iphone-15-512-gb-895866-siyah",
+        "name": "Apple iPhone 15 (256 GB) - Siyah",
+        "colorName": "Siyah (Black)",
+        "colorHex": "#393C3F",
+        "image": "/images/phones/apple/iphone-15-black.jpg",
+        "price": 53999
+      }
+    ]
+  },
+  {
+    "id": "apple-apple-iphone-15-plus-128-gb-895859",
+    "slug": "apple-iphone-15-plus-128-gb",
+    "name": "Apple iPhone 15 Plus (128 GB)",
+    "brand": "Apple",
+    "category": "smartphones",
+    "image": "/images/phones/apple/apple-iphone-15-plus.jpg",
+    "images": [
+      "/images/phones/apple/iphone-15-pink.jpg",
+      "/images/phones/apple/iphone-15-yellow.jpg",
+      "/images/phones/apple/iphone-15-green.jpg",
+      "/images/phones/apple/iphone-15-blue.jpg",
+      "/images/phones/apple/iphone-15-black.jpg"
+    ],
+    "rating": 4.86,
+    "epeyScore": 93,
+    "reviewCount": 1240,
+    "basePrice": 55999,
+    "currency": "TL",
+    "releaseYear": 2023,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "Dinamik Ada (Dynamic Island) Ekran Özelliği",
+      "48 MP Süper Yüksek Çözünürlüklü Ana Kamera",
+      "Apple A16 Bionic (4nm) Hızlı Çip",
+      "USB-C Şarj ve Bağlantı Kolaylığı",
+      "Doygun Renkli Mat Cam Arka Gövde"
+    ],
+    "pros": [
+      "Büyük 6.7 inç Super Retina XDR OLED ekran",
+      "Sınıfının en uzun pil ömürlerinden biri (4383 mAh)",
+      "Dinamik Ada ve 48 MP yüksek çözünürlüklü ana kamera",
+      "Hafif alüminyum gövde ile ergonomik tutuş"
+    ],
+    "cons": [
+      "60 Hz ekran yenileme hızı",
+      "Hızlı şarj gücü 20W ile sınırlı"
+    ],
+    "colorOptions": [
+      {
+        "name": "Pembe (Pink)",
+        "hex": "#EAC3C5",
+        "image": "/images/phones/apple/iphone-15-pink.jpg"
+      },
+      {
+        "name": "Sarı (Yellow)",
+        "hex": "#EFE7BE",
+        "image": "/images/phones/apple/iphone-15-yellow.jpg"
+      },
+      {
+        "name": "Yeşil (Green)",
+        "hex": "#D1DEC7",
+        "image": "/images/phones/apple/iphone-15-green.jpg"
+      },
+      {
+        "name": "Mavi (Blue)",
+        "hex": "#D0D8DE",
+        "image": "/images/phones/apple/iphone-15-blue.jpg"
+      },
+      {
+        "name": "Siyah (Black)",
+        "hex": "#393C3F",
+        "image": "/images/phones/apple/iphone-15-black.jpg"
+      }
+    ],
+    "storeOffers": [
+      {
+        "storeName": "Hepsiburada",
+        "price": 61602,
+        "url": "https://www.hepsiburada.com/ara?q=Apple%20iPhone%2015%20Plus%20(128%20GB)",
+        "inStock": true
+      },
+      {
+        "storeName": "Trendyol",
+        "price": 61726,
+        "url": "https://www.trendyol.com/sr?q=Apple%20iPhone%2015%20Plus%20(128%20GB)",
+        "inStock": true
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "price": 61910,
+        "url": "https://www.vatanbilgisayar.com/arama/Apple%20iPhone%2015%20Plus%20(128%20GB)",
+        "inStock": true
+      },
+      {
+        "storeName": "MediaMarkt",
+        "price": 61972,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Apple%20iPhone%2015%20Plus%20(128%20GB)",
+        "inStock": true
+      },
+      {
+        "storeName": "Teknosa",
+        "price": 62095,
+        "url": "https://www.teknosa.com/arama?s=Apple%20iPhone%2015%20Plus%20(128%20GB)",
+        "inStock": true
+      },
+      {
+        "storeName": "Amazon TR",
+        "price": 62219,
+        "url": "https://www.amazon.com.tr/s?k=Apple%20iPhone%2015%20Plus%20(128%20GB)",
+        "inStock": true
+      },
+      {
+        "storeName": "n11",
+        "price": 62342,
+        "url": "https://www.n11.com/arama?q=Apple%20iPhone%2015%20Plus%20(128%20GB)",
+        "inStock": true
+      },
+      {
+        "storeName": "PttAVM",
+        "price": 62464,
+        "url": "https://www.pttavm.com/arama?q=Apple%20iPhone%2015%20Plus%20(128%20GB)",
+        "inStock": true
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 63451
+      },
+      {
+        "date": "2026-04-01",
+        "price": 62834
+      },
+      {
+        "date": "2026-05-01",
+        "price": 62219
+      },
+      {
+        "date": "2026-06-01",
+        "price": 61910
+      },
+      {
+        "date": "2026-07-01",
+        "price": 62526
+      },
+      {
+        "date": "2026-08-01",
+        "price": 62095
+      },
+      {
+        "date": "2026-09-01",
+        "price": 61602
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.7 inç",
+        "type": "Super Retina XDR OLED",
+        "resolution": "2796 x 1290 piksel",
+        "refreshRate": 60,
+        "brightnessNits": 2000
+      },
+      "processor": {
+        "chip": "Apple A16 Bionic (4nm)",
+        "cores": "6 Çekirdek",
+        "antutuScore": 1440000
+      },
+      "memory": {
+        "ramGb": 6,
+        "ramType": "LPDDR5",
+        "storageGb": 128,
+        "storageOptions": [
+          128,
+          256,
+          512,
+          1024,
+          2048
+        ],
+        "expandableStorage": false
+      },
+      "camera": {
+        "mainMp": "48 MP, f/1.6, Sensor-shift OIS",
+        "ultrawideMp": "12 MP, f/2.4",
+        "selfieMp": "12 MP TrueDepth",
+        "videoRes": "4K@60fps Dolby Vision",
+        "dxomarkScore": 145
+      },
+      "battery": {
+        "capacitymAh": 4383,
+        "chargingWatts": 20,
+        "wirelessCharging": true,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 6E (802.11ax)",
+        "bluetooth": "5.4",
+        "hasNFC": true,
+        "hasesim": true
+      },
+      "build": {
+        "weightGrams": 171,
+        "thicknessMm": 7.8,
+        "waterResistance": "IP68",
+        "frameMaterial": "Alüminyum"
+      },
+      "software": {
+        "osName": "iOS 18",
+        "updateYears": 6
+      }
+    },
+    "price": 55999,
+    "variants": [
+      {
+        "id": "apple-apple-iphone-15-plus-256-gb-895859-pembe",
+        "name": "Apple iPhone 15 Plus (128 GB) - Pembe",
+        "colorName": "Pembe (Pink)",
+        "colorHex": "#EAC3C5",
+        "image": "/images/phones/apple/iphone-15-pink.jpg",
+        "price": 55999
+      },
+      {
+        "id": "apple-apple-iphone-15-plus-256-gb-895859-sar",
+        "name": "Apple iPhone 15 Plus (128 GB) - Sarı",
+        "colorName": "Sarı (Yellow)",
+        "colorHex": "#EFE7BE",
+        "image": "/images/phones/apple/iphone-15-yellow.jpg",
+        "price": 55999
+      },
+      {
+        "id": "apple-apple-iphone-15-plus-256-gb-895859-yeil",
+        "name": "Apple iPhone 15 Plus (128 GB) - Yeşil",
+        "colorName": "Yeşil (Green)",
+        "colorHex": "#D1DEC7",
+        "image": "/images/phones/apple/iphone-15-green.jpg",
+        "price": 55999
+      },
+      {
+        "id": "apple-apple-iphone-15-plus-256-gb-895859-mavi",
+        "name": "Apple iPhone 15 Plus (128 GB) - Mavi",
+        "colorName": "Mavi (Blue)",
+        "colorHex": "#D0D8DE",
+        "image": "/images/phones/apple/iphone-15-blue.jpg",
+        "price": 55999
+      },
+      {
+        "id": "apple-apple-iphone-15-plus-256-gb-895859-siyah",
+        "name": "Apple iPhone 15 Plus (128 GB) - Siyah",
+        "colorName": "Siyah (Black)",
+        "colorHex": "#393C3F",
+        "image": "/images/phones/apple/iphone-15-black.jpg",
+        "price": 55999
+      }
+    ]
+  },
+  {
+    "id": "apple-apple-iphone-15-pro-128-gb-895855",
+    "slug": "apple-iphone-15-pro-128-gb",
+    "name": "Apple iPhone 15 Pro (128 GB)",
+    "brand": "Apple",
+    "category": "smartphones",
+    "image": "/images/phones/apple/apple-iphone-15-pro.jpg",
+    "images": [
+      "/images/phones/apple/iphone-15-pro-natural.jpg",
+      "/images/phones/apple/iphone-15-pro-blue.jpg",
+      "/images/phones/apple/iphone-15-pro-white.jpg",
+      "/images/phones/apple/iphone-15-pro-black.jpg"
+    ],
+    "rating": 4.9,
+    "epeyScore": 95,
+    "reviewCount": 1420,
+    "basePrice": 66999,
+    "currency": "TL",
+    "releaseYear": 2023,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "Apple A17 Pro (3nm) Üst Seviye İşlemci",
+      "6.1 inç 120Hz ProMotion Super Retina XDR OLED",
+      "48 MP Fusion + 12 MP Ultra Geniş + 12 MP 3x Telefoto",
+      "Titanyum Kasa & Eylem Butonu",
+      "USB Type-C 3.0 Bağlantısı",
+      "Apple Intelligence Desteği"
+    ],
+    "pros": [
+      "Hafif ve dayanıklı titanyum kasa tasarımı",
+      "Apple A17 Pro (3nm) ile konsol kalitesinde oyun performansı",
+      "120 Hz ProMotion akıcı ekran ve Dinamik Ada",
+      "USB 3 (10 Gbps) yüksek hızlı veri aktarımı"
+    ],
+    "cons": [
+      "Yüksek fiyat seviyesi",
+      "Hızlı şarj gücü 27W ile sınırlı"
+    ],
+    "colorOptions": [
+      {
+        "name": "Natürel Titanyum (Natural Titanium)",
+        "hex": "#9F988F",
+        "image": "/images/phones/apple/iphone-15-pro-natural.jpg"
+      },
+      {
+        "name": "Mavi Titanyum (Blue Titanium)",
+        "hex": "#3B4450",
+        "image": "/images/phones/apple/iphone-15-pro-blue.jpg"
+      },
+      {
+        "name": "Beyaz Titanyum (White Titanium)",
+        "hex": "#F2F2F2",
+        "image": "/images/phones/apple/iphone-15-pro-white.jpg"
+      },
+      {
+        "name": "Siyah Titanyum (Black Titanium)",
+        "hex": "#3C3B3A",
+        "image": "/images/phones/apple/iphone-15-pro-black.jpg"
+      }
+    ],
+    "storeOffers": [
+      {
+        "storeName": "Hepsiburada",
+        "price": 85410,
+        "url": "https://www.hepsiburada.com/apple-iphone-15-pro-128-gb-naturel-titanyum-p-HBCV00004XA874",
+        "inStock": true,
+        "updatedAt": "2026-09-06T18:07:31.445Z"
+      },
+      {
+        "storeName": "Trendyol",
+        "price": 66745,
+        "url": "https://www.trendyol.com/sr?q=Apple%20iPhone%2015%20Pro%20(128%20GB)",
+        "inStock": true
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "price": 66945,
+        "url": "https://www.vatanbilgisayar.com/arama/Apple%20iPhone%2015%20Pro%20(128%20GB)",
+        "inStock": true
+      },
+      {
+        "storeName": "MediaMarkt",
+        "price": 67011,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Apple%20iPhone%2015%20Pro%20(128%20GB)",
+        "inStock": true
+      },
+      {
+        "storeName": "Teknosa",
+        "price": 67145,
+        "url": "https://www.teknosa.com/arama?s=Apple%20iPhone%2015%20Pro%20(128%20GB)",
+        "inStock": true
+      },
+      {
+        "storeName": "Amazon TR",
+        "price": 67278,
+        "url": "https://www.amazon.com.tr/s?k=Apple%20iPhone%2015%20Pro%20(128%20GB)",
+        "inStock": true
+      },
+      {
+        "storeName": "n11",
+        "price": 67411,
+        "url": "https://www.n11.com/arama?q=Apple%20iPhone%2015%20Pro%20(128%20GB)",
+        "inStock": true
+      },
+      {
+        "storeName": "PttAVM",
+        "price": 67544,
+        "url": "https://www.pttavm.com/arama?q=Apple%20iPhone%2015%20Pro%20(128%20GB)",
+        "inStock": true
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 68610
+      },
+      {
+        "date": "2026-04-01",
+        "price": 67944
+      },
+      {
+        "date": "2026-05-01",
+        "price": 67278
+      },
+      {
+        "date": "2026-06-01",
+        "price": 66945
+      },
+      {
+        "date": "2026-07-01",
+        "price": 67611
+      },
+      {
+        "date": "2026-08-01",
+        "price": 67145
+      },
+      {
+        "date": "2026-09-01",
+        "price": 66612
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 66745
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.1 inç",
+        "type": "LTPO Super Retina XDR OLED (1-120Hz)",
+        "resolution": "2556 x 1179 piksel",
+        "refreshRate": 120,
+        "brightnessNits": 2000
+      },
+      "processor": {
+        "chip": "Apple A17 Pro (3nm)",
+        "cores": "6 Çekirdek",
+        "antutuScore": 1540000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR5",
+        "storageGb": 128,
+        "storageOptions": [
+          128,
+          1024,
+          2048
+        ],
+        "expandableStorage": false
+      },
+      "camera": {
+        "mainMp": "48 MP Fusion, f/1.78",
+        "ultrawideMp": "12 MP, f/2.2",
+        "telephotoMp": "12 MP (3x Optik Zoom)",
+        "selfieMp": "12 MP TrueDepth",
+        "videoRes": "4K@60fps ProRes LOG",
+        "dxomarkScore": 154
+      },
+      "battery": {
+        "capacitymAh": 3274,
+        "chargingWatts": 27,
+        "wirelessCharging": true,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 6E (802.11ax)",
+        "bluetooth": "5.4",
+        "hasNFC": true,
+        "hasesim": true
+      },
+      "build": {
+        "weightGrams": 187,
+        "thicknessMm": 8.25,
+        "waterResistance": "IP68",
+        "frameMaterial": "Titanyum"
+      },
+      "software": {
+        "osName": "iOS 18 (Apple Intelligence Destekli)",
+        "updateYears": 6
+      }
+    },
+    "price": 66999,
+    "variants": [
+      {
+        "id": "apple-apple-iphone-15-pro-1-tb-895855-natrel",
+        "name": "Apple iPhone 15 Pro (128 GB) - Natürel",
+        "colorName": "Natürel Titanyum (Natural Titanium)",
+        "colorHex": "#9F988F",
+        "image": "/images/phones/apple/iphone-15-pro-natural.jpg",
+        "price": 66999
+      },
+      {
+        "id": "apple-apple-iphone-15-pro-1-tb-895855-mavi",
+        "name": "Apple iPhone 15 Pro (128 GB) - Mavi",
+        "colorName": "Mavi Titanyum (Blue Titanium)",
+        "colorHex": "#3B4450",
+        "image": "/images/phones/apple/iphone-15-pro-blue.jpg",
+        "price": 66999
+      },
+      {
+        "id": "apple-apple-iphone-15-pro-1-tb-895855-beyaz",
+        "name": "Apple iPhone 15 Pro (128 GB) - Beyaz",
+        "colorName": "Beyaz Titanyum (White Titanium)",
+        "colorHex": "#F2F2F2",
+        "image": "/images/phones/apple/iphone-15-pro-white.jpg",
+        "price": 66999
+      },
+      {
+        "id": "apple-apple-iphone-15-pro-1-tb-895855-siyah",
+        "name": "Apple iPhone 15 Pro (128 GB) - Siyah",
+        "colorName": "Siyah Titanyum (Black Titanium)",
+        "colorHex": "#3C3B3A",
+        "image": "/images/phones/apple/iphone-15-pro-black.jpg",
+        "price": 66999
+      }
+    ]
+  },
+  {
+    "id": "apple-apple-iphone-15-pro-256-gb-895856",
+    "slug": "apple-iphone-15-pro-256-gb",
+    "name": "Apple iPhone 15 Pro (256 GB)",
+    "brand": "Apple",
+    "category": "smartphones",
+    "image": "/images/phones/apple/apple-iphone-15-pro.jpg",
+    "images": [
+      "/images/phones/apple/iphone-15-pro-natural.jpg",
+      "/images/phones/apple/iphone-15-pro-blue.jpg",
+      "/images/phones/apple/iphone-15-pro-white.jpg",
+      "/images/phones/apple/iphone-15-pro-black.jpg"
+    ],
+    "rating": 4.9,
+    "epeyScore": 95,
+    "reviewCount": 1420,
+    "basePrice": 71999,
+    "currency": "TL",
+    "releaseYear": 2023,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "Apple A17 Pro (3nm) Üst Seviye İşlemci",
+      "6.1 inç 120Hz ProMotion Super Retina XDR OLED",
+      "48 MP Fusion + 12 MP Ultra Geniş + 12 MP 3x Telefoto",
+      "Titanyum Kasa & Eylem Butonu",
+      "USB Type-C 3.0 Bağlantısı",
+      "Apple Intelligence Desteği"
+    ],
+    "pros": [
+      "Hafif ve dayanıklı titanyum kasa tasarımı",
+      "Apple A17 Pro (3nm) ile konsol kalitesinde oyun performansı",
+      "120 Hz ProMotion akıcı ekran ve Dinamik Ada",
+      "USB 3 (10 Gbps) yüksek hızlı veri aktarımı"
+    ],
+    "cons": [
+      "Yüksek fiyat seviyesi",
+      "Hızlı şarj gücü 27W ile sınırlı"
+    ],
+    "colorOptions": [
+      {
+        "name": "Natürel Titanyum (Natural Titanium)",
+        "hex": "#9F988F",
+        "image": "/images/phones/apple/iphone-15-pro-natural.jpg"
+      },
+      {
+        "name": "Mavi Titanyum (Blue Titanium)",
+        "hex": "#3B4450",
+        "image": "/images/phones/apple/iphone-15-pro-blue.jpg"
+      },
+      {
+        "name": "Beyaz Titanyum (White Titanium)",
+        "hex": "#F2F2F2",
+        "image": "/images/phones/apple/iphone-15-pro-white.jpg"
+      },
+      {
+        "name": "Siyah Titanyum (Black Titanium)",
+        "hex": "#3C3B3A",
+        "image": "/images/phones/apple/iphone-15-pro-black.jpg"
+      }
+    ],
+    "storeOffers": [
+      {
+        "storeName": "Hepsiburada",
+        "price": 92430,
+        "url": "https://www.hepsiburada.com/apple-iphone-15-pro-128-gb-naturel-titanyum-p-HBCV00004XA874",
+        "inStock": true,
+        "updatedAt": "2026-09-06T18:07:31.445Z"
+      },
+      {
+        "storeName": "Trendyol",
+        "price": 72230,
+        "url": "https://www.trendyol.com/sr?q=Apple%20iPhone%2015%20Pro%20(256%20GB)",
+        "inStock": true
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "price": 72447,
+        "url": "https://www.vatanbilgisayar.com/arama/Apple%20iPhone%2015%20Pro%20(256%20GB)",
+        "inStock": true
+      },
+      {
+        "storeName": "MediaMarkt",
+        "price": 72519,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Apple%20iPhone%2015%20Pro%20(256%20GB)",
+        "inStock": true
+      },
+      {
+        "storeName": "Teknosa",
+        "price": 72663,
+        "url": "https://www.teknosa.com/arama?s=Apple%20iPhone%2015%20Pro%20(256%20GB)",
+        "inStock": true
+      },
+      {
+        "storeName": "Amazon TR",
+        "price": 72807,
+        "url": "https://www.amazon.com.tr/s?k=Apple%20iPhone%2015%20Pro%20(256%20GB)",
+        "inStock": true
+      },
+      {
+        "storeName": "n11",
+        "price": 72952,
+        "url": "https://www.n11.com/arama?q=Apple%20iPhone%2015%20Pro%20(256%20GB)",
+        "inStock": true
+      },
+      {
+        "storeName": "PttAVM",
+        "price": 73096,
+        "url": "https://www.pttavm.com/arama?q=Apple%20iPhone%2015%20Pro%20(256%20GB)",
+        "inStock": true
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 74249
+      },
+      {
+        "date": "2026-04-01",
+        "price": 73528
+      },
+      {
+        "date": "2026-05-01",
+        "price": 72807
+      },
+      {
+        "date": "2026-06-01",
+        "price": 72447
+      },
+      {
+        "date": "2026-07-01",
+        "price": 73168
+      },
+      {
+        "date": "2026-08-01",
+        "price": 72663
+      },
+      {
+        "date": "2026-09-01",
+        "price": 72087
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 72230
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.1 inç",
+        "type": "LTPO Super Retina XDR OLED (1-120Hz)",
+        "resolution": "2556 x 1179 piksel",
+        "refreshRate": 120,
+        "brightnessNits": 2000
+      },
+      "processor": {
+        "chip": "Apple A17 Pro (3nm)",
+        "cores": "6 Çekirdek",
+        "antutuScore": 1540000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR5",
+        "storageGb": 256,
+        "storageOptions": [
+          128,
+          1024,
+          2048
+        ],
+        "expandableStorage": false
+      },
+      "camera": {
+        "mainMp": "48 MP Fusion, f/1.78",
+        "ultrawideMp": "12 MP, f/2.2",
+        "telephotoMp": "12 MP (3x Optik Zoom)",
+        "selfieMp": "12 MP TrueDepth",
+        "videoRes": "4K@60fps ProRes LOG",
+        "dxomarkScore": 154
+      },
+      "battery": {
+        "capacitymAh": 3274,
+        "chargingWatts": 27,
+        "wirelessCharging": true,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 6E (802.11ax)",
+        "bluetooth": "5.4",
+        "hasNFC": true,
+        "hasesim": true
+      },
+      "build": {
+        "weightGrams": 187,
+        "thicknessMm": 8.25,
+        "waterResistance": "IP68",
+        "frameMaterial": "Titanyum"
+      },
+      "software": {
+        "osName": "iOS 18 (Apple Intelligence Destekli)",
+        "updateYears": 6
+      }
+    },
+    "price": 71999,
+    "variants": [
+      {
+        "id": "apple-apple-iphone-15-pro-1-tb-895856-natrel",
+        "name": "Apple iPhone 15 Pro (256 GB) - Natürel",
+        "colorName": "Natürel Titanyum (Natural Titanium)",
+        "colorHex": "#9F988F",
+        "image": "/images/phones/apple/iphone-15-pro-natural.jpg",
+        "price": 71999
+      },
+      {
+        "id": "apple-apple-iphone-15-pro-1-tb-895856-mavi",
+        "name": "Apple iPhone 15 Pro (256 GB) - Mavi",
+        "colorName": "Mavi Titanyum (Blue Titanium)",
+        "colorHex": "#3B4450",
+        "image": "/images/phones/apple/iphone-15-pro-blue.jpg",
+        "price": 71999
+      },
+      {
+        "id": "apple-apple-iphone-15-pro-1-tb-895856-beyaz",
+        "name": "Apple iPhone 15 Pro (256 GB) - Beyaz",
+        "colorName": "Beyaz Titanyum (White Titanium)",
+        "colorHex": "#F2F2F2",
+        "image": "/images/phones/apple/iphone-15-pro-white.jpg",
+        "price": 71999
+      },
+      {
+        "id": "apple-apple-iphone-15-pro-1-tb-895856-siyah",
+        "name": "Apple iPhone 15 Pro (256 GB) - Siyah",
+        "colorName": "Siyah Titanyum (Black Titanium)",
+        "colorHex": "#3C3B3A",
+        "image": "/images/phones/apple/iphone-15-pro-black.jpg",
+        "price": 71999
+      }
+    ]
+  },
+  {
+    "id": "apple-apple-iphone-15-pro-512-gb-895860",
+    "slug": "apple-iphone-15-pro-512-gb",
+    "name": "Apple iPhone 15 Pro (512 GB)",
+    "brand": "Apple",
+    "category": "smartphones",
+    "image": "/images/phones/apple/apple-iphone-15-pro.jpg",
+    "images": [
+      "/images/phones/apple/iphone-15-pro-natural.jpg",
+      "/images/phones/apple/iphone-15-pro-blue.jpg",
+      "/images/phones/apple/iphone-15-pro-white.jpg",
+      "/images/phones/apple/iphone-15-pro-black.jpg"
+    ],
+    "rating": 4.9,
+    "epeyScore": 95,
+    "reviewCount": 1420,
+    "basePrice": 79999,
+    "currency": "TL",
+    "releaseYear": 2023,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "Apple A17 Pro (3nm) Üst Seviye İşlemci",
+      "6.1 inç 120Hz ProMotion Super Retina XDR OLED",
+      "48 MP Fusion + 12 MP Ultra Geniş + 12 MP 3x Telefoto",
+      "Titanyum Kasa & Eylem Butonu",
+      "USB Type-C 3.0 Bağlantısı",
+      "Apple Intelligence Desteği"
+    ],
+    "pros": [
+      "Hafif ve dayanıklı titanyum kasa tasarımı",
+      "Apple A17 Pro (3nm) ile konsol kalitesinde oyun performansı",
+      "120 Hz ProMotion akıcı ekran ve Dinamik Ada",
+      "USB 3 (10 Gbps) yüksek hızlı veri aktarımı"
+    ],
+    "cons": [
+      "Yüksek fiyat seviyesi",
+      "Hızlı şarj gücü 27W ile sınırlı"
+    ],
+    "colorOptions": [
+      {
+        "name": "Natürel Titanyum (Natural Titanium)",
+        "hex": "#9F988F",
+        "image": "/images/phones/apple/iphone-15-pro-natural.jpg"
+      },
+      {
+        "name": "Mavi Titanyum (Blue Titanium)",
+        "hex": "#3B4450",
+        "image": "/images/phones/apple/iphone-15-pro-blue.jpg"
+      },
+      {
+        "name": "Beyaz Titanyum (White Titanium)",
+        "hex": "#F2F2F2",
+        "image": "/images/phones/apple/iphone-15-pro-white.jpg"
+      },
+      {
+        "name": "Siyah Titanyum (Black Titanium)",
+        "hex": "#3C3B3A",
+        "image": "/images/phones/apple/iphone-15-pro-black.jpg"
+      }
+    ],
+    "storeOffers": [
+      {
+        "storeName": "Hepsiburada",
+        "price": 102960,
+        "url": "https://www.hepsiburada.com/apple-iphone-15-pro-128-gb-naturel-titanyum-p-HBCV00004XA874",
+        "inStock": true,
+        "updatedAt": "2026-09-06T18:07:31.445Z"
+      },
+      {
+        "storeName": "Trendyol",
+        "price": 80459,
+        "url": "https://www.trendyol.com/sr?q=Apple%20iPhone%2015%20Pro%20(512%20GB)",
+        "inStock": true
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "price": 80700,
+        "url": "https://www.vatanbilgisayar.com/arama/Apple%20iPhone%2015%20Pro%20(512%20GB)",
+        "inStock": true
+      },
+      {
+        "storeName": "MediaMarkt",
+        "price": 80780,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Apple%20iPhone%2015%20Pro%20(512%20GB)",
+        "inStock": true
+      },
+      {
+        "storeName": "Teknosa",
+        "price": 80942,
+        "url": "https://www.teknosa.com/arama?s=Apple%20iPhone%2015%20Pro%20(512%20GB)",
+        "inStock": true
+      },
+      {
+        "storeName": "Amazon TR",
+        "price": 81102,
+        "url": "https://www.amazon.com.tr/s?k=Apple%20iPhone%2015%20Pro%20(512%20GB)",
+        "inStock": true
+      },
+      {
+        "storeName": "n11",
+        "price": 81263,
+        "url": "https://www.n11.com/arama?q=Apple%20iPhone%2015%20Pro%20(512%20GB)",
+        "inStock": true
+      },
+      {
+        "storeName": "PttAVM",
+        "price": 81423,
+        "url": "https://www.pttavm.com/arama?q=Apple%20iPhone%2015%20Pro%20(512%20GB)",
+        "inStock": true
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 82708
+      },
+      {
+        "date": "2026-04-01",
+        "price": 81905
+      },
+      {
+        "date": "2026-05-01",
+        "price": 81102
+      },
+      {
+        "date": "2026-06-01",
+        "price": 80700
+      },
+      {
+        "date": "2026-07-01",
+        "price": 81504
+      },
+      {
+        "date": "2026-08-01",
+        "price": 80942
+      },
+      {
+        "date": "2026-09-01",
+        "price": 80299
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 80459
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.1 inç",
+        "type": "LTPO Super Retina XDR OLED (1-120Hz)",
+        "resolution": "2556 x 1179 piksel",
+        "refreshRate": 120,
+        "brightnessNits": 2000
+      },
+      "processor": {
+        "chip": "Apple A17 Pro (3nm)",
+        "cores": "6 Çekirdek",
+        "antutuScore": 1540000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR5",
+        "storageGb": 512,
+        "storageOptions": [
+          128,
+          1024,
+          2048
+        ],
+        "expandableStorage": false
+      },
+      "camera": {
+        "mainMp": "48 MP Fusion, f/1.78",
+        "ultrawideMp": "12 MP, f/2.2",
+        "telephotoMp": "12 MP (3x Optik Zoom)",
+        "selfieMp": "12 MP TrueDepth",
+        "videoRes": "4K@60fps ProRes LOG",
+        "dxomarkScore": 154
+      },
+      "battery": {
+        "capacitymAh": 3274,
+        "chargingWatts": 27,
+        "wirelessCharging": true,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 6E (802.11ax)",
+        "bluetooth": "5.4",
+        "hasNFC": true,
+        "hasesim": true
+      },
+      "build": {
+        "weightGrams": 187,
+        "thicknessMm": 8.25,
+        "waterResistance": "IP68",
+        "frameMaterial": "Titanyum"
+      },
+      "software": {
+        "osName": "iOS 18 (Apple Intelligence Destekli)",
+        "updateYears": 6
+      }
+    },
+    "price": 79999,
+    "variants": [
+      {
+        "id": "apple-apple-iphone-15-pro-1-tb-895860-natrel",
+        "name": "Apple iPhone 15 Pro (512 GB) - Natürel",
+        "colorName": "Natürel Titanyum (Natural Titanium)",
+        "colorHex": "#9F988F",
+        "image": "/images/phones/apple/iphone-15-pro-natural.jpg",
+        "price": 79999
+      },
+      {
+        "id": "apple-apple-iphone-15-pro-1-tb-895860-mavi",
+        "name": "Apple iPhone 15 Pro (512 GB) - Mavi",
+        "colorName": "Mavi Titanyum (Blue Titanium)",
+        "colorHex": "#3B4450",
+        "image": "/images/phones/apple/iphone-15-pro-blue.jpg",
+        "price": 79999
+      },
+      {
+        "id": "apple-apple-iphone-15-pro-1-tb-895860-beyaz",
+        "name": "Apple iPhone 15 Pro (512 GB) - Beyaz",
+        "colorName": "Beyaz Titanyum (White Titanium)",
+        "colorHex": "#F2F2F2",
+        "image": "/images/phones/apple/iphone-15-pro-white.jpg",
+        "price": 79999
+      },
+      {
+        "id": "apple-apple-iphone-15-pro-1-tb-895860-siyah",
+        "name": "Apple iPhone 15 Pro (512 GB) - Siyah",
+        "colorName": "Siyah Titanyum (Black Titanium)",
+        "colorHex": "#3C3B3A",
+        "image": "/images/phones/apple/iphone-15-pro-black.jpg",
+        "price": 79999
+      }
+    ]
+  },
+  {
+    "id": "apple-apple-iphone-15-pro-max-256-gb-895852",
+    "slug": "apple-iphone-15-pro-max-256-gb",
+    "name": "Apple iPhone 15 Pro Max (256 GB)",
+    "brand": "Apple",
+    "category": "smartphones",
+    "image": "/images/phones/apple/apple-iphone-15-pro-max.jpg",
+    "images": [
+      "/images/phones/apple/iphone-15-pro-natural.jpg",
+      "/images/phones/apple/iphone-15-pro-blue.jpg",
+      "/images/phones/apple/iphone-15-pro-white.jpg",
+      "/images/phones/apple/iphone-15-pro-black.jpg"
+    ],
+    "rating": 4.92,
+    "epeyScore": 96,
+    "reviewCount": 2140,
+    "basePrice": 77999,
+    "currency": "TL",
+    "releaseYear": 2023,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "Apple A17 Pro (3nm) Çip ve Donanımsal Ray Tracing",
+      "6.7 inç 120Hz ProMotion Super Retina XDR OLED",
+      "48 MP Fusion + 12 MP 5x Periskop Zoom",
+      "Hafif ve Güçlü Grade 5 Titanyum Gövde",
+      "Özelleştirilebilir Eylem Düğmesi (Action Button)",
+      "USB-C 3.0 (10 Gbps) Hızlı Veri Aktarımı"
+    ],
+    "pros": [
+      "5x optik zoom sağlayan tetraprizma telefoto lens",
+      "Apple A17 Pro (3nm) çip ile üstün grafik ve oyun gücü",
+      "6.7 inç 120 Hz ProMotion Super Retina XDR OLED ekran",
+      "Geniş pil kapasitesi ve hafif titanyum çerçeve"
+    ],
+    "cons": [
+      "Büyük kasa yapısı tek elle kullanımda zorlayabilir",
+      "Yüksek fiyat düzeyi"
+    ],
+    "colorOptions": [
+      {
+        "name": "Natürel Titanyum (Natural Titanium)",
+        "hex": "#9F988F",
+        "image": "/images/phones/apple/iphone-15-pro-natural.jpg"
+      },
+      {
+        "name": "Mavi Titanyum (Blue Titanium)",
+        "hex": "#3B4450",
+        "image": "/images/phones/apple/iphone-15-pro-blue.jpg"
+      },
+      {
+        "name": "Beyaz Titanyum (White Titanium)",
+        "hex": "#F2F2F2",
+        "image": "/images/phones/apple/iphone-15-pro-white.jpg"
+      },
+      {
+        "name": "Siyah Titanyum (Black Titanium)",
+        "hex": "#3C3B3A",
+        "image": "/images/phones/apple/iphone-15-pro-black.jpg"
+      }
+    ],
+    "storeOffers": [
+      {
+        "storeName": "Hepsiburada",
+        "price": 86997,
+        "url": "https://www.hepsiburada.com/ara?q=Apple%20iPhone%2015%20Pro%20Max%20(256%20GB)",
+        "inStock": true
+      },
+      {
+        "storeName": "Trendyol",
+        "price": 87170,
+        "url": "https://www.trendyol.com/sr?q=Apple%20iPhone%2015%20Pro%20Max%20(256%20GB)",
+        "inStock": true
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "price": 87432,
+        "url": "https://www.vatanbilgisayar.com/arama/Apple%20iPhone%2015%20Pro%20Max%20(256%20GB)",
+        "inStock": true
+      },
+      {
+        "storeName": "MediaMarkt",
+        "price": 87518,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Apple%20iPhone%2015%20Pro%20Max%20(256%20GB)",
+        "inStock": true
+      },
+      {
+        "storeName": "Teknosa",
+        "price": 87693,
+        "url": "https://www.teknosa.com/arama?s=Apple%20iPhone%2015%20Pro%20Max%20(256%20GB)",
+        "inStock": true
+      },
+      {
+        "storeName": "Amazon TR",
+        "price": 87866,
+        "url": "https://www.amazon.com.tr/s?k=Apple%20iPhone%2015%20Pro%20Max%20(256%20GB)",
+        "inStock": true
+      },
+      {
+        "storeName": "n11",
+        "price": 88041,
+        "url": "https://www.n11.com/arama?q=Apple%20iPhone%2015%20Pro%20Max%20(256%20GB)",
+        "inStock": true
+      },
+      {
+        "storeName": "PttAVM",
+        "price": 88214,
+        "url": "https://www.pttavm.com/arama?q=Apple%20iPhone%2015%20Pro%20Max%20(256%20GB)",
+        "inStock": true
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 89606
+      },
+      {
+        "date": "2026-04-01",
+        "price": 88737
+      },
+      {
+        "date": "2026-05-01",
+        "price": 87866
+      },
+      {
+        "date": "2026-06-01",
+        "price": 87432
+      },
+      {
+        "date": "2026-07-01",
+        "price": 88301
+      },
+      {
+        "date": "2026-08-01",
+        "price": 87693
+      },
+      {
+        "date": "2026-09-01",
+        "price": 86997
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.7 inç",
+        "type": "LTPO Super Retina XDR OLED (1-120Hz)",
+        "resolution": "2796 x 1290 piksel",
+        "refreshRate": 120,
+        "brightnessNits": 2000
+      },
+      "processor": {
+        "chip": "Apple A17 Pro (3nm)",
+        "cores": "6 Çekirdek (2P + 4E)",
+        "antutuScore": 1580000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR5",
+        "storageGb": 256,
+        "storageOptions": [
+          128,
+          512,
+          1024,
+          2048
+        ],
+        "expandableStorage": false
+      },
+      "camera": {
+        "mainMp": "48 MP Fusion, f/1.78, Sensor-shift OIS",
+        "ultrawideMp": "12 MP, f/2.2, 120˚",
+        "telephotoMp": "12 MP 5x Optik Zoom (Tetraprism)",
+        "selfieMp": "12 MP TrueDepth",
+        "videoRes": "4K@60fps ProRes LOG, Dolby Vision",
+        "dxomarkScore": 154
+      },
+      "battery": {
+        "capacitymAh": 4422,
+        "chargingWatts": 27,
+        "wirelessCharging": true,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 6E (802.11ax)",
+        "bluetooth": "5.4",
+        "hasNFC": true,
+        "hasesim": true
+      },
+      "build": {
+        "weightGrams": 221,
+        "thicknessMm": 8.25,
+        "waterResistance": "IP68",
+        "frameMaterial": "Grade 5 Titanyum"
+      },
+      "software": {
+        "osName": "iOS 18 (Apple Intelligence Destekli)",
+        "updateYears": 6
+      }
+    },
+    "price": 77999,
+    "variants": [
+      {
+        "id": "apple-apple-iphone-15-pro-max-512-gb-895852-natrel",
+        "name": "Apple iPhone 15 Pro Max (256 GB) - Natürel",
+        "colorName": "Natürel Titanyum (Natural Titanium)",
+        "colorHex": "#9F988F",
+        "image": "/images/phones/apple/iphone-15-pro-natural.jpg",
+        "price": 77999
+      },
+      {
+        "id": "apple-apple-iphone-15-pro-max-512-gb-895852-mavi",
+        "name": "Apple iPhone 15 Pro Max (256 GB) - Mavi",
+        "colorName": "Mavi Titanyum (Blue Titanium)",
+        "colorHex": "#3B4450",
+        "image": "/images/phones/apple/iphone-15-pro-blue.jpg",
+        "price": 77999
+      },
+      {
+        "id": "apple-apple-iphone-15-pro-max-512-gb-895852-beyaz",
+        "name": "Apple iPhone 15 Pro Max (256 GB) - Beyaz",
+        "colorName": "Beyaz Titanyum (White Titanium)",
+        "colorHex": "#F2F2F2",
+        "image": "/images/phones/apple/iphone-15-pro-white.jpg",
+        "price": 77999
+      },
+      {
+        "id": "apple-apple-iphone-15-pro-max-512-gb-895852-siyah",
+        "name": "Apple iPhone 15 Pro Max (256 GB) - Siyah",
+        "colorName": "Siyah Titanyum (Black Titanium)",
+        "colorHex": "#3C3B3A",
+        "image": "/images/phones/apple/iphone-15-pro-black.jpg",
+        "price": 77999
+      }
+    ]
+  },
+  {
+    "id": "apple-apple-iphone-16-512-gb-959781",
+    "slug": "apple-iphone-16-512-gb",
+    "name": "Apple iPhone 16 (512 GB)",
+    "brand": "Apple",
+    "category": "smartphones",
+    "image": "/images/phones/apple/iphone-16-ultramarine.jpg",
+    "images": [
+      "/images/phones/apple/iphone-16-lineup.jpg",
+      "/images/phones/apple/iphone-16-ultramarine.jpg",
+      "/images/phones/apple/iphone-16-teal.jpg",
+      "/images/phones/apple/iphone-16-pink.jpg",
+      "/images/phones/apple/iphone-16-white.jpg",
+      "/images/phones/apple/iphone-16-black.jpg"
+    ],
+    "rating": 4.89,
+    "epeyScore": 94,
+    "reviewCount": 1900,
+    "basePrice": 79999,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "Apple A18 (3nm) Yeni Nesil Çip",
+      "Apple Intelligence Hazır",
+      "48 MP Fusion Ana Kamera (2x Optik Kalite Telefoto)",
+      "Camera Control ve Eylem Butonu",
+      "6.1 inç Super Retina XDR OLED (2000 nit)",
+      "Yeni Nesil Ceramic Shield Cam"
+    ],
+    "pros": [
+      "Apple A18 (3nm) çip ve Apple Intelligence desteği",
+      "Camera Control tuşu ve programlanabilir Eylem Butonu",
+      "48 MP Fusion Ana Kamera ile 2x optik kalitede zoom",
+      "Yeni nesil Ceramic Shield ile %50 daha dayanıklı ön cam"
+    ],
+    "cons": [
+      "Ekran yenileme hızı 60 Hz",
+      "Her Zaman Açık Ekran (Always-On Display) özelliği yok"
+    ],
+    "colorOptions": [
+      {
+        "name": "Laciverttaş",
+        "hex": "#344865",
+        "image": "/images/phones/apple/iphone-16-ultramarine.jpg"
+      },
+      {
+        "name": "Deniz Mavisi",
+        "hex": "#8ba9a7",
+        "image": "/images/phones/apple/iphone-16-teal.jpg"
+      },
+      {
+        "name": "Pembe",
+        "hex": "#e7bcc6",
+        "image": "/images/phones/apple/iphone-16-pink.jpg"
+      },
+      {
+        "name": "Beyaz",
+        "hex": "#ffffff",
+        "image": "/images/phones/apple/iphone-16-white.jpg"
+      },
+      {
+        "name": "Siyah",
+        "hex": "#3c4048",
+        "image": "/images/phones/apple/iphone-16-black.jpg"
+      }
+    ],
+    "storeOffers": [
+      {
+        "storeName": "Hepsiburada",
+        "price": 78719,
+        "url": "https://www.hepsiburada.com/apple-iphone-16-128gb-pembe-p-HBCV00006Y4HU3",
+        "inStock": true,
+        "updatedAt": "2026-09-06T18:06:21.203Z"
+      },
+      {
+        "storeName": "Trendyol",
+        "price": 80109,
+        "url": "https://www.trendyol.com/sr?q=Apple%20iPhone%2016%20(512%20GB)",
+        "inStock": true
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "price": 82409,
+        "url": "https://www.vatanbilgisayar.com/iphone-16-akilli-telefon.html",
+        "inStock": true
+      },
+      {
+        "storeName": "MediaMarkt",
+        "price": 80428,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Apple%20iPhone%2016%20(512%20GB)",
+        "inStock": true
+      },
+      {
+        "storeName": "Teknosa",
+        "price": 80588,
+        "url": "https://www.teknosa.com/arama?s=Apple%20iPhone%2016%20(512%20GB)",
+        "inStock": true
+      },
+      {
+        "storeName": "Amazon TR",
+        "price": 80748,
+        "url": "https://www.amazon.com.tr/s?k=Apple%20iPhone%2016%20(512%20GB)",
+        "inStock": true
+      },
+      {
+        "storeName": "n11",
+        "price": 80908,
+        "url": "https://www.n11.com/arama?q=Apple%20iPhone%2016%20(512%20GB)",
+        "inStock": true
+      },
+      {
+        "storeName": "PttAVM",
+        "price": 81068,
+        "url": "https://www.pttavm.com/arama?q=Apple%20iPhone%2016%20(512%20GB)",
+        "inStock": true
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 82347
+      },
+      {
+        "date": "2026-04-01",
+        "price": 81548
+      },
+      {
+        "date": "2026-05-01",
+        "price": 80748
+      },
+      {
+        "date": "2026-06-01",
+        "price": 80349
+      },
+      {
+        "date": "2026-07-01",
+        "price": 81148
+      },
+      {
+        "date": "2026-08-01",
+        "price": 80588
+      },
+      {
+        "date": "2026-09-01",
+        "price": 79949
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 78719
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.1 inç",
+        "type": "Super Retina XDR OLED",
+        "resolution": "2556 x 1179 piksel",
+        "refreshRate": 60,
+        "brightnessNits": 2000
+      },
+      "processor": {
+        "chip": "Apple A18 (3nm)",
+        "cores": "6 Çekirdek",
+        "antutuScore": 1650000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR5X",
+        "storageGb": 512,
+        "storageOptions": [
+          128,
+          256,
+          512,
+          1024,
+          2048
+        ],
+        "expandableStorage": false
+      },
+      "camera": {
+        "mainMp": "48 MP Fusion, f/1.6",
+        "ultrawideMp": "12 MP, f/2.2",
+        "selfieMp": "12 MP TrueDepth",
+        "videoRes": "4K@60fps Dolby Vision",
+        "dxomarkScore": 147
+      },
+      "battery": {
+        "capacitymAh": 3561,
+        "chargingWatts": 27,
+        "wirelessCharging": true,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 7 (802.11be)",
+        "bluetooth": "5.4",
+        "hasNFC": true,
+        "hasesim": true
+      },
+      "build": {
+        "weightGrams": 170,
+        "thicknessMm": 7.8,
+        "waterResistance": "IP68",
+        "frameMaterial": "Alüminyum & Renkli Cam Arka"
+      },
+      "software": {
+        "osName": "iOS 18 (Apple Intelligence)",
+        "updateYears": 7
+      }
+    },
+    "price": 79999,
+    "variants": [
+      {
+        "id": "apple-apple-iphone-16-128-gb-959781-deniz",
+        "name": "Apple iPhone 16 (512 GB) - Deniz",
+        "colorName": "Deniz Mavisi (Ultramarine)",
+        "colorHex": "#344865",
+        "image": "/images/phones/apple/iphone-16-ultramarine.jpg",
+        "price": 79999,
+        "color": "Laciverttaş"
+      },
+      {
+        "id": "apple-apple-iphone-16-128-gb-959781-ivit",
+        "name": "Apple iPhone 16 (512 GB) - Çivit",
+        "colorName": "Çivit Yeşili (Teal)",
+        "colorHex": "#8ba9a7",
+        "image": "/images/phones/apple/iphone-16-teal.jpg",
+        "price": 79999,
+        "color": "Deniz Mavisi"
+      },
+      {
+        "id": "apple-apple-iphone-16-128-gb-959781-pembe",
+        "name": "Apple iPhone 16 (512 GB) - Pembe",
+        "colorName": "Pembe (Pink)",
+        "colorHex": "#e7bcc6",
+        "image": "/images/phones/apple/iphone-16-pink.jpg",
+        "price": 79999,
+        "color": "Pembe"
+      },
+      {
+        "id": "apple-apple-iphone-16-128-gb-959781-beyaz",
+        "name": "Apple iPhone 16 (512 GB) - Beyaz",
+        "colorName": "Beyaz (White)",
+        "colorHex": "#ffffff",
+        "image": "/images/phones/apple/iphone-16-lineup.jpg",
+        "price": 79999,
+        "color": "Beyaz"
+      },
+      {
+        "id": "apple-apple-iphone-16-128-gb-959781-siyah",
+        "name": "Apple iPhone 16 (512 GB) - Siyah",
+        "colorName": "Siyah (Black)",
+        "colorHex": "#3c4048",
+        "image": "/images/phones/apple/iphone-16-lineup.jpg",
+        "price": 79999,
+        "color": "Siyah"
+      }
+    ],
+    "gallery": [
+      "/images/phones/apple/iphone-16-lineup.jpg",
+      "/images/phones/apple/iphone-16-ultramarine.jpg",
+      "/images/phones/apple/iphone-16-teal.jpg",
+      "/images/phones/apple/iphone-16-pink.jpg",
+      "/images/phones/apple/iphone-16-white.jpg",
+      "/images/phones/apple/iphone-16-black.jpg"
+    ]
+  },
+  {
+    "id": "apple-apple-iphone-16-plus-256-gb-959954",
+    "slug": "apple-iphone-16-plus-256-gb",
+    "name": "Apple iPhone 16 Plus (256 GB)",
+    "brand": "Apple",
+    "category": "smartphones",
+    "image": "/images/phones/apple/iphone-16-plus-ultramarine.jpg",
+    "images": [
+      "/images/phones/apple/iphone-16-plus-lineup.jpg",
+      "/images/phones/apple/iphone-16-plus-ultramarine.jpg",
+      "/images/phones/apple/iphone-16-plus-teal.jpg",
+      "/images/phones/apple/iphone-16-plus-pink.jpg"
+    ],
+    "rating": 4.89,
+    "epeyScore": 95,
+    "reviewCount": 2080,
+    "basePrice": 79999,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "Apple A18 (3nm) Yeni Nesil Çip",
+      "Apple Intelligence Hazır",
+      "48 MP Fusion Ana Kamera (2x Optik Kalite Telefoto)",
+      "Camera Control ve Eylem Butonu",
+      "6.1 inç Super Retina XDR OLED (2000 nit)",
+      "Yeni Nesil Ceramic Shield Cam"
+    ],
+    "pros": [
+      "Geniş 6.7 inç Super Retina XDR OLED ekran",
+      "Apple A18 (3nm) çip ve devasa batarya ömrü",
+      "Camera Control ve Apple Intelligence entegrasyonu",
+      "Yeni nesil Ceramic Shield ve renkli mat cam arka gövde"
+    ],
+    "cons": [
+      "Ekran yenileme hızı 60 Hz",
+      "Telefoto lens bulunmuyor"
+    ],
+    "colorOptions": [
+      {
+        "name": "Laciverttaş",
+        "hex": "#344865",
+        "image": "/images/phones/apple/iphone-16-plus-ultramarine.jpg"
+      },
+      {
+        "name": "Deniz Mavisi",
+        "hex": "#8ba9a7",
+        "image": "/images/phones/apple/iphone-16-plus-teal.jpg"
+      },
+      {
+        "name": "Pembe",
+        "hex": "#e7bcc6",
+        "image": "/images/phones/apple/iphone-16-plus-pink.jpg"
+      }
+    ],
+    "storeOffers": [
+      {
+        "storeName": "Hepsiburada",
+        "price": 83699,
+        "url": "https://www.hepsiburada.com/apple-iphone-16-plus-128gb-lacivert-tas-p-HBCV00006Y4HUD",
+        "inStock": true,
+        "updatedAt": "2026-09-06T18:05:55.165Z"
+      },
+      {
+        "storeName": "Trendyol",
+        "price": 80079,
+        "url": "https://www.trendyol.com/sr?q=Apple%20iPhone%2016%20Plus%20(256%20GB)",
+        "inStock": true
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "price": 80319,
+        "url": "https://www.vatanbilgisayar.com/arama/Apple%20iPhone%2016%20Plus%20(256%20GB)",
+        "inStock": true
+      },
+      {
+        "storeName": "MediaMarkt",
+        "price": 80398,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Apple%20iPhone%2016%20Plus%20(256%20GB)",
+        "inStock": true
+      },
+      {
+        "storeName": "Teknosa",
+        "price": 80558,
+        "url": "https://www.teknosa.com/arama?s=Apple%20iPhone%2016%20Plus%20(256%20GB)",
+        "inStock": true
+      },
+      {
+        "storeName": "Amazon TR",
+        "price": 80718,
+        "url": "https://www.amazon.com.tr/s?k=Apple%20iPhone%2016%20Plus%20(256%20GB)",
+        "inStock": true
+      },
+      {
+        "storeName": "n11",
+        "price": 80878,
+        "url": "https://www.n11.com/arama?q=Apple%20iPhone%2016%20Plus%20(256%20GB)",
+        "inStock": true
+      },
+      {
+        "storeName": "PttAVM",
+        "price": 81038,
+        "url": "https://www.pttavm.com/arama?q=Apple%20iPhone%2016%20Plus%20(256%20GB)",
+        "inStock": true
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 82317
+      },
+      {
+        "date": "2026-04-01",
+        "price": 81517
+      },
+      {
+        "date": "2026-05-01",
+        "price": 80718
+      },
+      {
+        "date": "2026-06-01",
+        "price": 80319
+      },
+      {
+        "date": "2026-07-01",
+        "price": 81118
+      },
+      {
+        "date": "2026-08-01",
+        "price": 80558
+      },
+      {
+        "date": "2026-09-01",
+        "price": 79919
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 80079
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.7 inç",
+        "type": "Super Retina XDR OLED",
+        "resolution": "2796 x 1290 piksel",
+        "refreshRate": 60,
+        "brightnessNits": 2000
+      },
+      "processor": {
+        "chip": "Apple A18 (3nm)",
+        "cores": "6 Çekirdek",
+        "antutuScore": 1680000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR5X",
+        "storageGb": 256,
+        "storageOptions": [
+          128,
+          256,
+          512,
+          1024,
+          2048
+        ],
+        "expandableStorage": false
+      },
+      "camera": {
+        "mainMp": "48 MP Fusion, f/1.6",
+        "ultrawideMp": "12 MP, f/2.2",
+        "selfieMp": "12 MP TrueDepth",
+        "videoRes": "4K@60fps Dolby Vision",
+        "dxomarkScore": 147
+      },
+      "battery": {
+        "capacitymAh": 4674,
+        "chargingWatts": 27,
+        "wirelessCharging": true,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 7 (802.11be)",
+        "bluetooth": "5.4",
+        "hasNFC": true,
+        "hasesim": true
+      },
+      "build": {
+        "weightGrams": 170,
+        "thicknessMm": 7.8,
+        "waterResistance": "IP68",
+        "frameMaterial": "Alüminyum & Renkli Cam Arka"
+      },
+      "software": {
+        "osName": "iOS 18 (Apple Intelligence)",
+        "updateYears": 7
+      }
+    },
+    "price": 79999,
+    "variants": [
+      {
+        "id": "apple-apple-iphone-16-plus-128-gb-959954-deniz",
+        "name": "Apple iPhone 16 Plus (256 GB) - Deniz",
+        "colorName": "Deniz Mavisi (Ultramarine)",
+        "colorHex": "#344865",
+        "image": "/images/phones/apple/iphone-16-ultramarine.jpg",
+        "price": 79999,
+        "color": "Laciverttaş"
+      },
+      {
+        "id": "apple-apple-iphone-16-plus-128-gb-959954-ivit",
+        "name": "Apple iPhone 16 Plus (256 GB) - Çivit",
+        "colorName": "Çivit Yeşili (Teal)",
+        "colorHex": "#8ba9a7",
+        "image": "/images/phones/apple/iphone-16-teal.jpg",
+        "price": 79999,
+        "color": "Deniz Mavisi"
+      },
+      {
+        "id": "apple-apple-iphone-16-plus-128-gb-959954-pembe",
+        "name": "Apple iPhone 16 Plus (256 GB) - Pembe",
+        "colorName": "Pembe (Pink)",
+        "colorHex": "#e7bcc6",
+        "image": "/images/phones/apple/iphone-16-pink.jpg",
+        "price": 79999,
+        "color": "Pembe"
+      },
+      {
+        "id": "apple-apple-iphone-16-plus-128-gb-959954-beyaz",
+        "name": "Apple iPhone 16 Plus (256 GB) - Beyaz",
+        "colorName": "Beyaz (White)",
+        "colorHex": "#ffffff",
+        "image": "/images/phones/apple/iphone-16-lineup.jpg",
+        "price": 79999,
+        "color": "Beyaz"
+      },
+      {
+        "id": "apple-apple-iphone-16-plus-128-gb-959954-siyah",
+        "name": "Apple iPhone 16 Plus (256 GB) - Siyah",
+        "colorName": "Siyah (Black)",
+        "colorHex": "#3c4048",
+        "image": "/images/phones/apple/iphone-16-lineup.jpg",
+        "price": 79999,
+        "color": "Siyah"
+      }
+    ],
+    "gallery": [
+      "/images/phones/apple/iphone-16-plus-lineup.jpg",
+      "/images/phones/apple/iphone-16-plus-ultramarine.jpg",
+      "/images/phones/apple/iphone-16-plus-teal.jpg",
+      "/images/phones/apple/iphone-16-plus-pink.jpg"
+    ]
+  },
+  {
+    "id": "apple-apple-iphone-16-plus-512-gb-959955",
+    "slug": "apple-iphone-16-plus-512-gb",
+    "name": "Apple iPhone 16 Plus (512 GB)",
+    "brand": "Apple",
+    "category": "smartphones",
+    "image": "/images/phones/apple/iphone-16-plus-ultramarine.jpg",
+    "images": [
+      "/images/phones/apple/iphone-16-plus-lineup.jpg",
+      "/images/phones/apple/iphone-16-plus-ultramarine.jpg",
+      "/images/phones/apple/iphone-16-plus-teal.jpg",
+      "/images/phones/apple/iphone-16-plus-pink.jpg"
+    ],
+    "rating": 4.89,
+    "epeyScore": 95,
+    "reviewCount": 2080,
+    "basePrice": 89999,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "Apple A18 (3nm) Yeni Nesil Çip",
+      "Apple Intelligence Hazır",
+      "48 MP Fusion Ana Kamera (2x Optik Kalite Telefoto)",
+      "Camera Control ve Eylem Butonu",
+      "6.1 inç Super Retina XDR OLED (2000 nit)",
+      "Yeni Nesil Ceramic Shield Cam"
+    ],
+    "pros": [
+      "Geniş 6.7 inç Super Retina XDR OLED ekran",
+      "Apple A18 (3nm) çip ve devasa batarya ömrü",
+      "Camera Control ve Apple Intelligence entegrasyonu",
+      "Geniş 512 GB depolama alanı ile 4K video ve içerik üretimi için ideal"
+    ],
+    "cons": [
+      "Ekran yenileme hızı 60 Hz",
+      "Telefoto lens bulunmuyor"
+    ],
+    "colorOptions": [
+      {
+        "name": "Laciverttaş",
+        "hex": "#344865",
+        "image": "/images/phones/apple/iphone-16-plus-ultramarine.jpg"
+      },
+      {
+        "name": "Deniz Mavisi",
+        "hex": "#8ba9a7",
+        "image": "/images/phones/apple/iphone-16-plus-teal.jpg"
+      },
+      {
+        "name": "Pembe",
+        "hex": "#e7bcc6",
+        "image": "/images/phones/apple/iphone-16-plus-pink.jpg"
+      }
+    ],
+    "storeOffers": [
+      {
+        "storeName": "Hepsiburada",
+        "price": 93774,
+        "url": "https://www.hepsiburada.com/apple-iphone-16-plus-128gb-lacivert-tas-p-HBCV00006Y4HUD",
+        "inStock": true,
+        "updatedAt": "2026-09-06T18:05:55.165Z"
+      },
+      {
+        "storeName": "Trendyol",
+        "price": 89718,
+        "url": "https://www.trendyol.com/sr?q=Apple%20iPhone%2016%20Plus%20(512%20GB)",
+        "inStock": true
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "price": 89986,
+        "url": "https://www.vatanbilgisayar.com/arama/Apple%20iPhone%2016%20Plus%20(512%20GB)",
+        "inStock": true
+      },
+      {
+        "storeName": "MediaMarkt",
+        "price": 90076,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Apple%20iPhone%2016%20Plus%20(512%20GB)",
+        "inStock": true
+      },
+      {
+        "storeName": "Teknosa",
+        "price": 90255,
+        "url": "https://www.teknosa.com/arama?s=Apple%20iPhone%2016%20Plus%20(512%20GB)",
+        "inStock": true
+      },
+      {
+        "storeName": "Amazon TR",
+        "price": 90434,
+        "url": "https://www.amazon.com.tr/s?k=Apple%20iPhone%2016%20Plus%20(512%20GB)",
+        "inStock": true
+      },
+      {
+        "storeName": "n11",
+        "price": 90613,
+        "url": "https://www.n11.com/arama?q=Apple%20iPhone%2016%20Plus%20(512%20GB)",
+        "inStock": true
+      },
+      {
+        "storeName": "PttAVM",
+        "price": 90792,
+        "url": "https://www.pttavm.com/arama?q=Apple%20iPhone%2016%20Plus%20(512%20GB)",
+        "inStock": true
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 92225
+      },
+      {
+        "date": "2026-04-01",
+        "price": 91330
+      },
+      {
+        "date": "2026-05-01",
+        "price": 90434
+      },
+      {
+        "date": "2026-06-01",
+        "price": 89986
+      },
+      {
+        "date": "2026-07-01",
+        "price": 90882
+      },
+      {
+        "date": "2026-08-01",
+        "price": 90255
+      },
+      {
+        "date": "2026-09-01",
+        "price": 89539
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 89718
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.7 inç",
+        "type": "Super Retina XDR OLED",
+        "resolution": "2796 x 1290 piksel",
+        "refreshRate": 60,
+        "brightnessNits": 2000
+      },
+      "processor": {
+        "chip": "Apple A18 (3nm)",
+        "cores": "6 Çekirdek",
+        "antutuScore": 1680000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR5X",
+        "storageGb": 512,
+        "storageOptions": [
+          128,
+          256,
+          512,
+          1024,
+          2048
+        ],
+        "expandableStorage": false
+      },
+      "camera": {
+        "mainMp": "48 MP Fusion, f/1.6",
+        "ultrawideMp": "12 MP, f/2.2",
+        "selfieMp": "12 MP TrueDepth",
+        "videoRes": "4K@60fps Dolby Vision",
+        "dxomarkScore": 147
+      },
+      "battery": {
+        "capacitymAh": 4674,
+        "chargingWatts": 27,
+        "wirelessCharging": true,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 7 (802.11be)",
+        "bluetooth": "5.4",
+        "hasNFC": true,
+        "hasesim": true
+      },
+      "build": {
+        "weightGrams": 170,
+        "thicknessMm": 7.8,
+        "waterResistance": "IP68",
+        "frameMaterial": "Alüminyum & Renkli Cam Arka"
+      },
+      "software": {
+        "osName": "iOS 18 (Apple Intelligence)",
+        "updateYears": 7
+      }
+    },
+    "price": 89999,
+    "variants": [
+      {
+        "id": "apple-apple-iphone-16-plus-128-gb-959955-deniz",
+        "name": "Apple iPhone 16 Plus (512 GB) - Deniz",
+        "colorName": "Deniz Mavisi (Ultramarine)",
+        "colorHex": "#344865",
+        "image": "/images/phones/apple/iphone-16-ultramarine.jpg",
+        "price": 89999,
+        "color": "Laciverttaş"
+      },
+      {
+        "id": "apple-apple-iphone-16-plus-128-gb-959955-ivit",
+        "name": "Apple iPhone 16 Plus (512 GB) - Çivit",
+        "colorName": "Çivit Yeşili (Teal)",
+        "colorHex": "#8ba9a7",
+        "image": "/images/phones/apple/iphone-16-teal.jpg",
+        "price": 89999,
+        "color": "Deniz Mavisi"
+      },
+      {
+        "id": "apple-apple-iphone-16-plus-128-gb-959955-pembe",
+        "name": "Apple iPhone 16 Plus (512 GB) - Pembe",
+        "colorName": "Pembe (Pink)",
+        "colorHex": "#e7bcc6",
+        "image": "/images/phones/apple/iphone-16-pink.jpg",
+        "price": 89999,
+        "color": "Pembe"
+      },
+      {
+        "id": "apple-apple-iphone-16-plus-128-gb-959955-beyaz",
+        "name": "Apple iPhone 16 Plus (512 GB) - Beyaz",
+        "colorName": "Beyaz (White)",
+        "colorHex": "#ffffff",
+        "image": "/images/phones/apple/iphone-16-lineup.jpg",
+        "price": 89999,
+        "color": "Beyaz"
+      },
+      {
+        "id": "apple-apple-iphone-16-plus-128-gb-959955-siyah",
+        "name": "Apple iPhone 16 Plus (512 GB) - Siyah",
+        "colorName": "Siyah (Black)",
+        "colorHex": "#3c4048",
+        "image": "/images/phones/apple/iphone-16-lineup.jpg",
+        "price": 89999,
+        "color": "Siyah"
+      }
+    ],
+    "gallery": [
+      "/images/phones/apple/iphone-16-plus-lineup.jpg",
+      "/images/phones/apple/iphone-16-plus-ultramarine.jpg",
+      "/images/phones/apple/iphone-16-plus-teal.jpg",
+      "/images/phones/apple/iphone-16-plus-pink.jpg"
+    ]
+  },
+  {
+    "id": "apple-apple-iphone-13-128-gb-717135",
+    "slug": "apple-iphone-13-128-gb",
+    "name": "Apple iPhone 13 (128 GB)",
+    "brand": "Apple",
+    "category": "smartphones",
+    "image": "/images/phones/apple/apple-iphone-13.jpg",
+    "images": [
+      "/images/phones/apple/apple-iphone-13.jpg",
+      "/images/phones/apple/iphone-13-midnight.jpg",
+      "/images/phones/apple/iphone-13-starlight.jpg",
+      "/images/phones/apple/iphone-13-blue.jpg",
+      "/images/phones/apple/iphone-13-pink.jpg"
+    ],
+    "gallery": [
+      "/images/phones/apple/apple-iphone-13.jpg",
+      "/images/phones/apple/iphone-13-midnight.jpg",
+      "/images/phones/apple/iphone-13-starlight.jpg",
+      "/images/phones/apple/iphone-13-blue.jpg",
+      "/images/phones/apple/iphone-13-pink.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 88,
+    "reviewCount": 2450,
+    "basePrice": 37999,
+    "currency": "TL",
+    "releaseYear": 2021,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "Apple A15 Bionic (5nm) Güçlü İşlemci",
+      "6.1 inç Super Retina XDR OLED Ekran",
+      "Çift 12 MP Kamera Sistemi ve Sinematik Mod",
+      "Sensör Kaydırmalı Optik Görüntü Sabitleme (OIS)",
+      "Dayanıklı Ceramic Shield Ön Yüzey"
+    ],
+    "pros": [
+      "Apple A15 Bionic çip ile akıcı ve güvenilir günlük performans",
+      "Sensör kaydırmalı OIS ile başarılı düşük ışık fotoğrafçılığı",
+      "Kompakt 6.1 inç form faktörü ve dayanıklı tasarım",
+      "Fiyat / performans açısından avantajlı iOS ekosistemine giriş"
+    ],
+    "cons": [
+      "Lightning bağlantı noktası kullanıyor (USB-C değil)",
+      "60 Hz standart ekran yenileme hızı"
+    ],
+    "colorOptions": [
+      {
+        "name": "Gece Yarısı",
+        "hex": "#1C232B",
+        "image": "/images/phones/apple/iphone-13-midnight.jpg"
+      },
+      {
+        "name": "Yıldız Işığı",
+        "hex": "#F9F6EF",
+        "image": "/images/phones/apple/iphone-13-starlight.jpg"
+      },
+      {
+        "name": "Mavi",
+        "hex": "#275A7A",
+        "image": "/images/phones/apple/iphone-13-blue.jpg"
+      },
+      {
+        "name": "Pembe",
+        "hex": "#FAE0D8",
+        "image": "/images/phones/apple/iphone-13-pink.jpg"
+      }
+    ],
+    "storeOffers": [
+      {
+        "storeName": "Hepsiburada",
+        "price": 37999,
+        "url": "https://www.hepsiburada.com/ara?q=Apple+iPhone+13+128+GB",
+        "inStock": true,
+        "updatedAt": "2026-09-06T18:06:44.473Z"
+      },
+      {
+        "storeName": "Trendyol",
+        "price": 38299,
+        "url": "https://www.trendyol.com/sr?q=Apple%20iPhone%2013%20(128%20GB)",
+        "inStock": true
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "price": 38499,
+        "url": "https://www.vatanbilgisayar.com/iphone-13-akilli-telefon.html",
+        "inStock": true
+      },
+      {
+        "storeName": "MediaMarkt",
+        "price": 38499,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Apple%20iPhone%2013%20(128%20GB)",
+        "inStock": true
+      },
+      {
+        "storeName": "Teknosa",
+        "price": 38599,
+        "url": "https://www.teknosa.com/arama?s=Apple%20iPhone%2013%20(128%20GB)",
+        "inStock": true
+      },
+      {
+        "storeName": "Amazon TR",
+        "price": 38699,
+        "url": "https://www.amazon.com.tr/s?k=Apple%20iPhone%2013%20(128%20GB)",
+        "inStock": true
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 39999
+      },
+      {
+        "date": "2026-04-01",
+        "price": 39499
+      },
+      {
+        "date": "2026-05-01",
+        "price": 38999
+      },
+      {
+        "date": "2026-06-01",
+        "price": 38499
+      },
+      {
+        "date": "2026-07-01",
+        "price": 38499
+      },
+      {
+        "date": "2026-08-01",
+        "price": 37999
+      },
+      {
+        "date": "2026-09-01",
+        "price": 37999
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 37999
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.1 inç",
+        "type": "Super Retina XDR OLED",
+        "resolution": "2532 x 1170 piksel",
+        "refreshRate": 60,
+        "brightnessNits": 1200
+      },
+      "processor": {
+        "chip": "Apple A15 Bionic (5nm)",
+        "cores": "6 Çekirdek",
+        "antutuScore": 1250000
+      },
+      "memory": {
+        "ramGb": 4,
+        "ramType": "LPDDR4X",
+        "storageGb": 128,
+        "storageOptions": [
+          128,
+          256,
+          512
+        ],
+        "expandableStorage": false
+      },
+      "camera": {
+        "mainMp": "12 MP, f/1.6",
+        "ultrawideMp": "12 MP, f/2.4",
+        "selfieMp": "12 MP TrueDepth",
+        "videoRes": "4K@60fps Dolby Vision HDR",
+        "dxomarkScore": 130
+      },
+      "battery": {
+        "capacitymAh": 3227,
+        "chargingWatts": 20,
+        "wirelessCharging": true,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 6 (802.11ax)",
+        "bluetooth": "5.0",
+        "hasNFC": true,
+        "hasesim": true
+      },
+      "build": {
+        "weightGrams": 173,
+        "thicknessMm": 7.65,
+        "waterResistance": "IP68",
+        "frameMaterial": "Alüminyum & Cam Arka"
+      },
+      "software": {
+        "osName": "iOS 18",
+        "updateYears": 5
+      }
+    },
+    "price": 37999,
+    "variants": [
+      {
+        "id": "apple-apple-iphone-13-128-gb-717135-gece",
+        "name": "Apple iPhone 13 (128 GB) - Gece Yarısı",
+        "colorName": "Gece Yarısı (Midnight)",
+        "colorHex": "#1C232B",
+        "image": "/images/phones/apple/iphone-13-midnight.jpg",
+        "price": 37999,
+        "color": "Gece Yarısı"
+      },
+      {
+        "id": "apple-apple-iphone-13-128-gb-717135-yildiz",
+        "name": "Apple iPhone 13 (128 GB) - Yıldız Işığı",
+        "colorName": "Yıldız Işığı (Starlight)",
+        "colorHex": "#F9F6EF",
+        "image": "/images/phones/apple/iphone-13-starlight.jpg",
+        "price": 37999,
+        "color": "Yıldız Işığı"
+      },
+      {
+        "id": "apple-apple-iphone-13-128-gb-717135-mavi",
+        "name": "Apple iPhone 13 (128 GB) - Mavi",
+        "colorName": "Mavi (Blue)",
+        "colorHex": "#275A7A",
+        "image": "/images/phones/apple/iphone-13-blue.jpg",
+        "price": 37999,
+        "color": "Mavi"
+      },
+      {
+        "id": "apple-apple-iphone-13-128-gb-717135-pembe",
+        "name": "Apple iPhone 13 (128 GB) - Pembe",
+        "colorName": "Pembe (Pink)",
+        "colorHex": "#FAE0D8",
+        "image": "/images/phones/apple/iphone-13-pink.jpg",
+        "price": 37999,
+        "color": "Pembe"
+      }
+    ]
   }
 ]
