@@ -41150,19 +41150,19 @@
   {
     "id": "tecno-tecno-spark-40-pro-2",
     "slug": "tecno-spark-40-pro",
-    "name": "Tecno Spark 40 Pro",
+    "name": "Tecno Spark 40 Pro (256 GB)",
     "brand": "Tecno",
     "category": "smartphones",
     "rating": 4.2,
     "reviewCount": 275,
-    "basePrice": 12619,
+    "basePrice": 14999,
     "currency": "TL",
     "releaseYear": 2025,
     "isPopular": true,
     "isFeatured": true,
-    "image": "/images/phones/tecno/spark-50-5g-black.png",
+    "image": "/images/phones/tecno/tecno-spark-40-5g.jpg",
     "images": [
-      "/images/phones/tecno/spark-50-5g-black.png"
+      "/images/phones/tecno/tecno-spark-40-5g.jpg"
     ],
     "highlights": [
       "108 MP Ana Kamera Sistemi",
@@ -41174,19 +41174,33 @@
       "Fiyat Performans"
     ],
     "specs": {
+      "screenSize": 6.78,
+      "screenResolution": "2436 x 1080 px (FHD+)",
+      "displayType": "AMOLED (120Hz)",
+      "chipset": "MediaTek Helio G99 Ultimate",
+      "cpuCores": 8,
+      "ram": 8,
+      "storage": 256,
+      "batteryCapacity": 5000,
+      "chargingSpeed": 33,
+      "mainCamera": "108 MP (f/1.8) + 2 MP Derinlik",
+      "frontCamera": "32 MP",
+      "operatingSystem": "HiOS 14 (Android 14)",
+      "has5G": false,
+      "waterResistance": "IP54",
       "screen": {
-        "size": "6.78 inç",
-        "type": "IPS LCD",
-        "resolution": "2460 x 1080",
+        "size": "6.78\"",
+        "type": "AMOLED",
+        "resolution": "2436 x 1080 px",
         "refreshRate": 120,
-        "ppi": 396,
-        "brightnessNits": 800
+        "ppi": 393,
+        "brightnessNits": 1000
       },
       "processor": {
-        "chip": "MediaTek Helio Octa-Core",
+        "chip": "MediaTek Helio G99 Ultimate",
         "cores": "8 Çekirdek",
         "process": "6nm",
-        "antutuScore": 320000
+        "antutuScore": 430000
       },
       "memory": {
         "ramGb": 8,
@@ -41198,34 +41212,18 @@
         "expandableStorage": true
       },
       "camera": {
-        "mainMp": "108 MP",
-        "ultrawideMp": "2 MP Derinlik Sensörü",
-        "selfieMp": "16 MP AI Ön Kamera",
-        "videoRes": "1080p @ 60fps",
-        "dxomarkScore": 105
+        "mainMp": "108 MP (f/1.8)",
+        "ultrawideMp": "Yok",
+        "telephotoMp": "Yok",
+        "selfieMp": "32 MP AI Ön Kamera",
+        "videoRes": "1440p @ 30fps / 1080p @ 60fps",
+        "dxomarkScore": 110
       },
       "battery": {
         "capacitymAh": 5000,
         "chargingWatts": 33,
         "wirelessCharging": false,
         "reverseWireless": false
-      },
-      "connectivity": {
-        "has5G": false,
-        "wifiStandard": "Wi-Fi 5",
-        "bluetooth": "5.2",
-        "hasNFC": true,
-        "hasesim": false
-      },
-      "build": {
-        "weightGrams": 190,
-        "thicknessMm": 7.9,
-        "waterResistance": "IP54",
-        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
-      },
-      "software": {
-        "osName": "Android (HiOS)",
-        "updateYears": 2
       }
     },
     "storeOffers": [
@@ -41315,7 +41313,7 @@
         "price": 12619
       }
     ],
-    "price": 12999,
+    "price": 14999,
     "priceFormatted": "12.999 TL",
     "pros": [
       "Fiyat / performans dengesi",
@@ -41324,24 +41322,57 @@
     ],
     "cons": [
       "Kutudan hızlı şarj adaptörü çıkmayabilir"
+    ],
+    "gallery": [
+      "/images/phones/tecno/tecno-spark-40-5g.jpg"
+    ],
+    "colorOptions": [
+      {
+        "name": "Siyah",
+        "hex": "#1E1E20",
+        "image": "/images/phones/tecno/tecno-spark-40-5g.jpg"
+      },
+      {
+        "name": "Titanyum",
+        "hex": "#87888C",
+        "image": "/images/phones/tecno/tecno-spark-40-5g.jpg"
+      }
+    ],
+    "variants": [
+      {
+        "id": "tecno-spark-40-pro-256gb-siyah",
+        "name": "Tecno Spark 40 Pro 8/256 GB - Siyah",
+        "colorName": "Siyah",
+        "colorHex": "#1E1E20",
+        "image": "/images/phones/tecno/tecno-spark-40-5g.jpg",
+        "price": 14999
+      },
+      {
+        "id": "tecno-spark-40-pro-256gb-titanyum",
+        "name": "Tecno Spark 40 Pro 8/256 GB - Titanyum",
+        "colorName": "Titanyum",
+        "colorHex": "#87888C",
+        "image": "/images/phones/tecno/tecno-spark-40-5g.jpg",
+        "price": 14999
+      }
     ]
   },
   {
     "id": "tecno-tecno-spark-40-4g",
     "slug": "tecno-spark-40-4g",
-    "name": "Tecno Spark 40 4G",
+    "name": "Tecno Spark 40 (256 GB)",
     "brand": "Tecno",
     "category": "smartphones",
     "rating": 4.1,
     "reviewCount": 274,
-    "basePrice": 8739,
+    "basePrice": 12999,
     "currency": "TL",
     "releaseYear": 2025,
     "isPopular": true,
     "isFeatured": true,
-    "image": "/images/phones/tecno/spark-50-5g-black.png",
+    "image": "/images/phones/tecno/tecno-spark-40-5g.jpg",
     "images": [
-      "/images/phones/tecno/spark-50-5g-black.png"
+      "/images/phones/tecno/tecno-spark-40-5g.jpg"
     ],
     "highlights": [
       "50 MP AI Ana Kamera Sistemi",
@@ -41353,58 +41384,56 @@
       "Fiyat Performans"
     ],
     "specs": {
+      "screenSize": 6.67,
+      "screenResolution": "2400 x 1080 px (FHD+)",
+      "displayType": "IPS LCD (120Hz)",
+      "chipset": "MediaTek Helio G91",
+      "cpuCores": 8,
+      "ram": 8,
+      "storage": 256,
+      "batteryCapacity": 5000,
+      "chargingSpeed": 18,
+      "mainCamera": "50 MP (f/1.6) + AI Lens",
+      "frontCamera": "13 MP",
+      "operatingSystem": "HiOS 14 (Android 14)",
+      "has5G": false,
+      "waterResistance": "IP53",
       "screen": {
-        "size": "6.78 inç",
+        "size": "6.67\"",
         "type": "IPS LCD",
-        "resolution": "2460 x 1080",
+        "resolution": "2400 x 1080 px",
         "refreshRate": 120,
-        "ppi": 396,
+        "ppi": 395,
         "brightnessNits": 800
       },
       "processor": {
-        "chip": "MediaTek Helio Octa-Core",
+        "chip": "MediaTek Helio G91",
         "cores": "8 Çekirdek",
-        "process": "6nm",
-        "antutuScore": 320000
+        "process": "12nm",
+        "antutuScore": 280000
       },
       "memory": {
         "ramGb": 8,
         "ramType": "LPDDR4X",
-        "storageGb": 128,
+        "storageGb": 256,
         "storageOptions": [
-          128
+          256
         ],
         "expandableStorage": true
       },
       "camera": {
-        "mainMp": "50 MP AI",
-        "ultrawideMp": "2 MP Derinlik Sensörü",
-        "selfieMp": "16 MP AI Ön Kamera",
-        "videoRes": "1080p @ 60fps",
-        "dxomarkScore": 105
+        "mainMp": "50 MP (f/1.6)",
+        "ultrawideMp": "Yok",
+        "telephotoMp": "Yok",
+        "selfieMp": "13 MP AI Ön Kamera",
+        "videoRes": "1080p @ 30fps",
+        "dxomarkScore": 98
       },
       "battery": {
         "capacitymAh": 5000,
-        "chargingWatts": 33,
+        "chargingWatts": 18,
         "wirelessCharging": false,
         "reverseWireless": false
-      },
-      "connectivity": {
-        "has5G": false,
-        "wifiStandard": "Wi-Fi 5",
-        "bluetooth": "5.2",
-        "hasNFC": true,
-        "hasesim": false
-      },
-      "build": {
-        "weightGrams": 190,
-        "thicknessMm": 7.9,
-        "waterResistance": "IP54",
-        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
-      },
-      "software": {
-        "osName": "Android (HiOS)",
-        "updateYears": 2
       }
     },
     "storeOffers": [
@@ -41494,7 +41523,7 @@
         "price": 8739
       }
     ],
-    "price": 8999,
+    "price": 12999,
     "priceFormatted": "8.999 TL",
     "pros": [
       "Fiyat / performans dengesi",
@@ -41503,6 +41532,39 @@
     ],
     "cons": [
       "Kutudan hızlı şarj adaptörü çıkmayabilir"
+    ],
+    "gallery": [
+      "/images/phones/tecno/tecno-spark-40-5g.jpg"
+    ],
+    "colorOptions": [
+      {
+        "name": "Siyah",
+        "hex": "#1C1D21",
+        "image": "/images/phones/tecno/tecno-spark-40-5g.jpg"
+      },
+      {
+        "name": "Titanyum Gri",
+        "hex": "#6E727A",
+        "image": "/images/phones/tecno/tecno-spark-40-5g.jpg"
+      }
+    ],
+    "variants": [
+      {
+        "id": "tecno-spark-40-256gb-siyah",
+        "name": "Tecno Spark 40 8/256 GB - Siyah",
+        "colorName": "Siyah",
+        "colorHex": "#1C1D21",
+        "image": "/images/phones/tecno/tecno-spark-40-5g.jpg",
+        "price": 12999
+      },
+      {
+        "id": "tecno-spark-40-256gb-titanyum-gri",
+        "name": "Tecno Spark 40 8/256 GB - Titanyum Gri",
+        "colorName": "Titanyum Gri",
+        "colorHex": "#6E727A",
+        "image": "/images/phones/tecno/tecno-spark-40-5g.jpg",
+        "price": 12999
+      }
     ]
   },
   {
@@ -128275,5 +128337,2132 @@
       }
     },
     "isLatestModel": true
+  },
+  {
+    "id": "tecno-camon-50-ultra-5g-12-256gb",
+    "slug": "tecno-camon-50-ultra-5g-12-256-gb",
+    "name": "Tecno Camon 50 Ultra 5G (12/256 GB)",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "basePrice": 39999,
+    "price": 39999,
+    "currency": "TL",
+    "rating": 4.8,
+    "reviewCount": 165,
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "MediaTek Dimensity 8300 Yonga Seti (4nm Amiral Gemisi Gücü)",
+      "6.78\" 144Hz 1.5K Kavisli AMOLED Ekran (1500 Nit)",
+      "50 MP OIS Sony Ana Sensör + 50 MP Periskop Telefoto (3x Optik)",
+      "50 MP Otomatik Odaklamalı Ultra Net Selfie Kamera",
+      "5000 mAh Batarya & 70W Ultra Hızlı Şarj"
+    ],
+    "pros": [
+      "3x optik periskop telefoto ile olağanüstü portre ve zoom kalitesi",
+      "144Hz akıcı 1.5K AMOLED panel ve ince kavisli çerçeveler",
+      "12 GB LPDDR5X RAM ile kesintisiz çoklu görev performansı",
+      "Premium titanyum ve cam gövde tasarımı"
+    ],
+    "cons": [
+      "Kablosuz şarj desteği bulunmuyor"
+    ],
+    "image": "/images/phones/tecno/tecno-camon-50-ultra-5g.png",
+    "images": [
+      "/images/phones/tecno/tecno-camon-50-ultra-5g.png"
+    ],
+    "gallery": [
+      "/images/phones/tecno/tecno-camon-50-ultra-5g.png",
+      "/images/phones/tecno/camon-50-ultra-grey.png",
+      "/images/phones/tecno/camon-50-ultra-white.png"
+    ],
+    "colorOptions": [
+      {
+        "name": "Titanyum",
+        "hex": "#87888C",
+        "image": "/images/phones/tecno/camon-50-ultra-grey.png"
+      },
+      {
+        "name": "Siyah",
+        "hex": "#1C1C1E",
+        "image": "/images/phones/tecno/tecno-camon-50-ultra-5g.png"
+      }
+    ],
+    "variants": [
+      {
+        "id": "tecno-camon-50-ultra-12-256gb-titanyum",
+        "name": "Tecno Camon 50 Ultra 5G 12/256 GB - Titanyum",
+        "colorName": "Titanyum",
+        "colorHex": "#87888C",
+        "image": "/images/phones/tecno/camon-50-ultra-grey.png",
+        "price": 39999
+      },
+      {
+        "id": "tecno-camon-50-ultra-12-256gb-siyah",
+        "name": "Tecno Camon 50 Ultra 5G 12/256 GB - Siyah",
+        "colorName": "Siyah",
+        "colorHex": "#1C1C1E",
+        "image": "/images/phones/tecno/tecno-camon-50-ultra-5g.png",
+        "price": 39999
+      }
+    ],
+    "storeOffers": [
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 39999,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/tecno-camon-50-ultra-5g-12-256gb-akilli-telefon-titanyum.html"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 39799,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno+Camon+50+Ultra+5G"
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 39899,
+        "inStock": true,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Camon%2050%20Ultra"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 39999,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Tecno%20Camon%2050%20Ultra"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "Mayıs 2026",
+        "price": 42999
+      },
+      {
+        "date": "Haziran 2026",
+        "price": 41999
+      },
+      {
+        "date": "Temmuz 2026",
+        "price": 40999
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 39999
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 39999
+      }
+    ],
+    "specs": {
+      "screenSize": 6.78,
+      "screenResolution": "2712 x 1220 px (1.5K)",
+      "displayType": "AMOLED (144Hz)",
+      "chipset": "MediaTek Dimensity 8300",
+      "cpuCores": 8,
+      "ram": 12,
+      "storage": 256,
+      "batteryCapacity": 5000,
+      "chargingSpeed": 70,
+      "mainCamera": "50 MP OIS + 50 MP Periskop Telefoto (3x) + 50 MP Ultra Geniş",
+      "frontCamera": "50 MP AF",
+      "operatingSystem": "HiOS 14 (Android 14)",
+      "has5G": true,
+      "waterResistance": "IP68",
+      "screen": {
+        "size": "6.78\"",
+        "type": "AMOLED",
+        "resolution": "2712 x 1220 px (1.5K)",
+        "refreshRate": 144,
+        "ppi": 440,
+        "brightnessNits": 1500
+      },
+      "processor": {
+        "chip": "MediaTek Dimensity 8300",
+        "cores": "8 Çekirdek",
+        "process": "4nm",
+        "antutuScore": 1350000
+      },
+      "memory": {
+        "ramGb": 12,
+        "ramType": "LPDDR5X",
+        "storageGb": 256,
+        "storageOptions": [
+          256
+        ],
+        "expandableStorage": false
+      },
+      "camera": {
+        "mainMp": "50 MP (f/1.6, OIS)",
+        "ultrawideMp": "50 MP (f/2.2, 114°)",
+        "telephotoMp": "50 MP (f/2.4, 3x Optik, OIS)",
+        "selfieMp": "50 MP AF Ön Kamera",
+        "videoRes": "4K @ 60fps / 1080p @ 120fps",
+        "dxomarkScore": 138
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 70,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      }
+    }
+  },
+  {
+    "id": "tecno-camon-50-ultra-5g-8-256gb",
+    "slug": "tecno-camon-50-ultra-5g-8-256-gb",
+    "name": "Tecno Camon 50 Ultra 5G (8/256 GB)",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "basePrice": 34999,
+    "price": 34999,
+    "currency": "TL",
+    "rating": 4.7,
+    "reviewCount": 140,
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "MediaTek Dimensity 8300 Yonga Seti (4nm)",
+      "6.78\" 144Hz 1.5K Kavisli AMOLED Ekran (1500 Nit)",
+      "50 MP OIS Üçlü Profesyonel Stüdyo Kamera Sistemi",
+      "50 MP Otomatik Odaklamalı Portre Ön Kamerası",
+      "5000 mAh Batarya & 70W Ultra Hızlı Şarj"
+    ],
+    "pros": [
+      "Amiral gemisi seviyesi fotoğraf ve video kalitesi",
+      "144Hz ekran yenileme ile kusursuz akıcılık",
+      "Göz alıcı titanyum ve siyah renk seçenekleri"
+    ],
+    "cons": [
+      "Kablosuz şarj desteği yok"
+    ],
+    "image": "/images/phones/tecno/tecno-camon-50-ultra-5g.png",
+    "images": [
+      "/images/phones/tecno/tecno-camon-50-ultra-5g.png"
+    ],
+    "gallery": [
+      "/images/phones/tecno/tecno-camon-50-ultra-5g.png",
+      "/images/phones/tecno/camon-50-ultra-grey.png"
+    ],
+    "colorOptions": [
+      {
+        "name": "Titanyum",
+        "hex": "#87888C",
+        "image": "/images/phones/tecno/camon-50-ultra-grey.png"
+      },
+      {
+        "name": "Siyah",
+        "hex": "#1C1C1E",
+        "image": "/images/phones/tecno/tecno-camon-50-ultra-5g.png"
+      }
+    ],
+    "variants": [
+      {
+        "id": "tecno-camon-50-ultra-8-256gb-titanyum",
+        "name": "Tecno Camon 50 Ultra 5G 8/256 GB - Titanyum",
+        "colorName": "Titanyum",
+        "colorHex": "#87888C",
+        "image": "/images/phones/tecno/camon-50-ultra-grey.png",
+        "price": 34999
+      },
+      {
+        "id": "tecno-camon-50-ultra-8-256gb-siyah",
+        "name": "Tecno Camon 50 Ultra 5G 8/256 GB - Siyah",
+        "colorName": "Siyah",
+        "colorHex": "#1C1C1E",
+        "image": "/images/phones/tecno/tecno-camon-50-ultra-5g.png",
+        "price": 34999
+      }
+    ],
+    "storeOffers": [
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 34999,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/tecno-camon-50-ultra-5g-8-256gb-akilli-telefon-siyah.html"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 34799,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno+Camon+50+Ultra+8+256"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "Mayıs 2026",
+        "price": 37999
+      },
+      {
+        "date": "Haziran 2026",
+        "price": 36999
+      },
+      {
+        "date": "Temmuz 2026",
+        "price": 35999
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 34999
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 34999
+      }
+    ],
+    "specs": {
+      "screenSize": 6.78,
+      "screenResolution": "2712 x 1220 px (1.5K)",
+      "displayType": "AMOLED (144Hz)",
+      "chipset": "MediaTek Dimensity 8300",
+      "cpuCores": 8,
+      "ram": 8,
+      "storage": 256,
+      "batteryCapacity": 5000,
+      "chargingSpeed": 70,
+      "mainCamera": "50 MP OIS + 50 MP Periskop Telefoto (3x) + 50 MP Ultra Geniş",
+      "frontCamera": "50 MP AF",
+      "operatingSystem": "HiOS 14 (Android 14)",
+      "has5G": true,
+      "waterResistance": "IP68",
+      "screen": {
+        "size": "6.78\"",
+        "type": "AMOLED",
+        "resolution": "2712 x 1220 px (1.5K)",
+        "refreshRate": 144,
+        "ppi": 440,
+        "brightnessNits": 1500
+      },
+      "processor": {
+        "chip": "MediaTek Dimensity 8300",
+        "cores": "8 Çekirdek",
+        "process": "4nm",
+        "antutuScore": 1350000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR5X",
+        "storageGb": 256,
+        "storageOptions": [
+          256
+        ],
+        "expandableStorage": false
+      },
+      "camera": {
+        "mainMp": "50 MP (f/1.6, OIS)",
+        "ultrawideMp": "50 MP (f/2.2, 114°)",
+        "telephotoMp": "50 MP (f/2.4, 3x Optik, OIS)",
+        "selfieMp": "50 MP AF Ön Kamera",
+        "videoRes": "4K @ 60fps / 1080p @ 120fps",
+        "dxomarkScore": 138
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 70,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      }
+    }
+  },
+  {
+    "id": "tecno-camon-50-8-256gb",
+    "slug": "tecno-camon-50-8-256-gb",
+    "name": "Tecno Camon 50 (8/256 GB)",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "basePrice": 22999,
+    "price": 22999,
+    "currency": "TL",
+    "rating": 4.6,
+    "reviewCount": 180,
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "MediaTek Helio G100 Güçlü 6nm İşlemci",
+      "6.78\" 120Hz FHD+ Canlı AMOLED Ekran",
+      "50 MP OIS Ultra Net Ana Kamera",
+      "50 MP Portre Ön Kamera ile Stüdyo Çekimleri",
+      "5000 mAh Pil & 45W Hızlı Şarj"
+    ],
+    "pros": [
+      "Geniş ve canlı 120Hz AMOLED ekran",
+      "Optik İmaj Sabitleyicili (OIS) 50 MP ana kamera",
+      "Şık ve ergonomik ince kasa yapısı"
+    ],
+    "cons": [
+      "5G bağlantı desteği bulunmuyor"
+    ],
+    "image": "/images/phones/tecno/tecno-camon-50.png",
+    "images": [
+      "/images/phones/tecno/tecno-camon-50.png"
+    ],
+    "gallery": [
+      "/images/phones/tecno/tecno-camon-50.png",
+      "/images/phones/tecno/camon-50-white.png",
+      "/images/phones/tecno/camon-50-black.png"
+    ],
+    "colorOptions": [
+      {
+        "name": "Siyah",
+        "hex": "#202124",
+        "image": "/images/phones/tecno/camon-50-black.png"
+      },
+      {
+        "name": "Titanyum",
+        "hex": "#9E9FA5",
+        "image": "/images/phones/tecno/camon-50-white.png"
+      }
+    ],
+    "variants": [
+      {
+        "id": "tecno-camon-50-8-256gb-siyah",
+        "name": "Tecno Camon 50 8/256 GB - Siyah",
+        "colorName": "Siyah",
+        "colorHex": "#202124",
+        "image": "/images/phones/tecno/camon-50-black.png",
+        "price": 22999
+      },
+      {
+        "id": "tecno-camon-50-8-256gb-titanyum",
+        "name": "Tecno Camon 50 8/256 GB - Titanyum",
+        "colorName": "Titanyum",
+        "colorHex": "#9E9FA5",
+        "image": "/images/phones/tecno/camon-50-white.png",
+        "price": 22999
+      }
+    ],
+    "storeOffers": [
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 22999,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/tecno-camon-50-8-256gb-akilli-telefon-siyah.html"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 22799,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno+Camon+50+256+GB"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "Mayıs 2026",
+        "price": 24999
+      },
+      {
+        "date": "Haziran 2026",
+        "price": 23999
+      },
+      {
+        "date": "Temmuz 2026",
+        "price": 23499
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 22999
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 22999
+      }
+    ],
+    "specs": {
+      "screenSize": 6.78,
+      "screenResolution": "2436 x 1080 px (FHD+)",
+      "displayType": "AMOLED (120Hz)",
+      "chipset": "MediaTek Helio G100",
+      "cpuCores": 8,
+      "ram": 8,
+      "storage": 256,
+      "batteryCapacity": 5000,
+      "chargingSpeed": 45,
+      "mainCamera": "50 MP (f/1.8, OIS) + 2 MP Derinlik",
+      "frontCamera": "50 MP",
+      "operatingSystem": "HiOS 14 (Android 14)",
+      "has5G": false,
+      "waterResistance": "IP54",
+      "screen": {
+        "size": "6.78\"",
+        "type": "AMOLED",
+        "resolution": "2436 x 1080 px",
+        "refreshRate": 120,
+        "ppi": 393,
+        "brightnessNits": 1300
+      },
+      "processor": {
+        "chip": "MediaTek Helio G100",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 435000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR4X",
+        "storageGb": 256,
+        "storageOptions": [
+          256
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "50 MP (f/1.8, OIS)",
+        "ultrawideMp": "Yok",
+        "telephotoMp": "Yok",
+        "selfieMp": "50 MP Ön Kamera",
+        "videoRes": "1440p @ 30fps / 1080p @ 60fps",
+        "dxomarkScore": 116
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 45,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      }
+    }
+  },
+  {
+    "id": "tecno-camon-40-pro-5g-8-256gb",
+    "slug": "tecno-camon-40-pro-5g-8-256-gb",
+    "name": "Tecno Camon 40 Pro 5G (8/256 GB)",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "basePrice": 24999,
+    "price": 24999,
+    "currency": "TL",
+    "rating": 4.7,
+    "reviewCount": 220,
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "MediaTek Dimensity 7020 5G Yonga Seti",
+      "6.78\" 144Hz Kavisli AMOLED Ekran",
+      "50 MP OIS Sony IMX890 Ana Kamera",
+      "50 MP Ultra Geniş & 50 MP Portre Ön Kamera",
+      "5000 mAh Batarya & 70W Ultra Şarj"
+    ],
+    "pros": [
+      "Gelişmiş gece modu ve Sony sensör ile mükemmel fotoğraflar",
+      "144Hz yenileme hızlı canlı AMOLED ekran",
+      "70W hızlı şarj ile yaklaşık 40 dakikada tam dolum"
+    ],
+    "cons": [
+      "MicroSD kart yuvası yok"
+    ],
+    "image": "/images/phones/tecno/tecno-camon-40-pro-5g.jpg",
+    "images": [
+      "/images/phones/tecno/tecno-camon-40-pro-5g.jpg"
+    ],
+    "gallery": [
+      "/images/phones/tecno/tecno-camon-40-pro-5g.jpg"
+    ],
+    "colorOptions": [
+      {
+        "name": "Buzul Beyazı",
+        "hex": "#F0F4F8",
+        "image": "/images/phones/tecno/tecno-camon-40-pro-5g.jpg"
+      },
+      {
+        "name": "Gece Siyahı",
+        "hex": "#1C1D21",
+        "image": "/images/phones/tecno/tecno-camon-40-pro-5g.jpg"
+      }
+    ],
+    "variants": [
+      {
+        "id": "tecno-camon-40-pro-5g-8-256gb-buzul-beyazi",
+        "name": "Tecno Camon 40 Pro 5G 8/256 GB - Buzul Beyazı",
+        "colorName": "Buzul Beyazı",
+        "colorHex": "#F0F4F8",
+        "image": "/images/phones/tecno/tecno-camon-40-pro-5g.jpg",
+        "price": 24999
+      },
+      {
+        "id": "tecno-camon-40-pro-5g-8-256gb-gece-siyahi",
+        "name": "Tecno Camon 40 Pro 5G 8/256 GB - Gece Siyahı",
+        "colorName": "Gece Siyahı",
+        "colorHex": "#1C1D21",
+        "image": "/images/phones/tecno/tecno-camon-40-pro-5g.jpg",
+        "price": 24999
+      }
+    ],
+    "storeOffers": [
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 24999,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/tecno-camon-40-pro-5g-8-256gb-akilli-telefon-buzul-beyazi.html"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 24799,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno+Camon+40+Pro+5G"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "Mayıs 2026",
+        "price": 26999
+      },
+      {
+        "date": "Haziran 2026",
+        "price": 25999
+      },
+      {
+        "date": "Temmuz 2026",
+        "price": 25499
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 24999
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 24999
+      }
+    ],
+    "specs": {
+      "screenSize": 6.78,
+      "screenResolution": "2436 x 1080 px (FHD+)",
+      "displayType": "AMOLED (144Hz)",
+      "chipset": "MediaTek Dimensity 7020 5G",
+      "cpuCores": 8,
+      "ram": 8,
+      "storage": 256,
+      "batteryCapacity": 5000,
+      "chargingSpeed": 70,
+      "mainCamera": "50 MP (f/1.9, OIS) + 50 MP Ultra Geniş + 2 MP",
+      "frontCamera": "50 MP AF",
+      "operatingSystem": "HiOS 14 (Android 14)",
+      "has5G": true,
+      "waterResistance": "IP54",
+      "screen": {
+        "size": "6.78\"",
+        "type": "AMOLED",
+        "resolution": "2436 x 1080 px",
+        "refreshRate": 144,
+        "ppi": 393,
+        "brightnessNits": 1300
+      },
+      "processor": {
+        "chip": "MediaTek Dimensity 7020 5G",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 470000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR4X",
+        "storageGb": 256,
+        "storageOptions": [
+          256
+        ],
+        "expandableStorage": false
+      },
+      "camera": {
+        "mainMp": "50 MP (f/1.9, OIS)",
+        "ultrawideMp": "50 MP (114°)",
+        "telephotoMp": "Yok",
+        "selfieMp": "50 MP AF Ön Kamera",
+        "videoRes": "4K @ 30fps / 1080p @ 60fps",
+        "dxomarkScore": 124
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 70,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      }
+    }
+  },
+  {
+    "id": "tecno-camon-40-8-256gb",
+    "slug": "tecno-camon-40-8-256-gb",
+    "name": "Tecno Camon 40 (8/256 GB)",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "basePrice": 17999,
+    "price": 17999,
+    "currency": "TL",
+    "rating": 4.5,
+    "reviewCount": 150,
+    "releaseYear": 2025,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "MediaTek Helio G99 Ultimate 6nm Yonga Seti",
+      "6.78\" 120Hz AMOLED Ekran",
+      "50 MP OIS Ana Kamera & 50 MP Portre Ön Kamera",
+      "5000 mAh Batarya & 45W Hızlı Şarj",
+      "Stereo Hoparlör & Dolby Atmos Ses Desteği"
+    ],
+    "pros": [
+      "Fiyatına göre üstün AMOLED ekran kalitesi",
+      "OIS destekli net fotoğraf çekimleri",
+      "Uzun pil ömrü ve 45W adaptör kutu içeriği"
+    ],
+    "cons": [
+      "5G desteği yok"
+    ],
+    "image": "/images/phones/tecno/tecno-camon-40.jpg",
+    "images": [
+      "/images/phones/tecno/tecno-camon-40.jpg"
+    ],
+    "gallery": [
+      "/images/phones/tecno/tecno-camon-40.jpg"
+    ],
+    "colorOptions": [
+      {
+        "name": "Siyah",
+        "hex": "#212124",
+        "image": "/images/phones/tecno/tecno-camon-40.jpg"
+      },
+      {
+        "name": "Gümüş",
+        "hex": "#D8D9DD",
+        "image": "/images/phones/tecno/tecno-camon-40.jpg"
+      }
+    ],
+    "variants": [
+      {
+        "id": "tecno-camon-40-8-256gb-siyah",
+        "name": "Tecno Camon 40 8/256 GB - Siyah",
+        "colorName": "Siyah",
+        "colorHex": "#212124",
+        "image": "/images/phones/tecno/tecno-camon-40.jpg",
+        "price": 17999
+      },
+      {
+        "id": "tecno-camon-40-8-256gb-gumus",
+        "name": "Tecno Camon 40 8/256 GB - Gümüş",
+        "colorName": "Gümüş",
+        "colorHex": "#D8D9DD",
+        "image": "/images/phones/tecno/tecno-camon-40.jpg",
+        "price": 17999
+      }
+    ],
+    "storeOffers": [
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 17999,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/tecno-camon-40-8-256gb-akilli-telefon.html"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 17799,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno+Camon+40+256+GB"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "Mayıs 2026",
+        "price": 19999
+      },
+      {
+        "date": "Haziran 2026",
+        "price": 18999
+      },
+      {
+        "date": "Temmuz 2026",
+        "price": 18499
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 17999
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 17999
+      }
+    ],
+    "specs": {
+      "screenSize": 6.78,
+      "screenResolution": "2436 x 1080 px (FHD+)",
+      "displayType": "AMOLED (120Hz)",
+      "chipset": "MediaTek Helio G99 Ultimate",
+      "cpuCores": 8,
+      "ram": 8,
+      "storage": 256,
+      "batteryCapacity": 5000,
+      "chargingSpeed": 45,
+      "mainCamera": "50 MP (f/1.9, OIS) + 2 MP Derinlik",
+      "frontCamera": "50 MP",
+      "operatingSystem": "HiOS 14 (Android 14)",
+      "has5G": false,
+      "waterResistance": "IP54",
+      "screen": {
+        "size": "6.78\"",
+        "type": "AMOLED",
+        "resolution": "2436 x 1080 px",
+        "refreshRate": 120,
+        "ppi": 393,
+        "brightnessNits": 1300
+      },
+      "processor": {
+        "chip": "MediaTek Helio G99 Ultimate",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 425000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR4X",
+        "storageGb": 256,
+        "storageOptions": [
+          256
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "50 MP (f/1.9, OIS)",
+        "ultrawideMp": "Yok",
+        "telephotoMp": "Yok",
+        "selfieMp": "50 MP Ön Kamera",
+        "videoRes": "1440p @ 30fps / 1080p @ 60fps",
+        "dxomarkScore": 112
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 45,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      }
+    }
+  },
+  {
+    "id": "tecno-pova-curve-2-5g-8-256gb",
+    "slug": "tecno-pova-curve-2-5g-8-256-gb",
+    "name": "Tecno Pova Curve 2 5G (8/256 GB)",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "basePrice": 21999,
+    "price": 21999,
+    "currency": "TL",
+    "rating": 4.7,
+    "reviewCount": 195,
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "MediaTek Dimensity 7300 Energy 5G İşlemci (4nm)",
+      "6.78\" 120Hz Kavisli 3D AMOLED Ekran (1300 Nit)",
+      "6000 mAh Devasa Batarya & 70W Ultra Hızlı Şarj",
+      "50 MP OIS Ultra Net Ana Kamera",
+      "Fütüristik Dinamik Işıklandırma ve Oyun Tasarımı"
+    ],
+    "pros": [
+      "6000 mAh batarya ile olağanüstü 2 günlük kullanım",
+      "70W şarj gücü ile devasa bataryayı hızla doldurma",
+      "Kavisli 3D AMOLED ekran ile premium el hissiyatı",
+      "Dimensity 7300 ile yüksek FPS oyun performansı"
+    ],
+    "cons": [
+      "Gövde kalınlığı bataryadan ötürü biraz belirgin"
+    ],
+    "image": "/images/phones/tecno/tecno-pova-curve-2-5g.png",
+    "images": [
+      "/images/phones/tecno/tecno-pova-curve-2-5g.png"
+    ],
+    "gallery": [
+      "/images/phones/tecno/tecno-pova-curve-2-5g.png",
+      "/images/phones/tecno/pova-curve-2-dark.png",
+      "/images/phones/tecno/pova-curve-2-silver.png",
+      "/images/phones/tecno/pova-curve-2-violet.png"
+    ],
+    "colorOptions": [
+      {
+        "name": "Titanyum",
+        "hex": "#636569",
+        "image": "/images/phones/tecno/pova-curve-2-dark.png"
+      },
+      {
+        "name": "Gümüş",
+        "hex": "#D7D8DD",
+        "image": "/images/phones/tecno/pova-curve-2-silver.png"
+      },
+      {
+        "name": "Mor",
+        "hex": "#7D619B",
+        "image": "/images/phones/tecno/pova-curve-2-violet.png"
+      }
+    ],
+    "variants": [
+      {
+        "id": "tecno-pova-curve-2-5g-8-256gb-titanyum",
+        "name": "Tecno Pova Curve 2 5G 8/256 GB - Titanyum",
+        "colorName": "Titanyum",
+        "colorHex": "#636569",
+        "image": "/images/phones/tecno/pova-curve-2-dark.png",
+        "price": 21999
+      },
+      {
+        "id": "tecno-pova-curve-2-5g-8-256gb-gumus",
+        "name": "Tecno Pova Curve 2 5G 8/256 GB - Gümüş",
+        "colorName": "Gümüş",
+        "colorHex": "#D7D8DD",
+        "image": "/images/phones/tecno/pova-curve-2-silver.png",
+        "price": 21999
+      },
+      {
+        "id": "tecno-pova-curve-2-5g-8-256gb-mor",
+        "name": "Tecno Pova Curve 2 5G 8/256 GB - Mor",
+        "colorName": "Mor",
+        "colorHex": "#7D619B",
+        "image": "/images/phones/tecno/pova-curve-2-violet.png",
+        "price": 21999
+      }
+    ],
+    "storeOffers": [
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 21999,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/tecno-pova-curve-2-5g-8-256gb-akilli-telefon-titanyum.html"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 21799,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno+Pova+Curve+2+5G"
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 21899,
+        "inStock": true,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Pova%20Curve%202"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "Mayıs 2026",
+        "price": 23999
+      },
+      {
+        "date": "Haziran 2026",
+        "price": 22999
+      },
+      {
+        "date": "Temmuz 2026",
+        "price": 22499
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 21999
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 21999
+      }
+    ],
+    "specs": {
+      "screenSize": 6.78,
+      "screenResolution": "2436 x 1080 px (FHD+)",
+      "displayType": "AMOLED (120Hz Kavisli)",
+      "chipset": "MediaTek Dimensity 7300 Energy 5G",
+      "cpuCores": 8,
+      "ram": 8,
+      "storage": 256,
+      "batteryCapacity": 6000,
+      "chargingSpeed": 70,
+      "mainCamera": "50 MP (f/1.8, OIS) + 2 MP Derinlik",
+      "frontCamera": "32 MP",
+      "operatingSystem": "HiOS 14 (Android 14)",
+      "has5G": true,
+      "waterResistance": "IP54",
+      "screen": {
+        "size": "6.78\"",
+        "type": "AMOLED",
+        "resolution": "2436 x 1080 px",
+        "refreshRate": 120,
+        "ppi": 393,
+        "brightnessNits": 1300
+      },
+      "processor": {
+        "chip": "MediaTek Dimensity 7300 Energy 5G",
+        "cores": "8 Çekirdek",
+        "process": "4nm",
+        "antutuScore": 680000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR4X",
+        "storageGb": 256,
+        "storageOptions": [
+          256
+        ],
+        "expandableStorage": false
+      },
+      "camera": {
+        "mainMp": "50 MP (f/1.8, OIS)",
+        "ultrawideMp": "Yok",
+        "telephotoMp": "Yok",
+        "selfieMp": "32 MP Ön Kamera",
+        "videoRes": "4K @ 30fps / 1080p @ 60fps",
+        "dxomarkScore": 118
+      },
+      "battery": {
+        "capacitymAh": 6000,
+        "chargingWatts": 70,
+        "wirelessCharging": false,
+        "reverseWireless": true
+      }
+    }
+  },
+  {
+    "id": "tecno-pova-8-pro-5g-8-256gb",
+    "slug": "tecno-pova-8-pro-5g-8-256-gb",
+    "name": "Tecno Pova 8 Pro 5G (8/256 GB)",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "basePrice": 19999,
+    "price": 19999,
+    "currency": "TL",
+    "rating": 4.6,
+    "reviewCount": 160,
+    "releaseYear": 2026,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "MediaTek Dimensity 7020 5G Yonga Seti",
+      "6.78\" 120Hz Akıcı AMOLED Ekran",
+      "6000 mAh Büyük Pil & 70W Ultra Hızlı Şarj",
+      "108 MP Ultra Net Ana Kamera",
+      "Gamer Temalı Arka LED Bildirim Işıkları"
+    ],
+    "pros": [
+      "6000 mAh batarya ve 70W ultra şarj kombinasyonu",
+      "108 MP kamera ile detaylı manzara çekimleri",
+      "Kapsamlı buhar odası soğutma sistemi"
+    ],
+    "cons": [
+      "Geniş açılı kamera sensörü yok"
+    ],
+    "image": "/images/phones/tecno/tecno-pova-7-pro-5g.jpg",
+    "images": [
+      "/images/phones/tecno/tecno-pova-7-pro-5g.jpg"
+    ],
+    "gallery": [
+      "/images/phones/tecno/tecno-pova-7-pro-5g.jpg"
+    ],
+    "colorOptions": [
+      {
+        "name": "Siyah",
+        "hex": "#1C1D21",
+        "image": "/images/phones/tecno/tecno-pova-7-pro-5g.jpg"
+      },
+      {
+        "name": "Gri",
+        "hex": "#777A82",
+        "image": "/images/phones/tecno/tecno-pova-7-pro-5g.jpg"
+      }
+    ],
+    "variants": [
+      {
+        "id": "tecno-pova-8-pro-5g-8-256gb-siyah",
+        "name": "Tecno Pova 8 Pro 5G 8/256 GB - Siyah",
+        "colorName": "Siyah",
+        "colorHex": "#1C1D21",
+        "image": "/images/phones/tecno/tecno-pova-7-pro-5g.jpg",
+        "price": 19999
+      },
+      {
+        "id": "tecno-pova-8-pro-5g-8-256gb-gri",
+        "name": "Tecno Pova 8 Pro 5G 8/256 GB - Gri",
+        "colorName": "Gri",
+        "colorHex": "#777A82",
+        "image": "/images/phones/tecno/tecno-pova-7-pro-5g.jpg",
+        "price": 19999
+      }
+    ],
+    "storeOffers": [
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 19999,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/tecno-pova-8-pro-5g-8-256gb-akilli-telefon.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "Mayıs 2026",
+        "price": 21999
+      },
+      {
+        "date": "Haziran 2026",
+        "price": 20999
+      },
+      {
+        "date": "Temmuz 2026",
+        "price": 20499
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 19999
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 19999
+      }
+    ],
+    "specs": {
+      "screenSize": 6.78,
+      "screenResolution": "2436 x 1080 px (FHD+)",
+      "displayType": "AMOLED (120Hz)",
+      "chipset": "MediaTek Dimensity 7020 5G",
+      "cpuCores": 8,
+      "ram": 8,
+      "storage": 256,
+      "batteryCapacity": 6000,
+      "chargingSpeed": 70,
+      "mainCamera": "108 MP (f/1.9) + 2 MP Derinlik",
+      "frontCamera": "32 MP",
+      "operatingSystem": "HiOS 14 (Android 14)",
+      "has5G": true,
+      "waterResistance": "IP53",
+      "screen": {
+        "size": "6.78\"",
+        "type": "AMOLED",
+        "resolution": "2436 x 1080 px",
+        "refreshRate": 120,
+        "ppi": 393,
+        "brightnessNits": 1300
+      },
+      "processor": {
+        "chip": "MediaTek Dimensity 7020 5G",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 460000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR4X",
+        "storageGb": 256,
+        "storageOptions": [
+          256
+        ],
+        "expandableStorage": false
+      },
+      "camera": {
+        "mainMp": "108 MP (f/1.9)",
+        "ultrawideMp": "Yok",
+        "telephotoMp": "Yok",
+        "selfieMp": "32 MP Ön Kamera",
+        "videoRes": "1440p @ 30fps / 1080p @ 60fps",
+        "dxomarkScore": 114
+      },
+      "battery": {
+        "capacitymAh": 6000,
+        "chargingWatts": 70,
+        "wirelessCharging": false,
+        "reverseWireless": true
+      }
+    }
+  },
+  {
+    "id": "tecno-spark-50-5g-6-128gb",
+    "slug": "tecno-spark-50-5g-6-128-gb",
+    "name": "Tecno Spark 50 5G (6/128 GB)",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "basePrice": 14999,
+    "price": 14999,
+    "currency": "TL",
+    "rating": 4.6,
+    "reviewCount": 175,
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "MediaTek Dimensity 6300 5G Yonga Seti (6nm)",
+      "6.67\" 120Hz Akıcı Ekran",
+      "50 MP AI Ultra Net Ana Kamera",
+      "5000 mAh Batarya & 18W Hızlı Şarj",
+      "Çift Hoparlör ile Güçlü Stereo Ses"
+    ],
+    "pros": [
+      "Uygun fiyatlı ve kararlı 5G bağlantısı",
+      "120Hz akıcı ekran yenileme hızı",
+      "Korumalı IP54 toza ve su sıçramalarına dayanıklılık"
+    ],
+    "cons": [
+      "HD+ ekran çözünürlüğü"
+    ],
+    "image": "/images/phones/tecno/spark-50-5g-black.png",
+    "images": [
+      "/images/phones/tecno/spark-50-5g-black.png"
+    ],
+    "gallery": [
+      "/images/phones/tecno/spark-50-5g-black.png",
+      "/images/phones/tecno/spark-50-5g-gold.png"
+    ],
+    "colorOptions": [
+      {
+        "name": "Siyah",
+        "hex": "#1E1E22",
+        "image": "/images/phones/tecno/spark-50-5g-black.png"
+      },
+      {
+        "name": "Altın",
+        "hex": "#D1B46A",
+        "image": "/images/phones/tecno/spark-50-5g-gold.png"
+      }
+    ],
+    "variants": [
+      {
+        "id": "tecno-spark-50-5g-6-128gb-siyah",
+        "name": "Tecno Spark 50 5G 6/128 GB - Siyah",
+        "colorName": "Siyah",
+        "colorHex": "#1E1E22",
+        "image": "/images/phones/tecno/spark-50-5g-black.png",
+        "price": 14999
+      },
+      {
+        "id": "tecno-spark-50-5g-6-128gb-altin",
+        "name": "Tecno Spark 50 5G 6/128 GB - Altın",
+        "colorName": "Altın",
+        "colorHex": "#D1B46A",
+        "image": "/images/phones/tecno/spark-50-5g-gold.png",
+        "price": 14999
+      }
+    ],
+    "storeOffers": [
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 14999,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/tecno-spark-50-5g-6-128gb-akilli-telefon-siyah.html"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 14799,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno+Spark+50+5G"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "Mayıs 2026",
+        "price": 16499
+      },
+      {
+        "date": "Haziran 2026",
+        "price": 15999
+      },
+      {
+        "date": "Temmuz 2026",
+        "price": 15499
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 14999
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 14999
+      }
+    ],
+    "specs": {
+      "screenSize": 6.67,
+      "screenResolution": "1600 x 720 px (HD+)",
+      "displayType": "IPS LCD (120Hz)",
+      "chipset": "MediaTek Dimensity 6300 5G",
+      "cpuCores": 8,
+      "ram": 6,
+      "storage": 128,
+      "batteryCapacity": 5000,
+      "chargingSpeed": 18,
+      "mainCamera": "50 MP (f/1.8) + AI Lens",
+      "frontCamera": "8 MP",
+      "operatingSystem": "HiOS 14 (Android 14)",
+      "has5G": true,
+      "waterResistance": "IP54",
+      "screen": {
+        "size": "6.67\"",
+        "type": "IPS LCD",
+        "resolution": "1600 x 720 px",
+        "refreshRate": 120,
+        "ppi": 263,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Dimensity 6300 5G",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 420000
+      },
+      "memory": {
+        "ramGb": 6,
+        "ramType": "LPDDR4X",
+        "storageGb": 128,
+        "storageOptions": [
+          128
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "50 MP (f/1.8)",
+        "ultrawideMp": "Yok",
+        "telephotoMp": "Yok",
+        "selfieMp": "8 MP Ön Kamera",
+        "videoRes": "1080p @ 30fps",
+        "dxomarkScore": 102
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 18,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      }
+    }
+  },
+  {
+    "id": "tecno-spark-50-pro-8-256gb",
+    "slug": "tecno-spark-50-pro-8-256-gb",
+    "name": "Tecno Spark 50 Pro (8/256 GB)",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "basePrice": 16999,
+    "price": 16999,
+    "currency": "TL",
+    "rating": 4.6,
+    "reviewCount": 155,
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "MediaTek Helio G100 Yonga Seti (6nm)",
+      "6.78\" 120Hz FHD+ Canlı AMOLED Ekran",
+      "108 MP Ultra Net Ana Kamera",
+      "32 MP Portre Ön Kamerası",
+      "5000 mAh Batarya & 33W Hızlı Şarj"
+    ],
+    "pros": [
+      "Fiyat segmentinde kaliteli 120Hz AMOLED ekran",
+      "108 MP kamera ile zengin detaylar",
+      "İnce ve modern gövde tasarımı"
+    ],
+    "cons": [
+      "5G bağlantı bulunmuyor"
+    ],
+    "image": "/images/phones/tecno/spark-50-pro-black.png",
+    "images": [
+      "/images/phones/tecno/spark-50-pro-black.png"
+    ],
+    "gallery": [
+      "/images/phones/tecno/spark-50-pro-black.png",
+      "/images/phones/tecno/spark-50-pro-blue.png"
+    ],
+    "colorOptions": [
+      {
+        "name": "Siyah",
+        "hex": "#1E1F24",
+        "image": "/images/phones/tecno/spark-50-pro-black.png"
+      },
+      {
+        "name": "Mavi",
+        "hex": "#4A6984",
+        "image": "/images/phones/tecno/spark-50-pro-blue.png"
+      }
+    ],
+    "variants": [
+      {
+        "id": "tecno-spark-50-pro-8-256gb-siyah",
+        "name": "Tecno Spark 50 Pro 8/256 GB - Siyah",
+        "colorName": "Siyah",
+        "colorHex": "#1E1F24",
+        "image": "/images/phones/tecno/spark-50-pro-black.png",
+        "price": 16999
+      },
+      {
+        "id": "tecno-spark-50-pro-8-256gb-mavi",
+        "name": "Tecno Spark 50 Pro 8/256 GB - Mavi",
+        "colorName": "Mavi",
+        "colorHex": "#4A6984",
+        "image": "/images/phones/tecno/spark-50-pro-blue.png",
+        "price": 16999
+      }
+    ],
+    "storeOffers": [
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 16999,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/tecno-spark-50-pro-8-256gb-akilli-telefon.html"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 16799,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno+Spark+50+Pro"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "Mayıs 2026",
+        "price": 18499
+      },
+      {
+        "date": "Haziran 2026",
+        "price": 17999
+      },
+      {
+        "date": "Temmuz 2026",
+        "price": 17499
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 16999
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 16999
+      }
+    ],
+    "specs": {
+      "screenSize": 6.78,
+      "screenResolution": "2436 x 1080 px (FHD+)",
+      "displayType": "AMOLED (120Hz)",
+      "chipset": "MediaTek Helio G100",
+      "cpuCores": 8,
+      "ram": 8,
+      "storage": 256,
+      "batteryCapacity": 5000,
+      "chargingSpeed": 33,
+      "mainCamera": "108 MP (f/1.8) + 2 MP Derinlik",
+      "frontCamera": "32 MP",
+      "operatingSystem": "HiOS 14 (Android 14)",
+      "has5G": false,
+      "waterResistance": "IP54",
+      "screen": {
+        "size": "6.78\"",
+        "type": "AMOLED",
+        "resolution": "2436 x 1080 px",
+        "refreshRate": 120,
+        "ppi": 393,
+        "brightnessNits": 1100
+      },
+      "processor": {
+        "chip": "MediaTek Helio G100",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 435000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR4X",
+        "storageGb": 256,
+        "storageOptions": [
+          256
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "108 MP (f/1.8)",
+        "ultrawideMp": "Yok",
+        "telephotoMp": "Yok",
+        "selfieMp": "32 MP Ön Kamera",
+        "videoRes": "1440p @ 30fps / 1080p @ 60fps",
+        "dxomarkScore": 112
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      }
+    }
+  },
+  {
+    "id": "tecno-spark-50-4-128gb",
+    "slug": "tecno-spark-50-4-128-gb",
+    "name": "Tecno Spark 50 (4/128 GB)",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "basePrice": 10999,
+    "price": 10999,
+    "currency": "TL",
+    "rating": 4.5,
+    "reviewCount": 145,
+    "releaseYear": 2026,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "MediaTek Helio G81 8 Çekirdekli İşlemci",
+      "6.67\" 120Hz Akıcı Ekran Deneyimi",
+      "50 MP AI Ultra Net Ana Kamera",
+      "5000 mAh Uzun Ömürlü Batarya & 18W Hızlı Şarj",
+      "IP54 Toza ve Su Sıçramalarına Dayanıklılık"
+    ],
+    "pros": [
+      "120Hz akıcı yenileme hızı",
+      "5000 mAh batarya ile tam gün rahat kullanım",
+      "Şık renk alternatifleri ve hafif gövde"
+    ],
+    "cons": [
+      "4 GB RAM temel seviye çoklu görev içindir"
+    ],
+    "image": "/images/phones/tecno/spark-50-grey.png",
+    "images": [
+      "/images/phones/tecno/spark-50-grey.png"
+    ],
+    "gallery": [
+      "/images/phones/tecno/spark-50-grey.png",
+      "/images/phones/tecno/spark-50-lilac.png"
+    ],
+    "colorOptions": [
+      {
+        "name": "Titanyum Gri",
+        "hex": "#6D7179",
+        "image": "/images/phones/tecno/spark-50-grey.png"
+      },
+      {
+        "name": "Mor",
+        "hex": "#8F78A8",
+        "image": "/images/phones/tecno/spark-50-lilac.png"
+      },
+      {
+        "name": "Siyah",
+        "hex": "#202124",
+        "image": "/images/phones/tecno/spark-50-grey.png"
+      }
+    ],
+    "variants": [
+      {
+        "id": "tecno-spark-50-4-128gb-titanyum-gri",
+        "name": "Tecno Spark 50 4/128 GB - Titanyum Gri",
+        "colorName": "Titanyum Gri",
+        "colorHex": "#6D7179",
+        "image": "/images/phones/tecno/spark-50-grey.png",
+        "price": 10999
+      },
+      {
+        "id": "tecno-spark-50-4-128gb-mor",
+        "name": "Tecno Spark 50 4/128 GB - Mor",
+        "colorName": "Mor",
+        "colorHex": "#8F78A8",
+        "image": "/images/phones/tecno/spark-50-lilac.png",
+        "price": 10999
+      },
+      {
+        "id": "tecno-spark-50-4-128gb-siyah",
+        "name": "Tecno Spark 50 4/128 GB - Siyah",
+        "colorName": "Siyah",
+        "colorHex": "#202124",
+        "image": "/images/phones/tecno/spark-50-grey.png",
+        "price": 10999
+      }
+    ],
+    "storeOffers": [
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 10999,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/tecno-spark-50-4-128gb-akilli-telefon-mor.html"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 10799,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno+Spark+50+4+128"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "Mayıs 2026",
+        "price": 12499
+      },
+      {
+        "date": "Haziran 2026",
+        "price": 11999
+      },
+      {
+        "date": "Temmuz 2026",
+        "price": 11499
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 10999
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 10999
+      }
+    ],
+    "specs": {
+      "screenSize": 6.67,
+      "screenResolution": "1600 x 720 px (HD+)",
+      "displayType": "IPS LCD (120Hz)",
+      "chipset": "MediaTek Helio G81",
+      "cpuCores": 8,
+      "ram": 4,
+      "storage": 128,
+      "batteryCapacity": 5000,
+      "chargingSpeed": 18,
+      "mainCamera": "50 MP (f/1.8) + AI Lens",
+      "frontCamera": "8 MP",
+      "operatingSystem": "HiOS 14 (Android 14)",
+      "has5G": false,
+      "waterResistance": "IP54",
+      "screen": {
+        "size": "6.67\"",
+        "type": "IPS LCD",
+        "resolution": "1600 x 720 px",
+        "refreshRate": 120,
+        "ppi": 263,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Helio G81",
+        "cores": "8 Çekirdek",
+        "process": "12nm",
+        "antutuScore": 260000
+      },
+      "memory": {
+        "ramGb": 4,
+        "ramType": "LPDDR4X",
+        "storageGb": 128,
+        "storageOptions": [
+          128
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "50 MP (f/1.8)",
+        "ultrawideMp": "Yok",
+        "telephotoMp": "Yok",
+        "selfieMp": "8 MP Ön Kamera",
+        "videoRes": "1080p @ 30fps",
+        "dxomarkScore": 95
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 18,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      }
+    }
+  },
+  {
+    "id": "tecno-spark-50-6-128gb",
+    "slug": "tecno-spark-50-6-128-gb",
+    "name": "Tecno Spark 50 (6/128 GB)",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "basePrice": 12499,
+    "price": 12499,
+    "currency": "TL",
+    "rating": 4.5,
+    "reviewCount": 160,
+    "releaseYear": 2026,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "MediaTek Helio G81 İşlemci & 6 GB Genişletilebilir RAM",
+      "6.67\" 120Hz Ultra Akıcı Ekran",
+      "50 MP AI Ana Kamera ile Parlak Detaylar",
+      "5000 mAh Batarya & 18W Hızlı Şarj",
+      "IP54 Su ve Toz Dayanıklılığı"
+    ],
+    "pros": [
+      "6 GB RAM ile daha rahat arka plan uygulama geçişleri",
+      "120Hz yenileme hızlı geniş ekran",
+      "5000 mAh yüksek batarya kapasitesi"
+    ],
+    "cons": [
+      "HD+ ekran çözünürlüğü"
+    ],
+    "image": "/images/phones/tecno/spark-50-grey.png",
+    "images": [
+      "/images/phones/tecno/spark-50-grey.png"
+    ],
+    "gallery": [
+      "/images/phones/tecno/spark-50-grey.png"
+    ],
+    "colorOptions": [
+      {
+        "name": "Siyah",
+        "hex": "#202124",
+        "image": "/images/phones/tecno/spark-50-grey.png"
+      },
+      {
+        "name": "Titanyum",
+        "hex": "#86888D",
+        "image": "/images/phones/tecno/spark-50-grey.png"
+      }
+    ],
+    "variants": [
+      {
+        "id": "tecno-spark-50-6-128gb-siyah",
+        "name": "Tecno Spark 50 6/128 GB - Siyah",
+        "colorName": "Siyah",
+        "colorHex": "#202124",
+        "image": "/images/phones/tecno/spark-50-grey.png",
+        "price": 12499
+      },
+      {
+        "id": "tecno-spark-50-6-128gb-titanyum",
+        "name": "Tecno Spark 50 6/128 GB - Titanyum",
+        "colorName": "Titanyum",
+        "colorHex": "#86888D",
+        "image": "/images/phones/tecno/spark-50-grey.png",
+        "price": 12499
+      }
+    ],
+    "storeOffers": [
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 12499,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/tecno-spark-50-6-128gb-akilli-telefon-siyah.html"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 12299,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno+Spark+50+6+128"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "Mayıs 2026",
+        "price": 13999
+      },
+      {
+        "date": "Haziran 2026",
+        "price": 13499
+      },
+      {
+        "date": "Temmuz 2026",
+        "price": 12999
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 12499
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 12499
+      }
+    ],
+    "specs": {
+      "screenSize": 6.67,
+      "screenResolution": "1600 x 720 px (HD+)",
+      "displayType": "IPS LCD (120Hz)",
+      "chipset": "MediaTek Helio G81",
+      "cpuCores": 8,
+      "ram": 6,
+      "storage": 128,
+      "batteryCapacity": 5000,
+      "chargingSpeed": 18,
+      "mainCamera": "50 MP (f/1.8) + AI Lens",
+      "frontCamera": "8 MP",
+      "operatingSystem": "HiOS 14 (Android 14)",
+      "has5G": false,
+      "waterResistance": "IP54",
+      "screen": {
+        "size": "6.67\"",
+        "type": "IPS LCD",
+        "resolution": "1600 x 720 px",
+        "refreshRate": 120,
+        "ppi": 263,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Helio G81",
+        "cores": "8 Çekirdek",
+        "process": "12nm",
+        "antutuScore": 260000
+      },
+      "memory": {
+        "ramGb": 6,
+        "ramType": "LPDDR4X",
+        "storageGb": 128,
+        "storageOptions": [
+          128
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "50 MP (f/1.8)",
+        "ultrawideMp": "Yok",
+        "telephotoMp": "Yok",
+        "selfieMp": "8 MP Ön Kamera",
+        "videoRes": "1080p @ 30fps",
+        "dxomarkScore": 96
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 18,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      }
+    }
+  },
+  {
+    "id": "tecno-spark-40c-4-128gb",
+    "slug": "tecno-spark-40c-4-128-gb",
+    "name": "Tecno Spark 40C (4/128 GB)",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "basePrice": 8999,
+    "price": 8999,
+    "currency": "TL",
+    "rating": 4.4,
+    "reviewCount": 130,
+    "releaseYear": 2025,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "Unisoc T606 8 Çekirdekli İşlemci",
+      "6.6\" 90Hz Akıcı Ekran & Dinamik Bildirim Alanı",
+      "50 MP AI Çift Arka Kamera",
+      "5000 mAh Batarya & 18W Type-C Şarj",
+      "Çift Stereo Hoparlör & DTS Ses Desteği"
+    ],
+    "pros": [
+      "Bütçe dostu fiyat etiketi",
+      "50 MP ana kamera performansı",
+      "DTS destekli çift hoparlör"
+    ],
+    "cons": [
+      "90Hz ekran tazeleme hızı"
+    ],
+    "image": "/images/phones/tecno/tecno-spark-40c.jpg",
+    "images": [
+      "/images/phones/tecno/tecno-spark-40c.jpg"
+    ],
+    "gallery": [
+      "/images/phones/tecno/tecno-spark-40c.jpg"
+    ],
+    "colorOptions": [
+      {
+        "name": "Siyah",
+        "hex": "#1C1D21",
+        "image": "/images/phones/tecno/tecno-spark-40c.jpg"
+      },
+      {
+        "name": "Beyaz",
+        "hex": "#F0F2F5",
+        "image": "/images/phones/tecno/tecno-spark-40c.jpg"
+      }
+    ],
+    "variants": [
+      {
+        "id": "tecno-spark-40c-4-128gb-siyah",
+        "name": "Tecno Spark 40C 4/128 GB - Siyah",
+        "colorName": "Siyah",
+        "colorHex": "#1C1D21",
+        "image": "/images/phones/tecno/tecno-spark-40c.jpg",
+        "price": 8999
+      },
+      {
+        "id": "tecno-spark-40c-4-128gb-beyaz",
+        "name": "Tecno Spark 40C 4/128 GB - Beyaz",
+        "colorName": "Beyaz",
+        "colorHex": "#F0F2F5",
+        "image": "/images/phones/tecno/tecno-spark-40c.jpg",
+        "price": 8999
+      }
+    ],
+    "storeOffers": [
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 8999,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/tecno-spark-40c-4-128gb-akilli-telefon.html"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 8849,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno+Spark+40C"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "Mayıs 2026",
+        "price": 9999
+      },
+      {
+        "date": "Haziran 2026",
+        "price": 9699
+      },
+      {
+        "date": "Temmuz 2026",
+        "price": 9299
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 8999
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 8999
+      }
+    ],
+    "specs": {
+      "screenSize": 6.6,
+      "screenResolution": "1612 x 720 px (HD+)",
+      "displayType": "IPS LCD (90Hz)",
+      "chipset": "Unisoc T606",
+      "cpuCores": 8,
+      "ram": 4,
+      "storage": 128,
+      "batteryCapacity": 5000,
+      "chargingSpeed": 18,
+      "mainCamera": "50 MP (f/1.6) + AI Lens",
+      "frontCamera": "8 MP",
+      "operatingSystem": "HiOS 13 (Android 13)",
+      "has5G": false,
+      "waterResistance": "IP53",
+      "screen": {
+        "size": "6.6\"",
+        "type": "IPS LCD",
+        "resolution": "1612 x 720 px",
+        "refreshRate": 90,
+        "ppi": 267,
+        "brightnessNits": 500
+      },
+      "processor": {
+        "chip": "Unisoc T606",
+        "cores": "8 Çekirdek",
+        "process": "12nm",
+        "antutuScore": 240000
+      },
+      "memory": {
+        "ramGb": 4,
+        "ramType": "LPDDR4X",
+        "storageGb": 128,
+        "storageOptions": [
+          128
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "50 MP (f/1.6)",
+        "ultrawideMp": "Yok",
+        "telephotoMp": "Yok",
+        "selfieMp": "8 MP Ön Kamera",
+        "videoRes": "1080p @ 30fps",
+        "dxomarkScore": 90
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 18,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      }
+    }
+  },
+  {
+    "id": "tecno-spark-go-3-4-128gb",
+    "slug": "tecno-spark-go-3-4-128-gb",
+    "name": "Tecno Spark Go 3 (4/128 GB)",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "basePrice": 9499,
+    "price": 9499,
+    "currency": "TL",
+    "rating": 4.5,
+    "reviewCount": 165,
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "Unisoc T615 8 Çekirdekli Verimli İşlemci",
+      "6.67\" 120Hz Ultra Akıcı Ekran",
+      "13 MP HDR AI Destekli Net Kamera",
+      "5000 mAh Batarya & 15W Hızlı Şarj",
+      "IP54 Su Sıçramalarına ve Toza Dayanıklılık"
+    ],
+    "pros": [
+      "Giriş segmentinde nadir görülen 120Hz ekran yenileme",
+      "Çift stereo hoparlör ve yüksek ses çıkışı",
+      "Hafif, modern ve dayanıklı gövde"
+    ],
+    "cons": [
+      "Giriş seviyesi kamera çözünürlüğü"
+    ],
+    "image": "/images/phones/tecno/tecno-spark-go-3.jpg",
+    "images": [
+      "/images/phones/tecno/tecno-spark-go-3.jpg"
+    ],
+    "gallery": [
+      "/images/phones/tecno/tecno-spark-go-3.jpg"
+    ],
+    "colorOptions": [
+      {
+        "name": "Siyah",
+        "hex": "#1E1E22",
+        "image": "/images/phones/tecno/tecno-spark-go-3.jpg"
+      },
+      {
+        "name": "Titanyum",
+        "hex": "#87888D",
+        "image": "/images/phones/tecno/tecno-spark-go-3.jpg"
+      },
+      {
+        "name": "Mor",
+        "hex": "#7F679B",
+        "image": "/images/phones/tecno/tecno-spark-go-3.jpg"
+      }
+    ],
+    "variants": [
+      {
+        "id": "tecno-spark-go-3-4-128gb-siyah",
+        "name": "Tecno Spark Go 3 4/128 GB - Siyah",
+        "colorName": "Siyah",
+        "colorHex": "#1E1E22",
+        "image": "/images/phones/tecno/tecno-spark-go-3.jpg",
+        "price": 9499
+      },
+      {
+        "id": "tecno-spark-go-3-4-128gb-titanyum",
+        "name": "Tecno Spark Go 3 4/128 GB - Titanyum",
+        "colorName": "Titanyum",
+        "colorHex": "#87888D",
+        "image": "/images/phones/tecno/tecno-spark-go-3.jpg",
+        "price": 9499
+      },
+      {
+        "id": "tecno-spark-go-3-4-128gb-mor",
+        "name": "Tecno Spark Go 3 4/128 GB - Mor",
+        "colorName": "Mor",
+        "colorHex": "#7F679B",
+        "image": "/images/phones/tecno/tecno-spark-go-3.jpg",
+        "price": 9499
+      }
+    ],
+    "storeOffers": [
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 9499,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/tecno-spark-go-3-4-128gb-akilli-telefon-siyah.html"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 9299,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno+Spark+Go+3"
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 9399,
+        "inStock": true,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Spark%20Go%203"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "Mayıs 2026",
+        "price": 10499
+      },
+      {
+        "date": "Haziran 2026",
+        "price": 10199
+      },
+      {
+        "date": "Temmuz 2026",
+        "price": 9899
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 9499
+      },
+      {
+        "date": "6 Eylül 2026",
+        "price": 9499
+      }
+    ],
+    "specs": {
+      "screenSize": 6.67,
+      "screenResolution": "1600 x 720 px (HD+)",
+      "displayType": "IPS LCD (120Hz)",
+      "chipset": "Unisoc T615",
+      "cpuCores": 8,
+      "ram": 4,
+      "storage": 128,
+      "batteryCapacity": 5000,
+      "chargingSpeed": 15,
+      "mainCamera": "13 MP (f/1.8) HDR AI",
+      "frontCamera": "8 MP",
+      "operatingSystem": "HiOS 14 (Android 14 Go)",
+      "has5G": false,
+      "waterResistance": "IP54",
+      "screen": {
+        "size": "6.67\"",
+        "type": "IPS LCD",
+        "resolution": "1600 x 720 px",
+        "refreshRate": 120,
+        "ppi": 263,
+        "brightnessNits": 750
+      },
+      "processor": {
+        "chip": "Unisoc T615",
+        "cores": "8 Çekirdek",
+        "process": "12nm",
+        "antutuScore": 255000
+      },
+      "memory": {
+        "ramGb": 4,
+        "ramType": "LPDDR4X",
+        "storageGb": 128,
+        "storageOptions": [
+          128
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "13 MP (f/1.8)",
+        "ultrawideMp": "Yok",
+        "telephotoMp": "Yok",
+        "selfieMp": "8 MP Ön Kamera",
+        "videoRes": "1080p @ 30fps",
+        "dxomarkScore": 92
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 15,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      }
+    }
   }
 ]
