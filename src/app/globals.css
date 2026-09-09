@@ -295,4 +295,20 @@ html, body {
   animation: neon-pulse-glow 2.4s ease-in-out infinite;
 }
 
+/* Natural Hardware LED Breathing (Subtle, realistic, non-distracting) */
+@keyframes led-breathe {
+  0%, 100% {
+    opacity: 0.35;
+    filter: drop-shadow(0 0 3px rgba(34, 211, 238, 0.4));
+  }
+  50% {
+    opacity: 0.85;
+    filter: drop-shadow(0 0 8px rgba(34, 211, 238, 0.7));
+  }
+}
+
+.animate-led-breathe {
+  animation: led-breathe 3.5s ease-in-out infinite;
+}
+
 

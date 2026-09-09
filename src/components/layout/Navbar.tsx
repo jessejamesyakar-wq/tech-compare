@@ -620,12 +620,10 @@ export function Navbar() {
               alt="RoboPengu"
               className="w-full h-full object-contain pointer-events-none"
             />
-            {/* Pulsing reaktor */}
+            {/* Natural subtle ambient glow on FAB */}
             <div className="absolute top-[57.5%] left-[68.8%] -translate-x-1/2 -translate-y-1/2 flex items-center justify-center pointer-events-none">
-              <span className="absolute inline-flex h-4 w-4 sm:h-5 sm:w-5 animate-ping rounded-full bg-cyan-400 opacity-60"></span>
-              <span className="relative inline-flex rounded-full h-3 w-3 sm:h-3.5 sm:w-3.5 bg-cyan-400 shadow-[0_0_10px_#22d3ee] border border-white animate-neon-pulse items-center justify-center">
-                <span className="text-[4px] sm:text-[5px] text-slate-950 font-black leading-none select-none">⏻</span>
-              </span>
+              <span className="absolute w-3.5 h-3.5 rounded-full bg-cyan-400/20 blur-[1px] animate-led-breathe"></span>
+              <span className="absolute w-2 h-2 rounded-full bg-cyan-400/60 mix-blend-screen shadow-[0_0_4px_rgba(34,211,238,0.7)] animate-led-breathe"></span>
             </div>
           </div>
         </aside>

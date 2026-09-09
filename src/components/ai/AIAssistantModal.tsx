@@ -209,17 +209,21 @@ export function AIAssistantModal({ isOpen, onClose, initialQuery = '' }: AIAssis
                 alt="RoboPengu 3D" 
                 className="w-[340px] max-w-none h-auto object-contain drop-shadow-[0_25px_35px_rgba(0,0,0,0.35)]"
               />
-              {/* Göğsündeki Güç Düğmesi Canlı Neon / Pulse Efekti */}
-              <div 
-                className="absolute top-[58%] left-[69%] -translate-x-1/2 -translate-y-1/2 pointer-events-auto cursor-pointer group"
+              {/* Doğal LED Ambiyans Işığı (3D Metal Dokuyu Kapatmaz, Gerçekçi Donanım Standby LED) */}
+              <button 
+                type="button"
+                className="absolute top-[57.5%] left-[68.8%] -translate-x-1/2 -translate-y-1/2 w-12 h-12 flex items-center justify-center cursor-pointer pointer-events-auto group active:scale-95 transition-transform"
                 title="RoboPengu Güç Reaktörü (Aktif)"
                 onClick={() => handleSend('Bana kendinden ve bu sitede yapabileceklerinden bahset!')}
+                aria-label="RoboPengu Güç Reaktörü"
               >
-                <span className="absolute inline-flex h-8 w-8 -top-1 -left-1 animate-ping rounded-full bg-cyan-400 opacity-60"></span>
-                <span className="relative inline-flex rounded-full h-6 w-6 bg-cyan-400 shadow-[0_0_18px_#22d3ee] border-2 border-white animate-neon-pulse flex items-center justify-center">
-                  <span className="text-[8px] text-slate-950 font-black">⏻</span>
-                </span>
-              </div>
+                {/* Dış Yumuşak Halka Halesi */}
+                <span className="absolute w-8 h-8 rounded-full bg-cyan-400/20 blur-[3px] animate-led-breathe pointer-events-none"></span>
+                {/* İç Çekirdek LED (Metal dokuyla harmanlanır) */}
+                <span className="absolute w-4 h-4 rounded-full bg-cyan-400/50 mix-blend-screen shadow-[0_0_8px_rgba(34,211,238,0.6)] animate-led-breathe pointer-events-none"></span>
+                {/* Merkez İnce Işık Noktası */}
+                <span className="absolute w-1.5 h-1.5 rounded-full bg-cyan-200/90 shadow-[0_0_4px_#22d3ee] animate-led-breathe pointer-events-none"></span>
+              </button>
             </div>
           </div>
 
@@ -231,15 +235,17 @@ export function AIAssistantModal({ isOpen, onClose, initialQuery = '' }: AIAssis
                 alt="RoboPengu 3D" 
                 className="w-[240px] max-w-none h-auto object-contain drop-shadow-[0_20px_30px_rgba(0,0,0,0.30)]"
               />
-              <div 
-                className="absolute top-[58%] left-[69%] -translate-x-1/2 -translate-y-1/2 pointer-events-auto cursor-pointer group"
+              <button 
+                type="button"
+                className="absolute top-[57.5%] left-[68.8%] -translate-x-1/2 -translate-y-1/2 w-10 h-10 flex items-center justify-center cursor-pointer pointer-events-auto group active:scale-95 transition-transform"
                 title="RoboPengu Güç Reaktörü (Aktif)"
                 onClick={() => handleSend('Bana kendinden ve bu sitede yapabileceklerinden bahset!')}
+                aria-label="RoboPengu Güç Reaktörü"
               >
-                <span className="relative inline-flex rounded-full h-5 w-5 bg-cyan-400 shadow-[0_0_14px_#22d3ee] border-2 border-white animate-neon-pulse flex items-center justify-center">
-                  <span className="text-[7px] text-slate-950 font-black">⏻</span>
-                </span>
-              </div>
+                <span className="absolute w-6 h-6 rounded-full bg-cyan-400/20 blur-[2px] animate-led-breathe pointer-events-none"></span>
+                <span className="absolute w-3 h-3 rounded-full bg-cyan-400/50 mix-blend-screen shadow-[0_0_6px_rgba(34,211,238,0.6)] animate-led-breathe pointer-events-none"></span>
+                <span className="absolute w-1 h-1 rounded-full bg-cyan-200/90 shadow-[0_0_3px_#22d3ee] animate-led-breathe pointer-events-none"></span>
+              </button>
             </div>
           </div>
 
@@ -251,10 +257,10 @@ export function AIAssistantModal({ isOpen, onClose, initialQuery = '' }: AIAssis
                 alt="RoboPengu 3D" 
                 className="w-[105px] h-auto object-contain drop-shadow-[0_15px_25px_rgba(0,0,0,0.40)] pointer-events-none"
               />
-              {/* Canlı Neon Güç Reaktörü / Dokunma Alanı (44px mobil standart) */}
+              {/* Doğal LED Ambiyans Işığı (44px dokunmatik alan, göz almayan yumuşak LED ışıması) */}
               <button
                 type="button"
-                className="absolute top-[57.5%] left-[68.8%] -translate-x-1/2 -translate-y-1/2 w-11 h-11 flex items-center justify-center cursor-pointer active:scale-90 transition-transform touch-manipulation z-40"
+                className="absolute top-[57.5%] left-[68.8%] -translate-x-1/2 -translate-y-1/2 w-11 h-11 flex items-center justify-center cursor-pointer active:scale-90 transition-transform touch-manipulation z-40 group"
                 title="RoboPengu Güç Reaktörü (Aktif)"
                 onClick={(e) => {
                   e.stopPropagation();
@@ -262,10 +268,9 @@ export function AIAssistantModal({ isOpen, onClose, initialQuery = '' }: AIAssis
                 }}
                 aria-label="RoboPengu Güç Reaktörü"
               >
-                <span className="absolute inline-flex h-7 w-7 animate-ping rounded-full bg-cyan-400 opacity-60 pointer-events-none"></span>
-                <span className="relative inline-flex rounded-full h-5 w-5 bg-cyan-400 shadow-[0_0_14px_#22d3ee] border-2 border-white animate-neon-pulse items-center justify-center pointer-events-none">
-                  <span className="text-[8px] text-slate-950 font-black leading-none select-none">⏻</span>
-                </span>
+                <span className="absolute w-5 h-5 rounded-full bg-cyan-400/20 blur-[2px] animate-led-breathe pointer-events-none"></span>
+                <span className="absolute w-2.5 h-2.5 rounded-full bg-cyan-400/50 mix-blend-screen shadow-[0_0_6px_rgba(34,211,238,0.6)] animate-led-breathe pointer-events-none"></span>
+                <span className="absolute w-1 h-1 rounded-full bg-cyan-200/90 shadow-[0_0_3px_#22d3ee] animate-led-breathe pointer-events-none"></span>
               </button>
 
               {/* Mobil Konuşma Kuyruğu: Modala Doğru */}
