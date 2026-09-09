@@ -248,7 +248,7 @@ export function AIAssistantModal({ isOpen, onClose, initialQuery = '' }: AIAssis
                 </div>
                 <div className="flex items-center gap-2">
                   <h3 className="font-bold text-slate-800 dark:text-white text-sm md:text-base">
-                    RoboPengu 3D & Gemini 3.8 AI
+                    RoboPengu 3D AI
                   </h3>
                   <span className="px-2 py-0.5 text-[10px] font-semibold bg-emerald-100 text-emerald-700 dark:bg-emerald-950/80 dark:text-emerald-300 rounded-full">
                     CANLI ASİSTAN

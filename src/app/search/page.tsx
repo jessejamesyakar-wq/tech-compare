@@ -171,7 +171,7 @@ function SearchContent() {
           </div>
           <div>
             <h3 className="text-xs sm:text-sm font-black text-slate-900 dark:text-white flex items-center gap-2">
-              <span>RoboPengu & Gemini 3.8 Danışmanı</span>
+              <span>RoboPengu AI Danışmanı</span>
               <span className="text-[10px] bg-emerald-100 dark:bg-emerald-950 text-emerald-700 dark:text-emerald-400 font-extrabold px-2 py-0.2 rounded-full border border-emerald-300 dark:border-emerald-700">
                 Canlı Asistan
               </span>

@@ -203,7 +203,7 @@ export function Navbar() {
       return (
         <div className="absolute top-full left-0 right-0 mt-2 bg-white/95 dark:bg-slate-900/95 border border-slate-200 dark:border-slate-800 rounded-2xl shadow-2xl p-3 z-50 animate-in fade-in zoom-in-95 backdrop-blur-xl space-y-2.5">
           <div className="flex items-center justify-between text-xs text-slate-500 pb-1.5 border-b border-slate-100 dark:border-slate-800">
-            <span className="font-extrabold uppercase text-[10px] tracking-wider text-slate-400 dark:text-slate-500">✨ Gemini 3.8 AI & RoboPengu'ya Danış</span>
+            <span className="font-extrabold uppercase text-[10px] tracking-wider text-slate-400 dark:text-slate-500">✨ RoboPengu AI'ya Danış</span>
             <span className="text-emerald-700 dark:text-emerald-400 font-bold text-[10px]">Akıllı Asistan 🐧</span>
           </div>
           <div className="flex flex-wrap gap-1.5">
@@ -318,7 +318,7 @@ export function Navbar() {
                 className="w-full py-2 px-3 bg-gradient-to-r from-emerald-600/10 via-teal-600/10 to-cyan-600/10 hover:from-emerald-600/20 hover:to-teal-600/20 text-emerald-800 dark:text-emerald-300 text-xs font-extrabold rounded-xl border border-emerald-500/30 flex items-center justify-center gap-2 transition-all cursor-pointer"
               >
                 <Sparkles className="w-3.5 h-3.5 text-emerald-600 fill-emerald-500" />
-                <span>"{trimmed}" için Gemini 3.8 Danışmanına Sor 🐧</span>
+                <span>"{trimmed}" için RoboPengu'ya Sor 🐧</span>
               </button>
             </div>
           </div>
@@ -337,7 +337,7 @@ export function Navbar() {
               className="px-4 py-2.5 bg-gradient-to-r from-emerald-600 to-teal-600 hover:from-emerald-500 hover:to-teal-500 text-white text-xs font-black rounded-xl shadow-md transition-all inline-flex items-center gap-2 cursor-pointer"
             >
               <Sparkles className="w-4 h-4 text-emerald-200 fill-emerald-200" />
-              <span>Gemini 3.8 Danışmanından Tavsiye Al 🐧</span>
+              <span>RoboPengu'dan Tavsiye Al 🐧</span>
             </button>
           </div>
         )}
@@ -436,10 +436,10 @@ export function Navbar() {
                         openAiAssistant();
                       }}
                       className="relative flex items-center gap-1.5 px-3 py-1.5 rounded-full text-white text-[11px] font-black shadow-md transition-all duration-200 cursor-pointer overflow-hidden bg-gradient-to-r from-emerald-600 via-teal-600 to-emerald-600 shadow-emerald-500/20 hover:shadow-emerald-500/35 hover:scale-105 active:scale-95"
-                      title="Google Gemini 3.8 AI Asistanı"
+                      title="RoboPengu AI Asistanı"
                     >
                       <Sparkles className="w-3.5 h-3.5 text-emerald-200 fill-emerald-200" />
-                      <span>Gemini 3.8</span>
+                      <span>RoboPengu</span>
                       <span className="bg-white/20 text-white text-[9px] px-1.5 py-0.2 rounded-full font-extrabold uppercase">
                         AI
                       </span>
@@ -576,10 +576,10 @@ export function Navbar() {
                       openAiAssistant();
                     }}
                     className="flex items-center gap-1.5 px-3 py-1.5 rounded-full text-[10px] font-black transition-all cursor-pointer shrink-0 ml-1 text-white shadow-sm bg-gradient-to-r from-emerald-600 via-teal-600 to-emerald-600 shadow-emerald-500/20 active:scale-95"
-                    title="Google Gemini 3.8 AI"
+                    title="RoboPengu AI"
                   >
-                    <Sparkles className="w-3 h-3 text-emerald-200 fill-emerald-200" />
-                    <span>Gemini 3.8</span>
+                    <Sparkles className="w-3.5 h-3.5 text-emerald-200 fill-emerald-200" />
+                    <span>RoboPengu</span>
                   </button>
                 </div>
               </div>
