@@ -76,10 +76,74 @@ export default async function HomePage() {
     };
   });
 
+  // Curate a high-scoring, multi-brand diverse TV pool for the Home showcase rotation
+  const tvPoolMap = new Map<string, TVProduct>();
+  const tvTabs = ['all', 'oled', 'miniled', 'giant'];
+
+  for (const tab of tvTabs) {
+    let list = [...allTVs];
+    if (tab === 'oled') {
+      list = list.filter((tv) => {
+        const tech = (tv.specs?.displayTech || '').toLowerCase();
+        const name = (tv.name || '').toLowerCase();
+        return tech.includes('oled') || name.includes('oled');
+      });
+    } else if (tab === 'miniled') {
+      list = list.filter((tv) => {
+        const tech = (tv.specs?.displayTech || '').toLowerCase();
+        const name = (tv.name || '').toLowerCase();
+        return tech.includes('mini') || tech.includes('neo qled') || name.includes('mini-led') || name.includes('neo qled');
+      });
+    } else if (tab === 'giant') {
+      list = list.filter((tv) => {
+        const nameInchMatch = tv.name.match(/\b(\d+(?:\.\d+)?)"/);
+        const inchVal = nameInchMatch ? parseFloat(nameInchMatch[1]) : tv.specs?.screenSizeInches || 55;
+        return inchVal >= 75;
+      });
+    }
+
+    const withScore = list.map((tv) => ({
+      tv,
+      score: (tv.rating || 4.5) * 10 + (tv.specs?.refreshRateHz || 60) * 0.1
+    })).sort((a, b) => b.score - a.score);
+
+    const byBrand: Record<string, TVProduct[]> = {};
+    for (const item of withScore) {
+      const b = item.tv.brand || 'Diğer';
+      if (!byBrand[b]) byBrand[b] = [];
+      byBrand[b].push(item.tv);
+    }
+
+    const preferredOrder = ['Samsung', 'LG', 'Philips', 'TCL', 'Hisense', 'Grundig', 'Xiaomi', 'Vestel', 'Onvo', 'iFFALCON'];
+    const brands = Object.keys(byBrand);
+    brands.sort((a, b) => {
+      const ia = preferredOrder.indexOf(a) !== -1 ? preferredOrder.indexOf(a) : 99;
+      const ib = preferredOrder.indexOf(b) !== -1 ? preferredOrder.indexOf(b) : 99;
+      return ia - ib;
+    });
+
+    let count = 0;
+    let round = 0;
+    let added = true;
+    while (added && count < 32) {
+      added = false;
+      for (const b of brands) {
+        if (byBrand[b][round] && count < 32) {
+          tvPoolMap.set(byBrand[b][round].id, byBrand[b][round]);
+          count++;
+          added = true;
+        }
+      }
+      round++;
+    }
+  }
+
+  const diverseTopTVs = Array.from(tvPoolMap.values()).map(toCatalogProduct);
+
   return (
     <HomePageClient
       heroSlides={dynamicHeroSlides}
-      allTVsList={allTVs.slice(0, 24).map(toCatalogProduct)}
+      allTVsList={diverseTopTVs}
       mixedDiscountGrid={mixedDiscountGrid.slice(0, 16).map(toCatalogProduct)}
       bestSellerCarouselList={bestSellerCarouselList.slice(0, 20).map(toCatalogProduct)}
       popularComparisons={enrichedPopularComparisons}
