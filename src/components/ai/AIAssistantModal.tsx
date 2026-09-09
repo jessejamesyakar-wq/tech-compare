@@ -244,23 +244,32 @@ export function AIAssistantModal({ isOpen, onClose, initialQuery = '' }: AIAssis
           </div>
 
           {/* 1. MASKOT (MOBİL TELEFON - < md): Modalın Üstünden Dışa Taşan Sevimli 3D Penguen */}
-          <div className="block md:hidden absolute -top-[64px] left-3 z-30 pointer-events-none select-none animate-float">
+          <div className="block md:hidden absolute -top-[70px] left-2 z-30 select-none animate-float">
             <div className="relative">
               <img 
                 src="/assets/robopengu.png" 
                 alt="RoboPengu 3D" 
-                className="w-[95px] h-auto object-contain drop-shadow-[0_12px_20px_rgba(0,0,0,0.35)]"
+                className="w-[105px] h-auto object-contain drop-shadow-[0_15px_25px_rgba(0,0,0,0.40)] pointer-events-none"
               />
-              <div 
-                className="absolute top-[58%] left-[69%] -translate-x-1/2 -translate-y-1/2 pointer-events-auto cursor-pointer"
-                onClick={() => handleSend('Bana kendinden ve bu sitede yapabileceklerinden bahset!')}
+              {/* Canlı Neon Güç Reaktörü / Dokunma Alanı (44px mobil standart) */}
+              <button
+                type="button"
+                className="absolute top-[57.5%] left-[68.8%] -translate-x-1/2 -translate-y-1/2 w-11 h-11 flex items-center justify-center cursor-pointer active:scale-90 transition-transform touch-manipulation z-40"
+                title="RoboPengu Güç Reaktörü (Aktif)"
+                onClick={(e) => {
+                  e.stopPropagation();
+                  handleSend('Bana kendinden ve bu sitede yapabileceklerinden bahset!');
+                }}
+                aria-label="RoboPengu Güç Reaktörü"
               >
-                <span className="relative inline-flex rounded-full h-3.5 w-3.5 bg-cyan-400 shadow-[0_0_8px_#22d3ee] border border-white animate-neon-pulse flex items-center justify-center">
-                  <span className="text-[5px] text-slate-950 font-black">⏻</span>
+                <span className="absolute inline-flex h-7 w-7 animate-ping rounded-full bg-cyan-400 opacity-60 pointer-events-none"></span>
+                <span className="relative inline-flex rounded-full h-5 w-5 bg-cyan-400 shadow-[0_0_14px_#22d3ee] border-2 border-white animate-neon-pulse items-center justify-center pointer-events-none">
+                  <span className="text-[8px] text-slate-950 font-black leading-none select-none">⏻</span>
                 </span>
-              </div>
+              </button>
+
               {/* Mobil Konuşma Kuyruğu: Modala Doğru */}
-              <div className="absolute bottom-1 right-3 w-0 h-0 border-l-[6px] border-l-transparent border-r-[6px] border-r-transparent border-t-[8px] border-t-white dark:border-t-slate-900"></div>
+              <div className="absolute bottom-1 right-3 w-0 h-0 border-l-[6px] border-l-transparent border-r-[6px] border-r-transparent border-t-[8px] border-t-white dark:border-t-slate-900 pointer-events-none"></div>
             </div>
           </div>
 

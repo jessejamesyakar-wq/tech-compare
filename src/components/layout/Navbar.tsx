@@ -621,7 +621,12 @@ export function Navbar() {
               className="w-full h-full object-contain pointer-events-none"
             />
             {/* Pulsing reaktor */}
-            <span className="absolute top-[58%] left-[69%] -translate-x-1/2 -translate-y-1/2 w-2.5 h-2.5 rounded-full bg-cyan-400 animate-neon-pulse border border-white shadow-[0_0_8px_#22d3ee]"></span>
+            <div className="absolute top-[57.5%] left-[68.8%] -translate-x-1/2 -translate-y-1/2 flex items-center justify-center pointer-events-none">
+              <span className="absolute inline-flex h-4 w-4 sm:h-5 sm:w-5 animate-ping rounded-full bg-cyan-400 opacity-60"></span>
+              <span className="relative inline-flex rounded-full h-3 w-3 sm:h-3.5 sm:w-3.5 bg-cyan-400 shadow-[0_0_10px_#22d3ee] border border-white animate-neon-pulse items-center justify-center">
+                <span className="text-[4px] sm:text-[5px] text-slate-950 font-black leading-none select-none">⏻</span>
+              </span>
+            </div>
           </div>
         </aside>
       )}
