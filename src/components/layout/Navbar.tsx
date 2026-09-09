@@ -599,22 +599,22 @@ export function Navbar() {
         initialQuery={aiModalQuery}
       />
 
-      {/* 🐧 Floating Mobile & Tablet RoboPengu Action Button (FAB) */}
+      {/* 🐧 Floating RoboPengu Action Button (FAB) - Visible across all screens (Desktop, Tablet, Mobile) */}
       {!isAiModalOpen && (
         <aside
           aria-label="RoboPengu AI Asistanı"
           onClick={() => openAiAssistant()}
-          className="fixed bottom-5 right-4 z-40 lg:hidden flex items-center gap-2 cursor-pointer select-none group"
+          className="fixed bottom-5 right-4 md:bottom-6 md:right-6 z-40 flex items-center gap-2 md:gap-2.5 cursor-pointer select-none group"
         >
           {/* Tooltip speech pill */}
-          <div className="bg-white/95 dark:bg-slate-900/95 text-slate-800 dark:text-slate-100 text-[11px] font-black px-3 py-1.5 rounded-2xl shadow-lg border border-[#cbe0f5] dark:border-slate-700 flex items-center gap-1.5 backdrop-blur-md transition-transform group-hover:scale-105 active:scale-95">
+          <div className="bg-white/95 dark:bg-slate-900/95 text-slate-800 dark:text-slate-100 text-[11px] md:text-xs font-black px-3 py-1.5 md:px-3.5 md:py-2 rounded-2xl shadow-lg border border-[#cbe0f5] dark:border-slate-700 flex items-center gap-1.5 backdrop-blur-md transition-all group-hover:scale-105 group-hover:border-emerald-500/40 active:scale-95">
             <span className="inline-block w-2 h-2 rounded-full bg-emerald-500 animate-ping"></span>
             <span>RoboPengu'ya Sor!</span>
-            <span className="text-xs">🐧</span>
+            <span className="text-xs md:text-sm">🐧</span>
           </div>
 
           {/* 3D Floating RoboPengu Avatar */}
-          <div className="relative w-12 h-14 sm:w-14 sm:h-16 animate-float filter drop-shadow-[0_10px_18px_rgba(0,0,0,0.30)] transition-transform group-hover:scale-110 active:scale-90">
+          <div className="relative w-12 h-14 sm:w-14 sm:h-16 md:w-16 md:h-[72px] animate-float filter drop-shadow-[0_12px_22px_rgba(0,0,0,0.30)] transition-transform group-hover:scale-110 active:scale-90">
             <img
               src="/assets/robopengu.png"
               alt="RoboPengu"
@@ -622,8 +622,8 @@ export function Navbar() {
             />
             {/* Natural subtle ambient glow on FAB */}
             <div className="absolute top-[57.5%] left-[68.8%] -translate-x-1/2 -translate-y-1/2 flex items-center justify-center pointer-events-none">
-              <span className="absolute w-3.5 h-3.5 rounded-full bg-cyan-400/20 blur-[1px] animate-led-breathe"></span>
-              <span className="absolute w-2 h-2 rounded-full bg-cyan-400/60 mix-blend-screen shadow-[0_0_4px_rgba(34,211,238,0.7)] animate-led-breathe"></span>
+              <span className="absolute w-3.5 h-3.5 md:w-4 md:h-4 rounded-full bg-cyan-400/20 blur-[1px] animate-led-breathe"></span>
+              <span className="absolute w-2 h-2 md:w-2.5 md:h-2.5 rounded-full bg-cyan-400/60 mix-blend-screen shadow-[0_0_5px_rgba(34,211,238,0.7)] animate-led-breathe"></span>
             </div>
           </div>
         </aside>
