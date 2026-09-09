@@ -598,6 +598,33 @@ export function Navbar() {
         onClose={() => setIsAiModalOpen(false)}
         initialQuery={aiModalQuery}
       />
+
+      {/* 🐧 Floating Mobile & Tablet RoboPengu Action Button (FAB) */}
+      {!isAiModalOpen && (
+        <aside
+          aria-label="RoboPengu AI Asistanı"
+          onClick={() => openAiAssistant()}
+          className="fixed bottom-5 right-4 z-40 lg:hidden flex items-center gap-2 cursor-pointer select-none group"
+        >
+          {/* Tooltip speech pill */}
+          <div className="bg-white/95 dark:bg-slate-900/95 text-slate-800 dark:text-slate-100 text-[11px] font-black px-3 py-1.5 rounded-2xl shadow-lg border border-[#cbe0f5] dark:border-slate-700 flex items-center gap-1.5 backdrop-blur-md transition-transform group-hover:scale-105 active:scale-95">
+            <span className="inline-block w-2 h-2 rounded-full bg-emerald-500 animate-ping"></span>
+            <span>RoboPengu'ya Sor!</span>
+            <span className="text-xs">🐧</span>
+          </div>
+
+          {/* 3D Floating RoboPengu Avatar */}
+          <div className="relative w-12 h-14 sm:w-14 sm:h-16 animate-float filter drop-shadow-[0_10px_18px_rgba(0,0,0,0.30)] transition-transform group-hover:scale-110 active:scale-90">
+            <img
+              src="/assets/robopengu.png"
+              alt="RoboPengu"
+              className="w-full h-full object-contain pointer-events-none"
+            />
+            {/* Pulsing reaktor */}
+            <span className="absolute top-[58%] left-[69%] -translate-x-1/2 -translate-y-1/2 w-2.5 h-2.5 rounded-full bg-cyan-400 animate-neon-pulse border border-white shadow-[0_0_8px_#22d3ee]"></span>
+          </div>
+        </aside>
+      )}
     </>
   );
 }

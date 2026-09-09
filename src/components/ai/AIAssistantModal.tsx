@@ -192,25 +192,23 @@ export function AIAssistantModal({ isOpen, onClose, initialQuery = '' }: AIAssis
     <AnimatePresence>
       {/* Arka Plan Overlay */}
       <div 
-        className="fixed inset-0 bg-slate-900/40 backdrop-blur-sm flex items-center justify-center p-4 z-50 animate-in fade-in duration-200"
+        className="fixed inset-0 bg-slate-900/40 backdrop-blur-sm flex items-center justify-center p-3 pt-16 sm:p-4 z-50 animate-in fade-in duration-200"
         onClick={(e) => {
           if (e.target === e.currentTarget) onClose();
         }}
       >
         
-        {/* Ana Kapsayıcı: Sadece Maskot + Modal */}
-        <div className="relative w-full max-w-2xl md:max-w-3xl flex items-center justify-center">
+        {/* Ana Kapsayıcı: Maskot + Modal */}
+        <div className="relative w-full max-w-full sm:max-w-2xl lg:max-w-3xl flex items-center justify-center">
 
-          {/* 1. SOL: DIŞA TAŞAN BÜYÜK ŞEFFAF GERÇEKÇİ ROBOPENGU */}
-          <div className="hidden md:block absolute -left-[275px] -top-[40px] z-30 pointer-events-none select-none animate-float">
+          {/* 1. MASKOT (DESKTOP / GENİŞ EKRAN - lg ve üzeri): Sol Kenara Yaslı Büyük Boy */}
+          <div className="hidden lg:block absolute -left-[275px] -top-[40px] z-30 pointer-events-none select-none animate-float">
             <div className="relative">
-              {/* Şeffaf Penguen Görseli (Gri kutu veya çerçeve yok) */}
               <img 
                 src="/assets/robopengu.png" 
                 alt="RoboPengu 3D" 
                 className="w-[340px] max-w-none h-auto object-contain drop-shadow-[0_25px_35px_rgba(0,0,0,0.35)]"
               />
-
               {/* Göğsündeki Güç Düğmesi Canlı Neon / Pulse Efekti */}
               <div 
                 className="absolute top-[58%] left-[69%] -translate-x-1/2 -translate-y-1/2 pointer-events-auto cursor-pointer group"
@@ -225,32 +223,79 @@ export function AIAssistantModal({ isOpen, onClose, initialQuery = '' }: AIAssis
             </div>
           </div>
 
-          {/* 2. ORTA: TEK VE NET CHAT MODALI (Sağ panel tamamen kaldırıldı) */}
+          {/* 1. MASKOT (TABLET - md to lg): Kompakt Sol Kenar Boyutu */}
+          <div className="hidden md:block lg:hidden absolute -left-[190px] -top-[30px] z-30 pointer-events-none select-none animate-float">
+            <div className="relative">
+              <img 
+                src="/assets/robopengu.png" 
+                alt="RoboPengu 3D" 
+                className="w-[240px] max-w-none h-auto object-contain drop-shadow-[0_20px_30px_rgba(0,0,0,0.30)]"
+              />
+              <div 
+                className="absolute top-[58%] left-[69%] -translate-x-1/2 -translate-y-1/2 pointer-events-auto cursor-pointer group"
+                title="RoboPengu Güç Reaktörü (Aktif)"
+                onClick={() => handleSend('Bana kendinden ve bu sitede yapabileceklerinden bahset!')}
+              >
+                <span className="relative inline-flex rounded-full h-5 w-5 bg-cyan-400 shadow-[0_0_14px_#22d3ee] border-2 border-white animate-neon-pulse flex items-center justify-center">
+                  <span className="text-[7px] text-slate-950 font-black">⏻</span>
+                </span>
+              </div>
+            </div>
+          </div>
+
+          {/* 1. MASKOT (MOBİL TELEFON - < md): Modalın Üstünden Dışa Taşan Sevimli 3D Penguen */}
+          <div className="block md:hidden absolute -top-[64px] left-3 z-30 pointer-events-none select-none animate-float">
+            <div className="relative">
+              <img 
+                src="/assets/robopengu.png" 
+                alt="RoboPengu 3D" 
+                className="w-[95px] h-auto object-contain drop-shadow-[0_12px_20px_rgba(0,0,0,0.35)]"
+              />
+              <div 
+                className="absolute top-[58%] left-[69%] -translate-x-1/2 -translate-y-1/2 pointer-events-auto cursor-pointer"
+                onClick={() => handleSend('Bana kendinden ve bu sitede yapabileceklerinden bahset!')}
+              >
+                <span className="relative inline-flex rounded-full h-3.5 w-3.5 bg-cyan-400 shadow-[0_0_8px_#22d3ee] border border-white animate-neon-pulse flex items-center justify-center">
+                  <span className="text-[5px] text-slate-950 font-black">⏻</span>
+                </span>
+              </div>
+              {/* Mobil Konuşma Kuyruğu: Modala Doğru */}
+              <div className="absolute bottom-1 right-3 w-0 h-0 border-l-[6px] border-l-transparent border-r-[6px] border-r-transparent border-t-[8px] border-t-white dark:border-t-slate-900"></div>
+            </div>
+          </div>
+
+          {/* 2. ORTA: TEK VE NET CHAT MODALI */}
           <motion.div
             initial={{ opacity: 0, scale: 0.96, y: 15 }}
             animate={{ opacity: 1, scale: 1, y: 0 }}
             exit={{ opacity: 0, scale: 0.96, y: 15 }}
             transition={{ duration: 0.2 }}
-            className="relative w-full bg-white dark:bg-slate-900 rounded-3xl shadow-2xl border border-slate-100 dark:border-slate-800 flex flex-col overflow-visible h-[600px] z-20"
+            className="relative w-full bg-white dark:bg-slate-900 rounded-3xl shadow-2xl border border-slate-100 dark:border-slate-800 flex flex-col overflow-visible h-[580px] sm:h-[600px] z-20"
           >
-            {/* Gagasından Modala Bağlanan Konuşma Oku (Speech Pointer) */}
-            <div className="hidden md:block absolute top-[88px] -left-3.5 w-0 h-0 
+            {/* Desktop Konuşma Oku */}
+            <div className="hidden lg:block absolute top-[88px] -left-3.5 w-0 h-0 
                         border-t-[10px] border-t-transparent 
                         border-b-[10px] border-b-transparent 
                         border-r-[14px] border-r-white dark:border-r-slate-900 z-20">
             </div>
+            {/* Tablet Konuşma Oku */}
+            <div className="hidden md:block lg:hidden absolute top-[65px] -left-3 w-0 h-0 
+                        border-t-[8px] border-t-transparent 
+                        border-b-[8px] border-b-transparent 
+                        border-r-[12px] border-r-white dark:border-r-slate-900 z-20">
+            </div>
             
             {/* Modal Header */}
-            <div className="px-6 py-4 border-b border-slate-100 dark:border-slate-800 flex items-center justify-between bg-white dark:bg-slate-900 shrink-0">
-              <div className="flex items-center gap-3">
+            <div className="px-4 sm:px-6 py-3.5 sm:py-4 border-b border-slate-100 dark:border-slate-800 flex items-center justify-between bg-white dark:bg-slate-900 shrink-0">
+              <div className="flex items-center gap-2.5 sm:gap-3 pl-20 md:pl-0">
                 <div className="w-8 h-8 rounded-full bg-slate-100 dark:bg-slate-800 flex items-center justify-center overflow-hidden border border-slate-200 dark:border-slate-700">
                   <img src="/assets/robopengu.png" alt="Robo" className="w-6 h-6 object-contain" />
                 </div>
                 <div className="flex items-center gap-2">
-                  <h3 className="font-bold text-slate-800 dark:text-white text-sm md:text-base">
+                  <h3 className="font-bold text-slate-800 dark:text-white text-xs sm:text-base">
                     RoboPengu & Gemini 3.8
                   </h3>
-                  <span className="px-2 py-0.5 text-[10px] font-semibold bg-emerald-100 text-emerald-700 dark:bg-emerald-950/80 dark:text-emerald-300 rounded-full">
+                  <span className="px-2 py-0.5 text-[9px] sm:text-[10px] font-semibold bg-emerald-100 text-emerald-700 dark:bg-emerald-950/80 dark:text-emerald-300 rounded-full">
                     CANLI ASİSTAN
                   </span>
                 </div>
