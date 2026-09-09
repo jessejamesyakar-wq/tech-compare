@@ -201,19 +201,19 @@ export function AIAssistantModal({ isOpen, onClose, initialQuery = '' }: AIAssis
         {/* Ana Kapsayıcı: Sadece Maskot + Modal */}
         <div className="relative w-full max-w-2xl md:max-w-3xl flex items-center justify-center">
 
-          {/* 1. SOL: DIŞA TAŞAN BÜYÜK ŞEFFAF ROBOPENGU */}
-          <div className="hidden md:block absolute -left-[260px] -top-[45px] z-30 pointer-events-none select-none animate-float">
+          {/* 1. SOL: DIŞA TAŞAN BÜYÜK ŞEFFAF GERÇEKÇİ ROBOPENGU */}
+          <div className="hidden md:block absolute -left-[275px] -top-[40px] z-30 pointer-events-none select-none animate-float">
             <div className="relative">
               {/* Şeffaf Penguen Görseli (Gri kutu veya çerçeve yok) */}
               <img 
                 src="/assets/robopengu.png" 
                 alt="RoboPengu 3D" 
-                className="w-[360px] max-w-none h-auto object-contain drop-shadow-[0_25px_35px_rgba(0,0,0,0.30)]"
+                className="w-[340px] max-w-none h-auto object-contain drop-shadow-[0_25px_35px_rgba(0,0,0,0.35)]"
               />
 
               {/* Göğsündeki Güç Düğmesi Canlı Neon / Pulse Efekti */}
               <div 
-                className="absolute top-[62.5%] left-[64%] -translate-x-1/2 -translate-y-1/2 pointer-events-auto cursor-pointer group"
+                className="absolute top-[58%] left-[69%] -translate-x-1/2 -translate-y-1/2 pointer-events-auto cursor-pointer group"
                 title="RoboPengu Güç Reaktörü (Aktif)"
                 onClick={() => handleSend('Bana kendinden ve bu sitede yapabileceklerinden bahset!')}
               >
@@ -221,13 +221,6 @@ export function AIAssistantModal({ isOpen, onClose, initialQuery = '' }: AIAssis
                 <span className="relative inline-flex rounded-full h-6 w-6 bg-cyan-400 shadow-[0_0_18px_#22d3ee] border-2 border-white animate-neon-pulse flex items-center justify-center">
                   <span className="text-[8px] text-slate-950 font-black">⏻</span>
                 </span>
-              </div>
-
-              {/* Gagasından Modala Bağlanan Konuşma Kuyruğu (Speech Pointer) */}
-              <div className="hidden md:block absolute top-[28%] -right-[6px] w-0 h-0 
-                          border-t-[10px] border-t-transparent 
-                          border-b-[10px] border-b-transparent 
-                          border-l-[14px] border-l-white dark:border-l-slate-900">
               </div>
             </div>
           </div>
@@ -240,6 +233,12 @@ export function AIAssistantModal({ isOpen, onClose, initialQuery = '' }: AIAssis
             transition={{ duration: 0.2 }}
             className="relative w-full bg-white dark:bg-slate-900 rounded-3xl shadow-2xl border border-slate-100 dark:border-slate-800 flex flex-col overflow-visible h-[600px] z-20"
           >
+            {/* Gagasından Modala Bağlanan Konuşma Oku (Speech Pointer) */}
+            <div className="hidden md:block absolute top-[88px] -left-3.5 w-0 h-0 
+                        border-t-[10px] border-t-transparent 
+                        border-b-[10px] border-b-transparent 
+                        border-r-[14px] border-r-white dark:border-r-slate-900 z-20">
+            </div>
             
             {/* Modal Header */}
             <div className="px-6 py-4 border-b border-slate-100 dark:border-slate-800 flex items-center justify-between bg-white dark:bg-slate-900 shrink-0">
