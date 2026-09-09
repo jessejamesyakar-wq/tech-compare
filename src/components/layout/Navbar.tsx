@@ -435,10 +435,10 @@ export function Navbar() {
                         e.stopPropagation();
                         openAiAssistant();
                       }}
-                      className="relative flex items-center gap-1.5 px-3 py-1.5 rounded-full text-white text-[11px] font-black shadow-md transition-all duration-200 cursor-pointer overflow-hidden bg-gradient-to-r from-emerald-600 via-teal-600 to-emerald-600 shadow-emerald-500/20 hover:shadow-emerald-500/35 hover:scale-105 active:scale-95"
+                      className="relative flex items-center gap-1.5 px-3.5 py-1.5 rounded-full text-[11px] font-black shadow-xs transition-all duration-200 cursor-pointer overflow-hidden border border-[#cbe0f5] dark:border-slate-700 bg-gradient-to-r from-[#eaf2fb] via-[#f1f8fc] to-[#f8fbfe] dark:from-slate-800 dark:to-slate-700 text-slate-800 dark:text-slate-100 hover:border-emerald-500/50 hover:shadow-sm hover:scale-105 active:scale-95 whitespace-nowrap shrink-0"
                       title="RoboPengu & Gemini 3.8"
                     >
-                      <Sparkles className="w-3.5 h-3.5 text-emerald-200 fill-emerald-200 shrink-0" />
+                      <Sparkles className="w-3.5 h-3.5 text-emerald-600 fill-emerald-500 shrink-0" />
                       <span>RoboPengu & Gemini 3.8</span>
                     </button>
                   </div>
@@ -572,10 +572,10 @@ export function Navbar() {
                       e.stopPropagation();
                       openAiAssistant();
                     }}
-                    className="flex items-center gap-1.5 px-3 py-1.5 rounded-full text-[10px] font-black transition-all cursor-pointer shrink-0 ml-1 text-white shadow-sm bg-gradient-to-r from-emerald-600 via-teal-600 to-emerald-600 shadow-emerald-500/20 active:scale-95"
+                    className="flex items-center gap-1.5 px-3 py-1.5 rounded-full text-[10px] font-black transition-all cursor-pointer shrink-0 ml-1 border border-[#cbe0f5] dark:border-slate-700 bg-gradient-to-r from-[#eaf2fb] via-[#f1f8fc] to-[#f8fbfe] dark:from-slate-800 dark:to-slate-700 text-slate-800 dark:text-slate-100 shadow-2xs active:scale-95 whitespace-nowrap"
                     title="RoboPengu & Gemini 3.8"
                   >
-                    <Sparkles className="w-3.5 h-3.5 text-emerald-200 fill-emerald-200 shrink-0" />
+                    <Sparkles className="w-3.5 h-3.5 text-emerald-600 fill-emerald-500 shrink-0" />
                     <span>RoboPengu & Gemini 3.8</span>
                   </button>
                 </div>
