@@ -14,6 +14,7 @@ export interface AIAssistantRecommendation {
   price: number;
   image?: string;
   reason: string;
+  cheapestStore?: string;
 }
 
 interface ChatMessage {
@@ -375,9 +376,16 @@ export function AIAssistantModal({ isOpen, onClose, initialQuery = '' }: AIAssis
                                     <h4 className="text-[11px] font-semibold text-slate-800 dark:text-slate-200 truncate group-hover:text-emerald-600 dark:group-hover:text-emerald-400 transition-colors">
                                       {rec.productName}
                                     </h4>
-                                    <p className="text-[11px] font-bold text-emerald-600 dark:text-emerald-400">
-                                      ₺{rec.price.toLocaleString('tr-TR')}
-                                    </p>
+                                    <div className="flex items-center gap-1.5 flex-wrap">
+                                      <span className="text-[11px] font-bold text-emerald-600 dark:text-emerald-400">
+                                        ₺{rec.price.toLocaleString('tr-TR')}
+                                      </span>
+                                      {rec.cheapestStore && (
+                                        <span className="text-[9px] font-extrabold px-1.5 py-0.5 rounded bg-emerald-50 dark:bg-emerald-950/60 text-emerald-700 dark:text-emerald-300 border border-emerald-200/80 dark:border-emerald-800" title="Şu anki en ucuz satıcı">
+                                          {rec.cheapestStore}
+                                        </span>
+                                      )}
+                                    </div>
                                     {rec.reason && (
                                       <p className="text-[9px] text-slate-400 dark:text-slate-500 line-clamp-1">
                                         {rec.reason}

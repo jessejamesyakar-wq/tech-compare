@@ -15,6 +15,13 @@ export interface CatalogItem {
   image?: string;
   specsSummary?: string;
   releaseYear?: number;
+  cheapestStore: string;
+  cheapestPrice: number;
+  secondCheapestStore?: string;
+  secondCheapestPrice?: number;
+  priceDiffWithSecond?: number;
+  marketSaving?: number;
+  alternativeStoresFormatted?: string;
 }
 
 export interface AssistantRecommendation {
@@ -25,6 +32,11 @@ export interface AssistantRecommendation {
   price: number;
   image?: string;
   reason: string;
+  cheapestStore?: string;
+  secondCheapestStore?: string;
+  secondCheapestPrice?: number;
+  marketSaving?: number;
+  alternativeStores?: string;
 }
 
 export interface AssistantResponse {
@@ -51,12 +63,12 @@ function normalizeTr(text: string): string {
     .trim();
 }
 
-// Intelligent pre-filtering: narrows down 5,800+ products to top 20-25 candidates with multi-brand diversity
+// Intelligent pre-filtering: narrows down 5,800+ products to top 20-25 candidates with multi-brand diversity and store price matching
 export function preFilterProducts(userMessage: string, limit = 25): CatalogItem[] {
   const allProducts = getStoredProducts();
   const normMessage = normalizeTr(userMessage);
 
-  // 1. Extract budget mentions (e.g. 60.000, 60000, 60 bin, 60k, 25.000 TL altı, 40 bin civarı)
+  // 1. Extract budget mentions (e.g. "45.000 TL", "60 bin civarı", "en fazla 30.000 TL", "50k", "40000")
   let targetBudget = 0;
   const kMatch = normMessage.match(/\b([0-9]{1,3})\s*k\b/i);
   const binMatch = normMessage.match(/\b([0-9]{1,3})\s*bin\b/i);
@@ -92,9 +104,9 @@ export function preFilterProducts(userMessage: string, limit = 25): CatalogItem[
     const normName = normalizeTr(p.name || "");
 
     // Category affinity
-    if (isPhone && (cat === "smartphones" || cat === "phones")) score += 30;
-    if (isTv && cat === "tvs") score += 30;
-    if (isLaptop && cat === "laptops") score += 30;
+    if (isPhone && (cat === "smartphones" || cat === "phones")) score += 35;
+    if (isTv && cat === "tvs") score += 35;
+    if (isLaptop && cat === "laptops") score += 35;
     if (isAppliance && cat === "appliances") score += 30;
     if (isHeadphone && cat === "headphones") score += 30;
     if (isWatch && cat === "smartwatches") score += 30;
@@ -102,11 +114,11 @@ export function preFilterProducts(userMessage: string, limit = 25): CatalogItem[
     if (isMonitor && cat === "monitors") score += 30;
     if (isConsole && cat === "consoles") score += 30;
 
-    // If no category specified by user, distribute across top popular categories for that budget
+    // Kategori belirtilmediyse en popüler kategoriler (Telefon, Televizyon, Bilgisayar/Laptop)
     if (!hasSpecificCategory && targetBudget > 0) {
-      if (cat === "smartphones" || cat === "phones") score += 25;
-      if (targetBudget >= 35000 && (cat === "laptops" || cat === "tvs")) score += 25;
-      if (targetBudget < 35000 && (cat === "tablets" || cat === "laptops" || cat === "headphones")) score += 20;
+      if (cat === "smartphones" || cat === "phones") score += 30;
+      if (cat === "laptops") score += 30;
+      if (cat === "tvs") score += 30;
     }
 
     // Brand matching
@@ -118,19 +130,19 @@ export function preFilterProducts(userMessage: string, limit = 25): CatalogItem[
       if (normBrand.includes(tok)) score += 10;
     }
 
-    // Budget matching with ±10% to ±15% dynamic flexibility
+    // 1. Kural: Fiyat ve Bütçe Algılama [Bütçe * 0.90] ile [Bütçe * 1.05] aralığı
     if (targetBudget > 0 && p.basePrice > 0) {
-      const minBudget = targetBudget * 0.85; // -15%
-      const maxBudget = targetBudget * 1.15; // +15%
+      const minBudget = targetBudget * 0.90; // Bütçe * 0.90
+      const maxBudget = targetBudget * 1.05; // Bütçe * 1.05
 
       if (p.basePrice >= minBudget && p.basePrice <= maxBudget) {
-        score += 55; // Sweet spot within ±15% range
-      } else if (p.basePrice >= targetBudget * 0.70 && p.basePrice < minBudget) {
-        score += 25; // Good value slightly below
-      } else if (p.basePrice > maxBudget && p.basePrice <= targetBudget * 1.25) {
-        score += 15; // Acceptable stretch slightly above
+        score += 70; // Tam hedef aralık [0.90 - 1.05]
+      } else if (p.basePrice >= targetBudget * 0.80 && p.basePrice < minBudget) {
+        score += 35; // Yakın alt alternatifler
+      } else if (p.basePrice > maxBudget && p.basePrice <= targetBudget * 1.15) {
+        score += 30; // Yakın üst alternatifler
       } else {
-        score -= 30; // Far outside requested budget range
+        score -= 40; // Bütçe aralığı dışında
       }
     }
 
@@ -148,16 +160,46 @@ export function preFilterProducts(userMessage: string, limit = 25): CatalogItem[
       if (s.screen?.size || s.screenSizeInches) specsSummary += `${s.screen?.size || s.screenSizeInches}", `;
     }
 
+    // 2. Kural: Arka plandaki mağaza fiyatlarını tara (En ucuz satıcı & alternatif satıcılar)
+    const validOffers = Array.isArray(p.storeOffers)
+      ? p.storeOffers
+          .filter((o: any) => typeof o.price === "number" && o.price > 0 && o.inStock !== false)
+          .sort((a: any, b: any) => a.price - b.price)
+      : [];
+
+    const cheapestStore = validOffers[0]?.storeName || "Hepsiburada";
+    const cheapestPrice = validOffers[0]?.price || p.basePrice || 0;
+    const secondCheapestStore = validOffers[1]?.storeName;
+    const secondCheapestPrice = validOffers[1]?.price;
+    const priceDiffWithSecond = secondCheapestPrice ? secondCheapestPrice - cheapestPrice : 0;
+
+    const avgPrice = validOffers.length > 0
+      ? Math.round(validOffers.reduce((acc: number, o: any) => acc + o.price, 0) / validOffers.length)
+      : cheapestPrice;
+    const marketSaving = avgPrice > cheapestPrice ? avgPrice - cheapestPrice : 0;
+
+    const alternativeStoresFormatted = validOffers
+      .slice(1, 4)
+      .map((o: any) => `${o.storeName}: ₺${o.price.toLocaleString("tr-TR")}`)
+      .join(", ");
+
     const item: CatalogItem = {
       id: p.id,
       slug: p.slug || p.id,
       name: p.name,
       brand: p.brand,
       category: p.category === "smartphones" ? "phones" : p.category || "phones",
-      price: p.basePrice || 0,
+      price: cheapestPrice,
       image: p.image || (Array.isArray(p.images) ? p.images[0] : undefined),
       specsSummary: specsSummary ? specsSummary.slice(0, 80) : undefined,
       releaseYear: p.releaseYear,
+      cheapestStore,
+      cheapestPrice,
+      secondCheapestStore,
+      secondCheapestPrice,
+      priceDiffWithSecond,
+      marketSaving,
+      alternativeStoresFormatted,
     };
 
     return { item, score };
@@ -194,48 +236,66 @@ export function preFilterProducts(userMessage: string, limit = 25): CatalogItem[
 // System Knowledge Base & Persona Prompt
 function buildSystemInstruction(relevantProducts: CatalogItem[]): string {
   const catalogContext = relevantProducts.length > 0
-    ? relevantProducts.map(p => `- [${p.brand}] ${p.name} | Kategori: ${p.category} | Fiyat: ₺${p.price.toLocaleString("tr-TR")} | ID: ${p.id} | Slug: ${p.slug}${p.specsSummary ? ' | Özellikler: ' + p.specsSummary : ''}`).join("\n")
+    ? relevantProducts.map(p => {
+        let storeLine = `EN UCUZ: ₺${p.cheapestPrice.toLocaleString("tr-TR")} (Satıcı: ${p.cheapestStore})`;
+        if (p.secondCheapestStore && p.secondCheapestPrice) {
+          storeLine += ` | 2. En Ucuz: ${p.secondCheapestStore} (₺${p.secondCheapestPrice.toLocaleString("tr-TR")})`;
+          if (p.priceDiffWithSecond && p.priceDiffWithSecond > 0) {
+            storeLine += ` [${p.secondCheapestStore}'dan ₺${p.priceDiffWithSecond.toLocaleString("tr-TR")} daha ucuz!]`;
+          }
+        }
+        if (p.marketSaving && p.marketSaving > 0) {
+          storeLine += ` | Piyasa Tasarrufu: ~₺${p.marketSaving.toLocaleString("tr-TR")}`;
+        }
+        if (p.alternativeStoresFormatted) {
+          storeLine += ` | Alternatif Satıcılar: ${p.alternativeStoresFormatted}`;
+        }
+        return `- [${p.brand}] ${p.name} | Kategori: ${p.category} | ${storeLine} | ID: ${p.id} | Slug: ${p.slug}${p.specsSummary ? ' | Donanım: ' + p.specsSummary : ''}`;
+      }).join("\n")
     : "Katalogda bu sorguya özel ürün bulunamadı.";
 
   return `Sen TechKıyas'ın tarafsız, adil ve zeki 3D robot penguen maskotu "RoboPengu"sun! 🐧
-Kullanıcılara tarafsız, adil fiyat analizi vizyonuna uygun, samimi, akıcı ve rehberlik eden bir dille yanıt ver.
+Sitemiz bir "Fiyat Kıyaslama Platformu"dur ve temel ilkemiz "Adil Fiyat Kıyaslama"dır.
 
-DAVRANIŞ VE ÜRÜN ÖNERME KURALLARI:
+MİMARİ VE YANIT KURALLARI (ZORUNLU):
 
-1. Bütçe ve Fiyat Dinamiği:
-- Kullanıcı herhangi bir bütçe veya fiyat belirttiğinde (örneğin "60.000 TL", "25.000 TL altı", "40 bin civarı", "60k" vb.), hedef tutarın yaklaşık ±%10-%15 esneklik payını (fiyat bandını) otomatik olarak hesaba kat.
-- Asla sadece tek bir ürüne veya tek bir markaya kilitlenme.
+1. Fiyat ve Bütçe Algılama (Dinamik Aralık):
+- Kullanıcı herhangi bir rakam/bütçe belirttiğinde (örneğin "45.000 TL", "60 bin civarı", "en fazla 30.000 TL", "50k" vb.), o rakamı temel al ve [Bütçe * 0.90] ile [Bütçe * 1.05] aralığındaki ürünleri öncelikle değerlendir.
+- Kullanıcı kategori belirtmediyse en popüler kategorilerden (Telefon, Televizyon, Bilgisayar) çoklu marka seçeneği sun.
 
-2. Çoklu Marka ve Çeşitlilik Kuralı:
-- Belirtilen bütçede sitemizdeki ürün kataloğundan MUTLAKA farklı markalardan (örneğin telefon için Apple, Samsung, Xiaomi/Honor; laptop için Apple, Asus, Lenovo; TV için Samsung, LG, Philips vb.) en az 2-3 güçlü alternatif sun.
-- Kullanıcı kategori belirtmediyse (örneğin sadece "60.000 TL'ye neler var?" dediyse), o bütçedeki en popüler 2 farklı kategoriden (örn. Akıllı Telefon ve Laptop/TV) öne çıkan farklı marka alternatiflerini listele.
+2. "En Ucuz Nerede?" Mantığı ve Çoklu Mağaza Karşılaştırması:
+- Her önerilen model için arka plandaki mağaza fiyatlarını tara.
+- Kullanıcıya öneri sunarken sadece ürün adını değil, MUTLAKA o ürünün şu an EN UCUZ hangi mağazada/pazaryerinde olduğunu ve en düşük fiyatını listele.
+- Varsa ikinci en ucuz yerle arasındaki fiyat avantajını/farkını belirt (örn. "Trendyol'dan 1.250 TL daha uygun" veya "Piyasa ortalamasından 1.500 TL daha hesaplı").
 
-3. Karşılaştırmalı Sunum Şablonu:
-Önerileri sunarken MUTLAKA şu yapıyı ve formatı kullan:
-• [Marka & Model]: [Güncel Fiyat] — [Öne çıkan 1 temel avantajı/farkı]
+3. Yanıt Şablonu (Kart Görünümü / Yapılandırılmış Çıktı):
+Önerileri kullanıcıya sunarken her model için BİREBİR şu formatı uygula:
 
-Örnek Sunum Formatı:
-• Samsung Galaxy S24+ (~58.499 TL) — Ekran kalitesi, yapay zeka özellikleri ve telefoto zoom avantajı.
-• Apple iPhone 16 (~63.999 TL) — A18 çip performansı, iOS ekosistem akıcılığı ve uzun yazılım desteği.
-• Xiaomi 14 (~54.999 TL) — 90W ultra hızlı şarj, kompakt tasarım ve Leica lens avantajı.
+[Kategori İkonu: 📱 Telefon, 💻 Bilgisayar/Laptop, 📺 Televizyon, ⚡ Diğer] [Marka Model Adı]
+• En Ucuz Fiyat: [X.XXX TL] — Satıcı: [Mağaza Adı] (Varsa 2. satıcıya veya piyasa ortalamasına göre fiyat farkını ekle: "Trendyol'a göre 1.450 TL daha uygun" veya "Piyasa ortalamasından 2.100 TL daha avantajlı")
+• Alternatif Satıcı Fiyatları: [Diğer Mağaza: Y.YYY TL, Başka Mağaza: Z.ZZZ TL]
+• Neden Bu Model?: [1 Cümlelik temel performans veya donanım artısı]
 
-4. Karakter & Kimlik & Yönlendirici Kapanış:
-- Sen TechKıyas'ın tarafsız, adil ve zeki 3D robot penguen maskotu "RoboPengu"sun. 🐧
-- Asla soğuk veya kalıplaşmış robotik cümleler kurma. Samimi, enerjik, güven verici ve çözüm odaklı ol.
-- Yanıtının en sonunda kullanıcıya MUTLAKA tek bir yönlendirici soru sor:
-  "Hangi özellikleri (kamera, pil, ekran, performans vb.) senin için daha öncelikli?" gibi.
+Örnek Şablon Uygulaması:
+📱 Samsung Galaxy S24+ (256 GB)
+• En Ucuz Fiyat: 58.499 TL — Satıcı: Hepsiburada (Trendyol'a göre 1.450 TL daha uygun)
+• Alternatif Satıcı Fiyatları: Trendyol: 59.949 TL, MediaMarkt: 60.499 TL, Amazon TR: 60.999 TL
+• Neden Bu Model?: Dynamic AMOLED 2X ekran kalitesi, Galaxy AI yapay zeka araçları ve 7 yıllık işletim sistemi güncelleme desteği.
 
-PLATFORM SİTE İÇİ BİLGİ TABANI (GENEL SORULAR İÇİN):
-- Platform Amacı: TechKıyas, Türkiye'nin en kapsamlı bağımsız teknoloji ürün ve fiyat karşılaştırma platformudur. Kullanıcıların en doğru cihazı en avantajlı fiyata bulmasını sağlar.
-- Satış Modeli: Sitemiz doğrudan ürün satışı yapmaz! Hepsiburada, Trendyol, Amazon TR, Vatan Bilgisayar, MediaMarkt, Teknosa gibi Türkiye'nin en güvenilir mağazalarının güncel fiyat ve stoklarını anlık olarak listeler. Satın alma işlemi ilgili mağaza üzerinden güvenle gerçekleşir.
-- Kargo ve Teslimat: Ürün satışı mağaza tarafından yapıldığı için teslimat süresi genellikle 1-3 iş günüdür. Kargo firması ve kargo bedeli (çoğu mağazada belirli sepet tutarı üzeri ücretsizdir) seçilen mağazanın kurallarına tabidir.
-- Fiyat Takibi ve Grafikler: Her ürün detay sayfasında son 30, 60 ve 90 günlük geçmiş fiyat grafiği ve en düşük/en yüksek fiyatlar bulunur. Böylece ürünün gerçekten indirimde olup olmadığı net görülür.
-- Fiyat Alarmı: Ürün sayfasındaki 'Fiyat Alarmı Kur' butonuna tıklayıp hedeflediğiniz fiyatı belirlediğinizde, fiyat o rakama düştüğünde anında e-posta bildirimi alırsınız.
-- Karşılaştırma Masası (Kıyasla): Ürün kartlarındaki 'Kıyasla' butonuna tıklayarak telefon, laptop, TV ve ev aletlerini yan yana teknik özellik, kamera, pil, ekran ve fiyat avantajlarıyla detaylı kıyaslayabilirsiniz.
-- Acele Etme Skoru: Ürünün donanım performansı, kullanıcı yorumları ve piyasa fiyat dengesini 100 üzerinden tarafsız olarak puanlayan akıllı skorumuzdur.
+💻 Apple MacBook Air M3 (16 GB / 512 GB)
+• En Ucuz Fiyat: 56.999 TL — Satıcı: Amazon TR (Piyasa ortalamasından 2.300 TL daha hesaplı)
+• Alternatif Satıcı Fiyatları: Hepsiburada: 58.999 TL, Teknosa: 59.499 TL
+• Neden Bu Model?: 3nm M3 çipin yüksek güç verimliliği ve 18 saate varan kesintisiz pil ömrü.
 
-ÜRÜN SEÇİM KISITI:
-- SADECE aşağıda sağlanan filtrelenmiş güncel katalogdan ürün seç. Asla katalogda olmayan hayali ürün veya fiyat uydurma.
+4. Çeşitlilik İlkesi ve Yönlendirici Kapanış:
+- Asla tek bir markayla sınırlı kalma. İlgili bütçe bandındaki en az 2-3 farklı markanın (Apple, Samsung, Xiaomi, Asus vb.) en güçlü rakiplerini yan yana kıyasla.
+- Eğer kullanıcının bütçesine tam denk gelen model yoksa en yakın alt ve üst alternatifleri dürüstçe belirt.
+- Yanıtın en sonunda kullanıcıya MUTLAKA tek bir yönlendirici soru sor:
+  "Hangi özellikleri (kamera, pil, ekran, performans vb.) senin için daha öncelikli? 🐧"
+
+PLATFORM SİTE İÇİ BİLGİ TABANI:
+- Sitemiz doğrudan ürün satışı yapmaz; Hepsiburada, Trendyol, Amazon TR, Vatan Bilgisayar, MediaMarkt, Teknosa gibi güvenilir mağazaların güncel fiyatlarını anlık karşılaştırır.
+- Her ürün detay sayfasında 30, 60 ve 90 günlük geçmiş fiyat grafiği ve fiyat alarmı bulunur.
 
 ÖN-FİLTRELENMİŞ GÜNCEL KATALOG:
 ${catalogContext}`;
@@ -260,7 +320,7 @@ export async function POST(req: NextRequest) {
 
     const relevantProducts = preFilterProducts(message, 25);
 
-    // Pick 3 diverse brand recommendations for topRecs
+    // Pick 3 diverse brand recommendations for topRecs with store info
     const pickedBrands = new Set<string>();
     const topRecs: AssistantRecommendation[] = [];
 
@@ -273,9 +333,14 @@ export async function POST(req: NextRequest) {
           slug: p.slug,
           productName: p.name,
           category: p.category,
-          price: p.price,
+          price: p.cheapestPrice,
           image: p.image,
-          reason: `${p.brand} alternatifinde öne çıkan model (~₺${p.price.toLocaleString("tr-TR")})`
+          reason: `${p.brand} alternatifinde en avantajlı seçenek`,
+          cheapestStore: p.cheapestStore,
+          secondCheapestStore: p.secondCheapestStore,
+          secondCheapestPrice: p.secondCheapestPrice,
+          marketSaving: p.marketSaving,
+          alternativeStores: p.alternativeStoresFormatted,
         });
       }
     }
@@ -289,9 +354,14 @@ export async function POST(req: NextRequest) {
           slug: p.slug,
           productName: p.name,
           category: p.category,
-          price: p.price,
+          price: p.cheapestPrice,
           image: p.image,
-          reason: `${p.brand} kalitesi ve ₺${p.price.toLocaleString("tr-TR")} güncel fiyatıyla öne çıkıyor.`
+          reason: `${p.brand} alternatifinde öne çıkan model`,
+          cheapestStore: p.cheapestStore,
+          secondCheapestStore: p.secondCheapestStore,
+          secondCheapestPrice: p.secondCheapestPrice,
+          marketSaving: p.marketSaving,
+          alternativeStores: p.alternativeStoresFormatted,
         });
       }
     }
@@ -303,13 +373,18 @@ export async function POST(req: NextRequest) {
       const isGreeting = /^(selam|merhaba|gunaydin|iyi gunler|nasilsin|naber|hey|merhabalar)\b/i.test(normalizeTr(message));
       let reply = "";
       if (isGreeting) {
-        reply = "Harikayım, çok teşekkürler! 🐧 TechKıyas'ta seninle olmak harika bir duygu. Bugün hangi bütçede veya kategoride bir cihaz bakıyoruz?";
+        reply = "Harikayım, çok teşekkürler! 🐧 TechKıyas'ta seninle olmak çok keyifli. Bugün hangi bütçede veya kategoride en ucuz fiyatlı cihazı arıyoruz?";
       } else if (topRecs.length > 0) {
-        reply = `Senin için en güçlü farklı marka alternatiflerini derledim: 🐧\n\n` +
-          topRecs.map(r => `• **${r.productName}** (~₺${r.price.toLocaleString("tr-TR")}) — ${r.reason}`).join("\n") +
-          `\n\nHangi özellikleri (kamera, pil, ekran, performans vb.) senin için daha öncelikli?`;
+        reply = `Senin için en ucuz satıcıları ve alternatif modelleri derledim: 🐧\n\n` +
+          topRecs.map(r => {
+            const icon = r.category === "smartphones" || r.category === "phones" ? "📱" : r.category === "laptops" ? "💻" : r.category === "tvs" ? "📺" : "⚡";
+            const diff = r.marketSaving && r.marketSaving > 0 ? ` (Piyasa ortalamasından ₺${r.marketSaving.toLocaleString("tr-TR")} daha hesaplı)` : "";
+            const altText = r.alternativeStores ? `\n• Alternatif Satıcı Fiyatları: ${r.alternativeStores}` : "";
+            return `${icon} **${r.productName}**\n• En Ucuz Fiyat: ₺${r.price.toLocaleString("tr-TR")} — Satıcı: **${r.cheapestStore || 'Hepsiburada'}**${diff}${altText}\n• Neden Bu Model?: ${r.reason}`;
+          }).join("\n\n") +
+          `\n\nHangi özellikleri (kamera, pil, ekran, performans vb.) senin için daha öncelikli? 🐧`;
       } else {
-        reply = `Merhaba! 🐧 "${message}" talebin için kataloğumuzdaki en avantajlı modelleri inceliyorum. Hangi özellikler senin için daha öncelikli?`;
+        reply = `Merhaba! 🐧 "${message}" talebin için güncel mağaza fiyatlarını tarıyorum. Hangi özellikler senin için daha öncelikli?`;
       }
       if (isStream) {
         return createStreamResponse(reply, isGreeting ? [] : topRecs);
@@ -424,9 +499,14 @@ export async function POST(req: NextRequest) {
       if (isGreeting) {
         fallbackReply = "Harikayım, teşekkürler! 🐧 TechKıyas'ta seninle olmak çok keyifli. Teknolojide neyi merak ediyorsun, nasıl yardımcı olabilirim?";
       } else if (topRecs.length > 0) {
-        fallbackReply = `Senin için en güçlü alternatif modelleri derledim: 🐧\n\n` +
-          topRecs.map(r => `• **${r.productName}** (~₺${r.price.toLocaleString("tr-TR")}) — ${r.reason}`).join("\n") +
-          `\n\nHangi özellikleri (kamera, pil, ekran, performans vb.) senin için daha öncelikli?`;
+        fallbackReply = `Senin için en ucuz satıcıları ve alternatif modelleri derledim: 🐧\n\n` +
+          topRecs.map(r => {
+            const icon = r.category === "smartphones" || r.category === "phones" ? "📱" : r.category === "laptops" ? "💻" : r.category === "tvs" ? "📺" : "⚡";
+            const diff = r.marketSaving && r.marketSaving > 0 ? ` (Piyasa ortalamasından ₺${r.marketSaving.toLocaleString("tr-TR")} daha hesaplı)` : "";
+            const altText = r.alternativeStores ? `\n• Alternatif Satıcı Fiyatları: ${r.alternativeStores}` : "";
+            return `${icon} **${r.productName}**\n• En Ucuz Fiyat: ₺${r.price.toLocaleString("tr-TR")} — Satıcı: **${r.cheapestStore || 'Hepsiburada'}**${diff}${altText}\n• Neden Bu Model?: ${r.reason}`;
+          }).join("\n\n") +
+          `\n\nHangi özellikleri (kamera, pil, ekran, performans vb.) senin için daha öncelikli? 🐧`;
       } else {
         fallbackReply = `Talebiniz için kataloğumuzdaki en popüler ve avantajlı modelleri hazırladım: 🐧`;
       }
@@ -473,9 +553,14 @@ export async function POST(req: NextRequest) {
     if (isGreeting) {
       jsonReply = "Harikayım, çok teşekkür ederim! 🐧 Seninle burada olmak harika. Bugün nasıl bir teknoloji arıyoruz?";
     } else if (topRecs.length > 0) {
-      jsonReply = `Senin için en güçlü alternatif modelleri derledim: 🐧\n\n` +
-        topRecs.map(r => `• **${r.productName}** (~₺${r.price.toLocaleString("tr-TR")}) — ${r.reason}`).join("\n") +
-        `\n\nHangi özellikleri (kamera, pil, ekran, performans vb.) senin için daha öncelikli?`;
+      jsonReply = `Senin için en ucuz satıcıları ve alternatif modelleri derledim: 🐧\n\n` +
+        topRecs.map(r => {
+          const icon = r.category === "smartphones" || r.category === "phones" ? "📱" : r.category === "laptops" ? "💻" : r.category === "tvs" ? "📺" : "⚡";
+          const diff = r.marketSaving && r.marketSaving > 0 ? ` (Piyasa ortalamasından ₺${r.marketSaving.toLocaleString("tr-TR")} daha hesaplı)` : "";
+          const altText = r.alternativeStores ? `\n• Alternatif Satıcı Fiyatları: ${r.alternativeStores}` : "";
+          return `${icon} **${r.productName}**\n• En Ucuz Fiyat: ₺${r.price.toLocaleString("tr-TR")} — Satıcı: **${r.cheapestStore || 'Hepsiburada'}**${diff}${altText}\n• Neden Bu Model?: ${r.reason}`;
+        }).join("\n\n") +
+        `\n\nHangi özellikleri (kamera, pil, ekran, performans vb.) senin için daha öncelikli? 🐧`;
     } else {
       jsonReply = "İhtiyacınıza uygun güncel modelleri sizin için seçtim: 🐧";
     }
