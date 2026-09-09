@@ -165,6 +165,36 @@ if (criticalErrors.length > 0) {
   console.error('\n🛑 Deploy halted to protect catalog integrity.');
   process.exit(1);
 } else {
+  // Generate lightweight search index for instant zero-API client-side search
+  const searchIndexItems = [];
+  const seenSearchIds = new Set();
+  currentProductsMap.forEach((products) => {
+    products.forEach((p) => {
+      const id = p.id || p.slug;
+      if (!id || seenSearchIds.has(id)) return;
+      seenSearchIds.add(id);
+      searchIndexItems.push({
+        id: p.id,
+        slug: p.slug || p.id,
+        name: p.name,
+        brand: p.brand,
+        category: p.category,
+        image: p.image || (Array.isArray(p.images) ? p.images[0] : ''),
+        basePrice: p.basePrice || 0,
+        rating: p.rating || 4.5,
+        isPopular: !!p.isPopular,
+        releaseYear: p.releaseYear || undefined,
+      });
+    });
+  });
+
+  const searchIndexDir = path.join(publicDir, 'data');
+  if (!fs.existsSync(searchIndexDir)) fs.mkdirSync(searchIndexDir, { recursive: true });
+  const searchIndexPath = path.join(searchIndexDir, 'search-index.json');
+  fs.writeFileSync(searchIndexPath, JSON.stringify(searchIndexItems));
+  console.log(`⚡ Fast client search index generated: ${searchIndexItems.length} products written to ${searchIndexPath}`);
+
   console.log(`\n✅ ALL PRE-DEPLOY INTEGRITY CHECKS PASSED (0 broken links, 0 duplicate IDs/slugs, 0 data loss).`);
   process.exit(0);
 }
+

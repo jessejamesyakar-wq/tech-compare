@@ -519,12 +519,29 @@ export async function filterProducts(options: FilterOptions): Promise<Product[]>
   return products;
 }
 
+function normalizeTurkish(text: string): string {
+  if (!text) return '';
+  return text
+    .replace(/İ/g, 'i')
+    .replace(/I/g, 'ı')
+    .toLocaleLowerCase('tr-TR')
+    .replace(/ı/g, 'i')
+    .replace(/ç/g, 'c')
+    .replace(/ğ/g, 'g')
+    .replace(/ö/g, 'o')
+    .replace(/ş/g, 's')
+    .replace(/ü/g, 'u')
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .trim();
+}
+
 interface SearchIndexEntry {
   product: Product;
-  nameLower: string;
-  brandLower: string;
-  catLower: string;
-  slugLower: string;
+  nameNorm: string;
+  brandNorm: string;
+  catNorm: string;
+  slugNorm: string;
   corpus: string;
 }
 
@@ -539,19 +556,18 @@ function getSearchIndex(): SearchIndexEntry[] {
   
   lastProductsRef = currentProducts;
   cachedSearchIndex = currentProducts.map((p) => {
-    const nameLower = (p.name || '').toLowerCase();
-    const brandLower = (p.brand || '').toLowerCase();
-    const catLower = (p.category || '').toLowerCase();
-    const slugLower = (p.slug || '').toLowerCase();
-    const tagsLower = (p.tags || []).join(' ').toLowerCase();
-    const corpus = `${nameLower} ${brandLower} ${catLower} ${slugLower} ${tagsLower}`;
+    const nameNorm = normalizeTurkish(p.name || '');
+    const brandNorm = normalizeTurkish(p.brand || '');
+    const catNorm = normalizeTurkish(p.category || '');
+    const slugNorm = normalizeTurkish(p.slug || '');
+    const corpus = `${nameNorm} ${brandNorm} ${catNorm} ${slugNorm}`;
 
     return {
       product: p,
-      nameLower,
-      brandLower,
-      catLower,
-      slugLower,
+      nameNorm,
+      brandNorm,
+      catNorm,
+      slugNorm,
       corpus,
     };
   });
@@ -560,7 +576,7 @@ function getSearchIndex(): SearchIndexEntry[] {
 }
 
 export async function searchProducts(query: string, limit?: number): Promise<Product[]> {
-  const q = query.toLowerCase().trim();
+  const q = normalizeTurkish(query);
   if (!q) return [];
 
   const tokens = q.split(/\s+/).filter(Boolean);
@@ -583,18 +599,19 @@ export async function searchProducts(query: string, limit?: number): Promise<Pro
     if (!matchesAll) continue;
 
     let score = 0;
-    if (entry.nameLower === q) score += 100;
-    else if (entry.nameLower.startsWith(q)) score += 80;
-    else if (entry.nameLower.includes(q)) score += 60;
+    if (entry.nameNorm === q) score += 1000;
+    else if (entry.nameNorm.startsWith(q)) score += 500;
+    else if (entry.nameNorm.includes(q)) score += 300;
 
     for (let t = 0; t < tokens.length; t++) {
       const tok = tokens[t];
-      if (entry.nameLower.includes(tok)) score += 20;
-      if (entry.brandLower.includes(tok)) score += 15;
-      if (entry.catLower.includes(tok)) score += 10;
+      if (entry.nameNorm.includes(tok)) score += 50;
+      if (entry.brandNorm.includes(tok)) score += 30;
+      if (entry.catNorm.includes(tok)) score += 15;
     }
 
-    if (entry.product.isPopular) score += 5;
+    if (entry.product.releaseYear && entry.product.releaseYear >= 2025) score += 25;
+    if (entry.product.isPopular) score += 10;
     if (entry.product.rating) score += entry.product.rating;
 
     scoredResults.push({ product: entry.product, score });
