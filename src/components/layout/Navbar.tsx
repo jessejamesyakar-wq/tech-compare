@@ -203,7 +203,7 @@ export function Navbar() {
       return (
         <div className="absolute top-full left-0 right-0 mt-2 bg-white/95 dark:bg-slate-900/95 border border-slate-200 dark:border-slate-800 rounded-2xl shadow-2xl p-3 z-50 animate-in fade-in zoom-in-95 backdrop-blur-xl space-y-2.5">
           <div className="flex items-center justify-between text-xs text-slate-500 pb-1.5 border-b border-slate-100 dark:border-slate-800">
-            <span className="font-extrabold uppercase text-[10px] tracking-wider text-slate-400 dark:text-slate-500">✨ RoboPengu AI'ya Danış</span>
+            <span className="font-extrabold uppercase text-[10px] tracking-wider text-slate-400 dark:text-slate-500">✨ RoboPengu'ya Danış</span>
             <span className="text-emerald-700 dark:text-emerald-400 font-bold text-[10px]">Akıllı Asistan 🐧</span>
           </div>
           <div className="flex flex-wrap gap-1.5">
@@ -436,13 +436,10 @@ export function Navbar() {
                         openAiAssistant();
                       }}
                       className="relative flex items-center gap-1.5 px-3 py-1.5 rounded-full text-white text-[11px] font-black shadow-md transition-all duration-200 cursor-pointer overflow-hidden bg-gradient-to-r from-emerald-600 via-teal-600 to-emerald-600 shadow-emerald-500/20 hover:shadow-emerald-500/35 hover:scale-105 active:scale-95"
-                      title="RoboPengu AI Asistanı"
+                      title="RoboPengu"
                     >
                       <Sparkles className="w-3.5 h-3.5 text-emerald-200 fill-emerald-200" />
                       <span>RoboPengu</span>
-                      <span className="bg-white/20 text-white text-[9px] px-1.5 py-0.2 rounded-full font-extrabold uppercase">
-                        AI
-                      </span>
                     </button>
                   </div>
                 </div>
@@ -576,7 +573,7 @@ export function Navbar() {
                       openAiAssistant();
                     }}
                     className="flex items-center gap-1.5 px-3 py-1.5 rounded-full text-[10px] font-black transition-all cursor-pointer shrink-0 ml-1 text-white shadow-sm bg-gradient-to-r from-emerald-600 via-teal-600 to-emerald-600 shadow-emerald-500/20 active:scale-95"
-                    title="RoboPengu AI"
+                    title="RoboPengu"
                   >
                     <Sparkles className="w-3.5 h-3.5 text-emerald-200 fill-emerald-200" />
                     <span>RoboPengu</span>
