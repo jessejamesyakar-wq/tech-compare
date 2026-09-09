@@ -202,13 +202,13 @@ export function AIAssistantModal({ isOpen, onClose, initialQuery = '' }: AIAssis
         <div className="relative w-full max-w-2xl md:max-w-3xl flex items-center justify-center">
 
           {/* 1. SOL: DIŞA TAŞAN BÜYÜK ŞEFFAF ROBOPENGU */}
-          <div className="hidden md:block absolute -left-[320px] lg:-left-[350px] -top-16 z-30 pointer-events-none select-none animate-float">
-            <div className="relative w-[340px] lg:w-[380px] h-auto">
+          <div className="hidden md:block absolute -left-[260px] -top-[45px] z-30 pointer-events-none select-none animate-float">
+            <div className="relative">
               {/* Şeffaf Penguen Görseli (Gri kutu veya çerçeve yok) */}
               <img 
                 src="/assets/robopengu.png" 
                 alt="RoboPengu 3D" 
-                className="w-full h-auto object-contain filter drop-shadow-2xl"
+                className="w-[360px] max-w-none h-auto object-contain drop-shadow-[0_25px_35px_rgba(0,0,0,0.30)]"
               />
 
               {/* Göğsündeki Güç Düğmesi Canlı Neon / Pulse Efekti */}
@@ -224,10 +224,10 @@ export function AIAssistantModal({ isOpen, onClose, initialQuery = '' }: AIAssis
               </div>
 
               {/* Gagasından Modala Bağlanan Konuşma Kuyruğu (Speech Pointer) */}
-              <div className="hidden md:block absolute top-[27%] -right-1 w-0 h-0 
-                          border-t-[12px] border-t-transparent 
-                          border-b-[12px] border-b-transparent 
-                          border-l-[16px] border-l-white dark:border-l-slate-900">
+              <div className="hidden md:block absolute top-[28%] -right-[6px] w-0 h-0 
+                          border-t-[10px] border-t-transparent 
+                          border-b-[10px] border-b-transparent 
+                          border-l-[14px] border-l-white dark:border-l-slate-900">
               </div>
             </div>
           </div>
@@ -238,7 +238,7 @@ export function AIAssistantModal({ isOpen, onClose, initialQuery = '' }: AIAssis
             animate={{ opacity: 1, scale: 1, y: 0 }}
             exit={{ opacity: 0, scale: 0.96, y: 15 }}
             transition={{ duration: 0.2 }}
-            className="relative w-full bg-white dark:bg-slate-900 rounded-3xl shadow-2xl border border-slate-100 dark:border-slate-800 flex flex-col overflow-hidden h-[600px] z-20"
+            className="relative w-full bg-white dark:bg-slate-900 rounded-3xl shadow-2xl border border-slate-100 dark:border-slate-800 flex flex-col overflow-visible h-[600px] z-20"
           >
             
             {/* Modal Header */}
