@@ -266,3 +266,33 @@ html, body {
   display: block !important;
 }
 
+/* RoboPengu 3D Mascot Floating & Neon Pulse Animations */
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-9px) rotate(0.8deg);
+  }
+}
+
+.animate-float {
+  animation: float 4.5s ease-in-out infinite;
+}
+
+@keyframes neon-pulse-glow {
+  0%, 100% {
+    box-shadow: 0 0 12px #22d3ee, 0 0 25px #06b6d4, 0 0 35px rgba(6, 182, 212, 0.4);
+    filter: drop-shadow(0 0 8px #22d3ee);
+  }
+  50% {
+    box-shadow: 0 0 18px #10b981, 0 0 35px #059669, 0 0 45px rgba(16, 185, 129, 0.5);
+    filter: drop-shadow(0 0 12px #10b981);
+  }
+}
+
+.animate-neon-pulse {
+  animation: neon-pulse-glow 2.4s ease-in-out infinite;
+}
+
+
