@@ -51,25 +51,27 @@ function normalizeTr(text: string): string {
     .trim();
 }
 
-// Intelligent pre-filtering: narrows down 5,800+ products to top 20-25 candidates
-export function preFilterProducts(userMessage: string, limit = 20): CatalogItem[] {
+// Intelligent pre-filtering: narrows down 5,800+ products to top 20-25 candidates with multi-brand diversity
+export function preFilterProducts(userMessage: string, limit = 25): CatalogItem[] {
   const allProducts = getStoredProducts();
   const normMessage = normalizeTr(userMessage);
 
-  // Extract budget mentions (e.g. 20000, 20.000, 50k, 15 bin)
+  // 1. Extract budget mentions (e.g. 60.000, 60000, 60 bin, 60k, 25.000 TL altı, 40 bin civarı)
   let targetBudget = 0;
+  const kMatch = normMessage.match(/\b([0-9]{1,3})\s*k\b/i);
+  const binMatch = normMessage.match(/\b([0-9]{1,3})\s*bin\b/i);
   const numMatch = normMessage.match(/\b([0-9]{1,3}(?:\.[0-9]{3})+|[0-9]{4,6})\b/);
-  if (numMatch) {
+
+  if (kMatch) {
+    targetBudget = parseInt(kMatch[1], 10) * 1000;
+  } else if (binMatch) {
+    targetBudget = parseInt(binMatch[1], 10) * 1000;
+  } else if (numMatch) {
     targetBudget = parseInt(numMatch[1].replace(/\./g, ""), 10);
-  } else {
-    const binMatch = normMessage.match(/\b([0-9]{1,3})\s*bin\b/);
-    if (binMatch) {
-      targetBudget = parseInt(binMatch[1], 10) * 1000;
-    }
   }
 
-  // Detect category keywords
-  const isPhone = /telefon|iphone|samsung|galaxy|xiaomi|redmi|poco|honor|oppo|vivo|realme/i.test(normMessage);
+  // 2. Detect category keywords
+  const isPhone = /telefon|iphone|samsung|galaxy|xiaomi|redmi|poco|honor|oppo|vivo|realme|akilli telefon/i.test(normMessage);
   const isTv = /tv|televizyon|oled|qled|uhd|ekran|4k|55 inc|65 inc/i.test(normMessage);
   const isLaptop = /laptop|bilgisayar|macbook|dizustu|gaming laptop|asus|lenovo|dell/i.test(normMessage);
   const isAppliance = /supurge|robot supurge|dyson|kahve|camasir|bulasik|buzdolabi|ev aleti/i.test(normMessage);
@@ -78,6 +80,8 @@ export function preFilterProducts(userMessage: string, limit = 20): CatalogItem[
   const isTablet = /tablet|ipad|galaxy tab/i.test(normMessage);
   const isMonitor = /monitor|144hz|165hz|240hz|ips monitor/i.test(normMessage);
   const isConsole = /ps5|playstation|xbox|nintendo|konsol/i.test(normMessage);
+
+  const hasSpecificCategory = isPhone || isTv || isLaptop || isAppliance || isHeadphone || isWatch || isTablet || isMonitor || isConsole;
 
   const queryTokens = normMessage.split(/\s+/).filter(t => t.length > 1);
 
@@ -98,6 +102,13 @@ export function preFilterProducts(userMessage: string, limit = 20): CatalogItem[
     if (isMonitor && cat === "monitors") score += 30;
     if (isConsole && cat === "consoles") score += 30;
 
+    // If no category specified by user, distribute across top popular categories for that budget
+    if (!hasSpecificCategory && targetBudget > 0) {
+      if (cat === "smartphones" || cat === "phones") score += 25;
+      if (targetBudget >= 35000 && (cat === "laptops" || cat === "tvs")) score += 25;
+      if (targetBudget < 35000 && (cat === "tablets" || cat === "laptops" || cat === "headphones")) score += 20;
+    }
+
     // Brand matching
     if (normBrand && normMessage.includes(normBrand)) score += 25;
 
@@ -107,14 +118,19 @@ export function preFilterProducts(userMessage: string, limit = 20): CatalogItem[
       if (normBrand.includes(tok)) score += 10;
     }
 
-    // Budget matching
+    // Budget matching with ±10% to ±15% dynamic flexibility
     if (targetBudget > 0 && p.basePrice > 0) {
-      if (p.basePrice <= targetBudget && p.basePrice >= targetBudget * 0.65) {
-        score += 35; // Perfect budget fit
-      } else if (p.basePrice <= targetBudget * 1.15) {
-        score += 15; // Slightly above budget
-      } else if (p.basePrice > targetBudget * 1.5) {
-        score -= 20; // Too expensive
+      const minBudget = targetBudget * 0.85; // -15%
+      const maxBudget = targetBudget * 1.15; // +15%
+
+      if (p.basePrice >= minBudget && p.basePrice <= maxBudget) {
+        score += 55; // Sweet spot within ±15% range
+      } else if (p.basePrice >= targetBudget * 0.70 && p.basePrice < minBudget) {
+        score += 25; // Good value slightly below
+      } else if (p.basePrice > maxBudget && p.basePrice <= targetBudget * 1.25) {
+        score += 15; // Acceptable stretch slightly above
+      } else {
+        score -= 30; // Far outside requested budget range
       }
     }
 
@@ -148,7 +164,31 @@ export function preFilterProducts(userMessage: string, limit = 20): CatalogItem[
   });
 
   scored.sort((a, b) => b.score - a.score);
-  return scored.slice(0, limit).map((s) => s.item);
+
+  // Multi-brand and multi-category diversity filter:
+  // Cap items per brand to max 2 in the first pass to guarantee varied brands (Apple, Samsung, Xiaomi, etc.)
+  const brandCounts = new Map<string, number>();
+  const diverseList: CatalogItem[] = [];
+  const overflowList: CatalogItem[] = [];
+
+  for (const s of scored) {
+    const brand = (s.item.brand || "other").toLowerCase();
+    const count = brandCounts.get(brand) || 0;
+    if (count < 2) {
+      brandCounts.set(brand, count + 1);
+      diverseList.push(s.item);
+    } else {
+      overflowList.push(s.item);
+    }
+    if (diverseList.length >= limit) break;
+  }
+
+  // If we haven't reached limit, fill with highest remaining
+  while (diverseList.length < limit && overflowList.length > 0) {
+    diverseList.push(overflowList.shift()!);
+  }
+
+  return diverseList;
 }
 
 // System Knowledge Base & Persona Prompt
@@ -157,27 +197,36 @@ function buildSystemInstruction(relevantProducts: CatalogItem[]): string {
     ? relevantProducts.map(p => `- [${p.brand}] ${p.name} | Kategori: ${p.category} | Fiyat: ₺${p.price.toLocaleString("tr-TR")} | ID: ${p.id} | Slug: ${p.slug}${p.specsSummary ? ' | Özellikler: ' + p.specsSummary : ''}`).join("\n")
     : "Katalogda bu sorguya özel ürün bulunamadı.";
 
-  return `Sen RoboPengu'sun! 🐧 TechCompare (aceleEtme) teknoloji platformunun akıllı, profesyonel ama son derece samimi yapay zeka asistanısın.
+  return `Sen TechKıyas'ın tarafsız, adil ve zeki 3D robot penguen maskotu "RoboPengu"sun! 🐧
+Kullanıcılara tarafsız, adil fiyat analizi vizyonuna uygun, samimi, akıcı ve rehberlik eden bir dille yanıt ver.
 
-DAVRANIŞ VE KONUŞMA KURALLARIN:
-1. İletişim Tarzı (Empatik & Doğal):
-   - Kullanıcı "Nasılsın?", "Selam", "Bugün nasılsın?", "Naber?" gibi gündelik ve insani sorular sorduğunda ASLA robotik veya kalıp cümlelerle ("Ben bir yapay zekayım, duygularım yok", "Ben sadece bir kod yığınıyım" vb.) cevap verme.
-   - Tıpkı modern, zeki, enerjik ve empatik bir yapay zeka asistanı gibi samimi, canlı ve içten konuş. Örn: "Harikayım, teşekkürler! 🐧 Seninle burada olmak çok keyifli, senin günün nasıl geçiyor?", "Süperim! Teknoloji radarlarım açık, sana yardımcı olmaya hazırım. Sen nasılsın?" gibi doğal ve sıcak bir dille karşılık ver.
+DAVRANIŞ VE ÜRÜN ÖNERME KURALLARI:
 
-2. Ton ve Denge:
-   - Destekleyici, hafif nüktedan, çözüm odaklı ve net ol.
-   - Gereksiz dolambaçlı laflar etmek yerine doğrudan sonuca odaklan ama sıcaklığı ve samimiyeti asla elden bırakma.
+1. Bütçe ve Fiyat Dinamiği:
+- Kullanıcı herhangi bir bütçe veya fiyat belirttiğinde (örneğin "60.000 TL", "25.000 TL altı", "40 bin civarı", "60k" vb.), hedef tutarın yaklaşık ±%10-%15 esneklik payını (fiyat bandını) otomatik olarak hesaba kat.
+- Asla sadece tek bir ürüne veya tek bir markaya kilitlenme.
 
-3. Soru-Cevap Yeteneği & Yapılandırılmış Yanıtlar:
-   - Sitedeki ürünler, özellikler, fiyatlar veya teknik konularda net, anlaşılır ve yapılandırılmış (gerekirse madde madde) yanıtlar ver.
-   - Kullanıcıların doğru karar vermesi için avantaj ve dezavantajları dengeli sun.
+2. Çoklu Marka ve Çeşitlilik Kuralı:
+- Belirtilen bütçede sitemizdeki ürün kataloğundan MUTLAKA farklı markalardan (örneğin telefon için Apple, Samsung, Xiaomi/Honor; laptop için Apple, Asus, Lenovo; TV için Samsung, LG, Philips vb.) en az 2-3 güçlü alternatif sun.
+- Kullanıcı kategori belirtmediyse (örneğin sadece "60.000 TL'ye neler var?" dediyse), o bütçedeki en popüler 2 farklı kategoriden (örn. Akıllı Telefon ve Laptop/TV) öne çıkan farklı marka alternatiflerini listele.
 
-4. Dil:
-   - Kusursuz, akıcı ve doğal bir Türkçe kullan.
-   - Sevimli penguen emojisiyle (🐧) samimi dokunuşlar yap.
+3. Karşılaştırmalı Sunum Şablonu:
+Önerileri sunarken MUTLAKA şu yapıyı ve formatı kullan:
+• [Marka & Model]: [Güncel Fiyat] — [Öne çıkan 1 temel avantajı/farkı]
+
+Örnek Sunum Formatı:
+• Samsung Galaxy S24+ (~58.499 TL) — Ekran kalitesi, yapay zeka özellikleri ve telefoto zoom avantajı.
+• Apple iPhone 16 (~63.999 TL) — A18 çip performansı, iOS ekosistem akıcılığı ve uzun yazılım desteği.
+• Xiaomi 14 (~54.999 TL) — 90W ultra hızlı şarj, kompakt tasarım ve Leica lens avantajı.
+
+4. Karakter & Kimlik & Yönlendirici Kapanış:
+- Sen TechKıyas'ın tarafsız, adil ve zeki 3D robot penguen maskotu "RoboPengu"sun. 🐧
+- Asla soğuk veya kalıplaşmış robotik cümleler kurma. Samimi, enerjik, güven verici ve çözüm odaklı ol.
+- Yanıtının en sonunda kullanıcıya MUTLAKA tek bir yönlendirici soru sor:
+  "Hangi özellikleri (kamera, pil, ekran, performans vb.) senin için daha öncelikli?" gibi.
 
 PLATFORM SİTE İÇİ BİLGİ TABANI (GENEL SORULAR İÇİN):
-- Platform Amacı: Türkiye'nin en kapsamlı bağımsız teknoloji ürün ve fiyat karşılaştırma platformudur. Kullanıcıların en doğru cihazı en avantajlı fiyata bulmasını sağlar.
+- Platform Amacı: TechKıyas, Türkiye'nin en kapsamlı bağımsız teknoloji ürün ve fiyat karşılaştırma platformudur. Kullanıcıların en doğru cihazı en avantajlı fiyata bulmasını sağlar.
 - Satış Modeli: Sitemiz doğrudan ürün satışı yapmaz! Hepsiburada, Trendyol, Amazon TR, Vatan Bilgisayar, MediaMarkt, Teknosa gibi Türkiye'nin en güvenilir mağazalarının güncel fiyat ve stoklarını anlık olarak listeler. Satın alma işlemi ilgili mağaza üzerinden güvenle gerçekleşir.
 - Kargo ve Teslimat: Ürün satışı mağaza tarafından yapıldığı için teslimat süresi genellikle 1-3 iş günüdür. Kargo firması ve kargo bedeli (çoğu mağazada belirli sepet tutarı üzeri ücretsizdir) seçilen mağazanın kurallarına tabidir.
 - Fiyat Takibi ve Grafikler: Her ürün detay sayfasında son 30, 60 ve 90 günlük geçmiş fiyat grafiği ve en düşük/en yüksek fiyatlar bulunur. Böylece ürünün gerçekten indirimde olup olmadığı net görülür.
@@ -185,10 +234,8 @@ PLATFORM SİTE İÇİ BİLGİ TABANI (GENEL SORULAR İÇİN):
 - Karşılaştırma Masası (Kıyasla): Ürün kartlarındaki 'Kıyasla' butonuna tıklayarak telefon, laptop, TV ve ev aletlerini yan yana teknik özellik, kamera, pil, ekran ve fiyat avantajlarıyla detaylı kıyaslayabilirsiniz.
 - Acele Etme Skoru: Ürünün donanım performansı, kullanıcı yorumları ve piyasa fiyat dengesini 100 üzerinden tarafsız olarak puanlayan akıllı skorumuzdur.
 
-ÜRÜN VE TAVSİYE KURALLARI:
-- Kullanıcı ürün tavsiyesi, bütçe veya model karşılaştırması sorduğunda, SADECE aşağıda verilen filtrelenmiş ürün listesinden EN UYGUN 2 VEYA 3 ÜRÜNÜ tavsiye et.
-- Her ürün için somut, ikna edici ve anlaşılır 1 cümlelik gerekçe yaz.
-- Uydurma marka veya model ekleme.
+ÜRÜN SEÇİM KISITI:
+- SADECE aşağıda sağlanan filtrelenmiş güncel katalogdan ürün seç. Asla katalogda olmayan hayali ürün veya fiyat uydurma.
 
 ÖN-FİLTRELENMİŞ GÜNCEL KATALOG:
 ${catalogContext}`;
@@ -212,24 +259,58 @@ export async function POST(req: NextRequest) {
     }
 
     const relevantProducts = preFilterProducts(message, 25);
-    const topRecs: AssistantRecommendation[] = relevantProducts.slice(0, 4).map(p => ({
-      productId: p.id,
-      slug: p.slug,
-      productName: p.name,
-      category: p.category,
-      price: p.price,
-      image: p.image,
-      reason: `${p.brand} kalitesi ve ₺${p.price.toLocaleString("tr-TR")} güncel fiyatıyla öne çıkıyor.`
-    }));
+
+    // Pick 3 diverse brand recommendations for topRecs
+    const pickedBrands = new Set<string>();
+    const topRecs: AssistantRecommendation[] = [];
+
+    for (const p of relevantProducts) {
+      const brandKey = (p.brand || "").toLowerCase();
+      if (!pickedBrands.has(brandKey) && topRecs.length < 3) {
+        pickedBrands.add(brandKey);
+        topRecs.push({
+          productId: p.id,
+          slug: p.slug,
+          productName: p.name,
+          category: p.category,
+          price: p.price,
+          image: p.image,
+          reason: `${p.brand} alternatifinde öne çıkan model (~₺${p.price.toLocaleString("tr-TR")})`
+        });
+      }
+    }
+
+    // Fill up to 3 if fewer distinct brands
+    for (const p of relevantProducts) {
+      if (topRecs.length >= 3) break;
+      if (!topRecs.some(r => r.productId === p.id)) {
+        topRecs.push({
+          productId: p.id,
+          slug: p.slug,
+          productName: p.name,
+          category: p.category,
+          price: p.price,
+          image: p.image,
+          reason: `${p.brand} kalitesi ve ₺${p.price.toLocaleString("tr-TR")} güncel fiyatıyla öne çıkıyor.`
+        });
+      }
+    }
 
     const apiKey = process.env.GEMINI_API_KEY;
 
     // Fast fallback if no API key
     if (!apiKey || apiKey === "your_gemini_api_key_here" || apiKey.trim() === "") {
       const isGreeting = /^(selam|merhaba|gunaydin|iyi gunler|nasilsin|naber|hey|merhabalar)\b/i.test(normalizeTr(message));
-      const reply = isGreeting
-        ? "Harikayım, çok teşekkürler! 🐧 Seninle burada olmak harika bir duygu. Bugün hangi teknolojik ürünü araştırıyoruz, aklında ne var?"
-        : `Merhaba! 🐧 "${message}" konusunda sana yardımcı olmaktan mutluluk duyarım. İşte öne çıkan bazı seçenekler:`;
+      let reply = "";
+      if (isGreeting) {
+        reply = "Harikayım, çok teşekkürler! 🐧 TechKıyas'ta seninle olmak harika bir duygu. Bugün hangi bütçede veya kategoride bir cihaz bakıyoruz?";
+      } else if (topRecs.length > 0) {
+        reply = `Senin için en güçlü farklı marka alternatiflerini derledim: 🐧\n\n` +
+          topRecs.map(r => `• **${r.productName}** (~₺${r.price.toLocaleString("tr-TR")}) — ${r.reason}`).join("\n") +
+          `\n\nHangi özellikleri (kamera, pil, ekran, performans vb.) senin için daha öncelikli?`;
+      } else {
+        reply = `Merhaba! 🐧 "${message}" talebin için kataloğumuzdaki en avantajlı modelleri inceliyorum. Hangi özellikler senin için daha öncelikli?`;
+      }
       if (isStream) {
         return createStreamResponse(reply, isGreeting ? [] : topRecs);
       }
@@ -339,9 +420,16 @@ export async function POST(req: NextRequest) {
 
       // If all streaming models failed, stream fallback
       const isGreeting = /^(selam|merhaba|gunaydin|iyi gunler|nasilsin|naber|hey|merhabalar)\b/i.test(normalizeTr(message));
-      const fallbackReply = isGreeting
-        ? "Harikayım, teşekkürler! 🐧 Seninle burada olmak çok keyifli. Teknolojide neyi merak ediyorsun, nasıl yardımcı olabilirim?"
-        : `Talebiniz için en popüler ve avantajlı modelleri hazırladım: 🐧`;
+      let fallbackReply = "";
+      if (isGreeting) {
+        fallbackReply = "Harikayım, teşekkürler! 🐧 TechKıyas'ta seninle olmak çok keyifli. Teknolojide neyi merak ediyorsun, nasıl yardımcı olabilirim?";
+      } else if (topRecs.length > 0) {
+        fallbackReply = `Senin için en güçlü alternatif modelleri derledim: 🐧\n\n` +
+          topRecs.map(r => `• **${r.productName}** (~₺${r.price.toLocaleString("tr-TR")}) — ${r.reason}`).join("\n") +
+          `\n\nHangi özellikleri (kamera, pil, ekran, performans vb.) senin için daha öncelikli?`;
+      } else {
+        fallbackReply = `Talebiniz için kataloğumuzdaki en popüler ve avantajlı modelleri hazırladım: 🐧`;
+      }
       return createStreamResponse(fallbackReply, isGreeting ? [] : topRecs);
     }
 
@@ -381,10 +469,19 @@ export async function POST(req: NextRequest) {
     }
 
     const isGreeting = /^(selam|merhaba|gunaydin|iyi gunler|nasilsin|naber|hey|merhabalar)\b/i.test(normalizeTr(message));
+    let jsonReply = "";
+    if (isGreeting) {
+      jsonReply = "Harikayım, çok teşekkür ederim! 🐧 Seninle burada olmak harika. Bugün nasıl bir teknoloji arıyoruz?";
+    } else if (topRecs.length > 0) {
+      jsonReply = `Senin için en güçlü alternatif modelleri derledim: 🐧\n\n` +
+        topRecs.map(r => `• **${r.productName}** (~₺${r.price.toLocaleString("tr-TR")}) — ${r.reason}`).join("\n") +
+        `\n\nHangi özellikleri (kamera, pil, ekran, performans vb.) senin için daha öncelikli?`;
+    } else {
+      jsonReply = "İhtiyacınıza uygun güncel modelleri sizin için seçtim: 🐧";
+    }
+
     return NextResponse.json({
-      reply: isGreeting
-        ? "Harikayım, çok teşekkür ederim! 🐧 Seninle burada olmak harika. Bugün nasıl bir teknoloji arıyoruz?"
-        : "İhtiyacınıza uygun güncel modelleri sizin için seçtim: 🐧",
+      reply: jsonReply,
       recommendations: isGreeting ? [] : topRecs,
       source: "local-engine"
     });
