@@ -722,6 +722,46 @@ export function getFilteredRecommendations(targetCategory: string | null, limit 
   return recs;
 }
 
+// Mesajdan kıyaslanacak ürün adaylarını akıllıca çıkaran yardımcı fonksiyon
+export function tryExtractComparisonFromMessage(message: string): string[] | null {
+  const norm = normalizeTr(message);
+  if (!norm) return null;
+
+  // Temizlik: noktalama işaretleri ve kıyaslama dışı dolgu kelimeleri
+  const clean = norm
+    .replace(/[,\?\!]/g, " ")
+    .replace(/\b(kiyasla|karsilastir|karsilastirmasi|kiyaslamasi|farklari|farki|hangisi|daha|iyi|alınır|alınır mı|oner|mi|mu|yoksa|telefonu|televizyonu|modeli|yi|yı|yu|yü)\b/g, " ");
+
+  // "ile", "ve", "vs", "/", "-" gibi bağlaçlarla ayır
+  const parts = clean
+    .split(/\s+(?:ile|ve|vs\.?|karsilastir|kiyasla|\/|-)\s+/)
+    .map(s => s.trim())
+    .filter(s => s.length > 2);
+
+  if (parts.length >= 2) {
+    const p1 = findProductInCatalog(parts[0]);
+    if (p1) {
+      const p2 = findProductInCatalog(parts[1], p1.category);
+      if (p2 && p1.id !== p2.id) {
+        return [p1.name, p2.name];
+      }
+    }
+  }
+  return null;
+}
+
+export function isNewsQuery(message: string): boolean {
+  const norm = normalizeTr(message);
+  return (
+    norm.includes("haber") ||
+    norm.includes("gundem") ||
+    norm.includes("lansman") ||
+    norm.includes("yapay zeka gelismeleri") ||
+    norm.includes("yeni cikan") ||
+    norm.includes("yeni duyurulan")
+  );
+}
+
 // ----------------------------------------------------------------------
 // SYSTEM PROMPT: GERÇEK MUHAKEME VE NİYET YÖNETİMİ
 // ----------------------------------------------------------------------
@@ -835,18 +875,13 @@ export async function POST(req: NextRequest) {
       }
     }
 
-    // Model sıralaması: Pro öncelikli, ardından flash katmanı
+    // Model sıralaması: Hızlı, kararlı ve araçları destekleyen modeller en başta
     const candidateModels = [
-      "gemini-2.5-pro",
-      "gemini-3.1-pro-preview",
-      "gemini-pro-latest",
-      "gemini-3.8-flash",
-      "gemini-3.7-flash",
-      "gemini-3.5-flash",
       "gemini-3.5-flash-lite",
+      "gemini-flash-lite-latest",
       "gemini-3.1-flash-lite",
-      "gemini-3-flash-preview",
-      "gemini-flash-latest"
+      "gemini-3.5-flash",
+      "gemini-3.6-flash"
     ];
 
     const geminiContents = [
@@ -862,7 +897,7 @@ export async function POST(req: NextRequest) {
       for (const model of candidateModels) {
         try {
           const controller = new AbortController();
-          const timeout = setTimeout(() => controller.abort(), 6000);
+          const timeout = setTimeout(() => controller.abort(), 12000);
 
           // Selamlaşma veya genel sorularda tool'ları gönderme (Modelin gereksiz panel açmasını önler)
           const shouldSendTools = !isGreetingOrChitchat && !isGeneralTechQuestion;
@@ -923,10 +958,25 @@ export async function POST(req: NextRequest) {
               parts: [{
                 functionResponse: {
                   name: fc.name,
-                  response: toolResult
+                  response: toolResult,
+                  ...(fc.id ? { id: fc.id } : {})
                 }
               }]
             });
+          }
+
+          // Heuristik panel kontrolü: Model tool çağırmadan doğrudan metin üretse bile
+          // kullanıcı açıkça kıyaslama veya haber istediyse paneli aç
+          if (!panelToSend && !isGreetingOrChitchat && !isGeneralTechQuestion) {
+            const compCandidates = tryExtractComparisonFromMessage(message);
+            if (compCandidates) {
+              const comp = resolveCompareProducts(compCandidates);
+              if (comp) {
+                panelToSend = comp;
+              }
+            } else if (isNewsQuery(message)) {
+              panelToSend = resolveTechNews("teknoloji gündemi");
+            }
           }
 
           // Step 2: Stream final response
@@ -1019,14 +1069,51 @@ export async function POST(req: NextRequest) {
         }
       }
 
-      // Fallback
-      const fallbackReply = isGreetingOrChitchat
-        ? "Harikayım, teşekkürler! 🐧 aceleEtme'de seninle olmak çok güzel. Nasıl yardımcı olabilirim?"
-        : isGeneralTechQuestion
-        ? "Teknoloji merakını çok seviyorum! 🐧 Bu konudaki detayları hemen senin için özetleyeyim."
-        : "Sorunuzu inceliyorum, hemen yardımcı oluyorum! 🐧";
+      // 3. Fallback (eğer API modelleri yanıt veremezse yerel zeka ve katalog motoru devreye girer)
+      let fallbackPanel: SidePanelData | null = null;
+      let fallbackRecs: AssistantRecommendation[] = [];
+      let fallbackReply = "";
 
-      return createStreamResponse(fallbackReply, [], null);
+      if (isGreetingOrChitchat) {
+        fallbackReply = normMsg.includes("sikkin") || normMsg.includes("bozuk")
+          ? "Bunu duyduğuma üzüldüm... 🐧 Bazen bir fincan kahve eşliğinde müzik dinlemek veya kafanı dağıtacak keyifli bir teknoloji konusuna göz atmak iyi gelebilir. Canını ne sıktı, anlatmak ister misin?"
+          : "Harikayım, bataryam %100 dolu, teşekkürler! 🐧 aceleEtme'de seninle olmak harika. Bugün hangi teknolojik cihazı veya konuyu incelemek istersin?";
+      } else if (isGeneralTechQuestion) {
+        if (normMsg.includes("oled")) {
+          fallbackReply = "**OLED (Organic Light Emitting Diode)**, her pikselin kendi ışığını bağımsız olarak ürettiği ekran teknolojisidir. 🐧\n\n• **Sonsuz Kontrast:** Siyah pikseller tamamen kapanır (0 nit), gerçek siyah elde edilir.\n• **Geniş Görüş Açısı:** Yan açılardan bakıldığında renk kaybı neredeyse sıfırdır.\n• **Tepki Süresi:** 0.1ms seviyesindeki ultra düşük tepki süresiyle özellikle hareketli sahnelerde ve oyunlarda rakipsizdir.";
+        } else if (normMsg.includes("ram")) {
+          fallbackReply = "**RAM (Random Access Memory)**, cihazının o an çalışan uygulamaları ve verileri geçici olarak sakladığı ultra hızlı bellektir. 🐧\n\n• Ne kadar yüksek RAM kapasiten varsa, arka planda o kadar çok uygulama açık kalabilir ve donma yaşamadan aralarında geçiş yapabilirsin.\n• Telefonlarda günümüzde 8 GB ideal, 12 GB ve üzeri ise uzun ömürlülük ve yapay zeka özellikleri için önerilir.";
+        } else {
+          fallbackReply = `${message} hakkında: Donanım tercihlerinde bütçe, kullanım amacı ve performans dengesi esastır. Hangi senaryoda kullanacağını belirtirsen en doğru modeli birlikte seçebiliriz! 🐧`;
+        }
+      } else {
+        const compNames = tryExtractComparisonFromMessage(message);
+        if (compNames) {
+          const comp = resolveCompareProducts(compNames);
+          if (comp && comp.products.length >= 2) {
+            fallbackPanel = comp;
+            fallbackRecs = getFilteredRecommendations(comp.category, 3);
+            const p1 = comp.products[0];
+            const p2 = comp.products[1];
+            fallbackReply = `Harika bir kıyaslama! İstediğin modelleri sağ taraftaki **Canlı Karşılaştırma Paneli**'ne aktardım. 🐧\n\n` +
+              `🏆 **Öne Çıkan Seçim:** **${comp.winner.productName}**\n` +
+              comp.winner.reasons.map(r => `• ${r}`).join("\n") +
+              `\n\n💰 **Fiyat Durumu:**\n` +
+              `• **${p1.name}:** ${p1.cheapestStore}'da ₺${p1.price.toLocaleString("tr-TR")}\n` +
+              `• **${p2.name}:** ${p2.cheapestStore}'da ₺${p2.price.toLocaleString("tr-TR")}\n\n` +
+              `Detaylı teknik özellikleri ve mağaza fiyatlarını yan paneldeki tabloda inceleyebilirsin.`;
+          }
+        } else if (isNewsQuery(message)) {
+          fallbackPanel = resolveTechNews("teknoloji gündemi");
+          fallbackReply = `Teknoloji dünyasındaki en yeni gelişmeleri ve lansman haberlerini yan taraftaki **Teknoloji Haberleri Paneli**'nde senin için listeledim! 🐧 Merak ettiğin özel bir model veya çip varsa detaylarını sorabilirsin.`;
+        }
+
+        if (!fallbackReply) {
+          fallbackReply = `Teknoloji dünyasıyla ilgili merak ettiğin tüm ürünleri, mağaza fiyatlarını ve donanım özelliklerini incelemek için hazırım! 🐧 Karşılaştırmak istediğin modelleri veya aradığın bütçeyi belirtmen yeterli.`;
+        }
+      }
+
+      return createStreamResponse(fallbackReply, fallbackRecs, fallbackPanel);
     }
 
     return NextResponse.json({
