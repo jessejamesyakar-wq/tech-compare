@@ -268,7 +268,7 @@ export function HomePageClient({
       {/* 3. Sub-Hero Horizontal Thumbnail Strip */}
       <HeroThumbnailStrip items={heroThumbnails} activeIndex={heroIndex} onSelect={setHeroIndex} />
 
-      {/* 🏢 3D Köşe Billboard & Pengi Maskotu */}
+      {/* 🏢 Resmi Platform Rehberi & Canlı Karşılaştırma Billboard */}
       <LiveDealsBillboard />
 
       {/* 5. Dynamic Category Distribution Showcase */}
