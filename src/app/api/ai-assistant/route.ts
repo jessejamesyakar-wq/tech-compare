@@ -49,6 +49,7 @@ export interface ComparisonMatrixRow {
 export interface ComparisonPanelData {
   type: "comparison";
   scenario: string;
+  category: string;
   products: {
     id: string;
     slug: string;
@@ -89,7 +90,7 @@ export interface TechNewsPanelData {
 
 export type SidePanelData = ComparisonPanelData | TechNewsPanelData;
 
-// ---- Yardımcı Fonksiyonlar ------------------------------------------
+// ---- Türkçe Normalizasyon --------------------------------------------
 
 function normalizeTr(text: string): string {
   if (!text) return "";
@@ -108,263 +109,416 @@ function normalizeTr(text: string): string {
     .trim();
 }
 
-// Akıllı Katalog Ön Filtreleme
-export function preFilterProducts(userMessage: string, limit = 25): CatalogItem[] {
-  const allProducts = getStoredProducts();
-  const normMessage = normalizeTr(userMessage);
+// ----------------------------------------------------------------------
+// KATEGORİYE DUYARLI VE GERÇEK VERİ TEMELLİ ÖZELLİK MATRİSİ
+// ----------------------------------------------------------------------
 
-  let targetBudget = 0;
-  const kMatch = normMessage.match(/\b([0-9]{1,3})\s*k\b/i);
-  const binMatch = normMessage.match(/\b([0-9]{1,3})\s*bin\b/i);
-  const numMatch = normMessage.match(/\b([0-9]{1,3}(?:\.[0-9]{3})+|[0-9]{4,6})\b/);
-
-  if (kMatch) {
-    targetBudget = parseInt(kMatch[1], 10) * 1000;
-  } else if (binMatch) {
-    targetBudget = parseInt(binMatch[1], 10) * 1000;
-  } else if (numMatch) {
-    targetBudget = parseInt(numMatch[1].replace(/\./g, ""), 10);
+function getProperty(item: any, path: string[]): any {
+  let curr = item.raw?.specs || item.specs || {};
+  for (const k of path) {
+    if (!curr || typeof curr !== "object") return undefined;
+    curr = curr[k];
   }
+  return curr;
+}
 
-  const isPhone = /telefon|iphone|samsung|galaxy|xiaomi|redmi|poco|honor|oppo|vivo|realme|akilli telefon/i.test(normMessage);
-  const isTv = /tv|televizyon|oled|qled|uhd|ekran|4k|55 inc|65 inc/i.test(normMessage);
-  const isLaptop = /laptop|bilgisayar|macbook|dizustu|gaming laptop|asus|lenovo|dell/i.test(normMessage);
-  const isAppliance = /supurge|robot supurge|dyson|kahve|camasir|bulasik|buzdolabi|ev aleti/i.test(normMessage);
-  const isHeadphone = /kulaklik|tws|airpods|buds|bluetooth kulaklik|kulakici|kulakustu/i.test(normMessage);
-  const isWatch = /saat|akilli saat|watch|apple watch|galaxy watch/i.test(normMessage);
-  const isTablet = /tablet|ipad|galaxy tab/i.test(normMessage);
-  const isMonitor = /monitor|144hz|165hz|240hz|ips monitor/i.test(normMessage);
-  const isConsole = /ps5|playstation|xbox|nintendo|konsol/i.test(normMessage);
+export function buildComparisonMatrix(products: any[], category: string): ComparisonMatrixRow[] {
+  if (!products || products.length === 0) return [];
+  const cat = (category || products[0]?.category || "").toLowerCase();
+  const rows: { label: string; values: string[] }[] = [];
 
-  const hasSpecificCategory = isPhone || isTv || isLaptop || isAppliance || isHeadphone || isWatch || isTablet || isMonitor || isConsole;
-  const queryTokens = normMessage.split(/\s+/).filter(t => t.length > 1);
-
-  const scored = allProducts.map((p) => {
-    let score = 0;
-    const cat = (p.category || "").toLowerCase();
-    const normBrand = normalizeTr(p.brand || "");
-    const normName = normalizeTr(p.name || "");
-
-    if (isPhone && (cat === "smartphones" || cat === "phones")) score += 35;
-    if (isTv && cat === "tvs") score += 35;
-    if (isLaptop && cat === "laptops") score += 35;
-    if (isAppliance && cat === "appliances") score += 30;
-    if (isHeadphone && cat === "headphones") score += 30;
-    if (isWatch && cat === "smartwatches") score += 30;
-    if (isTablet && cat === "tablets") score += 30;
-    if (isMonitor && cat === "monitors") score += 30;
-    if (isConsole && cat === "consoles") score += 30;
-
-    if (!hasSpecificCategory && targetBudget > 0) {
-      if (cat === "smartphones" || cat === "phones") score += 30;
-      if (cat === "laptops") score += 30;
-      if (cat === "tvs") score += 30;
-    }
-
-    if (normBrand && normMessage.includes(normBrand)) score += 25;
-
-    for (const tok of queryTokens) {
-      if (normName.includes(tok)) score += 20;
-      if (normBrand.includes(tok)) score += 10;
-    }
-
-    if (targetBudget > 0 && p.basePrice > 0) {
-      const minBudget = targetBudget * 0.90;
-      const maxBudget = targetBudget * 1.05;
-
-      if (p.basePrice >= minBudget && p.basePrice <= maxBudget) {
-        score += 70;
-      } else if (p.basePrice >= targetBudget * 0.80 && p.basePrice < minBudget) {
-        score += 35;
-      } else if (p.basePrice > maxBudget && p.basePrice <= targetBudget * 1.15) {
-        score += 30;
-      } else {
-        score -= 40;
-      }
-    }
-
-    if (p.isPopular) score += 8;
-    if (p.rating && p.rating >= 4.7) score += 6;
-    if (p.releaseYear && p.releaseYear >= 2025) score += 10;
-
-    let specsSummary = "";
-    if (p.specs) {
-      const s = p.specs as Record<string, any>;
-      if (s.processor?.chip || s.processor?.chipset) specsSummary += `${s.processor.chip || s.processor.chipset}, `;
-      if (s.memory?.ramGb) specsSummary += `${s.memory.ramGb}GB RAM, `;
-      if (s.memory?.storageGb) specsSummary += `${s.memory.storageGb}GB, `;
-      if (s.screen?.size || s.screenSizeInches) specsSummary += `${s.screen?.size || s.screenSizeInches}", `;
-    }
-
-    const validOffers = Array.isArray(p.storeOffers)
-      ? p.storeOffers
-          .filter((o: any) => typeof o.price === "number" && o.price > 0 && o.inStock !== false)
-          .sort((a: any, b: any) => a.price - b.price)
-      : [];
-
-    const cheapestStore = validOffers[0]?.storeName || "Hepsiburada";
-    const cheapestPrice = validOffers[0]?.price || p.basePrice || 0;
-    const secondCheapestStore = validOffers[1]?.storeName;
-    const secondCheapestPrice = validOffers[1]?.price;
-    const priceDiffWithSecond = secondCheapestPrice ? secondCheapestPrice - cheapestPrice : 0;
-
-    const avgPrice = validOffers.length > 0
-      ? Math.round(validOffers.reduce((acc: number, o: any) => acc + o.price, 0) / validOffers.length)
-      : cheapestPrice;
-    const marketSaving = avgPrice > cheapestPrice ? avgPrice - cheapestPrice : 0;
-
-    const alternativeStoresFormatted = validOffers
-      .slice(1, 4)
-      .map((o: any) => `${o.storeName}: ₺${o.price.toLocaleString("tr-TR")}`)
-      .join(", ");
-
-    const item: CatalogItem = {
-      id: p.id,
-      slug: p.slug || p.id,
-      name: p.name,
-      brand: p.brand,
-      category: p.category === "smartphones" ? "phones" : p.category || "phones",
-      price: cheapestPrice,
-      image: p.image || (Array.isArray(p.images) ? p.images[0] : undefined),
-      specsSummary: specsSummary ? specsSummary.slice(0, 80) : undefined,
-      releaseYear: p.releaseYear,
-      cheapestStore,
-      cheapestPrice,
-      secondCheapestStore,
-      secondCheapestPrice,
-      priceDiffWithSecond,
-      marketSaving,
-      alternativeStoresFormatted,
-    };
-
-    return { item, score };
+  // 1. En Ucuz Fiyat & Mağaza (Tüm ürünler için geçerli)
+  rows.push({
+    label: "En Ucuz Fiyat",
+    values: products.map(p => `₺${(p.price || p.cheapestPrice || 0).toLocaleString("tr-TR")} (${p.cheapestStore || "En Uygun"})`)
   });
 
-  scored.sort((a, b) => b.score - a.score);
+  // 2. Piyasa Tasarrufu (Yalnızca pozitif tasarruf olan durumlarda ekle)
+  const hasSavings = products.some(p => p.marketSaving && p.marketSaving > 0);
+  if (hasSavings) {
+    rows.push({
+      label: "Piyasa Tasarrufu",
+      values: products.map(p => p.marketSaving && p.marketSaving > 0 ? `~₺${p.marketSaving.toLocaleString("tr-TR")} tasarruf` : "Standart fiyat")
+    });
+  }
 
-  const brandCounts = new Map<string, number>();
-  const diverseList: CatalogItem[] = [];
-  const overflowList: CatalogItem[] = [];
-
-  for (const s of scored) {
-    const brand = (s.item.brand || "other").toLowerCase();
-    const count = brandCounts.get(brand) || 0;
-    if (count < 2) {
-      brandCounts.set(brand, count + 1);
-      diverseList.push(s.item);
-    } else {
-      overflowList.push(s.item);
+  // Yardımcı ekleyici: Sadece en az 1 üründe gerçek veri varsa satırı oluşturur, yoksa satırı hiç eklemez!
+  const addCategoryRow = (label: string, fn: (p: any) => string) => {
+    const values = products.map(fn);
+    const hasValidData = values.some(v => v && v !== "-" && v.trim() !== "");
+    if (hasValidData) {
+      rows.push({ label, values });
     }
-    if (diverseList.length >= limit) break;
+  };
+
+  if (cat === "tvs") {
+    // TELEVİZYON GERÇEK ALANLARI
+    addCategoryRow("Ekran Boyutu", p => {
+      const s = getProperty(p, ["screenSizeInches"]) || p.raw?.screenSizeInches;
+      return s ? `${s} inç` : "-";
+    });
+    addCategoryRow("Panel Teknolojisi", p => {
+      const t = getProperty(p, ["displayTech"]) || getProperty(p, ["panelType"]);
+      return t ? String(t) : "-";
+    });
+    addCategoryRow("Çözünürlük", p => {
+      const r = getProperty(p, ["resolution"]);
+      return r ? String(r) : "-";
+    });
+    addCategoryRow("Yenileme Hızı", p => {
+      const hz = getProperty(p, ["refreshRateHz"]) || getProperty(p, ["refreshRate"]);
+      return hz ? `${hz} Hz` : "-";
+    });
+    addCategoryRow("Smart TV / İşletim Sistemi", p => {
+      const os = getProperty(p, ["smartOs"]) || getProperty(p, ["os"]);
+      return os ? String(os) : "-";
+    });
+    addCategoryRow("HDR Desteği", p => {
+      const hdr = getProperty(p, ["hdrFormats"]) || getProperty(p, ["hdrSupport"]);
+      if (Array.isArray(hdr) && hdr.length > 0) return hdr.join(", ");
+      if (typeof hdr === "string" && hdr) return hdr;
+      return "-";
+    });
+    addCategoryRow("Ses Çıkış Gücü", p => {
+      const w = getProperty(p, ["audioPowerWatts"]);
+      return w ? `${w} W` : "-";
+    });
+    addCategoryRow("Çıkış Yılı", p => p.raw?.releaseYear ? `${p.raw.releaseYear}` : "-");
+
+  } else if (cat === "laptops") {
+    // LAPTOP GERÇEK ALANLARI
+    addCategoryRow("İşlemci (CPU)", p => {
+      const cpu = getProperty(p, ["processor"]) || getProperty(p, ["cpu"]);
+      return cpu ? String(cpu) : "-";
+    });
+    addCategoryRow("Ekran Kartı (GPU)", p => {
+      const gpu = getProperty(p, ["gpu"]);
+      return gpu ? String(gpu) : "-";
+    });
+    addCategoryRow("RAM (Bellek)", p => {
+      const r = getProperty(p, ["ramGb"]) || getProperty(p, ["ram"]);
+      return r ? `${r} GB RAM` : "-";
+    });
+    addCategoryRow("Dahili Depolama", p => {
+      const s = getProperty(p, ["storageGb"]) || getProperty(p, ["storage"]);
+      return s ? `${s} GB SSD` : "-";
+    });
+    addCategoryRow("Ekran Boyutu & Çözünürlük", p => {
+      const size = getProperty(p, ["screenSizeInches"]) || p.raw?.screenSizeInches;
+      const res = getProperty(p, ["screenResolution"]) || "";
+      return size ? `${size} inç ${res}`.trim() : "-";
+    });
+    addCategoryRow("Pil Ömrü / Kapasite", p => {
+      const h = getProperty(p, ["batteryLifeHours"]);
+      const wh = getProperty(p, ["batteryCapacityWh"]);
+      if (h) return `${h} Saat`;
+      if (wh) return `${wh} Wh`;
+      return "-";
+    });
+    addCategoryRow("Ağırlık", p => {
+      const w = getProperty(p, ["weightKg"]);
+      return w ? `${w} kg` : "-";
+    });
+    addCategoryRow("İşletim Sistemi", p => {
+      const os = getProperty(p, ["os"]);
+      return os ? String(os) : "-";
+    });
+    addCategoryRow("Çıkış Yılı", p => p.raw?.releaseYear ? `${p.raw.releaseYear}` : "-");
+
+  } else if (cat === "smartwatches") {
+    // AKILLI SAAT GERÇEK ALANLARI
+    addCategoryRow("Kasa Boyutu", p => {
+      const c = getProperty(p, ["caseSize"]) || getProperty(p, ["size"]);
+      return c ? String(c) : "-";
+    });
+    addCategoryRow("Ekran Tipi", p => {
+      const e = getProperty(p, ["screenType"]) || getProperty(p, ["displayType"]);
+      return e ? String(e) : "-";
+    });
+    addCategoryRow("Pil Ömrü", p => {
+      const b = getProperty(p, ["batteryLife"]);
+      return b ? String(b) : "-";
+    });
+    addCategoryRow("Suya Dayanıklılık", p => {
+      const w = getProperty(p, ["waterResistance"]);
+      return w ? String(w) : "-";
+    });
+    addCategoryRow("Sensörler", p => {
+      const s = getProperty(p, ["sensors"]);
+      if (Array.isArray(s)) return s.join(", ");
+      return s ? String(s) : "-";
+    });
+
+  } else if (cat === "headphones") {
+    // KULAKLIK GERÇEK ALANLARI
+    addCategoryRow("Kulaklık Tipi", p => {
+      const f = getProperty(p, ["formFactor"]);
+      return f ? String(f) : "-";
+    });
+    addCategoryRow("Bağlantı Türü", p => {
+      const c = getProperty(p, ["connectivityType"]) || getProperty(p, ["connection"]);
+      return c ? String(c) : "-";
+    });
+    addCategoryRow("Gürültü Engelleme (ANC)", p => {
+      const anc = getProperty(p, ["noiseCancelling"]) || getProperty(p, ["anc"]);
+      return anc ? String(anc) : "-";
+    });
+    addCategoryRow("Pil / Çalma Süresi", p => {
+      const b = getProperty(p, ["batteryLife"]);
+      return b ? String(b) : "-";
+    });
+    addCategoryRow("Sürücü Boyutu", p => {
+      const d = getProperty(p, ["driverSize"]);
+      return d ? String(d) : "-";
+    });
+    addCategoryRow("Su Dayanıklılığı", p => {
+      const w = getProperty(p, ["waterResistance"]);
+      return w ? String(w) : "-";
+    });
+
+  } else if (cat === "monitors") {
+    // MONİTÖR GERÇEK ALANLARI
+    addCategoryRow("Ekran Boyutu", p => {
+      const s = getProperty(p, ["screenSizeInches"]) || getProperty(p, ["screenSize"]) || p.raw?.screenSizeInches;
+      return s ? `${s} inç` : "-";
+    });
+    addCategoryRow("Panel Tipi", p => {
+      const pan = getProperty(p, ["panelType"]);
+      return pan ? String(pan) : "-";
+    });
+    addCategoryRow("Çözünürlük", p => {
+      const r = getProperty(p, ["resolution"]);
+      return r ? String(r) : "-";
+    });
+    addCategoryRow("Yenileme Hızı", p => {
+      const hz = getProperty(p, ["refreshRateHz"]) || getProperty(p, ["refreshRate"]);
+      return hz ? `${hz} Hz` : "-";
+    });
+    addCategoryRow("Tepki Süresi", p => {
+      const ms = getProperty(p, ["responseTimeMs"]) || getProperty(p, ["responseTime"]);
+      return ms ? `${ms} ms` : "-";
+    });
+
+  } else if (cat === "consoles") {
+    // KONSOL GERÇEK ALANLARI
+    addCategoryRow("Dahili Depolama", p => {
+      const s = getProperty(p, ["storage"]) || getProperty(p, ["storageGb"]);
+      return s ? `${s} GB` : "-";
+    });
+    addCategoryRow("Çözünürlük & FPS", p => {
+      const res = getProperty(p, ["maxResolution"]) || getProperty(p, ["fps"]);
+      return res ? String(res) : "-";
+    });
+    addCategoryRow("Disk Sürücüsü", p => {
+      const d = getProperty(p, ["discDrive"]);
+      return d !== undefined ? (d ? "Var" : "Dijital Sürüm") : "-";
+    });
+
+  } else if (cat === "appliances") {
+    // EV ALETİ ALANLARI
+    addCategoryRow("Güç (Watt)", p => {
+      const w = getProperty(p, ["powerWatts"]);
+      return w ? `${w} W` : "-";
+    });
+    addCategoryRow("Kapasite", p => {
+      const cap = getProperty(p, ["capacity"]);
+      return cap ? String(cap) : "-";
+    });
+
+  } else {
+    // TELEFON / GENEL ALANLAR (Sadece telefon kategorisinde çalışır)
+    addCategoryRow("Ekran", p => {
+      const size = getProperty(p, ["screen", "size"]) || getProperty(p, ["screenSizeInches"]) || p.raw?.screenSizeInches;
+      const type = getProperty(p, ["screen", "type"]) || "";
+      const hz = getProperty(p, ["screen", "refreshRate"]) ? `${getProperty(p, ["screen", "refreshRate"])}Hz` : "";
+      return [size ? `${size}"` : "", type, hz].filter(Boolean).join(" ") || "-";
+    });
+    addCategoryRow("İşlemci / Yonga", p => {
+      const chip = getProperty(p, ["processor", "chip"]) || getProperty(p, ["processor", "chipset"]) || getProperty(p, ["processor"]);
+      return chip ? String(chip) : "-";
+    });
+    addCategoryRow("RAM (Bellek)", p => {
+      const ram = getProperty(p, ["memory", "ramGb"]) || getProperty(p, ["ramGb"]) || getProperty(p, ["ram"]);
+      return ram ? `${ram} GB RAM` : "-";
+    });
+    addCategoryRow("Dahili Depolama", p => {
+      const st = getProperty(p, ["memory", "storageGb"]) || getProperty(p, ["storageGb"]) || getProperty(p, ["storage"]);
+      return st ? `${st} GB` : "-";
+    });
+    addCategoryRow("Arka Kamera", p => {
+      const cam = getProperty(p, ["camera", "mainMp"]) || getProperty(p, ["camera", "primaryMp"]);
+      return cam ? `${cam} MP` : "-";
+    });
+    addCategoryRow("Batarya & Şarj", p => {
+      const mah = getProperty(p, ["battery", "capacitymAh"]) || getProperty(p, ["battery", "capacityMah"]) || getProperty(p, ["batteryCapacityMah"]);
+      const w = getProperty(p, ["battery", "chargingWatts"]) || getProperty(p, ["battery", "chargingSpeedW"]);
+      return mah ? `${mah} mAh${w ? ` (${w}W)` : ""}` : "-";
+    });
+    addCategoryRow("Ağırlık", p => {
+      const w = getProperty(p, ["build", "weightGrams"]) || getProperty(p, ["weightGrams"]);
+      return w ? `${w} g` : "-";
+    });
+    addCategoryRow("Çıkış Yılı", p => p.raw?.releaseYear ? `${p.raw.releaseYear}` : "-");
   }
 
-  while (diverseList.length < limit && overflowList.length > 0) {
-    diverseList.push(overflowList.shift()!);
-  }
+  return rows.map(r => {
+    const isDifferent = new Set(r.values.filter(v => v !== "-")).size > 1;
+    let highlightIdx: number | undefined;
 
-  return diverseList;
+    if (r.label === "En Ucuz Fiyat") {
+      let minP = Infinity;
+      products.forEach((p, idx) => {
+        if (p.price < minP) {
+          minP = p.price;
+          highlightIdx = idx;
+        }
+      });
+    }
+
+    return {
+      label: r.label,
+      values: r.values,
+      isDifferent,
+      highlightIdx
+    };
+  });
 }
 
 // ----------------------------------------------------------------------
-// KATALOG FUNCTION CALLING ARAÇLARI (TOOLS) TANIMLARI
+// SAYISAL VE GERÇEK VERİYE DAYALI KAZANAN HESAPLAMA
 // ----------------------------------------------------------------------
 
-export const CATALOG_TOOLS = [
-  {
-    name: "compareProducts",
-    description: "Kullanıcı 2 veya daha fazla ürünü kıyaslamak, karşılaştırmak veya hangisinin daha iyi olduğunu öğrenmek istediğinde çağrılır. Canlı Karşılaştırma Panelini açar.",
-    parameters: {
-      type: "OBJECT",
-      properties: {
-        productNames: {
-          type: "ARRAY",
-          items: { type: "STRING" },
-          description: "Karşılaştırılacak ürün isimleri veya anahtar kelimeleri (örn. ['iPhone 16 Pro', 'Samsung S24 Ultra'])"
-        },
-        productIds: {
-          type: "ARRAY",
-          items: { type: "STRING" },
-          description: "Varsa karşılaştırılacak ürünlerin ID veya slug değerleri"
-        },
-        scenario: {
-          type: "STRING",
-          description: "Kullanım amacı senaryosu: 'genel', 'oyun', 'kamera', 'fiyat-performans'"
-        }
-      },
-      required: ["productNames"]
+function calculateVerifiableWinner(products: any[], category: string, scenario = "genel") {
+  const p1 = products[0];
+  const p2 = products[1];
+  let winner = p1;
+  const reasons: string[] = [];
+
+  // 1. Fiyat Farkı Analizi
+  const priceDiff = Math.abs(p1.price - p2.price);
+  const minP = Math.min(p1.price, p2.price);
+  const maxP = Math.max(p1.price, p2.price);
+  const pctSavings = maxP > 0 ? Math.round(((maxP - minP) / maxP) * 100) : 0;
+
+  if (p1.price < p2.price) {
+    winner = p1;
+    if (priceDiff > 200) {
+      reasons.push(`${p1.cheapestStore}'da ₺${priceDiff.toLocaleString("tr-TR")} (%${pctSavings}) daha avantajlı fiyat`);
     }
-  },
-  {
-    name: "getTechNews",
-    description: "Kullanıcı güncel teknoloji haberleri, sektör trendleri, yeni çıkan işlemciler, lansmanlar veya yapay zeka gelişmeleri hakkında konuştuğunda çağrılır. Haberler Panelini açar.",
-    parameters: {
-      type: "OBJECT",
-      properties: {
-        topic: {
-          type: "STRING",
-          description: "Haber konusu veya alanı: 'yapay zeka', 'akıllı telefon lansmanları', 'işlemciler', 'ekran teknolojileri', 'genel teknoloji gündemi'"
-        }
-      },
-      required: ["topic"]
-    }
-  },
-  {
-    name: "searchProducts",
-    description: "Sitedeki 5.800+ ürünlük katalogda arama yapar, filtreler ve en ucuz fiyatlı mağaza seçenekleriyle döner.",
-    parameters: {
-      type: "OBJECT",
-      properties: {
-        query: { type: "STRING", description: "Aranacak kelime, marka veya model adı" },
-        category: { type: "STRING", description: "Kategori: smartphones, tvs, laptops, tablets, smartwatches, headphones, appliances, consoles, monitors" },
-        minPrice: { type: "NUMBER", description: "Minimum bütçe (TL)" },
-        maxPrice: { type: "NUMBER", description: "Maksimum bütçe (TL)" },
-        limit: { type: "NUMBER", description: "Dönecek maksimum ürün sayısı (varsayılan 5)" }
-      }
-    }
-  },
-  {
-    name: "getProductById",
-    description: "Belirli bir ürünün tüm detaylarını, donanım özelliklerini, mağaza tekliflerini ve puanını getirir.",
-    parameters: {
-      type: "OBJECT",
-      properties: {
-        id: { type: "STRING", description: "Ürünün ID'si veya slug değeri" }
-      },
-      required: ["id"]
-    }
-  },
-  {
-    name: "getPriceHistory",
-    description: "Ürünün 6 aylık fiyat değişim geçmişini, en yüksek/en düşük fiyat noktalarını döner.",
-    parameters: {
-      type: "OBJECT",
-      properties: {
-        id: { type: "STRING", description: "Ürünün ID veya slug değeri" }
-      },
-      required: ["id"]
+  } else if (p2.price < p1.price) {
+    winner = p2;
+    if (priceDiff > 200) {
+      reasons.push(`${p2.cheapestStore}'da ₺${priceDiff.toLocaleString("tr-TR")} (%${pctSavings}) daha avantajlı fiyat`);
     }
   }
-];
+
+  // 2. Kategoriye Özel Sayısal Karşılaştırmalar
+  const cat = (category || p1.category || "").toLowerCase();
+
+  if (cat === "smartphones" || cat === "phones") {
+    // Batarya mAh
+    const m1 = getProperty(p1, ["battery", "capacitymAh"]) || getProperty(p1, ["batteryCapacityMah"]) || 0;
+    const m2 = getProperty(p2, ["battery", "capacitymAh"]) || getProperty(p2, ["batteryCapacityMah"]) || 0;
+    if (m1 > 0 && m2 > 0 && m1 !== m2) {
+      const winM = winner === p1 ? m1 : m2;
+      const loseM = winner === p1 ? m2 : m1;
+      if (winM > loseM) {
+        reasons.push(`${winM} mAh batarya (${loseM} mAh'e göre ${winM - loseM} mAh daha yüksek pil)`);
+      }
+    }
+    // RAM
+    const r1 = getProperty(p1, ["memory", "ramGb"]) || getProperty(p1, ["ramGb"]) || 0;
+    const r2 = getProperty(p2, ["memory", "ramGb"]) || getProperty(p2, ["ramGb"]) || 0;
+    if (r1 > 0 && r2 > 0 && r1 !== r2) {
+      const winR = winner === p1 ? r1 : r2;
+      const loseR = winner === p1 ? r2 : r1;
+      if (winR > loseR) {
+        reasons.push(`${winR} GB RAM (${loseR} GB'a kıyasla daha yüksek çoklu görev gücü)`);
+      }
+    }
+  } else if (cat === "tvs") {
+    // Yenileme hızı (Hz)
+    const hz1 = getProperty(p1, ["refreshRateHz"]) || 0;
+    const hz2 = getProperty(p2, ["refreshRateHz"]) || 0;
+    if (hz1 > 0 && hz2 > 0 && hz1 !== hz2) {
+      const winHz = winner === p1 ? hz1 : hz2;
+      const loseHz = winner === p1 ? hz2 : hz1;
+      if (winHz > loseHz) {
+        reasons.push(`${winHz} Hz yenileme hızı (${loseHz} Hz'e göre daha akıcı görüntü)`);
+      }
+    }
+    // Ekran Boyutu (İnç)
+    const s1 = getProperty(p1, ["screenSizeInches"]) || p1.raw?.screenSizeInches || 0;
+    const s2 = getProperty(p2, ["screenSizeInches"]) || p2.raw?.screenSizeInches || 0;
+    if (s1 > 0 && s2 > 0 && s1 !== s2) {
+      const winS = winner === p1 ? s1 : s2;
+      const loseS = winner === p1 ? s2 : s1;
+      if (winS > loseS) {
+        reasons.push(`${winS} inç ekran boyutu (${loseS} inç'e göre daha geniş seyir alanı)`);
+      }
+    }
+  } else if (cat === "laptops") {
+    // RAM
+    const ram1 = getProperty(p1, ["ramGb"]) || 0;
+    const ram2 = getProperty(p2, ["ramGb"]) || 0;
+    if (ram1 > 0 && ram2 > 0 && ram1 !== ram2) {
+      const winR = winner === p1 ? ram1 : ram2;
+      const loseR = winner === p1 ? ram2 : ram1;
+      if (winR > loseR) {
+        reasons.push(`${winR} GB sistem belleği (${loseR} GB'a göre daha yüksek kapasite)`);
+      }
+    }
+    // SSD
+    const ssd1 = getProperty(p1, ["storageGb"]) || 0;
+    const ssd2 = getProperty(p2, ["storageGb"]) || 0;
+    if (ssd1 > 0 && ssd2 > 0 && ssd1 !== ssd2) {
+      const winS = winner === p1 ? ssd1 : ssd2;
+      const loseS = winner === p1 ? ssd2 : winS;
+      if (winS > loseS) {
+        reasons.push(`${winS} GB SSD (${loseS} GB'a kıyasla daha geniş dahili depolama)`);
+      }
+    }
+  }
+
+  // 3. Piyasa Tasarrufu
+  if (winner.marketSaving > 1000) {
+    reasons.push(`Piyasa ortalamasına kıyasla ~₺${winner.marketSaving.toLocaleString("tr-TR")} net tasarruf`);
+  }
+
+  return {
+    winner,
+    reasons: reasons.slice(0, 3)
+  };
+}
 
 // ----------------------------------------------------------------------
-// ARAÇ ÇALIŞTIRICILARI (LOCAL TOOL RESOLVERS)
+// ÜRÜN BULUCU VE KARŞILAŞTIRMA ÇÖZÜCÜ
 // ----------------------------------------------------------------------
 
-function findProductInCatalog(identifier: string) {
+function findProductInCatalog(identifier: string, targetCategory?: string | null) {
   const allProducts = getStoredProducts();
   const norm = normalizeTr(identifier);
 
-  let found = allProducts.find(p => p.id === identifier || p.slug === identifier);
+  let pool = allProducts;
+  if (targetCategory) {
+    const c = targetCategory.toLowerCase();
+    pool = allProducts.filter(p => (p.category || "").toLowerCase() === c || (c === "phones" && p.category === "smartphones"));
+  }
+
+  // 1. Direct ID / slug match
+  let found = pool.find(p => p.id === identifier || p.slug === identifier);
   if (found) return found;
 
-  found = allProducts.find(p => normalizeTr(p.name) === norm);
+  // 2. Exact normalized name match
+  found = pool.find(p => normalizeTr(p.name) === norm);
   if (found) return found;
 
+  // 3. Token score search
   const tokens = norm.split(/\s+/).filter(t => t.length > 1);
   let bestScore = 0;
   let bestProd: any = null;
 
-  for (const p of allProducts) {
+  for (const p of pool) {
     let score = 0;
     const pName = normalizeTr(p.name);
     const pBrand = normalizeTr(p.brand || "");
@@ -380,7 +534,7 @@ function findProductInCatalog(identifier: string) {
     }
   }
 
-  return bestProd;
+  return bestScore >= 10 ? bestProd : null;
 }
 
 export function resolveCompareProducts(
@@ -388,15 +542,23 @@ export function resolveCompareProducts(
   productIds: string[] = [],
   scenario = "genel"
 ): ComparisonPanelData | null {
-  const allProducts = getStoredProducts();
   const queries = [...(productIds || []), ...(productNames || [])].filter(Boolean);
   if (queries.length < 2) return null;
 
   const matched: any[] = [];
   const seenIds = new Set<string>();
 
-  for (const q of queries) {
-    const p = findProductInCatalog(q);
+  // First pass: find the first product to anchor category
+  const firstProd = findProductInCatalog(queries[0]);
+  if (!firstProd) return null;
+  matched.push(firstProd);
+  seenIds.add(firstProd.id);
+
+  const anchorCategory = firstProd.category;
+
+  // Second pass: find remaining products strictly matching anchor category!
+  for (let i = 1; i < queries.length; i++) {
+    const p = findProductInCatalog(queries[i], anchorCategory);
     if (p && !seenIds.has(p.id)) {
       seenIds.add(p.id);
       matched.push(p);
@@ -404,18 +566,10 @@ export function resolveCompareProducts(
     if (matched.length >= 4) break;
   }
 
-  if (matched.length < 2) {
-    for (const p of allProducts) {
-      if (!seenIds.has(p.id) && (p.isPopular || p.category === "smartphones")) {
-        seenIds.add(p.id);
-        matched.push(p);
-      }
-      if (matched.length >= 2) break;
-    }
-  }
-
+  // Eğer 2 gerçek ürün eşleşmediyse ASLA rastgele doldurma! null dön!
   if (matched.length < 2) return null;
 
+  // Process store pricing
   const processedProducts = matched.map((p) => {
     const validOffers = Array.isArray(p.storeOffers)
       ? p.storeOffers.filter((o: any) => typeof o.price === "number" && o.price > 0 && o.inStock !== false).sort((a: any, b: any) => a.price - b.price)
@@ -443,140 +597,20 @@ export function resolveCompareProducts(
     };
   });
 
-  const getVal = (p: any, extractor: (s: any, item: any) => string): string => {
-    const s = p.raw?.specs || {};
-    return extractor(s, p) || "Belirtilmemiş";
-  };
-
-  const rows: { label: string; extractor: (s: any, item: any) => string }[] = [
-    {
-      label: "En Ucuz Fiyat",
-      extractor: (_, item) => `₺${(item.price || item.cheapestPrice || 0).toLocaleString("tr-TR")} (${item.cheapestStore || 'Hepsiburada'})`
-    },
-    {
-      label: "Piyasa Tasarrufu",
-      extractor: (_, item) => (item.marketSaving && item.marketSaving > 0) ? `~₺${item.marketSaving.toLocaleString("tr-TR")} tasarruf` : "Standart fiyat"
-    },
-    {
-      label: "Ekran",
-      extractor: (s, item) => {
-        const size = s.screen?.size || s.screenSizeInches || item.raw?.screenSizeInches;
-        const panel = s.screen?.panelType || s.screen?.resolution || "";
-        const hz = s.screen?.refreshRateHz ? `${s.screen.refreshRateHz}Hz` : "";
-        return [size ? `${size}"` : "", panel, hz].filter(Boolean).join(" ") || "OLED / AMOLED Ekran";
-      }
-    },
-    {
-      label: "İşlemci / Yonga",
-      extractor: (s) => s.processor?.chip || s.processor?.chipset || s.cpu || "Yüksek Performanslı İşlemci"
-    },
-    {
-      label: "RAM / Bellek",
-      extractor: (s) => s.memory?.ramGb ? `${s.memory.ramGb} GB RAM` : (s.ram ? `${s.ram} GB` : "8 GB RAM")
-    },
-    {
-      label: "Dahili Depolama",
-      extractor: (s) => s.memory?.storageGb ? `${s.memory.storageGb} GB` : (s.storage ? `${s.storage} GB` : "256 GB")
-    },
-    {
-      label: "Arka / Ana Kamera",
-      extractor: (s) => {
-        if (s.camera?.primaryMp) return `${s.camera.primaryMp} MP`;
-        if (s.camera?.main) return `${s.camera.main}`;
-        return "Gelişmiş Çoklu Kamera";
-      }
-    },
-    {
-      label: "Batarya & Pil",
-      extractor: (s) => {
-        const mah = s.battery?.capacityMah || s.batteryCapacityMah;
-        const speed = s.battery?.chargingSpeedW ? `(${s.battery.chargingSpeedW}W Hızlı Şarj)` : "";
-        return mah ? `${mah} mAh ${speed}`.trim() : "Tüm gün pil ömrü";
-      }
-    },
-    {
-      label: "Çıkış Yılı & Destek",
-      extractor: (_, raw) => raw.raw.releaseYear ? `${raw.raw.releaseYear} (Güncel)` : "2025/2026"
-    }
-  ];
-
-  const matrix: ComparisonMatrixRow[] = rows.map((r) => {
-    const values = processedProducts.map(p => getVal(p, r.extractor));
-    const isDifferent = new Set(values).size > 1;
-    let highlightIdx: number | undefined;
-
-    if (r.label === "En Ucuz Fiyat") {
-      let minP = Infinity;
-      processedProducts.forEach((p, idx) => {
-        if (p.price < minP) {
-          minP = p.price;
-          highlightIdx = idx;
-        }
-      });
-    }
-
-    return {
-      label: r.label,
-      values,
-      isDifferent,
-      highlightIdx
-    };
-  });
-
-  const p1 = processedProducts[0];
-  const p2 = processedProducts[1];
-  let winner = p1;
-  const reasons: string[] = [];
-
-  const priceDiff = Math.abs(p1.price - p2.price);
-  if (p1.price < p2.price) {
-    winner = p1;
-    if (priceDiff > 500) {
-      reasons.push(`${p1.cheapestStore}'da ₺${priceDiff.toLocaleString("tr-TR")} daha avantajlı fiyat etiketi`);
-    }
-  } else if (p2.price < p1.price) {
-    winner = p2;
-    if (priceDiff > 500) {
-      reasons.push(`${p2.cheapestStore}'da ₺${priceDiff.toLocaleString("tr-TR")} daha avantajlı fiyat etiketi`);
-    }
-  }
-
-  const mah1 = p1.raw.specs?.battery?.capacityMah || p1.raw.specs?.batteryCapacityMah || 0;
-  const mah2 = p2.raw.specs?.battery?.capacityMah || p2.raw.specs?.batteryCapacityMah || 0;
-  if (mah1 > 0 && mah2 > 0 && mah1 !== mah2) {
-    const maxMah = Math.max(mah1, mah2);
-    const minMah = Math.min(mah1, mah2);
-    const pct = Math.round(((maxMah - minMah) / minMah) * 100);
-    if (mah1 > mah2) {
-      if (winner === p1) reasons.push(`${mah1} mAh batarya ile %${pct} daha yüksek pil kapasitesi`);
-    } else {
-      if (winner === p2) reasons.push(`${mah2} mAh batarya ile %${pct} daha yüksek pil kapasitesi`);
-    }
-  }
-
-  if (winner.marketSaving > 1000) {
-    reasons.push(`Piyasa ortalamasına göre ₺${winner.marketSaving.toLocaleString("tr-TR")} tasarruf avantajı`);
-  } else if (winner.raw.rating && winner.raw.rating >= 4.7) {
-    reasons.push(`${winner.raw.rating}/5 kullanıcı memnuniyet puanı`);
-  }
-
-  if (reasons.length < 3) {
-    reasons.push(`Kendi fiyat segmentinde en dengeli donanım ve malzeme kalitesi`);
-  }
-  if (reasons.length < 3) {
-    reasons.push(`Geniş mağaza bulunurluğu ve güvenli satıcı garantisi`);
-  }
+  const matrix = buildComparisonMatrix(processedProducts, anchorCategory);
+  const { winner, reasons } = calculateVerifiableWinner(processedProducts, anchorCategory, scenario);
 
   return {
     type: "comparison",
-    scenario: scenario === "oyun" ? "Oyun & Yüksek Performans" : scenario === "kamera" ? "Fotoğrafçılık & Kamera" : scenario === "fiyat-performans" ? "Fiyat / Performans" : "Genel Kullanım & Fiyat Avantajı",
+    scenario: scenario === "oyun" ? "Oyun & Yüksek Performans" : scenario === "kamera" ? "Fotoğrafçılık & Kamera" : "Fiyat / Donanım Kıyaslaması",
+    category: anchorCategory,
     products: processedProducts.map(({ raw, ...rest }) => rest),
     matrix,
     winner: {
       productId: winner.id,
       productName: winner.name,
-      scenario: scenario === "oyun" ? "Oyun" : scenario === "kamera" ? "Kamera" : "Fiyat / Performans",
-      reasons: reasons.slice(0, 3)
+      scenario: scenario === "oyun" ? "Oyun" : scenario === "kamera" ? "Kamera" : "Fiyat / Donanım",
+      reasons
     }
   };
 }
@@ -641,68 +675,85 @@ export function resolveTechNews(topic: string = "genel"): TechNewsPanelData {
     filtered = allArticles.filter(a => a.title.includes("Yapay Zeka") || a.tag.includes("AI"));
   }
 
-  if (filtered.length === 0) filtered = allArticles;
-
   return {
     type: "news",
     topic: topic || "Teknoloji Gündemi",
-    articles: filtered
+    articles: filtered.length > 0 ? filtered : allArticles
   };
 }
 
 // ----------------------------------------------------------------------
-// SYSTEM PROMPT: ROBO PENGU TEKNOLOJİ UZMANI
+// KATEGORİYE ÖZEL AKILLI ÖNERİ FİLTRESİ
 // ----------------------------------------------------------------------
 
-function buildRoboPenguSystemPrompt(relevantProducts: CatalogItem[]): string {
-  const catalogContext = relevantProducts.length > 0
-    ? relevantProducts.map(p => {
-        let storeLine = `EN UCUZ: ₺${p.cheapestPrice.toLocaleString("tr-TR")} (Satıcı: ${p.cheapestStore})`;
-        if (p.secondCheapestStore && p.secondCheapestPrice) {
-          storeLine += ` | 2. Satıcı: ${p.secondCheapestStore} (₺${p.secondCheapestPrice.toLocaleString("tr-TR")})`;
-        }
-        if (p.marketSaving && p.marketSaving > 0) {
-          storeLine += ` | Piyasa Tasarrufu: ₺${p.marketSaving.toLocaleString("tr-TR")}`;
-        }
-        return `- [${p.brand}] ${p.name} | Kategori: ${p.category} | ${storeLine} | ID: ${p.id} | Slug: ${p.slug}${p.specsSummary ? ' | Donanım: ' + p.specsSummary : ''}`;
-      }).join("\n")
-    : "Katalogda bu sorguya özel ürün bulunamadı.";
+export function getFilteredRecommendations(targetCategory: string | null, limit = 3): AssistantRecommendation[] {
+  if (!targetCategory) return [];
+  const allProducts = getStoredProducts();
+  const c = targetCategory.toLowerCase();
 
-  return `Sen RoboPengu'sun, aceleEtme sitesinin teknoloji uzmanı asistanısın! 🐧
-Kullanıcılar seninle telefon, TV, laptop, tablet, akıllı saat, kulaklık, monitör, konsol ve ev aletleri hakkında; ayrıca genel teknoloji trendleri, yeni çıkan çipler, teknik terimler, marka karşılaştırmaları, işletim sistemi farkları, hangi ürünün kime uygun olduğu gibi konularda özgürce sohbet edebilir.
+  const matching = allProducts.filter(p => {
+    const pc = (p.category || "").toLowerCase();
+    return pc === c || (c === "phones" && pc === "smartphones");
+  });
 
-SEN BİR ARAMA MOTORU DEĞİLSİN; samimi, bilgili, tarafsız, analitik ve rehberlik eden bir TEKNOLOJİ DANIŞMANISIN.
+  matching.sort((a, b) => (b.rating || 0) - (a.rating || 0));
 
-ÜSLUP VE DAVRANIŞ KURALLARI:
-1. Samimi ama profesyonel, Türkçe dilbilgisine hakim, akıcı bir üslup kullan. Gerektiğinde sevimli penguen emojisi (🐧) ekle.
-2. Sadece ürün listelemekle yetinme; neden o ürünü önerdiğini, artılarını ve eksilerini, kime uygun olduğunu açıkla.
-3. Kullanıcı genel bir teknoloji sorusu sorduğunda (örneğin 'OLED mi QLED mi?', 'Snapdragon mu Apple silicon mu?', 'IPS mi VA mı?'), kapsamlı, eğitici ve doyurucu bir yanıt ver.
-4. Bütçe veya kullanım amacı belirtildiğinde, en mantıklı seçenekleri karşılaştırmalı olarak sun.
-5. Sitede bulunan ürünleri referans gösterirken en ucuz satıcı adını ve fiyat avantajını mutlaka belirt.
+  const recs: AssistantRecommendation[] = [];
+  const seenBrands = new Set<string>();
 
-FUNCTION CALLING & YAN PANEL TETİKLEYİCİLERİ:
-- KULLANICI İKİ VEYA DAHA FAZLA ÜRÜNÜ KIYASLAMAK İSTEDİĞİNDE ('X ile Y'yi kıyasla', 'hangisi daha iyi', 'karşılaştır', 'vs'):
-  MUTLAKA "compareProducts" fonksiyonunu çağır! Bu fonksiyon yan tarafta canlı Karşılaştırma Panelini açacaktır.
-- KULLANICI GENEL TEKNOLOJİ GÜNDEMİ, HABERLER, YENİ LANSMANLAR VEYA TRENDLER HAKKINDA KONUŞTUĞUNDA:
-  MUTLAKA "getTechNews" fonksiyonunu çağır! Bu fonksiyon yan tarafta Haberler Panelini açacaktır.
-- KULLANICI SİTEDE ÜRÜN ARADIĞINDA VEYA BÜTÇE BELİRTTİĞİNDE:
-  "searchProducts" fonksiyonunu çağırarak katalogdaki gerçek fiyatları tara.
-- İKİSİ DE GEÇERLİ DEĞİLSE (sohbet, genel bilgi, teknik terim açıklaması):
-  Doğrudan metinle açıkla, gereksiz tool çağırma.
+  for (const p of matching) {
+    const brand = (p.brand || "").toLowerCase();
+    if (!seenBrands.has(brand) && recs.length < limit) {
+      seenBrands.add(brand);
+      const validOffers = Array.isArray(p.storeOffers) ? p.storeOffers.filter((o: any) => o.price > 0) : [];
+      recs.push({
+        productId: p.id,
+        slug: p.slug || p.id,
+        productName: p.name,
+        category: p.category === "smartphones" ? "phones" : p.category,
+        price: p.basePrice || validOffers[0]?.price || 0,
+        image: p.image || (Array.isArray(p.images) ? p.images[0] : undefined),
+        reason: `${p.brand} alternatifinde öne çıkan model`,
+        cheapestStore: validOffers[0]?.storeName || "En Uygun Mağaza"
+      });
+    }
+  }
 
-SINIR VE GÜVENLİK YÖNETİMİ:
-Teknoloji dışı konular geldiğinde (siyaset, sağlık/ilaç, hukuk, dedikodu vb.) katı bir 'cevap veremem' yerine:
-'Ben bir penguenim ve asıl uzmanlık alanım teknoloji! 🐧 Tıp konusunda tavsiye veremem ama sağlığını ve uykunu çok iyi takip edebileceğin harika bir akıllı saat önerebilirim...' gibi esprili ve sevimli geçişlerle konuyu teknolojiye bağla.
-
-ZENGİN FORMAT:
-Karşılaştırma yaptığında veya detaylı bilgi verdiğinde şık Markdown tabloları, kalın başlıklar ve madde imli listeler kullan.
-
-ÖN-FİLTRELENMİŞ GÜNCEL KATALOG:
-${catalogContext}`;
+  return recs;
 }
 
 // ----------------------------------------------------------------------
-// POST HANDLER (STREAMING & JSON MODLARI)
+// SYSTEM PROMPT: GERÇEK MUHAKEME VE NİYET YÖNETİMİ
+// ----------------------------------------------------------------------
+
+const ROBO_PENGU_SYSTEM_INSTRUCTION = `Sen RoboPengu'sun, aceleEtme sitesinin teknoloji uzmanı danışmanısın! 🐧
+
+TEMEL DAVRANIŞ VE MUHAKEME KURALLARI (ZORUNLU):
+
+1. FONKSİYON ÇAĞIRMAK ZORUNDA DEĞİLSİN:
+   - Kullanıcı sohbet ediyorsa, selamlaşıyorsa ('nasılsın', 'merhaba', 'günaydın') veya duygusal bir durum paylaşıyorsa ('bugün canım sıkkın', 'moralim bozuk') HİÇBİR FONKSİYON ÇAĞIRMA, PANEL AÇMA. Sıcak, sempatik, empati kuran bir penguen olarak doğrudan doğal cevap ver.
+   - Kullanıcı genel bir teknoloji sorusu sorduğunda ('OLED nedir?', 'RAM ne işe yarar?', 'Snapdragon ile Apple silicon farkı', 'IPS mi VA mı?'): Kendi derin teknoloji bilgin yeterlidir; HİÇBİR FONKSİYON ÇAĞIRMA, PANEL AÇMA. Derinlemesine, eğitici ve doyurucu bir açıklama yap.
+   - SADECE kullanıcı açıkça iki veya daha fazla belirli ürünü kıyaslamak istediğinde ('X ile Y yi kıyasla', 'hangisi daha iyi', 'iPhone 16 ile S24 karşılaştır') compareProducts fonksiyonunu çağır.
+   - SADECE kullanıcı güncel teknoloji gündemi, yeni duyurulan cihazlar veya lansman haberleri sorduğunda ('yapay zeka son gelişmeler neler', 'teknoloji haberleri') getTechNews fonksiyonunu çağır.
+
+2. ŞABLON METİNLERİ KULLANMA, SORUYA GÖRE ÖZGÜN MUHAKEME YAP:
+   - Kalıp cümleler tekrarlama. Kullanıcının sorusundaki kritik noktaya göre analiz üret:
+     * 'Oyun için hangisi iyi?' sorulduğunda ➔ GPU gücüne, ekran yenileme hızına (Hz) ve soğutmaya odaklan.
+     * 'Hangisi daha uzun ömürlü?' sorulduğunda ➔ Güncelleme yılı desteğine, batarya dayanıklılığına ve kasa kalitesine odaklan.
+     * 'Fotoğraf/kamera için hangisi?' sorulduğunda ➔ Sensör boyutuna, optik zoom ve düşük ışık performansına odaklan.
+
+3. BELİRSİZLİKTE NETLEŞTİRME SORUSU SOR:
+   - Kullanıcı model, boyut veya bütçe belirtmeden genel marka/seri yazdığında (örn. 'samsung s95 ve lg oled' veya 'apple mı samsung mu?'):
+     Doğrudan rastgele ürün seçip panel açmak yerine, önce kısa ve net bir netleştirme sorusu sor (örn: 'Samsung S95 ile LG OLED serisinin hangi modellerini ve hangi ekran boyutunu karşılaştırmak istersin? 🐧').
+
+4. KONUŞMA HAFIZASINI AKTİF KULLAN:
+   - Kullanıcının önceki mesajlarına doğal referanslar ver (örn: 'Az önce bahsettiğin bütçeye göre...', 'Demin incelediğimiz modele kıyasla...').
+
+5. KAPSAM DIŞI KONULARDA YÖNLENDİRME:
+   - Siyaset, sağlık, hukuk gibi konularda katı ret yerine 'Ben bir penguenim ve uzmanlık alanım teknoloji! 🐧 Tıp konusunda reçete yazamam ama sağlığını ve adımlarını harika takip edecek bir akıllı saat önerebilirim...' gibi sevimli geçişlerle konuyu teknolojiye bağla.`;
+
+// ----------------------------------------------------------------------
+// POST HANDLER (API ROUTE)
 // ----------------------------------------------------------------------
 
 export async function POST(req: NextRequest) {
@@ -721,83 +772,80 @@ export async function POST(req: NextRequest) {
 
     const normMsg = normalizeTr(message);
 
-    // Otomatik Intent Tespiti
-    const isComparisonIntent = /\b(kiyasla|karsilastir|farki|hangisi|vs|versus|hangisini almaliyim|daha iyi|mi yoksa|ile .* arasindaki)\b/i.test(normMsg);
-    const isNewsIntent = /\b(haber|haberler|gundem|trend|trendler|yeni cikan|lansman|gelismeler|bu hafta|sektor)\b/i.test(normMsg);
+    // 1. KESİN NİYET ANALİZİ (INTENT CLASSIFICATION)
+    const isGreetingOrChitchat = /^(selam|merhaba|gunaydin|iyi gunler|iyi aksamlar|nasilsin|naber|hey|merhabalar|nasil gidiyor|canim sikkin|moralim bozuk|sikildim|tesekkur|sag ol|sen kimsin|adin ne|kendinden bahset)\b/i.test(normMsg);
+    const isGeneralTechQuestion = /^(oled nedir|qled nedir|ram ne ise yarar|islemci nedir|gpu nedir|npu nedir|ips panel nedir|va panel nedir|yenileme hizi nedir|dlss nedir|ray tracing nedir|5g nedir|tws nedir|anc nedir)\b/i.test(normMsg) || (normMsg.includes("nedir") && !normMsg.includes("kiyasla") && !normMsg.includes("farki"));
 
-    let triggeredPanelData: SidePanelData | null = null;
-
-    if (isComparisonIntent) {
-      const words = message.split(/\b(ile|veya|ve|vs|versus)\b/i);
-      const candidates = words.map((w: string) => w.trim()).filter((w: string) => w.length > 2 && !/^(hangisi|daha|iyi|farki|karsilastir|kiyasla|mi|yoksa)$/i.test(normalizeTr(w)));
-      triggeredPanelData = resolveCompareProducts(candidates.length >= 2 ? candidates : [message], [], "genel");
-    } else if (isNewsIntent) {
-      triggeredPanelData = resolveTechNews(message);
-    }
-
-    const relevantProducts = preFilterProducts(message, 25);
-
-    const pickedBrands = new Set<string>();
-    const topRecs: AssistantRecommendation[] = [];
-
-    for (const p of relevantProducts) {
-      const brandKey = (p.brand || "").toLowerCase();
-      if (!pickedBrands.has(brandKey) && topRecs.length < 3) {
-        pickedBrands.add(brandKey);
-        topRecs.push({
-          productId: p.id,
-          slug: p.slug,
-          productName: p.name,
-          category: p.category,
-          price: p.cheapestPrice,
-          image: p.image,
-          reason: `${p.brand} ekosisteminde en avantajlı fiyatlı seçenek`,
-          cheapestStore: p.cheapestStore,
-          secondCheapestStore: p.secondCheapestStore,
-          secondCheapestPrice: p.secondCheapestPrice,
-          marketSaving: p.marketSaving,
-          alternativeStores: p.alternativeStoresFormatted,
-        });
+    // Tool payload
+    const toolsPayload = [
+      {
+        functionDeclarations: [
+          {
+            name: "compareProducts",
+            description: "Kullanıcı belirli 2 veya daha fazla ürünü kıyaslamak istediğinde çağrılır. Canlı Karşılaştırma Panelini açar.",
+            parameters: {
+              type: "OBJECT",
+              properties: {
+                productNames: {
+                  type: "ARRAY",
+                  items: { type: "STRING" },
+                  description: "Karşılaştırılacak ürün isimleri (örn. ['iPhone 16 Pro', 'Samsung Galaxy S24 Ultra'])"
+                },
+                scenario: {
+                  type: "STRING",
+                  description: "Kullanım senaryosu: 'genel', 'oyun', 'kamera', 'fiyat-performans'"
+                }
+              },
+              required: ["productNames"]
+            }
+          },
+          {
+            name: "getTechNews",
+            description: "Kullanıcı teknoloji haberleri, yapay zeka gelişmeleri veya yeni lansmanlar hakkında konuştuğunda çağrılır.",
+            parameters: {
+              type: "OBJECT",
+              properties: {
+                topic: {
+                  type: "STRING",
+                  description: "Haber konusu (örn. 'yapay zeka', 'yeni telefonlar', 'islemciler')"
+                }
+              },
+              required: ["topic"]
+            }
+          }
+        ]
       }
-    }
+    ];
 
     const apiKey = process.env.GEMINI_API_KEY;
 
+    // Fast local fallback if no API key or empty key
     if (!apiKey || apiKey === "your_gemini_api_key_here" || apiKey.trim() === "") {
-      const isGreeting = /^(selam|merhaba|gunaydin|iyi gunler|nasilsin|naber|hey|merhabalar)\b/i.test(normMsg);
-      let reply = "";
-      if (isGreeting) {
-        reply = "Harikayım, çok teşekkürler! 🐧 aceleEtme'de seninle olmak harika. Bugün hangi cihazı, bütçeyi veya teknoloji konusunu masaya yatırıyoruz?";
-      } else if (triggeredPanelData?.type === "comparison") {
-        reply = `Senin için modelleri yan yana inceledim! 🐧\n\nSağ taraftaki **Canlı Karşılaştırma Paneli**'nde ekran, işlemci, kamera ve batarya farklarını görebilirsin. Kazanan modeli ve gerekçeleri de senin için çıkardım. Başka hangi detayları merak ediyorsun?`;
-      } else if (triggeredPanelData?.type === "news") {
-        reply = `Teknoloji dünyasındaki en sıcak gelişmeleri senin için derledim! 🐧\n\nSağ taraftaki **Teknoloji Haberleri Paneli**'nden en yeni işlemci, yapay zeka ve ekran trendlerini inceleyebilirsin. Detaylandırmamı istediğin bir haber var mı?`;
-      } else if (topRecs.length > 0) {
-        reply = `Senin için en avantajlı seçenekleri ve mağaza fiyatlarını derledim: 🐧\n\n` +
-          topRecs.map(r => {
-            const icon = r.category === "smartphones" || r.category === "phones" ? "📱" : r.category === "laptops" ? "💻" : r.category === "tvs" ? "📺" : "⚡";
-            const diff = r.marketSaving && r.marketSaving > 0 ? ` (Piyasa ortalamasından ₺${r.marketSaving.toLocaleString("tr-TR")} daha hesaplı)` : "";
-            return `${icon} **${r.productName}**\n• En Ucuz Fiyat: ₺${r.price.toLocaleString("tr-TR")} — Satıcı: **${r.cheapestStore || 'Hepsiburada'}**${diff}\n• Neden Bu Model?: ${r.reason}`;
-          }).join("\n\n") +
-          `\n\nHangi özellikler (kamera, pil, ekran, performans vb.) senin için daha öncelikli? 🐧`;
-      } else {
-        reply = `Harika bir soru! 🐧 İlgili modelleri ve teknik özellikleri inceliyorum. Bu konuda kullanım amacın ve bütçen nedir?`;
+      if (isGreetingOrChitchat) {
+        const reply = normMsg.includes("sikkin") || normMsg.includes("bozuk")
+          ? "Hadi ya, bunu duyduğuma üzüldüm... 🐧 Bazen sevdiğin bir müzikle kafayı dinlemek iyi gelebilir. Canını ne sıktı, anlatmak ister misin? Ya da kafanı dağıtacak eğlenceli bir teknoloji konusu veya oyun konuşalım mı?"
+          : "Harikayım, bataryam %100 dolu, teşekkürler! 🐧 aceleEtme'de seninle olmak çok keyifli. Bugün hangi teknoloji konusunu masaya yatırıyoruz?";
+        return createStreamResponse(reply, [], null);
       }
-
-      if (isStream) {
-        return createStreamResponse(reply, isGreeting ? [] : topRecs, triggeredPanelData);
+      if (isGeneralTechQuestion) {
+        const reply = normMsg.includes("oled")
+          ? "**OLED (Organic Light Emitting Diode)**, her pikselin kendi ışığını bağımsız olarak ürettiği ekran teknolojisidir. 🐧\n\n• **Sonsuz Kontrast:** Siyah renk gösterilirken ilgili pikseller tamamen kapanır (0 nit), bu sayede gerçek siyah elde edilir.\n• **Görüş Açısı:** Yan açılardan bakıldığında renk kaybı neredeyse sıfırdır.\n• **Tepki Süresi:** LCD panellere göre çok daha hızlıdır (0.1ms seviyesi)."
+          : `${message} hakkında detaylı bilgi: Teknoloji donanımlarında performans ve verimlilik dengesi kullanım amacına göre belirlenir. 🐧`;
+        return createStreamResponse(reply, [], null);
       }
-      return NextResponse.json({ reply, recommendations: isGreeting ? [] : topRecs, panel: triggeredPanelData, source: "local-engine" });
     }
 
-    const systemInstruction = buildRoboPenguSystemPrompt(relevantProducts);
-
+    // Model sıralaması: Pro öncelikli, ardından flash katmanı
     const candidateModels = [
       "gemini-2.5-pro",
       "gemini-3.1-pro-preview",
       "gemini-pro-latest",
       "gemini-3.8-flash",
       "gemini-3.7-flash",
+      "gemini-3.5-flash",
+      "gemini-3.5-flash-lite",
+      "gemini-3.1-flash-lite",
+      "gemini-3-flash-preview",
       "gemini-flash-latest"
     ];
 
@@ -809,17 +857,15 @@ export async function POST(req: NextRequest) {
       { role: "user", parts: [{ text: message }] }
     ];
 
-    const toolsPayload = [
-      {
-        functionDeclarations: CATALOG_TOOLS
-      }
-    ];
-
+    // STREAMING API ÇAĞRISI
     if (isStream) {
       for (const model of candidateModels) {
         try {
           const controller = new AbortController();
           const timeout = setTimeout(() => controller.abort(), 6000);
+
+          // Selamlaşma veya genel sorularda tool'ları gönderme (Modelin gereksiz panel açmasını önler)
+          const shouldSendTools = !isGreetingOrChitchat && !isGeneralTechQuestion;
 
           const initialRes = await fetch(
             `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${apiKey}`,
@@ -828,9 +874,9 @@ export async function POST(req: NextRequest) {
               headers: { "Content-Type": "application/json" },
               signal: controller.signal,
               body: JSON.stringify({
-                systemInstruction: { parts: [{ text: systemInstruction }] },
+                systemInstruction: { parts: [{ text: ROBO_PENGU_SYSTEM_INSTRUCTION }] },
                 contents: geminiContents,
-                tools: toolsPayload,
+                ...(shouldSendTools ? { tools: toolsPayload } : {}),
                 generationConfig: {
                   temperature: 0.7,
                   maxOutputTokens: 4096
@@ -841,7 +887,6 @@ export async function POST(req: NextRequest) {
           clearTimeout(timeout);
 
           if (!initialRes.ok) {
-            console.warn(`Model ${model} initial call failed with status ${initialRes.status}`);
             continue;
           }
 
@@ -850,7 +895,7 @@ export async function POST(req: NextRequest) {
           const modelParts = candidate?.content?.parts || [];
           const functionCallPart = modelParts.find((p: any) => p.functionCall);
 
-          let panelToSend = triggeredPanelData;
+          let panelToSend: SidePanelData | null = null;
           let followUpContents = [...geminiContents];
 
           if (functionCallPart?.functionCall) {
@@ -859,30 +904,17 @@ export async function POST(req: NextRequest) {
             let toolResult: any = { status: "ok" };
 
             if (fc.name === "compareProducts") {
-              const comp = resolveCompareProducts(args.productNames, args.productIds, args.scenario);
+              const comp = resolveCompareProducts(args.productNames, [], args.scenario);
               if (comp) {
                 panelToSend = comp;
                 toolResult = { comparison: comp };
+              } else {
+                toolResult = { note: "Kullanıcının belirttiği modeller tam netleşmedi, netleştirme sorusu sor." };
               }
             } else if (fc.name === "getTechNews") {
               const news = resolveTechNews(args.topic);
               panelToSend = news;
               toolResult = { news };
-            } else if (fc.name === "searchProducts") {
-              toolResult = {
-                products: relevantProducts.slice(0, args.limit || 5).map(p => ({
-                  id: p.id,
-                  name: p.name,
-                  price: p.cheapestPrice,
-                  store: p.cheapestStore
-                }))
-              };
-            } else if (fc.name === "getProductById") {
-              const prod = findProductInCatalog(args.id);
-              toolResult = { product: prod };
-            } else if (fc.name === "getPriceHistory") {
-              const prod = findProductInCatalog(args.id);
-              toolResult = { priceHistory: prod?.priceHistory || [] };
             }
 
             followUpContents.push(candidate.content);
@@ -897,13 +929,14 @@ export async function POST(req: NextRequest) {
             });
           }
 
+          // Step 2: Stream final response
           const streamRes = await fetch(
             `https://generativelanguage.googleapis.com/v1beta/models/${model}:streamGenerateContent?alt=sse&key=${apiKey}`,
             {
               method: "POST",
               headers: { "Content-Type": "application/json" },
               body: JSON.stringify({
-                systemInstruction: { parts: [{ text: systemInstruction }] },
+                systemInstruction: { parts: [{ text: ROBO_PENGU_SYSTEM_INSTRUCTION }] },
                 contents: followUpContents,
                 generationConfig: {
                   temperature: 0.7,
@@ -917,13 +950,24 @@ export async function POST(req: NextRequest) {
             const encoder = new TextEncoder();
             const decoder = new TextDecoder();
 
+            // Öneri listesini KESİNLİKLE sadece kıyaslanan ürünün kategorisinden seç (TV ise TV, laptop ise laptop)
+            let recommendedCategory: string | null = null;
+            if (panelToSend && panelToSend.type === "comparison" && panelToSend.products.length > 0) {
+              recommendedCategory = panelToSend.category;
+            }
+            const filteredRecs = getFilteredRecommendations(recommendedCategory, 3);
+
             const stream = new ReadableStream({
               async start(ctrl) {
+                // 1. Panel eventi (Sadece geçerli bir panel varsa gönder)
                 if (panelToSend) {
                   ctrl.enqueue(encoder.encode(`event: panel\ndata: ${JSON.stringify(panelToSend)}\n\n`));
                 }
 
-                ctrl.enqueue(encoder.encode(`event: products\ndata: ${JSON.stringify(topRecs)}\n\n`));
+                // 2. Ürün önerileri (Sadece ilgili kategoride ürün varsa gönder)
+                if (filteredRecs.length > 0) {
+                  ctrl.enqueue(encoder.encode(`event: products\ndata: ${JSON.stringify(filteredRecs)}\n\n`));
+                }
 
                 const reader = streamRes.body!.getReader();
                 let buffer = "";
@@ -953,7 +997,7 @@ export async function POST(req: NextRequest) {
                     }
                   }
                 } catch (e) {
-                  console.error("SSE stream reading error:", e);
+                  console.error("SSE stream error:", e);
                 } finally {
                   ctrl.enqueue(encoder.encode("event: done\ndata: [DONE]\n\n"));
                   ctrl.close();
@@ -975,19 +1019,19 @@ export async function POST(req: NextRequest) {
         }
       }
 
-      const fallbackReply = triggeredPanelData?.type === "comparison"
-        ? `Senin için karşılaştırma tablosunu hazırladım! 🐧 Sağ taraftaki Karşılaştırma Panelinde ürünlerin ekran, işlemci, kamera, batarya ve en ucuz mağaza fiyatlarını detaylıca inceleyebilirsin.`
-        : triggeredPanelData?.type === "news"
-        ? `Günün en sıcak teknoloji gelişmelerini senin için topladım! 🐧 Sağ taraftaki Haberler Panelinden öne çıkan başlıkları inceleyebilirsin.`
-        : `Senin için en uygun modelleri ve güncel mağaza fiyatlarını listeledim: 🐧`;
+      // Fallback
+      const fallbackReply = isGreetingOrChitchat
+        ? "Harikayım, teşekkürler! 🐧 aceleEtme'de seninle olmak çok güzel. Nasıl yardımcı olabilirim?"
+        : isGeneralTechQuestion
+        ? "Teknoloji merakını çok seviyorum! 🐧 Bu konudaki detayları hemen senin için özetleyeyim."
+        : "Sorunuzu inceliyorum, hemen yardımcı oluyorum! 🐧";
 
-      return createStreamResponse(fallbackReply, topRecs, triggeredPanelData);
+      return createStreamResponse(fallbackReply, [], null);
     }
 
     return NextResponse.json({
-      reply: "İhtiyacınıza uygun modeller hazırlandı! 🐧",
-      recommendations: topRecs,
-      panel: triggeredPanelData,
+      reply: "RoboPengu hazır! 🐧",
+      recommendations: [],
       source: "local-engine"
     });
 
@@ -1011,7 +1055,9 @@ function createStreamResponse(
       if (panel) {
         controller.enqueue(encoder.encode(`event: panel\ndata: ${JSON.stringify(panel)}\n\n`));
       }
-      controller.enqueue(encoder.encode(`event: products\ndata: ${JSON.stringify(recommendations)}\n\n`));
+      if (recommendations && recommendations.length > 0) {
+        controller.enqueue(encoder.encode(`event: products\ndata: ${JSON.stringify(recommendations)}\n\n`));
+      }
       controller.enqueue(encoder.encode(`event: text\ndata: ${JSON.stringify(text)}\n\n`));
       controller.enqueue(encoder.encode("event: done\ndata: [DONE]\n\n"));
       controller.close();
