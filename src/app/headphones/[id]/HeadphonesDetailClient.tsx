@@ -29,6 +29,44 @@ import {
   ChevronRight
 } from 'lucide-react';
 
+const HEADPHONE_SPEC_LABELS: Record<string, string> = {
+  formFactor: 'Form Faktörü & Akustik Yapı',
+  driverSize: 'Sürücü Çapı ve Mıknatıs',
+  frequencyResponse: 'Frekans Tepkisi',
+  acousticSystem: 'Akustik Tasarım',
+  connectivityType: 'Kablosuz İletim Türü',
+  wirelessRange: 'Kablosuz Kapsama Alanı',
+  channels: 'Kanal Seçeneği & Frekans',
+  batteryLife: 'Pil Ömrü / Çalma Süresi',
+  chargingTime: 'Şarj Süresi',
+  batteryType: 'Pil Tipi / Güç Kaynağı',
+  transmitter: 'Verici Ünite (Transmitter)',
+  audioInputs: 'Giriş / Bağlantı Arayüzü',
+  controls: 'Kulaklık Üzeri Kontroller',
+  headbandType: 'Kafa Bandı Tasarımı',
+  earCushions: 'Kulak Yastığı Materyali',
+  weightGrams: 'Ağırlık',
+  powerSupply: 'Verici Güç Kaynağı',
+  packageContents: 'Kutu İçeriği',
+  bluetoothVersion: 'Bluetooth Versiyonu',
+  noiseCancelling: 'Aktif Gürültü Engelleme (ANC)',
+  microphone: 'Mikrofon',
+  impedance: 'Empedans (Direnç)',
+  sensitivity: 'Hassasiyet',
+  waterResistance: 'Su / Ter Dayanıklılığı',
+  codecSupport: 'Desteklenen Kodekler'
+};
+
+function formatSpecKey(key: string): string {
+  if (HEADPHONE_SPEC_LABELS[key]) return HEADPHONE_SPEC_LABELS[key];
+  return key
+    .replace(/([A-Z])/g, ' $1')
+    .replace(/[_-]/g, ' ')
+    .trim()
+    .toLowerCase()
+    .replace(/^\w/, (c) => c.toUpperCase());
+}
+
 export default function HeadphonesDetailClient({ initialProduct }: { initialProduct: Product | null }) {
   const { addToCompare, removeFromCompare, isInCompare } = useCompare();
   const searchParams = useSearchParams();
@@ -219,11 +257,14 @@ export default function HeadphonesDetailClient({ initialProduct }: { initialProd
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {Object.entries(specs).map(([key, value]) => {
-              if (!value || typeof value === 'object') return null;
+              if (value === undefined || value === null || value === '') return null;
+              if (typeof value === 'object' && !Array.isArray(value)) return null;
+              const displayVal = Array.isArray(value) ? value.join(', ') : String(value);
+              const label = formatSpecKey(key);
               return (
-                <div key={key} className="bg-slate-50 p-4 rounded-2xl border border-slate-100">
-                  <span className="text-[10px] font-bold text-slate-400 uppercase tracking-wider block">{key}</span>
-                  <span className="text-xs font-black text-slate-900">{String(value)}</span>
+                <div key={key} className="bg-slate-50 p-4 rounded-2xl border border-slate-100 flex flex-col justify-between">
+                  <span className="text-[11px] font-bold text-slate-500 block mb-1">{label}</span>
+                  <span className="text-xs font-black text-slate-900 leading-relaxed">{displayVal}</span>
                 </div>
               );
             })}

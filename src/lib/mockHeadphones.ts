@@ -14,21 +14,39 @@ export const mockHeadphones: Product[] = [
     "reviewCount": 1600,
     "image": "/images/headphones/sony-mdr-rf811rk.jpg",
     "images": [
-      "/images/headphones/sony-mdr-rf811rk.jpg"
+      "/images/headphones/sony-mdr-rf811rk.jpg",
+      "/images/headphones/sony-mdr-rf811rk-dock.jpg",
+      "/images/headphones/sony-mdr-rf811rk-controls.jpg",
+      "/images/headphones/sony-mdr-rf811rk-earcup.jpg"
     ],
     "releaseYear": 2020,
     "highlights": [
-      "100 Metreye Kadar Radyo Frekansı (RF) Kablosuz İletim ile Duvarların Arkasından Bile Kesintisiz Ses",
-      "40 mm Neodimyum Sürücüler ile Geniş Dinamik Aralık ve Derin Baslar",
-      "Kendi Kendine Ayarlanan Kafa Bandı ve 13 Saate Varan Şarj Edilebilir Pil"
+      "100 Metreye Kadar Radyo Frekansı (RF) ile Duvarların ve Kapıların Arkasından Kesintisiz Ses",
+      "40 mm Neodimyum Kubbe Sürücüler ile Sinematik Derin Baslar ve Kristal Netliğinde Diyaloglar",
+      "Kendinden Ayarlanan Konforlu Süspansiyon Kafa Bandı ve Yumuşak Kumaş Kulak Yastıkları",
+      "13 Saate Varan Şarj Edilebilir Pil Ömrü (Standart Alkalin Pillerle 28 Saate Kadar)",
+      "2 Seçilebilir Frekans Kanalı (863.52 / 864.52 MHz) ile Sıfır Sinyal Paraziti",
+      "3.5 mm Stereo Giriş ile TV, Müzik Seti, Bilgisayar ve Oyun Konsollarına Evrensel Bağlantı"
     ],
     "specs": {
-      "formFactor": "Kulak Üstü (100m RF Kablosuz / 40mm Neodimyum / 13s Pil)",
-      "driverSize": "40 mm Neodimyum Dinamik",
+      "formFactor": "Kulak Üstü (Over-Ear / Kapalı Dinamik Akustik)",
+      "driverSize": "40 mm Neodimyum Kubbe Tipi Dinamik Sürücüler",
       "frequencyResponse": "20 Hz - 20.000 Hz",
-      "batteryLife": "13 Saat",
-      "bluetoothVersion": "RF Kablosuz Verici (Transmitter Standı)",
-      "weightGrams": 270
+      "acousticSystem": "Kapalı Akustik Yapı (Closed Dynamic)",
+      "connectivityType": "RF (Radyo Frekansı) FM Stereo Kablosuz İletim",
+      "wirelessRange": "100 Metreye Kadar (Açık ve Engelli Alanlarda)",
+      "channels": "2 Kanal Seçeneği (Ch 1: 863.52 MHz / Ch 2: 864.52 MHz)",
+      "batteryLife": "13 Saat (Şarj Edilebilir Ni-MH) / 28 Saat (Alkalin AAA)",
+      "chargingTime": "16 Saat (Tam Şarj)",
+      "batteryType": "2 x AAA Şarj Edilebilir Ni-MH (BP-HP550-11) veya Standart Alkalin",
+      "transmitter": "TMR-RF810R Masaüstü RF Verici ve Şarj Standı",
+      "audioInputs": "3.5 mm Stereo Analog Mini Jak Girişi",
+      "controls": "Kulaklık Üzerinde Döner Kadranlı Ses Kontrolü, Güç Anahtarı ve Kanal Seçici",
+      "headbandType": "Kendinden Ayarlanan Süspansiyonlu Ergonomik Kafa Bandı",
+      "earCushions": "Nefes Alabilen Yumuşak Kumaş Dolgulu Yastıklar",
+      "weightGrams": "270 g (Piller Dahil) / Verici: 135 g",
+      "powerSupply": "Verici: 9V DC AC Güç Adaptörü (Dahili)",
+      "packageContents": "MDR-RF811R Kulaklık, TMR-RF810R Verici Dock, AC Güç Adaptörü, Şarj Edilebilir Ni-MH Pil Paketi, 3.5mm Ses Bağlantı Kablosu"
     },
     "storeOffers": [
       {
