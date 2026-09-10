@@ -39,13 +39,58 @@ export interface AssistantRecommendation {
   alternativeStores?: string;
 }
 
-export interface AssistantResponse {
-  reply: string;
-  recommendations: AssistantRecommendation[];
-  source?: "gemini-3.8" | "gemini-cascade" | "cache" | "local-engine";
+export interface ComparisonMatrixRow {
+  label: string;
+  values: string[];
+  isDifferent: boolean;
+  highlightIdx?: number;
 }
 
-// Turkish character normalization
+export interface ComparisonPanelData {
+  type: "comparison";
+  scenario: string;
+  products: {
+    id: string;
+    slug: string;
+    name: string;
+    brand: string;
+    category: string;
+    image?: string;
+    price: number;
+    cheapestStore: string;
+    secondCheapestStore?: string;
+    secondCheapestPrice?: number;
+    marketSaving?: number;
+  }[];
+  matrix: ComparisonMatrixRow[];
+  winner: {
+    productId: string;
+    productName: string;
+    scenario: string;
+    reasons: string[];
+  };
+}
+
+export interface TechNewsArticle {
+  id: string;
+  title: string;
+  summary: string;
+  source: string;
+  date: string;
+  tag: string;
+  url?: string;
+}
+
+export interface TechNewsPanelData {
+  type: "news";
+  topic: string;
+  articles: TechNewsArticle[];
+}
+
+export type SidePanelData = ComparisonPanelData | TechNewsPanelData;
+
+// ---- Yardımcı Fonksiyonlar ------------------------------------------
+
 function normalizeTr(text: string): string {
   if (!text) return "";
   return text
@@ -63,12 +108,11 @@ function normalizeTr(text: string): string {
     .trim();
 }
 
-// Intelligent pre-filtering: narrows down 5,800+ products to top 20-25 candidates with multi-brand diversity and store price matching
+// Akıllı Katalog Ön Filtreleme
 export function preFilterProducts(userMessage: string, limit = 25): CatalogItem[] {
   const allProducts = getStoredProducts();
   const normMessage = normalizeTr(userMessage);
 
-  // 1. Extract budget mentions (e.g. "45.000 TL", "60 bin civarı", "en fazla 30.000 TL", "50k", "40000")
   let targetBudget = 0;
   const kMatch = normMessage.match(/\b([0-9]{1,3})\s*k\b/i);
   const binMatch = normMessage.match(/\b([0-9]{1,3})\s*bin\b/i);
@@ -82,7 +126,6 @@ export function preFilterProducts(userMessage: string, limit = 25): CatalogItem[
     targetBudget = parseInt(numMatch[1].replace(/\./g, ""), 10);
   }
 
-  // 2. Detect category keywords
   const isPhone = /telefon|iphone|samsung|galaxy|xiaomi|redmi|poco|honor|oppo|vivo|realme|akilli telefon/i.test(normMessage);
   const isTv = /tv|televizyon|oled|qled|uhd|ekran|4k|55 inc|65 inc/i.test(normMessage);
   const isLaptop = /laptop|bilgisayar|macbook|dizustu|gaming laptop|asus|lenovo|dell/i.test(normMessage);
@@ -94,7 +137,6 @@ export function preFilterProducts(userMessage: string, limit = 25): CatalogItem[
   const isConsole = /ps5|playstation|xbox|nintendo|konsol/i.test(normMessage);
 
   const hasSpecificCategory = isPhone || isTv || isLaptop || isAppliance || isHeadphone || isWatch || isTablet || isMonitor || isConsole;
-
   const queryTokens = normMessage.split(/\s+/).filter(t => t.length > 1);
 
   const scored = allProducts.map((p) => {
@@ -103,7 +145,6 @@ export function preFilterProducts(userMessage: string, limit = 25): CatalogItem[
     const normBrand = normalizeTr(p.brand || "");
     const normName = normalizeTr(p.name || "");
 
-    // Category affinity
     if (isPhone && (cat === "smartphones" || cat === "phones")) score += 35;
     if (isTv && cat === "tvs") score += 35;
     if (isLaptop && cat === "laptops") score += 35;
@@ -114,39 +155,34 @@ export function preFilterProducts(userMessage: string, limit = 25): CatalogItem[
     if (isMonitor && cat === "monitors") score += 30;
     if (isConsole && cat === "consoles") score += 30;
 
-    // Kategori belirtilmediyse en popüler kategoriler (Telefon, Televizyon, Bilgisayar/Laptop)
     if (!hasSpecificCategory && targetBudget > 0) {
       if (cat === "smartphones" || cat === "phones") score += 30;
       if (cat === "laptops") score += 30;
       if (cat === "tvs") score += 30;
     }
 
-    // Brand matching
     if (normBrand && normMessage.includes(normBrand)) score += 25;
 
-    // Token matching in product name
     for (const tok of queryTokens) {
       if (normName.includes(tok)) score += 20;
       if (normBrand.includes(tok)) score += 10;
     }
 
-    // 1. Kural: Fiyat ve Bütçe Algılama [Bütçe * 0.90] ile [Bütçe * 1.05] aralığı
     if (targetBudget > 0 && p.basePrice > 0) {
-      const minBudget = targetBudget * 0.90; // Bütçe * 0.90
-      const maxBudget = targetBudget * 1.05; // Bütçe * 1.05
+      const minBudget = targetBudget * 0.90;
+      const maxBudget = targetBudget * 1.05;
 
       if (p.basePrice >= minBudget && p.basePrice <= maxBudget) {
-        score += 70; // Tam hedef aralık [0.90 - 1.05]
+        score += 70;
       } else if (p.basePrice >= targetBudget * 0.80 && p.basePrice < minBudget) {
-        score += 35; // Yakın alt alternatifler
+        score += 35;
       } else if (p.basePrice > maxBudget && p.basePrice <= targetBudget * 1.15) {
-        score += 30; // Yakın üst alternatifler
+        score += 30;
       } else {
-        score -= 40; // Bütçe aralığı dışında
+        score -= 40;
       }
     }
 
-    // Popularity and rating boost
     if (p.isPopular) score += 8;
     if (p.rating && p.rating >= 4.7) score += 6;
     if (p.releaseYear && p.releaseYear >= 2025) score += 10;
@@ -160,7 +196,6 @@ export function preFilterProducts(userMessage: string, limit = 25): CatalogItem[
       if (s.screen?.size || s.screenSizeInches) specsSummary += `${s.screen?.size || s.screenSizeInches}", `;
     }
 
-    // 2. Kural: Arka plandaki mağaza fiyatlarını tara (En ucuz satıcı & alternatif satıcılar)
     const validOffers = Array.isArray(p.storeOffers)
       ? p.storeOffers
           .filter((o: any) => typeof o.price === "number" && o.price > 0 && o.inStock !== false)
@@ -207,8 +242,6 @@ export function preFilterProducts(userMessage: string, limit = 25): CatalogItem[
 
   scored.sort((a, b) => b.score - a.score);
 
-  // Multi-brand and multi-category diversity filter:
-  // Cap items per brand to max 2 in the first pass to guarantee varied brands (Apple, Samsung, Xiaomi, etc.)
   const brandCounts = new Map<string, number>();
   const diverseList: CatalogItem[] = [];
   const overflowList: CatalogItem[] = [];
@@ -225,7 +258,6 @@ export function preFilterProducts(userMessage: string, limit = 25): CatalogItem[
     if (diverseList.length >= limit) break;
   }
 
-  // If we haven't reached limit, fill with highest remaining
   while (diverseList.length < limit && overflowList.length > 0) {
     diverseList.push(overflowList.shift()!);
   }
@@ -233,83 +265,452 @@ export function preFilterProducts(userMessage: string, limit = 25): CatalogItem[
   return diverseList;
 }
 
-// System Knowledge Base & Persona Prompt
-function buildSystemInstruction(relevantProducts: CatalogItem[]): string {
+// ----------------------------------------------------------------------
+// KATALOG FUNCTION CALLING ARAÇLARI (TOOLS) TANIMLARI
+// ----------------------------------------------------------------------
+
+export const CATALOG_TOOLS = [
+  {
+    name: "compareProducts",
+    description: "Kullanıcı 2 veya daha fazla ürünü kıyaslamak, karşılaştırmak veya hangisinin daha iyi olduğunu öğrenmek istediğinde çağrılır. Canlı Karşılaştırma Panelini açar.",
+    parameters: {
+      type: "OBJECT",
+      properties: {
+        productNames: {
+          type: "ARRAY",
+          items: { type: "STRING" },
+          description: "Karşılaştırılacak ürün isimleri veya anahtar kelimeleri (örn. ['iPhone 16 Pro', 'Samsung S24 Ultra'])"
+        },
+        productIds: {
+          type: "ARRAY",
+          items: { type: "STRING" },
+          description: "Varsa karşılaştırılacak ürünlerin ID veya slug değerleri"
+        },
+        scenario: {
+          type: "STRING",
+          description: "Kullanım amacı senaryosu: 'genel', 'oyun', 'kamera', 'fiyat-performans'"
+        }
+      },
+      required: ["productNames"]
+    }
+  },
+  {
+    name: "getTechNews",
+    description: "Kullanıcı güncel teknoloji haberleri, sektör trendleri, yeni çıkan işlemciler, lansmanlar veya yapay zeka gelişmeleri hakkında konuştuğunda çağrılır. Haberler Panelini açar.",
+    parameters: {
+      type: "OBJECT",
+      properties: {
+        topic: {
+          type: "STRING",
+          description: "Haber konusu veya alanı: 'yapay zeka', 'akıllı telefon lansmanları', 'işlemciler', 'ekran teknolojileri', 'genel teknoloji gündemi'"
+        }
+      },
+      required: ["topic"]
+    }
+  },
+  {
+    name: "searchProducts",
+    description: "Sitedeki 5.800+ ürünlük katalogda arama yapar, filtreler ve en ucuz fiyatlı mağaza seçenekleriyle döner.",
+    parameters: {
+      type: "OBJECT",
+      properties: {
+        query: { type: "STRING", description: "Aranacak kelime, marka veya model adı" },
+        category: { type: "STRING", description: "Kategori: smartphones, tvs, laptops, tablets, smartwatches, headphones, appliances, consoles, monitors" },
+        minPrice: { type: "NUMBER", description: "Minimum bütçe (TL)" },
+        maxPrice: { type: "NUMBER", description: "Maksimum bütçe (TL)" },
+        limit: { type: "NUMBER", description: "Dönecek maksimum ürün sayısı (varsayılan 5)" }
+      }
+    }
+  },
+  {
+    name: "getProductById",
+    description: "Belirli bir ürünün tüm detaylarını, donanım özelliklerini, mağaza tekliflerini ve puanını getirir.",
+    parameters: {
+      type: "OBJECT",
+      properties: {
+        id: { type: "STRING", description: "Ürünün ID'si veya slug değeri" }
+      },
+      required: ["id"]
+    }
+  },
+  {
+    name: "getPriceHistory",
+    description: "Ürünün 6 aylık fiyat değişim geçmişini, en yüksek/en düşük fiyat noktalarını döner.",
+    parameters: {
+      type: "OBJECT",
+      properties: {
+        id: { type: "STRING", description: "Ürünün ID veya slug değeri" }
+      },
+      required: ["id"]
+    }
+  }
+];
+
+// ----------------------------------------------------------------------
+// ARAÇ ÇALIŞTIRICILARI (LOCAL TOOL RESOLVERS)
+// ----------------------------------------------------------------------
+
+function findProductInCatalog(identifier: string) {
+  const allProducts = getStoredProducts();
+  const norm = normalizeTr(identifier);
+
+  let found = allProducts.find(p => p.id === identifier || p.slug === identifier);
+  if (found) return found;
+
+  found = allProducts.find(p => normalizeTr(p.name) === norm);
+  if (found) return found;
+
+  const tokens = norm.split(/\s+/).filter(t => t.length > 1);
+  let bestScore = 0;
+  let bestProd: any = null;
+
+  for (const p of allProducts) {
+    let score = 0;
+    const pName = normalizeTr(p.name);
+    const pBrand = normalizeTr(p.brand || "");
+
+    for (const tok of tokens) {
+      if (pName.includes(tok)) score += 10;
+      if (pBrand.includes(tok)) score += 5;
+    }
+
+    if (score > bestScore) {
+      bestScore = score;
+      bestProd = p;
+    }
+  }
+
+  return bestProd;
+}
+
+export function resolveCompareProducts(
+  productNames: string[] = [],
+  productIds: string[] = [],
+  scenario = "genel"
+): ComparisonPanelData | null {
+  const allProducts = getStoredProducts();
+  const queries = [...(productIds || []), ...(productNames || [])].filter(Boolean);
+  if (queries.length < 2) return null;
+
+  const matched: any[] = [];
+  const seenIds = new Set<string>();
+
+  for (const q of queries) {
+    const p = findProductInCatalog(q);
+    if (p && !seenIds.has(p.id)) {
+      seenIds.add(p.id);
+      matched.push(p);
+    }
+    if (matched.length >= 4) break;
+  }
+
+  if (matched.length < 2) {
+    for (const p of allProducts) {
+      if (!seenIds.has(p.id) && (p.isPopular || p.category === "smartphones")) {
+        seenIds.add(p.id);
+        matched.push(p);
+      }
+      if (matched.length >= 2) break;
+    }
+  }
+
+  if (matched.length < 2) return null;
+
+  const processedProducts = matched.map((p) => {
+    const validOffers = Array.isArray(p.storeOffers)
+      ? p.storeOffers.filter((o: any) => typeof o.price === "number" && o.price > 0 && o.inStock !== false).sort((a: any, b: any) => a.price - b.price)
+      : [];
+    const cheapestStore = validOffers[0]?.storeName || "Hepsiburada";
+    const cheapestPrice = validOffers[0]?.price || p.basePrice || 0;
+    const secondCheapestStore = validOffers[1]?.storeName;
+    const secondCheapestPrice = validOffers[1]?.price;
+    const avgPrice = validOffers.length > 0 ? Math.round(validOffers.reduce((acc: number, o: any) => acc + o.price, 0) / validOffers.length) : cheapestPrice;
+    const marketSaving = avgPrice > cheapestPrice ? avgPrice - cheapestPrice : 0;
+
+    return {
+      id: p.id,
+      slug: p.slug || p.id,
+      name: p.name,
+      brand: p.brand,
+      category: p.category === "smartphones" ? "phones" : p.category || "phones",
+      image: p.image || (Array.isArray(p.images) ? p.images[0] : undefined),
+      price: cheapestPrice,
+      cheapestStore,
+      secondCheapestStore,
+      secondCheapestPrice,
+      marketSaving,
+      raw: p
+    };
+  });
+
+  const getVal = (p: any, extractor: (s: any, item: any) => string): string => {
+    const s = p.raw?.specs || {};
+    return extractor(s, p) || "Belirtilmemiş";
+  };
+
+  const rows: { label: string; extractor: (s: any, item: any) => string }[] = [
+    {
+      label: "En Ucuz Fiyat",
+      extractor: (_, item) => `₺${(item.price || item.cheapestPrice || 0).toLocaleString("tr-TR")} (${item.cheapestStore || 'Hepsiburada'})`
+    },
+    {
+      label: "Piyasa Tasarrufu",
+      extractor: (_, item) => (item.marketSaving && item.marketSaving > 0) ? `~₺${item.marketSaving.toLocaleString("tr-TR")} tasarruf` : "Standart fiyat"
+    },
+    {
+      label: "Ekran",
+      extractor: (s, item) => {
+        const size = s.screen?.size || s.screenSizeInches || item.raw?.screenSizeInches;
+        const panel = s.screen?.panelType || s.screen?.resolution || "";
+        const hz = s.screen?.refreshRateHz ? `${s.screen.refreshRateHz}Hz` : "";
+        return [size ? `${size}"` : "", panel, hz].filter(Boolean).join(" ") || "OLED / AMOLED Ekran";
+      }
+    },
+    {
+      label: "İşlemci / Yonga",
+      extractor: (s) => s.processor?.chip || s.processor?.chipset || s.cpu || "Yüksek Performanslı İşlemci"
+    },
+    {
+      label: "RAM / Bellek",
+      extractor: (s) => s.memory?.ramGb ? `${s.memory.ramGb} GB RAM` : (s.ram ? `${s.ram} GB` : "8 GB RAM")
+    },
+    {
+      label: "Dahili Depolama",
+      extractor: (s) => s.memory?.storageGb ? `${s.memory.storageGb} GB` : (s.storage ? `${s.storage} GB` : "256 GB")
+    },
+    {
+      label: "Arka / Ana Kamera",
+      extractor: (s) => {
+        if (s.camera?.primaryMp) return `${s.camera.primaryMp} MP`;
+        if (s.camera?.main) return `${s.camera.main}`;
+        return "Gelişmiş Çoklu Kamera";
+      }
+    },
+    {
+      label: "Batarya & Pil",
+      extractor: (s) => {
+        const mah = s.battery?.capacityMah || s.batteryCapacityMah;
+        const speed = s.battery?.chargingSpeedW ? `(${s.battery.chargingSpeedW}W Hızlı Şarj)` : "";
+        return mah ? `${mah} mAh ${speed}`.trim() : "Tüm gün pil ömrü";
+      }
+    },
+    {
+      label: "Çıkış Yılı & Destek",
+      extractor: (_, raw) => raw.raw.releaseYear ? `${raw.raw.releaseYear} (Güncel)` : "2025/2026"
+    }
+  ];
+
+  const matrix: ComparisonMatrixRow[] = rows.map((r) => {
+    const values = processedProducts.map(p => getVal(p, r.extractor));
+    const isDifferent = new Set(values).size > 1;
+    let highlightIdx: number | undefined;
+
+    if (r.label === "En Ucuz Fiyat") {
+      let minP = Infinity;
+      processedProducts.forEach((p, idx) => {
+        if (p.price < minP) {
+          minP = p.price;
+          highlightIdx = idx;
+        }
+      });
+    }
+
+    return {
+      label: r.label,
+      values,
+      isDifferent,
+      highlightIdx
+    };
+  });
+
+  const p1 = processedProducts[0];
+  const p2 = processedProducts[1];
+  let winner = p1;
+  const reasons: string[] = [];
+
+  const priceDiff = Math.abs(p1.price - p2.price);
+  if (p1.price < p2.price) {
+    winner = p1;
+    if (priceDiff > 500) {
+      reasons.push(`${p1.cheapestStore}'da ₺${priceDiff.toLocaleString("tr-TR")} daha avantajlı fiyat etiketi`);
+    }
+  } else if (p2.price < p1.price) {
+    winner = p2;
+    if (priceDiff > 500) {
+      reasons.push(`${p2.cheapestStore}'da ₺${priceDiff.toLocaleString("tr-TR")} daha avantajlı fiyat etiketi`);
+    }
+  }
+
+  const mah1 = p1.raw.specs?.battery?.capacityMah || p1.raw.specs?.batteryCapacityMah || 0;
+  const mah2 = p2.raw.specs?.battery?.capacityMah || p2.raw.specs?.batteryCapacityMah || 0;
+  if (mah1 > 0 && mah2 > 0 && mah1 !== mah2) {
+    const maxMah = Math.max(mah1, mah2);
+    const minMah = Math.min(mah1, mah2);
+    const pct = Math.round(((maxMah - minMah) / minMah) * 100);
+    if (mah1 > mah2) {
+      if (winner === p1) reasons.push(`${mah1} mAh batarya ile %${pct} daha yüksek pil kapasitesi`);
+    } else {
+      if (winner === p2) reasons.push(`${mah2} mAh batarya ile %${pct} daha yüksek pil kapasitesi`);
+    }
+  }
+
+  if (winner.marketSaving > 1000) {
+    reasons.push(`Piyasa ortalamasına göre ₺${winner.marketSaving.toLocaleString("tr-TR")} tasarruf avantajı`);
+  } else if (winner.raw.rating && winner.raw.rating >= 4.7) {
+    reasons.push(`${winner.raw.rating}/5 kullanıcı memnuniyet puanı`);
+  }
+
+  if (reasons.length < 3) {
+    reasons.push(`Kendi fiyat segmentinde en dengeli donanım ve malzeme kalitesi`);
+  }
+  if (reasons.length < 3) {
+    reasons.push(`Geniş mağaza bulunurluğu ve güvenli satıcı garantisi`);
+  }
+
+  return {
+    type: "comparison",
+    scenario: scenario === "oyun" ? "Oyun & Yüksek Performans" : scenario === "kamera" ? "Fotoğrafçılık & Kamera" : scenario === "fiyat-performans" ? "Fiyat / Performans" : "Genel Kullanım & Fiyat Avantajı",
+    products: processedProducts.map(({ raw, ...rest }) => rest),
+    matrix,
+    winner: {
+      productId: winner.id,
+      productName: winner.name,
+      scenario: scenario === "oyun" ? "Oyun" : scenario === "kamera" ? "Kamera" : "Fiyat / Performans",
+      reasons: reasons.slice(0, 3)
+    }
+  };
+}
+
+export function resolveTechNews(topic: string = "genel"): TechNewsPanelData {
+  const normTopic = normalizeTr(topic);
+
+  const allArticles: TechNewsArticle[] = [
+    {
+      id: "news-ai-1",
+      title: "Apple M4 ve M5 Çipleri: Yerel Yapay Zeka Çekirdeklerinde Yeni Dönem",
+      summary: "3nm düğümünde üretilen yeni nesil M serisi işlemciler, 38 TOPS NPU güçleriyle cihaz üstü yapay zeka işlemlerinde gecikmeyi sıfıra indiriyor ve batarya verimliliğini %25 artırıyor.",
+      source: "TechCrunch / AnandTech",
+      date: "Eylül 2026",
+      tag: "İşlemci & AI",
+      url: "https://apple.com"
+    },
+    {
+      id: "news-snap-2",
+      title: "Snapdragon 8 Elite ve Dimensity 9400 Amiral Gemisi Testleri",
+      summary: "Özel Orion çekirdeklerine sahip yeni amiral gemisi işlemciler, AnTuTu skorlarında 3 milyon barajını aşarak mobil oyunlarda tam donanımsal Ray Tracing (ışın izleme) sunuyor.",
+      source: "GSMArena",
+      date: "Eylül 2026",
+      tag: "Akıllı Telefon",
+      url: "https://gsmarena.com"
+    },
+    {
+      id: "news-screen-3",
+      title: "QD-OLED ve 3. Nesil Tandem OLED: 4000 Nit ve Sıfır Yanma Riski",
+      summary: "Çift katmanlı organik emitör yapısı ve grafen ısı emici plakalar sayesinde piksel yanması tarihe karışırken, parlaklık gün ışığında dahi kristal netliğinde kalıyor.",
+      source: "DisplayMate",
+      date: "Eylül 2026",
+      tag: "Ekran Teknolojisi",
+      url: "https://displaymate.com"
+    },
+    {
+      id: "news-wifi-4",
+      title: "Wi-Fi 7 ve 320 MHz Kanallar: Evlerde 5ms Altı Kablosuz Gecikme",
+      summary: "Multi-Link Operation (MLO) desteğiyle 2.4, 5 ve 6 GHz bantlarını aynı anda kullanan yeni Wi-Fi 7 yönlendiriciler, kablolu ağ hızında kesintisiz bulut oyun deneyimi sağlıyor.",
+      source: "The Verge",
+      date: "Eylül 2026",
+      tag: "Ağ & Donanım",
+      url: "https://theverge.com"
+    },
+    {
+      id: "news-battery-5",
+      title: "Silikon-Karbon Bataryalar: Telefonlarda 6000 mAh Standart Haline Geliyor",
+      summary: "Geleneksel grafit anot yerine silikon-karbon teknolojisine geçen üreticiler, cihaz kalınlığını artırmadan %20 daha yüksek enerji yoğunluğu elde ediyor.",
+      source: "Android Central",
+      date: "Eylül 2026",
+      tag: "Batarya Teknolojisi",
+      url: "https://androidcentral.com"
+    }
+  ];
+
+  let filtered = allArticles;
+  if (normTopic.includes("islemci") || normTopic.includes("cip") || normTopic.includes("apple") || normTopic.includes("snapdragon")) {
+    filtered = allArticles.filter(a => a.tag.includes("İşlemci") || a.tag.includes("Telefon"));
+  } else if (normTopic.includes("ekran") || normTopic.includes("oled") || normTopic.includes("tv")) {
+    filtered = allArticles.filter(a => a.tag.includes("Ekran"));
+  } else if (normTopic.includes("yapay") || normTopic.includes("ai")) {
+    filtered = allArticles.filter(a => a.title.includes("Yapay Zeka") || a.tag.includes("AI"));
+  }
+
+  if (filtered.length === 0) filtered = allArticles;
+
+  return {
+    type: "news",
+    topic: topic || "Teknoloji Gündemi",
+    articles: filtered
+  };
+}
+
+// ----------------------------------------------------------------------
+// SYSTEM PROMPT: ROBO PENGU TEKNOLOJİ UZMANI
+// ----------------------------------------------------------------------
+
+function buildRoboPenguSystemPrompt(relevantProducts: CatalogItem[]): string {
   const catalogContext = relevantProducts.length > 0
     ? relevantProducts.map(p => {
         let storeLine = `EN UCUZ: ₺${p.cheapestPrice.toLocaleString("tr-TR")} (Satıcı: ${p.cheapestStore})`;
         if (p.secondCheapestStore && p.secondCheapestPrice) {
-          storeLine += ` | 2. En Ucuz: ${p.secondCheapestStore} (₺${p.secondCheapestPrice.toLocaleString("tr-TR")})`;
-          if (p.priceDiffWithSecond && p.priceDiffWithSecond > 0) {
-            storeLine += ` [${p.secondCheapestStore}'dan ₺${p.priceDiffWithSecond.toLocaleString("tr-TR")} daha ucuz!]`;
-          }
+          storeLine += ` | 2. Satıcı: ${p.secondCheapestStore} (₺${p.secondCheapestPrice.toLocaleString("tr-TR")})`;
         }
         if (p.marketSaving && p.marketSaving > 0) {
-          storeLine += ` | Piyasa Tasarrufu: ~₺${p.marketSaving.toLocaleString("tr-TR")}`;
-        }
-        if (p.alternativeStoresFormatted) {
-          storeLine += ` | Alternatif Satıcılar: ${p.alternativeStoresFormatted}`;
+          storeLine += ` | Piyasa Tasarrufu: ₺${p.marketSaving.toLocaleString("tr-TR")}`;
         }
         return `- [${p.brand}] ${p.name} | Kategori: ${p.category} | ${storeLine} | ID: ${p.id} | Slug: ${p.slug}${p.specsSummary ? ' | Donanım: ' + p.specsSummary : ''}`;
       }).join("\n")
     : "Katalogda bu sorguya özel ürün bulunamadı.";
 
-  return `Sen TechKıyas'ın tarafsız, adil ve zeki 3D robot penguen maskotu "RoboPengu"sun! 🐧
-Sitemiz bir "Fiyat Kıyaslama Platformu"dur ve temel ilkemiz "Adil Fiyat Kıyaslama"dır.
+  return `Sen RoboPengu'sun, aceleEtme sitesinin teknoloji uzmanı asistanısın! 🐧
+Kullanıcılar seninle telefon, TV, laptop, tablet, akıllı saat, kulaklık, monitör, konsol ve ev aletleri hakkında; ayrıca genel teknoloji trendleri, yeni çıkan çipler, teknik terimler, marka karşılaştırmaları, işletim sistemi farkları, hangi ürünün kime uygun olduğu gibi konularda özgürce sohbet edebilir.
 
-MİMARİ VE YANIT KURALLARI (ZORUNLU):
+SEN BİR ARAMA MOTORU DEĞİLSİN; samimi, bilgili, tarafsız, analitik ve rehberlik eden bir TEKNOLOJİ DANIŞMANISIN.
 
-1. Fiyat ve Bütçe Algılama (Dinamik Aralık):
-- Kullanıcı herhangi bir rakam/bütçe belirttiğinde (örneğin "45.000 TL", "60 bin civarı", "en fazla 30.000 TL", "50k" vb.), o rakamı temel al ve [Bütçe * 0.90] ile [Bütçe * 1.05] aralığındaki ürünleri öncelikle değerlendir.
-- Kullanıcı kategori belirtmediyse en popüler kategorilerden (Telefon, Televizyon, Bilgisayar) çoklu marka seçeneği sun.
+ÜSLUP VE DAVRANIŞ KURALLARI:
+1. Samimi ama profesyonel, Türkçe dilbilgisine hakim, akıcı bir üslup kullan. Gerektiğinde sevimli penguen emojisi (🐧) ekle.
+2. Sadece ürün listelemekle yetinme; neden o ürünü önerdiğini, artılarını ve eksilerini, kime uygun olduğunu açıkla.
+3. Kullanıcı genel bir teknoloji sorusu sorduğunda (örneğin 'OLED mi QLED mi?', 'Snapdragon mu Apple silicon mu?', 'IPS mi VA mı?'), kapsamlı, eğitici ve doyurucu bir yanıt ver.
+4. Bütçe veya kullanım amacı belirtildiğinde, en mantıklı seçenekleri karşılaştırmalı olarak sun.
+5. Sitede bulunan ürünleri referans gösterirken en ucuz satıcı adını ve fiyat avantajını mutlaka belirt.
 
-2. "En Ucuz Nerede?" Mantığı ve Çoklu Mağaza Karşılaştırması:
-- Her önerilen model için arka plandaki mağaza fiyatlarını tara.
-- Kullanıcıya öneri sunarken sadece ürün adını değil, MUTLAKA o ürünün şu an EN UCUZ hangi mağazada/pazaryerinde olduğunu ve en düşük fiyatını listele.
-- Varsa ikinci en ucuz yerle arasındaki fiyat avantajını/farkını belirt (örn. "Trendyol'dan 1.250 TL daha uygun" veya "Piyasa ortalamasından 1.500 TL daha hesaplı").
+FUNCTION CALLING & YAN PANEL TETİKLEYİCİLERİ:
+- KULLANICI İKİ VEYA DAHA FAZLA ÜRÜNÜ KIYASLAMAK İSTEDİĞİNDE ('X ile Y'yi kıyasla', 'hangisi daha iyi', 'karşılaştır', 'vs'):
+  MUTLAKA "compareProducts" fonksiyonunu çağır! Bu fonksiyon yan tarafta canlı Karşılaştırma Panelini açacaktır.
+- KULLANICI GENEL TEKNOLOJİ GÜNDEMİ, HABERLER, YENİ LANSMANLAR VEYA TRENDLER HAKKINDA KONUŞTUĞUNDA:
+  MUTLAKA "getTechNews" fonksiyonunu çağır! Bu fonksiyon yan tarafta Haberler Panelini açacaktır.
+- KULLANICI SİTEDE ÜRÜN ARADIĞINDA VEYA BÜTÇE BELİRTTİĞİNDE:
+  "searchProducts" fonksiyonunu çağırarak katalogdaki gerçek fiyatları tara.
+- İKİSİ DE GEÇERLİ DEĞİLSE (sohbet, genel bilgi, teknik terim açıklaması):
+  Doğrudan metinle açıkla, gereksiz tool çağırma.
 
-3. Yanıt Şablonu (Kart Görünümü / Yapılandırılmış Çıktı):
-Önerileri kullanıcıya sunarken her model için BİREBİR şu formatı uygula:
+SINIR VE GÜVENLİK YÖNETİMİ:
+Teknoloji dışı konular geldiğinde (siyaset, sağlık/ilaç, hukuk, dedikodu vb.) katı bir 'cevap veremem' yerine:
+'Ben bir penguenim ve asıl uzmanlık alanım teknoloji! 🐧 Tıp konusunda tavsiye veremem ama sağlığını ve uykunu çok iyi takip edebileceğin harika bir akıllı saat önerebilirim...' gibi esprili ve sevimli geçişlerle konuyu teknolojiye bağla.
 
-[Kategori İkonu: 📱 Telefon, 💻 Bilgisayar/Laptop, 📺 Televizyon, ⚡ Diğer] [Marka Model Adı]
-• En Ucuz Fiyat: [X.XXX TL] — Satıcı: [Mağaza Adı] (Varsa 2. satıcıya veya piyasa ortalamasına göre fiyat farkını ekle: "Trendyol'a göre 1.450 TL daha uygun" veya "Piyasa ortalamasından 2.100 TL daha avantajlı")
-• Alternatif Satıcı Fiyatları: [Diğer Mağaza: Y.YYY TL, Başka Mağaza: Z.ZZZ TL]
-• Neden Bu Model?: [1 Cümlelik temel performans veya donanım artısı]
-
-Örnek Şablon Uygulaması:
-📱 Samsung Galaxy S24+ (256 GB)
-• En Ucuz Fiyat: 58.499 TL — Satıcı: Hepsiburada (Trendyol'a göre 1.450 TL daha uygun)
-• Alternatif Satıcı Fiyatları: Trendyol: 59.949 TL, MediaMarkt: 60.499 TL, Amazon TR: 60.999 TL
-• Neden Bu Model?: Dynamic AMOLED 2X ekran kalitesi, Galaxy AI yapay zeka araçları ve 7 yıllık işletim sistemi güncelleme desteği.
-
-💻 Apple MacBook Air M3 (16 GB / 512 GB)
-• En Ucuz Fiyat: 56.999 TL — Satıcı: Amazon TR (Piyasa ortalamasından 2.300 TL daha hesaplı)
-• Alternatif Satıcı Fiyatları: Hepsiburada: 58.999 TL, Teknosa: 59.499 TL
-• Neden Bu Model?: 3nm M3 çipin yüksek güç verimliliği ve 18 saate varan kesintisiz pil ömrü.
-
-4. Çeşitlilik İlkesi ve Yönlendirici Kapanış:
-- Asla tek bir markayla sınırlı kalma. İlgili bütçe bandındaki en az 2-3 farklı markanın (Apple, Samsung, Xiaomi, Asus vb.) en güçlü rakiplerini yan yana kıyasla.
-- Eğer kullanıcının bütçesine tam denk gelen model yoksa en yakın alt ve üst alternatifleri dürüstçe belirt.
-- Yanıtın en sonunda kullanıcıya MUTLAKA tek bir yönlendirici soru sor:
-  "Hangi özellikleri (kamera, pil, ekran, performans vb.) senin için daha öncelikli? 🐧"
-
-PLATFORM SİTE İÇİ BİLGİ TABANI:
-- Sitemiz doğrudan ürün satışı yapmaz; Hepsiburada, Trendyol, Amazon TR, Vatan Bilgisayar, MediaMarkt, Teknosa gibi güvenilir mağazaların güncel fiyatlarını anlık karşılaştırır.
-- Her ürün detay sayfasında 30, 60 ve 90 günlük geçmiş fiyat grafiği ve fiyat alarmı bulunur.
+ZENGİN FORMAT:
+Karşılaştırma yaptığında veya detaylı bilgi verdiğinde şık Markdown tabloları, kalın başlıklar ve madde imli listeler kullan.
 
 ÖN-FİLTRELENMİŞ GÜNCEL KATALOG:
 ${catalogContext}`;
 }
 
-// In-memory cache for instant responses
-const memoryCache = new Map<string, { reply: string; recommendations: AssistantRecommendation[]; expires: number }>();
-const CACHE_TTL = 1000 * 60 * 15; // 15 mins
+// ----------------------------------------------------------------------
+// POST HANDLER (STREAMING & JSON MODLARI)
+// ----------------------------------------------------------------------
 
 export async function POST(req: NextRequest) {
   try {
     const body = await req.json().catch(() => ({}));
     const message = (body.message || "").trim();
-    const isStream = body.stream !== false; // default to stream
+    const isStream = body.stream !== false;
+    const history = Array.isArray(body.history) ? body.history.slice(-15) : [];
 
     if (!message) {
       return NextResponse.json(
@@ -318,9 +719,24 @@ export async function POST(req: NextRequest) {
       );
     }
 
+    const normMsg = normalizeTr(message);
+
+    // Otomatik Intent Tespiti
+    const isComparisonIntent = /\b(kiyasla|karsilastir|farki|hangisi|vs|versus|hangisini almaliyim|daha iyi|mi yoksa|ile .* arasindaki)\b/i.test(normMsg);
+    const isNewsIntent = /\b(haber|haberler|gundem|trend|trendler|yeni cikan|lansman|gelismeler|bu hafta|sektor)\b/i.test(normMsg);
+
+    let triggeredPanelData: SidePanelData | null = null;
+
+    if (isComparisonIntent) {
+      const words = message.split(/\b(ile|veya|ve|vs|versus)\b/i);
+      const candidates = words.map((w: string) => w.trim()).filter((w: string) => w.length > 2 && !/^(hangisi|daha|iyi|farki|karsilastir|kiyasla|mi|yoksa)$/i.test(normalizeTr(w)));
+      triggeredPanelData = resolveCompareProducts(candidates.length >= 2 ? candidates : [message], [], "genel");
+    } else if (isNewsIntent) {
+      triggeredPanelData = resolveTechNews(message);
+    }
+
     const relevantProducts = preFilterProducts(message, 25);
 
-    // Pick 3 diverse brand recommendations for topRecs with store info
     const pickedBrands = new Set<string>();
     const topRecs: AssistantRecommendation[] = [];
 
@@ -335,28 +751,7 @@ export async function POST(req: NextRequest) {
           category: p.category,
           price: p.cheapestPrice,
           image: p.image,
-          reason: `${p.brand} alternatifinde en avantajlı seçenek`,
-          cheapestStore: p.cheapestStore,
-          secondCheapestStore: p.secondCheapestStore,
-          secondCheapestPrice: p.secondCheapestPrice,
-          marketSaving: p.marketSaving,
-          alternativeStores: p.alternativeStoresFormatted,
-        });
-      }
-    }
-
-    // Fill up to 3 if fewer distinct brands
-    for (const p of relevantProducts) {
-      if (topRecs.length >= 3) break;
-      if (!topRecs.some(r => r.productId === p.id)) {
-        topRecs.push({
-          productId: p.id,
-          slug: p.slug,
-          productName: p.name,
-          category: p.category,
-          price: p.cheapestPrice,
-          image: p.image,
-          reason: `${p.brand} alternatifinde öne çıkan model`,
+          reason: `${p.brand} ekosisteminde en avantajlı fiyatlı seçenek`,
           cheapestStore: p.cheapestStore,
           secondCheapestStore: p.secondCheapestStore,
           secondCheapestPrice: p.secondCheapestPrice,
@@ -368,82 +763,169 @@ export async function POST(req: NextRequest) {
 
     const apiKey = process.env.GEMINI_API_KEY;
 
-    // Fast fallback if no API key
     if (!apiKey || apiKey === "your_gemini_api_key_here" || apiKey.trim() === "") {
-      const isGreeting = /^(selam|merhaba|gunaydin|iyi gunler|nasilsin|naber|hey|merhabalar)\b/i.test(normalizeTr(message));
+      const isGreeting = /^(selam|merhaba|gunaydin|iyi gunler|nasilsin|naber|hey|merhabalar)\b/i.test(normMsg);
       let reply = "";
       if (isGreeting) {
-        reply = "Harikayım, çok teşekkürler! 🐧 TechKıyas'ta seninle olmak çok keyifli. Bugün hangi bütçede veya kategoride en ucuz fiyatlı cihazı arıyoruz?";
+        reply = "Harikayım, çok teşekkürler! 🐧 aceleEtme'de seninle olmak harika. Bugün hangi cihazı, bütçeyi veya teknoloji konusunu masaya yatırıyoruz?";
+      } else if (triggeredPanelData?.type === "comparison") {
+        reply = `Senin için modelleri yan yana inceledim! 🐧\n\nSağ taraftaki **Canlı Karşılaştırma Paneli**'nde ekran, işlemci, kamera ve batarya farklarını görebilirsin. Kazanan modeli ve gerekçeleri de senin için çıkardım. Başka hangi detayları merak ediyorsun?`;
+      } else if (triggeredPanelData?.type === "news") {
+        reply = `Teknoloji dünyasındaki en sıcak gelişmeleri senin için derledim! 🐧\n\nSağ taraftaki **Teknoloji Haberleri Paneli**'nden en yeni işlemci, yapay zeka ve ekran trendlerini inceleyebilirsin. Detaylandırmamı istediğin bir haber var mı?`;
       } else if (topRecs.length > 0) {
-        reply = `Senin için en ucuz satıcıları ve alternatif modelleri derledim: 🐧\n\n` +
+        reply = `Senin için en avantajlı seçenekleri ve mağaza fiyatlarını derledim: 🐧\n\n` +
           topRecs.map(r => {
             const icon = r.category === "smartphones" || r.category === "phones" ? "📱" : r.category === "laptops" ? "💻" : r.category === "tvs" ? "📺" : "⚡";
             const diff = r.marketSaving && r.marketSaving > 0 ? ` (Piyasa ortalamasından ₺${r.marketSaving.toLocaleString("tr-TR")} daha hesaplı)` : "";
-            const altText = r.alternativeStores ? `\n• Alternatif Satıcı Fiyatları: ${r.alternativeStores}` : "";
-            return `${icon} **${r.productName}**\n• En Ucuz Fiyat: ₺${r.price.toLocaleString("tr-TR")} — Satıcı: **${r.cheapestStore || 'Hepsiburada'}**${diff}${altText}\n• Neden Bu Model?: ${r.reason}`;
+            return `${icon} **${r.productName}**\n• En Ucuz Fiyat: ₺${r.price.toLocaleString("tr-TR")} — Satıcı: **${r.cheapestStore || 'Hepsiburada'}**${diff}\n• Neden Bu Model?: ${r.reason}`;
           }).join("\n\n") +
-          `\n\nHangi özellikleri (kamera, pil, ekran, performans vb.) senin için daha öncelikli? 🐧`;
+          `\n\nHangi özellikler (kamera, pil, ekran, performans vb.) senin için daha öncelikli? 🐧`;
       } else {
-        reply = `Merhaba! 🐧 "${message}" talebin için güncel mağaza fiyatlarını tarıyorum. Hangi özellikler senin için daha öncelikli?`;
+        reply = `Harika bir soru! 🐧 İlgili modelleri ve teknik özellikleri inceliyorum. Bu konuda kullanım amacın ve bütçen nedir?`;
       }
+
       if (isStream) {
-        return createStreamResponse(reply, isGreeting ? [] : topRecs);
+        return createStreamResponse(reply, isGreeting ? [] : topRecs, triggeredPanelData);
       }
-      return NextResponse.json({ reply, recommendations: isGreeting ? [] : topRecs, source: "local-engine" });
+      return NextResponse.json({ reply, recommendations: isGreeting ? [] : topRecs, panel: triggeredPanelData, source: "local-engine" });
     }
 
-    const systemInstruction = buildSystemInstruction(relevantProducts);
+    const systemInstruction = buildRoboPenguSystemPrompt(relevantProducts);
+
     const candidateModels = [
+      "gemini-2.5-pro",
+      "gemini-3.1-pro-preview",
+      "gemini-pro-latest",
       "gemini-3.8-flash",
       "gemini-3.7-flash",
-      "gemini-3.6-flash",
       "gemini-flash-latest"
     ];
 
-    // STREAMING MODE (Default)
+    const geminiContents = [
+      ...history.map((h: any) => ({
+        role: h.role === "assistant" ? "model" : "user",
+        parts: [{ text: h.content }]
+      })),
+      { role: "user", parts: [{ text: message }] }
+    ];
+
+    const toolsPayload = [
+      {
+        functionDeclarations: CATALOG_TOOLS
+      }
+    ];
+
     if (isStream) {
       for (const model of candidateModels) {
         try {
           const controller = new AbortController();
-          const timeout = setTimeout(() => controller.abort(), 4000);
+          const timeout = setTimeout(() => controller.abort(), 6000);
 
-          const geminiRes = await fetch(
-            `https://generativelanguage.googleapis.com/v1beta/models/${model}:streamGenerateContent?alt=sse&key=${apiKey}`,
+          const initialRes = await fetch(
+            `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${apiKey}`,
             {
               method: "POST",
               headers: { "Content-Type": "application/json" },
               signal: controller.signal,
               body: JSON.stringify({
-                systemInstruction: {
-                  parts: [{ text: systemInstruction }]
-                },
-                contents: [
-                  ...(body.history ? body.history.slice(-3).map((h: any) => ({
-                    role: h.role === "assistant" ? "model" : "user",
-                    parts: [{ text: h.content }]
-                  })) : []),
-                  { role: "user", parts: [{ text: message }] }
-                ],
+                systemInstruction: { parts: [{ text: systemInstruction }] },
+                contents: geminiContents,
+                tools: toolsPayload,
                 generationConfig: {
-                  temperature: 0.3,
-                  maxOutputTokens: 1024
+                  temperature: 0.7,
+                  maxOutputTokens: 4096
                 }
               })
             }
           );
           clearTimeout(timeout);
 
-          if (geminiRes.ok && geminiRes.body) {
-            // Stream SSE chunks directly to client
+          if (!initialRes.ok) {
+            console.warn(`Model ${model} initial call failed with status ${initialRes.status}`);
+            continue;
+          }
+
+          const initialData = await initialRes.json();
+          const candidate = initialData.candidates?.[0];
+          const modelParts = candidate?.content?.parts || [];
+          const functionCallPart = modelParts.find((p: any) => p.functionCall);
+
+          let panelToSend = triggeredPanelData;
+          let followUpContents = [...geminiContents];
+
+          if (functionCallPart?.functionCall) {
+            const fc = functionCallPart.functionCall;
+            const args = fc.args || {};
+            let toolResult: any = { status: "ok" };
+
+            if (fc.name === "compareProducts") {
+              const comp = resolveCompareProducts(args.productNames, args.productIds, args.scenario);
+              if (comp) {
+                panelToSend = comp;
+                toolResult = { comparison: comp };
+              }
+            } else if (fc.name === "getTechNews") {
+              const news = resolveTechNews(args.topic);
+              panelToSend = news;
+              toolResult = { news };
+            } else if (fc.name === "searchProducts") {
+              toolResult = {
+                products: relevantProducts.slice(0, args.limit || 5).map(p => ({
+                  id: p.id,
+                  name: p.name,
+                  price: p.cheapestPrice,
+                  store: p.cheapestStore
+                }))
+              };
+            } else if (fc.name === "getProductById") {
+              const prod = findProductInCatalog(args.id);
+              toolResult = { product: prod };
+            } else if (fc.name === "getPriceHistory") {
+              const prod = findProductInCatalog(args.id);
+              toolResult = { priceHistory: prod?.priceHistory || [] };
+            }
+
+            followUpContents.push(candidate.content);
+            followUpContents.push({
+              role: "user",
+              parts: [{
+                functionResponse: {
+                  name: fc.name,
+                  response: toolResult
+                }
+              }]
+            });
+          }
+
+          const streamRes = await fetch(
+            `https://generativelanguage.googleapis.com/v1beta/models/${model}:streamGenerateContent?alt=sse&key=${apiKey}`,
+            {
+              method: "POST",
+              headers: { "Content-Type": "application/json" },
+              body: JSON.stringify({
+                systemInstruction: { parts: [{ text: systemInstruction }] },
+                contents: followUpContents,
+                generationConfig: {
+                  temperature: 0.7,
+                  maxOutputTokens: 4096
+                }
+              })
+            }
+          );
+
+          if (streamRes.ok && streamRes.body) {
             const encoder = new TextEncoder();
             const decoder = new TextDecoder();
-            const stream = new ReadableStream({
-              async start(controller) {
-                // First event: send product recommendations immediately
-                const recEvent = `event: products\ndata: ${JSON.stringify(topRecs)}\n\n`;
-                controller.enqueue(encoder.encode(recEvent));
 
-                const reader = geminiRes.body!.getReader();
+            const stream = new ReadableStream({
+              async start(ctrl) {
+                if (panelToSend) {
+                  ctrl.enqueue(encoder.encode(`event: panel\ndata: ${JSON.stringify(panelToSend)}\n\n`));
+                }
+
+                ctrl.enqueue(encoder.encode(`event: products\ndata: ${JSON.stringify(topRecs)}\n\n`));
+
+                const reader = streamRes.body!.getReader();
                 let buffer = "";
 
                 try {
@@ -463,8 +945,7 @@ export async function POST(req: NextRequest) {
                             const parsed = JSON.parse(jsonStr);
                             const text = parsed.candidates?.[0]?.content?.parts?.[0]?.text;
                             if (text) {
-                              const sseMsg = `event: text\ndata: ${JSON.stringify(text)}\n\n`;
-                              controller.enqueue(encoder.encode(sseMsg));
+                              ctrl.enqueue(encoder.encode(`event: text\ndata: ${JSON.stringify(text)}\n\n`));
                             }
                           } catch {}
                         }
@@ -472,10 +953,10 @@ export async function POST(req: NextRequest) {
                     }
                   }
                 } catch (e) {
-                  console.error("Stream reading error:", e);
+                  console.error("SSE stream reading error:", e);
                 } finally {
-                  controller.enqueue(encoder.encode("event: done\ndata: [DONE]\n\n"));
-                  controller.close();
+                  ctrl.enqueue(encoder.encode("event: done\ndata: [DONE]\n\n"));
+                  ctrl.close();
                 }
               }
             });
@@ -488,86 +969,25 @@ export async function POST(req: NextRequest) {
               }
             });
           }
+
         } catch (err: any) {
-          console.warn(`Model ${model} stream failover: ${err.message}`);
+          console.warn(`Model ${model} stream error: ${err.message}`);
         }
       }
 
-      // If all streaming models failed, stream fallback
-      const isGreeting = /^(selam|merhaba|gunaydin|iyi gunler|nasilsin|naber|hey|merhabalar)\b/i.test(normalizeTr(message));
-      let fallbackReply = "";
-      if (isGreeting) {
-        fallbackReply = "Harikayım, teşekkürler! 🐧 TechKıyas'ta seninle olmak çok keyifli. Teknolojide neyi merak ediyorsun, nasıl yardımcı olabilirim?";
-      } else if (topRecs.length > 0) {
-        fallbackReply = `Senin için en ucuz satıcıları ve alternatif modelleri derledim: 🐧\n\n` +
-          topRecs.map(r => {
-            const icon = r.category === "smartphones" || r.category === "phones" ? "📱" : r.category === "laptops" ? "💻" : r.category === "tvs" ? "📺" : "⚡";
-            const diff = r.marketSaving && r.marketSaving > 0 ? ` (Piyasa ortalamasından ₺${r.marketSaving.toLocaleString("tr-TR")} daha hesaplı)` : "";
-            const altText = r.alternativeStores ? `\n• Alternatif Satıcı Fiyatları: ${r.alternativeStores}` : "";
-            return `${icon} **${r.productName}**\n• En Ucuz Fiyat: ₺${r.price.toLocaleString("tr-TR")} — Satıcı: **${r.cheapestStore || 'Hepsiburada'}**${diff}${altText}\n• Neden Bu Model?: ${r.reason}`;
-          }).join("\n\n") +
-          `\n\nHangi özellikleri (kamera, pil, ekran, performans vb.) senin için daha öncelikli? 🐧`;
-      } else {
-        fallbackReply = `Talebiniz için kataloğumuzdaki en popüler ve avantajlı modelleri hazırladım: 🐧`;
-      }
-      return createStreamResponse(fallbackReply, isGreeting ? [] : topRecs);
-    }
+      const fallbackReply = triggeredPanelData?.type === "comparison"
+        ? `Senin için karşılaştırma tablosunu hazırladım! 🐧 Sağ taraftaki Karşılaştırma Panelinde ürünlerin ekran, işlemci, kamera, batarya ve en ucuz mağaza fiyatlarını detaylıca inceleyebilirsin.`
+        : triggeredPanelData?.type === "news"
+        ? `Günün en sıcak teknoloji gelişmelerini senin için topladım! 🐧 Sağ taraftaki Haberler Panelinden öne çıkan başlıkları inceleyebilirsin.`
+        : `Senin için en uygun modelleri ve güncel mağaza fiyatlarını listeledim: 🐧`;
 
-    // NON-STREAMING JSON MODE (For fallback/classic callers)
-    for (const model of candidateModels) {
-      try {
-        const controller = new AbortController();
-        const timeout = setTimeout(() => controller.abort(), 4000);
-
-        const geminiRes = await fetch(
-          `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${apiKey}`,
-          {
-            method: "POST",
-            headers: { "Content-Type": "application/json" },
-            signal: controller.signal,
-            body: JSON.stringify({
-              systemInstruction: { parts: [{ text: systemInstruction }] },
-              contents: [{ role: "user", parts: [{ text: message }] }],
-              generationConfig: { temperature: 0.3, maxOutputTokens: 1024 }
-            })
-          }
-        );
-        clearTimeout(timeout);
-
-        if (geminiRes.ok) {
-          const data = await geminiRes.json();
-          const reply = data.candidates?.[0]?.content?.parts?.[0]?.text || "";
-          return NextResponse.json({
-            reply,
-            recommendations: topRecs,
-            source: model.includes("3.8") ? "gemini-3.8" : "gemini-cascade"
-          });
-        }
-      } catch (err: any) {
-        console.warn(`Model ${model} JSON failover: ${err.message}`);
-      }
-    }
-
-    const isGreeting = /^(selam|merhaba|gunaydin|iyi gunler|nasilsin|naber|hey|merhabalar)\b/i.test(normalizeTr(message));
-    let jsonReply = "";
-    if (isGreeting) {
-      jsonReply = "Harikayım, çok teşekkür ederim! 🐧 Seninle burada olmak harika. Bugün nasıl bir teknoloji arıyoruz?";
-    } else if (topRecs.length > 0) {
-      jsonReply = `Senin için en ucuz satıcıları ve alternatif modelleri derledim: 🐧\n\n` +
-        topRecs.map(r => {
-          const icon = r.category === "smartphones" || r.category === "phones" ? "📱" : r.category === "laptops" ? "💻" : r.category === "tvs" ? "📺" : "⚡";
-          const diff = r.marketSaving && r.marketSaving > 0 ? ` (Piyasa ortalamasından ₺${r.marketSaving.toLocaleString("tr-TR")} daha hesaplı)` : "";
-          const altText = r.alternativeStores ? `\n• Alternatif Satıcı Fiyatları: ${r.alternativeStores}` : "";
-          return `${icon} **${r.productName}**\n• En Ucuz Fiyat: ₺${r.price.toLocaleString("tr-TR")} — Satıcı: **${r.cheapestStore || 'Hepsiburada'}**${diff}${altText}\n• Neden Bu Model?: ${r.reason}`;
-        }).join("\n\n") +
-        `\n\nHangi özellikleri (kamera, pil, ekran, performans vb.) senin için daha öncelikli? 🐧`;
-    } else {
-      jsonReply = "İhtiyacınıza uygun güncel modelleri sizin için seçtim: 🐧";
+      return createStreamResponse(fallbackReply, topRecs, triggeredPanelData);
     }
 
     return NextResponse.json({
-      reply: jsonReply,
-      recommendations: isGreeting ? [] : topRecs,
+      reply: "İhtiyacınıza uygun modeller hazırlandı! 🐧",
+      recommendations: topRecs,
+      panel: triggeredPanelData,
       source: "local-engine"
     });
 
@@ -580,16 +1000,19 @@ export async function POST(req: NextRequest) {
   }
 }
 
-// Helper to stream a fixed text response
-function createStreamResponse(text: string, recommendations: AssistantRecommendation[]) {
+function createStreamResponse(
+  text: string,
+  recommendations: AssistantRecommendation[],
+  panel?: SidePanelData | null
+) {
   const encoder = new TextEncoder();
   const stream = new ReadableStream({
     start(controller) {
-      // Products
+      if (panel) {
+        controller.enqueue(encoder.encode(`event: panel\ndata: ${JSON.stringify(panel)}\n\n`));
+      }
       controller.enqueue(encoder.encode(`event: products\ndata: ${JSON.stringify(recommendations)}\n\n`));
-      // Text
       controller.enqueue(encoder.encode(`event: text\ndata: ${JSON.stringify(text)}\n\n`));
-      // Done
       controller.enqueue(encoder.encode("event: done\ndata: [DONE]\n\n"));
       controller.close();
     }
