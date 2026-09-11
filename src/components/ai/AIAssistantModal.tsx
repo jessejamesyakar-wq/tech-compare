@@ -395,9 +395,10 @@ export function AIAssistantModal({ isOpen, onClose, initialQuery = '' }: AIAssis
     setInput('');
     setLoading(true);
 
-    // 15 saniye mutlak UI zaman aşımı (Sonsuz yükleniyor'da takılı kalmayı önler)
+    // 30 saniye başlangıç bağlantı zaman aşımı (Sonsuz yükleniyor'da takılı kalmayı önler)
+    let hasReceivedData = false;
     const uiTimeout = setTimeout(() => {
-      if (activeRequestIdRef.current === currentRequestId) {
+      if (activeRequestIdRef.current === currentRequestId && !hasReceivedData) {
         controller.abort();
         setMessages((prev) =>
           prev.map((m) =>
@@ -405,7 +406,7 @@ export function AIAssistantModal({ isOpen, onClose, initialQuery = '' }: AIAssis
               ? {
                   ...m,
                   content:
-                    'Şu anda bağlantıda küçük bir sorun yaşıyorum, birkaç saniye sonra tekrar dener misin? 🐧',
+                    'Şu anda sunucu yanıt vermiyor. Lütfen sorunuzu tekrar iletir misiniz? 🐧',
                   isStreaming: false,
                 }
               : m
@@ -413,13 +414,14 @@ export function AIAssistantModal({ isOpen, onClose, initialQuery = '' }: AIAssis
         );
         setLoading(false);
       }
-    }, 15000);
+    }, 30000);
 
     try {
-      // 15 mesajlık konuşma hafızası aktarımı
+      // Konuşma hafızası aktarımı (Hatalı ve boş mesajları filtrele)
       const history = messages
-        .filter((m) => m.id !== 'welcome')
-        .slice(-15)
+        .filter((m) => m.id !== 'welcome' && m.content && m.content.trim())
+        .filter((m) => !m.content.includes('bağlantıda küçük bir sorun'))
+        .slice(-10)
         .map((m) => ({ role: m.role, content: m.content }));
 
       const res = await fetch('/api/ai-assistant', {
@@ -444,6 +446,11 @@ export function AIAssistantModal({ isOpen, onClose, initialQuery = '' }: AIAssis
       while (true) {
         const { done, value } = await reader.read();
         if (done) break;
+
+        if (!hasReceivedData) {
+          hasReceivedData = true;
+          clearTimeout(uiTimeout);
+        }
 
         // Eğer bu esnada yeni bir istek geldiyse bu eski akışı sonlandır
         if (activeRequestIdRef.current !== currentRequestId) {

@@ -538,11 +538,15 @@ function findProductInCatalog(identifier: string, targetCategory?: string | null
 }
 
 export function resolveCompareProducts(
-  productNames: string[] = [],
-  productIds: string[] = [],
+  productNames: any = [],
+  productIds: any = [],
   scenario = "genel"
 ): ComparisonPanelData | null {
-  const queries = [...(productIds || []), ...(productNames || [])].filter(Boolean);
+  const safeNames = Array.isArray(productNames)
+    ? productNames
+    : (typeof productNames === "string" ? productNames.split(/(?:,|ve|ile|\/|vs\.?)\s+/).filter(Boolean) : []);
+  const safeIds = Array.isArray(productIds) ? productIds : [];
+  const queries = [...safeIds, ...safeNames].filter(Boolean);
   if (queries.length < 2) return null;
 
   const matched: any[] = [];
@@ -764,10 +768,13 @@ export function isNewsQuery(message: string): boolean {
 
 // Bütçe Bazlı Öneri Çözücü
 export function resolveBudgetRecommendation(
-  budgetTL: number,
+  budgetTL: any,
   category?: string,
   scenario = "fiyat-performans"
 ): { recommendations: AssistantRecommendation[]; comparison: ComparisonPanelData | null } {
+  const numericBudget = typeof budgetTL === "number"
+    ? budgetTL
+    : parseInt(String(budgetTL || "").replace(/[^\d]/g, ""), 10) || 30000;
   const allProducts = getStoredProducts();
   const targetCat = (category || "phones").toLowerCase();
 
@@ -776,7 +783,7 @@ export function resolveBudgetRecommendation(
     const matchesCat = pc === targetCat || (targetCat === "phones" && pc === "smartphones");
     const validOffers = Array.isArray(p.storeOffers) ? p.storeOffers.filter((o: any) => o.price > 0) : [];
     const price = p.basePrice || validOffers[0]?.price || 0;
-    return matchesCat && price > 0 && price <= budgetTL * 1.15;
+    return matchesCat && price > 0 && price <= numericBudget * 1.15;
   });
 
   pool.sort((a, b) => {
@@ -799,7 +806,7 @@ export function resolveBudgetRecommendation(
       category: p.category === "smartphones" ? "phones" : p.category,
       price: p.basePrice || validOffers[0]?.price || 0,
       image: p.image || (Array.isArray(p.images) ? p.images[0] : undefined),
-      reason: `₺${budgetTL.toLocaleString("tr-TR")} bütçesinde en yüksek F/P puanına sahip model`,
+      reason: `₺${numericBudget.toLocaleString("tr-TR")} bütçesinde en yüksek F/P puanına sahip model`,
       cheapestStore: validOffers[0]?.storeName || "En Uygun Mağaza"
     };
   });
@@ -1017,24 +1024,39 @@ export async function POST(req: NextRequest) {
       "gemini-3.6-flash"
     ];
 
-    const geminiContents = [
-      ...history.map((h: any) => ({
-        role: h.role === "assistant" ? "model" : "user",
-        parts: [{ text: h.content }]
-      })),
-      { role: "user", parts: [{ text: message }] }
-    ];
+    // Geçmişi temizle ve Gemini gereksinimlerine göre doğrula
+    const cleanHistory = history
+      .filter((h: any) => h && typeof h.content === "string" && h.content.trim().length > 0)
+      .filter((h: any) => !h.content.includes("bağlantıda küçük bir sorun") && !h.content.includes("500+ karakter"))
+      .slice(-10);
+
+    const geminiContents: Array<{ role: "user" | "model"; parts: Array<any> }> = [];
+    for (const h of cleanHistory) {
+      const role = h.role === "assistant" || h.role === "model" ? "model" : "user";
+      if (geminiContents.length > 0 && geminiContents[geminiContents.length - 1].role === role) {
+        geminiContents[geminiContents.length - 1].parts[0].text += "\n" + h.content;
+      } else {
+        geminiContents.push({ role, parts: [{ text: h.content }] });
+      }
+    }
+
+    if (geminiContents.length > 0 && geminiContents[0].role === "model") {
+      geminiContents.shift();
+    }
+
+    if (geminiContents.length > 0 && geminiContents[geminiContents.length - 1].role === "user") {
+      geminiContents[geminiContents.length - 1].parts[0].text += "\n" + message;
+    } else {
+      geminiContents.push({ role: "user", parts: [{ text: message }] });
+    }
 
     // STREAMING API ÇAĞRISI
     if (isStream) {
       for (const model of candidateModels) {
-        // 3 deneme (retry) döngüsü
-        let modelSuccess = false;
-
-        for (let attempt = 1; attempt <= 3; attempt++) {
+        for (let attempt = 1; attempt <= 2; attempt++) {
           try {
             const controller = new AbortController();
-            const timeout = setTimeout(() => controller.abort(), 12000);
+            const timeout = setTimeout(() => controller.abort(), 10000);
 
             // Selamlaşma veya genel sorularda tool'ları gönderme (Modelin gereksiz panel açmasını önler)
             const shouldSendTools = !isGreetingOrChitchat && !isGeneralTechQuestion;
@@ -1059,10 +1081,11 @@ export async function POST(req: NextRequest) {
             clearTimeout(timeout);
 
             if (!initialRes.ok) {
+              const errSnippet = await initialRes.text().catch(() => "");
+              console.warn(`[RoboPengu][WARN] Model ${model} returned ${initialRes.status}: ${errSnippet.slice(0, 120)}`);
               if (initialRes.status === 429 || initialRes.status >= 500) {
-                console.warn(`[RoboPengu][WARN] Model ${model} returned ${initialRes.status} (attempt ${attempt}/3). Retrying...`);
-                if (attempt < 3) {
-                  await new Promise(r => setTimeout(r, 1200 * attempt));
+                if (attempt < 2) {
+                  await new Promise(r => setTimeout(r, 1000 * attempt));
                   continue;
                 }
               }
@@ -1109,8 +1132,7 @@ export async function POST(req: NextRequest) {
                   toolResult = { note: "Güncel teknoloji gelişmelerini özetle." };
                 }
               } else if (fc.name === "getBudgetRecommendation") {
-                const budget = Number(args.budgetTL) || 30000;
-                const bRes = resolveBudgetRecommendation(budget, args.category, args.scenario);
+                const bRes = resolveBudgetRecommendation(args.budgetTL, args.category, args.scenario);
                 if (bRes.comparison && isValidComparisonData(bRes.comparison)) {
                   panelToSend = bRes.comparison;
                 }
@@ -1128,121 +1150,144 @@ export async function POST(req: NextRequest) {
                   }
                 }]
               });
-            }
 
-            // Heuristik panel kontrolü: Model tool çağırmadan doğrudan metin üretse bile
-            // kullanıcı açıkça kıyaslama veya haber istediyse paneli aç
-            if (!panelToSend && !isGreetingOrChitchat && !isGeneralTechQuestion) {
-              const compCandidates = tryExtractComparisonFromMessage(message);
-              if (compCandidates) {
-                const comp = resolveCompareProducts(compCandidates);
-                if (comp && isValidComparisonData(comp)) {
-                  panelToSend = comp;
+              // Heuristik panel kontrolü
+              if (!panelToSend && !isGreetingOrChitchat && !isGeneralTechQuestion) {
+                const compCandidates = tryExtractComparisonFromMessage(message);
+                if (compCandidates) {
+                  const comp = resolveCompareProducts(compCandidates);
+                  if (comp && isValidComparisonData(comp)) {
+                    panelToSend = comp;
+                  }
+                } else if (isNewsQuery(message)) {
+                  const news = resolveTechNews("teknoloji gündemi");
+                  if (news && isValidNewsData(news)) {
+                    panelToSend = news;
+                  }
                 }
-              } else if (isNewsQuery(message)) {
-                const news = resolveTechNews("teknoloji gündemi");
-                if (news && isValidNewsData(news)) {
-                  panelToSend = news;
+              }
+
+              // Step 2: Stream final response (Function Calling sonrasında)
+              const streamRes = await fetch(
+                `https://generativelanguage.googleapis.com/v1beta/models/${model}:streamGenerateContent?alt=sse&key=${apiKey}`,
+                {
+                  method: "POST",
+                  headers: { "Content-Type": "application/json" },
+                  body: JSON.stringify({
+                    systemInstruction: { parts: [{ text: ROBO_PENGU_SYSTEM_INSTRUCTION }] },
+                    contents: followUpContents,
+                    generationConfig: {
+                      temperature: 0.7,
+                      maxOutputTokens: 4096
+                    }
+                  })
                 }
-              }
-            }
+              );
 
-            // Step 2: Stream final response
-            const streamRes = await fetch(
-              `https://generativelanguage.googleapis.com/v1beta/models/${model}:streamGenerateContent?alt=sse&key=${apiKey}`,
-              {
-                method: "POST",
-                headers: { "Content-Type": "application/json" },
-                body: JSON.stringify({
-                  systemInstruction: { parts: [{ text: ROBO_PENGU_SYSTEM_INSTRUCTION }] },
-                  contents: followUpContents,
-                  generationConfig: {
-                    temperature: 0.7,
-                    maxOutputTokens: 4096
-                  }
-                })
-              }
-            );
+              if (streamRes.ok && streamRes.body) {
+                const encoder = new TextEncoder();
+                const decoder = new TextDecoder();
 
-            if (streamRes.ok && streamRes.body) {
-              const encoder = new TextEncoder();
-              const decoder = new TextDecoder();
+                let recommendedCategory: string | null = null;
+                if (panelToSend && panelToSend.type === "comparison" && panelToSend.products.length > 0) {
+                  recommendedCategory = panelToSend.category;
+                }
+                const filteredRecs = getFilteredRecommendations(recommendedCategory, 3);
 
-              // Öneri listesini KESİNLİKLE sadece kıyaslanan ürünün kategorisinden seç (TV ise TV, laptop ise laptop)
-              let recommendedCategory: string | null = null;
-              if (panelToSend && panelToSend.type === "comparison" && panelToSend.products.length > 0) {
-                recommendedCategory = panelToSend.category;
-              }
-              const filteredRecs = getFilteredRecommendations(recommendedCategory, 3);
+                const stream = new ReadableStream({
+                  async start(ctrl) {
+                    if (panelToSend) {
+                      ctrl.enqueue(encoder.encode(`event: panel\ndata: ${JSON.stringify(panelToSend)}\n\n`));
+                    }
+                    if (filteredRecs.length > 0) {
+                      ctrl.enqueue(encoder.encode(`event: products\ndata: ${JSON.stringify(filteredRecs)}\n\n`));
+                    }
 
-              const stream = new ReadableStream({
-                async start(ctrl) {
-                  // 1. Panel eventi (Sadece geçerli bir panel varsa gönder)
-                  if (panelToSend) {
-                    ctrl.enqueue(encoder.encode(`event: panel\ndata: ${JSON.stringify(panelToSend)}\n\n`));
-                  }
+                    const reader = streamRes.body!.getReader();
+                    let buffer = "";
 
-                  // 2. Ürün önerileri (Sadece ilgili kategoride ürün varsa gönder)
-                  if (filteredRecs.length > 0) {
-                    ctrl.enqueue(encoder.encode(`event: products\ndata: ${JSON.stringify(filteredRecs)}\n\n`));
-                  }
+                    try {
+                      while (true) {
+                        const { done, value } = await reader.read();
+                        if (done) break;
+                        buffer += decoder.decode(value, { stream: true });
 
-                  const reader = streamRes.body!.getReader();
-                  let buffer = "";
+                        const lines = buffer.split("\n");
+                        buffer = lines.pop() || "";
 
-                  try {
-                    while (true) {
-                      const { done, value } = await reader.read();
-                      if (done) break;
-                      buffer += decoder.decode(value, { stream: true });
-
-                      const lines = buffer.split("\n");
-                      buffer = lines.pop() || "";
-
-                      for (const line of lines) {
-                        if (line.startsWith("data: ")) {
-                          const jsonStr = line.slice(6).trim();
-                          if (jsonStr && jsonStr !== "[DONE]") {
-                            try {
-                              const parsed = JSON.parse(jsonStr);
-                              const text = parsed.candidates?.[0]?.content?.parts?.[0]?.text;
-                              if (text) {
-                                ctrl.enqueue(encoder.encode(`event: text\ndata: ${JSON.stringify(text)}\n\n`));
-                              }
-                            } catch {}
+                        for (const line of lines) {
+                          if (line.startsWith("data: ")) {
+                            const jsonStr = line.slice(6).trim();
+                            if (jsonStr && jsonStr !== "[DONE]") {
+                              try {
+                                const parsed = JSON.parse(jsonStr);
+                                const text = parsed.candidates?.[0]?.content?.parts?.[0]?.text;
+                                if (text) {
+                                  ctrl.enqueue(encoder.encode(`event: text\ndata: ${JSON.stringify(text)}\n\n`));
+                                }
+                              } catch {}
+                            }
                           }
                         }
                       }
+                    } catch (e: any) {
+                      console.error("[RoboPengu][ERROR] SSE stream read error:", e.message);
+                    } finally {
+                      ctrl.enqueue(encoder.encode("event: done\ndata: [DONE]\n\n"));
+                      ctrl.close();
                     }
-                  } catch (e: any) {
-                    console.error("[RoboPengu][ERROR] SSE stream read error:", e.message);
-                  } finally {
-                    ctrl.enqueue(encoder.encode("event: done\ndata: [DONE]\n\n"));
-                    ctrl.close();
+                  }
+                });
+
+                return new Response(stream, {
+                  headers: {
+                    "Content-Type": "text/event-stream; charset=utf-8",
+                    "Cache-Control": "no-cache, no-transform",
+                    "Connection": "keep-alive"
+                  }
+                });
+              }
+
+            } else {
+              // HIZLI YANIT OPTİMİZASYONU (Single-Turn Direct Response)
+              // Model Step 1'de zaten yanıtı üretti! 2. bir API çağrısı yapmaya gerek yok!
+              const directText = modelParts.map((p: any) => p.text || "").join("").trim();
+              if (directText) {
+                if (!isGreetingOrChitchat && !isGeneralTechQuestion) {
+                  const compCandidates = tryExtractComparisonFromMessage(message);
+                  if (compCandidates) {
+                    const comp = resolveCompareProducts(compCandidates);
+                    if (comp && isValidComparisonData(comp)) {
+                      panelToSend = comp;
+                    }
+                  } else if (isNewsQuery(message)) {
+                    const news = resolveTechNews("teknoloji gündemi");
+                    if (news && isValidNewsData(news)) {
+                      panelToSend = news;
+                    }
                   }
                 }
-              });
 
-              return new Response(stream, {
-                headers: {
-                  "Content-Type": "text/event-stream; charset=utf-8",
-                  "Cache-Control": "no-cache, no-transform",
-                  "Connection": "keep-alive"
+                let recommendedCategory: string | null = null;
+                if (panelToSend && panelToSend.type === "comparison" && panelToSend.products.length > 0) {
+                  recommendedCategory = panelToSend.category;
                 }
-              });
+                const filteredRecs = getFilteredRecommendations(recommendedCategory, 3);
+                return createStreamResponse(directText, filteredRecs, panelToSend);
+              }
             }
 
           } catch (err: any) {
-            console.warn(`[RoboPengu][WARN] Model ${model} error (attempt ${attempt}/3): ${err.message}`);
-            if (attempt < 3) {
-              await new Promise(r => setTimeout(r, 1200 * attempt));
+            console.warn(`[RoboPengu][WARN] Model ${model} error (attempt ${attempt}/2): ${err.message}`);
+            if (attempt < 2) {
+              await new Promise(r => setTimeout(r, 1000 * attempt));
             }
           }
         }
       }
 
-      // 3. Fallback (eğer API modelleri yanıt veremezse yerel zeka ve katalog motoru devreye girer)
-      console.error("[RoboPengu][ERROR] All candidate models failed or timed out. Triggering resilient local engine.");
+      // 3. Güçlendirilmiş Yerel Katalog Motoru (API modelleri yanıt vermese dahi asla hata ekranı çıkmaz)
+      console.warn("[RoboPengu][WARN] Candidate models unavailable or timed out. Activating local intelligent catalog engine.");
 
       let fallbackPanel: SidePanelData | null = null;
       let fallbackRecs: AssistantRecommendation[] = [];
@@ -1280,7 +1325,6 @@ export async function POST(req: NextRequest) {
               `Detaylı teknik özellikleri ve mağaza fiyatlarını yan paneldeki tabloda inceleyebilirsin.`;
           }
         } else if (isExplicitComparison) {
-          // Kıyaslama istendi ama ürün katalogda bulunamadı:
           fallbackReply = "Bu ürünü bulamadım, ürün adını tekrar yazar mısın? 🐧 Aradığın özel bir bütçe veya marka varsa alternatif modeller de önerebilirim.";
         } else if (isNewsQuery(message)) {
           const news = resolveTechNews("teknoloji gündemi");
@@ -1288,10 +1332,65 @@ export async function POST(req: NextRequest) {
             fallbackPanel = news;
             fallbackReply = `Teknoloji dünyasındaki en yeni gelişmeleri ve lansman haberlerini yan taraftaki **Teknoloji Haberleri Paneli**'nde senin için listeledim! 🐧 Merak ettiğin özel bir model veya çip varsa detaylarını sorabilirsin.`;
           }
-        }
+        } else {
+          // Bütçe veya anahtar kelime araması
+          const budgetMatch = normMsg.match(/(\d+[\d\.]*)\s*(?:tl|bin|k)?/i);
+          let rawBudgetNum = 0;
+          if (budgetMatch) {
+            const numStr = budgetMatch[1].replace(/\./g, "");
+            rawBudgetNum = parseInt(numStr, 10);
+            if (normMsg.includes("bin") && rawBudgetNum < 1000) rawBudgetNum *= 1000;
+          }
 
-        if (!fallbackReply) {
-          fallbackReply = "Şu anda bağlantıda küçük bir sorun yaşıyorum, birkaç saniye sonra tekrar dener misin? 🐧";
+          if (rawBudgetNum > 1000) {
+            let cat = "phones";
+            if (normMsg.includes("laptop") || normMsg.includes("bilgisayar")) cat = "laptops";
+            else if (normMsg.includes("tv") || normMsg.includes("televizyon")) cat = "tvs";
+            else if (normMsg.includes("saat")) cat = "smartwatches";
+            else if (normMsg.includes("kulaklik")) cat = "headphones";
+
+            const bRes = resolveBudgetRecommendation(rawBudgetNum, cat);
+            if (bRes.recommendations.length > 0) {
+              fallbackRecs = bRes.recommendations;
+              if (bRes.comparison && isValidComparisonData(bRes.comparison)) {
+                fallbackPanel = bRes.comparison;
+              }
+              fallbackReply = `₺${rawBudgetNum.toLocaleString("tr-TR")} bütçen için aceleEtme kataloğumuzdaki en mantıklı ve en iyi fiyat-performans modellerini seçtim! 🐧\n\n` +
+                bRes.recommendations.map(r => `• **${r.productName}:** ${r.cheapestStore}'da ₺${r.price.toLocaleString("tr-TR")}`).join("\n") +
+                `\n\nİlgilendiğin iki modeli karşılaştırmak istersen bana model adlarını yazman yeterli!`;
+            }
+          }
+
+          if (!fallbackReply) {
+            const allProds = getStoredProducts();
+            const words = normMsg.split(/\s+/).filter(w => w.length > 2);
+            const matchedProds = allProds.filter(p => {
+              const pName = normalizeTr(p.name);
+              const pBrand = normalizeTr(p.brand || "");
+              return words.some(w => pName.includes(w) || pBrand.includes(w));
+            }).slice(0, 3);
+
+            if (matchedProds.length > 0) {
+              fallbackRecs = matchedProds.map(p => {
+                const offers = Array.isArray(p.storeOffers) ? p.storeOffers.filter((o: any) => o.price > 0) : [];
+                return {
+                  productId: p.id,
+                  slug: p.slug || p.id,
+                  productName: p.name,
+                  category: p.category === "smartphones" ? "phones" : p.category,
+                  price: p.basePrice || offers[0]?.price || 0,
+                  image: p.image || (Array.isArray(p.images) ? p.images[0] : undefined),
+                  reason: `${p.brand} öne çıkan model`,
+                  cheapestStore: offers[0]?.storeName || "En Uygun Mağaza"
+                };
+              });
+              fallbackReply = `İncelemek istediğin cihazları aceleEtme kataloğunda buldum! 🐧\n\n` +
+                matchedProds.map(p => `• **${p.name}:** ₺${(p.basePrice || 0).toLocaleString("tr-TR")}`).join("\n") +
+                `\n\nBu modeller hakkında ne öğrenmek istersin? Kıyaslama yapabilir veya teknik detaylarını anlatabilirim.`;
+            } else {
+              fallbackReply = "Harika bir soru! 🐧 aceleEtme'de 5.800'den fazla teknoloji ürününü canlı olarak takip ediyorum. Telefonlar, televizyonlar, laptoplar veya teknik terimler hakkında bana dilediğin gibi soru sorabilirsin. Hangi konuda yardımcı olayım?";
+            }
+          }
         }
       }
 
