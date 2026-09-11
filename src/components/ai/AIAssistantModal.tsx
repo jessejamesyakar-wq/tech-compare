@@ -12,6 +12,7 @@ import {
   Newspaper,
   Swords,
   TrendingDown,
+  Trash2,
   X
 } from 'lucide-react';
 import { ProductImage } from '@/components/ui/ProductImage';
@@ -281,6 +282,8 @@ export function AIAssistantModal({ isOpen, onClose, initialQuery = '' }: AIAssis
 
   const messagesEndRef = useRef<HTMLDivElement>(null);
   const inputRef = useRef<HTMLInputElement>(null);
+  const activeRequestIdRef = useRef<string | null>(null);
+  const abortControllerRef = useRef<AbortController | null>(null);
 
   const getProductUrl = (rec: { slug?: string; productId?: string; category?: string }) => {
     const slug = rec.slug || rec.productId;
@@ -294,6 +297,53 @@ export function AIAssistantModal({ isOpen, onClose, initialQuery = '' }: AIAssis
     if (cat === 'consoles') return `/consoles/${slug}`;
     if (cat === 'monitors') return `/monitors/${slug}`;
     return `/phones/${slug}`;
+  };
+
+  // 1. Tarayıcıda saklanan sohbet geçmişini yükle (LocalStorage)
+  useEffect(() => {
+    try {
+      const saved = localStorage.getItem('robopengu_chat_history');
+      if (saved) {
+        const parsed = JSON.parse(saved);
+        if (Array.isArray(parsed) && parsed.length > 0) {
+          setMessages(parsed);
+        }
+      }
+    } catch (e) {
+      console.error('[RoboPengu][ERROR] Failed to load chat history from localStorage', e);
+    }
+  }, []);
+
+  // 2. Mesajlar tamamlandıkça localStorage'a kaydet (Streaming bitince)
+  useEffect(() => {
+    if (messages.length > 1 && !messages.some((m) => m.isStreaming)) {
+      try {
+        localStorage.setItem('robopengu_chat_history', JSON.stringify(messages.slice(-25)));
+      } catch (e) {
+        console.error('[RoboPengu][ERROR] Failed to save chat history to localStorage', e);
+      }
+    }
+  }, [messages]);
+
+  // Sohbeti Sıfırlama
+  const handleClearChat = () => {
+    if (abortControllerRef.current) {
+      abortControllerRef.current.abort();
+    }
+    setActivePanel(null);
+    setMobileTab('chat');
+    setLoading(false);
+    setMessages([
+      {
+        id: 'welcome',
+        role: 'assistant',
+        content:
+          "Merhaba! Ben RoboPengu, aceleEtme'nin teknoloji uzmanı danışmanıyım! 🐧\n\nTelefon, TV, laptop, tablet ve tüm teknoloji ürünleri hakkında tarafsız karşılaştırmalar yapabilir, en ucuz mağaza fiyatlarını çıkarabilir veya yeni nesil çipler ile teknoloji trendlerini konuşabiliriz.\n\nNasıl yardımcı olabilirim?",
+      }
+    ]);
+    try {
+      localStorage.removeItem('robopengu_chat_history');
+    } catch {}
   };
 
   useEffect(() => {
@@ -311,7 +361,18 @@ export function AIAssistantModal({ isOpen, onClose, initialQuery = '' }: AIAssis
 
   const handleSend = async (queryText: string) => {
     const trimmed = queryText.trim();
-    if (!trimmed || loading) return;
+    if (!trimmed || loading || trimmed.length > 500) return;
+
+    // Önceki yarım kalan isteği iptal et (Race condition önleme)
+    if (abortControllerRef.current) {
+      abortControllerRef.current.abort();
+    }
+
+    const currentRequestId = `${Date.now()}-${Math.random().toString(36).slice(2, 7)}`;
+    activeRequestIdRef.current = currentRequestId;
+
+    const controller = new AbortController();
+    abortControllerRef.current = controller;
 
     const userMsgId = 'u-' + Date.now();
     const botMsgId = 'b-' + Date.now();
@@ -334,6 +395,26 @@ export function AIAssistantModal({ isOpen, onClose, initialQuery = '' }: AIAssis
     setInput('');
     setLoading(true);
 
+    // 15 saniye mutlak UI zaman aşımı (Sonsuz yükleniyor'da takılı kalmayı önler)
+    const uiTimeout = setTimeout(() => {
+      if (activeRequestIdRef.current === currentRequestId) {
+        controller.abort();
+        setMessages((prev) =>
+          prev.map((m) =>
+            m.id === botMsgId
+              ? {
+                  ...m,
+                  content:
+                    'Şu anda bağlantıda küçük bir sorun yaşıyorum, birkaç saniye sonra tekrar dener misin? 🐧',
+                  isStreaming: false,
+                }
+              : m
+          )
+        );
+        setLoading(false);
+      }
+    }, 15000);
+
     try {
       // 15 mesajlık konuşma hafızası aktarımı
       const history = messages
@@ -344,6 +425,7 @@ export function AIAssistantModal({ isOpen, onClose, initialQuery = '' }: AIAssis
       const res = await fetch('/api/ai-assistant', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
+        signal: controller.signal,
         body: JSON.stringify({
           message: trimmed,
           stream: true,
@@ -352,7 +434,7 @@ export function AIAssistantModal({ isOpen, onClose, initialQuery = '' }: AIAssis
       });
 
       if (!res.ok || !res.body) {
-        throw new Error('Yanıt alınamadı');
+        throw new Error(`Sunucu hatası: ${res.status}`);
       }
 
       const reader = res.body.getReader();
@@ -363,11 +445,19 @@ export function AIAssistantModal({ isOpen, onClose, initialQuery = '' }: AIAssis
         const { done, value } = await reader.read();
         if (done) break;
 
+        // Eğer bu esnada yeni bir istek geldiyse bu eski akışı sonlandır
+        if (activeRequestIdRef.current !== currentRequestId) {
+          reader.cancel();
+          return;
+        }
+
         streamBuffer += decoder.decode(value, { stream: true });
         const events = streamBuffer.split('\n\n');
         streamBuffer = events.pop() || '';
 
         for (const evt of events) {
+          if (activeRequestIdRef.current !== currentRequestId) return;
+
           const lines = evt.split('\n');
           let eventType = 'text';
           let dataStr = '';
@@ -380,54 +470,83 @@ export function AIAssistantModal({ isOpen, onClose, initialQuery = '' }: AIAssis
             }
           }
 
-          // 1. Yan Panel Olayı (Karşılaştırma veya Haberler)
+          // 1. Yan Panel Olayı (Karşılaştırma veya Haberler) - Şema Denetimli
           if (eventType === 'panel' && dataStr) {
             try {
               const panelData = JSON.parse(dataStr);
-              setActivePanel(panelData);
-              // Mobilde kullanıcıya bildirip paneli öne çıkar
-              setMobileTab('panel');
-            } catch {}
+              // Karşılaştırma şeması doğrulaması
+              if (panelData && panelData.type === 'comparison') {
+                if (Array.isArray(panelData.products) && panelData.products.length >= 2 && Array.isArray(panelData.matrix)) {
+                  setActivePanel(panelData);
+                  setMobileTab('panel');
+                } else {
+                  console.warn('[RoboPengu][WARN] Corrupt comparison panel data received:', panelData);
+                }
+              } else if (panelData && panelData.type === 'news') {
+                if (Array.isArray(panelData.articles) && panelData.articles.length > 0) {
+                  setActivePanel(panelData);
+                  setMobileTab('panel');
+                } else {
+                  console.warn('[RoboPengu][WARN] Corrupt news panel data received:', panelData);
+                }
+              }
+            } catch (e) {
+              console.error('[RoboPengu][ERROR] Panel JSON parse error:', e);
+            }
           }
           // 2. Ürün Önerileri
           else if (eventType === 'products' && dataStr) {
             try {
               const recs: AIAssistantRecommendation[] = JSON.parse(dataStr);
-              setMessages((prev) =>
-                prev.map((m) => (m.id === botMsgId ? { ...m, recommendations: recs } : m))
-              );
+              if (Array.isArray(recs)) {
+                setMessages((prev) =>
+                  prev.map((m) => (m.id === botMsgId ? { ...m, recommendations: recs } : m))
+                );
+              }
             } catch {}
           }
           // 3. Canlı Metin Akışı (Streaming)
           else if (eventType === 'text' && dataStr) {
             try {
               const token = JSON.parse(dataStr);
-              setMessages((prev) =>
-                prev.map((m) =>
-                  m.id === botMsgId ? { ...m, content: m.content + token } : m
-                )
-              );
+              if (typeof token === 'string') {
+                setMessages((prev) =>
+                  prev.map((m) =>
+                    m.id === botMsgId ? { ...m, content: m.content + token } : m
+                  )
+                );
+              }
             } catch {}
           }
         }
       }
-    } catch {
-      setMessages((prev) =>
-        prev.map((m) =>
-          m.id === botMsgId
-            ? {
-                ...m,
-                content:
-                  'Üzgünüm, yanıt oluşturulurken bir bağlantı gecikmesi yaşandı. Lütfen sorunuzu tekrar iletin. 🐧',
-              }
-            : m
-        )
-      );
+    } catch (err: any) {
+      if (err.name === 'AbortError') {
+        // Yeni bir istek gönderildiğinde veya timeoutta normal iptal
+        return;
+      }
+      console.error('[RoboPengu][ERROR] Chat request failed:', err.message);
+      if (activeRequestIdRef.current === currentRequestId) {
+        setMessages((prev) =>
+          prev.map((m) =>
+            m.id === botMsgId
+              ? {
+                  ...m,
+                  content:
+                    'Şu anda bağlantıda küçük bir sorun yaşıyorum, birkaç saniye sonra tekrar dener misin? 🐧',
+                }
+              : m
+          )
+        );
+      }
     } finally {
-      setMessages((prev) =>
-        prev.map((m) => (m.id === botMsgId ? { ...m, isStreaming: false } : m))
-      );
-      setLoading(false);
+      clearTimeout(uiTimeout);
+      if (activeRequestIdRef.current === currentRequestId) {
+        setMessages((prev) =>
+          prev.map((m) => (m.id === botMsgId ? { ...m, isStreaming: false } : m))
+        );
+        setLoading(false);
+      }
     }
   };
 
@@ -603,13 +722,24 @@ export function AIAssistantModal({ isOpen, onClose, initialQuery = '' }: AIAssis
                 </div>
               )}
 
-              <button
-                onClick={onClose}
-                className="text-slate-400 hover:text-slate-600 dark:hover:text-slate-200 transition text-lg p-1 cursor-pointer"
-                aria-label="Kapat"
-              >
-                ✕
-              </button>
+              <div className="flex items-center gap-2">
+                <button
+                  type="button"
+                  onClick={handleClearChat}
+                  className="text-slate-400 hover:text-rose-500 dark:hover:text-rose-400 p-1.5 rounded-lg hover:bg-slate-100 dark:hover:bg-slate-800 transition text-xs flex items-center gap-1 cursor-pointer"
+                  title="Sohbeti Temizle"
+                >
+                  <Trash2 className="w-3.5 h-3.5" />
+                  <span className="hidden sm:inline text-[11px] font-medium">Sohbeti Temizle</span>
+                </button>
+                <button
+                  onClick={onClose}
+                  className="text-slate-400 hover:text-slate-600 dark:hover:text-slate-200 transition text-lg p-1 cursor-pointer"
+                  aria-label="Kapat"
+                >
+                  ✕
+                </button>
+              </div>
             </div>
 
             {/* İç Gövde: Desktop'ta Çift Bölme (Split View), Mobilde Tab ile Değişim */}
@@ -725,27 +855,47 @@ export function AIAssistantModal({ isOpen, onClose, initialQuery = '' }: AIAssis
                   <form
                     onSubmit={(e) => {
                       e.preventDefault();
-                      handleSend(input);
+                      if (input.trim() && input.length <= 500 && !loading) {
+                        handleSend(input);
+                      }
                     }}
-                    className="flex items-center gap-2 bg-slate-50 dark:bg-slate-800/80 border border-slate-200 dark:border-slate-700 rounded-2xl px-3 py-1.5 focus-within:border-emerald-500 focus-within:bg-white dark:focus-within:bg-slate-900 transition"
+                    className="flex flex-col gap-1 bg-slate-50 dark:bg-slate-800/80 border border-slate-200 dark:border-slate-700 rounded-2xl px-3 py-1.5 focus-within:border-emerald-500 focus-within:bg-white dark:focus-within:bg-slate-900 transition"
                   >
-                    <input
-                      ref={inputRef}
-                      type="text"
-                      value={input}
-                      onChange={(e) => setInput(e.target.value)}
-                      placeholder="Model sor, karşılaştır veya bütçe belirt..."
-                      disabled={loading}
-                      className="w-full bg-transparent text-xs text-slate-700 dark:text-slate-200 outline-none px-1 py-1 font-medium placeholder:text-slate-400"
-                    />
-                    <button
-                      type="submit"
-                      disabled={loading || !input.trim()}
-                      className="w-8 h-8 rounded-xl bg-emerald-500 hover:bg-emerald-600 disabled:opacity-50 text-white flex items-center justify-center transition shadow-xs cursor-pointer shrink-0"
-                      aria-label="Gönder"
-                    >
-                      {loading ? <Loader2 className="w-4 h-4 animate-spin" /> : '➤'}
-                    </button>
+                    <div className="flex items-center gap-2">
+                      <input
+                        ref={inputRef}
+                        type="text"
+                        value={input}
+                        onChange={(e) => setInput(e.target.value)}
+                        placeholder="Model sor, karşılaştır veya bütçe belirt..."
+                        disabled={loading}
+                        className="w-full bg-transparent text-xs text-slate-700 dark:text-slate-200 outline-none px-1 py-1 font-medium placeholder:text-slate-400"
+                      />
+                      <button
+                        type="submit"
+                        disabled={loading || !input.trim() || input.length > 500}
+                        className="w-8 h-8 rounded-xl bg-emerald-500 hover:bg-emerald-600 disabled:opacity-40 disabled:cursor-not-allowed text-white flex items-center justify-center transition shadow-xs cursor-pointer shrink-0"
+                        aria-label="Gönder"
+                      >
+                        {loading ? <Loader2 className="w-4 h-4 animate-spin" /> : '➤'}
+                      </button>
+                    </div>
+
+                    {/* Karakter Sayacı ve Dinamik Uyarı */}
+                    <div className="flex items-center justify-between text-[10px] px-1 text-slate-400">
+                      {input.length > 450 ? (
+                        <span className={input.length > 500 ? "text-rose-500 font-semibold" : "text-amber-500 font-medium"}>
+                          {input.length > 500
+                            ? "Mesajınız 500 karakteri aşıyor. Lütfen kısaltınız."
+                            : "500 karakter sınırına yaklaşıyorsunuz."}
+                        </span>
+                      ) : (
+                        <span />
+                      )}
+                      <span className={`font-mono text-[9px] ${input.length > 500 ? "text-rose-500 font-bold" : input.length > 450 ? "text-amber-500 font-bold" : "text-slate-400"}`}>
+                        {input.length}/500
+                      </span>
+                    </div>
                   </form>
                 </div>
               </div>
@@ -808,7 +958,12 @@ export function AIAssistantModal({ isOpen, onClose, initialQuery = '' }: AIAssis
                   {/* Panel İçeriği (Kaydırılabilir) */}
                   <div className="flex-1 overflow-y-auto p-4 space-y-4">
                     {/* A. KARŞILAŞTIRMA GÖRÜNÜMÜ */}
-                    {activePanel.type === 'comparison' && (
+                    {activePanel.type === 'comparison' && (!Array.isArray(activePanel.products) || activePanel.products.length < 2 || !Array.isArray(activePanel.matrix)) && (
+                      <div className="p-6 rounded-2xl bg-slate-50 dark:bg-slate-800/50 border border-slate-200 dark:border-slate-700 text-center space-y-2">
+                        <p className="text-xs text-slate-600 dark:text-slate-300 font-medium">Bu bilgiyi şu an gösteremiyorum. 🐧</p>
+                      </div>
+                    )}
+                    {activePanel.type === 'comparison' && Array.isArray(activePanel.products) && activePanel.products.length >= 2 && Array.isArray(activePanel.matrix) && (
                       <div className="space-y-4">
                         {/* 1. Ürün Kartları Başlığı */}
                         <div className={`grid gap-3 ${activePanel.products.length === 2 ? 'grid-cols-2' : 'grid-cols-2 sm:grid-cols-3'}`}>
@@ -948,7 +1103,12 @@ export function AIAssistantModal({ isOpen, onClose, initialQuery = '' }: AIAssis
                     )}
 
                     {/* B. TEKNOLOJİ HABERLERİ GÖRÜNÜMÜ */}
-                    {activePanel.type === 'news' && (
+                    {activePanel.type === 'news' && (!Array.isArray(activePanel.articles) || activePanel.articles.length === 0) && (
+                      <div className="p-6 rounded-2xl bg-slate-50 dark:bg-slate-800/50 border border-slate-200 dark:border-slate-700 text-center space-y-2">
+                        <p className="text-xs text-slate-600 dark:text-slate-300 font-medium">Bu bilgiyi şu an gösteremiyorum. 🐧</p>
+                      </div>
+                    )}
+                    {activePanel.type === 'news' && Array.isArray(activePanel.articles) && activePanel.articles.length > 0 && (
                       <div className="space-y-3">
                         {activePanel.articles.map((art) => (
                           <div

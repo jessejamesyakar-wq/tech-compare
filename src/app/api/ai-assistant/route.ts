@@ -762,6 +762,97 @@ export function isNewsQuery(message: string): boolean {
   );
 }
 
+// Bütçe Bazlı Öneri Çözücü
+export function resolveBudgetRecommendation(
+  budgetTL: number,
+  category?: string,
+  scenario = "fiyat-performans"
+): { recommendations: AssistantRecommendation[]; comparison: ComparisonPanelData | null } {
+  const allProducts = getStoredProducts();
+  const targetCat = (category || "phones").toLowerCase();
+
+  const pool = allProducts.filter(p => {
+    const pc = (p.category || "").toLowerCase();
+    const matchesCat = pc === targetCat || (targetCat === "phones" && pc === "smartphones");
+    const validOffers = Array.isArray(p.storeOffers) ? p.storeOffers.filter((o: any) => o.price > 0) : [];
+    const price = p.basePrice || validOffers[0]?.price || 0;
+    return matchesCat && price > 0 && price <= budgetTL * 1.15;
+  });
+
+  pool.sort((a, b) => {
+    const rDiff = (b.rating || 0) - (a.rating || 0);
+    if (rDiff !== 0) return rDiff;
+    const aOffers = Array.isArray(a.storeOffers) ? a.storeOffers.filter((o: any) => o.price > 0) : [];
+    const bOffers = Array.isArray(b.storeOffers) ? b.storeOffers.filter((o: any) => o.price > 0) : [];
+    const aPrice = a.basePrice || aOffers[0]?.price || 0;
+    const bPrice = b.basePrice || bOffers[0]?.price || 0;
+    return bPrice - aPrice;
+  });
+
+  const topP = pool.slice(0, 3);
+  const recommendations: AssistantRecommendation[] = topP.map(p => {
+    const validOffers = Array.isArray(p.storeOffers) ? p.storeOffers.filter((o: any) => o.price > 0) : [];
+    return {
+      productId: p.id,
+      slug: p.slug || p.id,
+      productName: p.name,
+      category: p.category === "smartphones" ? "phones" : p.category,
+      price: p.basePrice || validOffers[0]?.price || 0,
+      image: p.image || (Array.isArray(p.images) ? p.images[0] : undefined),
+      reason: `₺${budgetTL.toLocaleString("tr-TR")} bütçesinde en yüksek F/P puanına sahip model`,
+      cheapestStore: validOffers[0]?.storeName || "En Uygun Mağaza"
+    };
+  });
+
+  let comparison: ComparisonPanelData | null = null;
+  if (topP.length >= 2) {
+    const comp = resolveCompareProducts([topP[0].name, topP[1].name], [], scenario);
+    if (comp && isValidComparisonData(comp)) {
+      comparison = comp;
+    }
+  }
+
+  return { recommendations, comparison };
+}
+
+// Şema ve Veri Bütünlüğü Doğrulayıcıları (Schema Guards)
+export function isValidComparisonData(panel: any): panel is ComparisonPanelData {
+  if (!panel || typeof panel !== "object") return false;
+  if (panel.type !== "comparison") return false;
+  if (!Array.isArray(panel.products) || panel.products.length < 2) return false;
+  for (const prod of panel.products) {
+    if (!prod || !prod.id || !prod.name || typeof prod.price !== "number") return false;
+  }
+  if (!Array.isArray(panel.matrix) || panel.matrix.length === 0) return false;
+  if (!panel.winner || !panel.winner.productName || !Array.isArray(panel.winner.reasons)) return false;
+  return true;
+}
+
+export function isValidNewsData(panel: any): panel is TechNewsPanelData {
+  if (!panel || typeof panel !== "object") return false;
+  if (panel.type !== "news") return false;
+  if (!Array.isArray(panel.articles) || panel.articles.length === 0) return false;
+  for (const art of panel.articles) {
+    if (!art || !art.title || !art.summary) return false;
+  }
+  return true;
+}
+
+// Anlamsız / Rastgele Karakter Dizisi Tespiti (Gibberish Detector)
+export function isGibberish(text: string): boolean {
+  const clean = text.trim();
+  if (clean.length < 5) return false;
+  const words = clean.split(/\s+/);
+  if (words.length === 1) {
+    const w = words[0].toLowerCase();
+    const vowels = (w.match(/[aeıioöuü]/g) || []).length;
+    if (w.length >= 8 && vowels === 0) return true;
+    if (/(.)\1{4,}/.test(w)) return true;
+    if (/^(asdf|qwer|zxcv|ghjk|jkl|dfgh)/i.test(w) && vowels <= 2 && w.length >= 9) return true;
+  }
+  return false;
+}
+
 // ----------------------------------------------------------------------
 // SYSTEM PROMPT: GERÇEK MUHAKEME VE NİYET YÖNETİMİ
 // ----------------------------------------------------------------------
@@ -799,14 +890,34 @@ TEMEL DAVRANIŞ VE MUHAKEME KURALLARI (ZORUNLU):
 export async function POST(req: NextRequest) {
   try {
     const body = await req.json().catch(() => ({}));
-    const message = (body.message || "").trim();
+    const rawMessage = typeof body.message === "string" ? body.message : "";
+    const message = rawMessage.trim();
     const isStream = body.stream !== false;
     const history = Array.isArray(body.history) ? body.history.slice(-15) : [];
 
+    // Girdi Doğrulama (1): Boş mesaj kontrolü
     if (!message) {
       return NextResponse.json(
-        { error: "Geçersiz istek: 'message' alanı zorunludur." },
+        { error: "Lütfen bir mesaj girin." },
         { status: 400 }
+      );
+    }
+
+    // Girdi Doğrulama (2): 500+ Karakter Kontrolü
+    if (message.length > 500) {
+      return createStreamResponse(
+        "Mesajınız biraz uzun (500+ karakter). 🐧 Size en doğru ve net yanıtı verebilmem için lütfen sorunuzu kısaltarak veya tek bir model/konu odaklı iletebilir misiniz?",
+        [],
+        null
+      );
+    }
+
+    // Girdi Doğrulama (3): Anlamsız karakter dizisi kontrolü (Gibberish)
+    if (isGibberish(message)) {
+      return createStreamResponse(
+        "Ne demek istediğini tam anlayamadım. 🐧 Telefonlar, televizyonlar, laptoplar veya teknik terimler hakkında bana bir soru sorabilirsin!",
+        [],
+        null
       );
     }
 
@@ -852,6 +963,28 @@ export async function POST(req: NextRequest) {
               },
               required: ["topic"]
             }
+          },
+          {
+            name: "getBudgetRecommendation",
+            description: "Kullanıcı belirli bir bütçeye göre (örn. 30.000 TL altı telefon, 40.000 TL laptop) ürün tavsiyesi istediğinde çağrılır.",
+            parameters: {
+              type: "OBJECT",
+              properties: {
+                budgetTL: {
+                  type: "NUMBER",
+                  description: "Kullanıcının belirlediği azami bütçe (TL)"
+                },
+                category: {
+                  type: "STRING",
+                  description: "Ürün kategorisi ('phones', 'tvs', 'laptops', 'smartwatches', 'headphones')"
+                },
+                scenario: {
+                  type: "STRING",
+                  description: "Kullanım senaryosu ('fiyat-performans', 'oyun', 'is', 'genel')"
+                }
+              },
+              required: ["budgetTL"]
+            }
           }
         ]
       }
@@ -895,181 +1028,222 @@ export async function POST(req: NextRequest) {
     // STREAMING API ÇAĞRISI
     if (isStream) {
       for (const model of candidateModels) {
-        try {
-          const controller = new AbortController();
-          const timeout = setTimeout(() => controller.abort(), 12000);
+        // 3 deneme (retry) döngüsü
+        let modelSuccess = false;
 
-          // Selamlaşma veya genel sorularda tool'ları gönderme (Modelin gereksiz panel açmasını önler)
-          const shouldSendTools = !isGreetingOrChitchat && !isGeneralTechQuestion;
+        for (let attempt = 1; attempt <= 3; attempt++) {
+          try {
+            const controller = new AbortController();
+            const timeout = setTimeout(() => controller.abort(), 12000);
 
-          const initialRes = await fetch(
-            `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${apiKey}`,
-            {
-              method: "POST",
-              headers: { "Content-Type": "application/json" },
-              signal: controller.signal,
-              body: JSON.stringify({
-                systemInstruction: { parts: [{ text: ROBO_PENGU_SYSTEM_INSTRUCTION }] },
-                contents: geminiContents,
-                ...(shouldSendTools ? { tools: toolsPayload } : {}),
-                generationConfig: {
-                  temperature: 0.7,
-                  maxOutputTokens: 4096
-                }
-              })
-            }
-          );
-          clearTimeout(timeout);
+            // Selamlaşma veya genel sorularda tool'ları gönderme (Modelin gereksiz panel açmasını önler)
+            const shouldSendTools = !isGreetingOrChitchat && !isGeneralTechQuestion;
 
-          if (!initialRes.ok) {
-            continue;
-          }
-
-          const initialData = await initialRes.json();
-          const candidate = initialData.candidates?.[0];
-          const modelParts = candidate?.content?.parts || [];
-          const functionCallPart = modelParts.find((p: any) => p.functionCall);
-
-          let panelToSend: SidePanelData | null = null;
-          let followUpContents = [...geminiContents];
-
-          if (functionCallPart?.functionCall) {
-            const fc = functionCallPart.functionCall;
-            const args = fc.args || {};
-            let toolResult: any = { status: "ok" };
-
-            if (fc.name === "compareProducts") {
-              const comp = resolveCompareProducts(args.productNames, [], args.scenario);
-              if (comp) {
-                panelToSend = comp;
-                toolResult = { comparison: comp };
-              } else {
-                toolResult = { note: "Kullanıcının belirttiği modeller tam netleşmedi, netleştirme sorusu sor." };
+            const initialRes = await fetch(
+              `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${apiKey}`,
+              {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                signal: controller.signal,
+                body: JSON.stringify({
+                  systemInstruction: { parts: [{ text: ROBO_PENGU_SYSTEM_INSTRUCTION }] },
+                  contents: geminiContents,
+                  ...(shouldSendTools ? { tools: toolsPayload } : {}),
+                  generationConfig: {
+                    temperature: 0.7,
+                    maxOutputTokens: 4096
+                  }
+                })
               }
-            } else if (fc.name === "getTechNews") {
-              const news = resolveTechNews(args.topic);
-              panelToSend = news;
-              toolResult = { news };
-            }
+            );
+            clearTimeout(timeout);
 
-            followUpContents.push(candidate.content);
-            followUpContents.push({
-              role: "user",
-              parts: [{
-                functionResponse: {
-                  name: fc.name,
-                  response: toolResult,
-                  ...(fc.id ? { id: fc.id } : {})
+            if (!initialRes.ok) {
+              if (initialRes.status === 429 || initialRes.status >= 500) {
+                console.warn(`[RoboPengu][WARN] Model ${model} returned ${initialRes.status} (attempt ${attempt}/3). Retrying...`);
+                if (attempt < 3) {
+                  await new Promise(r => setTimeout(r, 1200 * attempt));
+                  continue;
                 }
-              }]
-            });
-          }
-
-          // Heuristik panel kontrolü: Model tool çağırmadan doğrudan metin üretse bile
-          // kullanıcı açıkça kıyaslama veya haber istediyse paneli aç
-          if (!panelToSend && !isGreetingOrChitchat && !isGeneralTechQuestion) {
-            const compCandidates = tryExtractComparisonFromMessage(message);
-            if (compCandidates) {
-              const comp = resolveCompareProducts(compCandidates);
-              if (comp) {
-                panelToSend = comp;
               }
-            } else if (isNewsQuery(message)) {
-              panelToSend = resolveTechNews("teknoloji gündemi");
+              break;
             }
-          }
 
-          // Step 2: Stream final response
-          const streamRes = await fetch(
-            `https://generativelanguage.googleapis.com/v1beta/models/${model}:streamGenerateContent?alt=sse&key=${apiKey}`,
-            {
-              method: "POST",
-              headers: { "Content-Type": "application/json" },
-              body: JSON.stringify({
-                systemInstruction: { parts: [{ text: ROBO_PENGU_SYSTEM_INSTRUCTION }] },
-                contents: followUpContents,
-                generationConfig: {
-                  temperature: 0.7,
-                  maxOutputTokens: 4096
-                }
-              })
+            const initialData = await initialRes.json().catch(() => null);
+            if (!initialData || !initialData.candidates?.[0]) {
+              console.warn(`[RoboPengu][WARN] Model ${model} returned empty candidates.`);
+              break;
             }
-          );
 
-          if (streamRes.ok && streamRes.body) {
-            const encoder = new TextEncoder();
-            const decoder = new TextDecoder();
+            const candidate = initialData.candidates[0];
+            const modelParts = candidate?.content?.parts || [];
+            const functionCallPart = modelParts.find((p: any) => p.functionCall);
 
-            // Öneri listesini KESİNLİKLE sadece kıyaslanan ürünün kategorisinden seç (TV ise TV, laptop ise laptop)
-            let recommendedCategory: string | null = null;
-            if (panelToSend && panelToSend.type === "comparison" && panelToSend.products.length > 0) {
-              recommendedCategory = panelToSend.category;
+            let panelToSend: SidePanelData | null = null;
+            let followUpContents = [...geminiContents];
+
+            if (functionCallPart?.functionCall) {
+              const fc = functionCallPart.functionCall;
+              const args = fc.args || {};
+              let toolResult: any = { status: "ok" };
+
+              if (fc.name === "compareProducts") {
+                const comp = resolveCompareProducts(args.productNames, [], args.scenario);
+                if (comp && isValidComparisonData(comp)) {
+                  panelToSend = comp;
+                  toolResult = { comparison: comp };
+                } else {
+                  console.warn(`[RoboPengu][WARN] compareProducts returned null or invalid schema for args:`, args);
+                  toolResult = {
+                    error: "Ürünler bulunamadı",
+                    note: "Bu ürünü bulamadım, ürün adını tekrar yazar mısın? 🐧"
+                  };
+                }
+              } else if (fc.name === "getTechNews") {
+                const news = resolveTechNews(args.topic);
+                if (news && isValidNewsData(news)) {
+                  panelToSend = news;
+                  toolResult = { news };
+                } else {
+                  console.warn(`[RoboPengu][WARN] getTechNews returned invalid schema for topic: ${args.topic}`);
+                  toolResult = { note: "Güncel teknoloji gelişmelerini özetle." };
+                }
+              } else if (fc.name === "getBudgetRecommendation") {
+                const budget = Number(args.budgetTL) || 30000;
+                const bRes = resolveBudgetRecommendation(budget, args.category, args.scenario);
+                if (bRes.comparison && isValidComparisonData(bRes.comparison)) {
+                  panelToSend = bRes.comparison;
+                }
+                toolResult = { recommendations: bRes.recommendations };
+              }
+
+              followUpContents.push(candidate.content);
+              followUpContents.push({
+                role: "user",
+                parts: [{
+                  functionResponse: {
+                    name: fc.name,
+                    response: toolResult,
+                    ...(fc.id ? { id: fc.id } : {})
+                  }
+                }]
+              });
             }
-            const filteredRecs = getFilteredRecommendations(recommendedCategory, 3);
 
-            const stream = new ReadableStream({
-              async start(ctrl) {
-                // 1. Panel eventi (Sadece geçerli bir panel varsa gönder)
-                if (panelToSend) {
-                  ctrl.enqueue(encoder.encode(`event: panel\ndata: ${JSON.stringify(panelToSend)}\n\n`));
+            // Heuristik panel kontrolü: Model tool çağırmadan doğrudan metin üretse bile
+            // kullanıcı açıkça kıyaslama veya haber istediyse paneli aç
+            if (!panelToSend && !isGreetingOrChitchat && !isGeneralTechQuestion) {
+              const compCandidates = tryExtractComparisonFromMessage(message);
+              if (compCandidates) {
+                const comp = resolveCompareProducts(compCandidates);
+                if (comp && isValidComparisonData(comp)) {
+                  panelToSend = comp;
                 }
-
-                // 2. Ürün önerileri (Sadece ilgili kategoride ürün varsa gönder)
-                if (filteredRecs.length > 0) {
-                  ctrl.enqueue(encoder.encode(`event: products\ndata: ${JSON.stringify(filteredRecs)}\n\n`));
+              } else if (isNewsQuery(message)) {
+                const news = resolveTechNews("teknoloji gündemi");
+                if (news && isValidNewsData(news)) {
+                  panelToSend = news;
                 }
+              }
+            }
 
-                const reader = streamRes.body!.getReader();
-                let buffer = "";
+            // Step 2: Stream final response
+            const streamRes = await fetch(
+              `https://generativelanguage.googleapis.com/v1beta/models/${model}:streamGenerateContent?alt=sse&key=${apiKey}`,
+              {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({
+                  systemInstruction: { parts: [{ text: ROBO_PENGU_SYSTEM_INSTRUCTION }] },
+                  contents: followUpContents,
+                  generationConfig: {
+                    temperature: 0.7,
+                    maxOutputTokens: 4096
+                  }
+                })
+              }
+            );
 
-                try {
-                  while (true) {
-                    const { done, value } = await reader.read();
-                    if (done) break;
-                    buffer += decoder.decode(value, { stream: true });
+            if (streamRes.ok && streamRes.body) {
+              const encoder = new TextEncoder();
+              const decoder = new TextDecoder();
 
-                    const lines = buffer.split("\n");
-                    buffer = lines.pop() || "";
+              // Öneri listesini KESİNLİKLE sadece kıyaslanan ürünün kategorisinden seç (TV ise TV, laptop ise laptop)
+              let recommendedCategory: string | null = null;
+              if (panelToSend && panelToSend.type === "comparison" && panelToSend.products.length > 0) {
+                recommendedCategory = panelToSend.category;
+              }
+              const filteredRecs = getFilteredRecommendations(recommendedCategory, 3);
 
-                    for (const line of lines) {
-                      if (line.startsWith("data: ")) {
-                        const jsonStr = line.slice(6).trim();
-                        if (jsonStr && jsonStr !== "[DONE]") {
-                          try {
-                            const parsed = JSON.parse(jsonStr);
-                            const text = parsed.candidates?.[0]?.content?.parts?.[0]?.text;
-                            if (text) {
-                              ctrl.enqueue(encoder.encode(`event: text\ndata: ${JSON.stringify(text)}\n\n`));
-                            }
-                          } catch {}
+              const stream = new ReadableStream({
+                async start(ctrl) {
+                  // 1. Panel eventi (Sadece geçerli bir panel varsa gönder)
+                  if (panelToSend) {
+                    ctrl.enqueue(encoder.encode(`event: panel\ndata: ${JSON.stringify(panelToSend)}\n\n`));
+                  }
+
+                  // 2. Ürün önerileri (Sadece ilgili kategoride ürün varsa gönder)
+                  if (filteredRecs.length > 0) {
+                    ctrl.enqueue(encoder.encode(`event: products\ndata: ${JSON.stringify(filteredRecs)}\n\n`));
+                  }
+
+                  const reader = streamRes.body!.getReader();
+                  let buffer = "";
+
+                  try {
+                    while (true) {
+                      const { done, value } = await reader.read();
+                      if (done) break;
+                      buffer += decoder.decode(value, { stream: true });
+
+                      const lines = buffer.split("\n");
+                      buffer = lines.pop() || "";
+
+                      for (const line of lines) {
+                        if (line.startsWith("data: ")) {
+                          const jsonStr = line.slice(6).trim();
+                          if (jsonStr && jsonStr !== "[DONE]") {
+                            try {
+                              const parsed = JSON.parse(jsonStr);
+                              const text = parsed.candidates?.[0]?.content?.parts?.[0]?.text;
+                              if (text) {
+                                ctrl.enqueue(encoder.encode(`event: text\ndata: ${JSON.stringify(text)}\n\n`));
+                              }
+                            } catch {}
+                          }
                         }
                       }
                     }
+                  } catch (e: any) {
+                    console.error("[RoboPengu][ERROR] SSE stream read error:", e.message);
+                  } finally {
+                    ctrl.enqueue(encoder.encode("event: done\ndata: [DONE]\n\n"));
+                    ctrl.close();
                   }
-                } catch (e) {
-                  console.error("SSE stream error:", e);
-                } finally {
-                  ctrl.enqueue(encoder.encode("event: done\ndata: [DONE]\n\n"));
-                  ctrl.close();
                 }
-              }
-            });
+              });
 
-            return new Response(stream, {
-              headers: {
-                "Content-Type": "text/event-stream; charset=utf-8",
-                "Cache-Control": "no-cache, no-transform",
-                "Connection": "keep-alive"
-              }
-            });
+              return new Response(stream, {
+                headers: {
+                  "Content-Type": "text/event-stream; charset=utf-8",
+                  "Cache-Control": "no-cache, no-transform",
+                  "Connection": "keep-alive"
+                }
+              });
+            }
+
+          } catch (err: any) {
+            console.warn(`[RoboPengu][WARN] Model ${model} error (attempt ${attempt}/3): ${err.message}`);
+            if (attempt < 3) {
+              await new Promise(r => setTimeout(r, 1200 * attempt));
+            }
           }
-
-        } catch (err: any) {
-          console.warn(`Model ${model} stream error: ${err.message}`);
         }
       }
 
       // 3. Fallback (eğer API modelleri yanıt veremezse yerel zeka ve katalog motoru devreye girer)
+      console.error("[RoboPengu][ERROR] All candidate models failed or timed out. Triggering resilient local engine.");
+
       let fallbackPanel: SidePanelData | null = null;
       let fallbackRecs: AssistantRecommendation[] = [];
       let fallbackReply = "";
@@ -1087,10 +1261,12 @@ export async function POST(req: NextRequest) {
           fallbackReply = `${message} hakkında: Donanım tercihlerinde bütçe, kullanım amacı ve performans dengesi esastır. Hangi senaryoda kullanacağını belirtirsen en doğru modeli birlikte seçebiliriz! 🐧`;
         }
       } else {
+        const isExplicitComparison = /\b(kiyasla|karsilastir|farki|vs|hangisi daha iyi)\b/i.test(normMsg);
         const compNames = tryExtractComparisonFromMessage(message);
+
         if (compNames) {
           const comp = resolveCompareProducts(compNames);
-          if (comp && comp.products.length >= 2) {
+          if (comp && isValidComparisonData(comp)) {
             fallbackPanel = comp;
             fallbackRecs = getFilteredRecommendations(comp.category, 3);
             const p1 = comp.products[0];
@@ -1103,13 +1279,19 @@ export async function POST(req: NextRequest) {
               `• **${p2.name}:** ${p2.cheapestStore}'da ₺${p2.price.toLocaleString("tr-TR")}\n\n` +
               `Detaylı teknik özellikleri ve mağaza fiyatlarını yan paneldeki tabloda inceleyebilirsin.`;
           }
+        } else if (isExplicitComparison) {
+          // Kıyaslama istendi ama ürün katalogda bulunamadı:
+          fallbackReply = "Bu ürünü bulamadım, ürün adını tekrar yazar mısın? 🐧 Aradığın özel bir bütçe veya marka varsa alternatif modeller de önerebilirim.";
         } else if (isNewsQuery(message)) {
-          fallbackPanel = resolveTechNews("teknoloji gündemi");
-          fallbackReply = `Teknoloji dünyasındaki en yeni gelişmeleri ve lansman haberlerini yan taraftaki **Teknoloji Haberleri Paneli**'nde senin için listeledim! 🐧 Merak ettiğin özel bir model veya çip varsa detaylarını sorabilirsin.`;
+          const news = resolveTechNews("teknoloji gündemi");
+          if (news && isValidNewsData(news)) {
+            fallbackPanel = news;
+            fallbackReply = `Teknoloji dünyasındaki en yeni gelişmeleri ve lansman haberlerini yan taraftaki **Teknoloji Haberleri Paneli**'nde senin için listeledim! 🐧 Merak ettiğin özel bir model veya çip varsa detaylarını sorabilirsin.`;
+          }
         }
 
         if (!fallbackReply) {
-          fallbackReply = `Teknoloji dünyasıyla ilgili merak ettiğin tüm ürünleri, mağaza fiyatlarını ve donanım özelliklerini incelemek için hazırım! 🐧 Karşılaştırmak istediğin modelleri veya aradığın bütçeyi belirtmen yeterli.`;
+          fallbackReply = "Şu anda bağlantıda küçük bir sorun yaşıyorum, birkaç saniye sonra tekrar dener misin? 🐧";
         }
       }
 
@@ -1123,9 +1305,9 @@ export async function POST(req: NextRequest) {
     });
 
   } catch (error: any) {
-    console.error("AI Assistant API Error:", error);
+    console.error("[RoboPengu][ERROR] AI Assistant API Unhandled Error:", error);
     return NextResponse.json(
-      { error: "AI Asistan yanıt veremedi. Lütfen tekrar deneyin." },
+      { error: "Şu anda bağlantıda küçük bir sorun yaşıyorum, birkaç saniye sonra tekrar dener misin? 🐧" },
       { status: 500 }
     );
   }
