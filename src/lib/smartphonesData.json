@@ -1795,7 +1795,7 @@
     "rating": 4.95,
     "epeyScore": 99,
     "reviewCount": 2500,
-    "basePrice": 118499,
+    "basePrice": 155561,
     "currency": "TL",
     "releaseYear": 2026,
     "isPopular": true,
@@ -1836,13 +1836,6 @@
       }
     ],
     "storeOffers": [
-      {
-        "storeName": "Hepsiburada",
-        "price": 118499,
-        "url": "https://www.hepsiburada.com/apple-iphone-17-pro-max-256-gb-kozmik-turuncu-p-HBCV00009Z3Z8C",
-        "inStock": true,
-        "updatedAt": "2026-09-06T18:04:58.442Z"
-      },
       {
         "storeName": "Trendyol",
         "price": 155561,
@@ -1917,7 +1910,7 @@
       },
       {
         "date": "6 Eylül 2026",
-        "price": 118499
+        "price": 155561
       }
     ],
     "specs": {
@@ -1976,7 +1969,7 @@
       }
     },
     "isLatestModel": true,
-    "price": 155250,
+    "price": 155561,
     "variants": [
       {
         "id": "apple-apple-iphone-17-pro-max-2-tb-1027080-kozmik",
@@ -2038,7 +2031,7 @@
     "rating": 4.95,
     "epeyScore": 99,
     "reviewCount": 2470,
-    "basePrice": 118499,
+    "basePrice": 144038,
     "currency": "TL",
     "releaseYear": 2026,
     "isPopular": true,
@@ -2079,13 +2072,6 @@
       }
     ],
     "storeOffers": [
-      {
-        "storeName": "Hepsiburada",
-        "price": 118499,
-        "url": "https://www.hepsiburada.com/apple-iphone-17-pro-max-256-gb-kozmik-turuncu-p-HBCV00009Z3Z8C",
-        "inStock": true,
-        "updatedAt": "2026-09-06T18:05:02.173Z"
-      },
       {
         "storeName": "Trendyol",
         "price": 144038,
@@ -2160,7 +2146,7 @@
       },
       {
         "date": "6 Eylül 2026",
-        "price": 118499
+        "price": 144038
       }
     ],
     "specs": {
@@ -2220,7 +2206,7 @@
       }
     },
     "isLatestModel": true,
-    "price": 143750,
+    "price": 144038,
     "variants": [
       {
         "id": "apple-apple-iphone-17-pro-max-1-tb-1027079-kozmik",
@@ -2282,7 +2268,7 @@
     "rating": 4.95,
     "epeyScore": 99,
     "reviewCount": 2440,
-    "basePrice": 118499,
+    "basePrice": 132515,
     "currency": "TL",
     "releaseYear": 2026,
     "isPopular": true,
@@ -2323,13 +2309,6 @@
       }
     ],
     "storeOffers": [
-      {
-        "storeName": "Hepsiburada",
-        "price": 118499,
-        "url": "https://www.hepsiburada.com/apple-iphone-17-pro-max-256-gb-kozmik-turuncu-p-HBCV00009Z3Z8C",
-        "inStock": true,
-        "updatedAt": "2026-09-06T18:05:05.893Z"
-      },
       {
         "storeName": "Trendyol",
         "price": 132515,
@@ -2404,7 +2383,7 @@
       },
       {
         "date": "6 Eylül 2026",
-        "price": 118499
+        "price": 132515
       }
     ],
     "specs": {
@@ -2465,7 +2444,7 @@
       }
     },
     "isLatestModel": true,
-    "price": 132250,
+    "price": 132515,
     "variants": [
       {
         "id": "apple-apple-iphone-17-pro-max-512-gb-1027078-kozmik",

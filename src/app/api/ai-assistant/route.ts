@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import { getStoredProducts } from "@/lib/adminData";
 import { callGeminiWithFallback } from "@/lib/ai/modelRouter";
-import { resolveCompareProducts, resolveBudgetRecommendation } from "@/lib/ai/resolvers";
+import { resolveCompareProducts, resolveBudgetRecommendation, searchProductsInCatalog } from "@/lib/ai/resolvers";
 import { checkRateLimit, validateUserMessage, flagsPromptInjection } from "@/lib/ai/safety";
 
 export const dynamic = "force-dynamic";
@@ -1188,7 +1188,37 @@ export async function POST(req: NextRequest) {
           if (panelToSend && panelToSend.type === "comparison" && panelToSend.products.length > 0) {
             recommendedCategory = panelToSend.category;
           }
-          const filteredRecs = getFilteredRecommendations(recommendedCategory, 3);
+          let filteredRecs = getFilteredRecommendations(recommendedCategory, 3);
+          if (!panelToSend && !isGreetingOrChitchat && !isGeneralTechQuestion) {
+            const words = normMsg.split(/\s+/).filter((w: string) => w.length >= 2);
+            const scored = getStoredProducts()
+              .map((p) => {
+                const pName = normalizeTr(p.name);
+                const pBrand = normalizeTr(p.brand || "");
+                const haystack = pName + " " + pBrand;
+                const matchedCount = words.filter((w: string) => haystack.includes(w)).length;
+                const matchRatio = words.length > 0 ? matchedCount / words.length : 0;
+                return { product: p, matchedCount, matchRatio };
+              })
+              .filter((entry) => entry.matchRatio >= 0.75)
+              .sort((a, b) => b.matchRatio - a.matchRatio || b.matchedCount - a.matchedCount);
+            const searched = scored.slice(0, 3).map((entry) => entry.product);
+            if (searched.length > 0) {
+              filteredRecs = searched.map((p: any) => {
+                const offers = Array.isArray(p.storeOffers) ? p.storeOffers.filter((o: any) => o.price > 0) : [];
+                return {
+                  productId: p.id,
+                  slug: p.slug || p.id,
+                  productName: p.name,
+                  category: p.category === "smartphones" ? "phones" : p.category,
+                  price: p.basePrice || offers[0]?.price || 0,
+                  image: p.image || (Array.isArray(p.images) ? p.images[0] : undefined),
+                  reason: `${p.brand} kataloğumuzdaki seçenek`,
+                  cheapestStore: offers[0]?.storeName || "En Uygun Mağaza"
+                };
+              });
+            }
+          }
           return createStreamResponse(directText, filteredRecs, panelToSend);
         }
       }
@@ -1292,12 +1322,26 @@ export async function POST(req: NextRequest) {
 
           if (!fallbackReply) {
             const allProds = getStoredProducts();
-            const words = normMsg.split(/\s+/).filter(w => w.length > 2);
-            const matchedProds = allProds.filter(p => {
-              const pName = normalizeTr(p.name);
-              const pBrand = normalizeTr(p.brand || "");
-              return words.some(w => pName.includes(w) || pBrand.includes(w));
-            }).slice(0, 3);
+            // DÜZELTME: w.length > 2 yerine >= 2, çünkü "14", "5g" gibi kritik model
+            // numaraları 2 karakter ve bunları asla silmemeliyiz.
+            const words = normMsg.split(/\s+/).filter(w => w.length >= 2);
+
+            // DÜZELTME: "herhangi biri eşleşirse kabul et" yerine, her ürün için kaç
+            // kelimenin eşleştiğini SAYIP puanlıyoruz. Sonra en az %75'i eşleşmeyen
+            // ürünleri tamamen eliyoruz — tek kelime ("pro" gibi) asla yeterli değil.
+            const scoredProds = allProds
+              .map(p => {
+                const pName = normalizeTr(p.name);
+                const pBrand = normalizeTr(p.brand || "");
+                const haystack = pName + " " + pBrand;
+                const matchedCount = words.filter(w => haystack.includes(w)).length;
+                const matchRatio = words.length > 0 ? matchedCount / words.length : 0;
+                return { product: p, matchedCount, matchRatio };
+              })
+              .filter(entry => entry.matchRatio >= 0.75) // en az %75 kelime eşleşmeli
+              .sort((a, b) => b.matchRatio - a.matchRatio || b.matchedCount - a.matchedCount);
+
+            const matchedProds = scoredProds.slice(0, 3).map(entry => entry.product);
 
             if (matchedProds.length > 0) {
               fallbackRecs = matchedProds.map(p => {

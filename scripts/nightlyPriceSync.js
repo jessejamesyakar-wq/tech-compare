@@ -104,7 +104,18 @@ function validateProductMatch(productName, rawSlug) {
   const isTSlug = [...slugTokens].some(t => /^\d+t$/i.test(t));
   if (isTName !== isTSlug) return false;
 
-  // 3. Model Numarası / Kodu Kontrolü (örn: 15, 14, 16, x6, s24, magic6)
+  // 3. Depolama Kapasitesi Doğrulaması (256GB vs 512GB vs 1TB vs 2TB karışmasını kesin önler)
+  const nameStorageMatch = normName.match(/(\d+)[\s-]*(gb|tb)/i);
+  const slugStorageMatch = rawSlug.toLowerCase().match(/(\d+)[\s-]*(gb|tb)/i);
+  if (nameStorageMatch && slugStorageMatch) {
+    const nameStorage = (nameStorageMatch[1] + nameStorageMatch[2]).toLowerCase();
+    const slugStorage = (slugStorageMatch[1] + slugStorageMatch[2]).toLowerCase();
+    if (nameStorage !== slugStorage) {
+      return false; // Farklı depolama varyantı!
+    }
+  }
+
+  // 4. Model Numarası / Kodu Kontrolü (örn: 15, 14, 16, x6, s24, magic6)
   const stopWords = new Set([
     'apple', 'samsung', 'xiaomi', 'vivo', 'oppo', 'poco', 'honor', 'realme', 'huawei', 'google', 'nothing', 'redmi',
     'galaxy', 'phone', 'akilli', 'akıllı', 'cep', 'telefonu', '5g', '4g', 'lte', 'plus', 'ultra', 'pro', 'max', 'mini', 'fe', 'gb', 'note', 'nord', 'series'

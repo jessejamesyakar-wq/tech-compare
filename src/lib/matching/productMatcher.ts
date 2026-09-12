@@ -116,7 +116,11 @@ export class ProductMatcher {
       if (v.includes('pro') && !candVariants.has(v)) variantConflict = true;
       if (v.includes('ultra') && !candVariants.has(v)) variantConflict = true;
       if (v.includes('max') && !candVariants.has(v)) variantConflict = true;
-      if (v.includes('gb') && !candVariants.has(v)) variantConflict = true;
+      if ((v.includes('gb') || v.includes('tb')) && !candVariants.has(v)) variantConflict = true;
+    }
+
+    for (const v of candVariants) {
+      if ((v.includes('gb') || v.includes('tb')) && !canVariants.has(v)) variantConflict = true;
     }
 
     if (variantConflict) {

@@ -14,14 +14,77 @@ export interface ResolverResult<T> {
   message?: string;
 }
 
+export function searchProductsInCatalog(
+  query: string,
+  limit: number = 3
+): any[] {
+  if (!query || typeof query !== "string") return [];
+  const catalog = getStoredProducts();
+  const normQuery = query.toLocaleLowerCase("tr-TR").trim();
+  const tokens = normQuery.split(/\s+/).filter((t) => t.length >= 2);
+  if (tokens.length === 0) return [];
+
+  const genericTokens = new Set([
+    "pro", "max", "ultra", "plus", "mini", "air", "lite", "se", "5g", "4g",
+    "smart", "series", "gb", "tb", "inc", "inch", "hz", "oled", "tv", "telefon"
+  ]);
+  const keyTokens = tokens.filter((t) => !genericTokens.has(t));
+
+  const scored: Array<{ product: any; score: number }> = [];
+
+  for (const p of catalog) {
+    const pName = (p.name || "").toLocaleLowerCase("tr-TR");
+    const pBrand = (p.brand || "").toLocaleLowerCase("tr-TR");
+    const combined = `${pBrand} ${pName}`;
+
+    let score = 0;
+    if (pName.includes(normQuery)) score += 200;
+    else if (combined.includes(normQuery)) score += 150;
+
+    let matchedKeyTokens = 0;
+    let matchedTotalTokens = 0;
+
+    for (const tok of tokens) {
+      if (combined.includes(tok)) {
+        matchedTotalTokens++;
+        if (!genericTokens.has(tok)) {
+          matchedKeyTokens++;
+          score += 40;
+        } else {
+          score += 10;
+        }
+      }
+    }
+
+    if (keyTokens.length > 0 && matchedKeyTokens === 0) {
+      continue;
+    }
+
+    if (keyTokens.length > 1 && matchedKeyTokens >= keyTokens.length) {
+      score += 60;
+    }
+
+    const matchRatio = matchedTotalTokens / tokens.length;
+    score += Math.round(matchRatio * 50);
+
+    if (score >= 40) {
+      scored.push({ product: p, score });
+    }
+  }
+
+  scored.sort((a, b) => b.score - a.score);
+  return scored.slice(0, limit).map((s) => s.product);
+}
+
 function findProductByNameOrId(products: any[], nameOrId: string) {
   if (!nameOrId || typeof nameOrId !== "string") return null;
   const normalized = nameOrId.toLocaleLowerCase("tr-TR").trim();
-  return (
+  const direct =
     products.find((p) => p.id === nameOrId || p.slug === nameOrId) ??
-    products.find((p) => p.name.toLocaleLowerCase("tr-TR").includes(normalized)) ??
-    null
-  );
+    products.find((p) => p.name.toLocaleLowerCase("tr-TR").includes(normalized));
+  if (direct) return direct;
+  const searched = searchProductsInCatalog(nameOrId, 1);
+  return searched[0] ?? null;
 }
 
 export function resolveCompareProducts(
