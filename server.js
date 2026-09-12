@@ -13,25 +13,56 @@ app.use(express.json());
 app.use(express.static("public"));
 
 // Google Gemini API Bağlantısı
-const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
+const apiKey = process.env.GEMINI_API_KEY;
+const genAI = new GoogleGenerativeAI(apiKey);
+
+// Model listesi: Ortam değişkeni veya resmi kararlı modeller (öncelik: 3.6-flash, 2.5-flash, 1.5-flash)
+const PRIMARY_MODEL = process.env.GEMINI_MODEL || "gemini-3.6-flash";
+
+const SYSTEM_INSTRUCTION = `Sen RoboPengu'sun; aceleetme'nin tarafsız ve uzman baş teknoloji danışmanısın. Kullanıcılar telefon, TV veya donanım sorduğunda ekran paneli (nits/Hz), işlemci mimarisi, kamera sensörleri, şarj/batarya ve fiyat/performans dengesini doğrudan kıyasla. Asla kararsız kalma; kullanım amacına göre kesin bir kazanan belirle. Yanıtları temiz Markdown başlıkları ve maddeleriyle sun.`;
 
 app.post("/api/chat", async (req, res) => {
-  const { prompt } = req.body;
+  const { prompt, message } = req.body || {};
+  const userPrompt = prompt || message;
 
-  if (!prompt) {
+  if (!userPrompt) {
     return res.status(400).json({ error: "Lütfen bir soru belirtin." });
   }
 
-  try {
-    // En kararlı ve hızlı model: gemini-1.5-flash
-    const model = genAI.getGenerativeModel({
-      model: "gemini-1.5-flash",
-      systemInstruction: `Sen RoboPengu'sun; aceleetme'nin tarafsız ve uzman baş teknoloji danışmanısın. Kullanıcı telefon veya donanım sorduğunda ekran, işlemci, kamera ve fiyat dengesini kıyasla; asla kararsız kalma, kullanım amacına göre kesin bir kazanan belirle. Yanıtlarını temiz Markdown başlıkları ve maddeleriyle sun.`,
+  if (!apiKey || apiKey.includes("senin_google_api_anahtarin")) {
+    return res.status(500).json({
+      error: "GEMINI_API_KEY .env dosyasında tanımlı değil veya geçersiz. Lütfen geçerli bir Google Gemini API anahtarı ekleyin."
     });
+  }
 
-    const result = await model.generateContentStream(prompt);
+  try {
+    // Model tanımlama (Resmi ve kararlı sürüm, 404 durumunda otomatik fallback)
+    const candidateModels = [PRIMARY_MODEL, "gemini-1.5-flash", "gemini-2.5-flash", "gemini-flash-latest"];
+    let result = null;
+    let lastError = null;
 
-    // Canlı Akış (Streaming) Başlıkları
+    for (const modelName of candidateModels) {
+      try {
+        const model = genAI.getGenerativeModel({
+          model: modelName,
+          systemInstruction: SYSTEM_INSTRUCTION,
+        });
+        result = await model.generateContentStream(userPrompt);
+        if (result && result.stream) break;
+      } catch (err) {
+        lastError = err;
+        if (err.message && (err.message.includes("404") || err.message.includes("not found") || err.message.includes("no longer available"))) {
+          continue;
+        }
+        throw err;
+      }
+    }
+
+    if (!result || !result.stream) {
+      throw lastError || new Error("Model akışı başlatılamadı.");
+    }
+
+    // Canlı Akış (Streaming / SSE) Başlıkları
     res.setHeader("Content-Type", "text/event-stream; charset=utf-8");
     res.setHeader("Cache-Control", "no-cache, no-transform");
     res.setHeader("Connection", "keep-alive");
@@ -42,7 +73,7 @@ app.post("/api/chat", async (req, res) => {
       res.write(chunkText);
       if (typeof res.flush === "function") res.flush();
     }
-    
+
     res.end();
   } catch (error) {
     console.error("RoboPengu API Hatası:", error);
