@@ -101,12 +101,73 @@ async function callSingleModel(
   }
 }
 
+async function callOpenRouter(
+  options: ModelCallOptions,
+  openRouterApiKey: string
+): Promise<ModelCallResult> {
+  try {
+    const messages: any[] = [];
+    if (options.systemInstruction) {
+      messages.push({ role: "system", content: options.systemInstruction });
+    }
+    for (const c of options.contents || []) {
+      const role = c.role === "model" || c.role === "assistant" ? "assistant" : "user";
+      const text = c.parts?.map((p: any) => p.text || "").join("\n") || "";
+      if (text) {
+        messages.push({ role, content: text });
+      }
+    }
+
+    const res = await fetch("https://openrouter.ai/api/v1/chat/completions", {
+      method: "POST",
+      headers: {
+        "Authorization": `Bearer ${openRouterApiKey}`,
+        "HTTP-Referer": process.env.SITE_URL || "https://aceleetme.tech",
+        "X-Title": process.env.SITE_NAME || "aceleetme",
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify({
+        model: "anthropic/claude-3.5-sonnet",
+        messages,
+        temperature: 0.3
+      })
+    });
+
+    if (res.ok) {
+      const json = await res.json();
+      const content = json.choices?.[0]?.message?.content || "";
+      return {
+        ok: true,
+        data: {
+          candidates: [
+            {
+              content: {
+                parts: [{ text: content }]
+              }
+            }
+          ]
+        },
+        modelUsed: "anthropic/claude-3.5-sonnet"
+      };
+    }
+  } catch (err) {
+    console.error("[OpenRouter] Call error:", err);
+  }
+  return { ok: false };
+}
+
 export async function callGeminiWithFallback(
   options: ModelCallOptions,
   apiKey: string = process.env.GEMINI_API_KEY ?? ""
 ): Promise<ModelCallResult> {
+  const openRouterKey = process.env.OPENROUTER_API_KEY;
+  if (openRouterKey && !openRouterKey.includes("senin-openrouter-anahtarin") && openRouterKey.trim().length > 10) {
+    const orResult = await callOpenRouter(options, openRouterKey);
+    if (orResult.ok) return orResult;
+  }
+
   if (!apiKey) {
-    return { ok: false, error: "GEMINI_API_KEY tanımlı değil (env eksik)." };
+    return { ok: false, error: "GEMINI_API_KEY veya OPENROUTER_API_KEY tanımlı değil." };
   }
 
   const attemptLog: string[] = [];

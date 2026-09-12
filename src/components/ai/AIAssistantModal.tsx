@@ -275,7 +275,7 @@ export function AIAssistantModal({ isOpen, onClose, initialQuery = '' }: AIAssis
       id: 'welcome',
       role: 'assistant',
       content:
-        "Merhaba! Ben RoboPengu, TechKıyas'ın tarafsız ve uzman baş teknoloji danışmanıyım! 🐧\n\nTelefon, TV, laptop, tablet ve tüm teknoloji ürünleri hakkında tarafsız karşılaştırmalar yapabilir, en ucuz mağaza fiyatlarını çıkarabilir veya yeni nesil donanımlar ile teknoloji trendlerini konuşabiliriz.\n\nNasıl yardımcı olabilirim?",
+        "Merhaba! Ben RoboPengu, aceleetme'nin tarafsız ve uzman baş teknoloji danışmanıyım! 🐧\n\nTelefon, TV, laptop, tablet ve tüm teknoloji ürünleri hakkında tarafsız karşılaştırmalar yapabilir, en ucuz mağaza fiyatlarını çıkarabilir veya acele etmeden en doğru kararı vermen için donanımları kıyaslayabilirim.\n\nNasıl yardımcı olabilirim?",
     }
   ]);
   const [input, setInput] = useState('');
@@ -341,7 +341,7 @@ export function AIAssistantModal({ isOpen, onClose, initialQuery = '' }: AIAssis
         id: 'welcome',
         role: 'assistant',
         content:
-          "Merhaba! Ben RoboPengu, TechKıyas'ın tarafsız ve uzman baş teknoloji danışmanıyım! 🐧\n\nTelefon, TV, laptop, tablet ve tüm teknoloji ürünleri hakkında tarafsız karşılaştırmalar yapabilir, en ucuz mağaza fiyatlarını çıkarabilir veya yeni nesil donanımlar ile teknoloji trendlerini konuşabiliriz.\n\nNasıl yardımcı olabilirim?",
+          "Merhaba! Ben RoboPengu, aceleetme'nin tarafsız ve uzman baş teknoloji danışmanıyım! 🐧\n\nTelefon, TV, laptop, tablet ve tüm teknoloji ürünleri hakkında tarafsız karşılaştırmalar yapabilir, en ucuz mağaza fiyatlarını çıkarabilir veya acele etmeden en doğru kararı vermen için donanımları kıyaslayabilirim.\n\nNasıl yardımcı olabilirim?",
       }
     ]);
     try {
@@ -581,7 +581,7 @@ export function AIAssistantModal({ isOpen, onClose, initialQuery = '' }: AIAssis
     },
     {
       label: '📈 Fiyat Takip Grafiği',
-      prompt: 'TechKıyas sitesindeki 6 aylık fiyat geçmişi grafiği ve fiyat alarmı nasıl çalışır?',
+      prompt: 'aceleetme sitesindeki 6 aylık fiyat geçmişi grafiği ve fiyat alarmı nasıl çalışır?',
     },
     {
       label: '📰 Teknoloji Gündemi',

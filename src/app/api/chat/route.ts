@@ -1,97 +1,135 @@
-import { GoogleGenerativeAI, HarmCategory, HarmBlockThreshold } from "@google/generative-ai";
-
-const apiKey = process.env.GEMINI_API_KEY || "";
-const genAI = new GoogleGenerativeAI(apiKey);
-
 export async function POST(req: Request) {
   try {
     const body = await req.json().catch(() => ({}));
     const prompt = body.prompt || body.message;
     const history = body.history || [];
+    const modelChoice = body.modelChoice;
 
     if (!prompt || typeof prompt !== "string" || !prompt.trim()) {
-      return new Response(JSON.stringify({ error: "Prompt eksik!" }), {
+      return new Response(JSON.stringify({ error: "Lütfen bir ürün veya soru belirtin." }), {
         status: 400,
         headers: { "Content-Type": "application/json" }
       });
     }
 
+    const apiKey = process.env.OPENROUTER_API_KEY;
     if (!apiKey) {
       return new Response(
-        JSON.stringify({ error: "GEMINI_API_KEY ortam değişkeni tanımlı değil!" }),
+        JSON.stringify({ error: "OPENROUTER_API_KEY ortam değişkeni tanımlı değil!" }),
         { status: 500, headers: { "Content-Type": "application/json" } }
       );
     }
 
-    // Tek ve yetkili model: Gemini 3.8 Flash
-    const model = genAI.getGenerativeModel({
-      model: "gemini-3.8-flash", // En akıllı, hızlı ve yetenekli tek model
-      systemInstruction: `Sen RoboPengu'sun; TechKıyas platformunun tarafsız, esprili ve uzman baş teknoloji danışmanısın. Maskotun olan sevimli robot penguen kimliğini korursun ama donanım söz konusu olduğunda tam bir mühendissin.
+    // Varsayılan model: Claude 3.5 Sonnet
+    const selectedModel = modelChoice || "anthropic/claude-3.5-sonnet";
 
-GÖREVLERİN VE KURALLARIN:
-1. NET VE TARAFSIZ KIYASLAMA: İki cihaz sorulduğunda (Örn: Redmi Note 14 Pro vs Oppo A6 Pro 5G) boş laf etme. Doğrudan Ekran Paneli (nits/Hz), İşlemci/Yonga Seti, Kamera Sensörü, Batarya/Hızlı Şarj ve Fiyat/Performans dengesini kıyasla.
-2. NET KAZANAN BELİRLE: Kullanıcıyı kararsız bırakma! "Kamera ve günlük kullanım için X, saf işlem gücü ve oyun için Y önde" diyerek kesin sonuca bağla.
-3. KULLANICI DOSTU ANLATIM: Derin teknik terimleri (OLED subpixel, ISP, nanometre vb.) son kullanıcının anlayacağı pratik faydaya dönüştür.
-4. FORMATLAMA: Yanıtlarını her zaman temiz Markdown başlıkları, madde imleri ve kalın vurgularla ver. Asla tek bir devasa paragraf halinde yazma.
-5. DİL: Kullanıcı hangi dilde sorarsa (Türkçe/İngilizce) o dilde akıcı, samimi ama profesyonel yanıt ver.`,
-      // Marka ve donanım adlarının güvenlik filtresine takılmasını önlüyoruz:
-      safetySettings: [
-        { category: HarmCategory.HARM_CATEGORY_HARASSMENT, threshold: HarmBlockThreshold.BLOCK_NONE },
-        { category: HarmCategory.HARM_CATEGORY_HATE_SPEECH, threshold: HarmBlockThreshold.BLOCK_NONE },
-        { category: HarmCategory.HARM_CATEGORY_SEXUALLY_EXPLICIT, threshold: HarmBlockThreshold.BLOCK_NONE },
-        { category: HarmCategory.HARM_CATEGORY_DANGEROUS_CONTENT, threshold: HarmBlockThreshold.BLOCK_NONE },
-      ],
-      generationConfig: {
-        temperature: 0.4, // Donanım verilerinde tutarlılık ve doğruluk için düşük ısı
-        maxOutputTokens: 2048,
-      }
-    });
+    const systemMessage = {
+      role: "system",
+      content: `Sen RoboPengu'sun; aceleetme'nin tarafsız ve uzman baş teknoloji danışmanısın.
+KİMLİĞİN VE ÇALIŞMA KURALLARIN:
+1. Sen aceleetme platformunun akıllı asistanısın. Amacın kullanıcıya acele etmeden, en doğru donanım tercihini yaptırmak.
+2. Telefon, TV, bilgisayar veya çevre birimi sorulduğunda ekran (panel türü/nits/Hz), işlemci mimarisi, kamera donanımı, batarya/şarj hızı ve fiyat/performans dengesini doğrudan kıyasla.
+3. Kullanıcıyı kararsız bırakma; kullanım amacına göre (örn: 'Oyun ve saf performans için X, uzun pil ömrü ve ekran kalitesi için Y') kesin bir kazanan belirle.
+4. Teknik jargonu son kullanıcının gündelik yaşamda hissedeceği pratik faydalara dönüştürerek açıkla.
+5. Temiz ve okunaklı Markdown başlıkları ve maddeleri kullan.`
+    };
 
-    // Sohbet geçmişini modele aktarma (SDK formatı: role 'user' | 'model', parts: [{ text }])
     const formattedHistory = Array.isArray(history)
       ? history
           .filter((h: any) => h && h.content && typeof h.content === "string")
           .map((h: any) => ({
-            role: h.role === "assistant" || h.role === "model" ? "model" : "user",
-            parts: [{ text: h.content }]
+            role: h.role === "assistant" || h.role === "model" ? "assistant" : "user",
+            content: h.content
           }))
       : [];
 
-    const chat = model.startChat({
-      history: formattedHistory
+    const messages = [
+      systemMessage,
+      ...formattedHistory,
+      { role: "user", content: prompt.trim() }
+    ];
+
+    const openRouterRes = await fetch("https://openrouter.ai/api/v1/chat/completions", {
+      method: "POST",
+      headers: {
+        "Authorization": `Bearer ${apiKey}`,
+        "HTTP-Referer": process.env.SITE_URL || "https://aceleetme.tech",
+        "X-Title": process.env.SITE_NAME || "aceleetme",
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify({
+        model: selectedModel,
+        messages: messages,
+        stream: true,
+        temperature: 0.3
+      })
     });
 
-    // STREAMING ÇAĞRISI: Boş balon kalmasını imkansız kılan kısım
-    const result = await chat.sendMessageStream(prompt.trim());
+    if (!openRouterRes.ok) {
+      const errText = await openRouterRes.text();
+      return new Response(JSON.stringify({ error: `OpenRouter Hatası: ${errText}` }), {
+        status: openRouterRes.status,
+        headers: { "Content-Type": "application/json" }
+      });
+    }
 
-    // Yanıtı frontend'e canlı akıtacak stream köprüsü
+    if (!openRouterRes.body) {
+      return new Response(JSON.stringify({ error: "OpenRouter body eksik." }), {
+        status: 500,
+        headers: { "Content-Type": "application/json" }
+      });
+    }
+
+    const reader = openRouterRes.body.getReader();
+    const decoder = new TextDecoder("utf-8");
     const encoder = new TextEncoder();
-    const readableStream = new ReadableStream({
+
+    const stream = new ReadableStream({
       async start(controller) {
+        let buffer = "";
         try {
-          for await (const chunk of result.stream) {
-            const chunkText = chunk.text();
-            if (chunkText) {
-              controller.enqueue(encoder.encode(chunkText));
+          while (true) {
+            const { done, value } = await reader.read();
+            if (done) break;
+
+            buffer += decoder.decode(value, { stream: true });
+            const lines = buffer.split("\n");
+            buffer = lines.pop() || "";
+
+            for (const line of lines) {
+              const trimmed = line.trim();
+              if (!trimmed || trimmed.includes("[DONE]")) continue;
+              if (trimmed.startsWith("data: ")) {
+                try {
+                  const data = JSON.parse(trimmed.slice(6));
+                  const token = data.choices?.[0]?.delta?.content || "";
+                  if (token) {
+                    controller.enqueue(encoder.encode(token));
+                  }
+                } catch {
+                  // JSON parse parçalı chunk
+                }
+              }
             }
           }
           controller.close();
         } catch (err) {
           controller.error(err);
         }
-      },
+      }
     });
 
-    return new Response(readableStream, {
+    return new Response(stream, {
       headers: {
-        "Content-Type": "text/plain; charset=utf-8",
-        "Transfer-Encoding": "chunked",
-        "Cache-Control": "no-cache",
-      },
+        "Content-Type": "text/event-stream; charset=utf-8",
+        "Cache-Control": "no-cache, no-transform",
+        "Connection": "keep-alive",
+        "X-Accel-Buffering": "no"
+      }
     });
 
   } catch (error: any) {
-    console.error("RoboPengu API Hatası:", error);
+    console.error("aceleetme API Hatası:", error);
     return new Response(
       JSON.stringify({
         error: "RoboPengu bağlantı kurarken bir aksaklık yaşadı: " + (error?.message || "Bilinmeyen hata")
