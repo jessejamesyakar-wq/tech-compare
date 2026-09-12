@@ -993,7 +993,7 @@ export async function POST(req: NextRequest) {
       const candidate = geminiRes.data.candidates[0];
       const modelParts = candidate?.content?.parts || [];
       const functionCallPart = modelParts.find((p: any) => p.functionCall);
-      const modelUsed = geminiRes.modelUsed || "gemini-2.5-flash";
+      const modelUsed = geminiRes.modelUsed || "gemini-3.8-flash";
 
       let panelToSend: SidePanelData | null = null;
       let followUpContents = [...geminiContents];

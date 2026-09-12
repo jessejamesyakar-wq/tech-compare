@@ -23,9 +23,9 @@ export async function POST(req: Request) {
       );
     }
 
-    // 2026'nın en dengeli, multimodal ve akıllı üretim modeli
+    // Tek ve yetkili model: Gemini 3.8 Flash
     const model = genAI.getGenerativeModel({
-      model: "gemini-2.5-flash", // Hız + Yüksek Zeka dengesi için en kararlı model
+      model: "gemini-3.8-flash", // En akıllı, hızlı ve yetenekli tek model
       systemInstruction: `Sen RoboPengu'sun; TechKıyas platformunun tarafsız, esprili ve uzman baş teknoloji danışmanısın. Maskotun olan sevimli robot penguen kimliğini korursun ama donanım söz konusu olduğunda tam bir mühendissin.
 
 GÖREVLERİN VE KURALLARIN:

@@ -20,12 +20,9 @@ export interface ModelCallResult {
   error?: string;
 }
 
-// Priority order: gemini-2.5-flash is the primary model (fast, intelligent, balanced).
-// gemini-2.5-flash-lite and gemini-2.5-pro act as resilient fallbacks.
+// Tek yetkili yapay zeka modeli: Gemini 3.8 Flash
 const MODEL_PRIORITY = [
-  "gemini-2.5-flash", // 2026'nın en dengeli, hızlı ve kararlı üretim modeli
-  "gemini-2.5-flash-lite", // Düşük gecikmeli hafif alternatif
-  "gemini-2.5-pro", // İleri seviye muhakeme yedeği
+  "gemini-3.8-flash", // En akıllı, hızlı ve gelişmiş tek model
 ];
 
 const MAX_RETRIES_PER_MODEL = 2;
