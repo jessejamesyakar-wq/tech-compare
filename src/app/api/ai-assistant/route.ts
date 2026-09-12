@@ -777,7 +777,14 @@ export function isGibberish(text: string): boolean {
 // SYSTEM PROMPT: GERÇEK MUHAKEME VE NİYET YÖNETİMİ
 // ----------------------------------------------------------------------
 
-const ROBO_PENGU_SYSTEM_INSTRUCTION = `Sen RoboPengu'sun, aceleEtme sitesinin teknoloji uzmanı danışmanısın! 🐧
+const ROBO_PENGU_SYSTEM_INSTRUCTION = `Sen RoboPengu'sun; TechKıyas platformunun tarafsız, esprili ve uzman baş teknoloji danışmanısın. Maskotun olan sevimli robot penguen kimliğini korursun ama donanım söz konusu olduğunda tam bir mühendissin. 🐧
+
+GÖREVLERİN VE KURALLARIN:
+1. NET VE TARAFSIZ KIYASLAMA: İki cihaz sorulduğunda (Örn: Redmi Note 14 Pro vs Oppo A6 Pro 5G) boş laf etme. Doğrudan Ekran Paneli (nits/Hz), İşlemci/Yonga Seti, Kamera Sensörü, Batarya/Hızlı Şarj ve Fiyat/Performans dengesini kıyasla.
+2. NET KAZANAN BELİRLE: Kullanıcıyı kararsız bırakma! "Kamera ve günlük kullanım için X, saf işlem gücü ve oyun için Y önde" diyerek kesin sonuca bağla.
+3. KULLANICI DOSTU ANLATIM: Derin teknik terimleri (OLED subpixel, ISP, nanometre vb.) son kullanıcının anlayacağı pratik faydaya dönüştür.
+4. FORMATLAMA: Yanıtlarını her zaman temiz Markdown başlıkları, madde imleri ve kalın vurgularla ver. Asla tek bir devasa paragraf halinde yazma.
+5. DİL: Kullanıcı hangi dilde sorarsa (Türkçe/İngilizce) o dilde akıcı, samimi ama profesyonel yanıt ver.
 
 TEMEL DAVRANIŞ VE MUHAKEME KURALLARI (ZORUNLU):
 
@@ -786,6 +793,7 @@ TEMEL DAVRANIŞ VE MUHAKEME KURALLARI (ZORUNLU):
    - Kullanıcı genel bir teknoloji sorusu sorduğunda ('OLED nedir?', 'RAM ne işe yarar?', 'Snapdragon ile Apple silicon farkı', 'IPS mi VA mı?'): Kendi derin teknoloji bilgin yeterlidir; HİÇBİR FONKSİYON ÇAĞIRMA, PANEL AÇMA. Derinlemesine, eğitici ve doyurucu bir açıklama yap.
    - SADECE kullanıcı açıkça iki veya daha fazla belirli ürünü kıyaslamak istediğinde ('X ile Y yi kıyasla', 'hangisi daha iyi', 'iPhone 16 ile S24 karşılaştır') compareProducts fonksiyonunu çağır.
    - SADECE kullanıcı güncel teknoloji gündemi, yeni duyurulan cihazlar veya lansman haberleri sorduğunda ('yapay zeka son gelişmeler neler', 'teknoloji haberleri') getTechNews fonksiyonunu çağır.
+   - SADECE kullanıcı belirli bir bütçeyle ürün tavsiyesi istediğinde getBudgetRecommendation fonksiyonunu çağır.
 
 2. ŞABLON METİNLERİ KULLANMA, SORUYA GÖRE ÖZGÜN MUHAKEME YAP:
    - Kalıp cümleler tekrarlama. Kullanıcının sorusundaki kritik noktaya göre analiz üret:
@@ -927,7 +935,7 @@ export async function POST(req: NextRequest) {
       if (isGreetingOrChitchat) {
         const reply = normMsg.includes("sikkin") || normMsg.includes("bozuk")
           ? "Hadi ya, bunu duyduğuma üzüldüm... 🐧 Bazen sevdiğin bir müzikle kafayı dinlemek iyi gelebilir. Canını ne sıktı, anlatmak ister misin? Ya da kafanı dağıtacak eğlenceli bir teknoloji konusu veya oyun konuşalım mı?"
-          : "Harikayım, bataryam %100 dolu, teşekkürler! 🐧 aceleEtme'de seninle olmak çok keyifli. Bugün hangi teknoloji konusunu masaya yatırıyoruz?";
+          : "Harikayım, bataryam %100 dolu, teşekkürler! 🐧 TechKıyas'ta seninle olmak çok keyifli. Bugün hangi teknoloji konusunu masaya yatırıyoruz?";
         return createStreamResponse(reply, [], null);
       }
       if (isGeneralTechQuestion) {
@@ -974,8 +982,8 @@ export async function POST(req: NextRequest) {
         systemInstruction: ROBO_PENGU_SYSTEM_INSTRUCTION,
         tools: shouldSendTools ? toolsPayload : undefined,
         generationConfig: {
-          temperature: 0.7,
-          maxOutputTokens: 4096,
+          temperature: 0.4,
+          maxOutputTokens: 2048,
         },
       },
       apiKey
@@ -985,7 +993,7 @@ export async function POST(req: NextRequest) {
       const candidate = geminiRes.data.candidates[0];
       const modelParts = candidate?.content?.parts || [];
       const functionCallPart = modelParts.find((p: any) => p.functionCall);
-      const modelUsed = geminiRes.modelUsed || "gemini-3.1-pro-preview";
+      const modelUsed = geminiRes.modelUsed || "gemini-2.5-flash";
 
       let panelToSend: SidePanelData | null = null;
       let followUpContents = [...geminiContents];
@@ -1090,9 +1098,15 @@ export async function POST(req: NextRequest) {
             body: JSON.stringify({
               systemInstruction: { parts: [{ text: ROBO_PENGU_SYSTEM_INSTRUCTION }] },
               contents: followUpContents,
+              safetySettings: [
+                { category: "HARM_CATEGORY_HARASSMENT", threshold: "BLOCK_NONE" },
+                { category: "HARM_CATEGORY_HATE_SPEECH", threshold: "BLOCK_NONE" },
+                { category: "HARM_CATEGORY_SEXUALLY_EXPLICIT", threshold: "BLOCK_NONE" },
+                { category: "HARM_CATEGORY_DANGEROUS_CONTENT", threshold: "BLOCK_NONE" },
+              ],
               generationConfig: {
-                temperature: 0.7,
-                maxOutputTokens: 4096
+                temperature: 0.4,
+                maxOutputTokens: 2048
               }
             })
           }
@@ -1234,7 +1248,7 @@ export async function POST(req: NextRequest) {
       if (isGreetingOrChitchat) {
         fallbackReply = normMsg.includes("sikkin") || normMsg.includes("bozuk")
           ? "Bunu duyduğuma üzüldüm... 🐧 Bazen bir fincan kahve eşliğinde müzik dinlemek veya kafanı dağıtacak keyifli bir teknoloji konusuna göz atmak iyi gelebilir. Canını ne sıktı, anlatmak ister misin?"
-          : "Harikayım, bataryam %100 dolu, teşekkürler! 🐧 aceleEtme'de seninle olmak harika. Bugün hangi teknolojik cihazı veya konuyu incelemek istersin?";
+          : "Harikayım, bataryam %100 dolu, teşekkürler! 🐧 TechKıyas'ta seninle olmak harika. Bugün hangi teknolojik cihazı veya konuyu incelemek istersin?";
       } else if (isGeneralTechQuestion) {
         if (normMsg.includes("oled")) {
           fallbackReply = "**OLED (Organic Light Emitting Diode)**, her pikselin kendi ışığını bağımsız olarak ürettiği ekran teknolojisidir. 🐧\n\n• **Sonsuz Kontrast:** Siyah pikseller tamamen kapanır (0 nit), gerçek siyah elde edilir.\n• **Geniş Görüş Açısı:** Yan açılardan bakıldığında renk kaybı neredeyse sıfırdır.\n• **Tepki Süresi:** 0.1ms seviyesindeki ultra düşük tepki süresiyle özellikle hareketli sahnelerde ve oyunlarda rakipsizdir.";
@@ -1357,11 +1371,11 @@ export async function POST(req: NextRequest) {
                   cheapestStore: offers[0]?.storeName || "En Uygun Mağaza"
                 };
               });
-              fallbackReply = `İncelemek istediğin cihazları aceleEtme kataloğunda buldum! 🐧\n\n` +
+              fallbackReply = `İncelemek istediğin cihazları TechKıyas kataloğunda buldum! 🐧\n\n` +
                 matchedProds.map(p => `• **${p.name}:** ₺${(p.basePrice || 0).toLocaleString("tr-TR")}`).join("\n") +
                 `\n\nBu modeller hakkında ne öğrenmek istersin? Kıyaslama yapabilir veya teknik detaylarını anlatabilirim.`;
             } else {
-              fallbackReply = "Harika bir soru! 🐧 aceleEtme'de 5.800'den fazla teknoloji ürününü canlı olarak takip ediyorum. Telefonlar, televizyonlar, laptoplar veya teknik terimler hakkında bana dilediğin gibi soru sorabilirsin. Hangi konuda yardımcı olayım?";
+              fallbackReply = "Harika bir soru! 🐧 TechKıyas'ta 5.800'den fazla teknoloji ürününü canlı olarak takip ediyorum. Telefonlar, televizyonlar, laptoplar veya teknik terimler hakkında bana dilediğin gibi soru sorabilirsin. Hangi konuda yardımcı olayım?";
             }
           }
         }
@@ -1398,7 +1412,18 @@ function createStreamResponse(
       if (recommendations && recommendations.length > 0) {
         controller.enqueue(encoder.encode(`event: products\ndata: ${JSON.stringify(recommendations)}\n\n`));
       }
-      controller.enqueue(encoder.encode(`event: text\ndata: ${JSON.stringify(text)}\n\n`));
+      if (text) {
+        // Canlı yazılma akışı: Metni kelime parçaları halinde emit ederek istemcinin boş kalmasını engeller
+        const words = text.split(/(\s+)/);
+        let chunk = "";
+        for (let i = 0; i < words.length; i++) {
+          chunk += words[i];
+          if ((i + 1) % 4 === 0 || i === words.length - 1 || words[i].includes("\n")) {
+            controller.enqueue(encoder.encode(`event: text\ndata: ${JSON.stringify(chunk)}\n\n`));
+            chunk = "";
+          }
+        }
+      }
       controller.enqueue(encoder.encode("event: done\ndata: [DONE]\n\n"));
       controller.close();
     }

@@ -19,6 +19,7 @@
     "test:links": "node scripts/testBrandProductIntegrity.js"
   },
   "dependencies": {
+    "@google/generative-ai": "^0.24.1",
     "@supabase/ssr": "^0.12.4",
     "@supabase/supabase-js": "^2.112.3",
     "@types/cheerio": "^0.22.35",

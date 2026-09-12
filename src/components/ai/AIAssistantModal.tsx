@@ -99,7 +99,10 @@ interface AIAssistantModalProps {
 function MarkdownRenderer({ content, isStreaming }: { content: string; isStreaming?: boolean }) {
   if (!content) {
     return isStreaming ? (
-      <span className="inline-block w-1.5 h-3.5 ml-1 bg-emerald-500 animate-pulse align-middle" />
+      <div className="flex items-center gap-2 text-xs text-slate-500 dark:text-slate-400 py-1 animate-pulse">
+        <span className="inline-block w-2 h-2 rounded-full bg-emerald-500 animate-ping shrink-0" />
+        <span className="italic font-medium">RoboPengu donanım verilerini inceliyor... 🐧</span>
+      </div>
     ) : null;
   }
 
@@ -272,7 +275,7 @@ export function AIAssistantModal({ isOpen, onClose, initialQuery = '' }: AIAssis
       id: 'welcome',
       role: 'assistant',
       content:
-        "Merhaba! Ben RoboPengu, aceleEtme'nin teknoloji uzmanı danışmanıyım! 🐧\n\nTelefon, TV, laptop, tablet ve tüm teknoloji ürünleri hakkında tarafsız karşılaştırmalar yapabilir, en ucuz mağaza fiyatlarını çıkarabilir veya yeni nesil çipler ile teknoloji trendlerini konuşabiliriz.\n\nNasıl yardımcı olabilirim?",
+        "Merhaba! Ben RoboPengu, TechKıyas'ın tarafsız ve uzman baş teknoloji danışmanıyım! 🐧\n\nTelefon, TV, laptop, tablet ve tüm teknoloji ürünleri hakkında tarafsız karşılaştırmalar yapabilir, en ucuz mağaza fiyatlarını çıkarabilir veya yeni nesil donanımlar ile teknoloji trendlerini konuşabiliriz.\n\nNasıl yardımcı olabilirim?",
     }
   ]);
   const [input, setInput] = useState('');
@@ -338,7 +341,7 @@ export function AIAssistantModal({ isOpen, onClose, initialQuery = '' }: AIAssis
         id: 'welcome',
         role: 'assistant',
         content:
-          "Merhaba! Ben RoboPengu, aceleEtme'nin teknoloji uzmanı danışmanıyım! 🐧\n\nTelefon, TV, laptop, tablet ve tüm teknoloji ürünleri hakkında tarafsız karşılaştırmalar yapabilir, en ucuz mağaza fiyatlarını çıkarabilir veya yeni nesil çipler ile teknoloji trendlerini konuşabiliriz.\n\nNasıl yardımcı olabilirim?",
+          "Merhaba! Ben RoboPengu, TechKıyas'ın tarafsız ve uzman baş teknoloji danışmanıyım! 🐧\n\nTelefon, TV, laptop, tablet ve tüm teknoloji ürünleri hakkında tarafsız karşılaştırmalar yapabilir, en ucuz mağaza fiyatlarını çıkarabilir veya yeni nesil donanımlar ile teknoloji trendlerini konuşabiliriz.\n\nNasıl yardımcı olabilirim?",
       }
     ]);
     try {
@@ -550,7 +553,16 @@ export function AIAssistantModal({ isOpen, onClose, initialQuery = '' }: AIAssis
       clearTimeout(uiTimeout);
       if (activeRequestIdRef.current === currentRequestId) {
         setMessages((prev) =>
-          prev.map((m) => (m.id === botMsgId ? { ...m, isStreaming: false } : m))
+          prev.map((m) => {
+            if (m.id === botMsgId) {
+              const finalContent =
+                m.content && m.content.trim()
+                  ? m.content
+                  : '⚠️ RoboPengu bağlantı kurarken bir aksaklık yaşadı: Lütfen tekrar deneyin veya internetinizi kontrol edin. 🐧';
+              return { ...m, content: finalContent, isStreaming: false };
+            }
+            return m;
+          })
         );
         setLoading(false);
       }
@@ -569,7 +581,7 @@ export function AIAssistantModal({ isOpen, onClose, initialQuery = '' }: AIAssis
     },
     {
       label: '📈 Fiyat Takip Grafiği',
-      prompt: 'aceleEtme sitesindeki 6 aylık fiyat geçmişi grafiği ve fiyat alarmı nasıl çalışır?',
+      prompt: 'TechKıyas sitesindeki 6 aylık fiyat geçmişi grafiği ve fiyat alarmı nasıl çalışır?',
     },
     {
       label: '📰 Teknoloji Gündemi',

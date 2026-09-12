@@ -20,14 +20,12 @@ export interface ModelCallResult {
   error?: string;
 }
 
-// Priority order: strongest reasoning first, cheap/lite models only as a
-// last resort when everything above is out of quota or failing.
+// Priority order: gemini-2.5-flash is the primary model (fast, intelligent, balanced).
+// gemini-2.5-flash-lite and gemini-2.5-pro act as resilient fallbacks.
 const MODEL_PRIORITY = [
-  "gemini-3.1-pro-preview", // best reasoning — use for compare/budget analysis and open-ended Q&A
-  "gemini-3.8-flash", // strong + fast, good default fallback
-  "gemini-3.6-flash", // previous-gen fallback
-  "gemini-flash-lite-latest", // last resort: quota exhaustion only
-  "gemini-3.5-flash-lite", // final fallback
+  "gemini-2.5-flash", // 2026'nın en dengeli, hızlı ve kararlı üretim modeli
+  "gemini-2.5-flash-lite", // Düşük gecikmeli hafif alternatif
+  "gemini-2.5-pro", // İleri seviye muhakeme yedeği
 ];
 
 const MAX_RETRIES_PER_MODEL = 2;
@@ -73,9 +71,15 @@ async function callSingleModel(
             ? { parts: [{ text: options.systemInstruction }] }
             : undefined,
           tools: options.tools,
+          safetySettings: [
+            { category: "HARM_CATEGORY_HARASSMENT", threshold: "BLOCK_NONE" },
+            { category: "HARM_CATEGORY_HATE_SPEECH", threshold: "BLOCK_NONE" },
+            { category: "HARM_CATEGORY_SEXUALLY_EXPLICIT", threshold: "BLOCK_NONE" },
+            { category: "HARM_CATEGORY_DANGEROUS_CONTENT", threshold: "BLOCK_NONE" },
+          ],
           generationConfig: options.generationConfig ?? {
-            temperature: 0.7,
-            maxOutputTokens: 4096,
+            temperature: 0.4,
+            maxOutputTokens: 2048,
           },
         }),
       }
