@@ -423,28 +423,35 @@ export function AIAssistantModal({ isOpen, onClose, initialQuery = '' }: AIAssis
       // Konuşma hafızası aktarımı (Hatalı ve boş mesajları filtrele)
       const history = messages
         .filter((m) => m.id !== 'welcome' && m.content && m.content.trim())
-        .filter((m) => !m.content.includes('bağlantıda küçük bir sorun'))
+        .filter((m) => !m.content.startsWith('⚠️'))
         .slice(-10)
         .map((m) => ({ role: m.role, content: m.content }));
 
-      const res = await fetch('/api/ai-assistant', {
+      // DOĞRUDAN API (/api/chat) AKIŞI: Yerel ürün arama engeli YOK
+      const res = await fetch('/api/chat', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         signal: controller.signal,
         body: JSON.stringify({
-          message: trimmed,
-          stream: true,
+          prompt: trimmed,
           history,
         }),
       });
 
       if (!res.ok || !res.body) {
-        throw new Error(`Sunucu hatası: ${res.status}`);
+        const errText = await res.text().catch(() => '');
+        let errMsg = `Sunucu hatası (HTTP ${res.status})`;
+        try {
+          const parsed = JSON.parse(errText);
+          errMsg = parsed.error || errText;
+        } catch {
+          if (errText) errMsg = errText;
+        }
+        throw new Error(errMsg);
       }
 
       const reader = res.body.getReader();
-      const decoder = new TextDecoder();
-      let streamBuffer = '';
+      const decoder = new TextDecoder('utf-8');
 
       while (true) {
         const { done, value } = await reader.read();
@@ -461,89 +468,52 @@ export function AIAssistantModal({ isOpen, onClose, initialQuery = '' }: AIAssis
           return;
         }
 
-        streamBuffer += decoder.decode(value, { stream: true });
-        const events = streamBuffer.split('\n\n');
-        streamBuffer = events.pop() || '';
+        const chunk = decoder.decode(value, { stream: true });
+        if (chunk) {
+          let textToAdd = chunk;
 
-        for (const evt of events) {
-          if (activeRequestIdRef.current !== currentRequestId) return;
-
-          const lines = evt.split('\n');
-          let eventType = 'text';
-          let dataStr = '';
-
-          for (const line of lines) {
-            if (line.startsWith('event: ')) {
-              eventType = line.slice(7).trim();
-            } else if (line.startsWith('data: ')) {
-              dataStr = line.slice(6).trim();
-            }
-          }
-
-          // 1. Yan Panel Olayı (Karşılaştırma veya Haberler) - Şema Denetimli
-          if (eventType === 'panel' && dataStr) {
-            try {
-              const panelData = JSON.parse(dataStr);
-              // Karşılaştırma şeması doğrulaması
-              if (panelData && panelData.type === 'comparison') {
-                if (Array.isArray(panelData.products) && panelData.products.length >= 2 && Array.isArray(panelData.matrix)) {
-                  setActivePanel(panelData);
-                  setMobileTab('panel');
-                } else {
-                  console.warn('[RoboPengu][WARN] Corrupt comparison panel data received:', panelData);
-                }
-              } else if (panelData && panelData.type === 'news') {
-                if (Array.isArray(panelData.articles) && panelData.articles.length > 0) {
-                  setActivePanel(panelData);
-                  setMobileTab('panel');
-                } else {
-                  console.warn('[RoboPengu][WARN] Corrupt news panel data received:', panelData);
+          // SSE formatında (data: ...) gelen parçaları ayıkla
+          if (chunk.includes('data: ')) {
+            const lines = chunk.split('\n');
+            let accumulated = '';
+            for (const l of lines) {
+              const trimmedLine = l.trim();
+              if (trimmedLine.startsWith('data: ')) {
+                const content = trimmedLine.slice(6).trim();
+                if (content && content !== '[DONE]') {
+                  try {
+                    const parsed = JSON.parse(content);
+                    accumulated += parsed.choices?.[0]?.delta?.content || (typeof parsed === 'string' ? parsed : '');
+                  } catch {
+                    accumulated += content;
+                  }
                 }
               }
-            } catch (e) {
-              console.error('[RoboPengu][ERROR] Panel JSON parse error:', e);
             }
+            if (accumulated) textToAdd = accumulated;
           }
-          // 2. Ürün Önerileri
-          else if (eventType === 'products' && dataStr) {
-            try {
-              const recs: AIAssistantRecommendation[] = JSON.parse(dataStr);
-              if (Array.isArray(recs)) {
-                setMessages((prev) =>
-                  prev.map((m) => (m.id === botMsgId ? { ...m, recommendations: recs } : m))
-                );
-              }
-            } catch {}
-          }
-          // 3. Canlı Metin Akışı (Streaming)
-          else if (eventType === 'text' && dataStr) {
-            try {
-              const token = JSON.parse(dataStr);
-              if (typeof token === 'string') {
-                setMessages((prev) =>
-                  prev.map((m) =>
-                    m.id === botMsgId ? { ...m, content: m.content + token } : m
-                  )
-                );
-              }
-            } catch {}
-          }
+
+          setMessages((prev) =>
+            prev.map((m) =>
+              m.id === botMsgId ? { ...m, content: m.content + textToAdd } : m
+            )
+          );
         }
       }
     } catch (err: any) {
       if (err.name === 'AbortError') {
-        // Yeni bir istek gönderildiğinde veya timeoutta normal iptal
         return;
       }
-      console.error('[RoboPengu][ERROR] Chat request failed:', err.message);
+      console.error('[RoboPengu][ERROR] Chat request failed:', err);
+      const detailedError = err?.message || 'Bilinmeyen hata';
       if (activeRequestIdRef.current === currentRequestId) {
         setMessages((prev) =>
           prev.map((m) =>
             m.id === botMsgId
               ? {
                   ...m,
-                  content:
-                    'Şu anda bağlantıda küçük bir sorun yaşıyorum, birkaç saniye sonra tekrar dener misin? 🐧',
+                  content: `⚠️ RoboPengu Bağlantı Hatası: ${detailedError}`,
+                  isStreaming: false,
                 }
               : m
           )
@@ -558,7 +528,7 @@ export function AIAssistantModal({ isOpen, onClose, initialQuery = '' }: AIAssis
               const finalContent =
                 m.content && m.content.trim()
                   ? m.content
-                  : '⚠️ RoboPengu bağlantı kurarken bir aksaklık yaşadı: Lütfen tekrar deneyin veya internetinizi kontrol edin. 🐧';
+                  : '⚠️ Yanıt alınamadı: API sunucusundan veri akışı sağlanamadı.';
               return { ...m, content: finalContent, isStreaming: false };
             }
             return m;

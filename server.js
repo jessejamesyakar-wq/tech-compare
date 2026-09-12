@@ -46,66 +46,157 @@ KİMLİĞİN VE ÇALIŞMA KURALLARIN:
     { role: "user", content: userPrompt }
   ];
 
+  const openRouterKey = process.env.OPENROUTER_API_KEY;
+  const geminiKey = process.env.GEMINI_API_KEY;
+
+  const isOpenRouterValid =
+    openRouterKey &&
+    !openRouterKey.includes("senin-openrouter-anahtarin") &&
+    openRouterKey.trim().length > 10;
+
   try {
-    const response = await fetch("https://openrouter.ai/api/v1/chat/completions", {
-      method: "POST",
-      headers: {
-        "Authorization": `Bearer ${process.env.OPENROUTER_API_KEY}`,
-        "HTTP-Referer": process.env.SITE_URL || "https://aceleetme.tech",
-        "X-Title": process.env.SITE_NAME || "aceleetme",
-        "Content-Type": "application/json"
-      },
-      body: JSON.stringify({
-        model: selectedModel,
-        messages: messages,
-        stream: true,
-        temperature: 0.3
-      })
-    });
+    if (isOpenRouterValid) {
+      const response = await fetch("https://openrouter.ai/api/v1/chat/completions", {
+        method: "POST",
+        headers: {
+          "Authorization": `Bearer ${openRouterKey}`,
+          "HTTP-Referer": process.env.SITE_URL || "https://aceleetme.tech",
+          "X-Title": process.env.SITE_NAME || "aceleetme",
+          "Content-Type": "application/json"
+        },
+        body: JSON.stringify({
+          model: selectedModel,
+          messages: messages,
+          stream: true,
+          temperature: 0.3
+        })
+      });
 
-    if (!response.ok) {
-      const errText = await response.text();
-      return res.status(response.status).json({ error: `OpenRouter Hatası: ${errText}` });
-    }
+      if (!response.ok) {
+        const errText = await response.text();
+        console.error(`[OpenRouter API Hatası] HTTP ${response.status}:`, errText);
+        return res.status(response.status).json({
+          error: `OpenRouter Hatası (${response.status}): ${errText}`
+        });
+      }
 
-    // AntiGravity canlı akış (SSE) başlıkları
-    res.setHeader("Content-Type", "text/event-stream; charset=utf-8");
-    res.setHeader("Cache-Control", "no-cache, no-transform");
-    res.setHeader("Connection", "keep-alive");
-    res.setHeader("X-Accel-Buffering", "no");
+      res.setHeader("Content-Type", "text/event-stream; charset=utf-8");
+      res.setHeader("Cache-Control", "no-cache, no-transform");
+      res.setHeader("Connection", "keep-alive");
+      res.setHeader("X-Accel-Buffering", "no");
 
-    const reader = response.body.getReader();
-    const decoder = new TextDecoder("utf-8");
+      const reader = response.body.getReader();
+      const decoder = new TextDecoder("utf-8");
 
-    while (true) {
-      const { done, value } = await reader.read();
-      if (done) break;
+      while (true) {
+        const { done, value } = await reader.read();
+        if (done) break;
 
-      const chunk = decoder.decode(value, { stream: true });
-      const lines = chunk.split("\n").filter((line) => line.trim() !== "");
+        const chunk = decoder.decode(value, { stream: true });
+        const lines = chunk.split("\n").filter((line) => line.trim() !== "");
 
-      for (const line of lines) {
-        if (line.includes("[DONE]")) continue;
-        if (line.startsWith("data: ")) {
-          try {
-            const data = JSON.parse(line.slice(6));
-            const token = data.choices?.[0]?.delta?.content || "";
-            if (token) {
-              res.write(token);
-              if (typeof res.flush === "function") res.flush();
+        for (const line of lines) {
+          if (line.includes("[DONE]")) continue;
+          if (line.startsWith("data: ")) {
+            try {
+              const data = JSON.parse(line.slice(6));
+              const token = data.choices?.[0]?.delta?.content || "";
+              if (token) {
+                res.write(token);
+                if (typeof res.flush === "function") res.flush();
+              }
+            } catch {
+              // Parçalı veri bloklarını atla
             }
-          } catch (e) {
-            // Parçalı veri bloklarını atla
           }
         }
       }
+
+      return res.end();
     }
 
-    res.end();
+    // OpenRouter anahtarı henüz girilmediyse ve Gemini anahtarı varsa Gemini 3.8 Flash kullan
+    if (geminiKey && geminiKey.trim().length > 10) {
+      console.log("[RoboPengu] OPENROUTER_API_KEY henüz girilmediği için GEMINI_API_KEY (Gemini 3.8 Flash) ile doğrudan yanıt üretiliyor.");
+      const geminiRes = await fetch(
+        `https://generativelanguage.googleapis.com/v1beta/models/gemini-3.8-flash:streamGenerateContent?alt=sse&key=${geminiKey}`,
+        {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({
+            systemInstruction: { parts: [{ text: systemMessage.content }] },
+            contents: [
+              ...formattedHistory.map((h) => ({
+                role: h.role === "assistant" ? "model" : "user",
+                parts: [{ text: h.content }]
+              })),
+              { role: "user", parts: [{ text: userPrompt }] }
+            ],
+            safetySettings: [
+              { category: "HARM_CATEGORY_HARASSMENT", threshold: "BLOCK_NONE" },
+              { category: "HARM_CATEGORY_HATE_SPEECH", threshold: "BLOCK_NONE" },
+              { category: "HARM_CATEGORY_SEXUALLY_EXPLICIT", threshold: "BLOCK_NONE" },
+              { category: "HARM_CATEGORY_DANGEROUS_CONTENT", threshold: "BLOCK_NONE" }
+            ],
+            generationConfig: { temperature: 0.3, maxOutputTokens: 2048 }
+          })
+        }
+      );
+
+      if (!geminiRes.ok) {
+        const errText = await geminiRes.text();
+        console.error(`[Gemini API Hatası] HTTP ${geminiRes.status}:`, errText);
+        return res.status(geminiRes.status).json({
+          error: `Gemini API Hatası (${geminiRes.status}): ${errText}`
+        });
+      }
+
+      res.setHeader("Content-Type", "text/event-stream; charset=utf-8");
+      res.setHeader("Cache-Control", "no-cache, no-transform");
+      res.setHeader("Connection", "keep-alive");
+      res.setHeader("X-Accel-Buffering", "no");
+
+      const reader = geminiRes.body.getReader();
+      const decoder = new TextDecoder("utf-8");
+      let buffer = "";
+
+      while (true) {
+        const { done, value } = await reader.read();
+        if (done) break;
+
+        buffer += decoder.decode(value, { stream: true });
+        const lines = buffer.split("\n");
+        buffer = lines.pop() || "";
+
+        for (const line of lines) {
+          const trimmed = line.trim();
+          if (trimmed.startsWith("data: ")) {
+            const dataStr = trimmed.slice(6).trim();
+            if (dataStr && dataStr !== "[DONE]") {
+              try {
+                const parsed = JSON.parse(dataStr);
+                const token = parsed.candidates?.[0]?.content?.parts?.[0]?.text || "";
+                if (token) {
+                  res.write(token);
+                  if (typeof res.flush === "function") res.flush();
+                }
+              } catch {}
+            }
+          }
+        }
+      }
+
+      return res.end();
+    }
+
+    return res.status(401).json({
+      error: "Geçerli bir API anahtarı bulunamadı! Lütfen .env dosyasındaki OPENROUTER_API_KEY alanına anahtarınızı girin."
+    });
+
   } catch (error) {
     console.error("aceleetme API Hatası:", error);
     if (!res.headersSent) {
-      res.status(500).json({ error: "Sunucu hatası: " + error.message });
+      res.status(500).json({ error: "Sunucu hatası: " + (error?.stack || error?.message || error) });
     } else {
       res.end();
     }
