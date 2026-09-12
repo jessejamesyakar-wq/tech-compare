@@ -20,8 +20,11 @@ export async function POST(req: Request) {
       !openRouterKey.includes("senin-openrouter-anahtarin") &&
       openRouterKey.trim().length > 10;
 
-    // Varsayılan model: Claude 3.5 Sonnet
-    const selectedModel = modelChoice || "anthropic/claude-3.5-sonnet";
+    // Varsayılan model: google/gemini-3.8-flash (OpenRouter)
+    let selectedModel = modelChoice || process.env.OPENROUTER_MODEL || "google/gemini-3.8-flash";
+    if (selectedModel === "anthropic/claude-3.5-sonnet") {
+      selectedModel = "anthropic/claude-sonnet-4";
+    }
 
     const systemMessage = {
       role: "system",
@@ -63,7 +66,8 @@ KİMLİĞİN VE ÇALIŞMA KURALLARIN:
           model: selectedModel,
           messages: messages,
           stream: true,
-          temperature: 0.3
+          temperature: 0.3,
+          max_tokens: 2000
         })
       });
 
