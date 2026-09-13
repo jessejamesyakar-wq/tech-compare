@@ -2139,147 +2139,179 @@ export function AIAssistantModal({ isOpen, onClose, initialQuery = '' }: AIAssis
 
                         {/* 3. KATEGORİ BAZLI DONANIM MASASI & AKILLI DERİN ANALİZ ENTEGRASYONU */}
                         <div id="comparison-details-container" className="space-y-3.5 pt-1">
-                          {[
-                            {
-                              key: 'processor',
-                              title: 'İşlemci, Grafik & Sentetik Performans',
-                              icon: <Cpu className="w-3.5 h-3.5" />,
-                            },
-                            {
-                              key: 'screen',
-                              title: 'Ekran & Görsel Deneyim',
-                              icon: <Smartphone className="w-3.5 h-3.5" />,
-                            },
-                            {
-                              key: 'camera',
-                              title: 'Kamera & Video Yetenekleri',
-                              icon: <Camera className="w-3.5 h-3.5" />,
-                            },
-                            {
-                              key: 'battery',
-                              title: 'Batarya & Şarj Teknolojisi',
-                              icon: <BatteryCharging className="w-3.5 h-3.5" />,
-                            },
-                            {
-                              key: 'build',
-                              title: 'Kasa, Malzeme & Dayanıklılık',
-                              icon: <Shield className="w-3.5 h-3.5" />,
-                            },
-                          ].map((cat) => {
-                            const catRows = activePanel.matrix.filter((r) => {
-                              if (r.group) return r.group === cat.key;
-                              const l = r.label.toLowerCase();
-                              if (cat.key === 'processor') return l.includes('antutu') || l.includes('işlemci') || l.includes('ram') || l.includes('depolama') || l.includes('bellek');
-                              if (cat.key === 'screen') return l.includes('ekran') || l.includes('parlaklık') || l.includes('çözünürlük') || l.includes('panel');
-                              if (cat.key === 'camera') return l.includes('kamera') || l.includes('zoom') || l.includes('dxomark') || l.includes('telefoto');
-                              if (cat.key === 'battery') return l.includes('batarya') || l.includes('şarj') || l.includes('pil');
-                              if (cat.key === 'build') return l.includes('kasa') || l.includes('su') || l.includes('koruma') || l.includes('malzeme') || l.includes('ağırlık');
-                              return false;
-                            });
+                          {(() => {
+                            const groupDefs = [
+                              {
+                                key: 'processor',
+                                title: 'İşlemci, Çip & Sentetik Performans',
+                                icon: <Cpu className="w-3.5 h-3.5" />,
+                              },
+                              {
+                                key: 'screen',
+                                title: 'Ekran, Panel & Görüntüleme',
+                                icon: <Smartphone className="w-3.5 h-3.5" />,
+                              },
+                              {
+                                key: 'camera',
+                                title: 'Kamera, Akustik Sürücü & Ses',
+                                icon: <Camera className="w-3.5 h-3.5" />,
+                              },
+                              {
+                                key: 'battery',
+                                title: 'Batarya, Enerji & Güç Tüketimi',
+                                icon: <BatteryCharging className="w-3.5 h-3.5" />,
+                              },
+                              {
+                                key: 'build',
+                                title: 'Kasa, Malzeme & Dayanıklılık',
+                                icon: <Shield className="w-3.5 h-3.5" />,
+                              },
+                              {
+                                key: 'general',
+                                title: 'Kapasite, Portlar & Ek Fonksiyonlar',
+                                icon: <Layers className="w-3.5 h-3.5" />,
+                              },
+                            ];
 
-                            if (catRows.length === 0) return null;
+                            // Track rendered row indices to guarantee ZERO dropped specs
+                            const renderedRowIndices = new Set<number>();
 
-                            // Eşleşen derin analiz paragrafını bul
-                            const matchingAnalysisIdx = analysisSections.findIndex((s) => {
-                              const t = s.title.toLowerCase();
-                              if (cat.key === 'processor') return t.includes('işlemci') || t.includes('donanım') || t.includes('performans');
-                              if (cat.key === 'screen') return t.includes('ekran') || t.includes('panel');
-                              if (cat.key === 'camera') return t.includes('kamera') || t.includes('sensör');
-                              if (cat.key === 'battery') return t.includes('batarya') || t.includes('şarj') || t.includes('pil');
-                              return false;
-                            });
-                            const matchingAnalysis = matchingAnalysisIdx >= 0 ? analysisSections[matchingAnalysisIdx] : null;
-                            const isSectionOpen = matchingAnalysisIdx >= 0 ? (openSections[matchingAnalysisIdx] ?? true) : true;
+                            return groupDefs.map((cat) => {
+                              const catRows: { row: typeof activePanel.matrix[0]; idx: number }[] = [];
 
-                            return (
-                              <div
-                                key={cat.key}
-                                className="rounded-2xl border border-slate-200/90 dark:border-slate-800 overflow-hidden bg-white dark:bg-slate-900 shadow-xs"
-                              >
-                                {/* Kategori Başlığı */}
-                                <div className="px-3.5 py-2.5 bg-slate-100/70 dark:bg-slate-800/80 border-b border-slate-200/80 dark:border-slate-800 flex items-center justify-between">
-                                  <div className="flex items-center gap-2">
-                                    <span className="p-1 rounded-lg bg-emerald-100 dark:bg-emerald-950 text-emerald-600 dark:text-emerald-400">
-                                      {cat.icon}
-                                    </span>
-                                    <span className="text-[11px] font-bold text-slate-800 dark:text-slate-100 tracking-wide uppercase">
-                                      {cat.title}
+                              activePanel.matrix.forEach((r, idx) => {
+                                if (renderedRowIndices.has(idx)) return;
+                                
+                                let matches = false;
+                                if (r.group) {
+                                  matches = r.group === cat.key;
+                                } else {
+                                  const l = r.label.toLowerCase();
+                                  if (cat.key === 'processor') matches = l.includes('antutu') || l.includes('işlemci') || l.includes('ram') || l.includes('depolama') || l.includes('bellek') || l.includes('gpu') || l.includes('cpu') || l.includes('npu') || l.includes('tflops');
+                                  else if (cat.key === 'screen') matches = l.includes('ekran') || l.includes('parlaklık') || l.includes('çözünürlük') || l.includes('panel') || l.includes('hz') || l.includes('yenileme') || l.includes('hdr');
+                                  else if (cat.key === 'camera') matches = l.includes('kamera') || l.includes('zoom') || l.includes('dxomark') || l.includes('telefoto') || l.includes('ses') || l.includes('hoparlör') || l.includes('sürücü') || l.includes('anc') || l.includes('akustik');
+                                  else if (cat.key === 'battery') matches = l.includes('batarya') || l.includes('şarj') || l.includes('pil') || l.includes('enerji') || l.includes('güç');
+                                  else if (cat.key === 'build') matches = l.includes('kasa') || l.includes('su') || l.includes('koruma') || l.includes('malzeme') || l.includes('ağırlık') || l.includes('boyut') || l.includes('çerçeve');
+                                  else if (cat.key === 'general') matches = true;
+                                }
+
+                                // If this is 'general' group, also scoop up any leftover row so nothing is lost
+                                if (cat.key === 'general' && !matches && !r.group) {
+                                  matches = true;
+                                }
+
+                                if (matches) {
+                                  catRows.push({ row: r, idx });
+                                  renderedRowIndices.add(idx);
+                                }
+                              });
+
+                              if (catRows.length === 0) return null;
+
+                              // Eşleşen derin analiz paragrafını bul
+                              const matchingAnalysisIdx = analysisSections.findIndex((s) => {
+                                const t = s.title.toLowerCase();
+                                if (cat.key === 'processor') return t.includes('işlemci') || t.includes('donanım') || t.includes('performans') || t.includes('çip');
+                                if (cat.key === 'screen') return t.includes('ekran') || t.includes('panel') || t.includes('görüntü');
+                                if (cat.key === 'camera') return t.includes('kamera') || t.includes('sensör') || t.includes('ses') || t.includes('akustik');
+                                if (cat.key === 'battery') return t.includes('batarya') || t.includes('şarj') || t.includes('pil') || t.includes('enerji');
+                                if (cat.key === 'build') return t.includes('kasa') || t.includes('malzeme') || t.includes('tasarım') || t.includes('dayanıklılık');
+                                if (cat.key === 'general') return t.includes('genel') || t.includes('özellik') || t.includes('fonksiyon');
+                                return false;
+                              });
+                              const matchingAnalysis = matchingAnalysisIdx >= 0 ? analysisSections[matchingAnalysisIdx] : null;
+                              const isSectionOpen = matchingAnalysisIdx >= 0 ? (openSections[matchingAnalysisIdx] ?? true) : true;
+
+                              return (
+                                <div
+                                  key={cat.key}
+                                  className="rounded-2xl border border-slate-200/90 dark:border-slate-800 overflow-hidden bg-white dark:bg-slate-900 shadow-xs"
+                                >
+                                  {/* Kategori Başlığı */}
+                                  <div className="px-3.5 py-2.5 bg-slate-100/70 dark:bg-slate-800/80 border-b border-slate-200/80 dark:border-slate-800 flex items-center justify-between">
+                                    <div className="flex items-center gap-2">
+                                      <span className="p-1 rounded-lg bg-emerald-100 dark:bg-emerald-950 text-emerald-600 dark:text-emerald-400">
+                                        {cat.icon}
+                                      </span>
+                                      <span className="text-[11px] font-bold text-slate-800 dark:text-slate-100 tracking-wide uppercase">
+                                        {cat.title}
+                                      </span>
+                                    </div>
+                                    <span className="text-[10px] text-emerald-600 dark:text-emerald-400 font-semibold font-mono">
+                                      {catRows.length} Parametre
                                     </span>
                                   </div>
-                                  <span className="text-[10px] text-emerald-600 dark:text-emerald-400 font-semibold font-mono">
-                                    {catRows.length} Parametre
-                                  </span>
-                                </div>
 
-                                {/* Bire Bir Donanım Satırları */}
-                                <div className="divide-y divide-slate-100 dark:divide-slate-800/60 text-[11px]">
-                                  {catRows.map((row, rIdx) => (
-                                    <div
-                                      key={rIdx}
-                                      className="p-2.5 transition-colors hover:bg-slate-50/50 dark:hover:bg-slate-800/30"
-                                    >
-                                      <div className="text-[10px] font-semibold text-slate-400 mb-1 flex items-center justify-between">
-                                        <span>{row.label}</span>
-                                      </div>
-                                      <div className={`grid gap-2 ${row.values.length === 2 ? 'grid-cols-2' : 'grid-cols-2 sm:grid-cols-3'}`}>
-                                        {row.values.map((val, valIdx) => {
-                                          const isSuperior = row.superiorIdx === valIdx || (row.highlightIdx === valIdx && row.isDifferent);
-                                          return (
-                                            <div
-                                              key={valIdx}
-                                              className={`p-2 rounded-xl border text-xs transition-all flex items-center justify-between gap-1.5 ${
-                                                isSuperior
-                                                  ? 'bg-emerald-500/10 dark:bg-emerald-950/30 border-emerald-400/60 dark:border-emerald-500/40 text-emerald-800 dark:text-emerald-300 font-bold'
-                                                  : 'bg-white/60 dark:bg-slate-900/60 border-slate-200/70 dark:border-slate-800 text-slate-700 dark:text-slate-300 font-medium'
-                                              }`}
-                                            >
-                                              <span className="truncate">{val}</span>
-                                              {isSuperior && (
-                                                <span className="shrink-0 px-1.5 py-0.5 rounded text-[10px] font-extrabold bg-emerald-500/20 text-emerald-600 dark:text-emerald-400 border border-emerald-500/30">
-                                                  ✓ Üstün
-                                                </span>
-                                              )}
-                                            </div>
-                                          );
-                                        })}
-                                      </div>
-                                    </div>
-                                  ))}
-                                </div>
-
-                                {/* Kategoriye Özel Pengu'nun Mimari Analiz Notu (Kompakt / Açılır Kapanır) */}
-                                {matchingAnalysis && (
-                                  <div className="p-3 bg-slate-50/80 dark:bg-slate-950/60 border-t border-slate-200/60 dark:border-slate-800/80">
-                                    <div className="flex items-start gap-2.5">
-                                      <span className="text-sm">🐧</span>
-                                      <div className="flex-1 min-w-0">
-                                        <div className="flex items-center justify-between gap-2">
-                                          <span className="text-xs font-bold text-slate-800 dark:text-slate-200 truncate">
-                                            Pengu'nun {matchingAnalysis.title.replace(/^\d+\.\s*/, '')} Notu:
-                                          </span>
-                                          <button
-                                            type="button"
-                                            onClick={() => toggleSection(matchingAnalysisIdx)}
-                                            className="text-[11px] font-bold text-emerald-600 dark:text-emerald-400 hover:underline cursor-pointer shrink-0"
-                                          >
-                                            {isSectionOpen ? 'Tüm Detayı Gizle ▲' : 'Detaylı Mimariyi Oku ▼'}
-                                          </button>
+                                  {/* Bire Bir Donanım Satırları */}
+                                  <div className="divide-y divide-slate-100 dark:divide-slate-800/60 text-[11px]">
+                                    {catRows.map(({ row }, rIdx) => (
+                                      <div
+                                        key={rIdx}
+                                        className="p-2.5 transition-colors hover:bg-slate-50/50 dark:hover:bg-slate-800/30"
+                                      >
+                                        <div className="text-[10px] font-semibold text-slate-400 mb-1 flex items-center justify-between">
+                                          <span>{row.label}</span>
                                         </div>
-                                        {isSectionOpen && (
-                                          <div className="mt-2 text-xs text-slate-600 dark:text-slate-300 leading-relaxed border-t border-slate-200/50 dark:border-slate-800/60 pt-2">
-                                            <MarkdownRenderer
-                                              content={matchingAnalysis.body}
-                                              isStreaming={latestAssistantMsg?.isStreaming}
-                                            />
+                                        <div className={`grid gap-2 ${row.values.length === 2 ? 'grid-cols-2' : 'grid-cols-2 sm:grid-cols-3'}`}>
+                                          {row.values.map((val, valIdx) => {
+                                            const isSuperior = row.superiorIdx === valIdx || (row.highlightIdx === valIdx && row.isDifferent);
+                                            return (
+                                              <div
+                                                key={valIdx}
+                                                className={`p-2 rounded-xl border text-xs transition-all flex items-center justify-between gap-1.5 ${
+                                                  isSuperior
+                                                    ? 'bg-emerald-500/10 dark:bg-emerald-950/30 border-emerald-400/60 dark:border-emerald-500/40 text-emerald-800 dark:text-emerald-300 font-bold'
+                                                    : 'bg-white/60 dark:bg-slate-900/60 border-slate-200/70 dark:border-slate-800 text-slate-700 dark:text-slate-300 font-medium'
+                                                }`}
+                                              >
+                                                <span className="truncate">{val}</span>
+                                                {isSuperior && (
+                                                  <span className="shrink-0 px-1.5 py-0.5 rounded text-[10px] font-extrabold bg-emerald-500/20 text-emerald-600 dark:text-emerald-400 border border-emerald-500/30">
+                                                    ✓ Üstün
+                                                  </span>
+                                                )}
+                                              </div>
+                                            );
+                                          })}
+                                        </div>
+                                      </div>
+                                    ))}
+                                  </div>
+
+                                  {/* Kategoriye Özel Pengu'nun Mimari Analiz Notu (Kompakt / Açılır Kapanır) */}
+                                  {matchingAnalysis && (
+                                    <div className="p-3 bg-slate-50/80 dark:bg-slate-950/60 border-t border-slate-200/60 dark:border-slate-800/80">
+                                      <div className="flex items-start gap-2.5">
+                                        <span className="text-sm">🐧</span>
+                                        <div className="flex-1 min-w-0">
+                                          <div className="flex items-center justify-between gap-2">
+                                            <span className="text-xs font-bold text-slate-800 dark:text-slate-200 truncate">
+                                              Pengu'nun {matchingAnalysis.title.replace(/^\d+\.\s*/, '')} Notu:
+                                            </span>
+                                            <button
+                                              type="button"
+                                              onClick={() => toggleSection(matchingAnalysisIdx)}
+                                              className="text-[11px] font-bold text-emerald-600 dark:text-emerald-400 hover:underline cursor-pointer shrink-0"
+                                            >
+                                              {isSectionOpen ? 'Tüm Detayı Gizle ▲' : 'Detaylı Mimariyi Oku ▼'}
+                                            </button>
                                           </div>
-                                        )}
+                                          {isSectionOpen && (
+                                            <div className="mt-2 text-xs text-slate-600 dark:text-slate-300 leading-relaxed border-t border-slate-200/50 dark:border-slate-800/60 pt-2">
+                                              <MarkdownRenderer
+                                                content={matchingAnalysis.body}
+                                                isStreaming={latestAssistantMsg?.isStreaming}
+                                              />
+                                            </div>
+                                          )}
+                                        </div>
                                       </div>
                                     </div>
-                                  </div>
-                                )}
-                              </div>
-                            );
-                          })}
+                                  )}
+                                </div>
+                              );
+                            });
+                          })()}
 
                           {/* Kategorilere ayrışmamış genel derin analiz metni varsa */}
                           {analysisSections.length === 0 && activeDeepAnalysis && (

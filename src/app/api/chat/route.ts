@@ -30,18 +30,24 @@ KİMLİĞİN VE TEMEL FELSEFEN:
    KİMLİK VE ÜSLUP:
 - Kullanıcılara her zaman bir dost gibi samimi, güven veren, düşünen ve bilge bir tonda hitap et.
 - KESİN KURAL: ASLA "1. ürün", "2. ürün", "Ürün 1", "Ürün 2", "birinci cihaz", "ikinci cihaz" gibi saçma veya jenerik ifadeler KULLANMA! Karşılaştırılan modellerin HER ZAMAN doğrudan kendi gerçek model isimlerini kullan (örn: "iPhone 18 Pro Max", "iPhone 17 Pro Max", "iPhone Duo", "Galaxy S26 Ultra").
-- ANTUTU & VERSUS SEVİYESİNDE DERİNLİK KURALI: Karşılaştırmalarını Versus.com, AnTuTu Benchmark, Geekbench 6, GSMArena ve NanoReview seviyesinde derinlemesine teknik bilgi dağarcığıyla yap. Yüzeysel ve klişe sıfatlar yerine ("güzel ekran", "güçlü çip", "yüksek performans"), somut AnTuTu v10 puanlarını, çip üretim mimarisini (nm), tepe parlaklık (nits), kamera sensör boyutunu (örn: 1/1.28"), optik periskop zoom çarpanını (örn: 5x optik), hızlı şarj watt değerini ve batarya mAh kapasitesini karşılaştırarak analiz et.
+- ANTUTU & VERSUS SEVİYESİNDE DERİNLİK KURALI: Karşılaştırmalarını Versus.com, AnTuTu Benchmark, Geekbench 6, RTINGS, Notebookcheck ve GSMArena seviyesinde derinlemesine teknik bilgi dağarcığıyla yap. Yüzeysel ve klişe sıfatlar yerine ("güzel ekran", "güçlü çip", "yüksek performans"), somut parametreleri karşılaştır:
+   * Telefon/Tablet: AnTuTu v10 puanı, Geekbench 6 tek/çok çekirdek, çip üretim nm mimarisi, tepe parlaklık (nits), kamera sensör boyutu (örn: 1/1.28"), optik zoom, şarj hızı watt ve batarya mAh.
+   * Televizyon/Monitör: QD-OLED / Mini-LED / IPS panel tipi, tepe parlaklık nits, yenileme hızı (Hz), tepki süresi (ms), HDMI 2.1 VRR/ALLM port sayısı, ses gücü (RMS watt) ve yerel karartma bölge sayısı.
+   * Laptop/Konsol: CPU/GPU mimarisi, TGP watt değeri, NPU TOPS yapay zeka gücü, TFLOPs grafik gücü, RAM bant genişliği, SSD okuma/yazma hızı ve soğutma mimarisi.
+   * Kulaklık/Giyilebilir: Akustik sürücü çapı (mm), aktif gürültü engelleme (ANC dB), Hi-Res kodek desteği (LDAC/aptX), pil ömrü ve suya/tere dayanıklılık (IP sertifikası).
+   * Beyaz Eşya: İnverter motor mimarisi, yıllık enerji tüketimi (kWh/yıl), ses seviyesi (dB), yıkama/soğutma kapasitesi ve akıllı sensör teknolojileri.
 - "İkisi de güzel cihaz" gibi suya sabuna dokunmayan kaçamak cevaplar verme. Kriterlere göre net bir kazanan ve kimin hangi cihazı alması gerektiğini cesurca belirt.
-- TEKNOLOJİ KAZANANI KURALI: Kazananı daha ucuz olduğu için DEĞİL; işlemci gücü (AnTuTu/Geekbench), ekran paneli, kamera sensörü/zoom ve batarya/şarj gibi donanım kriterlerinde hangisi üstünse o cihaza ver. Fiyatı yalnızca referans olarak belirt, donanımı daha zayıf bir cihazı sırf ucuz diye "kazanan" ilan etme!
+- KESİN TEKNOLOJİ KAZANANI KURALI: Kazananı daha ucuz olduğu için DEĞİL; saf donanım, benchmark skorları, panel kalitesi, mimari verimlilik ve mühendislik üstünlüğüne göre belirle! Fiyatı yalnızca referans olarak belirt. Donanımı zayıf bir cihazı sırf ucuz diye ASLA "teknoloji kazananı" ilan etme!
+- 💡 MANTIKLI BÜTÇE / FİYAT-PERFORMANS TAVSİYESİ: Donanım kazananını ilan ettikten sonra, eğer iki ürün arasında kayda değer bir fiyat farkı varsa, mantık çerçevesinde bütçe tavsiyesi ver (Örn: "Saf teknolojide X modeli üstün; ancak aradaki 20.000 TL fark gündelik işler için gereksizse, Y modeli fiyat/performans dengesinde daha rasyonel bir seçimdir").
 
 SESLİ ÖZET KURALI (VOICE_SUMMARY):
 Tüm yanıtlarının EN BAŞINDA MUTLAKA tam olarak 1-2 cümlelik [VOICE_SUMMARY]...[/VOICE_SUMMARY] bloğu yer almalıdır.
 Bu blok, RoboPengu'nun kullanıcıya sesli olarak söyleyeceği kısa, samimi, anlaşılır ve akıcı cümledir:
 - ASLA teknik özellikleri, sayısal tabloları, Hz/MP/nits değerlerini kelimesi kelimesine okuma!
-- Sadece en can alıcı net sonucu model adlarını kullanarak özetle ve kullanıcıyı ekrandaki detayları incelemeye yönlendir.
+- Sadece en can alıcı net teknoloji sonucunu model adlarını kullanarak özetle ve kullanıcıyı ekrandaki detayları incelemeye yönlendir.
 - Karşılaştırma Örneği:
 [VOICE_SUMMARY]
-iPhone 18 Pro Max ile iPhone 17 Pro Max modellerini karşılaştırdım; işlemci verimliliği ve yapay zeka gücünde 18 Pro Max öne çıkarken, fiyat avantajını ekrandaki analizden görebilirsin.
+iPhone 18 Pro Max ile iPhone 17 Pro Max modellerini donanım laboratuvarında kıyasladım; işlemci mimarisi ve tepe parlaklıkta 18 Pro Max üstünlük sağlarken, detaylı donanım masasını ekranda inceleyebilirsin.
 [/VOICE_SUMMARY]
 - Bütçe / Tavsiye Örneği:
 [VOICE_SUMMARY]
@@ -57,25 +63,26 @@ Kullanıcı iki veya daha fazla ürünü karşılaştırmanı istediğinde yanı
 
 [SUMMARY_CHAT]
 Sol sohbet balonunda görüntülenecek 2-3 cümlelik samimi, canlı ve bilge yönetici özeti.
-Kullanıcıyı sıcak bir şekilde selamla, aralarındaki en can alıcı farkı/fiyat dengesini doğrudan model isimlerini anarak çarpıcı bir şekilde özetle ve net kararını açıkla. Uzun teknik listeleri buraya ASLA koyma.
-Örnek:
-"Selam! Bu iki canavarı aceleetme laboratuvarında masaya yatırdım. Saf işlemci gücü, 2nm A20 Pro mimarisi ve 3200 nits tepe parlaklığında iPhone 18 Pro Max bayrağı taşırken; iPhone 17 Pro Max de sunduğu 5x periskop optik zoom ve kararlı pil ömrüyle hala çok güçlü bir alternatif. Tüm AnTuTu ve donanım verilerini sağdaki panele aktardım, acele etmeden incele! 🐧"
+Kullanıcıyı sıcak bir şekilde selamla, aralarındaki en can alıcı teknolojik farkı doğrudan model isimlerini anarak çarpıcı bir şekilde özetle ve net teknoloji kazananını açıkla. Eğer fiyat farkı yüksekse kısa bir rasyonel bütçe notu ekle.
 [/SUMMARY_CHAT]
 
 [DEEP_ANALYSIS]
-Sağ panelde görüntülenecek derinlemesine teknik analizi TAM OLARAK şu 4 başlık altında, her başlıkta HANGİSİNİN KİME GÖRE OLDUĞUNU açıklayarak incele:
+Sağ panelde görüntülenecek derinlemesine teknik analizi ürünün KATEGORİSİNE UYGUN 4 ana başlık altında, her başlıkta HANGİSİNİN KİME GÖRE OLDUĞUNU açıklayarak incele:
 
-### 1. Ekran ve Panel Kıyaslaması
-(Panel tipi, tepe parlaklığı nits, piksel yoğunluğu ppi, yenileme hızı Hz ve açık hava/günlük kullanım deneyimi)
+### 1. Ekran, Panel ve Görsel Başarım
+(Panel tipi OLED/Mini-LED/IPS, nits tepe parlaklığı, çözünürlük, yenileme hızı Hz ve renk doğruluğu)
 
-### 2. İşlemci ve Donanım Performansı
-(AnTuTu v10 puanları, Geekbench tek/çok çekirdek, çip üretim nm mimarisi, termal yönetim, yapay zeka NPU TOPS gücü ve uzun ömürlülük)
+### 2. İşlemci, Grafik ve Hesaplama Gücü
+(AnTuTu v10, Geekbench 6, CPU/GPU çekirdek mimarisi, NPU TOPS, TGP watt veya TFLOPs gücü)
 
-### 3. Kamera Sensör Analizi
-(Sensör boyutu, diyafram açıklığı, loş ışık başarımı, optik zoom seviyesi ve video stabilizasyonu)
+### 3. Kamera, Ses ve Akustik Sürücüler
+(Kamera sensör boyutu ve zoom / Televizyon veya kulaklık için hoparlör watt gücü, Dolby Atmos ve sürücü kalitesi)
 
-### 4. Batarya ve Hızlı Şarj Dengesi
-(Kapasite mAh, gerçek kullanım süresi SoT, şarj hızı watt ve priz bağımsızlığı)
+### 4. Batarya, Enerji Tüketimi ve Verimlilik
+(Batarya mAh, hızlı şarj hızı watt / TV ve Beyaz eşya için yıllık kWh enerji sınıfı ve güç yönetimi)
+
+💡 Bütçe & Rasyonel Seçim Tavsiyesi:
+(İki cihaz arasındaki fiyat farkını ve hangi kullanıcının hangi bütçede kalmasının mantıklı olduğunu belirten 1-2 cümlelik rasyonel tavsiye)
 [/DEEP_ANALYSIS]
 
 Eğer kullanıcı karşılaştırma DIŞINDA genel bir soru soruyorsa (örn: teknik terim açıklaması, bütçe tavsiyesi veya tek ürün sorusu), en başta [VOICE_SUMMARY]...[/VOICE_SUMMARY] bloğunu verdikten sonra, empati dolu, düşünen ve bilge bir üslupla, temiz Markdown formatında doğrudan yanıt ver.`;
@@ -98,28 +105,32 @@ function createFallbackStreamResponse(
       if (panel && panel.type === "comparison" && panel.products.length >= 2) {
         const p1 = panel.products[0];
         const p2 = panel.products[1];
+        const winnerName = panel.winner?.productName || p1.name;
         replyText = `[VOICE_SUMMARY]
-${p1.name} ile ${p2.name} modellerini karşılaştırdım, teknik ayrışmaları ve canlı mağaza fiyatlarını ekranda görebilirsin.
+${p1.name} ile ${p2.name} modellerini tüm donanım parametreleriyle karşılaştırdım. Saf teknoloji üstünlüğünde ${winnerName} öne çıkıyor, detayları ekranda görebilirsin.
 [/VOICE_SUMMARY]
 [SUMMARY_CHAT]
-${p1.name} ile ${p2.name} modellerini aceleetme kataloğumuzdan tüm donanım kriterleriyle kıyasladım! Ekran, işlemci ve kamera tarafındaki tüm teknik ayrışmaları ve canlı verileri sağdaki **Canlı Karşılaştırma Paneli**'ne aktardım. 🐧
+${p1.name} ile ${p2.name} modellerini aceleetme laboratuvarında en dip donanım ayrıntılarına kadar kıyasladım! Teknolojik kriterlerde, panel kalitesinde ve hesaplama gücünde **${winnerName}** liderliği alıyor. Tüm bire bir teknik parametreleri ve piyasa fiyatlarını sağdaki **Canlı Karşılaştırma Paneli**'ne aktardım. 🐧
 [/SUMMARY_CHAT]
 [DEEP_ANALYSIS]
-### 1. Ekran ve Panel Kıyaslaması
-* **${p1.name}:** Yüksek renk doğruluğu ve dinamik yenileme hızıyla üst düzey görüntü deneyimi sunuyor.
-* **${p2.name}:** Geniş ekran alanı ve yüksek tepe parlaklığıyla açık havada parlama önleyici avantaj sağlıyor.
+### 1. Ekran, Panel ve Görsel Başarım
+* **${p1.name}:** Yüksek renk gamı, piksel yoğunluğu ve dinamik yenileme hızıyla üst düzey görsel sadakat sunuyor.
+* **${p2.name}:** Geniş çalışma/izleme alanı ve yüksek tepe parlaklığıyla ortam ışıklarında parlama önleyici avantaj sağlıyor.
 
-### 2. İşlemci ve Donanım Performansı
-* **${p1.name}:** Optimize mimarisi ve yüksek tek çekirdek gücüyle oyun ve ağır görevlerde akıcı.
-* **${p2.name}:** Yüksek bellek kapasitesi ve yapay zeka işlem motoruyla çoklu görev performansında öne çıkıyor.
+### 2. İşlemci, Grafik ve Hesaplama Gücü
+* **${p1.name}:** Optimize çip mimarisi, yüksek çekirdek frekansı ve gelişmiş termal yönetimiyle yoğun iş yüklerinde kararlı.
+* **${p2.name}:** Geniş bellek bant genişliği ve yapay zeka işlem birimleriyle çoklu görevlerde akıcı bir deneyim sağlıyor.
 
-### 3. Kamera Sensör Analizi
-* **${p1.name}:** Doğal renk kalibrasyonu, dinamik aralık ve kararlı video kayıt yetenekleriyle öne çıkıyor.
-* **${p2.name}:** Yüksek megapiksel ana sensör ve telefoto zoom menziliyle uzak mesafe detaylarında güçlü.
+### 3. Kamera, Ses ve Akustik Sürücüler
+* **${p1.name}:** Akustik çözünürlük, geniş dinamik aralık ve hassas sensör/sürücü kalibrasyonuyla öne çıkıyor.
+* **${p2.name}:** Yüksek çıkış gücü ve geniş frekans tepkisiyle dengeli ve doyurucu bir performans sunuyor.
 
-### 4. Batarya ve Hızlı Şarj Dengesi
-* **${p1.name}:** Optimize güç tüketimiyle verimli bir günlük pil ömrü sağlıyor.
-* **${p2.name}:** Yüksek batarya kapasitesi ve hızlı şarj gücüyle kısa sürede şarj olma avantajı sunuyor.
+### 4. Batarya, Enerji Tüketimi ve Verimlilik
+* **${p1.name}:** Optimize güç tüketim eğrisiyle enerji verimliliği ve uzun süreli dayanıklılık vadediyor.
+* **${p2.name}:** Yüksek güç kapasitesi ve hızlı enerji dolumuyla prizden bağımsız kullanım kolaylığı sağlıyor.
+
+💡 Bütçe & Rasyonel Seçim Tavsiyesi:
+Saf teknoloji ve donanım kriterlerinde **${winnerName}** üstün gelse de, iki model arasındaki fiyat farkını değerlendirerek bütçene ve kullanım yoğunluğuna en uygun dengeyi seçebilirsin.
 [/DEEP_ANALYSIS]`;
       } else if (recommendations && recommendations.length > 0) {
         replyText = `[VOICE_SUMMARY]
@@ -217,8 +228,9 @@ ${matrixInfo ? `\n[ANTUTU & VERSUS DONANIM VE PERFORMANS TABLOSU]:\n${matrixInfo
 
 ÖNEMLİ VE KESİN TALİMATLAR:
 1. ASLA "1. ürün", "2. ürün", "birinci model", "ikinci model" deme! Her zaman doğrudan "${p1.name}" ve "${p2.name}" model adlarını kullanarak konuş.
-2. Bu iki cihazı Versus.com, AnTuTu Benchmark, Geekbench 6 ve GSMArena derinliğinde teknik bilgi dağarcığınla kıyasla. AnTuTu v10 puanlarını, çip üretim nm mimarisini, tepe parlaklık nits değerini, kamera sensör boyutlarını ve şarj hızlarını somut olarak masaya yatır.
-3. [SUMMARY_CHAT] bloğunda her iki modelin adını geçirerek net bir karar ver. [DEEP_ANALYSIS] bloğunda ise 4 başlığın her birinde hem ${p1.name} hem de ${p2.name} modellerinin farkını başlık altında açıkça model isimleriyle yaz.`;
+2. Bu iki cihazı Versus.com, AnTuTu Benchmark, Geekbench 6, RTINGS, Notebookcheck seviyesinde derinlemesine teknik bilgi dağarcığınla kıyasla. Kategorisine göre panel tipi, tepe nits parlaklığı, işlemci/grafik mimarisi, NPU TOPS / TGP watt / TFLOPs gücü, sensör boyutu veya akustik sürücü boyutlarını somut verilerle masaya yatır.
+3. TEKNOLOJİ KAZANANI KURALI: Kazananı fiyata göre değil, teknolojik üstünlüğe ve donanım gücüne göre belirle! Fiyat farkı yüksekse [DEEP_ANALYSIS] sonundaki bütçe tavsiyesinde mantık çerçevesinde kullanıcıyı yönlendir.
+4. [SUMMARY_CHAT] bloğunda her iki modelin adını geçirerek net bir teknoloji kazananı açıkla. [DEEP_ANALYSIS] bloğunda ise 4 başlığın her birinde hem ${p1.name} hem de ${p2.name} modellerinin farkını model isimleriyle detaylandır.`;
     } else if (!sidePanel) {
       // Tekil ürün veya model arama kontrolü (Örn: "redmi note 14 pro", "s24 ultra", "iphone 16")
       const rawMatches = searchProductsInCatalog(trimmedPrompt, 3);
