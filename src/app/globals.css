@@ -385,6 +385,13 @@ html, body {
 .animate-wave-2 { animation: wave-bar-2 0.8s ease-in-out infinite 0.15s; }
 .animate-wave-3 { animation: wave-bar-3 0.55s ease-in-out infinite 0.1s; }
 .animate-wave-4 { animation: wave-bar-4 0.75s ease-in-out infinite 0.2s; }
+/* 📺 Smart TV Performance Mode: Disable heavy GPU filters and complex blurs on Smart TVs */
+.smart-tv * {
+  backdrop-filter: none !important;
+  -webkit-backdrop-filter: none !important;
+}
 
-
+.smart-tv {
+  scroll-behavior: auto !important;
+}
 
