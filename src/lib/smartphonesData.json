@@ -5,22 +5,22 @@
     "name": "Apple iPhone Duo (256 GB)",
     "brand": "Apple",
     "category": "smartphones",
-    "image": "/images/phones/apple/apple-iphone-duo-2.png",
+    "image": "/images/phones/apple/apple-iphone-duo-11.jpg",
     "images": [
-      "/images/phones/apple/apple-iphone-duo-2.png",
       "/images/phones/apple/apple-iphone-duo-11.jpg",
+      "/images/phones/apple/apple-iphone-duo-2.png",
       "/images/phones/apple/apple-iphone-duo-12.jpg",
-      "/images/phones/apple/apple-iphone-duo-3.png",
-      "/images/phones/apple/apple-iphone-duo-1.jpg",
-      "/images/phones/apple/apple-iphone-duo-2.jpg",
-      "/images/phones/apple/apple-iphone-duo-3.jpg",
-      "/images/phones/apple/apple-iphone-duo-4.jpg",
+      "/images/phones/apple/apple-iphone-duo-10.jpg",
       "/images/phones/apple/apple-iphone-duo-5.jpg",
+      "/images/phones/apple/apple-iphone-duo-3.png",
       "/images/phones/apple/apple-iphone-duo-6.jpg",
+      "/images/phones/apple/apple-iphone-duo-1.jpg",
       "/images/phones/apple/apple-iphone-duo-7.jpg",
-      "/images/phones/apple/apple-iphone-duo-8.jpg",
+      "/images/phones/apple/apple-iphone-duo-2.jpg",
       "/images/phones/apple/apple-iphone-duo-9.jpg",
-      "/images/phones/apple/apple-iphone-duo-10.jpg"
+      "/images/phones/apple/apple-iphone-duo-4.jpg",
+      "/images/phones/apple/apple-iphone-duo-3.jpg",
+      "/images/phones/apple/apple-iphone-duo-8.jpg"
     ],
     "rating": 4.9,
     "epeyScore": 96,
@@ -208,22 +208,22 @@
     "name": "Apple iPhone Duo (512 GB)",
     "brand": "Apple",
     "category": "smartphones",
-    "image": "/images/phones/apple/apple-iphone-duo-2.png",
+    "image": "/images/phones/apple/apple-iphone-duo-12.jpg",
     "images": [
+      "/images/phones/apple/apple-iphone-duo-12.jpg",
       "/images/phones/apple/apple-iphone-duo-2.png",
       "/images/phones/apple/apple-iphone-duo-11.jpg",
-      "/images/phones/apple/apple-iphone-duo-12.jpg",
-      "/images/phones/apple/apple-iphone-duo-3.png",
-      "/images/phones/apple/apple-iphone-duo-1.jpg",
-      "/images/phones/apple/apple-iphone-duo-2.jpg",
-      "/images/phones/apple/apple-iphone-duo-3.jpg",
-      "/images/phones/apple/apple-iphone-duo-4.jpg",
+      "/images/phones/apple/apple-iphone-duo-10.jpg",
       "/images/phones/apple/apple-iphone-duo-5.jpg",
+      "/images/phones/apple/apple-iphone-duo-3.png",
       "/images/phones/apple/apple-iphone-duo-6.jpg",
+      "/images/phones/apple/apple-iphone-duo-1.jpg",
       "/images/phones/apple/apple-iphone-duo-7.jpg",
-      "/images/phones/apple/apple-iphone-duo-8.jpg",
+      "/images/phones/apple/apple-iphone-duo-2.jpg",
       "/images/phones/apple/apple-iphone-duo-9.jpg",
-      "/images/phones/apple/apple-iphone-duo-10.jpg"
+      "/images/phones/apple/apple-iphone-duo-4.jpg",
+      "/images/phones/apple/apple-iphone-duo-3.jpg",
+      "/images/phones/apple/apple-iphone-duo-8.jpg"
     ],
     "rating": 4.9,
     "epeyScore": 96,
@@ -258,14 +258,14 @@
     ],
     "colorOptions": [
       {
-        "name": "Siyah",
-        "hex": "#262626",
-        "image": "/images/phones/apple/apple-iphone-duo-11.jpg"
-      },
-      {
         "name": "Beyaz",
         "hex": "#F2F2F2",
         "image": "/images/phones/apple/apple-iphone-duo-12.jpg"
+      },
+      {
+        "name": "Siyah",
+        "hex": "#262626",
+        "image": "/images/phones/apple/apple-iphone-duo-11.jpg"
       }
     ],
     "storeOffers": [
@@ -411,22 +411,22 @@
     "name": "Apple iPhone Duo (1 TB)",
     "brand": "Apple",
     "category": "smartphones",
-    "image": "/images/phones/apple/apple-iphone-duo-2.png",
+    "image": "/images/phones/apple/apple-iphone-duo-11.jpg",
     "images": [
-      "/images/phones/apple/apple-iphone-duo-2.png",
       "/images/phones/apple/apple-iphone-duo-11.jpg",
+      "/images/phones/apple/apple-iphone-duo-2.png",
       "/images/phones/apple/apple-iphone-duo-12.jpg",
-      "/images/phones/apple/apple-iphone-duo-3.png",
-      "/images/phones/apple/apple-iphone-duo-1.jpg",
-      "/images/phones/apple/apple-iphone-duo-2.jpg",
-      "/images/phones/apple/apple-iphone-duo-3.jpg",
-      "/images/phones/apple/apple-iphone-duo-4.jpg",
+      "/images/phones/apple/apple-iphone-duo-10.jpg",
       "/images/phones/apple/apple-iphone-duo-5.jpg",
+      "/images/phones/apple/apple-iphone-duo-3.png",
       "/images/phones/apple/apple-iphone-duo-6.jpg",
+      "/images/phones/apple/apple-iphone-duo-1.jpg",
       "/images/phones/apple/apple-iphone-duo-7.jpg",
-      "/images/phones/apple/apple-iphone-duo-8.jpg",
+      "/images/phones/apple/apple-iphone-duo-2.jpg",
       "/images/phones/apple/apple-iphone-duo-9.jpg",
-      "/images/phones/apple/apple-iphone-duo-10.jpg"
+      "/images/phones/apple/apple-iphone-duo-4.jpg",
+      "/images/phones/apple/apple-iphone-duo-3.jpg",
+      "/images/phones/apple/apple-iphone-duo-8.jpg"
     ],
     "rating": 4.9,
     "epeyScore": 96,
@@ -614,22 +614,22 @@
     "name": "Apple iPhone Duo (2 TB)",
     "brand": "Apple",
     "category": "smartphones",
-    "image": "/images/phones/apple/apple-iphone-duo-2.png",
+    "image": "/images/phones/apple/apple-iphone-duo-12.jpg",
     "images": [
+      "/images/phones/apple/apple-iphone-duo-12.jpg",
       "/images/phones/apple/apple-iphone-duo-2.png",
       "/images/phones/apple/apple-iphone-duo-11.jpg",
-      "/images/phones/apple/apple-iphone-duo-12.jpg",
-      "/images/phones/apple/apple-iphone-duo-3.png",
-      "/images/phones/apple/apple-iphone-duo-1.jpg",
-      "/images/phones/apple/apple-iphone-duo-2.jpg",
-      "/images/phones/apple/apple-iphone-duo-3.jpg",
-      "/images/phones/apple/apple-iphone-duo-4.jpg",
+      "/images/phones/apple/apple-iphone-duo-10.jpg",
       "/images/phones/apple/apple-iphone-duo-5.jpg",
+      "/images/phones/apple/apple-iphone-duo-3.png",
       "/images/phones/apple/apple-iphone-duo-6.jpg",
+      "/images/phones/apple/apple-iphone-duo-1.jpg",
       "/images/phones/apple/apple-iphone-duo-7.jpg",
-      "/images/phones/apple/apple-iphone-duo-8.jpg",
+      "/images/phones/apple/apple-iphone-duo-2.jpg",
       "/images/phones/apple/apple-iphone-duo-9.jpg",
-      "/images/phones/apple/apple-iphone-duo-10.jpg"
+      "/images/phones/apple/apple-iphone-duo-4.jpg",
+      "/images/phones/apple/apple-iphone-duo-3.jpg",
+      "/images/phones/apple/apple-iphone-duo-8.jpg"
     ],
     "rating": 4.9,
     "epeyScore": 96,
@@ -664,14 +664,14 @@
     ],
     "colorOptions": [
       {
-        "name": "Siyah",
-        "hex": "#262626",
-        "image": "/images/phones/apple/apple-iphone-duo-11.jpg"
-      },
-      {
         "name": "Beyaz",
         "hex": "#F2F2F2",
         "image": "/images/phones/apple/apple-iphone-duo-12.jpg"
+      },
+      {
+        "name": "Siyah",
+        "hex": "#262626",
+        "image": "/images/phones/apple/apple-iphone-duo-11.jpg"
       }
     ],
     "storeOffers": [
