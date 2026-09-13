@@ -2,132 +2,96 @@
 
 import React from 'react';
 import Link from 'next/link';
-import { TrendingDown, Sparkles, ArrowRight, Scale, BarChart3, BellRing } from 'lucide-react';
-import { ACTIVE_STORE_COUNT, ACTIVE_RETAILERS } from '@/lib/activeStores';
+import { Sparkles, ArrowRight, Scale, CheckCircle2 } from 'lucide-react';
+import { ACTIVE_STORE_COUNT } from '@/lib/activeStores';
 
 export function LiveDealsBillboard() {
   return (
-    <section className="w-full py-2 sm:py-4 flex items-center justify-center select-none">
-      <div className="w-full max-w-7xl relative overflow-hidden rounded-3xl bg-gradient-to-br from-emerald-50/80 via-white to-teal-50/60 border border-emerald-500/25 shadow-sm p-6 sm:p-8 lg:p-9 text-slate-900">
+    <section className="w-full py-3 sm:py-5 flex items-center justify-center select-none">
+      <div className="w-full max-w-7xl relative overflow-hidden rounded-3xl sm:rounded-4xl bg-gradient-to-br from-slate-50 via-white to-emerald-50/40 border border-slate-200/90 shadow-lg hover:shadow-xl transition-all p-6 sm:p-9 lg:p-10 text-slate-900">
         
-        {/* Soft Ambient Glow Backlights matching site colors */}
+        {/* Soft Ambient Glow Backlights */}
         <div className="absolute -top-24 -left-24 w-96 h-96 rounded-full blur-3xl pointer-events-none bg-emerald-500/10" />
-        <div className="absolute -bottom-24 -right-10 w-96 h-96 rounded-full blur-3xl pointer-events-none bg-teal-500/12" />
-        <div className="absolute top-1/3 right-1/4 w-72 h-72 rounded-full blur-3xl pointer-events-none bg-emerald-400/8" />
+        <div className="absolute -bottom-24 -right-10 w-96 h-96 rounded-full blur-3xl pointer-events-none bg-teal-500/10" />
 
-        {/* 📱 Apple iPhone 18 Pro Official Showcase Visual on Right */}
-        <div className="absolute right-0 top-0 bottom-0 w-80 sm:w-96 lg:w-[500px] pointer-events-none select-none overflow-hidden hidden md:block">
-          <div className="relative w-full h-full flex items-center justify-end">
-            <img
-              src="/images/banners/apple-iphone-18-pro-banner.png"
-              alt="Apple iPhone 18 Pro"
-              className="h-full w-auto max-w-none object-cover object-right opacity-90 lg:opacity-95 mix-blend-multiply transition-transform duration-700 hover:scale-105"
-            />
-            {/* Smooth left blend gradient into the billboard background */}
-            <div className="absolute inset-y-0 left-0 w-24 bg-gradient-to-r from-emerald-50/90 via-white/50 to-transparent pointer-events-none" />
-          </div>
-        </div>
-
-        {/* 🏷️ TOP RIGHT: aceleEtme LIVE BADGE */}
-        <div className="absolute top-4 right-4 sm:top-6 sm:right-6 z-30 flex items-center gap-2 font-mono">
-          <span className="px-3.5 py-1.5 text-[10.5px] font-black uppercase tracking-wider bg-emerald-100 text-emerald-800 border border-emerald-300 rounded-full shadow-2xs flex items-center gap-1.5">
-            <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse" />
-            <span>%100 Tarafsız & Ücretsiz</span>
-          </span>
-        </div>
-
-        {/* Main Content: Full-width expanded layout with balanced typography */}
-        <div className="relative z-10 w-full space-y-4">
+        <div className="relative z-10 grid grid-cols-1 lg:grid-cols-12 gap-6 lg:gap-8 items-center">
           
-          {/* Header Ticker */}
-          <div className="flex flex-wrap items-center gap-2.5">
-            <span className="text-xs font-black px-3 py-1 rounded-full text-white shadow-xs tracking-wider bg-emerald-600 flex items-center gap-1.5">
-              <Sparkles className="w-3.5 h-3.5" />
-              <span>RESMİ PLATFORM REHBERİ</span>
-            </span>
-
-            <span className="text-xs font-bold text-slate-500 tracking-wide">
-              Türkiye&apos;nin En Gelişmiş Teknoloji & Canlı Fiyat Karşılaştırma Merkezi
-            </span>
-          </div>
-
-          {/* Main Title & Subhead */}
-          <div className="space-y-2 max-w-4xl">
-            <h2 className="text-2xl sm:text-3xl lg:text-4xl font-black text-slate-900 leading-tight tracking-tight">
-              Acele Etme, Akıllı Karşılaştır!{' '}
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-600 via-teal-600 to-emerald-700">
-                En Doğru Zamanda En Uygun Fiyata Ulaş.
-              </span>
-            </h2>
-
-            <div className="inline-flex items-center gap-2 bg-emerald-100/90 border border-emerald-300 text-emerald-900 text-xs sm:text-sm font-black px-3.5 py-1.5 rounded-2xl shadow-2xs">
-              <TrendingDown className="w-4 h-4 text-emerald-700 shrink-0" />
-              <span>
-                {ACTIVE_STORE_COUNT === 1
-                  ? `${ACTIVE_RETAILERS[0]?.name || 'Hepsiburada'} Üzerinde 5.670+ Model Canlı Takipte • Sahte İndirimlere Son!`
-                  : `${ACTIVE_STORE_COUNT} Büyük Mağazada 5.670+ Model Canlı Takipte • Sahte İndirimlere Son!`}
-              </span>
-            </div>
-          </div>
-
-          {/* 3 Value Pillars matching website color scheme - Spanning all 3 columns */}
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-3.5 pt-1.5">
+          {/* LEFT 7 COLS: Ultra-Premium Clean Typography & Values */}
+          <div className="lg:col-span-7 space-y-5 sm:space-y-6">
             
-            <div className="bg-white/90 backdrop-blur-xs border border-slate-200/90 hover:border-emerald-500/60 rounded-2xl p-4 transition-all duration-200 hover:shadow-md hover:-translate-y-0.5 flex items-center gap-3.5 shadow-2xs group">
-              <div className="w-11 h-11 rounded-xl bg-emerald-50 text-emerald-700 flex items-center justify-center font-black text-base shrink-0 border border-emerald-200 group-hover:bg-emerald-600 group-hover:text-white transition-colors">
-                <BarChart3 className="w-5 h-5" />
+            {/* Header Ticker Badge */}
+            <div className="flex flex-wrap items-center gap-2.5">
+              <div className="inline-flex items-center gap-2 bg-slate-900 text-white text-[11px] font-black uppercase tracking-wider px-3.5 py-1.5 rounded-full shadow-xs">
+                <Sparkles className="w-3.5 h-3.5 text-emerald-400" />
+                <span>aceleEtme</span>
+                <span className="text-slate-500">•</span>
+                <span className="text-emerald-400 font-extrabold">RESMİ PLATFORM REHBERİ</span>
               </div>
-              <div className="min-w-0">
-                <span className="block text-sm font-black text-slate-900 truncate">6 Aylık Fiyat Grafiği</span>
-                <span className="text-xs text-slate-500 font-semibold truncate block">Gerçek dip fiyat geçmişi</span>
+
+              <span className="px-3 py-1 text-[10.5px] font-bold text-slate-500 bg-white border border-slate-200/90 rounded-full shadow-2xs hidden sm:inline-flex items-center gap-1.5">
+                <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse" />
+                <span>%100 Tarafsız & Şeffaf</span>
+              </span>
+            </div>
+
+            {/* Main Headline & Subtitle */}
+            <div className="space-y-2">
+              <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black text-slate-900 leading-tight tracking-tight">
+                Acele Etme, <br className="hidden sm:inline" />
+                <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-600 via-teal-600 to-emerald-700">
+                  Akıllı Karşılaştır
+                </span>
+              </h2>
+              <p className="text-sm sm:text-base font-semibold text-slate-600 tracking-normal">
+                En Doğru Zamanda En Uygun Fiyata Ulaş.
+              </p>
+            </div>
+
+            {/* 3 Value Pillars (Approved checkmarks) */}
+            <div className="space-y-2.5 pt-1">
+              <div className="flex items-center gap-2.5 text-slate-800 text-xs sm:text-sm font-bold">
+                <CheckCircle2 className="w-4 h-4 text-emerald-600 shrink-0 stroke-[2.5]" />
+                <span>6 Aylık Gerçek Fiyat Grafiği <span className="text-slate-500 font-medium text-xs hidden sm:inline">— Piyasa dip seviyelerini gör</span></span>
+              </div>
+              <div className="flex items-center gap-2.5 text-slate-800 text-xs sm:text-sm font-bold">
+                <CheckCircle2 className="w-4 h-4 text-emerald-600 shrink-0 stroke-[2.5]" />
+                <span>Yapay Zekâ Destekli 100 Puan Düellosu <span className="text-slate-500 font-medium text-xs hidden sm:inline">— Donanım algoritmalarıyla tarafsız skor</span></span>
+              </div>
+              <div className="flex items-center gap-2.5 text-slate-800 text-xs sm:text-sm font-bold">
+                <CheckCircle2 className="w-4 h-4 text-emerald-600 shrink-0 stroke-[2.5]" />
+                <span>{ACTIVE_STORE_COUNT === 1 ? 'Hepsiburada Üzerinde' : `${ACTIVE_STORE_COUNT} Büyük Mağazada`} Canlı Fiyat Takibi <span className="text-slate-500 font-medium text-xs hidden sm:inline">— Sahte indirimlere son</span></span>
               </div>
             </div>
 
-            <div className="bg-white/90 backdrop-blur-xs border border-slate-200/90 hover:border-teal-500/60 rounded-2xl p-4 transition-all duration-200 hover:shadow-md hover:-translate-y-0.5 flex items-center gap-3.5 shadow-2xs group">
-              <div className="w-11 h-11 rounded-xl bg-teal-50 text-teal-700 flex items-center justify-center font-black text-base shrink-0 border border-teal-200 group-hover:bg-teal-600 group-hover:text-white transition-colors">
-                <Scale className="w-5 h-5" />
-              </div>
-              <div className="min-w-0">
-                <span className="block text-sm font-black text-slate-900 truncate">Yapay Zekâ Düellosu</span>
-                <span className="text-xs text-slate-500 font-semibold truncate block">100 puan üzerinden kıyaslama</span>
-              </div>
-            </div>
-
-            <div className="bg-white/90 backdrop-blur-xs border border-slate-200/90 hover:border-amber-500/60 rounded-2xl p-4 transition-all duration-200 hover:shadow-md hover:-translate-y-0.5 flex items-center gap-3.5 shadow-2xs group">
-              <div className="w-11 h-11 rounded-xl bg-amber-50 text-amber-700 flex items-center justify-center font-black text-base shrink-0 border border-amber-200 group-hover:bg-amber-600 group-hover:text-white transition-colors">
-                <BellRing className="w-5 h-5" />
-              </div>
-              <div className="min-w-0">
-                <span className="block text-sm font-black text-slate-900 truncate">Anlık Fiyat Alarmı</span>
-                <span className="text-xs text-slate-500 font-semibold truncate block">Hedef fiyatta anında bildirim</span>
-              </div>
-            </div>
-
-          </div>
-
-          {/* Bottom Actions Row */}
-          <div className="pt-2.5 flex flex-wrap items-center justify-between gap-3 border-t border-slate-200/80">
-            <div className="flex items-center gap-2 text-[11px] font-bold text-slate-500">
-              <span className="text-emerald-600 animate-pulse">●</span>
-              <span>Hepsiburada, Trendyol, MediaMarkt, Amazon, Teknosa, Vatan & İtopya Canlı Takipte</span>
-            </div>
-
-            <div className="flex items-center gap-2.5">
+            {/* Premium Action Buttons */}
+            <div className="pt-2 flex flex-wrap items-center gap-3">
               <Link
                 href="/compare"
-                className="inline-flex items-center gap-2 bg-slate-900 hover:bg-slate-800 text-white font-black text-xs px-5 py-2.5 rounded-full shadow-md hover:scale-105 transition-all cursor-pointer"
+                className="inline-flex items-center gap-2 bg-slate-900 hover:bg-slate-800 text-white font-black text-xs sm:text-sm px-6 py-3 rounded-2xl shadow-md hover:scale-[1.02] active:scale-95 transition-all cursor-pointer"
               >
-                <Scale className="w-4 h-4 text-emerald-400" />
-                <span>Hemen Kıyaslamaya Başla</span>
-                <ArrowRight className="w-4 h-4" />
+                <span>Hemen Başla</span>
+                <ArrowRight className="w-4 h-4 text-emerald-400" />
               </Link>
 
               <Link
-                href="/phones"
-                className="inline-flex items-center gap-1.5 bg-white hover:bg-slate-50 text-slate-800 font-bold text-xs px-4 py-2.5 rounded-full border border-slate-200 shadow-2xs transition-all cursor-pointer"
+                href="/compare"
+                className="inline-flex items-center gap-2 bg-white hover:bg-slate-50 text-slate-800 font-extrabold text-xs sm:text-sm px-6 py-3 rounded-2xl border border-slate-300 shadow-2xs hover:border-emerald-500 hover:text-emerald-700 transition-all cursor-pointer"
               >
-                <span>Modelleri Gör</span>
+                <Scale className="w-4 h-4 text-emerald-600" />
+                <span>Kıyasla</span>
               </Link>
+            </div>
+
+          </div>
+
+          {/* RIGHT 5 COLS: Authentic Apple Artwork with iPhone 18 PRO Typography & Visor Design */}
+          <div className="lg:col-span-5 relative flex items-center justify-center lg:justify-end">
+            <div className="relative w-full max-w-md lg:max-w-none rounded-2xl overflow-hidden border border-slate-200/70 shadow-sm bg-[#F5F5F7]">
+              <img
+                src="/images/banners/apple-iphone-18-pro-banner.png"
+                alt="Apple iPhone 18 Pro"
+                className="w-full h-auto object-contain transition-transform duration-500 hover:scale-105"
+              />
             </div>
           </div>
 
@@ -139,3 +103,4 @@ export function LiveDealsBillboard() {
 }
 
 export default LiveDealsBillboard;
+
