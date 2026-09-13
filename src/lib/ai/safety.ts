@@ -1,6 +1,6 @@
 // src/lib/ai/safety.ts
 /**
- * Security, input validation and rate limiting for /api/ai-assistant route.
+ * Security, input validation and rate limiting for src/app/api/chat/route.ts.
  */
 
 const WINDOW_MS = 60_000; // 1 minute

@@ -20,60 +20,44 @@ export function searchProductsInCatalog(
 ): any[] {
   if (!query || typeof query !== "string") return [];
   const catalog = getStoredProducts();
-  const normQuery = query.toLocaleLowerCase("tr-TR").trim();
-  const tokens = normQuery.split(/\s+/).filter((t) => t.length >= 2);
-  if (tokens.length === 0) return [];
+  const normMsg = normalizeTr(query);
+  const words = normMsg.split(/\s+/).filter((w) => w.length >= 2);
+  if (words.length === 0) return [];
 
-  const genericTokens = new Set([
-    "pro", "max", "ultra", "plus", "mini", "air", "lite", "se", "5g", "4g",
-    "smart", "series", "gb", "tb", "inc", "inch", "hz", "oled", "tv", "telefon"
-  ]);
-  const keyTokens = tokens.filter((t) => !genericTokens.has(t));
+  const scoredProds = catalog
+    .map((p) => {
+      const pName = normalizeTr(p.name || "");
+      const pBrand = normalizeTr(p.brand || "");
+      const haystack = `${pName} ${pBrand}`;
+      const matchedCount = words.filter((w) => haystack.includes(w)).length;
+      const matchRatio = words.length > 0 ? matchedCount / words.length : 0;
+      return { product: p, matchedCount, matchRatio };
+    })
+    .filter((entry) => entry.matchRatio >= 0.75) // en az %75 kelime eşleşmeli (tek kelimelik pro/max yanlış eşleşmelerini önler)
+    .sort((a, b) => b.matchRatio - a.matchRatio || b.matchedCount - a.matchedCount);
 
-  const scored: Array<{ product: any; score: number }> = [];
+  return scoredProds.slice(0, limit).map((entry) => entry.product);
+}
 
-  for (const p of catalog) {
-    const pName = (p.name || "").toLocaleLowerCase("tr-TR");
-    const pBrand = (p.brand || "").toLocaleLowerCase("tr-TR");
-    const combined = `${pBrand} ${pName}`;
+export function formatProductRecommendations(products: any[]): any[] {
+  return products.map((p) => {
+    const validOffers = Array.isArray(p.storeOffers)
+      ? p.storeOffers.filter((o: any) => o && o.price > 0).sort((a: any, b: any) => a.price - b.price)
+      : [];
+    const cheapestPrice = validOffers[0]?.price || p.basePrice || p.price || 0;
+    const cheapestStore = validOffers[0]?.storeName || "En Uygun Mağaza";
 
-    let score = 0;
-    if (pName.includes(normQuery)) score += 200;
-    else if (combined.includes(normQuery)) score += 150;
-
-    let matchedKeyTokens = 0;
-    let matchedTotalTokens = 0;
-
-    for (const tok of tokens) {
-      if (combined.includes(tok)) {
-        matchedTotalTokens++;
-        if (!genericTokens.has(tok)) {
-          matchedKeyTokens++;
-          score += 40;
-        } else {
-          score += 10;
-        }
-      }
-    }
-
-    if (keyTokens.length > 0 && matchedKeyTokens === 0) {
-      continue;
-    }
-
-    if (keyTokens.length > 1 && matchedKeyTokens >= keyTokens.length) {
-      score += 60;
-    }
-
-    const matchRatio = matchedTotalTokens / tokens.length;
-    score += Math.round(matchRatio * 50);
-
-    if (score >= 40) {
-      scored.push({ product: p, score });
-    }
-  }
-
-  scored.sort((a, b) => b.score - a.score);
-  return scored.slice(0, limit).map((s) => s.product);
+    return {
+      productId: p.id,
+      slug: p.slug || p.id,
+      productName: p.name,
+      category: p.category === "smartphones" ? "phones" : p.category,
+      price: cheapestPrice,
+      image: p.image || (Array.isArray(p.images) ? p.images[0] : undefined),
+      reason: `${p.brand || "Katalog"} güncel modeli`,
+      cheapestStore: cheapestStore,
+    };
+  });
 }
 
 export function normalizeTr(text: string): string {

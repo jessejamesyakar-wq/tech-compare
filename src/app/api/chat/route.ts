@@ -1,4 +1,5 @@
-import { GoogleGenerativeAI } from "@google/generative-ai";
+import { checkRateLimit, validateUserMessage, flagsPromptInjection } from "@/lib/ai/safety";
+import { callGeminiStreamWithFallback } from "@/lib/ai/modelRouter";
 import {
   resolveCompareProducts,
   formatComparisonData,
@@ -6,6 +7,8 @@ import {
   createDynamicComparisonPanel,
   isNewsQuery,
   resolveTechNews,
+  searchProductsInCatalog,
+  formatProductRecommendations,
   ComparisonPanelData,
   TechNewsPanelData,
 } from "@/lib/ai/resolvers";
@@ -54,13 +57,22 @@ Sağ panelde görüntülenecek derinlemesine teknik analizi TAM OLARAK şu 4 ba�
 
 Eğer kullanıcı karşılaştırma DIŞINDA genel bir soru soruyorsa (örn: teknik terim açıklaması, bütçe tavsiyesi veya tek ürün sorusu), empati dolu, düşünen ve bilge bir üslupla, temiz Markdown formatında doğrudan yanıt ver.`;
 
-function createFallbackStreamResponse(panel: ComparisonPanelData | TechNewsPanelData) {
+function createFallbackStreamResponse(
+  panel?: ComparisonPanelData | TechNewsPanelData | null,
+  recommendations?: any[]
+) {
   const encoder = new TextEncoder();
   const stream = new ReadableStream({
     start(controller) {
-      controller.enqueue(encoder.encode(`event: panel\ndata: ${JSON.stringify(panel)}\n\n`));
+      if (panel) {
+        controller.enqueue(encoder.encode(`event: panel\ndata: ${JSON.stringify(panel)}\n\n`));
+      }
+      if (recommendations && recommendations.length > 0) {
+        controller.enqueue(encoder.encode(`event: products\ndata: ${JSON.stringify(recommendations)}\n\n`));
+      }
+
       let replyText = "";
-      if (panel.type === "comparison") {
+      if (panel && panel.type === "comparison" && panel.products.length >= 2) {
         const p1 = panel.products[0];
         const p2 = panel.products[1];
         replyText = `[SUMMARY_CHAT]
@@ -83,14 +95,20 @@ ${p1.name} ile ${p2.name} modellerini aceleetme kataloğumuzdan tüm donanım kr
 * **${p1.name}:** Optimize güç tüketimiyle verimli bir günlük pil ömrü sağlıyor.
 * **${p2.name}:** Yüksek batarya kapasitesi ve hızlı şarj gücüyle kısa sürede şarj olma avantajı sunuyor.
 [/DEEP_ANALYSIS]`;
+      } else if (recommendations && recommendations.length > 0) {
+        replyText = `İncelemek istediğin modeli aceleetme kataloğumuzda buldum! 🐧\n\n` +
+          recommendations.map(r => `• **${r.productName}:** ${r.cheapestStore}'da ₺${r.price.toLocaleString("tr-TR")}`).join("\n") +
+          `\n\nBu modelin teknik detayları veya başka bir cihazla kıyaslaması hakkında ne öğrenmek istersin?`;
       } else {
         replyText = `### 📰 RoboPengu Teknoloji Gündemi\n\nTeknoloji dünyasındaki son gelişmeleri ve öne çıkan donanım trendlerini sağ taraftaki panelde derledim! 🐧`;
       }
+
       controller.enqueue(encoder.encode(`event: text\ndata: ${JSON.stringify(replyText)}\n\n`));
       controller.enqueue(encoder.encode("event: done\ndata: [DONE]\n\n"));
       controller.close();
     },
   });
+
   return new Response(stream, {
     headers: {
       "Content-Type": "text/event-stream; charset=utf-8",
@@ -102,20 +120,39 @@ ${p1.name} ile ${p2.name} modellerini aceleetme kataloğumuzdan tüm donanım kr
 
 export async function POST(req: Request) {
   try {
-    const body = await req.json().catch(() => ({}));
-    const prompt = body.prompt || body.message;
-
-    if (!prompt || typeof prompt !== "string" || !prompt.trim()) {
-      return new Response(JSON.stringify({ error: "Lütfen bir ürün veya soru belirtin." }), {
-        status: 400,
-        headers: { "Content-Type": "application/json" },
-      });
+    // 1. IP bazlı Rate Limiting (Kullanıcı başına 1 dakikada maks 10 istek)
+    const forwarded = req.headers.get("x-forwarded-for");
+    const ip = forwarded ? forwarded.split(",")[0].trim() : (req.headers.get("x-real-ip") || "127.0.0.1");
+    const rateCheck = checkRateLimit(ip);
+    if (!rateCheck.allowed) {
+      return new Response(
+        JSON.stringify({ error: "Çok fazla istek gönderdin. Lütfen biraz bekleyip tekrar dene. 🐧" }),
+        { status: 429, headers: { "Content-Type": "application/json" } }
+      );
     }
 
-    const trimmedPrompt = prompt.trim();
+    // 2. Girdi Doğrulama (Boş mesaj, karakter uzunluğu)
+    const body = await req.json().catch(() => ({}));
+    const rawPrompt = body.prompt || body.message || "";
+    const validation = validateUserMessage(rawPrompt);
+    if (!validation.valid) {
+      return new Response(
+        JSON.stringify({ error: validation.error || "Lütfen bir ürün veya soru belirtin." }),
+        { status: 400, headers: { "Content-Type": "application/json" } }
+      );
+    }
+    const trimmedPrompt = validation.sanitized!;
 
-    // 1. Yan Panel Tespiti (Kıyaslama veya Haberler)
+    // 3. Prompt Injection Tespiti & Loglama
+    if (flagsPromptInjection(trimmedPrompt)) {
+      console.warn(`[RoboPengu][SECURITY] Prompt injection şüphesi tespit edildi: "${trimmedPrompt.slice(0, 100)}"`);
+    }
+
+    // 4. Yan Panel Tespiti (Kıyaslama veya Haberler)
     let sidePanel: ComparisonPanelData | TechNewsPanelData | null = null;
+    let matchedProducts: any[] = [];
+    let contextualPrompt = trimmedPrompt;
+
     const compParts = tryExtractComparisonFromMessage(trimmedPrompt);
     if (compParts && compParts.length >= 2) {
       const compResult = resolveCompareProducts(compParts);
@@ -128,8 +165,7 @@ export async function POST(req: Request) {
       sidePanel = resolveTechNews(trimmedPrompt);
     }
 
-    // 2. Canlı Katalog & Fiyat Temellendirme (Grounding)
-    let contextualPrompt = trimmedPrompt;
+    // 5. Canlı Katalog & Fiyat Temellendirme (Grounding)
     if (sidePanel && sidePanel.type === "comparison" && sidePanel.products && sidePanel.products.length >= 2) {
       const p1 = sidePanel.products[0];
       const p2 = sidePanel.products[1];
@@ -148,9 +184,25 @@ export async function POST(req: Request) {
 ${matrixInfo ? `Teknik Veriler ve Ayrışmalar:\n${matrixInfo}` : ""}
 
 Talimat: Bu gerçek fiyat farklarını, mağaza tekliflerini ve donanım avantajlarını analizine derinlemesine dahil et. Kullanıcının günlük hayatındaki pratik karşılığıyla açıkla ve hangisini neden alması gerektiğini netleştir.`;
+    } else if (!sidePanel) {
+      // Tekil ürün veya model arama kontrolü (Örn: "redmi note 14 pro", "s24 ultra", "iphone 16")
+      const rawMatches = searchProductsInCatalog(trimmedPrompt, 3);
+      if (rawMatches.length > 0) {
+        matchedProducts = formatProductRecommendations(rawMatches);
+        const prodsSummary = matchedProducts
+          .map((p) => `- Model: ${p.productName} | En Ucuz Fiyat: ₺${p.price.toLocaleString("tr-TR")} (${p.cheapestStore})`)
+          .join("\n");
+
+        contextualPrompt = `Kullanıcı Sorusu: "${trimmedPrompt}"
+
+[ACELEETME CANLI KATALOG ÜRÜN & FİYAT VERİLERİ]:
+${prodsSummary}
+
+Talimat: Kullanıcının sorduğu cihaz hakkında aceleetme kataloğumuzdaki bu canlı mağaza fiyatlarını ve donanım özelliklerini dikkate alarak samimi, bilgili ve net bir değerlendirme yap.`;
+      }
     }
 
-    // 3. Konuşma Hafızası (Multi-turn History)
+    // 6. Konuşma Hafızası (Multi-turn History)
     const history = Array.isArray(body.history) ? body.history : [];
     const formattedHistory = history
       .slice(-6)
@@ -160,85 +212,52 @@ Talimat: Bu gerçek fiyat farklarını, mağaza tekliflerini ve donanım avantaj
         parts: [{ text: h.content.trim() }],
       }));
 
-    const FALLBACK_KEY = Buffer.from(
-      "QVEuQWI4Uk42TDBWZ2NnaVktR1Q1WWFFeGVMSWtpa2pzejkxQkMtLUk1ZGJtQXEzR2x6WEE=",
-      "base64"
-    ).toString("utf-8");
+    // 7. Model Yönlendirici ile Akış Başlatma (gemini-3.1-pro-preview öncelikli fallback zinciri)
+    const geminiStreamResult = await callGeminiStreamWithFallback({
+      prompt: contextualPrompt,
+      history: formattedHistory,
+      systemInstruction: SYSTEM_INSTRUCTION,
+      generationConfig: {
+        temperature: 0.65,
+        maxOutputTokens: 1500,
+      },
+    });
 
-    let apiKey = process.env.GEMINI_API_KEY;
-    if (!apiKey || apiKey.includes("senin_google_api_anahtarin") || apiKey.trim().length < 10) {
-      apiKey = FALLBACK_KEY;
-    }
-
-    const genAI = new GoogleGenerativeAI(apiKey);
-    const candidateModels = [
-      process.env.GEMINI_MODEL || "gemini-3.6-flash",
-      "gemini-1.5-flash",
-      "gemini-2.5-flash",
-      "gemini-flash-latest",
-    ];
-
-    let result: any = null;
-    let lastError: any = null;
-
-    for (const modelName of candidateModels) {
-      try {
-        const model = genAI.getGenerativeModel({
-          model: modelName,
-          systemInstruction: SYSTEM_INSTRUCTION,
-          generationConfig: {
-            temperature: 0.65,
-            maxOutputTokens: 1200,
-          },
-        });
-
-        if (formattedHistory.length > 0) {
-          const chat = model.startChat({ history: formattedHistory });
-          result = await chat.sendMessageStream(contextualPrompt);
-        } else {
-          result = await model.generateContentStream(contextualPrompt);
-        }
-
-        if (result && result.stream) break;
-      } catch (err: any) {
-        lastError = err;
-        if (
-          err.message &&
-          (err.message.includes("404") ||
-            err.message.includes("not found") ||
-            err.message.includes("no longer available"))
-        ) {
-          continue;
-        }
-        throw err;
+    if (!geminiStreamResult.ok || !geminiStreamResult.stream) {
+      if (sidePanel || matchedProducts.length > 0) {
+        return createFallbackStreamResponse(sidePanel, matchedProducts);
       }
+      throw new Error(geminiStreamResult.error || "Gemini akışı başlatılamadı.");
     }
 
-    if (!result || !result.stream) {
-      if (sidePanel) {
-        return createFallbackStreamResponse(sidePanel);
-      }
-      throw lastError || new Error("Gemini akışı başlatılamadı.");
-    }
-
+    // 8. SSE Yanıt Akışı
     const encoder = new TextEncoder();
     const stream = new ReadableStream({
       async start(controller) {
         try {
-          // 1. Yan panel verisini SSE olarak gönder
+          // A. Yan panel verisini SSE olarak gönder
           if (sidePanel) {
             controller.enqueue(encoder.encode(`event: panel\ndata: ${JSON.stringify(sidePanel)}\n\n`));
           }
 
-          // 2. Gemini metin akışını SSE olarak gönder
-          for await (const chunk of result.stream) {
-            const text = chunk.text();
-            if (text) {
-              controller.enqueue(encoder.encode(`event: text\ndata: ${JSON.stringify(text)}\n\n`));
-            }
+          // B. Eşleşen ürün önerileri varsa SSE olarak gönder
+          if (matchedProducts.length > 0) {
+            controller.enqueue(encoder.encode(`event: products\ndata: ${JSON.stringify(matchedProducts)}\n\n`));
           }
 
-          // 3. Akış tamamlandı
+          // C. Gemini metin akışını SSE olarak gönder
+          try {
+            for await (const chunk of geminiStreamResult.stream!) {
+              const text = chunk.text();
+              if (text) {
+                controller.enqueue(encoder.encode(`event: text\ndata: ${JSON.stringify(text)}\n\n`));
+              }
+            }
+          } catch (streamErr: any) {
+            console.warn("[RoboPengu][STREAM] Akış sonlandı veya istemci ayrıldı:", streamErr?.message);
+          }
+
+          // D. Akış tamamlandı
           controller.enqueue(encoder.encode("event: done\ndata: [DONE]\n\n"));
           controller.close();
         } catch (err) {
@@ -263,4 +282,3 @@ Talimat: Bu gerçek fiyat farklarını, mağaza tekliflerini ve donanım avantaj
     );
   }
 }
-

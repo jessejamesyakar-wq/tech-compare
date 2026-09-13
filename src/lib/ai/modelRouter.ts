@@ -1,14 +1,23 @@
 // src/lib/ai/modelRouter.ts
 /**
  * Robust Gemini API caller with model fallback chain, retries, and timeout.
- * Replaces ad-hoc "try each model in sequence" logic previously inline in
- * src/app/api/ai-assistant/route.ts.
+ * Dedicated AI routing engine for src/app/api/chat/route.ts.
  */
 
+import { GoogleGenerativeAI } from "@google/generative-ai";
+
 export interface ModelCallOptions {
-  contents: any[];
+  contents?: any[];
   systemInstruction?: string;
   tools?: any[];
+  generationConfig?: Record<string, any>;
+  signal?: AbortSignal;
+}
+
+export interface StreamCallOptions {
+  prompt: string;
+  history?: Array<{ role: string; parts: Array<{ text: string }> }>;
+  systemInstruction?: string;
   generationConfig?: Record<string, any>;
   signal?: AbortSignal;
 }
@@ -20,136 +29,203 @@ export interface ModelCallResult {
   error?: string;
 }
 
-// Tek yetkili yapay zeka modeli: Gemini 3.8 Flash
-const MODEL_PRIORITY = [
-  "gemini-3.8-flash", // En akıllı, hızlı ve gelişmiş tek model
+export interface StreamCallResult {
+  ok: boolean;
+  stream?: AsyncIterable<any>;
+  modelUsed?: string;
+  error?: string;
+}
+
+// Model önceliği: gemini-3.1-pro-preview önce, sonra yüksek performanslı flash modelleri, en son lite modeller son çare
+export const MODEL_PRIORITY = [
+  "gemini-3.1-pro-preview",    // 1. Öncelikli pro preview
+  "gemini-3.8-flash",          // 2. En güncel flash
+  "gemini-3.7-flash",          // 3. Yüksek performanslı flash (aktif & hızlı)
+  "gemini-3.5-flash",          // 4. Kararlı flash
+  "gemini-3.1-flash-lite",     // 5. Lite model
+  "gemini-flash-lite-latest",  // 6. Lite modeller son çare
 ];
 
-const MAX_RETRIES_PER_MODEL = 2;
+const MAX_RETRIES_PER_MODEL = 1; // Hızlı fallback için retry sayısı 1
 const REQUEST_TIMEOUT_MS = 15_000;
-const RETRY_BASE_DELAY_MS = 800;
+const RETRY_BASE_DELAY_MS = 400;
 
 function sleep(ms: number) {
   return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
-function isQuotaError(status: number, body: string): boolean {
-  if (status === 429) return true;
-  const lowered = body.toLowerCase();
+function shouldFallbackImmediately(err: any): boolean {
+  const msg = (err?.message || "").toLowerCase();
+  const status = err?.status;
   return (
-    lowered.includes("quota") ||
-    lowered.includes("resource_exhausted") ||
-    lowered.includes("rate limit")
+    status === 429 ||
+    status === 404 ||
+    status === 503 ||
+    msg.includes("429") ||
+    msg.includes("404") ||
+    msg.includes("503") ||
+    msg.includes("high demand") ||
+    msg.includes("quota") ||
+    msg.includes("resource_exhausted") ||
+    msg.includes("rate limit") ||
+    msg.includes("not found") ||
+    msg.includes("no longer available")
   );
 }
-
-function isRetryableError(status: number): boolean {
-  return status >= 500 || status === 429 || status === 0;
-}
-
-async function callSingleModel(
-  model: string,
-  apiKey: string,
-  options: ModelCallOptions
-): Promise<{ status: number; body: string; json?: any }> {
-  const controller = new AbortController();
-  const timeout = setTimeout(() => controller.abort(), REQUEST_TIMEOUT_MS);
-
-  try {
-    const res = await fetch(
-      `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${apiKey}`,
-      {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        signal: options.signal ?? controller.signal,
-        body: JSON.stringify({
-          contents: options.contents,
-          systemInstruction: options.systemInstruction
-            ? { parts: [{ text: options.systemInstruction }] }
-            : undefined,
-          tools: options.tools,
-          safetySettings: [
-            { category: "HARM_CATEGORY_HARASSMENT", threshold: "BLOCK_NONE" },
-            { category: "HARM_CATEGORY_HATE_SPEECH", threshold: "BLOCK_NONE" },
-            { category: "HARM_CATEGORY_SEXUALLY_EXPLICIT", threshold: "BLOCK_NONE" },
-            { category: "HARM_CATEGORY_DANGEROUS_CONTENT", threshold: "BLOCK_NONE" },
-          ],
-          generationConfig: options.generationConfig ?? {
-            temperature: 0.4,
-            maxOutputTokens: 2048,
-          },
-        }),
-      }
-    );
-
-    const text = await res.text();
-    let json: any;
-    try {
-      json = JSON.parse(text);
-    } catch {
-      // Non-JSON body
-    }
-
-    return { status: res.status, body: text, json };
-  } catch (err: any) {
-    if (err?.name === "AbortError") {
-      return { status: 0, body: "Request timed out" };
-    }
-    return { status: 0, body: err?.message ?? "Unknown network error" };
-  } finally {
-    clearTimeout(timeout);
-  }
-}
-
 
 const FALLBACK_KEY = Buffer.from(
   "QVEuQWI4Uk42TDBWZ2NnaVktR1Q1WWFFeGVMSWtpa2pzejkxQkMtLUk1ZGJtQXEzR2x6WEE=",
   "base64"
 ).toString("utf-8");
 
+export function resolveGeminiApiKey(rawApiKey?: string): string {
+  if (!rawApiKey || rawApiKey.includes("senin_google_api_anahtarin") || rawApiKey.trim().length < 10) {
+    return process.env.GEMINI_API_KEY && !process.env.GEMINI_API_KEY.includes("senin_google_api_anahtarin") && process.env.GEMINI_API_KEY.trim().length >= 10
+      ? process.env.GEMINI_API_KEY
+      : FALLBACK_KEY;
+  }
+  return rawApiKey;
+}
+
+/**
+ * Streams response using GoogleGenerativeAI with model fallback chain and retries.
+ */
+export async function callGeminiStreamWithFallback(
+  options: StreamCallOptions,
+  rawApiKey?: string
+): Promise<StreamCallResult> {
+  const apiKey = resolveGeminiApiKey(rawApiKey);
+  const genAI = new GoogleGenerativeAI(apiKey);
+  const attemptLog: string[] = [];
+
+  for (const modelName of MODEL_PRIORITY) {
+    let lastError: any = null;
+
+    for (let attempt = 0; attempt <= MAX_RETRIES_PER_MODEL; attempt++) {
+      try {
+        const model = genAI.getGenerativeModel({
+          model: modelName,
+          systemInstruction: options.systemInstruction,
+          generationConfig: options.generationConfig ?? {
+            temperature: 0.65,
+            maxOutputTokens: 1500,
+          },
+        });
+
+        let result: any;
+        if (options.history && options.history.length > 0) {
+          const chat = model.startChat({ history: options.history });
+          result = await chat.sendMessageStream(options.prompt);
+        } else {
+          result = await model.generateContentStream(options.prompt);
+        }
+
+        if (result && result.stream) {
+          return { ok: true, stream: result.stream, modelUsed: modelName };
+        }
+      } catch (err: any) {
+        lastError = err;
+        const errMsg = err?.message || String(err);
+        attemptLog.push(`[${modelName}] attempt ${attempt}: ${errMsg.slice(0, 120)}`);
+
+        // Model 404, 503 veya 429 kota ise hemen sonraki modele geç
+        if (shouldFallbackImmediately(err)) {
+          break;
+        }
+
+        if (attempt < MAX_RETRIES_PER_MODEL) {
+          await sleep(RETRY_BASE_DELAY_MS * Math.pow(2, attempt));
+        }
+      }
+    }
+
+    console.warn(`[RoboPengu][ModelRouter] ${modelName} kullanılamadı, sıradaki modele geçiliyor...`);
+  }
+
+  console.error("[RoboPengu][ModelRouter] Tüm modeller başarısız oldu:", attemptLog.join(" | "));
+  return {
+    ok: false,
+    error: "Yapay zeka modellerine şu anda ulaşılamıyor. Lütfen birkaç saniye sonra tekrar deneyin.",
+  };
+}
+
+/**
+ * Standard non-streaming call with model fallback chain.
+ */
 export async function callGeminiWithFallback(
   options: ModelCallOptions,
-  rawApiKey: string = process.env.GEMINI_API_KEY ?? ""
+  rawApiKey?: string
 ): Promise<ModelCallResult> {
-  const apiKey = (!rawApiKey || rawApiKey.includes("senin_google_api_anahtarin") || rawApiKey.trim().length < 10)
-    ? FALLBACK_KEY
-    : rawApiKey;
-
+  const apiKey = resolveGeminiApiKey(rawApiKey);
   const attemptLog: string[] = [];
 
   for (const model of MODEL_PRIORITY) {
     let lastError = "";
 
     for (let attempt = 0; attempt <= MAX_RETRIES_PER_MODEL; attempt++) {
-      const result = await callSingleModel(model, apiKey, options);
+      const controller = new AbortController();
+      const timeout = setTimeout(() => controller.abort(), REQUEST_TIMEOUT_MS);
 
-      if (result.status >= 200 && result.status < 300 && result.json) {
-        return { ok: true, data: result.json, modelUsed: model };
-      }
+      try {
+        const res = await fetch(
+          `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${apiKey}`,
+          {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            signal: options.signal ?? controller.signal,
+            body: JSON.stringify({
+              contents: options.contents,
+              systemInstruction: options.systemInstruction
+                ? { parts: [{ text: options.systemInstruction }] }
+                : undefined,
+              tools: options.tools,
+              safetySettings: [
+                { category: "HARM_CATEGORY_HARASSMENT", threshold: "BLOCK_NONE" },
+                { category: "HARM_CATEGORY_HATE_SPEECH", threshold: "BLOCK_NONE" },
+                { category: "HARM_CATEGORY_SEXUALLY_EXPLICIT", threshold: "BLOCK_NONE" },
+                { category: "HARM_CATEGORY_DANGEROUS_CONTENT", threshold: "BLOCK_NONE" },
+              ],
+              generationConfig: options.generationConfig ?? {
+                temperature: 0.4,
+                maxOutputTokens: 2048,
+              },
+            }),
+          }
+        );
 
-      lastError = `[${model}] status=${result.status} body=${result.body.slice(0, 200)}`;
-      attemptLog.push(lastError);
+        const text = await res.text();
+        let json: any;
+        try {
+          json = JSON.parse(text);
+        } catch {}
 
-      if (isQuotaError(result.status, result.body)) {
-        break;
-      }
+        if (res.status >= 200 && res.status < 300 && json) {
+          return { ok: true, data: json, modelUsed: model };
+        }
 
-      if (!isRetryableError(result.status)) {
-        break;
-      }
+        lastError = `[${model}] status=${res.status} body=${text.slice(0, 150)}`;
+        attemptLog.push(lastError);
 
-      if (attempt < MAX_RETRIES_PER_MODEL) {
-        await sleep(RETRY_BASE_DELAY_MS * Math.pow(2, attempt));
+        if (res.status === 404 || res.status === 429) {
+          break;
+        }
+
+        if (attempt < MAX_RETRIES_PER_MODEL) {
+          await sleep(RETRY_BASE_DELAY_MS * Math.pow(2, attempt));
+        }
+      } catch (err: any) {
+        lastError = err?.message || "network error";
+      } finally {
+        clearTimeout(timeout);
       }
     }
 
-    console.error(`[Gemini] ${model} failed:`, lastError);
+    console.warn(`[RoboPengu][ModelRouter] ${model} başarısız oldu: ${lastError}`);
   }
 
-  console.error("[Gemini] Tüm modeller başarısız oldu:", attemptLog.join(" | "));
+  console.error("[RoboPengu][ModelRouter] Tüm modeller başarısız oldu:", attemptLog.join(" | "));
   return {
     ok: false,
-    error:
-      "Şu anda bağlantıda küçük bir sorun yaşıyorum, birkaç saniye sonra tekrar dener misin? 🐧",
+    error: "Şu anda bağlantıda küçük bir sorun yaşıyorum, birkaç saniye sonra tekrar dener misin? 🐧",
   };
 }
