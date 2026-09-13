@@ -40,6 +40,15 @@ export function HeroThumbnailStrip({ items, activeIndex, onSelect }: HeroThumbna
     };
   }, []);
 
+  // Auto-scroll active thumbnail into center view
+  useEffect(() => {
+    if (!scrollContainerRef.current) return;
+    const activeEl = scrollContainerRef.current.children[activeIndex] as HTMLElement | undefined;
+    if (activeEl) {
+      activeEl.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' });
+    }
+  }, [activeIndex]);
+
   const scrollLeft = () => {
     if (scrollContainerRef.current) {
       scrollContainerRef.current.scrollBy({ left: -260, behavior: 'smooth' });

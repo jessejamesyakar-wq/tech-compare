@@ -88,7 +88,7 @@ export function HeroCarousel({ activeIndex = 0, onSelect, initialSlides = [] }: 
   const targetHref = getProductHref(slide.category, slide.slug);
 
   return (
-    <div className="group/carousel relative bg-gradient-to-br from-emerald-50/90 via-white to-teal-50/80 border border-emerald-500/25 rounded-3xl p-6 sm:p-8 lg:p-10 shadow-xl hover:shadow-2xl transition-all duration-500 overflow-hidden">
+    <div className="group/carousel relative bg-gradient-to-br from-emerald-50/90 via-white to-teal-50/80 border border-emerald-500/25 rounded-3xl p-4 sm:p-5 lg:py-5 lg:px-7 shadow-xl hover:shadow-2xl transition-all duration-500 overflow-hidden">
       {/* Vibrant Ambient Glow Orbs */}
       <div className="absolute -right-16 -top-16 w-[500px] h-[500px] bg-gradient-to-tr from-emerald-500/25 via-teal-400/20 to-transparent rounded-full blur-3xl pointer-events-none" />
       <div className="absolute -left-16 -bottom-16 w-[450px] h-[450px] bg-gradient-to-br from-blue-500/15 via-indigo-500/10 to-teal-500/15 rounded-full blur-3xl pointer-events-none" />
@@ -111,7 +111,7 @@ export function HeroCarousel({ activeIndex = 0, onSelect, initialSlides = [] }: 
       </button>
 
       {/* 📱 MOBILE VIEW (< lg): Compact Side-by-Side without vertical bloat */}
-      <div className="block lg:hidden relative z-10 space-y-3">
+      <div className="block lg:hidden relative z-10 space-y-2.5">
         <AnimatePresence mode="wait">
           <motion.div
             key={`mobile-${slide.id}`}
@@ -119,7 +119,7 @@ export function HeroCarousel({ activeIndex = 0, onSelect, initialSlides = [] }: 
             animate={{ opacity: 1, x: 0 }}
             exit={{ opacity: 0, x: -10 }}
             transition={{ duration: 0.3 }}
-            className="space-y-3"
+            className="space-y-2.5"
           >
             {/* Badges */}
             <div className="flex items-center gap-1.5 flex-wrap">
@@ -128,40 +128,40 @@ export function HeroCarousel({ activeIndex = 0, onSelect, initialSlides = [] }: 
               </span>
               <span className="inline-flex items-center gap-1 bg-white/90 border border-slate-200 text-slate-700 text-[10px] font-bold px-2 py-0.5 rounded-full shadow-2xs backdrop-blur-sm">
                 <ShieldCheck className="w-3 h-3 text-emerald-600" />
-                <span>Resmi Mağaza Garantili</span>
+                <span>Resmi Distribütör</span>
               </span>
             </div>
 
             {/* Side-by-Side: Text on Left (7 cols) + Hero Image on Right (5 cols) */}
-            <div className="grid grid-cols-12 gap-3 items-center">
-              <div className="col-span-7 space-y-2">
+            <div className="grid grid-cols-12 gap-2.5 items-center">
+              <div className="col-span-7 space-y-1.5">
                 <div>
                   <h1 className="text-sm sm:text-base font-black text-slate-950 tracking-tight leading-snug line-clamp-2">
                     {slide.mainHeadline}
                   </h1>
-                  <p className="text-[10.5px] text-slate-500 font-semibold line-clamp-1 mt-0.5">
+                  <p className="text-[10px] sm:text-[11px] text-slate-500 font-medium line-clamp-1 mt-0.5">
                     {slide.subHeadline}
                   </p>
                 </div>
 
-                <div className="inline-flex items-baseline gap-1.5 bg-white/95 border border-emerald-300/80 px-2.5 py-1 rounded-xl shadow-2xs backdrop-blur-sm">
-                  <span className="text-[9px] text-slate-400 font-bold uppercase">EN İYİ FİYAT:</span>
+                <div className="inline-flex items-baseline gap-1.5 bg-white/95 border border-emerald-300/80 px-2 py-0.5 rounded-lg shadow-2xs backdrop-blur-sm">
+                  <span className="text-[8.5px] text-slate-400 font-bold uppercase">EN İYİ FİYAT:</span>
                   <span className="text-xs sm:text-sm font-black text-emerald-700 tabular-nums">
                     {slide.price}
                   </span>
                 </div>
 
-                <div className="flex items-center gap-2 pt-0.5">
+                <div className="flex items-center gap-1.5 pt-0.5">
                   <Link
                     href={targetHref}
-                    className="bg-slate-950 hover:bg-black text-white font-black text-[10.5px] px-3 py-1.5 rounded-xl shadow-sm transition-all flex items-center gap-1 cursor-pointer"
+                    className="bg-slate-950 hover:bg-black text-white font-black text-[10px] px-2.5 py-1.5 rounded-lg shadow-sm transition-all flex items-center gap-1 cursor-pointer"
                   >
                     <span>İncele</span>
                     <ArrowRight className="w-3 h-3 text-emerald-400" />
                   </Link>
                   <Link
                     href={`/compare?p1=${slide.slug}`}
-                    className="bg-white hover:bg-slate-50 border border-slate-200 text-slate-800 font-bold text-[10.5px] px-2.5 py-1.5 rounded-xl shadow-2xs transition-all flex items-center gap-1 cursor-pointer"
+                    className="bg-white hover:bg-slate-50 border border-slate-200 text-slate-800 font-bold text-[10px] px-2 py-1.5 rounded-lg shadow-2xs transition-all flex items-center gap-1 cursor-pointer"
                   >
                     <Zap className="w-3 h-3 text-amber-500 fill-amber-500" />
                     <span>Kıyasla</span>
@@ -171,19 +171,19 @@ export function HeroCarousel({ activeIndex = 0, onSelect, initialSlides = [] }: 
 
               {/* Right Image Stage */}
               <div className="col-span-5 flex items-center justify-center">
-                <Link href={targetHref} className="relative w-full h-36 sm:h-40 bg-white/95 rounded-2xl p-2.5 border border-slate-200/90 shadow-md flex flex-col items-center justify-center group/img cursor-pointer">
-                  <div className="w-full h-24 sm:h-28 flex items-center justify-center overflow-hidden">
+                <Link href={targetHref} className="relative w-full h-32 sm:h-36 bg-white/95 rounded-xl p-2 border border-slate-200/90 shadow-sm flex flex-col items-center justify-center group/img cursor-pointer">
+                  <div className="w-full h-20 sm:h-24 flex items-center justify-center overflow-hidden">
                     <Image
                       src={slide.image}
                       alt={slide.productName}
-                      width={240}
-                      height={240}
+                      width={200}
+                      height={200}
                       priority={true}
                       sizes="40vw"
-                      className="w-full h-full max-h-24 sm:max-h-28 object-contain filter drop-shadow-md group-hover/img:scale-105 transition-transform duration-300"
+                      className="w-full h-full max-h-20 sm:max-h-24 object-contain filter drop-shadow-md group-hover/img:scale-105 transition-transform duration-300"
                     />
                   </div>
-                  <span className="text-[10px] font-extrabold text-slate-900 truncate block w-full text-center mt-1 px-1">
+                  <span className="text-[9.5px] font-extrabold text-slate-900 truncate block w-full text-center mt-1 px-0.5">
                     {slide.productName}
                   </span>
                 </Link>
@@ -193,7 +193,7 @@ export function HeroCarousel({ activeIndex = 0, onSelect, initialSlides = [] }: 
         </AnimatePresence>
 
         {/* Bottom Ticker & Dots */}
-        <div className="flex items-center justify-between pt-2.5 border-t border-slate-200/70 text-[10px] text-slate-500 font-bold">
+        <div className="flex items-center justify-between pt-2 border-t border-slate-200/70 text-[10px] text-slate-500 font-bold">
           <span className="flex items-center gap-1 text-emerald-800">
             <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse" />
             <span>
@@ -204,7 +204,10 @@ export function HeroCarousel({ activeIndex = 0, onSelect, initialSlides = [] }: 
           </span>
 
           <div className="flex items-center gap-1">
-            {heroSlides.slice(0, 8).map((_, idx) => (
+            <span className="text-[9px] text-slate-400 font-semibold mr-1">
+              {currentSlideIndex + 1}/{heroSlides.length}
+            </span>
+            {heroSlides.slice(0, 12).map((_, idx) => (
               <button
                 key={idx}
                 onClick={() => {
@@ -214,7 +217,7 @@ export function HeroCarousel({ activeIndex = 0, onSelect, initialSlides = [] }: 
                 aria-label={`Slayt ${idx + 1}`}
                 className={`transition-all rounded-full cursor-pointer ${
                   currentSlideIndex === idx
-                    ? 'w-4 h-1 bg-emerald-600'
+                    ? 'w-3 h-1 bg-emerald-600'
                     : 'w-1 h-1 bg-slate-300 hover:bg-slate-400'
                 }`}
               />
@@ -223,51 +226,51 @@ export function HeroCarousel({ activeIndex = 0, onSelect, initialSlides = [] }: 
         </div>
       </div>
 
-      {/* 🖥️ DESKTOP VIEW (lg+): Apple Studio Glass Edition */}
+      {/* 🖥️ DESKTOP VIEW (lg+): Compact & Balanced Apple Studio Layout */}
       <div className="hidden lg:block relative z-10">
         <AnimatePresence mode="wait">
           <motion.div
             key={`desktop-${slide.id}`}
-            initial={{ opacity: 0, y: 12 }}
+            initial={{ opacity: 0, y: 8 }}
             animate={{ opacity: 1, y: 0 }}
-            exit={{ opacity: 0, y: -12 }}
-            transition={{ duration: 0.35, ease: 'easeOut' }}
-            className="grid lg:grid-cols-12 gap-8 items-center"
+            exit={{ opacity: 0, y: -8 }}
+            transition={{ duration: 0.3, ease: 'easeOut' }}
+            className="grid lg:grid-cols-12 gap-6 lg:gap-8 items-center"
           >
             {/* Left Column (7 cols) */}
-            <div className="lg:col-span-7 space-y-4 text-left">
+            <div className="lg:col-span-7 space-y-2.5 sm:space-y-3 text-left">
               
               {/* Badges */}
               <div className="flex flex-wrap items-center gap-2">
-                <div className="inline-flex items-center gap-1.5 bg-gradient-to-r from-emerald-600 to-teal-600 text-white text-[11px] font-black px-4 py-1.5 rounded-full shadow-md tracking-wide uppercase">
+                <div className="inline-flex items-center gap-1.5 bg-gradient-to-r from-emerald-600 to-teal-600 text-white text-[10.5px] font-black px-3.5 py-1 rounded-full shadow-md tracking-wide uppercase">
                   <span>{slide.badgeText}</span>
                 </div>
-                <div className="bg-white/90 backdrop-blur-md text-slate-700 border border-slate-200 text-[11px] font-bold px-3.5 py-1.5 rounded-full flex items-center gap-1.5 shadow-2xs">
+                <div className="bg-white/90 backdrop-blur-md text-slate-700 border border-slate-200 text-[10.5px] font-bold px-3 py-1 rounded-full flex items-center gap-1.5 shadow-2xs">
                   <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse" />
                   <span>%100 Resmi Distribütör Garantili</span>
                 </div>
               </div>
 
               {/* Main Title & Subhead */}
-              <div className="space-y-1.5">
-                <h1 className="text-2xl sm:text-3xl lg:text-[34px] font-black text-slate-950 tracking-tight leading-[1.15]">
+              <div className="space-y-1">
+                <h1 className="text-xl sm:text-2xl lg:text-[27px] font-black text-slate-950 tracking-tight leading-[1.2]">
                   {slide.mainHeadline}
                 </h1>
-                <p className="text-sm sm:text-base font-semibold text-slate-600 line-clamp-2 leading-relaxed">
+                <p className="text-xs sm:text-[13px] font-medium text-slate-600 line-clamp-2 leading-snug">
                   {slide.subHeadline}
                 </p>
               </div>
 
               {/* Price & Score Block */}
-              <div className="flex flex-wrap items-center gap-3 pt-1">
-                <div className="inline-flex items-baseline gap-2.5 bg-white/95 border border-emerald-500/30 px-5 py-2.5 rounded-2xl backdrop-blur-md shadow-sm">
-                  <span className="text-xs text-slate-400 font-bold uppercase tracking-wider">EN İYİ FİYAT:</span>
-                  <span className="text-2xl sm:text-3xl font-black text-emerald-700 tracking-tight tabular-nums">
+              <div className="flex flex-wrap items-center gap-2.5 pt-0.5">
+                <div className="inline-flex items-baseline gap-2 bg-white/95 border border-emerald-500/30 px-3.5 py-1.5 rounded-xl backdrop-blur-md shadow-2xs">
+                  <span className="text-[10px] text-slate-400 font-bold uppercase tracking-wider">EN İYİ FİYAT:</span>
+                  <span className="text-xl sm:text-2xl font-black text-emerald-700 tracking-tight tabular-nums">
                     {slide.price}
                   </span>
                 </div>
 
-                <div className="hidden sm:inline-flex items-center gap-1.5 bg-slate-900 text-white text-xs font-black px-3.5 py-2.5 rounded-2xl shadow-sm">
+                <div className="hidden sm:inline-flex items-center gap-1.5 bg-slate-900 text-white text-[11px] font-black px-3 py-2 rounded-xl shadow-2xs">
                   <span>⭐ {slide.score || 99}/100 Puan</span>
                   <span className="text-slate-400">•</span>
                   <span className="text-emerald-400">📉 En Düşük Seviye</span>
@@ -275,19 +278,19 @@ export function HeroCarousel({ activeIndex = 0, onSelect, initialSlides = [] }: 
               </div>
 
               {/* Action Buttons */}
-              <div className="flex flex-wrap items-center gap-3 pt-2">
+              <div className="flex flex-wrap items-center gap-2.5 pt-1">
                 <Link
                   href={targetHref}
-                  className="bg-slate-950 hover:bg-black text-white font-black text-xs px-7 py-4 rounded-2xl shadow-xl hover:shadow-2xl hover:scale-[1.02] active:scale-[0.98] transition-all flex items-center gap-2 cursor-pointer"
+                  className="bg-slate-950 hover:bg-black text-white font-black text-xs px-5 py-2.5 rounded-xl shadow-md hover:shadow-lg hover:scale-[1.02] active:scale-[0.98] transition-all flex items-center gap-1.5 cursor-pointer"
                 >
                   <span>Ürünü İncele</span>
-                  <ArrowRight className="w-4 h-4 text-emerald-400" />
+                  <ArrowRight className="w-3.5 h-3.5 text-emerald-400" />
                 </Link>
                 <Link
                   href="/compare"
-                  className="bg-white/95 hover:bg-slate-50 text-slate-900 font-extrabold text-xs px-6 py-4 rounded-2xl border border-slate-200 backdrop-blur-md transition-all flex items-center gap-2 cursor-pointer shadow-sm hover:shadow-md hover:border-emerald-400"
+                  className="bg-white/95 hover:bg-slate-50 text-slate-900 font-extrabold text-xs px-4 py-2.5 rounded-xl border border-slate-200 backdrop-blur-md transition-all flex items-center gap-1.5 cursor-pointer shadow-2xs hover:shadow-xs hover:border-emerald-400"
                 >
-                  <Zap className="w-4 h-4 text-amber-500 fill-amber-500" />
+                  <Zap className="w-3.5 h-3.5 text-amber-500 fill-amber-500" />
                   <span>Kıyaslamaya Başla</span>
                 </Link>
               </div>
@@ -296,31 +299,31 @@ export function HeroCarousel({ activeIndex = 0, onSelect, initialSlides = [] }: 
             {/* Right Column: Apple Keynote Glass Pedestal (5 cols) */}
             <div className="lg:col-span-5 flex flex-col items-center justify-center relative">
               <Link href={targetHref} className="group/card w-full block cursor-pointer">
-                <div className="w-full bg-white/90 backdrop-blur-xl rounded-[28px] p-6 shadow-xl hover:shadow-2xl transition-all duration-500 text-center flex flex-col items-center border border-white/90 relative overflow-hidden">
+                <div className="w-full bg-white/90 backdrop-blur-xl rounded-2xl sm:rounded-3xl p-3.5 sm:p-4 shadow-lg hover:shadow-xl transition-all duration-500 text-center flex flex-col items-center border border-white/90 relative overflow-hidden">
                   
                   {/* Subtle Inner Radial Sheen */}
                   <div className="absolute inset-0 bg-gradient-to-b from-emerald-500/5 via-transparent to-transparent pointer-events-none" />
 
-                  {/* Standardized Optical Bounding Box (Uniform Visual Weight for All Product Categories) */}
-                  <div className="w-full h-72 sm:h-80 flex items-center justify-center relative overflow-hidden p-2">
+                  {/* Standardized Optical Bounding Box (Compact Height) */}
+                  <div className="w-full h-44 sm:h-48 lg:h-52 flex items-center justify-center relative overflow-hidden p-2">
                     <Image
                       src={slide.image}
                       alt={slide.productName}
-                      width={480}
-                      height={480}
+                      width={360}
+                      height={360}
                       priority={true}
-                      sizes="(max-width: 1024px) 50vw, 480px"
-                      className="max-h-72 max-w-[340px] w-full h-full object-contain filter drop-shadow-2xl group-hover/card:scale-105 transition-transform duration-500 ease-out"
+                      sizes="(max-width: 1024px) 40vw, 360px"
+                      className="max-h-44 sm:max-h-48 lg:max-h-52 max-w-[240px] w-full h-full object-contain filter drop-shadow-xl group-hover/card:scale-105 transition-transform duration-500 ease-out"
                     />
                   </div>
 
                   {/* Model Name & Hardware Specs Pills */}
-                  <div className="mt-4 text-center w-full px-2 space-y-2">
-                    <h3 className="text-base font-black text-slate-950 group-hover/card:text-emerald-700 transition-colors line-clamp-1">
+                  <div className="mt-2 text-center w-full px-1 space-y-1">
+                    <h3 className="text-sm font-black text-slate-950 group-hover/card:text-emerald-700 transition-colors line-clamp-1">
                       {slide.productName}
                     </h3>
                     
-                    <div className="flex items-center justify-center gap-1.5 flex-wrap pt-1">
+                    <div className="flex items-center justify-center gap-1 flex-wrap pt-0.5">
                       {(slide.specPills && slide.specPills.length > 0
                         ? slide.specPills
                         : ['📱 120Hz LTPO Panel', '⚡ 3nm NPU Çip', '🎥 4K Pro Video']
@@ -331,7 +334,7 @@ export function HeroCarousel({ activeIndex = 0, onSelect, initialSlides = [] }: 
                             pIdx === 2
                               ? 'bg-emerald-50 text-emerald-800 border-emerald-200'
                               : 'bg-slate-100/90 text-slate-700 border-slate-200/80'
-                          } border text-[10px] font-extrabold px-2.5 py-0.5 rounded-lg shadow-2xs`}
+                          } border text-[9px] sm:text-[9.5px] font-extrabold px-2 py-0.5 rounded-md shadow-2xs`}
                         >
                           {pill}
                         </span>
@@ -347,7 +350,7 @@ export function HeroCarousel({ activeIndex = 0, onSelect, initialSlides = [] }: 
       </div>
 
       {/* Bottom Ticker & Dots */}
-      <div className="hidden lg:flex mt-8 pt-4 border-t border-slate-200/80 items-center justify-between gap-3 text-xs">
+      <div className="hidden lg:flex mt-3.5 pt-2.5 border-t border-slate-200/80 items-center justify-between gap-3 text-xs">
         {/* Live Active Stores Chic Badges */}
         <div className="flex items-center gap-3">
           <span className="flex items-center gap-1.5 text-slate-800 font-black">
@@ -367,25 +370,32 @@ export function HeroCarousel({ activeIndex = 0, onSelect, initialSlides = [] }: 
           </div>
         </div>
 
-        {/* Slide Dots */}
-        <div className="flex items-center gap-1.5">
-          {heroSlides.map((_, idx) => (
-            <button
-              key={idx}
-              onClick={() => {
-                setCurrentSlideIndex(idx);
-                onSelect(idx);
-              }}
-              aria-label={`Slayt ${idx + 1}`}
-              className={`transition-all rounded-full cursor-pointer ${
-                currentSlideIndex === idx
-                  ? 'w-6 h-1.5 bg-emerald-600'
-                  : 'w-2 h-1.5 bg-slate-300 hover:bg-slate-400'
-              }`}
-            />
-          ))}
+        {/* Slide Dots (all 24 slides) */}
+        <div className="flex items-center gap-2">
+          <span className="text-[10px] text-slate-400 font-bold tabular-nums">
+            {currentSlideIndex + 1} / {heroSlides.length}
+          </span>
+          <div className="flex items-center gap-1 max-w-[280px] overflow-x-auto no-scrollbar py-0.5">
+            {heroSlides.map((_, idx) => (
+              <button
+                key={idx}
+                onClick={() => {
+                  setCurrentSlideIndex(idx);
+                  onSelect(idx);
+                }}
+                aria-label={`Slayt ${idx + 1}`}
+                className={`transition-all rounded-full cursor-pointer shrink-0 ${
+                  currentSlideIndex === idx
+                    ? 'w-4 h-1.5 bg-emerald-600 shadow-2xs'
+                    : 'w-1.5 h-1.5 bg-slate-300 hover:bg-slate-400'
+                }`}
+              />
+            ))}
+          </div>
         </div>
       </div>
     </div>
   );
 }
+
+export default HeroCarousel;
