@@ -80230,8 +80230,14 @@ export const mockHeadphones: Product[] = [
     "rating": 4.9,
     "epeyScore": 99,
     "reviewCount": 140,
-    "image": "/images/headphones/bang-olufsen-beoplay-h100.jpg",
+    "image": "/images/headphones/bang-olufsen-beoplay-h100.png",
     "images": [
+      "/images/headphones/bang-olufsen-beoplay-h100.png",
+      "/images/headphones/bang-olufsen-beoplay-h100-front.png",
+      "/images/headphones/bang-olufsen-beoplay-h100-side.png",
+      "/images/headphones/bang-olufsen-beoplay-h100-case.png",
+      "/images/headphones/bang-olufsen-beoplay-h100-sand.png",
+      "/images/headphones/bang-olufsen-beoplay-h100-apricot.png",
       "/images/headphones/bang-olufsen-beoplay-h100.jpg"
     ],
     "releaseYear": 2024,
