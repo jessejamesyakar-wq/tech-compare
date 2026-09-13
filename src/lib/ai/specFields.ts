@@ -17,12 +17,20 @@ const num = (v: any) => (typeof v === "number" ? v.toLocaleString("tr-TR") : Str
 
 export const CATEGORY_SPEC_FIELDS: Record<CatalogCategory, SpecFieldDef[]> = {
   smartphones: [
-    { key: "screen", label: "Ekran", paths: [["screen", "size"], ["screenSizeInches"]] },
-    { key: "chip", label: "İşlemci", paths: [["processor", "chip"], ["processor"]] },
-    { key: "ram", label: "RAM", paths: [["memory", "ramGb"], ["ramGb"]], format: (v) => `${v} GB` },
+    { key: "antutu", label: "AnTuTu v10 Skoru", paths: [["processor", "antutuScore"], ["antutuScore"]], format: (v) => `${num(v)} Puan` },
+    { key: "chip", label: "İşlemci & Çip Mimarisi", paths: [["processor", "chip"], ["processor"]] },
+    { key: "screen", label: "Ekran & Panel", paths: [["screen", "type"], ["screen", "size"], ["screenSizeInches"]] },
+    { key: "brightness", label: "Tepe Parlaklık", paths: [["screen", "brightnessNits"], ["brightnessNits"]], format: (v) => `${num(v)} Nits` },
+    { key: "resolution", label: "Çözünürlük & PPI", paths: [["screen", "resolution"], ["resolution"]] },
+    { key: "camera", label: "Ana Kamera Sensörü", paths: [["camera", "mainMp"], ["rearCameraMp"]] },
+    { key: "telephoto", label: "Telefoto & Optik Zoom", paths: [["camera", "telephotoMp"]] },
+    { key: "dxomark", label: "DxOMark Kamera Puanı", paths: [["camera", "dxomarkScore"], ["dxomarkScore"]], format: (v) => `${v} Puan` },
+    { key: "ram", label: "Bellek & NPU Mimarisi", paths: [["memory", "ramType"], ["memory", "ramGb"], ["ramGb"]], format: (v) => typeof v === "number" ? `${v} GB` : String(v) },
     { key: "storage", label: "Depolama", paths: [["memory", "storageGb"], ["storageGb"]], format: (v) => `${v} GB` },
-    { key: "camera", label: "Ana Kamera", paths: [["camera", "mainMp"], ["rearCameraMp"]] },
-    { key: "battery", label: "Batarya", paths: [["battery", "capacityMah"], ["batteryCapacityMah"], ["batteryMah"]], format: (v) => `${num(v)} mAh` },
+    { key: "battery", label: "Batarya Kapasitesi", paths: [["battery", "capacitymAh"], ["battery", "capacityMah"], ["batteryCapacityMah"], ["batteryMah"]], format: (v) => `${num(v)} mAh` },
+    { key: "charging", label: "Hızlı Şarj Gücü", paths: [["battery", "chargingWatts"], ["chargingWatts"]], format: (v) => `${v}W Hızlı Şarj` },
+    { key: "material", label: "Kasa & Malzeme", paths: [["build", "frameMaterial"], ["frameMaterial"]] },
+    { key: "durability", label: "Su/Toz Koruma", paths: [["build", "waterResistance"], ["waterResistance"]] },
   ],
   tvs: [
     { key: "size", label: "Ekran Boyutu", paths: [["screenSizeInches"], ["size"]], format: (v) => `${v} inç` },
@@ -110,10 +118,8 @@ export function buildComparisonRows(products: any[], category: CatalogCategory) 
           raw = getByPath(p.specs, candidatePath);
           if (raw !== undefined && raw !== null && raw !== "") break;
           // Also try top-level product property as fallback
-          if (candidatePath.length === 1 && p[candidatePath[0]] !== undefined) {
-            raw = p[candidatePath[0]];
-            break;
-          }
+          raw = getByPath(p, candidatePath);
+          if (raw !== undefined && raw !== null && raw !== "") break;
         }
 
         if (raw === undefined || raw === null || raw === "") return null;

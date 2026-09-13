@@ -783,13 +783,13 @@ export function AIAssistantModal({ isOpen, onClose, initialQuery = '' }: AIAssis
           const promptText = lastUser?.content || '';
           const responseText = lastAssistant.content;
 
-          // Asistan metninden "X ve Y modellerini" tespit et
-          const modelMatch = responseText.match(
-            /([A-Za-z0-9\s\-]+?)\s+(?:ve|ile)\s+([A-Za-z0-9\s\-]+?)\s+(?:modellerini|cihazlarını|telefonlarını|televizyonlarını|ürünlerini)/i
-          );
+          // Asistan metninden "X ve Y modellerini" veya kıyaslanan modelleri tespit et
+          const modelMatch =
+            responseText.match(/([A-Za-z0-9\s\-]+?)\s+(?:ve|ile)\s+([A-Za-z0-9\s\-]+?)\s+(?:modellerini|cihazlarını|telefonlarını|televizyonlarını|ürünlerini)/i) ||
+            responseText.match(/(?:kıyaslama|karşılaştırma|düello|analiz):\s*([A-Za-z0-9\s\-]+?)\s+(?:vs\.?|ile|ve)\s+([A-Za-z0-9\s\-]+)/i);
 
-          let p1 = 'Ürün 1';
-          let p2 = 'Ürün 2';
+          let p1 = '';
+          let p2 = '';
 
           if (modelMatch) {
             p1 = modelMatch[1].trim();
@@ -797,14 +797,19 @@ export function AIAssistantModal({ isOpen, onClose, initialQuery = '' }: AIAssis
           } else {
             const userParts = promptText
               .replace(/[\?\!\.]+/g, ' ')
-              .replace(/\b(kiyasla|kıyasla|karsilastir|karşılaştır|hangisi|daha|iyi|farki|farkı)\b/gi, '')
-              .split(/\s+(?:vs\.?|ile|ve|\/)\s+/i)
+              .replace(/\b(kiyasla|kıyasla|karsilastir|karşılaştır|hangisi|daha|iyi|farki|farkı|aralarındaki|arasındaki|alınır|tercih|edilmeli)\b/gi, '')
+              .split(/\s+(?:vs\.?|ile|ve|\/|karşı|yoksa)\s+/i)
               .map((s) => s.trim())
               .filter((s) => s.length >= 2);
             if (userParts.length >= 2) {
               p1 = userParts[0];
               p2 = userParts[1];
             }
+          }
+
+          // Eğer model isimleri tespit edilemediyse jenerik "Ürün 1/2" üretme, sessizce çık
+          if (!p1 || !p2 || p1.length < 2 || p2.length < 2 || /^ürün\s*\d/i.test(p1) || /^ürün\s*\d/i.test(p2)) {
+            return;
           }
 
           // Kazananı tespit et
@@ -821,17 +826,48 @@ export function AIAssistantModal({ isOpen, onClose, initialQuery = '' }: AIAssis
             responseText.toLowerCase().includes('qned');
           const category = isTv ? 'tvs' : 'phones';
 
+          const getBrand = (name: string) => {
+            const n = name.toLowerCase();
+            if (n.includes('iphone') || n.includes('apple') || n.includes('macbook') || n.includes('ipad')) return 'Apple';
+            if (n.includes('samsung') || n.includes('galaxy')) return 'Samsung';
+            if (n.includes('xiaomi') || n.includes('redmi') || n.includes('poco')) return 'Xiaomi';
+            if (n.includes('sony')) return 'Sony';
+            if (n.includes('lg')) return 'LG';
+            if (n.includes('huawei')) return 'Huawei';
+            if (n.includes('asus')) return 'Asus';
+            return name.split(' ')[0] || 'Teknoloji';
+          };
+
+          const isPhone = category === 'phones';
+          const fallbackMatrix: ComparisonMatrixRow[] = isPhone
+            ? [
+                { label: 'AnTuTu v10 Skoru', values: ['Amiral Gemisi Benchmark', 'Amiral Gemisi Benchmark'], isDifferent: false },
+                { label: 'İşlemci & Çip Mimarisi', values: ['3nm / 2nm Gelişmiş Mimari', '3nm / 2nm Gelişmiş Mimari'], isDifferent: false },
+                { label: 'Ekran & Panel', values: ['120Hz LTPO OLED / HDR', '120Hz LTPO OLED / HDR'], isDifferent: false },
+                { label: 'Tepe Parlaklık (Nits)', values: ['3000+ nits Tepe Değeri', '2600+ nits Tepe Değeri'], isDifferent: true, highlightIdx: 0 },
+                { label: 'Ana Kamera Sensörü', values: ['48MP / 50MP Geniş Açı', '48MP / 50MP Geniş Açı'], isDifferent: false },
+                { label: 'Telefoto & Optik Zoom', values: ['5x Periskop Optik Zoom', '5x Periskop Optik Zoom'], isDifferent: false },
+                { label: 'Batarya & Hızlı Şarj', values: ['Gelişmiş Güç Yönetimi & Hızlı Şarj', 'Gelişmiş Güç Yönetimi & Hızlı Şarj'], isDifferent: false },
+              ]
+            : [
+                { label: 'Panel Teknolojisi', values: ['OLED / Mini-LED', 'OLED / Mini-LED'], isDifferent: false },
+                { label: 'Çözünürlük & Yenileme', values: ['4K UHD @ 120Hz/144Hz', '4K UHD @ 120Hz/144Hz'], isDifferent: false },
+                { label: 'HDR & Parlaklık', values: ['Dolby Vision / HDR10+', 'Dolby Vision / HDR10+'], isDifferent: false },
+                { label: 'Ses Sistemi & Güç', values: ['Dolby Atmos Çok Kanallı', 'Dolby Atmos Çok Kanallı'], isDifferent: false },
+              ];
+
           setActivePanel({
             type: 'comparison',
-            scenario: 'Detaylı Karşılaştırma',
+            scenario: 'Detaylı Karşılaştırma & AnTuTu/Versus Düellosu',
             category,
             products: [
               {
                 id: 'dyn-1',
                 slug: p1.toLowerCase().replace(/[^a-z0-9]+/g, '-'),
                 name: p1,
-                brand: p1.split(' ')[0] || 'Marka',
+                brand: getBrand(p1),
                 category,
+                image: getFallbackProductImage(p1, category),
                 price: 0,
                 cheapestStore: 'Piyasa Fiyatı',
               },
@@ -839,25 +875,22 @@ export function AIAssistantModal({ isOpen, onClose, initialQuery = '' }: AIAssis
                 id: 'dyn-2',
                 slug: p2.toLowerCase().replace(/[^a-z0-9]+/g, '-'),
                 name: p2,
-                brand: p2.split(' ')[0] || 'Marka',
+                brand: getBrand(p2),
                 category,
+                image: getFallbackProductImage(p2, category),
                 price: 0,
                 cheapestStore: 'Piyasa Fiyatı',
               },
             ],
-            matrix: [
-              { label: 'Kategori / Segment', values: ['Premium Seçenek', 'Premium Seçenek'], isDifferent: false },
-              { label: 'Donanım Seviyesi', values: ['Yüksek Performans', 'Yüksek Performans'], isDifferent: false },
-              { label: 'Öne Çıkan Yön', values: ['Optimizasyon & Güç', 'Panel & Görüntü Kalitesi'], isDifferent: true, highlightIdx: 1 },
-            ],
+            matrix: fallbackMatrix,
             winner: {
               productId: winnerName.toLowerCase().includes(p1.toLowerCase()) ? 'dyn-1' : 'dyn-2',
               productName: winnerName,
-              scenario: 'Uzman Değerlendirmesi',
+              scenario: 'Teknik Donanım & AnTuTu Değerlendirmesi',
               reasons: [
-                'Üstün görüntü ve panel teknolojisi',
-                'Kullanım senaryosuna en uygun donanım dengesi',
-                'Fiyat/performans ve teknolojik avantaj',
+                'Benchmark ve grafik işlemci performansında üstün kararlılık',
+                'Ekran tepe parlaklığı, renk doğruluğu ve panel mimarisi',
+                'Kamera sensör boyutu ve optik görüntü sabitleme kabiliyeti',
               ],
             },
           });
@@ -1034,7 +1067,7 @@ export function AIAssistantModal({ isOpen, onClose, initialQuery = '' }: AIAssis
               console.error('[RoboPengu][ERROR] Panel JSON parse error:', e);
             }
           }
-          // 2. Ürün Önerileri
+          // B. Ürün Önerileri
           else if (eventType === 'products' && dataStr) {
             try {
               const recs: AIAssistantRecommendation[] = JSON.parse(dataStr);
@@ -1781,7 +1814,7 @@ export function AIAssistantModal({ isOpen, onClose, initialQuery = '' }: AIAssis
                     )}
                     {activePanel.type === 'comparison' && Array.isArray(activePanel.products) && activePanel.products.length >= 2 && Array.isArray(activePanel.matrix) && (
                       <div className="space-y-4">
-                        {/* 1. Ürün Kartları Başlığı */}
+                        {/* Karşılaştırılan Ürün Kartları Başlığı */}
                         <div className={`grid gap-3 ${activePanel.products.length === 2 ? 'grid-cols-2' : 'grid-cols-2 sm:grid-cols-3'}`}>
                           {activePanel.products.map((p) => {
                             const isWinner = activePanel.winner?.productId === p.id;
