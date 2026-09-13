@@ -15,30 +15,17 @@ export function LiveDealsBillboard() {
         <div className="absolute -bottom-24 -right-10 w-96 h-96 rounded-full blur-3xl pointer-events-none bg-teal-500/12" />
         <div className="absolute top-1/3 right-1/4 w-72 h-72 rounded-full blur-3xl pointer-events-none bg-emerald-400/8" />
 
-        {/* 📈 Decorative Abstract Tech & Price Trend Graphic on Right (eliminates blank space seamlessly) */}
-        <div className="absolute right-0 top-0 bottom-0 w-80 lg:w-[440px] pointer-events-none opacity-[0.07] select-none overflow-hidden hidden sm:block">
-          <svg className="w-full h-full" viewBox="0 0 500 320" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <line x1="0" y1="80" x2="500" y2="80" stroke="currentColor" strokeWidth="1" strokeDasharray="4 6" className="text-emerald-900" />
-            <line x1="0" y1="160" x2="500" y2="160" stroke="currentColor" strokeWidth="1" strokeDasharray="4 6" className="text-emerald-900" />
-            <line x1="0" y1="240" x2="500" y2="240" stroke="currentColor" strokeWidth="1" strokeDasharray="4 6" className="text-emerald-900" />
-            <line x1="120" y1="0" x2="120" y2="320" stroke="currentColor" strokeWidth="1" strokeDasharray="4 6" className="text-emerald-900" />
-            <line x1="260" y1="0" x2="260" y2="320" stroke="currentColor" strokeWidth="1" strokeDasharray="4 6" className="text-emerald-900" />
-            <line x1="400" y1="0" x2="400" y2="320" stroke="currentColor" strokeWidth="1" strokeDasharray="4 6" className="text-emerald-900" />
-            
-            <path d="M20 270 C 100 250, 160 280, 240 180 C 320 80, 390 120, 480 50" stroke="currentColor" strokeWidth="5" strokeLinecap="round" className="text-emerald-700" />
-            <path d="M20 270 C 100 250, 160 280, 240 180 C 320 80, 390 120, 480 50 L 480 320 L 20 320 Z" fill="url(#emerald-chart-grad)" opacity="0.3" />
-            <path d="M20 295 C 120 280, 200 230, 290 200 C 360 175, 410 140, 480 90" stroke="currentColor" strokeWidth="3" strokeDasharray="8 8" className="text-teal-600" />
-
-            <circle cx="240" cy="180" r="7" className="text-emerald-600" fill="currentColor" />
-            <circle cx="480" cy="50" r="9" className="text-teal-500" fill="currentColor" />
-
-            <defs>
-              <linearGradient id="emerald-chart-grad" x1="0%" y1="0%" x2="0%" y2="100%">
-                <stop offset="0%" stopColor="#059669" stopOpacity="0.8" />
-                <stop offset="100%" stopColor="#059669" stopOpacity="0" />
-              </linearGradient>
-            </defs>
-          </svg>
+        {/* 📱 Apple iPhone 18 Pro Official Showcase Visual on Right */}
+        <div className="absolute right-0 top-0 bottom-0 w-80 sm:w-96 lg:w-[500px] pointer-events-none select-none overflow-hidden hidden md:block">
+          <div className="relative w-full h-full flex items-center justify-end">
+            <img
+              src="/images/banners/apple-iphone-18-pro-banner.png"
+              alt="Apple iPhone 18 Pro"
+              className="h-full w-auto max-w-none object-cover object-right opacity-90 lg:opacity-95 mix-blend-multiply transition-transform duration-700 hover:scale-105"
+            />
+            {/* Smooth left blend gradient into the billboard background */}
+            <div className="absolute inset-y-0 left-0 w-24 bg-gradient-to-r from-emerald-50/90 via-white/50 to-transparent pointer-events-none" />
+          </div>
         </div>
 
         {/* 🏷️ TOP RIGHT: aceleEtme LIVE BADGE */}
