@@ -47,7 +47,7 @@ export function searchProductsInCatalog(
 
       return { product: p, matchedCount, matchRatio };
     })
-    .filter((entry) => entry.matchRatio >= 0.75) // en az %75 kelime eşleşmeli
+    .filter((entry) => entry.matchRatio >= 0.6) // en az %60 kelime eşleşmeli (örn: 'iphone 18 duo' gibi sorguları yakalar)
     .sort((a, b) => b.matchRatio - a.matchRatio || b.matchedCount - a.matchedCount);
 
   return scoredProds.slice(0, limit).map((entry) => entry.product);

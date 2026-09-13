@@ -18,6 +18,9 @@ export function getFallbackProductImage(
     combined.includes("apple") ||
     combined.includes("ios")
   ) {
+    if (combined.includes("duo")) {
+      return "/images/phones/apple/apple-iphone-duo.png";
+    }
     if (combined.includes("18") && (combined.includes("max") || combined.includes("pro"))) {
       return "/images/phones/apple/apple-iphone-18-pro-max-12.jpg";
     }
