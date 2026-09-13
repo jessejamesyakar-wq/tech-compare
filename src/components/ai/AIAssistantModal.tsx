@@ -107,17 +107,43 @@ interface AIAssistantModalProps {
   initialQuery?: string;
 }
 
-// ---- İçerik Ayrıştırıcı (Sol Sohbet Özeti & Sağ Derinlemesine Analiz) ----
+// ---- İçerik Ayrıştırıcı (Sol Sohbet Özeti, Sağ Derinlemesine Analiz & Sesli Özet) ----
 
 export function partitionContent(content: string) {
-  if (!content) return { chatSummary: '', deepAnalysis: '' };
+  if (!content) return { chatSummary: '', deepAnalysis: '', voiceSummary: '', cleanDisplay: '' };
 
-  if (content.includes('[SUMMARY_CHAT]') || content.includes('[DEEP_ANALYSIS]')) {
-    let chatSummary = '';
-    let deepAnalysis = '';
+  let voiceSummary = '';
+  let cleanContent = content;
 
-    if (content.includes('[SUMMARY_CHAT]')) {
-      const parts = content.split('[SUMMARY_CHAT]');
+  // 1. [VOICE_SUMMARY] bloğunu ayıkla ve görsel metinden temizle
+  if (cleanContent.includes('[VOICE_SUMMARY]')) {
+    const vParts = cleanContent.split('[VOICE_SUMMARY]');
+    const vAfter = vParts[1] || '';
+    if (vAfter.includes('[/VOICE_SUMMARY]')) {
+      voiceSummary = vAfter.split('[/VOICE_SUMMARY]')[0].trim();
+      cleanContent = (vParts[0] + vAfter.split('[/VOICE_SUMMARY]')[1]).trim();
+    } else {
+      const nextTagMatch = vAfter.search(/\[(?:SUMMARY_CHAT|DEEP_ANALYSIS)\]/);
+      if (nextTagMatch !== -1) {
+        voiceSummary = vAfter.slice(0, nextTagMatch).trim();
+        cleanContent = (vParts[0] + vAfter.slice(nextTagMatch)).trim();
+      } else {
+        voiceSummary = vAfter.trim();
+        cleanContent = vParts[0].trim();
+      }
+    }
+  }
+
+  // Kalan olası [VOICE_SUMMARY] etiketlerini temizle
+  cleanContent = cleanContent.replace(/\[\/?VOICE_SUMMARY\]/gi, '').trim();
+
+  let chatSummary = '';
+  let deepAnalysis = '';
+
+  // 2. [SUMMARY_CHAT] ve [DEEP_ANALYSIS] bloklarını ayır
+  if (cleanContent.includes('[SUMMARY_CHAT]') || cleanContent.includes('[DEEP_ANALYSIS]')) {
+    if (cleanContent.includes('[SUMMARY_CHAT]')) {
+      const parts = cleanContent.split('[SUMMARY_CHAT]');
       const afterStart = parts[1] || '';
       if (afterStart.includes('[/SUMMARY_CHAT]')) {
         chatSummary = afterStart.split('[/SUMMARY_CHAT]')[0].trim();
@@ -128,8 +154,8 @@ export function partitionContent(content: string) {
       }
     }
 
-    if (content.includes('[DEEP_ANALYSIS]')) {
-      const parts = content.split('[DEEP_ANALYSIS]');
+    if (cleanContent.includes('[DEEP_ANALYSIS]')) {
+      const parts = cleanContent.split('[DEEP_ANALYSIS]');
       const afterStart = parts[1] || '';
       if (afterStart.includes('[/DEEP_ANALYSIS]')) {
         deepAnalysis = afterStart.split('[/DEEP_ANALYSIS]')[0].trim();
@@ -146,20 +172,39 @@ export function partitionContent(content: string) {
       .replace(/\[\/?SUMMARY_CHAT\]/g, '')
       .replace(/\[\/?DEEP_ANALYSIS\]/g, '')
       .trim();
-
-    return { chatSummary, deepAnalysis };
+  } else {
+    // Heuristik: "### 1." veya "1. Ekran" ile başlayan teknik kısımları ayır
+    const deepSplitMatch = cleanContent.match(/(?:^|\n)(?:###?\s*(?:1[\.\)]\s*)?Ekran|###?\s*1[\.\)]|##\s*1[\.\)])/i);
+    if (deepSplitMatch && deepSplitMatch.index !== undefined) {
+      chatSummary = cleanContent.slice(0, deepSplitMatch.index).trim();
+      deepAnalysis = cleanContent.slice(deepSplitMatch.index).trim();
+    } else {
+      chatSummary = cleanContent;
+    }
   }
 
-  // Heuristik: "### 1." veya "1. Ekran" ile başlayan teknik kısımları ayır
-  const deepSplitMatch = content.match(/(?:^|\n)(?:###?\s*(?:1[\.\)]\s*)?Ekran|###?\s*1[\.\)]|##\s*1[\.\)])/i);
-  if (deepSplitMatch && deepSplitMatch.index !== undefined) {
-    return {
-      chatSummary: content.slice(0, deepSplitMatch.index).trim(),
-      deepAnalysis: content.slice(deepSplitMatch.index).trim(),
-    };
+  // 3. Eğer model açıkça [VOICE_SUMMARY] üretmediyse, ilk 1-2 cümleden kısa özet türet
+  if (!voiceSummary) {
+    const baseSummary = chatSummary || cleanContent;
+    if (baseSummary) {
+      const sentences = baseSummary
+        .replace(/\[\/?(?:SUMMARY_CHAT|DEEP_ANALYSIS)\]/g, '')
+        .split(/(?<=[.?!])\s+/)
+        .filter((s) => s.trim().length > 0);
+      if (sentences.length > 2) {
+        voiceSummary = sentences.slice(0, 2).join(' ') + ' Detayları ekrandan inceleyebilirsin.';
+      } else {
+        voiceSummary = sentences.join(' ');
+      }
+    }
   }
 
-  return { chatSummary: content, deepAnalysis: '' };
+  return {
+    chatSummary,
+    deepAnalysis,
+    voiceSummary,
+    cleanDisplay: chatSummary || cleanContent,
+  };
 }
 
 export function parseAnalysisSections(deepText: string): Array<{ title: string; body: string }> {
@@ -470,14 +515,12 @@ export function AIAssistantModal({ isOpen, onClose, initialQuery = '' }: AIAssis
 
     stopSpeaking();
 
-    // Sesli özet: Eğer [SUMMARY_CHAT] varsa sadece o kısa özeti al, yoksa ilk 2 cümleyi al
-    const { chatSummary } = partitionContent(text);
-    let voiceText = chatSummary || text;
+    // Sesli özet: [VOICE_SUMMARY] varsa onu al, yoksa partitionContent'in ürettiği akıllı özet
+    const { voiceSummary, chatSummary } = partitionContent(text);
+    let voiceText = voiceSummary || chatSummary || text;
 
-    if (text.includes('[SUMMARY_CHAT]')) {
-      voiceText = chatSummary;
-    } else {
-      // Genel yanıtlarda: Çok uzun metinlerin tamamını seslendirmek yerine ilk 2 cümleyi (özetini) oku
+    // Eğer voiceSummary açıkça yoksa ve metin 2 cümleden uzunsa kısalt
+    if (!voiceSummary) {
       const sentences = voiceText.split(/(?<=[.?!])\s+/).filter((s) => s.trim().length > 0);
       if (sentences.length > 2) {
         voiceText = sentences.slice(0, 2).join(' ') + ' Detayları ekrandan inceleyebilirsin.';
@@ -486,8 +529,7 @@ export function AIAssistantModal({ isOpen, onClose, initialQuery = '' }: AIAssis
 
     // Markdown ve özel karakterleri temizle (stripMarkdown)
     const cleanSpeech = voiceText
-      .replace(/\[\/?SUMMARY_CHAT\]/gi, '')
-      .replace(/\[\/?DEEP_ANALYSIS\]/gi, '')
+      .replace(/\[\/?(?:VOICE_SUMMARY|SUMMARY_CHAT|DEEP_ANALYSIS)\]/gi, '')
       .replace(/```[\s\S]*?```/g, '')
       .replace(/`([^`]+)`/g, '$1')
       .replace(/[*#_`~\[\]]/g, '')
@@ -579,6 +621,7 @@ export function AIAssistantModal({ isOpen, onClose, initialQuery = '' }: AIAssis
       recognition.maxAlternatives = 1;
 
       let recognizedSpeech = '';
+      let hasError = false;
 
       recognition.onstart = () => {
         setIsListening(true);
@@ -598,6 +641,7 @@ export function AIAssistantModal({ isOpen, onClose, initialQuery = '' }: AIAssis
 
       recognition.onerror = (event: any) => {
         console.warn('[RoboPengu][SpeechRecognition] error:', event.error);
+        hasError = true;
         setIsListening(false);
         if (event.error === 'not-allowed' || event.error === 'service-not-allowed') {
           showSpeechToast('Mikrofon erişim izni verilmedi. Lütfen tarayıcı ayarlarından mikrofona izin verin.');
@@ -613,6 +657,8 @@ export function AIAssistantModal({ isOpen, onClose, initialQuery = '' }: AIAssis
         const textToSend = recognizedSpeech.trim();
         if (textToSend) {
           handleSend(textToSend);
+        } else if (!hasError) {
+          showSpeechToast('Duyamadım, lütfen tekrar söyler misiniz? 🎙️');
         }
       };
 
@@ -628,8 +674,13 @@ export function AIAssistantModal({ isOpen, onClose, initialQuery = '' }: AIAssis
   const stopListening = () => {
     if (recognitionRef.current) {
       try {
-        recognitionRef.current.stop();
-      } catch {}
+        recognitionRef.current.abort();
+      } catch {
+        try {
+          recognitionRef.current.stop();
+        } catch {}
+      }
+      recognitionRef.current = null;
     }
     setIsListening(false);
   };
@@ -1011,10 +1062,17 @@ export function AIAssistantModal({ isOpen, onClose, initialQuery = '' }: AIAssis
                 );
 
                 // Erken Sesli Yanıt (Early Voice Synthesis Trigger):
-                // Tüm 500 kelimelik teknik analizin bitmesini beklemeden,
-                // [SUMMARY_CHAT] bloğu tamamlandığı anda konuşmaya anında başla!
+                // Tüm teknik analizin bitmesini beklemeden,
+                // [VOICE_SUMMARY] veya [SUMMARY_CHAT] bloğu tamamlandığı anda konuşmaya anında başla!
                 if (!hasSpokenRef.current && voiceEnabled) {
-                  if (accumulatedBotText.includes('[/SUMMARY_CHAT]')) {
+                  if (accumulatedBotText.includes('[/VOICE_SUMMARY]')) {
+                    const parts = accumulatedBotText.split('[VOICE_SUMMARY]');
+                    const vSummary = (parts[1] || '').split('[/VOICE_SUMMARY]')[0].trim();
+                    if (vSummary) {
+                      hasSpokenRef.current = true;
+                      speakSummary(vSummary);
+                    }
+                  } else if (accumulatedBotText.includes('[/SUMMARY_CHAT]')) {
                     const parts = accumulatedBotText.split('[SUMMARY_CHAT]');
                     const summary = (parts[1] || '').split('[/SUMMARY_CHAT]')[0].trim();
                     if (summary) {
@@ -1022,10 +1080,10 @@ export function AIAssistantModal({ isOpen, onClose, initialQuery = '' }: AIAssis
                       speakSummary(summary);
                     }
                   } else if (accumulatedBotText.includes('[DEEP_ANALYSIS]') || accumulatedBotText.includes('### 1.')) {
-                    const { chatSummary } = partitionContent(accumulatedBotText);
-                    if (chatSummary) {
+                    const { voiceSummary, chatSummary } = partitionContent(accumulatedBotText);
+                    if (voiceSummary || chatSummary) {
                       hasSpokenRef.current = true;
-                      speakSummary(chatSummary);
+                      speakSummary(voiceSummary || chatSummary);
                     }
                   }
                 }
@@ -1276,9 +1334,13 @@ export function AIAssistantModal({ isOpen, onClose, initialQuery = '' }: AIAssis
                     <span>TEKNOLOJİ UZMANI</span>
                   </span>
                   {isSpeaking && (
-                    <span className="px-2 py-0.5 text-[9px] font-semibold bg-cyan-100 dark:bg-cyan-950/80 text-cyan-700 dark:text-cyan-300 rounded-full flex items-center gap-1 animate-pulse border border-cyan-200/60 dark:border-cyan-800/60">
-                      <Volume2 className="w-2.5 h-2.5 animate-bounce" />
-                      <span>Sesli Yanıt Veriyor...</span>
+                    <span className="px-2.5 py-1 text-[9px] sm:text-[10px] font-semibold bg-emerald-100/90 dark:bg-emerald-950/90 text-emerald-700 dark:text-emerald-300 rounded-full flex items-center gap-1.5 border border-emerald-300/60 dark:border-emerald-700/60 shadow-xs animate-pulse">
+                      <span className="flex items-center gap-0.5">
+                        <span className="w-1 h-2 bg-emerald-500 rounded-full animate-bounce [animation-delay:-0.3s]"></span>
+                        <span className="w-1 h-3 bg-emerald-500 rounded-full animate-bounce [animation-delay:-0.15s]"></span>
+                        <span className="w-1 h-2 bg-emerald-500 rounded-full animate-bounce"></span>
+                      </span>
+                      <span>RoboPengu Konuşuyor...</span>
                     </span>
                   )}
                 </div>
@@ -1377,14 +1439,16 @@ export function AIAssistantModal({ isOpen, onClose, initialQuery = '' }: AIAssis
                 <div className="flex-1 overflow-y-auto p-4 sm:p-5 space-y-4">
                   {messages.map((m, idx) => {
                     const isAssistant = m.role === 'assistant';
-                    const chatSummary = isAssistant ? partitionContent(m.content).chatSummary : m.content;
+                    const { chatSummary, cleanDisplay } = partitionContent(m.content);
                     const isComparisonMsg =
                       isAssistant &&
                       ((hasPanel && activePanel.type === 'comparison') ||
                         m.content.includes('[SUMMARY_CHAT]') ||
                         m.content.includes('[DEEP_ANALYSIS]') ||
                         /(?:^|\n)(?:###?\s*(?:1[\.\)]\s*)?Ekran|###?\s*1[\.\)]|##\s*1[\.\)])/i.test(m.content));
-                    const displayContent = isComparisonMsg && chatSummary ? chatSummary : m.content;
+                    const displayContent = isAssistant
+                      ? (isComparisonMsg && chatSummary ? chatSummary : cleanDisplay)
+                      : m.content;
 
                     return (
                     <div key={m.id} className="space-y-3">
@@ -1570,6 +1634,26 @@ export function AIAssistantModal({ isOpen, onClose, initialQuery = '' }: AIAssis
                       </button>
                     ))}
                   </div>
+
+                  {/* Sesli Giriş Aktif Göstergesi (Listening Indicator) */}
+                  {isListening && (
+                    <div className="flex items-center justify-between px-3 py-1.5 bg-rose-50 dark:bg-rose-950/70 border border-rose-200/80 dark:border-rose-900/60 rounded-xl text-xs font-semibold text-rose-600 dark:text-rose-400 animate-pulse mb-2">
+                      <div className="flex items-center gap-2">
+                        <span className="relative flex h-2 w-2">
+                          <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-rose-400 opacity-75"></span>
+                          <span className="relative inline-flex rounded-full h-2 w-2 bg-rose-500"></span>
+                        </span>
+                        <span>Dinliyorum, konuşabilirsiniz... 🎙️</span>
+                      </div>
+                      <button
+                        type="button"
+                        onClick={stopListening}
+                        className="text-[10px] font-bold text-rose-500 hover:text-rose-700 dark:hover:text-rose-300 underline cursor-pointer"
+                      >
+                        Durdur
+                      </button>
+                    </div>
+                  )}
 
                   {/* Mesaj Giriş Formu */}
                   <form

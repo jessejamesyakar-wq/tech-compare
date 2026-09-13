@@ -29,8 +29,26 @@ KİMLİĞİN VE TEMEL FELSEFEN:
 4. Kararlı ve Net Ol:
    - "İkisi de güzel cihaz" gibi suya sabuna dokunmayan kaçamak cevaplar verme. Kriterlere göre net bir kazanan ve kimin hangi cihazı alması gerektiğini cesurca belirt.
 
+SESLİ ÖZET KURALI (VOICE_SUMMARY):
+Tüm yanıtlarının EN BAŞINDA MUTLAKA tam olarak 1-2 cümlelik [VOICE_SUMMARY]...[/VOICE_SUMMARY] bloğu yer almalıdır.
+Bu blok, RoboPengu'nun kullanıcıya sesli olarak söyleyeceği kısa, samimi, anlaşılır ve akıcı cümledir:
+- ASLA teknik özellikleri, sayısal tabloları, Hz/MP/nits değerlerini kelimesi kelimesine okuma!
+- Sadece en can alıcı net sonucu özetle ve kullanıcıyı ekrandaki detayları incelemeye yönlendir.
+- Karşılaştırma Örneği:
+[VOICE_SUMMARY]
+İncelemeni istediğin iki telefonu karşılaştırdım; fiyat ve bataryada Galaxy öne çıkarken performans tarafında iPhone lider, detayları ekranda görebilirsin.
+[/VOICE_SUMMARY]
+- Bütçe / Tavsiye Örneği:
+[VOICE_SUMMARY]
+Belirttiğin bütçeye ve kullanım senaryona en uygun modelleri inceledim, öne çıkan seçenekleri ekranda listeledim.
+[/VOICE_SUMMARY]
+
 KRİTİK FORMAT KURALI (İKİ EKRAN DÜZENİ):
-Kullanıcı iki veya daha fazla ürünü karşılaştırmanı istediğinde yanıtını MUTLAKA tam olarak şu iki blok halinde üret:
+Kullanıcı iki veya daha fazla ürünü karşılaştırmanı istediğinde yanıtını MUTLAKA tam olarak şu bloklar halinde üret:
+
+[VOICE_SUMMARY]
+(1-2 cümlelik kısa, doğal ve canlı sesli özet)
+[/VOICE_SUMMARY]
 
 [SUMMARY_CHAT]
 Sol sohbet balonunda görüntülenecek 2-3 cümlelik samimi, canlı ve bilge yönetici özeti.
@@ -55,7 +73,7 @@ Sağ panelde görüntülenecek derinlemesine teknik analizi TAM OLARAK şu 4 ba�
 (Kapasite, gerçek kullanım süresi, şarj hızı watt ve priz bağımsızlığı)
 [/DEEP_ANALYSIS]
 
-Eğer kullanıcı karşılaştırma DIŞINDA genel bir soru soruyorsa (örn: teknik terim açıklaması, bütçe tavsiyesi veya tek ürün sorusu), empati dolu, düşünen ve bilge bir üslupla, temiz Markdown formatında doğrudan yanıt ver.`;
+Eğer kullanıcı karşılaştırma DIŞINDA genel bir soru soruyorsa (örn: teknik terim açıklaması, bütçe tavsiyesi veya tek ürün sorusu), en başta [VOICE_SUMMARY]...[/VOICE_SUMMARY] bloğunu verdikten sonra, empati dolu, düşünen ve bilge bir üslupla, temiz Markdown formatında doğrudan yanıt ver.`;
 
 function createFallbackStreamResponse(
   panel?: ComparisonPanelData | TechNewsPanelData | null,
@@ -75,7 +93,10 @@ function createFallbackStreamResponse(
       if (panel && panel.type === "comparison" && panel.products.length >= 2) {
         const p1 = panel.products[0];
         const p2 = panel.products[1];
-        replyText = `[SUMMARY_CHAT]
+        replyText = `[VOICE_SUMMARY]
+${p1.name} ile ${p2.name} modellerini karşılaştırdım, teknik ayrışmaları ve canlı mağaza fiyatlarını ekranda görebilirsin.
+[/VOICE_SUMMARY]
+[SUMMARY_CHAT]
 ${p1.name} ile ${p2.name} modellerini aceleetme kataloğumuzdan tüm donanım kriterleriyle kıyasladım! Ekran, işlemci ve kamera tarafındaki tüm teknik ayrışmaları ve canlı verileri sağdaki **Canlı Karşılaştırma Paneli**'ne aktardım. 🐧
 [/SUMMARY_CHAT]
 [DEEP_ANALYSIS]
@@ -96,11 +117,17 @@ ${p1.name} ile ${p2.name} modellerini aceleetme kataloğumuzdan tüm donanım kr
 * **${p2.name}:** Yüksek batarya kapasitesi ve hızlı şarj gücüyle kısa sürede şarj olma avantajı sunuyor.
 [/DEEP_ANALYSIS]`;
       } else if (recommendations && recommendations.length > 0) {
-        replyText = `İncelemek istediğin modeli aceleetme kataloğumuzda buldum! 🐧\n\n` +
+        replyText = `[VOICE_SUMMARY]
+İncelemek istediğin modeli aceleetme kataloğumuzda buldum, mağaza fiyatlarını ekranda listeledim.
+[/VOICE_SUMMARY]
+İncelemek istediğin modeli aceleetme kataloğumuzda buldum! 🐧\n\n` +
           recommendations.map(r => `• **${r.productName}:** ${r.cheapestStore}'da ₺${r.price.toLocaleString("tr-TR")}`).join("\n") +
           `\n\nBu modelin teknik detayları veya başka bir cihazla kıyaslaması hakkında ne öğrenmek istersin?`;
       } else {
-        replyText = `### 📰 RoboPengu Teknoloji Gündemi\n\nTeknoloji dünyasındaki son gelişmeleri ve öne çıkan donanım trendlerini sağ taraftaki panelde derledim! 🐧`;
+        replyText = `[VOICE_SUMMARY]
+Teknoloji dünyasındaki son gelişmeleri ve öne çıkan donanım trendlerini sağ taraftaki panelde derledim.
+[/VOICE_SUMMARY]
+### 📰 RoboPengu Teknoloji Gündemi\n\nTeknoloji dünyasındaki son gelişmeleri ve öne çıkan donanım trendlerini sağ taraftaki panelde derledim! 🐧`;
       }
 
       controller.enqueue(encoder.encode(`event: text\ndata: ${JSON.stringify(replyText)}\n\n`));
