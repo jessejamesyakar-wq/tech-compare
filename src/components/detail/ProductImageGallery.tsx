@@ -114,7 +114,7 @@ export function ProductImageGallery({
             alt={`${product.name} Görsel ${activeIndex + 1}`}
             variant="detail"
             priority={activeIndex === 0}
-            className="group-hover:scale-105 drop-shadow-md transition-transform duration-300"
+            className="group-hover:scale-105 transition-transform duration-300"
           />
         </div>
       </div>

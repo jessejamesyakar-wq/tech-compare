@@ -30,8 +30,8 @@ const VARIANT_CONFIG: Record<
     objectFit: "contain",
   },
   detail: {
-    aspectRatio: "4 / 3",
-    sizes: "(max-width: 768px) 100vw, 50vw",
+    aspectRatio: "1 / 1",
+    sizes: "(max-width: 768px) 100vw, 500px",
     objectFit: "contain",
   },
 };
@@ -53,7 +53,7 @@ export default function ProductImage({
 
   return (
     <div
-      className={`relative w-full overflow-hidden rounded-xl bg-white ${className}`}
+      className={`relative w-full h-full overflow-hidden ${variant === 'card' ? 'rounded-xl bg-white' : 'bg-transparent'} ${className}`}
       style={{ aspectRatio: config.aspectRatio }}
     >
       <Image
