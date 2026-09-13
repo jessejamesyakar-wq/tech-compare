@@ -10,6 +10,11 @@ export const popularComparisonsList = [
     viewCount: 18950
   },
   {
+    phone1Id: "apple-apple-iphone-18-pro-256-gb-1071246",
+    phone2Id: "apple-apple-iphone-18-pro-max-256-gb-1071187",
+    viewCount: 17420
+  },
+  {
     phone1Id: "apple-apple-iphone-17-pro-max-2-tb-1027080",
     phone2Id: "samsung-samsung-galaxy-s26-ultra-120",
     viewCount: 14820

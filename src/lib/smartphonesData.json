@@ -920,6 +920,934 @@
     ]
   },
   {
+    "id": "apple-apple-iphone-18-pro-256-gb-1071246",
+    "slug": "apple-iphone-18-pro-256gb",
+    "name": "Apple iPhone 18 Pro (256 GB)",
+    "brand": "Apple",
+    "category": "smartphones",
+    "image": "/images/phones/apple/apple-iphone-18-pro-3.png",
+    "images": [
+      "/images/phones/apple/apple-iphone-18-pro-3.png",
+      "/images/phones/apple/apple-iphone-18-pro-4.jpg",
+      "/images/phones/apple/apple-iphone-18-pro-7.jpg",
+      "/images/phones/apple/apple-iphone-18-pro-1.jpg",
+      "/images/phones/apple/apple-iphone-18-pro-13.jpg",
+      "/images/phones/apple/apple-iphone-18-pro-2.jpg",
+      "/images/phones/apple/apple-iphone-18-pro-3.jpg",
+      "/images/phones/apple/apple-iphone-18-pro-5.jpg",
+      "/images/phones/apple/apple-iphone-18-pro-6.jpg",
+      "/images/phones/apple/apple-iphone-18-pro-8.jpg",
+      "/images/phones/apple/apple-iphone-18-pro-9.jpg",
+      "/images/phones/apple/apple-iphone-18-pro-10.jpg",
+      "/images/phones/apple/apple-iphone-18-pro-11.jpg",
+      "/images/phones/apple/apple-iphone-18-pro-12.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 92,
+    "reviewCount": 21,
+    "basePrice": 137999,
+    "price": 137999,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isLatestModel": true,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "6.3 inç LTPO Super Retina XDR OLED (120Hz ProMotion)",
+      "Apple A20 Pro 2nm Çip & 16-Core Neural Engine",
+      "12 GB LPDDR5X RAM & Apple Intelligence 2.0 Desteği",
+      "48 MP Fusion + 48 MP Ultra Geniş + 48 MP Periskop Telefoto (5x Optik)",
+      "4056 mAh Batarya & 35W Hızlı Şarj, MagSafe",
+      "Hafif ve Dayanıklı Grade 5 Titanyum Kasa"
+    ],
+    "pros": [
+      "Kompakt 6.3 inç kasada Pro Max ile aynı üst seviye Apple A20 Pro işlemci gücü",
+      "12 GB RAM ile Apple Intelligence 2.0 yapay zeka modelleri tam donanım hızında çalışır",
+      "5x optik yakınlaştırmalı 48 MP periskop telefoto ile kayıpsız uzak çekim imkanı",
+      "3000 nits tepe parlaklığa sahip güneş altında kusursuz görünen ProMotion ekran",
+      "Grade 5 titanyum hafifliği, IP68 / IPX8 suya dayanıklılık ve Ceramic Shield 2 dayanıklılığı"
+    ],
+    "cons": [
+      "Kutu içeriğinden şarj adaptörü çıkmıyor",
+      "Pro Max modeline göre daha kompakt olduğu için bataryası 4056 mAh"
+    ],
+    "colorOptions": [
+      {
+        "name": "Burgonya",
+        "hex": "#6B1D2F",
+        "image": "/images/phones/apple/apple-iphone-18-pro-7.jpg"
+      },
+      {
+        "name": "Buzul Mavisi",
+        "hex": "#8BA8B7",
+        "image": "/images/phones/apple/apple-iphone-18-pro-1.jpg"
+      },
+      {
+        "name": "Siyah",
+        "hex": "#262626",
+        "image": "/images/phones/apple/apple-iphone-18-pro-4.jpg"
+      },
+      {
+        "name": "Gümüş",
+        "hex": "#D8D9DA",
+        "image": "/images/phones/apple/apple-iphone-18-pro-13.jpg"
+      }
+    ],
+    "storeOffers": [
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.svg",
+        "price": 137999,
+        "productUrl": "https://www.hepsiburada.com/ara?q=apple+iphone+18+pro+256gb",
+        "inStock": true,
+        "shippingFree": true
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.svg",
+        "price": 137999,
+        "productUrl": "https://www.vatanbilgisayar.com/arama/iphone%2018%20pro%20256gb/",
+        "inStock": true,
+        "shippingFree": true
+      },
+      {
+        "storeName": "Troy",
+        "storeLogo": "/images/stores/troy.svg",
+        "price": 137999,
+        "productUrl": "https://www.troyestore.com/arama?q=iphone+18+pro+256gb",
+        "inStock": true,
+        "shippingFree": true
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.svg",
+        "price": 138999,
+        "productUrl": "https://www.teknosa.com/arama?s=apple+iphone+18+pro+256gb",
+        "inStock": true,
+        "shippingFree": true
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.svg",
+        "price": 138499,
+        "productUrl": "https://www.trendyol.com/sr?q=iphone+18+pro+256gb",
+        "inStock": true,
+        "shippingFree": true
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 144899
+      },
+      {
+        "date": "2026-07-01",
+        "price": 142139
+      },
+      {
+        "date": "2026-08-01",
+        "price": 139379
+      },
+      {
+        "date": "2026-09-01",
+        "price": 137999
+      },
+      {
+        "date": "2026-09-13",
+        "price": 137999
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.3 inç",
+        "type": "LTPO Super Retina XDR OLED (1-120Hz ProMotion)",
+        "resolution": "2622 x 1206 piksel (460 ppi)",
+        "refreshRate": 120,
+        "brightnessNits": 3000,
+        "ppi": 460
+      },
+      "processor": {
+        "chip": "Apple A20 Pro (2nm TSMC N2)",
+        "cores": "6 Çekirdek (2x 4.25 GHz + 4x 2.4 GHz)",
+        "process": "2nm",
+        "antutuScore": 2320000
+      },
+      "memory": {
+        "ramGb": 12,
+        "ramType": "12 GB LPDDR5X (16-Core Neural Engine 45 TOPS)",
+        "storageGb": 256,
+        "storageOptions": [
+          256,
+          512,
+          1024,
+          2048
+        ],
+        "expandableStorage": false
+      },
+      "camera": {
+        "mainMp": "48 MP Fusion, f/1.78, 24mm, 2. nesil Sensor-shift OIS",
+        "ultrawideMp": "48 MP, f/2.2, 13mm, 120˚, Hibrit Odak & Makro",
+        "telephotoMp": "48 MP Periskop Tetraprism (5x Optik Zoom, f/2.8, 120mm, 3D Sensör OIS)",
+        "selfieMp": "24 MP TrueDepth, f/1.9, Otomatik Odaklama (AF)",
+        "videoRes": "4K@120fps Dolby Vision HDR, ProRes LOG, Uzamsal Video",
+        "dxomarkScore": 165
+      },
+      "battery": {
+        "capacitymAh": 4056,
+        "chargingWatts": 35,
+        "wirelessCharging": true,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 7 (802.11be)",
+        "bluetooth": "5.4",
+        "hasNFC": true,
+        "hasesim": true
+      },
+      "build": {
+        "weightGrams": 199,
+        "thicknessMm": 8.25,
+        "waterResistance": "IP68 / IPX8 (6 metre 30 dakika)",
+        "frameMaterial": "Grade 5 Titanyum"
+      },
+      "software": {
+        "osName": "iOS 20 (Apple Intelligence 2.0)",
+        "updateYears": 7
+      }
+    },
+    "variants": [
+      {
+        "id": "apple-apple-iphone-18-pro-256-gb-1071246-burgonya",
+        "name": "Apple iPhone 18 Pro (256 GB) - Burgonya",
+        "colorName": "Burgonya",
+        "colorHex": "#6B1D2F",
+        "image": "/images/phones/apple/apple-iphone-18-pro-7.jpg",
+        "price": 137999
+      },
+      {
+        "id": "apple-apple-iphone-18-pro-256-gb-1071246-buzul-mavisi",
+        "name": "Apple iPhone 18 Pro (256 GB) - Buzul Mavisi",
+        "colorName": "Buzul Mavisi",
+        "colorHex": "#8BA8B7",
+        "image": "/images/phones/apple/apple-iphone-18-pro-1.jpg",
+        "price": 137999
+      },
+      {
+        "id": "apple-apple-iphone-18-pro-256-gb-1071246-siyah",
+        "name": "Apple iPhone 18 Pro (256 GB) - Siyah",
+        "colorName": "Siyah",
+        "colorHex": "#262626",
+        "image": "/images/phones/apple/apple-iphone-18-pro-4.jpg",
+        "price": 137999
+      },
+      {
+        "id": "apple-apple-iphone-18-pro-256-gb-1071246-gumus",
+        "name": "Apple iPhone 18 Pro (256 GB) - Gümüş",
+        "colorName": "Gümüş",
+        "colorHex": "#D8D9DA",
+        "image": "/images/phones/apple/apple-iphone-18-pro-13.jpg",
+        "price": 137999
+      }
+    ]
+  },
+  {
+    "id": "apple-apple-iphone-18-pro-512-gb-1071807",
+    "slug": "apple-iphone-18-pro-512gb",
+    "name": "Apple iPhone 18 Pro (512 GB)",
+    "brand": "Apple",
+    "category": "smartphones",
+    "image": "/images/phones/apple/apple-iphone-18-pro-3.png",
+    "images": [
+      "/images/phones/apple/apple-iphone-18-pro-3.png",
+      "/images/phones/apple/apple-iphone-18-pro-4.jpg",
+      "/images/phones/apple/apple-iphone-18-pro-7.jpg",
+      "/images/phones/apple/apple-iphone-18-pro-1.jpg",
+      "/images/phones/apple/apple-iphone-18-pro-13.jpg",
+      "/images/phones/apple/apple-iphone-18-pro-2.jpg",
+      "/images/phones/apple/apple-iphone-18-pro-3.jpg",
+      "/images/phones/apple/apple-iphone-18-pro-5.jpg",
+      "/images/phones/apple/apple-iphone-18-pro-6.jpg",
+      "/images/phones/apple/apple-iphone-18-pro-8.jpg",
+      "/images/phones/apple/apple-iphone-18-pro-9.jpg",
+      "/images/phones/apple/apple-iphone-18-pro-10.jpg",
+      "/images/phones/apple/apple-iphone-18-pro-11.jpg",
+      "/images/phones/apple/apple-iphone-18-pro-12.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 92,
+    "reviewCount": 21,
+    "basePrice": 154999,
+    "price": 154999,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isLatestModel": true,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "6.3 inç LTPO Super Retina XDR OLED (120Hz ProMotion)",
+      "Apple A20 Pro 2nm Çip & 16-Core Neural Engine",
+      "12 GB LPDDR5X RAM & Apple Intelligence 2.0 Desteği",
+      "48 MP Fusion + 48 MP Ultra Geniş + 48 MP Periskop Telefoto (5x Optik)",
+      "4056 mAh Batarya & 35W Hızlı Şarj, MagSafe",
+      "Hafif ve Dayanıklı Grade 5 Titanyum Kasa"
+    ],
+    "pros": [
+      "Kompakt 6.3 inç kasada Pro Max ile aynı üst seviye Apple A20 Pro işlemci gücü",
+      "12 GB RAM ile Apple Intelligence 2.0 yapay zeka modelleri tam donanım hızında çalışır",
+      "5x optik yakınlaştırmalı 48 MP periskop telefoto ile kayıpsız uzak çekim imkanı",
+      "3000 nits tepe parlaklığa sahip güneş altında kusursuz görünen ProMotion ekran",
+      "Grade 5 titanyum hafifliği, IP68 / IPX8 suya dayanıklılık ve Ceramic Shield 2 dayanıklılığı"
+    ],
+    "cons": [
+      "Kutu içeriğinden şarj adaptörü çıkmıyor",
+      "Pro Max modeline göre daha kompakt olduğu için bataryası 4056 mAh"
+    ],
+    "colorOptions": [
+      {
+        "name": "Burgonya",
+        "hex": "#6B1D2F",
+        "image": "/images/phones/apple/apple-iphone-18-pro-7.jpg"
+      },
+      {
+        "name": "Buzul Mavisi",
+        "hex": "#8BA8B7",
+        "image": "/images/phones/apple/apple-iphone-18-pro-1.jpg"
+      },
+      {
+        "name": "Siyah",
+        "hex": "#262626",
+        "image": "/images/phones/apple/apple-iphone-18-pro-4.jpg"
+      },
+      {
+        "name": "Gümüş",
+        "hex": "#D8D9DA",
+        "image": "/images/phones/apple/apple-iphone-18-pro-13.jpg"
+      }
+    ],
+    "storeOffers": [
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.svg",
+        "price": 154999,
+        "productUrl": "https://www.hepsiburada.com/ara?q=apple+iphone+18+pro+512gb",
+        "inStock": true,
+        "shippingFree": true
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.svg",
+        "price": 154999,
+        "productUrl": "https://www.vatanbilgisayar.com/arama/iphone%2018%20pro%20512gb/",
+        "inStock": true,
+        "shippingFree": true
+      },
+      {
+        "storeName": "Troy",
+        "storeLogo": "/images/stores/troy.svg",
+        "price": 154999,
+        "productUrl": "https://www.troyestore.com/arama?q=iphone+18+pro+512gb",
+        "inStock": true,
+        "shippingFree": true
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.svg",
+        "price": 155999,
+        "productUrl": "https://www.teknosa.com/arama?s=apple+iphone+18+pro+512gb",
+        "inStock": true,
+        "shippingFree": true
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.svg",
+        "price": 155499,
+        "productUrl": "https://www.trendyol.com/sr?q=iphone+18+pro+512gb",
+        "inStock": true,
+        "shippingFree": true
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 162749
+      },
+      {
+        "date": "2026-07-01",
+        "price": 159649
+      },
+      {
+        "date": "2026-08-01",
+        "price": 156549
+      },
+      {
+        "date": "2026-09-01",
+        "price": 154999
+      },
+      {
+        "date": "2026-09-13",
+        "price": 154999
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.3 inç",
+        "type": "LTPO Super Retina XDR OLED (1-120Hz ProMotion)",
+        "resolution": "2622 x 1206 piksel (460 ppi)",
+        "refreshRate": 120,
+        "brightnessNits": 3000,
+        "ppi": 460
+      },
+      "processor": {
+        "chip": "Apple A20 Pro (2nm TSMC N2)",
+        "cores": "6 Çekirdek (2x 4.25 GHz + 4x 2.4 GHz)",
+        "process": "2nm",
+        "antutuScore": 2320000
+      },
+      "memory": {
+        "ramGb": 12,
+        "ramType": "12 GB LPDDR5X (16-Core Neural Engine 45 TOPS)",
+        "storageGb": 512,
+        "storageOptions": [
+          256,
+          512,
+          1024,
+          2048
+        ],
+        "expandableStorage": false
+      },
+      "camera": {
+        "mainMp": "48 MP Fusion, f/1.78, 24mm, 2. nesil Sensor-shift OIS",
+        "ultrawideMp": "48 MP, f/2.2, 13mm, 120˚, Hibrit Odak & Makro",
+        "telephotoMp": "48 MP Periskop Tetraprism (5x Optik Zoom, f/2.8, 120mm, 3D Sensör OIS)",
+        "selfieMp": "24 MP TrueDepth, f/1.9, Otomatik Odaklama (AF)",
+        "videoRes": "4K@120fps Dolby Vision HDR, ProRes LOG, Uzamsal Video",
+        "dxomarkScore": 165
+      },
+      "battery": {
+        "capacitymAh": 4056,
+        "chargingWatts": 35,
+        "wirelessCharging": true,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 7 (802.11be)",
+        "bluetooth": "5.4",
+        "hasNFC": true,
+        "hasesim": true
+      },
+      "build": {
+        "weightGrams": 199,
+        "thicknessMm": 8.25,
+        "waterResistance": "IP68 / IPX8 (6 metre 30 dakika)",
+        "frameMaterial": "Grade 5 Titanyum"
+      },
+      "software": {
+        "osName": "iOS 20 (Apple Intelligence 2.0)",
+        "updateYears": 7
+      }
+    },
+    "variants": [
+      {
+        "id": "apple-apple-iphone-18-pro-512-gb-1071807-burgonya",
+        "name": "Apple iPhone 18 Pro (512 GB) - Burgonya",
+        "colorName": "Burgonya",
+        "colorHex": "#6B1D2F",
+        "image": "/images/phones/apple/apple-iphone-18-pro-7.jpg",
+        "price": 154999
+      },
+      {
+        "id": "apple-apple-iphone-18-pro-512-gb-1071807-buzul-mavisi",
+        "name": "Apple iPhone 18 Pro (512 GB) - Buzul Mavisi",
+        "colorName": "Buzul Mavisi",
+        "colorHex": "#8BA8B7",
+        "image": "/images/phones/apple/apple-iphone-18-pro-1.jpg",
+        "price": 154999
+      },
+      {
+        "id": "apple-apple-iphone-18-pro-512-gb-1071807-siyah",
+        "name": "Apple iPhone 18 Pro (512 GB) - Siyah",
+        "colorName": "Siyah",
+        "colorHex": "#262626",
+        "image": "/images/phones/apple/apple-iphone-18-pro-4.jpg",
+        "price": 154999
+      },
+      {
+        "id": "apple-apple-iphone-18-pro-512-gb-1071807-gumus",
+        "name": "Apple iPhone 18 Pro (512 GB) - Gümüş",
+        "colorName": "Gümüş",
+        "colorHex": "#D8D9DA",
+        "image": "/images/phones/apple/apple-iphone-18-pro-13.jpg",
+        "price": 154999
+      }
+    ]
+  },
+  {
+    "id": "apple-apple-iphone-18-pro-1-tb-1071808",
+    "slug": "apple-iphone-18-pro-1tb",
+    "name": "Apple iPhone 18 Pro (1 TB)",
+    "brand": "Apple",
+    "category": "smartphones",
+    "image": "/images/phones/apple/apple-iphone-18-pro-3.png",
+    "images": [
+      "/images/phones/apple/apple-iphone-18-pro-3.png",
+      "/images/phones/apple/apple-iphone-18-pro-4.jpg",
+      "/images/phones/apple/apple-iphone-18-pro-7.jpg",
+      "/images/phones/apple/apple-iphone-18-pro-1.jpg",
+      "/images/phones/apple/apple-iphone-18-pro-13.jpg",
+      "/images/phones/apple/apple-iphone-18-pro-2.jpg",
+      "/images/phones/apple/apple-iphone-18-pro-3.jpg",
+      "/images/phones/apple/apple-iphone-18-pro-5.jpg",
+      "/images/phones/apple/apple-iphone-18-pro-6.jpg",
+      "/images/phones/apple/apple-iphone-18-pro-8.jpg",
+      "/images/phones/apple/apple-iphone-18-pro-9.jpg",
+      "/images/phones/apple/apple-iphone-18-pro-10.jpg",
+      "/images/phones/apple/apple-iphone-18-pro-11.jpg",
+      "/images/phones/apple/apple-iphone-18-pro-12.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 92,
+    "reviewCount": 21,
+    "basePrice": 188999,
+    "price": 188999,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isLatestModel": true,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "6.3 inç LTPO Super Retina XDR OLED (120Hz ProMotion)",
+      "Apple A20 Pro 2nm Çip & 16-Core Neural Engine",
+      "12 GB LPDDR5X RAM & Apple Intelligence 2.0 Desteği",
+      "48 MP Fusion + 48 MP Ultra Geniş + 48 MP Periskop Telefoto (5x Optik)",
+      "4056 mAh Batarya & 35W Hızlı Şarj, MagSafe",
+      "Hafif ve Dayanıklı Grade 5 Titanyum Kasa"
+    ],
+    "pros": [
+      "Kompakt 6.3 inç kasada Pro Max ile aynı üst seviye Apple A20 Pro işlemci gücü",
+      "12 GB RAM ile Apple Intelligence 2.0 yapay zeka modelleri tam donanım hızında çalışır",
+      "5x optik yakınlaştırmalı 48 MP periskop telefoto ile kayıpsız uzak çekim imkanı",
+      "3000 nits tepe parlaklığa sahip güneş altında kusursuz görünen ProMotion ekran",
+      "Grade 5 titanyum hafifliği, IP68 / IPX8 suya dayanıklılık ve Ceramic Shield 2 dayanıklılığı"
+    ],
+    "cons": [
+      "Kutu içeriğinden şarj adaptörü çıkmıyor",
+      "Pro Max modeline göre daha kompakt olduğu için bataryası 4056 mAh"
+    ],
+    "colorOptions": [
+      {
+        "name": "Burgonya",
+        "hex": "#6B1D2F",
+        "image": "/images/phones/apple/apple-iphone-18-pro-7.jpg"
+      },
+      {
+        "name": "Buzul Mavisi",
+        "hex": "#8BA8B7",
+        "image": "/images/phones/apple/apple-iphone-18-pro-1.jpg"
+      },
+      {
+        "name": "Siyah",
+        "hex": "#262626",
+        "image": "/images/phones/apple/apple-iphone-18-pro-4.jpg"
+      },
+      {
+        "name": "Gümüş",
+        "hex": "#D8D9DA",
+        "image": "/images/phones/apple/apple-iphone-18-pro-13.jpg"
+      }
+    ],
+    "storeOffers": [
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.svg",
+        "price": 188999,
+        "productUrl": "https://www.hepsiburada.com/ara?q=apple+iphone+18+pro+1024gb",
+        "inStock": true,
+        "shippingFree": true
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.svg",
+        "price": 188999,
+        "productUrl": "https://www.vatanbilgisayar.com/arama/iphone%2018%20pro%201024gb/",
+        "inStock": true,
+        "shippingFree": true
+      },
+      {
+        "storeName": "Troy",
+        "storeLogo": "/images/stores/troy.svg",
+        "price": 188999,
+        "productUrl": "https://www.troyestore.com/arama?q=iphone+18+pro+1024gb",
+        "inStock": true,
+        "shippingFree": true
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.svg",
+        "price": 189999,
+        "productUrl": "https://www.teknosa.com/arama?s=apple+iphone+18+pro+1024gb",
+        "inStock": true,
+        "shippingFree": true
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.svg",
+        "price": 189499,
+        "productUrl": "https://www.trendyol.com/sr?q=iphone+18+pro+1024gb",
+        "inStock": true,
+        "shippingFree": true
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 198449
+      },
+      {
+        "date": "2026-07-01",
+        "price": 194669
+      },
+      {
+        "date": "2026-08-01",
+        "price": 190889
+      },
+      {
+        "date": "2026-09-01",
+        "price": 188999
+      },
+      {
+        "date": "2026-09-13",
+        "price": 188999
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.3 inç",
+        "type": "LTPO Super Retina XDR OLED (1-120Hz ProMotion)",
+        "resolution": "2622 x 1206 piksel (460 ppi)",
+        "refreshRate": 120,
+        "brightnessNits": 3000,
+        "ppi": 460
+      },
+      "processor": {
+        "chip": "Apple A20 Pro (2nm TSMC N2)",
+        "cores": "6 Çekirdek (2x 4.25 GHz + 4x 2.4 GHz)",
+        "process": "2nm",
+        "antutuScore": 2320000
+      },
+      "memory": {
+        "ramGb": 12,
+        "ramType": "12 GB LPDDR5X (16-Core Neural Engine 45 TOPS)",
+        "storageGb": 1024,
+        "storageOptions": [
+          256,
+          512,
+          1024,
+          2048
+        ],
+        "expandableStorage": false
+      },
+      "camera": {
+        "mainMp": "48 MP Fusion, f/1.78, 24mm, 2. nesil Sensor-shift OIS",
+        "ultrawideMp": "48 MP, f/2.2, 13mm, 120˚, Hibrit Odak & Makro",
+        "telephotoMp": "48 MP Periskop Tetraprism (5x Optik Zoom, f/2.8, 120mm, 3D Sensör OIS)",
+        "selfieMp": "24 MP TrueDepth, f/1.9, Otomatik Odaklama (AF)",
+        "videoRes": "4K@120fps Dolby Vision HDR, ProRes LOG, Uzamsal Video",
+        "dxomarkScore": 165
+      },
+      "battery": {
+        "capacitymAh": 4056,
+        "chargingWatts": 35,
+        "wirelessCharging": true,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 7 (802.11be)",
+        "bluetooth": "5.4",
+        "hasNFC": true,
+        "hasesim": true
+      },
+      "build": {
+        "weightGrams": 199,
+        "thicknessMm": 8.25,
+        "waterResistance": "IP68 / IPX8 (6 metre 30 dakika)",
+        "frameMaterial": "Grade 5 Titanyum"
+      },
+      "software": {
+        "osName": "iOS 20 (Apple Intelligence 2.0)",
+        "updateYears": 7
+      }
+    },
+    "variants": [
+      {
+        "id": "apple-apple-iphone-18-pro-1-tb-1071808-burgonya",
+        "name": "Apple iPhone 18 Pro (1 TB) - Burgonya",
+        "colorName": "Burgonya",
+        "colorHex": "#6B1D2F",
+        "image": "/images/phones/apple/apple-iphone-18-pro-7.jpg",
+        "price": 188999
+      },
+      {
+        "id": "apple-apple-iphone-18-pro-1-tb-1071808-buzul-mavisi",
+        "name": "Apple iPhone 18 Pro (1 TB) - Buzul Mavisi",
+        "colorName": "Buzul Mavisi",
+        "colorHex": "#8BA8B7",
+        "image": "/images/phones/apple/apple-iphone-18-pro-1.jpg",
+        "price": 188999
+      },
+      {
+        "id": "apple-apple-iphone-18-pro-1-tb-1071808-siyah",
+        "name": "Apple iPhone 18 Pro (1 TB) - Siyah",
+        "colorName": "Siyah",
+        "colorHex": "#262626",
+        "image": "/images/phones/apple/apple-iphone-18-pro-4.jpg",
+        "price": 188999
+      },
+      {
+        "id": "apple-apple-iphone-18-pro-1-tb-1071808-gumus",
+        "name": "Apple iPhone 18 Pro (1 TB) - Gümüş",
+        "colorName": "Gümüş",
+        "colorHex": "#D8D9DA",
+        "image": "/images/phones/apple/apple-iphone-18-pro-13.jpg",
+        "price": 188999
+      }
+    ]
+  },
+  {
+    "id": "apple-apple-iphone-18-pro-2-tb-1071809",
+    "slug": "apple-iphone-18-pro-2tb",
+    "name": "Apple iPhone 18 Pro (2 TB)",
+    "brand": "Apple",
+    "category": "smartphones",
+    "image": "/images/phones/apple/apple-iphone-18-pro-3.png",
+    "images": [
+      "/images/phones/apple/apple-iphone-18-pro-3.png",
+      "/images/phones/apple/apple-iphone-18-pro-4.jpg",
+      "/images/phones/apple/apple-iphone-18-pro-7.jpg",
+      "/images/phones/apple/apple-iphone-18-pro-1.jpg",
+      "/images/phones/apple/apple-iphone-18-pro-13.jpg",
+      "/images/phones/apple/apple-iphone-18-pro-2.jpg",
+      "/images/phones/apple/apple-iphone-18-pro-3.jpg",
+      "/images/phones/apple/apple-iphone-18-pro-5.jpg",
+      "/images/phones/apple/apple-iphone-18-pro-6.jpg",
+      "/images/phones/apple/apple-iphone-18-pro-8.jpg",
+      "/images/phones/apple/apple-iphone-18-pro-9.jpg",
+      "/images/phones/apple/apple-iphone-18-pro-10.jpg",
+      "/images/phones/apple/apple-iphone-18-pro-11.jpg",
+      "/images/phones/apple/apple-iphone-18-pro-12.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 92,
+    "reviewCount": 21,
+    "basePrice": 229999,
+    "price": 229999,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isLatestModel": true,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "6.3 inç LTPO Super Retina XDR OLED (120Hz ProMotion)",
+      "Apple A20 Pro 2nm Çip & 16-Core Neural Engine",
+      "12 GB LPDDR5X RAM & Apple Intelligence 2.0 Desteği",
+      "48 MP Fusion + 48 MP Ultra Geniş + 48 MP Periskop Telefoto (5x Optik)",
+      "4056 mAh Batarya & 35W Hızlı Şarj, MagSafe",
+      "Hafif ve Dayanıklı Grade 5 Titanyum Kasa"
+    ],
+    "pros": [
+      "Kompakt 6.3 inç kasada Pro Max ile aynı üst seviye Apple A20 Pro işlemci gücü",
+      "12 GB RAM ile Apple Intelligence 2.0 yapay zeka modelleri tam donanım hızında çalışır",
+      "5x optik yakınlaştırmalı 48 MP periskop telefoto ile kayıpsız uzak çekim imkanı",
+      "3000 nits tepe parlaklığa sahip güneş altında kusursuz görünen ProMotion ekran",
+      "Grade 5 titanyum hafifliği, IP68 / IPX8 suya dayanıklılık ve Ceramic Shield 2 dayanıklılığı"
+    ],
+    "cons": [
+      "Kutu içeriğinden şarj adaptörü çıkmıyor",
+      "Pro Max modeline göre daha kompakt olduğu için bataryası 4056 mAh"
+    ],
+    "colorOptions": [
+      {
+        "name": "Burgonya",
+        "hex": "#6B1D2F",
+        "image": "/images/phones/apple/apple-iphone-18-pro-7.jpg"
+      },
+      {
+        "name": "Buzul Mavisi",
+        "hex": "#8BA8B7",
+        "image": "/images/phones/apple/apple-iphone-18-pro-1.jpg"
+      },
+      {
+        "name": "Siyah",
+        "hex": "#262626",
+        "image": "/images/phones/apple/apple-iphone-18-pro-4.jpg"
+      },
+      {
+        "name": "Gümüş",
+        "hex": "#D8D9DA",
+        "image": "/images/phones/apple/apple-iphone-18-pro-13.jpg"
+      }
+    ],
+    "storeOffers": [
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.svg",
+        "price": 229999,
+        "productUrl": "https://www.hepsiburada.com/ara?q=apple+iphone+18+pro+2048gb",
+        "inStock": true,
+        "shippingFree": true
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.svg",
+        "price": 229999,
+        "productUrl": "https://www.vatanbilgisayar.com/arama/iphone%2018%20pro%202048gb/",
+        "inStock": true,
+        "shippingFree": true
+      },
+      {
+        "storeName": "Troy",
+        "storeLogo": "/images/stores/troy.svg",
+        "price": 229999,
+        "productUrl": "https://www.troyestore.com/arama?q=iphone+18+pro+2048gb",
+        "inStock": true,
+        "shippingFree": true
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.svg",
+        "price": 230999,
+        "productUrl": "https://www.teknosa.com/arama?s=apple+iphone+18+pro+2048gb",
+        "inStock": true,
+        "shippingFree": true
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.svg",
+        "price": 230499,
+        "productUrl": "https://www.trendyol.com/sr?q=iphone+18+pro+2048gb",
+        "inStock": true,
+        "shippingFree": true
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 241499
+      },
+      {
+        "date": "2026-07-01",
+        "price": 236899
+      },
+      {
+        "date": "2026-08-01",
+        "price": 232299
+      },
+      {
+        "date": "2026-09-01",
+        "price": 229999
+      },
+      {
+        "date": "2026-09-13",
+        "price": 229999
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.3 inç",
+        "type": "LTPO Super Retina XDR OLED (1-120Hz ProMotion)",
+        "resolution": "2622 x 1206 piksel (460 ppi)",
+        "refreshRate": 120,
+        "brightnessNits": 3000,
+        "ppi": 460
+      },
+      "processor": {
+        "chip": "Apple A20 Pro (2nm TSMC N2)",
+        "cores": "6 Çekirdek (2x 4.25 GHz + 4x 2.4 GHz)",
+        "process": "2nm",
+        "antutuScore": 2320000
+      },
+      "memory": {
+        "ramGb": 12,
+        "ramType": "12 GB LPDDR5X (16-Core Neural Engine 45 TOPS)",
+        "storageGb": 2048,
+        "storageOptions": [
+          256,
+          512,
+          1024,
+          2048
+        ],
+        "expandableStorage": false
+      },
+      "camera": {
+        "mainMp": "48 MP Fusion, f/1.78, 24mm, 2. nesil Sensor-shift OIS",
+        "ultrawideMp": "48 MP, f/2.2, 13mm, 120˚, Hibrit Odak & Makro",
+        "telephotoMp": "48 MP Periskop Tetraprism (5x Optik Zoom, f/2.8, 120mm, 3D Sensör OIS)",
+        "selfieMp": "24 MP TrueDepth, f/1.9, Otomatik Odaklama (AF)",
+        "videoRes": "4K@120fps Dolby Vision HDR, ProRes LOG, Uzamsal Video",
+        "dxomarkScore": 165
+      },
+      "battery": {
+        "capacitymAh": 4056,
+        "chargingWatts": 35,
+        "wirelessCharging": true,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 7 (802.11be)",
+        "bluetooth": "5.4",
+        "hasNFC": true,
+        "hasesim": true
+      },
+      "build": {
+        "weightGrams": 199,
+        "thicknessMm": 8.25,
+        "waterResistance": "IP68 / IPX8 (6 metre 30 dakika)",
+        "frameMaterial": "Grade 5 Titanyum"
+      },
+      "software": {
+        "osName": "iOS 20 (Apple Intelligence 2.0)",
+        "updateYears": 7
+      }
+    },
+    "variants": [
+      {
+        "id": "apple-apple-iphone-18-pro-2-tb-1071809-burgonya",
+        "name": "Apple iPhone 18 Pro (2 TB) - Burgonya",
+        "colorName": "Burgonya",
+        "colorHex": "#6B1D2F",
+        "image": "/images/phones/apple/apple-iphone-18-pro-7.jpg",
+        "price": 229999
+      },
+      {
+        "id": "apple-apple-iphone-18-pro-2-tb-1071809-buzul-mavisi",
+        "name": "Apple iPhone 18 Pro (2 TB) - Buzul Mavisi",
+        "colorName": "Buzul Mavisi",
+        "colorHex": "#8BA8B7",
+        "image": "/images/phones/apple/apple-iphone-18-pro-1.jpg",
+        "price": 229999
+      },
+      {
+        "id": "apple-apple-iphone-18-pro-2-tb-1071809-siyah",
+        "name": "Apple iPhone 18 Pro (2 TB) - Siyah",
+        "colorName": "Siyah",
+        "colorHex": "#262626",
+        "image": "/images/phones/apple/apple-iphone-18-pro-4.jpg",
+        "price": 229999
+      },
+      {
+        "id": "apple-apple-iphone-18-pro-2-tb-1071809-gumus",
+        "name": "Apple iPhone 18 Pro (2 TB) - Gümüş",
+        "colorName": "Gümüş",
+        "colorHex": "#D8D9DA",
+        "image": "/images/phones/apple/apple-iphone-18-pro-13.jpg",
+        "price": 229999
+      }
+    ]
+  },
+  {
     "id": "apple-apple-iphone-17e-512-gb-1048094",
     "slug": "apple-iphone-17e-512-gb",
     "name": "Apple iPhone 17e (512 GB)",
