@@ -26,17 +26,27 @@ export function I18nProvider({ children }: { children: React.ReactNode }) {
   const [language, setLanguageState] = useState<Language>('tr');
 
   useEffect(() => {
-    // SSR-safe hydration read from localStorage after mount
-    const saved = localStorage.getItem('tech_compare_lang') as Language;
-    if (saved && translations[saved]) {
-      // eslint-disable-next-line react-hooks/set-state-in-effect
-      setLanguageState(saved);
+    try {
+      if (typeof window !== 'undefined' && window.localStorage) {
+        const saved = localStorage.getItem('tech_compare_lang') as Language;
+        if (saved && translations[saved]) {
+          // eslint-disable-next-line react-hooks/set-state-in-effect
+          setLanguageState(saved);
+        }
+      }
+    } catch (e) {
+      // Smart TV veya kısıtlı tarayıcılarda localStorage erişimi SecurityError atabilir
+      console.warn('LocalStorage not available in current browser/TV environment', e);
     }
   }, []);
 
   const setLanguage = (lang: Language) => {
     setLanguageState(lang);
-    localStorage.setItem('tech_compare_lang', lang);
+    try {
+      if (typeof window !== 'undefined' && window.localStorage) {
+        localStorage.setItem('tech_compare_lang', lang);
+      }
+    } catch {}
   };
 
   const t = translations[language] || translations.tr;
