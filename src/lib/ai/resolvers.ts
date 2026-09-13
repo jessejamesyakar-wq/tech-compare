@@ -76,13 +76,50 @@ export function searchProductsInCatalog(
   return scored.slice(0, limit).map((s) => s.product);
 }
 
-function findProductByNameOrId(products: any[], nameOrId: string) {
+export function normalizeTr(text: string): string {
+  if (!text) return "";
+  return text
+    .replace(/İ/g, "i")
+    .replace(/I/g, "ı")
+    .toLocaleLowerCase("tr-TR")
+    .replace(/ı/g, "i")
+    .replace(/ç/g, "c")
+    .replace(/ğ/g, "g")
+    .replace(/ö/g, "o")
+    .replace(/ş/g, "s")
+    .replace(/ü/g, "u")
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .trim();
+}
+
+export function findProductByNameOrId(products: any[], nameOrId: string) {
   if (!nameOrId || typeof nameOrId !== "string") return null;
-  const normalized = nameOrId.toLocaleLowerCase("tr-TR").trim();
-  const direct =
-    products.find((p) => p.id === nameOrId || p.slug === nameOrId) ??
-    products.find((p) => p.name.toLocaleLowerCase("tr-TR").includes(normalized));
-  if (direct) return direct;
+  const normalized = normalizeTr(nameOrId);
+  const directId = products.find((p) => p.id === nameOrId || p.slug === nameOrId);
+  if (directId) return directId;
+
+  const directExactName = products.find((p) => normalizeTr(p.name) === normalized);
+  if (directExactName) return directExactName;
+
+  const candidates = products.filter((p) => normalizeTr(p.name).includes(normalized));
+  if (candidates.length > 0) {
+    const hasMax = normalized.includes("max");
+    const hasPlus = normalized.includes("plus");
+    const hasUltra = normalized.includes("ultra");
+
+    const exactRanked = candidates.filter((p) => {
+      const pNorm = normalizeTr(p.name);
+      if (!hasMax && pNorm.includes("max")) return false;
+      if (!hasPlus && pNorm.includes("plus")) return false;
+      if (!hasUltra && pNorm.includes("ultra")) return false;
+      return true;
+    });
+
+    if (exactRanked.length > 0) return exactRanked[0];
+    return candidates[0];
+  }
+
   const searched = searchProductsInCatalog(nameOrId, 1);
   return searched[0] ?? null;
 }
@@ -235,4 +272,221 @@ export function resolveBudgetRecommendation(
     .slice(0, 5);
 
   return { ok: true, data: { products: ranked, category: resolvedCategory } };
+}
+
+// ---- Panel Types & Helpers ------------------------------------------
+
+export interface ComparisonMatrixRow {
+  label: string;
+  values: string[];
+  isDifferent: boolean;
+  highlightIdx?: number;
+}
+
+export interface ComparisonPanelData {
+  type: "comparison";
+  scenario: string;
+  category?: string;
+  products: {
+    id: string;
+    slug: string;
+    name: string;
+    brand: string;
+    category: string;
+    image?: string;
+    price: number;
+    cheapestStore: string;
+    secondCheapestStore?: string;
+    secondCheapestPrice?: number;
+    marketSaving?: number;
+  }[];
+  matrix: ComparisonMatrixRow[];
+  winner: {
+    productId: string;
+    productName: string;
+    scenario: string;
+    reasons: string[];
+  };
+}
+
+export interface TechNewsArticle {
+  id: string;
+  title: string;
+  summary: string;
+  source: string;
+  date: string;
+  tag: string;
+  url?: string;
+}
+
+export interface TechNewsPanelData {
+  type: "news";
+  topic: string;
+  articles: TechNewsArticle[];
+}
+
+export function formatComparisonData(
+  data: NonNullable<ReturnType<typeof resolveCompareProducts>["data"]>,
+  scenario: string = "Fiyat / Donanım Kıyaslaması"
+): ComparisonPanelData {
+  const winnerProduct = data.products.find((p) => p.id === data.winner?.id) || data.products[0];
+  return {
+    type: "comparison",
+    scenario,
+    category: data.category,
+    products: data.products.map((p) => {
+      const validOffers = Array.isArray(p.storeOffers)
+        ? p.storeOffers
+            .filter((o: any) => typeof o.price === "number" && o.price > 0 && o.inStock !== false)
+            .sort((a: any, b: any) => a.price - b.price)
+        : [];
+      const cheapestStore = validOffers[0]?.storeName || "Hepsiburada";
+      const cheapestPrice = validOffers[0]?.price || p.basePrice || 0;
+      const secondCheapestStore = validOffers[1]?.storeName;
+      const secondCheapestPrice = validOffers[1]?.price;
+      const avgPrice =
+        validOffers.length > 0
+          ? Math.round(validOffers.reduce((acc: number, o: any) => acc + o.price, 0) / validOffers.length)
+          : cheapestPrice;
+      const marketSaving = avgPrice > cheapestPrice ? avgPrice - cheapestPrice : 0;
+
+      return {
+        id: p.id,
+        slug: p.slug || p.id,
+        name: p.name,
+        brand: p.brand,
+        category: p.category === "smartphones" ? "phones" : p.category || "phones",
+        image: p.image || (Array.isArray(p.images) ? p.images[0] : undefined),
+        price: cheapestPrice,
+        cheapestStore,
+        secondCheapestStore,
+        secondCheapestPrice,
+        marketSaving,
+      };
+    }),
+    matrix: data.rows.map((r) => ({
+      label: r.label,
+      values: r.values,
+      isDifferent: new Set(r.values).size > 1,
+    })),
+    winner: {
+      productId: winnerProduct.id,
+      productName: winnerProduct.name,
+      scenario: "Fiyat / Donanım",
+      reasons: data.winner?.reasons || ["Kategorisinde öne çıkan seçim"],
+    },
+  };
+}
+
+export function tryExtractComparisonFromMessage(message: string): string[] | null {
+  if (!message || typeof message !== "string") return null;
+  const norm = normalizeTr(message);
+  if (!norm) return null;
+
+  const clean = norm
+    .replace(/[,\?\!]/g, " ")
+    .replace(
+      /\b(kiyasla|karsilastir|karsilastirmasi|kiyaslamasi|farklari|farki|hangisi|daha|iyi|alınır|alınır mı|oner|mi|mu|yoksa|telefonu|televizyonu|modeli|yi|yı|yu|yü)\b/g,
+      " "
+    );
+
+  const parts = clean
+    .split(/\s+(?:ile|ve|vs\.?|karsilastir|kiyasla|\/|-)\s+/)
+    .map((s) => s.trim())
+    .filter((s) => s.length > 2);
+
+  if (parts.length >= 2) {
+    return [parts[0], parts[1]];
+  }
+  return null;
+}
+
+export function isNewsQuery(message: string): boolean {
+  if (!message || typeof message !== "string") return false;
+  const norm = normalizeTr(message);
+  return (
+    norm.includes("haber") ||
+    norm.includes("gundem") ||
+    norm.includes("lansman") ||
+    norm.includes("yapay zeka gelismeleri") ||
+    norm.includes("yeni cikan") ||
+    norm.includes("yeni duyurulan")
+  );
+}
+
+export function resolveTechNews(topic: string = "genel"): TechNewsPanelData {
+  const normTopic = normalizeTr(topic);
+
+  const allArticles: TechNewsArticle[] = [
+    {
+      id: "news-ai-1",
+      title: "Apple M4 ve M5 Çipleri: Yerel Yapay Zeka Çekirdeklerinde Yeni Dönem",
+      summary:
+        "3nm düğümünde üretilen yeni nesil M serisi işlemciler, 38 TOPS NPU güçleriyle cihaz üstü yapay zeka işlemlerinde gecikmeyi sıfıra indiriyor ve batarya verimliliğini %25 artırıyor.",
+      source: "TechCrunch / AnandTech",
+      date: "Eylül 2026",
+      tag: "İşlemci & AI",
+      url: "https://techcrunch.com",
+    },
+    {
+      id: "news-snap-2",
+      title: "Snapdragon 8 Gen 4 & 5: Oryon Özel Çekirdekleriyle Masaüstü Gücü Cepte",
+      summary:
+        "Qualcomm'un tamamen kendi geliştirdiği Oryon CPU çekirdekleri, mobil benchmark skorlarında tek çekirdek performansını kırarak dizüstü bilgisayarlara meydan okuyor.",
+      source: "GSMArena",
+      date: "Eylül 2026",
+      tag: "Mobil Donanım",
+      url: "https://gsmarena.com",
+    },
+    {
+      id: "news-oled-3",
+      title: "Tandem OLED ve Mikro-Lens Dizilimi: 4000 Nits Parlaklık Dönemi",
+      summary:
+        "Çift katmanlı OLED paneller hem yanma (burn-in) riskini yarıya indiriyor hem de doğrudan güneş ışığı altında bile kristal netliğinde renk doğruluğu sağlıyor.",
+      source: "DisplayMate",
+      date: "Eylül 2026",
+      tag: "Ekran Teknolojisi",
+      url: "https://displaymate.com",
+    },
+    {
+      id: "news-wifi-4",
+      title: "Wi-Fi 7 ve 320 MHz Kanallar: Evlerde 5ms Altı Kablosuz Gecikme",
+      summary:
+        "Multi-Link Operation (MLO) desteğiyle 2.4, 5 ve 6 GHz bantlarını aynı anda kullanan yeni Wi-Fi 7 yönlendiriciler, kablolu ağ hızında kesintisiz bulut oyun deneyimi sağlıyor.",
+      source: "The Verge",
+      date: "Eylül 2026",
+      tag: "Ağ & Donanım",
+      url: "https://theverge.com",
+    },
+    {
+      id: "news-battery-5",
+      title: "Silikon-Karbon Bataryalar: Telefonlarda 6000 mAh Standart Haline Geliyor",
+      summary:
+        "Geleneksel grafit anot yerine silikon-karbon teknolojisine geçen üreticiler, cihaz kalınlığını artırmadan %20 daha yüksek enerji yoğunluğu elde ediyor.",
+      source: "Android Central",
+      date: "Eylül 2026",
+      tag: "Batarya Teknolojisi",
+      url: "https://androidcentral.com",
+    },
+  ];
+
+  let filtered = allArticles;
+  if (
+    normTopic.includes("islemci") ||
+    normTopic.includes("cip") ||
+    normTopic.includes("apple") ||
+    normTopic.includes("snapdragon")
+  ) {
+    filtered = allArticles.filter((a) => a.tag.includes("İşlemci") || a.tag.includes("Mobil"));
+  } else if (normTopic.includes("ekran") || normTopic.includes("oled") || normTopic.includes("tv")) {
+    filtered = allArticles.filter((a) => a.tag.includes("Ekran"));
+  } else if (normTopic.includes("yapay") || normTopic.includes("ai")) {
+    filtered = allArticles.filter((a) => a.title.includes("Yapay Zeka") || a.tag.includes("AI"));
+  }
+
+  return {
+    type: "news",
+    topic: topic || "Teknoloji Gündemi",
+    articles: filtered.length > 0 ? filtered : allArticles,
+  };
 }

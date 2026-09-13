@@ -440,6 +440,7 @@ export function AIAssistantModal({ isOpen, onClose, initialQuery = '' }: AIAssis
 
       const reader = res.body.getReader();
       const decoder = new TextDecoder('utf-8');
+      let streamBuffer = '';
 
       while (true) {
         const { done, value } = await reader.read();
@@ -456,35 +457,102 @@ export function AIAssistantModal({ isOpen, onClose, initialQuery = '' }: AIAssis
           return;
         }
 
-        const chunk = decoder.decode(value, { stream: true });
-        if (chunk) {
-          let textToAdd = chunk;
+        streamBuffer += decoder.decode(value, { stream: true });
+        const events = streamBuffer.split('\n\n');
+        streamBuffer = events.pop() || '';
 
-          // SSE formatında (data: ...) gelen parçaları ayıkla
-          if (chunk.includes('data: ')) {
-            const lines = chunk.split('\n');
-            let accumulated = '';
-            for (const l of lines) {
-              const trimmedLine = l.trim();
-              if (trimmedLine.startsWith('data: ')) {
-                const content = trimmedLine.slice(6).trim();
-                if (content && content !== '[DONE]') {
-                  try {
-                    const parsed = JSON.parse(content);
-                    accumulated += parsed.choices?.[0]?.delta?.content || (typeof parsed === 'string' ? parsed : '');
-                  } catch {
-                    accumulated += content;
-                  }
-                }
-              }
+        for (const evt of events) {
+          if (!evt.trim()) continue;
+          if (activeRequestIdRef.current !== currentRequestId) return;
+
+          const lines = evt.split('\n');
+          let eventType = 'text';
+          let dataStr = '';
+
+          for (const line of lines) {
+            if (line.startsWith('event: ')) {
+              eventType = line.slice(7).trim();
+            } else if (line.startsWith('data: ')) {
+              dataStr = line.slice(6).trim();
             }
-            if (accumulated) textToAdd = accumulated;
           }
 
+          // 1. Yan Panel Olayı (Karşılaştırma veya Haberler)
+          if (eventType === 'panel' && dataStr) {
+            try {
+              const panelData = JSON.parse(dataStr);
+              if (panelData && (panelData.type === 'comparison' || panelData.type === 'news')) {
+                setActivePanel(panelData);
+                setMobileTab('panel');
+              }
+            } catch (e) {
+              console.error('[RoboPengu][ERROR] Panel JSON parse error:', e);
+            }
+          }
+          // 2. Ürün Önerileri
+          else if (eventType === 'products' && dataStr) {
+            try {
+              const recs: AIAssistantRecommendation[] = JSON.parse(dataStr);
+              if (Array.isArray(recs)) {
+                setMessages((prev) =>
+                  prev.map((m) => (m.id === botMsgId ? { ...m, recommendations: recs } : m))
+                );
+              }
+            } catch {}
+          }
+          // 3. Canlı Metin Akışı (SSE)
+          else if (eventType === 'text' && dataStr) {
+            if (dataStr !== '[DONE]') {
+              let token = dataStr;
+              try {
+                token = JSON.parse(dataStr);
+              } catch {
+                token = dataStr;
+              }
+              if (typeof token === 'string') {
+                setMessages((prev) =>
+                  prev.map((m) =>
+                    m.id === botMsgId ? { ...m, content: m.content + token } : m
+                  )
+                );
+              }
+            }
+          }
+          // 4. Standart Düz Metin Akışı (Fallback)
+          else if (!evt.includes('event: ') && !evt.includes('data: ')) {
+            setMessages((prev) =>
+              prev.map((m) =>
+                m.id === botMsgId ? { ...m, content: m.content + evt } : m
+              )
+            );
+          }
+        }
+      }
+
+      // Kalan tampon varsa işle
+      if (streamBuffer.trim()) {
+        const lines = streamBuffer.split('\n');
+        let eventType = 'text';
+        let dataStr = '';
+        for (const line of lines) {
+          if (line.startsWith('event: ')) eventType = line.slice(7).trim();
+          else if (line.startsWith('data: ')) dataStr = line.slice(6).trim();
+        }
+        if (eventType === 'text' && dataStr && dataStr !== '[DONE]') {
+          let token = dataStr;
+          try {
+            token = JSON.parse(dataStr);
+          } catch {
+            token = dataStr;
+          }
+          if (typeof token === 'string') {
+            setMessages((prev) =>
+              prev.map((m) => (m.id === botMsgId ? { ...m, content: m.content + token } : m))
+            );
+          }
+        } else if (!streamBuffer.includes('data: ') && !streamBuffer.includes('event: ')) {
           setMessages((prev) =>
-            prev.map((m) =>
-              m.id === botMsgId ? { ...m, content: m.content + textToAdd } : m
-            )
+            prev.map((m) => (m.id === botMsgId ? { ...m, content: m.content + streamBuffer } : m))
           );
         }
       }
