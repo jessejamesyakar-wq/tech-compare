@@ -3,6 +3,7 @@ import {
   resolveCompareProducts,
   formatComparisonData,
   tryExtractComparisonFromMessage,
+  createDynamicComparisonPanel,
   isNewsQuery,
   resolveTechNews,
   ComparisonPanelData,
@@ -105,6 +106,8 @@ export async function POST(req: Request) {
       const compResult = resolveCompareProducts(compParts);
       if (compResult.ok && compResult.data) {
         sidePanel = formatComparisonData(compResult.data);
+      } else {
+        sidePanel = createDynamicComparisonPanel(compParts);
       }
     } else if (isNewsQuery(trimmedPrompt)) {
       sidePanel = resolveTechNews(trimmedPrompt);

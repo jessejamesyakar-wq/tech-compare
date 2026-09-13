@@ -70,27 +70,56 @@ function findProductInCatalog(identifier) {
 }
 
 function tryExtractComparison(message) {
-  const norm = normalizeTr(message);
-  if (!norm) return null;
-
-  const clean = norm
-    .replace(/[,\?\!]/g, " ")
+  const clean = (message || "")
+    .replace(/[,\?\!\.]+/g, " ")
     .replace(
-      /\b(kiyasla|karsilastir|karsilastirmasi|kiyaslamasi|farklari|farki|hangisi|daha|iyi|alınır|alınır mı|oner|mi|mu|yoksa|telefonu|televizyonu|modeli|yi|yı|yu|yü)\b/g,
+      /\b(kiyasla|kıyasla|karsilastir|karşılaştır|karsilastirmasi|karşılaştırması|kiyaslamasi|kıyaslaması|farklari|farkları|farki|farkı|hangisi|daha|iyi|alinir|alınır|oner|öner|mi|mu|yoksa|telefonu|televizyonu|modeli|yi|yı|yu|yü)\b/gi,
       " "
-    );
+    )
+    .trim();
 
-  const parts = clean
-    .split(/\s+(?:ile|ve|vs\.?|karsilastir|kiyasla|\/|-)\s+/)
-    .map((s) => s.trim())
-    .filter((s) => s.length > 2);
+  const splitRegex = /\s+(?:vs\.?|ile|ve|\/|karşı)\s+/i;
+  let parts = null;
+  if (splitRegex.test(clean)) {
+    parts = clean
+      .split(splitRegex)
+      .map((s) => s.trim().replace(/^[\s,]+|[\s,]+$/g, ""))
+      .filter((s) => s.length >= 2);
+  } else {
+    const compactVsMatch = message.match(/([A-Za-z0-9\-_]+)\s*vs\.?\s*([A-Za-z0-9\-_]+)/i);
+    if (compactVsMatch) {
+      parts = [compactVsMatch[1].trim(), compactVsMatch[2].trim()];
+    }
+  }
 
-  if (parts.length >= 2) {
+  if (parts && parts.length >= 2) {
     const p1 = findProductInCatalog(parts[0]);
     const p2 = findProductInCatalog(parts[1]);
     if (p1 && p2 && p1.id !== p2.id) {
       return [p1, p2];
     }
+    // Katalogda bulunamazsa dinamik ürünler oluştur
+    const dyn1 = p1 || {
+      id: "dyn-1",
+      slug: parts[0].toLowerCase().replace(/[^a-z0-9]+/g, "-"),
+      name: parts[0],
+      brand: parts[0].split(" ")[0] || "Teknoloji",
+      category: "electronics",
+      basePrice: 0,
+      storeOffers: [],
+      specs: {},
+    };
+    const dyn2 = p2 || {
+      id: "dyn-2",
+      slug: parts[1].toLowerCase().replace(/[^a-z0-9]+/g, "-"),
+      name: parts[1],
+      brand: parts[1].split(" ")[0] || "Teknoloji",
+      category: "electronics",
+      basePrice: 0,
+      storeOffers: [],
+      specs: {},
+    };
+    return [dyn1, dyn2];
   }
   return null;
 }

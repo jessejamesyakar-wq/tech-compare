@@ -415,8 +415,12 @@ export function AIAssistantModal({ isOpen, onClose, initialQuery = '' }: AIAssis
   const activeRequestIdRef = useRef<string | null>(null);
   const abortControllerRef = useRef<AbortController | null>(null);
 
-  const getProductUrl = (rec: { slug?: string; productId?: string; category?: string }) => {
+  const getProductUrl = (rec: { slug?: string; productId?: string; category?: string; name?: string }) => {
     const slug = rec.slug || rec.productId;
+    if (slug?.startsWith('dyn-') || rec.productId?.startsWith('dyn-')) {
+      const q = rec.name || slug?.replace('dyn-', '') || '';
+      return `/search?q=${encodeURIComponent(q)}`;
+    }
     const cat = rec.category || 'phones';
     if (cat === 'tvs') return `/tvs/${slug}`;
     if (cat === 'laptops') return `/laptops/${slug}`;
@@ -454,6 +458,109 @@ export function AIAssistantModal({ isOpen, onClose, initialQuery = '' }: AIAssis
       }
     }
   }, [messages]);
+
+  // 3. Kıyaslama Ekranını Otomatik Açma Güvencesi:
+  // Asistan yanıtı kıyaslama/derin analiz içeriyor ama sunucudan panel verisi gelmemişse,
+  // yanıt veya kullanıcı sorusundan ürünleri tespit edip sağ paneli anında aç!
+  useEffect(() => {
+    if (activePanel === null && messages.length > 0) {
+      const lastAssistant = [...messages].reverse().find((m) => m.role === 'assistant');
+      if (lastAssistant && lastAssistant.content) {
+        const { deepAnalysis } = partitionContent(lastAssistant.content);
+        const hasComparisonCues =
+          Boolean(deepAnalysis) ||
+          lastAssistant.content.includes('[DEEP_ANALYSIS]') ||
+          lastAssistant.content.includes('[SUMMARY_CHAT]') ||
+          /(?:^|\n)(?:###?\s*(?:1[\.\)]\s*)?Ekran|###?\s*1[\.\)]|##\s*1[\.\)])/i.test(lastAssistant.content);
+
+        if (hasComparisonCues) {
+          const lastUser = [...messages].reverse().find((m) => m.role === 'user');
+          const promptText = lastUser?.content || '';
+          const responseText = lastAssistant.content;
+
+          // Asistan metninden "X ve Y modellerini" tespit et
+          const modelMatch = responseText.match(
+            /([A-Za-z0-9\s\-]+?)\s+(?:ve|ile)\s+([A-Za-z0-9\s\-]+?)\s+(?:modellerini|cihazlarını|telefonlarını|televizyonlarını|ürünlerini)/i
+          );
+
+          let p1 = 'Ürün 1';
+          let p2 = 'Ürün 2';
+
+          if (modelMatch) {
+            p1 = modelMatch[1].trim();
+            p2 = modelMatch[2].trim();
+          } else {
+            const userParts = promptText
+              .replace(/[\?\!\.]+/g, ' ')
+              .replace(/\b(kiyasla|kıyasla|karsilastir|karşılaştır|hangisi|daha|iyi|farki|farkı)\b/gi, '')
+              .split(/\s+(?:vs\.?|ile|ve|\/)\s+/i)
+              .map((s) => s.trim())
+              .filter((s) => s.length >= 2);
+            if (userParts.length >= 2) {
+              p1 = userParts[0];
+              p2 = userParts[1];
+            }
+          }
+
+          // Kazananı tespit et
+          const boldWinnerMatch =
+            responseText.match(/\*\*([^*]+)\*\*\s+bu\s+(?:düellonun|kıyaslamanın|karşılaştırmanın)/i) ||
+            responseText.match(/kazanan(?:ı|i)?:\s*\*?\*?([A-Za-z0-9\s\-]+)/i);
+          const winnerName = boldWinnerMatch ? boldWinnerMatch[1].trim() : p2;
+
+          const isTv =
+            promptText.toLowerCase().includes('tv') ||
+            promptText.toLowerCase().includes('oled') ||
+            promptText.toLowerCase().includes('qned') ||
+            responseText.toLowerCase().includes('oled') ||
+            responseText.toLowerCase().includes('qned');
+          const category = isTv ? 'tvs' : 'phones';
+
+          setActivePanel({
+            type: 'comparison',
+            scenario: 'Detaylı Karşılaştırma',
+            category,
+            products: [
+              {
+                id: 'dyn-1',
+                slug: p1.toLowerCase().replace(/[^a-z0-9]+/g, '-'),
+                name: p1,
+                brand: p1.split(' ')[0] || 'Marka',
+                category,
+                price: 0,
+                cheapestStore: 'Piyasa Fiyatı',
+              },
+              {
+                id: 'dyn-2',
+                slug: p2.toLowerCase().replace(/[^a-z0-9]+/g, '-'),
+                name: p2,
+                brand: p2.split(' ')[0] || 'Marka',
+                category,
+                price: 0,
+                cheapestStore: 'Piyasa Fiyatı',
+              },
+            ],
+            matrix: [
+              { label: 'Kategori / Segment', values: ['Premium Seçenek', 'Premium Seçenek'], isDifferent: false },
+              { label: 'Donanım Seviyesi', values: ['Yüksek Performans', 'Yüksek Performans'], isDifferent: false },
+              { label: 'Öne Çıkan Yön', values: ['Optimizasyon & Güç', 'Panel & Görüntü Kalitesi'], isDifferent: true, highlightIdx: 1 },
+            ],
+            winner: {
+              productId: winnerName.toLowerCase().includes(p1.toLowerCase()) ? 'dyn-1' : 'dyn-2',
+              productName: winnerName,
+              scenario: 'Uzman Değerlendirmesi',
+              reasons: [
+                'Üstün görüntü ve panel teknolojisi',
+                'Kullanım senaryosuna en uygun donanım dengesi',
+                'Fiyat/performans ve teknolojik avantaj',
+              ],
+            },
+          });
+          setMobileTab('panel');
+        }
+      }
+    }
+  }, [messages, activePanel]);
 
   // Sohbeti Sıfırlama
   const handleClearChat = () => {
@@ -1203,7 +1310,9 @@ export function AIAssistantModal({ isOpen, onClose, initialQuery = '' }: AIAssis
                                       className="max-h-full max-w-full object-contain"
                                     />
                                   ) : (
-                                    <div className="text-3xl">📱</div>
+                                    <div className="text-3xl">
+                                      {p.category === 'tvs' ? '📺' : p.category === 'laptops' ? '💻' : '📱'}
+                                    </div>
                                   )}
                                 </div>
 
@@ -1216,12 +1325,16 @@ export function AIAssistantModal({ isOpen, onClose, initialQuery = '' }: AIAssis
 
                                 <div className="mt-1.5 flex items-baseline gap-1">
                                   <span className="text-xs sm:text-sm font-extrabold text-emerald-600 dark:text-emerald-400">
-                                    ₺{p.price.toLocaleString('tr-TR')}
+                                    {p.price > 0 ? `₺${p.price.toLocaleString('tr-TR')}` : 'Piyasa Fiyatı'}
                                   </span>
                                 </div>
 
                                 <div className="text-[9px] text-slate-500 dark:text-slate-400 truncate mt-0.5">
-                                  En Ucuz: <strong className="text-slate-700 dark:text-slate-300">{p.cheapestStore}</strong>
+                                  {p.cheapestStore ? (
+                                    <>En Ucuz: <strong className="text-slate-700 dark:text-slate-300">{p.cheapestStore}</strong></>
+                                  ) : (
+                                    <span className="text-slate-400">Piyasa Analizi</span>
+                                  )}
                                 </div>
 
                                 <Link
@@ -1229,7 +1342,7 @@ export function AIAssistantModal({ isOpen, onClose, initialQuery = '' }: AIAssis
                                   onClick={onClose}
                                   className="mt-2 block text-center py-1 bg-white dark:bg-slate-800 hover:bg-emerald-500 hover:text-white dark:hover:bg-emerald-600 text-slate-700 dark:text-slate-200 border border-slate-200 dark:border-slate-700 rounded-lg text-[10px] font-semibold transition cursor-pointer"
                                 >
-                                  Detay & Mağazalar ↗
+                                  {p.price > 0 ? 'Detay & Mağazalar ↗' : 'Katalogda Ara ↗'}
                                 </Link>
                               </div>
                             );

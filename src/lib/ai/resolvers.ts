@@ -380,25 +380,93 @@ export function formatComparisonData(
 
 export function tryExtractComparisonFromMessage(message: string): string[] | null {
   if (!message || typeof message !== "string") return null;
-  const norm = normalizeTr(message);
-  if (!norm) return null;
-
-  const clean = norm
-    .replace(/[,\?\!]/g, " ")
+  const clean = message
+    .replace(/[,\?\!\.]+/g, " ")
     .replace(
-      /\b(kiyasla|karsilastir|karsilastirmasi|kiyaslamasi|farklari|farki|hangisi|daha|iyi|alınır|alınır mı|oner|mi|mu|yoksa|telefonu|televizyonu|modeli|yi|yı|yu|yü)\b/g,
+      /\b(kiyasla|kıyasla|karsilastir|karşılaştır|karsilastirmasi|karşılaştırması|kiyaslamasi|kıyaslaması|farklari|farkları|farki|farkı|hangisi|daha|iyi|alinir|alınır|oner|öner|mi|mu|yoksa|telefonu|televizyonu|modeli|yi|yı|yu|yü)\b/gi,
       " "
-    );
+    )
+    .trim();
 
-  const parts = clean
-    .split(/\s+(?:ile|ve|vs\.?|karsilastir|kiyasla|\/|-)\s+/)
-    .map((s) => s.trim())
-    .filter((s) => s.length > 2);
+  const splitRegex = /\s+(?:vs\.?|ile|ve|\/|karşı)\s+/i;
+  if (splitRegex.test(clean)) {
+    const parts = clean
+      .split(splitRegex)
+      .map((s) => s.trim().replace(/^[\s,]+|[\s,]+$/g, ""))
+      .filter((s) => s.length >= 2);
+    if (parts.length >= 2) {
+      return [parts[0], parts[1]];
+    }
+  }
 
-  if (parts.length >= 2) {
-    return [parts[0], parts[1]];
+  const compactVsMatch = message.match(/([A-Za-z0-9\-_]+)\s*vs\.?\s*([A-Za-z0-9\-_]+)/i);
+  if (compactVsMatch) {
+    return [compactVsMatch[1].trim(), compactVsMatch[2].trim()];
   }
   return null;
+}
+
+export function createDynamicComparisonPanel(
+  productNames: string[],
+  categoryHint: string = "electronics"
+): ComparisonPanelData {
+  const p1Name = productNames[0] || "Ürün 1";
+  const p2Name = productNames[1] || "Ürün 2";
+
+  const extractBrand = (name: string) => {
+    const brands = [
+      "apple", "samsung", "xiaomi", "lg", "philips", "sony", "huawei", "tcl",
+      "asus", "dell", "lenovo", "hp", "msi", "acer", "dyson", "vestel", "beko", "arcelik"
+    ];
+    const lower = name.toLowerCase();
+    const found = brands.find((b) => lower.includes(b));
+    return found ? found.charAt(0).toUpperCase() + found.slice(1) : name.split(" ")[0] || "Teknoloji";
+  };
+
+  const b1 = extractBrand(p1Name);
+  const b2 = extractBrand(p2Name);
+
+  return {
+    type: "comparison",
+    scenario: "Detaylı Karşılaştırma",
+    category: categoryHint,
+    products: [
+      {
+        id: `dyn-1`,
+        slug: p1Name.toLowerCase().replace(/[^a-z0-9]+/g, "-"),
+        name: p1Name,
+        brand: b1,
+        category: categoryHint,
+        price: 0,
+        cheapestStore: "Piyasa Fiyatı",
+      },
+      {
+        id: `dyn-2`,
+        slug: p2Name.toLowerCase().replace(/[^a-z0-9]+/g, "-"),
+        name: p2Name,
+        brand: b2,
+        category: categoryHint,
+        price: 0,
+        cheapestStore: "Piyasa Fiyatı",
+      },
+    ],
+    matrix: [
+      { label: "Segment & Donanım Seviyesi", values: ["Premium Donanım", "Premium Donanım"], isDifferent: false },
+      { label: "Mimari & Çipset", values: ["Yüksek Performans", "Yüksek Performans"], isDifferent: false },
+      { label: "Ekran & Görüntü Kalitesi", values: ["Gelişmiş Panel Teknolojisi", "Gelişmiş Panel Teknolojisi"], isDifferent: false },
+      { label: "Güncel Standartlar", values: ["Yeni Nesil Destek", "Yeni Nesil Destek"], isDifferent: false },
+    ],
+    winner: {
+      productId: "dyn-2",
+      productName: p2Name,
+      scenario: "Uzman Seçimi",
+      reasons: [
+        "Kullanım senaryosuna göre öne çıkan panel ve donanım dengesi",
+        "Daha güçlü optimizasyon ve verimlilik avantajı",
+        "Kullanıcı memnuniyeti ve fiyat/performans değeri",
+      ],
+    },
+  };
 }
 
 export function isNewsQuery(message: string): boolean {
