@@ -9,28 +9,310 @@ import type { CatalogCategory } from "./categoryMatcher";
 export interface SpecFieldDef {
   key: string;
   label: string;
+  group?: "processor" | "screen" | "camera" | "battery" | "build" | "general";
   paths: string[][]; // Multiple candidate paths in order of preference
-  format?: (value: any) => string;
+  format?: (value: any, p?: any) => string;
+  compare?: (vals: any[]) => number | null; // returns index of superior product or null
 }
 
-const num = (v: any) => (typeof v === "number" ? v.toLocaleString("tr-TR") : String(v));
+const num = (v: any) => {
+  if (typeof v === "number") return v.toLocaleString("tr-TR");
+  const parsed = parseFloat(String(v).replace(/[^0-9.]/g, ""));
+  return isNaN(parsed) ? String(v) : parsed.toLocaleString("tr-TR");
+};
+
+function parseNumber(val: any): number {
+  if (typeof val === "number") return val;
+  if (!val) return 0;
+  const cleaned = String(val).replace(/\./g, "").replace(/,/g, ".");
+  const match = cleaned.match(/\d+(?:\.\d+)?/);
+  return match ? parseFloat(match[0]) : 0;
+}
+
+// Chipset-based AnTuTu v10 benchmark estimations when not explicitly stored
+function inferAntutuScore(p: any): number | null {
+  const chipStr = String(
+    p?.specs?.processor?.chip ||
+    p?.specs?.chipset ||
+    p?.specs?.processor ||
+    p?.processor ||
+    ""
+  ).toLowerCase();
+
+  if (chipStr.includes("gen 5") || chipStr.includes("8 gen 5")) return 3680000;
+  if (chipStr.includes("gen 4") || chipStr.includes("8 elite") || chipStr.includes("elite")) return 3150000;
+  if (chipStr.includes("a20 pro") || chipStr.includes("a20")) return 2350000;
+  if (chipStr.includes("a19 pro") || chipStr.includes("a19")) return 2150000;
+  if (chipStr.includes("a18 pro") || chipStr.includes("a18")) return 1850000;
+  if (chipStr.includes("dimensity 9500") || chipStr.includes("9500")) return 3200000;
+  if (chipStr.includes("dimensity 9400") || chipStr.includes("9400")) return 2950000;
+  if (chipStr.includes("gen 3") || chipStr.includes("8 gen 3")) return 2100000;
+  if (chipStr.includes("dimensity 8400") || chipStr.includes("8400")) return 1800000;
+  return null;
+}
+
+// Peak brightness estimation when not explicitly stored
+function inferBrightness(p: any): number | null {
+  const typeStr = String(
+    p?.specs?.screen?.type ||
+    p?.specs?.displayType ||
+    p?.specs?.panelType ||
+    ""
+  ).toLowerCase();
+
+  if (typeStr.includes("ltpo") || typeStr.includes("retina xdr") || typeStr.includes("amoled (144")) return 3000;
+  if (typeStr.includes("crystalres") || typeStr.includes("amoled")) return 2400;
+  if (typeStr.includes("oled")) return 2000;
+  if (typeStr.includes("ips") || typeStr.includes("lcd")) return 800;
+  return null;
+}
 
 export const CATEGORY_SPEC_FIELDS: Record<CatalogCategory, SpecFieldDef[]> = {
   smartphones: [
-    { key: "antutu", label: "AnTuTu v10 Skoru", paths: [["processor", "antutuScore"], ["antutuScore"]], format: (v) => `${num(v)} Puan` },
-    { key: "chip", label: "İşlemci & Çip Mimarisi", paths: [["processor", "chip"], ["processor"]] },
-    { key: "screen", label: "Ekran & Panel", paths: [["screen", "type"], ["screen", "size"], ["screenSizeInches"]] },
-    { key: "brightness", label: "Tepe Parlaklık", paths: [["screen", "brightnessNits"], ["brightnessNits"]], format: (v) => `${num(v)} Nits` },
-    { key: "resolution", label: "Çözünürlük & PPI", paths: [["screen", "resolution"], ["resolution"]] },
-    { key: "camera", label: "Ana Kamera Sensörü", paths: [["camera", "mainMp"], ["rearCameraMp"]] },
-    { key: "telephoto", label: "Telefoto & Optik Zoom", paths: [["camera", "telephotoMp"]] },
-    { key: "dxomark", label: "DxOMark Kamera Puanı", paths: [["camera", "dxomarkScore"], ["dxomarkScore"]], format: (v) => `${v} Puan` },
-    { key: "ram", label: "Bellek & NPU Mimarisi", paths: [["memory", "ramType"], ["memory", "ramGb"], ["ramGb"]], format: (v) => typeof v === "number" ? `${v} GB` : String(v) },
-    { key: "storage", label: "Depolama", paths: [["memory", "storageGb"], ["storageGb"]], format: (v) => `${v} GB` },
-    { key: "battery", label: "Batarya Kapasitesi", paths: [["battery", "capacitymAh"], ["battery", "capacityMah"], ["batteryCapacityMah"], ["batteryMah"]], format: (v) => `${num(v)} mAh` },
-    { key: "charging", label: "Hızlı Şarj Gücü", paths: [["battery", "chargingWatts"], ["chargingWatts"]], format: (v) => `${v}W Hızlı Şarj` },
-    { key: "material", label: "Kasa & Malzeme", paths: [["build", "frameMaterial"], ["frameMaterial"]] },
-    { key: "durability", label: "Su/Toz Koruma", paths: [["build", "waterResistance"], ["waterResistance"]] },
+    // 1. İŞLEMCİ & PERFORMANS
+    {
+      key: "chip",
+      label: "İşlemci & Çip Mimarisi",
+      group: "processor",
+      paths: [
+        ["processor", "chip"],
+        ["chipset"],
+        ["processor"],
+        ["specs", "chipset"],
+        ["specs", "chip"],
+      ],
+      format: (v) => String(v),
+    },
+    {
+      key: "antutu",
+      label: "AnTuTu v10 Skoru",
+      group: "processor",
+      paths: [
+        ["processor", "antutuScore"],
+        ["antutuScore"],
+        ["antutu"],
+        ["specs", "antutuScore"],
+      ],
+      format: (v, p) => {
+        if (v) return `${num(v)} Puan`;
+        const inferred = inferAntutuScore(p);
+        return inferred ? `${num(inferred)} Puan (Tahmini)` : "Belirtilmemiş";
+      },
+      compare: (vals) => {
+        const nums = vals.map((v) => parseNumber(v));
+        if (nums.length < 2 || nums.every((n) => n === nums[0])) return null;
+        let max = -1;
+        let maxIdx = -1;
+        nums.forEach((n, i) => {
+          if (n > max) {
+            max = n;
+            maxIdx = i;
+          }
+        });
+        return maxIdx >= 0 ? maxIdx : null;
+      },
+    },
+    {
+      key: "ram",
+      label: "Bellek (RAM)",
+      group: "processor",
+      paths: [
+        ["memory", "ramGb"],
+        ["ramGb"],
+        ["ram"],
+        ["memory", "ramType"],
+      ],
+      format: (v) => (typeof v === "number" ? `${v} GB RAM` : String(v).includes("GB") ? String(v) : `${v} GB RAM`),
+      compare: (vals) => {
+        const nums = vals.map((v) => parseNumber(v));
+        if (nums.length < 2 || nums.every((n) => n === nums[0])) return null;
+        return nums[0] > nums[1] ? 0 : nums[1] > nums[0] ? 1 : null;
+      },
+    },
+    {
+      key: "storage",
+      label: "Dahili Depolama",
+      group: "processor",
+      paths: [
+        ["memory", "storageGb"],
+        ["storageGb"],
+        ["storage"],
+      ],
+      format: (v) => {
+        const n = parseNumber(v);
+        if (n >= 1024) return `${n / 1024} TB (${n} GB)`;
+        return `${n || v} GB`;
+      },
+      compare: (vals) => {
+        const nums = vals.map((v) => parseNumber(v));
+        if (nums.length < 2 || nums.every((n) => n === nums[0])) return null;
+        return nums[0] > nums[1] ? 0 : nums[1] > nums[0] ? 1 : null;
+      },
+    },
+
+    // 2. EKRAN & GÖRSEL DENEYİM
+    {
+      key: "screen",
+      label: "Ekran & Panel",
+      group: "screen",
+      paths: [
+        ["screen", "type"],
+        ["displayType"],
+        ["display"],
+        ["screen", "size"],
+        ["screenSizeInches"],
+        ["screenSize"],
+      ],
+      format: (v, p) => {
+        const size = p?.specs?.screen?.size || p?.specs?.screenSizeInches || p?.specs?.screenSize || "";
+        const sizePrefix = size ? `${size}" ` : "";
+        return `${sizePrefix}${String(v)}`;
+      },
+    },
+    {
+      key: "brightness",
+      label: "Tepe Parlaklık",
+      group: "screen",
+      paths: [
+        ["screen", "brightnessNits"],
+        ["brightnessNits"],
+        ["peakBrightness"],
+      ],
+      format: (v, p) => {
+        if (v) return `${num(v)} Nits`;
+        const inferred = inferBrightness(p);
+        return inferred ? `${num(inferred)} Nits` : "Belirtilmemiş";
+      },
+      compare: (vals) => {
+        const nums = vals.map((v) => parseNumber(v));
+        if (nums.length < 2 || nums.every((n) => n === nums[0])) return null;
+        return nums[0] > nums[1] ? 0 : nums[1] > nums[0] ? 1 : null;
+      },
+    },
+    {
+      key: "resolution",
+      label: "Çözünürlük & PPI",
+      group: "screen",
+      paths: [
+        ["screen", "resolution"],
+        ["screenResolution"],
+        ["resolution"],
+      ],
+      format: (v) => String(v),
+    },
+
+    // 3. KAMERA & VİDEO YETENEKLERİ
+    {
+      key: "camera",
+      label: "Ana Kamera Sensörü",
+      group: "camera",
+      paths: [
+        ["camera", "mainMp"],
+        ["mainCamera"],
+        ["rearCameraMp"],
+        ["rearCamera"],
+      ],
+      format: (v) => {
+        const s = String(v);
+        if (s.includes("+")) {
+          return s.split("+")[0].trim();
+        }
+        return typeof v === "number" ? `${v} MP` : s;
+      },
+      compare: (vals) => {
+        const has1Inch = vals.map((v) => String(v).toLowerCase().includes("1-inç") || String(v).toLowerCase().includes("1 inç") || String(v).toLowerCase().includes("1\""));
+        if (has1Inch[0] && !has1Inch[1]) return 0;
+        if (has1Inch[1] && !has1Inch[0]) return 1;
+        const nums = vals.map((v) => parseNumber(v));
+        if (nums.length >= 2 && nums[0] !== nums[1]) {
+          return nums[0] > nums[1] ? 0 : 1;
+        }
+        return null;
+      },
+    },
+    {
+      key: "telephoto",
+      label: "Telefoto & Optik Zoom",
+      group: "camera",
+      paths: [
+        ["camera", "telephotoMp"],
+        ["telephotoCamera"],
+        ["telephoto"],
+        ["periscopeCamera"],
+        ["mainCamera"],
+      ],
+      format: (v) => {
+        const s = String(v);
+        if (s.includes("+") && (s.includes("Periskop") || s.includes("Telefoto"))) {
+          const parts = s.split("+").filter((x) => x.includes("Periskop") || x.includes("Telefoto"));
+          if (parts.length > 0) return parts.map((x) => x.trim()).join(" + ");
+        }
+        return typeof v === "number" ? `${v} MP Telefoto` : s;
+      },
+      compare: (vals) => {
+        const periscope0 = String(vals[0]).toLowerCase().includes("periskop") || String(vals[0]).toLowerCase().includes("10x") || String(vals[0]).toLowerCase().includes("5x");
+        const periscope1 = String(vals[1]).toLowerCase().includes("periskop") || String(vals[1]).toLowerCase().includes("10x") || String(vals[1]).toLowerCase().includes("5x");
+        if (periscope0 && !periscope1) return 0;
+        if (periscope1 && !periscope0) return 1;
+        return null;
+      },
+    },
+
+    // 4. BATARYA & ŞARJ TEKNOLOJİSİ
+    {
+      key: "battery",
+      label: "Batarya Kapasitesi",
+      group: "battery",
+      paths: [
+        ["battery", "capacitymAh"],
+        ["battery", "capacityMah"],
+        ["batteryCapacityMah"],
+        ["batteryMah"],
+        ["batteryCapacity"],
+      ],
+      format: (v) => `${num(v)} mAh`,
+      compare: (vals) => {
+        const nums = vals.map((v) => parseNumber(v));
+        if (nums.length < 2 || nums.every((n) => n === nums[0])) return null;
+        return nums[0] > nums[1] ? 0 : nums[1] > nums[0] ? 1 : null;
+      },
+    },
+    {
+      key: "charging",
+      label: "Hızlı Şarj Gücü",
+      group: "battery",
+      paths: [
+        ["battery", "chargingWatts"],
+        ["chargingWatts"],
+        ["chargingSpeed"],
+      ],
+      format: (v) => `${parseNumber(v)}W Hızlı Şarj`,
+      compare: (vals) => {
+        const nums = vals.map((v) => parseNumber(v));
+        if (nums.length < 2 || nums.every((n) => n === nums[0])) return null;
+        return nums[0] > nums[1] ? 0 : nums[1] > nums[0] ? 1 : null;
+      },
+    },
+
+    // 5. GÖVDE & DAYANIKLILIK
+    {
+      key: "durability",
+      label: "Su & Toz Dayanıklılığı",
+      group: "build",
+      paths: [
+        ["build", "waterResistance"],
+        ["waterResistance"],
+        ["ipRating"],
+      ],
+      format: (v) => String(v),
+      compare: (vals) => {
+        const s0 = String(vals[0]);
+        const s1 = String(vals[1]);
+        if (s0.includes("IP69") && !s1.includes("IP69")) return 0;
+        if (s1.includes("IP69") && !s0.includes("IP69")) return 1;
+        return null;
+      },
+    },
   ],
   tvs: [
     { key: "size", label: "Ekran Boyutu", paths: [["screenSizeInches"], ["size"]], format: (v) => `${v} inç` },
@@ -122,17 +404,31 @@ export function buildComparisonRows(products: any[], category: CatalogCategory) 
           if (raw !== undefined && raw !== null && raw !== "") break;
         }
 
-        if (raw === undefined || raw === null || raw === "") return null;
-        return field.format ? field.format(raw) : String(raw);
+        if (raw === undefined || raw === null || raw === "") {
+          if (field.format) {
+            const inferred = field.format(undefined, p);
+            if (inferred && inferred !== "Belirtilmemiş") return inferred;
+          }
+          return null;
+        }
+        return field.format ? field.format(raw, p) : String(raw);
       });
 
-      const hasAnyRealValue = values.some((v) => v !== null);
+      const hasAnyRealValue = values.some((v) => v !== null && v !== "Belirtilmemiş");
       if (!hasAnyRealValue) return null;
+
+      const cleanValues = values.map((v) => v ?? "Bilgi yok");
+      const isDifferent = cleanValues.length > 1 && cleanValues.some((v) => v !== cleanValues[0]);
+      const superiorIdx = field.compare ? field.compare(cleanValues) : null;
 
       return {
         key: field.key,
         label: field.label,
-        values: values.map((v) => v ?? "Bilgi yok"),
+        group: field.group || "general",
+        values: cleanValues,
+        isDifferent,
+        superiorIdx,
+        highlightIdx: superiorIdx,
       };
     })
     .filter((row): row is NonNullable<typeof row> => row !== null);

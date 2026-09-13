@@ -20,6 +20,9 @@ import {
   Smartphone,
   ChevronDown,
   Layers,
+  Shield,
+  Check,
+  Crown,
   Mic,
   MicOff,
   Volume2,
@@ -102,9 +105,12 @@ export interface AIAssistantRecommendation {
 
 export interface ComparisonMatrixRow {
   label: string;
+  key?: string;
+  group?: string;
   values: string[];
   isDifferent: boolean;
   highlightIdx?: number;
+  superiorIdx?: number | null;
 }
 
 export interface ComparisonPanelData {
@@ -2044,230 +2050,267 @@ export function AIAssistantModal({ isOpen, onClose, initialQuery = '' }: AIAssis
                     )}
                     {activePanel.type === 'comparison' && Array.isArray(activePanel.products) && activePanel.products.length >= 2 && Array.isArray(activePanel.matrix) && (
                       <div className="space-y-4">
-                        {/* Karşılaştırılan Ürün Kartları Başlığı */}
+                        {/* 1. ROBO PENGU TEKNOLOJİ KAZANANI HERO BANNER */}
+                        {activePanel.winner && (
+                          <div className="rounded-2xl bg-gradient-to-r from-emerald-500/10 via-slate-50 to-slate-50 dark:from-emerald-950/40 dark:via-slate-900/90 dark:to-slate-900/90 border border-emerald-300/80 dark:border-emerald-500/30 p-3.5 sm:p-4 shadow-sm relative overflow-hidden">
+                            <div className="flex items-start gap-3">
+                              <div className="w-9 h-9 sm:w-10 sm:h-10 rounded-xl bg-emerald-500/20 text-emerald-600 dark:text-emerald-400 flex items-center justify-center text-lg shrink-0 border border-emerald-500/30 shadow-xs">
+                                👑
+                              </div>
+                              <div className="flex-1 min-w-0">
+                                <div className="flex items-center gap-2 flex-wrap mb-1">
+                                  <span className="text-[10px] sm:text-[11px] font-black uppercase tracking-wider text-emerald-700 dark:text-emerald-400">
+                                    ROBO PENGU TEKNOLOJİ KARARI
+                                  </span>
+                                  <span className="text-xs font-bold text-slate-800 dark:text-slate-100 truncate">
+                                    • Kazanan: <strong className="text-emerald-600 dark:text-emerald-400">{activePanel.winner.productName}</strong>
+                                  </span>
+                                </div>
+                                <div className="space-y-1 mt-1">
+                                  {activePanel.winner.reasons.map((reason, rIdx) => (
+                                    <div key={rIdx} className="flex items-start gap-1.5 text-xs text-slate-600 dark:text-slate-300">
+                                      <CheckCircle2 className="w-3.5 h-3.5 text-emerald-600 dark:text-emerald-400 shrink-0 mt-0.5" />
+                                      <span>{reason}</span>
+                                    </div>
+                                  ))}
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        )}
+
+                        {/* 2. KARŞILAŞTIRILAN ÜRÜN KARTLARI (APPLE MASASI STİLİ) */}
                         <div className={`grid gap-3 ${activePanel.products.length === 2 ? 'grid-cols-2' : 'grid-cols-2 sm:grid-cols-3'}`}>
                           {activePanel.products.map((p) => {
                             const isWinner = activePanel.winner?.productId === p.id;
                             return (
                               <div
                                 key={p.id}
-                                className={`relative p-3 rounded-2xl border transition-all ${
+                                className={`relative p-3.5 rounded-2xl border transition-all flex flex-col justify-between ${
                                   isWinner
-                                    ? 'bg-emerald-50/50 dark:bg-emerald-950/20 border-emerald-400 dark:border-emerald-600 shadow-sm'
-                                    : 'bg-slate-50/70 dark:bg-slate-800/50 border-slate-200/80 dark:border-slate-800'
+                                    ? 'bg-emerald-500/5 dark:bg-emerald-950/20 border-emerald-400 dark:border-emerald-500/50 shadow-md shadow-emerald-500/5'
+                                    : 'bg-slate-50/70 dark:bg-slate-800/40 border-slate-200/80 dark:border-slate-800'
                                 }`}
                               >
                                 {isWinner && (
-                                  <div className="absolute -top-2.5 right-3 bg-gradient-to-r from-amber-500 to-emerald-500 text-white text-[9px] font-extrabold px-2 py-0.5 rounded-full shadow-xs flex items-center gap-1 uppercase tracking-wide">
-                                    <Trophy className="w-2.5 h-2.5" />
-                                    <span>Kazanan</span>
+                                  <div className="absolute -top-2.5 right-3 bg-gradient-to-r from-emerald-500 to-teal-500 text-slate-950 text-[10px] font-black px-2.5 py-0.5 rounded-full shadow-md flex items-center gap-1 uppercase tracking-wider">
+                                    <span>👑</span>
+                                    <span>PENGU SEÇİMİ</span>
                                   </div>
                                 )}
 
-                                <div className="h-20 sm:h-24 w-full flex items-center justify-center mb-2">
-                                  <ProductImage
-                                    src={p.image || getFallbackProductImage(p.name, p.brand, p.category)}
-                                    alt={p.name}
-                                    variant="card"
-                                    className="max-h-full max-w-full object-contain"
-                                  />
+                                <div>
+                                  <div className="h-24 sm:h-28 w-full flex items-center justify-center mb-2.5">
+                                    <ProductImage
+                                      src={p.image || getFallbackProductImage(p.name, p.brand, p.category)}
+                                      alt={p.name}
+                                      variant="card"
+                                      className="max-h-full max-w-full object-contain drop-shadow-md"
+                                    />
+                                  </div>
+
+                                  <div className="text-[10px] font-bold text-slate-400 uppercase tracking-wider text-center">
+                                    {p.brand}
+                                  </div>
+                                  <h5 className="text-xs sm:text-sm font-bold text-slate-800 dark:text-slate-100 text-center line-clamp-1">
+                                    {p.name}
+                                  </h5>
+
+                                  <div className="mt-1 flex items-center justify-center gap-1">
+                                    <span className="text-sm sm:text-base font-extrabold text-emerald-600 dark:text-emerald-400 font-mono">
+                                      {p.price > 0 ? `₺${p.price.toLocaleString('tr-TR')}` : 'Piyasa Fiyatı'}
+                                    </span>
+                                  </div>
                                 </div>
 
-                                <div className="text-[10px] font-bold text-slate-400 uppercase tracking-wider">
-                                  {p.brand}
+                                <div className="mt-2.5">
+                                  <Link
+                                    href={getProductUrl(p)}
+                                    onClick={onClose}
+                                    className="w-full py-1.5 px-2 bg-white dark:bg-slate-800 hover:bg-emerald-500 hover:text-white dark:hover:bg-emerald-600 text-slate-700 dark:text-slate-200 border border-slate-200 dark:border-slate-700 rounded-xl text-[11px] font-bold transition cursor-pointer flex items-center justify-center gap-1 text-center shadow-2xs"
+                                  >
+                                    <span>🛒</span>
+                                    <span className="truncate">{p.cheapestStore ? `${p.cheapestStore}'da İncele` : 'Katalogda Gör ↗'}</span>
+                                  </Link>
                                 </div>
-                                <h5 className="text-[11px] sm:text-xs font-bold text-slate-800 dark:text-slate-100 line-clamp-1">
-                                  {p.name}
-                                </h5>
-
-                                <div className="mt-1.5 flex items-baseline gap-1">
-                                  <span className="text-xs sm:text-sm font-extrabold text-emerald-600 dark:text-emerald-400">
-                                    {p.price > 0 ? `₺${p.price.toLocaleString('tr-TR')}` : 'Piyasa Fiyatı'}
-                                  </span>
-                                </div>
-
-                                <div className="text-[9px] text-slate-500 dark:text-slate-400 truncate mt-0.5">
-                                  {p.cheapestStore ? (
-                                    <>En Ucuz: <strong className="text-slate-700 dark:text-slate-300">{p.cheapestStore}</strong></>
-                                  ) : (
-                                    <span className="text-slate-400">Piyasa Analizi</span>
-                                  )}
-                                </div>
-
-                                <Link
-                                  href={getProductUrl(p)}
-                                  onClick={onClose}
-                                  className="mt-2 block text-center py-1 bg-white dark:bg-slate-800 hover:bg-emerald-500 hover:text-white dark:hover:bg-emerald-600 text-slate-700 dark:text-slate-200 border border-slate-200 dark:border-slate-700 rounded-lg text-[10px] font-semibold transition cursor-pointer"
-                                >
-                                  {p.price > 0 ? 'Detay & Mağazalar ↗' : 'Katalogda Ara ↗'}
-                                </Link>
                               </div>
                             );
                           })}
                         </div>
 
-                        {/* 2. Karşılaştırma Detayları & Canlı Analiz Akışı (#comparison-details-container) */}
-                        <div id="comparison-details-container" className="space-y-3 pt-1">
-                          {/* Yükleniyor / Canlı Analiz Hazırlanıyor Göstergesi */}
-                          {analysisSections.length === 0 && !activeDeepAnalysis && latestAssistantMsg?.isStreaming && (
-                            <div className="p-4 rounded-2xl bg-emerald-50/50 dark:bg-emerald-950/20 border border-emerald-200/70 dark:border-emerald-800/70 flex items-center gap-3 animate-pulse">
-                              <div className="w-7 h-7 rounded-full bg-emerald-500/20 flex items-center justify-center text-emerald-600 dark:text-emerald-400 shrink-0">
-                                <Sparkles className="w-4 h-4 animate-spin" />
-                              </div>
-                              <div>
-                                <h6 className="text-xs font-bold text-emerald-900 dark:text-emerald-200">
-                                  Teknik Analiz Canlı Olarak Hazırlanıyor...
-                                </h6>
-                                <p className="text-[11px] text-emerald-700/80 dark:text-emerald-400/80">
-                                  RoboPengu ekran, işlemci, kamera ve batarya kıyaslamalarını panele aktarıyor.
-                                </p>
-                              </div>
+                        {/* Yükleniyor / Canlı Analiz Hazırlanıyor Göstergesi */}
+                        {analysisSections.length === 0 && !activeDeepAnalysis && latestAssistantMsg?.isStreaming && (
+                          <div className="p-4 rounded-2xl bg-emerald-50/50 dark:bg-emerald-950/20 border border-emerald-200/70 dark:border-emerald-800/70 flex items-center gap-3 animate-pulse">
+                            <div className="w-7 h-7 rounded-full bg-emerald-500/20 flex items-center justify-center text-emerald-600 dark:text-emerald-400 shrink-0">
+                              <Sparkles className="w-4 h-4 animate-spin" />
                             </div>
-                          )}
+                            <div>
+                              <h6 className="text-xs font-bold text-emerald-900 dark:text-emerald-200">
+                                Teknik Analiz Canlı Olarak Hazırlanıyor...
+                              </h6>
+                              <p className="text-[11px] text-emerald-700/80 dark:text-emerald-400/80">
+                                RoboPengu ekran, işlemci, kamera ve batarya kıyaslamalarını panele aktarıyor.
+                              </p>
+                            </div>
+                          </div>
+                        )}
 
-                          {/* 1-4. Canlı Akordeon Analiz Kartları */}
-                          {analysisSections.length > 0 && (
-                            <div className="space-y-2.5">
-                              {analysisSections.map((section, sIdx) => {
-                                const isOpen = openSections[sIdx] ?? true;
-                                return (
-                                  <div
-                                    key={sIdx}
-                                    className="bg-white dark:bg-slate-900 border border-slate-200/90 dark:border-slate-800 rounded-2xl overflow-hidden shadow-xs transition-all duration-200 hover:border-slate-300 dark:hover:border-slate-700"
-                                  >
-                                    <button
-                                      type="button"
-                                      onClick={() => toggleSection(sIdx)}
-                                      className="w-full px-3.5 py-3 flex items-center justify-between gap-3 text-left cursor-pointer hover:bg-slate-50/70 dark:hover:bg-slate-800/40 transition-colors"
-                                    >
-                                      <div className="flex items-center gap-2.5 min-w-0">
-                                        <span
-                                          className={`p-1.5 rounded-xl text-xs flex items-center justify-center shrink-0 ${getSectionBadgeStyle(
-                                            section.title
-                                          )}`}
-                                        >
-                                          {getSectionIcon(section.title)}
-                                        </span>
-                                        <h5 className="text-xs sm:text-[13px] font-bold text-slate-800 dark:text-slate-100 truncate">
-                                          {section.title}
-                                        </h5>
-                                      </div>
-                                      <div className="flex items-center gap-2 shrink-0">
-                                        <span className="text-[10px] font-medium text-slate-400 dark:text-slate-500 hidden sm:inline">
-                                          {isOpen ? 'Gizle' : 'Genişlet'}
-                                        </span>
-                                        <ChevronDown
-                                          className={`w-4 h-4 text-slate-400 transition-transform duration-200 ${
-                                            isOpen ? 'rotate-180 text-slate-600 dark:text-slate-200' : ''
-                                          }`}
-                                        />
-                                      </div>
-                                    </button>
+                        {/* 3. KATEGORİ BAZLI DONANIM MASASI & AKILLI DERİN ANALİZ ENTEGRASYONU */}
+                        <div id="comparison-details-container" className="space-y-3.5 pt-1">
+                          {[
+                            {
+                              key: 'processor',
+                              title: 'İşlemci, Grafik & Sentetik Performans',
+                              icon: <Cpu className="w-3.5 h-3.5" />,
+                            },
+                            {
+                              key: 'screen',
+                              title: 'Ekran & Görsel Deneyim',
+                              icon: <Smartphone className="w-3.5 h-3.5" />,
+                            },
+                            {
+                              key: 'camera',
+                              title: 'Kamera & Video Yetenekleri',
+                              icon: <Camera className="w-3.5 h-3.5" />,
+                            },
+                            {
+                              key: 'battery',
+                              title: 'Batarya & Şarj Teknolojisi',
+                              icon: <BatteryCharging className="w-3.5 h-3.5" />,
+                            },
+                            {
+                              key: 'build',
+                              title: 'Kasa, Malzeme & Dayanıklılık',
+                              icon: <Shield className="w-3.5 h-3.5" />,
+                            },
+                          ].map((cat) => {
+                            const catRows = activePanel.matrix.filter((r) => {
+                              if (r.group) return r.group === cat.key;
+                              const l = r.label.toLowerCase();
+                              if (cat.key === 'processor') return l.includes('antutu') || l.includes('işlemci') || l.includes('ram') || l.includes('depolama') || l.includes('bellek');
+                              if (cat.key === 'screen') return l.includes('ekran') || l.includes('parlaklık') || l.includes('çözünürlük') || l.includes('panel');
+                              if (cat.key === 'camera') return l.includes('kamera') || l.includes('zoom') || l.includes('dxomark') || l.includes('telefoto');
+                              if (cat.key === 'battery') return l.includes('batarya') || l.includes('şarj') || l.includes('pil');
+                              if (cat.key === 'build') return l.includes('kasa') || l.includes('su') || l.includes('koruma') || l.includes('malzeme') || l.includes('ağırlık');
+                              return false;
+                            });
 
-                                    {isOpen && (
-                                      <div className="px-4 pb-3.5 pt-1 text-slate-700 dark:text-slate-200 border-t border-slate-100/80 dark:border-slate-800/60 bg-slate-50/30 dark:bg-slate-950/20 text-xs sm:text-[13px] leading-relaxed">
-                                        <MarkdownRenderer
-                                          content={section.body}
-                                          isStreaming={latestAssistantMsg?.isStreaming}
-                                        />
-                                      </div>
-                                    )}
+                            if (catRows.length === 0) return null;
+
+                            // Eşleşen derin analiz paragrafını bul
+                            const matchingAnalysisIdx = analysisSections.findIndex((s) => {
+                              const t = s.title.toLowerCase();
+                              if (cat.key === 'processor') return t.includes('işlemci') || t.includes('donanım') || t.includes('performans');
+                              if (cat.key === 'screen') return t.includes('ekran') || t.includes('panel');
+                              if (cat.key === 'camera') return t.includes('kamera') || t.includes('sensör');
+                              if (cat.key === 'battery') return t.includes('batarya') || t.includes('şarj') || t.includes('pil');
+                              return false;
+                            });
+                            const matchingAnalysis = matchingAnalysisIdx >= 0 ? analysisSections[matchingAnalysisIdx] : null;
+                            const isSectionOpen = matchingAnalysisIdx >= 0 ? (openSections[matchingAnalysisIdx] ?? true) : true;
+
+                            return (
+                              <div
+                                key={cat.key}
+                                className="rounded-2xl border border-slate-200/90 dark:border-slate-800 overflow-hidden bg-white dark:bg-slate-900 shadow-xs"
+                              >
+                                {/* Kategori Başlığı */}
+                                <div className="px-3.5 py-2.5 bg-slate-100/70 dark:bg-slate-800/80 border-b border-slate-200/80 dark:border-slate-800 flex items-center justify-between">
+                                  <div className="flex items-center gap-2">
+                                    <span className="p-1 rounded-lg bg-emerald-100 dark:bg-emerald-950 text-emerald-600 dark:text-emerald-400">
+                                      {cat.icon}
+                                    </span>
+                                    <span className="text-[11px] font-bold text-slate-800 dark:text-slate-100 tracking-wide uppercase">
+                                      {cat.title}
+                                    </span>
                                   </div>
-                                );
-                              })}
-                            </div>
-                          )}
+                                  <span className="text-[10px] text-emerald-600 dark:text-emerald-400 font-semibold font-mono">
+                                    {catRows.length} Parametre
+                                  </span>
+                                </div>
 
-                          {/* Akordeon ayrışmamış ama metin varsa tek parça gösterim */}
+                                {/* Bire Bir Donanım Satırları */}
+                                <div className="divide-y divide-slate-100 dark:divide-slate-800/60 text-[11px]">
+                                  {catRows.map((row, rIdx) => (
+                                    <div
+                                      key={rIdx}
+                                      className="p-2.5 transition-colors hover:bg-slate-50/50 dark:hover:bg-slate-800/30"
+                                    >
+                                      <div className="text-[10px] font-semibold text-slate-400 mb-1 flex items-center justify-between">
+                                        <span>{row.label}</span>
+                                      </div>
+                                      <div className={`grid gap-2 ${row.values.length === 2 ? 'grid-cols-2' : 'grid-cols-2 sm:grid-cols-3'}`}>
+                                        {row.values.map((val, valIdx) => {
+                                          const isSuperior = row.superiorIdx === valIdx || (row.highlightIdx === valIdx && row.isDifferent);
+                                          return (
+                                            <div
+                                              key={valIdx}
+                                              className={`p-2 rounded-xl border text-xs transition-all flex items-center justify-between gap-1.5 ${
+                                                isSuperior
+                                                  ? 'bg-emerald-500/10 dark:bg-emerald-950/30 border-emerald-400/60 dark:border-emerald-500/40 text-emerald-800 dark:text-emerald-300 font-bold'
+                                                  : 'bg-white/60 dark:bg-slate-900/60 border-slate-200/70 dark:border-slate-800 text-slate-700 dark:text-slate-300 font-medium'
+                                              }`}
+                                            >
+                                              <span className="truncate">{val}</span>
+                                              {isSuperior && (
+                                                <span className="shrink-0 px-1.5 py-0.5 rounded text-[10px] font-extrabold bg-emerald-500/20 text-emerald-600 dark:text-emerald-400 border border-emerald-500/30">
+                                                  ✓ Üstün
+                                                </span>
+                                              )}
+                                            </div>
+                                          );
+                                        })}
+                                      </div>
+                                    </div>
+                                  ))}
+                                </div>
+
+                                {/* Kategoriye Özel Pengu'nun Mimari Analiz Notu (Kompakt / Açılır Kapanır) */}
+                                {matchingAnalysis && (
+                                  <div className="p-3 bg-slate-50/80 dark:bg-slate-950/60 border-t border-slate-200/60 dark:border-slate-800/80">
+                                    <div className="flex items-start gap-2.5">
+                                      <span className="text-sm">🐧</span>
+                                      <div className="flex-1 min-w-0">
+                                        <div className="flex items-center justify-between gap-2">
+                                          <span className="text-xs font-bold text-slate-800 dark:text-slate-200 truncate">
+                                            Pengu'nun {matchingAnalysis.title.replace(/^\d+\.\s*/, '')} Notu:
+                                          </span>
+                                          <button
+                                            type="button"
+                                            onClick={() => toggleSection(matchingAnalysisIdx)}
+                                            className="text-[11px] font-bold text-emerald-600 dark:text-emerald-400 hover:underline cursor-pointer shrink-0"
+                                          >
+                                            {isSectionOpen ? 'Tüm Detayı Gizle ▲' : 'Detaylı Mimariyi Oku ▼'}
+                                          </button>
+                                        </div>
+                                        {isSectionOpen && (
+                                          <div className="mt-2 text-xs text-slate-600 dark:text-slate-300 leading-relaxed border-t border-slate-200/50 dark:border-slate-800/60 pt-2">
+                                            <MarkdownRenderer
+                                              content={matchingAnalysis.body}
+                                              isStreaming={latestAssistantMsg?.isStreaming}
+                                            />
+                                          </div>
+                                        )}
+                                      </div>
+                                    </div>
+                                  </div>
+                                )}
+                              </div>
+                            );
+                          })}
+
+                          {/* Kategorilere ayrışmamış genel derin analiz metni varsa */}
                           {analysisSections.length === 0 && activeDeepAnalysis && (
                             <div className="bg-white dark:bg-slate-900 border border-slate-200/90 dark:border-slate-800 rounded-2xl p-4 shadow-xs">
                               <div className="flex items-center gap-2 text-xs font-bold text-slate-800 dark:text-slate-100 mb-2">
                                 <Sparkles className="w-3.5 h-3.5 text-emerald-500" />
-                                <span>Detaylı Teknik Kıyaslama</span>
+                                <span>Detaylı Donanım Değerlendirmesi</span>
                               </div>
                               <div className="text-xs sm:text-[13px] text-slate-700 dark:text-slate-200 leading-relaxed">
                                 <MarkdownRenderer
                                   content={activeDeepAnalysis}
                                   isStreaming={latestAssistantMsg?.isStreaming}
                                 />
-                              </div>
-                            </div>
-                          )}
-
-                          {/* 5. Teknik Özellik Tablosu */}
-                          <div className="rounded-2xl border border-slate-200 dark:border-slate-800 overflow-hidden bg-white dark:bg-slate-900 shadow-xs">
-                            <div className="px-3.5 py-2.5 bg-slate-100/70 dark:bg-slate-800/80 border-b border-slate-200 dark:border-slate-800 flex items-center justify-between">
-                              <div className="flex items-center gap-2">
-                                <span className="p-1 rounded-lg bg-emerald-100 dark:bg-emerald-950 text-emerald-600 dark:text-emerald-400">
-                                  <Layers className="w-3.5 h-3.5" />
-                                </span>
-                                <span className="text-[10px] sm:text-[11px] font-bold text-slate-700 dark:text-slate-200 uppercase tracking-wider">
-                                  5. Teknik Özellik Tablosu
-                                </span>
-                              </div>
-                              <span className="text-[9px] text-emerald-600 dark:text-emerald-400 font-semibold">
-                                ● Farklı olanlar vurgulanmıştır
-                              </span>
-                            </div>
-
-                            <div className="divide-y divide-slate-100 dark:divide-slate-800 text-[11px]">
-                              {activePanel.matrix.map((row, idx) => (
-                                <div
-                                  key={idx}
-                                  className={`p-2.5 transition-colors ${
-                                    row.isDifferent
-                                      ? 'bg-emerald-50/30 dark:bg-emerald-950/10'
-                                      : 'hover:bg-slate-50/50 dark:hover:bg-slate-800/40'
-                                  }`}
-                                >
-                                  <div className="text-[10px] font-semibold text-slate-400 mb-1">
-                                    {row.label}
-                                  </div>
-                                  <div className={`grid gap-3 ${row.values.length === 2 ? 'grid-cols-2' : 'grid-cols-2 sm:grid-cols-3'}`}>
-                                    {row.values.map((val, valIdx) => (
-                                      <div
-                                        key={valIdx}
-                                        className={`text-xs ${
-                                          row.highlightIdx === valIdx
-                                            ? 'font-bold text-emerald-600 dark:text-emerald-400'
-                                            : row.isDifferent
-                                            ? 'font-semibold text-slate-800 dark:text-slate-200'
-                                            : 'text-slate-600 dark:text-slate-400'
-                                        }`}
-                                      >
-                                        {val}
-                                      </div>
-                                    ))}
-                                  </div>
-                                </div>
-                              ))}
-                            </div>
-                          </div>
-
-                          {/* 6. RoboPengu Değerlendirmesi / Kazanan Kartı */}
-                          {activePanel.winner && (
-                            <div className="p-4 rounded-2xl bg-gradient-to-br from-emerald-500/10 via-teal-500/5 to-transparent border border-emerald-300 dark:border-emerald-700/60 shadow-xs space-y-2.5">
-                              <div className="flex items-center gap-2">
-                                <span className="p-1.5 rounded-xl bg-amber-500 text-white shadow-xs">
-                                  <Trophy className="w-4 h-4" />
-                                </span>
-                                <div>
-                                  <span className="text-[9px] font-extrabold uppercase tracking-wider text-emerald-700 dark:text-emerald-400">
-                                    RoboPengu Değerlendirmesi
-                                  </span>
-                                  <h4 className="text-xs font-extrabold text-slate-900 dark:text-white">
-                                    🏆 Kazanan: {activePanel.winner.productName}
-                                  </h4>
-                                </div>
-                              </div>
-
-                              <div className="space-y-1.5 pt-1">
-                                {activePanel.winner.reasons.map((reason, rIdx) => (
-                                  <div key={rIdx} className="flex items-start gap-2 text-xs text-slate-700 dark:text-slate-200">
-                                    <CheckCircle2 className="w-3.5 h-3.5 text-emerald-600 dark:text-emerald-400 shrink-0 mt-0.5" />
-                                    <span className="font-medium">{reason}</span>
-                                  </div>
-                                ))}
                               </div>
                             </div>
                           )}

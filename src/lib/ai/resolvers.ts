@@ -218,27 +218,41 @@ export function resolveCompareProducts(
   const category = matched[0].category as CatalogCategory;
   const rows = buildComparisonRows(matched, category);
 
-  // Numeric winner logic based on score and price
-  const sorted = [...matched].sort((a, b) => {
-    const scoreA = (a.aceleEtmeScore ?? a.epeyScore ?? 0) / Math.max(a.basePrice, 1);
-    const scoreB = (b.aceleEtmeScore ?? b.epeyScore ?? 0) / Math.max(b.basePrice, 1);
-    return scoreB - scoreA;
+  // Pure Technology & Hardware Superiority winner logic (Not price-based)
+  const winCounts = matched.map(() => 0);
+  const techVictories: string[][] = matched.map(() => []);
+
+  rows.forEach((row: any) => {
+    if (typeof row.superiorIdx === "number" && row.superiorIdx >= 0 && row.superiorIdx < matched.length) {
+      winCounts[row.superiorIdx]++;
+      techVictories[row.superiorIdx].push(`${row.label}`);
+    }
   });
 
-  const best = sorted[0];
+  const sorted = matched
+    .map((p, idx) => ({
+      product: p,
+      idx,
+      wins: winCounts[idx],
+      victories: techVictories[idx],
+      rawScore: p.aceleEtmeScore ?? p.epeyScore ?? 80,
+      totalTechPower: winCounts[idx] * 12 + (p.aceleEtmeScore ?? p.epeyScore ?? 80),
+    }))
+    .sort((a, b) => b.totalTechPower - a.totalTechPower);
+
+  const bestEntry = sorted[0];
+  const best = bestEntry.product;
   const reasons: string[] = [];
 
-  const maxPrice = Math.max(...matched.map((p) => p.basePrice));
-  const priceDiff = maxPrice - best.basePrice;
-  if (priceDiff > 0) {
-    reasons.push(`En ucuz fiyat: ₺${priceDiff.toLocaleString("tr-TR")} daha avantajlı`);
+  if (bestEntry.wins > 0) {
+    reasons.push(`${bestEntry.wins} kritik donanım testinde üstünlük sağladı`);
+  }
+  if (bestEntry.victories.length > 0) {
+    reasons.push(`Öne Çıkanlar: ${bestEntry.victories.slice(0, 3).join(", ")}`);
   }
   const bestScore = best.aceleEtmeScore ?? best.epeyScore;
   if (bestScore != null) {
-    reasons.push(`aceleEtme puanı: ${bestScore}/100`);
-  }
-  if (best.releaseYear) {
-    reasons.push(`Çıkış yılı: ${best.releaseYear} (daha güncel donanım)`);
+    reasons.push(`aceleEtme Donanım Skoru: ${bestScore}/100`);
   }
 
   return {
@@ -247,7 +261,7 @@ export function resolveCompareProducts(
       category,
       products: matched,
       rows,
-      winner: reasons.length > 0 ? { id: best.id, reasons } : null,
+      winner: { id: best.id, reasons },
     },
   };
 }
@@ -319,9 +333,12 @@ export function resolveBudgetRecommendation(
 
 export interface ComparisonMatrixRow {
   label: string;
+  key?: string;
+  group?: string;
   values: string[];
   isDifferent: boolean;
   highlightIdx?: number;
+  superiorIdx?: number | null;
 }
 
 export interface ComparisonPanelData {
@@ -405,10 +422,14 @@ export function formatComparisonData(
         marketSaving,
       };
     }),
-    matrix: data.rows.map((r) => ({
+    matrix: data.rows.map((r: any) => ({
       label: r.label,
+      key: r.key,
+      group: r.group,
       values: r.values,
-      isDifferent: new Set(r.values).size > 1,
+      isDifferent: r.isDifferent ?? (new Set(r.values).size > 1),
+      highlightIdx: r.superiorIdx,
+      superiorIdx: r.superiorIdx,
     })),
     winner: {
       productId: winnerProduct.id,

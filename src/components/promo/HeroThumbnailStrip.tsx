@@ -40,40 +40,49 @@ export function HeroThumbnailStrip({ items, activeIndex, onSelect }: HeroThumbna
     };
   }, []);
 
-  // Auto-scroll active thumbnail into center view
+  // Auto-scroll active thumbnail inside local container ONLY (never scrolls the window / page)
   useEffect(() => {
-    if (!scrollContainerRef.current) return;
-    const activeEl = scrollContainerRef.current.children[activeIndex] as HTMLElement | undefined;
+    const container = scrollContainerRef.current;
+    if (!container) return;
+    const activeEl = container.children[activeIndex] as HTMLElement | undefined;
     if (activeEl) {
-      activeEl.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' });
+      const containerWidth = container.clientWidth;
+      const elOffsetLeft = activeEl.offsetLeft;
+      const elWidth = activeEl.offsetWidth;
+      const targetScrollLeft = elOffsetLeft - (containerWidth / 2) + (elWidth / 2);
+
+      container.scrollTo({
+        left: Math.max(0, targetScrollLeft),
+        behavior: 'smooth',
+      });
     }
   }, [activeIndex]);
 
   const scrollLeft = () => {
     if (scrollContainerRef.current) {
-      scrollContainerRef.current.scrollBy({ left: -260, behavior: 'smooth' });
+      scrollContainerRef.current.scrollBy({ left: -200, behavior: 'smooth' });
     }
   };
 
   const scrollRight = () => {
     if (scrollContainerRef.current) {
-      scrollContainerRef.current.scrollBy({ left: 260, behavior: 'smooth' });
+      scrollContainerRef.current.scrollBy({ left: 200, behavior: 'smooth' });
     }
   };
 
   return (
-    <div className="relative w-full bg-white/95 backdrop-blur-md border border-slate-200 rounded-2xl sm:rounded-3xl p-2.5 sm:p-4 shadow-md hover:shadow-lg transition-all duration-300 my-3 sm:my-4 group/strip overflow-hidden">
+    <div className="relative w-full bg-white/95 backdrop-blur-md border border-slate-200/90 rounded-xl sm:rounded-2xl p-1.5 sm:p-2 shadow-xs hover:shadow-md transition-all duration-300 my-1.5 sm:my-2 group/strip overflow-hidden">
       
-      {/* Left Edge Fade Overlay (Appears when scrolled right) */}
+      {/* Left Edge Fade Overlay */}
       <div
-        className={`absolute left-0 top-0 bottom-0 w-12 sm:w-20 rounded-l-2xl sm:rounded-l-3xl bg-gradient-to-r from-white via-white/80 to-transparent pointer-events-none z-10 transition-opacity duration-300 ${
+        className={`absolute left-0 top-0 bottom-0 w-8 sm:w-14 rounded-l-xl sm:rounded-l-2xl bg-gradient-to-r from-white via-white/80 to-transparent pointer-events-none z-10 transition-opacity duration-300 ${
           showLeftFade ? 'opacity-100' : 'opacity-0'
         }`}
       />
 
-      {/* Right Edge Fade Overlay (Netflix/Apple style soft scroll fade overlay) */}
+      {/* Right Edge Fade Overlay */}
       <div
-        className={`absolute right-0 top-0 bottom-0 w-12 sm:w-24 rounded-r-2xl sm:rounded-r-3xl bg-gradient-to-l from-white via-white/85 to-transparent pointer-events-none z-10 transition-opacity duration-300 ${
+        className={`absolute right-0 top-0 bottom-0 w-8 sm:w-14 rounded-r-xl sm:rounded-r-2xl bg-gradient-to-l from-white via-white/85 to-transparent pointer-events-none z-10 transition-opacity duration-300 ${
           showRightFade ? 'opacity-100' : 'opacity-0'
         }`}
       />
@@ -81,16 +90,16 @@ export function HeroThumbnailStrip({ items, activeIndex, onSelect }: HeroThumbna
       {/* Scroll Left Arrow Button */}
       <button
         onClick={scrollLeft}
-        className="absolute left-2 top-1/2 -translate-y-1/2 z-20 w-8 h-8 rounded-full bg-white hover:bg-emerald-600 hover:text-white text-slate-800 shadow-md border border-slate-200 hidden sm:flex items-center justify-center transition-all opacity-0 group-hover/strip:opacity-100 cursor-pointer"
+        className="absolute left-1 sm:left-1.5 top-1/2 -translate-y-1/2 z-20 w-6 sm:w-7 h-6 sm:h-7 rounded-full bg-white hover:bg-emerald-600 hover:text-white text-slate-800 shadow-md border border-slate-200 hidden sm:flex items-center justify-center transition-all opacity-0 group-hover/strip:opacity-100 cursor-pointer"
         title="Sola Kaydır"
       >
-        <ChevronLeft className="w-4 h-4 stroke-[3]" />
+        <ChevronLeft className="w-3.5 h-3.5 stroke-[3]" />
       </button>
 
       {/* Horizontal Scroll Track */}
       <div
         ref={scrollContainerRef}
-        className="flex items-center gap-2 sm:gap-2.5 overflow-x-auto no-scrollbar scroll-smooth px-1"
+        className="flex items-center gap-1.5 sm:gap-2 overflow-x-auto no-scrollbar scroll-smooth px-1"
       >
         {items.map((item, idx) => {
           const isActive = activeIndex === idx;
@@ -98,25 +107,32 @@ export function HeroThumbnailStrip({ items, activeIndex, onSelect }: HeroThumbna
             <button
               key={item.id}
               onClick={() => onSelect(idx)}
-              className={`group relative flex flex-col items-center justify-between w-28 sm:w-36 h-28 sm:h-36 rounded-2xl p-2.5 sm:p-3 transition-all duration-200 shrink-0 cursor-pointer text-left ${
+              className={`group relative flex flex-col items-center justify-between w-20 sm:w-24 h-16 sm:h-[68px] rounded-lg sm:rounded-xl p-1 sm:p-1.5 transition-all duration-200 shrink-0 cursor-pointer text-left ${
                 isActive
-                  ? 'bg-emerald-50/95 border-2 border-emerald-500 shadow-lg scale-105 z-10'
-                  : 'bg-slate-50/90 hover:bg-white border border-slate-200/90 hover:border-emerald-400 shadow-xs opacity-90 hover:opacity-100'
+                  ? 'bg-emerald-50/95 border-2 border-emerald-500 shadow-sm ring-1 ring-emerald-500/30'
+                  : 'bg-slate-50/90 hover:bg-white border border-slate-200/80 hover:border-emerald-400 shadow-2xs opacity-90 hover:opacity-100'
               }`}
               title={`${item.name} - ${item.price}`}
             >
               {/* Product Image Stage */}
-              <div className="w-full h-16 sm:h-20 flex items-center justify-center overflow-hidden">
-                <Image src={item.image} alt={item.name} width={96} height={96} loading="lazy" className="max-h-full max-w-full object-contain group-hover:scale-105 transition-transform duration-200" />
+              <div className="w-full h-8 sm:h-9 flex items-center justify-center overflow-hidden">
+                <Image
+                  src={item.image}
+                  alt={item.name}
+                  width={48}
+                  height={48}
+                  loading="lazy"
+                  className="max-h-full max-w-full object-contain group-hover:scale-105 transition-transform duration-200"
+                />
               </div>
 
               {/* Single Line Truncated Product Title & Price */}
-              <div className="w-full text-center space-y-0.5 mt-1">
-                <span className="text-[10px] sm:text-[11px] font-bold text-slate-800 truncate block leading-tight px-0.5">
+              <div className="w-full text-center space-y-0 mt-0.5">
+                <span className="text-[8.5px] sm:text-[9.5px] font-bold text-slate-800 truncate block leading-tight px-0.5">
                   {item.name}
                 </span>
-                <span className={`text-[10px] sm:text-[11.5px] font-black tracking-tight block tabular-nums ${
-                  isActive ? 'text-emerald-700 font-black' : 'text-slate-900'
+                <span className={`text-[8.5px] sm:text-[9.5px] font-black tracking-tight block tabular-nums ${
+                  isActive ? 'text-emerald-700' : 'text-slate-900'
                 }`}>
                   {item.price}
                 </span>
@@ -129,10 +145,10 @@ export function HeroThumbnailStrip({ items, activeIndex, onSelect }: HeroThumbna
       {/* Scroll Right Arrow Button */}
       <button
         onClick={scrollRight}
-        className="absolute right-2 top-1/2 -translate-y-1/2 z-20 w-8 h-8 rounded-full bg-white hover:bg-emerald-600 hover:text-white text-slate-800 shadow-md border border-slate-200 flex items-center justify-center transition-all opacity-0 group-hover/strip:opacity-100 cursor-pointer"
+        className="absolute right-1 sm:right-1.5 top-1/2 -translate-y-1/2 z-20 w-6 sm:w-7 h-6 sm:h-7 rounded-full bg-white hover:bg-emerald-600 hover:text-white text-slate-800 shadow-md border border-slate-200 flex items-center justify-center transition-all opacity-0 group-hover/strip:opacity-100 cursor-pointer"
         title="Sağa Kaydır"
       >
-        <ChevronRight className="w-4 h-4 stroke-[3]" />
+        <ChevronRight className="w-3.5 h-3.5 stroke-[3]" />
       </button>
 
     </div>
