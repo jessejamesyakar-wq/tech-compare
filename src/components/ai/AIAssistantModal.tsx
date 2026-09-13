@@ -20,6 +20,11 @@ import {
   Smartphone,
   ChevronDown,
   Layers,
+  Mic,
+  MicOff,
+  Volume2,
+  VolumeX,
+  Radio,
 } from 'lucide-react';
 import { ProductImage } from '@/components/ui/ProductImage';
 
@@ -382,6 +387,188 @@ export function AIAssistantModal({ isOpen, onClose, initialQuery = '' }: AIAssis
     3: true,
   });
 
+  // Sesli Konuşma (Voice In / Voice Out) Durumları
+  const [isListening, setIsListening] = useState(false);
+  const [isSpeaking, setIsSpeaking] = useState(false);
+  const [voiceEnabled, setVoiceEnabled] = useState(true);
+  const [speechSupported, setSpeechSupported] = useState(false);
+  const [speechToast, setSpeechToast] = useState<string | null>(null);
+  const recognitionRef = useRef<any>(null);
+  const toastTimeoutRef = useRef<NodeJS.Timeout | null>(null);
+
+  const showSpeechToast = (msg: string) => {
+    setSpeechToast(msg);
+    if (toastTimeoutRef.current) clearTimeout(toastTimeoutRef.current);
+    toastTimeoutRef.current = setTimeout(() => setSpeechToast(null), 4500);
+  };
+
+  // Ses Tercihini LocalStorage'dan yükle & Speech API desteğini denetle
+  useEffect(() => {
+    try {
+      const savedVoice = localStorage.getItem('robopengu_voice_enabled');
+      if (savedVoice !== null) {
+        setVoiceEnabled(savedVoice === 'true');
+      }
+    } catch {}
+
+    if (typeof window !== 'undefined') {
+      const hasSpeech = Boolean(
+        (window as any).SpeechRecognition || (window as any).webkitSpeechRecognition
+      );
+      setSpeechSupported(hasSpeech);
+    }
+  }, []);
+
+  const toggleVoice = () => {
+    setVoiceEnabled((prev) => {
+      const next = !prev;
+      try {
+        localStorage.setItem('robopengu_voice_enabled', String(next));
+      } catch {}
+      if (!next) {
+        stopSpeaking();
+      }
+      return next;
+    });
+  };
+
+  const stopSpeaking = () => {
+    if (typeof window !== 'undefined' && 'speechSynthesis' in window) {
+      window.speechSynthesis.cancel();
+      setIsSpeaking(false);
+    }
+  };
+
+  const speakSummary = (text: string) => {
+    if (!voiceEnabled || typeof window === 'undefined' || !('speechSynthesis' in window)) {
+      return;
+    }
+    stopSpeaking();
+
+    // Sesli özet: Eğer [SUMMARY_CHAT] varsa sadece o kısa özeti al, yoksa ilk 2 cümleyi al
+    const { chatSummary } = partitionContent(text);
+    let voiceText = chatSummary || text;
+
+    if (text.includes('[SUMMARY_CHAT]')) {
+      voiceText = chatSummary;
+    } else {
+      // Genel yanıtlarda: Çok uzun metinlerin tamamını seslendirmek yerine ilk 2 cümleyi (özetini) oku
+      const sentences = voiceText.split(/(?<=[.?!])\s+/).filter((s) => s.trim().length > 0);
+      if (sentences.length > 2) {
+        voiceText = sentences.slice(0, 2).join(' ') + ' Detayları ekrandan inceleyebilirsin.';
+      }
+    }
+
+    // Markdown ve özel karakterleri temizle
+    const cleanSpeech = voiceText
+      .replace(/\[\/?SUMMARY_CHAT\]/gi, '')
+      .replace(/\[\/?DEEP_ANALYSIS\]/gi, '')
+      .replace(/```[\s\S]*?```/g, '')
+      .replace(/`([^`]+)`/g, '$1')
+      .replace(/[*_~#>]/g, '')
+      .replace(/https?:\/\/\S+/g, '')
+      .replace(/[\u{1F600}-\u{1F64F}\u{1F300}-\u{1F5FF}\u{1F680}-\u{1F6FF}\u{1F1E0}-\u{1F1FF}\u{2600}-\u{26FF}\u{2700}-\u{27BF}\u{1F900}-\u{1F9FF}]/gu, '')
+      .trim();
+
+    if (!cleanSpeech) return;
+
+    try {
+      const utterance = new SpeechSynthesisUtterance(cleanSpeech);
+      utterance.lang = 'tr-TR';
+      utterance.rate = 1.05;
+      utterance.pitch = 1.0;
+
+      const voices = window.speechSynthesis.getVoices();
+      const trVoice = voices.find((v) => v.lang === 'tr-TR' || v.lang.startsWith('tr'));
+      if (trVoice) {
+        utterance.voice = trVoice;
+      }
+
+      utterance.onstart = () => setIsSpeaking(true);
+      utterance.onend = () => setIsSpeaking(false);
+      utterance.onerror = () => setIsSpeaking(false);
+
+      window.speechSynthesis.speak(utterance);
+    } catch (err) {
+      console.warn('[RoboPengu][SpeechSynthesis] speak error:', err);
+      setIsSpeaking(false);
+    }
+  };
+
+  const startListening = () => {
+    stopSpeaking();
+    if (typeof window === 'undefined') return;
+    const SpeechRecognitionConstructor =
+      (window as any).SpeechRecognition || (window as any).webkitSpeechRecognition;
+
+    if (!SpeechRecognitionConstructor) {
+      showSpeechToast('Bu tarayıcıda sesli giriş desteklenmiyor. Chrome veya Edge ile deneyebilirsiniz.');
+      return;
+    }
+
+    try {
+      const recognition = new SpeechRecognitionConstructor();
+      recognition.lang = 'tr-TR';
+      recognition.continuous = false;
+      recognition.interimResults = true;
+      recognition.maxAlternatives = 1;
+
+      let recognizedSpeech = '';
+
+      recognition.onstart = () => {
+        setIsListening(true);
+        setSpeechToast(null);
+      };
+
+      recognition.onresult = (event: any) => {
+        let transcript = '';
+        for (let i = event.resultIndex; i < event.results.length; ++i) {
+          transcript += event.results[i][0].transcript;
+        }
+        if (transcript) {
+          recognizedSpeech = transcript.trim();
+          setInput(recognizedSpeech);
+        }
+      };
+
+      recognition.onerror = (event: any) => {
+        console.warn('[RoboPengu][SpeechRecognition] error:', event.error);
+        setIsListening(false);
+        if (event.error === 'not-allowed' || event.error === 'service-not-allowed') {
+          showSpeechToast('Mikrofon erişim izni verilmedi. Lütfen tarayıcı ayarlarından mikrofona izin verin.');
+        } else if (event.error === 'no-speech') {
+          showSpeechToast('Duyamadım, lütfen tekrar söyler misiniz? 🎙️');
+        } else {
+          showSpeechToast('Ses algılanamadı, lütfen tekrar deneyin.');
+        }
+      };
+
+      recognition.onend = () => {
+        setIsListening(false);
+        const textToSend = recognizedSpeech.trim();
+        if (textToSend) {
+          handleSend(textToSend);
+        }
+      };
+
+      recognitionRef.current = recognition;
+      recognition.start();
+    } catch (err) {
+      console.warn('[RoboPengu] SpeechRecognition start error:', err);
+      setIsListening(false);
+      showSpeechToast('Mikrofon başlatılamadı, lütfen tekrar deneyin.');
+    }
+  };
+
+  const stopListening = () => {
+    if (recognitionRef.current) {
+      try {
+        recognitionRef.current.stop();
+      } catch {}
+    }
+    setIsListening(false);
+  };
+
   const toggleSection = (idx: number) => {
     setOpenSections((prev) => ({
       ...prev,
@@ -564,6 +751,8 @@ export function AIAssistantModal({ isOpen, onClose, initialQuery = '' }: AIAssis
 
   // Sohbeti Sıfırlama
   const handleClearChat = () => {
+    stopSpeaking();
+    stopListening();
     if (abortControllerRef.current) {
       abortControllerRef.current.abort();
     }
@@ -585,6 +774,8 @@ export function AIAssistantModal({ isOpen, onClose, initialQuery = '' }: AIAssis
 
 
   const handleSend = async (queryText: string) => {
+    stopSpeaking();
+    stopListening();
     const trimmed = queryText.trim();
     if (!trimmed || loading || trimmed.length > 500) return;
 
@@ -812,6 +1003,7 @@ export function AIAssistantModal({ isOpen, onClose, initialQuery = '' }: AIAssis
     } finally {
       clearTimeout(uiTimeout);
       if (activeRequestIdRef.current === currentRequestId) {
+        let textToSpeak = '';
         setMessages((prev) =>
           prev.map((m) => {
             if (m.id === botMsgId) {
@@ -819,12 +1011,16 @@ export function AIAssistantModal({ isOpen, onClose, initialQuery = '' }: AIAssis
                 m.content && m.content.trim()
                   ? m.content
                   : '⚠️ Yanıt alınamadı: API sunucusundan veri akışı sağlanamadı.';
+              textToSpeak = finalContent;
               return { ...m, content: finalContent, isStreaming: false };
             }
             return m;
           })
         );
         setLoading(false);
+        if (textToSpeak && !textToSpeak.startsWith('⚠️')) {
+          speakSummary(textToSpeak);
+        }
       }
     }
   };
@@ -862,6 +1058,19 @@ export function AIAssistantModal({ isOpen, onClose, initialQuery = '' }: AIAssis
     }
   ];
 
+  const handleClose = () => {
+    stopSpeaking();
+    stopListening();
+    onClose();
+  };
+
+  useEffect(() => {
+    return () => {
+      stopSpeaking();
+      stopListening();
+    };
+  }, []);
+
   if (!isOpen) return null;
 
   const hasPanel = activePanel !== null;
@@ -872,7 +1081,7 @@ export function AIAssistantModal({ isOpen, onClose, initialQuery = '' }: AIAssis
       <div
         className="fixed inset-0 bg-slate-900/40 backdrop-blur-sm flex items-center justify-center p-2 sm:p-4 pt-14 sm:pt-4 z-50 animate-in fade-in duration-200"
         onClick={(e) => {
-          if (e.target === e.currentTarget) onClose();
+          if (e.target === e.currentTarget) handleClose();
         }}
       >
         {/* Ana Kapsayıcı: Maskot + Dinamik Genişleyen Modal */}
@@ -973,6 +1182,12 @@ export function AIAssistantModal({ isOpen, onClose, initialQuery = '' }: AIAssis
                     <Sparkles className="w-2.5 h-2.5" />
                     <span>TEKNOLOJİ UZMANI</span>
                   </span>
+                  {isSpeaking && (
+                    <span className="px-2 py-0.5 text-[9px] font-semibold bg-cyan-100 dark:bg-cyan-950/80 text-cyan-700 dark:text-cyan-300 rounded-full flex items-center gap-1 animate-pulse border border-cyan-200/60 dark:border-cyan-800/60">
+                      <Volume2 className="w-2.5 h-2.5 animate-bounce" />
+                      <span>Sesli Yanıt Veriyor...</span>
+                    </span>
+                  )}
                 </div>
               </div>
 
@@ -1014,7 +1229,28 @@ export function AIAssistantModal({ isOpen, onClose, initialQuery = '' }: AIAssis
                 </div>
               )}
 
-              <div className="flex items-center gap-2">
+              <div className="flex items-center gap-1.5 sm:gap-2">
+                {/* Sesli Yanıt (Mute / Unmute) Toggle Butonu */}
+                <button
+                  type="button"
+                  onClick={toggleVoice}
+                  className={`p-1.5 rounded-lg transition text-xs flex items-center gap-1 cursor-pointer ${
+                    voiceEnabled
+                      ? 'text-emerald-600 dark:text-emerald-400 hover:bg-emerald-50 dark:hover:bg-emerald-950/60'
+                      : 'text-slate-400 hover:text-slate-600 dark:hover:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800'
+                  }`}
+                  title={voiceEnabled ? 'Sesli Yanıtı Kapat (Sessiz Mod)' : 'Sesli Yanıtı Aç'}
+                >
+                  {voiceEnabled ? (
+                    <Volume2 className="w-3.5 h-3.5" />
+                  ) : (
+                    <VolumeX className="w-3.5 h-3.5" />
+                  )}
+                  <span className="hidden md:inline text-[11px] font-medium">
+                    {voiceEnabled ? 'Ses Açık' : 'Sessiz'}
+                  </span>
+                </button>
+
                 <button
                   type="button"
                   onClick={handleClearChat}
@@ -1025,7 +1261,7 @@ export function AIAssistantModal({ isOpen, onClose, initialQuery = '' }: AIAssis
                   <span className="hidden sm:inline text-[11px] font-medium">Sohbeti Temizle</span>
                 </button>
                 <button
-                  onClick={onClose}
+                  onClick={handleClose}
                   className="text-slate-400 hover:text-slate-600 dark:hover:text-slate-200 transition text-lg p-1 cursor-pointer"
                   aria-label="Kapat"
                 >
@@ -1177,16 +1413,58 @@ export function AIAssistantModal({ isOpen, onClose, initialQuery = '' }: AIAssis
                     }}
                     className="flex flex-col gap-1 bg-slate-50 dark:bg-slate-800/80 border border-slate-200 dark:border-slate-700 rounded-2xl px-3 py-1.5 focus-within:border-emerald-500 focus-within:bg-white dark:focus-within:bg-slate-900 transition"
                   >
-                    <div className="flex items-center gap-2">
+                    <div className="flex items-center gap-1.5">
                       <input
                         ref={inputRef}
                         type="text"
                         value={input}
-                        onChange={(e) => setInput(e.target.value)}
-                        placeholder="Model sor, karşılaştır veya bütçe belirt..."
+                        onChange={(e) => {
+                          stopSpeaking();
+                          setInput(e.target.value);
+                        }}
+                        placeholder={
+                          isListening
+                            ? 'Dinliyorum, konuşabilirsiniz... 🎙️'
+                            : 'Model sor, karşılaştır veya bütçe belirt...'
+                        }
                         disabled={loading}
-                        className="w-full bg-transparent text-xs text-slate-700 dark:text-slate-200 outline-none px-1 py-1 font-medium placeholder:text-slate-400"
+                        className={`w-full bg-transparent text-xs outline-none px-1 py-1 font-medium transition-colors ${
+                          isListening
+                            ? 'text-rose-600 dark:text-rose-400 placeholder:text-rose-500 animate-pulse font-semibold'
+                            : 'text-slate-700 dark:text-slate-200 placeholder:text-slate-400'
+                        }`}
                       />
+
+                      {/* Sesli Giriş (Mikrofon) Butonu */}
+                      <button
+                        type="button"
+                        onClick={() => {
+                          if (isListening) stopListening();
+                          else startListening();
+                        }}
+                        disabled={loading}
+                        className={`w-8 h-8 rounded-xl flex items-center justify-center transition shadow-2xs cursor-pointer shrink-0 ${
+                          isListening
+                            ? 'bg-rose-500 hover:bg-rose-600 text-white animate-pulse ring-2 ring-rose-300 dark:ring-rose-800'
+                            : 'bg-slate-200/70 dark:bg-slate-700 hover:bg-emerald-100 dark:hover:bg-emerald-950/60 text-slate-600 dark:text-slate-300 hover:text-emerald-600 dark:hover:text-emerald-400'
+                        }`}
+                        title={
+                          !speechSupported
+                            ? 'Tarayıcınız sesli girişi desteklemiyor (Chrome veya Edge önerilir)'
+                            : isListening
+                            ? 'Dinlemeyi Durdur'
+                            : 'Sesli Soru Sor (Mikrofon)'
+                        }
+                        aria-label="Mikrofon"
+                      >
+                        {isListening ? (
+                          <MicOff className="w-4 h-4 animate-bounce" />
+                        ) : (
+                          <Mic className={`w-4 h-4 ${!speechSupported ? 'opacity-35' : ''}`} />
+                        )}
+                      </button>
+
+                      {/* Gönder Butonu */}
                       <button
                         type="submit"
                         disabled={loading || !input.trim() || input.length > 500}
@@ -1196,6 +1474,20 @@ export function AIAssistantModal({ isOpen, onClose, initialQuery = '' }: AIAssis
                         {loading ? <Loader2 className="w-4 h-4 animate-spin" /> : '➤'}
                       </button>
                     </div>
+
+                    {/* Sesli Giriş Bildirimi / Toast */}
+                    {speechToast && (
+                      <div className="px-2 py-1 text-[10px] font-semibold text-rose-700 dark:text-rose-300 bg-rose-50 dark:bg-rose-950/80 border border-rose-200/80 dark:border-rose-900/60 rounded-lg flex items-center justify-between animate-in fade-in duration-150">
+                        <span>{speechToast}</span>
+                        <button
+                          type="button"
+                          onClick={() => setSpeechToast(null)}
+                          className="text-xs hover:text-rose-900 dark:hover:text-white p-0.5 ml-1 cursor-pointer"
+                        >
+                          ✕
+                        </button>
+                      </div>
+                    )}
 
                     {/* Karakter Sayacı ve Dinamik Uyarı */}
                     <div className="flex items-center justify-between text-[10px] px-1 text-slate-400">
