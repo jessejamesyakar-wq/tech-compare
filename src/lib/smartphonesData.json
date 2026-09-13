@@ -5,12 +5,21 @@
     "name": "Apple iPhone 18 Pro Max (256 GB)",
     "brand": "Apple",
     "category": "smartphones",
-    "image": "/images/phones/apple/apple-iphone-18-pro-max.png",
+    "image": "/images/phones/apple/apple-iphone-18-pro-max-2.png",
     "images": [
-      "/images/phones/apple/apple-iphone-18-pro-max.png",
-      "/images/phones/apple/apple-iphone-18-pro-max-burgundy.png",
-      "/images/phones/apple/apple-iphone-18-pro-max-blue.jpg",
-      "/images/phones/apple/apple-iphone-18-pro-max-black.jpg"
+      "/images/phones/apple/apple-iphone-18-pro-max-2.png",
+      "/images/phones/apple/apple-iphone-18-pro-max-6.jpg",
+      "/images/phones/apple/apple-iphone-18-pro-max-3.jpg",
+      "/images/phones/apple/apple-iphone-18-pro-max-9.jpg",
+      "/images/phones/apple/apple-iphone-18-pro-max-12.jpg",
+      "/images/phones/apple/apple-iphone-18-pro-max-4.jpg",
+      "/images/phones/apple/apple-iphone-18-pro-max-1.jpg",
+      "/images/phones/apple/apple-iphone-18-pro-max-7.jpg",
+      "/images/phones/apple/apple-iphone-18-pro-max-10.jpg",
+      "/images/phones/apple/apple-iphone-18-pro-max-5.jpg",
+      "/images/phones/apple/apple-iphone-18-pro-max-2.jpg",
+      "/images/phones/apple/apple-iphone-18-pro-max-8.jpg",
+      "/images/phones/apple/apple-iphone-18-pro-max-11.jpg"
     ],
     "rating": 4.98,
     "epeyScore": 100,
@@ -44,17 +53,17 @@
       {
         "name": "Burgonya",
         "hex": "#6B1D2F",
-        "image": "/images/phones/apple/apple-iphone-18-pro-max-burgundy.png"
+        "image": "/images/phones/apple/apple-iphone-18-pro-max-2.png"
       },
       {
         "name": "Buzul Mavisi",
         "hex": "#8BA8B7",
-        "image": "/images/phones/apple/apple-iphone-18-pro-max-blue.jpg"
+        "image": "/images/phones/apple/apple-iphone-18-pro-max-6.jpg"
       },
       {
         "name": "Siyah",
         "hex": "#262626",
-        "image": "/images/phones/apple/apple-iphone-18-pro-max-black.jpg"
+        "image": "/images/phones/apple/apple-iphone-18-pro-max-3.jpg"
       }
     ],
     "storeOffers": [
@@ -199,7 +208,7 @@
         "name": "Apple iPhone 18 Pro Max (256 GB) - Burgonya",
         "colorName": "Burgonya",
         "colorHex": "#6B1D2F",
-        "image": "/images/phones/apple/apple-iphone-18-pro-max-burgundy.png",
+        "image": "/images/phones/apple/apple-iphone-18-pro-max-2.png",
         "price": 164737
       },
       {
@@ -207,7 +216,7 @@
         "name": "Apple iPhone 18 Pro Max (256 GB) - Buzul Mavisi",
         "colorName": "Buzul Mavisi",
         "colorHex": "#8BA8B7",
-        "image": "/images/phones/apple/apple-iphone-18-pro-max-blue.jpg",
+        "image": "/images/phones/apple/apple-iphone-18-pro-max-6.jpg",
         "price": 164737
       },
       {
@@ -215,7 +224,7 @@
         "name": "Apple iPhone 18 Pro Max (256 GB) - Siyah",
         "colorName": "Siyah",
         "colorHex": "#262626",
-        "image": "/images/phones/apple/apple-iphone-18-pro-max-black.jpg",
+        "image": "/images/phones/apple/apple-iphone-18-pro-max-3.jpg",
         "price": 164737
       }
     ]
@@ -226,12 +235,21 @@
     "name": "Apple iPhone 18 Pro Max (512 GB)",
     "brand": "Apple",
     "category": "smartphones",
-    "image": "/images/phones/apple/apple-iphone-18-pro-max.png",
+    "image": "/images/phones/apple/apple-iphone-18-pro-max-2.png",
     "images": [
-      "/images/phones/apple/apple-iphone-18-pro-max.png",
-      "/images/phones/apple/apple-iphone-18-pro-max-burgundy.png",
-      "/images/phones/apple/apple-iphone-18-pro-max-blue.jpg",
-      "/images/phones/apple/apple-iphone-18-pro-max-black.jpg"
+      "/images/phones/apple/apple-iphone-18-pro-max-2.png",
+      "/images/phones/apple/apple-iphone-18-pro-max-6.jpg",
+      "/images/phones/apple/apple-iphone-18-pro-max-3.jpg",
+      "/images/phones/apple/apple-iphone-18-pro-max-9.jpg",
+      "/images/phones/apple/apple-iphone-18-pro-max-12.jpg",
+      "/images/phones/apple/apple-iphone-18-pro-max-4.jpg",
+      "/images/phones/apple/apple-iphone-18-pro-max-1.jpg",
+      "/images/phones/apple/apple-iphone-18-pro-max-7.jpg",
+      "/images/phones/apple/apple-iphone-18-pro-max-10.jpg",
+      "/images/phones/apple/apple-iphone-18-pro-max-5.jpg",
+      "/images/phones/apple/apple-iphone-18-pro-max-2.jpg",
+      "/images/phones/apple/apple-iphone-18-pro-max-8.jpg",
+      "/images/phones/apple/apple-iphone-18-pro-max-11.jpg"
     ],
     "rating": 4.98,
     "epeyScore": 100,
@@ -265,17 +283,17 @@
       {
         "name": "Burgonya",
         "hex": "#6B1D2F",
-        "image": "/images/phones/apple/apple-iphone-18-pro-max-burgundy.png"
+        "image": "/images/phones/apple/apple-iphone-18-pro-max-2.png"
       },
       {
         "name": "Buzul Mavisi",
         "hex": "#8BA8B7",
-        "image": "/images/phones/apple/apple-iphone-18-pro-max-blue.jpg"
+        "image": "/images/phones/apple/apple-iphone-18-pro-max-6.jpg"
       },
       {
         "name": "Siyah",
         "hex": "#262626",
-        "image": "/images/phones/apple/apple-iphone-18-pro-max-black.jpg"
+        "image": "/images/phones/apple/apple-iphone-18-pro-max-3.jpg"
       }
     ],
     "storeOffers": [
@@ -420,7 +438,7 @@
         "name": "Apple iPhone 18 Pro Max (512 GB) - Burgonya",
         "colorName": "Burgonya",
         "colorHex": "#6B1D2F",
-        "image": "/images/phones/apple/apple-iphone-18-pro-max-burgundy.png",
+        "image": "/images/phones/apple/apple-iphone-18-pro-max-2.png",
         "price": 166999
       },
       {
@@ -428,7 +446,7 @@
         "name": "Apple iPhone 18 Pro Max (512 GB) - Buzul Mavisi",
         "colorName": "Buzul Mavisi",
         "colorHex": "#8BA8B7",
-        "image": "/images/phones/apple/apple-iphone-18-pro-max-blue.jpg",
+        "image": "/images/phones/apple/apple-iphone-18-pro-max-6.jpg",
         "price": 166999
       },
       {
@@ -436,7 +454,7 @@
         "name": "Apple iPhone 18 Pro Max (512 GB) - Siyah",
         "colorName": "Siyah",
         "colorHex": "#262626",
-        "image": "/images/phones/apple/apple-iphone-18-pro-max-black.jpg",
+        "image": "/images/phones/apple/apple-iphone-18-pro-max-3.jpg",
         "price": 166999
       }
     ]
@@ -447,12 +465,21 @@
     "name": "Apple iPhone 18 Pro Max (1 TB)",
     "brand": "Apple",
     "category": "smartphones",
-    "image": "/images/phones/apple/apple-iphone-18-pro-max.png",
+    "image": "/images/phones/apple/apple-iphone-18-pro-max-2.png",
     "images": [
-      "/images/phones/apple/apple-iphone-18-pro-max.png",
-      "/images/phones/apple/apple-iphone-18-pro-max-burgundy.png",
-      "/images/phones/apple/apple-iphone-18-pro-max-blue.jpg",
-      "/images/phones/apple/apple-iphone-18-pro-max-black.jpg"
+      "/images/phones/apple/apple-iphone-18-pro-max-2.png",
+      "/images/phones/apple/apple-iphone-18-pro-max-6.jpg",
+      "/images/phones/apple/apple-iphone-18-pro-max-3.jpg",
+      "/images/phones/apple/apple-iphone-18-pro-max-9.jpg",
+      "/images/phones/apple/apple-iphone-18-pro-max-12.jpg",
+      "/images/phones/apple/apple-iphone-18-pro-max-4.jpg",
+      "/images/phones/apple/apple-iphone-18-pro-max-1.jpg",
+      "/images/phones/apple/apple-iphone-18-pro-max-7.jpg",
+      "/images/phones/apple/apple-iphone-18-pro-max-10.jpg",
+      "/images/phones/apple/apple-iphone-18-pro-max-5.jpg",
+      "/images/phones/apple/apple-iphone-18-pro-max-2.jpg",
+      "/images/phones/apple/apple-iphone-18-pro-max-8.jpg",
+      "/images/phones/apple/apple-iphone-18-pro-max-11.jpg"
     ],
     "rating": 4.98,
     "epeyScore": 100,
@@ -486,17 +513,17 @@
       {
         "name": "Burgonya",
         "hex": "#6B1D2F",
-        "image": "/images/phones/apple/apple-iphone-18-pro-max-burgundy.png"
+        "image": "/images/phones/apple/apple-iphone-18-pro-max-2.png"
       },
       {
         "name": "Buzul Mavisi",
         "hex": "#8BA8B7",
-        "image": "/images/phones/apple/apple-iphone-18-pro-max-blue.jpg"
+        "image": "/images/phones/apple/apple-iphone-18-pro-max-6.jpg"
       },
       {
         "name": "Siyah",
         "hex": "#262626",
-        "image": "/images/phones/apple/apple-iphone-18-pro-max-black.jpg"
+        "image": "/images/phones/apple/apple-iphone-18-pro-max-3.jpg"
       }
     ],
     "storeOffers": [
@@ -641,7 +668,7 @@
         "name": "Apple iPhone 18 Pro Max (1 TB) - Burgonya",
         "colorName": "Burgonya",
         "colorHex": "#6B1D2F",
-        "image": "/images/phones/apple/apple-iphone-18-pro-max-burgundy.png",
+        "image": "/images/phones/apple/apple-iphone-18-pro-max-2.png",
         "price": 200999
       },
       {
@@ -649,7 +676,7 @@
         "name": "Apple iPhone 18 Pro Max (1 TB) - Buzul Mavisi",
         "colorName": "Buzul Mavisi",
         "colorHex": "#8BA8B7",
-        "image": "/images/phones/apple/apple-iphone-18-pro-max-blue.jpg",
+        "image": "/images/phones/apple/apple-iphone-18-pro-max-6.jpg",
         "price": 200999
       },
       {
@@ -657,7 +684,7 @@
         "name": "Apple iPhone 18 Pro Max (1 TB) - Siyah",
         "colorName": "Siyah",
         "colorHex": "#262626",
-        "image": "/images/phones/apple/apple-iphone-18-pro-max-black.jpg",
+        "image": "/images/phones/apple/apple-iphone-18-pro-max-3.jpg",
         "price": 200999
       }
     ]
@@ -668,12 +695,21 @@
     "name": "Apple iPhone 18 Pro Max (2 TB)",
     "brand": "Apple",
     "category": "smartphones",
-    "image": "/images/phones/apple/apple-iphone-18-pro-max.png",
+    "image": "/images/phones/apple/apple-iphone-18-pro-max-2.png",
     "images": [
-      "/images/phones/apple/apple-iphone-18-pro-max.png",
-      "/images/phones/apple/apple-iphone-18-pro-max-burgundy.png",
-      "/images/phones/apple/apple-iphone-18-pro-max-blue.jpg",
-      "/images/phones/apple/apple-iphone-18-pro-max-black.jpg"
+      "/images/phones/apple/apple-iphone-18-pro-max-2.png",
+      "/images/phones/apple/apple-iphone-18-pro-max-6.jpg",
+      "/images/phones/apple/apple-iphone-18-pro-max-3.jpg",
+      "/images/phones/apple/apple-iphone-18-pro-max-9.jpg",
+      "/images/phones/apple/apple-iphone-18-pro-max-12.jpg",
+      "/images/phones/apple/apple-iphone-18-pro-max-4.jpg",
+      "/images/phones/apple/apple-iphone-18-pro-max-1.jpg",
+      "/images/phones/apple/apple-iphone-18-pro-max-7.jpg",
+      "/images/phones/apple/apple-iphone-18-pro-max-10.jpg",
+      "/images/phones/apple/apple-iphone-18-pro-max-5.jpg",
+      "/images/phones/apple/apple-iphone-18-pro-max-2.jpg",
+      "/images/phones/apple/apple-iphone-18-pro-max-8.jpg",
+      "/images/phones/apple/apple-iphone-18-pro-max-11.jpg"
     ],
     "rating": 4.98,
     "epeyScore": 100,
@@ -707,17 +743,17 @@
       {
         "name": "Burgonya",
         "hex": "#6B1D2F",
-        "image": "/images/phones/apple/apple-iphone-18-pro-max-burgundy.png"
+        "image": "/images/phones/apple/apple-iphone-18-pro-max-2.png"
       },
       {
         "name": "Buzul Mavisi",
         "hex": "#8BA8B7",
-        "image": "/images/phones/apple/apple-iphone-18-pro-max-blue.jpg"
+        "image": "/images/phones/apple/apple-iphone-18-pro-max-6.jpg"
       },
       {
         "name": "Siyah",
         "hex": "#262626",
-        "image": "/images/phones/apple/apple-iphone-18-pro-max-black.jpg"
+        "image": "/images/phones/apple/apple-iphone-18-pro-max-3.jpg"
       }
     ],
     "storeOffers": [
@@ -862,7 +898,7 @@
         "name": "Apple iPhone 18 Pro Max (2 TB) - Burgonya",
         "colorName": "Burgonya",
         "colorHex": "#6B1D2F",
-        "image": "/images/phones/apple/apple-iphone-18-pro-max-burgundy.png",
+        "image": "/images/phones/apple/apple-iphone-18-pro-max-2.png",
         "price": 255999
       },
       {
@@ -870,7 +906,7 @@
         "name": "Apple iPhone 18 Pro Max (2 TB) - Buzul Mavisi",
         "colorName": "Buzul Mavisi",
         "colorHex": "#8BA8B7",
-        "image": "/images/phones/apple/apple-iphone-18-pro-max-blue.jpg",
+        "image": "/images/phones/apple/apple-iphone-18-pro-max-6.jpg",
         "price": 255999
       },
       {
@@ -878,7 +914,7 @@
         "name": "Apple iPhone 18 Pro Max (2 TB) - Siyah",
         "colorName": "Siyah",
         "colorHex": "#262626",
-        "image": "/images/phones/apple/apple-iphone-18-pro-max-black.jpg",
+        "image": "/images/phones/apple/apple-iphone-18-pro-max-3.jpg",
         "price": 255999
       }
     ]
