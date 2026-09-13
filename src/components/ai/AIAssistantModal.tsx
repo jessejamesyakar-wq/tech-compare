@@ -1230,24 +1230,24 @@ export function AIAssistantModal({ isOpen, onClose, initialQuery = '' }: AIAssis
     <AnimatePresence>
       {/* Arka Plan Overlay */}
       <div
-        className="fixed inset-0 bg-slate-900/40 backdrop-blur-sm flex items-center justify-center p-2 sm:p-4 pt-14 sm:pt-4 z-50 animate-in fade-in duration-200"
+        className="fixed inset-0 bg-slate-900/60 backdrop-blur-sm flex items-end sm:items-center justify-center p-0 sm:p-4 z-50 animate-in fade-in duration-200"
         onClick={(e) => {
           if (e.target === e.currentTarget) handleClose();
         }}
       >
         {/* Ana Kapsayıcı: Maskot + Dinamik Genişleyen Modal */}
         <div
-          className={`relative w-full transition-all duration-300 ease-out flex items-center justify-center ${
+          className={`relative w-full h-full sm:h-auto transition-all duration-300 ease-out flex items-center justify-center ${
             hasPanel ? 'max-w-full sm:max-w-4xl lg:max-w-5xl xl:max-w-6xl' : 'max-w-full sm:max-w-2xl lg:max-w-3xl'
           }`}
         >
-          {/* 1. MASKOT (DESKTOP): Sol Kenarda 3D Robot Penguen */}
-          <div className="hidden lg:block absolute -left-[275px] -top-[40px] z-30 pointer-events-none select-none animate-float">
+          {/* 1. MASKOT: Sadece çok geniş masaüstü ekranlarda sol kenarda 3D Penguen */}
+          <div className="hidden 2xl:block absolute -left-[275px] -top-[40px] z-30 pointer-events-none select-none animate-float">
             <div className="relative">
               <img
                 src="/assets/robopengu.png"
                 alt="RoboPengu 3D"
-                className="w-[340px] max-w-none h-auto object-contain drop-shadow-[0_25px_35px_rgba(0,0,0,0.35)]"
+                className="w-[320px] max-w-none h-auto object-contain drop-shadow-[0_25px_35px_rgba(0,0,0,0.35)]"
               />
               {/* Güç Reaktörü LED Butonu */}
               <button
@@ -1264,119 +1264,75 @@ export function AIAssistantModal({ isOpen, onClose, initialQuery = '' }: AIAssis
             </div>
           </div>
 
-          {/* 1. MASKOT (TABLET): Kompakt Sol Boyut */}
-          <div className="hidden md:block lg:hidden absolute -left-[190px] -top-[30px] z-30 pointer-events-none select-none animate-float">
-            <div className="relative">
-              <img
-                src="/assets/robopengu.png"
-                alt="RoboPengu 3D"
-                className="w-[240px] max-w-none h-auto object-contain drop-shadow-[0_20px_30px_rgba(0,0,0,0.30)]"
-              />
-              <button
-                type="button"
-                className="absolute top-[57.5%] left-[68.8%] -translate-x-1/2 -translate-y-1/2 w-10 h-10 flex items-center justify-center cursor-pointer pointer-events-auto group active:scale-95 transition-transform"
-                title="RoboPengu Güç Reaktörü (Aktif)"
-                onClick={() => handleSend('Bana kendinden ve bu sitede yapabileceklerinden bahset!')}
-                aria-label="RoboPengu Güç Reaktörü"
-              >
-                <span className="absolute w-6 h-6 rounded-full bg-cyan-400/20 blur-[2px] animate-led-breathe pointer-events-none"></span>
-                <span className="absolute w-3 h-3 rounded-full bg-cyan-400/50 mix-blend-screen shadow-[0_0_6px_rgba(34,211,238,0.6)] animate-led-breathe pointer-events-none"></span>
-                <span className="absolute w-1 h-1 rounded-full bg-cyan-200/90 shadow-[0_0_3px_#22d3ee] animate-led-breathe pointer-events-none"></span>
-              </button>
-            </div>
-          </div>
-
-          {/* 1. MASKOT (MOBİL): Üstten Dışa Taşan Sevimli Penguen */}
-          <div className="block md:hidden absolute -top-[65px] left-2 z-30 select-none animate-float">
-            <div className="relative">
-              <img
-                src="/assets/robopengu.png"
-                alt="RoboPengu 3D"
-                className="w-[100px] h-auto object-contain drop-shadow-[0_15px_25px_rgba(0,0,0,0.40)] pointer-events-none"
-              />
-              <button
-                type="button"
-                className="absolute top-[57.5%] left-[68.8%] -translate-x-1/2 -translate-y-1/2 w-10 h-10 flex items-center justify-center cursor-pointer active:scale-90 transition-transform touch-manipulation z-40 group"
-                title="RoboPengu Güç Reaktörü (Aktif)"
-                onClick={(e) => {
-                  e.stopPropagation();
-                  handleSend('Bana kendinden ve bu sitede yapabileceklerinden bahset!');
-                }}
-                aria-label="RoboPengu Güç Reaktörü"
-              >
-                <span className="absolute w-5 h-5 rounded-full bg-cyan-400/20 blur-[2px] animate-led-breathe pointer-events-none"></span>
-                <span className="absolute w-2.5 h-2.5 rounded-full bg-cyan-400/50 mix-blend-screen shadow-[0_0_6px_rgba(34,211,238,0.6)] animate-led-breathe pointer-events-none"></span>
-                <span className="absolute w-1 h-1 rounded-full bg-cyan-200/90 shadow-[0_0_3px_#22d3ee] animate-led-breathe pointer-events-none"></span>
-              </button>
-            </div>
-          </div>
-
-          {/* 2. CHAT VE YAN PANEL KAPSAYICISI */}
+          {/* 2. CHAT VE YAN PANEL KAPSAYICISI (MOBİL VE TABLET UYUMLU) */}
           <motion.div
-            initial={{ opacity: 0, scale: 0.96, y: 15 }}
+            initial={{ opacity: 0, scale: 0.98, y: 10 }}
             animate={{ opacity: 1, scale: 1, y: 0 }}
-            exit={{ opacity: 0, scale: 0.96, y: 15 }}
+            exit={{ opacity: 0, scale: 0.98, y: 10 }}
             transition={{ duration: 0.2 }}
-            className="relative w-full bg-white dark:bg-slate-900 rounded-3xl shadow-2xl border border-slate-100 dark:border-slate-800 flex flex-col overflow-hidden h-[600px] sm:h-[620px] z-20"
+            className="relative w-full bg-white dark:bg-slate-900 rounded-none sm:rounded-3xl shadow-2xl border-0 sm:border border-slate-100 dark:border-slate-800 flex flex-col overflow-hidden h-[100dvh] sm:h-[640px] md:h-[680px] lg:h-[720px] max-h-[100dvh] sm:max-h-[92vh] z-20"
           >
             {/* Modal Üst Başlık Çubuğu */}
-            <div className="px-4 sm:px-6 py-3 border-b border-slate-100 dark:border-slate-800 flex items-center justify-between bg-white dark:bg-slate-900 shrink-0">
-              <div className="flex items-center gap-2.5 sm:gap-3 pl-16 md:pl-0">
-                <div className="w-8 h-8 rounded-full bg-slate-100 dark:bg-slate-800 flex items-center justify-center overflow-hidden border border-slate-200 dark:border-slate-700">
-                  <img src="/assets/robopengu.png" alt="Robo" className="w-6 h-6 object-contain" />
+            <div className="px-3 sm:px-6 py-2.5 sm:py-3 border-b border-slate-100 dark:border-slate-800 flex items-center justify-between bg-white dark:bg-slate-900 shrink-0 gap-2">
+              <div className="flex items-center gap-2 sm:gap-3 min-w-0">
+                <div className="relative w-8 h-8 sm:w-9 sm:h-9 rounded-full bg-slate-100 dark:bg-slate-800 flex items-center justify-center overflow-hidden border border-emerald-500/50 shrink-0 shadow-2xs">
+                  <img src="/assets/robopengu.png" alt="Robo" className="w-6 h-6 sm:w-7 sm:h-7 object-contain" />
+                  <span className="absolute bottom-0 right-0 w-2 h-2 rounded-full bg-emerald-500 ring-1 ring-white dark:ring-slate-900 animate-pulse" />
                 </div>
-                <div className="flex items-center gap-2 flex-wrap">
-                  <h3 className="font-bold text-slate-800 dark:text-white text-xs sm:text-sm">
+                <div className="flex items-center gap-1.5 flex-wrap min-w-0">
+                  <h3 className="font-bold text-slate-800 dark:text-white text-xs sm:text-sm truncate">
                     RoboPengu
                   </h3>
-                  <span className="px-2 py-0.5 text-[9px] sm:text-[10px] font-semibold bg-emerald-100 text-emerald-700 dark:bg-emerald-950/80 dark:text-emerald-300 rounded-full flex items-center gap-1">
+                  <span className="hidden xs:inline-flex px-1.5 py-0.5 text-[9px] sm:text-[10px] font-semibold bg-emerald-100 text-emerald-700 dark:bg-emerald-950/80 dark:text-emerald-300 rounded-full items-center gap-0.5">
                     <Sparkles className="w-2.5 h-2.5" />
-                    <span>TEKNOLOJİ UZMANI</span>
+                    <span className="hidden sm:inline">TEKNOLOJİ UZMANI</span>
+                    <span className="sm:hidden">UZMAN</span>
                   </span>
                   {isSpeaking && (
-                    <span className="px-2.5 py-1 text-[9px] sm:text-[10px] font-semibold bg-emerald-100/90 dark:bg-emerald-950/90 text-emerald-700 dark:text-emerald-300 rounded-full flex items-center gap-1.5 border border-emerald-300/60 dark:border-emerald-700/60 shadow-xs animate-pulse">
+                    <span className="px-2 py-0.5 text-[9px] sm:text-[10px] font-semibold bg-emerald-100/90 dark:bg-emerald-950/90 text-emerald-700 dark:text-emerald-300 rounded-full flex items-center gap-1 border border-emerald-300/60 dark:border-emerald-700/60 shadow-xs animate-pulse">
                       <span className="flex items-center gap-0.5">
                         <span className="w-1 h-2 bg-emerald-500 rounded-full animate-bounce [animation-delay:-0.3s]"></span>
-                        <span className="w-1 h-3 bg-emerald-500 rounded-full animate-bounce [animation-delay:-0.15s]"></span>
-                        <span className="w-1 h-2 bg-emerald-500 rounded-full animate-bounce"></span>
+                        <span className="w-1 h-2.5 bg-emerald-500 rounded-full animate-bounce [animation-delay:-0.15s]"></span>
+                        <span className="w-1 h-1.5 bg-emerald-500 rounded-full animate-bounce"></span>
                       </span>
-                      <span>RoboPengu Konuşuyor...</span>
+                      <span className="hidden sm:inline">Konuşuyor...</span>
                     </span>
                   )}
                 </div>
               </div>
 
-              {/* Mobilde Tab Değiştirici (Panel Açıkken) */}
+              {/* Mobilde ve Tablette Tab Değiştirici (Panel Açıkken) */}
               {hasPanel && (
-                <div className="flex lg:hidden items-center gap-1 bg-slate-100 dark:bg-slate-800 p-0.5 rounded-xl text-[11px] font-semibold">
+                <div className="flex lg:hidden items-center gap-1 bg-slate-100 dark:bg-slate-800 p-0.5 rounded-xl text-xs font-semibold shrink-0">
                   <button
                     type="button"
                     onClick={() => setMobileTab('chat')}
-                    className={`px-2.5 py-1 rounded-lg transition-colors ${
+                    className={`px-2.5 py-1 rounded-lg transition-colors flex items-center gap-1 cursor-pointer touch-manipulation ${
                       mobileTab === 'chat'
                         ? 'bg-white dark:bg-slate-700 text-emerald-600 dark:text-emerald-400 shadow-xs'
-                        : 'text-slate-500'
+                        : 'text-slate-500 hover:text-slate-700'
                     }`}
                   >
-                    💬 Sohbet
+                    <span>💬</span>
+                    <span>Sohbet</span>
                   </button>
                   <button
                     type="button"
                     onClick={() => setMobileTab('panel')}
-                    className={`px-2.5 py-1 rounded-lg transition-colors flex items-center gap-1 ${
+                    className={`px-2.5 py-1 rounded-lg transition-colors flex items-center gap-1 cursor-pointer touch-manipulation ${
                       mobileTab === 'panel'
                         ? 'bg-white dark:bg-slate-700 text-emerald-600 dark:text-emerald-400 shadow-xs'
-                        : 'text-slate-500'
+                        : 'text-slate-500 hover:text-slate-700'
                     }`}
                   >
                     {activePanel.type === 'comparison' ? (
                       <>
-                        <Swords className="w-3 h-3" />
+                        <Swords className="w-3.5 h-3.5 text-emerald-500" />
                         <span>Kıyaslama</span>
                       </>
                     ) : (
                       <>
-                        <Newspaper className="w-3 h-3" />
+                        <Newspaper className="w-3.5 h-3.5 text-cyan-500" />
                         <span>Haberler</span>
                       </>
                     )}
@@ -1384,12 +1340,12 @@ export function AIAssistantModal({ isOpen, onClose, initialQuery = '' }: AIAssis
                 </div>
               )}
 
-              <div className="flex items-center gap-1.5 sm:gap-2">
+              <div className="flex items-center gap-1 sm:gap-1.5 shrink-0">
                 {/* Sesli Yanıt (Mute / Unmute) Toggle Butonu */}
                 <button
                   type="button"
                   onClick={toggleVoice}
-                  className={`p-1.5 rounded-lg transition text-xs flex items-center gap-1 cursor-pointer ${
+                  className={`p-1.5 sm:p-2 rounded-xl transition text-xs flex items-center gap-1 cursor-pointer touch-manipulation active:scale-95 ${
                     voiceEnabled
                       ? 'text-emerald-600 dark:text-emerald-400 hover:bg-emerald-50 dark:hover:bg-emerald-950/60'
                       : 'text-slate-400 hover:text-slate-600 dark:hover:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800'
@@ -1397,9 +1353,9 @@ export function AIAssistantModal({ isOpen, onClose, initialQuery = '' }: AIAssis
                   title={voiceEnabled ? 'Sesli Yanıtı Kapat (Sessiz Mod)' : 'Sesli Yanıtı Aç'}
                 >
                   {voiceEnabled ? (
-                    <Volume2 className="w-3.5 h-3.5" />
+                    <Volume2 className="w-4 h-4" />
                   ) : (
-                    <VolumeX className="w-3.5 h-3.5" />
+                    <VolumeX className="w-4 h-4" />
                   )}
                   <span className="hidden md:inline text-[11px] font-medium">
                     {voiceEnabled ? 'Ses Açık' : 'Sessiz'}
@@ -1409,15 +1365,15 @@ export function AIAssistantModal({ isOpen, onClose, initialQuery = '' }: AIAssis
                 <button
                   type="button"
                   onClick={handleClearChat}
-                  className="text-slate-400 hover:text-rose-500 dark:hover:text-rose-400 p-1.5 rounded-lg hover:bg-slate-100 dark:hover:bg-slate-800 transition text-xs flex items-center gap-1 cursor-pointer"
+                  className="text-slate-400 hover:text-rose-500 dark:hover:text-rose-400 p-1.5 sm:p-2 rounded-xl hover:bg-slate-100 dark:hover:bg-slate-800 transition text-xs flex items-center gap-1 cursor-pointer touch-manipulation active:scale-95"
                   title="Sohbeti Temizle"
                 >
-                  <Trash2 className="w-3.5 h-3.5" />
-                  <span className="hidden sm:inline text-[11px] font-medium">Sohbeti Temizle</span>
+                  <Trash2 className="w-4 h-4" />
+                  <span className="hidden md:inline text-[11px] font-medium">Temizle</span>
                 </button>
                 <button
                   onClick={handleClose}
-                  className="text-slate-400 hover:text-slate-600 dark:hover:text-slate-200 transition text-lg p-1 cursor-pointer"
+                  className="text-slate-400 hover:text-slate-700 dark:hover:text-slate-200 transition text-lg p-1.5 sm:p-2 rounded-xl hover:bg-slate-100 dark:hover:bg-slate-800 cursor-pointer touch-manipulation active:scale-95 flex items-center justify-center"
                   aria-label="Kapat"
                 >
                   ✕
@@ -1509,10 +1465,10 @@ export function AIAssistantModal({ isOpen, onClose, initialQuery = '' }: AIAssis
                               <button
                                 type="button"
                                 onClick={() => setMobileTab('panel')}
-                                className="lg:hidden inline-flex items-center gap-1.5 text-[11px] font-semibold text-emerald-600 dark:text-emerald-400 bg-emerald-50 dark:bg-emerald-950/40 border border-emerald-200/80 dark:border-emerald-800/80 px-2.5 py-1 rounded-full cursor-pointer hover:bg-emerald-100 transition shadow-2xs"
+                                className="lg:hidden w-full sm:w-auto inline-flex items-center justify-center gap-2 py-2 px-3.5 text-xs font-bold text-emerald-700 dark:text-emerald-300 bg-emerald-50 dark:bg-emerald-950/60 border border-emerald-300/80 dark:border-emerald-800/80 rounded-xl cursor-pointer hover:bg-emerald-100 transition shadow-2xs active:scale-98 touch-manipulation mt-1"
                               >
-                                <Layers className="w-3 h-3" />
-                                <span>Detaylı Teknik Analizi Gör ➔</span>
+                                <Layers className="w-3.5 h-3.5 text-emerald-600 dark:text-emerald-400" />
+                                <span>Detaylı Kıyaslama ve Mağaza Fiyatlarını Gör ➔</span>
                               </button>
                             )}
 
@@ -1529,7 +1485,7 @@ export function AIAssistantModal({ isOpen, onClose, initialQuery = '' }: AIAssis
                                       key={rec.productId || idx}
                                       href={getProductUrl(rec)}
                                       onClick={onClose}
-                                      className="p-2.5 bg-white dark:bg-slate-900 border border-slate-200/80 dark:border-slate-800 rounded-xl flex items-center gap-2.5 shadow-xs hover:border-emerald-500 dark:hover:border-emerald-500 transition cursor-pointer group"
+                                      className="p-2.5 bg-white dark:bg-slate-900 border border-slate-200/80 dark:border-slate-800 rounded-xl flex items-center gap-2.5 shadow-xs hover:border-emerald-500 dark:hover:border-emerald-500 transition cursor-pointer group active:scale-[0.99] touch-manipulation"
                                     >
                                       {rec.image ? (
                                         <div className="w-10 h-12 bg-slate-50 dark:bg-slate-800 rounded-lg p-0.5 shrink-0 flex items-center justify-center border border-slate-100 dark:border-slate-700">
@@ -1542,30 +1498,25 @@ export function AIAssistantModal({ isOpen, onClose, initialQuery = '' }: AIAssis
                                         </div>
                                       ) : (
                                         <div className="w-10 h-12 bg-slate-100 dark:bg-slate-800 rounded-lg flex items-center justify-center text-xs shrink-0">
-                                          📱
+                                          📦
                                         </div>
                                       )}
                                       <div className="flex-1 min-w-0">
-                                        <h4 className="text-[11px] font-semibold text-slate-800 dark:text-slate-200 truncate group-hover:text-emerald-600 dark:group-hover:text-emerald-400 transition-colors">
+                                        <h5 className="text-xs font-bold text-slate-800 dark:text-slate-100 group-hover:text-emerald-600 dark:group-hover:text-emerald-400 transition-colors truncate">
                                           {rec.productName}
-                                        </h4>
-                                        <div className="flex items-center gap-1.5 flex-wrap">
-                                          <span className="text-[11px] font-bold text-emerald-600 dark:text-emerald-400">
+                                        </h5>
+                                        <div className="flex items-center gap-1.5 text-[11px] mt-0.5">
+                                          <span className="font-extrabold text-emerald-600 dark:text-emerald-400">
                                             ₺{rec.price.toLocaleString('tr-TR')}
                                           </span>
-                                          {rec.cheapestStore && (
-                                            <span className="text-[9px] font-bold px-1.5 py-0.5 rounded bg-emerald-50 dark:bg-emerald-950/60 text-emerald-700 dark:text-emerald-300 border border-emerald-200/80 dark:border-emerald-800">
-                                              {rec.cheapestStore}
-                                            </span>
-                                          )}
+                                          <span className="text-[10px] text-slate-400 truncate">
+                                            • {rec.cheapestStore}
+                                          </span>
                                         </div>
-                                        {rec.reason && (
-                                          <p className="text-[10px] text-slate-400 dark:text-slate-500 line-clamp-1 mt-0.5">
-                                            {rec.reason}
-                                          </p>
-                                        )}
                                       </div>
-                                      <ExternalLink className="w-3 h-3 text-slate-400 group-hover:text-emerald-600 shrink-0" />
+                                      <span className="text-slate-300 group-hover:text-emerald-500 transition-colors text-xs font-bold shrink-0">
+                                        →
+                                      </span>
                                     </Link>
                                   ))}
                                 </div>
@@ -1607,8 +1558,8 @@ export function AIAssistantModal({ isOpen, onClose, initialQuery = '' }: AIAssis
                           </div>
                         </div>
                       ) : (
-                        <div className="flex items-start justify-end gap-2.5">
-                          <div className="bg-emerald-600 text-white p-3 rounded-2xl rounded-tr-none text-xs leading-relaxed max-w-[85%] font-medium shadow-xs">
+                        <div className="flex justify-end">
+                          <div className="bg-emerald-600 text-white px-4 py-2.5 rounded-2xl rounded-tr-none max-w-[85%] text-xs sm:text-[13px] font-medium leading-relaxed shadow-xs">
                             {m.content}
                           </div>
                         </div>
@@ -1620,15 +1571,15 @@ export function AIAssistantModal({ isOpen, onClose, initialQuery = '' }: AIAssis
                 </div>
 
                 {/* Alt Kısım: 4 Hızlı Aksiyon Butonu & Input */}
-                <div className="p-3 border-t border-slate-100 dark:border-slate-800 bg-white dark:bg-slate-900 space-y-2 shrink-0">
+                <div className="p-2.5 sm:p-3 pb-[max(0.75rem,env(safe-area-inset-bottom))] border-t border-slate-100 dark:border-slate-800 bg-white dark:bg-slate-900 space-y-2 shrink-0">
                   {/* Hızlı Aksiyon Butonları */}
-                  <div className="flex items-center gap-1.5 overflow-x-auto text-[10px] sm:text-[11px] no-scrollbar pb-0.5">
+                  <div className="flex items-center gap-1.5 overflow-x-auto text-[11px] sm:text-xs no-scrollbar pb-0.5 touch-pan-x -mx-1 px-1">
                     {quickActions.map((qa, i) => (
                       <button
                         key={i}
                         type="button"
                         onClick={() => handleSend(qa.prompt)}
-                        className="px-2.5 py-1 bg-slate-100 dark:bg-slate-800 hover:bg-emerald-50 dark:hover:bg-emerald-950/60 hover:text-emerald-600 dark:hover:text-emerald-300 rounded-full whitespace-nowrap text-slate-600 dark:text-slate-300 transition-colors cursor-pointer border border-transparent hover:border-emerald-200 dark:hover:border-emerald-800/60"
+                        className="px-2.5 py-1.5 bg-slate-100 dark:bg-slate-800 hover:bg-emerald-50 dark:hover:bg-emerald-950/60 hover:text-emerald-600 dark:hover:text-emerald-300 rounded-full whitespace-nowrap text-slate-600 dark:text-slate-300 transition-colors cursor-pointer border border-transparent hover:border-emerald-200 dark:hover:border-emerald-800/60 active:scale-95 touch-manipulation font-medium shrink-0"
                       >
                         {qa.label}
                       </button>
@@ -1637,18 +1588,18 @@ export function AIAssistantModal({ isOpen, onClose, initialQuery = '' }: AIAssis
 
                   {/* Sesli Giriş Aktif Göstergesi (Listening Indicator) */}
                   {isListening && (
-                    <div className="flex items-center justify-between px-3 py-1.5 bg-rose-50 dark:bg-rose-950/70 border border-rose-200/80 dark:border-rose-900/60 rounded-xl text-xs font-semibold text-rose-600 dark:text-rose-400 animate-pulse mb-2">
+                    <div className="flex items-center justify-between px-3 py-2 bg-rose-50 dark:bg-rose-950/70 border border-rose-200/80 dark:border-rose-900/60 rounded-xl text-xs font-semibold text-rose-600 dark:text-rose-400 animate-pulse mb-1">
                       <div className="flex items-center gap-2">
-                        <span className="relative flex h-2 w-2">
+                        <span className="relative flex h-2.5 w-2.5">
                           <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-rose-400 opacity-75"></span>
-                          <span className="relative inline-flex rounded-full h-2 w-2 bg-rose-500"></span>
+                          <span className="relative inline-flex rounded-full h-2.5 w-2.5 bg-rose-500"></span>
                         </span>
                         <span>Dinliyorum, konuşabilirsiniz... 🎙️</span>
                       </div>
                       <button
                         type="button"
                         onClick={stopListening}
-                        className="text-[10px] font-bold text-rose-500 hover:text-rose-700 dark:hover:text-rose-300 underline cursor-pointer"
+                        className="text-[11px] font-bold text-rose-600 dark:text-rose-300 hover:underline cursor-pointer touch-manipulation px-2 py-0.5"
                       >
                         Durdur
                       </button>
@@ -1663,7 +1614,7 @@ export function AIAssistantModal({ isOpen, onClose, initialQuery = '' }: AIAssis
                         handleSend(input);
                       }
                     }}
-                    className="flex flex-col gap-1 bg-slate-50 dark:bg-slate-800/80 border border-slate-200 dark:border-slate-700 rounded-2xl px-3 py-1.5 focus-within:border-emerald-500 focus-within:bg-white dark:focus-within:bg-slate-900 transition"
+                    className="flex flex-col gap-1 bg-slate-50 dark:bg-slate-800/80 border border-slate-200 dark:border-slate-700 rounded-2xl px-3 py-1.5 focus-within:border-emerald-500 focus-within:bg-white dark:focus-within:bg-slate-900 transition shadow-2xs"
                   >
                     <div className="flex items-center gap-1.5">
                       <input
@@ -1680,7 +1631,7 @@ export function AIAssistantModal({ isOpen, onClose, initialQuery = '' }: AIAssis
                             : 'Model sor, karşılaştır veya bütçe belirt...'
                         }
                         disabled={loading}
-                        className={`w-full bg-transparent text-xs outline-none px-1 py-1 font-medium transition-colors ${
+                        className={`w-full bg-transparent text-[15px] sm:text-xs outline-none px-1 py-1 font-medium transition-colors ${
                           isListening
                             ? 'text-rose-600 dark:text-rose-400 placeholder:text-rose-500 animate-pulse font-semibold'
                             : 'text-slate-700 dark:text-slate-200 placeholder:text-slate-400'
@@ -1695,7 +1646,7 @@ export function AIAssistantModal({ isOpen, onClose, initialQuery = '' }: AIAssis
                           else startListening();
                         }}
                         disabled={loading}
-                        className={`w-8 h-8 rounded-xl flex items-center justify-center transition shadow-2xs cursor-pointer shrink-0 ${
+                        className={`w-9 h-9 sm:w-8 sm:h-8 rounded-xl flex items-center justify-center transition shadow-2xs cursor-pointer shrink-0 active:scale-95 touch-manipulation ${
                           isListening
                             ? 'bg-rose-500 hover:bg-rose-600 text-white animate-pulse ring-2 ring-rose-300 dark:ring-rose-800'
                             : 'bg-slate-200/70 dark:bg-slate-700 hover:bg-emerald-100 dark:hover:bg-emerald-950/60 text-slate-600 dark:text-slate-300 hover:text-emerald-600 dark:hover:text-emerald-400'
@@ -1720,7 +1671,7 @@ export function AIAssistantModal({ isOpen, onClose, initialQuery = '' }: AIAssis
                       <button
                         type="submit"
                         disabled={loading || !input.trim() || input.length > 500}
-                        className="w-8 h-8 rounded-xl bg-emerald-500 hover:bg-emerald-600 disabled:opacity-40 disabled:cursor-not-allowed text-white flex items-center justify-center transition shadow-xs cursor-pointer shrink-0"
+                        className="w-9 h-9 sm:w-8 sm:h-8 rounded-xl bg-emerald-500 hover:bg-emerald-600 disabled:opacity-40 disabled:cursor-not-allowed text-white flex items-center justify-center transition shadow-xs cursor-pointer shrink-0 active:scale-95 touch-manipulation"
                         aria-label="Gönder"
                       >
                         {loading ? <Loader2 className="w-4 h-4 animate-spin" /> : '➤'}
@@ -1768,32 +1719,42 @@ export function AIAssistantModal({ isOpen, onClose, initialQuery = '' }: AIAssis
                   }`}
                 >
                   {/* Panel Başlığı ve Kapatma Butonu */}
-                  <div className="px-4 py-2.5 border-b border-slate-100 dark:border-slate-800 flex items-center justify-between bg-slate-50/80 dark:bg-slate-800/60 shrink-0">
-                    <div className="flex items-center gap-2">
+                  <div className="px-3 sm:px-4 py-2.5 border-b border-slate-100 dark:border-slate-800 flex items-center justify-between bg-slate-50/80 dark:bg-slate-800/60 shrink-0 gap-2">
+                    <div className="flex items-center gap-2 min-w-0">
+                      {/* Mobilde/Tablette Sohbete Hızlı Dönüş Butonu */}
+                      <button
+                        type="button"
+                        onClick={() => setMobileTab('chat')}
+                        className="lg:hidden inline-flex items-center gap-1 px-2.5 py-1 text-xs font-bold text-emerald-700 dark:text-emerald-300 bg-emerald-100 dark:bg-emerald-950/80 border border-emerald-300/80 dark:border-emerald-800/80 rounded-lg hover:bg-emerald-200 transition cursor-pointer touch-manipulation shrink-0"
+                      >
+                        <span>←</span>
+                        <span>Sohbet</span>
+                      </button>
+
                       {activePanel.type === 'comparison' ? (
                         <>
-                          <span className="p-1 rounded-lg bg-emerald-100 dark:bg-emerald-950 text-emerald-600 dark:text-emerald-400">
+                          <span className="p-1 rounded-lg bg-emerald-100 dark:bg-emerald-950 text-emerald-600 dark:text-emerald-400 shrink-0">
                             <Swords className="w-4 h-4" />
                           </span>
-                          <div>
-                            <h4 className="font-bold text-xs text-slate-800 dark:text-slate-100">
-                              Canlı Karşılaştırma Paneli
+                          <div className="min-w-0">
+                            <h4 className="font-bold text-xs text-slate-800 dark:text-slate-100 truncate">
+                              Karşılaştırma Paneli
                             </h4>
-                            <p className="text-[10px] text-slate-500">
+                            <p className="text-[10px] text-slate-500 truncate hidden sm:block">
                               {activePanel.scenario}
                             </p>
                           </div>
                         </>
                       ) : (
                         <>
-                          <span className="p-1 rounded-lg bg-cyan-100 dark:bg-cyan-950 text-cyan-600 dark:text-cyan-400">
+                          <span className="p-1 rounded-lg bg-cyan-100 dark:bg-cyan-950 text-cyan-600 dark:text-cyan-400 shrink-0">
                             <Newspaper className="w-4 h-4" />
                           </span>
-                          <div>
-                            <h4 className="font-bold text-xs text-slate-800 dark:text-slate-100">
+                          <div className="min-w-0">
+                            <h4 className="font-bold text-xs text-slate-800 dark:text-slate-100 truncate">
                               Teknoloji Gündemi
                             </h4>
-                            <p className="text-[10px] text-slate-500">
+                            <p className="text-[10px] text-slate-500 truncate hidden sm:block">
                               {activePanel.topic}
                             </p>
                           </div>
@@ -1807,10 +1768,10 @@ export function AIAssistantModal({ isOpen, onClose, initialQuery = '' }: AIAssis
                         setActivePanel(null);
                         setMobileTab('chat');
                       }}
-                      className="text-slate-400 hover:text-slate-600 dark:hover:text-slate-200 p-1 text-xs font-semibold rounded-lg hover:bg-slate-200 dark:hover:bg-slate-700 transition cursor-pointer flex items-center gap-1"
+                      className="text-slate-400 hover:text-slate-600 dark:hover:text-slate-200 p-1.5 text-xs font-semibold rounded-lg hover:bg-slate-200 dark:hover:bg-slate-700 transition cursor-pointer flex items-center gap-1 shrink-0 touch-manipulation"
                       title="Paneli Kapat"
                     >
-                      <X className="w-3.5 h-3.5" />
+                      <X className="w-4 h-4" />
                       <span className="hidden sm:inline">Kapat</span>
                     </button>
                   </div>

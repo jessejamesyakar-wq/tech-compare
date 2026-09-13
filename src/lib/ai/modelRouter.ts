@@ -36,19 +36,16 @@ export interface StreamCallResult {
   error?: string;
 }
 
-// Model önceliği: gemini-3.1-pro-preview önce, sonra yüksek performanslı flash modelleri, en son lite modeller son çare
+// Model önceliği: Doğrulanmış en hızlı modeller (gemini-3.1-flash-lite-preview < 1.0s TTFT)
 export const MODEL_PRIORITY = [
-  "gemini-3.1-pro-preview",    // 1. Öncelikli pro preview
-  "gemini-3.8-flash",          // 2. En güncel flash
-  "gemini-3.7-flash",          // 3. Yüksek performanslı flash (aktif & hızlı)
-  "gemini-3.5-flash",          // 4. Kararlı flash
-  "gemini-3.1-flash-lite",     // 5. Lite model
-  "gemini-flash-lite-latest",  // 6. Lite modeller son çare
+  "gemini-3.1-flash-lite-preview", // 1. Yıldırım hızında başlangıç (< 1.0s Time-To-First-Token)
+  "gemini-3-flash-preview",        // 2. Yüksek zeka & akıl yürütme kapasiteli flash model
+  "gemini-flash-lite-latest",      // 3. Kararlı ve kesintisiz yedek lite model
 ];
 
 const MAX_RETRIES_PER_MODEL = 1; // Hızlı fallback için retry sayısı 1
-const REQUEST_TIMEOUT_MS = 15_000;
-const RETRY_BASE_DELAY_MS = 400;
+const REQUEST_TIMEOUT_MS = 8_000; // Uzun beklemeleri önleyen 8sn zaman aşımı
+const RETRY_BASE_DELAY_MS = 250;
 
 function sleep(ms: number) {
   return new Promise((resolve) => setTimeout(resolve, ms));
