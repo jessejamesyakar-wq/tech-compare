@@ -28,9 +28,11 @@ import {
   Volume2,
   VolumeX,
   Radio,
+  Globe,
 } from 'lucide-react';
 import { ProductImage } from '@/components/ui/ProductImage';
 import { getFallbackProductImage } from '@/lib/ai/fallbackImages';
+import { GlobalAiNewsDrawer } from '@/components/ai/GlobalAiNewsDrawer';
 
 /**
  * Türkçe Teknoloji Fonetik Sözlüğü (Phonetic Speech Engine)
@@ -490,6 +492,7 @@ export function AIAssistantModal({ isOpen, onClose, initialQuery = '' }: AIAssis
   const [loading, setLoading] = useState(false);
   const [activePanel, setActivePanel] = useState<ActiveSidePanel | null>(null);
   const [mobileTab, setMobileTab] = useState<'chat' | 'panel'>('chat');
+  const [isNewsDrawerOpen, setIsNewsDrawerOpen] = useState(false);
   const [openSections, setOpenSections] = useState<Record<number, boolean>>({
     0: true,
     1: true,
@@ -581,57 +584,56 @@ export function AIAssistantModal({ isOpen, onClose, initialQuery = '' }: AIAssis
   const handleReactorClick = () => {
     try {
       if (typeof window !== 'undefined' && 'navigator' in window && navigator.vibrate) {
-        navigator.vibrate(25);
+        navigator.vibrate(20);
       }
     } catch {}
-    if (isSpeaking) {
-      stopSpeaking();
-    } else {
-      handleSend('Bana kendinden ve bu sitede yapabileceklerinden bahset!');
-    }
+    // Kullanıcı talebi: O düğmeye basınca kesinlikle konuşmasın, varsa sesi derhal durdursun
+    stopSpeaking();
+    // Dünyadaki yapay zeka haberleri kayan penceresini aç
+    setIsNewsDrawerOpen(true);
   };
 
   const renderCyberReactor = (size: 'sm' | 'md' | 'lg' = 'md') => {
     const sizeConfig = {
-      sm: { outer: 'w-8 h-8', bezel: 'w-5 h-5', core: 'w-2.5 h-2.5', highlight: 'top-0.5 left-0.5 w-1 h-0.5' },
-      md: { outer: 'w-11 h-11', bezel: 'w-7 h-7', core: 'w-3.5 h-3.5', highlight: 'top-0.5 left-1 w-1.5 h-1' },
-      lg: { outer: 'w-14 h-14', bezel: 'w-9 h-9', core: 'w-5 h-5', highlight: 'top-1 left-1.5 w-2 h-1' },
+      sm: { outer: 'w-5 h-5', bezel: 'w-3.5 h-3.5', core: 'w-1.5 h-1.5', highlight: 'top-0.5 left-0.5 w-0.5 h-0.5' },
+      md: { outer: 'w-7 h-7', bezel: 'w-5 h-5', core: 'w-2 h-2', highlight: 'top-0.5 left-0.5 w-1 h-0.5' },
+      lg: { outer: 'w-8 h-8', bezel: 'w-6 h-6', core: 'w-2.5 h-2.5', highlight: 'top-0.5 left-0.5 w-1 h-0.5' },
     }[size];
 
     return (
       <div className="relative flex items-center justify-center select-none pointer-events-none">
-        {/* 1. Katman: Duruma Duyarlı Reaktif Işıma Halesi */}
+        {/* 1. Katman: Duruma Duyarlı Zarif & İnce Reaktif Işıma Halesi (Aşırılıktan Uzak) */}
         <span
-          className={`absolute rounded-full transition-all duration-500 ${sizeConfig.outer} ${
+          className={`absolute rounded-full transition-all duration-700 ${sizeConfig.outer} ${
             reactorState === 'thinking'
-              ? 'bg-gradient-to-r from-cyan-400 to-purple-500 opacity-90 blur-[4px] animate-reactor-thinking'
+              ? 'bg-cyan-400/35 blur-[2px] animate-reactor-thinking'
               : reactorState === 'speaking'
-              ? 'bg-gradient-to-r from-emerald-400 to-cyan-400 opacity-90 blur-[5px] animate-reactor-speaking'
+              ? 'bg-emerald-400/35 blur-[2px] animate-reactor-speaking'
               : reactorState === 'winner'
-              ? 'bg-gradient-to-r from-amber-400 to-emerald-400 opacity-95 blur-[6px] animate-reactor-winner'
-              : 'bg-cyan-400/30 blur-[3px] animate-led-breathe'
+              ? 'bg-emerald-400/40 blur-[2px] animate-reactor-winner'
+              : 'bg-cyan-400/20 blur-[1.5px] animate-led-breathe'
           }`}
         />
 
-        {/* 2. Katman: Titanyum Bezel Çerçeve & Donanım Yatağı */}
+        {/* 2. Katman: Rafine Titanyum Bezel Çerçeve */}
         <div
-          className={`relative ${sizeConfig.bezel} rounded-full bg-slate-900/90 border border-slate-700/80 shadow-lg flex items-center justify-center backdrop-blur-xs`}
+          className={`relative ${sizeConfig.bezel} rounded-full bg-slate-900/90 border border-slate-700/70 shadow-xs flex items-center justify-center backdrop-blur-xs`}
         >
-          {/* 3. Katman: Kristal Çekirdek Lens (Safir Kristal) */}
+          {/* 3. Katman: Kristal Çekirdek Lens (Safir Kristal Mikro Çekirdek) */}
           <span
             className={`${sizeConfig.core} rounded-full transition-all duration-300 ${
               reactorState === 'thinking'
-                ? 'bg-gradient-to-br from-cyan-300 via-fuchsia-400 to-purple-600 shadow-[0_0_14px_#a855f7]'
+                ? 'bg-cyan-300 shadow-[0_0_4px_rgba(6,182,212,0.6)]'
                 : reactorState === 'speaking'
-                ? 'bg-gradient-to-br from-emerald-300 via-teal-400 to-cyan-400 shadow-[0_0_14px_#22d3ee]'
+                ? 'bg-emerald-300 shadow-[0_0_4px_rgba(16,185,129,0.6)]'
                 : reactorState === 'winner'
-                ? 'bg-gradient-to-br from-amber-200 via-yellow-400 to-emerald-500 shadow-[0_0_16px_#f59e0b]'
-                : 'bg-cyan-300/90 shadow-[0_0_8px_#22d3ee]'
+                ? 'bg-emerald-300 shadow-[0_0_4px_rgba(16,185,129,0.6)]'
+                : 'bg-cyan-300/80 shadow-[0_0_3px_rgba(6,182,212,0.4)]'
             }`}
           />
 
           {/* 4. Katman: Lens Speküler Yansıma Highlight */}
-          <span className={`absolute ${sizeConfig.highlight} rounded-full bg-white/80 blur-[0.2px] pointer-events-none`} />
+          <span className={`absolute ${sizeConfig.highlight} rounded-full bg-white/70 blur-[0.1px] pointer-events-none`} />
         </div>
       </div>
     );
@@ -1427,36 +1429,28 @@ export function AIAssistantModal({ isOpen, onClose, initialQuery = '' }: AIAssis
                 alt="RoboPengu 3D"
                 className="w-[320px] max-w-none h-auto object-contain drop-shadow-[0_25px_35px_rgba(0,0,0,0.35)]"
               />
-              {/* Güç Reaktörü LED Butonu */}
+              {/* Güç Reaktörü LED Butonu (Yapay Zeka Haberleri) */}
               <button
                 type="button"
-                className="absolute top-[57.5%] left-[68.8%] -translate-x-1/2 -translate-y-1/2 w-14 h-14 flex items-center justify-center cursor-pointer pointer-events-auto group active:scale-95 transition-transform"
-                title={isSpeaking ? 'Sesi Durdur' : 'RoboPengu Güç Reaktörü (Aktif)'}
+                className="absolute top-[57.5%] left-[68.8%] -translate-x-1/2 -translate-y-1/2 w-9 h-9 flex items-center justify-center cursor-pointer pointer-events-auto group active:scale-95 transition-transform"
+                title="Dünyadaki Yapay Zeka Haberleri (Açmak İçin Tıkla) 🌐"
                 onClick={handleReactorClick}
-                aria-label="RoboPengu Güç Reaktörü"
+                aria-label="Dünyadaki Yapay Zeka Haberleri"
               >
                 {renderCyberReactor('lg')}
               </button>
 
-              {/* Fütüristik Durum Göstergesi */}
-              <div className="absolute -bottom-10 left-1/2 -translate-x-1/2 whitespace-nowrap bg-slate-900/90 dark:bg-slate-950/95 text-white border border-slate-700/80 rounded-full px-3 py-1 text-[10px] font-black tracking-wide shadow-xl flex items-center gap-2 backdrop-blur-md">
-                <span className={`w-2 h-2 rounded-full ${
-                  reactorState === 'thinking'
-                    ? 'bg-purple-400 animate-ping'
-                    : reactorState === 'speaking'
-                    ? 'bg-emerald-400 animate-pulse'
-                    : reactorState === 'winner'
-                    ? 'bg-amber-400 animate-bounce'
-                    : 'bg-cyan-400 animate-pulse'
-                }`} />
-                <span className="text-slate-200 uppercase tracking-wider text-[9px]">
-                  {reactorState === 'thinking' && 'Nöral Çip: Analiz Devrede...'}
-                  {reactorState === 'speaking' && 'Sesli Sentez: Aktif'}
-                  {reactorState === 'winner' && 'Şampiyon Belirlendi 🏆'}
-                  {reactorState === 'idle' && 'Biyo-Mekanik Reaktör: Hazır'}
-                </span>
-                {isSpeaking && renderAudioWaveform()}
-              </div>
+              {/* Küresel Yapay Zeka Bülteni Butonu & Göstergesi */}
+              <button
+                type="button"
+                onClick={handleReactorClick}
+                className="absolute -bottom-9 left-1/2 -translate-x-1/2 whitespace-nowrap bg-slate-900/90 dark:bg-slate-950/95 text-white border border-slate-700/80 hover:border-cyan-500/60 rounded-full px-3 py-1 text-[10px] font-bold tracking-wide shadow-lg flex items-center gap-1.5 backdrop-blur-md cursor-pointer pointer-events-auto active:scale-95 transition-all"
+                title="Dünyadaki Yapay Zeka Haberlerini Aç (Kayan Pencere)"
+              >
+                <Globe className="w-3 h-3 text-cyan-400" />
+                <span className="text-slate-200 text-[9.5px]">Küresel AI Haberleri</span>
+                <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse ml-0.5" />
+              </button>
             </div>
           </div>
 
@@ -1604,7 +1598,7 @@ export function AIAssistantModal({ isOpen, onClose, initialQuery = '' }: AIAssis
                     <div
                       onClick={handleReactorClick}
                       className="relative w-20 h-24 sm:w-24 sm:h-28 animate-float cursor-pointer group active:scale-95 transition-transform"
-                      title={isSpeaking ? 'Sesi Durdur' : 'RoboPengu Güç Reaktörüne Dokun! 🐧'}
+                      title="Dünyadaki Yapay Zeka Haberleri (Açmak İçin Dokun) 🌐"
                     >
                       <img
                         src="/assets/robopengu.png"
@@ -1612,37 +1606,25 @@ export function AIAssistantModal({ isOpen, onClose, initialQuery = '' }: AIAssis
                         className="w-full h-full object-contain filter drop-shadow-[0_12px_22px_rgba(0,0,0,0.22)] pointer-events-none"
                       />
                       {/* Güç Reaktörü LED Butonu */}
-                      <div className="absolute top-[57.5%] left-[68.8%] -translate-x-1/2 -translate-y-1/2 w-8 h-8 flex items-center justify-center pointer-events-none">
+                      <div className="absolute top-[57.5%] left-[68.8%] -translate-x-1/2 -translate-y-1/2 w-6 h-6 flex items-center justify-center pointer-events-none">
                         {renderCyberReactor('md')}
                       </div>
                     </div>
                     <div className="mt-2 flex items-center justify-center gap-1.5 flex-wrap">
                       <span className="inline-flex items-center gap-1 text-[11px] font-black text-slate-800 dark:text-slate-100">
-                        <span className={`w-2 h-2 rounded-full ${
-                          reactorState === 'thinking'
-                            ? 'bg-purple-500 animate-ping'
-                            : reactorState === 'speaking'
-                            ? 'bg-emerald-500 animate-pulse'
-                            : reactorState === 'winner'
-                            ? 'bg-amber-500 animate-bounce'
-                            : 'bg-emerald-500 animate-pulse'
-                        }`}></span>
+                        <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
                         RoboPengu 3D Asistan
                       </span>
-                      <span className={`text-[9px] font-extrabold px-2 py-0.5 rounded-full border ${
-                        reactorState === 'thinking'
-                          ? 'bg-purple-100 text-purple-700 dark:bg-purple-950 dark:text-purple-300 border-purple-300/40'
-                          : reactorState === 'speaking'
-                          ? 'bg-emerald-100 text-emerald-700 dark:bg-emerald-950 dark:text-emerald-300 border-emerald-300/40'
-                          : reactorState === 'winner'
-                          ? 'bg-amber-100 text-amber-700 dark:bg-amber-950 dark:text-amber-300 border-amber-300/40'
-                          : 'bg-emerald-100 text-emerald-700 dark:bg-emerald-950 dark:text-emerald-300 border-emerald-300/40'
-                      }`}>
-                        {reactorState === 'thinking' && 'Analiz Yapıyor... ⚡'}
-                        {reactorState === 'speaking' && 'Konuşuyor 🎙️'}
-                        {reactorState === 'winner' && 'Şampiyon Belli! 🏆'}
-                        {reactorState === 'idle' && 'Canlı & Çevrim İçi 🐧'}
-                      </span>
+                      <button
+                        type="button"
+                        onClick={handleReactorClick}
+                        className="inline-flex items-center gap-1 text-[9px] font-bold px-2 py-0.5 rounded-full border bg-slate-900 text-white dark:bg-slate-800 border-slate-700 hover:border-cyan-400 cursor-pointer active:scale-95 transition-all shadow-2xs"
+                        title="Dünyadaki Yapay Zeka Haberlerini Aç"
+                      >
+                        <Globe className="w-2.5 h-2.5 text-cyan-400" />
+                        <span>Küresel AI Haberleri</span>
+                        <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse" />
+                      </button>
                       {isSpeaking && (
                         <button
                           type="button"
@@ -2371,6 +2353,16 @@ export function AIAssistantModal({ isOpen, onClose, initialQuery = '' }: AIAssis
             </div>
           </motion.div>
         </div>
+
+        {/* 🌐 Dünyadaki Yapay Zeka Haberleri Kayan Penceresi (Slide-over Drawer) */}
+        <GlobalAiNewsDrawer
+          isOpen={isNewsDrawerOpen}
+          onClose={() => setIsNewsDrawerOpen(false)}
+          onAskAboutNews={(prompt) => {
+            setIsNewsDrawerOpen(false);
+            handleSend(prompt);
+          }}
+        />
       </div>
     </AnimatePresence>
   );
