@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 export type ProductImageVariant = "card" | "detail";
 
@@ -50,6 +50,10 @@ export default function ProductImage({
 }: ProductImageProps) {
   const [imgSrc, setImgSrc] = useState(src || FALLBACK_IMAGE);
   const config = VARIANT_CONFIG[variant];
+
+  useEffect(() => {
+    setImgSrc(src || FALLBACK_IMAGE);
+  }, [src]);
 
   return (
     <div

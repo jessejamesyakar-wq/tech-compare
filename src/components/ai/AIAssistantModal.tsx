@@ -27,6 +27,7 @@ import {
   Radio,
 } from 'lucide-react';
 import { ProductImage } from '@/components/ui/ProductImage';
+import { getFallbackProductImage } from '@/lib/ai/fallbackImages';
 
 // ---- Tipler ----------------------------------------------------------
 
@@ -1487,20 +1488,14 @@ export function AIAssistantModal({ isOpen, onClose, initialQuery = '' }: AIAssis
                                       onClick={onClose}
                                       className="p-2.5 bg-white dark:bg-slate-900 border border-slate-200/80 dark:border-slate-800 rounded-xl flex items-center gap-2.5 shadow-xs hover:border-emerald-500 dark:hover:border-emerald-500 transition cursor-pointer group active:scale-[0.99] touch-manipulation"
                                     >
-                                      {rec.image ? (
-                                        <div className="w-10 h-12 bg-slate-50 dark:bg-slate-800 rounded-lg p-0.5 shrink-0 flex items-center justify-center border border-slate-100 dark:border-slate-700">
-                                          <ProductImage
-                                            src={rec.image}
-                                            alt={rec.productName}
-                                            variant="card"
-                                            className="w-full h-full object-contain"
-                                          />
-                                        </div>
-                                      ) : (
-                                        <div className="w-10 h-12 bg-slate-100 dark:bg-slate-800 rounded-lg flex items-center justify-center text-xs shrink-0">
-                                          📦
-                                        </div>
-                                      )}
+                                      <div className="w-10 h-12 bg-slate-50 dark:bg-slate-800 rounded-lg p-0.5 shrink-0 flex items-center justify-center border border-slate-100 dark:border-slate-700 overflow-hidden">
+                                        <ProductImage
+                                          src={rec.image || getFallbackProductImage(rec.productName, '', rec.category)}
+                                          alt={rec.productName}
+                                          variant="card"
+                                          className="w-full h-full object-contain"
+                                        />
+                                      </div>
                                       <div className="flex-1 min-w-0">
                                         <h5 className="text-xs font-bold text-slate-800 dark:text-slate-100 group-hover:text-emerald-600 dark:group-hover:text-emerald-400 transition-colors truncate">
                                           {rec.productName}
@@ -1807,18 +1802,12 @@ export function AIAssistantModal({ isOpen, onClose, initialQuery = '' }: AIAssis
                                 )}
 
                                 <div className="h-20 sm:h-24 w-full flex items-center justify-center mb-2">
-                                  {p.image ? (
-                                    <ProductImage
-                                      src={p.image}
-                                      alt={p.name}
-                                      variant="card"
-                                      className="max-h-full max-w-full object-contain"
-                                    />
-                                  ) : (
-                                    <div className="text-3xl">
-                                      {p.category === 'tvs' ? '📺' : p.category === 'laptops' ? '💻' : '📱'}
-                                    </div>
-                                  )}
+                                  <ProductImage
+                                    src={p.image || getFallbackProductImage(p.name, p.brand, p.category)}
+                                    alt={p.name}
+                                    variant="card"
+                                    className="max-h-full max-w-full object-contain"
+                                  />
                                 </div>
 
                                 <div className="text-[10px] font-bold text-slate-400 uppercase tracking-wider">

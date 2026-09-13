@@ -7,6 +7,7 @@
 import { getStoredProducts } from "@/lib/adminData";
 import { detectCategory, type CatalogCategory } from "./categoryMatcher";
 import { buildComparisonRows } from "./specFields";
+import { getFallbackProductImage } from "./fallbackImages";
 
 export interface ResolverResult<T> {
   ok: boolean;
@@ -21,19 +22,32 @@ export function searchProductsInCatalog(
   if (!query || typeof query !== "string") return [];
   const catalog = getStoredProducts();
   const normMsg = normalizeTr(query);
-  const words = normMsg.split(/\s+/).filter((w) => w.length >= 2);
+  const expandedMsg = normMsg
+    .replace(/(\d+)([a-z]+)/g, "$1 $2")
+    .replace(/([a-z]+)(\d+)/g, "$1 $2")
+    .replace(/promax/g, "pro max");
+  const words = [...new Set([...normMsg.split(/\s+/), ...expandedMsg.split(/\s+/)])].filter((w) => w.length >= 2);
   if (words.length === 0) return [];
+
+  const cleanQ = cleanAlphanumeric(query);
 
   const scoredProds = catalog
     .map((p) => {
       const pName = normalizeTr(p.name || "");
       const pBrand = normalizeTr(p.brand || "");
+      const cleanP = cleanAlphanumeric(p.name || "");
       const haystack = `${pName} ${pBrand}`;
       const matchedCount = words.filter((w) => haystack.includes(w)).length;
-      const matchRatio = words.length > 0 ? matchedCount / words.length : 0;
+      let matchRatio = words.length > 0 ? matchedCount / words.length : 0;
+
+      // Bonus if clean alphanumeric is directly contained
+      if (cleanQ.length >= 4 && cleanP.includes(cleanQ)) {
+        matchRatio = Math.max(matchRatio, 0.95);
+      }
+
       return { product: p, matchedCount, matchRatio };
     })
-    .filter((entry) => entry.matchRatio >= 0.75) // en az %75 kelime eşleşmeli (tek kelimelik pro/max yanlış eşleşmelerini önler)
+    .filter((entry) => entry.matchRatio >= 0.75) // en az %75 kelime eşleşmeli
     .sort((a, b) => b.matchRatio - a.matchRatio || b.matchedCount - a.matchedCount);
 
   return scoredProds.slice(0, limit).map((entry) => entry.product);
@@ -53,7 +67,7 @@ export function formatProductRecommendations(products: any[]): any[] {
       productName: p.name,
       category: p.category === "smartphones" ? "phones" : p.category,
       price: cheapestPrice,
-      image: p.image || (Array.isArray(p.images) ? p.images[0] : undefined),
+      image: p.image || (Array.isArray(p.images) ? p.images[0] : "") || getFallbackProductImage(p.name, p.brand, p.category),
       reason: `${p.brand || "Katalog"} güncel modeli`,
       cheapestStore: cheapestStore,
     };
@@ -62,7 +76,7 @@ export function formatProductRecommendations(products: any[]): any[] {
 
 export function normalizeTr(text: string): string {
   if (!text) return "";
-  return text
+  let s = text
     .replace(/İ/g, "i")
     .replace(/I/g, "ı")
     .toLocaleLowerCase("tr-TR")
@@ -74,7 +88,24 @@ export function normalizeTr(text: string): string {
     .replace(/ü/g, "u")
     .normalize("NFD")
     .replace(/[\u0300-\u036f]/g, "")
+    .replace(/['’]/g, "")
     .trim();
+
+  // Strip common Turkish grammatical inflection suffixes attached to model keywords
+  // e.g. "promaxi" -> "promax", "proyu" -> "pro", "ultrayı" -> "ultra", "s24'e" -> "s24"
+  s = s.replace(/\b([a-z0-9]+?)(?:yi|yı|yu|yü|ye|ya|de|da|te|ta|den|dan|ten|tan|[iuüea])\b/gi, (match, base) => {
+    if (/(?:max|pro|ultra|plus|mini|air|fe|lite|fold|flip|tab|note|\d+)$/i.test(base)) {
+      return base;
+    }
+    return match;
+  });
+
+  return s;
+}
+
+export function cleanAlphanumeric(text: string): string {
+  if (!text) return "";
+  return normalizeTr(text).replace(/[^a-z0-9]/g, "");
 }
 
 export function findProductByNameOrId(products: any[], nameOrId: string) {
@@ -91,17 +122,43 @@ export function findProductByNameOrId(products: any[], nameOrId: string) {
     const hasMax = normalized.includes("max");
     const hasPlus = normalized.includes("plus");
     const hasUltra = normalized.includes("ultra");
+    const hasPro = normalized.includes("pro");
 
     const exactRanked = candidates.filter((p) => {
       const pNorm = normalizeTr(p.name);
       if (!hasMax && pNorm.includes("max")) return false;
       if (!hasPlus && pNorm.includes("plus")) return false;
       if (!hasUltra && pNorm.includes("ultra")) return false;
+      if (!hasPro && pNorm.includes("pro")) return false;
       return true;
     });
 
     if (exactRanked.length > 0) return exactRanked[0];
     return candidates[0];
+  }
+
+  // Space-insensitive alphanumeric search (e.g. "iphone 18promax" matches "Apple iPhone 18 Pro Max")
+  const cleanQ = cleanAlphanumeric(nameOrId);
+  if (cleanQ.length >= 3) {
+    const alphaMatches = products.filter((p) => cleanAlphanumeric(p.name).includes(cleanQ));
+    if (alphaMatches.length > 0) {
+      const hasMax = cleanQ.includes("max");
+      const hasPlus = cleanQ.includes("plus");
+      const hasUltra = cleanQ.includes("ultra");
+      const hasPro = cleanQ.includes("pro");
+
+      const exactRanked = alphaMatches.filter((p) => {
+        const cleanP = cleanAlphanumeric(p.name);
+        if (!hasMax && cleanP.includes("max")) return false;
+        if (!hasPlus && cleanP.includes("plus")) return false;
+        if (!hasUltra && cleanP.includes("ultra")) return false;
+        if (!hasPro && cleanP.includes("pro")) return false;
+        return true;
+      });
+
+      if (exactRanked.length > 0) return exactRanked[0];
+      return alphaMatches[0];
+    }
   }
 
   const searched = searchProductsInCatalog(nameOrId, 1);
@@ -340,7 +397,7 @@ export function formatComparisonData(
         name: p.name,
         brand: p.brand,
         category: p.category === "smartphones" ? "phones" : p.category || "phones",
-        image: p.image || (Array.isArray(p.images) ? p.images[0] : undefined),
+        image: p.image || (Array.isArray(p.images) ? p.images[0] : "") || getFallbackProductImage(p.name, p.brand, p.category),
         price: cheapestPrice,
         cheapestStore,
         secondCheapestStore,
@@ -394,6 +451,7 @@ export function createDynamicComparisonPanel(
   productNames: string[],
   categoryHint: string = "electronics"
 ): ComparisonPanelData {
+  const catalog = getStoredProducts();
   const p1Name = productNames[0] || "Ürün 1";
   const p2Name = productNames[1] || "Ürün 2";
 
@@ -410,28 +468,41 @@ export function createDynamicComparisonPanel(
   const b1 = extractBrand(p1Name);
   const b2 = extractBrand(p2Name);
 
+  const c1 = findProductByNameOrId(catalog, p1Name);
+  const c2 = findProductByNameOrId(catalog, p2Name);
+
+  const img1 = c1?.image || (Array.isArray(c1?.images) ? c1.images[0] : "") || getFallbackProductImage(p1Name, b1, categoryHint);
+  const img2 = c2?.image || (Array.isArray(c2?.images) ? c2.images[0] : "") || getFallbackProductImage(p2Name, b2, categoryHint);
+
+  const price1 = c1 ? (c1.basePrice || c1.price || 0) : 0;
+  const price2 = c2 ? (c2.basePrice || c2.price || 0) : 0;
+  const store1 = c1?.storeOffers?.[0]?.storeName || (price1 > 0 ? "En Uygun Mağaza" : "Piyasa Fiyatı");
+  const store2 = c2?.storeOffers?.[0]?.storeName || (price2 > 0 ? "En Uygun Mağaza" : "Piyasa Fiyatı");
+
   return {
     type: "comparison",
     scenario: "Detaylı Karşılaştırma",
     category: categoryHint,
     products: [
       {
-        id: `dyn-1`,
-        slug: p1Name.toLowerCase().replace(/[^a-z0-9]+/g, "-"),
-        name: p1Name,
-        brand: b1,
-        category: categoryHint,
-        price: 0,
-        cheapestStore: "Piyasa Fiyatı",
+        id: c1 ? c1.id : `dyn-1`,
+        slug: c1 ? (c1.slug || c1.id) : p1Name.toLowerCase().replace(/[^a-z0-9]+/g, "-"),
+        name: c1 ? c1.name : p1Name,
+        brand: c1 ? c1.brand : b1,
+        category: c1?.category === "smartphones" ? "phones" : (c1?.category || categoryHint),
+        image: img1,
+        price: price1,
+        cheapestStore: store1,
       },
       {
-        id: `dyn-2`,
-        slug: p2Name.toLowerCase().replace(/[^a-z0-9]+/g, "-"),
-        name: p2Name,
-        brand: b2,
-        category: categoryHint,
-        price: 0,
-        cheapestStore: "Piyasa Fiyatı",
+        id: c2 ? c2.id : `dyn-2`,
+        slug: c2 ? (c2.slug || c2.id) : p2Name.toLowerCase().replace(/[^a-z0-9]+/g, "-"),
+        name: c2 ? c2.name : p2Name,
+        brand: c2 ? c2.brand : b2,
+        category: c2?.category === "smartphones" ? "phones" : (c2?.category || categoryHint),
+        image: img2,
+        price: price2,
+        cheapestStore: store2,
       },
     ],
     matrix: [
@@ -441,8 +512,8 @@ export function createDynamicComparisonPanel(
       { label: "Güncel Standartlar", values: ["Yeni Nesil Destek", "Yeni Nesil Destek"], isDifferent: false },
     ],
     winner: {
-      productId: "dyn-2",
-      productName: p2Name,
+      productId: c2 ? c2.id : "dyn-2",
+      productName: c2 ? c2.name : p2Name,
       scenario: "Uzman Seçimi",
       reasons: [
         "Kullanım senaryosuna göre öne çıkan panel ve donanım dengesi",
