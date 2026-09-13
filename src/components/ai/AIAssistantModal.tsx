@@ -393,7 +393,9 @@ export function AIAssistantModal({ isOpen, onClose, initialQuery = '' }: AIAssis
   const [voiceEnabled, setVoiceEnabled] = useState(true);
   const [speechSupported, setSpeechSupported] = useState(false);
   const [speechToast, setSpeechToast] = useState<string | null>(null);
+  const [availableVoices, setAvailableVoices] = useState<SpeechSynthesisVoice[]>([]);
   const recognitionRef = useRef<any>(null);
+  const activeUtteranceRef = useRef<SpeechSynthesisUtterance | null>(null);
   const toastTimeoutRef = useRef<NodeJS.Timeout | null>(null);
 
   const showSpeechToast = (msg: string) => {
@@ -402,7 +404,7 @@ export function AIAssistantModal({ isOpen, onClose, initialQuery = '' }: AIAssis
     toastTimeoutRef.current = setTimeout(() => setSpeechToast(null), 4500);
   };
 
-  // Ses Tercihini LocalStorage'dan yükle & Speech API desteğini denetle
+  // Ses Tercihini LocalStorage'dan yükle, Speech API desteğini denetle & Sesleri önceden yükle
   useEffect(() => {
     try {
       const savedVoice = localStorage.getItem('robopengu_voice_enabled');
@@ -416,6 +418,19 @@ export function AIAssistantModal({ isOpen, onClose, initialQuery = '' }: AIAssis
         (window as any).SpeechRecognition || (window as any).webkitSpeechRecognition
       );
       setSpeechSupported(hasSpeech);
+
+      if ('speechSynthesis' in window) {
+        const loadVoices = () => {
+          try {
+            const v = window.speechSynthesis.getVoices();
+            if (v && v.length > 0) {
+              setAvailableVoices(v);
+            }
+          } catch {}
+        };
+        loadVoices();
+        window.speechSynthesis.onvoiceschanged = loadVoices;
+      }
     }
   }, []);
 
@@ -434,15 +449,25 @@ export function AIAssistantModal({ isOpen, onClose, initialQuery = '' }: AIAssis
 
   const stopSpeaking = () => {
     if (typeof window !== 'undefined' && 'speechSynthesis' in window) {
-      window.speechSynthesis.cancel();
+      try {
+        window.speechSynthesis.cancel();
+      } catch {}
+      activeUtteranceRef.current = null;
       setIsSpeaking(false);
     }
   };
 
-  const speakSummary = (text: string) => {
-    if (!voiceEnabled || typeof window === 'undefined' || !('speechSynthesis' in window)) {
+  const speakSummary = (text: string, force = false) => {
+    if ((!voiceEnabled && !force) || typeof window === 'undefined' || !('speechSynthesis' in window)) {
       return;
     }
+    if (force && !voiceEnabled) {
+      setVoiceEnabled(true);
+      try {
+        localStorage.setItem('robopengu_voice_enabled', 'true');
+      } catch {}
+    }
+
     stopSpeaking();
 
     // Sesli özet: Eğer [SUMMARY_CHAT] varsa sadece o kısa özeti al, yoksa ilk 2 cümleyi al
@@ -473,25 +498,63 @@ export function AIAssistantModal({ isOpen, onClose, initialQuery = '' }: AIAssis
     if (!cleanSpeech) return;
 
     try {
-      const utterance = new SpeechSynthesisUtterance(cleanSpeech);
-      utterance.lang = 'tr-TR';
-      utterance.rate = 1.05;
-      utterance.pitch = 1.0;
-
-      const voices = window.speechSynthesis.getVoices();
-      const trVoice = voices.find((v) => v.lang === 'tr-TR' || v.lang.startsWith('tr'));
-      if (trVoice) {
-        utterance.voice = trVoice;
+      // Chromium duraklatılmış (paused) kilitlenme hatasını çöz
+      if (window.speechSynthesis.paused) {
+        try {
+          window.speechSynthesis.resume();
+        } catch {}
       }
 
-      utterance.onstart = () => setIsSpeaking(true);
-      utterance.onend = () => setIsSpeaking(false);
-      utterance.onerror = () => setIsSpeaking(false);
+      const utterance = new SpeechSynthesisUtterance(cleanSpeech);
+      utterance.lang = 'tr-TR';
+      utterance.rate = 1.0;
+      utterance.pitch = 1.0;
+      utterance.volume = 1.0;
 
-      window.speechSynthesis.speak(utterance);
+      // Türkçe ses arama önceliği (Tolga, Google Türkçe, Microsoft tr-TR)
+      const allVoices = availableVoices.length > 0 ? availableVoices : window.speechSynthesis.getVoices();
+      const trVoice = allVoices.find((v) =>
+        (v.lang && v.lang.toLowerCase().replace('_', '-').startsWith('tr')) ||
+        (v.name && (v.name.toLowerCase().includes('turkish') || v.name.toLowerCase().includes('türkçe') || v.name.toLowerCase().includes('tolga')))
+      );
+      if (trVoice) {
+        utterance.voice = trVoice;
+        utterance.lang = trVoice.lang;
+      }
+
+      // Garbage Collection Önleme (Chromium Issue 679437 / Issue 338735 Çözümü)
+      activeUtteranceRef.current = utterance;
+
+      utterance.onstart = () => {
+        setIsSpeaking(true);
+      };
+      utterance.onend = () => {
+        setIsSpeaking(false);
+        activeUtteranceRef.current = null;
+      };
+      utterance.onerror = (ev: any) => {
+        console.warn('[RoboPengu][SpeechSynthesis] utterance error:', ev?.error, ev);
+        setIsSpeaking(false);
+        activeUtteranceRef.current = null;
+        if (ev?.error === 'not-allowed') {
+          showSpeechToast('Tarayıcı otomatik ses çalmayı engelledi. Dinlemek için mesajdaki "Sesli Dinle" butonuna tıklayabilirsiniz.');
+        }
+      };
+
+      // Chromium cancel-speak eşzamanlılık çakışmasını önlemek için 60ms güvenli gecikme
+      setTimeout(() => {
+        try {
+          window.speechSynthesis.speak(utterance);
+        } catch (e) {
+          console.warn('[RoboPengu] speak failed:', e);
+          setIsSpeaking(false);
+          activeUtteranceRef.current = null;
+        }
+      }, 60);
     } catch (err) {
       console.warn('[RoboPengu][SpeechSynthesis] speak error:', err);
       setIsSpeaking(false);
+      activeUtteranceRef.current = null;
     }
   };
 
@@ -1332,6 +1395,36 @@ export function AIAssistantModal({ isOpen, onClose, initialQuery = '' }: AIAssis
                             <div className="bg-white dark:bg-slate-900 border border-slate-100 dark:border-slate-800 p-3.5 rounded-2xl rounded-tl-none shadow-xs text-slate-700 dark:text-slate-200">
                               <MarkdownRenderer content={displayContent} isStreaming={m.isStreaming} />
                             </div>
+
+                            {/* Sesli Dinle / Durdur Butonu (Doğrudan Kullanıcı Tıklaması ile Kesin Ses Çalma) */}
+                            {!m.isStreaming && m.content && !m.content.startsWith('⚠️') && (
+                              <div className="flex items-center gap-2 pt-0.5">
+                                <button
+                                  type="button"
+                                  onClick={() => {
+                                    if (isSpeaking) {
+                                      stopSpeaking();
+                                    } else {
+                                      speakSummary(m.content, true);
+                                    }
+                                  }}
+                                  className="inline-flex items-center gap-1.5 text-[11px] font-medium text-slate-600 dark:text-slate-300 hover:text-emerald-600 dark:hover:text-emerald-400 bg-white dark:bg-slate-800 hover:bg-emerald-50 dark:hover:bg-emerald-950/40 border border-slate-200/80 dark:border-slate-700/80 px-2.5 py-1 rounded-lg transition shadow-2xs cursor-pointer"
+                                  title={isSpeaking ? 'Sesli Yanıtı Durdur' : "RoboPengu'nun Sesinden Dinle"}
+                                >
+                                  {isSpeaking ? (
+                                    <>
+                                      <VolumeX className="w-3.5 h-3.5 text-rose-500 animate-pulse" />
+                                      <span className="text-rose-600 dark:text-rose-400 font-semibold">Durdur</span>
+                                    </>
+                                  ) : (
+                                    <>
+                                      <Volume2 className="w-3.5 h-3.5 text-emerald-600 dark:text-emerald-400" />
+                                      <span>Sesli Dinle</span>
+                                    </>
+                                  )}
+                                </button>
+                              </div>
+                            )}
 
                             {/* Mobilde Sağ Paneldeki Detaylı Analizi Görme Butonu */}
                             {isComparisonMsg && hasPanel && (
