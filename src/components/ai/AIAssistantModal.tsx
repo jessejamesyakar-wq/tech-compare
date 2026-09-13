@@ -29,6 +29,64 @@ import {
 import { ProductImage } from '@/components/ui/ProductImage';
 import { getFallbackProductImage } from '@/lib/ai/fallbackImages';
 
+/**
+ * Türkçe Teknoloji Fonetik Sözlüğü (Phonetic Speech Engine)
+ * Web Speech API TTS seslendirirken İngilizce ve teknik terimlerin
+ * robotik/hatalı okunmasını engeller, akıcı ve doğal Türkçe tını kazandırır.
+ */
+export function applyTurkishTechPhonetics(text: string): string {
+  if (!text) return '';
+  return text
+    // Markalar & Modeller
+    .replace(/\biPhone\b/gi, 'Ayfon')
+    .replace(/\bXiaomi\b/gi, 'Şaomi')
+    .replace(/\bHuawei\b/gi, 'Huavey')
+    .replace(/\bSamsung Galaxy\b/gi, 'Samsung Galaksi')
+    .replace(/\bGalaxy\b/gi, 'Galaksi')
+    .replace(/\bPro Max\b/gi, 'Pro Maks')
+    .replace(/\bPromax\b/gi, 'Pro Maks')
+    .replace(/\bPlayStation\b/gi, 'Pleyşın')
+    .replace(/\bMacBook\b/gi, 'Mekbuk')
+    .replace(/\biPad\b/gi, 'Ay-ped')
+    .replace(/\bApple Watch\b/gi, 'Epıl Voç')
+    .replace(/\bApple\b/gi, 'Epıl')
+    // Benchmark & Donanım
+    .replace(/\bAnTuTu\b/gi, 'Antutu')
+    .replace(/\bGeekbench\b/gi, 'Gikbenç')
+    .replace(/\bDxOMark\b/gi, 'Deksomark')
+    .replace(/\bSnapdragon\b/gi, 'Snepdregın')
+    .replace(/\bBionic\b/gi, 'Bayonik')
+    .replace(/\bTitanium\b/gi, 'Titanyum')
+    // Panel & Ekran
+    .replace(/\bAMOLED\b/gi, 'Amoled')
+    .replace(/\bOLED\b/gi, 'O-led')
+    .replace(/\bLTPO\b/gi, 'L-T-P-O')
+    .replace(/\bMini-LED\b/gi, 'Mini-Led')
+    .replace(/\bQNED\b/gi, 'Ku-ned')
+    .replace(/\bQLED\b/gi, 'Ku-led')
+    .replace(/\bHDR10\+\b/gi, 'Ha-De-Re 10 artı')
+    .replace(/\bDolby Vision\b/gi, 'Dolbi Vıjın')
+    .replace(/\bDolby Atmos\b/gi, 'Dolbi Atmos')
+    .replace(/(\d+)\s*nits?\b/gi, '$1 nit')
+    // Sayısal Donanım Birimleri
+    .replace(/(\d+)\s*mAh\b/gi, '$1 miliamper saat')
+    .replace(/(\d+)\s*W\b/gi, '$1 vat')
+    .replace(/(\d+)\s*MP\b/gi, '$1 megapiksel')
+    .replace(/(\d+)\s*GB\b/gi, '$1 gigabayt')
+    .replace(/(\d+)\s*TB\b/gi, '$1 terabayt')
+    .replace(/(\d+)\s*Hz\b/gi, '$1 hertz')
+    .replace(/(\d+)\s*nm\b/gi, '$1 nanometre')
+    // Kısaltmalar
+    .replace(/\bvs\.?\b/gi, 'karşı')
+    .replace(/\bF\/P\b/gi, 'fiyat performans')
+    .replace(/\bAI\b/g, 'yapay zeka')
+    .replace(/\bOIS(?:\s*sabitleme)?\b/gi, 'optik sabitleme')
+    .replace(/\bType-C\b/gi, 'Tayp-si')
+    .replace(/\bUSB-C\b/gi, 'U-es-bi-si')
+    .replace(/\bWi-Fi\b/gi, 'Vayfay')
+    .replace(/\bBluetooth\b/gi, 'Blutut');
+}
+
 // ---- Tipler ----------------------------------------------------------
 
 export interface AIAssistantRecommendation {
@@ -503,6 +561,85 @@ export function AIAssistantModal({ isOpen, onClose, initialQuery = '' }: AIAssis
     }
   };
 
+  // 🐧 Biyo-Mekanik Reaktör Durumu & Mikro-Etkileşimler
+  const isThinking = loading;
+  const hasWinner = Boolean(activePanel?.type === 'comparison' && activePanel?.winner);
+  const reactorState: 'thinking' | 'speaking' | 'winner' | 'idle' = isThinking
+    ? 'thinking'
+    : isSpeaking
+    ? 'speaking'
+    : hasWinner
+    ? 'winner'
+    : 'idle';
+
+  const handleReactorClick = () => {
+    try {
+      if (typeof window !== 'undefined' && 'navigator' in window && navigator.vibrate) {
+        navigator.vibrate(25);
+      }
+    } catch {}
+    if (isSpeaking) {
+      stopSpeaking();
+    } else {
+      handleSend('Bana kendinden ve bu sitede yapabileceklerinden bahset!');
+    }
+  };
+
+  const renderCyberReactor = (size: 'sm' | 'md' | 'lg' = 'md') => {
+    const sizeConfig = {
+      sm: { outer: 'w-8 h-8', bezel: 'w-5 h-5', core: 'w-2.5 h-2.5', highlight: 'top-0.5 left-0.5 w-1 h-0.5' },
+      md: { outer: 'w-11 h-11', bezel: 'w-7 h-7', core: 'w-3.5 h-3.5', highlight: 'top-0.5 left-1 w-1.5 h-1' },
+      lg: { outer: 'w-14 h-14', bezel: 'w-9 h-9', core: 'w-5 h-5', highlight: 'top-1 left-1.5 w-2 h-1' },
+    }[size];
+
+    return (
+      <div className="relative flex items-center justify-center select-none pointer-events-none">
+        {/* 1. Katman: Duruma Duyarlı Reaktif Işıma Halesi */}
+        <span
+          className={`absolute rounded-full transition-all duration-500 ${sizeConfig.outer} ${
+            reactorState === 'thinking'
+              ? 'bg-gradient-to-r from-cyan-400 to-purple-500 opacity-90 blur-[4px] animate-reactor-thinking'
+              : reactorState === 'speaking'
+              ? 'bg-gradient-to-r from-emerald-400 to-cyan-400 opacity-90 blur-[5px] animate-reactor-speaking'
+              : reactorState === 'winner'
+              ? 'bg-gradient-to-r from-amber-400 to-emerald-400 opacity-95 blur-[6px] animate-reactor-winner'
+              : 'bg-cyan-400/30 blur-[3px] animate-led-breathe'
+          }`}
+        />
+
+        {/* 2. Katman: Titanyum Bezel Çerçeve & Donanım Yatağı */}
+        <div
+          className={`relative ${sizeConfig.bezel} rounded-full bg-slate-900/90 border border-slate-700/80 shadow-lg flex items-center justify-center backdrop-blur-xs`}
+        >
+          {/* 3. Katman: Kristal Çekirdek Lens (Safir Kristal) */}
+          <span
+            className={`${sizeConfig.core} rounded-full transition-all duration-300 ${
+              reactorState === 'thinking'
+                ? 'bg-gradient-to-br from-cyan-300 via-fuchsia-400 to-purple-600 shadow-[0_0_14px_#a855f7]'
+                : reactorState === 'speaking'
+                ? 'bg-gradient-to-br from-emerald-300 via-teal-400 to-cyan-400 shadow-[0_0_14px_#22d3ee]'
+                : reactorState === 'winner'
+                ? 'bg-gradient-to-br from-amber-200 via-yellow-400 to-emerald-500 shadow-[0_0_16px_#f59e0b]'
+                : 'bg-cyan-300/90 shadow-[0_0_8px_#22d3ee]'
+            }`}
+          />
+
+          {/* 4. Katman: Lens Speküler Yansıma Highlight */}
+          <span className={`absolute ${sizeConfig.highlight} rounded-full bg-white/80 blur-[0.2px] pointer-events-none`} />
+        </div>
+      </div>
+    );
+  };
+
+  const renderAudioWaveform = () => (
+    <span className="flex items-end gap-[2px] h-3.5 px-1 py-0.5 pointer-events-none">
+      <span className="w-1 bg-emerald-500 rounded-full animate-wave-1"></span>
+      <span className="w-1 bg-emerald-400 rounded-full animate-wave-2"></span>
+      <span className="w-1 bg-teal-400 rounded-full animate-wave-3"></span>
+      <span className="w-1 bg-cyan-400 rounded-full animate-wave-4"></span>
+    </span>
+  );
+
   const speakSummary = (text: string, force = false) => {
     if ((!voiceEnabled && !force) || typeof window === 'undefined' || !('speechSynthesis' in window)) {
       return;
@@ -550,7 +687,8 @@ export function AIAssistantModal({ isOpen, onClose, initialQuery = '' }: AIAssis
         } catch {}
       }
 
-      const utterance = new SpeechSynthesisUtterance(cleanSpeech);
+      const phoneticSpeech = applyTurkishTechPhonetics(cleanSpeech);
+      const utterance = new SpeechSynthesisUtterance(phoneticSpeech);
       utterance.lang = 'tr-TR';
       utterance.pitch = 1.18; // Sempatik, genç siborg tınısı
       utterance.rate = 1.05;  // Akıcı, kendinden emin ve anlaşılır tempo
@@ -1286,15 +1424,33 @@ export function AIAssistantModal({ isOpen, onClose, initialQuery = '' }: AIAssis
               {/* Güç Reaktörü LED Butonu */}
               <button
                 type="button"
-                className="absolute top-[57.5%] left-[68.8%] -translate-x-1/2 -translate-y-1/2 w-12 h-12 flex items-center justify-center cursor-pointer pointer-events-auto group active:scale-95 transition-transform"
-                title="RoboPengu Güç Reaktörü (Aktif)"
-                onClick={() => handleSend('Bana kendinden ve bu sitede yapabileceklerinden bahset!')}
+                className="absolute top-[57.5%] left-[68.8%] -translate-x-1/2 -translate-y-1/2 w-14 h-14 flex items-center justify-center cursor-pointer pointer-events-auto group active:scale-95 transition-transform"
+                title={isSpeaking ? 'Sesi Durdur' : 'RoboPengu Güç Reaktörü (Aktif)'}
+                onClick={handleReactorClick}
                 aria-label="RoboPengu Güç Reaktörü"
               >
-                <span className="absolute w-8 h-8 rounded-full bg-cyan-400/20 blur-[3px] animate-led-breathe pointer-events-none"></span>
-                <span className="absolute w-4 h-4 rounded-full bg-cyan-400/50 mix-blend-screen shadow-[0_0_8px_rgba(34,211,238,0.6)] animate-led-breathe pointer-events-none"></span>
-                <span className="absolute w-1.5 h-1.5 rounded-full bg-cyan-200/90 shadow-[0_0_4px_#22d3ee] animate-led-breathe pointer-events-none"></span>
+                {renderCyberReactor('lg')}
               </button>
+
+              {/* Fütüristik Durum Göstergesi */}
+              <div className="absolute -bottom-10 left-1/2 -translate-x-1/2 whitespace-nowrap bg-slate-900/90 dark:bg-slate-950/95 text-white border border-slate-700/80 rounded-full px-3 py-1 text-[10px] font-black tracking-wide shadow-xl flex items-center gap-2 backdrop-blur-md">
+                <span className={`w-2 h-2 rounded-full ${
+                  reactorState === 'thinking'
+                    ? 'bg-purple-400 animate-ping'
+                    : reactorState === 'speaking'
+                    ? 'bg-emerald-400 animate-pulse'
+                    : reactorState === 'winner'
+                    ? 'bg-amber-400 animate-bounce'
+                    : 'bg-cyan-400 animate-pulse'
+                }`} />
+                <span className="text-slate-200 uppercase tracking-wider text-[9px]">
+                  {reactorState === 'thinking' && 'Nöral Çip: Analiz Devrede...'}
+                  {reactorState === 'speaking' && 'Sesli Sentez: Aktif'}
+                  {reactorState === 'winner' && 'Şampiyon Belirlendi 🏆'}
+                  {reactorState === 'idle' && 'Biyo-Mekanik Reaktör: Hazır'}
+                </span>
+                {isSpeaking && renderAudioWaveform()}
+              </div>
             </div>
           </div>
 
@@ -1311,7 +1467,15 @@ export function AIAssistantModal({ isOpen, onClose, initialQuery = '' }: AIAssis
               <div className="flex items-center gap-2 sm:gap-3 min-w-0">
                 <div className="relative w-8 h-8 sm:w-9 sm:h-9 rounded-full bg-slate-100 dark:bg-slate-800 flex items-center justify-center overflow-hidden border border-emerald-500/50 shrink-0 shadow-2xs">
                   <img src="/assets/robopengu.png" alt="Robo" className="w-6 h-6 sm:w-7 sm:h-7 object-contain" />
-                  <span className="absolute bottom-0 right-0 w-2 h-2 rounded-full bg-emerald-500 ring-1 ring-white dark:ring-slate-900 animate-pulse" />
+                  <span className={`absolute bottom-0 right-0 w-2.5 h-2.5 rounded-full ring-1 ring-white dark:ring-slate-900 ${
+                    reactorState === 'thinking'
+                      ? 'bg-purple-500 animate-ping'
+                      : reactorState === 'speaking'
+                      ? 'bg-cyan-400 animate-pulse'
+                      : reactorState === 'winner'
+                      ? 'bg-amber-400 animate-bounce'
+                      : 'bg-emerald-500 animate-pulse'
+                  }`} />
                 </div>
                 <div className="flex items-center gap-1.5 flex-wrap min-w-0">
                   <h3 className="font-bold text-slate-800 dark:text-white text-xs sm:text-sm truncate">
@@ -1323,14 +1487,16 @@ export function AIAssistantModal({ isOpen, onClose, initialQuery = '' }: AIAssis
                     <span className="sm:hidden">UZMAN</span>
                   </span>
                   {isSpeaking && (
-                    <span className="px-2 py-0.5 text-[9px] sm:text-[10px] font-semibold bg-emerald-100/90 dark:bg-emerald-950/90 text-emerald-700 dark:text-emerald-300 rounded-full flex items-center gap-1 border border-emerald-300/60 dark:border-emerald-700/60 shadow-xs animate-pulse">
-                      <span className="flex items-center gap-0.5">
-                        <span className="w-1 h-2 bg-emerald-500 rounded-full animate-bounce [animation-delay:-0.3s]"></span>
-                        <span className="w-1 h-2.5 bg-emerald-500 rounded-full animate-bounce [animation-delay:-0.15s]"></span>
-                        <span className="w-1 h-1.5 bg-emerald-500 rounded-full animate-bounce"></span>
-                      </span>
-                      <span className="hidden sm:inline">Konuşuyor...</span>
-                    </span>
+                    <button
+                      type="button"
+                      onClick={stopSpeaking}
+                      className="px-2.5 py-1 text-[10px] font-black bg-emerald-100/95 dark:bg-emerald-950/95 text-emerald-700 dark:text-emerald-300 rounded-full flex items-center gap-1.5 border border-emerald-400/60 dark:border-emerald-600/60 shadow-xs cursor-pointer active:scale-95 transition-all"
+                      title="Sesi Durdur"
+                    >
+                      {renderAudioWaveform()}
+                      <span className="hidden sm:inline">Konuşuyor</span>
+                      <span className="text-[9px] opacity-70">✕</span>
+                    </button>
                   )}
                 </div>
               </div>
@@ -1428,11 +1594,11 @@ export function AIAssistantModal({ isOpen, onClose, initialQuery = '' }: AIAssis
                 {/* Mesaj Listesi */}
                 <div className="flex-1 overflow-y-auto p-4 sm:p-5 space-y-4">
                   {/* 🐧 MOBİL VE TABLET ROBOPENGU 3D MASKOT HERO KARTI */}
-                  <div className={`${hasPanel ? '2xl:hidden' : 'xl:hidden'} flex flex-col items-center justify-center p-3 sm:p-4 mb-2 bg-gradient-to-b from-emerald-500/10 via-slate-50/80 to-white dark:from-emerald-950/30 dark:via-slate-900/60 dark:to-slate-900 rounded-3xl border border-emerald-500/20 shadow-xs text-center select-none`}>
+                  <div className={`${hasPanel ? '2xl:hidden' : 'xl:hidden'} flex flex-col items-center justify-center p-3.5 sm:p-4 mb-2 bg-gradient-to-b from-emerald-500/10 via-slate-50/80 to-white dark:from-emerald-950/30 dark:via-slate-900/60 dark:to-slate-900 rounded-3xl border border-emerald-500/20 shadow-xs text-center select-none`}>
                     <div
-                      onClick={() => handleSend('Bana kendinden ve bu sitede yapabileceklerinden bahset!')}
+                      onClick={handleReactorClick}
                       className="relative w-20 h-24 sm:w-24 sm:h-28 animate-float cursor-pointer group active:scale-95 transition-transform"
-                      title="RoboPengu Güç Reaktörüne Dokun! 🐧"
+                      title={isSpeaking ? 'Sesi Durdur' : 'RoboPengu Güç Reaktörüne Dokun! 🐧'}
                     >
                       <img
                         src="/assets/robopengu.png"
@@ -1441,19 +1607,50 @@ export function AIAssistantModal({ isOpen, onClose, initialQuery = '' }: AIAssis
                       />
                       {/* Güç Reaktörü LED Butonu */}
                       <div className="absolute top-[57.5%] left-[68.8%] -translate-x-1/2 -translate-y-1/2 w-8 h-8 flex items-center justify-center pointer-events-none">
-                        <span className="absolute w-5 h-5 rounded-full bg-cyan-400/20 blur-[2px] animate-led-breathe"></span>
-                        <span className="absolute w-2.5 h-2.5 rounded-full bg-cyan-400/60 mix-blend-screen shadow-[0_0_8px_rgba(34,211,238,0.8)] animate-led-breathe"></span>
-                        <span className="absolute w-1 h-1 rounded-full bg-cyan-200 shadow-[0_0_4px_#22d3ee] animate-led-breathe"></span>
+                        {renderCyberReactor('md')}
                       </div>
                     </div>
-                    <div className="mt-2 flex items-center justify-center gap-1.5">
+                    <div className="mt-2 flex items-center justify-center gap-1.5 flex-wrap">
                       <span className="inline-flex items-center gap-1 text-[11px] font-black text-slate-800 dark:text-slate-100">
-                        <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
+                        <span className={`w-2 h-2 rounded-full ${
+                          reactorState === 'thinking'
+                            ? 'bg-purple-500 animate-ping'
+                            : reactorState === 'speaking'
+                            ? 'bg-emerald-500 animate-pulse'
+                            : reactorState === 'winner'
+                            ? 'bg-amber-500 animate-bounce'
+                            : 'bg-emerald-500 animate-pulse'
+                        }`}></span>
                         RoboPengu 3D Asistan
                       </span>
-                      <span className="text-[9px] font-extrabold px-2 py-0.5 rounded-full bg-emerald-100 text-emerald-700 dark:bg-emerald-950 dark:text-emerald-300 border border-emerald-300/40">
-                        Canlı & Çevrim İçi 🐧
+                      <span className={`text-[9px] font-extrabold px-2 py-0.5 rounded-full border ${
+                        reactorState === 'thinking'
+                          ? 'bg-purple-100 text-purple-700 dark:bg-purple-950 dark:text-purple-300 border-purple-300/40'
+                          : reactorState === 'speaking'
+                          ? 'bg-emerald-100 text-emerald-700 dark:bg-emerald-950 dark:text-emerald-300 border-emerald-300/40'
+                          : reactorState === 'winner'
+                          ? 'bg-amber-100 text-amber-700 dark:bg-amber-950 dark:text-amber-300 border-amber-300/40'
+                          : 'bg-emerald-100 text-emerald-700 dark:bg-emerald-950 dark:text-emerald-300 border-emerald-300/40'
+                      }`}>
+                        {reactorState === 'thinking' && 'Analiz Yapıyor... ⚡'}
+                        {reactorState === 'speaking' && 'Konuşuyor 🎙️'}
+                        {reactorState === 'winner' && 'Şampiyon Belli! 🏆'}
+                        {reactorState === 'idle' && 'Canlı & Çevrim İçi 🐧'}
                       </span>
+                      {isSpeaking && (
+                        <button
+                          type="button"
+                          onClick={(e) => {
+                            e.stopPropagation();
+                            stopSpeaking();
+                          }}
+                          className="inline-flex items-center gap-1 bg-emerald-100/90 dark:bg-emerald-950/90 text-emerald-700 dark:text-emerald-300 px-2 py-0.5 rounded-full text-[9px] font-black border border-emerald-300/70 cursor-pointer active:scale-95"
+                          title="Sesi Durdur"
+                        >
+                          {renderAudioWaveform()}
+                          <span>Durdur</span>
+                        </button>
+                      )}
                     </div>
                     <p className="text-[10px] text-slate-500 dark:text-slate-400 mt-0.5 max-w-xs">
                       Telefon ve tabletlerdeki tarafsız teknoloji danışmanın hazır! Karşılaştırma yapabilir veya fiyat sorabilirsin.

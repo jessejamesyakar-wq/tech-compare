@@ -628,8 +628,10 @@ export function Navbar() {
             />
             {/* Natural subtle ambient glow on FAB */}
             <div className="absolute top-[57.5%] left-[68.8%] -translate-x-1/2 -translate-y-1/2 flex items-center justify-center pointer-events-none">
-              <span className="absolute w-3.5 h-3.5 md:w-4 md:h-4 rounded-full bg-cyan-400/20 blur-[1px] animate-led-breathe"></span>
-              <span className="absolute w-2 h-2 md:w-2.5 md:h-2.5 rounded-full bg-cyan-400/60 mix-blend-screen shadow-[0_0_5px_rgba(34,211,238,0.7)] animate-led-breathe"></span>
+              <span className="absolute w-4 h-4 rounded-full bg-cyan-400/25 blur-[2px] animate-led-breathe"></span>
+              <span className="relative w-2.5 h-2.5 rounded-full bg-cyan-300 shadow-[0_0_6px_#22d3ee] border border-cyan-100/60 animate-led-breathe flex items-center justify-center">
+                <span className="w-1 h-0.5 rounded-full bg-white/80 blur-[0.2px] mb-0.5"></span>
+              </span>
             </div>
           </div>
         </aside>
