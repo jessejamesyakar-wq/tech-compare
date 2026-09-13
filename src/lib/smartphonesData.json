@@ -817,13 +817,13 @@
     "name": "Apple iPhone 18 Pro Max (256 GB)",
     "brand": "Apple",
     "category": "smartphones",
-    "image": "/images/phones/apple/apple-iphone-18-pro-max-2.png",
+    "image": "/images/phones/apple/apple-iphone-18-pro-max-12.jpg",
     "images": [
+      "/images/phones/apple/apple-iphone-18-pro-max-12.jpg",
       "/images/phones/apple/apple-iphone-18-pro-max-2.png",
       "/images/phones/apple/apple-iphone-18-pro-max-6.jpg",
       "/images/phones/apple/apple-iphone-18-pro-max-9.jpg",
       "/images/phones/apple/apple-iphone-18-pro-max-3.jpg",
-      "/images/phones/apple/apple-iphone-18-pro-max-12.jpg",
       "/images/phones/apple/apple-iphone-18-pro-max-4.jpg",
       "/images/phones/apple/apple-iphone-18-pro-max-5.jpg",
       "/images/phones/apple/apple-iphone-18-pro-max-7.jpg",
@@ -863,6 +863,11 @@
     ],
     "colorOptions": [
       {
+        "name": "Gümüş",
+        "hex": "#D8D9DA",
+        "image": "/images/phones/apple/apple-iphone-18-pro-max-12.jpg"
+      },
+      {
         "name": "Burgonya",
         "hex": "#6B1D2F",
         "image": "/images/phones/apple/apple-iphone-18-pro-max-6.jpg"
@@ -876,11 +881,6 @@
         "name": "Siyah",
         "hex": "#262626",
         "image": "/images/phones/apple/apple-iphone-18-pro-max-3.jpg"
-      },
-      {
-        "name": "Gümüş",
-        "hex": "#D8D9DA",
-        "image": "/images/phones/apple/apple-iphone-18-pro-max-12.jpg"
       }
     ],
     "storeOffers": [
@@ -1060,12 +1060,12 @@
     "name": "Apple iPhone 18 Pro Max (512 GB)",
     "brand": "Apple",
     "category": "smartphones",
-    "image": "/images/phones/apple/apple-iphone-18-pro-max-2.png",
+    "image": "/images/phones/apple/apple-iphone-18-pro-max-3.jpg",
     "images": [
+      "/images/phones/apple/apple-iphone-18-pro-max-3.jpg",
       "/images/phones/apple/apple-iphone-18-pro-max-2.png",
       "/images/phones/apple/apple-iphone-18-pro-max-6.jpg",
       "/images/phones/apple/apple-iphone-18-pro-max-9.jpg",
-      "/images/phones/apple/apple-iphone-18-pro-max-3.jpg",
       "/images/phones/apple/apple-iphone-18-pro-max-12.jpg",
       "/images/phones/apple/apple-iphone-18-pro-max-4.jpg",
       "/images/phones/apple/apple-iphone-18-pro-max-5.jpg",
@@ -1106,6 +1106,11 @@
     ],
     "colorOptions": [
       {
+        "name": "Siyah",
+        "hex": "#262626",
+        "image": "/images/phones/apple/apple-iphone-18-pro-max-3.jpg"
+      },
+      {
         "name": "Burgonya",
         "hex": "#6B1D2F",
         "image": "/images/phones/apple/apple-iphone-18-pro-max-6.jpg"
@@ -1114,11 +1119,6 @@
         "name": "Buzul Mavisi",
         "hex": "#8BA8B7",
         "image": "/images/phones/apple/apple-iphone-18-pro-max-9.jpg"
-      },
-      {
-        "name": "Siyah",
-        "hex": "#262626",
-        "image": "/images/phones/apple/apple-iphone-18-pro-max-3.jpg"
       },
       {
         "name": "Gümüş",
@@ -1303,11 +1303,11 @@
     "name": "Apple iPhone 18 Pro Max (1 TB)",
     "brand": "Apple",
     "category": "smartphones",
-    "image": "/images/phones/apple/apple-iphone-18-pro-max-2.png",
+    "image": "/images/phones/apple/apple-iphone-18-pro-max-9.jpg",
     "images": [
+      "/images/phones/apple/apple-iphone-18-pro-max-9.jpg",
       "/images/phones/apple/apple-iphone-18-pro-max-2.png",
       "/images/phones/apple/apple-iphone-18-pro-max-6.jpg",
-      "/images/phones/apple/apple-iphone-18-pro-max-9.jpg",
       "/images/phones/apple/apple-iphone-18-pro-max-3.jpg",
       "/images/phones/apple/apple-iphone-18-pro-max-12.jpg",
       "/images/phones/apple/apple-iphone-18-pro-max-4.jpg",
@@ -1349,14 +1349,14 @@
     ],
     "colorOptions": [
       {
-        "name": "Burgonya",
-        "hex": "#6B1D2F",
-        "image": "/images/phones/apple/apple-iphone-18-pro-max-6.jpg"
-      },
-      {
         "name": "Buzul Mavisi",
         "hex": "#8BA8B7",
         "image": "/images/phones/apple/apple-iphone-18-pro-max-9.jpg"
+      },
+      {
+        "name": "Burgonya",
+        "hex": "#6B1D2F",
+        "image": "/images/phones/apple/apple-iphone-18-pro-max-6.jpg"
       },
       {
         "name": "Siyah",
@@ -1546,10 +1546,10 @@
     "name": "Apple iPhone 18 Pro Max (2 TB)",
     "brand": "Apple",
     "category": "smartphones",
-    "image": "/images/phones/apple/apple-iphone-18-pro-max-2.png",
+    "image": "/images/phones/apple/apple-iphone-18-pro-max-6.jpg",
     "images": [
-      "/images/phones/apple/apple-iphone-18-pro-max-2.png",
       "/images/phones/apple/apple-iphone-18-pro-max-6.jpg",
+      "/images/phones/apple/apple-iphone-18-pro-max-2.png",
       "/images/phones/apple/apple-iphone-18-pro-max-9.jpg",
       "/images/phones/apple/apple-iphone-18-pro-max-3.jpg",
       "/images/phones/apple/apple-iphone-18-pro-max-12.jpg",
@@ -1789,11 +1789,11 @@
     "name": "Apple iPhone 18 Pro (256 GB)",
     "brand": "Apple",
     "category": "smartphones",
-    "image": "/images/phones/apple/apple-iphone-18-pro-3.png",
+    "image": "/images/phones/apple/apple-iphone-18-pro-7.jpg",
     "images": [
+      "/images/phones/apple/apple-iphone-18-pro-7.jpg",
       "/images/phones/apple/apple-iphone-18-pro-3.png",
       "/images/phones/apple/apple-iphone-18-pro-4.jpg",
-      "/images/phones/apple/apple-iphone-18-pro-7.jpg",
       "/images/phones/apple/apple-iphone-18-pro-10.jpg",
       "/images/phones/apple/apple-iphone-18-pro-13.jpg",
       "/images/phones/apple/apple-iphone-18-pro-2.jpg",
@@ -2021,12 +2021,12 @@
     "name": "Apple iPhone 18 Pro (512 GB)",
     "brand": "Apple",
     "category": "smartphones",
-    "image": "/images/phones/apple/apple-iphone-18-pro-3.png",
+    "image": "/images/phones/apple/apple-iphone-18-pro-10.jpg",
     "images": [
+      "/images/phones/apple/apple-iphone-18-pro-10.jpg",
       "/images/phones/apple/apple-iphone-18-pro-3.png",
       "/images/phones/apple/apple-iphone-18-pro-4.jpg",
       "/images/phones/apple/apple-iphone-18-pro-7.jpg",
-      "/images/phones/apple/apple-iphone-18-pro-10.jpg",
       "/images/phones/apple/apple-iphone-18-pro-13.jpg",
       "/images/phones/apple/apple-iphone-18-pro-2.jpg",
       "/images/phones/apple/apple-iphone-18-pro-5.jpg",
@@ -2069,14 +2069,14 @@
     ],
     "colorOptions": [
       {
-        "name": "Burgonya",
-        "hex": "#6B1D2F",
-        "image": "/images/phones/apple/apple-iphone-18-pro-7.jpg"
-      },
-      {
         "name": "Buzul Mavisi",
         "hex": "#8BA8B7",
         "image": "/images/phones/apple/apple-iphone-18-pro-10.jpg"
+      },
+      {
+        "name": "Burgonya",
+        "hex": "#6B1D2F",
+        "image": "/images/phones/apple/apple-iphone-18-pro-7.jpg"
       },
       {
         "name": "Siyah",
@@ -2253,10 +2253,10 @@
     "name": "Apple iPhone 18 Pro (1 TB)",
     "brand": "Apple",
     "category": "smartphones",
-    "image": "/images/phones/apple/apple-iphone-18-pro-3.png",
+    "image": "/images/phones/apple/apple-iphone-18-pro-4.jpg",
     "images": [
-      "/images/phones/apple/apple-iphone-18-pro-3.png",
       "/images/phones/apple/apple-iphone-18-pro-4.jpg",
+      "/images/phones/apple/apple-iphone-18-pro-3.png",
       "/images/phones/apple/apple-iphone-18-pro-7.jpg",
       "/images/phones/apple/apple-iphone-18-pro-10.jpg",
       "/images/phones/apple/apple-iphone-18-pro-13.jpg",
@@ -2301,6 +2301,11 @@
     ],
     "colorOptions": [
       {
+        "name": "Siyah",
+        "hex": "#262626",
+        "image": "/images/phones/apple/apple-iphone-18-pro-4.jpg"
+      },
+      {
         "name": "Burgonya",
         "hex": "#6B1D2F",
         "image": "/images/phones/apple/apple-iphone-18-pro-7.jpg"
@@ -2309,11 +2314,6 @@
         "name": "Buzul Mavisi",
         "hex": "#8BA8B7",
         "image": "/images/phones/apple/apple-iphone-18-pro-10.jpg"
-      },
-      {
-        "name": "Siyah",
-        "hex": "#262626",
-        "image": "/images/phones/apple/apple-iphone-18-pro-4.jpg"
       },
       {
         "name": "Gümüş",
@@ -2485,13 +2485,13 @@
     "name": "Apple iPhone 18 Pro (2 TB)",
     "brand": "Apple",
     "category": "smartphones",
-    "image": "/images/phones/apple/apple-iphone-18-pro-3.png",
+    "image": "/images/phones/apple/apple-iphone-18-pro-13.jpg",
     "images": [
+      "/images/phones/apple/apple-iphone-18-pro-13.jpg",
       "/images/phones/apple/apple-iphone-18-pro-3.png",
       "/images/phones/apple/apple-iphone-18-pro-4.jpg",
       "/images/phones/apple/apple-iphone-18-pro-7.jpg",
       "/images/phones/apple/apple-iphone-18-pro-10.jpg",
-      "/images/phones/apple/apple-iphone-18-pro-13.jpg",
       "/images/phones/apple/apple-iphone-18-pro-2.jpg",
       "/images/phones/apple/apple-iphone-18-pro-5.jpg",
       "/images/phones/apple/apple-iphone-18-pro-8.jpg",
@@ -2533,6 +2533,11 @@
     ],
     "colorOptions": [
       {
+        "name": "Gümüş",
+        "hex": "#D8D9DA",
+        "image": "/images/phones/apple/apple-iphone-18-pro-13.jpg"
+      },
+      {
         "name": "Burgonya",
         "hex": "#6B1D2F",
         "image": "/images/phones/apple/apple-iphone-18-pro-7.jpg"
@@ -2546,11 +2551,6 @@
         "name": "Siyah",
         "hex": "#262626",
         "image": "/images/phones/apple/apple-iphone-18-pro-4.jpg"
-      },
-      {
-        "name": "Gümüş",
-        "hex": "#D8D9DA",
-        "image": "/images/phones/apple/apple-iphone-18-pro-13.jpg"
       }
     ],
     "storeOffers": [
