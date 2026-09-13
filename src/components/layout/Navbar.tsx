@@ -438,8 +438,10 @@ export function Navbar() {
                       className="relative flex items-center gap-1.5 px-3.5 py-1.5 rounded-full text-[11px] font-black shadow-xs transition-all duration-200 cursor-pointer overflow-hidden border border-[#cbe0f5] dark:border-slate-700 bg-gradient-to-r from-[#eaf2fb] via-[#f1f8fc] to-[#f8fbfe] dark:from-slate-800 dark:to-slate-700 text-slate-800 dark:text-slate-100 hover:border-emerald-500/50 hover:shadow-sm hover:scale-105 active:scale-95 whitespace-nowrap shrink-0"
                       title="RoboPengu & Gemini 3.8"
                     >
-                      <Sparkles className="w-3.5 h-3.5 text-emerald-600 fill-emerald-500 shrink-0" />
-                      <span>RoboPengu & Gemini 3.8</span>
+                      <div className="w-4 h-4 rounded-full overflow-hidden flex items-center justify-center shrink-0">
+                        <img src="/assets/robopengu.png" alt="RoboPengu" className="w-full h-full object-contain" />
+                      </div>
+                      <span className="font-extrabold text-emerald-700 dark:text-emerald-300">RoboPengu AI</span>
                     </button>
                   </div>
                 </div>
@@ -572,11 +574,13 @@ export function Navbar() {
                       e.stopPropagation();
                       openAiAssistant();
                     }}
-                    className="flex items-center gap-1.5 px-3 py-1.5 rounded-full text-[10px] font-black transition-all cursor-pointer shrink-0 ml-1 border border-[#cbe0f5] dark:border-slate-700 bg-gradient-to-r from-[#eaf2fb] via-[#f1f8fc] to-[#f8fbfe] dark:from-slate-800 dark:to-slate-700 text-slate-800 dark:text-slate-100 shadow-2xs active:scale-95 whitespace-nowrap"
-                    title="RoboPengu & Gemini 3.8"
+                    className="flex items-center gap-1.5 px-2.5 py-1.5 rounded-full text-[10px] font-black transition-all cursor-pointer shrink-0 ml-1 border border-[#cbe0f5] dark:border-slate-700 bg-gradient-to-r from-[#eaf2fb] via-[#f1f8fc] to-[#f8fbfe] dark:from-slate-800 dark:to-slate-700 text-slate-800 dark:text-slate-100 shadow-2xs active:scale-95 whitespace-nowrap"
+                    title="RoboPengu AI Danışmanı"
                   >
-                    <Sparkles className="w-3.5 h-3.5 text-emerald-600 fill-emerald-500 shrink-0" />
-                    <span>RoboPengu & Gemini 3.8</span>
+                    <div className="w-4 h-4 rounded-full overflow-hidden flex items-center justify-center shrink-0">
+                      <img src="/assets/robopengu.png" alt="RoboPengu" className="w-full h-full object-contain" />
+                    </div>
+                    <span className="font-extrabold text-emerald-700 dark:text-emerald-300">RoboPengu AI</span>
                   </button>
                 </div>
               </div>
@@ -604,7 +608,9 @@ export function Navbar() {
         <aside
           aria-label="RoboPengu AI Asistanı"
           onClick={() => openAiAssistant()}
-          className="fixed bottom-5 right-4 md:bottom-6 md:right-6 z-40 flex items-center gap-2 md:gap-2.5 cursor-pointer select-none group"
+          className={`fixed ${
+            compareList.length > 0 ? 'bottom-20 sm:bottom-24' : 'bottom-4 sm:bottom-5 md:bottom-6'
+          } right-3 sm:right-4 md:right-6 z-50 flex items-center gap-2 md:gap-2.5 cursor-pointer select-none group pb-[env(safe-area-inset-bottom)]`}
         >
           {/* Tooltip speech pill */}
           <div className="bg-white/95 dark:bg-slate-900/95 text-slate-800 dark:text-slate-100 text-[11px] md:text-xs font-black px-3 py-1.5 md:px-3.5 md:py-2 rounded-2xl shadow-lg border border-[#cbe0f5] dark:border-slate-700 flex items-center gap-1.5 backdrop-blur-md transition-all group-hover:scale-105 group-hover:border-emerald-500/40 active:scale-95">

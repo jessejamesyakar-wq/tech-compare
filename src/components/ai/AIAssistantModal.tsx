@@ -1275,8 +1275,8 @@ export function AIAssistantModal({ isOpen, onClose, initialQuery = '' }: AIAssis
             hasPanel ? 'max-w-full sm:max-w-4xl lg:max-w-5xl xl:max-w-6xl' : 'max-w-full sm:max-w-2xl lg:max-w-3xl'
           }`}
         >
-          {/* 1. MASKOT: Sadece çok geniş masaüstü ekranlarda sol kenarda 3D Penguen */}
-          <div className="hidden 2xl:block absolute -left-[275px] -top-[40px] z-30 pointer-events-none select-none animate-float">
+          {/* 1. MASKOT: Masaüstü ekranlarda sol kenarda 3D Penguen */}
+          <div className={`${hasPanel ? 'hidden 2xl:block -left-[275px]' : 'hidden xl:block -left-[255px]'} absolute -top-[40px] z-30 pointer-events-none select-none animate-float`}>
             <div className="relative">
               <img
                 src="/assets/robopengu.png"
@@ -1427,6 +1427,39 @@ export function AIAssistantModal({ isOpen, onClose, initialQuery = '' }: AIAssis
               >
                 {/* Mesaj Listesi */}
                 <div className="flex-1 overflow-y-auto p-4 sm:p-5 space-y-4">
+                  {/* 🐧 MOBİL VE TABLET ROBOPENGU 3D MASKOT HERO KARTI */}
+                  <div className={`${hasPanel ? '2xl:hidden' : 'xl:hidden'} flex flex-col items-center justify-center p-3 sm:p-4 mb-2 bg-gradient-to-b from-emerald-500/10 via-slate-50/80 to-white dark:from-emerald-950/30 dark:via-slate-900/60 dark:to-slate-900 rounded-3xl border border-emerald-500/20 shadow-xs text-center select-none`}>
+                    <div
+                      onClick={() => handleSend('Bana kendinden ve bu sitede yapabileceklerinden bahset!')}
+                      className="relative w-20 h-24 sm:w-24 sm:h-28 animate-float cursor-pointer group active:scale-95 transition-transform"
+                      title="RoboPengu Güç Reaktörüne Dokun! 🐧"
+                    >
+                      <img
+                        src="/assets/robopengu.png"
+                        alt="RoboPengu 3D"
+                        className="w-full h-full object-contain filter drop-shadow-[0_12px_22px_rgba(0,0,0,0.22)] pointer-events-none"
+                      />
+                      {/* Güç Reaktörü LED Butonu */}
+                      <div className="absolute top-[57.5%] left-[68.8%] -translate-x-1/2 -translate-y-1/2 w-8 h-8 flex items-center justify-center pointer-events-none">
+                        <span className="absolute w-5 h-5 rounded-full bg-cyan-400/20 blur-[2px] animate-led-breathe"></span>
+                        <span className="absolute w-2.5 h-2.5 rounded-full bg-cyan-400/60 mix-blend-screen shadow-[0_0_8px_rgba(34,211,238,0.8)] animate-led-breathe"></span>
+                        <span className="absolute w-1 h-1 rounded-full bg-cyan-200 shadow-[0_0_4px_#22d3ee] animate-led-breathe"></span>
+                      </div>
+                    </div>
+                    <div className="mt-2 flex items-center justify-center gap-1.5">
+                      <span className="inline-flex items-center gap-1 text-[11px] font-black text-slate-800 dark:text-slate-100">
+                        <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
+                        RoboPengu 3D Asistan
+                      </span>
+                      <span className="text-[9px] font-extrabold px-2 py-0.5 rounded-full bg-emerald-100 text-emerald-700 dark:bg-emerald-950 dark:text-emerald-300 border border-emerald-300/40">
+                        Canlı & Çevrim İçi 🐧
+                      </span>
+                    </div>
+                    <p className="text-[10px] text-slate-500 dark:text-slate-400 mt-0.5 max-w-xs">
+                      Telefon ve tabletlerdeki tarafsız teknoloji danışmanın hazır! Karşılaştırma yapabilir veya fiyat sorabilirsin.
+                    </p>
+                  </div>
+
                   {messages.map((m, idx) => {
                     const isAssistant = m.role === 'assistant';
                     const { chatSummary, cleanDisplay } = partitionContent(m.content);
