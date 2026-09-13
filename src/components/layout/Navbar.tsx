@@ -203,7 +203,7 @@ export function Navbar() {
       return (
         <div className="absolute top-full left-0 right-0 mt-2 bg-white/95 dark:bg-slate-900/95 border border-slate-200 dark:border-slate-800 rounded-2xl shadow-2xl p-3 z-50 animate-in fade-in zoom-in-95 backdrop-blur-xl space-y-2.5">
           <div className="flex items-center justify-between text-xs text-slate-500 pb-1.5 border-b border-slate-100 dark:border-slate-800">
-            <span className="font-extrabold uppercase text-[10px] tracking-wider text-slate-400 dark:text-slate-500">✨ RoboPengu & Gemini 3.8'a Danış</span>
+            <span className="font-extrabold uppercase text-[10px] tracking-wider text-slate-400 dark:text-slate-500">✨ RoboPengu &amp; Gemini 3.8&apos;a Danış</span>
             <span className="text-emerald-700 dark:text-emerald-400 font-bold text-[10px]">Akıllı Asistan 🐧</span>
           </div>
           <div className="flex flex-wrap gap-1.5">
@@ -318,14 +318,14 @@ export function Navbar() {
                 className="w-full py-2 px-3 bg-gradient-to-r from-emerald-600/10 via-teal-600/10 to-cyan-600/10 hover:from-emerald-600/20 hover:to-teal-600/20 text-emerald-800 dark:text-emerald-300 text-xs font-extrabold rounded-xl border border-emerald-500/30 flex items-center justify-center gap-2 transition-all cursor-pointer"
               >
                 <Sparkles className="w-3.5 h-3.5 text-emerald-600 fill-emerald-500" />
-                <span>"{trimmed}" için RoboPengu & Gemini 3.8'e Sor 🐧</span>
+                <span>&ldquo;{trimmed}&rdquo; için RoboPengu &amp; Gemini 3.8&apos;e Sor 🐧</span>
               </button>
             </div>
           </div>
         ) : (
           <div className="py-5 text-center space-y-3">
             <p className="text-slate-500 text-xs font-semibold">
-              "{trimmed}" için doğrudan model bulunamadı.
+              &ldquo;{trimmed}&rdquo; için doğrudan model bulunamadı.
             </p>
             <button
               type="button"
@@ -337,7 +337,7 @@ export function Navbar() {
               className="px-4 py-2.5 bg-gradient-to-r from-emerald-600 to-teal-600 hover:from-emerald-500 hover:to-teal-500 text-white text-xs font-black rounded-xl shadow-md transition-all inline-flex items-center gap-2 cursor-pointer"
             >
               <Sparkles className="w-4 h-4 text-emerald-200 fill-emerald-200" />
-              <span>RoboPengu & Gemini 3.8'den Tavsiye Al 🐧</span>
+              <span>RoboPengu &amp; Gemini 3.8&apos;den Tavsiye Al 🐧</span>
             </button>
           </div>
         )}
@@ -609,7 +609,7 @@ export function Navbar() {
           {/* Tooltip speech pill */}
           <div className="bg-white/95 dark:bg-slate-900/95 text-slate-800 dark:text-slate-100 text-[11px] md:text-xs font-black px-3 py-1.5 md:px-3.5 md:py-2 rounded-2xl shadow-lg border border-[#cbe0f5] dark:border-slate-700 flex items-center gap-1.5 backdrop-blur-md transition-all group-hover:scale-105 group-hover:border-emerald-500/40 active:scale-95">
             <span className="inline-block w-2 h-2 rounded-full bg-emerald-500 animate-ping"></span>
-            <span>RoboPengu'ya Sor!</span>
+            <span>RoboPengu&apos;ya Sor!</span>
             <span className="text-xs md:text-sm">🐧</span>
           </div>
 

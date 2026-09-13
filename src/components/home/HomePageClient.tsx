@@ -433,7 +433,7 @@ export function HomePageClient({
             const inchVal = nameInchMatch ? parseFloat(nameInchMatch[1]) : tv.specs?.screenSizeInches || 55;
             const preciseInch = `${inchVal}"`;
 
-            let techName = tv.specs?.displayTech || 'LED';
+            const techName = tv.specs?.displayTech || 'LED';
 
             return (
               <div

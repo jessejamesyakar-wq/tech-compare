@@ -996,7 +996,7 @@ export async function POST(req: NextRequest) {
       const modelUsed = geminiRes.modelUsed || "gemini-3.8-flash";
 
       let panelToSend: SidePanelData | null = null;
-      let followUpContents = [...geminiContents];
+      const followUpContents = [...geminiContents];
 
       if (functionCallPart?.functionCall) {
         const fc = functionCallPart.functionCall;

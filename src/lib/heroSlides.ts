@@ -35,7 +35,7 @@ export function getDynamicHeroSlides(products: Product[] = []): HeroSlideItem[] 
     (p) => p.basePrice > 0 && p.image && !p.image.includes('placeholder')
   );
 
-  let selectedProducts: Product[] = [];
+  const selectedProducts: Product[] = [];
 
   if (validProducts.length > 0) {
     // Pick 1-2 top rated/premium flagship models from each category

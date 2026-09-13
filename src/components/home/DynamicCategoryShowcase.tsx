@@ -169,7 +169,12 @@ export function DynamicCategoryShowcase({ initialData }: { initialData?: Dynamic
   const getSpecSummary = (p: Product) => {
     const specs = (p.specs || {}) as Record<string, any>;
     if (p.category === 'smartphones') {
-      const screen = specs.screen?.size ? `${specs.screen.size}"` : '';
+      const rawScreen = specs.screen?.size || '';
+      const screen = rawScreen
+        ? (String(rawScreen).includes('"') || String(rawScreen).toLowerCase().includes('inç') || String(rawScreen).toLowerCase().includes('inch')
+            ? String(rawScreen)
+            : `${rawScreen}"`)
+        : '';
       const chip = specs.processor?.chip ? String(specs.processor.chip).split(' ')[0] : '';
       const cam = specs.camera?.mainMp ? `${String(specs.camera.mainMp).split(' ')[0]} MP` : '';
       return [screen, chip, cam].filter(Boolean).join(' • ') || (p.highlights?.[0] || '');

@@ -349,18 +349,6 @@ export function AIAssistantModal({ isOpen, onClose, initialQuery = '' }: AIAssis
     } catch {}
   };
 
-  useEffect(() => {
-    if (isOpen) {
-      setTimeout(() => inputRef.current?.focus(), 150);
-      if (initialQuery.trim() && messages.length <= 1) {
-        handleSend(initialQuery.trim());
-      }
-    }
-  }, [isOpen, initialQuery]);
-
-  useEffect(() => {
-    messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' });
-  }, [messages, loading]);
 
   const handleSend = async (queryText: string) => {
     const trimmed = queryText.trim();
@@ -538,6 +526,19 @@ export function AIAssistantModal({ isOpen, onClose, initialQuery = '' }: AIAssis
       }
     }
   };
+
+  useEffect(() => {
+    if (isOpen) {
+      setTimeout(() => inputRef.current?.focus(), 150);
+      if (initialQuery.trim() && messages.length <= 1) {
+        handleSend(initialQuery.trim());
+      }
+    }
+  }, [isOpen, initialQuery]);
+
+  useEffect(() => {
+    messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' });
+  }, [messages, loading]);
 
   // 4 Hızlı Aksiyon Butonu
   const quickActions = [

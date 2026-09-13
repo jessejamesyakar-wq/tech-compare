@@ -120,7 +120,12 @@ export function CompactProductCard({
   let subInfo = '';
 
   if (product.category === 'smartphones') {
-    const screen = specs.screen?.size ? `${specs.screen.size}"` : (specs.screenSize ? `${specs.screenSize}"` : '');
+    const rawScreen = specs.screen?.size || specs.screenSize || '';
+    const screen = rawScreen
+      ? (String(rawScreen).includes('"') || String(rawScreen).toLowerCase().includes('inç') || String(rawScreen).toLowerCase().includes('inch')
+          ? String(rawScreen)
+          : `${rawScreen}"`)
+      : '';
     const chipRaw =
       typeof specs.processor?.chip === 'string'
         ? specs.processor.chip

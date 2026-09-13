@@ -153,8 +153,8 @@ async function scrapeStore(
     const $ = cheerio.load(html);
 
     let extractedPrice: number | null = null;
-    let extractedTitle = product.name;
-    let inStock = true;
+    const extractedTitle = product.name;
+    const inStock = true;
 
     // Store specific HTML parsing
     if (store.key === 'hepsiburada') {
@@ -285,7 +285,7 @@ export async function execute2026PriceScrape(maxProductsLimit?: number): Promise
 
   const productResults: ProductScrapeResult[] = [];
   let successfullyUpdatedCount = 0;
-  let partialCount = 0;
+  const partialCount = 0;
   let failedCount = 0;
 
   // 3. Iterate through 2026 products
