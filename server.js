@@ -236,6 +236,10 @@ app.post("/api/chat", async (req, res) => {
         const model = genAI.getGenerativeModel({
           model: modelName,
           systemInstruction: SYSTEM_INSTRUCTION,
+          generationConfig: {
+            temperature: 0.6,
+            maxOutputTokens: 1000,
+          },
         });
         result = await model.generateContentStream(userPrompt);
         if (result && result.stream) break;

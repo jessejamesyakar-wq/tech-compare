@@ -139,6 +139,10 @@ export async function POST(req: Request) {
         const model = genAI.getGenerativeModel({
           model: modelName,
           systemInstruction: SYSTEM_INSTRUCTION,
+          generationConfig: {
+            temperature: 0.6,
+            maxOutputTokens: 1000,
+          },
         });
         result = await model.generateContentStream(trimmedPrompt);
         if (result && result.stream) break;

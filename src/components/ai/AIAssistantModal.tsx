@@ -601,6 +601,7 @@ export function AIAssistantModal({ isOpen, onClose, initialQuery = '' }: AIAssis
   const inputRef = useRef<HTMLInputElement>(null);
   const activeRequestIdRef = useRef<string | null>(null);
   const abortControllerRef = useRef<AbortController | null>(null);
+  const hasSpokenRef = useRef<boolean>(false);
 
   const getProductUrl = (rec: { slug?: string; productId?: string; category?: string; name?: string }) => {
     const slug = rec.slug || rec.productId;
@@ -776,6 +777,7 @@ export function AIAssistantModal({ isOpen, onClose, initialQuery = '' }: AIAssis
   const handleSend = async (queryText: string) => {
     stopSpeaking();
     stopListening();
+    hasSpokenRef.current = false;
     const trimmed = queryText.trim();
     if (!trimmed || loading || trimmed.length > 500) return;
 
@@ -866,6 +868,7 @@ export function AIAssistantModal({ isOpen, onClose, initialQuery = '' }: AIAssis
       const reader = res.body.getReader();
       const decoder = new TextDecoder('utf-8');
       let streamBuffer = '';
+      let accumulatedBotText = '';
 
       while (true) {
         const { done, value } = await reader.read();
@@ -935,16 +938,38 @@ export function AIAssistantModal({ isOpen, onClose, initialQuery = '' }: AIAssis
                 token = dataStr;
               }
               if (typeof token === 'string') {
+                accumulatedBotText += token;
                 setMessages((prev) =>
                   prev.map((m) =>
                     m.id === botMsgId ? { ...m, content: m.content + token } : m
                   )
                 );
+
+                // Erken Sesli Yanıt (Early Voice Synthesis Trigger):
+                // Tüm 500 kelimelik teknik analizin bitmesini beklemeden,
+                // [SUMMARY_CHAT] bloğu tamamlandığı anda konuşmaya anında başla!
+                if (!hasSpokenRef.current && voiceEnabled) {
+                  if (accumulatedBotText.includes('[/SUMMARY_CHAT]')) {
+                    const parts = accumulatedBotText.split('[SUMMARY_CHAT]');
+                    const summary = (parts[1] || '').split('[/SUMMARY_CHAT]')[0].trim();
+                    if (summary) {
+                      hasSpokenRef.current = true;
+                      speakSummary(summary);
+                    }
+                  } else if (accumulatedBotText.includes('[DEEP_ANALYSIS]') || accumulatedBotText.includes('### 1.')) {
+                    const { chatSummary } = partitionContent(accumulatedBotText);
+                    if (chatSummary) {
+                      hasSpokenRef.current = true;
+                      speakSummary(chatSummary);
+                    }
+                  }
+                }
               }
             }
           }
           // 4. Standart Düz Metin Akışı (Fallback)
           else if (!evt.includes('event: ') && !evt.includes('data: ')) {
+            accumulatedBotText += evt;
             setMessages((prev) =>
               prev.map((m) =>
                 m.id === botMsgId ? { ...m, content: m.content + evt } : m
@@ -971,11 +996,13 @@ export function AIAssistantModal({ isOpen, onClose, initialQuery = '' }: AIAssis
             token = dataStr;
           }
           if (typeof token === 'string') {
+            accumulatedBotText += token;
             setMessages((prev) =>
               prev.map((m) => (m.id === botMsgId ? { ...m, content: m.content + token } : m))
             );
           }
         } else if (!streamBuffer.includes('data: ') && !streamBuffer.includes('event: ')) {
+          accumulatedBotText += streamBuffer;
           setMessages((prev) =>
             prev.map((m) => (m.id === botMsgId ? { ...m, content: m.content + streamBuffer } : m))
           );
@@ -1018,7 +1045,8 @@ export function AIAssistantModal({ isOpen, onClose, initialQuery = '' }: AIAssis
           })
         );
         setLoading(false);
-        if (textToSpeak && !textToSpeak.startsWith('⚠️')) {
+        if (!hasSpokenRef.current && textToSpeak && !textToSpeak.startsWith('⚠️') && voiceEnabled) {
+          hasSpokenRef.current = true;
           speakSummary(textToSpeak);
         }
       }
