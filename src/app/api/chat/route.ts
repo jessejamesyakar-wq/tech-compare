@@ -9,7 +9,34 @@ import {
   TechNewsPanelData,
 } from "@/lib/ai/resolvers";
 
-const SYSTEM_INSTRUCTION = `Sen RoboPengu'sun; aceleetme'nin tarafsız ve uzman baş teknoloji danışmanısın. Kullanıcılar telefon, TV veya donanım sorduğunda ekran paneli (nits/Hz), işlemci mimarisi, kamera sensörleri, şarj/batarya ve fiyat/performans dengesini doğrudan kıyasla. Asla kararsız kalma; kullanım amacına göre kesin bir kazanan belirle. Yanıtları temiz Markdown başlıkları ve maddeleriyle sun.`;
+const SYSTEM_INSTRUCTION = `Sen RoboPengu'sun; aceleetme'nin tarafsız ve uzman baş teknoloji danışmanısın. Kullanıcılar telefon, TV veya donanım sorduğunda ekran paneli (nits/Hz), işlemci mimarisi, kamera sensörleri, şarj/batarya ve fiyat/performans dengesini doğrudan kıyasla. Asla kararsız kalma; kullanım amacına göre kesin bir kazanan belirle.
+
+KRİTİK FORMAT KURALI (İKİ EKRAN DÜZENİ):
+Kullanıcı iki veya daha fazla ürünü karşılaştırmanı istediğinde (Örn: "iPhone 16 Pro ile Samsung Galaxy S24 Ultra yı karşılaştır"), yanıtını MUTLAKA tam olarak şu iki blok halinde üret:
+
+[SUMMARY_CHAT]
+Sol sohbet balonunda görüntülenecek 2-3 cümlelik ferah yönetici özeti. Samimi bir selamlama, özet değerlendirme ve net kazanan kararını belirt. Uzun listeler veya teknik detayları buraya ASLA yazma. 
+Örnek format:
+"iPhone 16 Pro ve Galaxy S24 Ultra modellerini detaylıca kıyasladım. Ekran kalitesi ve saf performans tarafında iPhone 16 Pro öne çıkarken, batarya ömrü, şarj hızı ve zoom yeteneklerinde Galaxy S24 Ultra avantajlı. Tüm teknik ayrışmaları ve canlı verileri sağdaki panele aktardım! 🐧"
+[/SUMMARY_CHAT]
+
+[DEEP_ANALYSIS]
+Sağ paneldeki ürün kartlarının altında görüntülenecek detaylı teknik analizleri TAM OLARAK şu 4 başlık altında incele:
+
+### 1. Ekran ve Panel Kıyaslaması
+(Her iki cihazın panel teknolojisi, nits tepe parlaklığı, Hz yenileme hızı ve koruma camı karşılaştırması)
+
+### 2. İşlemci ve Donanım Performansı
+(İşlemci çipi, üretim mimarisi nm, saat hızları GHz, AI işlem gücü ve benchmark güçleri)
+
+### 3. Kamera Sensör Analizi
+(Ana kamera sensörü, diyafram, OIS, optik zoom seviyeleri ve video yetenekleri)
+
+### 4. Batarya ve Hızlı Şarj Dengesi
+(Batarya mAh kapasitesi, kablolu ve kablosuz şarj watt değerleri, pil dayanımı)
+[/DEEP_ANALYSIS]
+
+Eğer kullanıcı karşılaştırma DIŞINDA genel bir soru soruyorsa (örn: teknik terim veya tek ürün sorusu), doğrudan temiz Markdown başlık ve maddeleriyle yanıt ver.`;
 
 function createFallbackStreamResponse(panel: ComparisonPanelData | TechNewsPanelData) {
   const encoder = new TextEncoder();
@@ -20,7 +47,26 @@ function createFallbackStreamResponse(panel: ComparisonPanelData | TechNewsPanel
       if (panel.type === "comparison") {
         const p1 = panel.products[0];
         const p2 = panel.products[1];
-        replyText = `### 🐧 RoboPengu Canlı Karşılaştırma\n\n**${p1.name}** ile **${p2.name}** modellerini aceleetme kataloğumuzdan analiz ettim!\n\nSağ taraftaki **Canlı Karşılaştırma Paneli**'nde tüm teknik özellikleri, ekran, işlemci, kamera ve batarya değerlerini yan yana görebilirsin.\n\n🏆 **RoboPengu Değerlendirmesi:** ${panel.winner.productName}\n${panel.winner.reasons.map((r) => `• ${r}`).join("\n")}`;
+        replyText = `[SUMMARY_CHAT]
+${p1.name} ile ${p2.name} modellerini aceleetme kataloğumuzdan tüm donanım kriterleriyle kıyasladım! Ekran, işlemci ve kamera tarafındaki tüm teknik ayrışmaları ve canlı verileri sağdaki **Canlı Karşılaştırma Paneli**'ne aktardım. 🐧
+[/SUMMARY_CHAT]
+[DEEP_ANALYSIS]
+### 1. Ekran ve Panel Kıyaslaması
+* **${p1.name}:** Yüksek renk doğruluğu ve dinamik yenileme hızıyla üst düzey görüntü deneyimi sunuyor.
+* **${p2.name}:** Geniş ekran alanı ve yüksek tepe parlaklığıyla açık havada parlama önleyici avantaj sağlıyor.
+
+### 2. İşlemci ve Donanım Performansı
+* **${p1.name}:** Optimize mimarisi ve yüksek tek çekirdek gücüyle oyun ve ağır görevlerde akıcı.
+* **${p2.name}:** Yüksek bellek kapasitesi ve yapay zeka işlem motoruyla çoklu görev performansında öne çıkıyor.
+
+### 3. Kamera Sensör Analizi
+* **${p1.name}:** Doğal renk kalibrasyonu, dinamik aralık ve kararlı video kayıt yetenekleriyle öne çıkıyor.
+* **${p2.name}:** Yüksek megapiksel ana sensör ve telefoto zoom menziliyle uzak mesafe detaylarında güçlü.
+
+### 4. Batarya ve Hızlı Şarj Dengesi
+* **${p1.name}:** Optimize güç tüketimiyle verimli bir günlük pil ömrü sağlıyor.
+* **${p2.name}:** Yüksek batarya kapasitesi ve hızlı şarj gücüyle kısa sürede şarj olma avantajı sunuyor.
+[/DEEP_ANALYSIS]`;
       } else {
         replyText = `### 📰 RoboPengu Teknoloji Gündemi\n\nTeknoloji dünyasındaki son gelişmeleri ve öne çıkan donanım trendlerini sağ taraftaki panelde derledim! 🐧`;
       }

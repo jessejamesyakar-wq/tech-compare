@@ -13,7 +13,13 @@ import {
   Swords,
   TrendingDown,
   Trash2,
-  X
+  X,
+  Cpu,
+  Camera,
+  BatteryCharging,
+  Smartphone,
+  ChevronDown,
+  Layers,
 } from 'lucide-react';
 import { ProductImage } from '@/components/ui/ProductImage';
 
@@ -40,6 +46,8 @@ export interface ComparisonMatrixRow {
 export interface ComparisonPanelData {
   type: 'comparison';
   scenario: string;
+  category?: string;
+  deepAnalysis?: string;
   products: {
     id: string;
     slug: string;
@@ -94,10 +102,95 @@ interface AIAssistantModalProps {
   initialQuery?: string;
 }
 
+// ---- İçerik Ayrıştırıcı (Sol Sohbet Özeti & Sağ Derinlemesine Analiz) ----
+
+export function partitionContent(content: string) {
+  if (!content) return { chatSummary: '', deepAnalysis: '' };
+
+  if (content.includes('[SUMMARY_CHAT]') || content.includes('[DEEP_ANALYSIS]')) {
+    let chatSummary = '';
+    let deepAnalysis = '';
+
+    if (content.includes('[SUMMARY_CHAT]')) {
+      const parts = content.split('[SUMMARY_CHAT]');
+      const afterStart = parts[1] || '';
+      if (afterStart.includes('[/SUMMARY_CHAT]')) {
+        chatSummary = afterStart.split('[/SUMMARY_CHAT]')[0].trim();
+      } else if (afterStart.includes('[DEEP_ANALYSIS]')) {
+        chatSummary = afterStart.split('[DEEP_ANALYSIS]')[0].trim();
+      } else {
+        chatSummary = afterStart.trim();
+      }
+    }
+
+    if (content.includes('[DEEP_ANALYSIS]')) {
+      const parts = content.split('[DEEP_ANALYSIS]');
+      const afterStart = parts[1] || '';
+      if (afterStart.includes('[/DEEP_ANALYSIS]')) {
+        deepAnalysis = afterStart.split('[/DEEP_ANALYSIS]')[0].trim();
+      } else {
+        deepAnalysis = afterStart.trim();
+      }
+    }
+
+    chatSummary = chatSummary
+      .replace(/\[\/?SUMMARY_CHAT\]/g, '')
+      .replace(/\[\/?DEEP_ANALYSIS\]/g, '')
+      .trim();
+    deepAnalysis = deepAnalysis
+      .replace(/\[\/?SUMMARY_CHAT\]/g, '')
+      .replace(/\[\/?DEEP_ANALYSIS\]/g, '')
+      .trim();
+
+    return { chatSummary, deepAnalysis };
+  }
+
+  // Heuristik: "### 1." veya "1. Ekran" ile başlayan teknik kısımları ayır
+  const deepSplitMatch = content.match(/(?:^|\n)(?:###?\s*(?:1[\.\)]\s*)?Ekran|###?\s*1[\.\)]|##\s*1[\.\)])/i);
+  if (deepSplitMatch && deepSplitMatch.index !== undefined) {
+    return {
+      chatSummary: content.slice(0, deepSplitMatch.index).trim(),
+      deepAnalysis: content.slice(deepSplitMatch.index).trim(),
+    };
+  }
+
+  return { chatSummary: content, deepAnalysis: '' };
+}
+
+export function parseAnalysisSections(deepText: string): Array<{ title: string; body: string }> {
+  if (!deepText) return [];
+  const regex = /(?:^|\n)###?\s*([1-4][\.\)]\s*[^\n]+)/g;
+  const sections: Array<{ title: string; body: string }> = [];
+  let match: RegExpExecArray | null;
+  const indices: Array<{ title: string; index: number }> = [];
+
+  while ((match = regex.exec(deepText)) !== null) {
+    indices.push({
+      title: match[1].trim(),
+      index: match.index + match[0].indexOf('###'),
+    });
+  }
+
+  for (let i = 0; i < indices.length; i++) {
+    const title = indices[i].title;
+    const start = indices[i].index;
+    const end = i + 1 < indices.length ? indices[i + 1].index : deepText.length;
+    const block = deepText.slice(start, end).trim();
+    const body = block.replace(/^###?\s*[1-4][\.\)]\s*[^\n]+\n?/, '').trim();
+    sections.push({ title, body });
+  }
+
+  return sections;
+}
+
 // ---- Basit & Hızlı Markdown Ayrıştırıcı Bileşeni --------------------
 
 function MarkdownRenderer({ content, isStreaming }: { content: string; isStreaming?: boolean }) {
-  if (!content) {
+  const cleanContent = (content || '')
+    .replace(/\[\/?(SUMMARY_CHAT|DEEP_ANALYSIS)\]/g, '')
+    .trim();
+
+  if (!cleanContent) {
     return isStreaming ? (
       <div className="flex items-center gap-2 text-xs text-slate-500 dark:text-slate-400 py-1 animate-pulse">
         <span className="inline-block w-2 h-2 rounded-full bg-emerald-500 animate-ping shrink-0" />
@@ -107,7 +200,7 @@ function MarkdownRenderer({ content, isStreaming }: { content: string; isStreami
   }
 
   // Check if content contains a markdown table
-  const lines = content.split('\n');
+  const lines = cleanContent.split('\n');
   const elements: React.ReactNode[] = [];
   let i = 0;
 
@@ -282,6 +375,40 @@ export function AIAssistantModal({ isOpen, onClose, initialQuery = '' }: AIAssis
   const [loading, setLoading] = useState(false);
   const [activePanel, setActivePanel] = useState<ActiveSidePanel | null>(null);
   const [mobileTab, setMobileTab] = useState<'chat' | 'panel'>('chat');
+  const [openSections, setOpenSections] = useState<Record<number, boolean>>({
+    0: true,
+    1: true,
+    2: true,
+    3: true,
+  });
+
+  const toggleSection = (idx: number) => {
+    setOpenSections((prev) => ({
+      ...prev,
+      [idx]: prev[idx] !== undefined ? !prev[idx] : false,
+    }));
+  };
+
+  const getSectionBadgeStyle = (title: string) => {
+    if (title.includes('Ekran') || title.includes('Panel')) return 'bg-blue-100 dark:bg-blue-950 text-blue-600 dark:text-blue-400';
+    if (title.includes('İşlemci') || title.includes('Donanım') || title.includes('Performans')) return 'bg-amber-100 dark:bg-amber-950 text-amber-600 dark:text-amber-400';
+    if (title.includes('Kamera') || title.includes('Sensör')) return 'bg-purple-100 dark:bg-purple-950 text-purple-600 dark:text-purple-400';
+    if (title.includes('Batarya') || title.includes('Şarj') || title.includes('Pil')) return 'bg-emerald-100 dark:bg-emerald-950 text-emerald-600 dark:text-emerald-400';
+    return 'bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300';
+  };
+
+  const getSectionIcon = (title: string) => {
+    if (title.includes('Ekran') || title.includes('Panel')) return <Smartphone className="w-3.5 h-3.5" />;
+    if (title.includes('İşlemci') || title.includes('Donanım') || title.includes('Performans')) return <Cpu className="w-3.5 h-3.5" />;
+    if (title.includes('Kamera') || title.includes('Sensör')) return <Camera className="w-3.5 h-3.5" />;
+    if (title.includes('Batarya') || title.includes('Şarj') || title.includes('Pil')) return <BatteryCharging className="w-3.5 h-3.5" />;
+    return <Sparkles className="w-3.5 h-3.5" />;
+  };
+
+  const latestAssistantMsg = [...messages].reverse().find((m) => m.role === 'assistant');
+  const { deepAnalysis: currentDeepAnalysis } = partitionContent(latestAssistantMsg?.content || '');
+  const activeDeepAnalysis = currentDeepAnalysis || (activePanel?.type === 'comparison' ? activePanel.deepAnalysis : '');
+  const analysisSections = parseAnalysisSections(activeDeepAnalysis || '');
 
   const messagesEndRef = useRef<HTMLDivElement>(null);
   const inputRef = useRef<HTMLInputElement>(null);
@@ -812,7 +939,18 @@ export function AIAssistantModal({ isOpen, onClose, initialQuery = '' }: AIAssis
               >
                 {/* Mesaj Listesi */}
                 <div className="flex-1 overflow-y-auto p-4 sm:p-5 space-y-4">
-                  {messages.map((m) => (
+                  {messages.map((m) => {
+                    const isAssistant = m.role === 'assistant';
+                    const chatSummary = isAssistant ? partitionContent(m.content).chatSummary : m.content;
+                    const isComparisonMsg =
+                      isAssistant &&
+                      ((hasPanel && activePanel.type === 'comparison') ||
+                        m.content.includes('[SUMMARY_CHAT]') ||
+                        m.content.includes('[DEEP_ANALYSIS]') ||
+                        /(?:^|\n)(?:###?\s*(?:1[\.\)]\s*)?Ekran|###?\s*1[\.\)]|##\s*1[\.\)])/i.test(m.content));
+                    const displayContent = isComparisonMsg && chatSummary ? chatSummary : m.content;
+
+                    return (
                     <div key={m.id} className="space-y-3">
                       {m.role === 'assistant' ? (
                         <div className="flex items-start gap-2.5 sm:gap-3">
@@ -821,8 +959,20 @@ export function AIAssistantModal({ isOpen, onClose, initialQuery = '' }: AIAssis
                           </div>
                           <div className="space-y-2.5 max-w-[90%] flex-1">
                             <div className="bg-white dark:bg-slate-900 border border-slate-100 dark:border-slate-800 p-3.5 rounded-2xl rounded-tl-none shadow-xs text-slate-700 dark:text-slate-200">
-                              <MarkdownRenderer content={m.content} isStreaming={m.isStreaming} />
+                              <MarkdownRenderer content={displayContent} isStreaming={m.isStreaming} />
                             </div>
+
+                            {/* Mobilde Sağ Paneldeki Detaylı Analizi Görme Butonu */}
+                            {isComparisonMsg && hasPanel && (
+                              <button
+                                type="button"
+                                onClick={() => setMobileTab('panel')}
+                                className="lg:hidden inline-flex items-center gap-1.5 text-[11px] font-semibold text-emerald-600 dark:text-emerald-400 bg-emerald-50 dark:bg-emerald-950/40 border border-emerald-200/80 dark:border-emerald-800/80 px-2.5 py-1 rounded-full cursor-pointer hover:bg-emerald-100 transition shadow-2xs"
+                              >
+                                <Layers className="w-3 h-3" />
+                                <span>Detaylı Teknik Analizi Gör ➔</span>
+                              </button>
+                            )}
 
                             {/* Bot Ürün Öneri Kartları */}
                             {m.recommendations && m.recommendations.length > 0 && (
@@ -889,7 +1039,8 @@ export function AIAssistantModal({ isOpen, onClose, initialQuery = '' }: AIAssis
                         </div>
                       )}
                     </div>
-                  ))}
+                  );
+                })}
                   <div ref={messagesEndRef} />
                 </div>
 
@@ -1085,78 +1236,172 @@ export function AIAssistantModal({ isOpen, onClose, initialQuery = '' }: AIAssis
                           })}
                         </div>
 
-                        {/* 2. Satır Satır Özellik Matrisi */}
-                        <div className="rounded-2xl border border-slate-200 dark:border-slate-800 overflow-hidden bg-white dark:bg-slate-900 shadow-xs">
-                          <div className="px-3 py-2 bg-slate-100/70 dark:bg-slate-800/80 border-b border-slate-200 dark:border-slate-800 flex items-center justify-between">
-                            <span className="text-[10px] font-bold text-slate-600 dark:text-slate-300 uppercase tracking-wider">
-                              Teknik Özellik Kıyaslaması
-                            </span>
-                            <span className="text-[9px] text-emerald-600 dark:text-emerald-400 font-semibold">
-                              ● Farklı olanlar vurgulanmıştır
-                            </span>
-                          </div>
-
-                          <div className="divide-y divide-slate-100 dark:divide-slate-800 text-[11px]">
-                            {activePanel.matrix.map((row, idx) => (
-                              <div
-                                key={idx}
-                                className={`p-2.5 transition-colors ${
-                                  row.isDifferent
-                                    ? 'bg-emerald-50/30 dark:bg-emerald-950/10'
-                                    : 'hover:bg-slate-50/50 dark:hover:bg-slate-800/40'
-                                }`}
-                              >
-                                <div className="text-[10px] font-semibold text-slate-400 mb-1">
-                                  {row.label}
-                                </div>
-                                <div className={`grid gap-3 ${row.values.length === 2 ? 'grid-cols-2' : 'grid-cols-2 sm:grid-cols-3'}`}>
-                                  {row.values.map((val, valIdx) => (
-                                    <div
-                                      key={valIdx}
-                                      className={`text-xs ${
-                                        row.highlightIdx === valIdx
-                                          ? 'font-bold text-emerald-600 dark:text-emerald-400'
-                                          : row.isDifferent
-                                          ? 'font-semibold text-slate-800 dark:text-slate-200'
-                                          : 'text-slate-600 dark:text-slate-400'
-                                      }`}
-                                    >
-                                      {val}
-                                    </div>
-                                  ))}
-                                </div>
+                        {/* 2. Karşılaştırma Detayları & Canlı Analiz Akışı (#comparison-details-container) */}
+                        <div id="comparison-details-container" className="space-y-3 pt-1">
+                          {/* Yükleniyor / Canlı Analiz Hazırlanıyor Göstergesi */}
+                          {analysisSections.length === 0 && !activeDeepAnalysis && latestAssistantMsg?.isStreaming && (
+                            <div className="p-4 rounded-2xl bg-emerald-50/50 dark:bg-emerald-950/20 border border-emerald-200/70 dark:border-emerald-800/70 flex items-center gap-3 animate-pulse">
+                              <div className="w-7 h-7 rounded-full bg-emerald-500/20 flex items-center justify-center text-emerald-600 dark:text-emerald-400 shrink-0">
+                                <Sparkles className="w-4 h-4 animate-spin" />
                               </div>
-                            ))}
-                          </div>
-                        </div>
-
-                        {/* 3. Kazanan Kartı ve 3 Maddelik Sayısal Gerekçe */}
-                        {activePanel.winner && (
-                          <div className="p-4 rounded-2xl bg-gradient-to-br from-emerald-500/10 via-teal-500/5 to-transparent border border-emerald-300 dark:border-emerald-700/60 shadow-xs space-y-2.5">
-                            <div className="flex items-center gap-2">
-                              <span className="p-1.5 rounded-xl bg-amber-500 text-white shadow-xs">
-                                <Trophy className="w-4 h-4" />
-                              </span>
                               <div>
-                                <span className="text-[9px] font-extrabold uppercase tracking-wider text-emerald-700 dark:text-emerald-400">
-                                  RoboPengu Değerlendirmesi
-                                </span>
-                                <h4 className="text-xs font-extrabold text-slate-900 dark:text-white">
-                                  🏆 Kazanan: {activePanel.winner.productName}
-                                </h4>
+                                <h6 className="text-xs font-bold text-emerald-900 dark:text-emerald-200">
+                                  Teknik Analiz Canlı Olarak Hazırlanıyor...
+                                </h6>
+                                <p className="text-[11px] text-emerald-700/80 dark:text-emerald-400/80">
+                                  RoboPengu ekran, işlemci, kamera ve batarya kıyaslamalarını panele aktarıyor.
+                                </p>
                               </div>
                             </div>
+                          )}
 
-                            <div className="space-y-1.5 pt-1">
-                              {activePanel.winner.reasons.map((reason, rIdx) => (
-                                <div key={rIdx} className="flex items-start gap-2 text-xs text-slate-700 dark:text-slate-200">
-                                  <CheckCircle2 className="w-3.5 h-3.5 text-emerald-600 dark:text-emerald-400 shrink-0 mt-0.5" />
-                                  <span className="font-medium">{reason}</span>
+                          {/* 1-4. Canlı Akordeon Analiz Kartları */}
+                          {analysisSections.length > 0 && (
+                            <div className="space-y-2.5">
+                              {analysisSections.map((section, sIdx) => {
+                                const isOpen = openSections[sIdx] ?? true;
+                                return (
+                                  <div
+                                    key={sIdx}
+                                    className="bg-white dark:bg-slate-900 border border-slate-200/90 dark:border-slate-800 rounded-2xl overflow-hidden shadow-xs transition-all duration-200 hover:border-slate-300 dark:hover:border-slate-700"
+                                  >
+                                    <button
+                                      type="button"
+                                      onClick={() => toggleSection(sIdx)}
+                                      className="w-full px-3.5 py-3 flex items-center justify-between gap-3 text-left cursor-pointer hover:bg-slate-50/70 dark:hover:bg-slate-800/40 transition-colors"
+                                    >
+                                      <div className="flex items-center gap-2.5 min-w-0">
+                                        <span
+                                          className={`p-1.5 rounded-xl text-xs flex items-center justify-center shrink-0 ${getSectionBadgeStyle(
+                                            section.title
+                                          )}`}
+                                        >
+                                          {getSectionIcon(section.title)}
+                                        </span>
+                                        <h5 className="text-xs sm:text-[13px] font-bold text-slate-800 dark:text-slate-100 truncate">
+                                          {section.title}
+                                        </h5>
+                                      </div>
+                                      <div className="flex items-center gap-2 shrink-0">
+                                        <span className="text-[10px] font-medium text-slate-400 dark:text-slate-500 hidden sm:inline">
+                                          {isOpen ? 'Gizle' : 'Genişlet'}
+                                        </span>
+                                        <ChevronDown
+                                          className={`w-4 h-4 text-slate-400 transition-transform duration-200 ${
+                                            isOpen ? 'rotate-180 text-slate-600 dark:text-slate-200' : ''
+                                          }`}
+                                        />
+                                      </div>
+                                    </button>
+
+                                    {isOpen && (
+                                      <div className="px-4 pb-3.5 pt-1 text-slate-700 dark:text-slate-200 border-t border-slate-100/80 dark:border-slate-800/60 bg-slate-50/30 dark:bg-slate-950/20 text-xs sm:text-[13px] leading-relaxed">
+                                        <MarkdownRenderer
+                                          content={section.body}
+                                          isStreaming={latestAssistantMsg?.isStreaming}
+                                        />
+                                      </div>
+                                    )}
+                                  </div>
+                                );
+                              })}
+                            </div>
+                          )}
+
+                          {/* Akordeon ayrışmamış ama metin varsa tek parça gösterim */}
+                          {analysisSections.length === 0 && activeDeepAnalysis && (
+                            <div className="bg-white dark:bg-slate-900 border border-slate-200/90 dark:border-slate-800 rounded-2xl p-4 shadow-xs">
+                              <div className="flex items-center gap-2 text-xs font-bold text-slate-800 dark:text-slate-100 mb-2">
+                                <Sparkles className="w-3.5 h-3.5 text-emerald-500" />
+                                <span>Detaylı Teknik Kıyaslama</span>
+                              </div>
+                              <div className="text-xs sm:text-[13px] text-slate-700 dark:text-slate-200 leading-relaxed">
+                                <MarkdownRenderer
+                                  content={activeDeepAnalysis}
+                                  isStreaming={latestAssistantMsg?.isStreaming}
+                                />
+                              </div>
+                            </div>
+                          )}
+
+                          {/* 5. Teknik Özellik Tablosu */}
+                          <div className="rounded-2xl border border-slate-200 dark:border-slate-800 overflow-hidden bg-white dark:bg-slate-900 shadow-xs">
+                            <div className="px-3.5 py-2.5 bg-slate-100/70 dark:bg-slate-800/80 border-b border-slate-200 dark:border-slate-800 flex items-center justify-between">
+                              <div className="flex items-center gap-2">
+                                <span className="p-1 rounded-lg bg-emerald-100 dark:bg-emerald-950 text-emerald-600 dark:text-emerald-400">
+                                  <Layers className="w-3.5 h-3.5" />
+                                </span>
+                                <span className="text-[10px] sm:text-[11px] font-bold text-slate-700 dark:text-slate-200 uppercase tracking-wider">
+                                  5. Teknik Özellik Tablosu
+                                </span>
+                              </div>
+                              <span className="text-[9px] text-emerald-600 dark:text-emerald-400 font-semibold">
+                                ● Farklı olanlar vurgulanmıştır
+                              </span>
+                            </div>
+
+                            <div className="divide-y divide-slate-100 dark:divide-slate-800 text-[11px]">
+                              {activePanel.matrix.map((row, idx) => (
+                                <div
+                                  key={idx}
+                                  className={`p-2.5 transition-colors ${
+                                    row.isDifferent
+                                      ? 'bg-emerald-50/30 dark:bg-emerald-950/10'
+                                      : 'hover:bg-slate-50/50 dark:hover:bg-slate-800/40'
+                                  }`}
+                                >
+                                  <div className="text-[10px] font-semibold text-slate-400 mb-1">
+                                    {row.label}
+                                  </div>
+                                  <div className={`grid gap-3 ${row.values.length === 2 ? 'grid-cols-2' : 'grid-cols-2 sm:grid-cols-3'}`}>
+                                    {row.values.map((val, valIdx) => (
+                                      <div
+                                        key={valIdx}
+                                        className={`text-xs ${
+                                          row.highlightIdx === valIdx
+                                            ? 'font-bold text-emerald-600 dark:text-emerald-400'
+                                            : row.isDifferent
+                                            ? 'font-semibold text-slate-800 dark:text-slate-200'
+                                            : 'text-slate-600 dark:text-slate-400'
+                                        }`}
+                                      >
+                                        {val}
+                                      </div>
+                                    ))}
+                                  </div>
                                 </div>
                               ))}
                             </div>
                           </div>
-                        )}
+
+                          {/* 6. RoboPengu Değerlendirmesi / Kazanan Kartı */}
+                          {activePanel.winner && (
+                            <div className="p-4 rounded-2xl bg-gradient-to-br from-emerald-500/10 via-teal-500/5 to-transparent border border-emerald-300 dark:border-emerald-700/60 shadow-xs space-y-2.5">
+                              <div className="flex items-center gap-2">
+                                <span className="p-1.5 rounded-xl bg-amber-500 text-white shadow-xs">
+                                  <Trophy className="w-4 h-4" />
+                                </span>
+                                <div>
+                                  <span className="text-[9px] font-extrabold uppercase tracking-wider text-emerald-700 dark:text-emerald-400">
+                                    RoboPengu Değerlendirmesi
+                                  </span>
+                                  <h4 className="text-xs font-extrabold text-slate-900 dark:text-white">
+                                    🏆 Kazanan: {activePanel.winner.productName}
+                                  </h4>
+                                </div>
+                              </div>
+
+                              <div className="space-y-1.5 pt-1">
+                                {activePanel.winner.reasons.map((reason, rIdx) => (
+                                  <div key={rIdx} className="flex items-start gap-2 text-xs text-slate-700 dark:text-slate-200">
+                                    <CheckCircle2 className="w-3.5 h-3.5 text-emerald-600 dark:text-emerald-400 shrink-0 mt-0.5" />
+                                    <span className="font-medium">{reason}</span>
+                                  </div>
+                                ))}
+                              </div>
+                            </div>
+                          )}
+                        </div>
                       </div>
                     )}
 
