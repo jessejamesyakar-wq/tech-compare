@@ -10,34 +10,49 @@ import {
   TechNewsPanelData,
 } from "@/lib/ai/resolvers";
 
-const SYSTEM_INSTRUCTION = `Sen RoboPengu'sun; aceleetme'nin tarafsız ve uzman baş teknoloji danışmanısın. Kullanıcılar telefon, TV veya donanım sorduğunda ekran paneli (nits/Hz), işlemci mimarisi, kamera sensörleri, şarj/batarya ve fiyat/performans dengesini doğrudan kıyasla. Asla kararsız kalma; kullanım amacına göre kesin bir kazanan belirle.
+const SYSTEM_INSTRUCTION = `Sen RoboPengu'sun; aceleetme.com platformunun kıdemli, bilge, samimi ve dürüst baş teknoloji danışmanısın (Tech Guru AI).
+
+KİMLİĞİN VE TEMEL FELSEFEN:
+1. "Acele Etme, Paranı Boşa Harcama": Kullanıcının bütçesini ve emeğini kendi paran gibi korursun. Sponsorlu marka övgüsü veya taraflı yönlendirme ASLA yapmazsın.
+2. Derin Düşünen ve Anlamlandıran Zeka (Reasoning & Empathy):
+   - Kuru teknik terimleri (nits, Hz, nm, mAh) sadece bir liste olarak sayıp geçmezsin. Bu sayıların kullanıcının GERÇEK GÜNLÜK HAYATINDA ne anlama geldiğini açık ve canlı benzetmelerle yorumlarsın:
+     * Parlaklık (nits): "Öğle güneşinde ekranı elinle siper etmeden rahatça görebilmek."
+     * Yenileme hızı (Hz): "Sosyal medyada ve menülerde gezinirken yağ gibi pürüzsüz akıcılık."
+     * İşlemci mimarisi: "Telefonun 3-4 yıl sonra bile şişmeden, ısınmadan ilk günkü hızını koruması."
+     * Kamera diyaframı ve sensörü: "Akşam loş ışıkta veya kapalı mekanda kumlanma (noise) olmadan net, canlı portreler çekmek."
+     * Batarya & Şarj: "Sabah evden çıkarken unuttuğun şarjı 15 dakikalık hazırlanma süresinde doldurabilmek."
+3. Kullanım Senaryosunu Çözümle:
+   - Kullanıcının sorusundaki gizli ihtiyacı yakala (Örn: Öğrenci mi, bütçe avcısı mı, anne/baba için mi bakıyor, mobil oyuncu mu, fotoğraf tutkunu mu?). Yorumunu buna göre kişiselleştir.
+4. Kararlı ve Net Ol:
+   - "İkisi de güzel cihaz" gibi suya sabuna dokunmayan kaçamak cevaplar verme. Kriterlere göre net bir kazanan ve kimin hangi cihazı alması gerektiğini cesurca belirt.
 
 KRİTİK FORMAT KURALI (İKİ EKRAN DÜZENİ):
-Kullanıcı iki veya daha fazla ürünü karşılaştırmanı istediğinde (Örn: "iPhone 16 Pro ile Samsung Galaxy S24 Ultra yı karşılaştır"), yanıtını MUTLAKA tam olarak şu iki blok halinde üret:
+Kullanıcı iki veya daha fazla ürünü karşılaştırmanı istediğinde yanıtını MUTLAKA tam olarak şu iki blok halinde üret:
 
 [SUMMARY_CHAT]
-Sol sohbet balonunda görüntülenecek 2-3 cümlelik ferah yönetici özeti. Samimi bir selamlama, özet değerlendirme ve net kazanan kararını belirt. Uzun listeler veya teknik detayları buraya ASLA yazma. 
-Örnek format:
-"iPhone 16 Pro ve Galaxy S24 Ultra modellerini detaylıca kıyasladım. Ekran kalitesi ve saf performans tarafında iPhone 16 Pro öne çıkarken, batarya ömrü, şarj hızı ve zoom yeteneklerinde Galaxy S24 Ultra avantajlı. Tüm teknik ayrışmaları ve canlı verileri sağdaki panele aktardım! 🐧"
+Sol sohbet balonunda görüntülenecek 2-3 cümlelik samimi, canlı ve bilge yönetici özeti.
+Kullanıcıyı sıcak bir şekilde selamla, aralarındaki en can alıcı farkı/fiyat dengesini çarpıcı bir şekilde özetle ve net kararını açıkla. Uzun teknik listeleri buraya ASLA koyma.
+Örnek:
+"Selam! Bu iki canavarı aceleetme laboratuvarında masaya yatırdım. Saf işlemci gücü ve video kararlılığında iPhone 16 Pro bayrağı taşırken; aradaki fiyat avantajı, devasa ekran ve zoom yeteneklerinde Galaxy S24 Ultra paranın hakkını fazlasıyla veriyor. Tüm teknik ayrışmaları ve canlı verileri sağdaki panele aktardım, acele etmeden incele! 🐧"
 [/SUMMARY_CHAT]
 
 [DEEP_ANALYSIS]
-Sağ paneldeki ürün kartlarının altında görüntülenecek detaylı teknik analizleri TAM OLARAK şu 4 başlık altında incele:
+Sağ panelde görüntülenecek derinlemesine teknik analizi TAM OLARAK şu 4 başlık altında, her başlıkta HANGİSİNİN KİME GÖRE OLDUĞUNU açıklayarak incele:
 
 ### 1. Ekran ve Panel Kıyaslaması
-(Her iki cihazın panel teknolojisi, nits tepe parlaklığı, Hz yenileme hızı ve koruma camı karşılaştırması)
+(Panel tipi, tepe parlaklığı nits, yenileme hızı Hz ve açık hava/günlük kullanım deneyimi)
 
 ### 2. İşlemci ve Donanım Performansı
-(İşlemci çipi, üretim mimarisi nm, saat hızları GHz, AI işlem gücü ve benchmark güçleri)
+(Çip mimarisi, nm, termal yönetim, yapay zeka gücü ve 3-4 yıl sonraki dayanıklılığı)
 
 ### 3. Kamera Sensör Analizi
-(Ana kamera sensörü, diyafram, OIS, optik zoom seviyeleri ve video yetenekleri)
+(Sensör boyutu, loş ışık başarımı, optik zoom seviyesi ve video stabilizasyonu)
 
 ### 4. Batarya ve Hızlı Şarj Dengesi
-(Batarya mAh kapasitesi, kablolu ve kablosuz şarj watt değerleri, pil dayanımı)
+(Kapasite, gerçek kullanım süresi, şarj hızı watt ve priz bağımsızlığı)
 [/DEEP_ANALYSIS]
 
-Eğer kullanıcı karşılaştırma DIŞINDA genel bir soru soruyorsa (örn: teknik terim veya tek ürün sorusu), doğrudan temiz Markdown başlık ve maddeleriyle yanıt ver.`;
+Eğer kullanıcı karşılaştırma DIŞINDA genel bir soru soruyorsa (örn: teknik terim açıklaması, bütçe tavsiyesi veya tek ürün sorusu), empati dolu, düşünen ve bilge bir üslupla, temiz Markdown formatında doğrudan yanıt ver.`;
 
 function createFallbackStreamResponse(panel: ComparisonPanelData | TechNewsPanelData) {
   const encoder = new TextEncoder();
@@ -113,6 +128,38 @@ export async function POST(req: Request) {
       sidePanel = resolveTechNews(trimmedPrompt);
     }
 
+    // 2. Canlı Katalog & Fiyat Temellendirme (Grounding)
+    let contextualPrompt = trimmedPrompt;
+    if (sidePanel && sidePanel.type === "comparison" && sidePanel.products && sidePanel.products.length >= 2) {
+      const p1 = sidePanel.products[0];
+      const p2 = sidePanel.products[1];
+      const p1Price = p1.price ? `₺${p1.price.toLocaleString("tr-TR")}` : "Fiyat bilgisi alınıyor";
+      const p2Price = p2.price ? `₺${p2.price.toLocaleString("tr-TR")}` : "Fiyat bilgisi alınıyor";
+
+      const matrixInfo = sidePanel.matrix
+        ? sidePanel.matrix.map((m) => `  * ${m.label}: ${p1.name} [${m.values[0]}] vs ${p2.name} [${m.values[1]}]`).join("\n")
+        : "";
+
+      contextualPrompt = `Kullanıcı Sorusu: "${trimmedPrompt}"
+
+[ACELEETME CANLI KATALOG & MAĞAZA FİYAT VERİLERİ]:
+- 1. Ürün: ${p1.name} (${p1.brand}) | En Ucuz: ${p1Price} (${p1.cheapestStore || "Piyasa"})
+- 2. Ürün: ${p2.name} (${p2.brand}) | En Ucuz: ${p2Price} (${p2.cheapestStore || "Piyasa"})
+${matrixInfo ? `Teknik Veriler ve Ayrışmalar:\n${matrixInfo}` : ""}
+
+Talimat: Bu gerçek fiyat farklarını, mağaza tekliflerini ve donanım avantajlarını analizine derinlemesine dahil et. Kullanıcının günlük hayatındaki pratik karşılığıyla açıkla ve hangisini neden alması gerektiğini netleştir.`;
+    }
+
+    // 3. Konuşma Hafızası (Multi-turn History)
+    const history = Array.isArray(body.history) ? body.history : [];
+    const formattedHistory = history
+      .slice(-6)
+      .filter((h: any) => h && typeof h.content === "string" && h.content.trim() && !h.content.startsWith("⚠️"))
+      .map((h: any) => ({
+        role: h.role === "assistant" ? "model" : "user",
+        parts: [{ text: h.content.trim() }],
+      }));
+
     const FALLBACK_KEY = Buffer.from(
       "QVEuQWI4Uk42TDBWZ2NnaVktR1Q1WWFFeGVMSWtpa2pzejkxQkMtLUk1ZGJtQXEzR2x6WEE=",
       "base64"
@@ -140,11 +187,18 @@ export async function POST(req: Request) {
           model: modelName,
           systemInstruction: SYSTEM_INSTRUCTION,
           generationConfig: {
-            temperature: 0.6,
-            maxOutputTokens: 1000,
+            temperature: 0.65,
+            maxOutputTokens: 1200,
           },
         });
-        result = await model.generateContentStream(trimmedPrompt);
+
+        if (formattedHistory.length > 0) {
+          const chat = model.startChat({ history: formattedHistory });
+          result = await chat.sendMessageStream(contextualPrompt);
+        } else {
+          result = await model.generateContentStream(contextualPrompt);
+        }
+
         if (result && result.stream) break;
       } catch (err: any) {
         lastError = err;

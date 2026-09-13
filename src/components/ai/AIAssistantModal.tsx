@@ -1375,7 +1375,7 @@ export function AIAssistantModal({ isOpen, onClose, initialQuery = '' }: AIAssis
               >
                 {/* Mesaj Listesi */}
                 <div className="flex-1 overflow-y-auto p-4 sm:p-5 space-y-4">
-                  {messages.map((m) => {
+                  {messages.map((m, idx) => {
                     const isAssistant = m.role === 'assistant';
                     const chatSummary = isAssistant ? partitionContent(m.content).chatSummary : m.content;
                     const isComparisonMsg =
@@ -1395,7 +1395,19 @@ export function AIAssistantModal({ isOpen, onClose, initialQuery = '' }: AIAssis
                           </div>
                           <div className="space-y-2.5 max-w-[90%] flex-1">
                             <div className="bg-white dark:bg-slate-900 border border-slate-100 dark:border-slate-800 p-3.5 rounded-2xl rounded-tl-none shadow-xs text-slate-700 dark:text-slate-200">
-                              <MarkdownRenderer content={displayContent} isStreaming={m.isStreaming} />
+                              {m.isStreaming && !displayContent ? (
+                                <div className="flex items-center gap-2.5 py-1 text-slate-500 dark:text-slate-400">
+                                  <div className="relative flex items-center justify-center w-5 h-5">
+                                    <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-cyan-400 opacity-40"></span>
+                                    <Sparkles className="w-4 h-4 text-cyan-500 animate-spin" />
+                                  </div>
+                                  <span className="text-xs font-medium animate-pulse text-cyan-700 dark:text-cyan-300">
+                                    RoboPengu donanım verilerini ve senaryoyu düşünüyor... 🐧
+                                  </span>
+                                </div>
+                              ) : (
+                                <MarkdownRenderer content={displayContent} isStreaming={m.isStreaming} />
+                              )}
                             </div>
 
                             {/* Sesli Dinle / Durdur Butonu (Doğrudan Kullanıcı Tıklaması ile Kesin Ses Çalma) */}
@@ -1492,6 +1504,39 @@ export function AIAssistantModal({ isOpen, onClose, initialQuery = '' }: AIAssis
                                       <ExternalLink className="w-3 h-3 text-slate-400 group-hover:text-emerald-600 shrink-0" />
                                     </Link>
                                   ))}
+                                </div>
+                              </div>
+                            )}
+
+                            {/* Akıllı Takip ve Derinleşme Soruları (Proactive Follow-ups) */}
+                            {!m.isStreaming && idx === messages.length - 1 && m.id !== 'welcome' && !m.content.startsWith('⚠️') && (
+                              <div className="pt-2 space-y-1.5 animate-in fade-in duration-300">
+                                <div className="text-[10px] font-bold text-slate-400 dark:text-slate-500 uppercase tracking-wider flex items-center gap-1">
+                                  <Sparkles className="w-2.5 h-2.5 text-cyan-500" />
+                                  <span>RoboPengu'ya Sorabilirsin:</span>
+                                </div>
+                                <div className="flex flex-wrap gap-1.5">
+                                  <button
+                                    type="button"
+                                    onClick={() => handleSend('Ağır oyun ve yoğun kullanımda hangisi daha az ısınır ve stabil kalır?')}
+                                    className="text-[11px] bg-white dark:bg-slate-800/90 hover:bg-emerald-50 dark:hover:bg-emerald-950/40 text-slate-700 dark:text-slate-300 hover:text-emerald-600 dark:hover:text-emerald-400 border border-slate-200/80 dark:border-slate-700/80 px-2.5 py-1 rounded-full transition shadow-2xs cursor-pointer active:scale-95"
+                                  >
+                                    🎮 Oyun & Isınma durumu?
+                                  </button>
+                                  <button
+                                    type="button"
+                                    onClick={() => handleSend('Gece ve loş ışık kamerasında aralarındaki fark ne kadar hissedilir?')}
+                                    className="text-[11px] bg-white dark:bg-slate-800/90 hover:bg-emerald-50 dark:hover:bg-emerald-950/40 text-slate-700 dark:text-slate-300 hover:text-emerald-600 dark:hover:text-emerald-400 border border-slate-200/80 dark:border-slate-700/80 px-2.5 py-1 rounded-full transition shadow-2xs cursor-pointer active:scale-95"
+                                  >
+                                    📸 Gece kamerası kıyası?
+                                  </button>
+                                  <button
+                                    type="button"
+                                    onClick={() => handleSend('Bu bütçede acele etmeden bakabileceğim daha fiyat/performans bir alternatif var mı?')}
+                                    className="text-[11px] bg-white dark:bg-slate-800/90 hover:bg-emerald-50 dark:hover:bg-emerald-950/40 text-slate-700 dark:text-slate-300 hover:text-emerald-600 dark:hover:text-emerald-400 border border-slate-200/80 dark:border-slate-700/80 px-2.5 py-1 rounded-full transition shadow-2xs cursor-pointer active:scale-95"
+                                  >
+                                    💡 Daha F/P alternatif var mı?
+                                  </button>
                                 </div>
                               </div>
                             )}
