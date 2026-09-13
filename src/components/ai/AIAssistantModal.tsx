@@ -18,6 +18,7 @@ import {
   Camera,
   BatteryCharging,
   Smartphone,
+  Tv,
   ChevronDown,
   Layers,
   Shield,
@@ -995,11 +996,16 @@ export function AIAssistantModal({ isOpen, onClose, initialQuery = '' }: AIAssis
                 { label: 'Telefoto & Optik Zoom', values: ['5x Periskop Optik Zoom', '5x Periskop Optik Zoom'], isDifferent: false },
                 { label: 'Batarya & Hızlı Şarj', values: ['Gelişmiş Güç Yönetimi & Hızlı Şarj', 'Gelişmiş Güç Yönetimi & Hızlı Şarj'], isDifferent: false },
               ]
-            : [
-                { label: 'Panel Teknolojisi', values: ['OLED / Mini-LED', 'OLED / Mini-LED'], isDifferent: false },
-                { label: 'Çözünürlük & Yenileme', values: ['4K UHD @ 120Hz/144Hz', '4K UHD @ 120Hz/144Hz'], isDifferent: false },
-                { label: 'HDR & Parlaklık', values: ['Dolby Vision / HDR10+', 'Dolby Vision / HDR10+'], isDifferent: false },
-                { label: 'Ses Sistemi & Güç', values: ['Dolby Atmos Çok Kanallı', 'Dolby Atmos Çok Kanallı'], isDifferent: false },
+              : [
+                { label: 'Panel Teknolojisi', group: 'screen', values: ['OLED / Mini-LED', 'OLED / Mini-LED'], isDifferent: false },
+                { label: 'Çözünürlük Standartı', group: 'screen', values: ['4K Ultra HD (3840x2160)', '4K Ultra HD (3840x2160)'], isDifferent: false },
+                { label: 'Panel Yenileme Hızı', group: 'screen', values: ['120Hz / 144Hz VRR Destekli', '120Hz / 144Hz VRR Destekli'], isDifferent: false },
+                { label: 'HDR & Renk Formatları', group: 'screen', values: ['Dolby Vision & HDR10+', 'Dolby Vision & HDR10+'], isDifferent: false },
+                { label: 'Yapay Zeka Görüntü İşlemcisi', group: 'processor', values: ['Yeni Nesil AI 4K İşlemci', 'Yeni Nesil AI 4K İşlemci'], isDifferent: false },
+                { label: 'Akıllı TV İşletim Sistemi', group: 'processor', values: ['Google TV / webOS / Tizen', 'Google TV / webOS / Tizen'], isDifferent: false },
+                { label: 'Ses Sistemi & Çıkış Gücü', group: 'camera', values: ['Dolby Atmos Çok Kanallı Ses', 'Dolby Atmos Çok Kanallı Ses'], isDifferent: false },
+                { label: 'HDMI & Yeni Nesil Portlar', group: 'build', values: ['4x HDMI 2.1 (eARC, VRR, ALLM)', '4x HDMI 2.1 (eARC, VRR, ALLM)'], isDifferent: false },
+                { label: 'Enerji Verimlilik Sınıfı', group: 'battery', values: ['Optimize Güç Tüketimi', 'Optimize Güç Tüketimi'], isDifferent: false },
               ];
 
           setActivePanel({
@@ -2128,10 +2134,12 @@ export function AIAssistantModal({ isOpen, onClose, initialQuery = '' }: AIAssis
                             </div>
                             <div>
                               <h6 className="text-xs font-bold text-emerald-900 dark:text-emerald-200">
-                                Teknik Analiz Canlı Olarak Hazırlanıyor...
+                                Canlı Teknik Analiz Hazırlanıyor...
                               </h6>
                               <p className="text-[11px] text-emerald-700/80 dark:text-emerald-400/80">
-                                RoboPengu ekran, işlemci, kamera ve batarya kıyaslamalarını panele aktarıyor.
+                                {activePanel.category === 'tvs'
+                                  ? 'RoboPengu panel teknolojisi, yenileme hızı, ses sistemi ve portları panele aktarıyor.'
+                                  : 'RoboPengu tüm donanım, benchmark ve teknik kıyaslama kriterlerini panele aktarıyor.'}
                               </p>
                             </div>
                           </div>
@@ -2140,35 +2148,36 @@ export function AIAssistantModal({ isOpen, onClose, initialQuery = '' }: AIAssis
                         {/* 3. KATEGORİ BAZLI DONANIM MASASI & AKILLI DERİN ANALİZ ENTEGRASYONU */}
                         <div id="comparison-details-container" className="space-y-3.5 pt-1">
                           {(() => {
+                            const isTv = activePanel.category === 'tvs';
                             const groupDefs = [
                               {
+                                key: 'screen',
+                                title: isTv ? 'Panel, Ekran Boyutu & Görüntü Kalitesi' : 'Ekran, Panel & Görüntüleme',
+                                icon: isTv ? <Tv className="w-3.5 h-3.5" /> : <Smartphone className="w-3.5 h-3.5" />,
+                              },
+                              {
                                 key: 'processor',
-                                title: 'İşlemci, Çip & Sentetik Performans',
+                                title: isTv ? 'Görüntü İşlemcisi, Oyun & Akıllı TV Sistemi' : 'İşlemci, Çip & Sentetik Performans',
                                 icon: <Cpu className="w-3.5 h-3.5" />,
                               },
                               {
-                                key: 'screen',
-                                title: 'Ekran, Panel & Görüntüleme',
-                                icon: <Smartphone className="w-3.5 h-3.5" />,
-                              },
-                              {
                                 key: 'camera',
-                                title: 'Kamera, Akustik Sürücü & Ses',
-                                icon: <Camera className="w-3.5 h-3.5" />,
+                                title: isTv ? 'Ses Sistemi, Dolby Atmos & Hoparlör Gücü' : 'Kamera, Akustik Sürücü & Ses',
+                                icon: isTv ? <Volume2 className="w-3.5 h-3.5" /> : <Camera className="w-3.5 h-3.5" />,
                               },
                               {
                                 key: 'battery',
-                                title: 'Batarya, Enerji & Güç Tüketimi',
+                                title: isTv ? 'Enerji Verimliliği & Güç Tüketimi' : 'Batarya, Enerji & Güç Tüketimi',
                                 icon: <BatteryCharging className="w-3.5 h-3.5" />,
                               },
                               {
                                 key: 'build',
-                                title: 'Kasa, Malzeme & Dayanıklılık',
+                                title: isTv ? 'HDMI 2.1 Portları, Kasa & Çerçeve Tasarımı' : 'Kasa, Malzeme & Dayanıklılık',
                                 icon: <Shield className="w-3.5 h-3.5" />,
                               },
                               {
                                 key: 'general',
-                                title: 'Kapasite, Portlar & Ek Fonksiyonlar',
+                                title: 'Ek Donanım Özellikleri & Bağlantılar',
                                 icon: <Layers className="w-3.5 h-3.5" />,
                               },
                             ];

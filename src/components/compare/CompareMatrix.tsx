@@ -9,6 +9,7 @@ import { useI18n } from '@/lib/i18n/context';
 import { useCompare } from '@/context/CompareContext';
 import { PriceDisclaimer } from '@/components/legal/PriceDisclaimer';
 import { CompareVerdictCard } from './CompareVerdictCard';
+import { calculateTVScore } from '@/lib/tvScoring';
 import {
   Scale,
   Sparkles,
@@ -204,18 +205,35 @@ export function CompareMatrix({ products }: CompareMatrixProps) {
   } else if (isSameCategory && primaryCategory === 'tvs') {
     specRows = [
       { category: 'Fiyat & Puan', label: 'Başlangıç Fiyatı', isNumericLowerBetter: true, getRawNumber: (p) => p.basePrice, getValue: (p) => `${p.basePrice.toLocaleString()} ${p.currency}` },
+      { category: 'Fiyat & Puan', label: 'aceleEtme TV Donanım Skoru', isNumericHigherBetter: true, getRawNumber: (p) => calculateTVScore(p as TVProduct).totalScore, getValue: (p) => `${calculateTVScore(p as TVProduct).totalScore} / 100` },
       { category: 'Fiyat & Puan', label: 'Kullanıcı Puanı', getValue: (p) => `⭐ ${p.rating} / 5 (${p.reviewCount})` },
       { category: 'Fiyat & Puan', label: 'Çıkış Yılı', getValue: (p) => p.releaseYear || '-' },
 
       { category: 'Ekran & Donanım', label: 'Ekran Boyutu', getValue: (p) => `${(p as TVProduct).specs?.screenSizeInches || ''}" (${Math.round(((p as TVProduct).specs?.screenSizeInches || 55) * 2.54)} cm)` },
       { category: 'Ekran & Donanım', label: 'Panel Teknolojisi', getValue: (p) => (p as TVProduct).specs?.displayTech || 'LED' },
-      { category: 'Ekran & Donanım', label: 'Çözünürlük', getValue: (p) => (p as TVProduct).specs?.resolution || '4K Ultra HD' },
-      { category: 'Ekran & Donanım', label: 'Yenileme Hızı', isNumericHigherBetter: true, getRawNumber: (p) => (p as TVProduct).specs?.refreshRateHz || 60, getValue: (p) => `${(p as TVProduct).specs?.refreshRateHz || 60} Hz` },
-      { category: 'Ekran & Donanım', label: 'Zirve Parlaklık', isNumericHigherBetter: true, getRawNumber: (p) => (p as TVProduct).specs?.brightnessNits || 800, getValue: (p) => `${(p as TVProduct).specs?.brightnessNits || 800} nits` },
+      { category: 'Ekran & Donanım', label: 'Çözünürlük Standartı', getValue: (p) => (p as TVProduct).specs?.resolution || '4K Ultra HD' },
+      { category: 'Ekran & Donanım', label: 'Panel Yenileme Hızı', isNumericHigherBetter: true, getRawNumber: (p) => (p as TVProduct).specs?.refreshRateHz || 60, getValue: (p) => `${(p as TVProduct).specs?.refreshRateHz || 60} Hz Gerçek Panel` },
+      { category: 'Ekran & Donanım', label: 'Zirve Parlaklık (Nits)', isNumericHigherBetter: true, getRawNumber: (p) => (p as TVProduct).specs?.brightnessNits || ((p as TVProduct).specs?.displayTech === 'OLED' ? 1500 : 1000), getValue: (p) => `${(p as TVProduct).specs?.brightnessNits || ((p as TVProduct).specs?.displayTech === 'OLED' ? 1500 : 1000)} nits Peak` },
+      { category: 'Ekran & Donanım', label: 'Yapay Zekâ Görüntü İşlemcisi', getValue: (p) => (p as TVProduct).specs?.processorEngine || 'Neural AI Processor 4K' },
+      { category: 'Ekran & Donanım', label: 'HDR Format Desteği', getValue: (p) => {
+        const formats = (p as TVProduct).specs?.hdrFormats || (p as TVProduct).specs?.hdrSupport;
+        return Array.isArray(formats) ? formats.join(', ') : 'HDR10, HLG, Dolby Vision';
+      }},
 
-      { category: 'Ses & Akıllı Sistem', label: 'İşletim Sistemi', getValue: (p) => (p as TVProduct).specs?.smartOs || 'Google TV / Tizen' },
-      { category: 'Ses & Akıllı Sistem', label: 'Ses Gücü (Watt)', isNumericHigherBetter: true, getRawNumber: (p) => (p as TVProduct).specs?.audioPowerWatts || 20, getValue: (p) => `${(p as TVProduct).specs?.audioPowerWatts || 20} W` },
-      { category: 'Ses & Akıllı Sistem', label: 'HDMI Port Sayısı', getValue: (p) => `${(p as TVProduct).specs?.hdmiPorts || 3} Adet` }
+      { category: 'Oyun & Konsol (HDMI 2.1)', label: 'HDMI Port Sayısı', isNumericHigherBetter: true, getRawNumber: (p) => (p as TVProduct).specs?.hdmiPorts || 3, getValue: (p) => `${(p as TVProduct).specs?.hdmiPorts || 3} Adet (HDMI 2.1 Destekli)` },
+      { category: 'Oyun & Konsol (HDMI 2.1)', label: 'Oyun Yetenekleri (VRR / ALLM)', getValue: (p) => {
+        const gf = (p as TVProduct).specs?.gamingFeatures;
+        return Array.isArray(gf) && gf.length > 0 ? gf.join(', ') : 'VRR, ALLM, Düşük Giriş Gecikmesi';
+      }},
+
+      { category: 'Ses & Akıllı Sistem', label: 'Akıllı TV İşletim Sistemi', getValue: (p) => (p as TVProduct).specs?.smartOs || 'Google TV / webOS' },
+      { category: 'Ses & Akıllı Sistem', label: 'Ses Sistemi Gücü (RMS)', isNumericHigherBetter: true, getRawNumber: (p) => (p as TVProduct).specs?.audioPowerWatts || 20, getValue: (p) => `${(p as TVProduct).specs?.audioPowerWatts || 20} W Ses Çıkışı` },
+      { category: 'Ses & Akıllı Sistem', label: 'Dolby Atmos & Ses Kanalları', getValue: (p) => {
+        const channels = (p as TVProduct).specs?.audioChannels || '2.0 Kanal';
+        const atmos = (p as TVProduct).specs?.dolbyAtmos ? 'Dolby Atmos Destekli' : 'Surround Ses';
+        return `${channels} • ${atmos}`;
+      }},
+      { category: 'Ses & Akıllı Sistem', label: 'Enerji Sınıfı & Verimlilik', getValue: (p) => `${String((p as TVProduct).specs?.energyClass || 'G').toUpperCase()} Sınıfı` },
     ];
   } else {
     // Smartphone or Mixed comparison

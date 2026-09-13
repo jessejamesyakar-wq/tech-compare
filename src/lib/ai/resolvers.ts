@@ -337,7 +337,7 @@ export interface ComparisonMatrixRow {
   group?: string;
   values: string[];
   isDifferent: boolean;
-  highlightIdx?: number;
+  highlightIdx?: number | null;
   superiorIdx?: number | null;
 }
 
@@ -533,36 +533,58 @@ export function createDynamicComparisonPanel(
   const store1 = c1?.storeOffers?.[0]?.storeName || (price1 > 0 ? "En Uygun Mağaza" : "Piyasa Fiyatı");
   const store2 = c2?.storeOffers?.[0]?.storeName || (price2 > 0 ? "En Uygun Mağaza" : "Piyasa Fiyatı");
 
+  const detectedCat = (c1?.category || c2?.category || (categoryHint !== "electronics" ? categoryHint : null) || (
+    finalP1Name.toLowerCase().includes("tv") || finalP2Name.toLowerCase().includes("tv") ||
+    finalP1Name.toLowerCase().includes("oled") || finalP2Name.toLowerCase().includes("qned") ? "tvs" : "smartphones"
+  )) as CatalogCategory;
+
   // If both products are in catalog, build actual Versus/AnTuTu comparison rows!
   let matrixRows: ComparisonMatrixRow[] = [];
   if (c1 && c2) {
-    const targetCat = (c1.category === "smartphones" ? "smartphones" : c1.category || "smartphones") as CatalogCategory;
-    const realRows = buildComparisonRows([c1, c2], targetCat);
+    const realRows = buildComparisonRows([c1, c2], detectedCat);
     if (realRows.length > 0) {
       matrixRows = realRows.map((r) => ({
         label: r.label,
+        key: r.key,
+        group: r.group,
         values: r.values,
         isDifferent: new Set(r.values).size > 1,
+        highlightIdx: r.superiorIdx,
+        superiorIdx: r.superiorIdx,
       }));
     }
   }
 
-  // Fallback to high-level AnTuTu/Versus benchmark rows if catalog rows not available
+  // Fallback to high-level benchmark rows if catalog rows not available
   if (matrixRows.length === 0) {
-    matrixRows = [
-      { label: "AnTuTu v10 Benchmark Skoru", values: ["~2.350.000+ Puan (Amiral)", "~2.150.000+ Puan (Amiral)"], isDifferent: true, highlightIdx: 0 },
-      { label: "İşlemci & Çip Mimarisi", values: [`${b1} Yeni Nesil 2-3nm Çip`, `${b2} Yeni Nesil 2-3nm Çip`], isDifferent: false },
-      { label: "Ekran & Panel Teknolojisi", values: ["1-120Hz Dinamik LTPO OLED", "1-120Hz Dinamik LTPO OLED"], isDifferent: false },
-      { label: "Tepe Parlaklık (Nits)", values: ["3.000+ Nits Dış Mekan", "2.800+ Nits Dış Mekan"], isDifferent: true, highlightIdx: 0 },
-      { label: "Kamera & Optik Zoom", values: ["Gelişmiş Sensör & OIS", "Gelişmiş Sensör & OIS"], isDifferent: false },
-      { label: "Batarya & Hızlı Şarj", values: ["Optimize Güç Tüketimi & Hızlı Şarj", "Yüksek Kapasite & Hızlı Şarj"], isDifferent: false },
-    ];
+    if (detectedCat === "tvs") {
+      matrixRows = [
+        { label: "Panel Teknolojisi", group: "screen", values: ["4K Ultra HD OLED / Mini-LED", "4K Ultra HD OLED / Mini-LED"], isDifferent: false },
+        { label: "Panel Yenileme Hızı", group: "screen", values: ["120Hz / 144Hz VRR Destekli", "120Hz / 144Hz VRR Destekli"], isDifferent: false },
+        { label: "Zirve Parlaklık (Nits)", group: "screen", values: ["1.500+ Nits Tepe Değeri", "1.200+ Nits Tepe Değeri"], isDifferent: true, highlightIdx: 0, superiorIdx: 0 },
+        { label: "HDR & Renk Formatları", group: "screen", values: ["Dolby Vision, HDR10+, HLG", "Dolby Vision, HDR10+, HLG"], isDifferent: false },
+        { label: "Yapay Zeka Görüntü İşlemcisi", group: "processor", values: [`${b1} Neural AI Processor 4K`, `${b2} AI Processor 4K`], isDifferent: false },
+        { label: "Akıllı TV İşletim Sistemi", group: "processor", values: ["Google TV / webOS Akıllı Arayüz", "Google TV / webOS Akıllı Arayüz"], isDifferent: false },
+        { label: "Ses Sistemi Gücü", group: "camera", values: ["40W Dolby Atmos Çok Kanallı", "20W Dolby Atmos Çok Kanallı"], isDifferent: true, highlightIdx: 0, superiorIdx: 0 },
+        { label: "HDMI 2.1 & Oyun Portları", group: "build", values: ["4x HDMI 2.1 (VRR & ALLM)", "3x HDMI 2.1 (VRR & ALLM)"], isDifferent: true, highlightIdx: 0, superiorIdx: 0 },
+        { label: "Enerji Verimliliği", group: "battery", values: ["F Sınıfı Eko Tasarım", "G Sınıfı Eko Tasarım"], isDifferent: false },
+      ];
+    } else {
+      matrixRows = [
+        { label: "AnTuTu v10 Benchmark Skoru", group: "processor", values: ["~2.350.000+ Puan (Amiral)", "~2.150.000+ Puan (Amiral)"], isDifferent: true, highlightIdx: 0, superiorIdx: 0 },
+        { label: "İşlemci & Çip Mimarisi", group: "processor", values: [`${b1} Yeni Nesil 2-3nm Çip`, `${b2} Yeni Nesil 2-3nm Çip`], isDifferent: false },
+        { label: "Ekran & Panel Teknolojisi", group: "screen", values: ["1-120Hz Dinamik LTPO OLED", "1-120Hz Dinamik LTPO OLED"], isDifferent: false },
+        { label: "Tepe Parlaklık (Nits)", group: "screen", values: ["3.000+ Nits Dış Mekan", "2.800+ Nits Dış Mekan"], isDifferent: true, highlightIdx: 0, superiorIdx: 0 },
+        { label: "Kamera & Optik Zoom", group: "camera", values: ["Gelişmiş Sensör & OIS", "Gelişmiş Sensör & OIS"], isDifferent: false },
+        { label: "Batarya & Hızlı Şarj", group: "battery", values: ["Optimize Güç Tüketimi & Hızlı Şarj", "Yüksek Kapasite & Hızlı Şarj"], isDifferent: false },
+      ];
+    }
   }
 
   return {
     type: "comparison",
     scenario: "Detaylı Karşılaştırma",
-    category: categoryHint,
+    category: detectedCat,
     products: [
       {
         id: c1 ? c1.id : `dyn-1`,
