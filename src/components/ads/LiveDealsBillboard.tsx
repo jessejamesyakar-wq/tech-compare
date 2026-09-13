@@ -84,14 +84,16 @@ export function LiveDealsBillboard() {
 
           </div>
 
-          {/* RIGHT 5 COLS: Authentic Apple Artwork with iPhone 18 PRO Typography & Visor Design */}
+          {/* RIGHT 5 COLS: Exact Approved iPhone 18 Pro Visor Design & Screen Showcase */}
           <div className="lg:col-span-5 relative flex items-center justify-center lg:justify-end">
-            <div className="relative w-full max-w-md lg:max-w-none rounded-2xl overflow-hidden border border-slate-200/70 shadow-sm bg-[#F5F5F7]">
+            <div className="relative w-full max-w-sm sm:max-w-md lg:max-w-[420px] rounded-3xl overflow-hidden shadow-xl border border-slate-200/80 bg-white group">
               <img
-                src="/images/banners/apple-iphone-18-pro-banner.png"
+                src="/images/banners/iphone18-pro-mockup-right.webp"
                 alt="Apple iPhone 18 Pro"
-                className="w-full h-auto object-contain transition-transform duration-500 hover:scale-105"
+                className="w-full h-auto object-cover transition-transform duration-700 group-hover:scale-105"
               />
+              {/* Subtle ambient gradient overlay on edge */}
+              <div className="absolute inset-0 ring-1 ring-inset ring-black/5 rounded-3xl pointer-events-none" />
             </div>
           </div>
 
