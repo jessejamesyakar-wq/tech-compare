@@ -5,6 +5,11 @@ export const mockSmartphones: Smartphone[] = rawSmartphones as Smartphone[];
 
 export const popularComparisonsList = [
   {
+    phone1Id: "apple-apple-iphone-duo-256-gb-1071268",
+    phone2Id: "samsung-samsung-galaxy-z-fold-7-112",
+    viewCount: 21450
+  },
+  {
     phone1Id: "apple-apple-iphone-18-pro-max-256-gb-1071187",
     phone2Id: "samsung-samsung-galaxy-s26-ultra-120",
     viewCount: 18950

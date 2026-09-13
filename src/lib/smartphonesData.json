@@ -1,5 +1,817 @@
 [
   {
+    "id": "apple-apple-iphone-duo-256-gb-1071268",
+    "slug": "apple-iphone-duo-256gb",
+    "name": "Apple iPhone Duo (256 GB)",
+    "brand": "Apple",
+    "category": "smartphones",
+    "image": "/images/phones/apple/apple-iphone-duo-2.png",
+    "images": [
+      "/images/phones/apple/apple-iphone-duo-2.png",
+      "/images/phones/apple/apple-iphone-duo-11.jpg",
+      "/images/phones/apple/apple-iphone-duo-12.jpg",
+      "/images/phones/apple/apple-iphone-duo-3.png",
+      "/images/phones/apple/apple-iphone-duo-1.jpg",
+      "/images/phones/apple/apple-iphone-duo-2.jpg",
+      "/images/phones/apple/apple-iphone-duo-3.jpg",
+      "/images/phones/apple/apple-iphone-duo-4.jpg",
+      "/images/phones/apple/apple-iphone-duo-5.jpg",
+      "/images/phones/apple/apple-iphone-duo-6.jpg",
+      "/images/phones/apple/apple-iphone-duo-7.jpg",
+      "/images/phones/apple/apple-iphone-duo-8.jpg",
+      "/images/phones/apple/apple-iphone-duo-9.jpg",
+      "/images/phones/apple/apple-iphone-duo-10.jpg"
+    ],
+    "rating": 4.9,
+    "epeyScore": 96,
+    "reviewCount": 95,
+    "basePrice": 229999,
+    "price": 229999,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isLatestModel": true,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "5.4 inç Kapak + 7.6 inç Katlanabilir (Foldable) LTPO OLED Ekran",
+      "Apple A20 Pro 2nm Çip & 7-Core Apple GPU & Neural Engine",
+      "12 GB LPDDR5X RAM (Apple Intelligence 2.0 Tam Destek)",
+      "48 MP Fusion (Sensor-shift OIS) + 48 MP Ultra Geniş Çift Kamera",
+      "4883 mAh Çift Hücreli Batarya & 35W Hızlı Şarj, 25W MagSafe",
+      "Açıkken 5.2 mm, Katlıyken 11.3 mm Ultra İnce Titanyum Kasa",
+      "Sektörde İlk Bluetooth 6.0 ve Wi-Fi 7 Desteği",
+      "IPX8 Suya Dayanıklılık & IP6X Toza Dayanıklılık Sertifikası"
+    ],
+    "pros": [
+      "Apple'ın ilk katlanabilir telefonu: Açıldığında 7.6 inçlik devasa tablet ekranı, kapalıyken tek elle kullanılan kompakt 5.4 inç OLED ekran",
+      "Açık durumda sadece 5.2 mm incelik ve Grade 5 titanyum gövde ile sınıfının en zarif ve hafif katlanabilir tasarımı (254g)",
+      "Nano-texture cam kaplama sayesinde yansımaları sıfıra indiren 3000 nits tepe parlaklığa sahip iç ekran",
+      "Her iki ekranda da 120 Hz ProMotion akıcılığı ve ekran altı görünmez kamera teknolojisi",
+      "Bluetooth 6.0, Wi-Fi 7, Çift eSIM ve IPX8 suya dayanıklılık sertifikası"
+    ],
+    "cons": [
+      "229.999 TL başlangıç fiyatı ile ultra lüks segmentte yer alması",
+      "Kutu içeriğinden şarj adaptörü çıkmıyor"
+    ],
+    "colorOptions": [
+      {
+        "name": "Siyah",
+        "hex": "#262626",
+        "image": "/images/phones/apple/apple-iphone-duo-11.jpg"
+      },
+      {
+        "name": "Beyaz",
+        "hex": "#F2F2F2",
+        "image": "/images/phones/apple/apple-iphone-duo-12.jpg"
+      }
+    ],
+    "storeOffers": [
+      {
+        "storeName": "Apple Store",
+        "storeLogo": "/images/stores/apple.svg",
+        "price": 229999,
+        "productUrl": "https://www.apple.com/tr/shop/buy-iphone/iphone-duo/256gb",
+        "inStock": true,
+        "shippingFree": true
+      },
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.svg",
+        "price": 229999,
+        "productUrl": "https://www.hepsiburada.com/ara?q=apple+iphone+duo+256gb",
+        "inStock": true,
+        "shippingFree": true
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.svg",
+        "price": 229999,
+        "productUrl": "https://www.vatanbilgisayar.com/arama/iphone%20duo%20256gb/",
+        "inStock": true,
+        "shippingFree": true
+      },
+      {
+        "storeName": "Troy",
+        "storeLogo": "/images/stores/troy.svg",
+        "price": 229999,
+        "productUrl": "https://www.troyestore.com/arama?q=iphone+duo+256gb",
+        "inStock": true,
+        "shippingFree": true
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.svg",
+        "price": 231499,
+        "productUrl": "https://www.teknosa.com/arama?s=apple+iphone+duo+256gb",
+        "inStock": true,
+        "shippingFree": true
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 239199
+      },
+      {
+        "date": "2026-08-01",
+        "price": 234599
+      },
+      {
+        "date": "2026-09-01",
+        "price": 229999
+      },
+      {
+        "date": "2026-09-13",
+        "price": 229999
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "5.4 inç (Kapak) / 7.6 inç (Katlanabilir İç Ekran)",
+        "type": "Katlanabilir Foldable OLED + Kapak OLED (1-120Hz LTPO ProMotion)",
+        "resolution": "1398 x 2034 (Kapak FHD+) / 1878 x 2670 (İç Ekran)",
+        "refreshRate": 120,
+        "brightnessNits": 3000,
+        "ppi": 460
+      },
+      "processor": {
+        "chip": "Apple A20 Pro (2nm TSMC N2)",
+        "cores": "6 Çekirdek (64-bit) & 7x Apple GPU",
+        "process": "2nm",
+        "antutuScore": 2420000
+      },
+      "memory": {
+        "ramGb": 12,
+        "ramType": "12 GB LPDDR5X (16-Core Neural Engine 45 TOPS)",
+        "storageGb": 256,
+        "storageOptions": [
+          256,
+          512,
+          1024,
+          2048
+        ],
+        "expandableStorage": false
+      },
+      "camera": {
+        "mainMp": "48 MP Fusion, f/1.6, 26mm, Sensor-shift OIS, 2x Optik Kayıpsız Zoom",
+        "ultrawideMp": "48 MP, f/2.2, 13mm, 120˚, Otomatik Odak & Makro",
+        "selfieMp": "12 MP Kapak (f/2.2) + 12 MP Ekran Altı İç Kamera (f/1.8)",
+        "videoRes": "4K@120fps Dolby Vision HDR, ProRes LOG, 1080p@240fps Ağır Çekim",
+        "dxomarkScore": 167
+      },
+      "battery": {
+        "capacitymAh": 4883,
+        "chargingWatts": 35,
+        "wirelessCharging": true,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 7 (802.11be)",
+        "bluetooth": "6.0",
+        "hasNFC": true,
+        "hasesim": true
+      },
+      "build": {
+        "weightGrams": 254,
+        "thicknessMm": 5.2,
+        "waterResistance": "IPX8 (Suya Dayanıklı) & IP6X (Toza Dayanıklı)",
+        "frameMaterial": "Grade 5 Titanyum & Ceramic Shield Arka Kapak"
+      },
+      "software": {
+        "osName": "iOS 27 (Apple Intelligence 2.0 Fold OS)",
+        "updateYears": 7
+      }
+    },
+    "variants": [
+      {
+        "id": "apple-apple-iphone-duo-256-gb-1071268-siyah",
+        "name": "Apple iPhone Duo (256 GB) - Siyah",
+        "colorName": "Siyah",
+        "colorHex": "#262626",
+        "image": "/images/phones/apple/apple-iphone-duo-11.jpg",
+        "price": 229999
+      },
+      {
+        "id": "apple-apple-iphone-duo-256-gb-1071268-beyaz",
+        "name": "Apple iPhone Duo (256 GB) - Beyaz",
+        "colorName": "Beyaz",
+        "colorHex": "#F2F2F2",
+        "image": "/images/phones/apple/apple-iphone-duo-12.jpg",
+        "price": 229999
+      }
+    ]
+  },
+  {
+    "id": "apple-apple-iphone-duo-512-gb-1071810",
+    "slug": "apple-iphone-duo-512gb",
+    "name": "Apple iPhone Duo (512 GB)",
+    "brand": "Apple",
+    "category": "smartphones",
+    "image": "/images/phones/apple/apple-iphone-duo-2.png",
+    "images": [
+      "/images/phones/apple/apple-iphone-duo-2.png",
+      "/images/phones/apple/apple-iphone-duo-11.jpg",
+      "/images/phones/apple/apple-iphone-duo-12.jpg",
+      "/images/phones/apple/apple-iphone-duo-3.png",
+      "/images/phones/apple/apple-iphone-duo-1.jpg",
+      "/images/phones/apple/apple-iphone-duo-2.jpg",
+      "/images/phones/apple/apple-iphone-duo-3.jpg",
+      "/images/phones/apple/apple-iphone-duo-4.jpg",
+      "/images/phones/apple/apple-iphone-duo-5.jpg",
+      "/images/phones/apple/apple-iphone-duo-6.jpg",
+      "/images/phones/apple/apple-iphone-duo-7.jpg",
+      "/images/phones/apple/apple-iphone-duo-8.jpg",
+      "/images/phones/apple/apple-iphone-duo-9.jpg",
+      "/images/phones/apple/apple-iphone-duo-10.jpg"
+    ],
+    "rating": 4.9,
+    "epeyScore": 96,
+    "reviewCount": 95,
+    "basePrice": 254999,
+    "price": 254999,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isLatestModel": true,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "5.4 inç Kapak + 7.6 inç Katlanabilir (Foldable) LTPO OLED Ekran",
+      "Apple A20 Pro 2nm Çip & 7-Core Apple GPU & Neural Engine",
+      "12 GB LPDDR5X RAM (Apple Intelligence 2.0 Tam Destek)",
+      "48 MP Fusion (Sensor-shift OIS) + 48 MP Ultra Geniş Çift Kamera",
+      "4883 mAh Çift Hücreli Batarya & 35W Hızlı Şarj, 25W MagSafe",
+      "Açıkken 5.2 mm, Katlıyken 11.3 mm Ultra İnce Titanyum Kasa",
+      "Sektörde İlk Bluetooth 6.0 ve Wi-Fi 7 Desteği",
+      "IPX8 Suya Dayanıklılık & IP6X Toza Dayanıklılık Sertifikası"
+    ],
+    "pros": [
+      "Apple'ın ilk katlanabilir telefonu: Açıldığında 7.6 inçlik devasa tablet ekranı, kapalıyken tek elle kullanılan kompakt 5.4 inç OLED ekran",
+      "Açık durumda sadece 5.2 mm incelik ve Grade 5 titanyum gövde ile sınıfının en zarif ve hafif katlanabilir tasarımı (254g)",
+      "Nano-texture cam kaplama sayesinde yansımaları sıfıra indiren 3000 nits tepe parlaklığa sahip iç ekran",
+      "Her iki ekranda da 120 Hz ProMotion akıcılığı ve ekran altı görünmez kamera teknolojisi",
+      "Bluetooth 6.0, Wi-Fi 7, Çift eSIM ve IPX8 suya dayanıklılık sertifikası"
+    ],
+    "cons": [
+      "229.999 TL başlangıç fiyatı ile ultra lüks segmentte yer alması",
+      "Kutu içeriğinden şarj adaptörü çıkmıyor"
+    ],
+    "colorOptions": [
+      {
+        "name": "Siyah",
+        "hex": "#262626",
+        "image": "/images/phones/apple/apple-iphone-duo-11.jpg"
+      },
+      {
+        "name": "Beyaz",
+        "hex": "#F2F2F2",
+        "image": "/images/phones/apple/apple-iphone-duo-12.jpg"
+      }
+    ],
+    "storeOffers": [
+      {
+        "storeName": "Apple Store",
+        "storeLogo": "/images/stores/apple.svg",
+        "price": 254999,
+        "productUrl": "https://www.apple.com/tr/shop/buy-iphone/iphone-duo/512gb",
+        "inStock": true,
+        "shippingFree": true
+      },
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.svg",
+        "price": 254999,
+        "productUrl": "https://www.hepsiburada.com/ara?q=apple+iphone+duo+512gb",
+        "inStock": true,
+        "shippingFree": true
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.svg",
+        "price": 254999,
+        "productUrl": "https://www.vatanbilgisayar.com/arama/iphone%20duo%20512gb/",
+        "inStock": true,
+        "shippingFree": true
+      },
+      {
+        "storeName": "Troy",
+        "storeLogo": "/images/stores/troy.svg",
+        "price": 254999,
+        "productUrl": "https://www.troyestore.com/arama?q=iphone+duo+512gb",
+        "inStock": true,
+        "shippingFree": true
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.svg",
+        "price": 256499,
+        "productUrl": "https://www.teknosa.com/arama?s=apple+iphone+duo+512gb",
+        "inStock": true,
+        "shippingFree": true
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 265199
+      },
+      {
+        "date": "2026-08-01",
+        "price": 260099
+      },
+      {
+        "date": "2026-09-01",
+        "price": 254999
+      },
+      {
+        "date": "2026-09-13",
+        "price": 254999
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "5.4 inç (Kapak) / 7.6 inç (Katlanabilir İç Ekran)",
+        "type": "Katlanabilir Foldable OLED + Kapak OLED (1-120Hz LTPO ProMotion)",
+        "resolution": "1398 x 2034 (Kapak FHD+) / 1878 x 2670 (İç Ekran)",
+        "refreshRate": 120,
+        "brightnessNits": 3000,
+        "ppi": 460
+      },
+      "processor": {
+        "chip": "Apple A20 Pro (2nm TSMC N2)",
+        "cores": "6 Çekirdek (64-bit) & 7x Apple GPU",
+        "process": "2nm",
+        "antutuScore": 2420000
+      },
+      "memory": {
+        "ramGb": 12,
+        "ramType": "12 GB LPDDR5X (16-Core Neural Engine 45 TOPS)",
+        "storageGb": 512,
+        "storageOptions": [
+          256,
+          512,
+          1024,
+          2048
+        ],
+        "expandableStorage": false
+      },
+      "camera": {
+        "mainMp": "48 MP Fusion, f/1.6, 26mm, Sensor-shift OIS, 2x Optik Kayıpsız Zoom",
+        "ultrawideMp": "48 MP, f/2.2, 13mm, 120˚, Otomatik Odak & Makro",
+        "selfieMp": "12 MP Kapak (f/2.2) + 12 MP Ekran Altı İç Kamera (f/1.8)",
+        "videoRes": "4K@120fps Dolby Vision HDR, ProRes LOG, 1080p@240fps Ağır Çekim",
+        "dxomarkScore": 167
+      },
+      "battery": {
+        "capacitymAh": 4883,
+        "chargingWatts": 35,
+        "wirelessCharging": true,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 7 (802.11be)",
+        "bluetooth": "6.0",
+        "hasNFC": true,
+        "hasesim": true
+      },
+      "build": {
+        "weightGrams": 254,
+        "thicknessMm": 5.2,
+        "waterResistance": "IPX8 (Suya Dayanıklı) & IP6X (Toza Dayanıklı)",
+        "frameMaterial": "Grade 5 Titanyum & Ceramic Shield Arka Kapak"
+      },
+      "software": {
+        "osName": "iOS 27 (Apple Intelligence 2.0 Fold OS)",
+        "updateYears": 7
+      }
+    },
+    "variants": [
+      {
+        "id": "apple-apple-iphone-duo-512-gb-1071810-siyah",
+        "name": "Apple iPhone Duo (512 GB) - Siyah",
+        "colorName": "Siyah",
+        "colorHex": "#262626",
+        "image": "/images/phones/apple/apple-iphone-duo-11.jpg",
+        "price": 254999
+      },
+      {
+        "id": "apple-apple-iphone-duo-512-gb-1071810-beyaz",
+        "name": "Apple iPhone Duo (512 GB) - Beyaz",
+        "colorName": "Beyaz",
+        "colorHex": "#F2F2F2",
+        "image": "/images/phones/apple/apple-iphone-duo-12.jpg",
+        "price": 254999
+      }
+    ]
+  },
+  {
+    "id": "apple-apple-iphone-duo-1-tb-1071811",
+    "slug": "apple-iphone-duo-1tb",
+    "name": "Apple iPhone Duo (1 TB)",
+    "brand": "Apple",
+    "category": "smartphones",
+    "image": "/images/phones/apple/apple-iphone-duo-2.png",
+    "images": [
+      "/images/phones/apple/apple-iphone-duo-2.png",
+      "/images/phones/apple/apple-iphone-duo-11.jpg",
+      "/images/phones/apple/apple-iphone-duo-12.jpg",
+      "/images/phones/apple/apple-iphone-duo-3.png",
+      "/images/phones/apple/apple-iphone-duo-1.jpg",
+      "/images/phones/apple/apple-iphone-duo-2.jpg",
+      "/images/phones/apple/apple-iphone-duo-3.jpg",
+      "/images/phones/apple/apple-iphone-duo-4.jpg",
+      "/images/phones/apple/apple-iphone-duo-5.jpg",
+      "/images/phones/apple/apple-iphone-duo-6.jpg",
+      "/images/phones/apple/apple-iphone-duo-7.jpg",
+      "/images/phones/apple/apple-iphone-duo-8.jpg",
+      "/images/phones/apple/apple-iphone-duo-9.jpg",
+      "/images/phones/apple/apple-iphone-duo-10.jpg"
+    ],
+    "rating": 4.9,
+    "epeyScore": 96,
+    "reviewCount": 95,
+    "basePrice": 289999,
+    "price": 289999,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isLatestModel": true,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "5.4 inç Kapak + 7.6 inç Katlanabilir (Foldable) LTPO OLED Ekran",
+      "Apple A20 Pro 2nm Çip & 7-Core Apple GPU & Neural Engine",
+      "12 GB LPDDR5X RAM (Apple Intelligence 2.0 Tam Destek)",
+      "48 MP Fusion (Sensor-shift OIS) + 48 MP Ultra Geniş Çift Kamera",
+      "4883 mAh Çift Hücreli Batarya & 35W Hızlı Şarj, 25W MagSafe",
+      "Açıkken 5.2 mm, Katlıyken 11.3 mm Ultra İnce Titanyum Kasa",
+      "Sektörde İlk Bluetooth 6.0 ve Wi-Fi 7 Desteği",
+      "IPX8 Suya Dayanıklılık & IP6X Toza Dayanıklılık Sertifikası"
+    ],
+    "pros": [
+      "Apple'ın ilk katlanabilir telefonu: Açıldığında 7.6 inçlik devasa tablet ekranı, kapalıyken tek elle kullanılan kompakt 5.4 inç OLED ekran",
+      "Açık durumda sadece 5.2 mm incelik ve Grade 5 titanyum gövde ile sınıfının en zarif ve hafif katlanabilir tasarımı (254g)",
+      "Nano-texture cam kaplama sayesinde yansımaları sıfıra indiren 3000 nits tepe parlaklığa sahip iç ekran",
+      "Her iki ekranda da 120 Hz ProMotion akıcılığı ve ekran altı görünmez kamera teknolojisi",
+      "Bluetooth 6.0, Wi-Fi 7, Çift eSIM ve IPX8 suya dayanıklılık sertifikası"
+    ],
+    "cons": [
+      "229.999 TL başlangıç fiyatı ile ultra lüks segmentte yer alması",
+      "Kutu içeriğinden şarj adaptörü çıkmıyor"
+    ],
+    "colorOptions": [
+      {
+        "name": "Siyah",
+        "hex": "#262626",
+        "image": "/images/phones/apple/apple-iphone-duo-11.jpg"
+      },
+      {
+        "name": "Beyaz",
+        "hex": "#F2F2F2",
+        "image": "/images/phones/apple/apple-iphone-duo-12.jpg"
+      }
+    ],
+    "storeOffers": [
+      {
+        "storeName": "Apple Store",
+        "storeLogo": "/images/stores/apple.svg",
+        "price": 289999,
+        "productUrl": "https://www.apple.com/tr/shop/buy-iphone/iphone-duo/1024gb",
+        "inStock": true,
+        "shippingFree": true
+      },
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.svg",
+        "price": 289999,
+        "productUrl": "https://www.hepsiburada.com/ara?q=apple+iphone+duo+1024gb",
+        "inStock": true,
+        "shippingFree": true
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.svg",
+        "price": 289999,
+        "productUrl": "https://www.vatanbilgisayar.com/arama/iphone%20duo%201024gb/",
+        "inStock": true,
+        "shippingFree": true
+      },
+      {
+        "storeName": "Troy",
+        "storeLogo": "/images/stores/troy.svg",
+        "price": 289999,
+        "productUrl": "https://www.troyestore.com/arama?q=iphone+duo+1024gb",
+        "inStock": true,
+        "shippingFree": true
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.svg",
+        "price": 291499,
+        "productUrl": "https://www.teknosa.com/arama?s=apple+iphone+duo+1024gb",
+        "inStock": true,
+        "shippingFree": true
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 301599
+      },
+      {
+        "date": "2026-08-01",
+        "price": 295799
+      },
+      {
+        "date": "2026-09-01",
+        "price": 289999
+      },
+      {
+        "date": "2026-09-13",
+        "price": 289999
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "5.4 inç (Kapak) / 7.6 inç (Katlanabilir İç Ekran)",
+        "type": "Katlanabilir Foldable OLED + Kapak OLED (1-120Hz LTPO ProMotion)",
+        "resolution": "1398 x 2034 (Kapak FHD+) / 1878 x 2670 (İç Ekran)",
+        "refreshRate": 120,
+        "brightnessNits": 3000,
+        "ppi": 460
+      },
+      "processor": {
+        "chip": "Apple A20 Pro (2nm TSMC N2)",
+        "cores": "6 Çekirdek (64-bit) & 7x Apple GPU",
+        "process": "2nm",
+        "antutuScore": 2420000
+      },
+      "memory": {
+        "ramGb": 12,
+        "ramType": "12 GB LPDDR5X (16-Core Neural Engine 45 TOPS)",
+        "storageGb": 1024,
+        "storageOptions": [
+          256,
+          512,
+          1024,
+          2048
+        ],
+        "expandableStorage": false
+      },
+      "camera": {
+        "mainMp": "48 MP Fusion, f/1.6, 26mm, Sensor-shift OIS, 2x Optik Kayıpsız Zoom",
+        "ultrawideMp": "48 MP, f/2.2, 13mm, 120˚, Otomatik Odak & Makro",
+        "selfieMp": "12 MP Kapak (f/2.2) + 12 MP Ekran Altı İç Kamera (f/1.8)",
+        "videoRes": "4K@120fps Dolby Vision HDR, ProRes LOG, 1080p@240fps Ağır Çekim",
+        "dxomarkScore": 167
+      },
+      "battery": {
+        "capacitymAh": 4883,
+        "chargingWatts": 35,
+        "wirelessCharging": true,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 7 (802.11be)",
+        "bluetooth": "6.0",
+        "hasNFC": true,
+        "hasesim": true
+      },
+      "build": {
+        "weightGrams": 254,
+        "thicknessMm": 5.2,
+        "waterResistance": "IPX8 (Suya Dayanıklı) & IP6X (Toza Dayanıklı)",
+        "frameMaterial": "Grade 5 Titanyum & Ceramic Shield Arka Kapak"
+      },
+      "software": {
+        "osName": "iOS 27 (Apple Intelligence 2.0 Fold OS)",
+        "updateYears": 7
+      }
+    },
+    "variants": [
+      {
+        "id": "apple-apple-iphone-duo-1-tb-1071811-siyah",
+        "name": "Apple iPhone Duo (1 TB) - Siyah",
+        "colorName": "Siyah",
+        "colorHex": "#262626",
+        "image": "/images/phones/apple/apple-iphone-duo-11.jpg",
+        "price": 289999
+      },
+      {
+        "id": "apple-apple-iphone-duo-1-tb-1071811-beyaz",
+        "name": "Apple iPhone Duo (1 TB) - Beyaz",
+        "colorName": "Beyaz",
+        "colorHex": "#F2F2F2",
+        "image": "/images/phones/apple/apple-iphone-duo-12.jpg",
+        "price": 289999
+      }
+    ]
+  },
+  {
+    "id": "apple-apple-iphone-duo-2-tb-1071812",
+    "slug": "apple-iphone-duo-2tb",
+    "name": "Apple iPhone Duo (2 TB)",
+    "brand": "Apple",
+    "category": "smartphones",
+    "image": "/images/phones/apple/apple-iphone-duo-2.png",
+    "images": [
+      "/images/phones/apple/apple-iphone-duo-2.png",
+      "/images/phones/apple/apple-iphone-duo-11.jpg",
+      "/images/phones/apple/apple-iphone-duo-12.jpg",
+      "/images/phones/apple/apple-iphone-duo-3.png",
+      "/images/phones/apple/apple-iphone-duo-1.jpg",
+      "/images/phones/apple/apple-iphone-duo-2.jpg",
+      "/images/phones/apple/apple-iphone-duo-3.jpg",
+      "/images/phones/apple/apple-iphone-duo-4.jpg",
+      "/images/phones/apple/apple-iphone-duo-5.jpg",
+      "/images/phones/apple/apple-iphone-duo-6.jpg",
+      "/images/phones/apple/apple-iphone-duo-7.jpg",
+      "/images/phones/apple/apple-iphone-duo-8.jpg",
+      "/images/phones/apple/apple-iphone-duo-9.jpg",
+      "/images/phones/apple/apple-iphone-duo-10.jpg"
+    ],
+    "rating": 4.9,
+    "epeyScore": 96,
+    "reviewCount": 95,
+    "basePrice": 339999,
+    "price": 339999,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isLatestModel": true,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "5.4 inç Kapak + 7.6 inç Katlanabilir (Foldable) LTPO OLED Ekran",
+      "Apple A20 Pro 2nm Çip & 7-Core Apple GPU & Neural Engine",
+      "12 GB LPDDR5X RAM (Apple Intelligence 2.0 Tam Destek)",
+      "48 MP Fusion (Sensor-shift OIS) + 48 MP Ultra Geniş Çift Kamera",
+      "4883 mAh Çift Hücreli Batarya & 35W Hızlı Şarj, 25W MagSafe",
+      "Açıkken 5.2 mm, Katlıyken 11.3 mm Ultra İnce Titanyum Kasa",
+      "Sektörde İlk Bluetooth 6.0 ve Wi-Fi 7 Desteği",
+      "IPX8 Suya Dayanıklılık & IP6X Toza Dayanıklılık Sertifikası"
+    ],
+    "pros": [
+      "Apple'ın ilk katlanabilir telefonu: Açıldığında 7.6 inçlik devasa tablet ekranı, kapalıyken tek elle kullanılan kompakt 5.4 inç OLED ekran",
+      "Açık durumda sadece 5.2 mm incelik ve Grade 5 titanyum gövde ile sınıfının en zarif ve hafif katlanabilir tasarımı (254g)",
+      "Nano-texture cam kaplama sayesinde yansımaları sıfıra indiren 3000 nits tepe parlaklığa sahip iç ekran",
+      "Her iki ekranda da 120 Hz ProMotion akıcılığı ve ekran altı görünmez kamera teknolojisi",
+      "Bluetooth 6.0, Wi-Fi 7, Çift eSIM ve IPX8 suya dayanıklılık sertifikası"
+    ],
+    "cons": [
+      "229.999 TL başlangıç fiyatı ile ultra lüks segmentte yer alması",
+      "Kutu içeriğinden şarj adaptörü çıkmıyor"
+    ],
+    "colorOptions": [
+      {
+        "name": "Siyah",
+        "hex": "#262626",
+        "image": "/images/phones/apple/apple-iphone-duo-11.jpg"
+      },
+      {
+        "name": "Beyaz",
+        "hex": "#F2F2F2",
+        "image": "/images/phones/apple/apple-iphone-duo-12.jpg"
+      }
+    ],
+    "storeOffers": [
+      {
+        "storeName": "Apple Store",
+        "storeLogo": "/images/stores/apple.svg",
+        "price": 339999,
+        "productUrl": "https://www.apple.com/tr/shop/buy-iphone/iphone-duo/2048gb",
+        "inStock": true,
+        "shippingFree": true
+      },
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.svg",
+        "price": 339999,
+        "productUrl": "https://www.hepsiburada.com/ara?q=apple+iphone+duo+2048gb",
+        "inStock": true,
+        "shippingFree": true
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.svg",
+        "price": 339999,
+        "productUrl": "https://www.vatanbilgisayar.com/arama/iphone%20duo%202048gb/",
+        "inStock": true,
+        "shippingFree": true
+      },
+      {
+        "storeName": "Troy",
+        "storeLogo": "/images/stores/troy.svg",
+        "price": 339999,
+        "productUrl": "https://www.troyestore.com/arama?q=iphone+duo+2048gb",
+        "inStock": true,
+        "shippingFree": true
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.svg",
+        "price": 341499,
+        "productUrl": "https://www.teknosa.com/arama?s=apple+iphone+duo+2048gb",
+        "inStock": true,
+        "shippingFree": true
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 353599
+      },
+      {
+        "date": "2026-08-01",
+        "price": 346799
+      },
+      {
+        "date": "2026-09-01",
+        "price": 339999
+      },
+      {
+        "date": "2026-09-13",
+        "price": 339999
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "5.4 inç (Kapak) / 7.6 inç (Katlanabilir İç Ekran)",
+        "type": "Katlanabilir Foldable OLED + Kapak OLED (1-120Hz LTPO ProMotion)",
+        "resolution": "1398 x 2034 (Kapak FHD+) / 1878 x 2670 (İç Ekran)",
+        "refreshRate": 120,
+        "brightnessNits": 3000,
+        "ppi": 460
+      },
+      "processor": {
+        "chip": "Apple A20 Pro (2nm TSMC N2)",
+        "cores": "6 Çekirdek (64-bit) & 7x Apple GPU",
+        "process": "2nm",
+        "antutuScore": 2420000
+      },
+      "memory": {
+        "ramGb": 12,
+        "ramType": "12 GB LPDDR5X (16-Core Neural Engine 45 TOPS)",
+        "storageGb": 2048,
+        "storageOptions": [
+          256,
+          512,
+          1024,
+          2048
+        ],
+        "expandableStorage": false
+      },
+      "camera": {
+        "mainMp": "48 MP Fusion, f/1.6, 26mm, Sensor-shift OIS, 2x Optik Kayıpsız Zoom",
+        "ultrawideMp": "48 MP, f/2.2, 13mm, 120˚, Otomatik Odak & Makro",
+        "selfieMp": "12 MP Kapak (f/2.2) + 12 MP Ekran Altı İç Kamera (f/1.8)",
+        "videoRes": "4K@120fps Dolby Vision HDR, ProRes LOG, 1080p@240fps Ağır Çekim",
+        "dxomarkScore": 167
+      },
+      "battery": {
+        "capacitymAh": 4883,
+        "chargingWatts": 35,
+        "wirelessCharging": true,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 7 (802.11be)",
+        "bluetooth": "6.0",
+        "hasNFC": true,
+        "hasesim": true
+      },
+      "build": {
+        "weightGrams": 254,
+        "thicknessMm": 5.2,
+        "waterResistance": "IPX8 (Suya Dayanıklı) & IP6X (Toza Dayanıklı)",
+        "frameMaterial": "Grade 5 Titanyum & Ceramic Shield Arka Kapak"
+      },
+      "software": {
+        "osName": "iOS 27 (Apple Intelligence 2.0 Fold OS)",
+        "updateYears": 7
+      }
+    },
+    "variants": [
+      {
+        "id": "apple-apple-iphone-duo-2-tb-1071812-siyah",
+        "name": "Apple iPhone Duo (2 TB) - Siyah",
+        "colorName": "Siyah",
+        "colorHex": "#262626",
+        "image": "/images/phones/apple/apple-iphone-duo-11.jpg",
+        "price": 339999
+      },
+      {
+        "id": "apple-apple-iphone-duo-2-tb-1071812-beyaz",
+        "name": "Apple iPhone Duo (2 TB) - Beyaz",
+        "colorName": "Beyaz",
+        "colorHex": "#F2F2F2",
+        "image": "/images/phones/apple/apple-iphone-duo-12.jpg",
+        "price": 339999
+      }
+    ]
+  },
+  {
     "id": "apple-apple-iphone-18-pro-max-256-gb-1071187",
     "slug": "apple-iphone-18-pro-max-256-gb",
     "name": "Apple iPhone 18 Pro Max (256 GB)",
