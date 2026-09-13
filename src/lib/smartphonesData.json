@@ -9,16 +9,16 @@
     "images": [
       "/images/phones/apple/apple-iphone-18-pro-max-2.png",
       "/images/phones/apple/apple-iphone-18-pro-max-6.jpg",
-      "/images/phones/apple/apple-iphone-18-pro-max-3.jpg",
       "/images/phones/apple/apple-iphone-18-pro-max-9.jpg",
+      "/images/phones/apple/apple-iphone-18-pro-max-3.jpg",
       "/images/phones/apple/apple-iphone-18-pro-max-12.jpg",
       "/images/phones/apple/apple-iphone-18-pro-max-4.jpg",
-      "/images/phones/apple/apple-iphone-18-pro-max-1.jpg",
-      "/images/phones/apple/apple-iphone-18-pro-max-7.jpg",
-      "/images/phones/apple/apple-iphone-18-pro-max-10.jpg",
       "/images/phones/apple/apple-iphone-18-pro-max-5.jpg",
-      "/images/phones/apple/apple-iphone-18-pro-max-2.jpg",
+      "/images/phones/apple/apple-iphone-18-pro-max-7.jpg",
       "/images/phones/apple/apple-iphone-18-pro-max-8.jpg",
+      "/images/phones/apple/apple-iphone-18-pro-max-1.jpg",
+      "/images/phones/apple/apple-iphone-18-pro-max-2.jpg",
+      "/images/phones/apple/apple-iphone-18-pro-max-10.jpg",
       "/images/phones/apple/apple-iphone-18-pro-max-11.jpg"
     ],
     "rating": 4.98,
@@ -53,17 +53,22 @@
       {
         "name": "Burgonya",
         "hex": "#6B1D2F",
-        "image": "/images/phones/apple/apple-iphone-18-pro-max-2.png"
+        "image": "/images/phones/apple/apple-iphone-18-pro-max-6.jpg"
       },
       {
         "name": "Buzul Mavisi",
         "hex": "#8BA8B7",
-        "image": "/images/phones/apple/apple-iphone-18-pro-max-6.jpg"
+        "image": "/images/phones/apple/apple-iphone-18-pro-max-9.jpg"
       },
       {
         "name": "Siyah",
         "hex": "#262626",
         "image": "/images/phones/apple/apple-iphone-18-pro-max-3.jpg"
+      },
+      {
+        "name": "Gümüş",
+        "hex": "#D8D9DA",
+        "image": "/images/phones/apple/apple-iphone-18-pro-max-12.jpg"
       }
     ],
     "storeOffers": [
@@ -208,15 +213,15 @@
         "name": "Apple iPhone 18 Pro Max (256 GB) - Burgonya",
         "colorName": "Burgonya",
         "colorHex": "#6B1D2F",
-        "image": "/images/phones/apple/apple-iphone-18-pro-max-2.png",
+        "image": "/images/phones/apple/apple-iphone-18-pro-max-6.jpg",
         "price": 164737
       },
       {
-        "id": "apple-apple-iphone-18-pro-max-256-gb-1071187-mavi",
+        "id": "apple-apple-iphone-18-pro-max-256-gb-1071187-buzul-mavisi",
         "name": "Apple iPhone 18 Pro Max (256 GB) - Buzul Mavisi",
         "colorName": "Buzul Mavisi",
         "colorHex": "#8BA8B7",
-        "image": "/images/phones/apple/apple-iphone-18-pro-max-6.jpg",
+        "image": "/images/phones/apple/apple-iphone-18-pro-max-9.jpg",
         "price": 164737
       },
       {
@@ -225,6 +230,14 @@
         "colorName": "Siyah",
         "colorHex": "#262626",
         "image": "/images/phones/apple/apple-iphone-18-pro-max-3.jpg",
+        "price": 164737
+      },
+      {
+        "id": "apple-apple-iphone-18-pro-max-256-gb-1071187-gumus",
+        "name": "Apple iPhone 18 Pro Max (256 GB) - Gümüş",
+        "colorName": "Gümüş",
+        "colorHex": "#D8D9DA",
+        "image": "/images/phones/apple/apple-iphone-18-pro-max-12.jpg",
         "price": 164737
       }
     ]
@@ -239,16 +252,16 @@
     "images": [
       "/images/phones/apple/apple-iphone-18-pro-max-2.png",
       "/images/phones/apple/apple-iphone-18-pro-max-6.jpg",
-      "/images/phones/apple/apple-iphone-18-pro-max-3.jpg",
       "/images/phones/apple/apple-iphone-18-pro-max-9.jpg",
+      "/images/phones/apple/apple-iphone-18-pro-max-3.jpg",
       "/images/phones/apple/apple-iphone-18-pro-max-12.jpg",
       "/images/phones/apple/apple-iphone-18-pro-max-4.jpg",
-      "/images/phones/apple/apple-iphone-18-pro-max-1.jpg",
-      "/images/phones/apple/apple-iphone-18-pro-max-7.jpg",
-      "/images/phones/apple/apple-iphone-18-pro-max-10.jpg",
       "/images/phones/apple/apple-iphone-18-pro-max-5.jpg",
-      "/images/phones/apple/apple-iphone-18-pro-max-2.jpg",
+      "/images/phones/apple/apple-iphone-18-pro-max-7.jpg",
       "/images/phones/apple/apple-iphone-18-pro-max-8.jpg",
+      "/images/phones/apple/apple-iphone-18-pro-max-1.jpg",
+      "/images/phones/apple/apple-iphone-18-pro-max-2.jpg",
+      "/images/phones/apple/apple-iphone-18-pro-max-10.jpg",
       "/images/phones/apple/apple-iphone-18-pro-max-11.jpg"
     ],
     "rating": 4.98,
@@ -283,17 +296,22 @@
       {
         "name": "Burgonya",
         "hex": "#6B1D2F",
-        "image": "/images/phones/apple/apple-iphone-18-pro-max-2.png"
+        "image": "/images/phones/apple/apple-iphone-18-pro-max-6.jpg"
       },
       {
         "name": "Buzul Mavisi",
         "hex": "#8BA8B7",
-        "image": "/images/phones/apple/apple-iphone-18-pro-max-6.jpg"
+        "image": "/images/phones/apple/apple-iphone-18-pro-max-9.jpg"
       },
       {
         "name": "Siyah",
         "hex": "#262626",
         "image": "/images/phones/apple/apple-iphone-18-pro-max-3.jpg"
+      },
+      {
+        "name": "Gümüş",
+        "hex": "#D8D9DA",
+        "image": "/images/phones/apple/apple-iphone-18-pro-max-12.jpg"
       }
     ],
     "storeOffers": [
@@ -438,15 +456,15 @@
         "name": "Apple iPhone 18 Pro Max (512 GB) - Burgonya",
         "colorName": "Burgonya",
         "colorHex": "#6B1D2F",
-        "image": "/images/phones/apple/apple-iphone-18-pro-max-2.png",
+        "image": "/images/phones/apple/apple-iphone-18-pro-max-6.jpg",
         "price": 166999
       },
       {
-        "id": "apple-apple-iphone-18-pro-max-512-gb-1071804-mavi",
+        "id": "apple-apple-iphone-18-pro-max-512-gb-1071804-buzul-mavisi",
         "name": "Apple iPhone 18 Pro Max (512 GB) - Buzul Mavisi",
         "colorName": "Buzul Mavisi",
         "colorHex": "#8BA8B7",
-        "image": "/images/phones/apple/apple-iphone-18-pro-max-6.jpg",
+        "image": "/images/phones/apple/apple-iphone-18-pro-max-9.jpg",
         "price": 166999
       },
       {
@@ -455,6 +473,14 @@
         "colorName": "Siyah",
         "colorHex": "#262626",
         "image": "/images/phones/apple/apple-iphone-18-pro-max-3.jpg",
+        "price": 166999
+      },
+      {
+        "id": "apple-apple-iphone-18-pro-max-512-gb-1071804-gumus",
+        "name": "Apple iPhone 18 Pro Max (512 GB) - Gümüş",
+        "colorName": "Gümüş",
+        "colorHex": "#D8D9DA",
+        "image": "/images/phones/apple/apple-iphone-18-pro-max-12.jpg",
         "price": 166999
       }
     ]
@@ -469,16 +495,16 @@
     "images": [
       "/images/phones/apple/apple-iphone-18-pro-max-2.png",
       "/images/phones/apple/apple-iphone-18-pro-max-6.jpg",
-      "/images/phones/apple/apple-iphone-18-pro-max-3.jpg",
       "/images/phones/apple/apple-iphone-18-pro-max-9.jpg",
+      "/images/phones/apple/apple-iphone-18-pro-max-3.jpg",
       "/images/phones/apple/apple-iphone-18-pro-max-12.jpg",
       "/images/phones/apple/apple-iphone-18-pro-max-4.jpg",
-      "/images/phones/apple/apple-iphone-18-pro-max-1.jpg",
-      "/images/phones/apple/apple-iphone-18-pro-max-7.jpg",
-      "/images/phones/apple/apple-iphone-18-pro-max-10.jpg",
       "/images/phones/apple/apple-iphone-18-pro-max-5.jpg",
-      "/images/phones/apple/apple-iphone-18-pro-max-2.jpg",
+      "/images/phones/apple/apple-iphone-18-pro-max-7.jpg",
       "/images/phones/apple/apple-iphone-18-pro-max-8.jpg",
+      "/images/phones/apple/apple-iphone-18-pro-max-1.jpg",
+      "/images/phones/apple/apple-iphone-18-pro-max-2.jpg",
+      "/images/phones/apple/apple-iphone-18-pro-max-10.jpg",
       "/images/phones/apple/apple-iphone-18-pro-max-11.jpg"
     ],
     "rating": 4.98,
@@ -513,17 +539,22 @@
       {
         "name": "Burgonya",
         "hex": "#6B1D2F",
-        "image": "/images/phones/apple/apple-iphone-18-pro-max-2.png"
+        "image": "/images/phones/apple/apple-iphone-18-pro-max-6.jpg"
       },
       {
         "name": "Buzul Mavisi",
         "hex": "#8BA8B7",
-        "image": "/images/phones/apple/apple-iphone-18-pro-max-6.jpg"
+        "image": "/images/phones/apple/apple-iphone-18-pro-max-9.jpg"
       },
       {
         "name": "Siyah",
         "hex": "#262626",
         "image": "/images/phones/apple/apple-iphone-18-pro-max-3.jpg"
+      },
+      {
+        "name": "Gümüş",
+        "hex": "#D8D9DA",
+        "image": "/images/phones/apple/apple-iphone-18-pro-max-12.jpg"
       }
     ],
     "storeOffers": [
@@ -668,15 +699,15 @@
         "name": "Apple iPhone 18 Pro Max (1 TB) - Burgonya",
         "colorName": "Burgonya",
         "colorHex": "#6B1D2F",
-        "image": "/images/phones/apple/apple-iphone-18-pro-max-2.png",
+        "image": "/images/phones/apple/apple-iphone-18-pro-max-6.jpg",
         "price": 200999
       },
       {
-        "id": "apple-apple-iphone-18-pro-max-1-tb-1071805-mavi",
+        "id": "apple-apple-iphone-18-pro-max-1-tb-1071805-buzul-mavisi",
         "name": "Apple iPhone 18 Pro Max (1 TB) - Buzul Mavisi",
         "colorName": "Buzul Mavisi",
         "colorHex": "#8BA8B7",
-        "image": "/images/phones/apple/apple-iphone-18-pro-max-6.jpg",
+        "image": "/images/phones/apple/apple-iphone-18-pro-max-9.jpg",
         "price": 200999
       },
       {
@@ -685,6 +716,14 @@
         "colorName": "Siyah",
         "colorHex": "#262626",
         "image": "/images/phones/apple/apple-iphone-18-pro-max-3.jpg",
+        "price": 200999
+      },
+      {
+        "id": "apple-apple-iphone-18-pro-max-1-tb-1071805-gumus",
+        "name": "Apple iPhone 18 Pro Max (1 TB) - Gümüş",
+        "colorName": "Gümüş",
+        "colorHex": "#D8D9DA",
+        "image": "/images/phones/apple/apple-iphone-18-pro-max-12.jpg",
         "price": 200999
       }
     ]
@@ -699,16 +738,16 @@
     "images": [
       "/images/phones/apple/apple-iphone-18-pro-max-2.png",
       "/images/phones/apple/apple-iphone-18-pro-max-6.jpg",
-      "/images/phones/apple/apple-iphone-18-pro-max-3.jpg",
       "/images/phones/apple/apple-iphone-18-pro-max-9.jpg",
+      "/images/phones/apple/apple-iphone-18-pro-max-3.jpg",
       "/images/phones/apple/apple-iphone-18-pro-max-12.jpg",
       "/images/phones/apple/apple-iphone-18-pro-max-4.jpg",
-      "/images/phones/apple/apple-iphone-18-pro-max-1.jpg",
-      "/images/phones/apple/apple-iphone-18-pro-max-7.jpg",
-      "/images/phones/apple/apple-iphone-18-pro-max-10.jpg",
       "/images/phones/apple/apple-iphone-18-pro-max-5.jpg",
-      "/images/phones/apple/apple-iphone-18-pro-max-2.jpg",
+      "/images/phones/apple/apple-iphone-18-pro-max-7.jpg",
       "/images/phones/apple/apple-iphone-18-pro-max-8.jpg",
+      "/images/phones/apple/apple-iphone-18-pro-max-1.jpg",
+      "/images/phones/apple/apple-iphone-18-pro-max-2.jpg",
+      "/images/phones/apple/apple-iphone-18-pro-max-10.jpg",
       "/images/phones/apple/apple-iphone-18-pro-max-11.jpg"
     ],
     "rating": 4.98,
@@ -743,17 +782,22 @@
       {
         "name": "Burgonya",
         "hex": "#6B1D2F",
-        "image": "/images/phones/apple/apple-iphone-18-pro-max-2.png"
+        "image": "/images/phones/apple/apple-iphone-18-pro-max-6.jpg"
       },
       {
         "name": "Buzul Mavisi",
         "hex": "#8BA8B7",
-        "image": "/images/phones/apple/apple-iphone-18-pro-max-6.jpg"
+        "image": "/images/phones/apple/apple-iphone-18-pro-max-9.jpg"
       },
       {
         "name": "Siyah",
         "hex": "#262626",
         "image": "/images/phones/apple/apple-iphone-18-pro-max-3.jpg"
+      },
+      {
+        "name": "Gümüş",
+        "hex": "#D8D9DA",
+        "image": "/images/phones/apple/apple-iphone-18-pro-max-12.jpg"
       }
     ],
     "storeOffers": [
@@ -898,15 +942,15 @@
         "name": "Apple iPhone 18 Pro Max (2 TB) - Burgonya",
         "colorName": "Burgonya",
         "colorHex": "#6B1D2F",
-        "image": "/images/phones/apple/apple-iphone-18-pro-max-2.png",
+        "image": "/images/phones/apple/apple-iphone-18-pro-max-6.jpg",
         "price": 255999
       },
       {
-        "id": "apple-apple-iphone-18-pro-max-2-tb-1071806-mavi",
+        "id": "apple-apple-iphone-18-pro-max-2-tb-1071806-buzul-mavisi",
         "name": "Apple iPhone 18 Pro Max (2 TB) - Buzul Mavisi",
         "colorName": "Buzul Mavisi",
         "colorHex": "#8BA8B7",
-        "image": "/images/phones/apple/apple-iphone-18-pro-max-6.jpg",
+        "image": "/images/phones/apple/apple-iphone-18-pro-max-9.jpg",
         "price": 255999
       },
       {
@@ -915,6 +959,14 @@
         "colorName": "Siyah",
         "colorHex": "#262626",
         "image": "/images/phones/apple/apple-iphone-18-pro-max-3.jpg",
+        "price": 255999
+      },
+      {
+        "id": "apple-apple-iphone-18-pro-max-2-tb-1071806-gumus",
+        "name": "Apple iPhone 18 Pro Max (2 TB) - Gümüş",
+        "colorName": "Gümüş",
+        "colorHex": "#D8D9DA",
+        "image": "/images/phones/apple/apple-iphone-18-pro-max-12.jpg",
         "price": 255999
       }
     ]
@@ -980,7 +1032,7 @@
       {
         "name": "Buzul Mavisi",
         "hex": "#8BA8B7",
-        "image": "/images/phones/apple/apple-iphone-18-pro-1.jpg"
+        "image": "/images/phones/apple/apple-iphone-18-pro-10.jpg"
       },
       {
         "name": "Siyah",
@@ -1130,7 +1182,7 @@
         "name": "Apple iPhone 18 Pro (256 GB) - Buzul Mavisi",
         "colorName": "Buzul Mavisi",
         "colorHex": "#8BA8B7",
-        "image": "/images/phones/apple/apple-iphone-18-pro-1.jpg",
+        "image": "/images/phones/apple/apple-iphone-18-pro-10.jpg",
         "price": 137999
       },
       {
@@ -1212,7 +1264,7 @@
       {
         "name": "Buzul Mavisi",
         "hex": "#8BA8B7",
-        "image": "/images/phones/apple/apple-iphone-18-pro-1.jpg"
+        "image": "/images/phones/apple/apple-iphone-18-pro-10.jpg"
       },
       {
         "name": "Siyah",
@@ -1362,7 +1414,7 @@
         "name": "Apple iPhone 18 Pro (512 GB) - Buzul Mavisi",
         "colorName": "Buzul Mavisi",
         "colorHex": "#8BA8B7",
-        "image": "/images/phones/apple/apple-iphone-18-pro-1.jpg",
+        "image": "/images/phones/apple/apple-iphone-18-pro-10.jpg",
         "price": 154999
       },
       {
@@ -1444,7 +1496,7 @@
       {
         "name": "Buzul Mavisi",
         "hex": "#8BA8B7",
-        "image": "/images/phones/apple/apple-iphone-18-pro-1.jpg"
+        "image": "/images/phones/apple/apple-iphone-18-pro-10.jpg"
       },
       {
         "name": "Siyah",
@@ -1594,7 +1646,7 @@
         "name": "Apple iPhone 18 Pro (1 TB) - Buzul Mavisi",
         "colorName": "Buzul Mavisi",
         "colorHex": "#8BA8B7",
-        "image": "/images/phones/apple/apple-iphone-18-pro-1.jpg",
+        "image": "/images/phones/apple/apple-iphone-18-pro-10.jpg",
         "price": 188999
       },
       {
@@ -1676,7 +1728,7 @@
       {
         "name": "Buzul Mavisi",
         "hex": "#8BA8B7",
-        "image": "/images/phones/apple/apple-iphone-18-pro-1.jpg"
+        "image": "/images/phones/apple/apple-iphone-18-pro-10.jpg"
       },
       {
         "name": "Siyah",
@@ -1826,7 +1878,7 @@
         "name": "Apple iPhone 18 Pro (2 TB) - Buzul Mavisi",
         "colorName": "Buzul Mavisi",
         "colorHex": "#8BA8B7",
-        "image": "/images/phones/apple/apple-iphone-18-pro-1.jpg",
+        "image": "/images/phones/apple/apple-iphone-18-pro-10.jpg",
         "price": 229999
       },
       {
