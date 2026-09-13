@@ -1,5 +1,889 @@
 [
   {
+    "id": "apple-apple-iphone-18-pro-max-256-gb-1071187",
+    "slug": "apple-iphone-18-pro-max-256-gb",
+    "name": "Apple iPhone 18 Pro Max (256 GB)",
+    "brand": "Apple",
+    "category": "smartphones",
+    "image": "/images/phones/apple/apple-iphone-18-pro-max.png",
+    "images": [
+      "/images/phones/apple/apple-iphone-18-pro-max.png",
+      "/images/phones/apple/apple-iphone-18-pro-max-burgundy.png",
+      "/images/phones/apple/apple-iphone-18-pro-max-blue.jpg",
+      "/images/phones/apple/apple-iphone-18-pro-max-black.jpg"
+    ],
+    "rating": 4.98,
+    "epeyScore": 100,
+    "reviewCount": 105,
+    "basePrice": 164737,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isLatestModel": true,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "Apple A20 Pro (2nm TSMC N2) Yeni Nesil 6 Çekirdekli Çip",
+      "6.9 inç 120Hz ProMotion Super Retina XDR OLED (3200 nit)",
+      "48 MP Fusion + 48 MP Ultra Geniş + 48 MP 5x Periskop Telefoto",
+      "12 GB LPDDR5X RAM & Apple Intelligence 2.0 Entegrasyonu",
+      "5391 mAh Devasa Batarya Kapasitesi & 45W Hızlı Şarj",
+      "Havacılık Sınıfı Grade 5 Titanyum Kasa & Seramik Kalkan 2"
+    ],
+    "pros": [
+      "Apple A20 Pro (2nm) mimarisiyle sektörün en yüksek tek ve çoklu çekirdek performansı",
+      "5391 mAh ile iPhone tarihindeki en uzun batarya kullanım süresi",
+      "12 GB RAM ile gelişmiş yerleşik Apple Intelligence 2.0 yapay zeka işlem kabiliyeti",
+      "3200 nits tepe parlaklığı ile doğrudan güneş ışığında dahi kusursuz okunabilirlik",
+      "4K 120 fps Dolby Vision HDR / ProRes Log ve 5x Periskop optik zoom"
+    ],
+    "cons": [
+      "Üst segment premium fiyat etiketi",
+      "6.9 inç büyük ekran boyutu nedeniyle tek elle kullanımda geniş gövde"
+    ],
+    "colorOptions": [
+      {
+        "name": "Burgonya",
+        "hex": "#6B1D2F",
+        "image": "/images/phones/apple/apple-iphone-18-pro-max-burgundy.png"
+      },
+      {
+        "name": "Buzul Mavisi",
+        "hex": "#8BA8B7",
+        "image": "/images/phones/apple/apple-iphone-18-pro-max-blue.jpg"
+      },
+      {
+        "name": "Siyah",
+        "hex": "#262626",
+        "image": "/images/phones/apple/apple-iphone-18-pro-max-black.jpg"
+      }
+    ],
+    "storeOffers": [
+      {
+        "storeName": "PttAVM",
+        "price": 164737,
+        "url": "https://www.pttavm.com/iphone-18-pro-max-256-gb-apple-turkiye-garantili-p-1071187",
+        "inStock": true,
+        "updatedAt": "2026-09-13T12:00:00.000Z"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "price": 166054,
+        "url": "https://www.hepsiburada.com/apple-iphone-18-pro-max-256-gb-p-HBCV1071187",
+        "inStock": true,
+        "updatedAt": "2026-09-13T12:00:00.000Z"
+      },
+      {
+        "storeName": "Trendyol",
+        "price": 166713,
+        "url": "https://www.trendyol.com/sr?q=Apple%20iPhone%2018%20Pro%20Max%20(256 GB)",
+        "inStock": true
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "price": 167208,
+        "url": "https://www.vatanbilgisayar.com/arama/Apple%20iPhone%2018%20Pro%20Max%20(256 GB)",
+        "inStock": true
+      },
+      {
+        "storeName": "Teknosa",
+        "price": 167702,
+        "url": "https://www.teknosa.com/arama?s=Apple%20iPhone%2018%20Pro%20Max%20(256 GB)",
+        "inStock": true
+      },
+      {
+        "storeName": "MediaMarkt",
+        "price": 168031,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Apple%20iPhone%2018%20Pro%20Max%20(256 GB)",
+        "inStock": true
+      },
+      {
+        "storeName": "Amazon TR",
+        "price": 168361,
+        "url": "https://www.amazon.com.tr/s?k=Apple%20iPhone%2018%20Pro%20Max%20(256 GB)",
+        "inStock": true
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-04-01",
+        "price": 170502
+      },
+      {
+        "date": "2026-05-01",
+        "price": 168855
+      },
+      {
+        "date": "2026-06-01",
+        "price": 168031
+      },
+      {
+        "date": "2026-07-01",
+        "price": 166713
+      },
+      {
+        "date": "2026-08-01",
+        "price": 166054
+      },
+      {
+        "date": "2026-09-01",
+        "price": 165396
+      },
+      {
+        "date": "13 Eylül 2026",
+        "price": 164737
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.9 inç",
+        "type": "LTPO Super Retina XDR OLED (1-120Hz ProMotion)",
+        "resolution": "2868 x 1320 piksel (460 ppi)",
+        "refreshRate": 120,
+        "brightnessNits": 3200,
+        "ppi": 460
+      },
+      "processor": {
+        "chip": "Apple A20 Pro (2nm TSMC N2)",
+        "cores": "6 Çekirdek (2x 4.25 GHz + 4x 2.4 GHz)",
+        "process": "2nm",
+        "antutuScore": 2350000
+      },
+      "memory": {
+        "ramGb": 12,
+        "ramType": "12 GB LPDDR5X (16-Core Neural Engine 45 TOPS)",
+        "storageGb": 256,
+        "storageOptions": [
+          256,
+          512,
+          1024,
+          2048
+        ],
+        "expandableStorage": false
+      },
+      "camera": {
+        "mainMp": "48 MP Fusion, f/1.78, 24mm, 2. nesil Sensor-shift OIS",
+        "ultrawideMp": "48 MP, f/2.2, 13mm, 120˚, Hibrit Odak",
+        "telephotoMp": "48 MP Periskop Tetraprism (5x Optik Zoom, f/2.8, 120mm, 3D Sensör OIS)",
+        "selfieMp": "24 MP TrueDepth, f/1.9, Otomatik Odaklama (AF)",
+        "videoRes": "4K@120fps Dolby Vision, ProRes LOG, Uzamsal Video",
+        "dxomarkScore": 166
+      },
+      "battery": {
+        "capacitymAh": 5391,
+        "chargingWatts": 45,
+        "wirelessCharging": true,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 7 (802.11be)",
+        "bluetooth": "5.4",
+        "hasNFC": true,
+        "hasesim": true
+      },
+      "build": {
+        "weightGrams": 228,
+        "thicknessMm": 8.25,
+        "waterResistance": "IP68 / IPX8 (6 metre 30 dakika)",
+        "frameMaterial": "Grade 5 Titanyum"
+      },
+      "software": {
+        "osName": "iOS 20 (Apple Intelligence 2.0)",
+        "updateYears": 7
+      }
+    },
+    "price": 164737,
+    "variants": [
+      {
+        "id": "apple-apple-iphone-18-pro-max-256-gb-1071187-burgonya",
+        "name": "Apple iPhone 18 Pro Max (256 GB) - Burgonya",
+        "colorName": "Burgonya",
+        "colorHex": "#6B1D2F",
+        "image": "/images/phones/apple/apple-iphone-18-pro-max-burgundy.png",
+        "price": 164737
+      },
+      {
+        "id": "apple-apple-iphone-18-pro-max-256-gb-1071187-mavi",
+        "name": "Apple iPhone 18 Pro Max (256 GB) - Buzul Mavisi",
+        "colorName": "Buzul Mavisi",
+        "colorHex": "#8BA8B7",
+        "image": "/images/phones/apple/apple-iphone-18-pro-max-blue.jpg",
+        "price": 164737
+      },
+      {
+        "id": "apple-apple-iphone-18-pro-max-256-gb-1071187-siyah",
+        "name": "Apple iPhone 18 Pro Max (256 GB) - Siyah",
+        "colorName": "Siyah",
+        "colorHex": "#262626",
+        "image": "/images/phones/apple/apple-iphone-18-pro-max-black.jpg",
+        "price": 164737
+      }
+    ]
+  },
+  {
+    "id": "apple-apple-iphone-18-pro-max-512-gb-1071804",
+    "slug": "apple-iphone-18-pro-max-512-gb",
+    "name": "Apple iPhone 18 Pro Max (512 GB)",
+    "brand": "Apple",
+    "category": "smartphones",
+    "image": "/images/phones/apple/apple-iphone-18-pro-max.png",
+    "images": [
+      "/images/phones/apple/apple-iphone-18-pro-max.png",
+      "/images/phones/apple/apple-iphone-18-pro-max-burgundy.png",
+      "/images/phones/apple/apple-iphone-18-pro-max-blue.jpg",
+      "/images/phones/apple/apple-iphone-18-pro-max-black.jpg"
+    ],
+    "rating": 4.98,
+    "epeyScore": 100,
+    "reviewCount": 105,
+    "basePrice": 166999,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isLatestModel": true,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "Apple A20 Pro (2nm TSMC N2) Yeni Nesil 6 Çekirdekli Çip",
+      "6.9 inç 120Hz ProMotion Super Retina XDR OLED (3200 nit)",
+      "48 MP Fusion + 48 MP Ultra Geniş + 48 MP 5x Periskop Telefoto",
+      "12 GB LPDDR5X RAM & Apple Intelligence 2.0 Entegrasyonu",
+      "5391 mAh Devasa Batarya Kapasitesi & 45W Hızlı Şarj",
+      "Havacılık Sınıfı Grade 5 Titanyum Kasa & Seramik Kalkan 2"
+    ],
+    "pros": [
+      "Apple A20 Pro (2nm) mimarisiyle sektörün en yüksek tek ve çoklu çekirdek performansı",
+      "5391 mAh ile iPhone tarihindeki en uzun batarya kullanım süresi",
+      "12 GB RAM ile gelişmiş yerleşik Apple Intelligence 2.0 yapay zeka işlem kabiliyeti",
+      "3200 nits tepe parlaklığı ile doğrudan güneş ışığında dahi kusursuz okunabilirlik",
+      "4K 120 fps Dolby Vision HDR / ProRes Log ve 5x Periskop optik zoom"
+    ],
+    "cons": [
+      "Üst segment premium fiyat etiketi",
+      "6.9 inç büyük ekran boyutu nedeniyle tek elle kullanımda geniş gövde"
+    ],
+    "colorOptions": [
+      {
+        "name": "Burgonya",
+        "hex": "#6B1D2F",
+        "image": "/images/phones/apple/apple-iphone-18-pro-max-burgundy.png"
+      },
+      {
+        "name": "Buzul Mavisi",
+        "hex": "#8BA8B7",
+        "image": "/images/phones/apple/apple-iphone-18-pro-max-blue.jpg"
+      },
+      {
+        "name": "Siyah",
+        "hex": "#262626",
+        "image": "/images/phones/apple/apple-iphone-18-pro-max-black.jpg"
+      }
+    ],
+    "storeOffers": [
+      {
+        "storeName": "PttAVM",
+        "price": 166999,
+        "url": "https://www.pttavm.com/iphone-18-pro-max-512-gb-apple-turkiye-garantili-p-1071804",
+        "inStock": true,
+        "updatedAt": "2026-09-13T12:00:00.000Z"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "price": 168335,
+        "url": "https://www.hepsiburada.com/apple-iphone-18-pro-max-512-gb-p-HBCV1071804",
+        "inStock": true,
+        "updatedAt": "2026-09-13T12:00:00.000Z"
+      },
+      {
+        "storeName": "Trendyol",
+        "price": 169003,
+        "url": "https://www.trendyol.com/sr?q=Apple%20iPhone%2018%20Pro%20Max%20(512 GB)",
+        "inStock": true
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "price": 169504,
+        "url": "https://www.vatanbilgisayar.com/arama/Apple%20iPhone%2018%20Pro%20Max%20(512 GB)",
+        "inStock": true
+      },
+      {
+        "storeName": "Teknosa",
+        "price": 170005,
+        "url": "https://www.teknosa.com/arama?s=Apple%20iPhone%2018%20Pro%20Max%20(512 GB)",
+        "inStock": true
+      },
+      {
+        "storeName": "MediaMarkt",
+        "price": 170339,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Apple%20iPhone%2018%20Pro%20Max%20(512 GB)",
+        "inStock": true
+      },
+      {
+        "storeName": "Amazon TR",
+        "price": 170673,
+        "url": "https://www.amazon.com.tr/s?k=Apple%20iPhone%2018%20Pro%20Max%20(512 GB)",
+        "inStock": true
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-04-01",
+        "price": 172844
+      },
+      {
+        "date": "2026-05-01",
+        "price": 171174
+      },
+      {
+        "date": "2026-06-01",
+        "price": 170339
+      },
+      {
+        "date": "2026-07-01",
+        "price": 169003
+      },
+      {
+        "date": "2026-08-01",
+        "price": 168335
+      },
+      {
+        "date": "2026-09-01",
+        "price": 167667
+      },
+      {
+        "date": "13 Eylül 2026",
+        "price": 166999
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.9 inç",
+        "type": "LTPO Super Retina XDR OLED (1-120Hz ProMotion)",
+        "resolution": "2868 x 1320 piksel (460 ppi)",
+        "refreshRate": 120,
+        "brightnessNits": 3200,
+        "ppi": 460
+      },
+      "processor": {
+        "chip": "Apple A20 Pro (2nm TSMC N2)",
+        "cores": "6 Çekirdek (2x 4.25 GHz + 4x 2.4 GHz)",
+        "process": "2nm",
+        "antutuScore": 2350000
+      },
+      "memory": {
+        "ramGb": 12,
+        "ramType": "12 GB LPDDR5X (16-Core Neural Engine 45 TOPS)",
+        "storageGb": 512,
+        "storageOptions": [
+          256,
+          512,
+          1024,
+          2048
+        ],
+        "expandableStorage": false
+      },
+      "camera": {
+        "mainMp": "48 MP Fusion, f/1.78, 24mm, 2. nesil Sensor-shift OIS",
+        "ultrawideMp": "48 MP, f/2.2, 13mm, 120˚, Hibrit Odak",
+        "telephotoMp": "48 MP Periskop Tetraprism (5x Optik Zoom, f/2.8, 120mm, 3D Sensör OIS)",
+        "selfieMp": "24 MP TrueDepth, f/1.9, Otomatik Odaklama (AF)",
+        "videoRes": "4K@120fps Dolby Vision, ProRes LOG, Uzamsal Video",
+        "dxomarkScore": 166
+      },
+      "battery": {
+        "capacitymAh": 5391,
+        "chargingWatts": 45,
+        "wirelessCharging": true,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 7 (802.11be)",
+        "bluetooth": "5.4",
+        "hasNFC": true,
+        "hasesim": true
+      },
+      "build": {
+        "weightGrams": 228,
+        "thicknessMm": 8.25,
+        "waterResistance": "IP68 / IPX8 (6 metre 30 dakika)",
+        "frameMaterial": "Grade 5 Titanyum"
+      },
+      "software": {
+        "osName": "iOS 20 (Apple Intelligence 2.0)",
+        "updateYears": 7
+      }
+    },
+    "price": 166999,
+    "variants": [
+      {
+        "id": "apple-apple-iphone-18-pro-max-512-gb-1071804-burgonya",
+        "name": "Apple iPhone 18 Pro Max (512 GB) - Burgonya",
+        "colorName": "Burgonya",
+        "colorHex": "#6B1D2F",
+        "image": "/images/phones/apple/apple-iphone-18-pro-max-burgundy.png",
+        "price": 166999
+      },
+      {
+        "id": "apple-apple-iphone-18-pro-max-512-gb-1071804-mavi",
+        "name": "Apple iPhone 18 Pro Max (512 GB) - Buzul Mavisi",
+        "colorName": "Buzul Mavisi",
+        "colorHex": "#8BA8B7",
+        "image": "/images/phones/apple/apple-iphone-18-pro-max-blue.jpg",
+        "price": 166999
+      },
+      {
+        "id": "apple-apple-iphone-18-pro-max-512-gb-1071804-siyah",
+        "name": "Apple iPhone 18 Pro Max (512 GB) - Siyah",
+        "colorName": "Siyah",
+        "colorHex": "#262626",
+        "image": "/images/phones/apple/apple-iphone-18-pro-max-black.jpg",
+        "price": 166999
+      }
+    ]
+  },
+  {
+    "id": "apple-apple-iphone-18-pro-max-1-tb-1071805",
+    "slug": "apple-iphone-18-pro-max-1-tb",
+    "name": "Apple iPhone 18 Pro Max (1 TB)",
+    "brand": "Apple",
+    "category": "smartphones",
+    "image": "/images/phones/apple/apple-iphone-18-pro-max.png",
+    "images": [
+      "/images/phones/apple/apple-iphone-18-pro-max.png",
+      "/images/phones/apple/apple-iphone-18-pro-max-burgundy.png",
+      "/images/phones/apple/apple-iphone-18-pro-max-blue.jpg",
+      "/images/phones/apple/apple-iphone-18-pro-max-black.jpg"
+    ],
+    "rating": 4.98,
+    "epeyScore": 100,
+    "reviewCount": 105,
+    "basePrice": 200999,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isLatestModel": true,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "Apple A20 Pro (2nm TSMC N2) Yeni Nesil 6 Çekirdekli Çip",
+      "6.9 inç 120Hz ProMotion Super Retina XDR OLED (3200 nit)",
+      "48 MP Fusion + 48 MP Ultra Geniş + 48 MP 5x Periskop Telefoto",
+      "12 GB LPDDR5X RAM & Apple Intelligence 2.0 Entegrasyonu",
+      "5391 mAh Devasa Batarya Kapasitesi & 45W Hızlı Şarj",
+      "Havacılık Sınıfı Grade 5 Titanyum Kasa & Seramik Kalkan 2"
+    ],
+    "pros": [
+      "Apple A20 Pro (2nm) mimarisiyle sektörün en yüksek tek ve çoklu çekirdek performansı",
+      "5391 mAh ile iPhone tarihindeki en uzun batarya kullanım süresi",
+      "12 GB RAM ile gelişmiş yerleşik Apple Intelligence 2.0 yapay zeka işlem kabiliyeti",
+      "3200 nits tepe parlaklığı ile doğrudan güneş ışığında dahi kusursuz okunabilirlik",
+      "4K 120 fps Dolby Vision HDR / ProRes Log ve 5x Periskop optik zoom"
+    ],
+    "cons": [
+      "Üst segment premium fiyat etiketi",
+      "6.9 inç büyük ekran boyutu nedeniyle tek elle kullanımda geniş gövde"
+    ],
+    "colorOptions": [
+      {
+        "name": "Burgonya",
+        "hex": "#6B1D2F",
+        "image": "/images/phones/apple/apple-iphone-18-pro-max-burgundy.png"
+      },
+      {
+        "name": "Buzul Mavisi",
+        "hex": "#8BA8B7",
+        "image": "/images/phones/apple/apple-iphone-18-pro-max-blue.jpg"
+      },
+      {
+        "name": "Siyah",
+        "hex": "#262626",
+        "image": "/images/phones/apple/apple-iphone-18-pro-max-black.jpg"
+      }
+    ],
+    "storeOffers": [
+      {
+        "storeName": "PttAVM",
+        "price": 200999,
+        "url": "https://www.pttavm.com/iphone-18-pro-max-1-tb-apple-turkiye-garantili-p-1071805",
+        "inStock": true,
+        "updatedAt": "2026-09-13T12:00:00.000Z"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "price": 202607,
+        "url": "https://www.hepsiburada.com/apple-iphone-18-pro-max-1-tb-p-HBCV1071805",
+        "inStock": true,
+        "updatedAt": "2026-09-13T12:00:00.000Z"
+      },
+      {
+        "storeName": "Trendyol",
+        "price": 203411,
+        "url": "https://www.trendyol.com/sr?q=Apple%20iPhone%2018%20Pro%20Max%20(1 TB)",
+        "inStock": true
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "price": 204014,
+        "url": "https://www.vatanbilgisayar.com/arama/Apple%20iPhone%2018%20Pro%20Max%20(1 TB)",
+        "inStock": true
+      },
+      {
+        "storeName": "Teknosa",
+        "price": 204617,
+        "url": "https://www.teknosa.com/arama?s=Apple%20iPhone%2018%20Pro%20Max%20(1 TB)",
+        "inStock": true
+      },
+      {
+        "storeName": "MediaMarkt",
+        "price": 205019,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Apple%20iPhone%2018%20Pro%20Max%20(1 TB)",
+        "inStock": true
+      },
+      {
+        "storeName": "Amazon TR",
+        "price": 205421,
+        "url": "https://www.amazon.com.tr/s?k=Apple%20iPhone%2018%20Pro%20Max%20(1 TB)",
+        "inStock": true
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-04-01",
+        "price": 208034
+      },
+      {
+        "date": "2026-05-01",
+        "price": 206024
+      },
+      {
+        "date": "2026-06-01",
+        "price": 205019
+      },
+      {
+        "date": "2026-07-01",
+        "price": 203411
+      },
+      {
+        "date": "2026-08-01",
+        "price": 202607
+      },
+      {
+        "date": "2026-09-01",
+        "price": 201803
+      },
+      {
+        "date": "13 Eylül 2026",
+        "price": 200999
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.9 inç",
+        "type": "LTPO Super Retina XDR OLED (1-120Hz ProMotion)",
+        "resolution": "2868 x 1320 piksel (460 ppi)",
+        "refreshRate": 120,
+        "brightnessNits": 3200,
+        "ppi": 460
+      },
+      "processor": {
+        "chip": "Apple A20 Pro (2nm TSMC N2)",
+        "cores": "6 Çekirdek (2x 4.25 GHz + 4x 2.4 GHz)",
+        "process": "2nm",
+        "antutuScore": 2350000
+      },
+      "memory": {
+        "ramGb": 12,
+        "ramType": "12 GB LPDDR5X (16-Core Neural Engine 45 TOPS)",
+        "storageGb": 1024,
+        "storageOptions": [
+          256,
+          512,
+          1024,
+          2048
+        ],
+        "expandableStorage": false
+      },
+      "camera": {
+        "mainMp": "48 MP Fusion, f/1.78, 24mm, 2. nesil Sensor-shift OIS",
+        "ultrawideMp": "48 MP, f/2.2, 13mm, 120˚, Hibrit Odak",
+        "telephotoMp": "48 MP Periskop Tetraprism (5x Optik Zoom, f/2.8, 120mm, 3D Sensör OIS)",
+        "selfieMp": "24 MP TrueDepth, f/1.9, Otomatik Odaklama (AF)",
+        "videoRes": "4K@120fps Dolby Vision, ProRes LOG, Uzamsal Video",
+        "dxomarkScore": 166
+      },
+      "battery": {
+        "capacitymAh": 5391,
+        "chargingWatts": 45,
+        "wirelessCharging": true,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 7 (802.11be)",
+        "bluetooth": "5.4",
+        "hasNFC": true,
+        "hasesim": true
+      },
+      "build": {
+        "weightGrams": 228,
+        "thicknessMm": 8.25,
+        "waterResistance": "IP68 / IPX8 (6 metre 30 dakika)",
+        "frameMaterial": "Grade 5 Titanyum"
+      },
+      "software": {
+        "osName": "iOS 20 (Apple Intelligence 2.0)",
+        "updateYears": 7
+      }
+    },
+    "price": 200999,
+    "variants": [
+      {
+        "id": "apple-apple-iphone-18-pro-max-1-tb-1071805-burgonya",
+        "name": "Apple iPhone 18 Pro Max (1 TB) - Burgonya",
+        "colorName": "Burgonya",
+        "colorHex": "#6B1D2F",
+        "image": "/images/phones/apple/apple-iphone-18-pro-max-burgundy.png",
+        "price": 200999
+      },
+      {
+        "id": "apple-apple-iphone-18-pro-max-1-tb-1071805-mavi",
+        "name": "Apple iPhone 18 Pro Max (1 TB) - Buzul Mavisi",
+        "colorName": "Buzul Mavisi",
+        "colorHex": "#8BA8B7",
+        "image": "/images/phones/apple/apple-iphone-18-pro-max-blue.jpg",
+        "price": 200999
+      },
+      {
+        "id": "apple-apple-iphone-18-pro-max-1-tb-1071805-siyah",
+        "name": "Apple iPhone 18 Pro Max (1 TB) - Siyah",
+        "colorName": "Siyah",
+        "colorHex": "#262626",
+        "image": "/images/phones/apple/apple-iphone-18-pro-max-black.jpg",
+        "price": 200999
+      }
+    ]
+  },
+  {
+    "id": "apple-apple-iphone-18-pro-max-2-tb-1071806",
+    "slug": "apple-iphone-18-pro-max-2-tb",
+    "name": "Apple iPhone 18 Pro Max (2 TB)",
+    "brand": "Apple",
+    "category": "smartphones",
+    "image": "/images/phones/apple/apple-iphone-18-pro-max.png",
+    "images": [
+      "/images/phones/apple/apple-iphone-18-pro-max.png",
+      "/images/phones/apple/apple-iphone-18-pro-max-burgundy.png",
+      "/images/phones/apple/apple-iphone-18-pro-max-blue.jpg",
+      "/images/phones/apple/apple-iphone-18-pro-max-black.jpg"
+    ],
+    "rating": 4.98,
+    "epeyScore": 100,
+    "reviewCount": 105,
+    "basePrice": 255999,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isLatestModel": true,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "Apple A20 Pro (2nm TSMC N2) Yeni Nesil 6 Çekirdekli Çip",
+      "6.9 inç 120Hz ProMotion Super Retina XDR OLED (3200 nit)",
+      "48 MP Fusion + 48 MP Ultra Geniş + 48 MP 5x Periskop Telefoto",
+      "12 GB LPDDR5X RAM & Apple Intelligence 2.0 Entegrasyonu",
+      "5391 mAh Devasa Batarya Kapasitesi & 45W Hızlı Şarj",
+      "Havacılık Sınıfı Grade 5 Titanyum Kasa & Seramik Kalkan 2"
+    ],
+    "pros": [
+      "Apple A20 Pro (2nm) mimarisiyle sektörün en yüksek tek ve çoklu çekirdek performansı",
+      "5391 mAh ile iPhone tarihindeki en uzun batarya kullanım süresi",
+      "12 GB RAM ile gelişmiş yerleşik Apple Intelligence 2.0 yapay zeka işlem kabiliyeti",
+      "3200 nits tepe parlaklığı ile doğrudan güneş ışığında dahi kusursuz okunabilirlik",
+      "4K 120 fps Dolby Vision HDR / ProRes Log ve 5x Periskop optik zoom"
+    ],
+    "cons": [
+      "Üst segment premium fiyat etiketi",
+      "6.9 inç büyük ekran boyutu nedeniyle tek elle kullanımda geniş gövde"
+    ],
+    "colorOptions": [
+      {
+        "name": "Burgonya",
+        "hex": "#6B1D2F",
+        "image": "/images/phones/apple/apple-iphone-18-pro-max-burgundy.png"
+      },
+      {
+        "name": "Buzul Mavisi",
+        "hex": "#8BA8B7",
+        "image": "/images/phones/apple/apple-iphone-18-pro-max-blue.jpg"
+      },
+      {
+        "name": "Siyah",
+        "hex": "#262626",
+        "image": "/images/phones/apple/apple-iphone-18-pro-max-black.jpg"
+      }
+    ],
+    "storeOffers": [
+      {
+        "storeName": "PttAVM",
+        "price": 255999,
+        "url": "https://www.pttavm.com/iphone-18-pro-max-2-tb-apple-turkiye-garantili-p-1071806",
+        "inStock": true,
+        "updatedAt": "2026-09-13T12:00:00.000Z"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "price": 258047,
+        "url": "https://www.hepsiburada.com/apple-iphone-18-pro-max-2-tb-p-HBCV1071806",
+        "inStock": true,
+        "updatedAt": "2026-09-13T12:00:00.000Z"
+      },
+      {
+        "storeName": "Trendyol",
+        "price": 259071,
+        "url": "https://www.trendyol.com/sr?q=Apple%20iPhone%2018%20Pro%20Max%20(2 TB)",
+        "inStock": true
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "price": 259839,
+        "url": "https://www.vatanbilgisayar.com/arama/Apple%20iPhone%2018%20Pro%20Max%20(2 TB)",
+        "inStock": true
+      },
+      {
+        "storeName": "Teknosa",
+        "price": 260607,
+        "url": "https://www.teknosa.com/arama?s=Apple%20iPhone%2018%20Pro%20Max%20(2 TB)",
+        "inStock": true
+      },
+      {
+        "storeName": "MediaMarkt",
+        "price": 261119,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Apple%20iPhone%2018%20Pro%20Max%20(2 TB)",
+        "inStock": true
+      },
+      {
+        "storeName": "Amazon TR",
+        "price": 261631,
+        "url": "https://www.amazon.com.tr/s?k=Apple%20iPhone%2018%20Pro%20Max%20(2 TB)",
+        "inStock": true
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-04-01",
+        "price": 264959
+      },
+      {
+        "date": "2026-05-01",
+        "price": 262399
+      },
+      {
+        "date": "2026-06-01",
+        "price": 261119
+      },
+      {
+        "date": "2026-07-01",
+        "price": 259071
+      },
+      {
+        "date": "2026-08-01",
+        "price": 258047
+      },
+      {
+        "date": "2026-09-01",
+        "price": 257023
+      },
+      {
+        "date": "13 Eylül 2026",
+        "price": 255999
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.9 inç",
+        "type": "LTPO Super Retina XDR OLED (1-120Hz ProMotion)",
+        "resolution": "2868 x 1320 piksel (460 ppi)",
+        "refreshRate": 120,
+        "brightnessNits": 3200,
+        "ppi": 460
+      },
+      "processor": {
+        "chip": "Apple A20 Pro (2nm TSMC N2)",
+        "cores": "6 Çekirdek (2x 4.25 GHz + 4x 2.4 GHz)",
+        "process": "2nm",
+        "antutuScore": 2350000
+      },
+      "memory": {
+        "ramGb": 12,
+        "ramType": "12 GB LPDDR5X (16-Core Neural Engine 45 TOPS)",
+        "storageGb": 2048,
+        "storageOptions": [
+          256,
+          512,
+          1024,
+          2048
+        ],
+        "expandableStorage": false
+      },
+      "camera": {
+        "mainMp": "48 MP Fusion, f/1.78, 24mm, 2. nesil Sensor-shift OIS",
+        "ultrawideMp": "48 MP, f/2.2, 13mm, 120˚, Hibrit Odak",
+        "telephotoMp": "48 MP Periskop Tetraprism (5x Optik Zoom, f/2.8, 120mm, 3D Sensör OIS)",
+        "selfieMp": "24 MP TrueDepth, f/1.9, Otomatik Odaklama (AF)",
+        "videoRes": "4K@120fps Dolby Vision, ProRes LOG, Uzamsal Video",
+        "dxomarkScore": 166
+      },
+      "battery": {
+        "capacitymAh": 5391,
+        "chargingWatts": 45,
+        "wirelessCharging": true,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 7 (802.11be)",
+        "bluetooth": "5.4",
+        "hasNFC": true,
+        "hasesim": true
+      },
+      "build": {
+        "weightGrams": 228,
+        "thicknessMm": 8.25,
+        "waterResistance": "IP68 / IPX8 (6 metre 30 dakika)",
+        "frameMaterial": "Grade 5 Titanyum"
+      },
+      "software": {
+        "osName": "iOS 20 (Apple Intelligence 2.0)",
+        "updateYears": 7
+      }
+    },
+    "price": 255999,
+    "variants": [
+      {
+        "id": "apple-apple-iphone-18-pro-max-2-tb-1071806-burgonya",
+        "name": "Apple iPhone 18 Pro Max (2 TB) - Burgonya",
+        "colorName": "Burgonya",
+        "colorHex": "#6B1D2F",
+        "image": "/images/phones/apple/apple-iphone-18-pro-max-burgundy.png",
+        "price": 255999
+      },
+      {
+        "id": "apple-apple-iphone-18-pro-max-2-tb-1071806-mavi",
+        "name": "Apple iPhone 18 Pro Max (2 TB) - Buzul Mavisi",
+        "colorName": "Buzul Mavisi",
+        "colorHex": "#8BA8B7",
+        "image": "/images/phones/apple/apple-iphone-18-pro-max-blue.jpg",
+        "price": 255999
+      },
+      {
+        "id": "apple-apple-iphone-18-pro-max-2-tb-1071806-siyah",
+        "name": "Apple iPhone 18 Pro Max (2 TB) - Siyah",
+        "colorName": "Siyah",
+        "colorHex": "#262626",
+        "image": "/images/phones/apple/apple-iphone-18-pro-max-black.jpg",
+        "price": 255999
+      }
+    ]
+  },
+  {
     "id": "apple-apple-iphone-17e-512-gb-1048094",
     "slug": "apple-iphone-17e-512-gb",
     "name": "Apple iPhone 17e (512 GB)",
