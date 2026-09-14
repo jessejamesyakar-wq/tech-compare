@@ -1489,21 +1489,21 @@ export function AIAssistantModal({ isOpen, onClose, initialQuery = '' }: AIAssis
             animate={{ opacity: 1, scale: 1, y: 0 }}
             exit={{ opacity: 0, scale: 0.98, y: 10 }}
             transition={{ duration: 0.2 }}
-            className="relative w-full bg-white dark:bg-slate-900 rounded-none sm:rounded-3xl shadow-2xl border-0 sm:border border-slate-100 dark:border-slate-800 flex flex-col overflow-hidden h-[100dvh] sm:h-[640px] md:h-[680px] lg:h-[720px] max-h-[100dvh] sm:max-h-[92vh] z-20"
+            className="relative w-full bg-gradient-to-b from-white via-[#f0f7ff] to-[#d6ebff] dark:from-slate-900 dark:via-slate-900 dark:to-slate-950 rounded-none sm:rounded-3xl shadow-2xl border-0 sm:border border-blue-100/80 dark:border-slate-800 flex flex-col overflow-hidden h-[100dvh] sm:h-[640px] md:h-[680px] lg:h-[720px] max-h-[100dvh] sm:max-h-[92vh] z-20"
           >
             {/* Modal Üst Başlık Çubuğu */}
-            <div className="px-3 sm:px-6 py-2.5 sm:py-3 border-b border-slate-100 dark:border-slate-800 flex items-center justify-between bg-white dark:bg-slate-900 shrink-0 gap-2">
+            <div className="px-3 sm:px-6 py-2.5 sm:py-3 border-b border-blue-100/60 dark:border-slate-800 flex items-center justify-between bg-white/75 dark:bg-slate-900/75 backdrop-blur-md shrink-0 gap-2">
               <div className="flex items-center gap-2 sm:gap-3 min-w-0">
-                <div className="relative w-8 h-8 sm:w-9 sm:h-9 rounded-full bg-slate-100 dark:bg-slate-800 flex items-center justify-center overflow-hidden border border-emerald-500/50 shrink-0 shadow-2xs">
-                  <img src="/assets/robopengu.png" alt="Robo" className="w-6 h-6 sm:w-7 sm:h-7 object-contain" />
-                  <span className={`absolute bottom-0 right-0 w-2.5 h-2.5 rounded-full ring-1 ring-white dark:ring-slate-900 ${
+                <div className="relative w-8 h-8 sm:w-9 sm:h-9 rounded-full bg-white dark:bg-slate-800 flex items-center justify-center overflow-hidden border border-blue-300 dark:border-blue-700 shrink-0 shadow-xs">
+                  <img src="/images/robopengu_emblem.jpg" alt="RoboPengu" className="w-7 h-7 sm:w-8 sm:h-8 object-contain mix-blend-multiply dark:mix-blend-normal" />
+                  <span className={`absolute bottom-0 right-0 w-2 h-2 rounded-full ring-1 ring-white dark:ring-slate-900 ${
                     reactorState === 'thinking'
                       ? 'bg-purple-500 animate-ping'
                       : reactorState === 'speaking'
                       ? 'bg-cyan-400 animate-pulse'
                       : reactorState === 'winner'
                       ? 'bg-amber-400 animate-bounce'
-                      : 'bg-emerald-500 animate-pulse'
+                      : 'bg-blue-500 animate-pulse'
                   }`} />
                 </div>
                 <div className="flex items-center gap-1.5 flex-wrap min-w-0">
@@ -1620,61 +1620,67 @@ export function AIAssistantModal({ isOpen, onClose, initialQuery = '' }: AIAssis
                     : 'w-full'
                 } ${hasPanel && mobileTab === 'panel' ? 'hidden lg:flex' : 'flex'}`}
               >
-                {/* Mesaj Listesi */}
-                <div className="flex-1 overflow-y-auto p-4 sm:p-5 space-y-4">
-                  {/* 🐧 MOBİL VE TABLET ROBOPENGU 3D MASKOT HERO KARTI */}
-                  <div className={`${hasPanel ? '2xl:hidden' : 'xl:hidden'} flex flex-col items-center justify-center p-3.5 sm:p-4 mb-2 bg-gradient-to-b from-emerald-500/10 via-slate-50/80 to-white dark:from-emerald-950/30 dark:via-slate-900/60 dark:to-slate-900 rounded-3xl border border-emerald-500/20 shadow-xs text-center select-none`}>
-                    <div
-                      onClick={handleReactorClick}
-                      className="relative w-20 h-24 sm:w-24 sm:h-28 animate-float cursor-pointer group active:scale-95 transition-transform"
-                      title="Dünyadaki Yapay Zeka Haberleri (Açmak İçin Dokun) 🌐"
-                    >
-                      <img
-                        src="/assets/robopengu.png"
-                        alt="RoboPengu 3D"
-                        className="w-full h-full object-contain filter drop-shadow-[0_12px_22px_rgba(0,0,0,0.22)] pointer-events-none"
-                      />
-                      {/* Güç Reaktörü LED Butonu */}
-                      <div className="absolute top-[57.5%] left-[68.8%] -translate-x-1/2 -translate-y-1/2 w-6 h-6 flex items-center justify-center pointer-events-none">
-                        {renderCyberReactor('md')}
+                {/* Mesaj Listesi / Karşılama Ekranı */}
+                <div className="flex-1 overflow-y-auto p-4 sm:p-5 space-y-4 flex flex-col">
+                  {messages.length === 1 && messages[0].id === 'welcome' ? (
+                    /* 🐧 MERKEZ: ÖZEL METALİK ROBOPENGU AMBLEMİ VE BAŞLIK */
+                    <div className="flex-1 my-auto flex flex-col items-center justify-center text-center px-4 py-8 select-none animate-in fade-in zoom-in-95 duration-300">
+                      {/* Metalik RoboPengu Amblem İkonu */}
+                      <div className="relative mb-5 group">
+                        <div className="absolute inset-0 rounded-full bg-blue-400/20 blur-xl scale-110 pointer-events-none"></div>
+                        <div className="relative w-28 h-28 sm:w-32 sm:h-32 flex items-center justify-center transition-transform duration-300 hover:scale-105">
+                          <img
+                            src="/images/robopengu_emblem.jpg"
+                            alt="RoboPengu Amblemi"
+                            className="w-full h-full object-contain mix-blend-multiply dark:mix-blend-normal dark:rounded-full dark:bg-white/10 dark:p-1 drop-shadow-[0_12px_24px_rgba(30,58,138,0.18)]"
+                          />
+                        </div>
                       </div>
-                    </div>
-                    <div className="mt-2 flex items-center justify-center gap-1.5 flex-wrap">
-                      <span className="inline-flex items-center gap-1 text-[11px] font-black text-slate-800 dark:text-slate-100">
-                        <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
-                        RoboPengu 3D Asistan
-                      </span>
-                      <button
-                        type="button"
-                        onClick={handleReactorClick}
-                        className="inline-flex items-center gap-1 text-[9px] font-bold px-2 py-0.5 rounded-full border bg-slate-900 text-white dark:bg-slate-800 border-slate-700 hover:border-cyan-400 cursor-pointer active:scale-95 transition-all shadow-2xs"
-                        title="Dünyadaki Yapay Zeka Haberlerini Aç"
-                      >
-                        <Globe className="w-2.5 h-2.5 text-cyan-400" />
-                        <span>Küresel AI Haberleri</span>
-                        <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse" />
-                      </button>
-                      {isSpeaking && (
+
+                      {/* Başlık: RoboPengu */}
+                      <h1 className="text-3xl sm:text-4xl font-bold tracking-tight text-slate-900 dark:text-white leading-tight">
+                        RoboPengu
+                      </h1>
+
+                      {/* Alt Başlık */}
+                      <p className="text-xs text-slate-500 dark:text-slate-400 mt-2 font-medium">
+                        aceleetme.com Baş Teknoloji Danışmanı
+                      </p>
+
+                      {/* Hızlı Örnek Sorular / İpuçları */}
+                      <div className="mt-7 flex flex-wrap justify-center gap-2 max-w-sm">
                         <button
                           type="button"
-                          onClick={(e) => {
-                            e.stopPropagation();
-                            stopSpeaking();
-                          }}
-                          className="inline-flex items-center gap-1 bg-emerald-100/90 dark:bg-emerald-950/90 text-emerald-700 dark:text-emerald-300 px-2 py-0.5 rounded-full text-[9px] font-black border border-emerald-300/70 cursor-pointer active:scale-95"
-                          title="Sesi Durdur"
+                          onClick={() => handleSend('iPhone 16 Pro Max vs Galaxy S24 Ultra')}
+                          className="text-[11px] bg-white/90 dark:bg-slate-800/90 hover:bg-blue-50 dark:hover:bg-blue-950/60 text-slate-700 dark:text-slate-200 border border-blue-100 dark:border-slate-700 px-3 py-1.5 rounded-full transition shadow-2xs cursor-pointer active:scale-95 font-medium"
                         >
-                          {renderAudioWaveform()}
-                          <span>Durdur</span>
+                          📱 iPhone 16 Pro Max vs S24 Ultra
                         </button>
-                      )}
+                        <button
+                          type="button"
+                          onClick={() => handleSend('En iyi OLED TV hangisi?')}
+                          className="text-[11px] bg-white/90 dark:bg-slate-800/90 hover:bg-blue-50 dark:hover:bg-blue-950/60 text-slate-700 dark:text-slate-200 border border-blue-100 dark:border-slate-700 px-3 py-1.5 rounded-full transition shadow-2xs cursor-pointer active:scale-95 font-medium"
+                        >
+                          📺 En iyi OLED TV hangisi?
+                        </button>
+                        <button
+                          type="button"
+                          onClick={() => handleSend('Fiyat/Performans laptop tavsiyesi')}
+                          className="text-[11px] bg-white/90 dark:bg-slate-800/90 hover:bg-blue-50 dark:hover:bg-blue-950/60 text-slate-700 dark:text-slate-200 border border-blue-100 dark:border-slate-700 px-3 py-1.5 rounded-full transition shadow-2xs cursor-pointer active:scale-95 font-medium"
+                        >
+                          💻 F/P laptop tavsiyesi
+                        </button>
+                        <button
+                          type="button"
+                          onClick={() => handleSend('En iyi ANC gürültü engelleyici kulaklık')}
+                          className="text-[11px] bg-white/90 dark:bg-slate-800/90 hover:bg-blue-50 dark:hover:bg-blue-950/60 text-slate-700 dark:text-slate-200 border border-blue-100 dark:border-slate-700 px-3 py-1.5 rounded-full transition shadow-2xs cursor-pointer active:scale-95 font-medium"
+                        >
+                          🎧 ANC kulaklık önerisi
+                        </button>
+                      </div>
                     </div>
-                    <p className="text-[10px] text-slate-500 dark:text-slate-400 mt-0.5 max-w-xs">
-                      Telefon ve tabletlerdeki tarafsız teknoloji danışmanın hazır! Karşılaştırma yapabilir veya fiyat sorabilirsin.
-                    </p>
-                  </div>
-
-                  {messages.map((m, idx) => {
+                  ) : (
+                    messages.map((m, idx) => {
                     const isAssistant = m.role === 'assistant';
                     const { chatSummary, cleanDisplay } = partitionContent(m.content);
                     const isComparisonMsg =
@@ -1841,29 +1847,32 @@ export function AIAssistantModal({ isOpen, onClose, initialQuery = '' }: AIAssis
                       )}
                     </div>
                   );
-                })}
+                })
+              )}
                   <div ref={messagesEndRef} />
                 </div>
 
-                {/* Alt Kısım: 4 Hızlı Aksiyon Butonu & Input */}
-                <div className="p-2.5 sm:p-3 pb-[max(0.75rem,env(safe-area-inset-bottom))] border-t border-slate-100 dark:border-slate-800 bg-white dark:bg-slate-900 space-y-2 shrink-0">
-                  {/* Hızlı Aksiyon Butonları */}
-                  <div className="flex items-center gap-1.5 overflow-x-auto text-[11px] sm:text-xs no-scrollbar pb-0.5 touch-pan-x -mx-1 px-1">
-                    {quickActions.map((qa, i) => (
-                      <button
-                        key={i}
-                        type="button"
-                        onClick={() => handleSend(qa.prompt)}
-                        className="px-2.5 py-1.5 bg-slate-100 dark:bg-slate-800 hover:bg-emerald-50 dark:hover:bg-emerald-950/60 hover:text-emerald-600 dark:hover:text-emerald-300 rounded-full whitespace-nowrap text-slate-600 dark:text-slate-300 transition-colors cursor-pointer border border-transparent hover:border-emerald-200 dark:hover:border-emerald-800/60 active:scale-95 touch-manipulation font-medium shrink-0"
-                      >
-                        {qa.label}
-                      </button>
-                    ))}
-                  </div>
+                {/* Alt Kısım: Hızlı Aksiyon Butonları & Kapsül Arama Çubuğu */}
+                <div className="p-3 sm:p-4 pb-[max(0.85rem,env(safe-area-inset-bottom))] border-t border-blue-100/60 dark:border-slate-800/80 bg-white/60 dark:bg-slate-900/60 backdrop-blur-md space-y-2 shrink-0">
+                  {/* Hızlı Aksiyon Butonları (Sadece sohbet aktifken gösterilir) */}
+                  {(messages.length > 1 || messages[0]?.id !== 'welcome') && (
+                    <div className="flex items-center gap-1.5 overflow-x-auto text-[11px] sm:text-xs no-scrollbar pb-0.5 touch-pan-x -mx-1 px-1">
+                      {quickActions.map((qa, i) => (
+                        <button
+                          key={i}
+                          type="button"
+                          onClick={() => handleSend(qa.prompt)}
+                          className="px-2.5 py-1 bg-white/80 dark:bg-slate-800/80 hover:bg-blue-50 dark:hover:bg-blue-950/50 hover:text-blue-600 dark:hover:text-blue-400 rounded-full whitespace-nowrap text-slate-600 dark:text-slate-300 transition-colors cursor-pointer border border-blue-100/80 dark:border-slate-700 active:scale-95 touch-manipulation font-medium shrink-0 shadow-2xs"
+                        >
+                          {qa.label}
+                        </button>
+                      ))}
+                    </div>
+                  )}
 
                   {/* Sesli Giriş Aktif Göstergesi (Listening Indicator) */}
                   {isListening && (
-                    <div className="flex items-center justify-between px-3 py-2 bg-rose-50 dark:bg-rose-950/70 border border-rose-200/80 dark:border-rose-900/60 rounded-xl text-xs font-semibold text-rose-600 dark:text-rose-400 animate-pulse mb-1">
+                    <div className="flex items-center justify-between px-3.5 py-2 bg-rose-50 dark:bg-rose-950/70 border border-rose-200/80 dark:border-rose-900/60 rounded-full text-xs font-semibold text-rose-600 dark:text-rose-400 animate-pulse mb-1">
                       <div className="flex items-center gap-2">
                         <span className="relative flex h-2.5 w-2.5">
                           <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-rose-400 opacity-75"></span>
@@ -1881,7 +1890,7 @@ export function AIAssistantModal({ isOpen, onClose, initialQuery = '' }: AIAssis
                     </div>
                   )}
 
-                  {/* Mesaj Giriş Formu */}
+                  {/* Mesaj Giriş Formu (Minimalist Kapsül Tasarımı) */}
                   <form
                     onSubmit={(e) => {
                       e.preventDefault();
@@ -1889,9 +1898,10 @@ export function AIAssistantModal({ isOpen, onClose, initialQuery = '' }: AIAssis
                         handleSend(input);
                       }
                     }}
-                    className="flex flex-col gap-1 bg-slate-50 dark:bg-slate-800/80 border border-slate-200 dark:border-slate-700 rounded-2xl px-3 py-1.5 focus-within:border-emerald-500 focus-within:bg-white dark:focus-within:bg-slate-900 transition shadow-2xs"
+                    className="w-full bg-white dark:bg-slate-900 rounded-full border border-white/90 dark:border-slate-800 shadow-[0_10px_25px_-5px_rgba(30,58,138,0.10)] px-4 py-2 flex items-center justify-between gap-2.5 transition-all focus-within:ring-2 focus-within:ring-blue-400 dark:focus-within:ring-blue-600"
                   >
-                    <div className="flex items-center gap-1.5">
+                    {/* Metin Giriş Alanı (+ İşareti Kaldırıldı) */}
+                    <div className="flex-1 flex items-center pl-1 min-w-0">
                       <input
                         ref={inputRef}
                         type="text"
@@ -1903,17 +1913,20 @@ export function AIAssistantModal({ isOpen, onClose, initialQuery = '' }: AIAssis
                         placeholder={
                           isListening
                             ? 'Dinliyorum, konuşabilirsiniz... 🎙️'
-                            : 'Model sor, karşılaştır veya bütçe belirt...'
+                            : "RoboPengu'ya sorun"
                         }
                         disabled={loading}
-                        className={`w-full bg-transparent text-[15px] sm:text-xs outline-none px-1 py-1 font-medium transition-colors ${
+                        className={`w-full bg-transparent text-[15px] sm:text-sm outline-none font-normal transition-colors ${
                           isListening
                             ? 'text-rose-600 dark:text-rose-400 placeholder:text-rose-500 animate-pulse font-semibold'
-                            : 'text-slate-700 dark:text-slate-200 placeholder:text-slate-400'
+                            : 'text-slate-800 dark:text-slate-100 placeholder:text-slate-400'
                         }`}
                       />
+                    </div>
 
-                      {/* Sesli Giriş (Mikrofon) Butonu */}
+                    {/* Sağ Taraf: Mikrofon, Canlı Ses Butonu & Gönder Butonu */}
+                    <div className="flex items-center gap-1.5 sm:gap-2 shrink-0">
+                      {/* Mikrofon Butonu */}
                       <button
                         type="button"
                         onClick={() => {
@@ -1921,14 +1934,14 @@ export function AIAssistantModal({ isOpen, onClose, initialQuery = '' }: AIAssis
                           else startListening();
                         }}
                         disabled={loading}
-                        className={`w-9 h-9 sm:w-8 sm:h-8 rounded-xl flex items-center justify-center transition shadow-2xs cursor-pointer shrink-0 active:scale-95 touch-manipulation ${
+                        className={`w-9 h-9 rounded-full flex items-center justify-center transition cursor-pointer active:scale-95 touch-manipulation ${
                           isListening
-                            ? 'bg-rose-500 hover:bg-rose-600 text-white animate-pulse ring-2 ring-rose-300 dark:ring-rose-800'
-                            : 'bg-slate-200/70 dark:bg-slate-700 hover:bg-emerald-100 dark:hover:bg-emerald-950/60 text-slate-600 dark:text-slate-300 hover:text-emerald-600 dark:hover:text-emerald-400'
+                            ? 'bg-rose-500 text-white animate-pulse ring-2 ring-rose-300 dark:ring-rose-800'
+                            : 'text-slate-700 dark:text-slate-300 hover:text-slate-900 dark:hover:text-white hover:bg-slate-100 dark:hover:bg-slate-800'
                         }`}
                         title={
                           !speechSupported
-                            ? 'Tarayıcınız sesli girişi desteklemiyor (Chrome veya Edge önerilir)'
+                            ? 'Tarayıcınız sesli girişi desteklemiyor'
                             : isListening
                             ? 'Dinlemeyi Durdur'
                             : 'Sesli Soru Sor (Mikrofon)'
@@ -1936,53 +1949,81 @@ export function AIAssistantModal({ isOpen, onClose, initialQuery = '' }: AIAssis
                         aria-label="Mikrofon"
                       >
                         {isListening ? (
-                          <MicOff className="w-4 h-4 animate-bounce" />
+                          <MicOff className="w-4 h-4 animate-bounce text-white" />
                         ) : (
-                          <Mic className={`w-4 h-4 ${!speechSupported ? 'opacity-35' : ''}`} />
+                          <Mic className={`w-4 h-4 sm:w-5 sm:h-5 ${!speechSupported ? 'opacity-35' : ''}`} />
                         )}
                       </button>
 
-                      {/* Gönder Butonu */}
+                      {/* Ses Dalgası / Canlı Ses Modu Butonu (Görseldeki mavi yuvarlak buton) */}
                       <button
-                        type="submit"
-                        disabled={loading || !input.trim() || input.length > 500}
-                        className="w-9 h-9 sm:w-8 sm:h-8 rounded-xl bg-emerald-500 hover:bg-emerald-600 disabled:opacity-40 disabled:cursor-not-allowed text-white flex items-center justify-center transition shadow-xs cursor-pointer shrink-0 active:scale-95 touch-manipulation"
-                        aria-label="Gönder"
+                        type="button"
+                        onClick={() => {
+                          if (isSpeaking) {
+                            stopSpeaking();
+                          } else if (messages.length > 1) {
+                            const lastBot = [...messages].reverse().find((m) => m.role === 'assistant');
+                            if (lastBot?.content) speakSummary(lastBot.content, true);
+                          } else {
+                            speakSummary("Merhaba! Ben RoboPengu, aceleetme'nin baş teknoloji danışmanıyım. Hangi cihazları karşılaştırmak istersin?", true);
+                          }
+                        }}
+                        className={`w-9 h-9 rounded-full transition flex items-center justify-center cursor-pointer active:scale-95 shadow-2xs ${
+                          isSpeaking
+                            ? 'bg-blue-600 text-white animate-pulse'
+                            : 'bg-[#d8ecfc] dark:bg-blue-950/70 hover:bg-[#c2e2fa] dark:hover:bg-blue-900/80 text-[#0b57d0] dark:text-blue-300'
+                        }`}
+                        title={isSpeaking ? 'Sesi Durdur' : 'RoboPengu Canlı Ses'}
+                        aria-label="Ses Dalgası"
                       >
-                        {loading ? <Loader2 className="w-4 h-4 animate-spin" /> : '➤'}
+                        <div className="flex items-center justify-center gap-[2.5px] h-4">
+                          <span className={`w-[2.5px] rounded-full transition-all ${isSpeaking ? 'bg-white h-4 animate-pulse' : 'bg-[#0b57d0] dark:bg-blue-400 h-2'}`} />
+                          <span className={`w-[2.5px] rounded-full transition-all ${isSpeaking ? 'bg-white h-5 animate-bounce' : 'bg-[#0b57d0] dark:bg-blue-400 h-3.5'}`} />
+                          <span className={`w-[2.5px] rounded-full transition-all ${isSpeaking ? 'bg-white h-3 animate-pulse' : 'bg-[#0b57d0] dark:bg-blue-400 h-2'}`} />
+                        </div>
+                      </button>
+
+                      {/* Gönder Butonu (Kullanıcı metin yazdığında veya yüklenirken) */}
+                      {(input.trim() || loading) && (
+                        <button
+                          type="submit"
+                          disabled={loading || !input.trim() || input.length > 500}
+                          className="w-9 h-9 rounded-full bg-blue-600 hover:bg-blue-700 disabled:opacity-40 disabled:cursor-not-allowed text-white flex items-center justify-center transition shadow-xs cursor-pointer shrink-0 active:scale-95 touch-manipulation ml-0.5"
+                          aria-label="Gönder"
+                        >
+                          {loading ? <Loader2 className="w-4 h-4 animate-spin" /> : '➤'}
+                        </button>
+                      )}
+                    </div>
+                  </form>
+
+                  {/* Sesli Giriş Bildirimi / Toast */}
+                  {speechToast && (
+                    <div className="px-2 py-1 text-[10px] font-semibold text-rose-700 dark:text-rose-300 bg-rose-50 dark:bg-rose-950/80 border border-rose-200/80 dark:border-rose-900/60 rounded-lg flex items-center justify-between animate-in fade-in duration-150">
+                      <span>{speechToast}</span>
+                      <button
+                        type="button"
+                        onClick={() => setSpeechToast(null)}
+                        className="text-xs hover:text-rose-900 dark:hover:text-white p-0.5 ml-1 cursor-pointer"
+                      >
+                        ✕
                       </button>
                     </div>
+                  )}
 
-                    {/* Sesli Giriş Bildirimi / Toast */}
-                    {speechToast && (
-                      <div className="px-2 py-1 text-[10px] font-semibold text-rose-700 dark:text-rose-300 bg-rose-50 dark:bg-rose-950/80 border border-rose-200/80 dark:border-rose-900/60 rounded-lg flex items-center justify-between animate-in fade-in duration-150">
-                        <span>{speechToast}</span>
-                        <button
-                          type="button"
-                          onClick={() => setSpeechToast(null)}
-                          className="text-xs hover:text-rose-900 dark:hover:text-white p-0.5 ml-1 cursor-pointer"
-                        >
-                          ✕
-                        </button>
-                      </div>
-                    )}
-
-                    {/* Karakter Sayacı ve Dinamik Uyarı */}
-                    <div className="flex items-center justify-between text-[10px] px-1 text-slate-400">
-                      {input.length > 450 ? (
-                        <span className={input.length > 500 ? "text-rose-500 font-semibold" : "text-amber-500 font-medium"}>
-                          {input.length > 500
-                            ? "Mesajınız 500 karakteri aşıyor. Lütfen kısaltınız."
-                            : "500 karakter sınırına yaklaşıyorsunuz."}
-                        </span>
-                      ) : (
-                        <span />
-                      )}
-                      <span className={`font-mono text-[9px] ${input.length > 500 ? "text-rose-500 font-bold" : input.length > 450 ? "text-amber-500 font-bold" : "text-slate-400"}`}>
+                  {/* Karakter Sayacı ve Dinamik Uyarı */}
+                  {input.length > 400 && (
+                    <div className="flex items-center justify-between text-[10px] px-2 text-slate-400">
+                      <span className={input.length > 500 ? "text-rose-500 font-semibold" : "text-amber-500 font-medium"}>
+                        {input.length > 500
+                          ? "Mesajınız 500 karakteri aşıyor. Lütfen kısaltınız."
+                          : "500 karakter sınırına yaklaşıyorsunuz."}
+                      </span>
+                      <span className={`font-mono text-[9px] ${input.length > 500 ? "text-rose-500 font-bold" : "text-amber-500 font-bold"}`}>
                         {input.length}/500
                       </span>
                     </div>
-                  </form>
+                  )}
                 </div>
               </div>
 
