@@ -13,7 +13,7 @@ export interface LogoConfig {
 
 const DEFAULT_LOGO_CONFIG: LogoConfig = {
   type: 'image',
-  imageUrl: '/emblem.png',
+  imageUrl: '/images/futuristic_robopengu_emblem.png',
   presetIcon: 'scale',
   bgGradient: 'from-emerald-600 via-teal-600 to-emerald-500',
   titleText: 'aceleEtme',
@@ -31,7 +31,7 @@ interface LogoContextType {
 
 const LogoContext = createContext<LogoContextType | undefined>(undefined);
 
-const LOCAL_STORAGE_KEY = 'tech_compare_custom_logo_v3';
+const LOCAL_STORAGE_KEY = 'tech_compare_custom_logo_v4';
 
 export function LogoProvider({ children }: { children: React.ReactNode }) {
   const [logoConfig, setLogoConfig] = useState<LogoConfig>(DEFAULT_LOGO_CONFIG);
@@ -42,8 +42,12 @@ export function LogoProvider({ children }: { children: React.ReactNode }) {
       // SSR-safe hydration read from localStorage after mount
       const saved = localStorage.getItem(LOCAL_STORAGE_KEY);
       if (saved) {
+        const parsed = JSON.parse(saved);
+        if (parsed.imageUrl === '/emblem.png') {
+          parsed.imageUrl = '/images/futuristic_robopengu_emblem.png';
+        }
         // eslint-disable-next-line react-hooks/set-state-in-effect
-        setLogoConfig(JSON.parse(saved));
+        setLogoConfig(parsed);
       }
     } catch (e) {
       console.error('Failed to load custom logo config', e);

@@ -18,7 +18,9 @@ import {
   ArrowRight,
   Scale,
   Sparkles,
-  Bot
+  Bot,
+  Mic,
+  MicOff
 } from 'lucide-react';
 import { searchLocalProducts, initClientSearch, CompactSearchProduct } from '@/lib/clientSearch';
 import { AIAssistantModal } from '@/components/ai/AIAssistantModal';
@@ -34,6 +36,7 @@ export function Navbar() {
   const [searchResults, setSearchResults] = useState<CompactSearchProduct[]>([]);
   const [isFocused, setIsFocused] = useState(false);
   const [selectedIndex, setSelectedIndex] = useState<number>(-1);
+  const [isListening, setIsListening] = useState(false);
 
   // Dedicated AI Assistant Modal State (Layer B)
   const [isAiModalOpen, setIsAiModalOpen] = useState(false);
@@ -43,6 +46,52 @@ export function Navbar() {
   const mobileInputRef = useRef<HTMLInputElement>(null);
   const searchContainerRef = useRef<HTMLDivElement>(null);
   const mobileSearchContainerRef = useRef<HTMLDivElement>(null);
+  const speechRecognitionRef = useRef<any>(null);
+
+  // Sesli Arama Fonksiyonu (Mikrofon ile doğrudan arama çubuğuna metin yazdırma)
+  const startVoiceSearch = () => {
+    if (typeof window === 'undefined') return;
+    const SpeechRecognition =
+      (window as any).SpeechRecognition || (window as any).webkitSpeechRecognition;
+
+    if (!SpeechRecognition) {
+      openAiAssistant();
+      return;
+    }
+
+    if (isListening) {
+      speechRecognitionRef.current?.stop?.();
+      setIsListening(false);
+      return;
+    }
+
+    try {
+      const recognition = new SpeechRecognition();
+      speechRecognitionRef.current = recognition;
+      recognition.lang = 'tr-TR';
+      recognition.interimResults = true;
+      recognition.continuous = false;
+
+      recognition.onstart = () => setIsListening(true);
+      recognition.onresult = (event: any) => {
+        const transcript = Array.from(event.results)
+          .map((res: any) => res[0]?.transcript)
+          .join('');
+        if (transcript) {
+          setQuery(transcript);
+          setIsFocused(true);
+        }
+      };
+      recognition.onerror = () => setIsListening(false);
+      recognition.onend = () => {
+        setIsListening(false);
+        searchInputRef.current?.focus();
+      };
+      recognition.start();
+    } catch {
+      setIsListening(false);
+    }
+  };
 
   // Helper for generating category-specific URLs
   const getProductUrl = (item: { category?: string; slug?: string; id?: string }) => {
@@ -360,7 +409,7 @@ export function Navbar() {
               </Link>
             </div>
 
-            {/* 2. Center: Desktop Luxury Inline Search Bar */}
+            {/* 2. Center: Desktop Luxury Inline Search Bar (Fütüristik Kapsül Tasarım) */}
             <div
               ref={searchContainerRef}
               onClick={() => {
@@ -371,19 +420,19 @@ export function Navbar() {
             >
               <form onSubmit={handleSearchSubmit} className="w-full">
                 <div
-                  className={`w-full flex items-center justify-between bg-slate-100/90 dark:bg-slate-900/80 text-slate-900 dark:text-slate-100 text-xs pl-4 pr-2 py-2 rounded-full border transition-all shadow-2xs backdrop-blur-md ${
+                  className={`w-full flex items-center justify-between bg-white/95 dark:bg-slate-900/95 text-slate-900 dark:text-slate-100 text-xs pl-3.5 pr-1.5 py-1.5 rounded-full border transition-all backdrop-blur-xl ${
                     isFocused
-                      ? 'border-emerald-500 ring-2 ring-emerald-500/20 bg-white dark:bg-slate-900 shadow-md'
-                      : 'border-slate-200/90 dark:border-slate-800 hover:border-emerald-500/50 hover:bg-white dark:hover:bg-slate-900'
+                      ? 'border-cyan-400 ring-2 ring-cyan-400/25 shadow-[0_8px_25px_-4px_rgba(6,182,212,0.22)] bg-white dark:bg-slate-900'
+                      : 'border-slate-200/90 dark:border-slate-800 hover:border-cyan-400/50 shadow-[0_4px_18px_-2px_rgba(14,165,233,0.08),0_2px_6px_-1px_rgba(15,23,42,0.04)]'
                   }`}
                 >
-                  <div className="flex items-center gap-3 flex-1 min-w-0 pr-2">
+                  <div className="flex items-center gap-2.5 flex-1 min-w-0 pr-2">
                     <button
                       type="submit"
                       aria-label="Arama yap"
-                      className="p-0.5 rounded-full text-slate-400 hover:text-emerald-600 dark:hover:text-emerald-400 transition-colors cursor-pointer"
+                      className="p-1 rounded-full text-slate-400 hover:text-cyan-600 dark:hover:text-cyan-400 transition-colors cursor-pointer"
                     >
-                      <Search className={`w-4 h-4 shrink-0 transition-colors ${isFocused ? 'text-emerald-600 dark:text-emerald-400' : 'text-slate-400'}`} />
+                      <Search className={`w-4 h-4 shrink-0 transition-colors ${isFocused ? 'text-cyan-500 dark:text-cyan-400' : 'text-slate-400'}`} />
                     </button>
                     
                     <input
@@ -402,8 +451,10 @@ export function Navbar() {
                         setIsFocused(true);
                         initClientSearch();
                       }}
-                      placeholder={isFocused ? '' : (currentPlaceholder || t.searchBarPlaceholder || 'Model, Marka veya Özellik Ara...')}
-                      className="w-full bg-transparent text-slate-900 dark:text-white text-[16px] md:text-xs sm:text-sm font-bold focus:outline-none placeholder:text-slate-400 dark:placeholder:text-slate-500"
+                      placeholder={isFocused ? '' : isListening ? 'Dinliyorum, konuşabilirsiniz... 🎙️' : (currentPlaceholder || t.searchBarPlaceholder || 'Model, Marka veya Özellik Ara...')}
+                      className={`w-full bg-transparent text-slate-900 dark:text-white text-[15px] md:text-xs sm:text-sm font-semibold focus:outline-none transition-colors ${
+                        isListening ? 'text-rose-600 dark:text-rose-400 placeholder:text-rose-500 animate-pulse font-bold' : 'placeholder:text-slate-400 dark:placeholder:text-slate-500'
+                      }`}
                     />
 
                     {query && (
@@ -414,34 +465,78 @@ export function Navbar() {
                           setQuery('');
                           searchInputRef.current?.focus();
                         }}
-                        className="p-1 rounded-full text-slate-400 hover:text-slate-700 dark:hover:text-slate-200 hover:bg-slate-200/60 dark:hover:bg-slate-800 transition-colors shrink-0 cursor-pointer"
+                        className="p-1 rounded-full text-slate-400 hover:text-slate-700 dark:hover:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors shrink-0 cursor-pointer"
                       >
                         <X className="w-3.5 h-3.5" />
                       </button>
                     )}
                   </div>
 
-                  {/* Right Action Cluster: ⌘K + Dedicated Gemini 3.8 AI Assistant Button */}
-                  <div className="flex items-center gap-2 shrink-0">
-                    {!isFocused && !query && (
-                      <kbd className="hidden lg:inline-flex items-center bg-white/90 dark:bg-slate-800 text-slate-500 dark:text-slate-400 px-2 py-0.5 rounded-md text-[10px] font-black border border-slate-200 dark:border-slate-700 shadow-2xs font-mono">
-                        ⌘K
-                      </kbd>
-                    )}
+                  {/* Right Action Cluster: Sesli Arama Mikrofonu + Canlı Ses Dalgası Butonu + ⌘K + Fütüristik RoboPengu AI Butonu */}
+                  <div className="flex items-center gap-1.5 shrink-0">
+                    {/* Mikrofon Butonu */}
+                    <button
+                      type="button"
+                      onClick={(e) => {
+                        e.stopPropagation();
+                        startVoiceSearch();
+                      }}
+                      className={`w-8 h-8 rounded-full flex items-center justify-center transition-all cursor-pointer active:scale-95 ${
+                        isListening
+                          ? 'bg-rose-500 text-white animate-pulse shadow-md ring-2 ring-rose-300'
+                          : 'text-slate-500 dark:text-slate-400 hover:text-cyan-600 dark:hover:text-cyan-400 hover:bg-cyan-50 dark:hover:bg-slate-800'
+                      }`}
+                      title={isListening ? 'Dinlemeyi Durdur' : 'Sesli Arama (Mikrofon)'}
+                      aria-label="Sesli Arama"
+                    >
+                      {isListening ? (
+                        <MicOff className="w-4 h-4 text-white animate-bounce" />
+                      ) : (
+                        <Mic className="w-4 h-4" />
+                      )}
+                    </button>
 
+                    {/* Canlı Ses Dalgası Butonu */}
                     <button
                       type="button"
                       onClick={(e) => {
                         e.stopPropagation();
                         openAiAssistant();
                       }}
-                      className="relative flex items-center gap-1.5 px-3.5 py-1.5 rounded-full text-[11px] font-black shadow-xs transition-all duration-200 cursor-pointer overflow-hidden border border-[#cbe0f5] dark:border-slate-700 bg-gradient-to-r from-[#eaf2fb] via-[#f1f8fc] to-[#f8fbfe] dark:from-slate-800 dark:to-slate-700 text-slate-800 dark:text-slate-100 hover:border-emerald-500/50 hover:shadow-sm hover:scale-105 active:scale-95 whitespace-nowrap shrink-0"
-                      title="RoboPengu & Gemini 3.8"
+                      className="w-8 h-8 rounded-full bg-[#d8ecfc] hover:bg-[#c2e2fa] dark:bg-blue-950/70 dark:hover:bg-blue-900 text-[#0b57d0] dark:text-blue-300 flex items-center justify-center transition-all active:scale-95 shadow-2xs cursor-pointer hover:shadow-cyan-500/20"
+                      title="RoboPengu Canlı Ses Modu"
+                      aria-label="RoboPengu Canlı Ses"
                     >
-                      <div className="w-4 h-4 rounded-full overflow-hidden flex items-center justify-center shrink-0">
-                        <img src="/assets/robopengu.png" alt="RoboPengu" className="w-full h-full object-contain" />
+                      <div className="flex items-center justify-center gap-[2px] h-3.5">
+                        <span className="w-[2px] bg-[#0b57d0] dark:bg-blue-400 rounded-full animate-pulse h-2.5"></span>
+                        <span className="w-[2px] bg-[#0b57d0] dark:bg-blue-400 rounded-full animate-pulse h-3.5" style={{ animationDelay: '0.2s' }}></span>
+                        <span className="w-[2px] bg-[#0b57d0] dark:bg-blue-400 rounded-full animate-pulse h-2" style={{ animationDelay: '0.4s' }}></span>
                       </div>
-                      <span className="font-extrabold text-emerald-700 dark:text-emerald-300">RoboPengu AI</span>
+                    </button>
+
+                    {!isFocused && !query && (
+                      <kbd className="hidden xl:inline-flex items-center bg-slate-100 dark:bg-slate-800 text-slate-500 dark:text-slate-400 px-1.5 py-0.5 rounded-md text-[10px] font-black border border-slate-200 dark:border-slate-700 shadow-2xs font-mono">
+                        ⌘K
+                      </kbd>
+                    )}
+
+                    {/* Fütüristik RoboPengu AI Butonu */}
+                    <button
+                      type="button"
+                      onClick={(e) => {
+                        e.stopPropagation();
+                        openAiAssistant();
+                      }}
+                      className="relative flex items-center gap-1.5 px-3 py-1.5 rounded-full text-[11px] font-extrabold shadow-sm transition-all duration-300 cursor-pointer overflow-hidden border border-cyan-400/40 dark:border-cyan-500/50 bg-gradient-to-r from-slate-900 via-slate-800 to-slate-950 text-white hover:border-cyan-400 hover:shadow-[0_0_14px_rgba(6,182,212,0.45)] hover:scale-105 active:scale-95 whitespace-nowrap shrink-0 group/ai"
+                      title="RoboPengu Fütüristik Danışman"
+                    >
+                      <span className="absolute top-1 right-1 w-1.5 h-1.5 rounded-full bg-cyan-400 animate-ping"></span>
+                      <div className="w-4 h-4 rounded-full overflow-hidden flex items-center justify-center shrink-0 bg-slate-900 border border-cyan-400/60 p-0.5">
+                        <img src="/images/futuristic_robopengu_emblem.png" alt="RoboPengu" className="w-full h-full object-contain filter drop-shadow-[0_0_4px_rgba(6,182,212,0.8)]" />
+                      </div>
+                      <span className="bg-gradient-to-r from-cyan-300 via-teal-200 to-emerald-300 bg-clip-text text-transparent font-black tracking-tight">
+                        RoboPengu AI
+                      </span>
                     </button>
                   </div>
                 </div>
@@ -519,9 +614,9 @@ export function Navbar() {
           <div ref={mobileSearchContainerRef} className="block md:hidden pb-3 relative">
             <form onSubmit={handleSearchSubmit} className="w-full">
               <div
-                className={`w-full flex items-center justify-between bg-slate-100 dark:bg-slate-900 text-slate-900 dark:text-slate-100 text-xs px-3.5 py-2.5 rounded-full border transition-all shadow-2xs ${
+                className={`w-full flex items-center justify-between bg-white/95 dark:bg-slate-900/95 text-slate-900 dark:text-slate-100 text-xs px-3 py-1.5 rounded-full border transition-all shadow-[0_4px_16px_-2px_rgba(14,165,233,0.08)] backdrop-blur-xl ${
                   isFocused
-                    ? 'border-emerald-500 ring-2 ring-emerald-500/20 bg-white dark:bg-slate-900 shadow-md'
+                    ? 'border-cyan-400 ring-2 ring-cyan-400/25 shadow-[0_6px_20px_-2px_rgba(6,182,212,0.22)] bg-white dark:bg-slate-900'
                     : 'border-slate-200 dark:border-slate-800'
                 }`}
               >
@@ -529,9 +624,9 @@ export function Navbar() {
                   <button
                     type="submit"
                     aria-label="Arama yap"
-                    className="p-1 rounded-full text-slate-400 hover:text-emerald-600 dark:hover:text-emerald-400 cursor-pointer"
+                    className="p-1 rounded-full text-slate-400 hover:text-cyan-600 dark:hover:text-cyan-400 cursor-pointer"
                   >
-                    <Search className={`w-4 h-4 shrink-0 transition-colors ${isFocused ? 'text-emerald-600' : 'text-slate-400'}`} />
+                    <Search className={`w-4 h-4 shrink-0 transition-colors ${isFocused ? 'text-cyan-500' : 'text-slate-400'}`} />
                   </button>
                   
                   <input
@@ -550,8 +645,10 @@ export function Navbar() {
                       setIsFocused(true);
                       initClientSearch();
                     }}
-                    placeholder={isFocused ? '' : (currentPlaceholder || t.searchBarMobilePlaceholder || "Model, Marka veya Özellik Ara...")}
-                    className="w-full bg-transparent text-slate-900 dark:text-white text-[15px] sm:text-xs font-bold focus:outline-none placeholder:text-slate-400 dark:placeholder:text-slate-500"
+                    placeholder={isFocused ? '' : isListening ? 'Dinliyorum... 🎙️' : (currentPlaceholder || t.searchBarMobilePlaceholder || "Model veya Marka Ara...")}
+                    className={`w-full bg-transparent text-slate-900 dark:text-white text-[15px] sm:text-xs font-semibold focus:outline-none transition-colors ${
+                      isListening ? 'text-rose-600 dark:text-rose-400 placeholder:text-rose-500 animate-pulse font-bold' : 'placeholder:text-slate-400 dark:placeholder:text-slate-500'
+                    }`}
                   />
 
                   {query && (
@@ -567,20 +664,60 @@ export function Navbar() {
                     </button>
                   )}
 
-                  {/* Mobile Dedicated Gemini 3.8 Pill */}
+                  {/* Mobil Mikrofon Butonu */}
+                  <button
+                    type="button"
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      startVoiceSearch();
+                    }}
+                    className={`w-7 h-7 rounded-full flex items-center justify-center transition-all cursor-pointer active:scale-95 shrink-0 ${
+                      isListening
+                        ? 'bg-rose-500 text-white animate-pulse ring-2 ring-rose-300'
+                        : 'text-slate-500 hover:text-cyan-600 dark:hover:text-cyan-400'
+                    }`}
+                    title="Sesli Arama"
+                    aria-label="Sesli Arama"
+                  >
+                    {isListening ? (
+                      <MicOff className="w-3.5 h-3.5 text-white animate-bounce" />
+                    ) : (
+                      <Mic className="w-3.5 h-3.5" />
+                    )}
+                  </button>
+
+                  {/* Mobil Canlı Ses Dalgası Butonu */}
                   <button
                     type="button"
                     onClick={(e) => {
                       e.stopPropagation();
                       openAiAssistant();
                     }}
-                    className="flex items-center gap-1.5 px-2.5 py-1.5 rounded-full text-[10px] font-black transition-all cursor-pointer shrink-0 ml-1 border border-[#cbe0f5] dark:border-slate-700 bg-gradient-to-r from-[#eaf2fb] via-[#f1f8fc] to-[#f8fbfe] dark:from-slate-800 dark:to-slate-700 text-slate-800 dark:text-slate-100 shadow-2xs active:scale-95 whitespace-nowrap"
+                    className="w-7 h-7 rounded-full bg-[#d8ecfc] hover:bg-[#c2e2fa] dark:bg-blue-950/70 text-[#0b57d0] dark:text-blue-300 flex items-center justify-center transition-all active:scale-95 shadow-2xs shrink-0"
+                    title="Canlı Ses"
+                    aria-label="Canlı Ses"
+                  >
+                    <div className="flex items-center justify-center gap-[1.5px] h-3">
+                      <span className="w-[1.5px] bg-[#0b57d0] dark:bg-blue-400 rounded-full animate-pulse h-2"></span>
+                      <span className="w-[1.5px] bg-[#0b57d0] dark:bg-blue-400 rounded-full animate-pulse h-3"></span>
+                      <span className="w-[1.5px] bg-[#0b57d0] dark:bg-blue-400 rounded-full animate-pulse h-1.5"></span>
+                    </div>
+                  </button>
+
+                  {/* Mobile Dedicated Fütüristik RoboPengu Pill */}
+                  <button
+                    type="button"
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      openAiAssistant();
+                    }}
+                    className="flex items-center gap-1.5 px-2.5 py-1 rounded-full text-[10px] font-black transition-all cursor-pointer shrink-0 border border-cyan-400/40 dark:border-cyan-500/50 bg-gradient-to-r from-slate-900 to-slate-800 text-white shadow-xs active:scale-95 whitespace-nowrap"
                     title="RoboPengu AI Danışmanı"
                   >
-                    <div className="w-4 h-4 rounded-full overflow-hidden flex items-center justify-center shrink-0">
-                      <img src="/assets/robopengu.png" alt="RoboPengu" className="w-full h-full object-contain" />
+                    <div className="w-3.5 h-3.5 rounded-full overflow-hidden flex items-center justify-center shrink-0">
+                      <img src="/images/futuristic_robopengu_emblem.png" alt="RoboPengu" className="w-full h-full object-contain" />
                     </div>
-                    <span className="font-extrabold text-emerald-700 dark:text-emerald-300">RoboPengu AI</span>
+                    <span className="bg-gradient-to-r from-cyan-300 to-emerald-300 bg-clip-text text-transparent font-black">AI</span>
                   </button>
                 </div>
               </div>

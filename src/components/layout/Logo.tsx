@@ -37,7 +37,7 @@ export function Logo({ variant = 'light', size = 'md' }: LogoProps) {
   // Try to use context safely, or fallback to defaults
   let logoConfig = {
     type: 'image',
-    imageUrl: '/emblem.png',
+    imageUrl: '/images/futuristic_robopengu_emblem.png',
     presetIcon: 'scale',
     bgGradient: 'from-emerald-600 via-teal-600 to-emerald-500',
     titleText: 'aceleEtme',
@@ -74,7 +74,7 @@ export function Logo({ variant = 'light', size = 'md' }: LogoProps) {
         className="relative shrink-0"
       >
         {logoConfig.type === 'image' && logoConfig.imageUrl ? (
-          <div className="w-11 h-11 sm:w-12 sm:h-12 rounded-full flex items-center justify-center overflow-hidden shrink-0">
+          <div className="w-10 h-10 sm:w-11 sm:h-11 rounded-full flex items-center justify-center overflow-hidden shrink-0 filter drop-shadow-[0_0_10px_rgba(6,182,212,0.45)]">
             <Image
               src={logoConfig.imageUrl}
               alt="aceleEtme Amblem"
