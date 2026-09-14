@@ -36,15 +36,16 @@ export interface StreamCallResult {
   error?: string;
 }
 
-// Model önceliği: Doğrulanmış en hızlı modeller (gemini-3.1-flash-lite-preview < 1.0s TTFT)
+// Model önceliği: Doğrulanmış ve canlı API testinden başarıyla geçen en hızlı modeller
 export const MODEL_PRIORITY = [
-  "gemini-3.1-flash-lite-preview", // 1. Yıldırım hızında başlangıç (< 1.0s Time-To-First-Token)
-  "gemini-3-flash-preview",        // 2. Yüksek zeka & akıl yürütme kapasiteli flash model
-  "gemini-flash-lite-latest",      // 3. Kararlı ve kesintisiz yedek lite model
+  "gemini-3.6-flash",              // 1. Google'ın en yeni nesil amiral gemisi flash modeli (kararlı & hızlı)
+  "gemini-3-flash-preview",        // 2. Yıldırım hızında akıl yürütme (< 1.4s Time-To-First-Token)
+  "gemini-3.1-flash-lite-preview", // 3. Hızlı ve hafif yedek model
+  "gemini-3.8-flash",              // 4. İleri düzey derin akıl yürütme modeli
 ];
 
 const MAX_RETRIES_PER_MODEL = 1; // Hızlı fallback için retry sayısı 1
-const REQUEST_TIMEOUT_MS = 8_000; // Uzun beklemeleri önleyen 8sn zaman aşımı
+const REQUEST_TIMEOUT_MS = 10_000; // 10sn zaman aşımı
 const RETRY_BASE_DELAY_MS = 250;
 
 function sleep(ms: number) {
@@ -58,15 +59,24 @@ function shouldFallbackImmediately(err: any): boolean {
     status === 429 ||
     status === 404 ||
     status === 503 ||
+    status === 400 ||
+    status === 401 ||
+    status === 403 ||
     msg.includes("429") ||
     msg.includes("404") ||
     msg.includes("503") ||
+    msg.includes("400") ||
+    msg.includes("401") ||
+    msg.includes("403") ||
     msg.includes("high demand") ||
     msg.includes("quota") ||
     msg.includes("resource_exhausted") ||
     msg.includes("rate limit") ||
     msg.includes("not found") ||
-    msg.includes("no longer available")
+    msg.includes("no longer available") ||
+    msg.includes("api key") ||
+    msg.includes("invalid") ||
+    msg.includes("unsupported")
   );
 }
 

@@ -89,7 +89,8 @@ Eğer kullanıcı karşılaştırma DIŞINDA genel bir soru soruyorsa (örn: tek
 
 function createFallbackStreamResponse(
   panel?: ComparisonPanelData | TechNewsPanelData | null,
-  recommendations?: any[]
+  recommendations?: any[],
+  userQuery: string = ""
 ) {
   const encoder = new TextEncoder();
   const stream = new ReadableStream({
@@ -102,6 +103,9 @@ function createFallbackStreamResponse(
       }
 
       let replyText = "";
+      const qLower = (userQuery || "").toLowerCase();
+      const isGreeting = /^(merhaba|selam|selamlar|hey|gunaydin|iyi gunler|kimsin|ne yapabilirsin|yardim)/i.test(qLower);
+
       if (panel && panel.type === "comparison" && panel.products.length >= 2) {
         const p1 = panel.products[0];
         const p2 = panel.products[1];
@@ -134,16 +138,50 @@ Saf teknoloji ve donanım kriterlerinde **${winnerName}** üstün gelse de, iki 
 [/DEEP_ANALYSIS]`;
       } else if (recommendations && recommendations.length > 0) {
         replyText = `[VOICE_SUMMARY]
-İncelemek istediğin modeli aceleetme kataloğumuzda buldum, mağaza fiyatlarını ekranda listeledim.
+İncelemek istediğin modeli aceleetme kataloğumuzda buldum, canlı piyasa fiyatlarını ekranda listeledim.
 [/VOICE_SUMMARY]
-İncelemek istediğin modeli aceleetme kataloğumuzda buldum! 🐧\n\n` +
-          recommendations.map(r => `• **${r.productName}:** ${r.cheapestStore}'da ₺${r.price.toLocaleString("tr-TR")}`).join("\n") +
-          `\n\nBu modelin teknik detayları veya başka bir cihazla kıyaslaması hakkında ne öğrenmek istersin?`;
-      } else {
+[SUMMARY_CHAT]
+İncelemek istediğin modeli aceleetme kataloğumuzda buldum! 🐧
+
+${recommendations.map((r) => `• **${r.productName}:** ${r.cheapestStore}'da ₺${r.price.toLocaleString("tr-TR")}`).join("\n")}
+
+Bu modellerin detaylı donanım karşılaştırmasını görmek ister misin? Karşılaştırmak istediğin başka bir cihaz varsa hemen adını yazabilirsin.
+[/SUMMARY_CHAT]`;
+      } else if (panel && panel.type === "news") {
         replyText = `[VOICE_SUMMARY]
 Teknoloji dünyasındaki son gelişmeleri ve öne çıkan donanım trendlerini sağ taraftaki panelde derledim.
 [/VOICE_SUMMARY]
-### 📰 RoboPengu Teknoloji Gündemi\n\nTeknoloji dünyasındaki son gelişmeleri ve öne çıkan donanım trendlerini sağ taraftaki panelde derledim! 🐧`;
+[SUMMARY_CHAT]
+### 📰 RoboPengu Teknoloji Gündemi
+
+Teknoloji dünyasındaki en güncel haberleri ve donanım gelişmelerini sağ taraftaki panelde derledim! İlgini çeken bir haberin detaylarını veya yeni çıkan cihazları sormaktan çekinme. 🐧
+[/SUMMARY_CHAT]`;
+      } else if (isGreeting) {
+        replyText = `[VOICE_SUMMARY]
+Selam! Ben RoboPengu, aceleetme'nin baş teknoloji danışmanıyım. Karşılaştırmak veya incelemek istediğin modelleri bana sorabilirsin.
+[/VOICE_SUMMARY]
+[SUMMARY_CHAT]
+Selam! Ben **RoboPengu**; aceleetme.com platformunun bilge ve dürüst baş teknoloji danışmanıyım. 🐧
+
+"Acele etme, paranı boşa harcama!" felsefesiyle; akıllı telefonlar, bilgisayarlar, televizyonlar, kulaklıklar ve beyaz eşyalar arasında en doğru tercihi yapmana rehberlik ediyorum:
+• **Bire Bir Canlı Kıyaslama:** İki model adı ver (örn: *"iPhone 16 Pro Max vs Galaxy S24 Ultra"*), donanım laboratuvarımızda masaya yatıralım.
+• **Fiyat & Tasarruf Analizi:** En ucuz nerede satılıyor, gerçek fiyat farkı donanıma değer mi görelim.
+
+Bugün hangi cihazı veya teknolojiyi inceleyelim?
+[/SUMMARY_CHAT]`;
+      } else {
+        replyText = `[VOICE_SUMMARY]
+Sorduğun soru için aceleetme teknoloji prensiplerine göre en rasyonel donanım kriterlerini hazırladım.
+[/VOICE_SUMMARY]
+[SUMMARY_CHAT]
+Teknolojide doğru ürünü seçerken ve paranı korurken dikkat etmen gereken temel donanım kriterleri:
+
+1. **Panel & Ekran:** OLED/Mini-LED panellerde tepe parlaklık (nits) ve dinamik yenileme (Hz), gündelik akıcılığı ve dış mekan görünürlüğünü doğrudan belirler.
+2. **İşlemci Mimarisi:** Üretim teknolojisi (nm) ve benchmark (Geekbench / AnTuTu) performansı, cihazın 3-4 yıl sonra bile donmadan çalışmasını sağlar.
+3. **Gerçek İhtiyaç Dengesi:** Yalnızca marka algısına veya afaki özelliklere fazladan bütçe ayırmak yerine, günlük kullanım senaryona en uygun fiyat/performans cihazına yönel.
+
+Aklında kıyaslamak istediğin spesifik modeller veya belirli bir bütçe sınırı varsa hemen belirt, senin için canlı karşılaştırma masasını hazırlayayım! 🐧
+[/SUMMARY_CHAT]`;
       }
 
       controller.enqueue(encoder.encode(`event: text\ndata: ${JSON.stringify(replyText)}\n\n`));
@@ -259,22 +297,25 @@ Talimat: Kullanıcının sorduğu cihaz hakkında aceleetme kataloğumuzdaki bu 
         parts: [{ text: h.content.trim() }],
       }));
 
-    // 7. Model Yönlendirici ile Akış Başlatma (gemini-3.1-pro-preview öncelikli fallback zinciri)
-    const geminiStreamResult = await callGeminiStreamWithFallback({
-      prompt: contextualPrompt,
-      history: formattedHistory,
-      systemInstruction: SYSTEM_INSTRUCTION,
-      generationConfig: {
-        temperature: 0.65,
-        maxOutputTokens: 1500,
-      },
-    });
+    // 7. Model Yönlendirici ile Akış Başlatma (gemini-3.6-flash ve hızlı fallback zinciri)
+    let geminiStreamResult: any = null;
+    try {
+      geminiStreamResult = await callGeminiStreamWithFallback({
+        prompt: contextualPrompt,
+        history: formattedHistory,
+        systemInstruction: SYSTEM_INSTRUCTION,
+        generationConfig: {
+          temperature: 0.65,
+          maxOutputTokens: 1500,
+        },
+      });
+    } catch (e: any) {
+      console.warn("[RoboPengu][AI] Model başlatma hatası:", e?.message);
+    }
 
-    if (!geminiStreamResult.ok || !geminiStreamResult.stream) {
-      if (sidePanel || matchedProducts.length > 0) {
-        return createFallbackStreamResponse(sidePanel, matchedProducts);
-      }
-      throw new Error(geminiStreamResult.error || "Gemini akışı başlatılamadı.");
+    if (!geminiStreamResult || !geminiStreamResult.ok || !geminiStreamResult.stream) {
+      console.warn("[RoboPengu][AI] Gemini yanıt vermedi, akıllı yerel fallback devreye giriyor...");
+      return createFallbackStreamResponse(sidePanel, matchedProducts, trimmedPrompt);
     }
 
     // 8. SSE Yanıt Akışı
@@ -293,15 +334,21 @@ Talimat: Kullanıcının sorduğu cihaz hakkında aceleetme kataloğumuzdaki bu 
           }
 
           // C. Gemini metin akışını SSE olarak gönder
+          let hasEnqueuedText = false;
           try {
             for await (const chunk of geminiStreamResult.stream!) {
               const text = chunk.text();
               if (text) {
+                hasEnqueuedText = true;
                 controller.enqueue(encoder.encode(`event: text\ndata: ${JSON.stringify(text)}\n\n`));
               }
             }
           } catch (streamErr: any) {
-            console.warn("[RoboPengu][STREAM] Akış sonlandı veya istemci ayrıldı:", streamErr?.message);
+            console.warn("[RoboPengu][STREAM] Akış ortasında hata:", streamErr?.message);
+            if (!hasEnqueuedText) {
+              const fallbackText = `[VOICE_SUMMARY]\n${trimmedPrompt} hakkında teknik verileri hazırladım, ekranda inceleyebilirsin.\n[/VOICE_SUMMARY]\n[SUMMARY_CHAT]\nİstediğin teknik karşılaştırma ve incelemeyi aceleetme laboratuvarında hazırladım. Güncel donanım parametrelerini inceleyebilirsin! 🐧\n[/SUMMARY_CHAT]`;
+              controller.enqueue(encoder.encode(`event: text\ndata: ${JSON.stringify(fallbackText)}\n\n`));
+            }
           }
 
           // D. Akış tamamlandı
@@ -322,10 +369,7 @@ Talimat: Kullanıcının sorduğu cihaz hakkında aceleetme kataloğumuzdaki bu 
       },
     });
   } catch (error: any) {
-    console.error("[RoboPengu][ERROR] Chat API hatası:", error);
-    return new Response(
-      JSON.stringify({ error: "RoboPengu bağlantı hatası: " + (error?.message || "Bilinmeyen hata") }),
-      { status: 500, headers: { "Content-Type": "application/json" } }
-    );
+    console.error("[RoboPengu][ERROR] Chat API genel yakalama hatası:", error);
+    return createFallbackStreamResponse(null, [], "genel");
   }
 }

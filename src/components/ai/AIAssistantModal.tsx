@@ -241,8 +241,10 @@ export function partitionContent(content: string) {
       .replace(/\[\/?DEEP_ANALYSIS\]/g, '')
       .trim();
   } else {
-    // Heuristik: "### 1." veya "1. Ekran" ile başlayan teknik kısımları ayır
-    const deepSplitMatch = cleanContent.match(/(?:^|\n)(?:###?\s*(?:1[\.\)]\s*)?Ekran|###?\s*1[\.\)]|##\s*1[\.\)])/i);
+    // Heuristik: "### 1." veya "1. Ekran" veya "### Ekran" veya "**1. Ekran**" ile başlayan teknik kısımları ayır
+    const deepSplitMatch = cleanContent.match(
+      /(?:^|\n)(?:#{1,4}\s*(?:[1-4][\.\:\)\-]\s*)?(?:Ekran|Panel|Görsel|İşlemci|Donanım|Performans|Kamera|Sensör|Batarya|Pil|Şarj)|#{1,4}\s*[1-4][\.\:\)\-]|\*\*(?:[1-4][\.\:\)\-]\s*)?(?:Ekran|Panel|Görsel|İşlemci|Kamera|Batarya))/i
+    );
     if (deepSplitMatch && deepSplitMatch.index !== undefined) {
       chatSummary = cleanContent.slice(0, deepSplitMatch.index).trim();
       deepAnalysis = cleanContent.slice(deepSplitMatch.index).trim();
@@ -277,8 +279,9 @@ export function partitionContent(content: string) {
 
 export function parseAnalysisSections(deepText: string): Array<{ title: string; body: string }> {
   if (!deepText) return [];
-  const regex = /(?:^|\n)###?\s*([1-4][\.\)]\s*[^\n]+)/g;
-  const sections: Array<{ title: string; body: string }> = [];
+
+  // 1. Standart 1-4 numaralı başlıklara bak
+  let regex = /(?:^|\n)###?\s*([1-4][\.\:\)\-]\s*[^\n]+)/g;
   let match: RegExpExecArray | null;
   const indices: Array<{ title: string; index: number }> = [];
 
@@ -289,16 +292,36 @@ export function parseAnalysisSections(deepText: string): Array<{ title: string; 
     });
   }
 
-  for (let i = 0; i < indices.length; i++) {
-    const title = indices[i].title;
-    const start = indices[i].index;
-    const end = i + 1 < indices.length ? indices[i + 1].index : deepText.length;
-    const block = deepText.slice(start, end).trim();
-    const body = block.replace(/^###?\s*[1-4][\.\)]\s*[^\n]+\n?/, '').trim();
-    sections.push({ title, body });
+  // 2. Eğer numaralı başlık bulunamadıysa herhangi bir markdown alt başlığı (### veya ##) ara
+  if (indices.length === 0) {
+    regex = /(?:^|\n)(?:###|##)\s+([^\n]+)/g;
+    while ((match = regex.exec(deepText)) !== null) {
+      const t = match[1].trim();
+      if (!t.toLowerCase().includes('bütçe') && !t.toLowerCase().includes('tavsiye')) {
+        indices.push({
+          title: t,
+          index: match.index,
+        });
+      }
+    }
   }
 
-  return sections;
+  // 3. Başlıklar bulunduysa bölümlere ayır
+  if (indices.length > 0) {
+    const sections: Array<{ title: string; body: string }> = [];
+    for (let i = 0; i < indices.length; i++) {
+      const title = indices[i].title;
+      const start = indices[i].index;
+      const end = i + 1 < indices.length ? indices[i + 1].index : deepText.length;
+      const block = deepText.slice(start, end).trim();
+      const body = block.replace(/^(?:###|##)?\s*(?:[1-4][\.\:\)\-]\s*)?[^\n]+\n?/, '').trim();
+      sections.push({ title, body });
+    }
+    return sections;
+  }
+
+  // 4. Eğer hiçbir başlık yoksa ama metin varsa tek bir genel bölüm olarak sun
+  return [{ title: "Detaylı Donanım Değerlendirmesi", body: deepText.trim() }];
 }
 
 // ---- Basit & Hızlı Markdown Ayrıştırıcı Bileşeni --------------------
