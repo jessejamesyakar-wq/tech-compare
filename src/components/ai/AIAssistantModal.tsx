@@ -1625,16 +1625,26 @@ export function AIAssistantModal({ isOpen, onClose, initialQuery = '' }: AIAssis
                   {messages.length === 1 && messages[0].id === 'welcome' ? (
                     /* 🐧 MERKEZ: ÖZEL METALİK ROBOPENGU AMBLEMİ VE BAŞLIK */
                     <div className="flex-1 my-auto flex flex-col items-center justify-center text-center px-4 py-8 select-none animate-in fade-in zoom-in-95 duration-300">
-                      {/* Fütüristik Siber Titanyum RoboPengu Amblemi (100% Şeffaf Arka Plan + Kuantum Işıma) */}
-                      <div className="relative mb-5 flex items-center justify-center">
-                        {/* Sibernetik Kuantum Enerji Aurası */}
-                        <div className="absolute inset-0 rounded-full bg-cyan-400/25 dark:bg-cyan-500/20 blur-2xl scale-125 pointer-events-none animate-pulse" />
-                        <div className="relative w-32 h-32 sm:w-36 sm:h-36 flex items-center justify-center transition-transform duration-300 hover:scale-105">
-                          <img
-                            src="/images/futuristic_robopengu_emblem.png"
-                            alt="RoboPengu Fütüristik Siber Amblem"
-                            className="w-full h-full object-contain drop-shadow-[0_0_20px_rgba(6,182,212,0.55)] drop-shadow-[0_12px_24px_rgba(15,23,42,0.22)]"
-                          />
+                      {/* 3D Kabartma (Embossed) Madalyon Kaidesi ve Fütüristik Amblem */}
+                      <div className="relative mb-6 flex items-center justify-center group">
+                        {/* 3D Dairesel Kabartmalı Dış Kaide Plakası */}
+                        <div className="relative w-40 h-40 sm:w-44 sm:h-44 rounded-full p-2.5 sm:p-3 flex items-center justify-center transition-transform duration-300 group-hover:scale-105 bg-gradient-to-br from-white via-[#edf4fe] to-[#cde2fc] dark:from-slate-800 dark:via-slate-850 dark:to-slate-900 shadow-[-8px_-8px_20px_rgba(255,255,255,0.95),12px_14px_28px_rgba(14,165,233,0.20),inset_1.5px_1.5px_2px_rgba(255,255,255,1),inset_-1.5px_-1.5px_3px_rgba(15,23,42,0.08)] dark:shadow-[-6px_-6px_16px_rgba(255,255,255,0.05),10px_12px_25px_rgba(0,0,0,0.5),inset_1px_1px_2px_rgba(255,255,255,0.1),inset_-1px_-1px_2px_rgba(0,0,0,0.5)]">
+                          
+                          {/* İç Yiv ve Pah Halkası */}
+                          <div className="w-full h-full rounded-full border border-white/80 dark:border-slate-700/60 flex items-center justify-center p-2 relative shadow-[inset_2px_3px_6px_rgba(15,23,42,0.10),inset_-2px_-3px_6px_rgba(255,255,255,0.85)] dark:shadow-[inset_2px_3px_6px_rgba(0,0,0,0.4),inset_-2px_-3px_6px_rgba(255,255,255,0.05)]">
+                            
+                            {/* Yumuşak Camgöbeği İç Aurası */}
+                            <div className="absolute inset-2 rounded-full bg-cyan-400/20 dark:bg-cyan-500/15 blur-lg pointer-events-none animate-pulse" />
+
+                            {/* Titanyum Amblem (Kabartma Kaidenin Üzerinde Yükseltilmiş) */}
+                            <div className="relative w-28 h-28 sm:w-32 sm:h-32 flex items-center justify-center">
+                              <img
+                                src="/images/futuristic_robopengu_emblem.png"
+                                alt="RoboPengu 3D Kabartma Amblem"
+                                className="w-full h-full object-contain drop-shadow-[0_8px_16px_rgba(15,23,42,0.28)] drop-shadow-[0_0_14px_rgba(6,182,212,0.50)]"
+                              />
+                            </div>
+                          </div>
                         </div>
                       </div>
 
