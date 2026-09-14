@@ -1494,8 +1494,8 @@ export function AIAssistantModal({ isOpen, onClose, initialQuery = '' }: AIAssis
             {/* Modal Üst Başlık Çubuğu */}
             <div className="px-3 sm:px-6 py-2.5 sm:py-3 border-b border-blue-100/60 dark:border-slate-800 flex items-center justify-between bg-white/75 dark:bg-slate-900/75 backdrop-blur-md shrink-0 gap-2">
               <div className="flex items-center gap-2 sm:gap-3 min-w-0">
-                <div className="relative w-8 h-8 sm:w-9 sm:h-9 rounded-full bg-white dark:bg-slate-800 flex items-center justify-center overflow-hidden border border-blue-300 dark:border-blue-700 shrink-0 shadow-xs">
-                  <img src="/images/robopengu_emblem.jpg" alt="RoboPengu" className="w-7 h-7 sm:w-8 sm:h-8 object-contain mix-blend-multiply dark:mix-blend-normal" />
+                <div className="relative w-8 h-8 sm:w-9 sm:h-9 rounded-full bg-white/90 dark:bg-slate-800 flex items-center justify-center overflow-hidden border border-blue-200 dark:border-blue-700 shrink-0 shadow-xs">
+                  <img src="/images/robopengu_emblem.png" alt="RoboPengu" className="w-7 h-7 sm:w-8 sm:h-8 object-contain" />
                   <span className={`absolute bottom-0 right-0 w-2 h-2 rounded-full ring-1 ring-white dark:ring-slate-900 ${
                     reactorState === 'thinking'
                       ? 'bg-purple-500 animate-ping'
@@ -1625,14 +1625,13 @@ export function AIAssistantModal({ isOpen, onClose, initialQuery = '' }: AIAssis
                   {messages.length === 1 && messages[0].id === 'welcome' ? (
                     /* 🐧 MERKEZ: ÖZEL METALİK ROBOPENGU AMBLEMİ VE BAŞLIK */
                     <div className="flex-1 my-auto flex flex-col items-center justify-center text-center px-4 py-8 select-none animate-in fade-in zoom-in-95 duration-300">
-                      {/* Metalik RoboPengu Amblem İkonu */}
-                      <div className="relative mb-5 group">
-                        <div className="absolute inset-0 rounded-full bg-blue-400/20 blur-xl scale-110 pointer-events-none"></div>
+                      {/* Metalik RoboPengu Amblem İkonu (100% Şeffaf Arka Plan) */}
+                      <div className="relative mb-5 flex items-center justify-center">
                         <div className="relative w-28 h-28 sm:w-32 sm:h-32 flex items-center justify-center transition-transform duration-300 hover:scale-105">
                           <img
-                            src="/images/robopengu_emblem.jpg"
+                            src="/images/robopengu_emblem.png"
                             alt="RoboPengu Amblemi"
-                            className="w-full h-full object-contain mix-blend-multiply dark:mix-blend-normal dark:rounded-full dark:bg-white/10 dark:p-1 drop-shadow-[0_12px_24px_rgba(30,58,138,0.18)]"
+                            className="w-full h-full object-contain drop-shadow-[0_10px_22px_rgba(15,23,42,0.18)]"
                           />
                         </div>
                       </div>
