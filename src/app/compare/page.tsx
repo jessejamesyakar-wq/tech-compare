@@ -7,7 +7,6 @@ import Link from 'next/link';
 import { useI18n } from '@/lib/i18n/context';
 import { useCompare } from '@/context/CompareContext';
 import { Product } from '@/lib/types';
-import { CompareMatrix } from '@/components/compare/CompareMatrix';
 import { DuelArena } from '@/components/compare/DuelArena';
 import {
   Scale,
@@ -282,17 +281,20 @@ function CompareContent() {
         </div>
       ) : (
         <div className="space-y-8">
-          {selectedProducts.length >= 2 && (
+          {selectedProducts.length >= 2 ? (
             <DuelArena product1={selectedProducts[0]} product2={selectedProducts[1]} />
+          ) : (
+            <div className="bg-white border border-slate-200 rounded-3xl p-12 text-center space-y-3 shadow-xs">
+              <p className="text-sm font-bold text-slate-700">Düelloyu başlatmak için lütfen 2. bir model ekleyin.</p>
+              <button
+                onClick={() => setAddModalOpen(true)}
+                className="inline-flex items-center gap-2 bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-xs px-5 py-2.5 rounded-xl shadow-xs transition-all cursor-pointer"
+              >
+                <Plus className="w-4 h-4" />
+                <span>2. Modeli Seç</span>
+              </button>
+            </div>
           )}
-
-          <div className="space-y-3 pt-2">
-            <h3 className="text-base font-black text-slate-900 flex items-center gap-2">
-              <Scale className="w-5 h-5 text-emerald-600" />
-              <span>Ayrıntılı Teknik Özellikler Karşılaştırma Matrisi</span>
-            </h3>
-            <CompareMatrix products={selectedProducts} />
-          </div>
         </div>
       )}
 
