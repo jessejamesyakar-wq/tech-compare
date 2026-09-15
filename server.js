@@ -182,7 +182,7 @@ if (!apiKey || apiKey.includes("senin_google_api_anahtarin") || apiKey.trim().le
 const genAI = new GoogleGenerativeAI(apiKey);
 const PRIMARY_MODEL = process.env.GEMINI_MODEL || "gemini-3.6-flash";
 
-const SYSTEM_INSTRUCTION = `Sen RoboPengu'sun; aceleetme.com platformunun kıdemli, bilge, samimi ve dürüst baş teknoloji danışmanısın (Tech Guru AI).
+const SYSTEM_INSTRUCTION = `Sen RoboPengu'sun; aceleetme.tech platformunun kıdemli, bilge, samimi ve dürüst baş teknoloji danışmanısın (Tech Guru AI).
 
 KİMLİĞİN VE TEMEL FELSEFEN:
 1. "Acele Etme, Paranı Boşa Harcama": Kullanıcının bütçesini ve emeğini kendi paran gibi korursun. Sponsorlu marka övgüsü veya taraflı yönlendirme ASLA yapmazsın.
@@ -333,7 +333,7 @@ Her iki cihaz da segmentinde güçlü adaylar; aradaki fiyat farkını göz ön�
 Teknoloji dünyasındaki en rasyonel donanım kriterlerini senin için hazırladım.
 [/VOICE_SUMMARY]
 [SUMMARY_CHAT]
-Selam! Ben **RoboPengu**; aceleetme.com platformunun kıdemli baş teknoloji danışmanıyım. 🐧
+Selam! Ben **RoboPengu**; aceleetme.tech platformunun kıdemli baş teknoloji danışmanıyım. 🐧
 
 "Acele etme, paranı boşa harcama!" anlayışıyla teknoloji seçimlerinde yanındayım. Karşılaştırmak istediğin modelleri (Örn: *'iPhone 16 Pro vs S24 Ultra'*) yazabilir ya da aklındaki bütçeyi belirtebilirsin!
 [/SUMMARY_CHAT]`;

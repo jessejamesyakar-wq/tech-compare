@@ -1655,7 +1655,7 @@ export function AIAssistantModal({ isOpen, onClose, initialQuery = '' }: AIAssis
 
                       {/* Alt Başlık */}
                       <p className="text-xs text-slate-500 dark:text-slate-400 mt-2 font-medium">
-                        aceleetme.com Baş Teknoloji Danışmanı
+                        aceleetme.tech Baş Teknoloji Danışmanı
                       </p>
 
                       {/* Hızlı Örnek Sorular / İpuçları */}

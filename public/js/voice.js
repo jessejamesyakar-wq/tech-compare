@@ -1,6 +1,6 @@
-﻿/**
+/**
  * RoboPengu Voice Controller (Web Speech API)
- * aceleetme.com - Bağımsız Seslendirme Modülü
+ * aceleetme.tech - Bağımsız Seslendirme Modülü
  */
 
 const RoboPenguVoice = {
