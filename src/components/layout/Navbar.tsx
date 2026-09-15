@@ -416,7 +416,7 @@ export function Navbar() {
                 searchInputRef.current?.focus();
                 setIsFocused(true);
               }}
-              className="hidden md:flex flex-1 max-w-2xl mx-auto relative cursor-text"
+              className="hidden lg:flex flex-1 max-w-2xl mx-auto relative cursor-text"
             >
               <form onSubmit={handleSearchSubmit} className="w-full">
                 <div
@@ -609,9 +609,9 @@ export function Navbar() {
           </div>
 
           {/* ========================================================================= */}
-          {/* 📱 MOBILE & TABLET FULL-WIDTH DIRECT INLINE SEARCH BAR (< md)            */}
+          {/* 📱 MOBILE & TABLET FULL-WIDTH DIRECT INLINE SEARCH BAR (< lg)            */}
           {/* ========================================================================= */}
-          <div ref={mobileSearchContainerRef} className="block md:hidden pb-3 relative">
+          <div ref={mobileSearchContainerRef} className="block lg:hidden pb-3 relative">
             <form onSubmit={handleSearchSubmit} className="w-full">
               <div
                 className={`w-full flex items-center justify-between bg-white/95 dark:bg-slate-900/95 text-slate-900 dark:text-slate-100 text-xs px-3 py-1.5 rounded-full border transition-all shadow-[0_4px_16px_-2px_rgba(14,165,233,0.08)] backdrop-blur-xl ${
@@ -704,20 +704,28 @@ export function Navbar() {
                     </div>
                   </button>
 
-                  {/* Mobile Dedicated Fütüristik RoboPengu Pill */}
+                  {/* Mobile & Tablet Dedicated Fütüristik RoboPengu AI Pill */}
                   <button
                     type="button"
                     onClick={(e) => {
                       e.stopPropagation();
                       openAiAssistant();
                     }}
-                    className="flex items-center gap-1.5 px-2.5 py-1 rounded-full text-[10px] font-black transition-all cursor-pointer shrink-0 border border-cyan-400/40 dark:border-cyan-500/50 bg-gradient-to-r from-slate-900 to-slate-800 text-white shadow-xs active:scale-95 whitespace-nowrap"
+                    className="relative flex items-center gap-1.5 px-2.5 sm:px-3 py-1 sm:py-1.5 rounded-full text-[11px] font-black transition-all duration-300 cursor-pointer overflow-hidden border border-cyan-400/50 dark:border-cyan-500/60 bg-gradient-to-r from-slate-900 via-slate-800 to-slate-950 text-white shadow-[0_0_10px_rgba(6,182,212,0.3)] hover:border-cyan-400 hover:shadow-[0_0_16px_rgba(6,182,212,0.5)] active:scale-95 whitespace-nowrap shrink-0 group/ai"
                     title="RoboPengu AI Danışmanı"
+                    aria-label="RoboPengu AI Danışmanı"
                   >
-                    <div className="w-3.5 h-3.5 rounded-full overflow-hidden flex items-center justify-center shrink-0">
-                      <img src="/images/futuristic_robopengu_emblem.png" alt="RoboPengu" className="w-full h-full object-contain" />
+                    <span className="absolute top-1 right-1 w-1.5 h-1.5 rounded-full bg-cyan-400 animate-ping"></span>
+                    <div className="w-4 h-4 rounded-full overflow-hidden flex items-center justify-center shrink-0 bg-slate-900 border border-cyan-400/70 p-0.5 shadow-[0_0_6px_rgba(6,182,212,0.6)]">
+                      <img
+                        src="/images/futuristic_robopengu_emblem.png"
+                        alt="RoboPengu"
+                        className="w-full h-full object-contain filter drop-shadow-[0_0_4px_rgba(6,182,212,0.8)]"
+                      />
                     </div>
-                    <span className="bg-gradient-to-r from-cyan-300 to-emerald-300 bg-clip-text text-transparent font-black">AI</span>
+                    <span className="bg-gradient-to-r from-cyan-300 via-teal-200 to-emerald-300 bg-clip-text text-transparent font-black text-[11px] sm:text-xs tracking-tight">
+                      RoboPengu AI
+                    </span>
                   </button>
                 </div>
               </div>

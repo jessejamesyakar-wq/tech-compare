@@ -116,7 +116,7 @@ export function Logo({ variant = 'light', size = 'md' }: LogoProps) {
           )}
         </span>
         <span
-          className={`text-[8px] sm:text-[9px] tracking-[0.15em] sm:tracking-[0.2em] font-black uppercase mt-0.5 whitespace-nowrap ${
+          className={`text-[8px] sm:text-[9px] tracking-[0.15em] sm:tracking-[0.2em] font-black uppercase mt-0.5 whitespace-nowrap hidden sm:block ${
             isDarkTheme ? 'text-emerald-400/90' : 'text-slate-500 dark:text-slate-400'
           }`}
         >
