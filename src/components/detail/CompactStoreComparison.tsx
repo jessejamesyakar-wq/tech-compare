@@ -3,7 +3,7 @@
 import React, { useState } from 'react';
 import { StoreOffer } from '@/lib/types';
 import { useI18n } from '@/lib/i18n/context';
-import { ShoppingBag, ExternalLink, Clock } from 'lucide-react';
+import { ShoppingBag, ExternalLink, Clock, ChevronDown, ChevronUp } from 'lucide-react';
 import { ProductLike, isEligibleForLivePriceComparison } from '@/lib/releaseYearFilter';
 import { HistoricalRetroShowcase } from './HistoricalRetroShowcase';
 import { OutboundPriceModal } from '@/components/outbound/OutboundPriceModal';
@@ -22,6 +22,7 @@ const REQUIRED_RETAILERS = ACTIVE_RETAILERS;
 
 export function CompactStoreComparison({ offers = [], basePrice, currency, product }: CompactStoreComparisonProps) {
   const { t } = useI18n();
+  const [isExpanded, setIsExpanded] = useState(false);
   const [outboundModal, setOutboundModal] = useState<{
     isOpen: boolean;
     productName: string;
@@ -114,9 +115,9 @@ export function CompactStoreComparison({ offers = [], basePrice, currency, produ
         </div>
       </div>
 
-      {/* 8 Active Store Price Comparison Rows */}
+      {/* 15 Active Store Price Comparison Rows */}
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
-        {sortedStores.map((store) => {
+        {(isExpanded ? sortedStores : sortedStores.slice(0, 6)).map((store) => {
           const isCheapest = lowestPrice !== null && store.price === lowestPrice;
 
           return (
@@ -131,7 +132,7 @@ export function CompactStoreComparison({ offers = [], basePrice, currency, produ
               {/* Store Badge & Name */}
               <div className="flex items-center gap-2 truncate">
                 <span className={`w-6 h-6 rounded-lg ${store.bg} text-[10px] font-black flex items-center justify-center shrink-0 shadow-2xs`}>
-                  {store.id === 'n11' ? 'N11' : store.id === 'pttavm' ? 'PTT' : store.name.slice(0, 2).toUpperCase()}
+                  {store.label || store.name.slice(0, 2).toUpperCase()}
                 </span>
                 <div className="truncate">
                   <div className="flex items-center gap-1">
@@ -170,6 +171,27 @@ export function CompactStoreComparison({ offers = [], basePrice, currency, produ
           );
         })}
       </div>
+
+      {/* Expand/Collapse Toggle for 15 Stores */}
+      {sortedStores.length > 6 && (
+        <button
+          type="button"
+          onClick={() => setIsExpanded(!isExpanded)}
+          className="w-full py-2 px-3 rounded-xl border border-slate-200 hover:border-emerald-300 hover:bg-emerald-50/50 text-slate-700 hover:text-emerald-700 text-xs font-bold transition-all flex items-center justify-center gap-1.5 cursor-pointer"
+        >
+          {isExpanded ? (
+            <>
+              <span>Daha Az Mağaza Göster</span>
+              <ChevronUp className="w-3.5 h-3.5" />
+            </>
+          ) : (
+            <>
+              <span>Tüm {sortedStores.length} Mağazayı Karşılaştır ({sortedStores.length - 6} Mağaza Daha)</span>
+              <ChevronDown className="w-3.5 h-3.5" />
+            </>
+          )}
+        </button>
+      )}
 
       {/* Mini Disclaimer in buybox */}
       <PriceDisclaimer variant="compact" />

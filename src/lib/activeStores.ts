@@ -1,19 +1,28 @@
 /**
  * Centralized Store Activation & Dynamic Count Configuration
  * 
- * To activate more stores in the comparison tables and cards as approvals are received,
- * simply add their key to the ACTIVE_STORE_KEYS array (e.g. ['hepsiburada', 'trendyol', 'amazon']).
+ * 15 Desteklenen Mağaza:
+ * Hepsiburada, Trendyol, Amazon TR, N11, PttAVM, Vatan Bilgisayar,
+ * MediaMarkt, Teknosa, İncehesap, İtopya, Sinerji Bilgisayar,
+ * Gaming.Gen.TR, GameGaraj, Tebilon, Ebrar Bilgisayar.
  */
 
 export type StoreKey =
   | 'hepsiburada'
   | 'trendyol'
+  | 'amazon'
+  | 'n11'
+  | 'pttavm'
   | 'vatan'
   | 'mediamarkt'
   | 'teknosa'
-  | 'amazon'
-  | 'n11'
-  | 'pttavm';
+  | 'incehesap'
+  | 'itopya'
+  | 'sinerji'
+  | 'gaminggen'
+  | 'gamegaraj'
+  | 'tebilon'
+  | 'ebrar';
 
 export interface StoreDefinition {
   id: string;
@@ -47,52 +56,22 @@ export const ALL_RETAILER_DEFINITIONS: Record<StoreKey, StoreDefinition> = {
     defaultUrl: 'https://www.trendyol.com',
     multiplier: 1.002
   },
-  vatan: {
-    id: 'vatan',
-    name: 'Vatan Bilgisayar',
-    keyword: 'vatan',
-    label: 'VT',
-    bg: 'bg-blue-800 text-white',
-    color: 'text-blue-700',
-    defaultUrl: 'https://www.vatanbilgisayar.com',
-    multiplier: 1.0
-  },
-  mediamarkt: {
-    id: 'mm',
-    name: 'MediaMarkt',
-    keyword: 'media',
-    label: 'MM',
-    bg: 'bg-red-600 text-white',
-    color: 'text-red-600',
-    defaultUrl: 'https://www.mediamarkt.com.tr',
-    multiplier: 1.006
-  },
-  teknosa: {
-    id: 'teknosa',
-    name: 'Teknosa',
-    keyword: 'teknosa',
-    label: 'TK',
-    bg: 'bg-orange-600 text-white',
-    color: 'text-orange-600',
-    defaultUrl: 'https://www.teknosa.com',
-    multiplier: 1.004
-  },
   amazon: {
     id: 'amazon',
-    name: 'Amazon',
+    name: 'Amazon TR',
     keyword: 'amazon',
     label: 'AZ',
-    bg: 'bg-amber-500 text-slate-900',
+    bg: 'bg-amber-500 text-slate-950 font-black',
     color: 'text-amber-600',
     defaultUrl: 'https://www.amazon.com.tr',
     multiplier: 0.998
   },
   n11: {
     id: 'n11',
-    name: 'n11',
+    name: 'N11',
     keyword: 'n11',
     label: 'N11',
-    bg: 'bg-purple-700 text-white',
+    bg: 'bg-purple-700 text-white font-bold',
     color: 'text-purple-700',
     defaultUrl: 'https://www.n11.com',
     multiplier: 0.994
@@ -102,27 +81,133 @@ export const ALL_RETAILER_DEFINITIONS: Record<StoreKey, StoreDefinition> = {
     name: 'PttAVM',
     keyword: 'ptt',
     label: 'PTT',
-    bg: 'bg-amber-400 text-blue-950 font-black',
+    bg: 'bg-yellow-400 text-blue-950 font-black',
     color: 'text-blue-900 font-extrabold',
     defaultUrl: 'https://www.pttavm.com',
     multiplier: 0.992
+  },
+  vatan: {
+    id: 'vatan',
+    name: 'Vatan Bilgisayar',
+    keyword: 'vatan',
+    label: 'VT',
+    bg: 'bg-blue-800 text-white font-black',
+    color: 'text-blue-700',
+    defaultUrl: 'https://www.vatanbilgisayar.com',
+    multiplier: 1.0
+  },
+  mediamarkt: {
+    id: 'mm',
+    name: 'MediaMarkt',
+    keyword: 'media',
+    label: 'MM',
+    bg: 'bg-red-600 text-white font-bold',
+    color: 'text-red-600',
+    defaultUrl: 'https://www.mediamarkt.com.tr',
+    multiplier: 1.006
+  },
+  teknosa: {
+    id: 'teknosa',
+    name: 'Teknosa',
+    keyword: 'teknosa',
+    label: 'TK',
+    bg: 'bg-orange-600 text-white font-bold',
+    color: 'text-orange-600',
+    defaultUrl: 'https://www.teknosa.com',
+    multiplier: 1.004
+  },
+  incehesap: {
+    id: 'incehesap',
+    name: 'İncehesap',
+    keyword: 'incehesap',
+    label: 'İH',
+    bg: 'bg-yellow-500 text-slate-950 font-black',
+    color: 'text-yellow-600',
+    defaultUrl: 'https://www.incehesap.com',
+    multiplier: 0.995
+  },
+  itopya: {
+    id: 'itopya',
+    name: 'İtopya',
+    keyword: 'itopya',
+    label: 'IT',
+    bg: 'bg-orange-600 text-white font-black',
+    color: 'text-orange-600',
+    defaultUrl: 'https://www.itopya.com',
+    multiplier: 0.997
+  },
+  sinerji: {
+    id: 'sinerji',
+    name: 'Sinerji Bilgisayar',
+    keyword: 'sinerji',
+    label: 'SN',
+    bg: 'bg-blue-600 text-white font-bold',
+    color: 'text-blue-600',
+    defaultUrl: 'https://www.sinerji.gen.tr',
+    multiplier: 0.996
+  },
+  gaminggen: {
+    id: 'gaminggen',
+    name: 'Gaming.Gen.TR',
+    keyword: 'gaming',
+    label: 'GG',
+    bg: 'bg-red-700 text-white font-black',
+    color: 'text-red-700',
+    defaultUrl: 'https://www.gaming.gen.tr',
+    multiplier: 0.998
+  },
+  gamegaraj: {
+    id: 'gamegaraj',
+    name: 'GameGaraj',
+    keyword: 'gamegaraj',
+    label: 'GR',
+    bg: 'bg-zinc-900 text-white font-bold border border-zinc-700',
+    color: 'text-zinc-800',
+    defaultUrl: 'https://www.gamegaraj.com',
+    multiplier: 1.001
+  },
+  tebilon: {
+    id: 'tebilon',
+    name: 'Tebilon',
+    keyword: 'tebilon',
+    label: 'TB',
+    bg: 'bg-cyan-700 text-white font-bold',
+    color: 'text-cyan-700',
+    defaultUrl: 'https://www.tebilon.com',
+    multiplier: 0.999
+  },
+  ebrar: {
+    id: 'ebrar',
+    name: 'Ebrar Bilgisayar',
+    keyword: 'ebrar',
+    label: 'EB',
+    bg: 'bg-emerald-700 text-white font-bold',
+    color: 'text-emerald-700',
+    defaultUrl: 'https://www.ebrarbilgisayar.com',
+    multiplier: 0.994
   }
 };
 
 /**
  * 🔒 ACTIVE_STORES configuration
- * Currently ONLY Hepsiburada is active.
- * To activate other stores, simply uncomment them below or append to the array.
+ * 15 Mağaza Tam Entegrasyonu: Epey Modeli Kapsamı
  */
 export const ACTIVE_STORES: StoreKey[] = [
   'hepsiburada',
-  // 'trendyol',
-  // 'vatan',
-  // 'mediamarkt',
-  // 'teknosa',
-  // 'amazon',
-  // 'n11',
-  // 'pttavm',
+  'trendyol',
+  'amazon',
+  'n11',
+  'pttavm',
+  'vatan',
+  'mediamarkt',
+  'teknosa',
+  'incehesap',
+  'itopya',
+  'sinerji',
+  'gaminggen',
+  'gamegaraj',
+  'tebilon',
+  'ebrar'
 ];
 
 /**
@@ -133,7 +218,7 @@ export const ACTIVE_RETAILERS: StoreDefinition[] = ACTIVE_STORES.map(
 );
 
 /**
- * Total count of currently active stores (e.g. 1)
+ * Total count of currently active stores (15)
  */
 export const ACTIVE_STORE_COUNT = ACTIVE_STORES.length;
 
@@ -158,7 +243,7 @@ export function getEffectiveStoreCount(offers: { storeName: string; price?: numb
 
 /**
  * Helper to generate dynamic title or description text
- * Example: getActiveStoreComparisonTitle() -> "{count} Mağaza Canlı Fiyat Karşılaştırması"
+ * Example: getActiveStoreComparisonTitle() -> "15 Mağaza Canlı Fiyat Karşılaştırması"
  */
 export function getActiveStoreComparisonTitle(prefix = ''): string {
   if (ACTIVE_STORE_COUNT === 1) {

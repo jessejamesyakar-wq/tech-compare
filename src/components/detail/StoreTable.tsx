@@ -3,7 +3,7 @@
 import React, { useState } from 'react';
 import { StoreOffer } from '@/lib/types';
 import { useI18n } from '@/lib/i18n/context';
-import { ShoppingBag, Star, ExternalLink, ShieldCheck, Award } from 'lucide-react';
+import { ShoppingBag, Star, ExternalLink, ShieldCheck, Award, ChevronDown, ChevronUp } from 'lucide-react';
 import { ProductLike, isEligibleForLivePriceComparison } from '@/lib/releaseYearFilter';
 import { HistoricalRetroShowcase } from './HistoricalRetroShowcase';
 import { OutboundPriceModal } from '@/components/outbound/OutboundPriceModal';
@@ -28,6 +28,7 @@ const ALL_STORE_DEFAULTS = ACTIVE_RETAILERS.map((r) => ({
 
 export function StoreTable({ offers = [], currency, product }: StoreTableProps) {
   const { t } = useI18n();
+  const [isExpanded, setIsExpanded] = useState(false);
   const [outboundModal, setOutboundModal] = useState<{
     isOpen: boolean;
     productName: string;
@@ -116,7 +117,7 @@ export function StoreTable({ offers = [], currency, product }: StoreTableProps) 
 
       {/* Stores List */}
       <div className="space-y-3">
-        {sortedOffers.map((offer, idx) => {
+        {(isExpanded ? sortedOffers : sortedOffers.slice(0, 6)).map((offer, idx) => {
           return (
             <div
               key={offer.id}
@@ -176,6 +177,27 @@ export function StoreTable({ offers = [], currency, product }: StoreTableProps) 
           );
         })}
       </div>
+
+      {/* Expand/Collapse Toggle for 15 Stores */}
+      {sortedOffers.length > 6 && (
+        <button
+          type="button"
+          onClick={() => setIsExpanded(!isExpanded)}
+          className="w-full py-3 px-4 rounded-2xl border border-slate-200 hover:border-emerald-400 hover:bg-emerald-50/60 text-slate-700 hover:text-emerald-800 text-xs sm:text-sm font-bold transition-all flex items-center justify-center gap-2 cursor-pointer shadow-2xs"
+        >
+          {isExpanded ? (
+            <>
+              <span>Daha Az Mağaza Göster</span>
+              <ChevronUp className="w-4 h-4" />
+            </>
+          ) : (
+            <>
+              <span>Tüm {sortedOffers.length} Mağazayı Göster ({sortedOffers.length - 6} Mağaza Daha)</span>
+              <ChevronDown className="w-4 h-4" />
+            </>
+          )}
+        </button>
+      )}
 
       {/* Legal Transparency & Disclaimer Component */}
       <PriceDisclaimer variant="card" />
