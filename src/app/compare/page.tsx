@@ -6,8 +6,9 @@ import { useSearchParams } from 'next/navigation';
 import Link from 'next/link';
 import { useI18n } from '@/lib/i18n/context';
 import { useCompare } from '@/context/CompareContext';
-import { Product, Smartphone, TVProduct, LaptopProduct } from '@/lib/types';
+import { Product } from '@/lib/types';
 import { CompareMatrix } from '@/components/compare/CompareMatrix';
+import { DuelArena } from '@/components/compare/DuelArena';
 import {
   Scale,
   Plus,
@@ -280,7 +281,19 @@ function CompareContent() {
           </div>
         </div>
       ) : (
-        <CompareMatrix products={selectedProducts} />
+        <div className="space-y-8">
+          {selectedProducts.length >= 2 && (
+            <DuelArena product1={selectedProducts[0]} product2={selectedProducts[1]} />
+          )}
+
+          <div className="space-y-3 pt-2">
+            <h3 className="text-base font-black text-slate-900 flex items-center gap-2">
+              <Scale className="w-5 h-5 text-emerald-600" />
+              <span>Ayrıntılı Teknik Özellikler Karşılaştırma Matrisi</span>
+            </h3>
+            <CompareMatrix products={selectedProducts} />
+          </div>
+        </div>
       )}
 
       {/* Quick Add Product Modal with Category & Brand Filters */}
