@@ -139,7 +139,7 @@ export function Footer() {
 
         {/* Bottom Bar */}
         <div className="pt-6 mt-4 border-t border-slate-800 text-center text-xs text-slate-500 flex flex-col sm:flex-row items-center justify-between gap-4">
-          <p>© 2026 aceleEtme. Tüm hakları saklıdır. Tarafsız Ürün Karşılaştırma & Canlı Piyasa Analizi.</p>
+          <p>© 2026 aceleEtme (Kuruluş: 01.09.2026). Tüm hakları saklıdır. Tarafsız Ürün Karşılaştırma & Canlı Piyasa Analizi.</p>
           <div className="flex flex-wrap items-center justify-center gap-4 text-[11px] font-medium text-slate-400">
             <Link href="/gizlilik-politikasi" className="hover:text-emerald-400 transition-colors">
               Gizlilik Politikası

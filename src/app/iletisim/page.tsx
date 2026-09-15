@@ -1,6 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
-import { Mail, ArrowLeft, Building2, User, FileText, MapPin, MessageSquare, Info, ShieldCheck } from 'lucide-react';
+import { Mail, ArrowLeft, Building2, User, FileText, MapPin, MessageSquare, Info, ShieldCheck, Calendar } from 'lucide-react';
 import type { Metadata } from 'next';
 import { ContactForm } from './ContactForm';
 
@@ -65,14 +65,25 @@ export default function IletisimPage() {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-xs">
-          {/* Ad Soyad */}
+          {/* Ad Soyad / Unvan */}
           <div className="p-4 rounded-2xl bg-slate-50 dark:bg-slate-950/60 border border-slate-200/80 dark:border-slate-800 space-y-1">
             <span className="text-slate-500 flex items-center gap-1.5 font-medium">
               <User className="w-3.5 h-3.5 text-emerald-500" />
-              <span>Ad Soyad / Yetkili</span>
+              <span>Ad Soyad / Unvan</span>
             </span>
             <p className="text-sm font-bold text-slate-900 dark:text-white">
               Mehmet Yakar
+            </p>
+          </div>
+
+          {/* VKN / TCKN */}
+          <div className="p-4 rounded-2xl bg-slate-50 dark:bg-slate-950/60 border border-slate-200/80 dark:border-slate-800 space-y-1">
+            <span className="text-slate-500 flex items-center gap-1.5 font-medium">
+              <FileText className="w-3.5 h-3.5 text-emerald-500" />
+              <span>VKN / TCKN</span>
+            </span>
+            <p className="text-sm font-mono font-bold text-slate-900 dark:text-white tracking-wider">
+              9280554954
             </p>
           </div>
 
@@ -92,25 +103,25 @@ export default function IletisimPage() {
             </p>
           </div>
 
-          {/* Vergi Dairesi / No */}
+          {/* İşe Başlama / Kuruluş Tarihi */}
           <div className="p-4 rounded-2xl bg-slate-50 dark:bg-slate-950/60 border border-slate-200/80 dark:border-slate-800 space-y-1">
             <span className="text-slate-500 flex items-center gap-1.5 font-medium">
-              <FileText className="w-3.5 h-3.5 text-emerald-500" />
-              <span>Vergi Dairesi & Vergi No</span>
+              <Calendar className="w-3.5 h-3.5 text-emerald-500" />
+              <span>İşe Başlama Tarihi</span>
             </span>
-            <p className="text-sm font-mono font-medium text-slate-600 dark:text-slate-400">
-              [Vergi Dairesi: __________ / Vergi No: __________]
+            <p className="text-sm font-bold text-slate-900 dark:text-white">
+              01.09.2026
             </p>
           </div>
 
           {/* Adres */}
-          <div className="p-4 rounded-2xl bg-slate-50 dark:bg-slate-950/60 border border-slate-200/80 dark:border-slate-800 space-y-1">
+          <div className="p-4 rounded-2xl bg-slate-50 dark:bg-slate-950/60 border border-slate-200/80 dark:border-slate-800 space-y-1 md:col-span-2">
             <span className="text-slate-500 flex items-center gap-1.5 font-medium">
               <MapPin className="w-3.5 h-3.5 text-emerald-500" />
               <span>Yasal Tebligat Adresi</span>
             </span>
-            <p className="text-sm font-mono font-medium text-slate-600 dark:text-slate-400">
-              [Adres: __________]
+            <p className="text-sm font-medium text-slate-900 dark:text-white leading-relaxed">
+              Bosna Hersek Mah. Kamu Sk. Ravza No:5/18, Selçuk/Konya
             </p>
           </div>
         </div>
