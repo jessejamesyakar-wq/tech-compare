@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { Product, Smartphone, LaptopProduct, TVProduct } from '@/lib/types';
@@ -27,20 +27,39 @@ import {
   MessageSquare,
   Send,
   PlusCircle,
-  HelpCircle
+  HelpCircle,
+  Search,
+  X,
+  Loader2
 } from 'lucide-react';
 import { getStoreSearchUrl } from '@/lib/activeStores';
+import { DeepCompareSections } from './deep/DeepCompareSections';
 
 interface DuelArenaProps {
   product1: Product;
   product2: Product;
+  onProductChange?: (index: 0 | 1, newProduct: Product) => void;
 }
 
-export function DuelArena({ product1, product2 }: DuelArenaProps) {
+export function DuelArena({ product1, product2, onProductChange }: DuelArenaProps) {
   const [selectedRound, setSelectedRound] = useState<number | null>(null);
   const [userVote, setUserVote] = useState<1 | 2 | null>(null);
   const [voteStats, setVoteStats] = useState({ p1Percent: 54, p2Percent: 46, totalVotes: 1420 });
   const [shareCopied, setShareCopied] = useState(false);
+
+  // Search Combobox State for Card 1 (Left)
+  const [search1, setSearch1] = useState('');
+  const [results1, setResults1] = useState<Product[]>([]);
+  const [loading1, setLoading1] = useState(false);
+  const [openDropdown1, setOpenDropdown1] = useState(false);
+  const dropdownRef1 = useRef<HTMLDivElement>(null);
+
+  // Search Combobox State for Card 2 (Right)
+  const [search2, setSearch2] = useState('');
+  const [results2, setResults2] = useState<Product[]>([]);
+  const [loading2, setLoading2] = useState(false);
+  const [openDropdown2, setOpenDropdown2] = useState(false);
+  const dropdownRef2 = useRef<HTMLDivElement>(null);
 
   // Load vote from localStorage if existing
   useEffect(() => {
@@ -51,6 +70,91 @@ export function DuelArena({ product1, product2 }: DuelArenaProps) {
       }
     }
   }, [product1.id, product2.id]);
+
+  // Click outside to close dropdowns
+  useEffect(() => {
+    function handleClickOutside(event: MouseEvent) {
+      if (dropdownRef1.current && !dropdownRef1.current.contains(event.target as Node)) {
+        setOpenDropdown1(false);
+      }
+      if (dropdownRef2.current && !dropdownRef2.current.contains(event.target as Node)) {
+        setOpenDropdown2(false);
+      }
+    }
+    document.addEventListener('mousedown', handleClickOutside);
+    return () => document.removeEventListener('mousedown', handleClickOutside);
+  }, []);
+
+  // Search query effect for Product 1
+  useEffect(() => {
+    if (!search1.trim() || search1.trim().length < 2) {
+      setResults1([]);
+      setLoading1(false);
+      return;
+    }
+    setLoading1(true);
+    const timer = setTimeout(async () => {
+      try {
+        const res = await fetch(`/api/search?q=${encodeURIComponent(search1.trim())}&limit=8`);
+        if (res.ok) {
+          const data = await res.json();
+          setResults1(Array.isArray(data) ? data : []);
+          setOpenDropdown1(true);
+        }
+      } catch (e) {
+        console.error('Search 1 failed', e);
+      } finally {
+        setLoading1(false);
+      }
+    }, 200);
+    return () => clearTimeout(timer);
+  }, [search1]);
+
+  // Search query effect for Product 2
+  useEffect(() => {
+    if (!search2.trim() || search2.trim().length < 2) {
+      setResults2([]);
+      setLoading2(false);
+      return;
+    }
+    setLoading2(true);
+    const timer = setTimeout(async () => {
+      try {
+        const res = await fetch(`/api/search?q=${encodeURIComponent(search2.trim())}&limit=8`);
+        if (res.ok) {
+          const data = await res.json();
+          setResults2(Array.isArray(data) ? data : []);
+          setOpenDropdown2(true);
+        }
+      } catch (e) {
+        console.error('Search 2 failed', e);
+      } finally {
+        setLoading2(false);
+      }
+    }, 200);
+    return () => clearTimeout(timer);
+  }, [search2]);
+
+  const handleSelectProduct = async (index: 0 | 1, chosen: Product) => {
+    try {
+      const res = await fetch(`/api/products/${chosen.id || chosen.slug}`);
+      const fullProduct = res.ok ? await res.json() : chosen;
+
+      if (onProductChange) {
+        onProductChange(index, fullProduct);
+      }
+
+      if (index === 0) {
+        setSearch1('');
+        setOpenDropdown1(false);
+      } else {
+        setSearch2('');
+        setOpenDropdown2(false);
+      }
+    } catch (e) {
+      if (onProductChange) onProductChange(index, chosen);
+    }
+  };
 
   const handleVote = (choice: 1 | 2) => {
     if (userVote === choice) return;
@@ -203,8 +307,81 @@ export function DuelArena({ product1, product2 }: DuelArenaProps) {
         {/* ========================================================================= */}
         <div className="relative z-20 grid grid-cols-1 lg:grid-cols-12 gap-5 sm:gap-6 items-center">
           
-          {/* ================= LEFT FROSTED GLASS CARD: PRODUCT 1 ================= */}
-          <div className="lg:col-span-4 bg-white/80 backdrop-blur-2xl border border-white/80 rounded-3xl p-5 sm:p-6 shadow-xl relative transition-all duration-300 hover:shadow-2xl hover:-translate-y-1">
+          {/* ================= LEFT COLUMN: SEARCH COMBOBOX 1 + FROSTED GLASS CARD ================= */}
+          <div className="lg:col-span-4 space-y-3 relative z-30">
+            {/* Search Combobox 1 */}
+            <div ref={dropdownRef1} className="relative z-40">
+              <div className="relative flex items-center">
+                <Search className="absolute left-3.5 w-4 h-4 text-emerald-400 pointer-events-none" />
+                <input
+                  type="text"
+                  value={search1}
+                  onChange={(e) => {
+                    setSearch1(e.target.value);
+                    setOpenDropdown1(true);
+                  }}
+                  onFocus={() => setOpenDropdown1(true)}
+                  placeholder="1. Cihazı Ara veya Değiştir..."
+                  className="w-full pl-9 pr-8 py-2.5 bg-slate-900/85 backdrop-blur-xl border border-emerald-400/50 hover:border-emerald-400 focus:border-emerald-300 rounded-2xl text-xs font-semibold text-white placeholder-slate-400 shadow-[0_4px_20px_rgba(0,0,0,0.3)] focus:outline-none focus:ring-2 focus:ring-emerald-400/40 transition-all"
+                />
+                {loading1 ? (
+                  <Loader2 className="absolute right-3 w-3.5 h-3.5 text-emerald-400 animate-spin" />
+                ) : search1 ? (
+                  <button
+                    onClick={() => {
+                      setSearch1('');
+                      setResults1([]);
+                      setOpenDropdown1(false);
+                    }}
+                    className="absolute right-3 text-slate-400 hover:text-white cursor-pointer"
+                  >
+                    <X className="w-3.5 h-3.5" />
+                  </button>
+                ) : null}
+              </div>
+
+              {/* Autocomplete Dropdown Menu */}
+              {openDropdown1 && results1.length > 0 && (
+                <div className="absolute top-full left-0 right-0 mt-1.5 bg-[#0f172a]/95 backdrop-blur-2xl border border-emerald-500/40 rounded-2xl shadow-2xl overflow-hidden z-50 max-h-72 overflow-y-auto divide-y divide-slate-800/80">
+                  {results1.map((item) => (
+                    <button
+                      key={item.id}
+                      onClick={() => handleSelectProduct(0, item)}
+                      className="w-full flex items-center gap-3 p-2.5 hover:bg-emerald-500/20 text-left transition-colors group cursor-pointer"
+                    >
+                      <div className="w-9 h-9 bg-white/10 rounded-xl p-1 shrink-0 flex items-center justify-center border border-white/10">
+                        <img
+                          src={item.image}
+                          alt={item.name}
+                          className="max-h-7 max-w-full object-contain"
+                        />
+                      </div>
+                      <div className="flex-1 min-w-0">
+                        <div className="text-[10px] font-bold text-emerald-400 uppercase tracking-wider">
+                          {item.brand}
+                        </div>
+                        <div className="text-xs font-bold text-white truncate group-hover:text-emerald-300">
+                          {item.name}
+                        </div>
+                      </div>
+                      <div className="text-right shrink-0">
+                        <div className="text-[11px] font-black text-slate-200">
+                          ₺{item.basePrice?.toLocaleString('tr-TR') || '—'}
+                        </div>
+                        {item.rating && (
+                          <div className="text-[9px] font-bold text-emerald-400">
+                            ★ {item.rating}
+                          </div>
+                        )}
+                      </div>
+                    </button>
+                  ))}
+                </div>
+              )}
+            </div>
+
+            {/* Frosted Glass Card: Product 1 */}
+            <div className="bg-white/80 backdrop-blur-2xl border border-white/80 rounded-3xl p-5 sm:p-6 shadow-xl relative transition-all duration-300 hover:shadow-2xl hover:-translate-y-1">
             {/* Header / Brand & Name */}
             <div className="text-center mb-3">
               <span className="text-[10px] font-black uppercase tracking-widest text-slate-500 block mb-0.5">
@@ -293,6 +470,7 @@ export function DuelArena({ product1, product2 }: DuelArenaProps) {
               <ExternalLink className="w-3.5 h-3.5" />
             </a>
           </div>
+        </div>
 
           {/* ================= CENTER HERO: VS + ROUND PILLS + ROBOPENGU ================= */}
           <div className="lg:col-span-4 flex flex-col items-center justify-center relative">
@@ -435,8 +613,81 @@ export function DuelArena({ product1, product2 }: DuelArenaProps) {
 
           </div>
 
-          {/* ================= RIGHT FROSTED GLASS CARD: PRODUCT 2 ================= */}
-          <div className="lg:col-span-4 bg-white/80 backdrop-blur-2xl border border-white/80 rounded-3xl p-5 sm:p-6 shadow-xl relative transition-all duration-300 hover:shadow-2xl hover:-translate-y-1">
+          {/* ================= RIGHT COLUMN: SEARCH COMBOBOX 2 + FROSTED GLASS CARD ================= */}
+          <div className="lg:col-span-4 space-y-3 relative z-30">
+            {/* Search Combobox 2 */}
+            <div ref={dropdownRef2} className="relative z-40">
+              <div className="relative flex items-center">
+                <Search className="absolute left-3.5 w-4 h-4 text-cyan-400 pointer-events-none" />
+                <input
+                  type="text"
+                  value={search2}
+                  onChange={(e) => {
+                    setSearch2(e.target.value);
+                    setOpenDropdown2(true);
+                  }}
+                  onFocus={() => setOpenDropdown2(true)}
+                  placeholder="2. Cihazı Ara veya Değiştir..."
+                  className="w-full pl-9 pr-8 py-2.5 bg-slate-900/85 backdrop-blur-xl border border-cyan-400/50 hover:border-cyan-400 focus:border-cyan-300 rounded-2xl text-xs font-semibold text-white placeholder-slate-400 shadow-[0_4px_20px_rgba(0,0,0,0.3)] focus:outline-none focus:ring-2 focus:ring-cyan-400/40 transition-all"
+                />
+                {loading2 ? (
+                  <Loader2 className="absolute right-3 w-3.5 h-3.5 text-cyan-400 animate-spin" />
+                ) : search2 ? (
+                  <button
+                    onClick={() => {
+                      setSearch2('');
+                      setResults2([]);
+                      setOpenDropdown2(false);
+                    }}
+                    className="absolute right-3 text-slate-400 hover:text-white cursor-pointer"
+                  >
+                    <X className="w-3.5 h-3.5" />
+                  </button>
+                ) : null}
+              </div>
+
+              {/* Autocomplete Dropdown Menu */}
+              {openDropdown2 && results2.length > 0 && (
+                <div className="absolute top-full left-0 right-0 mt-1.5 bg-[#0f172a]/95 backdrop-blur-2xl border border-cyan-500/40 rounded-2xl shadow-2xl overflow-hidden z-50 max-h-72 overflow-y-auto divide-y divide-slate-800/80">
+                  {results2.map((item) => (
+                    <button
+                      key={item.id}
+                      onClick={() => handleSelectProduct(1, item)}
+                      className="w-full flex items-center gap-3 p-2.5 hover:bg-cyan-500/20 text-left transition-colors group cursor-pointer"
+                    >
+                      <div className="w-9 h-9 bg-white/10 rounded-xl p-1 shrink-0 flex items-center justify-center border border-white/10">
+                        <img
+                          src={item.image}
+                          alt={item.name}
+                          className="max-h-7 max-w-full object-contain"
+                        />
+                      </div>
+                      <div className="flex-1 min-w-0">
+                        <div className="text-[10px] font-bold text-cyan-400 uppercase tracking-wider">
+                          {item.brand}
+                        </div>
+                        <div className="text-xs font-bold text-white truncate group-hover:text-cyan-300">
+                          {item.name}
+                        </div>
+                      </div>
+                      <div className="text-right shrink-0">
+                        <div className="text-[11px] font-black text-slate-200">
+                          ₺{item.basePrice?.toLocaleString('tr-TR') || '—'}
+                        </div>
+                        {item.rating && (
+                          <div className="text-[9px] font-bold text-cyan-400">
+                            ★ {item.rating}
+                          </div>
+                        )}
+                      </div>
+                    </button>
+                  ))}
+                </div>
+              )}
+            </div>
+
+            {/* Frosted Glass Card: Product 2 */}
+            <div className="bg-white/80 backdrop-blur-2xl border border-white/80 rounded-3xl p-5 sm:p-6 shadow-xl relative transition-all duration-300 hover:shadow-2xl hover:-translate-y-1">
             {/* Header / Brand & Name */}
             <div className="text-center mb-3">
               <span className="text-[10px] font-black uppercase tracking-widest text-slate-500 block mb-0.5">
@@ -525,6 +776,7 @@ export function DuelArena({ product1, product2 }: DuelArenaProps) {
               <ExternalLink className="w-3.5 h-3.5" />
             </a>
           </div>
+        </div>
 
         </div>
 
@@ -746,6 +998,11 @@ export function DuelArena({ product1, product2 }: DuelArenaProps) {
         </div>
 
       </div>
+
+      {/* ========================================================================= */}
+      {/* 🔬 VERSUS & ANTUTU LEVEL DEEP ENGINEERING SPECIFICATIONS (5 CATEGORIES)   */}
+      {/* ========================================================================= */}
+      <DeepCompareSections product1={product1} product2={product2} />
 
     </div>
   );

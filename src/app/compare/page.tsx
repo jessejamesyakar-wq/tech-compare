@@ -54,8 +54,8 @@ function CompareContent() {
   const [copiedLink, setCopiedLink] = useState(false);
 
   // URL Query Sync
-  const p1 = searchParams.get('p1') || searchParams.get('phone1') || searchParams.get('product1') || searchParams.get('id1');
-  const p2 = searchParams.get('p2') || searchParams.get('phone2') || searchParams.get('product2') || searchParams.get('id2');
+  const p1 = searchParams.get('d1') || searchParams.get('p1') || searchParams.get('phone1') || searchParams.get('product1') || searchParams.get('id1');
+  const p2 = searchParams.get('d2') || searchParams.get('p2') || searchParams.get('phone2') || searchParams.get('product2') || searchParams.get('id2');
 
   const fetchProduct = async (id: string): Promise<Product | null> => {
     try {
@@ -124,14 +124,34 @@ function CompareContent() {
     const item2 = await fetchProduct(id2);
     if (item1 && item2) {
       setSelectedProducts([item1, item2]);
+      if (typeof window !== 'undefined') {
+        const url = new URL(window.location.href);
+        url.searchParams.set('d1', item1.slug || item1.id);
+        url.searchParams.set('d2', item2.slug || item2.id);
+        window.history.replaceState({}, '', url.toString());
+      }
     }
+  };
+
+  const handleProductChange = (index: 0 | 1, newProduct: Product) => {
+    setSelectedProducts((prev) => {
+      const updated = [...prev];
+      updated[index] = newProduct;
+      if (typeof window !== 'undefined') {
+        const url = new URL(window.location.href);
+        if (updated[0]) url.searchParams.set('d1', updated[0].slug || updated[0].id);
+        if (updated[1]) url.searchParams.set('d2', updated[1].slug || updated[1].id);
+        window.history.replaceState({}, '', url.toString());
+      }
+      return updated;
+    });
   };
 
   const handleCopyLink = () => {
     if (typeof window === 'undefined') return;
     const url = new URL(window.location.href);
-    if (selectedProducts[0]) url.searchParams.set('p1', selectedProducts[0].slug || selectedProducts[0].id);
-    if (selectedProducts[1]) url.searchParams.set('p2', selectedProducts[1].slug || selectedProducts[1].id);
+    if (selectedProducts[0]) url.searchParams.set('d1', selectedProducts[0].slug || selectedProducts[0].id);
+    if (selectedProducts[1]) url.searchParams.set('d2', selectedProducts[1].slug || selectedProducts[1].id);
     navigator.clipboard.writeText(url.toString());
     setCopiedLink(true);
     setTimeout(() => setCopiedLink(false), 2500);
@@ -282,7 +302,11 @@ function CompareContent() {
       ) : (
         <div className="space-y-8">
           {selectedProducts.length >= 2 ? (
-            <DuelArena product1={selectedProducts[0]} product2={selectedProducts[1]} />
+            <DuelArena
+              product1={selectedProducts[0]}
+              product2={selectedProducts[1]}
+              onProductChange={handleProductChange}
+            />
           ) : (
             <div className="bg-white border border-slate-200 rounded-3xl p-12 text-center space-y-3 shadow-xs">
               <p className="text-sm font-bold text-slate-700">Düelloyu başlatmak için lütfen 2. bir model ekleyin.</p>
