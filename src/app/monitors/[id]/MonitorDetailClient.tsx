@@ -16,6 +16,11 @@ import { AIReviewSummaryCard } from '@/components/ai/AIReviewSummaryCard';
 import { AIUpgradeAdvisor } from '@/components/ai/AIUpgradeAdvisor';
 import { TechTermExplainer } from '@/components/ai/TechTermExplainer';
 import { StoreTable } from '@/components/detail/StoreTable';
+
+const PriceHistoryChart = dynamic(
+  () => import('@/components/detail/PriceHistoryChart').then((m) => m.PriceHistoryChart),
+  { loading: () => <div className="h-64 bg-slate-50 rounded-3xl animate-pulse" /> }
+);
 import {
   Sparkles,
   ArrowLeft,
@@ -193,6 +198,9 @@ export default function MonitorDetailClient({ initialProduct }: { initialProduct
 
           {/* Store Offers */}
           <StoreTable offers={initialProduct.storeOffers} currency="TL" product={initialProduct} />
+
+          {/* 6-Month Price History Chart */}
+          <PriceHistoryChart data={initialProduct.priceHistory} currency="TL" product={initialProduct} />
 
           {/* AI Module 3: AI Review Summary Card */}
           <AIReviewSummaryCard product={initialProduct} />

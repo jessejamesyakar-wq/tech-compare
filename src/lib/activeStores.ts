@@ -252,3 +252,33 @@ export function getActiveStoreComparisonTitle(prefix = ''): string {
   }
   return `${prefix ? prefix + ' ' : ''}${ACTIVE_STORE_COUNT} Mağaza Canlı Fiyat Karşılaştırması`;
 }
+
+/**
+ * Generate targeted search URL for any of the 15 supported retailers.
+ * When an exact SKU or affiliate link is not provided, this links directly
+ * to the store's search result page for the product.
+ */
+export function getStoreSearchUrl(storeKey: StoreKey | string, query: string): string {
+  if (!query) return 'https://www.google.com';
+  const clean = encodeURIComponent(query.trim());
+  const key = (storeKey || '').toLowerCase();
+
+  if (key.includes('hepsiburada') || key === 'hb') return `https://www.hepsiburada.com/ara?q=${clean}`;
+  if (key.includes('trendyol') || key === 'ty') return `https://www.trendyol.com/sr?q=${clean}`;
+  if (key.includes('amazon') || key === 'az') return `https://www.amazon.com.tr/s?k=${clean}`;
+  if (key.includes('n11')) return `https://www.n11.com/arama?q=${clean}`;
+  if (key.includes('ptt')) return `https://www.pttavm.com/arama?q=${clean}`;
+  if (key.includes('vatan') || key === 'vt') return `https://www.vatanbilgisayar.com/arama/${clean}/`;
+  if (key.includes('mediamarkt') || key.includes('media') || key === 'mm') return `https://www.mediamarkt.com.tr/tr/search.html?query=${clean}`;
+  if (key.includes('teknosa') || key === 'tk') return `https://www.teknosa.com/arama?s=${clean}`;
+  if (key.includes('incehesap') || key === 'ih') return `https://www.incehesap.com/arama/?q=${clean}`;
+  if (key.includes('itopya') || key === 'it') return `https://www.itopya.com/AramaSonuclari/?b=${clean}`;
+  if (key.includes('sinerji') || key === 'sn') return `https://www.sinerji.gen.tr/Arama?q=${clean}`;
+  if (key.includes('gaming') || key === 'gg') return `https://www.gaming.gen.tr/?s=${clean}`;
+  if (key.includes('gamegaraj') || key === 'gr') return `https://www.gamegaraj.com/arama/?q=${clean}`;
+  if (key.includes('tebilon') || key === 'tb') return `https://www.tebilon.com/arama/?q=${clean}`;
+  if (key.includes('ebrar') || key === 'eb') return `https://www.ebrarbilgisayar.com/arama?q=${clean}`;
+
+  return `https://www.google.com/search?q=${clean}+fiyat`;
+}
+

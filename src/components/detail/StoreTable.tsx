@@ -8,7 +8,7 @@ import { ProductLike, isEligibleForLivePriceComparison } from '@/lib/releaseYear
 import { HistoricalRetroShowcase } from './HistoricalRetroShowcase';
 import { OutboundPriceModal } from '@/components/outbound/OutboundPriceModal';
 import { PriceDisclaimer } from '@/components/legal/PriceDisclaimer';
-import { ACTIVE_RETAILERS, ACTIVE_STORE_COUNT } from '@/lib/activeStores';
+import { ACTIVE_RETAILERS, ACTIVE_STORE_COUNT, getStoreSearchUrl } from '@/lib/activeStores';
 
 interface StoreTableProps {
   offers: StoreOffer[];
@@ -48,18 +48,23 @@ export function StoreTable({ offers = [], currency, product }: StoreTableProps) 
     return <HistoricalRetroShowcase product={product} compact={false} />;
   }
 
-  // Ensure all 8 stores (including n11 & PttAVM) are active
-  const baseReferencePrice = offers.length > 0 ? offers[0].price : 40000;
+  // Reference base price for the product
+  const baseReferencePrice = offers.length > 0 ? offers[0].price : (product?.basePrice || 40000);
 
   const combinedOffers = ALL_STORE_DEFAULTS.map((def) => {
     const existing = offers.find((o) => o.storeName.toLowerCase().includes(def.keyword));
+    const searchUrl = product?.name ? getStoreSearchUrl(def.keyword, product.name) : def.url;
 
     if (existing && existing.price > 0) {
+      const targetUrl = existing.url && existing.url !== '#' && !existing.url.endsWith('.com') && !existing.url.endsWith('.com.tr')
+        ? existing.url
+        : (existing as any).productUrl || searchUrl;
+
       return {
         ...existing,
         bg: def.bg,
         label: def.label,
-        url: existing.url && existing.url !== '#' ? existing.url : def.url
+        url: targetUrl
       };
     }
 
@@ -73,7 +78,7 @@ export function StoreTable({ offers = [], currency, product }: StoreTableProps) 
       badges: ['Canlı Mağaza Fiyatı'],
       sellerRating: 4.8,
       sellerReviews: 8500,
-      url: def.url,
+      url: searchUrl,
       bg: def.bg,
       label: def.label
     };
@@ -96,7 +101,7 @@ export function StoreTable({ offers = [], currency, product }: StoreTableProps) 
     <div className="bg-white border border-slate-200 rounded-3xl p-6 sm:p-8 space-y-6 shadow-xs">
       
       {/* Table Header Title */}
-      <div className="flex items-center justify-between border-b border-slate-100 pb-4">
+      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-slate-100 pb-4">
         <div>
           <h3 className="text-slate-900 text-lg font-black flex items-center gap-2">
             <ShoppingBag className="w-5 h-5 text-emerald-600" />
@@ -110,9 +115,15 @@ export function StoreTable({ offers = [], currency, product }: StoreTableProps) 
             {ACTIVE_RETAILERS.map((r) => r.name).join(', ')} canlı teklifleri.
           </p>
         </div>
-        <span className="text-xs text-emerald-800 font-black bg-emerald-100 px-3.5 py-1.5 rounded-full border border-emerald-200">
-          {ACTIVE_STORE_COUNT} Canlı Mağaza Aktif
-        </span>
+        <div className="flex items-center gap-2">
+          <span className="text-[10px] text-emerald-800 font-bold bg-emerald-50 px-2.5 py-1 rounded-full border border-emerald-200 flex items-center gap-1.5">
+            <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse" />
+            <span>Son Güncelleme: 16 Eylül 2026</span>
+          </span>
+          <span className="text-xs text-emerald-800 font-black bg-emerald-100 px-3.5 py-1.5 rounded-full border border-emerald-200">
+            {ACTIVE_STORE_COUNT} Canlı Mağaza
+          </span>
+        </div>
       </div>
 
       {/* Stores List */}

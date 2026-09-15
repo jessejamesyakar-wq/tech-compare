@@ -467,10 +467,10 @@ export default function ApplianceDetailClient({ initialApplianceProduct }: { ini
       </div>
 
       {/* Stores Price Comparison Table */}
-      <StoreTable offers={product.storeOffers} currency={product.currency || 'TL'} />
+      <StoreTable offers={product.storeOffers} currency={product.currency || 'TL'} product={product as any} />
 
       {/* 6-Month Price History Chart */}
-      <PriceHistoryChart data={product.priceHistory} currency={product.currency || 'TL'} />
+      <PriceHistoryChart data={product.priceHistory} currency={product.currency || 'TL'} product={product as any} />
 
       {/* Price Alert Modal */}
       <PriceAlertModal

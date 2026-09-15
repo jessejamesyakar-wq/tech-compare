@@ -17,6 +17,8 @@ export interface ProductLike {
   slug?: string;
   specs?: any;
   category?: string;
+  basePrice?: number;
+  price?: number;
 }
 
 /**

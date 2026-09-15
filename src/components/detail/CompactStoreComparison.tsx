@@ -8,7 +8,7 @@ import { ProductLike, isEligibleForLivePriceComparison } from '@/lib/releaseYear
 import { HistoricalRetroShowcase } from './HistoricalRetroShowcase';
 import { OutboundPriceModal } from '@/components/outbound/OutboundPriceModal';
 import { PriceDisclaimer } from '@/components/legal/PriceDisclaimer';
-import { ACTIVE_RETAILERS, ACTIVE_STORE_COUNT, getActiveStoreComparisonTitle } from '@/lib/activeStores';
+import { ACTIVE_RETAILERS, ACTIVE_STORE_COUNT, getActiveStoreComparisonTitle, getStoreSearchUrl } from '@/lib/activeStores';
 
 interface CompactStoreComparisonProps {
   offers: StoreOffer[];
@@ -49,13 +49,18 @@ export function CompactStoreComparison({ offers = [], basePrice, currency, produ
 
   const mappedStores = REQUIRED_RETAILERS.map((retailer, idx) => {
     const matchedOffer = offers.find((o) => o.storeName.toLowerCase().includes(retailer.keyword));
+    const searchUrl = product?.name ? getStoreSearchUrl(retailer.keyword, product.name) : retailer.defaultUrl;
 
     if (matchedOffer && matchedOffer.price > 0) {
+      const targetUrl = matchedOffer.url && matchedOffer.url !== '#' && !matchedOffer.url.endsWith('.com') && !matchedOffer.url.endsWith('.com.tr')
+        ? matchedOffer.url
+        : (matchedOffer as any).productUrl || searchUrl;
+
       return {
         ...retailer,
         price: matchedOffer.price,
         inStock: matchedOffer.inStock !== undefined ? matchedOffer.inStock : true,
-        url: matchedOffer.url && matchedOffer.url !== '#' ? matchedOffer.url : retailer.defaultUrl,
+        url: targetUrl,
         hasData: true,
         isReal: true
       };
@@ -69,7 +74,7 @@ export function CompactStoreComparison({ offers = [], basePrice, currency, produ
       ...retailer,
       price: activePrice,
       inStock: true,
-      url: retailer.defaultUrl,
+      url: searchUrl,
       hasData: activePrice !== null && activePrice > 0,
       isReal: false
     };
