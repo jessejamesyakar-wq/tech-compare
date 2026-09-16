@@ -4,10 +4,11 @@ import Image from 'next/image';
 import React, { useState, useEffect, useMemo } from 'react';
 import Link from 'next/link';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Sparkles, ChevronLeft, ChevronRight, Zap, Award, ArrowRight, ShieldCheck } from 'lucide-react';
+import { Sparkles, ChevronLeft, ChevronRight, Zap, Award, ArrowRight, ShieldCheck, Play } from 'lucide-react';
 import { Product } from '@/lib/types';
 import { HeroSlideItem, getDynamicHeroSlides } from '@/lib/heroSlides';
 import { ACTIVE_STORE_COUNT, ACTIVE_RETAILERS } from '@/lib/activeStores';
+import { RoboPenguStoryModal } from '@/components/video/RoboPenguStoryModal';
 export type { HeroSlideItem };
 export { getDynamicHeroSlides };
 interface HeroCarouselProps {
@@ -18,6 +19,7 @@ interface HeroCarouselProps {
 
 export function HeroCarousel({ activeIndex = 0, onSelect, initialSlides = [] }: HeroCarouselProps) {
   const [currentSlideIndex, setCurrentSlideIndex] = useState(activeIndex);
+  const [isStoryOpen, setIsStoryOpen] = useState(false);
 
   const heroSlides = useMemo(() => {
     if (initialSlides && initialSlides.length > 0) return initialSlides;
@@ -166,6 +168,14 @@ export function HeroCarousel({ activeIndex = 0, onSelect, initialSlides = [] }: 
                     <Zap className="w-3 h-3 text-amber-500 fill-amber-500" />
                     <span>Kıyasla</span>
                   </Link>
+                  <button
+                    type="button"
+                    onClick={() => setIsStoryOpen(true)}
+                    className="bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-[10px] px-2 py-1.5 rounded-lg shadow-2xs transition-all flex items-center gap-1 cursor-pointer"
+                  >
+                    <Play className="w-2.5 h-2.5 fill-white" />
+                    <span>Hikaye 🎬</span>
+                  </button>
                 </div>
               </div>
 
@@ -249,6 +259,14 @@ export function HeroCarousel({ activeIndex = 0, onSelect, initialSlides = [] }: 
                   <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse" />
                   <span>%100 Resmi Distribütör Garantili</span>
                 </div>
+                <button
+                  type="button"
+                  onClick={() => setIsStoryOpen(true)}
+                  className="bg-emerald-100/90 hover:bg-emerald-200 text-emerald-900 border border-emerald-300 text-[10.5px] font-extrabold px-3 py-1 rounded-full flex items-center gap-1.5 shadow-2xs cursor-pointer transition-all hover:scale-105"
+                >
+                  <Play className="w-2.5 h-2.5 text-emerald-700 fill-emerald-700" />
+                  <span>RoboPengu&apos;nun Hikayesi 🎬</span>
+                </button>
               </div>
 
               {/* Main Title & Subhead */}
@@ -293,6 +311,14 @@ export function HeroCarousel({ activeIndex = 0, onSelect, initialSlides = [] }: 
                   <Zap className="w-3.5 h-3.5 text-amber-500 fill-amber-500" />
                   <span>Kıyaslamaya Başla</span>
                 </Link>
+                <button
+                  type="button"
+                  onClick={() => setIsStoryOpen(true)}
+                  className="bg-gradient-to-r from-emerald-600 via-teal-600 to-emerald-700 hover:from-emerald-500 hover:to-teal-500 text-white font-extrabold text-xs px-4 py-2.5 rounded-xl shadow-md hover:shadow-lg hover:scale-[1.02] active:scale-[0.98] transition-all flex items-center gap-1.5 cursor-pointer"
+                >
+                  <Play className="w-3.5 h-3.5 fill-white" />
+                  <span>Hikayeyi İzle</span>
+                </button>
               </div>
             </div>
 
@@ -394,6 +420,9 @@ export function HeroCarousel({ activeIndex = 0, onSelect, initialSlides = [] }: 
           </div>
         </div>
       </div>
+
+      {/* 🎬 RoboPengu Origin Story Cinematic Modal */}
+      <RoboPenguStoryModal isOpen={isStoryOpen} onClose={() => setIsStoryOpen(false)} />
     </div>
   );
 }
