@@ -31,9 +31,9 @@ export function HeroCarousel({ activeIndex = 0, onSelect, initialSlides = [] }: 
     setCurrentSlideIndex(activeIndex);
   }, [activeIndex]);
 
-  // Reliable Auto-play timer every 4.5 seconds
+  // Reliable Auto-play timer every 4.5 seconds (paused when story video is open)
   useEffect(() => {
-    if (heroSlides.length <= 1) return;
+    if (heroSlides.length <= 1 || isStoryOpen) return;
 
     const timer = setInterval(() => {
       setCurrentSlideIndex((prev) => {
@@ -44,7 +44,7 @@ export function HeroCarousel({ activeIndex = 0, onSelect, initialSlides = [] }: 
     }, 4500);
 
     return () => clearInterval(timer);
-  }, [heroSlides.length, onSelect]);
+  }, [heroSlides.length, onSelect, isStoryOpen]);
 
   const slide = heroSlides[currentSlideIndex] || heroSlides[0];
 
