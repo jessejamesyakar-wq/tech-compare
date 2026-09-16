@@ -128,6 +128,14 @@ export function HeroCarousel({ activeIndex = 0, onSelect, initialSlides = [] }: 
               <span className="inline-flex items-center gap-1 bg-gradient-to-r from-emerald-100 to-teal-100 text-emerald-900 border border-emerald-300/80 text-[10px] font-black px-2.5 py-0.5 rounded-full shadow-2xs uppercase tracking-wide">
                 <span>{slide.badgeText}</span>
               </span>
+              <button
+                type="button"
+                onClick={() => setIsStoryOpen(true)}
+                className="inline-flex items-center gap-1 bg-gradient-to-r from-emerald-600 via-teal-600 to-emerald-700 hover:from-emerald-500 hover:to-teal-500 text-white text-[10px] font-black px-2.5 py-0.5 rounded-full shadow-2xs cursor-pointer transition-all active:scale-95"
+              >
+                <Play className="w-2.5 h-2.5 fill-white text-white" />
+                <span>Hikaye 🎬</span>
+              </button>
               <span className="inline-flex items-center gap-1 bg-white/90 border border-slate-200 text-slate-700 text-[10px] font-bold px-2 py-0.5 rounded-full shadow-2xs backdrop-blur-sm">
                 <ShieldCheck className="w-3 h-3 text-emerald-600" />
                 <span>Resmi Distribütör</span>
@@ -156,26 +164,18 @@ export function HeroCarousel({ activeIndex = 0, onSelect, initialSlides = [] }: 
                 <div className="flex items-center gap-1.5 pt-0.5">
                   <Link
                     href={targetHref}
-                    className="bg-slate-950 hover:bg-black text-white font-black text-[10px] px-2.5 py-1.5 rounded-lg shadow-sm transition-all flex items-center gap-1 cursor-pointer"
+                    className="flex-1 bg-slate-950 hover:bg-black text-white font-black text-[10px] px-2.5 py-1.5 rounded-lg shadow-sm transition-all flex items-center justify-center gap-1 cursor-pointer"
                   >
                     <span>İncele</span>
                     <ArrowRight className="w-3 h-3 text-emerald-400" />
                   </Link>
                   <Link
                     href={`/compare?p1=${slide.slug}`}
-                    className="bg-white hover:bg-slate-50 border border-slate-200 text-slate-800 font-bold text-[10px] px-2 py-1.5 rounded-lg shadow-2xs transition-all flex items-center gap-1 cursor-pointer"
+                    className="flex-1 bg-white hover:bg-slate-50 border border-slate-200 text-slate-800 font-bold text-[10px] px-2 py-1.5 rounded-lg shadow-2xs transition-all flex items-center justify-center gap-1 cursor-pointer"
                   >
                     <Zap className="w-3 h-3 text-amber-500 fill-amber-500" />
                     <span>Kıyasla</span>
                   </Link>
-                  <button
-                    type="button"
-                    onClick={() => setIsStoryOpen(true)}
-                    className="bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-[10px] px-2 py-1.5 rounded-lg shadow-2xs transition-all flex items-center gap-1 cursor-pointer"
-                  >
-                    <Play className="w-2.5 h-2.5 fill-white" />
-                    <span>Hikaye 🎬</span>
-                  </button>
                 </div>
               </div>
 

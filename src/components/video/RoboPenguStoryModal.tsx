@@ -82,28 +82,28 @@ export function RoboPenguStoryModal({ isOpen, onClose }: RoboPenguStoryModalProp
             animate={{ opacity: 1, scale: 1, y: 0 }}
             exit={{ opacity: 0, scale: 0.95, y: 12 }}
             transition={{ type: 'spring', damping: 25, stiffness: 300 }}
-            className="relative w-full max-w-4xl bg-gradient-to-br from-white via-emerald-50/95 to-teal-50/90 border-2 border-emerald-500/35 rounded-3xl shadow-[0_20px_60px_rgba(16,185,129,0.2)] overflow-hidden z-10 flex flex-col my-auto"
+            className="relative w-full max-w-4xl bg-gradient-to-br from-white via-emerald-50/95 to-teal-50/90 border-2 border-emerald-500/35 rounded-2xl sm:rounded-3xl shadow-[0_20px_60px_rgba(16,185,129,0.2)] overflow-hidden z-10 flex flex-col my-auto"
           >
             {/* Ambient Mint Glow Orbs */}
             <div className="absolute -right-16 -top-16 w-80 h-80 bg-gradient-to-tr from-emerald-500/20 via-teal-400/15 to-transparent rounded-full blur-3xl pointer-events-none" />
             <div className="absolute -left-16 -bottom-16 w-80 h-80 bg-gradient-to-br from-emerald-400/15 via-teal-500/10 to-transparent rounded-full blur-3xl pointer-events-none" />
 
             {/* Modal Header: Clean Light Glass */}
-            <div className="flex items-center justify-between px-4 sm:px-6 py-3 border-b border-emerald-500/15 bg-white/80 backdrop-blur-md relative z-10">
-              <div className="flex items-center gap-3">
-                <div className="w-8 h-8 sm:w-9 sm:h-9 rounded-xl bg-emerald-100 border border-emerald-300 flex items-center justify-center text-emerald-700 shadow-2xs shrink-0">
-                  <Sparkles className="w-4 h-4 text-emerald-600" />
+            <div className="flex items-center justify-between px-3.5 sm:px-6 py-2.5 sm:py-3 border-b border-emerald-500/15 bg-white/80 backdrop-blur-md relative z-10">
+              <div className="flex items-center gap-2 sm:gap-3">
+                <div className="w-7 h-7 sm:w-9 sm:h-9 rounded-lg sm:rounded-xl bg-emerald-100 border border-emerald-300 flex items-center justify-center text-emerald-700 shadow-2xs shrink-0">
+                  <Sparkles className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-emerald-600" />
                 </div>
                 <div>
-                  <div className="flex items-center gap-2">
-                    <span className="text-[9.5px] font-black uppercase tracking-wider px-2 py-0.5 rounded-full bg-emerald-100 text-emerald-800 border border-emerald-300/80">
+                  <div className="flex items-center gap-1.5 sm:gap-2">
+                    <span className="text-[8.5px] sm:text-[9.5px] font-black uppercase tracking-wider px-2 py-0.5 rounded-full bg-emerald-100 text-emerald-800 border border-emerald-300/80">
                       SİNEMATİK HİKÂYE
                     </span>
-                    <span className="text-xs text-slate-500 font-semibold hidden sm:inline">
+                    <span className="text-[11px] sm:text-xs text-slate-500 font-semibold hidden sm:inline">
                       • www.aceleetme.tech
                     </span>
                   </div>
-                  <h3 className="text-sm sm:text-base font-black text-slate-950 tracking-tight">
+                  <h3 className="text-xs sm:text-base font-black text-slate-950 tracking-tight leading-tight">
                     RoboPengu&apos;nun Doğuş Hikayesi
                   </h3>
                 </div>
@@ -113,51 +113,18 @@ export function RoboPenguStoryModal({ isOpen, onClose }: RoboPenguStoryModalProp
               <button
                 onClick={onClose}
                 aria-label="Kapat"
-                className="w-8 h-8 sm:w-9 sm:h-9 rounded-full bg-white hover:bg-slate-100 text-slate-600 hover:text-slate-900 flex items-center justify-center transition-all cursor-pointer border border-slate-200 shadow-2xs hover:scale-105"
+                className="w-7 h-7 sm:w-9 sm:h-9 rounded-full bg-white hover:bg-slate-100 text-slate-600 hover:text-slate-900 flex items-center justify-center transition-all cursor-pointer border border-slate-200 shadow-2xs hover:scale-105 shrink-0"
               >
-                <X className="w-4 h-4" />
+                <X className="w-3.5 h-3.5 sm:w-4 sm:h-4" />
               </button>
             </div>
 
-            {/* Content Area: Side-by-Side on Desktop (keeps height within Hero height ~360px), Stacked on Mobile */}
-            <div className="relative z-10 p-3 sm:p-4 lg:p-5 grid lg:grid-cols-12 gap-4 items-center">
+            {/* Content Area: Side-by-Side on Desktop, Compact & Balanced on Mobile */}
+            <div className="relative z-10 p-3 sm:p-4 lg:p-5 grid lg:grid-cols-12 gap-3 sm:gap-4 items-center">
               
-              {/* Left Column: Lore & CTAs (5 cols) */}
-              <div className="lg:col-span-5 space-y-3 text-left order-2 lg:order-1">
-                <div className="space-y-1.5">
-                  <div className="inline-flex items-center gap-1.5 text-[11px] font-extrabold text-emerald-800 bg-emerald-100/80 border border-emerald-300/80 px-2.5 py-0.5 rounded-lg">
-                    <Film className="w-3.5 h-3.5 text-emerald-600" />
-                    <span>Orijinal 4K Sinematik</span>
-                  </div>
-                  <p className="text-xs sm:text-[13px] text-slate-700 font-medium leading-relaxed">
-                    Kutup buzullarındaki antika donanım enkazından, yapay zekâ destekli amiral gemisine...
-                  </p>
-                  <p className="text-[11px] text-emerald-800 font-bold bg-white/85 p-2 rounded-xl border border-emerald-200/80 shadow-2xs">
-                    💎 <span className="text-emerald-950 font-black">Biyonik İşlemci:</span> Acele etme, en doğru teknoloji kararını algoritmalarla ver!
-                  </p>
-                </div>
-
-                <div className="flex flex-wrap items-center gap-2 pt-0.5">
-                  <Link
-                    href="/duello"
-                    onClick={onClose}
-                    className="flex-1 min-w-[130px] px-3.5 py-2 rounded-xl bg-gradient-to-r from-emerald-600 via-teal-600 to-emerald-700 hover:from-emerald-500 hover:to-teal-500 text-white font-black text-xs transition-all shadow-md flex items-center justify-center gap-1.5 cursor-pointer hover:scale-[1.02] active:scale-[0.98]"
-                  >
-                    <Scale className="w-3.5 h-3.5" />
-                    <span>Düello Masasına Git</span>
-                  </Link>
-                  <button
-                    onClick={onClose}
-                    className="px-3.5 py-2 rounded-xl bg-white hover:bg-slate-100 text-slate-700 font-bold text-xs transition-all border border-slate-200 shadow-2xs cursor-pointer"
-                  >
-                    Kapat
-                  </button>
-                </div>
-              </div>
-
-              {/* Right Column: 16:9 Video Player (7 cols) - Strictly within Hero Section Height! */}
+              {/* Top on Mobile / Right on Desktop: 16:9 Video Player */}
               <div className="lg:col-span-7 relative order-1 lg:order-2 flex items-center justify-center">
-                <div className="relative w-full aspect-video rounded-2xl overflow-hidden border-2 border-emerald-500/30 shadow-lg bg-black group max-h-[250px] sm:max-h-[280px]">
+                <div className="relative w-full aspect-video rounded-xl sm:rounded-2xl overflow-hidden border-2 border-emerald-500/30 shadow-md sm:shadow-lg bg-black group max-h-[220px] sm:max-h-[280px]">
                   <video
                     ref={videoRef}
                     src="/videos/robopengu-origin.mp4"
@@ -171,23 +138,67 @@ export function RoboPenguStoryModal({ isOpen, onClose }: RoboPenguStoryModalProp
                   />
 
                   {/* Floating Custom Controls */}
-                  <div className="absolute top-2.5 right-2.5 flex items-center gap-1.5 z-20 pointer-events-auto opacity-0 group-hover:opacity-100 transition-opacity">
+                  <div className="absolute top-2 right-2 sm:top-2.5 sm:right-2.5 flex items-center gap-1.5 z-20 pointer-events-auto opacity-0 group-hover:opacity-100 transition-opacity">
                     <button
                       onClick={toggleMute}
                       title={isMuted ? 'Sesi Aç' : 'Sesi Kapat'}
-                      className="p-1.5 rounded-lg bg-white/90 hover:bg-white text-slate-800 shadow-md border border-slate-200 transition-all cursor-pointer"
+                      className="p-1 sm:p-1.5 rounded-lg bg-white/90 hover:bg-white text-slate-800 shadow-md border border-slate-200 transition-all cursor-pointer"
                     >
-                      {isMuted ? <VolumeX className="w-3.5 h-3.5" /> : <Volume2 className="w-3.5 h-3.5" />}
+                      {isMuted ? <VolumeX className="w-3 h-3 sm:w-3.5 sm:h-3.5" /> : <Volume2 className="w-3 h-3 sm:w-3.5 sm:h-3.5" />}
                     </button>
                     <button
                       onClick={handleRestart}
                       title="Yeniden Başlat"
-                      className="p-1.5 rounded-lg bg-white/90 hover:bg-white text-slate-800 shadow-md border border-slate-200 transition-all cursor-pointer"
+                      className="p-1 sm:p-1.5 rounded-lg bg-white/90 hover:bg-white text-slate-800 shadow-md border border-slate-200 transition-all cursor-pointer"
                     >
-                      <RotateCcw className="w-3.5 h-3.5" />
+                      <RotateCcw className="w-3 h-3 sm:w-3.5 sm:h-3.5" />
                     </button>
                   </div>
                 </div>
+              </div>
+
+              {/* Bottom on Mobile / Left on Desktop: Lore & Balanced Action Buttons */}
+              <div className="lg:col-span-5 space-y-2 sm:space-y-3 text-left order-2 lg:order-1">
+                
+                {/* Desktop Detailed Lore */}
+                <div className="hidden lg:block space-y-1.5">
+                  <div className="inline-flex items-center gap-1.5 text-[11px] font-extrabold text-emerald-800 bg-emerald-100/80 border border-emerald-300/80 px-2.5 py-0.5 rounded-lg">
+                    <Film className="w-3.5 h-3.5 text-emerald-600" />
+                    <span>Orijinal 4K Sinematik</span>
+                  </div>
+                  <p className="text-xs sm:text-[13px] text-slate-700 font-medium leading-relaxed">
+                    Kutup buzullarındaki antika donanım enkazından, yapay zekâ destekli amiral gemisine...
+                  </p>
+                  <p className="text-[11px] text-emerald-800 font-bold bg-white/85 p-2 rounded-xl border border-emerald-200/80 shadow-2xs">
+                    💎 <span className="text-emerald-950 font-black">Biyonik İşlemci:</span> Acele etme, en doğru teknoloji kararını algoritmalarla ver!
+                  </p>
+                </div>
+
+                {/* Mobile Compact Lore Pill */}
+                <div className="block lg:hidden bg-white/90 px-3 py-1.5 rounded-xl border border-emerald-200/80 shadow-2xs">
+                  <p className="text-[11px] text-slate-700 font-medium leading-snug">
+                    💎 <span className="font-black text-emerald-900">RoboPengu:</span> Kutup buzullarından yapay zekâ amiral gemisine. Acele etme, doğru kararı ver!
+                  </p>
+                </div>
+
+                {/* Action Buttons: 50/50 Balanced Grid on Mobile, Clean on Desktop */}
+                <div className="grid grid-cols-2 lg:flex lg:flex-wrap items-center gap-2 pt-0.5">
+                  <Link
+                    href="/duello"
+                    onClick={onClose}
+                    className="w-full lg:flex-1 lg:min-w-[130px] px-3 sm:px-3.5 py-2 rounded-xl bg-gradient-to-r from-emerald-600 via-teal-600 to-emerald-700 hover:from-emerald-500 hover:to-teal-500 text-white font-black text-[11px] sm:text-xs transition-all shadow-sm flex items-center justify-center gap-1.5 cursor-pointer hover:scale-[1.02] active:scale-[0.98] text-center"
+                  >
+                    <Scale className="w-3.5 h-3.5 shrink-0" />
+                    <span className="truncate">Düello Masası</span>
+                  </Link>
+                  <button
+                    onClick={onClose}
+                    className="w-full lg:w-auto px-3 sm:px-3.5 py-2 rounded-xl bg-white hover:bg-slate-100 text-slate-700 font-bold text-[11px] sm:text-xs transition-all border border-slate-200 shadow-2xs cursor-pointer text-center"
+                  >
+                    Kapat
+                  </button>
+                </div>
+
               </div>
 
             </div>
