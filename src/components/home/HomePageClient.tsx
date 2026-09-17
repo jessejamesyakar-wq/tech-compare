@@ -9,7 +9,6 @@ import { Smartphone, TVProduct } from '@/lib/types';
 import { calculateTVScore } from '@/lib/tvScoring';
 import { ACTIVE_STORE_COUNT, ACTIVE_RETAILERS } from '@/lib/activeStores';
 import { HeroCarousel, HeroSlideItem } from '@/components/promo/HeroCarousel';
-import { HeroThumbnailStrip } from '@/components/promo/HeroThumbnailStrip';
 import { CompactProductCard } from '@/components/catalog/CompactProductCard';
 import { ProductImage } from '@/components/ui/ProductImage';
 import { CategoryBannerGrid } from '@/components/promo/CategoryBannerGrid';
@@ -71,13 +70,6 @@ export function HomePageClient({
   const [tvPageIndex, setTvPageIndex] = useState<number>(0);
   const [isTVPaused, setIsTVPaused] = useState<boolean>(false);
   const [progressKey, setProgressKey] = useState<number>(0);
-
-  const heroThumbnails = heroSlides.map((slide) => ({
-    id: slide.id,
-    name: slide.productName,
-    price: slide.price,
-    image: slide.image
-  }));
 
   // Filter and diversify TVs across brands so single-brand domination is eliminated
   const diverseTVs = useMemo(() => {
@@ -281,11 +273,8 @@ export function HomePageClient({
         </Link>
       </div>
 
-      {/* 2. Hero Banner & Interactive Showcase Slider */}
+      {/* 2. Hero Banner & Interactive Showcase Slider (with integrated thumbnails) */}
       <HeroCarousel activeIndex={heroIndex} onSelect={setHeroIndex} initialSlides={heroSlides} />
-
-      {/* 3. Sub-Hero Horizontal Thumbnail Strip */}
-      <HeroThumbnailStrip items={heroThumbnails} activeIndex={heroIndex} onSelect={setHeroIndex} />
 
       {/* 🏢 Resmi Platform Rehberi & Canlı Karşılaştırma Billboard */}
       <LiveDealsBillboard />

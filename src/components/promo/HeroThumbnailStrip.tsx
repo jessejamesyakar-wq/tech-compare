@@ -15,9 +15,10 @@ interface HeroThumbnailStripProps {
   items: ThumbnailItem[];
   activeIndex: number;
   onSelect: (index: number) => void;
+  className?: string;
 }
 
-export function HeroThumbnailStrip({ items, activeIndex, onSelect }: HeroThumbnailStripProps) {
+export function HeroThumbnailStrip({ items, activeIndex, onSelect, className = '' }: HeroThumbnailStripProps) {
   const scrollContainerRef = useRef<HTMLDivElement>(null);
   const [showLeftFade, setShowLeftFade] = useState(false);
   const [showRightFade, setShowRightFade] = useState(true);
@@ -71,7 +72,7 @@ export function HeroThumbnailStrip({ items, activeIndex, onSelect }: HeroThumbna
   };
 
   return (
-    <div className="relative w-full bg-white/95 backdrop-blur-md border border-slate-200/90 rounded-xl sm:rounded-2xl p-1.5 sm:p-2 shadow-xs hover:shadow-md transition-all duration-300 my-1.5 sm:my-2 group/strip overflow-hidden">
+    <div className={`relative w-full bg-white/80 backdrop-blur-md border border-emerald-500/15 rounded-xl sm:rounded-2xl p-1 sm:p-1.5 shadow-2xs hover:shadow-xs transition-all duration-300 group/strip overflow-hidden ${className}`}>
       
       {/* Left Edge Fade Overlay */}
       <div
@@ -109,8 +110,8 @@ export function HeroThumbnailStrip({ items, activeIndex, onSelect }: HeroThumbna
               onClick={() => onSelect(idx)}
               className={`group relative flex flex-col items-center justify-between w-20 sm:w-24 h-16 sm:h-[68px] rounded-lg sm:rounded-xl p-1 sm:p-1.5 transition-all duration-200 shrink-0 cursor-pointer text-left ${
                 isActive
-                  ? 'bg-emerald-50/95 border-2 border-emerald-500 shadow-sm ring-1 ring-emerald-500/30'
-                  : 'bg-slate-50/90 hover:bg-white border border-slate-200/80 hover:border-emerald-400 shadow-2xs opacity-90 hover:opacity-100'
+                  ? 'bg-emerald-50 border-2 border-emerald-500 shadow-xs ring-1 ring-emerald-500/30'
+                  : 'bg-white/90 hover:bg-white border border-slate-200/80 hover:border-emerald-400 shadow-2xs opacity-85 hover:opacity-100'
               }`}
               title={`${item.name} - ${item.price}`}
             >

@@ -7,7 +7,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { Sparkles, ChevronLeft, ChevronRight, Zap, Award, ArrowRight, ShieldCheck, Play } from 'lucide-react';
 import { Product } from '@/lib/types';
 import { HeroSlideItem, getDynamicHeroSlides } from '@/lib/heroSlides';
-import { ACTIVE_STORE_COUNT, ACTIVE_RETAILERS } from '@/lib/activeStores';
+import { HeroThumbnailStrip } from './HeroThumbnailStrip';
 import { RoboPenguStoryModal } from '@/components/video/RoboPenguStoryModal';
 export type { HeroSlideItem };
 export { getDynamicHeroSlides };
@@ -25,6 +25,15 @@ export function HeroCarousel({ activeIndex = 0, onSelect, initialSlides = [] }: 
     if (initialSlides && initialSlides.length > 0) return initialSlides;
     return getDynamicHeroSlides();
   }, [initialSlides]);
+
+  const heroThumbnails = useMemo(() => {
+    return heroSlides.map((s) => ({
+      id: s.id,
+      name: s.productName,
+      price: s.price,
+      image: s.image,
+    }));
+  }, [heroSlides]);
 
   // Sync with external activeIndex from thumbnail strip
   useEffect(() => {
@@ -201,39 +210,6 @@ export function HeroCarousel({ activeIndex = 0, onSelect, initialSlides = [] }: 
             </div>
           </motion.div>
         </AnimatePresence>
-
-        {/* Bottom Ticker & Dots */}
-        <div className="flex items-center justify-between pt-2 border-t border-slate-200/70 text-[10px] text-slate-500 font-bold">
-          <span className="flex items-center gap-1 text-emerald-800">
-            <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse" />
-            <span>
-              {ACTIVE_STORE_COUNT === 1
-                ? `${ACTIVE_RETAILERS[0]?.name || 'Hepsiburada'} Canlı Takipte`
-                : `${ACTIVE_STORE_COUNT} Büyük Mağaza Canlı Takipte`}
-            </span>
-          </span>
-
-          <div className="flex items-center gap-1">
-            <span className="text-[9px] text-slate-400 font-semibold mr-1">
-              {currentSlideIndex + 1}/{heroSlides.length}
-            </span>
-            {heroSlides.slice(0, 12).map((_, idx) => (
-              <button
-                key={idx}
-                onClick={() => {
-                  setCurrentSlideIndex(idx);
-                  onSelect(idx);
-                }}
-                aria-label={`Slayt ${idx + 1}`}
-                className={`transition-all rounded-full cursor-pointer ${
-                  currentSlideIndex === idx
-                    ? 'w-3 h-1 bg-emerald-600'
-                    : 'w-1 h-1 bg-slate-300 hover:bg-slate-400'
-                }`}
-              />
-            ))}
-          </div>
-        </div>
       </div>
 
       {/* 🖥️ DESKTOP VIEW (lg+): Compact & Balanced Apple Studio Layout */}
@@ -375,50 +351,16 @@ export function HeroCarousel({ activeIndex = 0, onSelect, initialSlides = [] }: 
         </AnimatePresence>
       </div>
 
-      {/* Bottom Ticker & Dots */}
-      <div className="hidden lg:flex mt-3.5 pt-2.5 border-t border-slate-200/80 items-center justify-between gap-3 text-xs">
-        {/* Live Active Stores Chic Badges */}
-        <div className="flex items-center gap-3">
-          <span className="flex items-center gap-1.5 text-slate-800 font-black">
-            <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse" />
-            <span>
-              {ACTIVE_STORE_COUNT === 1
-                ? `${ACTIVE_RETAILERS[0]?.name || 'Hepsiburada'} Canlı Takipte:`
-                : `${ACTIVE_STORE_COUNT} Büyük Mağaza Canlı Takipte:`}
-            </span>
-          </span>
-          <div className="hidden sm:flex items-center gap-1.5 text-[10px] font-bold text-slate-500">
-            {ACTIVE_RETAILERS.map((r) => (
-              <span key={r.id} className="bg-white/90 px-2 py-0.5 rounded-md border border-slate-200 shadow-2xs">
-                {r.name}
-              </span>
-            ))}
-          </div>
-        </div>
-
-        {/* Slide Dots (all 24 slides) */}
-        <div className="flex items-center gap-2">
-          <span className="text-[10px] text-slate-400 font-bold tabular-nums">
-            {currentSlideIndex + 1} / {heroSlides.length}
-          </span>
-          <div className="flex items-center gap-1 max-w-[280px] overflow-x-auto no-scrollbar py-0.5">
-            {heroSlides.map((_, idx) => (
-              <button
-                key={idx}
-                onClick={() => {
-                  setCurrentSlideIndex(idx);
-                  onSelect(idx);
-                }}
-                aria-label={`Slayt ${idx + 1}`}
-                className={`transition-all rounded-full cursor-pointer shrink-0 ${
-                  currentSlideIndex === idx
-                    ? 'w-4 h-1.5 bg-emerald-600 shadow-2xs'
-                    : 'w-1.5 h-1.5 bg-slate-300 hover:bg-slate-400'
-                }`}
-              />
-            ))}
-          </div>
-        </div>
+      {/* 🎯 Integrated Product Thumbnails Strip */}
+      <div className="relative z-10 mt-3 sm:mt-4 pt-2 sm:pt-2.5 border-t border-emerald-500/20">
+        <HeroThumbnailStrip
+          items={heroThumbnails}
+          activeIndex={currentSlideIndex}
+          onSelect={(idx) => {
+            setCurrentSlideIndex(idx);
+            onSelect(idx);
+          }}
+        />
       </div>
 
       {/* 🎬 RoboPengu Origin Story Cinematic Modal */}
