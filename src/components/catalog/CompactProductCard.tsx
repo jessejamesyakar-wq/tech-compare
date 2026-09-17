@@ -10,6 +10,7 @@ import { ArrowRight, Store } from 'lucide-react';
 import { TiltCard } from '@/components/ui/TiltCard';
 import { useI18n } from '@/lib/i18n/context';
 import { getEffectiveStoreCount, filterActiveStoreOffers, ACTIVE_RETAILERS, ACTIVE_STORE_COUNT } from '@/lib/activeStores';
+import { calculatePriceSignal } from '@/lib/priceSignal';
 
 export interface CompactProductCardProps {
   product: Product;
@@ -61,6 +62,7 @@ export function CompactProductCard({
     ? Math.round(((maxHistory - minPrice) / maxHistory) * 100)
     : 0;
   const isLowest30d = isHistoryDeal || (historyPrices.length > 0 && minPrice <= Math.min(...historyPrices));
+  const timingSignal = React.useMemo(() => calculatePriceSignal(product), [product]);
 
   const fallbackImg =
     product.category === 'appliances'
@@ -195,11 +197,16 @@ export function CompactProductCard({
             -%{discountPercent}
           </span>
         )}
-        {isLowest30d && (
+        {timingSignal.status === 'buy_now' && timingSignal.timingScore >= 80 ? (
+          <span className="absolute top-1 right-1 z-10 bg-emerald-600/95 text-white font-black text-[8.5px] sm:text-[9.5px] px-1.5 py-0.5 rounded-lg shadow-xs flex items-center gap-1 border border-emerald-400/30">
+            <span className="w-1.5 h-1.5 rounded-full bg-emerald-200 animate-pulse" />
+            Fırsat {timingSignal.timingScore}
+          </span>
+        ) : isLowest30d ? (
           <span className="absolute top-1 right-1 z-10 bg-emerald-600/90 text-white font-bold text-[9px] sm:text-[10px] px-1.5 py-0.5 rounded-lg shadow-sm flex items-center gap-0.5">
             🔥 En Düşük
           </span>
-        )}
+        ) : null}
         <ProductImage
           key={imgSrc}
           src={imgSrc}
