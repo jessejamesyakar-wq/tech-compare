@@ -309,7 +309,9 @@ export function DuelArena({ product1, product2, onProductChange }: DuelArenaProp
         <div className="relative z-20 grid grid-cols-2 lg:grid-cols-12 gap-2 sm:gap-4 lg:gap-6 items-start lg:items-center">
 
           {/* ⚡ Mobile Floating Electric VS Medallion between Card 1 & Card 2 */}
-          <div className="absolute left-1/2 top-36 sm:top-44 -translate-x-1/2 -translate-y-1/2 z-40 pointer-events-none lg:hidden">
+          <div className={`absolute left-1/2 top-36 sm:top-44 -translate-x-1/2 -translate-y-1/2 z-20 pointer-events-none lg:hidden transition-opacity duration-200 ${
+            openDropdown1 || openDropdown2 ? 'opacity-0 pointer-events-none' : 'opacity-100'
+          }`}>
             <div className="relative flex items-center justify-center">
               <div className="absolute -inset-2 bg-gradient-to-r from-cyan-400 via-emerald-400 to-cyan-400 rounded-full blur-xs opacity-90 animate-pulse" />
               <div className="relative w-8 h-8 sm:w-11 sm:h-11 rounded-full bg-gradient-to-b from-slate-200 via-slate-100 to-slate-300 p-0.5 shadow-2xl border-2 border-white flex items-center justify-center">
@@ -323,7 +325,9 @@ export function DuelArena({ product1, product2, onProductChange }: DuelArenaProp
           </div>
           
           {/* ================= LEFT COLUMN: SEARCH COMBOBOX 1 + FROSTED GLASS CARD ================= */}
-          <div className="col-span-1 lg:col-span-4 order-1 lg:order-1 space-y-2 sm:space-y-3 relative z-30">
+          <div className={`col-span-1 lg:col-span-4 order-1 lg:order-1 space-y-2 sm:space-y-3 relative ${
+            openDropdown1 ? 'z-50' : 'z-30'
+          }`}>
             {/* Search Combobox 1 */}
             <div ref={dropdownRef1} className="relative z-40">
               <div className="relative flex items-center">
@@ -357,7 +361,7 @@ export function DuelArena({ product1, product2, onProductChange }: DuelArenaProp
 
               {/* Autocomplete Dropdown Menu */}
               {openDropdown1 && results1.length > 0 && (
-                <div className="absolute top-full left-0 w-[240px] sm:w-full mt-1.5 bg-[#0f172a]/95 backdrop-blur-2xl border border-emerald-500/40 rounded-2xl shadow-2xl overflow-hidden z-50 max-h-72 overflow-y-auto divide-y divide-slate-800/80">
+                <div className="absolute top-full left-0 w-[260px] sm:w-full mt-1.5 bg-[#0f172a]/98 backdrop-blur-2xl border border-emerald-500/50 rounded-2xl shadow-2xl overflow-hidden z-[60] max-h-72 overflow-y-auto divide-y divide-slate-800/80">
                   {results1.map((item) => (
                     <button
                       key={item.id}
@@ -625,7 +629,9 @@ export function DuelArena({ product1, product2, onProductChange }: DuelArenaProp
           </div>
 
           {/* ================= RIGHT COLUMN: SEARCH COMBOBOX 2 + FROSTED GLASS CARD ================= */}
-          <div className="col-span-1 lg:col-span-4 order-2 lg:order-3 space-y-2 sm:space-y-3 relative z-30">
+          <div className={`col-span-1 lg:col-span-4 order-2 lg:order-3 space-y-2 sm:space-y-3 relative ${
+            openDropdown2 ? 'z-50' : 'z-30'
+          }`}>
             {/* Search Combobox 2 */}
             <div ref={dropdownRef2} className="relative z-40">
               <div className="relative flex items-center">
@@ -659,7 +665,7 @@ export function DuelArena({ product1, product2, onProductChange }: DuelArenaProp
 
               {/* Autocomplete Dropdown Menu */}
               {openDropdown2 && results2.length > 0 && (
-                <div className="absolute top-full right-0 sm:left-0 w-[240px] sm:w-full mt-1.5 bg-[#0f172a]/95 backdrop-blur-2xl border border-cyan-500/40 rounded-2xl shadow-2xl overflow-hidden z-50 max-h-72 overflow-y-auto divide-y divide-slate-800/80">
+                <div className="absolute top-full right-0 sm:left-0 w-[260px] sm:w-full mt-1.5 bg-[#0f172a]/98 backdrop-blur-2xl border border-cyan-500/50 rounded-2xl shadow-2xl overflow-hidden z-[60] max-h-72 overflow-y-auto divide-y divide-slate-800/80">
                   {results2.map((item) => (
                     <button
                       key={item.id}
