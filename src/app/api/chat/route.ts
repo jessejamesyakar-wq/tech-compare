@@ -12,10 +12,12 @@ import {
   formatProductRecommendations,
   resolveBudgetRecommendation,
   extractBudgetFromText,
+  extractExplicitTargetProduct,
   isFollowUpQuery,
   ComparisonPanelData,
   TechNewsPanelData,
 } from "@/lib/ai/resolvers";
+import { getRelevantLearnedGuidance } from "@/lib/ai/learningHub";
 
 const SYSTEM_INSTRUCTION = `Sen RoboPengu'sun; aceleetme.tech platformunun kıdemli, bilge, samimi ve dürüst baş teknoloji danışmanısın (Tech Guru AI).
 
@@ -308,41 +310,39 @@ ${matrixInfo ? `\n[ANTUTU & VERSUS DONANIM VE PERFORMANS TABLOSU]:\n${matrixInfo
       }
 
       if (budgetInfo && budgetInfo.budget > 0) {
-        // Bütçe ifadesini prompt'tan temizleyip ek olarak spesifik bir model istenip istenmediğine bak:
-        // Örn: "Kendime 20.000 tl lik bir ürün çocuğuma da hayali olan iphone 18 almak istiyorum"
-        // budgetCleaned -> "çocuğuma da hayali olan iphone 18 almak istiyorum" -> "Apple iPhone 18"
-        const budgetCleaned = trimmedPrompt
-          .replace(/(?:\b\d{1,3}(?:\.\d{3})+|\b\d{4,6})\s*(?:tl|lira|₺)?(?:\s*lik|\s*luk)?(?:\s*bir\s*ürün|\s*ürün|\s*telefon|\s*cihaz)?/gi, " ")
-          .replace(/\b\d+\s*(?:bin|k\b)(?:\s*(?:tl|lira|₺))?/gi, " ")
-          .replace(/\s+/g, " ")
-          .trim();
+        // Çoklu talep veya spesifik model tespiti:
+        // Örn 1: "Kız kardeşime apple watch se alacağım, kalan parayla telefon..."
+        // Örn 2: "Kendime 20.000 tl lik bir ürün çocuğuma da hayali olan iphone 18..."
+        const explicitModel = extractExplicitTargetProduct(trimmedPrompt);
 
-        let explicitNamedModel: any = null;
-        if (budgetCleaned.length >= 3) {
-          const namedMatches = searchProductsInCatalog(budgetCleaned, 1);
-          if (namedMatches.length > 0) {
-            const pPrice = namedMatches[0].basePrice || namedMatches[0].price || 0;
-            const isOutsideBudget = pPrice < budgetInfo.budget * 0.7 || pPrice > budgetInfo.budget * 1.3;
-            if (isOutsideBudget) {
-              explicitNamedModel = namedMatches[0];
-            }
-          }
+        let targetCategory = detectedCat;
+        let effectiveBudget = budgetInfo.budget;
+
+        // Kullanıcı hem bir hediye/cihaz belirtip hem de "arta kalan parayla telefon" diyorsa:
+        const mentionsRemainingPhone =
+          /(?:kalan|arta\s*kalan)\s*(?:parayla|bütçeyle|para\s*ile)?\s*(?:telefon|kendime|cihaz)/i.test(trimmedPrompt) ||
+          /(?:telefon|cihaz)\s*olarak/i.test(trimmedPrompt);
+
+        if (explicitModel && mentionsRemainingPhone) {
+          targetCategory = "smartphones";
+          const explicitPrice = explicitModel.basePrice || explicitModel.price || 12000;
+          effectiveBudget = Math.max(15000, budgetInfo.budget - explicitPrice);
         }
 
         const budgetResult = resolveBudgetRecommendation(
-          budgetInfo.budget,
-          detectedCat || "smartphones",
+          effectiveBudget,
+          targetCategory || "smartphones",
           preferredBrand
         );
 
         if (budgetResult.ok && budgetResult.data && budgetResult.data.products.length > 0) {
           let selectedProducts: any[] = [];
-          if (explicitNamedModel) {
-            // İlk kart: Belirtilen hayal/özel model (örn: iPhone 18)
-            // Diğer kartlar: Bütçeye uygun modeller (örn: 20.000 TL bütçeli modeller)
+          if (explicitModel) {
+            // İlk kart: Kullanıcının açıkça belirttiği hediye veya model (örn: Apple Watch SE)
+            // Diğer kartlar: Bütçeye/arta kalan paraya uygun en güçlü modeller (örn: iPhone 16/17, S24 Ultra)
             selectedProducts = [
-              explicitNamedModel,
-              ...budgetResult.data.products.filter((p: any) => p.id !== explicitNamedModel.id).slice(0, 2),
+              explicitModel,
+              ...budgetResult.data.products.filter((p: any) => p.id !== explicitModel.id).slice(0, 2),
             ];
           } else {
             selectedProducts = budgetResult.data.products.slice(0, 3);
@@ -362,10 +362,10 @@ ${matrixInfo ? `\n[ANTUTU & VERSUS DONANIM VE PERFORMANS TABLOSU]:\n${matrixInfo
 ${prodsSummary}
 
 ÖNEMLİ VE KESİN TALİMATLAR:
-1. Kullanıcının talebindeki tüm detayları (örneğin hem kendisi için ₺${budgetInfo.budget.toLocaleString("tr-TR")} bütçeli mantıklı cihaz arayışını, hem de çocuğunun hayali olan ${explicitNamedModel ? explicitNamedModel.name : "cihazı"}) derin empati, bilgelik ve samimiyetle ele al.
-2. Bir ebeveyn olarak çocuğunun hayalini destekleme arzusunu içtenlikle karşıla; hayalindeki cihazın güncel durumunu, piyasa fiyatını ve teknolojik gücünü açıkla.
-3. Kendi bütçesi olan ₺${budgetInfo.budget.toLocaleString("tr-TR")} için de parasını koruyacak, günlük kullanımda onu asla üzmeyecek fiyat/performans canavarı modelleri açıkla.
-4. Hem hayalindeki modelin hem de bütçesine uygun modellerin interaktif ürün kartlarının mesajının hemen altında görseli, en ucuz piyasa fiyatı ve mağaza bağlantısıyla yer aldığını kullanıcıya belirt.
+1. Kullanıcının talebindeki tüm detayları (örneğin hem hediye/belirtilen model olan ${explicitModel ? explicitModel.name : "ürünü"}, hem de toplam ₺${budgetInfo.budget.toLocaleString("tr-TR")} bütçeden geriye kalan ~₺${effectiveBudget.toLocaleString("tr-TR")} bütçeyle kendisine seçtiğimiz amiral gemisi telefonu) derin empati, bilgelik ve samimiyetle ele al.
+2. Kız kardeşine hediye etmeyi düşündüğü ${explicitModel ? explicitModel.name : "cihaz"} için harika ve çok düşünceli bir seçim olduğunu içtenlikle belirt; güncel piyasa fiyatını ve özelliklerini açıkla.
+3. Kalan yaklaşık ₺${effectiveBudget.toLocaleString("tr-TR")} bütçe ile kendisi için seçtiğimiz telefon modellerinin (örneğin güncel üst segment modeller) donanım gücünü, kamera ve işlemci avantajlarını detaylandır.
+4. Hem kardeşine hediye edeceği modelin hem de kendisine önerdiğin telefonların interaktif ürün kartlarının mesajının hemen altında canlı piyasa fiyatları ve mağaza bağlantılarıyla yer aldığını kullanıcıya belirt.
 5. Kullanıcı "göremiyorum modelleri", "hangileri", "modeller nerede" veya benzeri bir takip sorusu sorduysa: Çok nazik, samimi ve empati dolu bir dille ("Hemen aşağıya kartları yerleştirdim dostum, gözünden kaçmış olabilir") diyerek modelleri ve sundukları avantajları tekrar netleştir.`;
         }
       } else {
@@ -398,11 +398,17 @@ Talimat: Kullanıcının sorduğu cihaz(lar) hakkında aceleetme kataloğumuzdak
       }
     }
 
-    // 7. Model Yönlendirici ile Akış Başlatma (gemini-3.6-flash ve hızlı fallback zinciri)
+    // 7. Dinamik Bilgi & Deneyim Hafızası (Dynamic Few-Shot Learning Guidance)
+    const learnedGuidance = getRelevantLearnedGuidance(trimmedPrompt);
+    const finalPromptWithLearning = learnedGuidance
+      ? `${contextualPrompt}\n${learnedGuidance}`
+      : contextualPrompt;
+
+    // 8. Model Yönlendirici ile Akış Başlatma (gemini-3.6-flash ve hızlı fallback zinciri)
     let geminiStreamResult: any = null;
     try {
       geminiStreamResult = await callGeminiStreamWithFallback({
-        prompt: contextualPrompt,
+        prompt: finalPromptWithLearning,
         history: formattedHistory,
         systemInstruction: SYSTEM_INSTRUCTION,
         generationConfig: {

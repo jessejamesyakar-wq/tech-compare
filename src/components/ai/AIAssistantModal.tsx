@@ -30,6 +30,8 @@ import {
   VolumeX,
   Radio,
   Globe,
+  ThumbsUp,
+  ThumbsDown,
 } from 'lucide-react';
 import { ProductImage } from '@/components/ui/ProductImage';
 import { getFallbackProductImage } from '@/lib/ai/fallbackImages';
@@ -542,6 +544,7 @@ export function AIAssistantModal({
   const recognitionRef = useRef<any>(null);
   const activeUtteranceRef = useRef<SpeechSynthesisUtterance | null>(null);
   const toastTimeoutRef = useRef<NodeJS.Timeout | null>(null);
+  const [feedbackMap, setFeedbackMap] = useState<Record<string, 'positive' | 'negative'>>({});
 
   const showSpeechToast = (msg: string) => {
     setSpeechToast(msg);
@@ -946,9 +949,8 @@ export function AIAssistantModal({
       if (lastAssistant && lastAssistant.content) {
         const { deepAnalysis } = partitionContent(lastAssistant.content);
         const hasComparisonCues =
-          Boolean(deepAnalysis) ||
-          lastAssistant.content.includes('[DEEP_ANALYSIS]') ||
-          lastAssistant.content.includes('[SUMMARY_CHAT]') ||
+          Boolean(deepAnalysis) &&
+          lastAssistant.content.includes('[DEEP_ANALYSIS]') &&
           /(?:^|\n)(?:###?\s*(?:1[\.\)]\s*)?Ekran|###?\s*1[\.\)]|##\s*1[\.\)])/i.test(lastAssistant.content);
 
         if (hasComparisonCues) {
@@ -1735,9 +1737,9 @@ export function AIAssistantModal({
                               )}
                             </div>
 
-                            {/* Sesli Dinle / Durdur Butonu (Doğrudan Kullanıcı Tıklaması ile Kesin Ses Çalma) */}
+                            {/* Sesli Dinle ve Geri Bildirim Butonları */}
                             {!m.isStreaming && m.content && !m.content.startsWith('⚠️') && (
-                              <div className="flex items-center gap-2 pt-0.5">
+                              <div className="flex items-center justify-between gap-2 pt-1 border-t border-slate-100/80 dark:border-slate-800/80 mt-1.5">
                                 <button
                                   type="button"
                                   onClick={() => {
@@ -1762,6 +1764,67 @@ export function AIAssistantModal({
                                     </>
                                   )}
                                 </button>
+
+                                {/* RoboPengu Öğrenme & Geri Bildirim Butonları (Thumbs Up / Down) */}
+                                <div className="flex items-center gap-1">
+                                  {feedbackMap[m.id] ? (
+                                    <span className="text-[10px] font-medium text-slate-400 flex items-center gap-1 animate-in fade-in">
+                                      {feedbackMap[m.id] === 'positive' ? '👍 Katkın için teşekkürler' : '🛡️ İncelenmek üzere kaydedildi'}
+                                    </span>
+                                  ) : (
+                                    <>
+                                      <span className="text-[10px] text-slate-400 mr-1 hidden sm:inline">Yararlı mıydı?</span>
+                                      <button
+                                        type="button"
+                                        onClick={async () => {
+                                          const prevUser = [...messages].slice(0, idx).reverse().find((x) => x.role === 'user');
+                                          setFeedbackMap((prev) => ({ ...prev, [m.id]: 'positive' }));
+                                          try {
+                                            await fetch('/api/ai/feedback', {
+                                              method: 'POST',
+                                              headers: { 'Content-Type': 'application/json' },
+                                              body: JSON.stringify({
+                                                messageId: m.id,
+                                                userPrompt: prevUser?.content || '',
+                                                assistantResponse: m.content,
+                                                rating: 'positive',
+                                              }),
+                                            });
+                                          } catch {}
+                                        }}
+                                        className="p-1 rounded-md text-slate-400 hover:text-emerald-500 hover:bg-slate-100 dark:hover:bg-slate-800 transition"
+                                        title="Yararlı buldum"
+                                      >
+                                        <ThumbsUp className="w-3.5 h-3.5" />
+                                      </button>
+                                      <button
+                                        type="button"
+                                        onClick={async () => {
+                                          const prevUser = [...messages].slice(0, idx).reverse().find((x) => x.role === 'user');
+                                          setFeedbackMap((prev) => ({ ...prev, [m.id]: 'negative' }));
+                                          try {
+                                            await fetch('/api/ai/feedback', {
+                                              method: 'POST',
+                                              headers: { 'Content-Type': 'application/json' },
+                                              body: JSON.stringify({
+                                                messageId: m.id,
+                                                userPrompt: prevUser?.content || '',
+                                                assistantResponse: m.content,
+                                                rating: 'negative',
+                                                reasonCategory: 'misunderstood',
+                                                userComment: 'Kullanıcı yanıtı yetersiz veya hatalı buldu.',
+                                              }),
+                                            });
+                                          } catch {}
+                                        }}
+                                        className="p-1 rounded-md text-slate-400 hover:text-rose-500 hover:bg-slate-100 dark:hover:bg-slate-800 transition"
+                                        title="Hatalı veya yetersiz buldum"
+                                      >
+                                        <ThumbsDown className="w-3.5 h-3.5" />
+                                      </button>
+                                    </>
+                                  )}
+                                </div>
                               </div>
                             )}
 

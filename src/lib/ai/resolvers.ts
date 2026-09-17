@@ -97,6 +97,35 @@ export function searchProductsInCatalog(
   return result;
 }
 
+export function extractExplicitTargetProduct(text: string): any | null {
+  if (!text || typeof text !== "string") return null;
+  const catalog = getStoredProducts();
+  const norm = normalizeTr(text);
+
+  const explicitRules = [
+    { regex: /\bapple\s*watch\s*se\b/i, idPrefix: "apple-watch-se" },
+    { regex: /\bapple\s*watch\s*ultra\b/i, idPrefix: "apple-watch-ultra" },
+    { regex: /\bapple\s*watch\s*s(?:eries)?\s*10\b/i, idPrefix: "apple-watch-s10" },
+    { regex: /\bapple\s*watch\b/i, idPrefix: "apple-watch" },
+    { regex: /\bgalaxy\s*watch\b/i, idPrefix: "samsung-galaxy-watch" },
+    { regex: /\biphone\s*18\b/i, idPrefix: "iphone-18" },
+    { regex: /\biphone\s*17\b/i, idPrefix: "iphone-17" },
+    { regex: /\biphone\s*16\b/i, idPrefix: "iphone-16" },
+    { regex: /\b(?:galaxy\s*)?s26\b/i, idPrefix: "samsung-galaxy-s26" },
+    { regex: /\b(?:galaxy\s*)?s25\b/i, idPrefix: "samsung-galaxy-s25" },
+    { regex: /\b(?:galaxy\s*)?s24\b/i, idPrefix: "samsung-galaxy-s24" },
+  ];
+
+  for (const rule of explicitRules) {
+    if (rule.regex.test(norm)) {
+      const match = catalog.find((p) => p.id && p.id.startsWith(rule.idPrefix));
+      if (match) return match;
+    }
+  }
+
+  return null;
+}
+
 export function formatProductRecommendations(products: any[]): any[] {
   return products.map((p) => {
     const validOffers = Array.isArray(p.storeOffers)
@@ -161,24 +190,26 @@ export function findProductByNameOrId(products: any[], nameOrId: string) {
   const directExactName = products.find((p) => normalizeTr(p.name) === normalized);
   if (directExactName) return directExactName;
 
-  const candidates = products.filter((p) => normalizeTr(p.name).includes(normalized));
-  if (candidates.length > 0) {
-    const hasMax = normalized.includes("max");
-    const hasPlus = normalized.includes("plus");
-    const hasUltra = normalized.includes("ultra");
-    const hasPro = normalized.includes("pro");
+  if (normalized.length >= 3) {
+    const candidates = products.filter((p) => normalizeTr(p.name).includes(normalized));
+    if (candidates.length > 0) {
+      const hasMax = normalized.includes("max");
+      const hasPlus = normalized.includes("plus");
+      const hasUltra = normalized.includes("ultra");
+      const hasPro = normalized.includes("pro");
 
-    const exactRanked = candidates.filter((p) => {
-      const pNorm = normalizeTr(p.name);
-      if (!hasMax && pNorm.includes("max")) return false;
-      if (!hasPlus && pNorm.includes("plus")) return false;
-      if (!hasUltra && pNorm.includes("ultra")) return false;
-      if (!hasPro && pNorm.includes("pro")) return false;
-      return true;
-    });
+      const exactRanked = candidates.filter((p) => {
+        const pNorm = normalizeTr(p.name);
+        if (!hasMax && pNorm.includes("max")) return false;
+        if (!hasPlus && pNorm.includes("plus")) return false;
+        if (!hasUltra && pNorm.includes("ultra")) return false;
+        if (!hasPro && pNorm.includes("pro")) return false;
+        return true;
+      });
 
-    if (exactRanked.length > 0) return exactRanked[0];
-    return candidates[0];
+      if (exactRanked.length > 0) return exactRanked[0];
+      return candidates[0];
+    }
   }
 
   // Space-insensitive alphanumeric search (e.g. "iphone 18promax" matches "Apple iPhone 18 Pro Max")
@@ -603,32 +634,8 @@ export function formatComparisonData(
 
 export function tryExtractComparisonFromMessage(message: string): string[] | null {
   if (!message || typeof message !== "string") return null;
-  const clean = message
-    .replace(/[,\?\!\.]+/g, " ")
-    .replace(
-      /\b(kiyasla|kıyasla|karsilastir|karşılaştır|karsilastirmasi|karşılaştırması|kiyaslamasi|kıyaslaması|farklari|farkları|farki|farkı|hangisi|daha|iyi|alinir|alınır|oner|öner|telefonu|televizyonu|modeli|yi|yı|yu|yü)\b/gi,
-      " "
-    )
-    .trim();
 
-  // Natural Turkish comparison splitters: vs, ile, ve, /, karşı, yoksa, mu yoksa, mi, mı, mu, mü
-  const splitRegex = /\s+(?:(?:mu|mı|mi|mü)\s+yoksa|yoksa|vs\.?|ile|ve|\/|karşı|mi|mı|mu|mü)\s+/i;
-  if (splitRegex.test(clean)) {
-    const parts = clean
-      .split(splitRegex)
-      .map((s) => s.replace(/\b(mi|mı|mu|mü|yoksa)\b/gi, "").trim().replace(/^[\s,]+|[\s,]+$/g, ""))
-      .filter((s) => s.length >= 2);
-    if (parts.length >= 2) {
-      return [parts[0], parts[1]];
-    }
-  }
-
-  const compactVsMatch = message.match(/([A-Za-z0-9\-_]+)\s*vs\.?\s*([A-Za-z0-9\-_]+)/i);
-  if (compactVsMatch) {
-    return [compactVsMatch[1].trim(), compactVsMatch[2].trim()];
-  }
-
-  // Model keyword scanning fallback when user enters product names without conjunctions (e.g. "iphone 18 pro duo")
+  // 1. İki bilinen amiral gemisi veya popüler model adı yan yana yazılmışsa (örn: "iphone 16 pro s24 ultra")
   const knownKeywords = [
     { key: "iphone 18 pro max", label: "iPhone 18 Pro Max" },
     { key: "iphone 18 pro", label: "iPhone 18 Pro" },
@@ -636,22 +643,71 @@ export function tryExtractComparisonFromMessage(message: string): string[] | nul
     { key: "iphone 17 pro max", label: "iPhone 17 Pro Max" },
     { key: "iphone 17 pro", label: "iPhone 17 Pro" },
     { key: "iphone 17", label: "iPhone 17" },
+    { key: "iphone 16 pro max", label: "iPhone 16 Pro Max" },
+    { key: "iphone 16 pro", label: "iPhone 16 Pro" },
+    { key: "iphone 16", label: "iPhone 16" },
     { key: "s26 ultra", label: "Galaxy S26 Ultra" },
     { key: "s25 ultra", label: "Galaxy S25 Ultra" },
     { key: "s24 ultra", label: "Galaxy S24 Ultra" },
+    { key: "s24 fe", label: "Galaxy S24 FE" },
+    { key: "s24", label: "Galaxy S24" },
     { key: "xiaomi 15 ultra", label: "Xiaomi 15 Ultra" },
     { key: "xiaomi 14 ultra", label: "Xiaomi 14 Ultra" },
-    { key: "duo", label: "iPhone Duo" },
   ];
 
   const lowerMsg = message.toLowerCase();
   const foundModels: string[] = [];
   for (const item of knownKeywords) {
-    // Ensure we don't match substrings that are already part of longer matches
     if (lowerMsg.includes(item.key) && !foundModels.includes(item.label)) {
       foundModels.push(item.label);
       if (foundModels.length === 2) {
         return foundModels;
+      }
+    }
+  }
+
+  // 2. Doğrudan "X vs Y" veya "X karşı Y" kalıbı (Mutlaka kelime sınırıyla \b, örn: "tavsiye" içindeki "vs"yi eşleştirme!)
+  const compactVsMatch = message.match(/\b([A-Za-z0-9\-_]{2,})\s+(?:vs\.?|karşı)\s+([A-Za-z0-9\-_]{2,})\b/i);
+  if (compactVsMatch) {
+    return [compactVsMatch[1].trim(), compactVsMatch[2].trim()];
+  }
+
+  // 3. Açık kıyaslama niyeti kontrolü (kiyasla, karsilastir, mu yoksa, hangisi daha iyi vb.)
+  const hasComparisonIntent =
+    /\b(vs\.?|karşı|kiyasla|kıyasla|karsilastir|karşılaştır|karsilastirmasi|karşılaştırması|kiyaslamasi|kıyaslaması|farklari|farkları|farki|farkı|hangisi\s+daha|daha\s+iyi|hangisi\s+alınır|hangisi\s+alinir|aralarındaki\s+fark|arasındaki\s+fark|mu\s+yoksa|mı\s+yoksa|mi\s+yoksa|mü\s+yoksa)\b/i.test(
+      message
+    );
+
+  // Açık bir kıyaslama niyeti yoksa sohbet cümlelerindeki "ve/ile" bağlaçlarını kıyaslama sanma!
+  if (!hasComparisonIntent) {
+    return null;
+  }
+
+  const clean = message
+    .replace(/[,\?\!\.]+/g, " ")
+    .replace(
+      /\b(kiyasla|kıyasla|karsilastir|karşılaştır|karsilastirmasi|karşılaştırması|kiyaslamasi|kıyaslaması|farklari|farkları|farki|farkı|hangisi|daha|iyi|alinir|alınır|oner|öner|telefonu|televizyonu|modeli)\b/gi,
+      " "
+    )
+    .trim();
+
+  const splitRegex = /\s+(?:(?:mu|mı|mi|mü)\s+yoksa|yoksa|\bvs\.?\b|\bkarşı\b|ile|ve|\/)\s+/i;
+  if (splitRegex.test(clean)) {
+    const parts = clean
+      .split(splitRegex)
+      .map((s) => s.trim().replace(/^[\s,]+|[\s,]+$/g, ""))
+      .filter((s) => s.length >= 3);
+
+    if (parts.length >= 2) {
+      const blacklist = new Set([
+        "ta", "iye", "bana", "kendime", "kadar", "olan", "para", "butce", "bütçe",
+        "telefon", "model", "hediye", "icin", "için", "urun", "ürün", "senin",
+        "kardesime", "dogum", "gunu", "tavsiye", "edersin"
+      ]);
+      const p1 = parts[0].toLowerCase();
+      const p2 = parts[1].toLowerCase();
+      if (!blacklist.has(p1) && !blacklist.has(p2) && p1.length >= 3 && p2.length >= 3) {
+        return [parts[0], parts[1]];
       }
     }
   }

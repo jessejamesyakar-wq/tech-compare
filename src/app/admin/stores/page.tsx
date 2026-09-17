@@ -13,8 +13,10 @@ import {
   Activity, 
   Server,
   Zap,
-  ArrowUpRight
+  ArrowUpRight,
+  Brain,
 } from 'lucide-react';
+import Link from 'next/link';
 
 export default function AdminStoresPage() {
   const [stores, setStores] = useState<StoreHealthStatus[]>([]);
@@ -125,6 +127,13 @@ export default function AdminStoresPage() {
           </div>
 
           <div className="flex items-center gap-3">
+            <Link
+              href="/admin/learning"
+              className="inline-flex items-center gap-2 bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-sm px-4 py-2.5 rounded-xl shadow-md transition-all cursor-pointer"
+            >
+              <Brain className="w-4 h-4" />
+              <span>RoboPengu Zeka Masası</span>
+            </Link>
             <button
               onClick={triggerGlobalUpdate}
               disabled={updating}

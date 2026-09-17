@@ -1,0 +1,49 @@
+[
+  {
+    "id": "seed-dual-budget-watch-phone",
+    "triggerQuery": "kız kardeşime hediye apple watch kalan parayla telefon",
+    "normalizedTrigger": "kiz kardesime hediye apple watch kalan parayla telefon",
+    "targetCategory": "smartphones",
+    "recommendedModels": [
+      "Apple Watch SE",
+      "iPhone 16 Pro",
+      "Xiaomi 17 Ultra"
+    ],
+    "lessonNotes": "Kullanıcı hediye olarak saat ve kalan bütçeyle kendisi için telefon sorduğunda: Saat fiyatı bütçeden düşülmeli, arta kalan parayla amiral gemisi telefonlar önerilmeli, asla kıyaslama paneli açılmamalı.",
+    "status": "approved",
+    "safetyScore": 100,
+    "createdAt": "2026-09-17T12:00:00.000Z",
+    "approvedAt": "2026-09-17T12:00:00.000Z"
+  },
+  {
+    "id": "seed-tavsiye-vs-guard",
+    "triggerQuery": "tavsiye",
+    "normalizedTrigger": "tavsiye",
+    "lessonNotes": "Türkçe tavsiye kelimesi ta vs iye olarak bölünmemeli, açık bir kıyaslama niyeti yoksa Karşılaştırma Paneli asla açılmamalı.",
+    "status": "approved",
+    "safetyScore": 100,
+    "createdAt": "2026-09-17T12:00:00.000Z",
+    "approvedAt": "2026-09-17T12:00:00.000Z"
+  },
+  {
+    "id": "learned-1789650207144",
+    "triggerQuery": "Kız kardeşime hediye akıllı saat arıyorum",
+    "normalizedTrigger": "kız kardeşime hediye akıllı saat arıyorum",
+    "lessonNotes": "Kullanıcı kız kardeşine saat sorduğunda pembe ve 40-41mm kompakt kasalara öncelik ver.",
+    "status": "approved",
+    "safetyScore": 95,
+    "reportedByIpHash": "::1",
+    "createdAt": "2026-09-17T13:03:27.144Z",
+    "approvedAt": "2026-09-17T13:03:27.163Z"
+  },
+  {
+    "id": "learned-1789655091391",
+    "triggerQuery": "50.000 TL bütçeye en iyi laptop hangisi?",
+    "normalizedTrigger": "50.000 tl bütçeye en iyi laptop hangisi?",
+    "lessonNotes": "Kullanıcı Bildirimi [misunderstood]: Oyun için sormuştum, ofis laptopları önerildi.",
+    "status": "pending",
+    "safetyScore": 95,
+    "reportedByIpHash": "::1",
+    "createdAt": "2026-09-17T14:24:51.391Z"
+  }
+]
