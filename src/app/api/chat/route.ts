@@ -308,6 +308,27 @@ ${matrixInfo ? `\n[ANTUTU & VERSUS DONANIM VE PERFORMANS TABLOSU]:\n${matrixInfo
       }
 
       if (budgetInfo && budgetInfo.budget > 0) {
+        // Bütçe ifadesini prompt'tan temizleyip ek olarak spesifik bir model istenip istenmediğine bak:
+        // Örn: "Kendime 20.000 tl lik bir ürün çocuğuma da hayali olan iphone 18 almak istiyorum"
+        // budgetCleaned -> "çocuğuma da hayali olan iphone 18 almak istiyorum" -> "Apple iPhone 18"
+        const budgetCleaned = trimmedPrompt
+          .replace(/(?:\b\d{1,3}(?:\.\d{3})+|\b\d{4,6})\s*(?:tl|lira|₺)?(?:\s*lik|\s*luk)?(?:\s*bir\s*ürün|\s*ürün|\s*telefon|\s*cihaz)?/gi, " ")
+          .replace(/\b\d+\s*(?:bin|k\b)(?:\s*(?:tl|lira|₺))?/gi, " ")
+          .replace(/\s+/g, " ")
+          .trim();
+
+        let explicitNamedModel: any = null;
+        if (budgetCleaned.length >= 3) {
+          const namedMatches = searchProductsInCatalog(budgetCleaned, 1);
+          if (namedMatches.length > 0) {
+            const pPrice = namedMatches[0].basePrice || namedMatches[0].price || 0;
+            const isOutsideBudget = pPrice < budgetInfo.budget * 0.7 || pPrice > budgetInfo.budget * 1.3;
+            if (isOutsideBudget) {
+              explicitNamedModel = namedMatches[0];
+            }
+          }
+        }
+
         const budgetResult = resolveBudgetRecommendation(
           budgetInfo.budget,
           detectedCat || "smartphones",
@@ -315,7 +336,19 @@ ${matrixInfo ? `\n[ANTUTU & VERSUS DONANIM VE PERFORMANS TABLOSU]:\n${matrixInfo
         );
 
         if (budgetResult.ok && budgetResult.data && budgetResult.data.products.length > 0) {
-          matchedProducts = formatProductRecommendations(budgetResult.data.products.slice(0, 3));
+          let selectedProducts: any[] = [];
+          if (explicitNamedModel) {
+            // İlk kart: Belirtilen hayal/özel model (örn: iPhone 18)
+            // Diğer kartlar: Bütçeye uygun modeller (örn: 20.000 TL bütçeli modeller)
+            selectedProducts = [
+              explicitNamedModel,
+              ...budgetResult.data.products.filter((p: any) => p.id !== explicitNamedModel.id).slice(0, 2),
+            ];
+          } else {
+            selectedProducts = budgetResult.data.products.slice(0, 3);
+          }
+
+          matchedProducts = formatProductRecommendations(selectedProducts);
           const prodsSummary = matchedProducts
             .map(
               (p, i) =>
@@ -325,14 +358,15 @@ ${matrixInfo ? `\n[ANTUTU & VERSUS DONANIM VE PERFORMANS TABLOSU]:\n${matrixInfo
 
           contextualPrompt = `Kullanıcı Sorusu: "${trimmedPrompt}"
 
-[ACELEETME CANLI KATALOG & BÜTÇEYE GÖRE ÖNERİLEN 3 MODEL (Bütçe: ₺${budgetInfo.budget.toLocaleString("tr-TR")})]:
+[ACELEETME CANLI KATALOG & ÇOKLU TALEBE GÖRE MODELLER]:
 ${prodsSummary}
 
 ÖNEMLİ VE KESİN TALİMATLAR:
-1. Kullanıcının ₺${budgetInfo.budget.toLocaleString("tr-TR")} bütçesi için canlı kataloğumuzdan seçilen bu 3 modeli MUTLAKA gerçek model adlarıyla ve fiyatlarıyla yanıtında tek tek değerlendir.
-2. Bu 3 modelin interaktif ürün kartlarının mesajının hemen altında görseli, en ucuz piyasa fiyatı ve mağaza bağlantısıyla yer aldığını kullanıcıya belirt (Örn: "Aşağıda senin için hazırladığım ürün kartlarından mağaza fiyatlarını ve detayları hemen inceleyebilirsin").
-3. Kullanıcı "göremiyorum modelleri", "hangileri", "modeller nerede" veya benzeri bir takip sorusu sorduysa: Çok nazik, samimi ve empati dolu bir dille ("Hemen aşağıya kartları yerleştirdim dostum, gözünden kaçmış olabilir") diyerek modelleri ve sundukları avantajları tekrar netleştir.
-4. Kullanıcının belirttiği mevcut bir cihaz varsa (örneğin Galaxy A16), bu yeni cihazların ona sağlayacağı somut teknolojik sıçramayı (AMOLED 120Hz ekran akıcılığı, işlemci hızı, kamera sensör kalitesi) empati dolu ve bilgece açıkla.`;
+1. Kullanıcının talebindeki tüm detayları (örneğin hem kendisi için ₺${budgetInfo.budget.toLocaleString("tr-TR")} bütçeli mantıklı cihaz arayışını, hem de çocuğunun hayali olan ${explicitNamedModel ? explicitNamedModel.name : "cihazı"}) derin empati, bilgelik ve samimiyetle ele al.
+2. Bir ebeveyn olarak çocuğunun hayalini destekleme arzusunu içtenlikle karşıla; hayalindeki cihazın güncel durumunu, piyasa fiyatını ve teknolojik gücünü açıkla.
+3. Kendi bütçesi olan ₺${budgetInfo.budget.toLocaleString("tr-TR")} için de parasını koruyacak, günlük kullanımda onu asla üzmeyecek fiyat/performans canavarı modelleri açıkla.
+4. Hem hayalindeki modelin hem de bütçesine uygun modellerin interaktif ürün kartlarının mesajının hemen altında görseli, en ucuz piyasa fiyatı ve mağaza bağlantısıyla yer aldığını kullanıcıya belirt.
+5. Kullanıcı "göremiyorum modelleri", "hangileri", "modeller nerede" veya benzeri bir takip sorusu sorduysa: Çok nazik, samimi ve empati dolu bir dille ("Hemen aşağıya kartları yerleştirdim dostum, gözünden kaçmış olabilir") diyerek modelleri ve sundukları avantajları tekrar netleştir.`;
         }
       } else {
         // B. Tekil ürün veya model arama kontrolü

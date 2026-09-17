@@ -22,7 +22,8 @@ const SEARCH_STOP_WORDS = new Set([
   "tl", "lira", "butce", "butcem", "civari", "bandi", "arasi", "modelleri", "goremiyorum",
   "goster", "bana", "icin", "ile", "ve", "veya", "en", "iyi", "cok", "daha", "bir", "bu",
   "su", "o", "karsilastir", "kiyasla", "merhaba", "selam", "dostum", "nerede", "bulamiyor",
-  "telefon", "cihaz", "model"
+  "telefon", "cihaz", "model", "kendime", "cocuguma", "esime", "anneme", "babama",
+  "arkadasima", "kardesime", "hayali", "olan", "hediye", "hediyelik", "lik", "luk"
 ]);
 
 export function searchProductsInCatalog(
