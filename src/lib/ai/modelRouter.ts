@@ -38,15 +38,14 @@ export interface StreamCallResult {
 
 // Model önceliği: Doğrulanmış ve canlı API testinden başarıyla geçen en hızlı modeller
 export const MODEL_PRIORITY = [
-  "gemini-3.6-flash",              // 1. Google'ın en yeni nesil amiral gemisi flash modeli (kararlı & hızlı)
-  "gemini-3-flash-preview",        // 2. Yıldırım hızında akıl yürütme (< 1.4s Time-To-First-Token)
-  "gemini-3.1-flash-lite-preview", // 3. Hızlı ve hafif yedek model
-  "gemini-3.8-flash",              // 4. İleri düzey derin akıl yürütme modeli
+  "gemini-3-flash-preview",        // 1. Yıldırım hızında akıl yürütme (~700ms TTFT, anında yanıt)
+  "gemini-3.1-flash-lite-preview", // 2. Süper hafif ve hızlı ikinci kademe (~1s)
+  "gemini-3.6-flash",              // 3. Güvenilir derin amiral gemisi yedek
 ];
 
 const MAX_RETRIES_PER_MODEL = 1; // Hızlı fallback için retry sayısı 1
-const REQUEST_TIMEOUT_MS = 10_000; // 10sn zaman aşımı
-const RETRY_BASE_DELAY_MS = 250;
+const REQUEST_TIMEOUT_MS = 6_000; // 6sn zaman aşımı (hızlı fallback için)
+const RETRY_BASE_DELAY_MS = 150;
 
 function sleep(ms: number) {
   return new Promise((resolve) => setTimeout(resolve, ms));
@@ -119,12 +118,20 @@ export async function callGeminiStreamWithFallback(
           },
         });
 
+        const requestController = new AbortController();
+        const timeoutId = setTimeout(() => requestController.abort(), 6000);
+        const reqSignal = options.signal ?? requestController.signal;
+
         let result: any;
-        if (options.history && options.history.length > 0) {
-          const chat = model.startChat({ history: options.history });
-          result = await chat.sendMessageStream(options.prompt);
-        } else {
-          result = await model.generateContentStream(options.prompt);
+        try {
+          if (options.history && options.history.length > 0) {
+            const chat = model.startChat({ history: options.history });
+            result = await chat.sendMessageStream(options.prompt, { signal: reqSignal });
+          } else {
+            result = await model.generateContentStream(options.prompt, { signal: reqSignal });
+          }
+        } finally {
+          clearTimeout(timeoutId);
         }
 
         if (result && result.stream) {
