@@ -41,6 +41,7 @@ export function Navbar() {
   // Dedicated AI Assistant Modal State (Layer B)
   const [isAiModalOpen, setIsAiModalOpen] = useState(false);
   const [aiModalQuery, setAiModalQuery] = useState('');
+  const [aiModalVoiceTrigger, setAiModalVoiceTrigger] = useState(false);
 
   const searchInputRef = useRef<HTMLInputElement>(null);
   const mobileInputRef = useRef<HTMLInputElement>(null);
@@ -55,7 +56,7 @@ export function Navbar() {
       (window as any).SpeechRecognition || (window as any).webkitSpeechRecognition;
 
     if (!SpeechRecognition) {
-      openAiAssistant();
+      openAiAssistant(undefined, true);
       return;
     }
 
@@ -136,8 +137,9 @@ export function Navbar() {
   const currentPlaceholder = placeholderList[placeholderIndex];
 
   // Open Gemini AI Assistant modal cleanly
-  const openAiAssistant = (initialText?: string) => {
+  const openAiAssistant = (initialText?: string, isVoice = false) => {
     setAiModalQuery(initialText || query);
+    setAiModalVoiceTrigger(isVoice);
     setIsAiModalOpen(true);
     setIsFocused(false);
   };
@@ -501,7 +503,7 @@ export function Navbar() {
                       type="button"
                       onClick={(e) => {
                         e.stopPropagation();
-                        openAiAssistant();
+                        openAiAssistant(undefined, true);
                       }}
                       className="w-8 h-8 rounded-full bg-[#d8ecfc] hover:bg-[#c2e2fa] dark:bg-blue-950/70 dark:hover:bg-blue-900 text-[#0b57d0] dark:text-blue-300 flex items-center justify-center transition-all active:scale-95 shadow-2xs cursor-pointer hover:shadow-cyan-500/20"
                       title="RoboPengu Canlı Ses Modu"
@@ -691,7 +693,7 @@ export function Navbar() {
                     type="button"
                     onClick={(e) => {
                       e.stopPropagation();
-                      openAiAssistant();
+                      openAiAssistant(undefined, true);
                     }}
                     className="w-7 h-7 rounded-full bg-[#d8ecfc] hover:bg-[#c2e2fa] dark:bg-blue-950/70 text-[#0b57d0] dark:text-blue-300 flex items-center justify-center transition-all active:scale-95 shadow-2xs shrink-0"
                     title="Canlı Ses"
@@ -746,6 +748,7 @@ export function Navbar() {
         isOpen={isAiModalOpen}
         onClose={() => setIsAiModalOpen(false)}
         initialQuery={aiModalQuery}
+        initialVoiceTrigger={aiModalVoiceTrigger}
       />
 
       {/* 🐧 Floating RoboPengu Action Button (FAB) - Visible across all screens (Desktop, Tablet, Mobile) */}

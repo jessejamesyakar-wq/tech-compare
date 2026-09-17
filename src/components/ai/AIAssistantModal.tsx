@@ -173,6 +173,7 @@ interface AIAssistantModalProps {
   isOpen: boolean;
   onClose: () => void;
   initialQuery?: string;
+  initialVoiceTrigger?: boolean;
 }
 
 // ---- İçerik Ayrıştırıcı (Sol Sohbet Özeti, Sağ Derinlemesine Analiz & Sesli Özet) ----
@@ -503,7 +504,12 @@ function renderInlineFormatting(text: string): React.ReactNode {
 
 // ---- ANA MODAL BİLEŞENİ ---------------------------------------------
 
-export function AIAssistantModal({ isOpen, onClose, initialQuery = '' }: AIAssistantModalProps) {
+export function AIAssistantModal({
+  isOpen,
+  onClose,
+  initialQuery = '',
+  initialVoiceTrigger = false,
+}: AIAssistantModalProps) {
   const [messages, setMessages] = useState<ChatMessage[]>([
     {
       id: 'welcome',
@@ -527,7 +533,9 @@ export function AIAssistantModal({ isOpen, onClose, initialQuery = '' }: AIAssis
   // Sesli Konuşma (Voice In / Voice Out) Durumları
   const [isListening, setIsListening] = useState(false);
   const [isSpeaking, setIsSpeaking] = useState(false);
-  const [voiceEnabled, setVoiceEnabled] = useState(true);
+  // Kullanıcı talebi: Ses YALNIZCA kullanıcı sesle arama yaptığında veya mikrofonu açtığında devreye girsin (varsayılan false)
+  const [voiceEnabled, setVoiceEnabled] = useState(false);
+  const isCurrentVoiceSessionRef = useRef(false);
   const [speechSupported, setSpeechSupported] = useState(false);
   const [speechToast, setSpeechToast] = useState<string | null>(null);
   const [availableVoices, setAvailableVoices] = useState<SpeechSynthesisVoice[]>([]);
@@ -541,15 +549,8 @@ export function AIAssistantModal({ isOpen, onClose, initialQuery = '' }: AIAssis
     toastTimeoutRef.current = setTimeout(() => setSpeechToast(null), 4500);
   };
 
-  // Ses Tercihini LocalStorage'dan yükle, Speech API desteğini denetle & Sesleri önceden yükle
+  // Speech API desteğini denetle & Sesleri önceden yükle
   useEffect(() => {
-    try {
-      const savedVoice = localStorage.getItem('robopengu_voice_enabled');
-      if (savedVoice !== null) {
-        setVoiceEnabled(savedVoice === 'true');
-      }
-    } catch {}
-
     if (typeof window !== 'undefined') {
       const hasSpeech = Boolean(
         (window as any).SpeechRecognition || (window as any).webkitSpeechRecognition
@@ -827,7 +828,9 @@ export function AIAssistantModal({ isOpen, onClose, initialQuery = '' }: AIAssis
         setIsListening(false);
         const textToSend = recognizedSpeech.trim();
         if (textToSend) {
-          handleSend(textToSend);
+          isCurrentVoiceSessionRef.current = true;
+          setVoiceEnabled(true);
+          handleSend(textToSend, true);
         } else if (!hasError) {
           showSpeechToast('Duyamadım, lütfen tekrar söyler misiniz? 🎙️');
         }
@@ -1099,10 +1102,14 @@ export function AIAssistantModal({ isOpen, onClose, initialQuery = '' }: AIAssis
   };
 
 
-  const handleSend = async (queryText: string) => {
+  const handleSend = async (queryText: string, isVoice = false) => {
     stopSpeaking();
     stopListening();
     hasSpokenRef.current = false;
+    if (isVoice) {
+      isCurrentVoiceSessionRef.current = true;
+      setVoiceEnabled(true);
+    }
     const trimmed = queryText.trim();
     if (!trimmed || loading || trimmed.length > 500) return;
 
@@ -1389,10 +1396,10 @@ export function AIAssistantModal({ isOpen, onClose, initialQuery = '' }: AIAssis
     if (isOpen) {
       setTimeout(() => inputRef.current?.focus(), 150);
       if (initialQuery.trim() && messages.length <= 1) {
-        handleSend(initialQuery.trim());
+        handleSend(initialQuery.trim(), initialVoiceTrigger);
       }
     }
-  }, [isOpen, initialQuery]);
+  }, [isOpen, initialQuery, initialVoiceTrigger]);
 
   useEffect(() => {
     messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' });
