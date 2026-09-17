@@ -10,13 +10,6 @@ export interface GlobalAiNewsArticle {
   badgeColor?: string;
   url?: string;
   suggestedPrompt?: string;
-  deviceImpact?: {
-    badge: string;
-    text: string;
-    linkText: string;
-    linkHref: string;
-    startingPrice?: string;
-  };
 }
 
 export const GLOBAL_AI_NEWS: GlobalAiNewsArticle[] = [
@@ -34,14 +27,7 @@ export const GLOBAL_AI_NEWS: GlobalAiNewsArticle[] = [
     category: 'llm',
     categoryLabel: 'Büyük Dil Modelleri',
     url: 'https://deepmind.google/technologies/gemini/',
-    suggestedPrompt: 'Google DeepMind\'ın yeni Gemini mimarisindeki akıl yürütme yetenekleri hakkında ne biliyorsun?',
-    deviceImpact: {
-      badge: 'Ekosistem Notu',
-      text: 'Google Pixel 9/10 ve Samsung Galaxy AI cihazları bu mimariden ilk faydalanan akıllı telefonlar olacak.',
-      linkText: 'Galaxy AI ve Pixel Modellerini Gör →',
-      linkHref: '/phones?q=samsung',
-      startingPrice: '₺42.999\'dan başlayan'
-    }
+    suggestedPrompt: 'Google DeepMind\'ın yeni Gemini mimarisindeki akıl yürütme yetenekleri hakkında ne biliyorsun?'
   },
   {
     id: 'ai-news-2',
@@ -57,14 +43,7 @@ export const GLOBAL_AI_NEWS: GlobalAiNewsArticle[] = [
     category: 'llm',
     categoryLabel: 'Büyük Dil Modelleri',
     url: 'https://openai.com/news/',
-    suggestedPrompt: 'OpenAI\'ın yeni nesil akıl yürütme modelleri donanım testlerinde nasıl sonuçlar veriyor?',
-    deviceImpact: {
-      badge: 'Donanım Tavsiyesi',
-      text: 'Ajan tabanlı otonom çıkarım için minimum 32GB RAM ve güçlü çok çekirdekli işlemcili iş istasyonları öneriliyor.',
-      linkText: 'Yüksek RAM\'li İş İstasyonlarını Gör →',
-      linkHref: '/laptops?q=64gb',
-      startingPrice: '₺64.999\'dan başlayan'
-    }
+    suggestedPrompt: 'OpenAI\'ın yeni nesil akıl yürütme modelleri donanım testlerinde nasıl sonuçlar veriyor?'
   },
   {
     id: 'ai-news-3',
@@ -80,14 +59,7 @@ export const GLOBAL_AI_NEWS: GlobalAiNewsArticle[] = [
     category: 'llm',
     categoryLabel: 'Büyük Dil Modelleri',
     url: 'https://www.anthropic.com/news',
-    suggestedPrompt: 'Claude 3.7 Sonnet\'in hibrit düşünme özelliği nasıl çalışıyor?',
-    deviceImpact: {
-      badge: 'Yazılımcı Rehberi',
-      text: 'Yazılım geliştiriciler için 32GB/64GB RAM\'li MacBook Pro ve RTX laptoplar hibrit ajan modellerinde maksimum verim sağlıyor.',
-      linkText: 'Kodlama Laptoplarını İncele →',
-      linkHref: '/laptops?sortBy=popular',
-      startingPrice: '₺54.999\'dan başlayan'
-    }
+    suggestedPrompt: 'Claude 3.7 Sonnet\'in hibrit düşünme özelliği nasıl çalışıyor?'
   },
   {
     id: 'ai-news-4',
@@ -103,14 +75,7 @@ export const GLOBAL_AI_NEWS: GlobalAiNewsArticle[] = [
     category: 'hardware',
     categoryLabel: 'Yonga & Donanım',
     url: 'https://nvidianews.nvidia.com/',
-    suggestedPrompt: 'NVIDIA Blackwell B200 ve Apple M4 çiplerinin yapay zeka NPU güçlerini karşılaştırır mısın?',
-    deviceImpact: {
-      badge: 'GPU Tavsiyesi',
-      text: 'Yapay zeka modelleriyle çalışan geliştiriciler için RTX 4080 / 4090 laptoplar en yüksek fiyat/performansı sunuyor.',
-      linkText: 'Uyumlu RTX Laptopları Gör →',
-      linkHref: '/laptops?q=rtx',
-      startingPrice: '₺124.999\'dan başlayan'
-    }
+    suggestedPrompt: 'NVIDIA Blackwell B200 ve Apple M4 çiplerinin yapay zeka NPU güçlerini karşılaştırır mısın?'
   },
   {
     id: 'ai-news-5',
@@ -126,14 +91,7 @@ export const GLOBAL_AI_NEWS: GlobalAiNewsArticle[] = [
     category: 'opensource',
     categoryLabel: 'Açık Kaynak',
     url: 'https://www.technologyreview.com/',
-    suggestedPrompt: 'DeepSeek R1 modeli açık kaynak dünyasında neden bu kadar ses getirdi?',
-    deviceImpact: {
-      badge: 'Donanım Gereksinimi',
-      text: 'DeepSeek R1 14B modelini yerel çalıştırmak için en az 16GB VRAM veya 32GB Unified Memory gerekiyor.',
-      linkText: 'Uyumlu Bilgisayarları Listele →',
-      linkHref: '/laptops?q=dell',
-      startingPrice: '₺69.999\'dan başlayan'
-    }
+    suggestedPrompt: 'DeepSeek R1 modeli açık kaynak dünyasında neden bu kadar ses getirdi?'
   },
   {
     id: 'ai-news-6',
@@ -149,14 +107,7 @@ export const GLOBAL_AI_NEWS: GlobalAiNewsArticle[] = [
     category: 'hardware',
     categoryLabel: 'Yonga & Donanım',
     url: 'https://www.apple.com/newsroom/',
-    suggestedPrompt: 'Apple Intelligence hangi iPhone ve Mac modellerinde tam performans çalışıyor?',
-    deviceImpact: {
-      badge: 'Satın Alma Tavsiyesi',
-      text: 'Apple Intelligence özelliklerini kullanmak için en az iPhone 15 Pro, iPhone 16 veya M serisi iPad/Mac gerekiyor.',
-      linkText: 'Uyumlu iPhone Modellerini Gör →',
-      linkHref: '/phones?q=iphone',
-      startingPrice: '₺64.999\'dan başlayan'
-    }
+    suggestedPrompt: 'Apple Intelligence hangi iPhone ve Mac modellerinde tam performans çalışıyor?'
   },
   {
     id: 'ai-news-7',

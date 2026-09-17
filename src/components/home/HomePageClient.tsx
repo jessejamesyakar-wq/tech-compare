@@ -16,7 +16,6 @@ import { ProductCarousel } from '@/components/catalog/ProductCarousel';
 import { CategoryIconStrip } from '@/components/layout/CategoryIconStrip';
 import { DynamicCategoryShowcase, DynamicCategoryDistribution } from '@/components/home/DynamicCategoryShowcase';
 import { LiveDealsBillboard } from '@/components/ads/LiveDealsBillboard';
-import { AiNewsTicker } from '@/components/home/AiNewsTicker';
 import {
   Scale,
   ArrowRight,
@@ -276,9 +275,6 @@ export function HomePageClient({
 
       {/* 2. Hero Banner & Interactive Showcase Slider (with integrated thumbnails) */}
       <HeroCarousel activeIndex={heroIndex} onSelect={setHeroIndex} initialSlides={heroSlides} />
-
-      {/* ⚡ Canlı Küresel AI Gündemi Ticker */}
-      <AiNewsTicker />
 
       {/* 🏢 Resmi Platform Rehberi & Canlı Karşılaştırma Billboard */}
       <LiveDealsBillboard />
