@@ -34,6 +34,7 @@ import {
 } from 'lucide-react';
 import { getStoreSearchUrl } from '@/lib/activeStores';
 import { DeepCompareSections } from './deep/DeepCompareSections';
+import { RefereeVerdictCard } from './RefereeVerdictCard';
 
 interface DuelArenaProps {
   product1: Product;
@@ -830,6 +831,9 @@ export function DuelArena({ product1, product2, onProductChange }: DuelArenaProp
         </div>
 
       </div>
+
+      {/* ⚖️ ROBOPENGU ULTRA-PREMIUM REFEREE VERDICT CARD */}
+      <RefereeVerdictCard product1={product1} product2={product2} />
 
       {/* ========================================================================= */}
       {/* 🥊 DETAILED ROUND INSPECTION CARD (OPENS WHEN A ROUND PILL IS CLICKED)   */}
