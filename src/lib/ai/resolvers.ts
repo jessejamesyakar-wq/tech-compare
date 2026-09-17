@@ -15,6 +15,16 @@ export interface ResolverResult<T> {
   message?: string;
 }
 
+const SEARCH_STOP_WORDS = new Set([
+  "nasil", "sence", "hakkinda", "bilgi", "ver", "onerir", "onerirsin", "oner", "tavsiye",
+  "eder", "edersin", "elimde", "var", "alacagim", "almak", "istiyorum", "alinir", "mi",
+  "mu", "hangisi", "hangileri", "ne", "kadar", "fiyat", "fiyati", "kac", "para",
+  "tl", "lira", "butce", "butcem", "civari", "bandi", "arasi", "modelleri", "goremiyorum",
+  "goster", "bana", "icin", "ile", "ve", "veya", "en", "iyi", "cok", "daha", "bir", "bu",
+  "su", "o", "karsilastir", "kiyasla", "merhaba", "selam", "dostum", "nerede", "bulamiyor",
+  "telefon", "cihaz", "model"
+]);
+
 export function searchProductsInCatalog(
   query: string,
   limit: number = 3
@@ -26,7 +36,9 @@ export function searchProductsInCatalog(
     .replace(/(\d+)([a-z]+)/g, "$1 $2")
     .replace(/([a-z]+)(\d+)/g, "$1 $2")
     .replace(/promax/g, "pro max");
-  const words = [...new Set([...normMsg.split(/\s+/), ...expandedMsg.split(/\s+/)])].filter((w) => w.length >= 2);
+
+  const rawTokens = [...new Set([...normMsg.split(/\s+/), ...expandedMsg.split(/\s+/)])];
+  const words = rawTokens.filter((w) => w.length >= 2 && !SEARCH_STOP_WORDS.has(w));
   if (words.length === 0) return [];
 
   const cleanQ = cleanAlphanumeric(query);
@@ -37,20 +49,51 @@ export function searchProductsInCatalog(
       const pBrand = normalizeTr(p.brand || "");
       const cleanP = cleanAlphanumeric(p.name || "");
       const haystack = `${pName} ${pBrand}`;
-      const matchedCount = words.filter((w) => haystack.includes(w)).length;
-      let matchRatio = words.length > 0 ? matchedCount / words.length : 0;
 
-      // Bonus if clean alphanumeric is directly contained
+      let score = 0;
+
+      // Exact clean substring match (e.g. "galaxy a16" in "samsung galaxy a16 5g")
       if (cleanQ.length >= 4 && cleanP.includes(cleanQ)) {
-        matchRatio = Math.max(matchRatio, 0.95);
+        score += 150;
       }
 
-      return { product: p, matchedCount, matchRatio };
-    })
-    .filter((entry) => entry.matchRatio >= 0.6) // en az %60 kelime eşleşmeli (örn: 'iphone 18 duo' gibi sorguları yakalar)
-    .sort((a, b) => b.matchRatio - a.matchRatio || b.matchedCount - a.matchedCount);
+      // Word matches
+      let matchedCount = 0;
+      for (const w of words) {
+        if (haystack.includes(w)) {
+          matchedCount++;
+          if (/\d+/.test(w)) score += 30; // Model number match boost
+          else score += 15;
+        }
+      }
 
-  return scoredProds.slice(0, limit).map((entry) => entry.product);
+      const matchRatio = words.length > 0 ? matchedCount / words.length : 0;
+      if (matchRatio < 0.4 && score < 50) return null;
+
+      score += matchRatio * 60;
+
+      return { product: p, score, matchedCount };
+    })
+    .filter((entry): entry is { product: any; score: number; matchedCount: number } => entry !== null)
+    .sort((a, b) => b.score - a.score || b.matchedCount - a.matchedCount);
+
+  // Deduplicate base models
+  const seenBase = new Set<string>();
+  const result: any[] = [];
+  for (const s of scoredProds) {
+    const baseName = (s.product.name || "")
+      .replace(/\s*\(\d+\s*(?:gb|tb)\)/i, "")
+      .replace(/\s+\d+\s*(?:gb|tb)\b/i, "")
+      .trim()
+      .toLowerCase();
+    if (!seenBase.has(baseName)) {
+      seenBase.add(baseName);
+      result.push(s.product);
+      if (result.length >= limit) break;
+    }
+  }
+
+  return result;
 }
 
 export function formatProductRecommendations(products: any[]): any[] {
@@ -266,10 +309,70 @@ export function resolveCompareProducts(
   };
 }
 
+export function isFollowUpQuery(text: string): boolean {
+  if (!text || typeof text !== "string") return false;
+  const norm = normalizeTr(text);
+  return (
+    norm.includes("goremiyorum") ||
+    norm.includes("goremıyorum") ||
+    norm.includes("hangileri") ||
+    norm.includes("hangi telefon") ||
+    norm.includes("hangi model") ||
+    norm.includes("modeller nerede") ||
+    norm.includes("modelleri goster") ||
+    norm.includes("kartlar nerede") ||
+    norm.includes("kartlari goremiyorum") ||
+    norm.includes("tavsiyelerin nerede") ||
+    norm.includes("bulamadim") ||
+    norm.includes("onerilerini goster") ||
+    norm.includes("linklerini ver") ||
+    norm.includes("listele") ||
+    norm === "hangisi" ||
+    norm === "neler" ||
+    norm === "hangilerini sectin" ||
+    norm === "hangi 3 model"
+  );
+}
+
+export function extractBudgetFromText(text: string): { budget: number } | null {
+  if (!text || typeof text !== "string") return null;
+  const lower = text.toLowerCase().replace(/['’]/g, "");
+
+  // 1. Range e.g. '30-40 bin', '30.000 - 40.000 tl'
+  const rangeMatch = lower.match(/(\d+(?:[.,]\d{3})*|\d+)\s*(?:-|ile|\/)\s*(\d+(?:[.,]\d{3})*|\d+)\s*(?:bin|k\b|tl|lira|₺)/i);
+  if (rangeMatch) {
+    let n2 = parseInt(rangeMatch[2].replace(/[.,]/g, ""), 10);
+    if (/bin|k\b/i.test(lower) && n2 < 1000) n2 *= 1000;
+    if (n2 >= 1000 && n2 <= 500000) return { budget: n2 };
+  }
+
+  // 2. 'bin' or 'k' format: '40 bin', '40bin', '40 k', '40k', '40.5 bin'
+  const binMatch = lower.match(/(\d+(?:[.,]\d+)?)\s*(?:bin|k\b)(?:\s*(?:tl|lira|₺))?/i);
+  if (binMatch) {
+    const rawNum = parseFloat(binMatch[1].replace(",", "."));
+    if (!isNaN(rawNum) && rawNum > 0 && rawNum < 1000) {
+      return { budget: Math.round(rawNum * 1000) };
+    }
+  }
+
+  // 3. Full numeric format: '40.000 TL', '40000 TL', '40.000₺', '40.000 civarı', 'bütçem 40.000'
+  const tlMatch = lower.match(/(\d{1,3}(?:\.\d{3})+|\d{4,6})\s*(?:tl|lira|₺|civarı|civari|bandı|bandinda|arasi|arası|\bbutce\b|\bbütçe\b|\bfiyat\b)/i)
+    || lower.match(/(?:bütçe\w*|fiyat\w*|civarı|bandında|arası)\s*(?:en fazla|maksimum)?\s*[:\s]*(\d{1,3}(?:\.\d{3})+|\d{4,6})/i);
+
+  if (tlMatch) {
+    const num = parseInt(tlMatch[1].replace(/\./g, "").replace(/,/g, ""), 10);
+    if (!isNaN(num) && num >= 1000 && num <= 500000) {
+      return { budget: num };
+    }
+  }
+
+  return null;
+}
+
 export function resolveBudgetRecommendation(
   budgetTL: any,
   category?: string,
-  _scenario?: string
+  preferredBrand?: string
 ): ResolverResult<{ products: any[]; category: CatalogCategory | "all" }> {
   const numericBudget = typeof budgetTL === "number"
     ? budgetTL
@@ -278,39 +381,54 @@ export function resolveBudgetRecommendation(
   if (!numericBudget || numericBudget <= 0) {
     return {
       ok: false,
-      message: "Bütçenin ne kadar olduğunu TL cinsinden yazar mısın? Örneğin '20000 TL'. 🐧",
+      message: "Bütçenin ne kadar olduğunu TL cinsinden yazar mısın? Örneğin '40.000 TL'. 🐧",
     };
   }
 
   const catalog = getStoredProducts();
 
-  let resolvedCategory: CatalogCategory | "all" = "all";
-  if (category) {
+  let resolvedCategory: CatalogCategory | "all" = category === "all" ? "all" : "smartphones";
+  if (category && category !== "all") {
     const detected = detectCategory(category);
-    resolvedCategory = detected.category ?? "all";
+    resolvedCategory = detected.category ?? "smartphones";
   }
 
-  const TOLERANCE = 0.15;
+  const TOLERANCE = 0.20;
   const minPrice = numericBudget * (1 - TOLERANCE);
   const maxPrice = numericBudget * (1 + TOLERANCE);
 
-  let candidates = catalog.filter(
-    (p: any) => p.basePrice >= minPrice && p.basePrice <= maxPrice
-  );
-
-  if (resolvedCategory !== "all") {
-    candidates = candidates.filter((p: any) => p.category === resolvedCategory);
-  }
-
-  if (candidates.length === 0) {
-    candidates = catalog
-      .filter((p: any) => (resolvedCategory === "all" ? true : p.category === resolvedCategory))
-      .filter((p: any) => p.basePrice <= numericBudget * 1.3)
-      .sort((a: any, b: any) => b.basePrice - a.basePrice)
-      .slice(0, 5);
-  }
+  let candidates = catalog.filter((p: any) => {
+    const cat = p.category === "smartphones" ? "smartphones" : p.category;
+    if ((resolvedCategory as string) !== "all" && cat !== resolvedCategory) return false;
+    const price = p.basePrice || p.price || 0;
+    return price >= minPrice && price <= maxPrice;
+  });
 
   if (candidates.length === 0) {
+    candidates = catalog.filter((p: any) => {
+      const cat = p.category === "smartphones" ? "smartphones" : p.category;
+      if ((resolvedCategory as string) !== "all" && cat !== resolvedCategory) return false;
+      const price = p.basePrice || p.price || 0;
+      return price <= numericBudget * 1.3 && price >= numericBudget * 0.5;
+    });
+  }
+
+  // Deduplicate base models (e.g. don't show multiple storage variants of the same phone)
+  const seenModels = new Set<string>();
+  const deduped: any[] = [];
+  for (const c of candidates) {
+    const baseKey = (c.name || "")
+      .replace(/\s*\(\d+\s*(?:gb|tb)\)/i, "")
+      .replace(/\s+\d+\s*(?:gb|tb)\b/i, "")
+      .trim()
+      .toLowerCase();
+    if (!seenModels.has(baseKey)) {
+      seenModels.add(baseKey);
+      deduped.push(c);
+    }
+  }
+
+  if (deduped.length === 0) {
     return {
       ok: false,
       message:
@@ -318,15 +436,57 @@ export function resolveBudgetRecommendation(
     };
   }
 
-  const ranked = candidates
-    .sort((a: any, b: any) => {
-      const scoreA = (a.aceleEtmeScore ?? a.epeyScore ?? 0) / Math.max(a.basePrice, 1);
-      const scoreB = (b.aceleEtmeScore ?? b.epeyScore ?? 0) / Math.max(b.basePrice, 1);
-      return scoreB - scoreA;
-    })
-    .slice(0, 5);
+  const getProductModelScore = (p: any) => {
+    if (p.aceleEtmeScore) return p.aceleEtmeScore;
+    if (p.epeyScore) return p.epeyScore;
+    const name = (p.name || "").toLowerCase();
+    let base = 80;
+    if (/(?:s26|iphone 18|iphone 17|m5|gen 5)/i.test(name)) base = 95;
+    else if (/(?:s25|iphone 16|iphone air|gen 4|k90|f8)/i.test(name)) base = 92;
+    else if (/(?:s24|iphone 15|k80|f7)/i.test(name)) base = 88;
+    else if (/(?:s23|iphone 14|fold 5|flip 5)/i.test(name)) base = 84;
+    else if (/(?:s22|iphone 13|fold 4|flip 4)/i.test(name)) base = 79;
+    else if (/(?:fold 3|flip 3|iphone 12)/i.test(name)) base = 75;
+    else if (/(?:fold 2|iphone 11)/i.test(name)) base = 70;
+    return base;
+  };
 
-  return { ok: true, data: { products: ranked, category: resolvedCategory } };
+  // Sort all candidates by model score
+  deduped.sort((a, b) => getProductModelScore(b) - getProductModelScore(a));
+
+  const normPreferredBrand = preferredBrand ? normalizeTr(preferredBrand) : "";
+  const finalPicks: any[] = [];
+  const pickedBrands = new Set<string>();
+
+  // 1. If preferred brand specified, take the best model of that brand
+  if (normPreferredBrand) {
+    const preferredPick = deduped.find((p) => normalizeTr(p.brand || "").includes(normPreferredBrand));
+    if (preferredPick) {
+      finalPicks.push(preferredPick);
+      pickedBrands.add(normalizeTr(preferredPick.brand || ""));
+    }
+  }
+
+  // 2. Add top models from distinct other brands to ensure diversity
+  for (const c of deduped) {
+    if (finalPicks.includes(c)) continue;
+    const b = normalizeTr(c.brand || "");
+    if (!pickedBrands.has(b)) {
+      finalPicks.push(c);
+      pickedBrands.add(b);
+      if (finalPicks.length >= 3) break;
+    }
+  }
+
+  // 3. If still fewer than 3, fill from remaining top candidates
+  for (const c of deduped) {
+    if (!finalPicks.includes(c)) {
+      finalPicks.push(c);
+      if (finalPicks.length >= 3) break;
+    }
+  }
+
+  return { ok: true, data: { products: finalPicks, category: resolvedCategory } };
 }
 
 // ---- Panel Types & Helpers ------------------------------------------

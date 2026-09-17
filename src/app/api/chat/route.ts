@@ -1,5 +1,6 @@
 import { checkRateLimit, validateUserMessage, flagsPromptInjection } from "@/lib/ai/safety";
 import { callGeminiStreamWithFallback } from "@/lib/ai/modelRouter";
+import { detectCategory } from "@/lib/ai/categoryMatcher";
 import {
   resolveCompareProducts,
   formatComparisonData,
@@ -9,6 +10,9 @@ import {
   resolveTechNews,
   searchProductsInCatalog,
   formatProductRecommendations,
+  resolveBudgetRecommendation,
+  extractBudgetFromText,
+  isFollowUpQuery,
   ComparisonPanelData,
   TechNewsPanelData,
 } from "@/lib/ai/resolvers";
@@ -219,7 +223,17 @@ export async function POST(req: Request) {
       console.warn(`[RoboPengu][SECURITY] Prompt injection şüphesi tespit edildi: "${trimmedPrompt.slice(0, 100)}"`);
     }
 
-    // 4. Yan Panel Tespiti (Kıyaslama veya Haberler)
+    // 4. Konuşma Hafızası (Multi-turn History)
+    const history = Array.isArray(body.history) ? body.history : [];
+    const formattedHistory = history
+      .slice(-8)
+      .filter((h: any) => h && typeof h.content === "string" && h.content.trim() && !h.content.startsWith("⚠️"))
+      .map((h: any) => ({
+        role: h.role === "assistant" ? "model" : "user",
+        parts: [{ text: h.content.trim() }],
+      }));
+
+    // 5. Yan Panel Tespiti (Kıyaslama veya Haberler)
     let sidePanel: ComparisonPanelData | TechNewsPanelData | null = null;
     let matchedProducts: any[] = [];
     let contextualPrompt = trimmedPrompt;
@@ -236,7 +250,7 @@ export async function POST(req: Request) {
       sidePanel = resolveTechNews(trimmedPrompt);
     }
 
-    // 5. Canlı Katalog & Fiyat Temellendirme (Grounding)
+    // 6. Canlı Katalog & Fiyat Temellendirme (Grounding)
     if (sidePanel && sidePanel.type === "comparison" && sidePanel.products && sidePanel.products.length >= 2) {
       const p1 = sidePanel.products[0];
       const p2 = sidePanel.products[1];
@@ -260,32 +274,95 @@ ${matrixInfo ? `\n[ANTUTU & VERSUS DONANIM VE PERFORMANS TABLOSU]:\n${matrixInfo
 3. TEKNOLOJİ KAZANANI KURALI: Kazananı fiyata göre değil, teknolojik üstünlüğe ve donanım gücüne göre belirle! Fiyat farkı yüksekse [DEEP_ANALYSIS] sonundaki bütçe tavsiyesinde mantık çerçevesinde kullanıcıyı yönlendir.
 4. [SUMMARY_CHAT] bloğunda her iki modelin adını geçirerek net bir teknoloji kazananı açıkla. [DEEP_ANALYSIS] bloğunda ise 4 başlığın her birinde hem ${p1.name} hem de ${p2.name} modellerinin farkını model isimleriyle detaylandır.`;
     } else if (!sidePanel) {
-      // Tekil ürün veya model arama kontrolü (Örn: "redmi note 14 pro", "s24 ultra", "iphone 16")
-      const rawMatches = searchProductsInCatalog(trimmedPrompt, 3);
-      if (rawMatches.length > 0) {
-        matchedProducts = formatProductRecommendations(rawMatches);
-        const prodsSummary = matchedProducts
-          .map((p) => `- Model: ${p.productName} | En Ucuz Fiyat: ₺${p.price.toLocaleString("tr-TR")} (${p.cheapestStore})`)
-          .join("\n");
+      const isFollowUp = isFollowUpQuery(trimmedPrompt);
 
-        contextualPrompt = `Kullanıcı Sorusu: "${trimmedPrompt}"
+      // A. Bütçe tespiti (Önce mevcut mesajdan, yoksa geçmişten)
+      let budgetInfo = extractBudgetFromText(trimmedPrompt);
+      let detectedCat = detectCategory(trimmedPrompt).category;
+      let preferredBrand = "";
+
+      const lowerPrompt = trimmedPrompt.toLowerCase();
+      if (lowerPrompt.includes("samsung") || lowerPrompt.includes("galaxy")) preferredBrand = "samsung";
+      else if (lowerPrompt.includes("apple") || lowerPrompt.includes("iphone")) preferredBrand = "apple";
+      else if (lowerPrompt.includes("xiaomi") || lowerPrompt.includes("redmi") || lowerPrompt.includes("poco")) preferredBrand = "xiaomi";
+
+      // Eğer mevcut mesajda bütçe yoksa ve takip sorusu veya kısa bir soruysa geçmiş mesajları tara
+      if (!budgetInfo && (isFollowUp || trimmedPrompt.length < 50)) {
+        for (let i = history.length - 1; i >= 0; i--) {
+          const prev = history[i];
+          if (prev && typeof prev.content === "string") {
+            const b = extractBudgetFromText(prev.content);
+            if (b) {
+              budgetInfo = b;
+              if (!detectedCat) detectedCat = detectCategory(prev.content).category;
+              if (!preferredBrand) {
+                const prevLower = prev.content.toLowerCase();
+                if (prevLower.includes("samsung") || prevLower.includes("galaxy")) preferredBrand = "samsung";
+                else if (prevLower.includes("apple") || prevLower.includes("iphone")) preferredBrand = "apple";
+                else if (prevLower.includes("xiaomi") || prevLower.includes("redmi") || prevLower.includes("poco")) preferredBrand = "xiaomi";
+              }
+              break;
+            }
+          }
+        }
+      }
+
+      if (budgetInfo && budgetInfo.budget > 0) {
+        const budgetResult = resolveBudgetRecommendation(
+          budgetInfo.budget,
+          detectedCat || "smartphones",
+          preferredBrand
+        );
+
+        if (budgetResult.ok && budgetResult.data && budgetResult.data.products.length > 0) {
+          matchedProducts = formatProductRecommendations(budgetResult.data.products.slice(0, 3));
+          const prodsSummary = matchedProducts
+            .map(
+              (p, i) =>
+                `${i + 1}. Model: ${p.productName} | En Ucuz Mağaza Fiyatı: ₺${p.price.toLocaleString("tr-TR")} (${p.cheapestStore})`
+            )
+            .join("\n");
+
+          contextualPrompt = `Kullanıcı Sorusu: "${trimmedPrompt}"
+
+[ACELEETME CANLI KATALOG & BÜTÇEYE GÖRE ÖNERİLEN 3 MODEL (Bütçe: ₺${budgetInfo.budget.toLocaleString("tr-TR")})]:
+${prodsSummary}
+
+ÖNEMLİ VE KESİN TALİMATLAR:
+1. Kullanıcının ₺${budgetInfo.budget.toLocaleString("tr-TR")} bütçesi için canlı kataloğumuzdan seçilen bu 3 modeli MUTLAKA gerçek model adlarıyla ve fiyatlarıyla yanıtında tek tek değerlendir.
+2. Bu 3 modelin interaktif ürün kartlarının mesajının hemen altında görseli, en ucuz piyasa fiyatı ve mağaza bağlantısıyla yer aldığını kullanıcıya belirt (Örn: "Aşağıda senin için hazırladığım ürün kartlarından mağaza fiyatlarını ve detayları hemen inceleyebilirsin").
+3. Kullanıcı "göremiyorum modelleri", "hangileri", "modeller nerede" veya benzeri bir takip sorusu sorduysa: Çok nazik, samimi ve empati dolu bir dille ("Hemen aşağıya kartları yerleştirdim dostum, gözünden kaçmış olabilir") diyerek modelleri ve sundukları avantajları tekrar netleştir.
+4. Kullanıcının belirttiği mevcut bir cihaz varsa (örneğin Galaxy A16), bu yeni cihazların ona sağlayacağı somut teknolojik sıçramayı (AMOLED 120Hz ekran akıcılığı, işlemci hızı, kamera sensör kalitesi) empati dolu ve bilgece açıkla.`;
+        }
+      } else {
+        // B. Tekil ürün veya model arama kontrolü
+        let rawMatches = searchProductsInCatalog(trimmedPrompt, 3);
+        if (rawMatches.length === 0 && (isFollowUp || trimmedPrompt.length < 35)) {
+          // Geçmişteki son kullanıcı mesajında ürün ara
+          for (let i = history.length - 1; i >= 0; i--) {
+            const prev = history[i];
+            if (prev && prev.role === "user" && typeof prev.content === "string") {
+              rawMatches = searchProductsInCatalog(prev.content, 3);
+              if (rawMatches.length > 0) break;
+            }
+          }
+        }
+
+        if (rawMatches.length > 0) {
+          matchedProducts = formatProductRecommendations(rawMatches);
+          const prodsSummary = matchedProducts
+            .map((p) => `- Model: ${p.productName} | En Ucuz Fiyat: ₺${p.price.toLocaleString("tr-TR")} (${p.cheapestStore})`)
+            .join("\n");
+
+          contextualPrompt = `Kullanıcı Sorusu: "${trimmedPrompt}"
 
 [ACELEETME CANLI KATALOG ÜRÜN & FİYAT VERİLERİ]:
 ${prodsSummary}
 
-Talimat: Kullanıcının sorduğu cihaz hakkında aceleetme kataloğumuzdaki bu canlı mağaza fiyatlarını ve donanım özelliklerini dikkate alarak samimi, bilgili ve net bir değerlendirme yap.`;
+Talimat: Kullanıcının sorduğu cihaz(lar) hakkında aceleetme kataloğumuzdaki bu canlı mağaza fiyatlarını ve donanım özelliklerini dikkate alarak samimi, bilgili ve net bir değerlendirme yap. Ürün kartlarının altta listelendiğini belirt.`;
+        }
       }
     }
-
-    // 6. Konuşma Hafızası (Multi-turn History)
-    const history = Array.isArray(body.history) ? body.history : [];
-    const formattedHistory = history
-      .slice(-6)
-      .filter((h: any) => h && typeof h.content === "string" && h.content.trim() && !h.content.startsWith("⚠️"))
-      .map((h: any) => ({
-        role: h.role === "assistant" ? "model" : "user",
-        parts: [{ text: h.content.trim() }],
-      }));
 
     // 7. Model Yönlendirici ile Akış Başlatma (gemini-3.6-flash ve hızlı fallback zinciri)
     let geminiStreamResult: any = null;
