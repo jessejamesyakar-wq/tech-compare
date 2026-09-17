@@ -11,14 +11,15 @@ export interface ProductImageProps {
   variant: ProductImageVariant;
   priority?: boolean;
   className?: string;
+  productId?: string;
+  productName?: string;
+  category?: string;
+  brand?: string;
 }
 
 /**
  * TEK BOYUT KAYNAĞI
  * Kart ve detay görünümleri için sabit en-boy oranları burada tanımlı.
- * Bu değerleri kendi tasarımına göre ayarlayabilirsin, ama mutlaka TEK
- * yerden yönetilmeli. Farklı bileşenlerde farklı oran/boyut mantığı
- * kullanmak, "biri küçük biri büyük render oluyor" sorununun asıl kaynağıydı.
  */
 const VARIANT_CONFIG: Record<
   ProductImageVariant,
@@ -37,9 +38,10 @@ const VARIANT_CONFIG: Record<
 };
 
 // Ürün görseli hiç yüklenemezse veya URL bozuksa gösterilecek yedek görsel.
-// Bu, "alakasız/yanlış renkler" sorununun bir kısmının kaynağı olabilir:
-// bozuk bir <img> kutusu boş kalınca arka plan rengi/gradient sızabiliyordu.
 const FALLBACK_IMAGE = "/images/product-placeholder.png";
+
+// Tarayıcı hafızasında kırık URL'leri önbelleğe alıp tekrar eden istekleri engeller
+const reportedBrokenUrls = new Set<string>();
 
 export default function ProductImage({
   src,
@@ -47,6 +49,10 @@ export default function ProductImage({
   variant,
   priority = false,
   className = "",
+  productId,
+  productName,
+  category,
+  brand,
 }: ProductImageProps) {
   const [imgSrc, setImgSrc] = useState(src || FALLBACK_IMAGE);
   const config = VARIANT_CONFIG[variant];
@@ -54,6 +60,46 @@ export default function ProductImage({
   useEffect(() => {
     setImgSrc(src || FALLBACK_IMAGE);
   }, [src]);
+
+  const handleImageError = () => {
+    // 1. Kullanıcı deneyimini bozmadan anında yedek görseli göster
+    setImgSrc(FALLBACK_IMAGE);
+
+    const failedSrc = src;
+    if (!failedSrc || failedSrc === FALLBACK_IMAGE || reportedBrokenUrls.has(failedSrc)) {
+      return;
+    }
+    reportedBrokenUrls.add(failedSrc);
+
+    // 2. RoboPengu Site Watchdog Sentinel: Arka planda sessizce tamir ve anomali bildirimi
+    try {
+      fetch("/api/watchdog/broken-image", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          productId,
+          productName: productName || alt,
+          category,
+          brand,
+          failedSrc,
+        }),
+      })
+        .then(async (res) => {
+          if (res.ok) {
+            const data = await res.json();
+            // Eğer Icecat/Pipeline başarıyla yeni görsel indirdiyse anında hot-swap yap
+            if (data?.success && data?.repairedImage && data.repairedImage !== FALLBACK_IMAGE) {
+              setImgSrc(data.repairedImage);
+            }
+          }
+        })
+        .catch(() => {
+          // Arka plan izleyicisinde ağ hatalarını sessizce yut
+        });
+    } catch {
+      // Hata yok say
+    }
+  };
 
   return (
     <div
@@ -67,12 +113,10 @@ export default function ProductImage({
         priority={priority}
         sizes={config.sizes}
         style={{ objectFit: config.objectFit }}
-        onError={() => setImgSrc(FALLBACK_IMAGE)}
+        onError={handleImageError}
       />
     </div>
   );
 }
 
 export { ProductImage };
-
-

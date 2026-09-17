@@ -1,5 +1,14 @@
 [
   {
+    "messageId": "watchdog-img-1789657725604",
+    "userPrompt": "Kirik Gorsel: Apple iPhone 15 Pro Max 256GB",
+    "assistantResponse": "Yedek gorsel devreye sokuldu.",
+    "rating": "negative",
+    "reasonCategory": "wrong_products",
+    "userComment": "Watchdog Sentinel: https://images.fake-broken-site.com/broken-iphone-image-404.jpg yuklenemedi. Otomatik onarim: tamamlandi",
+    "timestamp": "2026-09-17T15:08:45.604Z"
+  },
+  {
     "messageId": "test-telegram-live-1789655091342",
     "userPrompt": "50.000 TL bütçeye en iyi laptop hangisi?",
     "assistantResponse": "Sana şu modelleri öneriyorum...",

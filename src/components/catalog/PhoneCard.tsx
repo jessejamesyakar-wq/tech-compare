@@ -160,6 +160,10 @@ export function PhoneCard({ phone, index = 0 }: PhoneCardProps) {
               src={imgSrc}
               alt={phone.name}
               variant="card"
+              productId={phone.id}
+              productName={phone.name}
+              category="smartphones"
+              brand={phone.brand}
               className="group-hover:scale-105 drop-shadow-sm transition-all duration-300"
             />
 

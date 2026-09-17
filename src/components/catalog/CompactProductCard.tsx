@@ -205,6 +205,10 @@ export function CompactProductCard({
           src={imgSrc}
           alt={product.name}
           variant="card"
+          productId={product.id}
+          productName={product.name}
+          category={product.category}
+          brand={product.brand}
           className="group-hover:scale-105 drop-shadow-sm transition-all duration-300"
         />
       </Link>
