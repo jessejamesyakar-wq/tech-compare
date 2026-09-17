@@ -5,6 +5,7 @@ import {
   resolveCompareProducts,
   formatComparisonData,
   tryExtractComparisonFromMessage,
+  detectSetupOrPackageQuery,
   createDynamicComparisonPanel,
   isNewsQuery,
   resolveTechNews,
@@ -240,16 +241,21 @@ export async function POST(req: Request) {
     let matchedProducts: any[] = [];
     let contextualPrompt = trimmedPrompt;
 
-    const compParts = tryExtractComparisonFromMessage(trimmedPrompt);
-    if (compParts && compParts.length >= 2) {
-      const compResult = resolveCompareProducts(compParts);
-      if (compResult.ok && compResult.data) {
-        sidePanel = formatComparisonData(compResult.data);
-      } else {
-        sidePanel = createDynamicComparisonPanel(compParts);
+    const setupPanel = detectSetupOrPackageQuery(trimmedPrompt);
+    if (setupPanel) {
+      sidePanel = setupPanel;
+    } else {
+      const compParts = tryExtractComparisonFromMessage(trimmedPrompt);
+      if (compParts && compParts.length >= 2) {
+        const compResult = resolveCompareProducts(compParts);
+        if (compResult.ok && compResult.data) {
+          sidePanel = formatComparisonData(compResult.data);
+        } else {
+          sidePanel = createDynamicComparisonPanel(compParts);
+        }
+      } else if (isNewsQuery(trimmedPrompt)) {
+        sidePanel = resolveTechNews(trimmedPrompt);
       }
-    } else if (isNewsQuery(trimmedPrompt)) {
-      sidePanel = resolveTechNews(trimmedPrompt);
     }
 
     // 6. Canlı Katalog & Fiyat Temellendirme (Grounding)
@@ -263,6 +269,8 @@ export async function POST(req: Request) {
         ? sidePanel.matrix.map((m) => `  * ${m.label}: ${p1.name} [${m.values[0]}] vs ${p2.name} [${m.values[1]}]`).join("\n")
         : "";
 
+      const isSalonSetup = sidePanel.scenario?.includes("PlayStation Salon") || sidePanel.scenario?.includes("Gaming Ekipman");
+
       contextualPrompt = `Kullanıcı Sorusu: "${trimmedPrompt}"
 
 [ACELEETME CANLI KATALOG & MAĞAZA FİYAT VERİLERİ]:
@@ -272,7 +280,7 @@ ${matrixInfo ? `\n[ANTUTU & VERSUS DONANIM VE PERFORMANS TABLOSU]:\n${matrixInfo
 
 ÖNEMLİ VE KESİN TALİMATLAR:
 1. ASLA "1. ürün", "2. ürün", "birinci model", "ikinci model" deme! Her zaman doğrudan "${p1.name}" ve "${p2.name}" model adlarını kullanarak konuş.
-2. Bu iki cihazı Versus.com, AnTuTu Benchmark, Geekbench 6, RTINGS, Notebookcheck seviyesinde derinlemesine teknik bilgi dağarcığınla kıyasla. Kategorisine göre panel tipi, tepe nits parlaklığı, işlemci/grafik mimarisi, NPU TOPS / TGP watt / TFLOPs gücü, sensör boyutu veya akustik sürücü boyutlarını somut verilerle masaya yatır.
+${isSalonSetup ? `2. TİCARİ OYUN SALONU KONSEPTİ: Kullanıcı bir PlayStation / Oyun Salonu işletmecisi veya yeni bir salon kuruyor. KESİNLİKLE telefon, airfryer veya alakasız cihazlardan bahsetme! Sağ panelde onlar için hazırladığımız "${p1.name}" ve "${p2.name}" altın standart donanım paketini detaylandır. 10 adet veya toplu alımlarda salon kârlılığı, PSSR yapay zeka 4K 120 FPS akıcılığı, 0.1ms OLED tepki süresi ve müşteri memnuniyeti vizyonunu bilge bir teknoloji danışmanı olarak sun.` : `2. Bu iki cihazı Versus.com, AnTuTu Benchmark, Geekbench 6, RTINGS, Notebookcheck seviyesinde derinlemesine teknik bilgi dağarcığınla kıyasla. Kategorisine göre panel tipi, tepe nits parlaklığı, işlemci/grafik mimarisi, NPU TOPS / TGP watt / TFLOPs gücü, emiş gücü Pa veya sensör boyutlarını somut verilerle masaya yatır.`}
 3. TEKNOLOJİ KAZANANI KURALI: Kazananı fiyata göre değil, teknolojik üstünlüğe ve donanım gücüne göre belirle! Fiyat farkı yüksekse [DEEP_ANALYSIS] sonundaki bütçe tavsiyesinde mantık çerçevesinde kullanıcıyı yönlendir.
 4. [SUMMARY_CHAT] bloğunda her iki modelin adını geçirerek net bir teknoloji kazananı açıkla. [DEEP_ANALYSIS] bloğunda ise 4 başlığın her birinde hem ${p1.name} hem de ${p2.name} modellerinin farkını model isimleriyle detaylandır.`;
     } else if (!sidePanel) {

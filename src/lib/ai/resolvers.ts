@@ -187,6 +187,22 @@ export function findProductByNameOrId(products: any[], nameOrId: string) {
   const directId = products.find((p) => p.id === nameOrId || p.slug === nameOrId);
   if (directId) return directId;
 
+  // Direct brand synonyms to flagship products
+  const brandFlagships: Record<string, string> = {
+    dream: "dreame-bot-l20-ultra",
+    dreame: "dreame-bot-l20-ultra",
+    roborock: "roborock-saros-20-sonic",
+    playstation: "console-960253", // PS5 Pro
+    ps5: "console-960253",
+    xbox: "console-447547", // Xbox Series X
+    dyson: "dyson-v15-detect",
+  };
+
+  if (brandFlagships[normalized]) {
+    const flagship = products.find((p) => p.id === brandFlagships[normalized]);
+    if (flagship) return flagship;
+  }
+
   const directExactName = products.find((p) => normalizeTr(p.name) === normalized);
   if (directExactName) return directExactName;
 
@@ -207,8 +223,16 @@ export function findProductByNameOrId(products: any[], nameOrId: string) {
         return true;
       });
 
-      if (exactRanked.length > 0) return exactRanked[0];
-      return candidates[0];
+      const listToSort = exactRanked.length > 0 ? exactRanked : candidates;
+      const sorted = [...listToSort].sort((a, b) => {
+        const scoreA = a.aceleEtmeScore ?? a.epeyScore ?? 80;
+        const scoreB = b.aceleEtmeScore ?? b.epeyScore ?? 80;
+        const priceA = a.basePrice || a.price || 0;
+        const priceB = b.basePrice || b.price || 0;
+        return (scoreB * 1000 + priceB) - (scoreA * 1000 + priceA);
+      });
+
+      return sorted[0];
     }
   }
 
@@ -231,8 +255,16 @@ export function findProductByNameOrId(products: any[], nameOrId: string) {
         return true;
       });
 
-      if (exactRanked.length > 0) return exactRanked[0];
-      return alphaMatches[0];
+      const listToSort = exactRanked.length > 0 ? exactRanked : alphaMatches;
+      const sorted = [...listToSort].sort((a, b) => {
+        const scoreA = a.aceleEtmeScore ?? a.epeyScore ?? 80;
+        const scoreB = b.aceleEtmeScore ?? b.epeyScore ?? 80;
+        const priceA = a.basePrice || a.price || 0;
+        const priceB = b.basePrice || b.price || 0;
+        return (scoreB * 1000 + priceB) - (scoreA * 1000 + priceA);
+      });
+
+      return sorted[0];
     }
   }
 
@@ -635,7 +667,7 @@ export function formatComparisonData(
 export function tryExtractComparisonFromMessage(message: string): string[] | null {
   if (!message || typeof message !== "string") return null;
 
-  // 1. İki bilinen amiral gemisi veya popüler model adı yan yana yazılmışsa (örn: "iphone 16 pro s24 ultra")
+  // 1. İki bilinen amiral gemisi veya popüler model adı yan yana yazılmışsa (örn: "iphone 16 pro s24 ultra", "roborock saros dreame l20")
   const knownKeywords = [
     { key: "iphone 18 pro max", label: "iPhone 18 Pro Max" },
     { key: "iphone 18 pro", label: "iPhone 18 Pro" },
@@ -653,7 +685,44 @@ export function tryExtractComparisonFromMessage(message: string): string[] | nul
     { key: "s24", label: "Galaxy S24" },
     { key: "xiaomi 15 ultra", label: "Xiaomi 15 Ultra" },
     { key: "xiaomi 14 ultra", label: "Xiaomi 14 Ultra" },
+    { key: "roborock saros 20 sonic", label: "Roborock Saros 20 Sonic" },
+    { key: "roborock saros 20", label: "Roborock Saros 20" },
+    { key: "roborock qrevo", label: "Roborock Qrevo Curv" },
+    { key: "roborock", label: "Roborock Saros 20 Sonic" },
+    { key: "dreame bot l20 ultra", label: "Dreame Bot L20 Ultra" },
+    { key: "dreame l20 ultra", label: "Dreame Bot L20 Ultra" },
+    { key: "dreame l20", label: "Dreame Bot L20 Ultra" },
+    { key: "dreame bot l10s", label: "Dreame Bot L10S Ultra" },
+    { key: "dreame", label: "Dreame Bot L20 Ultra" },
+    { key: "dream", label: "Dreame Bot L20 Ultra" },
+    { key: "dyson v15", label: "Dyson V15 Detect" },
+    { key: "dyson gen5", label: "Dyson Gen5detect" },
+    { key: "dyson", label: "Dyson V15 Detect" },
+    { key: "playstation 5 pro", label: "PlayStation 5 Pro" },
+    { key: "playstation 5 slim", label: "PlayStation 5 Slim" },
+    { key: "playstation 5", label: "PlayStation 5 Pro" },
+    { key: "ps5 pro", label: "PlayStation 5 Pro" },
+    { key: "ps5 slim", label: "PlayStation 5 Slim" },
+    { key: "ps5", label: "PlayStation 5 Pro" },
+    { key: "xbox series x", label: "Xbox Series X" },
+    { key: "xbox series s", label: "Xbox Series S" },
   ];
+
+  // 2. Doğrudan "A mu/mı/mi/mü B (mi/mu)?" veya "A'mı B'mi" kalıbı (örn: "Roborock mu Dream'mi", "PS5 mi Xbox mı")
+  const questionParticleMatch = message.match(
+    /\b([A-Za-z0-9\-_]{2,})\s*(?:['’]?(?:mu|mı|mi|mü))\s+([A-Za-z0-9\-_]{2,})(?:['’]?(?:mu|mı|mi|mü))?/i
+  );
+  if (questionParticleMatch) {
+    let cand1 = questionParticleMatch[1].trim();
+    let cand2 = questionParticleMatch[2].trim();
+    cand1 = cand1.replace(/['’](?:mu|mı|mi|mü)$/i, "").trim();
+    cand2 = cand2.replace(/['’](?:mu|mı|mi|mü)$/i, "").trim();
+
+    const stopWords = new Set(["bu", "su", "o", "ne", "var", "yok", "kim", "sen", "ben", "bana", "bize", "icin", "için"]);
+    if (!stopWords.has(cand1.toLowerCase()) && !stopWords.has(cand2.toLowerCase())) {
+      return [cand1, cand2];
+    }
+  }
 
   const lowerMsg = message.toLowerCase();
   const foundModels: string[] = [];
@@ -666,15 +735,15 @@ export function tryExtractComparisonFromMessage(message: string): string[] | nul
     }
   }
 
-  // 2. Doğrudan "X vs Y" veya "X karşı Y" kalıbı (Mutlaka kelime sınırıyla \b, örn: "tavsiye" içindeki "vs"yi eşleştirme!)
+  // 3. Doğrudan "X vs Y" veya "X karşı Y" kalıbı (Mutlaka kelime sınırıyla \b, örn: "tavsiye" içindeki "vs"yi eşleştirme!)
   const compactVsMatch = message.match(/\b([A-Za-z0-9\-_]{2,})\s+(?:vs\.?|karşı)\s+([A-Za-z0-9\-_]{2,})\b/i);
   if (compactVsMatch) {
     return [compactVsMatch[1].trim(), compactVsMatch[2].trim()];
   }
 
-  // 3. Açık kıyaslama niyeti kontrolü (kiyasla, karsilastir, mu yoksa, hangisi daha iyi vb.)
+  // 4. Açık kıyaslama niyeti kontrolü (kiyasla, karsilastir, mu yoksa, hangisi daha iyi, mu, mı, mi vb.)
   const hasComparisonIntent =
-    /\b(vs\.?|karşı|kiyasla|kıyasla|karsilastir|karşılaştır|karsilastirmasi|karşılaştırması|kiyaslamasi|kıyaslaması|farklari|farkları|farki|farkı|hangisi\s+daha|daha\s+iyi|hangisi\s+alınır|hangisi\s+alinir|aralarındaki\s+fark|arasındaki\s+fark|mu\s+yoksa|mı\s+yoksa|mi\s+yoksa|mü\s+yoksa)\b/i.test(
+    /\b(vs\.?|karşı|kiyasla|kıyasla|karsilastir|karşılaştır|karsilastirmasi|karşılaştırması|kiyaslamasi|kıyaslaması|farklari|farkları|farki|farkı|hangisi\s+daha|daha\s+iyi|hangisi\s+alınır|hangisi\s+alinir|aralarındaki\s+fark|arasındaki\s+fark|mu\s+yoksa|mı\s+yoksa|mi\s+yoksa|mü\s+yoksa|mu|mı|mi|mü)\b/i.test(
       message
     );
 
@@ -691,7 +760,7 @@ export function tryExtractComparisonFromMessage(message: string): string[] | nul
     )
     .trim();
 
-  const splitRegex = /\s+(?:(?:mu|mı|mi|mü)\s+yoksa|yoksa|\bvs\.?\b|\bkarşı\b|ile|ve|\/)\s+/i;
+  const splitRegex = /\s+(?:(?:mu|mı|mi|mü)\s+yoksa|yoksa|\bvs\.?\b|\bkarşı\b|\b(?:mu|mı|mi|mü)\b|ile|ve|\/)\s+/i;
   if (splitRegex.test(clean)) {
     const parts = clean
       .split(splitRegex)
@@ -713,6 +782,124 @@ export function tryExtractComparisonFromMessage(message: string): string[] | nul
   }
 
   return null;
+}
+
+export function detectSetupOrPackageQuery(prompt: string): ComparisonPanelData | null {
+  if (!prompt || typeof prompt !== "string") return null;
+  const norm = normalizeTr(prompt);
+
+  const isSalonOrSetup =
+    norm.includes("playstation salon") ||
+    norm.includes("ps salon") ||
+    norm.includes("oyun salon") ||
+    norm.includes("playstation kafe") ||
+    norm.includes("konsol salon") ||
+    norm.includes("gaming salon") ||
+    (norm.includes("playstation") && (norm.includes("salon") || norm.includes("yenile") || norm.includes("10 adet") || norm.includes("toplu"))) ||
+    (norm.includes("ps5") && (norm.includes("salon") || norm.includes("kafe") || norm.includes("yenile") || norm.includes("10 adet")));
+
+  if (!isSalonOrSetup) return null;
+
+  const catalog = getStoredProducts();
+  const ps5Pro =
+    catalog.find((p) => p.id === "console-960253") ||
+    catalog.find((p) => p.name.includes("PlayStation 5 Pro")) ||
+    catalog.find((p) => p.category === "consoles");
+
+  const gamingTv =
+    catalog.find((p) => p.id === "lg-oled65b46la") ||
+    catalog.find((p) => p.id === "lg-oled55c34la") ||
+    catalog.find((p) => p.name.includes("LG OLED") && p.name.includes("120Hz")) ||
+    catalog.find((p) => p.category === "tvs" && p.name.includes("120Hz"));
+
+  if (!ps5Pro || !gamingTv) return null;
+
+  const ps5Price = ps5Pro.basePrice || (ps5Pro as any).price || 46759;
+  const tvPrice = gamingTv.basePrice || (gamingTv as any).price || 89999;
+
+  return {
+    type: "comparison",
+    scenario: "🎮 Pro PlayStation Salon & Gaming Ekipman Paketi",
+    category: "consoles",
+    products: [
+      {
+        id: ps5Pro.id,
+        slug: ps5Pro.slug || ps5Pro.id,
+        name: ps5Pro.name,
+        brand: ps5Pro.brand || "Sony",
+        category: "consoles",
+        image: ps5Pro.image || (Array.isArray(ps5Pro.images) ? ps5Pro.images[0] : "") || getFallbackProductImage(ps5Pro.name, "Sony", "consoles"),
+        price: ps5Price,
+        cheapestStore: ps5Pro.storeOffers?.[0]?.storeName || "En Uygun Mağaza",
+      },
+      {
+        id: gamingTv.id,
+        slug: gamingTv.slug || gamingTv.id,
+        name: gamingTv.name,
+        brand: gamingTv.brand || "LG",
+        category: "tvs",
+        image: gamingTv.image || (Array.isArray(gamingTv.images) ? gamingTv.images[0] : "") || getFallbackProductImage(gamingTv.name, "LG", "tvs"),
+        price: tvPrice,
+        cheapestStore: gamingTv.storeOffers?.[0]?.storeName || "En Uygun Mağaza",
+      },
+    ],
+    matrix: [
+      {
+        label: "İşlemci & Grafik Gücü (Hesaplama)",
+        group: "processor",
+        values: ["16.7 TFLOPs RDNA Grafiği & PSSR AI Yükseltme", "Ultra Hızlı α8 AI 4K Görüntü İşlemcisi"],
+        isDifferent: true,
+        highlightIdx: 0,
+        superiorIdx: 0,
+      },
+      {
+        label: "Ekran Yenileme & Gecikme Hızı",
+        group: "screen",
+        values: ["4K 120Hz & 8K VRR Akıcı Çıkış", "120Hz Native OLED evo Panel & 0.1ms GtG Tepki"],
+        isDifferent: true,
+        highlightIdx: 1,
+        superiorIdx: 1,
+      },
+      {
+        label: "Depolama & Oyun Kapasitesi",
+        group: "processor",
+        values: ["2 TB Yüksek Hızlı NVMe SSD (5.5 GB/s)", "webOS Akıllı Arayüz & Hızlı Uygulama Alanı"],
+        isDifferent: true,
+        highlightIdx: 0,
+        superiorIdx: 0,
+      },
+      {
+        label: "Giriş Portları & Eşzamanlılık",
+        group: "build",
+        values: ["HDMI 2.1 Ultra High Speed Çıkış", "4x HDMI 2.1 (ALLM, eARC, VRR, G-Sync)"],
+        isDifferent: true,
+        highlightIdx: 1,
+        superiorIdx: 1,
+      },
+      {
+        label: "Salon Dayanıklılığı & Soğutma",
+        group: "build",
+        values: ["Optimize Sıvı Metal & Sessiz Fan Mimarisi", "OLED evo Piksel Koruyucu & Düşük Mavi Işık"],
+        isDifferent: false,
+      },
+      {
+        label: "Ticari Salon & Müşteri Deneyimi",
+        group: "battery",
+        values: ["Maksimum Müşteri Sadakati & Kesintisiz 60-120 FPS", "Yansıma Önleyici Kaplama & 178° Geniş Görüş Açısı"],
+        isDifferent: false,
+      },
+    ],
+    winner: {
+      productId: ps5Pro.id,
+      productName: ps5Pro.name,
+      scenario: "Ticari Salon Standartı",
+      reasons: [
+        "PSSR AI yükseltme ile GTA 6 ve EA Sports FC oyunlarında müşterilere gerçek 4K 60-120 FPS akıcılık",
+        "2 TB dev dahili NVMe depolama ile 20+ AAA oyunu silmeden aynı anda hazır tutma",
+        "LG OLED 120Hz VRR eşleşmesiyle sıfır giriş gecikmesi (0.1ms GtG) ve üst düzey müşteri deneyimi",
+      ],
+    },
+  };
 }
 
 export function createDynamicComparisonPanel(
@@ -786,6 +973,23 @@ export function createDynamicComparisonPanel(
         { label: "HDMI 2.1 & Oyun Portları", group: "build", values: ["4x HDMI 2.1 (VRR & ALLM)", "3x HDMI 2.1 (VRR & ALLM)"], isDifferent: true, highlightIdx: 0, superiorIdx: 0 },
         { label: "Enerji Verimliliği", group: "battery", values: ["F Sınıfı Eko Tasarım", "G Sınıfı Eko Tasarım"], isDifferent: false },
       ];
+    } else if (detectedCat === "appliances") {
+      matrixRows = [
+        { label: "Maksimum Emiş Gücü (Pa)", group: "processor", values: ["18.500 Pa HyperForce Emiş Gücü", "7.000 Pa Vormax Emiş Gücü"], isDifferent: true, highlightIdx: 0, superiorIdx: 0 },
+        { label: "Haritalama & AI Engel Tanıma", group: "screen", values: ["LiDAR + 3D Yapay Zeka Engel Kaçınma", "Pathfinder™ AI RGB + 3D LiDAR"], isDifferent: true, highlightIdx: 0, superiorIdx: 0 },
+        { label: "Paspas & Sıcak Su Yıkama İstasyonu", group: "build", values: ["60°C Sıcak Su & Sıcak Hava Kurutma İstasyonu", "58°C Sıcak Su & Otomatik Temizleme İstasyonu"], isDifferent: false },
+        { label: "Çalışma Süresi & Pil Kapasitesi", group: "battery", values: ["220 Dk Kesintisiz Temizlik", "260 Dk Kesintisiz Temizlik"], isDifferent: true, highlightIdx: 1, superiorIdx: 1 },
+        { label: "Toz & Temiz Su Hazne Hacmi", group: "build", values: ["400ml Toz / 4.5L Temiz Su Tankı", "350ml Toz / 4.5L Temiz Su Tankı"], isDifferent: false },
+        { label: "Çalışma Ses Seviyesi (dB)", group: "build", values: ["62 dB Sessiz Akustik Tasarım", "63 dB Sessiz Akustik Tasarım"], isDifferent: true, highlightIdx: 0, superiorIdx: 0 },
+      ];
+    } else if (detectedCat === "consoles") {
+      matrixRows = [
+        { label: "Grafik Hesaplama Gücü (TFLOPs)", group: "processor", values: ["16.7 TFLOPs RDNA Grafiği & PSSR", "10.3 TFLOPs Standart Grafik"], isDifferent: true, highlightIdx: 0, superiorIdx: 0 },
+        { label: "Hedeflenen Çözünürlük & FPS", group: "screen", values: ["4K 60-120 FPS (Ray Tracing Aktif)", "Dinamik 4K 30-60 FPS"], isDifferent: true, highlightIdx: 0, superiorIdx: 0 },
+        { label: "Dahili Yüksek Hızlı SSD", group: "processor", values: ["2 TB Ultra Hızlı NVMe (5.5 GB/s)", "1 TB Ultra Hızlı NVMe"], isDifferent: true, highlightIdx: 0, superiorIdx: 0 },
+        { label: "HDMI 2.1 & VRR Çıkışı", group: "build", values: ["HDMI 2.1 VRR & 8K Desteği", "HDMI 2.1 VRR 4K Desteği"], isDifferent: false },
+        { label: "Yapay Zeka Yükseltme Teknolojisi", group: "processor", values: ["PSSR (PlayStation Spectral Super Resolution)", "Standart Çözünürlük Ölçekleyici"], isDifferent: true, highlightIdx: 0, superiorIdx: 0 },
+      ];
     } else {
       matrixRows = [
         { label: "AnTuTu v10 Benchmark Skoru", group: "processor", values: ["~2.350.000+ Puan (Amiral)", "~2.150.000+ Puan (Amiral)"], isDifferent: true, highlightIdx: 0, superiorIdx: 0 },
@@ -797,6 +1001,31 @@ export function createDynamicComparisonPanel(
       ];
     }
   }
+
+  const defaultWinnerReasons =
+    detectedCat === "appliances"
+      ? [
+          "Maksimum emiş gücü ve halı derinlemesine temizlik performansı",
+          "Sıcak su paspas yıkama ve kurutma istasyonunun hijyen verimliliği",
+          "3D LiDAR ve yapay zeka nesne tanıma kabiliyeti",
+        ]
+      : detectedCat === "consoles"
+      ? [
+          "16.7 TFLOPs grafik hesaplama gücü ve PSSR yapay zeka yükseltme desteği",
+          "2 TB yüksek hızlı NVMe SSD depolama alanı",
+          "Kararlı 4K 60-120 FPS akıcılık ve Ray Tracing performansı",
+        ]
+      : detectedCat === "tvs"
+      ? [
+          "Panel tepe parlaklığı ve HDR kontrast derinliği",
+          "120Hz/144Hz VRR ve düşük giriş gecikmesi performansı",
+          "Görüntü işlemcisi ve akıllı TV arayüz akıcılığı",
+        ]
+      : [
+          "AnTuTu benchmark ve grafik performansında daha kararlı termal yönetim",
+          "Kamera sensör boyutu ve optik zoom kalibrasyonu",
+          "Kullanıcı memnuniyeti ve fiyat/performans değeri",
+        ];
 
   return {
     type: "comparison",
@@ -829,11 +1058,7 @@ export function createDynamicComparisonPanel(
       productId: c1 ? c1.id : "dyn-1",
       productName: finalP1Name,
       scenario: "Uzman Seçimi",
-      reasons: [
-        "AnTuTu benchmark ve grafik performansında daha kararlı termal yönetim",
-        "Kamera sensör boyutu ve optik zoom kalibrasyonu",
-        "Kullanıcı memnuniyeti ve fiyat/performans değeri",
-      ],
+      reasons: defaultWinnerReasons,
     },
   };
 }

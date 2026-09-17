@@ -33,14 +33,17 @@ const CATEGORY_KEYWORDS: Record<CatalogCategory, string[]> = {
     "honor",
     "realme",
   ],
-  tvs: ["televizyon", "smart tv", "oled tv", "qled", "tv"],
+  tvs: ["televizyon", "smart tv", "oled tv", "qled", "tv", "ekran"],
   laptops: ["dizüstü bilgisayar", "dizüstü", "notebook", "laptop", "ultrabook", "macbook", "thinkpad", "zenbook", "victus", "tuf", "rog"],
   tablets: ["tablet", "ipad", "galaxy tab", "matepad"],
   smartwatches: ["akıllı saat", "smartwatch", "kol saati", "apple watch", "galaxy watch"],
   headphones: ["kulaklık", "kulaklik", "headphone", "earbud", "kulak içi", "airpods"],
-  appliances: ["beyaz eşya", "ev aleti", "süpürge", "blender", "ütü", "fırın"],
-  monitors: ["monitör", "monitor"],
-  consoles: ["oyun konsolu", "konsol", "playstation", "xbox", "nintendo"],
+  appliances: [
+    "beyaz eşya", "ev aleti", "süpürge", "robot süpürge", "paspas", "roborock",
+    "dreame", "dyson", "blender", "ütü", "fırın", "klima", "bulaşık", "çamaşır"
+  ],
+  monitors: ["monitör", "monitor", "gaming monitör"],
+  consoles: ["oyun konsolu", "konsol", "playstation", "ps5", "ps4", "xbox", "nintendo", "salon"],
 };
 
 const ADJECTIVE_MODIFIERS = [

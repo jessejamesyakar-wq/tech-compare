@@ -848,13 +848,64 @@ export const CATEGORY_SPEC_FIELDS: Record<CatalogCategory, SpecFieldDef[]> = {
 
   appliances: [
     {
+      key: "suction",
+      label: "Emiş Gücü (Pa)",
+      group: "processor",
+      paths: [["suctionPowerPa"], ["specs", "suctionPowerPa"]],
+      format: (v) => `${num(v)} Pa Yüksek Emiş Gücü`,
+      compare: (vals) => {
+        const n0 = parseNumber(vals[0]);
+        const n1 = parseNumber(vals[1]);
+        return n0 > n1 ? 0 : n1 > n0 ? 1 : null;
+      },
+    },
+    {
+      key: "batteryRuntime",
+      label: "Çalışma Süresi & Pil Ömrü",
+      group: "battery",
+      paths: [["batteryRuntimeMin"], ["specs", "batteryRuntimeMin"]],
+      format: (v) => `${v} Dakika Kesintisiz Temizlik`,
+      compare: (vals) => {
+        const n0 = parseNumber(vals[0]);
+        const n1 = parseNumber(vals[1]);
+        return n0 > n1 ? 0 : n1 > n0 ? 1 : null;
+      },
+    },
+    {
+      key: "navigation",
+      label: "Navigasyon & Haritalama Teknolojisi",
+      group: "screen",
+      paths: [["mappingTechnology"], ["specs", "mappingTechnology"]],
+      format: (v) => String(v || "LiDAR & 3D AI Engel Tanıma"),
+    },
+    {
+      key: "station",
+      label: "Akıllı İstasyon & Bakım Özellikleri",
+      group: "build",
+      paths: [["autoCleanDock"], ["specs", "autoCleanDock"], ["autoEmptyStation"], ["specs", "autoEmptyStation"]],
+      format: (v, p) => {
+        if (p?.specs?.autoCleanDock || p?.specs?.autoEmptyStation) {
+          return "Otomatik Toz Boşaltma & Sıcak Su Mop Yıkama İstasyonu";
+        }
+        return v ? "Otomatik Temizlik İstasyonu" : "Standart Şarj Ünitesi";
+      },
+    },
+    {
+      key: "capacity",
+      label: "Toz & Su Hazne Kapasitesi",
+      group: "build",
+      paths: [["capacity"], ["specs", "capacity"]],
+      format: (v) => String(v),
+    },
+    {
       key: "power",
-      label: "Güç & Isıtma / Motor Kapasitesi",
+      label: "Güç & Motor Kapasitesi",
       group: "processor",
       paths: [["btuCapacity"], ["powerWatts"], ["specs", "btuCapacity"], ["specs", "powerWatts"]],
       format: (v, p) => {
         if (p?.specs?.btuCapacity) return `${num(p.specs.btuCapacity)} BTU Kapasite`;
-        return `${num(v)} W Motor Gücü`;
+        if (v) return `${num(v)} W Motor Gücü`;
+        return "Belirtilmemiş";
       },
       compare: (vals) => {
         const n0 = parseNumber(vals[0]);
@@ -867,7 +918,7 @@ export const CATEGORY_SPEC_FIELDS: Record<CatalogCategory, SpecFieldDef[]> = {
       label: "Enerji Verimlilik Seviyesi",
       group: "battery",
       paths: [["energyClassCooling"], ["energyClass"], ["specs", "energyClassCooling"]],
-      format: (v) => `${String(v).toUpperCase()} Enerji Sınıfı`,
+      format: (v) => (v ? `${String(v).toUpperCase()} Enerji Sınıfı` : "Belirtilmemiş"),
       compare: (vals) => {
         const rank = (s: string) => {
           const u = String(s).toUpperCase();
@@ -888,7 +939,7 @@ export const CATEGORY_SPEC_FIELDS: Record<CatalogCategory, SpecFieldDef[]> = {
       key: "noise",
       label: "Ses & Çalışma Gürültü Seviyesi",
       group: "build",
-      paths: [["noiseDb"], ["specs", "noiseDb"]],
+      paths: [["noiseLevelDb"], ["noiseDb"], ["specs", "noiseLevelDb"], ["specs", "noiseDb"]],
       format: (v) => `${parseNumber(v)} dB (Sessiz Çalışma)`,
       compare: (vals) => {
         const n0 = parseNumber(vals[0]);
@@ -902,7 +953,7 @@ export const CATEGORY_SPEC_FIELDS: Record<CatalogCategory, SpecFieldDef[]> = {
       label: "Motor & Kompresör Teknolojisi",
       group: "processor",
       paths: [["inverter"], ["specs", "inverter"]],
-      format: (v) => (v ? "Inverter Dijital Akıllı Motor" : "Standart Motor"),
+      format: (v) => (v ? "Inverter Dijital Akıllı Motor" : "Belirtilmemiş"),
     },
     {
       key: "warranty",
