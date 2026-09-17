@@ -548,9 +548,22 @@ export function Navbar() {
               {renderDropdownResults()}
             </div>
 
-            {/* 3. Right: Compare Link & Language Selector */}
+            {/* 3. Right: AI Haberleri, Compare Link & Language Selector */}
             <div className="shrink-0 flex items-center gap-2">
               
+              {/* AI Haberleri Link */}
+              <Link
+                href="/ai-haberleri"
+                className="hidden md:flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-black bg-gradient-to-r from-blue-50 to-indigo-50 hover:from-blue-100 hover:to-indigo-100 text-blue-700 dark:bg-blue-950/50 dark:text-blue-300 border border-blue-200 dark:border-blue-800 transition-all shadow-2xs hover:scale-105 active:scale-95 whitespace-nowrap cursor-pointer"
+                title="Küresel AI Haberleri & Donanım Rehberi"
+              >
+                <Sparkles className="w-3.5 h-3.5 text-blue-600 animate-pulse" />
+                <span>AI Haberleri</span>
+                <span className="bg-blue-600 text-white text-[9px] font-black px-1.5 py-0.2 rounded-full uppercase tracking-wider">
+                  Yeni
+                </span>
+              </Link>
+
               {/* Quick Compare Indicator */}
               {compareList.length > 0 && (
                 <Link

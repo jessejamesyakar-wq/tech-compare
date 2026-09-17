@@ -13,7 +13,8 @@ import {
   Headphones,
   Gamepad2,
   PlugZap,
-  Monitor
+  Monitor,
+  Sparkles
 } from 'lucide-react';
 
 export function CategoryBar() {
@@ -60,6 +61,23 @@ export function CategoryBar() {
               </Link>
             );
           })}
+
+          {/* AI Haberleri Küresel Gündem & Donanım Köprüsü */}
+          <div className="h-4 w-[1px] bg-slate-200 dark:bg-slate-800 shrink-0 mx-0.5 hidden sm:block" />
+          <Link
+            href="/ai-haberleri"
+            className={`relative px-3 py-1.5 rounded-full flex items-center gap-1.5 text-xs sm:text-[13px] font-black whitespace-nowrap transition-all duration-200 shrink-0 cursor-pointer ${
+              pathname === '/ai-haberleri'
+                ? 'bg-blue-600 text-white shadow-xs shadow-blue-600/25'
+                : 'text-blue-600 dark:text-blue-400 bg-blue-50/70 hover:bg-blue-100/90 dark:bg-blue-950/40 dark:hover:bg-blue-900/60 border border-blue-200/80 dark:border-blue-800/80 hover:shadow-xs'
+            }`}
+          >
+            <Sparkles className="w-3.5 h-3.5 text-blue-500 animate-pulse" />
+            <span>AI Haberleri</span>
+            <span className="bg-blue-600 text-white text-[9px] font-black px-1.5 py-0.5 rounded-full uppercase tracking-wider">
+              Yeni
+            </span>
+          </Link>
         </div>
       </div>
     </div>

@@ -1,0 +1,845 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kart Tasarımı İyileştirme Prototipi - TechCompare</title>
+  <script src="https://www.gstatic.com/antigravity/web/dev/tailwindcss.min.js"></script>
+  <style>
+    .card-shadow-original {
+      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.07), 0 2px 4px -2px rgba(0, 0, 0, 0.05);
+    }
+    .card-shadow-original:hover {
+      box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1);
+      transform: translateY(-4px);
+    }
+
+    .card-shadow-studio {
+      background: linear-gradient(180deg, #FFFFFF 0%, #FFFFFF 70%, #F8FAFC 100%);
+      box-shadow: 
+        0 1px 2px rgba(0, 0, 0, 0.03),
+        0 4px 12px -2px rgba(0, 0, 0, 0.04),
+        0 12px 28px -4px rgba(0, 0, 0, 0.04);
+      transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+    .card-shadow-studio:hover {
+      transform: translateY(-5px);
+      box-shadow: 
+        0 4px 8px rgba(0, 0, 0, 0.02),
+        0 16px 36px -6px rgba(0, 0, 0, 0.09),
+        0 0 0 1px rgba(16, 185, 129, 0.25);
+    }
+
+    .card-shadow-glass {
+      background: #ffffff;
+      box-shadow: 
+        0 2px 4px rgba(0, 0, 0, 0.02),
+        0 8px 24px -4px rgba(0, 0, 0, 0.06);
+      transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+    .card-shadow-glass:hover {
+      transform: translateY(-5px);
+      box-shadow: 
+        0 12px 30px -4px rgba(16, 185, 129, 0.14),
+        0 20px 48px -10px rgba(0, 0, 0, 0.08),
+        0 0 0 1.5px rgba(16, 185, 129, 0.4);
+    }
+  </style>
+</head>
+<body class="bg-[#F8FAFC] text-slate-900 min-h-screen p-4 sm:p-8 font-sans antialiased">
+
+  <!-- Top Sticky Navigation & Control Bar -->
+  <header class="max-w-7xl mx-auto mb-8 bg-white/90 backdrop-blur-md border border-slate-200/90 rounded-3xl p-5 shadow-xs">
+    <div class="flex flex-col md:flex-row md:items-center justify-between gap-4">
+      <div>
+        <div class="inline-flex items-center gap-1.5 bg-emerald-50 text-emerald-700 text-[11px] font-black px-3 py-0.5 rounded-full border border-emerald-200 mb-1.5">
+          <span class="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse"></span>
+          <span>AR-GE PROTOTİPİ (CANLI KODLARA DOKUNULMAMIŞTIR)</span>
+        </div>
+        <h1 class="text-xl sm:text-2xl font-black text-slate-900 tracking-tight">
+          Fotoğraftaki Kartlar: Mevcut Yapı Korunarak Lüks Hissiyat
+        </h1>
+        <p class="text-xs text-slate-500 mt-0.5">
+          Yerleşim, başlık, rozet ve buton konumları <strong>%100 aynı</strong>. Yalnızca malzeme, derinlik, gölge ve tipografi rafine edildi.
+        </p>
+      </div>
+
+      <!-- Mode Selector -->
+      <div class="flex items-center gap-1.5 bg-slate-100 p-1.5 rounded-2xl border border-slate-200/80 self-start md:self-auto">
+        <button id="btn-studio" onclick="setMode('studio')" class="tab-btn px-4 py-2 rounded-xl text-xs font-bold transition-all bg-emerald-600 text-white shadow-xs">
+          ✨ 1. Apple Studio Dokunuşu (Önerilen)
+        </button>
+        <button id="btn-compare" onclick="setMode('compare')" class="tab-btn px-4 py-2 rounded-xl text-xs font-bold transition-all text-slate-600 hover:text-slate-900">
+          ⚖️ 2. Önce vs Sonra Kıyasla
+        </button>
+        <button id="btn-glass" onclick="setMode('glass')" class="tab-btn px-4 py-2 rounded-xl text-xs font-bold transition-all text-slate-600 hover:text-slate-900">
+          💎 3. İnce Zümrüt Işıltılı
+        </button>
+        <button id="btn-original" onclick="setMode('original')" class="tab-btn px-4 py-2 rounded-xl text-xs font-bold transition-all text-slate-600 hover:text-slate-900">
+          📸 4. Mevcut Hali (Fotoğraftaki)
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- MAIN CANVAS -->
+  <main class="max-w-7xl mx-auto">
+
+    <!-- ========================================================================= -->
+    <!-- VIEW 1: APPLE STUDIO DOKUNUŞU (ÖNERİLEN PREMIUM DÜZEN) -->
+    <!-- ========================================================================= -->
+    <div id="view-studio" class="space-y-6">
+      <div class="flex items-center justify-between px-1">
+        <div class="flex items-center gap-2">
+          <span class="text-xs font-black bg-emerald-600 text-white px-2.5 py-0.5 rounded-md">VİZYON 1</span>
+          <span class="text-sm font-bold text-slate-800">Apple Studio Dokunuşu (Yumuşak Ürün Beşiği, İpeksi Gölgeler, Canlı Nabız Rozeti)</span>
+        </div>
+        <span class="text-xs text-slate-400">Ürünlerin üzerine gelerek yumuşak süzülmeyi test edin</span>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
+
+        <!-- KART 1: IPHONE 17 PRO MAX -->
+        <div class="group card-shadow-studio border border-slate-200/90 hover:border-emerald-500/40 rounded-3xl p-5 transition-all duration-300 flex flex-col justify-between relative overflow-hidden">
+          
+          <div>
+            <!-- Üst Rozetler (Tamamen Aynı Konum, Daha Rafine Sınırlar) -->
+            <div class="flex items-center justify-between gap-1.5 mb-3">
+              <span class="text-[10.5px] font-bold px-2.5 py-0.5 rounded-full border flex items-center gap-1 bg-blue-50/90 text-blue-700 border-blue-200/70 shadow-2xs">
+                <span>📱</span>
+                <span>Telefon</span>
+              </span>
+              <span class="text-[10.5px] font-bold px-2.5 py-0.5 rounded-md border bg-emerald-50/90 text-emerald-700 border-emerald-200/70 shadow-2xs flex items-center gap-1">
+                <span>🔥</span>
+                <span>Trend #1</span>
+              </span>
+            </div>
+
+            <!-- Ürün Görseli (Hafif Stüdyo Zemin Beşiği - Ürünü Havada Asılı Değil Vitrinde Gösterir) -->
+            <div class="relative mb-3 flex items-center justify-center rounded-2xl bg-gradient-to-b from-slate-50/70 to-slate-100/40 p-3 h-48 border border-slate-100/80 group-hover:border-slate-200/80 transition-colors">
+              <img src="/images/phones/apple/iphone-17-promax-cosmicorange.jpg" alt="Apple iPhone 17 Pro Max" class="max-h-40 max-w-full object-contain transition-transform duration-500 ease-out group-hover:scale-[1.04] drop-shadow-sm">
+            </div>
+
+            <!-- Marka & Başlık & Özellikler (Aynı Hiyerarşi, Genişletilmiş Harf Aralığı) -->
+            <div class="space-y-0.5">
+              <span class="text-[10px] font-bold text-slate-400 uppercase tracking-[0.14em] block">
+                APPLE
+              </span>
+              <h4 class="text-xs sm:text-sm font-bold text-slate-900 group-hover:text-emerald-700 transition-colors line-clamp-2 leading-snug tracking-tight">
+                Apple iPhone 17 Pro Max (2 TB)
+              </h4>
+              <p class="text-[11px] text-slate-500 font-medium line-clamp-1 pt-0.5">
+                6.9 inç • Apple • 48 MP
+              </p>
+            </div>
+          </div>
+
+          <!-- Fiyat & Mağaza Rozeti & Butonlar -->
+          <div class="mt-3 pt-2.5 border-t border-slate-100/90 space-y-2">
+            <div class="flex items-baseline justify-between">
+              <div>
+                <span class="text-[9.5px] font-bold text-slate-400 uppercase tracking-wider block">
+                  En İyi Fiyat
+                </span>
+                <div class="text-base sm:text-[20px] font-black text-slate-900 tracking-tight tabular-nums">
+                  ₺154.317
+                </div>
+              </div>
+
+              <!-- Canlı Nabız Noktalı Mağaza Rozeti -->
+              <span class="text-emerald-700 font-bold flex items-center gap-1.5 text-[10.5px] bg-emerald-50/90 px-2.5 py-1 rounded-full border border-emerald-200/80 shadow-2xs">
+                <span class="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse"></span>
+                <span>13 Mağaza Fiyatı</span>
+              </span>
+            </div>
+
+            <!-- Butonlar (Saten Bitiş & Mikro Ok Hareketi) -->
+            <div class="flex items-center gap-2 pt-0.5">
+              <button class="flex-1 bg-slate-900 hover:bg-emerald-600 text-white text-xs font-bold py-2.5 px-3 rounded-xl flex items-center justify-center gap-1.5 transition-all duration-200 shadow-xs hover:shadow-md cursor-pointer group/btn">
+                <span>İncele</span>
+                <span class="transition-transform duration-200 group-hover/btn:translate-x-1">→</span>
+              </button>
+              <button class="p-2.5 rounded-xl border border-slate-200/90 bg-white hover:bg-slate-50 hover:border-slate-300 text-slate-700 hover:text-slate-900 transition-all shadow-2xs cursor-pointer" title="Kıyasla">
+                ⚖️
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- KART 2: DELL PRO MAX 18 PLUS -->
+        <div class="group card-shadow-studio border border-slate-200/90 hover:border-emerald-500/40 rounded-3xl p-5 transition-all duration-300 flex flex-col justify-between relative overflow-hidden">
+          
+          <div>
+            <div class="flex items-center justify-between gap-1.5 mb-3">
+              <span class="text-[10.5px] font-bold px-2.5 py-0.5 rounded-full border flex items-center gap-1 bg-slate-100/90 text-slate-800 border-slate-200/80 shadow-2xs">
+                <span>💻</span>
+                <span>Laptop</span>
+              </span>
+              <span class="text-[10.5px] font-bold px-2.5 py-0.5 rounded-md border bg-amber-50/90 text-amber-800 border-amber-200/80 shadow-2xs flex items-center gap-1">
+                <span>⭐</span>
+                <span>Editörün Seçimi</span>
+              </span>
+            </div>
+
+            <div class="relative mb-3 flex items-center justify-center rounded-2xl bg-gradient-to-b from-slate-50/70 to-slate-100/40 p-3 h-48 border border-slate-100/80 group-hover:border-slate-200/80 transition-colors">
+              <img src="/images/products/laptops/dell-pro-max-18-plus-64gbram-4tbssd-w11p-1.jpg" alt="Dell Pro Max 18 Plus" class="max-h-40 max-w-full object-contain transition-transform duration-500 ease-out group-hover:scale-[1.04] drop-shadow-sm">
+            </div>
+
+            <div class="space-y-0.5">
+              <span class="text-[10px] font-bold text-slate-400 uppercase tracking-[0.14em] block">
+                DELL
+              </span>
+              <h4 class="text-xs sm:text-sm font-bold text-slate-900 group-hover:text-emerald-700 transition-colors line-clamp-2 leading-snug tracking-tight">
+                Dell Pro Max 18 Plus (64GBRAM/4TBSSD/W11P)
+              </h4>
+              <p class="text-[11px] text-slate-500 font-medium line-clamp-1 pt-0.5">
+                Intel • 64GB RAM • NVIDIA
+              </p>
+            </div>
+          </div>
+
+          <div class="mt-3 pt-2.5 border-t border-slate-100/90 space-y-2">
+            <div class="flex items-baseline justify-between">
+              <div>
+                <span class="text-[9.5px] font-bold text-slate-400 uppercase tracking-wider block">
+                  En İyi Fiyat
+                </span>
+                <div class="text-base sm:text-[20px] font-black text-slate-900 tracking-tight tabular-nums">
+                  ₺357.249
+                </div>
+              </div>
+
+              <span class="text-emerald-700 font-bold flex items-center gap-1.5 text-[10.5px] bg-emerald-50/90 px-2.5 py-1 rounded-full border border-emerald-200/80 shadow-2xs">
+                <span class="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse"></span>
+                <span>6 Mağaza Fiyatı</span>
+              </span>
+            </div>
+
+            <div class="flex items-center gap-2 pt-0.5">
+              <button class="flex-1 bg-slate-900 hover:bg-emerald-600 text-white text-xs font-bold py-2.5 px-3 rounded-xl flex items-center justify-center gap-1.5 transition-all duration-200 shadow-xs hover:shadow-md cursor-pointer group/btn">
+                <span>İncele</span>
+                <span class="transition-transform duration-200 group-hover/btn:translate-x-1">→</span>
+              </button>
+              <button class="p-2.5 rounded-xl border border-slate-200/90 bg-white hover:bg-slate-50 hover:border-slate-300 text-slate-700 hover:text-slate-900 transition-all shadow-2xs cursor-pointer" title="Kıyasla">
+                ⚖️
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- KART 3: SAMSUNG TV -->
+        <div class="group card-shadow-studio border border-slate-200/90 hover:border-emerald-500/40 rounded-3xl p-5 transition-all duration-300 flex flex-col justify-between relative overflow-hidden">
+          
+          <div>
+            <div class="flex items-center justify-between gap-1.5 mb-3">
+              <span class="text-[10.5px] font-bold px-2.5 py-0.5 rounded-full border flex items-center gap-1 bg-purple-50/90 text-purple-700 border-purple-200/70 shadow-2xs">
+                <span>📺</span>
+                <span>TV</span>
+              </span>
+              <span class="text-[10.5px] font-bold px-2.5 py-0.5 rounded-md border bg-purple-50/90 text-purple-700 border-purple-200/70 shadow-2xs flex items-center gap-1">
+                <span>🎖️</span>
+                <span>En Yüksek Puan</span>
+              </span>
+            </div>
+
+            <div class="relative mb-3 flex items-center justify-center rounded-2xl bg-gradient-to-b from-slate-50/70 to-slate-100/40 p-3 h-48 border border-slate-100/80 group-hover:border-slate-200/80 transition-colors">
+              <img src="/images/products/tvs/icecat-samsung-98qn990f.jpg" alt="Samsung 98QN990F TV" class="max-h-36 max-w-full object-contain transition-transform duration-500 ease-out group-hover:scale-[1.04] drop-shadow-sm">
+            </div>
+
+            <div class="space-y-0.5">
+              <span class="text-[10px] font-bold text-slate-400 uppercase tracking-[0.14em] block">
+                SAMSUNG
+              </span>
+              <h4 class="text-xs sm:text-sm font-bold text-slate-900 group-hover:text-emerald-700 transition-colors line-clamp-2 leading-snug tracking-tight">
+                Samsung 98QN990F (QE98QN990FTXTK) 98'' 8K Neo...
+              </h4>
+              <p class="text-[11px] text-slate-500 font-medium line-clamp-1 pt-0.5">
+                98" • Mini LED • 144Hz
+              </p>
+            </div>
+          </div>
+
+          <div class="mt-3 pt-2.5 border-t border-slate-100/90 space-y-2">
+            <div class="flex items-baseline justify-between">
+              <div>
+                <span class="text-[9.5px] font-bold text-slate-400 uppercase tracking-wider block">
+                  En İyi Fiyat
+                </span>
+                <div class="text-base sm:text-[20px] font-black text-slate-900 tracking-tight tabular-nums">
+                  ₺580.179
+                </div>
+              </div>
+
+              <span class="text-emerald-700 font-bold flex items-center gap-1.5 text-[10.5px] bg-emerald-50/90 px-2.5 py-1 rounded-full border border-emerald-200/80 shadow-2xs">
+                <span class="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse"></span>
+                <span>6 Mağaza Fiyatı</span>
+              </span>
+            </div>
+
+            <div class="flex items-center gap-2 pt-0.5">
+              <button class="flex-1 bg-slate-900 hover:bg-emerald-600 text-white text-xs font-bold py-2.5 px-3 rounded-xl flex items-center justify-center gap-1.5 transition-all duration-200 shadow-xs hover:shadow-md cursor-pointer group/btn">
+                <span>İncele</span>
+                <span class="transition-transform duration-200 group-hover/btn:translate-x-1">→</span>
+              </button>
+              <button class="p-2.5 rounded-xl border border-slate-200/90 bg-white hover:bg-slate-50 hover:border-slate-300 text-slate-700 hover:text-slate-900 transition-all shadow-2xs cursor-pointer" title="Kıyasla">
+                ⚖️
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- KART 4: ROBOROCK -->
+        <div class="group card-shadow-studio border border-slate-200/90 hover:border-emerald-500/40 rounded-3xl p-5 transition-all duration-300 flex flex-col justify-between relative overflow-hidden">
+          
+          <div>
+            <div class="flex items-center justify-between gap-1.5 mb-3">
+              <span class="text-[10.5px] font-bold px-2.5 py-0.5 rounded-full border flex items-center gap-1 bg-amber-50/90 text-amber-700 border-amber-200/80 shadow-2xs">
+                <span>⚡</span>
+                <span>Ev Aleti</span>
+              </span>
+              <span class="text-[10.5px] font-bold px-2.5 py-0.5 rounded-md border bg-rose-50/90 text-rose-700 border-rose-200/80 shadow-2xs flex items-center gap-1">
+                <span>⚡</span>
+                <span>Fırsat Fiyat</span>
+              </span>
+            </div>
+
+            <div class="relative mb-3 flex items-center justify-center rounded-2xl bg-gradient-to-b from-slate-50/70 to-slate-100/40 p-3 h-48 border border-slate-100/80 group-hover:border-slate-200/80 transition-colors">
+              <img src="/images/appliances/roborock-845218.jpg" alt="Roborock S8 Pro Ultra" class="max-h-40 max-w-full object-contain transition-transform duration-500 ease-out group-hover:scale-[1.04] drop-shadow-sm">
+            </div>
+
+            <div class="space-y-0.5">
+              <span class="text-[10px] font-bold text-slate-400 uppercase tracking-[0.14em] block">
+                ROBOROCK
+              </span>
+              <h4 class="text-xs sm:text-sm font-bold text-slate-900 group-hover:text-emerald-700 transition-colors line-clamp-2 leading-snug tracking-tight">
+                Roborock S8 Pro Ultra Robot Süpürge & Paspas
+              </h4>
+              <p class="text-[11px] text-slate-500 font-medium line-clamp-1 pt-0.5">
+                6.000 Pa • 69W
+              </p>
+            </div>
+          </div>
+
+          <div class="mt-3 pt-2.5 border-t border-slate-100/90 space-y-2">
+            <div class="flex items-baseline justify-between">
+              <div>
+                <span class="text-[9.5px] font-bold text-slate-400 uppercase tracking-wider block">
+                  En İyi Fiyat
+                </span>
+                <div class="text-base sm:text-[20px] font-black text-slate-900 tracking-tight tabular-nums">
+                  ₺178.759
+                </div>
+              </div>
+
+              <span class="text-emerald-700 font-bold flex items-center gap-1.5 text-[10.5px] bg-emerald-50/90 px-2.5 py-1 rounded-full border border-emerald-200/80 shadow-2xs">
+                <span class="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse"></span>
+                <span>6 Mağaza Fiyatı</span>
+              </span>
+            </div>
+
+            <div class="flex items-center gap-2 pt-0.5">
+              <button class="flex-1 bg-slate-900 hover:bg-emerald-600 text-white text-xs font-bold py-2.5 px-3 rounded-xl flex items-center justify-center gap-1.5 transition-all duration-200 shadow-xs hover:shadow-md cursor-pointer group/btn">
+                <span>İncele</span>
+                <span class="transition-transform duration-200 group-hover/btn:translate-x-1">→</span>
+              </button>
+              <button class="p-2.5 rounded-xl border border-slate-200/90 bg-white hover:bg-slate-50 hover:border-slate-300 text-slate-700 hover:text-slate-900 transition-all shadow-2xs cursor-pointer" title="Kıyasla">
+                ⚖️
+              </button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+    <!-- ========================================================================= -->
+    <!-- VIEW 2: SIDE BY SIDE (ÖNCE VS SONRA DOĞRUDAN KIYASLAMA) -->
+    <!-- ========================================================================= -->
+    <div id="view-compare" class="hidden space-y-8">
+      <div class="bg-white border border-slate-200 p-4 rounded-2xl flex items-center justify-between shadow-xs">
+        <div class="flex items-center gap-2">
+          <span class="text-xs font-black bg-emerald-600 text-white px-3 py-1 rounded-full">
+            DOĞRUDAN YAN YANA
+          </span>
+          <span class="text-sm font-bold text-slate-800">Mevcut Tasarım vs Apple Studio Dokunuşu</span>
+        </div>
+        <span class="text-xs text-slate-500">Aynı yapıda fark yaratan ince detaylar</span>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
+        
+        <!-- MEVCUT HALİ -->
+        <div class="space-y-3">
+          <div class="text-xs font-black text-slate-400 uppercase tracking-wider px-2">
+            1. Fotoğraftaki Mevcut Hal
+          </div>
+
+          <div class="bg-white border border-slate-200 rounded-3xl p-5 card-shadow-original flex flex-col justify-between max-w-sm mx-auto">
+            <div>
+              <div class="flex items-center justify-between gap-1.5 mb-3">
+                <span class="text-[10px] font-black px-2.5 py-0.5 rounded-full border flex items-center gap-1 bg-blue-50 text-blue-700 border-blue-200">
+                  <span>📱</span>
+                  <span>Telefon</span>
+                </span>
+                <span class="text-[10px] font-black px-2.5 py-0.5 rounded-md border bg-emerald-50 text-emerald-700 border-emerald-200">
+                  🔥 Trend #1
+                </span>
+              </div>
+
+              <div class="block relative mb-3 flex justify-center h-48 items-center">
+                <img src="/images/phones/apple/iphone-17-promax-cosmicorange.jpg" alt="iPhone" class="max-h-40 object-contain">
+              </div>
+
+              <div class="space-y-0.5">
+                <span class="text-[10px] font-bold text-slate-400 uppercase tracking-wider block">APPLE</span>
+                <h4 class="text-xs sm:text-sm font-black text-slate-900 line-clamp-2 leading-snug">Apple iPhone 17 Pro Max (2 TB)</h4>
+                <p class="text-[10.5px] text-slate-500 font-medium line-clamp-1 pt-0.5">6.9 inç • Apple • 48 MP</p>
+              </div>
+            </div>
+
+            <div class="mt-3 pt-2.5 border-t border-slate-100/90 space-y-2">
+              <div class="flex items-baseline justify-between">
+                <div>
+                  <span class="text-[9px] font-bold text-slate-400 uppercase tracking-wider block">En İyi Fiyat</span>
+                  <div class="text-base sm:text-lg font-black text-slate-900">₺154.317</div>
+                </div>
+                <span class="text-emerald-700 font-bold flex items-center gap-1 text-[10px] bg-emerald-50 px-2 py-0.5 rounded-md border border-emerald-200">
+                  🏪 13 Mağaza Fiyatı
+                </span>
+              </div>
+
+              <div class="flex items-center gap-2 pt-0.5">
+                <button class="flex-1 bg-slate-900 text-white text-xs font-bold py-2 px-3 rounded-xl flex items-center justify-center gap-1.5">İncele →</button>
+                <button class="p-2 rounded-xl border border-slate-200 bg-white text-slate-700">⚖️</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="bg-slate-100 p-4 rounded-2xl border border-slate-200 text-xs text-slate-500 space-y-1 max-w-sm mx-auto">
+            <div class="font-bold text-slate-700">Mevcut Durum Gözlemi:</div>
+            <div>• Ürün görseli düz beyaz üzerinde boşlukta asılı gibi duruyor.</div>
+            <div>• Standart tek katmanlı gölge.</div>
+            <div>• Rozetler düz ve mat.</div>
+          </div>
+        </div>
+
+        <!-- ÖNERİLEN LÜKS DOKUNUŞ -->
+        <div class="space-y-3">
+          <div class="text-xs font-black text-emerald-600 uppercase tracking-wider px-2">
+            2. Yenilenen Apple Studio Hali
+          </div>
+
+          <div class="group card-shadow-studio border border-slate-200/90 hover:border-emerald-500/40 rounded-3xl p-5 flex flex-col justify-between max-w-sm mx-auto transition-all duration-300">
+            <div>
+              <div class="flex items-center justify-between gap-1.5 mb-3">
+                <span class="text-[10.5px] font-bold px-2.5 py-0.5 rounded-full border flex items-center gap-1 bg-blue-50/90 text-blue-700 border-blue-200/70 shadow-2xs">
+                  <span>📱</span>
+                  <span>Telefon</span>
+                </span>
+                <span class="text-[10.5px] font-bold px-2.5 py-0.5 rounded-md border bg-emerald-50/90 text-emerald-700 border-emerald-200/70 shadow-2xs flex items-center gap-1">
+                  <span>🔥</span>
+                  <span>Trend #1</span>
+                </span>
+              </div>
+
+              <!-- Stüdyo Beşiği -->
+              <div class="relative mb-3 flex items-center justify-center rounded-2xl bg-gradient-to-b from-slate-50/70 to-slate-100/40 p-3 h-48 border border-slate-100/80 group-hover:border-slate-200/80 transition-colors">
+                <img src="/images/phones/apple/iphone-17-promax-cosmicorange.jpg" alt="iPhone" class="max-h-40 object-contain transition-transform duration-500 group-hover:scale-105 drop-shadow-sm">
+              </div>
+
+              <div class="space-y-0.5">
+                <span class="text-[10px] font-bold text-slate-400 uppercase tracking-[0.14em] block">APPLE</span>
+                <h4 class="text-xs sm:text-sm font-bold text-slate-900 group-hover:text-emerald-700 transition-colors line-clamp-2 leading-snug tracking-tight">Apple iPhone 17 Pro Max (2 TB)</h4>
+                <p class="text-[11px] text-slate-500 font-medium line-clamp-1 pt-0.5">6.9 inç • Apple • 48 MP</p>
+              </div>
+            </div>
+
+            <div class="mt-3 pt-2.5 border-t border-slate-100/90 space-y-2">
+              <div class="flex items-baseline justify-between">
+                <div>
+                  <span class="text-[9.5px] font-bold text-slate-400 uppercase tracking-wider block">En İyi Fiyat</span>
+                  <div class="text-base sm:text-[20px] font-black text-slate-900 tracking-tight tabular-nums">₺154.317</div>
+                </div>
+                <span class="text-emerald-700 font-bold flex items-center gap-1.5 text-[10.5px] bg-emerald-50/90 px-2.5 py-1 rounded-full border border-emerald-200/80 shadow-2xs">
+                  <span class="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse"></span>
+                  <span>13 Mağaza Fiyatı</span>
+                </span>
+              </div>
+
+              <div class="flex items-center gap-2 pt-0.5">
+                <button class="flex-1 bg-slate-900 hover:bg-emerald-600 text-white text-xs font-bold py-2.5 px-3 rounded-xl flex items-center justify-center gap-1.5 transition-all shadow-xs hover:shadow-md cursor-pointer group/btn">
+                  <span>İncele</span>
+                  <span class="transition-transform duration-200 group-hover/btn:translate-x-1">→</span>
+                </button>
+                <button class="p-2.5 rounded-xl border border-slate-200/90 bg-white hover:bg-slate-50 hover:border-slate-300 text-slate-700 hover:text-slate-900 transition-all shadow-2xs cursor-pointer">⚖️</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="bg-emerald-50 p-4 rounded-2xl border border-emerald-200 text-xs text-emerald-800 space-y-1 max-w-sm mx-auto">
+            <div class="font-bold text-emerald-900">Kazandırılan Lüks Hissiyat:</div>
+            <div>✓ <strong>Stüdyo Ürün Beşiği:</strong> Ürün gerçek bir fiziksel vitrindeymiş gibi oturuyor.</div>
+            <div>✓ <strong>Katmanlı Difüze Gölge:</strong> Jilet gibi ince kenarlar, derin ve yumuşak gölge.</div>
+            <div>✓ <strong>Canlı Nabız Noktası:</strong> Mağaza rozetindeki yeşil sinyal kartı yaşayan bir nesne yapıyor.</div>
+            <div>✓ <strong>Rafine Tipografi:</strong> Marka adı lüks saat stili geniş harf aralığına kavuştu.</div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+    <!-- ========================================================================= -->
+    <!-- VIEW 3: MODERN TECH GLASS (İNCE ZÜMRÜT IŞILTILI) -->
+    <!-- ========================================================================= -->
+    <div id="view-glass" class="hidden space-y-6">
+      <div class="flex items-center justify-between px-1">
+        <span class="text-sm font-bold text-slate-800">VİZYON 3: Modern Tech Glass (Hover yapıldığında ortaya çıkan zümrüt ışığı)</span>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
+        <!-- Card 1 -->
+        <div class="group card-shadow-glass border border-slate-200/90 hover:border-emerald-400 rounded-3xl p-5 transition-all duration-300 flex flex-col justify-between relative">
+          <div>
+            <div class="flex items-center justify-between gap-1.5 mb-3">
+              <span class="text-[10px] font-bold px-2.5 py-0.5 rounded-full border flex items-center gap-1 bg-slate-50 text-slate-700 border-slate-200">
+                <span>📱</span><span>Telefon</span>
+              </span>
+              <span class="text-[10px] font-bold px-2.5 py-0.5 rounded-md border bg-emerald-50 text-emerald-700 border-emerald-300">
+                🔥 Trend #1
+              </span>
+            </div>
+            <div class="relative mb-3 flex items-center justify-center p-2 h-48">
+              <img src="/images/phones/apple/iphone-17-promax-cosmicorange.jpg" alt="iPhone" class="max-h-40 object-contain transition-transform duration-500 group-hover:scale-105 drop-shadow-sm">
+            </div>
+            <div class="space-y-0.5">
+              <span class="text-[10px] font-extrabold text-emerald-600 uppercase tracking-widest block">APPLE</span>
+              <h4 class="text-xs sm:text-sm font-bold text-slate-900 group-hover:text-emerald-700 transition-colors line-clamp-2 leading-snug">Apple iPhone 17 Pro Max (2 TB)</h4>
+              <p class="text-[11px] text-slate-500 font-medium line-clamp-1 pt-0.5">6.9 inç • Apple • 48 MP</p>
+            </div>
+          </div>
+          <div class="mt-3 pt-2.5 border-t border-slate-100 space-y-2">
+            <div class="flex items-baseline justify-between">
+              <div>
+                <span class="text-[9.5px] font-bold text-slate-400 uppercase tracking-wider block">En İyi Fiyat</span>
+                <div class="text-base sm:text-xl font-black text-slate-900 tracking-tight tabular-nums">₺154.317</div>
+              </div>
+              <span class="text-emerald-700 font-bold flex items-center gap-1 text-[10.5px] bg-emerald-50 px-2.5 py-1 rounded-full border border-emerald-200">
+                <span class="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse"></span>
+                <span>13 Mağaza Fiyatı</span>
+              </span>
+            </div>
+            <div class="flex items-center gap-2 pt-0.5">
+              <button class="flex-1 bg-emerald-600 hover:bg-emerald-700 text-white text-xs font-bold py-2.5 px-3 rounded-xl flex items-center justify-center gap-1.5 transition-all shadow-sm cursor-pointer">İncele →</button>
+              <button class="p-2.5 rounded-xl border border-slate-200 bg-white hover:bg-emerald-50 text-slate-700 hover:text-emerald-700 transition-all cursor-pointer">⚖️</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="group card-shadow-glass border border-slate-200/90 hover:border-emerald-400 rounded-3xl p-5 transition-all duration-300 flex flex-col justify-between relative">
+          <div>
+            <div class="flex items-center justify-between gap-1.5 mb-3">
+              <span class="text-[10px] font-bold px-2.5 py-0.5 rounded-full border flex items-center gap-1 bg-slate-50 text-slate-700 border-slate-200">
+                <span>💻</span><span>Laptop</span>
+              </span>
+              <span class="text-[10px] font-bold px-2.5 py-0.5 rounded-md border bg-amber-50 text-amber-700 border-amber-300">
+                ⭐ Editörün Seçimi
+              </span>
+            </div>
+            <div class="relative mb-3 flex items-center justify-center p-2 h-48">
+              <img src="/images/products/laptops/dell-pro-max-18-plus-64gbram-4tbssd-w11p-1.jpg" alt="Dell" class="max-h-40 object-contain transition-transform duration-500 group-hover:scale-105 drop-shadow-sm">
+            </div>
+            <div class="space-y-0.5">
+              <span class="text-[10px] font-extrabold text-emerald-600 uppercase tracking-widest block">DELL</span>
+              <h4 class="text-xs sm:text-sm font-bold text-slate-900 group-hover:text-emerald-700 transition-colors line-clamp-2 leading-snug">Dell Pro Max 18 Plus (64GBRAM/4TBSSD/W11P)</h4>
+              <p class="text-[11px] text-slate-500 font-medium line-clamp-1 pt-0.5">Intel • 64GB RAM • NVIDIA</p>
+            </div>
+          </div>
+          <div class="mt-3 pt-2.5 border-t border-slate-100 space-y-2">
+            <div class="flex items-baseline justify-between">
+              <div>
+                <span class="text-[9.5px] font-bold text-slate-400 uppercase tracking-wider block">En İyi Fiyat</span>
+                <div class="text-base sm:text-xl font-black text-slate-900 tracking-tight tabular-nums">₺357.249</div>
+              </div>
+              <span class="text-emerald-700 font-bold flex items-center gap-1 text-[10.5px] bg-emerald-50 px-2.5 py-1 rounded-full border border-emerald-200">
+                <span class="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse"></span>
+                <span>6 Mağaza Fiyatı</span>
+              </span>
+            </div>
+            <div class="flex items-center gap-2 pt-0.5">
+              <button class="flex-1 bg-emerald-600 hover:bg-emerald-700 text-white text-xs font-bold py-2.5 px-3 rounded-xl flex items-center justify-center gap-1.5 transition-all shadow-sm cursor-pointer">İncele →</button>
+              <button class="p-2.5 rounded-xl border border-slate-200 bg-white hover:bg-emerald-50 text-slate-700 hover:text-emerald-700 transition-all cursor-pointer">⚖️</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="group card-shadow-glass border border-slate-200/90 hover:border-emerald-400 rounded-3xl p-5 transition-all duration-300 flex flex-col justify-between relative">
+          <div>
+            <div class="flex items-center justify-between gap-1.5 mb-3">
+              <span class="text-[10px] font-bold px-2.5 py-0.5 rounded-full border flex items-center gap-1 bg-slate-50 text-slate-700 border-slate-200">
+                <span>📺</span><span>TV</span>
+              </span>
+              <span class="text-[10px] font-bold px-2.5 py-0.5 rounded-md border bg-purple-50 text-purple-700 border-purple-300">
+                🎖️ En Yüksek Puan
+              </span>
+            </div>
+            <div class="relative mb-3 flex items-center justify-center p-2 h-48">
+              <img src="/images/products/tvs/icecat-samsung-98qn990f.jpg" alt="Samsung TV" class="max-h-36 object-contain transition-transform duration-500 group-hover:scale-105 drop-shadow-sm">
+            </div>
+            <div class="space-y-0.5">
+              <span class="text-[10px] font-extrabold text-emerald-600 uppercase tracking-widest block">SAMSUNG</span>
+              <h4 class="text-xs sm:text-sm font-bold text-slate-900 group-hover:text-emerald-700 transition-colors line-clamp-2 leading-snug">Samsung 98QN990F (QE98QN990FTXTK) 98'' 8K...</h4>
+              <p class="text-[11px] text-slate-500 font-medium line-clamp-1 pt-0.5">98" • Mini LED • 144Hz</p>
+            </div>
+          </div>
+          <div class="mt-3 pt-2.5 border-t border-slate-100 space-y-2">
+            <div class="flex items-baseline justify-between">
+              <div>
+                <span class="text-[9.5px] font-bold text-slate-400 uppercase tracking-wider block">En İyi Fiyat</span>
+                <div class="text-base sm:text-xl font-black text-slate-900 tracking-tight tabular-nums">₺580.179</div>
+              </div>
+              <span class="text-emerald-700 font-bold flex items-center gap-1 text-[10.5px] bg-emerald-50 px-2.5 py-1 rounded-full border border-emerald-200">
+                <span class="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse"></span>
+                <span>6 Mağaza Fiyatı</span>
+              </span>
+            </div>
+            <div class="flex items-center gap-2 pt-0.5">
+              <button class="flex-1 bg-emerald-600 hover:bg-emerald-700 text-white text-xs font-bold py-2.5 px-3 rounded-xl flex items-center justify-center gap-1.5 transition-all shadow-sm cursor-pointer">İncele →</button>
+              <button class="p-2.5 rounded-xl border border-slate-200 bg-white hover:bg-emerald-50 text-slate-700 hover:text-emerald-700 transition-all cursor-pointer">⚖️</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="group card-shadow-glass border border-slate-200/90 hover:border-emerald-400 rounded-3xl p-5 transition-all duration-300 flex flex-col justify-between relative">
+          <div>
+            <div class="flex items-center justify-between gap-1.5 mb-3">
+              <span class="text-[10px] font-bold px-2.5 py-0.5 rounded-full border flex items-center gap-1 bg-slate-50 text-slate-700 border-slate-200">
+                <span>⚡</span><span>Ev Aleti</span>
+              </span>
+              <span class="text-[10px] font-bold px-2.5 py-0.5 rounded-md border bg-rose-50 text-rose-700 border-rose-300">
+                ⚡ Fırsat Fiyat
+              </span>
+            </div>
+            <div class="relative mb-3 flex items-center justify-center p-2 h-48">
+              <img src="/images/appliances/roborock-845218.jpg" alt="Roborock" class="max-h-40 object-contain transition-transform duration-500 group-hover:scale-105 drop-shadow-sm">
+            </div>
+            <div class="space-y-0.5">
+              <span class="text-[10px] font-extrabold text-emerald-600 uppercase tracking-widest block">ROBOROCK</span>
+              <h4 class="text-xs sm:text-sm font-bold text-slate-900 group-hover:text-emerald-700 transition-colors line-clamp-2 leading-snug">Roborock S8 Pro Ultra Robot Süpürge & Paspas</h4>
+              <p class="text-[11px] text-slate-500 font-medium line-clamp-1 pt-0.5">6.000 Pa • 69W</p>
+            </div>
+          </div>
+          <div class="mt-3 pt-2.5 border-t border-slate-100 space-y-2">
+            <div class="flex items-baseline justify-between">
+              <div>
+                <span class="text-[9.5px] font-bold text-slate-400 uppercase tracking-wider block">En İyi Fiyat</span>
+                <div class="text-base sm:text-xl font-black text-slate-900 tracking-tight tabular-nums">₺178.759</div>
+              </div>
+              <span class="text-emerald-700 font-bold flex items-center gap-1 text-[10.5px] bg-emerald-50 px-2.5 py-1 rounded-full border border-emerald-200">
+                <span class="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse"></span>
+                <span>6 Mağaza Fiyatı</span>
+              </span>
+            </div>
+            <div class="flex items-center gap-2 pt-0.5">
+              <button class="flex-1 bg-emerald-600 hover:bg-emerald-700 text-white text-xs font-bold py-2.5 px-3 rounded-xl flex items-center justify-center gap-1.5 transition-all shadow-sm cursor-pointer">İncele →</button>
+              <button class="p-2.5 rounded-xl border border-slate-200 bg-white hover:bg-emerald-50 text-slate-700 hover:text-emerald-700 transition-all cursor-pointer">⚖️</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+    <!-- ========================================================================= -->
+    <!-- VIEW 4: FOTOĞRAFTAKİ MEVCUT HALİ (REFERANS) -->
+    <!-- ========================================================================= -->
+    <div id="view-original" class="hidden space-y-6">
+      <div class="flex items-center justify-between px-1">
+        <span class="text-sm font-bold text-slate-500">REFERANS: Fotoğrafınızdaki Mevcut Kod Düzeni</span>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
+        <!-- Card 1 -->
+        <div class="bg-white border border-slate-200 rounded-3xl p-5 card-shadow-original flex flex-col justify-between">
+          <div>
+            <div class="flex items-center justify-between gap-1.5 mb-3">
+              <span class="text-[10px] font-black px-2.5 py-0.5 rounded-full border flex items-center gap-1 bg-blue-50 text-blue-700 border-blue-200">
+                <span>📱</span><span>Telefon</span>
+              </span>
+              <span class="text-[10px] font-black px-2.5 py-0.5 rounded-md border bg-emerald-50 text-emerald-700 border-emerald-200">
+                🔥 Trend #1
+              </span>
+            </div>
+            <div class="block relative mb-3 flex justify-center h-48 items-center">
+              <img src="/images/phones/apple/iphone-17-promax-cosmicorange.jpg" alt="iPhone" class="max-h-40 object-contain">
+            </div>
+            <div class="space-y-0.5">
+              <span class="text-[10px] font-bold text-slate-400 uppercase tracking-wider block">APPLE</span>
+              <h4 class="text-xs sm:text-sm font-black text-slate-900 line-clamp-2 leading-snug">Apple iPhone 17 Pro Max (2 TB)</h4>
+              <p class="text-[10.5px] text-slate-500 font-medium line-clamp-1 pt-0.5">6.9 inç • Apple • 48 MP</p>
+            </div>
+          </div>
+          <div class="mt-3 pt-2.5 border-t border-slate-100/90 space-y-2">
+            <div class="flex items-baseline justify-between">
+              <div>
+                <span class="text-[9px] font-bold text-slate-400 uppercase tracking-wider block">En İyi Fiyat</span>
+                <div class="text-base sm:text-lg font-black text-slate-900">₺154.317</div>
+              </div>
+              <span class="text-emerald-700 font-bold flex items-center gap-1 text-[10px] bg-emerald-50 px-2 py-0.5 rounded-md border border-emerald-200">
+                🏪 13 Mağaza Fiyatı
+              </span>
+            </div>
+            <div class="flex items-center gap-2 pt-0.5">
+              <button class="flex-1 bg-slate-900 text-white text-xs font-bold py-2 px-3 rounded-xl flex items-center justify-center gap-1.5">İncele →</button>
+              <button class="p-2 rounded-xl border border-slate-200 bg-white text-slate-700">⚖️</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="bg-white border border-slate-200 rounded-3xl p-5 card-shadow-original flex flex-col justify-between">
+          <div>
+            <div class="flex items-center justify-between gap-1.5 mb-3">
+              <span class="text-[10px] font-black px-2.5 py-0.5 rounded-full border flex items-center gap-1 bg-slate-100 text-slate-800 border-slate-200">
+                <span>💻</span><span>Laptop</span>
+              </span>
+              <span class="text-[10px] font-black px-2.5 py-0.5 rounded-md border bg-amber-50 text-amber-700 border-amber-200">
+                ⭐ Editörün Seçimi
+              </span>
+            </div>
+            <div class="block relative mb-3 flex justify-center h-48 items-center">
+              <img src="/images/products/laptops/dell-pro-max-18-plus-64gbram-4tbssd-w11p-1.jpg" alt="Dell" class="max-h-40 object-contain">
+            </div>
+            <div class="space-y-0.5">
+              <span class="text-[10px] font-bold text-slate-400 uppercase tracking-wider block">DELL</span>
+              <h4 class="text-xs sm:text-sm font-black text-slate-900 line-clamp-2 leading-snug">Dell Pro Max 18 Plus (64GBRAM/4TBSSD/W11P)</h4>
+              <p class="text-[10.5px] text-slate-500 font-medium line-clamp-1 pt-0.5">Intel • 64GB RAM • NVIDIA</p>
+            </div>
+          </div>
+          <div class="mt-3 pt-2.5 border-t border-slate-100/90 space-y-2">
+            <div class="flex items-baseline justify-between">
+              <div>
+                <span class="text-[9px] font-bold text-slate-400 uppercase tracking-wider block">En İyi Fiyat</span>
+                <div class="text-base sm:text-lg font-black text-slate-900">₺357.249</div>
+              </div>
+              <span class="text-emerald-700 font-bold flex items-center gap-1 text-[10px] bg-emerald-50 px-2 py-0.5 rounded-md border border-emerald-200">
+                🏪 6 Mağaza Fiyatı
+              </span>
+            </div>
+            <div class="flex items-center gap-2 pt-0.5">
+              <button class="flex-1 bg-slate-900 text-white text-xs font-bold py-2 px-3 rounded-xl flex items-center justify-center gap-1.5">İncele →</button>
+              <button class="p-2 rounded-xl border border-slate-200 bg-white text-slate-700">⚖️</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="bg-white border border-slate-200 rounded-3xl p-5 card-shadow-original flex flex-col justify-between">
+          <div>
+            <div class="flex items-center justify-between gap-1.5 mb-3">
+              <span class="text-[10px] font-black px-2.5 py-0.5 rounded-full border flex items-center gap-1 bg-purple-50 text-purple-700 border-purple-200">
+                <span>📺</span><span>TV</span>
+              </span>
+              <span class="text-[10px] font-black px-2.5 py-0.5 rounded-md border bg-purple-50 text-purple-700 border-purple-200">
+                🎖️ En Yüksek Puan
+              </span>
+            </div>
+            <div class="block relative mb-3 flex justify-center h-48 items-center">
+              <img src="/images/products/tvs/icecat-samsung-98qn990f.jpg" alt="Samsung TV" class="max-h-36 object-contain">
+            </div>
+            <div class="space-y-0.5">
+              <span class="text-[10px] font-bold text-slate-400 uppercase tracking-wider block">SAMSUNG</span>
+              <h4 class="text-xs sm:text-sm font-black text-slate-900 line-clamp-2 leading-snug">Samsung 98QN990F (QE98QN990FTXTK) 98'' 8K...</h4>
+              <p class="text-[10.5px] text-slate-500 font-medium line-clamp-1 pt-0.5">98" • Mini LED • 144Hz</p>
+            </div>
+          </div>
+          <div class="mt-3 pt-2.5 border-t border-slate-100/90 space-y-2">
+            <div class="flex items-baseline justify-between">
+              <div>
+                <span class="text-[9px] font-bold text-slate-400 uppercase tracking-wider block">En İyi Fiyat</span>
+                <div class="text-base sm:text-lg font-black text-slate-900">₺580.179</div>
+              </div>
+              <span class="text-emerald-700 font-bold flex items-center gap-1 text-[10px] bg-emerald-50 px-2 py-0.5 rounded-md border border-emerald-200">
+                🏪 6 Mağaza Fiyatı
+              </span>
+            </div>
+            <div class="flex items-center gap-2 pt-0.5">
+              <button class="flex-1 bg-slate-900 text-white text-xs font-bold py-2 px-3 rounded-xl flex items-center justify-center gap-1.5">İncele →</button>
+              <button class="p-2 rounded-xl border border-slate-200 bg-white text-slate-700">⚖️</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="bg-white border border-slate-200 rounded-3xl p-5 card-shadow-original flex flex-col justify-between">
+          <div>
+            <div class="flex items-center justify-between gap-1.5 mb-3">
+              <span class="text-[10px] font-black px-2.5 py-0.5 rounded-full border flex items-center gap-1 bg-amber-50 text-amber-700 border-amber-200">
+                <span>⚡</span><span>Ev Aleti</span>
+              </span>
+              <span class="text-[10px] font-black px-2.5 py-0.5 rounded-md border bg-rose-50 text-rose-700 border-rose-200">
+                ⚡ Fırsat Fiyat
+              </span>
+            </div>
+            <div class="block relative mb-3 flex justify-center h-48 items-center">
+              <img src="/images/appliances/roborock-845218.jpg" alt="Roborock" class="max-h-40 object-contain">
+            </div>
+            <div class="space-y-0.5">
+              <span class="text-[10px] font-bold text-slate-400 uppercase tracking-wider block">ROBOROCK</span>
+              <h4 class="text-xs sm:text-sm font-black text-slate-900 line-clamp-2 leading-snug">Roborock S8 Pro Ultra Robot Süpürge & Paspas</h4>
+              <p class="text-[10.5px] text-slate-500 font-medium line-clamp-1 pt-0.5">6.000 Pa • 69W</p>
+            </div>
+          </div>
+          <div class="mt-3 pt-2.5 border-t border-slate-100/90 space-y-2">
+            <div class="flex items-baseline justify-between">
+              <div>
+                <span class="text-[9px] font-bold text-slate-400 uppercase tracking-wider block">En İyi Fiyat</span>
+                <div class="text-base sm:text-lg font-black text-slate-900">₺178.759</div>
+              </div>
+              <span class="text-emerald-700 font-bold flex items-center gap-1 text-[10px] bg-emerald-50 px-2 py-0.5 rounded-md border border-emerald-200">
+                🏪 6 Mağaza Fiyatı
+              </span>
+            </div>
+            <div class="flex items-center gap-2 pt-0.5">
+              <button class="flex-1 bg-slate-900 text-white text-xs font-bold py-2 px-3 rounded-xl flex items-center justify-center gap-1.5">İncele →</button>
+              <button class="p-2 rounded-xl border border-slate-200 bg-white text-slate-700">⚖️</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </main>
+
+  <script>
+    function setMode(mode) {
+      document.querySelectorAll('.tab-btn').forEach(btn => {
+        btn.classList.remove('bg-emerald-600', 'text-white', 'shadow-xs');
+        btn.classList.add('text-slate-600');
+      });
+
+      const activeBtn = document.getElementById('btn-' + mode);
+      if (activeBtn) {
+        activeBtn.classList.add('bg-emerald-600', 'text-white', 'shadow-xs');
+        activeBtn.classList.remove('text-slate-600');
+      }
+
+      document.getElementById('view-studio').classList.add('hidden');
+      document.getElementById('view-compare').classList.add('hidden');
+      document.getElementById('view-glass').classList.add('hidden');
+      document.getElementById('view-original').classList.add('hidden');
+
+      const target = document.getElementById('view-' + mode);
+      if (target) {
+        target.classList.remove('hidden');
+      }
+    }
+  </script>
+</body>
+</html>
