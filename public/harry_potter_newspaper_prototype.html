@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Harry Potter Stili Hareketli Gazete - The Daily Tech Prophet</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700;900&family=Playfair+Display:ital,wght@0,600;0,700;0,800;0,900;1,400;1,700;1,900&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;0,6..72,700;1,6..72,400;1,6..72,600&family=UnifrakturMaguntia&display=swap" rel="stylesheet">
+  <style>
+    /* Otantik Harry Potter Gelecek Postası (Daily Prophet) Kağıt Dokusu */
+    .prophet-paper {
+      background-color: #F4EEDF;
+      background-image: 
+        radial-gradient(#e4dac6 1px, transparent 1px),
+        radial-gradient(#e4dac6 1px, #F4EEDF 1px);
+      background-size: 20px 20px;
+      background-position: 0 0, 10px 10px;
+      color: #1c1917;
+      font-family: 'Newsreader', Georgia, serif;
+    }
+    
+    /* Gelecek Postası Gotik / Viktoryen Başlık Fontu */
+    .font-prophet {
+      font-family: 'UnifrakturMaguntia', 'Cinzel Decorative', Georgia, serif;
+    }
+    .font-headline {
+      font-family: 'Playfair Display', Georgia, serif;
+    }
+    
+    /* Klasik gazete drop-cap */
+    .drop-cap::first-letter {
+      float: left;
+      font-size: 3.4rem;
+      line-height: 2.7rem;
+      padding-top: 4px;
+      padding-right: 8px;
+      font-family: 'Playfair Display', serif;
+      font-weight: 900;
+      color: #0c0a09;
+    }
+
+    /* Çift gazete çizgileri */
+    .newspaper-double-rule {
+      border-top: 3px solid #1c1917;
+      border-bottom: 1px solid #1c1917;
+      height: 6px;
+    }
+    .newspaper-thin-rule {
+      border-top: 1px solid #44403c;
+      border-bottom: 1px solid #44403c;
+      height: 4px;
+    }
+    .column-divider {
+      border-right: 1px solid #d6cebf;
+    }
+
+    /* =================================================== */
+    /* HARRY POTTER SİHİRLİ HAREKETLİ FOTOĞRAF EFEKTLERİ */
+    /* =================================================== */
+    
+    /* 1. Gazete Fotoğrafı Mürekkep & Sinemagraf Filtresi */
+    .living-photo-frame {
+      position: relative;
+      overflow: hidden;
+      border: 2px solid #292524;
+      box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.35);
+      background: #1c1917;
+    }
+    
+    /* Canlı Gazete Mürekkep Tonu: Hafif Sepia + Gazete Greni */
+    .living-photo-img {
+      filter: contrast(115%) sepia(25%) brightness(92%) grayscale(20%);
+      transform-origin: center center;
+      animation: livingBreathing 8s ease-in-out infinite alternate;
+    }
+
+    @keyframes livingBreathing {
+      0% {
+        transform: scale(1) translateY(0) rotate(0deg);
+        filter: contrast(110%) sepia(28%) brightness(90%) grayscale(25%);
+      }
+      50% {
+        transform: scale(1.06) translateY(-4px) rotate(0.4deg);
+        filter: contrast(118%) sepia(20%) brightness(96%) grayscale(15%);
+      }
+      100% {
+        transform: scale(1.03) translateY(-1px) rotate(-0.3deg);
+        filter: contrast(114%) sepia(24%) brightness(93%) grayscale(20%);
+      }
+    }
+
+    /* 2. Sihirli Işık / Devre Akımı Dalgası (Elektrik Işıması) */
+    .magic-light-sweep {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(
+        105deg,
+        transparent 20%,
+        rgba(255, 255, 255, 0.22) 35%,
+        rgba(56, 189, 248, 0.35) 45%,
+        rgba(255, 255, 255, 0.4) 50%,
+        rgba(56, 189, 248, 0.25) 55%,
+        transparent 70%
+      );
+      transform: translateX(-150%);
+      animation: sweepLight 5s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+      mix-blend-mode: overlay;
+      pointer-events: none;
+    }
+
+    @keyframes sweepLight {
+      0% {
+        transform: translateX(-150%) skewX(-15deg);
+      }
+      40% {
+        transform: translateX(180%) skewX(-15deg);
+      }
+      100% {
+        transform: translateX(180%) skewX(-15deg);
+      }
+    }
+
+    /* 3. Sihirli Matbaa Titremesi (Magical Newsprint Flicker) */
+    .newspaper-flicker {
+      animation: newsprintFlicker 6s infinite;
+    }
+
+    @keyframes newsprintFlicker {
+      0%, 100% { opacity: 0.98; }
+      22% { opacity: 0.94; }
+      24% { opacity: 1; }
+      68% { opacity: 0.95; }
+      70% { opacity: 0.99; }
+    }
+
+    /* 4. Dönen Donanım Fanı / Devre Efekti (GPU & Çip için) */
+    @keyframes spinSlow {
+      from { transform: rotate(0deg); }
+      to { transform: rotate(360deg); }
+    }
+    .animate-spin-slow {
+      animation: spinSlow 12s linear infinite;
+    }
+
+    /* 5. Nabız Gibi Atan Nöral Ağ Sinyali */
+    @keyframes neuralPulse {
+      0%, 100% { transform: scale(1); opacity: 0.4; }
+      50% { transform: scale(1.15); opacity: 0.85; }
+    }
+    .animate-neural-pulse {
+      animation: neuralPulse 3s ease-in-out infinite;
+    }
+
+    /* Sihirli Damga / Mühür */
+    .magic-wax-seal {
+      background: radial-gradient(circle, #991b1b 0%, #7f1d1d 80%, #450a0a 100%);
+      border: 2px solid #ef4444;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.35), inset 0 0 8px rgba(0, 0, 0, 0.6);
+      transform: rotate(-3deg);
+    }
+
+    /* Custom Scrollbar */
+    ::-webkit-scrollbar {
+      width: 6px;
+    }
+    ::-webkit-scrollbar-track {
+      background: #e8e1d3;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: #9c9281;
+      border-radius: 3px;
+    }
+  </style>
+</head>
+<body class="bg-stone-950 min-h-screen antialiased flex items-center justify-center p-0 sm:p-4 md:p-6 overflow-hidden">
+
+  <!-- ====================================================================== -->
+  <!-- SİHİRLİ GAZETE GÖVDESİ (Harry Potter Daily Prophet / Gelecek Postası) -->
+  <!-- ====================================================================== -->
+  <div class="prophet-paper w-full max-w-4xl h-screen sm:h-[95vh] rounded-none sm:rounded-xl shadow-2xl border-0 sm:border-2 border-stone-800 flex flex-col overflow-hidden relative newspaper-flicker">
+    
+    <!-- SİHİRLİ GAZETE BAŞLIĞI (The Daily Prophet / Günlük Gelecek Postası) -->
+    <header class="p-4 sm:p-6 pb-2 shrink-0 border-b border-stone-400">
+      
+      <!-- Gazete Üst Künyesi -->
+      <div class="flex items-center justify-between text-[11px] font-bold text-stone-700 uppercase tracking-widest pb-1.5 border-b border-stone-400">
+        <div>
+          <span>BASKI NO: 17.842 • SİHİRLİ MATBAA</span>
+        </div>
+        <div class="text-center font-black tracking-wider text-stone-900 flex items-center gap-1">
+          <span>⚡ HAREKETLİ FOTOĞRAFLI RESMİ TEKNOLOJİ BÜLTENİ ⚡</span>
+        </div>
+        <div class="flex items-center gap-1.5">
+          <span>HER SABAH 09:00</span>
+          <span>•</span>
+          <span class="font-extrabold text-stone-950">1 CADILIK KURUŞ</span>
+        </div>
+      </div>
+
+      <!-- Gazete Logosu: "The Daily Tech Prophet" -->
+      <div class="text-center py-2 relative">
+        <div class="inline-block relative">
+          <h1 class="text-4xl sm:text-6xl md:text-7xl font-black font-prophet text-stone-950 tracking-tight select-none">
+            The Daily Tech Prophet
+          </h1>
+          <div class="text-center text-[11px] sm:text-xs font-serif italic text-stone-700 tracking-widest mt-0.5">
+            "Sihirli Fotoğraflarla Geleceğin Çipleri, Donanımları ve Dünyanın En Hızlı Cihazları"
+          </div>
+        </div>
+
+        <!-- Sağ Köşede Sihirli Mühür -->
+        <div class="absolute right-0 top-1/2 -translate-y-1/2 hidden md:flex flex-col items-center">
+          <div class="magic-wax-seal text-white text-[9px] font-black uppercase px-2.5 py-1.5 rounded-full text-center leading-tight shadow-md">
+            <span>CANLI</span><br><span>BASKI</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Çift Çizgi -->
+      <div class="newspaper-double-rule my-1"></div>
+
+      <!-- Gazete Tarih & Sihirli Uyarı Çubuğu -->
+      <div class="flex items-center justify-between text-xs py-1 px-1 font-bold text-stone-800">
+        <div class="flex items-center gap-2 text-stone-900">
+          <span>18 EYLÜL 2026, CUMA</span>
+          <span>•</span>
+          <span class="italic text-stone-600 font-serif font-normal">Silikon Vadisi, Hsinchu, Londra, Tokyo</span>
+        </div>
+
+        <!-- Sihirli Fotoğraf Bilgilendirmesi -->
+        <div class="flex items-center gap-1.5 bg-stone-900/10 px-2.5 py-0.5 rounded-full border border-stone-900/20 text-[10.5px]">
+          <span class="w-2 h-2 rounded-full bg-amber-600 animate-ping"></span>
+          <span class="font-black uppercase tracking-wider text-stone-950">
+            🪄 Fotoğraflar Canlı ve Hareketlidir
+          </span>
+        </div>
+
+        <div class="hidden sm:flex items-center gap-3 text-[11px] uppercase tracking-wider font-extrabold text-stone-700">
+          <span class="underline decoration-2">Manşet</span>
+          <span>•</span>
+          <span>Donanım</span>
+          <span>•</span>
+          <span>Yapay Zekâ</span>
+          <span>•</span>
+          <span>Oyun</span>
+        </div>
+      </div>
+
+      <div class="newspaper-thin-rule mt-1"></div>
+    </header>
+
+    <!-- ====================================================================== -->
+    <!-- GAZETE İÇERİK MİZANPAJI (SİHİRLİ HAREKETLİ FOTOĞRAFLAR) -->
+    <!-- ====================================================================== -->
+    <div class="flex-1 overflow-y-auto p-4 sm:p-6 space-y-6">
+
+      <!-- 1. BÜYÜK MANŞET: HARRY POTTER TARZI SİHİRLİ HAREKETLİ FOTOĞRAF -->
+      <section class="grid grid-cols-1 lg:grid-cols-12 gap-6 pb-6 border-b-2 border-stone-800">
+        
+        <!-- Sol: Manşet Metni ve Büyük Hareketli Fotoğraf (8 Sütun) -->
+        <div class="lg:col-span-8 space-y-3.5 column-divider pr-0 lg:pr-6">
+          
+          <div class="flex items-center justify-between">
+            <span class="bg-stone-950 text-stone-100 text-[10px] font-black uppercase px-2 py-0.5 tracking-widest">
+              GÜNÜN BAŞ HABERİ • ÖZEL İSTİHBARAT
+            </span>
+            <span class="text-[11px] font-serif italic text-stone-600">
+              Tayvan 2nm Fabrikasından Canlı Yayın • 09:00
+            </span>
+          </div>
+
+          <!-- Gazete Manşet Başlığı -->
+          <h2 class="text-2xl sm:text-3xl md:text-4xl font-black font-headline text-stone-950 leading-[1.12] tracking-tight">
+            Apple ve Qualcomm'dan Tarihi 2nm Silikon Anlaşması: Geleceğin Telefonları Uyanıyor!
+          </h2>
+
+          <p class="text-sm sm:text-base font-serif italic text-stone-800 leading-snug">
+            TSMC'nin gizli temiz odasında bantlar çalışmaya başladı; hareketli silikon kalıplarından geçen elektrik sinyalleri, telefonlarda 48 saatlik batarya ömrünü müjdeliyor.
+          </p>
+
+          <!-- ======================================================== -->
+          <!-- 🪄 HARRY POTTER SİHİRLİ MANŞET FOTOĞRAFI (CANLI HAREKETLİ) -->
+          <!-- ======================================================== -->
+          <div class="space-y-1.5 pt-1">
+            <div class="living-photo-frame w-full h-64 sm:h-72 md:h-80 rounded-none relative">
+              
+              <!-- Arka Plan Hareketli Görsel (Sürekli Nefes Alan / Canlı Çip Kalıbı) -->
+              <img 
+                src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=900&auto=format&fit=crop&q=80" 
+                alt="Living Silicon Wafer" 
+                class="living-photo-img w-full h-full object-cover"
+              >
+
+              <!-- Sihirli Gelecek Postası Işık Dalgası (Işın Süpürmesi) -->
+              <div class="magic-light-sweep"></div>
+
+              <!-- Çip Devreleri Üzerinde Canlı Dönen Parıldayan Lazer / Radar Sinyalleri -->
+              <div class="absolute inset-0 flex items-center justify-center pointer-events-none">
+                <!-- Dönen Lazer Çemberi -->
+                <div class="w-48 h-48 sm:w-60 sm:h-60 rounded-full border border-cyan-400/40 border-dashed animate-spin-slow"></div>
+                <!-- Merkezdeki Nabız Gibi Parlayan Çip Işığı -->
+                <div class="absolute w-20 h-20 bg-cyan-400/20 rounded-full blur-xl animate-neural-pulse"></div>
+              </div>
+
+              <!-- Fotoğraf İçinde Canlı Gazete Mürekkep Damgası -->
+              <div class="absolute bottom-2.5 left-2.5 flex items-center gap-1.5 bg-black/60 backdrop-blur-xs px-2.5 py-1 rounded border border-white/20 text-white text-[10px] font-sans font-bold">
+                <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+                <span>Canlı Matbaa Fotoğrafı (Sürekli Hareketli)</span>
+              </div>
+
+              <!-- Sağ Altta Fotoğraf Ajans Künyesi -->
+              <div class="absolute bottom-2.5 right-2.5 bg-black/70 text-stone-300 px-2 py-0.5 text-[9px] font-mono uppercase tracking-wider">
+                TSMC FAB-20 CANLI AKIŞ
+              </div>
+            </div>
+
+            <div class="flex items-center justify-between text-[11px] text-stone-600 font-serif italic pt-0.5">
+              <span>Sihirli fotoğrafta: TSMC 2nm temiz odasında transistör akımlarının ilk canlı testi görüntüleniyor.</span>
+              <span class="font-sans text-[10px] font-bold uppercase text-stone-500">AP PHOTO / REUTERS</span>
+            </div>
+          </div>
+
+          <!-- Gazete Metni (Drop Cap) -->
+          <div class="text-xs sm:text-[13px] text-stone-800 font-serif leading-relaxed space-y-2 pt-2">
+            <p class="drop-cap text-justify">
+              Gelecek Postası'nın Tayvan Hsinchu'daki özel muhabirlerinin bildirdiğine göre, yarı iletken dünyasında yüzyılın en büyük anlaşması bu sabah imzalandı. Apple ve Qualcomm, TSMC'nin yeni nesil 2 nanometrelik Gate-All-Around (GAA) üretim kapasitesinin ilk 18 aylık dilimini tamamen kapattı. Mühendisler, yeni nesil nano-sheet mimarisinin telefonların aşırı ısınma sorununu tarihe gömeceğini ve cihazların yapay zeka işlemlerini priz aramadan günlerce yürüteceğini ifade ediyor.
+            </p>
+          </div>
+
+          <!-- Gazete İçi "ROBOPENGU SİHİRLİ TAVSİYESİ" -->
+          <div class="bg-stone-300/60 border-l-4 border-stone-900 p-3.5 my-2 space-y-1 relative overflow-hidden">
+            <div class="flex items-center justify-between">
+              <span class="text-xs font-black uppercase tracking-wider text-stone-950 font-serif">
+                📜 Gazete Başyazarının Tüketici Notu:
+              </span>
+              <span class="text-[9.5px] font-sans font-black bg-stone-900 text-stone-100 px-2 py-0.5 uppercase tracking-widest">
+                ROBOPENGU MÜHRÜ
+              </span>
+            </div>
+            <p class="text-xs text-stone-800 italic font-serif leading-relaxed">
+              "Elinizde iPhone 15/16 Pro veya Galaxy S24/S25 varsa hemen cihaz değiştirmek için büyü yapmanıza gerek yok; ancak bataryası çabuk biten ve ısınmadan şikayet eden okurlarımız için bu 2nm sıçraması gerçek bir devrim olacak."
+            </p>
+          </div>
+
+          <!-- Gazete Altı Butonu -->
+          <div class="pt-2 flex items-center justify-between border-t border-stone-300">
+            <button class="inline-flex items-center gap-2 bg-stone-950 hover:bg-stone-800 text-stone-100 text-xs font-serif font-bold px-3.5 py-2 transition cursor-pointer shadow-md active:scale-95">
+              <span>🪶 RoboPengu'ya Bu Haberi Sor (Sihirli Danışman) →</span>
+            </button>
+            <span class="text-xs font-serif italic text-stone-600">
+              Haberin Devamı Sayfa 3'te
+            </span>
+          </div>
+
+        </div>
+
+        <!-- Sağ Sütun: Gazete Yan Kolonu (Hareketli Küçük Fotoğraflar & Borsa Telgrafı) -->
+        <div class="lg:col-span-4 space-y-5">
+          
+          <!-- Gazete Borsa / Piyasa Telgrafı -->
+          <div class="border-2 border-stone-900 p-3.5 bg-stone-200/70">
+            <div class="border-b border-stone-900 pb-1 mb-2.5 flex items-center justify-between">
+              <span class="text-[10.5px] font-black uppercase tracking-widest text-stone-950 font-serif">
+                📈 GÜNLÜK PİYASA TELGRAFI
+              </span>
+              <span class="text-[10px] font-bold text-stone-600">09:00</span>
+            </div>
+            <div class="space-y-2 text-xs font-serif">
+              <div class="flex justify-between border-b border-stone-300 pb-1">
+                <span class="font-bold">iPhone 16 Pro Max</span>
+                <span class="font-sans font-black text-stone-950">₺89.999 <span class="text-emerald-800 text-[10px]">▼ ₺1.200</span></span>
+              </div>
+              <div class="flex justify-between border-b border-stone-300 pb-1">
+                <span class="font-bold">Samsung S25 Ultra</span>
+                <span class="font-sans font-black text-stone-950">₺74.499 <span class="text-emerald-800 text-[10px]">▼ ₺850</span></span>
+              </div>
+              <div class="flex justify-between border-b border-stone-300 pb-1">
+                <span class="font-bold">GeForce RTX 5080</span>
+                <span class="font-sans font-black text-stone-950">₺48.990 <span class="text-amber-800 text-[10px]">■ Sabit</span></span>
+              </div>
+              <div class="flex justify-between">
+                <span class="font-bold">PS5 Pro Konsol</span>
+                <span class="font-sans font-black text-stone-950">₺49.999 <span class="text-emerald-800 text-[10px]">▼ ₺500</span></span>
+              </div>
+            </div>
+            <div class="text-[9.5px] text-stone-600 font-sans mt-2.5 text-center uppercase tracking-wide">
+              aceleEtme Canlı Piyasa Fiyat Endeksi
+            </div>
+          </div>
+
+          <!-- YAN HABER 1: HAREKETLİ GPU FOTOĞRAFI -->
+          <article class="space-y-2 border-b border-stone-400 pb-4">
+            <div class="flex items-center justify-between">
+              <span class="text-[10px] font-black uppercase tracking-wider text-amber-950 font-serif">DONANIM DÜNYASI</span>
+              <span class="text-[9.5px] text-stone-500 italic">Tom's Hardware</span>
+            </div>
+            <h3 class="text-base font-bold font-headline text-stone-950 leading-snug">
+              NVIDIA RTX 50 Serisi GDDR7 Bellekleriyle Tanıtıldı
+            </h3>
+
+            <!-- HAREKETLİ GPU FOTOĞRAFI -->
+            <div class="living-photo-frame w-full h-32 relative">
+              <img 
+                src="https://images.unsplash.com/photo-1591488320449-011701bb6704?w=500&auto=format&fit=crop&q=80" 
+                alt="Living GPU" 
+                class="living-photo-img w-full h-full object-cover"
+              >
+              <div class="magic-light-sweep"></div>
+              
+              <!-- Ekran Kartı Üzerinde Dönen Işık Halkası -->
+              <div class="absolute inset-0 flex items-center justify-center pointer-events-none">
+                <div class="w-16 h-16 rounded-full border border-amber-400/40 animate-spin-slow"></div>
+              </div>
+
+              <div class="absolute bottom-1.5 right-1.5 bg-black/70 text-[9px] text-stone-300 font-mono px-1.5 py-0.2">
+                GDDR7 CANLI AKIŞ
+              </div>
+            </div>
+
+            <p class="text-xs font-serif text-stone-800 leading-relaxed text-justify">
+              28 Gbps hızındaki yeni nesil bellek modülleri ve DLSS 4 nöral kare üretimi 4K ışın izlemeli oyunculukta güç dengesini yeniden yazıyor.
+            </p>
+
+            <button class="text-xs font-serif font-bold underline text-stone-950 hover:text-stone-700">
+              RoboPengu'ya Bu Kartı Sor →
+            </button>
+          </article>
+
+          <!-- YAN HABER 2: HAREKETLİ OYUN KONSOLU FOTOĞRAFI -->
+          <article class="space-y-2">
+            <div class="flex items-center justify-between">
+              <span class="text-[10px] font-black uppercase tracking-wider text-indigo-950 font-serif">KONSOL &amp; OYUN</span>
+              <span class="text-[9.5px] text-stone-500 italic">IGN Tech</span>
+            </div>
+            <h3 class="text-base font-bold font-headline text-stone-950 leading-snug">
+              Sony ve AMD'den Taşınabilir PlayStation Prototipi
+            </h3>
+
+            <!-- HAREKETLİ KONSOL FOTOĞRAFI -->
+            <div class="living-photo-frame w-full h-32 relative">
+              <img 
+                src="https://images.unsplash.com/photo-1606813907291-d86efa9b94db?w=500&auto=format&fit=crop&q=80" 
+                alt="Living Console" 
+                class="living-photo-img w-full h-full object-cover"
+              >
+              <div class="magic-light-sweep"></div>
+
+              <div class="absolute bottom-1.5 right-1.5 bg-black/70 text-[9px] text-stone-300 font-mono px-1.5 py-0.2">
+                OLED CANLI EKRAN
+              </div>
+            </div>
+
+            <p class="text-xs font-serif text-stone-800 leading-relaxed text-justify">
+              Steam Deck ve ROG Ally'ın yakaladığı ivme sonrası Sony'nin yerel PS4/PS5 kütüphanesini çalıştırabilen OLED el konsolu testleri sızdırıldı.
+            </p>
+
+            <button class="text-xs font-serif font-bold underline text-stone-950 hover:text-stone-700">
+              RoboPengu'ya Konsolu Sor →
+            </button>
+          </article>
+
+        </div>
+
+      </section>
+
+      <!-- 2. ALT GAZETE KATMANI (SAYFA II: HAREKETLİ 3 SÜTUN) -->
+      <section class="space-y-3 pt-2">
+        <div class="flex items-center justify-between border-b-2 border-stone-800 pb-1">
+          <h3 class="text-xs sm:text-sm font-black font-prophet tracking-wider text-stone-950">
+            BÖLÜM II: YAPAY ZEKÂ LABORATUVARLARI, DİZÜSTÜ VE GELECEK
+          </h3>
+          <span class="text-[10px] font-serif italic text-stone-600">SAYFA A4 • HER SABAH 09:00</span>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 pt-1">
+          
+          <!-- Sütun 1: Yapay Zekâ (Hareketli Nöral Ağ) -->
+          <article class="space-y-2 column-divider pr-0 md:pr-4">
+            <span class="text-[10px] font-black uppercase tracking-widest text-blue-950 font-serif">YAPAY ZEKÂ</span>
+            <h4 class="text-sm font-bold font-headline leading-snug text-stone-950">
+              DeepMind ve Anthropic'ten Otonom Ajan Mimarileri
+            </h4>
+            
+            <div class="living-photo-frame w-full h-28 relative">
+              <img 
+                src="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=400&auto=format&fit=crop&q=80" 
+                alt="Living Neural AI" 
+                class="living-photo-img w-full h-full object-cover"
+              >
+              <div class="magic-light-sweep"></div>
+              <div class="absolute inset-0 flex items-center justify-center pointer-events-none">
+                <div class="w-12 h-12 bg-blue-500/20 rounded-full blur-md animate-neural-pulse"></div>
+              </div>
+            </div>
+
+            <p class="text-xs font-serif text-stone-800 leading-relaxed text-justify">
+              Yapay zeka modelleri artık sadece soru yanıtlamıyor; kod yazma ve veri analizlerini saatlerce hatasız sürdüren otonom iş arkadaşlarına dönüşüyor.
+            </p>
+            <div class="text-[10px] text-stone-600 italic font-serif">The Verge • 2 dk okuma</div>
+          </article>
+
+          <!-- Sütun 2: Laptop & OLED (Hareketli Ekran) -->
+          <article class="space-y-2 column-divider pr-0 md:pr-4">
+            <span class="text-[10px] font-black uppercase tracking-widest text-purple-950 font-serif">DİZÜSTÜ &amp; PC</span>
+            <h4 class="text-sm font-bold font-headline leading-snug text-stone-950">
+              Tandem OLED Paneller ve 22 Saatlik Pil Devrimi
+            </h4>
+
+            <div class="living-photo-frame w-full h-28 relative">
+              <img 
+                src="https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=400&auto=format&fit=crop&q=80" 
+                alt="Living Laptop" 
+                class="living-photo-img w-full h-full object-cover"
+              >
+              <div class="magic-light-sweep"></div>
+            </div>
+
+            <p class="text-xs font-serif text-stone-800 leading-relaxed text-justify">
+              Apple ve Dell'in çift katmanlı OLED panelleri parlaklığı iki katına çıkarırken ARM işlemcilerle şarj cihazı taşıma zorunluluğu sona eriyor.
+            </p>
+            <div class="text-[10px] text-stone-600 italic font-serif">Ars Technica • 3 dk okuma</div>
+          </article>
+
+          <!-- Sütun 3: Robotik & Ev (Hareketli Robot) -->
+          <article class="space-y-2">
+            <span class="text-[10px] font-black uppercase tracking-widest text-rose-950 font-serif">ROBOTİK &amp; YAŞAM</span>
+            <h4 class="text-sm font-bold font-headline leading-snug text-stone-950">
+              15.000 Pa Robot Süpürgeler ve İnsansı Asistanlar
+            </h4>
+
+            <div class="living-photo-frame w-full h-28 relative">
+              <img 
+                src="https://images.unsplash.com/photo-1558317374-067fb5f30001?w=400&auto=format&fit=crop&q=80" 
+                alt="Living Robotics" 
+                class="living-photo-img w-full h-full object-cover"
+              >
+              <div class="magic-light-sweep"></div>
+            </div>
+
+            <p class="text-xs font-serif text-stone-800 leading-relaxed text-justify">
+              Merdiven basamağı aşabilen robotik kollar ve sıcak su sterilizasyon istasyonları ev temizliğini tamamen otonom hale getiriyor.
+            </p>
+            <div class="text-[10px] text-stone-600 italic font-serif">WIRED • 3 dk okuma</div>
+          </article>
+
+        </div>
+      </section>
+
+    </div>
+
+    <!-- GAZETE ALTI MATBAA BİTİŞİ -->
+    <footer class="p-3 bg-[#ebe2d1] border-t-2 border-stone-800 text-center shrink-0">
+      <div class="newspaper-thin-rule mb-1.5"></div>
+      <p class="text-[11px] font-serif text-stone-700 italic">
+        The Daily Tech Prophet (Gelecek Postası) • Basım Yeri: aceleEtme Sihirli Dijital Matbaası • Her sabah 09:00'da canlı baskı çıkarılır.
+      </p>
+    </footer>
+
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gerçek Gazete Baskısı - The Daily Tech Post</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700;800;900&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;0,6..72,700;0,6..72,800;1,6..72,400;1,6..72,600&family=Playfair+Display:ital,wght@0,600;0,700;0,800;0,900;1,400;1,700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&display=swap" rel="stylesheet">
+  <style>
+    /* Gerçek gazete kağıdı dokusu */
+    .newspaper-paper {
+      background-color: #F8F5EE;
+      color: #1a1a1a;
+      font-family: 'Newsreader', 'Georgia', serif;
+    }
+    .font-masthead {
+      font-family: 'Playfair Display', 'Cinzel', serif;
+      letter-spacing: -0.03em;
+    }
+    .font-headline {
+      font-family: 'Playfair Display', 'Georgia', serif;
+    }
+    .font-body {
+      font-family: 'Source Serif 4', 'Newsreader', serif;
+    }
+    /* Klasik gazete drop-cap (büyük ilk harf) */
+    .drop-cap::first-letter {
+      float: left;
+      font-size: 3.2rem;
+      line-height: 2.6rem;
+      padding-top: 4px;
+      padding-right: 8px;
+      padding-bottom: 2px;
+      font-family: 'Playfair Display', serif;
+      font-weight: 900;
+      color: #111827;
+    }
+    /* Çift gazete çizgisi */
+    .newspaper-double-line {
+      border-top: 3px solid #1c1917;
+      border-bottom: 1px solid #1c1917;
+      height: 6px;
+    }
+    .newspaper-thin-double-line {
+      border-top: 1px solid #44403c;
+      border-bottom: 1px solid #44403c;
+      height: 4px;
+    }
+    /* İnce gazete sütun dikey ayırıcı */
+    .column-rule {
+      border-right: 1px solid #d6d3d1;
+    }
+    /* Gazete mührü / Kaşesi */
+    .newspaper-stamp {
+      border: 2px dashed #b91c1c;
+      color: #b91c1c;
+      transform: rotate(-2deg);
+    }
+    /* Custom subtle scrollbar */
+    ::-webkit-scrollbar {
+      width: 6px;
+    }
+    ::-webkit-scrollbar-track {
+      background: #efece4;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: #a8a29e;
+      border-radius: 3px;
+    }
+  </style>
+</head>
+<body class="bg-stone-900 min-h-screen antialiased flex items-center justify-center p-0 sm:p-4 md:p-6 overflow-hidden">
+
+  <!-- GERÇEK GAZETE SAYFASI PENCERESİ (The Daily Tech Post) -->
+  <div class="newspaper-paper w-full max-w-4xl h-screen sm:h-[95vh] rounded-none sm:rounded-lg shadow-2xl border-0 sm:border border-stone-400/60 flex flex-col overflow-hidden relative">
+    
+    <!-- ÜST GAZETE MASTHEAD (The New York Times / Broadsheet Gazete Başlığı) -->
+    <header class="p-4 sm:p-6 pb-2 shrink-0 border-b border-stone-300">
+      
+      <!-- Gazete Üst Künyesi (Tarih, Baskı, Fiyat, Hava/Durum) -->
+      <div class="flex items-center justify-between text-[11px] font-semibold text-stone-600 uppercase tracking-widest pb-1.5 border-b border-stone-300">
+        <div>
+          <span>CİLT XXIV • NO: 8.942</span>
+        </div>
+        <div class="text-center font-bold text-stone-900">
+          TÜM DÜNYANIN DONANIM, ÇİP VE TEKNOLOJİ GAZETESİ
+        </div>
+        <div class="flex items-center gap-2">
+          <span>HER SABAH 09:00 BASKISI</span>
+          <span>•</span>
+          <span class="font-bold text-stone-900">ÜCRETSİZ DİJİTAL BASKI</span>
+        </div>
+      </div>
+
+      <!-- Gazete Ana Başlığı (Logo) -->
+      <div class="text-center py-2 sm:py-3">
+        <h1 class="text-3xl sm:text-5xl md:text-6xl font-black font-masthead text-stone-950 uppercase tracking-tight">
+          The Daily Tech Post
+        </h1>
+        <p class="text-[10px] sm:text-[11px] font-serif italic text-stone-600 tracking-wider mt-0.5">
+          "Piyasadaki En Son Cihazlar, Çipler ve Gerçekler — Tarafsız, Algoritmik ve Canlı"
+        </p>
+      </div>
+
+      <!-- Çift Çizgili Gazete Ayıracı ve Günlük Manşet Çubuğu -->
+      <div class="newspaper-double-line my-1"></div>
+      
+      <div class="flex items-center justify-between text-xs py-1 px-1 font-semibold text-stone-700">
+        <div class="flex items-center gap-3">
+          <span class="font-bold text-stone-950">18 EYLÜL 2026, CUMA</span>
+          <span>•</span>
+          <span class="italic text-stone-600">İstanbul, Silikon Vadisi, Hsinchu, Seul</span>
+        </div>
+        
+        <!-- Gazete Bölüm Başlıkları (Kategori Navigasyonu) -->
+        <div class="hidden sm:flex items-center gap-4 text-[11px] uppercase tracking-wider font-bold text-stone-800">
+          <a href="#" class="border-b border-stone-900 text-stone-950 font-black">Ön Sayfa</a>
+          <a href="#" class="hover:underline text-stone-600">Mobil &amp; Telefon</a>
+          <a href="#" class="hover:underline text-stone-600">Donanım &amp; GPU</a>
+          <a href="#" class="hover:underline text-stone-600">Yapay Zekâ</a>
+          <a href="#" class="hover:underline text-stone-600">Oyun &amp; Konsol</a>
+          <a href="#" class="hover:underline text-stone-600">Bilgisayar</a>
+        </div>
+
+        <div class="flex items-center gap-1.5 text-stone-700 text-xs">
+          <span class="w-2 h-2 rounded-full bg-emerald-600 animate-pulse"></span>
+          <span class="font-black text-[10px] uppercase tracking-widest text-emerald-800">CANLI BASKI</span>
+        </div>
+      </div>
+
+      <div class="newspaper-thin-double-line mt-1"></div>
+    </header>
+
+    <!-- GAZETE İÇERİK MİZANPAJI (3 Sütunlu Klasik Broadsheet Gazete Düzeni) -->
+    <div class="flex-1 overflow-y-auto p-4 sm:p-6 space-y-6">
+
+      <!-- 1. BÜYÜK MANŞET KATMANI (Frontpage Lead Story) -->
+      <section class="grid grid-cols-1 lg:grid-cols-12 gap-6 pb-6 border-b-2 border-stone-800">
+        
+        <!-- Sol: Manşet Metni ve Fotoğrafı (8 Sütun) -->
+        <div class="lg:col-span-8 space-y-3 column-rule pr-0 lg:pr-6">
+          
+          <!-- Sürmanşet Etiketi -->
+          <div class="flex items-center gap-2">
+            <span class="bg-stone-900 text-stone-100 text-[10px] font-black uppercase px-2 py-0.5 tracking-widest">
+              GÜNÜN MANŞETİ
+            </span>
+            <span class="text-[11px] italic text-stone-600">
+              Tayvan Bürosu Özel Raporu — 09:00
+            </span>
+          </div>
+
+          <!-- Gazete Manşet Başlığı -->
+          <h2 class="text-2xl sm:text-3xl md:text-4xl font-black font-headline text-stone-950 leading-[1.15] tracking-tight">
+            Apple ve Qualcomm'dan Tarihi 2nm Silikon Anlaşması: Akıllı Telefonlarda Yeni Çağ
+          </h2>
+
+          <!-- Alt Başlık (Dek / Kicker) -->
+          <p class="text-sm sm:text-base font-serif italic text-stone-700 leading-snug">
+            TSMC'nin 2 nanometrelik GAA üretim kapasiteleri kilitlendi; gelecek nesil amiral gemisi cihazlarda 48 saatlik kesintisiz pil ömrü ve iki kat NPU gücü vaat ediliyor.
+          </p>
+
+          <!-- Manşet Fotoğrafı ve Gazete Künyesi -->
+          <div class="space-y-1 pt-1">
+            <div class="w-full h-56 sm:h-64 md:h-72 bg-stone-300 overflow-hidden border border-stone-400">
+              <img 
+                src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=900&auto=format&fit=crop&q=80" 
+                alt="2nm Silicon Wafer" 
+                class="w-full h-full object-cover filter contrast-[1.05] grayscale-[15%]"
+              >
+            </div>
+            <div class="flex items-center justify-between text-[10px] text-stone-500 font-serif italic">
+              <span>TSMC Hsinchu Fab 20 temiz oda laboratuvarında 2nm GAA silikon kalıp testi.</span>
+              <span class="font-sans font-semibold uppercase tracking-wider text-stone-400">FOTOĞRAF: REUTERS / ARŞİV</span>
+            </div>
+          </div>
+
+          <!-- Gazete Gövde Metni (Drop Cap ile) -->
+          <div class="font-body text-xs sm:text-[13px] text-stone-800 leading-relaxed space-y-2 pt-2">
+            <p class="drop-cap text-justify">
+              Yarı iletken endüstrisinin kalbi olan Tayvan'da bugün tarihi bir eşik aşıldı. TSMC yetkililerinden sızan bilgilere göre, Apple ve Qualcomm yeni nesil 2 nanometrelik (2nm) üretim bandının ilk fazını tamamen rezerve etti. 2026 sonu ve 2027 başında raflara çıkacak olan iPhone 18 Pro ve yeni Snapdragon amiral gemisi işlemcilerinde kullanılacak olan bu mimari, enerji tüketimini mevcut 3nm kalıplara oranla %35 oranında aşağıya çekiyor.
+            </p>
+            <p class="text-justify">
+              Mühendisler, nano-sheet transistor mimarisinin mobil cihazlarda aşırı ısınmayı kalıcı olarak sona erdireceğini ve telefonların tam parlaklıkta dahi 2 günü aşan gerçek kullanım süresine erişeceğini belirtiyor.
+            </p>
+          </div>
+
+          <!-- Gazete İçi "EDİTÖRÜN TÜKETİCİ NOTU" Kutusu -->
+          <div class="bg-stone-200/80 border-l-4 border-stone-900 p-3 rounded-none my-2 space-y-1">
+            <div class="flex items-center justify-between">
+              <span class="text-[11px] font-bold uppercase tracking-wider text-stone-900">
+                📌 Gazete Editörünün Alım Tavsiyesi:
+              </span>
+              <span class="newspaper-stamp text-[9px] font-black uppercase px-1.5 py-0.2 tracking-wider">
+                ROBOPENGU ONAYLI
+              </span>
+            </div>
+            <p class="text-xs text-stone-800 italic font-serif leading-snug">
+              "Elinizde iPhone 15/16 Pro veya Galaxy S24/S25 serisi cihazlar varsa hemen cihaz değiştirmek için acele etmeyin. Ancak batarya şikayeti olan ve uzun ömürlü amiral gemisi arayan okurlarımız için 2nm sıçraması beklenmeye değer."
+            </p>
+          </div>
+
+          <!-- Gazete Altı İnteraktif Danışma Butonu -->
+          <div class="pt-2 flex items-center justify-between border-t border-stone-300">
+            <button class="inline-flex items-center gap-1.5 bg-stone-900 hover:bg-stone-800 text-stone-100 text-xs font-serif font-bold px-3 py-1.5 transition cursor-pointer">
+              <span>🤖 RoboPengu'ya Bu Haberi Sor →</span>
+            </button>
+            <span class="text-[11px] font-serif italic text-stone-500">
+              Devamı Sayfa B3'te • Bloomberg Tech
+            </span>
+          </div>
+
+        </div>
+
+        <!-- Sağ Sütun: Gazete Yan Kolonu (Piyasa Telgrafı & İkinci Manşetler - 4 Sütun) -->
+        <div class="lg:col-span-4 space-y-4">
+          
+          <!-- Gazete Borsa & Piyasa Köşesi (Fiyat Göstergeleri) -->
+          <div class="border-2 border-stone-900 p-3 bg-stone-100/70">
+            <div class="border-b border-stone-900 pb-1 mb-2 flex items-center justify-between">
+              <span class="text-[10px] font-black uppercase tracking-widest text-stone-900">
+                PİYASA &amp; CİHAZ TELGRAFI
+              </span>
+              <span class="text-[10px] font-bold text-stone-500">09:00</span>
+            </div>
+            <div class="space-y-1.5 text-xs font-serif">
+              <div class="flex justify-between border-b border-stone-300 pb-1">
+                <span class="font-bold">iPhone 16 Pro Max</span>
+                <span class="font-sans font-bold text-stone-900">₺89.999 <span class="text-emerald-700 text-[10px]">▼ ₺1.200</span></span>
+              </div>
+              <div class="flex justify-between border-b border-stone-300 pb-1">
+                <span class="font-bold">Samsung S25 Ultra</span>
+                <span class="font-sans font-bold text-stone-900">₺74.499 <span class="text-emerald-700 text-[10px]">▼ ₺850</span></span>
+              </div>
+              <div class="flex justify-between border-b border-stone-300 pb-1">
+                <span class="font-bold">GeForce RTX 5080</span>
+                <span class="font-sans font-bold text-stone-900">₺48.990 <span class="text-amber-700 text-[10px]">■ Sabit</span></span>
+              </div>
+              <div class="flex justify-between">
+                <span class="font-bold">PS5 Pro Konsol</span>
+                <span class="font-sans font-bold text-stone-900">₺49.999 <span class="text-emerald-700 text-[10px]">▼ ₺500</span></span>
+              </div>
+            </div>
+            <div class="text-[9.5px] text-stone-500 font-sans mt-2 text-center uppercase tracking-wide">
+              aceleEtme Canlı Mağaza Fiyat Endeksi
+            </div>
+          </div>
+
+          <!-- YAN HABER 1: DONANIM (NVIDIA RTX 50) -->
+          <article class="space-y-1.5 border-b border-stone-300 pb-3">
+            <span class="text-[10px] font-black uppercase tracking-wider text-amber-900">DONANIM DÜNYASI</span>
+            <h3 class="text-base font-bold font-headline text-stone-950 leading-snug">
+              NVIDIA RTX 50 Serisi GDDR7 Bellek Hızlarıyla Tanıtıldı
+            </h3>
+            <div class="w-full h-28 bg-stone-200 overflow-hidden border border-stone-400">
+              <img src="https://images.unsplash.com/photo-1591488320449-011701bb6704?w=400&auto=format&fit=crop&q=80" alt="GPU" class="w-full h-full object-cover grayscale-[20%]">
+            </div>
+            <p class="text-xs font-body text-stone-700 leading-relaxed text-justify">
+              28 Gbps hızındaki yeni nesil GDDR7 bellek modülleri 4K ışın izlemeli oyunculukta güç tüketimini düşürürken nöral kare üretimini ikiye katlıyor.
+            </p>
+            <div class="pt-1 flex items-center justify-between text-[11px] font-serif">
+              <button class="font-bold underline text-stone-900 hover:text-stone-600">RoboPengu'ya Sor</button>
+              <span class="text-stone-500 italic">Tom's Hardware</span>
+            </div>
+          </article>
+
+          <!-- YAN HABER 2: OYUN & KONSOL (Sony El Konsolu) -->
+          <article class="space-y-1.5">
+            <span class="text-[10px] font-black uppercase tracking-wider text-indigo-900">KONSOL &amp; OYUN</span>
+            <h3 class="text-base font-bold font-headline text-stone-950 leading-snug">
+              Sony ve AMD'den Taşınabilir PlayStation Prototipi
+            </h3>
+            <p class="text-xs font-body text-stone-700 leading-relaxed text-justify">
+              Steam Deck ve ROG Ally'ın yakaladığı ivme sonrası Sony'nin yerel PS4/PS5 kütüphanesini çalıştırabilen OLED el konsolu testleri sızdırıldı.
+            </p>
+            <div class="pt-1 flex items-center justify-between text-[11px] font-serif">
+              <button class="font-bold underline text-stone-900 hover:text-stone-600">RoboPengu'ya Sor</button>
+              <span class="text-stone-500 italic">IGN Tech Wire</span>
+            </div>
+          </article>
+
+        </div>
+
+      </section>
+
+      <!-- 2. ALT SAYFA KATMANI (İkinci Gazete Bölümü: 3 Eşit Sütun) -->
+      <section class="space-y-3">
+        <div class="flex items-center justify-between border-b-2 border-stone-800 pb-1">
+          <h3 class="text-sm font-black font-masthead uppercase tracking-widest text-stone-950">
+            BÖLÜM II: YAPAY ZEKÂ, BİLGİSAYAR VE GELECEĞİN EVİ
+          </h3>
+          <span class="text-[10px] font-serif italic text-stone-500">SAYFA A4</span>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 pt-1">
+          
+          <!-- Sütun 1: Yapay Zekâ -->
+          <article class="space-y-2 column-rule pr-0 md:pr-4">
+            <span class="text-[10px] font-black uppercase tracking-widest text-blue-900">YAPAY ZEKÂ BÜLTENİ</span>
+            <h4 class="text-sm font-bold font-headline leading-snug text-stone-950">
+              DeepMind ve Anthropic'ten Otonom Ajan Mimarileri
+            </h4>
+            <div class="w-full h-28 bg-stone-200 border border-stone-400 overflow-hidden">
+              <img src="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=400&auto=format&fit=crop&q=80" alt="AI" class="w-full h-full object-cover grayscale-[20%]">
+            </div>
+            <p class="text-xs font-body text-stone-700 leading-relaxed text-justify">
+              Yapay zeka modelleri artık sadece soru yanıtlamıyor; kod yazma ve veri analizlerini saatlerce hatasız sürdüren otonom iş arkadaşlarına dönüşüyor.
+            </p>
+            <div class="text-[10px] text-stone-500 italic font-serif">
+              The Verge • 2 dk okuma
+            </div>
+          </article>
+
+          <!-- Sütun 2: Bilgisayar & Laptop -->
+          <article class="space-y-2 column-rule pr-0 md:pr-4">
+            <span class="text-[10px] font-black uppercase tracking-widest text-purple-900">BİLGİSAYAR &amp; PC</span>
+            <h4 class="text-sm font-bold font-headline leading-snug text-stone-950">
+              Tandem OLED Paneller ve 22 Saatlik Pil Devrimi
+            </h4>
+            <div class="w-full h-28 bg-stone-200 border border-stone-400 overflow-hidden">
+              <img src="https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=400&auto=format&fit=crop&q=80" alt="Laptop" class="w-full h-full object-cover grayscale-[20%]">
+            </div>
+            <p class="text-xs font-body text-stone-700 leading-relaxed text-justify">
+              Apple ve Dell'in çift katmanlı OLED panelleri parlaklığı iki katına çıkarırken ARM işlemcilerle şarj cihazı taşıma zorunluluğu sona eriyor.
+            </p>
+            <div class="text-[10px] text-stone-500 italic font-serif">
+              Ars Technica • 3 dk okuma
+            </div>
+          </article>
+
+          <!-- Sütun 3: Robotik & Akıllı Ev -->
+          <article class="space-y-2">
+            <span class="text-[10px] font-black uppercase tracking-widest text-rose-900">ROBOTİK &amp; YAŞAM</span>
+            <h4 class="text-sm font-bold font-headline leading-snug text-stone-950">
+              15.000 Pa Robot Süpürgeler ve İnsansı Ev Asistanları
+            </h4>
+            <div class="w-full h-28 bg-stone-200 border border-stone-400 overflow-hidden">
+              <img src="https://images.unsplash.com/photo-1558317374-067fb5f30001?w=400&auto=format&fit=crop&q=80" alt="Robotics" class="w-full h-full object-cover grayscale-[20%]">
+            </div>
+            <p class="text-xs font-body text-stone-700 leading-relaxed text-justify">
+              Merdiven basamağı aşabilen robotik kollar ve sıcak su sterilizasyon istasyonları ev temizliğini tamamen otonom hale getiriyor.
+            </p>
+            <div class="text-[10px] text-stone-500 italic font-serif">
+              WIRED • 3 dk okuma
+            </div>
+          </article>
+
+        </div>
+      </section>
+
+    </div>
+
+    <!-- GAZETE ALT KÜNYESİ (Newspaper Footer / Printing Press Signoff) -->
+    <footer class="p-3 bg-[#f3efe6] border-t-2 border-stone-800 text-center shrink-0">
+      <div class="newspaper-thin-double-line mb-2"></div>
+      <p class="text-[10.5px] font-serif text-stone-600 italic">
+        The Daily Tech Post • Basım Yeri: aceleEtme Dijital Matbaası • Her sabah 09:00'da yeni baskı otomatik olarak basılır ve dağıtılır.
+      </p>
+    </footer>
+
+  </div>
+
+</body>
+</html>
