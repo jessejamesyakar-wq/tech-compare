@@ -1,5 +1,7 @@
 import { NextResponse } from 'next/server';
-import { GLOBAL_AI_NEWS } from '@/lib/ai/aiNewsData';
+import { getDailyTechNews } from '@/lib/news/dailyTechNewsEngine';
+
+export const dynamic = 'force-dynamic';
 
 export async function GET(request: Request) {
   try {
@@ -7,7 +9,8 @@ export async function GET(request: Request) {
     const category = searchParams.get('category');
     const query = searchParams.get('q')?.toLowerCase();
 
-    let items = [...GLOBAL_AI_NEWS];
+    const data = await getDailyTechNews();
+    let items = [...data.articles];
 
     if (category && category !== 'all') {
       items = items.filter((item) => item.category === category);
@@ -18,13 +21,16 @@ export async function GET(request: Request) {
         (item) =>
           item.title.toLowerCase().includes(query) ||
           item.summary.toLowerCase().includes(query) ||
-          item.source.toLowerCase().includes(query)
+          item.source.toLowerCase().includes(query) ||
+          item.takeaway.toLowerCase().includes(query)
       );
     }
 
     return NextResponse.json({
       success: true,
-      lastUpdated: new Date().toISOString(),
+      dateStr: data.dateStr,
+      scheduledTime: data.scheduledTime,
+      lastUpdated: data.lastUpdated,
       count: items.length,
       articles: items,
     });

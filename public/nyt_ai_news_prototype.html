@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The New York Times Stili Küresel Teknoloji Gündemi - aceleEtme</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,600;0,6..72,700;1,6..72,400;1,6..72,600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    }
+    .font-serif-headline {
+      font-family: 'Newsreader', Georgia, serif;
+    }
+    ::-webkit-scrollbar {
+      width: 5px;
+    }
+    ::-webkit-scrollbar-track {
+      background: #f8fafc;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: #cbd5e1;
+      border-radius: 4px;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+      background: #94a3b8;
+    }
+  </style>
+</head>
+<body class="bg-slate-900 min-h-screen text-slate-800 antialiased overflow-hidden flex">
+
+  <!-- Sol Taraf: RoboPengu Ana Arka Planı / Modal Görünümü -->
+  <div class="flex-1 relative hidden lg:flex flex-col items-center justify-center p-8 bg-slate-950/90 select-none">
+    <div class="absolute w-[500px] h-[500px] bg-cyan-500/10 rounded-full blur-3xl pointer-events-none"></div>
+
+    <div class="bg-white/95 rounded-3xl p-8 max-w-lg w-full shadow-2xl border border-slate-200/80 text-center space-y-4 backdrop-blur-md">
+      <div class="w-24 h-24 mx-auto bg-gradient-to-tr from-cyan-50 to-blue-50 rounded-full flex items-center justify-center p-2 border border-cyan-100 shadow-inner">
+        <img src="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=200&auto=format&fit=crop&q=80" alt="RoboPengu" class="w-16 h-16 object-cover rounded-full">
+      </div>
+      <h2 class="text-2xl font-black text-slate-900 tracking-tight">RoboPengu AI Danışman</h2>
+      <p class="text-xs text-slate-500 max-w-sm mx-auto">
+        Telefon, laptop, ekran kartı, konsol ve tüm teknoloji dünyasını kapsayan küresel analiz ve canlı bülten.
+      </p>
+      <div class="pt-2 flex flex-wrap justify-center gap-2">
+        <span class="text-[11px] font-bold bg-slate-100 text-slate-700 px-3 py-1.5 rounded-full">📱 Apple 2nm ve S26 Beklentisi</span>
+        <span class="text-[11px] font-bold bg-slate-100 text-slate-700 px-3 py-1.5 rounded-full">🎮 PS5 Pro vs PC</span>
+        <span class="text-[11px] font-bold bg-slate-100 text-slate-700 px-3 py-1.5 rounded-full">⚡ RTX 5080 Fiyat/Performans</span>
+      </div>
+    </div>
+    <div class="mt-6 text-slate-400 text-xs font-semibold">
+      ← Sol: RoboPengu Danışman Masası | Sağ: The New York Times Stili Küresel Teknoloji Çekmecesi →
+    </div>
+  </div>
+
+  <!-- Sağ Taraf: The New York Times & Bloomberg Tech Stili Küresel Teknoloji Çekmecesi -->
+  <aside class="w-full sm:w-[560px] md:w-[620px] h-screen bg-[#FCFCFD] border-l border-slate-200 flex flex-col shadow-2xl z-30">
+    
+    <!-- 1. Editorial Header (The New York Times Masthead) -->
+    <header class="border-b border-slate-200/90 bg-white px-5 py-4 shrink-0">
+      <div class="flex items-center justify-between pb-2 border-b border-slate-100">
+        <div class="flex items-center gap-2">
+          <span class="text-[10px] font-black uppercase tracking-widest text-slate-400">GLOBAL TECH CHRONICLE</span>
+          <span class="text-slate-300">•</span>
+          <span class="flex items-center gap-1 text-[10px] font-extrabold text-emerald-700 bg-emerald-50 px-2 py-0.5 rounded-full border border-emerald-200/60">
+            <span class="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse"></span>
+            CANLI TEKNOLOJİ AKIŞI
+          </span>
+        </div>
+        <div class="text-[11px] text-slate-400 font-serif-headline italic">
+          18 Eylül 2026, Cuma
+        </div>
+      </div>
+
+      <div class="pt-3 flex items-center justify-between">
+        <div>
+          <h1 class="text-xl sm:text-2xl font-black text-slate-900 tracking-tight font-serif-headline">
+            Küresel Teknoloji Gündemi
+          </h1>
+          <p class="text-[11px] text-slate-500 font-medium">
+            Akıllı telefonlar, donanım, yapay zekâ, oyun konsolları ve yeni nesil cihazlar
+          </p>
+        </div>
+        <div class="flex items-center gap-1.5">
+          <button class="p-2 rounded-full hover:bg-slate-100 text-slate-400 hover:text-slate-700 transition" title="Yenile">
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"></path></svg>
+          </button>
+          <button class="p-2 rounded-full hover:bg-slate-100 text-slate-400 hover:text-slate-700 transition" title="Kapat">
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+          </button>
+        </div>
+      </div>
+
+      <!-- Genişletilmiş Kategori Filtreleri -->
+      <div class="flex items-center gap-1.5 overflow-x-auto no-scrollbar pt-3 text-xs">
+        <button class="px-3 py-1 rounded-full bg-slate-900 text-white font-bold text-[11px] shrink-0">Tümü (Tüm Teknoloji)</button>
+        <button class="px-3 py-1 rounded-full bg-slate-100 hover:bg-slate-200 text-slate-700 font-medium text-[11px] shrink-0">📱 Mobil &amp; Telefon</button>
+        <button class="px-3 py-1 rounded-full bg-slate-100 hover:bg-slate-200 text-slate-700 font-medium text-[11px] shrink-0">⚡ Donanım &amp; GPU</button>
+        <button class="px-3 py-1 rounded-full bg-slate-100 hover:bg-slate-200 text-slate-700 font-medium text-[11px] shrink-0">🤖 Yapay Zekâ &amp; AI</button>
+        <button class="px-3 py-1 rounded-full bg-slate-100 hover:bg-slate-200 text-slate-700 font-medium text-[11px] shrink-0">💻 Laptop &amp; PC</button>
+        <button class="px-3 py-1 rounded-full bg-slate-100 hover:bg-slate-200 text-slate-700 font-medium text-[11px] shrink-0">🎮 Oyun &amp; Konsol</button>
+        <button class="px-3 py-1 rounded-full bg-slate-100 hover:bg-slate-200 text-slate-700 font-medium text-[11px] shrink-0">🦾 Robotik &amp; Akıllı Ev</button>
+      </div>
+    </header>
+
+    <!-- 2. The New York Times Düzeninde Teknoloji Akışı -->
+    <div class="flex-1 overflow-y-auto p-4 sm:p-5 space-y-6">
+
+      <!-- MANŞET BAŞYAZI: MOBİL & YONGA MİMARİSİ (Apple vs Qualcomm 2nm) -->
+      <article class="bg-white rounded-2xl border border-slate-200/90 overflow-hidden shadow-xs hover:shadow-md transition group">
+        <div class="relative w-full h-44 sm:h-52 bg-slate-900 overflow-hidden">
+          <img 
+            src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=800&auto=format&fit=crop&q=80" 
+            alt="Smartphone Silicon" 
+            class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+          >
+          <div class="absolute inset-0 bg-gradient-to-t from-slate-950/85 via-slate-950/25 to-transparent"></div>
+          
+          <div class="absolute top-3 left-3 flex items-center gap-2">
+            <span class="bg-blue-600 text-white text-[10px] font-black uppercase tracking-wider px-2.5 py-0.5 rounded-md shadow-xs">
+              MANŞET ANALİZ
+            </span>
+            <span class="bg-emerald-950/70 border border-emerald-500/40 text-emerald-300 text-[10px] font-bold px-2 py-0.5 rounded-md">
+              📱 Mobil &amp; Çip
+            </span>
+            <span class="bg-black/50 text-white text-[10px] font-medium px-2 py-0.5 rounded-md">
+              3 dk okuma
+            </span>
+          </div>
+
+          <div class="absolute bottom-3 left-3 right-3 text-white">
+            <span class="text-[11px] text-cyan-300 font-bold uppercase tracking-wider">Bloomberg Tech • Tayvan</span>
+            <h2 class="text-base sm:text-lg font-bold font-serif-headline leading-tight mt-0.5 group-hover:text-cyan-200 transition">
+              Apple ve Qualcomm'un 2nm Yarışı: Akıllı Telefonlarda Yeni Bir Performans Çağı Başlıyor
+            </h2>
+          </div>
+        </div>
+
+        <div class="p-4 space-y-3">
+          <p class="text-xs text-slate-600 leading-relaxed font-normal">
+            TSMC'nin 2 nanometrelik GAA (Gate-All-Around) üretim hattında ilk kapasite rezervasyonları tamamlandı. Gelecek nesil iPhone ve amiral gemisi Android işlemcileri enerji tüketimini dramatik ölçüde düşürürken yerel yapay zeka hızını ikiye katlayacak.
+          </p>
+
+          <!-- NYT Editoryal Hap Not -->
+          <div class="bg-blue-50/70 border-l-2 border-blue-600 p-2.5 rounded-r-xl space-y-1 text-[11px] text-slate-700">
+            <div class="font-bold text-slate-900 text-[11px] flex items-center gap-1">
+              <span>💡 Donanım &amp; Satın Alma Notu:</span>
+            </div>
+            <div class="text-[11.5px] leading-snug text-slate-600 pl-1">
+              Mevcut 3nm amiral gemisi telefonlar (iPhone 16 Pro / S25 Ultra) en az 4 yıl üst düzey kalmaya devam edecek; ancak batarya verimliliği odaklı olanlar 2nm sıçramasını bekleyebilir.
+            </div>
+          </div>
+
+          <div class="pt-2 border-t border-slate-100 flex items-center justify-between">
+            <button class="inline-flex items-center gap-1.5 text-xs font-bold text-blue-700 hover:text-blue-800 bg-blue-50 hover:bg-blue-100/80 px-3 py-1.5 rounded-xl transition">
+              <span>🤖 RoboPengu'ya Bu Haberi Sor</span>
+            </button>
+            <span class="text-xs text-slate-400 font-medium">Bloomberg Tech</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- HABER 2: DONANIM & EKRAN KARTI (NVIDIA RTX 50 & Blackwell) -->
+      <article class="bg-white rounded-2xl border border-slate-200/90 p-3.5 sm:p-4 shadow-xs hover:shadow-md transition group">
+        <div class="flex gap-3 sm:gap-4 items-start">
+          <div class="flex-1 min-w-0 space-y-1.5">
+            <div class="flex items-center gap-2 flex-wrap text-[10px]">
+              <span class="font-black text-amber-700 bg-amber-50 px-2 py-0.5 rounded uppercase">⚡ DONANIM &amp; GPU</span>
+              <span class="text-slate-300">•</span>
+              <span class="text-slate-400 font-medium">Tom's Hardware</span>
+              <span class="text-slate-300">•</span>
+              <span class="text-slate-400 font-medium">Bugün, 15:40</span>
+            </div>
+
+            <h3 class="text-sm sm:text-base font-bold font-serif-headline text-slate-900 leading-snug group-hover:text-blue-600 transition">
+              NVIDIA RTX 50 Serisi ve GDDR7 Bellek: Masaüstü Ekran Kartlarında Yeni Standart
+            </h3>
+
+            <p class="text-[11.5px] text-slate-600 line-clamp-2 leading-relaxed font-normal">
+              28 Gbps hızındaki yeni nesil GDDR7 bellek modülleri ve DLSS 4 nöral kare üretimi ile 4K ışın izlemeli oyunculukta güç tüketim dengesi yeniden yazılıyor.
+            </p>
+          </div>
+
+          <div class="w-24 h-24 sm:w-28 sm:h-24 rounded-xl overflow-hidden bg-slate-100 shrink-0 border border-slate-200/80 shadow-2xs relative">
+            <img 
+              src="https://images.unsplash.com/photo-1591488320449-011701bb6704?w=400&auto=format&fit=crop&q=80" 
+              alt="NVIDIA GPU" 
+              class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+            >
+          </div>
+        </div>
+
+        <div class="mt-3 pt-2.5 border-t border-slate-100 flex items-center justify-between">
+          <div class="text-[10.5px] text-slate-500 font-medium flex items-center gap-1">
+            <span class="text-amber-500 font-bold">🎯</span>
+            <span class="truncate max-w-[240px]">Mevcut RTX 4070 ve üstü sahipleri için geçiş zorunlu mu?</span>
+          </div>
+          <button class="inline-flex items-center gap-1 text-[11px] font-bold text-slate-700 hover:text-blue-600 bg-slate-100 hover:bg-slate-200/80 px-2.5 py-1 rounded-lg transition">
+            <span>Soru Sor</span>
+          </button>
+        </div>
+      </article>
+
+      <!-- HABER 3: OYUN & KONSOL DÜNYASI (Sony PlayStation & El Konsolları) -->
+      <article class="bg-white rounded-2xl border border-slate-200/90 p-3.5 sm:p-4 shadow-xs hover:shadow-md transition group">
+        <div class="flex gap-3 sm:gap-4 items-start">
+          <div class="flex-1 min-w-0 space-y-1.5">
+            <div class="flex items-center gap-2 flex-wrap text-[10px]">
+              <span class="font-black text-indigo-700 bg-indigo-50 px-2 py-0.5 rounded uppercase">🎮 OYUN &amp; KONSOL</span>
+              <span class="text-slate-300">•</span>
+              <span class="text-slate-400 font-medium">IGN Tech Wire</span>
+              <span class="text-slate-300">•</span>
+              <span class="text-slate-400 font-medium">Bugün, 12:20</span>
+            </div>
+
+            <h3 class="text-sm sm:text-base font-bold font-serif-headline text-slate-900 leading-snug group-hover:text-blue-600 transition">
+              Sony ve AMD'den Taşınabilir PlayStation Hamlesi: El Konsolu Savaşı Kızışıyor
+            </h3>
+
+            <p class="text-[11.5px] text-slate-600 line-clamp-2 leading-relaxed font-normal">
+              Steam Deck ve ROG Ally'ın yakaladığı pazar ivmesi sonrası Sony'nin yerel PS4/PS5 oyunlarını çalıştırabilen yeni nesil el konsolu prototipleri sızdırıldı.
+            </p>
+          </div>
+
+          <div class="w-24 h-24 sm:w-28 sm:h-24 rounded-xl overflow-hidden bg-slate-100 shrink-0 border border-slate-200/80 shadow-2xs relative">
+            <img 
+              src="https://images.unsplash.com/photo-1606813907291-d86efa9b94db?w=400&auto=format&fit=crop&q=80" 
+              alt="Gaming Console" 
+              class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+            >
+          </div>
+        </div>
+
+        <div class="mt-3 pt-2.5 border-t border-slate-100 flex items-center justify-between">
+          <div class="text-[10.5px] text-slate-500 font-medium flex items-center gap-1">
+            <span class="text-indigo-600 font-bold">🕹️</span>
+            <span class="truncate max-w-[240px]">OLED ekran ve RDNA 4 APU ile 1080p 60fps hedefi</span>
+          </div>
+          <button class="inline-flex items-center gap-1 text-[11px] font-bold text-slate-700 hover:text-blue-600 bg-slate-100 hover:bg-slate-200/80 px-2.5 py-1 rounded-lg transition">
+            <span>Soru Sor</span>
+          </button>
+        </div>
+      </article>
+
+      <!-- HABER 4: YAPAY ZEKA & MODEL DÜNYASI (Claude 3.7 & DeepMind) -->
+      <article class="bg-white rounded-2xl border border-slate-200/90 p-3.5 sm:p-4 shadow-xs hover:shadow-md transition group">
+        <div class="flex gap-3 sm:gap-4 items-start">
+          <div class="flex-1 min-w-0 space-y-1.5">
+            <div class="flex items-center gap-2 flex-wrap text-[10px]">
+              <span class="font-black text-blue-700 bg-blue-50 px-2 py-0.5 rounded uppercase">🤖 YAPAY ZEKÂ</span>
+              <span class="text-slate-300">•</span>
+              <span class="text-slate-400 font-medium">The Verge</span>
+              <span class="text-slate-300">•</span>
+              <span class="text-slate-400 font-medium">Dün, 19:10</span>
+            </div>
+
+            <h3 class="text-sm sm:text-base font-bold font-serif-headline text-slate-900 leading-snug group-hover:text-blue-600 transition">
+              Anthropic ve Google'dan Hibrit Düşünme Mimarileri: Ajan Tabanlı Yazılım Geliştirme
+            </h3>
+
+            <p class="text-[11.5px] text-slate-600 line-clamp-2 leading-relaxed font-normal">
+              Yapay zeka modelleri artık sadece sohbet etmiyor; saatlerce süren kodlama, veri analizi ve cihaz kontrollerini kendi kendine planlayıp hatasız tamamlıyor.
+            </p>
+          </div>
+
+          <div class="w-24 h-24 sm:w-28 sm:h-24 rounded-xl overflow-hidden bg-slate-100 shrink-0 border border-slate-200/80 shadow-2xs relative">
+            <img 
+              src="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=400&auto=format&fit=crop&q=80" 
+              alt="AI Research" 
+              class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+            >
+          </div>
+        </div>
+
+        <div class="mt-3 pt-2.5 border-t border-slate-100 flex items-center justify-between">
+          <div class="text-[10.5px] text-slate-500 font-medium flex items-center gap-1">
+            <span class="text-blue-600 font-bold">✨</span>
+            <span class="truncate max-w-[240px]">Bilgisayarınızda yerel çalışacak NPU modelleri</span>
+          </div>
+          <button class="inline-flex items-center gap-1 text-[11px] font-bold text-slate-700 hover:text-blue-600 bg-slate-100 hover:bg-slate-200/80 px-2.5 py-1 rounded-lg transition">
+            <span>Soru Sor</span>
+          </button>
+        </div>
+      </article>
+
+      <!-- HABER 5: LAPTOP & PC DÜNYASI (ARM & Tandem OLED) -->
+      <article class="bg-white rounded-2xl border border-slate-200/90 p-3.5 sm:p-4 shadow-xs hover:shadow-md transition group">
+        <div class="flex gap-3 sm:gap-4 items-start">
+          <div class="flex-1 min-w-0 space-y-1.5">
+            <div class="flex items-center gap-2 flex-wrap text-[10px]">
+              <span class="font-black text-purple-700 bg-purple-50 px-2 py-0.5 rounded uppercase">💻 LAPTOP &amp; PC</span>
+              <span class="text-slate-300">•</span>
+              <span class="text-slate-400 font-medium">Ars Technica</span>
+              <span class="text-slate-300">•</span>
+              <span class="text-slate-400 font-medium">Dün, 14:00</span>
+            </div>
+
+            <h3 class="text-sm sm:text-base font-bold font-serif-headline text-slate-900 leading-snug group-hover:text-blue-600 transition">
+              Tandem OLED Paneller ve ARM Çipleri Ultrabook Pazarını Baştan Tanımlıyor
+            </h3>
+
+            <p class="text-[11.5px] text-slate-600 line-clamp-2 leading-relaxed font-normal">
+              Apple MacBook ve Dell XPS serisinde çift katmanlı OLED paneller ile 22 saatlik gerçek pil ömrü ve 1000 nit tam ekran parlaklık standardı yakalandı.
+            </p>
+          </div>
+
+          <div class="w-24 h-24 sm:w-28 sm:h-24 rounded-xl overflow-hidden bg-slate-100 shrink-0 border border-slate-200/80 shadow-2xs relative">
+            <img 
+              src="https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=400&auto=format&fit=crop&q=80" 
+              alt="Laptop OLED" 
+              class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+            >
+          </div>
+        </div>
+
+        <div class="mt-3 pt-2.5 border-t border-slate-100 flex items-center justify-between">
+          <div class="text-[10.5px] text-slate-500 font-medium flex items-center gap-1">
+            <span class="text-purple-600 font-bold">🔋</span>
+            <span class="truncate max-w-[240px]">Şarj cihazını evde unutturan yeni nesil verimlilik</span>
+          </div>
+          <button class="inline-flex items-center gap-1 text-[11px] font-bold text-slate-700 hover:text-blue-600 bg-slate-100 hover:bg-slate-200/80 px-2.5 py-1 rounded-lg transition">
+            <span>Soru Sor</span>
+          </button>
+        </div>
+      </article>
+
+      <!-- HABER 6: ROBOTİK & AKILLI EV TEKNOLOJİLERİ -->
+      <article class="bg-white rounded-2xl border border-slate-200/90 p-3.5 sm:p-4 shadow-xs hover:shadow-md transition group">
+        <div class="flex gap-3 sm:gap-4 items-start">
+          <div class="flex-1 min-w-0 space-y-1.5">
+            <div class="flex items-center gap-2 flex-wrap text-[10px]">
+              <span class="font-black text-rose-700 bg-rose-50 px-2 py-0.5 rounded uppercase">🦾 ROBOTİK &amp; EV</span>
+              <span class="text-slate-300">•</span>
+              <span class="text-slate-400 font-medium">WIRED</span>
+              <span class="text-slate-300">•</span>
+              <span class="text-slate-400 font-medium">Önceki Gün</span>
+            </div>
+
+            <h3 class="text-sm sm:text-base font-bold font-serif-headline text-slate-900 leading-snug group-hover:text-blue-600 transition">
+              İnsansı Ev Asistanları ve 15.000 Pa Emiş Güçlü Robot Süpürgeler
+            </h3>
+
+            <p class="text-[11.5px] text-slate-600 line-clamp-2 leading-relaxed font-normal">
+              Dyson, Dreame ve Roborock'un robotik kollu ve basamak tırmanabilen yeni prototipleri, ev temizliğini tamamen otonom hale getirmeyi hedefliyor.
+            </p>
+          </div>
+
+          <div class="w-24 h-24 sm:w-28 sm:h-24 rounded-xl overflow-hidden bg-slate-100 shrink-0 border border-slate-200/80 shadow-2xs relative">
+            <img 
+              src="https://images.unsplash.com/photo-1558317374-067fb5f30001?w=400&auto=format&fit=crop&q=80" 
+              alt="Home Robotics" 
+              class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+            >
+          </div>
+        </div>
+
+        <div class="mt-3 pt-2.5 border-t border-slate-100 flex items-center justify-between">
+          <div class="text-[10.5px] text-slate-500 font-medium flex items-center gap-1">
+            <span class="text-rose-600 font-bold">🏠</span>
+            <span class="truncate max-w-[240px]">Halı ve sert zeminleri tanıyan derinlik sensörleri</span>
+          </div>
+          <button class="inline-flex items-center gap-1 text-[11px] font-bold text-slate-700 hover:text-blue-600 bg-slate-100 hover:bg-slate-200/80 px-2.5 py-1 rounded-lg transition">
+            <span>Soru Sor</span>
+          </button>
+        </div>
+      </article>
+
+    </div>
+
+    <!-- Editorial Footer -->
+    <footer class="p-3 bg-slate-50 border-t border-slate-200/80 text-center shrink-0">
+      <p class="text-[10px] text-slate-400 font-serif-headline italic">
+        The Global Tech Chronicle • aceleEtme Bağımsız Teknoloji &amp; Cihaz Kılavuzu
+      </p>
+    </footer>
+
+  </aside>
+
+</body>
+</html>
