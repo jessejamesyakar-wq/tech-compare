@@ -273,7 +273,7 @@ export function DuelArena({ product1, product2, onProductChange }: DuelArenaProp
       {/* ========================================================================= */}
       {/* 🏟️ DÜELLO ARENA MAIN STAGE (1:1 PIXEL MATCH WITH USER REFERENCE IMAGE)  */}
       {/* ========================================================================= */}
-      <div className="relative overflow-hidden rounded-[36px] bg-[#f2f6f9] border border-slate-200/90 shadow-2xl p-4 sm:p-8 select-none">
+      <div className="relative overflow-hidden rounded-2xl sm:rounded-[36px] bg-[#f2f6f9] border border-slate-200/90 shadow-xl sm:shadow-2xl p-2.5 sm:p-6 lg:p-8 select-none">
         
         {/* Futuristic Curving Backdrop with Glowing Neon Teal/Emerald Arc */}
         <div className="absolute inset-0 pointer-events-none overflow-hidden">
@@ -294,11 +294,11 @@ export function DuelArena({ product1, product2, onProductChange }: DuelArenaProp
         </div>
 
         {/* Top Header: DÜELLO ARENA Title */}
-        <div className="relative z-20 text-center mb-6 sm:mb-8">
-          <h1 className="text-2xl sm:text-4xl font-black tracking-tight text-white drop-shadow-[0_2px_10px_rgba(0,0,0,0.5)]">
+        <div className="relative z-20 text-center mb-3 sm:mb-8">
+          <h1 className="text-xl sm:text-3xl lg:text-4xl font-black tracking-tight text-white drop-shadow-[0_2px_10px_rgba(0,0,0,0.5)]">
             DÜELLO ARENA
           </h1>
-          <p className="text-[11px] sm:text-xs font-bold text-emerald-300/90 tracking-wide uppercase mt-1">
+          <p className="text-[10px] sm:text-xs font-bold text-emerald-300/90 tracking-wide uppercase mt-0.5 sm:mt-1">
             Yapay Zekâ Destekli Donanım Karşılaşması & RoboPengu Hakem Masası
           </p>
         </div>
@@ -306,14 +306,28 @@ export function DuelArena({ product1, product2, onProductChange }: DuelArenaProp
         {/* ========================================================================= */}
         {/* CENTER STAGE: LEFT GLASS CARD | CENTER ROBOPENGU + PILLS | RIGHT GLASS CARD */}
         {/* ========================================================================= */}
-        <div className="relative z-20 grid grid-cols-1 lg:grid-cols-12 gap-5 sm:gap-6 items-center">
+        <div className="relative z-20 grid grid-cols-2 lg:grid-cols-12 gap-2 sm:gap-4 lg:gap-6 items-start lg:items-center">
+
+          {/* ⚡ Mobile Floating Electric VS Medallion between Card 1 & Card 2 */}
+          <div className="absolute left-1/2 top-36 sm:top-44 -translate-x-1/2 -translate-y-1/2 z-40 pointer-events-none lg:hidden">
+            <div className="relative flex items-center justify-center">
+              <div className="absolute -inset-2 bg-gradient-to-r from-cyan-400 via-emerald-400 to-cyan-400 rounded-full blur-xs opacity-90 animate-pulse" />
+              <div className="relative w-8 h-8 sm:w-11 sm:h-11 rounded-full bg-gradient-to-b from-slate-200 via-slate-100 to-slate-300 p-0.5 shadow-2xl border-2 border-white flex items-center justify-center">
+                <div className="w-full h-full rounded-full bg-slate-950 flex items-center justify-center">
+                  <span className="text-[10px] sm:text-xs font-black italic tracking-wider bg-gradient-to-r from-cyan-300 via-white to-emerald-300 bg-clip-text text-transparent drop-shadow-[0_0_6px_rgba(52,211,153,0.9)]">
+                    VS
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
           
           {/* ================= LEFT COLUMN: SEARCH COMBOBOX 1 + FROSTED GLASS CARD ================= */}
-          <div className="lg:col-span-4 space-y-3 relative z-30">
+          <div className="col-span-1 lg:col-span-4 order-1 lg:order-1 space-y-2 sm:space-y-3 relative z-30">
             {/* Search Combobox 1 */}
             <div ref={dropdownRef1} className="relative z-40">
               <div className="relative flex items-center">
-                <Search className="absolute left-3.5 w-4 h-4 text-emerald-400 pointer-events-none" />
+                <Search className="absolute left-2.5 sm:left-3.5 w-3.5 sm:w-4 h-3.5 sm:h-4 text-emerald-400 pointer-events-none" />
                 <input
                   type="text"
                   value={search1}
@@ -322,11 +336,11 @@ export function DuelArena({ product1, product2, onProductChange }: DuelArenaProp
                     setOpenDropdown1(true);
                   }}
                   onFocus={() => setOpenDropdown1(true)}
-                  placeholder="1. Cihazı Ara veya Değiştir..."
-                  className="w-full pl-9 pr-8 py-2.5 bg-slate-900/85 backdrop-blur-xl border border-emerald-400/50 hover:border-emerald-400 focus:border-emerald-300 rounded-2xl text-xs font-semibold text-white placeholder-slate-400 shadow-[0_4px_20px_rgba(0,0,0,0.3)] focus:outline-none focus:ring-2 focus:ring-emerald-400/40 transition-all"
+                  placeholder="1. Cihaz..."
+                  className="w-full pl-7 sm:pl-9 pr-6 sm:pr-8 py-2 sm:py-2.5 bg-slate-900/85 backdrop-blur-xl border border-emerald-400/50 hover:border-emerald-400 focus:border-emerald-300 rounded-xl sm:rounded-2xl text-[11px] sm:text-xs font-semibold text-white placeholder-slate-400 shadow-[0_4px_20px_rgba(0,0,0,0.3)] focus:outline-none focus:ring-2 focus:ring-emerald-400/40 transition-all"
                 />
                 {loading1 ? (
-                  <Loader2 className="absolute right-3 w-3.5 h-3.5 text-emerald-400 animate-spin" />
+                  <Loader2 className="absolute right-2 sm:right-3 w-3 sm:w-3.5 h-3 sm:h-3.5 text-emerald-400 animate-spin" />
                 ) : search1 ? (
                   <button
                     onClick={() => {
@@ -334,46 +348,41 @@ export function DuelArena({ product1, product2, onProductChange }: DuelArenaProp
                       setResults1([]);
                       setOpenDropdown1(false);
                     }}
-                    className="absolute right-3 text-slate-400 hover:text-white cursor-pointer"
+                    className="absolute right-2 sm:right-3 text-slate-400 hover:text-white cursor-pointer"
                   >
-                    <X className="w-3.5 h-3.5" />
+                    <X className="w-3 sm:w-3.5 h-3 sm:h-3.5" />
                   </button>
                 ) : null}
               </div>
 
               {/* Autocomplete Dropdown Menu */}
               {openDropdown1 && results1.length > 0 && (
-                <div className="absolute top-full left-0 right-0 mt-1.5 bg-[#0f172a]/95 backdrop-blur-2xl border border-emerald-500/40 rounded-2xl shadow-2xl overflow-hidden z-50 max-h-72 overflow-y-auto divide-y divide-slate-800/80">
+                <div className="absolute top-full left-0 w-[240px] sm:w-full mt-1.5 bg-[#0f172a]/95 backdrop-blur-2xl border border-emerald-500/40 rounded-2xl shadow-2xl overflow-hidden z-50 max-h-72 overflow-y-auto divide-y divide-slate-800/80">
                   {results1.map((item) => (
                     <button
                       key={item.id}
                       onClick={() => handleSelectProduct(0, item)}
-                      className="w-full flex items-center gap-3 p-2.5 hover:bg-emerald-500/20 text-left transition-colors group cursor-pointer"
+                      className="w-full flex items-center gap-2.5 p-2 sm:p-2.5 hover:bg-emerald-500/20 text-left transition-colors group cursor-pointer"
                     >
-                      <div className="w-9 h-9 bg-white/10 rounded-xl p-1 shrink-0 flex items-center justify-center border border-white/10">
+                      <div className="w-8 h-8 sm:w-9 sm:h-9 bg-white/10 rounded-lg sm:rounded-xl p-1 shrink-0 flex items-center justify-center border border-white/10">
                         <img
                           src={item.image}
                           alt={item.name}
-                          className="max-h-7 max-w-full object-contain"
+                          className="max-h-6 sm:max-h-7 max-w-full object-contain"
                         />
                       </div>
                       <div className="flex-1 min-w-0">
-                        <div className="text-[10px] font-bold text-emerald-400 uppercase tracking-wider">
+                        <div className="text-[9px] sm:text-[10px] font-bold text-emerald-400 uppercase tracking-wider">
                           {item.brand}
                         </div>
-                        <div className="text-xs font-bold text-white truncate group-hover:text-emerald-300">
+                        <div className="text-[11px] sm:text-xs font-bold text-white truncate group-hover:text-emerald-300">
                           {item.name}
                         </div>
                       </div>
                       <div className="text-right shrink-0">
-                        <div className="text-[11px] font-black text-slate-200">
+                        <div className="text-[10px] sm:text-[11px] font-black text-slate-200">
                           ₺{item.basePrice?.toLocaleString('tr-TR') || '—'}
                         </div>
-                        {item.rating && (
-                          <div className="text-[9px] font-bold text-emerald-400">
-                            ★ {item.rating}
-                          </div>
-                        )}
                       </div>
                     </button>
                   ))}
@@ -382,102 +391,103 @@ export function DuelArena({ product1, product2, onProductChange }: DuelArenaProp
             </div>
 
             {/* Frosted Glass Card: Product 1 */}
-            <div className="bg-white/80 backdrop-blur-2xl border border-white/80 rounded-3xl p-5 sm:p-6 shadow-xl relative transition-all duration-300 hover:shadow-2xl hover:-translate-y-1">
-            {/* Header / Brand & Name */}
-            <div className="text-center mb-3">
-              <span className="text-[10px] font-black uppercase tracking-widest text-slate-500 block mb-0.5">
-                {product1.brand}
-              </span>
-              <h2 className="text-base sm:text-lg font-black text-slate-900 line-clamp-1" title={product1.name}>
-                {product1.name}
-              </h2>
-            </div>
-
-            {/* Product Photo on Frosted Inner Plinth */}
-            <div className="relative w-full h-44 flex items-center justify-center my-2 bg-gradient-to-b from-slate-100/50 to-white/80 rounded-2xl p-2 border border-slate-200/50">
-              <img
-                src={product1.image}
-                alt={product1.name}
-                className="max-h-36 max-w-full object-contain drop-shadow-xl"
-              />
-            </div>
-
-            {/* Big Score: 96 / 100 */}
-            <div className="text-center my-3">
-              <div className="inline-flex items-baseline gap-1">
-                <span className="text-4xl sm:text-5xl font-black text-emerald-600 tracking-tight">
-                  {score1}
+            <div className="bg-white/80 backdrop-blur-2xl border border-white/80 rounded-2xl sm:rounded-3xl p-3 sm:p-5 lg:p-6 shadow-xl relative transition-all duration-300 hover:shadow-2xl hover:-translate-y-1">
+              {/* Header / Brand & Name */}
+              <div className="text-center mb-1.5 sm:mb-3">
+                <span className="text-[8.5px] sm:text-[10px] font-black uppercase tracking-widest text-slate-500 block mb-0.5">
+                  {product1.brand}
                 </span>
-                <span className="text-xs sm:text-sm font-extrabold text-slate-400">/100</span>
+                <h2 className="text-xs sm:text-base lg:text-lg font-black text-slate-900 line-clamp-1" title={product1.name}>
+                  {product1.name}
+                </h2>
               </div>
-              <div className="text-xs font-black text-slate-600 tracking-wide mt-0.5">
-                Live price:{' '}
-                <span className="text-slate-900 font-extrabold">
-                  {product1.basePrice ? `₺${product1.basePrice.toLocaleString()}` : '124,999 TL'}
-                </span>
+
+              {/* Product Photo on Frosted Inner Plinth */}
+              <div className="relative w-full h-28 sm:h-36 lg:h-44 flex items-center justify-center my-1.5 sm:my-2 bg-gradient-to-b from-slate-100/50 to-white/80 rounded-xl sm:rounded-2xl p-1.5 sm:p-2 border border-slate-200/50">
+                <img
+                  src={product1.image}
+                  alt={product1.name}
+                  className="max-h-24 sm:max-h-32 lg:max-h-36 max-w-full object-contain drop-shadow-md sm:drop-shadow-xl"
+                />
               </div>
+
+              {/* Big Score: 96 / 100 */}
+              <div className="text-center my-1.5 sm:my-3">
+                <div className="inline-flex items-baseline gap-0.5 sm:gap-1">
+                  <span className="text-2xl sm:text-4xl lg:text-5xl font-black text-emerald-600 tracking-tight">
+                    {score1}
+                  </span>
+                  <span className="text-[10px] sm:text-xs lg:text-sm font-extrabold text-slate-400">/100</span>
+                </div>
+                <div className="text-[10px] sm:text-xs font-black text-slate-600 tracking-wide mt-0.5">
+                  <span className="hidden sm:inline">Live price: </span>
+                  <span className="text-slate-900 font-extrabold block sm:inline">
+                    {product1.basePrice ? `₺${product1.basePrice.toLocaleString()}` : '124,999 TL'}
+                  </span>
+                </div>
+              </div>
+
+              {/* Stat Power Bars (Camera, Battery, Screen) */}
+              <div className="space-y-1.5 sm:space-y-2.5 text-[10px] sm:text-xs pt-2 sm:pt-3 border-t border-slate-200/80">
+                <div>
+                  <div className="flex justify-between items-center font-bold text-slate-600 mb-0.5 sm:mb-1">
+                    <span className="flex items-center gap-1 sm:gap-1.5">
+                      <Camera className="w-3 sm:w-3.5 h-3 sm:h-3.5 text-slate-400" />
+                      <span className="text-[10px] sm:text-xs">Camera</span>
+                    </span>
+                    <span className="font-black text-slate-800 text-[10px] sm:text-xs">{stats1.camera}</span>
+                  </div>
+                  <div className="w-full bg-slate-200/70 h-1.5 sm:h-2 rounded-full overflow-hidden">
+                    <div className="bg-emerald-500 h-full rounded-full transition-all duration-700" style={{ width: `${Math.min(100, Number(stats1.camera) * 10)}%` }} />
+                  </div>
+                </div>
+
+                <div>
+                  <div className="flex justify-between items-center font-bold text-slate-600 mb-0.5 sm:mb-1">
+                    <span className="flex items-center gap-1 sm:gap-1.5">
+                      <BatteryCharging className="w-3 sm:w-3.5 h-3 sm:h-3.5 text-slate-400" />
+                      <span className="text-[10px] sm:text-xs">Battery</span>
+                    </span>
+                    <span className="font-black text-slate-800 text-[10px] sm:text-xs">{stats1.battery}</span>
+                  </div>
+                  <div className="w-full bg-slate-200/70 h-1.5 sm:h-2 rounded-full overflow-hidden">
+                    <div className="bg-emerald-500 h-full rounded-full transition-all duration-700" style={{ width: `${Math.min(100, Number(stats1.battery) * 10)}%` }} />
+                  </div>
+                </div>
+
+                <div>
+                  <div className="flex justify-between items-center font-bold text-slate-600 mb-0.5 sm:mb-1">
+                    <span className="flex items-center gap-1 sm:gap-1.5">
+                      <PhoneIcon className="w-3 sm:w-3.5 h-3 sm:h-3.5 text-slate-400" />
+                      <span className="text-[10px] sm:text-xs">Screen</span>
+                    </span>
+                    <span className="font-black text-slate-800 text-[10px] sm:text-xs">{stats1.screen}</span>
+                  </div>
+                  <div className="w-full bg-slate-200/70 h-1.5 sm:h-2 rounded-full overflow-hidden">
+                    <div className="bg-emerald-500 h-full rounded-full transition-all duration-700" style={{ width: `${Math.min(100, Number(stats1.screen) * 10)}%` }} />
+                  </div>
+                </div>
+              </div>
+
+              {/* Direct Store Button */}
+              <a
+                href={getStoreSearchUrl('hepsiburada', product1.name)}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mt-2.5 sm:mt-4 w-full bg-emerald-600 hover:bg-emerald-500 text-white font-extrabold text-[10px] sm:text-xs py-2 sm:py-2.5 px-1.5 sm:px-2 rounded-lg sm:rounded-xl flex items-center justify-center gap-1 sm:gap-1.5 transition-all shadow-md cursor-pointer text-center"
+              >
+                <span className="hidden sm:inline">Mağaza Teklifine Git</span>
+                <span className="inline sm:hidden">Mağazaya Git</span>
+                <ExternalLink className="w-3 sm:w-3.5 h-3 sm:h-3.5 shrink-0" />
+              </a>
             </div>
-
-            {/* Stat Power Bars (Camera, Battery, Screen) */}
-            <div className="space-y-2.5 text-xs pt-3 border-t border-slate-200/80">
-              <div>
-                <div className="flex justify-between items-center font-bold text-slate-600 mb-1">
-                  <span className="flex items-center gap-1.5">
-                    <Camera className="w-3.5 h-3.5 text-slate-400" />
-                    <span>Camera</span>
-                  </span>
-                  <span className="font-black text-slate-800">{stats1.camera}</span>
-                </div>
-                <div className="w-full bg-slate-200/70 h-2 rounded-full overflow-hidden">
-                  <div className="bg-emerald-500 h-full rounded-full transition-all duration-700" style={{ width: `${Math.min(100, Number(stats1.camera) * 10)}%` }} />
-                </div>
-              </div>
-
-              <div>
-                <div className="flex justify-between items-center font-bold text-slate-600 mb-1">
-                  <span className="flex items-center gap-1.5">
-                    <BatteryCharging className="w-3.5 h-3.5 text-slate-400" />
-                    <span>Battery</span>
-                  </span>
-                  <span className="font-black text-slate-800">{stats1.battery}</span>
-                </div>
-                <div className="w-full bg-slate-200/70 h-2 rounded-full overflow-hidden">
-                  <div className="bg-emerald-500 h-full rounded-full transition-all duration-700" style={{ width: `${Math.min(100, Number(stats1.battery) * 10)}%` }} />
-                </div>
-              </div>
-
-              <div>
-                <div className="flex justify-between items-center font-bold text-slate-600 mb-1">
-                  <span className="flex items-center gap-1.5">
-                    <PhoneIcon className="w-3.5 h-3.5 text-slate-400" />
-                    <span>Screen</span>
-                  </span>
-                  <span className="font-black text-slate-800">{stats1.screen}</span>
-                </div>
-                <div className="w-full bg-slate-200/70 h-2 rounded-full overflow-hidden">
-                  <div className="bg-emerald-500 h-full rounded-full transition-all duration-700" style={{ width: `${Math.min(100, Number(stats1.screen) * 10)}%` }} />
-                </div>
-              </div>
-            </div>
-
-            {/* Direct Store Button */}
-            <a
-              href={getStoreSearchUrl('hepsiburada', product1.name)}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="mt-4 w-full bg-emerald-600 hover:bg-emerald-500 text-white font-extrabold text-xs py-2.5 rounded-xl flex items-center justify-center gap-1.5 transition-all shadow-md cursor-pointer"
-            >
-              <span>Mağaza Teklifine Git</span>
-              <ExternalLink className="w-3.5 h-3.5" />
-            </a>
           </div>
-        </div>
 
           {/* ================= CENTER HERO: VS + ROUND PILLS + ROBOPENGU ================= */}
-          <div className="lg:col-span-4 flex flex-col items-center justify-center relative">
+          <div className="col-span-2 lg:col-span-4 order-3 lg:order-2 flex flex-col items-center justify-center relative mt-3 sm:mt-4 lg:mt-0">
             
-            {/* Top Center: Electric Glowing Metallic VS Medallion */}
-            <div className="relative mb-2 group cursor-pointer" onClick={() => setSelectedRound(null)}>
+            {/* Top Center: Electric Glowing Metallic VS Medallion (Desktop only, mobile has floating VS) */}
+            <div className="relative mb-2 group cursor-pointer hidden lg:block" onClick={() => setSelectedRound(null)}>
               {/* Lightning aura */}
               <div className="absolute -inset-3 bg-gradient-to-r from-cyan-400 via-emerald-400 to-cyan-400 rounded-full blur-md opacity-80 animate-pulse" />
               <div className="relative w-20 h-20 rounded-full bg-gradient-to-b from-slate-200 via-slate-100 to-slate-300 p-1 shadow-2xl border-2 border-white flex items-center justify-center">
@@ -490,12 +500,12 @@ export function DuelArena({ product1, product2, onProductChange }: DuelArenaProp
             </div>
 
             {/* Interactive Vertical Round Battle Pills (as arranged around mascot) */}
-            <div className="w-full grid grid-cols-2 gap-2 my-2 z-30">
+            <div className="w-full grid grid-cols-2 gap-1.5 sm:gap-2 my-1.5 sm:my-2 z-30">
               {/* Left Column of Pills */}
-              <div className="space-y-2">
+              <div className="space-y-1.5 sm:space-y-2">
                 <button
                   onClick={() => setSelectedRound(selectedRound === 1 ? null : 1)}
-                  className={`w-full py-1.5 px-3 rounded-full text-[10px] sm:text-[11px] font-black tracking-wide border transition-all flex items-center gap-1.5 shadow-sm cursor-pointer ${
+                  className={`w-full py-1.5 px-2 sm:px-3 rounded-xl sm:rounded-full text-[10px] sm:text-[11px] font-black tracking-wide border transition-all flex items-center gap-1 sm:gap-1.5 shadow-sm cursor-pointer ${
                     selectedRound === 1
                       ? 'bg-emerald-600 text-white border-emerald-400 ring-2 ring-emerald-300'
                       : 'bg-white/90 hover:bg-white text-slate-800 border-slate-300/80 hover:border-emerald-400'
@@ -509,7 +519,7 @@ export function DuelArena({ product1, product2, onProductChange }: DuelArenaProp
 
                 <button
                   onClick={() => setSelectedRound(selectedRound === 2 ? null : 2)}
-                  className={`w-full py-1.5 px-3 rounded-full text-[10px] sm:text-[11px] font-black tracking-wide border transition-all flex items-center gap-1.5 shadow-sm cursor-pointer ${
+                  className={`w-full py-1.5 px-2 sm:px-3 rounded-xl sm:rounded-full text-[10px] sm:text-[11px] font-black tracking-wide border transition-all flex items-center gap-1 sm:gap-1.5 shadow-sm cursor-pointer ${
                     selectedRound === 2
                       ? 'bg-emerald-600 text-white border-emerald-400 ring-2 ring-emerald-300'
                       : 'bg-white/90 hover:bg-white text-slate-800 border-slate-300/80 hover:border-emerald-400'
@@ -523,10 +533,10 @@ export function DuelArena({ product1, product2, onProductChange }: DuelArenaProp
               </div>
 
               {/* Right Column of Pills */}
-              <div className="space-y-2">
+              <div className="space-y-1.5 sm:space-y-2">
                 <button
                   onClick={() => setSelectedRound(selectedRound === 3 ? null : 3)}
-                  className={`w-full py-1.5 px-3 rounded-full text-[10px] sm:text-[11px] font-black tracking-wide border transition-all flex items-center gap-1.5 shadow-sm cursor-pointer ${
+                  className={`w-full py-1.5 px-2 sm:px-3 rounded-xl sm:rounded-full text-[10px] sm:text-[11px] font-black tracking-wide border transition-all flex items-center gap-1 sm:gap-1.5 shadow-sm cursor-pointer ${
                     selectedRound === 3
                       ? 'bg-emerald-600 text-white border-emerald-400 ring-2 ring-emerald-300'
                       : 'bg-white/90 hover:bg-white text-slate-800 border-slate-300/80 hover:border-emerald-400'
@@ -540,7 +550,7 @@ export function DuelArena({ product1, product2, onProductChange }: DuelArenaProp
 
                 <button
                   onClick={() => setSelectedRound(selectedRound === 4 ? null : 4)}
-                  className={`w-full py-1.5 px-3 rounded-full text-[10px] sm:text-[11px] font-black tracking-wide border transition-all flex items-center gap-1.5 shadow-sm cursor-pointer ${
+                  className={`w-full py-1.5 px-2 sm:px-3 rounded-xl sm:rounded-full text-[10px] sm:text-[11px] font-black tracking-wide border transition-all flex items-center gap-1 sm:gap-1.5 shadow-sm cursor-pointer ${
                     selectedRound === 4
                       ? 'bg-emerald-600 text-white border-emerald-400 ring-2 ring-emerald-300'
                       : 'bg-white/90 hover:bg-white text-slate-800 border-slate-300/80 hover:border-emerald-400'
@@ -555,30 +565,30 @@ export function DuelArena({ product1, product2, onProductChange }: DuelArenaProp
             </div>
 
             {/* 3D RoboPengu Mascot on Futuristic Pedestal */}
-            <div className="relative my-2">
+            <div className="relative my-1.5 sm:my-2">
               {/* Pedestal Shadow and Glow */}
-              <div className="absolute -bottom-2 left-1/2 -translate-x-1/2 w-48 h-6 bg-emerald-500/30 rounded-full blur-lg pointer-events-none" />
-              <div className="w-44 h-10 bg-white/70 backdrop-blur-md rounded-full border border-slate-200 shadow-sm mx-auto flex items-center justify-center absolute -bottom-3 left-1/2 -translate-x-1/2 z-0" />
+              <div className="absolute -bottom-2 left-1/2 -translate-x-1/2 w-36 sm:w-48 h-5 sm:h-6 bg-emerald-500/30 rounded-full blur-lg pointer-events-none" />
+              <div className="w-32 sm:w-44 h-8 sm:h-10 bg-white/70 backdrop-blur-md rounded-full border border-slate-200 shadow-sm mx-auto flex items-center justify-center absolute -bottom-2 sm:-bottom-3 left-1/2 -translate-x-1/2 z-0" />
 
               <img
                 src="/assets/robopengu.png"
                 alt="RoboPengu Düello Hakemi"
-                className="w-40 sm:w-48 h-auto object-contain mx-auto relative z-10 filter drop-shadow-[0_12px_24px_rgba(0,0,0,0.25)] hover:scale-105 transition-transform duration-300"
+                className="w-28 sm:w-40 lg:w-48 h-auto object-contain mx-auto relative z-10 filter drop-shadow-[0_12px_24px_rgba(0,0,0,0.25)] hover:scale-105 transition-transform duration-300"
               />
             </div>
 
             {/* RoboPengu Hologram Badge / AI Verdict Pill */}
-            <div className="w-full bg-white/90 backdrop-blur-md border border-emerald-300/80 rounded-2xl p-3 shadow-md text-left mt-2 space-y-1 z-20">
+            <div className="w-full bg-white/90 backdrop-blur-md border border-emerald-300/80 rounded-2xl p-2.5 sm:p-3 shadow-md text-left mt-1.5 sm:mt-2 space-y-1 z-20">
               <div className="flex items-center justify-between">
-                <span className="text-[10px] font-black text-emerald-700 flex items-center gap-1">
+                <span className="text-[9.5px] sm:text-[10px] font-black text-emerald-700 flex items-center gap-1">
                   <Sparkles className="w-3 h-3 text-emerald-600" />
                   <span>RoboPengu Hakem Kararı</span>
                 </span>
-                <span className="text-[9px] font-black bg-emerald-100 text-emerald-800 px-2 py-0.5 rounded-md">
+                <span className="text-[8.5px] sm:text-[9px] font-black bg-emerald-100 text-emerald-800 px-2 py-0.5 rounded-md">
                   AI Hakem
                 </span>
               </div>
-              <p className="text-xs text-slate-700 leading-snug font-medium">
+              <p className="text-[11px] sm:text-xs text-slate-700 leading-snug font-medium">
                 {overallWinner === 1
                   ? `🏆 ${product1.name} optimize işletim sistemi ve genel puan üstünlüğüyle düelloyu önde götürüyor.`
                   : `🏆 ${product2.name} zengin donanım ve ekran/kamera yetenekleriyle düelloyu önde götürüyor.`}
@@ -589,37 +599,37 @@ export function DuelArena({ product1, product2, onProductChange }: DuelArenaProp
             <div className="w-full grid grid-cols-2 gap-2 mt-2 z-20">
               <button
                 onClick={() => handleVote(1)}
-                className={`py-2 px-3 rounded-xl text-xs font-black transition-all flex items-center justify-center gap-1 cursor-pointer border ${
+                className={`py-2 px-2 sm:px-3 rounded-xl text-[11px] sm:text-xs font-black transition-all flex items-center justify-center gap-1 cursor-pointer border ${
                   userVote === 1
                     ? 'bg-emerald-600 border-emerald-500 text-white shadow-md'
                     : 'bg-white/80 border-slate-200 text-slate-700 hover:bg-white'
                 }`}
               >
-                <ThumbsUp className="w-3.5 h-3.5" />
-                <span>{product1.brand} ({voteStats.p1Percent}%)</span>
+                <ThumbsUp className="w-3 sm:w-3.5 h-3 sm:h-3.5" />
+                <span className="truncate">{product1.brand} ({voteStats.p1Percent}%)</span>
               </button>
 
               <button
                 onClick={() => handleVote(2)}
-                className={`py-2 px-3 rounded-xl text-xs font-black transition-all flex items-center justify-center gap-1 cursor-pointer border ${
+                className={`py-2 px-2 sm:px-3 rounded-xl text-[11px] sm:text-xs font-black transition-all flex items-center justify-center gap-1 cursor-pointer border ${
                   userVote === 2
                     ? 'bg-emerald-600 border-emerald-500 text-white shadow-md'
                     : 'bg-white/80 border-slate-200 text-slate-700 hover:bg-white'
                 }`}
               >
-                <ThumbsUp className="w-3.5 h-3.5" />
-                <span>{product2.brand} ({voteStats.p2Percent}%)</span>
+                <ThumbsUp className="w-3 sm:w-3.5 h-3 sm:h-3.5" />
+                <span className="truncate">{product2.brand} ({voteStats.p2Percent}%)</span>
               </button>
             </div>
 
           </div>
 
           {/* ================= RIGHT COLUMN: SEARCH COMBOBOX 2 + FROSTED GLASS CARD ================= */}
-          <div className="lg:col-span-4 space-y-3 relative z-30">
+          <div className="col-span-1 lg:col-span-4 order-2 lg:order-3 space-y-2 sm:space-y-3 relative z-30">
             {/* Search Combobox 2 */}
             <div ref={dropdownRef2} className="relative z-40">
               <div className="relative flex items-center">
-                <Search className="absolute left-3.5 w-4 h-4 text-cyan-400 pointer-events-none" />
+                <Search className="absolute left-2.5 sm:left-3.5 w-3.5 sm:w-4 h-3.5 sm:h-4 text-cyan-400 pointer-events-none" />
                 <input
                   type="text"
                   value={search2}
@@ -628,11 +638,11 @@ export function DuelArena({ product1, product2, onProductChange }: DuelArenaProp
                     setOpenDropdown2(true);
                   }}
                   onFocus={() => setOpenDropdown2(true)}
-                  placeholder="2. Cihazı Ara veya Değiştir..."
-                  className="w-full pl-9 pr-8 py-2.5 bg-slate-900/85 backdrop-blur-xl border border-cyan-400/50 hover:border-cyan-400 focus:border-cyan-300 rounded-2xl text-xs font-semibold text-white placeholder-slate-400 shadow-[0_4px_20px_rgba(0,0,0,0.3)] focus:outline-none focus:ring-2 focus:ring-cyan-400/40 transition-all"
+                  placeholder="2. Cihaz..."
+                  className="w-full pl-7 sm:pl-9 pr-6 sm:pr-8 py-2 sm:py-2.5 bg-slate-900/85 backdrop-blur-xl border border-cyan-400/50 hover:border-cyan-400 focus:border-cyan-300 rounded-xl sm:rounded-2xl text-[11px] sm:text-xs font-semibold text-white placeholder-slate-400 shadow-[0_4px_20px_rgba(0,0,0,0.3)] focus:outline-none focus:ring-2 focus:ring-cyan-400/40 transition-all"
                 />
                 {loading2 ? (
-                  <Loader2 className="absolute right-3 w-3.5 h-3.5 text-cyan-400 animate-spin" />
+                  <Loader2 className="absolute right-2 sm:right-3 w-3 sm:w-3.5 h-3 sm:h-3.5 text-cyan-400 animate-spin" />
                 ) : search2 ? (
                   <button
                     onClick={() => {
@@ -640,46 +650,41 @@ export function DuelArena({ product1, product2, onProductChange }: DuelArenaProp
                       setResults2([]);
                       setOpenDropdown2(false);
                     }}
-                    className="absolute right-3 text-slate-400 hover:text-white cursor-pointer"
+                    className="absolute right-2 sm:right-3 text-slate-400 hover:text-white cursor-pointer"
                   >
-                    <X className="w-3.5 h-3.5" />
+                    <X className="w-3 sm:w-3.5 h-3 sm:h-3.5" />
                   </button>
                 ) : null}
               </div>
 
               {/* Autocomplete Dropdown Menu */}
               {openDropdown2 && results2.length > 0 && (
-                <div className="absolute top-full left-0 right-0 mt-1.5 bg-[#0f172a]/95 backdrop-blur-2xl border border-cyan-500/40 rounded-2xl shadow-2xl overflow-hidden z-50 max-h-72 overflow-y-auto divide-y divide-slate-800/80">
+                <div className="absolute top-full right-0 sm:left-0 w-[240px] sm:w-full mt-1.5 bg-[#0f172a]/95 backdrop-blur-2xl border border-cyan-500/40 rounded-2xl shadow-2xl overflow-hidden z-50 max-h-72 overflow-y-auto divide-y divide-slate-800/80">
                   {results2.map((item) => (
                     <button
                       key={item.id}
                       onClick={() => handleSelectProduct(1, item)}
-                      className="w-full flex items-center gap-3 p-2.5 hover:bg-cyan-500/20 text-left transition-colors group cursor-pointer"
+                      className="w-full flex items-center gap-2.5 p-2 sm:p-2.5 hover:bg-cyan-500/20 text-left transition-colors group cursor-pointer"
                     >
-                      <div className="w-9 h-9 bg-white/10 rounded-xl p-1 shrink-0 flex items-center justify-center border border-white/10">
+                      <div className="w-8 h-8 sm:w-9 sm:h-9 bg-white/10 rounded-lg sm:rounded-xl p-1 shrink-0 flex items-center justify-center border border-white/10">
                         <img
                           src={item.image}
                           alt={item.name}
-                          className="max-h-7 max-w-full object-contain"
+                          className="max-h-6 sm:max-h-7 max-w-full object-contain"
                         />
                       </div>
                       <div className="flex-1 min-w-0">
-                        <div className="text-[10px] font-bold text-cyan-400 uppercase tracking-wider">
+                        <div className="text-[9px] sm:text-[10px] font-bold text-cyan-400 uppercase tracking-wider">
                           {item.brand}
                         </div>
-                        <div className="text-xs font-bold text-white truncate group-hover:text-cyan-300">
+                        <div className="text-[11px] sm:text-xs font-bold text-white truncate group-hover:text-cyan-300">
                           {item.name}
                         </div>
                       </div>
                       <div className="text-right shrink-0">
-                        <div className="text-[11px] font-black text-slate-200">
+                        <div className="text-[10px] sm:text-[11px] font-black text-slate-200">
                           ₺{item.basePrice?.toLocaleString('tr-TR') || '—'}
                         </div>
-                        {item.rating && (
-                          <div className="text-[9px] font-bold text-cyan-400">
-                            ★ {item.rating}
-                          </div>
-                        )}
                       </div>
                     </button>
                   ))}
@@ -688,96 +693,97 @@ export function DuelArena({ product1, product2, onProductChange }: DuelArenaProp
             </div>
 
             {/* Frosted Glass Card: Product 2 */}
-            <div className="bg-white/80 backdrop-blur-2xl border border-white/80 rounded-3xl p-5 sm:p-6 shadow-xl relative transition-all duration-300 hover:shadow-2xl hover:-translate-y-1">
-            {/* Header / Brand & Name */}
-            <div className="text-center mb-3">
-              <span className="text-[10px] font-black uppercase tracking-widest text-slate-500 block mb-0.5">
-                {product2.brand}
-              </span>
-              <h2 className="text-base sm:text-lg font-black text-slate-900 line-clamp-1" title={product2.name}>
-                {product2.name}
-              </h2>
-            </div>
-
-            {/* Product Photo on Frosted Inner Plinth */}
-            <div className="relative w-full h-44 flex items-center justify-center my-2 bg-gradient-to-b from-slate-100/50 to-white/80 rounded-2xl p-2 border border-slate-200/50">
-              <img
-                src={product2.image}
-                alt={product2.name}
-                className="max-h-36 max-w-full object-contain drop-shadow-xl"
-              />
-            </div>
-
-            {/* Big Score: 95 / 100 */}
-            <div className="text-center my-3">
-              <div className="inline-flex items-baseline gap-1">
-                <span className="text-4xl sm:text-5xl font-black text-emerald-600 tracking-tight">
-                  {score2}
+            <div className="bg-white/80 backdrop-blur-2xl border border-white/80 rounded-2xl sm:rounded-3xl p-3 sm:p-5 lg:p-6 shadow-xl relative transition-all duration-300 hover:shadow-2xl hover:-translate-y-1">
+              {/* Header / Brand & Name */}
+              <div className="text-center mb-1.5 sm:mb-3">
+                <span className="text-[8.5px] sm:text-[10px] font-black uppercase tracking-widest text-slate-500 block mb-0.5">
+                  {product2.brand}
                 </span>
-                <span className="text-xs sm:text-sm font-extrabold text-slate-400">/100</span>
+                <h2 className="text-xs sm:text-base lg:text-lg font-black text-slate-900 line-clamp-1" title={product2.name}>
+                  {product2.name}
+                </h2>
               </div>
-              <div className="text-xs font-black text-slate-600 tracking-wide mt-0.5">
-                Live price:{' '}
-                <span className="text-slate-900 font-extrabold">
-                  {product2.basePrice ? `₺${product2.basePrice.toLocaleString()}` : '118,499 TL'}
-                </span>
+
+              {/* Product Photo on Frosted Inner Plinth */}
+              <div className="relative w-full h-28 sm:h-36 lg:h-44 flex items-center justify-center my-1.5 sm:my-2 bg-gradient-to-b from-slate-100/50 to-white/80 rounded-xl sm:rounded-2xl p-1.5 sm:p-2 border border-slate-200/50">
+                <img
+                  src={product2.image}
+                  alt={product2.name}
+                  className="max-h-24 sm:max-h-32 lg:max-h-36 max-w-full object-contain drop-shadow-md sm:drop-shadow-xl"
+                />
               </div>
+
+              {/* Big Score: 95 / 100 */}
+              <div className="text-center my-1.5 sm:my-3">
+                <div className="inline-flex items-baseline gap-0.5 sm:gap-1">
+                  <span className="text-2xl sm:text-4xl lg:text-5xl font-black text-emerald-600 tracking-tight">
+                    {score2}
+                  </span>
+                  <span className="text-[10px] sm:text-xs lg:text-sm font-extrabold text-slate-400">/100</span>
+                </div>
+                <div className="text-[10px] sm:text-xs font-black text-slate-600 tracking-wide mt-0.5">
+                  <span className="hidden sm:inline">Live price: </span>
+                  <span className="text-slate-900 font-extrabold block sm:inline">
+                    {product2.basePrice ? `₺${product2.basePrice.toLocaleString()}` : '118,499 TL'}
+                  </span>
+                </div>
+              </div>
+
+              {/* Stat Power Bars (Camera, Battery, Screen) */}
+              <div className="space-y-1.5 sm:space-y-2.5 text-[10px] sm:text-xs pt-2 sm:pt-3 border-t border-slate-200/80">
+                <div>
+                  <div className="flex justify-between items-center font-bold text-slate-600 mb-0.5 sm:mb-1">
+                    <span className="flex items-center gap-1 sm:gap-1.5">
+                      <Camera className="w-3 sm:w-3.5 h-3 sm:h-3.5 text-slate-400" />
+                      <span className="text-[10px] sm:text-xs">Camera</span>
+                    </span>
+                    <span className="font-black text-slate-800 text-[10px] sm:text-xs">{stats2.camera}</span>
+                  </div>
+                  <div className="w-full bg-slate-200/70 h-1.5 sm:h-2 rounded-full overflow-hidden">
+                    <div className="bg-emerald-500 h-full rounded-full transition-all duration-700" style={{ width: `${Math.min(100, Number(stats2.camera) * 10)}%` }} />
+                  </div>
+                </div>
+
+                <div>
+                  <div className="flex justify-between items-center font-bold text-slate-600 mb-0.5 sm:mb-1">
+                    <span className="flex items-center gap-1 sm:gap-1.5">
+                      <BatteryCharging className="w-3 sm:w-3.5 h-3 sm:h-3.5 text-slate-400" />
+                      <span className="text-[10px] sm:text-xs">Battery</span>
+                    </span>
+                    <span className="font-black text-slate-800 text-[10px] sm:text-xs">{stats2.battery}</span>
+                  </div>
+                  <div className="w-full bg-slate-200/70 h-1.5 sm:h-2 rounded-full overflow-hidden">
+                    <div className="bg-emerald-500 h-full rounded-full transition-all duration-700" style={{ width: `${Math.min(100, Number(stats2.battery) * 10)}%` }} />
+                  </div>
+                </div>
+
+                <div>
+                  <div className="flex justify-between items-center font-bold text-slate-600 mb-0.5 sm:mb-1">
+                    <span className="flex items-center gap-1 sm:gap-1.5">
+                      <PhoneIcon className="w-3 sm:w-3.5 h-3 sm:h-3.5 text-slate-400" />
+                      <span className="text-[10px] sm:text-xs">Screen</span>
+                    </span>
+                    <span className="font-black text-slate-800 text-[10px] sm:text-xs">{stats2.screen}</span>
+                  </div>
+                  <div className="w-full bg-slate-200/70 h-1.5 sm:h-2 rounded-full overflow-hidden">
+                    <div className="bg-emerald-500 h-full rounded-full transition-all duration-700" style={{ width: `${Math.min(100, Number(stats2.screen) * 10)}%` }} />
+                  </div>
+                </div>
+              </div>
+
+              {/* Direct Store Button */}
+              <a
+                href={getStoreSearchUrl('hepsiburada', product2.name)}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mt-2.5 sm:mt-4 w-full bg-emerald-600 hover:bg-emerald-500 text-white font-extrabold text-[10px] sm:text-xs py-2 sm:py-2.5 px-1.5 sm:px-2 rounded-lg sm:rounded-xl flex items-center justify-center gap-1 sm:gap-1.5 transition-all shadow-md cursor-pointer text-center"
+              >
+                <span className="hidden sm:inline">Mağaza Teklifine Git</span>
+                <span className="inline sm:hidden">Mağazaya Git</span>
+                <ExternalLink className="w-3 sm:w-3.5 h-3 sm:h-3.5 shrink-0" />
+              </a>
             </div>
-
-            {/* Stat Power Bars (Camera, Battery, Screen) */}
-            <div className="space-y-2.5 text-xs pt-3 border-t border-slate-200/80">
-              <div>
-                <div className="flex justify-between items-center font-bold text-slate-600 mb-1">
-                  <span className="flex items-center gap-1.5">
-                    <Camera className="w-3.5 h-3.5 text-slate-400" />
-                    <span>Camera</span>
-                  </span>
-                  <span className="font-black text-slate-800">{stats2.camera}</span>
-                </div>
-                <div className="w-full bg-slate-200/70 h-2 rounded-full overflow-hidden">
-                  <div className="bg-emerald-500 h-full rounded-full transition-all duration-700" style={{ width: `${Math.min(100, Number(stats2.camera) * 10)}%` }} />
-                </div>
-              </div>
-
-              <div>
-                <div className="flex justify-between items-center font-bold text-slate-600 mb-1">
-                  <span className="flex items-center gap-1.5">
-                    <BatteryCharging className="w-3.5 h-3.5 text-slate-400" />
-                    <span>Battery</span>
-                  </span>
-                  <span className="font-black text-slate-800">{stats2.battery}</span>
-                </div>
-                <div className="w-full bg-slate-200/70 h-2 rounded-full overflow-hidden">
-                  <div className="bg-emerald-500 h-full rounded-full transition-all duration-700" style={{ width: `${Math.min(100, Number(stats2.battery) * 10)}%` }} />
-                </div>
-              </div>
-
-              <div>
-                <div className="flex justify-between items-center font-bold text-slate-600 mb-1">
-                  <span className="flex items-center gap-1.5">
-                    <PhoneIcon className="w-3.5 h-3.5 text-slate-400" />
-                    <span>Screen</span>
-                  </span>
-                  <span className="font-black text-slate-800">{stats2.screen}</span>
-                </div>
-                <div className="w-full bg-slate-200/70 h-2 rounded-full overflow-hidden">
-                  <div className="bg-emerald-500 h-full rounded-full transition-all duration-700" style={{ width: `${Math.min(100, Number(stats2.screen) * 10)}%` }} />
-                </div>
-              </div>
-            </div>
-
-            {/* Direct Store Button */}
-            <a
-              href={getStoreSearchUrl('hepsiburada', product2.name)}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="mt-4 w-full bg-emerald-600 hover:bg-emerald-500 text-white font-extrabold text-xs py-2.5 rounded-xl flex items-center justify-center gap-1.5 transition-all shadow-md cursor-pointer"
-            >
-              <span>Mağaza Teklifine Git</span>
-              <ExternalLink className="w-3.5 h-3.5" />
-            </a>
           </div>
-        </div>
 
         </div>
 
