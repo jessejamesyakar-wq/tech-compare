@@ -197,6 +197,11 @@ export function DuelArena({ product1, product2, onProductChange }: DuelArenaProp
   const s1 = getSpecs(product1);
   const s2 = getSpecs(product2);
 
+  // Category Awareness
+  const category = (product1 as any).category || (product2 as any).category || 'smartphones';
+  const isTV = category === 'tvs';
+  const isLaptop = category === 'laptops';
+
   // Benchmark / AnTuTu - strictly sourced from verified specs
   const antutu1 = typeof s1.processor?.antutuScore === 'number' && s1.processor.antutuScore > 0 ? s1.processor.antutuScore : null;
   const antutu2 = typeof s2.processor?.antutuScore === 'number' && s2.processor.antutuScore > 0 ? s2.processor.antutuScore : null;
@@ -225,6 +230,182 @@ export function DuelArena({ product1, product2, onProductChange }: DuelArenaProp
     battery: calc10(s2.battery?.capacitymAh, 5500),
     screen: calc10(s2.screen?.brightnessNits || s2.screen?.brightness, 3000)
   };
+
+  // TV Metrics
+  const tvDisplayScore = (tech?: string) => {
+    if (!tech) return 7.5;
+    const t = tech.toLowerCase();
+    if (t.includes('oled evo') || t.includes('qd-oled') || t.includes('oled+')) return 9.9;
+    if (t.includes('oled')) return 9.6;
+    if (t.includes('mini-led') || t.includes('neo qled')) return 9.2;
+    if (t.includes('qled')) return 8.5;
+    return 7.5;
+  };
+
+  const tv1Refresh = s1.refreshRateHz || s1.screen?.refreshRate || 120;
+  const tv2Refresh = s2.refreshRateHz || s2.screen?.refreshRate || 120;
+  const tv1Audio = s1.audioPowerWatts || null;
+  const tv2Audio = s2.audioPowerWatts || null;
+  const tv1Size = s1.screenSizeInches || null;
+  const tv2Size = s2.screenSizeInches || null;
+
+  interface StatBarItem {
+    id: string;
+    label: string;
+    icon: React.ReactNode;
+    val: string;
+    score10: number | null;
+  }
+
+  let statBars1: StatBarItem[] = [];
+  let statBars2: StatBarItem[] = [];
+
+  if (isTV) {
+    statBars1 = [
+      {
+        id: 'panel',
+        label: 'Panel & Çözünürlük',
+        icon: <TvIcon className="w-3 sm:w-3.5 h-3 sm:h-3.5 text-slate-400 shrink-0" />,
+        val: `${s1.displayTech || 'OLED'}${tv1Size ? ` (${tv1Size}")` : ''}`,
+        score10: tvDisplayScore(s1.displayTech)
+      },
+      {
+        id: 'refresh',
+        label: 'Tazeleme Hızı',
+        icon: <Zap className="w-3 sm:w-3.5 h-3 sm:h-3.5 text-slate-400 shrink-0" />,
+        val: `${tv1Refresh} Hz${s1.gamingFeatures?.length ? ' • VRR' : ''}`,
+        score10: tv1Refresh >= 144 ? 10.0 : (tv1Refresh >= 120 ? 9.2 : 6.5)
+      },
+      {
+        id: 'audio',
+        label: 'Ses Sistemi',
+        icon: <Award className="w-3 sm:w-3.5 h-3 sm:h-3.5 text-slate-400 shrink-0" />,
+        val: tv1Audio ? `${tv1Audio}W${s1.dolbyAtmos !== false ? ' Atmos' : ''}` : '20W Standart',
+        score10: tv1Audio ? Math.min(10.0, Math.max(4.0, (tv1Audio / 70) * 10)) : 6.0
+      }
+    ];
+
+    statBars2 = [
+      {
+        id: 'panel',
+        label: 'Panel & Çözünürlük',
+        icon: <TvIcon className="w-3 sm:w-3.5 h-3 sm:h-3.5 text-slate-400 shrink-0" />,
+        val: `${s2.displayTech || 'OLED'}${tv2Size ? ` (${tv2Size}")` : ''}`,
+        score10: tvDisplayScore(s2.displayTech)
+      },
+      {
+        id: 'refresh',
+        label: 'Tazeleme Hızı',
+        icon: <Zap className="w-3 sm:w-3.5 h-3 sm:h-3.5 text-slate-400 shrink-0" />,
+        val: `${tv2Refresh} Hz${s2.gamingFeatures?.length ? ' • VRR' : ''}`,
+        score10: tv2Refresh >= 144 ? 10.0 : (tv2Refresh >= 120 ? 9.2 : 6.5)
+      },
+      {
+        id: 'audio',
+        label: 'Ses Sistemi',
+        icon: <Award className="w-3 sm:w-3.5 h-3 sm:h-3.5 text-slate-400 shrink-0" />,
+        val: tv2Audio ? `${tv2Audio}W${s2.dolbyAtmos !== false ? ' Atmos' : ''}` : '20W Standart',
+        score10: tv2Audio ? Math.min(10.0, Math.max(4.0, (tv2Audio / 70) * 10)) : 6.0
+      }
+    ];
+  } else if (isLaptop) {
+    statBars1 = [
+      {
+        id: 'cpu',
+        label: 'İşlemci (CPU)',
+        icon: <Cpu className="w-3 sm:w-3.5 h-3 sm:h-3.5 text-slate-400 shrink-0" />,
+        val: s1.processor || 'Çok Çekirdek',
+        score10: 9.0
+      },
+      {
+        id: 'gpu',
+        label: 'Grafik Kartı (GPU)',
+        icon: <Zap className="w-3 sm:w-3.5 h-3 sm:h-3.5 text-slate-400 shrink-0" />,
+        val: s1.gpu || 'Dahili GPU',
+        score10: 8.8
+      },
+      {
+        id: 'mobility',
+        label: 'Pil / Ağırlık',
+        icon: <BatteryCharging className="w-3 sm:w-3.5 h-3 sm:h-3.5 text-slate-400 shrink-0" />,
+        val: s1.batteryCapacityWh ? `${s1.batteryCapacityWh} Wh` : (s1.weightKg ? `${s1.weightKg} kg` : 'Taşınabilir'),
+        score10: 8.5
+      }
+    ];
+
+    statBars2 = [
+      {
+        id: 'cpu',
+        label: 'İşlemci (CPU)',
+        icon: <Cpu className="w-3 sm:w-3.5 h-3 sm:h-3.5 text-slate-400 shrink-0" />,
+        val: s2.processor || 'Çok Çekirdek',
+        score10: 9.0
+      },
+      {
+        id: 'gpu',
+        label: 'Grafik Kartı (GPU)',
+        icon: <Zap className="w-3 sm:w-3.5 h-3 sm:h-3.5 text-slate-400 shrink-0" />,
+        val: s2.gpu || 'Dahili GPU',
+        score10: 8.8
+      },
+      {
+        id: 'mobility',
+        label: 'Pil / Ağırlık',
+        icon: <BatteryCharging className="w-3 sm:w-3.5 h-3 sm:h-3.5 text-slate-400 shrink-0" />,
+        val: s2.batteryCapacityWh ? `${s2.batteryCapacityWh} Wh` : (s2.weightKg ? `${s2.weightKg} kg` : 'Taşınabilir'),
+        score10: 8.5
+      }
+    ];
+  } else {
+    // Smartphones (default)
+    statBars1 = [
+      {
+        id: 'camera',
+        label: 'Kamera',
+        icon: <Camera className="w-3 sm:w-3.5 h-3 sm:h-3.5 text-slate-400 shrink-0" />,
+        val: stats1.camera ? `${stats1.camera}/10` : 'Doğrulanmış veri yok',
+        score10: stats1.camera ? Number(stats1.camera) : null
+      },
+      {
+        id: 'battery',
+        label: 'Batarya',
+        icon: <BatteryCharging className="w-3 sm:w-3.5 h-3 sm:h-3.5 text-slate-400 shrink-0" />,
+        val: stats1.battery ? `${stats1.battery}/10` : 'Doğrulanmış veri yok',
+        score10: stats1.battery ? Number(stats1.battery) : null
+      },
+      {
+        id: 'screen',
+        label: 'Ekran',
+        icon: <PhoneIcon className="w-3 sm:w-3.5 h-3 sm:h-3.5 text-slate-400 shrink-0" />,
+        val: stats1.screen ? `${stats1.screen}/10` : 'Doğrulanmış veri yok',
+        score10: stats1.screen ? Number(stats1.screen) : null
+      }
+    ];
+
+    statBars2 = [
+      {
+        id: 'camera',
+        label: 'Kamera',
+        icon: <Camera className="w-3 sm:w-3.5 h-3 sm:h-3.5 text-slate-400 shrink-0" />,
+        val: stats2.camera ? `${stats2.camera}/10` : 'Doğrulanmış veri yok',
+        score10: stats2.camera ? Number(stats2.camera) : null
+      },
+      {
+        id: 'battery',
+        label: 'Batarya',
+        icon: <BatteryCharging className="w-3 sm:w-3.5 h-3 sm:h-3.5 text-slate-400 shrink-0" />,
+        val: stats2.battery ? `${stats2.battery}/10` : 'Doğrulanmış veri yok',
+        score10: stats2.battery ? Number(stats2.battery) : null
+      },
+      {
+        id: 'screen',
+        label: 'Ekran',
+        icon: <PhoneIcon className="w-3 sm:w-3.5 h-3 sm:h-3.5 text-slate-400 shrink-0" />,
+        val: stats2.screen ? `${stats2.screen}/10` : 'Doğrulanmış veri yok',
+        score10: stats2.screen ? Number(stats2.screen) : null
+      }
+    ];
+  }
 
   // Overall Score (100-scale) - Real verified data only, never fabricate 4.8 / 4.7
   const score1 = getProductScore(product1);
@@ -267,66 +448,188 @@ export function DuelArena({ product1, product2, onProductChange }: DuelArenaProp
     ? (bat1 === bat2 ? 'Eşit batarya kapasitesi' : `${Math.abs(bat1 - bat2)} mAh kapasite farkı`)
     : 'Doğrulanmış kıyas verisi yok';
 
-  // Rounds configuration matching the reference UI
-  const roundDefs: {
+  // Dynamic rounds configuration based on category
+  let roundDefs: {
     id: number;
     title: string;
     shortTitle: string;
+    icon: string;
     winner?: 1 | 2 | 'tie';
     p1Val: string;
     p2Val: string;
     p1Sub: string;
     p2Sub: string;
     diff: string;
-  }[] = [
-    {
-      id: 1,
-      title: 'RAUNT 1: EKRAN',
-      shortTitle: 'Ekran & Parlaklık',
-      winner: nitsWinner,
-      p1Val: nits1 ? `${nits1} nits Peak` : 'Doğrulanmış veri yok',
-      p2Val: nits2 ? `${nits2} nits Peak` : 'Doğrulanmış veri yok',
-      p1Sub: s1.screen?.type || `${product1.brand} Ekran Paneli`,
-      p2Sub: s2.screen?.type || `${product2.brand} Ekran Paneli`,
-      diff: nitsDiff
-    },
-    {
-      id: 2,
-      title: 'RAUNT 2: PERFORMANS',
-      shortTitle: 'İşlemci & AnTuTu V10',
-      winner: antutuWinner,
-      p1Val: antutu1 ? `${(antutu1 / 1000).toFixed(0)}k puan` : 'Doğrulanmış veri yok',
-      p2Val: antutu2 ? `${(antutu2 / 1000).toFixed(0)}k puan` : 'Doğrulanmış veri yok',
-      p1Sub: s1.processor?.chip || `${product1.brand} Çip Mimarisi`,
-      p2Sub: s2.processor?.chip || `${product2.brand} Çip Mimarisi`,
-      diff: antutuDiff
-    },
-    {
-      id: 3,
-      title: 'RAUNT 3: KAMERA',
-      shortTitle: 'Kamera & Video Çekimi',
-      winner: camWinner,
-      p1Val: s1.camera?.mainMp || 'Doğrulanmış veri yok',
-      p2Val: s2.camera?.mainMp || 'Doğrulanmış veri yok',
-      p1Sub: s1.camera?.videoRes || 'Yüksek Çözünürlüklü Video',
-      p2Sub: s2.camera?.videoRes || 'Yüksek Çözünürlüklü Video',
-      diff: camDiff
-    },
-    {
-      id: 4,
-      title: 'RAUNT 4: BATARYA',
-      shortTitle: 'Batarya Kapasitesi & Şarj',
-      winner: batWinner,
-      p1Val: bat1 ? `${bat1} mAh${watt1 ? ` (${watt1}W)` : ''}` : 'Doğrulanmış veri yok',
-      p2Val: bat2 ? `${bat2} mAh${watt2 ? ` (${watt2}W)` : ''}` : 'Doğrulanmış veri yok',
-      p1Sub: watt1 ? `${watt1}W Hızlı Şarj` : (bat1 ? 'Standart Şarj' : 'Doğrulanmış şarj verisi yok'),
-      p2Sub: watt2 ? `${watt2}W Hızlı Şarj` : (bat2 ? 'Standart Şarj' : 'Doğrulanmış şarj verisi yok'),
-      diff: batDiff
-    }
-  ];
+  }[] = [];
+
+  if (isTV) {
+    const tvSizeWinner: 1 | 2 | 'tie' | undefined = (tv1Size && tv2Size)
+      ? (tv1Size === tv2Size ? 'tie' : (tv1Size > tv2Size ? 1 : 2))
+      : undefined;
+    const tvRefreshWinner: 1 | 2 | 'tie' | undefined = (tv1Refresh && tv2Refresh)
+      ? (tv1Refresh === tv2Refresh ? 'tie' : (tv1Refresh > tv2Refresh ? 1 : 2))
+      : undefined;
+    const tvAudioWinner: 1 | 2 | 'tie' | undefined = (tv1Audio && tv2Audio)
+      ? (tv1Audio === tv2Audio ? 'tie' : (tv1Audio > tv2Audio ? 1 : 2))
+      : undefined;
+
+    roundDefs = [
+      {
+        id: 1,
+        title: 'RAUNT 1: PANEL & GÖRÜNTÜ',
+        shortTitle: 'Panel & Çözünürlük',
+        icon: '🖥️',
+        winner: tvSizeWinner,
+        p1Val: `${s1.displayTech || 'OLED'} ${tv1Size ? `(${tv1Size}")` : ''}`,
+        p2Val: `${s2.displayTech || 'OLED'} ${tv2Size ? `(${tv2Size}")` : ''}`,
+        p1Sub: s1.resolution || '4K Ultra HD',
+        p2Sub: s2.resolution || '4K Ultra HD',
+        diff: (tv1Size && tv2Size) ? (tv1Size === tv2Size ? 'Eşit ekran boyutu ve premium panel mimarisi' : `${Math.abs(tv1Size - tv2Size)} inç ekran boyutu farkı`) : 'Ekran paneli ve çözünürlük kıyası'
+      },
+      {
+        id: 2,
+        title: 'RAUNT 2: HIZ & YENİLEME',
+        shortTitle: 'Tazeleme Hızı & Oyun',
+        icon: '⚡',
+        winner: tvRefreshWinner,
+        p1Val: `${tv1Refresh} Hz`,
+        p2Val: `${tv2Refresh} Hz`,
+        p1Sub: s1.gamingFeatures?.[0] || 'VRR & ALLM Destekli',
+        p2Sub: s2.gamingFeatures?.[0] || 'VRR & ALLM Destekli',
+        diff: (tv1Refresh && tv2Refresh && tv1Refresh !== tv2Refresh) ? `${Math.abs(tv1Refresh - tv2Refresh)} Hz tazeleme farkı` : 'Akıcı oyun ve konsol tazeleme hızı'
+      },
+      {
+        id: 3,
+        title: 'RAUNT 3: SES SİSTEMİ',
+        shortTitle: 'Hoparlör Gücü & Akustik',
+        icon: '🔊',
+        winner: tvAudioWinner,
+        p1Val: tv1Audio ? `${tv1Audio}W Hoparlör` : 'Doğrulanmış ses verisi yok',
+        p2Val: tv2Audio ? `${tv2Audio}W Hoparlör` : 'Doğrulanmış ses verisi yok',
+        p1Sub: s1.dolbyAtmos !== false ? 'Dolby Atmos Desteği' : 'Dahili Hoparlör',
+        p2Sub: s2.dolbyAtmos !== false ? 'Dolby Atmos Desteği' : 'Dahili Hoparlör',
+        diff: (tv1Audio && tv2Audio) ? (tv1Audio === tv2Audio ? 'Eşit ses çıkış gücü seviyesi' : `${Math.abs(tv1Audio - tv2Audio)}W ses çıkış gücü farkı`) : 'Dahili ses sistemi kıyası'
+      },
+      {
+        id: 4,
+        title: 'RAUNT 4: SMART TV & PORTLAR',
+        shortTitle: 'Smart OS & Portlar',
+        icon: '🌐',
+        winner: 'tie',
+        p1Val: s1.smartOs || 'Smart TV',
+        p2Val: s2.smartOs || 'Smart TV',
+        p1Sub: s1.hdmiPorts ? `${s1.hdmiPorts}x HDMI Girişi` : 'HDMI 2.1 & eARC',
+        p2Sub: s2.hdmiPorts ? `${s2.hdmiPorts}x HDMI Girişi` : 'HDMI 2.1 & eARC',
+        diff: 'Smart TV arayüzü ve yeni nesil HDMI bağlantıları'
+      }
+    ];
+  } else if (isLaptop) {
+    roundDefs = [
+      {
+        id: 1,
+        title: 'RAUNT 1: İŞLEMCİ (CPU)',
+        shortTitle: 'İşlemci Gücü',
+        icon: '⚡',
+        winner: 'tie',
+        p1Val: s1.processor || 'Çok Çekirdekli CPU',
+        p2Val: s2.processor || 'Çok Çekirdekli CPU',
+        p1Sub: s1.processorCores ? `${s1.processorCores} Çekirdek` : 'Yüksek Performans',
+        p2Sub: s2.processorCores ? `${s2.processorCores} Çekirdek` : 'Yüksek Performans',
+        diff: 'İşlemci mimarisi ve çekirdek gücü'
+      },
+      {
+        id: 2,
+        title: 'RAUNT 2: GRAFİK (GPU)',
+        shortTitle: 'Ekran Kartı & FPS',
+        icon: '🎮',
+        winner: 'tie',
+        p1Val: s1.gpu || 'Grafik Birimi',
+        p2Val: s2.gpu || 'Grafik Birimi',
+        p1Sub: s1.gpuTgpWatts ? `${s1.gpuTgpWatts}W TGP Gücü` : 'Özel Grafik Mimarisi',
+        p2Sub: s2.gpuTgpWatts ? `${s2.gpuTgpWatts}W TGP Gücü` : 'Özel Grafik Mimarisi',
+        diff: 'Oyun ve grafik render performansı'
+      },
+      {
+        id: 3,
+        title: 'RAUNT 3: EKRAN & PANELLER',
+        shortTitle: 'Ekran & Çözünürlük',
+        icon: '💻',
+        winner: 'tie',
+        p1Val: s1.screenSizeInches ? `${s1.screenSizeInches}" Ekran` : 'Panel',
+        p2Val: s2.screenSizeInches ? `${s2.screenSizeInches}" Ekran` : 'Panel',
+        p1Sub: s1.screenResolution || 'Yüksek Çözünürlük',
+        p2Sub: s2.screenResolution || 'Yüksek Çözünürlük',
+        diff: 'Ekran boyutu ve piksel netliği'
+      },
+      {
+        id: 4,
+        title: 'RAUNT 4: PİL & MOBİLİTE',
+        shortTitle: 'Batarya & Taşınabilirlik',
+        icon: '🔋',
+        winner: 'tie',
+        p1Val: s1.batteryCapacityWh ? `${s1.batteryCapacityWh} Wh Pil` : (s1.weightKg ? `${s1.weightKg} kg` : 'Mobil Batarya'),
+        p2Val: s2.batteryCapacityWh ? `${s2.batteryCapacityWh} Wh Pil` : (s2.weightKg ? `${s2.weightKg} kg` : 'Mobil Batarya'),
+        p1Sub: s1.chargerWatts ? `${s1.chargerWatts}W Adaptör` : 'Taşınabilir Kasa',
+        p2Sub: s2.chargerWatts ? `${s2.chargerWatts}W Adaptör` : 'Taşınabilir Kasa',
+        diff: 'Pil kapasitesi ve mobil gövde ağırlığı'
+      }
+    ];
+  } else {
+    // Smartphones (default)
+    roundDefs = [
+      {
+        id: 1,
+        title: 'RAUNT 1: EKRAN',
+        shortTitle: 'Ekran & Parlaklık',
+        icon: '🛡️',
+        winner: nitsWinner,
+        p1Val: nits1 ? `${nits1} nits Peak` : 'Doğrulanmış veri yok',
+        p2Val: nits2 ? `${nits2} nits Peak` : 'Doğrulanmış veri yok',
+        p1Sub: s1.screen?.type || `${product1.brand} Ekran Paneli`,
+        p2Sub: s2.screen?.type || `${product2.brand} Ekran Paneli`,
+        diff: nitsDiff
+      },
+      {
+        id: 2,
+        title: 'RAUNT 2: PERFORMANS',
+        shortTitle: 'İşlemci & AnTuTu V10',
+        icon: '⚡',
+        winner: antutuWinner,
+        p1Val: antutu1 ? `${(antutu1 / 1000).toFixed(0)}k puan` : 'Doğrulanmış veri yok',
+        p2Val: antutu2 ? `${(antutu2 / 1000).toFixed(0)}k puan` : 'Doğrulanmış veri yok',
+        p1Sub: s1.processor?.chip || `${product1.brand} Çip Mimarisi`,
+        p2Sub: s2.processor?.chip || `${product2.brand} Çip Mimarisi`,
+        diff: antutuDiff
+      },
+      {
+        id: 3,
+        title: 'RAUNT 3: KAMERA',
+        shortTitle: 'Kamera & Video Çekimi',
+        icon: '📸',
+        winner: camWinner,
+        p1Val: s1.camera?.mainMp || 'Doğrulanmış veri yok',
+        p2Val: s2.camera?.mainMp || 'Doğrulanmış veri yok',
+        p1Sub: s1.camera?.videoRes || 'Yüksek Çözünürlüklü Video',
+        p2Sub: s2.camera?.videoRes || 'Yüksek Çözünürlüklü Video',
+        diff: camDiff
+      },
+      {
+        id: 4,
+        title: 'RAUNT 4: BATARYA',
+        shortTitle: 'Batarya Kapasitesi & Şarj',
+        icon: '🔋',
+        winner: batWinner,
+        p1Val: bat1 ? `${bat1} mAh${watt1 ? ` (${watt1}W)` : ''}` : 'Doğrulanmış veri yok',
+        p2Val: bat2 ? `${bat2} mAh${watt2 ? ` (${watt2}W)` : ''}` : 'Doğrulanmış veri yok',
+        p1Sub: watt1 ? `${watt1}W Hızlı Şarj` : (bat1 ? 'Standart Şarj' : 'Doğrulanmış şarj verisi yok'),
+        p2Sub: watt2 ? `${watt2}W Hızlı Şarj` : (bat2 ? 'Standart Şarj' : 'Doğrulanmış şarj verisi yok'),
+        diff: batDiff
+      }
+    ];
+  }
 
   return (
-    <div className="w-full space-y-6">
+    <div className="w-full space-y-6 pb-24 sm:pb-8">
       
       {/* ========================================================================= */}
       {/* 🏟️ DÜELLO ARENA MAIN STAGE (1:1 PIXEL MATCH WITH USER REFERENCE IMAGE)  */}
@@ -352,7 +655,7 @@ export function DuelArena({ product1, product2, onProductChange }: DuelArenaProp
         </div>
 
         {/* Top Header: DÜELLO ARENA Title */}
-        <div className="relative z-20 text-center mb-3 sm:mb-8">
+        <div className="relative z-20 text-center mb-3 sm:mb-8 pt-2 sm:pt-4">
           <h1 className="text-xl sm:text-3xl lg:text-4xl font-black tracking-tight text-white drop-shadow-[0_2px_10px_rgba(0,0,0,0.5)]">
             DÜELLO ARENA
           </h1>
@@ -366,8 +669,8 @@ export function DuelArena({ product1, product2, onProductChange }: DuelArenaProp
         {/* ========================================================================= */}
         <div className="relative z-20 grid grid-cols-2 lg:grid-cols-12 gap-2 sm:gap-4 lg:gap-6 items-start lg:items-center">
 
-          {/* ⚡ Mobile Floating Electric VS Medallion between Card 1 & Card 2 */}
-          <div className={`absolute left-1/2 top-36 sm:top-44 -translate-x-1/2 -translate-y-1/2 z-20 pointer-events-none lg:hidden transition-opacity duration-200 ${
+          {/* ⚡ Mobile Floating Electric VS Medallion between Card 1 & Card 2 (z-40 for proud elevation) */}
+          <div className={`absolute left-1/2 top-36 sm:top-44 -translate-x-1/2 -translate-y-1/2 z-40 pointer-events-none lg:hidden transition-opacity duration-200 ${
             openDropdown1 || openDropdown2 ? 'opacity-0 pointer-events-none' : 'opacity-100'
           }`}>
             <div className="relative flex items-center justify-center">
@@ -453,89 +756,70 @@ export function DuelArena({ product1, product2, onProductChange }: DuelArenaProp
             </div>
 
             {/* Frosted Glass Card: Product 1 */}
-            <div className="bg-white/80 backdrop-blur-2xl border border-white/80 rounded-2xl sm:rounded-3xl p-3 sm:p-5 lg:p-6 shadow-xl relative transition-all duration-300 hover:shadow-2xl hover:-translate-y-1">
-              {/* Header / Brand & Name */}
-              <div className="text-center mb-1.5 sm:mb-3">
-                <span className="text-[8.5px] sm:text-[10px] font-black uppercase tracking-widest text-slate-500 block mb-0.5">
-                  {product1.brand}
-                </span>
-                <h2 className="text-xs sm:text-base lg:text-lg font-black text-slate-900 line-clamp-1" title={product1.name}>
-                  {product1.name}
-                </h2>
-              </div>
-
-              {/* Product Photo on Frosted Inner Plinth */}
-              <div className="relative w-full h-28 sm:h-36 lg:h-44 flex items-center justify-center my-1.5 sm:my-2 bg-gradient-to-b from-slate-100/50 to-white/80 rounded-xl sm:rounded-2xl p-1.5 sm:p-2 border border-slate-200/50">
-                <img
-                  src={product1.image}
-                  alt={product1.name}
-                  className="max-h-24 sm:max-h-32 lg:max-h-36 max-w-full object-contain drop-shadow-md sm:drop-shadow-xl"
-                />
-              </div>
-
-              {/* Big Score: 96 / 100 or Puan Yok */}
-              <div className="text-center my-1.5 sm:my-3">
-                <div className="inline-flex items-baseline gap-0.5 sm:gap-1">
-                  {score1 !== null ? (
-                    <>
-                      <span className="text-2xl sm:text-4xl lg:text-5xl font-black text-emerald-600 tracking-tight">
-                        {score1}
-                      </span>
-                      <span className="text-[10px] sm:text-xs lg:text-sm font-extrabold text-slate-400">/100</span>
-                    </>
-                  ) : (
-                    <span className="text-base sm:text-xl font-bold text-slate-400 tracking-tight">
-                      Puan Yok
-                    </span>
-                  )}
-                </div>
-                <div className="text-[10px] sm:text-xs font-black text-slate-600 tracking-wide mt-0.5">
-                  <span className="hidden sm:inline">Live price: </span>
-                  <span className="text-slate-900 font-extrabold block sm:inline">
-                    {product1.basePrice ? `₺${product1.basePrice.toLocaleString()}` : '124,999 TL'}
+            <div className="bg-white/80 backdrop-blur-2xl border border-white/80 rounded-2xl sm:rounded-3xl p-3 sm:p-5 lg:p-6 shadow-xl relative transition-all duration-300 hover:shadow-2xl hover:-translate-y-1 flex flex-col justify-between">
+              <div>
+                {/* Header / Brand & Name */}
+                <div className="text-center mb-1.5 sm:mb-3">
+                  <span className="text-[8.5px] sm:text-[10px] font-black uppercase tracking-widest text-slate-500 block mb-0.5">
+                    {product1.brand}
                   </span>
-                </div>
-              </div>
-
-              {/* Stat Power Bars (Camera, Battery, Screen) */}
-              <div className="space-y-1.5 sm:space-y-2.5 text-[10px] sm:text-xs pt-2 sm:pt-3 border-t border-slate-200/80">
-                <div>
-                  <div className="flex justify-between items-center font-bold text-slate-600 mb-0.5 sm:mb-1">
-                    <span className="flex items-center gap-1 sm:gap-1.5">
-                      <Camera className="w-3 sm:w-3.5 h-3 sm:h-3.5 text-slate-400" />
-                      <span className="text-[10px] sm:text-xs">Camera</span>
-                    </span>
-                    <span className="font-black text-slate-800 text-[10px] sm:text-xs">{stats1.camera || 'Veri yok'}</span>
-                  </div>
-                  <div className="w-full bg-slate-200/70 h-1.5 sm:h-2 rounded-full overflow-hidden">
-                    <div className="bg-emerald-500 h-full rounded-full transition-all duration-700" style={{ width: `${stats1.camera ? Math.min(100, Number(stats1.camera) * 10) : 0}%` }} />
-                  </div>
+                  <h2 className="text-[11px] sm:text-base lg:text-lg font-black text-slate-900 line-clamp-2 min-h-[2rem] sm:min-h-[2.75rem] leading-tight" title={product1.name}>
+                    {product1.name}
+                  </h2>
                 </div>
 
-                <div>
-                  <div className="flex justify-between items-center font-bold text-slate-600 mb-0.5 sm:mb-1">
-                    <span className="flex items-center gap-1 sm:gap-1.5">
-                      <BatteryCharging className="w-3 sm:w-3.5 h-3 sm:h-3.5 text-slate-400" />
-                      <span className="text-[10px] sm:text-xs">Battery</span>
-                    </span>
-                    <span className="font-black text-slate-800 text-[10px] sm:text-xs">{stats1.battery || 'Veri yok'}</span>
+                {/* Product Photo on Frosted Inner Plinth */}
+                <div className="relative w-full h-28 sm:h-36 lg:h-44 flex items-center justify-center my-1.5 sm:my-2 bg-gradient-to-b from-slate-100/50 to-white/80 rounded-xl sm:rounded-2xl p-1.5 sm:p-2 border border-slate-200/50">
+                  <img
+                    src={product1.image}
+                    alt={product1.name}
+                    className="max-h-24 sm:max-h-32 lg:max-h-36 max-w-full object-contain drop-shadow-md sm:drop-shadow-xl"
+                  />
+                </div>
+
+                {/* Big Score: 96 / 100 or Puan Yok */}
+                <div className="text-center my-1.5 sm:my-3">
+                  <div className="inline-flex items-baseline gap-0.5 sm:gap-1">
+                    {score1 !== null ? (
+                      <>
+                        <span className="text-2xl sm:text-4xl lg:text-5xl font-black text-emerald-600 tracking-tight">
+                          {score1}
+                        </span>
+                        <span className="text-[10px] sm:text-xs lg:text-sm font-extrabold text-slate-400">/100</span>
+                      </>
+                    ) : (
+                      <span className="text-base sm:text-xl font-bold text-slate-400 tracking-tight">
+                        Puan Yok
+                      </span>
+                    )}
                   </div>
-                  <div className="w-full bg-slate-200/70 h-1.5 sm:h-2 rounded-full overflow-hidden">
-                    <div className="bg-emerald-500 h-full rounded-full transition-all duration-700" style={{ width: `${stats1.battery ? Math.min(100, Number(stats1.battery) * 10) : 0}%` }} />
+                  <div className="text-[10px] sm:text-xs font-black text-slate-600 tracking-wide mt-0.5">
+                    <span className="hidden sm:inline">Canlı fiyat: </span>
+                    <span className="text-slate-900 font-extrabold block sm:inline">
+                      {product1.basePrice ? `₺${product1.basePrice.toLocaleString()}` : '—'}
+                    </span>
                   </div>
                 </div>
 
-                <div>
-                  <div className="flex justify-between items-center font-bold text-slate-600 mb-0.5 sm:mb-1">
-                    <span className="flex items-center gap-1 sm:gap-1.5">
-                      <PhoneIcon className="w-3 sm:w-3.5 h-3 sm:h-3.5 text-slate-400" />
-                      <span className="text-[10px] sm:text-xs">Screen</span>
-                    </span>
-                    <span className="font-black text-slate-800 text-[10px] sm:text-xs">{stats1.screen || 'Veri yok'}</span>
-                  </div>
-                  <div className="w-full bg-slate-200/70 h-1.5 sm:h-2 rounded-full overflow-hidden">
-                    <div className="bg-emerald-500 h-full rounded-full transition-all duration-700" style={{ width: `${stats1.screen ? Math.min(100, Number(stats1.screen) * 10) : 0}%` }} />
-                  </div>
+                {/* Stat Power Bars (Dynamic Category-Aware) */}
+                <div className="space-y-1.5 sm:space-y-2.5 text-[10px] sm:text-xs pt-2 sm:pt-3 border-t border-slate-200/80">
+                  {statBars1.map((item) => (
+                    <div key={item.id}>
+                      <div className="flex justify-between items-center font-bold text-slate-600 mb-0.5 sm:mb-1">
+                        <span className="flex items-center gap-1 sm:gap-1.5 min-w-0">
+                          {item.icon}
+                          <span className="text-[10px] sm:text-xs truncate">{item.label}</span>
+                        </span>
+                        <span className="font-black text-slate-800 text-[9.5px] sm:text-xs truncate ml-1">{item.val}</span>
+                      </div>
+                      <div className="w-full bg-slate-200/70 h-1.5 sm:h-2 rounded-full overflow-hidden">
+                        <div
+                          className="bg-emerald-500 h-full rounded-full transition-all duration-700"
+                          style={{ width: `${item.score10 !== null ? Math.min(100, Math.max(12, item.score10 * 10)) : 0}%` }}
+                        />
+                      </div>
+                    </div>
+                  ))}
                 </div>
               </div>
 
@@ -569,73 +853,31 @@ export function DuelArena({ product1, product2, onProductChange }: DuelArenaProp
               </div>
             </div>
 
-            {/* Interactive Vertical Round Battle Pills (as arranged around mascot) */}
+            {/* Interactive Round Battle Pills (Dynamically category-aware) */}
             <div className="w-full grid grid-cols-2 gap-1.5 sm:gap-2 my-1.5 sm:my-2 z-30">
-              {/* Left Column of Pills */}
-              <div className="space-y-1.5 sm:space-y-2">
-                <button
-                  onClick={() => setSelectedRound(selectedRound === 1 ? null : 1)}
-                  className={`w-full py-1.5 px-2 sm:px-3 rounded-xl sm:rounded-full text-[10px] sm:text-[11px] font-black tracking-wide border transition-all flex items-center gap-1 sm:gap-1.5 shadow-sm cursor-pointer ${
-                    selectedRound === 1
-                      ? 'bg-emerald-600 text-white border-emerald-400 ring-2 ring-emerald-300'
-                      : 'bg-white/90 hover:bg-white text-slate-800 border-slate-300/80 hover:border-emerald-400'
-                  }`}
-                >
-                  <span className="w-4 h-4 rounded-full bg-emerald-100 text-emerald-800 flex items-center justify-center text-[9px] font-black shrink-0">
-                    🛡️
-                  </span>
-                  <span className="truncate">RAUNT 1: EKRAN</span>
-                </button>
-
-                <button
-                  onClick={() => setSelectedRound(selectedRound === 2 ? null : 2)}
-                  className={`w-full py-1.5 px-2 sm:px-3 rounded-xl sm:rounded-full text-[10px] sm:text-[11px] font-black tracking-wide border transition-all flex items-center gap-1 sm:gap-1.5 shadow-sm cursor-pointer ${
-                    selectedRound === 2
-                      ? 'bg-emerald-600 text-white border-emerald-400 ring-2 ring-emerald-300'
-                      : 'bg-white/90 hover:bg-white text-slate-800 border-slate-300/80 hover:border-emerald-400'
-                  }`}
-                >
-                  <span className="w-4 h-4 rounded-full bg-amber-100 text-amber-800 flex items-center justify-center text-[9px] font-black shrink-0">
-                    🏆
-                  </span>
-                  <span className="truncate">RAUNT 2: HIZ</span>
-                </button>
-              </div>
-
-              {/* Right Column of Pills */}
-              <div className="space-y-1.5 sm:space-y-2">
-                <button
-                  onClick={() => setSelectedRound(selectedRound === 3 ? null : 3)}
-                  className={`w-full py-1.5 px-2 sm:px-3 rounded-xl sm:rounded-full text-[10px] sm:text-[11px] font-black tracking-wide border transition-all flex items-center gap-1 sm:gap-1.5 shadow-sm cursor-pointer ${
-                    selectedRound === 3
-                      ? 'bg-emerald-600 text-white border-emerald-400 ring-2 ring-emerald-300'
-                      : 'bg-white/90 hover:bg-white text-slate-800 border-slate-300/80 hover:border-emerald-400'
-                  }`}
-                >
-                  <span className="w-4 h-4 rounded-full bg-cyan-100 text-cyan-800 flex items-center justify-center text-[9px] font-black shrink-0">
-                    📸
-                  </span>
-                  <span className="truncate">RAUNT 3: KAMERA</span>
-                </button>
-
-                <button
-                  onClick={() => setSelectedRound(selectedRound === 4 ? null : 4)}
-                  className={`w-full py-1.5 px-2 sm:px-3 rounded-xl sm:rounded-full text-[10px] sm:text-[11px] font-black tracking-wide border transition-all flex items-center gap-1 sm:gap-1.5 shadow-sm cursor-pointer ${
-                    selectedRound === 4
-                      ? 'bg-emerald-600 text-white border-emerald-400 ring-2 ring-emerald-300'
-                      : 'bg-white/90 hover:bg-white text-slate-800 border-slate-300/80 hover:border-emerald-400'
-                  }`}
-                >
-                  <span className="w-4 h-4 rounded-full bg-rose-100 text-rose-800 flex items-center justify-center text-[9px] font-black shrink-0">
-                    🔋
-                  </span>
-                  <span className="truncate">RAUNT 4: BATARYA</span>
-                </button>
-              </div>
+              {roundDefs.map((round) => {
+                const isActive = selectedRound === round.id;
+                return (
+                  <button
+                    key={round.id}
+                    onClick={() => setSelectedRound(isActive ? null : round.id)}
+                    className={`w-full py-1.5 px-2 sm:px-3 rounded-xl sm:rounded-full text-[10px] sm:text-[11px] font-black tracking-wide border transition-all flex items-center gap-1 sm:gap-1.5 shadow-sm cursor-pointer ${
+                      isActive
+                        ? 'bg-emerald-600 text-white border-emerald-400 ring-2 ring-emerald-300'
+                        : 'bg-white/90 hover:bg-white text-slate-800 border-slate-300/80 hover:border-emerald-400'
+                    }`}
+                  >
+                    <span className="w-4 h-4 rounded-full bg-slate-100 flex items-center justify-center text-[9px] font-black shrink-0">
+                      {round.icon}
+                    </span>
+                    <span className="truncate">{round.title}</span>
+                  </button>
+                );
+              })}
             </div>
 
-            {/* 3D RoboPengu Mascot on Futuristic Pedestal */}
-            <div className="relative my-1.5 sm:my-2">
+            {/* 3D RoboPengu Mascot on Futuristic Pedestal (Desktop & Tablet, hidden on small mobile to prevent floating button collision) */}
+            <div className="relative my-1.5 sm:my-2 hidden sm:block">
               {/* Pedestal Shadow and Glow */}
               <div className="absolute -bottom-2 left-1/2 -translate-x-1/2 w-36 sm:w-48 h-5 sm:h-6 bg-emerald-500/30 rounded-full blur-lg pointer-events-none" />
               <div className="w-32 sm:w-44 h-8 sm:h-10 bg-white/70 backdrop-blur-md rounded-full border border-slate-200 shadow-sm mx-auto flex items-center justify-center absolute -bottom-2 sm:-bottom-3 left-1/2 -translate-x-1/2 z-0" />
@@ -650,8 +892,9 @@ export function DuelArena({ product1, product2, onProductChange }: DuelArenaProp
             {/* RoboPengu Hologram Badge / AI Verdict Pill */}
             <div className="w-full bg-white/90 backdrop-blur-md border border-emerald-300/80 rounded-2xl p-2.5 sm:p-3 shadow-md text-left mt-1.5 sm:mt-2 space-y-1 z-20">
               <div className="flex items-center justify-between">
-                <span className="text-[9.5px] sm:text-[10px] font-black text-emerald-700 flex items-center gap-1">
-                  <Sparkles className="w-3 h-3 text-emerald-600" />
+                <span className="text-[9.5px] sm:text-[10px] font-black text-emerald-700 flex items-center gap-1.5">
+                  <img src="/assets/robopengu.png" alt="RoboPengu" className="w-5 h-5 object-contain sm:hidden" />
+                  <Sparkles className="w-3 h-3 text-emerald-600 hidden sm:inline" />
                   <span>RoboPengu Hakem Kararı</span>
                 </span>
                 <span className="text-[8.5px] sm:text-[9px] font-black bg-emerald-100 text-emerald-800 px-2 py-0.5 rounded-md">
@@ -763,89 +1006,70 @@ export function DuelArena({ product1, product2, onProductChange }: DuelArenaProp
             </div>
 
             {/* Frosted Glass Card: Product 2 */}
-            <div className="bg-white/80 backdrop-blur-2xl border border-white/80 rounded-2xl sm:rounded-3xl p-3 sm:p-5 lg:p-6 shadow-xl relative transition-all duration-300 hover:shadow-2xl hover:-translate-y-1">
-              {/* Header / Brand & Name */}
-              <div className="text-center mb-1.5 sm:mb-3">
-                <span className="text-[8.5px] sm:text-[10px] font-black uppercase tracking-widest text-slate-500 block mb-0.5">
-                  {product2.brand}
-                </span>
-                <h2 className="text-xs sm:text-base lg:text-lg font-black text-slate-900 line-clamp-1" title={product2.name}>
-                  {product2.name}
-                </h2>
-              </div>
-
-              {/* Product Photo on Frosted Inner Plinth */}
-              <div className="relative w-full h-28 sm:h-36 lg:h-44 flex items-center justify-center my-1.5 sm:my-2 bg-gradient-to-b from-slate-100/50 to-white/80 rounded-xl sm:rounded-2xl p-1.5 sm:p-2 border border-slate-200/50">
-                <img
-                  src={product2.image}
-                  alt={product2.name}
-                  className="max-h-24 sm:max-h-32 lg:max-h-36 max-w-full object-contain drop-shadow-md sm:drop-shadow-xl"
-                />
-              </div>
-
-              {/* Big Score: 95 / 100 or Puan Yok */}
-              <div className="text-center my-1.5 sm:my-3">
-                <div className="inline-flex items-baseline gap-0.5 sm:gap-1">
-                  {score2 !== null ? (
-                    <>
-                      <span className="text-2xl sm:text-4xl lg:text-5xl font-black text-cyan-600 tracking-tight">
-                        {score2}
-                      </span>
-                      <span className="text-[10px] sm:text-xs lg:text-sm font-extrabold text-slate-400">/100</span>
-                    </>
-                  ) : (
-                    <span className="text-base sm:text-xl font-bold text-slate-400 tracking-tight">
-                      Puan Yok
-                    </span>
-                  )}
-                </div>
-                <div className="text-[10px] sm:text-xs font-black text-slate-600 tracking-wide mt-0.5">
-                  <span className="hidden sm:inline">Live price: </span>
-                  <span className="text-slate-900 font-extrabold block sm:inline">
-                    {product2.basePrice ? `₺${product2.basePrice.toLocaleString()}` : '118,499 TL'}
+            <div className="bg-white/80 backdrop-blur-2xl border border-white/80 rounded-2xl sm:rounded-3xl p-3 sm:p-5 lg:p-6 shadow-xl relative transition-all duration-300 hover:shadow-2xl hover:-translate-y-1 flex flex-col justify-between">
+              <div>
+                {/* Header / Brand & Name */}
+                <div className="text-center mb-1.5 sm:mb-3">
+                  <span className="text-[8.5px] sm:text-[10px] font-black uppercase tracking-widest text-slate-500 block mb-0.5">
+                    {product2.brand}
                   </span>
-                </div>
-              </div>
-
-              {/* Stat Power Bars (Camera, Battery, Screen) */}
-              <div className="space-y-1.5 sm:space-y-2.5 text-[10px] sm:text-xs pt-2 sm:pt-3 border-t border-slate-200/80">
-                <div>
-                  <div className="flex justify-between items-center font-bold text-slate-600 mb-0.5 sm:mb-1">
-                    <span className="flex items-center gap-1 sm:gap-1.5">
-                      <Camera className="w-3 sm:w-3.5 h-3 sm:h-3.5 text-slate-400" />
-                      <span className="text-[10px] sm:text-xs">Camera</span>
-                    </span>
-                    <span className="font-black text-slate-800 text-[10px] sm:text-xs">{stats2.camera || 'Veri yok'}</span>
-                  </div>
-                  <div className="w-full bg-slate-200/70 h-1.5 sm:h-2 rounded-full overflow-hidden">
-                    <div className="bg-emerald-500 h-full rounded-full transition-all duration-700" style={{ width: `${stats2.camera ? Math.min(100, Number(stats2.camera) * 10) : 0}%` }} />
-                  </div>
+                  <h2 className="text-[11px] sm:text-base lg:text-lg font-black text-slate-900 line-clamp-2 min-h-[2rem] sm:min-h-[2.75rem] leading-tight" title={product2.name}>
+                    {product2.name}
+                  </h2>
                 </div>
 
-                <div>
-                  <div className="flex justify-between items-center font-bold text-slate-600 mb-0.5 sm:mb-1">
-                    <span className="flex items-center gap-1 sm:gap-1.5">
-                      <BatteryCharging className="w-3 sm:w-3.5 h-3 sm:h-3.5 text-slate-400" />
-                      <span className="text-[10px] sm:text-xs">Battery</span>
-                    </span>
-                    <span className="font-black text-slate-800 text-[10px] sm:text-xs">{stats2.battery || 'Veri yok'}</span>
+                {/* Product Photo on Frosted Inner Plinth */}
+                <div className="relative w-full h-28 sm:h-36 lg:h-44 flex items-center justify-center my-1.5 sm:my-2 bg-gradient-to-b from-slate-100/50 to-white/80 rounded-xl sm:rounded-2xl p-1.5 sm:p-2 border border-slate-200/50">
+                  <img
+                    src={product2.image}
+                    alt={product2.name}
+                    className="max-h-24 sm:max-h-32 lg:max-h-36 max-w-full object-contain drop-shadow-md sm:drop-shadow-xl"
+                  />
+                </div>
+
+                {/* Big Score: 95 / 100 or Puan Yok */}
+                <div className="text-center my-1.5 sm:my-3">
+                  <div className="inline-flex items-baseline gap-0.5 sm:gap-1">
+                    {score2 !== null ? (
+                      <>
+                        <span className="text-2xl sm:text-4xl lg:text-5xl font-black text-cyan-600 tracking-tight">
+                          {score2}
+                        </span>
+                        <span className="text-[10px] sm:text-xs lg:text-sm font-extrabold text-slate-400">/100</span>
+                      </>
+                    ) : (
+                      <span className="text-base sm:text-xl font-bold text-slate-400 tracking-tight">
+                        Puan Yok
+                      </span>
+                    )}
                   </div>
-                  <div className="w-full bg-slate-200/70 h-1.5 sm:h-2 rounded-full overflow-hidden">
-                    <div className="bg-emerald-500 h-full rounded-full transition-all duration-700" style={{ width: `${stats2.battery ? Math.min(100, Number(stats2.battery) * 10) : 0}%` }} />
+                  <div className="text-[10px] sm:text-xs font-black text-slate-600 tracking-wide mt-0.5">
+                    <span className="hidden sm:inline">Canlı fiyat: </span>
+                    <span className="text-slate-900 font-extrabold block sm:inline">
+                      {product2.basePrice ? `₺${product2.basePrice.toLocaleString()}` : '—'}
+                    </span>
                   </div>
                 </div>
 
-                <div>
-                  <div className="flex justify-between items-center font-bold text-slate-600 mb-0.5 sm:mb-1">
-                    <span className="flex items-center gap-1 sm:gap-1.5">
-                      <PhoneIcon className="w-3 sm:w-3.5 h-3 sm:h-3.5 text-slate-400" />
-                      <span className="text-[10px] sm:text-xs">Screen</span>
-                    </span>
-                    <span className="font-black text-slate-800 text-[10px] sm:text-xs">{stats2.screen || 'Veri yok'}</span>
-                  </div>
-                  <div className="w-full bg-slate-200/70 h-1.5 sm:h-2 rounded-full overflow-hidden">
-                    <div className="bg-emerald-500 h-full rounded-full transition-all duration-700" style={{ width: `${stats2.screen ? Math.min(100, Number(stats2.screen) * 10) : 0}%` }} />
-                  </div>
+                {/* Stat Power Bars (Dynamic Category-Aware) */}
+                <div className="space-y-1.5 sm:space-y-2.5 text-[10px] sm:text-xs pt-2 sm:pt-3 border-t border-slate-200/80">
+                  {statBars2.map((item) => (
+                    <div key={item.id}>
+                      <div className="flex justify-between items-center font-bold text-slate-600 mb-0.5 sm:mb-1">
+                        <span className="flex items-center gap-1 sm:gap-1.5 min-w-0">
+                          {item.icon}
+                          <span className="text-[10px] sm:text-xs truncate">{item.label}</span>
+                        </span>
+                        <span className="font-black text-slate-800 text-[9.5px] sm:text-xs truncate ml-1">{item.val}</span>
+                      </div>
+                      <div className="w-full bg-slate-200/70 h-1.5 sm:h-2 rounded-full overflow-hidden">
+                        <div
+                          className="bg-emerald-500 h-full rounded-full transition-all duration-700"
+                          style={{ width: `${item.score10 !== null ? Math.min(100, Math.max(12, item.score10 * 10)) : 0}%` }}
+                        />
+                      </div>
+                    </div>
+                  ))}
                 </div>
               </div>
 

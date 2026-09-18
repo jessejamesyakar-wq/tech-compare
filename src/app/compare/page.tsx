@@ -69,17 +69,16 @@ function CompareContent() {
   };
 
   const handleProductChange = (index: 0 | 1, newProduct: Product) => {
-    setSelectedProducts((prev) => {
-      const updated = [...prev];
-      updated[index] = newProduct;
-      if (typeof window !== 'undefined') {
-        const url = new URL(window.location.href);
-        if (updated[0]) url.searchParams.set('d1', updated[0].slug || updated[0].id);
-        if (updated[1]) url.searchParams.set('d2', updated[1].slug || updated[1].id);
-        window.history.replaceState({}, '', url.toString());
-      }
-      return updated;
-    });
+    const updated = [...selectedProducts];
+    updated[index] = newProduct;
+    setSelectedProducts(updated);
+
+    if (typeof window !== 'undefined') {
+      const url = new URL(window.location.href);
+      if (updated[0]) url.searchParams.set('d1', updated[0].slug || updated[0].id);
+      if (updated[1]) url.searchParams.set('d2', updated[1].slug || updated[1].id);
+      window.history.replaceState({}, '', url.toString());
+    }
   };
 
   const handleCopyLink = () => {
