@@ -1227,24 +1227,92 @@ export function DuelArena({ product1, product2, onProductChange }: DuelArenaProp
       )}
 
       {/* ========================================================================= */}
-      {/* 📊 ADVANCED LAB: ANTUTU BENCHMARK V10 & VERSUS.COM ADVANTAGE CARDS        */}
+      {/* 📊 ADVANCED LAB: DİNAMİK DONANIM & ÖNE ÇIKAN AVANTAJ KARTLARI             */}
       {/* ========================================================================= */}
       <div className="bg-white border border-slate-200 rounded-3xl p-6 shadow-xs space-y-6">
         
         <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-slate-100 pb-4">
           <div className="flex items-center gap-2">
-            <Cpu className="w-5 h-5 text-emerald-600" />
-            <h3 className="text-base font-black text-slate-900">AnTuTu Benchmark V10 & Donanım Karşılaştırması</h3>
+            {isTV ? (
+              <TvIcon className="w-5 h-5 text-indigo-600" />
+            ) : isLaptop ? (
+              <LaptopIcon className="w-5 h-5 text-purple-600" />
+            ) : (
+              <Cpu className="w-5 h-5 text-emerald-600" />
+            )}
+            <h3 className="text-base font-black text-slate-900">
+              {isTV
+                ? 'Panel Mimarisi & Donanım Karşılaştırması'
+                : isLaptop
+                ? 'İşlemci & Grafik Donanım Gücü'
+                : 'AnTuTu Benchmark V10 & Donanım Karşılaştırması'}
+            </h3>
           </div>
           <div className="flex items-center gap-2">
             <span className="text-xs font-bold text-slate-500 bg-slate-100 px-3 py-1 rounded-full">
-              Laboratuvar Test Verileri
+              {isTV ? 'Resmi Üretici Verileri' : isLaptop ? 'Donanım Mimari Verileri' : 'Laboratuvar Test Verileri'}
             </span>
           </div>
         </div>
 
-        {/* AnTuTu Score Progress Race */}
-        {antutu1 && antutu2 ? (
+        {/* Dynamic Visual Progress Race based on Category */}
+        {isTV ? (
+          <div className="space-y-4">
+            <div>
+              <div className="flex justify-between text-xs font-black mb-1.5">
+                <span className="text-slate-800">{product1.name}</span>
+                <span className="text-emerald-600 font-black">{s1.displayTech || 'OLED'} • {tv1Refresh} Hz</span>
+              </div>
+              <div className="w-full bg-slate-100 h-3.5 rounded-full overflow-hidden p-0.5">
+                <div
+                  className="bg-gradient-to-r from-indigo-500 to-emerald-400 h-full rounded-full transition-all duration-1000"
+                  style={{ width: `${Math.round((tvDisplayScore(s1.displayTech) / 10) * 100)}%` }}
+                />
+              </div>
+            </div>
+
+            <div>
+              <div className="flex justify-between text-xs font-black mb-1.5">
+                <span className="text-slate-800">{product2.name}</span>
+                <span className="text-cyan-600 font-black">{s2.displayTech || 'OLED'} • {tv2Refresh} Hz</span>
+              </div>
+              <div className="w-full bg-slate-100 h-3.5 rounded-full overflow-hidden p-0.5">
+                <div
+                  className="bg-gradient-to-r from-cyan-500 to-blue-500 h-full rounded-full transition-all duration-1000"
+                  style={{ width: `${Math.round((tvDisplayScore(s2.displayTech) / 10) * 100)}%` }}
+                />
+              </div>
+            </div>
+          </div>
+        ) : isLaptop ? (
+          <div className="space-y-4">
+            <div>
+              <div className="flex justify-between text-xs font-black mb-1.5">
+                <span className="text-slate-800">{product1.name}</span>
+                <span className="text-emerald-600 font-black">{s1.processor || 'İşlemci'} • {s1.ramGb ? `${s1.ramGb}GB RAM` : ''}</span>
+              </div>
+              <div className="w-full bg-slate-100 h-3.5 rounded-full overflow-hidden p-0.5">
+                <div
+                  className="bg-gradient-to-r from-purple-500 to-emerald-400 h-full rounded-full transition-all duration-1000"
+                  style={{ width: `${Math.min(100, Math.max(60, ((s1.ramGb || 16) / 64) * 100))}%` }}
+                />
+              </div>
+            </div>
+
+            <div>
+              <div className="flex justify-between text-xs font-black mb-1.5">
+                <span className="text-slate-800">{product2.name}</span>
+                <span className="text-cyan-600 font-black">{s2.processor || 'İşlemci'} • {s2.ramGb ? `${s2.ramGb}GB RAM` : ''}</span>
+              </div>
+              <div className="w-full bg-slate-100 h-3.5 rounded-full overflow-hidden p-0.5">
+                <div
+                  className="bg-gradient-to-r from-cyan-500 to-indigo-500 h-full rounded-full transition-all duration-1000"
+                  style={{ width: `${Math.min(100, Math.max(60, ((s2.ramGb || 16) / 64) * 100))}%` }}
+                />
+              </div>
+            </div>
+          </div>
+        ) : antutu1 && antutu2 ? (
           (() => {
             const maxAntutu = Math.max(antutu1, antutu2, 100000);
             return (
@@ -1287,7 +1355,7 @@ export function DuelArena({ product1, product2, onProductChange }: DuelArenaProp
           </div>
         )}
 
-        {/* Versus Style Advantage Boxes */}
+        {/* Versus Style Dynamic Advantage Boxes based on Verified Highlights */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 pt-2">
           {/* Reasons for Product 1 */}
           <div className="bg-slate-50 border border-slate-200/80 rounded-2xl p-4 space-y-3">
@@ -1296,18 +1364,31 @@ export function DuelArena({ product1, product2, onProductChange }: DuelArenaProp
               <span>{product1.name} Neden Alınmalı?</span>
             </div>
             <ul className="space-y-2 text-xs text-slate-600">
-              <li className="flex items-start gap-2">
-                <CheckCircle2 className="w-3.5 h-3.5 text-emerald-600 shrink-0 mt-0.5" />
-                <span>Optimize edilmiş kararlı işletim sistemi ve akıcı uygulama deneyimi.</span>
-              </li>
-              <li className="flex items-start gap-2">
-                <CheckCircle2 className="w-3.5 h-3.5 text-emerald-600 shrink-0 mt-0.5" />
-                <span>ProRes LOG video çekimi ve stüdyo sınıfı renk profili.</span>
-              </li>
-              <li className="flex items-start gap-2">
-                <CheckCircle2 className="w-3.5 h-3.5 text-emerald-600 shrink-0 mt-0.5" />
-                <span>Yüksek ikinci el değeri ve uzun vadeli değer koruma avantajı.</span>
-              </li>
+              {(product1.highlights && product1.highlights.length > 0
+                ? product1.highlights.slice(0, 3)
+                : isTV
+                ? [
+                    `${s1.displayTech || 'Gelişmiş'} panel teknolojisi ve canlı renk üretimi.`,
+                    `${tv1Refresh} Hz yenileme hızı ve konsol optimizasyonu.`,
+                    `${s1.smartOs || 'Smart TV'} akıllı ekosistem desteği.`
+                  ]
+                : isLaptop
+                ? [
+                    `${s1.processor || 'Güçlü işlemci'} çoklu görev performansı.`,
+                    `${s1.ramGb || 16} GB sistem belleği ve hızlı depolama.`,
+                    `${s1.weightKg ? `${s1.weightKg} kg hafif taşınabilir kasa.` : 'Yüksek mobilite.'}`
+                  ]
+                : [
+                    'Optimize edilmiş kararlı işletim sistemi ve akıcı kullanıcı deneyimi.',
+                    'Yüksek renk doğruluğu ve gelişmiş video kayıt yetenekleri.',
+                    'Geniş servis ağı ve uzun vadeli değer koruma avantajı.'
+                  ]
+              ).map((h, i) => (
+                <li key={i} className="flex items-start gap-2">
+                  <CheckCircle2 className="w-3.5 h-3.5 text-emerald-600 shrink-0 mt-0.5" />
+                  <span>{h}</span>
+                </li>
+              ))}
             </ul>
           </div>
 
@@ -1318,18 +1399,31 @@ export function DuelArena({ product1, product2, onProductChange }: DuelArenaProp
               <span>{product2.name} Neden Alınmalı?</span>
             </div>
             <ul className="space-y-2 text-xs text-slate-600">
-              <li className="flex items-start gap-2">
-                <CheckCircle2 className="w-3.5 h-3.5 text-cyan-600 shrink-0 mt-0.5" />
-                <span>{s2.camera?.mainMp || '200 MP'} yüksek çözünürlüklü sensör ve gelişmiş optik yakınlaştırma.</span>
-              </li>
-              <li className="flex items-start gap-2">
-                <CheckCircle2 className="w-3.5 h-3.5 text-cyan-600 shrink-0 mt-0.5" />
-                <span>{s2.battery?.chargingWatts || 45}W daha yüksek hızlı şarj ve geniş pil kapasitesi.</span>
-              </li>
-              <li className="flex items-start gap-2">
-                <CheckCircle2 className="w-3.5 h-3.5 text-cyan-600 shrink-0 mt-0.5" />
-                <span>₺{Math.abs(product1.basePrice - product2.basePrice).toLocaleString()} daha avantajlı piyasa başlangıç fiyatı.</span>
-              </li>
+              {(product2.highlights && product2.highlights.length > 0
+                ? product2.highlights.slice(0, 3)
+                : isTV
+                ? [
+                    `${s2.displayTech || 'Gelişmiş'} panel teknolojisi ve derin kontrast.`,
+                    `${tv2Refresh} Hz akıcı ekran ve HDMI 2.1 portları.`,
+                    `${s2.smartOs || 'Smart TV'} akıllı arayüz zenginliği.`
+                  ]
+                : isLaptop
+                ? [
+                    `${s2.processor || 'Yüksek frekanslı'} işlemci gücü.`,
+                    `${s2.gpu || 'Harici/Dahili'} grafik mimarisi.`,
+                    `${s2.batteryCapacityWh ? `${s2.batteryCapacityWh} Wh uzun pil ömrü.` : 'Taşınabilir hafif kasa.'}`
+                  ]
+                : [
+                    `${s2.camera?.mainMp ? `${s2.camera.mainMp} yüksek çözünürlüklü sensör.` : 'Gelişmiş kamera optiği.'}`,
+                    `${s2.battery?.chargingWatts ? `${s2.battery.chargingWatts}W hızlı şarj desteği.` : 'Geniş batarya kapasitesi.'}`,
+                    `Rekabetçi piyasa fiyatı ve güçlü donanım dengesi.`
+                  ]
+              ).map((h, i) => (
+                <li key={i} className="flex items-start gap-2">
+                  <CheckCircle2 className="w-3.5 h-3.5 text-cyan-600 shrink-0 mt-0.5" />
+                  <span>{h}</span>
+                </li>
+              ))}
             </ul>
           </div>
         </div>

@@ -11,7 +11,12 @@ import {
   CheckCircle2,
   ChevronRight,
   ShieldCheck,
-  Scale
+  Scale,
+  Tv,
+  Cpu,
+  Monitor,
+  Gamepad2,
+  Zap
 } from 'lucide-react';
 
 interface RefereeVerdictCardProps {
@@ -35,8 +40,18 @@ export function RefereeVerdictCard({ product1, product2, className = '' }: Refer
         return <BatteryCharging className="w-4 h-4 text-teal-600" />;
       case 'Coins':
         return <Coins className="w-4 h-4 text-amber-600" />;
+      case 'Tv':
+        return <Tv className="w-4 h-4 text-indigo-600" />;
+      case 'Cpu':
+        return <Cpu className="w-4 h-4 text-purple-600" />;
+      case 'Monitor':
+        return <Monitor className="w-4 h-4 text-cyan-600" />;
+      case 'Gamepad':
+        return <Gamepad2 className="w-4 h-4 text-rose-600" />;
+      case 'Zap':
+        return <Zap className="w-4 h-4 text-amber-500" />;
       default:
-        return <Sparkles className="w-4 h-4 text-indigo-600" />;
+        return <Sparkles className="w-4 h-4 text-emerald-600" />;
     }
   };
 
