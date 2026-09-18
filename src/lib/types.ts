@@ -178,6 +178,7 @@ export interface SmartphoneSpecs {
     capacitymAh: number;
     chargingWatts?: number;
     wirelessCharging?: boolean;
+    wirelessWatts?: number;
     reverseWireless?: boolean;
   };
   connectivity: {

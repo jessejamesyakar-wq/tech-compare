@@ -44,8 +44,9 @@ KİMLİK VE ÜSLUP KURALLARI:
 - Kullanıcılara her zaman bir dost gibi samimi, güven veren, düşünen ve bilge bir tonda hitap et.
 - KESİN KURAL: ASLA "1. ürün", "2. ürün", "Ürün 1", "Ürün 2", "birinci cihaz", "ikinci cihaz" gibi saçma veya jenerik ifadeler KULLANMA! Karşılaştırılan modellerin HER ZAMAN doğrudan kendi gerçek model isimlerini kullan (örn: "iPhone 18 Pro Max", "iPhone 17 Pro Max", "iPhone Duo", "Galaxy S26 Ultra").
 - ANTUTU & VERSUS SEVİYESİNDE DERİNLİK KURALI: Karşılaştırmalarını Versus.com, AnTuTu Benchmark, Geekbench 6, RTINGS, Notebookcheck ve GSMArena seviyesinde derinlemesine teknik bilgi dağarcığıyla yap. Yüzeysel ve klişe sıfatlar yerine ("güzel ekran", "güçlü çip", "yüksek performans"), somut parametreleri karşılaştır.
-- "İkisi de güzel cihaz" gibi suya sabuna dokunmayan kaçamak cevaplar verme. Kriterlere göre net bir kazanan ve kimin hangi cihazı alması gerektiğini cesurca belirt.
+- EŞİTLİK VE EKSİK VERİ DÜRÜSTLÜĞÜ: Teknik veriler eşit olduğunda veya katalogda doğrulanmış test verisi bulunmadığında yapay bir kazanan uydurma; eşitliği ve veri durumunu dürüstçe açıkla. Ancak donanım ve mühendislik farkı somut olan alanlarda kazananı cesurca açıkla ve kimin hangi cihazı tercih etmesi gerektiğini gerekçelendir.
 - KESİN TEKNOLOJİ KAZANANI KURALI: Kazananı daha ucuz olduğu için DEĞİL; saf donanım, benchmark skorları, panel kalitesi, mimari verimlilik ve mühendislik üstünlüğüne göre belirle! Fiyatı yalnızca referans olarak belirt. Donanımı zayıf bir cihazı sırf ucuz diye ASLA "teknoloji kazananı" ilan etme!
+- UYDURMA VERİ VE SAHTE ÜRÜN YASAĞI: Kullanıcının konuşma içindeki 'kaynaklarıyla', 'güncel fiyatları', 'tavsiye', 'katalogdaki' gibi kelimelerini kesinlikle ürün veya model adı sanma! Yalnızca sana sağlanan doğrulanmış katalog modellerini ve fiyatlarını kullan, hayali ürün veya URL türetme.
 - 💡 MANTIKLI BÜTÇE / FİYAT-PERFORMANS TAVSİYESİ: Donanım kazananını ilan ettikten sonra, eğer iki ürün arasında kayda değer bir fiyat farkı varsa, mantık çerçevesinde bütçe tavsiyesi ver.
 
 SESLİ ÖZET KURALI (VOICE_SUMMARY):
@@ -251,7 +252,8 @@ export async function POST(req: Request) {
         if (compResult.ok && compResult.data) {
           sidePanel = formatComparisonData(compResult.data);
         } else {
-          sidePanel = createDynamicComparisonPanel(compParts);
+          // If comparison resolution fails, do NOT generate fake mock products!
+          sidePanel = null;
         }
       } else if (isNewsQuery(trimmedPrompt)) {
         sidePanel = resolveTechNews(trimmedPrompt);
@@ -271,18 +273,27 @@ export async function POST(req: Request) {
 
       const isSalonSetup = sidePanel.scenario?.includes("PlayStation Salon") || sidePanel.scenario?.includes("Gaming Ekipman");
 
+      const explicitBudget = extractBudgetFromText(trimmedPrompt);
+      let budgetWarningPrompt = "";
+      if (explicitBudget && explicitBudget.budget > 0) {
+        const minPrice = Math.min(p1.price || 0, p2.price || 0);
+        if (minPrice > explicitBudget.budget) {
+          budgetWarningPrompt = `\n[BÜTÇE AŞIMI UYARISI]: Kullanıcının belirttiği bütçe ₺${explicitBudget.budget.toLocaleString("tr-TR")}, ancak kıyaslanan ${p1.name} (₺${p1.price.toLocaleString("tr-TR")}) ve ${p2.name} (₺${p2.price.toLocaleString("tr-TR")}) modellerinin her ikisi de bu bütçeyi aşmaktadır. Yanıtında bu bütçe durumunu kullanıcıya dürüstçe hatırlat, ardından teknik donanım kıyaslamasını açıkla.`;
+        }
+      }
+
       contextualPrompt = `Kullanıcı Sorusu: "${trimmedPrompt}"
 
 [ACELEETME CANLI KATALOG & MAĞAZA FİYAT VERİLERİ]:
 - Model: ${p1.name} (${p1.brand}) | En Ucuz: ${p1Price} (${p1.cheapestStore || "Piyasa"})
 - Model: ${p2.name} (${p2.brand}) | En Ucuz: ${p2Price} (${p2.cheapestStore || "Piyasa"})
-${matrixInfo ? `\n[ANTUTU & VERSUS DONANIM VE PERFORMANS TABLOSU]:\n${matrixInfo}` : ""}
+${matrixInfo ? `\n[ANTUTU & VERSUS DONANIM VE PERFORMANS TABLOSU]:\n${matrixInfo}` : ""}${budgetWarningPrompt}
 
 ÖNEMLİ VE KESİN TALİMATLAR:
 1. ASLA "1. ürün", "2. ürün", "birinci model", "ikinci model" deme! Her zaman doğrudan "${p1.name}" ve "${p2.name}" model adlarını kullanarak konuş.
 ${isSalonSetup ? `2. TİCARİ OYUN SALONU KONSEPTİ: Kullanıcı bir PlayStation / Oyun Salonu işletmecisi veya yeni bir salon kuruyor. KESİNLİKLE telefon, airfryer veya alakasız cihazlardan bahsetme! Sağ panelde onlar için hazırladığımız "${p1.name}" ve "${p2.name}" altın standart donanım paketini detaylandır. 10 adet veya toplu alımlarda salon kârlılığı, PSSR yapay zeka 4K 120 FPS akıcılığı, 0.1ms OLED tepki süresi ve müşteri memnuniyeti vizyonunu bilge bir teknoloji danışmanı olarak sun.` : `2. Bu iki cihazı Versus.com, AnTuTu Benchmark, Geekbench 6, RTINGS, Notebookcheck seviyesinde derinlemesine teknik bilgi dağarcığınla kıyasla. Kategorisine göre panel tipi, tepe nits parlaklığı, işlemci/grafik mimarisi, NPU TOPS / TGP watt / TFLOPs gücü, emiş gücü Pa veya sensör boyutlarını somut verilerle masaya yatır.`}
-3. TEKNOLOJİ KAZANANI KURALI: Kazananı fiyata göre değil, teknolojik üstünlüğe ve donanım gücüne göre belirle! Fiyat farkı yüksekse [DEEP_ANALYSIS] sonundaki bütçe tavsiyesinde mantık çerçevesinde kullanıcıyı yönlendir.
-4. [SUMMARY_CHAT] bloğunda her iki modelin adını geçirerek net bir teknoloji kazananı açıkla. [DEEP_ANALYSIS] bloğunda ise 4 başlığın her birinde hem ${p1.name} hem de ${p2.name} modellerinin farkını model isimleriyle detaylandır.`;
+3. TEKNOLOJİ KAZANANI KURALI: Kazananı fiyata göre değil, teknolojik üstünlüğe ve donanım gücüne göre belirle! Teknik veriler eşitse veya doğrulanmış belirleyici test verisi yoksa yapay kazanan uydurma, 'Beraberlik' olarak belirt. Fiyat farkı yüksekse [DEEP_ANALYSIS] sonundaki bütçe tavsiyesinde mantık çerçevesinde kullanıcıyı yönlendir.
+4. [SUMMARY_CHAT] bloğunda her iki modelin adını geçirerek net değerlendirmeyi açıkla. [DEEP_ANALYSIS] bloğunda ise 4 başlığın her birinde hem ${p1.name} hem de ${p2.name} modellerinin farkını model isimleriyle detaylandır.`;
     } else if (!sidePanel) {
       const isFollowUp = isFollowUpQuery(trimmedPrompt);
 

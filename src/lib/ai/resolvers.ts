@@ -13,18 +13,80 @@ export interface ResolverResult<T> {
   ok: boolean;
   data?: T;
   message?: string;
+  unresolved?: string[];
 }
 
 const SEARCH_STOP_WORDS = new Set([
   "nasil", "sence", "hakkinda", "bilgi", "ver", "onerir", "onerirsin", "oner", "tavsiye",
   "eder", "edersin", "elimde", "var", "alacagim", "almak", "istiyorum", "alinir", "mi",
-  "mu", "hangisi", "hangileri", "ne", "kadar", "fiyat", "fiyati", "kac", "para",
-  "tl", "lira", "butce", "butcem", "civari", "bandi", "arasi", "modelleri", "goremiyorum",
-  "goster", "bana", "icin", "ile", "ve", "veya", "en", "iyi", "cok", "daha", "bir", "bu",
-  "su", "o", "karsilastir", "kiyasla", "merhaba", "selam", "dostum", "nerede", "bulamiyor",
-  "telefon", "cihaz", "model", "kendime", "cocuguma", "esime", "anneme", "babama",
-  "arkadasima", "kardesime", "hayali", "olan", "hediye", "hediyelik", "lik", "luk"
+  "mu", "hangisi", "hangileri", "ne", "kadar", "fiyat", "fiyati", "fiyatı", "fiyatlar", "fiyatlari", "fiyatları", "kac", "para",
+  "tl", "lira", "butce", "bütçe", "butcem", "bütçem", "civari", "civarı", "bandi", "bandı", "arasi", "arası", "modelleri", "modeli", "modeller", "model",
+  "goremiyorum", "göster", "goster", "bana", "icin", "için", "ile", "ve", "veya", "en", "iyi", "cok", "çok", "daha", "bir", "bu",
+  "su", "şu", "o", "karsilastir", "karşılaştır", "kiyasla", "kıyasla", "merhaba", "selam", "dostum", "nerede", "bulamiyor",
+  "telefon", "telefonu", "televizyon", "televizyonu", "cihaz", "cihazlar", "cihazlari", "kendime", "cocuguma", "esime", "anneme", "babama",
+  "arkadasima", "kardesime", "hayali", "olan", "hediye", "hediyelik", "lik", "luk",
+  "kaynak", "kaynagi", "kaynağı", "kaynaklar", "kaynaklari", "kaynakları", "kaynaklariyla", "kaynaklarıyla",
+  "guncel", "güncel", "sitedeki", "katalogdaki", "katalog", "liste", "iki", "uc", "üç", "dort", "dört", "adet", "tane",
+  "ozellik", "ozellikler", "ozellikleri", "özellik", "özellikler", "özellikleri", "pili", "bataryasi", "bataryası", "uzun", "giden"
 ]);
+
+export function extractStorageFromQuery(query: string): string | null {
+  if (!query || typeof query !== "string") return null;
+  const match = query.match(/\b(\d{1,4})\s*(gb|tb)\b/i);
+  if (match) {
+    return `${match[1].toLowerCase()}${match[2].toLowerCase()}`;
+  }
+  return null;
+}
+
+export function extractModelCodes(query: string): string[] {
+  if (!query || typeof query !== "string") return [];
+  // Normalize Turkish characters and join separated letter-number combos e.g. "s 24" -> "s24", "s-24" -> "s24", "s 999" -> "s999"
+  const norm = normalizeTr(query)
+    .replace(/\b([a-z])\s*[-–]\s*(\d{1,4})\b/gi, "$1$2")
+    .replace(/\b([a-z])\s+(\d{1,4})\b/gi, (match, letter, num) => {
+      if (/^[sazmvg]$/i.test(letter)) {
+        return `${letter}${num}`;
+      }
+      return match;
+    });
+
+  // Strip specs / units
+  const stripped = norm
+    .replace(/\b\d{1,4}\s*(?:gb|tb|mah|hz|w|mp|ram|rom)\b/gi, " ")
+    .replace(/\b\d{1,2}(?:\.\d+)?\s*(?:inç|inch|''|")\b/gi, " ")
+    .replace(/\b(?:4k|8k|2k|1080p|720p|5g|4g|3g|2g|oled|amoled)\b/gi, " ");
+
+  const codes: string[] = [];
+
+  // 1. Alphanumeric model codes: e.g. s999, s24, s20, a16, a54, gt7, 13t, 17e, note20, fold6
+  const alphaNumMatches = stripped.match(/\b([a-z]{1,2}\d{1,4}[a-z]?|\d{1,4}[a-z]{1,2})\b/gi);
+  if (alphaNumMatches) {
+    for (const m of alphaNumMatches) {
+      const lower = m.toLowerCase();
+      if (!["am", "pm", "ai"].includes(lower) && !codes.includes(lower)) {
+        codes.push(lower);
+      }
+    }
+  }
+
+  // 2. Pure numbers (2-4 digits): e.g. 16, 17, 999
+  const numMatches = stripped.match(/\b(\d{2,4})\b/g);
+  if (numMatches) {
+    for (const m of numMatches) {
+      if (!codes.includes(m)) {
+        codes.push(m);
+      }
+    }
+  }
+
+  return codes;
+}
+
+export function extractModelSeriesNumber(query: string): string | null {
+  const codes = extractModelCodes(query);
+  return codes.length > 0 ? codes[0] : null;
+}
 
 export function searchProductsInCatalog(
   query: string,
@@ -43,6 +105,8 @@ export function searchProductsInCatalog(
   if (words.length === 0) return [];
 
   const cleanQ = cleanAlphanumeric(query);
+  const qModelCodes = extractModelCodes(query);
+  const qStorage = extractStorageFromQuery(query);
 
   const scoredProds = catalog
     .map((p) => {
@@ -50,6 +114,41 @@ export function searchProductsInCatalog(
       const pBrand = normalizeTr(p.brand || "");
       const cleanP = cleanAlphanumeric(p.name || "");
       const haystack = `${pName} ${pBrand}`;
+      const pCodes = extractModelCodes(p.name || "");
+
+      // If query has model codes (e.g. s999, s24, 16), candidate MUST contain it!
+      if (qModelCodes.length > 0) {
+        const containsAnyCode = qModelCodes.some(
+          (qc) => cleanP.includes(qc) || haystack.includes(qc) || pCodes.includes(qc)
+        );
+        if (!containsAnyCode) return null;
+
+        // Model code collision guard: e.g. query has s999 or s24, candidate has s20
+        for (const qc of qModelCodes) {
+          if (/^[a-z]{1,2}\d+$/i.test(qc)) {
+            const prefix = qc.replace(/\d+$/, "");
+            const pAlphas = pCodes.filter((pc) => pc.startsWith(prefix));
+            if (pAlphas.length > 0 && !pAlphas.includes(qc)) {
+              return null;
+            }
+          } else if (/^\d{2,4}$/.test(qc)) {
+            const pNums = pCodes.filter((pc) => /^\d{2,4}$/.test(pc));
+            if (pNums.length > 0 && !pNums.includes(qc)) {
+              return null;
+            }
+          }
+        }
+      }
+
+      // If query explicitly specified storage (e.g. 8tb), candidate MUST have that storage!
+      if (qStorage) {
+        const pNameClean = (p.name || "").toLowerCase().replace(/\s+/g, "");
+        const pStorageClean = ((p as any).storage || "").toLowerCase().replace(/\s+/g, "");
+        const matchesStorage = pNameClean.includes(qStorage) || pStorageClean.includes(qStorage);
+        if (!matchesStorage) {
+          return null;
+        }
+      }
 
       let score = 0;
 
@@ -78,15 +177,30 @@ export function searchProductsInCatalog(
     .filter((entry): entry is { product: any; score: number; matchedCount: number } => entry !== null)
     .sort((a, b) => b.score - a.score || b.matchedCount - a.matchedCount);
 
-  // Deduplicate base models
+  // Deduplicate base models, while prioritizing matching storage variant if requested
   const seenBase = new Set<string>();
   const result: any[] = [];
   for (const s of scoredProds) {
-    const baseName = (s.product.name || "")
+    const pName = (s.product.name || "").toLowerCase();
+    const matchesStorage = qStorage ? pName.replace(/\s+/g, "").includes(qStorage) : true;
+    const baseName = pName
       .replace(/\s*\(\d+\s*(?:gb|tb)\)/i, "")
       .replace(/\s+\d+\s*(?:gb|tb)\b/i, "")
-      .trim()
-      .toLowerCase();
+      .trim();
+
+    if (qStorage && !matchesStorage) {
+      const hasMatchingCapacity = scoredProds.some(
+        (sp) =>
+          (sp.product.name || "").toLowerCase().replace(/\s+/g, "").includes(qStorage) &&
+          (sp.product.name || "")
+            .toLowerCase()
+            .replace(/\s*\(\d+\s*(?:gb|tb)\)/i, "")
+            .replace(/\s+\d+\s*(?:gb|tb)\b/i, "")
+            .trim() === baseName
+      );
+      if (hasMatchingCapacity) continue;
+    }
+
     if (!seenBase.has(baseName)) {
       seenBase.add(baseName);
       result.push(s.product);
@@ -184,6 +298,14 @@ export function cleanAlphanumeric(text: string): string {
 export function findProductByNameOrId(products: any[], nameOrId: string) {
   if (!nameOrId || typeof nameOrId !== "string") return null;
   const normalized = normalizeTr(nameOrId);
+  if (normalized.length < 2 || SEARCH_STOP_WORDS.has(normalized)) return null;
+
+  // If query is composed exclusively of stop words, reject
+  const rawWords = normalized.split(/\s+/).filter(Boolean);
+  if (rawWords.length > 0 && rawWords.every((w) => SEARCH_STOP_WORDS.has(w))) {
+    return null;
+  }
+
   const directId = products.find((p) => p.id === nameOrId || p.slug === nameOrId);
   if (directId) return directId;
 
@@ -206,6 +328,98 @@ export function findProductByNameOrId(products: any[], nameOrId: string) {
   const directExactName = products.find((p) => normalizeTr(p.name) === normalized);
   if (directExactName) return directExactName;
 
+  const qModelCodes = extractModelCodes(nameOrId);
+  const qModelNum = extractModelSeriesNumber(nameOrId);
+  const qStorage = extractStorageFromQuery(nameOrId);
+
+  // If query contains a model code (e.g. s999, 999) that doesn't exist anywhere in catalog, reject immediately
+  if (qModelCodes.length > 0) {
+    const anyProductHasCode = products.some((p) => {
+      const pClean = cleanAlphanumeric(p.name || "");
+      const pId = (p.id || "").toLowerCase();
+      const pCodes = extractModelCodes(p.name || "");
+      return qModelCodes.some((qc) => pClean.includes(qc) || pId.includes(qc) || pCodes.includes(qc));
+    });
+    if (!anyProductHasCode) {
+      return null;
+    }
+  }
+
+  const candidateFilter = (p: any) => {
+    if (qModelCodes.length > 0) {
+      const pClean = cleanAlphanumeric(p.name || "");
+      const pId = (p.id || "").toLowerCase();
+      const pCodes = extractModelCodes(p.name || "");
+      const matchesCode = qModelCodes.some(
+        (qc) => pClean.includes(qc) || pId.includes(qc) || pCodes.includes(qc)
+      );
+      if (!matchesCode) {
+        return false;
+      }
+
+      // Series collision guard: e.g. query has "s24" or "s999", candidate has "s20"
+      for (const qc of qModelCodes) {
+        if (/^[a-z]{1,2}\d+$/i.test(qc)) {
+          const prefix = qc.replace(/\d+$/, "");
+          const pAlphas = pCodes.filter((pc) => pc.startsWith(prefix));
+          if (pAlphas.length > 0 && !pAlphas.includes(qc)) {
+            return false;
+          }
+        } else if (/^\d{2,4}$/.test(qc)) {
+          const pNums = pCodes.filter((pc) => /^\d{2,4}$/.test(pc));
+          if (pNums.length > 0 && !pNums.includes(qc)) {
+            return false;
+          }
+        }
+      }
+    }
+
+    // Explicit storage capacity protection:
+    // If a capacity (e.g. 8 TB) was explicitly requested, reject candidates with different capacities
+    if (qStorage) {
+      const pNameClean = (p.name || "").toLowerCase().replace(/\s+/g, "");
+      const pStorageClean = (p.storage || "").toLowerCase().replace(/\s+/g, "");
+      const pSpecsStorage = (p.specs?.storage || "").toLowerCase().replace(/\s+/g, "");
+      const matchesStorage =
+        pNameClean.includes(qStorage) ||
+        pStorageClean.includes(qStorage) ||
+        pSpecsStorage.includes(qStorage);
+      if (!matchesStorage) {
+        return false;
+      }
+    }
+
+    return true;
+  };
+
+  const rankCandidates = (cands: any[]) => {
+    const filtered = cands.filter(candidateFilter);
+    if (filtered.length === 0) return null;
+
+    const scored = [...filtered].sort((a, b) => {
+      const aName = (a.name || "").toLowerCase().replace(/\s+/g, "");
+      const bName = (b.name || "").toLowerCase().replace(/\s+/g, "");
+
+      if (qStorage) {
+        const aMatches = aName.includes(qStorage);
+        const bMatches = bName.includes(qStorage);
+        if (aMatches && !bMatches) return -1;
+        if (bMatches && !aMatches) return 1;
+      }
+
+      const scoreA = a.aceleEtmeScore ?? a.epeyScore ?? 80;
+      const scoreB = b.aceleEtmeScore ?? b.epeyScore ?? 80;
+      if (scoreA !== scoreB) return scoreB - scoreA;
+
+      const priceA = a.basePrice || a.price || 0;
+      const priceB = b.basePrice || b.price || 0;
+      // If storage was not specified, choose standard/base variant price (not the 2 TB max price)
+      return priceA - priceB;
+    });
+
+    return scored[0];
+  };
+
   if (normalized.length >= 3) {
     const candidates = products.filter((p) => normalizeTr(p.name).includes(normalized));
     if (candidates.length > 0) {
@@ -223,16 +437,8 @@ export function findProductByNameOrId(products: any[], nameOrId: string) {
         return true;
       });
 
-      const listToSort = exactRanked.length > 0 ? exactRanked : candidates;
-      const sorted = [...listToSort].sort((a, b) => {
-        const scoreA = a.aceleEtmeScore ?? a.epeyScore ?? 80;
-        const scoreB = b.aceleEtmeScore ?? b.epeyScore ?? 80;
-        const priceA = a.basePrice || a.price || 0;
-        const priceB = b.basePrice || b.price || 0;
-        return (scoreB * 1000 + priceB) - (scoreA * 1000 + priceA);
-      });
-
-      return sorted[0];
+      const best = rankCandidates(exactRanked.length > 0 ? exactRanked : candidates);
+      if (best) return best;
     }
   }
 
@@ -255,21 +461,22 @@ export function findProductByNameOrId(products: any[], nameOrId: string) {
         return true;
       });
 
-      const listToSort = exactRanked.length > 0 ? exactRanked : alphaMatches;
-      const sorted = [...listToSort].sort((a, b) => {
-        const scoreA = a.aceleEtmeScore ?? a.epeyScore ?? 80;
-        const scoreB = b.aceleEtmeScore ?? b.epeyScore ?? 80;
-        const priceA = a.basePrice || a.price || 0;
-        const priceB = b.basePrice || b.price || 0;
-        return (scoreB * 1000 + priceB) - (scoreA * 1000 + priceA);
-      });
-
-      return sorted[0];
+      const best = rankCandidates(exactRanked.length > 0 ? exactRanked : alphaMatches);
+      if (best) return best;
     }
   }
 
-  const searched = searchProductsInCatalog(nameOrId, 1);
-  return searched[0] ?? null;
+  // Only fall back to catalog search if query is not purely common words and has at least 3 chars
+  if (cleanQ.length >= 3) {
+    const searched = searchProductsInCatalog(nameOrId, 5);
+    const validSearched = searched.filter(candidateFilter);
+    if (validSearched.length > 0) {
+      const best = rankCandidates(validSearched);
+      if (best) return best;
+    }
+  }
+
+  return null;
 }
 
 export function resolveCompareProducts(
@@ -298,15 +505,72 @@ export function resolveCompareProducts(
     };
   }
 
-  const matched = identifiers
-    .map((idOrName) => findProductByNameOrId(catalog, idOrName))
-    .filter(Boolean) as any[];
+  const unresolved: string[] = [];
+  const matched: any[] = [];
+  for (const idOrName of identifiers) {
+    const prod = findProductByNameOrId(catalog, idOrName);
+    if (prod) {
+      matched.push(prod);
+    } else {
+      unresolved.push(idOrName);
+    }
+  }
 
   if (matched.length < 2) {
-    const missingCount = identifiers.length - matched.length;
+    if (unresolved.length > 0) {
+      // Check if any unresolved item is a known base model with alternative capacities in catalog
+      const capacityClarifications = unresolved
+        .map((u) => {
+          const uStorage = extractStorageFromQuery(u);
+          if (uStorage) {
+            const stripped = u.replace(/\b\d{1,4}\s*(?:gb|tb)\b/gi, "").trim();
+            const baseMatches = catalog.filter((p) => {
+              const pNorm = normalizeTr(p.name || "");
+              const sNorm = normalizeTr(stripped);
+              return (
+                pNorm.includes(sNorm) ||
+                cleanAlphanumeric(p.name || "").includes(cleanAlphanumeric(stripped))
+              );
+            });
+            if (baseMatches.length > 0) {
+              const availCaps = [
+                ...new Set(
+                  baseMatches
+                    .map((p) => extractStorageFromQuery(p.name || ""))
+                    .filter(Boolean)
+                ),
+              ];
+              if (availCaps.length > 0) {
+                return `'${u}' için ${uStorage.toUpperCase()} kapasite seçeneği katalogda bulunamadı. Mevcut alternatif kapasiteler: ${availCaps.join(", ").toUpperCase()}.`;
+              }
+            }
+          }
+          return null;
+        })
+        .filter(Boolean);
+
+      let message = `Üzgünüm, belirttiğin ürünlerden '${unresolved.join("', '")}' modelini kataloğumuzda bulamadım. Tam model adını veya doğruluğunu kontrol edip tekrar yazar mısın? 🐧`;
+      if (capacityClarifications.length > 0) {
+        message = `${capacityClarifications.join(" ")} Lütfen geçerli bir kapasite seçerek tekrar deneyin. 🐧`;
+      }
+
+      return {
+        ok: false,
+        message,
+        unresolved,
+      };
+    }
     return {
       ok: false,
-      message: `Üzgünüm, belirttiğin ürünlerden ${missingCount} tanesini kataloğumuzda bulamadım. Tam model adını tekrar yazar mısın? 🐧`,
+      message: "Kıyaslamak için en az iki ürün ismi belirtir misin? Örneğin 'iPhone 17 Pro Max ile Galaxy S26 Ultra'yı kıyasla' gibi. 🐧",
+    };
+  }
+
+  // Guard against duplicate / self comparison (e.g. comparing the same phone to itself)
+  if (matched[0].id === matched[1].id) {
+    return {
+      ok: false,
+      message: "Aynı ürünü kendisiyle kıyaslayamazsın. Lütfen iki farklı model belirt. 🐧",
     };
   }
 
@@ -335,6 +599,23 @@ export function resolveCompareProducts(
       techVictories[row.superiorIdx].push(`${row.label}`);
     }
   });
+
+  // Check for honest tie
+  const p1Score = matched[0].aceleEtmeScore ?? matched[0].epeyScore ?? 80;
+  const p2Score = matched[1].aceleEtmeScore ?? matched[1].epeyScore ?? 80;
+  const isTie = winCounts.length >= 2 && winCounts[0] === winCounts[1] && p1Score === p2Score;
+
+  if (isTie) {
+    return {
+      ok: true,
+      data: {
+        category,
+        products: matched,
+        rows,
+        winner: null,
+      },
+    };
+  }
 
   const sorted = matched
     .map((p, idx) => ({
@@ -437,7 +718,11 @@ export function resolveBudgetRecommendation(
   budgetTL: any,
   category?: string,
   preferredBrand?: string
-): ResolverResult<{ products: any[]; category: CatalogCategory | "all" }> {
+): ResolverResult<{
+  products: any[];
+  category: CatalogCategory | "all";
+  overBudgetAlternatives?: any[];
+}> {
   const numericBudget = typeof budgetTL === "number"
     ? budgetTL
     : parseInt(String(budgetTL || "").replace(/[^\d]/g, ""), 10) || 0;
@@ -457,15 +742,17 @@ export function resolveBudgetRecommendation(
     resolvedCategory = detected.category ?? "smartphones";
   }
 
-  const TOLERANCE = 0.20;
-  const minPrice = numericBudget * (1 - TOLERANCE);
-  const maxPrice = numericBudget * (1 + TOLERANCE);
+  // STRICT UPPER BUDGET BOUND:
+  // Recommended products in the primary list MUST NOT exceed the budget limit!
+  // No silent 20-30% price inflation.
+  const maxPrice = numericBudget;
+  const minPrice = Math.max(0, numericBudget * 0.40);
 
   let candidates = catalog.filter((p: any) => {
     const cat = p.category === "smartphones" ? "smartphones" : p.category;
     if ((resolvedCategory as string) !== "all" && cat !== resolvedCategory) return false;
     const price = p.basePrice || p.price || 0;
-    return price >= minPrice && price <= maxPrice;
+    return price > 0 && price <= maxPrice && price >= minPrice;
   });
 
   if (candidates.length === 0) {
@@ -473,7 +760,7 @@ export function resolveBudgetRecommendation(
       const cat = p.category === "smartphones" ? "smartphones" : p.category;
       if ((resolvedCategory as string) !== "all" && cat !== resolvedCategory) return false;
       const price = p.basePrice || p.price || 0;
-      return price <= numericBudget * 1.3 && price >= numericBudget * 0.5;
+      return price > 0 && price <= maxPrice;
     });
   }
 
@@ -492,7 +779,29 @@ export function resolveBudgetRecommendation(
     }
   }
 
-  if (deduped.length === 0) {
+  // Over-budget alternatives (strictly separated and labeled)
+  const overBudgetCandidates = catalog.filter((p: any) => {
+    const cat = p.category === "smartphones" ? "smartphones" : p.category;
+    if ((resolvedCategory as string) !== "all" && cat !== resolvedCategory) return false;
+    const price = p.basePrice || p.price || 0;
+    return price > numericBudget && price <= numericBudget * 1.20;
+  });
+
+  const seenOverBudget = new Set<string>();
+  const dedupedOverBudget: any[] = [];
+  for (const c of overBudgetCandidates) {
+    const baseKey = (c.name || "")
+      .replace(/\s*\(\d+\s*(?:gb|tb)\)/i, "")
+      .replace(/\s+\d+\s*(?:gb|tb)\b/i, "")
+      .trim()
+      .toLowerCase();
+    if (!seenOverBudget.has(baseKey) && !seenModels.has(baseKey)) {
+      seenOverBudget.add(baseKey);
+      dedupedOverBudget.push(c);
+    }
+  }
+
+  if (deduped.length === 0 && dedupedOverBudget.length === 0) {
     return {
       ok: false,
       message:
@@ -550,7 +859,28 @@ export function resolveBudgetRecommendation(
     }
   }
 
-  return { ok: true, data: { products: finalPicks, category: resolvedCategory } };
+  // Labeled over-budget alternatives
+  dedupedOverBudget.sort((a, b) => getProductModelScore(b) - getProductModelScore(a));
+  const overBudgetAlternatives = dedupedOverBudget.slice(0, 2).map((p) => {
+    const price = p.basePrice || p.price || 0;
+    const diffTL = price - numericBudget;
+    const diffPct = Math.round((diffTL / numericBudget) * 100);
+    return {
+      ...p,
+      budgetDifferenceTL: diffTL,
+      budgetDifferencePercent: diffPct,
+      overBudgetBadge: `+₺${diffTL.toLocaleString("tr-TR")} (+%${diffPct}) Bütçe Üstü Alternatif`,
+    };
+  });
+
+  return {
+    ok: true,
+    data: {
+      products: finalPicks,
+      category: resolvedCategory,
+      ...(overBudgetAlternatives.length > 0 ? { overBudgetAlternatives } : {}),
+    },
+  };
 }
 
 // ---- Panel Types & Helpers ------------------------------------------
@@ -568,19 +898,16 @@ export interface ComparisonMatrixRow {
 export interface ComparisonPanelData {
   type: "comparison";
   scenario: string;
-  category?: string;
+  category: CatalogCategory;
   products: {
     id: string;
     slug: string;
     name: string;
     brand: string;
-    category: string;
-    image?: string;
+    category?: string;
+    image: string;
     price: number;
     cheapestStore: string;
-    secondCheapestStore?: string;
-    secondCheapestPrice?: number;
-    marketSaving?: number;
   }[];
   matrix: ComparisonMatrixRow[];
   winner: {
@@ -588,6 +915,7 @@ export interface ComparisonPanelData {
     productName: string;
     scenario: string;
     reasons: string[];
+    isTie?: boolean;
   };
 }
 
@@ -608,85 +936,103 @@ export interface TechNewsPanelData {
 }
 
 export function formatComparisonData(
-  data: NonNullable<ReturnType<typeof resolveCompareProducts>["data"]>,
-  scenario: string = "Fiyat / Donanım Kıyaslaması"
+  data: {
+    category: CatalogCategory;
+    products: any[];
+    rows: ReturnType<typeof buildComparisonRows>;
+    winner: { id: string; reasons: string[] } | null;
+  },
+  scenario: string = "Detaylı Karşılaştırma"
 ): ComparisonPanelData {
-  const winnerProduct = data.products.find((p) => p.id === data.winner?.id) || data.products[0];
+  const products = data.products.map((p) => {
+    const validOffers = Array.isArray(p.storeOffers)
+      ? p.storeOffers.filter((o: any) => o && o.price > 0).sort((a: any, b: any) => a.price - b.price)
+      : [];
+    const cheapestPrice = validOffers[0]?.price || p.basePrice || p.price || 0;
+    const cheapestStore = validOffers[0]?.storeName || "En Uygun Mağaza";
+
+    return {
+      id: p.id,
+      slug: p.slug || p.id,
+      name: p.name,
+      brand: p.brand || "",
+      category: p.category === "smartphones" ? "phones" : p.category,
+      image: p.image || (Array.isArray(p.images) ? p.images[0] : "") || getFallbackProductImage(p.name, p.brand, p.category),
+      price: cheapestPrice,
+      cheapestStore: cheapestStore,
+    };
+  });
+
+  const matrix: ComparisonMatrixRow[] = data.rows.map((r: any) => ({
+    label: r.label,
+    key: r.key,
+    group: r.group,
+    values: r.values,
+    isDifferent: r.isDifferent,
+    highlightIdx: r.superiorIdx,
+    superiorIdx: r.superiorIdx,
+  }));
+
+  const winnerProduct = data.winner ? data.products.find((p) => p.id === data.winner!.id) : null;
+
   return {
     type: "comparison",
     scenario,
     category: data.category,
-    products: data.products.map((p) => {
-      const validOffers = Array.isArray(p.storeOffers)
-        ? p.storeOffers
-            .filter((o: any) => typeof o.price === "number" && o.price > 0 && o.inStock !== false)
-            .sort((a: any, b: any) => a.price - b.price)
-        : [];
-      const cheapestStore = validOffers[0]?.storeName || "Hepsiburada";
-      const cheapestPrice = validOffers[0]?.price || p.basePrice || 0;
-      const secondCheapestStore = validOffers[1]?.storeName;
-      const secondCheapestPrice = validOffers[1]?.price;
-      const avgPrice =
-        validOffers.length > 0
-          ? Math.round(validOffers.reduce((acc: number, o: any) => acc + o.price, 0) / validOffers.length)
-          : cheapestPrice;
-      const marketSaving = avgPrice > cheapestPrice ? avgPrice - cheapestPrice : 0;
-
-      return {
-        id: p.id,
-        slug: p.slug || p.id,
-        name: p.name,
-        brand: p.brand,
-        category: p.category === "smartphones" ? "phones" : p.category || "phones",
-        image: p.image || (Array.isArray(p.images) ? p.images[0] : "") || getFallbackProductImage(p.name, p.brand, p.category),
-        price: cheapestPrice,
-        cheapestStore,
-        secondCheapestStore,
-        secondCheapestPrice,
-        marketSaving,
-      };
-    }),
-    matrix: data.rows.map((r: any) => ({
-      label: r.label,
-      key: r.key,
-      group: r.group,
-      values: r.values,
-      isDifferent: r.isDifferent ?? (new Set(r.values).size > 1),
-      highlightIdx: r.superiorIdx,
-      superiorIdx: r.superiorIdx,
-    })),
-    winner: {
-      productId: winnerProduct.id,
-      productName: winnerProduct.name,
-      scenario: "Fiyat / Donanım",
-      reasons: data.winner?.reasons || ["Kategorisinde öne çıkan seçim"],
-    },
+    products,
+    matrix,
+    winner: winnerProduct
+      ? {
+          productId: winnerProduct.id,
+          productName: winnerProduct.name,
+          scenario: "Donanım Üstünlüğü",
+          reasons: data.winner!.reasons || ["Kategorisinde öne çıkan seçim"],
+          isTie: false,
+        }
+      : {
+          productId: "",
+          productName: "Beraberlik",
+          scenario: "Donanım Üstünlüğü",
+          reasons: ["İki model donanım ve teknik kriterlerde dengeli bir performans sunuyor"],
+          isTie: true,
+        },
   };
 }
 
 export function tryExtractComparisonFromMessage(message: string): string[] | null {
   if (!message || typeof message !== "string") return null;
 
-  // 1. İki bilinen amiral gemisi veya popüler model adı yan yana yazılmışsa (örn: "iphone 16 pro s24 ultra", "roborock saros dreame l20")
-  const knownKeywords = [
+  // 1. Bilinen amiral gemisi veya popüler model adları
+  // Uzun modeller önce eşleşsin diye anahtar uzunluğuna göre azalan sıralanır
+  const rawKeywords = [
     { key: "iphone 18 pro max", label: "iPhone 18 Pro Max" },
-    { key: "iphone 18 pro", label: "iPhone 18 Pro" },
-    { key: "iphone duo", label: "iPhone Duo" },
     { key: "iphone 17 pro max", label: "iPhone 17 Pro Max" },
-    { key: "iphone 17 pro", label: "iPhone 17 Pro" },
-    { key: "iphone 17", label: "iPhone 17" },
     { key: "iphone 16 pro max", label: "iPhone 16 Pro Max" },
+    { key: "iphone 18 pro", label: "iPhone 18 Pro" },
+    { key: "iphone 17 pro", label: "iPhone 17 Pro" },
     { key: "iphone 16 pro", label: "iPhone 16 Pro" },
+    { key: "iphone duo", label: "iPhone Duo" },
+    { key: "iphone 18", label: "iPhone 18" },
+    { key: "iphone 17", label: "iPhone 17" },
     { key: "iphone 16", label: "iPhone 16" },
+    { key: "iphone 15", label: "iPhone 15" },
+    { key: "iphone 14", label: "iPhone 14" },
+    { key: "iphone 13", label: "iPhone 13" },
+    { key: "galaxy s26 ultra", label: "Galaxy S26 Ultra" },
+    { key: "galaxy s25 ultra", label: "Galaxy S25 Ultra" },
+    { key: "galaxy s24 ultra", label: "Galaxy S24 Ultra" },
     { key: "s26 ultra", label: "Galaxy S26 Ultra" },
     { key: "s25 ultra", label: "Galaxy S25 Ultra" },
     { key: "s24 ultra", label: "Galaxy S24 Ultra" },
     { key: "s24 fe", label: "Galaxy S24 FE" },
     { key: "s24", label: "Galaxy S24" },
+    { key: "s23 ultra", label: "Galaxy S23 Ultra" },
+    { key: "s23", label: "Galaxy S23" },
     { key: "xiaomi 15 ultra", label: "Xiaomi 15 Ultra" },
     { key: "xiaomi 14 ultra", label: "Xiaomi 14 Ultra" },
     { key: "roborock saros 20 sonic", label: "Roborock Saros 20 Sonic" },
     { key: "roborock saros 20", label: "Roborock Saros 20" },
+    { key: "roborock qrevo curv", label: "Roborock Qrevo Curv" },
     { key: "roborock qrevo", label: "Roborock Qrevo Curv" },
     { key: "roborock", label: "Roborock Saros 20 Sonic" },
     { key: "dreame bot l20 ultra", label: "Dreame Bot L20 Ultra" },
@@ -695,8 +1041,10 @@ export function tryExtractComparisonFromMessage(message: string): string[] | nul
     { key: "dreame bot l10s", label: "Dreame Bot L10S Ultra" },
     { key: "dreame", label: "Dreame Bot L20 Ultra" },
     { key: "dream", label: "Dreame Bot L20 Ultra" },
-    { key: "dyson v15", label: "Dyson V15 Detect" },
+    { key: "dyson gen5detect", label: "Dyson Gen5detect" },
     { key: "dyson gen5", label: "Dyson Gen5detect" },
+    { key: "dyson v15 detect", label: "Dyson V15 Detect" },
+    { key: "dyson v15", label: "Dyson V15 Detect" },
     { key: "dyson", label: "Dyson V15 Detect" },
     { key: "playstation 5 pro", label: "PlayStation 5 Pro" },
     { key: "playstation 5 slim", label: "PlayStation 5 Slim" },
@@ -708,46 +1056,81 @@ export function tryExtractComparisonFromMessage(message: string): string[] | nul
     { key: "xbox series s", label: "Xbox Series S" },
   ];
 
-  // 2. Doğrudan "A mu/mı/mi/mü B (mi/mu)?" veya "A'mı B'mi" kalıbı (örn: "Roborock mu Dream'mi", "PS5 mi Xbox mı")
+  const sortedKeywords = [...rawKeywords].sort((a, b) => b.key.length - a.key.length);
+  const lowerMsg = message.toLowerCase();
+  const matchedSpans: { start: number; end: number; label: string }[] = [];
+
+  // Non-overlapping keyword matching with word boundaries & capacity preservation
+  for (const item of sortedKeywords) {
+    let searchStart = 0;
+    while (searchStart < lowerMsg.length) {
+      const idx = lowerMsg.indexOf(item.key, searchStart);
+      if (idx === -1) break;
+      let endIdx = idx + item.key.length;
+      let label = item.label;
+
+      // Check if storage capacity immediately follows the model keyword
+      // e.g. "iphone 17 pro max 256 gb" or " 256gb" or " 1 tb"
+      const rest = lowerMsg.slice(endIdx);
+      const storageMatch = rest.match(/^\s+(\d{1,4}\s*(?:gb|tb))\b/i);
+      if (storageMatch) {
+        endIdx += storageMatch[0].length;
+        label = `${label} ${storageMatch[1].toUpperCase().replace(/\s+/g, " ")}`;
+      }
+
+      const charBefore = idx > 0 ? lowerMsg[idx - 1] : " ";
+      const charAfter = endIdx < lowerMsg.length ? lowerMsg[endIdx] : " ";
+      const boundaryBefore = /[\s\.,;:'"?!()\/\-_]/.test(charBefore);
+      const boundaryAfter = /[\s\.,;:'"?!()\/\-_]/.test(charAfter);
+
+      if (boundaryBefore && boundaryAfter) {
+        const overlaps = matchedSpans.some(
+          (span) => Math.max(idx, span.start) < Math.min(endIdx, span.end)
+        );
+
+        if (!overlaps) {
+          matchedSpans.push({ start: idx, end: endIdx, label });
+        }
+      }
+      searchStart = endIdx;
+    }
+  }
+
+  matchedSpans.sort((a, b) => a.start - b.start);
+  const foundFromKeywords = Array.from(new Set(matchedSpans.map((s) => s.label)));
+  if (foundFromKeywords.length >= 2) {
+    return [foundFromKeywords[0], foundFromKeywords[1]];
+  }
+
+  // 2. Doğrudan "A mu/mı/mi/mü B (mi/mu)?" veya "A'mı B'mi" kalıbı
   const questionParticleMatch = message.match(
     /\b([A-Za-z0-9\-_]{2,})\s*(?:['’]?(?:mu|mı|mi|mü))\s+([A-Za-z0-9\-_]{2,})(?:['’]?(?:mu|mı|mi|mü))?/i
   );
   if (questionParticleMatch) {
-    let cand1 = questionParticleMatch[1].trim();
-    let cand2 = questionParticleMatch[2].trim();
-    cand1 = cand1.replace(/['’](?:mu|mı|mi|mü)$/i, "").trim();
-    cand2 = cand2.replace(/['’](?:mu|mı|mi|mü)$/i, "").trim();
+    const cand1 = questionParticleMatch[1].trim().replace(/['’](?:mu|mı|mi|mü)$/i, "").trim();
+    const cand2 = questionParticleMatch[2].trim().replace(/['’](?:mu|mı|mi|mü)$/i, "").trim();
 
-    const stopWords = new Set(["bu", "su", "o", "ne", "var", "yok", "kim", "sen", "ben", "bana", "bize", "icin", "için"]);
-    if (!stopWords.has(cand1.toLowerCase()) && !stopWords.has(cand2.toLowerCase())) {
+    if (!SEARCH_STOP_WORDS.has(normalizeTr(cand1)) && !SEARCH_STOP_WORDS.has(normalizeTr(cand2))) {
       return [cand1, cand2];
     }
   }
 
-  const lowerMsg = message.toLowerCase();
-  const foundModels: string[] = [];
-  for (const item of knownKeywords) {
-    if (lowerMsg.includes(item.key) && !foundModels.includes(item.label)) {
-      foundModels.push(item.label);
-      if (foundModels.length === 2) {
-        return foundModels;
-      }
+  // 3. Doğrudan "X vs Y" veya "X karşı Y" kalıbı
+  const compactVsMatch = message.match(/\b([A-Za-z0-9\-_]{2,})\s+(?:vs\.?|karşı)\s+([A-Za-z0-9\-_]{2,})\b/i);
+  if (compactVsMatch) {
+    const c1 = compactVsMatch[1].trim();
+    const c2 = compactVsMatch[2].trim();
+    if (!SEARCH_STOP_WORDS.has(normalizeTr(c1)) && !SEARCH_STOP_WORDS.has(normalizeTr(c2))) {
+      return [c1, c2];
     }
   }
 
-  // 3. Doğrudan "X vs Y" veya "X karşı Y" kalıbı (Mutlaka kelime sınırıyla \b, örn: "tavsiye" içindeki "vs"yi eşleştirme!)
-  const compactVsMatch = message.match(/\b([A-Za-z0-9\-_]{2,})\s+(?:vs\.?|karşı)\s+([A-Za-z0-9\-_]{2,})\b/i);
-  if (compactVsMatch) {
-    return [compactVsMatch[1].trim(), compactVsMatch[2].trim()];
-  }
-
-  // 4. Açık kıyaslama niyeti kontrolü (kiyasla, karsilastir, mu yoksa, hangisi daha iyi, mu, mı, mi vb.)
+  // 4. Açık kıyaslama niyeti kontrolü
   const hasComparisonIntent =
-    /\b(vs\.?|karşı|kiyasla|kıyasla|karsilastir|karşılaştır|karsilastirmasi|karşılaştırması|kiyaslamasi|kıyaslaması|farklari|farkları|farki|farkı|hangisi\s+daha|daha\s+iyi|hangisi\s+alınır|hangisi\s+alinir|aralarındaki\s+fark|arasındaki\s+fark|mu\s+yoksa|mı\s+yoksa|mi\s+yoksa|mü\s+yoksa|mu|mı|mi|mü)\b/i.test(
+    /\b(vs\.?|karşı|kiyasla|kıyasla|karsilastir|karşılaştır|karsilastirmasi|karşılaştırması|kiyaslamasi|kıyaslaması|farklari|farkları|farki|farkı|hangisi\s+daha|daha\s+iyi|hangisi\s+alınır|hangisi\s+alinir|aralarındaki\s+fark|arasındaki\s+fark|mu\s+yoksa|mı\s+yoksa|mi\s+yoksa|mü\s+yoksa)\b/i.test(
       message
     );
 
-  // Açık bir kıyaslama niyeti yoksa sohbet cümlelerindeki "ve/ile" bağlaçlarını kıyaslama sanma!
   if (!hasComparisonIntent) {
     return null;
   }
@@ -755,7 +1138,7 @@ export function tryExtractComparisonFromMessage(message: string): string[] | nul
   const clean = message
     .replace(/[,\?\!\.]+/g, " ")
     .replace(
-      /\b(kiyasla|kıyasla|karsilastir|karşılaştır|karsilastirmasi|karşılaştırması|kiyaslamasi|kıyaslaması|farklari|farkları|farki|farkı|hangisi|daha|iyi|alinir|alınır|oner|öner|telefonu|televizyonu|modeli)\b/gi,
+      /\b(kiyasla|kıyasla|karsilastir|karşılaştır|karsilastirmasi|karşılaştırması|kiyaslamasi|kıyaslaması|farklari|farkları|farki|farkı|hangisi|daha|iyi|alinir|alınır|oner|öner|telefonu|televizyonu|modeli|modelleri)\b/gi,
       " "
     )
     .trim();
@@ -765,17 +1148,24 @@ export function tryExtractComparisonFromMessage(message: string): string[] | nul
     const parts = clean
       .split(splitRegex)
       .map((s) => s.trim().replace(/^[\s,]+|[\s,]+$/g, ""))
-      .filter((s) => s.length >= 3);
+      .filter((s) => s.length >= 2);
 
     if (parts.length >= 2) {
-      const blacklist = new Set([
-        "ta", "iye", "bana", "kendime", "kadar", "olan", "para", "butce", "bütçe",
-        "telefon", "model", "hediye", "icin", "için", "urun", "ürün", "senin",
-        "kardesime", "dogum", "gunu", "tavsiye", "edersin"
-      ]);
-      const p1 = parts[0].toLowerCase();
-      const p2 = parts[1].toLowerCase();
-      if (!blacklist.has(p1) && !blacklist.has(p2) && p1.length >= 3 && p2.length >= 3) {
+      // Validate candidates: must not be stop words and must have actual brand or model characteristics
+      const isValidCandidate = (p: string) => {
+        const norm = normalizeTr(p);
+        if (!norm || norm.length < 3) return false;
+        if (SEARCH_STOP_WORDS.has(norm)) return false;
+        const tokens = norm.split(/\s+/).filter(Boolean);
+        if (tokens.length === 0 || tokens.every((t) => SEARCH_STOP_WORDS.has(t))) return false;
+        const hasBrandOrModel =
+          /(?:iphone|apple|samsung|galaxy|xiaomi|redmi|poco|huawei|sony|lg|philips|tcl|dyson|roborock|dreame|ps5|playstation|xbox|asus|lenovo|dell|hp|acer|macbook|ipad|watch|\d{2,})/i.test(
+            norm
+          );
+        return hasBrandOrModel;
+      };
+
+      if (isValidCandidate(parts[0]) && isValidCandidate(parts[1])) {
         return [parts[0], parts[1]];
       }
     }
@@ -904,8 +1294,8 @@ export function detectSetupOrPackageQuery(prompt: string): ComparisonPanelData |
 
 export function createDynamicComparisonPanel(
   productNames: string[],
-  categoryHint: string = "electronics"
-): ComparisonPanelData {
+  _categoryHint: string = "electronics"
+): ComparisonPanelData | null {
   const catalog = getStoredProducts();
   const rawP1 = (productNames[0] || "").trim();
   const rawP2 = (productNames[1] || "").trim();
@@ -913,154 +1303,19 @@ export function createDynamicComparisonPanel(
   const c1 = rawP1 ? findProductByNameOrId(catalog, rawP1) : null;
   const c2 = rawP2 ? findProductByNameOrId(catalog, rawP2) : null;
 
-  const finalP1Name = c1 ? c1.name : (rawP1 || "Amiral Gemisi A");
-  const finalP2Name = c2 ? c2.name : (rawP2 || "Amiral Gemisi B");
-
-  const extractBrand = (name: string) => {
-    const brands = [
-      "apple", "samsung", "xiaomi", "lg", "philips", "sony", "huawei", "tcl",
-      "asus", "dell", "lenovo", "hp", "msi", "acer", "dyson", "vestel", "beko", "arcelik"
-    ];
-    const lower = name.toLowerCase();
-    const found = brands.find((b) => lower.includes(b));
-    return found ? found.charAt(0).toUpperCase() + found.slice(1) : name.split(" ")[0] || "Teknoloji";
-  };
-
-  const b1 = c1 ? c1.brand : extractBrand(finalP1Name);
-  const b2 = c2 ? c2.brand : extractBrand(finalP2Name);
-
-  const img1 = c1?.image || (Array.isArray(c1?.images) ? c1.images[0] : "") || getFallbackProductImage(finalP1Name, b1, categoryHint);
-  const img2 = c2?.image || (Array.isArray(c2?.images) ? c2.images[0] : "") || getFallbackProductImage(finalP2Name, b2, categoryHint);
-
-  const price1 = c1 ? (c1.basePrice || c1.price || 0) : 0;
-  const price2 = c2 ? (c2.basePrice || c2.price || 0) : 0;
-  const store1 = c1?.storeOffers?.[0]?.storeName || (price1 > 0 ? "En Uygun Mağaza" : "Piyasa Fiyatı");
-  const store2 = c2?.storeOffers?.[0]?.storeName || (price2 > 0 ? "En Uygun Mağaza" : "Piyasa Fiyatı");
-
-  const detectedCat = (c1?.category || c2?.category || (categoryHint !== "electronics" ? categoryHint : null) || (
-    finalP1Name.toLowerCase().includes("tv") || finalP2Name.toLowerCase().includes("tv") ||
-    finalP1Name.toLowerCase().includes("oled") || finalP2Name.toLowerCase().includes("qned") ? "tvs" : "smartphones"
-  )) as CatalogCategory;
-
-  // If both products are in catalog, build actual Versus/AnTuTu comparison rows!
-  let matrixRows: ComparisonMatrixRow[] = [];
-  if (c1 && c2) {
-    const realRows = buildComparisonRows([c1, c2], detectedCat);
-    if (realRows.length > 0) {
-      matrixRows = realRows.map((r) => ({
-        label: r.label,
-        key: r.key,
-        group: r.group,
-        values: r.values,
-        isDifferent: new Set(r.values).size > 1,
-        highlightIdx: r.superiorIdx,
-        superiorIdx: r.superiorIdx,
-      }));
-    }
+  // STRICT CATALOG GROUNDING:
+  // Both products must be verified in catalog, distinct, and from the same category.
+  // Never fabricate mock products or specs from conversational strings.
+  if (!c1 || !c2 || c1.id === c2.id || c1.category !== c2.category) {
+    return null;
   }
 
-  // Fallback to high-level benchmark rows if catalog rows not available
-  if (matrixRows.length === 0) {
-    if (detectedCat === "tvs") {
-      matrixRows = [
-        { label: "Panel Teknolojisi", group: "screen", values: ["4K Ultra HD OLED / Mini-LED", "4K Ultra HD OLED / Mini-LED"], isDifferent: false },
-        { label: "Panel Yenileme Hızı", group: "screen", values: ["120Hz / 144Hz VRR Destekli", "120Hz / 144Hz VRR Destekli"], isDifferent: false },
-        { label: "Zirve Parlaklık (Nits)", group: "screen", values: ["1.500+ Nits Tepe Değeri", "1.200+ Nits Tepe Değeri"], isDifferent: true, highlightIdx: 0, superiorIdx: 0 },
-        { label: "HDR & Renk Formatları", group: "screen", values: ["Dolby Vision, HDR10+, HLG", "Dolby Vision, HDR10+, HLG"], isDifferent: false },
-        { label: "Yapay Zeka Görüntü İşlemcisi", group: "processor", values: [`${b1} Neural AI Processor 4K`, `${b2} AI Processor 4K`], isDifferent: false },
-        { label: "Akıllı TV İşletim Sistemi", group: "processor", values: ["Google TV / webOS Akıllı Arayüz", "Google TV / webOS Akıllı Arayüz"], isDifferent: false },
-        { label: "Ses Sistemi Gücü", group: "camera", values: ["40W Dolby Atmos Çok Kanallı", "20W Dolby Atmos Çok Kanallı"], isDifferent: true, highlightIdx: 0, superiorIdx: 0 },
-        { label: "HDMI 2.1 & Oyun Portları", group: "build", values: ["4x HDMI 2.1 (VRR & ALLM)", "3x HDMI 2.1 (VRR & ALLM)"], isDifferent: true, highlightIdx: 0, superiorIdx: 0 },
-        { label: "Enerji Verimliliği", group: "battery", values: ["F Sınıfı Eko Tasarım", "G Sınıfı Eko Tasarım"], isDifferent: false },
-      ];
-    } else if (detectedCat === "appliances") {
-      matrixRows = [
-        { label: "Maksimum Emiş Gücü (Pa)", group: "processor", values: ["18.500 Pa HyperForce Emiş Gücü", "7.000 Pa Vormax Emiş Gücü"], isDifferent: true, highlightIdx: 0, superiorIdx: 0 },
-        { label: "Haritalama & AI Engel Tanıma", group: "screen", values: ["LiDAR + 3D Yapay Zeka Engel Kaçınma", "Pathfinder™ AI RGB + 3D LiDAR"], isDifferent: true, highlightIdx: 0, superiorIdx: 0 },
-        { label: "Paspas & Sıcak Su Yıkama İstasyonu", group: "build", values: ["60°C Sıcak Su & Sıcak Hava Kurutma İstasyonu", "58°C Sıcak Su & Otomatik Temizleme İstasyonu"], isDifferent: false },
-        { label: "Çalışma Süresi & Pil Kapasitesi", group: "battery", values: ["220 Dk Kesintisiz Temizlik", "260 Dk Kesintisiz Temizlik"], isDifferent: true, highlightIdx: 1, superiorIdx: 1 },
-        { label: "Toz & Temiz Su Hazne Hacmi", group: "build", values: ["400ml Toz / 4.5L Temiz Su Tankı", "350ml Toz / 4.5L Temiz Su Tankı"], isDifferent: false },
-        { label: "Çalışma Ses Seviyesi (dB)", group: "build", values: ["62 dB Sessiz Akustik Tasarım", "63 dB Sessiz Akustik Tasarım"], isDifferent: true, highlightIdx: 0, superiorIdx: 0 },
-      ];
-    } else if (detectedCat === "consoles") {
-      matrixRows = [
-        { label: "Grafik Hesaplama Gücü (TFLOPs)", group: "processor", values: ["16.7 TFLOPs RDNA Grafiği & PSSR", "10.3 TFLOPs Standart Grafik"], isDifferent: true, highlightIdx: 0, superiorIdx: 0 },
-        { label: "Hedeflenen Çözünürlük & FPS", group: "screen", values: ["4K 60-120 FPS (Ray Tracing Aktif)", "Dinamik 4K 30-60 FPS"], isDifferent: true, highlightIdx: 0, superiorIdx: 0 },
-        { label: "Dahili Yüksek Hızlı SSD", group: "processor", values: ["2 TB Ultra Hızlı NVMe (5.5 GB/s)", "1 TB Ultra Hızlı NVMe"], isDifferent: true, highlightIdx: 0, superiorIdx: 0 },
-        { label: "HDMI 2.1 & VRR Çıkışı", group: "build", values: ["HDMI 2.1 VRR & 8K Desteği", "HDMI 2.1 VRR 4K Desteği"], isDifferent: false },
-        { label: "Yapay Zeka Yükseltme Teknolojisi", group: "processor", values: ["PSSR (PlayStation Spectral Super Resolution)", "Standart Çözünürlük Ölçekleyici"], isDifferent: true, highlightIdx: 0, superiorIdx: 0 },
-      ];
-    } else {
-      matrixRows = [
-        { label: "AnTuTu v10 Benchmark Skoru", group: "processor", values: ["~2.350.000+ Puan (Amiral)", "~2.150.000+ Puan (Amiral)"], isDifferent: true, highlightIdx: 0, superiorIdx: 0 },
-        { label: "İşlemci & Çip Mimarisi", group: "processor", values: [`${b1} Yeni Nesil 2-3nm Çip`, `${b2} Yeni Nesil 2-3nm Çip`], isDifferent: false },
-        { label: "Ekran & Panel Teknolojisi", group: "screen", values: ["1-120Hz Dinamik LTPO OLED", "1-120Hz Dinamik LTPO OLED"], isDifferent: false },
-        { label: "Tepe Parlaklık (Nits)", group: "screen", values: ["3.000+ Nits Dış Mekan", "2.800+ Nits Dış Mekan"], isDifferent: true, highlightIdx: 0, superiorIdx: 0 },
-        { label: "Kamera & Optik Zoom", group: "camera", values: ["Gelişmiş Sensör & OIS", "Gelişmiş Sensör & OIS"], isDifferent: false },
-        { label: "Batarya & Hızlı Şarj", group: "battery", values: ["Optimize Güç Tüketimi & Hızlı Şarj", "Yüksek Kapasite & Hızlı Şarj"], isDifferent: false },
-      ];
-    }
+  const compResult = resolveCompareProducts([c1.id, c2.id]);
+  if (compResult.ok && compResult.data) {
+    return formatComparisonData(compResult.data, "Detaylı Karşılaştırma");
   }
 
-  const defaultWinnerReasons =
-    detectedCat === "appliances"
-      ? [
-          "Maksimum emiş gücü ve halı derinlemesine temizlik performansı",
-          "Sıcak su paspas yıkama ve kurutma istasyonunun hijyen verimliliği",
-          "3D LiDAR ve yapay zeka nesne tanıma kabiliyeti",
-        ]
-      : detectedCat === "consoles"
-      ? [
-          "16.7 TFLOPs grafik hesaplama gücü ve PSSR yapay zeka yükseltme desteği",
-          "2 TB yüksek hızlı NVMe SSD depolama alanı",
-          "Kararlı 4K 60-120 FPS akıcılık ve Ray Tracing performansı",
-        ]
-      : detectedCat === "tvs"
-      ? [
-          "Panel tepe parlaklığı ve HDR kontrast derinliği",
-          "120Hz/144Hz VRR ve düşük giriş gecikmesi performansı",
-          "Görüntü işlemcisi ve akıllı TV arayüz akıcılığı",
-        ]
-      : [
-          "AnTuTu benchmark ve grafik performansında daha kararlı termal yönetim",
-          "Kamera sensör boyutu ve optik zoom kalibrasyonu",
-          "Kullanıcı memnuniyeti ve fiyat/performans değeri",
-        ];
-
-  return {
-    type: "comparison",
-    scenario: "Detaylı Karşılaştırma",
-    category: detectedCat,
-    products: [
-      {
-        id: c1 ? c1.id : `dyn-1`,
-        slug: c1 ? (c1.slug || c1.id) : finalP1Name.toLowerCase().replace(/[^a-z0-9]+/g, "-"),
-        name: finalP1Name,
-        brand: b1,
-        category: c1?.category === "smartphones" ? "phones" : (c1?.category || categoryHint),
-        image: img1,
-        price: price1,
-        cheapestStore: store1,
-      },
-      {
-        id: c2 ? c2.id : `dyn-2`,
-        slug: c2 ? (c2.slug || c2.id) : finalP2Name.toLowerCase().replace(/[^a-z0-9]+/g, "-"),
-        name: finalP2Name,
-        brand: b2,
-        category: c2?.category === "smartphones" ? "phones" : (c2?.category || categoryHint),
-        image: img2,
-        price: price2,
-        cheapestStore: store2,
-      },
-    ],
-    matrix: matrixRows,
-    winner: {
-      productId: c1 ? c1.id : "dyn-1",
-      productName: finalP1Name,
-      scenario: "Uzman Seçimi",
-      reasons: defaultWinnerReasons,
-    },
-  };
+  return null;
 }
 
 export function isNewsQuery(message: string): boolean {

@@ -35,6 +35,7 @@ import {
 import { getStoreSearchUrl } from '@/lib/activeStores';
 import { DeepCompareSections } from './deep/DeepCompareSections';
 import { RefereeVerdictCard } from './RefereeVerdictCard';
+import { getProductScore, calculateOverallDuelWinner, getDuelRefereeVerdictText } from '@/lib/compareMetrics';
 
 interface DuelArenaProps {
   product1: Product;
@@ -196,74 +197,131 @@ export function DuelArena({ product1, product2, onProductChange }: DuelArenaProp
   const s1 = getSpecs(product1);
   const s2 = getSpecs(product2);
 
-  // Benchmark / AnTuTu
-  const antutu1 = s1.processor?.antutuScore || (product1.rating >= 4.8 ? 2120000 : product1.rating >= 4.5 ? 1750000 : 1350000);
-  const antutu2 = s2.processor?.antutuScore || (product2.rating >= 4.8 ? 2080000 : product2.rating >= 4.5 ? 1680000 : 1290000);
-  const maxAntutu = Math.max(antutu1, antutu2, 2400000);
+  // Benchmark / AnTuTu - strictly sourced from verified specs
+  const antutu1 = typeof s1.processor?.antutuScore === 'number' && s1.processor.antutuScore > 0 ? s1.processor.antutuScore : null;
+  const antutu2 = typeof s2.processor?.antutuScore === 'number' && s2.processor.antutuScore > 0 ? s2.processor.antutuScore : null;
 
-  // 10-scale stats matching visual reference
+  const parseMp = (val: string | undefined): number => {
+    if (!val) return 0;
+    const match = String(val).match(/(\d+)/);
+    return match ? parseInt(match[1], 10) : 0;
+  };
+
+  // 10-scale stats strictly calculated from verified values without fabricated fallbacks
+  const calc10 = (score: number | undefined | null, maxVal: number) => {
+    if (!score || isNaN(score) || score <= 0) return null;
+    const scaled = Math.min(10.0, Math.max(1.0, (score / maxVal) * 10));
+    return scaled.toFixed(1);
+  };
+
   const stats1 = {
-    camera: s1.camera?.dxomarkScore ? (s1.camera.dxomarkScore / 16.2).toFixed(1) : '9.8',
-    battery: s1.battery?.capacitymAh ? (s1.battery.capacitymAh / 495).toFixed(1) : '9.5',
-    screen: s1.screen?.brightnessNits ? (s1.screen.brightnessNits / 255).toFixed(1) : '9.7'
+    camera: calc10(s1.camera?.dxomarkScore, 170) || (parseMp(s1.camera?.mainMp) ? calc10(parseMp(s1.camera?.mainMp), 200) : null),
+    battery: calc10(s1.battery?.capacitymAh, 5500),
+    screen: calc10(s1.screen?.brightnessNits || s1.screen?.brightness, 3000)
   };
 
   const stats2 = {
-    camera: s2.camera?.dxomarkScore ? (s2.camera.dxomarkScore / 16.4).toFixed(1) : '9.8',
-    battery: s2.battery?.capacitymAh ? (s2.battery.capacitymAh / 505).toFixed(1) : '9.5',
-    screen: s2.screen?.brightnessNits ? (s2.screen.brightnessNits / 265).toFixed(1) : '9.7'
+    camera: calc10(s2.camera?.dxomarkScore, 170) || (parseMp(s2.camera?.mainMp) ? calc10(parseMp(s2.camera?.mainMp), 200) : null),
+    battery: calc10(s2.battery?.capacitymAh, 5500),
+    screen: calc10(s2.screen?.brightnessNits || s2.screen?.brightness, 3000)
   };
 
-  // Overall Score (100-scale)
-  const score1 = Math.round((product1.rating || 4.8) * 19.8);
-  const score2 = Math.round((product2.rating || 4.7) * 19.8);
-  const overallWinner = score1 >= score2 ? 1 : 2;
+  // Overall Score (100-scale) - Real verified data only, never fabricate 4.8 / 4.7
+  const score1 = getProductScore(product1);
+  const score2 = getProductScore(product2);
+  const overallWinner = calculateOverallDuelWinner(score1, score2);
+
+  const nits1 = s1.screen?.brightnessNits || s1.screen?.brightness || null;
+  const nits2 = s2.screen?.brightnessNits || s2.screen?.brightness || null;
+  const nitsWinner: 1 | 2 | 'tie' | undefined = (nits1 && nits2)
+    ? (nits1 === nits2 ? 'tie' : (nits1 > nits2 ? 1 : 2))
+    : undefined;
+  const nitsDiff = (nits1 && nits2)
+    ? (nits1 === nits2 ? 'Eşit tepe parlaklık seviyesi' : `${Math.abs(nits1 - nits2)} nits parlaklık farkı`)
+    : 'Doğrulanmış kıyas verisi yok';
+
+  const antutuWinner: 1 | 2 | 'tie' | undefined = (antutu1 && antutu2)
+    ? (antutu1 === antutu2 ? 'tie' : (antutu1 > antutu2 ? 1 : 2))
+    : undefined;
+  const antutuDiff = (antutu1 && antutu2)
+    ? (antutu1 === antutu2 ? 'Eşit sentetik benchmark skoru' : `+${Math.abs(Math.round(((antutu1 - antutu2) / Math.min(antutu1, antutu2)) * 100))}% AnTuTu hız farkı`)
+    : 'Doğrulanmış kıyas verisi yok';
+
+  const mp1 = parseMp(s1.camera?.mainMp);
+  const mp2 = parseMp(s2.camera?.mainMp);
+  const camWinner: 1 | 2 | 'tie' | undefined = (mp1 > 0 && mp2 > 0)
+    ? (mp1 === mp2 ? 'tie' : (mp1 > mp2 ? 1 : 2))
+    : undefined;
+  const camDiff = (mp1 > 0 && mp2 > 0)
+    ? (mp1 === mp2 ? 'Eşit kamera sensör çözünürlüğü' : `${mp1 > mp2 ? product1.brand : product2.brand} ${Math.max(mp1, mp2)} MP ile önde`)
+    : (s1.camera?.mainMp && s2.camera?.mainMp ? 'Kamera sensör kıyası' : 'Doğrulanmış kıyas verisi yok');
+
+  const bat1 = s1.battery?.capacitymAh || null;
+  const bat2 = s2.battery?.capacitymAh || null;
+  const watt1 = s1.battery?.chargingWatts || null;
+  const watt2 = s2.battery?.chargingWatts || null;
+  const batWinner: 1 | 2 | 'tie' | undefined = (bat1 && bat2)
+    ? (bat1 === bat2 ? 'tie' : (bat1 > bat2 ? 1 : 2))
+    : undefined;
+  const batDiff = (bat1 && bat2)
+    ? (bat1 === bat2 ? 'Eşit batarya kapasitesi' : `${Math.abs(bat1 - bat2)} mAh kapasite farkı`)
+    : 'Doğrulanmış kıyas verisi yok';
 
   // Rounds configuration matching the reference UI
-  const roundDefs = [
+  const roundDefs: {
+    id: number;
+    title: string;
+    shortTitle: string;
+    winner?: 1 | 2 | 'tie';
+    p1Val: string;
+    p2Val: string;
+    p1Sub: string;
+    p2Sub: string;
+    diff: string;
+  }[] = [
     {
       id: 1,
       title: 'RAUNT 1: EKRAN',
       shortTitle: 'Ekran & Parlaklık',
-      winner: (s1.screen?.brightnessNits || 2000) >= (s2.screen?.brightnessNits || 2600) ? 1 : 2,
-      p1Val: s1.screen?.brightnessNits ? `${s1.screen.brightnessNits} nits` : '2000 nits Peak',
-      p2Val: s2.screen?.brightnessNits ? `${s2.screen.brightnessNits} nits` : '2600 nits Peak',
-      p1Sub: s1.screen?.type || 'LTPO Super Retina XDR OLED (1-120Hz)',
-      p2Sub: s2.screen?.type || 'Dynamic AMOLED 2X, 120Hz, Gorilla Armor',
-      diff: '600 nits parlaklık & yansıma önleyici cam farkı'
+      winner: nitsWinner,
+      p1Val: nits1 ? `${nits1} nits Peak` : 'Doğrulanmış veri yok',
+      p2Val: nits2 ? `${nits2} nits Peak` : 'Doğrulanmış veri yok',
+      p1Sub: s1.screen?.type || `${product1.brand} Ekran Paneli`,
+      p2Sub: s2.screen?.type || `${product2.brand} Ekran Paneli`,
+      diff: nitsDiff
     },
     {
       id: 2,
       title: 'RAUNT 2: PERFORMANS',
       shortTitle: 'İşlemci & AnTuTu V10',
-      winner: antutu1 >= antutu2 ? 1 : 2,
-      p1Val: `${(antutu1 / 1000).toFixed(0)}k puan`,
-      p2Val: `${(antutu2 / 1000).toFixed(0)}k puan`,
-      p1Sub: s1.processor?.chip || 'Apple A18 Pro (3nm TSMC N3E, 6 Çekirdek)',
-      p2Sub: s2.processor?.chip || 'Snapdragon 8 Gen 3 for Galaxy (4nm, 8 Çekirdek)',
-      diff: `+${Math.abs(Math.round(((antutu1 - antutu2) / Math.min(antutu1, antutu2)) * 100))}% AnTuTu hız farkı`
+      winner: antutuWinner,
+      p1Val: antutu1 ? `${(antutu1 / 1000).toFixed(0)}k puan` : 'Doğrulanmış veri yok',
+      p2Val: antutu2 ? `${(antutu2 / 1000).toFixed(0)}k puan` : 'Doğrulanmış veri yok',
+      p1Sub: s1.processor?.chip || `${product1.brand} Çip Mimarisi`,
+      p2Sub: s2.processor?.chip || `${product2.brand} Çip Mimarisi`,
+      diff: antutuDiff
     },
     {
       id: 3,
       title: 'RAUNT 3: KAMERA',
       shortTitle: 'Kamera & Video Çekimi',
-      winner: Number(stats1.camera) >= Number(stats2.camera) ? 1 : 2,
-      p1Val: s1.camera?.mainMp || '48 MP Fusion (f/1.78, Sensor-shift)',
-      p2Val: s2.camera?.mainMp || '200 MP Ultra (f/1.7, OIS, Laser AF)',
-      p1Sub: '4K@120fps Dolby Vision, ProRes LOG desteği',
-      p2Sub: '50 MP 5x Periskop Optik Zoom, 8K Video Kaydı',
-      diff: 'DxOMark stüdyo renk doğruluğu vs 200MP detay & zoom gücü'
+      winner: camWinner,
+      p1Val: s1.camera?.mainMp || 'Doğrulanmış veri yok',
+      p2Val: s2.camera?.mainMp || 'Doğrulanmış veri yok',
+      p1Sub: s1.camera?.videoRes || 'Yüksek Çözünürlüklü Video',
+      p2Sub: s2.camera?.videoRes || 'Yüksek Çözünürlüklü Video',
+      diff: camDiff
     },
     {
       id: 4,
       title: 'RAUNT 4: BATARYA',
       shortTitle: 'Batarya Kapasitesi & Şarj',
-      winner: (s2.battery?.capacitymAh || 5000) >= (s1.battery?.capacitymAh || 4685) ? 2 : 1,
-      p1Val: s1.battery?.capacitymAh ? `${s1.battery.capacitymAh} mAh` : '4685 mAh (30W)',
-      p2Val: s2.battery?.capacitymAh ? `${s2.battery.capacitymAh} mAh` : '5000 mAh (45W)',
-      p1Sub: 'MagSafe 25W kablosuz & Qi2 hızlı şarj',
-      p2Sub: '45W Süper Hızlı Şarj 2.0 (30 dk %65 dolum)',
-      diff: '315 mAh daha yüksek kapasite & 15W daha hızlı şarj'
+      winner: batWinner,
+      p1Val: bat1 ? `${bat1} mAh${watt1 ? ` (${watt1}W)` : ''}` : 'Doğrulanmış veri yok',
+      p2Val: bat2 ? `${bat2} mAh${watt2 ? ` (${watt2}W)` : ''}` : 'Doğrulanmış veri yok',
+      p1Sub: watt1 ? `${watt1}W Hızlı Şarj` : (bat1 ? 'Standart Şarj' : 'Doğrulanmış şarj verisi yok'),
+      p2Sub: watt2 ? `${watt2}W Hızlı Şarj` : (bat2 ? 'Standart Şarj' : 'Doğrulanmış şarj verisi yok'),
+      diff: batDiff
     }
   ];
 
@@ -415,13 +473,21 @@ export function DuelArena({ product1, product2, onProductChange }: DuelArenaProp
                 />
               </div>
 
-              {/* Big Score: 96 / 100 */}
+              {/* Big Score: 96 / 100 or Puan Yok */}
               <div className="text-center my-1.5 sm:my-3">
                 <div className="inline-flex items-baseline gap-0.5 sm:gap-1">
-                  <span className="text-2xl sm:text-4xl lg:text-5xl font-black text-emerald-600 tracking-tight">
-                    {score1}
-                  </span>
-                  <span className="text-[10px] sm:text-xs lg:text-sm font-extrabold text-slate-400">/100</span>
+                  {score1 !== null ? (
+                    <>
+                      <span className="text-2xl sm:text-4xl lg:text-5xl font-black text-emerald-600 tracking-tight">
+                        {score1}
+                      </span>
+                      <span className="text-[10px] sm:text-xs lg:text-sm font-extrabold text-slate-400">/100</span>
+                    </>
+                  ) : (
+                    <span className="text-base sm:text-xl font-bold text-slate-400 tracking-tight">
+                      Puan Yok
+                    </span>
+                  )}
                 </div>
                 <div className="text-[10px] sm:text-xs font-black text-slate-600 tracking-wide mt-0.5">
                   <span className="hidden sm:inline">Live price: </span>
@@ -439,10 +505,10 @@ export function DuelArena({ product1, product2, onProductChange }: DuelArenaProp
                       <Camera className="w-3 sm:w-3.5 h-3 sm:h-3.5 text-slate-400" />
                       <span className="text-[10px] sm:text-xs">Camera</span>
                     </span>
-                    <span className="font-black text-slate-800 text-[10px] sm:text-xs">{stats1.camera}</span>
+                    <span className="font-black text-slate-800 text-[10px] sm:text-xs">{stats1.camera || 'Veri yok'}</span>
                   </div>
                   <div className="w-full bg-slate-200/70 h-1.5 sm:h-2 rounded-full overflow-hidden">
-                    <div className="bg-emerald-500 h-full rounded-full transition-all duration-700" style={{ width: `${Math.min(100, Number(stats1.camera) * 10)}%` }} />
+                    <div className="bg-emerald-500 h-full rounded-full transition-all duration-700" style={{ width: `${stats1.camera ? Math.min(100, Number(stats1.camera) * 10) : 0}%` }} />
                   </div>
                 </div>
 
@@ -452,10 +518,10 @@ export function DuelArena({ product1, product2, onProductChange }: DuelArenaProp
                       <BatteryCharging className="w-3 sm:w-3.5 h-3 sm:h-3.5 text-slate-400" />
                       <span className="text-[10px] sm:text-xs">Battery</span>
                     </span>
-                    <span className="font-black text-slate-800 text-[10px] sm:text-xs">{stats1.battery}</span>
+                    <span className="font-black text-slate-800 text-[10px] sm:text-xs">{stats1.battery || 'Veri yok'}</span>
                   </div>
                   <div className="w-full bg-slate-200/70 h-1.5 sm:h-2 rounded-full overflow-hidden">
-                    <div className="bg-emerald-500 h-full rounded-full transition-all duration-700" style={{ width: `${Math.min(100, Number(stats1.battery) * 10)}%` }} />
+                    <div className="bg-emerald-500 h-full rounded-full transition-all duration-700" style={{ width: `${stats1.battery ? Math.min(100, Number(stats1.battery) * 10) : 0}%` }} />
                   </div>
                 </div>
 
@@ -465,10 +531,10 @@ export function DuelArena({ product1, product2, onProductChange }: DuelArenaProp
                       <PhoneIcon className="w-3 sm:w-3.5 h-3 sm:h-3.5 text-slate-400" />
                       <span className="text-[10px] sm:text-xs">Screen</span>
                     </span>
-                    <span className="font-black text-slate-800 text-[10px] sm:text-xs">{stats1.screen}</span>
+                    <span className="font-black text-slate-800 text-[10px] sm:text-xs">{stats1.screen || 'Veri yok'}</span>
                   </div>
                   <div className="w-full bg-slate-200/70 h-1.5 sm:h-2 rounded-full overflow-hidden">
-                    <div className="bg-emerald-500 h-full rounded-full transition-all duration-700" style={{ width: `${Math.min(100, Number(stats1.screen) * 10)}%` }} />
+                    <div className="bg-emerald-500 h-full rounded-full transition-all duration-700" style={{ width: `${stats1.screen ? Math.min(100, Number(stats1.screen) * 10) : 0}%` }} />
                   </div>
                 </div>
               </div>
@@ -593,9 +659,7 @@ export function DuelArena({ product1, product2, onProductChange }: DuelArenaProp
                 </span>
               </div>
               <p className="text-[11px] sm:text-xs text-slate-700 leading-snug font-medium">
-                {overallWinner === 1
-                  ? `🏆 ${product1.name} optimize işletim sistemi ve genel puan üstünlüğüyle düelloyu önde götürüyor.`
-                  : `🏆 ${product2.name} zengin donanım ve ekran/kamera yetenekleriyle düelloyu önde götürüyor.`}
+                {getDuelRefereeVerdictText(overallWinner, product1.name, product2.name)}
               </p>
             </div>
 
@@ -719,13 +783,21 @@ export function DuelArena({ product1, product2, onProductChange }: DuelArenaProp
                 />
               </div>
 
-              {/* Big Score: 95 / 100 */}
+              {/* Big Score: 95 / 100 or Puan Yok */}
               <div className="text-center my-1.5 sm:my-3">
                 <div className="inline-flex items-baseline gap-0.5 sm:gap-1">
-                  <span className="text-2xl sm:text-4xl lg:text-5xl font-black text-emerald-600 tracking-tight">
-                    {score2}
-                  </span>
-                  <span className="text-[10px] sm:text-xs lg:text-sm font-extrabold text-slate-400">/100</span>
+                  {score2 !== null ? (
+                    <>
+                      <span className="text-2xl sm:text-4xl lg:text-5xl font-black text-cyan-600 tracking-tight">
+                        {score2}
+                      </span>
+                      <span className="text-[10px] sm:text-xs lg:text-sm font-extrabold text-slate-400">/100</span>
+                    </>
+                  ) : (
+                    <span className="text-base sm:text-xl font-bold text-slate-400 tracking-tight">
+                      Puan Yok
+                    </span>
+                  )}
                 </div>
                 <div className="text-[10px] sm:text-xs font-black text-slate-600 tracking-wide mt-0.5">
                   <span className="hidden sm:inline">Live price: </span>
@@ -743,10 +815,10 @@ export function DuelArena({ product1, product2, onProductChange }: DuelArenaProp
                       <Camera className="w-3 sm:w-3.5 h-3 sm:h-3.5 text-slate-400" />
                       <span className="text-[10px] sm:text-xs">Camera</span>
                     </span>
-                    <span className="font-black text-slate-800 text-[10px] sm:text-xs">{stats2.camera}</span>
+                    <span className="font-black text-slate-800 text-[10px] sm:text-xs">{stats2.camera || 'Veri yok'}</span>
                   </div>
                   <div className="w-full bg-slate-200/70 h-1.5 sm:h-2 rounded-full overflow-hidden">
-                    <div className="bg-emerald-500 h-full rounded-full transition-all duration-700" style={{ width: `${Math.min(100, Number(stats2.camera) * 10)}%` }} />
+                    <div className="bg-emerald-500 h-full rounded-full transition-all duration-700" style={{ width: `${stats2.camera ? Math.min(100, Number(stats2.camera) * 10) : 0}%` }} />
                   </div>
                 </div>
 
@@ -756,10 +828,10 @@ export function DuelArena({ product1, product2, onProductChange }: DuelArenaProp
                       <BatteryCharging className="w-3 sm:w-3.5 h-3 sm:h-3.5 text-slate-400" />
                       <span className="text-[10px] sm:text-xs">Battery</span>
                     </span>
-                    <span className="font-black text-slate-800 text-[10px] sm:text-xs">{stats2.battery}</span>
+                    <span className="font-black text-slate-800 text-[10px] sm:text-xs">{stats2.battery || 'Veri yok'}</span>
                   </div>
                   <div className="w-full bg-slate-200/70 h-1.5 sm:h-2 rounded-full overflow-hidden">
-                    <div className="bg-emerald-500 h-full rounded-full transition-all duration-700" style={{ width: `${Math.min(100, Number(stats2.battery) * 10)}%` }} />
+                    <div className="bg-emerald-500 h-full rounded-full transition-all duration-700" style={{ width: `${stats2.battery ? Math.min(100, Number(stats2.battery) * 10) : 0}%` }} />
                   </div>
                 </div>
 
@@ -769,10 +841,10 @@ export function DuelArena({ product1, product2, onProductChange }: DuelArenaProp
                       <PhoneIcon className="w-3 sm:w-3.5 h-3 sm:h-3.5 text-slate-400" />
                       <span className="text-[10px] sm:text-xs">Screen</span>
                     </span>
-                    <span className="font-black text-slate-800 text-[10px] sm:text-xs">{stats2.screen}</span>
+                    <span className="font-black text-slate-800 text-[10px] sm:text-xs">{stats2.screen || 'Veri yok'}</span>
                   </div>
                   <div className="w-full bg-slate-200/70 h-1.5 sm:h-2 rounded-full overflow-hidden">
-                    <div className="bg-emerald-500 h-full rounded-full transition-all duration-700" style={{ width: `${Math.min(100, Number(stats2.screen) * 10)}%` }} />
+                    <div className="bg-emerald-500 h-full rounded-full transition-all duration-700" style={{ width: `${stats2.screen ? Math.min(100, Number(stats2.screen) * 10) : 0}%` }} />
                   </div>
                 </div>
               </div>
@@ -890,6 +962,11 @@ export function DuelArena({ product1, product2, onProductChange }: DuelArenaProp
                           <span>Kazanan</span>
                         </span>
                       )}
+                      {curRound.winner === 'tie' && (
+                        <span className="bg-slate-200 text-slate-700 text-[10px] font-bold px-2 py-0.5 rounded-md">
+                          Eşit
+                        </span>
+                      )}
                     </div>
                     <div className="text-xl font-black text-slate-900 mb-1">{curRound.p1Val}</div>
                     <div className="text-xs text-slate-600 font-medium">{curRound.p1Sub}</div>
@@ -907,6 +984,11 @@ export function DuelArena({ product1, product2, onProductChange }: DuelArenaProp
                         <span className="bg-emerald-600 text-white text-[10px] font-black px-2 py-0.5 rounded-md flex items-center gap-1">
                           <Trophy className="w-3 h-3" />
                           <span>Kazanan</span>
+                        </span>
+                      )}
+                      {curRound.winner === 'tie' && (
+                        <span className="bg-slate-200 text-slate-700 text-[10px] font-bold px-2 py-0.5 rounded-md">
+                          Eşit
                         </span>
                       )}
                     </div>
@@ -938,33 +1020,48 @@ export function DuelArena({ product1, product2, onProductChange }: DuelArenaProp
         </div>
 
         {/* AnTuTu Score Progress Race */}
-        <div className="space-y-4">
-          <div>
-            <div className="flex justify-between text-xs font-black mb-1.5">
-              <span className="text-slate-800">{product1.name}</span>
-              <span className="text-emerald-600 font-black">{antutu1.toLocaleString()} Puan</span>
-            </div>
-            <div className="w-full bg-slate-100 h-3.5 rounded-full overflow-hidden p-0.5">
-              <div
-                className="bg-gradient-to-r from-emerald-500 to-teal-400 h-full rounded-full transition-all duration-1000"
-                style={{ width: `${Math.round((antutu1 / maxAntutu) * 100)}%` }}
-              />
-            </div>
-          </div>
+        {antutu1 && antutu2 ? (
+          (() => {
+            const maxAntutu = Math.max(antutu1, antutu2, 100000);
+            return (
+              <div className="space-y-4">
+                <div>
+                  <div className="flex justify-between text-xs font-black mb-1.5">
+                    <span className="text-slate-800">{product1.name}</span>
+                    <span className="text-emerald-600 font-black">{antutu1.toLocaleString()} Puan</span>
+                  </div>
+                  <div className="w-full bg-slate-100 h-3.5 rounded-full overflow-hidden p-0.5">
+                    <div
+                      className="bg-gradient-to-r from-emerald-500 to-teal-400 h-full rounded-full transition-all duration-1000"
+                      style={{ width: `${Math.round((antutu1 / maxAntutu) * 100)}%` }}
+                    />
+                  </div>
+                </div>
 
-          <div>
-            <div className="flex justify-between text-xs font-black mb-1.5">
-              <span className="text-slate-800">{product2.name}</span>
-              <span className="text-cyan-600 font-black">{antutu2.toLocaleString()} Puan</span>
-            </div>
-            <div className="w-full bg-slate-100 h-3.5 rounded-full overflow-hidden p-0.5">
-              <div
-                className="bg-gradient-to-r from-cyan-500 to-blue-500 h-full rounded-full transition-all duration-1000"
-                style={{ width: `${Math.round((antutu2 / maxAntutu) * 100)}%` }}
-              />
-            </div>
+                <div>
+                  <div className="flex justify-between text-xs font-black mb-1.5">
+                    <span className="text-slate-800">{product2.name}</span>
+                    <span className="text-cyan-600 font-black">{antutu2.toLocaleString()} Puan</span>
+                  </div>
+                  <div className="w-full bg-slate-100 h-3.5 rounded-full overflow-hidden p-0.5">
+                    <div
+                      className="bg-gradient-to-r from-cyan-500 to-blue-500 h-full rounded-full transition-all duration-1000"
+                      style={{ width: `${Math.round((antutu2 / maxAntutu) * 100)}%` }}
+                    />
+                  </div>
+                </div>
+              </div>
+            );
+          })()
+        ) : (
+          <div className="p-4 bg-slate-50 border border-slate-200 rounded-2xl text-center text-xs font-medium text-slate-500">
+            {antutu1 || antutu2 ? (
+              <span>Modellerden biri veya her ikisi için laboratuvar onaylı AnTuTu benchmark puanı henüz sisteme girilmemiştir.</span>
+            ) : (
+              <span>Doğrulanmış AnTuTu V10 benchmark verisi bulunamadı.</span>
+            )}
           </div>
-        </div>
+        )}
 
         {/* Versus Style Advantage Boxes */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 pt-2">

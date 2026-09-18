@@ -33,12 +33,12 @@ export function SpecSheet({ specs }: SpecSheetProps) {
       icon: ScreenIcon,
       iconColor: 'text-emerald-600',
       items: [
-        { label: t.screenSizeLabel, value: specs.screen?.size || '6.7 inç' },
-        { label: t.panelTypeLabel, value: specs.screen?.type || 'OLED' },
-        { label: t.resolutionLabel, value: specs.screen?.resolution || '1.5K' },
-        { label: t.refreshRateLabel, value: `${specs.screen?.refreshRate || 120} Hz` },
-        { label: 'Piksel Yoğunluğu', value: `${specs.screen?.ppi || 460} ppi` },
-        { label: 'Maks Parlaklık', value: `${specs.screen?.brightnessNits || 2000} nits` }
+        { label: t.screenSizeLabel, value: specs.screen?.size || 'Belirtilmemiş' },
+        { label: t.panelTypeLabel, value: specs.screen?.type || 'Belirtilmemiş' },
+        { label: t.resolutionLabel, value: specs.screen?.resolution || 'Belirtilmemiş' },
+        { label: t.refreshRateLabel, value: specs.screen?.refreshRate ? `${specs.screen.refreshRate} Hz` : 'Belirtilmemiş' },
+        { label: 'Piksel Yoğunluğu', value: specs.screen?.ppi ? `${specs.screen.ppi} ppi` : 'Belirtilmemiş' },
+        { label: 'Maks Parlaklık', value: specs.screen?.brightnessNits ? `${specs.screen.brightnessNits} nits` : 'Belirtilmemiş' }
       ]
     },
     {
@@ -46,10 +46,10 @@ export function SpecSheet({ specs }: SpecSheetProps) {
       icon: Cpu,
       iconColor: 'text-purple-600',
       items: [
-        { label: t.chipsetLabel, value: specs.processor?.chip || 'A18 / Snapdragon' },
-        { label: t.cpuCoresLabel, value: specs.processor?.cores || '8 Çekirdek' },
-        { label: t.processNodeLabel, value: specs.processor?.process || '3nm / 4nm' },
-        { label: t.antutuScore, value: `${(specs.processor?.antutuScore || 1500000).toLocaleString()} Puan` }
+        { label: t.chipsetLabel, value: specs.processor?.chip || 'Belirtilmemiş' },
+        { label: t.cpuCoresLabel, value: specs.processor?.cores || 'Belirtilmemiş' },
+        { label: t.processNodeLabel, value: specs.processor?.process || 'Belirtilmemiş' },
+        { label: t.antutuScore, value: specs.processor?.antutuScore ? `${specs.processor.antutuScore.toLocaleString()} Puan` : 'Doğrulanmış veri yok' }
       ]
     },
     {
@@ -57,10 +57,10 @@ export function SpecSheet({ specs }: SpecSheetProps) {
       icon: HardDrive,
       iconColor: 'text-blue-600',
       items: [
-        { label: t.ramCapacityLabel, value: `${specs.memory?.ramGb || 8} GB (${specs.memory?.ramType || 'LPDDR5X'})` },
-        { label: t.storageCapacityLabel, value: `${specs.memory?.storageGb || 128} GB` },
-        { label: 'Depolama Seçenekleri', value: (specs.memory?.storageOptions || [128, 256]).map((s) => `${s}GB`).join(', ') },
-        { label: 'Hafıza Kartı Desteği', value: specs.memory?.expandableStorage ? t.yes : t.no }
+        { label: t.ramCapacityLabel, value: specs.memory?.ramGb ? `${specs.memory.ramGb} GB ${specs.memory?.ramType ? `(${specs.memory.ramType})` : ''}`.trim() : 'Belirtilmemiş' },
+        { label: t.storageCapacityLabel, value: specs.memory?.storageGb ? `${specs.memory.storageGb} GB` : 'Belirtilmemiş' },
+        { label: 'Depolama Seçenekleri', value: specs.memory?.storageOptions && specs.memory.storageOptions.length > 0 ? specs.memory.storageOptions.map((s) => `${s}GB`).join(', ') : 'Belirtilmemiş' },
+        { label: 'Hafıza Kartı Desteği', value: specs.memory?.expandableStorage === true ? t.yes : (specs.memory?.expandableStorage === false ? t.no : 'Belirtilmemiş') }
       ]
     },
     {
@@ -68,12 +68,12 @@ export function SpecSheet({ specs }: SpecSheetProps) {
       icon: Camera,
       iconColor: 'text-rose-600',
       items: [
-        { label: t.mainCameraLabel, value: specs.camera?.mainMp || '48 MP' },
-        { label: t.ultrawideLabel, value: specs.camera?.ultrawideMp || '12 MP' },
-        { label: t.telephotoLabel, value: specs.camera?.telephotoMp || '12 MP' },
-        { label: t.selfieCameraLabel, value: specs.camera?.selfieMp || '12 MP' },
-        { label: 'Video Kayıt', value: specs.camera?.videoRes || '4K @ 60fps' },
-        { label: t.dxomarkScore, value: `${specs.camera?.dxomarkScore || 140} Puan` }
+        { label: t.mainCameraLabel, value: specs.camera?.mainMp || 'Belirtilmemiş' },
+        { label: t.ultrawideLabel, value: specs.camera?.ultrawideMp || 'Belirtilmemiş' },
+        { label: t.telephotoLabel, value: specs.camera?.telephotoMp || 'Belirtilmemiş' },
+        { label: t.selfieCameraLabel, value: specs.camera?.selfieMp || 'Belirtilmemiş' },
+        { label: 'Video Kayıt', value: specs.camera?.videoRes || 'Belirtilmemiş' },
+        { label: t.dxomarkScore, value: specs.camera?.dxomarkScore ? `${specs.camera.dxomarkScore} Puan` : 'Doğrulanmış veri yok' }
       ]
     },
     {
@@ -81,10 +81,10 @@ export function SpecSheet({ specs }: SpecSheetProps) {
       icon: BatteryCharging,
       iconColor: 'text-amber-600',
       items: [
-        { label: t.batteryCapacityLabel, value: `${specs.battery?.capacitymAh || 4500} mAh` },
-        { label: t.chargingSpeedLabel, value: `${specs.battery?.chargingWatts || 30} W` },
-        { label: t.wirelessChargingLabel, value: specs.battery?.wirelessCharging ? t.yes : t.no },
-        { label: 'Ters Şarj', value: specs.battery?.reverseWireless ? t.yes : t.no }
+        { label: t.batteryCapacityLabel, value: specs.battery?.capacitymAh ? `${specs.battery.capacitymAh} mAh` : 'Belirtilmemiş' },
+        { label: t.chargingSpeedLabel, value: specs.battery?.chargingWatts ? `${specs.battery.chargingWatts} W` : 'Doğrulanmış veri yok' },
+        { label: t.wirelessChargingLabel, value: specs.battery?.wirelessCharging === true ? (specs.battery.wirelessWatts ? `${specs.battery.wirelessWatts}W Kablosuz Şarj` : t.yes) : (specs.battery?.wirelessCharging === false ? t.no : 'Doğrulanmış veri yok') },
+        { label: 'Ters Şarj', value: specs.battery?.reverseWireless === true ? t.yes : (specs.battery?.reverseWireless === false ? t.no : 'Doğrulanmış veri yok') }
       ]
     },
     {
@@ -92,14 +92,14 @@ export function SpecSheet({ specs }: SpecSheetProps) {
       icon: Wifi,
       iconColor: 'text-teal-600',
       items: [
-        { label: '5G Desteği', value: specs.connectivity?.has5G ? t.yes : t.no },
-        { label: 'Wi-Fi Standardı', value: specs.connectivity?.wifiStandard || 'Wi-Fi 6E' },
-        { label: 'Bluetooth', value: specs.connectivity?.bluetooth || '5.3' },
-        { label: 'NFC', value: specs.connectivity?.hasNFC ? t.yes : t.no },
-        { label: 'eSIM', value: specs.connectivity?.hasesim ? t.yes : t.no },
-        { label: t.weightLabel, value: `${specs.build?.weightGrams || 190} g` },
-        { label: t.waterResistLabel, value: specs.build?.waterResistance || 'IP68' },
-        { label: t.frameMaterialLabel, value: specs.build?.frameMaterial || 'Alüminyum' }
+        { label: '5G Desteği', value: specs.connectivity?.has5G === true ? t.yes : (specs.connectivity?.has5G === false ? t.no : 'Belirtilmemiş') },
+        { label: 'Wi-Fi Standardı', value: specs.connectivity?.wifiStandard || 'Belirtilmemiş' },
+        { label: 'Bluetooth', value: specs.connectivity?.bluetooth || 'Belirtilmemiş' },
+        { label: 'NFC', value: specs.connectivity?.hasNFC === true ? t.yes : (specs.connectivity?.hasNFC === false ? t.no : 'Belirtilmemiş') },
+        { label: 'eSIM', value: specs.connectivity?.hasesim === true ? t.yes : (specs.connectivity?.hasesim === false ? t.no : 'Belirtilmemiş') },
+        { label: t.weightLabel, value: specs.build?.weightGrams ? `${specs.build.weightGrams} g` : 'Belirtilmemiş' },
+        { label: t.waterResistLabel, value: specs.build?.waterResistance || 'Belirtilmemiş' },
+        { label: t.frameMaterialLabel, value: specs.build?.frameMaterial || 'Belirtilmemiş' }
       ]
     }
   ];
