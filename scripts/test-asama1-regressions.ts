@@ -33,6 +33,7 @@ import {
   calculateOverallDuelWinner,
   getDuelRefereeVerdictText,
 } from "../src/lib/compareMetrics";
+import { getProductById } from "../src/lib/data";
 
 let passedCount = 0;
 let failedCount = 0;
@@ -412,6 +413,22 @@ assert(
   textWinner1.includes("🏆") && textWinner1.includes("iPhone 16"),
   "1. ürün kazandığında kupa ve ürün adıyla üstünlük belirtilmeli",
   `Alınan: '${textWinner1}'`
+);
+
+// TEST 15 & 16: Model Çözümleme Sınırları (iphone-16-pro & samsung-galaxy-s2)
+console.log("\nTest 15 & 16: Gerçek Çözümleyici Model Sınırları (iphone-16-pro & samsung-galaxy-s2)");
+const ip16ProRes = getProductById("iphone-16-pro");
+assert(
+  ip16ProRes !== null && ip16ProRes.name.includes("iPhone 16 Pro") && !ip16ProRes.name.includes("Pro Max"),
+  "getProductById('iphone-16-pro') kesinlikle iPhone 16 Pro dönmeli (asla Pro Max'e sapmamalı)",
+  `Alınan: ${ip16ProRes?.name}`
+);
+
+const s2Res = getProductById("samsung-galaxy-s2");
+assert(
+  s2Res === null,
+  "getProductById('samsung-galaxy-s2') null dönmeli (asla S20 veya S20 Ultra'ya sapmamalı)",
+  `Alınan: ${s2Res?.name}`
 );
 
 console.log(`📊 TEST SONUÇLARI: ${passedCount} Başarılı, ${failedCount} Başarısız`);

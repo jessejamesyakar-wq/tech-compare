@@ -2021,18 +2021,31 @@ export function AIAssistantModal({
                       )}
                     </div>
 
-                    <button
-                      type="button"
-                      onClick={() => {
-                        setActivePanel(null);
-                        setMobileTab('chat');
-                      }}
-                      className="text-slate-400 hover:text-slate-600 dark:hover:text-slate-200 p-1.5 text-xs font-semibold rounded-lg hover:bg-slate-200 dark:hover:bg-slate-700 transition cursor-pointer flex items-center gap-1 shrink-0 touch-manipulation"
-                      title="Paneli Kapat"
-                    >
-                      <X className="w-4 h-4" />
-                      <span className="hidden sm:inline">Kapat</span>
-                    </button>
+                    <div className="flex items-center gap-1.5 shrink-0">
+                      {activePanel.type === 'comparison' && Array.isArray(activePanel.products) && activePanel.products.length >= 2 && (
+                        <Link
+                          href={`/compare?d1=${activePanel.products[0].slug || activePanel.products[0].id}&d2=${activePanel.products[1].slug || activePanel.products[1].id}`}
+                          onClick={onClose}
+                          className="px-2.5 py-1 bg-gradient-to-r from-emerald-600 to-teal-600 hover:from-emerald-500 hover:to-teal-500 text-white rounded-lg text-xs font-bold transition flex items-center gap-1 shadow-2xs cursor-pointer"
+                        >
+                          <span>Düelloya Git</span>
+                          <Swords className="w-3.5 h-3.5" />
+                        </Link>
+                      )}
+
+                      <button
+                        type="button"
+                        onClick={() => {
+                          setActivePanel(null);
+                          setMobileTab('chat');
+                        }}
+                        className="text-slate-400 hover:text-slate-600 dark:hover:text-slate-200 p-1.5 text-xs font-semibold rounded-lg hover:bg-slate-200 dark:hover:bg-slate-700 transition cursor-pointer flex items-center gap-1 shrink-0 touch-manipulation"
+                        title="Paneli Kapat"
+                      >
+                        <X className="w-4 h-4" />
+                        <span className="hidden sm:inline">Kapat</span>
+                      </button>
+                    </div>
                   </div>
 
                   {/* Panel İçeriği (Kaydırılabilir) */}

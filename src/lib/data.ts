@@ -35,16 +35,79 @@ function normalizeId(id: string): string {
   return id.trim().toLowerCase();
 }
 
+const EXACT_PRODUCT_ALIASES: Record<string, string> = {
+  'iphone-16-pro': 'apple-iphone-16-pro-128-gb',
+  'iphone-16-pro-max': 'apple-iphone-16-pro-max-256-gb',
+  'iphone-16': 'apple-iphone-16-128-gb',
+  'iphone-16-plus': 'apple-iphone-16-plus-128-gb',
+  'iphone-17-pro-max': 'apple-iphone-17-pro-max-256-gb',
+  'iphone-17-pro': 'apple-iphone-17-pro-256-gb',
+  'iphone-17': 'apple-iphone-17-256-gb',
+  'samsung-galaxy-s24': 'samsung-samsung-galaxy-s24-93',
+  'samsung-galaxy-s24-ultra': 'samsung-samsung-galaxy-s24-ultra-95',
+  'samsung-galaxy-s24-plus': 'samsung-samsung-galaxy-s24-94',
+  'samsung-galaxy-s25-ultra': 'samsung-samsung-galaxy-s25-ultra-109',
+  'samsung-galaxy-s26-ultra': 'samsung-samsung-galaxy-s26-ultra-120'
+};
+
 export function getProductById(id: string): Product | null {
   if (!id) return null;
 
-  const normalized = normalizeId(id);
-  const found = ALL_PRODUCTS.find((p) => normalizeId(p.id) === normalized);
+  const decoded = decodeURIComponent(id).toLowerCase().trim();
+  const all = getStoredProducts();
+
+  // Pass 1: Exact ID or Slug match
+  let found = all.find(
+    (p) => p.id.toLowerCase() === decoded || (p.slug && p.slug.toLowerCase() === decoded)
+  );
+
+  // Pass 2: Dash / Underscore normalized match
+  if (!found) {
+    const cleanDecoded = decoded.replace(/_/g, '-');
+    found = all.find(
+      (p) =>
+        p.id.toLowerCase().replace(/_/g, '-') === cleanDecoded ||
+        (p.slug && p.slug.toLowerCase().replace(/_/g, '-') === cleanDecoded)
+    );
+  }
+
+  // Pass 3: Exact Name match
+  if (!found) {
+    found = all.find((p) => p.name.toLowerCase() === decoded);
+  }
+
+  // Pass 4: Explicit Single Alias Dictionary
+  if (!found && EXACT_PRODUCT_ALIASES[decoded]) {
+    const targetAlias = EXACT_PRODUCT_ALIASES[decoded];
+    found = all.find(
+      (p) => p.id.toLowerCase() === targetAlias || (p.slug && p.slug.toLowerCase() === targetAlias)
+    );
+  }
+
+  // Pass 5: Strict AlphaKey Match with capacity & model suffix preservation
+  if (!found) {
+    const alphaKey = (s: string) => String(s || '').toLowerCase().replace(/[^a-z0-9]/g, '');
+    const searchAlpha = alphaKey(decoded);
+    const extractCap = (str: string) => {
+      const match = str.match(/\b(\d{1,4}\s*(?:gb|tb))\b/i);
+      return match ? match[1].toLowerCase().replace(/\s+/g, '') : null;
+    };
+    const reqCap = extractCap(decoded);
+
+    if (searchAlpha.length >= 3) {
+      found = all.find((p) => {
+        const matchesAlpha = alphaKey(p.slug) === searchAlpha || alphaKey(p.id) === searchAlpha;
+        if (!matchesAlpha) return false;
+        if (reqCap) {
+          const pCap = extractCap(p.name || p.slug || p.id);
+          if (pCap && pCap !== reqCap) return false;
+        }
+        return true;
+      });
+    }
+  }
 
   if (!found) {
-    // Geliştirme sırasında hangi ID'lerin eşleşmediğini görmek için.
-    // Prod'a çıkmadan önce bu satırı kaldırabilir veya bir logging
-    // servisine bağlayabilirsin.
     console.warn(`[getProductById] Ürün bulunamadı: "${id}"`);
     return null;
   }
