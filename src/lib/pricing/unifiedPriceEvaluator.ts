@@ -13,6 +13,7 @@
 import { StoreOffer } from '@/lib/types';
 import { isSearchUrl, PRICE_FRESHNESS_HOURS, MAX_ALLOWED_OFFER_AGE_DAYS } from '@/lib/priceFreshness';
 import { parseOfferDateToMs, formatObservedDate } from '@/lib/dateParsing';
+import { offerVariantLabel } from './offerVariant';
 
 export interface EvaluatedProductPrice {
   currentPrice: number | null; // Lowest fresh direct offer price (checked <= 24h), or null
@@ -26,6 +27,7 @@ export interface EvaluatedProductPrice {
   lowestFreshPrice: number | null;
   isFresh: boolean;
   cheapestStoreName?: string;
+  variantLabel?: string;
 }
 
 export function getPriceHeading(price: EvaluatedProductPrice): string {
@@ -45,7 +47,7 @@ export function getEligibleDirectOffers(rawOffers: StoreOffer[] = [], nowMs = Da
     if (!offer || !Number.isFinite(offer.price) || offer.price <= 0) continue;
 
     // Check inStock proof
-    if (offer.inStock !== true) continue;
+    if (offer.inStock !== true || ['out_of_stock', 'OUT_OF_STOCK', 'preorder', 'unknown'].includes(offer.stockStatus || '')) continue;
 
     // Check search link
     const isSearch = isSearchUrl(offer.url, offer.isSearchLink);
@@ -88,10 +90,11 @@ export function evaluateProductPricing(product: {
       lastSeenPrice: null,
       displayPrice: cheapest.price,
       priceStatus: 'fresh',
-      statusLabel: 'Güncel Fiyat',
+      statusLabel: ['Güncel Fiyat', offerVariantLabel(cheapest)].filter(Boolean).join(' · '),
+      variantLabel: offerVariantLabel(cheapest) || undefined,
       lastCheckedAt: cheapest.lastCheckedAt,
-      activeStoreCount: freshDirectOffers.length,
-      staleStoreCount: staleDirectOffers.length,
+      activeStoreCount: new Set(freshDirectOffers.map(offer => offer.storeName.trim().toLocaleLowerCase('tr-TR'))).size,
+      staleStoreCount: new Set(staleDirectOffers.map(offer => offer.storeName.trim().toLocaleLowerCase('tr-TR'))).size,
       lowestFreshPrice: cheapest.price,
       isFresh: true,
       cheapestStoreName: cheapest.storeName
@@ -107,10 +110,11 @@ export function evaluateProductPricing(product: {
       lastSeenPrice: cheapest.price,
       displayPrice: cheapest.price,
       priceStatus: 'stale',
-      statusLabel: `Son görülen fiyat: ${formattedDate}`,
+      statusLabel: [`Son görülen fiyat: ${formattedDate}`, offerVariantLabel(cheapest)].filter(Boolean).join(' · '),
+      variantLabel: offerVariantLabel(cheapest) || undefined,
       lastCheckedAt: cheapest.lastCheckedAt,
       activeStoreCount: 0, // 0 active fresh stores!
-      staleStoreCount: staleDirectOffers.length,
+      staleStoreCount: new Set(staleDirectOffers.map(offer => offer.storeName.trim().toLocaleLowerCase('tr-TR'))).size,
       lowestFreshPrice: null,
       isFresh: false,
       cheapestStoreName: cheapest.storeName

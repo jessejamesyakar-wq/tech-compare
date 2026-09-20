@@ -89,17 +89,375 @@
       "checkedAt": "2026-09-20T09:00:52.020Z",
       "sha256": "30eb54d3aa77c3c79a1dc4018277a71b9f229c7462b38be13fe88aa77ebff825",
       "scope": "Huawei Pura 70 Pro üretici siyah arka görünümü; Türkiye renk/stok/SKU doğrulaması değildir."
+    },
+    {
+      "id": "huawei-huawei-mate-40-pro",
+      "sourcePageUrl": "https://consumer.huawei.com/th/offer/shopee/mate40-pro/specs/",
+      "sourceImageUrl": "https://consumer.huawei.com/dam/content/dam/huawei-cbg-site/common/mkt/pdp/phones/mate40-pro/specs-img/mystic-silver-img.png",
+      "scope": "Mate 40 Pro üretici gümüş arka görünümü; Türkiye renk, satıcı varyantı veya stok kanıtı değildir.",
+      "imagePath": "/images/phones/huawei/verified/huawei-huawei-mate-40-pro.png",
+      "checkedAt": "2026-09-20T09:58:45.576Z",
+      "sha256": "c87e28983b1ff3e393e7299492fd96bb8d1b8ab219ef45bfc5d1b59a162a8147"
+    },
+    {
+      "id": "huawei-huawei-p40-pro",
+      "sourcePageUrl": "https://consumer.huawei.com/ke/phones/p40-pro/",
+      "sourceImageUrl": "https://consumer.huawei.com/dam/content/dam/huawei-cbg-site/common/mkt/pdp/phones/p40-pro/images/design/colors/1-back-e.png",
+      "scope": "P40 Pro üretici siyah arka görünümü; Pro+ veya belirsiz -1 kaydı için kullanılmaz. Renk/stok kanıtı değildir.",
+      "imagePath": "/images/phones/huawei/verified/huawei-huawei-p40-pro.png",
+      "checkedAt": "2026-09-20T09:58:45.576Z",
+      "sha256": "edbca9403aec8da105a39dda97656df3668e0f29aa0de26bc75285e26404ea89"
+    },
+    {
+      "id": "huawei-huawei-mate-40-rs-porsche-design",
+      "sourcePageUrl": "https://consumer.huawei.com/cn/support/phones/porsche-design-mate40-rs/",
+      "sourceImageUrl": "https://consumer.huawei.com/content/dam/huawei-cbg-site/greate-china/cn/mkt/pdp/phones/porsche-design-mate40-rs/list-img/white-listimg.png",
+      "scope": "Mate 40 RS Porsche Design üretici beyaz ön/arka görünümü. Yalnız model fotoğrafı doğrulandı; teknik özellik, renk seçeneği veya stok kanıtı değildir.",
+      "imagePath": "/images/phones/huawei/verified/huawei-huawei-mate-40-rs-porsche-design.png",
+      "checkedAt": "2026-09-20T09:58:45.576Z",
+      "sha256": "c8ca26275f94fe08d16cd357c06d3b27586596839f1ac847204a7a9a92474896"
+    },
+    {
+      "id": "kitchenaid-artisan-4-8l",
+      "imagePath": "/images/appliances/verified/kitchenaid-artisan-4-8l.jpg",
+      "sourcePageUrl": "https://www.kitchenaid.co.uk/mixers/medium/859701515010/mixer-tilt-head-4-7l-artisan-with-extra-accessories-5ksm175-empire-red",
+      "sourceImageUrl": "https://www.whirlpool.com/is/image/content/dam/emea/kitchenaid/image/product-shot/profile/N87PEL_Kitchenaid_Mixer_5KSM175PSBER_Empire_Red_Profile.png?icc=sRGB&wid=1000&hei=1000",
+      "sha256": "54a2591679f992f1fe207675b7b402fb62ece2cdaf44a35387dfc5d7d1199fd6",
+      "checkedAt": "2026-09-20T10:51:27.492Z",
+      "scope": "Artisan ailesinin Empire Red 5KSM175PS üretici fotoğrafı. Kayıtta tam SKU yoktur; kutu içeriği ve satıcı varyantı doğrulanmadı. Üretici FAQ sayfası 5KSM175PS modelini 4,8 L ailesinde listeler; güncel ürün sayfası 4,7 L adını kullanır. Fotoğraf teknik kapasite doğrulaması değildir.",
+      "additionalSourceUrls": [
+        "https://www.kitchenaid.co.uk/faq/minimum-and-maximum-ingredients-for-the-mixer"
+      ]
+    },
+    {
+      "id": "cosori-dual-blaze-6-4l",
+      "imagePath": "/images/appliances/verified/cosori-dual-blaze-6-4l.jpg",
+      "sourcePageUrl": "https://cosori.co.uk/products/cosori-dual-blaze-6-4l-smart-air-fryer",
+      "sourceImageUrl": "https://cosori.co.uk/cdn/shop/files/p583s.jpg?v=1739004915&width=1000",
+      "sha256": "0b95bf8fd5facbb3a947e7a59a8743cbf04c4e3186e804663aa3ddf367cb4ea7",
+      "checkedAt": "2026-09-20T10:51:27.492Z",
+      "scope": "Dual Blaze 6,4 L üretici ürün fotoğrafı; İngiltere sayfasından alınmıştır. Görseldeki telefon uygulamayı gösterir, satış paketine dahil değildir. Türkiye fişi, garanti ve kutu içeriği bu fotoğraftan doğrulanmaz."
+    },
+    {
+      "id": "arzum-okka-grandio-duo",
+      "imagePath": "/images/appliances/verified/arzum-okka-grandio-duo.png",
+      "sourcePageUrl": "https://www.arzum.com.tr/Data/EditorFiles/kullanma-kilavuzlari/8693184910412.pdf",
+      "sourceImageUrl": "https://www.arzum.com.tr/Data/EditorFiles/kullanma-kilavuzlari/8693184910412.pdf#page=1",
+      "sha256": "15750ca8e6e8f102843bc636194d34f00d9a8bb4d425430d14cd0e3b4394e1d1",
+      "checkedAt": "2026-09-20T10:51:27.492Z",
+      "scope": "OKKA Grandio Duo üretici kılavuzunun kapak sayfasındaki özgün ürün görseli (Im0). Siyah görünüm gösterilir; satıcı renk/SKU seçimi ve stok doğrulaması değildir.",
+      "extraction": {
+        "type": "embedded-pdf-image",
+        "page": 1,
+        "name": "Im0.png",
+        "sourceSha256": "cdcba0ad21153375ad9546db78a521620eaa7495834ae7ee4eeaee99e70a5c95"
+      }
+    },
+    {
+      "id": "nutribullet-pro-900w",
+      "imagePath": "/images/appliances/verified/nutribullet-pro-900w.jpg",
+      "sourcePageUrl": "https://www.nutribullet.com/fr-fr/p/nutribullet-pro-900-nutribullet-pro-900-avec-7-accessoires/NB910CP.html?pid=0C22300020",
+      "sourceImageUrl": "https://dam.delonghi.com/902x902/assets/233061",
+      "sha256": "1a3ac8f548a501f2a9c9ad57e55d1eba943fabe2d0e754350eb685d4e84cb65c",
+      "checkedAt": "2026-09-20T10:51:27.492Z",
+      "scope": "Pro 900 ailesinin şampanya renkli NB910CP üretici set fotoğrafı. Katalog kaydında tam SKU yoktur; resimdeki aksesuarların Türkiye satış paketine dahil olduğu doğrulanmadı."
+    },
+    {
+      "id": "garmin-fenix-8-51mm-amoled",
+      "imagePath": "/images/smartwatches/verified/garmin-fenix-8-51mm-amoled.jpg",
+      "sourcePageUrl": "https://www.garmin.com/en-US/p/1228171/",
+      "sourceImageUrl": "https://res.garmin.com/en/products/010-02905-10/v/cf-lg.jpg",
+      "sha256": "b2d2a849380e625cefc49094d761d7c7fa557b8515007cd9f51c3f0b3775e704",
+      "checkedAt": "2026-09-20T11:10:31.012Z",
+      "scope": "Garmin üretici sayfasındaki fēnix 8 AMOLED 51 mm Safir Titanyum, turuncu/grafit silikon kordonlu 010-02905-10 görseli. Katalog kaydında renk veya tam parça kodu belirtilmediğinden bu fotoğraf satıcının sunduğu renk, paket ve stok için doğrulama değildir.",
+      "resolutionNote": "Original manufacturer product image; no modification"
+    },
+    {
+      "id": "garmin-forerunner-965",
+      "imagePath": "/images/smartwatches/verified/garmin-forerunner-965.jpg",
+      "sourcePageUrl": "https://www.garmin.com/en-GB/p/886725/pn/010-02809-10/",
+      "sourceImageUrl": "https://res.garmin.com/en/products/010-02809-10/v/cf-lg.jpg",
+      "sha256": "1c8575a54f6f50a55cab5d0e72be923b980db408a4649d2f1c8c4ab782128ca8",
+      "checkedAt": "2026-09-20T11:10:31.012Z",
+      "scope": "Garmin üretici sayfasındaki Forerunner 965, Carbon Grey DLC titanyum çerçeve ve siyah/açık gri kordonlu 010-02809-10 görseli. Katalogda tam renk/parça kodu yoktur; satıcı varyantı, paket ve Türkiye stok durumu ayrıca doğrulanmalıdır.",
+      "resolutionNote": "Original manufacturer product image; no modification"
+    },
+    {
+      "id": "garmin-forerunner-965-titanium",
+      "imagePath": "/images/smartwatches/verified/garmin-forerunner-965.jpg",
+      "sourcePageUrl": "https://www.garmin.com/en-GB/p/886725/pn/010-02809-10/",
+      "sourceImageUrl": "https://res.garmin.com/en/products/010-02809-10/v/cf-lg.jpg",
+      "sha256": "1c8575a54f6f50a55cab5d0e72be923b980db408a4649d2f1c8c4ab782128ca8",
+      "checkedAt": "2026-09-20T11:10:31.012Z",
+      "scope": "Garmin üretici sayfasındaki Forerunner 965, Carbon Grey DLC titanyum çerçeve ve siyah/açık gri kordonlu 010-02809-10 görseli. Katalogda tam renk/parça kodu yoktur; satıcı varyantı, paket ve Türkiye stok durumu ayrıca doğrulanmalıdır.",
+      "resolutionNote": "Original manufacturer product image; no modification"
+    },
+    {
+      "id": "amazfit-t-rex-3",
+      "imagePath": "/images/smartwatches/verified/amazfit-t-rex-3.jpg",
+      "sourcePageUrl": "https://eu.amazfit.com/products/amazfit-t-rex-3",
+      "sourceImageUrl": "https://eu.amazfit.com/cdn/shop/files/20250403-134224.jpg?v=1744099387",
+      "sha256": "0fcec3f41a4bfeac79d2d284f33eaa468f82e20b1dc480aa24667f4d4b284808",
+      "checkedAt": "2026-09-20T11:10:31.012Z",
+      "scope": "Amazfit üretici sayfasındaki T-Rex 3 Onyx görseli; Pro modeli değildir. Fotoğraftaki HYROX yazısı üretici görselinin parçasıdır. Bu görsel satıcı varyantı, yazılım sürümü, Türkiye paketi veya güncel stok için kanıt değildir.",
+      "resolutionNote": "Original manufacturer product image; no modification"
+    },
+    {
+      "id": "amazfit-t-rex-3-outdoor-gps",
+      "imagePath": "/images/smartwatches/verified/amazfit-t-rex-3.jpg",
+      "sourcePageUrl": "https://eu.amazfit.com/products/amazfit-t-rex-3",
+      "sourceImageUrl": "https://eu.amazfit.com/cdn/shop/files/20250403-134224.jpg?v=1744099387",
+      "sha256": "0fcec3f41a4bfeac79d2d284f33eaa468f82e20b1dc480aa24667f4d4b284808",
+      "checkedAt": "2026-09-20T11:10:31.012Z",
+      "scope": "Amazfit üretici sayfasındaki T-Rex 3 Onyx görseli; Pro modeli değildir. Fotoğraftaki HYROX yazısı üretici görselinin parçasıdır. Bu görsel satıcı varyantı, yazılım sürümü, Türkiye paketi veya güncel stok için kanıt değildir.",
+      "resolutionNote": "Original manufacturer product image; no modification"
+    },
+    {
+      "id": "amazfit-cheetah-pro-running-gps",
+      "imagePath": "/images/smartwatches/verified/amazfit-cheetah-pro.jpg",
+      "sourcePageUrl": "https://in.amazfit.com/products/amazfit-cheetah-pro",
+      "sourceImageUrl": "https://in.amazfit.com/cdn/shop/files/20230621-201138_2048x2048_0086293b-eb80-4344-9219-2d8dd79e7e8c.jpg?v=1701430041",
+      "sha256": "034534eaa271ac51c5abb7234ad603c04bb6c9535294b8072f8ae05399d2f6e0",
+      "checkedAt": "2026-09-20T11:10:31.012Z",
+      "scope": "Amazfit Hindistan üretici sayfasındaki Cheetah Pro, Run Track Black titanyum alaşım çerçeve ve naylon kordon görseli. Cheetah Round veya Cheetah 2 Pro değildir. Türkiye satıcı paketi, renk seçimi ve stok durumu bu fotoğraftan doğrulanmaz.",
+      "resolutionNote": "Original manufacturer product image; no modification"
+    },
+    {
+      "id": "samsung-gear-s3-frontier",
+      "imagePath": "/images/smartwatches/verified/samsung-gear-s3-frontier.png",
+      "sourcePageUrl": "https://www.samsung.com/tr/support/model/SM-R760NDAATUR/",
+      "sourceImageUrl": "https://images.samsung.com/is/image/samsung/tr-gear-s3-frontier-r760-sm-r760ndaatur-front-black-61192582?$624_624_PNG$",
+      "checkedAt": "2026-09-20T11:47:23.346Z",
+      "sha256": "23913d47ad46bee87c3b9393bf8e307f50154de8d469a93a8dad3052f16b132c",
+      "scope": "Samsung TR destek sayfasındaki SM-R760NDAATUR modelinin özgün fotoğrafı. Gösterilen renk: Koyu Gri. Diğer renklerin görselleri doğrulanmayı bekliyor. Bu görsel, Türkiye satıcı SKU'sunu, teknik alanların tümünü, güncel fiyatı veya stoku doğrulamaz.",
+      "resolutionNote": "Official support page original PNG 624x624; inspected without edits.",
+      "reviewedColorName": "Koyu Gri",
+      "unverifiedColorNames": []
+    },
+    {
+      "id": "samsung-gear-s3-classic",
+      "imagePath": "/images/smartwatches/verified/samsung-gear-s3-classic.png",
+      "sourcePageUrl": "https://www.samsung.com/ae/support/model/SM-R770NZSAXSG/",
+      "sourceImageUrl": "https://images.samsung.com/is/image/samsung/ae-gear-s3-classic-r770-sm-r770nzsaxsg-000000001-front-silver?$624_624_PNG$",
+      "checkedAt": "2026-09-20T11:47:23.718Z",
+      "sha256": "3fe2ef6c4f1f871641c3c626b7e8640600ccbfa0d034a33313f8bc9b2b8bd4ee",
+      "scope": "Samsung AE destek sayfasındaki SM-R770NZSAXSG modelinin özgün fotoğrafı. Gösterilen renk: Gümüş. Diğer renklerin görselleri doğrulanmayı bekliyor. Bu görsel, Türkiye satıcı SKU'sunu, teknik alanların tümünü, güncel fiyatı veya stoku doğrulamaz.",
+      "resolutionNote": "Official support page original PNG 624x624; inspected without edits.",
+      "reviewedColorName": "Gümüş",
+      "unverifiedColorNames": []
+    },
+    {
+      "id": "samsung-gear-s2-classic",
+      "imagePath": "/images/smartwatches/verified/samsung-gear-s2-classic.png",
+      "sourcePageUrl": "https://www.samsung.com/tr/support/model/SM-R7320ZKATUR/",
+      "sourceImageUrl": "https://images.samsung.com/is/image/samsung/tr-gear-s2-classic-sm-r7320zkatur-000000001-front-black?$624_624_PNG$",
+      "checkedAt": "2026-09-20T11:47:24.187Z",
+      "sha256": "a52313ba508f5603f4fd3ce9f166d7905d9923e496568105173762495dc7439e",
+      "scope": "Samsung TR destek sayfasındaki SM-R7320ZKATUR modelinin özgün fotoğrafı. Gösterilen renk: Siyah. Diğer renklerin görselleri doğrulanmayı bekliyor. Bu görsel, Türkiye satıcı SKU'sunu, teknik alanların tümünü, güncel fiyatı veya stoku doğrulamaz.",
+      "resolutionNote": "Official support page original PNG 624x624; inspected without edits.",
+      "reviewedColorName": "Siyah",
+      "unverifiedColorNames": []
+    },
+    {
+      "id": "samsung-gear-s2",
+      "imagePath": "/images/smartwatches/verified/samsung-gear-s2.png",
+      "sourcePageUrl": "https://www.samsung.com/tr/support/model/SM-R7200ZWATUR/",
+      "sourceImageUrl": "https://images.samsung.com/is/image/samsung/tr-gear-s2-r720-sm-r7200zwatur-000000001-front-white?$624_624_PNG$",
+      "checkedAt": "2026-09-20T11:47:25.292Z",
+      "sha256": "1af07a3d2cd810ce7eb03e56e24c983b7744077440812c8e7e732651012e1be4",
+      "scope": "Samsung TR destek sayfasındaki SM-R7200ZWATUR modelinin özgün fotoğrafı. Gösterilen renk: Gümüş Beyaz. Diğer renklerin görselleri doğrulanmayı bekliyor. Bu görsel, Türkiye satıcı SKU'sunu, teknik alanların tümünü, güncel fiyatı veya stoku doğrulamaz.",
+      "resolutionNote": "Official support page original PNG 624x624; inspected without edits.",
+      "reviewedColorName": "Gümüş Beyaz",
+      "unverifiedColorNames": [
+        "Koyu Gri"
+      ]
+    },
+    {
+      "id": "samsung-gear-sport",
+      "imagePath": "/images/smartwatches/verified/samsung-gear-sport.png",
+      "sourcePageUrl": "https://www.samsung.com/mx/support/model/SM-R600NZBAMXO/",
+      "sourceImageUrl": "https://images.samsung.com/is/image/samsung/mx-gear-sport-sm-r600nzbamxo-frontblue-78470666?$624_624_PNG$",
+      "checkedAt": "2026-09-20T11:47:22.782Z",
+      "sha256": "feab30c9fe1b934df61a6b6322275985e6f550f11757620af5a934b05e4e473a",
+      "scope": "Samsung MX destek sayfasındaki SM-R600NZBAMXO modelinin özgün fotoğrafı. Gösterilen renk: Mavi. Diğer renklerin görselleri doğrulanmayı bekliyor. Bu görsel, Türkiye satıcı SKU'sunu, teknik alanların tümünü, güncel fiyatı veya stoku doğrulamaz.",
+      "resolutionNote": "Official support page original PNG 624x624; inspected without edits.",
+      "reviewedColorName": "Mavi",
+      "unverifiedColorNames": [
+        "Siyah"
+      ]
+    },
+    {
+      "id": "samsung-gear-fit-2-pro",
+      "imagePath": "/images/smartwatches/verified/samsung-gear-fit-2-pro.png",
+      "sourcePageUrl": "https://www.samsung.com/jp/support/model/SM-R365NZKNXJP/",
+      "sourceImageUrl": "https://images.samsung.com/is/image/samsung/jp-SM-R365NZKNXJP-171903506?$624_624_PNG$",
+      "checkedAt": "2026-09-20T11:47:23.941Z",
+      "sha256": "2b21241ae5f0d817461d42089c38e178304d97056f8e18e7692ede9f89322399",
+      "scope": "Samsung JP destek sayfasındaki SM-R365NZKNXJP modelinin özgün fotoğrafı. Gösterilen renk: Siyah. Diğer renklerin görselleri doğrulanmayı bekliyor. Bu görsel, Türkiye satıcı SKU'sunu, teknik alanların tümünü, güncel fiyatı veya stoku doğrulamaz.",
+      "resolutionNote": "Official support page original PNG 624x624; inspected without edits.",
+      "reviewedColorName": "Siyah",
+      "unverifiedColorNames": [
+        "Kırmızı"
+      ]
+    },
+    {
+      "id": "samsung-gear-fit-2",
+      "imagePath": "/images/smartwatches/verified/samsung-gear-fit-2.png",
+      "sourcePageUrl": "https://www.samsung.com/au/support/model/SM-R3600ZBAXSA/",
+      "sourceImageUrl": "https://images.samsung.com/is/image/samsung/au-gear-fit-2-r360d-sm-r3600zbaxsa-000000001-front-blue?$624_624_PNG$",
+      "checkedAt": "2026-09-20T11:47:23.318Z",
+      "sha256": "feb4f57586fb5a80c558e3b9c4e0f4a9a97749c51bd3e6acf2816ac27d9ec850",
+      "scope": "Samsung AU destek sayfasındaki SM-R3600ZBAXSA modelinin özgün fotoğrafı. Gösterilen renk: Mavi. Diğer renklerin görselleri doğrulanmayı bekliyor. Bu görsel, Türkiye satıcı SKU'sunu, teknik alanların tümünü, güncel fiyatı veya stoku doğrulamaz.",
+      "resolutionNote": "Official support page original PNG 624x624; inspected without edits.",
+      "reviewedColorName": "Mavi",
+      "unverifiedColorNames": [
+        "Siyah",
+        "Pembe"
+      ]
+    },
+    {
+      "id": "samsung-galaxy-fit",
+      "imagePath": "/images/smartwatches/verified/samsung-galaxy-fit.png",
+      "sourcePageUrl": "https://www.samsung.com/es/support/model/SM-R370NZKAPHE/",
+      "sourceImageUrl": "https://images.samsung.com/is/image/samsung/es-galaxy-fit-sm-r370nzkaphe-frontblack-167504924?$624_624_PNG$",
+      "checkedAt": "2026-09-20T11:47:22.894Z",
+      "sha256": "0064d3417b81075351f5f3ddbf6613ff7d179c4b8f1afdc143029d7fc82cc0cd",
+      "scope": "Samsung ES destek sayfasındaki SM-R370NZKAPHE modelinin özgün fotoğrafı. Gösterilen renk: Siyah. Diğer renklerin görselleri doğrulanmayı bekliyor. Bu görsel, Türkiye satıcı SKU'sunu, teknik alanların tümünü, güncel fiyatı veya stoku doğrulamaz.",
+      "resolutionNote": "Official support page original PNG 624x624; inspected without edits.",
+      "reviewedColorName": "Siyah",
+      "unverifiedColorNames": [
+        "Gümüş"
+      ]
+    },
+    {
+      "id": "samsung-galaxy-fit-e",
+      "imagePath": "/images/smartwatches/verified/samsung-galaxy-fit-e.png",
+      "sourcePageUrl": "https://www.samsung.com/pt/support/model/SM-R375NZKATPH/",
+      "sourceImageUrl": "https://images.samsung.com/is/image/samsung/pt-galaxy-fite-r375-sm-r375nzkatph-frontblack-156877586?$624_624_PNG$",
+      "checkedAt": "2026-09-20T11:47:23.397Z",
+      "sha256": "01d1ccb010742de8250967120445dc89f0f122bd0beab593807a175af15a98d9",
+      "scope": "Samsung PT destek sayfasındaki SM-R375NZKATPH modelinin özgün fotoğrafı. Gösterilen renk: Siyah. Diğer renklerin görselleri doğrulanmayı bekliyor. Bu görsel, Türkiye satıcı SKU'sunu, teknik alanların tümünü, güncel fiyatı veya stoku doğrulamaz.",
+      "resolutionNote": "Official support page original PNG 624x624; inspected without edits.",
+      "reviewedColorName": "Siyah",
+      "unverifiedColorNames": [
+        "Beyaz",
+        "Sarı"
+      ]
+    },
+    {
+      "id": "samsung-galaxy-watch-46mm",
+      "imagePath": "/images/smartwatches/verified/samsung-galaxy-watch-46mm.png",
+      "sourcePageUrl": "https://www.samsung.com/fr/support/model/SM-R800NZSAXEF/",
+      "sourceImageUrl": "https://images.samsung.com/is/image/samsung/fr-galaxy-watch-r800-sm-r800nzsaxef-frontsilver-111563940?$624_624_PNG$",
+      "checkedAt": "2026-09-20T11:53:26.863Z",
+      "sha256": "202b9549d8ca8162cfd2ae3d931c102837de7abc91d2837fc1feb42498ba5d88",
+      "scope": "Samsung FR destek sayfasındaki SM-R800NZSAXEF modelinin özgün fotoğrafı. Gösterilen renk: Gümüş. Diğer renklerin görselleri doğrulanmayı bekliyor. Bu görsel, Türkiye satıcı SKU'sunu, teknik alanların tümünü, güncel fiyatı veya stoku doğrulamaz.",
+      "resolutionNote": "Official support page original PNG 624x624; inspected without edits.",
+      "reviewedColorName": "Gümüş",
+      "unverifiedColorNames": []
+    },
+    {
+      "id": "samsung-galaxy-watch-42mm",
+      "imagePath": "/images/smartwatches/verified/samsung-galaxy-watch-42mm.png",
+      "sourcePageUrl": "https://www.samsung.com/jp/support/model/SM-R810NZKAXJP/",
+      "sourceImageUrl": "https://images.samsung.com/is/image/samsung/jp-SM-R810NZKAXJP-126120958?$624_624_PNG$",
+      "checkedAt": "2026-09-20T11:47:22.864Z",
+      "sha256": "ca1fa74b84222e280f80bb61a51facc02bd067eb56948b25cddcdeb0d2e3d75c",
+      "scope": "Samsung JP destek sayfasındaki SM-R810NZKAXJP modelinin özgün fotoğrafı. Gösterilen renk: Gece Siyahı. Diğer renklerin görselleri doğrulanmayı bekliyor. Bu görsel, Türkiye satıcı SKU'sunu, teknik alanların tümünü, güncel fiyatı veya stoku doğrulamaz.",
+      "resolutionNote": "Official support page original PNG 624x624; inspected without edits.",
+      "reviewedColorName": "Gece Siyahı",
+      "unverifiedColorNames": [
+        "Gül Altın"
+      ]
+    },
+    {
+      "id": "samsung-galaxy-watch-3-45mm",
+      "imagePath": "/images/smartwatches/verified/samsung-galaxy-watch-3-45mm.png",
+      "sourcePageUrl": "https://www.samsung.com/es/support/model/SM-R840NZKAEUB/",
+      "sourceImageUrl": "https://images.samsung.com/is/image/samsung/es/galaxy-note20/gallery/es-galaxy-watch3-r840-sm-r840nzkaeub-frontmysticblack-274655612?$624_624_PNG$",
+      "checkedAt": "2026-09-20T11:47:23.742Z",
+      "sha256": "1f6ce1abcc0cb5287b4e81a4a3b26038aacb9c926d2b56450d578a8f78e8cc4d",
+      "scope": "Samsung ES destek sayfasındaki SM-R840NZKAEUB modelinin özgün fotoğrafı. Gösterilen renk: Mistik Siyah. Diğer renklerin görselleri doğrulanmayı bekliyor. Bu görsel, Türkiye satıcı SKU'sunu, teknik alanların tümünü, güncel fiyatı veya stoku doğrulamaz.",
+      "resolutionNote": "Official support page original PNG 624x624; inspected without edits.",
+      "reviewedColorName": "Mistik Siyah",
+      "unverifiedColorNames": [
+        "Mistik Gümüş"
+      ]
+    },
+    {
+      "id": "samsung-galaxy-watch-3-41mm",
+      "imagePath": "/images/smartwatches/verified/samsung-galaxy-watch-3-41mm.png",
+      "sourcePageUrl": "https://www.samsung.com/gr/support/model/SM-R850NZDAEUE/",
+      "sourceImageUrl": "https://images.samsung.com/is/image/samsung/gr/galaxy-note20/gallery/gr-galaxy-watch3-r850-sm-r850nzdaeue-frontmysticbronze-274593824?$624_624_PNG$",
+      "checkedAt": "2026-09-20T11:47:24.622Z",
+      "sha256": "5c195a06f5476e31f653b1176ca96f8c9e494e55a358dd0175c041663a8e6be9",
+      "scope": "Samsung GR destek sayfasındaki SM-R850NZDAEUE modelinin özgün fotoğrafı. Gösterilen renk: Mistik Bronz. Diğer renklerin görselleri doğrulanmayı bekliyor. Bu görsel, Türkiye satıcı SKU'sunu, teknik alanların tümünü, güncel fiyatı veya stoku doğrulamaz.",
+      "resolutionNote": "Official support page original PNG 624x624; inspected without edits.",
+      "reviewedColorName": "Mistik Bronz",
+      "unverifiedColorNames": [
+        "Mistik Gümüş"
+      ]
+    },
+    {
+      "id": "samsung-galaxy-watch-active-2-44mm-lte",
+      "imagePath": "/images/smartwatches/verified/samsung-galaxy-watch-active-2-44mm-lte.png",
+      "sourcePageUrl": "https://www.samsung.com/es/support/model/SM-R825FSKAPHE/",
+      "sourceImageUrl": "https://images.samsung.com/is/image/samsung/es-galaxy-watch-active2-r825fs-sm-r825fskaphe-frontblack-216647013?$624_624_PNG$",
+      "checkedAt": "2026-09-20T11:47:23.088Z",
+      "sha256": "c36929ba643ba6b1348215fb631ac0550b63da271995ee5ca0b69ff442e15f7d",
+      "scope": "Samsung ES destek sayfasındaki SM-R825FSKAPHE modelinin özgün fotoğrafı. Gösterilen renk: Siyah Çelik. Diğer renklerin görselleri doğrulanmayı bekliyor. Bu görsel, Türkiye satıcı SKU'sunu, teknik alanların tümünü, güncel fiyatı veya stoku doğrulamaz.",
+      "resolutionNote": "Official support page original PNG 624x624; inspected without edits.",
+      "reviewedColorName": "Siyah Çelik",
+      "unverifiedColorNames": [
+        "Gümüş Çelik"
+      ]
+    },
+    {
+      "id": "samsung-galaxy-watch-active-2-44mm",
+      "imagePath": "/images/smartwatches/verified/samsung-galaxy-watch-active-2-44mm.png",
+      "sourcePageUrl": "https://www.samsung.com/gr/support/model/SM-R820NZKAEUR/",
+      "sourceImageUrl": "https://images.samsung.com/is/image/samsung/gr-galaxy-watch-active2-r820-sm-r820nzkaeur-frontblack-179770109?$624_624_PNG$",
+      "checkedAt": "2026-09-20T11:47:24.744Z",
+      "sha256": "da386768c6d6efe0cf3011f8390b1522fb260bead7e0eb1c560200968da2b5aa",
+      "scope": "Samsung GR destek sayfasındaki SM-R820NZKAEUR modelinin özgün fotoğrafı. Gösterilen renk: Aqua Black. Diğer renklerin görselleri doğrulanmayı bekliyor. Bu görsel, Türkiye satıcı SKU'sunu, teknik alanların tümünü, güncel fiyatı veya stoku doğrulamaz.",
+      "resolutionNote": "Official support page original PNG 624x624; inspected without edits.",
+      "reviewedColorName": "Aqua Black",
+      "unverifiedColorNames": [
+        "Cloud Silver",
+        "Pink Gold"
+      ]
+    },
+    {
+      "id": "samsung-galaxy-watch-active-2-40mm",
+      "imagePath": "/images/smartwatches/verified/samsung-galaxy-watch-active-2-40mm.png",
+      "sourcePageUrl": "https://www.samsung.com/id/support/model/SM-R830NZKAXSE/",
+      "sourceImageUrl": "https://images.samsung.com/is/image/samsung/id-galaxy-watch-active-r830-sm-r830nzkaxse-frontblack-183419857?$624_624_PNG$",
+      "checkedAt": "2026-09-20T11:47:22.832Z",
+      "sha256": "1d2d2556fb4a8558378b9439c16c5e2c59270c997b05517160ecd4be5eac1a7d",
+      "scope": "Samsung ID destek sayfasındaki SM-R830NZKAXSE modelinin özgün fotoğrafı. Gösterilen renk: Aqua Black. Diğer renklerin görselleri doğrulanmayı bekliyor. Bu görsel, Türkiye satıcı SKU'sunu, teknik alanların tümünü, güncel fiyatı veya stoku doğrulamaz.",
+      "resolutionNote": "Official support page original PNG 624x624; inspected without edits.",
+      "reviewedColorName": "Aqua Black",
+      "unverifiedColorNames": [
+        "Pink Gold"
+      ]
+    },
+    {
+      "id": "samsung-galaxy-watch-active",
+      "imagePath": "/images/smartwatches/verified/samsung-galaxy-watch-active.png",
+      "sourcePageUrl": "https://www.samsung.com/id/support/model/SM-R500NZKAXSE/",
+      "sourceImageUrl": "https://images.samsung.com/is/image/samsung/id-galaxy-watch-active-r500-sm-r500nzkaxse-frontblack-153226221?$624_624_PNG$",
+      "checkedAt": "2026-09-20T11:47:23.428Z",
+      "sha256": "1dee9df6c9dd0a3b2aa6fb0b04d616aac79067ad4f77700a60dd9d1a9a8d4880",
+      "scope": "Samsung ID destek sayfasındaki SM-R500NZKAXSE modelinin özgün fotoğrafı. Gösterilen renk: Siyah. Diğer renklerin görselleri doğrulanmayı bekliyor. Bu görsel, Türkiye satıcı SKU'sunu, teknik alanların tümünü, güncel fiyatı veya stoku doğrulamaz.",
+      "resolutionNote": "Official support page original PNG 624x624; inspected without edits.",
+      "reviewedColorName": "Siyah",
+      "unverifiedColorNames": [
+        "Gümüş",
+        "Yeşil"
+      ]
     }
   ],
   "pending": [
-    {
-      "id": "huawei-huawei-mate-40-rs-porsche-design",
-      "placeholderPath": "/images/product-unverified.svg",
-      "previousImage": "/images/phones/huawei/huawei-huawei-mate-40-rs-porsche-design-10551.jpg",
-      "previousSha256": "b1eaca82069b0ad608bdd342931797543c1879d59dcf97986cf7acbd20af076f",
-      "checkedAt": "2026-09-20T08:39:49.967Z",
-      "reason": "171 farklı modelde aynı eski telefon fotoğrafı kullanılmış. Bu model için eşleşme doğrulanana kadar fotoğraf yerine açıklamalı alan gösterilir."
-    },
     {
       "id": "huawei-huawei-nova-5i",
       "placeholderPath": "/images/product-unverified.svg",
@@ -528,14 +886,6 @@
       "id": "huawei-huawei-mate-30e-pro-5g",
       "placeholderPath": "/images/product-unverified.svg",
       "previousImage": "/images/phones/huawei/huawei-huawei-mate-30e-pro-5g-10555.jpg",
-      "previousSha256": "b1eaca82069b0ad608bdd342931797543c1879d59dcf97986cf7acbd20af076f",
-      "checkedAt": "2026-09-20T08:39:49.967Z",
-      "reason": "171 farklı modelde aynı eski telefon fotoğrafı kullanılmış. Bu model için eşleşme doğrulanana kadar fotoğraf yerine açıklamalı alan gösterilir."
-    },
-    {
-      "id": "huawei-huawei-mate-40-pro",
-      "placeholderPath": "/images/product-unverified.svg",
-      "previousImage": "/images/phones/huawei/huawei-huawei-mate-40-pro-10528.jpg",
       "previousSha256": "b1eaca82069b0ad608bdd342931797543c1879d59dcf97986cf7acbd20af076f",
       "checkedAt": "2026-09-20T08:39:49.967Z",
       "reason": "171 farklı modelde aynı eski telefon fotoğrafı kullanılmış. Bu model için eşleşme doğrulanana kadar fotoğraf yerine açıklamalı alan gösterilir."
@@ -1427,6 +1777,23 @@
       "previousSha256": "b1eaca82069b0ad608bdd342931797543c1879d59dcf97986cf7acbd20af076f",
       "checkedAt": "2026-09-20T08:39:49.967Z",
       "reason": "171 farklı modelde aynı eski telefon fotoğrafı kullanılmış. Bu model için eşleşme doğrulanana kadar fotoğraf yerine açıklamalı alan gösterilir."
+    },
+    {
+      "id": "karaca-caysever-robotea-connect",
+      "placeholderPath": "/images/product-unverified.svg",
+      "previousImage": "/images/products/appliances/icecat-philips-5000-hd9339-80.jpg",
+      "previousSha256": "2b4fa047d01a1ba63437d347e49a6ef44034625612642aa2267802251ffadd62",
+      "checkedAt": "2026-09-20T10:51:27.492Z",
+      "reason": "Philips su ısıtıcısı fotoğrafı bu çay makinesine ait değildir. Kayıtta tam üretici SKU bulunmuyor; mevcut üretici sayfası Pro Connect varyantıdır. Katalog kimliği doğrulanmadan Pro fotoğrafı atanmadı.",
+      "candidateSourceUrl": "https://www.karaca.com/urun/karaca-caysever-robotea-pro-connect-4-in-1-konusan-otomatik-cam-cay-makinesi-su-isitici-ve-filtre-kahve-demleme-makinesi-2500w-ro"
+    },
+    {
+      "id": "samsung-galaxy-watch-3-45mm-lte-titanium",
+      "previousImage": "/images/smartwatches/samsung/samsung-galaxy-watch-5-pro-45mm.jpg",
+      "placeholderPath": "/images/product-unverified.svg",
+      "checkedAt": "2026-09-20T11:55:29.938Z",
+      "archivePath": "data/catalog_archives/samsung-watch-generation-image-facts-2026-09-20.json",
+      "reason": "Katalogdaki Watch3 45mm LTE Titanium varyantının tam üretici kimliği doğrulanamadı. Önceki Watch5 Pro fotoğrafı kaldırıldı; Bluetooth titanyum veya çelik LTE sürümünün fotoğrafı yerine kullanılmadı."
     }
   ]
 }

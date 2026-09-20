@@ -4,6 +4,7 @@ import { getRecordedProductScore } from './productEvidence';
 import { evaluateProductPricing } from './pricing/unifiedPriceEvaluator';
 import { PHONE_SPEC_FIELDS, readPhoneSpec, phoneSpecText } from './smartphoneSpecFields';
 import { hasUnresolvedSpecField } from './specVerification';
+import { SMARTWATCH_SPEC_FIELDS, readSmartwatchSpec, smartwatchProductSpecText } from './smartwatchSpecFields';
 
 export const UNKNOWN_SPEC = 'Bilinmiyor';
 export interface ComparisonRow {
@@ -84,10 +85,11 @@ const rowsByCategory: Record<string, ComparisonRow[]> = {
     field('Donanım','İşlemci','processor.chip|processor|chipset'),field('Donanım','RAM','ramGb|memory.ramGb','GB','higher'),field('Donanım','Depolama','storageGb|memory.storageGb','GB','higher'),field('Donanım','İşletim Sistemi','os'),
     field('Batarya ve Bağlantı','Batarya Kapasitesi','batteryCapacityMah|batteryCapacitymAh|battery.capacitymAh','mAh','higher'),field('Batarya ve Bağlantı','Hücresel Bağlantı','hasCellular'),field('Batarya ve Bağlantı','Ağırlık','weightGrams','g','lower'),
   ],
-  smartwatches: [
-    field('Ekran ve Gövde','Ekran','displayType'),field('Ekran ve Gövde','Boyut','displaySizeInch','inç'),field('Ekran ve Gövde','Kasa Boyutu','caseSizeMm','mm'),field('Ekran ve Gövde','Ağırlık','weightGrams','g','lower'),field('Ekran ve Gövde','Dayanıklılık','waterResistance'),
-    field('Özellikler','GPS','hasGps'),field('Özellikler','Hücresel Bağlantı','hasCellular'),field('Özellikler','EKG','hasECG'),field('Özellikler','NFC','hasNfc'),field('Özellikler','Sensörler','sensors'),field('Özellikler','Uyumluluk','compatibility'),field('Özellikler','İşletim Sistemi','os'),field('Özellikler','Kayıtlı Pil Süresi','batteryLifeDays','gün'),
-  ],
+  smartwatches: SMARTWATCH_SPEC_FIELDS.map(spec=>({
+    id:`${spec.category}:${spec.paths}`,category:spec.category,label:spec.label,unit:spec.unit,direction:spec.direction,
+    getValue:p=>smartwatchProductSpecText(p,spec),
+    getRawNumber:spec.direction ? p=>hasUnresolvedSpecField(p,spec.paths) ? null : finiteNumber(readSmartwatchSpec(p.specs,spec).value) : undefined,
+  })),
   headphones: [
     field('Ses ve Özellikler','Tür','type|formFactor'),field('Ses ve Özellikler','Aktif Gürültü Engelleme','anc'),field('Ses ve Özellikler','Sürücü','driverSizeMm','mm'),field('Ses ve Özellikler','Frekans Aralığı','frequencyResponse'),
     field('Batarya ve Bağlantı','Kayıtlı Pil Süresi','batteryLife|batteryLifeHours'),field('Batarya ve Bağlantı','Bluetooth','bluetoothVersion'),field('Batarya ve Bağlantı','Ağırlık','weightGrams','g','lower'),field('Batarya ve Bağlantı','Dayanıklılık','waterResistance'),

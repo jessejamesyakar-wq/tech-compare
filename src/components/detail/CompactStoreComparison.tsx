@@ -12,6 +12,7 @@ import {
   evaluateAllStoresPresence,
   ValidatedStoreOffer,
 } from '@/lib/pricing/storeAvailabilityEngine';
+import { offerVariantLabel } from '@/lib/pricing/offerVariant';
 import { getPriceFreshness } from '@/lib/priceFreshness';
 
 interface CompactStoreComparisonProps {
@@ -50,7 +51,7 @@ export function CompactStoreComparison({ offers = [], basePrice, currency, produ
     id: (product as any)?.id || '',
     name: product?.name || 'Ürün',
     category: (product as any)?.category,
-    basePrice,
+    basePrice: basePrice ?? product?.basePrice,
     storeOffers: offers,
   });
 
@@ -62,7 +63,7 @@ export function CompactStoreComparison({ offers = [], basePrice, currency, produ
   const handleGoToStore = (store: ValidatedStoreOffer) => {
     setOutboundModal({
       isOpen: true,
-      productName: product?.name || 'Seçili Ürün',
+      productName: [product?.name || 'Seçili Ürün', store.variantName].filter(Boolean).join(' · '),
       storeName: store.storeName,
       price: store.isSearchLink ? null : store.price,
       lastCheckedAt: store.lastCheckedAt,
@@ -104,7 +105,7 @@ export function CompactStoreComparison({ offers = [], basePrice, currency, produ
             return (
               <div
                 key={store.storeKey}
-                className={`flex items-center justify-between p-2.5 rounded-xl border text-xs transition-all ${
+                className={`flex flex-col items-stretch gap-2 p-2.5 rounded-xl border text-xs transition-all ${
                   isCheapest
                     ? 'bg-emerald-50/80 border-emerald-300 shadow-2xs'
                     : 'bg-slate-50/70 border-slate-200 hover:border-slate-300'
@@ -130,8 +131,9 @@ export function CompactStoreComparison({ offers = [], basePrice, currency, produ
                   </div>
                 </div>
 
+                {store.variantName && <p className="text-xs font-semibold text-slate-700 break-words">{offerVariantLabel(store)}</p>}
                 {/* Price & Action Link */}
-                <div className="flex items-center gap-2 shrink-0">
+                <div className="flex flex-wrap items-center justify-between gap-2">
                   {store.price ? (
                     <span className={`font-black text-xs ${isCheapest ? 'text-emerald-700' : 'text-slate-900'}`}>
                       {store.price.toLocaleString('tr-TR')} {currency}
@@ -144,7 +146,7 @@ export function CompactStoreComparison({ offers = [], basePrice, currency, produ
 
                   <button
                     onClick={() => handleGoToStore(store)}
-                    className="bg-emerald-600 hover:bg-emerald-500 text-white font-extrabold text-[10px] px-2.5 py-1 rounded-lg transition-all flex items-center gap-1 shadow-2xs cursor-pointer"
+                    className="bg-emerald-600 hover:bg-emerald-500 text-white font-extrabold text-[10px] min-h-11 px-2.5 py-1 rounded-lg transition-all flex items-center gap-1 shadow-2xs cursor-pointer"
                     title={`${store.storeName} Mağazasında İncele`}
                   >
                     <span>Mağazada İncele</span>

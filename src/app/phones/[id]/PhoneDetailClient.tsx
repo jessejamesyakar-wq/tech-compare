@@ -10,6 +10,7 @@ import { useSearchParams } from 'next/navigation';
 import { useI18n } from '@/lib/i18n/context';
 import { useCompare } from '@/context/CompareContext';
 import { Smartphone } from '@/lib/types';
+import { selectProductOfferVariant } from '@/lib/pricing/offerVariant';
 import { resolveActiveColor } from '@/lib/colorVariantHelper';
 import { StoreTable } from '@/components/detail/StoreTable';
 import { StickyHeaderBar } from '@/components/detail/StickyHeaderBar';
@@ -38,10 +39,19 @@ const PriceAlertModal = dynamic(
   () => import('@/components/detail/PriceAlertModal').then((m) => m.PriceAlertModal),
   { ssr: false }
 );
-const BrandLogoBar = dynamic(() => import('@/components/catalog/BrandLogoBar').then((m) => m.BrandLogoBar));
-const AIReviewSummaryCard = dynamic(() => import('@/components/ai/AIReviewSummaryCard').then((m) => m.AIReviewSummaryCard));
-const AIUpgradeAdvisor = dynamic(() => import('@/components/ai/AIUpgradeAdvisor').then((m) => m.AIUpgradeAdvisor));
-const TechTermExplainer = dynamic(() => import('@/components/ai/TechTermExplainer').then((m) => m.TechTermExplainer));
+// Each deferred section owns its Suspense fallback so hydration cannot hide the product hero.
+const AIReviewSummaryCard = dynamic(
+  () => import('@/components/ai/AIReviewSummaryCard').then((m) => m.AIReviewSummaryCard),
+  { loading: () => <div aria-hidden="true" className="h-48 bg-slate-50 rounded-3xl motion-safe:animate-pulse" /> }
+);
+const AIUpgradeAdvisor = dynamic(
+  () => import('@/components/ai/AIUpgradeAdvisor').then((m) => m.AIUpgradeAdvisor),
+  { loading: () => <div aria-hidden="true" className="h-48 bg-slate-50 rounded-3xl motion-safe:animate-pulse" /> }
+);
+const TechTermExplainer = dynamic(
+  () => import('@/components/ai/TechTermExplainer').then((m) => m.TechTermExplainer),
+  { loading: () => <div aria-hidden="true" className="h-48 bg-slate-50 rounded-3xl motion-safe:animate-pulse" /> }
+);
 import {
   Star,
   Scale,
@@ -126,12 +136,13 @@ export default function PhoneDetailClient({ initialPhone }: { initialPhone: Smar
   }
 
   const inCompare = isInCompare(phone.id);
+  const pricedPhone = selectProductOfferVariant(phone, selectedVariantId, selectedColor);
 
   return (
     <div className="space-y-12 py-4">
       
       {/* Sticky Top Bar when scrolling */}
-      <StickyHeaderBar phone={phone} />
+      <StickyHeaderBar phone={pricedPhone} />
 
       {/* Breadcrumb */}
       <div className="flex items-center gap-2 text-xs text-slate-500">
@@ -192,7 +203,7 @@ export default function PhoneDetailClient({ initialPhone }: { initialPhone: Smar
 
             {/* Base Lowest Price Box */}
             <div className="bg-slate-50 p-5 rounded-2xl border border-slate-200 flex flex-col sm:flex-row sm:items-center justify-between gap-4">
-              <ProductPriceSummary product={phone} />
+              <ProductPriceSummary product={pricedPhone} />
 
               <div className="flex items-center gap-2">
                 {/* Price Alert Button */}
@@ -221,14 +232,14 @@ export default function PhoneDetailClient({ initialPhone }: { initialPhone: Smar
 
             {/* Store Comparison Snapshot in Hero */}
             <CompactStoreComparison
-              offers={phone.storeOffers}
-              basePrice={phone.basePrice}
+              offers={pricedPhone.storeOffers}
+              basePrice={pricedPhone.basePrice}
               currency={phone.currency}
-              product={phone}
+              product={pricedPhone}
             />
 
             {/* AI Module 2: AI Price Forecast Badge */}
-            <AIPriceForecastBadge product={phone} />
+            <AIPriceForecastBadge product={pricedPhone} />
 
           </div>
 
@@ -268,11 +279,11 @@ export default function PhoneDetailClient({ initialPhone }: { initialPhone: Smar
 
       {/* Store Comparison Table (Full View) */}
       <div>
-        <StoreTable offers={phone.storeOffers} currency={phone.currency} product={phone} />
+        <StoreTable offers={pricedPhone.storeOffers} currency={phone.currency} product={pricedPhone} />
       </div>
 
       {/* 6-Month Price History Chart */}
-      <PriceHistoryChart data={phone.priceHistory} currency={phone.currency} product={phone} />
+      <PriceHistoryChart data={pricedPhone.priceHistory} currency={phone.currency} product={pricedPhone} />
 
       {/* Technical Specs Breakdown */}
       <div className="space-y-4">
@@ -288,13 +299,13 @@ export default function PhoneDetailClient({ initialPhone }: { initialPhone: Smar
 
       {/* Price Alert Subscription Modal */}
       <PriceAlertModal
-        phone={phone}
+        phone={pricedPhone}
         isOpen={alertModalOpen}
         onClose={() => setAlertModalOpen(false)}
       />
 
       {/* Centralized Schema.org Product Structured Data (TRY ISO, Rich Snippets) */}
-      <ProductJsonLd product={phone as any} />
+      <ProductJsonLd product={pricedPhone} />
     </div>
   );
 }

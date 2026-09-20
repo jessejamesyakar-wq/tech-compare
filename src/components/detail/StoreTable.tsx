@@ -12,6 +12,7 @@ import {
   evaluateAllStoresPresence,
   ValidatedStoreOffer,
 } from '@/lib/pricing/storeAvailabilityEngine';
+import { offerVariantLabel } from '@/lib/pricing/offerVariant';
 import { getPriceFreshness } from '@/lib/priceFreshness';
 
 interface StoreTableProps {
@@ -64,7 +65,7 @@ export function StoreTable({ offers = [], currency, product }: StoreTableProps) 
   const handleGoToStore = (offer: ValidatedStoreOffer) => {
     setOutboundModal({
       isOpen: true,
-      productName: product?.name || 'Seçili Ürün',
+      productName: [product?.name || 'Seçili Ürün', offer.variantName].filter(Boolean).join(' · '),
       storeName: offer.storeName,
       price: offer.isSearchLink ? null : offer.price,
       lastCheckedAt: offer.lastCheckedAt,
@@ -165,6 +166,7 @@ export function StoreTable({ offers = [], currency, product }: StoreTableProps) 
                   </div>
                 </div>
 
+                {offer.variantName && <p className="text-xs font-semibold text-slate-700 break-words">{offerVariantLabel(offer)}</p>}
                 {/* Price & Go button */}
                 <div className="flex items-center justify-between sm:justify-end gap-4 pt-2 sm:pt-0 border-t sm:border-t-0 border-slate-100">
                   <div className="text-left sm:text-right">
@@ -176,7 +178,7 @@ export function StoreTable({ offers = [], currency, product }: StoreTableProps) 
 
                   <button
                     onClick={() => handleGoToStore(offer)}
-                    className="bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-xs sm:text-sm px-5 py-3 rounded-xl transition-all shadow-xs flex items-center gap-1.5 cursor-pointer shrink-0"
+                    className="bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-xs sm:text-sm min-h-11 px-5 py-3 rounded-xl transition-all shadow-xs flex items-center gap-1.5 cursor-pointer shrink-0"
                   >
                     <span>Mağazada İncele</span>
                     <ExternalLink className="w-3.5 h-3.5" />

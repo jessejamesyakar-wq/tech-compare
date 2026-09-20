@@ -1,22 +1,16 @@
 {
-  "checkedAt": "2026-09-20T08:47:37.537Z",
+  "checkedAt": "2026-09-20T11:58:33.313Z",
   "scope": "Primary image byte identity only; no factual model or color verification.",
   "products": 5820,
-  "uniqueFiles": 5418,
+  "uniqueFiles": 5442,
   "repeatedGroups": 526,
-  "groupsWithDifferentPaths": 417,
+  "groupsWithDifferentPaths": 416,
   "groups": [
     {
       "sha256": "bf8b2abe8331642ca3b4c2c74b48f166e33e2e5959dd82be7571dc323eae893a",
-      "productCount": 168,
+      "productCount": 167,
       "pathCount": 1,
       "products": [
-        {
-          "id": "huawei-huawei-mate-40-rs-porsche-design",
-          "name": "Huawei Mate 40 RS Porsche Design",
-          "category": "smartphones",
-          "image": "/images/product-unverified.svg"
-        },
         {
           "id": "huawei-huawei-nova-5i",
           "name": "Huawei nova 5i",
@@ -44,12 +38,6 @@
         {
           "id": "huawei-huawei-mate-x2-4g",
           "name": "Huawei Mate X2 4G",
-          "category": "smartphones",
-          "image": "/images/product-unverified.svg"
-        },
-        {
-          "id": "huawei-huawei-pura-70-pro",
-          "name": "Huawei Pura 70 Pro",
           "category": "smartphones",
           "image": "/images/product-unverified.svg"
         },
@@ -344,12 +332,6 @@
         {
           "id": "huawei-huawei-mate-30e-pro-5g",
           "name": "Huawei Mate 30e Pro 5G",
-          "category": "smartphones",
-          "image": "/images/product-unverified.svg"
-        },
-        {
-          "id": "huawei-huawei-mate-40-pro",
-          "name": "Huawei Mate 40 Pro",
           "category": "smartphones",
           "image": "/images/product-unverified.svg"
         },
@@ -1017,6 +999,18 @@
           "id": "huawei-huawei-y9-prime",
           "name": "Huawei Y9 Prime ",
           "category": "smartphones",
+          "image": "/images/product-unverified.svg"
+        },
+        {
+          "id": "samsung-galaxy-watch-3-45mm-lte-titanium",
+          "name": "Samsung Galaxy Watch 3 (45mm LTE Titanyum)",
+          "category": "smartwatches",
+          "image": "/images/product-unverified.svg"
+        },
+        {
+          "id": "karaca-caysever-robotea-connect",
+          "name": "Karaca Çaysever Robotea Connect Akıllı Çay Makinesi",
+          "category": "appliances",
           "image": "/images/product-unverified.svg"
         }
       ]
@@ -3917,79 +3911,6 @@
       ]
     },
     {
-      "sha256": "15b25384ca5c6ff7e6fbdc641b727f0d344c4da20e1cb513e0a27a6db1136402",
-      "productCount": 11,
-      "pathCount": 2,
-      "products": [
-        {
-          "id": "samsung-galaxy-watch-4-classic-46mm-lte",
-          "name": "Samsung Galaxy Watch 4 Classic (46mm LTE)",
-          "category": "smartwatches",
-          "image": "/images/smartwatches/samsung/samsung-galaxy-watch-4-classic-46mm.jpg"
-        },
-        {
-          "id": "samsung-galaxy-watch-4-classic-46mm",
-          "name": "Samsung Galaxy Watch 4 Classic (46mm)",
-          "category": "smartwatches",
-          "image": "/images/smartwatches/samsung/samsung-galaxy-watch-4-classic-46mm.jpg"
-        },
-        {
-          "id": "samsung-galaxy-watch-4-classic-42mm-lte",
-          "name": "Samsung Galaxy Watch 4 Classic (42mm LTE)",
-          "category": "smartwatches",
-          "image": "/images/smartwatches/samsung/samsung-galaxy-watch-4-classic-42mm.jpg"
-        },
-        {
-          "id": "samsung-galaxy-watch-4-classic-42mm",
-          "name": "Samsung Galaxy Watch 4 Classic (42mm)",
-          "category": "smartwatches",
-          "image": "/images/smartwatches/samsung/samsung-galaxy-watch-4-classic-42mm.jpg"
-        },
-        {
-          "id": "samsung-galaxy-watch-3-45mm",
-          "name": "Samsung Galaxy Watch 3 (45mm)",
-          "category": "smartwatches",
-          "image": "/images/smartwatches/samsung/samsung-galaxy-watch-4-classic-46mm.jpg"
-        },
-        {
-          "id": "samsung-galaxy-watch-3-41mm",
-          "name": "Samsung Galaxy Watch 3 (41mm)",
-          "category": "smartwatches",
-          "image": "/images/smartwatches/samsung/samsung-galaxy-watch-4-classic-42mm.jpg"
-        },
-        {
-          "id": "samsung-galaxy-watch-46mm",
-          "name": "Samsung Galaxy Watch (46mm Gümüş)",
-          "category": "smartwatches",
-          "image": "/images/smartwatches/samsung/samsung-galaxy-watch-4-classic-46mm.jpg"
-        },
-        {
-          "id": "samsung-galaxy-watch-42mm",
-          "name": "Samsung Galaxy Watch (42mm)",
-          "category": "smartwatches",
-          "image": "/images/smartwatches/samsung/samsung-galaxy-watch-4-classic-42mm.jpg"
-        },
-        {
-          "id": "samsung-gear-s3-frontier",
-          "name": "Samsung Gear S3 Frontier",
-          "category": "smartwatches",
-          "image": "/images/smartwatches/samsung/samsung-galaxy-watch-4-classic-46mm.jpg"
-        },
-        {
-          "id": "samsung-gear-s3-classic",
-          "name": "Samsung Gear S3 Classic",
-          "category": "smartwatches",
-          "image": "/images/smartwatches/samsung/samsung-galaxy-watch-4-classic-46mm.jpg"
-        },
-        {
-          "id": "samsung-gear-s2-classic",
-          "name": "Samsung Gear S2 Classic",
-          "category": "smartwatches",
-          "image": "/images/smartwatches/samsung/samsung-galaxy-watch-4-classic-42mm.jpg"
-        }
-      ]
-    },
-    {
       "sha256": "d538be21e49afbfd559013b3e279c5da2ba87b9a3119d932202149acec019a8e",
       "productCount": 10,
       "pathCount": 10,
@@ -4997,61 +4918,6 @@
       ]
     },
     {
-      "sha256": "8099adb53fa9b76e41342bed5739745618f8a516a0956690a72ec3d753327c07",
-      "productCount": 8,
-      "pathCount": 5,
-      "products": [
-        {
-          "id": "huawei-watch-gt-5-pro-46mm",
-          "name": "Huawei Watch GT 5 Pro (46mm Titanyum)",
-          "category": "smartwatches",
-          "image": "/images/smartwatches/huawei/huawei-huawei-watch-gt-5-pro-13349.jpg"
-        },
-        {
-          "id": "garmin-fenix-8-51mm-amoled",
-          "name": "Garmin Fenix 8 (51mm AMOLED Safir Titanyum)",
-          "category": "smartwatches",
-          "image": "/images/smartwatches/garmin/garmin-fenix-8-51mm.jpg"
-        },
-        {
-          "id": "garmin-forerunner-965",
-          "name": "Garmin Forerunner 965 (Titanyum Bezel)",
-          "category": "smartwatches",
-          "image": "/images/smartwatches/garmin/garmin-forerunner-965.jpg"
-        },
-        {
-          "id": "amazfit-t-rex-3",
-          "name": "Amazfit T-Rex 3 (Askeri Dayanıklı Outdoor)",
-          "category": "smartwatches",
-          "image": "/images/smartwatches/amazfit/amazfit-t-rex-3.jpg"
-        },
-        {
-          "id": "amazfit-t-rex-3-outdoor-gps",
-          "name": "Amazfit T-Rex 3 (Akıllı Doğa & Taktik GPS Saati)",
-          "category": "smartwatches",
-          "image": "/images/smartwatches/amazfit/amazfit-t-rex-3.jpg"
-        },
-        {
-          "id": "amazfit-cheetah-pro-running-gps",
-          "name": "Amazfit Cheetah Pro (Profesyonel Koşu & Maraton GPS Saati)",
-          "category": "smartwatches",
-          "image": "/images/smartwatches/amazfit/amazfit-cheetah-pro.jpg"
-        },
-        {
-          "id": "huawei-watch-gt-5-pro-46mm-black",
-          "name": "Huawei Watch GT 5 Pro (46mm Titanyum Kasa - Siyah Floroelastomer)",
-          "category": "smartwatches",
-          "image": "/images/smartwatches/huawei/huawei-huawei-watch-gt-5-pro-13349.jpg"
-        },
-        {
-          "id": "garmin-forerunner-965-titanium",
-          "name": "Garmin Forerunner 965 (1.4 inç AMOLED - Titanyum Çerçeve)",
-          "category": "smartwatches",
-          "image": "/images/smartwatches/garmin/garmin-forerunner-965.jpg"
-        }
-      ]
-    },
-    {
       "sha256": "dc2fffd170b80847d932961f74889a2081c015747acab4e074056eb79cc3078a",
       "productCount": 7,
       "pathCount": 5,
@@ -5686,92 +5552,6 @@
           "name": "Apple Watch Edition 1. Nesil (42mm 18 Ayar Som Sarı Altın)",
           "category": "smartwatches",
           "image": "/images/smartwatches/apple/apple-watch-edition-42mm.jpg"
-        }
-      ]
-    },
-    {
-      "sha256": "230fffe9846ba282b9e0b56c50b3710149a0d825e810ddfb5befb0ad102c6238",
-      "productCount": 6,
-      "pathCount": 1,
-      "products": [
-        {
-          "id": "samsung-galaxy-watch-4-40mm-lte",
-          "name": "Samsung Galaxy Watch 4 (40mm LTE)",
-          "category": "smartwatches",
-          "image": "/images/smartwatches/samsung/samsung-galaxy-watch-4-40mm.jpg"
-        },
-        {
-          "id": "samsung-galaxy-watch-4-40mm",
-          "name": "Samsung Galaxy Watch 4 (40mm)",
-          "category": "smartwatches",
-          "image": "/images/smartwatches/samsung/samsung-galaxy-watch-4-40mm.jpg"
-        },
-        {
-          "id": "samsung-galaxy-watch-active-2-40mm",
-          "name": "Samsung Galaxy Watch Active 2 (40mm)",
-          "category": "smartwatches",
-          "image": "/images/smartwatches/samsung/samsung-galaxy-watch-4-40mm.jpg"
-        },
-        {
-          "id": "samsung-galaxy-watch-active",
-          "name": "Samsung Galaxy Watch Active (40mm)",
-          "category": "smartwatches",
-          "image": "/images/smartwatches/samsung/samsung-galaxy-watch-4-40mm.jpg"
-        },
-        {
-          "id": "samsung-gear-sport",
-          "name": "Samsung Gear Sport (42mm)",
-          "category": "smartwatches",
-          "image": "/images/smartwatches/samsung/samsung-galaxy-watch-4-40mm.jpg"
-        },
-        {
-          "id": "samsung-gear-s2",
-          "name": "Samsung Gear S2",
-          "category": "smartwatches",
-          "image": "/images/smartwatches/samsung/samsung-galaxy-watch-4-40mm.jpg"
-        }
-      ]
-    },
-    {
-      "sha256": "2b4fa047d01a1ba63437d347e49a6ef44034625612642aa2267802251ffadd62",
-      "productCount": 6,
-      "pathCount": 1,
-      "products": [
-        {
-          "id": "philips-5000-hd9339-80",
-          "name": "Philips 5000 Series HD9339/80 2200W 1.7L Cam Su Isıtıcı (Mavi LED Işıklı)",
-          "category": "appliances",
-          "image": "/images/products/appliances/icecat-philips-5000-hd9339-80.jpg"
-        },
-        {
-          "id": "kitchenaid-artisan-4-8l",
-          "name": "KitchenAid Artisan 4.8L Stand Mikser & Mutfak Şefi",
-          "category": "appliances",
-          "image": "/images/products/appliances/icecat-philips-5000-hd9339-80.jpg"
-        },
-        {
-          "id": "cosori-dual-blaze-6-4l",
-          "name": "Cosori Dual Blaze 6.4L Çift Isıtıcılı Akıllı Airfryer",
-          "category": "appliances",
-          "image": "/images/products/appliances/icecat-philips-5000-hd9339-80.jpg"
-        },
-        {
-          "id": "arzum-okka-grandio-duo",
-          "name": "Arzum OKKA Grandio Duo Dokunmatik Türk Kahvesi Makinesi",
-          "category": "appliances",
-          "image": "/images/products/appliances/icecat-philips-5000-hd9339-80.jpg"
-        },
-        {
-          "id": "karaca-caysever-robotea-connect",
-          "name": "Karaca Çaysever Robotea Connect Akıllı Çay Makinesi",
-          "category": "appliances",
-          "image": "/images/products/appliances/icecat-philips-5000-hd9339-80.jpg"
-        },
-        {
-          "id": "nutribullet-pro-900w",
-          "name": "Nutribullet Pro 900W Kişisel Blender ve Smoothie Makinesi",
-          "category": "appliances",
-          "image": "/images/products/appliances/icecat-philips-5000-hd9339-80.jpg"
         }
       ]
     },
@@ -6524,43 +6304,6 @@
           "name": "Apple iPad Pro 13 (M5) Wi-Fi 12 GB / 256 GB",
           "category": "tablets",
           "image": "/images/products/tablets/apple-ipad-pro-13-m5-wi-fi-1.jpg"
-        }
-      ]
-    },
-    {
-      "sha256": "c574c753fd8a0e76ce8a58d8713a5dd0774dc3935f289bbd0c69d0e219df8a3a",
-      "productCount": 5,
-      "pathCount": 1,
-      "products": [
-        {
-          "id": "samsung-galaxy-fit-2",
-          "name": "Samsung Galaxy Fit 2 Akıllı Bileklik",
-          "category": "smartwatches",
-          "image": "/images/smartwatches/samsung/samsung-galaxy-fit-2.jpg"
-        },
-        {
-          "id": "samsung-galaxy-fit",
-          "name": "Samsung Galaxy Fit Akıllı Bileklik",
-          "category": "smartwatches",
-          "image": "/images/smartwatches/samsung/samsung-galaxy-fit-2.jpg"
-        },
-        {
-          "id": "samsung-galaxy-fit-e",
-          "name": "Samsung Galaxy Fit e Akıllı Bileklik",
-          "category": "smartwatches",
-          "image": "/images/smartwatches/samsung/samsung-galaxy-fit-2.jpg"
-        },
-        {
-          "id": "samsung-gear-fit-2-pro",
-          "name": "Samsung Gear Fit 2 Pro",
-          "category": "smartwatches",
-          "image": "/images/smartwatches/samsung/samsung-galaxy-fit-2.jpg"
-        },
-        {
-          "id": "samsung-gear-fit-2",
-          "name": "Samsung Gear Fit 2",
-          "category": "smartwatches",
-          "image": "/images/smartwatches/samsung/samsung-galaxy-fit-2.jpg"
         }
       ]
     },
@@ -7842,33 +7585,33 @@
       ]
     },
     {
-      "sha256": "79f057b9262639c4dba824832718d3605722b52bc763e0f1247431dafdf47697",
+      "sha256": "15b25384ca5c6ff7e6fbdc641b727f0d344c4da20e1cb513e0a27a6db1136402",
       "productCount": 4,
-      "pathCount": 1,
+      "pathCount": 2,
       "products": [
         {
-          "id": "samsung-galaxy-watch-4-44mm-lte",
-          "name": "Samsung Galaxy Watch 4 (44mm LTE)",
+          "id": "samsung-galaxy-watch-4-classic-46mm-lte",
+          "name": "Samsung Galaxy Watch 4 Classic (46mm LTE)",
           "category": "smartwatches",
-          "image": "/images/smartwatches/samsung/samsung-galaxy-watch-4-44mm.jpg"
+          "image": "/images/smartwatches/samsung/samsung-galaxy-watch-4-classic-46mm.jpg"
         },
         {
-          "id": "samsung-galaxy-watch-4-44mm",
-          "name": "Samsung Galaxy Watch 4 (44mm)",
+          "id": "samsung-galaxy-watch-4-classic-46mm",
+          "name": "Samsung Galaxy Watch 4 Classic (46mm)",
           "category": "smartwatches",
-          "image": "/images/smartwatches/samsung/samsung-galaxy-watch-4-44mm.jpg"
+          "image": "/images/smartwatches/samsung/samsung-galaxy-watch-4-classic-46mm.jpg"
         },
         {
-          "id": "samsung-galaxy-watch-active-2-44mm-lte",
-          "name": "Samsung Galaxy Watch Active 2 (44mm LTE Paslanmaz Çelik)",
+          "id": "samsung-galaxy-watch-4-classic-42mm-lte",
+          "name": "Samsung Galaxy Watch 4 Classic (42mm LTE)",
           "category": "smartwatches",
-          "image": "/images/smartwatches/samsung/samsung-galaxy-watch-4-44mm.jpg"
+          "image": "/images/smartwatches/samsung/samsung-galaxy-watch-4-classic-42mm.jpg"
         },
         {
-          "id": "samsung-galaxy-watch-active-2-44mm",
-          "name": "Samsung Galaxy Watch Active 2 (44mm)",
+          "id": "samsung-galaxy-watch-4-classic-42mm",
+          "name": "Samsung Galaxy Watch 4 Classic (42mm)",
           "category": "smartwatches",
-          "image": "/images/smartwatches/samsung/samsung-galaxy-watch-4-44mm.jpg"
+          "image": "/images/smartwatches/samsung/samsung-galaxy-watch-4-classic-42mm.jpg"
         }
       ]
     },
@@ -10093,31 +9836,6 @@
           "name": "ASUS MeMO Pad 7 (ME176CX) 8 GB",
           "category": "tablets",
           "image": "/images/products/tablets/asus-memo-pad-7-me176cx-1.png"
-        }
-      ]
-    },
-    {
-      "sha256": "609115f065161b4a18c9a27e80c5942e0b657889358340bbdd17a22df22f754b",
-      "productCount": 3,
-      "pathCount": 1,
-      "products": [
-        {
-          "id": "samsung-galaxy-watch-5-pro-45mm-lte",
-          "name": "Samsung Galaxy Watch 5 Pro (45mm LTE Titanyum)",
-          "category": "smartwatches",
-          "image": "/images/smartwatches/samsung/samsung-galaxy-watch-5-pro-45mm.jpg"
-        },
-        {
-          "id": "samsung-galaxy-watch-5-pro-45mm",
-          "name": "Samsung Galaxy Watch 5 Pro (45mm Titanyum)",
-          "category": "smartwatches",
-          "image": "/images/smartwatches/samsung/samsung-galaxy-watch-5-pro-45mm.jpg"
-        },
-        {
-          "id": "samsung-galaxy-watch-3-45mm-lte-titanium",
-          "name": "Samsung Galaxy Watch 3 (45mm LTE Titanyum)",
-          "category": "smartwatches",
-          "image": "/images/smartwatches/samsung/samsung-galaxy-watch-5-pro-45mm.jpg"
         }
       ]
     },
@@ -15147,6 +14865,25 @@
       ]
     },
     {
+      "sha256": "609115f065161b4a18c9a27e80c5942e0b657889358340bbdd17a22df22f754b",
+      "productCount": 2,
+      "pathCount": 1,
+      "products": [
+        {
+          "id": "samsung-galaxy-watch-5-pro-45mm-lte",
+          "name": "Samsung Galaxy Watch 5 Pro (45mm LTE Titanyum)",
+          "category": "smartwatches",
+          "image": "/images/smartwatches/samsung/samsung-galaxy-watch-5-pro-45mm.jpg"
+        },
+        {
+          "id": "samsung-galaxy-watch-5-pro-45mm",
+          "name": "Samsung Galaxy Watch 5 Pro (45mm Titanyum)",
+          "category": "smartwatches",
+          "image": "/images/smartwatches/samsung/samsung-galaxy-watch-5-pro-45mm.jpg"
+        }
+      ]
+    },
+    {
       "sha256": "4bea5d97bcc3f5e087411806293e257f3a6a92ebf1a9445d40d3ff5836b95380",
       "productCount": 2,
       "pathCount": 1,
@@ -15181,6 +14918,63 @@
           "name": "Samsung Galaxy Watch 5 (40mm)",
           "category": "smartwatches",
           "image": "/images/smartwatches/samsung/samsung-galaxy-watch-5-40mm.jpg"
+        }
+      ]
+    },
+    {
+      "sha256": "79f057b9262639c4dba824832718d3605722b52bc763e0f1247431dafdf47697",
+      "productCount": 2,
+      "pathCount": 1,
+      "products": [
+        {
+          "id": "samsung-galaxy-watch-4-44mm-lte",
+          "name": "Samsung Galaxy Watch 4 (44mm LTE)",
+          "category": "smartwatches",
+          "image": "/images/smartwatches/samsung/samsung-galaxy-watch-4-44mm.jpg"
+        },
+        {
+          "id": "samsung-galaxy-watch-4-44mm",
+          "name": "Samsung Galaxy Watch 4 (44mm)",
+          "category": "smartwatches",
+          "image": "/images/smartwatches/samsung/samsung-galaxy-watch-4-44mm.jpg"
+        }
+      ]
+    },
+    {
+      "sha256": "230fffe9846ba282b9e0b56c50b3710149a0d825e810ddfb5befb0ad102c6238",
+      "productCount": 2,
+      "pathCount": 1,
+      "products": [
+        {
+          "id": "samsung-galaxy-watch-4-40mm-lte",
+          "name": "Samsung Galaxy Watch 4 (40mm LTE)",
+          "category": "smartwatches",
+          "image": "/images/smartwatches/samsung/samsung-galaxy-watch-4-40mm.jpg"
+        },
+        {
+          "id": "samsung-galaxy-watch-4-40mm",
+          "name": "Samsung Galaxy Watch 4 (40mm)",
+          "category": "smartwatches",
+          "image": "/images/smartwatches/samsung/samsung-galaxy-watch-4-40mm.jpg"
+        }
+      ]
+    },
+    {
+      "sha256": "8099adb53fa9b76e41342bed5739745618f8a516a0956690a72ec3d753327c07",
+      "productCount": 2,
+      "pathCount": 1,
+      "products": [
+        {
+          "id": "huawei-watch-gt-5-pro-46mm",
+          "name": "Huawei Watch GT 5 Pro (46mm Titanyum)",
+          "category": "smartwatches",
+          "image": "/images/smartwatches/huawei/huawei-huawei-watch-gt-5-pro-13349.jpg"
+        },
+        {
+          "id": "huawei-watch-gt-5-pro-46mm-black",
+          "name": "Huawei Watch GT 5 Pro (46mm Titanyum Kasa - Siyah Floroelastomer)",
+          "category": "smartwatches",
+          "image": "/images/smartwatches/huawei/huawei-huawei-watch-gt-5-pro-13349.jpg"
         }
       ]
     },
@@ -15238,6 +15032,44 @@
           "name": "Xiaomi Redmi Watch 4 (1.97 inç LTPS AMOLED - Alüminyum Kasa)",
           "category": "smartwatches",
           "image": "/images/smartwatches/xiaomi/xiaomi-redmi-watch-4-12711.jpg"
+        }
+      ]
+    },
+    {
+      "sha256": "1c8575a54f6f50a55cab5d0e72be923b980db408a4649d2f1c8c4ab782128ca8",
+      "productCount": 2,
+      "pathCount": 1,
+      "products": [
+        {
+          "id": "garmin-forerunner-965",
+          "name": "Garmin Forerunner 965 (Titanyum Bezel)",
+          "category": "smartwatches",
+          "image": "/images/smartwatches/verified/garmin-forerunner-965.jpg"
+        },
+        {
+          "id": "garmin-forerunner-965-titanium",
+          "name": "Garmin Forerunner 965 (1.4 inç AMOLED - Titanyum Çerçeve)",
+          "category": "smartwatches",
+          "image": "/images/smartwatches/verified/garmin-forerunner-965.jpg"
+        }
+      ]
+    },
+    {
+      "sha256": "0fcec3f41a4bfeac79d2d284f33eaa468f82e20b1dc480aa24667f4d4b284808",
+      "productCount": 2,
+      "pathCount": 1,
+      "products": [
+        {
+          "id": "amazfit-t-rex-3",
+          "name": "Amazfit T-Rex 3 (Askeri Dayanıklı Outdoor)",
+          "category": "smartwatches",
+          "image": "/images/smartwatches/verified/amazfit-t-rex-3.jpg"
+        },
+        {
+          "id": "amazfit-t-rex-3-outdoor-gps",
+          "name": "Amazfit T-Rex 3 (Akıllı Doğa & Taktik GPS Saati)",
+          "category": "smartwatches",
+          "image": "/images/smartwatches/verified/amazfit-t-rex-3.jpg"
         }
       ]
     },

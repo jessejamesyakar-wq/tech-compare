@@ -28,6 +28,17 @@ async function main() {
     check('no fabricated remote response time',()=>assert.equal(configured.responseTimeMs,undefined));
     check('missing configuration preserved',()=>assert.equal(missing.status,'NOT_CONFIGURED'));
     check('disabled store preserved',()=>assert.equal(disabled.status,'DISABLED'));
+    for (const adapter of storeRegistry.getAllAdapters()) {
+      const originalConfigured = adapter.isConfigured;
+      try {
+        adapter.isConfigured = () => true;
+        const configuredStock = await adapter.getStock({ storeId: adapter.id, storeProductId: 'test-sku', title: 'Test only', url: `https://${adapter.domain}/test-product` });
+        check(`${adapter.id}: credentials cannot fabricate stock or check date`, () => assert.equal(configuredStock, null));
+        adapter.isConfigured = () => false;
+        const missingStock = await adapter.getStock({ storeId: adapter.id, storeProductId: 'test-sku', title: 'Test only', url: `https://${adapter.domain}/test-product` });
+        check(`${adapter.id}: unconfigured stock remains unknown`, () => assert.equal(missingStock, null));
+      } finally { adapter.isConfigured = originalConfigured; }
+    }
     priceQueue.getStats=async()=>({totalJobs:0,pending:0,processing:0,completed:0,failed:0,activeLocks:0});
     storeRegistry.getStoreHealthStatuses=async()=>[configured,missing,disabled];
     process.env.REDIS_URL='redis://example.invalid:6379';

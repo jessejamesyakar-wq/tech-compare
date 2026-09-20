@@ -69,9 +69,10 @@ export function ProductColorPicker({
             <button
               key={idx}
               type="button"
+              aria-pressed={Boolean(isSelected)}
               onClick={() => onSelectColor(item.name, item.image, item.images, item.variantId)}
               title={`${item.name} rengini seç`}
-              className={`group flex items-center gap-2.5 px-3.5 py-2 rounded-xl border text-xs font-bold transition-all duration-200 cursor-pointer ${
+              className={`group flex min-h-11 min-w-11 items-center gap-2.5 px-3.5 py-2 rounded-xl border text-xs font-bold transition-all duration-200 cursor-pointer focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-emerald-700 ${
                 isSelected
                   ? 'bg-white border-emerald-600 text-slate-900 shadow-sm ring-2 ring-emerald-500/30 scale-102'
                   : 'bg-white/70 border-slate-200 text-slate-700 hover:bg-white hover:border-slate-300 hover:shadow-2xs'

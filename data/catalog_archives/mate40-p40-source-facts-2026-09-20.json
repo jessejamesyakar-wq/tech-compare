@@ -1,0 +1,87 @@
+{
+  "checkedAt": "2026-09-20T09:58:45.576Z",
+  "note": "Before this source package. Only the two exact base Pro models receive specifications; Mate40RS receives a model image only. No commercial fields restored.",
+  "original": [
+    {
+      "id": "huawei-huawei-p40-pro",
+      "slug": "huawei-p40-pro",
+      "name": "Huawei P40 Pro",
+      "brand": "Huawei",
+      "category": "smartphones",
+      "currency": "TL",
+      "image": "/images/phones/huawei/huawei-huawei-p40-pro-10152.jpg",
+      "images": [
+        "/images/phones/huawei/huawei-huawei-p40-pro-10152.jpg"
+      ],
+      "highlights": [],
+      "tags": [
+        "Huawei"
+      ],
+      "storeOffers": [],
+      "priceHistory": [],
+      "specs": {},
+      "specVerification": {
+        "note": "Bu modelin teknik özellikleri kaynak doğrulaması bekliyor. Doğrulanmamış özellik ve fiyatlar gösterilmiyor.",
+        "unresolvedFields": [
+          "specs",
+          "releaseYear"
+        ]
+      },
+      "sourceType": "unverified"
+    },
+    {
+      "id": "huawei-huawei-mate-40-rs-porsche-design",
+      "slug": "huawei-mate-40-rs-porsche-design",
+      "name": "Huawei Mate 40 RS Porsche Design",
+      "brand": "Huawei",
+      "category": "smartphones",
+      "currency": "TL",
+      "image": "/images/product-unverified.svg",
+      "images": [
+        "/images/product-unverified.svg"
+      ],
+      "highlights": [],
+      "tags": [
+        "Huawei"
+      ],
+      "storeOffers": [],
+      "priceHistory": [],
+      "specs": {},
+      "specVerification": {
+        "note": "Bu modelin teknik özellikleri kaynak doğrulaması bekliyor. Doğrulanmamış özellik ve fiyatlar gösterilmiyor.",
+        "unresolvedFields": [
+          "specs",
+          "releaseYear"
+        ]
+      },
+      "sourceType": "unverified"
+    },
+    {
+      "id": "huawei-huawei-mate-40-pro",
+      "name": "Huawei Mate 40 Pro",
+      "brand": "Huawei",
+      "category": "smartphones",
+      "slug": "huawei-mate-40-pro",
+      "image": "/images/product-unverified.svg",
+      "images": [
+        "/images/product-unverified.svg"
+      ],
+      "specs": {},
+      "storeOffers": [],
+      "priceHistory": [],
+      "highlights": [],
+      "tags": [
+        "Huawei"
+      ],
+      "specVerification": {
+        "note": "Bu modelin teknik özellikleri kaynak doğrulaması bekliyor. Doğrulanmamış özellik ve fiyatlar gösterilmiyor.",
+        "unresolvedFields": [
+          "specs",
+          "releaseYear"
+        ]
+      },
+      "sourceType": "unverified"
+    }
+  ],
+  "unchangedRecordsSha256": "ae4468e6d997cc1083b0a9124bd59815a317f6b007af669c7b87dc8a368ffdb2"
+}

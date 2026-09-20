@@ -1,29 +1,29 @@
 {
-  "checkedAt": "2026-09-20T09:13:03.062Z",
+  "checkedAt": "2026-09-20T12:25:43.431Z",
   "scope": "Catalog metadata and application pricing eligibility only. No remote price fetch, no claim of factually verified products, no browser checks.",
   "total": {
     "products": 5820,
-    "withFieldSourceMetadata": 75,
+    "withFieldSourceMetadata": 81,
     "withProductSourceMetadata": 5,
     "sourceMetadataIssues": 0,
-    "withExplicitUnresolvedFields": 399,
+    "withExplicitUnresolvedFields": 403,
     "withAnyLegacyPhoneField": 127,
     "flatPhoneRecords": 82,
-    "emptyPhoneSpecs": 392,
-    "withEligibleFreshOffer": 0,
+    "emptyPhoneSpecs": 390,
+    "withEligibleFreshOffer": 1,
     "withEligibleStaleOffer": 0
   },
   "categories": {
     "smartphones": {
       "products": 905,
-      "withFieldSourceMetadata": 16,
+      "withFieldSourceMetadata": 18,
       "withProductSourceMetadata": 0,
       "sourceMetadataIssues": 0,
       "withExplicitUnresolvedFields": 398,
       "withAnyLegacyPhoneField": 127,
       "flatPhoneRecords": 82,
-      "emptyPhoneSpecs": 392,
-      "withEligibleFreshOffer": 0,
+      "emptyPhoneSpecs": 390,
+      "withEligibleFreshOffer": 1,
       "withEligibleStaleOffer": 0
     },
     "tvs": {
@@ -64,10 +64,10 @@
     },
     "smartwatches": {
       "products": 136,
-      "withFieldSourceMetadata": 0,
+      "withFieldSourceMetadata": 4,
       "withProductSourceMetadata": 0,
       "sourceMetadataIssues": 0,
-      "withExplicitUnresolvedFields": 0,
+      "withExplicitUnresolvedFields": 4,
       "withAnyLegacyPhoneField": 0,
       "flatPhoneRecords": 0,
       "emptyPhoneSpecs": 0,
@@ -2913,6 +2913,34 @@
     {
       "id": "hp-omen-gaming-16-ap0023nt-c12csea-64gb-1tbssd-w11p",
       "name": "HP OMEN Gaming 16-ap0023nt (C12CSEA) (64GB/1TBSSD/W11P)",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "garmin-forerunner-965",
+      "name": "Garmin Forerunner 965 (Titanyum Bezel)",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "amazfit-t-rex-3",
+      "name": "Amazfit T-Rex 3 (Askeri Dayanıklı Outdoor)",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "amazfit-t-rex-3-outdoor-gps",
+      "name": "Amazfit T-Rex 3 (Akıllı Doğa & Taktik GPS Saati)",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "garmin-forerunner-965-titanium",
+      "name": "Garmin Forerunner 965 (1.4 inç AMOLED - Titanyum Çerçeve)",
       "issues": [
         "explicit_unresolved_fields"
       ]

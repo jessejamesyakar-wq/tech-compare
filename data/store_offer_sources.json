@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "bindings": [
+    {
+      "productId": "console-936357",
+      "category": "consoles",
+      "catalogName": "MSI Claw A1M Intel Core Ultra 7 155H / 512 GB (A1M-088TR)",
+      "brand": "MSI",
+      "storeId": "teknosa",
+      "url": "https://www.teknosa.com/msi-claw-a1m-088tr-intel-core-ultra-7-155h-7-16-gb-ram-512-gb-ssd-w11-home-fhd-120hz-el-oyun-bilgisayari-p-785374399",
+      "expectedTitle": "MSI Claw A1M-088TR Intel Core Ultra 7 155H 7\" 16 GB RAM 512 GB SSD W11 Home FHD 120Hz El Oyun Bilgisayarı",
+      "expectedSku": "785374399",
+      "reviewedAt": "2026-09-20",
+      "scopeNote": "Doğrudan sayfada A1M-088TR / 512 GB / 16 GB ve ürün kodu eşleştirildi. Bu kayıt fiyat/stok kanıtı değildir; otomatik HTTP erişimi 403 döndü."
+    },
+    {
+      "productId": "console-918423",
+      "category": "consoles",
+      "catalogName": "MSI Claw A1M Intel Core Ultra 7 155H / 1 TB (A1M-089TR)",
+      "brand": "MSI",
+      "storeId": "vatan",
+      "url": "https://www.vatanbilgisayar.com/msi-claw-a1m-core-ultra-7-155h-16gb-1tb-ssd-7inc-w11.html",
+      "expectedTitle": "Msi Claw A1M Core Ultra 7 155H-16Gb-1Tb Ssd-7inc-W11",
+      "expectedSku": "144590",
+      "expectedMpn": "CLAW A1M-089TR",
+      "reviewedAt": "2026-09-20",
+      "scopeNote": "Product JSON-LD içinde tam SKU/MPN ve 1 TB / 16 GB eşleştirildi. Sayfada tekil Offer yok; bu kayıt güncel fiyat veya stok kanıtı değildir."
+    },
+    {
+      "productId": "apple-apple-iphone-17-pro-max-256-gb-1023353",
+      "category": "smartphones",
+      "catalogName": "Apple iPhone 17 Pro Max (256 GB)",
+      "brand": "Apple",
+      "storeId": "vatan",
+      "url": "https://www.vatanbilgisayar.com/iphone-17-pro-max-akilli-telefon.html",
+      "expectedTitle": "iPhone 17 Pro Max 256 GB Akıllı Telefon Abis",
+      "expectedSku": "153500",
+      "expectedMpn": "MFYP4TU/A",
+      "reviewedAt": "2026-09-20T12:15:46.149Z",
+      "scopeNote": "256 GB / Abis / MFYP4TU/A; diğer renkler için teklif kanıtı değildir.",
+      "variantId": "apple-apple-iphone-17-pro-max-256-gb-1023353-koyu",
+      "variantName": "Abis"
+    }
+  ]
+}

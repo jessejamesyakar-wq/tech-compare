@@ -1,0 +1,950 @@
+{
+  "checkedAt": "2026-09-20T11:09:01.535Z",
+  "reason": "Six Garmin/Amazfit records show the same Huawei-branded metal-bracelet watch photo. Confirmed by visual inspection and byte equality; four model families, six retained catalog IDs.",
+  "previousImageSha256": "8099adb53fa9b76e41342bed5739745618f8a516a0956690a72ec3d753327c07",
+  "original": [
+    {
+      "id": "garmin-fenix-8-51mm-amoled",
+      "slug": "garmin-fenix-8-51mm-amoled",
+      "name": "Garmin Fenix 8 (51mm AMOLED Safir Titanyum)",
+      "brand": "Garmin",
+      "category": "smartwatches",
+      "rating": 5,
+      "reviewCount": 650,
+      "basePrice": 54719,
+      "currency": "TL",
+      "releaseYear": 2024,
+      "isPopular": true,
+      "isFeatured": true,
+      "image": "/images/smartwatches/garmin/garmin-fenix-8-51mm.jpg",
+      "images": [
+        "/images/smartwatches/garmin/garmin-fenix-8-51mm.jpg"
+      ],
+      "highlights": [
+        "1.4\" Canlı AMOLED Ekran & Safir Kristal Cam & Titanyum Bezel",
+        "Hoparlör ve Mikrofon ile Doğrudan Telefon Görüşmesi & Sesli Komut",
+        "40m Dalış Sertifikalı Sızdırmaz Düğmeler & Dahili LED Fener",
+        "29 Güne Varan Akıllı Saat Modu Pil Ömrü & TopoActive Haritalar"
+      ],
+      "tags": [
+        "Garmin",
+        "Fenix 8",
+        "Safir Titanyum",
+        "AMOLED",
+        "Dalış"
+      ],
+      "specs": {
+        "caseSizeMm": 51,
+        "displayType": "AMOLED Safir Kristal",
+        "displaySizeInches": 1.4,
+        "resolution": "454x454 piksel",
+        "batteryLifeDays": 29,
+        "batteryCapacityMah": 600,
+        "waterResistanceAtm": 10,
+        "ipRating": "10 ATM (100m) + 40m Dalış Sertifikası",
+        "os": "Garmin OS",
+        "sensors": [
+          "Elevate 5 Optik Kalp",
+          "SpO2 Pulse Ox",
+          "EKG",
+          "Barometrik Altimetre",
+          "Derinlik Sensörü",
+          "Pusula"
+        ],
+        "connectivity": [
+          "Bluetooth",
+          "Wi-Fi",
+          "ANT+",
+          "Garmin Pay (NFC)",
+          "Çoklu Bant GPS"
+        ],
+        "weightGrams": 95,
+        "material": "Titanyum Bezel & Fiber Takviyeli Polimer & Safir Cam",
+        "hasMicrophone": true,
+        "hasSpeaker": true,
+        "hasGPS": true,
+        "hasNFC": true
+      },
+      "storeOffers": [
+        {
+          "storeName": "Hepsiburada",
+          "storeLogo": "/images/stores/hepsiburada.png",
+          "price": 54999,
+          "shippingFee": 0,
+          "inStock": true,
+          "url": "https://www.hepsiburada.com/ara?q=Garmin%20Fenix%208%20(51mm%20AMOLED%20Safir%20Titanyum)",
+          "rating": 4.8
+        },
+        {
+          "storeName": "Trendyol",
+          "storeLogo": "/images/stores/trendyol.png",
+          "price": 55659,
+          "shippingFee": 0,
+          "inStock": true,
+          "url": "https://www.trendyol.com/sr?q=Garmin%20Fenix%208%20(51mm%20AMOLED%20Safir%20Titanyum)",
+          "rating": 4.8
+        },
+        {
+          "storeName": "MediaMarkt",
+          "storeLogo": "/images/stores/mediamarkt.png",
+          "price": 56369,
+          "shippingFee": 0,
+          "inStock": true,
+          "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Garmin%20Fenix%208%20(51mm%20AMOLED%20Safir%20Titanyum)",
+          "rating": 4.8
+        },
+        {
+          "storeName": "Vatan Bilgisayar",
+          "storeLogo": "/images/stores/vatan.png",
+          "price": 56919,
+          "shippingFee": 0,
+          "inStock": true,
+          "url": "https://www.vatanbilgisayar.com/arama/Garmin%20Fenix%208%20(51mm%20AMOLED%20Safir%20Titanyum)",
+          "rating": 4.8
+        },
+        {
+          "storeName": "Amazon Türkiye",
+          "storeLogo": "/images/stores/amazon.png",
+          "price": 54719,
+          "shippingFee": 0,
+          "inStock": true,
+          "url": "https://www.amazon.com.tr/s?k=Garmin%20Fenix%208%20(51mm%20AMOLED%20Safir%20Titanyum)",
+          "rating": 4.8
+        },
+        {
+          "storeName": "Teknosa",
+          "storeLogo": "/images/stores/teknosa.png",
+          "price": 56539,
+          "shippingFee": 0,
+          "inStock": true,
+          "url": "https://www.teknosa.com/arama?s=Garmin%20Fenix%208%20(51mm%20AMOLED%20Safir%20Titanyum)",
+          "rating": 4.8
+        }
+      ],
+      "priceHistory": [
+        {
+          "date": "Ekim 2025",
+          "price": 62700
+        },
+        {
+          "date": "Kasım 2025",
+          "price": 61050
+        },
+        {
+          "date": "Aralık 2025",
+          "price": 59400
+        },
+        {
+          "date": "Ocak 2026",
+          "price": 57750
+        },
+        {
+          "date": "Şubat 2026",
+          "price": 56100
+        },
+        {
+          "date": "Ağustos 2026",
+          "price": 55000
+        }
+      ],
+      "colorOptions": [
+        {
+          "name": "Karbon Gri Titanyum",
+          "hex": "#374151"
+        }
+      ]
+    },
+    {
+      "id": "garmin-forerunner-965",
+      "slug": "garmin-forerunner-965",
+      "name": "Garmin Forerunner 965 (Titanyum Bezel)",
+      "brand": "Garmin",
+      "category": "smartwatches",
+      "rating": 4.9,
+      "reviewCount": 920,
+      "basePrice": 33329,
+      "currency": "TL",
+      "releaseYear": 2023,
+      "isPopular": true,
+      "isFeatured": false,
+      "image": "/images/smartwatches/garmin/garmin-forerunner-965.jpg",
+      "images": [
+        "/images/smartwatches/garmin/garmin-forerunner-965.jpg"
+      ],
+      "highlights": [
+        "1.4\" Parlak AMOLED Ekran",
+        "Hafif Titanyum Çerçeve (Yalnızca 53g)",
+        "23 Gün Pil Ömrü",
+        "Tam Renkli Dahili TopoActive Haritalar"
+      ],
+      "tags": [
+        "Garmin",
+        "Forerunner 965",
+        "Koşu",
+        "Triatlon"
+      ],
+      "specs": {
+        "caseSizeMm": 47,
+        "displayType": "AMOLED (Gorilla Glass DX)",
+        "displaySizeInches": 1.4,
+        "resolution": "454x454 piksel",
+        "batteryLifeDays": 23,
+        "batteryCapacityMah": 450,
+        "waterResistanceAtm": 5,
+        "ipRating": "5 ATM (50m)",
+        "os": "Garmin OS",
+        "sensors": [
+          "Elevate 4 Nabız",
+          "Pulse Ox",
+          "Barometre",
+          "Pusula"
+        ],
+        "connectivity": [
+          "Bluetooth",
+          "Wi-Fi",
+          "ANT+",
+          "Garmin Pay",
+          "SatIQ Çoklu GPS"
+        ],
+        "weightGrams": 53,
+        "material": "Titanyum Bezel & Polimer",
+        "hasMicrophone": false,
+        "hasSpeaker": false,
+        "hasGPS": true,
+        "hasNFC": true
+      },
+      "storeOffers": [
+        {
+          "storeName": "Hepsiburada",
+          "storeLogo": "/images/stores/hepsiburada.png",
+          "price": 33499,
+          "shippingFee": 0,
+          "inStock": true,
+          "url": "https://www.hepsiburada.com/ara?q=Garmin%20Forerunner%20965%20(Titanyum%20Bezel)",
+          "rating": 4.8
+        },
+        {
+          "storeName": "Trendyol",
+          "storeLogo": "/images/stores/trendyol.png",
+          "price": 33899,
+          "shippingFee": 0,
+          "inStock": true,
+          "url": "https://www.trendyol.com/sr?q=Garmin%20Forerunner%20965%20(Titanyum%20Bezel)",
+          "rating": 4.8
+        },
+        {
+          "storeName": "MediaMarkt",
+          "storeLogo": "/images/stores/mediamarkt.png",
+          "price": 34339,
+          "shippingFee": 0,
+          "inStock": true,
+          "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Garmin%20Forerunner%20965%20(Titanyum%20Bezel)",
+          "rating": 4.8
+        },
+        {
+          "storeName": "Vatan Bilgisayar",
+          "storeLogo": "/images/stores/vatan.png",
+          "price": 34669,
+          "shippingFee": 0,
+          "inStock": true,
+          "url": "https://www.vatanbilgisayar.com/arama/Garmin%20Forerunner%20965%20(Titanyum%20Bezel)",
+          "rating": 4.8
+        },
+        {
+          "storeName": "Amazon Türkiye",
+          "storeLogo": "/images/stores/amazon.png",
+          "price": 33329,
+          "shippingFee": 0,
+          "inStock": true,
+          "url": "https://www.amazon.com.tr/s?k=Garmin%20Forerunner%20965%20(Titanyum%20Bezel)",
+          "rating": 4.8
+        },
+        {
+          "storeName": "Teknosa",
+          "storeLogo": "/images/stores/teknosa.png",
+          "price": 34439,
+          "shippingFee": 0,
+          "inStock": true,
+          "url": "https://www.teknosa.com/arama?s=Garmin%20Forerunner%20965%20(Titanyum%20Bezel)",
+          "rating": 4.8
+        }
+      ],
+      "priceHistory": [
+        {
+          "date": "Ekim 2025",
+          "price": 38190
+        },
+        {
+          "date": "Kasım 2025",
+          "price": 37180
+        },
+        {
+          "date": "Aralık 2025",
+          "price": 36180
+        },
+        {
+          "date": "Ocak 2026",
+          "price": 35170
+        },
+        {
+          "date": "Şubat 2026",
+          "price": 34170
+        },
+        {
+          "date": "Ağustos 2026",
+          "price": 33500
+        }
+      ],
+      "colorOptions": [
+        {
+          "name": "Siyah / Gri",
+          "hex": "#1f2937"
+        },
+        {
+          "name": "Sarı",
+          "hex": "#eab308"
+        }
+      ]
+    },
+    {
+      "id": "garmin-forerunner-965-titanium",
+      "slug": "garmin-forerunner-965-titanium",
+      "name": "Garmin Forerunner 965 (1.4 inç AMOLED - Titanyum Çerçeve)",
+      "brand": "Garmin",
+      "category": "smartwatches",
+      "rating": 4.9,
+      "reviewCount": 1450,
+      "basePrice": 32999,
+      "currency": "TL",
+      "releaseYear": 2023,
+      "isPopular": true,
+      "isFeatured": false,
+      "image": "/images/smartwatches/garmin/garmin-forerunner-965.jpg",
+      "highlights": [
+        "1.4 inç Parlak AMOLED Dokunmatik Ekran & Titanyum Çerçeve",
+        "23 Güne Varan Akıllı Saat Modunda Pil Ömrü",
+        "Dahili Tam Renkli Topo Haritalar & Gelişmiş Antrenman Metrikleri",
+        "Multi-Band GNSS (SatIQ Teknolojili Keskin Konumlandırma)"
+      ],
+      "tags": [
+        "Garmin",
+        "Forerunner 965",
+        "Triatlon",
+        "Koşu",
+        "AMOLED"
+      ],
+      "specs": {
+        "displaySizeInch": 1.4,
+        "displayType": "AMOLED",
+        "resolution": "454x454 piksel",
+        "batteryLifeDays": 23,
+        "batteryCapacityMah": 420,
+        "waterResistance": "5 ATM (50 metre)",
+        "hasGps": true,
+        "hasHeartRate": true,
+        "hasSpO2": true,
+        "hasECG": false,
+        "hasNfc": true,
+        "hasMicrophone": false,
+        "hasSpeaker": false,
+        "voiceCalling": false,
+        "hasCellular": false,
+        "casingMaterial": "Titanyum Çerçeve & Elyaf Takviyeli Polimer",
+        "caseSizeMm": 47,
+        "strapMaterial": "Silikon Spor Kordon",
+        "os": "Garmin OS",
+        "compatibility": [
+          "Android",
+          "iOS"
+        ]
+      },
+      "storeOffers": [
+        {
+          "storeName": "Amazon TR",
+          "storeLogo": "/images/stores/amazon.png",
+          "price": 32999,
+          "shippingFee": 0,
+          "inStock": true,
+          "url": "https://www.google.com/search?q=Amazon%20TR%20fiyat",
+          "sellerName": "Amazon Türkiye",
+          "isOfficialSeller": true
+        },
+        {
+          "storeName": "Hepsiburada",
+          "storeLogo": "/images/stores/hepsiburada.png",
+          "price": 33263,
+          "shippingFee": 0,
+          "inStock": true,
+          "url": "https://www.google.com/search?q=Hepsiburada%20fiyat",
+          "sellerName": "Hepsiburada Resmi Satıcı",
+          "isOfficialSeller": true
+        },
+        {
+          "storeName": "Trendyol",
+          "storeLogo": "/images/stores/trendyol.png",
+          "price": 33494,
+          "shippingFee": 0,
+          "inStock": true,
+          "url": "https://www.google.com/search?q=Trendyol%20fiyat",
+          "sellerName": "Trendyol Resmi Satıcı",
+          "isOfficialSeller": true
+        },
+        {
+          "storeName": "MediaMarkt",
+          "storeLogo": "/images/stores/mediamarkt.png",
+          "price": 33824,
+          "shippingFee": 0,
+          "inStock": true,
+          "url": "https://www.google.com/search?q=MediaMarkt%20fiyat",
+          "sellerName": "MediaMarkt Resmi Satıcı",
+          "isOfficialSeller": true
+        },
+        {
+          "storeName": "Vatan Bilgisayar",
+          "storeLogo": "/images/stores/vatan.png",
+          "price": 33989,
+          "shippingFee": 0,
+          "inStock": true,
+          "url": "https://www.google.com/search?q=Vatan%20Bilgisayar%20fiyat",
+          "sellerName": "Vatan Bilgisayar Resmi Satıcı",
+          "isOfficialSeller": true
+        },
+        {
+          "storeName": "Teknosa",
+          "storeLogo": "/images/stores/teknosa.png",
+          "price": 34154,
+          "shippingFee": 0,
+          "inStock": true,
+          "url": "https://www.google.com/search?q=Teknosa%20fiyat",
+          "sellerName": "Teknosa Resmi Satıcı",
+          "isOfficialSeller": true
+        },
+        {
+          "storeName": "N11",
+          "storeLogo": "/images/stores/n11.png",
+          "price": 33593,
+          "shippingFee": 0,
+          "inStock": true,
+          "url": "https://www.google.com/search?q=N11%20fiyat",
+          "sellerName": "N11 Resmi Satıcı",
+          "isOfficialSeller": true
+        },
+        {
+          "storeName": "Pazarama",
+          "storeLogo": "/images/stores/pazarama.png",
+          "price": 33725,
+          "shippingFee": 0,
+          "inStock": true,
+          "url": "https://www.google.com/search?q=Pazarama%20fiyat",
+          "sellerName": "Pazarama Resmi Satıcı",
+          "isOfficialSeller": true
+        }
+      ],
+      "priceHistory": [
+        {
+          "date": "2026-03-01",
+          "price": 35639
+        },
+        {
+          "date": "2026-04-01",
+          "price": 34979
+        },
+        {
+          "date": "2026-05-01",
+          "price": 34319
+        },
+        {
+          "date": "2026-06-01",
+          "price": 33659
+        },
+        {
+          "date": "2026-07-01",
+          "price": 33329
+        },
+        {
+          "date": "2026-08-01",
+          "price": 32999
+        }
+      ],
+      "images": [
+        "/images/smartwatches/garmin/garmin-forerunner-965.jpg"
+      ]
+    },
+    {
+      "id": "amazfit-t-rex-3",
+      "slug": "amazfit-t-rex-3",
+      "name": "Amazfit T-Rex 3 (Askeri Dayanıklı Outdoor)",
+      "brand": "Amazfit",
+      "category": "smartwatches",
+      "rating": 4.8,
+      "reviewCount": 1400,
+      "basePrice": 11439,
+      "currency": "TL",
+      "releaseYear": 2024,
+      "isPopular": true,
+      "isFeatured": true,
+      "image": "/images/smartwatches/amazfit/amazfit-t-rex-3.jpg",
+      "images": [
+        "/images/smartwatches/amazfit/amazfit-t-rex-3.jpg"
+      ],
+      "highlights": [
+        "2000 nits 1.5\" AMOLED Ekran & Paslanmaz Çelik Bezel",
+        "27 Güne Varan Devasa Pil Ömrü & Çevrimdışı Harita Navigasyonu",
+        "45 Metre Serbest Dalış & 10 ATM Su Geçirmezlik",
+        "Yapay Zekalı Zepp Flow & GPT-4o Sesli Asistan Entegrasyonu"
+      ],
+      "tags": [
+        "Amazfit",
+        "T-Rex 3",
+        "27 Gün Pil",
+        "Outdoor",
+        "10 ATM"
+      ],
+      "specs": {
+        "caseSizeMm": 48.5,
+        "displayType": "AMOLED (2000 nits)",
+        "displaySizeInches": 1.5,
+        "resolution": "480x480 piksel",
+        "batteryLifeDays": 27,
+        "batteryCapacityMah": 700,
+        "waterResistanceAtm": 10,
+        "ipRating": "10 ATM (100m) + MIL-STD-810H + 45m Dalış",
+        "os": "Zepp OS 4",
+        "sensors": [
+          "BioTracker 5.0 PPG",
+          "SpO2",
+          "Cilt Sıcaklığı",
+          "Barometrik Altimetre",
+          "Pusula"
+        ],
+        "connectivity": [
+          "Bluetooth 5.2",
+          "Wi-Fi",
+          "Çift Frekanslı Dairesel GPS"
+        ],
+        "weightGrams": 68.3,
+        "material": "316L Paslanmaz Çelik Bezel & Polimer Gövde",
+        "hasMicrophone": true,
+        "hasSpeaker": false,
+        "hasGPS": true,
+        "hasNFC": false
+      },
+      "storeOffers": [
+        {
+          "storeName": "Hepsiburada",
+          "storeLogo": "/images/stores/hepsiburada.png",
+          "price": 11499,
+          "shippingFee": 0,
+          "inStock": true,
+          "url": "https://www.hepsiburada.com/ara?q=Amazfit%20T-Rex%203%20(Askeri%20Dayan%C4%B1kl%C4%B1%20Outdoor)",
+          "rating": 4.8
+        },
+        {
+          "storeName": "Trendyol",
+          "storeLogo": "/images/stores/trendyol.png",
+          "price": 11639,
+          "shippingFee": 0,
+          "inStock": true,
+          "url": "https://www.trendyol.com/sr?q=Amazfit%20T-Rex%203%20(Askeri%20Dayan%C4%B1kl%C4%B1%20Outdoor)",
+          "rating": 4.8
+        },
+        {
+          "storeName": "MediaMarkt",
+          "storeLogo": "/images/stores/mediamarkt.png",
+          "price": 11789,
+          "shippingFee": 0,
+          "inStock": true,
+          "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Amazfit%20T-Rex%203%20(Askeri%20Dayan%C4%B1kl%C4%B1%20Outdoor)",
+          "rating": 4.8
+        },
+        {
+          "storeName": "Vatan Bilgisayar",
+          "storeLogo": "/images/stores/vatan.png",
+          "price": 11899,
+          "shippingFee": 0,
+          "inStock": true,
+          "url": "https://www.vatanbilgisayar.com/arama/Amazfit%20T-Rex%203%20(Askeri%20Dayan%C4%B1kl%C4%B1%20Outdoor)",
+          "rating": 4.8
+        },
+        {
+          "storeName": "Amazon Türkiye",
+          "storeLogo": "/images/stores/amazon.png",
+          "price": 11439,
+          "shippingFee": 0,
+          "inStock": true,
+          "url": "https://www.amazon.com.tr/s?k=Amazfit%20T-Rex%203%20(Askeri%20Dayan%C4%B1kl%C4%B1%20Outdoor)",
+          "rating": 4.8
+        },
+        {
+          "storeName": "Teknosa",
+          "storeLogo": "/images/stores/teknosa.png",
+          "price": 11819,
+          "shippingFee": 0,
+          "inStock": true,
+          "url": "https://www.teknosa.com/arama?s=Amazfit%20T-Rex%203%20(Askeri%20Dayan%C4%B1kl%C4%B1%20Outdoor)",
+          "rating": 4.8
+        }
+      ],
+      "priceHistory": [
+        {
+          "date": "Ekim 2025",
+          "price": 13110
+        },
+        {
+          "date": "Kasım 2025",
+          "price": 12760
+        },
+        {
+          "date": "Aralık 2025",
+          "price": 12420
+        },
+        {
+          "date": "Ocak 2026",
+          "price": 12070
+        },
+        {
+          "date": "Şubat 2026",
+          "price": 11730
+        },
+        {
+          "date": "Ağustos 2026",
+          "price": 11500
+        }
+      ],
+      "colorOptions": [
+        {
+          "name": "Lav Siyahı",
+          "hex": "#1c1917"
+        }
+      ]
+    },
+    {
+      "id": "amazfit-t-rex-3-outdoor-gps",
+      "slug": "amazfit-t-rex-3-outdoor-gps",
+      "name": "Amazfit T-Rex 3 (Akıllı Doğa & Taktik GPS Saati)",
+      "brand": "Amazfit",
+      "category": "smartwatches",
+      "rating": 4.8,
+      "reviewCount": 1420,
+      "basePrice": 11499,
+      "currency": "TL",
+      "releaseYear": 2024,
+      "isPopular": true,
+      "isFeatured": true,
+      "image": "/images/smartwatches/amazfit/amazfit-t-rex-3.jpg",
+      "highlights": [
+        "1.5 inç 2000 Nit AMOLED Ekran (Gorilla Glass Korumalı)",
+        "27 Güne Varan İnanılmaz Batarya Ömrü",
+        "Çift Bant 6 Uydu Konumlandırma & Çevrimdışı Topo Haritalar",
+        "Askeri Standartta (MIL-STD-810H) Dayanıklılık & 10 ATM Su Geçirmezlik"
+      ],
+      "tags": [
+        "Amazfit",
+        "T-Rex 3",
+        "Outdoor",
+        "GPS",
+        "Dayanıklı"
+      ],
+      "specs": {
+        "displaySizeInch": 1.5,
+        "displayType": "AMOLED (2000 nits)",
+        "resolution": "480x480 piksel",
+        "batteryLifeDays": 27,
+        "batteryCapacityMah": 700,
+        "waterResistance": "10 ATM (100 metre) & 45m Serbest Dalış",
+        "hasGps": true,
+        "hasHeartRate": true,
+        "hasSpO2": true,
+        "hasECG": false,
+        "hasNfc": true,
+        "hasMicrophone": true,
+        "hasSpeaker": false,
+        "voiceCalling": false,
+        "hasCellular": false,
+        "casingMaterial": "Paslanmaz Çelik Çerçeve & Polimer Gövde",
+        "caseSizeMm": 48.5,
+        "strapMaterial": "Silikon Outdoor Kordon",
+        "os": "Zepp OS 4 (Yapay Zeka Destekli)",
+        "compatibility": [
+          "Android 7.0+",
+          "iOS 14.0+"
+        ]
+      },
+      "storeOffers": [
+        {
+          "storeName": "Amazon TR",
+          "storeLogo": "/images/stores/amazon.png",
+          "price": 11499,
+          "shippingFee": 0,
+          "inStock": true,
+          "url": "https://www.google.com/search?q=Amazon%20TR%20fiyat",
+          "sellerName": "Amazon Türkiye",
+          "isOfficialSeller": true
+        },
+        {
+          "storeName": "Hepsiburada",
+          "storeLogo": "/images/stores/hepsiburada.png",
+          "price": 11591,
+          "shippingFee": 0,
+          "inStock": true,
+          "url": "https://www.google.com/search?q=Hepsiburada%20fiyat",
+          "sellerName": "Hepsiburada Resmi Satıcı",
+          "isOfficialSeller": true
+        },
+        {
+          "storeName": "Trendyol",
+          "storeLogo": "/images/stores/trendyol.png",
+          "price": 11671,
+          "shippingFee": 0,
+          "inStock": true,
+          "url": "https://www.google.com/search?q=Trendyol%20fiyat",
+          "sellerName": "Trendyol Resmi Satıcı",
+          "isOfficialSeller": true
+        },
+        {
+          "storeName": "MediaMarkt",
+          "storeLogo": "/images/stores/mediamarkt.png",
+          "price": 11786,
+          "shippingFee": 0,
+          "inStock": true,
+          "url": "https://www.google.com/search?q=MediaMarkt%20fiyat",
+          "sellerName": "MediaMarkt Resmi Satıcı",
+          "isOfficialSeller": true
+        },
+        {
+          "storeName": "Vatan Bilgisayar",
+          "storeLogo": "/images/stores/vatan.png",
+          "price": 11844,
+          "shippingFee": 0,
+          "inStock": true,
+          "url": "https://www.google.com/search?q=Vatan%20Bilgisayar%20fiyat",
+          "sellerName": "Vatan Bilgisayar Resmi Satıcı",
+          "isOfficialSeller": true
+        },
+        {
+          "storeName": "Teknosa",
+          "storeLogo": "/images/stores/teknosa.png",
+          "price": 11901,
+          "shippingFee": 0,
+          "inStock": true,
+          "url": "https://www.google.com/search?q=Teknosa%20fiyat",
+          "sellerName": "Teknosa Resmi Satıcı",
+          "isOfficialSeller": true
+        },
+        {
+          "storeName": "N11",
+          "storeLogo": "/images/stores/n11.png",
+          "price": 11706,
+          "shippingFee": 0,
+          "inStock": true,
+          "url": "https://www.google.com/search?q=N11%20fiyat",
+          "sellerName": "N11 Resmi Satıcı",
+          "isOfficialSeller": true
+        },
+        {
+          "storeName": "Pazarama",
+          "storeLogo": "/images/stores/pazarama.png",
+          "price": 11752,
+          "shippingFee": 0,
+          "inStock": true,
+          "url": "https://www.google.com/search?q=Pazarama%20fiyat",
+          "sellerName": "Pazarama Resmi Satıcı",
+          "isOfficialSeller": true
+        }
+      ],
+      "priceHistory": [
+        {
+          "date": "2026-03-01",
+          "price": 12419
+        },
+        {
+          "date": "2026-04-01",
+          "price": 12189
+        },
+        {
+          "date": "2026-05-01",
+          "price": 11959
+        },
+        {
+          "date": "2026-06-01",
+          "price": 11729
+        },
+        {
+          "date": "2026-07-01",
+          "price": 11614
+        },
+        {
+          "date": "2026-08-01",
+          "price": 11499
+        }
+      ],
+      "images": [
+        "/images/smartwatches/amazfit/amazfit-t-rex-3.jpg"
+      ]
+    },
+    {
+      "id": "amazfit-cheetah-pro-running-gps",
+      "slug": "amazfit-cheetah-pro-running-gps",
+      "name": "Amazfit Cheetah Pro (Profesyonel Koşu & Maraton GPS Saati)",
+      "brand": "Amazfit",
+      "category": "smartwatches",
+      "rating": 4.8,
+      "reviewCount": 760,
+      "basePrice": 10499,
+      "currency": "TL",
+      "releaseYear": 2024,
+      "isPopular": false,
+      "isFeatured": false,
+      "image": "/images/smartwatches/amazfit/amazfit-cheetah-pro.jpg",
+      "highlights": [
+        "MaxTrack Çift Bant Dairesel Kutuplu GPS Anteni",
+        "1.45 inç HD AMOLED Ekran (1000 nits, Titanyum Çerçeve)",
+        "Zepp Coach Yapay Zeka Destekli Kişiselleştirilmiş Koşu Planları",
+        "Çevrimdışı Renkli Harita Navigasyonu"
+      ],
+      "tags": [
+        "Amazfit",
+        "Cheetah Pro",
+        "Koşu",
+        "Maraton",
+        "GPS"
+      ],
+      "specs": {
+        "displaySizeInch": 1.45,
+        "displayType": "HD AMOLED",
+        "resolution": "480x480 piksel",
+        "batteryLifeDays": 14,
+        "batteryCapacityMah": 440,
+        "waterResistance": "5 ATM (50 metre)",
+        "hasGps": true,
+        "hasHeartRate": true,
+        "hasSpO2": true,
+        "hasECG": false,
+        "hasNfc": true,
+        "hasMicrophone": true,
+        "hasSpeaker": true,
+        "voiceCalling": true,
+        "hasCellular": false,
+        "casingMaterial": "Titanyum Alaşım Çerçeve & Elyaf Takviyeli Polimer",
+        "caseSizeMm": 47,
+        "strapMaterial": "Hafif Naylon Koşu Kordonu",
+        "os": "Zepp OS 2.0",
+        "compatibility": [
+          "Android 7.0+",
+          "iOS 12.0+"
+        ]
+      },
+      "storeOffers": [
+        {
+          "storeName": "Amazon TR",
+          "storeLogo": "/images/stores/amazon.png",
+          "price": 10499,
+          "shippingFee": 0,
+          "inStock": true,
+          "url": "https://www.google.com/search?q=Amazon%20TR%20fiyat",
+          "sellerName": "Amazon Türkiye",
+          "isOfficialSeller": true
+        },
+        {
+          "storeName": "Hepsiburada",
+          "storeLogo": "/images/stores/hepsiburada.png",
+          "price": 10583,
+          "shippingFee": 0,
+          "inStock": true,
+          "url": "https://www.google.com/search?q=Hepsiburada%20fiyat",
+          "sellerName": "Hepsiburada Resmi Satıcı",
+          "isOfficialSeller": true
+        },
+        {
+          "storeName": "Trendyol",
+          "storeLogo": "/images/stores/trendyol.png",
+          "price": 10656,
+          "shippingFee": 0,
+          "inStock": true,
+          "url": "https://www.google.com/search?q=Trendyol%20fiyat",
+          "sellerName": "Trendyol Resmi Satıcı",
+          "isOfficialSeller": true
+        },
+        {
+          "storeName": "MediaMarkt",
+          "storeLogo": "/images/stores/mediamarkt.png",
+          "price": 10761,
+          "shippingFee": 0,
+          "inStock": true,
+          "url": "https://www.google.com/search?q=MediaMarkt%20fiyat",
+          "sellerName": "MediaMarkt Resmi Satıcı",
+          "isOfficialSeller": true
+        },
+        {
+          "storeName": "Vatan Bilgisayar",
+          "storeLogo": "/images/stores/vatan.png",
+          "price": 10814,
+          "shippingFee": 0,
+          "inStock": true,
+          "url": "https://www.google.com/search?q=Vatan%20Bilgisayar%20fiyat",
+          "sellerName": "Vatan Bilgisayar Resmi Satıcı",
+          "isOfficialSeller": true
+        },
+        {
+          "storeName": "Teknosa",
+          "storeLogo": "/images/stores/teknosa.png",
+          "price": 10866,
+          "shippingFee": 0,
+          "inStock": true,
+          "url": "https://www.google.com/search?q=Teknosa%20fiyat",
+          "sellerName": "Teknosa Resmi Satıcı",
+          "isOfficialSeller": true
+        },
+        {
+          "storeName": "N11",
+          "storeLogo": "/images/stores/n11.png",
+          "price": 10688,
+          "shippingFee": 0,
+          "inStock": true,
+          "url": "https://www.google.com/search?q=N11%20fiyat",
+          "sellerName": "N11 Resmi Satıcı",
+          "isOfficialSeller": true
+        },
+        {
+          "storeName": "Pazarama",
+          "storeLogo": "/images/stores/pazarama.png",
+          "price": 10730,
+          "shippingFee": 0,
+          "inStock": true,
+          "url": "https://www.google.com/search?q=Pazarama%20fiyat",
+          "sellerName": "Pazarama Resmi Satıcı",
+          "isOfficialSeller": true
+        }
+      ],
+      "priceHistory": [
+        {
+          "date": "2026-03-01",
+          "price": 11339
+        },
+        {
+          "date": "2026-04-01",
+          "price": 11129
+        },
+        {
+          "date": "2026-05-01",
+          "price": 10919
+        },
+        {
+          "date": "2026-06-01",
+          "price": 10709
+        },
+        {
+          "date": "2026-07-01",
+          "price": 10604
+        },
+        {
+          "date": "2026-08-01",
+          "price": 10499
+        }
+      ],
+      "images": [
+        "/images/smartwatches/amazfit/amazfit-cheetah-pro.jpg"
+      ]
+    }
+  ]
+}

@@ -15034,9 +15034,9 @@ export const mockSmartwatches: Product[] = [
     "releaseYear": 2020,
     "isPopular": false,
     "isFeatured": false,
-    "image": "/images/smartwatches/samsung/samsung-galaxy-watch-5-pro-45mm.jpg",
+    "image": "/images/product-unverified.svg",
     "images": [
-      "/images/smartwatches/samsung/samsung-galaxy-watch-5-pro-45mm.jpg"
+      "/images/product-unverified.svg"
     ],
     "highlights": [
       "Hafif Titanyum Kasa & Metal Kordon",
@@ -15170,7 +15170,11 @@ export const mockSmartwatches: Product[] = [
     "colorOptions": [
       {
         "name": "Mistik Siyah",
-        "hex": "#0f172a"
+        "hex": "#0f172a",
+        "image": "/images/product-unverified.svg",
+        "images": [
+          "/images/product-unverified.svg"
+        ]
       }
     ]
   },
@@ -15187,9 +15191,9 @@ export const mockSmartwatches: Product[] = [
     "releaseYear": 2020,
     "isPopular": false,
     "isFeatured": false,
-    "image": "/images/smartwatches/samsung/samsung-galaxy-watch-4-classic-46mm.jpg",
+    "image": "/images/smartwatches/verified/samsung-galaxy-watch-3-45mm.png",
     "images": [
-      "/images/smartwatches/samsung/samsung-galaxy-watch-4-classic-46mm.jpg"
+      "/images/smartwatches/verified/samsung-galaxy-watch-3-45mm.png"
     ],
     "highlights": [
       "Paslanmaz Çelik Kasa & Deri Kordon",
@@ -15320,13 +15324,27 @@ export const mockSmartwatches: Product[] = [
     "colorOptions": [
       {
         "name": "Mistik Siyah",
-        "hex": "#0f172a"
+        "hex": "#0f172a",
+        "image": "/images/smartwatches/verified/samsung-galaxy-watch-3-45mm.png",
+        "images": [
+          "/images/smartwatches/verified/samsung-galaxy-watch-3-45mm.png"
+        ]
       },
       {
         "name": "Mistik Gümüş",
-        "hex": "#e2e8f0"
+        "hex": "#e2e8f0",
+        "image": "/images/product-unverified.svg",
+        "images": [
+          "/images/product-unverified.svg"
+        ]
       }
-    ]
+    ],
+    "imageSource": {
+      "imagePath": "/images/smartwatches/verified/samsung-galaxy-watch-3-45mm.png",
+      "sourceUrl": "https://www.samsung.com/es/support/model/SM-R840NZKAEUB/",
+      "checkedAt": "2026-09-20T11:47:23.742Z",
+      "scopeNote": "Samsung ES destek sayfasındaki SM-R840NZKAEUB modelinin özgün fotoğrafı. Gösterilen renk: Mistik Siyah. Diğer renklerin görselleri doğrulanmayı bekliyor. Bu görsel, Türkiye satıcı SKU'sunu, teknik alanların tümünü, güncel fiyatı veya stoku doğrulamaz."
+    }
   },
   {
     "id": "samsung-galaxy-watch-3-41mm",
@@ -15341,9 +15359,9 @@ export const mockSmartwatches: Product[] = [
     "releaseYear": 2020,
     "isPopular": false,
     "isFeatured": false,
-    "image": "/images/smartwatches/samsung/samsung-galaxy-watch-4-classic-42mm.jpg",
+    "image": "/images/smartwatches/verified/samsung-galaxy-watch-3-41mm.png",
     "images": [
-      "/images/smartwatches/samsung/samsung-galaxy-watch-4-classic-42mm.jpg"
+      "/images/smartwatches/verified/samsung-galaxy-watch-3-41mm.png"
     ],
     "highlights": [
       "Zarif 41mm Kasa & Mistik Bronz Renk",
@@ -15473,13 +15491,27 @@ export const mockSmartwatches: Product[] = [
     "colorOptions": [
       {
         "name": "Mistik Bronz",
-        "hex": "#b45309"
+        "hex": "#b45309",
+        "image": "/images/smartwatches/verified/samsung-galaxy-watch-3-41mm.png",
+        "images": [
+          "/images/smartwatches/verified/samsung-galaxy-watch-3-41mm.png"
+        ]
       },
       {
         "name": "Mistik Gümüş",
-        "hex": "#e2e8f0"
+        "hex": "#e2e8f0",
+        "image": "/images/product-unverified.svg",
+        "images": [
+          "/images/product-unverified.svg"
+        ]
       }
-    ]
+    ],
+    "imageSource": {
+      "imagePath": "/images/smartwatches/verified/samsung-galaxy-watch-3-41mm.png",
+      "sourceUrl": "https://www.samsung.com/gr/support/model/SM-R850NZDAEUE/",
+      "checkedAt": "2026-09-20T11:47:24.622Z",
+      "scopeNote": "Samsung GR destek sayfasındaki SM-R850NZDAEUE modelinin özgün fotoğrafı. Gösterilen renk: Mistik Bronz. Diğer renklerin görselleri doğrulanmayı bekliyor. Bu görsel, Türkiye satıcı SKU'sunu, teknik alanların tümünü, güncel fiyatı veya stoku doğrulamaz."
+    }
   },
   {
     "id": "samsung-galaxy-watch-active-2-44mm-lte",
@@ -15494,9 +15526,9 @@ export const mockSmartwatches: Product[] = [
     "releaseYear": 2019,
     "isPopular": false,
     "isFeatured": false,
-    "image": "/images/smartwatches/samsung/samsung-galaxy-watch-4-44mm.jpg",
+    "image": "/images/smartwatches/verified/samsung-galaxy-watch-active-2-44mm-lte.png",
     "images": [
-      "/images/smartwatches/samsung/samsung-galaxy-watch-4-44mm.jpg"
+      "/images/smartwatches/verified/samsung-galaxy-watch-active-2-44mm-lte.png"
     ],
     "highlights": [
       "4G LTE Bağımsız eSIM",
@@ -15631,13 +15663,27 @@ export const mockSmartwatches: Product[] = [
     "colorOptions": [
       {
         "name": "Siyah Çelik",
-        "hex": "#0f172a"
+        "hex": "#0f172a",
+        "image": "/images/smartwatches/verified/samsung-galaxy-watch-active-2-44mm-lte.png",
+        "images": [
+          "/images/smartwatches/verified/samsung-galaxy-watch-active-2-44mm-lte.png"
+        ]
       },
       {
         "name": "Gümüş Çelik",
-        "hex": "#e2e8f0"
+        "hex": "#e2e8f0",
+        "image": "/images/product-unverified.svg",
+        "images": [
+          "/images/product-unverified.svg"
+        ]
       }
-    ]
+    ],
+    "imageSource": {
+      "imagePath": "/images/smartwatches/verified/samsung-galaxy-watch-active-2-44mm-lte.png",
+      "sourceUrl": "https://www.samsung.com/es/support/model/SM-R825FSKAPHE/",
+      "checkedAt": "2026-09-20T11:47:23.088Z",
+      "scopeNote": "Samsung ES destek sayfasındaki SM-R825FSKAPHE modelinin özgün fotoğrafı. Gösterilen renk: Siyah Çelik. Diğer renklerin görselleri doğrulanmayı bekliyor. Bu görsel, Türkiye satıcı SKU'sunu, teknik alanların tümünü, güncel fiyatı veya stoku doğrulamaz."
+    }
   },
   {
     "id": "samsung-galaxy-watch-active-2-44mm",
@@ -15652,9 +15698,9 @@ export const mockSmartwatches: Product[] = [
     "releaseYear": 2019,
     "isPopular": false,
     "isFeatured": false,
-    "image": "/images/smartwatches/samsung/samsung-galaxy-watch-4-44mm.jpg",
+    "image": "/images/smartwatches/verified/samsung-galaxy-watch-active-2-44mm.png",
     "images": [
-      "/images/smartwatches/samsung/samsung-galaxy-watch-4-44mm.jpg"
+      "/images/smartwatches/verified/samsung-galaxy-watch-active-2-44mm.png"
     ],
     "highlights": [
       "1.4\" Super AMOLED Ekran",
@@ -15785,17 +15831,35 @@ export const mockSmartwatches: Product[] = [
     "colorOptions": [
       {
         "name": "Aqua Black",
-        "hex": "#0f172a"
+        "hex": "#0f172a",
+        "image": "/images/smartwatches/verified/samsung-galaxy-watch-active-2-44mm.png",
+        "images": [
+          "/images/smartwatches/verified/samsung-galaxy-watch-active-2-44mm.png"
+        ]
       },
       {
         "name": "Cloud Silver",
-        "hex": "#e2e8f0"
+        "hex": "#e2e8f0",
+        "image": "/images/product-unverified.svg",
+        "images": [
+          "/images/product-unverified.svg"
+        ]
       },
       {
         "name": "Pink Gold",
-        "hex": "#fb7185"
+        "hex": "#fb7185",
+        "image": "/images/product-unverified.svg",
+        "images": [
+          "/images/product-unverified.svg"
+        ]
       }
-    ]
+    ],
+    "imageSource": {
+      "imagePath": "/images/smartwatches/verified/samsung-galaxy-watch-active-2-44mm.png",
+      "sourceUrl": "https://www.samsung.com/gr/support/model/SM-R820NZKAEUR/",
+      "checkedAt": "2026-09-20T11:47:24.744Z",
+      "scopeNote": "Samsung GR destek sayfasındaki SM-R820NZKAEUR modelinin özgün fotoğrafı. Gösterilen renk: Aqua Black. Diğer renklerin görselleri doğrulanmayı bekliyor. Bu görsel, Türkiye satıcı SKU'sunu, teknik alanların tümünü, güncel fiyatı veya stoku doğrulamaz."
+    }
   },
   {
     "id": "samsung-galaxy-watch-active-2-40mm",
@@ -15810,9 +15874,9 @@ export const mockSmartwatches: Product[] = [
     "releaseYear": 2019,
     "isPopular": false,
     "isFeatured": false,
-    "image": "/images/smartwatches/samsung/samsung-galaxy-watch-4-40mm.jpg",
+    "image": "/images/smartwatches/verified/samsung-galaxy-watch-active-2-40mm.png",
     "images": [
-      "/images/smartwatches/samsung/samsung-galaxy-watch-4-40mm.jpg"
+      "/images/smartwatches/verified/samsung-galaxy-watch-active-2-40mm.png"
     ],
     "highlights": [
       "1.2\" Super AMOLED Ekran",
@@ -15942,13 +16006,27 @@ export const mockSmartwatches: Product[] = [
     "colorOptions": [
       {
         "name": "Aqua Black",
-        "hex": "#0f172a"
+        "hex": "#0f172a",
+        "image": "/images/smartwatches/verified/samsung-galaxy-watch-active-2-40mm.png",
+        "images": [
+          "/images/smartwatches/verified/samsung-galaxy-watch-active-2-40mm.png"
+        ]
       },
       {
         "name": "Pink Gold",
-        "hex": "#fb7185"
+        "hex": "#fb7185",
+        "image": "/images/product-unverified.svg",
+        "images": [
+          "/images/product-unverified.svg"
+        ]
       }
-    ]
+    ],
+    "imageSource": {
+      "imagePath": "/images/smartwatches/verified/samsung-galaxy-watch-active-2-40mm.png",
+      "sourceUrl": "https://www.samsung.com/id/support/model/SM-R830NZKAXSE/",
+      "checkedAt": "2026-09-20T11:47:22.832Z",
+      "scopeNote": "Samsung ID destek sayfasındaki SM-R830NZKAXSE modelinin özgün fotoğrafı. Gösterilen renk: Aqua Black. Diğer renklerin görselleri doğrulanmayı bekliyor. Bu görsel, Türkiye satıcı SKU'sunu, teknik alanların tümünü, güncel fiyatı veya stoku doğrulamaz."
+    }
   },
   {
     "id": "samsung-galaxy-watch-active",
@@ -15963,9 +16041,9 @@ export const mockSmartwatches: Product[] = [
     "releaseYear": 2019,
     "isPopular": false,
     "isFeatured": false,
-    "image": "/images/smartwatches/samsung/samsung-galaxy-watch-4-40mm.jpg",
+    "image": "/images/smartwatches/verified/samsung-galaxy-watch-active.png",
     "images": [
-      "/images/smartwatches/samsung/samsung-galaxy-watch-4-40mm.jpg"
+      "/images/smartwatches/verified/samsung-galaxy-watch-active.png"
     ],
     "highlights": [
       "1.1\" Super AMOLED",
@@ -16096,17 +16174,35 @@ export const mockSmartwatches: Product[] = [
     "colorOptions": [
       {
         "name": "Siyah",
-        "hex": "#0f172a"
+        "hex": "#0f172a",
+        "image": "/images/smartwatches/verified/samsung-galaxy-watch-active.png",
+        "images": [
+          "/images/smartwatches/verified/samsung-galaxy-watch-active.png"
+        ]
       },
       {
         "name": "Gümüş",
-        "hex": "#e2e8f0"
+        "hex": "#e2e8f0",
+        "image": "/images/product-unverified.svg",
+        "images": [
+          "/images/product-unverified.svg"
+        ]
       },
       {
         "name": "Yeşil",
-        "hex": "#166534"
+        "hex": "#166534",
+        "image": "/images/product-unverified.svg",
+        "images": [
+          "/images/product-unverified.svg"
+        ]
       }
-    ]
+    ],
+    "imageSource": {
+      "imagePath": "/images/smartwatches/verified/samsung-galaxy-watch-active.png",
+      "sourceUrl": "https://www.samsung.com/id/support/model/SM-R500NZKAXSE/",
+      "checkedAt": "2026-09-20T11:47:23.428Z",
+      "scopeNote": "Samsung ID destek sayfasındaki SM-R500NZKAXSE modelinin özgün fotoğrafı. Gösterilen renk: Siyah. Diğer renklerin görselleri doğrulanmayı bekliyor. Bu görsel, Türkiye satıcı SKU'sunu, teknik alanların tümünü, güncel fiyatı veya stoku doğrulamaz."
+    }
   },
   {
     "id": "samsung-galaxy-watch-46mm",
@@ -16121,9 +16217,9 @@ export const mockSmartwatches: Product[] = [
     "releaseYear": 2018,
     "isPopular": false,
     "isFeatured": false,
-    "image": "/images/smartwatches/samsung/samsung-galaxy-watch-4-classic-46mm.jpg",
+    "image": "/images/smartwatches/verified/samsung-galaxy-watch-46mm.png",
     "images": [
-      "/images/smartwatches/samsung/samsung-galaxy-watch-4-classic-46mm.jpg"
+      "/images/smartwatches/verified/samsung-galaxy-watch-46mm.png"
     ],
     "highlights": [
       "472 mAh Devasa Batarya (4-5 Gün Pil Ömrü)",
@@ -16255,9 +16351,19 @@ export const mockSmartwatches: Product[] = [
     "colorOptions": [
       {
         "name": "Gümüş",
-        "hex": "#e2e8f0"
+        "hex": "#e2e8f0",
+        "image": "/images/smartwatches/verified/samsung-galaxy-watch-46mm.png",
+        "images": [
+          "/images/smartwatches/verified/samsung-galaxy-watch-46mm.png"
+        ]
       }
-    ]
+    ],
+    "imageSource": {
+      "imagePath": "/images/smartwatches/verified/samsung-galaxy-watch-46mm.png",
+      "sourceUrl": "https://www.samsung.com/fr/support/model/SM-R800NZSAXEF/",
+      "checkedAt": "2026-09-20T11:53:26.863Z",
+      "scopeNote": "Samsung FR destek sayfasındaki SM-R800NZSAXEF modelinin özgün fotoğrafı. Gösterilen renk: Gümüş. Diğer renklerin görselleri doğrulanmayı bekliyor. Bu görsel, Türkiye satıcı SKU'sunu, teknik alanların tümünü, güncel fiyatı veya stoku doğrulamaz."
+    }
   },
   {
     "id": "samsung-galaxy-watch-42mm",
@@ -16272,9 +16378,9 @@ export const mockSmartwatches: Product[] = [
     "releaseYear": 2018,
     "isPopular": false,
     "isFeatured": false,
-    "image": "/images/smartwatches/samsung/samsung-galaxy-watch-4-classic-42mm.jpg",
+    "image": "/images/smartwatches/verified/samsung-galaxy-watch-42mm.png",
     "images": [
-      "/images/smartwatches/samsung/samsung-galaxy-watch-4-classic-42mm.jpg"
+      "/images/smartwatches/verified/samsung-galaxy-watch-42mm.png"
     ],
     "highlights": [
       "Fiziksel Dönen Çerçeve",
@@ -16405,13 +16511,27 @@ export const mockSmartwatches: Product[] = [
     "colorOptions": [
       {
         "name": "Gece Siyahı",
-        "hex": "#0f172a"
+        "hex": "#0f172a",
+        "image": "/images/smartwatches/verified/samsung-galaxy-watch-42mm.png",
+        "images": [
+          "/images/smartwatches/verified/samsung-galaxy-watch-42mm.png"
+        ]
       },
       {
         "name": "Gül Altın",
-        "hex": "#fb7185"
+        "hex": "#fb7185",
+        "image": "/images/product-unverified.svg",
+        "images": [
+          "/images/product-unverified.svg"
+        ]
       }
-    ]
+    ],
+    "imageSource": {
+      "imagePath": "/images/smartwatches/verified/samsung-galaxy-watch-42mm.png",
+      "sourceUrl": "https://www.samsung.com/jp/support/model/SM-R810NZKAXJP/",
+      "checkedAt": "2026-09-20T11:47:22.864Z",
+      "scopeNote": "Samsung JP destek sayfasındaki SM-R810NZKAXJP modelinin özgün fotoğrafı. Gösterilen renk: Gece Siyahı. Diğer renklerin görselleri doğrulanmayı bekliyor. Bu görsel, Türkiye satıcı SKU'sunu, teknik alanların tümünü, güncel fiyatı veya stoku doğrulamaz."
+    }
   },
   {
     "id": "samsung-galaxy-fit-2",
@@ -16573,9 +16693,9 @@ export const mockSmartwatches: Product[] = [
     "releaseYear": 2019,
     "isPopular": false,
     "isFeatured": false,
-    "image": "/images/smartwatches/samsung/samsung-galaxy-fit-2.jpg",
+    "image": "/images/smartwatches/verified/samsung-galaxy-fit.png",
     "images": [
-      "/images/smartwatches/samsung/samsung-galaxy-fit-2.jpg"
+      "/images/smartwatches/verified/samsung-galaxy-fit.png"
     ],
     "highlights": [
       "0.95\" Tam Renkli AMOLED",
@@ -16698,13 +16818,27 @@ export const mockSmartwatches: Product[] = [
     "colorOptions": [
       {
         "name": "Siyah",
-        "hex": "#0f172a"
+        "hex": "#0f172a",
+        "image": "/images/smartwatches/verified/samsung-galaxy-fit.png",
+        "images": [
+          "/images/smartwatches/verified/samsung-galaxy-fit.png"
+        ]
       },
       {
         "name": "Gümüş",
-        "hex": "#e2e8f0"
+        "hex": "#e2e8f0",
+        "image": "/images/product-unverified.svg",
+        "images": [
+          "/images/product-unverified.svg"
+        ]
       }
-    ]
+    ],
+    "imageSource": {
+      "imagePath": "/images/smartwatches/verified/samsung-galaxy-fit.png",
+      "sourceUrl": "https://www.samsung.com/es/support/model/SM-R370NZKAPHE/",
+      "checkedAt": "2026-09-20T11:47:22.894Z",
+      "scopeNote": "Samsung ES destek sayfasındaki SM-R370NZKAPHE modelinin özgün fotoğrafı. Gösterilen renk: Siyah. Diğer renklerin görselleri doğrulanmayı bekliyor. Bu görsel, Türkiye satıcı SKU'sunu, teknik alanların tümünü, güncel fiyatı veya stoku doğrulamaz."
+    }
   },
   {
     "id": "samsung-galaxy-fit-e",
@@ -16719,9 +16853,9 @@ export const mockSmartwatches: Product[] = [
     "releaseYear": 2019,
     "isPopular": false,
     "isFeatured": false,
-    "image": "/images/smartwatches/samsung/samsung-galaxy-fit-2.jpg",
+    "image": "/images/smartwatches/verified/samsung-galaxy-fit-e.png",
     "images": [
-      "/images/smartwatches/samsung/samsung-galaxy-fit-2.jpg"
+      "/images/smartwatches/verified/samsung-galaxy-fit-e.png"
     ],
     "highlights": [
       "0.74\" PMOLED Ekran",
@@ -16844,17 +16978,35 @@ export const mockSmartwatches: Product[] = [
     "colorOptions": [
       {
         "name": "Siyah",
-        "hex": "#0f172a"
+        "hex": "#0f172a",
+        "image": "/images/smartwatches/verified/samsung-galaxy-fit-e.png",
+        "images": [
+          "/images/smartwatches/verified/samsung-galaxy-fit-e.png"
+        ]
       },
       {
         "name": "Beyaz",
-        "hex": "#ffffff"
+        "hex": "#ffffff",
+        "image": "/images/product-unverified.svg",
+        "images": [
+          "/images/product-unverified.svg"
+        ]
       },
       {
         "name": "Sarı",
-        "hex": "#eab308"
+        "hex": "#eab308",
+        "image": "/images/product-unverified.svg",
+        "images": [
+          "/images/product-unverified.svg"
+        ]
       }
-    ]
+    ],
+    "imageSource": {
+      "imagePath": "/images/smartwatches/verified/samsung-galaxy-fit-e.png",
+      "sourceUrl": "https://www.samsung.com/pt/support/model/SM-R375NZKATPH/",
+      "checkedAt": "2026-09-20T11:47:23.397Z",
+      "scopeNote": "Samsung PT destek sayfasındaki SM-R375NZKATPH modelinin özgün fotoğrafı. Gösterilen renk: Siyah. Diğer renklerin görselleri doğrulanmayı bekliyor. Bu görsel, Türkiye satıcı SKU'sunu, teknik alanların tümünü, güncel fiyatı veya stoku doğrulamaz."
+    }
   },
   {
     "id": "samsung-gear-s3-frontier",
@@ -16869,9 +17021,9 @@ export const mockSmartwatches: Product[] = [
     "releaseYear": 2016,
     "isPopular": false,
     "isFeatured": false,
-    "image": "/images/smartwatches/samsung/samsung-galaxy-watch-4-classic-46mm.jpg",
+    "image": "/images/smartwatches/verified/samsung-gear-s3-frontier.png",
     "images": [
-      "/images/smartwatches/samsung/samsung-galaxy-watch-4-classic-46mm.jpg"
+      "/images/smartwatches/verified/samsung-gear-s3-frontier.png"
     ],
     "highlights": [
       "Askeri Standartta Dayanıklılık (MIL-STD-810G)",
@@ -17003,9 +17155,19 @@ export const mockSmartwatches: Product[] = [
     "colorOptions": [
       {
         "name": "Koyu Gri",
-        "hex": "#1f2937"
+        "hex": "#1f2937",
+        "image": "/images/smartwatches/verified/samsung-gear-s3-frontier.png",
+        "images": [
+          "/images/smartwatches/verified/samsung-gear-s3-frontier.png"
+        ]
       }
-    ]
+    ],
+    "imageSource": {
+      "imagePath": "/images/smartwatches/verified/samsung-gear-s3-frontier.png",
+      "sourceUrl": "https://www.samsung.com/tr/support/model/SM-R760NDAATUR/",
+      "checkedAt": "2026-09-20T11:47:23.346Z",
+      "scopeNote": "Samsung TR destek sayfasındaki SM-R760NDAATUR modelinin özgün fotoğrafı. Gösterilen renk: Koyu Gri. Diğer renklerin görselleri doğrulanmayı bekliyor. Bu görsel, Türkiye satıcı SKU'sunu, teknik alanların tümünü, güncel fiyatı veya stoku doğrulamaz."
+    }
   },
   {
     "id": "samsung-gear-s3-classic",
@@ -17020,9 +17182,9 @@ export const mockSmartwatches: Product[] = [
     "releaseYear": 2016,
     "isPopular": false,
     "isFeatured": false,
-    "image": "/images/smartwatches/samsung/samsung-galaxy-watch-4-classic-46mm.jpg",
+    "image": "/images/smartwatches/verified/samsung-gear-s3-classic.png",
     "images": [
-      "/images/smartwatches/samsung/samsung-galaxy-watch-4-classic-46mm.jpg"
+      "/images/smartwatches/verified/samsung-gear-s3-classic.png"
     ],
     "highlights": [
       "Klasik Saat İşçiliği & Hakiki Deri Kordon",
@@ -17153,9 +17315,19 @@ export const mockSmartwatches: Product[] = [
     "colorOptions": [
       {
         "name": "Gümüş",
-        "hex": "#e2e8f0"
+        "hex": "#e2e8f0",
+        "image": "/images/smartwatches/verified/samsung-gear-s3-classic.png",
+        "images": [
+          "/images/smartwatches/verified/samsung-gear-s3-classic.png"
+        ]
       }
-    ]
+    ],
+    "imageSource": {
+      "imagePath": "/images/smartwatches/verified/samsung-gear-s3-classic.png",
+      "sourceUrl": "https://www.samsung.com/ae/support/model/SM-R770NZSAXSG/",
+      "checkedAt": "2026-09-20T11:47:23.718Z",
+      "scopeNote": "Samsung AE destek sayfasındaki SM-R770NZSAXSG modelinin özgün fotoğrafı. Gösterilen renk: Gümüş. Diğer renklerin görselleri doğrulanmayı bekliyor. Bu görsel, Türkiye satıcı SKU'sunu, teknik alanların tümünü, güncel fiyatı veya stoku doğrulamaz."
+    }
   },
   {
     "id": "samsung-gear-sport",
@@ -17170,9 +17342,9 @@ export const mockSmartwatches: Product[] = [
     "releaseYear": 2017,
     "isPopular": false,
     "isFeatured": false,
-    "image": "/images/smartwatches/samsung/samsung-galaxy-watch-4-40mm.jpg",
+    "image": "/images/smartwatches/verified/samsung-gear-sport.png",
     "images": [
-      "/images/smartwatches/samsung/samsung-galaxy-watch-4-40mm.jpg"
+      "/images/smartwatches/verified/samsung-gear-sport.png"
     ],
     "highlights": [
       "50m / 5 ATM Suya Dayanıklılık & Yüzme Takibi",
@@ -17303,13 +17475,27 @@ export const mockSmartwatches: Product[] = [
     "colorOptions": [
       {
         "name": "Siyah",
-        "hex": "#0f172a"
+        "hex": "#0f172a",
+        "image": "/images/product-unverified.svg",
+        "images": [
+          "/images/product-unverified.svg"
+        ]
       },
       {
         "name": "Mavi",
-        "hex": "#1d4ed8"
+        "hex": "#1d4ed8",
+        "image": "/images/smartwatches/verified/samsung-gear-sport.png",
+        "images": [
+          "/images/smartwatches/verified/samsung-gear-sport.png"
+        ]
       }
-    ]
+    ],
+    "imageSource": {
+      "imagePath": "/images/smartwatches/verified/samsung-gear-sport.png",
+      "sourceUrl": "https://www.samsung.com/mx/support/model/SM-R600NZBAMXO/",
+      "checkedAt": "2026-09-20T11:47:22.782Z",
+      "scopeNote": "Samsung MX destek sayfasındaki SM-R600NZBAMXO modelinin özgün fotoğrafı. Gösterilen renk: Mavi. Diğer renklerin görselleri doğrulanmayı bekliyor. Bu görsel, Türkiye satıcı SKU'sunu, teknik alanların tümünü, güncel fiyatı veya stoku doğrulamaz."
+    }
   },
   {
     "id": "samsung-gear-s2-classic",
@@ -17324,9 +17510,9 @@ export const mockSmartwatches: Product[] = [
     "releaseYear": 2015,
     "isPopular": false,
     "isFeatured": false,
-    "image": "/images/smartwatches/samsung/samsung-galaxy-watch-4-classic-42mm.jpg",
+    "image": "/images/smartwatches/verified/samsung-gear-s2-classic.png",
     "images": [
-      "/images/smartwatches/samsung/samsung-galaxy-watch-4-classic-42mm.jpg"
+      "/images/smartwatches/verified/samsung-gear-s2-classic.png"
     ],
     "highlights": [
       "İlk Dönen Çerçeve Tasarımı",
@@ -17455,9 +17641,19 @@ export const mockSmartwatches: Product[] = [
     "colorOptions": [
       {
         "name": "Siyah",
-        "hex": "#0f172a"
+        "hex": "#0f172a",
+        "image": "/images/smartwatches/verified/samsung-gear-s2-classic.png",
+        "images": [
+          "/images/smartwatches/verified/samsung-gear-s2-classic.png"
+        ]
       }
-    ]
+    ],
+    "imageSource": {
+      "imagePath": "/images/smartwatches/verified/samsung-gear-s2-classic.png",
+      "sourceUrl": "https://www.samsung.com/tr/support/model/SM-R7320ZKATUR/",
+      "checkedAt": "2026-09-20T11:47:24.187Z",
+      "scopeNote": "Samsung TR destek sayfasındaki SM-R7320ZKATUR modelinin özgün fotoğrafı. Gösterilen renk: Siyah. Diğer renklerin görselleri doğrulanmayı bekliyor. Bu görsel, Türkiye satıcı SKU'sunu, teknik alanların tümünü, güncel fiyatı veya stoku doğrulamaz."
+    }
   },
   {
     "id": "samsung-gear-s2",
@@ -17472,9 +17668,9 @@ export const mockSmartwatches: Product[] = [
     "releaseYear": 2015,
     "isPopular": false,
     "isFeatured": false,
-    "image": "/images/smartwatches/samsung/samsung-galaxy-watch-4-40mm.jpg",
+    "image": "/images/smartwatches/verified/samsung-gear-s2.png",
     "images": [
-      "/images/smartwatches/samsung/samsung-galaxy-watch-4-40mm.jpg"
+      "/images/smartwatches/verified/samsung-gear-s2.png"
     ],
     "highlights": [
       "Modern Minimalist Tasarım & Dönen Çerçeve",
@@ -17602,13 +17798,27 @@ export const mockSmartwatches: Product[] = [
     "colorOptions": [
       {
         "name": "Koyu Gri",
-        "hex": "#1f2937"
+        "hex": "#1f2937",
+        "image": "/images/product-unverified.svg",
+        "images": [
+          "/images/product-unverified.svg"
+        ]
       },
       {
         "name": "Gümüş Beyaz",
-        "hex": "#e2e8f0"
+        "hex": "#e2e8f0",
+        "image": "/images/smartwatches/verified/samsung-gear-s2.png",
+        "images": [
+          "/images/smartwatches/verified/samsung-gear-s2.png"
+        ]
       }
-    ]
+    ],
+    "imageSource": {
+      "imagePath": "/images/smartwatches/verified/samsung-gear-s2.png",
+      "sourceUrl": "https://www.samsung.com/tr/support/model/SM-R7200ZWATUR/",
+      "checkedAt": "2026-09-20T11:47:25.292Z",
+      "scopeNote": "Samsung TR destek sayfasındaki SM-R7200ZWATUR modelinin özgün fotoğrafı. Gösterilen renk: Gümüş Beyaz. Diğer renklerin görselleri doğrulanmayı bekliyor. Bu görsel, Türkiye satıcı SKU'sunu, teknik alanların tümünü, güncel fiyatı veya stoku doğrulamaz."
+    }
   },
   {
     "id": "samsung-gear-fit-2-pro",
@@ -17623,9 +17833,9 @@ export const mockSmartwatches: Product[] = [
     "releaseYear": 2017,
     "isPopular": false,
     "isFeatured": false,
-    "image": "/images/smartwatches/samsung/samsung-galaxy-fit-2.jpg",
+    "image": "/images/smartwatches/verified/samsung-gear-fit-2-pro.png",
     "images": [
-      "/images/smartwatches/samsung/samsung-galaxy-fit-2.jpg"
+      "/images/smartwatches/verified/samsung-gear-fit-2-pro.png"
     ],
     "highlights": [
       "1.5\" Kavisli Curved Super AMOLED",
@@ -17754,13 +17964,27 @@ export const mockSmartwatches: Product[] = [
     "colorOptions": [
       {
         "name": "Siyah",
-        "hex": "#0f172a"
+        "hex": "#0f172a",
+        "image": "/images/smartwatches/verified/samsung-gear-fit-2-pro.png",
+        "images": [
+          "/images/smartwatches/verified/samsung-gear-fit-2-pro.png"
+        ]
       },
       {
         "name": "Kırmızı",
-        "hex": "#dc2626"
+        "hex": "#dc2626",
+        "image": "/images/product-unverified.svg",
+        "images": [
+          "/images/product-unverified.svg"
+        ]
       }
-    ]
+    ],
+    "imageSource": {
+      "imagePath": "/images/smartwatches/verified/samsung-gear-fit-2-pro.png",
+      "sourceUrl": "https://www.samsung.com/jp/support/model/SM-R365NZKNXJP/",
+      "checkedAt": "2026-09-20T11:47:23.941Z",
+      "scopeNote": "Samsung JP destek sayfasındaki SM-R365NZKNXJP modelinin özgün fotoğrafı. Gösterilen renk: Siyah. Diğer renklerin görselleri doğrulanmayı bekliyor. Bu görsel, Türkiye satıcı SKU'sunu, teknik alanların tümünü, güncel fiyatı veya stoku doğrulamaz."
+    }
   },
   {
     "id": "samsung-gear-fit-2",
@@ -17775,9 +17999,9 @@ export const mockSmartwatches: Product[] = [
     "releaseYear": 2016,
     "isPopular": false,
     "isFeatured": false,
-    "image": "/images/smartwatches/samsung/samsung-galaxy-fit-2.jpg",
+    "image": "/images/smartwatches/verified/samsung-gear-fit-2.png",
     "images": [
-      "/images/smartwatches/samsung/samsung-galaxy-fit-2.jpg"
+      "/images/smartwatches/verified/samsung-gear-fit-2.png"
     ],
     "highlights": [
       "1.5\" Kavisli Curved Super AMOLED Ekran",
@@ -17907,17 +18131,35 @@ export const mockSmartwatches: Product[] = [
     "colorOptions": [
       {
         "name": "Siyah",
-        "hex": "#0f172a"
+        "hex": "#0f172a",
+        "image": "/images/product-unverified.svg",
+        "images": [
+          "/images/product-unverified.svg"
+        ]
       },
       {
         "name": "Mavi",
-        "hex": "#1d4ed8"
+        "hex": "#1d4ed8",
+        "image": "/images/smartwatches/verified/samsung-gear-fit-2.png",
+        "images": [
+          "/images/smartwatches/verified/samsung-gear-fit-2.png"
+        ]
       },
       {
         "name": "Pembe",
-        "hex": "#fb7185"
+        "hex": "#fb7185",
+        "image": "/images/product-unverified.svg",
+        "images": [
+          "/images/product-unverified.svg"
+        ]
       }
-    ]
+    ],
+    "imageSource": {
+      "imagePath": "/images/smartwatches/verified/samsung-gear-fit-2.png",
+      "sourceUrl": "https://www.samsung.com/au/support/model/SM-R3600ZBAXSA/",
+      "checkedAt": "2026-09-20T11:47:23.318Z",
+      "scopeNote": "Samsung AU destek sayfasındaki SM-R3600ZBAXSA modelinin özgün fotoğrafı. Gösterilen renk: Mavi. Diğer renklerin görselleri doğrulanmayı bekliyor. Bu görsel, Türkiye satıcı SKU'sunu, teknik alanların tümünü, güncel fiyatı veya stoku doğrulamaz."
+    }
   },
   {
     "id": "huawei-watch-gt-5-pro-46mm",
@@ -19165,9 +19407,9 @@ export const mockSmartwatches: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": true,
-    "image": "/images/smartwatches/garmin/garmin-fenix-8-51mm.jpg",
+    "image": "/images/smartwatches/verified/garmin-fenix-8-51mm-amoled.jpg",
     "images": [
-      "/images/smartwatches/garmin/garmin-fenix-8-51mm.jpg"
+      "/images/smartwatches/verified/garmin-fenix-8-51mm-amoled.jpg"
     ],
     "highlights": [
       "1.4\" Canlı AMOLED Ekran & Safir Kristal Cam & Titanyum Bezel",
@@ -19301,7 +19543,13 @@ export const mockSmartwatches: Product[] = [
         "name": "Karbon Gri Titanyum",
         "hex": "#374151"
       }
-    ]
+    ],
+    "imageSource": {
+      "imagePath": "/images/smartwatches/verified/garmin-fenix-8-51mm-amoled.jpg",
+      "sourceUrl": "https://www.garmin.com/en-US/p/1228171/",
+      "checkedAt": "2026-09-20T11:10:31.012Z",
+      "scopeNote": "Garmin üretici sayfasındaki fēnix 8 AMOLED 51 mm Safir Titanyum, turuncu/grafit silikon kordonlu 010-02905-10 görseli. Katalog kaydında renk veya tam parça kodu belirtilmediğinden bu fotoğraf satıcının sunduğu renk, paket ve stok için doğrulama değildir."
+    }
   },
   {
     "id": "garmin-forerunner-965",
@@ -19316,14 +19564,14 @@ export const mockSmartwatches: Product[] = [
     "releaseYear": 2023,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/smartwatches/garmin/garmin-forerunner-965.jpg",
+    "image": "/images/smartwatches/verified/garmin-forerunner-965.jpg",
     "images": [
-      "/images/smartwatches/garmin/garmin-forerunner-965.jpg"
+      "/images/smartwatches/verified/garmin-forerunner-965.jpg"
     ],
     "highlights": [
       "1.4\" Parlak AMOLED Ekran",
       "Hafif Titanyum Çerçeve (Yalnızca 53g)",
-      "23 Gün Pil Ömrü",
+      "Akıllı saat modunda 23 güne kadar pil süresi",
       "Tam Renkli Dahili TopoActive Haritalar"
     ],
     "tags": [
@@ -19333,12 +19581,11 @@ export const mockSmartwatches: Product[] = [
       "Triatlon"
     ],
     "specs": {
-      "caseSizeMm": 47,
+      "caseSizeMm": 47.1,
       "displayType": "AMOLED (Gorilla Glass DX)",
       "displaySizeInches": 1.4,
       "resolution": "454x454 piksel",
       "batteryLifeDays": 23,
-      "batteryCapacityMah": 450,
       "waterResistanceAtm": 5,
       "ipRating": "5 ATM (50m)",
       "os": "Garmin OS",
@@ -19360,7 +19607,10 @@ export const mockSmartwatches: Product[] = [
       "hasMicrophone": false,
       "hasSpeaker": false,
       "hasGPS": true,
-      "hasNFC": true
+      "hasNFC": true,
+      "batteryType": "Şarj edilebilir dahili lityum iyon",
+      "storageGb": 32,
+      "batteryLifeNote": "Akıllı saat modunda 23 güne kadar. GPS, müzik, sensörler ve ekran kullanımı süreyi değiştirir."
     },
     "storeOffers": [
       {
@@ -19453,7 +19703,48 @@ export const mockSmartwatches: Product[] = [
         "name": "Sarı",
         "hex": "#eab308"
       }
-    ]
+    ],
+    "imageSource": {
+      "imagePath": "/images/smartwatches/verified/garmin-forerunner-965.jpg",
+      "sourceUrl": "https://www.garmin.com/en-GB/p/886725/pn/010-02809-10/",
+      "checkedAt": "2026-09-20T11:10:31.012Z",
+      "scopeNote": "Garmin üretici sayfasındaki Forerunner 965, Carbon Grey DLC titanyum çerçeve ve siyah/açık gri kordonlu 010-02809-10 görseli. Katalogda tam renk/parça kodu yoktur; satıcı varyantı, paket ve Türkiye stok durumu ayrıca doğrulanmalıdır."
+    },
+    "fieldSources": [
+      {
+        "fields": [
+          "specs.batteryType",
+          "specs.storageGb"
+        ],
+        "sourceUrl": "https://www8.garmin.com/manuals/webhelp/GUID-0221611A-992D-495E-8DED-1DD448F7A066/EN-GB/GUID-4DC43516-617D-462D-A436-D840D5A9D5A6.html",
+        "checkedAt": "2026-09-20T11:33:08.797Z",
+        "scopeNote": "Forerunner 965 üretici kılavuzu: pil türü ve 32 GB’a kadar medya depolaması. İncelenen belgede mAh kapasitesi belirtilmiyor; 420/450 mAh kayıtları doğrulanmadı."
+      },
+      {
+        "fields": [
+          "specs.batteryLifeDays",
+          "specs.batteryLifeNote"
+        ],
+        "sourceUrl": "https://www8.garmin.com/manuals/webhelp/GUID-0221611A-992D-495E-8DED-1DD448F7A066/EN-GB/GUID-73101B42-D91C-4A0A-A7E3-37E04553473B.html",
+        "checkedAt": "2026-09-20T11:33:08.798Z",
+        "scopeNote": "23 gün, üreticinin akıllı saat modu için belirttiği üst süredir; GPS veya müzik süresi ve kişisel kullanım garantisi değildir."
+      },
+      {
+        "fields": [
+          "specs.caseSizeMm",
+          "specs.weightGrams"
+        ],
+        "sourceUrl": "https://www.garmin.com/en-GB/p/886725/pn/010-02809-10/",
+        "checkedAt": "2026-09-20T11:33:08.588Z",
+        "scopeNote": "Garmin Birleşik Krallık Forerunner 965 sayfasındaki 47,1 mm kasa ve 53 g ağırlık. Yalnız bu alanlar kaynaklandırıldı; diğer teknik alanlar, Türkiye satıcı varyantı, fiyat ve stok ayrıca incelenmelidir."
+      }
+    ],
+    "specVerification": {
+      "note": "Forerunner 965 için pil türü, depolama, kullanım moduna bağlı pil süresi, kasa boyutu ve ağırlık kaynaklandırıldı. Çelişkili 420/450 mAh değerleri doğrulanamadığı için kaldırıldı; batarya kapasitesi bilinmiyor. Diğer katalog alanlarının tamamı doğrulanmış değildir.",
+      "unresolvedFields": [
+        "specs.batteryCapacityMah"
+      ]
+    }
   },
   {
     "id": "amazfit-t-rex-3",
@@ -19468,13 +19759,13 @@ export const mockSmartwatches: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": true,
-    "image": "/images/smartwatches/amazfit/amazfit-t-rex-3.jpg",
+    "image": "/images/smartwatches/verified/amazfit-t-rex-3.jpg",
     "images": [
-      "/images/smartwatches/amazfit/amazfit-t-rex-3.jpg"
+      "/images/smartwatches/verified/amazfit-t-rex-3.jpg"
     ],
     "highlights": [
       "2000 nits 1.5\" AMOLED Ekran & Paslanmaz Çelik Bezel",
-      "27 Güne Varan Devasa Pil Ömrü & Çevrimdışı Harita Navigasyonu",
+      "Tipik kullanımda 27 güne kadar pil süresi & Çevrimdışı Harita Navigasyonu",
       "45 Metre Serbest Dalış & 10 ATM Su Geçirmezlik",
       "Yapay Zekalı Zepp Flow & GPT-4o Sesli Asistan Entegrasyonu"
     ],
@@ -19512,7 +19803,8 @@ export const mockSmartwatches: Product[] = [
       "hasMicrophone": true,
       "hasSpeaker": false,
       "hasGPS": true,
-      "hasNFC": false
+      "batteryLifeNote": "700 mAh nominal kapasite; tipik kullanımda 27 güne, yoğun kullanımda 13 güne kadar. Gerçek süre ayarlara ve kullanıma bağlıdır.",
+      "nfcSupportNote": "Üreticinin İtalya sayfasında NFC ve Zepp Pay belirtilir. Bu kaydın bölgesel sürümü ve Türkiye’de ödeme desteği doğrulanmadı."
     },
     "storeOffers": [
       {
@@ -19601,7 +19893,33 @@ export const mockSmartwatches: Product[] = [
         "name": "Lav Siyahı",
         "hex": "#1c1917"
       }
-    ]
+    ],
+    "imageSource": {
+      "imagePath": "/images/smartwatches/verified/amazfit-t-rex-3.jpg",
+      "sourceUrl": "https://eu.amazfit.com/products/amazfit-t-rex-3",
+      "checkedAt": "2026-09-20T11:10:31.012Z",
+      "scopeNote": "Amazfit üretici sayfasındaki T-Rex 3 Onyx görseli; Pro modeli değildir. Fotoğraftaki HYROX yazısı üretici görselinin parçasıdır. Bu görsel satıcı varyantı, yazılım sürümü, Türkiye paketi veya güncel stok için kanıt değildir."
+    },
+    "fieldSources": [
+      {
+        "fields": [
+          "specs.batteryCapacityMah",
+          "specs.batteryLifeDays",
+          "specs.batteryLifeNote",
+          "specs.nfcSupportNote"
+        ],
+        "sourceUrl": "https://it.amazfit.com/products/amazfit-t-rex-3",
+        "checkedAt": "2026-09-20T11:33:09.202Z",
+        "scopeNote": "Amazfit İtalya T-Rex 3 sayfası: 700 mAh nominal pil, tipik kullanımda en çok 27 gün ve yoğun kullanımda en çok 13 gün. NFC/Zepp Pay açıklaması seçili ülke ve desteklenen kartlarla sınırlıdır. Bölgesel SKU’su bilinmeyen bu kayda kesin NFC var/yok değeri atanmaz; Türkiye ödeme desteği çıkarılamaz."
+      }
+    ],
+    "specVerification": {
+      "note": "T-Rex 3 pil kapasitesi ve kullanım koşulları üretici kaynağıyla eşleştirildi. İki kayıttaki çelişkili NFC var/yok bilgisi kaldırıldı; bölgesel sürüm ve Türkiye ödeme desteği doğrulanmayı bekliyor. Diğer teknik alanların tamamı doğrulanmış değildir.",
+      "unresolvedFields": [
+        "specs.hasNfc",
+        "specs.hasNFC"
+      ]
+    }
   },
   {
     "id": "honor-watch-4-pro",
@@ -20539,10 +20857,10 @@ export const mockSmartwatches: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": true,
-    "image": "/images/smartwatches/amazfit/amazfit-t-rex-3.jpg",
+    "image": "/images/smartwatches/verified/amazfit-t-rex-3.jpg",
     "highlights": [
       "1.5 inç 2000 Nit AMOLED Ekran (Gorilla Glass Korumalı)",
-      "27 Güne Varan İnanılmaz Batarya Ömrü",
+      "Tipik kullanımda 27 güne kadar pil süresi",
       "Çift Bant 6 Uydu Konumlandırma & Çevrimdışı Topo Haritalar",
       "Askeri Standartta (MIL-STD-810H) Dayanıklılık & 10 ATM Su Geçirmezlik"
     ],
@@ -20564,7 +20882,6 @@ export const mockSmartwatches: Product[] = [
       "hasHeartRate": true,
       "hasSpO2": true,
       "hasECG": false,
-      "hasNfc": true,
       "hasMicrophone": true,
       "hasSpeaker": false,
       "voiceCalling": false,
@@ -20576,7 +20893,9 @@ export const mockSmartwatches: Product[] = [
       "compatibility": [
         "Android 7.0+",
         "iOS 14.0+"
-      ]
+      ],
+      "batteryLifeNote": "700 mAh nominal kapasite; tipik kullanımda 27 güne, yoğun kullanımda 13 güne kadar. Gerçek süre ayarlara ve kullanıma bağlıdır.",
+      "nfcSupportNote": "Üreticinin İtalya sayfasında NFC ve Zepp Pay belirtilir. Bu kaydın bölgesel sürümü ve Türkiye’de ödeme desteği doğrulanmadı."
     },
     "storeOffers": [
       {
@@ -20687,8 +21006,34 @@ export const mockSmartwatches: Product[] = [
       }
     ],
     "images": [
-      "/images/smartwatches/amazfit/amazfit-t-rex-3.jpg"
-    ]
+      "/images/smartwatches/verified/amazfit-t-rex-3.jpg"
+    ],
+    "imageSource": {
+      "imagePath": "/images/smartwatches/verified/amazfit-t-rex-3.jpg",
+      "sourceUrl": "https://eu.amazfit.com/products/amazfit-t-rex-3",
+      "checkedAt": "2026-09-20T11:10:31.012Z",
+      "scopeNote": "Amazfit üretici sayfasındaki T-Rex 3 Onyx görseli; Pro modeli değildir. Fotoğraftaki HYROX yazısı üretici görselinin parçasıdır. Bu görsel satıcı varyantı, yazılım sürümü, Türkiye paketi veya güncel stok için kanıt değildir."
+    },
+    "fieldSources": [
+      {
+        "fields": [
+          "specs.batteryCapacityMah",
+          "specs.batteryLifeDays",
+          "specs.batteryLifeNote",
+          "specs.nfcSupportNote"
+        ],
+        "sourceUrl": "https://it.amazfit.com/products/amazfit-t-rex-3",
+        "checkedAt": "2026-09-20T11:33:09.202Z",
+        "scopeNote": "Amazfit İtalya T-Rex 3 sayfası: 700 mAh nominal pil, tipik kullanımda en çok 27 gün ve yoğun kullanımda en çok 13 gün. NFC/Zepp Pay açıklaması seçili ülke ve desteklenen kartlarla sınırlıdır. Bölgesel SKU’su bilinmeyen bu kayda kesin NFC var/yok değeri atanmaz; Türkiye ödeme desteği çıkarılamaz."
+      }
+    ],
+    "specVerification": {
+      "note": "T-Rex 3 pil kapasitesi ve kullanım koşulları üretici kaynağıyla eşleştirildi. İki kayıttaki çelişkili NFC var/yok bilgisi kaldırıldı; bölgesel sürüm ve Türkiye ödeme desteği doğrulanmayı bekliyor. Diğer teknik alanların tamamı doğrulanmış değildir.",
+      "unresolvedFields": [
+        "specs.hasNfc",
+        "specs.hasNFC"
+      ]
+    }
   },
   {
     "id": "amazfit-balance-midnight-smartwatch",
@@ -20866,7 +21211,7 @@ export const mockSmartwatches: Product[] = [
     "releaseYear": 2024,
     "isPopular": false,
     "isFeatured": false,
-    "image": "/images/smartwatches/amazfit/amazfit-cheetah-pro.jpg",
+    "image": "/images/smartwatches/verified/amazfit-cheetah-pro.jpg",
     "highlights": [
       "MaxTrack Çift Bant Dairesel Kutuplu GPS Anteni",
       "1.45 inç HD AMOLED Ekran (1000 nits, Titanyum Çerçeve)",
@@ -21014,8 +21359,14 @@ export const mockSmartwatches: Product[] = [
       }
     ],
     "images": [
-      "/images/smartwatches/amazfit/amazfit-cheetah-pro.jpg"
-    ]
+      "/images/smartwatches/verified/amazfit-cheetah-pro.jpg"
+    ],
+    "imageSource": {
+      "imagePath": "/images/smartwatches/verified/amazfit-cheetah-pro.jpg",
+      "sourceUrl": "https://in.amazfit.com/products/amazfit-cheetah-pro",
+      "checkedAt": "2026-09-20T11:10:31.012Z",
+      "scopeNote": "Amazfit Hindistan üretici sayfasındaki Cheetah Pro, Run Track Black titanyum alaşım çerçeve ve naylon kordon görseli. Cheetah Round veya Cheetah 2 Pro değildir. Türkiye satıcı paketi, renk seçimi ve stok durumu bu fotoğraftan doğrulanmaz."
+    }
   },
   {
     "id": "huawei-watch-gt-5-pro-46mm-black",
@@ -21367,7 +21718,7 @@ export const mockSmartwatches: Product[] = [
     "releaseYear": 2023,
     "isPopular": true,
     "isFeatured": false,
-    "image": "/images/smartwatches/garmin/garmin-forerunner-965.jpg",
+    "image": "/images/smartwatches/verified/garmin-forerunner-965.jpg",
     "highlights": [
       "1.4 inç Parlak AMOLED Dokunmatik Ekran & Titanyum Çerçeve",
       "23 Güne Varan Akıllı Saat Modunda Pil Ömrü",
@@ -21386,7 +21737,6 @@ export const mockSmartwatches: Product[] = [
       "displayType": "AMOLED",
       "resolution": "454x454 piksel",
       "batteryLifeDays": 23,
-      "batteryCapacityMah": 420,
       "waterResistance": "5 ATM (50 metre)",
       "hasGps": true,
       "hasHeartRate": true,
@@ -21398,13 +21748,17 @@ export const mockSmartwatches: Product[] = [
       "voiceCalling": false,
       "hasCellular": false,
       "casingMaterial": "Titanyum Çerçeve & Elyaf Takviyeli Polimer",
-      "caseSizeMm": 47,
+      "caseSizeMm": 47.1,
       "strapMaterial": "Silikon Spor Kordon",
       "os": "Garmin OS",
       "compatibility": [
         "Android",
         "iOS"
-      ]
+      ],
+      "batteryType": "Şarj edilebilir dahili lityum iyon",
+      "storageGb": 32,
+      "batteryLifeNote": "Akıllı saat modunda 23 güne kadar. GPS, müzik, sensörler ve ekran kullanımı süreyi değiştirir.",
+      "weightGrams": 53
     },
     "storeOffers": [
       {
@@ -21515,8 +21869,49 @@ export const mockSmartwatches: Product[] = [
       }
     ],
     "images": [
-      "/images/smartwatches/garmin/garmin-forerunner-965.jpg"
-    ]
+      "/images/smartwatches/verified/garmin-forerunner-965.jpg"
+    ],
+    "imageSource": {
+      "imagePath": "/images/smartwatches/verified/garmin-forerunner-965.jpg",
+      "sourceUrl": "https://www.garmin.com/en-GB/p/886725/pn/010-02809-10/",
+      "checkedAt": "2026-09-20T11:10:31.012Z",
+      "scopeNote": "Garmin üretici sayfasındaki Forerunner 965, Carbon Grey DLC titanyum çerçeve ve siyah/açık gri kordonlu 010-02809-10 görseli. Katalogda tam renk/parça kodu yoktur; satıcı varyantı, paket ve Türkiye stok durumu ayrıca doğrulanmalıdır."
+    },
+    "fieldSources": [
+      {
+        "fields": [
+          "specs.batteryType",
+          "specs.storageGb"
+        ],
+        "sourceUrl": "https://www8.garmin.com/manuals/webhelp/GUID-0221611A-992D-495E-8DED-1DD448F7A066/EN-GB/GUID-4DC43516-617D-462D-A436-D840D5A9D5A6.html",
+        "checkedAt": "2026-09-20T11:33:08.797Z",
+        "scopeNote": "Forerunner 965 üretici kılavuzu: pil türü ve 32 GB’a kadar medya depolaması. İncelenen belgede mAh kapasitesi belirtilmiyor; 420/450 mAh kayıtları doğrulanmadı."
+      },
+      {
+        "fields": [
+          "specs.batteryLifeDays",
+          "specs.batteryLifeNote"
+        ],
+        "sourceUrl": "https://www8.garmin.com/manuals/webhelp/GUID-0221611A-992D-495E-8DED-1DD448F7A066/EN-GB/GUID-73101B42-D91C-4A0A-A7E3-37E04553473B.html",
+        "checkedAt": "2026-09-20T11:33:08.798Z",
+        "scopeNote": "23 gün, üreticinin akıllı saat modu için belirttiği üst süredir; GPS veya müzik süresi ve kişisel kullanım garantisi değildir."
+      },
+      {
+        "fields": [
+          "specs.caseSizeMm",
+          "specs.weightGrams"
+        ],
+        "sourceUrl": "https://www.garmin.com/en-GB/p/886725/pn/010-02809-10/",
+        "checkedAt": "2026-09-20T11:33:08.588Z",
+        "scopeNote": "Garmin Birleşik Krallık Forerunner 965 sayfasındaki 47,1 mm kasa ve 53 g ağırlık. Yalnız bu alanlar kaynaklandırıldı; diğer teknik alanlar, Türkiye satıcı varyantı, fiyat ve stok ayrıca incelenmelidir."
+      }
+    ],
+    "specVerification": {
+      "note": "Forerunner 965 için pil türü, depolama, kullanım moduna bağlı pil süresi, kasa boyutu ve ağırlık kaynaklandırıldı. Çelişkili 420/450 mAh değerleri doğrulanamadığı için kaldırıldı; batarya kapasitesi bilinmiyor. Diğer katalog alanlarının tamamı doğrulanmış değildir.",
+      "unresolvedFields": [
+        "specs.batteryCapacityMah"
+      ]
+    }
   },
   {
     "id": "xiaomi-watch-s3-black",

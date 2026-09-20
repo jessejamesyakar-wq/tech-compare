@@ -1,10 +1,14 @@
 const assert=require('node:assert/strict'),fs=require('node:fs');
 const {checkCatalogImageEvidence,checkPendingImageEvidence}=require('./catalogImageEvidence.cjs');
-const products=JSON.parse(fs.readFileSync('src/lib/smartphonesData.json','utf8'));
+const appliancesText=fs.readFileSync('src/lib/mockAppliances.ts','utf8');
+const appliances=JSON.parse(appliancesText.slice(appliancesText.indexOf('= [')+2,appliancesText.lastIndexOf(']')+1));
+const watchesText=fs.readFileSync('src/lib/mockSmartwatches.ts','utf8');
+const watches=JSON.parse(watchesText.slice(watchesText.indexOf('= [')+2,watchesText.lastIndexOf(']')+1));
+const products=[...JSON.parse(fs.readFileSync('src/lib/smartphonesData.json','utf8')),...appliances,...watches];
 const manifest=JSON.parse(fs.readFileSync('data/catalog_image_sources.json','utf8'));
 const archive=JSON.parse(fs.readFileSync('data/catalog_archives/samsung-image-facts-2026-09-20.json','utf8'));
 let passed=0;const check=(label,fn)=>{fn();passed++;console.log('PASS: '+label);};
-check('Manufacturer sourced images pass identity, source and byte checks',()=>{assert.equal(manifest.entries.length,9);assert.deepEqual(checkCatalogImageEvidence(products,manifest.entries,'public'),[]);assert.equal(new Set(manifest.entries.map(e=>e.sha256)).size,9);});
+check('Manufacturer sourced images pass identity, source and byte checks',()=>{assert.equal(manifest.entries.length,39);assert.deepEqual(checkCatalogImageEvidence(products,manifest.entries,'public'),[]);assert.equal(new Set(manifest.entries.map(e=>e.sha256)).size,37);});
 check('Samsung image changes retain identities and commercial records',()=>{for(const old of archive.original){const p=products.find(p=>p.id===old.id);const permitted=p.id==='samsung-samsung-galaxy-m53-5g-79'?['image','images','specs','highlights','fieldSources','specVerification']:['image','images'];for(const key of Object.keys(old))if(!permitted.includes(key))assert.deepEqual(p[key],old[key],`${p.id}:${key}`);assert.doesNotMatch(p.image,/m35/);}});
 check('Wrong-model path cannot replace reviewed M51 image',()=>{const next=structuredClone(products),e=manifest.entries[0],p=next.find(p=>p.id===e.id);p.image='/images/phones/samsung/studio/samsung-samsung-galaxy-m35-5g-105.png';assert.ok(checkCatalogImageEvidence(next,[e],'public').some(e=>e.includes('Reviewed image changed')));});
 check('Same path with modified bytes is rejected',()=>{const e={...manifest.entries[0],sha256:'0'.repeat(64)};assert.ok(checkCatalogImageEvidence(products,[e],'public').some(e=>e.includes('bytes changed')));});

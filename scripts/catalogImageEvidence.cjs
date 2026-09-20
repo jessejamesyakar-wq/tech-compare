@@ -11,7 +11,17 @@ function checkCatalogImageEvidence(products,entries,publicDir){
   const matches=products.filter(p=>p.id===entry.id);
   if(matches.length!==1){errors.push(`Image evidence needs one exact product: ${entry.id}`);continue;}
   const product=matches[0];
+  if(product.imageSource && (product.imageSource.imagePath!==entry.imagePath || product.imageSource.sourceUrl!==entry.sourcePageUrl || product.imageSource.scopeNote!==entry.scope || product.imageSource.checkedAt!==entry.checkedAt))errors.push(`Displayed image source differs from reviewed evidence: ${entry.id}`);
   if(product.image!==entry.imagePath || !product.images?.includes(entry.imagePath))errors.push(`Reviewed image changed without updated source evidence: ${entry.id}`);
+  if(entry.reviewedColorName){
+   const colors=product.colorOptions||[],pendingColors=entry.unverifiedColorNames||[];
+   const names=[entry.reviewedColorName,...pendingColors];
+   if(new Set(names).size!==names.length || colors.length!==names.length || colors.some(c=>!names.includes(c.name)))errors.push(`Reviewed color scope changed: ${entry.id}`);
+   for(const color of colors){
+    const expected=color.name===entry.reviewedColorName?entry.imagePath:'/images/product-unverified.svg';
+    if(color.image!==expected || color.images?.length!==1 || color.images[0]!==expected)errors.push(`Unreviewed color photograph: ${entry.id}:${color.name}`);
+   }
+  }
   for(const value of [entry.sourcePageUrl,entry.sourceImageUrl]){
    try{const u=new URL(value);if(!['https:','http:'].includes(u.protocol)||u.username||u.password)throw new Error();}
    catch{errors.push(`Invalid image source URL: ${entry.id}`);}
@@ -34,7 +44,7 @@ function checkPendingImageEvidence(products,entries,pending){
   const matches=products.filter(p=>p.id===entry.id);
   if(matches.length!==1){errors.push(`Pending image needs one exact product: ${entry.id}`);continue;}
   const p=matches[0];
-  const images=[p.image,...(p.images||[]),...(p.variants||[]).flatMap(v=>[v.image,...(v.images||[])])];
+  const images=[p.image,...(p.images||[]),...(p.variants||[]).flatMap(v=>[v.image,...(v.images||[])]),...(p.colorOptions||[]).flatMap(c=>[c.image,...(c.images||[])].filter(Boolean))];
   if(entry.placeholderPath!=='/images/product-unverified.svg' || !p.images?.length || images.some(image=>image!==entry.placeholderPath)){
    errors.push(`Unreviewed model photograph restored while source is pending: ${entry.id}`);
   }

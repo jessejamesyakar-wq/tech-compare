@@ -8566,6 +8566,28 @@
         "shippingFree": true,
         "shippingDays": 1,
         "lastUpdated": "2026-09-16"
+      },
+      {
+        "id": "observed-vatan-153500",
+        "storeName": "Vatan Bilgisayar",
+        "sellerName": "Vatan Bilgisayar",
+        "price": 129999,
+        "url": "https://www.vatanbilgisayar.com/iphone-17-pro-max-akilli-telefon.html",
+        "sourceUrl": "https://www.vatanbilgisayar.com/iphone-17-pro-max-akilli-telefon.html",
+        "sourceType": "retailer",
+        "isSearchLink": false,
+        "variantId": "apple-apple-iphone-17-pro-max-256-gb-1023353-koyu",
+        "variantName": "Abis",
+        "inStock": true,
+        "stockStatus": "in_stock",
+        "lastCheckedAt": "2026-09-20T12:22:09.373Z",
+        "observationEvidence": {
+          "merchantSku": "153500",
+          "title": "iPhone 17 Pro Max 256 GB Akıllı Telefon Abis",
+          "manufacturerPartNumber": "MFYP4TU/A",
+          "currency": "TRY",
+          "responseSha256": "865111883358f4a800d44a112a343361f0a7cc988b4dc4907548735e8cfc66ab"
+        }
       }
     ],
     "priceHistory": [
@@ -8604,6 +8626,17 @@
       {
         "date": "2026-09-16",
         "price": 118499
+      },
+      {
+        "date": "2026-09-20T12:22:09.373Z",
+        "observedAt": "2026-09-20T12:22:09.373Z",
+        "price": 129999,
+        "store": "Vatan Bilgisayar",
+        "sourceUrl": "https://www.vatanbilgisayar.com/iphone-17-pro-max-akilli-telefon.html",
+        "sourceType": "observed",
+        "currency": "TRY",
+        "variantId": "apple-apple-iphone-17-pro-max-256-gb-1023353-koyu",
+        "variantName": "Abis"
       }
     ],
     "specs": {
@@ -39604,25 +39637,106 @@
     "brand": "Huawei",
     "category": "smartphones",
     "currency": "TL",
-    "image": "/images/phones/huawei/huawei-huawei-p40-pro-10152.jpg",
+    "image": "/images/phones/huawei/verified/huawei-huawei-p40-pro.png",
     "images": [
-      "/images/phones/huawei/huawei-huawei-p40-pro-10152.jpg"
+      "/images/phones/huawei/verified/huawei-huawei-p40-pro.png"
     ],
-    "highlights": [],
+    "highlights": [
+      "6,58 inç OLED, en fazla 90 Hz",
+      "Kirin 990 5G işlemci",
+      "4200 mAh batarya; en fazla 40 W kablolu şarj"
+    ],
     "tags": [
       "Huawei"
     ],
     "storeOffers": [],
     "priceHistory": [],
-    "specs": {},
+    "specs": {
+      "screen": {
+        "size": "6,58 inç",
+        "type": "OLED",
+        "resolution": "2640 x 1200",
+        "refreshRate": 90
+      },
+      "processor": {
+        "chip": "Kirin 990 5G",
+        "cores": "8"
+      },
+      "memory": {
+        "ramGb": 8,
+        "storageGb": 256,
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "50 MP",
+        "ultrawideMp": "40 MP",
+        "telephotoMp": "12 MP",
+        "selfieMp": "32 MP + derinlik sensörü",
+        "videoRes": "3840 x 2160 (60 fps)"
+      },
+      "battery": {
+        "capacitymAh": 4200,
+        "chargingWatts": 40,
+        "wirelessCharging": true,
+        "wirelessWatts": 27
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "802.11 a/b/g/n/ac/ax",
+        "bluetooth": "5.1",
+        "hasNFC": true
+      },
+      "build": {
+        "weightGrams": 209,
+        "waterResistance": "IP68"
+      },
+      "software": {
+        "osName": "EMUI 10.1 / Android 10 (üreticinin ilk sürüm bilgisi)"
+      }
+    },
     "specVerification": {
-      "note": "Bu modelin teknik özellikleri kaynak doğrulaması bekliyor. Doğrulanmamış özellik ve fiyatlar gösterilmiyor.",
+      "note": "Özellikler Huawei Kenya 8 GB / 256 GB P40 Pro varyantına aittir. Türkiye satıcı varyantı ve eSIM/operatör uyumluluğu doğrulanmadı. Genişletilebilir depolama, ayrı satılan en fazla 512 GB Huawei NM kart içindir. Yazılım bilgisi üreticinin ilk sürümünü tanımlar; mevcut güncelleme durumu değildir.",
       "unresolvedFields": [
-        "specs",
+        "specs.connectivity.hasesim",
         "releaseYear"
       ]
     },
-    "sourceType": "unverified"
+    "sourceType": "unverified",
+    "fieldSources": [
+      {
+        "fields": [
+          "specs.screen.size",
+          "specs.screen.type",
+          "specs.screen.resolution",
+          "specs.screen.refreshRate",
+          "specs.processor.chip",
+          "specs.processor.cores",
+          "specs.memory.ramGb",
+          "specs.memory.storageGb",
+          "specs.memory.expandableStorage",
+          "specs.camera.mainMp",
+          "specs.camera.ultrawideMp",
+          "specs.camera.telephotoMp",
+          "specs.camera.selfieMp",
+          "specs.camera.videoRes",
+          "specs.battery.capacitymAh",
+          "specs.battery.chargingWatts",
+          "specs.battery.wirelessCharging",
+          "specs.battery.wirelessWatts",
+          "specs.connectivity.has5G",
+          "specs.connectivity.wifiStandard",
+          "specs.connectivity.bluetooth",
+          "specs.connectivity.hasNFC",
+          "specs.build.weightGrams",
+          "specs.build.waterResistance",
+          "specs.software.osName",
+          "highlights"
+        ],
+        "sourceUrl": "https://consumer.huawei.com/ke/phones/p40-pro/specs/",
+        "checkedAt": "2026-09-20T09:58:45.576Z",
+        "scopeNote": "Huawei Kenya P40 Pro teknik tablosu, 8 GB RAM / 256 GB depolama. NM kart desteği standart microSD desteği olarak yorumlanmamalı. 4200 mAh tipik kapasite; 40 W kablolu / 27 W kablosuz şarj uyumlu Huawei aksesuarları gerektirir. Ön kameranın derinlik sensörüne MP değeri eklenmedi. Türkiye satıcı SKU, fiyat ve stok kanıtı değildir."
+      }
+    ]
   },
   {
     "id": "huawei-huawei-nova-12-ultra",
@@ -39685,9 +39799,9 @@
     "brand": "Huawei",
     "category": "smartphones",
     "currency": "TL",
-    "image": "/images/product-unverified.svg",
+    "image": "/images/phones/huawei/verified/huawei-huawei-mate-40-rs-porsche-design.png",
     "images": [
-      "/images/product-unverified.svg"
+      "/images/phones/huawei/verified/huawei-huawei-mate-40-rs-porsche-design.png"
     ],
     "highlights": [],
     "tags": [
@@ -90570,25 +90684,106 @@
     "brand": "Huawei",
     "category": "smartphones",
     "slug": "huawei-mate-40-pro",
-    "image": "/images/product-unverified.svg",
+    "image": "/images/phones/huawei/verified/huawei-huawei-mate-40-pro.png",
     "images": [
-      "/images/product-unverified.svg"
+      "/images/phones/huawei/verified/huawei-huawei-mate-40-pro.png"
     ],
-    "specs": {},
+    "specs": {
+      "screen": {
+        "size": "6,76 inç",
+        "type": "OLED",
+        "resolution": "2772 x 1344",
+        "refreshRate": 90
+      },
+      "processor": {
+        "chip": "Kirin 9000",
+        "cores": "8"
+      },
+      "memory": {
+        "ramGb": 8,
+        "storageGb": 256
+      },
+      "camera": {
+        "mainMp": "50 MP",
+        "ultrawideMp": "20 MP",
+        "telephotoMp": "12 MP",
+        "selfieMp": "13 MP + 3D derinlik sensörü",
+        "videoRes": "3840 x 2160"
+      },
+      "battery": {
+        "capacitymAh": 4400,
+        "chargingWatts": 66,
+        "wirelessCharging": true,
+        "wirelessWatts": 50
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "802.11 a/b/g/n/ac/ax",
+        "bluetooth": "5.2",
+        "hasNFC": true
+      },
+      "build": {
+        "weightGrams": 212,
+        "thicknessMm": 9.1,
+        "waterResistance": "IP68"
+      },
+      "software": {
+        "osName": "EMUI 11.0 / Android 10 (üreticinin ilk sürüm bilgisi)"
+      }
+    },
     "storeOffers": [],
     "priceHistory": [],
-    "highlights": [],
+    "highlights": [
+      "6,76 inç OLED, en fazla 90 Hz",
+      "Kirin 9000 işlemci",
+      "4400 mAh batarya; en fazla 66 W kablolu şarj"
+    ],
     "tags": [
       "Huawei"
     ],
     "specVerification": {
-      "note": "Bu modelin teknik özellikleri kaynak doğrulaması bekliyor. Doğrulanmamış özellik ve fiyatlar gösterilmiyor.",
+      "note": "Özellikler Huawei Tayland NOH-NX9, 8 GB / 256 GB 5G varyantına aittir; Mate 40 Pro 4G veya RS kaydı için geçerli değildir. Türkiye satıcı varyantı ve eSIM/operatör uyumluluğu doğrulanmadı. Yazılım bilgisi üreticinin ilk sürümünü tanımlar; mevcut güncelleme durumu değildir.",
       "unresolvedFields": [
-        "specs",
+        "specs.connectivity.hasesim",
         "releaseYear"
       ]
     },
-    "sourceType": "unverified"
+    "sourceType": "unverified",
+    "fieldSources": [
+      {
+        "fields": [
+          "specs.screen.size",
+          "specs.screen.type",
+          "specs.screen.resolution",
+          "specs.screen.refreshRate",
+          "specs.processor.chip",
+          "specs.processor.cores",
+          "specs.memory.ramGb",
+          "specs.memory.storageGb",
+          "specs.camera.mainMp",
+          "specs.camera.ultrawideMp",
+          "specs.camera.telephotoMp",
+          "specs.camera.selfieMp",
+          "specs.camera.videoRes",
+          "specs.battery.capacitymAh",
+          "specs.battery.chargingWatts",
+          "specs.battery.wirelessCharging",
+          "specs.battery.wirelessWatts",
+          "specs.connectivity.has5G",
+          "specs.connectivity.wifiStandard",
+          "specs.connectivity.bluetooth",
+          "specs.connectivity.hasNFC",
+          "specs.build.weightGrams",
+          "specs.build.thicknessMm",
+          "specs.build.waterResistance",
+          "specs.software.osName",
+          "highlights"
+        ],
+        "sourceUrl": "https://consumer.huawei.com/th/offer/shopee/mate40-pro/specs/",
+        "checkedAt": "2026-09-20T09:58:45.576Z",
+        "scopeNote": "Huawei Tayland NOH-NX9 teknik tablosu, 8 GB RAM / 256 GB depolama. 4400 mAh tipik kapasite; 66 W kablolu ve 50 W kablosuz şarj uyumlu Huawei aksesuarlarıyla en yüksek güçtür. Türkiye satıcı SKU, fiyat ve stok kanıtı değildir."
+      }
+    ]
   },
   {
     "id": "huawei-huawei-mate-40-pro-4g",

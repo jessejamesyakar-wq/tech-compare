@@ -34,6 +34,8 @@ export interface ValidatedStoreOffer {
   sellerRating?: number;
   rejectionReason?: string;
   matchedTitle?: string;
+  variantName?: string;
+  variantId?: string;
 }
 
 export interface StorePresenceReport {
@@ -222,7 +224,7 @@ export function validateStoreOffer(
   }
 
   const basePrice = target.basePrice || offer.price;
-  const candidateTitle = offer.candidateTitle || (offer as any).title || (offer as any).productTitle || (offer as any).rawTitle || '';
+  const candidateTitle = offer.observationEvidence?.title || offer.candidateTitle || (offer as any).title || (offer as any).productTitle || (offer as any).rawTitle || '';
 
   // Check 1: Price floor
   const priceCheck = isPriceSane(offer.price, basePrice);
@@ -287,9 +289,9 @@ export function validateStoreOffer(
   }
 
   // Check 4: Stock presence & verified date proof
-  const hasInStockProof = offer.inStock === true || (offer as any).stockStatus === 'in_stock' || (offer as any).stockStatus === 'IN_STOCK';
+  const hasInStockProof = offer.inStock === true && !['out_of_stock', 'OUT_OF_STOCK', 'preorder', 'unknown'].includes(offer.stockStatus || '');
   const isExplicitOutOfStock = offer.inStock === false || (offer as any).stockStatus === 'out_of_stock' || (offer as any).stockStatus === 'OUT_OF_STOCK';
-  const isStockUnknown = offer.inStock === undefined && (offer as any).stockStatus !== 'in_stock' && (offer as any).stockStatus !== 'IN_STOCK' && (offer as any).stockStatus !== 'out_of_stock';
+  const isStockUnknown = !hasInStockProof && !isExplicitOutOfStock;
 
   const rawUrl = offer.url && offer.url !== '#' && !offer.url.endsWith('.com') && !offer.url.endsWith('.com.tr')
     ? offer.url
@@ -322,6 +324,8 @@ export function validateStoreOffer(
     isReal: true,
     isSearchLink,
     lastCheckedAt,
+    variantName: offer.variantName,
+    variantId: offer.variantId,
     shippingInfo,
     sellerRating,
     rejectionReason: isStockUnknown ? 'Stok durumu bilinmiyor' : undefined,
@@ -336,26 +340,30 @@ export function evaluateAllStoresPresence(
   product: ProductVerificationTarget & { storeOffers?: StoreOffer[] }
 ): StorePresenceReport {
   const rawOffers = product.storeOffers || [];
-  const basePrice = product.basePrice || (rawOffers[0]?.price) || 0;
+  const basePrice = product.basePrice || 0;
 
   const allValidated: ValidatedStoreOffer[] = [];
 
   for (const storeKey of ACTIVE_STORES) {
     const def = ALL_RETAILER_DEFINITIONS[storeKey];
     // Find matching offer from storeOffers
-    const matched = rawOffers.find((o) => {
+    const candidates = rawOffers.filter((o) => {
       if (!o || !o.storeName) return false;
       const oName = o.storeName.toLowerCase();
       return oName.includes(def.keyword) || oName.includes(storeKey);
     });
 
-    const validated = validateStoreOffer(
-      { ...product, basePrice },
-      matched || {},
-      storeKey
-    );
-
-    allValidated.push(validated);
+    const validated = candidates.map(offer => validateStoreOffer({ ...product, basePrice }, offer, storeKey));
+    // A legacy search URL must not hide a later, exact observed offer from the same merchant.
+    const rank = (offer: ValidatedStoreOffer) => {
+      if (!offer.isReal || offer.price === null) return 4;
+      if (offer.isSearchLink) return 3;
+      if (offer.status === 'IN_STOCK' && offer.inStock && getPriceFreshness(offer.lastCheckedAt).status === 'fresh') return 0;
+      if (offer.status === 'IN_STOCK' && getPriceFreshness(offer.lastCheckedAt).status === 'stale') return 1;
+      return 2;
+    };
+    validated.sort((a, b) => rank(a) - rank(b) || (a.price ?? Infinity) - (b.price ?? Infinity));
+    allValidated.push(validated[0] || validateStoreOffer({ ...product, basePrice }, {}, storeKey));
   }
 
   // Direct verified in-stock fresh offers ONLY (must have status === 'IN_STOCK', inStock: true, price > 0, !isSearchLink, and checked <= 24h)

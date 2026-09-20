@@ -21,7 +21,7 @@ check('172 archived records preserve identities; original commercial data remain
  for(const old of archive.original){const current=phones.find(p=>p.id===old.id)!;
   assert.ok(current,old.id);
   for(const key of ['id','slug','name','brand','category'])assert.deepEqual((current as any)[key],old[key],`${old.id}:${key}`);
-  if(old.brand!=='Huawei')assert.deepEqual(evaluateProductPricing(current),evaluateProductPricing(old));
+  if(old.brand!=='Huawei')assert.deepEqual(evaluateProductPricing(getProductById(current.id)!),evaluateProductPricing(old));
  }
 });
 check('Y5II manufacturer facts replace guessed modern hardware',()=>{

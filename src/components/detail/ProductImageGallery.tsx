@@ -7,7 +7,7 @@ import { ProductImage } from '@/components/ui/ProductImage';
 import { BaseProduct, Product } from '@/lib/types';
 import { Maximize2, ChevronLeft, ChevronRight, Image as ImageIcon, X } from 'lucide-react';
 import { useModalFocus } from '@/components/ui/useModalFocus';
-import { isProductImagePlaceholder } from '@/lib/productImages';
+import { getProductImageSource, isProductImagePlaceholder } from '@/lib/productImages';
 
 interface ProductImageGalleryProps {
   product: BaseProduct | Product;
@@ -49,6 +49,7 @@ export function ProductImageGallery({
   }, [activeColorImage, activeColorImages]);
 
   const activeImage = imgError ? (allImages[0] || defaultImage) : (allImages[activeIndex] || allImages[0] || defaultImage);
+  const imageSource = getProductImageSource(product, activeImage);
 
   const handlePrev = () => {
     setImgError(false);
@@ -115,6 +116,12 @@ export function ProductImageGallery({
           />
         </div>
       </div>
+
+      {imageSource && <details className="rounded-xl border border-slate-200 bg-slate-50 p-3 text-xs leading-relaxed text-slate-600" data-testid="product-image-source">
+        <summary className="min-h-11 cursor-pointer py-2 font-semibold text-slate-800">Görsel kaynağı ve kapsamı</summary>
+        <p className="mt-2">{imageSource.scopeNote}</p>
+        <a href={imageSource.sourceUrl} target="_blank" rel="noopener noreferrer" className="inline-flex min-h-11 items-center py-2 font-semibold underline">Üretici kaynağını aç</a>
+      </details>}
 
       {/* Thumbnail Bar Carousel for All Uploaded Photos */}
       {allImages.length > 1 && (

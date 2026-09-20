@@ -1,0 +1,628 @@
+{
+  "checkedAt": "2026-09-20T10:51:27.492Z",
+  "reason": "Five different appliance models were showing the same Philips HD9339/80 kettle photograph. Inspected locally before correction. Scope remains fixed; unresolved identity is not a completed photograph.",
+  "original": [
+    {
+      "id": "kitchenaid-artisan-4-8l",
+      "slug": "kitchenaid-artisan-4-8l",
+      "name": "KitchenAid Artisan 4.8L Stand Mikser & Mutfak Şefi",
+      "brand": "KitchenAid",
+      "category": "appliances",
+      "subCategory": "blender",
+      "basePrice": 28359,
+      "currency": "TL",
+      "rating": 4.9,
+      "reviewCount": 880,
+      "releaseYear": 2024,
+      "isPopular": true,
+      "isFeatured": true,
+      "highlights": [
+        "Tamamen Döküm Metal Gövde & İkonik Zamansız Tasarım",
+        "Orijinal Gezegensel Dönme Hareketi ile Kusursuz Karıştırma",
+        "4.8 Litre ve 3 Litre İkili Paslanmaz Çelik Kase",
+        "Hamur Çengeli, Düz Çırpıcı ve Tel Çırpıcı Dahil"
+      ],
+      "image": "/images/products/appliances/icecat-philips-5000-hd9339-80.jpg",
+      "images": [
+        "/images/products/appliances/icecat-philips-5000-hd9339-80.jpg"
+      ],
+      "storeOffers": [
+        {
+          "storeName": "Hepsiburada",
+          "storeLogo": "/images/stores/hepsiburada.png",
+          "price": 54839.09,
+          "shippingFee": 0,
+          "inStock": true,
+          "url": "https://www.hepsiburada.com/kitchenaid-artisan-4-8-l-stand-mikser-300-w-guc-kapasite-4-4-9-lt-opsiyonel-kiyma-cekme-p-HBV00000HGY9M",
+          "rating": 4.8,
+          "updatedAt": "2026-09-06T22:34:00.612Z"
+        },
+        {
+          "storeName": "Trendyol",
+          "storeLogo": "/images/stores/trendyol.png",
+          "price": 28839,
+          "shippingFee": 0,
+          "inStock": true,
+          "url": "https://www.trendyol.com/sr?q=KitchenAid%20Artisan%204.8L%20Stand%20Mikser%20%26%20Mutfak%20%C5%9Eefi",
+          "rating": 4.8
+        },
+        {
+          "storeName": "MediaMarkt",
+          "storeLogo": "/images/stores/mediamarkt.png",
+          "price": 29209,
+          "shippingFee": 0,
+          "inStock": true,
+          "url": "https://www.mediamarkt.com.tr/tr/search.html?query=KitchenAid%20Artisan%204.8L%20Stand%20Mikser%20%26%20Mutfak%20%C5%9Eefi",
+          "rating": 4.8
+        },
+        {
+          "storeName": "Vatan Bilgisayar",
+          "storeLogo": "/images/stores/vatan.png",
+          "price": 29499,
+          "shippingFee": 0,
+          "inStock": true,
+          "url": "https://www.vatanbilgisayar.com/arama/KitchenAid%20Artisan%204.8L%20Stand%20Mikser%20%26%20Mutfak%20%C5%9Eefi",
+          "rating": 4.8
+        },
+        {
+          "storeName": "Amazon Türkiye",
+          "storeLogo": "/images/stores/amazon.png",
+          "price": 28359,
+          "shippingFee": 0,
+          "inStock": true,
+          "url": "https://www.amazon.com.tr/s?k=KitchenAid%20Artisan%204.8L%20Stand%20Mikser%20%26%20Mutfak%20%C5%9Eefi",
+          "rating": 4.8
+        },
+        {
+          "storeName": "Teknosa",
+          "storeLogo": "/images/stores/teknosa.png",
+          "price": 29299,
+          "shippingFee": 0,
+          "inStock": true,
+          "url": "https://www.teknosa.com/arama?s=KitchenAid%20Artisan%204.8L%20Stand%20Mikser%20%26%20Mutfak%20%C5%9Eefi",
+          "rating": 4.8
+        }
+      ],
+      "priceHistory": [
+        {
+          "date": "Ekim 2025",
+          "price": 32490
+        },
+        {
+          "date": "Kasım 2025",
+          "price": 31630
+        },
+        {
+          "date": "Aralık 2025",
+          "price": 30780
+        },
+        {
+          "date": "Ocak 2026",
+          "price": 29920
+        },
+        {
+          "date": "Şubat 2026",
+          "price": 29070
+        },
+        {
+          "date": "Ağustos 2026",
+          "price": 28500
+        },
+        {
+          "date": "7 Eylül 2026",
+          "price": 28359
+        }
+      ],
+      "specs": {
+        "subCategory": "blender",
+        "subCategoryLabel": "Stand Mikser / Mutfak Şefi",
+        "powerWatts": 300,
+        "capacity": "4.8 Litre & 3.0 Litre Kase",
+        "programsCount": 10,
+        "material": "Tam Döküm Çinko Metal",
+        "weightKg": 10.98,
+        "warrantyYears": 5,
+        "color": "Empire Kırmızı / Mat Siyah",
+        "masterCategory": "kitchen",
+        "masterCategoryLabel": "Mutfak Aletleri"
+      },
+      "subCategoryLabel": "Stand Mikser / Mutfak Şefi",
+      "minPrice": 28999,
+      "maxPrice": 32479
+    },
+    {
+      "id": "cosori-dual-blaze-6-4l",
+      "slug": "cosori-dual-blaze-6-4l",
+      "name": "Cosori Dual Blaze 6.4L Çift Isıtıcılı Akıllı Airfryer",
+      "brand": "Cosori",
+      "category": "appliances",
+      "subCategory": "airfryer",
+      "basePrice": 7759,
+      "currency": "TL",
+      "rating": 4.8,
+      "reviewCount": 3100,
+      "releaseYear": 2024,
+      "isPopular": true,
+      "isFeatured": true,
+      "highlights": [
+        "360 ThermoIQ Çift Isıtıcı ile Yiyecekleri Çevirmeye Gerek Yok",
+        "6.4 Litre Geniş Kare Sepet Kapasitesi",
+        "VeSync Mobil Uygulama ile Wi-Fi Uzaktan Kontrol ve Tarifler",
+        "12 Özelleştirilebilir Pişirme Programı ve Bulaşık Makinesinde Yıkanabilir"
+      ],
+      "image": "/images/products/appliances/icecat-philips-5000-hd9339-80.jpg",
+      "images": [
+        "/images/products/appliances/icecat-philips-5000-hd9339-80.jpg"
+      ],
+      "storeOffers": [
+        {
+          "storeName": "Hepsiburada",
+          "storeLogo": "/images/stores/hepsiburada.png",
+          "price": 7799,
+          "shippingFee": 0,
+          "inStock": true,
+          "url": "https://www.hepsiburada.com/ara?q=Cosori%20Dual%20Blaze%206.4L%20%C3%87ift%20Is%C4%B1t%C4%B1c%C4%B1l%C4%B1%20Ak%C4%B1ll%C4%B1%20Airfryer",
+          "rating": 4.8
+        },
+        {
+          "storeName": "Trendyol",
+          "storeLogo": "/images/stores/trendyol.png",
+          "price": 7889,
+          "shippingFee": 0,
+          "inStock": true,
+          "url": "https://www.trendyol.com/sr?q=Cosori%20Dual%20Blaze%206.4L%20%C3%87ift%20Is%C4%B1t%C4%B1c%C4%B1l%C4%B1%20Ak%C4%B1ll%C4%B1%20Airfryer",
+          "rating": 4.8
+        },
+        {
+          "storeName": "MediaMarkt",
+          "storeLogo": "/images/stores/mediamarkt.png",
+          "price": 7989,
+          "shippingFee": 0,
+          "inStock": true,
+          "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Cosori%20Dual%20Blaze%206.4L%20%C3%87ift%20Is%C4%B1t%C4%B1c%C4%B1l%C4%B1%20Ak%C4%B1ll%C4%B1%20Airfryer",
+          "rating": 4.8
+        },
+        {
+          "storeName": "Vatan Bilgisayar",
+          "storeLogo": "/images/stores/vatan.png",
+          "price": 8069,
+          "shippingFee": 0,
+          "inStock": true,
+          "url": "https://www.vatanbilgisayar.com/arama/Cosori%20Dual%20Blaze%206.4L%20%C3%87ift%20Is%C4%B1t%C4%B1c%C4%B1l%C4%B1%20Ak%C4%B1ll%C4%B1%20Airfryer",
+          "rating": 4.8
+        },
+        {
+          "storeName": "Amazon Türkiye",
+          "storeLogo": "/images/stores/amazon.png",
+          "price": 7759,
+          "shippingFee": 0,
+          "inStock": true,
+          "url": "https://www.amazon.com.tr/s?k=Cosori%20Dual%20Blaze%206.4L%20%C3%87ift%20Is%C4%B1t%C4%B1c%C4%B1l%C4%B1%20Ak%C4%B1ll%C4%B1%20Airfryer",
+          "rating": 4.8
+        },
+        {
+          "storeName": "Teknosa",
+          "storeLogo": "/images/stores/teknosa.png",
+          "price": 8019,
+          "shippingFee": 0,
+          "inStock": true,
+          "url": "https://www.teknosa.com/arama?s=Cosori%20Dual%20Blaze%206.4L%20%C3%87ift%20Is%C4%B1t%C4%B1c%C4%B1l%C4%B1%20Ak%C4%B1ll%C4%B1%20Airfryer",
+          "rating": 4.8
+        }
+      ],
+      "priceHistory": [
+        {
+          "date": "Ekim 2025",
+          "price": 8890
+        },
+        {
+          "date": "Kasım 2025",
+          "price": 8660
+        },
+        {
+          "date": "Aralık 2025",
+          "price": 8420
+        },
+        {
+          "date": "Ocak 2026",
+          "price": 8190
+        },
+        {
+          "date": "Şubat 2026",
+          "price": 7950
+        },
+        {
+          "date": "Ağustos 2026",
+          "price": 7800
+        }
+      ],
+      "specs": {
+        "subCategory": "airfryer",
+        "subCategoryLabel": "Airfryer / Sıcak Hava Fritözü",
+        "powerWatts": 1750,
+        "capacity": "6.4 Litre",
+        "programsCount": 12,
+        "appControl": true,
+        "material": "Alüminyum & Yapışmaz Seramik",
+        "weightKg": 6.22,
+        "warrantyYears": 2,
+        "color": "Koyu Gri / Mat Siyah",
+        "masterCategory": "kitchen",
+        "masterCategoryLabel": "Mutfak Aletleri"
+      },
+      "subCategoryLabel": "Airfryer / Sıcak Hava Fritözü",
+      "minPrice": 7999,
+      "maxPrice": 8959
+    },
+    {
+      "id": "arzum-okka-grandio-duo",
+      "slug": "arzum-okka-grandio-duo",
+      "name": "Arzum OKKA Grandio Duo Dokunmatik Türk Kahvesi Makinesi",
+      "brand": "Arzum",
+      "category": "appliances",
+      "subCategory": "coffee_machine",
+      "basePrice": 7259,
+      "currency": "TL",
+      "rating": 4.8,
+      "reviewCount": 920,
+      "releaseYear": 2024,
+      "isPopular": true,
+      "isFeatured": false,
+      "highlights": [
+        "Aynı Anda 10 Fincana Kadar Bol Köpüklü Türk Kahvesi",
+        "Közde Pişirme Teknolojisi ile Geleneksel Ağır Pişirme Lezzeti",
+        "Akıllı Su Teknolojisi: Fincan Boyutunu Seçin, Suyu Otomatik Alsın",
+        "Taşma Önleyici Akıllı Pişirme Sensörü & Dokunmatik Panel"
+      ],
+      "image": "/images/products/appliances/icecat-philips-5000-hd9339-80.jpg",
+      "images": [
+        "/images/products/appliances/icecat-philips-5000-hd9339-80.jpg"
+      ],
+      "storeOffers": [
+        {
+          "storeName": "Hepsiburada",
+          "storeLogo": "/images/stores/hepsiburada.png",
+          "price": 7299,
+          "shippingFee": 0,
+          "inStock": true,
+          "url": "https://www.hepsiburada.com/ara?q=Arzum%20OKKA%20Grandio%20Duo%20Dokunmatik%20T%C3%BCrk%20Kahvesi%20Makinesi",
+          "rating": 4.8
+        },
+        {
+          "storeName": "Trendyol",
+          "storeLogo": "/images/stores/trendyol.png",
+          "price": 7389,
+          "shippingFee": 0,
+          "inStock": true,
+          "url": "https://www.trendyol.com/sr?q=Arzum%20OKKA%20Grandio%20Duo%20Dokunmatik%20T%C3%BCrk%20Kahvesi%20Makinesi",
+          "rating": 4.8
+        },
+        {
+          "storeName": "MediaMarkt",
+          "storeLogo": "/images/stores/mediamarkt.png",
+          "price": 7479,
+          "shippingFee": 0,
+          "inStock": true,
+          "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Arzum%20OKKA%20Grandio%20Duo%20Dokunmatik%20T%C3%BCrk%20Kahvesi%20Makinesi",
+          "rating": 4.8
+        },
+        {
+          "storeName": "Vatan Bilgisayar",
+          "storeLogo": "/images/stores/vatan.png",
+          "price": 7549,
+          "shippingFee": 0,
+          "inStock": true,
+          "url": "https://www.vatanbilgisayar.com/arama/Arzum%20OKKA%20Grandio%20Duo%20Dokunmatik%20T%C3%BCrk%20Kahvesi%20Makinesi",
+          "rating": 4.8
+        },
+        {
+          "storeName": "Amazon Türkiye",
+          "storeLogo": "/images/stores/amazon.png",
+          "price": 7259,
+          "shippingFee": 0,
+          "inStock": true,
+          "url": "https://www.amazon.com.tr/s?k=Arzum%20OKKA%20Grandio%20Duo%20Dokunmatik%20T%C3%BCrk%20Kahvesi%20Makinesi",
+          "rating": 4.8
+        },
+        {
+          "storeName": "Teknosa",
+          "storeLogo": "/images/stores/teknosa.png",
+          "price": 7499,
+          "shippingFee": 0,
+          "inStock": true,
+          "url": "https://www.teknosa.com/arama?s=Arzum%20OKKA%20Grandio%20Duo%20Dokunmatik%20T%C3%BCrk%20Kahvesi%20Makinesi",
+          "rating": 4.8
+        }
+      ],
+      "priceHistory": [
+        {
+          "date": "Ekim 2025",
+          "price": 8320
+        },
+        {
+          "date": "Kasım 2025",
+          "price": 8100
+        },
+        {
+          "date": "Aralık 2025",
+          "price": 7880
+        },
+        {
+          "date": "Ocak 2026",
+          "price": 7660
+        },
+        {
+          "date": "Şubat 2026",
+          "price": 7440
+        },
+        {
+          "date": "Ağustos 2026",
+          "price": 7300
+        }
+      ],
+      "specs": {
+        "subCategory": "coffee_machine",
+        "subCategoryLabel": "Türk Kahvesi Makinesi",
+        "powerWatts": 1400,
+        "capacity": "10 Fincan (2.3 Litre su tankı)",
+        "programsCount": 3,
+        "material": "Paslanmaz Çelik & Dokunmatik Cam Panel",
+        "weightKg": 4.1,
+        "warrantyYears": 3,
+        "color": "Krom / Bakır / Siyah",
+        "masterCategory": "kitchen",
+        "masterCategoryLabel": "Mutfak Aletleri"
+      },
+      "subCategoryLabel": "Türk Kahvesi Makinesi",
+      "minPrice": 7499,
+      "maxPrice": 8399
+    },
+    {
+      "id": "karaca-caysever-robotea-connect",
+      "slug": "karaca-caysever-robotea-connect",
+      "name": "Karaca Çaysever Robotea Connect Akıllı Çay Makinesi",
+      "brand": "Karaca",
+      "category": "appliances",
+      "subCategory": "tea_maker",
+      "basePrice": 5769,
+      "currency": "TL",
+      "rating": 4.8,
+      "reviewCount": 1420,
+      "releaseYear": 2024,
+      "isPopular": true,
+      "isFeatured": true,
+      "highlights": [
+        "Otomatik Çay Demleme: Suyu Kaynatır, Yaprakları Kendi Demler ve Sesli Bildirir",
+        "Distilasyon Tekniği ile Çayın Acılaşmasını Önleyen Tazelik Koruması",
+        "Karaca Connect Uygulaması ile Yataktan veya İşten Çayı Hazırlama",
+        "Biberon Maması ve Filtre Kahve için Özel Sıcaklık Kademeleri"
+      ],
+      "image": "/images/products/appliances/icecat-philips-5000-hd9339-80.jpg",
+      "images": [
+        "/images/products/appliances/icecat-philips-5000-hd9339-80.jpg"
+      ],
+      "storeOffers": [
+        {
+          "storeName": "Hepsiburada",
+          "storeLogo": "/images/stores/hepsiburada.png",
+          "price": 5799,
+          "shippingFee": 0,
+          "inStock": true,
+          "url": "https://www.hepsiburada.com/ara?q=Karaca%20%C3%87aysever%20Robotea%20Connect%20Ak%C4%B1ll%C4%B1%20%C3%87ay%20Makinesi",
+          "rating": 4.8
+        },
+        {
+          "storeName": "Trendyol",
+          "storeLogo": "/images/stores/trendyol.png",
+          "price": 5869,
+          "shippingFee": 0,
+          "inStock": true,
+          "url": "https://www.trendyol.com/sr?q=Karaca%20%C3%87aysever%20Robotea%20Connect%20Ak%C4%B1ll%C4%B1%20%C3%87ay%20Makinesi",
+          "rating": 4.8
+        },
+        {
+          "storeName": "MediaMarkt",
+          "storeLogo": "/images/stores/mediamarkt.png",
+          "price": 5939,
+          "shippingFee": 0,
+          "inStock": true,
+          "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Karaca%20%C3%87aysever%20Robotea%20Connect%20Ak%C4%B1ll%C4%B1%20%C3%87ay%20Makinesi",
+          "rating": 4.8
+        },
+        {
+          "storeName": "Vatan Bilgisayar",
+          "storeLogo": "/images/stores/vatan.png",
+          "price": 5999,
+          "shippingFee": 0,
+          "inStock": true,
+          "url": "https://www.vatanbilgisayar.com/arama/Karaca%20%C3%87aysever%20Robotea%20Connect%20Ak%C4%B1ll%C4%B1%20%C3%87ay%20Makinesi",
+          "rating": 4.8
+        },
+        {
+          "storeName": "Amazon Türkiye",
+          "storeLogo": "/images/stores/amazon.png",
+          "price": 5769,
+          "shippingFee": 0,
+          "inStock": true,
+          "url": "https://www.amazon.com.tr/s?k=Karaca%20%C3%87aysever%20Robotea%20Connect%20Ak%C4%B1ll%C4%B1%20%C3%87ay%20Makinesi",
+          "rating": 4.8
+        },
+        {
+          "storeName": "Teknosa",
+          "storeLogo": "/images/stores/teknosa.png",
+          "price": 5959,
+          "shippingFee": 0,
+          "inStock": true,
+          "url": "https://www.teknosa.com/arama?s=Karaca%20%C3%87aysever%20Robotea%20Connect%20Ak%C4%B1ll%C4%B1%20%C3%87ay%20Makinesi",
+          "rating": 4.8
+        }
+      ],
+      "priceHistory": [
+        {
+          "date": "Ekim 2025",
+          "price": 6610
+        },
+        {
+          "date": "Kasım 2025",
+          "price": 6440
+        },
+        {
+          "date": "Aralık 2025",
+          "price": 6260
+        },
+        {
+          "date": "Ocak 2026",
+          "price": 6090
+        },
+        {
+          "date": "Şubat 2026",
+          "price": 5910
+        },
+        {
+          "date": "Ağustos 2026",
+          "price": 5800
+        }
+      ],
+      "specs": {
+        "subCategory": "tea_maker",
+        "subCategoryLabel": "Otomatik Çay Makinesi & Kettle",
+        "powerWatts": 2500,
+        "capacity": "1.5 Litre Su Isıtıcı + 0.8 Litre Cam Demlik",
+        "programsCount": 4,
+        "appControl": true,
+        "material": "Borosilikat Cam & Paslanmaz Çelik",
+        "weightKg": 2.8,
+        "warrantyYears": 2,
+        "color": "Siyah / Rose Gold",
+        "masterCategory": "kitchen",
+        "masterCategoryLabel": "Mutfak Aletleri"
+      },
+      "subCategoryLabel": "Otomatik Çay Makinesi & Kettle",
+      "minPrice": 5999,
+      "maxPrice": 6719
+    },
+    {
+      "id": "nutribullet-pro-900w",
+      "slug": "nutribullet-pro-900w",
+      "name": "Nutribullet Pro 900W Kişisel Blender ve Smoothie Makinesi",
+      "brand": "Nutribullet",
+      "category": "appliances",
+      "subCategory": "blender",
+      "basePrice": 3829,
+      "currency": "TL",
+      "rating": 4.8,
+      "reviewCount": 3890,
+      "releaseYear": 2024,
+      "isPopular": true,
+      "isFeatured": false,
+      "highlights": [
+        "900W Güçlü Motor & Siklonik Bıçak Hareketi",
+        "Buz Kırma, Sert Kuruyemiş & Pürüzsüz Smoothie Uzmanı",
+        "BPA-Free 900 ml & 700 ml Taşınabilir Seyahat Bardakları",
+        "Kolay Temizlenebilir, Saniyeler İçinde Karıştır ve Çık"
+      ],
+      "image": "/images/products/appliances/icecat-philips-5000-hd9339-80.jpg",
+      "images": [
+        "/images/products/appliances/icecat-philips-5000-hd9339-80.jpg"
+      ],
+      "storeOffers": [
+        {
+          "storeName": "Hepsiburada",
+          "storeLogo": "/images/stores/hepsiburada.png",
+          "price": 3849,
+          "shippingFee": 0,
+          "inStock": true,
+          "url": "https://www.hepsiburada.com/ara?q=Nutribullet%20Pro%20900W%20Ki%C5%9Fisel%20Blender%20ve%20Smoothie%20Makinesi",
+          "rating": 4.8
+        },
+        {
+          "storeName": "Trendyol",
+          "storeLogo": "/images/stores/trendyol.png",
+          "price": 3899,
+          "shippingFee": 0,
+          "inStock": true,
+          "url": "https://www.trendyol.com/sr?q=Nutribullet%20Pro%20900W%20Ki%C5%9Fisel%20Blender%20ve%20Smoothie%20Makinesi",
+          "rating": 4.8
+        },
+        {
+          "storeName": "MediaMarkt",
+          "storeLogo": "/images/stores/mediamarkt.png",
+          "price": 3949,
+          "shippingFee": 0,
+          "inStock": true,
+          "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Nutribullet%20Pro%20900W%20Ki%C5%9Fisel%20Blender%20ve%20Smoothie%20Makinesi",
+          "rating": 4.8
+        },
+        {
+          "storeName": "Vatan Bilgisayar",
+          "storeLogo": "/images/stores/vatan.png",
+          "price": 3979,
+          "shippingFee": 0,
+          "inStock": true,
+          "url": "https://www.vatanbilgisayar.com/arama/Nutribullet%20Pro%20900W%20Ki%C5%9Fisel%20Blender%20ve%20Smoothie%20Makinesi",
+          "rating": 4.8
+        },
+        {
+          "storeName": "Amazon Türkiye",
+          "storeLogo": "/images/stores/amazon.png",
+          "price": 3829,
+          "shippingFee": 0,
+          "inStock": true,
+          "url": "https://www.amazon.com.tr/s?k=Nutribullet%20Pro%20900W%20Ki%C5%9Fisel%20Blender%20ve%20Smoothie%20Makinesi",
+          "rating": 4.8
+        },
+        {
+          "storeName": "Teknosa",
+          "storeLogo": "/images/stores/teknosa.png",
+          "price": 3959,
+          "shippingFee": 0,
+          "inStock": true,
+          "url": "https://www.teknosa.com/arama?s=Nutribullet%20Pro%20900W%20Ki%C5%9Fisel%20Blender%20ve%20Smoothie%20Makinesi",
+          "rating": 4.8
+        }
+      ],
+      "priceHistory": [
+        {
+          "date": "Ekim 2025",
+          "price": 4390
+        },
+        {
+          "date": "Kasım 2025",
+          "price": 4270
+        },
+        {
+          "date": "Aralık 2025",
+          "price": 4160
+        },
+        {
+          "date": "Ocak 2026",
+          "price": 4040
+        },
+        {
+          "date": "Şubat 2026",
+          "price": 3930
+        },
+        {
+          "date": "Ağustos 2026",
+          "price": 3850
+        }
+      ],
+      "specs": {
+        "subCategory": "blender",
+        "subCategoryLabel": "Smoothie & Kişisel Blender",
+        "powerWatts": 900,
+        "capacity": "900 ml ve 700 ml Bardak",
+        "programsCount": 1,
+        "material": "Paslanmaz Çelik Bıçak & Tritan Bardak",
+        "weightKg": 2.7,
+        "warrantyYears": 2,
+        "color": "Şampanya / Gümüş",
+        "masterCategory": "kitchen",
+        "masterCategoryLabel": "Mutfak Aletleri"
+      },
+      "subCategoryLabel": "Smoothie & Kişisel Blender",
+      "minPrice": 3999,
+      "maxPrice": 4479
+    }
+  ]
+}

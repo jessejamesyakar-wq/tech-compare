@@ -37,6 +37,7 @@ export function ProductJsonLd({ product, canonicalUrl }: ProductJsonLdProps) {
     const single = verifiedFreshOffers[0];
     offersSchema = {
       '@type': 'Offer',
+      ...(single.variantName ? { itemOffered: { '@type': 'Product', name: single.observationEvidence?.title || `${product.name} - ${single.variantName}`, color: single.variantName, ...(single.observationEvidence?.manufacturerPartNumber ? { mpn: single.observationEvidence.manufacturerPartNumber } : {}) } } : {}),
       priceCurrency: 'TRY',
       price: single.price,
       availability: 'https://schema.org/InStock',
@@ -55,6 +56,7 @@ export function ProductJsonLd({ product, canonicalUrl }: ProductJsonLdProps) {
       offerCount: verifiedFreshOffers.length,
       offers: verifiedFreshOffers.map((o) => ({
         '@type': 'Offer',
+        ...(o.variantName ? { itemOffered: { '@type': 'Product', name: o.observationEvidence?.title || `${product.name} - ${o.variantName}`, color: o.variantName, ...(o.observationEvidence?.manufacturerPartNumber ? { mpn: o.observationEvidence.manufacturerPartNumber } : {}) } } : {}),
         priceCurrency: 'TRY',
         price: o.price,
         availability: 'https://schema.org/InStock',

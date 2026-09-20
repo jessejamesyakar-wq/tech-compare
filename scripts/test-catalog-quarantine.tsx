@@ -21,27 +21,32 @@ import type {Product} from '../src/lib/types';
 const {checkPendingCatalogData}=require('./catalogDataReview.cjs');
 const archive=JSON.parse(readFileSync('data/catalog_archives/huawei-generated-data-2026-09-20.json','utf8'));
 const review=JSON.parse(readFileSync('data/catalog_data_reviews.json','utf8'));
+// This suite owns the archived Huawei group; other category reviews are checked
+// by their own suites and the all-catalog pre-deploy/import guard.
+const huaweiIds=new Set(archive.original.map((p:any)=>p.id));
+const huaweiReviews=review.entries.filter((e:any)=>huaweiIds.has(e.id));
 let passed=0;
 async function check(label:string,run:()=>unknown){await run();passed++;console.log('PASS: '+label);}
 async function main(){
 await check('All 396 original records retained; every catalog identity still resolves',()=>{
- assert.equal(archive.original.length,396);assert.equal(review.entries.length,396);
+ assert.equal(archive.original.length,396);assert.equal(huaweiReviews.length,396);
  for(const old of archive.original){const p=phones.find(p=>p.id===old.id)!;assert.ok(p);
   for(const key of ['id','slug','name','brand','category'])assert.equal((p as any)[key],old[key]);
   assert.equal(getProductById(old.id)!.id,p.id);assert.equal(getProductById(old.slug)!.id,p.id);
  }
 });
-await check('392 technical records remain explicitly incomplete, never counted as corrected',()=>{
+await check('390 technical records remain explicitly incomplete, never counted as corrected',()=>{
  const incomplete=phones.filter(p=>p.brand==='Huawei'&&!Object.keys(p.specs).length);
- assert.equal(incomplete.length,392);
+ assert.equal(incomplete.length,390);
+ assert.deepEqual(incomplete.map(p=>p.id).sort(),review.entries.filter((e:any)=>e.fieldsAwaitingSource.includes('specs')).map((e:any)=>e.id).sort());
  for(const p of incomplete){assert.match(getSpecVerificationNotice(p as unknown as Product)!,/doğrulaması bekliyor/);assert.equal(p.highlights?.length,0);}
 });
 await check('Pending fields cannot silently regain prices, ratings, stock, history or specs',()=>{
- assert.deepEqual(checkPendingCatalogData(phones,review.entries),[]);
+ assert.deepEqual(checkPendingCatalogData(phones,huaweiReviews),[]);
  const first=review.entries.find((e:any)=>e.fieldsAwaitingSource.includes('specs'));
  for(const [field,value] of Object.entries({basePrice:2479,rating:4.8,reviewCount:999,releaseYear:2024,specs:{battery:'2100 mAh'},storeOffers:[{price:2499,inStock:true}],priceHistory:[{price:2500,date:'2026-09-01'}]})){
   const next=structuredClone(phones) as any[];next.find(p=>p.id===first.id)[field]=value;
-  assert.ok(checkPendingCatalogData(next,review.entries).some((e:string)=>e.includes(first.id+':'+field)),field);
+  assert.ok(checkPendingCatalogData(next,huaweiReviews).some((e:string)=>e.includes(first.id+':'+field)),field);
  }
 });
 await check('Known synthetic values cannot leak through pricing, listing, schema or sources',()=>{
@@ -80,13 +85,13 @@ await check('Legacy price writers stop before file, network or module access',()
 });
 await check('Compare API uses fresh direct offers only; base/unknown stock/search/stale rejected',async()=>{
  const snapshot=getStoredProducts().map(p=>p.id);const base=getProductById('huawei-pura-70-pro')!;
- const fixture={...base,id:'test-quarantine-compare-api',slug:'test-quarantine-compare-api',name:'Quarantinex Fixturezx',brand:'Quarantinex',basePrice:50000};
+ const fixture={...base,id:'test-quarantine-compare-api',slug:'test-quarantine-compare-api',name:'Quarantinex Fixturezx (512 GB)',brand:'Quarantinex',basePrice:50000};
  assert.ok(!snapshot.includes(fixture.id));
  const offer={storeName:'Hepsiburada',storeLogo:'',url:'https://www.hepsiburada.com/test-p-HB0001',price:42000,inStock:true,lastCheckedAt:new Date(Date.now()-3600000).toISOString()};
  try{
   for(const offers of [[],[{...offer,inStock:undefined}],[{...offer,url:'https://www.hepsiburada.com/ara?q=test'}],[{...offer,lastCheckedAt:new Date(Date.now()-48*3600000).toISOString()}],[offer]]){
    await saveProduct({...fixture,storeOffers:offers});
-   const response=await compareApi(new NextRequest('http://localhost/api/compare?q=Quarantinex%20Fixturezx'));const body=await response.json();
+   const response=await compareApi(new NextRequest('http://localhost/api/compare?q=Quarantinex%20Fixturezx%20512GB'));const body=await response.json();
    if(offers[0]===offer)assert.equal(body.match?.bestPrice,42000);else assert.equal(body.match,null);
   }
  }finally{await deleteProduct(fixture.id);assert.deepEqual(getStoredProducts().map(p=>p.id),snapshot);}

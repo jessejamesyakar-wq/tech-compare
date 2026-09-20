@@ -20,7 +20,6 @@ import { useCompare } from '@/context/CompareContext';
 
 const PriceHistoryChart = dynamic(() => import('@/components/detail/PriceHistoryChart').then(m => m.PriceHistoryChart), { loading: () => <div className="h-64 bg-slate-50 rounded-3xl animate-pulse" /> });
 const PriceAlertModal = dynamic(() => import('@/components/detail/PriceAlertModal').then(m => m.PriceAlertModal), { ssr: false });
-const BrandLogoBar = dynamic(() => import('@/components/catalog/BrandLogoBar').then(m => m.BrandLogoBar));
 const LaptopSpecSheet = dynamic(() => import('@/components/detail/LaptopSpecSheet').then(m => m.LaptopSpecSheet), { loading: () => <div className="h-64 bg-slate-50 rounded-3xl animate-pulse" /> });
 
 import {

@@ -47,11 +47,7 @@ export class PttAvmStoreAdapter extends BaseStoreAdapter {
       return null;
     }
 
-    return {
-      storeProductId: storeProduct.storeProductId,
-      inStock: true,
-      stockStatus: 'IN_STOCK',
-      checkedAt: new Date().toISOString(),
-    };
+    // Credentials alone are not an observed stock response. This adapter is not implemented yet.
+    return null;
   }
 }

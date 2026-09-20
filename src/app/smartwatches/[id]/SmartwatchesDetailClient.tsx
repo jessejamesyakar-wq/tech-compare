@@ -1,6 +1,7 @@
 'use client';
 
-import { formatSpecValue } from '@/lib/specFormatting';
+import { SmartwatchSpecSheet } from '@/components/detail/SmartwatchSpecSheet';
+import { ProductSpecSources } from '@/components/detail/ProductSpecSources';
 
 import { ProductPriceSummary } from '@/components/detail/ProductPriceSummary';
 import { ReviewAvailability } from '@/components/detail/ReviewAvailability';
@@ -100,7 +101,6 @@ export default function SmartwatchesDetailClient({ initialProduct }: { initialPr
   }
 
   const inCompare = isInCompare(product.id);
-  const specs = (product.specs as Record<string, string>) || {};
 
   return (
     <div className="min-h-screen bg-slate-50/50 pb-20 pt-4">
@@ -204,17 +204,8 @@ export default function SmartwatchesDetailClient({ initialProduct }: { initialPr
             <span>Teknik Özellikler</span>
           </h2>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-            {Object.entries(specs).map(([key, value]) => {
-              if (value === undefined || value === null || value === '') return null;
-              return (
-                <div key={key} className="bg-slate-50 p-4 rounded-2xl border border-slate-100">
-                  <span className="text-[10px] font-bold text-slate-400 uppercase tracking-wider block">{key}</span>
-                  <span className="text-xs font-black text-slate-900 break-words min-w-0">{formatSpecValue(value)}</span>
-                </div>
-              );
-            })}
-          </div>
+          <ProductSpecSources product={product} />
+          <SmartwatchSpecSheet product={product} />
         </div>
       </div>
 

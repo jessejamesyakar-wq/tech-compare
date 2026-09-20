@@ -36,6 +36,8 @@ export interface BaseProduct {
   image: string;
   images?: string[];
   rating?: number;
+  /** Evidence for this exact image; never verifies commercial or technical data. */
+  imageSource?: { imagePath: string; sourceUrl: string; checkedAt: string; scopeNote: string };
   aceleEtmeScore?: number;
   epeyScore?: number;
   reviewCount?: number;
@@ -56,7 +58,7 @@ export interface BaseProduct {
   tags?: string[];
   storeOffers: StoreOffer[];
   priceHistory: PriceHistoryPoint[];
-  colorOptions?: { name: string; hex: string }[];
+  colorOptions?: { name: string; hex: string; image?: string; images?: string[] }[];
   variants?: ProductVariant[];
   sourceType?: 'manufacturer' | 'retailer' | 'distributor' | 'unverified';
   sourceUrl?: string;
@@ -344,9 +346,19 @@ export interface StoreOffer {
   sourceType?: 'manufacturer' | 'retailer' | 'distributor' | 'unverified';
   verifiedAt?: string;
   variantName?: string;
+  variantId?: string;
+  observationEvidence?: {
+    merchantSku: string;
+    title: string;
+    manufacturerPartNumber?: string;
+    currency: 'TRY';
+    responseSha256: string;
+  };
 }
 
 export interface PriceHistoryPoint {
+  variantId?: string;
+  variantName?: string;
   date: string;
   price: number;
   store?: string;

@@ -251,6 +251,7 @@ export function CompactProductCard({
         )}
       </div>
 
+      {evaluatedPrice.variantLabel && <p className="text-xs font-semibold text-slate-600 mt-2">{evaluatedPrice.variantLabel}</p>}
       {/* Seller & Price Comparison Info */}
       <div className="mt-2.5 sm:mt-3 pt-2 sm:pt-2.5 border-t border-slate-100/90 space-y-1.5 sm:space-y-2">
         <div>

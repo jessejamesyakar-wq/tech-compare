@@ -30562,9 +30562,9 @@ export const mockAppliances: Product[] = [
       "4.8 Litre ve 3 Litre İkili Paslanmaz Çelik Kase",
       "Hamur Çengeli, Düz Çırpıcı ve Tel Çırpıcı Dahil"
     ],
-    "image": "/images/products/appliances/icecat-philips-5000-hd9339-80.jpg",
+    "image": "/images/appliances/verified/kitchenaid-artisan-4-8l.jpg",
     "images": [
-      "/images/products/appliances/icecat-philips-5000-hd9339-80.jpg"
+      "/images/appliances/verified/kitchenaid-artisan-4-8l.jpg"
     ],
     "storeOffers": [
       {
@@ -30668,7 +30668,13 @@ export const mockAppliances: Product[] = [
     },
     "subCategoryLabel": "Stand Mikser / Mutfak Şefi",
     "minPrice": 28999,
-    "maxPrice": 32479
+    "maxPrice": 32479,
+    "imageSource": {
+      "imagePath": "/images/appliances/verified/kitchenaid-artisan-4-8l.jpg",
+      "sourceUrl": "https://www.kitchenaid.co.uk/mixers/medium/859701515010/mixer-tilt-head-4-7l-artisan-with-extra-accessories-5ksm175-empire-red",
+      "checkedAt": "2026-09-20T10:51:27.492Z",
+      "scopeNote": "Artisan ailesinin Empire Red 5KSM175PS üretici fotoğrafı. Kayıtta tam SKU yoktur; kutu içeriği ve satıcı varyantı doğrulanmadı. Üretici FAQ sayfası 5KSM175PS modelini 4,8 L ailesinde listeler; güncel ürün sayfası 4,7 L adını kullanır. Fotoğraf teknik kapasite doğrulaması değildir."
+    }
   },
   {
     "id": "dyson-airwrap-id-vinca-blue",
@@ -32995,9 +33001,9 @@ export const mockAppliances: Product[] = [
       "VeSync Mobil Uygulama ile Wi-Fi Uzaktan Kontrol ve Tarifler",
       "12 Özelleştirilebilir Pişirme Programı ve Bulaşık Makinesinde Yıkanabilir"
     ],
-    "image": "/images/products/appliances/icecat-philips-5000-hd9339-80.jpg",
+    "image": "/images/appliances/verified/cosori-dual-blaze-6-4l.jpg",
     "images": [
-      "/images/products/appliances/icecat-philips-5000-hd9339-80.jpg"
+      "/images/appliances/verified/cosori-dual-blaze-6-4l.jpg"
     ],
     "storeOffers": [
       {
@@ -33097,7 +33103,13 @@ export const mockAppliances: Product[] = [
     },
     "subCategoryLabel": "Airfryer / Sıcak Hava Fritözü",
     "minPrice": 7999,
-    "maxPrice": 8959
+    "maxPrice": 8959,
+    "imageSource": {
+      "imagePath": "/images/appliances/verified/cosori-dual-blaze-6-4l.jpg",
+      "sourceUrl": "https://cosori.co.uk/products/cosori-dual-blaze-6-4l-smart-air-fryer",
+      "checkedAt": "2026-09-20T10:51:27.492Z",
+      "scopeNote": "Dual Blaze 6,4 L üretici ürün fotoğrafı; İngiltere sayfasından alınmıştır. Görseldeki telefon uygulamayı gösterir, satış paketine dahil değildir. Türkiye fişi, garanti ve kutu içeriği bu fotoğraftan doğrulanmaz."
+    }
   },
   {
     "id": "arzum-okka-grandio-duo",
@@ -33119,9 +33131,9 @@ export const mockAppliances: Product[] = [
       "Akıllı Su Teknolojisi: Fincan Boyutunu Seçin, Suyu Otomatik Alsın",
       "Taşma Önleyici Akıllı Pişirme Sensörü & Dokunmatik Panel"
     ],
-    "image": "/images/products/appliances/icecat-philips-5000-hd9339-80.jpg",
+    "image": "/images/appliances/verified/arzum-okka-grandio-duo.png",
     "images": [
-      "/images/products/appliances/icecat-philips-5000-hd9339-80.jpg"
+      "/images/appliances/verified/arzum-okka-grandio-duo.png"
     ],
     "storeOffers": [
       {
@@ -33220,7 +33232,13 @@ export const mockAppliances: Product[] = [
     },
     "subCategoryLabel": "Türk Kahvesi Makinesi",
     "minPrice": 7499,
-    "maxPrice": 8399
+    "maxPrice": 8399,
+    "imageSource": {
+      "imagePath": "/images/appliances/verified/arzum-okka-grandio-duo.png",
+      "sourceUrl": "https://www.arzum.com.tr/Data/EditorFiles/kullanma-kilavuzlari/8693184910412.pdf",
+      "checkedAt": "2026-09-20T10:51:27.492Z",
+      "scopeNote": "OKKA Grandio Duo üretici kılavuzunun kapak sayfasındaki özgün ürün görseli (Im0). Siyah görünüm gösterilir; satıcı renk/SKU seçimi ve stok doğrulaması değildir."
+    }
   },
   {
     "id": "karaca-caysever-robotea-connect",
@@ -33242,9 +33260,9 @@ export const mockAppliances: Product[] = [
       "Karaca Connect Uygulaması ile Yataktan veya İşten Çayı Hazırlama",
       "Biberon Maması ve Filtre Kahve için Özel Sıcaklık Kademeleri"
     ],
-    "image": "/images/products/appliances/icecat-philips-5000-hd9339-80.jpg",
+    "image": "/images/product-unverified.svg",
     "images": [
-      "/images/products/appliances/icecat-philips-5000-hd9339-80.jpg"
+      "/images/product-unverified.svg"
     ],
     "storeOffers": [
       {
@@ -33366,9 +33384,9 @@ export const mockAppliances: Product[] = [
       "BPA-Free 900 ml & 700 ml Taşınabilir Seyahat Bardakları",
       "Kolay Temizlenebilir, Saniyeler İçinde Karıştır ve Çık"
     ],
-    "image": "/images/products/appliances/icecat-philips-5000-hd9339-80.jpg",
+    "image": "/images/appliances/verified/nutribullet-pro-900w.jpg",
     "images": [
-      "/images/products/appliances/icecat-philips-5000-hd9339-80.jpg"
+      "/images/appliances/verified/nutribullet-pro-900w.jpg"
     ],
     "storeOffers": [
       {
@@ -33467,7 +33485,13 @@ export const mockAppliances: Product[] = [
     },
     "subCategoryLabel": "Smoothie & Kişisel Blender",
     "minPrice": 3999,
-    "maxPrice": 4479
+    "maxPrice": 4479,
+    "imageSource": {
+      "imagePath": "/images/appliances/verified/nutribullet-pro-900w.jpg",
+      "sourceUrl": "https://www.nutribullet.com/fr-fr/p/nutribullet-pro-900-nutribullet-pro-900-avec-7-accessoires/NB910CP.html?pid=0C22300020",
+      "checkedAt": "2026-09-20T10:51:27.492Z",
+      "scopeNote": "Pro 900 ailesinin şampanya renkli NB910CP üretici set fotoğrafı. Katalog kaydında tam SKU yoktur; resimdeki aksesuarların Türkiye satış paketine dahil olduğu doğrulanmadı."
+    }
   },
   {
     "id": "roborock-q10-s5",

@@ -31,7 +31,6 @@ const PriceAlertModal = dynamic(
   () => import('@/components/detail/PriceAlertModal').then((m) => m.PriceAlertModal),
   { ssr: false }
 );
-const BrandLogoBar = dynamic(() => import('@/components/catalog/BrandLogoBar').then((m) => m.BrandLogoBar));
 import {
   Tv,
   Star,

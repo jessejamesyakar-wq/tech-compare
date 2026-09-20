@@ -1,0 +1,35 @@
+<!doctype html><html lang="tr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Uzantı gösterim testi</title><link rel="stylesheet" href="/widget.css"><style>body{font:16px system-ui;margin:16px;line-height:1.5;background:#f5f7fa;color:#17202a}h1{font-size:22px;overflow-wrap:anywhere}button{padding:10px;margin:3px;min-height:44px}#events{font-size:12px;white-space:pre-wrap;overflow-wrap:anywhere;max-width:600px}#controls{max-width:800px} .note{max-width:620px}</style></head><body>
+<p class="note">Yalnız yerel arayüz testi. Fiyatlar test verisidir; gerçek mağaza veya fiyat beslemesi değildir.</p>
+<h1>Test Phone Başlangıç 512 GB</h1>
+<div id="controls">
+<button data-scenario="normal">Güncel teklif</button><button data-scenario="slow">Yavaş A</button><button data-scenario="fast">Hızlı B</button>
+<button data-scenario="literal">HTML benzeri metin</button><button data-scenario="stale">48 saat eski</button><button data-scenario="badurl">Geçersiz bağlantı</button><button data-scenario="empty">Teklif yok</button>
+<button data-scenario="expiry">Süresi 12 saniyede dolacak</button><button id="url-only">Yalnız URL değiştir</button><button id="finish-title">Yeni başlığı tamamla</button><button id="search">Aramaya geç</button><button id="unrelated">Sayfada başka değişiklik</button>
+</div><p id="sentinel">Metin güvenliği: değişmedi</p><pre id="events" aria-label="Test istek günlüğü"></pre>
+<script>
+// Intentional UI-only transport simulation. No outgoing price request is made.
+const events=document.querySelector('#events'),heading=document.querySelector('h1');
+let expiredAt=null,unrelated=0;
+const names={normal:'Test Phone Güncel 512 GB',slow:'Test Phone Yavaş A 512 GB',fast:'Test Phone Hızlı B 512 GB',literal:'Test Phone <img src=x onerror="document.querySelector(\'#sentinel\').textContent=\'BOZULDU\'"> 512 GB',stale:'Test Phone Eski 512 GB',badurl:'Test Phone Kötü Link 512 GB',empty:'Test Phone Boş 512 GB',expiry:'Test Phone Süre 512 GB'};
+const log=text=>{events.textContent+=text+'\n';};
+function choose(scenario){history.pushState({},'', '/urun/'+scenario);heading.textContent=names[scenario];log('Seçim: '+scenario);}
+document.querySelectorAll('[data-scenario]').forEach(b=>b.addEventListener('click',()=>choose(b.dataset.scenario)));
+document.querySelector('#url-only').onclick=()=>history.pushState({},'','/urun/title-pending');
+document.querySelector('#finish-title').onclick=()=>{heading.textContent='Test Phone Başlık Tamamlandı 512 GB';};
+document.querySelector('#search').onclick=()=>{history.pushState({},'','/search');heading.textContent='Arama sonuçları';};
+document.querySelector('#unrelated').onclick=()=>log('Başka değişiklik: '+(++unrelated));
+window.fetch=async function(url,options){
+ const parsed=new URL(url);if(parsed.origin!=='https://www.aceleetme.tech'||parsed.pathname!=='/api/compare')throw Error('External fetch forbidden');
+ const name=parsed.searchParams.get('q');log('İstek başladı: '+name);
+ if(name===names.slow)await new Promise(resolve=>setTimeout(resolve,3000)); // Deliberately ignore abort; test late response guard.
+ let date=new Date(Date.now()-7200000).toISOString();
+ if(name===names.stale)date=new Date(Date.now()-48*3600000).toISOString();
+ if(name===names.expiry){expiredAt??=Date.now()+12000;date=new Date(expiredAt-86400000).toISOString();}
+ const store=name===names.literal?'<img src=x onerror="alert(1)"> Deneme Mağazası':'Test Mağaza';
+ const price=name===names.fast?43000:42000;
+ const row={store,price,inStock:true,lastCheckedAt:date};
+ const match=name===names.empty?null:{productName:name,bestPrice:price,bestStore:store,lastCheckedAt:date,statusLabel:'Güncel Fiyat',allPrices:[row],aceleetmeUrl:name===names.badurl?'javascript:alert(1)':'https://www.aceleetme.tech/phones/test-only'};
+ log('Yanıt tamamlandı: '+name+(options?.signal?.aborted?' (iptal edilmiş istek)':''));
+ return new Response(JSON.stringify({match}),{status:200,headers:{'content-type':'application/json'}});
+};
+</script><script src="/content.js"></script></body></html>

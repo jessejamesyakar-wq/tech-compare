@@ -1,0 +1,23 @@
+const assert=require('node:assert/strict');
+const {cleanTitle,freshTimestamp,validateMatch,extractProductName,isProductPage}=require('../extension/content.js');
+const now=Date.parse('2026-09-20T12:00:00.000Z');
+const checked='2026-09-20T10:00:00.000Z';
+const row={store:'Test Mağaza',price:42000,inStock:true,lastCheckedAt:checked};
+const good={match:{productName:'Test Phone 512 GB',bestPrice:42000,bestStore:row.store,lastCheckedAt:checked,statusLabel:'Güncel Fiyat',aceleetmeUrl:'https://www.aceleetme.tech/phones/test-phone-512-gb',allPrices:[row]}};
+let passed=0;const check=(name,fn)=>{fn();passed++;console.log('PASS: '+name);};
+check('Current price and original observation timestamp are retained',()=>{const result=validateMatch(good,now);assert.equal(result.best.price,42000);assert.equal(result.best.lastCheckedAt,checked);assert.equal(result.expiresAt,Date.parse(checked)+86400000);});
+check('Exactly 24 hours is current; one millisecond older is not',()=>{assert.equal(freshTimestamp('2026-09-19T12:00:00.000Z',now),now-86400000);assert.equal(freshTimestamp('2026-09-19T11:59:59.999Z',now),null);});
+for(const date of [undefined,'','not-a-date','2026-02-31T12:00:00.000Z','2026-09-20','2026-09-20T12:00:00','2026-09-20T12:00:00.001Z','2026-09-18T12:00:00.000Z'])check('Reject date '+date,()=>assert.equal(freshTimestamp(date,now),null));
+for(const url of ['javascript:alert(1)','https://www.aceleetme.tech.evil.example/phones/x','https://evil.example/phones/x','http://www.aceleetme.tech/phones/x','https://user:pass@www.aceleetme.tech/phones/x','https://www.aceleetme.tech/redirect?url=https://evil.example','https://www.aceleetme.tech/phones','/phones/x'])check('Reject unsafe destination '+url,()=>assert.equal(validateMatch({match:{...good.match,aceleetmeUrl:url}},now),null));
+for(const [key,value] of [['price',0],['price',-1],['price',Infinity],['price',NaN],['price','42000'],['inStock',false],['inStock',undefined],['store',''],['lastCheckedAt',undefined],['lastCheckedAt','2026-09-18T10:00:00.000Z']])check('Reject malformed/stale row '+key+':'+value,()=>assert.equal(validateMatch({match:{...good.match,allPrices:[{...row,[key]:value}]}},now),null));
+for(const change of [{bestPrice:1},{bestStore:'Other'},{lastCheckedAt:'2026-09-20T11:00:00.000Z'},{statusLabel:'fresh'},{allPrices:[]},{allPrices:[null]},{productName:''}])check('Reject inconsistent summary '+Object.keys(change),()=>assert.equal(validateMatch({match:{...good.match,...change}},now),null));
+check('Earliest store observation, not just cheapest, controls expiration',()=>{const extra={...row,store:'Older',price:43000,lastCheckedAt:'2026-09-20T09:00:00.000Z'};assert.equal(validateMatch({match:{...good.match,allPrices:[row,extra]}},now).expiresAt,Date.parse(extra.lastCheckedAt)+86400000);});
+check('HTML-like product/store data remains literal data for DOM text rendering',()=>{const store='<img src=x onerror=alert(1)>';const payload={match:{...good.match,productName:'<script>alert(1)</script>',bestStore:store,allPrices:[{...row,store}]}};const result=validateMatch(payload,now);assert.equal(result.name,payload.match.productName);assert.equal(result.best.store,store);});
+check('Empty current h1 does not reuse stale product metadata',()=>{assert.equal(extractProductName({querySelector:s=>s==='h1'?{textContent:''}:{content:'Old Phone'},title:'Old Phone'},'example.test'),'');});
+check('Product path or explicit product metadata required; search prices are not evidence',()=>{
+ const doc={querySelector:()=>null,body:{innerText:'42.000 TL'}};
+ assert.equal(isProductPage(doc,{pathname:'/search',hostname:'example.test'}),false);assert.equal(isProductPage(doc,{pathname:'/',hostname:'example.test'}),false);
+ for(const pathname of ['/brand/model-p-123','/urun/model','/tr/product/model-123.html'])assert.equal(isProductPage(doc,{pathname,hostname:'example.test'}),true);
+});
+check('Merchant title suffix removal preserves model and capacity',()=>assert.equal(cleanTitle('Phone 16 Pro 512 GB - Hepsiburada Fiyatı'),'Phone 16 Pro 512 GB'));
+console.log(`\nExtension widget validation: ${passed} PASS (pure content-script functions; not browser tests).`);

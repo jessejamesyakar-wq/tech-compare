@@ -1,4 +1,5 @@
 import { BaseProduct, Product, ProductVariant } from './types';
+import { getProductImageSource } from './productImages';
 
 export interface ResolvedColorOption {
   name: string;
@@ -134,8 +135,10 @@ export function resolveActiveColor(
     }
   }
 
-  // 3. Default to the 1st valid color option
-  const first = colors[0];
+  // A reviewed primary photograph must open on its matching color. Explicit
+  // URL selections above still win, including colors whose image is pending.
+  const first = (getProductImageSource(product, product.image)
+    ? colors.find(c => c.image === product.image) : undefined) || colors[0];
   const activeImg = first.image || fallbackImg;
   return {
     selectedColor: first.name,

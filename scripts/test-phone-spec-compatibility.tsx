@@ -101,7 +101,7 @@ check('Readable phone specs stay readable; quarantined specs stay explicitly emp
     if(!(raw.specs as any).screen && !(raw.specs as any).memory) { restored++; assert.equal(hasLegacyPhoneSpecs(p.specs),true,p.slug); }
   }
   assert.ok(restored > 0); // Source corrections may migrate individual records to a mixed/structured schema.
-  assert.equal(pending,392);
+  assert.equal(pending,390);
   console.log(`  ${phones.length} records checked; ${restored} flat records readable, ${pending} explicitly pending. This is NOT source verification.`);
 });
 

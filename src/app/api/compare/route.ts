@@ -4,90 +4,26 @@
 //
 // Tarayıcı uzantısı, kullanıcının gezdiği ürün sayfasındaki ürün adını
 // buraya GET isteğiyle gönderir (?q=...). Bu endpoint, kataloğumuzdaki
-// en yakın eşleşen ürünü bulur ve mağaza fiyatlarını döner.
+// tam model/varyant eşleşmesi varsa güncel mağaza fiyatlarını döner.
 
 import { NextRequest, NextResponse } from "next/server";
 import { getStoredProducts } from "@/lib/adminData";
-import { Product } from "@/lib/types";
 import { getEligibleDirectOffers } from '@/lib/pricing/unifiedPriceEvaluator';
+import { matchExtensionProduct } from '@/lib/extensionProductMatcher';
+import { parseOfferDateToMs } from '@/lib/dateParsing';
 
 interface StorePrice {
   store: string;
   price: number;
   inStock?: boolean;
-}
-
-// Gelişmiş benzerlik skoru: tam model adı, depolama ve çoklu kelime öbeklerine göre akıllı puanlama
-function similarityScore(query: string, product: Product): number {
-  const cleanQ = query.toLowerCase().replace(/[^\w\sğüşıöç]/g, " ").trim();
-  const qTokens = cleanQ.split(/\s+/).filter((w) => w.length > 1);
-
-  const pName = product.name.toLowerCase();
-  const pBrand = product.brand.toLowerCase();
-  const pSlug = product.slug.toLowerCase().replace(/-/g, " ");
-
-  let score = 0;
-
-  // 1. Doğrudan alt dize eşleşmesi
-  if (pName.includes(cleanQ) || cleanQ.includes(pName)) {
-    score += 40;
-  }
-
-  // 2. Kelime bazlı eşleşmeler
-  let tokenMatches = 0;
-  for (const token of qTokens) {
-    if (pBrand === token) {
-      score += 5;
-      tokenMatches++;
-    } else if (pName.includes(token)) {
-      score += token.length >= 4 ? 6 : 3;
-      tokenMatches++;
-    } else if (pSlug.includes(token)) {
-      score += 2;
-      tokenMatches++;
-    }
-  }
-
-  // 3. İkili öbek eşleşmesi (örn. '16 pro max', 's24 ultra', 'poco c81', 'oled tv')
-  for (let i = 0; i < qTokens.length - 1; i++) {
-    const phrase = `${qTokens[i]} ${qTokens[i + 1]}`;
-    if (pName.includes(phrase) || pSlug.includes(phrase)) {
-      score += 15;
-    }
-  }
-
-  // 4. Birebir depolama / RAM eşleşmesi (örn. 256 gb, 512 gb, 1 tb)
-  const qStorage = cleanQ.match(/(\d+)\s*(?:gb|tb)/);
-  const pStorage = pName.match(/(\d+)\s*(?:gb|tb)/);
-  if (qStorage && pStorage) {
-    if (qStorage[0].replace(/\s+/g, "") === pStorage[0].replace(/\s+/g, "")) {
-      score += 25;
-    } else {
-      score -= 10;
-    }
-  }
-
-  return tokenMatches >= 2 ? score : 0;
-}
-
-function findBestMatch(query: string): Product | null {
-  const allProducts = getStoredProducts();
-  let best: { product: Product; score: number } | null = null;
-
-  for (const product of allProducts) {
-    const score = similarityScore(query, product);
-    if (score > 10 && (!best || score > best.score)) {
-      best = { product, score };
-    }
-  }
-
-  return best ? best.product : null;
+  lastCheckedAt?: string;
 }
 
 const CORS_HEADERS = {
   "Access-Control-Allow-Origin": "*",
   "Access-Control-Allow-Methods": "GET, OPTIONS",
   "Access-Control-Allow-Headers": "Content-Type, Authorization",
+  "Cache-Control": "no-store",
 };
 
 export async function OPTIONS() {
@@ -97,17 +33,18 @@ export async function OPTIONS() {
 export async function GET(req: NextRequest) {
   const query = req.nextUrl.searchParams.get("q");
 
-  if (!query || query.trim().length < 3) {
+  if (!query || query.trim().length < 3 || query.length > 500 || /[\u0000-\u001f\u007f]/.test(query) || req.nextUrl.searchParams.getAll('q').length !== 1) {
     return NextResponse.json(
       { match: null, error: "Geçersiz arama sorgusu." },
       { status: 400, headers: CORS_HEADERS }
     );
   }
 
-  const product = findBestMatch(query.trim());
+  const resolved = matchExtensionProduct(query, getStoredProducts());
+  const product = resolved.product;
 
   if (!product) {
-    return NextResponse.json({ match: null }, { headers: CORS_HEADERS });
+    return NextResponse.json({ match: null, reason: resolved.status }, { headers: CORS_HEADERS });
   }
 
   const { freshDirectOffers } = getEligibleDirectOffers(product.storeOffers);
@@ -115,17 +52,18 @@ export async function GET(req: NextRequest) {
     store: offer.storeName,
     price: offer.price,
     inStock: true,
+    lastCheckedAt: new Date(parseOfferDateToMs(offer.lastCheckedAt)).toISOString(),
   }));
 
   if (allPrices.length === 0) {
-    return NextResponse.json({ match: null }, { headers: CORS_HEADERS });
+    return NextResponse.json({ match: null, reason: 'no_fresh_offer' }, { headers: CORS_HEADERS });
   }
 
   // En ucuz fiyatı bul
   const cheapest = allPrices.reduce((min, p) => (p.price < min.price ? p : min), allPrices[0]);
 
   const category = product.category === "smartphones" ? "phones" : product.category || "phones";
-  const slug = product.slug || product.id;
+  const slug = encodeURIComponent(product.slug || product.id);
   const aceleetmeUrl = `https://www.aceleetme.tech/${category}/${slug}`;
 
   return NextResponse.json(
@@ -138,6 +76,8 @@ export async function GET(req: NextRequest) {
         image: product.image,
         bestPrice: cheapest.price,
         bestStore: cheapest.store,
+        lastCheckedAt: cheapest.lastCheckedAt,
+        statusLabel: 'Güncel Fiyat',
         allPrices,
         aceleetmeUrl,
       },
