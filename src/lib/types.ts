@@ -160,57 +160,57 @@ export interface ApplianceProduct extends BaseProduct {
 }
 
 export interface SmartphoneSpecs {
-  screen: {
-    size: string;
-    type: string;
-    resolution: string;
-    refreshRate: number;
+  screen?: {
+    size?: string;
+    type?: string;
+    resolution?: string;
+    refreshRate?: number;
     ppi?: number;
     brightnessNits?: number;
   };
-  processor: {
-    chip: string;
-    cores: string;
+  processor?: {
+    chip?: string;
+    cores?: string;
     process?: string;
     antutuScore?: number;
   };
-  memory: {
+  memory?: {
     ramGb?: number;
     ramType?: string;
-    storageGb: number;
+    storageGb?: number;
     storageOptions?: number[];
     expandableStorage?: boolean;
   };
-  camera: {
-    mainMp: string;
+  camera?: {
+    mainMp?: string;
     ultrawideMp?: string;
     telephotoMp?: string;
-    selfieMp: string;
-    videoRes: string;
+    selfieMp?: string;
+    videoRes?: string;
     dxomarkScore?: number;
   };
-  battery: {
+  battery?: {
     capacitymAh?: number;
     chargingWatts?: number;
     wirelessCharging?: boolean;
     wirelessWatts?: number;
     reverseWireless?: boolean;
   };
-  connectivity: {
-    has5G: boolean;
+  connectivity?: {
+    has5G?: boolean;
     wifiStandard?: string;
     bluetooth?: string;
     hasNFC?: boolean;
     hasesim?: boolean;
   };
-  build: {
+  build?: {
     weightGrams?: number;
     thicknessMm?: number;
     waterResistance?: string;
     frameMaterial?: string;
   };
-  software: {
-    osName: string;
+  software?: {
+    osName?: string;
     updateYears?: number;
   };
 }

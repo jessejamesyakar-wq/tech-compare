@@ -99,7 +99,6 @@
         "cons",
         "storeOffers",
         "priceHistory",
-        "specs",
         "highlights"
       ],
       "reason": "name-generated-specs-and-unverified-commercial-data"

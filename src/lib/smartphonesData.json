@@ -39782,7 +39782,26 @@
     ],
     "storeOffers": [],
     "priceHistory": [],
-    "specs": {},
+    "specs": {
+      "processor": {
+        "chip": "Kirin 960"
+      },
+      "screen": {
+        "size": "5.9 inç",
+        "resolution": "1920 x 1080",
+        "type": "IPS"
+      },
+      "camera": {
+        "mainMp": "12 MP (RGB) + 20 MP (monokrom)",
+        "selfieMp": "8 MP"
+      },
+      "battery": {
+        "capacitymAh": 4000
+      },
+      "build": {
+        "weightGrams": 190
+      }
+    },
     "specVerification": {
       "note": "Bu modelin teknik özellikleri kaynak doğrulaması bekliyor. Doğrulanmamış özellik ve fiyatlar gösterilmiyor.",
       "unresolvedFields": [

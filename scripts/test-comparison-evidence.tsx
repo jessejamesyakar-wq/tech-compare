@@ -62,7 +62,7 @@ check('All public preset identifiers resolve to two real products in their decla
 });
 check('Default comparison uses the exact preset model and capacity',()=>{
  assert.equal(DEFAULT_DUEL_P1.slug,'apple-iphone-16-pro-max-256-gb');
- assert.equal((DEFAULT_DUEL_P1 as Smartphone).specs.memory.storageGb,256);
+ assert.equal((DEFAULT_DUEL_P1 as Smartphone).specs.memory?.storageGb,256);
  assert.equal(DEFAULT_DUEL_P2.slug,'samsung-galaxy-s24-ultra');
  assert.deepEqual([DEFAULT_DUEL_P1.slug,DEFAULT_DUEL_P2.slug],DUEL_PRESETS.smartphones.ids);
 });
