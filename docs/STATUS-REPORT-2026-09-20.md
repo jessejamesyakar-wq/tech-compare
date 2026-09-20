@@ -1,6 +1,6 @@
 # aceleEtme — Yapılanlar ve yapılacaklar
 
-**Tarih:** 20 Eylül 2026  
+**Tarih:** 20 Eylül 2026
 **Kapsam:** Önceki aşamalar, gece denetimi ve son bildirilen teknik özellik sorununun birlikte değerlendirilmesi.
 
 ## Genel durum

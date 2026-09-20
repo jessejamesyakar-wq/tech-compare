@@ -1,8 +1,8 @@
 /**
  * Unified Product Price Evaluator
- * 
+ *
  * Centralizes price evaluation across Search API, AI Resolvers, Product Detail, and Listing pages.
- * 
+ *
  * Strict Freshness & Taxonomy Rules:
  * - Fresh Offer (status: 'fresh'): Direct, non-search, in-stock offer checked within PRICE_FRESHNESS_HOURS (24 hours).
  * - Stale Offer (status: 'stale'): Direct, non-search, in-stock offer checked > 24 hours ago (and <= 30 days old).
@@ -43,7 +43,7 @@ export function getEligibleDirectOffers(rawOffers: StoreOffer[] = [], nowMs = Da
 
   for (const offer of rawOffers) {
     if (!offer || !Number.isFinite(offer.price) || offer.price <= 0) continue;
-    
+
     // Check inStock proof
     if (offer.inStock !== true) continue;
 

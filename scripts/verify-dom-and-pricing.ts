@@ -515,7 +515,7 @@ async function runStrictVerificationSuite() {
 
       // 4.3. Arama Ekranı DOM Denetimi
       console.log('\n4.3. Arama Ekranı DOM Denetimi (Arayüz Gösterim Simülasyonu - /search?q=iphone):');
-      
+
       await page.route('**/api/search*', (route) => {
         route.fulfill({
           status: 200,

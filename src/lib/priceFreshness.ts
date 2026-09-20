@@ -99,7 +99,7 @@ export function isSearchUrl(url?: string, isSearchLinkFlag?: boolean): boolean {
 
   // Search URL patterns (Amazon /s?k=, Gaming.Gen ?s=, Hepsiburada /ara?q=, Trendyol /sr?q=, etc.)
   const searchPattern = /\/ara\?|\/sr\?|\/search|search\.html|search_results|\/arama|\/Arama|query=|[?&]q=|[?&]k=|[?&]s=|\/find\?|\/katalog|\/s\?/i;
-  
+
   if (isSearchLinkFlag === false) {
     if (!searchPattern.test(trimmed)) {
       return false;

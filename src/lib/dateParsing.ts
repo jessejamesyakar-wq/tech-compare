@@ -56,4 +56,3 @@ export function formatObservedDate(value: string | number): string {
     timeZone: 'Europe/Istanbul', day: '2-digit', month: '2-digit', year: 'numeric',
   }).format(timestamp);
 }
-
