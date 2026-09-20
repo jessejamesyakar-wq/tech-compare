@@ -1,15 +1,15 @@
 {
-  "updatedAt": "2026-09-09T01:45:00.000Z",
-  "total": 5838,
+  "updatedAt": "2026-09-20T04:07:43.224Z",
+  "total": 5820,
   "counts": {
-    "smartphones": 893,
-    "tvs": 938,
+    "smartphones": 905,
+    "tvs": 882,
     "laptops": 831,
     "tablets": 557,
     "smartwatches": 136,
     "headphones": 823,
-    "appliances": 956,
-    "monitors": 634,
+    "appliances": 955,
+    "monitors": 661,
     "consoles": 70
   }
 }

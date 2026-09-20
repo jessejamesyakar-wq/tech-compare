@@ -1,6 +1,6 @@
 /**
  * Multi-Store Availability & Anti-False-Positive Shield Engine
- * 
+ *
  * Protects against false-positive matches (e.g. phone cases, accessories, older models)
  * and accurately resolves which of the 15 supported stores carry the product IN_STOCK,
  * which are OUT_OF_STOCK, and which do NOT list the product (NOT_LISTED).
@@ -13,8 +13,9 @@ import {
   StoreKey,
   getStoreSearchUrl,
 } from '@/lib/activeStores';
+import { isSearchUrl, isValidFreshOfferDate, getPriceFreshness } from '@/lib/priceFreshness';
 
-export type StoreOfferStatus = 'IN_STOCK' | 'OUT_OF_STOCK' | 'NOT_LISTED';
+export type StoreOfferStatus = 'IN_STOCK' | 'OUT_OF_STOCK' | 'UNKNOWN' | 'NOT_LISTED';
 
 export interface ValidatedStoreOffer {
   storeKey: StoreKey;
@@ -27,6 +28,10 @@ export interface ValidatedStoreOffer {
   inStock: boolean;
   url: string;
   isReal: boolean;
+  isSearchLink: boolean;
+  lastCheckedAt?: string;
+  shippingInfo?: string;
+  sellerRating?: number;
   rejectionReason?: string;
   matchedTitle?: string;
 }
@@ -37,11 +42,14 @@ export interface StorePresenceReport {
   basePrice: number;
   totalStoresChecked: number;
   inStockCount: number;
+  searchCount: number;
   outOfStockCount: number;
+  unknownStockCount: number;
   notListedCount: number;
   lowestPrice: number | null;
   highestPrice: number | null;
   activeOffers: ValidatedStoreOffer[];
+  searchOffers: ValidatedStoreOffer[];
   unavailableOffers: ValidatedStoreOffer[];
 }
 
@@ -208,6 +216,7 @@ export function validateStoreOffer(
       inStock: false,
       url: defaultSearchUrl,
       isReal: false,
+      isSearchLink: true,
       rejectionReason: 'Mağazada ürün listelenmemiş veya arama sonucu bulunamadı'
     };
   }
@@ -229,6 +238,7 @@ export function validateStoreOffer(
       inStock: false,
       url: offer.url || defaultSearchUrl,
       isReal: false,
+      isSearchLink: true,
       rejectionReason: priceCheck.reason,
       matchedTitle: candidateTitle || target.name
     };
@@ -249,6 +259,7 @@ export function validateStoreOffer(
         inStock: false,
         url: offer.url || defaultSearchUrl,
         isReal: false,
+        isSearchLink: true,
         rejectionReason: `Aksesuar filtresi tetiklendi: '${accessoryCheck.matchedKeyword}'`,
         matchedTitle: candidateTitle
       };
@@ -268,17 +279,35 @@ export function validateStoreOffer(
         inStock: false,
         url: offer.url || defaultSearchUrl,
         isReal: false,
+        isSearchLink: true,
         rejectionReason: modelCheck.reason,
         matchedTitle: candidateTitle
       };
     }
   }
 
-  // Check 4: Stock presence
-  const isOutOfStock = offer.inStock === false || (offer as any).stockStatus === 'OUT_OF_STOCK';
-  const targetUrl = offer.url && offer.url !== '#' && !offer.url.endsWith('.com') && !offer.url.endsWith('.com.tr')
+  // Check 4: Stock presence & verified date proof
+  const hasInStockProof = offer.inStock === true || (offer as any).stockStatus === 'in_stock' || (offer as any).stockStatus === 'IN_STOCK';
+  const isExplicitOutOfStock = offer.inStock === false || (offer as any).stockStatus === 'out_of_stock' || (offer as any).stockStatus === 'OUT_OF_STOCK';
+  const isStockUnknown = offer.inStock === undefined && (offer as any).stockStatus !== 'in_stock' && (offer as any).stockStatus !== 'IN_STOCK' && (offer as any).stockStatus !== 'out_of_stock';
+
+  const rawUrl = offer.url && offer.url !== '#' && !offer.url.endsWith('.com') && !offer.url.endsWith('.com.tr')
     ? offer.url
     : defaultSearchUrl;
+  const isSearchLink = isSearchUrl(rawUrl, offer.isSearchLink);
+
+  // Strict timestamp proof: only accept lastCheckedAt or verifiedAt (do NOT accept unverified updatedAt as price observation timestamp)
+  const lastCheckedAt = offer.lastCheckedAt || (offer as any).verifiedAt;
+  const shippingInfo = offer.shippingInfo || (offer.shippingDays ? `${offer.shippingDays} iş günü` : undefined);
+  const sellerRating = offer.sellerRating || offer.merchantRating || offer.rating;
+
+  const status: StoreOfferStatus = isExplicitOutOfStock
+    ? 'OUT_OF_STOCK'
+    : hasInStockProof
+    ? 'IN_STOCK'
+    : isStockUnknown
+    ? 'UNKNOWN'
+    : 'NOT_LISTED';
 
   return {
     storeKey,
@@ -287,10 +316,15 @@ export function validateStoreOffer(
     storeLogoBg,
     storeLogoColor,
     price: offer.price,
-    status: isOutOfStock ? 'OUT_OF_STOCK' : 'IN_STOCK',
-    inStock: !isOutOfStock,
-    url: targetUrl,
+    status,
+    inStock: hasInStockProof,
+    url: rawUrl,
     isReal: true,
+    isSearchLink,
+    lastCheckedAt,
+    shippingInfo,
+    sellerRating,
+    rejectionReason: isStockUnknown ? 'Stok durumu bilinmiyor' : undefined,
     matchedTitle: candidateTitle
   };
 }
@@ -324,15 +358,28 @@ export function evaluateAllStoresPresence(
     allValidated.push(validated);
   }
 
+  // Direct verified in-stock fresh offers ONLY (must have status === 'IN_STOCK', inStock: true, price > 0, !isSearchLink, and checked <= 24h)
   const activeOffers = allValidated
-    .filter((o) => o.status === 'IN_STOCK' && o.price !== null && o.price > 0)
+    .filter((o) => {
+      if (o.status !== 'IN_STOCK' || !o.inStock || o.price === null || o.price <= 0 || o.isSearchLink || !o.lastCheckedAt) {
+        return false;
+      }
+      const freshness = getPriceFreshness(o.lastCheckedAt);
+      return freshness.status === 'fresh';
+    })
     .sort((a, b) => (a.price || 0) - (b.price || 0));
 
+  // Search links ONLY
+  const searchOffers = allValidated
+    .filter((o) => o.price !== null && o.price > 0 && o.isSearchLink);
+
   const unavailableOffers = allValidated
-    .filter((o) => o.status !== 'IN_STOCK');
+    .filter((o) => !activeOffers.includes(o));
 
   const prices = activeOffers.map((o) => o.price!).filter((p) => typeof p === 'number' && p > 0);
-  const lowestPrice = prices.length > 0 ? Math.min(...prices) : (basePrice > 0 ? basePrice : null);
+
+  // Rule: If no verified in-stock direct offers exist, lowestPrice MUST return null (never filled with basePrice)
+  const lowestPrice = prices.length > 0 ? Math.min(...prices) : null;
   const highestPrice = prices.length > 0 ? Math.max(...prices) : lowestPrice;
 
   return {
@@ -341,11 +388,14 @@ export function evaluateAllStoresPresence(
     basePrice,
     totalStoresChecked: ACTIVE_STORES.length,
     inStockCount: activeOffers.length,
+    searchCount: searchOffers.length,
     outOfStockCount: unavailableOffers.filter((o) => o.status === 'OUT_OF_STOCK').length,
+    unknownStockCount: unavailableOffers.filter((o) => o.status === 'UNKNOWN').length,
     notListedCount: unavailableOffers.filter((o) => o.status === 'NOT_LISTED').length,
     lowestPrice,
     highestPrice,
     activeOffers,
+    searchOffers,
     unavailableOffers
   };
 }

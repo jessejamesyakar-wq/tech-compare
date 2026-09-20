@@ -4301,6 +4301,7 @@ export const mockConsoles: Product[] = [
     "name": "MSI Claw A1M Intel Core Ultra 7 155H / 1 TB (A1M-089TR)",
     "brand": "MSI",
     "category": "consoles",
+    "storageGb": 1024,
     "rating": 4.8,
     "reviewCount": 588,
     "basePrice": 33829,
@@ -4313,26 +4314,31 @@ export const mockConsoles: Product[] = [
       "/images/consoles/918423.jpg"
     ],
     "highlights": [
-      "Intel Core Ultra 7 155H İşlemci ve Intel XeSS AI Çözünürlük Ölçekleme",
-      "7 inç 120Hz VRR Akıcı Dokunmatik Panel",
-      "53Wh Batarya ile Sınıfının En Uzun Süreli Pil Ömürlerinden Biri",
-      "Cooler Boost HyperFlow Çift Fanlı İleri Seviye Termal Tasarım"
+      "Intel Core Ultra 7 155H ve 1 TB SSD",
+      "7 inç FHD 120 Hz dokunmatik ekran",
+      "53 Wh batarya ve Thunderbolt 4 bağlantısı"
     ],
+    "sourceType": "unverified",
+    "sourceUrl": "https://www.vatanbilgisayar.com/msi-claw-a1m-core-ultra-7-155h-16gb-1tb-ssd-7inc-w11.html",
     "specs": {
       "deviceType": "Taşınabilir (El Konsolu)",
       "storageGb": 1024,
-      "fps": "60 fps",
-      "tflops": 4.6,
-      "processor": "Intel Core Ultra 7 155H (16 Çekirdek / 22 İzlek Intel AI Boost)",
-      "gpu": "Intel Arc Graphics (4.6 TFLOPs)",
+      "processor": "Intel Core Ultra 7 155H",
+      "gpu": "Intel Arc Graphics",
       "ramGb": 16,
-      "ramType": "LPDDR5 (6400 MHz)",
-      "resolution": "7 inç 1080p FHD 120Hz VRR 500 Nit Dokunmatik IPS",
-      "hdr": true,
-      "wifi": "Wi-Fi 7 (802.11be)",
+      "ramType": "LPDDR5-6400",
+      "resolution": "7 inç FHD (1920 x 1080), 120 Hz, IPS dokunmatik ekran",
+      "wifi": "Intel Killer Wi-Fi 7",
       "bluetooth": "5.4",
-      "hdmi": "Thunderbolt 4 / DisplayPort",
-      "weightKg": 0.675
+      "weightKg": 0.675,
+      "ports": [
+        "1x Thunderbolt 4 / USB Type-C (DisplayPort ve Power Delivery)",
+        "1x microSD",
+        "1x kulaklık/mikrofon"
+      ],
+      "batteryCapacityWh": 53,
+      "adapterWatts": 65,
+      "os": "Windows 11 Home"
     },
     "storeOffers": [
       {
@@ -4415,6 +4421,36 @@ export const mockConsoles: Product[] = [
         "date": "Ağustos 2026",
         "price": 34000
       }
+    ],
+    "fieldSources": [
+      {
+        "sourceUrl": "https://www.vatanbilgisayar.com/msi-claw-a1m-core-ultra-7-155h-16gb-1tb-ssd-7inc-w11.html",
+        "fields": [
+          "storageGb",
+          "specs.storageGb",
+          "specs.processor",
+          "specs.ramGb",
+          "specs.os"
+        ],
+        "checkedAt": "2026-09-20T07:57:06.781Z",
+        "scopeNote": "A1M-089TR tam modelinin işlemci, RAM, depolama ve Windows 11 Home bilgisi doğrudan satıcı ürün sayfasıyla eşleştirildi. Fiyat ve stok bu doğrulamanın kapsamında değildir."
+      },
+      {
+        "sourceUrl": "https://www.msi.com/Handheld/Claw-A1MX/Specification",
+        "fields": [
+          "specs.gpu",
+          "specs.ramType",
+          "specs.resolution",
+          "specs.wifi",
+          "specs.bluetooth",
+          "specs.weightKg",
+          "specs.ports",
+          "specs.batteryCapacityWh",
+          "specs.adapterWatts"
+        ],
+        "checkedAt": "2026-09-20T07:57:06.781Z",
+        "scopeNote": "MSI Claw A1M ailesinin ortak donanım özellikleri. Genel sayfadaki azami bellek miktarı bu SKU için kurulu RAM olarak kullanılmadı. HDR, sabit oyun FPS değeri ve TFLOPs doğrulanmadığı için kaldırıldı."
+      }
     ]
   },
   {
@@ -4423,6 +4459,7 @@ export const mockConsoles: Product[] = [
     "name": "MSI Claw A1M Intel Core Ultra 7 155H / 512 GB (A1M-088TR)",
     "brand": "MSI",
     "category": "consoles",
+    "storageGb": 512,
     "rating": 4.79,
     "reviewCount": 572,
     "basePrice": 29849,
@@ -4435,26 +4472,31 @@ export const mockConsoles: Product[] = [
       "/images/consoles/936357.jpg"
     ],
     "highlights": [
-      "Intel Core Ultra 7 Gücü & 512 GB Yüksek Hızlı SSD",
-      "120Hz VRR Dokunmatik Ekran & Hall Effect Sensörlü Kontroller",
-      "Wi-Fi 7 ve Thunderbolt 4 Bağlantı Hızı",
-      "Ergonomik Avuç İçi Tasarımı"
+      "Intel Core Ultra 7 155H ve 512 GB SSD",
+      "7 inç FHD 120 Hz dokunmatik ekran",
+      "53 Wh batarya ve Thunderbolt 4 bağlantısı"
     ],
+    "sourceType": "unverified",
+    "sourceUrl": "https://www.teknosa.com/msi-claw-a1m-088tr-intel-core-ultra-7-155h-7-16-gb-ram-512-gb-ssd-w11-home-fhd-120hz-el-oyun-bilgisayari-p-785374399",
     "specs": {
       "deviceType": "Taşınabilir (El Konsolu)",
       "storageGb": 512,
-      "fps": "60 fps",
-      "tflops": 4.6,
-      "processor": "Intel Core Ultra 7 155H (16 Çekirdek)",
-      "gpu": "Intel Arc Graphics (4.6 TFLOPs)",
+      "processor": "Intel Core Ultra 7 155H",
+      "gpu": "Intel Arc Graphics",
       "ramGb": 16,
-      "ramType": "LPDDR5",
-      "resolution": "7 inç 1080p FHD 120Hz VRR IPS",
-      "hdr": true,
-      "wifi": "Wi-Fi 7",
+      "ramType": "LPDDR5-6400",
+      "resolution": "7 inç FHD (1920 x 1080), 120 Hz, IPS dokunmatik ekran",
+      "wifi": "Intel Killer Wi-Fi 7",
       "bluetooth": "5.4",
-      "hdmi": "Thunderbolt 4",
-      "weightKg": 0.675
+      "weightKg": 0.675,
+      "ports": [
+        "1x Thunderbolt 4 / USB Type-C (DisplayPort ve Power Delivery)",
+        "1x microSD",
+        "1x kulaklık/mikrofon"
+      ],
+      "batteryCapacityWh": 53,
+      "adapterWatts": 65,
+      "os": "Windows 11 Home"
     },
     "storeOffers": [
       {
@@ -4536,6 +4578,36 @@ export const mockConsoles: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 30000
+      }
+    ],
+    "fieldSources": [
+      {
+        "sourceUrl": "https://www.teknosa.com/msi-claw-a1m-088tr-intel-core-ultra-7-155h-7-16-gb-ram-512-gb-ssd-w11-home-fhd-120hz-el-oyun-bilgisayari-p-785374399",
+        "fields": [
+          "storageGb",
+          "specs.storageGb",
+          "specs.processor",
+          "specs.ramGb",
+          "specs.os"
+        ],
+        "checkedAt": "2026-09-20T07:57:06.781Z",
+        "scopeNote": "A1M-088TR tam modelinin işlemci, RAM, depolama ve Windows 11 Home bilgisi doğrudan satıcı ürün sayfasıyla eşleştirildi. Fiyat ve stok bu doğrulamanın kapsamında değildir."
+      },
+      {
+        "sourceUrl": "https://www.msi.com/Handheld/Claw-A1MX/Specification",
+        "fields": [
+          "specs.gpu",
+          "specs.ramType",
+          "specs.resolution",
+          "specs.wifi",
+          "specs.bluetooth",
+          "specs.weightKg",
+          "specs.ports",
+          "specs.batteryCapacityWh",
+          "specs.adapterWatts"
+        ],
+        "checkedAt": "2026-09-20T07:57:06.781Z",
+        "scopeNote": "MSI Claw A1M ailesinin ortak donanım özellikleri. Genel sayfadaki azami bellek miktarı bu SKU için kurulu RAM olarak kullanılmadı. HDR, sabit oyun FPS değeri ve TFLOPs doğrulanmadığı için kaldırıldı."
       }
     ]
   },

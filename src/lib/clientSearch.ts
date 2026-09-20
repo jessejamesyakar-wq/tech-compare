@@ -1,9 +1,9 @@
 /**
- * Client-Side Instant Product Search Engine (Zero API calls, Zero lag)
+ * Client-side product search, backed by an asynchronously loaded catalogue index.
  * 
  * Features:
  * - Pure client-side in-memory index loaded once and cached in memory.
- * - Sub-1ms response time per keystroke with debounce (150-250ms).
+ * - Reuses a single pending index request and caches validated entries.
  * - Full Turkish character tolerance (İ, ı, I, i, ç, ğ, ö, ş, ü).
  * - Multi-token matching across name, brand, model, and category.
  */
@@ -62,18 +62,24 @@ export async function initClientSearch(): Promise<IndexedProduct[]> {
   }
 
   fetchPromise = (async () => {
+    const controller = new AbortController();
+    const timeout = setTimeout(() => controller.abort(), 15000);
     try {
       const res = await fetch('/data/search-index.json', {
         headers: { 'Accept': 'application/json' },
+        signal: controller.signal,
       });
       if (!res.ok) {
         console.warn('Failed to load search index from /data/search-index.json');
         return [];
       }
-      const data: CompactSearchProduct[] = await res.json();
+      const data: unknown = await res.json();
       if (!Array.isArray(data)) return [];
 
-      cachedIndex = data.map((p) => {
+      const valid = data.filter((p): p is CompactSearchProduct => p && typeof p === 'object' &&
+        typeof p.id === 'string' && p.id.length > 0 && typeof p.name === 'string' && p.name.length > 0 &&
+        typeof p.slug === 'string' && typeof p.category === 'string' && typeof p.brand === 'string');
+      cachedIndex = valid.map((p) => {
         const normName = normalizeTurkish(p.name || '');
         const normBrand = normalizeTurkish(p.brand || '');
         const normCat = normalizeTurkish(p.category || '');
@@ -95,11 +101,20 @@ export async function initClientSearch(): Promise<IndexedProduct[]> {
       console.error('Error initializing client search index:', err);
       return [];
     } finally {
+      clearTimeout(timeout);
       fetchPromise = null;
     }
   })();
 
   return fetchPromise;
+}
+
+// Wait before searching so a user's first query is rerun when the index arrives.
+export async function searchLocalProductsAsync(query: string, limit = 8): Promise<CompactSearchProduct[]> {
+  if (!query.trim()) return [];
+  const index = await initClientSearch();
+  if (!index.length) throw new Error('Arama önerileri yüklenemedi.');
+  return searchLocalProducts(query, limit);
 }
 
 // Synchronous instant in-memory search
@@ -156,7 +171,6 @@ export function searchLocalProducts(
     // Recency & popularity boost
     if (entry.item.releaseYear && entry.item.releaseYear >= 2025) score += 25;
     if (entry.item.isPopular) score += 10;
-    if (entry.item.rating) score += entry.item.rating;
 
     scored.push({ item: entry.item, score });
   }

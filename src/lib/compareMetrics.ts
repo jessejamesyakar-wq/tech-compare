@@ -1,3 +1,4 @@
+import { getRecordedProductScore } from './productEvidence';
 // src/lib/compareMetrics.ts
 /**
  * Shared comparison metrics and resolution utilities.
@@ -81,8 +82,8 @@ export function getWirelessWinner(
 }
 
 /**
- * Calculates normalized product score (out of 100) from verified catalog data only.
- * Returns null if no verified rating or score exists.
+ * Reads recorded 0..100 catalog scores; never derives performance from user stars.
+ * The caller must label the score as a catalog record, not verified lab performance.
  * NEVER assumes or fabricates 4.8 / 4.7.
  */
 export function getProductScore(product: {
@@ -90,16 +91,7 @@ export function getProductScore(product: {
   aceleEtmeScore?: number;
   epeyScore?: number;
 }): number | null {
-  if (typeof product.rating === 'number' && product.rating > 0) {
-    return Math.round(product.rating * 20);
-  }
-  if (typeof product.aceleEtmeScore === 'number' && product.aceleEtmeScore > 0) {
-    return Math.round(product.aceleEtmeScore);
-  }
-  if (typeof product.epeyScore === 'number' && product.epeyScore > 0) {
-    return Math.round(product.epeyScore);
-  }
-  return null;
+  return getRecordedProductScore(product);
 }
 
 export type OverallDuelWinnerResult = 1 | 2 | 'tie' | 'insufficient_data';
@@ -117,7 +109,7 @@ export function calculateOverallDuelWinner(
   score1: number | null,
   score2: number | null
 ): OverallDuelWinnerResult {
-  if (score1 === null || score2 === null) {
+  if (score1 === null || score2 === null || !Number.isFinite(score1) || !Number.isFinite(score2) || score1 < 0 || score2 < 0 || score1 > 100 || score2 > 100) {
     return 'insufficient_data';
   }
   if (score1 === score2) {

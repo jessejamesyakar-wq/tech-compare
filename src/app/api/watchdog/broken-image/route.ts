@@ -1,16 +1,25 @@
 import { NextRequest, NextResponse } from 'next/server';
+import { requireMaintenanceAccess } from '@/lib/security/maintenanceAuth';
 import { autoFetchAndSaveProductImage } from '@/lib/productImagePipeline';
 import { saveAnomaly } from '@/lib/ai/learningHub';
-import { sendTelegramNotification } from '@/lib/ai/telegramNotifier';
+import { getProductById } from '@/lib/data';
 
 export async function POST(req: NextRequest) {
+  const denied = requireMaintenanceAccess(req, 'cron');
+  if (denied) return denied;
   try {
     const body = await req.json().catch(() => ({}));
-    const { productId, productName, category, brand, failedSrc } = body;
+    const { productId, failedSrc } = body;
 
-    if (!failedSrc) {
-      return NextResponse.json({ success: false, error: 'failedSrc parametresi zorunludur' }, { status: 400 });
+    if (typeof productId !== 'string' || productId.length > 300 ||
+        typeof failedSrc !== 'string' || failedSrc.length > 2048) {
+      return NextResponse.json({ success: false, error: 'Geçersiz ürün veya görsel' }, { status: 400 });
     }
+    const product = getProductById(productId);
+    if (!product || product.image !== failedSrc) {
+      return NextResponse.json({ success: false, error: 'Katalog görseli eşleşmedi' }, { status: 400 });
+    }
+    const { name: productName, category, brand } = product;
 
     console.warn(`[RoboPengu Watchdog] Kirik gorsel tespit edildi: ${failedSrc} (Urun: ${productName || productId || 'Bilinmiyor'})`);
 
@@ -43,13 +52,6 @@ export async function POST(req: NextRequest) {
       userComment: `Watchdog Sentinel: ${failedSrc} yuklenemedi. Otomatik onarim: ${repairedImage || 'tamamlandi'}`,
       timestamp: new Date().toISOString(),
     });
-
-    // 3. Telegram Bekci Bildirimi (Kritikse gonder)
-    if (productName) {
-      sendTelegramNotification(
-        `🖼️ *RoboPengu Görsel Bekçisi Devreye Girdi!*\n\n*Ürün:* ${productName}\n*Hata:* Kırık/Ulaşılamayan görsel (${failedSrc.slice(0, 50)}...)\n*İşlem:* Otomatik görsel kurtarma motoru çalıştırıldı ve yenilendi! 🛡️`
-      ).catch(() => {});
-    }
 
     return NextResponse.json({
       success: true,

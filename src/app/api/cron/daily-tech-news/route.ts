@@ -1,9 +1,12 @@
+import { requireMaintenanceAccess } from '@/lib/security/maintenanceAuth';
 import { NextResponse } from 'next/server';
 import { getDailyTechNews } from '@/lib/news/dailyTechNewsEngine';
 
 export const dynamic = 'force-dynamic';
 
-export async function GET() {
+export async function GET(request: Request) {
+  const denied = requireMaintenanceAccess(request, 'cron');
+  if (denied) return denied;
   try {
     const data = await getDailyTechNews(true); // Force generate/update
     return NextResponse.json({
@@ -22,6 +25,8 @@ export async function GET() {
   }
 }
 
-export async function POST() {
-  return GET();
+export async function POST(request: Request) {
+  const denied = requireMaintenanceAccess(request, 'cron');
+  if (denied) return denied;
+  return GET(request);
 }

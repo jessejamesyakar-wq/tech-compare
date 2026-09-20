@@ -99,82 +99,65 @@ async function runBrowserVerification() {
       await route.continue();
     });
 
-    await page.waitForSelector('button:has-text("MSI vs Dell 280Hz")', { timeout: 10000 });
+    page.on('response', async (response) => {
+      const url = response.url();
+      if (url.includes('/api/products/')) {
+        try {
+          await response.finished();
+        } catch {
+          return;
+        }
 
-    // 1. Tıklamadan ÖNCE yanıt dinleyicisini kur
-    // Her ürün yanıtında await res.finished() çalıştırılır.
-    // Preset A için (MSI + Dell) ve Preset B için (iPhone + Samsung) her iki ürün de tamamlandığında completionOrder'a bir kez eklenir.
-    const responseListener = async (res: any) => {
-      const url = res.url();
-      if (res.status() === 200 && url.includes('/api/products/')) {
-        if (url.includes('msi-mag-255pxf')) {
-          await res.finished();
-          finishedProductsA.add('msi-mag-255pxf');
-          if (finishedProductsA.has('msi-mag-255pxf') && finishedProductsA.has('dell-g2524h')) {
-            if (!completionOrder.includes('Preset A (MSI vs Dell)')) {
-              completionOrder.push('Preset A (MSI vs Dell)');
-            }
+        if (url.includes('msi-mag-255pxf') || url.includes('dell-g2524h')) {
+          if (url.includes('msi-mag-255pxf')) finishedProductsA.add('msi');
+          if (url.includes('dell-g2524h')) finishedProductsA.add('dell');
+
+          if (finishedProductsA.size === 2 && !completionOrder.includes('Preset A (MSI vs Dell)')) {
+            completionOrder.push('Preset A (MSI vs Dell)');
           }
-        } else if (url.includes('dell-g2524h')) {
-          await res.finished();
-          finishedProductsA.add('dell-g2524h');
-          if (finishedProductsA.has('msi-mag-255pxf') && finishedProductsA.has('dell-g2524h')) {
-            if (!completionOrder.includes('Preset A (MSI vs Dell)')) {
-              completionOrder.push('Preset A (MSI vs Dell)');
-            }
-          }
-        } else if (url.includes('apple-iphone-16-pro-max-256-gb')) {
-          await res.finished();
-          finishedProductsB.add('apple-iphone-16-pro-max-256-gb');
-          if (finishedProductsB.has('apple-iphone-16-pro-max-256-gb') && finishedProductsB.has('samsung-galaxy-s24-ultra')) {
-            if (!completionOrder.includes('Preset B (iPhone vs S24 Ultra)')) {
-              completionOrder.push('Preset B (iPhone vs S24 Ultra)');
-            }
-          }
-        } else if (url.includes('samsung-galaxy-s24-ultra')) {
-          await res.finished();
-          finishedProductsB.add('samsung-galaxy-s24-ultra');
-          if (finishedProductsB.has('apple-iphone-16-pro-max-256-gb') && finishedProductsB.has('samsung-galaxy-s24-ultra')) {
-            if (!completionOrder.includes('Preset B (iPhone vs S24 Ultra)')) {
-              completionOrder.push('Preset B (iPhone vs S24 Ultra)');
-            }
+        }
+
+        if (url.includes('apple-iphone-16-pro-max-256-gb') || url.includes('samsung-galaxy-s24-ultra')) {
+          if (url.includes('apple-iphone-16-pro-max-256-gb')) finishedProductsB.add('iphone');
+          if (url.includes('samsung-galaxy-s24-ultra')) finishedProductsB.add('s24ultra');
+
+          if (finishedProductsB.size === 2 && !completionOrder.includes('Preset B (iPhone vs S24 Ultra)')) {
+            completionOrder.push('Preset B (iPhone vs S24 Ultra)');
           }
         }
       }
-    };
-    page.on('response', responseListener);
+    });
 
-    // 2. Tıklamadan ÖNCE her iki düellonun TÜM ürün isteklerinin yanıt bekleyicilerini kur
-    const msiRespPromise = page.waitForResponse((res) => res.url().includes('msi-mag-255pxf') && res.status() === 200, { timeout: 15000 });
-    const dellRespPromise = page.waitForResponse((res) => res.url().includes('dell-g2524h') && res.status() === 200, { timeout: 15000 });
-    const iphoneRespPromise = page.waitForResponse((res) => res.url().includes('apple-iphone-16-pro-max-256-gb') && res.status() === 200, { timeout: 15000 });
-    const s24RespPromise = page.waitForResponse((res) => res.url().includes('samsung-galaxy-s24-ultra') && res.status() === 200, { timeout: 15000 });
+    // 1. Tıkla Preset A (MSI vs Dell)
+    const btnPresetA = page.locator('button:has-text("MSI MAG 255PXF vs Dell G2524H")');
+    await btnPresetA.click();
 
-    // 3. Önce Preset A'ya (yavaş 1200ms delay), hemen ardından Preset B'ye (hızlı 0ms delay) tıkla
-    await page.click('button:has-text("MSI vs Dell 280Hz")');
-    await page.click('button:has-text("iPhone 16 Pro Max vs S24 Ultra")');
+    // 2. Hemen ardından Tıkla Preset B (iPhone 16 Pro Max vs S24 Ultra)
+    const btnPresetB = page.locator('button:has-text("iPhone 16 Pro Max vs S24 Ultra")');
+    await btnPresetB.click();
 
-    // 4. Her iki düellonun da tüm ürün isteklerinin tamamlanmasını bekle
-    await Promise.all([msiRespPromise, dellRespPromise, iphoneRespPromise, s24RespPromise]);
+    // 3. Bekle iki Preset'in de TÜM yanıtları tamamlansın
+    const startTime = Date.now();
+    while (completionOrder.length < 2 && Date.now() - startTime < 15000) {
+      await page.waitForTimeout(100);
+    }
 
-    page.off('response', responseListener);
+    const isOrderBThenA = completionOrder[0] === 'Preset B (iPhone vs S24 Ultra)' && completionOrder[1] === 'Preset A (MSI vs Dell)';
+    assert(isOrderBThenA, `İki preset'in de tüm ürün yanıtları tamamlandı (await response.finished()). Tamamlanma Sırası: ${completionOrder.join(' -> ')}`);
+
+    // 4. Son seçilen Preset B ekranda mı denetle
+    await page.waitForSelector('h2:has-text("iPhone 16 Pro Max")', { timeout: 10000 });
+    const finalP1 = await page.locator('h2').nth(0).innerText();
+    const finalP2 = await page.locator('h2').nth(1).innerText();
+
+    const isPresetBKept = finalP1.includes('iPhone 16 Pro Max') && finalP2.includes('Galaxy S24 Ultra');
+    assert(isPresetBKept, `Ekrandaki iki ürün de son seçilen Preset B'ye ("iPhone 16 Pro Max" & "Galaxy S24 Ultra") aittir (Alınan: "${finalP1}" & "${finalP2}")`);
+
+    // Route müdahalesini temizle
     await page.unroute('**/api/products/**');
 
-    // 5. İki preset de tamamlandıktan sonra sıralamanın B -> A olduğunu doğrula
-    const isBFirst = completionOrder[0] === 'Preset B (iPhone vs S24 Ultra)' && completionOrder[1] === 'Preset A (MSI vs Dell)';
-    assert(isBFirst, `İki preset'in de tüm ürün yanıtları tamamlandı (await response.finished()). Tamamlanma Sırası: B -> A (${completionOrder.join(' -> ')})`);
-
-    // 6. Ekrandaki her iki ürünün de son seçilen Preset B'ye ait olduğunu doğrula
-    await page.waitForSelector('h2:has-text("iPhone 16 Pro Max")', { timeout: 10000 });
-    const p1Text = await page.locator('h2').nth(0).innerText();
-    const p2Text = await page.locator('h2').nth(1).innerText();
-
-    const isP1PresetB = p1Text.includes('iPhone 16 Pro Max');
-    const isP2PresetB = p2Text.includes('Galaxy S24 Ultra') || p2Text.includes('S24 Ultra');
-    assert(isP1PresetB && isP2PresetB, `Ekrandaki iki ürün de son seçilen Preset B'ye ("iPhone 16 Pro Max" & "Galaxy S24 Ultra") aittir (Alınan: "${p1Text}" & "${p2Text}")`);
-
     // ------------------------------------------------------------------------
-    // TEST 5: Real Chat -> Card -> Compare -> Share Link in New Tab
+    // TEST 5: Sohbet -> Kart -> Karşılaştırma -> Paylaşım Linkini Yeni Sayfada Açma & Kapasite Doğrulaması
     // ------------------------------------------------------------------------
     console.log('\nTest 5: Sohbet -> Kart -> Karşılaştırma -> Paylaşım Linkini Yeni Sayfada Açma & Kapasite Doğrulaması');
 
@@ -218,7 +201,7 @@ async function runBrowserVerification() {
     let copiedUrl = '';
     try {
       copiedUrl = await page.evaluate(() => navigator.clipboard.readText());
-    } catch (e) {
+    } catch {
       copiedUrl = '';
     }
     
@@ -244,6 +227,23 @@ async function runBrowserVerification() {
     assert(tabP2Name.includes('Galaxy S26 Ultra'), `Yeni sekmede açılan 2. Ürünün modeli DOĞRULANDI (Alınan: "${tabP2Name}")`);
 
     await shareTab.close();
+
+    // ------------------------------------------------------------------------
+    // TEST 6: Eski TV Adresi Yönlendirmesi (/tvs/lg-lg-ultragear-27gx790a-b -> /monitors/lg-ultragear-27gx790a-b)
+    // ------------------------------------------------------------------------
+    console.log('\nTest 6: Eski TV Adresi Yönlendirmesi (/tvs/lg-lg-ultragear-27gx790a-b -> /monitors/lg-ultragear-27gx790a-b)');
+    await page.goto('http://localhost:3000/tvs/lg-lg-ultragear-27gx790a-b', { waitUntil: 'networkidle' });
+
+    const finalLgUrl = page.url();
+    const isRedirectedToMonitors = finalLgUrl.includes('/monitors/lg-ultragear-27gx790a-b');
+    assert(
+      isRedirectedToMonitors,
+      `Eski TV adresi /tvs/lg-lg-ultragear-27gx790a-b GERÇEK HTTP YÖNLENDİRMESİ İLE /monitors/lg-ultragear-27gx790a-b ADRESİNE YÖNLENDİ (Son URL: "${finalLgUrl}")`
+    );
+
+    await page.waitForSelector('h1:has-text("LG UltraGear 27GX790A-B")', { timeout: 10000 });
+    const monitorH1 = await page.locator('h1:has-text("LG UltraGear 27GX790A-B")').count();
+    assert(monitorH1 > 0, 'Yönlendirilen monitör sayfasında LG UltraGear 27GX790A-B başlığı başarıyla görüntülendi');
 
     console.log('\n================================================================');
     console.log(`📊 TARAYICI TEST SONUÇLARI: ${passed} Başarılı, ${failed} Başarısız`);

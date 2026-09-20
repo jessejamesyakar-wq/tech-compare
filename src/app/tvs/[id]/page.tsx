@@ -1,6 +1,6 @@
 import { Suspense } from 'react';
 import { Metadata } from 'next';
-import { notFound } from 'next/navigation';
+import { notFound, permanentRedirect } from 'next/navigation';
 import { getTVById, findProductByIdSafe } from '@/lib/data';
 import { buildProductMetadata } from '@/lib/seoHelper';
 import TVDetailClient from './TVDetailClient';
@@ -25,6 +25,13 @@ export default async function TVDetailPage({
 
   if (!product) {
     notFound();
+  }
+
+  const expectedCategory = product.category === 'smartphones' ? 'phones' : product.category;
+  const canonicalSlug = product.slug || product.id;
+
+  if (expectedCategory && (expectedCategory !== 'tvs' || id !== canonicalSlug)) {
+    permanentRedirect(`/${expectedCategory}/${canonicalSlug}`);
   }
 
   return (

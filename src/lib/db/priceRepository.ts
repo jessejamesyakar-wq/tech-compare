@@ -1,5 +1,6 @@
 import { supabase } from '@/lib/supabase/client';
 import { getStoredProducts } from '@/lib/adminData';
+import { catalogPriceRecords, createPriceObservation, readPriceRecord } from '@/lib/pricing/priceRecordEvidence';
 
 export interface DbStore {
   id: string;
@@ -76,6 +77,9 @@ export interface DbPriceHistory {
   percentageDifference: number;
   stockStatus: string;
   recordedAt: string;
+  sourceUrl?: string;
+  sourceType?: 'observed';
+  currency?: string;
 }
 
 export interface DbPriceUpdateJob {
@@ -139,7 +143,7 @@ export class PriceRepository {
           .eq('is_anomaly', false)
           .order('total_price', { ascending: true });
         if (!error && data && data.length > 0) {
-          return data as DbPrice[];
+          return data.map(readPriceRecord).filter((price): price is DbPrice => price !== null);
         }
       }
     } catch {
@@ -152,30 +156,9 @@ export class PriceRepository {
         .sort((a, b) => a.totalPrice - b.totalPrice);
     }
 
-    // Seed initial prices from local stored product catalog if available
+    // Never manufacture a check date, stock, shipping fee or store URL on read.
     const product = getStoredProducts().find((p) => p.id === productId);
-    if (product && product.storeOffers) {
-      const seeded: DbPrice[] = product.storeOffers.map((offer, idx) => ({
-        id: `pr_${productId}_${idx}`,
-        productId,
-        storeId: offer.storeName.toLowerCase().replace(/[^a-z0-9]/g, ''),
-        storeProductId: `sp_${productId}_${idx}`,
-        price: offer.price,
-        shippingPrice: offer.freeShipping ? 0 : 49,
-        totalPrice: offer.price + (offer.freeShipping ? 0 : 49),
-        currency: 'TRY',
-        stockStatus: offer.inStock ? 'IN_STOCK' : 'OUT_OF_STOCK',
-        sellerName: offer.sellerName || offer.storeName,
-        url: offer.affiliateUrl || `https://www.${offer.storeName.toLowerCase().replace(/[^a-z0-9]/g, '')}.com`,
-        isAnomaly: false,
-        checkedAt: new Date().toISOString(),
-      }));
-
-      inMemoryPrices.set(productId, seeded);
-      return seeded.sort((a, b) => a.totalPrice - b.totalPrice);
-    }
-
-    return [];
+    return catalogPriceRecords(productId, product?.storeOffers);
   }
 
   /**
@@ -195,26 +178,10 @@ export class PriceRepository {
     const prevIndex = existingList.findIndex((p) => p.storeId === priceData.storeId && p.sellerName === priceData.sellerName);
     const prev = prevIndex >= 0 ? existingList[prevIndex] : null;
 
-    if (prev && prev.price !== priceData.price) {
-      const diff = Number((priceData.price - prev.price).toFixed(2));
-      const pctDiff = Number(((diff / prev.price) * 100).toFixed(2));
-
-      const historyEntry: DbPriceHistory = {
-        productId: priceData.productId,
-        storeId: priceData.storeId,
-        storeProductId: priceData.storeProductId,
-        oldPrice: prev.price,
-        price: priceData.price,
-        shippingPrice: priceData.shippingPrice,
-        totalPrice: priceData.totalPrice,
-        difference: diff,
-        percentageDifference: pctDiff,
-        stockStatus: priceData.stockStatus,
-        recordedAt: new Date().toISOString(),
-      };
-
+    const historyEntry = createPriceObservation(priceRecord, prev);
+    if (historyEntry) {
       const histList = inMemoryHistory.get(priceData.productId) || [];
-      histList.unshift(historyEntry);
+      if (!histList.some((entry) => entry.storeId === historyEntry.storeId && entry.sourceUrl === historyEntry.sourceUrl && entry.recordedAt === historyEntry.recordedAt)) histList.unshift(historyEntry);
       inMemoryHistory.set(priceData.productId, histList);
     }
 

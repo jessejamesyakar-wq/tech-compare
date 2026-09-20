@@ -1,5 +1,8 @@
 'use client';
 
+import { ProductPriceSummary } from '@/components/detail/ProductPriceSummary';
+import { ProductSpecSources } from '@/components/detail/ProductSpecSources';
+import { ReviewAvailability } from '@/components/detail/ReviewAvailability';
 import { ProductJsonLd } from '@/components/seo/ProductJsonLd';
 import Image from 'next/image';
 import dynamic from 'next/dynamic';
@@ -8,7 +11,7 @@ import Link from 'next/link';
 import { useSearchParams } from 'next/navigation';
 import { LaptopProduct } from '@/lib/types';
 import { resolveActiveColor } from '@/lib/colorVariantHelper';
-import { ACTIVE_STORE_COUNT, ACTIVE_RETAILERS, getActiveStoreComparisonTitle } from '@/lib/activeStores';
+import { getActiveStoreComparisonTitle } from '@/lib/activeStores';
 import { StoreTable } from '@/components/detail/StoreTable';
 import { StickyHeaderBar } from '@/components/detail/StickyHeaderBar';
 import { ProductImageGallery } from '@/components/detail/ProductImageGallery';
@@ -98,7 +101,6 @@ export default function LaptopDetailClient({ initialLaptopProduct }: { initialLa
   }
 
   const inCompare = isInCompare(laptop.id);
-  const score100 = Math.round(laptop.rating * 20);
 
   return (
     <div className="space-y-8 py-4">
@@ -118,7 +120,7 @@ export default function LaptopDetailClient({ initialLaptopProduct }: { initialLa
       <div className="bg-white border border-slate-200 rounded-3xl p-6 sm:p-8 shadow-xs grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
         
         {/* Left: Interactive Multi-Photo Gallery Stage (Strict 500x500 Square) */}
-        <div className="lg:col-span-5">
+        <div className="min-w-0 lg:col-span-5">
           <ProductImageGallery
             product={laptop}
             activeColorImage={selectedColorImage}
@@ -127,15 +129,11 @@ export default function LaptopDetailClient({ initialLaptopProduct }: { initialLa
         </div>
 
         {/* Info & CTA Panel */}
-        <div className="lg:col-span-7 space-y-5">
+        <div className="min-w-0 lg:col-span-7 space-y-5">
           <div className="space-y-2">
             <div className="flex items-center gap-2">
               <span className="bg-emerald-100 text-emerald-800 text-[10px] font-black px-2.5 py-0.5 rounded-full uppercase tracking-wider">
                 {laptop.brand} • {laptop.specs?.productType || 'Laptop'}
-              </span>
-              <span className="bg-amber-100 text-amber-800 text-[10px] font-black px-2.5 py-0.5 rounded-full flex items-center gap-1">
-                <Award className="w-3 h-3 text-amber-600" />
-                <span>{score100} / 100 Performans Puanı</span>
               </span>
             </div>
 
@@ -143,15 +141,8 @@ export default function LaptopDetailClient({ initialLaptopProduct }: { initialLa
               {laptop.name}
             </h1>
 
-            <div className="flex items-center gap-2 text-xs font-bold text-slate-600">
-              <div className="flex items-center text-amber-400">
-                {[...Array(5)].map((_, i) => (
-                  <Star key={i} className="w-4 h-4 fill-amber-400 text-amber-400" />
-                ))}
-              </div>
-              <span>{laptop.rating}</span>
-              <span className="text-slate-400">({laptop.reviewCount} kullanıcı değerlendirmesi)</span>
-            </div>
+            <ProductSpecSources product={laptop} />
+            <ReviewAvailability />
           </div>
 
           {/* Interactive Color Variant Picker */}
@@ -187,23 +178,13 @@ export default function LaptopDetailClient({ initialLaptopProduct }: { initialLa
             </div>
             <div>
               <span className="text-slate-400 font-medium block text-[10px] uppercase">İşletim Sistemi</span>
-              <span className="font-bold text-slate-900 block truncate">{laptop.specs?.os || 'FreeDOS'}</span>
+              <span className="font-bold text-slate-900 block truncate">{laptop.specs?.os || 'Bilinmiyor'}</span>
             </div>
           </div>
 
           {/* Pricing & Store CTA Row */}
           <div className="pt-2 flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-t border-slate-100">
-            <div>
-              <span className="text-xs text-slate-400 font-bold block">En Düşük Mağaza Fiyatı</span>
-              <div className="text-3xl font-black text-slate-900 tracking-tight">
-                ₺{laptop.basePrice.toLocaleString()},-
-              </div>
-              <span className="text-[11px] font-bold text-emerald-700 block">
-                {ACTIVE_STORE_COUNT === 1
-                  ? `${ACTIVE_RETAILERS[0]?.name || 'Hepsiburada'} Üzerinde Stokta Mevcut`
-                  : `${ACTIVE_STORE_COUNT} Mağazada Stokta Mevcut`}
-              </span>
-            </div>
+            <ProductPriceSummary product={laptop} />
 
             <div className="flex items-center gap-2">
               <button
@@ -211,7 +192,7 @@ export default function LaptopDetailClient({ initialLaptopProduct }: { initialLa
                 className="bg-slate-100 hover:bg-slate-200 text-slate-800 font-extrabold text-xs px-4 py-3 rounded-2xl flex items-center gap-1.5 transition-colors cursor-pointer"
               >
                 <Bell className="w-4 h-4 text-slate-600" />
-                <span>Fiyat Alarmı</span>
+                <span>Fiyat Hedefi</span>
               </button>
 
               <button

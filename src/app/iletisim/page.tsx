@@ -132,10 +132,10 @@ export default function IletisimPage() {
         <div className="space-y-1">
           <h2 className="text-base font-bold text-slate-900 dark:text-white flex items-center gap-2">
             <MessageSquare className="w-4 h-4 text-emerald-600 dark:text-emerald-400" />
-            <span>Bize Mesaj Gönderin</span>
+            <span>E-posta Taslağı Hazırlayın</span>
           </h2>
           <p className="text-xs text-slate-500">
-            Aşağıdaki formu doldurarak sorularınızı, hata bildirimlerinizi veya iş birliği taleplerinizi doğrudan iletebilirsiniz.
+            Sorunuzu veya önerinizi taslak olarak hazırlayıp kendi e-posta uygulamanızdan gönderebilirsiniz.
           </p>
         </div>
 

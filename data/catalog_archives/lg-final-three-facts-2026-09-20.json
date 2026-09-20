@@ -1,0 +1,462 @@
+{
+  "checkedAt": "2026-09-20T04:40:41.494Z",
+  "records": [
+    {
+      "id": "lg-ultragear-27g610a-b",
+      "sourceUrl": "https://www.lg.com/ae/consumer-monitors/lg-27g610a-b",
+      "fields": [
+        "highlights",
+        "specs.brightnessNits",
+        "specs.hdrSupport",
+        "specs.syncTechnology",
+        "releaseYear"
+      ],
+      "original": {
+        "id": "lg-ultragear-27g610a-b",
+        "slug": "lg-ultragear-27g610a-b",
+        "name": "LG UltraGear 27G610A-B 27 inç 200Hz 1ms WQHD IPS Gaming Monitör",
+        "brand": "LG",
+        "category": "monitors",
+        "rating": 4.9,
+        "epeyScore": 71,
+        "reviewCount": 440,
+        "basePrice": 9149,
+        "currency": "TL",
+        "releaseYear": 2024,
+        "isPopular": true,
+        "isFeatured": false,
+        "image": "/images/products/monitors/icecat-lg-ultragear-27g610a-b.jpg",
+        "images": [
+          "/images/products/monitors/icecat-lg-ultragear-27g610a-b.jpg",
+          "/images/products/monitors/icecat-lg-ultragear-27g610a-b-1.jpg",
+          "/images/products/monitors/icecat-lg-ultragear-27g610a-b-2.jpg",
+          "/images/products/monitors/icecat-lg-ultragear-27g610a-b-3.jpg"
+        ],
+        "highlights": [
+          "27 inç WQHD (2560x1440) 200Hz (OC) Fast IPS Akıcı Panel",
+          "1ms (GtG) Tepki Süresi, HDR10 ve NVIDIA G-Sync Uyumlu",
+          "AMD FreeSync, %99 sRGB Renk Doğruluğu ve Oyuncu Odaklı Arayüz"
+        ],
+        "specs": {
+          "screenSizeInches": 27,
+          "resolution": "2560x1440 (WQHD)",
+          "panelType": "IPS",
+          "refreshRateHz": 200,
+          "responseTimeMs": 1,
+          "syncTechnology": "G-Sync Compatible",
+          "aspectRatio": "16:9",
+          "brightnessNits": 300,
+          "contrastRatio": "1000:1",
+          "hdrSupport": "HDR10"
+        },
+        "storeOffers": [
+          {
+            "storeName": "Hepsiburada",
+            "storeLogo": "/images/stores/hepsiburada.png",
+            "price": 9199,
+            "shippingFee": 0,
+            "inStock": true,
+            "url": "https://www.hepsiburada.com/ara?q=LG%20UltraGear%2027G610A-B%2027%20in%C3%A7%20200Hz%201ms%20WQHD%20IPS%20Gaming%20Monit%C3%B6r",
+            "rating": 4.8
+          },
+          {
+            "storeName": "Trendyol",
+            "storeLogo": "/images/stores/trendyol.png",
+            "price": 9309,
+            "shippingFee": 0,
+            "inStock": true,
+            "url": "https://www.trendyol.com/sr?q=LG%20UltraGear%2027G610A-B%2027%20in%C3%A7%20200Hz%201ms%20WQHD%20IPS%20Gaming%20Monit%C3%B6r",
+            "rating": 4.8
+          },
+          {
+            "storeName": "MediaMarkt",
+            "storeLogo": "/images/stores/mediamarkt.png",
+            "price": 9429,
+            "shippingFee": 0,
+            "inStock": true,
+            "url": "https://www.mediamarkt.com.tr/tr/search.html?query=LG%20UltraGear%2027G610A-B%2027%20in%C3%A7%20200Hz%201ms%20WQHD%20IPS%20Gaming%20Monit%C3%B6r",
+            "rating": 4.8
+          },
+          {
+            "storeName": "Vatan Bilgisayar",
+            "storeLogo": "/images/stores/vatan.png",
+            "price": 9519,
+            "shippingFee": 0,
+            "inStock": true,
+            "url": "https://www.vatanbilgisayar.com/arama/LG%20UltraGear%2027G610A-B%2027%20in%C3%A7%20200Hz%201ms%20WQHD%20IPS%20Gaming%20Monit%C3%B6r",
+            "rating": 4.8
+          },
+          {
+            "storeName": "Amazon Türkiye",
+            "storeLogo": "/images/stores/amazon.png",
+            "price": 9149,
+            "shippingFee": 0,
+            "inStock": true,
+            "url": "https://www.amazon.com.tr/s?k=LG%20UltraGear%2027G610A-B%2027%20in%C3%A7%20200Hz%201ms%20WQHD%20IPS%20Gaming%20Monit%C3%B6r",
+            "rating": 4.8
+          },
+          {
+            "storeName": "Teknosa",
+            "storeLogo": "/images/stores/teknosa.png",
+            "price": 9459,
+            "shippingFee": 0,
+            "inStock": true,
+            "url": "https://www.teknosa.com/arama?s=LG%20UltraGear%2027G610A-B%2027%20in%C3%A7%20200Hz%201ms%20WQHD%20IPS%20Gaming%20Monit%C3%B6r",
+            "rating": 4.8
+          }
+        ],
+        "priceHistory": [
+          {
+            "date": "Ekim 2025",
+            "price": 10490
+          },
+          {
+            "date": "Kasım 2025",
+            "price": 10210
+          },
+          {
+            "date": "Aralık 2025",
+            "price": 9930
+          },
+          {
+            "date": "Ocak 2026",
+            "price": 9660
+          },
+          {
+            "date": "Şubat 2026",
+            "price": 9380
+          },
+          {
+            "date": "Ağustos 2026",
+            "price": 9200
+          }
+        ],
+        "fieldSources": [
+          {
+            "fields": [
+              "category"
+            ],
+            "sourceUrl": "https://www.lg.com/ca_en/monitors/gaming/27g610a-b/",
+            "checkedAt": "2026-09-20T03:35:17.380Z",
+            "scopeNote": "Only this exact model's monitor category is verified. LG product/support page opened. No specification, variant, price, review, stock, release year or warranty verification is implied."
+          }
+        ]
+      }
+    },
+    {
+      "id": "lg-ultrawide-29wq600-w",
+      "sourceUrl": "https://www.lg.com/hk/monitors/ultrawide/29wq600-w/",
+      "fields": [
+        "name",
+        "highlights",
+        "specs.responseTimeMs",
+        "specs.brightnessNits",
+        "specs.contrastRatio",
+        "specs.ports",
+        "releaseYear"
+      ],
+      "original": {
+        "id": "lg-ultrawide-29wq600-w",
+        "slug": "lg-ultrawide-29wq600-w",
+        "name": "LG UltraWide 29WQ600-W 29 inç 100Hz 1ms WFHD IPS HDR10 USB-C Monitör",
+        "brand": "LG",
+        "category": "monitors",
+        "rating": 4.89,
+        "epeyScore": 90,
+        "reviewCount": 520,
+        "basePrice": 18899,
+        "currency": "TL",
+        "releaseYear": 2023,
+        "isPopular": true,
+        "isFeatured": false,
+        "image": "/images/products/monitors/icecat-lg-ultrawide-29wq600-w.jpg",
+        "images": [
+          "/images/products/monitors/icecat-lg-ultrawide-29wq600-w.jpg",
+          "/images/products/monitors/icecat-lg-ultrawide-29wq600-w-1.jpg",
+          "/images/products/monitors/icecat-lg-ultrawide-29wq600-w-2.jpg",
+          "/images/products/monitors/icecat-lg-ultrawide-29wq600-w-3.jpg"
+        ],
+        "highlights": [
+          "29 inç 21:9 UltraWide Full HD (2560x1080) IPS Panel",
+          "100Hz Akıcı Yenileme Hızı & 1ms MBR",
+          "USB Type-C & Dahili 2x7W MaxxAudio Hoparlörler",
+          "HDR10 & sRGB %99 & AMD FreeSync"
+        ],
+        "specs": {
+          "screenSizeInches": 29,
+          "resolution": "2560x1080 (WFHD)",
+          "aspectRatio": "21:9",
+          "panelType": "IPS",
+          "refreshRateHz": 100,
+          "responseTimeMs": 1,
+          "hdrSupport": "HDR10",
+          "audioSpeakers": "2x7W MaxxAudio",
+          "ports": [
+            "1x USB-C",
+            "1x HDMI 2.0",
+            "1x DisplayPort 1.4",
+            "Kulaklık"
+          ]
+        },
+        "storeOffers": [
+          {
+            "storeName": "Hepsiburada",
+            "storeLogo": "/images/stores/hepsiburada.png",
+            "price": 18999,
+            "shippingFee": 0,
+            "inStock": true,
+            "url": "https://www.hepsiburada.com/ara?q=LG%20UltraWide%2029WQ600-W%2029%20in%C3%A7%20100Hz%201ms%20WFHD%20IPS%20HDR10%20USB-C%20Monit%C3%B6r",
+            "rating": 4.8
+          },
+          {
+            "storeName": "Trendyol",
+            "storeLogo": "/images/stores/trendyol.png",
+            "price": 19229,
+            "shippingFee": 0,
+            "inStock": true,
+            "url": "https://www.trendyol.com/sr?q=LG%20UltraWide%2029WQ600-W%2029%20in%C3%A7%20100Hz%201ms%20WFHD%20IPS%20HDR10%20USB-C%20Monit%C3%B6r",
+            "rating": 4.8
+          },
+          {
+            "storeName": "MediaMarkt",
+            "storeLogo": "/images/stores/mediamarkt.png",
+            "price": 19469,
+            "shippingFee": 0,
+            "inStock": true,
+            "url": "https://www.mediamarkt.com.tr/tr/search.html?query=LG%20UltraWide%2029WQ600-W%2029%20in%C3%A7%20100Hz%201ms%20WFHD%20IPS%20HDR10%20USB-C%20Monit%C3%B6r",
+            "rating": 4.8
+          },
+          {
+            "storeName": "Vatan Bilgisayar",
+            "storeLogo": "/images/stores/vatan.png",
+            "price": 19659,
+            "shippingFee": 0,
+            "inStock": true,
+            "url": "https://www.vatanbilgisayar.com/arama/LG%20UltraWide%2029WQ600-W%2029%20in%C3%A7%20100Hz%201ms%20WFHD%20IPS%20HDR10%20USB-C%20Monit%C3%B6r",
+            "rating": 4.8
+          },
+          {
+            "storeName": "Amazon Türkiye",
+            "storeLogo": "/images/stores/amazon.png",
+            "price": 18899,
+            "shippingFee": 0,
+            "inStock": true,
+            "url": "https://www.amazon.com.tr/s?k=LG%20UltraWide%2029WQ600-W%2029%20in%C3%A7%20100Hz%201ms%20WFHD%20IPS%20HDR10%20USB-C%20Monit%C3%B6r",
+            "rating": 4.8
+          },
+          {
+            "storeName": "Teknosa",
+            "storeLogo": "/images/stores/teknosa.png",
+            "price": 19529,
+            "shippingFee": 0,
+            "inStock": true,
+            "url": "https://www.teknosa.com/arama?s=LG%20UltraWide%2029WQ600-W%2029%20in%C3%A7%20100Hz%201ms%20WFHD%20IPS%20HDR10%20USB-C%20Monit%C3%B6r",
+            "rating": 4.8
+          }
+        ],
+        "priceHistory": [
+          {
+            "date": "Ekim 2025",
+            "price": 21660
+          },
+          {
+            "date": "Kasım 2025",
+            "price": 21090
+          },
+          {
+            "date": "Aralık 2025",
+            "price": 20520
+          },
+          {
+            "date": "Ocak 2026",
+            "price": 19950
+          },
+          {
+            "date": "Şubat 2026",
+            "price": 19380
+          },
+          {
+            "date": "Ağustos 2026",
+            "price": 19000
+          }
+        ],
+        "fieldSources": [
+          {
+            "fields": [
+              "category"
+            ],
+            "sourceUrl": "https://www.lg.com/us/monitors/lg-29wq600-w-ultrawide-monitor",
+            "checkedAt": "2026-09-20T03:35:17.380Z",
+            "scopeNote": "Only this exact model's monitor category is verified. LG product/support page opened. No specification, variant, price, review, stock, release year or warranty verification is implied."
+          }
+        ]
+      }
+    },
+    {
+      "id": "lg-ultragear-27gx790b-b",
+      "sourceUrl": "https://www.lg.com/uk/monitors/gaming/27gx790b-b/",
+      "fields": [
+        "specs.ports"
+      ],
+      "original": {
+        "id": "lg-ultragear-27gx790b-b",
+        "slug": "lg-ultragear-27gx790b-b",
+        "name": "LG UltraGear 27GX790B-B 27 inç 540Hz 0.02ms WQHD OLED Gaming Monitör",
+        "brand": "LG",
+        "category": "monitors",
+        "rating": 5,
+        "epeyScore": 100,
+        "reviewCount": 320,
+        "basePrice": 44769,
+        "currency": "TL",
+        "releaseYear": 2026,
+        "isPopular": true,
+        "isFeatured": true,
+        "image": "/images/products/monitors/icecat-lg-ultragear-27gx790b-b.jpg",
+        "images": [
+          "/images/products/monitors/icecat-lg-ultragear-27gx790b-b.jpg",
+          "/images/products/monitors/icecat-lg-ultragear-27gx790b-b-1.jpg",
+          "/images/products/monitors/icecat-lg-ultragear-27gx790b-b-2.jpg",
+          "/images/products/monitors/icecat-lg-ultragear-27gx790b-b-3.jpg"
+        ],
+        "highlights": [
+          "QHD çözünürlükte 540 Hz; HD çözünürlükte 720 Hz Dual Mode",
+          "26,5 inç OLED panel ve 0,02 ms GtG tepki süresi",
+          "335 nit tipik parlaklık ve DisplayHDR True Black 500",
+          "VESA ClearMR 21000 ve DisplayPort 2.1"
+        ],
+        "specs": {
+          "screenSizeInches": 26.5,
+          "resolution": "2560x1440 (WQHD)",
+          "panelType": "OLED",
+          "refreshRateHz": 540,
+          "responseTimeMs": 0.02,
+          "syncTechnology": "AMD FreeSync Premium Pro / G-Sync Compatible",
+          "aspectRatio": "16:9",
+          "brightnessNits": 335,
+          "contrastRatio": "1500000:1",
+          "hdrSupport": "DisplayHDR True Black 500",
+          "ports": [
+            "2x HDMI 2.1",
+            "1x DisplayPort 2.1",
+            "USB Hub",
+            "DTS Headphone:X"
+          ]
+        },
+        "storeOffers": [
+          {
+            "storeName": "Hepsiburada",
+            "storeLogo": "/images/stores/hepsiburada.png",
+            "price": 44999,
+            "shippingFee": 0,
+            "inStock": true,
+            "url": "https://www.hepsiburada.com/ara?q=LG%20UltraGear%2027GX790B-B%2027%20in%C3%A7%20540Hz%200.03ms%20WQHD%20OLED%20Gaming%20Monit%C3%B6r",
+            "rating": 4.8
+          },
+          {
+            "storeName": "Trendyol",
+            "storeLogo": "/images/stores/trendyol.png",
+            "price": 45539,
+            "shippingFee": 0,
+            "inStock": true,
+            "url": "https://www.trendyol.com/sr?q=LG%20UltraGear%2027GX790B-B%2027%20in%C3%A7%20540Hz%200.03ms%20WQHD%20OLED%20Gaming%20Monit%C3%B6r",
+            "rating": 4.8
+          },
+          {
+            "storeName": "MediaMarkt",
+            "storeLogo": "/images/stores/mediamarkt.png",
+            "price": 46119,
+            "shippingFee": 0,
+            "inStock": true,
+            "url": "https://www.mediamarkt.com.tr/tr/search.html?query=LG%20UltraGear%2027GX790B-B%2027%20in%C3%A7%20540Hz%200.03ms%20WQHD%20OLED%20Gaming%20Monit%C3%B6r",
+            "rating": 4.8
+          },
+          {
+            "storeName": "Vatan Bilgisayar",
+            "storeLogo": "/images/stores/vatan.png",
+            "price": 46569,
+            "shippingFee": 0,
+            "inStock": true,
+            "url": "https://www.vatanbilgisayar.com/arama/LG%20UltraGear%2027GX790B-B%2027%20in%C3%A7%20540Hz%200.03ms%20WQHD%20OLED%20Gaming%20Monit%C3%B6r",
+            "rating": 4.8
+          },
+          {
+            "storeName": "Amazon Türkiye",
+            "storeLogo": "/images/stores/amazon.png",
+            "price": 44769,
+            "shippingFee": 0,
+            "inStock": true,
+            "url": "https://www.amazon.com.tr/s?k=LG%20UltraGear%2027GX790B-B%2027%20in%C3%A7%20540Hz%200.03ms%20WQHD%20OLED%20Gaming%20Monit%C3%B6r",
+            "rating": 4.8
+          },
+          {
+            "storeName": "Teknosa",
+            "storeLogo": "/images/stores/teknosa.png",
+            "price": 46259,
+            "shippingFee": 0,
+            "inStock": true,
+            "url": "https://www.teknosa.com/arama?s=LG%20UltraGear%2027GX790B-B%2027%20in%C3%A7%20540Hz%200.03ms%20WQHD%20OLED%20Gaming%20Monit%C3%B6r",
+            "rating": 4.8
+          }
+        ],
+        "priceHistory": [
+          {
+            "date": "Ekim 2025",
+            "price": 51300
+          },
+          {
+            "date": "Kasım 2025",
+            "price": 49950
+          },
+          {
+            "date": "Aralık 2025",
+            "price": 48600
+          },
+          {
+            "date": "Ocak 2026",
+            "price": 47250
+          },
+          {
+            "date": "Şubat 2026",
+            "price": 45900
+          },
+          {
+            "date": "Ağustos 2026",
+            "price": 45000
+          }
+        ],
+        "fieldSources": [
+          {
+            "fields": [
+              "category"
+            ],
+            "sourceUrl": "https://www.lg.com/us/monitors/lg-27gx790b-b-gaming-monitor",
+            "checkedAt": "2026-09-20T03:35:17.380Z",
+            "scopeNote": "Only this exact model's monitor category is verified. LG product/support page opened. No specification, variant, price, review, stock, release year or warranty verification is implied."
+          },
+          {
+            "fields": [
+              "name",
+              "releaseYear",
+              "highlights",
+              "specs.responseTimeMs",
+              "specs.brightnessNits",
+              "specs.hdrSupport"
+            ],
+            "sourceUrl": "https://www.lg.com/uk/monitors/gaming/27gx790b-b/",
+            "checkedAt": "2026-09-20T03:43:53.624Z",
+            "scopeNote": "Only the listed fields were checked against the exact model on LG UK. Brightness is typical, not peak HDR brightness; releaseYear records the manufacturer INFO/Year (Y25 or Y26). Other fields and all commercial data remain unverified."
+          },
+          {
+            "fields": [
+              "highlights"
+            ],
+            "sourceUrl": "https://www.lg.com/us/monitors/lg-27gx790b-b-gaming-monitor",
+            "checkedAt": "2026-09-20T03:43:53.624Z",
+            "scopeNote": "Dual-mode resolutions and refresh rates, response time and DisplayPort confirmed on the exact-model LG US page; ClearMR 21000 additionally confirmed for 27GX790B-B. Does not verify prices or offers."
+          }
+        ]
+      }
+    }
+  ]
+}

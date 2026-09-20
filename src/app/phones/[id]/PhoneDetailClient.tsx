@@ -1,5 +1,7 @@
 'use client';
 
+import { ProductPriceSummary } from '@/components/detail/ProductPriceSummary';
+import { ReviewAvailability } from '@/components/detail/ReviewAvailability';
 import { ProductJsonLd } from '@/components/seo/ProductJsonLd';
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
@@ -15,6 +17,9 @@ import { ProductImageGallery } from '@/components/detail/ProductImageGallery';
 import { ProductColorPicker } from '@/components/detail/ProductColorPicker';
 import { CompactStoreComparison } from '@/components/detail/CompactStoreComparison';
 import { AIPriceForecastBadge } from '@/components/ai/AIPriceForecastBadge';
+import { evaluateProductPricing } from '@/lib/pricing/unifiedPriceEvaluator';
+import { phoneSpecText } from '@/lib/smartphoneSpecFields';
+import { ProductSpecSources } from '@/components/detail/ProductSpecSources';
 
 // Code-split heavy below-the-fold components
 const PriceHistoryChart = dynamic(
@@ -121,7 +126,6 @@ export default function PhoneDetailClient({ initialPhone }: { initialPhone: Smar
   }
 
   const inCompare = isInCompare(phone.id);
-  const score100 = Math.round(phone.rating * 20);
 
   return (
     <div className="space-y-12 py-4">
@@ -142,7 +146,7 @@ export default function PhoneDetailClient({ initialPhone }: { initialPhone: Smar
       <div className="bg-white border border-slate-200 rounded-3xl p-6 sm:p-8 grid grid-cols-1 lg:grid-cols-12 gap-8 shadow-xs">
         
         {/* Left: Interactive Multi-Photo Gallery Stage */}
-        <div className="lg:col-span-5">
+        <div className="min-w-0 lg:col-span-5">
           <ProductImageGallery
             product={phone}
             activeColorImage={selectedColorImage}
@@ -151,24 +155,14 @@ export default function PhoneDetailClient({ initialPhone }: { initialPhone: Smar
         </div>
 
         {/* Right: Info & Actions */}
-        <div className="lg:col-span-7 space-y-6 flex flex-col justify-between">
+        <div className="min-w-0 lg:col-span-7 space-y-6 flex flex-col justify-between">
           <div>
-            <div className="flex items-center justify-between text-xs text-slate-500 mb-2">
+            <div className="flex flex-wrap items-center justify-between gap-2 text-xs text-slate-500 mb-2">
               <span className="font-bold text-slate-500 uppercase tracking-widest text-xs">
                 {phone.brand} • {phone.releaseYear}
               </span>
 
-              <div className="flex items-center gap-2">
-                <div className="bg-amber-50 border border-amber-200 text-amber-800 text-xs font-black px-2.5 py-0.5 rounded-full flex items-center gap-1">
-                  <Award className="w-3.5 h-3.5 text-amber-600" />
-                  <span>{score100} / 100 Puan</span>
-                </div>
-                <div className="flex items-center gap-1.5 text-amber-500 font-bold">
-                  <Star className="w-4 h-4 fill-amber-400 text-amber-400" />
-                  <span className="text-slate-900 text-sm">{phone.rating}</span>
-                  <span className="text-slate-400 text-xs">({phone.reviewCount})</span>
-                </div>
-              </div>
+              <ReviewAvailability />
             </div>
 
             <h1 className="text-2xl sm:text-3xl font-black text-slate-900 leading-tight mb-4">
@@ -198,12 +192,7 @@ export default function PhoneDetailClient({ initialPhone }: { initialPhone: Smar
 
             {/* Base Lowest Price Box */}
             <div className="bg-slate-50 p-5 rounded-2xl border border-slate-200 flex flex-col sm:flex-row sm:items-center justify-between gap-4">
-              <div>
-                <span className="text-xs text-slate-500 block">{t.startingFrom}</span>
-                <span className="text-2xl sm:text-3xl font-black text-emerald-600">
-                  {(((phone.storeOffers && phone.storeOffers.length > 0 && Math.min(...phone.storeOffers.map(o => o.price).filter(p => p > 0)) > 0) ? Math.min(...phone.storeOffers.map(o => o.price).filter(p => p > 0)) : phone.basePrice) > 0 ? `${((phone.storeOffers && phone.storeOffers.length > 0 && Math.min(...phone.storeOffers.map(o => o.price).filter(p => p > 0)) > 0) ? Math.min(...phone.storeOffers.map(o => o.price).filter(p => p > 0)) : phone.basePrice).toLocaleString()} ${phone.currency}` : 'Fiyat Güncelleniyor')}
-                </span>
-              </div>
+              <ProductPriceSummary product={phone} />
 
               <div className="flex items-center gap-2">
                 {/* Price Alert Button */}
@@ -244,24 +233,25 @@ export default function PhoneDetailClient({ initialPhone }: { initialPhone: Smar
           </div>
 
           {/* Quick Specs Bar */}
-          <div className="grid grid-cols-4 gap-2 pt-4 border-t border-slate-100 text-center text-xs">
+          <div className="grid grid-cols-2 sm:grid-cols-4 gap-2 pt-4 border-t border-slate-100 text-center text-xs">
             <div className="bg-slate-50 p-2.5 rounded-xl border border-slate-200">
               <span className="text-[10px] text-slate-500 block">Ekran</span>
-              <span className="text-slate-900 font-bold">{phone.specs?.screen?.size || '6.7 inç'}</span>
+              <span className="text-slate-900 font-bold">{phoneSpecText(phone.specs, 'screen.size')}</span>
             </div>
             <div className="bg-slate-50 p-2.5 rounded-xl border border-slate-200">
               <span className="text-[10px] text-slate-500 block">RAM</span>
-              <span className="text-slate-900 font-bold">{phone.specs?.memory?.ramGb ? `${phone.specs.memory.ramGb} GB` : '12 GB'}</span>
+              <span className="text-slate-900 font-bold">{phoneSpecText(phone.specs, 'memory.ramGb')}</span>
             </div>
             <div className="bg-slate-50 p-2.5 rounded-xl border border-slate-200">
               <span className="text-[10px] text-slate-500 block">AnTuTu</span>
-              <span className="text-emerald-600 font-bold">{(((phone.specs?.processor?.antutuScore || 1800000)) / 1000).toFixed(0)}k</span>
+              <span className="text-emerald-600 font-bold">{phone.specs?.processor?.antutuScore ? phone.specs.processor.antutuScore.toLocaleString('tr-TR') : 'Bilinmiyor'}</span>
             </div>
             <div className="bg-slate-50 p-2.5 rounded-xl border border-slate-200">
               <span className="text-[10px] text-slate-500 block">Batarya</span>
-              <span className="text-slate-900 font-bold">{phone.specs?.battery?.capacitymAh ? `${phone.specs.battery.capacitymAh} mAh` : '5000 mAh'}</span>
+              <span className="text-slate-900 font-bold">{phoneSpecText(phone.specs, 'battery.capacitymAh')}</span>
             </div>
           </div>
+          <ProductSpecSources product={phone} />
 
         </div>
 
@@ -277,7 +267,7 @@ export default function PhoneDetailClient({ initialPhone }: { initialPhone: Smar
       <AIUpgradeAdvisor currentProduct={phone} />
 
       {/* Store Comparison Table (Full View) */}
-      <div id="store-section">
+      <div>
         <StoreTable offers={phone.storeOffers} currency={phone.currency} product={phone} />
       </div>
 

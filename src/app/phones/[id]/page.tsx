@@ -1,9 +1,11 @@
 import { Suspense } from 'react';
 import { Metadata } from 'next';
-import { notFound } from 'next/navigation';
+import { notFound, permanentRedirect } from 'next/navigation';
 import { getSmartphoneById, findProductByIdSafe } from '@/lib/data';
 import { buildProductMetadata } from '@/lib/seoHelper';
 import PhoneDetailClient from './PhoneDetailClient';
+
+export const dynamic = 'force-dynamic';
 
 export async function generateMetadata({
   params,
@@ -25,6 +27,13 @@ export default async function PhoneDetailPage({
 
   if (!product) {
     notFound();
+  }
+
+  const expectedCategory = product.category === 'smartphones' ? 'phones' : product.category;
+  const canonicalSlug = product.slug || product.id;
+
+  if (expectedCategory && (expectedCategory !== 'phones' || id !== canonicalSlug)) {
+    permanentRedirect(`/${expectedCategory}/${canonicalSlug}`);
   }
 
   return (

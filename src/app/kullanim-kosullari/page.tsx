@@ -5,6 +5,7 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Kullanım Koşulları | aceleEtme',
+  alternates: { canonical: 'https://www.aceleetme.tech/kullanim-kosullari' },
   description: 'aceleEtme web sitesi kullanım şartları, kuralları ve hizmet kapsamı.',
 };
 

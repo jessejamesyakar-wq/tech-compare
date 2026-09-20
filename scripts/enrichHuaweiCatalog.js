@@ -1,3 +1,6 @@
+// Retired: hardcoded price, review and stock claims have no observation source.
+throw new Error('Bu eski Huawei zenginleştiricisi devre dışı: kaynaksız fiyat/stok/yorum verilerini yeniden yazıyor. Kaynaklı alan bazlı içe aktarım gerekir.');
+
 const fs = require('fs');
 const path = require('path');
 

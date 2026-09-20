@@ -1,5 +1,6 @@
 'use client';
 
+import { useAdminAccess } from '@/components/admin/AdminAccessGate';
 import React, { useState, useEffect } from 'react';
 import { StoreHealthStatus } from '@/integrations/stores/types';
 import { DbPrice } from '@/lib/db/priceRepository';
@@ -19,6 +20,7 @@ import {
 import Link from 'next/link';
 
 export default function AdminStoresPage() {
+  const { adminFetch } = useAdminAccess();
   const [stores, setStores] = useState<StoreHealthStatus[]>([]);
   const [anomalies, setAnomalies] = useState<DbPrice[]>([]);
   const [loading, setLoading] = useState(true);
@@ -29,13 +31,14 @@ export default function AdminStoresPage() {
     try {
       setLoading(true);
       const [storesRes, updatesRes] = await Promise.all([
-        fetch('/api/stores').then((r) => r.json()),
-        fetch('/api/admin/price-updates').then((r) => r.json()),
+        adminFetch('/api/stores').then(async (r) => { if (!r.ok) throw new Error('Management data unavailable'); return r.json(); }),
+        adminFetch('/api/admin/price-updates').then(async (r) => { if (!r.ok) throw new Error('Management data unavailable'); return r.json(); }),
       ]);
 
       if (storesRes.stores) setStores(storesRes.stores);
       if (updatesRes.anomalies) setAnomalies(updatesRes.anomalies);
     } catch (err) {
+      setMessage('Yönetim verileri alınamadı. Lütfen tekrar deneyin.');
       console.error('Error fetching admin store data:', err);
     } finally {
       setLoading(false);
@@ -50,13 +53,14 @@ export default function AdminStoresPage() {
     try {
       setUpdating(true);
       setMessage('Tüm ürünler için fiyat güncelleme kuyruğa alındı...');
-      const res = await fetch('/api/cron/update-prices');
+      const res = await adminFetch('/api/cron/update-prices');
       const data = await res.json();
+      if (!res.ok) throw new Error(data.error || 'Operation failed');
       if (data.ok) {
         setMessage(`Başarılı! ${data.updated} adet mağaza fiyatı kontrol edildi.`);
         fetchDashboardData();
       } else {
-        setMessage('Güncelleme tamamlandı.');
+        setMessage(data.error || 'Fiyat güncellemesi doğrulanamadı.');
       }
     } catch (err) {
       setMessage('Güncelleme sırasında hata oluştu.');
@@ -68,8 +72,9 @@ export default function AdminStoresPage() {
 
   const testSingleStore = async (storeId: string) => {
     try {
-      const res = await fetch(`/api/admin/stores/${storeId}/test`, { method: 'POST' });
+      const res = await adminFetch(`/api/admin/stores/${storeId}/test`, { method: 'POST' });
       const data = await res.json();
+      if (!res.ok) throw new Error(data.error || 'Operation failed');
       alert(`${data.name} Test Sonucu: ${data.testResult.status} (${data.testResult.message || 'Tamamlandı'})`);
       fetchDashboardData();
     } catch (err) {
@@ -86,6 +91,8 @@ export default function AdminStoresPage() {
             CONNECTED
           </span>
         );
+      case 'CONFIGURED_UNVERIFIED':
+        return <span className="inline-flex px-3 py-1 rounded-full text-xs font-bold bg-amber-100 text-amber-900">Bağlantı doğrulanmadı</span>;
       case 'NOT_CONFIGURED':
         return (
           <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-bold bg-slate-100 text-slate-700 dark:bg-slate-800 dark:text-slate-300 border border-slate-300 dark:border-slate-700">

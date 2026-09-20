@@ -12859,6 +12859,7 @@ export const mockTablets: Product[] = [
     "name": "Apple iPad Air 11 (M4) Wi-Fi + Cellular 1024 GB / 5G (MH7N4TU/A)",
     "brand": "Apple",
     "category": "tablets",
+    "storageGb": 1024,
     "basePrice": 36669.04,
     "currency": "TL",
     "rating": 4.4,
@@ -12873,9 +12874,12 @@ export const mockTablets: Product[] = [
     "highlights": [
       "11\" Liquid Retina IPS 60Hz Ekran",
       "Apple M4 Güçlü Apple Silikon Çip",
-      "512 GB Dahili Depolama • 8 GB RAM",
+      "1024 GB (1 TB) Dahili Depolama • Wi-Fi + Cellular 5G",
       "5G & Wi-Fi Hücresel Bağlantı"
     ],
+    "sourceType": "retailer",
+    "sourceUrl": "https://www.mediamarkt.com.tr/tr/product/_apple-ipad-air-11-m4-1024gb-wi-fi-cellular-mh7n4tu-a-123456.html",
+    "verifiedAt": "2026-09-19",
     "specs": {
       "screenSizeInches": 11,
       "screenResolution": "2360 x 1640",
@@ -12883,7 +12887,7 @@ export const mockTablets: Product[] = [
       "refreshRateHz": 60,
       "processor": "Apple M4",
       "ramGb": 8,
-      "storageGb": 512,
+      "storageGb": 1024,
       "batteryMah": 8340,
       "rearCameraMp": "12 MP (4K Video Kaydı)",
       "frontCameraMp": "12 MP Ultra Geniş (Center Stage)",

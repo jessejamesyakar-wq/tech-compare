@@ -1,3 +1,7 @@
+// Retired: this legacy script assigned one model's photo to unrelated models.
+// Keep the old mapping below only as audit evidence. It must never rewrite data.
+throw new Error('Bu görsel atama aracı devre dışı: modeller arasında yanlış fotoğraf eşleştiriyor. Kaynağı doğrulanmış model bazlı görsel kaydını kullanın.');
+
 const fs = require('fs');
 const path = require('path');
 

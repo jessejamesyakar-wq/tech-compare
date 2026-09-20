@@ -1,3 +1,4 @@
+import { requireMaintenanceAccess } from '@/lib/security/maintenanceAuth';
 import { NextRequest, NextResponse } from 'next/server';
 import { storeRegistry } from '@/integrations/stores/registry';
 
@@ -5,6 +6,8 @@ export async function POST(
   request: NextRequest,
   { params }: { params: Promise<{ id: string }> }
 ) {
+  const denied = requireMaintenanceAccess(request);
+  if (denied) return denied;
   try {
     const { id } = await params;
     const adapter = storeRegistry.getAdapter(id);

@@ -1,7 +1,10 @@
+import { requireMaintenanceAccess } from '@/lib/security/maintenanceAuth';
 import { NextRequest, NextResponse } from 'next/server';
 import { autoFetchAndSaveProductImage } from '@/lib/productImagePipeline';
 
 export async function POST(req: NextRequest) {
+  const denied = requireMaintenanceAccess(req, 'admin');
+  if (denied) return denied;
   try {
     const body = await req.json();
     const { id, name, category, brand } = body;

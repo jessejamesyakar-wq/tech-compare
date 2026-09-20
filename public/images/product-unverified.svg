@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="600" viewBox="0 0 600 600" role="img" aria-labelledby="title desc">
+  <title id="title">Ürün görseli doğrulanmayı bekliyor</title>
+  <desc id="desc">Bu alan bir ürün fotoğrafı değildir.</desc>
+  <rect width="600" height="600" rx="32" fill="#f1f5f9"/>
+  <g fill="none" stroke="#64748b" stroke-width="8" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="220" y="155" width="160" height="145" rx="16"/>
+    <circle cx="265" cy="200" r="13"/>
+    <path d="m232 277 47-47 35 35 28-29 26 27"/>
+  </g>
+  <text x="300" y="368" text-anchor="middle" font-family="Arial, sans-serif" font-size="29" font-weight="600" fill="#334155">Ürün görseli</text>
+  <text x="300" y="410" text-anchor="middle" font-family="Arial, sans-serif" font-size="25" fill="#475569">doğrulanmayı bekliyor</text>
+</svg>

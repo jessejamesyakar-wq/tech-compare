@@ -15,7 +15,7 @@ export function PriceDisclaimer({ variant = 'card', className = '' }: PriceDiscl
       <div className={`flex items-start gap-2 bg-slate-50/80 border border-slate-200/80 rounded-xl p-2.5 text-[11px] text-slate-500 font-medium ${className}`}>
         <Info className="w-3.5 h-3.5 text-emerald-600 shrink-0 mt-0.5" />
         <span>
-          <strong>Yasal Bilgilendirme:</strong> aceleEtme, anlık fiyat değişikliklerini 3üncü parti kaynaklardan toplar. Satın alma aşamasında fiyatı satıcının sitesinden teyit ediniz.
+          <strong>Yasal Bilgilendirme:</strong> Fiyatın güncellik etiketini ve varsa gözlem tarihini kontrol ediniz. Satın alma aşamasında fiyatı satıcının sitesinden teyit ediniz.
         </span>
       </div>
     );
@@ -25,7 +25,7 @@ export function PriceDisclaimer({ variant = 'card', className = '' }: PriceDiscl
     return (
       <div className={`flex items-center gap-1.5 text-[11px] text-slate-400 font-medium ${className}`}>
         <Info className="w-3 h-3 text-slate-400 shrink-0" />
-        <span>aceleEtme, anlık fiyat değişikliklerini 3üncü parti kaynaklardan toplar. Satın alma aşamasında fiyatı satıcının sitesinden teyit ediniz.</span>
+        <span>Fiyatın güncellik etiketini ve varsa gözlem tarihini kontrol ediniz. Satın alma aşamasında fiyatı satıcının sitesinden teyit ediniz.</span>
       </div>
     );
   }
@@ -45,7 +45,7 @@ export function PriceDisclaimer({ variant = 'card', className = '' }: PriceDiscl
             </span>
           </h5>
           <p className="text-[11.5px] leading-relaxed text-slate-600 font-medium">
-            aceleEtme, anlık fiyat değişikliklerini 3üncü parti kaynaklardan toplar. Satın alma aşamasında fiyatı satıcının sitesinden teyit ediniz.
+            Fiyatın güncellik etiketini ve varsa gözlem tarihini kontrol ediniz. Satın alma aşamasında fiyatı satıcının sitesinden teyit ediniz.
           </p>
         </div>
       </div>

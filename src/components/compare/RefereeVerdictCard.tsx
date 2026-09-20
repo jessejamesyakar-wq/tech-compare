@@ -26,8 +26,6 @@ interface RefereeVerdictCardProps {
 }
 
 export function RefereeVerdictCard({ product1, product2, className = '' }: RefereeVerdictCardProps) {
-  if (!product1 || !product2) return null;
-
   const verdict: RefereeVerdictResult = React.useMemo(() => {
     return generateRefereeVerdict(product1, product2);
   }, [product1, product2]);
@@ -66,23 +64,23 @@ export function RefereeVerdictCard({ product1, product2, className = '' }: Refer
             <Scale className="w-5 h-5 text-emerald-400" />
           </div>
           <div>
-            <div className="flex items-center gap-2">
+            <div className="flex flex-wrap items-center gap-2">
               <h3 className="text-slate-900 text-base sm:text-lg font-black tracking-tight">
                 RoboPengu Hakem Masası
               </h3>
               <span className="inline-flex items-center gap-1 text-[10px] font-extrabold uppercase tracking-wider bg-emerald-50 text-emerald-800 border border-emerald-200 px-2.5 py-0.5 rounded-full">
-                Tarafsız Jüri
+                Kayıt Özeti
               </span>
             </div>
             <p className="text-[11px] sm:text-xs text-slate-500 font-medium mt-0.5">
-              Teknik detayları basitleştiren senaryo bazlı karar özeti
+              Kayıtlı özellik ve güncel teklif farklarının özeti
             </p>
           </div>
         </div>
 
         <div className="hidden sm:flex items-center gap-1.5 text-[11px] font-semibold text-slate-400">
           <ShieldCheck className="w-4 h-4 text-emerald-600" />
-          <span>Sponsor Etkisi Yok • %100 Veri Odaklı</span>
+          <span>Katalog bilgisi • Genel kalite puanı değildir</span>
         </div>
       </div>
 
@@ -108,7 +106,7 @@ export function RefereeVerdictCard({ product1, product2, className = '' }: Refer
             {/* Kazanan Ürün & Avantaj Rozeti */}
             <div className="space-y-1">
               <div className="flex items-center gap-1.5">
-                <CheckCircle2 className="w-3.5 h-3.5 text-emerald-600 shrink-0" />
+                {scen.winnerProductId && <CheckCircle2 className="w-3.5 h-3.5 text-emerald-600 shrink-0" />}
                 <span className="text-xs sm:text-[13px] font-black text-slate-900 line-clamp-1">
                   {scen.winnerProductName}
                 </span>
@@ -131,7 +129,7 @@ export function RefereeVerdictCard({ product1, product2, className = '' }: Refer
         <div className="flex items-center gap-2">
           <Sparkles className="w-4 h-4 text-emerald-400 shrink-0" />
           <span className="text-xs sm:text-sm font-black text-slate-100">
-            Hangi Cihaz Size Göre? (Hızlı Karar Notu)
+            Seçim Yaparken
           </span>
         </div>
 

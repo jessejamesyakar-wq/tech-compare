@@ -1,0 +1,2921 @@
+{
+  "checkedAt": "2026-09-20T09:13:03.062Z",
+  "scope": "Catalog metadata and application pricing eligibility only. No remote price fetch, no claim of factually verified products, no browser checks.",
+  "total": {
+    "products": 5820,
+    "withFieldSourceMetadata": 75,
+    "withProductSourceMetadata": 5,
+    "sourceMetadataIssues": 0,
+    "withExplicitUnresolvedFields": 399,
+    "withAnyLegacyPhoneField": 127,
+    "flatPhoneRecords": 82,
+    "emptyPhoneSpecs": 392,
+    "withEligibleFreshOffer": 0,
+    "withEligibleStaleOffer": 0
+  },
+  "categories": {
+    "smartphones": {
+      "products": 905,
+      "withFieldSourceMetadata": 16,
+      "withProductSourceMetadata": 0,
+      "sourceMetadataIssues": 0,
+      "withExplicitUnresolvedFields": 398,
+      "withAnyLegacyPhoneField": 127,
+      "flatPhoneRecords": 82,
+      "emptyPhoneSpecs": 392,
+      "withEligibleFreshOffer": 0,
+      "withEligibleStaleOffer": 0
+    },
+    "tvs": {
+      "products": 882,
+      "withFieldSourceMetadata": 0,
+      "withProductSourceMetadata": 0,
+      "sourceMetadataIssues": 0,
+      "withExplicitUnresolvedFields": 0,
+      "withAnyLegacyPhoneField": 0,
+      "flatPhoneRecords": 0,
+      "emptyPhoneSpecs": 0,
+      "withEligibleFreshOffer": 0,
+      "withEligibleStaleOffer": 0
+    },
+    "laptops": {
+      "products": 831,
+      "withFieldSourceMetadata": 1,
+      "withProductSourceMetadata": 1,
+      "sourceMetadataIssues": 0,
+      "withExplicitUnresolvedFields": 1,
+      "withAnyLegacyPhoneField": 0,
+      "flatPhoneRecords": 0,
+      "emptyPhoneSpecs": 0,
+      "withEligibleFreshOffer": 0,
+      "withEligibleStaleOffer": 0
+    },
+    "tablets": {
+      "products": 557,
+      "withFieldSourceMetadata": 0,
+      "withProductSourceMetadata": 1,
+      "sourceMetadataIssues": 0,
+      "withExplicitUnresolvedFields": 0,
+      "withAnyLegacyPhoneField": 0,
+      "flatPhoneRecords": 0,
+      "emptyPhoneSpecs": 0,
+      "withEligibleFreshOffer": 0,
+      "withEligibleStaleOffer": 0
+    },
+    "smartwatches": {
+      "products": 136,
+      "withFieldSourceMetadata": 0,
+      "withProductSourceMetadata": 0,
+      "sourceMetadataIssues": 0,
+      "withExplicitUnresolvedFields": 0,
+      "withAnyLegacyPhoneField": 0,
+      "flatPhoneRecords": 0,
+      "emptyPhoneSpecs": 0,
+      "withEligibleFreshOffer": 0,
+      "withEligibleStaleOffer": 0
+    },
+    "headphones": {
+      "products": 823,
+      "withFieldSourceMetadata": 1,
+      "withProductSourceMetadata": 0,
+      "sourceMetadataIssues": 0,
+      "withExplicitUnresolvedFields": 0,
+      "withAnyLegacyPhoneField": 0,
+      "flatPhoneRecords": 0,
+      "emptyPhoneSpecs": 0,
+      "withEligibleFreshOffer": 0,
+      "withEligibleStaleOffer": 0
+    },
+    "consoles": {
+      "products": 70,
+      "withFieldSourceMetadata": 2,
+      "withProductSourceMetadata": 2,
+      "sourceMetadataIssues": 0,
+      "withExplicitUnresolvedFields": 0,
+      "withAnyLegacyPhoneField": 0,
+      "flatPhoneRecords": 0,
+      "emptyPhoneSpecs": 0,
+      "withEligibleFreshOffer": 0,
+      "withEligibleStaleOffer": 0
+    },
+    "appliances": {
+      "products": 955,
+      "withFieldSourceMetadata": 0,
+      "withProductSourceMetadata": 0,
+      "sourceMetadataIssues": 0,
+      "withExplicitUnresolvedFields": 0,
+      "withAnyLegacyPhoneField": 0,
+      "flatPhoneRecords": 0,
+      "emptyPhoneSpecs": 0,
+      "withEligibleFreshOffer": 0,
+      "withEligibleStaleOffer": 0
+    },
+    "monitors": {
+      "products": 661,
+      "withFieldSourceMetadata": 55,
+      "withProductSourceMetadata": 1,
+      "sourceMetadataIssues": 0,
+      "withExplicitUnresolvedFields": 0,
+      "withAnyLegacyPhoneField": 0,
+      "flatPhoneRecords": 0,
+      "emptyPhoneSpecs": 0,
+      "withEligibleFreshOffer": 0,
+      "withEligibleStaleOffer": 0
+    }
+  },
+  "findings": [
+    {
+      "id": "huawei-huawei-y5ii",
+      "name": "Huawei Y5ii",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-u8650-sonic",
+      "name": "Huawei U8650 Sonic",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-p40-pro",
+      "name": "Huawei P40 Pro",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-nova-12-ultra",
+      "name": "Huawei nova 12 Ultra",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-mate-9",
+      "name": "Huawei Mate 9",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-mate-40-rs-porsche-design",
+      "name": "Huawei Mate 40 RS Porsche Design",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-nova-5i",
+      "name": "Huawei nova 5i",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-y9",
+      "name": "Huawei Y9 ",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-y9-1",
+      "name": "Huawei Y9 ",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-u8850-vision",
+      "name": "Huawei U8850 Vision",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-mate-x2-4g",
+      "name": "Huawei Mate X2 4G",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "samsung-samsung-galaxy-m53-5g-79",
+      "name": "Samsung Galaxy M53 5G",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-pura-70-ultra",
+      "name": "Huawei Pura 70 Ultra",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-pura-70-pro",
+      "name": "Huawei Pura 70 Pro",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-p60-pro",
+      "name": "Huawei P60 Pro",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-p50-pro",
+      "name": "Huawei P50 Pro",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-p30-pro",
+      "name": "Huawei P30 Pro",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-mate-60-pro",
+      "name": "Huawei Mate 60 Pro",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-mate-50-pro",
+      "name": "Huawei Mate 50 Pro",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-nova-11-pro",
+      "name": "Huawei nova 11 Pro",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-nova-10-pro",
+      "name": "Huawei nova 10 Pro",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-activa-4g",
+      "name": "Huawei Activa 4G",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-ascend-d-quad",
+      "name": "Huawei Ascend D Quad",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-ascend-d-quad-xl",
+      "name": "Huawei Ascend D Quad XL",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-ascend-d1",
+      "name": "Huawei Ascend D1",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-ascend-d1-xl-u9500e",
+      "name": "Huawei Ascend D1 XL U9500e",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-ascend-d2",
+      "name": "Huawei Ascend D2",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-ascend-g300",
+      "name": "Huawei Ascend G300",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-ascend-g312",
+      "name": "Huawei Ascend G312",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-ascend-g330",
+      "name": "Huawei Ascend G330",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-ascend-g330d-u8825d",
+      "name": "Huawei Ascend G330d U8825d",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-ascend-g350",
+      "name": "Huawei Ascend G350",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-ascend-g500",
+      "name": "Huawei Ascend G500",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-ascend-g510",
+      "name": "Huawei Ascend G510",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-ascend-g525",
+      "name": "Huawei Ascend G525",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-ascend-g526",
+      "name": "Huawei Ascend G526",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-ascend-g535",
+      "name": "Huawei Ascend G535",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-ascend-g6-4g",
+      "name": "Huawei Ascend G6 4G",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-ascend-g6",
+      "name": "Huawei Ascend G6",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-ascend-g600",
+      "name": "Huawei Ascend G600",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-ascend-g615",
+      "name": "Huawei Ascend G615",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-ascend-g620s",
+      "name": "Huawei Ascend G620s",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-ascend-g628",
+      "name": "Huawei Ascend G628",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-ascend-g630",
+      "name": "Huawei Ascend G630",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-ascend-g7",
+      "name": "Huawei Ascend G7",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-ascend-g700",
+      "name": "Huawei Ascend G700",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-ascend-g730",
+      "name": "Huawei Ascend G730",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-ascend-g740",
+      "name": "Huawei Ascend G740",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-ascend-gx1",
+      "name": "Huawei Ascend Gx1",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-ascend-ii",
+      "name": "Huawei Ascend II",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-ascend-mate",
+      "name": "Huawei Ascend Mate",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-ascend-mate2-4g",
+      "name": "Huawei Ascend Mate2 4G",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-ascend-mate7",
+      "name": "Huawei Ascend Mate7",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-ascend-mate7-monarch",
+      "name": "Huawei Ascend Mate7 Monarch",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-ascend-p1",
+      "name": "Huawei Ascend P1",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-ascend-p1-lte",
+      "name": "Huawei Ascend P1 LTE",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-ascend-p1-xl-u9200e",
+      "name": "Huawei Ascend P1 XL U9200e",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-ascend-p1s",
+      "name": "Huawei Ascend P1s",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-ascend-p2",
+      "name": "Huawei Ascend P2",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-ascend-p6",
+      "name": "Huawei Ascend P6",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-ascend-p6-s",
+      "name": "Huawei Ascend P6 S",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-ascend-p7",
+      "name": "Huawei Ascend P7",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-ascend-p7-mini",
+      "name": "Huawei Ascend P7 Mini",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-ascend-p7-sapphire-edition",
+      "name": "Huawei Ascend P7 Sapphire Edition",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-ascend-plus",
+      "name": "Huawei Ascend Plus",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-ascend-q-m5660",
+      "name": "Huawei Ascend Q M5660",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-ascend-w1",
+      "name": "Huawei Ascend W1",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-ascend-w2",
+      "name": "Huawei Ascend W2",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-ascend-y",
+      "name": "Huawei Ascend Y",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-ascend-y100",
+      "name": "Huawei Ascend Y100",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-ascend-y200",
+      "name": "Huawei Ascend Y200",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-ascend-y201-pro",
+      "name": "Huawei Ascend Y201 Pro",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-ascend-y210d",
+      "name": "Huawei Ascend Y210d",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-ascend-y220",
+      "name": "Huawei Ascend Y220",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-ascend-y221",
+      "name": "Huawei Ascend Y221",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-ascend-y300",
+      "name": "Huawei Ascend Y300",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-ascend-y320",
+      "name": "Huawei Ascend Y320",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-ascend-y330",
+      "name": "Huawei Ascend Y330",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-ascend-y511",
+      "name": "Huawei Ascend Y511",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-ascend-y520",
+      "name": "Huawei Ascend Y520",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-ascend-y530",
+      "name": "Huawei Ascend Y530",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-ascend-y540",
+      "name": "Huawei Ascend Y540",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-ascend-y550",
+      "name": "Huawei Ascend Y550",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-ascend-y600",
+      "name": "Huawei Ascend Y600",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-c3200",
+      "name": "Huawei C3200",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-d51-discovery",
+      "name": "Huawei D51 Discovery",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-enjoy-10",
+      "name": "Huawei Enjoy 10",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-enjoy-10-plus",
+      "name": "Huawei Enjoy 10 Plus",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-enjoy-10e",
+      "name": "Huawei Enjoy 10e",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-enjoy-10s",
+      "name": "Huawei Enjoy 10s",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-enjoy-20-5g",
+      "name": "Huawei Enjoy 20 5G",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-enjoy-20-plus-5g",
+      "name": "Huawei Enjoy 20 Plus 5G",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-enjoy-20-pro",
+      "name": "Huawei Enjoy 20 Pro",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-enjoy-20-se",
+      "name": "Huawei Enjoy 20 SE",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-enjoy-20e",
+      "name": "Huawei Enjoy 20e",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-enjoy-50z",
+      "name": "Huawei Enjoy 50z",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-enjoy-5s",
+      "name": "Huawei Enjoy 5s",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-enjoy-6",
+      "name": "Huawei Enjoy 6",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-enjoy-60",
+      "name": "Huawei Enjoy 60",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-enjoy-60-pro",
+      "name": "Huawei Enjoy 60 Pro",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-enjoy-60x",
+      "name": "Huawei Enjoy 60x",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-enjoy-6s",
+      "name": "Huawei Enjoy 6s",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-enjoy-70",
+      "name": "Huawei Enjoy 70",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-enjoy-70x",
+      "name": "Huawei Enjoy 70x",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-enjoy-70x-energy-4g",
+      "name": "Huawei Enjoy 70x Energy 4G",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-enjoy-70z",
+      "name": "Huawei Enjoy 70z",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-enjoy-80-4g",
+      "name": "Huawei Enjoy 80 4G",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-enjoy-9",
+      "name": "Huawei Enjoy 9",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-enjoy-90",
+      "name": "Huawei Enjoy 90",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-enjoy-90-plus",
+      "name": "Huawei Enjoy 90 Plus",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-enjoy-90-pro-max",
+      "name": "Huawei Enjoy 90 Pro Max",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-enjoy-90m-plus",
+      "name": "Huawei Enjoy 90m Plus",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-enjoy-9e",
+      "name": "Huawei Enjoy 9e",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-enjoy-9s",
+      "name": "Huawei Enjoy 9s",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-enjoy-z-5g",
+      "name": "Huawei Enjoy Z 5G",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-fusion-2-u8665",
+      "name": "Huawei Fusion 2 U8665",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-fusion-u8652",
+      "name": "Huawei Fusion U8652",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-g10",
+      "name": "Huawei G10",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-g3621l",
+      "name": "Huawei G3621l",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-g5000",
+      "name": "Huawei G5000",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-g5500",
+      "name": "Huawei G5500",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-g5520",
+      "name": "Huawei G5520",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-g6005",
+      "name": "Huawei G6005",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-g610s",
+      "name": "Huawei G610s",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-g6150",
+      "name": "Huawei G6150",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-g6153",
+      "name": "Huawei G6153",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-g6310",
+      "name": "Huawei G6310",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-g6600-passport",
+      "name": "Huawei G6600 Passport",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-g6608",
+      "name": "Huawei G6608",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-g6609",
+      "name": "Huawei G6609",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-g6620",
+      "name": "Huawei G6620",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-g6800",
+      "name": "Huawei G6800",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-g7-plus",
+      "name": "Huawei G7 Plus",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-g7002",
+      "name": "Huawei G7002",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-g7005",
+      "name": "Huawei G7005",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-g7010",
+      "name": "Huawei G7010",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-g7206",
+      "name": "Huawei G7206",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-g7300",
+      "name": "Huawei G7300",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-g8",
+      "name": "Huawei G8",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-g9-plus",
+      "name": "Huawei G9 Plus",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-impulse-4g",
+      "name": "Huawei Impulse 4G",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-m886-mercury",
+      "name": "Huawei M886 Mercury",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-mate-10",
+      "name": "Huawei Mate 10",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-mate-10-lite",
+      "name": "Huawei Mate 10 Lite",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-mate-10-porsche-design",
+      "name": "Huawei Mate 10 Porsche Design",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-mate-10-pro",
+      "name": "Huawei Mate 10 Pro",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-mate-20",
+      "name": "Huawei Mate 20",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-mate-20-lite",
+      "name": "Huawei Mate 20 Lite",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-mate-20-pro",
+      "name": "Huawei Mate 20 Pro",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-mate-20-rs-porsche-design",
+      "name": "Huawei Mate 20 RS Porsche Design",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-mate-20-x-5g",
+      "name": "Huawei Mate 20 X  5G",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-mate-20-x",
+      "name": "Huawei Mate 20 X",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-mate-30-5g",
+      "name": "Huawei Mate 30 5G",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-mate-30",
+      "name": "Huawei Mate 30",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-mate-30-lite",
+      "name": "Huawei Mate 30 Lite",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-mate-30-pro-5g",
+      "name": "Huawei Mate 30 Pro 5G",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-mate-30-pro",
+      "name": "Huawei Mate 30 Pro",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-mate-30-rs-porsche-design",
+      "name": "Huawei Mate 30 RS Porsche Design",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-mate-30e-pro-5g",
+      "name": "Huawei Mate 30e Pro 5G",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-mate-40",
+      "name": "Huawei Mate 40",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-mate-40-pro",
+      "name": "Huawei Mate 40 Pro",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-mate-40-pro-4g",
+      "name": "Huawei Mate 40 Pro 4G",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-mate-40e",
+      "name": "Huawei Mate 40e",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-mate-40e-4g",
+      "name": "Huawei Mate 40e 4G",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-mate-50",
+      "name": "Huawei Mate 50",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-mate-50-rs-porsche-design",
+      "name": "Huawei Mate 50 RS Porsche Design",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-mate-50e",
+      "name": "Huawei Mate 50e",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-mate-60",
+      "name": "Huawei Mate 60",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-mate-60-pro-1",
+      "name": "Huawei Mate 60 Pro ",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-mate-60-rs-ultimate",
+      "name": "Huawei Mate 60 RS Ultimate",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-mate-70",
+      "name": "Huawei Mate 70",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-mate-70-air-5g",
+      "name": "Huawei Mate 70 Air 5G",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-mate-70-pro",
+      "name": "Huawei Mate 70 Pro",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-mate-70-rs-ultimate",
+      "name": "Huawei Mate 70 RS Ultimate",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-mate-8",
+      "name": "Huawei Mate 8",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-mate-80-5g",
+      "name": "Huawei Mate 80 5G",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-mate-80-pro-5g",
+      "name": "Huawei Mate 80 Pro 5G",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-mate-80-pro-max-5g",
+      "name": "Huawei Mate 80 Pro Max 5G",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-mate-80-pro-max-wind-5g",
+      "name": "Huawei Mate 80 Pro Max Wind 5G",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-mate-80-rs-ultimate-5g",
+      "name": "Huawei Mate 80 RS Ultimate 5G",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-mate-9-porsche-design",
+      "name": "Huawei Mate 9 Porsche Design",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-mate-9-pro",
+      "name": "Huawei Mate 9 Pro",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-mate-rs-porsche-design",
+      "name": "Huawei Mate RS Porsche Design",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-mate-s",
+      "name": "Huawei Mate S",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-mate-x",
+      "name": "Huawei Mate X",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-mate-x2",
+      "name": "Huawei Mate X2",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-mate-x3",
+      "name": "Huawei Mate X3",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-mate-x5",
+      "name": "Huawei Mate X5",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-mate-x6",
+      "name": "Huawei Mate X6",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-mate-x7-5g",
+      "name": "Huawei Mate X7 5G",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-mate-xs",
+      "name": "Huawei Mate Xs",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-mate-xs-2",
+      "name": "Huawei Mate Xs 2",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-mate-xt-ultimate",
+      "name": "Huawei Mate Xt Ultimate",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-mate-xts-ultimate-5g",
+      "name": "Huawei Mate Xts Ultimate 5G",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-mulan",
+      "name": "Huawei Mulan",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-nexus-6p",
+      "name": "Huawei Nexus 6p",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-nova-10",
+      "name": "Huawei nova 10",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-nova-10-se",
+      "name": "Huawei nova 10 SE",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-nova-10-youth",
+      "name": "Huawei nova 10 Youth",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-nova-10z",
+      "name": "Huawei nova 10z",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-nova-11",
+      "name": "Huawei nova 11",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-nova-11-se",
+      "name": "Huawei nova 11 SE",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-nova-11-ultra",
+      "name": "Huawei nova 11 Ultra",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-nova-11i",
+      "name": "Huawei nova 11i",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-nova-12",
+      "name": "Huawei nova 12",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-nova-12-lite",
+      "name": "Huawei nova 12 Lite",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-nova-12-pro",
+      "name": "Huawei nova 12 Pro",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-nova-12-se",
+      "name": "Huawei nova 12 SE",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-nova-12i",
+      "name": "Huawei nova 12i",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-nova-12s",
+      "name": "Huawei nova 12s",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-nova-13",
+      "name": "Huawei nova 13",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-nova-13-pro",
+      "name": "Huawei nova 13 Pro",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-nova-13i",
+      "name": "Huawei nova 13i",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-nova-14-5g",
+      "name": "Huawei nova 14 5G",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-nova-14-lite-5g",
+      "name": "Huawei nova 14 Lite 5G",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-nova-14-pro-5g",
+      "name": "Huawei nova 14 Pro 5G",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-nova-14-ultra-5g",
+      "name": "Huawei nova 14 Ultra 5G",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-nova-14i",
+      "name": "Huawei nova 14i",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-nova-15-5g",
+      "name": "Huawei nova 15 5G",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-nova-15-max",
+      "name": "Huawei nova 15 Max",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-nova-15-pro-5g",
+      "name": "Huawei nova 15 Pro 5G",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-nova-15-ultra-5g",
+      "name": "Huawei nova 15 Ultra 5G",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-nova-16-5g",
+      "name": "Huawei nova 16 5G",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-nova-16-pro-5g",
+      "name": "Huawei nova 16 Pro 5G",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-nova-16-se",
+      "name": "Huawei nova 16 SE",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-nova-16-ultra-5g",
+      "name": "Huawei nova 16 Ultra 5G",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-nova-16z-5g",
+      "name": "Huawei nova 16z 5G",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-nova-2",
+      "name": "Huawei nova 2",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-nova-2-plus",
+      "name": "Huawei nova 2 Plus",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-nova-2s",
+      "name": "Huawei nova 2s",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-nova-3",
+      "name": "Huawei nova 3",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-nova-3i",
+      "name": "Huawei nova 3i",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-nova-4",
+      "name": "Huawei nova 4",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-nova-4e",
+      "name": "Huawei nova 4e",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-nova-5",
+      "name": "Huawei nova 5",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-nova-5-pro",
+      "name": "Huawei nova 5 Pro",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-nova-5i-pro",
+      "name": "Huawei nova 5i Pro",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-nova-5t",
+      "name": "Huawei nova 5t",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-nova-5z",
+      "name": "Huawei nova 5z",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-nova-6-5g",
+      "name": "Huawei nova 6 5G",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-nova-6",
+      "name": "Huawei nova 6",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-nova-6-se",
+      "name": "Huawei nova 6 SE",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-nova-7-5g",
+      "name": "Huawei nova 7 5G",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-nova-7-pro-5g",
+      "name": "Huawei nova 7 Pro 5G",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-nova-7-se",
+      "name": "Huawei nova 7 SE",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-nova-7-se-5g-youth",
+      "name": "Huawei nova 7 SE 5G Youth",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-nova-7i",
+      "name": "Huawei nova 7i",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-nova-8",
+      "name": "Huawei nova 8",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-nova-8-5g",
+      "name": "Huawei nova 8 5G",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-nova-8-pro-4g",
+      "name": "Huawei nova 8 Pro 4G",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-nova-8-pro-5g",
+      "name": "Huawei nova 8 Pro 5G",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-nova-8-se",
+      "name": "Huawei nova 8 SE",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-nova-8-se-4g",
+      "name": "Huawei nova 8 SE 4G",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-nova-8-se-youth",
+      "name": "Huawei nova 8 SE Youth",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-nova",
+      "name": "Huawei nova",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-nova-8i",
+      "name": "Huawei nova 8i",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-nova-9",
+      "name": "Huawei nova 9",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-nova-9-pro",
+      "name": "Huawei nova 9 Pro",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-nova-9-se",
+      "name": "Huawei nova 9 SE",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-nova-9-se-5g",
+      "name": "Huawei nova 9 SE 5G",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-nova-flip",
+      "name": "Huawei nova Flip",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-nova-flip-s-5g",
+      "name": "Huawei nova Flip S 5G",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-nova-y60",
+      "name": "Huawei nova Y60",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-nova-y61",
+      "name": "Huawei nova Y61",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-nova-y63-4g",
+      "name": "Huawei nova Y63 4G",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-nova-y70-plus",
+      "name": "Huawei nova Y70 Plus",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-nova-y71",
+      "name": "Huawei nova Y71",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-nova-y72",
+      "name": "Huawei nova Y72",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-nova-y72s-4g",
+      "name": "Huawei nova Y72s 4G",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-nova-y73-4g",
+      "name": "Huawei nova Y73 4G",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-nova-y74",
+      "name": "Huawei nova Y74",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-nova-y90",
+      "name": "Huawei nova Y90",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-nova-y91",
+      "name": "Huawei nova Y91",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-p-smart-2019",
+      "name": "Huawei P Smart 2019",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-p-smart-2020",
+      "name": "Huawei P Smart 2020",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-p-smart-2021",
+      "name": "Huawei P Smart 2021",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-p-smart",
+      "name": "Huawei P Smart",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-p-smart-pro-2019",
+      "name": "Huawei P Smart Pro 2019",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-p-smart-s",
+      "name": "Huawei P Smart S",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-p-smart-z",
+      "name": "Huawei P Smart Z",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-p10",
+      "name": "Huawei P10",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-p10-lite",
+      "name": "Huawei P10 Lite",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-p10-plus",
+      "name": "Huawei P10 Plus",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-p20",
+      "name": "Huawei P20",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-p20-lite",
+      "name": "Huawei P20 Lite",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-p20-pro",
+      "name": "Huawei P20 Pro",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-p30",
+      "name": "Huawei P30",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-p30-lite",
+      "name": "Huawei P30 Lite",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-p30-lite-new-edition",
+      "name": "Huawei P30 Lite New Edition",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-p30-pro-new-edition",
+      "name": "Huawei P30 Pro New Edition",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-p40",
+      "name": "Huawei P40",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-p40-4g",
+      "name": "Huawei P40 4G",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-p40-lite-5g",
+      "name": "Huawei P40 Lite 5G",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-p40-lite",
+      "name": "Huawei P40 Lite",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-p40-lite-e",
+      "name": "Huawei P40 Lite E",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-p40-pro-1",
+      "name": "Huawei P40 Pro ",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-p50",
+      "name": "Huawei P50",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-p50-pocket",
+      "name": "Huawei P50 Pocket",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-p50e",
+      "name": "Huawei P50e",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-p60",
+      "name": "Huawei P60",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-p60-art",
+      "name": "Huawei P60 Art",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-p8",
+      "name": "Huawei P8",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-p8-lite",
+      "name": "Huawei P8 Lite ",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-p8lite",
+      "name": "Huawei P8lite",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-p8lite-ale-l04",
+      "name": "Huawei P8lite Ale L04",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-p8max",
+      "name": "Huawei P8max",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-p9",
+      "name": "Huawei P9",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-p9-lite",
+      "name": "Huawei P9 Lite",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-p9-lite-mini",
+      "name": "Huawei P9 Lite Mini",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-p9-plus",
+      "name": "Huawei P9 Plus",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-pillar",
+      "name": "Huawei Pillar",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-pocket-2",
+      "name": "Huawei Pocket 2",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-pocket-s",
+      "name": "Huawei Pocket S",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-premia-4g-m931",
+      "name": "Huawei Premia 4G M931",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-pura-70",
+      "name": "Huawei Pura 70",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-pura-70-pro-1",
+      "name": "Huawei Pura 70 Pro ",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-pura-80-5g",
+      "name": "Huawei Pura 80 5G",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-pura-80-pro-5g",
+      "name": "Huawei Pura 80 Pro 5G",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-pura-80-ultra-5g",
+      "name": "Huawei Pura 80 Ultra 5G",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-pura-90-5g",
+      "name": "Huawei Pura 90 5G",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-pura-90-pro-5g",
+      "name": "Huawei Pura 90 Pro 5G",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-pura-90-pro-max-5g",
+      "name": "Huawei Pura 90 Pro Max 5G",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-pura-90s-pro-5g",
+      "name": "Huawei Pura 90s Pro 5G",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-pura-90s-pro-max-5g",
+      "name": "Huawei Pura 90s Pro Max 5G",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-pura-x",
+      "name": "Huawei Pura X",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-pura-x-max-5g",
+      "name": "Huawei Pura X Max 5G",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-snapto",
+      "name": "Huawei Snapto",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-summit",
+      "name": "Huawei Summit",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-t156",
+      "name": "Huawei T156",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-t158",
+      "name": "Huawei T158",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-t161l",
+      "name": "Huawei T161l",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-t201",
+      "name": "Huawei T201",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-t208",
+      "name": "Huawei T208",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-t211",
+      "name": "Huawei T211",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-t261l",
+      "name": "Huawei T261l",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-t330",
+      "name": "Huawei T330",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-t552",
+      "name": "Huawei T552",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-t8300",
+      "name": "Huawei T8300",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-u1000",
+      "name": "Huawei U1000",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-u1100",
+      "name": "Huawei U1100",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-u120",
+      "name": "Huawei U120",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-u121",
+      "name": "Huawei U121",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-u1250",
+      "name": "Huawei U1250",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-u1270",
+      "name": "Huawei U1270",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-u1310",
+      "name": "Huawei U1310",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-u3100",
+      "name": "Huawei U3100",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-u3300",
+      "name": "Huawei U3300",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-u5510",
+      "name": "Huawei U5510",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-u5900s",
+      "name": "Huawei U5900s",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-u7310",
+      "name": "Huawei U7310",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-u7510",
+      "name": "Huawei U7510",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-u7520",
+      "name": "Huawei U7520",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-u8100",
+      "name": "Huawei U8100",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-u8110",
+      "name": "Huawei U8110",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-u8150-ideos",
+      "name": "Huawei U8150 Ideos",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-u8180-ideos-x1",
+      "name": "Huawei U8180 Ideos X1",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-u8220",
+      "name": "Huawei U8220",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-u8230",
+      "name": "Huawei U8230",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-u8300",
+      "name": "Huawei U8300",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-u8350-boulder",
+      "name": "Huawei U8350 Boulder",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-u8500-ideos-x2",
+      "name": "Huawei U8500 Ideos X2",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-u8510-ideos-x3",
+      "name": "Huawei U8510 Ideos X3",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-u8520-duplex",
+      "name": "Huawei U8520 Duplex",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-u8687-cronos",
+      "name": "Huawei U8687 Cronos",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-u8800-ideos-x5",
+      "name": "Huawei U8800 Ideos X5",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-u8800-pro",
+      "name": "Huawei U8800 Pro",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-u9000-ideos-x6",
+      "name": "Huawei U9000 Ideos X6",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-u9130-compass",
+      "name": "Huawei U9130 Compass",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-u9150",
+      "name": "Huawei U9150",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-y-max",
+      "name": "Huawei Y Max",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-y3",
+      "name": "Huawei Y3 ",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-y300ii",
+      "name": "Huawei Y300ii",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-y360",
+      "name": "Huawei Y360",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-y3ii",
+      "name": "Huawei Y3ii",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-y5",
+      "name": "Huawei Y5 ",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-y5-lite",
+      "name": "Huawei Y5 Lite ",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-y5-prime",
+      "name": "Huawei Y5 Prime ",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-y560",
+      "name": "Huawei Y560",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-y5p",
+      "name": "Huawei Y5p",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-y6",
+      "name": "Huawei Y6",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-y6-prime",
+      "name": "Huawei Y6 Prime ",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-y6-pro",
+      "name": "Huawei Y6 Pro",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-y625",
+      "name": "Huawei Y625",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-y635",
+      "name": "Huawei Y635",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-y6ii-compact",
+      "name": "Huawei Y6ii Compact",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-y6p",
+      "name": "Huawei Y6p",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-y6s",
+      "name": "Huawei Y6s ",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-y7",
+      "name": "Huawei Y7",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-y7-prime",
+      "name": "Huawei Y7 Prime",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-y7-pro",
+      "name": "Huawei Y7 Pro ",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-y7a",
+      "name": "Huawei Y7a",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-y7p",
+      "name": "Huawei Y7p",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-y8p",
+      "name": "Huawei Y8p",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-y8s",
+      "name": "Huawei Y8s",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-y9-prime",
+      "name": "Huawei Y9 Prime ",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-y9a",
+      "name": "Huawei Y9a",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "huawei-huawei-y9s",
+      "name": "Huawei Y9s",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "redmi-k90-pro-max-5g-512gb-2027",
+      "name": "Redmi K90 Pro Max 5G (512 GB)",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    },
+    {
+      "id": "hp-omen-gaming-16-ap0023nt-c12csea-64gb-1tbssd-w11p",
+      "name": "HP OMEN Gaming 16-ap0023nt (C12CSEA) (64GB/1TBSSD/W11P)",
+      "issues": [
+        "explicit_unresolved_fields"
+      ]
+    }
+  ]
+}

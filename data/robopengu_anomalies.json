@@ -1,5 +1,104 @@
 [
   {
+    "messageId": "watchdog-img-1789855286019",
+    "userPrompt": "Kirik Gorsel: Mock No Offer Phone 256 GB",
+    "assistantResponse": "Yedek gorsel devreye sokuldu.",
+    "rating": "negative",
+    "reasonCategory": "wrong_products",
+    "userComment": "Watchdog Sentinel: /images/products/smartphones/apple/iphone-16-pro-natural.jpg yuklenemedi. Otomatik onarim: tamamlandi",
+    "timestamp": "2026-09-19T22:01:26.019Z"
+  },
+  {
+    "messageId": "watchdog-img-1789854924797",
+    "userPrompt": "Kirik Gorsel: Mock No Offer Phone 256 GB",
+    "assistantResponse": "Yedek gorsel devreye sokuldu.",
+    "rating": "negative",
+    "reasonCategory": "wrong_products",
+    "userComment": "Watchdog Sentinel: /images/products/smartphones/apple/iphone-16-pro-natural.jpg yuklenemedi. Otomatik onarim: tamamlandi",
+    "timestamp": "2026-09-19T21:55:24.797Z"
+  },
+  {
+    "messageId": "watchdog-img-1789853995381",
+    "userPrompt": "Kirik Gorsel: Mock No Offer Phone 256 GB",
+    "assistantResponse": "Yedek gorsel devreye sokuldu.",
+    "rating": "negative",
+    "reasonCategory": "wrong_products",
+    "userComment": "Watchdog Sentinel: /images/products/smartphones/apple/iphone-16-pro-natural.jpg yuklenemedi. Otomatik onarim: tamamlandi",
+    "timestamp": "2026-09-19T21:39:55.381Z"
+  },
+  {
+    "messageId": "watchdog-img-1789853722002",
+    "userPrompt": "Kirik Gorsel: Mock No Offer Phone 256 GB",
+    "assistantResponse": "Yedek gorsel devreye sokuldu.",
+    "rating": "negative",
+    "reasonCategory": "wrong_products",
+    "userComment": "Watchdog Sentinel: /images/products/smartphones/apple/iphone-16-pro-natural.jpg yuklenemedi. Otomatik onarim: tamamlandi",
+    "timestamp": "2026-09-19T21:35:22.002Z"
+  },
+  {
+    "messageId": "watchdog-img-1789853676868",
+    "userPrompt": "Kirik Gorsel: Mock No Offer Phone 256 GB",
+    "assistantResponse": "Yedek gorsel devreye sokuldu.",
+    "rating": "negative",
+    "reasonCategory": "wrong_products",
+    "userComment": "Watchdog Sentinel: /images/products/smartphones/apple/iphone-16-pro-natural.jpg yuklenemedi. Otomatik onarim: tamamlandi",
+    "timestamp": "2026-09-19T21:34:36.868Z"
+  },
+  {
+    "messageId": "watchdog-img-1789853373641",
+    "userPrompt": "Kirik Gorsel: Mock Stale Phone 256 GB",
+    "assistantResponse": "Yedek gorsel devreye sokuldu.",
+    "rating": "negative",
+    "reasonCategory": "wrong_products",
+    "userComment": "Watchdog Sentinel: /images/products/smartphones/apple/iphone-16-pro-natural.jpg yuklenemedi. Otomatik onarim: tamamlandi",
+    "timestamp": "2026-09-19T21:29:33.641Z"
+  },
+  {
+    "messageId": "watchdog-img-1789853044139",
+    "userPrompt": "Kirik Gorsel: Mock Stale Phone 256 GB",
+    "assistantResponse": "Yedek gorsel devreye sokuldu.",
+    "rating": "negative",
+    "reasonCategory": "wrong_products",
+    "userComment": "Watchdog Sentinel: /images/products/smartphones/apple/iphone-16-pro-natural.jpg yuklenemedi. Otomatik onarim: tamamlandi",
+    "timestamp": "2026-09-19T21:24:04.139Z"
+  },
+  {
+    "messageId": "watchdog-img-1789853004078",
+    "userPrompt": "Kirik Gorsel: Mock Stale Phone 256 GB",
+    "assistantResponse": "Yedek gorsel devreye sokuldu.",
+    "rating": "negative",
+    "reasonCategory": "wrong_products",
+    "userComment": "Watchdog Sentinel: /images/products/smartphones/apple/iphone-16-pro-natural.jpg yuklenemedi. Otomatik onarim: tamamlandi",
+    "timestamp": "2026-09-19T21:23:24.078Z"
+  },
+  {
+    "messageId": "watchdog-img-1789852883638",
+    "userPrompt": "Kirik Gorsel: Mock No Offer Phone 256 GB",
+    "assistantResponse": "Yedek gorsel devreye sokuldu.",
+    "rating": "negative",
+    "reasonCategory": "wrong_products",
+    "userComment": "Watchdog Sentinel: /images/products/smartphones/apple/iphone-16-pro-natural.jpg yuklenemedi. Otomatik onarim: tamamlandi",
+    "timestamp": "2026-09-19T21:21:23.638Z"
+  },
+  {
+    "messageId": "watchdog-img-1789852859531",
+    "userPrompt": "Kirik Gorsel: Mock No Offer Phone 256 GB",
+    "assistantResponse": "Yedek gorsel devreye sokuldu.",
+    "rating": "negative",
+    "reasonCategory": "wrong_products",
+    "userComment": "Watchdog Sentinel: /images/products/smartphones/apple/iphone-16-pro-natural.jpg yuklenemedi. Otomatik onarim: tamamlandi",
+    "timestamp": "2026-09-19T21:20:59.531Z"
+  },
+  {
+    "messageId": "watchdog-img-1789852765224",
+    "userPrompt": "Kirik Gorsel: Mock No Offer Phone 256 GB",
+    "assistantResponse": "Yedek gorsel devreye sokuldu.",
+    "rating": "negative",
+    "reasonCategory": "wrong_products",
+    "userComment": "Watchdog Sentinel: /images/products/smartphones/apple/iphone-16-pro-natural.jpg yuklenemedi. Otomatik onarim: tamamlandi",
+    "timestamp": "2026-09-19T21:19:25.224Z"
+  },
+  {
     "messageId": "watchdog-img-1789657725604",
     "userPrompt": "Kirik Gorsel: Apple iPhone 15 Pro Max 256GB",
     "assistantResponse": "Yedek gorsel devreye sokuldu.",

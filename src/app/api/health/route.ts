@@ -7,26 +7,26 @@ export async function GET() {
   const queueStats = await priceQueue.getStats();
   const stores = await storeRegistry.getStoreHealthStatuses();
 
-  const isHealthy = true;
-
   return NextResponse.json({
-    status: isHealthy ? 'UP' : 'DOWN',
+    status: 'UP',
+    scope: 'application_process',
     service: 'aceleEtme Price Aggregation Engine',
     uptimeSeconds: Math.floor(process.uptime()),
     responseTimeMs: Date.now() - startTime,
     components: {
-      database: { status: 'UP', message: 'PostgreSQL/Repository Active' },
+      database: { status: 'NOT_CHECKED', message: 'Bu yanıt veritabanı bağlantısını doğrulamaz.' },
       redis: {
-        status: process.env.KV_REST_API_URL || process.env.REDIS_URL ? 'CONNECTED' : 'IN_MEMORY_FALLBACK',
-        message: process.env.KV_REST_API_URL || process.env.REDIS_URL ? 'Redis KV Connected' : 'In-memory fallback queue active',
+        status: process.env.KV_REST_API_URL || process.env.REDIS_URL ? 'CONFIGURED_UNVERIFIED' : 'NOT_CONFIGURED',
+        message: 'Redis bağlantısı bu kontrolde sınanmadı.',
       },
       workers: {
-        status: 'UP',
+        status: 'NOT_CHECKED',
         activeLocks: queueStats.activeLocks,
       },
       stores: {
         total: stores.length,
         connected: stores.filter((s) => s.status === 'CONNECTED').length,
+        configuredUnverified: stores.filter((s) => s.status === 'CONFIGURED_UNVERIFIED').length,
         notConfigured: stores.filter((s) => s.status === 'NOT_CONFIGURED').length,
       },
     },

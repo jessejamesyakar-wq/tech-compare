@@ -1,0 +1,860 @@
+{
+  "checkedAt": "2026-09-20T07:19:45.130Z",
+  "reason": "Missing specification report: source corrections for both exact Galaxy S25 entries and only Redmi launch year. All original records preserved.",
+  "original": [
+    {
+      "id": "samsung-samsung-galaxy-s25-107",
+      "slug": "samsung-galaxy-s25",
+      "name": "Samsung Galaxy S25",
+      "brand": "Samsung",
+      "category": "smartphones",
+      "basePrice": 37239.05,
+      "currency": "TL",
+      "rating": 4.8,
+      "reviewCount": 852,
+      "releaseYear": 2025,
+      "isPopular": true,
+      "isFeatured": true,
+      "highlights": [
+        "Samsung Galaxy S25 Orijinal Türkiye Garantili",
+        "6.2\" QHD+ 1-120Hz Dynamic AMOLED 2X (Galaxy AI 2.0)",
+        "12 GB RAM & 128 GB Depolama",
+        "4000 mAh Batarya Kapasitesi"
+      ],
+      "image": "/images/phones/samsung/studio/samsung-galaxy-s25.png",
+      "images": [
+        "/images/phones/samsung/studio/samsung-galaxy-s25.png",
+        "/images/phones/samsung/samsung-galaxy-s25-sm-s931.jpg"
+      ],
+      "storeOffers": [
+        {
+          "storeName": "Hepsiburada",
+          "storeLogo": "/images/stores/hepsiburada.svg",
+          "price": 37090,
+          "productUrl": "https://www.hepsiburada.com/ara?q=Samsung%20Galaxy%20S25",
+          "url": "https://www.hepsiburada.com/ara?q=Samsung%20Galaxy%20S25",
+          "inStock": true,
+          "shippingFree": true,
+          "shippingDays": 1,
+          "lastUpdated": "2026-09-16"
+        },
+        {
+          "storeName": "Trendyol",
+          "storeLogo": "/images/stores/trendyol.svg",
+          "price": 37314,
+          "productUrl": "https://www.trendyol.com/sr?q=Samsung%20Galaxy%20S25",
+          "url": "https://www.trendyol.com/sr?q=Samsung%20Galaxy%20S25",
+          "inStock": true,
+          "shippingFree": true,
+          "shippingDays": 1,
+          "lastUpdated": "2026-09-16"
+        },
+        {
+          "storeName": "Amazon TR",
+          "storeLogo": "/images/stores/amazon.svg",
+          "price": 37165,
+          "productUrl": "https://www.amazon.com.tr/s?k=Samsung%20Galaxy%20S25",
+          "url": "https://www.amazon.com.tr/s?k=Samsung%20Galaxy%20S25",
+          "inStock": true,
+          "shippingFree": true,
+          "shippingDays": 1,
+          "lastUpdated": "2026-09-16"
+        },
+        {
+          "storeName": "N11",
+          "storeLogo": "/images/stores/n11.svg",
+          "price": 37016,
+          "productUrl": "https://www.n11.com/arama?q=Samsung%20Galaxy%20S25",
+          "url": "https://www.n11.com/arama?q=Samsung%20Galaxy%20S25",
+          "inStock": true,
+          "shippingFree": true,
+          "shippingDays": 1,
+          "lastUpdated": "2026-09-16"
+        },
+        {
+          "storeName": "PttAVM",
+          "storeLogo": "/images/stores/pttavm.svg",
+          "price": 36941,
+          "productUrl": "https://www.pttavm.com/arama?q=Samsung%20Galaxy%20S25",
+          "url": "https://www.pttavm.com/arama?q=Samsung%20Galaxy%20S25",
+          "inStock": true,
+          "shippingFree": true,
+          "shippingDays": 1,
+          "lastUpdated": "2026-09-16"
+        },
+        {
+          "storeName": "Vatan Bilgisayar",
+          "storeLogo": "/images/stores/vatan.svg",
+          "price": 37239,
+          "productUrl": "https://www.vatanbilgisayar.com/arama/Samsung%20Galaxy%20S25/",
+          "url": "https://www.vatanbilgisayar.com/arama/Samsung%20Galaxy%20S25/",
+          "inStock": true,
+          "shippingFree": true,
+          "shippingDays": 1,
+          "lastUpdated": "2026-09-16"
+        },
+        {
+          "storeName": "MediaMarkt",
+          "storeLogo": "/images/stores/mediamarkt.svg",
+          "price": 37462,
+          "productUrl": "https://www.mediamarkt.com.tr/tr/search.html?query=Samsung%20Galaxy%20S25",
+          "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Samsung%20Galaxy%20S25",
+          "inStock": true,
+          "shippingFree": true,
+          "shippingDays": 1,
+          "lastUpdated": "2026-09-16"
+        },
+        {
+          "storeName": "Teknosa",
+          "storeLogo": "/images/stores/teknosa.svg",
+          "price": 37388,
+          "productUrl": "https://www.teknosa.com/arama?s=Samsung%20Galaxy%20S25",
+          "url": "https://www.teknosa.com/arama?s=Samsung%20Galaxy%20S25",
+          "inStock": true,
+          "shippingFree": true,
+          "shippingDays": 1,
+          "lastUpdated": "2026-09-16"
+        },
+        {
+          "storeName": "İncehesap",
+          "storeLogo": "/images/stores/incehesap.svg",
+          "price": 37053,
+          "productUrl": "https://www.incehesap.com/arama/?q=Samsung%20Galaxy%20S25",
+          "url": "https://www.incehesap.com/arama/?q=Samsung%20Galaxy%20S25",
+          "inStock": true,
+          "shippingFree": true,
+          "shippingDays": 1,
+          "lastUpdated": "2026-09-16"
+        },
+        {
+          "storeName": "İtopya",
+          "storeLogo": "/images/stores/itopya.svg",
+          "price": 37127,
+          "productUrl": "https://www.itopya.com/AramaSonuclari/?b=Samsung%20Galaxy%20S25",
+          "url": "https://www.itopya.com/AramaSonuclari/?b=Samsung%20Galaxy%20S25",
+          "inStock": true,
+          "shippingFree": true,
+          "shippingDays": 1,
+          "lastUpdated": "2026-09-16"
+        },
+        {
+          "storeName": "Sinerji Bilgisayar",
+          "storeLogo": "/images/stores/sinerji.svg",
+          "price": 37090,
+          "productUrl": "https://www.sinerji.gen.tr/Arama?q=Samsung%20Galaxy%20S25",
+          "url": "https://www.sinerji.gen.tr/Arama?q=Samsung%20Galaxy%20S25",
+          "inStock": true,
+          "shippingFree": true,
+          "shippingDays": 1,
+          "lastUpdated": "2026-09-16"
+        },
+        {
+          "storeName": "Gaming.Gen.TR",
+          "storeLogo": "/images/stores/gaminggen.svg",
+          "price": 37165,
+          "productUrl": "https://www.gaming.gen.tr/?s=Samsung%20Galaxy%20S25",
+          "url": "https://www.gaming.gen.tr/?s=Samsung%20Galaxy%20S25",
+          "inStock": true,
+          "shippingFree": true,
+          "shippingDays": 1,
+          "lastUpdated": "2026-09-16"
+        },
+        {
+          "storeName": "GameGaraj",
+          "storeLogo": "/images/stores/gamegaraj.svg",
+          "price": 37276,
+          "productUrl": "https://www.gamegaraj.com/arama/?q=Samsung%20Galaxy%20S25",
+          "url": "https://www.gamegaraj.com/arama/?q=Samsung%20Galaxy%20S25",
+          "inStock": true,
+          "shippingFree": true,
+          "shippingDays": 1,
+          "lastUpdated": "2026-09-16"
+        },
+        {
+          "storeName": "Tebilon",
+          "storeLogo": "/images/stores/tebilon.svg",
+          "price": 37202,
+          "productUrl": "https://www.tebilon.com/arama/?q=Samsung%20Galaxy%20S25",
+          "url": "https://www.tebilon.com/arama/?q=Samsung%20Galaxy%20S25",
+          "inStock": true,
+          "shippingFree": true,
+          "shippingDays": 1,
+          "lastUpdated": "2026-09-16"
+        },
+        {
+          "storeName": "Ebrar Bilgisayar",
+          "storeLogo": "/images/stores/ebrar.svg",
+          "price": 37016,
+          "productUrl": "https://www.ebrarbilgisayar.com/arama?q=Samsung%20Galaxy%20S25",
+          "url": "https://www.ebrarbilgisayar.com/arama?q=Samsung%20Galaxy%20S25",
+          "inStock": true,
+          "shippingFree": true,
+          "shippingDays": 1,
+          "lastUpdated": "2026-09-16"
+        }
+      ],
+      "priceHistory": [
+        {
+          "date": "Ekim 2025",
+          "price": 52780
+        },
+        {
+          "date": "Kasım 2025",
+          "price": 51390
+        },
+        {
+          "date": "Aralık 2025",
+          "price": 50000
+        },
+        {
+          "date": "Ocak 2026",
+          "price": 48610
+        },
+        {
+          "date": "Şubat 2026",
+          "price": 47220
+        },
+        {
+          "date": "Ağustos 2026",
+          "price": 46300
+        },
+        {
+          "date": "6 Eylül 2026",
+          "price": 37239.05
+        },
+        {
+          "date": "2026-09-16",
+          "price": 37239.05
+        }
+      ],
+      "specs": {
+        "screen": {
+          "size": "6.2\"",
+          "type": "6.2\" QHD+ 1-120Hz Dynamic AMOLED 2X (Galaxy AI 2.0)",
+          "resolution": "3080 x 1440 px",
+          "refreshRate": 120,
+          "ppi": 500,
+          "brightnessNits": 2600
+        },
+        "processor": {
+          "chip": "Snapdragon 8 Elite for Galaxy",
+          "cores": "8 Çekirdek",
+          "process": "3nm",
+          "antutuScore": 1850000
+        },
+        "memory": {
+          "ramGb": 12,
+          "ramType": "LPDDR5X",
+          "storageGb": 128,
+          "storageOptions": [
+            128
+          ],
+          "expandableStorage": false
+        },
+        "camera": {
+          "mainMp": "50 MP",
+          "ultrawideMp": "12 MP",
+          "telephotoMp": "50 MP (5x Optik Zoom)",
+          "selfieMp": "12 MP Dual Pixel",
+          "videoRes": "8K @ 30fps",
+          "dxomarkScore": 154
+        },
+        "battery": {
+          "capacitymAh": 4000,
+          "chargingWatts": 45,
+          "wirelessCharging": true,
+          "reverseWireless": true
+        },
+        "connectivity": {
+          "has5G": true,
+          "wifiStandard": "Wi-Fi 7",
+          "bluetooth": "5.3",
+          "hasNFC": true,
+          "hasesim": true
+        },
+        "build": {
+          "weightGrams": 219,
+          "thicknessMm": 7.9,
+          "waterResistance": "IP68 (1.5m 30dk)",
+          "frameMaterial": "Zırh Alüminyum"
+        },
+        "software": {
+          "osName": "Android 15 (One UI 7.0)",
+          "updateYears": 7
+        }
+      },
+      "colorOptions": [
+        {
+          "name": "Zümrüt Yeşili",
+          "hex": "#2E7D62"
+        },
+        {
+          "name": "Işıltılı Mavi",
+          "hex": "#4A6B82"
+        },
+        {
+          "name": "Ay Işığı Beyazı",
+          "hex": "#F0EFF4"
+        }
+      ]
+    },
+    {
+      "id": "samsung-galaxy-s25",
+      "slug": "samsung-galaxy-s25-128gb",
+      "name": "Samsung Galaxy S25 (128 GB)",
+      "brand": "Samsung",
+      "category": "smartphones",
+      "price": 64999,
+      "priceFormatted": "64.999 TL",
+      "modelCode": "SM-S931BDBGTUR",
+      "rating": 4.7,
+      "reviewCount": 3120,
+      "releaseDate": "2025",
+      "image": "/images/phones/samsung/studio/samsung-galaxy-s25.png",
+      "images": [
+        "/images/phones/samsung/studio/samsung-galaxy-s25.png",
+        "/images/phones/samsung/samsung-galaxy-s25-sm-s931.jpg"
+      ],
+      "specs": {
+        "display": "6.2\" Dynamic LTPO AMOLED 2X, 120Hz, FHD+",
+        "processor": {
+          "chip": "Qualcomm Snapdragon 8 Elite for Galaxy",
+          "cores": "8 Çekirdek (2x4.32 GHz Oryon + 6x3.53 GHz)",
+          "process": "3nm TSMC",
+          "antutuScore": 2850000
+        },
+        "camera": {
+          "mainMp": "50 MP",
+          "ultrawideMp": "50 MP Ultra Geniş",
+          "telephotoMp": "50 MP Periskop Telefoto (5x Optik)",
+          "selfieMp": "12 MP Ön Kamera",
+          "videoRes": "8K @30fps, 4K @120fps"
+        },
+        "battery": {
+          "capacitymAh": 4000,
+          "chargingWatts": 25,
+          "wirelessCharging": true,
+          "reverseWireless": true
+        },
+        "ram": "12 GB",
+        "storage": "128 GB, 256 GB, 512 GB",
+        "weight": "162 g",
+        "os": "Android 15, One UI 7.0",
+        "screen": {
+          "size": "6.2 inç",
+          "type": "Dynamic LTPO AMOLED 2X",
+          "resolution": "FHD+",
+          "refreshRate": 120,
+          "ppi": 505,
+          "brightnessNits": 2600
+        },
+        "memory": {
+          "ramGb": 12,
+          "ramType": "LPDDR5X",
+          "storageGb": 128,
+          "storageOptions": [
+            256,
+            512,
+            1024
+          ],
+          "expandableStorage": false
+        },
+        "connectivity": {
+          "has5G": true,
+          "wifiStandard": "Wi-Fi 7 (802.11be)",
+          "bluetooth": "5.4",
+          "hasNFC": true,
+          "hasesim": true
+        },
+        "build": {
+          "weightGrams": 162,
+          "thicknessMm": 8.2,
+          "waterResistance": "IP68 (1.5m, 30dk)",
+          "frameMaterial": "Grade 5 Titanyum Kasa"
+        },
+        "software": {
+          "osName": "Android 15, One UI 7.0",
+          "updateYears": 7
+        }
+      },
+      "basePrice": 37239.05,
+      "currency": "TL",
+      "releaseYear": 2025,
+      "highlights": [
+        "Samsung Galaxy S25 - Yüksek Performans",
+        "6.2\" Dynamic LTPO AMOLED 2X, 120Hz, FHD+",
+        "Qualcomm Snapdragon 8 Elite for Galaxy",
+        "50 MP + 10 MP + 12 MP"
+      ],
+      "storeOffers": [
+        {
+          "storeName": "Hepsiburada",
+          "storeLogo": "/images/stores/hepsiburada.svg",
+          "price": 37090,
+          "productUrl": "https://www.hepsiburada.com/ara?q=Samsung%20Galaxy%20S25%20(128%20GB)",
+          "url": "https://www.hepsiburada.com/ara?q=Samsung%20Galaxy%20S25%20(128%20GB)",
+          "inStock": true,
+          "shippingFree": true,
+          "shippingDays": 1,
+          "lastUpdated": "2026-09-16"
+        },
+        {
+          "storeName": "Trendyol",
+          "storeLogo": "/images/stores/trendyol.svg",
+          "price": 37314,
+          "productUrl": "https://www.trendyol.com/sr?q=Samsung%20Galaxy%20S25%20(128%20GB)",
+          "url": "https://www.trendyol.com/sr?q=Samsung%20Galaxy%20S25%20(128%20GB)",
+          "inStock": true,
+          "shippingFree": true,
+          "shippingDays": 1,
+          "lastUpdated": "2026-09-16"
+        },
+        {
+          "storeName": "Amazon TR",
+          "storeLogo": "/images/stores/amazon.svg",
+          "price": 37165,
+          "productUrl": "https://www.amazon.com.tr/s?k=Samsung%20Galaxy%20S25%20(128%20GB)",
+          "url": "https://www.amazon.com.tr/s?k=Samsung%20Galaxy%20S25%20(128%20GB)",
+          "inStock": true,
+          "shippingFree": true,
+          "shippingDays": 1,
+          "lastUpdated": "2026-09-16"
+        },
+        {
+          "storeName": "N11",
+          "storeLogo": "/images/stores/n11.svg",
+          "price": 37016,
+          "productUrl": "https://www.n11.com/arama?q=Samsung%20Galaxy%20S25%20(128%20GB)",
+          "url": "https://www.n11.com/arama?q=Samsung%20Galaxy%20S25%20(128%20GB)",
+          "inStock": true,
+          "shippingFree": true,
+          "shippingDays": 1,
+          "lastUpdated": "2026-09-16"
+        },
+        {
+          "storeName": "PttAVM",
+          "storeLogo": "/images/stores/pttavm.svg",
+          "price": 36941,
+          "productUrl": "https://www.pttavm.com/arama?q=Samsung%20Galaxy%20S25%20(128%20GB)",
+          "url": "https://www.pttavm.com/arama?q=Samsung%20Galaxy%20S25%20(128%20GB)",
+          "inStock": true,
+          "shippingFree": true,
+          "shippingDays": 1,
+          "lastUpdated": "2026-09-16"
+        },
+        {
+          "storeName": "Vatan Bilgisayar",
+          "storeLogo": "/images/stores/vatan.svg",
+          "price": 37239,
+          "productUrl": "https://www.vatanbilgisayar.com/arama/Samsung%20Galaxy%20S25%20(128%20GB)/",
+          "url": "https://www.vatanbilgisayar.com/arama/Samsung%20Galaxy%20S25%20(128%20GB)/",
+          "inStock": true,
+          "shippingFree": true,
+          "shippingDays": 1,
+          "lastUpdated": "2026-09-16"
+        },
+        {
+          "storeName": "MediaMarkt",
+          "storeLogo": "/images/stores/mediamarkt.svg",
+          "price": 37462,
+          "productUrl": "https://www.mediamarkt.com.tr/tr/search.html?query=Samsung%20Galaxy%20S25%20(128%20GB)",
+          "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Samsung%20Galaxy%20S25%20(128%20GB)",
+          "inStock": true,
+          "shippingFree": true,
+          "shippingDays": 1,
+          "lastUpdated": "2026-09-16"
+        },
+        {
+          "storeName": "Teknosa",
+          "storeLogo": "/images/stores/teknosa.svg",
+          "price": 37388,
+          "productUrl": "https://www.teknosa.com/arama?s=Samsung%20Galaxy%20S25%20(128%20GB)",
+          "url": "https://www.teknosa.com/arama?s=Samsung%20Galaxy%20S25%20(128%20GB)",
+          "inStock": true,
+          "shippingFree": true,
+          "shippingDays": 1,
+          "lastUpdated": "2026-09-16"
+        },
+        {
+          "storeName": "İncehesap",
+          "storeLogo": "/images/stores/incehesap.svg",
+          "price": 37053,
+          "productUrl": "https://www.incehesap.com/arama/?q=Samsung%20Galaxy%20S25%20(128%20GB)",
+          "url": "https://www.incehesap.com/arama/?q=Samsung%20Galaxy%20S25%20(128%20GB)",
+          "inStock": true,
+          "shippingFree": true,
+          "shippingDays": 1,
+          "lastUpdated": "2026-09-16"
+        },
+        {
+          "storeName": "İtopya",
+          "storeLogo": "/images/stores/itopya.svg",
+          "price": 37127,
+          "productUrl": "https://www.itopya.com/AramaSonuclari/?b=Samsung%20Galaxy%20S25%20(128%20GB)",
+          "url": "https://www.itopya.com/AramaSonuclari/?b=Samsung%20Galaxy%20S25%20(128%20GB)",
+          "inStock": true,
+          "shippingFree": true,
+          "shippingDays": 1,
+          "lastUpdated": "2026-09-16"
+        },
+        {
+          "storeName": "Sinerji Bilgisayar",
+          "storeLogo": "/images/stores/sinerji.svg",
+          "price": 37090,
+          "productUrl": "https://www.sinerji.gen.tr/Arama?q=Samsung%20Galaxy%20S25%20(128%20GB)",
+          "url": "https://www.sinerji.gen.tr/Arama?q=Samsung%20Galaxy%20S25%20(128%20GB)",
+          "inStock": true,
+          "shippingFree": true,
+          "shippingDays": 1,
+          "lastUpdated": "2026-09-16"
+        },
+        {
+          "storeName": "Gaming.Gen.TR",
+          "storeLogo": "/images/stores/gaminggen.svg",
+          "price": 37165,
+          "productUrl": "https://www.gaming.gen.tr/?s=Samsung%20Galaxy%20S25%20(128%20GB)",
+          "url": "https://www.gaming.gen.tr/?s=Samsung%20Galaxy%20S25%20(128%20GB)",
+          "inStock": true,
+          "shippingFree": true,
+          "shippingDays": 1,
+          "lastUpdated": "2026-09-16"
+        },
+        {
+          "storeName": "GameGaraj",
+          "storeLogo": "/images/stores/gamegaraj.svg",
+          "price": 37276,
+          "productUrl": "https://www.gamegaraj.com/arama/?q=Samsung%20Galaxy%20S25%20(128%20GB)",
+          "url": "https://www.gamegaraj.com/arama/?q=Samsung%20Galaxy%20S25%20(128%20GB)",
+          "inStock": true,
+          "shippingFree": true,
+          "shippingDays": 1,
+          "lastUpdated": "2026-09-16"
+        },
+        {
+          "storeName": "Tebilon",
+          "storeLogo": "/images/stores/tebilon.svg",
+          "price": 37202,
+          "productUrl": "https://www.tebilon.com/arama/?q=Samsung%20Galaxy%20S25%20(128%20GB)",
+          "url": "https://www.tebilon.com/arama/?q=Samsung%20Galaxy%20S25%20(128%20GB)",
+          "inStock": true,
+          "shippingFree": true,
+          "shippingDays": 1,
+          "lastUpdated": "2026-09-16"
+        },
+        {
+          "storeName": "Ebrar Bilgisayar",
+          "storeLogo": "/images/stores/ebrar.svg",
+          "price": 37016,
+          "productUrl": "https://www.ebrarbilgisayar.com/arama?q=Samsung%20Galaxy%20S25%20(128%20GB)",
+          "url": "https://www.ebrarbilgisayar.com/arama?q=Samsung%20Galaxy%20S25%20(128%20GB)",
+          "inStock": true,
+          "shippingFree": true,
+          "shippingDays": 1,
+          "lastUpdated": "2026-09-16"
+        }
+      ],
+      "priceHistory": [
+        {
+          "date": "Ekim 2025",
+          "price": 73720
+        },
+        {
+          "date": "Kasım 2025",
+          "price": 71780
+        },
+        {
+          "date": "Aralık 2025",
+          "price": 69840
+        },
+        {
+          "date": "Ocak 2026",
+          "price": 67900
+        },
+        {
+          "date": "Şubat 2026",
+          "price": 65960
+        },
+        {
+          "date": "Ağustos 2026",
+          "price": 64670
+        },
+        {
+          "date": "6 Eylül 2026",
+          "price": 37239.05
+        },
+        {
+          "date": "2026-09-16",
+          "price": 37239.05
+        }
+      ],
+      "pros": [
+        "Fiyat / performans dengesi",
+        "Akıcı ve stabil kullanıcı deneyimi",
+        "Kaliteli malzeme yapısı"
+      ],
+      "cons": [
+        "Kutudan hızlı şarj adaptörü çıkmayabilir"
+      ],
+      "colorOptions": [
+        {
+          "name": "Zümrüt Yeşili",
+          "hex": "#2E7D62"
+        },
+        {
+          "name": "Işıltılı Mavi",
+          "hex": "#4A6B82"
+        },
+        {
+          "name": "Ay Işığı Beyazı",
+          "hex": "#F0EFF4"
+        }
+      ]
+    },
+    {
+      "id": "redmi-k90-pro-max-5g-512gb-2027",
+      "slug": "redmi-k90-pro-max-5g-512-gb",
+      "name": "Redmi K90 Pro Max 5G (512 GB)",
+      "brand": "Xiaomi",
+      "category": "smartphones",
+      "image": "/images/phones/xiaomi/xiaomi-redmi-k90-pro-max-5g-14252.jpg",
+      "rating": 4.9,
+      "epeyScore": 94,
+      "reviewCount": 2840,
+      "basePrice": 42999,
+      "currency": "TL",
+      "releaseYear": 2027,
+      "isPopular": true,
+      "isFeatured": true,
+      "highlights": [
+        "Qualcomm Snapdragon 8 Gen 5 (2nm) Amiral Gemisi Canavarı",
+        "6.78 inç 2K M10 144Hz Düz OLED Ekran (TCL Huaxing)",
+        "6500 mAh Devasa Batarya & 120W HyperCharge",
+        "50 MP Light Hunter OIS Kamera & 50 MP Periskop Telefoto"
+      ],
+      "pros": [
+        "2K 144Hz düz OLED ekran",
+        "6500 mAh silikon-karbon pil",
+        "Snapdragon 8 Gen 5 gücü"
+      ],
+      "cons": [
+        "Plastik yan çerçeve"
+      ],
+      "specs": {
+        "screenSize": 6.78,
+        "screenResolution": "1440x3200 (2K WQHD+)",
+        "displayType": "OLED (144Hz)",
+        "chipset": "Qualcomm Snapdragon 8 Gen 5 (2nm)",
+        "cpuCores": 8,
+        "ram": 16,
+        "storage": 512,
+        "batteryCapacity": 6500,
+        "chargingSpeed": 120,
+        "mainCamera": "50 MP (Light Hunter OIS) + 50 MP Periskop (3x) + 12 MP Ultra Geniş",
+        "frontCamera": "20 MP",
+        "operatingSystem": "Xiaomi HyperOS 3.0 (Android 17)",
+        "has5G": true,
+        "waterResistance": "IP68"
+      },
+      "storeOffers": [
+        {
+          "storeName": "Hepsiburada",
+          "storeLogo": "/images/stores/hepsiburada.svg",
+          "price": 42827,
+          "productUrl": "https://www.hepsiburada.com/ara?q=Redmi%20K90%20Pro%20Max%205G%20(512%20GB)",
+          "url": "https://www.hepsiburada.com/ara?q=Redmi%20K90%20Pro%20Max%205G%20(512%20GB)",
+          "inStock": true,
+          "shippingFree": true,
+          "shippingDays": 1,
+          "lastUpdated": "2026-09-16"
+        },
+        {
+          "storeName": "Trendyol",
+          "storeLogo": "/images/stores/trendyol.svg",
+          "price": 43085,
+          "productUrl": "https://www.trendyol.com/sr?q=Redmi%20K90%20Pro%20Max%205G%20(512%20GB)",
+          "url": "https://www.trendyol.com/sr?q=Redmi%20K90%20Pro%20Max%205G%20(512%20GB)",
+          "inStock": true,
+          "shippingFree": true,
+          "shippingDays": 1,
+          "lastUpdated": "2026-09-16"
+        },
+        {
+          "storeName": "Amazon TR",
+          "storeLogo": "/images/stores/amazon.svg",
+          "price": 42913,
+          "productUrl": "https://www.amazon.com.tr/s?k=Redmi%20K90%20Pro%20Max%205G%20(512%20GB)",
+          "url": "https://www.amazon.com.tr/s?k=Redmi%20K90%20Pro%20Max%205G%20(512%20GB)",
+          "inStock": true,
+          "shippingFree": true,
+          "shippingDays": 1,
+          "lastUpdated": "2026-09-16"
+        },
+        {
+          "storeName": "N11",
+          "storeLogo": "/images/stores/n11.svg",
+          "price": 42741,
+          "productUrl": "https://www.n11.com/arama?q=Redmi%20K90%20Pro%20Max%205G%20(512%20GB)",
+          "url": "https://www.n11.com/arama?q=Redmi%20K90%20Pro%20Max%205G%20(512%20GB)",
+          "inStock": true,
+          "shippingFree": true,
+          "shippingDays": 1,
+          "lastUpdated": "2026-09-16"
+        },
+        {
+          "storeName": "PttAVM",
+          "storeLogo": "/images/stores/pttavm.svg",
+          "price": 42655,
+          "productUrl": "https://www.pttavm.com/arama?q=Redmi%20K90%20Pro%20Max%205G%20(512%20GB)",
+          "url": "https://www.pttavm.com/arama?q=Redmi%20K90%20Pro%20Max%205G%20(512%20GB)",
+          "inStock": true,
+          "shippingFree": true,
+          "shippingDays": 1,
+          "lastUpdated": "2026-09-16"
+        },
+        {
+          "storeName": "Vatan Bilgisayar",
+          "storeLogo": "/images/stores/vatan.svg",
+          "price": 42999,
+          "productUrl": "https://www.vatanbilgisayar.com/arama/Redmi%20K90%20Pro%20Max%205G%20(512%20GB)/",
+          "url": "https://www.vatanbilgisayar.com/arama/Redmi%20K90%20Pro%20Max%205G%20(512%20GB)/",
+          "inStock": true,
+          "shippingFree": true,
+          "shippingDays": 1,
+          "lastUpdated": "2026-09-16"
+        },
+        {
+          "storeName": "MediaMarkt",
+          "storeLogo": "/images/stores/mediamarkt.svg",
+          "price": 43257,
+          "productUrl": "https://www.mediamarkt.com.tr/tr/search.html?query=Redmi%20K90%20Pro%20Max%205G%20(512%20GB)",
+          "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Redmi%20K90%20Pro%20Max%205G%20(512%20GB)",
+          "inStock": true,
+          "shippingFree": true,
+          "shippingDays": 1,
+          "lastUpdated": "2026-09-16"
+        },
+        {
+          "storeName": "Teknosa",
+          "storeLogo": "/images/stores/teknosa.svg",
+          "price": 43171,
+          "productUrl": "https://www.teknosa.com/arama?s=Redmi%20K90%20Pro%20Max%205G%20(512%20GB)",
+          "url": "https://www.teknosa.com/arama?s=Redmi%20K90%20Pro%20Max%205G%20(512%20GB)",
+          "inStock": true,
+          "shippingFree": true,
+          "shippingDays": 1,
+          "lastUpdated": "2026-09-16"
+        },
+        {
+          "storeName": "İncehesap",
+          "storeLogo": "/images/stores/incehesap.svg",
+          "price": 42784,
+          "productUrl": "https://www.incehesap.com/arama/?q=Redmi%20K90%20Pro%20Max%205G%20(512%20GB)",
+          "url": "https://www.incehesap.com/arama/?q=Redmi%20K90%20Pro%20Max%205G%20(512%20GB)",
+          "inStock": true,
+          "shippingFree": true,
+          "shippingDays": 1,
+          "lastUpdated": "2026-09-16"
+        },
+        {
+          "storeName": "İtopya",
+          "storeLogo": "/images/stores/itopya.svg",
+          "price": 42870,
+          "productUrl": "https://www.itopya.com/AramaSonuclari/?b=Redmi%20K90%20Pro%20Max%205G%20(512%20GB)",
+          "url": "https://www.itopya.com/AramaSonuclari/?b=Redmi%20K90%20Pro%20Max%205G%20(512%20GB)",
+          "inStock": true,
+          "shippingFree": true,
+          "shippingDays": 1,
+          "lastUpdated": "2026-09-16"
+        },
+        {
+          "storeName": "Sinerji Bilgisayar",
+          "storeLogo": "/images/stores/sinerji.svg",
+          "price": 42827,
+          "productUrl": "https://www.sinerji.gen.tr/Arama?q=Redmi%20K90%20Pro%20Max%205G%20(512%20GB)",
+          "url": "https://www.sinerji.gen.tr/Arama?q=Redmi%20K90%20Pro%20Max%205G%20(512%20GB)",
+          "inStock": true,
+          "shippingFree": true,
+          "shippingDays": 1,
+          "lastUpdated": "2026-09-16"
+        },
+        {
+          "storeName": "Gaming.Gen.TR",
+          "storeLogo": "/images/stores/gaminggen.svg",
+          "price": 42913,
+          "productUrl": "https://www.gaming.gen.tr/?s=Redmi%20K90%20Pro%20Max%205G%20(512%20GB)",
+          "url": "https://www.gaming.gen.tr/?s=Redmi%20K90%20Pro%20Max%205G%20(512%20GB)",
+          "inStock": true,
+          "shippingFree": true,
+          "shippingDays": 1,
+          "lastUpdated": "2026-09-16"
+        },
+        {
+          "storeName": "GameGaraj",
+          "storeLogo": "/images/stores/gamegaraj.svg",
+          "price": 43042,
+          "productUrl": "https://www.gamegaraj.com/arama/?q=Redmi%20K90%20Pro%20Max%205G%20(512%20GB)",
+          "url": "https://www.gamegaraj.com/arama/?q=Redmi%20K90%20Pro%20Max%205G%20(512%20GB)",
+          "inStock": true,
+          "shippingFree": true,
+          "shippingDays": 1,
+          "lastUpdated": "2026-09-16"
+        },
+        {
+          "storeName": "Tebilon",
+          "storeLogo": "/images/stores/tebilon.svg",
+          "price": 42956,
+          "productUrl": "https://www.tebilon.com/arama/?q=Redmi%20K90%20Pro%20Max%205G%20(512%20GB)",
+          "url": "https://www.tebilon.com/arama/?q=Redmi%20K90%20Pro%20Max%205G%20(512%20GB)",
+          "inStock": true,
+          "shippingFree": true,
+          "shippingDays": 1,
+          "lastUpdated": "2026-09-16"
+        },
+        {
+          "storeName": "Ebrar Bilgisayar",
+          "storeLogo": "/images/stores/ebrar.svg",
+          "price": 42741,
+          "productUrl": "https://www.ebrarbilgisayar.com/arama?q=Redmi%20K90%20Pro%20Max%205G%20(512%20GB)",
+          "url": "https://www.ebrarbilgisayar.com/arama?q=Redmi%20K90%20Pro%20Max%205G%20(512%20GB)",
+          "inStock": true,
+          "shippingFree": true,
+          "shippingDays": 1,
+          "lastUpdated": "2026-09-16"
+        }
+      ],
+      "priceHistory": [
+        {
+          "date": "2026-03-01",
+          "price": 46439
+        },
+        {
+          "date": "2026-04-01",
+          "price": 45579
+        },
+        {
+          "date": "2026-05-01",
+          "price": 44719
+        },
+        {
+          "date": "2026-06-01",
+          "price": 43859
+        },
+        {
+          "date": "2026-07-01",
+          "price": 43429
+        },
+        {
+          "date": "2026-08-01",
+          "price": 42999
+        },
+        {
+          "date": "2026-09-16",
+          "price": 42999
+        }
+      ],
+      "images": [
+        "/images/phones/xiaomi/xiaomi-redmi-k90-pro-max-5g-14252.jpg"
+      ]
+    }
+  ]
+}

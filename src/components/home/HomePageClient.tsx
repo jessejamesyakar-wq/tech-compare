@@ -7,7 +7,8 @@ import { useI18n } from '@/lib/i18n/context';
 import { useCompare } from '@/context/CompareContext';
 import { Smartphone, TVProduct } from '@/lib/types';
 import { calculateTVScore } from '@/lib/tvScoring';
-import { ACTIVE_STORE_COUNT, ACTIVE_RETAILERS } from '@/lib/activeStores';
+import { evaluateProductPricing, getPriceHeading } from '@/lib/pricing/unifiedPriceEvaluator';
+import { useReducedMotion } from 'framer-motion';
 import { HeroCarousel, HeroSlideItem } from '@/components/promo/HeroCarousel';
 import { CompactProductCard } from '@/components/catalog/CompactProductCard';
 import { ProductImage } from '@/components/ui/ProductImage';
@@ -37,7 +38,6 @@ interface HomePageClientProps {
     phone2Id: string;
     phone1Name: string;
     phone2Name: string;
-    viewCount: number;
   }>;
   showcaseData: DynamicCategoryDistribution;
   counts: {
@@ -69,6 +69,12 @@ export function HomePageClient({
   const [heroIndex, setHeroIndex] = useState<number>(0);
   const [tvPageIndex, setTvPageIndex] = useState<number>(0);
   const [isTVPaused, setIsTVPaused] = useState<boolean>(false);
+  const [tvAutoPlay, setTvAutoPlay] = useState(true);
+  const reduceMotion = useReducedMotion();
+  const [motionPreferenceReady, setMotionPreferenceReady] = useState(false);
+  useEffect(() => setMotionPreferenceReady(true), []);
+  const reducedMotionActive = motionPreferenceReady && !!reduceMotion;
+  const canRotateTVs = motionPreferenceReady && tvAutoPlay && !isTVPaused && !reduceMotion;
   const [progressKey, setProgressKey] = useState<number>(0);
 
   // Filter and diversify TVs across brands so single-brand domination is eliminated
@@ -101,7 +107,7 @@ export function HomePageClient({
     const withScore = list.map((tv) => ({
       tv,
       score: calculateTVScore(tv).totalScore
-    })).sort((a, b) => b.score - a.score);
+    })).sort((a, b) => (b.score ?? -1) - (a.score ?? -1));
 
     // Group by brand
     const byBrand: Record<string, TVProduct[]> = {};
@@ -137,7 +143,7 @@ export function HomePageClient({
     return diverse;
   }, [allTVsList, activeTVTab]);
 
-  const totalTVPages = Math.max(1, Math.floor(diverseTVs.length / 8));
+  const totalTVPages = Math.max(1, Math.ceil(diverseTVs.length / 8));
   const safeTVPageIndex = totalTVPages > 0 ? tvPageIndex % totalTVPages : 0;
 
   const currentTVs = useMemo(() => {
@@ -154,7 +160,7 @@ export function HomePageClient({
 
   // 5-second automatic rotation
   useEffect(() => {
-    if (isTVPaused || totalTVPages <= 1) return;
+    if (!canRotateTVs || totalTVPages <= 1) return;
 
     const timer = setInterval(() => {
       setTvPageIndex((prev) => (prev + 1) % totalTVPages);
@@ -162,7 +168,7 @@ export function HomePageClient({
     }, 5000);
 
     return () => clearInterval(timer);
-  }, [isTVPaused, totalTVPages]);
+  }, [canRotateTVs, totalTVPages]);
 
   const CATEGORY_BANNERS_ROW1 = [
     {
@@ -202,16 +208,16 @@ export function HomePageClient({
   const WIDE_PROMO_BANNERS = [
     {
       id: 'wide-1',
-      title: 'Sezon Sonu Canlı Fiyat Düşüşleri',
-      subtitle: ACTIVE_STORE_COUNT === 1 ? `${(ACTIVE_RETAILERS[0]?.name || 'HEPSİBURADA').toUpperCase()} ANLIK TAKİP` : `${ACTIVE_STORE_COUNT} MAĞAZA ANLIK TAKİP`,
-      badge: '⚡ FIRSAT ALARMI',
+      title: 'Telefon Modellerini Keşfet',
+      subtitle: 'FİYAT VE ÖZELLİK KARŞILAŞTIRMASI',
+      badge: '📱 TELEFON KATALOĞU',
       image: 'https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=800&auto=format&fit=crop&q=80',
       href: '/phones?sortBy=popular'
     },
     {
       id: 'wide-2',
-      title: '6 Aylık Şeffaf Fiyat Geçmişi Analizi',
-      subtitle: 'EN DOĞRU ALIM ZAMANI',
+      title: 'İki Ürünü Yan Yana Karşılaştır',
+      subtitle: 'ÖZELLİKLERİ BİRLİKTE İNCELE',
       badge: '📈 DÜELLO MASASI',
       image: 'https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=800&auto=format&fit=crop&q=80',
       href: '/compare'
@@ -310,7 +316,9 @@ export function HomePageClient({
                 <span className={`animate-ping absolute inline-flex h-full w-full rounded-full ${isTVPaused ? 'bg-amber-400' : 'bg-emerald-400'} opacity-75`} />
                 <span className={`relative inline-flex rounded-full h-2.5 w-2.5 ${isTVPaused ? 'bg-amber-500' : 'bg-emerald-500'}`} />
               </span>
-              <span>{isTVPaused ? 'Durduruldu (Fare Üzerinde)' : '5 sn\'de bir otomatik geçiş'}</span>
+              <button type="button" onClick={() => setTvAutoPlay((playing) => !playing)} aria-pressed={reducedMotionActive || !tvAutoPlay} disabled={reducedMotionActive} className="min-h-11 px-1 cursor-pointer disabled:cursor-default">
+                {reducedMotionActive ? 'Otomatik geçiş kapalı' : tvAutoPlay ? 'Geçişleri duraklat' : 'Geçişleri oynat'}
+              </button>
               <span className="text-slate-300">|</span>
               <span className="text-emerald-700 font-black">Sayfa {safeTVPageIndex + 1} / {totalTVPages}</span>
             </div>
@@ -414,8 +422,8 @@ export function HomePageClient({
               key={progressKey}
               className="h-full bg-gradient-to-r from-emerald-500 via-teal-500 to-indigo-500 rounded-full transition-all"
               style={{
-                width: isTVPaused ? '100%' : undefined,
-                animation: isTVPaused ? 'none' : 'tvBarProgress 5s linear infinite'
+                width: !canRotateTVs ? '100%' : undefined,
+                animation: !canRotateTVs ? 'none' : 'tvBarProgress 5s linear infinite'
               }}
             />
           </div>
@@ -434,14 +442,15 @@ export function HomePageClient({
           className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 relative z-10"
         >
           {currentTVs.map((tv) => {
+            const pricing = evaluateProductPricing(tv);
             const score100 = calculateTVScore(tv).totalScore;
             const inCompare = isInCompare(tv.id);
 
             const nameInchMatch = tv.name.match(/\b(\d+(?:\.\d+)?)"/);
-            const inchVal = nameInchMatch ? parseFloat(nameInchMatch[1]) : tv.specs?.screenSizeInches || 55;
-            const preciseInch = `${inchVal}"`;
+            const inchVal = nameInchMatch ? parseFloat(nameInchMatch[1]) : tv.specs?.screenSizeInches;
+            const preciseInch = inchVal ? `${inchVal}"` : 'Boyut bilgisi yok';
 
-            const techName = tv.specs?.displayTech || 'LED';
+            const techName = tv.specs?.displayTech || 'Panel bilgisi yok';
 
             return (
               <div
@@ -463,8 +472,8 @@ export function HomePageClient({
 
                     <div className="absolute bottom-2 right-2 bg-white/95 backdrop-blur-md border border-amber-300/60 rounded-xl p-1 shadow-md flex items-center gap-1 z-10">
                       <div className="w-8 h-8 rounded-full bg-gradient-to-tr from-amber-500 to-rose-500 text-white flex flex-col items-center justify-center font-black leading-none shadow-md">
-                        <span className="text-[11px] font-black">{score100}</span>
-                        <span className="text-[6px] uppercase font-bold tracking-tighter opacity-95">puan</span>
+                        <span className="text-[11px] font-black">{score100 ?? '—'}</span>
+                        <span className="text-[6px] uppercase font-bold tracking-tighter opacity-95">katalog</span>
                       </div>
                     </div>
                   </div>
@@ -473,7 +482,7 @@ export function HomePageClient({
                     <span className="font-extrabold text-emerald-700 uppercase tracking-widest">{tv.brand} • {tv.releaseYear}</span>
                     <div className="bg-amber-50 text-amber-800 font-extrabold text-[10px] px-2 py-0.5 rounded-full border border-amber-200 flex items-center gap-1 shadow-2xs">
                       <Award className="w-3 h-3 text-amber-600" />
-                      <span>{score100} / 100</span>
+                      <span>{score100 === null ? 'Puan yok' : `${score100} / 100 (katalog)`}</span>
                     </div>
                   </div>
 
@@ -486,10 +495,11 @@ export function HomePageClient({
 
                 <div className="pt-3 border-t border-slate-100 mt-3 flex items-center justify-between gap-2">
                   <div>
-                    <span className="text-[10px] text-slate-500 font-bold block uppercase tracking-wider">Başlangıç Fiyatı</span>
+                    <span className="text-[10px] text-slate-500 font-bold block uppercase tracking-wider">{getPriceHeading(pricing)}</span>
                     <span className="text-emerald-700 font-black text-sm tabular-nums">
-                      {tv.basePrice.toLocaleString()} ₺
+                      {pricing.displayPrice !== null ? pricing.displayPrice.toLocaleString('tr-TR') + ' ₺' : '—'}
                     </span>
+                    <p className="text-[11px] text-slate-500">{pricing.statusLabel}</p>
                   </div>
 
                   <button
@@ -521,16 +531,14 @@ export function HomePageClient({
 
       {/* 1. SECTION: Compact Discounted Products Grid (16 Items) */}
       <section className="space-y-6">
-        <div className="flex items-center justify-between border-b border-slate-200/80 pb-3">
+        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-slate-200/80 pb-3">
           <div>
             <h2 className="text-slate-900 text-xl sm:text-2xl font-black tracking-tight flex items-center gap-2">
               <Sparkles className="w-5 h-5 text-rose-600" />
-              <span>Günün İndirimli Ürün Fırsatları</span>
+              <span>Telefon ve Televizyon Seçkisi</span>
             </h2>
             <p className="text-xs text-slate-500 font-medium mt-0.5">
-              {ACTIVE_STORE_COUNT === 1
-                ? `${ACTIVE_RETAILERS[0]?.name || 'Hepsiburada'} üzerinde son 24 saatte fiyatı düşen popüler modeller`
-                : `${ACTIVE_STORE_COUNT} perakende mağazasında son 24 saatte fiyatı düşen popüler modeller`}
+              Katalogdan modeller; güncel teklif ve referans fiyat ayrımıyla.
             </p>
           </div>
 
@@ -538,7 +546,7 @@ export function HomePageClient({
             href="/phones?sortBy=popular"
             className="text-xs font-black text-rose-600 hover:text-rose-700 transition-colors flex items-center gap-1 uppercase tracking-wider bg-rose-50 px-3.5 py-2 rounded-xl border border-rose-200 shadow-2xs cursor-pointer"
           >
-            <span>TÜM İNDİRİMLER</span>
+            <span>TELEFONLARI İNCELE</span>
             <ChevronRight className="w-4 h-4 text-rose-600 stroke-[3]" />
           </Link>
         </div>
@@ -549,8 +557,6 @@ export function HomePageClient({
               key={product.id}
               product={product}
               index={idx}
-              badgeType={idx % 3 === 0 ? 'discount' : idx % 3 === 1 ? 'featured' : 'new'}
-              customBadgeText={idx % 3 === 0 ? `%${10 + (idx % 5) * 3} İNDİRİM` : idx % 3 === 1 ? '⭐ 100 PUAN' : '🔥 ÇOK SATAN'}
             />
           ))}
         </div>
@@ -574,7 +580,7 @@ export function HomePageClient({
       />
 
       <CategoryBannerGrid
-        sectionTitle="Özel Kampanyalar & Şeffaf Analiz Kılavuzları"
+        sectionTitle="Ürün Seçimine Yardımcı Araçlar"
         items={WIDE_PROMO_BANNERS}
         variant="wide"
       />
@@ -587,20 +593,20 @@ export function HomePageClient({
 
       {/* "Çok Satanlar" Product Carousel */}
       <ProductCarousel
-        title="En Çok Satanlar & İlgi Görenler"
-        subtitle="Hepsiburada, Trendyol ve Vatan verilerine göre haftanın popüler modelleri"
+        title="Katalogdan Öne Çıkanlar"
+        subtitle="Modelleri teknik özellikleri ve fiyat doğrulama durumlarıyla incele."
         products={bestSellerCarouselList}
       />
 
       {/* Popular Comparisons Section */}
       <section className="space-y-6">
-        <div className="flex items-center justify-between">
+        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
           <div>
             <h2 className="text-slate-900 text-2xl font-black flex items-center gap-2">
               <Scale className="w-6 h-6 text-emerald-600" />
-              <span>{t.popularComparisons}</span>
+              <span>Karşılaştırma Önerileri</span>
             </h2>
-            <p className="text-xs text-slate-500 font-medium mt-0.5">En çok merak edilen amiral gemisi düelloları</p>
+            <p className="text-xs text-slate-500 font-medium mt-0.5">Benzer modellerin farklarını yan yana incele</p>
           </div>
 
           <Link href="/compare" className="text-xs font-extrabold text-emerald-600 hover:underline flex items-center gap-1">
@@ -624,7 +630,7 @@ export function HomePageClient({
                   {duel.phone1Name} vs {duel.phone2Name}
                 </h3>
                 <p className="text-xs text-slate-500 font-medium">
-                  {duel.viewCount.toLocaleString()} Canlı İnceleme
+                  Teknik özellikleri karşılaştır
                 </p>
               </div>
               <div className="w-10 h-10 rounded-2xl bg-slate-100 group-hover:bg-emerald-600 group-hover:text-white text-slate-600 flex items-center justify-center shrink-0 transition-colors shadow-xs">

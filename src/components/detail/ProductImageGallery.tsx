@@ -1,10 +1,13 @@
 'use client';
 
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useId } from 'react';
+import { createPortal } from 'react-dom';
 import Image from 'next/image';
 import { ProductImage } from '@/components/ui/ProductImage';
 import { BaseProduct, Product } from '@/lib/types';
-import { Maximize2, Zap, ChevronLeft, ChevronRight, Image as ImageIcon, X } from 'lucide-react';
+import { Maximize2, ChevronLeft, ChevronRight, Image as ImageIcon, X } from 'lucide-react';
+import { useModalFocus } from '@/components/ui/useModalFocus';
+import { isProductImagePlaceholder } from '@/lib/productImages';
 
 interface ProductImageGalleryProps {
   product: BaseProduct | Product;
@@ -17,7 +20,7 @@ export function ProductImageGallery({
   activeColorImage,
   activeColorImages
 }: ProductImageGalleryProps) {
-  const fallbackImg = 'https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=800&auto=format&fit=crop&q=80';
+  const fallbackImg = '/images/product-placeholder.png';
   const defaultImage = activeColorImage || product.image || fallbackImg;
 
   // Build the unified image array for the current active color
@@ -35,6 +38,8 @@ export function ProductImageGallery({
 
   const [activeIndex, setActiveIndex] = useState<number>(0);
   const [isZoomOpen, setIsZoomOpen] = useState(false);
+  const zoomTitleId = useId();
+  const zoomDialogRef = useModalFocus(isZoomOpen, () => setIsZoomOpen(false));
   const [imgError, setImgError] = useState(false);
 
   // When active color or its images change, immediately reset gallery to the primary image (index 0)
@@ -60,14 +65,6 @@ export function ProductImageGallery({
       {/* Strict 500px x 500px Square Grid/Flex Main Showcase Stage (Immutable Standard) */}
       <div className="fixed-detail-gallery-stage relative group">
         
-        {/* Popular Tag Badge */}
-        {product.isPopular && (
-          <div className="absolute top-4 left-4 z-10 bg-emerald-50 text-emerald-700 text-xs font-extrabold px-3 py-1 rounded-full border border-emerald-200 flex items-center gap-1 shadow-2xs backdrop-blur-xs">
-            <Zap className="w-3.5 h-3.5 fill-emerald-600 text-emerald-600" />
-            <span>Popüler Ürün</span>
-          </div>
-        )}
-
         {/* Multi Photo Counter Badge */}
         {allImages.length > 1 && (
           <div className="absolute top-4 right-4 z-10 bg-white/95 text-slate-800 backdrop-blur-md text-xs font-extrabold px-3 py-1 rounded-full shadow-xs flex items-center gap-1.5 border border-slate-200">
@@ -81,7 +78,7 @@ export function ProductImageGallery({
           <>
             <button
               onClick={handlePrev}
-              className="absolute left-3 top-1/2 -translate-y-1/2 z-10 p-2.5 rounded-2xl bg-white/90 hover:bg-white text-slate-800 border border-slate-200 shadow-md backdrop-blur-xs transition-all active:scale-95 cursor-pointer hover:border-slate-300"
+              className="absolute left-3 top-1/2 -translate-y-1/2 z-10 min-w-11 min-h-11 p-2.5 rounded-2xl bg-white/90 hover:bg-white text-slate-800 border border-slate-200 shadow-md backdrop-blur-xs transition-all active:scale-95 cursor-pointer hover:border-slate-300"
               title="Önceki Fotoğraf"
             >
               <ChevronLeft className="w-5 h-5 text-slate-700" />
@@ -89,7 +86,7 @@ export function ProductImageGallery({
 
             <button
               onClick={handleNext}
-              className="absolute right-3 top-1/2 -translate-y-1/2 z-10 p-2.5 rounded-2xl bg-white/90 hover:bg-white text-slate-800 border border-slate-200 shadow-md backdrop-blur-xs transition-all active:scale-95 cursor-pointer hover:border-slate-300"
+              className="absolute right-3 top-1/2 -translate-y-1/2 z-10 min-w-11 min-h-11 p-2.5 rounded-2xl bg-white/90 hover:bg-white text-slate-800 border border-slate-200 shadow-md backdrop-blur-xs transition-all active:scale-95 cursor-pointer hover:border-slate-300"
               title="Sonraki Fotoğraf"
             >
               <ChevronRight className="w-5 h-5 text-slate-700" />
@@ -98,13 +95,13 @@ export function ProductImageGallery({
         )}
 
         {/* Fullscreen Magnifier Trigger */}
-        <button
+        {!isProductImagePlaceholder(activeImage) && <button
           onClick={() => setIsZoomOpen(true)}
-          className="absolute bottom-4 right-4 z-10 p-2.5 rounded-2xl bg-white/90 hover:bg-emerald-600 hover:text-white text-slate-700 transition-all border border-slate-200 shadow-sm cursor-pointer"
+          className="absolute bottom-4 right-4 z-10 min-w-11 min-h-11 p-2.5 rounded-2xl bg-white/90 hover:bg-emerald-600 hover:text-white text-slate-700 transition-all border border-slate-200 shadow-sm cursor-pointer"
           title="Fotoğrafı Büyüt"
         >
           <Maximize2 className="w-4 h-4" />
-        </button>
+        </button>}
 
         {/* Optimized Active Hero Image with ProductImage variant="detail" (Strict 520px fixed box, object-fit contain) */}
         <div className="relative w-full h-full flex items-center justify-center p-2">
@@ -135,6 +132,8 @@ export function ProductImageGallery({
               return (
                 <button
                   key={i}
+                  aria-label={`${product.name} fotoğraf ${i + 1}`}
+                  aria-pressed={isActive}
                   onClick={() => {
                     setImgError(false);
                     setActiveIndex(i);
@@ -161,39 +160,44 @@ export function ProductImageGallery({
       )}
 
       {/* Zoom Full Screen Modal (1000x1000+ Master Layer) */}
-      {isZoomOpen && (
+      {isZoomOpen && createPortal(
         <div
-          className="fixed inset-0 z-50 bg-slate-900/50 backdrop-blur-md flex items-center justify-center p-4 transition-opacity animate-in fade-in duration-200"
+          className="fixed inset-0 z-[120] bg-slate-900/50 backdrop-blur-md flex items-center justify-center p-4 transition-opacity animate-in fade-in duration-200"
           onClick={() => setIsZoomOpen(false)}
         >
           <div
-            className="relative max-w-4xl max-h-[85vh] p-6 bg-white rounded-3xl overflow-hidden shadow-2xl border border-slate-200 flex flex-col items-center animate-in zoom-in-95 duration-200"
+            ref={zoomDialogRef}
+            role="dialog"
+            aria-modal="true"
+            aria-labelledby={zoomTitleId}
+            tabIndex={-1}
+            className="relative w-full max-w-4xl max-h-[calc(100dvh-2rem)] p-4 pt-16 sm:p-6 sm:pt-16 bg-white rounded-3xl overflow-y-auto shadow-2xl border border-slate-200 flex flex-col items-center animate-in zoom-in-95 duration-200"
             onClick={(e) => e.stopPropagation()}
           >
             <button
               onClick={() => setIsZoomOpen(false)}
-              className="absolute top-4 right-4 z-10 p-2 rounded-full bg-slate-100 hover:bg-slate-200 text-slate-800 transition-all cursor-pointer"
-              title="Kapat"
+              className="absolute top-3 right-3 z-10 w-11 h-11 flex items-center justify-center rounded-full bg-slate-100 hover:bg-slate-200 text-slate-800 transition-all cursor-pointer"
+              aria-label="Görsel penceresini kapat"
             >
               <X className="w-5 h-5" />
             </button>
 
-            <div className="relative w-[80vw] max-w-[700px] h-[60vh] max-h-[700px] flex items-center justify-center p-4">
-              <Image
+            <div className="relative w-full max-w-[700px] h-[min(55dvh,700px)] min-h-32 shrink-0 flex items-center justify-center">
+              <ProductImage
+                key={activeImage}
                 src={activeImage}
-                alt={`${product.name} - Orijinal Yüksek Çözünürlüklü Görsel`}
-                width={1200}
-                height={1200}
+                alt={`${product.name} - Büyütülmüş katalog görseli`}
+                variant="detail"
                 className="w-full h-full object-contain filter drop-shadow-lg"
               />
             </div>
 
             <div className="text-center pt-3 border-t border-slate-100 w-full">
-              <p className="text-sm font-black text-slate-900">{product.name}</p>
-              <p className="text-xs text-slate-400 font-medium">Orijinal Üretici Stüdyo Render Görseli (1000x1000+)</p>
+              <p id={zoomTitleId} className="text-sm font-black text-slate-900">{product.name}</p>
+              <p className="text-xs text-slate-400 font-medium">Katalog görseli</p>
             </div>
           </div>
-        </div>
+        </div>, document.body
       )}
     </div>
   );

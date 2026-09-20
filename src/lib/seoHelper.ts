@@ -1,44 +1,59 @@
 import type { Metadata } from 'next';
 import type { Product } from './types';
+import { isProductImagePlaceholder } from './productImages';
+import { hasUnresolvedSpecField } from './specVerification';
 
 /**
  * Generates standardized SEO Title for Product Detail Pages
- * Format: {Ürün Adı} Fiyat Karşılaştırması - aceleEtme
+ * Preserves exact model name and capacity.
+ * Format: {Ürün Adı} Fiyat Karşılaştırması ve Özellikleri - aceleEtme
  */
 export function buildProductMetaTitle(product: Product): string {
-  return `${product.name} Fiyat Karşılaştırması - aceleEtme`;
+  const modelName = product.name || `${product.brand || ''} ${product.model || 'Ürün'}`.trim();
+  return `${modelName} Fiyat Karşılaştırması ve Özellikleri - aceleEtme`;
 }
 
 /**
- * Generates rich, unique 150-160 character SEO Meta Description for Product Detail Pages
- * Contains: brand, model, key technical specs (RAM, storage, display, battery, etc.)
- * and the exact phrase "en güncel fiyat karşılaştırması".
+ * Generates rich, clean 150-160 character SEO Meta Description for Product Detail Pages
+ * Contains brand, model, key technical specs (RAM, storage, processor, display, etc.)
+ * Strictly avoids [object Object], undefined, or unbacked claim adjectives.
  */
 export function buildProductMetaDescription(product: Product): string {
-  const name = product.name;
+  const name = product.name || 'Ürün';
   const specs = (product as any).specs || {};
   const specParts: string[] = [];
 
-  if (specs.ram) specParts.push(`${specs.ram} RAM`);
-  if (specs.storage) specParts.push(`${specs.storage}`);
-  if (specs.processor) specParts.push(`${specs.processor}`);
-  if (specs.screenSize) specParts.push(`${specs.screenSize}`);
-  if (specs.resolution) specParts.push(`${specs.resolution}`);
-  if (specs.batteryLife) specParts.push(`${specs.batteryLife} pil`);
-  if (specs.anc && String(specs.anc).toLowerCase().includes('var')) specParts.push('ANC');
-  if (specs.power) specParts.push(`${specs.power}`);
+  const safeStr = (val: any): string => {
+    if (val === null || val === undefined) return '';
+    if (typeof val === 'string') return val.trim();
+    if (typeof val === 'number') return String(val);
+    return '';
+  };
 
-  if (specParts.length === 0 && product.highlights && product.highlights.length > 0) {
-    const h = String(product.highlights[0]).replace(/[\n\r]+/g, ' ').trim();
-    if (h.length < 40) specParts.push(h);
+  const specTextValue = (key: string) => hasUnresolvedSpecField(product, key) ? '' : safeStr(specs[key]);
+  const ram = specTextValue('ram');
+  const storage = specTextValue('storage');
+  const processor = specTextValue('processor');
+  const screenSize = specTextValue('screenSize');
+  const resolution = specTextValue('resolution');
+
+  if (ram) specParts.push(`${ram} RAM`);
+  if (storage) specParts.push(storage);
+  if (processor) specParts.push(processor);
+  if (screenSize) specParts.push(screenSize);
+  if (resolution) specParts.push(resolution);
+
+  if (specParts.length === 0 && product.highlights && Array.isArray(product.highlights) && product.highlights.length > 0) {
+    const h = safeStr(product.highlights[0]).replace(/[\n\r]+/g, ' ').trim();
+    if (h.length > 0 && h.length < 50) specParts.push(h);
   }
 
-  const specText = specParts.slice(0, 2).join(', ');
+  const specText = specParts.slice(0, 3).join(', ');
   let desc = '';
   if (specText) {
-    desc = `${name} en güncel fiyat karşılaştırması. ${specText} özellikleri ve canlı mağaza fırsatlarını aceleEtme'de hemen inceleyin.`;
+    desc = `${name} teknik özellikleri (${specText}), mağaza fiyat seçenekleri ve detaylı karşılaştırması aceleEtme'de.`;
   } else {
-    desc = `${name} en güncel fiyat karşılaştırması, teknik özellikleri ve canlı mağaza fırsatlarını aceleEtme'de hemen inceleyin.`;
+    desc = `${name} teknik özellikleri, mağaza seçenekleri ve detaylı fiyat karşılaştırması aceleEtme'de.`;
   }
 
   if (desc.length > 160) {
@@ -48,20 +63,32 @@ export function buildProductMetaDescription(product: Product): string {
 }
 
 /**
- * Generates full Next.js Metadata object for a product
+ * Generates full Next.js Metadata object for a product with valid absolute canonical & OG URLs
  */
 export function buildProductMetadata(product: Product | null, categoryPath: string): Metadata {
   if (!product) {
     return {
       title: 'Ürün Bulunamadı | aceleEtme',
       description: 'Aradığınız ürün bulunamadı.',
+      robots: {
+        index: false,
+        follow: false,
+      },
     };
   }
 
+  const category = (product.category === 'smartphones' ? 'phones' : product.category) || categoryPath;
   const slug = product.slug || product.id;
   const title = buildProductMetaTitle(product);
   const description = buildProductMetaDescription(product);
-  const canonical = `https://www.aceleetme.tech/${categoryPath}/${slug}`;
+  const canonical = `https://www.aceleetme.tech/${category}/${slug}`;
+
+  const hasProductImage = !isProductImagePlaceholder(product.image);
+  const absoluteImageUrl = hasProductImage
+    ? product.image.startsWith('http')
+      ? product.image
+      : `https://www.aceleetme.tech${product.image.startsWith('/') ? '' : '/'}${product.image}`
+    : 'https://www.aceleetme.tech/icon.png';
 
   return {
     title,
@@ -74,14 +101,18 @@ export function buildProductMetadata(product: Product | null, categoryPath: stri
       description,
       url: canonical,
       siteName: 'aceleEtme',
-      images: product.image ? [{ url: product.image, alt: product.name }] : [],
+      images: [{ url: absoluteImageUrl, alt: hasProductImage ? product.name : 'aceleEtme' }],
       type: 'website',
     },
     twitter: {
       card: 'summary_large_image',
       title,
       description,
-      images: product.image ? [product.image] : [],
+      images: [absoluteImageUrl],
+    },
+    robots: {
+      index: true,
+      follow: true,
     },
   };
 }
@@ -95,47 +126,47 @@ export interface CategorySEOInfo {
 export const CATEGORY_SEO_DEFINITIONS: Record<string, CategorySEOInfo> = {
   phones: {
     title: 'Akıllı Telefon Fiyat Karşılaştırması - aceleEtme',
-    description: 'En güncel akıllı telefon fiyat karşılaştırması, teknik özellikler, kullanıcı puanları ve indirimli telefon modelleri aceleEtme\'de.',
+    description: 'Akıllı telefon modellerinde mağaza seçenekleri, teknik özellikler ve detaylı fiyat karşılaştırma platformu aceleEtme.',
     canonicalPath: '/phones',
   },
   tvs: {
     title: 'Televizyon Fiyat Karşılaştırması - aceleEtme',
-    description: '4K Ultra HD, OLED ve QLED televizyon modellerinde en güncel fiyat karşılaştırması ve teknik detaylar aceleEtme\'de.',
+    description: '4K Ultra HD, OLED ve QLED televizyon modellerinde mağaza seçenekleri ve teknik detaylar aceleEtme\'de.',
     canonicalPath: '/tvs',
   },
   laptops: {
     title: 'Laptop & Bilgisayar Fiyat Karşılaştırması - aceleEtme',
-    description: 'Dizüstü bilgisayar, gaming laptop ve ultrabook modellerinde en güncel fiyat karşılaştırması ve performans analizleri aceleEtme\'de.',
+    description: 'Dizüstü bilgisayar, gaming laptop ve ultrabook modellerinde mağaza seçenekleri ve performans analizleri aceleEtme\'de.',
     canonicalPath: '/laptops',
   },
   tablets: {
     title: 'Tablet Fiyat Karşılaştırması - aceleEtme',
-    description: 'iPad ve Android tablet modellerinde en güncel fiyat karşılaştırması, ekran boyutları, pil ömrü ve fırsatlar aceleEtme\'de.',
+    description: 'iPad ve Android tablet modellerinde teknik özellikler, mağaza fiyat teklifleri ve karşılaştırmalar aceleEtme\'de.',
     canonicalPath: '/tablets',
   },
   smartwatches: {
     title: 'Akıllı Saat Fiyat Karşılaştırması - aceleEtme',
-    description: 'Apple Watch, Galaxy Watch ve popüler akıllı saat modellerinde en güncel fiyat karşılaştırması ve sağlık takibi özellikleri aceleEtme\'de.',
+    description: 'Apple Watch, Galaxy Watch ve popüler akıllı saat modellerinde mağaza seçenekleri aceleEtme\'de.',
     canonicalPath: '/smartwatches',
   },
   headphones: {
     title: 'Kulaklık Fiyat Karşılaştırması - aceleEtme',
-    description: 'Bluetooth, TWS ve kulak üstü kulaklık modellerinde en güncel fiyat karşılaştırması, ses kalitesi ve aktif gürültü engelleme özellikleri aceleEtme\'de.',
+    description: 'Bluetooth, TWS ve kulak üstü kulaklık modellerinde mağaza fiyat seçenekleri ve teknik detaylar aceleEtme\'de.',
     canonicalPath: '/headphones',
   },
   appliances: {
     title: 'Beyaz Eşya & Ev Aletleri Fiyat Karşılaştırması - aceleEtme',
-    description: 'Robot süpürge, airfryer, kahve makinesi ve ev aletlerinde en güncel fiyat karşılaştırması ve kullanıcı incelemeleri aceleEtme\'de.',
+    description: 'Robot süpürge, airfryer, kahve makinesi ve ev aletlerinde mağaza fiyat teklifleri aceleEtme\'de.',
     canonicalPath: '/appliances',
   },
   monitors: {
     title: 'Monitör Fiyat Karşılaştırması - aceleEtme',
-    description: 'Gaming ve profesyonel monitörlerde en güncel fiyat karşılaştırması, yenileme hızı, panel türleri ve çözünürlük seçenekleri aceleEtme\'de.',
+    description: 'Gaming ve profesyonel monitörlerde yenileme hızı, panel türleri ve mağaza seçenekleri aceleEtme\'de.',
     canonicalPath: '/monitors',
   },
   consoles: {
     title: 'Oyun Konsolu Fiyat Karşılaştırması - aceleEtme',
-    description: 'PlayStation, Xbox ve Nintendo konsollarında en güncel fiyat karşılaştırması, paket seçenekleri ve piyasa fırsatları aceleEtme\'de.',
+    description: 'PlayStation, Xbox ve Nintendo konsollarında mağaza seçenekleri ve fiyat karşılaştırmaları aceleEtme\'de.',
     canonicalPath: '/consoles',
   },
 };
@@ -166,6 +197,10 @@ export function buildCategoryMetadata(categoryKey: string): Metadata {
       card: 'summary',
       title: info.title,
       description: info.description,
+    },
+    robots: {
+      index: true,
+      follow: true,
     },
   };
 }

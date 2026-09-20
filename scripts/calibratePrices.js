@@ -1,3 +1,6 @@
+// Retired: hardcoded amounts and unchecked store minima are not observations.
+throw new Error('Bu eski fiyat aracı devre dışı: kaynaksız fiyatları katalog referansına dönüştürüyor. Doğrulanmış teklif içe aktarımı gerekir.');
+
 const fs = require('fs');
 const path = require('path');
 

@@ -2,6 +2,8 @@
 
 import Image from "next/image";
 import { useState, useEffect } from "react";
+import { isProductImagePlaceholder } from '@/lib/productImages';
+import { ImageOff } from 'lucide-react';
 
 export type ProductImageVariant = "card" | "detail";
 
@@ -40,9 +42,6 @@ const VARIANT_CONFIG: Record<
 // Ürün görseli hiç yüklenemezse veya URL bozuksa gösterilecek yedek görsel.
 const FALLBACK_IMAGE = "/images/product-placeholder.png";
 
-// Tarayıcı hafızasında kırık URL'leri önbelleğe alıp tekrar eden istekleri engeller
-const reportedBrokenUrls = new Set<string>();
-
 export default function ProductImage({
   src,
   alt,
@@ -62,43 +61,9 @@ export default function ProductImage({
   }, [src]);
 
   const handleImageError = () => {
-    // 1. Kullanıcı deneyimini bozmadan anında yedek görseli göster
-    setImgSrc(FALLBACK_IMAGE);
-
-    const failedSrc = src;
-    if (!failedSrc || failedSrc === FALLBACK_IMAGE || reportedBrokenUrls.has(failedSrc)) {
-      return;
-    }
-    reportedBrokenUrls.add(failedSrc);
-
-    // 2. RoboPengu Site Watchdog Sentinel: Arka planda sessizce tamir ve anomali bildirimi
-    try {
-      fetch("/api/watchdog/broken-image", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          productId,
-          productName: productName || alt,
-          category,
-          brand,
-          failedSrc,
-        }),
-      })
-        .then(async (res) => {
-          if (res.ok) {
-            const data = await res.json();
-            // Eğer Icecat/Pipeline başarıyla yeni görsel indirdiyse anında hot-swap yap
-            if (data?.success && data?.repairedImage && data.repairedImage !== FALLBACK_IMAGE) {
-              setImgSrc(data.repairedImage);
-            }
-          }
-        })
-        .catch(() => {
-          // Arka plan izleyicisinde ağ hatalarını sessizce yut
-        });
-    } catch {
-      // Hata yok say
-    }
+    // A failed image must not let an anonymous browser trigger server-side repair,
+    // persistent anomaly writes or outbound notifications.
+    if (imgSrc !== FALLBACK_IMAGE) setImgSrc(FALLBACK_IMAGE);
   };
 
   return (
@@ -106,7 +71,14 @@ export default function ProductImage({
       className={`relative w-full h-full overflow-hidden ${variant === 'card' ? 'rounded-xl bg-white' : 'bg-transparent'} ${className}`}
       style={{ aspectRatio: config.aspectRatio }}
     >
-      <Image
+      {isProductImagePlaceholder(imgSrc) ? <div
+        role="img"
+        aria-label={`${alt} — ürün görseli doğrulanmayı bekliyor`}
+        className="absolute inset-0 flex flex-col items-center justify-center gap-3 rounded-xl bg-slate-100 px-3 text-center text-slate-600"
+      >
+        <ImageOff className="h-10 w-10 shrink-0" aria-hidden="true" />
+        <p className="text-sm leading-relaxed">Ürün görseli<br/>doğrulanmayı bekliyor</p>
+      </div> : <Image
         src={imgSrc}
         alt={alt}
         fill
@@ -114,7 +86,7 @@ export default function ProductImage({
         sizes={config.sizes}
         style={{ objectFit: config.objectFit }}
         onError={handleImageError}
-      />
+      />}
     </div>
   );
 }

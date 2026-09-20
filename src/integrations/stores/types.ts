@@ -2,6 +2,7 @@ import { Product } from '@/lib/types';
 
 export type StoreStatus =
   | 'CONNECTED'
+  | 'CONFIGURED_UNVERIFIED'
   | 'NOT_CONFIGURED'
   | 'AUTH_ERROR'
   | 'RATE_LIMITED'
@@ -53,6 +54,7 @@ export interface StoreHealthStatus {
   responseTimeMs?: number;
   lastCheckedAt: string;
   message?: string;
+  checkType?: 'configuration' | 'connection';
 }
 
 export interface StoreAdapter {

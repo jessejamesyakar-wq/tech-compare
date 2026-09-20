@@ -1,0 +1,1207 @@
+{
+  "checkedAt": "2026-09-20T03:08:27.056Z",
+  "reason": "Six exact LG monitor models were incorrectly listed as TVs. Three duplicate TV copies archived; three unique models moved without changing price/offer/history data. Archived generic TV specifications are not authoritative.",
+  "records": [
+    {
+      "oldId": "lg-lg-ultragear-32gs95uv-b",
+      "canonicalId": "lg-ultragear-32gs95uv-b",
+      "action": "merge_duplicate",
+      "sourceUrl": "https://www.lg.com/es/monitores/monitores-ultragear-gaming/32gs95uv-b/",
+      "archivedTVRecord": {
+        "id": "lg-lg-ultragear-32gs95uv-b",
+        "slug": "lg-lg-ultragear-32gs95uv-b",
+        "name": "LG UltraGear 32GS95UV-B",
+        "brand": "LG",
+        "category": "tvs",
+        "basePrice": 14919,
+        "currency": "TL",
+        "rating": 4.8,
+        "epeyScore": 89,
+        "reviewCount": 651,
+        "releaseYear": 2024,
+        "isPopular": true,
+        "isFeatured": false,
+        "image": "/images/tvs/lg-1005931.jpg",
+        "images": [
+          "/images/tvs/lg-1005931.jpg"
+        ],
+        "highlights": [
+          "32\" OLED 0.03ms 240Hz Profesyonel Gaming Monitör",
+          "NVIDIA G-Sync Compatible & AMD FreeSync Premium Pro",
+          "DisplayHDR True Black 400 / HDR10 ile Kusursuz Kontrast",
+          "HDMI 2.1 & DisplayPort 1.4 & Ergonomik Pivot Ayak"
+        ],
+        "specs": {
+          "screenSizeInches": 32,
+          "displayTech": "OLED",
+          "resolution": "4K Ultra HD (3840x2160)",
+          "refreshRateHz": 240,
+          "smartOs": "LG Gaming OSD & OnScreen Control",
+          "audioPowerWatts": 14,
+          "hdrFormats": [
+            "HDR10",
+            "DisplayHDR True Black 400"
+          ],
+          "gamingFeatures": [
+            "G-Sync Compatible",
+            "FreeSync Premium Pro",
+            "0.03ms Tepki Süresi",
+            "Black Stabilizer",
+            "Crosshair"
+          ],
+          "hdmiPorts": 2,
+          "usbPorts": 2,
+          "energyClass": "F",
+          "processorEngine": "LG UltraGear Gaming Engine",
+          "dolbyAtmos": false,
+          "voiceControl": "Yok",
+          "dimensionsWithStand": "912.8 x 580 x 250 mm",
+          "weightKg": 6.8,
+          "bezelStyle": "3 Taraflı Çerçevesiz / RGB Hexagon Lighting"
+        },
+        "storeOffers": [
+          {
+            "storeName": "Hepsiburada",
+            "storeLogo": "/images/stores/hepsiburada.png",
+            "price": 14999,
+            "shippingFee": 0,
+            "inStock": true,
+            "url": "https://www.hepsiburada.com/ara?q=LG%20UltraGear%2032GS95UV-B",
+            "rating": 4.8
+          },
+          {
+            "storeName": "Trendyol",
+            "storeLogo": "/images/stores/trendyol.png",
+            "price": 15179,
+            "shippingFee": 0,
+            "inStock": true,
+            "url": "https://www.trendyol.com/sr?q=LG%20UltraGear%2032GS95UV-B",
+            "rating": 4.8
+          },
+          {
+            "storeName": "MediaMarkt",
+            "storeLogo": "/images/stores/mediamarkt.png",
+            "price": 15369,
+            "shippingFee": 0,
+            "inStock": true,
+            "url": "https://www.mediamarkt.com.tr/tr/search.html?query=LG%20UltraGear%2032GS95UV-B",
+            "rating": 4.8
+          },
+          {
+            "storeName": "Vatan Bilgisayar",
+            "storeLogo": "/images/stores/vatan.png",
+            "price": 15519,
+            "shippingFee": 0,
+            "inStock": true,
+            "url": "https://www.vatanbilgisayar.com/arama/LG%20UltraGear%2032GS95UV-B",
+            "rating": 4.8
+          },
+          {
+            "storeName": "Amazon Türkiye",
+            "storeLogo": "/images/stores/amazon.png",
+            "price": 14919,
+            "shippingFee": 0,
+            "inStock": true,
+            "url": "https://www.amazon.com.tr/s?k=LG%20UltraGear%2032GS95UV-B",
+            "rating": 4.8
+          },
+          {
+            "storeName": "Teknosa",
+            "storeLogo": "/images/stores/teknosa.png",
+            "price": 15419,
+            "shippingFee": 0,
+            "inStock": true,
+            "url": "https://www.teknosa.com/arama?s=LG%20UltraGear%2032GS95UV-B",
+            "rating": 4.8
+          }
+        ],
+        "priceHistory": [
+          {
+            "date": "Ekim 2025",
+            "price": 17100
+          },
+          {
+            "date": "Kasım 2025",
+            "price": 16650
+          },
+          {
+            "date": "Aralık 2025",
+            "price": 16200
+          },
+          {
+            "date": "Ocak 2026",
+            "price": 15750
+          },
+          {
+            "date": "Şubat 2026",
+            "price": 15300
+          },
+          {
+            "date": "Ağustos 2026",
+            "price": 15000
+          }
+        ]
+      },
+      "previousMonitorRecord": {
+        "id": "lg-ultragear-32gs95uv-b",
+        "slug": "lg-ultragear-32gs95uv-b",
+        "name": "LG UltraGear 32GS95UV-B 32 inç Dual Mode (4K 240Hz / FHD 480Hz) OLED Gaming Monitör",
+        "brand": "LG",
+        "category": "monitors",
+        "rating": 4.8,
+        "epeyScore": 94,
+        "reviewCount": 480,
+        "basePrice": 54719,
+        "currency": "TL",
+        "releaseYear": 2024,
+        "isPopular": true,
+        "isFeatured": false,
+        "image": "/images/monitors/lg-ultragear-32gs95uv-b.jpg",
+        "images": [
+          "/images/monitors/lg-ultragear-32gs95uv-b.jpg"
+        ],
+        "highlights": [
+          "VESA Sertifikalı Dual-Mode: 4K 240Hz ve FHD 480Hz Anında Geçiş",
+          "Pixel Sound Dahili Ön Yüz Hoparlör Teknolojisi",
+          "DisplayHDR True Black 400 ve 0.03ms Tepki Süresi"
+        ],
+        "specs": {
+          "screenSizeInches": 31.5,
+          "resolution": "3840x2160 (4K UHD) / Dual Mode FHD",
+          "panelType": "OLED",
+          "refreshRateHz": 240,
+          "responseTimeMs": 0.03,
+          "syncTechnology": "G-Sync Compatible / FreeSync Premium Pro",
+          "aspectRatio": "16:9",
+          "brightnessNits": 1300,
+          "contrastRatio": "1500000:1",
+          "hdrSupport": "DisplayHDR True Black 400"
+        },
+        "storeOffers": [
+          {
+            "storeName": "Hepsiburada",
+            "storeLogo": "/images/stores/hepsiburada.png",
+            "price": 54999,
+            "shippingFee": 0,
+            "inStock": true,
+            "url": "https://www.hepsiburada.com/ara?q=LG%20UltraGear%2032GS95UV-B%2032%20in%C3%A7%20Dual%20Mode%20(4K%20240Hz%20%2F%20FHD%20480Hz)%20OLED%20Gaming%20Monit%C3%B6r",
+            "rating": 4.8
+          },
+          {
+            "storeName": "Trendyol",
+            "storeLogo": "/images/stores/trendyol.png",
+            "price": 55659,
+            "shippingFee": 0,
+            "inStock": true,
+            "url": "https://www.trendyol.com/sr?q=LG%20UltraGear%2032GS95UV-B%2032%20in%C3%A7%20Dual%20Mode%20(4K%20240Hz%20%2F%20FHD%20480Hz)%20OLED%20Gaming%20Monit%C3%B6r",
+            "rating": 4.8
+          },
+          {
+            "storeName": "MediaMarkt",
+            "storeLogo": "/images/stores/mediamarkt.png",
+            "price": 56369,
+            "shippingFee": 0,
+            "inStock": true,
+            "url": "https://www.mediamarkt.com.tr/tr/search.html?query=LG%20UltraGear%2032GS95UV-B%2032%20in%C3%A7%20Dual%20Mode%20(4K%20240Hz%20%2F%20FHD%20480Hz)%20OLED%20Gaming%20Monit%C3%B6r",
+            "rating": 4.8
+          },
+          {
+            "storeName": "Vatan Bilgisayar",
+            "storeLogo": "/images/stores/vatan.png",
+            "price": 56919,
+            "shippingFee": 0,
+            "inStock": true,
+            "url": "https://www.vatanbilgisayar.com/arama/LG%20UltraGear%2032GS95UV-B%2032%20in%C3%A7%20Dual%20Mode%20(4K%20240Hz%20%2F%20FHD%20480Hz)%20OLED%20Gaming%20Monit%C3%B6r",
+            "rating": 4.8
+          },
+          {
+            "storeName": "Amazon Türkiye",
+            "storeLogo": "/images/stores/amazon.png",
+            "price": 54719,
+            "shippingFee": 0,
+            "inStock": true,
+            "url": "https://www.amazon.com.tr/s?k=LG%20UltraGear%2032GS95UV-B%2032%20in%C3%A7%20Dual%20Mode%20(4K%20240Hz%20%2F%20FHD%20480Hz)%20OLED%20Gaming%20Monit%C3%B6r",
+            "rating": 4.8
+          },
+          {
+            "storeName": "Teknosa",
+            "storeLogo": "/images/stores/teknosa.png",
+            "price": 56539,
+            "shippingFee": 0,
+            "inStock": true,
+            "url": "https://www.teknosa.com/arama?s=LG%20UltraGear%2032GS95UV-B%2032%20in%C3%A7%20Dual%20Mode%20(4K%20240Hz%20%2F%20FHD%20480Hz)%20OLED%20Gaming%20Monit%C3%B6r",
+            "rating": 4.8
+          }
+        ],
+        "priceHistory": [
+          {
+            "date": "Ekim 2025",
+            "price": 62700
+          },
+          {
+            "date": "Kasım 2025",
+            "price": 61050
+          },
+          {
+            "date": "Aralık 2025",
+            "price": 59400
+          },
+          {
+            "date": "Ocak 2026",
+            "price": 57750
+          },
+          {
+            "date": "Şubat 2026",
+            "price": 56100
+          },
+          {
+            "date": "Ağustos 2026",
+            "price": 55000
+          }
+        ]
+      }
+    },
+    {
+      "oldId": "lg-lg-ultrafine-32u990a-s",
+      "canonicalId": "lg-ultrafine-32u990a-s",
+      "action": "merge_duplicate",
+      "sourceUrl": "https://www.lg.com/uk/monitors/uhd-4k-5k/32u990a-s/",
+      "archivedTVRecord": {
+        "id": "lg-lg-ultrafine-32u990a-s",
+        "slug": "lg-lg-ultrafine-32u990a-s",
+        "name": "LG UltraFine 32U990A-S",
+        "brand": "LG",
+        "category": "tvs",
+        "basePrice": 14919,
+        "currency": "TL",
+        "rating": 4.8,
+        "epeyScore": 96,
+        "reviewCount": 634,
+        "releaseYear": 2024,
+        "isPopular": true,
+        "isFeatured": false,
+        "image": "/images/products/tvs/icecat-lg-lg-ultrafine-32u990a-s.jpg",
+        "images": [
+          "/images/products/tvs/icecat-lg-lg-ultrafine-32u990a-s.jpg"
+        ],
+        "highlights": [
+          "32\" Fast IPS 1ms 4K Ultra HD (3840x2160) Profesyonel Monitör",
+          "100Hz Yenileme Hızı & HDR10 / DisplayHDR 400",
+          "NVIDIA G-Sync & AMD FreeSync Premium Desteği",
+          "Ergonomik Pivot & Yükseklik Ayarlı Stant, HDMI 2.1 & DisplayPort"
+        ],
+        "specs": {
+          "screenSizeInches": 32,
+          "displayTech": "Fast IPS",
+          "resolution": "4K Ultra HD (3840x2160)",
+          "refreshRateHz": 100,
+          "smartOs": "LG Gaming OSD Control",
+          "audioPowerWatts": 14,
+          "hdrFormats": [
+            "HDR10",
+            "VESA DisplayHDR 400"
+          ],
+          "gamingFeatures": [
+            "G-Sync Compatible",
+            "FreeSync Premium",
+            "Black Stabilizer",
+            "Dynamic Action Sync",
+            "Crosshair"
+          ],
+          "hdmiPorts": 2,
+          "usbPorts": 3,
+          "energyClass": "F",
+          "processorEngine": "LG UltraGear Display Processing Engine",
+          "dolbyAtmos": false,
+          "voiceControl": "Yok",
+          "dimensionsWithStand": "903 x 590 x 260 mm",
+          "weightKg": 7.8,
+          "bezelStyle": "4 Taraflı / 3 Taraflı Çerçevesiz Ultra İnce Tasarım"
+        },
+        "storeOffers": [
+          {
+            "storeName": "Hepsiburada",
+            "storeLogo": "/images/stores/hepsiburada.png",
+            "price": 14999,
+            "shippingFee": 0,
+            "inStock": true,
+            "url": "https://www.hepsiburada.com/ara?q=LG%20UltraFine%2032U990A-S",
+            "rating": 4.8
+          },
+          {
+            "storeName": "Trendyol",
+            "storeLogo": "/images/stores/trendyol.png",
+            "price": 15179,
+            "shippingFee": 0,
+            "inStock": true,
+            "url": "https://www.trendyol.com/sr?q=LG%20UltraFine%2032U990A-S",
+            "rating": 4.8
+          },
+          {
+            "storeName": "MediaMarkt",
+            "storeLogo": "/images/stores/mediamarkt.png",
+            "price": 15369,
+            "shippingFee": 0,
+            "inStock": true,
+            "url": "https://www.mediamarkt.com.tr/tr/search.html?query=LG%20UltraFine%2032U990A-S",
+            "rating": 4.8
+          },
+          {
+            "storeName": "Vatan Bilgisayar",
+            "storeLogo": "/images/stores/vatan.png",
+            "price": 15519,
+            "shippingFee": 0,
+            "inStock": true,
+            "url": "https://www.vatanbilgisayar.com/arama/LG%20UltraFine%2032U990A-S",
+            "rating": 4.8
+          },
+          {
+            "storeName": "Amazon Türkiye",
+            "storeLogo": "/images/stores/amazon.png",
+            "price": 14919,
+            "shippingFee": 0,
+            "inStock": true,
+            "url": "https://www.amazon.com.tr/s?k=LG%20UltraFine%2032U990A-S",
+            "rating": 4.8
+          },
+          {
+            "storeName": "Teknosa",
+            "storeLogo": "/images/stores/teknosa.png",
+            "price": 15419,
+            "shippingFee": 0,
+            "inStock": true,
+            "url": "https://www.teknosa.com/arama?s=LG%20UltraFine%2032U990A-S",
+            "rating": 4.8
+          }
+        ],
+        "priceHistory": [
+          {
+            "date": "Ekim 2025",
+            "price": 17100
+          },
+          {
+            "date": "Kasım 2025",
+            "price": 16650
+          },
+          {
+            "date": "Aralık 2025",
+            "price": 16200
+          },
+          {
+            "date": "Ocak 2026",
+            "price": 15750
+          },
+          {
+            "date": "Şubat 2026",
+            "price": 15300
+          },
+          {
+            "date": "Ağustos 2026",
+            "price": 15000
+          }
+        ]
+      },
+      "previousMonitorRecord": {
+        "id": "lg-ultrafine-32u990a-s",
+        "slug": "lg-ultrafine-32u990a-s",
+        "name": "LG UltraFine 32U990A-S 32 inç 6K (6144x3456) Nano IPS Black Thunderbolt 4 Monitör",
+        "brand": "LG",
+        "category": "monitors",
+        "rating": 4.9,
+        "epeyScore": 79,
+        "reviewCount": 110,
+        "basePrice": 69649,
+        "currency": "TL",
+        "releaseYear": 2024,
+        "isPopular": true,
+        "isFeatured": false,
+        "image": "/images/monitors/lg-ultrafine-32u990a-s.jpg",
+        "images": [
+          "/images/monitors/lg-ultrafine-32u990a-s.jpg"
+        ],
+        "highlights": [
+          "31.5 inç 6K (6144x3456) 223 PPI Ultra Yüksek Çözünürlüklü Nano IPS Black Panel",
+          "Thunderbolt 4 (96W PD, Daisy Chain, KVM)",
+          "DisplayHDR 600, %98 DCI-P3 ve Dahili Hoparlör"
+        ],
+        "specs": {
+          "screenSizeInches": 31.5,
+          "resolution": "6144x3456 (6K)",
+          "panelType": "Nano IPS Black",
+          "refreshRateHz": 60,
+          "responseTimeMs": 5,
+          "aspectRatio": "16:9",
+          "brightnessNits": 600,
+          "contrastRatio": "2000:1",
+          "hdrSupport": "DisplayHDR 600"
+        },
+        "storeOffers": [
+          {
+            "storeName": "Hepsiburada",
+            "storeLogo": "/images/stores/hepsiburada.png",
+            "price": 69999,
+            "shippingFee": 0,
+            "inStock": true,
+            "url": "https://www.hepsiburada.com/ara?q=LG%20UltraFine%2032U990A-S%2032%20in%C3%A7%206K%20(6144x3456)%20Nano%20IPS%20Black%20Thunderbolt%204%20Monit%C3%B6r",
+            "rating": 4.8
+          },
+          {
+            "storeName": "Trendyol",
+            "storeLogo": "/images/stores/trendyol.png",
+            "price": 70839,
+            "shippingFee": 0,
+            "inStock": true,
+            "url": "https://www.trendyol.com/sr?q=LG%20UltraFine%2032U990A-S%2032%20in%C3%A7%206K%20(6144x3456)%20Nano%20IPS%20Black%20Thunderbolt%204%20Monit%C3%B6r",
+            "rating": 4.8
+          },
+          {
+            "storeName": "MediaMarkt",
+            "storeLogo": "/images/stores/mediamarkt.png",
+            "price": 71749,
+            "shippingFee": 0,
+            "inStock": true,
+            "url": "https://www.mediamarkt.com.tr/tr/search.html?query=LG%20UltraFine%2032U990A-S%2032%20in%C3%A7%206K%20(6144x3456)%20Nano%20IPS%20Black%20Thunderbolt%204%20Monit%C3%B6r",
+            "rating": 4.8
+          },
+          {
+            "storeName": "Vatan Bilgisayar",
+            "storeLogo": "/images/stores/vatan.png",
+            "price": 72449,
+            "shippingFee": 0,
+            "inStock": true,
+            "url": "https://www.vatanbilgisayar.com/arama/LG%20UltraFine%2032U990A-S%2032%20in%C3%A7%206K%20(6144x3456)%20Nano%20IPS%20Black%20Thunderbolt%204%20Monit%C3%B6r",
+            "rating": 4.8
+          },
+          {
+            "storeName": "Amazon Türkiye",
+            "storeLogo": "/images/stores/amazon.png",
+            "price": 69649,
+            "shippingFee": 0,
+            "inStock": true,
+            "url": "https://www.amazon.com.tr/s?k=LG%20UltraFine%2032U990A-S%2032%20in%C3%A7%206K%20(6144x3456)%20Nano%20IPS%20Black%20Thunderbolt%204%20Monit%C3%B6r",
+            "rating": 4.8
+          },
+          {
+            "storeName": "Teknosa",
+            "storeLogo": "/images/stores/teknosa.png",
+            "price": 71959,
+            "shippingFee": 0,
+            "inStock": true,
+            "url": "https://www.teknosa.com/arama?s=LG%20UltraFine%2032U990A-S%2032%20in%C3%A7%206K%20(6144x3456)%20Nano%20IPS%20Black%20Thunderbolt%204%20Monit%C3%B6r",
+            "rating": 4.8
+          }
+        ],
+        "priceHistory": [
+          {
+            "date": "Ekim 2025",
+            "price": 79800
+          },
+          {
+            "date": "Kasım 2025",
+            "price": 77700
+          },
+          {
+            "date": "Aralık 2025",
+            "price": 75600
+          },
+          {
+            "date": "Ocak 2026",
+            "price": 73500
+          },
+          {
+            "date": "Şubat 2026",
+            "price": 71400
+          },
+          {
+            "date": "Ağustos 2026",
+            "price": 70000
+          }
+        ]
+      }
+    },
+    {
+      "oldId": "lg-lg-ultrafine-32un88ap-w",
+      "canonicalId": "lg-ultrafine-32un88ap-w",
+      "action": "merge_duplicate",
+      "sourceUrl": "https://www.lg.com/uk/monitors/uhd-4k-5k/32un88ap-w/",
+      "archivedTVRecord": {
+        "id": "lg-lg-ultrafine-32un88ap-w",
+        "slug": "lg-lg-ultrafine-32un88ap-w",
+        "name": "LG UltraFine 32UN88AP-W",
+        "brand": "LG",
+        "category": "tvs",
+        "basePrice": 14919,
+        "currency": "TL",
+        "rating": 4.8,
+        "epeyScore": 89,
+        "reviewCount": 607,
+        "releaseYear": 2024,
+        "isPopular": true,
+        "isFeatured": false,
+        "image": "/images/tvs/lg-869587.jpg",
+        "images": [
+          "/images/tvs/lg-869587.jpg"
+        ],
+        "highlights": [
+          "32\" Fast IPS 1ms 4K Ultra HD (3840x2160) Monitör",
+          "144Hz Yenileme Hızı & HDR10 / DisplayHDR 400",
+          "NVIDIA G-Sync & AMD FreeSync Premium Desteği",
+          "HDMI & DisplayPort Bağlantıları, Ergonomik Stant Tasarımı"
+        ],
+        "specs": {
+          "screenSizeInches": 32,
+          "displayTech": "Fast IPS",
+          "resolution": "4K Ultra HD (3840x2160)",
+          "refreshRateHz": 144,
+          "smartOs": "LG Gaming OSD Control",
+          "audioPowerWatts": 10,
+          "hdrFormats": [
+            "HDR10",
+            "VESA DisplayHDR 400"
+          ],
+          "gamingFeatures": [
+            "G-Sync Compatible",
+            "FreeSync Premium",
+            "Black Stabilizer",
+            "Dynamic Action Sync",
+            "Crosshair"
+          ],
+          "hdmiPorts": 2,
+          "usbPorts": 3,
+          "energyClass": "F",
+          "processorEngine": "LG Display Processing Engine",
+          "dolbyAtmos": false,
+          "voiceControl": "Yok",
+          "dimensionsWithStand": "903 x 590 x 260 mm",
+          "weightKg": 7.2,
+          "bezelStyle": "3 Taraflı Çerçevesiz İnce Tasarım"
+        },
+        "storeOffers": [
+          {
+            "storeName": "Hepsiburada",
+            "storeLogo": "/images/stores/hepsiburada.png",
+            "price": 14999,
+            "shippingFee": 0,
+            "inStock": true,
+            "url": "https://www.hepsiburada.com/ara?q=LG%20UltraFine%2032UN88AP-W",
+            "rating": 4.8
+          },
+          {
+            "storeName": "Trendyol",
+            "storeLogo": "/images/stores/trendyol.png",
+            "price": 15179,
+            "shippingFee": 0,
+            "inStock": true,
+            "url": "https://www.trendyol.com/sr?q=LG%20UltraFine%2032UN88AP-W",
+            "rating": 4.8
+          },
+          {
+            "storeName": "MediaMarkt",
+            "storeLogo": "/images/stores/mediamarkt.png",
+            "price": 15369,
+            "shippingFee": 0,
+            "inStock": true,
+            "url": "https://www.mediamarkt.com.tr/tr/search.html?query=LG%20UltraFine%2032UN88AP-W",
+            "rating": 4.8
+          },
+          {
+            "storeName": "Vatan Bilgisayar",
+            "storeLogo": "/images/stores/vatan.png",
+            "price": 15519,
+            "shippingFee": 0,
+            "inStock": true,
+            "url": "https://www.vatanbilgisayar.com/arama/LG%20UltraFine%2032UN88AP-W",
+            "rating": 4.8
+          },
+          {
+            "storeName": "Amazon Türkiye",
+            "storeLogo": "/images/stores/amazon.png",
+            "price": 14919,
+            "shippingFee": 0,
+            "inStock": true,
+            "url": "https://www.amazon.com.tr/s?k=LG%20UltraFine%2032UN88AP-W",
+            "rating": 4.8
+          },
+          {
+            "storeName": "Teknosa",
+            "storeLogo": "/images/stores/teknosa.png",
+            "price": 15419,
+            "shippingFee": 0,
+            "inStock": true,
+            "url": "https://www.teknosa.com/arama?s=LG%20UltraFine%2032UN88AP-W",
+            "rating": 4.8
+          }
+        ],
+        "priceHistory": [
+          {
+            "date": "Ekim 2025",
+            "price": 17100
+          },
+          {
+            "date": "Kasım 2025",
+            "price": 16650
+          },
+          {
+            "date": "Aralık 2025",
+            "price": 16200
+          },
+          {
+            "date": "Ocak 2026",
+            "price": 15750
+          },
+          {
+            "date": "Şubat 2026",
+            "price": 15300
+          },
+          {
+            "date": "Ağustos 2026",
+            "price": 15000
+          }
+        ]
+      },
+      "previousMonitorRecord": {
+        "id": "lg-ultrafine-32un88ap-w",
+        "slug": "lg-ultrafine-32un88ap-w",
+        "name": "LG UltraFine 32UN88AP-W 31.5 inç 4K UHD Ergo Kolu IPS USB-C Monitör",
+        "brand": "LG",
+        "category": "monitors",
+        "rating": 4.9,
+        "epeyScore": 75,
+        "reviewCount": 390,
+        "basePrice": 49749,
+        "currency": "TL",
+        "releaseYear": 2023,
+        "isPopular": true,
+        "isFeatured": false,
+        "image": "/images/monitors/lg-ultrafine-32un88ap-w.jpg",
+        "images": [
+          "/images/monitors/lg-ultrafine-32un88ap-w.jpg"
+        ],
+        "highlights": [
+          "31.5 inç 4K UHD (3840x2160) %95 DCI-P3 IPS Panel",
+          "Yenilikçi Masa Kenarına Kenetlenen Ergo Hareketli Stand Kolu",
+          "USB-C (60W PD, Görüntü & Veri), HDR10 ve MaxxAudio Stereo Hoparlör"
+        ],
+        "specs": {
+          "screenSizeInches": 31.5,
+          "resolution": "3840x2160 (4K UHD)",
+          "panelType": "IPS",
+          "refreshRateHz": 60,
+          "responseTimeMs": 5,
+          "aspectRatio": "16:9",
+          "brightnessNits": 350,
+          "contrastRatio": "1000:1",
+          "hdrSupport": "HDR10"
+        },
+        "storeOffers": [
+          {
+            "storeName": "Hepsiburada",
+            "storeLogo": "/images/stores/hepsiburada.png",
+            "price": 49999,
+            "shippingFee": 0,
+            "inStock": true,
+            "url": "https://www.hepsiburada.com/ara?q=LG%20UltraFine%2032UN88AP-W%2031.5%20in%C3%A7%204K%20UHD%20Ergo%20Kolu%20IPS%20USB-C%20Monit%C3%B6r",
+            "rating": 4.8
+          },
+          {
+            "storeName": "Trendyol",
+            "storeLogo": "/images/stores/trendyol.png",
+            "price": 50599,
+            "shippingFee": 0,
+            "inStock": true,
+            "url": "https://www.trendyol.com/sr?q=LG%20UltraFine%2032UN88AP-W%2031.5%20in%C3%A7%204K%20UHD%20Ergo%20Kolu%20IPS%20USB-C%20Monit%C3%B6r",
+            "rating": 4.8
+          },
+          {
+            "storeName": "MediaMarkt",
+            "storeLogo": "/images/stores/mediamarkt.png",
+            "price": 51249,
+            "shippingFee": 0,
+            "inStock": true,
+            "url": "https://www.mediamarkt.com.tr/tr/search.html?query=LG%20UltraFine%2032UN88AP-W%2031.5%20in%C3%A7%204K%20UHD%20Ergo%20Kolu%20IPS%20USB-C%20Monit%C3%B6r",
+            "rating": 4.8
+          },
+          {
+            "storeName": "Vatan Bilgisayar",
+            "storeLogo": "/images/stores/vatan.png",
+            "price": 51749,
+            "shippingFee": 0,
+            "inStock": true,
+            "url": "https://www.vatanbilgisayar.com/arama/LG%20UltraFine%2032UN88AP-W%2031.5%20in%C3%A7%204K%20UHD%20Ergo%20Kolu%20IPS%20USB-C%20Monit%C3%B6r",
+            "rating": 4.8
+          },
+          {
+            "storeName": "Amazon Türkiye",
+            "storeLogo": "/images/stores/amazon.png",
+            "price": 49749,
+            "shippingFee": 0,
+            "inStock": true,
+            "url": "https://www.amazon.com.tr/s?k=LG%20UltraFine%2032UN88AP-W%2031.5%20in%C3%A7%204K%20UHD%20Ergo%20Kolu%20IPS%20USB-C%20Monit%C3%B6r",
+            "rating": 4.8
+          },
+          {
+            "storeName": "Teknosa",
+            "storeLogo": "/images/stores/teknosa.png",
+            "price": 51399,
+            "shippingFee": 0,
+            "inStock": true,
+            "url": "https://www.teknosa.com/arama?s=LG%20UltraFine%2032UN88AP-W%2031.5%20in%C3%A7%204K%20UHD%20Ergo%20Kolu%20IPS%20USB-C%20Monit%C3%B6r",
+            "rating": 4.8
+          }
+        ],
+        "priceHistory": [
+          {
+            "date": "Ekim 2025",
+            "price": 57000
+          },
+          {
+            "date": "Kasım 2025",
+            "price": 55500
+          },
+          {
+            "date": "Aralık 2025",
+            "price": 54000
+          },
+          {
+            "date": "Ocak 2026",
+            "price": 52500
+          },
+          {
+            "date": "Şubat 2026",
+            "price": 51000
+          },
+          {
+            "date": "Ağustos 2026",
+            "price": 50000
+          }
+        ]
+      }
+    },
+    {
+      "oldId": "lg-lg-ultrawide-34wr55qk-b",
+      "canonicalId": "lg-ultrawide-34wr55qk-b",
+      "action": "move_category",
+      "sourceUrl": "https://www.lg.com/uk/monitors/ultrawide/34wr55qk-b/",
+      "archivedTVRecord": {
+        "id": "lg-lg-ultrawide-34wr55qk-b",
+        "slug": "lg-lg-ultrawide-34wr55qk-b",
+        "name": "LG UltraWide 34WR55QK-B",
+        "brand": "LG",
+        "category": "tvs",
+        "basePrice": 14919,
+        "currency": "TL",
+        "rating": 4.8,
+        "epeyScore": 91,
+        "reviewCount": 634,
+        "releaseYear": 2024,
+        "isPopular": true,
+        "isFeatured": false,
+        "image": "/images/tvs/lg-1034974.jpg",
+        "images": [
+          "/images/tvs/lg-1034974.jpg"
+        ],
+        "highlights": [
+          "34\" Fast IPS 1ms UWQHD Curved (3440x1440) Profesyonel Monitör",
+          "180Hz Yenileme Hızı & HDR10 / DisplayHDR 400",
+          "NVIDIA G-Sync & AMD FreeSync Premium Desteği",
+          "Ergonomik Pivot & Yükseklik Ayarlı Stant, HDMI 2.1 & DisplayPort"
+        ],
+        "specs": {
+          "screenSizeInches": 34,
+          "displayTech": "Fast IPS",
+          "resolution": "UWQHD Curved (3440x1440)",
+          "refreshRateHz": 180,
+          "smartOs": "LG Gaming OSD Control",
+          "audioPowerWatts": 10,
+          "hdrFormats": [
+            "HDR10",
+            "VESA DisplayHDR 400"
+          ],
+          "gamingFeatures": [
+            "G-Sync Compatible",
+            "FreeSync Premium",
+            "Black Stabilizer",
+            "Dynamic Action Sync",
+            "Crosshair"
+          ],
+          "hdmiPorts": 2,
+          "usbPorts": 2,
+          "energyClass": "F",
+          "processorEngine": "LG UltraGear Display Processing Engine",
+          "dolbyAtmos": false,
+          "voiceControl": "Yok",
+          "dimensionsWithStand": "954 x 590 x 260 mm",
+          "weightKg": 7.8,
+          "bezelStyle": "4 Taraflı / 3 Taraflı Çerçevesiz Ultra İnce Tasarım"
+        },
+        "storeOffers": [
+          {
+            "storeName": "Hepsiburada",
+            "storeLogo": "/images/stores/hepsiburada.png",
+            "price": 14999,
+            "shippingFee": 0,
+            "inStock": true,
+            "url": "https://www.hepsiburada.com/ara?q=LG%20UltraWide%2034WR55QK-B",
+            "rating": 4.8
+          },
+          {
+            "storeName": "Trendyol",
+            "storeLogo": "/images/stores/trendyol.png",
+            "price": 15179,
+            "shippingFee": 0,
+            "inStock": true,
+            "url": "https://www.trendyol.com/sr?q=LG%20UltraWide%2034WR55QK-B",
+            "rating": 4.8
+          },
+          {
+            "storeName": "MediaMarkt",
+            "storeLogo": "/images/stores/mediamarkt.png",
+            "price": 15369,
+            "shippingFee": 0,
+            "inStock": true,
+            "url": "https://www.mediamarkt.com.tr/tr/search.html?query=LG%20UltraWide%2034WR55QK-B",
+            "rating": 4.8
+          },
+          {
+            "storeName": "Vatan Bilgisayar",
+            "storeLogo": "/images/stores/vatan.png",
+            "price": 15519,
+            "shippingFee": 0,
+            "inStock": true,
+            "url": "https://www.vatanbilgisayar.com/arama/LG%20UltraWide%2034WR55QK-B",
+            "rating": 4.8
+          },
+          {
+            "storeName": "Amazon Türkiye",
+            "storeLogo": "/images/stores/amazon.png",
+            "price": 14919,
+            "shippingFee": 0,
+            "inStock": true,
+            "url": "https://www.amazon.com.tr/s?k=LG%20UltraWide%2034WR55QK-B",
+            "rating": 4.8
+          },
+          {
+            "storeName": "Teknosa",
+            "storeLogo": "/images/stores/teknosa.png",
+            "price": 15419,
+            "shippingFee": 0,
+            "inStock": true,
+            "url": "https://www.teknosa.com/arama?s=LG%20UltraWide%2034WR55QK-B",
+            "rating": 4.8
+          }
+        ],
+        "priceHistory": [
+          {
+            "date": "Ekim 2025",
+            "price": 17100
+          },
+          {
+            "date": "Kasım 2025",
+            "price": 16650
+          },
+          {
+            "date": "Aralık 2025",
+            "price": 16200
+          },
+          {
+            "date": "Ocak 2026",
+            "price": 15750
+          },
+          {
+            "date": "Şubat 2026",
+            "price": 15300
+          },
+          {
+            "date": "Ağustos 2026",
+            "price": 15000
+          }
+        ]
+      },
+      "previousMonitorRecord": null
+    },
+    {
+      "oldId": "lg-lg-ultragear-32g600a-b",
+      "canonicalId": "lg-ultragear-32g600a-b",
+      "action": "move_category",
+      "sourceUrl": "https://www.lg.com/uk/monitors/gaming/32g600a-b/",
+      "archivedTVRecord": {
+        "id": "lg-lg-ultragear-32g600a-b",
+        "slug": "lg-lg-ultragear-32g600a-b",
+        "name": "LG UltraGear 32G600A-B",
+        "brand": "LG",
+        "category": "tvs",
+        "basePrice": 14919,
+        "currency": "TL",
+        "rating": 4.8,
+        "epeyScore": 97,
+        "reviewCount": 604,
+        "releaseYear": 2024,
+        "isPopular": true,
+        "isFeatured": false,
+        "image": "/images/products/tvs/icecat-lg-lg-ultragear-32g600a-b.jpg",
+        "images": [
+          "/images/products/tvs/icecat-lg-lg-ultragear-32g600a-b.jpg"
+        ],
+        "highlights": [
+          "32\" Fast IPS 1ms QHD (2560x1440) Profesyonel Monitör",
+          "144Hz Yenileme Hızı & HDR10 / DisplayHDR 400",
+          "NVIDIA G-Sync & AMD FreeSync Premium Desteği",
+          "Ergonomik Pivot & Yükseklik Ayarlı Stant, HDMI 2.1 & DisplayPort"
+        ],
+        "specs": {
+          "screenSizeInches": 32,
+          "displayTech": "Fast IPS",
+          "resolution": "QHD (2560x1440)",
+          "refreshRateHz": 144,
+          "smartOs": "LG Gaming OSD Control",
+          "audioPowerWatts": 10,
+          "hdrFormats": [
+            "HDR10",
+            "VESA DisplayHDR 400"
+          ],
+          "gamingFeatures": [
+            "G-Sync Compatible",
+            "FreeSync Premium",
+            "Black Stabilizer",
+            "Dynamic Action Sync",
+            "Crosshair"
+          ],
+          "hdmiPorts": 2,
+          "usbPorts": 2,
+          "energyClass": "F",
+          "processorEngine": "LG UltraGear Display Processing Engine",
+          "dolbyAtmos": false,
+          "voiceControl": "Yok",
+          "dimensionsWithStand": "903 x 590 x 260 mm",
+          "weightKg": 7.8,
+          "bezelStyle": "4 Taraflı / 3 Taraflı Çerçevesiz Ultra İnce Tasarım"
+        },
+        "storeOffers": [
+          {
+            "storeName": "Hepsiburada",
+            "storeLogo": "/images/stores/hepsiburada.png",
+            "price": 14999,
+            "shippingFee": 0,
+            "inStock": true,
+            "url": "https://www.hepsiburada.com/ara?q=LG%20UltraGear%2032G600A-B",
+            "rating": 4.8
+          },
+          {
+            "storeName": "Trendyol",
+            "storeLogo": "/images/stores/trendyol.png",
+            "price": 15179,
+            "shippingFee": 0,
+            "inStock": true,
+            "url": "https://www.trendyol.com/sr?q=LG%20UltraGear%2032G600A-B",
+            "rating": 4.8
+          },
+          {
+            "storeName": "MediaMarkt",
+            "storeLogo": "/images/stores/mediamarkt.png",
+            "price": 15369,
+            "shippingFee": 0,
+            "inStock": true,
+            "url": "https://www.mediamarkt.com.tr/tr/search.html?query=LG%20UltraGear%2032G600A-B",
+            "rating": 4.8
+          },
+          {
+            "storeName": "Vatan Bilgisayar",
+            "storeLogo": "/images/stores/vatan.png",
+            "price": 15519,
+            "shippingFee": 0,
+            "inStock": true,
+            "url": "https://www.vatanbilgisayar.com/arama/LG%20UltraGear%2032G600A-B",
+            "rating": 4.8
+          },
+          {
+            "storeName": "Amazon Türkiye",
+            "storeLogo": "/images/stores/amazon.png",
+            "price": 14919,
+            "shippingFee": 0,
+            "inStock": true,
+            "url": "https://www.amazon.com.tr/s?k=LG%20UltraGear%2032G600A-B",
+            "rating": 4.8
+          },
+          {
+            "storeName": "Teknosa",
+            "storeLogo": "/images/stores/teknosa.png",
+            "price": 15419,
+            "shippingFee": 0,
+            "inStock": true,
+            "url": "https://www.teknosa.com/arama?s=LG%20UltraGear%2032G600A-B",
+            "rating": 4.8
+          }
+        ],
+        "priceHistory": [
+          {
+            "date": "Ekim 2025",
+            "price": 17100
+          },
+          {
+            "date": "Kasım 2025",
+            "price": 16650
+          },
+          {
+            "date": "Aralık 2025",
+            "price": 16200
+          },
+          {
+            "date": "Ocak 2026",
+            "price": 15750
+          },
+          {
+            "date": "Şubat 2026",
+            "price": 15300
+          },
+          {
+            "date": "Ağustos 2026",
+            "price": 15000
+          }
+        ]
+      },
+      "previousMonitorRecord": null
+    },
+    {
+      "oldId": "lg-lg-ultragear-24g411a-b",
+      "canonicalId": "lg-ultragear-24g411a-b",
+      "action": "move_category",
+      "sourceUrl": "https://www.lg.com/jp/monitors/gaming-monitors/24g411a-b/",
+      "archivedTVRecord": {
+        "id": "lg-lg-ultragear-24g411a-b",
+        "slug": "lg-lg-ultragear-24g411a-b",
+        "name": "LG UltraGear 24G411A-B",
+        "brand": "LG",
+        "category": "tvs",
+        "basePrice": 14919,
+        "currency": "TL",
+        "rating": 4.7,
+        "epeyScore": 96,
+        "reviewCount": 627,
+        "releaseYear": 2024,
+        "isPopular": true,
+        "isFeatured": false,
+        "image": "/images/products/tvs/icecat-lg-lg-ultragear-24g411a-b.jpg",
+        "images": [
+          "/images/products/tvs/icecat-lg-lg-ultragear-24g411a-b.jpg"
+        ],
+        "highlights": [
+          "23.8\" Fast IPS 1ms Full HD (1920x1080) Profesyonel Monitör",
+          "180Hz Yenileme Hızı & HDR10 / DisplayHDR 400",
+          "NVIDIA G-Sync & AMD FreeSync Premium Desteği",
+          "Ergonomik Pivot & Yükseklik Ayarlı Stant, HDMI 2.1 & DisplayPort"
+        ],
+        "specs": {
+          "screenSizeInches": 23.8,
+          "displayTech": "Fast IPS",
+          "resolution": "Full HD (1920x1080)",
+          "refreshRateHz": 180,
+          "smartOs": "LG Gaming OSD Control",
+          "audioPowerWatts": 10,
+          "hdrFormats": [
+            "HDR10",
+            "VESA DisplayHDR 400"
+          ],
+          "gamingFeatures": [
+            "G-Sync Compatible",
+            "FreeSync Premium",
+            "Black Stabilizer",
+            "Dynamic Action Sync",
+            "Crosshair"
+          ],
+          "hdmiPorts": 2,
+          "usbPorts": 2,
+          "energyClass": "F",
+          "processorEngine": "LG UltraGear Display Processing Engine",
+          "dolbyAtmos": false,
+          "voiceControl": "Yok",
+          "dimensionsWithStand": "695 x 590 x 260 mm",
+          "weightKg": 5.4,
+          "bezelStyle": "4 Taraflı / 3 Taraflı Çerçevesiz Ultra İnce Tasarım"
+        },
+        "storeOffers": [
+          {
+            "storeName": "Hepsiburada",
+            "storeLogo": "/images/stores/hepsiburada.png",
+            "price": 14999,
+            "shippingFee": 0,
+            "inStock": true,
+            "url": "https://www.hepsiburada.com/ara?q=LG%20UltraGear%2024G411A-B",
+            "rating": 4.8
+          },
+          {
+            "storeName": "Trendyol",
+            "storeLogo": "/images/stores/trendyol.png",
+            "price": 15179,
+            "shippingFee": 0,
+            "inStock": true,
+            "url": "https://www.trendyol.com/sr?q=LG%20UltraGear%2024G411A-B",
+            "rating": 4.8
+          },
+          {
+            "storeName": "MediaMarkt",
+            "storeLogo": "/images/stores/mediamarkt.png",
+            "price": 15369,
+            "shippingFee": 0,
+            "inStock": true,
+            "url": "https://www.mediamarkt.com.tr/tr/search.html?query=LG%20UltraGear%2024G411A-B",
+            "rating": 4.8
+          },
+          {
+            "storeName": "Vatan Bilgisayar",
+            "storeLogo": "/images/stores/vatan.png",
+            "price": 15519,
+            "shippingFee": 0,
+            "inStock": true,
+            "url": "https://www.vatanbilgisayar.com/arama/LG%20UltraGear%2024G411A-B",
+            "rating": 4.8
+          },
+          {
+            "storeName": "Amazon Türkiye",
+            "storeLogo": "/images/stores/amazon.png",
+            "price": 14919,
+            "shippingFee": 0,
+            "inStock": true,
+            "url": "https://www.amazon.com.tr/s?k=LG%20UltraGear%2024G411A-B",
+            "rating": 4.8
+          },
+          {
+            "storeName": "Teknosa",
+            "storeLogo": "/images/stores/teknosa.png",
+            "price": 15419,
+            "shippingFee": 0,
+            "inStock": true,
+            "url": "https://www.teknosa.com/arama?s=LG%20UltraGear%2024G411A-B",
+            "rating": 4.8
+          }
+        ],
+        "priceHistory": [
+          {
+            "date": "Ekim 2025",
+            "price": 17100
+          },
+          {
+            "date": "Kasım 2025",
+            "price": 16650
+          },
+          {
+            "date": "Aralık 2025",
+            "price": 16200
+          },
+          {
+            "date": "Ocak 2026",
+            "price": 15750
+          },
+          {
+            "date": "Şubat 2026",
+            "price": 15300
+          },
+          {
+            "date": "Ağustos 2026",
+            "price": 15000
+          }
+        ]
+      },
+      "previousMonitorRecord": null
+    }
+  ]
+}

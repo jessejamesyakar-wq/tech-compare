@@ -1,5 +1,9 @@
 'use client';
 
+import { formatSpecValue } from '@/lib/specFormatting';
+
+import { ProductPriceSummary } from '@/components/detail/ProductPriceSummary';
+import { ReviewAvailability } from '@/components/detail/ReviewAvailability';
 import { ProductJsonLd } from '@/components/seo/ProductJsonLd';
 import Image from 'next/image';
 import dynamic from 'next/dynamic';
@@ -112,7 +116,7 @@ export default function TabletsDetailClient({ initialProduct }: { initialProduct
         </nav>
 
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
-          <div className="lg:col-span-5">
+          <div className="min-w-0 lg:col-span-5">
             <ProductImageGallery
               product={product}
               activeColorImage={selectedColorImage}
@@ -120,7 +124,7 @@ export default function TabletsDetailClient({ initialProduct }: { initialProduct
             />
           </div>
 
-          <div className="lg:col-span-7 space-y-6">
+          <div className="min-w-0 lg:col-span-7 space-y-6">
             <div className="space-y-2">
               <span className="text-xs font-black text-emerald-700 bg-emerald-50 px-2.5 py-1 rounded-full uppercase tracking-wider">
                 {product.brand}
@@ -129,15 +133,8 @@ export default function TabletsDetailClient({ initialProduct }: { initialProduct
                 {product.name}
               </h1>
 
-              <div className="flex items-center gap-4 text-xs pt-1">
-                <div className="flex items-center gap-1 font-bold text-amber-500">
-                  <Star className="w-4 h-4 fill-amber-400 text-amber-400" />
-                  <span className="text-slate-900">{product.rating}</span>
-                  <span className="text-slate-400">({product.reviewCount} inceleme)</span>
-                </div>
-                <span className="text-slate-300">|</span>
-                <span className="text-slate-500 font-semibold">{product.releaseYear} Modeli</span>
-              </div>
+              <ReviewAvailability />
+              {product.releaseYear && <p className="text-xs text-slate-500">{product.releaseYear} Modeli</p>}
             </div>
 
             {/* Interactive Color Variant Picker */}
@@ -150,17 +147,7 @@ export default function TabletsDetailClient({ initialProduct }: { initialProduct
             )}
 
             <div className="bg-gradient-to-br from-slate-900 to-slate-800 text-white rounded-2xl p-5 shadow-lg space-y-4">
-              <div className="flex items-end justify-between">
-                <div>
-                  <div className="text-xs text-slate-400 font-medium">En Düşük Piyasa Fiyatı</div>
-                  <div className="text-3xl font-black tracking-tight text-emerald-400">
-                    {product.basePrice.toLocaleString()} {product.currency}
-                  </div>
-                </div>
-                <span className="text-xs bg-emerald-500/20 text-emerald-300 px-3 py-1 rounded-full border border-emerald-500/30 font-bold flex items-center gap-1">
-                  <ShieldCheck className="w-3.5 h-3.5" /> Resmi Distribütör
-                </span>
-              </div>
+              <ProductPriceSummary product={product} dark />
 
               <div className="flex gap-2.5 pt-2">
                 <button
@@ -168,7 +155,7 @@ export default function TabletsDetailClient({ initialProduct }: { initialProduct
                   className="flex-1 bg-white/10 hover:bg-white/20 text-white font-bold py-2.5 px-4 rounded-xl text-xs flex items-center justify-center gap-1.5 transition-colors cursor-pointer"
                 >
                   <Bell className="w-4 h-4 text-amber-400" />
-                  <span>Fiyat Alarmı Kur</span>
+                  <span>Fiyat Hedefi Kaydet</span>
                 </button>
                 <button
                   onClick={() => (inCompare ? removeFromCompare(product.id) : addToCompare(product))}
@@ -219,11 +206,11 @@ export default function TabletsDetailClient({ initialProduct }: { initialProduct
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {Object.entries(specs).map(([key, value]) => {
-              if (!value || typeof value === 'object') return null;
+              if (value === undefined || value === null || value === '') return null;
               return (
                 <div key={key} className="bg-slate-50 p-4 rounded-2xl border border-slate-100">
                   <span className="text-[10px] font-bold text-slate-400 uppercase tracking-wider block">{key}</span>
-                  <span className="text-xs font-black text-slate-900">{String(value)}</span>
+                  <span className="text-xs font-black text-slate-900 break-words min-w-0">{formatSpecValue(value)}</span>
                 </div>
               );
             })}

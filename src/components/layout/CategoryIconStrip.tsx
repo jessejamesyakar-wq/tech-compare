@@ -14,75 +14,66 @@ import {
   Monitor
 } from 'lucide-react';
 
-const STATIC_CATEGORY_COUNTS = {
-  smartphones: 823,
-  laptops: 831,
-  tvs: 938,
-  appliances: 956,
-  tablets: 557,
-  smartwatches: 136,
-  headphones: 823,
-  consoles: 70,
-  monitors: 634
-};
+type CategoryCounts = Partial<Record<'smartphones' | 'laptops' | 'tvs' | 'appliances' | 'tablets' | 'smartwatches' | 'headphones' | 'consoles' | 'monitors', number>>;
 
-export function CategoryIconStrip({ customCounts }: { customCounts?: typeof STATIC_CATEGORY_COUNTS }) {
-  const counts = customCounts || STATIC_CATEGORY_COUNTS;
+export function CategoryIconStrip({ customCounts }: { customCounts?: CategoryCounts }) {
+  const counts = customCounts || {};
+  const countLabel = (count?: number) => Number.isFinite(count) && count! >= 0 ? `${count} Model` : 'Kataloğu keşfet';
 
   const categories = [
     {
       name: 'Akıllı Telefonlar',
       href: '/phones',
       icon: Smartphone,
-      count: `${counts.smartphones} Model`
+      count: countLabel(counts.smartphones)
     },
     {
       name: 'Bilgisayar & Laptop',
       href: '/laptops',
       icon: Laptop,
-      count: `${counts.laptops} Model`
+      count: countLabel(counts.laptops)
     },
     {
       name: 'Televizyonlar',
       href: '/tvs',
       icon: Tv,
-      count: `${counts.tvs} Model`
+      count: countLabel(counts.tvs)
     },
     {
       name: 'Ev & Yaşam',
       href: '/appliances',
       icon: PlugZap,
-      count: `${counts.appliances} Model`
+      count: countLabel(counts.appliances)
     },
     {
       name: 'Tabletler',
       href: '/tablets',
       icon: Tablet,
-      count: `${counts.tablets} Model`
+      count: countLabel(counts.tablets)
     },
     {
       name: 'Akıllı Saatler',
       href: '/smartwatches',
       icon: Watch,
-      count: `${counts.smartwatches} Model`
+      count: countLabel(counts.smartwatches)
     },
     {
       name: 'Kulaklıklar',
       href: '/headphones',
       icon: Headphones,
-      count: `${counts.headphones} Model`
+      count: countLabel(counts.headphones)
     },
     {
       name: 'Monitörler',
       href: '/monitors',
       icon: Monitor,
-      count: `${counts.monitors} Model`
+      count: countLabel(counts.monitors)
     },
     {
       name: 'Oyun Konsolları',
       href: '/consoles',
       icon: Gamepad2,
-      count: `${counts.consoles} Model`
+      count: countLabel(counts.consoles)
     }
   ];
 

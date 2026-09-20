@@ -217,6 +217,8 @@ export const ACTIVE_RETAILERS: StoreDefinition[] = ACTIVE_STORES.map(
   (key) => ALL_RETAILER_DEFINITIONS[key]
 );
 
+import { isSearchUrl, getPriceFreshness } from './priceFreshness';
+
 /**
  * Total count of currently active stores (15)
  */
@@ -234,11 +236,13 @@ export function filterActiveStoreOffers<T extends { storeName: string }>(offers:
 }
 
 /**
- * Get effective active store count for a product
+ * Get effective active direct store offer count for a product (Search URLs, missing stock, >24h stale dates excluded)
  */
-export function getEffectiveStoreCount(offers: { storeName: string; price?: number }[] = []): number {
-  const activeOffers = filterActiveStoreOffers(offers).filter((o) => (o.price || 0) > 0);
-  return activeOffers.length > 0 ? activeOffers.length : ACTIVE_STORE_COUNT;
+export function getEffectiveStoreCount(offers: { storeName: string; price?: number; url?: string; isSearchLink?: boolean; inStock?: boolean; lastCheckedAt?: string }[] = []): number {
+  const activeOffers = filterActiveStoreOffers(offers).filter(
+    (o) => (o.price || 0) > 0 && o.inStock === true && !isSearchUrl(o.url, o.isSearchLink) && getPriceFreshness(o.lastCheckedAt).status === 'fresh'
+  );
+  return activeOffers.length;
 }
 
 /**
@@ -246,11 +250,7 @@ export function getEffectiveStoreCount(offers: { storeName: string; price?: numb
  * Example: getActiveStoreComparisonTitle() -> "15 Mağaza Canlı Fiyat Karşılaştırması"
  */
 export function getActiveStoreComparisonTitle(prefix = ''): string {
-  if (ACTIVE_STORE_COUNT === 1) {
-    const storeName = ACTIVE_RETAILERS[0]?.name || 'Hepsiburada';
-    return prefix ? `${prefix} ${storeName} Canlı Fiyatı` : `${storeName} Canlı Fiyatı`;
-  }
-  return `${prefix ? prefix + ' ' : ''}${ACTIVE_STORE_COUNT} Mağaza Canlı Fiyat Karşılaştırması`;
+  return `${prefix ? prefix + ' ' : ''}Mağaza Teklifleri ve Arama Bağlantıları`;
 }
 
 /**
@@ -281,4 +281,3 @@ export function getStoreSearchUrl(storeKey: StoreKey | string, query: string): s
 
   return `https://www.google.com/search?q=${clean}+fiyat`;
 }
-

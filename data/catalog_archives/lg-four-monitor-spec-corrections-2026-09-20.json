@@ -1,0 +1,563 @@
+{
+  "checkedAt": "2026-09-20T03:43:53.624Z",
+  "reason": "Exact manufacturer field corrections for four monitors; previous full records preserved. No price, offer, history, image or rating changes.",
+  "records": [
+    {
+      "id": "lg-ultragear-27g640a-b",
+      "sources": [
+        "https://www.lg.com/uk/monitors/gaming/27g640a-b/"
+      ],
+      "previousRecord": {
+        "id": "lg-ultragear-27g640a-b",
+        "slug": "lg-ultragear-27g640a-b",
+        "name": "LG UltraGear 27G640A-B 27 inç 200Hz WQHD IPS Gaming Monitör",
+        "brand": "LG",
+        "category": "monitors",
+        "rating": 4.7,
+        "epeyScore": 78,
+        "reviewCount": 350,
+        "basePrice": 11939,
+        "currency": "TL",
+        "releaseYear": 2024,
+        "isPopular": true,
+        "isFeatured": false,
+        "image": "/images/products/monitors/icecat-lg-ultragear-27g640a-b.jpg",
+        "images": [
+          "/images/products/monitors/icecat-lg-ultragear-27g640a-b.jpg",
+          "/images/products/monitors/icecat-lg-ultragear-27g640a-b-1.jpg",
+          "/images/products/monitors/icecat-lg-ultragear-27g640a-b-2.jpg",
+          "/images/products/monitors/icecat-lg-ultragear-27g640a-b-3.jpg"
+        ],
+        "highlights": [
+          "27 inç WQHD (2560x1440) 200Hz IPS Panel",
+          "1ms MBR Tepki Süresi ve HDR10 Desteği",
+          "AMD FreeSync ve G-Sync Uyumlu"
+        ],
+        "specs": {
+          "screenSizeInches": 27,
+          "resolution": "2560x1440 (WQHD)",
+          "panelType": "IPS",
+          "refreshRateHz": 200,
+          "responseTimeMs": 1,
+          "syncTechnology": "FreeSync",
+          "aspectRatio": "16:9",
+          "brightnessNits": 300,
+          "contrastRatio": "1000:1",
+          "hdrSupport": "HDR10"
+        },
+        "storeOffers": [
+          {
+            "storeName": "Hepsiburada",
+            "storeLogo": "/images/stores/hepsiburada.png",
+            "price": 11999,
+            "shippingFee": 0,
+            "inStock": true,
+            "url": "https://www.hepsiburada.com/ara?q=LG%20UltraGear%2027G640A-B%2027%20in%C3%A7%20200Hz%20WQHD%20IPS%20Gaming%20Monit%C3%B6r",
+            "rating": 4.8
+          },
+          {
+            "storeName": "Trendyol",
+            "storeLogo": "/images/stores/trendyol.png",
+            "price": 12139,
+            "shippingFee": 0,
+            "inStock": true,
+            "url": "https://www.trendyol.com/sr?q=LG%20UltraGear%2027G640A-B%2027%20in%C3%A7%20200Hz%20WQHD%20IPS%20Gaming%20Monit%C3%B6r",
+            "rating": 4.8
+          },
+          {
+            "storeName": "MediaMarkt",
+            "storeLogo": "/images/stores/mediamarkt.png",
+            "price": 12299,
+            "shippingFee": 0,
+            "inStock": true,
+            "url": "https://www.mediamarkt.com.tr/tr/search.html?query=LG%20UltraGear%2027G640A-B%2027%20in%C3%A7%20200Hz%20WQHD%20IPS%20Gaming%20Monit%C3%B6r",
+            "rating": 4.8
+          },
+          {
+            "storeName": "Vatan Bilgisayar",
+            "storeLogo": "/images/stores/vatan.png",
+            "price": 12419,
+            "shippingFee": 0,
+            "inStock": true,
+            "url": "https://www.vatanbilgisayar.com/arama/LG%20UltraGear%2027G640A-B%2027%20in%C3%A7%20200Hz%20WQHD%20IPS%20Gaming%20Monit%C3%B6r",
+            "rating": 4.8
+          },
+          {
+            "storeName": "Amazon Türkiye",
+            "storeLogo": "/images/stores/amazon.png",
+            "price": 11939,
+            "shippingFee": 0,
+            "inStock": true,
+            "url": "https://www.amazon.com.tr/s?k=LG%20UltraGear%2027G640A-B%2027%20in%C3%A7%20200Hz%20WQHD%20IPS%20Gaming%20Monit%C3%B6r",
+            "rating": 4.8
+          },
+          {
+            "storeName": "Teknosa",
+            "storeLogo": "/images/stores/teknosa.png",
+            "price": 12339,
+            "shippingFee": 0,
+            "inStock": true,
+            "url": "https://www.teknosa.com/arama?s=LG%20UltraGear%2027G640A-B%2027%20in%C3%A7%20200Hz%20WQHD%20IPS%20Gaming%20Monit%C3%B6r",
+            "rating": 4.8
+          }
+        ],
+        "priceHistory": [
+          {
+            "date": "Ekim 2025",
+            "price": 13680
+          },
+          {
+            "date": "Kasım 2025",
+            "price": 13320
+          },
+          {
+            "date": "Aralık 2025",
+            "price": 12960
+          },
+          {
+            "date": "Ocak 2026",
+            "price": 12600
+          },
+          {
+            "date": "Şubat 2026",
+            "price": 12240
+          },
+          {
+            "date": "Ağustos 2026",
+            "price": 12000
+          }
+        ],
+        "fieldSources": [
+          {
+            "fields": [
+              "category"
+            ],
+            "sourceUrl": "https://www.lg.com/es/monitores/monitores-ultragear-gaming/27g640a-b/",
+            "checkedAt": "2026-09-20T03:35:17.380Z",
+            "scopeNote": "Only this exact model's monitor category is verified. LG indexed product-page content; direct web fetch timed out. No specification, variant, price, review, stock, release year or warranty verification is implied."
+          }
+        ]
+      }
+    },
+    {
+      "id": "lg-ultragear-27gx790b-b",
+      "sources": [
+        "https://www.lg.com/uk/monitors/gaming/27gx790b-b/",
+        "https://www.lg.com/us/monitors/lg-27gx790b-b-gaming-monitor"
+      ],
+      "previousRecord": {
+        "id": "lg-ultragear-27gx790b-b",
+        "slug": "lg-ultragear-27gx790b-b",
+        "name": "LG UltraGear 27GX790B-B 27 inç 540Hz 0.03ms WQHD OLED Gaming Monitör",
+        "brand": "LG",
+        "category": "monitors",
+        "rating": 5,
+        "epeyScore": 100,
+        "reviewCount": 320,
+        "basePrice": 44769,
+        "currency": "TL",
+        "releaseYear": 2024,
+        "isPopular": true,
+        "isFeatured": true,
+        "image": "/images/products/monitors/icecat-lg-ultragear-27gx790b-b.jpg",
+        "images": [
+          "/images/products/monitors/icecat-lg-ultragear-27gx790b-b.jpg",
+          "/images/products/monitors/icecat-lg-ultragear-27gx790b-b-1.jpg",
+          "/images/products/monitors/icecat-lg-ultragear-27gx790b-b-2.jpg",
+          "/images/products/monitors/icecat-lg-ultragear-27gx790b-b-3.jpg"
+        ],
+        "highlights": [
+          "Dünyanın İlk 540Hz OLED Gaming Paneli ile Akıl Almaz Akıcılık",
+          "26.5 inç WQHD (2560x1440) Çözünürlük ve 0.03ms (GtG) Tepki Süresi",
+          "DisplayHDR True Black 400 ve %98.5 DCI-P3 Renk Doğruluğu",
+          "VESA ClearMR 13000 & Dual Mode Teknolojisi"
+        ],
+        "specs": {
+          "screenSizeInches": 26.5,
+          "resolution": "2560x1440 (WQHD)",
+          "panelType": "OLED",
+          "refreshRateHz": 540,
+          "responseTimeMs": 0.03,
+          "syncTechnology": "AMD FreeSync Premium Pro / G-Sync Compatible",
+          "aspectRatio": "16:9",
+          "brightnessNits": 450,
+          "contrastRatio": "1500000:1",
+          "hdrSupport": "DisplayHDR True Black 400",
+          "ports": [
+            "2x HDMI 2.1",
+            "1x DisplayPort 2.1",
+            "USB Hub",
+            "DTS Headphone:X"
+          ]
+        },
+        "storeOffers": [
+          {
+            "storeName": "Hepsiburada",
+            "storeLogo": "/images/stores/hepsiburada.png",
+            "price": 44999,
+            "shippingFee": 0,
+            "inStock": true,
+            "url": "https://www.hepsiburada.com/ara?q=LG%20UltraGear%2027GX790B-B%2027%20in%C3%A7%20540Hz%200.03ms%20WQHD%20OLED%20Gaming%20Monit%C3%B6r",
+            "rating": 4.8
+          },
+          {
+            "storeName": "Trendyol",
+            "storeLogo": "/images/stores/trendyol.png",
+            "price": 45539,
+            "shippingFee": 0,
+            "inStock": true,
+            "url": "https://www.trendyol.com/sr?q=LG%20UltraGear%2027GX790B-B%2027%20in%C3%A7%20540Hz%200.03ms%20WQHD%20OLED%20Gaming%20Monit%C3%B6r",
+            "rating": 4.8
+          },
+          {
+            "storeName": "MediaMarkt",
+            "storeLogo": "/images/stores/mediamarkt.png",
+            "price": 46119,
+            "shippingFee": 0,
+            "inStock": true,
+            "url": "https://www.mediamarkt.com.tr/tr/search.html?query=LG%20UltraGear%2027GX790B-B%2027%20in%C3%A7%20540Hz%200.03ms%20WQHD%20OLED%20Gaming%20Monit%C3%B6r",
+            "rating": 4.8
+          },
+          {
+            "storeName": "Vatan Bilgisayar",
+            "storeLogo": "/images/stores/vatan.png",
+            "price": 46569,
+            "shippingFee": 0,
+            "inStock": true,
+            "url": "https://www.vatanbilgisayar.com/arama/LG%20UltraGear%2027GX790B-B%2027%20in%C3%A7%20540Hz%200.03ms%20WQHD%20OLED%20Gaming%20Monit%C3%B6r",
+            "rating": 4.8
+          },
+          {
+            "storeName": "Amazon Türkiye",
+            "storeLogo": "/images/stores/amazon.png",
+            "price": 44769,
+            "shippingFee": 0,
+            "inStock": true,
+            "url": "https://www.amazon.com.tr/s?k=LG%20UltraGear%2027GX790B-B%2027%20in%C3%A7%20540Hz%200.03ms%20WQHD%20OLED%20Gaming%20Monit%C3%B6r",
+            "rating": 4.8
+          },
+          {
+            "storeName": "Teknosa",
+            "storeLogo": "/images/stores/teknosa.png",
+            "price": 46259,
+            "shippingFee": 0,
+            "inStock": true,
+            "url": "https://www.teknosa.com/arama?s=LG%20UltraGear%2027GX790B-B%2027%20in%C3%A7%20540Hz%200.03ms%20WQHD%20OLED%20Gaming%20Monit%C3%B6r",
+            "rating": 4.8
+          }
+        ],
+        "priceHistory": [
+          {
+            "date": "Ekim 2025",
+            "price": 51300
+          },
+          {
+            "date": "Kasım 2025",
+            "price": 49950
+          },
+          {
+            "date": "Aralık 2025",
+            "price": 48600
+          },
+          {
+            "date": "Ocak 2026",
+            "price": 47250
+          },
+          {
+            "date": "Şubat 2026",
+            "price": 45900
+          },
+          {
+            "date": "Ağustos 2026",
+            "price": 45000
+          }
+        ],
+        "fieldSources": [
+          {
+            "fields": [
+              "category"
+            ],
+            "sourceUrl": "https://www.lg.com/us/monitors/lg-27gx790b-b-gaming-monitor",
+            "checkedAt": "2026-09-20T03:35:17.380Z",
+            "scopeNote": "Only this exact model's monitor category is verified. LG product/support page opened. No specification, variant, price, review, stock, release year or warranty verification is implied."
+          }
+        ]
+      }
+    },
+    {
+      "id": "lg-ultragear-34g630a-b",
+      "sources": [
+        "https://www.lg.com/uk/monitors/gaming/34g630a-b/"
+      ],
+      "previousRecord": {
+        "id": "lg-ultragear-34g630a-b",
+        "slug": "lg-ultragear-34g630a-b",
+        "name": "LG UltraGear 34G630A-B 34 inç 240Hz 1000R UWQHD Gaming Monitör",
+        "brand": "LG",
+        "category": "monitors",
+        "rating": 4.7,
+        "epeyScore": 79,
+        "reviewCount": 290,
+        "basePrice": 20349,
+        "currency": "TL",
+        "releaseYear": 2024,
+        "isPopular": true,
+        "isFeatured": false,
+        "image": "/images/products/monitors/icecat-lg-ultragear-34g630a-b.jpg",
+        "images": [
+          "/images/products/monitors/icecat-lg-ultragear-34g630a-b.jpg",
+          "/images/products/monitors/icecat-lg-ultragear-34g630a-b-1.jpg",
+          "/images/products/monitors/icecat-lg-ultragear-34g630a-b-2.jpg",
+          "/images/products/monitors/icecat-lg-ultragear-34g630a-b-3.jpg"
+        ],
+        "highlights": [
+          "34 inç UWQHD (3440x1440) 240Hz 1000R Kavisli VA Panel",
+          "1ms MBR Tepki Süresi ve HDR10 Desteği",
+          "FreeSync Premium ve HDMI 2.1"
+        ],
+        "specs": {
+          "screenSizeInches": 34,
+          "resolution": "3440x1440 (UWQHD)",
+          "panelType": "VA (1000R Kavisli)",
+          "refreshRateHz": 240,
+          "responseTimeMs": 1,
+          "syncTechnology": "FreeSync Premium",
+          "aspectRatio": "21:9",
+          "brightnessNits": 350,
+          "contrastRatio": "4000:1",
+          "hdrSupport": "HDR10"
+        },
+        "storeOffers": [
+          {
+            "storeName": "Hepsiburada",
+            "storeLogo": "/images/stores/hepsiburada.png",
+            "price": 20449,
+            "shippingFee": 0,
+            "inStock": true,
+            "url": "https://www.hepsiburada.com/ara?q=LG%20UltraGear%2034G630A-B%2034%20in%C3%A7%20240Hz%201000R%20UWQHD%20Gaming%20Monit%C3%B6r",
+            "rating": 4.8
+          },
+          {
+            "storeName": "Trendyol",
+            "storeLogo": "/images/stores/trendyol.png",
+            "price": 20689,
+            "shippingFee": 0,
+            "inStock": true,
+            "url": "https://www.trendyol.com/sr?q=LG%20UltraGear%2034G630A-B%2034%20in%C3%A7%20240Hz%201000R%20UWQHD%20Gaming%20Monit%C3%B6r",
+            "rating": 4.8
+          },
+          {
+            "storeName": "MediaMarkt",
+            "storeLogo": "/images/stores/mediamarkt.png",
+            "price": 20959,
+            "shippingFee": 0,
+            "inStock": true,
+            "url": "https://www.mediamarkt.com.tr/tr/search.html?query=LG%20UltraGear%2034G630A-B%2034%20in%C3%A7%20240Hz%201000R%20UWQHD%20Gaming%20Monit%C3%B6r",
+            "rating": 4.8
+          },
+          {
+            "storeName": "Vatan Bilgisayar",
+            "storeLogo": "/images/stores/vatan.png",
+            "price": 21159,
+            "shippingFee": 0,
+            "inStock": true,
+            "url": "https://www.vatanbilgisayar.com/arama/LG%20UltraGear%2034G630A-B%2034%20in%C3%A7%20240Hz%201000R%20UWQHD%20Gaming%20Monit%C3%B6r",
+            "rating": 4.8
+          },
+          {
+            "storeName": "Amazon Türkiye",
+            "storeLogo": "/images/stores/amazon.png",
+            "price": 20349,
+            "shippingFee": 0,
+            "inStock": true,
+            "url": "https://www.amazon.com.tr/s?k=LG%20UltraGear%2034G630A-B%2034%20in%C3%A7%20240Hz%201000R%20UWQHD%20Gaming%20Monit%C3%B6r",
+            "rating": 4.8
+          },
+          {
+            "storeName": "Teknosa",
+            "storeLogo": "/images/stores/teknosa.png",
+            "price": 21019,
+            "shippingFee": 0,
+            "inStock": true,
+            "url": "https://www.teknosa.com/arama?s=LG%20UltraGear%2034G630A-B%2034%20in%C3%A7%20240Hz%201000R%20UWQHD%20Gaming%20Monit%C3%B6r",
+            "rating": 4.8
+          }
+        ],
+        "priceHistory": [
+          {
+            "date": "Ekim 2025",
+            "price": 23310
+          },
+          {
+            "date": "Kasım 2025",
+            "price": 22700
+          },
+          {
+            "date": "Aralık 2025",
+            "price": 22080
+          },
+          {
+            "date": "Ocak 2026",
+            "price": 21470
+          },
+          {
+            "date": "Şubat 2026",
+            "price": 20860
+          },
+          {
+            "date": "Ağustos 2026",
+            "price": 20450
+          }
+        ],
+        "fieldSources": [
+          {
+            "fields": [
+              "category"
+            ],
+            "sourceUrl": "https://www.lg.com/es/monitores/monitores-ultragear-gaming/34g630a-b/",
+            "checkedAt": "2026-09-20T03:35:17.380Z",
+            "scopeNote": "Only this exact model's monitor category is verified. LG product/support page opened. No specification, variant, price, review, stock, release year or warranty verification is implied."
+          }
+        ]
+      }
+    },
+    {
+      "id": "lg-ultragear-27g850a-b",
+      "sources": [
+        "https://www.lg.com/uk/monitors/gaming/27g850a-b/",
+        "https://www.lg.com/us/monitors/lg-27g850a-b-gaming-monitor"
+      ],
+      "previousRecord": {
+        "id": "lg-ultragear-27g850a-b",
+        "slug": "lg-ultragear-27g850a-b",
+        "name": "LG UltraGear 27G850A-B 27 inç 240Hz 4K UHD Nano IPS Monitör",
+        "brand": "LG",
+        "category": "monitors",
+        "rating": 4.8,
+        "epeyScore": 83,
+        "reviewCount": 310,
+        "basePrice": 33729,
+        "currency": "TL",
+        "releaseYear": 2024,
+        "isPopular": true,
+        "isFeatured": false,
+        "image": "/images/products/monitors/icecat-lg-ultragear-27g850a-b.jpg",
+        "images": [
+          "/images/products/monitors/icecat-lg-ultragear-27g850a-b.jpg",
+          "/images/products/monitors/icecat-lg-ultragear-27g850a-b-1.jpg",
+          "/images/products/monitors/icecat-lg-ultragear-27g850a-b-2.jpg",
+          "/images/products/monitors/icecat-lg-ultragear-27g850a-b-3.jpg"
+        ],
+        "highlights": [
+          "27 inç 4K UHD 240Hz Nano IPS 1ms Panel",
+          "ATW Polarizer ile Üst Düzey Görüş Açısı ve Kontrast",
+          "DisplayHDR 600 ve HDMI 2.1"
+        ],
+        "specs": {
+          "screenSizeInches": 27,
+          "resolution": "3840x2160 (4K UHD)",
+          "panelType": "Nano IPS",
+          "refreshRateHz": 240,
+          "responseTimeMs": 1,
+          "syncTechnology": "G-Sync Compatible",
+          "aspectRatio": "16:9",
+          "brightnessNits": 600,
+          "contrastRatio": "1000:1",
+          "hdrSupport": "DisplayHDR 600"
+        },
+        "storeOffers": [
+          {
+            "storeName": "Hepsiburada",
+            "storeLogo": "/images/stores/hepsiburada.png",
+            "price": 33899,
+            "shippingFee": 0,
+            "inStock": true,
+            "url": "https://www.hepsiburada.com/ara?q=LG%20UltraGear%2027G850A-B%2027%20in%C3%A7%20240Hz%204K%20UHD%20Nano%20IPS%20Monit%C3%B6r",
+            "rating": 4.8
+          },
+          {
+            "storeName": "Trendyol",
+            "storeLogo": "/images/stores/trendyol.png",
+            "price": 34309,
+            "shippingFee": 0,
+            "inStock": true,
+            "url": "https://www.trendyol.com/sr?q=LG%20UltraGear%2027G850A-B%2027%20in%C3%A7%20240Hz%204K%20UHD%20Nano%20IPS%20Monit%C3%B6r",
+            "rating": 4.8
+          },
+          {
+            "storeName": "MediaMarkt",
+            "storeLogo": "/images/stores/mediamarkt.png",
+            "price": 34749,
+            "shippingFee": 0,
+            "inStock": true,
+            "url": "https://www.mediamarkt.com.tr/tr/search.html?query=LG%20UltraGear%2027G850A-B%2027%20in%C3%A7%20240Hz%204K%20UHD%20Nano%20IPS%20Monit%C3%B6r",
+            "rating": 4.8
+          },
+          {
+            "storeName": "Vatan Bilgisayar",
+            "storeLogo": "/images/stores/vatan.png",
+            "price": 35089,
+            "shippingFee": 0,
+            "inStock": true,
+            "url": "https://www.vatanbilgisayar.com/arama/LG%20UltraGear%2027G850A-B%2027%20in%C3%A7%20240Hz%204K%20UHD%20Nano%20IPS%20Monit%C3%B6r",
+            "rating": 4.8
+          },
+          {
+            "storeName": "Amazon Türkiye",
+            "storeLogo": "/images/stores/amazon.png",
+            "price": 33729,
+            "shippingFee": 0,
+            "inStock": true,
+            "url": "https://www.amazon.com.tr/s?k=LG%20UltraGear%2027G850A-B%2027%20in%C3%A7%20240Hz%204K%20UHD%20Nano%20IPS%20Monit%C3%B6r",
+            "rating": 4.8
+          },
+          {
+            "storeName": "Teknosa",
+            "storeLogo": "/images/stores/teknosa.png",
+            "price": 34849,
+            "shippingFee": 0,
+            "inStock": true,
+            "url": "https://www.teknosa.com/arama?s=LG%20UltraGear%2027G850A-B%2027%20in%C3%A7%20240Hz%204K%20UHD%20Nano%20IPS%20Monit%C3%B6r",
+            "rating": 4.8
+          }
+        ],
+        "priceHistory": [
+          {
+            "date": "Ekim 2025",
+            "price": 38640
+          },
+          {
+            "date": "Kasım 2025",
+            "price": 37630
+          },
+          {
+            "date": "Aralık 2025",
+            "price": 36610
+          },
+          {
+            "date": "Ocak 2026",
+            "price": 35590
+          },
+          {
+            "date": "Şubat 2026",
+            "price": 34580
+          },
+          {
+            "date": "Ağustos 2026",
+            "price": 33900
+          }
+        ],
+        "fieldSources": [
+          {
+            "fields": [
+              "category"
+            ],
+            "sourceUrl": "https://www.lg.com/us/monitors/lg-27g850a-b-gaming-monitor",
+            "checkedAt": "2026-09-20T03:35:17.380Z",
+            "scopeNote": "Only this exact model's monitor category is verified. LG product/support page opened. No specification, variant, price, review, stock, release year or warranty verification is implied."
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -5,9 +5,11 @@ export interface PriceAlert {
   productId: string;
   productName?: string;
   productImage?: string;
-  currentPrice: number;
+  productUrl?: string;
+  currentPrice: number | null;
   targetPrice: number;
-  email: string;
+  email?: string; // Legacy records only; new local targets do not collect email.
+  priceStatusLabel?: string;
   createdAt: string;
   active?: boolean;
 }
@@ -33,13 +35,13 @@ export interface BaseProduct {
   category: 'smartphones' | 'tvs' | 'laptops' | 'tablets' | 'smartwatches' | 'headphones' | 'consoles' | 'appliances' | 'monitors';
   image: string;
   images?: string[];
-  rating: number;
+  rating?: number;
   aceleEtmeScore?: number;
   epeyScore?: number;
-  reviewCount: number;
-  basePrice: number;
+  reviewCount?: number;
+  basePrice?: number;
   currency: 'TL';
-  releaseYear: number;
+  releaseYear?: number;
   isLatestModel?: boolean;
   isPopular?: boolean;
   isFeatured?: boolean;
@@ -48,12 +50,23 @@ export interface BaseProduct {
   gtin?: string;
   sku?: string;
   model?: string;
+  /** Actual manufacturer part number; never substitute the internal catalog ID. */
+  mpn?: string;
   highlights: string[];
   tags?: string[];
   storeOffers: StoreOffer[];
   priceHistory: PriceHistoryPoint[];
   colorOptions?: { name: string; hex: string }[];
   variants?: ProductVariant[];
+  sourceType?: 'manufacturer' | 'retailer' | 'distributor' | 'unverified';
+  sourceUrl?: string;
+  verifiedAt?: string;
+  /** Evidence for only the listed fields; never implies whole-product verification. */
+  fieldSources?: { fields: string[]; sourceUrl: string; checkedAt: string; scopeNote?: string }[];
+  /** Known variant conflicts; these fields must not produce numeric advantages. */
+  specVerification?: { note: string; unresolvedFields: string[] };
+  aliasIds?: string[];
+  storageGb?: number;
 }
 
 export interface ApplianceSpecs {
@@ -160,7 +173,7 @@ export interface SmartphoneSpecs {
     antutuScore?: number;
   };
   memory: {
-    ramGb: number;
+    ramGb?: number;
     ramType?: string;
     storageGb: number;
     storageOptions?: number[];
@@ -175,7 +188,7 @@ export interface SmartphoneSpecs {
     dxomarkScore?: number;
   };
   battery: {
-    capacitymAh: number;
+    capacitymAh?: number;
     chargingWatts?: number;
     wirelessCharging?: boolean;
     wirelessWatts?: number;
@@ -266,6 +279,7 @@ export interface LaptopSpecs {
   muxSwitch?: boolean;
   screenSizeInches: number;
   screenResolution?: string;
+  refreshRateHz?: number;
   screenBrightnessNits?: number;
   colorGamut?: string;
   batteryCapacityWh?: number;
@@ -306,7 +320,7 @@ export interface StoreOffer {
   price: number;
   subsidyPrice?: number;
   bundlePromotion?: string;
-  inStock: boolean;
+  inStock?: boolean; // Missing stock evidence must remain UNKNOWN.
   shippingDays?: number;
   badges?: string[];
   sellerRating?: number;
@@ -322,12 +336,24 @@ export interface StoreOffer {
   affiliateUrl?: string;
   url?: string;
   updatedAt?: string;
+  isSearchLink?: boolean;
+  lastCheckedAt?: string;
+  shippingInfo?: string;
+  stockStatus?: 'in_stock' | 'out_of_stock' | 'preorder' | 'unknown';
+  sourceUrl?: string;
+  sourceType?: 'manufacturer' | 'retailer' | 'distributor' | 'unverified';
+  verifiedAt?: string;
+  variantName?: string;
 }
 
 export interface PriceHistoryPoint {
   date: string;
   price: number;
   store?: string;
+  sourceType?: 'observed' | 'synthetic' | 'unverified';
+  sourceUrl?: string;
+  observedAt?: string;
+  currency?: string;
 }
 
 export interface FilterOptions {

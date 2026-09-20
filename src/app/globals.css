@@ -395,3 +395,15 @@ html, body {
   scroll-behavior: auto !important;
 }
 
+/* Respect the visitor's motion preference without changing the mascot artwork. */
+@media (prefers-reduced-motion: reduce) {
+  html, body, * {
+    scroll-behavior: auto !important;
+  }
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+

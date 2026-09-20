@@ -1,6 +1,6 @@
 import { Suspense } from 'react';
 import { Metadata } from 'next';
-import { notFound } from 'next/navigation';
+import { notFound, permanentRedirect } from 'next/navigation';
 import { getLaptopById, findProductByIdSafe } from '@/lib/data';
 import { buildProductMetadata } from '@/lib/seoHelper';
 import LaptopDetailClient from './LaptopDetailClient';
@@ -25,6 +25,13 @@ export default async function LaptopDetailPage({
 
   if (!product) {
     notFound();
+  }
+
+  const expectedCategory = product.category === 'smartphones' ? 'phones' : product.category;
+  const canonicalSlug = product.slug || product.id;
+
+  if (expectedCategory && (expectedCategory !== 'laptops' || id !== canonicalSlug)) {
+    permanentRedirect(`/${expectedCategory}/${canonicalSlug}`);
   }
 
   return (

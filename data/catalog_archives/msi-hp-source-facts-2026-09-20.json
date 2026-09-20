@@ -1,0 +1,418 @@
+{
+  "checkedAt": "2026-09-20T07:57:06.781Z",
+  "sources": {
+    "msi": "https://www.msi.com/Handheld/Claw-A1MX/Specification",
+    "msi088": "https://www.teknosa.com/msi-claw-a1m-088tr-intel-core-ultra-7-155h-7-16-gb-ram-512-gb-ssd-w11-home-fhd-120hz-el-oyun-bilgisayari-p-785374399",
+    "msi089": "https://www.vatanbilgisayar.com/msi-claw-a1m-core-ultra-7-155h-16gb-1tb-ssd-7inc-w11.html",
+    "hp": "https://www.hp.com/tr-tr/products/laptops/product-details/product-specifications/2103194386"
+  },
+  "original": [
+    {
+      "file": "mockConsoles.ts",
+      "product": {
+        "id": "console-918423",
+        "slug": "msi-msi-claw-a1m-intel-core-ultra-7-155h-1-tb-a1m-089tr-918423",
+        "name": "MSI Claw A1M Intel Core Ultra 7 155H / 1 TB (A1M-089TR)",
+        "brand": "MSI",
+        "category": "consoles",
+        "storageGb": 1024,
+        "rating": 4.8,
+        "reviewCount": 588,
+        "basePrice": 33829,
+        "currency": "TL",
+        "releaseYear": 2024,
+        "isPopular": true,
+        "isFeatured": false,
+        "image": "/images/consoles/918423.jpg",
+        "images": [
+          "/images/consoles/918423.jpg"
+        ],
+        "highlights": [
+          "Intel Core Ultra 7 155H İşlemci ve Intel XeSS AI Çözünürlük Ölçekleme",
+          "7 inç 120Hz VRR Akıcı Dokunmatik Panel",
+          "53Wh Batarya ile Sınıfının En Uzun Süreli Pil Ömürlerinden Biri",
+          "Cooler Boost HyperFlow Çift Fanlı İleri Seviye Termal Tasarım"
+        ],
+        "sourceType": "unverified",
+        "sourceUrl": "https://www.teknosa.com/arama?s=MSI%20Claw%20A1M%20Intel%20Core%20Ultra%207%20155H%20%2F%201%20TB%20(A1M-089TR)",
+        "specs": {
+          "deviceType": "Taşınabilir (El Konsolu)",
+          "storageGb": 1024,
+          "fps": "60 fps",
+          "tflops": 4.6,
+          "processor": "Intel Core Ultra 7 155H (16 Çekirdek / 22 İzlek Intel AI Boost)",
+          "gpu": "Intel Arc Graphics (4.6 TFLOPs)",
+          "ramGb": 16,
+          "ramType": "LPDDR5 (6400 MHz)",
+          "resolution": "7 inç 1080p FHD 120Hz VRR 500 Nit Dokunmatik IPS",
+          "hdr": true,
+          "wifi": "Wi-Fi 7 (802.11be)",
+          "bluetooth": "5.4",
+          "hdmi": "Thunderbolt 4 / DisplayPort",
+          "weightKg": 0.675
+        },
+        "storeOffers": [
+          {
+            "storeName": "Hepsiburada",
+            "storeLogo": "/images/stores/hepsiburada.png",
+            "price": 33999,
+            "shippingFee": 0,
+            "inStock": true,
+            "url": "https://www.hepsiburada.com/ara?q=MSI%20Claw%20A1M%20Intel%20Core%20Ultra%207%20155H%20%2F%201%20TB%20(A1M-089TR)",
+            "rating": 4.8
+          },
+          {
+            "storeName": "Trendyol",
+            "storeLogo": "/images/stores/trendyol.png",
+            "price": 34409,
+            "shippingFee": 0,
+            "inStock": true,
+            "url": "https://www.trendyol.com/sr?q=MSI%20Claw%20A1M%20Intel%20Core%20Ultra%207%20155H%20%2F%201%20TB%20(A1M-089TR)",
+            "rating": 4.8
+          },
+          {
+            "storeName": "MediaMarkt",
+            "storeLogo": "/images/stores/mediamarkt.png",
+            "price": 34849,
+            "shippingFee": 0,
+            "inStock": true,
+            "url": "https://www.mediamarkt.com.tr/tr/search.html?query=MSI%20Claw%20A1M%20Intel%20Core%20Ultra%207%20155H%20%2F%201%20TB%20(A1M-089TR)",
+            "rating": 4.8
+          },
+          {
+            "storeName": "Vatan Bilgisayar",
+            "storeLogo": "/images/stores/vatan.png",
+            "price": 35189,
+            "shippingFee": 0,
+            "inStock": true,
+            "url": "https://www.vatanbilgisayar.com/arama/MSI%20Claw%20A1M%20Intel%20Core%20Ultra%207%20155H%20%2F%201%20TB%20(A1M-089TR)",
+            "rating": 4.8
+          },
+          {
+            "storeName": "Amazon Türkiye",
+            "storeLogo": "/images/stores/amazon.png",
+            "price": 33829,
+            "shippingFee": 0,
+            "inStock": true,
+            "url": "https://www.amazon.com.tr/s?k=MSI%20Claw%20A1M%20Intel%20Core%20Ultra%207%20155H%20%2F%201%20TB%20(A1M-089TR)",
+            "rating": 4.8
+          },
+          {
+            "storeName": "Teknosa",
+            "storeLogo": "/images/stores/teknosa.png",
+            "price": 34949,
+            "shippingFee": 0,
+            "inStock": true,
+            "url": "https://www.teknosa.com/arama?s=MSI%20Claw%20A1M%20Intel%20Core%20Ultra%207%20155H%20%2F%201%20TB%20(A1M-089TR)",
+            "rating": 4.8
+          }
+        ],
+        "priceHistory": [
+          {
+            "date": "Ekim 2025",
+            "price": 38760
+          },
+          {
+            "date": "Kasım 2025",
+            "price": 37740
+          },
+          {
+            "date": "Aralık 2025",
+            "price": 36720
+          },
+          {
+            "date": "Ocak 2026",
+            "price": 35700
+          },
+          {
+            "date": "Şubat 2026",
+            "price": 34680
+          },
+          {
+            "date": "Ağustos 2026",
+            "price": 34000
+          }
+        ]
+      }
+    },
+    {
+      "file": "mockConsoles.ts",
+      "product": {
+        "id": "console-936357",
+        "slug": "msi-msi-claw-a1m-intel-core-ultra-7-155h-512-gb-a1m-088tr-936357",
+        "name": "MSI Claw A1M Intel Core Ultra 7 155H / 512 GB (A1M-088TR)",
+        "brand": "MSI",
+        "category": "consoles",
+        "storageGb": 512,
+        "rating": 4.79,
+        "reviewCount": 572,
+        "basePrice": 29849,
+        "currency": "TL",
+        "releaseYear": 2024,
+        "isPopular": true,
+        "isFeatured": false,
+        "image": "/images/consoles/936357.jpg",
+        "images": [
+          "/images/consoles/936357.jpg"
+        ],
+        "highlights": [
+          "Intel Core Ultra 7 Gücü & 512 GB Yüksek Hızlı SSD",
+          "120Hz VRR Dokunmatik Ekran & Hall Effect Sensörlü Kontroller",
+          "Wi-Fi 7 ve Thunderbolt 4 Bağlantı Hızı",
+          "Ergonomik Avuç İçi Tasarımı"
+        ],
+        "sourceType": "unverified",
+        "sourceUrl": "https://www.vatanbilgisayar.com/arama/MSI%20Claw%20A1M%20Intel%20Core%20Ultra%207%20155H%20%2F%20512%20GB%20(A1M-088TR)",
+        "specs": {
+          "deviceType": "Taşınabilir (El Konsolu)",
+          "storageGb": 512,
+          "fps": "60 fps",
+          "tflops": 4.6,
+          "processor": "Intel Core Ultra 7 155H (16 Çekirdek)",
+          "gpu": "Intel Arc Graphics (4.6 TFLOPs)",
+          "ramGb": 16,
+          "ramType": "LPDDR5",
+          "resolution": "7 inç 1080p FHD 120Hz VRR IPS",
+          "hdr": true,
+          "wifi": "Wi-Fi 7",
+          "bluetooth": "5.4",
+          "hdmi": "Thunderbolt 4",
+          "weightKg": 0.675
+        },
+        "storeOffers": [
+          {
+            "storeName": "Hepsiburada",
+            "storeLogo": "/images/stores/hepsiburada.png",
+            "price": 29999,
+            "shippingFee": 0,
+            "inStock": true,
+            "url": "https://www.hepsiburada.com/ara?q=MSI%20Claw%20A1M%20Intel%20Core%20Ultra%207%20155H%20%2F%20512%20GB%20(A1M-088TR)",
+            "rating": 4.8
+          },
+          {
+            "storeName": "Trendyol",
+            "storeLogo": "/images/stores/trendyol.png",
+            "price": 30359,
+            "shippingFee": 0,
+            "inStock": true,
+            "url": "https://www.trendyol.com/sr?q=MSI%20Claw%20A1M%20Intel%20Core%20Ultra%207%20155H%20%2F%20512%20GB%20(A1M-088TR)",
+            "rating": 4.8
+          },
+          {
+            "storeName": "MediaMarkt",
+            "storeLogo": "/images/stores/mediamarkt.png",
+            "price": 30749,
+            "shippingFee": 0,
+            "inStock": true,
+            "url": "https://www.mediamarkt.com.tr/tr/search.html?query=MSI%20Claw%20A1M%20Intel%20Core%20Ultra%207%20155H%20%2F%20512%20GB%20(A1M-088TR)",
+            "rating": 4.8
+          },
+          {
+            "storeName": "Vatan Bilgisayar",
+            "storeLogo": "/images/stores/vatan.png",
+            "price": 31049,
+            "shippingFee": 0,
+            "inStock": true,
+            "url": "https://www.vatanbilgisayar.com/arama/MSI%20Claw%20A1M%20Intel%20Core%20Ultra%207%20155H%20%2F%20512%20GB%20(A1M-088TR)",
+            "rating": 4.8
+          },
+          {
+            "storeName": "Amazon Türkiye",
+            "storeLogo": "/images/stores/amazon.png",
+            "price": 29849,
+            "shippingFee": 0,
+            "inStock": true,
+            "url": "https://www.amazon.com.tr/s?k=MSI%20Claw%20A1M%20Intel%20Core%20Ultra%207%20155H%20%2F%20512%20GB%20(A1M-088TR)",
+            "rating": 4.8
+          },
+          {
+            "storeName": "Teknosa",
+            "storeLogo": "/images/stores/teknosa.png",
+            "price": 30839,
+            "shippingFee": 0,
+            "inStock": true,
+            "url": "https://www.teknosa.com/arama?s=MSI%20Claw%20A1M%20Intel%20Core%20Ultra%207%20155H%20%2F%20512%20GB%20(A1M-088TR)",
+            "rating": 4.8
+          }
+        ],
+        "priceHistory": [
+          {
+            "date": "Ekim 2025",
+            "price": 34200
+          },
+          {
+            "date": "Kasım 2025",
+            "price": 33300
+          },
+          {
+            "date": "Aralık 2025",
+            "price": 32400
+          },
+          {
+            "date": "Ocak 2026",
+            "price": 31500
+          },
+          {
+            "date": "Şubat 2026",
+            "price": 30600
+          },
+          {
+            "date": "Ağustos 2026",
+            "price": 30000
+          }
+        ]
+      }
+    },
+    {
+      "file": "mockLaptops.ts",
+      "product": {
+        "id": "hp-omen-gaming-16-ap0023nt-c12csea-64gb-1tbssd-w11p",
+        "slug": "hp-omen-gaming-16-ap0023nt-c12csea-64gb-1tbssd-w11p",
+        "name": "HP OMEN Gaming 16-ap0023nt (C12CSEA) (64GB/1TBSSD/W11P)",
+        "brand": "HP",
+        "category": "laptops",
+        "sourceType": "unverified",
+        "productType": "Yeni Nesil Yapay Zeka (AI) Destekli Oyuncu Laptopu",
+        "image": "/images/products/laptops/hp-omen-gaming-16-ap0023nt-c12csea-64gb-1tbssd-w11p-1.jpg",
+        "images": [
+          "/images/products/laptops/hp-omen-gaming-16-ap0023nt-c12csea-64gb-1tbssd-w11p-1.jpg"
+        ],
+        "rating": 4.8,
+        "epeyScore": 70,
+        "reviewCount": 22,
+        "basePrice": 110589,
+        "currency": "TL",
+        "releaseYear": 2025,
+        "isPopular": true,
+        "isFeatured": true,
+        "highlights": [
+          "16\" 2560 x 1440 (QHD 16:9 240Hz 3ms %100 sRGB 300 Nit IPS)",
+          "AMD Ryzen AI 7 350 Yüksek Güçlü İşlemci",
+          "NVIDIA GeForce RTX 4070 Laptop (8GB GDDR6 - 140W)",
+          "64GB RAM & 1TB NVMe SSD",
+          "OMEN Tempest Cooling Gelişmiş Termal Mimari"
+        ],
+        "specs": {
+          "productType": "Yeni Nesil Yapay Zeka (AI) Destekli Oyuncu Laptopu",
+          "processor": "AMD Ryzen AI 7 350",
+          "processorCores": "8 Çekirdek / 16 İzlek 5.0 GHz",
+          "npuTops": 50,
+          "ramGb": 64,
+          "ramType": "DDR5 5600 MHz",
+          "maxRamGb": 64,
+          "storageGb": 1024,
+          "storageType": "PCIe 4.0 NVMe M.2 SSD",
+          "storageSlots": "2x M.2 NVMe SSD Yuvası",
+          "gpu": "NVIDIA GeForce RTX 4070 Laptop (8GB GDDR6 - 140W)",
+          "gpuTgpWatts": 140,
+          "muxSwitch": true,
+          "screenSizeInches": 16,
+          "screenResolution": "2560 x 1440 (QHD 16:9 240Hz 3ms %100 sRGB 300 Nit IPS)",
+          "screenBrightnessNits": 300,
+          "colorGamut": "%100 sRGB",
+          "batteryCapacityWh": 83,
+          "batteryLifeHours": 5.5,
+          "chargerWatts": 230,
+          "wifiStandard": "Wi-Fi 6E (802.11ax) / Wi-Fi 7",
+          "bluetooth": "5.3",
+          "ports": [
+            "2x Thunderbolt 4 / USB4 40Gbps (DisplayPort 1.4 & PD)",
+            "2x USB 3.2 Gen 1 Type-A",
+            "1x HDMI 2.1",
+            "1x RJ45 Gigabit Ethernet LAN",
+            "1x 3.5mm Kulaklık/Mikrofon Kombo Jakı"
+          ],
+          "weightKg": 2.37,
+          "thicknessMm": 23.5,
+          "bodyMaterial": "Gölge Siyahı Alüminyum & Magnezyum Kasa",
+          "keyboard": "OMEN 4 Bölgeli / Per-Key RGB Aydınlatmalı Klavye",
+          "webcam": "HP True Vision 1080p FHD IR Kamera ve Çift Mikrofon",
+          "audio": "HyperX / B&O Destekli Çift Hoparlör DTS:X Ultra",
+          "os": "FreeDOS"
+        },
+        "storeOffers": [
+          {
+            "storeName": "Hepsiburada",
+            "storeLogo": "/images/stores/hepsiburada.png",
+            "price": 111149,
+            "shippingFee": 0,
+            "inStock": true,
+            "url": "https://www.hepsiburada.com/ara?q=HP%20OMEN%20Gaming%2016-ap0023nt%20(C12CSEA)%20(64GB%2F1TBSSD%2FW11P)",
+            "rating": 4.8
+          },
+          {
+            "storeName": "Trendyol",
+            "storeLogo": "/images/stores/trendyol.png",
+            "price": 112479,
+            "shippingFee": 0,
+            "inStock": true,
+            "url": "https://www.trendyol.com/sr?q=HP%20OMEN%20Gaming%2016-ap0023nt%20(C12CSEA)%20(64GB%2F1TBSSD%2FW11P)",
+            "rating": 4.8
+          },
+          {
+            "storeName": "MediaMarkt",
+            "storeLogo": "/images/stores/mediamarkt.png",
+            "price": 113929,
+            "shippingFee": 0,
+            "inStock": true,
+            "url": "https://www.mediamarkt.com.tr/tr/search.html?query=HP%20OMEN%20Gaming%2016-ap0023nt%20(C12CSEA)%20(64GB%2F1TBSSD%2FW11P)",
+            "rating": 4.8
+          },
+          {
+            "storeName": "Vatan Bilgisayar",
+            "storeLogo": "/images/stores/vatan.png",
+            "price": 115039,
+            "shippingFee": 0,
+            "inStock": true,
+            "url": "https://www.vatanbilgisayar.com/arama/HP%20OMEN%20Gaming%2016-ap0023nt%20(C12CSEA)%20(64GB%2F1TBSSD%2FW11P)",
+            "rating": 4.8
+          },
+          {
+            "storeName": "Amazon Türkiye",
+            "storeLogo": "/images/stores/amazon.png",
+            "price": 110589,
+            "shippingFee": 0,
+            "inStock": true,
+            "url": "https://www.amazon.com.tr/s?k=HP%20OMEN%20Gaming%2016-ap0023nt%20(C12CSEA)%20(64GB%2F1TBSSD%2FW11P)",
+            "rating": 4.8
+          },
+          {
+            "storeName": "Teknosa",
+            "storeLogo": "/images/stores/teknosa.png",
+            "price": 114259,
+            "shippingFee": 0,
+            "inStock": true,
+            "url": "https://www.teknosa.com/arama?s=HP%20OMEN%20Gaming%2016-ap0023nt%20(C12CSEA)%20(64GB%2F1TBSSD%2FW11P)",
+            "rating": 4.8
+          }
+        ],
+        "priceHistory": [
+          {
+            "date": "Ekim 2025",
+            "price": 126710
+          },
+          {
+            "date": "Kasım 2025",
+            "price": 123380
+          },
+          {
+            "date": "Aralık 2025",
+            "price": 120040
+          },
+          {
+            "date": "Ocak 2026",
+            "price": 116710
+          },
+          {
+            "date": "Şubat 2026",
+            "price": 113370
+          },
+          {
+            "date": "Ağustos 2026",
+            "price": 111150
+          }
+        ]
+      }
+    }
+  ]
+}

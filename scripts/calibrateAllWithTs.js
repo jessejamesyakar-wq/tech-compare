@@ -1,3 +1,6 @@
+// Disabled legacy migration: fabricated offers/history must never overwrite the catalog.
+throw new Error('Synthetic price generation is disabled. Import source-backed observations instead; see docs/NIGHT-AUDIT-2026-09-20.md.');
+
 const fs = require('fs');
 const path = require('path');
 const ts = require('typescript');

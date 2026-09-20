@@ -1,5 +1,7 @@
 'use client';
 
+import { ProductPriceSummary } from '@/components/detail/ProductPriceSummary';
+import { ReviewAvailability } from '@/components/detail/ReviewAvailability';
 import { ProductJsonLd } from '@/components/seo/ProductJsonLd';
 import Image from 'next/image';
 import dynamic from 'next/dynamic';
@@ -8,7 +10,6 @@ import Link from 'next/link';
 import { useSearchParams } from 'next/navigation';
 import { ApplianceProduct } from '@/lib/types';
 import { resolveActiveColor } from '@/lib/colorVariantHelper';
-import { ACTIVE_STORE_COUNT, ACTIVE_RETAILERS } from '@/lib/activeStores';
 import { StoreTable } from '@/components/detail/StoreTable';
 import { ProductImageGallery } from '@/components/detail/ProductImageGallery';
 import { ProductColorPicker } from '@/components/detail/ProductColorPicker';
@@ -100,7 +101,6 @@ export default function ApplianceDetailClient({ initialApplianceProduct }: { ini
   }
 
   const inCompare = isInCompare(product.id);
-  const score100 = Math.round(product.rating * 20);
 
   return (
     <div className="space-y-8 py-4">
@@ -123,38 +123,24 @@ export default function ApplianceDetailClient({ initialApplianceProduct }: { ini
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
           
           {/* Left: Product Image Showcase Stage (Strict 500x500 Square) */}
-          <div className="lg:col-span-5">
+          <div className="min-w-0 lg:col-span-5">
             <ProductImageGallery
               product={product}
               activeColorImage={selectedColorImage}
               activeColorImages={selectedColorImages}
             />
             
-            <div className="mt-4 flex items-center gap-3 text-xs text-slate-500 font-semibold">
-              <span className="flex items-center gap-1">
-                <ShieldCheck className="w-4 h-4 text-emerald-600" />
-                {product.specs.warrantyYears || 2} Yıl Resmi Garanti
-              </span>
-              <span>•</span>
-              <span className="flex items-center gap-1">
-                <Sparkles className="w-4 h-4 text-amber-500" />
-                Orijinal Türkiye Ürünü
-              </span>
-            </div>
+            <p className="mt-4 text-xs text-slate-500">Garanti ve ithalatçı bilgisini satın almadan önce satıcıdan kontrol edin.</p>
           </div>
 
           {/* Right: Product Info & Highlights */}
-          <div className="lg:col-span-7 space-y-6">
+          <div className="min-w-0 lg:col-span-7 space-y-6">
             <div>
               <div className="flex items-center gap-2 mb-2">
                 <span className="text-xs font-black bg-slate-100 text-slate-700 px-2.5 py-0.5 rounded-md uppercase tracking-wider">
                   {product.brand}
                 </span>
-                <div className="flex items-center gap-1 text-amber-500 text-xs font-bold">
-                  <Star className="w-3.5 h-3.5 fill-amber-400 text-amber-400" />
-                  <span>{product.rating}</span>
-                  <span className="text-slate-400 font-normal">({product.reviewCount} Değerlendirme)</span>
-                </div>
+                <ReviewAvailability />
               </div>
 
               <h1 className="text-2xl sm:text-3xl font-black text-slate-900 tracking-tight leading-tight">
@@ -173,34 +159,7 @@ export default function ApplianceDetailClient({ initialApplianceProduct }: { ini
 
             {/* Price & Score Highlight Card */}
             <div className="bg-gradient-to-br from-emerald-50/70 via-slate-50 to-teal-50/50 border border-emerald-100/80 rounded-2xl p-5 flex flex-wrap items-center justify-between gap-4">
-              <div>
-                <span className="text-[11px] font-bold text-slate-500 block uppercase tracking-wider">
-                  En Düşük Piyasa Fiyatı
-                </span>
-                <div className="flex items-baseline gap-2">
-                  <span className="text-3xl sm:text-4xl font-black text-slate-900 tracking-tight">
-                    {(product.basePrice || product.minPrice || 0).toLocaleString('tr-TR')}
-                  </span>
-                  <span className="text-base font-bold text-emerald-700">TL</span>
-                </div>
-                <span className="text-[11px] text-emerald-700 font-bold flex items-center gap-1 mt-1">
-                  <TrendingDown className="w-3.5 h-3.5" />
-                  {ACTIVE_STORE_COUNT === 1
-                    ? `${ACTIVE_RETAILERS[0]?.name || 'Hepsiburada'} Canlı Fiyatı`
-                    : `${ACTIVE_STORE_COUNT} Mağazada Canlı Fiyat Karşılaştırması`}
-                </span>
-              </div>
-
-              {/* Quality Score */}
-              <div className="flex items-center gap-3 bg-white px-4 py-2.5 rounded-xl border border-emerald-200/80 shadow-2xs">
-                <div className="text-right">
-                  <span className="text-[10px] font-bold text-slate-400 uppercase tracking-wider block">Tech Puanı</span>
-                  <span className="text-lg font-black text-emerald-700">{score100} / 100</span>
-                </div>
-                <div className="w-10 h-10 rounded-full bg-emerald-600 text-white flex items-center justify-center font-black text-xs shadow-xs">
-                  <Award className="w-5 h-5" />
-                </div>
-              </div>
+              <ProductPriceSummary product={product} />
             </div>
 
             {/* Key Highlights */}
@@ -238,7 +197,7 @@ export default function ApplianceDetailClient({ initialApplianceProduct }: { ini
                 className="flex items-center justify-center gap-2 px-5 py-3 rounded-2xl font-bold text-xs bg-white border border-slate-200 text-slate-700 hover:border-emerald-500 hover:text-emerald-700 shadow-2xs transition-all cursor-pointer"
               >
                 <Bell className="w-4 h-4 text-emerald-600" />
-                <span>Fiyat Alarmı Kur</span>
+                <span>Fiyat Hedefi Kaydet</span>
               </button>
             </div>
 
@@ -459,7 +418,7 @@ export default function ApplianceDetailClient({ initialApplianceProduct }: { ini
               <Check className="w-5 h-5 text-emerald-600" />
               <div>
                 <span className="text-[10px] font-bold text-slate-400 uppercase tracking-wider block">Garanti Süresi</span>
-                <span className="text-xs font-black text-slate-900">{product.specs.warrantyYears} Yıl Resmi Distribütör</span>
+                <span className="text-xs font-black text-slate-900">{product.specs.warrantyYears} yıl (katalog bilgisi)</span>
               </div>
             </div>
           )}

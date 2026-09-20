@@ -87797,6 +87797,16 @@ export const mockHeadphones: Product[] = [
         "date": "Ağustos 2026",
         "price": 24000
       }
+    ],
+    "fieldSources": [
+      {
+        "fields": [
+          "category"
+        ],
+        "sourceUrl": "https://www.dyson.com/support/headphones/zone",
+        "checkedAt": "2026-09-20T02:46:57.380Z",
+        "scopeNote": "Only the headphones classification is verified. No color/SKU, price, warranty, review, battery, filtration or other specification verification is implied."
+      }
     ]
   },
   {

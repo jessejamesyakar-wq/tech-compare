@@ -1,5 +1,9 @@
 'use client';
 
+import { formatSpecValue } from '@/lib/specFormatting';
+
+import { ProductPriceSummary } from '@/components/detail/ProductPriceSummary';
+import { ReviewAvailability } from '@/components/detail/ReviewAvailability';
 import { ProductJsonLd } from '@/components/seo/ProductJsonLd';
 import Image from 'next/image';
 import dynamic from 'next/dynamic';
@@ -37,6 +41,22 @@ import {
   Monitor,
   Zap
 } from 'lucide-react';
+
+const MONITOR_SPEC_LABELS: Record<string, [string, string?]> = {
+  screenSizeInches: ['Ekran boyutu', 'inç'], screenSizeInch: ['Ekran boyutu', 'inç'],
+  resolution: ['Çözünürlük'], panelType: ['Panel tipi'], refreshRateHz: ['Yenileme hızı', 'Hz'],
+  responseTimeMs: ['Tepki süresi', 'ms'], syncTechnology: ['Senkronizasyon'], aspectRatio: ['En-boy oranı'],
+  brightnessNits: ['Parlaklık', 'nit'], contrastRatio: ['Kontrast oranı'], hdrSupport: ['HDR desteği'], hdr: ['HDR'],
+  hdmiPorts: ['HDMI bağlantı sayısı'], hdmiVersion: ['HDMI sürümü'],
+  displayPortPorts: ['DisplayPort bağlantı sayısı'], displayPortVersion: ['DisplayPort sürümü'],
+  vesaMount: ['VESA montaj ölçüsü'], ports: ['Bağlantılar'], flickerSafe: ['Titreşim azaltma'],
+  readerMode: ['Okuma modu'], audioSpeakers: ['Hoparlör'], speakers: ['Hoparlör'],
+  colorGamut: ['Renk gamı'], usbTypeCPowerWatts: ['USB-C güç iletimi', 'W'],
+  kvmSwitch: ['KVM anahtarı'], thunderbolt3PowerWatts: ['Thunderbolt 3 güç iletimi', 'W'],
+  stand: ['Stant'], pbpSupport: ['Yan yana görüntü (PBP)'], daisyChain: ['Zincirleme bağlantı'],
+  builtInCamera: ['Dahili kamera'], pixelDensity: ['Piksel yoğunluğu', 'PPI'], curved: ['Kavisli ekran'],
+  gSync: ['G-SYNC'], freeSync: ['FreeSync'], hasPivot: ['Dikey döndürme (pivot)'], heightAdjustable: ['Yükseklik ayarı'],
+};
 
 export default function MonitorDetailClient({ initialProduct }: { initialProduct: Product | null }) {
   const { addToCompare, removeFromCompare, isInCompare } = useCompare();
@@ -104,7 +124,6 @@ export default function MonitorDetailClient({ initialProduct }: { initialProduct
   }
 
   const inCompare = isInCompare(initialProduct.id);
-  const score100 = initialProduct.aceleEtmeScore || initialProduct.epeyScore || Math.round((initialProduct.rating || 4.8) * 20);
   const specs = (initialProduct.specs as Record<string, any>) || {};
 
   return (
@@ -121,7 +140,7 @@ export default function MonitorDetailClient({ initialProduct }: { initialProduct
       {/* Main Showcase Grid */}
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 bg-white border border-slate-200 rounded-3xl p-6 sm:p-8 shadow-xs">
         {/* Left: Gallery (5 Cols) */}
-        <div className="lg:col-span-5">
+        <div className="min-w-0 lg:col-span-5">
           <ProductImageGallery
             product={initialProduct}
             activeColorImage={selectedColorImage}
@@ -130,15 +149,11 @@ export default function MonitorDetailClient({ initialProduct }: { initialProduct
         </div>
 
         {/* Right: Info & Price Offers (7 Cols) */}
-        <div className="lg:col-span-7 space-y-6">
+        <div className="min-w-0 lg:col-span-7 space-y-6">
           <div className="space-y-2">
             <div className="flex items-center justify-between">
               <span className="text-xs font-black text-emerald-600 uppercase tracking-wider">{initialProduct.brand} Monitör Serisi</span>
-              <div className="flex items-center gap-1 text-amber-500 font-bold text-xs">
-                <Star className="w-4 h-4 fill-amber-400 text-amber-400" />
-                <span>{initialProduct.rating}</span>
-                <span className="text-slate-400">({initialProduct.reviewCount} kullanıcı incelemesi)</span>
-              </div>
+              <ReviewAvailability />
             </div>
 
             <h1 className="text-xl sm:text-2xl font-black text-slate-900 leading-tight">
@@ -173,12 +188,7 @@ export default function MonitorDetailClient({ initialProduct }: { initialProduct
 
           {/* Price & Compare Button */}
           <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 p-5 bg-gradient-to-r from-emerald-50 via-teal-50 to-emerald-50/50 rounded-2xl border border-emerald-200">
-            <div>
-              <span className="text-xs text-slate-500 font-bold block">En Düşük Piyasa Fiyatı</span>
-              <span className="text-2xl sm:text-3xl font-black text-emerald-700">
-                {initialProduct.basePrice.toLocaleString('tr-TR')} TL
-              </span>
-            </div>
+            <ProductPriceSummary product={initialProduct} />
 
             <button
               onClick={() => (inCompare ? removeFromCompare(initialProduct.id) : addToCompare(initialProduct))}
@@ -216,14 +226,14 @@ export default function MonitorDetailClient({ initialProduct }: { initialProduct
                 <span>Detaylı Teknik Özellikler</span>
               </h3>
 
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs">
+              <dl className="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs">
                 {Object.entries(specs).map(([key, val]) => (
-                  <div key={key} className="p-2.5 bg-slate-50 rounded-xl border border-slate-100 flex justify-between">
-                    <span className="text-slate-500 font-semibold capitalize">{key.replace(/([A-Z])/g, ' $1')}:</span>
-                    <span className="text-slate-900 font-bold text-right">{Array.isArray(val) ? val.join(', ') : String(val)}</span>
+                  <div key={key} className="p-2.5 bg-slate-50 rounded-xl border border-slate-100 grid grid-cols-2 gap-3 min-w-0">
+                    <dt className="text-slate-500 font-semibold break-words min-w-0">{MONITOR_SPEC_LABELS[key]?.[0] || key.replace(/([A-Z])/g, ' $1')}:</dt>
+                    <dd className="text-slate-900 font-bold text-right break-words min-w-0">{formatSpecValue(val, MONITOR_SPEC_LABELS[key]?.[1])}</dd>
                   </div>
                 ))}
-              </div>
+              </dl>
             </div>
           )}
 

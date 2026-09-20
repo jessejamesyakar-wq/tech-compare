@@ -23,15 +23,15 @@ export default async function HomePage() {
   ]);
 
   const counts = {
-    smartphones: allPhones.length || 823,
-    laptops: 831,
-    tvs: allTVs.length || 938,
-    appliances: 956,
-    tablets: 557,
-    smartwatches: 136,
-    headphones: 823,
-    consoles: 70,
-    monitors: 634
+    smartphones: allProducts.filter((p) => p.category === 'smartphones').length,
+    laptops: allProducts.filter((p) => p.category === 'laptops').length,
+    tvs: allProducts.filter((p) => p.category === 'tvs').length,
+    appliances: allProducts.filter((p) => p.category === 'appliances').length,
+    tablets: allProducts.filter((p) => p.category === 'tablets').length,
+    smartwatches: allProducts.filter((p) => p.category === 'smartwatches').length,
+    headphones: allProducts.filter((p) => p.category === 'headphones').length,
+    consoles: allProducts.filter((p) => p.category === 'consoles').length,
+    monitors: allProducts.filter((p) => p.category === 'monitors').length
   };
 
   // Hero Slides showcasing top-tier flagships across all categories
@@ -64,16 +64,16 @@ export default async function HomePage() {
   }
 
   // Popular Comparisons enriched with names
-  const enrichedPopularComparisons = popComparisons.map((duel, idx) => {
+  const enrichedPopularComparisons = popComparisons.flatMap((duel) => {
     const p1 = allPhones.find((p) => p.id === duel.phone1Id || p.slug === duel.phone1Id);
     const p2 = allPhones.find((p) => p.id === duel.phone2Id || p.slug === duel.phone2Id);
-    return {
-      phone1Id: duel.phone1Id,
-      phone2Id: duel.phone2Id,
-      phone1Name: p1 ? p1.name : 'Amiral Gemisi 1',
-      phone2Name: p2 ? p2.name : 'Amiral Gemisi 2',
-      viewCount: duel.viewCount || 10000 + idx * 1200
-    };
+    if (!p1 || !p2) return [];
+    return [{
+      phone1Id: p1.slug || p1.id,
+      phone2Id: p2.slug || p2.id,
+      phone1Name: p1.name,
+      phone2Name: p2.name,
+    }];
   });
 
   // Curate a high-scoring, multi-brand diverse TV pool for the Home showcase rotation

@@ -1,3 +1,6 @@
+// Retired: a path that exists may still be the wrong device or appliance.
+throw new Error('Bu görsel düzeltme aracı devre dışı: kırık adresi başka ürünün fotoğrafıyla dolduruyor. Kaynaklı model bazlı görsel kaydı kullanın.');
+
 const fs = require('fs');
 const path = require('path');
 

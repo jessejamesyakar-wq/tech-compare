@@ -1,5 +1,6 @@
 'use client';
 
+import { useAdminAccess } from '@/components/admin/AdminAccessGate';
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import {
@@ -43,6 +44,7 @@ interface FeedbackSubmission {
 }
 
 export default function AdminLearningPage() {
+  const { adminFetch } = useAdminAccess();
   const [patterns, setPatterns] = useState<LearnedPattern[]>([]);
   const [anomalies, setAnomalies] = useState<FeedbackSubmission[]>([]);
   const [loading, setLoading] = useState(true);
@@ -57,13 +59,15 @@ export default function AdminLearningPage() {
   const fetchData = async () => {
     try {
       setLoading(true);
-      const res = await fetch('/api/admin/learning');
+      const res = await adminFetch('/api/admin/learning');
       const data = await res.json();
+      if (!res.ok) throw new Error(data.error || 'Operation failed');
       if (data.ok) {
         setPatterns(data.patterns || []);
         setAnomalies(data.anomalies || []);
       }
     } catch (err) {
+      setMessage('Yönetim verileri alınamadı. Lütfen tekrar deneyin.');
       console.error(err);
     } finally {
       setLoading(false);
@@ -77,12 +81,13 @@ export default function AdminLearningPage() {
   const handleAction = async (action: 'approve' | 'reject' | 'delete', patternId: string) => {
     try {
       setActionLoading(patternId);
-      const res = await fetch('/api/admin/learning', {
+      const res = await adminFetch('/api/admin/learning', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ action, patternId }),
       });
       const data = await res.json();
+      if (!res.ok) throw new Error(data.error || 'Operation failed');
       if (data.ok) {
         setMessage(data.message);
         fetchData();
@@ -100,7 +105,7 @@ export default function AdminLearningPage() {
 
     try {
       setActionLoading('create');
-      const res = await fetch('/api/admin/learning', {
+      const res = await adminFetch('/api/admin/learning', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
@@ -109,6 +114,7 @@ export default function AdminLearningPage() {
         }),
       });
       const data = await res.json();
+      if (!res.ok) throw new Error(data.error || 'Operation failed');
       if (data.ok) {
         setMessage(data.message);
         setShowAddModal(false);

@@ -8,6 +8,7 @@ import { getStoredProducts } from "@/lib/adminData";
 import { detectCategory, type CatalogCategory } from "./categoryMatcher";
 import { buildComparisonRows } from "./specFields";
 import { getFallbackProductImage } from "./fallbackImages";
+import { evaluateProductPricing } from "@/lib/pricing/unifiedPriceEvaluator";
 
 export interface ResolverResult<T> {
   ok: boolean;
@@ -242,21 +243,22 @@ export function extractExplicitTargetProduct(text: string): any | null {
 
 export function formatProductRecommendations(products: any[]): any[] {
   return products.map((p) => {
-    const validOffers = Array.isArray(p.storeOffers)
-      ? p.storeOffers.filter((o: any) => o && o.price > 0).sort((a: any, b: any) => a.price - b.price)
-      : [];
-    const cheapestPrice = validOffers[0]?.price || p.basePrice || p.price || 0;
-    const cheapestStore = validOffers[0]?.storeName || "En Uygun Mağaza";
+    const evaluated = evaluateProductPricing(p);
 
     return {
       productId: p.id,
       slug: p.slug || p.id,
       productName: p.name,
       category: p.category === "smartphones" ? "phones" : p.category,
-      price: cheapestPrice,
+      price: evaluated.displayPrice,
+      currentPrice: evaluated.currentPrice,
+      lastSeenPrice: evaluated.lastSeenPrice,
+      priceStatus: evaluated.priceStatus,
+      statusLabel: evaluated.statusLabel,
+      lastCheckedAt: evaluated.lastCheckedAt,
       image: p.image || (Array.isArray(p.images) ? p.images[0] : "") || getFallbackProductImage(p.name, p.brand, p.category),
-      reason: `${p.brand || "Katalog"} güncel modeli`,
-      cheapestStore: cheapestStore,
+      reason: `${p.brand || "Katalog"} modeli`,
+      cheapestStore: evaluated.cheapestStoreName || "",
     };
   });
 }
@@ -589,69 +591,8 @@ export function resolveCompareProducts(
   const category = matched[0].category as CatalogCategory;
   const rows = buildComparisonRows(matched, category);
 
-  // Pure Technology & Hardware Superiority winner logic (Not price-based)
-  const winCounts = matched.map(() => 0);
-  const techVictories: string[][] = matched.map(() => []);
-
-  rows.forEach((row: any) => {
-    if (typeof row.superiorIdx === "number" && row.superiorIdx >= 0 && row.superiorIdx < matched.length) {
-      winCounts[row.superiorIdx]++;
-      techVictories[row.superiorIdx].push(`${row.label}`);
-    }
-  });
-
-  // Check for honest tie
-  const p1Score = matched[0].aceleEtmeScore ?? matched[0].epeyScore ?? 80;
-  const p2Score = matched[1].aceleEtmeScore ?? matched[1].epeyScore ?? 80;
-  const isTie = winCounts.length >= 2 && winCounts[0] === winCounts[1] && p1Score === p2Score;
-
-  if (isTie) {
-    return {
-      ok: true,
-      data: {
-        category,
-        products: matched,
-        rows,
-        winner: null,
-      },
-    };
-  }
-
-  const sorted = matched
-    .map((p, idx) => ({
-      product: p,
-      idx,
-      wins: winCounts[idx],
-      victories: techVictories[idx],
-      rawScore: p.aceleEtmeScore ?? p.epeyScore ?? 80,
-      totalTechPower: winCounts[idx] * 12 + (p.aceleEtmeScore ?? p.epeyScore ?? 80),
-    }))
-    .sort((a, b) => b.totalTechPower - a.totalTechPower);
-
-  const bestEntry = sorted[0];
-  const best = bestEntry.product;
-  const reasons: string[] = [];
-
-  if (bestEntry.wins > 0) {
-    reasons.push(`${bestEntry.wins} kritik donanım testinde üstünlük sağladı`);
-  }
-  if (bestEntry.victories.length > 0) {
-    reasons.push(`Öne Çıkanlar: ${bestEntry.victories.slice(0, 3).join(", ")}`);
-  }
-  const bestScore = best.aceleEtmeScore ?? best.epeyScore;
-  if (bestScore != null) {
-    reasons.push(`aceleEtme Donanım Skoru: ${bestScore}/100`);
-  }
-
-  return {
-    ok: true,
-    data: {
-      category,
-      products: matched,
-      rows,
-      winner: { id: best.id, reasons },
-    },
-  };
+  // Recorded specification differences do not establish an overall test winner.
+  return { ok: true, data: { category, products: matched, rows, winner: null } };
 }
 
 export function isFollowUpQuery(text: string): boolean {
@@ -744,24 +685,46 @@ export function resolveBudgetRecommendation(
 
   // STRICT UPPER BUDGET BOUND:
   // Recommended products in the primary list MUST NOT exceed the budget limit!
-  // No silent 20-30% price inflation.
+  // Primary "Güncel Bütçeye Uygun" recommendations prioritize fresh direct offers (evaluated.currentPrice <= budget).
   const maxPrice = numericBudget;
   const minPrice = Math.max(0, numericBudget * 0.40);
 
   let candidates = catalog.filter((p: any) => {
     const cat = p.category === "smartphones" ? "smartphones" : p.category;
     if ((resolvedCategory as string) !== "all" && cat !== resolvedCategory) return false;
-    const price = p.basePrice || p.price || 0;
-    return price > 0 && price <= maxPrice && price >= minPrice;
+    const evaluated = evaluateProductPricing(p);
+    const price = evaluated.currentPrice;
+    return price !== null && price > 0 && price <= maxPrice && price >= minPrice;
   });
 
   if (candidates.length === 0) {
     candidates = catalog.filter((p: any) => {
       const cat = p.category === "smartphones" ? "smartphones" : p.category;
       if ((resolvedCategory as string) !== "all" && cat !== resolvedCategory) return false;
-      const price = p.basePrice || p.price || 0;
-      return price > 0 && price <= maxPrice;
+      const evaluated = evaluateProductPricing(p);
+      const price = evaluated.currentPrice;
+      return price !== null && price > 0 && price <= maxPrice;
     });
+  }
+
+  // Fallback: If zero fresh direct offers exist under budget in catalog, use catalog reference/stale price products
+  if (candidates.length === 0) {
+    candidates = catalog.filter((p: any) => {
+      const cat = p.category === "smartphones" ? "smartphones" : p.category;
+      if ((resolvedCategory as string) !== "all" && cat !== resolvedCategory) return false;
+      const evaluated = evaluateProductPricing(p);
+      const price = evaluated.displayPrice || p.basePrice || 0;
+      return price > 0 && price <= maxPrice && price >= minPrice;
+    });
+    if (candidates.length === 0) {
+      candidates = catalog.filter((p: any) => {
+        const cat = p.category === "smartphones" ? "smartphones" : p.category;
+        if ((resolvedCategory as string) !== "all" && cat !== resolvedCategory) return false;
+        const evaluated = evaluateProductPricing(p);
+        const price = evaluated.displayPrice || p.basePrice || 0;
+        return price > 0 && price <= maxPrice;
+      });
+    }
   }
 
   // Deduplicate base models (e.g. don't show multiple storage variants of the same phone)
@@ -783,7 +746,8 @@ export function resolveBudgetRecommendation(
   const overBudgetCandidates = catalog.filter((p: any) => {
     const cat = p.category === "smartphones" ? "smartphones" : p.category;
     if ((resolvedCategory as string) !== "all" && cat !== resolvedCategory) return false;
-    const price = p.basePrice || p.price || 0;
+    const evaluated = evaluateProductPricing(p);
+    const price = evaluated.currentPrice || evaluated.lastSeenPrice || p.basePrice || 0;
     return price > numericBudget && price <= numericBudget * 1.20;
   });
 
@@ -906,7 +870,12 @@ export interface ComparisonPanelData {
     brand: string;
     category?: string;
     image: string;
-    price: number;
+    price: number | null;
+    currentPrice?: number | null;
+    lastSeenPrice?: number | null;
+    priceStatus?: string;
+    statusLabel?: string;
+    lastCheckedAt?: string;
     cheapestStore: string;
   }[];
   matrix: ComparisonMatrixRow[];
@@ -916,7 +885,8 @@ export interface ComparisonPanelData {
     scenario: string;
     reasons: string[];
     isTie?: boolean;
-  };
+  } | null;
+  overallStatus?: "insufficient_data";
 }
 
 export interface TechNewsArticle {
@@ -945,11 +915,7 @@ export function formatComparisonData(
   scenario: string = "Detaylı Karşılaştırma"
 ): ComparisonPanelData {
   const products = data.products.map((p) => {
-    const validOffers = Array.isArray(p.storeOffers)
-      ? p.storeOffers.filter((o: any) => o && o.price > 0).sort((a: any, b: any) => a.price - b.price)
-      : [];
-    const cheapestPrice = validOffers[0]?.price || p.basePrice || p.price || 0;
-    const cheapestStore = validOffers[0]?.storeName || "En Uygun Mağaza";
+    const evaluated = evaluateProductPricing(p);
 
     return {
       id: p.id,
@@ -958,8 +924,13 @@ export function formatComparisonData(
       brand: p.brand || "",
       category: p.category === "smartphones" ? "phones" : p.category,
       image: p.image || (Array.isArray(p.images) ? p.images[0] : "") || getFallbackProductImage(p.name, p.brand, p.category),
-      price: cheapestPrice,
-      cheapestStore: cheapestStore,
+      price: evaluated.displayPrice,
+      currentPrice: evaluated.currentPrice,
+      lastSeenPrice: evaluated.lastSeenPrice,
+      priceStatus: evaluated.priceStatus,
+      statusLabel: evaluated.statusLabel,
+      lastCheckedAt: evaluated.lastCheckedAt,
+      cheapestStore: evaluated.cheapestStoreName || "",
     };
   });
 
@@ -973,30 +944,8 @@ export function formatComparisonData(
     superiorIdx: r.superiorIdx,
   }));
 
-  const winnerProduct = data.winner ? data.products.find((p) => p.id === data.winner!.id) : null;
-
-  return {
-    type: "comparison",
-    scenario,
-    category: data.category,
-    products,
-    matrix,
-    winner: winnerProduct
-      ? {
-          productId: winnerProduct.id,
-          productName: winnerProduct.name,
-          scenario: "Donanım Üstünlüğü",
-          reasons: data.winner!.reasons || ["Kategorisinde öne çıkan seçim"],
-          isTie: false,
-        }
-      : {
-          productId: "",
-          productName: "Beraberlik",
-          scenario: "Donanım Üstünlüğü",
-          reasons: ["İki model donanım ve teknik kriterlerde dengeli bir performans sunuyor"],
-          isTie: true,
-        },
-  };
+  return { type: "comparison", scenario, category: data.category, products, matrix,
+    winner: null, overallStatus: "insufficient_data" };
 }
 
 export function tryExtractComparisonFromMessage(message: string): string[] | null {
@@ -1174,122 +1123,9 @@ export function tryExtractComparisonFromMessage(message: string): string[] | nul
   return null;
 }
 
-export function detectSetupOrPackageQuery(prompt: string): ComparisonPanelData | null {
-  if (!prompt || typeof prompt !== "string") return null;
-  const norm = normalizeTr(prompt);
-
-  const isSalonOrSetup =
-    norm.includes("playstation salon") ||
-    norm.includes("ps salon") ||
-    norm.includes("oyun salon") ||
-    norm.includes("playstation kafe") ||
-    norm.includes("konsol salon") ||
-    norm.includes("gaming salon") ||
-    (norm.includes("playstation") && (norm.includes("salon") || norm.includes("yenile") || norm.includes("10 adet") || norm.includes("toplu"))) ||
-    (norm.includes("ps5") && (norm.includes("salon") || norm.includes("kafe") || norm.includes("yenile") || norm.includes("10 adet")));
-
-  if (!isSalonOrSetup) return null;
-
-  const catalog = getStoredProducts();
-  const ps5Pro =
-    catalog.find((p) => p.id === "console-960253") ||
-    catalog.find((p) => p.name.includes("PlayStation 5 Pro")) ||
-    catalog.find((p) => p.category === "consoles");
-
-  const gamingTv =
-    catalog.find((p) => p.id === "lg-oled65b46la") ||
-    catalog.find((p) => p.id === "lg-oled55c34la") ||
-    catalog.find((p) => p.name.includes("LG OLED") && p.name.includes("120Hz")) ||
-    catalog.find((p) => p.category === "tvs" && p.name.includes("120Hz"));
-
-  if (!ps5Pro || !gamingTv) return null;
-
-  const ps5Price = ps5Pro.basePrice || (ps5Pro as any).price || 46759;
-  const tvPrice = gamingTv.basePrice || (gamingTv as any).price || 89999;
-
-  return {
-    type: "comparison",
-    scenario: "🎮 Pro PlayStation Salon & Gaming Ekipman Paketi",
-    category: "consoles",
-    products: [
-      {
-        id: ps5Pro.id,
-        slug: ps5Pro.slug || ps5Pro.id,
-        name: ps5Pro.name,
-        brand: ps5Pro.brand || "Sony",
-        category: "consoles",
-        image: ps5Pro.image || (Array.isArray(ps5Pro.images) ? ps5Pro.images[0] : "") || getFallbackProductImage(ps5Pro.name, "Sony", "consoles"),
-        price: ps5Price,
-        cheapestStore: ps5Pro.storeOffers?.[0]?.storeName || "En Uygun Mağaza",
-      },
-      {
-        id: gamingTv.id,
-        slug: gamingTv.slug || gamingTv.id,
-        name: gamingTv.name,
-        brand: gamingTv.brand || "LG",
-        category: "tvs",
-        image: gamingTv.image || (Array.isArray(gamingTv.images) ? gamingTv.images[0] : "") || getFallbackProductImage(gamingTv.name, "LG", "tvs"),
-        price: tvPrice,
-        cheapestStore: gamingTv.storeOffers?.[0]?.storeName || "En Uygun Mağaza",
-      },
-    ],
-    matrix: [
-      {
-        label: "İşlemci & Grafik Gücü (Hesaplama)",
-        group: "processor",
-        values: ["16.7 TFLOPs RDNA Grafiği & PSSR AI Yükseltme", "Ultra Hızlı α8 AI 4K Görüntü İşlemcisi"],
-        isDifferent: true,
-        highlightIdx: 0,
-        superiorIdx: 0,
-      },
-      {
-        label: "Ekran Yenileme & Gecikme Hızı",
-        group: "screen",
-        values: ["4K 120Hz & 8K VRR Akıcı Çıkış", "120Hz Native OLED evo Panel & 0.1ms GtG Tepki"],
-        isDifferent: true,
-        highlightIdx: 1,
-        superiorIdx: 1,
-      },
-      {
-        label: "Depolama & Oyun Kapasitesi",
-        group: "processor",
-        values: ["2 TB Yüksek Hızlı NVMe SSD (5.5 GB/s)", "webOS Akıllı Arayüz & Hızlı Uygulama Alanı"],
-        isDifferent: true,
-        highlightIdx: 0,
-        superiorIdx: 0,
-      },
-      {
-        label: "Giriş Portları & Eşzamanlılık",
-        group: "build",
-        values: ["HDMI 2.1 Ultra High Speed Çıkış", "4x HDMI 2.1 (ALLM, eARC, VRR, G-Sync)"],
-        isDifferent: true,
-        highlightIdx: 1,
-        superiorIdx: 1,
-      },
-      {
-        label: "Salon Dayanıklılığı & Soğutma",
-        group: "build",
-        values: ["Optimize Sıvı Metal & Sessiz Fan Mimarisi", "OLED evo Piksel Koruyucu & Düşük Mavi Işık"],
-        isDifferent: false,
-      },
-      {
-        label: "Ticari Salon & Müşteri Deneyimi",
-        group: "battery",
-        values: ["Maksimum Müşteri Sadakati & Kesintisiz 60-120 FPS", "Yansıma Önleyici Kaplama & 178° Geniş Görüş Açısı"],
-        isDifferent: false,
-      },
-    ],
-    winner: {
-      productId: ps5Pro.id,
-      productName: ps5Pro.name,
-      scenario: "Ticari Salon Standartı",
-      reasons: [
-        "PSSR AI yükseltme ile GTA 6 ve EA Sports FC oyunlarında müşterilere gerçek 4K 60-120 FPS akıcılık",
-        "2 TB dev dahili NVMe depolama ile 20+ AAA oyunu silmeden aynı anda hazır tutma",
-        "LG OLED 120Hz VRR eşleşmesiyle sıfır giriş gecikmesi (0.1ms GtG) ve üst düzey müşteri deneyimi",
-      ],
-    },
-  };
+export function detectSetupOrPackageQuery(_prompt: string): ComparisonPanelData | null {
+  // A console/TV bundle is not a same-category duel; never fabricate a package matrix.
+  return null;
 }
 
 export function createDynamicComparisonPanel(

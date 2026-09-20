@@ -379,11 +379,11 @@ assert(
 );
 
 // İki geçerli ve karşılaştırılabilir puan eşitse beraberlik (tie)
-const scoreRatedA = getProductScore({ rating: 4.8 }); // 96
-const scoreRatedB = getProductScore({ rating: 4.8 }); // 96
+const scoreRatedA = getProductScore({ aceleEtmeScore: 96 }); // Recorded score, not star-derived
+const scoreRatedB = getProductScore({ aceleEtmeScore: 96 }); // Recorded score, not star-derived
 assert(
   scoreRatedA === 96 && scoreRatedB === 96,
-  "Gerçek 4.8 rating değeri 96/100 olarak doğru hesaplanmalı",
+  "Kayıtlı 96/100 puanı korunmalı; kullanıcı yıldızlarından türetilmemeli",
   `Alınan: ${scoreRatedA}, ${scoreRatedB}`
 );
 

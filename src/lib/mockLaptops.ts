@@ -76262,6 +76262,7 @@ export const mockLaptops: Product[] = [
     "name": "HP OMEN Gaming 16-ap0023nt (C12CSEA) (64GB/1TBSSD/W11P)",
     "brand": "HP",
     "category": "laptops",
+    "sourceType": "unverified",
     "productType": "Yeni Nesil Yapay Zeka (AI) Destekli Oyuncu Laptopu",
     "image": "/images/products/laptops/hp-omen-gaming-16-ap0023nt-c12csea-64gb-1tbssd-w11p-1.jpg",
     "images": [
@@ -76276,49 +76277,44 @@ export const mockLaptops: Product[] = [
     "isPopular": true,
     "isFeatured": true,
     "highlights": [
-      "16\" 2560 x 1440 (QHD 16:9 240Hz 3ms %100 sRGB 300 Nit IPS)",
-      "AMD Ryzen AI 7 350 Yüksek Güçlü İşlemci",
-      "NVIDIA GeForce RTX 4070 Laptop (8GB GDDR6 - 140W)",
-      "64GB RAM & 2TB NVMe SSD",
-      "OMEN Tempest Cooling Gelişmiş Termal Mimari"
+      "16 inç 1920 x 1200 IPS, en fazla 144 Hz",
+      "AMD Ryzen AI 7 350",
+      "NVIDIA GeForce RTX 5060 Laptop GPU (8 GB GDDR7)",
+      "1 TB PCIe Gen4 NVMe SSD"
     ],
     "specs": {
       "productType": "Yeni Nesil Yapay Zeka (AI) Destekli Oyuncu Laptopu",
       "processor": "AMD Ryzen AI 7 350",
-      "processorCores": "8 Çekirdek / 16 İzlek 5.0 GHz",
-      "npuTops": 50,
+      "processorCores": "8 çekirdek / 16 izlek; en fazla 5,0 GHz",
       "ramGb": 64,
-      "ramType": "DDR5 5600 MHz",
-      "maxRamGb": 64,
-      "storageGb": 2048,
-      "storageType": "PCIe 4.0 NVMe M.2 SSD",
-      "storageSlots": "2x M.2 NVMe SSD Yuvası",
-      "gpu": "NVIDIA GeForce RTX 4070 Laptop (8GB GDDR6 - 140W)",
-      "gpuTgpWatts": 140,
-      "muxSwitch": true,
+      "ramType": "DDR5-5600",
+      "storageGb": 1024,
+      "storageType": "PCIe Gen4 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 SSD yuvası",
+      "gpu": "NVIDIA GeForce RTX 5060 Laptop GPU (8 GB GDDR7)",
       "screenSizeInches": 16,
-      "screenResolution": "2560 x 1440 (QHD 16:9 240Hz 3ms %100 sRGB 300 Nit IPS)",
+      "screenResolution": "1920 x 1200 (16:10 IPS)",
       "screenBrightnessNits": 300,
-      "colorGamut": "%100 sRGB",
-      "batteryCapacityWh": 83,
-      "batteryLifeHours": 5.5,
+      "colorGamut": "%62,5 sRGB",
+      "batteryCapacityWh": 70,
       "chargerWatts": 230,
-      "wifiStandard": "Wi-Fi 6E (802.11ax) / Wi-Fi 7",
+      "wifiStandard": "MediaTek Wi-Fi 6E MT7922 (2x2)",
       "bluetooth": "5.3",
       "ports": [
-        "2x Thunderbolt 4 / USB4 40Gbps (DisplayPort 1.4 & PD)",
-        "2x USB 3.2 Gen 1 Type-A",
+        "1x USB Type-A 10 Gbps",
+        "2x USB Type-A 5 Gbps",
+        "1x USB Type-C 10 Gbps (PD 3.0 / DisplayPort 1.4)",
         "1x HDMI 2.1",
-        "1x RJ45 Gigabit Ethernet LAN",
-        "1x 3.5mm Kulaklık/Mikrofon Kombo Jakı"
+        "1x RJ-45",
+        "1x kulaklık/mikrofon",
+        "1x AC güç girişi"
       ],
-      "weightKg": 2.37,
-      "thicknessMm": 23.5,
-      "bodyMaterial": "Gölge Siyahı Alüminyum & Magnezyum Kasa",
-      "keyboard": "OMEN 4 Bölgeli / Per-Key RGB Aydınlatmalı Klavye",
-      "webcam": "HP True Vision 1080p FHD IR Kamera ve Çift Mikrofon",
-      "audio": "HyperX / B&O Destekli Çift Hoparlör DTS:X Ultra",
-      "os": "FreeDOS"
+      "weightKg": 2.44,
+      "keyboard": "4 bölgeli RGB aydınlatmalı klavye",
+      "webcam": "HP True Vision 1080p FHD; çift mikrofon",
+      "audio": "HyperX, DTS:X Ultra, çift hoparlör",
+      "os": "Doğrulanmadı (kayıt: W11P; üretici: FreeDOS 3.0)",
+      "refreshRateHz": 144
     },
     "storeOffers": [
       {
@@ -76400,6 +76396,44 @@ export const mockLaptops: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 111150
+      }
+    ],
+    "sourceUrl": "https://www.hp.com/tr-tr/products/laptops/product-details/product-specifications/2103194386",
+    "specVerification": {
+      "note": "Bu kayıt 64 GB RAM / W11P satıcı yapılandırması olarak adlandırılmış. HP, C12CSEA için fabrikasyon 32 GB RAM ve FreeDOS 3.0 bildiriyor. 64 GB / Windows 11 Pro varyantının doğrudan satıcı doğrulaması bekleniyor; bu alanlardan üstünlük sonucu çıkarılmaz.",
+      "unresolvedFields": [
+        "specs.ramGb",
+        "specs.os"
+      ]
+    },
+    "fieldSources": [
+      {
+        "sourceUrl": "https://www.hp.com/tr-tr/products/laptops/product-details/product-specifications/2103194386",
+        "fields": [
+          "specs.processor",
+          "specs.processorCores",
+          "specs.ramType",
+          "specs.storageGb",
+          "specs.storageType",
+          "specs.storageSlots",
+          "specs.gpu",
+          "specs.screenSizeInches",
+          "specs.screenResolution",
+          "specs.screenBrightnessNits",
+          "specs.colorGamut",
+          "specs.batteryCapacityWh",
+          "specs.chargerWatts",
+          "specs.wifiStandard",
+          "specs.bluetooth",
+          "specs.ports",
+          "specs.weightKg",
+          "specs.keyboard",
+          "specs.webcam",
+          "specs.audio",
+          "specs.refreshRateHz"
+        ],
+        "checkedAt": "2026-09-20T07:57:06.781Z",
+        "scopeNote": "C12CSEA temel modelinin üretici teknik tablosu: ekran, GPU, işlemci, SSD, batarya ve bağlantılar. Üreticinin 32 GB RAM / FreeDOS yapılandırması, bu kaydın 64 GB / W11P satıcı varyantını doğrulamaz. Fiyat ve stok kapsam dışıdır."
       }
     ]
   },

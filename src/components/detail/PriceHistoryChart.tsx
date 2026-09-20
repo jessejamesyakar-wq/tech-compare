@@ -15,6 +15,9 @@ import {
   ReferenceLine
 } from 'recharts';
 import { TrendingDown, Sparkles } from 'lucide-react';
+import { parseDateToMs } from '@/lib/priceSignal';
+import { formatObservedDate } from '@/lib/dateParsing';
+import { getObservedPriceHistory } from '@/lib/pricing/priceHistoryEvidence';
 
 interface PriceHistoryChartProps {
   data: PriceHistoryPoint[];
@@ -25,33 +28,42 @@ interface PriceHistoryChartProps {
 export function PriceHistoryChart({ data, currency, product }: PriceHistoryChartProps) {
   const { t } = useI18n();
 
-  // Ensure chart data exists or generate realistic 6-month historical curve up to today
-  const effectiveData = React.useMemo(() => {
-    const baseP = product?.basePrice || 0;
-    if ((!data || data.length === 0) && baseP > 0) {
-      return [
-        { date: 'Nisan 2026', price: Math.round(baseP * 1.05) },
-        { date: 'Mayıs 2026', price: Math.round(baseP * 1.03) },
-        { date: 'Haziran 2026', price: Math.round(baseP * 1.02) },
-        { date: 'Temmuz 2026', price: Math.round(baseP * 1.01) },
-        { date: 'Ağustos 2026', price: Math.round(baseP * 1.00) },
-        { date: '16 Eylül 2026', price: baseP }
-      ];
+  const effectiveData = React.useMemo(() => getObservedPriceHistory(data), [data]);
+
+  const dateStats = React.useMemo(() => {
+    if (effectiveData.length < 2) return null;
+    const firstPoint = effectiveData[0];
+    const lastPoint = effectiveData[effectiveData.length - 1];
+    const t1 = parseDateToMs(firstPoint.date);
+    const t2 = parseDateToMs(lastPoint.date);
+
+    // Reject out-of-order or invalid date bounds - NO synthetic diffDays = 30 fallback!
+    if (t1 <= 0 || t2 <= 0 || t2 <= t1) {
+      return null;
     }
 
-    if (data && data.length > 0) {
-      const cloned = [...data];
-      const lastPoint = cloned[cloned.length - 1];
-      if (lastPoint.date !== '16 Eylül 2026' && lastPoint.date !== '2026-09-16') {
-        cloned.push({ date: '16 Eylül 2026', price: baseP > 0 ? baseP : lastPoint.price });
-      }
-      return cloned;
-    }
+    const diffDays = Math.max(1, Math.round((t2 - t1) / (1000 * 60 * 60 * 24)));
 
-    return [];
-  }, [data, product?.basePrice]);
+    return {
+      firstDate: formatObservedDate(firstPoint.date),
+      lastDate: formatObservedDate(lastPoint.date),
+      diffDays
+    };
+  }, [effectiveData]);
 
-  if (effectiveData.length === 0) return null;
+  if (effectiveData.length < 2 || !dateStats) {
+    return (
+      <div className="bg-white/90 border border-slate-200 rounded-3xl p-6 shadow-xs text-xs text-slate-500 space-y-2">
+        <div className="flex items-center gap-2 font-bold text-slate-800 text-sm">
+          <TrendingDown className="w-4 h-4 text-slate-400" />
+          <span>{t.priceHistoryChart} (Yetersiz Doğrulanmış Veri)</span>
+        </div>
+        <p className="text-slate-500 font-medium">
+          Bu ürün için henüz yeterli sayıda sıralı ve doğrulanmış geçmiş fiyat gözlemi bulunmamaktadır. Gerçekçi olmayan veya tahmini fiyat geçmişi grafiklere yansıtılmamaktadır.
+        </p>
+      </div>
+    );
+  }
 
   const prices = effectiveData.map((d) => d.price);
   const minPrice = Math.min(...prices);
@@ -62,38 +74,38 @@ export function PriceHistoryChart({ data, currency, product }: PriceHistoryChart
 
   return (
     <div className="bg-white/90 backdrop-blur-md border border-slate-200/90 rounded-3xl p-6 sm:p-8 space-y-6 shadow-xs">
-      
+
       {/* Header */}
       <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-b border-slate-100 pb-4">
         <div>
           <div className="flex flex-wrap items-center gap-2 mb-1">
-            <div className="inline-flex items-center gap-1.5 bg-emerald-50 text-emerald-700 text-[11px] font-extrabold px-3 py-1 rounded-full border border-emerald-200">
-              <Sparkles className="w-3.5 h-3.5 text-emerald-600" />
-              <span>Canlı Fiyat Trend Analizi</span>
+            <div className="inline-flex items-center gap-1.5 bg-slate-100 text-slate-700 text-[11px] font-extrabold px-3 py-1 rounded-full border border-slate-200">
+              <Sparkles className="w-3.5 h-3.5 text-slate-600" />
+              <span>Fiyat Trend Analizi (Gözlem Verisi)</span>
             </div>
             <div className="inline-flex items-center gap-1 bg-slate-100 text-slate-600 text-[10px] font-bold px-2.5 py-1 rounded-full border border-slate-200">
-              <span>Son Güncelleme: Bugün (Canlı Senkronize)</span>
+              <span>Son Gözlem: {dateStats.lastDate}</span>
             </div>
           </div>
           <h3 className="text-slate-900 text-lg font-black flex items-center gap-2">
             <TrendingDown className="w-5 h-5 text-emerald-600" />
-            <span>{t.priceHistoryChart}</span>
+            <span>Kayıtlı Fiyat Geçmişi</span>
           </h3>
           <p className="text-xs text-slate-500 mt-0.5 font-medium">
-            Son 6 ay içerisindeki mağaza fiyat değişim grafik trendi
+            {dateStats.firstDate} – {dateStats.lastDate} arasındaki kayıtlı fiyatlar ({effectiveData.length} gözlem noktası, {dateStats.diffDays} gün)
           </p>
         </div>
 
         {/* Stats Pills */}
         <div className="flex items-center gap-3 text-xs">
           <div className="bg-slate-50 px-3.5 py-2 rounded-2xl border border-slate-200">
-            <span className="text-[10px] text-slate-500 block font-semibold">{t.lowestPrice6Months}</span>
+            <span className="text-[10px] text-slate-500 block font-semibold">En Düşük ({dateStats.diffDays} Gün)</span>
             <span className="text-emerald-600 font-black text-sm">
-              {minPrice.toLocaleString()} {currency}
+              {minPrice.toLocaleString('tr-TR')} {currency}
             </span>
           </div>
           <div className="bg-slate-50 px-3.5 py-2 rounded-2xl border border-slate-200">
-            <span className="text-[10px] text-slate-500 block font-semibold">Değişim (6 Ay)</span>
+            <span className="text-[10px] text-slate-500 block font-semibold">Değişim ({dateStats.diffDays} Gün)</span>
             <span className={`font-black text-sm ${Number(percentChange) <= 0 ? 'text-emerald-600' : 'text-rose-600'}`}>
               {Number(percentChange) <= 0 ? '' : '+'}{percentChange}%
             </span>
@@ -101,7 +113,7 @@ export function PriceHistoryChart({ data, currency, product }: PriceHistoryChart
         </div>
       </div>
 
-      {/* Recharts Area Chart with Animated Left-to-Right Line Drawing */}
+      {/* Recharts Area Chart */}
       <div className="h-64 w-full pt-2">
         <ResponsiveContainer width="100%" height="100%">
           <AreaChart data={effectiveData} margin={{ top: 10, right: 10, left: -20, bottom: 0 }}>
@@ -117,6 +129,7 @@ export function PriceHistoryChart({ data, currency, product }: PriceHistoryChart
               stroke="#64748b"
               tick={{ fontSize: 11, fontWeight: 600 }}
               tickLine={false}
+              tickFormatter={formatObservedDate}
             />
             <YAxis
               stroke="#64748b"
@@ -131,11 +144,13 @@ export function PriceHistoryChart({ data, currency, product }: PriceHistoryChart
                   const item = payload[0].payload as PriceHistoryPoint;
                   return (
                     <div className="bg-slate-900/95 backdrop-blur-md border border-slate-800 p-3.5 rounded-2xl shadow-xl text-xs space-y-1 text-white">
-                      <div className="text-slate-400 font-semibold">{item.date}</div>
+                      <div className="text-slate-400 font-semibold">{formatObservedDate(item.date)}</div>
                       <div className="text-emerald-400 font-black text-base">
-                        {item.price.toLocaleString()} {currency}
+                        {item.price.toLocaleString('tr-TR')} {currency}
                       </div>
-                      <div className="text-[11px] text-slate-300 font-medium">En uygun: <span className="font-bold text-white">{item.store}</span></div>
+                      {item.store && (
+                        <div className="text-[11px] text-slate-300 font-medium">Kaynak: <span className="font-bold text-white">{item.store}</span></div>
+                      )}
                     </div>
                   );
                 }
@@ -168,3 +183,5 @@ export function PriceHistoryChart({ data, currency, product }: PriceHistoryChart
     </div>
   );
 }
+
+export default PriceHistoryChart;

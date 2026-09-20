@@ -1,5 +1,8 @@
 'use client';
 
+import { readChatEvents } from '@/lib/ai/chatStream';
+import { CHAT_HISTORY_KEY, decodeChatHistory, encodeChatHistory } from '@/lib/ai/chatHistory';
+import { INSUFFICIENT_COMPARISON } from '@/lib/ai/chatEvidence';
 import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
 import { motion, AnimatePresence } from 'framer-motion';
@@ -103,6 +106,11 @@ export interface AIAssistantRecommendation {
   productName: string;
   category: string;
   price: number;
+  currentPrice?: number | null;
+  lastSeenPrice?: number | null;
+  priceStatus?: string;
+  statusLabel?: string;
+  lastCheckedAt?: string;
   image?: string;
   reason: string;
   cheapestStore?: string;
@@ -130,7 +138,12 @@ export interface ComparisonPanelData {
     brand: string;
     category: string;
     image?: string;
-    price: number;
+    price: number | null;
+    currentPrice?: number | null;
+    lastSeenPrice?: number | null;
+    priceStatus?: string;
+    statusLabel?: string;
+    lastCheckedAt?: string;
     cheapestStore: string;
     secondCheapestStore?: string;
     secondCheapestPrice?: number;
@@ -142,7 +155,8 @@ export interface ComparisonPanelData {
     productName: string;
     scenario: string;
     reasons: string[];
-  };
+  } | null;
+  overallStatus?: "insufficient_data";
 }
 
 export interface TechNewsArticle {
@@ -171,7 +185,7 @@ interface ChatMessage {
   isStreaming?: boolean;
 }
 
-interface AIAssistantModalProps {
+export interface AIAssistantModalProps {
   isOpen: boolean;
   onClose: () => void;
   initialQuery?: string;
@@ -517,10 +531,15 @@ export function AIAssistantModal({
       id: 'welcome',
       role: 'assistant',
       content:
-        "Merhaba! Ben RoboPengu, aceleetme'nin tarafsız ve uzman baş teknoloji danışmanıyım! 🐧\n\nTelefon, TV, laptop, tablet ve tüm teknoloji ürünleri hakkında tarafsız karşılaştırmalar yapabilir, en ucuz mağaza fiyatlarını çıkarabilir veya acele etmeden en doğru kararı vermen için donanımları kıyaslayabilirim.\n\nNasıl yardımcı olabilirim?",
+        "Merhaba! Ben RoboPengu, aceleetme'nin tarafsız ve uzman baş teknoloji danışmanıyım! 🐧\n\nTelefon, TV, laptop, tablet ve tüm teknoloji ürünleri hakkında tarafsız karşılaştırmalar yapabilir, fiyatların doğrulama durumunu gösterebilir veya acele etmeden en doğru kararı vermen için donanımları kıyaslayabilirim.\n\nNasıl yardımcı olabilirim?",
     }
   ]);
   const [input, setInput] = useState('');
+  const [historyReady, setHistoryReady] = useState(false);
+  const [historyNotice, setHistoryNotice] = useState('');
+  const historyLoadedRef = useRef(false);
+  const lastHistoryRawRef = useRef<string | null>(null);
+  const historySnapshotRef = useRef<ChatMessage[] | null>(null);
   const [loading, setLoading] = useState(false);
   const [activePanel, setActivePanel] = useState<ActiveSidePanel | null>(null);
   const [mobileTab, setMobileTab] = useState<'chat' | 'panel'>('chat');
@@ -914,36 +933,69 @@ export function AIAssistantModal({
     return `/phones/${slug}`;
   };
 
-  // 1. Tarayıcıda saklanan sohbet geçmişini yükle (LocalStorage)
+  // Hydrate before an initial query; also pick up history from another launcher.
   useEffect(() => {
+    if (!isOpen) { setHistoryReady(false); return; }
     try {
-      const saved = localStorage.getItem('robopengu_chat_history');
-      if (saved) {
-        const parsed = JSON.parse(saved);
-        if (Array.isArray(parsed) && parsed.length > 0) {
-          setMessages(parsed);
-        }
+      const saved = localStorage.getItem(CHAT_HISTORY_KEY);
+      if (!historyLoadedRef.current || saved !== lastHistoryRawRef.current) {
+        const decoded = decodeChatHistory(saved);
+        setHistoryNotice(decoded.invalidCount ? 'Geçmişteki bazı kayıtlar okunamadı. Okunabilir mesajlar gösteriliyor; kayıtlar otomatik silinmedi.' : '');
+        const restored: ChatMessage[] = decoded.messages.length ? decoded.messages : [{ id: 'welcome', role: 'assistant', content: "Merhaba! Ben RoboPengu. Ürünleri kayıtlı özellikleriyle karşılaştırmana ve fiyatların doğrulama durumunu incelemene yardımcı olabilirim. 🐧" }];
+        historySnapshotRef.current = restored;
+        if (historyLoadedRef.current) setActivePanel(null);
+        setMessages(restored);
+        lastHistoryRawRef.current = saved;
       }
-    } catch (e) {
-      console.error('[RoboPengu][ERROR] Failed to load chat history from localStorage', e);
+      historyLoadedRef.current = true;
+    } catch {
+      setHistoryNotice('Bu tarayıcıda sohbet geçmişine erişilemiyor. Yeni mesajlar bu oturumda kullanılabilir.');
     }
-  }, []);
+    setHistoryReady(true);
+  }, [isOpen]);
 
   // 2. Mesajlar tamamlandıkça localStorage'a kaydet (Streaming bitince)
   useEffect(() => {
-    if (messages.length > 1 && !messages.some((m) => m.isStreaming)) {
+    if (historyReady && messages !== historySnapshotRef.current && messages.length > 1 && !messages.some((m) => m.isStreaming)) {
       try {
-        localStorage.setItem('robopengu_chat_history', JSON.stringify(messages.slice(-25)));
-      } catch (e) {
-        console.error('[RoboPengu][ERROR] Failed to save chat history to localStorage', e);
+        const encoded = encodeChatHistory(messages);
+        if (!encoded) { setHistoryNotice('Bu uzun konuşma yalnızca açık oturumda korunuyor; tarayıcıya kaydedilemedi.'); return; }
+        localStorage.setItem(CHAT_HISTORY_KEY, encoded);
+        lastHistoryRawRef.current = encoded;
+        historySnapshotRef.current = messages;
+      } catch {
+        setHistoryNotice('Sohbet bu oturumda kullanılabilir; tarayıcıya kaydedilemedi.');
       }
     }
-  }, [messages]);
+  }, [messages, historyReady]);
+
+  // The first lazy mount keeps input disabled until hydration; focus it once ready.
+  useEffect(() => {
+    if (!isOpen || !historyReady) return;
+    const frame = requestAnimationFrame(() => {
+      if (!inputRef.current?.disabled) inputRef.current?.focus();
+    });
+    return () => cancelAnimationFrame(frame);
+  }, [isOpen, historyReady]);
 
 
+  const stopResponse = () => {
+    activeRequestIdRef.current = null;
+    abortControllerRef.current?.abort();
+    abortControllerRef.current = null;
+    setLoading(false);
+    setMessages(prev => prev.some(m => m.isStreaming) ? prev.map(m => m.isStreaming
+      ? { ...m, isStreaming: false, content: (m.content || '') + '\n\nYanıt durduruldu.' } : m) : prev);
+  };
+  useEffect(() => () => {
+    activeRequestIdRef.current = null;
+    abortControllerRef.current?.abort();
+  }, []);
+  useEffect(() => { if (!isOpen) stopResponse(); }, [isOpen]);
 
   // Sohbeti Sıfırlama
   const handleClearChat = () => {
+    stopResponse();
     stopSpeaking();
     stopListening();
     if (abortControllerRef.current) {
@@ -957,12 +1009,14 @@ export function AIAssistantModal({
         id: 'welcome',
         role: 'assistant',
         content:
-          "Merhaba! Ben RoboPengu, aceleetme'nin tarafsız ve uzman baş teknoloji danışmanıyım! 🐧\n\nTelefon, TV, laptop, tablet ve tüm teknoloji ürünleri hakkında tarafsız karşılaştırmalar yapabilir, en ucuz mağaza fiyatlarını çıkarabilir veya acele etmeden en doğru kararı vermen için donanımları kıyaslayabilirim.\n\nNasıl yardımcı olabilirim?",
+          "Merhaba! Ben RoboPengu, aceleetme'nin tarafsız ve uzman baş teknoloji danışmanıyım! 🐧\n\nTelefon, TV, laptop, tablet ve tüm teknoloji ürünleri hakkında tarafsız karşılaştırmalar yapabilir, fiyatların doğrulama durumunu gösterebilir veya acele etmeden en doğru kararı vermen için donanımları kıyaslayabilirim.\n\nNasıl yardımcı olabilirim?",
       }
     ]);
     try {
-      localStorage.removeItem('robopengu_chat_history');
-    } catch {}
+      localStorage.removeItem(CHAT_HISTORY_KEY);
+      lastHistoryRawRef.current = null;
+      setHistoryNotice('');
+    } catch { setHistoryNotice('Ekrandaki sohbet temizlendi; tarayıcıdaki kayıt silinemedi.'); }
   };
 
 
@@ -975,7 +1029,7 @@ export function AIAssistantModal({
       setVoiceEnabled(true);
     }
     const trimmed = queryText.trim();
-    if (!trimmed || loading || trimmed.length > 500) return;
+    if (!historyReady || !trimmed || loading || trimmed.length > 500) return;
 
     // Önceki yarım kalan isteği iptal et (Race condition önleme)
     if (abortControllerRef.current) {
@@ -1007,6 +1061,8 @@ export function AIAssistantModal({
 
     setMessages((prev) => [...prev, userMsg, assistantMsg]);
     setInput('');
+    setActivePanel(null);
+    setMobileTab('chat');
     setLoading(true);
 
     // 30 saniye başlangıç bağlantı zaman aşımı (Sonsuz yükleniyor'da takılı kalmayı önler)
@@ -1061,46 +1117,12 @@ export function AIAssistantModal({
         throw new Error(errMsg);
       }
 
-      const reader = res.body.getReader();
-      const decoder = new TextDecoder('utf-8');
-      let streamBuffer = '';
       let accumulatedBotText = '';
-
-      while (true) {
-        const { done, value } = await reader.read();
-        if (done) break;
-
-        if (!hasReceivedData) {
-          hasReceivedData = true;
-          clearTimeout(uiTimeout);
-        }
-
-        // Eğer bu esnada yeni bir istek geldiyse bu eski akışı sonlandır
-        if (activeRequestIdRef.current !== currentRequestId) {
-          reader.cancel();
-          return;
-        }
-
-        streamBuffer += decoder.decode(value, { stream: true });
-        const events = streamBuffer.split('\n\n');
-        streamBuffer = events.pop() || '';
-
-        for (const evt of events) {
-          if (!evt.trim()) continue;
-          if (activeRequestIdRef.current !== currentRequestId) return;
-
-          const lines = evt.split('\n');
-          let eventType = 'text';
-          let dataStr = '';
-
-          for (const line of lines) {
-            if (line.startsWith('event: ')) {
-              eventType = line.slice(7).trim();
-            } else if (line.startsWith('data: ')) {
-              dataStr = line.slice(6).trim();
-            }
-          }
-
+      for await (const { event: eventType, data: dataStr } of readChatEvents(res.body, {
+        signal: controller.signal,
+        onChunk: () => { hasReceivedData = true; clearTimeout(uiTimeout); },
+      })) {
+        if (activeRequestIdRef.current !== currentRequestId) return;
           // 1. Yan Panel Olayı (Karşılaştırma veya Haberler)
           if (eventType === 'panel' && dataStr) {
             try {
@@ -1170,46 +1192,6 @@ export function AIAssistantModal({
               }
             }
           }
-          // 4. Standart Düz Metin Akışı (Fallback)
-          else if (!evt.includes('event: ') && !evt.includes('data: ')) {
-            accumulatedBotText += evt;
-            setMessages((prev) =>
-              prev.map((m) =>
-                m.id === botMsgId ? { ...m, content: m.content + evt } : m
-              )
-            );
-          }
-        }
-      }
-
-      // Kalan tampon varsa işle
-      if (streamBuffer.trim()) {
-        const lines = streamBuffer.split('\n');
-        let eventType = 'text';
-        let dataStr = '';
-        for (const line of lines) {
-          if (line.startsWith('event: ')) eventType = line.slice(7).trim();
-          else if (line.startsWith('data: ')) dataStr = line.slice(6).trim();
-        }
-        if (eventType === 'text' && dataStr && dataStr !== '[DONE]') {
-          let token = dataStr;
-          try {
-            token = JSON.parse(dataStr);
-          } catch {
-            token = dataStr;
-          }
-          if (typeof token === 'string') {
-            accumulatedBotText += token;
-            setMessages((prev) =>
-              prev.map((m) => (m.id === botMsgId ? { ...m, content: m.content + token } : m))
-            );
-          }
-        } else if (!streamBuffer.includes('data: ') && !streamBuffer.includes('event: ')) {
-          accumulatedBotText += streamBuffer;
-          setMessages((prev) =>
-            prev.map((m) => (m.id === botMsgId ? { ...m, content: m.content + streamBuffer } : m))
-          );
-        }
       }
     } catch (err: any) {
       if (err.name === 'AbortError') {
@@ -1256,18 +1238,20 @@ export function AIAssistantModal({
     }
   };
 
+  const initialQueryHandledRef = useRef('');
   useEffect(() => {
-    if (isOpen) {
-      setTimeout(() => inputRef.current?.focus(), 150);
-      if (initialQuery.trim() && messages.length <= 1) {
-        handleSend(initialQuery.trim(), initialVoiceTrigger);
-      }
+    if (!isOpen) { initialQueryHandledRef.current = ''; return; }
+    if (!historyReady) return;
+    const query = initialQuery.trim();
+    if (query && !loading && initialQueryHandledRef.current !== query) {
+      initialQueryHandledRef.current = query;
+      handleSend(query, initialVoiceTrigger);
     }
-  }, [isOpen, initialQuery, initialVoiceTrigger]);
+  }, [isOpen, initialQuery, initialVoiceTrigger, loading, historyReady]);
 
   useEffect(() => {
-    messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' });
-  }, [messages, loading]);
+    if (isOpen) messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' });
+  }, [messages, loading, isOpen]);
 
   // 4 Hızlı Aksiyon Butonu
   const quickActions = [
@@ -1281,7 +1265,7 @@ export function AIAssistantModal({
     },
     {
       label: '📈 Fiyat Takip Grafiği',
-      prompt: 'aceleetme sitesindeki 6 aylık fiyat geçmişi grafiği ve fiyat alarmı nasıl çalışır?',
+      prompt: 'Kayıtlı fiyat gözlemleri ve bu tarayıcıda saklanan fiyat hedefleri nasıl çalışır?',
     },
     {
       label: '📰 Teknoloji Gündemi',
@@ -1290,10 +1274,79 @@ export function AIAssistantModal({
   ];
 
   const handleClose = () => {
+    stopResponse();
     stopSpeaking();
     stopListening();
     onClose();
   };
+
+  const dialogRef = useRef<HTMLDivElement>(null);
+  const escapeActionRef = useRef<() => void>(() => {});
+  useEffect(() => {
+    escapeActionRef.current = () => {
+      if (isNewsDrawerOpen) {
+        setIsNewsDrawerOpen(false);
+        inputRef.current?.focus();
+      } else {
+        handleClose();
+      }
+    };
+  });
+
+  useEffect(() => {
+    if (!isOpen || !dialogRef.current) return;
+    const dialog = dialogRef.current;
+    const trigger = document.activeElement as HTMLElement | null;
+    const previousOverflow = document.body.style.overflow;
+    document.body.style.overflow = 'hidden';
+    const focusFrame = requestAnimationFrame(() => inputRef.current?.focus());
+
+    // A nested news drawer owns focus while it is open.
+    const activeDialog = () => [...dialog.querySelectorAll<HTMLElement>('[role="dialog"]')]
+      .filter((element) => element.getClientRects().length > 0).at(-1) || dialog;
+    const focusableElements = (scope: HTMLElement) => [...scope.querySelectorAll<HTMLElement>(
+      'a[href], button:not([disabled]), input:not([disabled]), textarea:not([disabled]), select:not([disabled]), [tabindex]:not([tabindex="-1"])'
+    )].filter((element) => element.tabIndex >= 0 && element.getClientRects().length > 0);
+    const onKeyDown = (event: KeyboardEvent) => {
+      if (event.key === 'Escape') {
+        event.preventDefault();
+        event.stopPropagation();
+        escapeActionRef.current();
+      } else if (event.key === 'Tab') {
+        const scope = activeDialog();
+        const elements = focusableElements(scope);
+        const first = elements[0];
+        const last = elements.at(-1);
+        if (!first || !last) {
+          event.preventDefault();
+          scope.focus();
+        } else if (!scope.contains(document.activeElement) ||
+          (event.shiftKey && document.activeElement === first) ||
+          (!event.shiftKey && document.activeElement === last)) {
+          event.preventDefault();
+          (event.shiftKey ? last : first).focus();
+        }
+      }
+    };
+    const onFocusIn = (event: FocusEvent) => {
+      const scope = activeDialog();
+      if (event.target instanceof Node && !scope.contains(event.target)) {
+        (focusableElements(scope)[0] || scope).focus();
+      }
+    };
+    document.addEventListener('keydown', onKeyDown, true);
+    document.addEventListener('focusin', onFocusIn);
+    return () => {
+      cancelAnimationFrame(focusFrame);
+      document.removeEventListener('keydown', onKeyDown, true);
+      document.removeEventListener('focusin', onFocusIn);
+      document.body.style.overflow = previousOverflow;
+      requestAnimationFrame(() => {
+        if (trigger?.isConnected && trigger !== document.body) trigger.focus();
+        else document.querySelector<HTMLElement>('button[aria-label="RoboPengu AI Asistanı"]')?.focus();
+      });
+    };
+  }, [isOpen]);
 
   useEffect(() => {
     return () => {
@@ -1310,6 +1363,11 @@ export function AIAssistantModal({
     <AnimatePresence>
       {/* Arka Plan Overlay */}
       <div
+        ref={dialogRef}
+        role="dialog"
+        aria-modal="true"
+        aria-label="RoboPengu teknoloji asistanı"
+        tabIndex={-1}
         className="fixed inset-0 bg-slate-900/60 backdrop-blur-sm flex items-end sm:items-center justify-center p-0 sm:p-4 z-50 animate-in fade-in duration-200"
         onClick={(e) => {
           if (e.target === e.currentTarget) handleClose();
@@ -1363,7 +1421,7 @@ export function AIAssistantModal({
             className="relative w-full bg-gradient-to-b from-white via-[#f0f7ff] to-[#d6ebff] dark:from-slate-900 dark:via-slate-900 dark:to-slate-950 rounded-none sm:rounded-3xl shadow-2xl border-0 sm:border border-blue-100/80 dark:border-slate-800 flex flex-col overflow-hidden h-[100dvh] sm:h-[640px] md:h-[680px] lg:h-[720px] max-h-[100dvh] sm:max-h-[92vh] z-20"
           >
             {/* Modal Üst Başlık Çubuğu */}
-            <div className="px-3 sm:px-6 py-2.5 sm:py-3 border-b border-blue-100/60 dark:border-slate-800 flex items-center justify-between bg-white/75 dark:bg-slate-900/75 backdrop-blur-md shrink-0 gap-2">
+            <div className="px-3 sm:px-6 py-2.5 sm:py-3 border-b border-blue-100/60 dark:border-slate-800 flex items-center justify-between bg-white/75 dark:bg-slate-900/75 backdrop-blur-md shrink-0 gap-2 flex-wrap">
               <div className="flex items-center gap-2 sm:gap-3 min-w-0">
                 <div className="relative w-8 h-8 sm:w-9 sm:h-9 rounded-full bg-slate-900/90 dark:bg-slate-800 flex items-center justify-center overflow-hidden border border-cyan-400/40 dark:border-cyan-600 shrink-0 shadow-xs">
                   <img src="/images/futuristic_robopengu_emblem.png" alt="RoboPengu" className="w-7 h-7 sm:w-8 sm:h-8 object-contain" />
@@ -1378,7 +1436,7 @@ export function AIAssistantModal({
                   }`} />
                 </div>
                 <div className="flex items-center gap-1.5 flex-wrap min-w-0">
-                  <h3 className="font-bold text-slate-800 dark:text-white text-xs sm:text-sm truncate">
+                  <h3 className="font-bold text-slate-800 dark:text-white text-xs sm:text-sm whitespace-nowrap">
                     RoboPengu
                   </h3>
                   <span className="hidden xs:inline-flex px-1.5 py-0.5 text-[9px] sm:text-[10px] font-semibold bg-emerald-100 text-emerald-700 dark:bg-emerald-950/80 dark:text-emerald-300 rounded-full items-center gap-0.5">
@@ -1403,11 +1461,11 @@ export function AIAssistantModal({
 
               {/* Mobilde ve Tablette Tab Değiştirici (Panel Açıkken) */}
               {hasPanel && (
-                <div className="flex lg:hidden items-center gap-1 bg-slate-100 dark:bg-slate-800 p-0.5 rounded-xl text-xs font-semibold shrink-0">
+                <div className="order-3 sm:order-none w-full sm:w-auto justify-center flex lg:hidden items-center gap-1 bg-slate-100 dark:bg-slate-800 p-0.5 rounded-xl text-xs font-semibold shrink-0">
                   <button
                     type="button"
                     onClick={() => setMobileTab('chat')}
-                    className={`px-2.5 py-1 rounded-lg transition-colors flex items-center gap-1 cursor-pointer touch-manipulation ${
+                    className={`min-h-11 px-2.5 py-1 rounded-lg transition-colors flex items-center gap-1 cursor-pointer touch-manipulation ${
                       mobileTab === 'chat'
                         ? 'bg-white dark:bg-slate-700 text-emerald-600 dark:text-emerald-400 shadow-xs'
                         : 'text-slate-500 hover:text-slate-700'
@@ -1419,7 +1477,7 @@ export function AIAssistantModal({
                   <button
                     type="button"
                     onClick={() => setMobileTab('panel')}
-                    className={`px-2.5 py-1 rounded-lg transition-colors flex items-center gap-1 cursor-pointer touch-manipulation ${
+                    className={`min-h-11 px-2.5 py-1 rounded-lg transition-colors flex items-center gap-1 cursor-pointer touch-manipulation ${
                       mobileTab === 'panel'
                         ? 'bg-white dark:bg-slate-700 text-emerald-600 dark:text-emerald-400 shadow-xs'
                         : 'text-slate-500 hover:text-slate-700'
@@ -1445,7 +1503,7 @@ export function AIAssistantModal({
                 <button
                   type="button"
                   onClick={toggleVoice}
-                  className={`p-1.5 sm:p-2 rounded-xl transition text-xs flex items-center gap-1 cursor-pointer touch-manipulation active:scale-95 ${
+                  className={`min-h-11 min-w-11 p-1.5 sm:p-2 rounded-xl transition text-xs flex items-center gap-1 cursor-pointer touch-manipulation active:scale-95 ${
                     voiceEnabled
                       ? 'text-emerald-600 dark:text-emerald-400 hover:bg-emerald-50 dark:hover:bg-emerald-950/60'
                       : 'text-slate-400 hover:text-slate-600 dark:hover:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800'
@@ -1465,7 +1523,7 @@ export function AIAssistantModal({
                 <button
                   type="button"
                   onClick={handleClearChat}
-                  className="text-slate-400 hover:text-rose-500 dark:hover:text-rose-400 p-1.5 sm:p-2 rounded-xl hover:bg-slate-100 dark:hover:bg-slate-800 transition text-xs flex items-center gap-1 cursor-pointer touch-manipulation active:scale-95"
+                  className="text-slate-400 hover:text-rose-500 dark:hover:text-rose-400 min-h-11 min-w-11 p-1.5 sm:p-2 rounded-xl hover:bg-slate-100 dark:hover:bg-slate-800 transition text-xs flex items-center gap-1 cursor-pointer touch-manipulation active:scale-95"
                   title="Sohbeti Temizle"
                 >
                   <Trash2 className="w-4 h-4" />
@@ -1473,7 +1531,7 @@ export function AIAssistantModal({
                 </button>
                 <button
                   onClick={handleClose}
-                  className="text-slate-400 hover:text-slate-700 dark:hover:text-slate-200 transition text-lg p-1.5 sm:p-2 rounded-xl hover:bg-slate-100 dark:hover:bg-slate-800 cursor-pointer touch-manipulation active:scale-95 flex items-center justify-center"
+                  className="text-slate-400 hover:text-slate-700 dark:hover:text-slate-200 transition text-lg min-h-11 min-w-11 p-1.5 sm:p-2 rounded-xl hover:bg-slate-100 dark:hover:bg-slate-800 cursor-pointer touch-manipulation active:scale-95 flex items-center justify-center"
                   aria-label="Kapat"
                 >
                   ✕
@@ -1493,6 +1551,7 @@ export function AIAssistantModal({
               >
                 {/* Mesaj Listesi / Karşılama Ekranı */}
                 <div className="flex-1 overflow-y-auto p-4 sm:p-5 space-y-4 flex flex-col">
+                  {historyNotice && <p role="status" className="rounded-xl border border-amber-200 bg-amber-50 p-3 text-xs text-amber-900">{historyNotice}</p>}
                   {messages.length === 1 && messages[0].id === 'welcome' ? (
                     /* 🐧 MERKEZ: ÖZEL METALİK ROBOPENGU AMBLEMİ VE BAŞLIK */
                     <div className="flex-1 my-auto flex flex-col items-center justify-center text-center px-4 py-8 select-none animate-in fade-in zoom-in-95 duration-300">
@@ -1691,14 +1750,14 @@ export function AIAssistantModal({
                             )}
 
                             {/* Mobilde Sağ Paneldeki Detaylı Analizi Görme Butonu */}
-                            {isComparisonMsg && hasPanel && (
+                            {isComparisonMsg && hasPanel && m.id === latestAssistantMsg?.id && (
                               <button
                                 type="button"
                                 onClick={() => setMobileTab('panel')}
                                 className="lg:hidden w-full sm:w-auto inline-flex items-center justify-center gap-2 py-2 px-3.5 text-xs font-bold text-emerald-700 dark:text-emerald-300 bg-emerald-50 dark:bg-emerald-950/60 border border-emerald-300/80 dark:border-emerald-800/80 rounded-xl cursor-pointer hover:bg-emerald-100 transition shadow-2xs active:scale-98 touch-manipulation mt-1"
                               >
                                 <Layers className="w-3.5 h-3.5 text-emerald-600 dark:text-emerald-400" />
-                                <span>Detaylı Kıyaslama ve Mağaza Fiyatlarını Gör ➔</span>
+                                <span>Karşılaştırma ve Fiyat Durumunu Gör ➔</span>
                               </button>
                             )}
 
@@ -1714,7 +1773,7 @@ export function AIAssistantModal({
                                     <Link
                                       key={rec.productId || idx}
                                       href={getProductUrl(rec)}
-                                      onClick={onClose}
+                                      onClick={handleClose}
                                       className="p-2.5 bg-white dark:bg-slate-900 border border-slate-200/80 dark:border-slate-800 rounded-xl flex items-center gap-2.5 shadow-xs hover:border-emerald-500 dark:hover:border-emerald-500 transition cursor-pointer group active:scale-[0.99] touch-manipulation"
                                     >
                                       <div className="w-10 h-12 bg-slate-50 dark:bg-slate-800 rounded-lg p-0.5 shrink-0 flex items-center justify-center border border-slate-100 dark:border-slate-700 overflow-hidden">
@@ -1726,13 +1785,26 @@ export function AIAssistantModal({
                                         />
                                       </div>
                                       <div className="flex-1 min-w-0">
-                                        <h5 className="text-xs font-bold text-slate-800 dark:text-slate-100 group-hover:text-emerald-600 dark:group-hover:text-emerald-400 transition-colors truncate">
+                                        <h5 className="text-xs font-bold text-slate-800 dark:text-slate-100 group-hover:text-emerald-600 dark:group-hover:text-emerald-400 transition-colors break-words">
                                           {rec.productName}
                                         </h5>
-                                        <div className="flex items-center gap-1.5 text-[11px] mt-0.5">
-                                          <span className="font-extrabold text-emerald-600 dark:text-emerald-400">
-                                            ₺{rec.price.toLocaleString('tr-TR')}
-                                          </span>
+                                        <div className="flex items-center gap-1.5 text-[11px] mt-0.5 flex-wrap">
+                                          {rec.price && rec.price > 0 ? (
+                                            <span className={`font-extrabold ${rec.priceStatus === 'fresh' ? 'text-emerald-600 dark:text-emerald-400' : 'text-slate-700 dark:text-slate-200'}`}>
+                                              ₺{rec.price.toLocaleString('tr-TR')}
+                                            </span>
+                                          ) : null}
+                                          {(
+                                            <span className={`text-[10px] font-bold px-1.5 py-0.2 rounded ${
+                                              rec.priceStatus === 'fresh'
+                                                ? 'bg-emerald-100 text-emerald-700 dark:bg-emerald-950 dark:text-emerald-300'
+                                                : rec.priceStatus === 'stale'
+                                                ? 'bg-amber-100 text-amber-800 dark:bg-amber-950 dark:text-amber-300'
+                                                : 'bg-slate-100 text-slate-600 dark:bg-slate-800 dark:text-slate-400'
+                                            }`}>
+                                              {rec.statusLabel || 'Fiyat doğrulanmadı'}
+                                            </span>
+                                          )}
                                           <span className="text-[10px] text-slate-400 truncate">
                                             • {rec.cheapestStore}
                                           </span>
@@ -1848,6 +1920,8 @@ export function AIAssistantModal({
                       <input
                         ref={inputRef}
                         type="text"
+                        aria-label="RoboPengu mesajı"
+                        maxLength={500}
                         value={input}
                         onChange={(e) => {
                           stopSpeaking();
@@ -1858,8 +1932,8 @@ export function AIAssistantModal({
                             ? 'Dinliyorum, konuşabilirsiniz... 🎙️'
                             : "RoboPengu'ya sorun"
                         }
-                        disabled={loading}
-                        className={`w-full bg-transparent text-[15px] sm:text-sm outline-none font-normal transition-colors ${
+                        disabled={loading || !historyReady}
+                        className={`w-full bg-transparent text-base outline-none font-normal transition-colors ${
                           isListening
                             ? 'text-rose-600 dark:text-rose-400 placeholder:text-rose-500 animate-pulse font-semibold'
                             : 'text-slate-800 dark:text-slate-100 placeholder:text-slate-400'
@@ -1877,7 +1951,7 @@ export function AIAssistantModal({
                           else startListening();
                         }}
                         disabled={loading}
-                        className={`w-9 h-9 rounded-full flex items-center justify-center transition cursor-pointer active:scale-95 touch-manipulation ${
+                        className={`w-11 h-11 shrink-0 rounded-full flex items-center justify-center transition cursor-pointer active:scale-95 touch-manipulation ${
                           isListening
                             ? 'bg-rose-500 text-white animate-pulse ring-2 ring-rose-300 dark:ring-rose-800'
                             : 'text-slate-700 dark:text-slate-300 hover:text-slate-900 dark:hover:text-white hover:bg-slate-100 dark:hover:bg-slate-800'
@@ -1911,7 +1985,7 @@ export function AIAssistantModal({
                             speakSummary("Merhaba! Ben RoboPengu, aceleetme'nin baş teknoloji danışmanıyım. Hangi cihazları karşılaştırmak istersin?", true);
                           }
                         }}
-                        className={`w-9 h-9 rounded-full transition flex items-center justify-center cursor-pointer active:scale-95 shadow-2xs ${
+                        className={`w-11 h-11 shrink-0 rounded-full transition flex items-center justify-center cursor-pointer active:scale-95 shadow-2xs ${
                           isSpeaking
                             ? 'bg-blue-600 text-white animate-pulse'
                             : 'bg-[#d8ecfc] dark:bg-blue-950/70 hover:bg-[#c2e2fa] dark:hover:bg-blue-900/80 text-[#0b57d0] dark:text-blue-300'
@@ -1929,12 +2003,13 @@ export function AIAssistantModal({
                       {/* Gönder Butonu (Kullanıcı metin yazdığında veya yüklenirken) */}
                       {(input.trim() || loading) && (
                         <button
-                          type="submit"
-                          disabled={loading || !input.trim() || input.length > 500}
-                          className="w-9 h-9 rounded-full bg-blue-600 hover:bg-blue-700 disabled:opacity-40 disabled:cursor-not-allowed text-white flex items-center justify-center transition shadow-xs cursor-pointer shrink-0 active:scale-95 touch-manipulation ml-0.5"
-                          aria-label="Gönder"
+                          type={loading ? "button" : "submit"}
+                          onClick={loading ? stopResponse : undefined}
+                          disabled={!loading && (!input.trim() || input.length > 500)}
+                          className="w-11 h-11 shrink-0 rounded-full bg-blue-600 hover:bg-blue-700 disabled:opacity-40 disabled:cursor-not-allowed text-white flex items-center justify-center transition shadow-xs cursor-pointer shrink-0 active:scale-95 touch-manipulation ml-0.5"
+                          aria-label={loading ? "Yanıtı Durdur" : "Gönder"}
                         >
-                          {loading ? <Loader2 className="w-4 h-4 animate-spin" /> : '➤'}
+                          {loading ? <span aria-hidden="true">■</span> : '➤'}
                         </button>
                       )}
                     </div>
@@ -1984,7 +2059,7 @@ export function AIAssistantModal({
                       <button
                         type="button"
                         onClick={() => setMobileTab('chat')}
-                        className="lg:hidden inline-flex items-center gap-1 px-2.5 py-1 text-xs font-bold text-emerald-700 dark:text-emerald-300 bg-emerald-100 dark:bg-emerald-950/80 border border-emerald-300/80 dark:border-emerald-800/80 rounded-lg hover:bg-emerald-200 transition cursor-pointer touch-manipulation shrink-0"
+                        className="hidden sm:inline-flex lg:hidden items-center gap-1 px-2.5 py-1 text-xs font-bold text-emerald-700 dark:text-emerald-300 bg-emerald-100 dark:bg-emerald-950/80 border border-emerald-300/80 dark:border-emerald-800/80 rounded-lg hover:bg-emerald-200 transition cursor-pointer touch-manipulation shrink-0"
                       >
                         <span>←</span>
                         <span>Sohbet</span>
@@ -1996,7 +2071,7 @@ export function AIAssistantModal({
                             <Swords className="w-4 h-4" />
                           </span>
                           <div className="min-w-0">
-                            <h4 className="font-bold text-xs text-slate-800 dark:text-slate-100 truncate">
+                            <h4 className="font-bold text-xs text-slate-800 dark:text-slate-100 break-words">
                               Karşılaştırma Paneli
                             </h4>
                             <p className="text-[10px] text-slate-500 truncate hidden sm:block">
@@ -2010,7 +2085,7 @@ export function AIAssistantModal({
                             <Newspaper className="w-4 h-4" />
                           </span>
                           <div className="min-w-0">
-                            <h4 className="font-bold text-xs text-slate-800 dark:text-slate-100 truncate">
+                            <h4 className="font-bold text-xs text-slate-800 dark:text-slate-100 break-words">
                               Teknoloji Gündemi
                             </h4>
                             <p className="text-[10px] text-slate-500 truncate hidden sm:block">
@@ -2025,8 +2100,8 @@ export function AIAssistantModal({
                       {activePanel.type === 'comparison' && Array.isArray(activePanel.products) && activePanel.products.length >= 2 && (
                         <Link
                           href={`/compare?d1=${activePanel.products[0].slug || activePanel.products[0].id}&d2=${activePanel.products[1].slug || activePanel.products[1].id}`}
-                          onClick={onClose}
-                          className="px-2.5 py-1 bg-gradient-to-r from-emerald-600 to-teal-600 hover:from-emerald-500 hover:to-teal-500 text-white rounded-lg text-xs font-bold transition flex items-center gap-1 shadow-2xs cursor-pointer"
+                          onClick={handleClose}
+                          className="min-h-11 px-2.5 py-1 bg-gradient-to-r from-emerald-600 to-teal-600 hover:from-emerald-500 hover:to-teal-500 text-white rounded-lg text-xs font-bold transition flex items-center gap-1 shadow-2xs cursor-pointer"
                         >
                           <span>Düelloya Git</span>
                           <Swords className="w-3.5 h-3.5" />
@@ -2039,7 +2114,7 @@ export function AIAssistantModal({
                           setActivePanel(null);
                           setMobileTab('chat');
                         }}
-                        className="text-slate-400 hover:text-slate-600 dark:hover:text-slate-200 p-1.5 text-xs font-semibold rounded-lg hover:bg-slate-200 dark:hover:bg-slate-700 transition cursor-pointer flex items-center gap-1 shrink-0 touch-manipulation"
+                        className="text-slate-400 hover:text-slate-600 dark:hover:text-slate-200 min-h-11 min-w-11 justify-center p-1.5 text-xs font-semibold rounded-lg hover:bg-slate-200 dark:hover:bg-slate-700 transition cursor-pointer flex items-center gap-1 shrink-0 touch-manipulation"
                         title="Paneli Kapat"
                       >
                         <X className="w-4 h-4" />
@@ -2058,7 +2133,11 @@ export function AIAssistantModal({
                     )}
                     {activePanel.type === 'comparison' && Array.isArray(activePanel.products) && activePanel.products.length >= 2 && Array.isArray(activePanel.matrix) && (
                       <div className="space-y-4">
-                        {/* 1. ROBO PENGU TEKNOLOJİ KAZANANI HERO BANNER */}
+                        {!activePanel.winner && (
+                          <div role="status" className="p-3 rounded-xl bg-slate-50 dark:bg-slate-800 text-sm text-slate-700 dark:text-slate-200 border border-slate-200 dark:border-slate-700">
+                            {INSUFFICIENT_COMPARISON} Katalog değerleri bağımsız donanım testi değildir.
+                          </div>
+                        )}
                         {activePanel.winner && (
                           <div className="rounded-2xl bg-gradient-to-r from-emerald-500/10 via-slate-50 to-slate-50 dark:from-emerald-950/40 dark:via-slate-900/90 dark:to-slate-900/90 border border-emerald-300/80 dark:border-emerald-500/30 p-3.5 sm:p-4 shadow-sm relative overflow-hidden">
                             <div className="flex items-start gap-3">
@@ -2120,25 +2199,41 @@ export function AIAssistantModal({
                                   <div className="text-[10px] font-bold text-slate-400 uppercase tracking-wider text-center">
                                     {p.brand}
                                   </div>
-                                  <h5 className="text-xs sm:text-sm font-bold text-slate-800 dark:text-slate-100 text-center line-clamp-1">
+                                  <h5 className="text-xs sm:text-sm font-bold text-slate-800 dark:text-slate-100 text-center break-words">
                                     {p.name}
                                   </h5>
 
-                                  <div className="mt-1 flex items-center justify-center gap-1">
-                                    <span className="text-sm sm:text-base font-extrabold text-emerald-600 dark:text-emerald-400 font-mono">
-                                      {p.price > 0 ? `₺${p.price.toLocaleString('tr-TR')}` : 'Piyasa Fiyatı'}
-                                    </span>
+                                  <div className="mt-1 flex flex-col items-center justify-center gap-0.5">
+                                    {p.price && p.price > 0 ? (
+                                      <span className={`text-sm sm:text-base font-extrabold font-mono ${p.priceStatus === 'fresh' ? 'text-emerald-600 dark:text-emerald-400' : 'text-slate-700 dark:text-slate-300'}`}>
+                                        ₺{p.price.toLocaleString('tr-TR')}
+                                      </span>
+                                    ) : null}
+                                    {p.priceStatus !== 'fresh' && p.priceStatus !== 'stale' && (
+                                      <span className="text-[10px] text-slate-500 text-center">Katalog Referans Fiyatı</span>
+                                    )}
+                                    {p.statusLabel && (
+                                      <span className={`text-[10px] font-bold px-1.5 py-0.5 rounded text-center ${
+                                        p.priceStatus === 'fresh'
+                                          ? 'bg-emerald-100 text-emerald-700 dark:bg-emerald-950 dark:text-emerald-300'
+                                          : p.priceStatus === 'stale'
+                                          ? 'bg-amber-100 text-amber-800 dark:bg-amber-950 dark:text-amber-300'
+                                          : 'bg-slate-100 text-slate-600 dark:bg-slate-800 dark:text-slate-400'
+                                      }`}>
+                                        {p.statusLabel}
+                                      </span>
+                                    )}
                                   </div>
                                 </div>
 
                                 <div className="mt-2.5">
                                   <Link
                                     href={getProductUrl(p)}
-                                    onClick={onClose}
-                                    className="w-full py-1.5 px-2 bg-white dark:bg-slate-800 hover:bg-emerald-500 hover:text-white dark:hover:bg-emerald-600 text-slate-700 dark:text-slate-200 border border-slate-200 dark:border-slate-700 rounded-xl text-[11px] font-bold transition cursor-pointer flex items-center justify-center gap-1 text-center shadow-2xs"
+                                    onClick={handleClose}
+                                    className="w-full min-h-11 py-2 px-2 bg-white dark:bg-slate-800 hover:bg-emerald-500 hover:text-white dark:hover:bg-emerald-600 text-slate-700 dark:text-slate-200 border border-slate-200 dark:border-slate-700 rounded-xl text-[11px] font-bold transition cursor-pointer flex items-center justify-center gap-1 text-center shadow-2xs"
                                   >
                                     <span>🛒</span>
-                                    <span className="truncate">{p.cheapestStore ? `${p.cheapestStore}'da İncele` : 'Katalogda Gör ↗'}</span>
+                                    <span>Ürün Detayını Aç</span>
                                   </Link>
                                 </div>
                               </div>
@@ -2154,12 +2249,12 @@ export function AIAssistantModal({
                             </div>
                             <div>
                               <h6 className="text-xs font-bold text-emerald-900 dark:text-emerald-200">
-                                Canlı Teknik Analiz Hazırlanıyor...
+                                Katalog Karşılaştırması Hazırlanıyor...
                               </h6>
                               <p className="text-[11px] text-emerald-700/80 dark:text-emerald-400/80">
                                 {activePanel.category === 'tvs'
                                   ? 'RoboPengu panel teknolojisi, yenileme hızı, ses sistemi ve portları panele aktarıyor.'
-                                  : 'RoboPengu tüm donanım, benchmark ve teknik kıyaslama kriterlerini panele aktarıyor.'}
+                                  : 'RoboPengu kayıtlı teknik özellikleri panele aktarıyor.'}
                               </p>
                             </div>
                           </div>
@@ -2238,7 +2333,7 @@ export function AIAssistantModal({
                               if (catRows.length === 0) return null;
 
                               // Eşleşen derin analiz paragrafını bul
-                              const matchingAnalysisIdx = analysisSections.findIndex((s) => {
+                              const matchingAnalysisIdx = activePanel.overallStatus === 'insufficient_data' ? -1 : analysisSections.findIndex((s) => {
                                 const t = s.title.toLowerCase();
                                 if (cat.key === 'processor') return t.includes('işlemci') || t.includes('donanım') || t.includes('performans') || t.includes('çip');
                                 if (cat.key === 'screen') return t.includes('ekran') || t.includes('panel') || t.includes('görüntü');
@@ -2287,16 +2382,16 @@ export function AIAssistantModal({
                                             return (
                                               <div
                                                 key={valIdx}
-                                                className={`p-2 rounded-xl border text-xs transition-all flex items-center justify-between gap-1.5 ${
+                                                className={`p-2 rounded-xl border text-xs transition-all min-w-0 flex flex-col items-start justify-between gap-1.5 ${
                                                   isSuperior
                                                     ? 'bg-emerald-500/10 dark:bg-emerald-950/30 border-emerald-400/60 dark:border-emerald-500/40 text-emerald-800 dark:text-emerald-300 font-bold'
                                                     : 'bg-white/60 dark:bg-slate-900/60 border-slate-200/70 dark:border-slate-800 text-slate-700 dark:text-slate-300 font-medium'
                                                 }`}
                                               >
-                                                <span className="truncate">{val}</span>
+                                                <span className="min-w-0 break-words">{val}</span>
                                                 {isSuperior && (
                                                   <span className="shrink-0 px-1.5 py-0.5 rounded text-[10px] font-extrabold bg-emerald-500/20 text-emerald-600 dark:text-emerald-400 border border-emerald-500/30">
-                                                    ✓ Üstün
+                                                    ✓ Değer farkı
                                                   </span>
                                                 )}
                                               </div>
@@ -2343,11 +2438,11 @@ export function AIAssistantModal({
                           })()}
 
                           {/* Kategorilere ayrışmamış genel derin analiz metni varsa */}
-                          {analysisSections.length === 0 && activeDeepAnalysis && (
+                          {(analysisSections.length === 0 || activePanel.overallStatus === 'insufficient_data') && activeDeepAnalysis && (
                             <div className="bg-white dark:bg-slate-900 border border-slate-200/90 dark:border-slate-800 rounded-2xl p-4 shadow-xs">
                               <div className="flex items-center gap-2 text-xs font-bold text-slate-800 dark:text-slate-100 mb-2">
                                 <Sparkles className="w-3.5 h-3.5 text-emerald-500" />
-                                <span>Detaylı Donanım Değerlendirmesi</span>
+                                <span>Katalog Farkları ve Fiyat Durumu</span>
                               </div>
                               <div className="text-xs sm:text-[13px] text-slate-700 dark:text-slate-200 leading-relaxed">
                                 <MarkdownRenderer

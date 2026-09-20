@@ -1,23 +1,28 @@
 'use client';
 
-import React, { useState, useMemo, useRef, Suspense } from 'react';
+import React, { useState, useMemo, Suspense } from 'react';
 import Link from 'next/link';
 import { useRouter, useSearchParams } from 'next/navigation';
 import { Product } from '@/lib/types';
 import { useI18n } from '@/lib/i18n/context';
 import { CompactProductCard } from '@/components/catalog/CompactProductCard';
 import { CategoryIconStrip } from '@/components/layout/CategoryIconStrip';
-import { Search, ChevronDown, X, Flame } from 'lucide-react';
+import { Search, ChevronDown, X, ArrowRight } from 'lucide-react';
+
+import { useCatalogMenus } from '@/components/catalog/useCatalogMenus';
+import { getCatalogDisplayPrices, getCatalogSearchText, normalizeCatalogQuery, compareListingProducts } from '@/lib/catalogListing';
+
+import { matchesMonitorSegment } from '@/lib/catalogSegments';
 
 const ITEMS_PER_PAGE = 24;
 
 const TABS = [
   { id: 'all', label: 'Tüm Monitörler', desc: 'Tüm boyut ve yenileme hızları' },
-  { id: 'gaming', label: 'Oyuncu Monitörleri (144Hz+)', desc: '0.5ms-1ms, G-Sync/FreeSync, 240Hz/360Hz' },
-  { id: 'pro', label: 'Grafik & 4K/UHD', desc: 'Renk doğruluğu, %99 DCI-P3, IPS & OLED' },
-  { id: '27inch', label: '27-28 İnç (2K QHD)', desc: 'İdeal çalışma ve oyun boyutu' },
-  { id: '32inch', label: '32 İnç & Geniş Ekran', desc: 'Büyük ekran ve kavisli (curved) deneyim' },
-  { id: '24inch', label: '24 İnç (FHD / Bütçe)', desc: 'Kompakt masaüstü ve espor' }
+  { id: 'gaming', label: 'Oyuncu Monitörleri (144Hz+)', desc: 'Yenileme hızı 144 Hz ve üzeri modeller' },
+  { id: 'pro', label: 'Grafik & 4K/UHD', desc: '4K çözünürlük veya profesyonel ürün serileri' },
+  { id: '27inch', label: '27-28 İnç', desc: 'İdeal çalışma ve oyun boyutu' },
+  { id: '32inch', label: '31 İnç ve Üzeri', desc: 'Büyük ekran ve kavisli (curved) deneyim' },
+  { id: '24inch', label: '23-25 İnç', desc: 'Kompakt masaüstü ve espor' }
 ];
 
 function MonitorsContent({ initialProducts }: { initialProducts: Product[] }) {
@@ -27,15 +32,12 @@ function MonitorsContent({ initialProducts }: { initialProducts: Product[] }) {
   const [products] = useState<Product[]>(initialProducts);
   const [activeTab, setActiveTab] = useState<string>('all');
   const [searchQuery, setSearchQuery] = useState('');
-  const [sortBy, setSortBy] = useState('popular');
+  const requestedSort = searchParams.get('sortBy') || 'popular';
+  const sortBy = ['popular', 'priceAsc', 'priceDesc', 'rating', 'newest'].includes(requestedSort) ? requestedSort : 'popular';
   const [visibleCount, setVisibleCount] = useState(ITEMS_PER_PAGE);
 
-  // Hover Popover States
-  const [brandDropdownOpen, setBrandDropdownOpen] = useState(false);
-  const [tabDropdownOpen, setTabDropdownOpen] = useState(false);
-
-  const brandTimeoutRef = useRef<NodeJS.Timeout | null>(null);
-  const tabTimeoutRef = useRef<NodeJS.Timeout | null>(null);
+  const { brandDropdownOpen, setBrandDropdownOpen, tabDropdownOpen, setTabDropdownOpen,
+    menuMaxHeight, filtersRef, brandButtonRef, tabButtonRef, onFilterBlur } = useCatalogMenus();
 
   const brandParam = searchParams.get('brand');
   const selectedBrand = brandParam || 'all';
@@ -48,8 +50,7 @@ function MonitorsContent({ initialProducts }: { initialProducts: Product[] }) {
     });
     return Array.from(counts.entries())
       .sort((a, b) => b[1] - a[1])
-      .map(([brand, count]) => ({ name: brand, count }))
-      .slice(0, 16);
+      .map(([brand, count]) => ({ name: brand, count }));
   }, [products]);
 
   const handleSelectBrand = (brandName: string) => {
@@ -61,24 +62,12 @@ function MonitorsContent({ initialProducts }: { initialProducts: Product[] }) {
     }
     setVisibleCount(ITEMS_PER_PAGE);
     setBrandDropdownOpen(false);
+    brandButtonRef.current?.focus();
     router.push(`/monitors?${params.toString()}`, { scroll: false });
   };
 
-  const handleBrandMouseEnter = () => {
-    if (brandTimeoutRef.current) clearTimeout(brandTimeoutRef.current);
-    setBrandDropdownOpen(true);
-  };
-  const handleBrandMouseLeave = () => {
-    brandTimeoutRef.current = setTimeout(() => setBrandDropdownOpen(false), 180);
-  };
-
-  const handleTabMouseEnter = () => {
-    if (tabTimeoutRef.current) clearTimeout(tabTimeoutRef.current);
-    setTabDropdownOpen(true);
-  };
-  const handleTabMouseLeave = () => {
-    tabTimeoutRef.current = setTimeout(() => setTabDropdownOpen(false), 180);
-  };
+  const prices = useMemo(() => getCatalogDisplayPrices(products), [products]);
+  const searchText = useMemo(() => new Map(products.map((product) => [product.id, getCatalogSearchText(product)])), [products]);
 
   const displayProducts = useMemo(() => {
     return products
@@ -87,40 +76,12 @@ function MonitorsContent({ initialProducts }: { initialProducts: Product[] }) {
           return false;
         }
 
-        if (searchQuery) {
-          const q = searchQuery.toLowerCase();
-          const matchesName = p.name.toLowerCase().includes(q);
-          const matchesBrand = p.brand.toLowerCase().includes(q);
-          if (!matchesName && !matchesBrand) return false;
-        }
+        if (searchQuery.trim() && !searchText.get(p.id)?.includes(normalizeCatalogQuery(searchQuery))) return false;
 
-        const sizeInches = (p.specs as any)?.screenSizeInches || 0;
-        const resolution = ((p.specs as any)?.resolution || '').toLowerCase();
-        const refreshRate = (p.specs as any)?.refreshRateHz || 60;
-        const pName = p.name.toLowerCase();
-
-        if (activeTab === 'gaming') {
-          return refreshRate >= 144 || pName.includes('gaming') || pName.includes('rog') || pName.includes('odyssey') || pName.includes('ultragear') || pName.includes('tuf');
-        } else if (activeTab === 'pro') {
-          return resolution.includes('4k') || resolution.includes('3840') || pName.includes('proart') || pName.includes('studio') || pName.includes('ultrafine');
-        } else if (activeTab === '27inch') {
-          return sizeInches >= 26.5 && sizeInches <= 28.5;
-        } else if (activeTab === '32inch') {
-          return sizeInches >= 31 && sizeInches <= 34;
-        } else if (activeTab === '24inch') {
-          return sizeInches >= 23 && sizeInches <= 25;
-        }
-
-        return true;
+        return matchesMonitorSegment(p, activeTab);
       })
-      .sort((a, b) => {
-        if (sortBy === 'priceAsc') return a.basePrice - b.basePrice;
-        if (sortBy === 'priceDesc') return b.basePrice - a.basePrice;
-        if (sortBy === 'rating') return b.rating - a.rating;
-        if (sortBy === 'newest') return (b.releaseYear || 2024) - (a.releaseYear || 2024);
-        return (b.isPopular ? 1 : 0) - (a.isPopular ? 1 : 0);
-      });
-  }, [products, selectedBrand, searchQuery, activeTab, sortBy]);
+      .sort((a, b) => compareListingProducts(a, b, sortBy, prices));
+  }, [products, prices, searchText, selectedBrand, searchQuery, activeTab, sortBy]);
 
   const activeTabObj = TABS.find((t) => t.id === activeTab) || TABS[0];
 
@@ -133,7 +94,7 @@ function MonitorsContent({ initialProducts }: { initialProducts: Product[] }) {
         {/* Main Title & Search Bar */}
         <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
           
-          <div className="flex items-center gap-3">
+          <div className="flex items-center gap-3 flex-wrap">
             <h1 className="text-2xl sm:text-3xl font-black text-slate-900 dark:text-white tracking-tight">
               Monitörler
             </h1>
@@ -147,18 +108,20 @@ function MonitorsContent({ initialProducts }: { initialProducts: Product[] }) {
             <Search className="w-4 h-4 text-slate-400 absolute left-3.5 top-1/2 -translate-y-1/2" />
             <input
               type="text"
+              aria-label="Katalogda ara"
               placeholder="Monitör ara (144Hz, 2K, IPS, marka)..."
               value={searchQuery}
               onChange={(e) => {
                 setSearchQuery(e.target.value);
                 setVisibleCount(ITEMS_PER_PAGE);
               }}
-              className="w-full bg-white dark:bg-slate-900 hover:bg-slate-50 focus:bg-white border border-slate-200 dark:border-slate-800 focus:border-emerald-600 rounded-full pl-9 pr-8 py-2.5 text-xs font-semibold text-slate-800 dark:text-slate-200 outline-none transition-all shadow-xs placeholder:text-slate-400"
+              className="w-full bg-white dark:bg-slate-900 hover:bg-slate-50 focus:bg-white border border-slate-200 dark:border-slate-800 focus:border-emerald-600 rounded-full min-h-11 pl-9 pr-12 py-2.5 text-base sm:text-sm font-semibold text-slate-800 dark:text-slate-200 outline-none transition-all shadow-xs placeholder:text-slate-400"
             />
             {searchQuery && (
               <button
+                aria-label="Katalog aramasını temizle"
                 onClick={() => setSearchQuery('')}
-                className="absolute right-3 top-1/2 -translate-y-1/2 text-slate-400 hover:text-slate-600 cursor-pointer"
+                className="absolute right-0 top-1/2 -translate-y-1/2 w-11 h-11 flex items-center justify-center text-slate-400 hover:text-slate-600 cursor-pointer"
               >
                 <X className="w-3.5 h-3.5" />
               </button>
@@ -171,17 +134,18 @@ function MonitorsContent({ initialProducts }: { initialProducts: Product[] }) {
         <div className="flex flex-col lg:flex-row lg:items-center justify-between gap-3 pt-1">
           
           {/* Left: Hoverable Pill Dropdowns */}
-          <div className="flex items-center gap-2 flex-wrap relative z-30">
+          <div ref={filtersRef} onBlur={onFilterBlur} className="flex items-center gap-2 flex-wrap relative z-30">
             
             {/* 1. Brand Hover Pill */}
             <div
-              className="relative"
-              onMouseEnter={handleBrandMouseEnter}
-              onMouseLeave={handleBrandMouseLeave}
+              className="sm:relative"
             >
               <button
-                onClick={() => setBrandDropdownOpen((prev) => !prev)}
-                className={`px-4 py-2 rounded-full text-xs font-bold transition-all flex items-center gap-2 cursor-pointer border shadow-2xs ${
+                ref={brandButtonRef}
+                aria-expanded={brandDropdownOpen}
+                aria-controls="catalog-brand-options"
+                onClick={() => { setBrandDropdownOpen((prev) => !prev); setTabDropdownOpen(false); }}
+                className={`min-h-11 px-4 py-2 rounded-full text-xs font-bold transition-all flex items-center gap-2 cursor-pointer border shadow-2xs ${
                   selectedBrand !== 'all'
                     ? 'bg-slate-900 text-white border-slate-900'
                     : 'bg-white dark:bg-slate-900 text-slate-700 dark:text-slate-200 border-slate-200 dark:border-slate-800 hover:border-emerald-500'
@@ -192,10 +156,10 @@ function MonitorsContent({ initialProducts }: { initialProducts: Product[] }) {
               </button>
 
               {brandDropdownOpen && (
-                <div className="absolute top-full left-0 mt-2 w-72 sm:w-80 bg-white/95 dark:bg-slate-900/95 backdrop-blur-xl border border-slate-200 dark:border-slate-800 rounded-2xl shadow-xl p-3 grid grid-cols-2 gap-1.5 z-50 animate-in fade-in zoom-in-95 duration-150">
+                <div id="catalog-brand-options" style={{ maxHeight: menuMaxHeight }} className="absolute top-full left-0 mt-2 w-72 sm:w-80 max-w-[calc(100vw-3.5rem)] overflow-y-auto bg-white/95 dark:bg-slate-900/95 backdrop-blur-xl border border-slate-200 dark:border-slate-800 rounded-2xl shadow-xl p-3 grid grid-cols-2 gap-1.5 z-50 animate-in fade-in zoom-in-95 duration-150">
                   <button
                     onClick={() => handleSelectBrand('all')}
-                    className={`col-span-2 text-left px-3 py-2 rounded-xl text-xs font-bold transition-colors ${
+                    className={`min-h-11 col-span-2 text-left px-3 py-2 rounded-xl text-xs font-bold transition-colors ${
                       selectedBrand === 'all'
                         ? 'bg-emerald-50 dark:bg-emerald-950/60 text-emerald-700 dark:text-emerald-300 font-black'
                         : 'text-slate-700 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800'
@@ -210,7 +174,7 @@ function MonitorsContent({ initialProducts }: { initialProducts: Product[] }) {
                       <button
                         key={b.name}
                         onClick={() => handleSelectBrand(b.name)}
-                        className={`text-left px-3 py-2 rounded-xl text-xs font-semibold flex items-center justify-between transition-colors ${
+                        className={`min-h-11 text-left px-3 py-2 rounded-xl text-xs font-semibold flex items-center justify-between transition-colors ${
                           isSelected
                             ? 'bg-slate-900 dark:bg-white text-white dark:text-slate-900 font-bold'
                             : 'text-slate-700 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800'
@@ -227,13 +191,14 @@ function MonitorsContent({ initialProducts }: { initialProducts: Product[] }) {
 
             {/* 2. Category Type Hover Pill */}
             <div
-              className="relative"
-              onMouseEnter={handleTabMouseEnter}
-              onMouseLeave={handleTabMouseLeave}
+              className="sm:relative"
             >
               <button
-                onClick={() => setTabDropdownOpen((prev) => !prev)}
-                className={`px-4 py-2 rounded-full text-xs font-bold transition-all flex items-center gap-2 cursor-pointer border shadow-2xs ${
+                ref={tabButtonRef}
+                aria-expanded={tabDropdownOpen}
+                aria-controls="catalog-segment-options"
+                onClick={() => { setTabDropdownOpen((prev) => !prev); setBrandDropdownOpen(false); }}
+                className={`min-h-11 px-4 py-2 rounded-full text-xs font-bold transition-all flex items-center gap-2 cursor-pointer border shadow-2xs ${
                   activeTab !== 'all'
                     ? 'bg-emerald-600 text-white border-emerald-600'
                     : 'bg-white dark:bg-slate-900 text-slate-700 dark:text-slate-200 border-slate-200 dark:border-slate-800 hover:border-emerald-500'
@@ -244,7 +209,7 @@ function MonitorsContent({ initialProducts }: { initialProducts: Product[] }) {
               </button>
 
               {tabDropdownOpen && (
-                <div className="absolute top-full left-0 mt-2 w-64 sm:w-72 bg-white/95 dark:bg-slate-900/95 backdrop-blur-xl border border-slate-200 dark:border-slate-800 rounded-2xl shadow-xl p-2 space-y-1 z-50 animate-in fade-in zoom-in-95 duration-150">
+                <div id="catalog-segment-options" style={{ maxHeight: menuMaxHeight }} className="absolute top-full left-0 mt-2 w-72 max-w-[calc(100vw-3.5rem)] overflow-y-auto bg-white/95 dark:bg-slate-900/95 backdrop-blur-xl border border-slate-200 dark:border-slate-800 rounded-2xl shadow-xl p-2 space-y-1 z-50 animate-in fade-in zoom-in-95 duration-150">
                   {TABS.map((tab) => {
                     const isActive = activeTab === tab.id;
                     return (
@@ -254,8 +219,9 @@ function MonitorsContent({ initialProducts }: { initialProducts: Product[] }) {
                           setActiveTab(tab.id);
                           setVisibleCount(ITEMS_PER_PAGE);
                           setTabDropdownOpen(false);
+                          tabButtonRef.current?.focus();
                         }}
-                        className={`w-full text-left px-3 py-2 rounded-xl text-xs transition-colors ${
+                        className={`min-h-11 w-full text-left px-3 py-2 rounded-xl text-xs transition-colors ${
                           isActive
                             ? 'bg-emerald-600 text-white font-bold'
                             : 'text-slate-700 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800'
@@ -274,12 +240,15 @@ function MonitorsContent({ initialProducts }: { initialProducts: Product[] }) {
 
             {/* 3. Sort Select */}
             <select
+              aria-label="Ürünleri sırala"
               value={sortBy}
               onChange={(e) => {
-                setSortBy(e.target.value);
+                const params = new URLSearchParams(searchParams.toString());
+                params.set('sortBy', e.target.value);
+                router.push(`/monitors?${params.toString()}`, { scroll: false });
                 setVisibleCount(ITEMS_PER_PAGE);
               }}
-              className="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 hover:border-emerald-500 rounded-full px-4 py-2 text-xs font-bold text-slate-700 dark:text-slate-200 outline-none cursor-pointer transition-all shadow-2xs"
+              className="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 hover:border-emerald-500 rounded-full min-h-11 max-w-full px-4 py-2 text-base sm:text-sm font-bold text-slate-700 dark:text-slate-200 outline-none cursor-pointer transition-all shadow-2xs"
             >
               <option value="popular">Sırala: Öne Çıkanlar</option>
               <option value="priceAsc">Fiyat: Düşükten Yükseğe</option>
@@ -296,7 +265,7 @@ function MonitorsContent({ initialProducts }: { initialProducts: Product[] }) {
                   setActiveTab('all');
                   setSearchQuery('');
                 }}
-                className="text-xs font-bold text-rose-600 hover:text-rose-700 bg-rose-50 dark:bg-rose-950/40 px-3 py-1.5 rounded-full border border-rose-200 dark:border-rose-900 flex items-center gap-1 transition-colors cursor-pointer"
+                className="min-h-11 text-xs font-bold text-rose-600 hover:text-rose-700 bg-rose-50 dark:bg-rose-950/40 px-3 py-1.5 rounded-full border border-rose-200 dark:border-rose-900 flex items-center gap-1 transition-colors cursor-pointer"
               >
                 <span>Temizle</span>
                 <X className="w-3 h-3" />
@@ -307,23 +276,23 @@ function MonitorsContent({ initialProducts }: { initialProducts: Product[] }) {
 
           {/* 💎 HIGH-VALUE SPONSORED DEAL BANNER */}
           <Link
-            href="/monitors?sortBy=popular"
+            href="/compare"
             className="group flex items-center justify-between gap-3 bg-gradient-to-r from-slate-900 via-slate-800 to-indigo-950 hover:to-indigo-900 text-white px-4 py-2.5 rounded-2xl border border-slate-700 shadow-md transition-all hover:scale-[1.01] cursor-pointer"
           >
             <div className="flex items-center gap-2.5">
               <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
               <div>
                 <span className="text-[11px] font-black tracking-wide text-emerald-300 block uppercase">
-                  Monitör Fırsatları
+                  Karşılaştırma Masası
                 </span>
                 <span className="text-xs font-bold text-slate-200 group-hover:text-white transition-colors">
-                  İtopya & Vatan Canlı Oyuncu Monitörü İndirimleri
+                  Modelleri yan yana incele
                 </span>
               </div>
             </div>
             <div className="flex items-center gap-1 text-[11px] font-black text-amber-400 bg-white/10 px-2.5 py-1 rounded-lg shrink-0">
-              <Flame className="w-3.5 h-3.5 text-amber-400 fill-amber-400" />
-              <span>%35&apos;e Varan</span>
+              <ArrowRight className="w-3.5 h-3.5" />
+              <span>Keşfet</span>
             </div>
           </Link>
 

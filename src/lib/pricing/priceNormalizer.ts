@@ -1,6 +1,9 @@
 import { PriceResult } from '@/integrations/stores/types';
 import { DbPrice } from '@/lib/db/priceRepository';
 import { PriceAnomalyDetector } from './anomalyDetector';
+import { readPriceRecord } from './priceRecordEvidence';
+import { getPriceFreshness } from '@/lib/priceFreshness';
+import { parseOfferDateToMs } from '@/lib/dateParsing';
 
 export interface NormalizedPriceView extends DbPrice {
   isCheapest: boolean;
@@ -9,6 +12,8 @@ export interface NormalizedPriceView extends DbPrice {
   formattedShipping: string;
   isStale: boolean;
   updatedTimeAgo: string;
+  priceStatus: 'fresh' | 'stale' | 'unverified';
+  statusLabel: string;
 }
 
 export class PriceNormalizer {
@@ -27,7 +32,9 @@ export class PriceNormalizer {
    * Calculate human readable time ago (e.g. 5 dk önce)
    */
   static getTimeAgo(dateIso: string): string {
-    const diffMs = Date.now() - new Date(dateIso).getTime();
+    const timestamp = parseOfferDateToMs(dateIso);
+    if (!timestamp || timestamp > Date.now()) return 'Kontrol tarihi doğrulanmadı';
+    const diffMs = Date.now() - timestamp;
     const diffMin = Math.floor(diffMs / (1000 * 60));
     const diffHours = Math.floor(diffMin / 60);
     const diffDays = Math.floor(diffHours / 24);
@@ -42,9 +49,7 @@ export class PriceNormalizer {
    * Check if price is stale (>24 hours)
    */
   static isPriceStale(dateIso: string): boolean {
-    const diffMs = Date.now() - new Date(dateIso).getTime();
-    const hours = diffMs / (1000 * 60 * 60);
-    return hours > 24;
+    return getPriceFreshness(dateIso).status !== 'fresh';
   }
 
   /**
@@ -74,10 +79,10 @@ export class PriceNormalizer {
       totalPrice: cleanTotal,
       currency: 'TRY',
       stockStatus: result.stockStatus,
-      sellerName: result.sellerName || 'Resmi Mağaza',
+      sellerName: result.sellerName || '',
       url: result.url,
       isAnomaly: anomalyEval.isAnomaly,
-      checkedAt: result.checkedAt || new Date().toISOString(),
+      checkedAt: result.checkedAt || '',
     };
   }
 
@@ -85,28 +90,27 @@ export class PriceNormalizer {
    * Prepare UI View List sorted by lowest total price with cheapest badge
    */
   static preparePriceViewList(prices: DbPrice[]): NormalizedPriceView[] {
-    // Exclude anomalies from frontend view list
-    const validPrices = prices
-      .filter((p) => !p.isAnomaly && p.stockStatus !== 'OUT_OF_STOCK')
-      .sort((a, b) => a.totalPrice - b.totalPrice);
+    const nowMs = Date.now();
+    const records = prices.map(readPriceRecord).filter((p): p is DbPrice => p !== null && !p.isAnomaly);
+    const current = records.filter((p) => p.stockStatus === 'IN_STOCK' && getPriceFreshness(p.checkedAt, nowMs).status === 'fresh');
+    // Same item-price basis as the shared product evaluator; shipping stays explicit.
+    const lowestPrice = current.length ? Math.min(...current.map((p) => p.price)) : null;
 
-    const lowestTotalPrice = validPrices.length > 0 ? validPrices[0].totalPrice : null;
-
-    return prices
-      .filter((p) => !p.isAnomaly)
-      .sort((a, b) => a.totalPrice - b.totalPrice)
+    return records.sort((a, b) => a.price - b.price)
       .map((item) => {
-        const isCheapest = lowestTotalPrice !== null && item.totalPrice === lowestTotalPrice && item.stockStatus === 'IN_STOCK';
+        const freshness = getPriceFreshness(item.checkedAt, nowMs);
+        const isCheapest = lowestPrice !== null && item.price === lowestPrice && item.stockStatus === 'IN_STOCK' && freshness.status === 'fresh';
         return {
           ...item,
           isCheapest,
           formattedPrice: this.formatCurrency(item.price),
           formattedTotalPrice: this.formatCurrency(item.totalPrice),
           formattedShipping:
-            !item.shippingPrice || item.shippingPrice === 0
-              ? 'Ücretsiz Kargo'
-              : this.formatCurrency(item.shippingPrice),
-          isStale: this.isPriceStale(item.checkedAt),
+            item.shippingPrice === null || item.shippingPrice === undefined ? 'Kargo ücreti bilinmiyor'
+              : item.shippingPrice === 0 ? 'Ücretsiz Kargo' : this.formatCurrency(item.shippingPrice),
+          isStale: freshness.status !== 'fresh',
+          priceStatus: freshness.status,
+          statusLabel: freshness.label,
           updatedTimeAgo: this.getTimeAgo(item.checkedAt),
         };
       });

@@ -1,3 +1,4 @@
+import { requireMaintenanceAccess } from '@/lib/security/maintenanceAuth';
 // app/api/cron/scrape-prices/route.ts
 //
 // GÜNCELLEME: 87 ürünü tek seferde işlemek zaman aşımına yol açıyordu
@@ -23,10 +24,8 @@ const HEPSIBURADA_HEADERS = {
 const DEFAULT_BATCH_SIZE = 5;
 
 export async function GET(request: Request) {
-  const authHeader = request.headers.get("authorization");
-  if (authHeader !== `Bearer ${process.env.CRON_SECRET}`) {
-    return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
-  }
+  const denied = requireMaintenanceAccess(request, 'cron');
+  if (denied) return denied;
 
   const { searchParams } = new URL(request.url);
   const offset = parseInt(searchParams.get("offset") ?? "0", 10);

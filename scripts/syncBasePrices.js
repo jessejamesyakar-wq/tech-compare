@@ -1,3 +1,6 @@
+// Retired: unchecked store minima can restore quarantined synthetic prices.
+throw new Error('Bu eski fiyat aracı devre dışı: doğrulanmamış teklifleri referans fiyatına dönüştürüyor. Ortak fiyat değerlendiricisini kullanın.');
+
 const fs = require('fs');
 const path = require('path');
 

@@ -1,4 +1,5 @@
 import { Product, StoreOffer, PriceHistoryPoint } from '@/lib/types';
+import { getObservedPriceHistory } from '@/lib/pricing/priceHistoryEvidence';
 
 export interface AnomalyRecord {
   id: string;
@@ -107,7 +108,7 @@ export class PriceAnomalyGuard {
       });
     }
     if (productOrBasePrice.priceHistory && productOrBasePrice.priceHistory.length > 0) {
-      productOrBasePrice.priceHistory.forEach((h) => {
+      getObservedPriceHistory(productOrBasePrice.priceHistory).forEach((h) => {
         if (h.price > 0) prices.push(h.price);
       });
     }

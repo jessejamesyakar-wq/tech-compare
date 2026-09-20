@@ -9,7 +9,7 @@ import { Footer } from '@/components/layout/Footer';
 import { CompareBar } from '@/components/layout/CompareBar';
 import { LogoModal } from '@/components/layout/LogoModal';
 import { GlobalErrorBoundary } from '@/components/common/GlobalErrorBoundary';
-import { ACTIVE_STORE_COUNT, ACTIVE_RETAILERS } from '@/lib/activeStores';
+import { MotionPreferences } from '@/components/common/MotionPreferences';
 
 const plusJakartaSans = Plus_Jakarta_Sans({
   subsets: ['latin', 'latin-ext'],
@@ -27,9 +27,7 @@ export const metadata: Metadata = {
     google: 'Dy00YlAE7Le0s97gjpLXinIwfoupK2XNeVjJ10MtJsU',
   },
   title: 'aceleEtme | Akıllı Telefon, TV & Teknoloji Karşılaştırma ve Fiyat Takip Platformu',
-  description: `Türkiye’nin %100 bağımsız ve algoritmik akıllı telefon, bilgisayar ve teknoloji karşılaştırma platformu. ${
-    ACTIVE_STORE_COUNT === 1 ? `${ACTIVE_RETAILERS[0]?.name || 'Hepsiburada'} canlı fiyat takibi` : `${ACTIVE_STORE_COUNT} mağaza canlı fiyat kıyaslaması`
-  } ve fiyat geçmişi grafikleri.`,
+  description: 'Telefon, bilgisayar ve teknoloji ürünlerinin kayıtlı özelliklerini karşılaştırın. Güncel teklifler, son görülen fiyatlar ve katalog referansları ayrı gösterilir.',
   manifest: '/manifest.json',
   icons: {
     icon: [
@@ -48,8 +46,6 @@ export const metadata: Metadata = {
 export const viewport: Viewport = {
   width: 'device-width',
   initialScale: 1,
-  maximumScale: 1,
-  userScalable: false,
   themeColor: '#059669',
 };
 
@@ -121,9 +117,11 @@ export default function RootLayout({
           <I18nProvider>
             <CompareProvider>
               <LogoProvider>
+                <MotionPreferences>
                 <div className="flex flex-col min-h-screen relative overflow-x-clip">
+                  <a href="#main-content" className="sr-only focus:not-sr-only focus:fixed focus:top-3 focus:left-3 focus:z-[100] focus:rounded-xl focus:bg-emerald-700 focus:text-white focus:px-4 focus:py-3 focus:font-bold">Ana içeriğe geç</a>
                   <Navbar />
-                  <main className="flex-1 max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-6 z-10">
+                  <main id="main-content" tabIndex={-1} className="flex-1 max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-6 z-10 scroll-mt-44">
                     <GlobalErrorBoundary>
                       {children}
                     </GlobalErrorBoundary>
@@ -132,6 +130,7 @@ export default function RootLayout({
                   <Footer />
                   <LogoModal />
                 </div>
+                </MotionPreferences>
               </LogoProvider>
             </CompareProvider>
           </I18nProvider>

@@ -1,3 +1,4 @@
+import { requireMaintenanceAccess } from '@/lib/security/maintenanceAuth';
 import { NextRequest, NextResponse } from "next/server";
 import { kv } from "@vercel/kv";
 import { runPriceScrape, CatalogProduct } from "@/lib/scraper/run";
@@ -7,12 +8,8 @@ import { isEligibleForLivePriceComparison } from "@/lib/releaseYearFilter";
 
 export async function GET(request: NextRequest) {
   // CRON_SECRET koruması
-  const authHeader = request.headers.get("authorization");
-  const cronSecret = process.env.CRON_SECRET;
-
-  if (cronSecret && authHeader !== `Bearer ${cronSecret}`) {
-    return NextResponse.json({ error: "Yetkisiz istek" }, { status: 401 });
-  }
+  const denied = requireMaintenanceAccess(request, 'maintenance');
+  if (denied) return denied;
 
   try {
     // Ürün kataloğunu dinamik olarak sistemdeki tüm ürünlerden türet (2018 öncesi non-Samsung/Apple hariç)

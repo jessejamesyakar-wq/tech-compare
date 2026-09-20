@@ -19,26 +19,22 @@ export function LaptopSpecSheet({ specs }: LaptopSpecSheetProps) {
   if (!specs) {
     return (
       <div className="bg-white border border-slate-200 rounded-3xl p-8 text-center text-slate-500 text-xs font-bold">
-        Detaylı teknik özellik bilgisi yükleniyor...
+        Detaylı teknik özellik bilgisi henüz bulunmuyor.
       </div>
     );
   }
 
   // Formatting helpers to eliminate misleading fake hardcoded fallbacks
   const formatRam = () => {
-    if (specs.ramType) return specs.ramType;
-    if (specs.ramGb) return `${specs.ramGb} GB RAM`;
-    return 'Belirtilmedi';
+    return [specs.ramGb ? `${specs.ramGb} GB` : null, specs.ramType].filter(Boolean).join(' • ') || 'Belirtilmedi';
   };
 
   const formatStorage = () => {
-    if (specs.storageType) return specs.storageType;
-    if (specs.storageGb) return `${specs.storageGb} GB SSD`;
-    return 'Belirtilmedi';
+    return [specs.storageGb ? `${specs.storageGb} GB` : null, specs.storageType].filter(Boolean).join(' • ') || 'Belirtilmedi';
   };
 
   const formatDisplay = () => {
-    if (specs.screenResolution) return specs.screenResolution;
+    if (specs.screenResolution) return [specs.screenResolution, specs.refreshRateHz ? `${specs.refreshRateHz} Hz` : null].filter(Boolean).join(' • ');
     if (specs.screenSizeInches) return `${specs.screenSizeInches} inç Ekran`;
     return 'Belirtilmedi';
   };
@@ -47,12 +43,12 @@ export function LaptopSpecSheet({ specs }: LaptopSpecSheetProps) {
     if (specs.npuTops && specs.npuTops > 0) {
       return `${specs.npuTops} TOPS NPU (Yapay Zekâ Motoru)`;
     }
-    return 'Desteklenmiyor / Yok';
+    return specs.npuTops === 0 ? '0 TOPS (katalog kaydı)' : 'Belirtilmedi';
   };
 
   const formatMux = () => {
     if (specs.muxSwitch === true) return 'Var (Donanımsal MUX Switch)';
-    if (specs.muxSwitch === false) return 'Yok / Hibrit (Otomatik Optimus)';
+    if (specs.muxSwitch === false) return 'Yok';
     return 'Belirtilmedi';
   };
 
@@ -66,7 +62,7 @@ export function LaptopSpecSheet({ specs }: LaptopSpecSheetProps) {
 
   const formatWireless = () => {
     const parts = [specs.wifiStandard, specs.bluetooth].filter(Boolean);
-    return parts.length > 0 ? parts.join(' • ') : 'Wi-Fi & Bluetooth';
+    return parts.length > 0 ? parts.join(' • ') : 'Belirtilmedi';
   };
 
   const formatDimensions = () => {
@@ -97,9 +93,9 @@ export function LaptopSpecSheet({ specs }: LaptopSpecSheetProps) {
       borderColor: 'border-blue-200/80',
       items: [
         { label: 'RAM Kapasitesi & Türü', value: formatRam() },
-        { label: 'Maksimum RAM Desteği', value: specs.maxRamGb ? `${specs.maxRamGb} GB` : 'Tümleşik Lehimli / Arttırılamaz' },
+        { label: 'Maksimum RAM Desteği', value: specs.maxRamGb ? `${specs.maxRamGb} GB` : 'Belirtilmedi' },
         { label: 'SSD Depolama Kapasitesi', value: formatStorage() },
-        { label: 'M.2 Genişletme Yuvası', value: specs.storageSlots || 'Tümleşik / M.2' }
+        { label: 'M.2 Genişletme Yuvası', value: specs.storageSlots || 'Belirtilmedi' }
       ]
     },
     {
@@ -109,8 +105,8 @@ export function LaptopSpecSheet({ specs }: LaptopSpecSheetProps) {
       bgColor: 'bg-emerald-50',
       borderColor: 'border-emerald-200/80',
       items: [
-        { label: 'Ekran Kartı (GPU)', value: specs.gpu || 'Dahili / Entegre Grafik' },
-        { label: 'Grafik Gücü (TGP Watts)', value: specs.gpuTgpWatts ? `${specs.gpuTgpWatts}W TGP` : 'Dahili / Standart TGP' },
+        { label: 'Ekran Kartı (GPU)', value: specs.gpu || 'Belirtilmedi' },
+        { label: 'Grafik Gücü (TGP Watts)', value: specs.gpuTgpWatts ? `${specs.gpuTgpWatts}W TGP` : 'Belirtilmedi' },
         { label: 'MUX Switch / Optimus', value: formatMux() },
         { label: 'Ekran Çözünürlüğü & Panel', value: formatDisplay() },
         { label: 'Parlaklık & Renk Gamı', value: [
@@ -129,7 +125,7 @@ export function LaptopSpecSheet({ specs }: LaptopSpecSheetProps) {
       items: [
         { label: 'Batarya & Şarj Özellikleri', value: formatBattery() },
         { label: 'Kablosuz Bağlantı', value: formatWireless() },
-        { label: 'Fiziksel Portlar', value: specs.ports && specs.ports.length > 0 ? specs.ports.join(', ') : 'Standart I/O Portları' }
+        { label: 'Fiziksel Portlar', value: specs.ports && specs.ports.length > 0 ? specs.ports.join(', ') : 'Belirtilmedi' }
       ]
     },
     {
@@ -141,7 +137,7 @@ export function LaptopSpecSheet({ specs }: LaptopSpecSheetProps) {
       items: [
         { label: 'Ağırlık & Kalınlık', value: formatDimensions() },
         { label: 'Kasa Malzemesi', value: specs.bodyMaterial || 'Belirtilmedi' },
-        { label: 'Klavye', value: specs.keyboard || 'Türkçe Q Klavye' },
+        { label: 'Klavye', value: specs.keyboard || 'Belirtilmedi' },
         { label: 'Kamera & Ses', value: [specs.webcam, specs.audio].filter(Boolean).join(' • ') || 'Belirtilmedi' },
         { label: 'İşletim Sistemi', value: specs.os || 'Belirtilmedi' }
       ]
@@ -152,19 +148,19 @@ export function LaptopSpecSheet({ specs }: LaptopSpecSheetProps) {
     <div className="bg-white border border-slate-200 rounded-3xl p-6 sm:p-8 shadow-2xs space-y-6">
       
       {/* Header */}
-      <div className="flex items-center justify-between border-b border-slate-100 pb-4">
+      <div className="flex flex-wrap gap-2 items-center justify-between border-b border-slate-100 pb-4">
         <div>
           <h2 className="text-xl font-black text-slate-900 flex items-center gap-2">
             <Zap className="w-5 h-5 text-emerald-600" />
             <span>Detaylı Donanım & Teknik Özellik Tablosu</span>
           </h2>
           <p className="text-xs text-slate-500 font-medium mt-0.5">
-            Ürün kataloğundaki gerçek teknik veriler
+            Katalogda kayıtlı teknik bilgiler; ürünün kaynak notlarını kontrol edin.
           </p>
         </div>
 
         <span className="bg-emerald-50 text-emerald-800 text-[10px] font-black px-3 py-1 rounded-full border border-emerald-200/80 uppercase">
-          DOĞRULANMIŞ SPEC
+          KATALOG BİLGİSİ
         </span>
       </div>
 
@@ -187,8 +183,8 @@ export function LaptopSpecSheet({ specs }: LaptopSpecSheetProps) {
               <div className="space-y-2 text-xs">
                 {sec.items.map((item, iIdx) => (
                   <div key={iIdx} className="flex items-start justify-between gap-3 py-1 border-b border-slate-50 last:border-0">
-                    <span className="text-slate-500 font-medium text-xs shrink-0">{item.label}</span>
-                    <span className="text-slate-900 font-bold text-xs text-right leading-tight">{item.value}</span>
+                    <span className="text-slate-500 font-medium text-xs min-w-0 flex-1">{item.label}</span>
+                    <span className="text-slate-900 font-bold text-xs text-right leading-tight min-w-0 flex-1 break-words">{item.value}</span>
                   </div>
                 ))}
               </div>

@@ -1,3 +1,4 @@
+import { requireMaintenanceAccess } from '@/lib/security/maintenanceAuth';
 import { NextResponse } from 'next/server';
 import {
   getLearnedPatterns,
@@ -6,7 +7,9 @@ import {
   LearnedPattern,
 } from '@/lib/ai/learningHub';
 
-export async function GET() {
+export async function GET(request: Request) {
+  const denied = requireMaintenanceAccess(request, 'admin');
+  if (denied) return denied;
   try {
     const patterns = getLearnedPatterns();
     const anomalies = getAnomalies();
@@ -28,6 +31,8 @@ export async function GET() {
 }
 
 export async function POST(req: Request) {
+  const denied = requireMaintenanceAccess(req, 'admin');
+  if (denied) return denied;
   try {
     const body = await req.json().catch(() => ({}));
     const { action, patternId, updatedPattern } = body;

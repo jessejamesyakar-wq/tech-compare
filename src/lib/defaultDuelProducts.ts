@@ -1,12 +1,15 @@
 ﻿import rawSmartphones from './smartphonesData.json';
-import { Product } from './types';
+import type { Product } from './types';
+import { DUEL_PRESETS } from './duelPresets';
 
-const list = rawSmartphones as any[];
+// Imported by the server page only: never ship the complete catalog to the browser.
+const list = rawSmartphones as unknown as Product[];
 
-export const DEFAULT_DUEL_P1: Product = (list.find(
-  (p) => p.id === 'apple-apple-iphone-18-pro-max-256-gb-1071187' || p.name?.includes('iPhone 18 Pro Max') || p.name?.includes('iPhone 16 Pro Max')
-) || list[0]) as unknown as Product;
+function exactDefault(slug: string): Product {
+  const matches = list.filter(product => product.slug === slug);
+  if (matches.length !== 1) throw new Error(`Default comparison product is missing or ambiguous: ${slug}`);
+  return matches[0];
+}
 
-export const DEFAULT_DUEL_P2: Product = (list.find(
-  (p) => p.id === 'samsung-samsung-galaxy-s24-ultra-95' || p.name?.includes('S24 Ultra') || p.name?.includes('Galaxy S25 Ultra')
-) || list[1]) as unknown as Product;
+export const DEFAULT_DUEL_P1 = exactDefault(DUEL_PRESETS.smartphones.ids[0]);
+export const DEFAULT_DUEL_P2 = exactDefault(DUEL_PRESETS.smartphones.ids[1]);

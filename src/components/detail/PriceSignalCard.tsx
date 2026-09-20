@@ -86,7 +86,7 @@ export function PriceSignalCard({ product, className = '' }: PriceSignalCardProp
         ) : (
           <div className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl border border-slate-200 bg-slate-50 text-slate-600 text-xs font-bold">
             <Info className="w-4 h-4 text-slate-400" />
-            <span>Veri Toplanıyor</span>
+            <span>Yeterli veri yok</span>
           </div>
         )}
       </div>
@@ -183,7 +183,7 @@ export function PriceSignalCard({ product, className = '' }: PriceSignalCardProp
                 className="w-full sm:w-auto inline-flex items-center justify-center gap-1.5 bg-slate-900 hover:bg-slate-800 text-white text-xs font-bold px-4 py-2 rounded-xl transition-all shadow-sm"
               >
                 <BellRing className="w-3.5 h-3.5 text-amber-400" />
-                <span>Fiyat Alarmı Kur</span>
+                <span>Fiyat Hedefi Kaydet</span>
               </Link>
             )}
           </div>

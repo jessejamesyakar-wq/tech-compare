@@ -1,0 +1,22 @@
+import assert from 'node:assert/strict';
+import { compareSearchPrices, getSearchPrice, getSearchProductHref, parseSearchLimit, type SearchProduct } from '../src/lib/searchPresentation';
+const now = Date.UTC(2026, 8, 20, 2);
+const item = (id: string, extra: Partial<SearchProduct> = {}) => ({id, slug:id, name:id,category:'smartphones',basePrice:50000,...extra} as SearchProduct);
+const fresh = item('fresh',{priceStatus:'fresh',currentPrice:42000,lastCheckedAt:new Date(now-3600000).toISOString(),activeStoreCount:2});
+const stale = item('stale',{priceStatus:'stale',lastSeenPrice:43000,lastCheckedAt:new Date(now-48*3600000).toISOString(),basePrice:1000});
+const none = item('none',{basePrice:44000});
+const missing = item('missing',{basePrice:NaN});
+let n=0;function check(name:string,fn:()=>void){fn();n++;console.log('PASS',name);}
+check('fresh projected price and real active count',()=>assert.deepEqual(getSearchPrice(fresh,now),{value:42000,status:'fresh',label:'Güncel Fiyat',heading:'2 Mağaza Teklifi'}));
+check('stale uses observation rather than base price',()=>{assert.equal(getSearchPrice(stale,now).value,43000);assert.match(getSearchPrice(stale,now).label,/Son görülen fiyat:/)});
+check('reference has unverified label',()=>{assert.equal(getSearchPrice(none,now).status,'unverified');assert.equal(getSearchPrice(none,now).value,44000)});
+check('future and missing checks cannot be fresh',()=>{assert.equal(getSearchPrice({...fresh,lastCheckedAt:new Date(now+1).toISOString()},now).status,'unverified');assert.equal(getSearchPrice({...fresh,lastCheckedAt:undefined},now).status,'unverified')});
+check('zero active stores cannot claim current offer',()=>assert.equal(getSearchPrice({...fresh,activeStoreCount:0},now).status,'unverified'));
+check('cached current offer becomes historical after 24 hours',()=>{assert.equal(getSearchPrice(fresh,now+25*3600000).status,'stale');assert.equal(getSearchPrice(fresh,now+25*3600000).value,42000)});
+check('sort ascending matches visible prices rather than base',()=>assert.deepEqual([none,stale,missing,fresh].sort((a,b)=>compareSearchPrices(a,b,'asc',now)).map(p=>p.id),['fresh','stale','none','missing']));
+check('missing prices are last descending too',()=>assert.deepEqual([missing,stale,fresh,none].sort((a,b)=>compareSearchPrices(a,b,'desc',now)).map(p=>p.id),['none','stale','fresh','missing']));
+check('all nine categories link to their own details',()=>{for(const c of ['smartphones','tvs','laptops','appliances','tablets','smartwatches','headphones','monitors','consoles'])assert.equal(getSearchProductHref({...none,category:c} as SearchProduct),`/${c==='smartphones'?'phones':c}/none`)});
+check('reserved URL characters are encoded',()=>assert.equal(getSearchProductHref({...none,slug:'a?d2=b'}),'/phones/a%3Fd2%3Db'));
+check('unknown category never silently becomes phone',()=>assert.equal(getSearchProductHref({...none,category:'unknown'} as unknown as SearchProduct),'/search?q=none'));
+check('limits reject negative/decimal/NaN and clamp large counts',()=>{for(const raw of ['-1','0','1.5','abc','1x',null])assert.equal(parseSearchLimit(raw),20);assert.equal(parseSearchLimit('1000'),100);assert.equal(parseSearchLimit('3'),3)});
+console.log(`${n} PASS, 0 FAIL (pure projection, link and sort tests)`);

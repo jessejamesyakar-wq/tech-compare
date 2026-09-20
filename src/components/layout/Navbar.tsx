@@ -7,6 +7,7 @@ import { usePathname, useRouter } from 'next/navigation';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useI18n } from '@/lib/i18n/context';
 import { useCompare } from '@/context/CompareContext';
+import { comparisonPath } from '@/lib/comparisonSelection';
 import { Language } from '@/lib/types';
 import { Logo } from './Logo';
 import { CategoryBar } from './CategoryBar';
@@ -22,8 +23,8 @@ import {
   Mic,
   MicOff
 } from 'lucide-react';
-import { searchLocalProducts, initClientSearch, CompactSearchProduct } from '@/lib/clientSearch';
-import { AIAssistantModal } from '@/components/ai/AIAssistantModal';
+import { searchLocalProductsAsync, initClientSearch, CompactSearchProduct } from '@/lib/clientSearch';
+import { LazyAIAssistantModal } from '@/components/ai/LazyAIAssistantModal';
 
 export function Navbar() {
   const { t, language, setLanguage, languageNames } = useI18n();
@@ -34,6 +35,8 @@ export function Navbar() {
   const [langDropdownOpen, setLangDropdownOpen] = useState(false);
   const [query, setQuery] = useState('');
   const [searchResults, setSearchResults] = useState<CompactSearchProduct[]>([]);
+  const [searchState, setSearchState] = useState<'idle' | 'loading' | 'error'>('idle');
+  const [searchRetry, setSearchRetry] = useState(0);
   const [isFocused, setIsFocused] = useState(false);
   const [selectedIndex, setSelectedIndex] = useState<number>(-1);
   const [isListening, setIsListening] = useState(false);
@@ -86,7 +89,7 @@ export function Navbar() {
       recognition.onerror = () => setIsListening(false);
       recognition.onend = () => {
         setIsListening(false);
-        searchInputRef.current?.focus();
+        (window.innerWidth < 1024 ? mobileInputRef.current : searchInputRef.current)?.focus();
       };
       recognition.start();
     } catch {
@@ -109,10 +112,7 @@ export function Navbar() {
     return `/phones/${slug}`;
   };
 
-  // Pre-initialize client search index on mount
-  useEffect(() => {
-    initClientSearch();
-  }, []);
+  // The index loads on search focus or the first query; landing pages need no catalog download.
 
   // Animated rotating placeholder for luxury search bar
   const placeholderList = [
@@ -144,31 +144,36 @@ export function Navbar() {
     setIsFocused(false);
   };
 
-  // ⚡ LAYER A: Fast, instant, purely client-side search (Zero API calls, sub-1ms)
+  // Await the shared index and ignore completions from superseded queries.
   useEffect(() => {
+    let active = true;
     const trimmed = query.trim();
-
-    if (trimmed.length === 0) {
-      setSearchResults([]);
-      setSelectedIndex(-1);
-      return;
-    }
-
+    setSearchResults([]);
+    setSelectedIndex(-1);
+    if (!trimmed) { setSearchState('idle'); return; }
+    setSearchState('loading');
     const timer = setTimeout(() => {
-      const results = searchLocalProducts(trimmed, 8);
-      setSearchResults(results);
-      setSelectedIndex(-1);
+      searchLocalProductsAsync(trimmed, 8).then(results => {
+        if (!active) return;
+        setSearchResults(results);
+        setSearchState('idle');
+      }).catch(() => { if (active) setSearchState('error'); });
     }, 120);
+    return () => { active = false; clearTimeout(timer); };
+  }, [query, searchRetry]);
 
-    return () => clearTimeout(timer);
-  }, [query]);
+  useEffect(() => {
+    if (!isFocused || selectedIndex < 0) return;
+    const container = window.innerWidth < 1024 ? mobileSearchContainerRef.current : searchContainerRef.current;
+    container?.querySelector<HTMLElement>(`[data-nav-result-index="${selectedIndex}"]`)?.scrollIntoView({ block: 'nearest', inline: 'nearest' });
+  }, [isFocused, selectedIndex]);
 
   // Global ⌘K / Ctrl+K keyboard shortcut listener & Arrow navigation
   useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {
       if ((e.metaKey || e.ctrlKey) && e.key.toLowerCase() === 'k') {
         e.preventDefault();
-        const target = window.innerWidth < 768 ? mobileInputRef.current : searchInputRef.current;
+        const target = window.innerWidth < 1024 ? mobileInputRef.current : searchInputRef.current;
         target?.focus();
         setIsFocused(true);
       }
@@ -252,9 +257,9 @@ export function Navbar() {
     // Quick suggestion prompt chips when search bar is focused but empty
     if (trimmed.length === 0) {
       return (
-        <div className="absolute top-full left-0 right-0 mt-2 bg-white/95 dark:bg-slate-900/95 border border-slate-200 dark:border-slate-800 rounded-2xl shadow-2xl p-3 z-50 animate-in fade-in zoom-in-95 backdrop-blur-xl space-y-2.5">
+        <div className="absolute top-full left-0 right-0 mt-2 max-h-[min(520px,calc(100dvh-180px))] overflow-y-auto overscroll-contain bg-white/95 dark:bg-slate-900/95 border border-slate-200 dark:border-slate-800 rounded-2xl shadow-2xl p-3 z-50 animate-in fade-in zoom-in-95 backdrop-blur-xl space-y-2.5">
           <div className="flex items-center justify-between text-xs text-slate-500 pb-1.5 border-b border-slate-100 dark:border-slate-800">
-            <span className="font-extrabold uppercase text-[10px] tracking-wider text-slate-400 dark:text-slate-500">✨ RoboPengu &amp; Gemini 3.8&apos;a Danış</span>
+            <span className="font-extrabold uppercase text-[10px] tracking-wider text-slate-400 dark:text-slate-500">✨ RoboPengu&apos;ya Danış</span>
             <span className="text-emerald-700 dark:text-emerald-400 font-bold text-[10px]">Akıllı Asistan 🐧</span>
           </div>
           <div className="flex flex-wrap gap-1.5">
@@ -268,8 +273,8 @@ export function Navbar() {
               <button
                 key={qText}
                 type="button"
-                onMouseDown={(e) => {
-                  e.preventDefault();
+                onMouseDown={(e) => e.preventDefault()}
+                onClick={() => {
                   if (qText.includes('nasıl') || qText.includes('bütçeye') || qText.includes('kaç')) {
                     openAiAssistant(qText);
                   } else {
@@ -286,10 +291,18 @@ export function Navbar() {
       );
     }
 
+    if (searchState !== 'idle') return (
+      <div role="status" className="absolute top-full left-0 right-0 mt-2 max-h-[min(520px,calc(100dvh-180px))] overflow-y-auto overscroll-contain rounded-2xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-900 shadow-xl p-4 z-50 text-sm space-y-2">
+        <p>{searchState === 'loading' ? 'Ürün önerileri hazırlanıyor…' : 'Arama önerileri yüklenemedi.'}</p>
+        {searchState === 'error' && <button type="button" className="min-h-11 underline font-semibold" onClick={() => setSearchRetry(n => n + 1)}>Tekrar Dene</button>}
+        <Link href={'/search?q=' + encodeURIComponent(trimmed)} onClick={() => setIsFocused(false)} className="min-h-11 flex items-center text-emerald-700 dark:text-emerald-300 underline">Arama Sayfasını Aç</Link>
+      </div>
+    );
     const hasLexicalResults = searchResults.length > 0;
 
     return (
-      <div className="absolute top-full left-0 right-0 mt-2 bg-white/95 dark:bg-slate-900/95 border border-slate-200 dark:border-slate-800 rounded-2xl shadow-2xl p-2.5 z-50 animate-in fade-in zoom-in-95 backdrop-blur-xl max-h-[70vh] sm:max-h-[520px] overflow-y-auto space-y-2.5">
+      <div className="absolute top-full left-0 right-0 mt-2 bg-white/95 dark:bg-slate-900/95 border border-slate-200 dark:border-slate-800 rounded-2xl shadow-2xl p-2.5 z-50 animate-in fade-in zoom-in-95 backdrop-blur-xl max-h-[min(520px,calc(100dvh-180px))] overflow-y-auto overscroll-contain space-y-2.5">
+        <p role="status" className="sr-only">{selectedIndex >= 0 && searchResults[selectedIndex] ? `${searchResults[selectedIndex].name}. Enter ile ürün detayını açabilirsiniz.` : ''}</p>
         
         {/* ========================================================= */}
         {/* ⚡ INSTANT LOCAL PRODUCT RESULTS (Layer A)                */}
@@ -305,6 +318,7 @@ export function Navbar() {
               {searchResults.map((item, idx) => (
                 <Link
                   key={item.id}
+                  data-nav-result-index={idx}
                   href={getProductUrl(item)}
                   onClick={() => {
                     setQuery('');
@@ -326,7 +340,7 @@ export function Navbar() {
                       />
                     </div>
                     <div className="min-w-0 flex-1">
-                      <h4 className="text-slate-900 dark:text-white text-xs font-black group-hover:text-emerald-600 dark:group-hover:text-emerald-400 transition-colors truncate leading-tight">
+                      <h4 className="text-slate-900 dark:text-white text-xs font-black group-hover:text-emerald-600 dark:group-hover:text-emerald-400 transition-colors break-words leading-tight">
                         {item.name}
                       </h4>
                       <p className="text-[10px] text-slate-500 flex items-center gap-1.5 mt-0.5 font-medium">
@@ -340,9 +354,10 @@ export function Navbar() {
                   </div>
 
                   <div className="text-right shrink-0">
-                    <span className="text-emerald-600 dark:text-emerald-400 text-xs font-black block tabular-nums">
-                      ₺{item.basePrice.toLocaleString('tr-TR')}
+                    <span className="text-slate-700 dark:text-slate-300 text-xs font-black block tabular-nums">
+                      {Number.isFinite(item.basePrice) && item.basePrice > 0 ? `₺${item.basePrice.toLocaleString('tr-TR')}` : 'Fiyat yok'}
                     </span>
+                    <span className="block text-[10px] text-slate-500 font-medium">Katalog referansı</span>
                   </div>
                 </Link>
               ))}
@@ -354,7 +369,7 @@ export function Navbar() {
                 onClick={() => setIsFocused(false)}
                 className="w-full py-2 bg-emerald-50 dark:bg-emerald-950/40 hover:bg-emerald-100 dark:hover:bg-emerald-900/60 text-emerald-700 dark:text-emerald-400 text-xs font-extrabold rounded-xl transition-colors flex items-center justify-center gap-1.5 cursor-pointer"
               >
-                <span>{t.allResultsCount || 'Tüm Sonuçları Gör'} ({searchResults.length} {t.productsWord || 'Ürün'})</span>
+                <span>Arama Sayfasında Devam Et</span>
                 <ArrowRight className="w-3.5 h-3.5" />
               </Link>
 
@@ -369,13 +384,13 @@ export function Navbar() {
                 className="w-full py-2 px-3 bg-gradient-to-r from-emerald-600/10 via-teal-600/10 to-cyan-600/10 hover:from-emerald-600/20 hover:to-teal-600/20 text-emerald-800 dark:text-emerald-300 text-xs font-extrabold rounded-xl border border-emerald-500/30 flex items-center justify-center gap-2 transition-all cursor-pointer"
               >
                 <Sparkles className="w-3.5 h-3.5 text-emerald-600 fill-emerald-500" />
-                <span>&ldquo;{trimmed}&rdquo; için RoboPengu &amp; Gemini 3.8&apos;e Sor 🐧</span>
+                <span>Bu Aramayı RoboPengu’ya Sor 🐧</span>
               </button>
             </div>
           </div>
         ) : (
           <div className="py-5 text-center space-y-3">
-            <p className="text-slate-500 text-xs font-semibold">
+            <p className="text-slate-500 text-xs font-semibold break-words">
               &ldquo;{trimmed}&rdquo; için doğrudan model bulunamadı.
             </p>
             <button
@@ -388,7 +403,7 @@ export function Navbar() {
               className="px-4 py-2.5 bg-gradient-to-r from-emerald-600 to-teal-600 hover:from-emerald-500 hover:to-teal-500 text-white text-xs font-black rounded-xl shadow-md transition-all inline-flex items-center gap-2 cursor-pointer"
             >
               <Sparkles className="w-4 h-4 text-emerald-200 fill-emerald-200" />
-              <span>RoboPengu &amp; Gemini 3.8&apos;den Tavsiye Al 🐧</span>
+              <span>RoboPengu&apos;dan Tavsiye Al 🐧</span>
             </button>
           </div>
         )}
@@ -440,6 +455,8 @@ export function Navbar() {
                     <input
                       ref={searchInputRef}
                       type="search"
+                      aria-label="Ürün ara"
+                      maxLength={200}
                       inputMode="search"
                       enterKeyHint="search"
                       autoCapitalize="off"
@@ -454,7 +471,7 @@ export function Navbar() {
                         initClientSearch();
                       }}
                       placeholder={isFocused ? '' : isListening ? 'Dinliyorum, konuşabilirsiniz... 🎙️' : (currentPlaceholder || t.searchBarPlaceholder || 'Model, Marka veya Özellik Ara...')}
-                      className={`w-full bg-transparent text-slate-900 dark:text-white text-[15px] md:text-xs sm:text-sm font-semibold focus:outline-none transition-colors ${
+                      className={`w-full bg-transparent text-slate-900 dark:text-white text-base font-semibold focus:outline-none transition-colors ${
                         isListening ? 'text-rose-600 dark:text-rose-400 placeholder:text-rose-500 animate-pulse font-bold' : 'placeholder:text-slate-400 dark:placeholder:text-slate-500'
                       }`}
                     />
@@ -462,6 +479,7 @@ export function Navbar() {
                     {query && (
                       <button
                         type="button"
+                        aria-label="Aramayı temizle"
                         onClick={(e) => {
                           e.stopPropagation();
                           setQuery('');
@@ -554,7 +572,7 @@ export function Navbar() {
               {/* Quick Compare Indicator */}
               {compareList.length > 0 && (
                 <Link
-                  href="/compare"
+                  href={compareList.length?comparisonPath(compareList):'/compare'}
                   className="bg-emerald-50 hover:bg-emerald-100 text-emerald-700 border border-emerald-300 text-xs font-black px-2.5 sm:px-3 py-1.5 rounded-full flex items-center gap-1.5 transition-all shadow-2xs"
                   title={t.compareNavBtn || "Karşılaştırma Masası"}
                 >
@@ -626,7 +644,7 @@ export function Navbar() {
                   <button
                     type="submit"
                     aria-label="Arama yap"
-                    className="p-1 rounded-full text-slate-400 hover:text-cyan-600 dark:hover:text-cyan-400 cursor-pointer"
+                    className="w-11 h-11 shrink-0 flex items-center justify-center rounded-full text-slate-400 hover:text-cyan-600 dark:hover:text-cyan-400 cursor-pointer"
                   >
                     <Search className={`w-4 h-4 shrink-0 transition-colors ${isFocused ? 'text-cyan-500' : 'text-slate-400'}`} />
                   </button>
@@ -634,6 +652,8 @@ export function Navbar() {
                   <input
                     ref={mobileInputRef}
                     type="search"
+                      aria-label="Ürün ara"
+                      maxLength={200}
                     inputMode="search"
                     enterKeyHint="search"
                     autoCapitalize="off"
@@ -648,7 +668,7 @@ export function Navbar() {
                       initClientSearch();
                     }}
                     placeholder={isFocused ? '' : isListening ? 'Dinliyorum... 🎙️' : (currentPlaceholder || t.searchBarMobilePlaceholder || "Model veya Marka Ara...")}
-                    className={`w-full bg-transparent text-slate-900 dark:text-white text-[15px] sm:text-xs font-semibold focus:outline-none transition-colors ${
+                    className={`w-full bg-transparent text-slate-900 dark:text-white text-base font-semibold focus:outline-none transition-colors ${
                       isListening ? 'text-rose-600 dark:text-rose-400 placeholder:text-rose-500 animate-pulse font-bold' : 'placeholder:text-slate-400 dark:placeholder:text-slate-500'
                     }`}
                   />
@@ -656,6 +676,7 @@ export function Navbar() {
                   {query && (
                     <button
                       type="button"
+                      aria-label="Aramayı temizle"
                       onClick={() => {
                         setQuery('');
                         mobileInputRef.current?.focus();
@@ -673,7 +694,7 @@ export function Navbar() {
                       e.stopPropagation();
                       startVoiceSearch();
                     }}
-                    className={`w-7 h-7 rounded-full flex items-center justify-center transition-all cursor-pointer active:scale-95 shrink-0 ${
+                    className={`w-11 h-11 rounded-full flex items-center justify-center transition-all cursor-pointer active:scale-95 shrink-0 ${
                       isListening
                         ? 'bg-rose-500 text-white animate-pulse ring-2 ring-rose-300'
                         : 'text-slate-500 hover:text-cyan-600 dark:hover:text-cyan-400'
@@ -695,7 +716,7 @@ export function Navbar() {
                       e.stopPropagation();
                       openAiAssistant(undefined, true);
                     }}
-                    className="w-7 h-7 rounded-full bg-[#d8ecfc] hover:bg-[#c2e2fa] dark:bg-blue-950/70 text-[#0b57d0] dark:text-blue-300 flex items-center justify-center transition-all active:scale-95 shadow-2xs shrink-0"
+                    className="hidden sm:flex w-11 h-11 rounded-full bg-[#d8ecfc] hover:bg-[#c2e2fa] dark:bg-blue-950/70 text-[#0b57d0] dark:text-blue-300 items-center justify-center transition-all active:scale-95 shadow-2xs shrink-0"
                     title="Canlı Ses"
                     aria-label="Canlı Ses"
                   >
@@ -713,7 +734,7 @@ export function Navbar() {
                       e.stopPropagation();
                       openAiAssistant();
                     }}
-                    className="relative flex items-center gap-1.5 px-2.5 sm:px-3 py-1 sm:py-1.5 rounded-full text-[11px] font-black transition-all duration-300 cursor-pointer overflow-hidden border border-cyan-400/50 dark:border-cyan-500/60 bg-gradient-to-r from-slate-900 via-slate-800 to-slate-950 text-white shadow-[0_0_10px_rgba(6,182,212,0.3)] hover:border-cyan-400 hover:shadow-[0_0_16px_rgba(6,182,212,0.5)] active:scale-95 whitespace-nowrap shrink-0 group/ai"
+                    className="relative flex min-h-11 min-w-11 justify-center items-center gap-1.5 px-2.5 sm:px-3 py-1 sm:py-1.5 rounded-full text-[11px] font-black transition-all duration-300 cursor-pointer overflow-hidden border border-cyan-400/50 dark:border-cyan-500/60 bg-gradient-to-r from-slate-900 via-slate-800 to-slate-950 text-white shadow-[0_0_10px_rgba(6,182,212,0.3)] hover:border-cyan-400 hover:shadow-[0_0_16px_rgba(6,182,212,0.5)] active:scale-95 whitespace-nowrap shrink-0 group/ai"
                     title="RoboPengu AI Danışmanı"
                     aria-label="RoboPengu AI Danışmanı"
                   >
@@ -725,7 +746,7 @@ export function Navbar() {
                         className="w-full h-full object-contain filter drop-shadow-[0_0_4px_rgba(6,182,212,0.8)]"
                       />
                     </div>
-                    <span className="bg-gradient-to-r from-cyan-300 via-teal-200 to-emerald-300 bg-clip-text text-transparent font-black text-[11px] sm:text-xs tracking-tight">
+                    <span className="hidden sm:inline bg-gradient-to-r from-cyan-300 via-teal-200 to-emerald-300 bg-clip-text text-transparent font-black text-[11px] sm:text-xs tracking-tight">
                       RoboPengu AI
                     </span>
                   </button>
@@ -744,7 +765,7 @@ export function Navbar() {
       </header>
 
       {/* Layer B: Dedicated AI Assistant Modal */}
-      <AIAssistantModal
+      <LazyAIAssistantModal
         isOpen={isAiModalOpen}
         onClose={() => setIsAiModalOpen(false)}
         initialQuery={aiModalQuery}
@@ -752,37 +773,39 @@ export function Navbar() {
       />
 
       {/* 🐧 Floating RoboPengu Action Button (FAB) - Visible across all screens (Desktop, Tablet, Mobile) */}
-      {!isAiModalOpen && (
-        <aside
+      {!isAiModalOpen && !isFocused && (
+        <button
+          type="button"
           aria-label="RoboPengu AI Asistanı"
           onClick={() => openAiAssistant()}
+          style={compareList.length>0?{bottom:'calc(var(--compare-bar-height, 136px) + 32px)'}:undefined}
           className={`fixed ${
             compareList.length > 0 ? 'bottom-20 sm:bottom-24' : 'bottom-4 sm:bottom-5 md:bottom-6'
           } right-3 sm:right-4 md:right-6 z-50 flex items-center gap-2 md:gap-2.5 cursor-pointer select-none group pb-[env(safe-area-inset-bottom)]`}
         >
           {/* Tooltip speech pill */}
-          <div className="bg-white/95 dark:bg-slate-900/95 text-slate-800 dark:text-slate-100 text-[11px] md:text-xs font-black px-3 py-1.5 md:px-3.5 md:py-2 rounded-2xl shadow-lg border border-[#cbe0f5] dark:border-slate-700 flex items-center gap-1.5 backdrop-blur-md transition-all group-hover:scale-105 group-hover:border-emerald-500/40 active:scale-95">
+          <span className="bg-white/95 dark:bg-slate-900/95 text-slate-800 dark:text-slate-100 text-[11px] md:text-xs font-black px-3 py-1.5 md:px-3.5 md:py-2 rounded-2xl shadow-lg border border-[#cbe0f5] dark:border-slate-700 flex items-center gap-1.5 backdrop-blur-md transition-all group-hover:scale-105 group-hover:border-emerald-500/40 active:scale-95">
             <span className="inline-block w-2 h-2 rounded-full bg-emerald-500 animate-ping"></span>
             <span>RoboPengu&apos;ya Sor!</span>
             <span className="text-xs md:text-sm">🐧</span>
-          </div>
+          </span>
 
           {/* 3D Floating RoboPengu Avatar */}
-          <div className="relative w-12 h-14 sm:w-14 sm:h-16 md:w-16 md:h-[72px] animate-float filter drop-shadow-[0_12px_22px_rgba(0,0,0,0.30)] transition-transform group-hover:scale-110 active:scale-90">
+          <span className="relative w-12 h-14 sm:w-14 sm:h-16 md:w-16 md:h-[72px] animate-float filter drop-shadow-[0_12px_22px_rgba(0,0,0,0.30)] transition-transform group-hover:scale-110 active:scale-90">
             <img
               src="/assets/robopengu.png"
               alt="RoboPengu"
               className="w-full h-full object-contain pointer-events-none"
             />
             {/* Natural subtle ambient glow on FAB */}
-            <div className="absolute top-[57.5%] left-[68.8%] -translate-x-1/2 -translate-y-1/2 flex items-center justify-center pointer-events-none">
+            <span className="absolute top-[57.5%] left-[68.8%] -translate-x-1/2 -translate-y-1/2 flex items-center justify-center pointer-events-none">
               <span className="absolute w-4 h-4 rounded-full bg-cyan-400/25 blur-[2px] animate-led-breathe"></span>
               <span className="relative w-2.5 h-2.5 rounded-full bg-cyan-300 shadow-[0_0_6px_#22d3ee] border border-cyan-100/60 animate-led-breathe flex items-center justify-center">
                 <span className="w-1 h-0.5 rounded-full bg-white/80 blur-[0.2px] mb-0.5"></span>
               </span>
-            </div>
-          </div>
-        </aside>
+            </span>
+          </span>
+        </button>
       )}
     </>
   );

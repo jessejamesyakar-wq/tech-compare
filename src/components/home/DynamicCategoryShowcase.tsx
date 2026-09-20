@@ -5,10 +5,11 @@ import Link from 'next/link';
 import { ProductImage } from '@/components/ui/ProductImage';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Product } from '@/lib/types';
+import { getConsoleSpecSummary } from '@/lib/productPresentation';
 import { useCompare } from '@/context/CompareContext';
 import { useI18n } from '@/lib/i18n/context';
 import { TiltCard } from '@/components/ui/TiltCard';
-import { getEffectiveStoreCount, filterActiveStoreOffers, ACTIVE_RETAILERS } from '@/lib/activeStores';
+import { evaluateProductPricing, getPriceHeading } from '@/lib/pricing/unifiedPriceEvaluator';
 import {
   Sparkles,
   Zap,
@@ -105,14 +106,6 @@ const CATEGORY_CONFIG: Record<
   }
 };
 
-const DYNAMIC_BADGES = [
-  { text: '🔥 Trend #1', style: 'bg-emerald-50 text-emerald-700 border-emerald-200' },
-  { text: '⭐ Editörün Seçimi', style: 'bg-amber-50 text-amber-700 border-amber-200' },
-  { text: '🏆 En Yüksek Puan', style: 'bg-purple-50 text-purple-700 border-purple-200' },
-  { text: '⚡ Fırsat Fiyat', style: 'bg-rose-50 text-rose-700 border-rose-200' },
-  { text: '✨ Çok Satan', style: 'bg-blue-50 text-blue-700 border-blue-200' }
-];
-
 export interface DynamicCategoryDistribution {
   total: number;
   items: Product[];
@@ -193,9 +186,7 @@ export function DynamicCategoryShowcase({ initialData }: { initialData?: Dynamic
       const power = specs.powerWatts ? `${specs.powerWatts}W` : '';
       return [suction, power].filter(Boolean).join(' • ') || (p.highlights?.[0] || '');
     } else if (p.category === 'consoles') {
-      const res = specs.resolution || '4K 120 FPS';
-      const storage = specs.storage || '1 TB SSD';
-      return [res, storage].join(' • ');
+      return getConsoleSpecSummary(p);
     } else if (p.category === 'headphones') {
       const anc = specs.anc && specs.anc !== 'Yok' ? 'ANC' : '';
       const bat = specs.batteryLife ? `${specs.batteryLife}` : '';
@@ -224,10 +215,10 @@ export function DynamicCategoryShowcase({ initialData }: { initialData?: Dynamic
           </div>
           <h2 className="text-2xl sm:text-3xl font-black tracking-tight flex items-center gap-2.5">
             <Sparkles className="w-6 h-6 text-emerald-400" />
-            <span>Trend Ürünler Karma Vitrini</span>
+            <span>Ürünleri Keşfet</span>
           </h2>
           <p className="text-xs text-slate-300 font-medium max-w-xl leading-relaxed">
-            Piyasadaki en popüler ve en çok tercih edilen akıllı telefon, laptop, televizyon, ev aletleri, tablet, kulaklık ve konsol modelleri canlı takipte.
+            Dokuz kategoriden ürünleri, teknik özelliklerini ve fiyat doğrulama durumlarını birlikte incele.
           </p>
         </div>
 
@@ -307,13 +298,9 @@ export function DynamicCategoryShowcase({ initialData }: { initialData?: Dynamic
           {displayedItems.map((product, idx) => {
             const inCompare = isInCompare(product.id);
             const cfg = CATEGORY_CONFIG[product.category] || CATEGORY_CONFIG.smartphones;
-            const badge = DYNAMIC_BADGES[idx % DYNAMIC_BADGES.length];
             const href = getProductHref(product);
-            const offers = product.storeOffers || [];
-            const activeOffers = filterActiveStoreOffers(offers);
-            const offerCount = getEffectiveStoreCount(offers);
-            const prices = (activeOffers.length > 0 ? activeOffers : offers).map((o) => o.price).filter((p) => p > 0);
-            const minPrice = prices.length > 0 ? Math.min(...prices) : product.basePrice;
+            const pricing = evaluateProductPricing(product);
+            const offerCount = pricing.activeStoreCount;
             const specSub = getSpecSummary(product);
 
             return (
@@ -329,9 +316,6 @@ export function DynamicCategoryShowcase({ initialData }: { initialData?: Dynamic
                       <span>{cfg.shortLabel}</span>
                     </span>
 
-                    <span className={`text-[10px] font-black px-2.5 py-0.5 rounded-md border ${badge.style}`}>
-                      {badge.text}
-                    </span>
                   </div>
 
                   {/* Product Image Box */}
@@ -369,16 +353,17 @@ export function DynamicCategoryShowcase({ initialData }: { initialData?: Dynamic
                   <div className="flex items-baseline justify-between">
                     <div>
                       <span className="text-[9px] font-bold text-slate-400 uppercase tracking-wider block">
-                        En İyi Fiyat
+                        {getPriceHeading(pricing)}
                       </span>
                       <div className="text-base sm:text-lg font-black text-slate-900 tracking-tight tabular-nums">
-                        ₺{minPrice.toLocaleString()}
+                        {pricing.displayPrice !== null ? '₺' + pricing.displayPrice.toLocaleString('tr-TR') : '—'}
                       </div>
+                      <p className="text-[11px] text-slate-500">{pricing.statusLabel}</p>
                     </div>
 
                     <span className="text-emerald-700 font-bold flex items-center gap-1 text-[10px] sm:text-[11px] bg-emerald-50 px-2 py-0.5 rounded-md border border-emerald-200">
                       <Store className="w-3 h-3" />
-                      {offerCount === 1 ? `${ACTIVE_RETAILERS[0]?.name || 'Hepsiburada'} Fiyatı` : `${offerCount} Mağaza Fiyatı`}
+                      {offerCount > 0 ? `${offerCount} Mağaza Fiyatı` : 'Güncel Teklif Yok'}
                     </span>
                   </div>
 

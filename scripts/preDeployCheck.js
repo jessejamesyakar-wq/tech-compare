@@ -1,5 +1,8 @@
 const fs = require('fs');
 const path = require('path');
+const { findCatalogIdentityConflicts } = require('./catalogIdentityCheck.cjs');
+const { checkCatalogImageEvidence, checkPendingImageEvidence } = require('./catalogImageEvidence.cjs');
+const { checkPendingCatalogData } = require('./catalogDataReview.cjs');
 
 const datasets = [
   { name: 'smartphones', file: 'smartphonesData.json', type: 'json' },
@@ -54,6 +57,8 @@ datasets.forEach(d => {
   totalProducts += products.length;
   currentProductsMap.set(d.name, products);
 });
+
+criticalErrors.push(...findCatalogIdentityConflicts(currentProductsMap));
 
 // 2. Baseline count loss prevention check
 const baselinePath = path.join(__dirname, '../data/catalog_baseline.json');
@@ -139,8 +144,21 @@ currentProductsMap.forEach((products, cat) => {
 });
 
 // 4. Shared image detection (detect generic fallbacks)
+const dataReviewPath = path.join(__dirname, '../data/catalog_data_reviews.json');
+if (fs.existsSync(dataReviewPath)) {
+  const review = JSON.parse(fs.readFileSync(dataReviewPath, 'utf8'));
+  criticalErrors.push(...checkPendingCatalogData([...currentProductsMap.values()].flat(), review.entries));
+  if (review.entries.length) warnings.push(`Pending source review: ${review.entries.length} records have quarantined fields. Missing data is OPEN work, not a verified complete catalog.`);
+}
+const imageEvidencePath = path.join(__dirname, '../data/catalog_image_sources.json');
+if (fs.existsSync(imageEvidencePath)) {
+  const imageEvidence = JSON.parse(fs.readFileSync(imageEvidencePath, 'utf8'));
+  criticalErrors.push(...checkCatalogImageEvidence([...currentProductsMap.values()].flat(), imageEvidence.entries, publicDir));
+  criticalErrors.push(...checkPendingImageEvidence([...currentProductsMap.values()].flat(), imageEvidence.entries, imageEvidence.pending || []));
+  if(imageEvidence.pending?.length) warnings.push(`Pending model photographs: ${imageEvidence.pending.length} products show an explicit verification placeholder. These image corrections remain OPEN.`);
+}
 globalImageUsageMap.forEach((usedBy, imgPath) => {
-  if (usedBy.length > 5) {
+  if (usedBy.length > 5 && imgPath !== '/images/product-unverified.svg') {
     warnings.push(`Shared Image: "${imgPath}" is shared across ${usedBy.length} different products (e.g. ${usedBy.slice(0, 3).map(u => u.name).join(', ')}...)`);
   }
 });
@@ -181,7 +199,7 @@ if (criticalErrors.length > 0) {
         category: p.category,
         image: p.image || (Array.isArray(p.images) ? p.images[0] : ''),
         basePrice: p.basePrice || 0,
-        rating: p.rating || 4.5,
+        rating: p.rating,
         isPopular: !!p.isPopular,
         releaseYear: p.releaseYear || undefined,
       });
@@ -197,4 +215,3 @@ if (criticalErrors.length > 0) {
   console.log(`\n✅ ALL PRE-DEPLOY INTEGRITY CHECKS PASSED (0 broken links, 0 duplicate IDs/slugs, 0 data loss).`);
   process.exit(0);
 }
-

@@ -723,6 +723,16 @@ export const mockMonitors: Product[] = [
         "date": "Ağustos 2026",
         "price": 49520
       }
+    ],
+    "fieldSources": [
+      {
+        "fields": [
+          "category"
+        ],
+        "sourceUrl": "https://www.lg.com/sg/consumer-monitors/ultrawide/34wq650-w/",
+        "checkedAt": "2026-09-20T03:35:17.380Z",
+        "scopeNote": "Only this exact model's monitor category is verified. LG product/support page opened. No specification, variant, price, review, stock, release year or warranty verification is implied."
+      }
     ]
   },
   {
@@ -12977,6 +12987,16 @@ export const mockMonitors: Product[] = [
         "date": "Ağustos 2026",
         "price": 35800
       }
+    ],
+    "fieldSources": [
+      {
+        "fields": [
+          "category"
+        ],
+        "sourceUrl": "https://www.lg.com/us/monitors/lg-32gs75q-b-gaming-monitor",
+        "checkedAt": "2026-09-20T03:35:17.380Z",
+        "scopeNote": "Only this exact model's monitor category is verified. LG product/support page opened. No specification, variant, price, review, stock, release year or warranty verification is implied."
+      }
     ]
   },
   {
@@ -16188,7 +16208,7 @@ export const mockMonitors: Product[] = [
     "reviewCount": 440,
     "basePrice": 9149,
     "currency": "TL",
-    "releaseYear": 2024,
+    "releaseYear": 2025,
     "isPopular": true,
     "isFeatured": false,
     "image": "/images/products/monitors/icecat-lg-ultragear-27g610a-b.jpg",
@@ -16199,9 +16219,9 @@ export const mockMonitors: Product[] = [
       "/images/products/monitors/icecat-lg-ultragear-27g610a-b-3.jpg"
     ],
     "highlights": [
-      "27 inç WQHD (2560x1440) 200Hz (OC) Fast IPS Akıcı Panel",
-      "1ms (GtG) Tepki Süresi, HDR10 ve NVIDIA G-Sync Uyumlu",
-      "AMD FreeSync, %99 sRGB Renk Doğruluğu ve Oyuncu Odaklı Arayüz"
+      "27 inç QHD IPS panel; 200 Hz yenileme hızı",
+      "1 ms GtG (Faster) ve 400 nit tipik parlaklık",
+      "VESA DisplayHDR 400; AMD FreeSync Premium ve G-SYNC Compatible"
     ],
     "specs": {
       "screenSizeInches": 27,
@@ -16209,11 +16229,11 @@ export const mockMonitors: Product[] = [
       "panelType": "IPS",
       "refreshRateHz": 200,
       "responseTimeMs": 1,
-      "syncTechnology": "G-Sync Compatible",
+      "syncTechnology": "AMD FreeSync Premium / G-SYNC Compatible",
       "aspectRatio": "16:9",
-      "brightnessNits": 300,
+      "brightnessNits": 400,
       "contrastRatio": "1000:1",
-      "hdrSupport": "HDR10"
+      "hdrSupport": "HDR10 / VESA DisplayHDR 400"
     },
     "storeOffers": [
       {
@@ -16295,6 +16315,28 @@ export const mockMonitors: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 9200
+      }
+    ],
+    "fieldSources": [
+      {
+        "fields": [
+          "category"
+        ],
+        "sourceUrl": "https://www.lg.com/ca_en/monitors/gaming/27g610a-b/",
+        "checkedAt": "2026-09-20T03:35:17.380Z",
+        "scopeNote": "Only this exact model's monitor category is verified. LG product/support page opened. No specification, variant, price, review, stock, release year or warranty verification is implied."
+      },
+      {
+        "fields": [
+          "highlights",
+          "specs.brightnessNits",
+          "specs.hdrSupport",
+          "specs.syncTechnology",
+          "releaseYear"
+        ],
+        "sourceUrl": "https://www.lg.com/ae/consumer-monitors/lg-27g610a-b",
+        "checkedAt": "2026-09-20T04:40:41.494Z",
+        "scopeNote": "Yalnız belirtilen alanlar exact LG ürün sayfasıyla kontrol edildi. Tipik parlaklık, GtG/MBR ve fiziksel bağlantılar ayrı tutuldu; tüm ürün/fiyat doğrulaması değildir. Year, üretici model yılıdır."
       }
     ]
   },
@@ -17720,6 +17762,16 @@ export const mockMonitors: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 18900
+      }
+    ],
+    "fieldSources": [
+      {
+        "fields": [
+          "category"
+        ],
+        "sourceUrl": "https://www.lg.com/us/monitors/lg-27up850k-w-4k-uhd-led-monitor",
+        "checkedAt": "2026-09-20T03:35:17.380Z",
+        "scopeNote": "Only this exact model's monitor category is verified. LG product/support page opened. No specification, variant, price, review, stock, release year or warranty verification is implied."
       }
     ]
   },
@@ -26430,6 +26482,16 @@ export const mockMonitors: Product[] = [
         "date": "Ağustos 2026",
         "price": 24000
       }
+    ],
+    "fieldSources": [
+      {
+        "fields": [
+          "category"
+        ],
+        "sourceUrl": "https://www.lg.com/jp/monitors/4k-5k-monitors/32un880k-b/",
+        "checkedAt": "2026-09-20T03:35:17.380Z",
+        "scopeNote": "Only this exact model's monitor category is verified. LG product/support page opened. No specification, variant, price, review, stock, release year or warranty verification is implied."
+      }
     ]
   },
   {
@@ -27976,6 +28038,16 @@ export const mockMonitors: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 50000
+      }
+    ],
+    "fieldSources": [
+      {
+        "fields": [
+          "category"
+        ],
+        "sourceUrl": "https://www.lg.com/uk/monitors/uhd-4k-5k/32un88ap-w/",
+        "checkedAt": "2026-09-20T03:08:27.056Z",
+        "scopeNote": "Only the listed fields were checked against this exact LG model page. Prices, store offers, reviews, release year, warranty, local availability and other fields are not verified by this correction. GtG/MBR and standard/overclock modes are distinct."
       }
     ]
   },
@@ -37521,6 +37593,16 @@ export const mockMonitors: Product[] = [
         "date": "Ağustos 2026",
         "price": 17330
       }
+    ],
+    "fieldSources": [
+      {
+        "fields": [
+          "category"
+        ],
+        "sourceUrl": "https://www.lg.com/pl/monitory/ultragear-gaming/27gr93u-b/",
+        "checkedAt": "2026-09-20T03:35:17.380Z",
+        "scopeNote": "Only this exact model's monitor category is verified. LG product/support page opened. No specification, variant, price, review, stock, release year or warranty verification is implied."
+      }
     ]
   },
   {
@@ -39317,7 +39399,7 @@ export const mockMonitors: Product[] = [
   {
     "id": "lg-ultrafine-32u990a-s",
     "slug": "lg-ultrafine-32u990a-s",
-    "name": "LG UltraFine 32U990A-S 32 inç 6K (6144x3456) Nano IPS Black Thunderbolt 4 Monitör",
+    "name": "LG UltraFine 32U990A-S 32 inç 6K (6144x3456) Nano IPS Black Thunderbolt 5 Monitör",
     "brand": "LG",
     "category": "monitors",
     "rating": 4.9,
@@ -39325,7 +39407,7 @@ export const mockMonitors: Product[] = [
     "reviewCount": 110,
     "basePrice": 69649,
     "currency": "TL",
-    "releaseYear": 2024,
+    "releaseYear": 2025,
     "isPopular": true,
     "isFeatured": false,
     "image": "/images/monitors/lg-ultrafine-32u990a-s.jpg",
@@ -39333,18 +39415,18 @@ export const mockMonitors: Product[] = [
       "/images/monitors/lg-ultrafine-32u990a-s.jpg"
     ],
     "highlights": [
-      "31.5 inç 6K (6144x3456) 223 PPI Ultra Yüksek Çözünürlüklü Nano IPS Black Panel",
-      "Thunderbolt 4 (96W PD, Daisy Chain, KVM)",
-      "DisplayHDR 600, %98 DCI-P3 ve Dahili Hoparlör"
+      "6K (6144x3456) Nano IPS Black panel, 60 Hz",
+      "Thunderbolt 5, 96W güç iletimi; uyumlu cihaz ve kablo gerektirir",
+      "DisplayHDR 600; 450 nit tipik parlaklık"
     ],
     "specs": {
-      "screenSizeInches": 31.5,
+      "screenSizeInches": 31.47,
       "resolution": "6144x3456 (6K)",
       "panelType": "Nano IPS Black",
       "refreshRateHz": 60,
       "responseTimeMs": 5,
       "aspectRatio": "16:9",
-      "brightnessNits": 600,
+      "brightnessNits": 450,
       "contrastRatio": "2000:1",
       "hdrSupport": "DisplayHDR 600"
     },
@@ -39428,6 +39510,21 @@ export const mockMonitors: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 70000
+      }
+    ],
+    "fieldSources": [
+      {
+        "fields": [
+          "category",
+          "name",
+          "specs.screenSizeInches",
+          "specs.brightnessNits",
+          "highlights",
+          "releaseYear"
+        ],
+        "sourceUrl": "https://www.lg.com/uk/monitors/uhd-4k-5k/32u990a-s/",
+        "checkedAt": "2026-09-20T03:08:27.056Z",
+        "scopeNote": "Only the listed fields were checked against this exact LG model page. Prices, store offers, reviews, warranty, local availability and other fields are not verified by this correction. GtG/MBR and standard/overclock modes are distinct."
       }
     ]
   },
@@ -41340,7 +41437,7 @@ export const mockMonitors: Product[] = [
   {
     "id": "lg-ultragear-27g640a-b",
     "slug": "lg-ultragear-27g640a-b",
-    "name": "LG UltraGear 27G640A-B 27 inç 200Hz WQHD IPS Gaming Monitör",
+    "name": "LG UltraGear 27G640A-B 27 inç 300Hz WQHD IPS Gaming Monitör",
     "brand": "LG",
     "category": "monitors",
     "rating": 4.7,
@@ -41348,7 +41445,7 @@ export const mockMonitors: Product[] = [
     "reviewCount": 350,
     "basePrice": 11939,
     "currency": "TL",
-    "releaseYear": 2024,
+    "releaseYear": 2025,
     "isPopular": true,
     "isFeatured": false,
     "image": "/images/products/monitors/icecat-lg-ultragear-27g640a-b.jpg",
@@ -41359,21 +41456,22 @@ export const mockMonitors: Product[] = [
       "/images/products/monitors/icecat-lg-ultragear-27g640a-b-3.jpg"
     ],
     "highlights": [
-      "27 inç WQHD (2560x1440) 200Hz IPS Panel",
-      "1ms MBR Tepki Süresi ve HDR10 Desteği",
-      "AMD FreeSync ve G-Sync Uyumlu"
+      "27 inç QHD (2560x1440) IPS panel, 300 Hz yenileme hızı",
+      "1 ms GtG tepki süresi (Faster modu)",
+      "400 nit tipik parlaklık ve DisplayHDR 400",
+      "AMD FreeSync Premium ve NVIDIA G-SYNC Compatible"
     ],
     "specs": {
       "screenSizeInches": 27,
       "resolution": "2560x1440 (WQHD)",
       "panelType": "IPS",
-      "refreshRateHz": 200,
+      "refreshRateHz": 300,
       "responseTimeMs": 1,
-      "syncTechnology": "FreeSync",
+      "syncTechnology": "AMD FreeSync Premium / G-Sync Compatible",
       "aspectRatio": "16:9",
-      "brightnessNits": 300,
-      "contrastRatio": "1000:1",
-      "hdrSupport": "HDR10"
+      "brightnessNits": 400,
+      "contrastRatio": "1300:1",
+      "hdrSupport": "DisplayHDR 400"
     },
     "storeOffers": [
       {
@@ -41455,6 +41553,31 @@ export const mockMonitors: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 12000
+      }
+    ],
+    "fieldSources": [
+      {
+        "fields": [
+          "category"
+        ],
+        "sourceUrl": "https://www.lg.com/es/monitores/monitores-ultragear-gaming/27g640a-b/",
+        "checkedAt": "2026-09-20T03:35:17.380Z",
+        "scopeNote": "Only this exact model's monitor category is verified. LG indexed product-page content; direct web fetch timed out. No specification, variant, price, review, stock, release year or warranty verification is implied."
+      },
+      {
+        "fields": [
+          "name",
+          "releaseYear",
+          "highlights",
+          "specs.refreshRateHz",
+          "specs.brightnessNits",
+          "specs.contrastRatio",
+          "specs.hdrSupport",
+          "specs.syncTechnology"
+        ],
+        "sourceUrl": "https://www.lg.com/uk/monitors/gaming/27g640a-b/",
+        "checkedAt": "2026-09-20T03:43:53.624Z",
+        "scopeNote": "Only the listed fields were checked against the exact model on LG UK. Brightness is typical, not peak HDR brightness; releaseYear records the manufacturer INFO/Year (Y25 or Y26). Other fields and all commercial data remain unverified."
       }
     ]
   },
@@ -43824,12 +43947,22 @@ export const mockMonitors: Product[] = [
         "date": "Ağustos 2026",
         "price": 19490
       }
+    ],
+    "fieldSources": [
+      {
+        "fields": [
+          "category"
+        ],
+        "sourceUrl": "https://www.lg.com/co/monitores/gaming/27g810a-b/",
+        "checkedAt": "2026-09-20T03:35:17.380Z",
+        "scopeNote": "Only this exact model's monitor category is verified. LG product/support page opened. No specification, variant, price, review, stock, release year or warranty verification is implied."
+      }
     ]
   },
   {
     "id": "lg-ultragear-34g630a-b",
     "slug": "lg-ultragear-34g630a-b",
-    "name": "LG UltraGear 34G630A-B 34 inç 240Hz 1000R UWQHD Gaming Monitör",
+    "name": "LG UltraGear 34G630A-B 34 inç 240Hz 1500R UWQHD Gaming Monitör",
     "brand": "LG",
     "category": "monitors",
     "rating": 4.7,
@@ -43837,7 +43970,7 @@ export const mockMonitors: Product[] = [
     "reviewCount": 290,
     "basePrice": 20349,
     "currency": "TL",
-    "releaseYear": 2024,
+    "releaseYear": 2025,
     "isPopular": true,
     "isFeatured": false,
     "image": "/images/products/monitors/icecat-lg-ultragear-34g630a-b.jpg",
@@ -43848,21 +43981,22 @@ export const mockMonitors: Product[] = [
       "/images/products/monitors/icecat-lg-ultragear-34g630a-b-3.jpg"
     ],
     "highlights": [
-      "34 inç UWQHD (3440x1440) 240Hz 1000R Kavisli VA Panel",
-      "1ms MBR Tepki Süresi ve HDR10 Desteği",
-      "FreeSync Premium ve HDMI 2.1"
+      "34 inç UWQHD (3440x1440) VA panel; 240 Hz ve 1500R kavis",
+      "1 ms GtG tepki süresi (Faster modu)",
+      "300 nit tipik parlaklık ve DisplayHDR 400",
+      "AMD FreeSync Premium"
     ],
     "specs": {
       "screenSizeInches": 34,
       "resolution": "3440x1440 (UWQHD)",
-      "panelType": "VA (1000R Kavisli)",
+      "panelType": "VA (1500R Kavisli)",
       "refreshRateHz": 240,
       "responseTimeMs": 1,
       "syncTechnology": "FreeSync Premium",
       "aspectRatio": "21:9",
-      "brightnessNits": 350,
+      "brightnessNits": 300,
       "contrastRatio": "4000:1",
-      "hdrSupport": "HDR10"
+      "hdrSupport": "DisplayHDR 400"
     },
     "storeOffers": [
       {
@@ -43944,6 +44078,29 @@ export const mockMonitors: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 20450
+      }
+    ],
+    "fieldSources": [
+      {
+        "fields": [
+          "category"
+        ],
+        "sourceUrl": "https://www.lg.com/es/monitores/monitores-ultragear-gaming/34g630a-b/",
+        "checkedAt": "2026-09-20T03:35:17.380Z",
+        "scopeNote": "Only this exact model's monitor category is verified. LG product/support page opened. No specification, variant, price, review, stock, release year or warranty verification is implied."
+      },
+      {
+        "fields": [
+          "name",
+          "releaseYear",
+          "highlights",
+          "specs.panelType",
+          "specs.brightnessNits",
+          "specs.hdrSupport"
+        ],
+        "sourceUrl": "https://www.lg.com/uk/monitors/gaming/34g630a-b/",
+        "checkedAt": "2026-09-20T03:43:53.624Z",
+        "scopeNote": "Only the listed fields were checked against the exact model on LG UK. Brightness is typical, not peak HDR brightness; releaseYear records the manufacturer INFO/Year (Y25 or Y26). Other fields and all commercial data remain unverified."
       }
     ]
   },
@@ -44303,6 +44460,16 @@ export const mockMonitors: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 85650
+      }
+    ],
+    "fieldSources": [
+      {
+        "fields": [
+          "category"
+        ],
+        "sourceUrl": "https://www.lg.com/uk/monitors/uhd-4k-5k/40u990a-w/",
+        "checkedAt": "2026-09-20T03:35:17.380Z",
+        "scopeNote": "Only this exact model's monitor category is verified. LG product/support page opened. No specification, variant, price, review, stock, release year or warranty verification is implied."
       }
     ]
   },
@@ -47516,7 +47683,7 @@ export const mockMonitors: Product[] = [
   {
     "id": "lg-ultragear-27g850a-b",
     "slug": "lg-ultragear-27g850a-b",
-    "name": "LG UltraGear 27G850A-B 27 inç 240Hz 4K UHD Nano IPS Monitör",
+    "name": "LG UltraGear 27G850A-B 27 inç 240Hz 4K UHD Nano IPS Black Monitör",
     "brand": "LG",
     "category": "monitors",
     "rating": 4.8,
@@ -47524,7 +47691,7 @@ export const mockMonitors: Product[] = [
     "reviewCount": 310,
     "basePrice": 33729,
     "currency": "TL",
-    "releaseYear": 2024,
+    "releaseYear": 2025,
     "isPopular": true,
     "isFeatured": false,
     "image": "/images/products/monitors/icecat-lg-ultragear-27g850a-b.jpg",
@@ -47535,20 +47702,21 @@ export const mockMonitors: Product[] = [
       "/images/products/monitors/icecat-lg-ultragear-27g850a-b-3.jpg"
     ],
     "highlights": [
-      "27 inç 4K UHD 240Hz Nano IPS 1ms Panel",
-      "ATW Polarizer ile Üst Düzey Görüş Açısı ve Kontrast",
-      "DisplayHDR 600 ve HDMI 2.1"
+      "4K çözünürlükte 240 Hz; Full HD çözünürlükte 480 Hz Dual Mode",
+      "27 inç Nano IPS Black panel ve 2000:1 tipik kontrast",
+      "450 nit tipik parlaklık ve DisplayHDR 600",
+      "1 ms GtG tepki süresi (Faster modu) ve DisplayPort 2.1"
     ],
     "specs": {
       "screenSizeInches": 27,
       "resolution": "3840x2160 (4K UHD)",
-      "panelType": "Nano IPS",
+      "panelType": "Nano IPS Black",
       "refreshRateHz": 240,
       "responseTimeMs": 1,
       "syncTechnology": "G-Sync Compatible",
       "aspectRatio": "16:9",
-      "brightnessNits": 600,
-      "contrastRatio": "1000:1",
+      "brightnessNits": 450,
+      "contrastRatio": "2000:1",
       "hdrSupport": "DisplayHDR 600"
     },
     "storeOffers": [
@@ -47631,6 +47799,37 @@ export const mockMonitors: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 33900
+      }
+    ],
+    "fieldSources": [
+      {
+        "fields": [
+          "category"
+        ],
+        "sourceUrl": "https://www.lg.com/us/monitors/lg-27g850a-b-gaming-monitor",
+        "checkedAt": "2026-09-20T03:35:17.380Z",
+        "scopeNote": "Only this exact model's monitor category is verified. LG product/support page opened. No specification, variant, price, review, stock, release year or warranty verification is implied."
+      },
+      {
+        "fields": [
+          "name",
+          "releaseYear",
+          "highlights",
+          "specs.panelType",
+          "specs.brightnessNits",
+          "specs.contrastRatio"
+        ],
+        "sourceUrl": "https://www.lg.com/uk/monitors/gaming/27g850a-b/",
+        "checkedAt": "2026-09-20T03:43:53.624Z",
+        "scopeNote": "Only the listed fields were checked against the exact model on LG UK. Brightness is typical, not peak HDR brightness; releaseYear records the manufacturer INFO/Year (Y25 or Y26). Other fields and all commercial data remain unverified."
+      },
+      {
+        "fields": [
+          "highlights"
+        ],
+        "sourceUrl": "https://www.lg.com/us/monitors/lg-27g850a-b-gaming-monitor",
+        "checkedAt": "2026-09-20T03:43:53.624Z",
+        "scopeNote": "Dual-mode resolutions and refresh rates, response time and DisplayPort confirmed on the exact-model LG US page; ClearMR 21000 additionally confirmed for 27GX790B-B. Does not verify prices or offers."
       }
     ]
   },
@@ -48707,6 +48906,16 @@ export const mockMonitors: Product[] = [
         "date": "Ağustos 2026",
         "price": 35000
       }
+    ],
+    "fieldSources": [
+      {
+        "fields": [
+          "category"
+        ],
+        "sourceUrl": "https://www.lg.com/de/monitore/gaming/27gs95qe-b/",
+        "checkedAt": "2026-09-20T03:35:17.380Z",
+        "scopeNote": "Only this exact model's monitor category is verified. LG product/support page opened. No specification, variant, price, review, stock, release year or warranty verification is implied."
+      }
     ]
   },
   {
@@ -49188,6 +49397,16 @@ export const mockMonitors: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 28850
+      }
+    ],
+    "fieldSources": [
+      {
+        "fields": [
+          "category"
+        ],
+        "sourceUrl": "https://www.lg.com/us/support/product/lg-32G810SA-W.AUS",
+        "checkedAt": "2026-09-20T03:35:17.380Z",
+        "scopeNote": "Only this exact model's monitor category is verified. LG product/support page opened. No specification, variant, price, review, stock, release year or warranty verification is implied."
       }
     ]
   },
@@ -50258,6 +50477,16 @@ export const mockMonitors: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 40000
+      }
+    ],
+    "fieldSources": [
+      {
+        "fields": [
+          "category"
+        ],
+        "sourceUrl": "https://www.lg.com/br/monitores/monitores-ultragear/27gx704a-b/",
+        "checkedAt": "2026-09-20T03:35:17.380Z",
+        "scopeNote": "Only this exact model's monitor category is verified. LG product/support page opened. No specification, variant, price, review, stock, release year or warranty verification is implied."
       }
     ]
   },
@@ -54206,6 +54435,16 @@ export const mockMonitors: Product[] = [
         "date": "Ağustos 2026",
         "price": 88350
       }
+    ],
+    "fieldSources": [
+      {
+        "fields": [
+          "category"
+        ],
+        "sourceUrl": "https://www.lg.com/us/monitors/lg-34gs95qe-b-gaming-monitor",
+        "checkedAt": "2026-09-20T03:35:17.380Z",
+        "scopeNote": "Only this exact model's monitor category is verified. LG product/support page opened. No specification, variant, price, review, stock, release year or warranty verification is implied."
+      }
     ]
   },
   {
@@ -54323,6 +54562,16 @@ export const mockMonitors: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 40000
+      }
+    ],
+    "fieldSources": [
+      {
+        "fields": [
+          "category"
+        ],
+        "sourceUrl": "https://www.lg.com/jp/monitors/gaming-monitors/27gx700a-b/",
+        "checkedAt": "2026-09-20T03:35:17.380Z",
+        "scopeNote": "Only this exact model's monitor category is verified. LG product/support page opened. No specification, variant, price, review, stock, release year or warranty verification is implied."
       }
     ]
   },
@@ -55151,6 +55400,16 @@ export const mockMonitors: Product[] = [
         "date": "Ağustos 2026",
         "price": 63610
       }
+    ],
+    "fieldSources": [
+      {
+        "fields": [
+          "category"
+        ],
+        "sourceUrl": "https://www.lg.com/jp/monitors/gaming-monitors/34gx90sa-w/",
+        "checkedAt": "2026-09-20T03:35:17.380Z",
+        "scopeNote": "Only this exact model's monitor category is verified. LG product/support page opened. No specification, variant, price, review, stock, release year or warranty verification is implied."
+      }
     ]
   },
   {
@@ -55179,6 +55438,12 @@ export const mockMonitors: Product[] = [
       "0.03ms (GtG) Yanıt Süresi ve DisplayPort 2.1 (UHBR13.5)",
       "DisplayHDR True Black 400 ve G-Sync Uyumlu"
     ],
+    "sourceType": "manufacturer",
+    "sourceUrl": "https://www.lg.com/us/monitors/lg-27gx790a-b-gaming-monitor",
+    "verifiedAt": "2026-09-19",
+    "aliasIds": [
+      "lg-lg-ultragear-27gx790a-b"
+    ],
     "specs": {
       "screenSizeInches": 26.5,
       "resolution": "2560x1440 (WQHD)",
@@ -55189,7 +55454,12 @@ export const mockMonitors: Product[] = [
       "aspectRatio": "16:9",
       "brightnessNits": 1300,
       "contrastRatio": "1500000:1",
-      "hdrSupport": "DisplayHDR True Black 400"
+      "hdrSupport": "DisplayHDR True Black 400",
+      "hdmiPorts": 2,
+      "hdmiVersion": "HDMI 2.1 (FRL)",
+      "displayPortPorts": 1,
+      "displayPortVersion": "DisplayPort 2.1 (UHBR13.5)",
+      "vesaMount": "100x100 mm"
     },
     "storeOffers": [
       {
@@ -56122,6 +56392,16 @@ export const mockMonitors: Product[] = [
         "date": "Ağustos 2026",
         "price": 76440
       }
+    ],
+    "fieldSources": [
+      {
+        "fields": [
+          "category"
+        ],
+        "sourceUrl": "https://www.lg.com/uk/monitors/gaming/34gx900a-b/",
+        "checkedAt": "2026-09-20T03:35:17.380Z",
+        "scopeNote": "Only this exact model's monitor category is verified. LG product/support page opened. No specification, variant, price, review, stock, release year or warranty verification is implied."
+      }
     ]
   },
   {
@@ -56841,6 +57121,16 @@ export const mockMonitors: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 40000
+      }
+    ],
+    "fieldSources": [
+      {
+        "fields": [
+          "category"
+        ],
+        "sourceUrl": "https://www.lg.com/br/monitores/monitores-ultragear-oled/32gx850a-b/",
+        "checkedAt": "2026-09-20T03:35:17.380Z",
+        "scopeNote": "Only this exact model's monitor category is verified. LG product/support page opened. No specification, variant, price, review, stock, release year or warranty verification is implied."
       }
     ]
   },
@@ -57929,6 +58219,16 @@ export const mockMonitors: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 74250
+      }
+    ],
+    "fieldSources": [
+      {
+        "fields": [
+          "category"
+        ],
+        "sourceUrl": "https://www.lg.com/es/monitores/monitores-ultragear-gaming/45gx90sa-b/",
+        "checkedAt": "2026-09-20T03:35:17.380Z",
+        "scopeNote": "Only this exact model's monitor category is verified. LG product/support page opened. No specification, variant, price, review, stock, release year or warranty verification is implied."
       }
     ]
   },
@@ -60107,7 +60407,7 @@ export const mockMonitors: Product[] = [
   {
     "id": "lg-ultragear-27gx790b-b",
     "slug": "lg-ultragear-27gx790b-b",
-    "name": "LG UltraGear 27GX790B-B 27 inç 540Hz 0.03ms WQHD OLED Gaming Monitör",
+    "name": "LG UltraGear 27GX790B-B 27 inç 540Hz 0.02ms WQHD OLED Gaming Monitör",
     "brand": "LG",
     "category": "monitors",
     "rating": 5,
@@ -60115,7 +60415,7 @@ export const mockMonitors: Product[] = [
     "reviewCount": 320,
     "basePrice": 44769,
     "currency": "TL",
-    "releaseYear": 2024,
+    "releaseYear": 2026,
     "isPopular": true,
     "isFeatured": true,
     "image": "/images/products/monitors/icecat-lg-ultragear-27gx790b-b.jpg",
@@ -60126,27 +60426,28 @@ export const mockMonitors: Product[] = [
       "/images/products/monitors/icecat-lg-ultragear-27gx790b-b-3.jpg"
     ],
     "highlights": [
-      "Dünyanın İlk 540Hz OLED Gaming Paneli ile Akıl Almaz Akıcılık",
-      "26.5 inç WQHD (2560x1440) Çözünürlük ve 0.03ms (GtG) Tepki Süresi",
-      "DisplayHDR True Black 400 ve %98.5 DCI-P3 Renk Doğruluğu",
-      "VESA ClearMR 13000 & Dual Mode Teknolojisi"
+      "QHD çözünürlükte 540 Hz; HD çözünürlükte 720 Hz Dual Mode",
+      "26,5 inç OLED panel ve 0,02 ms GtG tepki süresi",
+      "335 nit tipik parlaklık ve DisplayHDR True Black 500",
+      "VESA ClearMR 21000 ve DisplayPort 2.1"
     ],
     "specs": {
       "screenSizeInches": 26.5,
       "resolution": "2560x1440 (WQHD)",
       "panelType": "OLED",
       "refreshRateHz": 540,
-      "responseTimeMs": 0.03,
+      "responseTimeMs": 0.02,
       "syncTechnology": "AMD FreeSync Premium Pro / G-Sync Compatible",
       "aspectRatio": "16:9",
-      "brightnessNits": 450,
+      "brightnessNits": 335,
       "contrastRatio": "1500000:1",
-      "hdrSupport": "DisplayHDR True Black 400",
+      "hdrSupport": "DisplayHDR True Black 500",
       "ports": [
         "2x HDMI 2.1",
         "1x DisplayPort 2.1",
-        "USB Hub",
-        "DTS Headphone:X"
+        "USB-C (upstream)",
+        "2x USB 3.0 (downstream)",
+        "Kulaklık/mikrofon çıkışı (4 kutuplu)"
       ]
     },
     "storeOffers": [
@@ -60229,6 +60530,45 @@ export const mockMonitors: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 45000
+      }
+    ],
+    "fieldSources": [
+      {
+        "fields": [
+          "category"
+        ],
+        "sourceUrl": "https://www.lg.com/us/monitors/lg-27gx790b-b-gaming-monitor",
+        "checkedAt": "2026-09-20T03:35:17.380Z",
+        "scopeNote": "Only this exact model's monitor category is verified. LG product/support page opened. No specification, variant, price, review, stock, release year or warranty verification is implied."
+      },
+      {
+        "fields": [
+          "name",
+          "releaseYear",
+          "highlights",
+          "specs.responseTimeMs",
+          "specs.brightnessNits",
+          "specs.hdrSupport"
+        ],
+        "sourceUrl": "https://www.lg.com/uk/monitors/gaming/27gx790b-b/",
+        "checkedAt": "2026-09-20T03:43:53.624Z",
+        "scopeNote": "Only the listed fields were checked against the exact model on LG UK. Brightness is typical, not peak HDR brightness; releaseYear records the manufacturer INFO/Year (Y25 or Y26). Other fields and all commercial data remain unverified."
+      },
+      {
+        "fields": [
+          "highlights"
+        ],
+        "sourceUrl": "https://www.lg.com/us/monitors/lg-27gx790b-b-gaming-monitor",
+        "checkedAt": "2026-09-20T03:43:53.624Z",
+        "scopeNote": "Dual-mode resolutions and refresh rates, response time and DisplayPort confirmed on the exact-model LG US page; ClearMR 21000 additionally confirmed for 27GX790B-B. Does not verify prices or offers."
+      },
+      {
+        "fields": [
+          "specs.ports"
+        ],
+        "sourceUrl": "https://www.lg.com/uk/monitors/gaming/27gx790b-b/",
+        "checkedAt": "2026-09-20T04:40:41.494Z",
+        "scopeNote": "Yalnız belirtilen alanlar exact LG ürün sayfasıyla kontrol edildi. Tipik parlaklık, GtG/MBR ve fiziksel bağlantılar ayrı tutuldu; tüm ürün/fiyat doğrulaması değildir. Year, üretici model yılıdır."
       }
     ]
   },
@@ -60611,6 +60951,16 @@ export const mockMonitors: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 90570
+      }
+    ],
+    "fieldSources": [
+      {
+        "fields": [
+          "category"
+        ],
+        "sourceUrl": "https://www.lg.com/ca_en/monitors/gaming/45gx950a-b/",
+        "checkedAt": "2026-09-20T03:35:17.380Z",
+        "scopeNote": "Only this exact model's monitor category is verified. LG product/support page opened. No specification, variant, price, review, stock, release year or warranty verification is implied."
       }
     ]
   },
@@ -61994,9 +62344,9 @@ export const mockMonitors: Product[] = [
       "/images/monitors/lg-ultragear-32gs95uv-b.jpg"
     ],
     "highlights": [
-      "VESA Sertifikalı Dual-Mode: 4K 240Hz ve FHD 480Hz Anında Geçiş",
-      "Pixel Sound Dahili Ön Yüz Hoparlör Teknolojisi",
-      "DisplayHDR True Black 400 ve 0.03ms Tepki Süresi"
+      "31.5 inç OLED, 4K 240 Hz / FHD 480 Hz Dual Mode",
+      "0.03 ms GtG tepki süresi",
+      "DisplayHDR True Black 400; 275 nit tipik, 1300 nit tepe parlaklık"
     ],
     "specs": {
       "screenSizeInches": 31.5,
@@ -62006,7 +62356,7 @@ export const mockMonitors: Product[] = [
       "responseTimeMs": 0.03,
       "syncTechnology": "G-Sync Compatible / FreeSync Premium Pro",
       "aspectRatio": "16:9",
-      "brightnessNits": 1300,
+      "brightnessNits": 275,
       "contrastRatio": "1500000:1",
       "hdrSupport": "DisplayHDR True Black 400"
     },
@@ -62090,6 +62440,18 @@ export const mockMonitors: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 55000
+      }
+    ],
+    "fieldSources": [
+      {
+        "fields": [
+          "category",
+          "specs.brightnessNits",
+          "highlights"
+        ],
+        "sourceUrl": "https://www.lg.com/es/monitores/monitores-ultragear-gaming/32gs95uv-b/",
+        "checkedAt": "2026-09-20T03:08:27.056Z",
+        "scopeNote": "Only the listed fields were checked against this exact LG model page. Prices, store offers, reviews, release year, warranty, local availability and other fields are not verified by this correction. GtG/MBR and standard/overclock modes are distinct."
       }
     ]
   },
@@ -73770,6 +74132,16 @@ export const mockMonitors: Product[] = [
         "date": "Ağustos 2026",
         "price": 14900
       }
+    ],
+    "fieldSources": [
+      {
+        "fields": [
+          "category"
+        ],
+        "sourceUrl": "https://www.lg.com/jp/monitors/gaming-monitors/27gs65f-b/",
+        "checkedAt": "2026-09-20T03:35:17.380Z",
+        "scopeNote": "Only this exact model's monitor category is verified. LG product/support page opened. No specification, variant, price, review, stock, release year or warranty verification is implied."
+      }
     ]
   },
   {
@@ -74269,7 +74641,7 @@ export const mockMonitors: Product[] = [
   {
     "id": "lg-ultrawide-29wq600-w",
     "slug": "lg-ultrawide-29wq600-w",
-    "name": "LG UltraWide 29WQ600-W 29 inç 100Hz 1ms WFHD IPS HDR10 USB-C Monitör",
+    "name": "LG UltraWide 29WQ600-W 29 inç 100Hz 5ms GtG WFHD IPS HDR10 USB-C Monitör",
     "brand": "LG",
     "category": "monitors",
     "rating": 4.89,
@@ -74277,7 +74649,7 @@ export const mockMonitors: Product[] = [
     "reviewCount": 520,
     "basePrice": 18899,
     "currency": "TL",
-    "releaseYear": 2023,
+    "releaseYear": 2022,
     "isPopular": true,
     "isFeatured": false,
     "image": "/images/products/monitors/icecat-lg-ultrawide-29wq600-w.jpg",
@@ -74288,10 +74660,10 @@ export const mockMonitors: Product[] = [
       "/images/products/monitors/icecat-lg-ultrawide-29wq600-w-3.jpg"
     ],
     "highlights": [
-      "29 inç 21:9 UltraWide Full HD (2560x1080) IPS Panel",
-      "100Hz Akıcı Yenileme Hızı & 1ms MBR",
-      "USB Type-C & Dahili 2x7W MaxxAudio Hoparlörler",
-      "HDR10 & sRGB %99 & AMD FreeSync"
+      "29 inç 21:9 IPS; 2560x1080 çözünürlük ve 100 Hz",
+      "5 ms GtG (Faster); 1 ms MBR ayrı hareket bulanıklığı modudur",
+      "250 nit tipik parlaklık; HDR10 ve AMD FreeSync",
+      "USB-C bağlantı; 2x7 W MaxxAudio hoparlör"
     ],
     "specs": {
       "screenSizeInches": 29,
@@ -74299,15 +74671,17 @@ export const mockMonitors: Product[] = [
       "aspectRatio": "21:9",
       "panelType": "IPS",
       "refreshRateHz": 100,
-      "responseTimeMs": 1,
+      "responseTimeMs": 5,
       "hdrSupport": "HDR10",
       "audioSpeakers": "2x7W MaxxAudio",
       "ports": [
         "1x USB-C",
-        "1x HDMI 2.0",
+        "1x HDMI",
         "1x DisplayPort 1.4",
-        "Kulaklık"
-      ]
+        "Kulaklık çıkışı (3 kutuplu)"
+      ],
+      "brightnessNits": 250,
+      "contrastRatio": "1000:1"
     },
     "storeOffers": [
       {
@@ -74389,6 +74763,30 @@ export const mockMonitors: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 19000
+      }
+    ],
+    "fieldSources": [
+      {
+        "fields": [
+          "category"
+        ],
+        "sourceUrl": "https://www.lg.com/us/monitors/lg-29wq600-w-ultrawide-monitor",
+        "checkedAt": "2026-09-20T03:35:17.380Z",
+        "scopeNote": "Only this exact model's monitor category is verified. LG product/support page opened. No specification, variant, price, review, stock, release year or warranty verification is implied."
+      },
+      {
+        "fields": [
+          "name",
+          "highlights",
+          "specs.responseTimeMs",
+          "specs.brightnessNits",
+          "specs.contrastRatio",
+          "specs.ports",
+          "releaseYear"
+        ],
+        "sourceUrl": "https://www.lg.com/hk/monitors/ultrawide/29wq600-w/",
+        "checkedAt": "2026-09-20T04:40:41.494Z",
+        "scopeNote": "Yalnız belirtilen alanlar exact LG ürün sayfasıyla kontrol edildi. Tipik parlaklık, GtG/MBR ve fiziksel bağlantılar ayrı tutuldu; tüm ürün/fiyat doğrulaması değildir. Year, üretici model yılıdır."
       }
     ]
   },
@@ -74636,6 +75034,16 @@ export const mockMonitors: Product[] = [
       {
         "date": "Ağustos 2026",
         "price": 14420
+      }
+    ],
+    "fieldSources": [
+      {
+        "fields": [
+          "category"
+        ],
+        "sourceUrl": "https://www.lg.com/jp/monitors/gaming-monitors/27gn65r-b/",
+        "checkedAt": "2026-09-20T03:35:17.380Z",
+        "scopeNote": "Only this exact model's monitor category is verified. LG product/support page opened. No specification, variant, price, review, stock, release year or warranty verification is implied."
       }
     ]
   },
@@ -76267,6 +76675,3599 @@ export const mockMonitors: Product[] = [
     ],
     "images": [
       "/images/products/monitors/icecat-aoc-25g4kur.jpg"
+    ]
+  },
+  {
+    "id": "lg-ultrawide-34wr55qk-b",
+    "slug": "lg-ultrawide-34wr55qk-b",
+    "name": "LG UltraWide 34WR55QK-B",
+    "brand": "LG",
+    "category": "monitors",
+    "basePrice": 14919,
+    "currency": "TL",
+    "rating": 4.8,
+    "epeyScore": 91,
+    "reviewCount": 634,
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/tvs/lg-1034974.jpg",
+    "images": [
+      "/images/tvs/lg-1034974.jpg"
+    ],
+    "highlights": [
+      "34 inç 3440x1440 VA panel, 1800R kavis",
+      "100 Hz; 5 ms GtG (Faster modu)",
+      "USB-C 65W güç iletimi; yükseklik ve eğim ayarı"
+    ],
+    "specs": {
+      "screenSizeInches": 34,
+      "resolution": "3440x1440",
+      "panelType": "VA",
+      "refreshRateHz": 100,
+      "responseTimeMs": 5,
+      "aspectRatio": "21:9",
+      "brightnessNits": 300,
+      "contrastRatio": "3000:1",
+      "hdrSupport": "HDR10",
+      "ports": [
+        "HDMI x2",
+        "DisplayPort 1.4 x1",
+        "USB-C 65W PD x1"
+      ],
+      "heightAdjustable": true,
+      "vesaMount": "100x100 mm"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 14999,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com/ara?q=LG%20UltraWide%2034WR55QK-B",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 15179,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.trendyol.com/sr?q=LG%20UltraWide%2034WR55QK-B",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 15369,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=LG%20UltraWide%2034WR55QK-B",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 15519,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/LG%20UltraWide%2034WR55QK-B",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 14919,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=LG%20UltraWide%2034WR55QK-B",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 15419,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=LG%20UltraWide%2034WR55QK-B",
+        "rating": 4.8
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "Ekim 2025",
+        "price": 17100
+      },
+      {
+        "date": "Kasım 2025",
+        "price": 16650
+      },
+      {
+        "date": "Aralık 2025",
+        "price": 16200
+      },
+      {
+        "date": "Ocak 2026",
+        "price": 15750
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 15300
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 15000
+      }
+    ],
+    "fieldSources": [
+      {
+        "fields": [
+          "category",
+          "highlights",
+          "specs.screenSizeInches",
+          "specs.resolution",
+          "specs.panelType",
+          "specs.refreshRateHz",
+          "specs.responseTimeMs",
+          "specs.aspectRatio",
+          "specs.brightnessNits",
+          "specs.contrastRatio",
+          "specs.hdrSupport",
+          "specs.ports",
+          "specs.heightAdjustable",
+          "specs.vesaMount"
+        ],
+        "sourceUrl": "https://www.lg.com/uk/monitors/ultrawide/34wr55qk-b/",
+        "checkedAt": "2026-09-20T03:08:27.056Z",
+        "scopeNote": "Only the listed fields were checked against this exact LG model page. Prices, store offers, reviews, release year, warranty, local availability and other fields are not verified by this correction. GtG/MBR and standard/overclock modes are distinct."
+      }
+    ]
+  },
+  {
+    "id": "lg-ultragear-32g600a-b",
+    "slug": "lg-ultragear-32g600a-b",
+    "name": "LG UltraGear 32G600A-B",
+    "brand": "LG",
+    "category": "monitors",
+    "basePrice": 14919,
+    "currency": "TL",
+    "rating": 4.8,
+    "epeyScore": 97,
+    "reviewCount": 604,
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/products/tvs/icecat-lg-lg-ultragear-32g600a-b.jpg",
+    "images": [
+      "/images/products/tvs/icecat-lg-lg-ultragear-32g600a-b.jpg"
+    ],
+    "highlights": [
+      "31.5 inç QHD VA panel, 1000R kavis",
+      "180 Hz; 1 ms GtG (Faster modu)",
+      "AMD FreeSync; yükseklik, eğim ve dönüş ayarı"
+    ],
+    "specs": {
+      "screenSizeInches": 31.5,
+      "resolution": "2560x1440",
+      "panelType": "VA",
+      "refreshRateHz": 180,
+      "responseTimeMs": 1,
+      "aspectRatio": "16:9",
+      "brightnessNits": 300,
+      "contrastRatio": "3000:1",
+      "hdrSupport": "HDR10",
+      "syncTechnology": "AMD FreeSync",
+      "ports": [
+        "HDMI x2",
+        "DisplayPort 1.4 x1"
+      ],
+      "heightAdjustable": true,
+      "vesaMount": "100x100 mm"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 14999,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com/ara?q=LG%20UltraGear%2032G600A-B",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 15179,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.trendyol.com/sr?q=LG%20UltraGear%2032G600A-B",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 15369,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=LG%20UltraGear%2032G600A-B",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 15519,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/LG%20UltraGear%2032G600A-B",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 14919,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=LG%20UltraGear%2032G600A-B",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 15419,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=LG%20UltraGear%2032G600A-B",
+        "rating": 4.8
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "Ekim 2025",
+        "price": 17100
+      },
+      {
+        "date": "Kasım 2025",
+        "price": 16650
+      },
+      {
+        "date": "Aralık 2025",
+        "price": 16200
+      },
+      {
+        "date": "Ocak 2026",
+        "price": 15750
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 15300
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 15000
+      }
+    ],
+    "fieldSources": [
+      {
+        "fields": [
+          "category",
+          "highlights",
+          "specs.screenSizeInches",
+          "specs.resolution",
+          "specs.panelType",
+          "specs.refreshRateHz",
+          "specs.responseTimeMs",
+          "specs.aspectRatio",
+          "specs.brightnessNits",
+          "specs.contrastRatio",
+          "specs.hdrSupport",
+          "specs.syncTechnology",
+          "specs.ports",
+          "specs.heightAdjustable",
+          "specs.vesaMount",
+          "releaseYear"
+        ],
+        "sourceUrl": "https://www.lg.com/uk/monitors/gaming/32g600a-b/",
+        "checkedAt": "2026-09-20T03:08:27.056Z",
+        "scopeNote": "Only the listed fields were checked against this exact LG model page. Prices, store offers, reviews, warranty, local availability and other fields are not verified by this correction. GtG/MBR and standard/overclock modes are distinct."
+      }
+    ]
+  },
+  {
+    "id": "lg-ultragear-24g411a-b",
+    "slug": "lg-ultragear-24g411a-b",
+    "name": "LG UltraGear 24G411A-B",
+    "brand": "LG",
+    "category": "monitors",
+    "basePrice": 14919,
+    "currency": "TL",
+    "rating": 4.7,
+    "epeyScore": 96,
+    "reviewCount": 627,
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/products/tvs/icecat-lg-lg-ultragear-24g411a-b.jpg",
+    "images": [
+      "/images/products/tvs/icecat-lg-lg-ultragear-24g411a-b.jpg"
+    ],
+    "highlights": [
+      "23.8 inç Full HD IPS panel",
+      "120 Hz standart; hız aşırtma ile 144 Hz",
+      "5 ms GtG (Faster modu); ayrı 1 ms MBR özelliği"
+    ],
+    "specs": {
+      "screenSizeInches": 23.8,
+      "resolution": "1920x1080",
+      "panelType": "IPS",
+      "refreshRateHz": 120,
+      "responseTimeMs": 5,
+      "aspectRatio": "16:9",
+      "brightnessNits": 250,
+      "contrastRatio": "1500:1",
+      "hdrSupport": "HDR10",
+      "ports": [
+        "HDMI x1",
+        "DisplayPort 1.4 x1"
+      ],
+      "vesaMount": "100x100 mm"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 14999,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com/ara?q=LG%20UltraGear%2024G411A-B",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 15179,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.trendyol.com/sr?q=LG%20UltraGear%2024G411A-B",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 15369,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=LG%20UltraGear%2024G411A-B",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 15519,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/LG%20UltraGear%2024G411A-B",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 14919,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=LG%20UltraGear%2024G411A-B",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 15419,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=LG%20UltraGear%2024G411A-B",
+        "rating": 4.8
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "Ekim 2025",
+        "price": 17100
+      },
+      {
+        "date": "Kasım 2025",
+        "price": 16650
+      },
+      {
+        "date": "Aralık 2025",
+        "price": 16200
+      },
+      {
+        "date": "Ocak 2026",
+        "price": 15750
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 15300
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 15000
+      }
+    ],
+    "fieldSources": [
+      {
+        "fields": [
+          "category",
+          "highlights",
+          "specs.screenSizeInches",
+          "specs.resolution",
+          "specs.panelType",
+          "specs.refreshRateHz",
+          "specs.responseTimeMs",
+          "specs.aspectRatio",
+          "specs.brightnessNits",
+          "specs.contrastRatio",
+          "specs.hdrSupport",
+          "specs.ports",
+          "specs.vesaMount",
+          "releaseYear"
+        ],
+        "sourceUrl": "https://www.lg.com/jp/monitors/gaming-monitors/24g411a-b/",
+        "checkedAt": "2026-09-20T03:08:27.056Z",
+        "scopeNote": "Only the listed fields were checked against this exact LG model page. Prices, store offers, reviews, warranty, local availability and other fields are not verified by this correction. GtG/MBR and standard/overclock modes are distinct."
+      }
+    ]
+  },
+  {
+    "id": "lg-ultragear-25g550b-b",
+    "slug": "lg-ultragear-25g550b-b",
+    "name": "LG UltraGear 25G550B-B Monitör",
+    "brand": "LG",
+    "category": "monitors",
+    "basePrice": 14919,
+    "currency": "TL",
+    "rating": 4.9,
+    "epeyScore": 92,
+    "reviewCount": 410,
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/tvs/lg-1061300.jpg",
+    "images": [
+      "/images/tvs/lg-1061300.jpg"
+    ],
+    "highlights": [
+      "24,5 inç Full HD IPS ekran",
+      "300 Hz yenileme hızı ve 1 ms GtG tepki süresi"
+    ],
+    "specs": {
+      "screenSizeInches": 24.5,
+      "resolution": "1920x1080 (FHD)",
+      "panelType": "IPS",
+      "refreshRateHz": 300,
+      "responseTimeMs": 1
+    },
+    "storeOffers": [
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 14999,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com/ara?q=LG%20UltraGear%2025G550B-B",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 15179,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.trendyol.com/sr?q=LG%20UltraGear%2025G550B-B",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 15369,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=LG%20UltraGear%2025G550B-B",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 15519,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/LG%20UltraGear%2025G550B-B",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 14919,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=LG%20UltraGear%2025G550B-B",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 15419,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=LG%20UltraGear%2025G550B-B",
+        "rating": 4.8
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "Ekim 2025",
+        "price": 17100
+      },
+      {
+        "date": "Kasım 2025",
+        "price": 16650
+      },
+      {
+        "date": "Aralık 2025",
+        "price": 16200
+      },
+      {
+        "date": "Ocak 2026",
+        "price": 15750
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 15300
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 15000
+      }
+    ],
+    "fieldSources": [
+      {
+        "fields": [
+          "category",
+          "name",
+          "highlights",
+          "specs.screenSizeInches",
+          "specs.resolution",
+          "specs.panelType",
+          "specs.refreshRateHz",
+          "specs.responseTimeMs"
+        ],
+        "sourceUrl": "https://www.lg.com/jp/monitors/gaming-monitors/25g550b-b/",
+        "checkedAt": "2026-09-20T04:07:43.224Z",
+        "scopeNote": "Only listed fields checked for this exact LG model. Other old TV specifications archived, not carried forward. Brightness is typical; responseTimeMs uses GtG where explicitly stated, never MBR. Release year only changed when manufacturer INFO/Year was read. No price, stock, review, image or warranty verification implied. "
+      }
+    ]
+  },
+  {
+    "id": "lg-ultragear-27g440a-b",
+    "slug": "lg-ultragear-27g440a-b",
+    "name": "LG UltraGear 27G440A-B Monitör",
+    "brand": "LG",
+    "category": "monitors",
+    "basePrice": 14919,
+    "currency": "TL",
+    "rating": 4.9,
+    "epeyScore": 87,
+    "reviewCount": 560,
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/products/tvs/icecat-lg-lg-ultragear-27g440a-b.jpg",
+    "images": [
+      "/images/products/tvs/icecat-lg-lg-ultragear-27g440a-b.jpg"
+    ],
+    "highlights": [
+      "27 inç Full HD IPS ekran",
+      "240 Hz yenileme hızı ve 1 ms GtG tepki süresi"
+    ],
+    "specs": {
+      "screenSizeInches": 27,
+      "resolution": "1920x1080 (FHD)",
+      "panelType": "IPS",
+      "refreshRateHz": 240,
+      "responseTimeMs": 1
+    },
+    "storeOffers": [
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 14999,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com/ara?q=LG%20UltraGear%2027G440A-B",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 15179,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.trendyol.com/sr?q=LG%20UltraGear%2027G440A-B",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 15369,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=LG%20UltraGear%2027G440A-B",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 15519,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/LG%20UltraGear%2027G440A-B",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 14919,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=LG%20UltraGear%2027G440A-B",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 15419,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=LG%20UltraGear%2027G440A-B",
+        "rating": 4.8
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "Ekim 2025",
+        "price": 17100
+      },
+      {
+        "date": "Kasım 2025",
+        "price": 16650
+      },
+      {
+        "date": "Aralık 2025",
+        "price": 16200
+      },
+      {
+        "date": "Ocak 2026",
+        "price": 15750
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 15300
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 15000
+      }
+    ],
+    "fieldSources": [
+      {
+        "fields": [
+          "category",
+          "name",
+          "highlights",
+          "specs.screenSizeInches",
+          "specs.resolution",
+          "specs.panelType",
+          "specs.refreshRateHz",
+          "specs.responseTimeMs"
+        ],
+        "sourceUrl": "https://www.lg.com/br/monitores/monitores-ultragear/27g440a-b/",
+        "checkedAt": "2026-09-20T04:07:43.224Z",
+        "scopeNote": "Only listed fields checked for this exact LG model. Other old TV specifications archived, not carried forward. Brightness is typical; responseTimeMs uses GtG where explicitly stated, never MBR. Release year only changed when manufacturer INFO/Year was read. No price, stock, review, image or warranty verification implied. "
+      }
+    ]
+  },
+  {
+    "id": "lg-ultrawide-29u531a-w",
+    "slug": "lg-ultrawide-29u531a-w",
+    "name": "LG UltraWide 29U531A-W Monitör",
+    "brand": "LG",
+    "category": "monitors",
+    "basePrice": 14919,
+    "currency": "TL",
+    "rating": 4.9,
+    "epeyScore": 89,
+    "reviewCount": 263,
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/products/tvs/icecat-lg-lg-ultrawide-29u531a-w.jpg",
+    "images": [
+      "/images/products/tvs/icecat-lg-lg-ultrawide-29u531a-w.jpg"
+    ],
+    "highlights": [
+      "29 inç 2560x1080 IPS ekran",
+      "100 Hz yenileme hızı",
+      "5 ms GtG tepki süresi (Faster modu); 250 nit tipik parlaklık"
+    ],
+    "specs": {
+      "screenSizeInches": 29,
+      "resolution": "2560x1080 (WFHD)",
+      "panelType": "IPS",
+      "refreshRateHz": 100,
+      "responseTimeMs": 5,
+      "brightnessNits": 250
+    },
+    "storeOffers": [
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 14999,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com/ara?q=LG%20UltraWide%2029U531A-W",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 15179,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.trendyol.com/sr?q=LG%20UltraWide%2029U531A-W",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 15369,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=LG%20UltraWide%2029U531A-W",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 15519,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/LG%20UltraWide%2029U531A-W",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 14919,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=LG%20UltraWide%2029U531A-W",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 15419,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=LG%20UltraWide%2029U531A-W",
+        "rating": 4.8
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "Ekim 2025",
+        "price": 17100
+      },
+      {
+        "date": "Kasım 2025",
+        "price": 16650
+      },
+      {
+        "date": "Aralık 2025",
+        "price": 16200
+      },
+      {
+        "date": "Ocak 2026",
+        "price": 15750
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 15300
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 15000
+      }
+    ],
+    "fieldSources": [
+      {
+        "fields": [
+          "category",
+          "name",
+          "highlights",
+          "specs.screenSizeInches",
+          "specs.resolution",
+          "specs.panelType",
+          "specs.refreshRateHz",
+          "specs.responseTimeMs",
+          "specs.brightnessNits",
+          "releaseYear"
+        ],
+        "sourceUrl": "https://www.lg.com/tr/monitor/uhd-4k-5k/29u531a-w/",
+        "checkedAt": "2026-09-20T04:07:43.224Z",
+        "scopeNote": "Only listed fields checked for this exact LG model. Other old TV specifications archived, not carried forward. Brightness is typical; responseTimeMs uses GtG where explicitly stated, never MBR. Release year only changed when manufacturer INFO/Year was read. No price, stock, review, image or warranty verification implied. "
+      }
+    ]
+  },
+  {
+    "id": "lg-ultragear-27gr95qe-b",
+    "slug": "lg-ultragear-27gr95qe-b",
+    "name": "LG UltraGear 27GR95QE-B Monitör",
+    "brand": "LG",
+    "category": "monitors",
+    "basePrice": 14919,
+    "currency": "TL",
+    "rating": 4.8,
+    "epeyScore": 95,
+    "reviewCount": 277,
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/tvs/lg-840667.jpg",
+    "images": [
+      "/images/tvs/lg-840667.jpg"
+    ],
+    "highlights": [
+      "QHD OLED ekran ve 240 Hz yenileme hızı",
+      "0,03 ms GtG tepki süresi",
+      "NVIDIA G-SYNC Compatible ve AMD FreeSync Premium"
+    ],
+    "specs": {
+      "resolution": "2560x1440 (QHD)",
+      "panelType": "OLED",
+      "refreshRateHz": 240,
+      "responseTimeMs": 0.03,
+      "contrastRatio": "1500000:1"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 14999,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com/ara?q=LG%20UltraGear%2027GR95QE-B",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 15179,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.trendyol.com/sr?q=LG%20UltraGear%2027GR95QE-B",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 15369,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=LG%20UltraGear%2027GR95QE-B",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 15519,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/LG%20UltraGear%2027GR95QE-B",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 14919,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=LG%20UltraGear%2027GR95QE-B",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 15419,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=LG%20UltraGear%2027GR95QE-B",
+        "rating": 4.8
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "Ekim 2025",
+        "price": 17100
+      },
+      {
+        "date": "Kasım 2025",
+        "price": 16650
+      },
+      {
+        "date": "Aralık 2025",
+        "price": 16200
+      },
+      {
+        "date": "Ocak 2026",
+        "price": 15750
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 15300
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 15000
+      }
+    ],
+    "fieldSources": [
+      {
+        "fields": [
+          "category",
+          "name",
+          "highlights",
+          "specs.resolution",
+          "specs.panelType",
+          "specs.refreshRateHz",
+          "specs.responseTimeMs",
+          "specs.contrastRatio"
+        ],
+        "sourceUrl": "https://www.lg.com/us/monitors/lg-27gr95qe-b-gaming-monitor",
+        "checkedAt": "2026-09-20T04:07:43.224Z",
+        "scopeNote": "Only listed fields checked for this exact LG model. Other old TV specifications archived, not carried forward. Brightness is typical; responseTimeMs uses GtG where explicitly stated, never MBR. Release year only changed when manufacturer INFO/Year was read. No price, stock, review, image or warranty verification implied. "
+      }
+    ]
+  },
+  {
+    "id": "lg-ultragear-27g411a-b",
+    "slug": "lg-ultragear-27g411a-b",
+    "name": "LG UltraGear 27G411A-B Monitör",
+    "brand": "LG",
+    "category": "monitors",
+    "basePrice": 14919,
+    "currency": "TL",
+    "rating": 4.9,
+    "epeyScore": 95,
+    "reviewCount": 215,
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/products/tvs/icecat-lg-lg-ultragear-27g411a-b.jpg",
+    "images": [
+      "/images/products/tvs/icecat-lg-lg-ultragear-27g411a-b.jpg"
+    ],
+    "highlights": [
+      "27 inç Full HD IPS ekran",
+      "120 Hz standart; hız aşırtma ile 144 Hz",
+      "5 ms GtG tepki süresi (Faster modu); ayrı 1 ms MBR modu"
+    ],
+    "specs": {
+      "screenSizeInches": 27,
+      "resolution": "1920x1080 (FHD)",
+      "panelType": "IPS",
+      "refreshRateHz": 120,
+      "responseTimeMs": 5,
+      "brightnessNits": 250,
+      "contrastRatio": "1500:1"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 14999,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com/ara?q=LG%20UltraGear%2027G411A-B",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 15179,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.trendyol.com/sr?q=LG%20UltraGear%2027G411A-B",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 15369,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=LG%20UltraGear%2027G411A-B",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 15519,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/LG%20UltraGear%2027G411A-B",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 14919,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=LG%20UltraGear%2027G411A-B",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 15419,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=LG%20UltraGear%2027G411A-B",
+        "rating": 4.8
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "Ekim 2025",
+        "price": 17100
+      },
+      {
+        "date": "Kasım 2025",
+        "price": 16650
+      },
+      {
+        "date": "Aralık 2025",
+        "price": 16200
+      },
+      {
+        "date": "Ocak 2026",
+        "price": 15750
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 15300
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 15000
+      }
+    ],
+    "fieldSources": [
+      {
+        "fields": [
+          "category",
+          "name",
+          "highlights",
+          "specs.screenSizeInches",
+          "specs.resolution",
+          "specs.panelType",
+          "specs.refreshRateHz",
+          "specs.responseTimeMs",
+          "specs.brightnessNits",
+          "specs.contrastRatio"
+        ],
+        "sourceUrl": "https://www.lg.com/jp/monitors/gaming-monitors/27g411a-b/",
+        "checkedAt": "2026-09-20T04:07:43.224Z",
+        "scopeNote": "Only listed fields checked for this exact LG model. Other old TV specifications archived, not carried forward. Brightness is typical; responseTimeMs uses GtG where explicitly stated, never MBR. Release year only changed when manufacturer INFO/Year was read. No price, stock, review, image or warranty verification implied. "
+      }
+    ]
+  },
+  {
+    "id": "lg-ultragear-25g523b-b",
+    "slug": "lg-ultragear-25g523b-b",
+    "name": "LG UltraGear 25G523B-B Monitör",
+    "brand": "LG",
+    "category": "monitors",
+    "basePrice": 14919,
+    "currency": "TL",
+    "rating": 4.9,
+    "epeyScore": 92,
+    "reviewCount": 407,
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/products/tvs/icecat-lg-lg-ultragear-25g523b-b.jpg",
+    "images": [
+      "/images/products/tvs/icecat-lg-lg-ultragear-25g523b-b.jpg"
+    ],
+    "highlights": [
+      "Full HD ekran ve 200 Hz yenileme hızı"
+    ],
+    "specs": {
+      "resolution": "1920x1080 (FHD)",
+      "refreshRateHz": 200
+    },
+    "storeOffers": [
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 14999,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com/ara?q=LG%20UltraGear%2025G523B-B",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 15179,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.trendyol.com/sr?q=LG%20UltraGear%2025G523B-B",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 15369,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=LG%20UltraGear%2025G523B-B",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 15519,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/LG%20UltraGear%2025G523B-B",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 14919,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=LG%20UltraGear%2025G523B-B",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 15419,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=LG%20UltraGear%2025G523B-B",
+        "rating": 4.8
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "Ekim 2025",
+        "price": 17100
+      },
+      {
+        "date": "Kasım 2025",
+        "price": 16650
+      },
+      {
+        "date": "Aralık 2025",
+        "price": 16200
+      },
+      {
+        "date": "Ocak 2026",
+        "price": 15750
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 15300
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 15000
+      }
+    ],
+    "fieldSources": [
+      {
+        "fields": [
+          "category",
+          "name",
+          "highlights",
+          "specs.resolution",
+          "specs.refreshRateHz"
+        ],
+        "sourceUrl": "https://www.lg.com/es/monitores/monitores-ultragear-gaming/25g523b-b/",
+        "checkedAt": "2026-09-20T04:07:43.224Z",
+        "scopeNote": "Only listed fields checked for this exact LG model. Other old TV specifications archived, not carried forward. Brightness is typical; responseTimeMs uses GtG where explicitly stated, never MBR. Release year only changed when manufacturer INFO/Year was read. No price, stock, review, image or warranty verification implied. "
+      }
+    ]
+  },
+  {
+    "id": "lg-ultragear-27gs50f-b",
+    "slug": "lg-ultragear-27gs50f-b",
+    "name": "LG UltraGear 27GS50F-B Monitör",
+    "brand": "LG",
+    "category": "monitors",
+    "basePrice": 14919,
+    "currency": "TL",
+    "rating": 4.8,
+    "epeyScore": 87,
+    "reviewCount": 313,
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/products/tvs/icecat-lg-lg-ultragear-27gs50f-b.jpg",
+    "images": [
+      "/images/products/tvs/icecat-lg-lg-ultragear-27gs50f-b.jpg"
+    ],
+    "highlights": [
+      "27 inç Full HD VA ekran ve 180 Hz yenileme hızı",
+      "5 ms GtG tepki süresi (Faster modu); ayrı 1 ms MBR modu"
+    ],
+    "specs": {
+      "screenSizeInches": 27,
+      "resolution": "1920x1080 (FHD)",
+      "panelType": "VA",
+      "refreshRateHz": 180,
+      "responseTimeMs": 5,
+      "contrastRatio": "3000:1"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 14999,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com/ara?q=LG%20UltraGear%2027GS50F-B",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 15179,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.trendyol.com/sr?q=LG%20UltraGear%2027GS50F-B",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 15369,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=LG%20UltraGear%2027GS50F-B",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 15519,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/LG%20UltraGear%2027GS50F-B",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 14919,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=LG%20UltraGear%2027GS50F-B",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 15419,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=LG%20UltraGear%2027GS50F-B",
+        "rating": 4.8
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "Ekim 2025",
+        "price": 17100
+      },
+      {
+        "date": "Kasım 2025",
+        "price": 16650
+      },
+      {
+        "date": "Aralık 2025",
+        "price": 16200
+      },
+      {
+        "date": "Ocak 2026",
+        "price": 15750
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 15300
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 15000
+      }
+    ],
+    "fieldSources": [
+      {
+        "fields": [
+          "category",
+          "name",
+          "highlights",
+          "specs.screenSizeInches",
+          "specs.resolution",
+          "specs.panelType",
+          "specs.refreshRateHz",
+          "specs.responseTimeMs",
+          "specs.contrastRatio",
+          "releaseYear"
+        ],
+        "sourceUrl": "https://www.lg.com/uk/monitors/gaming/27gs50f-b/",
+        "checkedAt": "2026-09-20T04:07:43.224Z",
+        "scopeNote": "Only listed fields checked for this exact LG model. Other old TV specifications archived, not carried forward. Brightness is typical; responseTimeMs uses GtG where explicitly stated, never MBR. Release year only changed when manufacturer INFO/Year was read. No price, stock, review, image or warranty verification implied. "
+      }
+    ]
+  },
+  {
+    "id": "lg-ultragear-24gl600f-b",
+    "slug": "lg-ultragear-24gl600f-b",
+    "name": "LG UltraGear 24GL600F-B Monitör",
+    "brand": "LG",
+    "category": "monitors",
+    "basePrice": 14919,
+    "currency": "TL",
+    "rating": 4.7,
+    "epeyScore": 94,
+    "reviewCount": 563,
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/products/tvs/icecat-lg-lg-ultragear-24gl600f-b.jpg",
+    "images": [
+      "/images/products/tvs/icecat-lg-lg-ultragear-24gl600f-b.jpg"
+    ],
+    "highlights": [
+      "23,6 inç Full HD TN ekran"
+    ],
+    "specs": {
+      "screenSizeInches": 23.6,
+      "resolution": "1920x1080 (FHD)",
+      "panelType": "TN"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 14999,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com/ara?q=LG%20UltraGear%2024GL600F-B",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 15179,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.trendyol.com/sr?q=LG%20UltraGear%2024GL600F-B",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 15369,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=LG%20UltraGear%2024GL600F-B",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 15519,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/LG%20UltraGear%2024GL600F-B",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 14919,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=LG%20UltraGear%2024GL600F-B",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 15419,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=LG%20UltraGear%2024GL600F-B",
+        "rating": 4.8
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "Ekim 2025",
+        "price": 17100
+      },
+      {
+        "date": "Kasım 2025",
+        "price": 16650
+      },
+      {
+        "date": "Aralık 2025",
+        "price": 16200
+      },
+      {
+        "date": "Ocak 2026",
+        "price": 15750
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 15300
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 15000
+      }
+    ],
+    "fieldSources": [
+      {
+        "fields": [
+          "category",
+          "name",
+          "highlights",
+          "specs.screenSizeInches",
+          "specs.resolution",
+          "specs.panelType"
+        ],
+        "sourceUrl": "https://www.lg.com/es/monitores3/monitores-gaming/24gl600f-b/",
+        "checkedAt": "2026-09-20T04:07:43.224Z",
+        "scopeNote": "Only listed fields checked for this exact LG model. Other old TV specifications archived, not carried forward. Brightness is typical; responseTimeMs uses GtG where explicitly stated, never MBR. Release year only changed when manufacturer INFO/Year was read. No price, stock, review, image or warranty verification implied. Refresh/response omitted: Spanish marketing mixes overclock and MBR labels; no unqualified GtG or normal-Hz claim copied."
+      }
+    ]
+  },
+  {
+    "id": "lg-ultragear-24gn65r-b",
+    "slug": "lg-ultragear-24gn65r-b",
+    "name": "LG UltraGear 24GN65R-B Monitör",
+    "brand": "LG",
+    "category": "monitors",
+    "basePrice": 14919,
+    "currency": "TL",
+    "rating": 4.7,
+    "epeyScore": 89,
+    "reviewCount": 602,
+    "releaseYear": 2022,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/products/tvs/icecat-lg-lg-ultragear-24gn65r-b.jpg",
+    "images": [
+      "/images/products/tvs/icecat-lg-lg-ultragear-24gn65r-b.jpg"
+    ],
+    "highlights": [
+      "23,8 inç Full HD IPS ekran ve 144 Hz yenileme hızı",
+      "1 ms GtG tepki süresi (Faster modu)",
+      "300 nit tipik parlaklık"
+    ],
+    "specs": {
+      "screenSizeInches": 23.8,
+      "resolution": "1920x1080 (FHD)",
+      "panelType": "IPS",
+      "refreshRateHz": 144,
+      "responseTimeMs": 1,
+      "brightnessNits": 300
+    },
+    "storeOffers": [
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 14999,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com/ara?q=LG%20UltraGear%2024GN65R-B",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 15179,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.trendyol.com/sr?q=LG%20UltraGear%2024GN65R-B",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 15369,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=LG%20UltraGear%2024GN65R-B",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 15519,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/LG%20UltraGear%2024GN65R-B",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 14919,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=LG%20UltraGear%2024GN65R-B",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 15419,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=LG%20UltraGear%2024GN65R-B",
+        "rating": 4.8
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "Ekim 2025",
+        "price": 17100
+      },
+      {
+        "date": "Kasım 2025",
+        "price": 16650
+      },
+      {
+        "date": "Aralık 2025",
+        "price": 16200
+      },
+      {
+        "date": "Ocak 2026",
+        "price": 15750
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 15300
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 15000
+      }
+    ],
+    "fieldSources": [
+      {
+        "fields": [
+          "category",
+          "name",
+          "highlights",
+          "specs.screenSizeInches",
+          "specs.resolution",
+          "specs.panelType",
+          "specs.refreshRateHz",
+          "specs.responseTimeMs",
+          "specs.brightnessNits",
+          "releaseYear"
+        ],
+        "sourceUrl": "https://www.lg.com/in/monitors/gaming/24gn65r-b/",
+        "checkedAt": "2026-09-20T04:07:43.224Z",
+        "scopeNote": "Only listed fields checked for this exact LG model. Other old TV specifications archived, not carried forward. Brightness is typical; responseTimeMs uses GtG where explicitly stated, never MBR. Release year only changed when manufacturer INFO/Year was read. No price, stock, review, image or warranty verification implied. "
+      }
+    ]
+  },
+  {
+    "id": "lg-ultragear-27gs75q-b",
+    "slug": "lg-ultragear-27gs75q-b",
+    "name": "LG UltraGear 27GS75Q-B Monitör",
+    "brand": "LG",
+    "category": "monitors",
+    "basePrice": 14919,
+    "currency": "TL",
+    "rating": 4.7,
+    "epeyScore": 95,
+    "reviewCount": 320,
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/products/tvs/icecat-lg-lg-ultragear-27gs75q-b.jpg",
+    "images": [
+      "/images/products/tvs/icecat-lg-lg-ultragear-27gs75q-b.jpg"
+    ],
+    "highlights": [
+      "27 inç QHD IPS ekran",
+      "180 Hz standart; hız aşırtma ile 200 Hz",
+      "1 ms GtG tepki süresi"
+    ],
+    "specs": {
+      "screenSizeInches": 27,
+      "resolution": "2560x1440 (QHD)",
+      "panelType": "IPS",
+      "refreshRateHz": 180,
+      "responseTimeMs": 1
+    },
+    "storeOffers": [
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 14999,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com/ara?q=LG%20UltraGear%2027GS75Q-B",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 15179,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.trendyol.com/sr?q=LG%20UltraGear%2027GS75Q-B",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 15369,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=LG%20UltraGear%2027GS75Q-B",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 15519,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/LG%20UltraGear%2027GS75Q-B",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 14919,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=LG%20UltraGear%2027GS75Q-B",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 15419,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=LG%20UltraGear%2027GS75Q-B",
+        "rating": 4.8
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "Ekim 2025",
+        "price": 17100
+      },
+      {
+        "date": "Kasım 2025",
+        "price": 16650
+      },
+      {
+        "date": "Aralık 2025",
+        "price": 16200
+      },
+      {
+        "date": "Ocak 2026",
+        "price": 15750
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 15300
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 15000
+      }
+    ],
+    "fieldSources": [
+      {
+        "fields": [
+          "category",
+          "name",
+          "highlights",
+          "specs.screenSizeInches",
+          "specs.resolution",
+          "specs.panelType",
+          "specs.refreshRateHz",
+          "specs.responseTimeMs"
+        ],
+        "sourceUrl": "https://www.lg.com/es/monitores/monitores-ultragear-gaming/27gs75q-b/",
+        "checkedAt": "2026-09-20T04:07:43.224Z",
+        "scopeNote": "Only listed fields checked for this exact LG model. Other old TV specifications archived, not carried forward. Brightness is typical; responseTimeMs uses GtG where explicitly stated, never MBR. Release year only changed when manufacturer INFO/Year was read. No price, stock, review, image or warranty verification implied. Spanish exact-model page opened. Normal 180 Hz / OC 200 Hz and GtG explicitly confirmed in LG Japan indexed product content; direct Japan fetch failed."
+      },
+      {
+        "fields": [
+          "specs.refreshRateHz",
+          "specs.responseTimeMs",
+          "highlights"
+        ],
+        "sourceUrl": "https://www.lg.com/jp/monitors/gaming-monitors/27gs75q-b/",
+        "checkedAt": "2026-09-20T04:07:43.224Z",
+        "scopeNote": "Spanish exact-model page opened. Normal 180 Hz / OC 200 Hz and GtG explicitly confirmed in LG Japan indexed product content; direct Japan fetch failed."
+      }
+    ]
+  },
+  {
+    "id": "lg-ultragear-27g550b-b",
+    "slug": "lg-ultragear-27g550b-b",
+    "name": "LG UltraGear 27G550B-B Monitör",
+    "brand": "LG",
+    "category": "monitors",
+    "basePrice": 14919,
+    "currency": "TL",
+    "rating": 4.9,
+    "epeyScore": 85,
+    "reviewCount": 370,
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/tvs/lg-1065350.jpg",
+    "images": [
+      "/images/tvs/lg-1065350.jpg"
+    ],
+    "highlights": [
+      "27 inç Full HD IPS ekran ve 300 Hz yenileme hızı",
+      "1 ms GtG tepki süresi (Faster modu)"
+    ],
+    "specs": {
+      "screenSizeInches": 27,
+      "resolution": "1920x1080 (FHD)",
+      "panelType": "IPS",
+      "refreshRateHz": 300,
+      "responseTimeMs": 1
+    },
+    "storeOffers": [
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 14999,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com/ara?q=LG%20UltraGear%2027G550B-B",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 15179,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.trendyol.com/sr?q=LG%20UltraGear%2027G550B-B",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 15369,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=LG%20UltraGear%2027G550B-B",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 15519,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/LG%20UltraGear%2027G550B-B",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 14919,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=LG%20UltraGear%2027G550B-B",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 15419,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=LG%20UltraGear%2027G550B-B",
+        "rating": 4.8
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "Ekim 2025",
+        "price": 17100
+      },
+      {
+        "date": "Kasım 2025",
+        "price": 16650
+      },
+      {
+        "date": "Aralık 2025",
+        "price": 16200
+      },
+      {
+        "date": "Ocak 2026",
+        "price": 15750
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 15300
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 15000
+      }
+    ],
+    "fieldSources": [
+      {
+        "fields": [
+          "category",
+          "name",
+          "highlights",
+          "specs.screenSizeInches",
+          "specs.resolution",
+          "specs.panelType",
+          "specs.refreshRateHz",
+          "specs.responseTimeMs"
+        ],
+        "sourceUrl": "https://www.lg.com/uk/monitors/gaming/27g550b-b/",
+        "checkedAt": "2026-09-20T04:07:43.224Z",
+        "scopeNote": "Only listed fields checked for this exact LG model. Other old TV specifications archived, not carried forward. Brightness is typical; responseTimeMs uses GtG where explicitly stated, never MBR. Release year only changed when manufacturer INFO/Year was read. No price, stock, review, image or warranty verification implied. "
+      }
+    ]
+  },
+  {
+    "id": "lg-myview-27sr50f-w",
+    "slug": "lg-myview-27sr50f-w",
+    "name": "LG MyView 27SR50F-W Monitör",
+    "brand": "LG",
+    "category": "monitors",
+    "basePrice": 14919,
+    "currency": "TL",
+    "rating": 4.7,
+    "epeyScore": 87,
+    "reviewCount": 517,
+    "releaseYear": 2023,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/products/tvs/icecat-lg-lg-myview-27sr50f-w.jpg",
+    "images": [
+      "/images/products/tvs/icecat-lg-lg-myview-27sr50f-w.jpg"
+    ],
+    "highlights": [
+      "27 inç Full HD IPS akıllı monitör",
+      "webOS ve ekran paylaşımı",
+      "14 ms tipik tepki süresi"
+    ],
+    "specs": {
+      "screenSizeInches": 27,
+      "resolution": "1920x1080 (FHD)",
+      "panelType": "IPS",
+      "responseTimeMs": 14
+    },
+    "storeOffers": [
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 14999,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com/ara?q=LG%20MyView%2027SR50F-W",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 15179,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.trendyol.com/sr?q=LG%20MyView%2027SR50F-W",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 15369,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=LG%20MyView%2027SR50F-W",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 15519,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/LG%20MyView%2027SR50F-W",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 14919,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=LG%20MyView%2027SR50F-W",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 15419,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=LG%20MyView%2027SR50F-W",
+        "rating": 4.8
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "Ekim 2025",
+        "price": 17100
+      },
+      {
+        "date": "Kasım 2025",
+        "price": 16650
+      },
+      {
+        "date": "Aralık 2025",
+        "price": 16200
+      },
+      {
+        "date": "Ocak 2026",
+        "price": 15750
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 15300
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 15000
+      }
+    ],
+    "fieldSources": [
+      {
+        "fields": [
+          "category",
+          "name",
+          "highlights",
+          "specs.screenSizeInches",
+          "specs.resolution",
+          "specs.panelType",
+          "specs.responseTimeMs",
+          "releaseYear"
+        ],
+        "sourceUrl": "https://www.lg.com/uk/monitors/smart-monitors/27sr50f-w/",
+        "checkedAt": "2026-09-20T04:07:43.224Z",
+        "scopeNote": "Only listed fields checked for this exact LG model. Other old TV specifications archived, not carried forward. Brightness is typical; responseTimeMs uses GtG where explicitly stated, never MBR. Release year only changed when manufacturer INFO/Year was read. No price, stock, review, image or warranty verification implied. "
+      }
+    ]
+  },
+  {
+    "id": "lg-ultragear-27gl83ap-b",
+    "slug": "lg-ultragear-27gl83ap-b",
+    "name": "LG UltraGear 27GL83AP-B Monitör",
+    "brand": "LG",
+    "category": "monitors",
+    "basePrice": 14919,
+    "currency": "TL",
+    "rating": 4.8,
+    "epeyScore": 89,
+    "reviewCount": 340,
+    "releaseYear": 2019,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/tvs/lg-890920.jpg",
+    "images": [
+      "/images/tvs/lg-890920.jpg"
+    ],
+    "highlights": [
+      "27 inç QHD IPS ekran ve 144 Hz yenileme hızı",
+      "1 ms GtG tepki süresi (Faster modu)",
+      "NVIDIA G-SYNC Compatible ve AMD FreeSync Premium"
+    ],
+    "specs": {
+      "screenSizeInches": 27,
+      "resolution": "2560x1440 (QHD)",
+      "panelType": "IPS",
+      "refreshRateHz": 144,
+      "responseTimeMs": 1,
+      "hdrSupport": "HDR10"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 14999,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com/ara?q=LG%20UltraGear%2027GL83AP-B",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 15179,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.trendyol.com/sr?q=LG%20UltraGear%2027GL83AP-B",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 15369,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=LG%20UltraGear%2027GL83AP-B",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 15519,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/LG%20UltraGear%2027GL83AP-B",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 14919,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=LG%20UltraGear%2027GL83AP-B",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 15419,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=LG%20UltraGear%2027GL83AP-B",
+        "rating": 4.8
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "Ekim 2025",
+        "price": 17100
+      },
+      {
+        "date": "Kasım 2025",
+        "price": 16650
+      },
+      {
+        "date": "Aralık 2025",
+        "price": 16200
+      },
+      {
+        "date": "Ocak 2026",
+        "price": 15750
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 15300
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 15000
+      }
+    ],
+    "fieldSources": [
+      {
+        "fields": [
+          "category",
+          "name",
+          "highlights",
+          "specs.screenSizeInches",
+          "specs.resolution",
+          "specs.panelType",
+          "specs.refreshRateHz",
+          "specs.responseTimeMs",
+          "specs.hdrSupport",
+          "releaseYear"
+        ],
+        "sourceUrl": "https://www.lg.com/tr/monitor/oyun-monitorleri/27gl83ap-b/",
+        "checkedAt": "2026-09-20T04:07:43.224Z",
+        "scopeNote": "Only listed fields checked for this exact LG model. Other old TV specifications archived, not carried forward. Brightness is typical; responseTimeMs uses GtG where explicitly stated, never MBR. Release year only changed when manufacturer INFO/Year was read. No price, stock, review, image or warranty verification implied. "
+      }
+    ]
+  },
+  {
+    "id": "lg-myview-32sr85u-w",
+    "slug": "lg-myview-32sr85u-w",
+    "name": "LG MyView 32SR85U-W Monitör",
+    "brand": "LG",
+    "category": "monitors",
+    "basePrice": 14919,
+    "currency": "TL",
+    "rating": 4.7,
+    "epeyScore": 92,
+    "reviewCount": 561,
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/products/tvs/icecat-lg-lg-myview-32sr85u-w.jpg",
+    "images": [
+      "/images/products/tvs/icecat-lg-lg-myview-32sr85u-w.jpg"
+    ],
+    "highlights": [
+      "31,5 inç 4K UHD IPS akıllı monitör",
+      "400 nit tipik parlaklık",
+      "webOS ve dahili Full HD kamera"
+    ],
+    "specs": {
+      "screenSizeInches": 31.5,
+      "resolution": "3840x2160 (UHD)",
+      "panelType": "IPS",
+      "brightnessNits": 400
+    },
+    "storeOffers": [
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 14999,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com/ara?q=LG%20MyView%2032SR85U-W",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 15179,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.trendyol.com/sr?q=LG%20MyView%2032SR85U-W",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 15369,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=LG%20MyView%2032SR85U-W",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 15519,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/LG%20MyView%2032SR85U-W",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 14919,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=LG%20MyView%2032SR85U-W",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 15419,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=LG%20MyView%2032SR85U-W",
+        "rating": 4.8
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "Ekim 2025",
+        "price": 17100
+      },
+      {
+        "date": "Kasım 2025",
+        "price": 16650
+      },
+      {
+        "date": "Aralık 2025",
+        "price": 16200
+      },
+      {
+        "date": "Ocak 2026",
+        "price": 15750
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 15300
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 15000
+      }
+    ],
+    "fieldSources": [
+      {
+        "fields": [
+          "category",
+          "name",
+          "highlights",
+          "specs.screenSizeInches",
+          "specs.resolution",
+          "specs.panelType",
+          "specs.brightnessNits"
+        ],
+        "sourceUrl": "https://www.lg.com/es/monitores/myview-smart-monitor/32sr85u-w/",
+        "checkedAt": "2026-09-20T04:07:43.224Z",
+        "scopeNote": "Only listed fields checked for this exact LG model. Other old TV specifications archived, not carried forward. Brightness is typical; responseTimeMs uses GtG where explicitly stated, never MBR. Release year only changed when manufacturer INFO/Year was read. No price, stock, review, image or warranty verification implied. "
+      }
+    ]
+  },
+  {
+    "id": "lg-ultragear-24gs65f-b",
+    "slug": "lg-ultragear-24gs65f-b",
+    "name": "LG UltraGear 24GS65F-B Monitör",
+    "brand": "LG",
+    "category": "monitors",
+    "basePrice": 14919,
+    "currency": "TL",
+    "rating": 4.7,
+    "epeyScore": 96,
+    "reviewCount": 344,
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/products/tvs/icecat-lg-lg-ultragear-24gs65f-b.jpg",
+    "images": [
+      "/images/products/tvs/icecat-lg-lg-ultragear-24gs65f-b.jpg"
+    ],
+    "highlights": [
+      "Full HD IPS ekran ve 180 Hz yenileme hızı",
+      "NVIDIA G-SYNC Compatible ve HDR10"
+    ],
+    "specs": {
+      "resolution": "1920x1080 (FHD)",
+      "panelType": "IPS",
+      "refreshRateHz": 180,
+      "responseTimeMs": 1,
+      "hdrSupport": "HDR10"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 14999,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com/ara?q=LG%20UltraGear%2024GS65F-B",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 15179,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.trendyol.com/sr?q=LG%20UltraGear%2024GS65F-B",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 15369,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=LG%20UltraGear%2024GS65F-B",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 15519,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/LG%20UltraGear%2024GS65F-B",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 14919,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=LG%20UltraGear%2024GS65F-B",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 15419,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=LG%20UltraGear%2024GS65F-B",
+        "rating": 4.8
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "Ekim 2025",
+        "price": 17100
+      },
+      {
+        "date": "Kasım 2025",
+        "price": 16650
+      },
+      {
+        "date": "Aralık 2025",
+        "price": 16200
+      },
+      {
+        "date": "Ocak 2026",
+        "price": 15750
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 15300
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 15000
+      }
+    ],
+    "fieldSources": [
+      {
+        "fields": [
+          "category",
+          "name",
+          "highlights",
+          "specs.resolution",
+          "specs.panelType",
+          "specs.refreshRateHz",
+          "specs.responseTimeMs",
+          "specs.hdrSupport"
+        ],
+        "sourceUrl": "https://www.lg.com/us/monitors/lg-24gs65f-b-gaming-monitor",
+        "checkedAt": "2026-09-20T04:07:43.224Z",
+        "scopeNote": "Only listed fields checked for this exact LG model. Other old TV specifications archived, not carried forward. Brightness is typical; responseTimeMs uses GtG where explicitly stated, never MBR. Release year only changed when manufacturer INFO/Year was read. No price, stock, review, image or warranty verification implied. "
+      }
+    ]
+  },
+  {
+    "id": "lg-ultragear-27g523b-b",
+    "slug": "lg-ultragear-27g523b-b",
+    "name": "LG UltraGear 27G523B-B Monitör",
+    "brand": "LG",
+    "category": "monitors",
+    "basePrice": 14919,
+    "currency": "TL",
+    "rating": 4.8,
+    "epeyScore": 87,
+    "reviewCount": 413,
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/products/tvs/icecat-lg-lg-ultragear-27g523b-b.jpg",
+    "images": [
+      "/images/products/tvs/icecat-lg-lg-ultragear-27g523b-b.jpg"
+    ],
+    "highlights": [
+      "27 inç Full HD IPS ekran ve 200 Hz yenileme hızı",
+      "1 ms GtG tepki süresi",
+      "NVIDIA G-SYNC Compatible ve AMD FreeSync Premium"
+    ],
+    "specs": {
+      "screenSizeInches": 27,
+      "resolution": "1920x1080 (FHD)",
+      "panelType": "IPS",
+      "refreshRateHz": 200,
+      "responseTimeMs": 1,
+      "hdrSupport": "HDR10"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 14999,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com/ara?q=LG%20UltraGear%2027G523B-B",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 15179,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.trendyol.com/sr?q=LG%20UltraGear%2027G523B-B",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 15369,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=LG%20UltraGear%2027G523B-B",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 15519,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/LG%20UltraGear%2027G523B-B",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 14919,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=LG%20UltraGear%2027G523B-B",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 15419,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=LG%20UltraGear%2027G523B-B",
+        "rating": 4.8
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "Ekim 2025",
+        "price": 17100
+      },
+      {
+        "date": "Kasım 2025",
+        "price": 16650
+      },
+      {
+        "date": "Aralık 2025",
+        "price": 16200
+      },
+      {
+        "date": "Ocak 2026",
+        "price": 15750
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 15300
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 15000
+      }
+    ],
+    "fieldSources": [
+      {
+        "fields": [
+          "category",
+          "name",
+          "highlights",
+          "specs.screenSizeInches",
+          "specs.resolution",
+          "specs.panelType",
+          "specs.refreshRateHz",
+          "specs.responseTimeMs",
+          "specs.hdrSupport"
+        ],
+        "sourceUrl": "https://www.lg.com/br/monitores/monitores-ultragear/27g523b-b/",
+        "checkedAt": "2026-09-20T04:07:43.224Z",
+        "scopeNote": "Only listed fields checked for this exact LG model. Other old TV specifications archived, not carried forward. Brightness is typical; responseTimeMs uses GtG where explicitly stated, never MBR. Release year only changed when manufacturer INFO/Year was read. No price, stock, review, image or warranty verification implied. "
+      }
+    ]
+  },
+  {
+    "id": "lg-ultrawide-29wq500-b",
+    "slug": "lg-ultrawide-29wq500-b",
+    "name": "LG UltraWide 29WQ500-B Monitör",
+    "brand": "LG",
+    "category": "monitors",
+    "basePrice": 14919,
+    "currency": "TL",
+    "rating": 4.7,
+    "epeyScore": 93,
+    "reviewCount": 365,
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/products/tvs/icecat-lg-lg-ultrawide-29wq500-b.jpg",
+    "images": [
+      "/images/products/tvs/icecat-lg-lg-ultrawide-29wq500-b.jpg"
+    ],
+    "highlights": [
+      "29 inç 2560x1080 IPS UltraWide ekran",
+      "21:9 en-boy oranı ve 100 Hz yenileme hızı",
+      "5 ms tepki süresi ve AMD FreeSync"
+    ],
+    "specs": {
+      "screenSizeInches": 29,
+      "resolution": "2560x1080 (WFHD)",
+      "panelType": "IPS",
+      "refreshRateHz": 100,
+      "responseTimeMs": 5,
+      "aspectRatio": "21:9"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 14999,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com/ara?q=LG%20UltraWide%2029WQ500-B",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 15179,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.trendyol.com/sr?q=LG%20UltraWide%2029WQ500-B",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 15369,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=LG%20UltraWide%2029WQ500-B",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 15519,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/LG%20UltraWide%2029WQ500-B",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 14919,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=LG%20UltraWide%2029WQ500-B",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 15419,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=LG%20UltraWide%2029WQ500-B",
+        "rating": 4.8
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "Ekim 2025",
+        "price": 17100
+      },
+      {
+        "date": "Kasım 2025",
+        "price": 16650
+      },
+      {
+        "date": "Aralık 2025",
+        "price": 16200
+      },
+      {
+        "date": "Ocak 2026",
+        "price": 15750
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 15300
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 15000
+      }
+    ],
+    "fieldSources": [
+      {
+        "fields": [
+          "category",
+          "name",
+          "highlights",
+          "specs.screenSizeInches",
+          "specs.resolution",
+          "specs.panelType",
+          "specs.refreshRateHz",
+          "specs.responseTimeMs",
+          "specs.aspectRatio"
+        ],
+        "sourceUrl": "https://www.lg.com/es/monitores/monitores-ultrawide/29wq500-b/",
+        "checkedAt": "2026-09-20T04:07:43.224Z",
+        "scopeNote": "Only listed fields checked for this exact LG model. Other old TV specifications archived, not carried forward. Brightness is typical; responseTimeMs uses GtG where explicitly stated, never MBR. Release year only changed when manufacturer INFO/Year was read. No price, stock, review, image or warranty verification implied. "
+      }
+    ]
+  },
+  {
+    "id": "lg-ultragear-24gn60r-b",
+    "slug": "lg-ultragear-24gn60r-b",
+    "name": "LG UltraGear 24GN60R-B Monitör",
+    "brand": "LG",
+    "category": "monitors",
+    "basePrice": 14919,
+    "currency": "TL",
+    "rating": 4.9,
+    "epeyScore": 88,
+    "reviewCount": 601,
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/products/tvs/icecat-lg-lg-ultragear-24gn60r-b.jpg",
+    "images": [
+      "/images/products/tvs/icecat-lg-lg-ultragear-24gn60r-b.jpg"
+    ],
+    "highlights": [
+      "23,8 inç Full HD IPS ekran",
+      "144 Hz yenileme hızı ve 1 ms GtG tepki süresi"
+    ],
+    "specs": {
+      "screenSizeInches": 23.8,
+      "resolution": "1920x1080 (FHD)",
+      "panelType": "IPS",
+      "refreshRateHz": 144,
+      "responseTimeMs": 1
+    },
+    "storeOffers": [
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 14999,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com/ara?q=LG%20UltraGear%2024GN60R-B",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 15179,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.trendyol.com/sr?q=LG%20UltraGear%2024GN60R-B",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 15369,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=LG%20UltraGear%2024GN60R-B",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 15519,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/LG%20UltraGear%2024GN60R-B",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 14919,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=LG%20UltraGear%2024GN60R-B",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 15419,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=LG%20UltraGear%2024GN60R-B",
+        "rating": 4.8
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "Ekim 2025",
+        "price": 17100
+      },
+      {
+        "date": "Kasım 2025",
+        "price": 16650
+      },
+      {
+        "date": "Aralık 2025",
+        "price": 16200
+      },
+      {
+        "date": "Ocak 2026",
+        "price": 15750
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 15300
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 15000
+      }
+    ],
+    "fieldSources": [
+      {
+        "fields": [
+          "category",
+          "name",
+          "highlights",
+          "specs.screenSizeInches",
+          "specs.resolution",
+          "specs.panelType",
+          "specs.refreshRateHz",
+          "specs.responseTimeMs"
+        ],
+        "sourceUrl": "https://www.lg.com/in/monitors/gaming/24gn60r-b/",
+        "checkedAt": "2026-09-20T04:07:43.224Z",
+        "scopeNote": "Only listed fields checked for this exact LG model. Other old TV specifications archived, not carried forward. Brightness is typical; responseTimeMs uses GtG where explicitly stated, never MBR. Release year only changed when manufacturer INFO/Year was read. No price, stock, review, image or warranty verification implied. Size read on LG India; 144 Hz and GtG also confirmed by LG US indexed exact-model product page."
+      },
+      {
+        "fields": [
+          "specs.refreshRateHz",
+          "specs.responseTimeMs",
+          "highlights"
+        ],
+        "sourceUrl": "https://www.lg.com/us/monitors/lg-24gn60r-b-gaming-monitor",
+        "checkedAt": "2026-09-20T04:07:43.224Z",
+        "scopeNote": "Size read on LG India; 144 Hz and GtG also confirmed by LG US indexed exact-model product page."
+      }
+    ]
+  },
+  {
+    "id": "lg-ultragear-24gq50f-b",
+    "slug": "lg-ultragear-24gq50f-b",
+    "name": "LG UltraGear 24GQ50F-B Monitör",
+    "brand": "LG",
+    "category": "monitors",
+    "basePrice": 14919,
+    "currency": "TL",
+    "rating": 4.7,
+    "epeyScore": 88,
+    "reviewCount": 376,
+    "releaseYear": 2022,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/products/tvs/icecat-lg-lg-ultragear-24gq50f-b.jpg",
+    "images": [
+      "/images/products/tvs/icecat-lg-lg-ultragear-24gq50f-b.jpg"
+    ],
+    "highlights": [
+      "23,8 inç Full HD VA ekran ve 165 Hz yenileme hızı",
+      "5 ms GtG tepki süresi (Faster modu); ayrı 1 ms MBR modu"
+    ],
+    "specs": {
+      "screenSizeInches": 23.8,
+      "resolution": "1920x1080 (FHD)",
+      "panelType": "VA",
+      "refreshRateHz": 165,
+      "responseTimeMs": 5
+    },
+    "storeOffers": [
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 14999,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com/ara?q=LG%20UltraGear%2024GQ50F-B",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 15179,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.trendyol.com/sr?q=LG%20UltraGear%2024GQ50F-B",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 15369,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=LG%20UltraGear%2024GQ50F-B",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 15519,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/LG%20UltraGear%2024GQ50F-B",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 14919,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=LG%20UltraGear%2024GQ50F-B",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 15419,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=LG%20UltraGear%2024GQ50F-B",
+        "rating": 4.8
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "Ekim 2025",
+        "price": 17100
+      },
+      {
+        "date": "Kasım 2025",
+        "price": 16650
+      },
+      {
+        "date": "Aralık 2025",
+        "price": 16200
+      },
+      {
+        "date": "Ocak 2026",
+        "price": 15750
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 15300
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 15000
+      }
+    ],
+    "fieldSources": [
+      {
+        "fields": [
+          "category",
+          "name",
+          "highlights",
+          "specs.screenSizeInches",
+          "specs.resolution",
+          "specs.panelType",
+          "specs.refreshRateHz",
+          "specs.responseTimeMs",
+          "releaseYear"
+        ],
+        "sourceUrl": "https://www.lg.com/uk/monitors/gaming/24gq50f-b/",
+        "checkedAt": "2026-09-20T04:07:43.224Z",
+        "scopeNote": "Only listed fields checked for this exact LG model. Other old TV specifications archived, not carried forward. Brightness is typical; responseTimeMs uses GtG where explicitly stated, never MBR. Release year only changed when manufacturer INFO/Year was read. No price, stock, review, image or warranty verification implied. "
+      }
+    ]
+  },
+  {
+    "id": "lg-ultrawide-34wr55qc-b",
+    "slug": "lg-ultrawide-34wr55qc-b",
+    "name": "LG UltraWide 34WR55QC-B Monitör",
+    "brand": "LG",
+    "category": "monitors",
+    "basePrice": 14919,
+    "currency": "TL",
+    "rating": 4.7,
+    "epeyScore": 88,
+    "reviewCount": 363,
+    "releaseYear": 2023,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/tvs/lg-930543.jpg",
+    "images": [
+      "/images/tvs/lg-930543.jpg"
+    ],
+    "highlights": [
+      "34 inç UWQHD VA ekran; 21:9 en-boy oranı ve 1800R kavis",
+      "100 Hz ve 5 ms GtG tepki süresi (Faster modu)",
+      "300 nit tipik parlaklık; USB-C üzerinden 65 W güç iletimi"
+    ],
+    "specs": {
+      "screenSizeInches": 34,
+      "resolution": "3440x1440 (UWQHD)",
+      "panelType": "VA",
+      "refreshRateHz": 100,
+      "responseTimeMs": 5,
+      "brightnessNits": 300,
+      "contrastRatio": "3000:1",
+      "aspectRatio": "21:9",
+      "usbTypeCPowerWatts": 65
+    },
+    "storeOffers": [
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 14999,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com/ara?q=LG%20UltraWide%2034WR55QC-B",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 15179,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.trendyol.com/sr?q=LG%20UltraWide%2034WR55QC-B",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 15369,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=LG%20UltraWide%2034WR55QC-B",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 15519,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/LG%20UltraWide%2034WR55QC-B",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 14919,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=LG%20UltraWide%2034WR55QC-B",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 15419,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=LG%20UltraWide%2034WR55QC-B",
+        "rating": 4.8
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "Ekim 2025",
+        "price": 17100
+      },
+      {
+        "date": "Kasım 2025",
+        "price": 16650
+      },
+      {
+        "date": "Aralık 2025",
+        "price": 16200
+      },
+      {
+        "date": "Ocak 2026",
+        "price": 15750
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 15300
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 15000
+      }
+    ],
+    "fieldSources": [
+      {
+        "fields": [
+          "category",
+          "name",
+          "highlights",
+          "specs.screenSizeInches",
+          "specs.resolution",
+          "specs.panelType",
+          "specs.refreshRateHz",
+          "specs.responseTimeMs",
+          "specs.brightnessNits",
+          "specs.contrastRatio",
+          "specs.aspectRatio",
+          "specs.usbTypeCPowerWatts",
+          "releaseYear"
+        ],
+        "sourceUrl": "https://www.lg.com/in/monitors/ultrawide/34wr55qc-b/",
+        "checkedAt": "2026-09-20T04:07:43.224Z",
+        "scopeNote": "Only listed fields checked for this exact LG model. Other old TV specifications archived, not carried forward. Brightness is typical; responseTimeMs uses GtG where explicitly stated, never MBR. Release year only changed when manufacturer INFO/Year was read. No price, stock, review, image or warranty verification implied. "
+      }
+    ]
+  },
+  {
+    "id": "lg-ultragear-27gs60f-b",
+    "slug": "lg-ultragear-27gs60f-b",
+    "name": "LG UltraGear 27GS60F-B Monitör",
+    "brand": "LG",
+    "category": "monitors",
+    "basePrice": 14919,
+    "currency": "TL",
+    "rating": 4.7,
+    "epeyScore": 87,
+    "reviewCount": 435,
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/products/tvs/icecat-lg-lg-ultragear-27gs60f-b.jpg",
+    "images": [
+      "/images/products/tvs/icecat-lg-lg-ultragear-27gs60f-b.jpg"
+    ],
+    "highlights": [
+      "27 inç Full HD IPS ekran ve 180 Hz yenileme hızı",
+      "1 ms GtG tepki süresi ve HDR10"
+    ],
+    "specs": {
+      "screenSizeInches": 27,
+      "resolution": "1920x1080 (FHD)",
+      "panelType": "IPS",
+      "refreshRateHz": 180,
+      "responseTimeMs": 1,
+      "hdrSupport": "HDR10"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 14999,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com/ara?q=LG%20UltraGear%2027GS60F-B",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 15179,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.trendyol.com/sr?q=LG%20UltraGear%2027GS60F-B",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 15369,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=LG%20UltraGear%2027GS60F-B",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 15519,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/LG%20UltraGear%2027GS60F-B",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 14919,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=LG%20UltraGear%2027GS60F-B",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 15419,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=LG%20UltraGear%2027GS60F-B",
+        "rating": 4.8
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "Ekim 2025",
+        "price": 17100
+      },
+      {
+        "date": "Kasım 2025",
+        "price": 16650
+      },
+      {
+        "date": "Aralık 2025",
+        "price": 16200
+      },
+      {
+        "date": "Ocak 2026",
+        "price": 15750
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 15300
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 15000
+      }
+    ],
+    "fieldSources": [
+      {
+        "fields": [
+          "category",
+          "name",
+          "highlights",
+          "specs.screenSizeInches",
+          "specs.resolution",
+          "specs.panelType",
+          "specs.refreshRateHz",
+          "specs.responseTimeMs",
+          "specs.hdrSupport"
+        ],
+        "sourceUrl": "https://www.lg.com/mx/monitores/monitores-gaming/27gs60f-b/",
+        "checkedAt": "2026-09-20T04:07:43.224Z",
+        "scopeNote": "Only listed fields checked for this exact LG model. Other old TV specifications archived, not carried forward. Brightness is typical; responseTimeMs uses GtG where explicitly stated, never MBR. Release year only changed when manufacturer INFO/Year was read. No price, stock, review, image or warranty verification implied. "
+      }
+    ]
+  },
+  {
+    "id": "lg-ultragear-32gn500-b",
+    "slug": "lg-ultragear-32gn500-b",
+    "name": "LG UltraGear 32GN500-B Monitör",
+    "brand": "LG",
+    "category": "monitors",
+    "basePrice": 14919,
+    "currency": "TL",
+    "rating": 4.8,
+    "epeyScore": 85,
+    "reviewCount": 295,
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/products/tvs/icecat-lg-lg-ultragear-32gn500-b.jpg",
+    "images": [
+      "/images/products/tvs/icecat-lg-lg-ultragear-32gn500-b.jpg"
+    ],
+    "highlights": [
+      "31,5 inç Full HD VA ekran ve 165 Hz yenileme hızı",
+      "5 ms GtG tepki süresi (Faster modu); ayrı 1 ms MBR modu",
+      "300 nit tipik parlaklık"
+    ],
+    "specs": {
+      "screenSizeInches": 31.5,
+      "resolution": "1920x1080 (FHD)",
+      "panelType": "VA",
+      "refreshRateHz": 165,
+      "responseTimeMs": 5,
+      "brightnessNits": 300,
+      "contrastRatio": "3000:1"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 14999,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com/ara?q=LG%20UltraGear%2032GN500-B",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 15179,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.trendyol.com/sr?q=LG%20UltraGear%2032GN500-B",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 15369,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=LG%20UltraGear%2032GN500-B",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 15519,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/LG%20UltraGear%2032GN500-B",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 14919,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=LG%20UltraGear%2032GN500-B",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 15419,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=LG%20UltraGear%2032GN500-B",
+        "rating": 4.8
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "Ekim 2025",
+        "price": 17100
+      },
+      {
+        "date": "Kasım 2025",
+        "price": 16650
+      },
+      {
+        "date": "Aralık 2025",
+        "price": 16200
+      },
+      {
+        "date": "Ocak 2026",
+        "price": 15750
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 15300
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 15000
+      }
+    ],
+    "fieldSources": [
+      {
+        "fields": [
+          "category",
+          "name",
+          "highlights",
+          "specs.screenSizeInches",
+          "specs.resolution",
+          "specs.panelType",
+          "specs.refreshRateHz",
+          "specs.responseTimeMs",
+          "specs.brightnessNits",
+          "specs.contrastRatio"
+        ],
+        "sourceUrl": "https://www.lg.com/uk/monitors/gaming/32gn500-b/",
+        "checkedAt": "2026-09-20T04:07:43.224Z",
+        "scopeNote": "Only listed fields checked for this exact LG model. Other old TV specifications archived, not carried forward. Brightness is typical; responseTimeMs uses GtG where explicitly stated, never MBR. Release year only changed when manufacturer INFO/Year was read. No price, stock, review, image or warranty verification implied. "
+      }
+    ]
+  },
+  {
+    "id": "lg-ultragear-24gs50f-b",
+    "slug": "lg-ultragear-24gs50f-b",
+    "name": "LG UltraGear 24GS50F-B Monitör",
+    "brand": "LG",
+    "category": "monitors",
+    "basePrice": 14919,
+    "currency": "TL",
+    "rating": 4.8,
+    "epeyScore": 89,
+    "reviewCount": 376,
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/products/tvs/icecat-lg-lg-ultragear-24gs50f-b.jpg",
+    "images": [
+      "/images/products/tvs/icecat-lg-lg-ultragear-24gs50f-b.jpg"
+    ],
+    "highlights": [
+      "23,7 inç Full HD VA ekran ve 180 Hz yenileme hızı",
+      "5 ms GtG tepki süresi (Faster modu); ayrı 1 ms MBR modu"
+    ],
+    "specs": {
+      "screenSizeInches": 23.7,
+      "resolution": "1920x1080 (FHD)",
+      "panelType": "VA",
+      "refreshRateHz": 180,
+      "responseTimeMs": 5,
+      "contrastRatio": "3000:1"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 14999,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com/ara?q=LG%20UltraGear%2024GS50F-B",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 15179,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.trendyol.com/sr?q=LG%20UltraGear%2024GS50F-B",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 15369,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=LG%20UltraGear%2024GS50F-B",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 15519,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/LG%20UltraGear%2024GS50F-B",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 14919,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=LG%20UltraGear%2024GS50F-B",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 15419,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=LG%20UltraGear%2024GS50F-B",
+        "rating": 4.8
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "Ekim 2025",
+        "price": 17100
+      },
+      {
+        "date": "Kasım 2025",
+        "price": 16650
+      },
+      {
+        "date": "Aralık 2025",
+        "price": 16200
+      },
+      {
+        "date": "Ocak 2026",
+        "price": 15750
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 15300
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 15000
+      }
+    ],
+    "fieldSources": [
+      {
+        "fields": [
+          "category",
+          "name",
+          "highlights",
+          "specs.screenSizeInches",
+          "specs.resolution",
+          "specs.panelType",
+          "specs.refreshRateHz",
+          "specs.responseTimeMs",
+          "specs.contrastRatio",
+          "releaseYear"
+        ],
+        "sourceUrl": "https://www.lg.com/uk/monitors/gaming/24gs50f-b/",
+        "checkedAt": "2026-09-20T04:07:43.224Z",
+        "scopeNote": "Only listed fields checked for this exact LG model. Other old TV specifications archived, not carried forward. Brightness is typical; responseTimeMs uses GtG where explicitly stated, never MBR. Release year only changed when manufacturer INFO/Year was read. No price, stock, review, image or warranty verification implied. "
+      }
+    ]
+  },
+  {
+    "id": "lg-myview-32sr50f-w",
+    "slug": "lg-myview-32sr50f-w",
+    "name": "LG MyView 32SR50F-W Monitör",
+    "brand": "LG",
+    "category": "monitors",
+    "basePrice": 14919,
+    "currency": "TL",
+    "rating": 4.8,
+    "epeyScore": 86,
+    "reviewCount": 503,
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/products/tvs/icecat-lg-lg-myview-32sr50f-w.jpg",
+    "images": [
+      "/images/products/tvs/icecat-lg-lg-myview-32sr50f-w.jpg"
+    ],
+    "highlights": [
+      "Full HD IPS akıllı monitör ve webOS",
+      "14 ms GtG tepki süresi; 250 nit tipik parlaklık"
+    ],
+    "specs": {
+      "resolution": "1920x1080 (FHD)",
+      "panelType": "IPS",
+      "responseTimeMs": 14,
+      "brightnessNits": 250,
+      "contrastRatio": "1000:1"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 14999,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com/ara?q=LG%20MyView%2032SR50F-W",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 15179,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.trendyol.com/sr?q=LG%20MyView%2032SR50F-W",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 15369,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=LG%20MyView%2032SR50F-W",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 15519,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/LG%20MyView%2032SR50F-W",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 14919,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=LG%20MyView%2032SR50F-W",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 15419,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=LG%20MyView%2032SR50F-W",
+        "rating": 4.8
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "Ekim 2025",
+        "price": 17100
+      },
+      {
+        "date": "Kasım 2025",
+        "price": 16650
+      },
+      {
+        "date": "Aralık 2025",
+        "price": 16200
+      },
+      {
+        "date": "Ocak 2026",
+        "price": 15750
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 15300
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 15000
+      }
+    ],
+    "fieldSources": [
+      {
+        "fields": [
+          "category",
+          "name",
+          "highlights",
+          "specs.resolution",
+          "specs.panelType",
+          "specs.responseTimeMs",
+          "specs.brightnessNits",
+          "specs.contrastRatio"
+        ],
+        "sourceUrl": "https://www.lg.com/cac/monitors/lg-32sr50f-w",
+        "checkedAt": "2026-09-20T04:07:43.224Z",
+        "scopeNote": "Only listed fields checked for this exact LG model. Other old TV specifications archived, not carried forward. Brightness is typical; responseTimeMs uses GtG where explicitly stated, never MBR. Release year only changed when manufacturer INFO/Year was read. No price, stock, review, image or warranty verification implied. Conflicting 27/32-inch marketing text and dimensions on LG CAC: physical size deliberately omitted. No refresh rate inferred."
+      }
     ]
   }
 ];

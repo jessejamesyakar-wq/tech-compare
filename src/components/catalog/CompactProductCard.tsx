@@ -5,12 +5,17 @@ import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 import { ProductImage } from '@/components/ui/ProductImage';
 import { Product } from '@/lib/types';
+import { getConsoleSpecSummary } from '@/lib/productPresentation';
+import { phoneSpecText } from '@/lib/smartphoneSpecFields';
+import { getSpecVerificationNotice } from '@/lib/specVerification';
 import { getProductColorList, ResolvedColorOption } from '@/lib/colorVariantHelper';
 import { ArrowRight, Store } from 'lucide-react';
 import { TiltCard } from '@/components/ui/TiltCard';
 import { useI18n } from '@/lib/i18n/context';
-import { getEffectiveStoreCount, filterActiveStoreOffers, ACTIVE_RETAILERS, ACTIVE_STORE_COUNT } from '@/lib/activeStores';
-import { calculatePriceSignal } from '@/lib/priceSignal';
+import { calculatePriceSignal, parseDateToMs } from '@/lib/priceSignal';
+import { getObservedPriceHistory } from '@/lib/pricing/priceHistoryEvidence';
+
+import { evaluateProductPricing, getEligibleDirectOffers, getPriceHeading } from '@/lib/pricing/unifiedPriceEvaluator';
 
 export interface CompactProductCardProps {
   product: Product;
@@ -45,33 +50,25 @@ export function CompactProductCard({
       ? `/monitors/${slug}`
       : `/phones/${slug}`;
 
-  const offers = product.storeOffers || [];
-  const activeOffers = filterActiveStoreOffers(offers);
-  const offerCount = getEffectiveStoreCount(offers);
-  const prices = (activeOffers.length > 0 ? activeOffers : offers).map((o) => o.price).filter((p) => p > 0);
-  const minPrice = prices.length > 0 ? Math.min(...prices) : product.basePrice;
-  const maxPrice = prices.length > 0 ? Math.max(...prices) : Math.round(product.basePrice * 1.08);
+  const evaluatedPrice = evaluateProductPricing(product);
+  const { freshDirectOffers: activeOffers } = getEligibleDirectOffers(product.storeOffers);
+  const offerCount = evaluatedPrice.activeStoreCount;
 
-  // Real deal calculation: strictly requires price drop in history (>=8%) or real multi-store spread (>=7%)
-  const historyPrices = (product.priceHistory || []).map((h) => h.price).filter((p) => p > 0);
+  // Real deal calculation: strictly requires price drop in history (>=8%) against fresh current price
+  const now = Date.now();
+  const historyPrices = getObservedPriceHistory(product.priceHistory, now).filter((point) => {
+    const timestamp = parseDateToMs(point.date);
+    return timestamp > 0 && timestamp <= now && now - timestamp <= 30 * 86400000 && Number.isFinite(point.price) && point.price > 0;
+  }).map((point) => point.price);
   const maxHistory = historyPrices.length > 0 ? Math.max(...historyPrices) : 0;
-  const isHistoryDeal = maxHistory > minPrice && ((maxHistory - minPrice) / maxHistory) >= 0.08;
-  const isSpreadDeal = prices.length > 1 && maxPrice > minPrice && ((maxPrice - minPrice) / maxPrice) >= 0.07;
-  const isRealDeal = isHistoryDeal || isSpreadDeal;
-  const discountPercent = maxHistory > minPrice && ((maxHistory - minPrice) / maxHistory) >= 0.05
-    ? Math.round(((maxHistory - minPrice) / maxHistory) * 100)
+
+  const discountPercent = evaluatedPrice.currentPrice !== null && maxHistory > evaluatedPrice.currentPrice && ((maxHistory - evaluatedPrice.currentPrice) / maxHistory) >= 0.05
+    ? Math.round(((maxHistory - evaluatedPrice.currentPrice) / maxHistory) * 100)
     : 0;
-  const isLowest30d = isHistoryDeal || (historyPrices.length > 0 && minPrice <= Math.min(...historyPrices));
+  const isLowest30d = evaluatedPrice.currentPrice !== null && historyPrices.length >= 2 && evaluatedPrice.currentPrice <= Math.min(...historyPrices);
   const timingSignal = React.useMemo(() => calculatePriceSignal(product), [product]);
 
-  const fallbackImg =
-    product.category === 'appliances'
-      ? '/images/products/appliances/dyson-v15-detect.jpg'
-      : product.category === 'tvs'
-      ? '/images/products/tvs/lg-55qned81b6a-1.jpg'
-      : product.category === 'laptops'
-      ? '/images/products/laptops/apple-macbook-air-m3.jpg'
-      : '/images/products/smartphones/apple/iphone-16-pro-natural.jpg';
+  const fallbackImg = '/images/product-placeholder.png';
 
   const availableColors = React.useMemo(() => getProductColorList(product), [product]);
   const initialColor = React.useMemo(() => {
@@ -122,28 +119,9 @@ export function CompactProductCard({
   let subInfo = '';
 
   if (product.category === 'smartphones') {
-    const rawScreen = specs.screen?.size || specs.screenSize || '';
-    const screen = rawScreen
-      ? (String(rawScreen).includes('"') || String(rawScreen).toLowerCase().includes('inç') || String(rawScreen).toLowerCase().includes('inch')
-          ? String(rawScreen)
-          : `${rawScreen}"`)
-      : '';
-    const chipRaw =
-      typeof specs.processor?.chip === 'string'
-        ? specs.processor.chip
-        : typeof specs.processor === 'string'
-        ? specs.processor
-        : '';
-    const chip = chipRaw ? chipRaw.split(' ')[0] + (chipRaw.split(' ')[1] ? ' ' + chipRaw.split(' ')[1] : '') : '';
-    const camRaw =
-      typeof specs.camera?.mainMp === 'string'
-        ? specs.camera.mainMp
-        : typeof specs.camera === 'string'
-        ? specs.camera
-        : '';
-    const cam = camRaw ? `${camRaw.split(' ')[0]} MP` : '';
-    const storage = specs.memory?.storageGb ? `${specs.memory.storageGb} GB` : (specs.storage ? `${specs.storage} GB` : '');
-    subInfo = [screen, chip, cam, storage].filter(Boolean).slice(0, 3).join(' • ') || (product.highlights?.[0] || '');
+    subInfo = ['screen.size','processor.chip','memory.storageGb','camera.mainMp']
+      .map(path => phoneSpecText(specs,path)).filter(value => value !== 'Bilinmiyor')
+      .slice(0,3).join(' • ');
   } else if (product.category === 'headphones') {
     const formFactor = specs.formFactor || '';
     const anc = specs.anc && specs.anc !== 'Yok' ? 'Gürültü Engelleme' : '';
@@ -175,13 +153,10 @@ export function CompactProductCard({
     const gpu = specs.gpu && !specs.gpu.toLowerCase().includes('intel') && !specs.gpu.toLowerCase().includes('iris') ? specs.gpu.split(' ')[0] + ' ' + (specs.gpu.split(' ')[1] || '') : '';
     subInfo = [inch, cpu, gpu || ram, storage].filter(Boolean).slice(0, 3).join(' • ') || (product.highlights?.[0] || '');
   } else if (product.category === 'consoles') {
-    const storage = specs.storage || specs.capacity || (product.name.includes('2TB') ? '2 TB SSD' : product.name.includes('1TB') ? '1 TB SSD' : product.name.includes('825GB') ? '825 GB SSD' : '');
-    const res = specs.resolution || specs.outputResolution || (product.name.includes('Pro') ? '4K 120 FPS' : '4K HDR');
-    const type = specs.deviceType || (product.name.toLowerCase().includes('el konsolu') ? 'Taşınabilir El Konsolu' : 'Sabit Ev Konsolu');
-    subInfo = [storage, res, type].filter(Boolean).slice(0, 3).join(' • ') || (product.highlights?.[0] || '');
+    subInfo = getConsoleSpecSummary(product);
   } else {
     // Appliances and generic
-    const suction = specs.suctionPowerPa ? `${Number(specs.suctionPowerPa).toLocaleString()} Pa Emiş` : '';
+    const suction = specs.suctionPowerPa ? `${Number(specs.suctionPowerPa).toLocaleString('tr-TR')} Pa Emiş` : '';
     const power = specs.powerWatts ? `${specs.powerWatts}W` : '';
     const cap = specs.capacity || (specs.capacityLiters ? `${specs.capacityLiters} L` : '');
     const subLabel = specs.subCategoryLabel || '';
@@ -197,14 +172,14 @@ export function CompactProductCard({
             -%{discountPercent}
           </span>
         )}
-        {timingSignal.status === 'buy_now' && timingSignal.timingScore >= 80 ? (
+        {evaluatedPrice.isFresh && timingSignal.status === 'buy_now' && timingSignal.timingScore >= 80 ? (
           <span className="absolute top-1 right-1 z-10 bg-emerald-600/95 text-white font-black text-[8.5px] sm:text-[9.5px] px-1.5 py-0.5 rounded-lg shadow-xs flex items-center gap-1 border border-emerald-400/30">
             <span className="w-1.5 h-1.5 rounded-full bg-emerald-200 animate-pulse" />
             Fırsat {timingSignal.timingScore}
           </span>
         ) : isLowest30d ? (
           <span className="absolute top-1 right-1 z-10 bg-emerald-600/90 text-white font-bold text-[9px] sm:text-[10px] px-1.5 py-0.5 rounded-lg shadow-sm flex items-center gap-0.5">
-            🔥 En Düşük
+            Gözlenen En Düşük
           </span>
         ) : null}
         <ProductImage
@@ -236,6 +211,9 @@ export function CompactProductCard({
           <p className="text-[10px] sm:text-xs text-slate-500 font-medium line-clamp-1 pt-0.5">
             {subInfo}
           </p>
+        )}
+        {getSpecVerificationNotice(product) && (
+          <p className="text-[10px] text-amber-800" title={getSpecVerificationNotice(product)!}>Özellikler kaynak doğrulaması bekliyor</p>
         )}
 
         {/* Interactive Color Swatches */}
@@ -277,34 +255,62 @@ export function CompactProductCard({
       <div className="mt-2.5 sm:mt-3 pt-2 sm:pt-2.5 border-t border-slate-100/90 space-y-1.5 sm:space-y-2">
         <div>
           <div className="text-[9px] sm:text-[10px] font-bold text-slate-400 uppercase tracking-wider flex items-center justify-between">
-            <span>{t.bestPriceLabel}</span>
+            <span>{getPriceHeading(evaluatedPrice)}</span>
             <span className="text-emerald-700 font-bold flex items-center gap-0.5 sm:gap-1 text-[10px] sm:text-[11px]">
               <Store className="w-2.5 h-2.5 sm:w-3 sm:h-3" />
-              {offerCount === 1 ? `${ACTIVE_RETAILERS[0]?.name || 'Hepsiburada'} Fiyatı` : `${offerCount} Mağaza Fiyatı`}
+              {offerCount > 0 ? `${offerCount} Mağaza Fiyatı` : ''}
             </span>
           </div>
           <div className="flex items-baseline justify-between pt-0.5">
-            <div className="flex items-baseline gap-1.5">
-              <span className="text-sm sm:text-lg font-black text-slate-900 tracking-tight tabular-nums">
-                ₺{minPrice.toLocaleString()}
-              </span>
-              {discountPercent >= 5 && maxHistory > minPrice && (
-                <span className="text-[10px] sm:text-xs text-slate-400 line-through tabular-nums">
-                  ₺{maxHistory.toLocaleString()}
-                </span>
+            <div className="flex items-baseline gap-1.5 flex-wrap">
+              {evaluatedPrice.currentPrice !== null ? (
+                <>
+                  <span className="text-sm sm:text-lg font-black text-slate-900 tracking-tight tabular-nums">
+                    ₺{evaluatedPrice.currentPrice.toLocaleString('tr-TR')}
+                  </span>
+                  {discountPercent >= 5 && maxHistory > evaluatedPrice.currentPrice && (
+                    <span className="text-[10px] sm:text-xs text-slate-400 line-through tabular-nums">
+                      ₺{maxHistory.toLocaleString('tr-TR')}
+                    </span>
+                  )}
+                </>
+              ) : evaluatedPrice.lastSeenPrice !== null ? (
+                <div className="flex flex-col">
+                  <span className="text-sm sm:text-lg font-black text-amber-700 tracking-tight tabular-nums">
+                    ₺{evaluatedPrice.lastSeenPrice.toLocaleString('tr-TR')}
+                  </span>
+                  <span className="text-[9.5px] font-bold text-amber-800">
+                    {evaluatedPrice.statusLabel}
+                  </span>
+                </div>
+              ) : (
+                <div className="flex flex-col">
+                  {evaluatedPrice.displayPrice !== null ? (
+                    <span className="text-sm sm:text-lg font-black text-slate-700 tracking-tight tabular-nums">
+                      ₺{evaluatedPrice.displayPrice.toLocaleString('tr-TR')}
+                    </span>
+                  ) : null}
+                  <span className="text-[9.5px] font-bold text-slate-500">
+                    {evaluatedPrice.displayPrice === null ? 'Fiyat bilgisi yok' : ''}
+                  </span>
+                </div>
               )}
             </div>
             {isLowest30d ? (
               <span className="text-[9px] font-black text-emerald-700 bg-emerald-50 px-1.5 py-0.5 rounded border border-emerald-200">
-                ⚡ En İyi Fiyat
+                Gözlenen En Düşük
               </span>
-            ) : isRealDeal ? (
+            ) : evaluatedPrice.priceStatus === 'fresh' ? (
               <span className="text-[9px] font-black text-emerald-700 bg-emerald-50 px-1.5 py-0.5 rounded border border-emerald-200">
-                ⚡ Fırsat
+                Güncel Fiyat
+              </span>
+            ) : evaluatedPrice.priceStatus === 'stale' ? (
+              <span className="text-[9px] font-black text-amber-800 bg-amber-50 px-1.5 py-0.5 rounded border border-amber-200">
+                Son Görülen
               </span>
             ) : (
               <span className="text-[9px] font-semibold text-slate-500 bg-slate-100 px-1.5 py-0.5 rounded">
-                {ACTIVE_STORE_COUNT === 1 ? (ACTIVE_RETAILERS[0]?.name || 'Hepsiburada') : `${offerCount} Mağaza`}
+                {evaluatedPrice.statusLabel}
               </span>
             )}
           </div>
@@ -319,23 +325,23 @@ export function CompactProductCard({
                 className="text-[9px] sm:text-[10px] font-semibold bg-slate-100/80 text-slate-700 px-1.5 sm:px-2 py-0.5 rounded-md flex items-center gap-0.5 sm:gap-1 truncate max-w-full"
               >
                 <span className="w-1 h-1 sm:w-1.5 sm:h-1.5 rounded-full bg-emerald-500 shrink-0" />
-                <span className="font-bold truncate">{offer.storeName.replace('.com.tr', '')}</span>: ₺{offer.price.toLocaleString()}
+                <span className="font-bold truncate">{offer.storeName.replace('.com.tr', '')}</span>: ₺{offer.price.toLocaleString('tr-TR')}
               </span>
             ))}
           </div>
         ) : (
           <div className="flex items-center gap-1 text-[10px] sm:text-[11px] text-slate-500 font-medium pt-0.5">
-            <span className="w-1 h-1 sm:w-1.5 sm:h-1.5 rounded-full bg-emerald-500" />
-            <span>{ACTIVE_STORE_COUNT === 1 ? `${ACTIVE_RETAILERS[0]?.name || 'Hepsiburada'} Yetkili Fiyatı` : t.officialSeller}</span>
+            <span className="w-1 h-1 sm:w-1.5 sm:h-1.5 rounded-full bg-slate-400" />
+            <span>Güncel mağaza teklifi doğrulanmadı</span>
           </div>
         )}
 
         {/* Compare Prices Link */}
         <Link
           href={targetHref}
-          className="w-full bg-slate-900 hover:bg-emerald-600 text-white text-[10px] sm:text-[11px] font-bold py-1.5 sm:py-2 px-2.5 sm:px-3 rounded-xl flex items-center justify-center gap-1 sm:gap-1.5 transition-all mt-1 cursor-pointer"
+          className="w-full min-h-11 bg-slate-900 hover:bg-emerald-600 text-white text-[10px] sm:text-[11px] font-bold py-1.5 sm:py-2 px-2.5 sm:px-3 rounded-xl flex items-center justify-center gap-1 sm:gap-1.5 transition-all mt-1 cursor-pointer"
         >
-          <span>{offerCount === 1 ? `${ACTIVE_RETAILERS[0]?.name || 'Hepsiburada'} Fiyatını İncele` : `${t.compareNavBtn} (${offerCount} Mağaza)`}</span>
+          <span>{offerCount > 0 ? `Fiyatları İncele (${offerCount} Mağaza)` : 'Ürünü İncele'}</span>
           <ArrowRight className="w-2.5 h-2.5 sm:w-3 sm:h-3" />
         </Link>
       </div>

@@ -25,7 +25,7 @@ export function Footer() {
               </span>
             </Link>
             <p className="text-xs leading-relaxed text-slate-400">
-              Türkiye&apos;nin %100 bağımsız ve algoritmik akıllı telefon, bilgisayar ve teknoloji karşılaştırma kılavuzu. Piyasadaki tüm fırsatları şeffaf bir şekilde analiz eder.
+              Telefon, bilgisayar ve teknoloji ürünlerinin özelliklerini karşılaştırın. Güncel teklifler, son görülen fiyatlar ve katalog referansları ayrı etiketlerle gösterilir.
             </p>
           </div>
 
@@ -71,19 +71,19 @@ export function Footer() {
             <ul className="space-y-2 text-xs">
               <li className="flex items-center gap-1.5 text-slate-300">
                 <CheckCircle2 className="w-3.5 h-3.5 text-emerald-500 shrink-0" />
-                <span>%100 Algoritmik & Objektif Puanlama</span>
+                <span>Ürün Özelliklerini Yan Yana Karşılaştırma</span>
               </li>
               <li className="flex items-center gap-1.5 text-slate-300">
                 <CheckCircle2 className="w-3.5 h-3.5 text-emerald-500 shrink-0" />
-                <span>Sponsor Yönlendirmesiz Katalog</span>
+                <span>Katalog ve Mağaza Tekliflerinin Ayrımı</span>
               </li>
               <li className="flex items-center gap-1.5 text-slate-300">
                 <CheckCircle2 className="w-3.5 h-3.5 text-emerald-500 shrink-0" />
-                <span>Canlı Çoklu Mağaza Fiyat Kıyaslaması</span>
+                <span>Fiyat Güncelliği Etiketleri</span>
               </li>
               <li className="flex items-center gap-1.5 text-slate-300">
                 <CheckCircle2 className="w-3.5 h-3.5 text-emerald-500 shrink-0" />
-                <span>Fiyat Değişim & Grafik Analizi</span>
+                <span>Kayıtlı Fiyat Gözlemleri</span>
               </li>
             </ul>
           </div>
@@ -130,7 +130,7 @@ export function Footer() {
             <span>Yasal Bilgilendirme ve Sorumluluk Reddi Beyanı:</span>
           </p>
           <p className="text-emerald-400/90 font-semibold">
-            &ldquo;aceleEtme, anlık fiyat değişikliklerini 3üncü parti kaynaklardan toplar. Satın alma aşamasında fiyatı satıcının sitesinden teyit ediniz.&rdquo;
+            &ldquo;Fiyatın güncellik etiketini ve varsa gözlem tarihini kontrol ediniz. Satın alma aşamasında fiyatı satıcının sitesinden teyit ediniz.&rdquo;
           </p>
           <p className="text-slate-400 text-justify sm:text-left">
             aceleEtme, internet üzerindeki çeşitli e-ticaret mağazalarına ait fiyat, stok ve ürün özelliklerini derleyerek kullanıcıya sunan bağımsız bir fiyat karşılaştırma ve yönlendirme platformudur. aceleEtme, doğrudan ürün satışı gerçekleştiren bir mağaza veya e-ticaret sitesi değildir; kullanıcıları ilgili üçüncü taraf satıcılara yönlendirir. Sitede listelenen fiyat, stok ve kampanya bilgileri anlık olarak değişiklik gösterebileceğinden, nihai ve geçerli bilgiler ilgili mağazanın kendi web sitesindedir. Mağazalardan gerçekleştirilecek alışveriş süreçlerinde, kargo teslimatlarında veya fiyat uyumsuzluklarında doğabilecek her türlü sorumluluk ilgili satıcıya ait olup, aceleEtme bu süreçlerin tarafı veya sorumlusu değildir.
@@ -139,7 +139,7 @@ export function Footer() {
 
         {/* Bottom Bar */}
         <div className="pt-6 mt-4 border-t border-slate-800 text-center text-xs text-slate-500 flex flex-col sm:flex-row items-center justify-between gap-4">
-          <p>© 2026 aceleEtme (Kuruluş: 01.09.2026). Tüm hakları saklıdır. Tarafsız Ürün Karşılaştırma & Canlı Piyasa Analizi.</p>
+          <p>© 2026 aceleEtme (Kuruluş: 01.09.2026). Tüm hakları saklıdır. Ürün Karşılaştırma ve Fiyat Takibi.</p>
           <div className="flex flex-wrap items-center justify-center gap-4 text-[11px] font-medium text-slate-400">
             <Link href="/gizlilik-politikasi" className="hover:text-emerald-400 transition-colors">
               Gizlilik Politikası

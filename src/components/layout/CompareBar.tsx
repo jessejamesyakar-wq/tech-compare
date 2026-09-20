@@ -1,24 +1,32 @@
 'use client';
 
-import React from 'react';
+import React, {useEffect,useRef} from 'react';
 import Link from 'next/link';
 import { ProductImage } from '@/components/ui/ProductImage';
 import { useCompare } from '@/context/CompareContext';
 import { useI18n } from '@/lib/i18n/context';
 import { Scale, X, ArrowRight, Trash2 } from 'lucide-react';
+import { comparisonPath } from '@/lib/comparisonSelection';
 
 export function CompareBar() {
   const { compareList, removeFromCompare, clearCompare } = useCompare();
   const { t } = useI18n();
+  const barRef=useRef<HTMLDivElement>(null);
+  useEffect(()=>{
+    const bar=barRef.current;if(!bar)return;
+    const update=()=>document.documentElement.style.setProperty('--compare-bar-height',`${bar.getBoundingClientRect().height}px`);
+    update();const observer=new ResizeObserver(update);observer.observe(bar);
+    return()=>{observer.disconnect();document.documentElement.style.removeProperty('--compare-bar-height');};
+  },[compareList.length]);
 
   if (compareList.length === 0) return null;
 
   return (
-    <div className="fixed bottom-4 left-1/2 -translate-x-1/2 z-40 w-11/12 max-w-4xl glass-panel bg-white/95 border border-emerald-500/40 rounded-2xl p-3 shadow-xl accent-glow animate-in slide-in-from-bottom-6 duration-300">
-      <div className="flex items-center justify-between gap-4">
+    <div ref={barRef} aria-label="Seçili karşılaştırma ürünleri" className="fixed bottom-4 left-1/2 -translate-x-1/2 z-40 w-11/12 max-w-4xl glass-panel bg-white/95 border border-emerald-500/40 rounded-2xl p-3 shadow-xl accent-glow animate-in slide-in-from-bottom-6 duration-300">
+      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 sm:gap-4">
         
         {/* Thumbnails preview list */}
-        <div className="flex items-center gap-3 overflow-x-auto py-1">
+        <div className="min-w-0 max-w-full flex items-center gap-3 overflow-x-auto py-1">
           {compareList.map((phone) => (
             <div
               key={phone.id}
@@ -32,7 +40,8 @@ export function CompareBar() {
               </span>
               <button
                 onClick={() => removeFromCompare(phone.id)}
-                className="text-slate-400 hover:text-red-500 transition-colors p-0.5"
+                className="min-w-11 min-h-11 flex items-center justify-center text-slate-500 hover:text-red-500 transition-colors"
+                aria-label={`${phone.name} karşılaştırmadan çıkar`}
                 title={t.remove}
               >
                 <X className="w-3.5 h-3.5" />
@@ -41,7 +50,7 @@ export function CompareBar() {
           ))}
 
           {/* Empty slots indicator */}
-          {Array.from({ length: 4 - compareList.length }).map((_, idx) => (
+          {Array.from({ length: Math.max(0,4 - compareList.length) }).map((_, idx) => (
             <div
               key={idx}
               className="hidden sm:flex items-center justify-center w-24 h-10 rounded-xl border border-dashed border-slate-300 text-[10px] text-slate-400 font-medium shrink-0"
@@ -52,10 +61,11 @@ export function CompareBar() {
         </div>
 
         {/* Actions */}
-        <div className="flex items-center gap-2 shrink-0">
+        <div className="flex items-center justify-end gap-2 shrink-0">
           <button
             onClick={clearCompare}
-            className="p-2 text-slate-500 hover:text-slate-900 transition-colors cursor-pointer text-xs flex items-center gap-1"
+            className="min-w-11 min-h-11 justify-center p-2 text-slate-500 hover:text-slate-900 transition-colors cursor-pointer text-xs flex items-center gap-1"
+            aria-label="Karşılaştırma listesini temizle"
             title={t.clearFilters}
           >
             <Trash2 className="w-4 h-4" />
@@ -63,8 +73,8 @@ export function CompareBar() {
           </button>
 
           <Link
-            href="/compare"
-            className="flex items-center gap-2 bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-xs px-4 py-2.5 rounded-xl shadow-md transition-all accent-glow-sm"
+            href={comparisonPath(compareList)}
+            className="min-h-11 flex items-center gap-2 bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-xs px-4 py-2.5 rounded-xl shadow-md transition-all accent-glow-sm"
           >
             <Scale className="w-4 h-4" />
             <span>

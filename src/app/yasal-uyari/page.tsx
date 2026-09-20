@@ -5,6 +5,7 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Yasal Uyarı & Sorumluluk Reddi | aceleEtme',
+  alternates: { canonical: 'https://www.aceleetme.tech/yasal-uyari' },
   description: 'aceleEtme platformu yasal bilgilendirme, tarafsızlık ilkeleri ve üçüncü taraf satıcı sorumluluk reddi beyanı.',
 };
 

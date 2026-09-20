@@ -50,7 +50,7 @@ export function getProductColorList(product: BaseProduct | Product): ResolvedCol
         image: co.image || matchingVariant?.image || product.image,
         images: co.images || matchingVariant?.images || (co.image ? [co.image] : undefined),
         variantId: matchingVariant?.id,
-        price: matchingVariant?.price || (matchingVariant?.priceOffset ? product.basePrice + matchingVariant.priceOffset : product.basePrice),
+        price: matchingVariant?.price || (matchingVariant?.priceOffset && product.basePrice !== undefined ? product.basePrice + matchingVariant.priceOffset : product.basePrice),
       };
     });
   }
@@ -63,7 +63,7 @@ export function getProductColorList(product: BaseProduct | Product): ResolvedCol
       image: v.image || product.image,
       images: v.images || (v.image ? [v.image] : undefined),
       variantId: v.id,
-      price: v.price || (v.priceOffset ? product.basePrice + v.priceOffset : product.basePrice),
+      price: v.price || (v.priceOffset && product.basePrice !== undefined ? product.basePrice + v.priceOffset : product.basePrice),
     }));
   }
 

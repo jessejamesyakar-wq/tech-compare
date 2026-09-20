@@ -9,6 +9,8 @@ import { mockMonitors as monitorProducts } from './mockMonitors';
 import { mockConsoles as consoleProducts } from './mockConsoles';
 import type { Product, Smartphone, TVProduct, LaptopProduct, ApplianceProduct, FilterOptions } from './types';
 import { getStoredProducts } from './adminData';
+import { compareListingProducts, getCatalogDisplayPrices } from './catalogListing';
+import { projectPhoneSpecs } from './smartphoneSpecFields';
 import { isEligibleForLivePriceComparison, isHistoricalRetroModel, getProductReleaseYear } from './releaseYearFilter';
 
 export { isEligibleForLivePriceComparison, isHistoricalRetroModel, getProductReleaseYear };
@@ -35,7 +37,61 @@ function normalizeId(id: string): string {
   return id.trim().toLowerCase();
 }
 
+function decodeProductId(id: string): string {
+  try { return decodeURIComponent(id).toLowerCase().trim(); }
+  catch { return ''; }
+}
+
 const EXACT_PRODUCT_ALIASES: Record<string, string> = {
+  'lg-lg-ultragear-25g550b-b': 'lg-ultragear-25g550b-b',
+  'lg-lg-ultragear-27g440a-b': 'lg-ultragear-27g440a-b',
+  'lg-lg-ultrawide-29u531a-w': 'lg-ultrawide-29u531a-w',
+  'lg-lg-ultragear-27gr95qe-b': 'lg-ultragear-27gr95qe-b',
+  'lg-lg-ultragear-27g411a-b': 'lg-ultragear-27g411a-b',
+  'lg-lg-ultragear-25g523b-b': 'lg-ultragear-25g523b-b',
+  'lg-lg-ultragear-27gs50f-b': 'lg-ultragear-27gs50f-b',
+  'lg-lg-ultragear-24gl600f-b': 'lg-ultragear-24gl600f-b',
+  'lg-lg-ultragear-24gn65r-b': 'lg-ultragear-24gn65r-b',
+  'lg-lg-ultragear-27gs75q-b': 'lg-ultragear-27gs75q-b',
+  'lg-lg-ultragear-27g550b-b': 'lg-ultragear-27g550b-b',
+  'lg-lg-myview-27sr50f-w': 'lg-myview-27sr50f-w',
+  'lg-lg-ultragear-27gl83ap-b': 'lg-ultragear-27gl83ap-b',
+  'lg-lg-myview-32sr85u-w': 'lg-myview-32sr85u-w',
+  'lg-lg-ultragear-24gs65f-b': 'lg-ultragear-24gs65f-b',
+  'lg-lg-ultragear-27g523b-b': 'lg-ultragear-27g523b-b',
+  'lg-lg-ultrawide-29wq500-b': 'lg-ultrawide-29wq500-b',
+  'lg-lg-ultragear-24gn60r-b': 'lg-ultragear-24gn60r-b',
+  'lg-lg-ultragear-24gq50f-b': 'lg-ultragear-24gq50f-b',
+  'lg-lg-ultrawide-34wr55qc-b': 'lg-ultrawide-34wr55qc-b',
+  'lg-lg-ultragear-27gs60f-b': 'lg-ultragear-27gs60f-b',
+  'lg-lg-ultragear-32gn500-b': 'lg-ultragear-32gn500-b',
+  'lg-lg-ultragear-24gs50f-b': 'lg-ultragear-24gs50f-b',
+  'lg-lg-myview-32sr50f-w': 'lg-myview-32sr50f-w',
+  'lg-lg-ultragear-27g640a-b': 'lg-ultragear-27g640a-b',
+  'lg-lg-ultragear-27gx790b-b': 'lg-ultragear-27gx790b-b',
+  'lg-lg-ultragear-27gx704a-b': 'lg-ultragear-27gx704a-b',
+  'lg-lg-ultragear-27g610a-b': 'lg-ultragear-27g610a-b',
+  'lg-lg-ultragear-27gx700a-b': 'lg-ultragear-27gx700a-b',
+  'lg-lg-ultragear-32gx850a-b': 'lg-ultragear-32gx850a-b',
+  'lg-lg-ultragear-32g810sa-w': 'lg-ultragear-32g810sa-w',
+  'lg-lg-ultragear-45gx950a-b': 'lg-ultragear-45gx950a-b',
+  'lg-lg-ultragear-27g850a-b': 'lg-ultragear-27g850a-b',
+  'lg-lg-ultrafine-32un880k-b': 'lg-ultrafine-32un880k-b',
+  'lg-lg-ultragear-27g810a-b': 'lg-ultragear-27g810a-b',
+  'lg-lg-ultragear-27gs95qe-b': 'lg-ultragear-27gs95qe-b',
+  'lg-lg-ultragear-34g630a-b': 'lg-ultragear-34g630a-b',
+  'lg-lg-ultrafine-27up850k-w': 'lg-ultrafine-27up850k-w',
+  'lg-lg-ultragear-27gr93u-b': 'lg-ultragear-27gr93u-b',
+  'lg-lg-ultragear-27gn65r-b': 'lg-ultragear-27gn65r-b',
+  'lg-lg-ultragear-45gx90sa-b': 'lg-ultragear-45gx90sa-b',
+  'lg-lg-ultragear-34gx90sa-w': 'lg-ultragear-34gx90sa-w',
+  'lg-lg-ultrafine-40u990a-w': 'lg-ultrafine-40u990a-w',
+  'lg-lg-ultragear-32gs75q-b': 'lg-ultragear-32gs75q-b',
+  'lg-lg-ultragear-27gs65f-b': 'lg-ultragear-27gs65f-b',
+  'lg-lg-ultragear-34gx900a-b': 'lg-ultragear-34gx900a-b',
+  'lg-lg-ultrawide-34wq650-w': 'lg-ultrawide-34wq650-w',
+  'lg-lg-ultrawide-29wq600-w': 'lg-ultrawide-29wq600-w',
+  'lg-lg-ultragear-34gs95qe-b': 'lg-ultragear-34gs95qe-b',
   'iphone-16-pro': 'apple-iphone-16-pro-128-gb',
   'iphone-16-pro-max': 'apple-iphone-16-pro-max-256-gb',
   'iphone-16': 'apple-iphone-16-128-gb',
@@ -47,13 +103,22 @@ const EXACT_PRODUCT_ALIASES: Record<string, string> = {
   'samsung-galaxy-s24-ultra': 'samsung-samsung-galaxy-s24-ultra-95',
   'samsung-galaxy-s24-plus': 'samsung-samsung-galaxy-s24-94',
   'samsung-galaxy-s25-ultra': 'samsung-samsung-galaxy-s25-ultra-109',
-  'samsung-galaxy-s26-ultra': 'samsung-samsung-galaxy-s26-ultra-120'
+  'samsung-galaxy-s26-ultra': 'samsung-samsung-galaxy-s26-ultra-120',
+  'lg-lg-ultragear-27gx790a-b': 'lg-ultragear-27gx790a-b',
+  'lg-lg-ultragear-32gs95uv-b': 'lg-ultragear-32gs95uv-b',
+  'lg-lg-ultrafine-32u990a-s': 'lg-ultrafine-32u990a-s',
+  'lg-lg-ultrafine-32un88ap-w': 'lg-ultrafine-32un88ap-w',
+  'lg-lg-ultrawide-34wr55qk-b': 'lg-ultrawide-34wr55qk-b',
+  'lg-lg-ultragear-32g600a-b': 'lg-ultragear-32g600a-b',
+  'lg-lg-ultragear-24g411a-b': 'lg-ultragear-24g411a-b',
+  'msi-claw-a1m-088tr': 'msi-msi-claw-a1m-intel-core-ultra-7-155h-512-gb-a1m-088tr-936357',
+  'msi-claw-a1m-089tr': 'msi-msi-claw-a1m-intel-core-ultra-7-155h-1-tb-a1m-089tr-918423'
 };
 
 export function getProductById(id: string): Product | null {
   if (!id) return null;
 
-  const decoded = decodeURIComponent(id).toLowerCase().trim();
+  const decoded = decodeProductId(id);
   const all = getStoredProducts();
 
   // Pass 1: Exact ID or Slug match
@@ -141,18 +206,15 @@ function deduplicateProducts<T extends Product>(list: T[]): T[] {
 
 // Helper to slim down products for high-speed catalog listing and edge caching
 export function toCatalogProduct<T extends Product>(p: T): T {
-  const historyPrices = (p.priceHistory || []).map((h) => h.price).filter(Boolean);
-  const maxHistory = historyPrices.length > 0 ? Math.max(...historyPrices) : p.basePrice;
-  const minHistory = historyPrices.length > 0 ? Math.min(...historyPrices) : p.basePrice;
-
   const base: any = {
     id: p.id,
     slug: p.slug || p.id,
     name: p.name,
     brand: p.brand,
     category: p.category,
+    sourceType: (p as any).sourceType,
     image: p.image,
-    rating: p.rating || 4.5,
+    rating: p.rating,
     aceleEtmeScore: p.aceleEtmeScore || p.epeyScore,
     epeyScore: p.aceleEtmeScore || p.epeyScore,
     reviewCount: p.reviewCount || 0,
@@ -163,35 +225,23 @@ export function toCatalogProduct<T extends Product>(p: T): T {
     isFeatured: p.isFeatured,
     highlights: (p.highlights || []).slice(0, 2),
     colorOptions: (p.colorOptions || []).slice(0, 8),
-    storeOffers: (p.storeOffers || []).slice(0, 4).map((o) => ({
+    storeOffers: (p.storeOffers || []).map((o) => ({
       storeName: o.storeName,
       price: o.price,
       url: o.url,
-      inStock: o.inStock !== false
+      inStock: o.inStock,
+      isSearchLink: o.isSearchLink,
+      lastCheckedAt: o.lastCheckedAt || (o as any).verifiedAt
     })),
-    priceHistory: [
-      { date: '2025-01-01', price: maxHistory },
-      { date: '2025-03-01', price: minHistory }
-    ]
+    // Preserve observed dates and missing values. A list projection cannot create evidence.
+    fieldSources: p.fieldSources?.map((source) => ({ ...source, fields: [...source.fields] })),
+    specVerification: p.specVerification ? { ...p.specVerification, unresolvedFields: [...p.specVerification.unresolvedFields] } : undefined,
+    priceHistory: (p.priceHistory || []).map((point) => ({ ...point }))
   };
 
   if (p.category === 'smartphones') {
     const sp = p as unknown as Smartphone;
-    base.specs = {
-      screen: {
-        size: sp.specs?.screen?.size,
-        refreshRate: sp.specs?.screen?.refreshRate
-      },
-      processor: {
-        chip: sp.specs?.processor?.chip
-      },
-      camera: {
-        mainMp: sp.specs?.camera?.mainMp
-      },
-      memory: {
-        storageGb: sp.specs?.memory?.storageGb
-      }
-    };
+    base.specs = projectPhoneSpecs(sp.specs);
   } else if (p.category === 'tvs') {
     const tv = p as unknown as TVProduct;
     base.specs = {
@@ -215,6 +265,7 @@ export function toCatalogProduct<T extends Product>(p: T): T {
       suctionPowerPa: ap.specs?.suctionPowerPa,
       powerWatts: ap.specs?.powerWatts,
       capacity: ap.specs?.capacity,
+      subCategory: ap.specs?.subCategory,
       subCategoryLabel: ap.specs?.subCategoryLabel
     };
   } else {
@@ -275,7 +326,7 @@ export async function findProductByIdSafe(id: string | number): Promise<Product 
 }
 
 export async function getSmartphoneById(id: string): Promise<Smartphone | undefined> {
-  const decoded = decodeURIComponent(id).toLowerCase().trim();
+  const decoded = decodeProductId(id);
   const all = getStoredProducts();
   const alphaKey = (s: string) => String(s || '').toLowerCase().replace(/[^a-z0-9]/g, '');
   const searchAlpha = alphaKey(decoded);
@@ -295,7 +346,7 @@ export async function getSmartphoneById(id: string): Promise<Smartphone | undefi
 }
 
 export async function getTabletById(id: string): Promise<Product | undefined> {
-  const decoded = decodeURIComponent(id).toLowerCase().trim();
+  const decoded = decodeProductId(id);
   const all = getStoredProducts();
   const alphaKey = (s: string) => String(s || '').toLowerCase().replace(/[^a-z0-9]/g, '');
   const searchAlpha = alphaKey(decoded);
@@ -315,7 +366,7 @@ export async function getTabletById(id: string): Promise<Product | undefined> {
 }
 
 export async function getSmartwatchById(id: string): Promise<Product | undefined> {
-  const decoded = decodeURIComponent(id).toLowerCase().trim();
+  const decoded = decodeProductId(id);
   const all = getStoredProducts();
   const alphaKey = (s: string) => String(s || '').toLowerCase().replace(/[^a-z0-9]/g, '');
   const searchAlpha = alphaKey(decoded);
@@ -335,7 +386,7 @@ export async function getSmartwatchById(id: string): Promise<Product | undefined
 }
 
 export async function getHeadphoneById(id: string): Promise<Product | undefined> {
-  const decoded = decodeURIComponent(id).toLowerCase().trim();
+  const decoded = decodeProductId(id);
   const all = getStoredProducts();
   const alphaKey = (s: string) => String(s || '').toLowerCase().replace(/[^a-z0-9]/g, '');
   const searchAlpha = alphaKey(decoded);
@@ -355,7 +406,7 @@ export async function getHeadphoneById(id: string): Promise<Product | undefined>
 }
 
 export async function getConsoleById(id: string): Promise<Product | undefined> {
-  const decoded = decodeURIComponent(id).toLowerCase().trim();
+  const decoded = decodeProductId(id);
   const all = getStoredProducts();
   const alphaKey = (s: string) => String(s || '').toLowerCase().replace(/[^a-z0-9]/g, '');
   const searchAlpha = alphaKey(decoded);
@@ -375,7 +426,7 @@ export async function getConsoleById(id: string): Promise<Product | undefined> {
 }
 
 export async function getMonitorById(id: string): Promise<Product | undefined> {
-  const decoded = decodeURIComponent(id).toLowerCase().trim();
+  const decoded = decodeProductId(id);
   const all = getStoredProducts();
   const alphaKey = (s: string) => String(s || '').toLowerCase().replace(/[^a-z0-9]/g, '');
   const searchAlpha = alphaKey(decoded);
@@ -395,37 +446,12 @@ export async function getMonitorById(id: string): Promise<Product | undefined> {
 }
 
 export async function getTVById(id: string): Promise<TVProduct | undefined> {
-  const decoded = decodeURIComponent(id).toLowerCase().trim();
-  const all = getStoredProducts().filter((p) => p.category === 'tvs') as TVProduct[];
-  const alphaKey = (s: string) => String(s || '').toLowerCase().replace(/[^a-z0-9]/g, '');
-  const searchAlpha = alphaKey(decoded);
-
-  // 1. Exact match by id, slug, or name
-  const exact = all.find(
-    (p) =>
-      p.id.toLowerCase() === decoded ||
-      p.slug.toLowerCase() === decoded ||
-      p.slug.toLowerCase().replace(/_/g, '-') === decoded.replace(/_/g, '-') ||
-      p.name.toLowerCase() === decoded ||
-      (searchAlpha && (alphaKey(p.slug) === searchAlpha || alphaKey(p.id) === searchAlpha))
-  );
-  if (exact) return exact;
-
-  // 2. Fallback match for model code like '98p8l', '98c7l', '115x955', 'c8l'
-  const modelMatch = all.find(
-    (p) =>
-      p.slug.toLowerCase().includes(decoded) ||
-      p.id.toLowerCase().includes(decoded) ||
-      p.name.toLowerCase().includes(decoded)
-  );
-  if (modelMatch) return modelMatch;
-
-  const safeProd = await findProductByIdSafe(id);
-  return safeProd?.category === 'tvs' ? (safeProd as TVProduct) : undefined;
+  const product = getProductById(id);
+  return product?.category === 'tvs' ? product as TVProduct : undefined;
 }
 
 export async function getLaptopById(id: string): Promise<LaptopProduct | undefined> {
-  const decoded = decodeURIComponent(id).toLowerCase().trim();
+  const decoded = decodeProductId(id);
   const all = getStoredProducts();
   const alphaKey = (s: string) => String(s || '').toLowerCase().replace(/[^a-z0-9]/g, '');
   const searchAlpha = alphaKey(decoded);
@@ -445,7 +471,7 @@ export async function getLaptopById(id: string): Promise<LaptopProduct | undefin
 }
 
 export async function getApplianceById(id: string): Promise<ApplianceProduct | undefined> {
-  const decoded = decodeURIComponent(id).toLowerCase().trim();
+  const decoded = decodeProductId(id);
   const all = getStoredProducts();
   const alphaKey = (s: string) => String(s || '').toLowerCase().replace(/[^a-z0-9]/g, '');
   const searchAlpha = alphaKey(decoded);
@@ -487,17 +513,18 @@ export async function getAllBrands(): Promise<string[]> {
 
 export async function filterSmartphones(options: FilterOptions): Promise<Smartphone[]> {
   let phones = await getAllSmartphones();
+  const prices = getCatalogDisplayPrices(phones);
 
   if (options.brand && options.brand.length > 0) {
     phones = phones.filter((p) => options.brand?.includes(p.brand));
   }
 
   if (options.minPrice !== undefined) {
-    phones = phones.filter((p) => p.basePrice >= (options.minPrice || 0));
+    phones = phones.filter((p) => prices.get(p.id) != null && prices.get(p.id)! >= options.minPrice!);
   }
 
   if (options.maxPrice !== undefined) {
-    phones = phones.filter((p) => p.basePrice <= (options.maxPrice || Infinity));
+    phones = phones.filter((p) => prices.get(p.id) != null && prices.get(p.id)! <= options.maxPrice!);
   }
 
   if (options.has5GOnly) {
@@ -526,10 +553,10 @@ export async function filterSmartphones(options: FilterOptions): Promise<Smartph
   if (options.sortBy) {
     switch (options.sortBy) {
       case 'priceAsc':
-        phones.sort((a, b) => a.basePrice - b.basePrice);
+        phones.sort((a, b) => compareListingProducts(a, b, 'priceAsc', prices));
         break;
       case 'priceDesc':
-        phones.sort((a, b) => b.basePrice - a.basePrice);
+        phones.sort((a, b) => compareListingProducts(a, b, 'priceDesc', prices));
         break;
       case 'antutu':
         phones.sort((a, b) => (b.specs?.processor?.antutuScore || 0) - (a.specs?.processor?.antutuScore || 0));
@@ -539,7 +566,7 @@ export async function filterSmartphones(options: FilterOptions): Promise<Smartph
       case 'popular':
       default:
         phones.sort((a, b) => {
-          const yearDiff = (b.releaseYear || 2024) - (a.releaseYear || 2024);
+          const yearDiff = (b.releaseYear || 0) - (a.releaseYear || 0);
           if (yearDiff !== 0) return yearDiff;
           return (b.rating || 0) - (a.rating || 0);
         });
@@ -547,7 +574,7 @@ export async function filterSmartphones(options: FilterOptions): Promise<Smartph
     }
   } else {
     phones.sort((a, b) => {
-      const yearDiff = (b.releaseYear || 2024) - (a.releaseYear || 2024);
+      const yearDiff = (b.releaseYear || 0) - (a.releaseYear || 0);
       if (yearDiff !== 0) return yearDiff;
       return (b.rating || 0) - (a.rating || 0);
     });
@@ -562,6 +589,7 @@ export async function getPopularComparisonsData(): Promise<typeof popularCompari
 
 export async function filterProducts(options: FilterOptions): Promise<Product[]> {
   let products = getStoredProducts();
+  const prices = getCatalogDisplayPrices(products);
 
   if (options.category) {
     products = products.filter((p) => p.category === options.category);
@@ -572,11 +600,11 @@ export async function filterProducts(options: FilterOptions): Promise<Product[]>
   }
 
   if (options.minPrice !== undefined) {
-    products = products.filter((p) => p.basePrice >= (options.minPrice || 0));
+    products = products.filter((p) => prices.get(p.id) != null && prices.get(p.id)! >= options.minPrice!);
   }
 
   if (options.maxPrice !== undefined) {
-    products = products.filter((p) => p.basePrice <= (options.maxPrice || Infinity));
+    products = products.filter((p) => prices.get(p.id) != null && prices.get(p.id)! <= options.maxPrice!);
   }
 
   return products;
@@ -738,15 +766,15 @@ export async function getDynamicCategoryDistributionProducts(total: number = 20)
     let score = 0;
     if (p.isPopular) score += 40;
     if (p.isFeatured) score += 30;
-    score += (p.rating || 4.5) * 20;
+    score += (p.rating || 0) * 20;
     // Boost ultra-flagships by name and price tier
     const nameLower = p.name.toLowerCase();
     if (nameLower.includes('pro max') || nameLower.includes('ultra') || nameLower.includes('fold') || nameLower.includes('oled evo') || nameLower.includes('neo qled') || nameLower.includes('ambilight')) {
       score += 50;
     }
-    if (p.basePrice >= 90000) score += 40;
-    else if (p.basePrice >= 50000) score += 25;
-    else if (p.basePrice >= 25000) score += 15;
+    if ((p.basePrice ?? 0) >= 90000) score += 40;
+    else if ((p.basePrice ?? 0) >= 50000) score += 25;
+    else if ((p.basePrice ?? 0) >= 25000) score += 15;
     score += Math.min(20, (p.reviewCount || 0) / 50);
     return score;
   };
@@ -899,4 +927,3 @@ export async function getHistoricalRetroProducts(): Promise<Product[]> {
   const all = await getAllProducts();
   return all.filter(isHistoricalRetroModel);
 }
-

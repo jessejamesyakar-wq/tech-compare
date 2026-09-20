@@ -4,7 +4,7 @@ import { Metadata } from 'next';
 import { buildCategoryMetadata } from '@/lib/seoHelper';
 import PhonesClient from './PhonesClient';
 
-export const revalidate = 3600;
+export const dynamic = 'force-dynamic';
 export const metadata: Metadata = buildCategoryMetadata('phones');
 
 export default async function PhonesPage() {

@@ -5,6 +5,7 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Gizlilik Politikası | aceleEtme',
+  alternates: { canonical: 'https://www.aceleetme.tech/gizlilik-politikasi' },
   description: 'aceleEtme kullanıcı verileri gizlilik politikası, çerezler ve KVKK uyumluluk bildirimi.',
 };
 
@@ -31,7 +32,7 @@ export default function GizlilikPolitikasiPage() {
           Gizlilik Politikası ve Kişisel Verilerin Korunması
         </h1>
 
-        <p className="text-xs text-slate-400">Son Güncelleme: 27 Ağustos 2026</p>
+        <p className="text-xs text-slate-400">Son Güncelleme: 20 Eylül 2026</p>
       </div>
 
       {/* Content */}
@@ -43,7 +44,7 @@ export default function GizlilikPolitikasiPage() {
             <span>1. Veri Güvenliği Taahhüdü</span>
           </h2>
           <p>
-            <strong>aceleEtme</strong> olarak kullanıcılarımızın kişisel gizliliğine ve güvenliğine en üst düzeyde önem veriyoruz. Platformumuz, kullanıcı deneyimini iyileştirmek, fiyat alarmlarını iletmek ve teknik analiz sunmak haricinde hiçbir kişisel veriyi üçüncü taraflarla paylaşmaz veya satmaz.
+            <strong>aceleEtme</strong> olarak kullanıcılarımızın kişisel gizliliğine ve güvenliğine önem veriyoruz. Fiyat hedefi özelliği e-posta adresi toplamaz; hedef fiyat ve ürün kaydı tarayıcınızda saklanır.
           </p>
         </section>
 
@@ -60,10 +61,10 @@ export default function GizlilikPolitikasiPage() {
         <section className="space-y-3">
           <h2 className="text-base font-bold text-slate-900 dark:text-white flex items-center gap-2">
             <Eye className="w-4 h-4 text-emerald-600" />
-            <span>3. Fiyat Alarmı & E-Posta Bildirimleri</span>
+            <span>3. Yerel Fiyat Hedefleri</span>
           </h2>
           <p>
-            Fiyat alarmı kurduğunuzda girdiğiniz e-posta adresi yalnızca hedef fiyat seviyesine ulaşıldığında bilgilendirme yapmak amacıyla kullanılır; spam veya ticari tanıtım bültenlerine dahil edilmez.
+            Fiyat hedefleri yalnız kullandığınız tarayıcının yerel depolamasında saklanır. Bu özellik otomatik fiyat kontrolü veya e-posta bildirimi göndermez ve yeni bir e-posta adresi istemez. Önceki sürümde kaydettiğiniz bir e-posta adresi eski yerel kaydınızda bulunabilir; hedef kaydını Fiyat Hedeflerim sayfasından silebilirsiniz. Tarayıcı verilerini temizlemek yerel hedefleri de siler.
           </p>
         </section>
 

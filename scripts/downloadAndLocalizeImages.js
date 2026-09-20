@@ -1,3 +1,6 @@
+// Retired: failed downloads were replaced by unrelated devices/appliances.
+throw new Error('Bu eski görsel indirme aracı devre dışı: başarısız indirmede başka modelin fotoğrafını atıyor. Tam model kaynak eşleştirmesi gerekir.');
+
 const fs = require('fs');
 const path = require('path');
 const https = require('https');

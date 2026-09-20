@@ -1,67 +1,48 @@
+import { StoreOffer } from '@/lib/types';
+import { evaluateProductPricing } from '@/lib/pricing/unifiedPriceEvaluator';
+import { parseOfferDateToMs } from '@/lib/dateParsing';
+
 export interface VerificationStatus {
   verified: boolean;
-  freshnessSeconds: number;
+  freshnessSeconds: number | null;
   lastCheckedTimeAgo: string;
-  stockStatus: 'IN_STOCK' | 'LIMITED_STOCK' | 'OUT_OF_STOCK';
-  currentPrice: number;
-  formattedPrice: string;
+  stockStatus: 'IN_STOCK' | 'OUT_OF_STOCK' | 'UNKNOWN';
+  currentPrice: number | null;
+  lastSeenPrice: number | null;
+  formattedPrice: string | null;
+  statusLabel: string;
   storeName: string;
-  redirectUrl: string;
+  redirectUrl: string | null;
   isFallback: boolean;
-  verificationToken: string;
 }
 
+/** Evaluates an existing catalogue offer; this is not a live merchant price check. */
 export class PriceVerificationEngine {
-  /**
-   * Fast In-Memory Cache for Verified Outbound Offers (TTL: 15 minutes)
-   */
-  private static cache = new Map<string, { timestamp: number; data: VerificationStatus }>();
-
-  /**
-   * Perform rapid cache and price sanity verification before outbound redirect
-   */
-  public static verifyOffer(params: {
-    productId: string;
-    storeName: string;
-    price: number;
-    targetUrl: string;
-    stockStatus?: 'IN_STOCK' | 'LIMITED_STOCK' | 'OUT_OF_STOCK';
-    checkedAt?: string;
-  }): VerificationStatus {
-    const { productId, storeName, price, targetUrl, stockStatus = 'IN_STOCK', checkedAt } = params;
-    const cacheKey = `${productId}_${storeName}_${price}`;
-
-    const now = Date.now();
-    const cached = this.cache.get(cacheKey);
-
-    if (cached && now - cached.timestamp < 15 * 60 * 1000) {
-      return cached.data;
-    }
-
-    const checkTimestamp = checkedAt ? new Date(checkedAt).getTime() : now;
-    const freshnessSeconds = Math.max(0, Math.floor((now - checkTimestamp) / 1000));
-
-    let timeAgo = 'Az önce';
-    if (freshnessSeconds >= 3600) {
-      timeAgo = `${Math.floor(freshnessSeconds / 3600)} saat önce`;
-    } else if (freshnessSeconds >= 60) {
-      timeAgo = `${Math.floor(freshnessSeconds / 60)} dakika önce`;
-    }
-
-    const verificationResult: VerificationStatus = {
-      verified: price > 0,
+  public static verifyOffer(offer: StoreOffer, nowMs = Date.now()): VerificationStatus {
+    const pricing = evaluateProductPricing({ storeOffers: [offer] }, nowMs);
+    const checked = parseOfferDateToMs(offer.lastCheckedAt || offer.verifiedAt);
+    const freshnessSeconds = checked > 0 && checked <= nowMs ? Math.floor((nowMs - checked) / 1000) : null;
+    let redirectUrl: string | null = null;
+    try {
+      const parsed = new URL(offer.url || '');
+      if (['http:', 'https:'].includes(parsed.protocol) && !parsed.username && !parsed.password) redirectUrl = parsed.href;
+    } catch { /* Missing or unsafe URLs cannot be opened. */ }
+    const verified = pricing.currentPrice !== null && redirectUrl !== null;
+    const shownPrice = verified ? pricing.currentPrice : pricing.lastSeenPrice;
+    return {
+      verified,
       freshnessSeconds,
-      lastCheckedTimeAgo: timeAgo,
-      stockStatus: price > 0 ? stockStatus : 'OUT_OF_STOCK',
-      currentPrice: price,
-      formattedPrice: `₺${price.toLocaleString('tr-TR')}`,
-      storeName,
-      redirectUrl: targetUrl || '#',
-      isFallback: freshnessSeconds > 7200, // Fallback triggered if data older than 2 hours
-      verificationToken: `vfy_${Buffer.from(`${productId}:${storeName}:${price}:${now}`).toString('base64url').slice(0, 16)}`
+      lastCheckedTimeAgo: freshnessSeconds === null ? 'Kontrol tarihi bilinmiyor'
+        : freshnessSeconds >= 3600 ? `${Math.floor(freshnessSeconds / 3600)} saat önce`
+        : freshnessSeconds >= 60 ? `${Math.floor(freshnessSeconds / 60)} dakika önce` : 'Az önce',
+      stockStatus: offer.inStock === true ? 'IN_STOCK' : offer.inStock === false ? 'OUT_OF_STOCK' : 'UNKNOWN',
+      currentPrice: verified ? pricing.currentPrice : null,
+      lastSeenPrice: pricing.lastSeenPrice,
+      formattedPrice: shownPrice === null ? null : `₺${shownPrice.toLocaleString('tr-TR')}`,
+      statusLabel: pricing.priceStatus === 'no_offer' ? 'Fiyat doğrulanmadı' : pricing.statusLabel,
+      storeName: offer.storeName,
+      redirectUrl,
+      isFallback: !verified,
     };
-
-    this.cache.set(cacheKey, { timestamp: now, data: verificationResult });
-    return verificationResult;
   }
 }

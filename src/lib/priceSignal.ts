@@ -1,4 +1,8 @@
-import { Product, PriceHistoryPoint, StoreOffer } from './types';
+import { Product, PriceHistoryPoint } from './types';
+import { parseDateToMs } from './dateParsing';
+import { getEligibleDirectOffers } from './pricing/unifiedPriceEvaluator';
+import { getObservedPriceHistory } from './pricing/priceHistoryEvidence';
+export { parseDateToMs } from './dateParsing';
 
 export interface PriceSignalResult {
   status: 'buy_now' | 'wait' | 'normal' | 'insufficient_data';
@@ -31,71 +35,17 @@ export interface PriceSignalResult {
   savingVersusAvgTl: number;
 }
 
-export function parseDateToMs(dateStr: string): number {
-  if (!dateStr) return 0;
-  if (/^\d{4}-\d{2}-\d{2}/.test(dateStr)) {
-    const d = new Date(dateStr);
-    return isNaN(d.getTime()) ? 0 : d.getTime();
-  }
-
-  const trMonths: Record<string, number> = {
-    ocak: 0,
-    subat: 1,
-    şubat: 1,
-    mart: 2,
-    nisan: 3,
-    mayıs: 4,
-    mayis: 4,
-    haziran: 5,
-    temmuz: 6,
-    ağustos: 7,
-    agustos: 7,
-    eylül: 8,
-    eylul: 8,
-    ekim: 9,
-    kasım: 10,
-    kasim: 10,
-    aralık: 11,
-    aralik: 11
-  };
-
-  const parts = dateStr.toLowerCase().trim().split(/[\s,.-]+/);
-  if (parts.length >= 2) {
-    let year = 2026;
-    let month = 0;
-    let day = 15;
-
-    parts.forEach((p) => {
-      if (/^\d{4}$/.test(p)) year = parseInt(p, 10);
-      else if (trMonths[p] !== undefined) month = trMonths[p];
-      else if (/^\d{1,2}$/.test(p)) day = parseInt(p, 10);
-    });
-
-    return new Date(year, month, day).getTime();
-  }
-
-  const parsed = Date.parse(dateStr);
-  return isNaN(parsed) ? 0 : parsed;
-}
-
 export function calculatePriceSignal(product: Product): PriceSignalResult {
   if (!product) {
     return createInsufficientDataResult(0, 0);
   }
 
-  const rawOffers: StoreOffer[] = (product.storeOffers || []).filter(
-    (o) => o && typeof o.price === 'number' && o.price > 0
-  );
-  const sortedOffers = [...rawOffers].sort((a, b) => a.price - b.price);
+  const nowMs = Date.now();
+  const { freshDirectOffers: sortedOffers } = getEligibleDirectOffers(product.storeOffers, nowMs);
   const bestOffer = sortedOffers[0];
   const highestOffer = sortedOffers[sortedOffers.length - 1];
-
-  const currentPrice =
-    sortedOffers.length > 0 ? bestOffer.price : product.basePrice > 0 ? product.basePrice : 0;
-
-  const rawHistory: PriceHistoryPoint[] = (product.priceHistory || []).filter(
-    (h) => h && typeof h.price === 'number' && h.price > 0
-  );
+  const currentPrice = bestOffer?.price || 0;
+  const rawHistory: PriceHistoryPoint[] = getObservedPriceHistory(product.priceHistory, nowMs);
 
   // Kural: En az 2 geçmiş veri noktası ve geçerli fiyat şart
   if (rawHistory.length < 2 || currentPrice === 0) {
@@ -107,7 +57,7 @@ export function calculatePriceSignal(product: Product): PriceSignalResult {
   const firstTime = parseDateToMs(sortedHistory[0].date);
   const lastTime = parseDateToMs(sortedHistory[sortedHistory.length - 1].date);
 
-  let daysTracked = 30;
+  let daysTracked = 0;
   if (firstTime > 0 && lastTime > 0 && lastTime >= firstTime) {
     daysTracked = Math.max(1, Math.round((lastTime - firstTime) / (1000 * 60 * 60 * 24)));
   }
@@ -154,7 +104,7 @@ export function calculatePriceSignal(product: Product): PriceSignalResult {
     return {
       status: 'buy_now',
       title: 'Avantajlı Fiyat (Satın Alma Dönemi)',
-      badgeText: '⚡ AI Sinyali: Fırsat Seviyesi',
+      badgeText: '⚡ Fiyat Gözlemi: Fırsat Seviyesi',
       badgeColor: 'bg-emerald-50 text-emerald-800 border-emerald-300 shadow-2xs',
       badgeTextColor: 'text-emerald-700',
       iconType: 'trend_down',
@@ -192,11 +142,11 @@ export function calculatePriceSignal(product: Product): PriceSignalResult {
     return {
       status: 'wait',
       title: 'Dönemsel Üst Seviye (Acele Etme)',
-      badgeText: '⏳ AI Sinyali: Takibe Al',
+      badgeText: '⏳ Fiyat Gözlemi: Takibe Al',
       badgeColor: 'bg-amber-50 text-amber-900 border-amber-300 shadow-2xs',
       badgeTextColor: 'text-amber-800',
       iconType: 'trend_up',
-      explanation: `Mevcut fiyat (₺${currentPrice.toLocaleString('tr-TR')}), ${daysTracked} günlük piyasa ortalamasının (₺${avgHistorical.toLocaleString('tr-TR')}) %${diffAvgPercent} üzerinde dönemsel üst seviyede. Acil bir ihtiyacınız yoksa kampanya döngüsünü bekleyebilir veya fiyat alarmı kurabilirsiniz.`,
+      explanation: `Mevcut fiyat (₺${currentPrice.toLocaleString('tr-TR')}), ${daysTracked} günlük piyasa ortalamasının (₺${avgHistorical.toLocaleString('tr-TR')}) %${diffAvgPercent} üzerinde dönemsel üst seviyede. Acil bir ihtiyacınız yoksa kampanya döngüsünü bekleyebilir veya yerel fiyat hedefi kaydedebilirsiniz.`,
       daysTracked,
       dataPointsCount: sortedHistory.length,
       currentPrice,
@@ -227,7 +177,7 @@ export function calculatePriceSignal(product: Product): PriceSignalResult {
   return {
     status: 'normal',
     title: 'Olağan Piyasa Seviyesinde',
-    badgeText: '⚖️ AI Sinyali: Dengeli Fiyat',
+    badgeText: '⚖️ Fiyat Gözlemi: Dengeli Fiyat',
     badgeColor: 'bg-blue-50 text-blue-900 border-blue-200 shadow-2xs',
     badgeTextColor: 'text-blue-800',
     iconType: 'clock',
@@ -264,15 +214,15 @@ function createInsufficientDataResult(
 ): PriceSignalResult {
   return {
     status: 'insufficient_data',
-    title: 'Piyasa Verisi Toplanıyor',
-    badgeText: 'Veri Analiz Ediliyor',
+    title: 'Yeterli Fiyat Verisi Yok',
+    badgeText: 'Yetersiz Doğrulanmış Veri',
     badgeColor: 'bg-slate-100 text-slate-700 border-slate-200 shadow-2xs',
     badgeTextColor: 'text-slate-600',
     iconType: 'info',
     explanation:
       daysTracked > 0
         ? `Bu ürün için kaydedilen fiyat geçmişi henüz ${daysTracked} günlük (${dataPointsCount} veri noktası). Şeffaflık ve kesinlik ilkemiz gereği, en az 14 günlük istikrarlı veri birikene kadar zamanlama skoru üretilmemektedir.`
-        : 'Bu ürün için henüz yeterli tarihsel piyasa verisi birikmedi. Yanıltıcı tahmin yapmamak adına sinyal üretilmemektedir. Fiyatlar anlık taranmaktadır.',
+        : 'Bu ürün için güncel teklif ve yeterli fiyat geçmişi birlikte bulunmuyor. Bu nedenle satın alma sinyali üretilmiyor. Mağaza bağlantılarından fiyat ve stok durumunu kontrol edebilirsiniz.',
     daysTracked,
     dataPointsCount,
     currentPrice,
@@ -284,7 +234,7 @@ function createInsufficientDataResult(
     dropPercentFromPeak: 0,
     dataSpanText: daysTracked > 0 ? `Son ${daysTracked} günlük veri` : 'Yetersiz Geçmiş Verisi',
     timingScore: 50,
-    scoreLabel: 'Veri Birikiyor',
+    scoreLabel: 'Yetersiz Veri',
     needlePositionPercent: 50,
     bestStoreName,
     bestStorePrice: currentPrice,

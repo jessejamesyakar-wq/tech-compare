@@ -1,9 +1,12 @@
+import { requireMaintenanceAccess } from '@/lib/security/maintenanceAuth';
 import { NextResponse } from 'next/server';
 import { PriceRepository } from '@/lib/db/priceRepository';
 import { priceQueue } from '@/lib/queue/priceQueue';
 import { storeRegistry } from '@/integrations/stores/registry';
 
-export async function GET() {
+export async function GET(request: Request) {
+  const denied = requireMaintenanceAccess(request, 'admin');
+  if (denied) return denied;
   try {
     const jobs = await PriceRepository.getJobs();
     const anomalies = await PriceRepository.getPriceAnomalies();

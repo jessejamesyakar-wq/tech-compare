@@ -1,0 +1,825 @@
+{
+  "checkedAt": "2026-09-20T08:19:48.092Z",
+  "original": [
+    {
+      "id": "samsung-samsung-galaxy-m51-49",
+      "slug": "samsung-galaxy-m51",
+      "name": "Samsung Galaxy M51",
+      "brand": "Samsung",
+      "category": "smartphones",
+      "basePrice": 4409,
+      "currency": "TL",
+      "rating": 4.5,
+      "reviewCount": 676,
+      "releaseYear": 2020,
+      "isPopular": false,
+      "isFeatured": false,
+      "highlights": [
+        "Samsung Galaxy M51 Orijinal Türkiye Garantili",
+        "6.7\" FHD+ Super AMOLED Plus",
+        "8 GB RAM & 128 GB Depolama",
+        "7000 mAh Batarya Kapasitesi"
+      ],
+      "image": "/images/phones/samsung/studio/samsung-samsung-galaxy-m35-5g-105.png",
+      "images": [
+        "/images/phones/samsung/studio/samsung-samsung-galaxy-m35-5g-105.png"
+      ],
+      "storeOffers": [
+        {
+          "storeName": "Hepsiburada",
+          "storeLogo": "/images/stores/hepsiburada.png",
+          "price": 4429,
+          "shippingFee": 0,
+          "inStock": true,
+          "url": "https://www.hepsiburada.com/ara?q=Samsung%20Galaxy%20M51",
+          "rating": 4.8
+        },
+        {
+          "storeName": "Trendyol",
+          "storeLogo": "/images/stores/trendyol.png",
+          "price": 4479,
+          "shippingFee": 0,
+          "inStock": true,
+          "url": "https://www.trendyol.com/sr?q=Samsung%20Galaxy%20M51",
+          "rating": 4.8
+        },
+        {
+          "storeName": "MediaMarkt",
+          "storeLogo": "/images/stores/mediamarkt.png",
+          "price": 4539,
+          "shippingFee": 0,
+          "inStock": true,
+          "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Samsung%20Galaxy%20M51",
+          "rating": 4.8
+        },
+        {
+          "storeName": "Vatan Bilgisayar",
+          "storeLogo": "/images/stores/vatan.png",
+          "price": 4579,
+          "shippingFee": 0,
+          "inStock": true,
+          "url": "https://www.vatanbilgisayar.com/arama/Samsung%20Galaxy%20M51",
+          "rating": 4.8
+        },
+        {
+          "storeName": "Amazon Türkiye",
+          "storeLogo": "/images/stores/amazon.png",
+          "price": 4409,
+          "shippingFee": 0,
+          "inStock": true,
+          "url": "https://www.amazon.com.tr/s?k=Samsung%20Galaxy%20M51",
+          "rating": 4.8
+        },
+        {
+          "storeName": "Teknosa",
+          "storeLogo": "/images/stores/teknosa.png",
+          "price": 4549,
+          "shippingFee": 0,
+          "inStock": true,
+          "url": "https://www.teknosa.com/arama?s=Samsung%20Galaxy%20M51",
+          "rating": 4.8
+        }
+      ],
+      "priceHistory": [
+        {
+          "date": "Ekim 2025",
+          "price": 5050
+        },
+        {
+          "date": "Kasım 2025",
+          "price": 4920
+        },
+        {
+          "date": "Aralık 2025",
+          "price": 4780
+        },
+        {
+          "date": "Ocak 2026",
+          "price": 4650
+        },
+        {
+          "date": "Şubat 2026",
+          "price": 4520
+        },
+        {
+          "date": "Ağustos 2026",
+          "price": 4430
+        }
+      ],
+      "specs": {
+        "screen": {
+          "size": "6.7\"",
+          "type": "6.7\" FHD+ Super AMOLED Plus",
+          "resolution": "2340 x 1080 px",
+          "refreshRate": 60,
+          "ppi": 390,
+          "brightnessNits": 1000
+        },
+        "processor": {
+          "chip": "Snapdragon 730G",
+          "cores": "8 Çekirdek",
+          "process": "5nm",
+          "antutuScore": 750000
+        },
+        "memory": {
+          "ramGb": 8,
+          "ramType": "LPDDR5X",
+          "storageGb": 128,
+          "storageOptions": [
+            128
+          ],
+          "expandableStorage": true
+        },
+        "camera": {
+          "mainMp": "64 MP",
+          "ultrawideMp": "12 MP",
+          "telephotoMp": "Yok",
+          "selfieMp": "13 MP",
+          "videoRes": "4K @ 30fps",
+          "dxomarkScore": 118
+        },
+        "battery": {
+          "capacitymAh": 7000,
+          "chargingWatts": 25,
+          "wirelessCharging": false,
+          "reverseWireless": false
+        },
+        "connectivity": {
+          "has5G": false,
+          "wifiStandard": "Wi-Fi 6",
+          "bluetooth": "5.3",
+          "hasNFC": true,
+          "hasesim": false
+        },
+        "build": {
+          "weightGrams": 185,
+          "thicknessMm": 7.9,
+          "waterResistance": "Yok",
+          "frameMaterial": "Polikarbonat"
+        },
+        "software": {
+          "osName": "Android 14 (One UI 6.1)",
+          "updateYears": 4
+        }
+      }
+    },
+    {
+      "id": "samsung-samsung-galaxy-m52-5g-65",
+      "slug": "samsung-galaxy-m52-5g",
+      "name": "Samsung Galaxy M52 5G",
+      "brand": "Samsung",
+      "category": "smartphones",
+      "basePrice": 5389,
+      "currency": "TL",
+      "rating": 4.6,
+      "reviewCount": 578,
+      "releaseYear": 2021,
+      "isPopular": false,
+      "isFeatured": false,
+      "highlights": [
+        "Samsung Galaxy M52 5G Orijinal Türkiye Garantili",
+        "6.7\" FHD+ 120Hz Super AMOLED Plus",
+        "8 GB RAM & 128 GB Depolama",
+        "5000 mAh Batarya Kapasitesi"
+      ],
+      "image": "/images/phones/samsung/studio/samsung-samsung-galaxy-m35-5g-105.png",
+      "images": [
+        "/images/phones/samsung/studio/samsung-samsung-galaxy-m35-5g-105.png"
+      ],
+      "storeOffers": [
+        {
+          "storeName": "Hepsiburada",
+          "storeLogo": "/images/stores/hepsiburada.png",
+          "price": 5419,
+          "shippingFee": 0,
+          "inStock": true,
+          "url": "https://www.hepsiburada.com/ara?q=Samsung%20Galaxy%20M52%205G",
+          "rating": 4.8
+        },
+        {
+          "storeName": "Trendyol",
+          "storeLogo": "/images/stores/trendyol.png",
+          "price": 5479,
+          "shippingFee": 0,
+          "inStock": true,
+          "url": "https://www.trendyol.com/sr?q=Samsung%20Galaxy%20M52%205G",
+          "rating": 4.8
+        },
+        {
+          "storeName": "MediaMarkt",
+          "storeLogo": "/images/stores/mediamarkt.png",
+          "price": 5549,
+          "shippingFee": 0,
+          "inStock": true,
+          "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Samsung%20Galaxy%20M52%205G",
+          "rating": 4.8
+        },
+        {
+          "storeName": "Vatan Bilgisayar",
+          "storeLogo": "/images/stores/vatan.png",
+          "price": 5609,
+          "shippingFee": 0,
+          "inStock": true,
+          "url": "https://www.vatanbilgisayar.com/arama/Samsung%20Galaxy%20M52%205G",
+          "rating": 4.8
+        },
+        {
+          "storeName": "Amazon Türkiye",
+          "storeLogo": "/images/stores/amazon.png",
+          "price": 5389,
+          "shippingFee": 0,
+          "inStock": true,
+          "url": "https://www.amazon.com.tr/s?k=Samsung%20Galaxy%20M52%205G",
+          "rating": 4.8
+        },
+        {
+          "storeName": "Teknosa",
+          "storeLogo": "/images/stores/teknosa.png",
+          "price": 5569,
+          "shippingFee": 0,
+          "inStock": true,
+          "url": "https://www.teknosa.com/arama?s=Samsung%20Galaxy%20M52%205G",
+          "rating": 4.8
+        }
+      ],
+      "priceHistory": [
+        {
+          "date": "Ekim 2025",
+          "price": 6180
+        },
+        {
+          "date": "Kasım 2025",
+          "price": 6020
+        },
+        {
+          "date": "Aralık 2025",
+          "price": 5850
+        },
+        {
+          "date": "Ocak 2026",
+          "price": 5690
+        },
+        {
+          "date": "Şubat 2026",
+          "price": 5530
+        },
+        {
+          "date": "Ağustos 2026",
+          "price": 5420
+        }
+      ],
+      "specs": {
+        "screen": {
+          "size": "6.7\"",
+          "type": "6.7\" FHD+ 120Hz Super AMOLED Plus",
+          "resolution": "2340 x 1080 px",
+          "refreshRate": 90,
+          "ppi": 390,
+          "brightnessNits": 1000
+        },
+        "processor": {
+          "chip": "Snapdragon 778G 5G",
+          "cores": "8 Çekirdek",
+          "process": "5nm",
+          "antutuScore": 750000
+        },
+        "memory": {
+          "ramGb": 8,
+          "ramType": "LPDDR5X",
+          "storageGb": 128,
+          "storageOptions": [
+            128
+          ],
+          "expandableStorage": true
+        },
+        "camera": {
+          "mainMp": "64 MP",
+          "ultrawideMp": "12 MP",
+          "telephotoMp": "Yok",
+          "selfieMp": "13 MP",
+          "videoRes": "4K @ 30fps",
+          "dxomarkScore": 118
+        },
+        "battery": {
+          "capacitymAh": 5000,
+          "chargingWatts": 25,
+          "wirelessCharging": false,
+          "reverseWireless": false
+        },
+        "connectivity": {
+          "has5G": true,
+          "wifiStandard": "Wi-Fi 6",
+          "bluetooth": "5.3",
+          "hasNFC": true,
+          "hasesim": false
+        },
+        "build": {
+          "weightGrams": 185,
+          "thicknessMm": 7.9,
+          "waterResistance": "Yok",
+          "frameMaterial": "Polikarbonat"
+        },
+        "software": {
+          "osName": "Android 14 (One UI 6.1)",
+          "updateYears": 4
+        }
+      }
+    },
+    {
+      "id": "samsung-samsung-galaxy-m53-5g-79",
+      "slug": "samsung-galaxy-m53-5g",
+      "name": "Samsung Galaxy M53 5G",
+      "brand": "Samsung",
+      "category": "smartphones",
+      "basePrice": 8819,
+      "currency": "TL",
+      "rating": 4.5,
+      "reviewCount": 386,
+      "releaseYear": 2022,
+      "isPopular": false,
+      "isFeatured": false,
+      "highlights": [
+        "Samsung Galaxy M53 5G Orijinal Türkiye Garantili",
+        "6.7\" FHD+ 120Hz Super AMOLED Plus",
+        "8 GB RAM & 128 GB Depolama",
+        "5000 mAh Batarya Kapasitesi"
+      ],
+      "image": "/images/phones/samsung/studio/samsung-samsung-galaxy-m35-5g-105.png",
+      "images": [
+        "/images/phones/samsung/studio/samsung-samsung-galaxy-m35-5g-105.png"
+      ],
+      "storeOffers": [
+        {
+          "storeName": "Hepsiburada",
+          "storeLogo": "/images/stores/hepsiburada.png",
+          "price": 8859,
+          "shippingFee": 0,
+          "inStock": true,
+          "url": "https://www.hepsiburada.com/ara?q=Samsung%20Galaxy%20M53%205G",
+          "rating": 4.8
+        },
+        {
+          "storeName": "Trendyol",
+          "storeLogo": "/images/stores/trendyol.png",
+          "price": 8969,
+          "shippingFee": 0,
+          "inStock": true,
+          "url": "https://www.trendyol.com/sr?q=Samsung%20Galaxy%20M53%205G",
+          "rating": 4.8
+        },
+        {
+          "storeName": "MediaMarkt",
+          "storeLogo": "/images/stores/mediamarkt.png",
+          "price": 9079,
+          "shippingFee": 0,
+          "inStock": true,
+          "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Samsung%20Galaxy%20M53%205G",
+          "rating": 4.8
+        },
+        {
+          "storeName": "Vatan Bilgisayar",
+          "storeLogo": "/images/stores/vatan.png",
+          "price": 9169,
+          "shippingFee": 0,
+          "inStock": true,
+          "url": "https://www.vatanbilgisayar.com/arama/Samsung%20Galaxy%20M53%205G",
+          "rating": 4.8
+        },
+        {
+          "storeName": "Amazon Türkiye",
+          "storeLogo": "/images/stores/amazon.png",
+          "price": 8819,
+          "shippingFee": 0,
+          "inStock": true,
+          "url": "https://www.amazon.com.tr/s?k=Samsung%20Galaxy%20M53%205G",
+          "rating": 4.8
+        },
+        {
+          "storeName": "Teknosa",
+          "storeLogo": "/images/stores/teknosa.png",
+          "price": 9109,
+          "shippingFee": 0,
+          "inStock": true,
+          "url": "https://www.teknosa.com/arama?s=Samsung%20Galaxy%20M53%205G",
+          "rating": 4.8
+        }
+      ],
+      "priceHistory": [
+        {
+          "date": "Ekim 2025",
+          "price": 10100
+        },
+        {
+          "date": "Kasım 2025",
+          "price": 9830
+        },
+        {
+          "date": "Aralık 2025",
+          "price": 9570
+        },
+        {
+          "date": "Ocak 2026",
+          "price": 9300
+        },
+        {
+          "date": "Şubat 2026",
+          "price": 9040
+        },
+        {
+          "date": "Ağustos 2026",
+          "price": 8860
+        }
+      ],
+      "specs": {
+        "screen": {
+          "size": "6.7\"",
+          "type": "6.7\" FHD+ 120Hz Super AMOLED Plus",
+          "resolution": "2340 x 1080 px",
+          "refreshRate": 90,
+          "ppi": 390,
+          "brightnessNits": 1000
+        },
+        "processor": {
+          "chip": "Dimensity 900 5G",
+          "cores": "8 Çekirdek",
+          "process": "5nm",
+          "antutuScore": 750000
+        },
+        "memory": {
+          "ramGb": 8,
+          "ramType": "LPDDR5X",
+          "storageGb": 128,
+          "storageOptions": [
+            128
+          ],
+          "expandableStorage": true
+        },
+        "camera": {
+          "mainMp": "108 MP",
+          "ultrawideMp": "12 MP",
+          "telephotoMp": "Yok",
+          "selfieMp": "13 MP",
+          "videoRes": "4K @ 30fps",
+          "dxomarkScore": 118
+        },
+        "battery": {
+          "capacitymAh": 5000,
+          "chargingWatts": 25,
+          "wirelessCharging": false,
+          "reverseWireless": false
+        },
+        "connectivity": {
+          "has5G": true,
+          "wifiStandard": "Wi-Fi 6",
+          "bluetooth": "5.3",
+          "hasNFC": true,
+          "hasesim": false
+        },
+        "build": {
+          "weightGrams": 185,
+          "thicknessMm": 7.9,
+          "waterResistance": "Yok",
+          "frameMaterial": "Polikarbonat"
+        },
+        "software": {
+          "osName": "Android 14 (One UI 6.1)",
+          "updateYears": 4
+        }
+      }
+    },
+    {
+      "id": "samsung-samsung-galaxy-m54-5g-92",
+      "slug": "samsung-galaxy-m54-5g",
+      "name": "Samsung Galaxy M54 5G",
+      "brand": "Samsung",
+      "category": "smartphones",
+      "basePrice": 13229,
+      "currency": "TL",
+      "rating": 4.3,
+      "reviewCount": 147,
+      "releaseYear": 2023,
+      "isPopular": false,
+      "isFeatured": false,
+      "highlights": [
+        "Samsung Galaxy M54 5G Orijinal Türkiye Garantili",
+        "6.7\" FHD+ 120Hz Super AMOLED Plus",
+        "8 GB RAM & 256 GB Depolama",
+        "6000 mAh Batarya Kapasitesi"
+      ],
+      "image": "/images/phones/samsung/studio/samsung-samsung-galaxy-m35-5g-105.png",
+      "images": [
+        "/images/phones/samsung/studio/samsung-samsung-galaxy-m35-5g-105.png"
+      ],
+      "storeOffers": [
+        {
+          "storeName": "Hepsiburada",
+          "storeLogo": "/images/stores/hepsiburada.png",
+          "price": 13299,
+          "shippingFee": 0,
+          "inStock": true,
+          "url": "https://www.hepsiburada.com/ara?q=Samsung%20Galaxy%20M54%205G",
+          "rating": 4.8
+        },
+        {
+          "storeName": "Trendyol",
+          "storeLogo": "/images/stores/trendyol.png",
+          "price": 13459,
+          "shippingFee": 0,
+          "inStock": true,
+          "url": "https://www.trendyol.com/sr?q=Samsung%20Galaxy%20M54%205G",
+          "rating": 4.8
+        },
+        {
+          "storeName": "MediaMarkt",
+          "storeLogo": "/images/stores/mediamarkt.png",
+          "price": 13629,
+          "shippingFee": 0,
+          "inStock": true,
+          "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Samsung%20Galaxy%20M54%205G",
+          "rating": 4.8
+        },
+        {
+          "storeName": "Vatan Bilgisayar",
+          "storeLogo": "/images/stores/vatan.png",
+          "price": 13759,
+          "shippingFee": 0,
+          "inStock": true,
+          "url": "https://www.vatanbilgisayar.com/arama/Samsung%20Galaxy%20M54%205G",
+          "rating": 4.8
+        },
+        {
+          "storeName": "Amazon Türkiye",
+          "storeLogo": "/images/stores/amazon.png",
+          "price": 13229,
+          "shippingFee": 0,
+          "inStock": true,
+          "url": "https://www.amazon.com.tr/s?k=Samsung%20Galaxy%20M54%205G",
+          "rating": 4.8
+        },
+        {
+          "storeName": "Teknosa",
+          "storeLogo": "/images/stores/teknosa.png",
+          "price": 13669,
+          "shippingFee": 0,
+          "inStock": true,
+          "url": "https://www.teknosa.com/arama?s=Samsung%20Galaxy%20M54%205G",
+          "rating": 4.8
+        }
+      ],
+      "priceHistory": [
+        {
+          "date": "Ekim 2025",
+          "price": 15160
+        },
+        {
+          "date": "Kasım 2025",
+          "price": 14760
+        },
+        {
+          "date": "Aralık 2025",
+          "price": 14360
+        },
+        {
+          "date": "Ocak 2026",
+          "price": 13960
+        },
+        {
+          "date": "Şubat 2026",
+          "price": 13560
+        },
+        {
+          "date": "Ağustos 2026",
+          "price": 13300
+        }
+      ],
+      "specs": {
+        "screen": {
+          "size": "6.7\"",
+          "type": "6.7\" FHD+ 120Hz Super AMOLED Plus",
+          "resolution": "2340 x 1080 px",
+          "refreshRate": 90,
+          "ppi": 390,
+          "brightnessNits": 1000
+        },
+        "processor": {
+          "chip": "Exynos 1380",
+          "cores": "8 Çekirdek",
+          "process": "4nm",
+          "antutuScore": 750000
+        },
+        "memory": {
+          "ramGb": 8,
+          "ramType": "LPDDR5X",
+          "storageGb": 256,
+          "storageOptions": [
+            256
+          ],
+          "expandableStorage": true
+        },
+        "camera": {
+          "mainMp": "108 MP",
+          "ultrawideMp": "12 MP",
+          "telephotoMp": "Yok",
+          "selfieMp": "13 MP",
+          "videoRes": "4K @ 30fps",
+          "dxomarkScore": 118
+        },
+        "battery": {
+          "capacitymAh": 6000,
+          "chargingWatts": 25,
+          "wirelessCharging": false,
+          "reverseWireless": false
+        },
+        "connectivity": {
+          "has5G": true,
+          "wifiStandard": "Wi-Fi 6",
+          "bluetooth": "5.3",
+          "hasNFC": true,
+          "hasesim": false
+        },
+        "build": {
+          "weightGrams": 185,
+          "thicknessMm": 7.9,
+          "waterResistance": "Yok",
+          "frameMaterial": "Polikarbonat"
+        },
+        "software": {
+          "osName": "Android 14 (One UI 6.1)",
+          "updateYears": 4
+        }
+      }
+    },
+    {
+      "id": "samsung-samsung-galaxy-m55-5g-106",
+      "slug": "samsung-galaxy-m55-5g",
+      "name": "Samsung Galaxy M55 5G",
+      "brand": "Samsung",
+      "category": "smartphones",
+      "basePrice": 15189,
+      "currency": "TL",
+      "rating": 4.2,
+      "reviewCount": 805,
+      "releaseYear": 2024,
+      "isPopular": true,
+      "isFeatured": false,
+      "highlights": [
+        "Samsung Galaxy M55 5G Orijinal Türkiye Garantili",
+        "6.7\" FHD+ 120Hz Super AMOLED Plus 45W",
+        "8 GB RAM & 256 GB Depolama",
+        "5000 mAh Batarya Kapasitesi"
+      ],
+      "image": "/images/phones/samsung/studio/samsung-samsung-galaxy-m35-5g-105.png",
+      "images": [
+        "/images/phones/samsung/studio/samsung-samsung-galaxy-m35-5g-105.png"
+      ],
+      "storeOffers": [
+        {
+          "storeName": "Hepsiburada",
+          "storeLogo": "/images/stores/hepsiburada.png",
+          "price": 15269,
+          "shippingFee": 0,
+          "inStock": true,
+          "url": "https://www.hepsiburada.com/ara?q=Samsung%20Galaxy%20M55%205G",
+          "rating": 4.8
+        },
+        {
+          "storeName": "Trendyol",
+          "storeLogo": "/images/stores/trendyol.png",
+          "price": 15449,
+          "shippingFee": 0,
+          "inStock": true,
+          "url": "https://www.trendyol.com/sr?q=Samsung%20Galaxy%20M55%205G",
+          "rating": 4.8
+        },
+        {
+          "storeName": "MediaMarkt",
+          "storeLogo": "/images/stores/mediamarkt.png",
+          "price": 15649,
+          "shippingFee": 0,
+          "inStock": true,
+          "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Samsung%20Galaxy%20M55%205G",
+          "rating": 4.8
+        },
+        {
+          "storeName": "Vatan Bilgisayar",
+          "storeLogo": "/images/stores/vatan.png",
+          "price": 15799,
+          "shippingFee": 0,
+          "inStock": true,
+          "url": "https://www.vatanbilgisayar.com/arama/Samsung%20Galaxy%20M55%205G",
+          "rating": 4.8
+        },
+        {
+          "storeName": "Amazon Türkiye",
+          "storeLogo": "/images/stores/amazon.png",
+          "price": 15189,
+          "shippingFee": 0,
+          "inStock": true,
+          "url": "https://www.amazon.com.tr/s?k=Samsung%20Galaxy%20M55%205G",
+          "rating": 4.8
+        },
+        {
+          "storeName": "Teknosa",
+          "storeLogo": "/images/stores/teknosa.png",
+          "price": 15699,
+          "shippingFee": 0,
+          "inStock": true,
+          "url": "https://www.teknosa.com/arama?s=Samsung%20Galaxy%20M55%205G",
+          "rating": 4.8
+        }
+      ],
+      "priceHistory": [
+        {
+          "date": "Ekim 2025",
+          "price": 17410
+        },
+        {
+          "date": "Kasım 2025",
+          "price": 16950
+        },
+        {
+          "date": "Aralık 2025",
+          "price": 16490
+        },
+        {
+          "date": "Ocak 2026",
+          "price": 16030
+        },
+        {
+          "date": "Şubat 2026",
+          "price": 15570
+        },
+        {
+          "date": "Ağustos 2026",
+          "price": 15270
+        }
+      ],
+      "specs": {
+        "screen": {
+          "size": "6.7\"",
+          "type": "6.7\" FHD+ 120Hz Super AMOLED Plus 45W",
+          "resolution": "2340 x 1080 px",
+          "refreshRate": 120,
+          "ppi": 390,
+          "brightnessNits": 1000
+        },
+        "processor": {
+          "chip": "Snapdragon 7 Gen 1 5G",
+          "cores": "8 Çekirdek",
+          "process": "4nm",
+          "antutuScore": 750000
+        },
+        "memory": {
+          "ramGb": 8,
+          "ramType": "LPDDR5X",
+          "storageGb": 256,
+          "storageOptions": [
+            256
+          ],
+          "expandableStorage": true
+        },
+        "camera": {
+          "mainMp": "50 MP",
+          "ultrawideMp": "12 MP",
+          "telephotoMp": "Yok",
+          "selfieMp": "13 MP",
+          "videoRes": "4K @ 30fps",
+          "dxomarkScore": 118
+        },
+        "battery": {
+          "capacitymAh": 5000,
+          "chargingWatts": 25,
+          "wirelessCharging": false,
+          "reverseWireless": false
+        },
+        "connectivity": {
+          "has5G": true,
+          "wifiStandard": "Wi-Fi 6",
+          "bluetooth": "5.3",
+          "hasNFC": true,
+          "hasesim": false
+        },
+        "build": {
+          "weightGrams": 185,
+          "thicknessMm": 7.9,
+          "waterResistance": "Yok",
+          "frameMaterial": "Polikarbonat"
+        },
+        "software": {
+          "osName": "Android 14 (One UI 6.1)",
+          "updateYears": 7
+        }
+      },
+      "colorOptions": [
+        {
+          "name": "Açık Yeşil",
+          "hex": "#7EBCA0"
+        },
+        {
+          "name": "Koyu Mavi",
+          "hex": "#1E2C44"
+        }
+      ]
+    }
+  ]
+}

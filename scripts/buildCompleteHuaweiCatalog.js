@@ -1,3 +1,6 @@
+// Retired: fabricates specs, prices, stock, ratings and review counts from names.
+throw new Error('Bu katalog oluşturucu devre dışı: model adından özellik/fiyat tahmini ve rastgele puan üretiyor. Üretici ve gerçek teklif kaynaklarıyla alan bazlı içe aktarım gerekir.');
+
 const fs = require('fs');
 const path = require('path');
 

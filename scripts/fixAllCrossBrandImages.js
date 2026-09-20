@@ -1,3 +1,6 @@
+// Retired: cross-brand and same-brand fallbacks are not model evidence.
+throw new Error('Bu görsel düzeltme aracı devre dışı: ilgisiz modelleri ve markaları birbirine eşliyor. Kaynaklı model bazlı görsel kaydı kullanın.');
+
 const fs = require('fs');
 const path = require('path');
 

@@ -21,21 +21,30 @@ const allMockProducts: Product[] = [
   ...mockMonitors
 ];
 
-// In-memory product store initialized strictly from mockData files
-let memoryProductsCache: Product[] = allMockProducts;
+const globalForAdmin = globalThis as unknown as {
+  memoryProductsCache: Product[] | undefined;
+};
+
+// In-memory product store initialized strictly from mockData files (attached to globalThis across Next.js bundles)
+if (!globalForAdmin.memoryProductsCache) {
+  globalForAdmin.memoryProductsCache = [...allMockProducts];
+}
 
 // 1. Get all stored products directly from mock data
 export function getStoredProducts(): Product[] {
-  return memoryProductsCache;
+  return globalForAdmin.memoryProductsCache || allMockProducts;
 }
 
 // 2. Save / Update Product in memory
 export async function saveProduct(product: Product): Promise<void> {
-  const idx = memoryProductsCache.findIndex((p) => p.id === product.id);
+  const current = getStoredProducts();
+  const idx = current.findIndex((p) => p.id === product.id);
   if (idx >= 0) {
-    memoryProductsCache[idx] = product;
+    const updated = [...current];
+    updated[idx] = product;
+    globalForAdmin.memoryProductsCache = updated;
   } else {
-    memoryProductsCache.push(product);
+    globalForAdmin.memoryProductsCache = [product, ...current];
   }
 
   if (typeof window !== 'undefined') {
@@ -45,7 +54,7 @@ export async function saveProduct(product: Product): Promise<void> {
 
 // 3. Delete Product from memory
 export async function deleteProduct(productId: string): Promise<void> {
-  memoryProductsCache = memoryProductsCache.filter((p) => p.id !== productId);
+  globalForAdmin.memoryProductsCache = getStoredProducts().filter((p) => p.id !== productId);
 
   if (typeof window !== 'undefined') {
     window.dispatchEvent(new Event('tech_admin_data_updated'));
@@ -54,7 +63,7 @@ export async function deleteProduct(productId: string): Promise<void> {
 
 // 4. Reset to Factory Default from mock data
 export async function resetToFactoryDefault(): Promise<void> {
-  memoryProductsCache = [...allMockProducts];
+  globalForAdmin.memoryProductsCache = [...allMockProducts];
 
   if (typeof window !== 'undefined') {
     window.dispatchEvent(new Event('tech_admin_data_updated'));

@@ -5,6 +5,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { Product, Smartphone, LaptopProduct, TVProduct } from '@/lib/types';
 import {
+  Scale,
   Sparkles,
   Award,
   Zap,
@@ -32,6 +33,10 @@ import {
   X,
   Loader2
 } from 'lucide-react';
+import { ProductPriceSummary } from '@/components/detail/ProductPriceSummary';
+import { CompareVerdictCard } from './CompareVerdictCard';
+import { getDuelRows, getMetricOutcome, describeMetric } from '@/lib/comparisonEvidence';
+import { getSpecVerificationNotice } from '@/lib/specVerification';
 import { getStoreSearchUrl } from '@/lib/activeStores';
 import { DeepCompareSections } from './deep/DeepCompareSections';
 import { RefereeVerdictCard } from './RefereeVerdictCard';
@@ -46,8 +51,10 @@ interface DuelArenaProps {
 export function DuelArena({ product1, product2, onProductChange }: DuelArenaProps) {
   const [selectedRound, setSelectedRound] = useState<number | null>(null);
   const [userVote, setUserVote] = useState<1 | 2 | null>(null);
-  const [voteStats, setVoteStats] = useState({ p1Percent: 54, p2Percent: 46, totalVotes: 1420 });
+  const [actionError, setActionError] = useState('');
   const [shareCopied, setShareCopied] = useState(false);
+  const selectionRequests=useRef([0,0]);
+  useEffect(()=>()=>{selectionRequests.current[0]++;selectionRequests.current[1]++;},[]);
 
   // Search Combobox State for Card 1 (Left)
   const [search1, setSearch1] = useState('');
@@ -63,14 +70,15 @@ export function DuelArena({ product1, product2, onProductChange }: DuelArenaProp
   const [openDropdown2, setOpenDropdown2] = useState(false);
   const dropdownRef2 = useRef<HTMLDivElement>(null);
 
-  // Load vote from localStorage if existing
+  // This is only the visitor's local preference, not a community vote.
   useEffect(() => {
-    if (typeof window !== 'undefined') {
-      const stored = localStorage.getItem(`duel_vote_${product1.id}_${product2.id}`);
-      if (stored === '1' || stored === '2') {
-        setUserVote(parseInt(stored) as 1 | 2);
-      }
-    }
+    setSelectedRound(null);
+    setUserVote(null);
+    setActionError('');
+    try {
+      const saved = localStorage.getItem(`duel_vote_${product1.id}_${product2.id}`);
+      if (saved === '1' || saved === '2') setUserVote(Number(saved) as 1 | 2);
+    } catch { /* Storage is optional; viewing comparisons remains available. */ }
   }, [product1.id, product2.id]);
 
   // Click outside to close dropdowns
@@ -87,549 +95,98 @@ export function DuelArena({ product1, product2, onProductChange }: DuelArenaProp
     return () => document.removeEventListener('mousedown', handleClickOutside);
   }, []);
 
-  // Search query effect for Product 1
+  // Abort old searches so slower responses cannot replace the latest query.
   useEffect(() => {
-    if (!search1.trim() || search1.trim().length < 2) {
-      setResults1([]);
-      setLoading1(false);
-      return;
-    }
+    const query=search1.trim();
+    const controller=new AbortController();
+    setResults1([]);
+    if(query.length<2){setLoading1(false);return;}
     setLoading1(true);
-    const timer = setTimeout(async () => {
+    const timer=setTimeout(async()=>{
       try {
-        const res = await fetch(`/api/search?q=${encodeURIComponent(search1.trim())}&limit=8`);
-        if (res.ok) {
-          const data = await res.json();
-          setResults1(Array.isArray(data) ? data : []);
-          setOpenDropdown1(true);
-        }
-      } catch (e) {
-        console.error('Search 1 failed', e);
-      } finally {
-        setLoading1(false);
-      }
-    }, 200);
-    return () => clearTimeout(timer);
-  }, [search1]);
+        const response=await fetch(`/api/search?q=${encodeURIComponent(query)}&limit=8`,{signal:controller.signal});
+        if(!response.ok)throw new Error('search failed');
+        const data=await response.json();
+        if(!controller.signal.aborted){setResults1(Array.isArray(data)?data:[]);setOpenDropdown1(true);}
+      } catch { if(!controller.signal.aborted)setActionError('Arama yüklenemedi. Lütfen yeniden deneyin.'); }
+      finally { if(!controller.signal.aborted)setLoading1(false); }
+    },200);
+    return ()=>{clearTimeout(timer);controller.abort();};
+  },[search1]);
 
-  // Search query effect for Product 2
+  // Abort old searches so slower responses cannot replace the latest query.
   useEffect(() => {
-    if (!search2.trim() || search2.trim().length < 2) {
-      setResults2([]);
-      setLoading2(false);
-      return;
-    }
+    const query=search2.trim();
+    const controller=new AbortController();
+    setResults2([]);
+    if(query.length<2){setLoading2(false);return;}
     setLoading2(true);
-    const timer = setTimeout(async () => {
+    const timer=setTimeout(async()=>{
       try {
-        const res = await fetch(`/api/search?q=${encodeURIComponent(search2.trim())}&limit=8`);
-        if (res.ok) {
-          const data = await res.json();
-          setResults2(Array.isArray(data) ? data : []);
-          setOpenDropdown2(true);
-        }
-      } catch (e) {
-        console.error('Search 2 failed', e);
-      } finally {
-        setLoading2(false);
-      }
-    }, 200);
-    return () => clearTimeout(timer);
-  }, [search2]);
+        const response=await fetch(`/api/search?q=${encodeURIComponent(query)}&limit=8`,{signal:controller.signal});
+        if(!response.ok)throw new Error('search failed');
+        const data=await response.json();
+        if(!controller.signal.aborted){setResults2(Array.isArray(data)?data:[]);setOpenDropdown2(true);}
+      } catch { if(!controller.signal.aborted)setActionError('Arama yüklenemedi. Lütfen yeniden deneyin.'); }
+      finally { if(!controller.signal.aborted)setLoading2(false); }
+    },200);
+    return ()=>{clearTimeout(timer);controller.abort();};
+  },[search2]);
 
-  const handleSelectProduct = async (index: 0 | 1, chosen: Product) => {
+  const handleSelectProduct = async (index:0|1,chosen:Product) => {
+    const request=++selectionRequests.current[index];
+    setActionError('');
     try {
-      const res = await fetch(`/api/products/${chosen.id || chosen.slug}`);
-      const fullProduct = res.ok ? await res.json() : chosen;
-
-      if (onProductChange) {
-        onProductChange(index, fullProduct);
-      }
-
-      if (index === 0) {
-        setSearch1('');
-        setOpenDropdown1(false);
-      } else {
-        setSearch2('');
-        setOpenDropdown2(false);
-      }
-    } catch (e) {
-      if (onProductChange) onProductChange(index, chosen);
-    }
+      const response=await fetch(`/api/products/${encodeURIComponent(chosen.id||chosen.slug)}`);
+      if(!response.ok)throw new Error('product unavailable');
+      const fullProduct=await response.json();
+      if(!fullProduct?.id || !fullProduct?.category)throw new Error('invalid product');
+      if(request!==selectionRequests.current[index])return;
+      onProductChange?.(index,fullProduct);
+      if(index===0){setSearch1('');setOpenDropdown1(false);}else{setSearch2('');setOpenDropdown2(false);}
+    } catch {if(request===selectionRequests.current[index])setActionError('Seçilen ürün yüklenemedi. Mevcut karşılaştırma korundu; yeniden deneyin.');}
   };
 
   const handleVote = (choice: 1 | 2) => {
     if (userVote === choice) return;
     setUserVote(choice);
     if (typeof window !== 'undefined') {
-      localStorage.setItem(`duel_vote_${product1.id}_${product2.id}`, String(choice));
-    }
-    setVoteStats((prev) => {
-      const newTotal = prev.totalVotes + 1;
-      const p1Votes = Math.round((prev.p1Percent / 100) * prev.totalVotes) + (choice === 1 ? 1 : 0);
-      const p1P = Math.round((p1Votes / newTotal) * 100);
-      return {
-        p1Percent: p1P,
-        p2Percent: 100 - p1P,
-        totalVotes: newTotal
-      };
-    });
-  };
-
-  const handleShare = (network?: 'twitter' | 'facebook') => {
-    if (typeof window !== 'undefined') {
-      const url = window.location.href;
-      const text = `${product1.name} vs ${product2.name} Düellosu | aceleEtme Düello Arena`;
-      if (network === 'twitter') {
-        window.open(`https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}&url=${encodeURIComponent(url)}`, '_blank');
-      } else if (network === 'facebook') {
-        window.open(`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(url)}`, '_blank');
-      } else {
-        navigator.clipboard.writeText(url);
-        setShareCopied(true);
-        setTimeout(() => setShareCopied(false), 2000);
-      }
+      try { localStorage.setItem(`duel_vote_${product1.id}_${product2.id}`, String(choice)); } catch { setActionError('Tercihiniz bu tarayıcıya kaydedilemedi.'); }
     }
   };
 
-  // Safe Extractors
-  const getSpecs = (p: Product) => (p as any).specs || {};
-  const s1 = getSpecs(product1);
-  const s2 = getSpecs(product2);
-
-  // Category Awareness
-  const category = (product1 as any).category || (product2 as any).category || 'smartphones';
-  const isTV = category === 'tvs';
-  const isLaptop = category === 'laptops';
-
-  // Benchmark / AnTuTu - strictly sourced from verified specs
-  const antutu1 = typeof s1.processor?.antutuScore === 'number' && s1.processor.antutuScore > 0 ? s1.processor.antutuScore : null;
-  const antutu2 = typeof s2.processor?.antutuScore === 'number' && s2.processor.antutuScore > 0 ? s2.processor.antutuScore : null;
-
-  const parseMp = (val: string | undefined): number => {
-    if (!val) return 0;
-    const match = String(val).match(/(\d+)/);
-    return match ? parseInt(match[1], 10) : 0;
+  const handleShare = async (network?: 'twitter' | 'facebook') => {
+    const shareUrl = new URL('/compare', window.location.origin);
+    shareUrl.searchParams.set('d1', product1.slug || product1.id);
+    shareUrl.searchParams.set('d2', product2.slug || product2.id);
+    const url=shareUrl.href;
+    const text=`${product1.name} vs ${product2.name} | aceleEtme`;
+    setActionError('');
+    if(network==='twitter') window.open(`https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}&url=${encodeURIComponent(url)}`,'_blank','noopener,noreferrer');
+    else if(network==='facebook') window.open(`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(url)}`,'_blank','noopener,noreferrer');
+    else try { await navigator.clipboard.writeText(url); setShareCopied(true); setTimeout(()=>setShareCopied(false),2000); }
+    catch { setShareCopied(false); setActionError('Bağlantı kopyalanamadı. Tarayıcının pano iznini kontrol edin.'); }
   };
 
-  // 10-scale stats strictly calculated from verified values without fabricated fallbacks
-  const calc10 = (score: number | undefined | null, maxVal: number) => {
-    if (!score || isNaN(score) || score <= 0) return null;
-    const scaled = Math.min(10.0, Math.max(1.0, (score / maxVal) * 10));
-    return scaled.toFixed(1);
-  };
-
-  const stats1 = {
-    camera: calc10(s1.camera?.dxomarkScore, 170) || (parseMp(s1.camera?.mainMp) ? calc10(parseMp(s1.camera?.mainMp), 200) : null),
-    battery: calc10(s1.battery?.capacitymAh, 5500),
-    screen: calc10(s1.screen?.brightnessNits || s1.screen?.brightness, 3000)
-  };
-
-  const stats2 = {
-    camera: calc10(s2.camera?.dxomarkScore, 170) || (parseMp(s2.camera?.mainMp) ? calc10(parseMp(s2.camera?.mainMp), 200) : null),
-    battery: calc10(s2.battery?.capacitymAh, 5500),
-    screen: calc10(s2.screen?.brightnessNits || s2.screen?.brightness, 3000)
-  };
-
-  // TV Metrics
-  const tvDisplayScore = (tech?: string) => {
-    if (!tech) return 7.5;
-    const t = tech.toLowerCase();
-    if (t.includes('oled evo') || t.includes('qd-oled') || t.includes('oled+')) return 9.9;
-    if (t.includes('oled')) return 9.6;
-    if (t.includes('mini-led') || t.includes('neo qled')) return 9.2;
-    if (t.includes('qled')) return 8.5;
-    return 7.5;
-  };
-
-  const tv1Refresh = s1.refreshRateHz || s1.screen?.refreshRate || 120;
-  const tv2Refresh = s2.refreshRateHz || s2.screen?.refreshRate || 120;
-  const tv1Audio = s1.audioPowerWatts || null;
-  const tv2Audio = s2.audioPowerWatts || null;
-  const tv1Size = s1.screenSizeInches || null;
-  const tv2Size = s2.screenSizeInches || null;
-
-  interface StatBarItem {
-    id: string;
-    label: string;
-    icon: React.ReactNode;
-    val: string;
-    score10: number | null;
-  }
-
-  let statBars1: StatBarItem[] = [];
-  let statBars2: StatBarItem[] = [];
-
-  if (isTV) {
-    statBars1 = [
-      {
-        id: 'panel',
-        label: 'Panel & Çözünürlük',
-        icon: <TvIcon className="w-3 sm:w-3.5 h-3 sm:h-3.5 text-slate-400 shrink-0" />,
-        val: `${s1.displayTech || 'OLED'}${tv1Size ? ` (${tv1Size}")` : ''}`,
-        score10: tvDisplayScore(s1.displayTech)
-      },
-      {
-        id: 'refresh',
-        label: 'Tazeleme Hızı',
-        icon: <Zap className="w-3 sm:w-3.5 h-3 sm:h-3.5 text-slate-400 shrink-0" />,
-        val: `${tv1Refresh} Hz${s1.gamingFeatures?.length ? ' • VRR' : ''}`,
-        score10: tv1Refresh >= 144 ? 10.0 : (tv1Refresh >= 120 ? 9.2 : 6.5)
-      },
-      {
-        id: 'audio',
-        label: 'Ses Sistemi',
-        icon: <Award className="w-3 sm:w-3.5 h-3 sm:h-3.5 text-slate-400 shrink-0" />,
-        val: tv1Audio ? `${tv1Audio}W${s1.dolbyAtmos !== false ? ' Atmos' : ''}` : '20W Standart',
-        score10: tv1Audio ? Math.min(10.0, Math.max(4.0, (tv1Audio / 70) * 10)) : 6.0
-      }
-    ];
-
-    statBars2 = [
-      {
-        id: 'panel',
-        label: 'Panel & Çözünürlük',
-        icon: <TvIcon className="w-3 sm:w-3.5 h-3 sm:h-3.5 text-slate-400 shrink-0" />,
-        val: `${s2.displayTech || 'OLED'}${tv2Size ? ` (${tv2Size}")` : ''}`,
-        score10: tvDisplayScore(s2.displayTech)
-      },
-      {
-        id: 'refresh',
-        label: 'Tazeleme Hızı',
-        icon: <Zap className="w-3 sm:w-3.5 h-3 sm:h-3.5 text-slate-400 shrink-0" />,
-        val: `${tv2Refresh} Hz${s2.gamingFeatures?.length ? ' • VRR' : ''}`,
-        score10: tv2Refresh >= 144 ? 10.0 : (tv2Refresh >= 120 ? 9.2 : 6.5)
-      },
-      {
-        id: 'audio',
-        label: 'Ses Sistemi',
-        icon: <Award className="w-3 sm:w-3.5 h-3 sm:h-3.5 text-slate-400 shrink-0" />,
-        val: tv2Audio ? `${tv2Audio}W${s2.dolbyAtmos !== false ? ' Atmos' : ''}` : '20W Standart',
-        score10: tv2Audio ? Math.min(10.0, Math.max(4.0, (tv2Audio / 70) * 10)) : 6.0
-      }
-    ];
-  } else if (isLaptop) {
-    statBars1 = [
-      {
-        id: 'cpu',
-        label: 'İşlemci (CPU)',
-        icon: <Cpu className="w-3 sm:w-3.5 h-3 sm:h-3.5 text-slate-400 shrink-0" />,
-        val: s1.processor || 'Çok Çekirdek',
-        score10: 9.0
-      },
-      {
-        id: 'gpu',
-        label: 'Grafik Kartı (GPU)',
-        icon: <Zap className="w-3 sm:w-3.5 h-3 sm:h-3.5 text-slate-400 shrink-0" />,
-        val: s1.gpu || 'Dahili GPU',
-        score10: 8.8
-      },
-      {
-        id: 'mobility',
-        label: 'Pil / Ağırlık',
-        icon: <BatteryCharging className="w-3 sm:w-3.5 h-3 sm:h-3.5 text-slate-400 shrink-0" />,
-        val: s1.batteryCapacityWh ? `${s1.batteryCapacityWh} Wh` : (s1.weightKg ? `${s1.weightKg} kg` : 'Taşınabilir'),
-        score10: 8.5
-      }
-    ];
-
-    statBars2 = [
-      {
-        id: 'cpu',
-        label: 'İşlemci (CPU)',
-        icon: <Cpu className="w-3 sm:w-3.5 h-3 sm:h-3.5 text-slate-400 shrink-0" />,
-        val: s2.processor || 'Çok Çekirdek',
-        score10: 9.0
-      },
-      {
-        id: 'gpu',
-        label: 'Grafik Kartı (GPU)',
-        icon: <Zap className="w-3 sm:w-3.5 h-3 sm:h-3.5 text-slate-400 shrink-0" />,
-        val: s2.gpu || 'Dahili GPU',
-        score10: 8.8
-      },
-      {
-        id: 'mobility',
-        label: 'Pil / Ağırlık',
-        icon: <BatteryCharging className="w-3 sm:w-3.5 h-3 sm:h-3.5 text-slate-400 shrink-0" />,
-        val: s2.batteryCapacityWh ? `${s2.batteryCapacityWh} Wh` : (s2.weightKg ? `${s2.weightKg} kg` : 'Taşınabilir'),
-        score10: 8.5
-      }
-    ];
-  } else {
-    // Smartphones (default)
-    statBars1 = [
-      {
-        id: 'camera',
-        label: 'Kamera',
-        icon: <Camera className="w-3 sm:w-3.5 h-3 sm:h-3.5 text-slate-400 shrink-0" />,
-        val: stats1.camera ? `${stats1.camera}/10` : 'Doğrulanmış veri yok',
-        score10: stats1.camera ? Number(stats1.camera) : null
-      },
-      {
-        id: 'battery',
-        label: 'Batarya',
-        icon: <BatteryCharging className="w-3 sm:w-3.5 h-3 sm:h-3.5 text-slate-400 shrink-0" />,
-        val: stats1.battery ? `${stats1.battery}/10` : 'Doğrulanmış veri yok',
-        score10: stats1.battery ? Number(stats1.battery) : null
-      },
-      {
-        id: 'screen',
-        label: 'Ekran',
-        icon: <PhoneIcon className="w-3 sm:w-3.5 h-3 sm:h-3.5 text-slate-400 shrink-0" />,
-        val: stats1.screen ? `${stats1.screen}/10` : 'Doğrulanmış veri yok',
-        score10: stats1.screen ? Number(stats1.screen) : null
-      }
-    ];
-
-    statBars2 = [
-      {
-        id: 'camera',
-        label: 'Kamera',
-        icon: <Camera className="w-3 sm:w-3.5 h-3 sm:h-3.5 text-slate-400 shrink-0" />,
-        val: stats2.camera ? `${stats2.camera}/10` : 'Doğrulanmış veri yok',
-        score10: stats2.camera ? Number(stats2.camera) : null
-      },
-      {
-        id: 'battery',
-        label: 'Batarya',
-        icon: <BatteryCharging className="w-3 sm:w-3.5 h-3 sm:h-3.5 text-slate-400 shrink-0" />,
-        val: stats2.battery ? `${stats2.battery}/10` : 'Doğrulanmış veri yok',
-        score10: stats2.battery ? Number(stats2.battery) : null
-      },
-      {
-        id: 'screen',
-        label: 'Ekran',
-        icon: <PhoneIcon className="w-3 sm:w-3.5 h-3 sm:h-3.5 text-slate-400 shrink-0" />,
-        val: stats2.screen ? `${stats2.screen}/10` : 'Doğrulanmış veri yok',
-        score10: stats2.screen ? Number(stats2.screen) : null
-      }
-    ];
-  }
-
-  // Overall Score (100-scale) - Real verified data only, never fabricate 4.8 / 4.7
-  const score1 = getProductScore(product1);
-  const score2 = getProductScore(product2);
-  const overallWinner = calculateOverallDuelWinner(score1, score2);
-
-  const nits1 = s1.screen?.brightnessNits || s1.screen?.brightness || null;
-  const nits2 = s2.screen?.brightnessNits || s2.screen?.brightness || null;
-  const nitsWinner: 1 | 2 | 'tie' | undefined = (nits1 && nits2)
-    ? (nits1 === nits2 ? 'tie' : (nits1 > nits2 ? 1 : 2))
-    : undefined;
-  const nitsDiff = (nits1 && nits2)
-    ? (nits1 === nits2 ? 'Eşit tepe parlaklık seviyesi' : `${Math.abs(nits1 - nits2)} nits parlaklık farkı`)
-    : 'Doğrulanmış kıyas verisi yok';
-
-  const antutuWinner: 1 | 2 | 'tie' | undefined = (antutu1 && antutu2)
-    ? (antutu1 === antutu2 ? 'tie' : (antutu1 > antutu2 ? 1 : 2))
-    : undefined;
-  const antutuDiff = (antutu1 && antutu2)
-    ? (antutu1 === antutu2 ? 'Eşit sentetik benchmark skoru' : `+${Math.abs(Math.round(((antutu1 - antutu2) / Math.min(antutu1, antutu2)) * 100))}% AnTuTu hız farkı`)
-    : 'Doğrulanmış kıyas verisi yok';
-
-  const mp1 = parseMp(s1.camera?.mainMp);
-  const mp2 = parseMp(s2.camera?.mainMp);
-  const camWinner: 1 | 2 | 'tie' | undefined = (mp1 > 0 && mp2 > 0)
-    ? (mp1 === mp2 ? 'tie' : (mp1 > mp2 ? 1 : 2))
-    : undefined;
-  const camDiff = (mp1 > 0 && mp2 > 0)
-    ? (mp1 === mp2 ? 'Eşit kamera sensör çözünürlüğü' : `${mp1 > mp2 ? product1.brand : product2.brand} ${Math.max(mp1, mp2)} MP ile önde`)
-    : (s1.camera?.mainMp && s2.camera?.mainMp ? 'Kamera sensör kıyası' : 'Doğrulanmış kıyas verisi yok');
-
-  const bat1 = s1.battery?.capacitymAh || null;
-  const bat2 = s2.battery?.capacitymAh || null;
-  const watt1 = s1.battery?.chargingWatts || null;
-  const watt2 = s2.battery?.chargingWatts || null;
-  const batWinner: 1 | 2 | 'tie' | undefined = (bat1 && bat2)
-    ? (bat1 === bat2 ? 'tie' : (bat1 > bat2 ? 1 : 2))
-    : undefined;
-  const batDiff = (bat1 && bat2)
-    ? (bat1 === bat2 ? 'Eşit batarya kapasitesi' : `${Math.abs(bat1 - bat2)} mAh kapasite farkı`)
-    : 'Doğrulanmış kıyas verisi yok';
-
-  // Dynamic rounds configuration based on category
-  let roundDefs: {
-    id: number;
-    title: string;
-    shortTitle: string;
-    icon: string;
-    winner?: 1 | 2 | 'tie';
-    p1Val: string;
-    p2Val: string;
-    p1Sub: string;
-    p2Sub: string;
-    diff: string;
-  }[] = [];
-
-  if (isTV) {
-    const tvSizeWinner: 1 | 2 | 'tie' | undefined = (tv1Size && tv2Size)
-      ? (tv1Size === tv2Size ? 'tie' : (tv1Size > tv2Size ? 1 : 2))
-      : undefined;
-    const tvRefreshWinner: 1 | 2 | 'tie' | undefined = (tv1Refresh && tv2Refresh)
-      ? (tv1Refresh === tv2Refresh ? 'tie' : (tv1Refresh > tv2Refresh ? 1 : 2))
-      : undefined;
-    const tvAudioWinner: 1 | 2 | 'tie' | undefined = (tv1Audio && tv2Audio)
-      ? (tv1Audio === tv2Audio ? 'tie' : (tv1Audio > tv2Audio ? 1 : 2))
-      : undefined;
-
-    roundDefs = [
-      {
-        id: 1,
-        title: 'RAUNT 1: PANEL & GÖRÜNTÜ',
-        shortTitle: 'Panel & Çözünürlük',
-        icon: '🖥️',
-        winner: tvSizeWinner,
-        p1Val: `${s1.displayTech || 'OLED'} ${tv1Size ? `(${tv1Size}")` : ''}`,
-        p2Val: `${s2.displayTech || 'OLED'} ${tv2Size ? `(${tv2Size}")` : ''}`,
-        p1Sub: s1.resolution || '4K Ultra HD',
-        p2Sub: s2.resolution || '4K Ultra HD',
-        diff: (tv1Size && tv2Size) ? (tv1Size === tv2Size ? 'Eşit ekran boyutu ve premium panel mimarisi' : `${Math.abs(tv1Size - tv2Size)} inç ekran boyutu farkı`) : 'Ekran paneli ve çözünürlük kıyası'
-      },
-      {
-        id: 2,
-        title: 'RAUNT 2: HIZ & YENİLEME',
-        shortTitle: 'Tazeleme Hızı & Oyun',
-        icon: '⚡',
-        winner: tvRefreshWinner,
-        p1Val: `${tv1Refresh} Hz`,
-        p2Val: `${tv2Refresh} Hz`,
-        p1Sub: s1.gamingFeatures?.[0] || 'VRR & ALLM Destekli',
-        p2Sub: s2.gamingFeatures?.[0] || 'VRR & ALLM Destekli',
-        diff: (tv1Refresh && tv2Refresh && tv1Refresh !== tv2Refresh) ? `${Math.abs(tv1Refresh - tv2Refresh)} Hz tazeleme farkı` : 'Akıcı oyun ve konsol tazeleme hızı'
-      },
-      {
-        id: 3,
-        title: 'RAUNT 3: SES SİSTEMİ',
-        shortTitle: 'Hoparlör Gücü & Akustik',
-        icon: '🔊',
-        winner: tvAudioWinner,
-        p1Val: tv1Audio ? `${tv1Audio}W Hoparlör` : 'Doğrulanmış ses verisi yok',
-        p2Val: tv2Audio ? `${tv2Audio}W Hoparlör` : 'Doğrulanmış ses verisi yok',
-        p1Sub: s1.dolbyAtmos !== false ? 'Dolby Atmos Desteği' : 'Dahili Hoparlör',
-        p2Sub: s2.dolbyAtmos !== false ? 'Dolby Atmos Desteği' : 'Dahili Hoparlör',
-        diff: (tv1Audio && tv2Audio) ? (tv1Audio === tv2Audio ? 'Eşit ses çıkış gücü seviyesi' : `${Math.abs(tv1Audio - tv2Audio)}W ses çıkış gücü farkı`) : 'Dahili ses sistemi kıyası'
-      },
-      {
-        id: 4,
-        title: 'RAUNT 4: SMART TV & PORTLAR',
-        shortTitle: 'Smart OS & Portlar',
-        icon: '🌐',
-        winner: 'tie',
-        p1Val: s1.smartOs || 'Smart TV',
-        p2Val: s2.smartOs || 'Smart TV',
-        p1Sub: s1.hdmiPorts ? `${s1.hdmiPorts}x HDMI Girişi` : 'HDMI 2.1 & eARC',
-        p2Sub: s2.hdmiPorts ? `${s2.hdmiPorts}x HDMI Girişi` : 'HDMI 2.1 & eARC',
-        diff: 'Smart TV arayüzü ve yeni nesil HDMI bağlantıları'
-      }
-    ];
-  } else if (isLaptop) {
-    roundDefs = [
-      {
-        id: 1,
-        title: 'RAUNT 1: İŞLEMCİ (CPU)',
-        shortTitle: 'İşlemci Gücü',
-        icon: '⚡',
-        winner: 'tie',
-        p1Val: s1.processor || 'Çok Çekirdekli CPU',
-        p2Val: s2.processor || 'Çok Çekirdekli CPU',
-        p1Sub: s1.processorCores ? `${s1.processorCores} Çekirdek` : 'Yüksek Performans',
-        p2Sub: s2.processorCores ? `${s2.processorCores} Çekirdek` : 'Yüksek Performans',
-        diff: 'İşlemci mimarisi ve çekirdek gücü'
-      },
-      {
-        id: 2,
-        title: 'RAUNT 2: GRAFİK (GPU)',
-        shortTitle: 'Ekran Kartı & FPS',
-        icon: '🎮',
-        winner: 'tie',
-        p1Val: s1.gpu || 'Grafik Birimi',
-        p2Val: s2.gpu || 'Grafik Birimi',
-        p1Sub: s1.gpuTgpWatts ? `${s1.gpuTgpWatts}W TGP Gücü` : 'Özel Grafik Mimarisi',
-        p2Sub: s2.gpuTgpWatts ? `${s2.gpuTgpWatts}W TGP Gücü` : 'Özel Grafik Mimarisi',
-        diff: 'Oyun ve grafik render performansı'
-      },
-      {
-        id: 3,
-        title: 'RAUNT 3: EKRAN & PANELLER',
-        shortTitle: 'Ekran & Çözünürlük',
-        icon: '💻',
-        winner: 'tie',
-        p1Val: s1.screenSizeInches ? `${s1.screenSizeInches}" Ekran` : 'Panel',
-        p2Val: s2.screenSizeInches ? `${s2.screenSizeInches}" Ekran` : 'Panel',
-        p1Sub: s1.screenResolution || 'Yüksek Çözünürlük',
-        p2Sub: s2.screenResolution || 'Yüksek Çözünürlük',
-        diff: 'Ekran boyutu ve piksel netliği'
-      },
-      {
-        id: 4,
-        title: 'RAUNT 4: PİL & MOBİLİTE',
-        shortTitle: 'Batarya & Taşınabilirlik',
-        icon: '🔋',
-        winner: 'tie',
-        p1Val: s1.batteryCapacityWh ? `${s1.batteryCapacityWh} Wh Pil` : (s1.weightKg ? `${s1.weightKg} kg` : 'Mobil Batarya'),
-        p2Val: s2.batteryCapacityWh ? `${s2.batteryCapacityWh} Wh Pil` : (s2.weightKg ? `${s2.weightKg} kg` : 'Mobil Batarya'),
-        p1Sub: s1.chargerWatts ? `${s1.chargerWatts}W Adaptör` : 'Taşınabilir Kasa',
-        p2Sub: s2.chargerWatts ? `${s2.chargerWatts}W Adaptör` : 'Taşınabilir Kasa',
-        diff: 'Pil kapasitesi ve mobil gövde ağırlığı'
-      }
-    ];
-  } else {
-    // Smartphones (default)
-    roundDefs = [
-      {
-        id: 1,
-        title: 'RAUNT 1: EKRAN',
-        shortTitle: 'Ekran & Parlaklık',
-        icon: '🛡️',
-        winner: nitsWinner,
-        p1Val: nits1 ? `${nits1} nits Peak` : 'Doğrulanmış veri yok',
-        p2Val: nits2 ? `${nits2} nits Peak` : 'Doğrulanmış veri yok',
-        p1Sub: s1.screen?.type || `${product1.brand} Ekran Paneli`,
-        p2Sub: s2.screen?.type || `${product2.brand} Ekran Paneli`,
-        diff: nitsDiff
-      },
-      {
-        id: 2,
-        title: 'RAUNT 2: PERFORMANS',
-        shortTitle: 'İşlemci & AnTuTu V10',
-        icon: '⚡',
-        winner: antutuWinner,
-        p1Val: antutu1 ? `${(antutu1 / 1000).toFixed(0)}k puan` : 'Doğrulanmış veri yok',
-        p2Val: antutu2 ? `${(antutu2 / 1000).toFixed(0)}k puan` : 'Doğrulanmış veri yok',
-        p1Sub: s1.processor?.chip || `${product1.brand} Çip Mimarisi`,
-        p2Sub: s2.processor?.chip || `${product2.brand} Çip Mimarisi`,
-        diff: antutuDiff
-      },
-      {
-        id: 3,
-        title: 'RAUNT 3: KAMERA',
-        shortTitle: 'Kamera & Video Çekimi',
-        icon: '📸',
-        winner: camWinner,
-        p1Val: s1.camera?.mainMp || 'Doğrulanmış veri yok',
-        p2Val: s2.camera?.mainMp || 'Doğrulanmış veri yok',
-        p1Sub: s1.camera?.videoRes || 'Yüksek Çözünürlüklü Video',
-        p2Sub: s2.camera?.videoRes || 'Yüksek Çözünürlüklü Video',
-        diff: camDiff
-      },
-      {
-        id: 4,
-        title: 'RAUNT 4: BATARYA',
-        shortTitle: 'Batarya Kapasitesi & Şarj',
-        icon: '🔋',
-        winner: batWinner,
-        p1Val: bat1 ? `${bat1} mAh${watt1 ? ` (${watt1}W)` : ''}` : 'Doğrulanmış veri yok',
-        p2Val: bat2 ? `${bat2} mAh${watt2 ? ` (${watt2}W)` : ''}` : 'Doğrulanmış veri yok',
-        p1Sub: watt1 ? `${watt1}W Hızlı Şarj` : (bat1 ? 'Standart Şarj' : 'Doğrulanmış şarj verisi yok'),
-        p2Sub: watt2 ? `${watt2}W Hızlı Şarj` : (bat2 ? 'Standart Şarj' : 'Doğrulanmış şarj verisi yok'),
-        diff: batDiff
-      }
-    ];
-  }
+  const products = [product1, product2];
+  const duelRows = getDuelRows(products);
+  const score1 = getProductScore(product1), score2 = getProductScore(product2);
+  // Catalog scores do not carry a shared, verified measurement method.
+  const overallWinner = 'insufficient_data' as const;
+  const roundDefs = duelRows.map((row,index) => {
+    const outcome = getMetricOutcome(row,products);
+    return {id:index+1,title:row.label,shortTitle:row.label,icon:'⚖',
+      winner: outcome===1||outcome===2||outcome==='tie' ? outcome : undefined,
+      p1Val:row.getValue(product1),p2Val:row.getValue(product2),
+      p1Sub:'Katalog kaydı',p2Sub:'Katalog kaydı',diff:describeMetric(row,products)};
+  });
+  const statRows = duelRows.filter(row=>row.id!=='price').slice(0,3);
+  const bars = (product:Product) => statRows.map(row => ({id:row.id,label:row.label,val:row.getValue(product),icon:<Scale className="w-3 h-3 shrink-0"/>}));
+  const statBars1=bars(product1),statBars2=bars(product2);
 
   return (
     <div className="w-full space-y-6 pb-24 sm:pb-8">
+      {actionError && <p role="alert" className="text-sm text-rose-700 bg-rose-50 rounded-xl p-3">{actionError}</p>}
       
       {/* ========================================================================= */}
       {/* 🏟️ DÜELLO ARENA MAIN STAGE (1:1 PIXEL MATCH WITH USER REFERENCE IMAGE)  */}
@@ -686,7 +243,7 @@ export function DuelArena({ product1, product2, onProductChange }: DuelArenaProp
           </div>
           
           {/* ================= LEFT COLUMN: SEARCH COMBOBOX 1 + FROSTED GLASS CARD ================= */}
-          <div className={`col-span-1 lg:col-span-4 order-1 lg:order-1 space-y-2 sm:space-y-3 relative ${
+          <div className={`min-w-0 col-span-1 lg:col-span-4 order-1 lg:order-1 space-y-2 sm:space-y-3 relative ${
             openDropdown1 ? 'z-50' : 'z-30'
           }`}>
             {/* Search Combobox 1 */}
@@ -701,8 +258,9 @@ export function DuelArena({ product1, product2, onProductChange }: DuelArenaProp
                     setOpenDropdown1(true);
                   }}
                   onFocus={() => setOpenDropdown1(true)}
-                  placeholder="1. Cihaz..."
-                  className="w-full pl-7 sm:pl-9 pr-6 sm:pr-8 py-2 sm:py-2.5 bg-slate-900/85 backdrop-blur-xl border border-emerald-400/50 hover:border-emerald-400 focus:border-emerald-300 rounded-xl sm:rounded-2xl text-[11px] sm:text-xs font-semibold text-white placeholder-slate-400 shadow-[0_4px_20px_rgba(0,0,0,0.3)] focus:outline-none focus:ring-2 focus:ring-emerald-400/40 transition-all"
+                  onKeyDown={event=>{if(event.key==='Escape')setOpenDropdown1(false);}}
+                  aria-label="Birinci karşılaştırma cihazını ara" placeholder="1. Cihaz..."
+                  className="min-h-11 w-full pl-7 sm:pl-9 pr-11 py-2 sm:py-2.5 bg-slate-900/85 backdrop-blur-xl border border-emerald-400/50 hover:border-emerald-400 focus:border-emerald-300 rounded-xl sm:rounded-2xl text-base sm:text-sm font-semibold text-white placeholder-slate-400 shadow-[0_4px_20px_rgba(0,0,0,0.3)] focus:outline-none focus:ring-2 focus:ring-emerald-400/40 transition-all"
                 />
                 {loading1 ? (
                   <Loader2 className="absolute right-2 sm:right-3 w-3 sm:w-3.5 h-3 sm:h-3.5 text-emerald-400 animate-spin" />
@@ -713,7 +271,7 @@ export function DuelArena({ product1, product2, onProductChange }: DuelArenaProp
                       setResults1([]);
                       setOpenDropdown1(false);
                     }}
-                    className="absolute right-2 sm:right-3 text-slate-400 hover:text-white cursor-pointer"
+                    aria-label="Birinci cihaz aramasını temizle" className="absolute right-0 flex h-11 w-11 items-center justify-center text-slate-400 hover:text-white cursor-pointer"
                   >
                     <X className="w-3 sm:w-3.5 h-3 sm:h-3.5" />
                   </button>
@@ -727,7 +285,7 @@ export function DuelArena({ product1, product2, onProductChange }: DuelArenaProp
                     <button
                       key={item.id}
                       onClick={() => handleSelectProduct(0, item)}
-                      className="w-full flex items-center gap-2.5 p-2 sm:p-2.5 hover:bg-emerald-500/20 text-left transition-colors group cursor-pointer"
+                      className="w-full grid grid-cols-[36px_minmax(0,1fr)] items-center gap-2.5 p-3 hover:bg-emerald-500/20 text-left transition-colors group cursor-pointer"
                     >
                       <div className="w-8 h-8 sm:w-9 sm:h-9 bg-white/10 rounded-lg sm:rounded-xl p-1 shrink-0 flex items-center justify-center border border-white/10">
                         <img
@@ -740,13 +298,13 @@ export function DuelArena({ product1, product2, onProductChange }: DuelArenaProp
                         <div className="text-[9px] sm:text-[10px] font-bold text-emerald-400 uppercase tracking-wider">
                           {item.brand}
                         </div>
-                        <div className="text-[11px] sm:text-xs font-bold text-white truncate group-hover:text-emerald-300">
+                        <div className="text-[11px] sm:text-xs font-bold text-white break-words leading-relaxed group-hover:text-emerald-300">
                           {item.name}
                         </div>
                       </div>
-                      <div className="text-right shrink-0">
+                      <div className="col-span-2 border-t border-white/10 pt-2 text-left">
                         <div className="text-[10px] sm:text-[11px] font-black text-slate-200">
-                          ₺{item.basePrice?.toLocaleString('tr-TR') || '—'}
+                          <ProductPriceSummary product={item} compact dark />
                         </div>
                       </div>
                     </button>
@@ -763,7 +321,7 @@ export function DuelArena({ product1, product2, onProductChange }: DuelArenaProp
                   <span className="text-[8.5px] sm:text-[10px] font-black uppercase tracking-widest text-slate-500 block mb-0.5">
                     {product1.brand}
                   </span>
-                  <h2 className="text-[11px] sm:text-base lg:text-lg font-black text-slate-900 line-clamp-2 min-h-[2rem] sm:min-h-[2.75rem] leading-tight" title={product1.name}>
+                  <h2 className="text-xs sm:text-base lg:text-lg font-black text-slate-900 break-words min-h-[3rem] sm:min-h-[2.75rem] leading-snug" title={product1.name}>
                     {product1.name}
                   </h2>
                 </div>
@@ -793,16 +351,13 @@ export function DuelArena({ product1, product2, onProductChange }: DuelArenaProp
                       </span>
                     )}
                   </div>
-                  <div className="text-[10px] sm:text-xs font-black text-slate-600 tracking-wide mt-0.5">
-                    <span className="hidden sm:inline">Canlı fiyat: </span>
-                    <span className="text-slate-900 font-extrabold block sm:inline">
-                      {product1.basePrice ? `₺${product1.basePrice.toLocaleString()}` : '—'}
-                    </span>
-                  </div>
+                  <p className="text-[10px] text-slate-500">Katalog puanı · ölçüm yöntemi doğrulanmadı</p>
+                  <div className="mt-2"><ProductPriceSummary product={product1} compact /></div>
                 </div>
 
                 {/* Stat Power Bars (Dynamic Category-Aware) */}
                 <div className="space-y-1.5 sm:space-y-2.5 text-[10px] sm:text-xs pt-2 sm:pt-3 border-t border-slate-200/80">
+                  {getSpecVerificationNotice(product1) && <p className="text-[10px] text-amber-800" title={getSpecVerificationNotice(product1)!}>Özellikler kaynak doğrulaması bekliyor</p>}
                   {statBars1.map((item) => (
                     <div key={item.id}>
                       <div className="flex justify-between items-center font-bold text-slate-600 mb-0.5 sm:mb-1">
@@ -812,12 +367,7 @@ export function DuelArena({ product1, product2, onProductChange }: DuelArenaProp
                         </span>
                         <span className="font-black text-slate-800 text-[9.5px] sm:text-xs truncate ml-1">{item.val}</span>
                       </div>
-                      <div className="w-full bg-slate-200/70 h-1.5 sm:h-2 rounded-full overflow-hidden">
-                        <div
-                          className="bg-emerald-500 h-full rounded-full transition-all duration-700"
-                          style={{ width: `${item.score10 !== null ? Math.min(100, Math.max(12, item.score10 * 10)) : 0}%` }}
-                        />
-                      </div>
+
                     </div>
                   ))}
                 </div>
@@ -830,8 +380,8 @@ export function DuelArena({ product1, product2, onProductChange }: DuelArenaProp
                 rel="noopener noreferrer"
                 className="mt-2.5 sm:mt-4 w-full bg-emerald-600 hover:bg-emerald-500 text-white font-extrabold text-[10px] sm:text-xs py-2 sm:py-2.5 px-1.5 sm:px-2 rounded-lg sm:rounded-xl flex items-center justify-center gap-1 sm:gap-1.5 transition-all shadow-md cursor-pointer text-center"
               >
-                <span className="hidden sm:inline">Mağaza Teklifine Git</span>
-                <span className="inline sm:hidden">Mağazaya Git</span>
+                <span className="hidden sm:inline">Mağazada Ara</span>
+                <span className="inline sm:hidden">Mağazada Ara</span>
                 <ExternalLink className="w-3 sm:w-3.5 h-3 sm:h-3.5 shrink-0" />
               </a>
             </div>
@@ -861,7 +411,7 @@ export function DuelArena({ product1, product2, onProductChange }: DuelArenaProp
                   <button
                     key={round.id}
                     onClick={() => setSelectedRound(isActive ? null : round.id)}
-                    className={`w-full py-1.5 px-2 sm:px-3 rounded-xl sm:rounded-full text-[10px] sm:text-[11px] font-black tracking-wide border transition-all flex items-center gap-1 sm:gap-1.5 shadow-sm cursor-pointer ${
+                    className={`min-h-11 w-full py-1.5 px-2 sm:px-3 rounded-xl sm:rounded-full text-[10px] sm:text-[11px] font-black tracking-wide border transition-all flex items-center gap-1 sm:gap-1.5 shadow-sm cursor-pointer ${
                       isActive
                         ? 'bg-emerald-600 text-white border-emerald-400 ring-2 ring-emerald-300'
                         : 'bg-white/90 hover:bg-white text-slate-800 border-slate-300/80 hover:border-emerald-400'
@@ -906,9 +456,10 @@ export function DuelArena({ product1, product2, onProductChange }: DuelArenaProp
               </p>
             </div>
 
-            {/* Live Voting Section */}
+            <p className="text-xs text-slate-600 mt-2">Benim tercihim · yalnız bu tarayıcıda saklanır</p>
             <div className="w-full grid grid-cols-2 gap-2 mt-2 z-20">
               <button
+                aria-pressed={userVote===1} aria-label={`${product1.name} benim tercihim`}
                 onClick={() => handleVote(1)}
                 className={`py-2 px-2 sm:px-3 rounded-xl text-[11px] sm:text-xs font-black transition-all flex items-center justify-center gap-1 cursor-pointer border ${
                   userVote === 1
@@ -917,10 +468,11 @@ export function DuelArena({ product1, product2, onProductChange }: DuelArenaProp
                 }`}
               >
                 <ThumbsUp className="w-3 sm:w-3.5 h-3 sm:h-3.5" />
-                <span className="truncate">{product1.brand} ({voteStats.p1Percent}%)</span>
+                <span className="truncate">{userVote === 1 ? '✓ ' : ''}{product1.brand}</span>
               </button>
 
               <button
+                aria-pressed={userVote===2} aria-label={`${product2.name} benim tercihim`}
                 onClick={() => handleVote(2)}
                 className={`py-2 px-2 sm:px-3 rounded-xl text-[11px] sm:text-xs font-black transition-all flex items-center justify-center gap-1 cursor-pointer border ${
                   userVote === 2
@@ -929,14 +481,14 @@ export function DuelArena({ product1, product2, onProductChange }: DuelArenaProp
                 }`}
               >
                 <ThumbsUp className="w-3 sm:w-3.5 h-3 sm:h-3.5" />
-                <span className="truncate">{product2.brand} ({voteStats.p2Percent}%)</span>
+                <span className="truncate">{userVote === 2 ? '✓ ' : ''}{product2.brand}</span>
               </button>
             </div>
 
           </div>
 
           {/* ================= RIGHT COLUMN: SEARCH COMBOBOX 2 + FROSTED GLASS CARD ================= */}
-          <div className={`col-span-1 lg:col-span-4 order-2 lg:order-3 space-y-2 sm:space-y-3 relative ${
+          <div className={`min-w-0 col-span-1 lg:col-span-4 order-2 lg:order-3 space-y-2 sm:space-y-3 relative ${
             openDropdown2 ? 'z-50' : 'z-30'
           }`}>
             {/* Search Combobox 2 */}
@@ -951,8 +503,9 @@ export function DuelArena({ product1, product2, onProductChange }: DuelArenaProp
                     setOpenDropdown2(true);
                   }}
                   onFocus={() => setOpenDropdown2(true)}
-                  placeholder="2. Cihaz..."
-                  className="w-full pl-7 sm:pl-9 pr-6 sm:pr-8 py-2 sm:py-2.5 bg-slate-900/85 backdrop-blur-xl border border-cyan-400/50 hover:border-cyan-400 focus:border-cyan-300 rounded-xl sm:rounded-2xl text-[11px] sm:text-xs font-semibold text-white placeholder-slate-400 shadow-[0_4px_20px_rgba(0,0,0,0.3)] focus:outline-none focus:ring-2 focus:ring-cyan-400/40 transition-all"
+                  onKeyDown={event=>{if(event.key==='Escape')setOpenDropdown2(false);}}
+                  aria-label="İkinci karşılaştırma cihazını ara" placeholder="2. Cihaz..."
+                  className="min-h-11 w-full pl-7 sm:pl-9 pr-11 py-2 sm:py-2.5 bg-slate-900/85 backdrop-blur-xl border border-cyan-400/50 hover:border-cyan-400 focus:border-cyan-300 rounded-xl sm:rounded-2xl text-base sm:text-sm font-semibold text-white placeholder-slate-400 shadow-[0_4px_20px_rgba(0,0,0,0.3)] focus:outline-none focus:ring-2 focus:ring-cyan-400/40 transition-all"
                 />
                 {loading2 ? (
                   <Loader2 className="absolute right-2 sm:right-3 w-3 sm:w-3.5 h-3 sm:h-3.5 text-cyan-400 animate-spin" />
@@ -963,7 +516,7 @@ export function DuelArena({ product1, product2, onProductChange }: DuelArenaProp
                       setResults2([]);
                       setOpenDropdown2(false);
                     }}
-                    className="absolute right-2 sm:right-3 text-slate-400 hover:text-white cursor-pointer"
+                    aria-label="İkinci cihaz aramasını temizle" className="absolute right-0 flex h-11 w-11 items-center justify-center text-slate-400 hover:text-white cursor-pointer"
                   >
                     <X className="w-3 sm:w-3.5 h-3 sm:h-3.5" />
                   </button>
@@ -977,7 +530,7 @@ export function DuelArena({ product1, product2, onProductChange }: DuelArenaProp
                     <button
                       key={item.id}
                       onClick={() => handleSelectProduct(1, item)}
-                      className="w-full flex items-center gap-2.5 p-2 sm:p-2.5 hover:bg-cyan-500/20 text-left transition-colors group cursor-pointer"
+                      className="w-full grid grid-cols-[36px_minmax(0,1fr)] items-center gap-2.5 p-3 hover:bg-cyan-500/20 text-left transition-colors group cursor-pointer"
                     >
                       <div className="w-8 h-8 sm:w-9 sm:h-9 bg-white/10 rounded-lg sm:rounded-xl p-1 shrink-0 flex items-center justify-center border border-white/10">
                         <img
@@ -990,13 +543,13 @@ export function DuelArena({ product1, product2, onProductChange }: DuelArenaProp
                         <div className="text-[9px] sm:text-[10px] font-bold text-cyan-400 uppercase tracking-wider">
                           {item.brand}
                         </div>
-                        <div className="text-[11px] sm:text-xs font-bold text-white truncate group-hover:text-cyan-300">
+                        <div className="text-[11px] sm:text-xs font-bold text-white break-words leading-relaxed group-hover:text-cyan-300">
                           {item.name}
                         </div>
                       </div>
-                      <div className="text-right shrink-0">
+                      <div className="col-span-2 border-t border-white/10 pt-2 text-left">
                         <div className="text-[10px] sm:text-[11px] font-black text-slate-200">
-                          ₺{item.basePrice?.toLocaleString('tr-TR') || '—'}
+                          <ProductPriceSummary product={item} compact dark />
                         </div>
                       </div>
                     </button>
@@ -1013,7 +566,7 @@ export function DuelArena({ product1, product2, onProductChange }: DuelArenaProp
                   <span className="text-[8.5px] sm:text-[10px] font-black uppercase tracking-widest text-slate-500 block mb-0.5">
                     {product2.brand}
                   </span>
-                  <h2 className="text-[11px] sm:text-base lg:text-lg font-black text-slate-900 line-clamp-2 min-h-[2rem] sm:min-h-[2.75rem] leading-tight" title={product2.name}>
+                  <h2 className="text-xs sm:text-base lg:text-lg font-black text-slate-900 break-words min-h-[3rem] sm:min-h-[2.75rem] leading-snug" title={product2.name}>
                     {product2.name}
                   </h2>
                 </div>
@@ -1043,16 +596,13 @@ export function DuelArena({ product1, product2, onProductChange }: DuelArenaProp
                       </span>
                     )}
                   </div>
-                  <div className="text-[10px] sm:text-xs font-black text-slate-600 tracking-wide mt-0.5">
-                    <span className="hidden sm:inline">Canlı fiyat: </span>
-                    <span className="text-slate-900 font-extrabold block sm:inline">
-                      {product2.basePrice ? `₺${product2.basePrice.toLocaleString()}` : '—'}
-                    </span>
-                  </div>
+                  <p className="text-[10px] text-slate-500">Katalog puanı · ölçüm yöntemi doğrulanmadı</p>
+                  <div className="mt-2"><ProductPriceSummary product={product2} compact /></div>
                 </div>
 
                 {/* Stat Power Bars (Dynamic Category-Aware) */}
                 <div className="space-y-1.5 sm:space-y-2.5 text-[10px] sm:text-xs pt-2 sm:pt-3 border-t border-slate-200/80">
+                  {getSpecVerificationNotice(product2) && <p className="text-[10px] text-amber-800" title={getSpecVerificationNotice(product2)!}>Özellikler kaynak doğrulaması bekliyor</p>}
                   {statBars2.map((item) => (
                     <div key={item.id}>
                       <div className="flex justify-between items-center font-bold text-slate-600 mb-0.5 sm:mb-1">
@@ -1062,12 +612,7 @@ export function DuelArena({ product1, product2, onProductChange }: DuelArenaProp
                         </span>
                         <span className="font-black text-slate-800 text-[9.5px] sm:text-xs truncate ml-1">{item.val}</span>
                       </div>
-                      <div className="w-full bg-slate-200/70 h-1.5 sm:h-2 rounded-full overflow-hidden">
-                        <div
-                          className="bg-emerald-500 h-full rounded-full transition-all duration-700"
-                          style={{ width: `${item.score10 !== null ? Math.min(100, Math.max(12, item.score10 * 10)) : 0}%` }}
-                        />
-                      </div>
+
                     </div>
                   ))}
                 </div>
@@ -1080,8 +625,8 @@ export function DuelArena({ product1, product2, onProductChange }: DuelArenaProp
                 rel="noopener noreferrer"
                 className="mt-2.5 sm:mt-4 w-full bg-emerald-600 hover:bg-emerald-500 text-white font-extrabold text-[10px] sm:text-xs py-2 sm:py-2.5 px-1.5 sm:px-2 rounded-lg sm:rounded-xl flex items-center justify-center gap-1 sm:gap-1.5 transition-all shadow-md cursor-pointer text-center"
               >
-                <span className="hidden sm:inline">Mağaza Teklifine Git</span>
-                <span className="inline sm:hidden">Mağazaya Git</span>
+                <span className="hidden sm:inline">Mağazada Ara</span>
+                <span className="inline sm:hidden">Mağazada Ara</span>
                 <ExternalLink className="w-3 sm:w-3.5 h-3 sm:h-3.5 shrink-0" />
               </a>
             </div>
@@ -1098,30 +643,22 @@ export function DuelArena({ product1, product2, onProductChange }: DuelArenaProp
           <div className="flex items-center gap-2">
             <button
               onClick={() => handleShare()}
-              className="bg-white hover:bg-slate-100 text-slate-700 font-bold px-3 py-1.5 rounded-xl border border-slate-300/80 shadow-xs flex items-center gap-1.5 cursor-pointer"
+              className="min-h-11 bg-white hover:bg-slate-100 text-slate-700 font-bold px-3 py-1.5 rounded-xl border border-slate-300/80 shadow-xs flex items-center gap-1.5 cursor-pointer"
             >
-              <MessageSquare className="w-3.5 h-3.5 text-emerald-600" />
-              <span>{shareCopied ? 'Kopyalandı!' : 'Live Comment'}</span>
+              <Share2 className="w-3.5 h-3.5 text-emerald-600" />
+              <span>{shareCopied ? 'Kopyalandı!' : 'Bağlantıyı Kopyala'}</span>
             </button>
             <div className="hidden sm:inline-flex items-center gap-1.5 text-slate-500 font-medium bg-white/60 px-3 py-1.5 rounded-xl border border-slate-200/60">
-              <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse" />
-              <span>RoboPengu Hakem Analizi Aktif</span>
+              <span>RoboPengu Özellik Karşılaştırması</span>
             </div>
           </div>
 
           {/* Right Social Share Buttons */}
           <div className="flex items-center gap-2">
             <button
-              onClick={() => handleShare()}
-              className="bg-white hover:bg-slate-100 text-slate-700 font-bold px-3 py-1.5 rounded-xl border border-slate-300/80 shadow-xs flex items-center gap-1.5 cursor-pointer"
-            >
-              <Share2 className="w-3.5 h-3.5" />
-              <span>Share</span>
-            </button>
-
-            <button
               onClick={() => handleShare('facebook')}
-              className="bg-blue-600 hover:bg-blue-500 text-white font-bold p-1.5 px-2.5 rounded-xl shadow-xs flex items-center gap-1 cursor-pointer"
+              className="min-h-11 min-w-11 justify-center bg-blue-600 hover:bg-blue-500 text-white font-bold p-1.5 px-2.5 rounded-xl shadow-xs flex items-center gap-1 cursor-pointer"
+              aria-label="Facebook ile paylaş"
               title="Facebook ile Paylaş"
             >
               <span className="font-black text-xs">f</span>
@@ -1129,7 +666,8 @@ export function DuelArena({ product1, product2, onProductChange }: DuelArenaProp
 
             <button
               onClick={() => handleShare('twitter')}
-              className="bg-slate-900 hover:bg-slate-800 text-white font-bold p-1.5 px-2.5 rounded-xl shadow-xs flex items-center gap-1 cursor-pointer"
+              className="min-h-11 min-w-11 justify-center bg-slate-900 hover:bg-slate-800 text-white font-bold p-1.5 px-2.5 rounded-xl shadow-xs flex items-center gap-1 cursor-pointer"
+              aria-label="X ile paylaş"
               title="X / Twitter ile Paylaş"
             >
               <span className="font-black text-xs">𝕏</span>
@@ -1226,211 +764,9 @@ export function DuelArena({ product1, product2, onProductChange }: DuelArenaProp
         </div>
       )}
 
-      {/* ========================================================================= */}
-      {/* 📊 ADVANCED LAB: DİNAMİK DONANIM & ÖNE ÇIKAN AVANTAJ KARTLARI             */}
-      {/* ========================================================================= */}
-      <div className="bg-white border border-slate-200 rounded-3xl p-6 shadow-xs space-y-6">
-        
-        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-slate-100 pb-4">
-          <div className="flex items-center gap-2">
-            {isTV ? (
-              <TvIcon className="w-5 h-5 text-indigo-600" />
-            ) : isLaptop ? (
-              <LaptopIcon className="w-5 h-5 text-purple-600" />
-            ) : (
-              <Cpu className="w-5 h-5 text-emerald-600" />
-            )}
-            <h3 className="text-base font-black text-slate-900">
-              {isTV
-                ? 'Panel Mimarisi & Donanım Karşılaştırması'
-                : isLaptop
-                ? 'İşlemci & Grafik Donanım Gücü'
-                : 'AnTuTu Benchmark V10 & Donanım Karşılaştırması'}
-            </h3>
-          </div>
-          <div className="flex items-center gap-2">
-            <span className="text-xs font-bold text-slate-500 bg-slate-100 px-3 py-1 rounded-full">
-              {isTV ? 'Resmi Üretici Verileri' : isLaptop ? 'Donanım Mimari Verileri' : 'Laboratuvar Test Verileri'}
-            </span>
-          </div>
-        </div>
+      {/* Kayıtlı ürün özetleri */}
+      <CompareVerdictCard products={products} />
 
-        {/* Dynamic Visual Progress Race based on Category */}
-        {isTV ? (
-          <div className="space-y-4">
-            <div>
-              <div className="flex justify-between text-xs font-black mb-1.5">
-                <span className="text-slate-800">{product1.name}</span>
-                <span className="text-emerald-600 font-black">{s1.displayTech || 'OLED'} • {tv1Refresh} Hz</span>
-              </div>
-              <div className="w-full bg-slate-100 h-3.5 rounded-full overflow-hidden p-0.5">
-                <div
-                  className="bg-gradient-to-r from-indigo-500 to-emerald-400 h-full rounded-full transition-all duration-1000"
-                  style={{ width: `${Math.round((tvDisplayScore(s1.displayTech) / 10) * 100)}%` }}
-                />
-              </div>
-            </div>
-
-            <div>
-              <div className="flex justify-between text-xs font-black mb-1.5">
-                <span className="text-slate-800">{product2.name}</span>
-                <span className="text-cyan-600 font-black">{s2.displayTech || 'OLED'} • {tv2Refresh} Hz</span>
-              </div>
-              <div className="w-full bg-slate-100 h-3.5 rounded-full overflow-hidden p-0.5">
-                <div
-                  className="bg-gradient-to-r from-cyan-500 to-blue-500 h-full rounded-full transition-all duration-1000"
-                  style={{ width: `${Math.round((tvDisplayScore(s2.displayTech) / 10) * 100)}%` }}
-                />
-              </div>
-            </div>
-          </div>
-        ) : isLaptop ? (
-          <div className="space-y-4">
-            <div>
-              <div className="flex justify-between text-xs font-black mb-1.5">
-                <span className="text-slate-800">{product1.name}</span>
-                <span className="text-emerald-600 font-black">{s1.processor || 'İşlemci'} • {s1.ramGb ? `${s1.ramGb}GB RAM` : ''}</span>
-              </div>
-              <div className="w-full bg-slate-100 h-3.5 rounded-full overflow-hidden p-0.5">
-                <div
-                  className="bg-gradient-to-r from-purple-500 to-emerald-400 h-full rounded-full transition-all duration-1000"
-                  style={{ width: `${Math.min(100, Math.max(60, ((s1.ramGb || 16) / 64) * 100))}%` }}
-                />
-              </div>
-            </div>
-
-            <div>
-              <div className="flex justify-between text-xs font-black mb-1.5">
-                <span className="text-slate-800">{product2.name}</span>
-                <span className="text-cyan-600 font-black">{s2.processor || 'İşlemci'} • {s2.ramGb ? `${s2.ramGb}GB RAM` : ''}</span>
-              </div>
-              <div className="w-full bg-slate-100 h-3.5 rounded-full overflow-hidden p-0.5">
-                <div
-                  className="bg-gradient-to-r from-cyan-500 to-indigo-500 h-full rounded-full transition-all duration-1000"
-                  style={{ width: `${Math.min(100, Math.max(60, ((s2.ramGb || 16) / 64) * 100))}%` }}
-                />
-              </div>
-            </div>
-          </div>
-        ) : antutu1 && antutu2 ? (
-          (() => {
-            const maxAntutu = Math.max(antutu1, antutu2, 100000);
-            return (
-              <div className="space-y-4">
-                <div>
-                  <div className="flex justify-between text-xs font-black mb-1.5">
-                    <span className="text-slate-800">{product1.name}</span>
-                    <span className="text-emerald-600 font-black">{antutu1.toLocaleString()} Puan</span>
-                  </div>
-                  <div className="w-full bg-slate-100 h-3.5 rounded-full overflow-hidden p-0.5">
-                    <div
-                      className="bg-gradient-to-r from-emerald-500 to-teal-400 h-full rounded-full transition-all duration-1000"
-                      style={{ width: `${Math.round((antutu1 / maxAntutu) * 100)}%` }}
-                    />
-                  </div>
-                </div>
-
-                <div>
-                  <div className="flex justify-between text-xs font-black mb-1.5">
-                    <span className="text-slate-800">{product2.name}</span>
-                    <span className="text-cyan-600 font-black">{antutu2.toLocaleString()} Puan</span>
-                  </div>
-                  <div className="w-full bg-slate-100 h-3.5 rounded-full overflow-hidden p-0.5">
-                    <div
-                      className="bg-gradient-to-r from-cyan-500 to-blue-500 h-full rounded-full transition-all duration-1000"
-                      style={{ width: `${Math.round((antutu2 / maxAntutu) * 100)}%` }}
-                    />
-                  </div>
-                </div>
-              </div>
-            );
-          })()
-        ) : (
-          <div className="p-4 bg-slate-50 border border-slate-200 rounded-2xl text-center text-xs font-medium text-slate-500">
-            {antutu1 || antutu2 ? (
-              <span>Modellerden biri veya her ikisi için laboratuvar onaylı AnTuTu benchmark puanı henüz sisteme girilmemiştir.</span>
-            ) : (
-              <span>Doğrulanmış AnTuTu V10 benchmark verisi bulunamadı.</span>
-            )}
-          </div>
-        )}
-
-        {/* Versus Style Dynamic Advantage Boxes based on Verified Highlights */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 pt-2">
-          {/* Reasons for Product 1 */}
-          <div className="bg-slate-50 border border-slate-200/80 rounded-2xl p-4 space-y-3">
-            <div className="flex items-center gap-2 font-black text-xs text-slate-900">
-              <Zap className="w-4 h-4 text-emerald-600" />
-              <span>{product1.name} Neden Alınmalı?</span>
-            </div>
-            <ul className="space-y-2 text-xs text-slate-600">
-              {(product1.highlights && product1.highlights.length > 0
-                ? product1.highlights.slice(0, 3)
-                : isTV
-                ? [
-                    `${s1.displayTech || 'Gelişmiş'} panel teknolojisi ve canlı renk üretimi.`,
-                    `${tv1Refresh} Hz yenileme hızı ve konsol optimizasyonu.`,
-                    `${s1.smartOs || 'Smart TV'} akıllı ekosistem desteği.`
-                  ]
-                : isLaptop
-                ? [
-                    `${s1.processor || 'Güçlü işlemci'} çoklu görev performansı.`,
-                    `${s1.ramGb || 16} GB sistem belleği ve hızlı depolama.`,
-                    `${s1.weightKg ? `${s1.weightKg} kg hafif taşınabilir kasa.` : 'Yüksek mobilite.'}`
-                  ]
-                : [
-                    'Optimize edilmiş kararlı işletim sistemi ve akıcı kullanıcı deneyimi.',
-                    'Yüksek renk doğruluğu ve gelişmiş video kayıt yetenekleri.',
-                    'Geniş servis ağı ve uzun vadeli değer koruma avantajı.'
-                  ]
-              ).map((h, i) => (
-                <li key={i} className="flex items-start gap-2">
-                  <CheckCircle2 className="w-3.5 h-3.5 text-emerald-600 shrink-0 mt-0.5" />
-                  <span>{h}</span>
-                </li>
-              ))}
-            </ul>
-          </div>
-
-          {/* Reasons for Product 2 */}
-          <div className="bg-slate-50 border border-slate-200/80 rounded-2xl p-4 space-y-3">
-            <div className="flex items-center gap-2 font-black text-xs text-slate-900">
-              <Zap className="w-4 h-4 text-cyan-600" />
-              <span>{product2.name} Neden Alınmalı?</span>
-            </div>
-            <ul className="space-y-2 text-xs text-slate-600">
-              {(product2.highlights && product2.highlights.length > 0
-                ? product2.highlights.slice(0, 3)
-                : isTV
-                ? [
-                    `${s2.displayTech || 'Gelişmiş'} panel teknolojisi ve derin kontrast.`,
-                    `${tv2Refresh} Hz akıcı ekran ve HDMI 2.1 portları.`,
-                    `${s2.smartOs || 'Smart TV'} akıllı arayüz zenginliği.`
-                  ]
-                : isLaptop
-                ? [
-                    `${s2.processor || 'Yüksek frekanslı'} işlemci gücü.`,
-                    `${s2.gpu || 'Harici/Dahili'} grafik mimarisi.`,
-                    `${s2.batteryCapacityWh ? `${s2.batteryCapacityWh} Wh uzun pil ömrü.` : 'Taşınabilir hafif kasa.'}`
-                  ]
-                : [
-                    `${s2.camera?.mainMp ? `${s2.camera.mainMp} yüksek çözünürlüklü sensör.` : 'Gelişmiş kamera optiği.'}`,
-                    `${s2.battery?.chargingWatts ? `${s2.battery.chargingWatts}W hızlı şarj desteği.` : 'Geniş batarya kapasitesi.'}`,
-                    `Rekabetçi piyasa fiyatı ve güçlü donanım dengesi.`
-                  ]
-              ).map((h, i) => (
-                <li key={i} className="flex items-start gap-2">
-                  <CheckCircle2 className="w-3.5 h-3.5 text-cyan-600 shrink-0 mt-0.5" />
-                  <span>{h}</span>
-                </li>
-              ))}
-            </ul>
-          </div>
-        </div>
-
-      </div>
-
-      {/* ========================================================================= */}
       {/* 🔬 VERSUS & ANTUTU LEVEL DEEP ENGINEERING SPECIFICATIONS (5 CATEGORIES)   */}
       {/* ========================================================================= */}
       <DeepCompareSections product1={product1} product2={product2} />
@@ -1440,4 +776,3 @@ export function DuelArena({ product1, product2, onProductChange }: DuelArenaProp
 }
 
 export default DuelArena;
-

@@ -1,5 +1,7 @@
 'use client';
 
+import { ProductPriceSummary } from '@/components/detail/ProductPriceSummary';
+import { ReviewAvailability } from '@/components/detail/ReviewAvailability';
 import { ProductJsonLd } from '@/components/seo/ProductJsonLd';
 import React, { useState } from 'react';
 import Link from 'next/link';
@@ -13,6 +15,7 @@ import { CompactStoreComparison } from '@/components/detail/CompactStoreComparis
 import { ProductImageGallery } from '@/components/detail/ProductImageGallery';
 import { ProductColorPicker } from '@/components/detail/ProductColorPicker';
 import { StickyHeaderBar } from '@/components/detail/StickyHeaderBar';
+import { evaluateProductPricing } from '@/lib/pricing/unifiedPriceEvaluator';
 import { TVScoreBreakdown } from '@/components/detail/TVScoreBreakdown';
 import { calculateTVScore } from '@/lib/tvScoring';
 
@@ -111,7 +114,6 @@ export default function TVDetailClient({ initialTVProduct }: { initialTVProduct:
   }
 
   const inCompare = isInCompare(tv.id);
-  const score100 = calculateTVScore(tv).totalScore;
 
   return (
     <div className="space-y-12 py-4">
@@ -131,7 +133,7 @@ export default function TVDetailClient({ initialTVProduct }: { initialTVProduct:
       <div className="bg-white border border-slate-200 rounded-3xl p-6 sm:p-8 grid grid-cols-1 lg:grid-cols-12 gap-8 shadow-xs">
         
         {/* Left: Interactive Multi-Photo Gallery Stage */}
-        <div className="lg:col-span-5">
+        <div className="min-w-0 lg:col-span-5">
           <ProductImageGallery
             product={tv}
             activeColorImage={selectedColorImage}
@@ -140,24 +142,14 @@ export default function TVDetailClient({ initialTVProduct }: { initialTVProduct:
         </div>
 
         {/* Right: Info & Actions */}
-        <div className="lg:col-span-7 space-y-6 flex flex-col justify-between">
+        <div className="min-w-0 lg:col-span-7 space-y-6 flex flex-col justify-between">
           <div>
-            <div className="flex items-center justify-between text-xs text-slate-500 mb-2">
+            <div className="flex flex-wrap items-center justify-between gap-2 text-xs text-slate-500 mb-2">
               <span className="font-extrabold text-slate-500 uppercase tracking-widest text-xs">
                 {tv.brand} • {tv.releaseYear}
               </span>
 
-              <div className="flex items-center gap-2">
-                <div className="bg-amber-50 border border-amber-200 text-amber-800 text-xs font-black px-2.5 py-0.5 rounded-full flex items-center gap-1">
-                  <Award className="w-3.5 h-3.5 text-amber-600" />
-                  <span>{score100} / 100 Puan</span>
-                </div>
-                <div className="flex items-center gap-1.5 text-amber-500 font-bold">
-                  <Star className="w-4 h-4 fill-amber-400 text-amber-400" />
-                  <span className="text-slate-900 text-sm">{tv.rating}</span>
-                  <span className="text-slate-400 text-xs">({tv.reviewCount})</span>
-                </div>
-              </div>
+              <ReviewAvailability />
             </div>
 
             <h1 className="text-2xl sm:text-3xl font-black text-slate-900 leading-tight mb-4">
@@ -187,12 +179,7 @@ export default function TVDetailClient({ initialTVProduct }: { initialTVProduct:
 
             {/* Base Lowest Price Box */}
             <div className="bg-slate-50 p-5 rounded-2xl border border-slate-200 flex flex-col sm:flex-row sm:items-center justify-between gap-4">
-              <div>
-                <span className="text-xs text-slate-500 block">Başlangıç Fiyatı</span>
-                <span className="text-2xl sm:text-3xl font-black text-emerald-600">
-                  {tv.basePrice > 0 ? `${tv.basePrice.toLocaleString()} ₺` : 'Fiyat Güncelleniyor'}
-                </span>
-              </div>
+              <ProductPriceSummary product={tv} />
 
               <div className="flex items-center gap-2">
                 {/* Price Alert Button */}
@@ -201,7 +188,7 @@ export default function TVDetailClient({ initialTVProduct }: { initialTVProduct:
                   className="flex-1 sm:flex-initial bg-emerald-50 hover:bg-emerald-100 text-emerald-700 text-xs font-bold px-4 py-3 rounded-xl border border-emerald-200 flex items-center justify-center gap-2 transition-all cursor-pointer"
                 >
                   <Bell className="w-4 h-4 text-emerald-600" />
-                  <span>Fiyat Alarmı Kur</span>
+                  <span>Fiyat Hedefi Kaydet</span>
                 </button>
 
                 {/* Compare Toggle Button */}
@@ -278,9 +265,9 @@ export default function TVDetailClient({ initialTVProduct }: { initialTVProduct:
           <div className="w-10 h-10 rounded-2xl bg-rose-50 text-rose-600 flex items-center justify-center border border-rose-200">
             <Gamepad2 className="w-5 h-5" />
           </div>
-          <h3 className="text-base font-extrabold text-slate-900">Oyun & HDMI 2.1 Performansı</h3>
+          <h3 className="text-base font-extrabold text-slate-900">Oyun ve HDMI Bağlantıları</h3>
           <p className="text-xs text-slate-500 leading-relaxed">
-            {tv.specs.hdmiPorts || 4} adet HDMI girişi ile PlayStation 5 / Xbox Series X konsolları için mükemmel oyun desteği.
+            HDMI giriş sayısı: {tv.specs.hdmiPorts ?? 'Bilinmiyor'}. HDMI standardı: {tv.specs.hdmiVersion || 'Bilinmiyor'}.
           </p>
           <div className="flex flex-wrap gap-1.5 pt-2">
             {(tv.specs.gamingFeatures || []).map((gf, idx) => (
@@ -297,7 +284,7 @@ export default function TVDetailClient({ initialTVProduct }: { initialTVProduct:
           </div>
           <h3 className="text-base font-extrabold text-slate-900">Ses Gücü & Akıllı İşletim Sistemi</h3>
           <p className="text-xs text-slate-500 leading-relaxed">
-            {tv.specs.audioPowerWatts} Watt yüksek ses çıkışı ve {tv.specs.smartOs} akıllı TV işletim sistemi entegrasyonu.
+            Ses gücü: {tv.specs.audioPowerWatts != null ? `${tv.specs.audioPowerWatts} W` : 'Bilinmiyor'}. İşletim sistemi: {tv.specs.smartOs || 'Bilinmiyor'}.
           </p>
           <div className="bg-slate-50 p-2 rounded-xl text-xs font-bold text-slate-700 flex justify-between">
             <span>Enerji Sınıfı:</span>

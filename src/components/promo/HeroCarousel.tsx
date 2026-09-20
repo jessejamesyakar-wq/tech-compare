@@ -3,7 +3,7 @@
 import Image from 'next/image';
 import React, { useState, useEffect, useMemo } from 'react';
 import Link from 'next/link';
-import { motion, AnimatePresence } from 'framer-motion';
+import { motion, AnimatePresence, useReducedMotion } from 'framer-motion';
 import { Sparkles, ChevronLeft, ChevronRight, Zap, Award, ArrowRight, ShieldCheck, Play } from 'lucide-react';
 import { Product } from '@/lib/types';
 import { HeroSlideItem, getDynamicHeroSlides } from '@/lib/heroSlides';
@@ -20,6 +20,9 @@ interface HeroCarouselProps {
 export function HeroCarousel({ activeIndex = 0, onSelect, initialSlides = [] }: HeroCarouselProps) {
   const [currentSlideIndex, setCurrentSlideIndex] = useState(activeIndex);
   const [isStoryOpen, setIsStoryOpen] = useState(false);
+  const [isPaused, setIsPaused] = useState(false);
+  const [isInteracting, setIsInteracting] = useState(false);
+  const reduceMotion = useReducedMotion();
 
   const heroSlides = useMemo(() => {
     if (initialSlides && initialSlides.length > 0) return initialSlides;
@@ -31,6 +34,7 @@ export function HeroCarousel({ activeIndex = 0, onSelect, initialSlides = [] }: 
       id: s.id,
       name: s.productName,
       price: s.price,
+      priceLabel: s.priceLabel,
       image: s.image,
     }));
   }, [heroSlides]);
@@ -42,18 +46,16 @@ export function HeroCarousel({ activeIndex = 0, onSelect, initialSlides = [] }: 
 
   // Reliable Auto-play timer every 4.5 seconds (paused when story video is open)
   useEffect(() => {
-    if (heroSlides.length <= 1 || isStoryOpen) return;
+    if (heroSlides.length <= 1 || isStoryOpen || isPaused || isInteracting || reduceMotion) return;
 
     const timer = setInterval(() => {
-      setCurrentSlideIndex((prev) => {
-        const nextIndex = (prev + 1) % heroSlides.length;
-        onSelect(nextIndex);
-        return nextIndex;
-      });
+      const nextIndex = (currentSlideIndex + 1) % heroSlides.length;
+      setCurrentSlideIndex(nextIndex);
+      onSelect(nextIndex);
     }, 4500);
 
     return () => clearInterval(timer);
-  }, [heroSlides.length, onSelect, isStoryOpen]);
+  }, [heroSlides.length, currentSlideIndex, onSelect, isStoryOpen, isPaused, isInteracting, reduceMotion]);
 
   const slide = heroSlides[currentSlideIndex] || heroSlides[0];
 
@@ -99,37 +101,31 @@ export function HeroCarousel({ activeIndex = 0, onSelect, initialSlides = [] }: 
   const targetHref = getProductHref(slide.category, slide.slug);
 
   return (
-    <div className="group/carousel relative bg-gradient-to-br from-emerald-50/90 via-white to-teal-50/80 border border-emerald-500/25 rounded-3xl p-4 sm:p-5 lg:py-5 lg:px-7 shadow-xl hover:shadow-2xl transition-all duration-500 overflow-hidden">
+    <div onMouseEnter={() => setIsInteracting(true)} onMouseLeave={() => setIsInteracting(false)} onFocusCapture={() => setIsInteracting(true)} onBlurCapture={(event) => { if (!event.currentTarget.contains(event.relatedTarget)) setIsInteracting(false); }} className="group/carousel relative bg-gradient-to-br from-emerald-50/90 via-white to-teal-50/80 border border-emerald-500/25 rounded-3xl p-4 sm:p-5 lg:py-5 lg:px-7 shadow-xl hover:shadow-2xl transition-all duration-500 overflow-hidden">
+      <div className="relative z-30 flex items-center justify-end gap-2 mb-2">
+        <button type="button" onClick={handlePrev} aria-label="Önceki Slayt" className="h-11 w-11 shrink-0 rounded-xl bg-white/95 border border-slate-200 text-slate-800 flex items-center justify-center cursor-pointer hover:bg-emerald-100">
+          <ChevronLeft className="w-5 h-5" />
+        </button>
+        <button type="button" onClick={handleNext} aria-label="Sonraki Slayt" className="h-11 w-11 shrink-0 rounded-xl bg-white/95 border border-slate-200 text-slate-800 flex items-center justify-center cursor-pointer hover:bg-emerald-100">
+          <ChevronRight className="w-5 h-5" />
+        </button>
+        <button type="button" onClick={() => setIsPaused((paused) => !paused)} aria-pressed={isPaused} className="min-h-11 px-3 rounded-xl text-xs font-semibold text-slate-700 bg-white/90 border border-slate-200 cursor-pointer">
+          {isPaused ? 'Slaytları oynat' : 'Slaytları duraklat'}
+        </button>
+      </div>
       {/* Vibrant Ambient Glow Orbs */}
       <div className="absolute -right-16 -top-16 w-[500px] h-[500px] bg-gradient-to-tr from-emerald-500/25 via-teal-400/20 to-transparent rounded-full blur-3xl pointer-events-none" />
       <div className="absolute -left-16 -bottom-16 w-[450px] h-[450px] bg-gradient-to-br from-blue-500/15 via-indigo-500/10 to-teal-500/15 rounded-full blur-3xl pointer-events-none" />
 
-      {/* Prev / Next Arrows */}
-      <button
-        onClick={handlePrev}
-        aria-label="Önceki Slayt"
-        className="absolute left-2 sm:left-3 top-1/2 -translate-y-1/2 z-30 w-8 sm:w-10 h-8 sm:h-10 rounded-full bg-white/95 hover:bg-emerald-600 hover:text-white text-slate-800 shadow-xl border border-slate-200/90 backdrop-blur-md flex items-center justify-center transition-all opacity-0 group-hover/carousel:opacity-100 cursor-pointer"
-      >
-        <ChevronLeft className="w-4 sm:w-5 h-4 sm:h-5 stroke-[2.5]" />
-      </button>
-
-      <button
-        onClick={handleNext}
-        aria-label="Sonraki Slayt"
-        className="absolute right-2 sm:right-3 top-1/2 -translate-y-1/2 z-30 w-8 sm:w-10 h-8 sm:h-10 rounded-full bg-white/95 hover:bg-emerald-600 hover:text-white text-slate-800 shadow-xl border border-slate-200/90 backdrop-blur-md flex items-center justify-center transition-all opacity-0 group-hover/carousel:opacity-100 cursor-pointer"
-      >
-        <ChevronRight className="w-4 sm:w-5 h-4 sm:h-5 stroke-[2.5]" />
-      </button>
-
       {/* 📱 MOBILE VIEW (< lg): Compact Side-by-Side without vertical bloat */}
       <div className="block lg:hidden relative z-10 space-y-2.5">
-        <AnimatePresence mode="wait">
+        <AnimatePresence mode="wait" initial={false}>
           <motion.div
             key={`mobile-${slide.id}`}
             initial={{ opacity: 0, x: 10 }}
             animate={{ opacity: 1, x: 0 }}
             exit={{ opacity: 0, x: -10 }}
-            transition={{ duration: 0.3 }}
+            transition={{ duration: reduceMotion ? 0 : 0.3 }}
             className="space-y-2.5"
           >
             {/* Badges */}
@@ -140,14 +136,14 @@ export function HeroCarousel({ activeIndex = 0, onSelect, initialSlides = [] }: 
               <button
                 type="button"
                 onClick={() => setIsStoryOpen(true)}
-                className="inline-flex items-center gap-1 bg-gradient-to-r from-emerald-600 via-teal-600 to-emerald-700 hover:from-emerald-500 hover:to-teal-500 text-white text-[10px] font-black px-2.5 py-0.5 rounded-full shadow-2xs cursor-pointer transition-all active:scale-95"
+                className="inline-flex items-center gap-1 bg-gradient-to-r from-emerald-600 via-teal-600 to-emerald-700 hover:from-emerald-500 hover:to-teal-500 text-white text-xs min-h-11 font-black px-2.5 py-0.5 rounded-full shadow-2xs cursor-pointer transition-all active:scale-95"
               >
                 <Play className="w-2.5 h-2.5 fill-white text-white" />
                 <span>Hikaye 🎬</span>
               </button>
               <span className="inline-flex items-center gap-1 bg-white/90 border border-slate-200 text-slate-700 text-[10px] font-bold px-2 py-0.5 rounded-full shadow-2xs backdrop-blur-sm">
                 <ShieldCheck className="w-3 h-3 text-emerald-600" />
-                <span>Resmi Distribütör</span>
+                <span>Ürün Kataloğu</span>
               </span>
             </div>
 
@@ -163,24 +159,25 @@ export function HeroCarousel({ activeIndex = 0, onSelect, initialSlides = [] }: 
                   </p>
                 </div>
 
-                <div className="inline-flex items-baseline gap-1.5 bg-white/95 border border-emerald-300/80 px-2 py-0.5 rounded-lg shadow-2xs backdrop-blur-sm">
-                  <span className="text-[8.5px] text-slate-400 font-bold uppercase">EN İYİ FİYAT:</span>
+                <div className="inline-flex flex-col items-start gap-0.5 bg-white/95 border border-emerald-300/80 px-2 py-1 rounded-lg shadow-2xs backdrop-blur-sm max-w-full">
+                  <span className="text-[10px] text-slate-600 font-bold">{slide.priceLabel}</span>
                   <span className="text-xs sm:text-sm font-black text-emerald-700 tabular-nums">
                     {slide.price}
                   </span>
+                  <span className="text-[10px] text-slate-500">{slide.statusLabel}</span>
                 </div>
 
                 <div className="flex items-center gap-1.5 pt-0.5">
                   <Link
                     href={targetHref}
-                    className="flex-1 bg-slate-950 hover:bg-black text-white font-black text-[10px] px-2.5 py-1.5 rounded-lg shadow-sm transition-all flex items-center justify-center gap-1 cursor-pointer"
+                    className="flex-1 bg-slate-950 hover:bg-black text-white font-black text-xs min-h-11 px-2.5 py-1.5 rounded-lg shadow-sm transition-all flex items-center justify-center gap-1 cursor-pointer"
                   >
                     <span>İncele</span>
                     <ArrowRight className="w-3 h-3 text-emerald-400" />
                   </Link>
                   <Link
-                    href={`/compare?p1=${slide.slug}`}
-                    className="flex-1 bg-white hover:bg-slate-50 border border-slate-200 text-slate-800 font-bold text-[10px] px-2 py-1.5 rounded-lg shadow-2xs transition-all flex items-center justify-center gap-1 cursor-pointer"
+                    href={`/compare?d1=${encodeURIComponent(slide.slug)}`}
+                    className="flex-1 bg-white hover:bg-slate-50 border border-slate-200 text-slate-800 font-bold text-xs min-h-11 px-2 py-1.5 rounded-lg shadow-2xs transition-all flex items-center justify-center gap-1 cursor-pointer"
                   >
                     <Zap className="w-3 h-3 text-amber-500 fill-amber-500" />
                     <span>Kıyasla</span>
@@ -214,13 +211,13 @@ export function HeroCarousel({ activeIndex = 0, onSelect, initialSlides = [] }: 
 
       {/* 🖥️ DESKTOP VIEW (lg+): Compact & Balanced Apple Studio Layout */}
       <div className="hidden lg:block relative z-10">
-        <AnimatePresence mode="wait">
+        <AnimatePresence mode="wait" initial={false}>
           <motion.div
             key={`desktop-${slide.id}`}
             initial={{ opacity: 0, y: 8 }}
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -8 }}
-            transition={{ duration: 0.3, ease: 'easeOut' }}
+            transition={{ duration: reduceMotion ? 0 : 0.3, ease: 'easeOut' }}
             className="grid lg:grid-cols-12 gap-6 lg:gap-8 items-center"
           >
             {/* Left Column (7 cols) */}
@@ -233,7 +230,7 @@ export function HeroCarousel({ activeIndex = 0, onSelect, initialSlides = [] }: 
                 </div>
                 <div className="bg-white/90 backdrop-blur-md text-slate-700 border border-slate-200 text-[10.5px] font-bold px-3 py-1 rounded-full flex items-center gap-1.5 shadow-2xs">
                   <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse" />
-                  <span>%100 Resmi Distribütör Garantili</span>
+                  <span>Teknik Özellikler ve Mağaza Seçenekleri</span>
                 </div>
                 <button
                   type="button"
@@ -257,18 +254,14 @@ export function HeroCarousel({ activeIndex = 0, onSelect, initialSlides = [] }: 
 
               {/* Price & Score Block */}
               <div className="flex flex-wrap items-center gap-2.5 pt-0.5">
-                <div className="inline-flex items-baseline gap-2 bg-white/95 border border-emerald-500/30 px-3.5 py-1.5 rounded-xl backdrop-blur-md shadow-2xs">
-                  <span className="text-[10px] text-slate-400 font-bold uppercase tracking-wider">EN İYİ FİYAT:</span>
+                <div className="inline-flex flex-col items-start gap-1 bg-white/95 border border-emerald-500/30 px-3.5 py-1.5 rounded-xl backdrop-blur-md shadow-2xs">
+                  <span className="text-xs text-slate-600 font-bold">{slide.priceLabel}</span>
                   <span className="text-xl sm:text-2xl font-black text-emerald-700 tracking-tight tabular-nums">
                     {slide.price}
                   </span>
+                  <span className="text-xs text-slate-500">{slide.statusLabel}</span>
                 </div>
 
-                <div className="hidden sm:inline-flex items-center gap-1.5 bg-slate-900 text-white text-[11px] font-black px-3 py-2 rounded-xl shadow-2xs">
-                  <span>⭐ {slide.score || 99}/100 Puan</span>
-                  <span className="text-slate-400">•</span>
-                  <span className="text-emerald-400">📉 En Düşük Seviye</span>
-                </div>
               </div>
 
               {/* Action Buttons */}
@@ -281,7 +274,7 @@ export function HeroCarousel({ activeIndex = 0, onSelect, initialSlides = [] }: 
                   <ArrowRight className="w-3.5 h-3.5 text-emerald-400" />
                 </Link>
                 <Link
-                  href="/compare"
+                  href={`/compare?d1=${encodeURIComponent(slide.slug)}`}
                   className="bg-white/95 hover:bg-slate-50 text-slate-900 font-extrabold text-xs px-4 py-2.5 rounded-xl border border-slate-200 backdrop-blur-md transition-all flex items-center gap-1.5 cursor-pointer shadow-2xs hover:shadow-xs hover:border-emerald-400"
                 >
                   <Zap className="w-3.5 h-3.5 text-amber-500 fill-amber-500" />

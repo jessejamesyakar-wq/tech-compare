@@ -2,59 +2,35 @@ import { MetadataRoute } from 'next';
 import { getAllProducts } from '@/lib/data';
 
 export const dynamic = 'force-dynamic';
-export const revalidate = 3600; // Automatically revalidate every 1 hour
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const baseUrl = 'https://www.aceleetme.tech';
-  const now = new Date();
 
-  // 1. Static Pages
+  // 1. Indexable Static Content Pages (EXCLUDES /search, /alerts, /compare, /duello, /admin)
+  // Omit lastModified when no proven content modification timestamp exists
   const staticRoutes: MetadataRoute.Sitemap = [
     {
       url: baseUrl,
-      lastModified: now,
       changeFrequency: 'daily',
       priority: 1.0,
     },
     {
-      url: `${baseUrl}/compare`,
-      lastModified: now,
-      changeFrequency: 'daily',
-      priority: 0.9,
-    },
-    {
-      url: `${baseUrl}/search`,
-      lastModified: now,
-      changeFrequency: 'daily',
-      priority: 0.8,
-    },
-    {
-      url: `${baseUrl}/alerts`,
-      lastModified: now,
-      changeFrequency: 'weekly',
-      priority: 0.7,
-    },
-    {
       url: `${baseUrl}/gizlilik-politikasi`,
-      lastModified: now,
       changeFrequency: 'monthly',
       priority: 0.3,
     },
     {
       url: `${baseUrl}/kullanim-kosullari`,
-      lastModified: now,
       changeFrequency: 'monthly',
       priority: 0.3,
     },
     {
       url: `${baseUrl}/yasal-uyari`,
-      lastModified: now,
       changeFrequency: 'monthly',
       priority: 0.3,
     },
     {
       url: `${baseUrl}/iletisim`,
-      lastModified: now,
       changeFrequency: 'monthly',
       priority: 0.4,
     },
@@ -75,19 +51,17 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 
   const categoryRoutes: MetadataRoute.Sitemap = categoryPaths.map((cat) => ({
     url: `${baseUrl}/${cat}`,
-    lastModified: now,
     changeFrequency: 'daily',
     priority: 0.9,
   }));
 
-  // 3. Dynamic Product Pages (638 real 2026 model products, deduplicated)
+  // 3. Dynamic Canonical Product Pages (deduplicated by full canonical URL)
   const allProducts = await getAllProducts();
   const seenUrls = new Set<string>();
   const productRoutes: MetadataRoute.Sitemap = [];
 
   for (const p of allProducts) {
-    const is2026 = p.releaseYear === 2026 || (p as any).modelYear === 2026;
-    if (!is2026) continue;
+    if (!p) continue;
 
     const slug = p.slug || p.id;
     let pathPrefix = 'phones';
@@ -103,9 +77,11 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     const fullUrl = `${baseUrl}/${pathPrefix}/${slug}`;
     if (!seenUrls.has(fullUrl)) {
       seenUrls.add(fullUrl);
+
+      // Catalog timestamps do not track proven page-content changes. Omit lastmod
+      // until that provenance exists; import/check times must not stand in for it.
       productRoutes.push({
         url: fullUrl,
-        lastModified: now,
         changeFrequency: 'daily',
         priority: p.isFeatured || p.isPopular ? 0.85 : 0.75,
       });

@@ -9,6 +9,7 @@ export interface ThumbnailItem {
   name: string;
   image: string;
   price: string;
+  priceLabel: string;
 }
 
 interface HeroThumbnailStripProps {
@@ -113,7 +114,7 @@ export function HeroThumbnailStrip({ items, activeIndex, onSelect, className = '
                   ? 'bg-emerald-50 border-2 border-emerald-500 shadow-xs ring-1 ring-emerald-500/30'
                   : 'bg-white/90 hover:bg-white border border-slate-200/80 hover:border-emerald-400 shadow-2xs opacity-85 hover:opacity-100'
               }`}
-              title={`${item.name} - ${item.price}`}
+              title={`${item.name} - ${item.priceLabel}: ${item.price}`}
             >
               {/* Product Image Stage */}
               <div className="w-full h-8 sm:h-9 flex items-center justify-center overflow-hidden">
@@ -123,7 +124,7 @@ export function HeroThumbnailStrip({ items, activeIndex, onSelect, className = '
                   width={48}
                   height={48}
                   loading="lazy"
-                  className="max-h-full max-w-full object-contain group-hover:scale-105 transition-transform duration-200"
+                  className="w-auto h-auto max-h-full max-w-full object-contain group-hover:scale-105 transition-transform duration-200"
                 />
               </div>
 
@@ -135,7 +136,7 @@ export function HeroThumbnailStrip({ items, activeIndex, onSelect, className = '
                 <span className={`text-[8.5px] sm:text-[9.5px] font-black tracking-tight block tabular-nums ${
                   isActive ? 'text-emerald-700' : 'text-slate-900'
                 }`}>
-                  {item.price}
+                  {item.priceLabel === 'Güncel Fiyat' ? item.price : item.priceLabel === 'Son Görülen Fiyat' ? 'Son: ' + item.price : 'Ref: ' + item.price}
                 </span>
               </div>
             </button>

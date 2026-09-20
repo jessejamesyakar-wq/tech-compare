@@ -1,7 +1,10 @@
+import { requireMaintenanceAccess } from '@/lib/security/maintenanceAuth';
 import { NextRequest, NextResponse } from 'next/server';
 import { priceAnomalyStore, AnomalyRecord } from '@/lib/security/priceAnomalyGuard';
 
 export async function GET(req: NextRequest) {
+  const denied = requireMaintenanceAccess(req, 'admin');
+  if (denied) return denied;
   try {
     const { searchParams } = new URL(req.url);
     const status = searchParams.get('status') || 'PENDING_REVIEW';
@@ -24,6 +27,8 @@ export async function GET(req: NextRequest) {
 }
 
 export async function POST(req: NextRequest) {
+  const denied = requireMaintenanceAccess(req, 'admin');
+  if (denied) return denied;
   try {
     const body = await req.json();
     const { id, action } = body; // action: 'APPROVE' | 'REJECT'

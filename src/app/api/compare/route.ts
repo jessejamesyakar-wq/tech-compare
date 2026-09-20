@@ -9,6 +9,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import { getStoredProducts } from "@/lib/adminData";
 import { Product } from "@/lib/types";
+import { getEligibleDirectOffers } from '@/lib/pricing/unifiedPriceEvaluator';
 
 interface StorePrice {
   store: string;
@@ -109,23 +110,12 @@ export async function GET(req: NextRequest) {
     return NextResponse.json({ match: null }, { headers: CORS_HEADERS });
   }
 
-  // Gerçek storeOffers verisi
-  const offers = product.storeOffers || [];
-  let allPrices: StorePrice[] = [];
-
-  if (offers.length > 0) {
-    allPrices = offers
-      .filter((o) => o.price > 0)
-      .map((o) => ({
-        store: o.storeName,
-        price: o.price,
-        inStock: o.inStock !== false,
-      }));
-  }
-
-  if (allPrices.length === 0 && product.basePrice > 0) {
-    allPrices = [{ store: "En İyi Fiyat", price: product.basePrice, inStock: true }];
-  }
+  const { freshDirectOffers } = getEligibleDirectOffers(product.storeOffers);
+  const allPrices: StorePrice[] = freshDirectOffers.map(offer => ({
+    store: offer.storeName,
+    price: offer.price,
+    inStock: true,
+  }));
 
   if (allPrices.length === 0) {
     return NextResponse.json({ match: null }, { headers: CORS_HEADERS });

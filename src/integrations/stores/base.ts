@@ -82,7 +82,6 @@ export abstract class BaseStoreAdapter implements StoreAdapter {
   abstract getStock(storeProduct: StoreProduct): Promise<StockResult | null>;
 
   async healthCheck(): Promise<StoreHealthStatus> {
-    const startTime = Date.now();
     const checkedAt = new Date().toISOString();
 
     if (!this.isEnabled()) {
@@ -90,6 +89,7 @@ export abstract class BaseStoreAdapter implements StoreAdapter {
         storeId: this.id,
         storeName: this.name,
         status: 'DISABLED',
+        checkType: 'configuration',
         isConfigured: this.isConfigured(),
         isEnabled: false,
         lastCheckedAt: checkedAt,
@@ -102,6 +102,7 @@ export abstract class BaseStoreAdapter implements StoreAdapter {
         storeId: this.id,
         storeName: this.name,
         status: 'NOT_CONFIGURED',
+        checkType: 'configuration',
         isConfigured: false,
         isEnabled: true,
         lastCheckedAt: checkedAt,
@@ -109,29 +110,16 @@ export abstract class BaseStoreAdapter implements StoreAdapter {
       };
     }
 
-    try {
-      // Test connectivity
-      return {
-        storeId: this.id,
-        storeName: this.name,
-        status: 'CONNECTED',
-        isConfigured: true,
-        isEnabled: true,
-        responseTimeMs: Date.now() - startTime,
-        lastCheckedAt: checkedAt,
-        message: 'API Bağlantısı Aktif',
-      };
-    } catch (err) {
-      return {
-        storeId: this.id,
-        storeName: this.name,
-        status: 'TEMPORARY_ERROR',
-        isConfigured: true,
-        isEnabled: true,
-        responseTimeMs: Date.now() - startTime,
-        lastCheckedAt: checkedAt,
-        message: String(err),
-      };
-    }
+    // Configuration alone does not prove that a merchant API is reachable.
+    return {
+      storeId: this.id,
+      storeName: this.name,
+      status: 'CONFIGURED_UNVERIFIED',
+      checkType: 'configuration',
+      isConfigured: true,
+      isEnabled: true,
+      lastCheckedAt: checkedAt,
+      message: 'Yapılandırma mevcut; mağaza bağlantısı henüz doğrulanmadı.',
+    };
   }
 }

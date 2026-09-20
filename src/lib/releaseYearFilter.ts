@@ -58,31 +58,7 @@ export function getProductReleaseYear(product?: ProductLike | null): number | nu
     if (y >= 1990 && y <= 2030) return y;
   }
 
-  // 5. Inferred from classic/retro legacy model families
-  const lowerName = (product.name || '').toLowerCase();
-  if (
-    lowerName.includes('ascend') ||
-    lowerName.includes('sonic') ||
-    lowerName.includes('vision u8850') ||
-    lowerName.includes('g300') ||
-    lowerName.includes('g510') ||
-    lowerName.includes('g610') ||
-    lowerName.includes('g700') ||
-    lowerName.includes('mate 7') ||
-    lowerName.includes('mate 8') ||
-    lowerName.includes('mate 9') ||
-    lowerName.includes('mate s') ||
-    lowerName.includes('p6') ||
-    lowerName.includes('p7') ||
-    lowerName.includes('p8') ||
-    lowerName.includes('p9') ||
-    lowerName.includes('y5ii') ||
-    lowerName.includes('y6ii') ||
-    lowerName.includes('y3')
-  ) {
-    return 2015; // Inferred pre-2018 retro
-  }
-
+  // Model-family names do not prove a release year.
   return null;
 }
 
@@ -124,23 +100,23 @@ export function isHistoricalRetroModel(product?: ProductLike | null): boolean {
  * Returns structured historical & retro context for a legacy product.
  */
 export function getHistoricalRetroContext(product?: ProductLike | null) {
-  const year = getProductReleaseYear(product) || 2014;
+  const year = getProductReleaseYear(product);
   const brand = product?.brand || 'Huawei';
   const name = product?.name || 'Klasik Model';
 
-  let eraTitle = `${year} Yılı Klasik Teknoloji Çağı`;
-  let eraDescription = `Bu model ${year} yılında piyasaya sunulmuş olup, dönemin mobil teknoloji standartlarını ve tasarım anlayışını yansıtmaktadır.`;
+  let eraTitle = year === null ? 'Çıkış yılı doğrulanmadı' : `${year} Yılı Teknoloji Arşivi`;
+  let eraDescription = year === null ? 'Bu modelin çıkış yılı için doğrulanmış kayıt bulunmuyor.' : `Katalogda kayıtlı çıkış yılı: ${year}.`;
   let techMilestone = '3G / 4G Geçiş Dönemi & Klasik Android/EMUI Arayüzü';
 
-  if (year <= 2012) {
+  if (year !== null && year <= 2012) {
     eraTitle = 'Akıllı Telefonların İlk Dönemi (2010-2012)';
     eraDescription = 'Kapasitif dokunmatik ekranlara ve ilk nesil akıllı işlemcilere geçiş döneminin öncü modellerinden biri.';
     techMilestone = 'Android 2.x Froyo/Gingerbread & 3G HSDPA Mobil Bağlantı';
-  } else if (year <= 2015) {
+  } else if (year !== null && year <= 2015) {
     eraTitle = 'Tasarım ve İncelik Çağı (2013-2015)';
     eraDescription = 'Ultra ince alüminyum gövde, IPS ekran teknolojisi ve ilk nesil çok çekirdekli mobil işlemcilerin yükseliş dönemi.';
     techMilestone = 'Full HD Ekranlar, 4G LTE Desteği & İlk Çift Kamera Deneyleri';
-  } else if (year <= 2017) {
+  } else if (year !== null && year <= 2017) {
     eraTitle = 'Çift Kamera ve Yapay Zekâ Başlangıcı (2016-2017)';
     eraDescription = 'Mobil fotoğrafçılıkta Leica işbirliklerinin ve yapay zekâ destekli NPU işlemcilerin ilk kez sahneye çıktığı dönem.';
     techMilestone = 'Leica Çift Kamera Optiği, Parmak İzi Sensörleri & Hızlı Şarj Standartları';
@@ -154,7 +130,7 @@ export function getHistoricalRetroContext(product?: ProductLike | null) {
     eraDescription,
     techMilestone,
     archiveStatus: 'Tarihi Teknoloji ve Koleksiyon Arşivi',
-    availabilityNotice: 'Bu modelin yetkili perakendecilerde sıfır piyasa satışı tamamlanmıştır. Bilgi bankamızda tarihsel referans, koleksiyon kaydı ve teknoloji müzesi niteliğinde sergilenmektedir.',
+    availabilityNotice: 'Bu eski model için güncel mağaza bulunabilirliği ayrıca doğrulanmalıdır. Çıkış yılı, ürünün satışta olup olmadığını göstermez.',
     modernSuccessorRecommendation: `${brand}'nin güncel amiral gemisi ve yeni nesil modellerini canlı fiyat karşılaştırmalarıyla inceleyebilirsiniz.`
   };
 }

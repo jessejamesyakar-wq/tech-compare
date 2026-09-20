@@ -3,6 +3,7 @@
 import React from 'react';
 import { SmartphoneSpecs } from '@/lib/types';
 import { useI18n } from '@/lib/i18n/context';
+import { PHONE_SPEC_FIELDS, hasLegacyPhoneSpecs, phoneSpecText, LEGACY_PHONE_SPEC_NOTICE } from '@/lib/smartphoneSpecFields';
 import {
   Smartphone as ScreenIcon,
   Cpu,
@@ -27,6 +28,32 @@ export function SpecSheet({ specs }: SpecSheetProps) {
     );
   }
 
+  // Older flat records must remain readable in the detail view too. Keep
+  // ranges as text and do not infer unsupported metrics from descriptions.
+  if (hasLegacyPhoneSpecs(specs)) {
+    const recorded = PHONE_SPEC_FIELDS.map(field => ({...field,value:phoneSpecText(specs,field)}))
+      .filter(field => field.value !== 'Bilinmiyor');
+    const categories = [...new Set(recorded.map(field => field.category))];
+    return (
+      <div className="space-y-6">
+        <p className="rounded-2xl border border-amber-200 bg-amber-50 p-4 text-xs text-amber-900">{LEGACY_PHONE_SPEC_NOTICE}</p>
+        {categories.map(category => (
+          <section key={category} className="bg-white border border-slate-200 rounded-2xl p-6 shadow-xs">
+            <h3 className="text-slate-900 font-bold text-base mb-4">{category}</h3>
+            <dl className="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-3 text-xs">
+              {recorded.filter(field => field.category === category).map(field => (
+                <div key={field.paths} className="grid grid-cols-2 min-w-0 gap-3 border-b border-slate-100 py-2">
+                  <dt className="text-slate-500 font-medium break-words">{field.label}</dt>
+                  <dd className="text-slate-900 font-bold text-right break-words">{field.value}</dd>
+                </div>
+              ))}
+            </dl>
+          </section>
+        ))}
+      </div>
+    );
+  }
+
   const sections = [
     {
       title: t.display,
@@ -38,7 +65,7 @@ export function SpecSheet({ specs }: SpecSheetProps) {
         { label: t.resolutionLabel, value: specs.screen?.resolution || 'Belirtilmemiş' },
         { label: t.refreshRateLabel, value: specs.screen?.refreshRate ? `${specs.screen.refreshRate} Hz` : 'Belirtilmemiş' },
         { label: 'Piksel Yoğunluğu', value: specs.screen?.ppi ? `${specs.screen.ppi} ppi` : 'Belirtilmemiş' },
-        { label: 'Maks Parlaklık', value: specs.screen?.brightnessNits ? `${specs.screen.brightnessNits} nits` : 'Belirtilmemiş' }
+        { label: 'Parlaklık (katalog)', value: specs.screen?.brightnessNits ? `${specs.screen.brightnessNits} nits` : 'Belirtilmemiş' }
       ]
     },
     {

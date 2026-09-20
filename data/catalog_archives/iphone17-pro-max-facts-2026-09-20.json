@@ -1,0 +1,1466 @@
+{
+  "checkedAt": "2026-09-20T04:34:42.008Z",
+  "sourceUrl": "https://support.apple.com/tr-tr/125091",
+  "launchUrl": "https://www.apple.com/tr/newsroom/2025/09/apple-unveils-iphone-17-pro-and-iphone-17-pro-max-the-most-powerful-and-advanced-pro-models-ever/",
+  "reason": "Four exact iPhone 17 Pro Max capacity variants corrected from Apple TR; unsupported fields removed, prices and offers unchanged.",
+  "original": [
+    {
+      "id": "apple-apple-iphone-17-pro-max-2-tb-1027080",
+      "slug": "apple-iphone-17-pro-max-2-tb",
+      "name": "Apple iPhone 17 Pro Max (2 TB)",
+      "brand": "Apple",
+      "category": "smartphones",
+      "image": "/images/phones/apple/iphone-17-promax-cosmicorange.jpg",
+      "images": [
+        "/images/phones/apple/iphone-17-promax-lineup.jpg",
+        "/images/phones/apple/iphone-17-promax-deepblue.jpg",
+        "/images/phones/apple/iphone-17-promax-cosmicorange.jpg",
+        "/images/phones/apple/iphone-17-promax-silver.jpg"
+      ],
+      "rating": 4.95,
+      "epeyScore": 99,
+      "reviewCount": 2500,
+      "basePrice": 155561,
+      "currency": "TL",
+      "releaseYear": 2026,
+      "isPopular": true,
+      "isFeatured": true,
+      "highlights": [
+        "Apple A19 Pro (2nm) Yeni Nesil Yapay Zeka Çipi",
+        "48 MP Fusion + 48 MP Ultra Geniş + 48 MP 5x Periskop Telefoto",
+        "6.9 inç 120Hz ProMotion Super Retina XDR OLED (3000 nit)",
+        "Apple Intelligence Türkçe ve Sesli Siri Entegrasyonu",
+        "Kamera Denetimi (Camera Control) Dokunmatik Butonu",
+        "Havacılık Sınıfı Grade 5 Titanyum Kasa & Seramik Kalkan 2"
+      ],
+      "pros": [
+        "Apple A19 Pro (2 nm) ile optimize klasik iOS performansı",
+        "4K Dolby Vision HDR @ 120 fps / ProRes Log ile kendi döneminin en iyi kamera deneyimi",
+        "Kompakt tek elle kullanım ergonomisi",
+        "Koleksiyon değeri ve ikonik Apple tasarımı"
+      ],
+      "cons": [
+        "Güncel modern iOS sürümlerini desteklemiyor",
+        "Eski 30-pin / Lightning şarj standardı"
+      ],
+      "colorOptions": [
+        {
+          "name": "Kozmik Turuncu",
+          "hex": "#E36E38",
+          "image": "/images/phones/apple/iphone-17-promax-cosmicorange.jpg"
+        },
+        {
+          "name": "Abis",
+          "hex": "#262D3D",
+          "image": "/images/phones/apple/iphone-17-promax-deepblue.jpg"
+        },
+        {
+          "name": "Gümüş",
+          "hex": "#E2E4E5",
+          "image": "/images/phones/apple/iphone-17-promax-silver.jpg"
+        }
+      ],
+      "storeOffers": [
+        {
+          "storeName": "Hepsiburada",
+          "storeLogo": "/images/stores/hepsiburada.svg",
+          "price": 154939,
+          "productUrl": "https://www.hepsiburada.com/ara?q=Apple%20iPhone%2017%20Pro%20Max%20(2%20TB)",
+          "url": "https://www.hepsiburada.com/ara?q=Apple%20iPhone%2017%20Pro%20Max%20(2%20TB)",
+          "inStock": true,
+          "shippingFree": true,
+          "shippingDays": 1,
+          "lastUpdated": "2026-09-16"
+        },
+        {
+          "storeName": "Trendyol",
+          "storeLogo": "/images/stores/trendyol.svg",
+          "price": 155872,
+          "productUrl": "https://www.trendyol.com/sr?q=Apple%20iPhone%2017%20Pro%20Max%20(2%20TB)",
+          "url": "https://www.trendyol.com/sr?q=Apple%20iPhone%2017%20Pro%20Max%20(2%20TB)",
+          "inStock": true,
+          "shippingFree": true,
+          "shippingDays": 1,
+          "lastUpdated": "2026-09-16"
+        },
+        {
+          "storeName": "Amazon TR",
+          "storeLogo": "/images/stores/amazon.svg",
+          "price": 155250,
+          "productUrl": "https://www.amazon.com.tr/s?k=Apple%20iPhone%2017%20Pro%20Max%20(2%20TB)",
+          "url": "https://www.amazon.com.tr/s?k=Apple%20iPhone%2017%20Pro%20Max%20(2%20TB)",
+          "inStock": true,
+          "shippingFree": true,
+          "shippingDays": 1,
+          "lastUpdated": "2026-09-16"
+        },
+        {
+          "storeName": "N11",
+          "storeLogo": "/images/stores/n11.svg",
+          "price": 154628,
+          "productUrl": "https://www.n11.com/arama?q=Apple%20iPhone%2017%20Pro%20Max%20(2%20TB)",
+          "url": "https://www.n11.com/arama?q=Apple%20iPhone%2017%20Pro%20Max%20(2%20TB)",
+          "inStock": true,
+          "shippingFree": true,
+          "shippingDays": 1,
+          "lastUpdated": "2026-09-16"
+        },
+        {
+          "storeName": "PttAVM",
+          "storeLogo": "/images/stores/pttavm.svg",
+          "price": 154317,
+          "productUrl": "https://www.pttavm.com/arama?q=Apple%20iPhone%2017%20Pro%20Max%20(2%20TB)",
+          "url": "https://www.pttavm.com/arama?q=Apple%20iPhone%2017%20Pro%20Max%20(2%20TB)",
+          "inStock": true,
+          "shippingFree": true,
+          "shippingDays": 1,
+          "lastUpdated": "2026-09-16"
+        },
+        {
+          "storeName": "Vatan Bilgisayar",
+          "storeLogo": "/images/stores/vatan.svg",
+          "price": 155561,
+          "productUrl": "https://www.vatanbilgisayar.com/arama/Apple%20iPhone%2017%20Pro%20Max%20(2%20TB)/",
+          "url": "https://www.vatanbilgisayar.com/arama/Apple%20iPhone%2017%20Pro%20Max%20(2%20TB)/",
+          "inStock": true,
+          "shippingFree": true,
+          "shippingDays": 1,
+          "lastUpdated": "2026-09-16"
+        },
+        {
+          "storeName": "MediaMarkt",
+          "storeLogo": "/images/stores/mediamarkt.svg",
+          "price": 156494,
+          "productUrl": "https://www.mediamarkt.com.tr/tr/search.html?query=Apple%20iPhone%2017%20Pro%20Max%20(2%20TB)",
+          "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Apple%20iPhone%2017%20Pro%20Max%20(2%20TB)",
+          "inStock": true,
+          "shippingFree": true,
+          "shippingDays": 1,
+          "lastUpdated": "2026-09-16"
+        },
+        {
+          "storeName": "Teknosa",
+          "storeLogo": "/images/stores/teknosa.svg",
+          "price": 156183,
+          "productUrl": "https://www.teknosa.com/arama?s=Apple%20iPhone%2017%20Pro%20Max%20(2%20TB)",
+          "url": "https://www.teknosa.com/arama?s=Apple%20iPhone%2017%20Pro%20Max%20(2%20TB)",
+          "inStock": true,
+          "shippingFree": true,
+          "shippingDays": 1,
+          "lastUpdated": "2026-09-16"
+        },
+        {
+          "storeName": "İncehesap",
+          "storeLogo": "/images/stores/incehesap.svg",
+          "price": 154783,
+          "productUrl": "https://www.incehesap.com/arama/?q=Apple%20iPhone%2017%20Pro%20Max%20(2%20TB)",
+          "url": "https://www.incehesap.com/arama/?q=Apple%20iPhone%2017%20Pro%20Max%20(2%20TB)",
+          "inStock": true,
+          "shippingFree": true,
+          "shippingDays": 1,
+          "lastUpdated": "2026-09-16"
+        },
+        {
+          "storeName": "İtopya",
+          "storeLogo": "/images/stores/itopya.svg",
+          "price": 155094,
+          "productUrl": "https://www.itopya.com/AramaSonuclari/?b=Apple%20iPhone%2017%20Pro%20Max%20(2%20TB)",
+          "url": "https://www.itopya.com/AramaSonuclari/?b=Apple%20iPhone%2017%20Pro%20Max%20(2%20TB)",
+          "inStock": true,
+          "shippingFree": true,
+          "shippingDays": 1,
+          "lastUpdated": "2026-09-16"
+        },
+        {
+          "storeName": "Sinerji Bilgisayar",
+          "storeLogo": "/images/stores/sinerji.svg",
+          "price": 154939,
+          "productUrl": "https://www.sinerji.gen.tr/Arama?q=Apple%20iPhone%2017%20Pro%20Max%20(2%20TB)",
+          "url": "https://www.sinerji.gen.tr/Arama?q=Apple%20iPhone%2017%20Pro%20Max%20(2%20TB)",
+          "inStock": true,
+          "shippingFree": true,
+          "shippingDays": 1,
+          "lastUpdated": "2026-09-16"
+        },
+        {
+          "storeName": "Gaming.Gen.TR",
+          "storeLogo": "/images/stores/gaminggen.svg",
+          "price": 155250,
+          "productUrl": "https://www.gaming.gen.tr/?s=Apple%20iPhone%2017%20Pro%20Max%20(2%20TB)",
+          "url": "https://www.gaming.gen.tr/?s=Apple%20iPhone%2017%20Pro%20Max%20(2%20TB)",
+          "inStock": true,
+          "shippingFree": true,
+          "shippingDays": 1,
+          "lastUpdated": "2026-09-16"
+        },
+        {
+          "storeName": "GameGaraj",
+          "storeLogo": "/images/stores/gamegaraj.svg",
+          "price": 155717,
+          "productUrl": "https://www.gamegaraj.com/arama/?q=Apple%20iPhone%2017%20Pro%20Max%20(2%20TB)",
+          "url": "https://www.gamegaraj.com/arama/?q=Apple%20iPhone%2017%20Pro%20Max%20(2%20TB)",
+          "inStock": true,
+          "shippingFree": true,
+          "shippingDays": 1,
+          "lastUpdated": "2026-09-16"
+        },
+        {
+          "storeName": "Tebilon",
+          "storeLogo": "/images/stores/tebilon.svg",
+          "price": 155405,
+          "productUrl": "https://www.tebilon.com/arama/?q=Apple%20iPhone%2017%20Pro%20Max%20(2%20TB)",
+          "url": "https://www.tebilon.com/arama/?q=Apple%20iPhone%2017%20Pro%20Max%20(2%20TB)",
+          "inStock": true,
+          "shippingFree": true,
+          "shippingDays": 1,
+          "lastUpdated": "2026-09-16"
+        },
+        {
+          "storeName": "Ebrar Bilgisayar",
+          "storeLogo": "/images/stores/ebrar.svg",
+          "price": 154628,
+          "productUrl": "https://www.ebrarbilgisayar.com/arama?q=Apple%20iPhone%2017%20Pro%20Max%20(2%20TB)",
+          "url": "https://www.ebrarbilgisayar.com/arama?q=Apple%20iPhone%2017%20Pro%20Max%20(2%20TB)",
+          "inStock": true,
+          "shippingFree": true,
+          "shippingDays": 1,
+          "lastUpdated": "2026-09-16"
+        }
+      ],
+      "priceHistory": [
+        {
+          "date": "2026-03-01",
+          "price": 159908
+        },
+        {
+          "date": "2026-04-01",
+          "price": 158355
+        },
+        {
+          "date": "2026-05-01",
+          "price": 156803
+        },
+        {
+          "date": "2026-06-01",
+          "price": 156026
+        },
+        {
+          "date": "2026-07-01",
+          "price": 157579
+        },
+        {
+          "date": "2026-08-01",
+          "price": 156492
+        },
+        {
+          "date": "2026-09-01",
+          "price": 155250
+        },
+        {
+          "date": "6 Eylül 2026",
+          "price": 155561
+        },
+        {
+          "date": "2026-09-16",
+          "price": 155561
+        }
+      ],
+      "specs": {
+        "screen": {
+          "size": "6.9 inç",
+          "type": "LTPO Super Retina XDR OLED (1-120Hz ProMotion)",
+          "resolution": "2868 x 1320 piksel (460 ppi)",
+          "refreshRate": 120,
+          "brightnessNits": 3000
+        },
+        "processor": {
+          "chip": "Apple A19 Pro (2nm N3P)",
+          "cores": "6 Çekirdek (2P + 4E, 16-Core Neural Engine)",
+          "antutuScore": 2350000
+        },
+        "memory": {
+          "ramGb": 12,
+          "ramType": "LPDDR5X (16-Core Neural Engine)",
+          "storageGb": 2048,
+          "storageOptions": [
+            128,
+            2048
+          ],
+          "expandableStorage": false
+        },
+        "camera": {
+          "mainMp": "48 MP Fusion, f/1.78, 24mm, Sensor-shift OIS",
+          "ultrawideMp": "48 MP, f/2.2, 13mm, 120˚",
+          "telephotoMp": "48 MP (5x Optik Zoom Tetraprism)",
+          "selfieMp": "24 MP TrueDepth, f/1.9",
+          "videoRes": "4K@120fps Dolby Vision HDR, ProRes LOG",
+          "dxomarkScore": 165
+        },
+        "battery": {
+          "capacitymAh": 4850,
+          "chargingWatts": 45,
+          "wirelessCharging": true,
+          "reverseWireless": false
+        },
+        "connectivity": {
+          "has5G": false,
+          "wifiStandard": "Wi-Fi 7 (802.11be)",
+          "bluetooth": "5.4",
+          "hasNFC": true,
+          "hasesim": true
+        },
+        "build": {
+          "weightGrams": 225,
+          "thicknessMm": 8.25,
+          "waterResistance": "IP68 (6 metre 30 dakika)",
+          "frameMaterial": "Grade 5 Titanyum Çerçeve & Mat Dokulu Cam Arka Yüzey"
+        },
+        "software": {
+          "osName": "iOS 19 (Apple Intelligence Destekli)",
+          "updateYears": 7
+        }
+      },
+      "isLatestModel": true,
+      "price": 155561,
+      "variants": [
+        {
+          "id": "apple-apple-iphone-17-pro-max-2-tb-1027080-kozmik",
+          "name": "Apple iPhone 17 Pro Max (2 TB) - Kozmik",
+          "colorName": "Kozmik Turuncu (Cosmic Orange)",
+          "colorHex": "#22303c",
+          "image": "/images/phones/apple/iphone-17-promax-cosmicorange.jpg",
+          "price": 155250,
+          "color": "Abis"
+        },
+        {
+          "id": "apple-apple-iphone-17-pro-max-2-tb-1027080-koyu",
+          "name": "Apple iPhone 17 Pro Max (2 TB) - Koyu",
+          "colorName": "Koyu Mavi (Dark Blue)",
+          "colorHex": "#d46b38",
+          "image": "/images/phones/apple/iphone-17-promax-deepblue.jpg",
+          "price": 155250,
+          "color": "Kozmik Turuncu"
+        },
+        {
+          "id": "apple-apple-iphone-17-pro-max-2-tb-1027080-gümüş",
+          "name": "Apple iPhone 17 Pro Max (2 TB) - Gümüş",
+          "colorName": "Gümüş (Silver)",
+          "colorHex": "#e2e4e1",
+          "image": "/images/phones/apple/iphone-17-promax-silver.jpg",
+          "price": 155250,
+          "color": "Gümüş"
+        },
+        {
+          "id": "apple-apple-iphone-17-pro-max-2-tb-1027080-uzay",
+          "name": "Apple iPhone 17 Pro Max (2 TB) - Uzay",
+          "colorName": "Uzay Siyahı (Space Black)",
+          "colorHex": "#22303c",
+          "image": "/images/phones/apple/iphone-17-promax-deepblue.jpg",
+          "price": 155250,
+          "color": "Abis"
+        }
+      ],
+      "gallery": [
+        "/images/phones/apple/iphone-17-promax-lineup.jpg",
+        "/images/phones/apple/iphone-17-promax-deepblue.jpg",
+        "/images/phones/apple/iphone-17-promax-cosmicorange.jpg",
+        "/images/phones/apple/iphone-17-promax-silver.jpg"
+      ]
+    },
+    {
+      "id": "apple-apple-iphone-17-pro-max-1-tb-1027079",
+      "slug": "apple-iphone-17-pro-max-1-tb",
+      "name": "Apple iPhone 17 Pro Max (1 TB)",
+      "brand": "Apple",
+      "category": "smartphones",
+      "image": "/images/phones/apple/iphone-17-promax-silver.jpg",
+      "images": [
+        "/images/phones/apple/iphone-17-promax-lineup.jpg",
+        "/images/phones/apple/iphone-17-promax-deepblue.jpg",
+        "/images/phones/apple/iphone-17-promax-cosmicorange.jpg",
+        "/images/phones/apple/iphone-17-promax-silver.jpg"
+      ],
+      "rating": 4.95,
+      "epeyScore": 99,
+      "reviewCount": 2470,
+      "basePrice": 144038,
+      "currency": "TL",
+      "releaseYear": 2026,
+      "isPopular": true,
+      "isFeatured": true,
+      "highlights": [
+        "Apple A19 Pro (2nm) Yeni Nesil Yapay Zeka Çipi",
+        "48 MP Fusion + 48 MP Ultra Geniş + 48 MP 5x Periskop Telefoto",
+        "6.9 inç 120Hz ProMotion Super Retina XDR OLED (3000 nit)",
+        "Apple Intelligence Türkçe ve Sesli Siri Entegrasyonu",
+        "Kamera Denetimi (Camera Control) Dokunmatik Butonu",
+        "Havacılık Sınıfı Grade 5 Titanyum Kasa & Seramik Kalkan 2"
+      ],
+      "pros": [
+        "Apple A19 Pro (2 nm) ile optimize klasik iOS performansı",
+        "4K Dolby Vision HDR @ 120 fps / ProRes Log ile kendi döneminin en iyi kamera deneyimi",
+        "Kompakt tek elle kullanım ergonomisi",
+        "Koleksiyon değeri ve ikonik Apple tasarımı"
+      ],
+      "cons": [
+        "Güncel modern iOS sürümlerini desteklemiyor",
+        "Eski 30-pin / Lightning şarj standardı"
+      ],
+      "colorOptions": [
+        {
+          "name": "Gümüş",
+          "hex": "#E2E4E5",
+          "image": "/images/phones/apple/iphone-17-promax-silver.jpg"
+        },
+        {
+          "name": "Abis",
+          "hex": "#262D3D",
+          "image": "/images/phones/apple/iphone-17-promax-deepblue.jpg"
+        },
+        {
+          "name": "Kozmik Turuncu",
+          "hex": "#E36E38",
+          "image": "/images/phones/apple/iphone-17-promax-cosmicorange.jpg"
+        }
+      ],
+      "storeOffers": [
+        {
+          "storeName": "Hepsiburada",
+          "storeLogo": "/images/stores/hepsiburada.svg",
+          "price": 143462,
+          "productUrl": "https://www.hepsiburada.com/ara?q=Apple%20iPhone%2017%20Pro%20Max%20(1%20TB)",
+          "url": "https://www.hepsiburada.com/ara?q=Apple%20iPhone%2017%20Pro%20Max%20(1%20TB)",
+          "inStock": true,
+          "shippingFree": true,
+          "shippingDays": 1,
+          "lastUpdated": "2026-09-16"
+        },
+        {
+          "storeName": "Trendyol",
+          "storeLogo": "/images/stores/trendyol.svg",
+          "price": 144326,
+          "productUrl": "https://www.trendyol.com/sr?q=Apple%20iPhone%2017%20Pro%20Max%20(1%20TB)",
+          "url": "https://www.trendyol.com/sr?q=Apple%20iPhone%2017%20Pro%20Max%20(1%20TB)",
+          "inStock": true,
+          "shippingFree": true,
+          "shippingDays": 1,
+          "lastUpdated": "2026-09-16"
+        },
+        {
+          "storeName": "Amazon TR",
+          "storeLogo": "/images/stores/amazon.svg",
+          "price": 143750,
+          "productUrl": "https://www.amazon.com.tr/s?k=Apple%20iPhone%2017%20Pro%20Max%20(1%20TB)",
+          "url": "https://www.amazon.com.tr/s?k=Apple%20iPhone%2017%20Pro%20Max%20(1%20TB)",
+          "inStock": true,
+          "shippingFree": true,
+          "shippingDays": 1,
+          "lastUpdated": "2026-09-16"
+        },
+        {
+          "storeName": "N11",
+          "storeLogo": "/images/stores/n11.svg",
+          "price": 143174,
+          "productUrl": "https://www.n11.com/arama?q=Apple%20iPhone%2017%20Pro%20Max%20(1%20TB)",
+          "url": "https://www.n11.com/arama?q=Apple%20iPhone%2017%20Pro%20Max%20(1%20TB)",
+          "inStock": true,
+          "shippingFree": true,
+          "shippingDays": 1,
+          "lastUpdated": "2026-09-16"
+        },
+        {
+          "storeName": "PttAVM",
+          "storeLogo": "/images/stores/pttavm.svg",
+          "price": 142886,
+          "productUrl": "https://www.pttavm.com/arama?q=Apple%20iPhone%2017%20Pro%20Max%20(1%20TB)",
+          "url": "https://www.pttavm.com/arama?q=Apple%20iPhone%2017%20Pro%20Max%20(1%20TB)",
+          "inStock": true,
+          "shippingFree": true,
+          "shippingDays": 1,
+          "lastUpdated": "2026-09-16"
+        },
+        {
+          "storeName": "Vatan Bilgisayar",
+          "storeLogo": "/images/stores/vatan.svg",
+          "price": 144038,
+          "productUrl": "https://www.vatanbilgisayar.com/arama/Apple%20iPhone%2017%20Pro%20Max%20(1%20TB)/",
+          "url": "https://www.vatanbilgisayar.com/arama/Apple%20iPhone%2017%20Pro%20Max%20(1%20TB)/",
+          "inStock": true,
+          "shippingFree": true,
+          "shippingDays": 1,
+          "lastUpdated": "2026-09-16"
+        },
+        {
+          "storeName": "MediaMarkt",
+          "storeLogo": "/images/stores/mediamarkt.svg",
+          "price": 144902,
+          "productUrl": "https://www.mediamarkt.com.tr/tr/search.html?query=Apple%20iPhone%2017%20Pro%20Max%20(1%20TB)",
+          "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Apple%20iPhone%2017%20Pro%20Max%20(1%20TB)",
+          "inStock": true,
+          "shippingFree": true,
+          "shippingDays": 1,
+          "lastUpdated": "2026-09-16"
+        },
+        {
+          "storeName": "Teknosa",
+          "storeLogo": "/images/stores/teknosa.svg",
+          "price": 144614,
+          "productUrl": "https://www.teknosa.com/arama?s=Apple%20iPhone%2017%20Pro%20Max%20(1%20TB)",
+          "url": "https://www.teknosa.com/arama?s=Apple%20iPhone%2017%20Pro%20Max%20(1%20TB)",
+          "inStock": true,
+          "shippingFree": true,
+          "shippingDays": 1,
+          "lastUpdated": "2026-09-16"
+        },
+        {
+          "storeName": "İncehesap",
+          "storeLogo": "/images/stores/incehesap.svg",
+          "price": 143318,
+          "productUrl": "https://www.incehesap.com/arama/?q=Apple%20iPhone%2017%20Pro%20Max%20(1%20TB)",
+          "url": "https://www.incehesap.com/arama/?q=Apple%20iPhone%2017%20Pro%20Max%20(1%20TB)",
+          "inStock": true,
+          "shippingFree": true,
+          "shippingDays": 1,
+          "lastUpdated": "2026-09-16"
+        },
+        {
+          "storeName": "İtopya",
+          "storeLogo": "/images/stores/itopya.svg",
+          "price": 143606,
+          "productUrl": "https://www.itopya.com/AramaSonuclari/?b=Apple%20iPhone%2017%20Pro%20Max%20(1%20TB)",
+          "url": "https://www.itopya.com/AramaSonuclari/?b=Apple%20iPhone%2017%20Pro%20Max%20(1%20TB)",
+          "inStock": true,
+          "shippingFree": true,
+          "shippingDays": 1,
+          "lastUpdated": "2026-09-16"
+        },
+        {
+          "storeName": "Sinerji Bilgisayar",
+          "storeLogo": "/images/stores/sinerji.svg",
+          "price": 143462,
+          "productUrl": "https://www.sinerji.gen.tr/Arama?q=Apple%20iPhone%2017%20Pro%20Max%20(1%20TB)",
+          "url": "https://www.sinerji.gen.tr/Arama?q=Apple%20iPhone%2017%20Pro%20Max%20(1%20TB)",
+          "inStock": true,
+          "shippingFree": true,
+          "shippingDays": 1,
+          "lastUpdated": "2026-09-16"
+        },
+        {
+          "storeName": "Gaming.Gen.TR",
+          "storeLogo": "/images/stores/gaminggen.svg",
+          "price": 143750,
+          "productUrl": "https://www.gaming.gen.tr/?s=Apple%20iPhone%2017%20Pro%20Max%20(1%20TB)",
+          "url": "https://www.gaming.gen.tr/?s=Apple%20iPhone%2017%20Pro%20Max%20(1%20TB)",
+          "inStock": true,
+          "shippingFree": true,
+          "shippingDays": 1,
+          "lastUpdated": "2026-09-16"
+        },
+        {
+          "storeName": "GameGaraj",
+          "storeLogo": "/images/stores/gamegaraj.svg",
+          "price": 144182,
+          "productUrl": "https://www.gamegaraj.com/arama/?q=Apple%20iPhone%2017%20Pro%20Max%20(1%20TB)",
+          "url": "https://www.gamegaraj.com/arama/?q=Apple%20iPhone%2017%20Pro%20Max%20(1%20TB)",
+          "inStock": true,
+          "shippingFree": true,
+          "shippingDays": 1,
+          "lastUpdated": "2026-09-16"
+        },
+        {
+          "storeName": "Tebilon",
+          "storeLogo": "/images/stores/tebilon.svg",
+          "price": 143894,
+          "productUrl": "https://www.tebilon.com/arama/?q=Apple%20iPhone%2017%20Pro%20Max%20(1%20TB)",
+          "url": "https://www.tebilon.com/arama/?q=Apple%20iPhone%2017%20Pro%20Max%20(1%20TB)",
+          "inStock": true,
+          "shippingFree": true,
+          "shippingDays": 1,
+          "lastUpdated": "2026-09-16"
+        },
+        {
+          "storeName": "Ebrar Bilgisayar",
+          "storeLogo": "/images/stores/ebrar.svg",
+          "price": 143174,
+          "productUrl": "https://www.ebrarbilgisayar.com/arama?q=Apple%20iPhone%2017%20Pro%20Max%20(1%20TB)",
+          "url": "https://www.ebrarbilgisayar.com/arama?q=Apple%20iPhone%2017%20Pro%20Max%20(1%20TB)",
+          "inStock": true,
+          "shippingFree": true,
+          "shippingDays": 1,
+          "lastUpdated": "2026-09-16"
+        }
+      ],
+      "priceHistory": [
+        {
+          "date": "2026-03-01",
+          "price": 148063
+        },
+        {
+          "date": "2026-04-01",
+          "price": 146625
+        },
+        {
+          "date": "2026-05-01",
+          "price": 145188
+        },
+        {
+          "date": "2026-06-01",
+          "price": 144469
+        },
+        {
+          "date": "2026-07-01",
+          "price": 145906
+        },
+        {
+          "date": "2026-08-01",
+          "price": 144900
+        },
+        {
+          "date": "2026-09-01",
+          "price": 143750
+        },
+        {
+          "date": "6 Eylül 2026",
+          "price": 144038
+        },
+        {
+          "date": "2026-09-16",
+          "price": 144038
+        }
+      ],
+      "specs": {
+        "screen": {
+          "size": "6.9 inç",
+          "type": "LTPO Super Retina XDR OLED (1-120Hz ProMotion)",
+          "resolution": "2868 x 1320 piksel (460 ppi)",
+          "refreshRate": 120,
+          "brightnessNits": 3000
+        },
+        "processor": {
+          "chip": "Apple A19 Pro (2nm N3P)",
+          "cores": "6 Çekirdek (2P + 4E, 16-Core Neural Engine)",
+          "antutuScore": 2350000
+        },
+        "memory": {
+          "ramGb": 12,
+          "ramType": "LPDDR5X (16-Core Neural Engine)",
+          "storageGb": 1024,
+          "storageOptions": [
+            128,
+            1024,
+            2048
+          ],
+          "expandableStorage": false
+        },
+        "camera": {
+          "mainMp": "48 MP Fusion, f/1.78, 24mm, Sensor-shift OIS",
+          "ultrawideMp": "48 MP, f/2.2, 13mm, 120˚",
+          "telephotoMp": "48 MP (5x Optik Zoom Tetraprism)",
+          "selfieMp": "24 MP TrueDepth, f/1.9",
+          "videoRes": "4K@120fps Dolby Vision HDR, ProRes LOG",
+          "dxomarkScore": 165
+        },
+        "battery": {
+          "capacitymAh": 4850,
+          "chargingWatts": 45,
+          "wirelessCharging": true,
+          "reverseWireless": false
+        },
+        "connectivity": {
+          "has5G": false,
+          "wifiStandard": "Wi-Fi 7 (802.11be)",
+          "bluetooth": "5.4",
+          "hasNFC": true,
+          "hasesim": true
+        },
+        "build": {
+          "weightGrams": 225,
+          "thicknessMm": 8.25,
+          "waterResistance": "IP68 (6 metre 30 dakika)",
+          "frameMaterial": "Grade 5 Titanyum Çerçeve & Mat Dokulu Cam Arka Yüzey"
+        },
+        "software": {
+          "osName": "iOS 19 (Apple Intelligence Destekli)",
+          "updateYears": 7
+        }
+      },
+      "isLatestModel": true,
+      "price": 144038,
+      "variants": [
+        {
+          "id": "apple-apple-iphone-17-pro-max-1-tb-1027079-kozmik",
+          "name": "Apple iPhone 17 Pro Max (1 TB) - Kozmik",
+          "colorName": "Kozmik Turuncu (Cosmic Orange)",
+          "colorHex": "#22303c",
+          "image": "/images/phones/apple/iphone-17-promax-cosmicorange.jpg",
+          "price": 143750,
+          "color": "Abis"
+        },
+        {
+          "id": "apple-apple-iphone-17-pro-max-1-tb-1027079-koyu",
+          "name": "Apple iPhone 17 Pro Max (1 TB) - Koyu",
+          "colorName": "Koyu Mavi (Dark Blue)",
+          "colorHex": "#d46b38",
+          "image": "/images/phones/apple/iphone-17-promax-deepblue.jpg",
+          "price": 143750,
+          "color": "Kozmik Turuncu"
+        },
+        {
+          "id": "apple-apple-iphone-17-pro-max-1-tb-1027079-gümüş",
+          "name": "Apple iPhone 17 Pro Max (1 TB) - Gümüş",
+          "colorName": "Gümüş (Silver)",
+          "colorHex": "#e2e4e1",
+          "image": "/images/phones/apple/iphone-17-promax-silver.jpg",
+          "price": 143750,
+          "color": "Gümüş"
+        },
+        {
+          "id": "apple-apple-iphone-17-pro-max-1-tb-1027079-uzay",
+          "name": "Apple iPhone 17 Pro Max (1 TB) - Uzay",
+          "colorName": "Uzay Siyahı (Space Black)",
+          "colorHex": "#22303c",
+          "image": "/images/phones/apple/iphone-17-promax-deepblue.jpg",
+          "price": 143750,
+          "color": "Abis"
+        }
+      ],
+      "gallery": [
+        "/images/phones/apple/iphone-17-promax-lineup.jpg",
+        "/images/phones/apple/iphone-17-promax-deepblue.jpg",
+        "/images/phones/apple/iphone-17-promax-cosmicorange.jpg",
+        "/images/phones/apple/iphone-17-promax-silver.jpg"
+      ]
+    },
+    {
+      "id": "apple-apple-iphone-17-pro-max-512-gb-1027078",
+      "slug": "apple-iphone-17-pro-max-512-gb",
+      "name": "Apple iPhone 17 Pro Max (512 GB)",
+      "brand": "Apple",
+      "category": "smartphones",
+      "image": "/images/phones/apple/iphone-17-promax-deepblue.jpg",
+      "images": [
+        "/images/phones/apple/iphone-17-promax-lineup.jpg",
+        "/images/phones/apple/iphone-17-promax-deepblue.jpg",
+        "/images/phones/apple/iphone-17-promax-cosmicorange.jpg",
+        "/images/phones/apple/iphone-17-promax-silver.jpg"
+      ],
+      "rating": 4.95,
+      "epeyScore": 99,
+      "reviewCount": 2440,
+      "basePrice": 132515,
+      "currency": "TL",
+      "releaseYear": 2026,
+      "isPopular": true,
+      "isFeatured": true,
+      "highlights": [
+        "Apple A19 Pro (2nm) Yeni Nesil Yapay Zeka Çipi",
+        "48 MP Fusion + 48 MP Ultra Geniş + 48 MP 5x Periskop Telefoto",
+        "6.9 inç 120Hz ProMotion Super Retina XDR OLED (3000 nit)",
+        "Apple Intelligence Türkçe ve Sesli Siri Entegrasyonu",
+        "Kamera Denetimi (Camera Control) Dokunmatik Butonu",
+        "Havacılık Sınıfı Grade 5 Titanyum Kasa & Seramik Kalkan 2"
+      ],
+      "pros": [
+        "Apple A19 Pro (2 nm) ile optimize klasik iOS performansı",
+        "4K Dolby Vision HDR @ 120 fps / ProRes Log ile kendi döneminin en iyi kamera deneyimi",
+        "Kompakt tek elle kullanım ergonomisi",
+        "Koleksiyon değeri ve ikonik Apple tasarımı"
+      ],
+      "cons": [
+        "Güncel modern iOS sürümlerini desteklemiyor",
+        "Eski 30-pin / Lightning şarj standardı"
+      ],
+      "colorOptions": [
+        {
+          "name": "Abis",
+          "hex": "#262D3D",
+          "image": "/images/phones/apple/iphone-17-promax-deepblue.jpg"
+        },
+        {
+          "name": "Kozmik Turuncu",
+          "hex": "#E36E38",
+          "image": "/images/phones/apple/iphone-17-promax-cosmicorange.jpg"
+        },
+        {
+          "name": "Gümüş",
+          "hex": "#E2E4E5",
+          "image": "/images/phones/apple/iphone-17-promax-silver.jpg"
+        }
+      ],
+      "storeOffers": [
+        {
+          "storeName": "Hepsiburada",
+          "storeLogo": "/images/stores/hepsiburada.svg",
+          "price": 131985,
+          "productUrl": "https://www.hepsiburada.com/ara?q=Apple%20iPhone%2017%20Pro%20Max%20(512%20GB)",
+          "url": "https://www.hepsiburada.com/ara?q=Apple%20iPhone%2017%20Pro%20Max%20(512%20GB)",
+          "inStock": true,
+          "shippingFree": true,
+          "shippingDays": 1,
+          "lastUpdated": "2026-09-16"
+        },
+        {
+          "storeName": "Trendyol",
+          "storeLogo": "/images/stores/trendyol.svg",
+          "price": 132780,
+          "productUrl": "https://www.trendyol.com/sr?q=Apple%20iPhone%2017%20Pro%20Max%20(512%20GB)",
+          "url": "https://www.trendyol.com/sr?q=Apple%20iPhone%2017%20Pro%20Max%20(512%20GB)",
+          "inStock": true,
+          "shippingFree": true,
+          "shippingDays": 1,
+          "lastUpdated": "2026-09-16"
+        },
+        {
+          "storeName": "Amazon TR",
+          "storeLogo": "/images/stores/amazon.svg",
+          "price": 132250,
+          "productUrl": "https://www.amazon.com.tr/s?k=Apple%20iPhone%2017%20Pro%20Max%20(512%20GB)",
+          "url": "https://www.amazon.com.tr/s?k=Apple%20iPhone%2017%20Pro%20Max%20(512%20GB)",
+          "inStock": true,
+          "shippingFree": true,
+          "shippingDays": 1,
+          "lastUpdated": "2026-09-16"
+        },
+        {
+          "storeName": "N11",
+          "storeLogo": "/images/stores/n11.svg",
+          "price": 131720,
+          "productUrl": "https://www.n11.com/arama?q=Apple%20iPhone%2017%20Pro%20Max%20(512%20GB)",
+          "url": "https://www.n11.com/arama?q=Apple%20iPhone%2017%20Pro%20Max%20(512%20GB)",
+          "inStock": true,
+          "shippingFree": true,
+          "shippingDays": 1,
+          "lastUpdated": "2026-09-16"
+        },
+        {
+          "storeName": "PttAVM",
+          "storeLogo": "/images/stores/pttavm.svg",
+          "price": 131455,
+          "productUrl": "https://www.pttavm.com/arama?q=Apple%20iPhone%2017%20Pro%20Max%20(512%20GB)",
+          "url": "https://www.pttavm.com/arama?q=Apple%20iPhone%2017%20Pro%20Max%20(512%20GB)",
+          "inStock": true,
+          "shippingFree": true,
+          "shippingDays": 1,
+          "lastUpdated": "2026-09-16"
+        },
+        {
+          "storeName": "Vatan Bilgisayar",
+          "storeLogo": "/images/stores/vatan.svg",
+          "price": 132515,
+          "productUrl": "https://www.vatanbilgisayar.com/arama/Apple%20iPhone%2017%20Pro%20Max%20(512%20GB)/",
+          "url": "https://www.vatanbilgisayar.com/arama/Apple%20iPhone%2017%20Pro%20Max%20(512%20GB)/",
+          "inStock": true,
+          "shippingFree": true,
+          "shippingDays": 1,
+          "lastUpdated": "2026-09-16"
+        },
+        {
+          "storeName": "MediaMarkt",
+          "storeLogo": "/images/stores/mediamarkt.svg",
+          "price": 133310,
+          "productUrl": "https://www.mediamarkt.com.tr/tr/search.html?query=Apple%20iPhone%2017%20Pro%20Max%20(512%20GB)",
+          "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Apple%20iPhone%2017%20Pro%20Max%20(512%20GB)",
+          "inStock": true,
+          "shippingFree": true,
+          "shippingDays": 1,
+          "lastUpdated": "2026-09-16"
+        },
+        {
+          "storeName": "Teknosa",
+          "storeLogo": "/images/stores/teknosa.svg",
+          "price": 133045,
+          "productUrl": "https://www.teknosa.com/arama?s=Apple%20iPhone%2017%20Pro%20Max%20(512%20GB)",
+          "url": "https://www.teknosa.com/arama?s=Apple%20iPhone%2017%20Pro%20Max%20(512%20GB)",
+          "inStock": true,
+          "shippingFree": true,
+          "shippingDays": 1,
+          "lastUpdated": "2026-09-16"
+        },
+        {
+          "storeName": "İncehesap",
+          "storeLogo": "/images/stores/incehesap.svg",
+          "price": 131852,
+          "productUrl": "https://www.incehesap.com/arama/?q=Apple%20iPhone%2017%20Pro%20Max%20(512%20GB)",
+          "url": "https://www.incehesap.com/arama/?q=Apple%20iPhone%2017%20Pro%20Max%20(512%20GB)",
+          "inStock": true,
+          "shippingFree": true,
+          "shippingDays": 1,
+          "lastUpdated": "2026-09-16"
+        },
+        {
+          "storeName": "İtopya",
+          "storeLogo": "/images/stores/itopya.svg",
+          "price": 132117,
+          "productUrl": "https://www.itopya.com/AramaSonuclari/?b=Apple%20iPhone%2017%20Pro%20Max%20(512%20GB)",
+          "url": "https://www.itopya.com/AramaSonuclari/?b=Apple%20iPhone%2017%20Pro%20Max%20(512%20GB)",
+          "inStock": true,
+          "shippingFree": true,
+          "shippingDays": 1,
+          "lastUpdated": "2026-09-16"
+        },
+        {
+          "storeName": "Sinerji Bilgisayar",
+          "storeLogo": "/images/stores/sinerji.svg",
+          "price": 131985,
+          "productUrl": "https://www.sinerji.gen.tr/Arama?q=Apple%20iPhone%2017%20Pro%20Max%20(512%20GB)",
+          "url": "https://www.sinerji.gen.tr/Arama?q=Apple%20iPhone%2017%20Pro%20Max%20(512%20GB)",
+          "inStock": true,
+          "shippingFree": true,
+          "shippingDays": 1,
+          "lastUpdated": "2026-09-16"
+        },
+        {
+          "storeName": "Gaming.Gen.TR",
+          "storeLogo": "/images/stores/gaminggen.svg",
+          "price": 132250,
+          "productUrl": "https://www.gaming.gen.tr/?s=Apple%20iPhone%2017%20Pro%20Max%20(512%20GB)",
+          "url": "https://www.gaming.gen.tr/?s=Apple%20iPhone%2017%20Pro%20Max%20(512%20GB)",
+          "inStock": true,
+          "shippingFree": true,
+          "shippingDays": 1,
+          "lastUpdated": "2026-09-16"
+        },
+        {
+          "storeName": "GameGaraj",
+          "storeLogo": "/images/stores/gamegaraj.svg",
+          "price": 132648,
+          "productUrl": "https://www.gamegaraj.com/arama/?q=Apple%20iPhone%2017%20Pro%20Max%20(512%20GB)",
+          "url": "https://www.gamegaraj.com/arama/?q=Apple%20iPhone%2017%20Pro%20Max%20(512%20GB)",
+          "inStock": true,
+          "shippingFree": true,
+          "shippingDays": 1,
+          "lastUpdated": "2026-09-16"
+        },
+        {
+          "storeName": "Tebilon",
+          "storeLogo": "/images/stores/tebilon.svg",
+          "price": 132382,
+          "productUrl": "https://www.tebilon.com/arama/?q=Apple%20iPhone%2017%20Pro%20Max%20(512%20GB)",
+          "url": "https://www.tebilon.com/arama/?q=Apple%20iPhone%2017%20Pro%20Max%20(512%20GB)",
+          "inStock": true,
+          "shippingFree": true,
+          "shippingDays": 1,
+          "lastUpdated": "2026-09-16"
+        },
+        {
+          "storeName": "Ebrar Bilgisayar",
+          "storeLogo": "/images/stores/ebrar.svg",
+          "price": 131720,
+          "productUrl": "https://www.ebrarbilgisayar.com/arama?q=Apple%20iPhone%2017%20Pro%20Max%20(512%20GB)",
+          "url": "https://www.ebrarbilgisayar.com/arama?q=Apple%20iPhone%2017%20Pro%20Max%20(512%20GB)",
+          "inStock": true,
+          "shippingFree": true,
+          "shippingDays": 1,
+          "lastUpdated": "2026-09-16"
+        }
+      ],
+      "priceHistory": [
+        {
+          "date": "2026-03-01",
+          "price": 136218
+        },
+        {
+          "date": "2026-04-01",
+          "price": 134895
+        },
+        {
+          "date": "2026-05-01",
+          "price": 133573
+        },
+        {
+          "date": "2026-06-01",
+          "price": 132911
+        },
+        {
+          "date": "2026-07-01",
+          "price": 134234
+        },
+        {
+          "date": "2026-08-01",
+          "price": 133308
+        },
+        {
+          "date": "2026-09-01",
+          "price": 132250
+        },
+        {
+          "date": "6 Eylül 2026",
+          "price": 132515
+        },
+        {
+          "date": "2026-09-16",
+          "price": 132515
+        }
+      ],
+      "specs": {
+        "screen": {
+          "size": "6.9 inç",
+          "type": "LTPO Super Retina XDR OLED (1-120Hz ProMotion)",
+          "resolution": "2868 x 1320 piksel (460 ppi)",
+          "refreshRate": 120,
+          "brightnessNits": 3000
+        },
+        "processor": {
+          "chip": "Apple A19 Pro (2nm N3P)",
+          "cores": "6 Çekirdek (2P + 4E, 16-Core Neural Engine)",
+          "antutuScore": 2350000
+        },
+        "memory": {
+          "ramGb": 12,
+          "ramType": "LPDDR5X (16-Core Neural Engine)",
+          "storageGb": 512,
+          "storageOptions": [
+            128,
+            512,
+            1024,
+            2048
+          ],
+          "expandableStorage": false
+        },
+        "camera": {
+          "mainMp": "48 MP Fusion, f/1.78, 24mm, Sensor-shift OIS",
+          "ultrawideMp": "48 MP, f/2.2, 13mm, 120˚",
+          "telephotoMp": "48 MP (5x Optik Zoom Tetraprism)",
+          "selfieMp": "24 MP TrueDepth, f/1.9",
+          "videoRes": "4K@120fps Dolby Vision HDR, ProRes LOG",
+          "dxomarkScore": 165
+        },
+        "battery": {
+          "capacitymAh": 4850,
+          "chargingWatts": 45,
+          "wirelessCharging": true,
+          "reverseWireless": false
+        },
+        "connectivity": {
+          "has5G": false,
+          "wifiStandard": "Wi-Fi 7 (802.11be)",
+          "bluetooth": "5.4",
+          "hasNFC": true,
+          "hasesim": true
+        },
+        "build": {
+          "weightGrams": 225,
+          "thicknessMm": 8.25,
+          "waterResistance": "IP68 (6 metre 30 dakika)",
+          "frameMaterial": "Grade 5 Titanyum Çerçeve & Mat Dokulu Cam Arka Yüzey"
+        },
+        "software": {
+          "osName": "iOS 19 (Apple Intelligence Destekli)",
+          "updateYears": 7
+        }
+      },
+      "isLatestModel": true,
+      "price": 132515,
+      "variants": [
+        {
+          "id": "apple-apple-iphone-17-pro-max-512-gb-1027078-kozmik",
+          "name": "Apple iPhone 17 Pro Max (512 GB) - Kozmik",
+          "colorName": "Kozmik Turuncu (Cosmic Orange)",
+          "colorHex": "#22303c",
+          "image": "/images/phones/apple/iphone-17-promax-cosmicorange.jpg",
+          "price": 132250,
+          "color": "Abis"
+        },
+        {
+          "id": "apple-apple-iphone-17-pro-max-512-gb-1027078-koyu",
+          "name": "Apple iPhone 17 Pro Max (512 GB) - Koyu",
+          "colorName": "Koyu Mavi (Dark Blue)",
+          "colorHex": "#d46b38",
+          "image": "/images/phones/apple/iphone-17-promax-deepblue.jpg",
+          "price": 132250,
+          "color": "Kozmik Turuncu"
+        },
+        {
+          "id": "apple-apple-iphone-17-pro-max-512-gb-1027078-gümüş",
+          "name": "Apple iPhone 17 Pro Max (512 GB) - Gümüş",
+          "colorName": "Gümüş (Silver)",
+          "colorHex": "#e2e4e1",
+          "image": "/images/phones/apple/iphone-17-promax-silver.jpg",
+          "price": 132250,
+          "color": "Gümüş"
+        },
+        {
+          "id": "apple-apple-iphone-17-pro-max-512-gb-1027078-uzay",
+          "name": "Apple iPhone 17 Pro Max (512 GB) - Uzay",
+          "colorName": "Uzay Siyahı (Space Black)",
+          "colorHex": "#22303c",
+          "image": "/images/phones/apple/iphone-17-promax-deepblue.jpg",
+          "price": 132250,
+          "color": "Abis"
+        }
+      ],
+      "gallery": [
+        "/images/phones/apple/iphone-17-promax-lineup.jpg",
+        "/images/phones/apple/iphone-17-promax-deepblue.jpg",
+        "/images/phones/apple/iphone-17-promax-cosmicorange.jpg",
+        "/images/phones/apple/iphone-17-promax-silver.jpg"
+      ]
+    },
+    {
+      "id": "apple-apple-iphone-17-pro-max-256-gb-1023353",
+      "slug": "apple-iphone-17-pro-max-256-gb",
+      "name": "Apple iPhone 17 Pro Max (256 GB)",
+      "brand": "Apple",
+      "category": "smartphones",
+      "image": "/images/phones/apple/iphone-17-promax-cosmicorange.jpg",
+      "images": [
+        "/images/phones/apple/iphone-17-promax-lineup.jpg",
+        "/images/phones/apple/iphone-17-promax-deepblue.jpg",
+        "/images/phones/apple/iphone-17-promax-cosmicorange.jpg",
+        "/images/phones/apple/iphone-17-promax-silver.jpg"
+      ],
+      "rating": 4.95,
+      "epeyScore": 99,
+      "reviewCount": 2380,
+      "basePrice": 118499,
+      "currency": "TL",
+      "releaseYear": 2026,
+      "isPopular": true,
+      "isFeatured": true,
+      "highlights": [
+        "Apple A19 Pro (2nm) Yeni Nesil Yapay Zeka Çipi",
+        "48 MP Fusion + 48 MP Ultra Geniş + 48 MP 5x Periskop Telefoto",
+        "6.9 inç 120Hz ProMotion Super Retina XDR OLED (3000 nit)",
+        "Apple Intelligence Türkçe ve Sesli Siri Entegrasyonu",
+        "Kamera Denetimi (Camera Control) Dokunmatik Butonu",
+        "Havacılık Sınıfı Grade 5 Titanyum Kasa & Seramik Kalkan 2"
+      ],
+      "pros": [
+        "Apple A19 Pro (2 nm) ile optimize klasik iOS performansı",
+        "4K Dolby Vision HDR @ 120 fps / ProRes Log ile kendi döneminin en iyi kamera deneyimi",
+        "Kompakt tek elle kullanım ergonomisi",
+        "Koleksiyon değeri ve ikonik Apple tasarımı"
+      ],
+      "cons": [
+        "Güncel modern iOS sürümlerini desteklemiyor",
+        "Eski 30-pin / Lightning şarj standardı"
+      ],
+      "colorOptions": [
+        {
+          "name": "Kozmik Turuncu",
+          "hex": "#E36E38",
+          "image": "/images/phones/apple/iphone-17-promax-cosmicorange.jpg"
+        },
+        {
+          "name": "Abis",
+          "hex": "#262D3D",
+          "image": "/images/phones/apple/iphone-17-promax-deepblue.jpg"
+        },
+        {
+          "name": "Gümüş",
+          "hex": "#E2E4E5",
+          "image": "/images/phones/apple/iphone-17-promax-silver.jpg"
+        }
+      ],
+      "storeOffers": [
+        {
+          "storeName": "Hepsiburada",
+          "storeLogo": "/images/stores/hepsiburada.svg",
+          "price": 118025,
+          "productUrl": "https://www.hepsiburada.com/ara?q=Apple%20iPhone%2017%20Pro%20Max%20(256%20GB)",
+          "url": "https://www.hepsiburada.com/ara?q=Apple%20iPhone%2017%20Pro%20Max%20(256%20GB)",
+          "inStock": true,
+          "shippingFree": true,
+          "shippingDays": 1,
+          "lastUpdated": "2026-09-16"
+        },
+        {
+          "storeName": "Trendyol",
+          "storeLogo": "/images/stores/trendyol.svg",
+          "price": 118736,
+          "productUrl": "https://www.trendyol.com/sr?q=Apple%20iPhone%2017%20Pro%20Max%20(256%20GB)",
+          "url": "https://www.trendyol.com/sr?q=Apple%20iPhone%2017%20Pro%20Max%20(256%20GB)",
+          "inStock": true,
+          "shippingFree": true,
+          "shippingDays": 1,
+          "lastUpdated": "2026-09-16"
+        },
+        {
+          "storeName": "Amazon TR",
+          "storeLogo": "/images/stores/amazon.svg",
+          "price": 118262,
+          "productUrl": "https://www.amazon.com.tr/s?k=Apple%20iPhone%2017%20Pro%20Max%20(256%20GB)",
+          "url": "https://www.amazon.com.tr/s?k=Apple%20iPhone%2017%20Pro%20Max%20(256%20GB)",
+          "inStock": true,
+          "shippingFree": true,
+          "shippingDays": 1,
+          "lastUpdated": "2026-09-16"
+        },
+        {
+          "storeName": "N11",
+          "storeLogo": "/images/stores/n11.svg",
+          "price": 117788,
+          "productUrl": "https://www.n11.com/arama?q=Apple%20iPhone%2017%20Pro%20Max%20(256%20GB)",
+          "url": "https://www.n11.com/arama?q=Apple%20iPhone%2017%20Pro%20Max%20(256%20GB)",
+          "inStock": true,
+          "shippingFree": true,
+          "shippingDays": 1,
+          "lastUpdated": "2026-09-16"
+        },
+        {
+          "storeName": "PttAVM",
+          "storeLogo": "/images/stores/pttavm.svg",
+          "price": 117551,
+          "productUrl": "https://www.pttavm.com/arama?q=Apple%20iPhone%2017%20Pro%20Max%20(256%20GB)",
+          "url": "https://www.pttavm.com/arama?q=Apple%20iPhone%2017%20Pro%20Max%20(256%20GB)",
+          "inStock": true,
+          "shippingFree": true,
+          "shippingDays": 1,
+          "lastUpdated": "2026-09-16"
+        },
+        {
+          "storeName": "Vatan Bilgisayar",
+          "storeLogo": "/images/stores/vatan.svg",
+          "price": 118499,
+          "productUrl": "https://www.vatanbilgisayar.com/arama/Apple%20iPhone%2017%20Pro%20Max%20(256%20GB)/",
+          "url": "https://www.vatanbilgisayar.com/arama/Apple%20iPhone%2017%20Pro%20Max%20(256%20GB)/",
+          "inStock": true,
+          "shippingFree": true,
+          "shippingDays": 1,
+          "lastUpdated": "2026-09-16"
+        },
+        {
+          "storeName": "MediaMarkt",
+          "storeLogo": "/images/stores/mediamarkt.svg",
+          "price": 119210,
+          "productUrl": "https://www.mediamarkt.com.tr/tr/search.html?query=Apple%20iPhone%2017%20Pro%20Max%20(256%20GB)",
+          "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Apple%20iPhone%2017%20Pro%20Max%20(256%20GB)",
+          "inStock": true,
+          "shippingFree": true,
+          "shippingDays": 1,
+          "lastUpdated": "2026-09-16"
+        },
+        {
+          "storeName": "Teknosa",
+          "storeLogo": "/images/stores/teknosa.svg",
+          "price": 118973,
+          "productUrl": "https://www.teknosa.com/arama?s=Apple%20iPhone%2017%20Pro%20Max%20(256%20GB)",
+          "url": "https://www.teknosa.com/arama?s=Apple%20iPhone%2017%20Pro%20Max%20(256%20GB)",
+          "inStock": true,
+          "shippingFree": true,
+          "shippingDays": 1,
+          "lastUpdated": "2026-09-16"
+        },
+        {
+          "storeName": "İncehesap",
+          "storeLogo": "/images/stores/incehesap.svg",
+          "price": 117907,
+          "productUrl": "https://www.incehesap.com/arama/?q=Apple%20iPhone%2017%20Pro%20Max%20(256%20GB)",
+          "url": "https://www.incehesap.com/arama/?q=Apple%20iPhone%2017%20Pro%20Max%20(256%20GB)",
+          "inStock": true,
+          "shippingFree": true,
+          "shippingDays": 1,
+          "lastUpdated": "2026-09-16"
+        },
+        {
+          "storeName": "İtopya",
+          "storeLogo": "/images/stores/itopya.svg",
+          "price": 118144,
+          "productUrl": "https://www.itopya.com/AramaSonuclari/?b=Apple%20iPhone%2017%20Pro%20Max%20(256%20GB)",
+          "url": "https://www.itopya.com/AramaSonuclari/?b=Apple%20iPhone%2017%20Pro%20Max%20(256%20GB)",
+          "inStock": true,
+          "shippingFree": true,
+          "shippingDays": 1,
+          "lastUpdated": "2026-09-16"
+        },
+        {
+          "storeName": "Sinerji Bilgisayar",
+          "storeLogo": "/images/stores/sinerji.svg",
+          "price": 118025,
+          "productUrl": "https://www.sinerji.gen.tr/Arama?q=Apple%20iPhone%2017%20Pro%20Max%20(256%20GB)",
+          "url": "https://www.sinerji.gen.tr/Arama?q=Apple%20iPhone%2017%20Pro%20Max%20(256%20GB)",
+          "inStock": true,
+          "shippingFree": true,
+          "shippingDays": 1,
+          "lastUpdated": "2026-09-16"
+        },
+        {
+          "storeName": "Gaming.Gen.TR",
+          "storeLogo": "/images/stores/gaminggen.svg",
+          "price": 118262,
+          "productUrl": "https://www.gaming.gen.tr/?s=Apple%20iPhone%2017%20Pro%20Max%20(256%20GB)",
+          "url": "https://www.gaming.gen.tr/?s=Apple%20iPhone%2017%20Pro%20Max%20(256%20GB)",
+          "inStock": true,
+          "shippingFree": true,
+          "shippingDays": 1,
+          "lastUpdated": "2026-09-16"
+        },
+        {
+          "storeName": "GameGaraj",
+          "storeLogo": "/images/stores/gamegaraj.svg",
+          "price": 118617,
+          "productUrl": "https://www.gamegaraj.com/arama/?q=Apple%20iPhone%2017%20Pro%20Max%20(256%20GB)",
+          "url": "https://www.gamegaraj.com/arama/?q=Apple%20iPhone%2017%20Pro%20Max%20(256%20GB)",
+          "inStock": true,
+          "shippingFree": true,
+          "shippingDays": 1,
+          "lastUpdated": "2026-09-16"
+        },
+        {
+          "storeName": "Tebilon",
+          "storeLogo": "/images/stores/tebilon.svg",
+          "price": 118381,
+          "productUrl": "https://www.tebilon.com/arama/?q=Apple%20iPhone%2017%20Pro%20Max%20(256%20GB)",
+          "url": "https://www.tebilon.com/arama/?q=Apple%20iPhone%2017%20Pro%20Max%20(256%20GB)",
+          "inStock": true,
+          "shippingFree": true,
+          "shippingDays": 1,
+          "lastUpdated": "2026-09-16"
+        },
+        {
+          "storeName": "Ebrar Bilgisayar",
+          "storeLogo": "/images/stores/ebrar.svg",
+          "price": 117788,
+          "productUrl": "https://www.ebrarbilgisayar.com/arama?q=Apple%20iPhone%2017%20Pro%20Max%20(256%20GB)",
+          "url": "https://www.ebrarbilgisayar.com/arama?q=Apple%20iPhone%2017%20Pro%20Max%20(256%20GB)",
+          "inStock": true,
+          "shippingFree": true,
+          "shippingDays": 1,
+          "lastUpdated": "2026-09-16"
+        }
+      ],
+      "priceHistory": [
+        {
+          "date": "2026-03-01",
+          "price": 127926
+        },
+        {
+          "date": "2026-04-01",
+          "price": 126684
+        },
+        {
+          "date": "2026-05-01",
+          "price": 125442
+        },
+        {
+          "date": "2026-06-01",
+          "price": 124821
+        },
+        {
+          "date": "2026-07-01",
+          "price": 126063
+        },
+        {
+          "date": "2026-08-01",
+          "price": 125194
+        },
+        {
+          "date": "2026-09-01",
+          "price": 124200
+        },
+        {
+          "date": "6 Eylül 2026",
+          "price": 118499
+        },
+        {
+          "date": "2026-09-16",
+          "price": 118499
+        }
+      ],
+      "specs": {
+        "screen": {
+          "size": "6.9 inç",
+          "type": "LTPO Super Retina XDR OLED (1-120Hz ProMotion)",
+          "resolution": "2868 x 1320 piksel (460 ppi)",
+          "refreshRate": 120,
+          "brightnessNits": 3000
+        },
+        "processor": {
+          "chip": "Apple A19 Pro (2nm N3P)",
+          "cores": "6 Çekirdek (2P + 4E, 16-Core Neural Engine)",
+          "antutuScore": 2350000
+        },
+        "memory": {
+          "ramGb": 12,
+          "ramType": "LPDDR5X (16-Core Neural Engine)",
+          "storageGb": 256,
+          "storageOptions": [
+            128,
+            256,
+            512,
+            1024,
+            2048
+          ],
+          "expandableStorage": false
+        },
+        "camera": {
+          "mainMp": "48 MP Fusion, f/1.78, 24mm, Sensor-shift OIS",
+          "ultrawideMp": "48 MP, f/2.2, 13mm, 120˚",
+          "telephotoMp": "48 MP (5x Optik Zoom Tetraprism)",
+          "selfieMp": "24 MP TrueDepth, f/1.9",
+          "videoRes": "4K@120fps Dolby Vision HDR, ProRes LOG",
+          "dxomarkScore": 165
+        },
+        "battery": {
+          "capacitymAh": 4850,
+          "chargingWatts": 45,
+          "wirelessCharging": true,
+          "reverseWireless": false
+        },
+        "connectivity": {
+          "has5G": false,
+          "wifiStandard": "Wi-Fi 7 (802.11be)",
+          "bluetooth": "5.4",
+          "hasNFC": true,
+          "hasesim": true
+        },
+        "build": {
+          "weightGrams": 225,
+          "thicknessMm": 8.25,
+          "waterResistance": "IP68 (6 metre 30 dakika)",
+          "frameMaterial": "Grade 5 Titanyum Çerçeve & Mat Dokulu Cam Arka Yüzey"
+        },
+        "software": {
+          "osName": "iOS 19 (Apple Intelligence Destekli)",
+          "updateYears": 7
+        }
+      },
+      "isLatestModel": true,
+      "price": 124200,
+      "variants": [
+        {
+          "id": "apple-apple-iphone-17-pro-max-256-gb-1023353-kozmik",
+          "name": "Apple iPhone 17 Pro Max (256 GB) - Kozmik",
+          "colorName": "Kozmik Turuncu (Cosmic Orange)",
+          "colorHex": "#22303c",
+          "image": "/images/phones/apple/iphone-17-promax-cosmicorange.jpg",
+          "price": 124200,
+          "color": "Abis"
+        },
+        {
+          "id": "apple-apple-iphone-17-pro-max-256-gb-1023353-koyu",
+          "name": "Apple iPhone 17 Pro Max (256 GB) - Koyu",
+          "colorName": "Koyu Mavi (Dark Blue)",
+          "colorHex": "#d46b38",
+          "image": "/images/phones/apple/iphone-17-promax-deepblue.jpg",
+          "price": 124200,
+          "color": "Kozmik Turuncu"
+        },
+        {
+          "id": "apple-apple-iphone-17-pro-max-256-gb-1023353-gümüş",
+          "name": "Apple iPhone 17 Pro Max (256 GB) - Gümüş",
+          "colorName": "Gümüş (Silver)",
+          "colorHex": "#e2e4e1",
+          "image": "/images/phones/apple/iphone-17-promax-silver.jpg",
+          "price": 124200,
+          "color": "Gümüş"
+        },
+        {
+          "id": "apple-apple-iphone-17-pro-max-256-gb-1023353-uzay",
+          "name": "Apple iPhone 17 Pro Max (256 GB) - Uzay",
+          "colorName": "Uzay Siyahı (Space Black)",
+          "colorHex": "#22303c",
+          "image": "/images/phones/apple/iphone-17-promax-deepblue.jpg",
+          "price": 124200,
+          "color": "Abis"
+        }
+      ],
+      "gallery": [
+        "/images/phones/apple/iphone-17-promax-lineup.jpg",
+        "/images/phones/apple/iphone-17-promax-deepblue.jpg",
+        "/images/phones/apple/iphone-17-promax-cosmicorange.jpg",
+        "/images/phones/apple/iphone-17-promax-silver.jpg"
+      ]
+    }
+  ]
+}

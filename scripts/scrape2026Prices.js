@@ -1,3 +1,6 @@
+// Retired: failed fetches manufactured prices/stock and wrote synthetic history.
+throw new Error('Bu eski fiyat aracı devre dışı: başarısız kontrolde tahmini fiyat ve stok üretiyor. Doğrudan ürün gözlemi gerekir.');
+
 const fs = require('fs');
 const path = require('path');
 const cheerio = require('cheerio');
