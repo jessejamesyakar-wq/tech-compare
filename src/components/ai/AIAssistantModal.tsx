@@ -1563,49 +1563,49 @@ export function AIAssistantModal({
                           {/* İç Yiv ve Pah Halkası */}
                           <div className="w-full h-full rounded-full border border-white/80 dark:border-slate-700/60 flex items-center justify-center p-2 relative shadow-[inset_2px_3px_6px_rgba(15,23,42,0.10),inset_-2px_-3px_6px_rgba(255,255,255,0.85)] dark:shadow-[inset_2px_3px_6px_rgba(0,0,0,0.4),inset_-2px_-3px_6px_rgba(255,255,255,0.05)] overflow-hidden">
                             
-                            {/* Atan Kalp Şok Dalgası Halka Effect */}
+                            {/* Atan Kalp Şok Dalgası Halka Effect (Çok Zarif Mikron Halka) */}
                             <motion.div
                               animate={{
-                                scale: [0.75, 1.35],
-                                opacity: [0.65, 0]
+                                scale: [0.85, 1.15],
+                                opacity: [0.25, 0]
                               }}
                               transition={{
-                                duration: 1.25,
+                                duration: 2.2,
                                 repeat: Infinity,
                                 ease: 'easeOut'
                               }}
-                              className="absolute inset-1 rounded-full border-2 border-cyan-400/60 pointer-events-none"
+                              className="absolute inset-1 rounded-full border border-cyan-400/30 pointer-events-none"
                             />
 
-                            {/* Yumuşak Camgöbeği & Indigo İç Kalp Aurası (Beating Core) */}
+                            {/* Yumuşak Camgöbeği & Indigo İç Kalp Aurası (Zayıflatılmış Sakin Işık) */}
                             <motion.div
                               animate={{
-                                scale: [1, 1.15, 1.05, 1.28, 1, 1],
-                                opacity: [0.4, 0.75, 0.5, 0.95, 0.4, 0.4]
+                                scale: [1, 1.05, 1.02, 1.08, 1, 1],
+                                opacity: [0.15, 0.3, 0.2, 0.35, 0.15, 0.15]
                               }}
                               transition={{
-                                duration: 1.25,
+                                duration: 2.2,
                                 repeat: Infinity,
                                 ease: 'easeInOut'
                               }}
-                              className="absolute inset-2 rounded-full bg-gradient-to-r from-cyan-400 via-sky-500 to-indigo-500 blur-xl pointer-events-none"
+                              className="absolute inset-2 rounded-full bg-gradient-to-r from-cyan-400/50 via-sky-500/50 to-indigo-500/50 blur-xl pointer-events-none"
                             />
 
-                            {/* Siber Sibernetik Kalp (LUB-DUB Ritimli Atan Kalp Animasyonu) */}
+                            {/* Siber Sibernetik Kalp (Hafif ve Zarif Mikron Atan Kalp Animasyonu) */}
                             <motion.div
                               animate={{
-                                scale: [1, 1.08, 1.02, 1.15, 1, 1],
+                                scale: [1, 1.025, 1.01, 1.04, 1, 1],
                                 filter: [
-                                  'drop-shadow(0 4px 12px rgba(15,23,42,0.25)) drop-shadow(0 0 10px rgba(6,182,212,0.4))',
-                                  'drop-shadow(0 6px 20px rgba(6,182,212,0.85)) drop-shadow(0 0 25px rgba(14,165,233,0.9))',
-                                  'drop-shadow(0 4px 14px rgba(6,182,212,0.5)) drop-shadow(0 0 14px rgba(6,182,212,0.6))',
-                                  'drop-shadow(0 8px 30px rgba(59,130,246,0.95)) drop-shadow(0 0 35px rgba(6,182,212,1))',
-                                  'drop-shadow(0 4px 12px rgba(15,23,42,0.25)) drop-shadow(0 0 10px rgba(6,182,212,0.4))',
-                                  'drop-shadow(0 4px 12px rgba(15,23,42,0.25)) drop-shadow(0 0 10px rgba(6,182,212,0.4))'
+                                  'drop-shadow(0 4px 10px rgba(15,23,42,0.18)) drop-shadow(0 0 6px rgba(6,182,212,0.20))',
+                                  'drop-shadow(0 4px 14px rgba(6,182,212,0.35)) drop-shadow(0 0 10px rgba(14,165,233,0.30))',
+                                  'drop-shadow(0 4px 10px rgba(6,182,212,0.20)) drop-shadow(0 0 6px rgba(6,182,212,0.20))',
+                                  'drop-shadow(0 5px 16px rgba(59,130,246,0.40)) drop-shadow(0 0 14px rgba(6,182,212,0.40))',
+                                  'drop-shadow(0 4px 10px rgba(15,23,42,0.18)) drop-shadow(0 0 6px rgba(6,182,212,0.20))',
+                                  'drop-shadow(0 4px 10px rgba(15,23,42,0.18)) drop-shadow(0 0 6px rgba(6,182,212,0.20))'
                                 ]
                               }}
                               transition={{
-                                duration: 1.25,
+                                duration: 2.2,
                                 repeat: Infinity,
                                 ease: 'easeInOut'
                               }}
