@@ -40,12 +40,6 @@ export class Orchestrator {
 
     this.taskStore.addTask(initialRecord);
 
-    // Enforce max tasks per run check
-    const recentTasks = this.taskStore.getAllTasks();
-    if (recentTasks.length > CONFIG.MAX_TASKS_PER_RUN * 10) {
-      // Keep store trimmed if necessary
-    }
-
     // Step 1: Risk & Governance Gating BEFORE API dispatch
     const governanceCheck = validateTaskGovernance(type, risk);
     if (!governanceCheck.ok) {
@@ -65,13 +59,17 @@ export class Orchestrator {
       startedAt
     });
 
-    // Step 3: Append Repository Identity Check requirement to instruction
-    const repositoryIdentityCheckPrompt = `
+    // Step 3: Enforce Repository Preflight Guard & Working Directory Contract
+    const repositoryPreflightPrompt = `
 
-Repository Identity Safeguard:
-1. Verify remote branch is main.
-2. Verify current remote main commit HEAD.
-3. Include branch and HEAD explicitly in response output.
+Pre-Task Repository Guard:
+1. Working directory MUST be /workspace/aceleetme.
+2. Check if repository exists: run \`test -d /workspace/aceleetme/.git\`.
+3. If /workspace/aceleetme/.git is absent, STOP IMMEDIATELY and return REMOTE_REPOSITORY_NOT_MOUNTED.
+4. If /workspace/aceleetme/.git is present, obtain:
+   - \`git -C /workspace/aceleetme branch --show-current\`
+   - \`git -C /workspace/aceleetme rev-parse HEAD\`
+5. Include branch and HEAD explicitly in response output before executing the task.
 
 Task Instruction:
 ${instruction}`;
@@ -79,7 +77,7 @@ ${instruction}`;
     // Step 4: Dispatch to Antigravity API
     try {
       const client = this.getClient();
-      const execResult = await client.executeTask(repositoryIdentityCheckPrompt);
+      const execResult = await client.executeTask(repositoryPreflightPrompt);
 
       const completedAt = new Date().toISOString();
       const finalRecord = this.taskStore.updateTask(taskId, {

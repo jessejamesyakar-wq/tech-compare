@@ -16,6 +16,27 @@ export class AntigravityClient {
     this.githubToken = process.env.ACELEETME_GITHUB_READ_TOKEN!;
   }
 
+  public buildRepositoryEnvironmentPayload(): any {
+    return {
+      type: CONFIG.BASE_ENVIRONMENT_TYPE,
+      sources: [
+        {
+          type: 'repository',
+          source: CONFIG.REPO_URL,
+          target: CONFIG.REPO_MOUNT_TARGET
+        }
+      ],
+      network: {
+        allowlist: [
+          {
+            domain: 'github.com',
+            credential: CONFIG.MANAGED_CREDENTIAL_ID
+          }
+        ]
+      }
+    };
+  }
+
   public async executeTask(prompt: string): Promise<TaskExecutionResult> {
     const fullInput = `${PERMANENT_GOVERNANCE_INSTRUCTION}\n\nTask:\n${prompt}`;
     let attempts = 0;
@@ -71,11 +92,12 @@ export class AntigravityClient {
   private async dispatchAndPoll(fullInput: string): Promise<TaskExecutionResult> {
     const url = `${CONFIG.API_BASE_URL}/interactions`;
 
-    // Official runtime interaction payload for inline generic Antigravity agent
+    const environmentPayload = this.buildRepositoryEnvironmentPayload();
+
     const payload: any = {
       agent: CONFIG.RUNTIME_AGENT,
       input: fullInput,
-      environment: 'remote',
+      environment: environmentPayload,
       background: true
     };
 
@@ -96,7 +118,7 @@ export class AntigravityClient {
       return {
         success: false,
         status: status === 403 || status === 401 ? 'BLOCKED' : 'FAILED',
-        failureClassification: `HTTP_${status}: ${errorMsg}`,
+        failureClassification: status === 401 || status === 403 ? 'REMOTE_REPOSITORY_MOUNT_BLOCKED' : `HTTP_${status}: ${errorMsg}`,
         attempts: 1
       };
     }
@@ -151,6 +173,18 @@ export class AntigravityClient {
           }
         }
 
+        // Repository Preflight Guard Check
+        if (outputText.includes('REMOTE_REPOSITORY_NOT_MOUNTED') || outputText.includes('fatal: not a git repository') || outputText.includes('No git repository')) {
+          return {
+            success: false,
+            status: 'BLOCKED',
+            outputText: redactSecrets(outputText),
+            interactionId,
+            failureClassification: 'REMOTE_REPOSITORY_NOT_MOUNTED',
+            attempts: 1
+          };
+        }
+
         return {
           success: true,
           status: 'COMPLETED',
@@ -174,7 +208,7 @@ export class AntigravityClient {
       success: false,
       status: 'BLOCKED',
       interactionId,
-      failureClassification: 'MAX_TASK_RUNTIME_TIMEOUT_EXCEEDED',
+      failureClassification: 'REMOTE_REPOSITORY_TASK_TIMEOUT',
       attempts: 1
     };
   }

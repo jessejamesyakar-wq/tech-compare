@@ -10,7 +10,7 @@ import { Orchestrator } from '../src/orchestrator';
 import { AntigravityClient } from '../src/antigravityClient';
 import { TaskExecutionResult } from '../src/types';
 
-describe('ACELEETME Control Hub V0.1 — Unit Test Suite', () => {
+describe('ACELEETME Control Hub V0.1 — Unit & Remediation Test Suite', () => {
 
   test('1. Governance: GREEN task is accepted', () => {
     const res = validateTaskGovernance('REPOSITORY_INSPECTION', 'GREEN');
@@ -126,4 +126,58 @@ describe('ACELEETME Control Hub V0.1 — Unit Test Suite', () => {
 
     if (fs.existsSync(testStorePath)) fs.unlinkSync(testStorePath);
   });
+
+  test('8. Regression: Repository Environment Payload Schema', () => {
+    process.env.GEMINI_API_KEY = 'test_key';
+    process.env.ACELEETME_GITHUB_READ_TOKEN = 'test_token';
+    const client = new AntigravityClient();
+    const envPayload = client.buildRepositoryEnvironmentPayload();
+
+    assert.strictEqual(typeof envPayload, 'object', 'Environment payload must be an object');
+    assert.strictEqual(envPayload.type, 'remote');
+    assert.strictEqual(Array.isArray(envPayload.sources), true);
+    assert.strictEqual(envPayload.sources[0].type, 'repository');
+    assert.strictEqual(envPayload.sources[0].source, 'https://github.com/jessejamesyakar-wq/tech-compare.git');
+    assert.strictEqual(envPayload.sources[0].target, '/workspace/aceleetme');
+    assert.strictEqual(envPayload.network.allowlist[0].domain, 'github.com');
+    assert.strictEqual(envPayload.network.allowlist[0].credential, 'aceleetme-github-readonly-v1');
+  });
+
+  test('9. Regression: Plain string environment="remote" is rejected for repo payload', () => {
+    process.env.GEMINI_API_KEY = 'test_key';
+    process.env.ACELEETME_GITHUB_READ_TOKEN = 'test_token';
+    const client = new AntigravityClient();
+    const envPayload = client.buildRepositoryEnvironmentPayload();
+
+    assert.notStrictEqual(envPayload, 'remote', 'Plain string environment="remote" must not be used');
+  });
+
+  test('10. Preflight: Classifies REMOTE_REPOSITORY_NOT_MOUNTED when /workspace/aceleetme/.git is absent', async () => {
+    const testStorePath = path.join(__dirname, 'test-preflight-state.json');
+    if (fs.existsSync(testStorePath)) fs.unlinkSync(testStorePath);
+
+    const mockClient = {
+      executeTask: async (): Promise<TaskExecutionResult> => {
+        return {
+          success: false,
+          status: 'BLOCKED',
+          outputText: 'fatal: not a git repository (or any of the parent directories): .git',
+          interactionId: 'v1_mock_interaction_123',
+          failureClassification: 'REMOTE_REPOSITORY_NOT_MOUNTED',
+          attempts: 1
+        };
+      }
+    } as unknown as AntigravityClient;
+
+    const store = new TaskStore(testStorePath);
+    const orchestrator = new Orchestrator(store, mockClient);
+
+    const result = await orchestrator.submitAndExecuteTask('REPOSITORY_INSPECTION', 'GREEN', 'Inspect repo');
+
+    assert.strictEqual(result.status, 'BLOCKED');
+    assert.strictEqual(result.failureClassification, 'REMOTE_REPOSITORY_NOT_MOUNTED');
+
+    if (fs.existsSync(testStorePath)) fs.unlinkSync(testStorePath);
+  });
+
 });

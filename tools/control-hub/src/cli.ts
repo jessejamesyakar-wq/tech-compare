@@ -17,16 +17,16 @@ async function main() {
     const result = await orchestrator.submitAndExecuteTask(
       'REPOSITORY_INSPECTION',
       'GREEN',
-      `Read the ACELEETME repository.
+      `Read the ACELEETME repository from working directory /workspace/aceleetme.
 
-Return:
-- branch
-- HEAD
-- package name
-- whether working tree is clean
-- number of tracked files under src/lib/trustLayer
-- whether postgresCommerceRepository.ts exists
-- whether priceHistoryAndAnomalyEngine.ts exists.
+Run from /workspace/aceleetme:
+- git -C /workspace/aceleetme branch --show-current
+- git -C /workspace/aceleetme rev-parse HEAD
+- git -C /workspace/aceleetme status --short
+- read /workspace/aceleetme/package.json
+- count tracked files under /workspace/aceleetme/src/lib/trustLayer
+- verify if /workspace/aceleetme/src/lib/trustLayer/postgres/postgresCommerceRepository.ts exists
+- verify if /workspace/aceleetme/src/lib/trustLayer/postgres/priceHistoryAndAnomalyEngine.ts exists
 
 Do not modify files.`
     );
@@ -44,11 +44,15 @@ Do not modify files.`
     const result = await orchestrator.submitAndExecuteTask(
       'TYPECHECK',
       'GREEN',
-      `Run the repository TypeScript typecheck in the remote sandbox.
+      `Run TypeScript typecheck for ACELEETME repository.
 
-Return exit code and concise result.
+Contract:
+1. Verify working directory is /workspace/aceleetme.
+2. Verify /workspace/aceleetme/.git exists.
+3. Check if node_modules exists in /workspace/aceleetme. If missing, report DEPENDENCIES_MISSING / BLOCKED_BY_DEPENDENCIES and do not fail typecheck artificially.
+4. If dependencies are present, run typecheck (npx tsc --noEmit or npm run typecheck) inside /workspace/aceleetme.
 
-Do not change source files.`
+Return exit code and concise result.`
     );
 
     console.log(`TASK STATUS: ${result.status}`);
