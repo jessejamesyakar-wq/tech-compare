@@ -1,4 +1,4 @@
-export type TaskState = 'PENDING' | 'RUNNING' | 'COMPLETED' | 'FAILED' | 'BLOCKED';
+export type TaskState = 'PENDING' | 'RUNNING' | 'COMPLETED' | 'REVIEWED_COMPLETE' | 'FAILED' | 'BLOCKED';
 
 export type RiskLevel = 'GREEN' | 'YELLOW' | 'RED';
 
@@ -21,6 +21,42 @@ export type HighRiskTaskType =
 
 export type TaskType = GreenTaskType | HighRiskTaskType;
 
+export type ReviewerDecision =
+  | 'PASS_GREEN'
+  | 'PASS_WITH_LIMITATION'
+  | 'FAIL_REVIEW'
+  | 'OWNER_DECISION_REQUIRED'
+  | 'REVIEWER_UNAVAILABLE';
+
+export interface StructuredReviewResult {
+  decision: ReviewerDecision;
+  summary: string;
+  verifiedEvidenceUsed: string[];
+  limitations: string[];
+  risks: string[];
+  requiredNextAction: string;
+  escalationRequired: boolean;
+  modelUsed: string;
+  responseId: string;
+}
+
+export interface ReviewPackage {
+  taskId: string;
+  taskType: TaskType;
+  risk: RiskLevel;
+  canonicalHead?: string;
+  workspaceHead?: string;
+  changedFiles?: string[];
+  commandResults?: string;
+  testResults?: string;
+  typecheckResult?: string;
+  buildResult?: string;
+  readOnlyViolation?: boolean;
+  warnings?: string[];
+  failureClassification?: string;
+  antigravityAnalysis?: string;
+}
+
 export interface TaskRecord {
   taskId: string;
   type: TaskType;
@@ -37,6 +73,9 @@ export interface TaskRecord {
   analysisResult?: string;
   readOnlyViolation?: boolean;
   failureClassification?: string;
+  reviewResult?: StructuredReviewResult;
+  solReviewResult?: StructuredReviewResult;
+  reviewerDecision?: ReviewerDecision;
 }
 
 export interface TaskExecutionResult {
@@ -49,6 +88,9 @@ export interface TaskExecutionResult {
   readOnlyViolation?: boolean;
   failureClassification?: string;
   attempts: number;
+  reviewResult?: StructuredReviewResult;
+  solReviewResult?: StructuredReviewResult;
+  reviewerDecision?: ReviewerDecision;
 }
 
 export interface ControlHubState {

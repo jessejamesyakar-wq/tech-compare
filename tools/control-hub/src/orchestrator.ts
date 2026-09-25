@@ -4,9 +4,10 @@ import { AntigravityAnalysis } from './antigravityAnalysis';
 import { CONFIG } from './config';
 import { validateTaskGovernance } from './governance';
 import { LocalTaskExecutor } from './localExecutor';
+import { OpenAIReviewer } from './openaiReviewer';
 import { redactSecrets } from './secretRedactor';
 import { TaskStore } from './taskStore';
-import { GreenTaskType, RiskLevel, TaskRecord, TaskType } from './types';
+import { GreenTaskType, ReviewPackage, RiskLevel, TaskRecord, TaskState, TaskType } from './types';
 import { WorktreeManager } from './worktreeManager';
 
 export class Orchestrator {
@@ -14,17 +15,20 @@ export class Orchestrator {
   private worktreeManager: WorktreeManager;
   private localExecutor: LocalTaskExecutor;
   private antigravityAnalysis: AntigravityAnalysis;
+  private openaiReviewer: OpenAIReviewer;
 
   constructor(
     taskStore?: TaskStore,
     worktreeManager?: WorktreeManager,
     localExecutor?: LocalTaskExecutor,
-    antigravityAnalysis?: AntigravityAnalysis
+    antigravityAnalysis?: AntigravityAnalysis,
+    openaiReviewer?: OpenAIReviewer
   ) {
     this.taskStore = taskStore || new TaskStore();
     this.worktreeManager = worktreeManager || new WorktreeManager();
     this.localExecutor = localExecutor || new LocalTaskExecutor();
     this.antigravityAnalysis = antigravityAnalysis || new AntigravityAnalysis();
+    this.openaiReviewer = openaiReviewer || new OpenAIReviewer();
   }
 
   public async submitAndExecuteTask(type: TaskType, risk: RiskLevel, instruction: string): Promise<TaskRecord> {
@@ -43,7 +47,7 @@ export class Orchestrator {
 
     this.taskStore.addTask(initialRecord);
 
-    // Step 1: Risk & Governance Gating BEFORE worktree/process creation
+    // Step 1: Risk & Governance Gating BEFORE worktree/process/API creation
     const governanceCheck = validateTaskGovernance(type, risk);
     if (!governanceCheck.ok) {
       const blockedRecord = this.taskStore.updateTask(taskId, {
@@ -98,17 +102,15 @@ export class Orchestrator {
 
     // Step 4: Read-Only Violation Detector
     const readOnlyCheck = this.worktreeManager.checkReadOnlyViolation(workspacePath);
-    let finalStatus: 'COMPLETED' | 'FAILED' | 'BLOCKED' = execResult.exitCode === 0 ? 'COMPLETED' : 'FAILED';
     let failureClassification: string | undefined = undefined;
 
     if (!readOnlyCheck.clean) {
-      finalStatus = 'FAILED';
       failureClassification = `READONLY_VIOLATION: Tracked file modifications detected: ${readOnlyCheck.modifiedFiles.join(', ')}`;
     }
 
     // Step 5: Optional Antigravity Analysis over sanitized command evidence
     let analysisResultText: string | undefined = undefined;
-    if (type === 'REPOSITORY_INSPECTION' && finalStatus === 'COMPLETED') {
+    if (type === 'REPOSITORY_INSPECTION' && execResult.exitCode === 0 && readOnlyCheck.clean) {
       try {
         analysisResultText = await this.antigravityAnalysis.analyzeInspectionResult(execResult.output);
       } catch (err: any) {
@@ -127,15 +129,45 @@ export class Orchestrator {
     // Step 7: Verify Canonical Repo Safety
     this.verifyCanonicalRepoCleanliness();
 
+    // Step 8: OpenAI Reviewer Evaluation
+    const reviewPkg: ReviewPackage = {
+      taskId,
+      taskType: type,
+      risk,
+      canonicalHead: originMainHead || 'UNVERIFIED',
+      workspaceHead: originMainHead || 'UNVERIFIED',
+      commandResults: execResult.output,
+      typecheckResult: type === 'TYPECHECK' ? (execResult.exitCode === 0 ? 'PASS' : 'FAIL') : undefined,
+      buildResult: type === 'BUILD' ? (execResult.exitCode === 0 ? 'PASS' : 'FAIL') : undefined,
+      testResults: type === 'TEST' ? (execResult.exitCode === 0 ? 'PASS' : 'FAIL') : undefined,
+      readOnlyViolation: !readOnlyCheck.clean,
+      failureClassification,
+      antigravityAnalysis: analysisResultText
+    };
+
+    const dualReview = await this.openaiReviewer.reviewTask(reviewPkg);
+
+    let finalTaskStatus: TaskState = 'COMPLETED';
+    if (dualReview.finalDecision === 'PASS_GREEN' || dualReview.finalDecision === 'PASS_WITH_LIMITATION') {
+      finalTaskStatus = 'REVIEWED_COMPLETE';
+    } else if (dualReview.finalDecision === 'OWNER_DECISION_REQUIRED') {
+      finalTaskStatus = 'BLOCKED';
+    } else {
+      finalTaskStatus = 'FAILED';
+    }
+
     const completedAt = new Date().toISOString();
     const finalRecord = this.taskStore.updateTask(taskId, {
-      status: finalStatus,
+      status: finalTaskStatus,
       completedAt,
       attempts: 1,
       commandOutput: redactSecrets(execResult.output),
       analysisResult: analysisResultText ? redactSecrets(analysisResultText) : undefined,
       readOnlyViolation: !readOnlyCheck.clean,
-      failureClassification
+      failureClassification,
+      reviewResult: dualReview.lunaReview,
+      solReviewResult: dualReview.solReview,
+      reviewerDecision: dualReview.finalDecision
     })!;
 
     return finalRecord;
