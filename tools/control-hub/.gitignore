@@ -1,0 +1,5 @@
+# Control Hub local data & build artifacts
+data/control-hub-state.json
+data/*.log
+dist/
+node_modules/

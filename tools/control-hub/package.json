@@ -1,0 +1,17 @@
+{
+  "name": "aceleetme-control-hub",
+  "version": "0.1.0",
+  "description": "ACELEETME Control Hub V0.1 Read-Only Foundation",
+  "private": true,
+  "main": "dist/cli.js",
+  "scripts": {
+    "build": "tsc",
+    "typecheck": "tsc --noEmit",
+    "test": "npx tsx --test test/controlHub.test.ts",
+    "task": "npx tsx src/cli.ts",
+    "status": "npx tsx src/cli.ts status"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
