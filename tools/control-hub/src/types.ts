@@ -30,17 +30,23 @@ export interface TaskRecord {
   createdAt: string;
   startedAt?: string;
   completedAt?: string;
-  interactionId?: string;
+  workspacePath?: string;
+  originMainHead?: string;
   attempts: number;
-  result?: string;
+  commandOutput?: string;
+  analysisResult?: string;
+  readOnlyViolation?: boolean;
   failureClassification?: string;
 }
 
 export interface TaskExecutionResult {
   success: boolean;
   status: TaskState;
-  outputText?: string;
-  interactionId?: string;
+  commandOutput?: string;
+  analysisResult?: string;
+  workspacePath?: string;
+  originMainHead?: string;
+  readOnlyViolation?: boolean;
   failureClassification?: string;
   attempts: number;
 }

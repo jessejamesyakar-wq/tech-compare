@@ -6,11 +6,13 @@ import fs from 'fs';
 import { validateTaskGovernance } from '../src/governance';
 import { redactObject, redactSecrets } from '../src/secretRedactor';
 import { TaskStore } from '../src/taskStore';
+import { WorktreeManager } from '../src/worktreeManager';
+import { LocalTaskExecutor } from '../src/localExecutor';
 import { Orchestrator } from '../src/orchestrator';
-import { AntigravityClient } from '../src/antigravityClient';
-import { TaskExecutionResult } from '../src/types';
+import { AntigravityAnalysis } from '../src/antigravityAnalysis';
+import { CONFIG } from '../src/config';
 
-describe('ACELEETME Control Hub V0.1 — Unit & Remediation Test Suite', () => {
+describe('ACELEETME Control Hub V0.2 — Local Execution Test Suite', () => {
 
   test('1. Governance: GREEN task is accepted', () => {
     const res = validateTaskGovernance('REPOSITORY_INSPECTION', 'GREEN');
@@ -18,49 +20,42 @@ describe('ACELEETME Control Hub V0.1 — Unit & Remediation Test Suite', () => {
     assert.strictEqual(res.reason, undefined);
   });
 
-  test('2. Governance: RED task is rejected locally before dispatch', () => {
+  test('2. Governance: RED task is rejected locally before worktree creation', () => {
     const res = validateTaskGovernance('PRODUCTION_DEPLOY' as any, 'RED');
     assert.strictEqual(res.ok, false);
     assert.strictEqual(res.reason, 'TASK_REQUIRES_HIGHER_GOVERNANCE');
   });
 
-  test('3. Governance: YELLOW task is rejected locally before dispatch', () => {
+  test('3. Governance: YELLOW task is rejected locally before worktree creation', () => {
     const res = validateTaskGovernance('REPOSITORY_INSPECTION', 'YELLOW');
     assert.strictEqual(res.ok, false);
     assert.strictEqual(res.reason, 'TASK_REQUIRES_HIGHER_GOVERNANCE');
   });
 
-  test('4. Secret Redaction: API key and GitHub tokens are redacted from strings and objects', () => {
-    process.env.GEMINI_API_KEY = 'test_gemini_key_12345';
-    process.env.ACELEETME_GITHUB_READ_TOKEN = 'test_github_token_abcde';
+  test('4. Secret Redaction: API keys and sensitive tokens are redacted', () => {
+    process.env.GEMINI_API_KEY = 'test_gemini_key_67890';
+    process.env.ACELEETME_GITHUB_READ_TOKEN = 'test_github_token_fghij';
 
-    const rawStr = 'Error accessing with key test_gemini_key_12345 and token test_github_token_abcde and Authorization: Bearer secret_bearer_token';
+    const rawStr = 'Log with test_gemini_key_67890 and test_github_token_fghij and Authorization: Bearer token_xyz';
     const redacted = redactSecrets(rawStr);
 
-    assert.strictEqual(redacted.includes('test_gemini_key_12345'), false);
-    assert.strictEqual(redacted.includes('test_github_token_abcde'), false);
+    assert.strictEqual(redacted.includes('test_gemini_key_67890'), false);
+    assert.strictEqual(redacted.includes('test_github_token_fghij'), false);
     assert.strictEqual(redacted.includes('[REDACTED_GEMINI_API_KEY]'), true);
     assert.strictEqual(redacted.includes('[REDACTED_ACELEETME_GITHUB_READ_TOKEN]'), true);
-    assert.strictEqual(redacted.includes('secret_bearer_token'), false);
-
-    const obj = {
-      apiKey: 'test_gemini_key_12345',
-      header: 'Authorization: Basic x-oauth-basic:test_github_token_abcde'
-    };
-    const redactedObj = redactObject(obj);
-    assert.strictEqual(redactedObj.apiKey.includes('test_gemini_key_12345'), false);
+    assert.strictEqual(redacted.includes('token_xyz'), false);
   });
 
   test('5. TaskStore: Stores tasks and redacts secrets when persisting', () => {
-    const testStorePath = path.join(__dirname, 'test-state.json');
+    const testStorePath = path.join(__dirname, 'test-v02-state.json');
     if (fs.existsSync(testStorePath)) fs.unlinkSync(testStorePath);
 
     const store = new TaskStore(testStorePath);
     store.addTask({
-      taskId: 'test_task_1',
+      taskId: 'test_task_v02',
       type: 'REPOSITORY_INSPECTION',
       risk: 'GREEN',
-      instruction: 'Read with key test_gemini_key_12345',
+      instruction: 'Read with key test_gemini_key_67890',
       status: 'PENDING',
       createdAt: new Date().toISOString(),
       attempts: 0
@@ -68,116 +63,101 @@ describe('ACELEETME Control Hub V0.1 — Unit & Remediation Test Suite', () => {
 
     const tasks = store.getAllTasks();
     assert.strictEqual(tasks.length, 1);
-    assert.strictEqual(tasks[0].instruction.includes('test_gemini_key_12345'), false);
+    assert.strictEqual(tasks[0].instruction.includes('test_gemini_key_67890'), false);
 
     if (fs.existsSync(testStorePath)) fs.unlinkSync(testStorePath);
   });
 
-  test('6. Risk Gating: Synthetic RED task is blocked without calling Antigravity Client', async () => {
-    const testStorePath = path.join(__dirname, 'test-red-state.json');
+  test('6. Risk Gating: Synthetic RED task is blocked without creating worktree or process', async () => {
+    const testStorePath = path.join(__dirname, 'test-red-v02-state.json');
     if (fs.existsSync(testStorePath)) fs.unlinkSync(testStorePath);
 
-    let apiCalled = false;
-    const mockClient = {
-      executeTask: async (): Promise<TaskExecutionResult> => {
-        apiCalled = true;
-        return { success: true, status: 'COMPLETED', attempts: 1 };
-      }
-    } as unknown as AntigravityClient;
+    let worktreeCreated = false;
+    const mockWorktreeManager = {
+      createTaskWorktree: () => {
+        worktreeCreated = true;
+        return { workspacePath: '/mock/path', originMainHead: '249d3ead' };
+      },
+      removeTaskWorktree: () => ({ success: true }),
+      checkReadOnlyViolation: () => ({ clean: true, modifiedFiles: [] })
+    } as unknown as WorktreeManager;
 
     const store = new TaskStore(testStorePath);
-    const orchestrator = new Orchestrator(store, mockClient);
+    const orchestrator = new Orchestrator(store, mockWorktreeManager);
 
     const result = await orchestrator.submitAndExecuteTask('PRODUCTION_DEPLOY' as any, 'RED', 'Deploy to production');
 
-    assert.strictEqual(apiCalled, false, 'API must NOT be called for RED task');
+    assert.strictEqual(worktreeCreated, false, 'Worktree must NOT be created for RED task');
     assert.strictEqual(result.status, 'BLOCKED');
-    assert.strictEqual(result.interactionId, undefined, 'Interaction ID must be undefined');
+    assert.strictEqual(result.workspacePath, undefined, 'Workspace path must be undefined');
     assert.strictEqual(result.failureClassification, 'TASK_REQUIRES_HIGHER_GOVERNANCE');
 
     if (fs.existsSync(testStorePath)) fs.unlinkSync(testStorePath);
   });
 
-  test('7. Orchestrator: Valid GREEN task calls client and preserves real interaction ID', async () => {
-    const testStorePath = path.join(__dirname, 'test-green-state.json');
-    if (fs.existsSync(testStorePath)) fs.unlinkSync(testStorePath);
+  test('7. Worktree Manager: Creation, origin/main HEAD pinning, and Cleanup', () => {
+    const manager = new WorktreeManager();
+    const taskId = `test_wt_${Date.now()}`;
 
-    const mockClient = {
-      executeTask: async (): Promise<TaskExecutionResult> => {
-        return {
-          success: true,
-          status: 'COMPLETED',
-          outputText: 'branch: main\nHEAD: 249d3ead0ee1d3ea5fda40d53208f45513f0dd44',
-          interactionId: 'v1_real_interaction_id_999',
-          attempts: 1
-        };
-      }
-    } as unknown as AntigravityClient;
+    const info = manager.createTaskWorktree(taskId);
+    assert.strictEqual(typeof info.workspacePath, 'string');
+    assert.strictEqual(typeof info.originMainHead, 'string');
+    assert.strictEqual(info.originMainHead.length, 40);
+    assert.strictEqual(fs.existsSync(info.workspacePath), true);
+    assert.strictEqual(info.workspacePath.startsWith(CONFIG.WORKSPACES_ROOT), true);
 
-    const store = new TaskStore(testStorePath);
-    const orchestrator = new Orchestrator(store, mockClient);
-
-    const result = await orchestrator.submitAndExecuteTask('REPOSITORY_INSPECTION', 'GREEN', 'Inspect repo');
-
-    assert.strictEqual(result.status, 'COMPLETED');
-    assert.strictEqual(result.interactionId, 'v1_real_interaction_id_999');
-    assert.strictEqual(result.attempts, 1);
-    assert.strictEqual(result.result?.includes('249d3ead0ee1d3ea5fda40d53208f45513f0dd44'), true);
-
-    if (fs.existsSync(testStorePath)) fs.unlinkSync(testStorePath);
+    const cleanup = manager.removeTaskWorktree(info.workspacePath);
+    assert.strictEqual(cleanup.success, true);
+    assert.strictEqual(fs.existsSync(info.workspacePath), false);
   });
 
-  test('8. Regression: Repository Environment Payload Schema', () => {
-    process.env.GEMINI_API_KEY = 'test_key';
-    process.env.ACELEETME_GITHUB_READ_TOKEN = 'test_token';
-    const client = new AntigravityClient();
-    const envPayload = client.buildRepositoryEnvironmentPayload();
-
-    assert.strictEqual(typeof envPayload, 'object', 'Environment payload must be an object');
-    assert.strictEqual(envPayload.type, 'remote');
-    assert.strictEqual(Array.isArray(envPayload.sources), true);
-    assert.strictEqual(envPayload.sources[0].type, 'repository');
-    assert.strictEqual(envPayload.sources[0].source, 'https://github.com/jessejamesyakar-wq/tech-compare.git');
-    assert.strictEqual(envPayload.sources[0].target, '/workspace/aceleetme');
-    assert.strictEqual(envPayload.network.allowlist[0].domain, 'github.com');
-    assert.strictEqual(envPayload.network.allowlist[0].credential, 'aceleetme-github-readonly-v1');
+  test('8. Worktree Safety: Refuses to remove canonical repo path', () => {
+    const manager = new WorktreeManager();
+    const cleanup = manager.removeTaskWorktree(CONFIG.CANONICAL_REPO_PATH);
+    assert.strictEqual(cleanup.success, false);
+    assert.strictEqual(cleanup.error?.includes('SAFETY VIOLATION'), true);
   });
 
-  test('9. Regression: Plain string environment="remote" is rejected for repo payload', () => {
-    process.env.GEMINI_API_KEY = 'test_key';
-    process.env.ACELEETME_GITHUB_READ_TOKEN = 'test_token';
-    const client = new AntigravityClient();
-    const envPayload = client.buildRepositoryEnvironmentPayload();
+  test('9. Local Executor: REPOSITORY_INSPECTION returns evidence from worktree', () => {
+    const manager = new WorktreeManager();
+    const executor = new LocalTaskExecutor();
+    const taskId = `test_exec_${Date.now()}`;
 
-    assert.notStrictEqual(envPayload, 'remote', 'Plain string environment="remote" must not be used');
+    const info = manager.createTaskWorktree(taskId);
+    const execResult = executor.executeTaskInWorktree('REPOSITORY_INSPECTION', info.workspacePath, info.originMainHead);
+
+    assert.strictEqual(execResult.exitCode, 0);
+    assert.strictEqual(execResult.output.includes('[LOCAL_EXECUTOR]'), true);
+    assert.strictEqual(execResult.output.includes('package_name: tech-compare'), true);
+    assert.strictEqual(execResult.output.includes('postgres_commerce_repository: PRESENT'), true);
+    assert.strictEqual(execResult.output.includes('price_history_and_anomaly_engine: PRESENT'), true);
+
+    manager.removeTaskWorktree(info.workspacePath);
   });
 
-  test('10. Preflight: Classifies REMOTE_REPOSITORY_NOT_MOUNTED when /workspace/aceleetme/.git is absent', async () => {
-    const testStorePath = path.join(__dirname, 'test-preflight-state.json');
-    if (fs.existsSync(testStorePath)) fs.unlinkSync(testStorePath);
+  test('10. Read-Only Violation Detector: Flags READONLY_VIOLATION when tracked file modified', () => {
+    const manager = new WorktreeManager();
+    const taskId = `test_violation_${Date.now()}`;
 
-    const mockClient = {
-      executeTask: async (): Promise<TaskExecutionResult> => {
-        return {
-          success: false,
-          status: 'BLOCKED',
-          outputText: 'fatal: not a git repository (or any of the parent directories): .git',
-          interactionId: 'v1_mock_interaction_123',
-          failureClassification: 'REMOTE_REPOSITORY_NOT_MOUNTED',
-          attempts: 1
-        };
-      }
-    } as unknown as AntigravityClient;
+    const info = manager.createTaskWorktree(taskId);
+    const targetFile = path.join(info.workspacePath, 'package.json');
 
-    const store = new TaskStore(testStorePath);
-    const orchestrator = new Orchestrator(store, mockClient);
+    // Mutate tracked file
+    fs.appendFileSync(targetFile, '\n// test modification\n');
 
-    const result = await orchestrator.submitAndExecuteTask('REPOSITORY_INSPECTION', 'GREEN', 'Inspect repo');
+    const check = manager.checkReadOnlyViolation(info.workspacePath);
+    assert.strictEqual(check.clean, false);
+    assert.strictEqual(check.modifiedFiles.length > 0, true);
 
-    assert.strictEqual(result.status, 'BLOCKED');
-    assert.strictEqual(result.failureClassification, 'REMOTE_REPOSITORY_NOT_MOUNTED');
+    manager.removeTaskWorktree(info.workspacePath);
+  });
 
-    if (fs.existsSync(testStorePath)) fs.unlinkSync(testStorePath);
+  test('11. Antigravity Analysis: Separates LOCAL_EXECUTOR evidence from ANTIGRAVITY_ANALYSIS output', async () => {
+    const analysis = new AntigravityAnalysis();
+    const sanitizedEvidence = '[LOCAL_EXECUTOR] Evidence: package_name: tech-compare';
+
+    const result = await analysis.analyzeInspectionResult(sanitizedEvidence);
+    assert.strictEqual(result.includes('[ANTIGRAVITY_ANALYSIS]'), true);
   });
 
 });

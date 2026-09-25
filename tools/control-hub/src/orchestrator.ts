@@ -1,27 +1,30 @@
+import execSync from 'child_process';
 import crypto from 'crypto';
-import { AntigravityClient } from './antigravityClient';
+import { AntigravityAnalysis } from './antigravityAnalysis';
 import { CONFIG } from './config';
 import { validateTaskGovernance } from './governance';
+import { LocalTaskExecutor } from './localExecutor';
 import { redactSecrets } from './secretRedactor';
 import { TaskStore } from './taskStore';
-import { RiskLevel, TaskRecord, TaskType } from './types';
+import { GreenTaskType, RiskLevel, TaskRecord, TaskType } from './types';
+import { WorktreeManager } from './worktreeManager';
 
 export class Orchestrator {
   private taskStore: TaskStore;
-  private client: AntigravityClient | null = null;
+  private worktreeManager: WorktreeManager;
+  private localExecutor: LocalTaskExecutor;
+  private antigravityAnalysis: AntigravityAnalysis;
 
-  constructor(taskStore?: TaskStore, client?: AntigravityClient) {
+  constructor(
+    taskStore?: TaskStore,
+    worktreeManager?: WorktreeManager,
+    localExecutor?: LocalTaskExecutor,
+    antigravityAnalysis?: AntigravityAnalysis
+  ) {
     this.taskStore = taskStore || new TaskStore();
-    if (client) {
-      this.client = client;
-    }
-  }
-
-  private getClient(): AntigravityClient {
-    if (!this.client) {
-      this.client = new AntigravityClient();
-    }
-    return this.client;
+    this.worktreeManager = worktreeManager || new WorktreeManager();
+    this.localExecutor = localExecutor || new LocalTaskExecutor();
+    this.antigravityAnalysis = antigravityAnalysis || new AntigravityAnalysis();
   }
 
   public async submitAndExecuteTask(type: TaskType, risk: RiskLevel, instruction: string): Promise<TaskRecord> {
@@ -40,69 +43,112 @@ export class Orchestrator {
 
     this.taskStore.addTask(initialRecord);
 
-    // Step 1: Risk & Governance Gating BEFORE API dispatch
+    // Step 1: Risk & Governance Gating BEFORE worktree/process creation
     const governanceCheck = validateTaskGovernance(type, risk);
     if (!governanceCheck.ok) {
       const blockedRecord = this.taskStore.updateTask(taskId, {
         status: 'BLOCKED',
         completedAt: new Date().toISOString(),
         failureClassification: governanceCheck.reason || 'TASK_REQUIRES_HIGHER_GOVERNANCE',
-        result: 'REJECTED_LOCAL_GOVERNANCE: Risk level or task type requires higher approval before dispatch.'
+        commandOutput: '[GOVERNANCE_REJECTION] Risk level or task type requires higher approval before execution.'
       })!;
       return blockedRecord;
     }
 
-    // Step 2: Update state to RUNNING
+    // Step 2: Create isolated Git worktree under C:\Projects\aceleetme-agent-workspaces\<taskId>
     const startedAt = new Date().toISOString();
-    this.taskStore.updateTask(taskId, {
-      status: 'RUNNING',
-      startedAt
-    });
+    let workspacePath = '';
+    let originMainHead = '';
 
-    // Step 3: Enforce Repository Preflight Guard & Working Directory Contract
-    const repositoryPreflightPrompt = `
-
-Pre-Task Repository Guard:
-1. Working directory MUST be /workspace/aceleetme.
-2. Check if repository exists: run \`test -d /workspace/aceleetme/.git\`.
-3. If /workspace/aceleetme/.git is absent, STOP IMMEDIATELY and return REMOTE_REPOSITORY_NOT_MOUNTED.
-4. If /workspace/aceleetme/.git is present, obtain:
-   - \`git -C /workspace/aceleetme branch --show-current\`
-   - \`git -C /workspace/aceleetme rev-parse HEAD\`
-5. Include branch and HEAD explicitly in response output before executing the task.
-
-Task Instruction:
-${instruction}`;
-
-    // Step 4: Dispatch to Antigravity API
     try {
-      const client = this.getClient();
-      const execResult = await client.executeTask(repositoryPreflightPrompt);
+      const worktreeInfo = this.worktreeManager.createTaskWorktree(taskId);
+      workspacePath = worktreeInfo.workspacePath;
+      originMainHead = worktreeInfo.originMainHead;
 
-      const completedAt = new Date().toISOString();
-      const finalRecord = this.taskStore.updateTask(taskId, {
-        status: execResult.status,
+      this.taskStore.updateTask(taskId, {
+        status: 'RUNNING',
         startedAt,
-        completedAt,
-        interactionId: execResult.interactionId,
-        attempts: execResult.attempts,
-        result: execResult.outputText,
-        failureClassification: execResult.failureClassification
-      })!;
-
-      return finalRecord;
+        workspacePath,
+        originMainHead
+      });
     } catch (err: any) {
-      const completedAt = new Date().toISOString();
-      const errorMsg = redactSecrets(err.message || String(err));
       const failedRecord = this.taskStore.updateTask(taskId, {
         status: 'FAILED',
         startedAt,
-        completedAt,
-        attempts: 1,
-        failureClassification: `UNHANDLED_ORCHESTRATOR_ERROR: ${errorMsg}`
+        completedAt: new Date().toISOString(),
+        failureClassification: `WORKTREE_CREATION_FAILED: ${redactSecrets(err.message)}`
       })!;
-
       return failedRecord;
+    }
+
+    // Step 3: Execute task commands inside isolated worktree
+    let execResult: { exitCode: number; output: string; dependenciesState?: string };
+    try {
+      execResult = this.localExecutor.executeTaskInWorktree(type as GreenTaskType, workspacePath, originMainHead);
+    } catch (err: any) {
+      this.worktreeManager.removeTaskWorktree(workspacePath);
+      const failedRecord = this.taskStore.updateTask(taskId, {
+        status: 'FAILED',
+        completedAt: new Date().toISOString(),
+        attempts: 1,
+        failureClassification: `LOCAL_EXECUTION_ERROR: ${redactSecrets(err.message)}`
+      })!;
+      return failedRecord;
+    }
+
+    // Step 4: Read-Only Violation Detector
+    const readOnlyCheck = this.worktreeManager.checkReadOnlyViolation(workspacePath);
+    let finalStatus: 'COMPLETED' | 'FAILED' | 'BLOCKED' = execResult.exitCode === 0 ? 'COMPLETED' : 'FAILED';
+    let failureClassification: string | undefined = undefined;
+
+    if (!readOnlyCheck.clean) {
+      finalStatus = 'FAILED';
+      failureClassification = `READONLY_VIOLATION: Tracked file modifications detected: ${readOnlyCheck.modifiedFiles.join(', ')}`;
+    }
+
+    // Step 5: Optional Antigravity Analysis over sanitized command evidence
+    let analysisResultText: string | undefined = undefined;
+    if (type === 'REPOSITORY_INSPECTION' && finalStatus === 'COMPLETED') {
+      try {
+        analysisResultText = await this.antigravityAnalysis.analyzeInspectionResult(execResult.output);
+      } catch (err: any) {
+        analysisResultText = `[ANTIGRAVITY_ANALYSIS] Skipped due to error: ${redactSecrets(err.message)}`;
+      }
+    }
+
+    // Step 6: Safe Worktree Cleanup
+    const cleanupResult = this.worktreeManager.removeTaskWorktree(workspacePath);
+    if (!cleanupResult.success) {
+      failureClassification = failureClassification
+        ? `${failureClassification} | CLEANUP_WARNING: ${cleanupResult.error}`
+        : `CLEANUP_WARNING: ${cleanupResult.error}`;
+    }
+
+    // Step 7: Verify Canonical Repo Safety
+    this.verifyCanonicalRepoCleanliness();
+
+    const completedAt = new Date().toISOString();
+    const finalRecord = this.taskStore.updateTask(taskId, {
+      status: finalStatus,
+      completedAt,
+      attempts: 1,
+      commandOutput: redactSecrets(execResult.output),
+      analysisResult: analysisResultText ? redactSecrets(analysisResultText) : undefined,
+      readOnlyViolation: !readOnlyCheck.clean,
+      failureClassification
+    })!;
+
+    return finalRecord;
+  }
+
+  private verifyCanonicalRepoCleanliness(): void {
+    try {
+      const output = execSync.execSync('git status --short', { cwd: CONFIG.CANONICAL_REPO_PATH, encoding: 'utf-8', windowsHide: true }).trim();
+      if (output.length > 0) {
+        console.warn(`[CANONICAL_SAFETY_WARNING] Canonical repo has modifications:\n${output}`);
+      }
+    } catch {
+      // Ignore
     }
   }
 
