@@ -170,7 +170,7 @@ export class QueueRunner {
     const govCheck = validateTaskGovernance(task.type, task.risk);
     if (!govCheck.ok) {
       this.queueStore.updateQueueTask(task.taskId, {
-        status: 'BLOCKED',
+        status: 'OWNER_DECISION_REQUIRED',
         completedAt: new Date().toISOString(),
         failureClassification: govCheck.reason || 'TASK_REQUIRES_HIGHER_GOVERNANCE',
         commandOutput: '[GOVERNANCE_REJECTION] Risk level or task type requires higher approval before execution.'
