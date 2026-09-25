@@ -508,7 +508,9 @@ describe('ACELEETME Control Hub V0.4 — Autonomous Queue Runner Test Suite', ()
   });
 
   test('13. OpenAI Reviewer: Sol escalation routing on uncertainty or owner decision', async () => {
-    const reviewer = new OpenAIReviewer();
+    const { queueStore, qPath, rPath, oPath, uPath } = getMockStores();
+    const budgetTracker = new BudgetTracker(queueStore);
+    const reviewer = new OpenAIReviewer('gpt-5.6-luna', 'gpt-5.6-sol', undefined, budgetTracker);
     const pkg: ReviewPackage = {
       taskId: 'task_sol_001',
       taskType: 'REPOSITORY_INSPECTION',
@@ -548,6 +550,8 @@ describe('ACELEETME Control Hub V0.4 — Autonomous Queue Runner Test Suite', ()
     assert.strictEqual(res.solReview !== undefined, true, 'Sol review must be present');
     assert.strictEqual(res.solReview?.modelUsed.includes('sol'), true);
     assert.strictEqual(res.openAiCallCount, 2);
+
+    cleanupTestFiles(qPath, rPath, oPath, uPath);
   });
 
   test('14. OpenAI Reviewer: No automatic Sol escalation for clean PASS_GREEN', async () => {
@@ -764,6 +768,268 @@ describe('ACELEETME Control Hub V0.4 — Autonomous Queue Runner Test Suite', ()
     assert.strictEqual(content.includes('[REDACTED_OPENAI_API_KEY]'), true);
 
     cleanupTestFiles(logPath);
+  });
+
+  test('24. Telegram Notifier: Dispatches mocked notification and respects mockMode', async () => {
+    const { TelegramNotifier } = require('../src/telegramNotifier');
+    const sentPath = path.join(testDir, `sent_${Date.now()}.json`);
+    const notifier = new TelegramNotifier('mock_token', '123456', undefined, sentPath, true);
+
+    const result = await notifier.sendMessage('Test notification message', 'test_key_001', 'TEST_EVENT');
+    assert.strictEqual(result.success, true);
+    assert.strictEqual(result.messageId, 'mock_msg_99999');
+
+    cleanupTestFiles(sentPath);
+  });
+
+  test('25. Telegram Notifier: Deduplication suppresses second notification within 24 hours', async () => {
+    const { TelegramNotifier } = require('../src/telegramNotifier');
+    const sentPath = path.join(testDir, `sent_${Date.now()}.json`);
+    const notifier = new TelegramNotifier('mock_token', '123456', undefined, sentPath, true);
+
+    const first = await notifier.sendMessage('Message 1', 'dedup_key_001', 'TEST_EVENT');
+    assert.strictEqual(first.success, true);
+    assert.strictEqual(first.error, undefined);
+
+    const second = await notifier.sendMessage('Message 2', 'dedup_key_001', 'TEST_EVENT');
+    assert.strictEqual(second.success, true);
+    assert.strictEqual(second.error, 'DUPLICATE_SUPPRESSED');
+
+    cleanupTestFiles(sentPath);
+  });
+
+  test('26. Telegram Notifier: Secret redaction in message body before dispatch', async () => {
+    const { TelegramNotifier } = require('../src/telegramNotifier');
+    process.env.OPENAI_API_KEY = 'sk-proj-test-secret-123456';
+    const sentPath = path.join(testDir, `sent_${Date.now()}.json`);
+
+    let dispatchedText = '';
+    const notifier = new TelegramNotifier('mock_token', '123456', undefined, sentPath, true);
+
+    const origSend = notifier.sendMessage.bind(notifier);
+    notifier.sendMessage = async (text: string, dedupKey?: string, eventType?: string) => {
+      const { redactSecrets } = require('../src/secretRedactor');
+      dispatchedText = redactSecrets(text);
+      return origSend(text, dedupKey, eventType);
+    };
+
+    await notifier.sendMessage('Alert with sk-proj-test-secret-123456 embedded', 'secret_key_001', 'TEST_EVENT');
+    assert.strictEqual(dispatchedText.includes('sk-proj-test-secret-123456'), false);
+    assert.strictEqual(dispatchedText.includes('[REDACTED_OPENAI_API_KEY]'), true);
+
+    cleanupTestFiles(sentPath);
+  });
+
+  test('27. Telegram Notifier: GREEN task success produces NO notification', async () => {
+    const { queueStore, qPath, rPath, oPath, uPath } = getMockStores();
+    const sentPath = path.join(testDir, `sent_${Date.now()}.json`);
+    const { TelegramNotifier } = require('../src/telegramNotifier');
+    const mockNotifier = new TelegramNotifier('mock_token', '123456', undefined, sentPath, true);
+
+    let telegramCallCount = 0;
+    mockNotifier.sendMessage = async () => {
+      telegramCallCount++;
+      return { success: true };
+    };
+
+    queueStore.addQueueTask({
+      taskId: 'task_green_success',
+      type: 'REPOSITORY_INSPECTION',
+      risk: 'GREEN',
+      priority: 'NORMAL',
+      instruction: 'Green inspection',
+      status: 'PENDING',
+      dependencies: [],
+      createdAt: new Date().toISOString(),
+      attempts: 0
+    });
+
+    const mockExecutor = {
+      executeTaskInWorktree: () => ({ exitCode: 0, output: '[MOCK] GREEN OK' })
+    } as unknown as LocalTaskExecutor;
+
+    const mockReviewer = {
+      reviewTask: async () => ({
+        lunaReview: { decision: 'PASS_GREEN', summary: 'Clean' },
+        finalDecision: 'PASS_GREEN',
+        openAiCallCount: 1
+      })
+    } as unknown as OpenAIReviewer;
+
+    const mockWorktree = {
+      createTaskWorktree: (id: string) => ({ workspacePath: `/mock/${id}`, originMainHead: '249d3ead0ee1d3ea5fda40d53208f45513f0dd44' }),
+      removeTaskWorktree: () => ({ success: true }),
+      checkReadOnlyViolation: () => ({ clean: true, modifiedFiles: [] })
+    } as unknown as WorktreeManager;
+
+    const runner = new QueueRunner(queueStore, undefined, mockWorktree, mockExecutor, undefined, mockReviewer, mockNotifier);
+    await runner.runCycle();
+
+    const task = queueStore.getQueueTask('task_green_success');
+    assert.strictEqual(task?.status, 'COMPLETED');
+    assert.strictEqual(telegramCallCount, 0, 'No Telegram notification sent for successful GREEN task');
+
+    cleanupTestFiles(qPath, rPath, oPath, uPath, sentPath);
+  });
+
+  test('28. Telegram Notifier: RED task governance rejection triggers notifyOwnerDecisionRequired', async () => {
+    const { queueStore, qPath, rPath, oPath, uPath } = getMockStores();
+    const sentPath = path.join(testDir, `sent_${Date.now()}.json`);
+    const { TelegramNotifier } = require('../src/telegramNotifier');
+    const mockNotifier = new TelegramNotifier('mock_token', '123456', undefined, sentPath, true);
+
+    let ownerDecisionNotified = false;
+    mockNotifier.notifyOwnerDecisionRequired = async () => {
+      ownerDecisionNotified = true;
+      return true;
+    };
+
+    queueStore.addQueueTask({
+      taskId: 'task_red_notif',
+      type: 'PRODUCTION_DEPLOY' as any,
+      risk: 'RED',
+      priority: 'CRITICAL',
+      instruction: 'Red deploy',
+      status: 'PENDING',
+      dependencies: [],
+      createdAt: new Date().toISOString(),
+      attempts: 0
+    });
+
+    const runner = new QueueRunner(queueStore, undefined, undefined, undefined, undefined, undefined, mockNotifier);
+    await runner.runCycle();
+
+    assert.strictEqual(ownerDecisionNotified, true, 'RED task rejection must send Telegram owner alert');
+
+    cleanupTestFiles(qPath, rPath, oPath, uPath, sentPath);
+  });
+
+  test('29. Telegram Notifier: Critical execution failure triggers notifyCriticalError', async () => {
+    const { queueStore, qPath, rPath, oPath, uPath } = getMockStores();
+    const sentPath = path.join(testDir, `sent_${Date.now()}.json`);
+    const { TelegramNotifier } = require('../src/telegramNotifier');
+    const mockNotifier = new TelegramNotifier('mock_token', '123456', undefined, sentPath, true);
+
+    let criticalErrorNotified = false;
+    mockNotifier.notifyCriticalError = async () => {
+      criticalErrorNotified = true;
+      return true;
+    };
+
+    queueStore.addQueueTask({
+      taskId: 'task_fail_notif',
+      type: 'TYPECHECK',
+      risk: 'GREEN',
+      priority: 'HIGH',
+      instruction: 'Failing typecheck',
+      status: 'PENDING',
+      dependencies: [],
+      createdAt: new Date().toISOString(),
+      attempts: 0
+    });
+
+    const mockExecutor = {
+      executeTaskInWorktree: () => ({ exitCode: 1, output: 'Typecheck error TS2304' })
+    } as unknown as LocalTaskExecutor;
+
+    const mockWorktree = {
+      createTaskWorktree: (id: string) => ({ workspacePath: `/mock/${id}`, originMainHead: '249d3ead0ee1d3ea5fda40d53208f45513f0dd44' }),
+      removeTaskWorktree: () => ({ success: true }),
+      checkReadOnlyViolation: () => ({ clean: true, modifiedFiles: [] })
+    } as unknown as WorktreeManager;
+
+    const runner = new QueueRunner(queueStore, undefined, mockWorktree, mockExecutor, undefined, undefined, mockNotifier);
+    await runner.runCycle();
+
+    assert.strictEqual(criticalErrorNotified, true, 'Execution failure must send Telegram critical error alert');
+
+    cleanupTestFiles(qPath, rPath, oPath, uPath, sentPath);
+  });
+
+  test('30. Telegram Notifier: OpenAI budget limit triggers notifyOpenAiBudgetExhausted', async () => {
+    const { queueStore, qPath, rPath, oPath, uPath } = getMockStores();
+    const sentPath = path.join(testDir, `sent_${Date.now()}.json`);
+    const { TelegramNotifier } = require('../src/telegramNotifier');
+    const mockNotifier = new TelegramNotifier('mock_token', '123456', undefined, sentPath, true);
+
+    let budgetExhaustedNotified = false;
+    mockNotifier.notifyOpenAiBudgetExhausted = async () => {
+      budgetExhaustedNotified = true;
+      return true;
+    };
+
+    queueStore.addQueueTask({
+      taskId: 'task_budget_notif',
+      type: 'REPOSITORY_INSPECTION',
+      risk: 'GREEN',
+      priority: 'NORMAL',
+      instruction: 'Inspection',
+      status: 'PENDING',
+      dependencies: [],
+      createdAt: new Date().toISOString(),
+      attempts: 0
+    });
+
+    const mockExecutor = {
+      executeTaskInWorktree: () => ({ exitCode: 0, output: '[MOCK] OK' })
+    } as unknown as LocalTaskExecutor;
+
+    const mockWorktree = {
+      createTaskWorktree: (id: string) => ({ workspacePath: `/mock/${id}`, originMainHead: '249d3ead0ee1d3ea5fda40d53208f45513f0dd44' }),
+      removeTaskWorktree: () => ({ success: true }),
+      checkReadOnlyViolation: () => ({ clean: true, modifiedFiles: [] })
+    } as unknown as WorktreeManager;
+
+    const mockReviewer = {
+      reviewTask: async () => ({
+        lunaReview: {
+          decision: 'REVIEWER_UNAVAILABLE',
+          summary: 'Daily Luna review limit reached.',
+          verifiedEvidenceUsed: [],
+          limitations: ['OPENAI_DAILY_REVIEW_LIMIT_REACHED'],
+          risks: [],
+          requiredNextAction: 'Wait',
+          escalationRequired: false,
+          modelUsed: 'gpt-5.6-luna',
+          responseId: 'NONE'
+        },
+        finalDecision: 'REVIEWER_UNAVAILABLE',
+        openAiCallCount: 0
+      })
+    } as unknown as OpenAIReviewer;
+
+    const runner = new QueueRunner(queueStore, undefined, mockWorktree, mockExecutor, undefined, mockReviewer, mockNotifier);
+    await runner.runCycle();
+
+    assert.strictEqual(budgetExhaustedNotified, true, 'Reviewer budget limit hit must trigger notifyOpenAiBudgetExhausted');
+
+    cleanupTestFiles(qPath, rPath, oPath, uPath, sentPath);
+  });
+
+  test('31. Telegram Notifier: Supervisor restart limit triggers notifyRunnerRestartLimitReached', () => {
+    const { queueStore, qPath, rPath, oPath, uPath } = getMockStores();
+    const sentPath = path.join(testDir, `sent_${Date.now()}.json`);
+    const { TelegramNotifier } = require('../src/telegramNotifier');
+    const mockNotifier = new TelegramNotifier('mock_token', '123456', undefined, sentPath, true);
+
+    let restartLimitNotified = false;
+    mockNotifier.notifyRunnerRestartLimitReached = async () => {
+      restartLimitNotified = true;
+      return true;
+    };
+
+    const { Supervisor } = require('../src/supervisor');
+    const supervisor = new Supervisor(queueStore, mockNotifier);
+
+    supervisor.checkAndRecordRestart();
+    supervisor.checkAndRecordRestart();
+    supervisor.checkAndRecordRestart();
+    const fourth = supervisor.checkAndRecordRestart();
+
+    assert.strictEqual(fourth.allowed, false);
+    assert.strictEqual(restartLimitNotified, true, 'Exceeding supervisor restart limit must trigger notifyRunnerRestartLimitReached');
+
+    cleanupTestFiles(qPath, rPath, oPath, uPath, sentPath);
   });
 
 });

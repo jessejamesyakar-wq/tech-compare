@@ -9,6 +9,7 @@ import { LocalTaskExecutor } from './localExecutor';
 import { OpenAIReviewer } from './openaiReviewer';
 import { QueueStore } from './queueStore';
 import { redactSecrets } from './secretRedactor';
+import { TelegramNotifier } from './telegramNotifier';
 import { GreenTaskType, OwnerDecisionItem, QueueTask, ReviewPackage, TaskPriority, TaskState } from './types';
 import { WorktreeManager } from './worktreeManager';
 
@@ -25,6 +26,7 @@ export class QueueRunner {
   private localExecutor: LocalTaskExecutor;
   private antigravityAnalysis: AntigravityAnalysis;
   private openaiReviewer: OpenAIReviewer;
+  private telegramNotifier: TelegramNotifier;
   private runnerId: string;
 
   constructor(
@@ -33,7 +35,8 @@ export class QueueRunner {
     worktreeManager?: WorktreeManager,
     localExecutor?: LocalTaskExecutor,
     antigravityAnalysis?: AntigravityAnalysis,
-    openaiReviewer?: OpenAIReviewer
+    openaiReviewer?: OpenAIReviewer,
+    telegramNotifier?: TelegramNotifier
   ) {
     this.queueStore = queueStore || new QueueStore();
     this.leaseManager = leaseManager || new LeaseManager(this.queueStore);
@@ -41,6 +44,7 @@ export class QueueRunner {
     this.localExecutor = localExecutor || new LocalTaskExecutor();
     this.antigravityAnalysis = antigravityAnalysis || new AntigravityAnalysis();
     this.openaiReviewer = openaiReviewer || new OpenAIReviewer(undefined, undefined, undefined, new BudgetTracker(this.queueStore));
+    this.telegramNotifier = telegramNotifier || new TelegramNotifier();
     this.runnerId = `runner_${Date.now()}_${crypto.randomBytes(4).toString('hex')}`;
   }
 
@@ -190,6 +194,7 @@ export class QueueRunner {
           status: 'PENDING'
         };
         this.queueStore.addOwnerDecision(decision);
+        await this.telegramNotifier.notifyOwnerDecisionRequired(task, decision);
       }
 
       return;
@@ -216,23 +221,27 @@ export class QueueRunner {
         workspaceHead: originMainHead
       });
     } catch (err: any) {
+      const failMsg = `WORKTREE_CREATION_FAILED: ${redactSecrets(err.message)}`;
       this.queueStore.updateQueueTask(task.taskId, {
         status: 'FAILED',
         completedAt: new Date().toISOString(),
-        failureClassification: `WORKTREE_CREATION_FAILED: ${redactSecrets(err.message)}`
+        failureClassification: failMsg
       });
+      await this.telegramNotifier.notifyCriticalError(task.taskId, failMsg);
       return;
     }
 
     // Verify Repository Identity
     const verifiedHeadMatch = originMainHead && originMainHead.length === 40;
     if (!verifiedHeadMatch) {
+      const failMsg = 'BLOCKED_BY_REPOSITORY_IDENTITY: Head mismatch or unverified commit';
       this.worktreeManager.removeTaskWorktree(workspacePath);
       this.queueStore.updateQueueTask(task.taskId, {
         status: 'BLOCKED_BY_REPOSITORY_IDENTITY',
         completedAt: new Date().toISOString(),
-        failureClassification: 'BLOCKED_BY_REPOSITORY_IDENTITY: Head mismatch or unverified commit'
+        failureClassification: failMsg
       });
+      await this.telegramNotifier.notifyCriticalError(task.taskId, failMsg);
       return;
     }
 
@@ -241,13 +250,15 @@ export class QueueRunner {
     try {
       execResult = this.localExecutor.executeTaskInWorktree(task.type as GreenTaskType, workspacePath, originMainHead);
     } catch (err: any) {
+      const failMsg = `LOCAL_EXECUTION_ERROR: ${redactSecrets(err.message)}`;
       this.worktreeManager.removeTaskWorktree(workspacePath);
       this.queueStore.updateQueueTask(task.taskId, {
         status: 'FAILED',
         completedAt: new Date().toISOString(),
         attempts: 1,
-        failureClassification: `LOCAL_EXECUTION_ERROR: ${redactSecrets(err.message)}`
+        failureClassification: failMsg
       });
+      await this.telegramNotifier.notifyCriticalError(task.taskId, failMsg);
       return;
     }
 
@@ -291,6 +302,7 @@ export class QueueRunner {
         readOnlyViolation: !readOnlyCheck.clean,
         failureClassification
       });
+      await this.telegramNotifier.notifyCriticalError(task.taskId, failureClassification || 'LOCAL_EXECUTION_FAILED');
       return;
     }
 
@@ -347,9 +359,15 @@ export class QueueRunner {
     } else if (decision === 'REVIEWER_UNAVAILABLE') {
       finalState = 'BLOCKED';
       failureClassification = `REVIEWER_UNAVAILABLE: ${dualReview.lunaReview.summary}`;
+      if (dualReview.lunaReview.limitations.includes('OPENAI_DAILY_REVIEW_LIMIT_REACHED')) {
+        await this.telegramNotifier.notifyOpenAiBudgetExhausted();
+      } else {
+        await this.telegramNotifier.notifyCriticalError(task.taskId, failureClassification);
+      }
     } else {
       finalState = 'FAILED';
       failureClassification = `FAIL_REVIEW: ${dualReview.lunaReview.summary}`;
+      await this.telegramNotifier.notifyCriticalError(task.taskId, failureClassification);
     }
 
     if (finalState === 'OWNER_DECISION_REQUIRED') {
@@ -366,6 +384,7 @@ export class QueueRunner {
         status: 'PENDING'
       };
       this.queueStore.addOwnerDecision(decisionItem);
+      await this.telegramNotifier.notifyOwnerDecisionRequired(task, decisionItem);
     }
 
     const completedAt = new Date().toISOString();

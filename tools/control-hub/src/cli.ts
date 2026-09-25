@@ -1,7 +1,8 @@
 import { CONFIG } from './config';
 import { QueueRunner } from './queueRunner';
 import { QueueStore } from './queueStore';
-import { QueueTask, RiskLevel, TaskPriority, TaskType } from './types';
+import { TelegramNotifier } from './telegramNotifier';
+import { OwnerDecisionItem, QueueTask, RiskLevel, TaskPriority, TaskType } from './types';
 
 async function main() {
   const args = process.argv.slice(2);
@@ -100,6 +101,76 @@ async function main() {
     console.log(`SUPERVISOR STATUS: ${state.supervisorStatus || 'HEALTHY'}`);
     console.log(`CRITICAL ERRORS: 0`);
     console.log(`--------------------------------------------------`);
+  } else if (command === 'telegram:test') {
+    console.log('Executing live Telegram owner notification qualification test (TEST_TELEGRAM_OWNER_GATE)...');
+    const liveNotifier = new TelegramNotifier(undefined, undefined, undefined, undefined, false);
+    if (!liveNotifier.isConfigured()) {
+      console.error('ERROR: TELEGRAM_BOT_TOKEN or TELEGRAM_CHAT_ID is missing from environment.');
+      process.exit(1);
+    }
+    const testTask: QueueTask = {
+      taskId: 'TEST_TELEGRAM_OWNER_GATE',
+      type: 'REPOSITORY_INSPECTION',
+      risk: 'RED',
+      priority: 'HIGH',
+      instruction: 'V0.6 Telegram Owner Notification Layer Synthetic Gate Qualification',
+      status: 'OWNER_DECISION_REQUIRED',
+      dependencies: [],
+      createdAt: new Date().toISOString(),
+      attempts: 0
+    };
+    const testDecision: OwnerDecisionItem = {
+      decisionId: 'dec_TEST_TELEGRAM_OWNER_GATE',
+      taskId: 'TEST_TELEGRAM_OWNER_GATE',
+      createdAt: new Date().toISOString(),
+      shortTitle: 'V0.6 Telegram Notification Qualification Test',
+      reason: 'QUALIFICATION_TEST: Verifying Telegram owner notification pipeline delivery.',
+      optionA: 'Confirm qualification test received',
+      optionB: 'Reject test',
+      safeDefault: 'BLOCKED in test inbox',
+      riskIfNoDecision: 'None (synthetic test gate)',
+      status: 'PENDING'
+    };
+    const res = await liveNotifier.notifyOwnerDecisionRequired(testTask, testDecision);
+    if (res) {
+      console.log('SUCCESS: Delivered 1 live qualification message to Telegram for TEST_TELEGRAM_OWNER_GATE.');
+    } else {
+      console.error('FAILED: Live Telegram notification dispatch failed.');
+      process.exit(1);
+    }
+  } else if (command === 'telegram:summary') {
+    const tasks = queueStore.getQueueTasks();
+    const decisions = queueStore.getOwnerDecisions();
+    const usage = queueStore.getUsageState();
+    const state = queueStore.getRunnerState();
+
+    const completed = tasks.filter(t => t.status === 'COMPLETED').length;
+    const completedWithLimitation = tasks.filter(t => t.status === 'COMPLETED_WITH_LIMITATION').length;
+    const failed = tasks.filter(t => t.status === 'FAILED').length;
+    const blocked = tasks.filter(t => t.status === 'BLOCKED' || t.status === 'BLOCKED_BY_DEPENDENCY' || t.status === 'BLOCKED_BY_REPOSITORY_IDENTITY').length;
+    const ownerDecisionsCount = decisions.length;
+    const lunaCalls = usage.dailyLunaCount || 0;
+    const solCalls = usage.dailySolCount || 0;
+    const restarts = state.restartCount || 0;
+    const criticalErrors = 0;
+
+    const liveNotifier = new TelegramNotifier(undefined, undefined, undefined, undefined, false);
+    const res = await liveNotifier.sendDailySummary(
+      completed,
+      completedWithLimitation,
+      failed,
+      blocked,
+      ownerDecisionsCount,
+      lunaCalls,
+      solCalls,
+      restarts,
+      criticalErrors
+    );
+    if (res) {
+      console.log('SUCCESS: Dispatched daily summary to Telegram.');
+    } else {
+      console.error('FAILED: Telegram summary dispatch failed.');
+    }
   } else if (command === 'health') {
     const state = queueStore.getRunnerState();
     const usage = queueStore.getUsageState();

@@ -1,11 +1,14 @@
 import { CONFIG } from './config';
 import { QueueStore } from './queueStore';
+import { TelegramNotifier } from './telegramNotifier';
 
 export class Supervisor {
   private queueStore: QueueStore;
+  private telegramNotifier: TelegramNotifier;
 
-  constructor(queueStore?: QueueStore) {
+  constructor(queueStore?: QueueStore, telegramNotifier?: TelegramNotifier) {
     this.queueStore = queueStore || new QueueStore();
+    this.telegramNotifier = telegramNotifier || new TelegramNotifier();
   }
 
   public checkAndRecordRestart(): { allowed: boolean; restartCount: number; status: string } {
@@ -31,6 +34,7 @@ export class Supervisor {
         lastRestartWindowStart: windowStart.toISOString(),
         supervisorStatus: 'RUNNER_RESTART_LIMIT_REACHED'
       });
+      this.telegramNotifier.notifyRunnerRestartLimitReached().catch(() => {});
       return {
         allowed: false,
         restartCount: count,
