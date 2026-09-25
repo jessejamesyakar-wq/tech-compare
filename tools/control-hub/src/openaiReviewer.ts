@@ -1,3 +1,4 @@
+import { BudgetTracker } from './budgetTracker';
 import { CONFIG } from './config';
 import { redactObject, redactSecrets } from './secretRedactor';
 import { ReviewPackage, ReviewerDecision, StructuredReviewResult } from './types';
@@ -13,11 +14,13 @@ export class OpenAIReviewer {
   private reviewModel: string;
   private escalationModel: string;
   private apiKey?: string;
+  private budgetTracker: BudgetTracker;
 
-  constructor(reviewModel?: string, escalationModel?: string, apiKey?: string) {
+  constructor(reviewModel?: string, escalationModel?: string, apiKey?: string, budgetTracker?: BudgetTracker) {
     this.reviewModel = reviewModel || process.env.OPENAI_REVIEW_MODEL || CONFIG.OPENAI_DEFAULT_REVIEW_MODEL;
     this.escalationModel = escalationModel || process.env.OPENAI_ESCALATION_MODEL || CONFIG.OPENAI_DEFAULT_ESCALATION_MODEL;
     this.apiKey = apiKey || process.env.OPENAI_API_KEY;
+    this.budgetTracker = budgetTracker || new BudgetTracker();
   }
 
   public async reviewTask(pkg: ReviewPackage): Promise<DualReviewResult> {
@@ -44,6 +47,26 @@ export class OpenAIReviewer {
       };
     }
 
+    // Check Daily Cap for Luna
+    if (!this.budgetTracker.canCallLuna()) {
+      const fallbackResult: StructuredReviewResult = {
+        decision: 'REVIEWER_UNAVAILABLE',
+        summary: 'Daily Luna review limit reached.',
+        verifiedEvidenceUsed: [],
+        limitations: ['OPENAI_DAILY_REVIEW_LIMIT_REACHED'],
+        risks: ['Daily review budget cap exceeded.'],
+        requiredNextAction: 'Wait for daily reset or increase MAX_LUNA_REVIEWS_PER_DAY.',
+        escalationRequired: false,
+        modelUsed: this.reviewModel,
+        responseId: 'NONE'
+      };
+      return {
+        lunaReview: fallbackResult,
+        finalDecision: 'REVIEWER_UNAVAILABLE',
+        openAiCallCount: 0
+      };
+    }
+
     // 1. Call Luna (Normal Reviewer)
     const lunaReview = await this.callResponsesApi(this.reviewModel, sanitizedPkg);
     let openAiCallCount = lunaReview.responseId !== 'NONE' ? 1 : 0;
@@ -55,16 +78,20 @@ export class OpenAIReviewer {
       lunaReview.limitations.some(l => l.toUpperCase().includes('ESCALAT') || l.toUpperCase().includes('UNCERTAIN'));
 
     if (shouldEscalate && openAiCallCount < CONFIG.MAX_OPENAI_REVIEWS_PER_TASK) {
-      const solReview = await this.callResponsesApi(this.escalationModel, sanitizedPkg, lunaReview);
-      if (solReview.responseId !== 'NONE') {
-        openAiCallCount++;
+      if (this.budgetTracker.canCallSol()) {
+        const solReview = await this.callResponsesApi(this.escalationModel, sanitizedPkg, lunaReview);
+        if (solReview.responseId !== 'NONE') {
+          openAiCallCount++;
+        }
+        return {
+          lunaReview,
+          solReview,
+          finalDecision: solReview.decision,
+          openAiCallCount
+        };
+      } else {
+        lunaReview.limitations.push('OPENAI_SOL_DAILY_LIMIT_REACHED');
       }
-      return {
-        lunaReview,
-        solReview,
-        finalDecision: solReview.decision,
-        openAiCallCount
-      };
     }
 
     return {
@@ -138,6 +165,8 @@ Evaluate the evidence strictly and return JSON only.`;
     };
 
     let lastErrMessage = '';
+    let isQuotaError = false;
+
     for (let attempt = 0; attempt <= CONFIG.MAX_RETRIES_PER_TASK; attempt++) {
       try {
         const response = await fetch(`${CONFIG.OPENAI_API_BASE_URL}/responses`, {
@@ -152,12 +181,19 @@ Evaluate the evidence strictly and return JSON only.`;
         if (!response.ok) {
           const errText = await response.text();
           lastErrMessage = `HTTP ${response.status}: ${redactSecrets(errText)}`;
+          if (response.status === 429 || errText.includes('quota') || errText.includes('billing')) {
+            isQuotaError = true;
+          }
           continue;
         }
 
         const data: any = await response.json();
         const responseId = data.id || 'NONE';
         const modelUsed = data.model || model;
+
+        const inputTokens = data.usage?.input_tokens || 0;
+        const outputTokens = data.usage?.output_tokens || 0;
+        this.budgetTracker.recordUsage(pkg.taskId, modelUsed, inputTokens, outputTokens);
 
         let outputText = '';
         if (data.output && Array.isArray(data.output)) {
@@ -186,9 +222,9 @@ Evaluate the evidence strictly and return JSON only.`;
       decision: 'REVIEWER_UNAVAILABLE',
       summary: `OpenAI API call failed: ${lastErrMessage}`,
       verifiedEvidenceUsed: [],
-      limitations: ['API_FAILURE'],
+      limitations: isQuotaError ? ['OPENAI_BUDGET_EXHAUSTED'] : ['API_FAILURE'],
       risks: ['Reviewer service unavailable.'],
-      requiredNextAction: 'Check OpenAI API connectivity or retry later.',
+      requiredNextAction: isQuotaError ? 'Check OpenAI billing and quota limits.' : 'Check OpenAI API connectivity or retry later.',
       escalationRequired: false,
       modelUsed: model,
       responseId: 'NONE'
@@ -223,7 +259,6 @@ Evaluate the evidence strictly and return JSON only.`;
     }
 
     // Deterministic Overrule Enforcement (Section 9 & 15)
-    // Deterministic failed evidence CANNOT become PASS_GREEN or PASS_WITH_LIMITATION
     const isDeterministicFailure =
       pkg.readOnlyViolation === true ||
       pkg.typecheckResult === 'FAIL' ||

@@ -13,9 +13,18 @@ export const CONFIG = {
   MAX_LUNA_REVIEWS_PER_TASK: 1,
   MAX_SOL_REVIEWS_PER_TASK: 1,
   MAX_OPENAI_REVIEW_INPUT_CHARS: 16000,
+  MAX_LUNA_REVIEWS_PER_DAY: 10,
+  MAX_SOL_REVIEWS_PER_DAY: 1,
+  LEASE_TTL_MS: 10 * 60 * 1000, // 10 minutes lease TTL
+  MAX_TASKS_PER_RUNNER_CYCLE: 5,
   MAX_TASKS_PER_RUN: 5,
   MAX_RETRIES_PER_TASK: 1, // Max 1 retry for transient process errors
   MAX_TASK_RUNTIME_MINUTES: 30,
+  DATA_DIR: path.join(__dirname, '..', 'data'),
+  QUEUE_FILE_PATH: path.join(__dirname, '..', 'data', 'queue-state.json'),
+  RUNNER_STATE_FILE_PATH: path.join(__dirname, '..', 'data', 'runner-state.json'),
+  OWNER_DECISIONS_FILE_PATH: path.join(__dirname, '..', 'data', 'owner-decisions.json'),
+  USAGE_STATE_FILE_PATH: path.join(__dirname, '..', 'data', 'usage-state.json'),
   STATE_FILE_PATH: path.join(__dirname, '..', 'data', 'control-hub-state.json')
 };
 

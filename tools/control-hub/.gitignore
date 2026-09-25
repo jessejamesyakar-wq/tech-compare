@@ -1,5 +1,7 @@
 # Control Hub local data & build artifacts
-data/control-hub-state.json
+data/*.json
 data/*.log
+test/v04_test_data/
 dist/
 node_modules/
+

@@ -1,4 +1,17 @@
-export type TaskState = 'PENDING' | 'RUNNING' | 'COMPLETED' | 'REVIEWED_COMPLETE' | 'FAILED' | 'BLOCKED';
+export type TaskState =
+  | 'PENDING'
+  | 'RUNNING'
+  | 'REVIEWING'
+  | 'COMPLETED'
+  | 'COMPLETED_WITH_LIMITATION'
+  | 'FAILED'
+  | 'BLOCKED'
+  | 'BLOCKED_BY_DEPENDENCY'
+  | 'BLOCKED_BY_REPOSITORY_IDENTITY'
+  | 'OWNER_DECISION_REQUIRED'
+  | 'CANCELLED';
+
+export type TaskPriority = 'CRITICAL' | 'HIGH' | 'NORMAL' | 'LOW';
 
 export type RiskLevel = 'GREEN' | 'YELLOW' | 'RED';
 
@@ -57,44 +70,73 @@ export interface ReviewPackage {
   antigravityAnalysis?: string;
 }
 
-export interface TaskRecord {
+export interface QueueTask {
   taskId: string;
   type: TaskType;
   risk: RiskLevel;
+  priority: TaskPriority;
   instruction: string;
   status: TaskState;
+  dependencies: string[];
   createdAt: string;
   startedAt?: string;
   completedAt?: string;
-  workspacePath?: string;
-  originMainHead?: string;
   attempts: number;
+  canonicalHead?: string;
+  originMainHead?: string;
+  workspaceHead?: string;
+  workspacePath?: string;
   commandOutput?: string;
-  analysisResult?: string;
   readOnlyViolation?: boolean;
-  failureClassification?: string;
+  antigravityAnalysis?: string;
+  analysisResult?: string;
   reviewResult?: StructuredReviewResult;
   solReviewResult?: StructuredReviewResult;
   reviewerDecision?: ReviewerDecision;
+  failureClassification?: string;
+  limitations?: string[];
+  ownerDecisionReason?: string;
 }
 
-export interface TaskExecutionResult {
-  success: boolean;
-  status: TaskState;
-  commandOutput?: string;
-  analysisResult?: string;
-  workspacePath?: string;
-  originMainHead?: string;
-  readOnlyViolation?: boolean;
-  failureClassification?: string;
-  attempts: number;
-  reviewResult?: StructuredReviewResult;
-  solReviewResult?: StructuredReviewResult;
-  reviewerDecision?: ReviewerDecision;
+export interface TaskRecord extends QueueTask {}
+
+export interface OwnerDecisionItem {
+  decisionId: string;
+  taskId: string;
+  createdAt: string;
+  shortTitle: string;
+  reason: string;
+  optionA: string;
+  optionB: string;
+  safeDefault: string;
+  riskIfNoDecision: string;
+  status: 'PENDING' | 'RESOLVED';
+}
+
+export interface RunnerState {
+  paused: boolean;
+  activeLeaseOwner?: string;
+  leaseAcquiredAt?: string;
+  leaseExpiresAt?: string;
+}
+
+export interface UsageRecord {
+  inputTokens: number;
+  outputTokens: number;
+  model: string;
+  timestamp: string;
+  taskId: string;
+}
+
+export interface UsageState {
+  dailyLunaCount: number;
+  dailySolCount: number;
+  lastResetDate: string; // YYYY-MM-DD
+  records: UsageRecord[];
 }
 
 export interface ControlHubState {
   version: string;
   lastUpdated: string;
-  tasks: TaskRecord[];
+  tasks: QueueTask[];
 }

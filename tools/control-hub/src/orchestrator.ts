@@ -39,8 +39,10 @@ export class Orchestrator {
       taskId,
       type,
       risk,
+      priority: 'NORMAL',
       instruction: redactSecrets(instruction),
       status: 'PENDING',
+      dependencies: [],
       createdAt,
       attempts: 0
     };
@@ -148,10 +150,12 @@ export class Orchestrator {
     const dualReview = await this.openaiReviewer.reviewTask(reviewPkg);
 
     let finalTaskStatus: TaskState = 'COMPLETED';
-    if (dualReview.finalDecision === 'PASS_GREEN' || dualReview.finalDecision === 'PASS_WITH_LIMITATION') {
-      finalTaskStatus = 'REVIEWED_COMPLETE';
+    if (dualReview.finalDecision === 'PASS_GREEN') {
+      finalTaskStatus = 'COMPLETED';
+    } else if (dualReview.finalDecision === 'PASS_WITH_LIMITATION') {
+      finalTaskStatus = 'COMPLETED_WITH_LIMITATION';
     } else if (dualReview.finalDecision === 'OWNER_DECISION_REQUIRED') {
-      finalTaskStatus = 'BLOCKED';
+      finalTaskStatus = 'OWNER_DECISION_REQUIRED';
     } else {
       finalTaskStatus = 'FAILED';
     }
