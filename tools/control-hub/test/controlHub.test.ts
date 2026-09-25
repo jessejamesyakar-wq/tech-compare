@@ -713,4 +713,58 @@ describe('ACELEETME Control Hub V0.4 — Autonomous Queue Runner Test Suite', ()
     assert.strictEqual(res.openAiCallCount, 0, 'Zero OpenAI calls made for oversized evidence');
   });
 
+  test('21. Supervisor: Enforces maximum 3 process restarts in 1 hour', () => {
+    const { queueStore, qPath, rPath, oPath, uPath } = getMockStores();
+    const { Supervisor } = require('../src/supervisor');
+    const supervisor = new Supervisor(queueStore);
+
+    assert.strictEqual(supervisor.checkAndRecordRestart().allowed, true);
+    assert.strictEqual(supervisor.checkAndRecordRestart().allowed, true);
+    assert.strictEqual(supervisor.checkAndRecordRestart().allowed, true);
+
+    const fourth = supervisor.checkAndRecordRestart();
+    assert.strictEqual(fourth.allowed, false);
+    assert.strictEqual(fourth.status, 'RUNNER_RESTART_LIMIT_REACHED');
+
+    cleanupTestFiles(qPath, rPath, oPath, uPath);
+  });
+
+  test('22. BudgetTracker: Enforces MAX_TOTAL_OPENAI_CALLS_PER_DAY = 12 ($5 credit protection)', () => {
+    const { queueStore, qPath, rPath, oPath, uPath } = getMockStores();
+    const today = new Date().toISOString().slice(0, 10);
+    fs.writeFileSync(uPath, JSON.stringify({
+      dailyLunaCount: 10,
+      dailySolCount: 2,
+      queueLunaCalls: 10,
+      queueSolCalls: 2,
+      forensicLunaCalls: 0,
+      forensicSolCalls: 0,
+      totalOpenAiCalls: 12,
+      lastResetDate: today,
+      records: []
+    }), 'utf-8');
+
+    const budget = new BudgetTracker(queueStore);
+    assert.strictEqual(budget.canCallLuna(), false, 'Luna call must be disallowed when total daily calls reach 12');
+    assert.strictEqual(budget.canCallSol(), false, 'Sol call must be disallowed when total daily calls reach 12');
+
+    cleanupTestFiles(qPath, rPath, oPath, uPath);
+  });
+
+  test('23. Logger: Redacts secrets before console or file write', () => {
+    const { Logger } = require('../src/logger');
+    const logPath = path.join(testDir, `log_${Date.now()}.log`);
+    const logger = new Logger(logPath);
+
+    process.env.OPENAI_API_KEY = 'sk-proj-test-secret-123456';
+    logger.log('Test event with sk-proj-test-secret-123456 and Bearer auth_xyz');
+
+    const content = fs.readFileSync(logPath, 'utf-8');
+    assert.strictEqual(content.includes('sk-proj-test-secret-123456'), false);
+    assert.strictEqual(content.includes('[REDACTED_OPENAI_API_KEY]'), true);
+
+    cleanupTestFiles(logPath);
+  });
+
 });
+

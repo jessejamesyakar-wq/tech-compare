@@ -193,7 +193,10 @@ Evaluate the evidence strictly and return JSON only.`;
 
         const inputTokens = data.usage?.input_tokens || 0;
         const outputTokens = data.usage?.output_tokens || 0;
-        this.budgetTracker.recordUsage(pkg.taskId, modelUsed, inputTokens, outputTokens);
+        const category = pkg.taskId.includes('QUAL') || pkg.taskId.includes('LIVE') || pkg.taskId.includes('MANUAL')
+          ? (modelUsed.includes('sol') ? 'MANUAL_SOL' : 'MANUAL_LUNA')
+          : (modelUsed.includes('sol') ? 'QUEUE_SOL' : 'QUEUE_LUNA');
+        this.budgetTracker.recordUsage(pkg.taskId, modelUsed, inputTokens, outputTokens, responseId, category);
 
         let outputText = '';
         if (data.output && Array.isArray(data.output)) {

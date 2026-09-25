@@ -118,6 +118,9 @@ export interface RunnerState {
   activeLeaseOwner?: string;
   leaseAcquiredAt?: string;
   leaseExpiresAt?: string;
+  restartCount?: number;
+  lastRestartWindowStart?: string;
+  supervisorStatus?: 'HEALTHY' | 'RUNNER_RESTART_LIMIT_REACHED';
 }
 
 export interface UsageRecord {
@@ -126,11 +129,18 @@ export interface UsageRecord {
   model: string;
   timestamp: string;
   taskId: string;
+  responseId?: string;
+  callCategory?: 'QUEUE_LUNA' | 'QUEUE_SOL' | 'MANUAL_LUNA' | 'MANUAL_SOL';
 }
 
 export interface UsageState {
   dailyLunaCount: number;
   dailySolCount: number;
+  queueLunaCalls: number;
+  queueSolCalls: number;
+  forensicLunaCalls: number;
+  forensicSolCalls: number;
+  totalOpenAiCalls: number;
   lastResetDate: string; // YYYY-MM-DD
   records: UsageRecord[];
 }
@@ -140,3 +150,4 @@ export interface ControlHubState {
   lastUpdated: string;
   tasks: QueueTask[];
 }
+

@@ -1,7 +1,7 @@
 {
   "name": "aceleetme-control-hub",
-  "version": "0.4.0",
-  "description": "ACELEETME Control Hub V0.4 Autonomous Queue Runner",
+  "version": "0.5.0",
+  "description": "ACELEETME Control Hub V0.5 Windows Autonomous Runner",
   "private": true,
   "main": "dist/cli.js",
   "scripts": {
@@ -15,7 +15,10 @@
     "queue:list": "npx tsx src/cli.ts queue:list",
     "decisions": "npx tsx src/cli.ts decisions",
     "pause": "npx tsx src/cli.ts pause",
-    "resume": "npx tsx src/cli.ts resume"
+    "resume": "npx tsx src/cli.ts resume",
+    "summary": "npx tsx src/cli.ts summary",
+    "runner:health": "npx tsx src/cli.ts health",
+    "runner:start": "npx tsx src/daemon.ts"
   },
   "keywords": [],
   "author": "",

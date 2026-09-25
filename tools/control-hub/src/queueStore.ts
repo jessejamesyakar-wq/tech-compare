@@ -125,8 +125,20 @@ export class QueueStore {
   // --- Usage & Budget State ---
   public getUsageState(): UsageState {
     const today = new Date().toISOString().slice(0, 10);
+    const defaultState: UsageState = {
+      dailyLunaCount: 0,
+      dailySolCount: 0,
+      queueLunaCalls: 0,
+      queueSolCalls: 0,
+      forensicLunaCalls: 0,
+      forensicSolCalls: 0,
+      totalOpenAiCalls: 0,
+      lastResetDate: today,
+      records: []
+    };
+
     if (!fs.existsSync(this.usageStateFilePath)) {
-      return { dailyLunaCount: 0, dailySolCount: 0, lastResetDate: today, records: [] };
+      return defaultState;
     }
     try {
       const data = fs.readFileSync(this.usageStateFilePath, 'utf-8');
@@ -134,22 +146,44 @@ export class QueueStore {
       if (parsed.lastResetDate !== today) {
         parsed.dailyLunaCount = 0;
         parsed.dailySolCount = 0;
+        parsed.queueLunaCalls = 0;
+        parsed.queueSolCalls = 0;
+        parsed.forensicLunaCalls = 0;
+        parsed.forensicSolCalls = 0;
+        parsed.totalOpenAiCalls = 0;
         parsed.lastResetDate = today;
       }
-      return parsed;
+      return {
+        ...defaultState,
+        ...parsed
+      };
     } catch {
-      return { dailyLunaCount: 0, dailySolCount: 0, lastResetDate: today, records: [] };
+      return defaultState;
     }
   }
 
   public recordOpenAiUsage(record: UsageRecord): void {
     this.ensureDataDirectoryExists();
     const usage = this.getUsageState();
-    if (record.model.includes('sol')) {
+    const isSol = record.model.includes('sol');
+    const isManual = record.callCategory?.includes('MANUAL') || record.taskId.includes('QUAL') || record.taskId.includes('LIVE') || record.taskId.includes('FORENSIC');
+
+    if (isSol) {
       usage.dailySolCount += 1;
+      if (isManual) {
+        usage.forensicSolCalls += 1;
+      } else {
+        usage.queueSolCalls += 1;
+      }
     } else {
       usage.dailyLunaCount += 1;
+      if (isManual) {
+        usage.forensicLunaCalls += 1;
+      } else {
+        usage.queueLunaCalls += 1;
+      }
     }
+    usage.totalOpenAiCalls += 1;
     usage.records.push(record);
     fs.writeFileSync(this.usageStateFilePath, JSON.stringify(usage, null, 2), 'utf-8');
   }

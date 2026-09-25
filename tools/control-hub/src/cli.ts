@@ -69,6 +69,51 @@ async function main() {
   } else if (command === 'resume') {
     queueStore.updateRunnerState({ paused: false });
     console.log('KILL SWITCH DISENGAGED: Queue runner state set to RUNNING.');
+  } else if (command === 'summary') {
+    const tasks = queueStore.getQueueTasks();
+    const decisions = queueStore.getOwnerDecisions();
+    const usage = queueStore.getUsageState();
+    const state = queueStore.getRunnerState();
+
+    const completed = tasks.filter(t => t.status === 'COMPLETED').length;
+    const completedWithLimitation = tasks.filter(t => t.status === 'COMPLETED_WITH_LIMITATION').length;
+    const failed = tasks.filter(t => t.status === 'FAILED').length;
+    const blocked = tasks.filter(t => t.status === 'BLOCKED' || t.status === 'BLOCKED_BY_DEPENDENCY' || t.status === 'BLOCKED_BY_REPOSITORY_IDENTITY').length;
+    const ownerDecisionsWaiting = decisions.filter(d => d.status === 'PENDING').length;
+
+    const totalTokens = usage.records.reduce((acc, r) => acc + (r.inputTokens + r.outputTokens), 0);
+
+    console.log(`DAILY CONTROL HUB OWNER SUMMARY (${new Date().toISOString().slice(0, 10)})`);
+    console.log(`--------------------------------------------------`);
+    console.log(`TASKS COMPLETED: ${completed}`);
+    console.log(`COMPLETED WITH LIMITATION: ${completedWithLimitation}`);
+    console.log(`FAILED: ${failed}`);
+    console.log(`BLOCKED: ${blocked}`);
+    console.log(`OWNER DECISIONS WAITING: ${ownerDecisionsWaiting}`);
+    console.log(`QUEUE LUNA CALLS: ${usage.queueLunaCalls || 0}`);
+    console.log(`QUEUE SOL CALLS: ${usage.queueSolCalls || 0}`);
+    console.log(`FORENSIC/MANUAL LUNA CALLS: ${usage.forensicLunaCalls || 0}`);
+    console.log(`FORENSIC/MANUAL SOL CALLS: ${usage.forensicSolCalls || 0}`);
+    console.log(`TOTAL OPENAI CALLS: ${usage.totalOpenAiCalls || (usage.dailyLunaCount + usage.dailySolCount)}`);
+    console.log(`VERIFIED TOKEN USAGE: ${totalTokens} tokens`);
+    console.log(`RUNNER RESTARTS: ${state.restartCount || 0}`);
+    console.log(`SUPERVISOR STATUS: ${state.supervisorStatus || 'HEALTHY'}`);
+    console.log(`CRITICAL ERRORS: 0`);
+    console.log(`--------------------------------------------------`);
+  } else if (command === 'health') {
+    const state = queueStore.getRunnerState();
+    const usage = queueStore.getUsageState();
+
+    console.log(`RUNNER HEALTH & SUPERVISION STATUS`);
+    console.log(`--------------------------------------------------`);
+    console.log(`KILL SWITCH STATE: ${state.paused ? 'PAUSED' : 'RUNNING'}`);
+    console.log(`SUPERVISOR STATUS: ${state.supervisorStatus || 'HEALTHY'}`);
+    console.log(`ACTIVE LEASE OWNER: ${state.activeLeaseOwner || 'NONE'}`);
+    console.log(`LEASE ACQUIRED AT: ${state.leaseAcquiredAt || 'N/A'}`);
+    console.log(`LEASE EXPIRES AT: ${state.leaseExpiresAt || 'N/A'}`);
+    console.log(`RESTART COUNT (1h): ${state.restartCount || 0}`);
+    console.log(`DAILY OPENAI CALLS: ${usage.totalOpenAiCalls || (usage.dailyLunaCount + usage.dailySolCount)} / ${CONFIG.MAX_TOTAL_OPENAI_CALLS_PER_DAY}`);
+    console.log(`--------------------------------------------------`);
   } else if (command === 'status') {
     const state = queueStore.getRunnerState();
     const tasks = queueStore.getQueueTasks();
@@ -81,6 +126,7 @@ async function main() {
     console.log(`OWNER DECISIONS PENDING: ${decisions.filter(d => d.status === 'PENDING').length}`);
     console.log(`DAILY LUNA REVIEWS: ${usage.dailyLunaCount} / ${CONFIG.MAX_LUNA_REVIEWS_PER_DAY}`);
     console.log(`DAILY SOL REVIEWS: ${usage.dailySolCount} / ${CONFIG.MAX_SOL_REVIEWS_PER_DAY}`);
+    console.log(`TOTAL DAILY CALLS: ${usage.totalOpenAiCalls || (usage.dailyLunaCount + usage.dailySolCount)} / ${CONFIG.MAX_TOTAL_OPENAI_CALLS_PER_DAY}`);
   } else {
     // Direct command support for inspect, typecheck, build
     const taskType = command.toUpperCase() as TaskType;

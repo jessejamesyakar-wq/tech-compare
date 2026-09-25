@@ -15,7 +15,10 @@ export const CONFIG = {
   MAX_OPENAI_REVIEW_INPUT_CHARS: 16000,
   MAX_LUNA_REVIEWS_PER_DAY: 10,
   MAX_SOL_REVIEWS_PER_DAY: 1,
+  MAX_TOTAL_OPENAI_CALLS_PER_DAY: 12,
   LEASE_TTL_MS: 10 * 60 * 1000, // 10 minutes lease TTL
+  POLLING_INTERVAL_MS: 60000, // 60 seconds loop interval
+  MAX_SUPERVISOR_RESTARTS_PER_HOUR: 3,
   MAX_TASKS_PER_RUNNER_CYCLE: 5,
   MAX_TASKS_PER_RUN: 5,
   MAX_RETRIES_PER_TASK: 1, // Max 1 retry for transient process errors
@@ -25,7 +28,9 @@ export const CONFIG = {
   RUNNER_STATE_FILE_PATH: path.join(__dirname, '..', 'data', 'runner-state.json'),
   OWNER_DECISIONS_FILE_PATH: path.join(__dirname, '..', 'data', 'owner-decisions.json'),
   USAGE_STATE_FILE_PATH: path.join(__dirname, '..', 'data', 'usage-state.json'),
-  STATE_FILE_PATH: path.join(__dirname, '..', 'data', 'control-hub-state.json')
+  STATE_FILE_PATH: path.join(__dirname, '..', 'data', 'control-hub-state.json'),
+  LOGS_DIR_PATH: path.join(__dirname, '..', 'logs'),
+  LOG_FILE_PATH: path.join(__dirname, '..', 'logs', 'runner.log')
 };
 
 export function isApiKeyPresent(): boolean {
