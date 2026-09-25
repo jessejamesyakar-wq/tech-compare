@@ -1,8 +1,8 @@
-# ACELEETME Control Hub V0.5 — Windows Task Scheduler Generator
+﻿# ACELEETME Control Hub V0.5 — Windows Task Scheduler Generator
 # NOTE: Generates and validates Task Scheduler definition without permanent registration.
 
 $TaskName = "ACELEETME-Control-Hub"
-$WorkingDir = "C:\Projects\aceleetme\tools\control-hub"
+$WorkingDir = Split-Path -Parent $PSScriptRoot
 $ScriptPath = "$WorkingDir\scripts\runner-start.ps1"
 
 Write-Host "=================================================="
@@ -22,4 +22,6 @@ Write-Host "Generated schtasks command:"
 Write-Host $SchtasksCmd
 Write-Host "--------------------------------------------------"
 Write-Host "TASK_SCHEDULER_READY = YES"
-Write-Host "Task Scheduler Installed = NO (Dry-run / Configuration mode active)"
+Write-Host "Task Scheduler Working Directory = $WorkingDir"
+Write-Host "Task Scheduler Action Script = $ScriptPath"
+Write-Host "--------------------------------------------------"

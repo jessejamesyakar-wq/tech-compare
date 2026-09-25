@@ -1,4 +1,4 @@
-# ACELEETME Control Hub V0.5 — Windows Task Scheduler Removal Script
+﻿# ACELEETME Control Hub V0.5 — Windows Task Scheduler Removal Script
 
 $TaskName = "ACELEETME-Control-Hub"
 
