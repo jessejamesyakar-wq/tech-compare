@@ -1,9 +1,10 @@
 import { CONFIG } from './config';
 import { ProjectPlanner } from './projectPlanner';
+import { OpenAIStrategicPlanner } from './strategicPlanner';
 import { QueueRunner } from './queueRunner';
 import { QueueStore } from './queueStore';
 import { TelegramNotifier } from './telegramNotifier';
-import { OwnerDecisionItem, QueueTask, RiskLevel, TaskPriority, TaskType } from './types';
+import { OwnerDecisionItem, QueueTask, RiskLevel, StrategicTaskProposal, TaskPriority, TaskType } from './types';
 import { parseQueueAddArgs, ALLOWED_TASK_TYPES } from './cliParser';
 
 async function main() {
@@ -181,6 +182,72 @@ async function main() {
     } else {
       console.error('FAILED: Telegram summary dispatch failed.');
     }
+  } else if (command === 'planner:v0.7' || command === 'planner:generate') {
+    const strategicPlanner = new OpenAIStrategicPlanner(queueStore);
+    console.log('Executing OpenAI Controlled Strategic Project Planner V0.7...');
+    const result = await strategicPlanner.generateStrategicPlan({ bypassIdleCheck: true });
+    const rm = result.roadmap;
+
+    console.log(`==================================================`);
+    console.log(`ACELEETME CONTROL HUB V0.7 — OPENAI STRATEGIC ROADMAP`);
+    console.log(`==================================================`);
+    console.log(`Generated At: ${rm.generatedAt}`);
+    console.log(`Planner Model Used: ${rm.plannerModelUsed} (Escalation Used: ${rm.escalationUsed})`);
+    console.log(`Reviewer Model Used: ${rm.reviewerModelUsed || 'gpt-5.6-luna'}`);
+    console.log(`Auto-Enqueued GREEN Tasks: ${result.autoEnqueuedCount}`);
+    console.log(`--------------------------------------------------`);
+    console.log(`TOP 3 CURRENT BLOCKERS:`);
+    rm.top3CurrentBlockers.forEach((b: string, i: number) => console.log(`  ${i + 1}. ${b}`));
+    console.log(`TOP 3 NEXT MOVES:`);
+    rm.top3NextMoves.forEach((m: string, i: number) => console.log(`  ${i + 1}. ${m}`));
+    console.log(`DO NOT WORK ON YET:`);
+    rm.doNotWorkOnYet.forEach((d: string, i: number) => console.log(`  ${i + 1}. ${d}`));
+    console.log(`--------------------------------------------------`);
+    console.log(`STRATEGIC GAPS:`);
+    console.log(`  User Value Gap: ${rm.userValueGap}`);
+    console.log(`  Data Gap: ${rm.dataGap}`);
+    console.log(`  Commerce Gap: ${rm.commerceGap}`);
+    console.log(`  Growth Gap: ${rm.growthGap}`);
+    console.log(`  Technical Risk: ${rm.technicalRisk}`);
+    console.log(`--------------------------------------------------`);
+    console.log(`PROPOSED STRATEGIC TASKS (${rm.proposals.length} PROPOSALS):`);
+    rm.proposals.forEach((p: StrategicTaskProposal, index: number) => {
+      console.log(`[${index + 1}] ID: ${p.taskId} | Domain: ${p.domain} | Priority: ${p.priority}`);
+      console.log(`    Title: ${p.title}`);
+      console.log(`    OpenAI Risk Proposal: ${p.riskProposal} | Control Hub Validated Risk: ${p.validatedRisk || p.riskProposal}`);
+      console.log(`    Execution Profile: ${p.executionProfile} | Executor: ${p.suggestedExecutor}`);
+      console.log(`    Expected User Value: ${p.expectedUserValue}`);
+      console.log(`    Auto-Enqueued: ${p.autoEnqueued ? 'YES (PENDING)' : 'NO (PROPOSAL ONLY)'}`);
+      if (p.governanceOverrideNote) console.log(`    Governance Note: ${p.governanceOverrideNote}`);
+      console.log(`--------------------------------------------------`);
+    });
+  } else if (command === 'planner:compare') {
+    const shadowPlanner = new ProjectPlanner(queueStore);
+    const strategicPlanner = new OpenAIStrategicPlanner(queueStore);
+
+    const shadow = shadowPlanner.generateShadowPlan();
+    const result = await strategicPlanner.generateStrategicPlan({ bypassIdleCheck: true });
+    const rm = result.roadmap;
+
+    console.log(`==================================================`);
+    console.log(`SHADOW PLANNER V0.1 VS OPENAI STRATEGIC PLANNER V0.7`);
+    console.log(`==================================================`);
+    console.log(`SHADOW PLANNER (V0.1 Static Backlog):`);
+    console.log(`  Candidates: ${shadow.totalCandidates} (GREEN: ${shadow.greenCandidates}, YELLOW: ${shadow.yellowCandidates}, RED: ${shadow.redCandidates})`);
+    console.log(`  Static Targets: Catalog audit, Retailer matrix, SEO check, Regression tests`);
+    console.log(`--------------------------------------------------`);
+    console.log(`OPENAI STRATEGIC PLANNER (V0.7 Business & User Reasoning):`);
+    console.log(`  Proposals: ${rm.proposals.length} proposals`);
+    console.log(`  Top Blocker: ${rm.top3CurrentBlockers[0] || 'N/A'}`);
+    console.log(`  Top Move: ${rm.top3NextMoves[0] || 'N/A'}`);
+    console.log(`  User Value Focus: ${rm.userValueGap}`);
+    console.log(`--------------------------------------------------`);
+    console.log(`FACTUAL COMPARISON SUMMARY:`);
+    console.log(`  1. Reasoning Scope: Shadow planner uses static array; V0.7 evaluates full platform data, commerce, UX, growth.`);
+    console.log(`  2. Risk Authority: Both enforce Control Hub deterministic risk overrides (OpenAI GREEN overridden if RED/YELLOW).`);
+    console.log(`  3. Auto-Enqueue: Shadow planner is passive; V0.7 auto-enqueues up to 3 validated GREEN tasks under budget caps.`);
+    console.log(`  4. Deduplication: Shadow planner filters queue IDs; V0.7 uses 24h fingerprint deduplication.`);
+    console.log(`==================================================`);
   } else if (command === 'planner' || command === 'plan') {
     const planner = new ProjectPlanner(queueStore);
     const plan = planner.generateShadowPlan();

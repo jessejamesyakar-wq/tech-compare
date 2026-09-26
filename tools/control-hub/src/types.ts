@@ -151,3 +151,50 @@ export interface ControlHubState {
   tasks: QueueTask[];
 }
 
+export type ProposalDomain = 'DATA' | 'COMMERCE' | 'USER_VALUE' | 'GROWTH' | 'TECHNICAL' | 'GOVERNANCE';
+export type SuggestedExecutor = 'CONTROL_HUB' | 'ANTIGRAVITY' | 'OWNER' | 'FUTURE_AUTONOMOUS_BUILDER';
+export type ProposalPriority = 'CRITICAL' | 'HIGH' | 'MEDIUM' | 'LOW';
+
+export interface StrategicTaskProposal {
+  taskId: string;
+  title: string;
+  domain: ProposalDomain;
+  problem: string;
+  evidence: string[];
+  reason: string;
+  expectedUserValue: string;
+  expectedBusinessValue: string;
+  expectedTechnicalValue: string;
+  priority: ProposalPriority;
+  riskProposal: RiskLevel;
+  validatedRisk?: RiskLevel;
+  executionProfile: string;
+  dependencies: string[];
+  acceptanceCriteria: string[];
+  estimatedComplexity: 'LOW' | 'MEDIUM' | 'HIGH';
+  ownerDecisionNeeded: boolean;
+  suggestedExecutor: SuggestedExecutor;
+  dedupeFingerprint: string;
+  autoEnqueued?: boolean;
+  governanceOverrideNote?: string;
+}
+
+export interface StrategicRoadmap {
+  generatedAt: string;
+  plannerModelUsed: string;
+  escalationUsed: boolean;
+  reviewerModelUsed?: string;
+  top3CurrentBlockers: string[];
+  top3NextMoves: string[];
+  doNotWorkOnYet: string[];
+  dependencyChain: string[];
+  userValueGap: string;
+  dataGap: string;
+  commerceGap: string;
+  growthGap: string;
+  technicalRisk: string;
+  ownerDecisionsNeeded: string[];
+  proposals: StrategicTaskProposal[];
+}
+
+

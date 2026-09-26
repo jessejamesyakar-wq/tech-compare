@@ -1302,6 +1302,688 @@ describe('ACELEETME Control Hub V0.4 — Autonomous Queue Runner Test Suite', ()
     cleanupTestFiles(qPath, rPath, oPath, uPath);
   });
 
+  test('51. OpenAI Strategic Planner: Telemetry gathering and telemetry structure', () => {
+    const { OpenAIStrategicPlanner } = require('../src/strategicPlanner');
+    const { queueStore, qPath, rPath, oPath, uPath } = getMockStores();
+    const planner = new OpenAIStrategicPlanner(queueStore);
+
+    const telemetry = planner.getProjectTelemetry();
+    assert.strictEqual(typeof telemetry.repositoryHead, 'string');
+    assert.strictEqual(typeof telemetry.gitCleanliness, 'boolean');
+    assert.strictEqual(telemetry.catalogAudit.includes('CANONICAL_DB_AUDIT = NOT_PERFORMED'), true);
+    assert.strictEqual(telemetry.commerceReadiness.includes('PERMISSION_UNVERIFIED'), true);
+
+    cleanupTestFiles(qPath, rPath, oPath, uPath);
+  });
+
+  test('52. OpenAI Strategic Planner: GREEN proposal governance validation', () => {
+    const { OpenAIStrategicPlanner } = require('../src/strategicPlanner');
+    const planner = new OpenAIStrategicPlanner();
+
+    const validated = planner.validateProposalGovernance({
+      taskId: 'plan_test_001',
+      title: 'Repository Structure Inspection',
+      domain: 'TECHNICAL',
+      problem: 'Inspect repository identity',
+      evidence: ['Repo status'],
+      reason: 'Verify clean tree',
+      expectedUserValue: 'Fast loading',
+      expectedBusinessValue: 'Zero debt',
+      expectedTechnicalValue: 'Clean tree',
+      priority: 'HIGH',
+      riskProposal: 'GREEN',
+      executionProfile: 'REPOSITORY_INSPECTION',
+      dependencies: [],
+      acceptanceCriteria: ['Pass'],
+      estimatedComplexity: 'LOW',
+      ownerDecisionNeeded: false,
+      suggestedExecutor: 'CONTROL_HUB',
+      dedupeFingerprint: 'fp_test_001'
+    });
+
+    assert.strictEqual(validated.validatedRisk, 'GREEN');
+    assert.strictEqual(validated.executionProfile, 'REPOSITORY_INSPECTION');
+  });
+
+  test('53. OpenAI Strategic Planner: Main merge proposal overridden to RED', () => {
+    const { OpenAIStrategicPlanner } = require('../src/strategicPlanner');
+    const planner = new OpenAIStrategicPlanner();
+
+    const validated = planner.validateProposalGovernance({
+      taskId: 'plan_merge_001',
+      title: 'Main merge execution',
+      domain: 'GOVERNANCE',
+      problem: 'Merge feature branch into main',
+      evidence: ['Git diff'],
+      reason: 'Release feature',
+      expectedUserValue: 'New feature',
+      expectedBusinessValue: 'Value',
+      expectedTechnicalValue: 'Merged',
+      priority: 'CRITICAL',
+      riskProposal: 'GREEN',
+      executionProfile: 'REPOSITORY_INSPECTION',
+      dependencies: [],
+      acceptanceCriteria: ['Merged'],
+      estimatedComplexity: 'HIGH',
+      ownerDecisionNeeded: false,
+      suggestedExecutor: 'CONTROL_HUB',
+      dedupeFingerprint: 'fp_merge_001'
+    });
+
+    assert.strictEqual(validated.validatedRisk, 'RED');
+    assert.strictEqual(validated.ownerDecisionNeeded, true);
+    assert.strictEqual(validated.suggestedExecutor, 'OWNER');
+  });
+
+  test('54. OpenAI Strategic Planner: Production database mutation overridden to RED', () => {
+    const { OpenAIStrategicPlanner } = require('../src/strategicPlanner');
+    const planner = new OpenAIStrategicPlanner();
+
+    const validated = planner.validateProposalGovernance({
+      taskId: 'plan_db_001',
+      title: 'Production database mutation',
+      domain: 'DATA',
+      problem: 'Directly update production Postgres DB table',
+      evidence: ['Schema mismatch'],
+      reason: 'Fix table data',
+      expectedUserValue: 'Correct data',
+      expectedBusinessValue: 'Correctness',
+      expectedTechnicalValue: 'Updated',
+      priority: 'HIGH',
+      riskProposal: 'GREEN',
+      executionProfile: 'READ_ONLY_AUDIT',
+      dependencies: [],
+      acceptanceCriteria: ['Updated'],
+      estimatedComplexity: 'HIGH',
+      ownerDecisionNeeded: false,
+      suggestedExecutor: 'CONTROL_HUB',
+      dedupeFingerprint: 'fp_db_001'
+    });
+
+    assert.strictEqual(validated.validatedRisk, 'RED');
+    assert.strictEqual(validated.ownerDecisionNeeded, true);
+  });
+
+  test('55. OpenAI Strategic Planner: Destructive migration overridden to RED', () => {
+    const { OpenAIStrategicPlanner } = require('../src/strategicPlanner');
+    const planner = new OpenAIStrategicPlanner();
+
+    const validated = planner.validateProposalGovernance({
+      taskId: 'plan_drop_001',
+      title: 'Destructive migration drop table',
+      domain: 'DATA',
+      problem: 'Drop table in production DB',
+      evidence: ['Unused table'],
+      reason: 'Clean schema',
+      expectedUserValue: 'Faster DB',
+      expectedBusinessValue: 'Clean DB',
+      expectedTechnicalValue: 'Dropped',
+      priority: 'MEDIUM',
+      riskProposal: 'GREEN',
+      executionProfile: 'READ_ONLY_AUDIT',
+      dependencies: [],
+      acceptanceCriteria: ['Dropped'],
+      estimatedComplexity: 'HIGH',
+      ownerDecisionNeeded: false,
+      suggestedExecutor: 'CONTROL_HUB',
+      dedupeFingerprint: 'fp_drop_001'
+    });
+
+    assert.strictEqual(validated.validatedRisk, 'RED');
+  });
+
+  test('56. OpenAI Strategic Planner: Golden Dataset mutation overridden to RED', () => {
+    const { OpenAIStrategicPlanner } = require('../src/strategicPlanner');
+    const planner = new OpenAIStrategicPlanner();
+
+    const validated = planner.validateProposalGovernance({
+      taskId: 'plan_golden_001',
+      title: 'Golden Dataset mutation',
+      domain: 'DATA',
+      problem: 'Modify Golden Dataset V1 records',
+      evidence: ['New dataset'],
+      reason: 'Update baseline',
+      expectedUserValue: 'Better baseline',
+      expectedBusinessValue: 'Accuracy',
+      expectedTechnicalValue: 'Updated',
+      priority: 'HIGH',
+      riskProposal: 'GREEN',
+      executionProfile: 'READ_ONLY_AUDIT',
+      dependencies: [],
+      acceptanceCriteria: ['Updated'],
+      estimatedComplexity: 'MEDIUM',
+      ownerDecisionNeeded: false,
+      suggestedExecutor: 'CONTROL_HUB',
+      dedupeFingerprint: 'fp_golden_001'
+    });
+
+    assert.strictEqual(validated.validatedRisk, 'RED');
+  });
+
+  test('57. OpenAI Strategic Planner: Automatic fact correction overridden to RED', () => {
+    const { OpenAIStrategicPlanner } = require('../src/strategicPlanner');
+    const planner = new OpenAIStrategicPlanner();
+
+    const validated = planner.validateProposalGovernance({
+      taskId: 'plan_fact_001',
+      title: 'Automatic fact correction enable',
+      domain: 'DATA',
+      problem: 'Auto-correct product specs in catalog',
+      evidence: ['Spec errors'],
+      reason: 'Auto fix',
+      expectedUserValue: 'Correct specs',
+      expectedBusinessValue: 'Precision',
+      expectedTechnicalValue: 'Auto fixed',
+      priority: 'HIGH',
+      riskProposal: 'GREEN',
+      executionProfile: 'READ_ONLY_AUDIT',
+      dependencies: [],
+      acceptanceCriteria: ['Fixed'],
+      estimatedComplexity: 'MEDIUM',
+      ownerDecisionNeeded: false,
+      suggestedExecutor: 'CONTROL_HUB',
+      dedupeFingerprint: 'fp_fact_001'
+    });
+
+    assert.strictEqual(validated.validatedRisk, 'RED');
+  });
+
+  test('58. OpenAI Strategic Planner: Retailer feed activation overridden to RED', () => {
+    const { OpenAIStrategicPlanner } = require('../src/strategicPlanner');
+    const planner = new OpenAIStrategicPlanner();
+
+    const validated = planner.validateProposalGovernance({
+      taskId: 'plan_retailer_001',
+      title: 'Activate retailer feed for live crawling',
+      domain: 'COMMERCE',
+      problem: 'Enable live feed crawling for Trendyol',
+      evidence: ['Unverified feed'],
+      reason: 'Ingest prices',
+      expectedUserValue: 'Live prices',
+      expectedBusinessValue: 'Revenue',
+      expectedTechnicalValue: 'Ingesting',
+      priority: 'HIGH',
+      riskProposal: 'GREEN',
+      executionProfile: 'READ_ONLY_AUDIT',
+      dependencies: [],
+      acceptanceCriteria: ['Ingesting'],
+      estimatedComplexity: 'MEDIUM',
+      ownerDecisionNeeded: false,
+      suggestedExecutor: 'CONTROL_HUB',
+      dedupeFingerprint: 'fp_retailer_001'
+    });
+
+    assert.strictEqual(validated.validatedRisk, 'RED');
+  });
+
+  test('59. OpenAI Strategic Planner: Credential modification overridden to RED', () => {
+    const { OpenAIStrategicPlanner } = require('../src/strategicPlanner');
+    const planner = new OpenAIStrategicPlanner();
+
+    const validated = planner.validateProposalGovernance({
+      taskId: 'plan_cred_001',
+      title: 'Credential modification and key rotation',
+      domain: 'GOVERNANCE',
+      problem: 'Change credential secrets in environment',
+      evidence: ['Old keys'],
+      reason: 'Rotate keys',
+      expectedUserValue: 'Security',
+      expectedBusinessValue: 'Security',
+      expectedTechnicalValue: 'Rotated',
+      priority: 'HIGH',
+      riskProposal: 'GREEN',
+      executionProfile: 'READ_ONLY_AUDIT',
+      dependencies: [],
+      acceptanceCriteria: ['Rotated'],
+      estimatedComplexity: 'MEDIUM',
+      ownerDecisionNeeded: false,
+      suggestedExecutor: 'CONTROL_HUB',
+      dedupeFingerprint: 'fp_cred_001'
+    });
+
+    assert.strictEqual(validated.validatedRisk, 'RED');
+  });
+
+  test('60. OpenAI Strategic Planner: Security weakening overridden to RED', () => {
+    const { OpenAIStrategicPlanner } = require('../src/strategicPlanner');
+    const planner = new OpenAIStrategicPlanner();
+
+    const validated = planner.validateProposalGovernance({
+      taskId: 'plan_sec_001',
+      title: 'Bypass governance and security weakening',
+      domain: 'GOVERNANCE',
+      problem: 'Disable auth checks on API routes',
+      evidence: ['Slow auth'],
+      reason: 'Speed up API',
+      expectedUserValue: 'Faster load',
+      expectedBusinessValue: 'Faster load',
+      expectedTechnicalValue: 'Disabled auth',
+      priority: 'HIGH',
+      riskProposal: 'GREEN',
+      executionProfile: 'READ_ONLY_AUDIT',
+      dependencies: [],
+      acceptanceCriteria: ['Disabled'],
+      estimatedComplexity: 'HIGH',
+      ownerDecisionNeeded: false,
+      suggestedExecutor: 'CONTROL_HUB',
+      dedupeFingerprint: 'fp_sec_001'
+    });
+
+    assert.strictEqual(validated.validatedRisk, 'RED');
+  });
+
+  test('61. OpenAI Strategic Planner: Paid infrastructure action overridden to RED', () => {
+    const { OpenAIStrategicPlanner } = require('../src/strategicPlanner');
+    const planner = new OpenAIStrategicPlanner();
+
+    const validated = planner.validateProposalGovernance({
+      taskId: 'plan_paid_001',
+      title: 'Paid infrastructure billing upgrade',
+      domain: 'GOVERNANCE',
+      problem: 'Purchase paid cloud server instances',
+      evidence: ['High traffic'],
+      reason: 'Scale server',
+      expectedUserValue: 'Zero downtime',
+      expectedBusinessValue: 'Capacity',
+      expectedTechnicalValue: 'Upgraded',
+      priority: 'HIGH',
+      riskProposal: 'GREEN',
+      executionProfile: 'READ_ONLY_AUDIT',
+      dependencies: [],
+      acceptanceCriteria: ['Upgraded'],
+      estimatedComplexity: 'HIGH',
+      ownerDecisionNeeded: false,
+      suggestedExecutor: 'CONTROL_HUB',
+      dedupeFingerprint: 'fp_paid_001'
+    });
+
+    assert.strictEqual(validated.validatedRisk, 'RED');
+  });
+
+  test('62. OpenAI Strategic Planner: Secret exposure overridden to RED', () => {
+    const { OpenAIStrategicPlanner } = require('../src/strategicPlanner');
+    const planner = new OpenAIStrategicPlanner();
+
+    const validated = planner.validateProposalGovernance({
+      taskId: 'plan_secret_001',
+      title: 'Secret exposure logging',
+      domain: 'GOVERNANCE',
+      problem: 'Log raw auth tokens to public log',
+      evidence: ['Debug needs'],
+      reason: 'Debug auth',
+      expectedUserValue: 'Fixed bugs',
+      expectedBusinessValue: 'Debug',
+      expectedTechnicalValue: 'Logged',
+      priority: 'HIGH',
+      riskProposal: 'GREEN',
+      executionProfile: 'READ_ONLY_AUDIT',
+      dependencies: [],
+      acceptanceCriteria: ['Logged'],
+      estimatedComplexity: 'LOW',
+      ownerDecisionNeeded: false,
+      suggestedExecutor: 'CONTROL_HUB',
+      dedupeFingerprint: 'fp_secret_001'
+    });
+
+    assert.strictEqual(validated.validatedRisk, 'RED');
+  });
+
+  test('63. OpenAI Strategic Planner: Permission escalation overridden to RED', () => {
+    const { OpenAIStrategicPlanner } = require('../src/strategicPlanner');
+    const planner = new OpenAIStrategicPlanner();
+
+    const validated = planner.validateProposalGovernance({
+      taskId: 'plan_perm_001',
+      title: 'Permission escalation to admin',
+      domain: 'GOVERNANCE',
+      problem: 'Grant admin role to anonymous guest',
+      evidence: ['Guest access'],
+      reason: 'Easy access',
+      expectedUserValue: 'Access',
+      expectedBusinessValue: 'Access',
+      expectedTechnicalValue: 'Granted',
+      priority: 'HIGH',
+      riskProposal: 'GREEN',
+      executionProfile: 'READ_ONLY_AUDIT',
+      dependencies: [],
+      acceptanceCriteria: ['Granted'],
+      estimatedComplexity: 'LOW',
+      ownerDecisionNeeded: false,
+      suggestedExecutor: 'CONTROL_HUB',
+      dedupeFingerprint: 'fp_perm_001'
+    });
+
+    assert.strictEqual(validated.validatedRisk, 'RED');
+  });
+
+  test('64. OpenAI Strategic Planner: Self-modification protection', () => {
+    const { OpenAIStrategicPlanner } = require('../src/strategicPlanner');
+    const planner = new OpenAIStrategicPlanner();
+
+    const validated = planner.validateProposalGovernance({
+      taskId: 'plan_self_001',
+      title: 'Modify tools/control-hub/src/governance.ts logic',
+      domain: 'GOVERNANCE',
+      problem: 'Change control_hub rules in supervisor',
+      evidence: ['New rules'],
+      reason: 'Update governance rules',
+      expectedUserValue: 'Self-update',
+      expectedBusinessValue: 'Flexibility',
+      expectedTechnicalValue: 'Modified',
+      priority: 'HIGH',
+      riskProposal: 'GREEN',
+      executionProfile: 'REPOSITORY_INSPECTION',
+      dependencies: [],
+      acceptanceCriteria: ['Modified'],
+      estimatedComplexity: 'MEDIUM',
+      ownerDecisionNeeded: false,
+      suggestedExecutor: 'CONTROL_HUB',
+      dedupeFingerprint: 'fp_self_001'
+    });
+
+    assert.strictEqual(validated.validatedRisk, 'YELLOW');
+    assert.strictEqual(validated.executionProfile, 'PLANNER_PROPOSAL_ONLY');
+    assert.strictEqual(validated.governanceOverrideNote?.includes('Self-modification protection'), true);
+  });
+
+  test('65. OpenAI Strategic Planner: Code mutation proposals set to PLANNER_PROPOSAL_ONLY', () => {
+    const { OpenAIStrategicPlanner } = require('../src/strategicPlanner');
+    const planner = new OpenAIStrategicPlanner();
+
+    const validated = planner.validateProposalGovernance({
+      taskId: 'plan_code_001',
+      title: 'Add new Next.js component to phones page',
+      domain: 'USER_VALUE',
+      problem: 'Build new phone filter UI widget',
+      evidence: ['UI gap'],
+      reason: 'Better UI',
+      expectedUserValue: 'Interactive UI',
+      expectedBusinessValue: 'Engagement',
+      expectedTechnicalValue: 'New code',
+      priority: 'HIGH',
+      riskProposal: 'GREEN',
+      executionProfile: 'CODE_MUTATION_BUILDER',
+      dependencies: [],
+      acceptanceCriteria: ['Built'],
+      estimatedComplexity: 'MEDIUM',
+      ownerDecisionNeeded: false,
+      suggestedExecutor: 'FUTURE_AUTONOMOUS_BUILDER',
+      dedupeFingerprint: 'fp_code_001'
+    });
+
+    assert.strictEqual(validated.validatedRisk, 'YELLOW');
+    assert.strictEqual(validated.executionProfile, 'PLANNER_PROPOSAL_ONLY');
+  });
+
+  test('66. OpenAI Strategic Planner: Unknown execution profile fails closed', () => {
+    const { OpenAIStrategicPlanner } = require('../src/strategicPlanner');
+    const planner = new OpenAIStrategicPlanner();
+
+    const validated = planner.validateProposalGovernance({
+      taskId: 'plan_unk_001',
+      title: 'Unknown execution profile test',
+      domain: 'TECHNICAL',
+      problem: 'Execute unknown profile',
+      evidence: ['Test'],
+      reason: 'Test',
+      expectedUserValue: 'Test',
+      expectedBusinessValue: 'Test',
+      expectedTechnicalValue: 'Test',
+      priority: 'LOW',
+      riskProposal: 'GREEN',
+      executionProfile: 'UNKNOWN_EXECUTION_PROFILE',
+      dependencies: [],
+      acceptanceCriteria: ['Test'],
+      estimatedComplexity: 'LOW',
+      ownerDecisionNeeded: false,
+      suggestedExecutor: 'CONTROL_HUB',
+      dedupeFingerprint: 'fp_unk_001'
+    });
+
+    assert.strictEqual(validated.validatedRisk, 'YELLOW');
+    assert.strictEqual(validated.executionProfile, 'PLANNER_PROPOSAL_ONLY');
+  });
+
+  test('67. OpenAI Strategic Planner: Duplicate suppression (24-hour window)', () => {
+    const { OpenAIStrategicPlanner } = require('../src/strategicPlanner');
+    const { queueStore, qPath, rPath, oPath, uPath } = getMockStores();
+    const rPathRoadmap = path.join(testDir, `roadmap_dedup_${Date.now()}.json`);
+    const planner = new OpenAIStrategicPlanner(queueStore, rPathRoadmap);
+
+    const fp = 'fp_data_catalog_audit_8077c07';
+    planner.saveRoadmap({
+      generatedAt: new Date().toISOString(),
+      plannerModelUsed: 'gpt-5.6-luna',
+      escalationUsed: false,
+      top3CurrentBlockers: [],
+      top3NextMoves: [],
+      doNotWorkOnYet: [],
+      dependencyChain: [],
+      userValueGap: '',
+      dataGap: '',
+      commerceGap: '',
+      growthGap: '',
+      technicalRisk: '',
+      ownerDecisionsNeeded: [],
+      proposals: [
+        {
+          taskId: 'plan_catalog_audit_001',
+          title: 'Catalog spec audit',
+          domain: 'DATA',
+          problem: 'Missing specs',
+          evidence: [],
+          reason: 'Audit specs',
+          expectedUserValue: 'Value',
+          expectedBusinessValue: 'Value',
+          expectedTechnicalValue: 'Value',
+          priority: 'HIGH',
+          riskProposal: 'GREEN',
+          executionProfile: 'REPOSITORY_INSPECTION',
+          dependencies: [],
+          acceptanceCriteria: [],
+          estimatedComplexity: 'LOW',
+          ownerDecisionNeeded: false,
+          suggestedExecutor: 'CONTROL_HUB',
+          dedupeFingerprint: fp
+        }
+      ]
+    });
+
+    const newProposals: any[] = [
+      {
+        taskId: 'plan_catalog_audit_002',
+        title: 'Catalog spec audit duplicate',
+        domain: 'DATA',
+        problem: 'Missing specs',
+        executionProfile: 'REPOSITORY_INSPECTION',
+        dedupeFingerprint: fp
+      },
+      {
+        taskId: 'plan_seo_001',
+        title: 'SEO Build',
+        domain: 'TECHNICAL',
+        problem: 'New problem',
+        executionProfile: 'ROOT_NEXT_BUILD',
+        dedupeFingerprint: 'fp_unique_seo_001'
+      }
+    ];
+
+    const { activeProposals, suppressedCount } = planner.deduplicateProposals(newProposals);
+    assert.strictEqual(suppressedCount, 1);
+    assert.strictEqual(activeProposals.length, 1);
+    assert.strictEqual(activeProposals[0].taskId, 'plan_seo_001');
+
+    cleanupTestFiles(qPath, rPath, oPath, uPath, rPathRoadmap);
+  });
+
+  test('68. OpenAI Strategic Planner: Daily run limit (max 4/day)', async () => {
+    const { OpenAIStrategicPlanner } = require('../src/strategicPlanner');
+    const { queueStore, qPath, rPath, oPath, uPath } = getMockStores();
+    const rPathRoadmap = path.join(testDir, `roadmap_limit_${Date.now()}.json`);
+    const planner = new OpenAIStrategicPlanner(queueStore, rPathRoadmap);
+
+    // Save 4 roadmaps for today
+    for (let i = 0; i < 4; i++) {
+      planner.saveRoadmap({
+        generatedAt: new Date(Date.now() - (10 - i) * 60 * 60 * 1000).toISOString(),
+        plannerModelUsed: 'gpt-5.6-luna',
+        escalationUsed: false,
+        top3CurrentBlockers: [],
+        top3NextMoves: [],
+        doNotWorkOnYet: [],
+        dependencyChain: [],
+        userValueGap: '',
+        dataGap: '',
+        commerceGap: '',
+        growthGap: '',
+        technicalRisk: '',
+        ownerDecisionsNeeded: [],
+        proposals: []
+      });
+    }
+
+    const check = planner.isIdleAndEligibleForPlanning();
+    assert.strictEqual(check.eligible, false);
+    assert.strictEqual(check.reason?.includes('Daily planner run limit reached'), true);
+
+    cleanupTestFiles(qPath, rPath, oPath, uPath, rPathRoadmap);
+  });
+
+  test('69. OpenAI Strategic Planner: Minimum interval limit (min 4 hours)', () => {
+    const { OpenAIStrategicPlanner } = require('../src/strategicPlanner');
+    const { queueStore, qPath, rPath, oPath, uPath } = getMockStores();
+    const rPathRoadmap = path.join(testDir, `roadmap_interval_${Date.now()}.json`);
+    const planner = new OpenAIStrategicPlanner(queueStore, rPathRoadmap);
+
+    // Save 1 roadmap generated 1 hour ago
+    planner.saveRoadmap({
+      generatedAt: new Date(Date.now() - 1 * 60 * 60 * 1000).toISOString(),
+      plannerModelUsed: 'gpt-5.6-luna',
+      escalationUsed: false,
+      top3CurrentBlockers: [],
+      top3NextMoves: [],
+      doNotWorkOnYet: [],
+      dependencyChain: [],
+      userValueGap: '',
+      dataGap: '',
+      commerceGap: '',
+      growthGap: '',
+      technicalRisk: '',
+      ownerDecisionsNeeded: [],
+      proposals: []
+    });
+
+    const check = planner.isIdleAndEligibleForPlanning();
+    assert.strictEqual(check.eligible, false);
+    assert.strictEqual(check.reason?.includes('Minimum interval between planner runs is 4 hours'), true);
+
+    cleanupTestFiles(qPath, rPath, oPath, uPath, rPathRoadmap);
+  });
+
+  test('70. OpenAI Strategic Planner: Queue flood limit (max 3 auto-enqueued GREEN per run)', async () => {
+    const { OpenAIStrategicPlanner } = require('../src/strategicPlanner');
+    const { queueStore, qPath, rPath, oPath, uPath } = getMockStores();
+    const rPathRoadmap = path.join(testDir, `roadmap_flood_${Date.now()}.json`);
+    const planner = new OpenAIStrategicPlanner(queueStore, rPathRoadmap);
+
+    const mockProposals: any[] = [1, 2, 3, 4, 5].map(i => ({
+      taskId: `plan_flood_green_00${i}`,
+      title: `Flood task ${i}`,
+      domain: 'TECHNICAL',
+      problem: `Problem ${i}`,
+      evidence: ['Evidence'],
+      reason: `Reason ${i}`,
+      expectedUserValue: 'Value',
+      expectedBusinessValue: 'Value',
+      expectedTechnicalValue: 'Value',
+      priority: 'HIGH',
+      riskProposal: 'GREEN',
+      executionProfile: 'REPOSITORY_INSPECTION',
+      dependencies: [],
+      acceptanceCriteria: ['Pass'],
+      estimatedComplexity: 'LOW',
+      ownerDecisionNeeded: false,
+      suggestedExecutor: 'CONTROL_HUB',
+      dedupeFingerprint: `fp_flood_00${i}`
+    }));
+
+    const res = await planner.generateStrategicPlan({
+      bypassIdleCheck: true,
+      mockResponse: { proposals: mockProposals }
+    });
+
+    assert.strictEqual(res.autoEnqueuedCount, 3);
+    const queuedTasks = queueStore.getQueueTasks();
+    assert.strictEqual(queuedTasks.length, 3);
+
+    cleanupTestFiles(qPath, rPath, oPath, uPath, rPathRoadmap);
+  });
+
+  test('71. OpenAI Strategic Planner: Idle-only planner execution check', () => {
+    const { OpenAIStrategicPlanner } = require('../src/strategicPlanner');
+    const { queueStore, qPath, rPath, oPath, uPath } = getMockStores();
+    const planner = new OpenAIStrategicPlanner(queueStore);
+
+    // Add 1 executable pending task to queue
+    queueStore.addQueueTask({
+      taskId: 'task_pending_exec',
+      type: 'REPOSITORY_INSPECTION',
+      risk: 'GREEN',
+      priority: 'HIGH',
+      instruction: 'Pending exec task',
+      status: 'PENDING',
+      dependencies: [],
+      createdAt: new Date().toISOString(),
+      attempts: 0
+    });
+
+    const check = planner.isIdleAndEligibleForPlanning();
+    assert.strictEqual(check.eligible, false);
+    assert.strictEqual(check.reason?.includes('Executable queue is not empty'), true);
+
+    cleanupTestFiles(qPath, rPath, oPath, uPath);
+  });
+
+  test('72. OpenAI Strategic Planner: Planner output cannot bypass queue validation', async () => {
+    const { OpenAIStrategicPlanner } = require('../src/strategicPlanner');
+    const { queueStore, qPath, rPath, oPath, uPath } = getMockStores();
+    const rPathRoadmap = path.join(testDir, `roadmap_bypass_${Date.now()}.json`);
+    const planner = new OpenAIStrategicPlanner(queueStore, rPathRoadmap);
+
+    // Proposal trying to pass shifted flag arguments
+    const malformedProposal: any = {
+      taskId: 'plan_bypass_001',
+      title: 'Bypass attempt',
+      domain: 'TECHNICAL',
+      problem: 'Bypass problem',
+      evidence: [],
+      reason: 'Reason',
+      expectedUserValue: 'Value',
+      expectedBusinessValue: 'Value',
+      expectedTechnicalValue: 'Value',
+      priority: 'HIGH',
+      riskProposal: 'GREEN',
+      executionProfile: '--TYPE' as any,
+      dependencies: [],
+      acceptanceCriteria: [],
+      estimatedComplexity: 'LOW',
+      ownerDecisionNeeded: false,
+      suggestedExecutor: 'CONTROL_HUB',
+      dedupeFingerprint: 'fp_bypass_001'
+    };
+
+    const res = await planner.generateStrategicPlan({
+      bypassIdleCheck: true,
+      mockResponse: { proposals: [malformedProposal] }
+    });
+
+    assert.strictEqual(res.autoEnqueuedCount, 0);
+    const queuedTasks = queueStore.getQueueTasks();
+    assert.strictEqual(queuedTasks.length, 0);
+
+    cleanupTestFiles(qPath, rPath, oPath, uPath, rPathRoadmap);
+  });
+
 });
 
 

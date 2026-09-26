@@ -23,12 +23,19 @@ export const CONFIG = {
   MAX_TASKS_PER_RUN: 5,
   MAX_RETRIES_PER_TASK: 1, // Max 1 retry for transient process errors
   MAX_TASK_RUNTIME_MINUTES: 30,
+  MAX_PLANNER_RUNS_PER_DAY: 4,
+  MIN_PLANNER_INTERVAL_HOURS: 4,
+  MAX_NEW_PROPOSALS_PER_RUN: 8,
+  MAX_AUTO_ENQUEUED_GREEN_TASKS_PER_RUN: 3,
+  MAX_AUTO_ENQUEUED_GREEN_TASKS_PER_DAY: 8,
+  MAX_PENDING_PLANNER_GREEN_TASKS: 5,
   DATA_DIR: path.join(__dirname, '..', 'data'),
   QUEUE_FILE_PATH: path.join(__dirname, '..', 'data', 'queue-state.json'),
   RUNNER_STATE_FILE_PATH: path.join(__dirname, '..', 'data', 'runner-state.json'),
   OWNER_DECISIONS_FILE_PATH: path.join(__dirname, '..', 'data', 'owner-decisions.json'),
   USAGE_STATE_FILE_PATH: path.join(__dirname, '..', 'data', 'usage-state.json'),
   STATE_FILE_PATH: path.join(__dirname, '..', 'data', 'control-hub-state.json'),
+  STRATEGIC_ROADMAP_FILE_PATH: path.join(__dirname, '..', 'data', 'strategic-roadmap.json'),
   LOGS_DIR_PATH: path.join(__dirname, '..', 'logs'),
   LOG_FILE_PATH: path.join(__dirname, '..', 'logs', 'runner.log')
 };
