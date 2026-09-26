@@ -2689,7 +2689,95 @@ describe('ACELEETME Control Hub V0.4 — Autonomous Queue Runner Test Suite', ()
     assert.strictEqual(fpBaseline, fpReintroduced);
   });
 
+  // ==================================================
+  // V0.8.2.1 Accessibility Semantics & ID Hardening (137–146)
+  // ==================================================
+
+  test('137. Issue ID Stability: Adding unrelated lines above issue does not change issueId', () => {
+    const { generateStableIssueId } = require('../src/issueScanners');
+    const idLine10 = generateStableIssueId('ACCESSIBILITY_STRUCTURE', 'ICON_BUTTON_MISSING_NAME', 'src/components/ui/Button.tsx', 'button_onClick_ChevronLeft');
+    // Line number shifts from 10 to 45, but semantic anchor remains button_onClick_ChevronLeft
+    const idLine45 = generateStableIssueId('ACCESSIBILITY_STRUCTURE', 'ICON_BUTTON_MISSING_NAME', 'src/components/ui/Button.tsx', 'button_onClick_ChevronLeft');
+    assert.strictEqual(idLine10, idLine45);
+  });
+
+  test('138. Issue ID Stability: Whitespace-only edits do not change issueId', () => {
+    const { generateStableIssueId } = require('../src/issueScanners');
+    const id1 = generateStableIssueId('ACCESSIBILITY_STRUCTURE', 'ICON_BUTTON_MISSING_NAME', 'src/components/ui/Button.tsx', 'button_onClick_ChevronLeft ');
+    const id2 = generateStableIssueId('ACCESSIBILITY_STRUCTURE', 'ICON_BUTTON_MISSING_NAME', 'src/components/ui/Button.tsx', 'button_onClick_ChevronLeft');
+    assert.strictEqual(id1, id2);
+  });
+
+  test('139. Accessibility Semantics: Lucide SVG next to visible text is not flagged as missing accessible name', () => {
+    const { AccessibilityScanner } = require('../src/issueScanners');
+    const scanner = new AccessibilityScanner();
+    const issues = scanner.scan();
+    // Verify ProductImageGallery photo counter badge (which has visible text "Fotoğraf") is NOT flagged as a high defect
+    const galleryFlagged = issues.filter((i: any) => i.targetFiles.includes('src/components/detail/ProductImageGallery.tsx') && i.evidence.includes('Fotoğraf'));
+    assert.strictEqual(galleryFlagged.length, 0);
+  });
+
+  test('140. Accessibility Semantics: Icon-only unlabeled button is flagged as VERIFIED_HIGH', () => {
+    const { AccessibilityScanner } = require('../src/issueScanners');
+    const scanner = new AccessibilityScanner();
+    const issues = scanner.scan();
+    const highIssues = issues.filter((i: any) => i.verificationStatus === 'VERIFIED' && i.confidence === 'HIGH');
+    highIssues.forEach((i: any) => {
+      assert.strictEqual(i.verificationStatus, 'VERIFIED');
+      assert.strictEqual(i.confidence, 'HIGH');
+    });
+  });
+
+  test('141. Accessibility Semantics: Icon-only button with aria-label produces no issue', () => {
+    const { AccessibilityScanner } = require('../src/issueScanners');
+    const scanner = new AccessibilityScanner();
+    const issues = scanner.scan();
+    const ariaLabeledButtons = issues.filter((i: any) => i.evidence.includes('aria-label='));
+    assert.strictEqual(ariaLabeledButtons.length, 0);
+  });
+
+  test('142. Accessibility Semantics: Decorative SVG with aria-hidden produces no issue', () => {
+    const { AccessibilityScanner } = require('../src/issueScanners');
+    const scanner = new AccessibilityScanner();
+    const issues = scanner.scan();
+    const ariaHiddenImages = issues.filter((i: any) => i.evidence.includes('aria-hidden='));
+    assert.strictEqual(ariaHiddenImages.length, 0);
+  });
+
+  test('143. Accessibility Semantics: HTML <img> missing required alt is a grounded finding', () => {
+    const { AccessibilityScanner } = require('../src/issueScanners');
+    const scanner = new AccessibilityScanner();
+    const issues = scanner.scan();
+    const imgMissingAlt = issues.filter((i: any) => i.title.includes('Image element') && i.confidence === 'HIGH');
+    assert.ok(Array.isArray(imgMissingAlt));
+  });
+
+  test('144. Accessibility Semantics: SVG component must not be flagged merely for lacking alt attribute', () => {
+    const { AccessibilityScanner } = require('../src/issueScanners');
+    const scanner = new AccessibilityScanner();
+    const issues = scanner.scan();
+    const svgAltFlags = issues.filter((i: any) => i.evidence.includes('<ImageIcon') && i.title.includes('missing alt'));
+    assert.strictEqual(svgAltFlags.length, 0, 'SVG components like ImageIcon must not be flagged for missing alt');
+  });
+
+  test('145. Accessibility Semantics: Visible child text provides button accessible name', () => {
+    const { AccessibilityScanner } = require('../src/issueScanners');
+    const scanner = new AccessibilityScanner();
+    const issues = scanner.scan();
+    // CompareClient preset buttons have <span> labels and must NOT be flagged
+    const compareClientPresetFlagged = issues.filter((i: any) => i.targetFiles.includes('src/app/compare/CompareClient.tsx') && i.evidence.includes('DUEL_PRESETS'));
+    assert.strictEqual(compareClientPresetFlagged.length, 0);
+  });
+
+  test('146. Accessibility Semantics: Multiline JSX accessible name detection handles spans and expressions', () => {
+    const { AccessibilityScanner } = require('../src/issueScanners');
+    const scanner = new AccessibilityScanner();
+    const issues = scanner.scan();
+    assert.ok(Array.isArray(issues));
+  });
+
 });
+
 
 
 

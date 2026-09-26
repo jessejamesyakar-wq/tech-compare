@@ -17,14 +17,18 @@ export interface ScannerResult {
   issues: VerifiedIssueRecord[];
 }
 
+/**
+ * Generate a persistent, stable issue ID independent of absolute source line numbers.
+ * Persistent inputs: scanner + issueType + normalized target path + stable semantic anchor.
+ */
 export function generateStableIssueId(
   scanner: IssueScanner,
   issueType: string,
   targetFile: string,
-  symbolOrLine: string
+  stableAnchor: string
 ): string {
   const normFile = targetFile.replace(/\\/g, '/').toLowerCase();
-  const payload = `${scanner}:${issueType}:${normFile}:${symbolOrLine.trim()}`;
+  const payload = `${scanner}:${issueType}:${normFile}:${stableAnchor.trim()}`;
   const hash = crypto.createHash('sha256').update(payload).digest('hex').substring(0, 8).toUpperCase();
   const scannerPrefix = scanner.substring(0, 4);
   return `ISSUE_${scannerPrefix}_${hash}`;
@@ -71,9 +75,9 @@ export class AccessibilityScanner {
       for (let i = 0; i < lines.length; i++) {
         const line = lines[i];
 
-        // 1. Icon-only button audit with multiline block inspection
+        // 1. Icon-only interactive button audit with multiline block inspection
         if (line.includes('<button') || line.includes('<Button')) {
-          const blockEndIndex = Math.min(i + 12, lines.length);
+          const blockEndIndex = Math.min(i + 14, lines.length);
           const block = lines.slice(i, blockEndIndex).join('\n');
 
           const hasAriaLabel = /aria-label=/i.test(block);
@@ -81,14 +85,20 @@ export class AccessibilityScanner {
           const hasTitle = /title=/i.test(block);
           const hasSrOnly = /sr-only|visually-hidden/i.test(block);
           const hasVisibleText = />\s*[^<\s{}]+|<span>|\{[^}]+\}/i.test(block);
-
-          const hasIconChild = /Icon|Svg|svg|Chevron|Maximize|X|Check|Plus|Trash|Search/i.test(block);
+          const hasIconChild = /Icon|Svg|svg|Chevron|Maximize|X|Check|Plus|Trash|Search|Monitor|Phone|Laptop|Tv/i.test(block);
 
           if (!hasAriaLabel && !hasAriaLabelledBy && !hasTitle && !hasSrOnly && !hasVisibleText && hasIconChild) {
+            // Extract handler or icon name for stable semantic anchor
+            const handlerMatch = block.match(/onClick=\{([a-zA-Z0-9_\$]+|\(\)\s*=>\s*([a-zA-Z0-9_\$]+))/);
+            const iconMatch = block.match(/<([A-Z][a-zA-Z0-9]+Icon|[A-Z][a-zA-Z0-9]+)\s/);
+            const handlerName = handlerMatch ? (handlerMatch[2] || handlerMatch[1]) : 'action';
+            const iconName = iconMatch ? iconMatch[1] : 'Icon';
+            const stableAnchor = `button_${handlerName}_${iconName}`;
+
             const evidence = `Line ${i + 1}: ${line.trim()}`;
             const issueType = 'ICON_BUTTON_MISSING_ACCESSIBLE_NAME';
-            const issueId = generateStableIssueId('ACCESSIBILITY_STRUCTURE', issueType, file, `Line_${i + 1}`);
-            const title = `Button in ${path.basename(file)} missing accessible name or aria-label`;
+            const issueId = generateStableIssueId('ACCESSIBILITY_STRUCTURE', issueType, file, stableAnchor);
+            const title = `Icon-only button in ${path.basename(file)} missing accessible name or aria-label`;
             const fingerprint = computeFingerprint('ACCESSIBILITY_STRUCTURE', file, title, evidence, repoHead);
 
             issues.push({
@@ -115,8 +125,8 @@ export class AccessibilityScanner {
           }
         }
 
-        // 2. Image alt attribute audit with multiline block inspection
-        if (line.includes('<img') || line.includes('<Image')) {
+        // 2. HTML <img> and Next.js <Image> alt attribute audit (Excludes SVG components)
+        if (line.includes('<img ') || line.includes('<Image ')) {
           const blockEndIndex = Math.min(i + 8, lines.length);
           const block = lines.slice(i, blockEndIndex).join('\n');
 
@@ -124,9 +134,13 @@ export class AccessibilityScanner {
           const hasAriaHidden = /aria-hidden=/i.test(block);
 
           if (!hasAlt && !hasAriaHidden) {
+            const srcMatch = block.match(/src=\{?["']?([^"'}]+)["']?\}?/);
+            const srcVal = srcMatch ? path.basename(srcMatch[1]) : 'element';
+            const stableAnchor = `img_src_${srcVal}`;
+
             const evidence = `Line ${i + 1}: ${line.trim()}`;
             const issueType = 'IMAGE_MISSING_ALT_ATTRIBUTE';
-            const issueId = generateStableIssueId('ACCESSIBILITY_STRUCTURE', issueType, file, `Line_${i + 1}`);
+            const issueId = generateStableIssueId('ACCESSIBILITY_STRUCTURE', issueType, file, stableAnchor);
             const title = `Image element in ${path.basename(file)} missing alt attribute`;
             const fingerprint = computeFingerprint('ACCESSIBILITY_STRUCTURE', file, title, evidence, repoHead);
 
@@ -139,7 +153,7 @@ export class AccessibilityScanner {
               targetReferences: [],
               evidenceType: 'SOURCE_CODE',
               evidence,
-              currentBehavior: 'Image component renders without an alt attribute.',
+              currentBehavior: 'HTML <img> or Next.js <Image> component renders without an alt attribute.',
               expectedBehavior: 'Image component must specify a descriptive alt attribute or alt="" for decorative images.',
               userImpact: 'Screen readers cannot describe non-text image content.',
               technicalImpact: 'Violates WCAG 1.1.1 Non-text Content requirement.',
@@ -220,7 +234,8 @@ export class RouteIntegrityScanner {
           if (!isKnown) {
             const evidence = `Line ${i + 1}: ${line.trim()}`;
             const issueType = 'BROKEN_INTERNAL_LINK';
-            const issueId = generateStableIssueId('ROUTE_LINK_INTEGRITY', issueType, file, `Route_${targetRoute}`);
+            const stableAnchor = `route_${targetRoute}`;
+            const issueId = generateStableIssueId('ROUTE_LINK_INTEGRITY', issueType, file, stableAnchor);
             const title = `Broken internal link to missing route '${targetRoute}' in ${path.basename(file)}`;
             const fingerprint = computeFingerprint('ROUTE_LINK_INTEGRITY', file, title, evidence, repoHead);
 
@@ -287,7 +302,8 @@ export class MetadataScanner {
 
       if (!hasMetadata && file !== 'src/app/page.tsx') {
         const issueType = 'MISSING_PAGE_METADATA_EXPORT';
-        const issueId = generateStableIssueId('METADATA_SEO_STRUCTURE', issueType, file, 'Page_Metadata');
+        const stableAnchor = 'page_metadata_export';
+        const issueId = generateStableIssueId('METADATA_SEO_STRUCTURE', issueType, file, stableAnchor);
         const title = `Missing page metadata definition in ${file}`;
         const evidence = `File ${file} exports a page component but defines no metadata export. Inherits root layout metadata.`;
         const fingerprint = computeFingerprint('METADATA_SEO_STRUCTURE', file, title, evidence, repoHead);
@@ -350,9 +366,13 @@ export class StateScanner {
       for (let i = 0; i < lines.length; i++) {
         const line = lines[i];
         if (line.includes('.map(') && !content.includes('.length === 0') && !content.includes('.length ?') && !content.includes('?.length')) {
+          const mapVarMatch = line.match(/([a-zA-Z0-9_\$]+)\.map\(/);
+          const varName = mapVarMatch ? mapVarMatch[1] : 'array';
+          const stableAnchor = `map_${varName}`;
+
           const evidence = `Line ${i + 1}: ${line.trim()}`;
           const issueType = 'UNHANDLED_EMPTY_LIST_STATE';
-          const issueId = generateStableIssueId('STATE_HANDLING', issueType, file, `Line_${i + 1}`);
+          const issueId = generateStableIssueId('STATE_HANDLING', issueType, file, stableAnchor);
           const title = `Potential unhandled empty list state in ${path.basename(file)}`;
           const fingerprint = computeFingerprint('STATE_HANDLING', file, title, evidence, repoHead);
 
@@ -416,10 +436,13 @@ export class ResponsiveScanner {
         const line = lines[i];
         const match = line.match(/width:\s*['"]([1-9][0-9]{3,})px['"]/);
         if (match) {
+          const widthVal = match[1];
+          const stableAnchor = `fixed_width_${widthVal}px`;
+
           const evidence = `Line ${i + 1}: ${line.trim()}`;
           const issueType = 'FIXED_PIXEL_WIDTH_LAYOUT_CONSTRAINT';
-          const issueId = generateStableIssueId('RESPONSIVE_STRUCTURE', issueType, file, `Line_${i + 1}`);
-          const title = `Hardcoded fixed pixel width (${match[1]}px) in ${path.basename(file)}`;
+          const issueId = generateStableIssueId('RESPONSIVE_STRUCTURE', issueType, file, stableAnchor);
+          const title = `Hardcoded fixed pixel width (${widthVal}px) in ${path.basename(file)}`;
           const fingerprint = computeFingerprint('RESPONSIVE_STRUCTURE', file, title, evidence, repoHead);
 
           issues.push({
@@ -431,7 +454,7 @@ export class ResponsiveScanner {
             targetReferences: [],
             evidenceType: 'SOURCE_CODE',
             evidence,
-            currentBehavior: `Component specifies a fixed pixel width of ${match[1]}px.`,
+            currentBehavior: `Component specifies a fixed pixel width of ${widthVal}px.`,
             expectedBehavior: 'Component width should use responsive max-width or percent units.',
             userImpact: 'Layout overflows on narrower viewport screens.',
             technicalImpact: 'Non-responsive layout constraint.',
@@ -481,9 +504,12 @@ export class TodoScanner {
       for (let i = 0; i < lines.length; i++) {
         const line = lines[i];
         if (line.includes('TODO:') || line.includes('FIXME:') || line.includes('HACK:')) {
+          const commentKeyword = line.match(/(TODO|FIXME|HACK):?\s*(.+)/i)?.[2]?.substring(0, 20) || 'comment';
+          const stableAnchor = `todo_${commentKeyword.replace(/[^a-zA-Z0-9]/g, '_')}`;
+
           const evidence = `Line ${i + 1}: ${line.trim()}`;
           const issueType = 'SOURCE_DEFECT_COMMENT';
-          const issueId = generateStableIssueId('TODO_DEFECT', issueType, file, `Line_${i + 1}`);
+          const issueId = generateStableIssueId('TODO_DEFECT', issueType, file, stableAnchor);
           const title = `Source defect comment in ${path.basename(file)}`;
           const fingerprint = computeFingerprint('TODO_DEFECT', file, title, evidence, repoHead);
 
@@ -532,7 +558,8 @@ export class BuildSignalScanner {
       const stderr = err.stderr ? err.stderr.toString() : '';
       const evidence = (stdout + '\n' + stderr).substring(0, 300);
       const issueType = 'TYPECHECK_ERROR';
-      const issueId = generateStableIssueId('BUILD_SIGNAL', issueType, 'tsconfig.json', 'Typecheck_Failure');
+      const stableAnchor = 'typecheck_failure';
+      const issueId = generateStableIssueId('BUILD_SIGNAL', issueType, 'tsconfig.json', stableAnchor);
       const title = 'TypeScript typecheck error detected';
       const fingerprint = computeFingerprint('BUILD_SIGNAL', 'tsconfig.json', title, evidence, repoHead);
 
