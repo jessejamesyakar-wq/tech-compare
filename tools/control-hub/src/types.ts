@@ -195,6 +195,12 @@ export interface StrategicRoadmap {
   technicalRisk: string;
   ownerDecisionsNeeded: string[];
   proposals: StrategicTaskProposal[];
+  httpStatus?: number;
+  responseId?: string;
+  inputTokens?: number;
+  outputTokens?: number;
+  totalTokens?: number;
+  resultStatus?: 'QUALIFIED' | 'BLOCKED' | 'MOCK';
 }
 
 

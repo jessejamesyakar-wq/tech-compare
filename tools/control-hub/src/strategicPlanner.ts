@@ -332,6 +332,7 @@ export class OpenAIStrategicPlanner {
         plannerModelUsed: modelUsed,
         escalationUsed: useEscalation,
         reviewerModelUsed: CONFIG.OPENAI_DEFAULT_REVIEW_MODEL,
+        resultStatus: 'MOCK',
         top3CurrentBlockers: options.mockResponse.top3CurrentBlockers || ['Catalog variant specification gaps', 'Unverified retailer integration boundaries', 'Detached HEAD repo state'],
         top3NextMoves: options.mockResponse.top3NextMoves || ['Product catalog spec audit', 'Technical SEO Next.js build check', 'Retailer readiness matrix audit'],
         doNotWorkOnYet: options.mockResponse.doNotWorkOnYet || ['Public retailer ingestion', 'Production deployment', 'Automatic fact correction'],
@@ -344,13 +345,165 @@ export class OpenAIStrategicPlanner {
         ownerDecisionsNeeded: options.mockResponse.ownerDecisionsNeeded || [],
         proposals: options.mockResponse.proposals || []
       };
+    } else if (isOpenAiApiKeyPresent()) {
+      const apiKey = process.env.OPENAI_API_KEY!;
+      const systemPrompt = `You are the ACELEETME Strategic Project Planner V0.7.
+Analyze the provided project telemetry and return a valid JSON object matching this schema:
+{
+  "top3CurrentBlockers": ["string", "string", "string"],
+  "top3NextMoves": ["string", "string", "string"],
+  "doNotWorkOnYet": ["string", "string", "string"],
+  "dependencyChain": ["string"],
+  "userValueGap": "string",
+  "dataGap": "string",
+  "commerceGap": "string",
+  "growthGap": "string",
+  "technicalRisk": "string",
+  "ownerDecisionsNeeded": ["string"],
+  "proposals": [
+    {
+      "taskId": "string",
+      "title": "string",
+      "domain": "DATA" | "COMMERCE" | "USER_VALUE" | "GROWTH" | "TECHNICAL" | "GOVERNANCE",
+      "problem": "string",
+      "evidence": ["string"],
+      "reason": "string",
+      "expectedUserValue": "string",
+      "expectedBusinessValue": "string",
+      "expectedTechnicalValue": "string",
+      "priority": "CRITICAL" | "HIGH" | "MEDIUM" | "LOW",
+      "riskProposal": "GREEN" | "YELLOW" | "RED",
+      "executionProfile": "string",
+      "dependencies": ["string"],
+      "acceptanceCriteria": ["string"],
+      "estimatedComplexity": "LOW" | "MEDIUM" | "HIGH",
+      "ownerDecisionNeeded": boolean,
+      "suggestedExecutor": "CONTROL_HUB" | "ANTIGRAVITY" | "OWNER" | "FUTURE_AUTONOMOUS_BUILDER"
+    }
+  ]
+}
+Return raw JSON only.`;
+
+      const userPrompt = `PROJECT TELEMETRY:
+${JSON.stringify(telemetry, null, 2)}`;
+
+      try {
+        const response = await fetch(`${CONFIG.OPENAI_API_BASE_URL}/responses`, {
+          method: 'POST',
+          headers: {
+            'Authorization': `Bearer ${apiKey}`,
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify({
+            model: modelUsed,
+            input: `${systemPrompt}\n\n${userPrompt}`
+          })
+        });
+
+        if (!response.ok) {
+          const errText = await response.text();
+          rawRoadmap = {
+            generatedAt: new Date().toISOString(),
+            plannerModelUsed: modelUsed,
+            escalationUsed: useEscalation,
+            httpStatus: response.status,
+            resultStatus: 'BLOCKED',
+            responseId: 'UNVERIFIED',
+            top3CurrentBlockers: [],
+            top3NextMoves: [],
+            doNotWorkOnYet: [],
+            dependencyChain: [],
+            userValueGap: `OPENAI_PLANNER_RESULT = BLOCKED: HTTP ${response.status}: ${redactSecrets(errText)}`,
+            dataGap: '',
+            commerceGap: '',
+            growthGap: '',
+            technicalRisk: '',
+            ownerDecisionsNeeded: [],
+            proposals: []
+          };
+        } else {
+          const data: any = await response.json();
+          const responseId = data.id || 'UNVERIFIED';
+          const actualModel = data.model || modelUsed;
+          const inputTokens = data.usage?.input_tokens;
+          const outputTokens = data.usage?.output_tokens;
+          const totalTokens = data.usage?.total_tokens;
+
+          let outputText = '';
+          if (data.output && Array.isArray(data.output)) {
+            for (const item of data.output) {
+              if (item.content && Array.isArray(item.content)) {
+                for (const c of item.content) {
+                  if (c.text) outputText += c.text;
+                }
+              }
+            }
+          }
+
+          let parsed: any = {};
+          try {
+            const cleanJson = outputText.replace(/```json/g, '').replace(/```/g, '').trim();
+            parsed = JSON.parse(cleanJson);
+          } catch {
+            parsed = {};
+          }
+
+          rawRoadmap = {
+            generatedAt: new Date().toISOString(),
+            plannerModelUsed: actualModel,
+            escalationUsed: useEscalation,
+            httpStatus: 200,
+            resultStatus: 'QUALIFIED',
+            responseId,
+            inputTokens,
+            outputTokens,
+            totalTokens,
+            top3CurrentBlockers: parsed.top3CurrentBlockers || [],
+            top3NextMoves: parsed.top3NextMoves || [],
+            doNotWorkOnYet: parsed.doNotWorkOnYet || [],
+            dependencyChain: parsed.dependencyChain || [],
+            userValueGap: parsed.userValueGap || '',
+            dataGap: parsed.dataGap || '',
+            commerceGap: parsed.commerceGap || '',
+            growthGap: parsed.growthGap || '',
+            technicalRisk: parsed.technicalRisk || '',
+            ownerDecisionsNeeded: parsed.ownerDecisionsNeeded || [],
+            proposals: (parsed.proposals || []).map((p: any, idx: number) => ({
+              ...p,
+              taskId: p.taskId || `plan_${p.domain?.toLowerCase() || 'task'}_${Date.now()}_${idx}`,
+              dedupeFingerprint: p.dedupeFingerprint || this.generateDedupeFingerprint(p.domain || 'TASK', p.problem || p.title || 'task', p.executionProfile || 'PROFILE', telemetry.repositoryHead)
+            }))
+          };
+        }
+      } catch (err: any) {
+        rawRoadmap = {
+          generatedAt: new Date().toISOString(),
+          plannerModelUsed: modelUsed,
+          escalationUsed: useEscalation,
+          httpStatus: 500,
+          resultStatus: 'BLOCKED',
+          responseId: 'UNVERIFIED',
+          top3CurrentBlockers: [],
+          top3NextMoves: [],
+          doNotWorkOnYet: [],
+          dependencyChain: [],
+          userValueGap: `OPENAI_PLANNER_RESULT = BLOCKED: ${err.message}`,
+          dataGap: '',
+          commerceGap: '',
+          growthGap: '',
+          technicalRisk: '',
+          ownerDecisionsNeeded: [],
+          proposals: []
+        };
+      }
     } else {
-      // Production path or fallback mock when API key not present
+      // Fallback path when API key is missing
       rawRoadmap = {
         generatedAt: new Date().toISOString(),
         plannerModelUsed: modelUsed,
         escalationUsed: useEscalation,
         reviewerModelUsed: CONFIG.OPENAI_DEFAULT_REVIEW_MODEL,
+        resultStatus: 'MOCK',
         top3CurrentBlockers: [
           'Catalog variant specification gaps in bootstrap baseline',
           'Retailer offer ingestion gated under PERMISSION_UNVERIFIED',
