@@ -12,7 +12,7 @@ async function main() {
   const queueRunner = new QueueRunner(queueStore);
 
   console.log(`==================================================`);
-  console.log(`ACELEETME Control Hub V0.4 — Command: ${command}`);
+  console.log(`ACELEETME Control Hub V0.6 — Command: ${command}`);
   console.log(`==================================================`);
 
   if (command === 'queue:add') {
@@ -82,9 +82,13 @@ async function main() {
     const blocked = tasks.filter(t => t.status === 'BLOCKED' || t.status === 'BLOCKED_BY_DEPENDENCY' || t.status === 'BLOCKED_BY_REPOSITORY_IDENTITY').length;
     const ownerDecisionsWaiting = decisions.filter(d => d.status === 'PENDING').length;
 
+    const todayStr = new Date().toISOString().slice(0, 10);
+    const todayRecords = usage.records.filter(r => r.timestamp && r.timestamp.slice(0, 10) === todayStr);
+    const todayTokens = todayRecords.reduce((acc, r) => acc + (r.inputTokens + r.outputTokens), 0);
     const totalTokens = usage.records.reduce((acc, r) => acc + (r.inputTokens + r.outputTokens), 0);
+    const totalOpenAiCallsToday = usage.totalOpenAiCalls || (usage.dailyLunaCount + usage.dailySolCount);
 
-    console.log(`DAILY CONTROL HUB OWNER SUMMARY (${new Date().toISOString().slice(0, 10)})`);
+    console.log(`DAILY CONTROL HUB OWNER SUMMARY (${todayStr})`);
     console.log(`--------------------------------------------------`);
     console.log(`TASKS COMPLETED: ${completed}`);
     console.log(`COMPLETED WITH LIMITATION: ${completedWithLimitation}`);
@@ -95,8 +99,9 @@ async function main() {
     console.log(`QUEUE SOL CALLS: ${usage.queueSolCalls || 0}`);
     console.log(`FORENSIC/MANUAL LUNA CALLS: ${usage.forensicLunaCalls || 0}`);
     console.log(`FORENSIC/MANUAL SOL CALLS: ${usage.forensicSolCalls || 0}`);
-    console.log(`TOTAL OPENAI CALLS: ${usage.totalOpenAiCalls || (usage.dailyLunaCount + usage.dailySolCount)}`);
-    console.log(`VERIFIED TOKEN USAGE: ${totalTokens} tokens`);
+    console.log(`TOTAL OPENAI CALLS (TODAY): ${totalOpenAiCallsToday}`);
+    console.log(`VERIFIED TOKEN USAGE (TODAY): ${todayTokens} tokens`);
+    console.log(`VERIFIED TOKEN USAGE (TOTAL): ${totalTokens} tokens (${usage.records.length} records)`);
     console.log(`RUNNER RESTARTS: ${state.restartCount || 0}`);
     console.log(`SUPERVISOR STATUS: ${state.supervisorStatus || 'HEALTHY'}`);
     console.log(`CRITICAL ERRORS: 0`);
