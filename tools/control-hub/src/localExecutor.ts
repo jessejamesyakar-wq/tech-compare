@@ -1,4 +1,5 @@
 import execSync from 'child_process';
+import crypto from 'crypto';
 import fs from 'fs';
 import path from 'path';
 import { GreenTaskType } from './types';
@@ -29,6 +30,10 @@ export interface ExecutionResult {
   startedAt: string;
   completedAt: string;
   dependenciesState?: string;
+  dependencyStrategy?: string;
+  sourceLockHash?: string;
+  targetLockHash?: string;
+  fingerprintMatch?: boolean;
 }
 
 const execOptions = { encoding: 'utf-8' as const, windowsHide: true, maxBuffer: 10 * 1024 * 1024 };
@@ -42,6 +47,16 @@ function runInDir(cmd: string, cwd: string): { exitCode: number; stdout: string;
     const stderr = err.stderr ? String(err.stderr).trim() : '';
     const exitCode = typeof err.status === 'number' ? err.status : 1;
     return { exitCode, stdout, stderr };
+  }
+}
+
+function computeFileHash(filePath: string): string {
+  try {
+    if (!fs.existsSync(filePath)) return 'MISSING';
+    const content = fs.readFileSync(filePath);
+    return crypto.createHash('sha256').update(content).digest('hex');
+  } catch {
+    return 'ERROR';
   }
 }
 
@@ -91,7 +106,6 @@ export function resolveExecutionProfile(
         command: 'npm test'
       };
     }
-    // Check if root package.json has a test script
     const rootPkgPath = path.join(workspacePath, 'package.json');
     if (fs.existsSync(rootPkgPath)) {
       try {
@@ -107,7 +121,6 @@ export function resolveExecutionProfile(
         // Fallback
       }
     }
-    // Default to Control Hub test suite
     return {
       name: 'CONTROL_HUB_TEST',
       cwd: path.join(workspacePath, 'tools', 'control-hub'),
@@ -203,21 +216,41 @@ export class LocalTaskExecutor {
       };
     }
 
-    // Ensure node_modules exists in workspace before running typecheck, build, or test
+    // Dependency Isolation Guard with Fingerprint Verification
     let dependenciesState = 'PRESENT';
+    let dependencyStrategy = 'EXISTING_NODE_MODULES';
+    let sourceLockHash = 'N/A';
+    let targetLockHash = 'N/A';
+    let fingerprintMatch = false;
+
     const nodeModulesPath = path.join(workspacePath, 'node_modules');
     if (!fs.existsSync(nodeModulesPath)) {
-      const canonicalNodeModules = path.join(CONFIG.CANONICAL_REPO_PATH, 'node_modules');
-      if (fs.existsSync(canonicalNodeModules)) {
+      const canonicalRepo = CONFIG.CANONICAL_REPO_PATH;
+      const canonicalNodeModules = path.join(canonicalRepo, 'node_modules');
+
+      sourceLockHash = computeFileHash(path.join(canonicalRepo, 'package-lock.json'));
+      targetLockHash = computeFileHash(path.join(workspacePath, 'package-lock.json'));
+      const sourcePkgHash = computeFileHash(path.join(canonicalRepo, 'package.json'));
+      const targetPkgHash = computeFileHash(path.join(workspacePath, 'package.json'));
+
+      fingerprintMatch =
+        sourceLockHash !== 'MISSING' &&
+        sourceLockHash !== 'ERROR' &&
+        sourceLockHash === targetLockHash &&
+        sourcePkgHash === targetPkgHash;
+
+      if (fingerprintMatch && fs.existsSync(canonicalNodeModules)) {
         try {
           fs.symlinkSync(canonicalNodeModules, nodeModulesPath, 'junction');
-          dependenciesState = 'LINKED_CANONICAL_NODE_MODULES';
+          dependenciesState = 'LINKED_CANONICAL_NODE_MODULES_MATCHED';
+          dependencyStrategy = 'CANONICAL_JUNCTION';
         } catch {
-          // Junction fallback to npm ci
+          fingerprintMatch = false;
         }
       }
 
       if (!fs.existsSync(nodeModulesPath)) {
+        dependencyStrategy = 'ISOLATED_NPM_CI';
         const lockfilePath = path.join(workspacePath, 'package-lock.json');
         if (fs.existsSync(lockfilePath)) {
           dependenciesState = 'INSTALLED_VIA_NPM_CI';
@@ -226,15 +259,21 @@ export class LocalTaskExecutor {
             const completedAt = new Date().toISOString();
             return {
               exitCode: ciRes.exitCode,
-              output: `[LOCAL_EXECUTOR] npm ci failed:\n${ciRes.stderr || ciRes.stdout}`,
+              output: `[LOCAL_EXECUTOR] npm ci failed (dependencyStrategy: ${dependencyStrategy}, fingerprintMatch: ${fingerprintMatch}):\n${ciRes.stderr || ciRes.stdout}`,
               executionProfile: profile.name,
               cwd: profile.cwd,
               command: 'npm ci',
               startedAt,
               completedAt,
-              dependenciesState: 'NPM_CI_FAILED'
+              dependenciesState: 'NPM_CI_FAILED',
+              dependencyStrategy,
+              sourceLockHash,
+              targetLockHash,
+              fingerprintMatch
             };
           }
+        } else {
+          dependenciesState = 'MISSING_LOCKFILE';
         }
       }
     }
@@ -254,6 +293,10 @@ export class LocalTaskExecutor {
       `exitCode: ${res.exitCode}`,
       `startedAt: ${startedAt}`,
       `completedAt: ${completedAt}`,
+      `dependencyStrategy: ${dependencyStrategy}`,
+      `sourceLockHash: ${sourceLockHash}`,
+      `targetLockHash: ${targetLockHash}`,
+      `fingerprintMatch: ${fingerprintMatch}`,
       `dependenciesState: ${dependenciesState}`,
       `status: ${res.exitCode === 0 ? 'PASS' : 'FAIL'}`,
       `stdout_stderr_evidence:`,
@@ -269,7 +312,11 @@ export class LocalTaskExecutor {
       command: profile.command,
       startedAt,
       completedAt,
-      dependenciesState
+      dependenciesState,
+      dependencyStrategy,
+      sourceLockHash,
+      targetLockHash,
+      fingerprintMatch
     };
   }
 

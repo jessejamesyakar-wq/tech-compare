@@ -1157,6 +1157,46 @@ describe('ACELEETME Control Hub V0.4 — Autonomous Queue Runner Test Suite', ()
     cleanupTestFiles(qPath, rPath, oPath, uPath);
   });
 
+  test('40. Dependency Isolation Guard: Fingerprint match allows canonical junction linking', () => {
+    const { LocalTaskExecutor } = require('../src/localExecutor');
+    const mockWorktree = path.join(testDir, `worktree_guard_match_${Date.now()}`);
+    fs.mkdirSync(mockWorktree, { recursive: true });
+
+    // Copy exact package-lock.json and package.json to mock worktree
+    const canonicalRepo = path.resolve(__dirname, '../../..');
+    fs.copyFileSync(path.join(canonicalRepo, 'package.json'), path.join(mockWorktree, 'package.json'));
+    fs.copyFileSync(path.join(canonicalRepo, 'package-lock.json'), path.join(mockWorktree, 'package-lock.json'));
+
+    const executor = new LocalTaskExecutor();
+    const res = executor.executeTaskInWorktree('TYPECHECK', mockWorktree, '249d3ead0ee1d3ea5fda40d53208f45513f0dd44');
+
+    assert.strictEqual(res.fingerprintMatch, true, 'Fingerprint must match when lockfiles are identical');
+    assert.strictEqual(res.dependencyStrategy, 'CANONICAL_JUNCTION');
+    assert.strictEqual(res.dependenciesState, 'LINKED_CANONICAL_NODE_MODULES_MATCHED');
+
+    cleanupTestFiles(mockWorktree);
+  });
+
+  test('41. Dependency Isolation Guard: Fingerprint mismatch rejects canonical junction link', () => {
+    const { LocalTaskExecutor } = require('../src/localExecutor');
+    const mockWorktree = path.join(testDir, `worktree_guard_mismatch_${Date.now()}`);
+    fs.mkdirSync(mockWorktree, { recursive: true });
+
+    // Create modified package-lock.json in mock worktree
+    fs.writeFileSync(path.join(mockWorktree, 'package.json'), JSON.stringify({ name: 'tech-compare', version: '0.1.0' }), 'utf-8');
+    fs.writeFileSync(path.join(mockWorktree, 'package-lock.json'), JSON.stringify({ name: 'tech-compare', lockfileVersion: 3, packages: { diff: 1 } }), 'utf-8');
+
+    const executor = new LocalTaskExecutor();
+    const res = executor.executeTaskInWorktree('TYPECHECK', mockWorktree, '249d3ead0ee1d3ea5fda40d53208f45513f0dd44');
+
+    assert.strictEqual(res.fingerprintMatch, false, 'Fingerprint must NOT match when lockfiles differ');
+    assert.strictEqual(res.dependencyStrategy, 'ISOLATED_NPM_CI');
+    assert.strictEqual(res.output.includes('fingerprintMatch: false'), true);
+
+    cleanupTestFiles(mockWorktree);
+  });
+
 });
+
 
 
