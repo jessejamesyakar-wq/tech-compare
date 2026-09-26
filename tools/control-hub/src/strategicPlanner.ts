@@ -5,6 +5,7 @@ import { CONFIG, isOpenAiApiKeyPresent } from './config';
 import { QueueStore } from './queueStore';
 import { validateTaskGovernance } from './governance';
 import { redactObject, redactSecrets } from './secretRedactor';
+import { BuilderPolicyEngine } from './builderPolicy';
 import {
   RiskLevel,
   QueueTask,
@@ -232,6 +233,7 @@ export class OpenAIStrategicPlanner {
       return {
         ...proposal,
         validatedRisk: 'YELLOW',
+        builderEligible: false,
         executionProfile: 'PLANNER_PROPOSAL_ONLY',
         ownerDecisionNeeded: true,
         suggestedExecutor: 'OWNER',
@@ -239,7 +241,30 @@ export class OpenAIStrategicPlanner {
       };
     }
 
-    // 3. Check Code Modification / Un-qualified Execution Profile (Section 12 & 13)
+    // 3. Check Autonomous Builder Executor proposals
+    if (proposal.suggestedExecutor === 'AUTONOMOUS_BUILDER') {
+      const targetFiles = proposal.targetFiles || [];
+      const scopeCheck = BuilderPolicyEngine.validateTargetFiles(targetFiles);
+
+      if (proposal.riskProposal === 'GREEN' && scopeCheck.eligible && !targetsControlHub) {
+        return {
+          ...proposal,
+          validatedRisk: 'GREEN',
+          builderEligible: true,
+          executionProfile: proposal.executionProfile || 'AUTONOMOUS_BUILDER_PATCH'
+        };
+      } else {
+        return {
+          ...proposal,
+          validatedRisk: proposal.riskProposal === 'RED' ? 'RED' : 'YELLOW',
+          builderEligible: false,
+          executionProfile: 'PLANNER_PROPOSAL_ONLY',
+          governanceOverrideNote: `AUTONOMOUS_BUILDER proposal ineligible: ${scopeCheck.reason || 'Requires manual review'}`
+        };
+      }
+    }
+
+    // 4. Check Code Modification / Un-qualified Execution Profile (Section 12 & 13)
     const isQualifiedProfile = GREEN_AUTONOMOUS_ALLOWLIST.includes(proposal.executionProfile.toUpperCase());
 
     if (!isQualifiedProfile || proposal.executionProfile.toUpperCase() === 'PLANNER_PROPOSAL_ONLY' || proposal.suggestedExecutor === 'FUTURE_AUTONOMOUS_BUILDER') {
@@ -251,7 +276,7 @@ export class OpenAIStrategicPlanner {
       };
     }
 
-    // 4. Validate through standard governance
+    // 5. Validate through standard governance
     const govResult = validateTaskGovernance(proposal.executionProfile as any, proposal.riskProposal);
     let finalRisk: RiskLevel = proposal.riskProposal;
 

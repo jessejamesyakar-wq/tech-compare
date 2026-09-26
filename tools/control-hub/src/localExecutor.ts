@@ -6,6 +6,50 @@ import { GreenTaskType } from './types';
 import { redactSecrets } from './secretRedactor';
 import { CONFIG } from './config';
 
+export class DependencyIsolationGuard {
+  constructor(private canonicalRepoPath: string = CONFIG.CANONICAL_REPO_PATH) {}
+
+  public ensureIsolatedDependencies(workspacePath: string): boolean {
+    const canonicalRepo = this.canonicalRepoPath;
+    const canonicalNodeModules = path.join(canonicalRepo, 'node_modules');
+    const nodeModulesPath = path.join(workspacePath, 'node_modules');
+
+    if (fs.existsSync(nodeModulesPath)) {
+      return true;
+    }
+
+    const computeHash = (p: string) => {
+      try {
+        if (!fs.existsSync(p)) return 'MISSING';
+        return crypto.createHash('sha256').update(fs.readFileSync(p)).digest('hex');
+      } catch {
+        return 'ERROR';
+      }
+    };
+
+    const sourceLockHash = computeHash(path.join(canonicalRepo, 'package-lock.json'));
+    const targetLockHash = computeHash(path.join(workspacePath, 'package-lock.json'));
+    const sourcePkgHash = computeHash(path.join(canonicalRepo, 'package.json'));
+    const targetPkgHash = computeHash(path.join(workspacePath, 'package.json'));
+
+    const match =
+      sourceLockHash !== 'MISSING' &&
+      sourceLockHash !== 'ERROR' &&
+      sourceLockHash === targetLockHash &&
+      sourcePkgHash === targetPkgHash;
+
+    if (match && fs.existsSync(canonicalNodeModules)) {
+      try {
+        fs.symlinkSync(canonicalNodeModules, nodeModulesPath, 'junction');
+        return true;
+      } catch {
+        return false;
+      }
+    }
+    return false;
+  }
+}
+
 export type ExecutionProfileName =
   | 'ROOT_NEXT_BUILD'
   | 'ROOT_TYPESCRIPT'

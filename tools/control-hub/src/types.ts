@@ -152,7 +152,7 @@ export interface ControlHubState {
 }
 
 export type ProposalDomain = 'DATA' | 'COMMERCE' | 'USER_VALUE' | 'GROWTH' | 'TECHNICAL' | 'GOVERNANCE';
-export type SuggestedExecutor = 'CONTROL_HUB' | 'ANTIGRAVITY' | 'OWNER' | 'FUTURE_AUTONOMOUS_BUILDER';
+export type SuggestedExecutor = 'CONTROL_HUB' | 'ANTIGRAVITY' | 'OWNER' | 'FUTURE_AUTONOMOUS_BUILDER' | 'AUTONOMOUS_BUILDER';
 export type ProposalPriority = 'CRITICAL' | 'HIGH' | 'MEDIUM' | 'LOW';
 
 export interface StrategicTaskProposal {
@@ -177,6 +177,8 @@ export interface StrategicTaskProposal {
   dedupeFingerprint: string;
   autoEnqueued?: boolean;
   governanceOverrideNote?: string;
+  builderEligible?: boolean;
+  targetFiles?: string[];
 }
 
 export interface StrategicRoadmap {

@@ -1984,6 +1984,275 @@ describe('ACELEETME Control Hub V0.4 — Autonomous Queue Runner Test Suite', ()
     cleanupTestFiles(qPath, rPath, oPath, uPath, rPathRoadmap);
   });
 
+  // ==================================================
+  // V0.8 AUTONOMOUS BUILDER POLICY & MATRIX TESTS
+  // ==================================================
+
+  test('73. Autonomous Builder: Valid Builder task contract validation', () => {
+    const { BuilderPolicyEngine } = require('../src/builderPolicy');
+    const contract = {
+      taskId: 'task_b01',
+      title: 'Fix read-only status pill',
+      problem: 'Status pill contrast low',
+      targetFiles: ['src/components/ui/StatusPill.tsx'],
+      expectedBehavior: 'Render high contrast status pill',
+      acceptanceCriteria: ['Pass contrast ratio'],
+      requiredTests: ['npm test'],
+      risk: 'GREEN' as const,
+      executionProfile: 'AUTONOMOUS_BUILDER_PATCH',
+      patchBudget: { maxFiles: 3, maxAddedLines: 200, maxDeletedLines: 120 },
+      repositoryHead: 'be46eeac'
+    };
+
+    const res = BuilderPolicyEngine.validateContract(contract);
+    assert.strictEqual(res.valid, true);
+  });
+
+  test('74. Autonomous Builder: Ambiguous contract rejection', () => {
+    const { BuilderPolicyEngine } = require('../src/builderPolicy');
+    const contract = {
+      taskId: 'task_b02',
+      title: 'Improve the website'
+    };
+
+    const res = BuilderPolicyEngine.validateContract(contract);
+    assert.strictEqual(res.valid, false);
+    assert.strictEqual(res.reason, 'BUILDER_CONTRACT_MISSING_REQUIRED_FIELDS');
+  });
+
+  test('75. Autonomous Builder: RED source rejection (prisma/schema.prisma)', () => {
+    const { BuilderPolicyEngine } = require('../src/builderPolicy');
+    const res = BuilderPolicyEngine.validateTargetFiles(['prisma/schema.prisma']);
+    assert.strictEqual(res.eligible, false);
+    assert.strictEqual(res.violations?.[0].includes('HARD_RED_PATH_PROHIBITED'), true);
+  });
+
+  test('76. Autonomous Builder: Control Hub self-modification rejection (tools/control-hub/*)', () => {
+    const { BuilderPolicyEngine } = require('../src/builderPolicy');
+    const res = BuilderPolicyEngine.validateTargetFiles(['tools/control-hub/src/strategicPlanner.ts']);
+    assert.strictEqual(res.eligible, false);
+    assert.strictEqual(res.violations?.[0].includes('CONTROL_HUB_SELF_MODIFICATION_PROHIBITED'), true);
+  });
+
+  test('77. Autonomous Builder: DB mutation rejection (src/lib/db/*)', () => {
+    const { BuilderPolicyEngine } = require('../src/builderPolicy');
+    const res = BuilderPolicyEngine.validateTargetFiles(['src/lib/db/postgresClient.ts']);
+    assert.strictEqual(res.eligible, false);
+    assert.strictEqual(res.violations?.[0].includes('HARD_RED_PATH_PROHIBITED'), true);
+  });
+
+  test('78. Autonomous Builder: Catalog mutation rejection', () => {
+    const { BuilderPolicyEngine } = require('../src/builderPolicy');
+    const res = BuilderPolicyEngine.validateTargetFiles(['src/app/api/admin/price-updates/route.ts']);
+    assert.strictEqual(res.eligible, false);
+    assert.strictEqual(res.violations?.[0].includes('HARD_RED_PATH_PROHIBITED'), true);
+  });
+
+  test('79. Autonomous Builder: Retailer activation rejection', () => {
+    const { BuilderPolicyEngine } = require('../src/builderPolicy');
+    const res = BuilderPolicyEngine.validateTargetFiles(['src/lib/retailers/hepsiburadaCrawler.ts']);
+    assert.strictEqual(res.eligible, false);
+    assert.strictEqual(res.violations?.[0].includes('HARD_RED_PATH_PROHIBITED'), true);
+  });
+
+  test('80. Autonomous Builder: Secret/config mutation rejection (.env.production)', () => {
+    const { BuilderPolicyEngine } = require('../src/builderPolicy');
+    const res = BuilderPolicyEngine.validateTargetFiles(['.env.production']);
+    assert.strictEqual(res.eligible, false);
+    assert.strictEqual(res.violations?.[0].includes('HARD_RED_PATH_PROHIBITED'), true);
+  });
+
+  test('81. Autonomous Builder: Dependency mutation rejection (package.json)', () => {
+    const { BuilderPolicyEngine } = require('../src/builderPolicy');
+    const res = BuilderPolicyEngine.validateTargetFiles(['package.json']);
+    assert.strictEqual(res.eligible, false);
+    assert.strictEqual(res.violations?.[0].includes('HARD_RED_PATH_PROHIBITED'), true);
+  });
+
+  test('82. Autonomous Builder: Patch file-count budget exceeded', () => {
+    const { BuilderPolicyEngine } = require('../src/builderPolicy');
+    const res = BuilderPolicyEngine.inspectDiffScope(
+      ['src/components/A.tsx', 'src/components/B.tsx', 'src/components/C.tsx', 'src/components/D.tsx'],
+      ['src/components/A.tsx', 'src/components/B.tsx', 'src/components/C.tsx', 'src/components/D.tsx'],
+      { maxFiles: 3, maxAddedLines: 200, maxDeletedLines: 120 }
+    );
+    assert.strictEqual(res.eligible, false);
+    assert.strictEqual(res.reason?.includes('BUILDER_PATCH_BUDGET_EXCEEDED'), true);
+  });
+
+  test('83. Autonomous Builder: Patch added line-count budget exceeded', () => {
+    const { BuilderPolicyEngine } = require('../src/builderPolicy');
+    const diff = Array(250).fill('+ const x = 1;').join('\n');
+    const res = BuilderPolicyEngine.inspectDiffScope(
+      ['src/components/A.tsx'],
+      ['src/components/A.tsx'],
+      { maxFiles: 3, maxAddedLines: 200, maxDeletedLines: 120 },
+      diff
+    );
+    assert.strictEqual(res.eligible, false);
+    assert.strictEqual(res.reason?.includes('BUILDER_PATCH_BUDGET_EXCEEDED'), true);
+  });
+
+  test('84. Autonomous Builder: Patch deleted line-count budget exceeded', () => {
+    const { BuilderPolicyEngine } = require('../src/builderPolicy');
+    const diff = Array(150).fill('- const x = 1;').join('\n');
+    const res = BuilderPolicyEngine.inspectDiffScope(
+      ['src/components/A.tsx'],
+      ['src/components/A.tsx'],
+      { maxFiles: 3, maxAddedLines: 200, maxDeletedLines: 120 },
+      diff
+    );
+    assert.strictEqual(res.eligible, false);
+    assert.strictEqual(res.reason?.includes('BUILDER_PATCH_BUDGET_EXCEEDED'), true);
+  });
+
+  test('85. Autonomous Builder: Scope expansion detection (unapproved file touched)', () => {
+    const { BuilderPolicyEngine } = require('../src/builderPolicy');
+    const res = BuilderPolicyEngine.inspectDiffScope(
+      ['src/components/Allowed.tsx', 'prisma/schema.prisma'],
+      ['src/components/Allowed.tsx'],
+      { maxFiles: 3, maxAddedLines: 200, maxDeletedLines: 120 },
+      '+ change'
+    );
+    assert.strictEqual(res.eligible, false);
+    assert.strictEqual(res.reason?.includes('BLOCKED_BY_HARD_RED_PATH'), true);
+  });
+
+  test('86. Autonomous Builder: Isolated worktree safety validation', () => {
+    const { WorktreeManager } = require('../src/worktreeManager');
+    const mgr = new WorktreeManager();
+    const safetyRes = mgr.removeTaskWorktree(path.resolve('.'));
+    assert.strictEqual(safetyRes.success, false);
+    assert.strictEqual(safetyRes.error?.includes('SAFETY VIOLATION'), true);
+  });
+
+  test('87. Autonomous Builder: Canonical repo remains unmutated by design', () => {
+    const { CONFIG } = require('../src/config');
+    assert.strictEqual(CONFIG.CANONICAL_REPO_PATH, 'C:\\Projects\\aceleetme');
+  });
+
+  test('88. Autonomous Builder: Dedicated runner remains unmutated by design', () => {
+    const { CONFIG } = require('../src/config');
+    assert.ok(CONFIG.CANONICAL_REPO_PATH !== 'C:\\Projects\\aceleetme-control-runner');
+  });
+
+  test('89. Autonomous Builder: Failed contract blocks execution', async () => {
+    const { AutonomousBuilder } = require('../src/autonomousBuilder');
+    const builder = new AutonomousBuilder();
+    const res = await builder.executeTask({
+      taskId: 'invalid_task',
+      title: '',
+      problem: '',
+      evidence: [],
+      targetFiles: [],
+      expectedBehavior: '',
+      acceptanceCriteria: [],
+      requiredTests: [],
+      risk: 'GREEN',
+      executionProfile: 'AUTONOMOUS_BUILDER_PATCH',
+      patchBudget: { maxFiles: 3, maxAddedLines: 200, maxDeletedLines: 120 },
+      repositoryHead: 'be46eeac'
+    });
+    assert.strictEqual(res.success, false);
+    assert.strictEqual(res.status, 'YELLOW');
+  });
+
+  test('90. Autonomous Builder: Target files violating scope blocks execution', async () => {
+    const { AutonomousBuilder } = require('../src/autonomousBuilder');
+    const builder = new AutonomousBuilder();
+    const res = await builder.executeTask({
+      taskId: 'red_target_task',
+      title: 'Update schema',
+      problem: 'Schema change',
+      evidence: ['DB error'],
+      targetFiles: ['prisma/schema.prisma'],
+      expectedBehavior: 'Update DB schema',
+      acceptanceCriteria: ['Updated'],
+      requiredTests: ['npm test'],
+      risk: 'GREEN',
+      executionProfile: 'AUTONOMOUS_BUILDER_PATCH',
+      patchBudget: { maxFiles: 3, maxAddedLines: 200, maxDeletedLines: 120 },
+      repositoryHead: 'be46eeac'
+    });
+    assert.strictEqual(res.success, false);
+    assert.strictEqual(res.status, 'YELLOW');
+  });
+
+  test('91. Autonomous Builder: Attempt limit enforced', () => {
+    const { AutonomousBuilder } = require('../src/autonomousBuilder');
+    assert.strictEqual(AutonomousBuilder.MAX_BUILDER_ATTEMPTS_PER_TASK, 2);
+  });
+
+  test('92. Autonomous Builder: Daily Builder budget enforced', () => {
+    const { AutonomousBuilder } = require('../src/autonomousBuilder');
+    assert.strictEqual(AutonomousBuilder.MAX_AUTONOMOUS_BUILDER_TASKS_PER_DAY, 3);
+  });
+
+  test('93. Autonomous Builder: Max autonomous tasks per run enforced', () => {
+    const { AutonomousBuilder } = require('../src/autonomousBuilder');
+    assert.strictEqual(AutonomousBuilder.MAX_AUTONOMOUS_BUILDER_TASKS_PER_RUN, 1);
+  });
+
+  test('94. OpenAI Strategic Planner: AUTONOMOUS_BUILDER proposal with RED path set to YELLOW', () => {
+    const { OpenAIStrategicPlanner } = require('../src/strategicPlanner');
+    const planner = new OpenAIStrategicPlanner();
+
+    const validated = planner.validateProposalGovernance({
+      taskId: 'plan_builder_001',
+      title: 'Modify control hub via builder',
+      domain: 'TECHNICAL',
+      problem: 'Update strategicPlanner',
+      evidence: ['Planner issue'],
+      reason: 'Enhance planner',
+      expectedUserValue: 'Value',
+      expectedBusinessValue: 'Value',
+      expectedTechnicalValue: 'Value',
+      priority: 'HIGH',
+      riskProposal: 'GREEN',
+      executionProfile: 'AUTONOMOUS_BUILDER_PATCH',
+      targetFiles: ['tools/control-hub/src/strategicPlanner.ts'],
+      dependencies: [],
+      acceptanceCriteria: ['Updated'],
+      estimatedComplexity: 'LOW',
+      ownerDecisionNeeded: false,
+      suggestedExecutor: 'AUTONOMOUS_BUILDER',
+      dedupeFingerprint: 'fp_builder_001'
+    });
+
+    assert.strictEqual(validated.validatedRisk, 'YELLOW');
+    assert.strictEqual(validated.builderEligible, false);
+  });
+
+  test('95. OpenAI Strategic Planner: AUTONOMOUS_BUILDER proposal with safe UI component is builderEligible', () => {
+    const { OpenAIStrategicPlanner } = require('../src/strategicPlanner');
+    const planner = new OpenAIStrategicPlanner();
+
+    const validated = planner.validateProposalGovernance({
+      taskId: 'plan_builder_002',
+      title: 'Fix UI status pill styling',
+      domain: 'USER_VALUE',
+      problem: 'UI pill contrast',
+      evidence: ['Contrast report'],
+      reason: 'Improve accessibility',
+      expectedUserValue: 'Better UI',
+      expectedBusinessValue: 'Better UX',
+      expectedTechnicalValue: 'Clean component',
+      priority: 'NORMAL',
+      riskProposal: 'GREEN',
+      executionProfile: 'AUTONOMOUS_BUILDER_PATCH',
+      targetFiles: ['src/components/ui/StatusPill.tsx'],
+      dependencies: [],
+      acceptanceCriteria: ['Contrast ratio ok'],
+      estimatedComplexity: 'LOW',
+      ownerDecisionNeeded: false,
+      suggestedExecutor: 'AUTONOMOUS_BUILDER',
+      dedupeFingerprint: 'fp_builder_002'
+    });
+
+    assert.strictEqual(validated.validatedRisk, 'GREEN');
+    assert.strictEqual(validated.builderEligible, true);
+  });
+
 });
 
 

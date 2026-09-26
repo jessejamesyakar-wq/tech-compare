@@ -24,14 +24,12 @@ export class WorktreeManager {
     this.canonicalRepoPath = customCanonicalRepo || CONFIG.CANONICAL_REPO_PATH;
   }
 
-  public createTaskWorktree(taskId: string): { workspacePath: string; originMainHead: string } {
+  public createTaskWorktree(taskId: string, baseRef: string = 'HEAD'): { workspacePath: string; originMainHead: string } {
     if (!fs.existsSync(this.workspacesRoot)) {
       fs.mkdirSync(this.workspacesRoot, { recursive: true });
     }
 
-    // Obtain current origin/main commit HEAD from canonical repository
-    const originMainHead = runCmd('git rev-parse origin/main', this.canonicalRepoPath);
-
+    const expectedHead = runCmd(`git rev-parse ${baseRef}`, this.canonicalRepoPath);
     const workspacePath = path.join(this.workspacesRoot, taskId);
 
     // Remove old worktree path if existing leftover
@@ -39,18 +37,18 @@ export class WorktreeManager {
       this.removeTaskWorktree(workspacePath);
     }
 
-    // Create isolated detached worktree from origin/main
-    runCmd(`git worktree add --detach "${workspacePath}" origin/main`, this.canonicalRepoPath);
+    // Create isolated detached worktree from baseRef
+    runCmd(`git worktree add --detach "${workspacePath}" ${expectedHead}`, this.canonicalRepoPath);
 
-    // Verify worktree HEAD equals origin/main HEAD
+    // Verify worktree HEAD equals expected HEAD
     const worktreeHead = runCmd('git rev-parse HEAD', workspacePath);
-    if (worktreeHead !== originMainHead) {
-      throw new Error(`Worktree HEAD mismatch! Expected ${originMainHead}, got ${worktreeHead}`);
+    if (worktreeHead !== expectedHead) {
+      throw new Error(`Worktree HEAD mismatch! Expected ${expectedHead}, got ${worktreeHead}`);
     }
 
     return {
       workspacePath,
-      originMainHead
+      originMainHead: expectedHead
     };
   }
 
@@ -68,8 +66,11 @@ export class WorktreeManager {
 
     try {
       if (fs.existsSync(workspacePath)) {
-        runCmd(`git worktree remove --force "${workspacePath}"`, this.canonicalRepoPath);
+        try {
+          runCmd(`git worktree remove --force "${workspacePath}"`, this.canonicalRepoPath);
+        } catch {}
       }
+      runCmd('git worktree prune', this.canonicalRepoPath);
       if (fs.existsSync(workspacePath)) {
         fs.rmSync(workspacePath, { recursive: true, force: true });
       }
