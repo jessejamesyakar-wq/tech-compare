@@ -3,6 +3,7 @@ import path from 'path';
 import { CONFIG } from './config';
 import { redactObject } from './secretRedactor';
 import { OwnerDecisionItem, QueueTask, RunnerState, UsageRecord, UsageState } from './types';
+import { validateAndBuildTask } from './cliParser';
 
 export class QueueStore {
   private queueFilePath: string;
@@ -51,6 +52,10 @@ export class QueueStore {
   }
 
   public addQueueTask(task: QueueTask): QueueTask {
+    const val = validateAndBuildTask(task.type, task.risk, task.priority, task.instruction);
+    if (!val.ok) {
+      throw new Error(`INVALID_TASK_ARGUMENTS: ${val.reason}`);
+    }
     const tasks = this.getQueueTasks();
     const redactedTask = redactObject(task);
     tasks.push(redactedTask);

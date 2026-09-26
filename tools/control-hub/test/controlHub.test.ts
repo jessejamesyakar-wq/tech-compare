@@ -1196,6 +1196,112 @@ describe('ACELEETME Control Hub V0.4 — Autonomous Queue Runner Test Suite', ()
     cleanupTestFiles(mockWorktree);
   });
 
+  test('42. CLI Parser: Correct named argument parsing', () => {
+    const { parseQueueAddArgs } = require('../src/cliParser');
+    const res = parseQueueAddArgs([
+      '--type', 'REPOSITORY_INSPECTION',
+      '--risk', 'GREEN',
+      '--priority', 'HIGH',
+      '--instruction', 'Live runner qualification: REPOSITORY_INSPECTION'
+    ]);
+
+    assert.strictEqual(res.ok, true);
+    assert.strictEqual(res.task?.type, 'REPOSITORY_INSPECTION');
+    assert.strictEqual(res.task?.risk, 'GREEN');
+    assert.strictEqual(res.task?.priority, 'HIGH');
+    assert.strictEqual(res.task?.instruction, 'Live runner qualification: REPOSITORY_INSPECTION');
+  });
+
+  test('43. CLI Parser: Quoted and multi-word instruction parsing', () => {
+    const { parseQueueAddArgs } = require('../src/cliParser');
+    const res = parseQueueAddArgs([
+      '--type', 'BUILD',
+      '--risk', 'GREEN',
+      '--priority', 'NORMAL',
+      '--instruction', 'Technical', 'SEO', 'and', 'Next.js', 'build'
+    ]);
+
+    assert.strictEqual(res.ok, true);
+    assert.strictEqual(res.task?.type, 'BUILD');
+    assert.strictEqual(res.task?.instruction, 'Technical SEO and Next.js build');
+  });
+
+  test('44. CLI Parser: Missing value rejection', () => {
+    const { parseQueueAddArgs } = require('../src/cliParser');
+    const res1 = parseQueueAddArgs(['--type']);
+    assert.strictEqual(res1.ok, false);
+    assert.strictEqual(res1.error, 'INVALID_TASK_ARGUMENTS');
+
+    const res2 = parseQueueAddArgs(['--type', '--risk', 'GREEN']);
+    assert.strictEqual(res2.ok, false);
+    assert.strictEqual(res2.error, 'INVALID_TASK_ARGUMENTS');
+  });
+
+  test('45. CLI Parser: Unknown flag rejection', () => {
+    const { parseQueueAddArgs } = require('../src/cliParser');
+    const res = parseQueueAddArgs(['--unknown-flag', 'value']);
+    assert.strictEqual(res.ok, false);
+    assert.strictEqual(res.error, 'INVALID_TASK_ARGUMENTS');
+    assert.strictEqual(res.reason?.includes('Unknown flag'), true);
+  });
+
+  test('46. CLI Parser: Risk enum validation', () => {
+    const { parseQueueAddArgs } = require('../src/cliParser');
+    const res = parseQueueAddArgs(['--type', 'BUILD', '--risk', 'INVALID_RISK']);
+    assert.strictEqual(res.ok, false);
+    assert.strictEqual(res.error, 'INVALID_TASK_ARGUMENTS');
+    assert.strictEqual(res.reason?.includes('Invalid risk level'), true);
+  });
+
+  test('47. CLI Parser: Priority enum validation', () => {
+    const { parseQueueAddArgs } = require('../src/cliParser');
+    const res = parseQueueAddArgs(['--type', 'BUILD', '--priority', 'ULTRA_HIGH']);
+    assert.strictEqual(res.ok, false);
+    assert.strictEqual(res.error, 'INVALID_TASK_ARGUMENTS');
+    assert.strictEqual(res.reason?.includes('Invalid task priority'), true);
+  });
+
+  test('48. CLI Parser: Task type validation', () => {
+    const { parseQueueAddArgs } = require('../src/cliParser');
+    const res = parseQueueAddArgs(['--type', 'INVALID_TYPE']);
+    assert.strictEqual(res.ok, false);
+    assert.strictEqual(res.error, 'INVALID_TASK_ARGUMENTS');
+    assert.strictEqual(res.reason?.includes('Invalid task type'), true);
+  });
+
+  test('49. CLI Parser: Flags can never become field values (shifted argument rejection)', () => {
+    const { parseQueueAddArgs } = require('../src/cliParser');
+    const res1 = parseQueueAddArgs(['--type', 'REPOSITORY_INSPECTION', 'GREEN', '--priority', 'HIGH']);
+    assert.strictEqual(res1.ok, false);
+    assert.strictEqual(res1.error, 'INVALID_TASK_ARGUMENTS');
+
+    const res2 = parseQueueAddArgs(['--type', '--risk', '--priority']);
+    assert.strictEqual(res2.ok, false);
+    assert.strictEqual(res2.error, 'INVALID_TASK_ARGUMENTS');
+  });
+
+  test('50. QueueStore Defense-in-Depth: Malformed input never enters queue', () => {
+    const { queueStore, qPath, rPath, oPath, uPath } = getMockStores();
+
+    assert.throws(() => {
+      queueStore.addQueueTask({
+        taskId: 'task_malformed_test',
+        type: '--TYPE' as any,
+        risk: 'GREEN',
+        priority: 'HIGH',
+        instruction: 'Malformed field test',
+        status: 'PENDING',
+        dependencies: [],
+        createdAt: new Date().toISOString(),
+        attempts: 0
+      });
+    }, (err: any) => {
+      return err instanceof Error && err.message.includes('INVALID_TASK_ARGUMENTS');
+    });
+
+    cleanupTestFiles(qPath, rPath, oPath, uPath);
+  });
+
 });
 
 

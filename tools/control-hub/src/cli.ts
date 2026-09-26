@@ -4,6 +4,7 @@ import { QueueRunner } from './queueRunner';
 import { QueueStore } from './queueStore';
 import { TelegramNotifier } from './telegramNotifier';
 import { OwnerDecisionItem, QueueTask, RiskLevel, TaskPriority, TaskType } from './types';
+import { parseQueueAddArgs, ALLOWED_TASK_TYPES } from './cliParser';
 
 async function main() {
   const args = process.argv.slice(2);
@@ -17,18 +18,20 @@ async function main() {
   console.log(`==================================================`);
 
   if (command === 'queue:add') {
-    const typeArg = (args[1] || 'REPOSITORY_INSPECTION').toUpperCase() as TaskType;
-    const riskArg = (args[2] || 'GREEN').toUpperCase() as RiskLevel;
-    const priorityArg = (args[3] || 'NORMAL').toUpperCase() as TaskPriority;
-    const instructionArg = args.slice(4).join(' ') || `Execute ${typeArg} task`;
+    const parseResult = parseQueueAddArgs(args.slice(1));
+    if (!parseResult.ok || !parseResult.task) {
+      console.error(`INVALID_TASK_ARGUMENTS: ${parseResult.reason || 'Failed to parse task arguments'}`);
+      process.exit(1);
+    }
 
+    const { type, risk, priority, instruction } = parseResult.task;
     const taskId = `task_${Date.now()}_${Math.random().toString(36).substring(2, 7)}`;
     const task: QueueTask = {
       taskId,
-      type: typeArg,
-      risk: riskArg,
-      priority: priorityArg,
-      instruction: instructionArg,
+      type,
+      risk,
+      priority,
+      instruction,
       status: 'PENDING',
       dependencies: [],
       createdAt: new Date().toISOString(),
@@ -38,6 +41,7 @@ async function main() {
     queueStore.addQueueTask(task);
     console.log(`ADDED TASK TO QUEUE:`);
     console.log(`ID: ${task.taskId} | Type: ${task.type} | Risk: ${task.risk} | Priority: ${task.priority}`);
+    console.log(`Instruction: ${task.instruction}`);
   } else if (command === 'queue:run') {
     console.log('Starting autonomous queue runner cycle...');
     const result = await queueRunner.runCycle();
@@ -226,11 +230,15 @@ async function main() {
   } else {
     // Direct command support for inspect, typecheck, build
     const taskType = command.toUpperCase() as TaskType;
+    if (!ALLOWED_TASK_TYPES.includes(taskType)) {
+      console.error(`INVALID_TASK_ARGUMENTS: Unknown CLI command or invalid task type '${command}'`);
+      process.exit(1);
+    }
     console.log(`Dispatching direct task: ${taskType}`);
     const taskId = `task_${Date.now()}_direct`;
     const task: QueueTask = {
       taskId,
-      type: taskType || 'REPOSITORY_INSPECTION',
+      type: taskType,
       risk: 'GREEN',
       priority: 'HIGH',
       instruction: `Direct execution of ${command}`,
