@@ -205,4 +205,62 @@ export interface StrategicRoadmap {
   resultStatus?: 'QUALIFIED' | 'BLOCKED' | 'MOCK';
 }
 
+export type IssueScanner =
+  | 'ACCESSIBILITY_STRUCTURE'
+  | 'ROUTE_LINK_INTEGRITY'
+  | 'METADATA_SEO_STRUCTURE'
+  | 'STATE_HANDLING'
+  | 'RESPONSIVE_STRUCTURE'
+  | 'TODO_DEFECT'
+  | 'BUILD_SIGNAL';
+
+export type IssueConfidence = 'HIGH' | 'MEDIUM' | 'LOW';
+export type VerificationStatus = 'VERIFIED' | 'NEEDS_REVIEW' | 'DISMISSED';
+export type IssueEvidenceType = 'SOURCE_CODE' | 'ROUTE_MAP' | 'METADATA_CONFIG' | 'COMMAND_OUTPUT';
+export type RecommendedAction = 'FIX_NOW' | 'DEFER' | 'OWNER_REVIEW' | 'IGNORE';
+
+export interface VerifiedIssueRecord {
+  issueId: string;
+  scanner: IssueScanner;
+  domain: ProposalDomain;
+  title: string;
+  targetFiles: string[];
+  targetReferences: string[];
+  evidenceType: IssueEvidenceType;
+  evidence: string;
+  currentBehavior: string;
+  expectedBehavior: string;
+  userImpact: string;
+  technicalImpact: string;
+  confidence: IssueConfidence;
+  verificationStatus: VerificationStatus;
+  riskHint: RiskLevel;
+  suggestedExecutionProfile: string;
+  discoveredAt: string;
+  repositoryHead: string;
+  fingerprint: string;
+  builderEligible?: boolean;
+}
+
+export interface PrioritizedIssueItem {
+  issueId: string;
+  priority: ProposalPriority;
+  reason: string;
+  expectedUserValue: string;
+  expectedBusinessValue: string;
+  expectedTechnicalValue: string;
+  recommendedAction: RecommendedAction;
+  suggestedExecutor: SuggestedExecutor;
+}
+
+export interface IssuePrioritizationResponse {
+  responseId?: string;
+  modelUsed?: string;
+  inputTokens?: number;
+  outputTokens?: number;
+  totalTokens?: number;
+  priorities: PrioritizedIssueItem[];
+}
+
+
 
