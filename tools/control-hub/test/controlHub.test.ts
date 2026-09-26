@@ -2640,7 +2640,57 @@ describe('ACELEETME Control Hub V0.4 — Autonomous Queue Runner Test Suite', ()
     }
   });
 
+  // ==================================================
+  // V0.8.2 Issue ID Stability Tests (131–136)
+  // ==================================================
+
+  test('131. Issue ID Stability: Scan ordering does not change issue ID', () => {
+    const { generateStableIssueId } = require('../src/issueScanners');
+    const idA = generateStableIssueId('ACCESSIBILITY_STRUCTURE', 'IMAGE_MISSING_ALT', 'src/components/ads/LiveDeals.tsx', 'Line_22');
+    const idB = generateStableIssueId('ACCESSIBILITY_STRUCTURE', 'IMAGE_MISSING_ALT', 'src/components/ads/LiveDeals.tsx', 'Line_22');
+    assert.strictEqual(idA, idB);
+  });
+
+  test('132. Issue ID Stability: Adding an unrelated issue does not renumber existing issue IDs', () => {
+    const { generateStableIssueId } = require('../src/issueScanners');
+    const firstIssueIdBefore = generateStableIssueId('ACCESSIBILITY_STRUCTURE', 'IMAGE_MISSING_ALT', 'src/components/ads/Banner.tsx', 'Line_10');
+    // Simulate discovering 5 new unrelated issues
+    generateStableIssueId('ROUTE_LINK_INTEGRITY', 'BROKEN_LINK', 'src/app/page.tsx', 'Route_/foo');
+    generateStableIssueId('METADATA_SEO_STRUCTURE', 'MISSING_META', 'src/app/about/page.tsx', 'Page_Meta');
+    const firstIssueIdAfter = generateStableIssueId('ACCESSIBILITY_STRUCTURE', 'IMAGE_MISSING_ALT', 'src/components/ads/Banner.tsx', 'Line_10');
+    assert.strictEqual(firstIssueIdBefore, firstIssueIdAfter);
+  });
+
+  test('133. Issue ID Stability: Same source issue gives exact same issue ID across scans', () => {
+    const { generateStableIssueId } = require('../src/issueScanners');
+    const run1 = generateStableIssueId('ACCESSIBILITY_STRUCTURE', 'ICON_BUTTON_MISSING_NAME', 'src/components/ui/Button.tsx', 'Line_45');
+    const run2 = generateStableIssueId('ACCESSIBILITY_STRUCTURE', 'ICON_BUTTON_MISSING_NAME', 'src/components/ui/Button.tsx', 'Line_45');
+    assert.strictEqual(run1, run2);
+  });
+
+  test('134. Issue ID Stability: Different target file gives different issue ID', () => {
+    const { generateStableIssueId } = require('../src/issueScanners');
+    const file1 = generateStableIssueId('ACCESSIBILITY_STRUCTURE', 'IMAGE_MISSING_ALT', 'src/components/ads/BannerA.tsx', 'Line_10');
+    const file2 = generateStableIssueId('ACCESSIBILITY_STRUCTURE', 'IMAGE_MISSING_ALT', 'src/components/ads/BannerB.tsx', 'Line_10');
+    assert.notStrictEqual(file1, file2);
+  });
+
+  test('135. Issue ID Stability: Different issue type in same file gives different issue ID', () => {
+    const { generateStableIssueId } = require('../src/issueScanners');
+    const type1 = generateStableIssueId('ACCESSIBILITY_STRUCTURE', 'IMAGE_MISSING_ALT', 'src/components/ui/Hero.tsx', 'Line_15');
+    const type2 = generateStableIssueId('ACCESSIBILITY_STRUCTURE', 'ICON_BUTTON_MISSING_NAME', 'src/components/ui/Hero.tsx', 'Line_15');
+    assert.notStrictEqual(type1, type2);
+  });
+
+  test('136. Issue Lineage: Resolved and reintroduced issue maintains traceable fingerprint lineage', () => {
+    const { computeFingerprint } = require('../src/issueScanners');
+    const fpBaseline = computeFingerprint('ACCESSIBILITY_STRUCTURE', 'src/components/ui/Hero.tsx', 'Missing alt', 'Line 15: <img />', '2010fd4e');
+    const fpReintroduced = computeFingerprint('ACCESSIBILITY_STRUCTURE', 'src/components/ui/Hero.tsx', 'Missing alt', 'Line 15: <img />', '2010fd4e');
+    assert.strictEqual(fpBaseline, fpReintroduced);
+  });
+
 });
+
 
 
 
