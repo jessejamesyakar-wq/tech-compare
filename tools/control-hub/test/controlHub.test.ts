@@ -1032,5 +1032,32 @@ describe('ACELEETME Control Hub V0.4 — Autonomous Queue Runner Test Suite', ()
     cleanupTestFiles(qPath, rPath, oPath, uPath, sentPath);
   });
 
+  test('32. ProjectPlanner: Generates shadow plan and categorizes GREEN / YELLOW / RED candidates', () => {
+    const { queueStore, qPath, rPath, oPath, uPath } = getMockStores();
+    const { ProjectPlanner } = require('../src/projectPlanner');
+    const planner = new ProjectPlanner(queueStore);
+
+    const plan = planner.generateShadowPlan();
+    assert.strictEqual(plan.totalCandidates > 0, true, 'Shadow plan must contain candidate items');
+    assert.strictEqual(plan.greenCandidates > 0, true, 'Shadow plan must classify GREEN candidates');
+    assert.strictEqual(plan.redCandidates > 0, true, 'Shadow plan must classify RED candidates');
+
+    const redItem = plan.backlog.find((b: any) => b.riskClass === 'RED');
+    assert.strictEqual(redItem !== undefined, true);
+    assert.strictEqual(redItem.category, 'GOVERNANCE_SECURITY');
+
+    cleanupTestFiles(qPath, rPath, oPath, uPath);
+  });
+
+  test('33. ProjectPlanner: Classifies task risks deterministically based on action types', () => {
+    const { ProjectPlanner } = require('../src/projectPlanner');
+    const planner = new ProjectPlanner();
+
+    assert.strictEqual(planner.classifyTaskRisk('CATALOG_HEALTH', 'READ_ONLY_AUDIT'), 'GREEN');
+    assert.strictEqual(planner.classifyTaskRisk('COMMERCE_READINESS', 'CONFIG_CHANGE'), 'YELLOW');
+    assert.strictEqual(planner.classifyTaskRisk('GOVERNANCE_SECURITY', 'PRODUCTION_DEPLOY', true), 'RED');
+    assert.strictEqual(planner.classifyTaskRisk('COMMERCE_READINESS', 'PUBLIC_RETAILER_ACTIVATE'), 'RED');
+  });
+
 });
 

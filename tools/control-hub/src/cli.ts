@@ -1,4 +1,5 @@
 import { CONFIG } from './config';
+import { ProjectPlanner } from './projectPlanner';
 import { QueueRunner } from './queueRunner';
 import { QueueStore } from './queueStore';
 import { TelegramNotifier } from './telegramNotifier';
@@ -176,6 +177,25 @@ async function main() {
     } else {
       console.error('FAILED: Telegram summary dispatch failed.');
     }
+  } else if (command === 'planner' || command === 'plan') {
+    const planner = new ProjectPlanner(queueStore);
+    const plan = planner.generateShadowPlan();
+    const savedPath = planner.saveShadowPlan(plan);
+
+    console.log(`AUTONOMOUS PROJECT PLANNER V0.1 SHADOW BACKLOG`);
+    console.log(`--------------------------------------------------`);
+    console.log(`Generated At: ${plan.generatedAt}`);
+    console.log(`Total Candidates: ${plan.totalCandidates} (GREEN: ${plan.greenCandidates}, YELLOW: ${plan.yellowCandidates}, RED: ${plan.redCandidates})`);
+    console.log(`Shadow Plan Saved: ${savedPath}`);
+    console.log(`--------------------------------------------------`);
+    plan.backlog.forEach((item, index) => {
+      console.log(`[${index + 1}] TASK: ${item.taskId} | Category: ${item.category} | Risk: ${item.riskClass}`);
+      console.log(`    Title: ${item.title}`);
+      console.log(`    Reason: ${item.reason}`);
+      console.log(`    Expected Benefit: ${item.expectedBenefit}`);
+      console.log(`    Suggested Tests: ${item.suggestedTests.join(', ')}`);
+      console.log(`--------------------------------------------------`);
+    });
   } else if (command === 'health') {
     const state = queueStore.getRunnerState();
     const usage = queueStore.getUsageState();

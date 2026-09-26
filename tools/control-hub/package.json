@@ -17,6 +17,7 @@
     "pause": "npx tsx src/cli.ts pause",
     "resume": "npx tsx src/cli.ts resume",
     "summary": "npx tsx src/cli.ts summary",
+    "planner": "npx tsx src/cli.ts planner",
     "runner:health": "npx tsx src/cli.ts health",
     "runner:start": "npx tsx src/daemon.ts"
   },
