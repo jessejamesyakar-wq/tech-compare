@@ -54,6 +54,8 @@ export interface ProjectTelemetry {
   catalogAudit: string;
   commerceReadiness: string;
   knownUnresolvedFindings: string[];
+  resolvedHistoricalFindings?: string[];
+  activeUnresolvedFindings?: string[];
   routeStructure: string[];
 }
 
@@ -96,9 +98,19 @@ export class OpenAIStrategicPlanner {
       ownerDecisionsWaiting: waitingDecisions,
       catalogAudit: 'CANONICAL_DB_AUDIT = NOT_PERFORMED (smartphonesData.json = BOOTSTRAP_BASELINE, Postgres/Neon = CANONICAL_MUTABLE_AUTHORITY)',
       commerceReadiness: 'RETAILERS_8 = PERMISSION_UNVERIFIED (Hepsiburada, Trendyol, Amazon, n11, PTTAVM, MediaMarkt, Vatan, Teknosa)',
+      resolvedHistoricalFindings: [
+        'BUILD and TEST root command failures: RESOLVED_HISTORICAL_FINDING (routed via CONTROL_HUB_TEST and ROOT_NEXT_BUILD)',
+        'CLI task flag parsing corruption: RESOLVED_HISTORICAL_FINDING (resolved by strict argument parser in cliParser.ts)',
+        'Dependency isolation junction caching: RESOLVED_HISTORICAL_FINDING (resolved by DependencyIsolationGuard)'
+      ],
+      activeUnresolvedFindings: [
+        'Canonical Postgres/Neon DB schema audit not performed (smartphonesData.json remains bootstrap baseline)',
+        'All 8 retailer offer feeds are PERMISSION_UNVERIFIED',
+        'Automatic factual product correction is DISABLED_BY_GOVERNANCE'
+      ],
       knownUnresolvedFindings: [
-        'Missing script: "test" in root package.json resolved by execution routing profile CONTROL_HUB_TEST',
-        'Repository remote URL points to user namespace tech-compare.git while root package is tech-compare (ACELEETME Web Platform)',
+        'Canonical Postgres/Neon DB schema audit not performed',
+        'All 8 retailer offer feeds are PERMISSION_UNVERIFIED',
         'Automatic factual product correction is DISABLED_BY_GOVERNANCE'
       ],
       routeStructure: [
@@ -347,7 +359,7 @@ export class OpenAIStrategicPlanner {
       };
     } else if (isOpenAiApiKeyPresent()) {
       const apiKey = process.env.OPENAI_API_KEY!;
-      const systemPrompt = `You are the ACELEETME Strategic Project Planner V0.7.
+      const systemPrompt = `You are the ACELEETME Strategic Project Planner V0.7.1.
 Analyze the provided project telemetry and return a valid JSON object matching this schema:
 {
   "top3CurrentBlockers": ["string", "string", "string"],
@@ -382,7 +394,11 @@ Analyze the provided project telemetry and return a valid JSON object matching t
     }
   ]
 }
-Return raw JSON only.`;
+
+CRITICAL RULES:
+1. Do NOT list items under resolvedHistoricalFindings (such as BUILD/TEST task failures or CLI argument parsing fixes) as active top3CurrentBlockers. Top 3 blockers MUST be drawn strictly from activeUnresolvedFindings (e.g. un-audited Postgres canonical DB schema, PERMISSION_UNVERIFIED retailer feeds, missing user funnel telemetry).
+2. For non-code-modifying health checks, technical SEO build verifications, or read-only repository inspection tasks, choose an executionProfile from the approved GREEN allowlist: "REPOSITORY_INSPECTION", "ROOT_TYPESCRIPT", "ROOT_NEXT_BUILD", "CONTROL_HUB_TEST", "CONTROL_HUB_BUILD", or "READ_ONLY_AUDIT" with riskProposal: "GREEN".
+3. Return raw JSON only.`;
 
       const userPrompt = `PROJECT TELEMETRY:
 ${JSON.stringify(telemetry, null, 2)}`;
