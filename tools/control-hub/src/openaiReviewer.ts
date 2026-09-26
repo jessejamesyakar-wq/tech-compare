@@ -138,6 +138,11 @@ If evidence is missing (e.g. canonicalHead or workspaceHead is UNVERIFIED), mark
 
 If command evidence indicates failure (e.g. readOnlyViolation=true, typecheckResult=FAIL, buildResult=FAIL, testResults=FAIL, or failureClassification present), you must NOT return PASS_GREEN. Deterministic evidence cannot be overruled.
 
+Repository Identity Guidance:
+- The canonical root package.json for ACELEETME is named "tech-compare" (the product comparison web platform).
+- Finding "tech-compare" as root_package_name is standard for ACELEETME tasks and does NOT constitute a repository identity mismatch.
+- Repository identity is verified by git commit lineage (workspaceHead === canonicalHead), git remote URL, and clean working tree.
+
 You may identify risks, contradictions and missing checks.
 
 You must return a JSON object matching this exact TypeScript structure:

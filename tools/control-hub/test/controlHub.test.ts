@@ -1059,5 +1059,104 @@ describe('ACELEETME Control Hub V0.4 — Autonomous Queue Runner Test Suite', ()
     assert.strictEqual(planner.classifyTaskRisk('COMMERCE_READINESS', 'PUBLIC_RETAILER_ACTIVATE'), 'RED');
   });
 
+  test('34. LocalTaskExecutor: Execution profile resolution maps BUILD tasks correctly', () => {
+    const { resolveExecutionProfile } = require('../src/localExecutor');
+    const mockRoot = '/mock/workspace';
+
+    const nextBuild = resolveExecutionProfile('BUILD', 'Technical SEO build verification', mockRoot);
+    assert.strictEqual(nextBuild.name, 'ROOT_NEXT_BUILD');
+    assert.strictEqual(nextBuild.cwd, mockRoot);
+    assert.strictEqual(nextBuild.command, 'npx next build');
+
+    const hubBuild = resolveExecutionProfile('BUILD', 'Control Hub build verification', mockRoot);
+    assert.strictEqual(hubBuild.name, 'CONTROL_HUB_BUILD');
+    assert.strictEqual(path.normalize(hubBuild.cwd), path.normalize(path.join(mockRoot, 'tools', 'control-hub')));
+    assert.strictEqual(hubBuild.command, 'npm run build');
+  });
+
+  test('35. LocalTaskExecutor: Execution profile resolution maps TEST tasks to CONTROL_HUB_TEST', () => {
+    const { resolveExecutionProfile } = require('../src/localExecutor');
+    const mockRoot = '/mock/workspace';
+
+    const testProfile = resolveExecutionProfile('TEST', 'Control Hub test suite execution', mockRoot);
+    assert.strictEqual(testProfile.name, 'CONTROL_HUB_TEST');
+    assert.strictEqual(path.normalize(testProfile.cwd), path.normalize(path.join(mockRoot, 'tools', 'control-hub')));
+    assert.strictEqual(testProfile.command, 'npm test');
+  });
+
+  test('36. LocalTaskExecutor: Unknown task type fails closed with EXECUTION_PROFILE_NOT_DEFINED', () => {
+    const { LocalTaskExecutor, resolveExecutionProfile } = require('../src/localExecutor');
+    const mockRoot = path.join(testDir, `worktree_${Date.now()}`);
+    fs.mkdirSync(mockRoot, { recursive: true });
+
+    const profile = resolveExecutionProfile('UNAPPROVED_FUTURE_TASK' as any, 'Do something', mockRoot);
+    assert.strictEqual(profile.name, 'EXECUTION_PROFILE_NOT_DEFINED');
+
+    const executor = new LocalTaskExecutor();
+    const res = executor.executeTaskInWorktree('UNAPPROVED_FUTURE_TASK' as any, mockRoot, '249d3ead0ee1d3ea5fda40d53208f45513f0dd44');
+    assert.strictEqual(res.exitCode, 1);
+    assert.strictEqual(res.executionProfile, 'EXECUTION_PROFILE_NOT_DEFINED');
+    assert.strictEqual(res.output.includes('EXECUTION_PROFILE_NOT_DEFINED'), true);
+
+    cleanupTestFiles(mockRoot);
+  });
+
+  test('37. LocalTaskExecutor: Failure evidence preserves stdout/stderr and redacts secrets', () => {
+    const { LocalTaskExecutor } = require('../src/localExecutor');
+    const mockRoot = path.join(testDir, `worktree_${Date.now()}`);
+    fs.mkdirSync(mockRoot, { recursive: true });
+
+    process.env.OPENAI_API_KEY = 'sk-proj-secret-key-to-redact-999';
+    const executor = new LocalTaskExecutor();
+    const res = executor.executeTaskInWorktree('TYPECHECK', mockRoot, '249d3ead0ee1d3ea5fda40d53208f45513f0dd44');
+
+    assert.strictEqual(res.executionProfile, 'ROOT_TYPESCRIPT');
+    assert.strictEqual(res.output.includes('stdout_stderr_evidence'), true);
+    assert.strictEqual(res.output.includes('sk-proj-secret-key-to-redact-999'), false, 'Secrets must be redacted from evidence output');
+
+    cleanupTestFiles(mockRoot);
+  });
+
+  test('38. Repository Identity: Root package name "tech-compare" does not trigger false identity error', () => {
+    const { LocalTaskExecutor } = require('../src/localExecutor');
+    const execSync = require('child_process');
+    const rootRepoPath = path.resolve(__dirname, '../../..');
+    const headRes = execSync.execSync('git rev-parse HEAD', { cwd: rootRepoPath, encoding: 'utf-8' }).trim();
+
+    const executor = new LocalTaskExecutor();
+    const res = executor.executeTaskInWorktree('REPOSITORY_INSPECTION', rootRepoPath, headRes);
+
+    assert.strictEqual(res.exitCode, 0);
+    assert.strictEqual(res.output.includes('repository_identity_status: VERIFIED_ACELEETME_REPO'), true);
+    assert.strictEqual(res.output.includes('root_package_name: tech-compare'), true);
+  });
+
+  test('39. Governance: RED task synthetic decision tagging', async () => {
+    const { queueStore, qPath, rPath, oPath, uPath } = getMockStores();
+    queueStore.addQueueTask({
+      taskId: 'task_synth_001',
+      type: 'PRODUCTION_DEPLOY' as any,
+      risk: 'RED',
+      priority: 'CRITICAL',
+      instruction: 'Bounded synthetic owner decision live test',
+      status: 'PENDING',
+      dependencies: [],
+      createdAt: new Date().toISOString(),
+      attempts: 0
+    });
+
+    const runner = new QueueRunner(queueStore);
+    await runner.runCycle();
+
+    const decisions = queueStore.getOwnerDecisions();
+    const synthDec = decisions.find(d => d.taskId === 'task_synth_001');
+    assert.strictEqual(synthDec !== undefined, true);
+    assert.strictEqual(synthDec?.shortTitle.includes('[SYNTHETIC_TEST]'), true);
+    assert.strictEqual(synthDec?.status, 'PENDING');
+
+    cleanupTestFiles(qPath, rPath, oPath, uPath);
+  });
+
 });
+
 

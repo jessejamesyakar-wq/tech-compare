@@ -181,12 +181,13 @@ export class QueueRunner {
       });
 
       if (task.risk === 'RED') {
+        const isSyntheticTest = task.instruction.toLowerCase().includes('synthetic') || task.taskId.includes('test');
         const decision: OwnerDecisionItem = {
           decisionId: `dec_${task.taskId}`,
           taskId: task.taskId,
           createdAt: new Date().toISOString(),
-          shortTitle: `High Risk Task Approval: ${task.type}`,
-          reason: `Task ${task.taskId} (${task.type}) is classified as RED risk and requires owner approval before execution.`,
+          shortTitle: `${isSyntheticTest ? '[SYNTHETIC_TEST] ' : ''}High Risk Task Approval: ${task.type}`,
+          reason: `Task ${task.taskId} (${task.type}) is classified as RED risk and requires owner approval before execution.${isSyntheticTest ? ' (Synthetic qualification test).' : ''}`,
           optionA: 'Approve execution in isolated worktree',
           optionB: 'Reject task and cancel',
           safeDefault: 'Keep BLOCKED in owner decision inbox',
@@ -248,7 +249,7 @@ export class QueueRunner {
     // Execute Local Command
     let execResult: { exitCode: number; output: string };
     try {
-      execResult = this.localExecutor.executeTaskInWorktree(task.type as GreenTaskType, workspacePath, originMainHead);
+      execResult = this.localExecutor.executeTaskInWorktree(task.type as GreenTaskType, workspacePath, originMainHead, task.instruction);
     } catch (err: any) {
       const failMsg = `LOCAL_EXECUTION_ERROR: ${redactSecrets(err.message)}`;
       this.worktreeManager.removeTaskWorktree(workspacePath);
