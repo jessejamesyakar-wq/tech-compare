@@ -1,5 +1,6 @@
 import fs from 'fs';
 import path from 'path';
+import execSync from 'child_process';
 import { RiskLevel, SuggestedExecutor } from './types';
 
 export interface PatchBudget {
@@ -187,5 +188,57 @@ export class BuilderPolicyEngine {
     }
 
     return { eligible: true };
+  }
+
+  public static validateCandidateTargetGrounding(
+    targetFiles: string[],
+    repoPath: string = 'C:\\Projects\\aceleetme'
+  ): { grounded: boolean; reason?: string; verifiedTargets?: string[] } {
+    if (!targetFiles || targetFiles.length === 0) {
+      return { grounded: false, reason: 'CANDIDATE_REJECTED_UNGROUNDED_TARGET: missing targetFiles' };
+    }
+
+    const verifiedTargets: string[] = [];
+
+    for (const rawTarget of targetFiles) {
+      const normalizedPath = rawTarget.replace(/\\/g, '/');
+      const fullPath = path.join(repoPath, normalizedPath);
+
+      // 1. Filesystem existence check
+      if (!fs.existsSync(fullPath)) {
+        return {
+          grounded: false,
+          reason: `CANDIDATE_REJECTED_UNGROUNDED_TARGET: target file '${rawTarget}' does not exist on disk`
+        };
+      }
+
+      // 2. Git tracking check
+      try {
+        const trackedOutput = execSync.execSync(`git ls-files "${normalizedPath}"`, {
+          cwd: repoPath,
+          encoding: 'utf-8',
+          windowsHide: true
+        }).trim();
+
+        if (!trackedOutput) {
+          return {
+            grounded: false,
+            reason: `CANDIDATE_REJECTED_UNGROUNDED_TARGET: target file '${rawTarget}' is not tracked by Git`
+          };
+        }
+      } catch {
+        return {
+          grounded: false,
+          reason: `CANDIDATE_REJECTED_UNGROUNDED_TARGET: Git tracking check failed for '${rawTarget}'`
+        };
+      }
+
+      verifiedTargets.push(normalizedPath);
+    }
+
+    return {
+      grounded: true,
+      verifiedTargets
+    };
   }
 }

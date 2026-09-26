@@ -245,8 +245,9 @@ export class OpenAIStrategicPlanner {
     if (proposal.suggestedExecutor === 'AUTONOMOUS_BUILDER') {
       const targetFiles = proposal.targetFiles || [];
       const scopeCheck = BuilderPolicyEngine.validateTargetFiles(targetFiles);
+      const groundingCheck = BuilderPolicyEngine.validateCandidateTargetGrounding(targetFiles);
 
-      if (proposal.riskProposal === 'GREEN' && scopeCheck.eligible && !targetsControlHub) {
+      if (proposal.riskProposal === 'GREEN' && scopeCheck.eligible && groundingCheck.grounded && !targetsControlHub) {
         return {
           ...proposal,
           validatedRisk: 'GREEN',
@@ -259,7 +260,7 @@ export class OpenAIStrategicPlanner {
           validatedRisk: proposal.riskProposal === 'RED' ? 'RED' : 'YELLOW',
           builderEligible: false,
           executionProfile: 'PLANNER_PROPOSAL_ONLY',
-          governanceOverrideNote: `AUTONOMOUS_BUILDER proposal ineligible: ${scopeCheck.reason || 'Requires manual review'}`
+          governanceOverrideNote: `AUTONOMOUS_BUILDER proposal ineligible: ${!groundingCheck.grounded ? groundingCheck.reason : scopeCheck.reason || 'Requires manual review'}`
         };
       }
     }

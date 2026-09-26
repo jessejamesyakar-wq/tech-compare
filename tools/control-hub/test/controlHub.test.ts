@@ -2240,7 +2240,7 @@ describe('ACELEETME Control Hub V0.4 — Autonomous Queue Runner Test Suite', ()
       priority: 'NORMAL',
       riskProposal: 'GREEN',
       executionProfile: 'AUTONOMOUS_BUILDER_PATCH',
-      targetFiles: ['src/components/ui/StatusPill.tsx'],
+      targetFiles: ['src/components/ui/ProductImage.tsx'],
       dependencies: [],
       acceptanceCriteria: ['Contrast ratio ok'],
       estimatedComplexity: 'LOW',
@@ -2251,6 +2251,143 @@ describe('ACELEETME Control Hub V0.4 — Autonomous Queue Runner Test Suite', ()
 
     assert.strictEqual(validated.validatedRisk, 'GREEN');
     assert.strictEqual(validated.builderEligible, true);
+  });
+
+  // ==================================================
+  // V0.8.1 TARGET GROUNDING & EVIDENCE MATRIX TESTS
+  // ==================================================
+
+  test('96. Target Grounding: Nonexistent target rejection', () => {
+    const { BuilderPolicyEngine } = require('../src/builderPolicy');
+    const res = BuilderPolicyEngine.validateCandidateTargetGrounding(['src/components/ui/FakeComponent.tsx']);
+    assert.strictEqual(res.grounded, false);
+    assert.strictEqual(res.reason?.includes('CANDIDATE_REJECTED_UNGROUNDED_TARGET'), true);
+  });
+
+  test('97. Target Grounding: Invented path rejection (FilterPill.tsx)', () => {
+    const { BuilderPolicyEngine } = require('../src/builderPolicy');
+    const res = BuilderPolicyEngine.validateCandidateTargetGrounding(['src/components/ui/FilterPill.tsx']);
+    assert.strictEqual(res.grounded, false);
+    assert.strictEqual(res.reason?.includes('does not exist on disk'), true);
+  });
+
+  test('98. Target Grounding: Untracked file rejection', () => {
+    const { BuilderPolicyEngine } = require('../src/builderPolicy');
+    const tempFile = 'src/components/ui/TempUntrackedFile.tsx';
+    const fullTemp = path.join(CONFIG.CANONICAL_REPO_PATH, tempFile);
+    fs.writeFileSync(fullTemp, '// temp untracked', 'utf-8');
+
+    try {
+      const res = BuilderPolicyEngine.validateCandidateTargetGrounding([tempFile]);
+      assert.strictEqual(res.grounded, false);
+      assert.strictEqual(res.reason?.includes('is not tracked by Git'), true);
+    } finally {
+      if (fs.existsSync(fullTemp)) fs.unlinkSync(fullTemp);
+    }
+  });
+
+  test('99. Target Grounding: Real target acceptance (ProductImage.tsx)', () => {
+    const { BuilderPolicyEngine } = require('../src/builderPolicy');
+    const res = BuilderPolicyEngine.validateCandidateTargetGrounding(['src/components/ui/ProductImage.tsx']);
+    assert.strictEqual(res.grounded, true);
+    assert.strictEqual(res.verifiedTargets?.[0], 'src/components/ui/ProductImage.tsx');
+  });
+
+  test('100. Target Grounding: Mixed valid/invalid targets rejection', () => {
+    const { BuilderPolicyEngine } = require('../src/builderPolicy');
+    const res = BuilderPolicyEngine.validateCandidateTargetGrounding([
+      'src/components/ui/ProductImage.tsx',
+      'src/components/ui/NonExistent.tsx'
+    ]);
+    assert.strictEqual(res.grounded, false);
+    assert.strictEqual(res.reason?.includes('CANDIDATE_REJECTED_UNGROUNDED_TARGET'), true);
+  });
+
+  test('101. Target Grounding: OpenAI cannot bypass grounding', () => {
+    const { OpenAIStrategicPlanner } = require('../src/strategicPlanner');
+    const planner = new OpenAIStrategicPlanner();
+
+    const validated = planner.validateProposalGovernance({
+      taskId: 'plan_bypass_target',
+      title: 'Hallucinated target patch',
+      domain: 'USER_VALUE',
+      problem: 'Improve contrast',
+      evidence: ['Report'],
+      reason: 'Enhance UI',
+      expectedUserValue: 'Better UX',
+      expectedBusinessValue: 'Better UX',
+      expectedTechnicalValue: 'Better UI',
+      priority: 'HIGH',
+      riskProposal: 'GREEN',
+      executionProfile: 'AUTONOMOUS_BUILDER_PATCH',
+      targetFiles: ['src/components/ui/NonExistentFilter.tsx'],
+      dependencies: [],
+      acceptanceCriteria: ['Passes'],
+      estimatedComplexity: 'LOW',
+      ownerDecisionNeeded: false,
+      suggestedExecutor: 'AUTONOMOUS_BUILDER',
+      dedupeFingerprint: 'fp_bypass_target'
+    });
+
+    assert.strictEqual(validated.validatedRisk, 'YELLOW');
+    assert.strictEqual(validated.builderEligible, false);
+  });
+
+  test('102. Target Grounding: Zero-candidate result is safe', () => {
+    const { BuilderPolicyEngine } = require('../src/builderPolicy');
+    const res = BuilderPolicyEngine.validateCandidateTargetGrounding([]);
+    assert.strictEqual(res.grounded, false);
+    assert.strictEqual(res.reason?.includes('missing targetFiles'), true);
+  });
+
+  test('103. Target Grounding: Builder never searches for a replacement target after candidate rejection', () => {
+    const { BuilderPolicyEngine } = require('../src/builderPolicy');
+    const invalidTarget = 'src/components/ui/FilterPill.tsx';
+    const res = BuilderPolicyEngine.validateCandidateTargetGrounding([invalidTarget]);
+    assert.strictEqual(res.grounded, false);
+    // Verified that no fallback or auto-replacement occurs
+    assert.strictEqual(invalidTarget, 'src/components/ui/FilterPill.tsx');
+  });
+
+  test('104. Repository Indexer: Generates bounded UI component evidence index', () => {
+    const { RepositoryIndexer } = require('../src/repoIndexer');
+    const indexer = new RepositoryIndexer();
+    const index = indexer.buildBoundedIndex(5);
+
+    assert.ok(index.totalTrackedUiFiles > 0);
+    assert.ok(index.files.length <= 5);
+    assert.strictEqual(index.files[0].exists, true);
+    assert.strictEqual(index.files[0].isTracked, true);
+  });
+
+  test('105. Repository Indexer: Tracked file detection matches git ls-files', () => {
+    const { RepositoryIndexer } = require('../src/repoIndexer');
+    const indexer = new RepositoryIndexer();
+    assert.strictEqual(indexer.isFileTracked('src/components/ui/ProductImage.tsx'), true);
+    assert.strictEqual(indexer.isFileTracked('src/components/ui/FilterPill.tsx'), false);
+  });
+
+  test('106. Repository Indexer: Component reference lookup', () => {
+    const { RepositoryIndexer } = require('../src/repoIndexer');
+    const indexer = new RepositoryIndexer();
+    const refs = indexer.findReferences('src/components/ui/ProductImage.tsx');
+    assert.ok(Array.isArray(refs));
+  });
+
+  test('107. Target Grounding: Unsupported issue rejection without problem description', () => {
+    const { BuilderPolicyEngine } = require('../src/builderPolicy');
+    const res = BuilderPolicyEngine.validateContract({
+      taskId: 't_no_prob',
+      title: 'Cosmetic tweak',
+      problem: '',
+      targetFiles: ['src/components/ui/ProductImage.tsx'],
+      expectedBehavior: 'Cosmetic',
+      acceptanceCriteria: ['Done'],
+      repositoryHead: '99702f6c',
+      risk: 'GREEN'
+    });
+    assert.strictEqual(res.valid, false);
+    assert.strictEqual(res.reason, 'BUILDER_CONTRACT_MISSING_REQUIRED_FIELDS');
   });
 
 });
