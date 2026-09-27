@@ -54,44 +54,44 @@ const CATEGORY_PRESETS: Record<string, { p1: any; p2: any; specKeys: string[] }>
   phones: {
     p1: {
       id: 'iphone-16-pro-max',
-      name: 'Zenith Quantum 9 (iPhone 16 Pro)',
+      name: 'iPhone 16 Pro Max',
       brand: 'Apple',
       basePrice: 84999,
-      category: 'Smartphone',
-      image: '/images/phones/iphone-16-pro-max.jpg',
-      specs: { 'RAM': '12GB RAM', 'Storage': '256GB SSD', 'Refresh Rate': '144Hz OLED' }
+      category: 'Akıllı Telefon',
+      image: '/images/phones/apple/apple-iphone-16-pro-max.jpg',
+      specs: { 'RAM': '12GB RAM', 'Depolama': '256GB SSD', 'Yenileme Hızı': '144Hz OLED' }
     },
     p2: {
       id: 'samsung-galaxy-s25-ultra',
-      name: 'Aether Nova X (S25 Ultra)',
+      name: 'Samsung Galaxy S25 Ultra',
       brand: 'Samsung',
       basePrice: 79999,
-      category: 'Smartphone',
-      image: '/images/phones/galaxy-s24-ultra.jpg',
-      specs: { 'RAM': '16GB RAM', 'Storage': '512GB SSD', 'Refresh Rate': '120Hz LTPO' }
+      category: 'Akıllı Telefon',
+      image: '/images/phones/samsung/samsung-galaxy-s25-ultra.png',
+      specs: { 'RAM': '16GB RAM', 'Depolama': '512GB SSD', 'Yenileme Hızı': '120Hz LTPO' }
     },
-    specKeys: ['RAM', 'Storage', 'Refresh Rate']
+    specKeys: ['RAM', 'Depolama', 'Yenileme Hızı']
   },
   laptops: {
     p1: {
-      id: 'macbook-air-m3-15',
-      name: 'MacBook Air 15" M3',
-      brand: 'Apple',
+      id: 'lg-gram-16-laptop',
+      name: 'LG Gram 16 Laptop',
+      brand: 'LG',
       basePrice: 59999,
       category: 'Laptop',
-      image: '/images/laptops/macbook-air-m3.jpg',
-      specs: { 'RAM': '16GB RAM', 'Storage': '512GB SSD', 'Refresh Rate': '60Hz Liquid Retina' }
+      image: '/images/laptops/lg-395128.jpg',
+      specs: { 'RAM': '16GB RAM', 'Depolama': '512GB SSD', 'Yenileme Hızı': '60Hz IPS' }
     },
     p2: {
-      id: 'dell-xps-14-9440',
-      name: 'Dell XPS 14 Core Ultra 7',
-      brand: 'Dell',
-      basePrice: 64999,
+      id: 'philips-221v8-laptop',
+      name: 'Philips Performance 15',
+      brand: 'Philips',
+      basePrice: 44999,
       category: 'Laptop',
-      image: '/images/laptops/dell-xps-14.jpg',
-      specs: { 'RAM': '32GB RAM', 'Storage': '1TB SSD', 'Refresh Rate': '120Hz OLED' }
+      image: '/images/laptops/philips-221v8-00.jpg',
+      specs: { 'RAM': '32GB RAM', 'Depolama': '1TB SSD', 'Yenileme Hızı': '120Hz OLED' }
     },
-    specKeys: ['RAM', 'Storage', 'Refresh Rate']
+    specKeys: ['RAM', 'Depolama', 'Yenileme Hızı']
   },
   tvs: {
     p1: {
@@ -99,41 +99,41 @@ const CATEGORY_PRESETS: Record<string, { p1: any; p2: any; specKeys: string[] }>
       name: 'LG 55" OLED C4 4K',
       brand: 'LG',
       basePrice: 62999,
-      category: 'Television',
-      image: '/images/tvs/lg-oled-55-c3.jpg',
-      specs: { 'RAM': 'OLED evo Panel', 'Storage': '4x HDMI 2.1', 'Refresh Rate': '144Hz 4K' }
+      category: 'Televizyon',
+      image: '/images/tvs/lg_oled_c4.jpg',
+      specs: { 'Panel': 'OLED evo Panel', 'Girişler': '4x HDMI 2.1', 'Yenileme Hızı': '144Hz 4K' }
     },
     p2: {
       id: 'samsung-55-qn90d',
-      name: 'Samsung 55" QN90D Neo QLED',
+      name: 'Samsung 55" Neo QLED',
       brand: 'Samsung',
       basePrice: 58999,
-      category: 'Television',
-      image: '/images/tvs/samsung-55-qn90c.jpg',
-      specs: { 'RAM': 'Neo QLED Panel', 'Storage': '4x HDMI 2.1', 'Refresh Rate': '144Hz 4K' }
+      category: 'Televizyon',
+      image: '/images/tvs/samsung_neo_qled.jpg',
+      specs: { 'Panel': 'Neo QLED Panel', 'Girişler': '4x HDMI 2.1', 'Yenileme Hızı': '144Hz 4K' }
     },
-    specKeys: ['RAM', 'Storage', 'Refresh Rate']
+    specKeys: ['Panel', 'Girişler', 'Yenileme Hızı']
   },
   headphones: {
     p1: {
-      id: 'sony-wh-1000xm5',
-      name: 'Sony WH-1000XM5',
+      id: 'sony-inzone-h3',
+      name: 'Sony INZONE H3 Gaming',
       brand: 'Sony',
-      basePrice: 14999,
-      category: 'Headphones',
-      image: '/images/headphones/sony-wh-1000xm5.jpg',
-      specs: { 'RAM': 'V1 Noise Processor', 'Storage': '30 Hours Battery', 'Refresh Rate': '30mm Driver' }
+      basePrice: 8999,
+      category: 'Kulaklık',
+      image: '/images/headphones/sony-inzone-h3.jpg',
+      specs: { 'Ses': '360 Spatial Audio', 'Batarya': 'Kablolu / 3.5mm', 'Sürücü': '40mm Neodim' }
     },
     p2: {
       id: 'apple-airpods-max',
       name: 'Apple AirPods Max',
       brand: 'Apple',
       basePrice: 22999,
-      category: 'Headphones',
-      image: '/images/headphones/airpods-max.jpg',
-      specs: { 'RAM': 'H1 Dual Chip ANC', 'Storage': '20 Hours Battery', 'Refresh Rate': '40mm Driver' }
+      category: 'Kulaklık',
+      image: '/images/headphones/apple-airpods-max.jpg',
+      specs: { 'Ses': 'H1 Çift Çip ANC', 'Batarya': '20 Saat Pil Ömrü', 'Sürücü': '40mm Dinamik' }
     },
-    specKeys: ['RAM', 'Storage', 'Refresh Rate']
+    specKeys: ['Ses', 'Batarya', 'Sürücü']
   }
 };
 
@@ -377,19 +377,19 @@ export function HomePageClient({
         {/* Section Title Header (Exact Mockup B Typography) */}
         <div className="text-center space-y-2">
           <h2 className="text-2xl sm:text-4xl font-black text-slate-900 dark:text-white tracking-tight uppercase font-sans">
-            3D HOLOGRAPHIC PRODUCT DUEL
+            3D HOLOGRAFİK ÜRÜN DÜELLOSU
           </h2>
           <p className="text-xs sm:text-sm text-slate-500 font-semibold tracking-wide">
-            Compare and Analyze Head-to-Head
+            Kafa Kafaya Karşılaştırın ve Analiz Edin
           </p>
 
           {/* Category Selector Tabs */}
           <div className="flex flex-wrap items-center justify-center gap-2 pt-3">
             {[
-              { id: 'phones', label: 'Smartphones', icon: Smartphone },
-              { id: 'laptops', label: 'Laptops', icon: Laptop },
-              { id: 'tvs', label: 'Televisions', icon: Tv },
-              { id: 'headphones', label: 'Headphones', icon: Headphones },
+              { id: 'phones', label: 'Akıllı Telefonlar', icon: Smartphone },
+              { id: 'laptops', label: 'Laptoplar', icon: Laptop },
+              { id: 'tvs', label: 'Televizyonlar', icon: Tv },
+              { id: 'headphones', label: 'Kulaklıklar', icon: Headphones },
             ].map((tab) => {
               const Icon = tab.icon;
               const isSelected = activeDuelCategory === tab.id;
@@ -468,7 +468,7 @@ export function HomePageClient({
                       type="text"
                       value={search1Query}
                       onChange={(e) => setSearch1Query(e.target.value)}
-                      placeholder="Search / Select 1st Product..."
+                      placeholder="1. Ürünü Ara / Seç..."
                       className="w-full pl-9 pr-3 py-2 bg-white/90 dark:bg-slate-800/90 text-slate-900 dark:text-white text-xs font-bold rounded-xl border border-slate-200 dark:border-slate-700 focus:outline-none focus:border-cyan-500"
                     />
                   </div>
@@ -513,7 +513,7 @@ export function HomePageClient({
                 {currentSpecKeys.map((key) => (
                   <div key={key} className="bg-slate-100/90 dark:bg-slate-800/90 p-2.5 rounded-xl flex items-center justify-between border border-slate-200/60 dark:border-slate-700/60 text-xs">
                     <span className="text-slate-400 font-bold uppercase text-[10px]">{key}</span>
-                    <span className="font-black text-slate-900 dark:text-white">{product1.specs?.[key] || 'Details'}</span>
+                    <span className="font-black text-slate-900 dark:text-white">{product1.specs?.[key] || 'Detaylar'}</span>
                   </div>
                 ))}
               </div>
@@ -524,13 +524,13 @@ export function HomePageClient({
                   href={`/compare?d1=${encodeURIComponent(product1.id)}&d2=${encodeURIComponent(product2.id)}`}
                   className="py-2.5 px-3 bg-gradient-to-r from-cyan-500 to-teal-500 hover:from-cyan-400 hover:to-teal-400 text-white font-black text-xs rounded-xl shadow-md transition-all text-center flex items-center justify-center"
                 >
-                  ADD TO COMPARE
+                  KARŞILAŞTIRMAYA EKLE
                 </Link>
                 <Link
                   href={`/phones/${product1.id}`}
                   className="py-2.5 px-3 bg-slate-100 hover:bg-slate-200 dark:bg-slate-800 dark:hover:bg-slate-700 text-slate-800 dark:text-slate-200 font-bold text-xs rounded-xl border border-slate-200 dark:border-slate-700 transition-all text-center flex items-center justify-center"
                 >
-                  VIEW DETAILS
+                  DETAYLARI İNCELE
                 </Link>
               </div>
 
@@ -553,7 +553,7 @@ export function HomePageClient({
                       type="text"
                       value={search2Query}
                       onChange={(e) => setSearch2Query(e.target.value)}
-                      placeholder="Search / Select 2nd Product..."
+                      placeholder="2. Ürünü Ara / Seç..."
                       className="w-full pl-9 pr-3 py-2 bg-white/90 dark:bg-slate-800/90 text-slate-900 dark:text-white text-xs font-bold rounded-xl border border-slate-200 dark:border-slate-700 focus:outline-none focus:border-fuchsia-500"
                     />
                   </div>
@@ -598,7 +598,7 @@ export function HomePageClient({
                 {currentSpecKeys.map((key) => (
                   <div key={key} className="bg-slate-100/90 dark:bg-slate-800/90 p-2.5 rounded-xl flex items-center justify-between border border-slate-200/60 dark:border-slate-700/60 text-xs">
                     <span className="text-slate-400 font-bold uppercase text-[10px]">{key}</span>
-                    <span className="font-black text-slate-900 dark:text-white">{product2.specs?.[key] || 'Details'}</span>
+                    <span className="font-black text-slate-900 dark:text-white">{product2.specs?.[key] || 'Detaylar'}</span>
                   </div>
                 ))}
               </div>
@@ -609,13 +609,13 @@ export function HomePageClient({
                   href={`/compare?d1=${encodeURIComponent(product1.id)}&d2=${encodeURIComponent(product2.id)}`}
                   className="py-2.5 px-3 bg-gradient-to-r from-fuchsia-500 to-purple-600 hover:from-fuchsia-400 hover:to-purple-500 text-white font-black text-xs rounded-xl shadow-md transition-all text-center flex items-center justify-center"
                 >
-                  ADD TO COMPARE
+                  KARŞILAŞTIRMAYA EKLE
                 </Link>
                 <Link
                   href={`/phones/${product2.id}`}
                   className="py-2.5 px-3 bg-slate-100 hover:bg-slate-200 dark:bg-slate-800 dark:hover:bg-slate-700 text-slate-800 dark:text-slate-200 font-bold text-xs rounded-xl border border-slate-200 dark:border-slate-700 transition-all text-center flex items-center justify-center"
                 >
-                  VIEW DETAILS
+                  DETAYLARI İNCELE
                 </Link>
               </div>
 
@@ -631,7 +631,7 @@ export function HomePageClient({
           {/* ========================================================= */}
           <div className="mt-10 pt-6 border-t border-slate-200/80 dark:border-slate-800 space-y-3 max-w-2xl mx-auto">
             <div className="text-center text-xs font-black uppercase tracking-wider text-slate-400 pb-1">
-              Head-to-Head Spec Matrix
+              Kafa Kafaya Özellik Matrisi
             </div>
 
             <div className="bg-white/80 dark:bg-slate-900/80 rounded-2xl border border-slate-200/80 dark:border-slate-800 p-4 shadow-sm space-y-2">
