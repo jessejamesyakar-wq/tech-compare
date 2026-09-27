@@ -12,6 +12,7 @@ import { resolveActiveColor } from '@/lib/colorVariantHelper';
 import { useCompare } from '@/context/CompareContext';
 import { StoreTable } from '@/components/detail/StoreTable';
 import { CompactStoreComparison } from '@/components/detail/CompactStoreComparison';
+import { FieldSourcesEvidence } from '@/components/detail/FieldSourcesEvidence';
 import { ProductImageGallery } from '@/components/detail/ProductImageGallery';
 import { ProductColorPicker } from '@/components/detail/ProductColorPicker';
 import { StickyHeaderBar } from '@/components/detail/StickyHeaderBar';
@@ -306,6 +307,9 @@ export default function TVDetailClient({ initialTVProduct }: { initialTVProduct:
         </h2>
         <TVSpecSheet specs={tv.specs} />
       </div>
+
+      {/* 🚩 Data Trust & Spec Source Evidence */}
+      <FieldSourcesEvidence product={tv} />
 
       {/* Price Alert Subscription Modal */}
       <PriceAlertModal

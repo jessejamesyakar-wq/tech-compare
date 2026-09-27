@@ -16,6 +16,7 @@ import { ProductColorPicker } from '@/components/detail/ProductColorPicker';
 const PriceHistoryChart = dynamic(() => import('@/components/detail/PriceHistoryChart').then(m => m.PriceHistoryChart), { loading: () => <div className="h-64 bg-slate-50 rounded-3xl animate-pulse" /> });
 const PriceAlertModal = dynamic(() => import('@/components/detail/PriceAlertModal').then(m => m.PriceAlertModal), { ssr: false });
 import { StickyHeaderBar } from '@/components/detail/StickyHeaderBar';
+import { FieldSourcesEvidence } from '@/components/detail/FieldSourcesEvidence';
 import { useCompare } from '@/context/CompareContext';
 import {
   Star,
@@ -430,6 +431,9 @@ export default function ApplianceDetailClient({ initialApplianceProduct }: { ini
 
       {/* 6-Month Price History Chart */}
       <PriceHistoryChart data={product.priceHistory} currency={product.currency || 'TL'} product={product as any} />
+
+      {/* 🚩 Data Trust & Spec Source Evidence */}
+      <FieldSourcesEvidence product={product as any} />
 
       {/* Price Alert Modal */}
       <PriceAlertModal
