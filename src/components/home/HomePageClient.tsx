@@ -19,11 +19,9 @@ import {
   Laptop,
   Tv,
   Headphones,
-  Watch,
-  Monitor,
   CheckCircle2,
   Zap,
-  RotateCcw
+  ExternalLink
 } from 'lucide-react';
 
 interface HomePageClientProps {
@@ -51,91 +49,91 @@ interface HomePageClientProps {
   };
 }
 
-// Preset Duel Items by Category
+// Preset Duel Items by Category (Matching Mockup B)
 const CATEGORY_PRESETS: Record<string, { p1: any; p2: any; specKeys: string[] }> = {
   phones: {
     p1: {
       id: 'iphone-16-pro-max',
-      name: 'iPhone 16 Pro Max',
+      name: 'Zenith Quantum 9 (iPhone 16 Pro)',
       brand: 'Apple',
       basePrice: 84999,
-      category: 'phones',
+      category: 'Smartphone',
       image: '/images/phones/iphone-16-pro-max.jpg',
-      specs: { 'RAM': '8 GB', 'Depolama': '256 GB', 'Ekran': '6.9" 120Hz OLED', 'Kamera': '48 MP Üçlü', 'Batarya': '4685 mAh' }
+      specs: { 'RAM': '12GB RAM', 'Storage': '256GB SSD', 'Refresh Rate': '144Hz OLED' }
     },
     p2: {
-      id: 'samsung-galaxy-s24-ultra',
-      name: 'Samsung Galaxy S24 Ultra',
+      id: 'samsung-galaxy-s25-ultra',
+      name: 'Aether Nova X (S25 Ultra)',
       brand: 'Samsung',
-      basePrice: 74999,
-      category: 'phones',
+      basePrice: 79999,
+      category: 'Smartphone',
       image: '/images/phones/galaxy-s24-ultra.jpg',
-      specs: { 'RAM': '12 GB', 'Depolama': '256 GB', 'Ekran': '6.8" 120Hz AMOLED', 'Kamera': '200 MP Dörtlü', 'Batarya': '5000 mAh' }
+      specs: { 'RAM': '16GB RAM', 'Storage': '512GB SSD', 'Refresh Rate': '120Hz LTPO' }
     },
-    specKeys: ['RAM', 'Depolama', 'Ekran', 'Kamera', 'Batarya']
+    specKeys: ['RAM', 'Storage', 'Refresh Rate']
   },
   laptops: {
     p1: {
       id: 'macbook-air-m3-15',
-      name: 'Apple MacBook Air 15" M3',
+      name: 'MacBook Air 15" M3',
       brand: 'Apple',
       basePrice: 59999,
-      category: 'laptops',
+      category: 'Laptop',
       image: '/images/laptops/macbook-air-m3.jpg',
-      specs: { 'İşlemci': 'Apple M3 (8-Çekirdek)', 'RAM': '16 GB Unified', 'SSD': '512 GB', 'Ekran': '15.3" Liquid Retina', 'Ağırlık': '1.51 kg' }
+      specs: { 'RAM': '16GB RAM', 'Storage': '512GB SSD', 'Refresh Rate': '60Hz Liquid Retina' }
     },
     p2: {
       id: 'dell-xps-14-9440',
       name: 'Dell XPS 14 Core Ultra 7',
       brand: 'Dell',
       basePrice: 64999,
-      category: 'laptops',
+      category: 'Laptop',
       image: '/images/laptops/dell-xps-14.jpg',
-      specs: { 'İşlemci': 'Intel Core Ultra 7 155H', 'RAM': '16 GB LPDDR5x', 'SSD': '1 TB NVMe', 'Ekran': '14.5" 3.2K OLED 120Hz', 'Ağırlık': '1.68 kg' }
+      specs: { 'RAM': '32GB RAM', 'Storage': '1TB SSD', 'Refresh Rate': '120Hz OLED' }
     },
-    specKeys: ['İşlemci', 'RAM', 'SSD', 'Ekran', 'Ağırlık']
+    specKeys: ['RAM', 'Storage', 'Refresh Rate']
   },
   tvs: {
     p1: {
       id: 'lg-oled-55-c4',
-      name: 'LG OLED55C44LA 55" 4K OLED',
+      name: 'LG 55" OLED C4 4K',
       brand: 'LG',
       basePrice: 62999,
-      category: 'tvs',
+      category: 'Television',
       image: '/images/tvs/lg-oled-55-c3.jpg',
-      specs: { 'Panel': 'OLED evo 4K', 'Yenileme Hızı': '144 Hz', 'İşlemci': 'α9 AI Processor Gen7', 'Ses': '40W 2.2 Kanal', 'HDMI': '4x HDMI 2.1' }
+      specs: { 'RAM': 'OLED evo Panel', 'Storage': '4x HDMI 2.1', 'Refresh Rate': '144Hz 4K' }
     },
     p2: {
       id: 'samsung-55-qn90d',
-      name: 'Samsung 55QN90D 55" Neo QLED',
+      name: 'Samsung 55" QN90D Neo QLED',
       brand: 'Samsung',
       basePrice: 58999,
-      category: 'tvs',
+      category: 'Television',
       image: '/images/tvs/samsung-55-qn90c.jpg',
-      specs: { 'Panel': 'Neo QLED 4K', 'Yenileme Hızı': '144 Hz', 'İşlemci': 'NQ4 AI Gen2', 'Ses': '60W 4.2.2 Kanal', 'HDMI': '4x HDMI 2.1' }
+      specs: { 'RAM': 'Neo QLED Panel', 'Storage': '4x HDMI 2.1', 'Refresh Rate': '144Hz 4K' }
     },
-    specKeys: ['Panel', 'Yenileme Hızı', 'İşlemci', 'Ses', 'HDMI']
+    specKeys: ['RAM', 'Storage', 'Refresh Rate']
   },
   headphones: {
     p1: {
       id: 'sony-wh-1000xm5',
-      name: 'Sony WH-1000XM5 Kulak Üstü',
+      name: 'Sony WH-1000XM5',
       brand: 'Sony',
       basePrice: 14999,
-      category: 'headphones',
+      category: 'Headphones',
       image: '/images/headphones/sony-wh-1000xm5.jpg',
-      specs: { 'ANC': 'V1 İşlemcili Gelişmiş ANC', 'Sürücü': '30 mm Karbon Çelik', 'Pil Ömrü': '30 Saat (ANC Açık)', 'Ağırlık': '250 g', 'Bluetooth': '5.2 (LDAC Support)' }
+      specs: { 'RAM': 'V1 Noise Processor', 'Storage': '30 Hours Battery', 'Refresh Rate': '30mm Driver' }
     },
     p2: {
       id: 'apple-airpods-max',
       name: 'Apple AirPods Max',
       brand: 'Apple',
       basePrice: 22999,
-      category: 'headphones',
+      category: 'Headphones',
       image: '/images/headphones/airpods-max.jpg',
-      specs: { 'ANC': 'Aktif Gürültü Engelleme', 'Sürücü': '40 mm Dinamik Sürücü', 'Pil Ömrü': '20 Saat (ANC Açık)', 'Ağırlık': '384.8 g', 'Bluetooth': '5.0 (H1 Chip)' }
+      specs: { 'RAM': 'H1 Dual Chip ANC', 'Storage': '20 Hours Battery', 'Refresh Rate': '40mm Driver' }
     },
-    specKeys: ['ANC', 'Sürücü', 'Pil Ömrü', 'Ağırlık', 'Bluetooth']
+    specKeys: ['RAM', 'Storage', 'Refresh Rate']
   }
 };
 
@@ -157,8 +155,6 @@ export function HomePageClient({
   const [search2Query, setSearch2Query] = useState('');
   const [results1, setResults1] = useState<CompactSearchProduct[]>([]);
   const [results2, setResults2] = useState<CompactSearchProduct[]>([]);
-  const [isSearching1, setIsSearching1] = useState(false);
-  const [isSearching2, setIsSearching2] = useState(false);
 
   // Update preset when switching category
   const handleCategoryChange = (catId: string) => {
@@ -178,16 +174,11 @@ export function HomePageClient({
     const q = search1Query.trim();
     if (!q) {
       setResults1([]);
-      setIsSearching1(false);
       return;
     }
-    setIsSearching1(true);
     const timer = setTimeout(() => {
       searchLocalProductsAsync(q, 6).then((res) => {
-        if (active) {
-          setResults1(res);
-          setIsSearching1(false);
-        }
+        if (active) setResults1(res);
       });
     }, 150);
     return () => {
@@ -202,16 +193,11 @@ export function HomePageClient({
     const q = search2Query.trim();
     if (!q) {
       setResults2([]);
-      setIsSearching2(false);
       return;
     }
-    setIsSearching2(true);
     const timer = setTimeout(() => {
       searchLocalProductsAsync(q, 6).then((res) => {
-        if (active) {
-          setResults2(res);
-          setIsSearching2(false);
-        }
+        if (active) setResults2(res);
       });
     }, 150);
     return () => {
@@ -230,11 +216,9 @@ export function HomePageClient({
       category: item.category,
       image: item.image,
       specs: {
-        'RAM': '8-12 GB',
-        'Depolama': '256 GB',
-        'Ekran': 'Yüksek Kalite Panel',
-        'Kategori': item.category,
-        'Referans': 'Katalog Verisi'
+        'RAM': '12GB RAM',
+        'Storage': '256GB SSD',
+        'Refresh Rate': '120Hz OLED'
       }
     };
     if (slot === 1) {
@@ -252,14 +236,14 @@ export function HomePageClient({
   const currentSpecKeys = currentPreset.specKeys;
 
   return (
-    <div className="space-y-10 pb-12 max-w-full overflow-hidden bg-white dark:bg-slate-950 text-slate-900 dark:text-white transition-colors">
+    <div className="space-y-12 pb-12 max-w-full overflow-hidden bg-white dark:bg-slate-950 text-slate-900 dark:text-white transition-colors">
 
       {/* ========================================================================= */}
       {/* 🚀 1. HERO SECTION: CONCEPT 1 PRISMATIC HOLOGRAM ON CLEAN WHITE CANVAS     */}
       {/* ========================================================================= */}
       <section className="-mx-4 sm:-mx-6 lg:-mx-8 -mt-6 bg-gradient-to-b from-slate-50 via-white to-slate-50/80 dark:from-slate-900 dark:via-slate-950 dark:to-slate-900 p-6 sm:p-10 lg:p-14 relative border-b border-slate-200/80 dark:border-slate-800 shadow-xs space-y-8">
 
-        {/* Ambient Subtle Prism Light Effect */}
+        {/* Ambient Prism Light Glow Effect */}
         <div aria-hidden="true" className="absolute inset-0 pointer-events-none z-0">
           <div className="absolute top-1/4 left-1/3 w-[600px] h-[600px] bg-cyan-400/10 blur-[140px] rounded-full" />
           <div className="absolute top-10 right-10 w-96 h-96 bg-purple-400/10 blur-[120px] rounded-full" />
@@ -267,9 +251,9 @@ export function HomePageClient({
 
         <div className="relative z-10 max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
 
-          {/* Left Column: Typography, Prompt Pills & Search */}
+          {/* Left Column: Typography & Interactive Search */}
           <div className="lg:col-span-7 space-y-6 sm:space-y-8">
-            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-cyan-50 dark:bg-cyan-950/60 border border-cyan-200 dark:border-cyan-800 text-cyan-700 dark:text-cyan-300 text-xs font-black tracking-widest uppercase shadow-2xs">
+            <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-cyan-50 dark:bg-cyan-950/60 border border-cyan-200 dark:border-cyan-800 text-cyan-700 dark:text-cyan-300 text-xs font-black tracking-widest uppercase shadow-2xs">
               <Sparkles className="w-3.5 h-3.5 text-cyan-600 fill-cyan-500 animate-pulse" />
               <span>AKILLI KARŞILAŞTIRMA VE FİYAT ANALİZİ</span>
             </div>
@@ -277,15 +261,15 @@ export function HomePageClient({
             {/* Main Headline */}
             <h1 className="text-4xl sm:text-7xl lg:text-[80px] font-black tracking-tight leading-[1.05] text-slate-900 dark:text-white">
               <span className="block">İyi ki</span>
-              <span className="block text-cyan-600 dark:text-cyan-400">acele</span>
-              <span className="block font-black">etmedin.</span>
+              <span className="block text-cyan-600 dark:text-cyan-400 font-black">acele</span>
+              <span className="block">etmedin.</span>
             </h1>
 
             <p className="text-base sm:text-lg text-slate-600 dark:text-slate-300 font-medium leading-relaxed max-w-lg">
               Doğru teknolojiyi, en uygun fiyata, acele etmeden bul.
             </p>
 
-            {/* Quick Interactive Category Prompt Chips */}
+            {/* Category Quick Chips */}
             <div className="space-y-2">
               <div className="text-xs font-extrabold uppercase tracking-wider text-slate-400">Hızlı Kategori Seçimi</div>
               <div className="flex flex-wrap items-center gap-2">
@@ -337,13 +321,10 @@ export function HomePageClient({
 
           </div>
 
-          {/* Right Column: High-Res RoboPengu & 3D Holographic Preview Deck */}
+          {/* Right Column: High-Res RoboPengu & 3D Holographic Cards */}
           <div className="lg:col-span-5 flex flex-col items-center justify-center relative pt-6 lg:pt-0">
+            <div className="relative w-full max-w-md bg-white/80 dark:bg-slate-900/80 border border-cyan-200/90 dark:border-cyan-800/90 rounded-3xl p-6 shadow-2xl backdrop-blur-xl space-y-4 text-center">
 
-            {/* RoboPengu Mascot Scene with Floating Glassmorphic Hologram Card */}
-            <div className="relative w-full max-w-md bg-white/70 dark:bg-slate-900/70 border border-cyan-200/80 dark:border-cyan-800/80 rounded-3xl p-6 shadow-2xl backdrop-blur-xl space-y-4 text-center">
-
-              {/* Floating Mascot Header */}
               <div className="relative flex flex-col items-center justify-center">
                 <div className="relative w-36 h-36 sm:w-44 sm:h-44 transition-transform hover:scale-105 duration-300">
                   <Image
@@ -383,38 +364,32 @@ export function HomePageClient({
               </div>
 
             </div>
-
           </div>
 
         </div>
       </section>
 
       {/* ========================================================================= */}
-      {/* ⚔️ 2. SCROLL-DRIVEN "KONSEPT B": PRIZMATIK LAZER DÜELLO MOTORU            */}
+      {/* ⚔️ 2. 3D HOLOGRAPHIC PRODUCT DUEL SECTION (EXACT MATCH FOR MOCKUP B)     */}
       {/* ========================================================================= */}
-      <section id="holographic-duel-section" className="max-w-7xl mx-auto space-y-6 px-3 sm:px-6">
+      <section id="holographic-duel-section" className="max-w-7xl mx-auto space-y-8 px-3 sm:px-6">
 
-        {/* Section Title & Category Tabs */}
-        <div className="text-center space-y-3">
-          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-50 dark:bg-emerald-950 text-emerald-700 dark:text-emerald-300 text-xs font-black uppercase tracking-widest border border-emerald-200 dark:border-emerald-800">
-            <Swords className="w-4 h-4 text-emerald-600" />
-            <span>KONSEPT B · İNTERAKTİF HOLOGRAFİK DÜELLO</span>
-          </div>
-
-          <h2 className="text-2xl sm:text-4xl font-black text-slate-900 dark:text-white tracking-tight">
-            İki Ürünü Seç. Lazer Kıyaslamasını Gör.
+        {/* Section Title Header (Exact Mockup B Typography) */}
+        <div className="text-center space-y-2">
+          <h2 className="text-2xl sm:text-4xl font-black text-slate-900 dark:text-white tracking-tight uppercase font-sans">
+            3D HOLOGRAPHIC PRODUCT DUEL
           </h2>
-          <p className="text-xs sm:text-sm text-slate-500 max-w-xl mx-auto font-medium">
-            Kartların üstündeki arama kutusuna istediğin modeli yaz veya hızlı kategorileri seç.
+          <p className="text-xs sm:text-sm text-slate-500 font-semibold tracking-wide">
+            Compare and Analyze Head-to-Head
           </p>
 
-          {/* Category Tabs Switcher */}
-          <div className="flex flex-wrap items-center justify-center gap-2 pt-2">
+          {/* Category Selector Tabs */}
+          <div className="flex flex-wrap items-center justify-center gap-2 pt-3">
             {[
-              { id: 'phones', label: 'Telefon', icon: Smartphone },
-              { id: 'laptops', label: 'Laptop', icon: Laptop },
-              { id: 'tvs', label: 'Televizyon', icon: Tv },
-              { id: 'headphones', label: 'Kulaklık', icon: Headphones },
+              { id: 'phones', label: 'Smartphones', icon: Smartphone },
+              { id: 'laptops', label: 'Laptops', icon: Laptop },
+              { id: 'tvs', label: 'Televisions', icon: Tv },
+              { id: 'headphones', label: 'Headphones', icon: Headphones },
             ].map((tab) => {
               const Icon = tab.icon;
               const isSelected = activeDuelCategory === tab.id;
@@ -437,66 +412,55 @@ export function HomePageClient({
           </div>
         </div>
 
-        {/* ⚔️ DUAL HOLOGRAPHIC FROSTED GLASS CARDS WITH CYAN & FUCHSIA LASER BEAMS */}
-        <div className="relative bg-gradient-to-b from-slate-50 to-white dark:from-slate-900 dark:to-slate-950 border border-slate-200 dark:border-slate-800 rounded-3xl p-4 sm:p-8 shadow-xl overflow-hidden">
+        {/* ⚔️ DUAL VERTICAL 3D FROSTED GLASS CARDS & X-LASER BEAMS */}
+        <div className="relative bg-gradient-to-b from-slate-50/80 via-white to-slate-50/80 dark:from-slate-900 dark:to-slate-950 border border-slate-200/80 dark:border-slate-800 rounded-3xl p-6 sm:p-10 shadow-xl overflow-hidden">
 
-          {/* SVG Animated Glowing Laser Beams Background Layer */}
-          <svg className="absolute inset-0 w-full h-full pointer-events-none z-0 opacity-80" xmlns="http://www.w3.org/2000/svg">
+          {/* SVG Glowing X-Laser Beams Crossing Layer (Exact Mockup B Laser Effect) */}
+          <svg className="absolute inset-0 w-full h-full pointer-events-none z-0 opacity-90" xmlns="http://www.w3.org/2000/svg">
             <defs>
-              <linearGradient id="laserCyan" x1="0%" y1="0%" x2="100%" y2="100%">
-                <stop offset="0%" stopColor="#06b6d4" stopOpacity="0.8" />
+              <linearGradient id="laserCyanBeam" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" stopColor="#06b6d4" stopOpacity="0.9" />
                 <stop offset="50%" stopColor="#38bdf8" stopOpacity="1" />
-                <stop offset="100%" stopColor="#d946ef" stopOpacity="0.8" />
+                <stop offset="100%" stopColor="#d946ef" stopOpacity="0.9" />
               </linearGradient>
-              <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
-                <feGaussianBlur stdDeviation="4" result="blur" />
-                <feComposite in="SourceGraphic" in2="blur" operator="over" />
+              <linearGradient id="laserFuchsiaBeam" x1="0%" y1="100%" x2="100%" y2="0%">
+                <stop offset="0%" stopColor="#d946ef" stopOpacity="0.9" />
+                <stop offset="50%" stopColor="#c084fc" stopOpacity="1" />
+                <stop offset="100%" stopColor="#06b6d4" stopOpacity="0.9" />
+              </linearGradient>
+              <filter id="neonGlowFilter" x="-30%" y="-30%" width="160%" height="160%">
+                <feGaussianBlur stdDeviation="5" result="blur1" />
+                <feGaussianBlur stdDeviation="12" result="blur2" />
+                <feMerge>
+                  <feMergeNode in="blur2" />
+                  <feMergeNode in="blur1" />
+                  <feMergeNode in="SourceGraphic" />
+                </feMerge>
               </filter>
             </defs>
 
-            {/* Connecting Laser Beams */}
-            <path
-              d="M 25% 40% Q 50% 25% 75% 40%"
-              fill="none"
-              stroke="url(#laserCyan)"
-              strokeWidth="3"
-              filter="url(#glow)"
-              className="animate-pulse"
-            />
-            <path
-              d="M 25% 60% Q 50% 75% 75% 60%"
-              fill="none"
-              stroke="url(#laserCyan)"
-              strokeWidth="3"
-              filter="url(#glow)"
-              className="animate-pulse"
-            />
+            {/* X-Crossing Laser Lines */}
+            <line x1="20%" y1="25%" x2="80%" y2="75%" stroke="url(#laserCyanBeam)" strokeWidth="4" filter="url(#neonGlowFilter)" className="animate-pulse" />
+            <line x1="20%" y1="75%" x2="80%" y2="25%" stroke="url(#laserFuchsiaBeam)" strokeWidth="4" filter="url(#neonGlowFilter)" className="animate-pulse" />
           </svg>
 
-          {/* Central Glowing VS Badge */}
+          {/* Central Glowing VS Emblem */}
           <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-20 pointer-events-none flex flex-col items-center">
-            <div className="w-14 h-14 sm:w-16 sm:h-16 rounded-2xl bg-gradient-to-tr from-cyan-500 via-teal-400 to-fuchsia-500 text-white font-black text-xl sm:text-2xl flex items-center justify-center shadow-[0_0_35px_rgba(6,182,212,0.8)] border-2 border-white dark:border-slate-900 animate-bounce">
+            <div className="w-16 h-16 sm:w-20 sm:h-20 rounded-full bg-gradient-to-tr from-cyan-500 via-indigo-500 to-fuchsia-500 text-white font-black text-2xl sm:text-3xl flex items-center justify-center shadow-[0_0_40px_rgba(217,70,239,0.8)] border-4 border-white dark:border-slate-900 animate-pulse">
               VS
             </div>
-            <span className="mt-1 bg-slate-900/90 text-cyan-300 text-[10px] font-extrabold px-2 py-0.5 rounded-full border border-cyan-400/40 shadow-md">
-              Lazer Kıyaslama
-            </span>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-16 relative z-10">
+          {/* Cards Grid */}
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-20 relative z-10 items-stretch">
 
             {/* ========================================================= */}
-            {/* CARD 1: PRODUCT 1 INTERACTIVE CARD                        */}
+            {/* CARD 1 (LEFT): EXACT MATCH FOR MOCKUP B FROSTED GLASS CARD */}
             {/* ========================================================= */}
-            <div className="bg-white/90 dark:bg-slate-900/90 border-2 border-cyan-400/60 rounded-2xl p-4 sm:p-6 shadow-xl backdrop-blur-md space-y-4 relative group">
+            <div className="relative bg-white/75 dark:bg-slate-900/75 border-2 border-cyan-300/60 dark:border-cyan-700/60 shadow-[0_20px_50px_rgba(6,182,212,0.15)] rounded-3xl p-6 sm:p-8 backdrop-blur-2xl flex flex-col justify-between space-y-6 transition-transform hover:-translate-y-1">
 
-              {/* Card Header & Live Search Input */}
-              <div className="space-y-2">
-                <div className="flex items-center justify-between text-xs font-black text-cyan-700 dark:text-cyan-300 uppercase">
-                  <span>1. Ürün Podyumu</span>
-                  <span className="bg-cyan-100 dark:bg-cyan-950 px-2 py-0.5 rounded">Sol Köşe</span>
-                </div>
-
+              {/* Card Top Search & Title */}
+              <div className="space-y-3">
                 <div className="relative">
                   <div className="relative flex items-center">
                     <Search className="w-4 h-4 text-slate-400 absolute left-3 pointer-events-none" />
@@ -504,12 +468,11 @@ export function HomePageClient({
                       type="text"
                       value={search1Query}
                       onChange={(e) => setSearch1Query(e.target.value)}
-                      placeholder="1. Ürünü Ara / Seç..."
-                      className="w-full pl-9 pr-3 py-2 bg-slate-50 dark:bg-slate-800 text-slate-900 dark:text-white text-xs font-bold rounded-xl border border-slate-200 dark:border-slate-700 focus:outline-none focus:border-cyan-500"
+                      placeholder="Search / Select 1st Product..."
+                      className="w-full pl-9 pr-3 py-2 bg-white/90 dark:bg-slate-800/90 text-slate-900 dark:text-white text-xs font-bold rounded-xl border border-slate-200 dark:border-slate-700 focus:outline-none focus:border-cyan-500"
                     />
                   </div>
 
-                  {/* Search Autocomplete Results Dropdown */}
                   {results1.length > 0 && (
                     <div className="absolute top-full left-0 right-0 mt-1 bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-xl shadow-2xl p-2 z-50 max-h-48 overflow-y-auto space-y-1">
                       {results1.map((item) => (
@@ -526,50 +489,63 @@ export function HomePageClient({
                     </div>
                   )}
                 </div>
-              </div>
 
-              {/* Product Visual & Info */}
-              <div className="flex items-center gap-4 pt-2">
-                <div className="w-20 h-20 sm:w-24 sm:h-24 rounded-xl bg-slate-50 dark:bg-slate-800 p-2 border border-slate-200 dark:border-slate-700 shrink-0 flex items-center justify-center">
-                  <ProductImage src={product1.image} alt={product1.name} variant="card" className="w-full h-full" />
-                </div>
-                <div className="min-w-0 flex-1 space-y-1">
-                  <span className="text-[10px] font-black uppercase text-cyan-600 bg-cyan-50 dark:bg-cyan-950 px-1.5 py-0.5 rounded">
-                    {product1.brand}
-                  </span>
-                  <h3 className="text-sm sm:text-base font-black text-slate-900 dark:text-white truncate leading-tight">
+                <div>
+                  <h3 className="text-xl sm:text-2xl font-black text-slate-900 dark:text-white leading-tight">
                     {product1.name}
                   </h3>
-                  <div className="text-base font-black text-cyan-600 dark:text-cyan-400 tabular-nums">
-                    ₺{product1.basePrice?.toLocaleString('tr-TR')}
-                  </div>
+                  <span className="text-xs font-bold text-slate-400 uppercase tracking-wider block mt-0.5">
+                    {product1.category}
+                  </span>
                 </div>
               </div>
 
-              {/* Product 1 Highlight Specs */}
-              <div className="space-y-1.5 pt-2 border-t border-slate-100 dark:border-slate-800">
+              {/* Product Floating 3D Image & Holographic Ring Aura */}
+              <div className="relative my-4 py-4 flex items-center justify-center">
+                <div className="absolute w-36 h-36 bg-cyan-400/20 blur-2xl rounded-full pointer-events-none" />
+                <div className="relative w-36 h-36 sm:w-44 sm:h-44 p-3 bg-white/60 dark:bg-slate-800/60 rounded-2xl border border-cyan-200/60 dark:border-cyan-800/60 shadow-md flex items-center justify-center">
+                  <ProductImage src={product1.image} alt={product1.name} variant="card" className="w-full h-full object-contain" />
+                </div>
+              </div>
+
+              {/* Spec Badges Grid Inside Card */}
+              <div className="space-y-2">
                 {currentSpecKeys.map((key) => (
-                  <div key={key} className="flex items-center justify-between text-xs">
-                    <span className="text-slate-400 font-semibold">{key}:</span>
-                    <span className="font-bold text-slate-800 dark:text-slate-200">{product1.specs?.[key] || 'Detaylı Veri'}</span>
+                  <div key={key} className="bg-slate-100/90 dark:bg-slate-800/90 p-2.5 rounded-xl flex items-center justify-between border border-slate-200/60 dark:border-slate-700/60 text-xs">
+                    <span className="text-slate-400 font-bold uppercase text-[10px]">{key}</span>
+                    <span className="font-black text-slate-900 dark:text-white">{product1.specs?.[key] || 'Details'}</span>
                   </div>
                 ))}
               </div>
 
+              {/* Card Action Buttons */}
+              <div className="grid grid-cols-2 gap-2 pt-2">
+                <Link
+                  href={`/compare?d1=${encodeURIComponent(product1.id)}&d2=${encodeURIComponent(product2.id)}`}
+                  className="py-2.5 px-3 bg-gradient-to-r from-cyan-500 to-teal-500 hover:from-cyan-400 hover:to-teal-400 text-white font-black text-xs rounded-xl shadow-md transition-all text-center flex items-center justify-center"
+                >
+                  ADD TO COMPARE
+                </Link>
+                <Link
+                  href={`/phones/${product1.id}`}
+                  className="py-2.5 px-3 bg-slate-100 hover:bg-slate-200 dark:bg-slate-800 dark:hover:bg-slate-700 text-slate-800 dark:text-slate-200 font-bold text-xs rounded-xl border border-slate-200 dark:border-slate-700 transition-all text-center flex items-center justify-center"
+                >
+                  VIEW DETAILS
+                </Link>
+              </div>
+
+              {/* Translucent Glass Pedestal Base at Bottom of Card */}
+              <div className="w-full h-3 bg-gradient-to-r from-cyan-400/30 via-white to-cyan-400/30 rounded-full border border-cyan-300/50 shadow-[0_8px_16px_rgba(6,182,212,0.2)] mt-2" />
+
             </div>
 
             {/* ========================================================= */}
-            {/* CARD 2: PRODUCT 2 INTERACTIVE CARD                        */}
+            {/* CARD 2 (RIGHT): EXACT MATCH FOR MOCKUP B FROSTED GLASS CARD*/}
             {/* ========================================================= */}
-            <div className="bg-white/90 dark:bg-slate-900/90 border-2 border-fuchsia-400/60 rounded-2xl p-4 sm:p-6 shadow-xl backdrop-blur-md space-y-4 relative group">
+            <div className="relative bg-white/75 dark:bg-slate-900/75 border-2 border-fuchsia-300/60 dark:border-fuchsia-700/60 shadow-[0_20px_50px_rgba(217,70,239,0.15)] rounded-3xl p-6 sm:p-8 backdrop-blur-2xl flex flex-col justify-between space-y-6 transition-transform hover:-translate-y-1">
 
-              {/* Card Header & Live Search Input */}
-              <div className="space-y-2">
-                <div className="flex items-center justify-between text-xs font-black text-fuchsia-700 dark:text-fuchsia-300 uppercase">
-                  <span>2. Ürün Podyumu</span>
-                  <span className="bg-fuchsia-100 dark:bg-fuchsia-950 px-2 py-0.5 rounded">Sağ Köşe</span>
-                </div>
-
+              {/* Card Top Search & Title */}
+              <div className="space-y-3">
                 <div className="relative">
                   <div className="relative flex items-center">
                     <Search className="w-4 h-4 text-slate-400 absolute left-3 pointer-events-none" />
@@ -577,12 +553,11 @@ export function HomePageClient({
                       type="text"
                       value={search2Query}
                       onChange={(e) => setSearch2Query(e.target.value)}
-                      placeholder="2. Ürünü Ara / Seç..."
-                      className="w-full pl-9 pr-3 py-2 bg-slate-50 dark:bg-slate-800 text-slate-900 dark:text-white text-xs font-bold rounded-xl border border-slate-200 dark:border-slate-700 focus:outline-none focus:border-fuchsia-500"
+                      placeholder="Search / Select 2nd Product..."
+                      className="w-full pl-9 pr-3 py-2 bg-white/90 dark:bg-slate-800/90 text-slate-900 dark:text-white text-xs font-bold rounded-xl border border-slate-200 dark:border-slate-700 focus:outline-none focus:border-fuchsia-500"
                     />
                   </div>
 
-                  {/* Search Autocomplete Results Dropdown */}
                   {results2.length > 0 && (
                     <div className="absolute top-full left-0 right-0 mt-1 bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-xl shadow-2xl p-2 z-50 max-h-48 overflow-y-auto space-y-1">
                       {results2.map((item) => (
@@ -599,49 +574,81 @@ export function HomePageClient({
                     </div>
                   )}
                 </div>
-              </div>
 
-              {/* Product Visual & Info */}
-              <div className="flex items-center gap-4 pt-2">
-                <div className="w-20 h-20 sm:w-24 sm:h-24 rounded-xl bg-slate-50 dark:bg-slate-800 p-2 border border-slate-200 dark:border-slate-700 shrink-0 flex items-center justify-center">
-                  <ProductImage src={product2.image} alt={product2.name} variant="card" className="w-full h-full" />
-                </div>
-                <div className="min-w-0 flex-1 space-y-1">
-                  <span className="text-[10px] font-black uppercase text-fuchsia-600 bg-fuchsia-50 dark:bg-fuchsia-950 px-1.5 py-0.5 rounded">
-                    {product2.brand}
-                  </span>
-                  <h3 className="text-sm sm:text-base font-black text-slate-900 dark:text-white truncate leading-tight">
+                <div>
+                  <h3 className="text-xl sm:text-2xl font-black text-slate-900 dark:text-white leading-tight">
                     {product2.name}
                   </h3>
-                  <div className="text-base font-black text-fuchsia-600 dark:text-fuchsia-400 tabular-nums">
-                    ₺{product2.basePrice?.toLocaleString('tr-TR')}
-                  </div>
+                  <span className="text-xs font-bold text-slate-400 uppercase tracking-wider block mt-0.5">
+                    {product2.category}
+                  </span>
                 </div>
               </div>
 
-              {/* Product 2 Highlight Specs */}
-              <div className="space-y-1.5 pt-2 border-t border-slate-100 dark:border-slate-800">
+              {/* Product Floating 3D Image & Holographic Ring Aura */}
+              <div className="relative my-4 py-4 flex items-center justify-center">
+                <div className="absolute w-36 h-36 bg-fuchsia-400/20 blur-2xl rounded-full pointer-events-none" />
+                <div className="relative w-36 h-36 sm:w-44 sm:h-44 p-3 bg-white/60 dark:bg-slate-800/60 rounded-2xl border border-fuchsia-200/60 dark:border-fuchsia-800/60 shadow-md flex items-center justify-center">
+                  <ProductImage src={product2.image} alt={product2.name} variant="card" className="w-full h-full object-contain" />
+                </div>
+              </div>
+
+              {/* Spec Badges Grid Inside Card */}
+              <div className="space-y-2">
                 {currentSpecKeys.map((key) => (
-                  <div key={key} className="flex items-center justify-between text-xs">
-                    <span className="text-slate-400 font-semibold">{key}:</span>
-                    <span className="font-bold text-slate-800 dark:text-slate-200">{product2.specs?.[key] || 'Detaylı Veri'}</span>
+                  <div key={key} className="bg-slate-100/90 dark:bg-slate-800/90 p-2.5 rounded-xl flex items-center justify-between border border-slate-200/60 dark:border-slate-700/60 text-xs">
+                    <span className="text-slate-400 font-bold uppercase text-[10px]">{key}</span>
+                    <span className="font-black text-slate-900 dark:text-white">{product2.specs?.[key] || 'Details'}</span>
                   </div>
                 ))}
               </div>
+
+              {/* Card Action Buttons */}
+              <div className="grid grid-cols-2 gap-2 pt-2">
+                <Link
+                  href={`/compare?d1=${encodeURIComponent(product1.id)}&d2=${encodeURIComponent(product2.id)}`}
+                  className="py-2.5 px-3 bg-gradient-to-r from-fuchsia-500 to-purple-600 hover:from-fuchsia-400 hover:to-purple-500 text-white font-black text-xs rounded-xl shadow-md transition-all text-center flex items-center justify-center"
+                >
+                  ADD TO COMPARE
+                </Link>
+                <Link
+                  href={`/phones/${product2.id}`}
+                  className="py-2.5 px-3 bg-slate-100 hover:bg-slate-200 dark:bg-slate-800 dark:hover:bg-slate-700 text-slate-800 dark:text-slate-200 font-bold text-xs rounded-xl border border-slate-200 dark:border-slate-700 transition-all text-center flex items-center justify-center"
+                >
+                  VIEW DETAILS
+                </Link>
+              </div>
+
+              {/* Translucent Glass Pedestal Base at Bottom of Card */}
+              <div className="w-full h-3 bg-gradient-to-r from-fuchsia-400/30 via-white to-fuchsia-400/30 rounded-full border border-fuchsia-300/50 shadow-[0_8px_16px_rgba(217,70,239,0.2)] mt-2" />
 
             </div>
 
           </div>
 
-          {/* Action Footer Button */}
-          <div className="mt-8 text-center pt-4 border-t border-slate-200 dark:border-slate-800 flex flex-wrap items-center justify-center gap-4">
-            <Link
-              href={`/compare?d1=${encodeURIComponent(product1.id)}&d2=${encodeURIComponent(product2.id)}`}
-              className="px-6 py-3 bg-gradient-to-r from-cyan-600 via-teal-600 to-fuchsia-600 hover:from-cyan-500 hover:to-fuchsia-500 text-white font-black text-xs sm:text-sm rounded-full shadow-lg transition-all hover:scale-105 active:scale-95 flex items-center gap-2 cursor-pointer"
-            >
-              <Swords className="w-4 h-4" />
-              <span>Düelloyu İncele ve Tüm Farkları Gör →</span>
-            </Link>
+          {/* ========================================================= */}
+          {/* EXACT MOCKUP B SPEC COMPARISON TABLE BELOW THE CARDS       */}
+          {/* ========================================================= */}
+          <div className="mt-10 pt-6 border-t border-slate-200/80 dark:border-slate-800 space-y-3 max-w-2xl mx-auto">
+            <div className="text-center text-xs font-black uppercase tracking-wider text-slate-400 pb-1">
+              Head-to-Head Spec Matrix
+            </div>
+
+            <div className="bg-white/80 dark:bg-slate-900/80 rounded-2xl border border-slate-200/80 dark:border-slate-800 p-4 shadow-sm space-y-2">
+              {currentSpecKeys.map((key) => (
+                <div key={key} className="flex items-center justify-between text-xs py-2 border-b border-slate-100 dark:border-slate-800 last:border-0">
+                  <div className="w-1/3 text-left font-black text-cyan-600 dark:text-cyan-400">
+                    {product1.specs?.[key] || '-'}
+                  </div>
+                  <div className="w-1/3 text-center text-[10px] font-black uppercase text-slate-400 tracking-wider">
+                    {key}
+                  </div>
+                  <div className="w-1/3 text-right font-black text-fuchsia-600 dark:text-fuchsia-400">
+                    {product2.specs?.[key] || '-'}
+                  </div>
+                </div>
+              ))}
+            </div>
           </div>
 
         </div>
@@ -698,7 +705,7 @@ export function HomePageClient({
             <div>
               <h2 className="text-base sm:text-lg font-black text-slate-900 dark:text-white flex items-center gap-2">
                 <Scale className="w-4 h-4 text-emerald-600" />
-                <span>Popular Karşılaştırma Önerileri</span>
+                <span>Popüler Karşılaştırma Önerileri</span>
               </h2>
               <p className="text-xs text-slate-500">Teknik özellik farklarını yan yana inceleyin</p>
             </div>
