@@ -18,6 +18,7 @@ import { ProductImageGallery } from '@/components/detail/ProductImageGallery';
 import { ProductColorPicker } from '@/components/detail/ProductColorPicker';
 import { useCompare } from '@/context/CompareContext';
 import { getActiveStoreComparisonTitle } from '@/lib/activeStores';
+import { FieldSourcesEvidence } from '@/components/detail/FieldSourcesEvidence';
 
 const PriceHistoryChart = dynamic(() => import('@/components/detail/PriceHistoryChart').then(m => m.PriceHistoryChart), { loading: () => <div className="h-64 bg-slate-50 rounded-3xl animate-pulse" /> });
 const PriceAlertModal = dynamic(() => import('@/components/detail/PriceAlertModal').then(m => m.PriceAlertModal), { ssr: false });
@@ -216,6 +217,9 @@ export default function TabletsDetailClient({ initialProduct }: { initialProduct
             })}
           </div>
         </div>
+
+        {/* 🚩 Data Trust & Spec Source Evidence */}
+        <FieldSourcesEvidence product={product} />
       </div>
 
       <PriceAlertModal
