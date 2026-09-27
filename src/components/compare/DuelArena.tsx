@@ -335,23 +335,21 @@ export function DuelArena({ product1, product2, onProductChange }: DuelArenaProp
                   />
                 </div>
 
-                {/* Big Score: 96 / 100 or Puan Yok */}
+                {/* Catalog Score Badge (Modest visual weight for unverified score) */}
                 <div className="text-center my-1.5 sm:my-3">
-                  <div className="inline-flex items-baseline gap-0.5 sm:gap-1">
+                  <div className="inline-flex items-center gap-1.5 bg-slate-100/90 border border-slate-200/90 px-3 py-1 rounded-full text-slate-700 shadow-2xs">
                     {score1 !== null ? (
                       <>
-                        <span className="text-2xl sm:text-4xl lg:text-5xl font-black text-emerald-600 tracking-tight">
-                          {score1}
-                        </span>
-                        <span className="text-[10px] sm:text-xs lg:text-sm font-extrabold text-slate-400">/100</span>
+                        <span className="text-xs sm:text-sm font-bold">Katalog Kaydı Puanı:</span>
+                        <span className="text-sm sm:text-base font-black text-slate-900">{score1}/100</span>
                       </>
                     ) : (
-                      <span className="text-base sm:text-xl font-bold text-slate-400 tracking-tight">
-                        Puan Yok
+                      <span className="text-xs font-bold text-slate-500">
+                        Katalog Puanı Yok
                       </span>
                     )}
                   </div>
-                  <p className="text-[10px] text-slate-500">Katalog puanı · ölçüm yöntemi doğrulanmadı</p>
+                  <p className="text-[9.5px] text-slate-500 mt-1">Ölçüm yöntemi bağımsız testle doğrulanmadı</p>
                   <div className="mt-2"><ProductPriceSummary product={product1} compact /></div>
                 </div>
 
@@ -580,23 +578,21 @@ export function DuelArena({ product1, product2, onProductChange }: DuelArenaProp
                   />
                 </div>
 
-                {/* Big Score: 95 / 100 or Puan Yok */}
+                {/* Catalog Score Badge (Modest visual weight for unverified score) */}
                 <div className="text-center my-1.5 sm:my-3">
-                  <div className="inline-flex items-baseline gap-0.5 sm:gap-1">
+                  <div className="inline-flex items-center gap-1.5 bg-slate-100/90 border border-slate-200/90 px-3 py-1 rounded-full text-slate-700 shadow-2xs">
                     {score2 !== null ? (
                       <>
-                        <span className="text-2xl sm:text-4xl lg:text-5xl font-black text-cyan-600 tracking-tight">
-                          {score2}
-                        </span>
-                        <span className="text-[10px] sm:text-xs lg:text-sm font-extrabold text-slate-400">/100</span>
+                        <span className="text-xs sm:text-sm font-bold">Katalog Kaydı Puanı:</span>
+                        <span className="text-sm sm:text-base font-black text-slate-900">{score2}/100</span>
                       </>
                     ) : (
-                      <span className="text-base sm:text-xl font-bold text-slate-400 tracking-tight">
-                        Puan Yok
+                      <span className="text-xs font-bold text-slate-500">
+                        Katalog Puanı Yok
                       </span>
                     )}
                   </div>
-                  <p className="text-[10px] text-slate-500">Katalog puanı · ölçüm yöntemi doğrulanmadı</p>
+                  <p className="text-[9.5px] text-slate-500 mt-1">Ölçüm yöntemi bağımsız testle doğrulanmadı</p>
                   <div className="mt-2"><ProductPriceSummary product={product2} compact /></div>
                 </div>
 
