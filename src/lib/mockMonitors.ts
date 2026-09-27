@@ -80270,4 +80270,132 @@ export const mockMonitors: Product[] = [
       }
     ]
   }
+,
+  {
+    "id": "lg-lg-24mp450p-b",
+    "slug": "lg-lg-24mp450p-b",
+    "name": "LG 24MP450P-B",
+    "brand": "LG",
+    "category": "monitors",
+    "basePrice": 14919,
+    "currency": "TL",
+    "rating": 4.8,
+    "epeyScore": 90,
+    "reviewCount": 582,
+    "releaseYear": 2021,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/products/tvs/icecat-lg-lg-24mp450p-b.jpg",
+    "images": [
+      "/images/products/tvs/icecat-lg-lg-24mp450p-b.jpg"
+    ],
+    "highlights": [
+      "23.8\" Full HD (1920x1080) IPS Monitör",
+      "75Hz Yenileme Hızı & AMD FreeSync Desteği",
+      "5ms (GtG) Yanıt Süresi & Görsel Okuma Modu",
+      "VGA, HDMI & DisplayPort 1.2 Bağlantıları, VESA 75x75 Desteği"
+    ],
+    "specs": {
+      "screenSizeInches": 23.8,
+      "panelType": "IPS",
+      "displayTech": "IPS",
+      "resolution": "1920x1080",
+      "refreshRateHz": 75,
+      "responseTimeMs": 5,
+      "displayPort": "1.2",
+      "hdmiPorts": 1,
+      "vgaPorts": 1,
+      "vesaMount": "75x75",
+      "tilt": "-5° ~ 15°",
+      "features": [
+        "AMD FreeSync",
+        "Flicker Safe",
+        "Reader Mode",
+        "OnScreen Control",
+        "Black Stabilizer"
+      ]
+    },
+    "storeOffers": [
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 14999,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com/ara?q=LG%2024MP450P-B",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 15179,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.trendyol.com/sr?q=LG%2024MP450P-B",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 15369,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=LG%2024MP450P-B",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 15519,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/LG%2024MP450P-B",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 14919,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=LG%2024MP450P-B",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 15419,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=LG%2024MP450P-B",
+        "rating": 4.8
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "Ekim 2025",
+        "price": 17100
+      },
+      {
+        "date": "Kasım 2025",
+        "price": 16650
+      },
+      {
+        "date": "Aralık 2025",
+        "price": 16200
+      },
+      {
+        "date": "Ocak 2026",
+        "price": 15750
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 15300
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 15000
+      }
+    ]
+  }
 ];

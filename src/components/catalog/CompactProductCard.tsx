@@ -243,8 +243,8 @@ export function CompactProductCard({
               </span>
             )}
             {activeColor && (
-              <span className="text-[9px] text-slate-500 font-medium truncate ml-1">
-                {activeColor.name.split(' ')[0]}
+              <span className="text-[9px] text-slate-500 font-medium truncate ml-1" title={activeColor.name}>
+                {activeColor.name}
               </span>
             )}
           </div>
