@@ -40,6 +40,7 @@ import { getSpecVerificationNotice } from '@/lib/specVerification';
 import { getStoreSearchUrl } from '@/lib/activeStores';
 import { DeepCompareSections } from './deep/DeepCompareSections';
 import { RefereeVerdictCard } from './RefereeVerdictCard';
+import { CompareDifferenceSummary } from './CompareDifferenceSummary';
 import { getProductScore, calculateOverallDuelWinner, getDuelRefereeVerdictText } from '@/lib/compareMetrics';
 
 interface DuelArenaProps {
@@ -676,6 +677,9 @@ export function DuelArena({ product1, product2, onProductChange }: DuelArenaProp
 
       {/* ⚖️ ROBOPENGU ULTRA-PREMIUM REFEREE VERDICT CARD */}
       <RefereeVerdictCard product1={product1} product2={product2} />
+
+      {/* 📌 Evidence-Grounded Difference Summary for 2-Product Duel Flow */}
+      <CompareDifferenceSummary products={[product1, product2]} />
 
       {/* ========================================================================= */}
       {/* 🥊 DETAILED ROUND INSPECTION CARD (OPENS WHEN A ROUND PILL IS CLICKED)   */}

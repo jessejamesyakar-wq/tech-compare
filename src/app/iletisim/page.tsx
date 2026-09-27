@@ -139,7 +139,9 @@ export default function IletisimPage() {
           </p>
         </div>
 
-        <ContactForm />
+        <React.Suspense fallback={<div className="h-64 bg-slate-50 rounded-2xl animate-pulse" />}>
+          <ContactForm />
+        </React.Suspense>
       </div>
 
       {/* Important Notice */}

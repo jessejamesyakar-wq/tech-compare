@@ -1,45 +1,31 @@
 'use client';
 
-import React, { useState, useEffect, useMemo } from 'react';
+import React from 'react';
 import Link from 'next/link';
-import Image from 'next/image';
 import { useI18n } from '@/lib/i18n/context';
-import { useCompare } from '@/context/CompareContext';
-import { Smartphone, TVProduct } from '@/lib/types';
-import { calculateTVScore } from '@/lib/tvScoring';
-import { evaluateProductPricing, getPriceHeading } from '@/lib/pricing/unifiedPriceEvaluator';
-import { useReducedMotion } from 'framer-motion';
-import { HeroCarousel, HeroSlideItem } from '@/components/promo/HeroCarousel';
-import { CompactProductCard } from '@/components/catalog/CompactProductCard';
-import { ProductImage } from '@/components/ui/ProductImage';
-import { CategoryBannerGrid } from '@/components/promo/CategoryBannerGrid';
-import { ProductCarousel } from '@/components/catalog/ProductCarousel';
 import { CategoryIconStrip } from '@/components/layout/CategoryIconStrip';
-import { DynamicCategoryShowcase, DynamicCategoryDistribution } from '@/components/home/DynamicCategoryShowcase';
-import { LiveDealsBillboard } from '@/components/ads/LiveDealsBillboard';
 import {
   Scale,
-  ArrowRight,
   Sparkles,
-  Award,
-  ChevronLeft,
-  ChevronRight,
-  Tv,
-  Swords
+  Swords,
+  Search,
+  ShieldCheck,
+  ArrowRight,
+  HelpCircle
 } from 'lucide-react';
 
 interface HomePageClientProps {
-  heroSlides: HeroSlideItem[];
-  allTVsList: TVProduct[];
-  mixedDiscountGrid: (Smartphone | TVProduct)[];
-  bestSellerCarouselList: (Smartphone | TVProduct)[];
+  heroSlides?: any[];
+  allTVsList?: any[];
+  mixedDiscountGrid?: any[];
+  bestSellerCarouselList?: any[];
   popularComparisons: Array<{
     phone1Id: string;
     phone2Id: string;
     phone1Name: string;
     phone2Name: string;
   }>;
-  showcaseData: DynamicCategoryDistribution;
+  showcaseData?: any;
   counts: {
     smartphones: number;
     tvs: number;
@@ -54,595 +40,159 @@ interface HomePageClientProps {
 }
 
 export function HomePageClient({
-  heroSlides,
-  allTVsList,
-  mixedDiscountGrid,
-  bestSellerCarouselList,
   popularComparisons,
-  showcaseData,
   counts
 }: HomePageClientProps) {
   const { t } = useI18n();
-  const { addToCompare, removeFromCompare, isInCompare } = useCompare();
-
-  const [activeTVTab, setActiveTVTab] = useState<string>('oled');
-  const [heroIndex, setHeroIndex] = useState<number>(0);
-  const [tvPageIndex, setTvPageIndex] = useState<number>(0);
-  const [isTVPaused, setIsTVPaused] = useState<boolean>(false);
-  const [tvAutoPlay, setTvAutoPlay] = useState(true);
-  const reduceMotion = useReducedMotion();
-  const [motionPreferenceReady, setMotionPreferenceReady] = useState(false);
-  useEffect(() => setMotionPreferenceReady(true), []);
-  const reducedMotionActive = motionPreferenceReady && !!reduceMotion;
-  const canRotateTVs = motionPreferenceReady && tvAutoPlay && !isTVPaused && !reduceMotion;
-  const [progressKey, setProgressKey] = useState<number>(0);
-
-  // Filter and diversify TVs across brands so single-brand domination is eliminated
-  const diverseTVs = useMemo(() => {
-    let list = [...allTVsList];
-
-    if (activeTVTab === 'oled') {
-      list = list.filter((tv) => {
-        const tech = (tv.specs?.displayTech || '').toLowerCase();
-        const name = (tv.name || '').toLowerCase();
-        return tech.includes('oled') || name.includes('oled');
-      });
-    } else if (activeTVTab === 'miniled') {
-      list = list.filter((tv) => {
-        const tech = (tv.specs?.displayTech || '').toLowerCase();
-        const name = (tv.name || '').toLowerCase();
-        return tech.includes('mini') || tech.includes('neo qled') || name.includes('mini-led') || name.includes('neo qled');
-      });
-    } else if (activeTVTab === 'gaming144') {
-      list = list.filter((tv) => (tv.specs?.refreshRateHz || 60) >= 120);
-    } else if (activeTVTab === 'giant') {
-      list = list.filter((tv) => {
-        const nameInchMatch = tv.name.match(/\b(\d+(?:\.\d+)?)"/);
-        const inchVal = nameInchMatch ? parseFloat(nameInchMatch[1]) : tv.specs?.screenSizeInches || 55;
-        return inchVal >= 75;
-      });
-    }
-
-    // Rank by calculated performance score
-    const withScore = list.map((tv) => ({
-      tv,
-      score: calculateTVScore(tv).totalScore
-    })).sort((a, b) => (b.score ?? -1) - (a.score ?? -1));
-
-    // Group by brand
-    const byBrand: Record<string, TVProduct[]> = {};
-    for (const item of withScore) {
-      const b = item.tv.brand || 'Diğer';
-      if (!byBrand[b]) byBrand[b] = [];
-      byBrand[b].push(item.tv);
-    }
-
-    // Preferred diverse brand sequence
-    const preferredOrder = ['Samsung', 'LG', 'Philips', 'TCL', 'Hisense', 'Grundig', 'Xiaomi', 'Vestel', 'Onvo', 'iFFALCON', 'SEG', 'Beko'];
-    const brands = Object.keys(byBrand);
-    brands.sort((a, b) => {
-      const ia = preferredOrder.indexOf(a) !== -1 ? preferredOrder.indexOf(a) : 99;
-      const ib = preferredOrder.indexOf(b) !== -1 ? preferredOrder.indexOf(b) : 99;
-      return ia - ib;
-    });
-
-    const diverse: TVProduct[] = [];
-    let added = true;
-    let round = 0;
-    while (added) {
-      added = false;
-      for (const b of brands) {
-        if (byBrand[b][round]) {
-          diverse.push(byBrand[b][round]);
-          added = true;
-        }
-      }
-      round++;
-    }
-
-    return diverse;
-  }, [allTVsList, activeTVTab]);
-
-  const totalTVPages = Math.max(1, Math.ceil(diverseTVs.length / 8));
-  const safeTVPageIndex = totalTVPages > 0 ? tvPageIndex % totalTVPages : 0;
-
-  const currentTVs = useMemo(() => {
-    const start = safeTVPageIndex * 8;
-    return diverseTVs.slice(start, start + 8);
-  }, [diverseTVs, safeTVPageIndex]);
-
-  // Tab switch resets page and animation progress
-  const handleSelectTVTab = (tab: string) => {
-    setActiveTVTab(tab);
-    setTvPageIndex(0);
-    setProgressKey((prev) => prev + 1);
-  };
-
-  // 5-second automatic rotation
-  useEffect(() => {
-    if (!canRotateTVs || totalTVPages <= 1) return;
-
-    const timer = setInterval(() => {
-      setTvPageIndex((prev) => (prev + 1) % totalTVPages);
-      setProgressKey((prev) => prev + 1);
-    }, 5000);
-
-    return () => clearInterval(timer);
-  }, [canRotateTVs, totalTVPages]);
-
-  const CATEGORY_BANNERS_ROW1 = [
-    {
-      id: 'cat-1',
-      title: 'Akıllı Telefonlar',
-      subtitle: 'ZİRVE VERİMLİLİK',
-      badge: `📱 ${counts.smartphones}+ MODEL`,
-      image: 'https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=800&auto=format&fit=crop&q=80',
-      href: '/phones'
-    },
-    {
-      id: 'cat-2',
-      title: 'Bilgisayar & Laptop',
-      subtitle: 'YAPAY ZEKÂ İŞLEMCİLER',
-      badge: `💻 ${counts.laptops} MODEL`,
-      image: 'https://images.unsplash.com/photo-1603302576837-37561b2e2302?w=800&auto=format&fit=crop&q=80',
-      href: '/laptops'
-    },
-    {
-      id: 'cat-3',
-      title: 'Televizyonlar',
-      subtitle: 'DEV EKRAN SİNEMA',
-      badge: `📺 ${counts.tvs} MODEL`,
-      image: 'https://images.unsplash.com/photo-1593784991095-a205069470b6?w=800&auto=format&fit=crop&q=80',
-      href: '/tvs'
-    },
-    {
-      id: 'cat-4',
-      title: 'Tabletler',
-      subtitle: 'MOBİL ÜRETKENLİK',
-      badge: `📱 ${counts.tablets} MODEL`,
-      image: 'https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=800&auto=format&fit=crop&q=80',
-      href: '/tablets'
-    }
-  ];
-
-  const WIDE_PROMO_BANNERS = [
-    {
-      id: 'wide-1',
-      title: 'Telefon Modellerini Keşfet',
-      subtitle: 'FİYAT VE ÖZELLİK KARŞILAŞTIRMASI',
-      badge: '📱 TELEFON KATALOĞU',
-      image: 'https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=800&auto=format&fit=crop&q=80',
-      href: '/phones?sortBy=popular'
-    },
-    {
-      id: 'wide-2',
-      title: 'İki Ürünü Yan Yana Karşılaştır',
-      subtitle: 'ÖZELLİKLERİ BİRLİKTE İNCELE',
-      badge: '📈 DÜELLO MASASI',
-      image: 'https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=800&auto=format&fit=crop&q=80',
-      href: '/compare'
-    }
-  ];
-
-  const CATEGORY_BANNERS_ROW2 = [
-    {
-      id: 'cat-5',
-      title: 'Ev ve Yaşam Teknolojileri',
-      subtitle: 'AKILLI EV, MUTFAK & BAKIM',
-      badge: '⚡ DYSON, PHILIPS & DREAME',
-      image: 'https://images.unsplash.com/photo-1558317374-067fb5f30001?w=800&auto=format&fit=crop&q=80',
-      href: '/appliances'
-    },
-    {
-      id: 'cat-6',
-      title: 'Kulaklık & Hi-Fi Audio',
-      subtitle: 'KRİSTAL NETLİK',
-      badge: '🎧 AIRPODS & SONY ANC',
-      image: 'https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=800&auto=format&fit=crop&q=80',
-      href: '/headphones'
-    },
-    {
-      id: 'cat-7',
-      title: 'Oyun Konsolları',
-      subtitle: 'YENİ NESİL GRAFİK',
-      badge: '🎮 PS5 PRO & XBOX',
-      image: 'https://images.unsplash.com/photo-1606813907291-d86efa9b94db?w=800&auto=format&fit=crop&q=80',
-      href: '/consoles'
-    },
-    {
-      id: 'cat-8',
-      title: 'Akıllı Saatler',
-      subtitle: 'SAĞLIK & SPOR TAKİBİ',
-      badge: '⌚ WATCH ULTRA 2',
-      image: 'https://images.unsplash.com/photo-1508685096489-7aacd43bd3b1?w=800&auto=format&fit=crop&q=80',
-      href: '/smartwatches'
-    }
-  ];
 
   return (
-    <div className="space-y-4 sm:space-y-5 py-1">
-      {/* ⚔️ Düello Arena Hızlı Erişim Butonu (Ok ile gösterilen alan) */}
-      <div className="flex items-center justify-between gap-3">
-        <Link
-          href="/duello"
-          className="group inline-flex items-center gap-2 sm:gap-2.5 bg-gradient-to-r from-emerald-600 via-teal-600 to-emerald-700 hover:from-emerald-500 hover:to-teal-500 text-white font-black text-xs sm:text-sm px-3.5 sm:px-4 py-2 sm:py-2.5 rounded-xl sm:rounded-2xl shadow-md hover:shadow-emerald-500/25 hover:scale-[1.02] active:scale-[0.98] transition-all border border-emerald-400/40 cursor-pointer"
-        >
-          <div className="w-5 h-5 sm:w-6 sm:h-6 rounded-lg bg-white/20 flex items-center justify-center shrink-0">
-            <Swords className="w-3 h-3 sm:w-3.5 sm:h-3.5 text-white group-hover:rotate-12 transition-transform" />
+    <div className="space-y-6 sm:space-y-8 py-2 max-w-full overflow-hidden">
+      {/* SECTION (A): Model Arama & Karşılaştırma Başlangıcı */}
+      <section className="bg-gradient-to-r from-slate-900 via-slate-850 to-slate-900 border border-slate-800 rounded-2xl sm:rounded-3xl p-5 sm:p-7 shadow-xl text-white space-y-4">
+        <div className="max-w-3xl space-y-2">
+          <div className="inline-flex items-center gap-2 bg-emerald-500/20 text-emerald-300 text-xs font-bold px-3 py-1 rounded-full border border-emerald-500/30">
+            <Sparkles className="w-3.5 h-3.5" />
+            <span>Tarafsız Teknoloji Rehberi</span>
           </div>
-          <span className="tracking-tight font-extrabold">Düello Arena</span>
-          <span className="hidden sm:inline-flex items-center gap-1 text-[10.5px] bg-white/20 text-white px-2 py-0.5 rounded-full font-bold">
-            <Sparkles className="w-2.5 h-2.5 text-amber-300" />
-            <span>Birebir Cihaz Kıyaslama</span>
-          </span>
-          <ArrowRight className="w-3.5 h-3.5 text-emerald-200 group-hover:translate-x-1 transition-transform" />
-        </Link>
-      </div>
-
-      {/* 2. Hero Banner & Interactive Showcase Slider (with integrated thumbnails) */}
-      <HeroCarousel activeIndex={heroIndex} onSelect={setHeroIndex} initialSlides={heroSlides} />
-
-      {/* 🏢 Resmi Platform Rehberi & Canlı Karşılaştırma Billboard */}
-      <LiveDealsBillboard />
-
-      {/* 5. Dynamic Category Distribution Showcase */}
-      <DynamicCategoryShowcase initialData={showcaseData} />
-
-      {/* 📺 Top Rated TVs Showcase */}
-      <section className="space-y-8 bg-gradient-to-br from-white via-emerald-50/30 to-white text-slate-900 p-6 sm:p-8 rounded-3xl border border-slate-200 shadow-xl relative overflow-hidden">
-        <div className="absolute -top-10 -left-10 w-96 h-96 bg-emerald-500/15 rounded-full blur-3xl pointer-events-none" />
-        <div className="absolute -bottom-10 -right-10 w-96 h-96 bg-indigo-500/15 rounded-full blur-3xl pointer-events-none" />
-
-        <div className="bg-white/80 backdrop-blur-md border border-slate-200/90 p-5 sm:p-6 rounded-2xl shadow-md relative z-10 space-y-4">
-          {/* Top Row: Title, Subtitle, and Live Indicator */}
-          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 pb-3 border-b border-slate-100">
-            <div>
-              <div className="inline-flex items-center gap-1.5 bg-emerald-100 text-emerald-800 text-[11px] font-black px-3 py-1 rounded-full border border-emerald-300/80 mb-1.5 shadow-2xs">
-                <Award className="w-3.5 h-3.5" />
-                <span>100 PUAN SIRALAMASI</span>
-              </div>
-              <h2 className="text-slate-900 text-2xl sm:text-3xl font-black tracking-tight flex items-center gap-2">
-                <Tv className="w-7 h-7 text-emerald-600" />
-                <span>En Yüksek Puanlı Televizyonlar</span>
-              </h2>
-              <p className="text-xs text-slate-500 font-medium mt-0.5">
-                Panel teknolojisi, yenileme hızı, ses sistemi ve işlemci gücüne göre 100 puan üzerinden sıralı modeller.
-              </p>
-            </div>
-
-            {/* Live Auto-Rotation Pill */}
-            <div className="inline-flex items-center gap-2.5 bg-slate-50 border border-slate-200/90 px-3.5 py-1.5 rounded-full text-xs font-bold text-slate-700 shadow-2xs self-start sm:self-center">
-              <span className="relative flex h-2.5 w-2.5">
-                <span className={`animate-ping absolute inline-flex h-full w-full rounded-full ${isTVPaused ? 'bg-amber-400' : 'bg-emerald-400'} opacity-75`} />
-                <span className={`relative inline-flex rounded-full h-2.5 w-2.5 ${isTVPaused ? 'bg-amber-500' : 'bg-emerald-500'}`} />
-              </span>
-              <button type="button" onClick={() => setTvAutoPlay((playing) => !playing)} aria-pressed={reducedMotionActive || !tvAutoPlay} disabled={reducedMotionActive} className="min-h-11 px-1 cursor-pointer disabled:cursor-default">
-                {reducedMotionActive ? 'Otomatik geçiş kapalı' : tvAutoPlay ? 'Geçişleri duraklat' : 'Geçişleri oynat'}
-              </button>
-              <span className="text-slate-300">|</span>
-              <span className="text-emerald-700 font-black">Sayfa {safeTVPageIndex + 1} / {totalTVPages}</span>
-            </div>
-          </div>
-
-          {/* Bottom Row: Filter Tabs & Navigation Controls */}
-          <div className="flex flex-col md:flex-row md:items-center justify-between gap-3">
-            {/* Filter Tabs */}
-            <div className="flex items-center gap-1.5 bg-slate-100 p-1.5 rounded-2xl border border-slate-200/90 overflow-x-auto no-scrollbar">
-              <button
-                onClick={() => handleSelectTVTab('all')}
-                className={`px-3.5 py-2 rounded-xl text-xs font-bold transition-all cursor-pointer whitespace-nowrap ${
-                  activeTVTab === 'all'
-                    ? 'bg-emerald-600 text-white font-black shadow-md scale-[1.02]'
-                    : 'text-slate-600 hover:text-slate-900 hover:bg-white border border-transparent'
-                }`}
-              >
-                Tüm Modeller
-              </button>
-              <button
-                onClick={() => handleSelectTVTab('oled')}
-                className={`px-3.5 py-2 rounded-xl text-xs font-bold transition-all cursor-pointer whitespace-nowrap ${
-                  activeTVTab === 'oled'
-                    ? 'bg-emerald-600 text-white font-black shadow-md scale-[1.02]'
-                    : 'text-slate-600 hover:text-slate-900 hover:bg-white border border-transparent'
-                }`}
-              >
-                OLED & QD-OLED
-              </button>
-              <button
-                onClick={() => handleSelectTVTab('miniled')}
-                className={`px-3.5 py-2 rounded-xl text-xs font-bold transition-all cursor-pointer whitespace-nowrap ${
-                  activeTVTab === 'miniled'
-                    ? 'bg-emerald-600 text-white font-black shadow-md scale-[1.02]'
-                    : 'text-slate-600 hover:text-slate-900 hover:bg-white border border-transparent'
-                }`}
-              >
-                Mini-LED & 144Hz
-              </button>
-              <button
-                onClick={() => handleSelectTVTab('giant')}
-                className={`px-3.5 py-2 rounded-xl text-xs font-bold transition-all cursor-pointer whitespace-nowrap ${
-                  activeTVTab === 'giant'
-                    ? 'bg-emerald-600 text-white font-black shadow-md scale-[1.02]'
-                    : 'text-slate-600 hover:text-slate-900 hover:bg-white border border-transparent'
-                }`}
-              >
-                Dev Ekranlar (75&quot;-98&quot;)
-              </button>
-            </div>
-
-            {/* Page Carousel Navigation Controls */}
-            {totalTVPages > 1 && (
-              <div className="flex items-center gap-2 bg-slate-100 p-1.5 rounded-2xl border border-slate-200/90 self-end md:self-auto">
-                <button
-                  onClick={() => {
-                    setTvPageIndex((prev) => (prev - 1 + totalTVPages) % totalTVPages);
-                    setProgressKey((p) => p + 1);
-                  }}
-                  aria-label="Önceki Modeller"
-                  className="p-1.5 rounded-xl bg-white hover:bg-emerald-50 active:scale-95 text-slate-700 hover:text-emerald-700 border border-slate-200 shadow-xs transition-all cursor-pointer"
-                >
-                  <ChevronLeft className="w-4 h-4" />
-                </button>
-
-                <div className="flex items-center gap-1.5 px-1.5">
-                  {Array.from({ length: totalTVPages }).map((_, idx) => (
-                    <button
-                      key={idx}
-                      onClick={() => {
-                        setTvPageIndex(idx);
-                        setProgressKey((p) => p + 1);
-                      }}
-                      aria-label={`Sayfa ${idx + 1}`}
-                      className={`h-2 rounded-full transition-all duration-300 cursor-pointer ${
-                        idx === safeTVPageIndex
-                          ? 'w-6 bg-emerald-600 shadow-xs'
-                          : 'w-2 bg-slate-300 hover:bg-slate-400'
-                      }`}
-                    />
-                  ))}
-                </div>
-
-                <button
-                  onClick={() => {
-                    setTvPageIndex((prev) => (prev + 1) % totalTVPages);
-                    setProgressKey((p) => p + 1);
-                  }}
-                  aria-label="Sonraki Modeller"
-                  className="p-1.5 rounded-xl bg-white hover:bg-emerald-50 active:scale-95 text-slate-700 hover:text-emerald-700 border border-slate-200 shadow-xs transition-all cursor-pointer"
-                >
-                  <ChevronRight className="w-4 h-4" />
-                </button>
-              </div>
-            )}
-          </div>
-
-          {/* 5-Second Rotation Progress Bar */}
-          <div className="w-full bg-slate-100 h-1.5 rounded-full overflow-hidden relative">
-            <div
-              key={progressKey}
-              className="h-full bg-gradient-to-r from-emerald-500 via-teal-500 to-indigo-500 rounded-full transition-all"
-              style={{
-                width: !canRotateTVs ? '100%' : undefined,
-                animation: !canRotateTVs ? 'none' : 'tvBarProgress 5s linear infinite'
-              }}
-            />
-          </div>
-          <style jsx>{`
-            @keyframes tvBarProgress {
-              0% { width: 0%; }
-              100% { width: 100%; }
-            }
-          `}</style>
+          <h1 className="text-2xl sm:text-4xl font-black tracking-tight leading-tight">
+            Acele etme. Sana uygun teknolojiyi birlikte bulalım.
+          </h1>
+          <p className="text-xs sm:text-sm text-slate-300 font-medium leading-relaxed">
+            Ürünlerin özelliklerini karşılaştır; fiyatların doğrulama durumunu gör.
+          </p>
         </div>
 
-        {/* 8 TV Showcase Floating Glass Cards Grid */}
-        <div
-          onMouseEnter={() => setIsTVPaused(true)}
-          onMouseLeave={() => setIsTVPaused(false)}
-          className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 relative z-10"
-        >
-          {currentTVs.map((tv) => {
-            const pricing = evaluateProductPricing(tv);
-            const score100 = calculateTVScore(tv).totalScore;
-            const inCompare = isInCompare(tv.id);
-
-            const nameInchMatch = tv.name.match(/\b(\d+(?:\.\d+)?)"/);
-            const inchVal = nameInchMatch ? parseFloat(nameInchMatch[1]) : tv.specs?.screenSizeInches;
-            const preciseInch = inchVal ? `${inchVal}"` : 'Boyut bilgisi yok';
-
-            const techName = tv.specs?.displayTech || 'Panel bilgisi yok';
-
-            return (
-              <div
-                key={`${tv.id}-${safeTVPageIndex}`}
-                className="bg-white backdrop-blur-md border border-slate-200 hover:border-emerald-500/60 hover:-translate-y-1.5 transition-all duration-300 shadow-md hover:shadow-2xl rounded-3xl p-5 flex flex-col justify-between group relative overflow-hidden"
-              >
-                <div>
-                  {/* Image Stage */}
-                  <div className="w-full h-44 sm:h-48 bg-slate-50 rounded-xl p-3 sm:p-4 flex items-center justify-center border border-slate-100 relative mb-3 overflow-hidden group-hover:border-slate-200 transition-colors">
-                    <ProductImage
-                      src={tv.image}
-                      alt={tv.name}
-                      variant="card"
-                    />
-
-                    <span className="absolute top-2 left-2 bg-slate-900/90 backdrop-blur-md text-white text-[9px] font-black px-2 py-0.5 rounded-full uppercase tracking-wider shadow-md">
-                      {techName} • {preciseInch}
-                    </span>
-
-                    <div className="absolute bottom-2 right-2 bg-white/95 backdrop-blur-md border border-amber-300/60 rounded-xl p-1 shadow-md flex items-center gap-1 z-10">
-                      <div className="w-8 h-8 rounded-full bg-gradient-to-tr from-amber-500 to-rose-500 text-white flex flex-col items-center justify-center font-black leading-none shadow-md">
-                        <span className="text-[11px] font-black">{score100 ?? '—'}</span>
-                        <span className="text-[6px] uppercase font-bold tracking-tighter opacity-95">katalog</span>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div className="flex items-center justify-between text-[11px] text-slate-500 mb-1">
-                    <span className="font-extrabold text-emerald-700 uppercase tracking-widest">{tv.brand} • {tv.releaseYear}</span>
-                    <div className="bg-amber-50 text-amber-800 font-extrabold text-[10px] px-2 py-0.5 rounded-full border border-amber-200 flex items-center gap-1 shadow-2xs">
-                      <Award className="w-3 h-3 text-amber-600" />
-                      <span>{score100 === null ? 'Puan yok' : `${score100} / 100 (katalog)`}</span>
-                    </div>
-                  </div>
-
-                  <Link href={`/tvs/${tv.slug}`}>
-                    <h3 className="text-sm font-black text-slate-900 hover:text-emerald-700 transition-colors line-clamp-2 leading-snug">
-                      {tv.name}
-                    </h3>
-                  </Link>
-                </div>
-
-                <div className="pt-3 border-t border-slate-100 mt-3 flex items-center justify-between gap-2">
-                  <div>
-                    <span className="text-[10px] text-slate-500 font-bold block uppercase tracking-wider">{getPriceHeading(pricing)}</span>
-                    <span className="text-emerald-700 font-black text-sm tabular-nums">
-                      {pricing.displayPrice !== null ? pricing.displayPrice.toLocaleString('tr-TR') + ' ₺' : '—'}
-                    </span>
-                    <p className="text-[11px] text-slate-500">{pricing.statusLabel}</p>
-                  </div>
-
-                  <button
-                    onClick={() => (inCompare ? removeFromCompare(tv.id) : addToCompare(tv))}
-                    className={`px-3 py-1.5 rounded-xl text-[11px] font-black transition-all cursor-pointer ${
-                      inCompare
-                        ? 'bg-emerald-600 text-white shadow-xs'
-                        : 'bg-slate-100 hover:bg-emerald-600 hover:text-white text-slate-800 border border-slate-200'
-                    }`}
-                  >
-                    {inCompare ? 'Eklendi' : '+ Kıyasla'}
-                  </button>
-                </div>
-              </div>
-            );
-          })}
-        </div>
-
-        <div className="text-center pt-2 relative z-10">
-          <Link
-            href="/tvs"
-            className="inline-flex items-center gap-2 bg-emerald-600 hover:bg-emerald-500 text-white font-black text-xs px-8 py-3.5 rounded-full shadow-lg transition-all cursor-pointer"
-          >
-            <span>Tüm Televizyon Kataloğunu İncele ({counts.tvs} Ürün)</span>
-            <ArrowRight className="w-4 h-4" />
-          </Link>
-        </div>
-      </section>
-
-      {/* 1. SECTION: Compact Discounted Products Grid (16 Items) */}
-      <section className="space-y-6">
-        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-slate-200/80 pb-3">
-          <div>
-            <h2 className="text-slate-900 text-xl sm:text-2xl font-black tracking-tight flex items-center gap-2">
-              <Sparkles className="w-5 h-5 text-rose-600" />
-              <span>Telefon ve Televizyon Seçkisi</span>
-            </h2>
-            <p className="text-xs text-slate-500 font-medium mt-0.5">
-              Katalogdan modeller; güncel teklif ve referans fiyat ayrımıyla.
-            </p>
-          </div>
-
-          <Link
-            href="/phones?sortBy=popular"
-            className="text-xs font-black text-rose-600 hover:text-rose-700 transition-colors flex items-center gap-1 uppercase tracking-wider bg-rose-50 px-3.5 py-2 rounded-xl border border-rose-200 shadow-2xs cursor-pointer"
-          >
-            <span>TELEFONLARI İNCELE</span>
-            <ChevronRight className="w-4 h-4 text-rose-600 stroke-[3]" />
-          </Link>
-        </div>
-
-        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3.5 sm:gap-4">
-          {mixedDiscountGrid.map((product, idx) => (
-            <CompactProductCard
-              key={product.id}
-              product={product}
-              index={idx}
-            />
-          ))}
-        </div>
-
-        <div className="text-center pt-2">
-          <Link
-            href="/phones"
-            className="inline-flex items-center gap-2 bg-white hover:bg-slate-50 text-slate-900 font-extrabold text-xs px-8 py-3.5 rounded-full border border-slate-200 shadow-xs transition-all hover:border-emerald-500 cursor-pointer"
-          >
-            <span>Tüm Telefon Kataloğunu İncele ({counts.smartphones} Model)</span>
-            <ArrowRight className="w-4 h-4 text-emerald-600" />
-          </Link>
-        </div>
-      </section>
-
-      {/* Category Banners */}
-      <CategoryBannerGrid
-        sectionTitle="Öne Çıkan Yaşam Tarzı & Kategori Koleksiyonları"
-        items={CATEGORY_BANNERS_ROW1}
-        variant="quad"
-      />
-
-      <CategoryBannerGrid
-        sectionTitle="Ürün Seçimine Yardımcı Araçlar"
-        items={WIDE_PROMO_BANNERS}
-        variant="wide"
-      />
-
-      <CategoryBannerGrid
-        sectionTitle="Donanım & Ekipman Kategorileri"
-        items={CATEGORY_BANNERS_ROW2}
-        variant="quad"
-      />
-
-      {/* "Çok Satanlar" Product Carousel */}
-      <ProductCarousel
-        title="Katalogdan Öne Çıkanlar"
-        subtitle="Modelleri teknik özellikleri ve fiyat doğrulama durumlarıyla incele."
-        products={bestSellerCarouselList}
-      />
-
-      {/* Popular Comparisons Section */}
-      <section className="space-y-6">
-        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
-          <div>
-            <h2 className="text-slate-900 text-2xl font-black flex items-center gap-2">
-              <Scale className="w-6 h-6 text-emerald-600" />
-              <span>Karşılaştırma Önerileri</span>
-            </h2>
-            <p className="text-xs text-slate-500 font-medium mt-0.5">Benzer modellerin farklarını yan yana incele</p>
-          </div>
-
-          <Link href="/compare" className="text-xs font-extrabold text-emerald-600 hover:underline flex items-center gap-1">
-            <span>Tüm Düelloları Gör</span>
-            <ArrowRight className="w-3.5 h-3.5" />
-          </Link>
-        </div>
-
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-          {popularComparisons.map((duel, idx) => (
+        {/* Hero Arama & Karşılaştırma Ana Eylemi (Mobil Uyumlu Flex Wrap) */}
+        <div className="bg-white/10 backdrop-blur-md border border-white/15 rounded-xl sm:rounded-2xl p-3.5 sm:p-4 flex flex-col md:flex-row items-center justify-between gap-3">
+          <div className="flex flex-wrap items-center gap-2.5 w-full md:w-auto">
             <Link
-              key={idx}
-              href={`/compare?p1=${duel.phone1Id}&p2=${duel.phone2Id}`}
-              className="group bg-white border border-slate-200 hover:border-emerald-500/60 rounded-3xl p-6 transition-all duration-300 flex items-center justify-between gap-4 shadow-md hover:shadow-2xl hover:-translate-y-1"
+              href="/duello"
+              className="group inline-flex items-center gap-2 bg-gradient-to-r from-emerald-600 via-teal-600 to-emerald-700 hover:from-emerald-500 hover:to-teal-500 text-white font-black text-xs sm:text-sm px-4 py-2.5 rounded-xl shadow-md hover:scale-[1.02] active:scale-[0.98] transition-all border border-emerald-400/40 cursor-pointer shrink-0"
             >
-              <div className="space-y-1">
-                <span className="text-[10px] font-black text-emerald-600 uppercase tracking-widest block">
-                  Düello #{idx + 1}
-                </span>
-                <h3 className="text-slate-900 text-sm font-black group-hover:text-emerald-600 transition-colors">
-                  {duel.phone1Name} vs {duel.phone2Name}
-                </h3>
-                <p className="text-xs text-slate-500 font-medium">
-                  Teknik özellikleri karşılaştır
-                </p>
-              </div>
-              <div className="w-10 h-10 rounded-2xl bg-slate-100 group-hover:bg-emerald-600 group-hover:text-white text-slate-600 flex items-center justify-center shrink-0 transition-colors shadow-xs">
-                <ArrowRight className="w-4 h-4" />
-              </div>
+              <Swords className="w-4 h-4 text-white group-hover:rotate-12 transition-transform" />
+              <span>Düello Arena</span>
             </Link>
-          ))}
+            <Link
+              href="/compare"
+              className="inline-flex items-center gap-2 bg-slate-900 dark:bg-white text-white dark:text-slate-900 font-extrabold text-xs sm:text-sm px-4 py-2.5 rounded-xl shadow-md hover:bg-slate-800 transition-all cursor-pointer shrink-0"
+            >
+              <Scale className="w-4 h-4 text-emerald-400 dark:text-emerald-600" />
+              <span>Karşılaştırma Masası</span>
+            </Link>
+          </div>
+
+          {/* Hero Quick Search Form */}
+          <form
+            onSubmit={(e) => {
+              e.preventDefault();
+              const input = (e.currentTarget.elements.namedItem('heroSearch') as HTMLInputElement)?.value;
+              if (input?.trim()) {
+                window.location.href = `/search?q=${encodeURIComponent(input.trim())}`;
+              }
+            }}
+            className="relative w-full md:max-w-md flex items-center"
+          >
+            <label htmlFor="hero-search-input" className="sr-only">
+              Model veya özellik ara
+            </label>
+            <Search className="w-4 h-4 text-slate-400 absolute left-3.5 top-1/2 -translate-y-1/2 pointer-events-none" />
+            <input
+              id="hero-search-input"
+              name="heroSearch"
+              type="text"
+              aria-label="Model veya özellik ara"
+              placeholder="Model veya özellik ara (ör. iPhone 15, LG OLED, S24 Ultra)..."
+              className="w-full bg-slate-800/90 border border-slate-700 focus:border-emerald-400 focus:ring-2 focus:ring-emerald-400 rounded-xl min-h-11 pl-9 pr-24 py-2 text-xs font-semibold text-white outline-none transition-all placeholder:text-slate-400"
+            />
+            <button
+              type="submit"
+              aria-label="Model ara"
+              className="absolute right-1 top-1/2 -translate-y-1/2 bg-emerald-600 hover:bg-emerald-500 focus:ring-2 focus:ring-emerald-400 focus:outline-none text-white text-[11px] font-black px-3.5 py-1.5 rounded-lg shadow-xs transition-colors cursor-pointer min-h-9 flex items-center justify-center"
+            >
+              Model Ara
+            </button>
+          </form>
         </div>
       </section>
 
-      {/* Category Shortcut Strip */}
-      <CategoryIconStrip customCounts={counts} />
+      {/* SECTION (B): İhtiyaca Göre Keşfet & Kategori Başlangıcı */}
+      <section className="space-y-4">
+        <div className="flex items-center justify-between">
+          <h2 className="text-lg sm:text-xl font-black text-slate-900 dark:text-white tracking-tight flex items-center gap-2">
+            <span>İhtiyaca Göre Keşfet</span>
+          </h2>
+          <span className="text-xs text-slate-500 font-medium">9 Kategori Kataloğu</span>
+        </div>
+
+        <CategoryIconStrip customCounts={counts} />
+      </section>
+
+      {/* SECTION (C): Karşılaştırma Önerileri (Sınırlı Liste) */}
+      {popularComparisons && popularComparisons.length > 0 && (
+        <section className="space-y-4 bg-slate-50 dark:bg-slate-900/50 p-5 sm:p-6 rounded-2xl border border-slate-200/80 dark:border-slate-800">
+          <div className="flex items-center justify-between">
+            <div>
+              <h2 className="text-base sm:text-lg font-black text-slate-900 dark:text-white flex items-center gap-2">
+                <Scale className="w-4 h-4 text-emerald-600" />
+                <span>Karşılaştırma Önerileri</span>
+              </h2>
+              <p className="text-xs text-slate-500">Teknik özellik farklarını yan yana inceleyin</p>
+            </div>
+            <Link
+              href="/compare"
+              className="text-xs font-extrabold text-emerald-600 hover:text-emerald-700 flex items-center gap-1"
+            >
+              <span>Tümünü Gör</span>
+              <ArrowRight className="w-3.5 h-3.5" />
+            </Link>
+          </div>
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3">
+            {popularComparisons.slice(0, 4).map((item, idx) => (
+              <Link
+                key={idx}
+                href={`/compare?d1=${encodeURIComponent(item.phone1Id)}&d2=${encodeURIComponent(item.phone2Id)}`}
+                className="p-3.5 bg-white dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700 hover:border-emerald-500 hover:shadow-md transition-all space-y-2 block"
+              >
+                <div className="text-[11px] font-bold text-slate-400">Karşılaştırma #{idx + 1}</div>
+                <div className="text-xs font-bold text-slate-900 dark:text-white break-words leading-snug">
+                  {item.phone1Name} <span className="text-emerald-600 font-black">vs</span> {item.phone2Name}
+                </div>
+                <div className="text-[11px] font-semibold text-emerald-600 flex items-center gap-1">
+                  <span>Farkları İncele</span>
+                  <ArrowRight className="w-3 h-3" />
+                </div>
+              </Link>
+            ))}
+          </div>
+        </section>
+      )}
+
+      {/* SECTION (D): Veri Güvenilirliği & Şeffaflık */}
+      <section className="bg-emerald-50/60 dark:bg-slate-900/80 border border-emerald-200/80 dark:border-slate-800 rounded-2xl p-5 space-y-3">
+        <div className="flex items-center gap-2 text-emerald-900 dark:text-emerald-300 font-black text-sm">
+          <ShieldCheck className="w-5 h-5 text-emerald-600" />
+          <span>Veri Güvenilirliği ve Şeffaflık Taahhüdü</span>
+        </div>
+        <p className="text-xs text-slate-600 dark:text-slate-300 leading-relaxed font-medium">
+          Katalog puanları bağımsız laboratuvar testi değildir. Fiyat etiketinde güncel teklif, son görülen fiyat veya katalog referansı ayrımını kontrol edin. Eksik kaynak bilgisi doğrulanmış sayılmaz.
+        </p>
+        <div className="pt-1 flex flex-wrap items-center gap-4 text-xs font-bold">
+          <Link
+            href="/iletisim?subject=hatali-bilgi"
+            className="text-emerald-700 dark:text-emerald-400 hover:underline flex items-center gap-1"
+          >
+            <HelpCircle className="w-3.5 h-3.5" />
+            <span>Hatalı Bilgi Bildir</span>
+          </Link>
+          <Link href="/gizlilik-politikasi" className="text-slate-500 hover:text-slate-700 dark:hover:text-slate-300">
+            Gizlilik Politikası
+          </Link>
+          <Link href="/kullanim-kosullari" className="text-slate-500 hover:text-slate-700 dark:hover:text-slate-300">
+            Kullanım Koşulları
+          </Link>
+        </div>
+      </section>
     </div>
   );
 }

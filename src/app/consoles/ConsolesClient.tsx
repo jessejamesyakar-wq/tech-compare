@@ -252,7 +252,7 @@ function ConsolesContent({ initialProducts }: { initialProducts: Product[] }) {
               <option value="popular">Sırala: Öne Çıkanlar</option>
               <option value="priceAsc">Fiyat: Düşükten Yükseğe</option>
               <option value="priceDesc">Fiyat: Yüksekten Düşüğe</option>
-              <option value="rating">En Yüksek Puanlılar</option>
+              <option value="rating">Katalog Puanına Göre</option>
               <option value="newest">En Yeni Çıkanlar</option>
             </select>
 
