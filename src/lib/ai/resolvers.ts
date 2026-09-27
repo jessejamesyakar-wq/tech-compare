@@ -658,7 +658,8 @@ export function extractBudgetFromText(text: string): { budget: number } | null {
 export function resolveBudgetRecommendation(
   budgetTL: any,
   category?: string,
-  preferredBrand?: string
+  preferredBrand?: string,
+  catalogOverride?: any[]
 ): ResolverResult<{
   products: any[];
   category: CatalogCategory | "all";
@@ -675,7 +676,7 @@ export function resolveBudgetRecommendation(
     };
   }
 
-  const catalog = getStoredProducts();
+  const catalog = catalogOverride || getStoredProducts();
 
   let resolvedCategory: CatalogCategory | "all" = category === "all" ? "all" : "smartphones";
   if (category && category !== "all") {

@@ -9,6 +9,7 @@ import { useI18n } from '@/lib/i18n/context';
 import { useCompare } from '@/context/CompareContext';
 import { PriceDisclaimer } from '@/components/legal/PriceDisclaimer';
 import { CompareVerdictCard } from './CompareVerdictCard';
+import { CompareDifferenceSummary } from './CompareDifferenceSummary';
 import { getComparisonRows, getRowWinnerId as findRowWinner, ComparisonRow } from '@/lib/comparisonEvidence';
 import { ProductPriceSummary } from '@/components/detail/ProductPriceSummary';
 import {
@@ -76,6 +77,9 @@ export function CompareMatrix({ products, onRemove, onClear }: CompareMatrixProp
       
       {/* 1. AI Decision / Verdict Card at Top */}
       <CompareVerdictCard products={products} />
+
+      {/* 📌 Evidence-Grounded Difference Summary Card */}
+      <CompareDifferenceSummary products={products} />
 
       {/* 2. Controls bar */}
       <div className="bg-white/90 backdrop-blur-md border border-slate-200/90 rounded-3xl p-4 sm:p-5 flex flex-col sm:flex-row items-center justify-between gap-4 shadow-xs">

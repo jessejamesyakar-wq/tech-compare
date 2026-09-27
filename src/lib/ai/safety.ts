@@ -58,7 +58,7 @@ export function validateUserMessage(message: string): {
 
 const INJECTION_PATTERNS = [
   /ignore (all|previous|above) instructions/i,
-  /(önceki|yukarıdaki|sistem) talimatlar[ıi]n[ıi]? (yoksay|unut|iptal et)/i,
+  /(önceki|yukarıdaki|sistem) talimatlar(ı|i|ın|in|ını|ini)? (yoksay|unut|iptal et)/i,
   /you are now/i,
   /artık sen/i,
   /system prompt/i,

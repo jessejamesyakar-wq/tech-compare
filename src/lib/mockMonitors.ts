@@ -80397,5 +80397,258 @@ export const mockMonitors: Product[] = [
         "price": 15000
       }
     ]
+  },
+  {
+    "id": "lg-lg-27mp450p-b",
+    "slug": "lg-lg-27mp450p-b",
+    "name": "LG 27MP450P-B 27 inç 75Hz 5ms FHD IPS AMD FreeSync Monitör",
+    "brand": "LG",
+    "category": "monitors",
+    "basePrice": 14919,
+    "currency": "TL",
+    "rating": 4.8,
+    "epeyScore": 75,
+    "reviewCount": 576,
+    "releaseYear": 2021,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/products/tvs/icecat-lg-lg-27mp450p-b.jpg",
+    "images": [
+      "/images/products/tvs/icecat-lg-lg-27mp450p-b.jpg"
+    ],
+    "highlights": [
+      "27 inç Full HD (1920x1080) 75Hz Geniş Açılı IPS Panel",
+      "AMD FreeSync, Flicker Safe ve Reader Mode Göz Koruma Teknolojileri",
+      "HDMI, DisplayPort 1.2 ve VGA Girişleri ile Ergonomik Yükseklik/Eğim Ayarlı Stand"
+    ],
+    "specs": {
+      "screenSizeInches": 27,
+      "panelType": "IPS",
+      "displayTech": "IPS",
+      "resolution": "1920x1080 (FHD)",
+      "refreshRateHz": 75,
+      "responseTimeMs": 5,
+      "displayPort": "1.2",
+      "hdmiPorts": 1,
+      "vgaPorts": 1,
+      "vesaMount": "75x75",
+      "tilt": true,
+      "heightAdjustable": true,
+      "features": [
+        "AMD FreeSync",
+        "Flicker Safe",
+        "Reader Mode",
+        "OnScreen Control",
+        "Black Stabilizer"
+      ]
+    },
+    "storeOffers": [
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 14999,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com/ara?q=LG%2027MP450P-B",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 15179,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.trendyol.com/sr?q=LG%2027MP450P-B",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 15369,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=LG%2027MP450P-B",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 15519,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/LG%2027MP450P-B",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 14919,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=LG%2027MP450P-B",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 15419,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=LG%2027MP450P-B",
+        "rating": 4.8
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "Ekim 2025",
+        "price": 17100
+      },
+      {
+        "date": "Kasım 2025",
+        "price": 16650
+      },
+      {
+        "date": "Aralık 2025",
+        "price": 16200
+      },
+      {
+        "date": "Ocak 2026",
+        "price": 15750
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 15300
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 15000
+      }
+    ]
+  },
+  {
+    "id": "lg-lg-32un550-w",
+    "slug": "lg-lg-32un550-w",
+    "name": "LG 32UN550-W 31.5 inç 4K UHD 60Hz VA HDR10 AMD FreeSync Monitör",
+    "brand": "LG",
+    "category": "monitors",
+    "basePrice": 14919,
+    "currency": "TL",
+    "rating": 4.7,
+    "epeyScore": 87,
+    "reviewCount": 559,
+    "releaseYear": 2020,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/products/tvs/icecat-lg-lg-32un550-w.jpg",
+    "images": [
+      "/images/products/tvs/icecat-lg-lg-32un550-w.jpg"
+    ],
+    "highlights": [
+      "31.5 inç 4K Ultra HD (3840x2160) 60Hz Geniş Açılı VA Panel",
+      "HDR10 Desteği, %90 DCI-P3 Renk Gamutu ve AMD FreeSync",
+      "Dahili Stereo Hoparlör (2x5W MaxxAudio) ve Ergonomik Yükseklik/Eğim Ayarlı Stand"
+    ],
+    "specs": {
+      "screenSizeInches": 31.5,
+      "panelType": "VA",
+      "displayTech": "VA",
+      "resolution": "3840x2160 (4K UHD)",
+      "refreshRateHz": 60,
+      "responseTimeMs": 4,
+      "displayPort": "1.4",
+      "hdmiPorts": 2,
+      "vesaMount": "100x100",
+      "tilt": true,
+      "heightAdjustable": true,
+      "features": [
+        "AMD FreeSync",
+        "HDR10",
+        "Dahili Hoparlör (2x5W)",
+        "MaxxAudio",
+        "Flicker Safe"
+      ]
+    },
+    "storeOffers": [
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/images/stores/hepsiburada.png",
+        "price": 14999,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com/ara?q=LG%2032UN550-W",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/images/stores/trendyol.png",
+        "price": 15179,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.trendyol.com/sr?q=LG%2032UN550-W",
+        "rating": 4.8
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/images/stores/mediamarkt.png",
+        "price": 15369,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=LG%2032UN550-W",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Vatan Bilgisayar",
+        "storeLogo": "/images/stores/vatan.png",
+        "price": 15519,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.vatanbilgisayar.com/arama/LG%2032UN550-W",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Amazon Türkiye",
+        "storeLogo": "/images/stores/amazon.png",
+        "price": 14919,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr/s?k=LG%2032UN550-W",
+        "rating": 4.8
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/images/stores/teknosa.png",
+        "price": 15419,
+        "shippingFee": 0,
+        "inStock": true,
+        "url": "https://www.teknosa.com/arama?s=LG%2032UN550-W",
+        "rating": 4.8
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "Ekim 2025",
+        "price": 17100
+      },
+      {
+        "date": "Kasım 2025",
+        "price": 16650
+      },
+      {
+        "date": "Aralık 2025",
+        "price": 16200
+      },
+      {
+        "date": "Ocak 2026",
+        "price": 15750
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 15300
+      },
+      {
+        "date": "Ağustos 2026",
+        "price": 15000
+      }
+    ]
   }
 ];

@@ -2,18 +2,32 @@
 
 import { createContactDraft, CONTACT_SUBJECTS, type ContactDraft } from '@/lib/contactDraft';
 import React, { useState, useEffect, useRef } from 'react';
+import { useSearchParams } from 'next/navigation';
 import { Send, CheckCircle2, Mail, MessageSquare, User, AtSign, HelpCircle } from 'lucide-react';
 
 export function ContactForm() {
+  const searchParams = useSearchParams();
+  const subjectParam = searchParams.get('subject');
+  const productIdParam = searchParams.get('productId');
+
+  const initialSubject = subjectParam === 'hatali-bilgi' ? 'Fiyat / Ürün Hatası Bildirimi' : 'Genel Soru / Öneri';
+  const initialMessage = productIdParam ? `[Ürün Kodu: ${productIdParam}] Hakkında hatalı bilgi / fiyat bildirimi:\n` : '';
+
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
-  const [subject, setSubject] = useState('Genel Soru / Öneri');
-  const [message, setMessage] = useState('');
+  const [subject, setSubject] = useState(initialSubject);
+  const [message, setMessage] = useState(initialMessage);
   const [draft, setDraft] = useState<ContactDraft | null>(null);
   const [error, setError] = useState('');
   const [copyStatus, setCopyStatus] = useState('');
   const draftHeadingRef = useRef<HTMLHeadingElement>(null);
   const nameRef = useRef<HTMLInputElement>(null);
+
+  useEffect(() => {
+    if (subjectParam === 'hatali-bilgi') setSubject('Fiyat / Ürün Hatası Bildirimi');
+    if (productIdParam) setMessage(`[Ürün Kodu: ${productIdParam}] Hakkında hatalı bilgi / fiyat bildirimi:\n`);
+  }, [subjectParam, productIdParam]);
+
   useEffect(() => { if (draft) draftHeadingRef.current?.focus(); }, [draft]);
 
   const handleSubmit = (e: React.FormEvent) => {

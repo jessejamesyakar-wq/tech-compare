@@ -76,7 +76,23 @@ export function getPriceFreshness(lastCheckedAt?: string, nowMs = Date.now()): P
 }
 
 /**
- * Determines whether a URL is a Search Link, Homepage Link, or Direct Offer Link
+ * Checks if a URL is broken, missing, empty, or invalid syntax
+ */
+export function isBrokenUrl(url?: string): boolean {
+  if (!url || url.trim() === '' || url.trim() === '#') return true;
+  try {
+    const parsed = new URL(url.trim());
+    if (parsed.protocol !== 'https:' && parsed.protocol !== 'http:') return true;
+    if (parsed.username || parsed.password) return true;
+  } catch {
+    return true;
+  }
+  return false;
+}
+
+/**
+ * Determines whether a URL is a Search Link, Homepage Link, non-direct link, or broken/missing link.
+ * Note: Missing, empty, or '#' URLs return true so they are safely excluded from eligible direct product offers.
  */
 export function isSearchUrl(url?: string, isSearchLinkFlag?: boolean): boolean {
   if (isSearchLinkFlag === true) return true;
@@ -94,7 +110,7 @@ export function isSearchUrl(url?: string, isSearchLinkFlag?: boolean): boolean {
       return true; // Store homepage root is NOT a direct product offer!
     }
   } catch {
-    return true; // Invalid URL
+    return true; // Malformed or unparseable URL is treated as non-direct
   }
 
   // Search URL patterns (Amazon /s?k=, Gaming.Gen ?s=, Hepsiburada /ara?q=, Trendyol /sr?q=, etc.)

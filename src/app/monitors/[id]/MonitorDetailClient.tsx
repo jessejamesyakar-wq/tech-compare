@@ -20,6 +20,7 @@ import { AIReviewSummaryCard } from '@/components/ai/AIReviewSummaryCard';
 import { AIUpgradeAdvisor } from '@/components/ai/AIUpgradeAdvisor';
 import { TechTermExplainer } from '@/components/ai/TechTermExplainer';
 import { StoreTable } from '@/components/detail/StoreTable';
+import { FieldSourcesEvidence } from '@/components/detail/FieldSourcesEvidence';
 
 const PriceHistoryChart = dynamic(
   () => import('@/components/detail/PriceHistoryChart').then((m) => m.PriceHistoryChart),
@@ -48,7 +49,8 @@ const MONITOR_SPEC_LABELS: Record<string, [string, string?]> = {
   responseTimeMs: ['Tepki süresi', 'ms'], syncTechnology: ['Senkronizasyon'], aspectRatio: ['En-boy oranı'],
   brightnessNits: ['Parlaklık', 'nit'], contrastRatio: ['Kontrast oranı'], hdrSupport: ['HDR desteği'], hdr: ['HDR'],
   hdmiPorts: ['HDMI bağlantı sayısı'], hdmiVersion: ['HDMI sürümü'],
-  displayPortPorts: ['DisplayPort bağlantı sayısı'], displayPortVersion: ['DisplayPort sürümü'],
+  displayPortPorts: ['DisplayPort bağlantı sayısı'], displayPortVersion: ['DisplayPort sürümü'], displayPort: ['DisplayPort'],
+  vgaPorts: ['VGA (D-Sub) bağlantı sayısı'], displayTech: ['Görüntü teknolojisi'], tilt: ['Eğme açısı (Tilt)'], features: ['Ek özellikler'],
   vesaMount: ['VESA montaj ölçüsü'], ports: ['Bağlantılar'], flickerSafe: ['Titreşim azaltma'],
   readerMode: ['Okuma modu'], audioSpeakers: ['Hoparlör'], speakers: ['Hoparlör'],
   colorGamut: ['Renk gamı'], usbTypeCPowerWatts: ['USB-C güç iletimi', 'W'],
@@ -239,6 +241,9 @@ export default function MonitorDetailClient({ initialProduct }: { initialProduct
 
           {/* AI Module 6: ELI5 Tech Term Explainer */}
           <TechTermExplainer />
+
+          {/* 🚩 Data Trust & Spec Source Evidence */}
+          <FieldSourcesEvidence product={initialProduct} />
         </div>
       </div>
       <ProductJsonLd product={initialProduct as any} />

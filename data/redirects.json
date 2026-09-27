@@ -148,5 +148,23 @@
     "destination": "/appliances/xiaomi-robot-vacuum-x20-plus-pro-mop",
     "permanent": true,
     "name": "Xiaomi Robot Vacuum X20+ Mop"
+  },
+  {
+    "source": "/tvs/lg-lg-24mp450p-b",
+    "destination": "/monitors/lg-lg-24mp450p-b",
+    "permanent": true,
+    "name": "LG 24MP450P-B Monitor Redirect"
+  },
+  {
+    "source": "/tvs/lg-lg-27mp450p-b",
+    "destination": "/monitors/lg-lg-27mp450p-b",
+    "permanent": true,
+    "name": "LG 27MP450P-B Monitor Redirect"
+  },
+  {
+    "source": "/tvs/lg-lg-32un550-w",
+    "destination": "/monitors/lg-lg-32un550-w",
+    "permanent": true,
+    "name": "LG 32UN550-W Monitor Redirect"
   }
 ]
