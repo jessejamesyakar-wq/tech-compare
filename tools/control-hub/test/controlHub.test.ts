@@ -1190,7 +1190,7 @@ describe('ACELEETME Control Hub V0.4 — Autonomous Queue Runner Test Suite', ()
     const res = executor.executeTaskInWorktree('TYPECHECK', mockWorktree, '249d3ead0ee1d3ea5fda40d53208f45513f0dd44');
 
     assert.strictEqual(res.fingerprintMatch, false, 'Fingerprint must NOT match when lockfiles differ');
-    assert.strictEqual(res.dependencyStrategy, 'ISOLATED_NPM_CI');
+    assert.strictEqual(res.dependencyStrategy, 'WORKTREE_LOCAL_NPM_CI');
     assert.strictEqual(res.output.includes('fingerprintMatch: false'), true);
 
     cleanupTestFiles(mockWorktree);
@@ -2774,6 +2774,183 @@ describe('ACELEETME Control Hub V0.4 — Autonomous Queue Runner Test Suite', ()
     const scanner = new AccessibilityScanner();
     const issues = scanner.scan();
     assert.ok(Array.isArray(issues));
+  });
+
+  test('147. Worktree Dependency Isolation: ROOT_NEXT_BUILD rejects canonical junction and unlinks link', () => {
+    const { LocalTaskExecutor, inspectNodeModulesPath } = require('../src/localExecutor');
+    const mockWorktree = path.join(testDir, `worktree_next_junction_${Date.now()}`);
+    fs.mkdirSync(path.join(mockWorktree, 'data'), { recursive: true });
+
+    const canonicalRepo = path.resolve(__dirname, '../../..');
+    fs.copyFileSync(path.join(canonicalRepo, 'package.json'), path.join(mockWorktree, 'package.json'));
+    fs.copyFileSync(path.join(canonicalRepo, 'package-lock.json'), path.join(mockWorktree, 'package-lock.json'));
+    fs.writeFileSync(path.join(mockWorktree, 'data', 'redirects.json'), '[]', 'utf-8');
+
+    const nodeModulesPath = path.join(mockWorktree, 'node_modules');
+    fs.symlinkSync(path.join(canonicalRepo, 'node_modules'), nodeModulesPath, 'junction');
+
+    const inspectionBefore = inspectNodeModulesPath(mockWorktree);
+    assert.strictEqual(inspectionBefore.isReparsePoint, true);
+
+    const executor = new LocalTaskExecutor();
+    const res = executor.executeTaskInWorktree('BUILD', mockWorktree, '06bcd50a6597c5d7dffbf791d17986f17edb6638');
+
+    assert.notStrictEqual(res.dependencyStrategy, 'CANONICAL_JUNCTION');
+    const inspectionAfter = inspectNodeModulesPath(mockWorktree);
+    assert.strictEqual(inspectionAfter.isReparsePoint, false, 'Junction must be unlinked');
+
+    cleanupTestFiles(mockWorktree);
+  });
+
+  test('148. Worktree Dependency Isolation: ROOT_NEXT_BUILD rejects external symlink', () => {
+    const { LocalTaskExecutor, inspectNodeModulesPath } = require('../src/localExecutor');
+    const mockWorktree = path.join(testDir, `worktree_next_symlink_${Date.now()}`);
+    const externalDir = path.join(testDir, `external_nm_${Date.now()}`);
+    fs.mkdirSync(path.join(mockWorktree, 'data'), { recursive: true });
+    fs.mkdirSync(externalDir, { recursive: true });
+
+    const canonicalRepo = path.resolve(__dirname, '../../..');
+    fs.copyFileSync(path.join(canonicalRepo, 'package.json'), path.join(mockWorktree, 'package.json'));
+    fs.copyFileSync(path.join(canonicalRepo, 'package-lock.json'), path.join(mockWorktree, 'package-lock.json'));
+    fs.writeFileSync(path.join(mockWorktree, 'data', 'redirects.json'), '[]', 'utf-8');
+
+    const nodeModulesPath = path.join(mockWorktree, 'node_modules');
+    fs.symlinkSync(externalDir, nodeModulesPath, 'junction');
+
+    const executor = new LocalTaskExecutor();
+    const res = executor.executeTaskInWorktree('BUILD', mockWorktree, '06bcd50a6597c5d7dffbf791d17986f17edb6638');
+
+    assert.notStrictEqual(res.dependencyStrategy, 'CANONICAL_JUNCTION');
+    assert.strictEqual(res.nodeModulesIsReparsePoint, false);
+
+    cleanupTestFiles(mockWorktree, externalDir);
+  });
+
+  test('149. Worktree Dependency Isolation: ROOT_NEXT_BUILD accepts local node_modules via WORKTREE_LOCAL_REUSE', () => {
+    const { LocalTaskExecutor } = require('../src/localExecutor');
+    const mockWorktree = path.join(testDir, `worktree_next_reuse_${Date.now()}`);
+    fs.mkdirSync(path.join(mockWorktree, 'data'), { recursive: true });
+
+    const canonicalRepo = path.resolve(__dirname, '../../..');
+    fs.copyFileSync(path.join(canonicalRepo, 'package.json'), path.join(mockWorktree, 'package.json'));
+    fs.copyFileSync(path.join(canonicalRepo, 'package-lock.json'), path.join(mockWorktree, 'package-lock.json'));
+    fs.writeFileSync(path.join(mockWorktree, 'data', 'redirects.json'), '[]', 'utf-8');
+
+    const localNM = path.join(mockWorktree, 'node_modules');
+    fs.mkdirSync(localNM, { recursive: true });
+    fs.writeFileSync(path.join(localNM, 'dummy.txt'), 'local', 'utf-8');
+
+    const executor = new LocalTaskExecutor();
+    const res = executor.executeTaskInWorktree('BUILD', mockWorktree, '06bcd50a6597c5d7dffbf791d17986f17edb6638');
+
+    assert.strictEqual(res.dependencyStrategy, 'WORKTREE_LOCAL_REUSE');
+    assert.strictEqual(res.nodeModulesIsReparsePoint, false);
+
+    cleanupTestFiles(mockWorktree);
+  });
+
+  test('150. Lock hash match does NOT authorize incompatible junction for ROOT_NEXT_BUILD', () => {
+    const { LocalTaskExecutor } = require('../src/localExecutor');
+    const mockWorktree = path.join(testDir, `worktree_lock_match_no_junction_${Date.now()}`);
+    fs.mkdirSync(path.join(mockWorktree, 'data'), { recursive: true });
+
+    const canonicalRepo = path.resolve(__dirname, '../../..');
+    fs.copyFileSync(path.join(canonicalRepo, 'package.json'), path.join(mockWorktree, 'package.json'));
+    fs.copyFileSync(path.join(canonicalRepo, 'package-lock.json'), path.join(mockWorktree, 'package-lock.json'));
+    fs.writeFileSync(path.join(mockWorktree, 'data', 'redirects.json'), '[]', 'utf-8');
+
+    const executor = new LocalTaskExecutor();
+    const res = executor.executeTaskInWorktree('BUILD', mockWorktree, '06bcd50a6597c5d7dffbf791d17986f17edb6638');
+
+    assert.strictEqual(res.fingerprintMatch, true);
+    assert.notStrictEqual(res.dependencyStrategy, 'CANONICAL_JUNCTION');
+
+    cleanupTestFiles(mockWorktree);
+  });
+
+  test('151. Lock mismatch triggers local npm ci for ROOT_NEXT_BUILD', () => {
+    const { LocalTaskExecutor } = require('../src/localExecutor');
+    const mockWorktree = path.join(testDir, `worktree_lock_mismatch_${Date.now()}`);
+    fs.mkdirSync(path.join(mockWorktree, 'data'), { recursive: true });
+
+    const canonicalRepo = path.resolve(__dirname, '../../..');
+    fs.copyFileSync(path.join(canonicalRepo, 'package.json'), path.join(mockWorktree, 'package.json'));
+    fs.copyFileSync(path.join(canonicalRepo, 'package-lock.json'), path.join(mockWorktree, 'package-lock.json'));
+    fs.writeFileSync(path.join(mockWorktree, 'data', 'redirects.json'), '[]', 'utf-8');
+    const pkgData = JSON.parse(fs.readFileSync(path.join(mockWorktree, 'package.json'), 'utf-8'));
+    pkgData.version = '0.9.99-diff';
+    fs.writeFileSync(path.join(mockWorktree, 'package.json'), JSON.stringify(pkgData, null, 2), 'utf-8');
+
+    const executor = new LocalTaskExecutor();
+    const res = executor.executeTaskInWorktree('BUILD', mockWorktree, '06bcd50a6597c5d7dffbf791d17986f17edb6638');
+
+    assert.strictEqual(res.fingerprintMatch, false);
+    assert.strictEqual(res.dependencyStrategy, 'WORKTREE_LOCAL_NPM_CI');
+
+    cleanupTestFiles(mockWorktree);
+  });
+
+  test('152. CONTROL_HUB_TEST execution profile routing remains correct', () => {
+    const { resolveExecutionProfile } = require('../src/localExecutor');
+    const mockWorktree = path.join(testDir, `worktree_routing_${Date.now()}`);
+    fs.mkdirSync(mockWorktree, { recursive: true });
+
+    const profile = resolveExecutionProfile('TEST', 'run control hub tests', mockWorktree);
+    assert.strictEqual(profile.name, 'CONTROL_HUB_TEST');
+    assert.strictEqual(profile.command, 'npm test');
+
+    cleanupTestFiles(mockWorktree);
+  });
+
+  test('153. Unknown dependency layout / strategy fails closed', () => {
+    const { LocalTaskExecutor } = require('../src/localExecutor');
+    const executor = new LocalTaskExecutor();
+    assert.throws(
+      () => executor.executeTaskInWorktree('TYPECHECK', path.join(testDir, 'non_existent_dir_xyz'), '06bcd50a6597c5d7dffbf791d17986f17edb6638'),
+      /Workspace path does not exist/
+    );
+  });
+
+  test('154. Canonical node_modules is never modified during worktree cleanup', () => {
+    const canonicalRepo = path.resolve(__dirname, '../../..');
+    const canonicalNM = path.join(canonicalRepo, 'node_modules');
+    const existsBefore = fs.existsSync(canonicalNM);
+    assert.strictEqual(existsBefore, true, 'Canonical node_modules must exist');
+
+    const { LocalTaskExecutor } = require('../src/localExecutor');
+    const mockWorktree = path.join(testDir, `worktree_cleanup_test_${Date.now()}`);
+    fs.mkdirSync(path.join(mockWorktree, 'data'), { recursive: true });
+
+    fs.copyFileSync(path.join(canonicalRepo, 'package.json'), path.join(mockWorktree, 'package.json'));
+    fs.copyFileSync(path.join(canonicalRepo, 'package-lock.json'), path.join(mockWorktree, 'package-lock.json'));
+    fs.writeFileSync(path.join(mockWorktree, 'data', 'redirects.json'), '[]', 'utf-8');
+    fs.symlinkSync(canonicalNM, path.join(mockWorktree, 'node_modules'), 'junction');
+
+    const executor = new LocalTaskExecutor();
+    executor.executeTaskInWorktree('BUILD', mockWorktree, '06bcd50a6597c5d7dffbf791d17986f17edb6638');
+
+    const existsAfter = fs.existsSync(canonicalNM);
+    assert.strictEqual(existsAfter, true, 'Canonical node_modules must remain intact');
+
+    cleanupTestFiles(mockWorktree);
+  });
+
+  test('155. Worktree cleanup does not touch canonical repo files', () => {
+    const canonicalRepo = path.resolve(__dirname, '../../..');
+    const canonicalPkg = path.join(canonicalRepo, 'package.json');
+    const contentBefore = fs.readFileSync(canonicalPkg, 'utf-8');
+
+    const { LocalTaskExecutor } = require('../src/localExecutor');
+    const mockWorktree = path.join(testDir, `worktree_cleanup_isolation_${Date.now()}`);
+    fs.mkdirSync(mockWorktree, { recursive: true });
+    fs.copyFileSync(canonicalPkg, path.join(mockWorktree, 'package.json'));
+
+    const executor = new LocalTaskExecutor();
+    executor.executeTaskInWorktree('REPOSITORY_INSPECTION', mockWorktree, '06bcd50a6597c5d7dffbf791d17986f17edb6638');
+
+    cleanupTestFiles(mockWorktree);
+    const contentAfter = fs.readFileSync(canonicalPkg, 'utf-8');
+    assert.strictEqual(contentBefore, contentAfter, 'Canonical package.json must not be modified');
   });
 
 });

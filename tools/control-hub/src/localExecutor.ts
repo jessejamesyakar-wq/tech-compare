@@ -6,13 +6,68 @@ import { GreenTaskType } from './types';
 import { redactSecrets } from './secretRedactor';
 import { CONFIG } from './config';
 
+export type DependencyStrategy =
+  | 'WORKTREE_LOCAL_NPM_CI'
+  | 'WORKTREE_LOCAL_REUSE'
+  | 'CANONICAL_JUNCTION';
+
+export interface NodeModulesInspection {
+  exists: boolean;
+  isSymbolicLink: boolean;
+  isReparsePoint: boolean;
+  resolvedPath: string;
+  isOutsideWorktree: boolean;
+}
+
+export function inspectNodeModulesPath(workspacePath: string): NodeModulesInspection {
+  const nodeModulesPath = path.join(workspacePath, 'node_modules');
+  try {
+    const lstat = fs.lstatSync(nodeModulesPath);
+    const isSymlink = lstat.isSymbolicLink();
+    let resolvedPath = 'N/A';
+    let isOutsideWorktree = false;
+    try {
+      resolvedPath = fs.realpathSync(nodeModulesPath);
+      const realWorkspacePath = fs.realpathSync(workspacePath);
+      const normResolved = path.normalize(resolvedPath).toLowerCase();
+      const normWorkspace = path.normalize(realWorkspacePath).toLowerCase();
+      isOutsideWorktree = !normResolved.startsWith(normWorkspace);
+    } catch {
+      isOutsideWorktree = true;
+    }
+    return {
+      exists: true,
+      isSymbolicLink: isSymlink,
+      isReparsePoint: isSymlink,
+      resolvedPath,
+      isOutsideWorktree
+    };
+  } catch {
+    return {
+      exists: false,
+      isSymbolicLink: false,
+      isReparsePoint: false,
+      resolvedPath: 'N/A',
+      isOutsideWorktree: false
+    };
+  }
+}
+
 export class DependencyIsolationGuard {
   constructor(private canonicalRepoPath: string = CONFIG.CANONICAL_REPO_PATH) {}
 
-  public ensureIsolatedDependencies(workspacePath: string): boolean {
+  public ensureIsolatedDependencies(workspacePath: string, profileName: ExecutionProfileName = 'ROOT_TYPESCRIPT'): boolean {
     const canonicalRepo = this.canonicalRepoPath;
     const canonicalNodeModules = path.join(canonicalRepo, 'node_modules');
     const nodeModulesPath = path.join(workspacePath, 'node_modules');
+    const inspection = inspectNodeModulesPath(workspacePath);
+
+    if (profileName === 'ROOT_NEXT_BUILD') {
+      if (inspection.exists && !inspection.isSymbolicLink && !inspection.isReparsePoint && !inspection.isOutsideWorktree) {
+        return true;
+      }
+      return false;
+    }
 
     if (fs.existsSync(nodeModulesPath)) {
       return true;
@@ -74,10 +129,13 @@ export interface ExecutionResult {
   startedAt: string;
   completedAt: string;
   dependenciesState?: string;
-  dependencyStrategy?: string;
+  dependencyStrategy?: DependencyStrategy | string;
   sourceLockHash?: string;
   targetLockHash?: string;
   fingerprintMatch?: boolean;
+  nodeModulesPath?: string;
+  nodeModulesIsReparsePoint?: boolean;
+  resolvedNodeModulesPath?: string;
 }
 
 const execOptions = { encoding: 'utf-8' as const, windowsHide: true, maxBuffer: 10 * 1024 * 1024 };
@@ -260,45 +318,61 @@ export class LocalTaskExecutor {
       };
     }
 
-    // Dependency Isolation Guard with Fingerprint Verification
-    let dependenciesState = 'PRESENT';
-    let dependencyStrategy = 'EXISTING_NODE_MODULES';
-    let sourceLockHash = 'N/A';
-    let targetLockHash = 'N/A';
-    let fingerprintMatch = false;
+    // Dependency Isolation Guard with Fingerprint Verification & Profile-Specific Policy
+    const canonicalRepo = CONFIG.CANONICAL_REPO_PATH;
+    const canonicalNodeModules = path.join(canonicalRepo, 'node_modules');
+
+    const sourceLockHash = computeFileHash(path.join(canonicalRepo, 'package-lock.json'));
+    const targetLockHash = computeFileHash(path.join(workspacePath, 'package-lock.json'));
+    const sourcePkgHash = computeFileHash(path.join(canonicalRepo, 'package.json'));
+    const targetPkgHash = computeFileHash(path.join(workspacePath, 'package.json'));
+
+    let fingerprintMatch =
+      sourceLockHash !== 'MISSING' &&
+      sourceLockHash !== 'ERROR' &&
+      sourceLockHash === targetLockHash &&
+      sourcePkgHash === targetPkgHash;
 
     const nodeModulesPath = path.join(workspacePath, 'node_modules');
-    if (!fs.existsSync(nodeModulesPath)) {
-      const canonicalRepo = CONFIG.CANONICAL_REPO_PATH;
-      const canonicalNodeModules = path.join(canonicalRepo, 'node_modules');
+    let inspection = inspectNodeModulesPath(workspacePath);
+    let dependencyStrategy: DependencyStrategy | string = 'UNKNOWN';
+    let dependenciesState = 'UNKNOWN';
 
-      sourceLockHash = computeFileHash(path.join(canonicalRepo, 'package-lock.json'));
-      targetLockHash = computeFileHash(path.join(workspacePath, 'package-lock.json'));
-      const sourcePkgHash = computeFileHash(path.join(canonicalRepo, 'package.json'));
-      const targetPkgHash = computeFileHash(path.join(workspacePath, 'package.json'));
+    if (profile.name === 'ROOT_NEXT_BUILD') {
+      // ROOT_NEXT_BUILD FORBIDS CANONICAL_JUNCTION and EXTERNAL SYMLINKS.
+      // Must use WORKTREE_LOCAL_REUSE or WORKTREE_LOCAL_NPM_CI.
 
-      fingerprintMatch =
-        sourceLockHash !== 'MISSING' &&
-        sourceLockHash !== 'ERROR' &&
-        sourceLockHash === targetLockHash &&
-        sourcePkgHash === targetPkgHash;
-
-      if (fingerprintMatch && fs.existsSync(canonicalNodeModules)) {
+      if (inspection.exists && (inspection.isSymbolicLink || inspection.isReparsePoint || inspection.isOutsideWorktree)) {
+        // REPARSE / SYMLINK GUARD: remove invalid junction/symlink ONLY inside disposable worktree
         try {
-          fs.symlinkSync(canonicalNodeModules, nodeModulesPath, 'junction');
-          dependenciesState = 'LINKED_CANONICAL_NODE_MODULES_MATCHED';
-          dependencyStrategy = 'CANONICAL_JUNCTION';
+          fs.unlinkSync(nodeModulesPath);
         } catch {
-          fingerprintMatch = false;
+          try {
+            fs.rmSync(nodeModulesPath, { recursive: true, force: true });
+          } catch {}
+        }
+        inspection = inspectNodeModulesPath(workspacePath);
+      }
+
+      if (inspection.exists && !inspection.isSymbolicLink && !inspection.isReparsePoint && !inspection.isOutsideWorktree) {
+        if (fingerprintMatch) {
+          dependencyStrategy = 'WORKTREE_LOCAL_REUSE';
+          dependenciesState = 'REUSED_WORKTREE_LOCAL_NODE_MODULES';
+        } else {
+          try {
+            fs.rmSync(nodeModulesPath, { recursive: true, force: true });
+          } catch {}
+          inspection = inspectNodeModulesPath(workspacePath);
         }
       }
 
-      if (!fs.existsSync(nodeModulesPath)) {
-        dependencyStrategy = 'ISOLATED_NPM_CI';
+      if (!inspection.exists) {
+        dependencyStrategy = 'WORKTREE_LOCAL_NPM_CI';
         const lockfilePath = path.join(workspacePath, 'package-lock.json');
         if (fs.existsSync(lockfilePath)) {
           dependenciesState = 'INSTALLED_VIA_NPM_CI';
           const ciRes = runInDir('npm ci', workspacePath);
+          inspection = inspectNodeModulesPath(workspacePath);
           if (ciRes.exitCode !== 0) {
             const completedAt = new Date().toISOString();
             return {
@@ -313,13 +387,132 @@ export class LocalTaskExecutor {
               dependencyStrategy,
               sourceLockHash,
               targetLockHash,
-              fingerprintMatch
+              fingerprintMatch,
+              nodeModulesPath,
+              nodeModulesIsReparsePoint: inspection.isReparsePoint,
+              resolvedNodeModulesPath: inspection.resolvedPath
             };
           }
         } else {
           dependenciesState = 'MISSING_LOCKFILE';
         }
       }
+
+      if (
+        dependencyStrategy === 'CANONICAL_JUNCTION' ||
+        inspection.isSymbolicLink ||
+        inspection.isReparsePoint ||
+        inspection.isOutsideWorktree
+      ) {
+        const completedAt = new Date().toISOString();
+        return {
+          exitCode: 1,
+          output: `[LOCAL_EXECUTOR] INVALID_BUILD_DEPENDENCY_LAYOUT: ROOT_NEXT_BUILD requires local node_modules inside worktree. Strategy ${dependencyStrategy} or external symlink is forbidden for Turbopack.`,
+          executionProfile: profile.name,
+          cwd: profile.cwd,
+          command: profile.command,
+          startedAt,
+          completedAt,
+          dependenciesState: 'INVALID_BUILD_DEPENDENCY_LAYOUT',
+          dependencyStrategy: 'CANONICAL_JUNCTION',
+          sourceLockHash,
+          targetLockHash,
+          fingerprintMatch,
+          nodeModulesPath,
+          nodeModulesIsReparsePoint: inspection.isReparsePoint,
+          resolvedNodeModulesPath: inspection.resolvedPath
+        };
+      }
+    } else {
+      // Non-ROOT_NEXT_BUILD profiles (ROOT_TYPESCRIPT, CONTROL_HUB_BUILD, CONTROL_HUB_TEST, etc.)
+      if (inspection.exists) {
+        if (!inspection.isSymbolicLink && !inspection.isReparsePoint && !inspection.isOutsideWorktree) {
+          dependencyStrategy = 'WORKTREE_LOCAL_REUSE';
+          dependenciesState = 'REUSED_WORKTREE_LOCAL_NODE_MODULES';
+        } else if (fingerprintMatch) {
+          dependencyStrategy = 'CANONICAL_JUNCTION';
+          dependenciesState = 'LINKED_CANONICAL_NODE_MODULES_MATCHED';
+        } else {
+          try {
+            fs.unlinkSync(nodeModulesPath);
+          } catch {
+            try {
+              fs.rmSync(nodeModulesPath, { recursive: true, force: true });
+            } catch {}
+          }
+          inspection = inspectNodeModulesPath(workspacePath);
+        }
+      }
+
+      if (!inspection.exists) {
+        if (fingerprintMatch && fs.existsSync(canonicalNodeModules)) {
+          try {
+            fs.symlinkSync(canonicalNodeModules, nodeModulesPath, 'junction');
+            dependencyStrategy = 'CANONICAL_JUNCTION';
+            dependenciesState = 'LINKED_CANONICAL_NODE_MODULES_MATCHED';
+            inspection = inspectNodeModulesPath(workspacePath);
+          } catch {
+            fingerprintMatch = false;
+          }
+        }
+
+        if (!inspection.exists) {
+          dependencyStrategy = 'WORKTREE_LOCAL_NPM_CI';
+          const lockfilePath = path.join(workspacePath, 'package-lock.json');
+          if (fs.existsSync(lockfilePath)) {
+            dependenciesState = 'INSTALLED_VIA_NPM_CI';
+            const ciRes = runInDir('npm ci', workspacePath);
+            inspection = inspectNodeModulesPath(workspacePath);
+            if (ciRes.exitCode !== 0) {
+              const completedAt = new Date().toISOString();
+              return {
+                exitCode: ciRes.exitCode,
+                output: `[LOCAL_EXECUTOR] npm ci failed (dependencyStrategy: ${dependencyStrategy}, fingerprintMatch: ${fingerprintMatch}):\n${ciRes.stderr || ciRes.stdout}`,
+                executionProfile: profile.name,
+                cwd: profile.cwd,
+                command: 'npm ci',
+                startedAt,
+                completedAt,
+                dependenciesState: 'NPM_CI_FAILED',
+                dependencyStrategy,
+                sourceLockHash,
+                targetLockHash,
+                fingerprintMatch,
+                nodeModulesPath,
+                nodeModulesIsReparsePoint: inspection.isReparsePoint,
+                resolvedNodeModulesPath: inspection.resolvedPath
+              };
+            }
+          } else {
+            dependenciesState = 'MISSING_LOCKFILE';
+          }
+        }
+      }
+    }
+
+    if (
+      dependencyStrategy !== 'WORKTREE_LOCAL_NPM_CI' &&
+      dependencyStrategy !== 'WORKTREE_LOCAL_REUSE' &&
+      dependencyStrategy !== 'CANONICAL_JUNCTION'
+    ) {
+      const completedAt = new Date().toISOString();
+      return {
+        exitCode: 1,
+        output: `[LOCAL_EXECUTOR] FAIL_CLOSED: Unknown or unsupported dependency strategy: ${dependencyStrategy}`,
+        executionProfile: profile.name,
+        cwd: profile.cwd,
+        command: profile.command,
+        startedAt,
+        completedAt,
+        dependenciesState: 'UNKNOWN_STRATEGY_FAILED',
+        dependencyStrategy,
+        sourceLockHash,
+        targetLockHash,
+        fingerprintMatch,
+        nodeModulesPath,
+        nodeModulesIsReparsePoint: inspection.isReparsePoint,
+        resolvedNodeModulesPath: inspection.resolvedPath
+      };
     }
 
     const res = runInDir(profile.command, profile.cwd);
@@ -338,6 +531,9 @@ export class LocalTaskExecutor {
       `startedAt: ${startedAt}`,
       `completedAt: ${completedAt}`,
       `dependencyStrategy: ${dependencyStrategy}`,
+      `nodeModulesPath: ${nodeModulesPath}`,
+      `nodeModulesIsReparsePoint: ${inspection.isReparsePoint}`,
+      `resolvedNodeModulesPath: ${inspection.resolvedPath}`,
       `sourceLockHash: ${sourceLockHash}`,
       `targetLockHash: ${targetLockHash}`,
       `fingerprintMatch: ${fingerprintMatch}`,
@@ -360,7 +556,10 @@ export class LocalTaskExecutor {
       dependencyStrategy,
       sourceLockHash,
       targetLockHash,
-      fingerprintMatch
+      fingerprintMatch,
+      nodeModulesPath,
+      nodeModulesIsReparsePoint: inspection.isReparsePoint,
+      resolvedNodeModulesPath: inspection.resolvedPath
     };
   }
 

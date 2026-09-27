@@ -193,3 +193,40 @@ export class QueueStore {
     fs.writeFileSync(this.usageStateFilePath, JSON.stringify(usage, null, 2), 'utf-8');
   }
 }
+
+export function computeFailureAccounting(tasks: QueueTask[]): {
+  HISTORICAL_FAILED: number;
+  RESOLVED_HISTORICAL_FAILED: number;
+  ACTIVE_FAILED: number;
+} {
+  let historicalFailed = 0;
+  let resolvedHistoricalFailed = 0;
+  let activeFailed = 0;
+
+  for (const t of tasks) {
+    const isHistoricalFailure =
+      t.status === 'FAILED' ||
+      Boolean(t.failureClassification) ||
+      Boolean(t.resolutionClassification);
+
+    if (isHistoricalFailure) {
+      historicalFailed++;
+      const isResolved =
+        Boolean(t.resolutionClassification) ||
+        t.status === 'COMPLETED' ||
+        t.status === 'COMPLETED_WITH_LIMITATION';
+
+      if (isResolved) {
+        resolvedHistoricalFailed++;
+      } else {
+        activeFailed++;
+      }
+    }
+  }
+
+  return {
+    HISTORICAL_FAILED: historicalFailed,
+    RESOLVED_HISTORICAL_FAILED: resolvedHistoricalFailed,
+    ACTIVE_FAILED: activeFailed
+  };
+}

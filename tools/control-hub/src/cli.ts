@@ -2,7 +2,7 @@ import { CONFIG } from './config';
 import { ProjectPlanner } from './projectPlanner';
 import { OpenAIStrategicPlanner } from './strategicPlanner';
 import { QueueRunner } from './queueRunner';
-import { QueueStore } from './queueStore';
+import { QueueStore, computeFailureAccounting } from './queueStore';
 import { TelegramNotifier } from './telegramNotifier';
 import { OwnerDecisionItem, QueueTask, RiskLevel, StrategicTaskProposal, TaskPriority, TaskType } from './types';
 import { parseQueueAddArgs, ALLOWED_TASK_TYPES } from './cliParser';
@@ -84,7 +84,7 @@ async function main() {
 
     const completed = tasks.filter(t => t.status === 'COMPLETED').length;
     const completedWithLimitation = tasks.filter(t => t.status === 'COMPLETED_WITH_LIMITATION').length;
-    const failed = tasks.filter(t => t.status === 'FAILED').length;
+    const failureAccounting = computeFailureAccounting(tasks);
     const blocked = tasks.filter(t => t.status === 'BLOCKED' || t.status === 'BLOCKED_BY_DEPENDENCY' || t.status === 'BLOCKED_BY_REPOSITORY_IDENTITY').length;
     const ownerDecisionsWaiting = decisions.filter(d => d.status === 'PENDING').length;
 
@@ -98,7 +98,9 @@ async function main() {
     console.log(`--------------------------------------------------`);
     console.log(`TASKS COMPLETED: ${completed}`);
     console.log(`COMPLETED WITH LIMITATION: ${completedWithLimitation}`);
-    console.log(`FAILED: ${failed}`);
+    console.log(`HISTORICAL_FAILED: ${failureAccounting.HISTORICAL_FAILED}`);
+    console.log(`RESOLVED_HISTORICAL_FAILED: ${failureAccounting.RESOLVED_HISTORICAL_FAILED}`);
+    console.log(`ACTIVE_FAILED: ${failureAccounting.ACTIVE_FAILED}`);
     console.log(`BLOCKED: ${blocked}`);
     console.log(`OWNER DECISIONS WAITING: ${ownerDecisionsWaiting}`);
     console.log(`QUEUE LUNA CALLS: ${usage.queueLunaCalls || 0}`);

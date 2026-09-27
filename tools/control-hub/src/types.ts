@@ -94,8 +94,21 @@ export interface QueueTask {
   solReviewResult?: StructuredReviewResult;
   reviewerDecision?: ReviewerDecision;
   failureClassification?: string;
+  resolutionClassification?: string;
+  resolutionNotes?: string;
   limitations?: string[];
   ownerDecisionReason?: string;
+}
+
+export type DependencyStrategy =
+  | 'WORKTREE_LOCAL_NPM_CI'
+  | 'WORKTREE_LOCAL_REUSE'
+  | 'CANONICAL_JUNCTION';
+
+export interface FailureAccountingSummary {
+  HISTORICAL_FAILED: number;
+  RESOLVED_HISTORICAL_FAILED: number;
+  ACTIVE_FAILED: number;
 }
 
 export interface TaskRecord extends QueueTask {}

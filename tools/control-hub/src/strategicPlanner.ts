@@ -2,7 +2,7 @@ import fs from 'fs';
 import path from 'path';
 import execSync from 'child_process';
 import { CONFIG, isOpenAiApiKeyPresent } from './config';
-import { QueueStore } from './queueStore';
+import { QueueStore, computeFailureAccounting } from './queueStore';
 import { validateTaskGovernance } from './governance';
 import { redactObject, redactSecrets } from './secretRedactor';
 import { BuilderPolicyEngine } from './builderPolicy';
@@ -51,6 +51,8 @@ export interface ProjectTelemetry {
   pendingTasksCount: number;
   completedTasksCount: number;
   failedTasksCount: number;
+  historicalFailedTasksCount?: number;
+  resolvedHistoricalFailedTasksCount?: number;
   ownerDecisionsWaiting: number;
   catalogAudit: string;
   commerceReadiness: string;
@@ -85,7 +87,7 @@ export class OpenAIStrategicPlanner {
 
     const pending = tasks.filter(t => t.status === 'PENDING').length;
     const completed = tasks.filter(t => t.status === 'COMPLETED' || t.status === 'COMPLETED_WITH_LIMITATION').length;
-    const failed = tasks.filter(t => t.status === 'FAILED').length;
+    const failureAccounting = computeFailureAccounting(tasks);
     const waitingDecisions = decisions.filter(d => d.status === 'PENDING').length;
 
     return {
@@ -95,7 +97,9 @@ export class OpenAIStrategicPlanner {
       killSwitchState: runnerState.paused ? 'PAUSED' : 'RUNNING',
       pendingTasksCount: pending,
       completedTasksCount: completed,
-      failedTasksCount: failed,
+      failedTasksCount: failureAccounting.ACTIVE_FAILED,
+      historicalFailedTasksCount: failureAccounting.HISTORICAL_FAILED,
+      resolvedHistoricalFailedTasksCount: failureAccounting.RESOLVED_HISTORICAL_FAILED,
       ownerDecisionsWaiting: waitingDecisions,
       catalogAudit: 'CANONICAL_DB_AUDIT = NOT_PERFORMED (smartphonesData.json = BOOTSTRAP_BASELINE, Postgres/Neon = CANONICAL_MUTABLE_AUTHORITY)',
       commerceReadiness: 'RETAILERS_8 = PERMISSION_UNVERIFIED (Hepsiburada, Trendyol, Amazon, n11, PTTAVM, MediaMarkt, Vatan, Teknosa)',
