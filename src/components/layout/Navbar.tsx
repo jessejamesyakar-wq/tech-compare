@@ -415,11 +415,7 @@ export function Navbar() {
 
   return (
     <>
-      <header className={`sticky top-0 z-40 transition-colors backdrop-blur-xl ${
-        isHomePage
-          ? 'bg-[#070D18]/95 border-b border-slate-800/80 shadow-md'
-          : 'bg-white/95 dark:bg-[#090D16]/95 border-b border-slate-200/80 dark:border-slate-800/80 shadow-xs'
-      }`}>
+      <header className="sticky top-0 z-40 bg-white/95 dark:bg-[#090D16]/95 backdrop-blur-xl border-b border-slate-200/80 dark:border-slate-800/80 shadow-xs transition-colors">
         <div className="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8">
           
           {/* Row 1: Logo & Desktop Search Bar & Right Language/Compare */}
@@ -428,24 +424,24 @@ export function Navbar() {
             {/* 1. Left: Logo & Homepage Navigation Links */}
             <div className="shrink-0 flex items-center gap-4 sm:gap-6">
               <Link href="/" className="group block">
-                <Logo variant={isHomePage ? 'dark' : 'light'} />
+                <Logo variant="light" />
               </Link>
 
               {isHomePage && (
-                <nav className="hidden xl:flex items-center gap-4 text-xs font-bold text-slate-300">
-                  <Link href="/phones" className="hover:text-cyan-400 transition-colors">
+                <nav className="hidden xl:flex items-center gap-4 text-xs font-extrabold text-slate-700 dark:text-slate-200">
+                  <Link href="/phones" className="hover:text-cyan-600 dark:hover:text-cyan-400 transition-colors">
                     Keşfet
                   </Link>
-                  <Link href="/compare" className="hover:text-cyan-400 transition-colors">
+                  <Link href="/compare" className="hover:text-cyan-600 dark:hover:text-cyan-400 transition-colors">
                     Karşılaştır
                   </Link>
                   <button
                     type="button"
                     onClick={() => openAiAssistant()}
-                    className="hover:text-cyan-400 transition-colors text-cyan-300 font-extrabold flex items-center gap-1 cursor-pointer"
+                    className="hover:text-cyan-600 dark:hover:text-cyan-400 text-cyan-600 dark:text-cyan-400 font-extrabold flex items-center gap-1 cursor-pointer"
                   >
                     <span>RoboPengu</span>
-                    <Sparkles className="w-3 h-3 text-cyan-400 fill-cyan-400" />
+                    <Sparkles className="w-3 h-3 text-cyan-500 fill-cyan-500" />
                   </button>
                 </nav>
               )}
