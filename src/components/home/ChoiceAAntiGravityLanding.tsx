@@ -16,9 +16,7 @@ import {
   Laptop,
   ArrowRight,
   TrendingDown,
-  Clock,
-  ChevronRight,
-  CheckCircle2
+  Clock
 } from 'lucide-react';
 
 interface ChoiceAAntiGravityLandingProps {
@@ -35,7 +33,7 @@ interface ChoiceAAntiGravityLandingProps {
   };
 }
 
-// Preset Comparison & AI Answers
+// Preset Quick Answer Responses for the 4 Pills
 const QUICK_AI_RESPONSES: Record<string, {
   title: string;
   badge: string;
@@ -221,7 +219,6 @@ export function ChoiceAAntiGravityLanding() {
   const [inputQuery, setInputQuery] = useState('');
   const [activeTab, setActiveTab] = useState<'phones' | 'tvs' | 'laptops'>('phones');
   const [activeResult, setActiveResult] = useState<typeof QUICK_AI_RESPONSES[string] | null>(null);
-  const [isPanelOpen, setIsPanelOpen] = useState(false);
   const [isAnalyzing, setIsAnalyzing] = useState(false);
 
   const handlePillClick = (promptText: string) => {
@@ -243,291 +240,262 @@ export function ChoiceAAntiGravityLanding() {
         link: '/compare'
       };
       setActiveResult(res);
-      setIsPanelOpen(true);
-    }, 450);
+    }, 400);
   };
 
-  const handleClosePanel = () => {
-    setIsPanelOpen(false);
+  const handleClear = () => {
+    setInputQuery('');
+    setActiveResult(null);
   };
 
   return (
-    <div className="relative bg-[#F8F9FC] text-slate-900 font-sans selection:bg-cyan-500 selection:text-white overflow-x-hidden">
+    <div className="relative bg-[#F8F9FC] text-slate-900 font-sans selection:bg-cyan-500 selection:text-white">
       
-      {/* Background Soft Ambient Light (Apple Style) */}
-      <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full max-w-7xl h-[550px] pointer-events-none overflow-hidden z-0">
-        <div className="absolute top-[-80px] left-[20%] w-[450px] h-[450px] bg-cyan-200/25 blur-[130px] rounded-full" />
-        <div className="absolute top-[40px] right-[20%] w-[400px] h-[400px] bg-emerald-200/25 blur-[140px] rounded-full" />
+      {/* Background Soft Glow (Apple Aesthetic) */}
+      <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full max-w-7xl h-[600px] pointer-events-none overflow-hidden z-0">
+        <div className="absolute top-[-100px] left-[20%] w-[500px] h-[500px] bg-cyan-200/25 blur-[140px] rounded-full" />
+        <div className="absolute top-[30px] right-[20%] w-[450px] h-[450px] bg-emerald-200/25 blur-[140px] rounded-full" />
       </div>
 
-      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-6 sm:pt-10 pb-16">
+      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-8 sm:pt-14 pb-16">
 
         {/* ========================================================================= */}
-        {/* 1. HERO SECTION: SINGLE UNIFIED ROBOPENGU HERO EXPERIENCE               */}
+        {/* 1. HERO SECTION: 1:1 EXACT MATCH FOR REFERENCE MOCKUP                    */}
         {/* ========================================================================= */}
-        
-        {/* Page Slogan Header */}
-        <div className="text-center max-w-3xl mx-auto mb-8 sm:mb-10">
-          <h1 className="text-3xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-slate-900 leading-[1.12] mb-3">
-            RoboPengu ile Karar Ver,{' '}
-            <span className="bg-clip-text text-transparent bg-gradient-to-r from-cyan-500 via-teal-500 to-emerald-500">
-              Acele Etme.
-            </span>
-          </h1>
+        <div className="relative max-w-3xl mx-auto my-6 sm:my-10">
 
-          <p className="text-base sm:text-lg text-slate-600 font-medium max-w-2xl mx-auto leading-relaxed">
-            5.768+ ürün arasından bütçene ve kullanımına en uygun donanımı bulan yapay zekâ danışmanın.
-          </p>
-        </div>
-
-        {/* SINGLE UNIFIED HERO BLOCK (Mascot Fixed on Left + Panel on Right) */}
-        <div className="relative max-w-5xl mx-auto mb-16">
-          <div className="rounded-3xl border border-white/90 bg-white/95 backdrop-blur-2xl shadow-[0_20px_60px_-15px_rgba(0,163,255,0.12)] p-5 sm:p-8 overflow-hidden">
-            
-            {/* Main Hero Container Grid: Desktop (2 Columns side-by-side), Mobile (Vertical Stacked) */}
-            <div className="grid grid-cols-1 md:grid-cols-12 gap-6 md:gap-8 items-center">
-
-              {/* LEFT COLUMN: Clean Cutout Mascot (Fixed Position, Forward Facing) */}
-              <div className="md:col-span-4 flex flex-col items-center justify-center text-center">
-                <div className="relative flex flex-col items-center">
-                  
-                  {/* Mascot Image (Using New Clean Asset `robopengu-mascot-clean.png`) */}
-                  <div className="relative w-44 h-52 sm:w-56 sm:h-64 animate-antigravity-float">
-                    <Image
-                      src="/assets/robopengu-mascot-clean.png"
-                      alt="RoboPengu AI Mascot"
-                      fill
-                      sizes="(max-width: 768px) 176px, 224px"
-                      className="object-contain filter drop-shadow-[0_12px_28px_rgba(0,163,255,0.22)]"
-                      priority
-                    />
-                    {/* Chest Reactor Pulse Glow */}
-                    <div className="absolute top-[48%] left-[49%] -translate-x-1/2 -translate-y-1/2 w-6 h-6 sm:w-7 sm:h-7 rounded-full bg-cyan-400/90 animate-reactor-pulse pointer-events-none" />
-                  </div>
-
-                </div>
+          {/* Overlapping 3D RoboPengu Character on Top-Left Corner (EXACT MATCH) */}
+          <div className="absolute -top-16 -left-8 sm:-top-20 sm:-left-16 md:-left-20 z-30 pointer-events-none">
+            <div className="relative flex flex-col items-center">
+              
+              {/* Mascot Image with Anti-Gravity Float Animation */}
+              <div className="relative w-36 h-48 sm:w-52 sm:h-64 animate-antigravity-float">
+                <Image
+                  src="/assets/robopengu-character-clean.png"
+                  alt="RoboPengu AI Mascot"
+                  fill
+                  sizes="(max-width: 640px) 144px, 208px"
+                  className="object-contain filter drop-shadow-[0_15px_30px_rgba(0,163,255,0.25)]"
+                  priority
+                />
+                {/* Glowing Blue Chest Reactor Pulse */}
+                <div className="absolute top-[48%] left-[49%] -translate-x-1/2 -translate-y-1/2 w-5 h-5 sm:w-7 sm:h-7 rounded-full bg-cyan-400/90 animate-reactor-pulse pointer-events-none" />
               </div>
 
-              {/* RIGHT COLUMN: RoboPengu Primary Greeting & Interaction Console */}
-              <div className="md:col-span-8 flex flex-col justify-between">
-                
-                {/* Panel Top Header Bar (No duplicate emblem circle!) */}
-                <div className="flex items-center justify-between pb-4 mb-4 border-b border-slate-100">
-                  <div className="flex items-center gap-3">
-                    <div>
-                      <div className="flex items-center gap-2">
-                        <h2 className="text-xl sm:text-2xl font-extrabold text-slate-900 tracking-tight">
-                          RoboPengu
-                        </h2>
-                        <span className="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full bg-emerald-50 text-emerald-700 border border-emerald-200 text-[11px] font-bold">
-                          <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-ping" />
-                          <span>Canlı AI</span>
-                        </span>
-                      </div>
-                      <p className="text-xs sm:text-sm font-medium text-slate-500">
-                        aceleetme.tech Baş Teknoloji Danışmanı
-                      </p>
-                    </div>
-                  </div>
-
-                  <div className="flex items-center gap-2 text-xs font-medium text-slate-500">
-                    <button
-                      type="button"
-                      onClick={() => setIsMuted(!isMuted)}
-                      className="flex items-center gap-1 px-2.5 py-1.5 rounded-full hover:bg-slate-100 transition-colors min-h-[44px]"
-                    >
-                      {isMuted ? <VolumeX className="w-3.5 h-3.5 text-slate-400" /> : <Volume2 className="w-3.5 h-3.5 text-cyan-600" />}
-                      <span className="hidden sm:inline">{isMuted ? 'Sessiz' : 'Ses Açık'}</span>
-                    </button>
-
-                    {isPanelOpen && (
-                      <button
-                        type="button"
-                        onClick={handleClosePanel}
-                        className="flex items-center gap-1 px-2.5 py-1.5 rounded-full hover:bg-slate-100 text-slate-500 hover:text-slate-900 transition-colors min-h-[44px]"
-                      >
-                        <Trash2 className="w-3.5 h-3.5" />
-                        <span>Sıfırla</span>
-                      </button>
-                    )}
-                  </div>
-                </div>
-
-                {/* 4 Quick Suggestion Pills */}
-                {/* Responsive: Horizontally scrollable single row on mobile (<768px), flex wrap on desktop */}
-                <div className="mb-5">
-                  <div className="text-[11px] font-bold uppercase tracking-wider text-slate-400 mb-2">
-                    Popüler Karşılaştırma Önerileri
-                  </div>
-                  <div className="flex md:flex-wrap items-center justify-start gap-2 overflow-x-auto pb-2 md:pb-0 scrollbar-none snap-x -mx-1 px-1">
-                    {Object.keys(QUICK_AI_RESPONSES).map((pillText) => (
-                      <button
-                        key={pillText}
-                        type="button"
-                        onClick={() => handlePillClick(pillText)}
-                        className="snap-start shrink-0 inline-flex items-center gap-1.5 px-3.5 py-2.5 rounded-full bg-slate-50 border border-slate-200/80 text-xs font-semibold text-slate-700 hover:text-cyan-600 hover:border-cyan-400 hover:bg-cyan-50/50 transition-all min-h-[44px] cursor-pointer"
-                      >
-                        <span>{pillText}</span>
-                      </button>
-                    ))}
-                  </div>
-                </div>
-
-                {/* Bottom Interactive Search Console */}
-                <form
-                  onSubmit={(e) => {
-                    e.preventDefault();
-                    if (inputQuery.trim()) handlePillClick(inputQuery);
-                  }}
-                  className="relative flex items-center w-full rounded-full border border-sky-300/80 bg-white shadow-xs focus-within:border-cyan-500 focus-within:ring-2 focus-within:ring-cyan-500/10 transition-all p-1.5 min-h-[48px]"
-                >
-                  <input
-                    type="text"
-                    value={inputQuery}
-                    onChange={(e) => setInputQuery(e.target.value)}
-                    placeholder="RoboPengu'ya sorun (örn: iPhone 16 Pro vs S24 Ultra...)"
-                    className="w-full bg-transparent pl-4 pr-20 text-xs sm:text-sm text-slate-900 placeholder-slate-400 focus:outline-none font-medium min-h-[44px]"
-                  />
-
-                  <div className="absolute right-1.5 flex items-center gap-1">
-                    <button
-                      type="button"
-                      onClick={() => handlePillClick('F/P laptop tavsiyesi')}
-                      className="p-2 rounded-full text-slate-400 hover:text-cyan-600 transition-colors min-w-[44px] min-h-[44px] flex items-center justify-center"
-                      title="Sesli Girdi"
-                    >
-                      <Mic className="w-4 h-4" />
-                    </button>
-
-                    <button
-                      type="submit"
-                      className="flex items-center justify-center w-9 h-9 rounded-full bg-gradient-to-tr from-cyan-500 to-blue-600 hover:from-cyan-400 hover:to-blue-500 text-white shadow-xs transition-transform hover:scale-105 active:scale-95 cursor-pointer"
-                      title="Analiz Et"
-                    >
-                      {isAnalyzing ? (
-                        <div className="w-3.5 h-3.5 border-2 border-white border-t-transparent rounded-full animate-spin" />
-                      ) : (
-                        <div className="flex items-center gap-0.5">
-                          <span className="w-0.5 bg-white rounded-full animate-wave-1 h-2.5" />
-                          <span className="w-0.5 bg-white rounded-full animate-wave-2 h-3.5" />
-                          <span className="w-0.5 bg-white rounded-full animate-wave-3 h-2" />
-                        </div>
-                      )}
-                    </button>
-                  </div>
-                </form>
-
+              {/* "Küresel AI Haberleri •" Dark Badge Under Mascot's Feet */}
+              <div className="mt-[-6px] sm:mt-[-8px] inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-[#0b1329] text-white text-[11px] sm:text-xs font-semibold shadow-xl border border-slate-700/80 pointer-events-auto">
+                <span className="text-cyan-400">🌐</span>
+                <span>Küresel AI Haberleri</span>
+                <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
               </div>
 
             </div>
-
           </div>
 
-          {/* ========================================================================= */}
-          {/* SLIDE-IN EXPANDABLE RESULT PANEL (Desktop Slide-in / Mobile Bottom Sheet) */}
-          {/* ========================================================================= */}
-          {isPanelOpen && activeResult && (
-            <>
-              {/* DESKTOP (md:block): Horizontal Slide-in Panel directly beside RoboPengu */}
-              <div className="hidden md:block mt-6 p-6 rounded-3xl bg-gradient-to-br from-slate-900 via-slate-950 to-slate-900 text-white border border-cyan-500/40 shadow-2xl transition-all duration-500 animate-slide-in">
-                <div className="flex items-center justify-between pb-4 border-b border-slate-800 mb-4">
-                  <div className="flex items-center gap-3">
-                    <span className="px-3 py-1 rounded-full bg-cyan-500 text-slate-950 text-xs font-black">
-                      {activeResult.badge}
-                    </span>
-                    <span className="text-xs font-bold text-slate-400">RoboScore: {activeResult.score}</span>
+          {/* Main White Console Card (1:1 Exact Match with Reference Image) */}
+          <div className="relative rounded-[32px] border border-white/90 bg-white/95 backdrop-blur-2xl shadow-[0_25px_70px_-15px_rgba(0,163,255,0.16)] p-6 sm:p-10 pt-12 sm:pt-10 overflow-hidden">
+            
+            {/* Top Bar: RoboPengu | Sessiz | Temizle | X */}
+            <div className="flex items-center justify-between pb-5 mb-5 border-b border-slate-100">
+              <div className="flex items-center gap-2 pl-24 sm:pl-32">
+                <div className="w-6 h-6 rounded-full bg-gradient-to-tr from-cyan-500 to-emerald-400 p-0.5 shadow-xs">
+                  <div className="w-full h-full rounded-full bg-slate-900 flex items-center justify-center text-white text-[9px] font-bold">
+                    RP
                   </div>
-                  <button
-                    onClick={handleClosePanel}
-                    className="p-1.5 rounded-full hover:bg-slate-800 text-slate-400 hover:text-white transition-colors cursor-pointer"
-                  >
-                    <X className="w-5 h-5" />
-                  </button>
                 </div>
-
-                <h3 className="text-xl font-extrabold text-white mb-2">{activeResult.title}</h3>
-                
-                <div className="p-3 rounded-xl bg-emerald-950/80 border border-emerald-500/40 text-emerald-300 text-xs sm:text-sm font-semibold mb-4">
-                  💡 {activeResult.verdict}
-                </div>
-
-                {/* Yan Yana Kıyaslama Tablosu (Side-by-side Table Format) */}
-                <div className="space-y-2 mb-5">
-                  <div className="grid grid-cols-3 text-xs font-bold text-slate-400 pb-1 border-b border-slate-800">
-                    <span>Özellik Kriteri</span>
-                    <span className="text-cyan-400">Seçenek 1</span>
-                    <span className="text-teal-400">Seçenek 2</span>
-                  </div>
-                  {activeResult.specs.map((spec, idx) => (
-                    <div key={idx} className="grid grid-cols-3 text-xs sm:text-sm py-2 px-3 rounded-lg bg-slate-900/80 border border-slate-800">
-                      <span className="font-semibold text-slate-400">{spec.label}</span>
-                      <span className="text-white font-bold truncate">{spec.p1}</span>
-                      <span className="text-slate-300 truncate">{spec.p2}</span>
-                    </div>
-                  ))}
-                </div>
-
-                <div className="flex items-center justify-between pt-2 border-t border-slate-800">
-                  <p className="text-xs text-slate-400 max-w-lg">{activeResult.summary}</p>
-                  <Link
-                    href={activeResult.link}
-                    className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-gradient-to-r from-cyan-500 to-teal-400 text-slate-950 font-black text-xs hover:from-cyan-400 hover:to-teal-300 transition-transform hover:scale-105"
-                  >
-                    <span>Tüm Mağaza Fiyatlarını İncele</span>
-                    <ArrowRight className="w-4 h-4" />
-                  </Link>
-                </div>
+                <span className="text-sm sm:text-base font-bold text-slate-900 tracking-tight">RoboPengu</span>
               </div>
 
-              {/* MOBILE (<md): Slide-up Bottom Sheet Drawer */}
-              <div className="md:hidden fixed inset-x-0 bottom-0 z-50 rounded-t-3xl bg-slate-900 text-white p-6 border-t border-cyan-500/40 shadow-2xl space-y-4 animate-slide-up max-h-[85vh] overflow-y-auto">
-                <div className="flex items-center justify-between pb-3 border-b border-slate-800">
-                  <span className="px-2.5 py-0.5 rounded-full bg-cyan-500 text-slate-950 text-xs font-black">
+              <div className="flex items-center gap-2 sm:gap-3 text-xs font-medium text-slate-500">
+                <button
+                  type="button"
+                  onClick={() => setIsMuted(!isMuted)}
+                  className="flex items-center gap-1.5 px-2.5 py-1.5 rounded-full hover:bg-slate-100 transition-colors min-h-[44px]"
+                >
+                  {isMuted ? <VolumeX className="w-3.5 h-3.5 text-slate-400" /> : <Volume2 className="w-3.5 h-3.5 text-cyan-600" />}
+                  <span className="hidden sm:inline">{isMuted ? 'Sessiz' : 'Sessiz'}</span>
+                </button>
+
+                <button
+                  type="button"
+                  onClick={handleClear}
+                  className="flex items-center gap-1.5 px-2.5 py-1.5 rounded-full hover:bg-slate-100 text-slate-500 hover:text-slate-900 transition-colors min-h-[44px]"
+                >
+                  <Trash2 className="w-3.5 h-3.5" />
+                  <span>Temizle</span>
+                </button>
+
+                <button
+                  type="button"
+                  onClick={handleClear}
+                  className="p-2 rounded-full hover:bg-slate-100 text-slate-400 hover:text-slate-700 transition-colors min-h-[44px] min-w-[44px] flex items-center justify-center"
+                >
+                  <X className="w-4 h-4" />
+                </button>
+              </div>
+            </div>
+
+            {/* Center Section: Glowing Circular Disc + Cyber Heart Emblem */}
+            {!activeResult ? (
+              <div className="text-center my-4 sm:my-6">
+                
+                {/* 3D Circular Glowing Bevel Disc */}
+                <div className="relative inline-flex items-center justify-center w-28 h-28 sm:w-32 sm:h-32 rounded-full bg-gradient-to-b from-sky-100 via-cyan-50 to-blue-100/70 border-2 border-sky-200/90 shadow-[0_12px_35px_rgba(0,163,255,0.22)] mb-4 group">
+                  <div className="relative w-16 h-16 sm:w-20 sm:h-20 flex items-center justify-center">
+                    <Image
+                      src="/images/robopengu_cyber_heart.png"
+                      alt="RoboPengu Cyber Heart Emblem"
+                      width={80}
+                      height={80}
+                      className="object-contain filter drop-shadow-[0_4px_12px_rgba(0,163,255,0.4)] group-hover:scale-105 transition-transform duration-300"
+                    />
+                  </div>
+                </div>
+
+                {/* Title & Subtitle */}
+                <h1 className="text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight mb-1">
+                  RoboPengu
+                </h1>
+                <p className="text-xs sm:text-sm font-medium text-slate-500 tracking-wide mb-8">
+                  aceleetme.tech Baş Teknoloji Danışmanı
+                </p>
+
+                {/* 4 Suggestion Pills (Arranged in 2 neat rows, matching screenshot) */}
+                <div className="max-w-xl mx-auto space-y-2.5 mb-8">
+                  <div className="flex flex-wrap items-center justify-center gap-2.5">
+                    <button
+                      type="button"
+                      onClick={() => handlePillClick('iPhone 16 Pro Max vs S24 Ultra')}
+                      className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white border border-slate-200 text-xs sm:text-sm font-medium text-slate-700 hover:border-cyan-400 hover:text-cyan-600 hover:shadow-xs transition-all min-h-[44px] cursor-pointer"
+                    >
+                      <span>📱 iPhone 16 Pro Max vs S24 Ultra</span>
+                    </button>
+                    <button
+                      type="button"
+                      onClick={() => handlePillClick('En iyi OLED TV hangisi?')}
+                      className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white border border-slate-200 text-xs sm:text-sm font-medium text-slate-700 hover:border-cyan-400 hover:text-cyan-600 hover:shadow-xs transition-all min-h-[44px] cursor-pointer"
+                    >
+                      <span>📺 En iyi OLED TV hangisi?</span>
+                    </button>
+                  </div>
+
+                  <div className="flex flex-wrap items-center justify-center gap-2.5">
+                    <button
+                      type="button"
+                      onClick={() => handlePillClick('F/P laptop tavsiyesi')}
+                      className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white border border-slate-200 text-xs sm:text-sm font-medium text-slate-700 hover:border-cyan-400 hover:text-cyan-600 hover:shadow-xs transition-all min-h-[44px] cursor-pointer"
+                    >
+                      <span>💻 F/P laptop tavsiyesi</span>
+                    </button>
+                    <button
+                      type="button"
+                      onClick={() => handlePillClick('ANC kulaklık önerisi')}
+                      className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white border border-slate-200 text-xs sm:text-sm font-medium text-slate-700 hover:border-cyan-400 hover:text-cyan-600 hover:shadow-xs transition-all min-h-[44px] cursor-pointer"
+                    >
+                      <span>🎧 ANC kulaklık önerisi</span>
+                    </button>
+                  </div>
+                </div>
+
+              </div>
+            ) : (
+              /* Active Answer Result Inside the Card */
+              <div className="my-4 p-5 sm:p-6 rounded-2xl bg-gradient-to-br from-slate-50 to-cyan-50/40 border border-cyan-100 animate-fadeIn">
+                <div className="flex items-center justify-between pb-3 border-b border-cyan-100 mb-3">
+                  <span className="px-3 py-1 rounded-full bg-cyan-500 text-white text-xs font-bold">
                     {activeResult.badge}
                   </span>
                   <button
-                    onClick={handleClosePanel}
-                    className="p-2 rounded-full hover:bg-slate-800 text-slate-400 hover:text-white transition-colors min-h-[44px] min-w-[44px] flex items-center justify-center"
+                    onClick={handleClear}
+                    className="text-xs text-slate-400 hover:text-slate-800 underline font-medium"
                   >
-                    <X className="w-5 h-5" />
+                    Yeni Soru Sor
                   </button>
                 </div>
 
-                <h3 className="text-lg font-bold text-white">{activeResult.title}</h3>
+                <h3 className="text-lg sm:text-xl font-bold text-slate-900 mb-2">{activeResult.title}</h3>
                 
-                <div className="p-3 rounded-xl bg-emerald-950/80 border border-emerald-500/40 text-emerald-300 text-xs font-semibold">
+                <div className="p-3 rounded-xl bg-emerald-50 border border-emerald-200/80 text-emerald-800 text-xs sm:text-sm font-semibold mb-4">
                   💡 {activeResult.verdict}
                 </div>
 
-                <div className="space-y-2">
+                <div className="space-y-1.5 mb-4">
                   {activeResult.specs.map((spec, idx) => (
-                    <div key={idx} className="grid grid-cols-3 text-xs py-2 px-2.5 rounded-lg bg-slate-800/80">
-                      <span className="font-semibold text-slate-400">{spec.label}</span>
-                      <span className="text-white font-bold truncate">{spec.p1}</span>
-                      <span className="text-slate-300 truncate">{spec.p2}</span>
+                    <div key={idx} className="grid grid-cols-3 text-xs sm:text-sm py-1.5 px-3 rounded-lg bg-white border border-slate-100">
+                      <span className="font-semibold text-slate-500">{spec.label}</span>
+                      <span className="text-slate-900 font-bold truncate">{spec.p1}</span>
+                      <span className="text-slate-600 truncate">{spec.p2}</span>
                     </div>
                   ))}
                 </div>
 
-                <div className="pt-2">
+                <div className="flex items-center justify-between pt-2 border-t border-cyan-100">
+                  <span className="text-xs font-bold text-slate-500">RoboScore: {activeResult.score}</span>
                   <Link
                     href={activeResult.link}
-                    className="w-full inline-flex items-center justify-center gap-2 py-3 rounded-xl bg-cyan-500 text-slate-950 font-black text-xs min-h-[44px]"
+                    className="inline-flex items-center gap-1.5 px-4 py-2 rounded-xl bg-slate-900 hover:bg-cyan-600 text-white text-xs font-bold transition-colors min-h-[44px]"
                   >
-                    <span>Kıyaslamayı Gör</span>
-                    <ArrowRight className="w-4 h-4" />
+                    <span>Detaylı Kıyaslama</span>
+                    <ArrowRight className="w-3.5 h-3.5" />
                   </Link>
                 </div>
               </div>
-            </>
-          )}
+            )}
+
+            {/* Bottom Input Console Bar (Sky Blue Pill Border - 1:1 Match) */}
+            <form
+              onSubmit={(e) => {
+                e.preventDefault();
+                if (inputQuery.trim()) handlePillClick(inputQuery);
+              }}
+              className="relative flex items-center w-full rounded-full border-2 border-[#60a5fa] bg-white shadow-xs focus-within:ring-4 focus-within:ring-cyan-500/10 transition-all p-1.5 min-h-[52px]"
+            >
+              <input
+                type="text"
+                value={inputQuery}
+                onChange={(e) => setInputQuery(e.target.value)}
+                placeholder="RoboPengu'ya sorun"
+                className="w-full bg-transparent pl-5 pr-24 text-sm sm:text-base text-slate-900 placeholder-slate-400 focus:outline-none font-medium min-h-[44px]"
+              />
+
+              <div className="absolute right-2 flex items-center gap-2">
+                <button
+                  type="button"
+                  onClick={() => handlePillClick('F/P laptop tavsiyesi')}
+                  className="p-2 rounded-full text-slate-500 hover:text-cyan-600 transition-colors min-w-[44px] min-h-[44px] flex items-center justify-center cursor-pointer"
+                  title="Sesli Girdi"
+                >
+                  <Mic className="w-4 h-4 sm:w-5 sm:h-5" />
+                </button>
+
+                <button
+                  type="submit"
+                  className="flex items-center justify-center w-9 h-9 sm:w-10 sm:h-10 rounded-full bg-gradient-to-tr from-cyan-400 to-blue-500 hover:from-cyan-300 hover:to-blue-400 text-white shadow-xs transition-transform hover:scale-105 active:scale-95 cursor-pointer"
+                  title="Analiz Et"
+                >
+                  {isAnalyzing ? (
+                    <div className="w-4 h-4 border-2 border-white border-t-transparent rounded-full animate-spin" />
+                  ) : (
+                    /* Live Audio Spectrum Equalizer Waveform Bars */
+                    <div className="flex items-center gap-0.5">
+                      <span className="w-0.5 bg-white rounded-full animate-wave-1 h-3" />
+                      <span className="w-0.5 bg-white rounded-full animate-wave-2 h-4" />
+                      <span className="w-0.5 bg-white rounded-full animate-wave-3 h-2" />
+                      <span className="w-0.5 bg-white rounded-full animate-wave-4 h-3.5" />
+                    </div>
+                  )}
+                </button>
+              </div>
+            </form>
+
+          </div>
 
         </div>
 
         {/* ========================================================================= */}
         {/* 2. PRODUCT PROOF SHOWCASE (RoboScore Doğrulanmış Donanım Vitrini)         */}
         {/* ========================================================================= */}
-        <div className="mt-16 mb-16">
+        <div className="mt-20 mb-16">
           <div className="flex flex-col sm:flex-row items-center justify-between gap-4 mb-8">
             <div>
               <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight text-center sm:text-left">
@@ -542,7 +510,7 @@ export function ChoiceAAntiGravityLanding() {
             <div className="flex items-center gap-1.5 p-1 rounded-full bg-slate-200/60 backdrop-blur-md">
               <button
                 onClick={() => setActiveTab('phones')}
-                className={`flex items-center gap-1.5 py-1.5 px-3.5 rounded-full text-xs font-bold transition-all min-h-[44px] ${
+                className={`flex items-center gap-1.5 py-1.5 px-3.5 rounded-full text-xs font-bold transition-all min-h-[44px] cursor-pointer ${
                   activeTab === 'phones'
                     ? 'bg-white text-slate-900 shadow-xs'
                     : 'text-slate-600 hover:text-slate-900'
@@ -554,7 +522,7 @@ export function ChoiceAAntiGravityLanding() {
 
               <button
                 onClick={() => setActiveTab('tvs')}
-                className={`flex items-center gap-1.5 py-1.5 px-3.5 rounded-full text-xs font-bold transition-all min-h-[44px] ${
+                className={`flex items-center gap-1.5 py-1.5 px-3.5 rounded-full text-xs font-bold transition-all min-h-[44px] cursor-pointer ${
                   activeTab === 'tvs'
                     ? 'bg-white text-slate-900 shadow-xs'
                     : 'text-slate-600 hover:text-slate-900'
@@ -566,7 +534,7 @@ export function ChoiceAAntiGravityLanding() {
 
               <button
                 onClick={() => setActiveTab('laptops')}
-                className={`flex items-center gap-1.5 py-1.5 px-3.5 rounded-full text-xs font-bold transition-all min-h-[44px] ${
+                className={`flex items-center gap-1.5 py-1.5 px-3.5 rounded-full text-xs font-bold transition-all min-h-[44px] cursor-pointer ${
                   activeTab === 'laptops'
                     ? 'bg-white text-slate-900 shadow-xs'
                     : 'text-slate-600 hover:text-slate-900'
