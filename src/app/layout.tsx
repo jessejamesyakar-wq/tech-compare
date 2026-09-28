@@ -121,7 +121,7 @@ export default function RootLayout({
                 <div className="flex flex-col min-h-screen relative overflow-x-clip">
                   <a href="#main-content" className="sr-only focus:not-sr-only focus:fixed focus:top-3 focus:left-3 focus:z-[100] focus:rounded-xl focus:bg-emerald-700 focus:text-white focus:px-4 focus:py-3 focus:font-bold">Ana içeriğe geç</a>
                   <Navbar />
-                  <main id="main-content" tabIndex={-1} className="flex-1 max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-6 z-10 scroll-mt-44">
+                  <main id="main-content" tabIndex={-1} className="flex-1 max-w-[1560px] 2xl:max-w-[1640px] w-full mx-auto px-2 sm:px-4 lg:px-6 py-4 sm:py-6 z-10 scroll-mt-44">
                     <GlobalErrorBoundary>
                       {children}
                     </GlobalErrorBoundary>

@@ -128,13 +128,13 @@ export function ChoiceAAntiGravityLanding() {
 
   return (
     <div className="relative bg-transparent text-slate-900 font-sans selection:bg-emerald-600 selection:text-white">
-      {/* Background Soft Ambient Light (Sitenin gri tonuyla kusursuz bütünleşen yumuşak aydınlatma) */}
-      <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full max-w-7xl h-[640px] pointer-events-none overflow-hidden z-0">
-        <div className="absolute top-[-80px] left-[15%] w-[650px] h-[500px] bg-slate-200/40 blur-[150px] rounded-full" />
-        <div className="absolute top-[40px] right-[15%] w-[550px] h-[450px] bg-slate-300/30 blur-[140px] rounded-full" />
+      {/* Background Soft Atmospheric Ambient Glow (Sitenin gri tonuyla kesintisiz bütünleşen ferah mavi aura) */}
+      <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full max-w-[1560px] h-[640px] pointer-events-none overflow-hidden z-0">
+        <div className="absolute top-[-80px] left-[15%] w-[650px] h-[500px] bg-sky-200/25 blur-[160px] rounded-full" />
+        <div className="absolute top-[40px] right-[15%] w-[550px] h-[450px] bg-cyan-200/20 blur-[150px] rounded-full" />
       </div>
 
-      <div className="relative z-10 max-w-7xl 2xl:max-w-[1536px] mx-auto px-2 sm:px-4 lg:px-8 pt-2 pb-16">
+      <div className="relative z-10 max-w-full 2xl:max-w-[1560px] mx-auto px-2 sm:px-4 lg:px-6 pt-2 pb-16">
         {/* 1. HERO SECTION: ROBOPENGU INLINE ASİSTAN DENEYİMİ */}
         <AIAssistantModal isInline={true} />
 

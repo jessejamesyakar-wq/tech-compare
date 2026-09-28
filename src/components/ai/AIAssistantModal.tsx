@@ -1378,7 +1378,7 @@ export function AIAssistantModal({
   const renderCardInner = () => (
     <>
       {/* Modal Üst Başlık Çubuğu */}
-      <div className="px-3 sm:px-6 py-2.5 sm:py-3 border-b border-slate-200/80 dark:border-slate-800 flex items-center justify-between bg-white/75 dark:bg-slate-900/75 backdrop-blur-md shrink-0 gap-2 flex-wrap">
+      <div className="px-3 sm:px-6 py-2.5 sm:py-3 border-b border-sky-100/80 dark:border-slate-800 flex items-center justify-between bg-white/70 dark:bg-slate-900/70 backdrop-blur-md shrink-0 gap-2 flex-wrap">
               <div className="flex items-center gap-2 sm:gap-3 min-w-0">
                 <div className="relative w-8 h-8 sm:w-9 sm:h-9 rounded-full bg-slate-900/90 dark:bg-slate-800 flex items-center justify-center overflow-hidden border border-cyan-400/40 dark:border-cyan-600 shrink-0 shadow-xs">
                   <img src="/images/futuristic_robopengu_emblem.png" alt="RoboPengu" className="w-7 h-7 sm:w-8 sm:h-8 object-contain" />
@@ -1504,7 +1504,7 @@ export function AIAssistantModal({
               <div
                 className={`flex flex-col h-full bg-slate-50/40 dark:bg-slate-950/40 transition-all duration-200 ${
                   hasPanel
-                    ? 'w-full lg:w-[420px] xl:w-[460px] shrink-0 border-r border-slate-200/80 dark:border-slate-800'
+                    ? 'w-full lg:w-[380px] xl:w-[410px] shrink-0 border-r border-sky-100/80 dark:border-slate-800'
                     : 'w-full'
                 } ${hasPanel && mobileTab === 'panel' ? 'hidden lg:flex' : 'flex'}`}
               >
@@ -1517,7 +1517,7 @@ export function AIAssistantModal({
                       {/* 3D Kabartma (Embossed) Madalyon Kaidesi ve Siber Kalp */}
                       <div className="relative mb-6 flex items-center justify-center group">
                         {/* 3D Dairesel Kabartmalı Dış Kaide Plakası */}
-                        <div className="relative w-40 h-40 sm:w-48 sm:h-48 rounded-full p-2.5 sm:p-3 flex items-center justify-center transition-transform duration-300 group-hover:scale-105 bg-gradient-to-br from-white via-slate-100 to-slate-200/90 dark:from-slate-800 dark:via-slate-850 dark:to-slate-900 shadow-[-8px_-8px_20px_rgba(255,255,255,0.95),12px_14px_28px_rgba(100,116,139,0.18),inset_1.5px_1.5px_2px_rgba(255,255,255,1),inset_-1.5px_-1.5px_3px_rgba(15,23,42,0.06)] dark:shadow-[-6px_-6px_16px_rgba(255,255,255,0.05),10px_12px_25px_rgba(0,0,0,0.5),inset_1px_1px_2px_rgba(255,255,255,0.1),inset_-1px_-1px_2px_rgba(0,0,0,0.5)]">
+                        <div className="relative w-40 h-40 sm:w-48 sm:h-48 rounded-full p-2.5 sm:p-3 flex items-center justify-center transition-transform duration-300 group-hover:scale-105 bg-gradient-to-br from-white via-[#edf4fe] to-[#cde2fc] dark:from-slate-800 dark:via-slate-850 dark:to-slate-900 shadow-[-8px_-8px_20px_rgba(255,255,255,0.95),12px_14px_28px_rgba(14,165,233,0.22),inset_1.5px_1.5px_2px_rgba(255,255,255,1),inset_-1.5px_-1.5px_3px_rgba(15,23,42,0.08)] dark:shadow-[-6px_-6px_16px_rgba(255,255,255,0.05),10px_12px_25px_rgba(0,0,0,0.5),inset_1px_1px_2px_rgba(255,255,255,0.1),inset_-1px_-1px_2px_rgba(0,0,0,0.5)]">
                           
                           {/* İç Yiv ve Pah Halkası */}
                           <div className="w-full h-full rounded-full border border-white/80 dark:border-slate-700/60 flex items-center justify-center p-2 relative shadow-[inset_2px_3px_6px_rgba(15,23,42,0.10),inset_-2px_-3px_6px_rgba(255,255,255,0.85)] dark:shadow-[inset_2px_3px_6px_rgba(0,0,0,0.4),inset_-2px_-3px_6px_rgba(255,255,255,0.05)] overflow-hidden">
@@ -1540,14 +1540,14 @@ export function AIAssistantModal({
                             <motion.div
                               animate={{
                                 scale: [1, 1.05, 1.02, 1.08, 1, 1],
-                                opacity: [0.15, 0.3, 0.2, 0.35, 0.15, 0.15]
+                                opacity: [0.2, 0.45, 0.3, 0.5, 0.2, 0.2]
                               }}
                               transition={{
                                 duration: 2.2,
                                 repeat: Infinity,
                                 ease: 'easeInOut'
                               }}
-                              className="absolute inset-2 rounded-full bg-gradient-to-r from-cyan-400/30 via-sky-500/30 to-indigo-500/30 blur-xl pointer-events-none"
+                              className="absolute inset-2 rounded-full bg-gradient-to-r from-cyan-400/50 via-sky-500/50 to-indigo-500/50 blur-xl pointer-events-none"
                             />
 
                             {/* Siber Sibernetik Kalp (Hafif ve Zarif Mikron Atan Kalp Animasyonu) */}
@@ -1595,28 +1595,28 @@ export function AIAssistantModal({
                         <button
                           type="button"
                           onClick={() => handleSend('iPhone 16 Pro Max vs Galaxy S24 Ultra')}
-                          className="text-[11px] bg-slate-50 dark:bg-slate-800/90 hover:bg-slate-100 dark:hover:bg-slate-700/80 text-slate-700 dark:text-slate-200 border border-slate-200/90 dark:border-slate-700 px-3 py-1.5 rounded-full transition shadow-2xs cursor-pointer active:scale-95 font-medium"
+                          className="text-[11px] bg-white/90 dark:bg-slate-800/90 hover:bg-sky-50 dark:hover:bg-blue-950/60 text-slate-700 dark:text-slate-200 border border-sky-100 dark:border-slate-700 px-3.5 py-1.5 rounded-full transition shadow-2xs cursor-pointer active:scale-95 font-medium"
                         >
                           📱 iPhone 16 Pro Max vs S24 Ultra
                         </button>
                         <button
                           type="button"
                           onClick={() => handleSend('En iyi OLED TV hangisi?')}
-                          className="text-[11px] bg-slate-50 dark:bg-slate-800/90 hover:bg-slate-100 dark:hover:bg-slate-700/80 text-slate-700 dark:text-slate-200 border border-slate-200/90 dark:border-slate-700 px-3 py-1.5 rounded-full transition shadow-2xs cursor-pointer active:scale-95 font-medium"
+                          className="text-[11px] bg-white/90 dark:bg-slate-800/90 hover:bg-sky-50 dark:hover:bg-blue-950/60 text-slate-700 dark:text-slate-200 border border-sky-100 dark:border-slate-700 px-3.5 py-1.5 rounded-full transition shadow-2xs cursor-pointer active:scale-95 font-medium"
                         >
                           📺 En iyi OLED TV hangisi?
                         </button>
                         <button
                           type="button"
                           onClick={() => handleSend('Fiyat/Performans laptop tavsiyesi')}
-                          className="text-[11px] bg-slate-50 dark:bg-slate-800/90 hover:bg-slate-100 dark:hover:bg-slate-700/80 text-slate-700 dark:text-slate-200 border border-slate-200/90 dark:border-slate-700 px-3 py-1.5 rounded-full transition shadow-2xs cursor-pointer active:scale-95 font-medium"
+                          className="text-[11px] bg-white/90 dark:bg-slate-800/90 hover:bg-sky-50 dark:hover:bg-blue-950/60 text-slate-700 dark:text-slate-200 border border-sky-100 dark:border-slate-700 px-3.5 py-1.5 rounded-full transition shadow-2xs cursor-pointer active:scale-95 font-medium"
                         >
                           💻 F/P laptop tavsiyesi
                         </button>
                         <button
                           type="button"
                           onClick={() => handleSend('En iyi ANC gürültü engelleyici kulaklık')}
-                          className="text-[11px] bg-slate-50 dark:bg-slate-800/90 hover:bg-slate-100 dark:hover:bg-slate-700/80 text-slate-700 dark:text-slate-200 border border-slate-200/90 dark:border-slate-700 px-3 py-1.5 rounded-full transition shadow-2xs cursor-pointer active:scale-95 font-medium"
+                          className="text-[11px] bg-white/90 dark:bg-slate-800/90 hover:bg-sky-50 dark:hover:bg-blue-950/60 text-slate-700 dark:text-slate-200 border border-sky-100 dark:border-slate-700 px-3.5 py-1.5 rounded-full transition shadow-2xs cursor-pointer active:scale-95 font-medium"
                         >
                           🎧 ANC kulaklık önerisi
                         </button>
@@ -1870,7 +1870,7 @@ export function AIAssistantModal({
                 </div>
 
                 {/* Alt Kısım: Hızlı Aksiyon Butonları & Kapsül Arama Çubuğu */}
-                <div className="p-3 sm:p-4 pb-[max(0.85rem,env(safe-area-inset-bottom))] border-t border-slate-200/80 dark:border-slate-800 bg-white/70 dark:bg-slate-900/70 backdrop-blur-md space-y-2 shrink-0">
+                <div className="p-3 sm:p-4 pb-[max(0.85rem,env(safe-area-inset-bottom))] border-t border-sky-100/80 dark:border-slate-800 bg-white/70 dark:bg-slate-900/70 backdrop-blur-md space-y-2 shrink-0">
                   {/* Hızlı Aksiyon Butonları (Sadece sohbet aktifken gösterilir) */}
                   {(messages.length > 1 || messages[0]?.id !== 'welcome') && (
                     <div className="flex items-center gap-1.5 overflow-x-auto text-[11px] sm:text-xs no-scrollbar pb-0.5 touch-pan-x -mx-1 px-1">
@@ -1879,7 +1879,7 @@ export function AIAssistantModal({
                           key={i}
                           type="button"
                           onClick={() => handleSend(qa.prompt)}
-                          className="px-2.5 py-1 bg-slate-50 dark:bg-slate-800 hover:bg-slate-100 dark:hover:bg-slate-700 text-slate-700 dark:text-slate-300 rounded-full whitespace-nowrap transition-colors cursor-pointer border border-slate-200 dark:border-slate-700 active:scale-95 touch-manipulation font-medium shrink-0 shadow-2xs"
+                          className="px-2.5 py-1 bg-white/90 dark:bg-slate-800 hover:bg-sky-50 dark:hover:bg-slate-700 text-slate-700 dark:text-slate-300 rounded-full whitespace-nowrap transition-colors cursor-pointer border border-sky-100 dark:border-slate-700 active:scale-95 touch-manipulation font-medium shrink-0 shadow-2xs"
                         >
                           {qa.label}
                         </button>
@@ -1915,7 +1915,7 @@ export function AIAssistantModal({
                         handleSend(input);
                       }
                     }}
-                    className="w-full bg-white dark:bg-slate-900 rounded-full border border-slate-200/90 dark:border-slate-700 shadow-sm px-4 py-2 flex items-center justify-between gap-2.5 transition-all focus-within:ring-2 focus-within:ring-slate-400 dark:focus-within:ring-slate-600"
+                    className="w-full bg-white dark:bg-slate-900 rounded-full border border-sky-100/90 dark:border-slate-800 shadow-[0_8px_25px_-5px_rgba(14,165,233,0.12)] px-4 py-2 flex items-center justify-between gap-2.5 transition-all focus-within:ring-2 focus-within:ring-sky-400 dark:focus-within:ring-sky-500"
                   >
                     {/* Metin Giriş Alanı (+ İşareti Kaldırıldı) */}
                     <div className="flex-1 flex items-center pl-1 min-w-0">
@@ -1974,7 +1974,7 @@ export function AIAssistantModal({
                         )}
                       </button>
 
-                      {/* Ses Dalgası / Canlı Ses Modu Butonu (Site tonuyla uyumlu şık gri/slate buton) */}
+                      {/* Ses Dalgası / Canlı Ses Modu Butonu (İkinci fotoğraftaki mavi canlı ses butonu) */}
                       <button
                         type="button"
                         onClick={() => {
@@ -1989,16 +1989,16 @@ export function AIAssistantModal({
                         }}
                         className={`w-11 h-11 shrink-0 rounded-full transition flex items-center justify-center cursor-pointer active:scale-95 shadow-2xs ${
                           isSpeaking
-                            ? 'bg-emerald-600 text-white animate-pulse'
-                            : 'bg-slate-100 dark:bg-slate-800 hover:bg-slate-200/80 text-slate-700 dark:text-slate-300'
+                            ? 'bg-blue-600 text-white animate-pulse'
+                            : 'bg-[#d8ecfc] dark:bg-blue-950/70 hover:bg-[#c2e2fa] dark:hover:bg-blue-900/80 text-[#0b57d0] dark:text-blue-300'
                         }`}
                         title={isSpeaking ? 'Sesi Durdur' : 'RoboPengu Canlı Ses'}
                         aria-label="Ses Dalgası"
                       >
                         <div className="flex items-center justify-center gap-[2.5px] h-4">
-                          <span className={`w-[2.5px] rounded-full transition-all ${isSpeaking ? 'bg-white h-4 animate-pulse' : 'bg-slate-700 dark:bg-slate-300 h-2'}`} />
-                          <span className={`w-[2.5px] rounded-full transition-all ${isSpeaking ? 'bg-white h-5 animate-bounce' : 'bg-slate-700 dark:bg-slate-300 h-3.5'}`} />
-                          <span className={`w-[2.5px] rounded-full transition-all ${isSpeaking ? 'bg-white h-3 animate-pulse' : 'bg-slate-700 dark:bg-slate-300 h-2'}`} />
+                          <span className={`w-[2.5px] rounded-full transition-all ${isSpeaking ? 'bg-white h-4 animate-pulse' : 'bg-[#0b57d0] dark:bg-blue-400 h-2'}`} />
+                          <span className={`w-[2.5px] rounded-full transition-all ${isSpeaking ? 'bg-white h-5 animate-bounce' : 'bg-[#0b57d0] dark:bg-blue-400 h-3.5'}`} />
+                          <span className={`w-[2.5px] rounded-full transition-all ${isSpeaking ? 'bg-white h-3 animate-pulse' : 'bg-[#0b57d0] dark:bg-blue-400 h-2'}`} />
                         </div>
                       </button>
 
@@ -2008,7 +2008,7 @@ export function AIAssistantModal({
                           type={loading ? "button" : "submit"}
                           onClick={loading ? stopResponse : undefined}
                           disabled={!loading && (!input.trim() || input.length > 500)}
-                          className="w-11 h-11 shrink-0 rounded-full bg-slate-900 hover:bg-slate-800 dark:bg-slate-100 dark:hover:bg-slate-200 dark:text-slate-900 disabled:opacity-40 disabled:cursor-not-allowed text-white flex items-center justify-center transition shadow-xs cursor-pointer shrink-0 active:scale-95 touch-manipulation ml-0.5"
+                          className="w-11 h-11 shrink-0 rounded-full bg-blue-600 hover:bg-blue-700 disabled:opacity-40 disabled:cursor-not-allowed text-white flex items-center justify-center transition shadow-xs cursor-pointer shrink-0 active:scale-95 touch-manipulation ml-0.5"
                           aria-label={loading ? "Yanıtı Durdur" : "Gönder"}
                         >
                           {loading ? <span aria-hidden="true">■</span> : '➤'}
@@ -2521,30 +2521,30 @@ export function AIAssistantModal({
       <section
         id="robopengu-hero"
         aria-label="RoboPengu Yapay Zeka Baş Danışmanı"
-        className="relative w-full max-w-[1536px] mx-auto px-2 sm:px-4 lg:px-6 pt-2 pb-6 overflow-visible"
+        className="relative w-full max-w-[1560px] mx-auto px-1 sm:px-3 lg:px-6 pt-2 pb-6 overflow-visible"
       >
         {/* 🐧 SABİT 3D ROBOPENGU MASKOTU (Masaüstünde sol tarafta, yerinden asla kımıldamaz) */}
-        <div className="hidden xl:block absolute left-2 2xl:left-8 top-10 z-30 pointer-events-none select-none animate-float">
+        <div className="hidden xl:block absolute left-1 2xl:left-3 top-8 z-30 pointer-events-none select-none animate-float">
           <div className="relative">
             <img
               src="/assets/robopengu.png"
               alt="RoboPengu 3D"
-              className="w-[260px] 2xl:w-[310px] max-w-none h-auto object-contain drop-shadow-[0_20px_30px_rgba(15,23,42,0.16)]"
+              className="w-[220px] xl:w-[245px] 2xl:w-[280px] max-w-none h-auto object-contain drop-shadow-[0_20px_35px_rgba(14,165,233,0.18)]"
             />
           </div>
         </div>
 
-        {/* Ana Kapsayıcı: Maskot Yanında Duran ve Sağa Doğru Genişleyen Kart */}
+        {/* Ana Kapsayıcı: Maskot Yanında Duran ve Sağa Doğru Genişleyen Kart (Ferah ve Geniş) */}
         <div
           className={`relative w-full transition-all duration-300 ease-out flex ${
             hasPanel
-              ? 'xl:pl-[270px] 2xl:pl-[320px] justify-start max-w-full xl:max-w-[1440px]'
-              : 'xl:pl-[270px] 2xl:pl-[320px] justify-start max-w-full sm:max-w-2xl lg:max-w-3xl xl:max-w-[1040px] 2xl:max-w-[1100px]'
+              ? 'xl:pl-[240px] 2xl:pl-[275px] justify-start w-full max-w-full'
+              : 'xl:pl-[240px] 2xl:pl-[275px] justify-start w-full max-w-full sm:max-w-3xl lg:max-w-4xl xl:max-w-[1140px] 2xl:max-w-[1220px]'
           }`}
         >
-          {/* 2. CHAT VE YAN PANEL KAPSAYICISI (MOBİL VE TABLET UYUMLU) */}
+          {/* 2. CHAT VE YAN PANEL KAPSAYICISI (MOBİL VE TABLET UYUMLU, İKİNCİ FOTOĞRAFTAKİ MAVİLİK) */}
           <div
-            className="relative w-full bg-white/95 dark:bg-slate-900/95 backdrop-blur-xl rounded-3xl shadow-xl shadow-slate-200/60 dark:shadow-none border border-slate-200/90 dark:border-slate-800 flex flex-col overflow-hidden h-[620px] sm:h-[650px] md:h-[680px] lg:h-[720px] z-20"
+            className="relative w-full bg-gradient-to-b from-white via-[#f0f7ff] to-[#d6ebff] dark:from-slate-900 dark:via-slate-900 dark:to-slate-950 rounded-3xl shadow-[0_20px_60px_-15px_rgba(14,165,233,0.16),0_10px_25px_-5px_rgba(15,23,42,0.06)] border border-sky-200/80 dark:border-slate-800 flex flex-col overflow-hidden h-[640px] sm:h-[680px] md:h-[720px] lg:h-[740px] z-20"
           >
             {renderCardInner()}
           </div>
@@ -2600,7 +2600,7 @@ export function AIAssistantModal({
             animate={{ opacity: 1, scale: 1, y: 0 }}
             exit={{ opacity: 0, scale: 0.98, y: 10 }}
             transition={{ duration: 0.2 }}
-            className="relative w-full bg-white/95 dark:bg-slate-900/95 rounded-none sm:rounded-3xl shadow-2xl border-0 sm:border border-slate-200/90 dark:border-slate-800 flex flex-col overflow-hidden h-[100dvh] sm:h-[640px] md:h-[680px] lg:h-[720px] max-h-[100dvh] sm:max-h-[92vh] z-20"
+            className="relative w-full bg-gradient-to-b from-white via-[#f0f7ff] to-[#d6ebff] dark:from-slate-900 dark:via-slate-900 dark:to-slate-950 rounded-none sm:rounded-3xl shadow-2xl border-0 sm:border border-sky-200/80 dark:border-slate-800 flex flex-col overflow-hidden h-[100dvh] sm:h-[640px] md:h-[680px] lg:h-[720px] max-h-[100dvh] sm:max-h-[92vh] z-20"
           >
             {renderCardInner()}
           </motion.div>
