@@ -488,8 +488,25 @@ export function ChoiceAAntiGravityLanding() {
   // Audio Voice State
   const [isListening, setIsListening] = useState(false);
   const [isSpeaking, setIsSpeaking] = useState(false);
+  const [voices, setVoices] = useState<SpeechSynthesisVoice[]>([]);
   const activeUtteranceRef = useRef<SpeechSynthesisUtterance | null>(null);
   const recognitionRef = useRef<any>(null);
+
+  // Load and cache browser voices safely (Chromium / Edge / Safari / Firefox)
+  useEffect(() => {
+    if (typeof window === 'undefined' || !('speechSynthesis' in window)) return;
+    const loadVoices = () => {
+      const v = window.speechSynthesis.getVoices();
+      if (v && v.length > 0) setVoices(v);
+    };
+    loadVoices();
+    window.speechSynthesis.onvoiceschanged = loadVoices;
+    return () => {
+      if (typeof window !== 'undefined' && 'speechSynthesis' in window) {
+        window.speechSynthesis.onvoiceschanged = null;
+      }
+    };
+  }, []);
 
   // Hero Ref for Scroll Out-of-View Auto-Reset
   const heroRef = useRef<HTMLDivElement>(null);
@@ -542,27 +559,49 @@ export function ChoiceAAntiGravityLanding() {
     return () => document.removeEventListener('visibilitychange', handleVisibilityChange);
   }, [currentPrompt, sideComparison]);
 
-  // Text-To-Speech (TTS)
-  const speakText = (text: string) => {
-    if (isMuted || typeof window === 'undefined' || !('speechSynthesis' in window)) return;
+  // Text-To-Speech (TTS) - Doğal Türkçe Siborg Ses Motoru
+  const speakText = (text: string, force = false) => {
+    if ((isMuted && !force) || typeof window === 'undefined' || !('speechSynthesis' in window)) return;
+    if (force && isMuted) {
+      setIsMuted(false);
+    }
     try {
+      if (window.speechSynthesis.paused) {
+        try { window.speechSynthesis.resume(); } catch {}
+      }
       stopSpeaking();
+
       const cleanText = text
         .replace(/\[VOICE_SUMMARY\](.*?)\[\/VOICE_SUMMARY\]/gi, '$1')
-        .replace(/\[.*?\]/g, '')
-        .replace(/[#*`_~]/g, '')
+        .replace(/\[\/?(?:SUMMARY_CHAT|DEEP_ANALYSIS)\]/gi, '')
+        .replace(/```[\s\S]*?```/g, '')
+        .replace(/[*#`_~\[\]]/g, '')
         .replace(/https?:\/\/\S+/g, '')
         .trim();
 
-      const phonetic = applyTurkishTechPhonetics(cleanText.slice(0, 280));
+      if (!cleanText) return;
+
+      let voiceText = cleanText;
+      const sentences = voiceText.split(/(?<=[.?!])\s+/).filter((s) => s.trim().length > 0);
+      if (sentences.length > 2) {
+        voiceText = sentences.slice(0, 2).join(' ') + ' Detayları tablodan inceleyebilirsiniz.';
+      }
+
+      const phonetic = applyTurkishTechPhonetics(voiceText);
       const utterance = new SpeechSynthesisUtterance(phonetic);
       utterance.rate = 1.05;
-      utterance.pitch = 1.0;
+      utterance.pitch = 1.15;
       utterance.lang = 'tr-TR';
 
-      const voices = window.speechSynthesis.getVoices();
-      const trVoice = voices.find((v) => v.lang.startsWith('tr'));
-      if (trVoice) utterance.voice = trVoice;
+      const allVoices = voices.length > 0 ? voices : window.speechSynthesis.getVoices();
+      const trVoice = allVoices.find((v) =>
+        (v.lang && v.lang.toLowerCase().replace('_', '-').startsWith('tr')) ||
+        (v.name && (v.name.toLowerCase().includes('turkish') || v.name.toLowerCase().includes('türkçe') || v.name.toLowerCase().includes('tolga')))
+      );
+      if (trVoice) {
+        utterance.voice = trVoice;
+        utterance.lang = trVoice.lang;
+      }
 
       activeUtteranceRef.current = utterance;
       utterance.onstart = () => setIsSpeaking(true);
@@ -610,7 +649,8 @@ export function ChoiceAAntiGravityLanding() {
         const transcript = event.results[0][0].transcript;
         if (transcript) {
           setInputQuery(transcript);
-          handleAskRoboPengu(transcript);
+          setIsMuted(false); // Kullanıcı konuştuğunda sesi aç
+          handleAskRoboPengu(transcript, true); // Sesli yanıt ver
         }
       };
       recognition.onerror = () => setIsListening(false);
@@ -624,7 +664,7 @@ export function ChoiceAAntiGravityLanding() {
   };
 
   // Main RoboPengu Interaction Trigger
-  const handleAskRoboPengu = async (promptText: string) => {
+  const handleAskRoboPengu = async (promptText: string, isVoice = false) => {
     if (!promptText.trim()) return;
     const cleanPrompt = promptText.trim();
     setCurrentPrompt(cleanPrompt);
@@ -646,7 +686,7 @@ export function ChoiceAAntiGravityLanding() {
 
       setStreamingResponse(fastText);
       setIsAnalyzing(false);
-      speakText(fastText);
+      speakText(fastText, isVoice || !isMuted);
       return;
     }
 
@@ -693,13 +733,14 @@ export function ChoiceAAntiGravityLanding() {
       }
 
       setIsAnalyzing(false);
-      speakText(accumulated);
+      speakText(accumulated, isVoice || !isMuted);
 
     } catch (err: any) {
       setIsAnalyzing(false);
       const fallbackText = `RoboPengu "${cleanPrompt}" için 5.768+ güncel mağaza teklifini ve teknik donanım verilerini analiz etti.\n\n` +
         `💡 Tavsiye: Doğrulanmış donanım puanı en yüksek modelleri inceleyebilir veya iki modeli karşılaştırmak için "iPhone 16 Pro vs S24 Ultra" şeklinde sorabilirsiniz.`;
       setStreamingResponse(fallbackText);
+      speakText(fallbackText, isVoice);
     }
   };
 
@@ -759,82 +800,59 @@ export function ChoiceAAntiGravityLanding() {
   ];
 
   return (
-    <div className="relative bg-[#F8F9FC] text-slate-900 font-sans selection:bg-cyan-500 selection:text-white">
+    <div className="relative bg-gradient-to-b from-[#F0F7FF] via-[#E8F2FC] to-[#F1F6FC] text-slate-900 font-sans selection:bg-cyan-500 selection:text-white">
       
-      {/* Background Soft Glow (Apple Aesthetic) */}
-      <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full max-w-7xl h-[600px] pointer-events-none overflow-hidden z-0">
-        <div className="absolute top-[-100px] left-[20%] w-[500px] h-[500px] bg-cyan-200/25 blur-[140px] rounded-full" />
-        <div className="absolute top-[30px] right-[20%] w-[450px] h-[450px] bg-emerald-200/25 blur-[140px] rounded-full" />
+      {/* Background Soft Glow (Apple Ice Blue Ambient Atmosphere) */}
+      <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full max-w-7xl h-[640px] pointer-events-none overflow-hidden z-0">
+        <div className="absolute top-[-80px] left-[15%] w-[650px] h-[500px] bg-sky-200/40 blur-[140px] rounded-full" />
+        <div className="absolute top-[40px] right-[15%] w-[550px] h-[450px] bg-cyan-200/35 blur-[130px] rounded-full" />
       </div>
 
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-8 sm:pt-14 pb-16">
 
         {/* ========================================================================= */}
-        {/* 1. HERO SECTION: 1:1 PIXEL-PERFECT SPLIT CONSOLE (EXACT LIKE SCREENSHOT)  */}
+        {/* 1. HERO SECTION: 1:1 PIXEL-PERFECT SPLIT CONSOLE (ICE BLUE INTEGRATED)    */}
         {/* ========================================================================= */}
         <div
           ref={heroRef}
           className={`relative mx-auto my-6 sm:my-10 transition-all duration-300 ease-out ${
-            hasPanel ? 'max-w-6xl' : 'max-w-3xl'
+            hasPanel ? 'max-w-6xl' : 'max-w-4xl'
           }`}
         >
 
-          {/* Overlapping 3D RoboPengu Character on Top-Left Corner                     */}
-          {/* FLIPPED HORIZONTALLY (scale-x-[-1]) SO HE LOOKS AT THE CONSOLE & USER!     */}
-          {/* ULTRA-SMOOTH MULTI-STAGE ANTI-GRAVITY FLOATING MOTION                     */}
-          {/* ZERO ARTIFICIAL BLUE DOTS OR OVERLAYS (PRISTINE METALLIC ASSET)            */}
-          <div className="absolute -top-16 -left-6 sm:-top-20 sm:-left-12 md:-left-16 z-30 pointer-events-none select-none">
-            <div className="relative flex flex-col items-center">
-              
-              {/* Mascot Image with Organic Anti-Gravity Float Animation, Flipped to Look Right */}
-              <div className="relative w-36 h-48 sm:w-52 sm:h-64 animate-antigravity-float">
-                <div className="relative w-full h-full scale-x-[-1]">
-                  <Image
-                    src="/assets/robopengu-character-clean.png"
-                    alt="RoboPengu AI Mascot"
-                    fill
-                    sizes="(max-width: 640px) 144px, 208px"
-                    className="object-contain filter drop-shadow-[0_20px_40px_rgba(0,163,255,0.25)]"
-                    priority
-                  />
-                </div>
-              </div>
-
-              {/* Dynamic Floor Shadow: Expands and softens as RoboPengu floats higher */}
-              <div className="w-24 sm:w-32 h-3.5 bg-gradient-to-r from-transparent via-cyan-900/30 to-transparent rounded-full animate-mascot-shadow -mt-4 mb-2 pointer-events-none" />
-
-              {/* "Küresel AI Haberleri •" Dark Badge Under Mascot's Feet (Interactive Button) */}
-              <button
-                type="button"
-                onClick={() => handleAskRoboPengu('Bugünkü küresel AI haberleri ve teknoloji trendleri neler?')}
-                className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-[#0b1329] text-white text-[11px] sm:text-xs font-semibold shadow-xl border border-slate-700/80 hover:border-cyan-400 hover:shadow-cyan-500/20 hover:scale-105 active:scale-95 transition-all pointer-events-auto cursor-pointer"
-                title="Günün Yapay Zeka Haberlerini Sor"
-              >
-                <span className="text-cyan-400">🌐</span>
-                <span>Küresel AI Haberleri</span>
-                <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
-              </button>
-
-            </div>
-          </div>
-
-          {/* Main White Console Card (Transforms into 2-Column Split View on Comparison) */}
-          <div className="relative rounded-[32px] border border-white/90 bg-white/95 backdrop-blur-3xl shadow-[0_30px_90px_-20px_rgba(0,163,255,0.14),0_10px_30px_-10px_rgba(15,23,42,0.06)] ring-1 ring-slate-900/5 p-4 sm:p-6 overflow-hidden flex flex-col">
+          {/* Main Ice-Blue Console Card (Transforms into 2-Column Split View on Comparison) */}
+          <div className="relative rounded-[32px] border border-sky-200/80 bg-white/95 backdrop-blur-3xl shadow-[0_24px_70px_-16px_rgba(56,189,248,0.20),0_8px_24px_-8px_rgba(14,165,233,0.08)] ring-1 ring-sky-300/40 p-4 sm:p-6 overflow-hidden flex flex-col">
             
             {/* Modal Header Bar */}
-            <div className="px-2 sm:px-4 py-2 border-b border-slate-100 flex items-center justify-between shrink-0 gap-2 flex-wrap">
+            <div className="px-2 sm:px-4 py-2 border-b border-sky-100 flex items-center justify-between shrink-0 gap-2 flex-wrap">
               
-              {/* Left: RoboPengu Title & Badge */}
-              <div className="flex items-center gap-2 pl-20 sm:pl-32">
-                <div className="w-7 h-7 sm:w-8 sm:h-8 rounded-full bg-slate-900 flex items-center justify-center text-white text-[10px] font-bold shadow-xs">
-                  RP
+              {/* Left: RoboPengu Avatar & Live Voice / Analysis Status */}
+              <div className="flex items-center gap-2.5">
+                <div className="relative w-8 h-8 rounded-full bg-slate-900 flex items-center justify-center text-white text-[11px] font-bold shadow-xs shrink-0">
+                  <span>RP</span>
                 </div>
-                <div className="flex items-center gap-1.5 flex-wrap">
+                <div className="flex items-center gap-2 flex-wrap">
                   <span className="text-sm sm:text-base font-extrabold text-slate-900 tracking-tight">RoboPengu</span>
-                  {isSpeaking && (
-                    <span className="hidden sm:inline-flex items-center gap-1 text-[10px] font-bold text-emerald-600 bg-emerald-50 px-2 py-0.5 rounded-full animate-pulse">
-                      <Volume2 className="w-3 h-3" />
-                      <span>Konuşuyor</span>
+                  
+                  {isSpeaking ? (
+                    <span className="inline-flex items-center gap-1.5 text-[10px] font-bold text-emerald-700 bg-emerald-50 px-2.5 py-0.5 rounded-full border border-emerald-200 animate-pulse">
+                      <Volume2 className="w-3.5 h-3.5 text-emerald-600" />
+                      <span>Sesli Yanıt Veriyor</span>
+                      <span className="flex items-center gap-0.5 h-2.5 ml-0.5">
+                        <span className="w-0.5 bg-emerald-500 rounded-full h-2 animate-bounce" />
+                        <span className="w-0.5 bg-cyan-500 rounded-full h-3 animate-pulse" />
+                        <span className="w-0.5 bg-blue-500 rounded-full h-1.5 animate-bounce" />
+                      </span>
+                    </span>
+                  ) : isAnalyzing ? (
+                    <span className="inline-flex items-center gap-1 text-[10px] font-bold text-sky-700 bg-sky-50 px-2 py-0.5 rounded-full border border-sky-200">
+                      <Loader2 className="w-3 h-3 animate-spin text-sky-600" />
+                      <span>Analiz Ediliyor...</span>
+                    </span>
+                  ) : (
+                    <span className="hidden sm:inline-flex items-center gap-1 text-[10px] font-medium text-slate-500 bg-slate-50 px-2 py-0.5 rounded-full border border-slate-200/80">
+                      <span className="w-1.5 h-1.5 rounded-full bg-emerald-500" />
+                      <span>Çevrim içi • Baş Teknoloji Danışmanı</span>
                     </span>
                   )}
                 </div>
@@ -878,17 +896,21 @@ export function ChoiceAAntiGravityLanding() {
                     if (!isMuted) stopSpeaking();
                     setIsMuted(!isMuted);
                   }}
-                  className="flex items-center gap-1 px-2 py-1.5 rounded-full hover:bg-slate-100 transition-colors min-h-[44px] cursor-pointer"
+                  className="flex items-center gap-1 px-2.5 py-1.5 rounded-full hover:bg-sky-50 transition-colors min-h-[44px] cursor-pointer"
                   title={isMuted ? 'Sesi Aç' : 'Sesi Kapat'}
                 >
-                  {isMuted ? <VolumeX className="w-3.5 h-3.5 text-slate-400" /> : <Volume2 className="w-3.5 h-3.5 text-cyan-600" />}
-                  <span className="hidden md:inline">{isMuted ? 'Sessiz' : 'Ses Açık'}</span>
+                  {isMuted ? (
+                    <VolumeX className="w-3.5 h-3.5 text-slate-400" />
+                  ) : (
+                    <Volume2 className="w-3.5 h-3.5 text-sky-600" />
+                  )}
+                  <span className="hidden md:inline font-semibold">{isMuted ? 'Sessiz' : 'Ses Açık'}</span>
                 </button>
 
                 <button
                   type="button"
                   onClick={handleClear}
-                  className="flex items-center gap-1 px-2 py-1.5 rounded-full hover:bg-slate-100 text-slate-500 hover:text-slate-900 transition-colors min-h-[44px] cursor-pointer"
+                  className="flex items-center gap-1 px-2.5 py-1.5 rounded-full hover:bg-slate-100 text-slate-500 hover:text-slate-900 transition-colors min-h-[44px] cursor-pointer"
                   title="Sohbeti Temizle"
                 >
                   <Trash2 className="w-3.5 h-3.5" />
@@ -906,7 +928,7 @@ export function ChoiceAAntiGravityLanding() {
               </div>
             </div>
 
-            {/* Split View Body: Left = Chat, Right = Kıyaslama Paneli (When hasPanel is true) */}
+            {/* Split View Body: Left = Chat / Welcome, Right = Kıyaslama Paneli (When hasPanel is true) */}
             <div className={`flex flex-col lg:flex-row overflow-hidden ${hasPanel ? 'min-h-[580px] lg:h-[660px]' : ''}`}>
               
               {/* =================================================================== */}
@@ -915,97 +937,153 @@ export function ChoiceAAntiGravityLanding() {
               <div
                 className={`flex flex-col transition-all duration-200 ${
                   hasPanel
-                    ? 'w-full lg:w-[420px] xl:w-[460px] shrink-0 lg:border-r border-slate-100 p-2 sm:p-4'
-                    : 'w-full p-4 sm:p-6'
+                    ? 'w-full lg:w-[420px] xl:w-[460px] shrink-0 lg:border-r border-sky-100 p-2 sm:p-4'
+                    : 'w-full p-2 sm:p-4'
                 } ${hasPanel && mobileTab === 'panel' ? 'hidden lg:flex' : 'flex'}`}
               >
                 
-                {/* Initial Welcome Screen (Disc + 4 Pills) if no active question */}
+                {/* Initial Welcome Screen: Buz Mavisi Kaide & Bütünleşik RoboPengu */}
                 {!currentPrompt && !streamingResponse ? (
-                  <div className="text-center my-auto py-6 sm:py-8">
-                    {/* 3D Circular Glowing Bevel Disc */}
-                    <div className="relative inline-flex items-center justify-center w-28 h-28 sm:w-32 sm:h-32 rounded-full bg-gradient-to-b from-sky-100 via-cyan-50 to-blue-100/70 border-2 border-sky-200/90 shadow-[0_12px_35px_rgba(0,163,255,0.22)] mb-4 group">
-                      <div className="relative w-16 h-16 sm:w-20 sm:h-20 flex items-center justify-center">
-                        <Image
-                          src="/images/robopengu_cyber_heart.png"
-                          alt="RoboPengu Cyber Heart Emblem"
-                          width={80}
-                          height={80}
-                          className="object-contain filter drop-shadow-[0_4px_12px_rgba(0,163,255,0.4)] group-hover:scale-105 transition-transform duration-300"
-                        />
-                      </div>
-                    </div>
+                  <div className="w-full my-auto py-4 sm:py-6">
+                    <div className="flex flex-col md:flex-row items-center gap-6 sm:gap-8">
+                      
+                      {/* SOL: Buz Mavisi Kaide & Süzülen RoboPengu (0px Taşma, Kartın İçinde Güvenli) */}
+                      <div className="w-full md:w-5/12 flex flex-col items-center justify-center shrink-0">
+                        <div className="relative w-full max-w-[260px] sm:max-w-[280px] rounded-3xl bg-gradient-to-b from-sky-100/70 via-cyan-50/40 to-blue-50/20 border border-sky-200/70 p-4 sm:p-5 flex flex-col items-center justify-center shadow-[inset_0_2px_8px_rgba(255,255,255,0.9),0_12px_30px_rgba(56,189,248,0.12)] overflow-hidden">
+                          
+                          {/* Buz Mavisi Atmosferik Işık Parıltısı */}
+                          <div className="absolute inset-0 bg-radial from-sky-300/25 via-transparent to-transparent blur-xl pointer-events-none" />
 
-                    <h1 className="text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight mb-1">
-                      RoboPengu
-                    </h1>
-                    <p className="text-xs sm:text-sm font-medium text-slate-500 tracking-wide mb-6 sm:mb-8">
-                      aceleetme.tech Baş Teknoloji Danışmanı
-                    </p>
+                          {/* Havada Süzülen RoboPengu (Kartın İçinde, Sağa/İçeri Bakıyor) */}
+                          <div className="relative w-36 h-48 sm:w-44 sm:h-56 animate-antigravity-float">
+                            <div className="relative w-full h-full scale-x-[-1]">
+                              <Image
+                                src="/assets/robopengu-character-clean.png"
+                                alt="RoboPengu AI Mascot"
+                                fill
+                                sizes="(max-width: 640px) 144px, 176px"
+                                className="object-contain filter drop-shadow-[0_15px_30px_rgba(14,165,233,0.25)]"
+                                priority
+                              />
+                            </div>
+                          </div>
 
-                    {/* 4 Suggestion Pills */}
-                    <div className="max-w-xl mx-auto space-y-2 mb-6">
-                      <div className="flex flex-wrap items-center justify-center gap-2">
-                        <button
-                          type="button"
-                          onClick={() => handleAskRoboPengu('iPhone 16 Pro Max vs S24 Ultra')}
-                          className="inline-flex items-center gap-1.5 px-3.5 py-2 rounded-full bg-white border border-slate-200 text-xs sm:text-sm font-medium text-slate-700 hover:border-cyan-400 hover:text-cyan-600 hover:shadow-xs transition-all min-h-[44px] cursor-pointer"
-                        >
-                          <span>📱 iPhone 16 Pro Max vs S24 Ultra</span>
-                        </button>
-                        <button
-                          type="button"
-                          onClick={() => handleAskRoboPengu('En iyi OLED TV hangisi?')}
-                          className="inline-flex items-center gap-1.5 px-3.5 py-2 rounded-full bg-white border border-slate-200 text-xs sm:text-sm font-medium text-slate-700 hover:border-cyan-400 hover:text-cyan-600 hover:shadow-xs transition-all min-h-[44px] cursor-pointer"
-                        >
-                          <span>📺 En iyi OLED TV hangisi?</span>
-                        </button>
+                          {/* Dinamik Zemin Gölgesi */}
+                          <div className="w-24 sm:w-28 h-3 bg-gradient-to-r from-transparent via-cyan-900/20 to-transparent rounded-full animate-mascot-shadow -mt-3 mb-3 pointer-events-none" />
+
+                          {/* Maskot Altı Canlı Bilgi Hapı */}
+                          <button
+                            type="button"
+                            onClick={() => handleAskRoboPengu('Bugünkü küresel AI haberleri ve teknoloji trendleri neler?')}
+                            className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-[#0b1329] text-white text-[11px] font-semibold shadow-md border border-slate-700/80 hover:border-cyan-400 hover:shadow-cyan-500/20 hover:scale-105 active:scale-95 transition-all cursor-pointer z-10"
+                            title="Günün Yapay Zeka Haberlerini Sor"
+                          >
+                            <span className="text-cyan-400">🌐</span>
+                            <span>Küresel AI Danışmanı</span>
+                            <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse" />
+                          </button>
+                        </div>
                       </div>
 
-                      <div className="flex flex-wrap items-center justify-center gap-2">
-                        <button
-                          type="button"
-                          onClick={() => handleAskRoboPengu('F/P laptop tavsiyesi')}
-                          className="inline-flex items-center gap-1.5 px-3.5 py-2 rounded-full bg-white border border-slate-200 text-xs sm:text-sm font-medium text-slate-700 hover:border-cyan-400 hover:text-cyan-600 hover:shadow-xs transition-all min-h-[44px] cursor-pointer"
-                        >
-                          <span>💻 F/P laptop tavsiyesi</span>
-                        </button>
-                        <button
-                          type="button"
-                          onClick={() => handleAskRoboPengu('ANC kulaklık önerisi')}
-                          className="inline-flex items-center gap-1.5 px-3.5 py-2 rounded-full bg-white border border-slate-200 text-xs sm:text-sm font-medium text-slate-700 hover:border-cyan-400 hover:text-cyan-600 hover:shadow-xs transition-all min-h-[44px] cursor-pointer"
-                        >
-                          <span>🎧 ANC kulaklık önerisi</span>
-                        </button>
+                      {/* SAĞ: Başlık, 4 Öneri Hapı ve Doğrudan Başlama */}
+                      <div className="w-full md:w-7/12 flex flex-col items-center md:items-start text-center md:text-left">
+                        <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-sky-100/90 border border-sky-200/80 text-sky-800 text-[11px] font-extrabold tracking-wide uppercase mb-2 shadow-2xs">
+                          <Sparkles className="w-3 h-3 text-sky-600" />
+                          <span>YAPAY ZEKA DONANIM DANIŞMANI</span>
+                        </div>
+
+                        <h1 className="text-2xl sm:text-3xl lg:text-4xl font-black text-slate-900 tracking-tight leading-tight mb-1">
+                          RoboPengu
+                        </h1>
+                        <p className="text-xs sm:text-sm font-semibold text-slate-500 tracking-wide mb-5">
+                          aceleetme.tech Baş Teknoloji Danışmanı
+                        </p>
+
+                        {/* 4 Öneri Hap-Butonu */}
+                        <div className="w-full space-y-2 mb-4">
+                          <div className="flex flex-wrap items-center justify-center md:justify-start gap-2">
+                            <button
+                              type="button"
+                              onClick={() => handleAskRoboPengu('iPhone 16 Pro Max vs S24 Ultra')}
+                              className="inline-flex items-center gap-1.5 px-3 py-2 rounded-full bg-white border border-sky-200/80 text-xs sm:text-sm font-semibold text-slate-700 hover:border-sky-400 hover:text-sky-600 hover:bg-sky-50/50 hover:shadow-2xs transition-all min-h-[44px] cursor-pointer"
+                            >
+                              <span>📱 iPhone 16 Pro Max vs S24 Ultra</span>
+                            </button>
+                            <button
+                              type="button"
+                              onClick={() => handleAskRoboPengu('En iyi OLED TV hangisi?')}
+                              className="inline-flex items-center gap-1.5 px-3 py-2 rounded-full bg-white border border-sky-200/80 text-xs sm:text-sm font-semibold text-slate-700 hover:border-sky-400 hover:text-sky-600 hover:bg-sky-50/50 hover:shadow-2xs transition-all min-h-[44px] cursor-pointer"
+                            >
+                              <span>📺 En iyi OLED TV hangisi?</span>
+                            </button>
+                          </div>
+
+                          <div className="flex flex-wrap items-center justify-center md:justify-start gap-2">
+                            <button
+                              type="button"
+                              onClick={() => handleAskRoboPengu('F/P laptop tavsiyesi')}
+                              className="inline-flex items-center gap-1.5 px-3 py-2 rounded-full bg-white border border-sky-200/80 text-xs sm:text-sm font-semibold text-slate-700 hover:border-sky-400 hover:text-sky-600 hover:bg-sky-50/50 hover:shadow-2xs transition-all min-h-[44px] cursor-pointer"
+                            >
+                              <span>💻 F/P laptop tavsiyesi</span>
+                            </button>
+                            <button
+                              type="button"
+                              onClick={() => handleAskRoboPengu('ANC kulaklık önerisi')}
+                              className="inline-flex items-center gap-1.5 px-3 py-2 rounded-full bg-white border border-sky-200/80 text-xs sm:text-sm font-semibold text-slate-700 hover:border-sky-400 hover:text-sky-600 hover:bg-sky-50/50 hover:shadow-2xs transition-all min-h-[44px] cursor-pointer"
+                            >
+                              <span>🎧 ANC kulaklık önerisi</span>
+                            </button>
+                          </div>
+                        </div>
+
+                        <p className="text-[11px] text-slate-400 font-medium">
+                          Aşağıdaki kutudan istediğiniz cihazları kıyaslayabilir veya mikrofona basarak konuşabilirsiniz.
+                        </p>
                       </div>
+
                     </div>
                   </div>
                 ) : (
-                  /* Active Multi-Turn Chat History (Matching Screenshot media_1790630287346.png) */
+                  /* Active Multi-Turn Chat History (Kusursuz, Taşmasız Temiz Sohbet) */
                   <div className="flex-1 overflow-y-auto space-y-3.5 p-1 pr-2 max-h-[460px] overscroll-contain">
                     
                     {/* Welcome greeting bubble from RoboPengu */}
                     <div className="flex items-start gap-2.5">
-                      <div className="w-6 h-6 rounded-full bg-slate-900 flex items-center justify-center text-[10px] text-white shrink-0 mt-0.5">
+                      <div className="w-7 h-7 rounded-full bg-slate-900 flex items-center justify-center text-[11px] text-white shrink-0 mt-0.5 shadow-2xs">
                         🐧
                       </div>
                       <div className="flex-1 space-y-1">
-                        <div className="p-3 rounded-2xl rounded-tl-xs bg-slate-100/90 text-slate-800 text-xs leading-relaxed border border-slate-200/60 shadow-2xs">
+                        <div className="p-3 rounded-2xl rounded-tl-xs bg-sky-50/80 text-slate-800 text-xs leading-relaxed border border-sky-200/70 shadow-2xs">
                           Merhaba! Ben RoboPengu. Ürünleri kayıtlı özellikleriyle karşılaştırmana ve fiyatların doğrulama durumunu incelemene yardımcı olabilirim. 🐧
                         </div>
                         <div className="flex items-center justify-between text-[10px] text-slate-400 px-1">
                           <button
                             type="button"
-                            onClick={() => speakText("Merhaba! Ben RoboPengu. Ürünleri kayıtlı özellikleriyle karşılaştırmana yardımcı olabilirim.")}
-                            className="inline-flex items-center gap-1 text-emerald-600 hover:text-emerald-700 font-semibold"
+                            onClick={() => {
+                              if (isSpeaking) {
+                                stopSpeaking();
+                              } else {
+                                speakText("Merhaba! Ben RoboPengu. Ürünleri kayıtlı özellikleriyle karşılaştırmana yardımcı olabilirim.", true);
+                              }
+                            }}
+                            className="inline-flex items-center gap-1 text-emerald-600 hover:text-emerald-700 font-semibold cursor-pointer"
                           >
-                            <Volume2 className="w-3 h-3" />
-                            <span>Sesi Dinle</span>
+                            {isSpeaking ? (
+                              <>
+                                <VolumeX className="w-3 h-3 text-rose-500 animate-pulse" />
+                                <span className="text-rose-600 font-bold">Durdur</span>
+                              </>
+                            ) : (
+                              <>
+                                <Volume2 className="w-3 h-3 text-sky-600" />
+                                <span>Sesi Dinle</span>
+                              </>
+                            )}
                           </button>
                           <div className="flex items-center gap-1">
                             <span>Yararlı mıydı?</span>
-                            <button type="button" className="hover:text-emerald-600">👍</button>
-                            <button type="button" className="hover:text-rose-600">👎</button>
+                            <button type="button" className="hover:text-emerald-600 cursor-pointer">👍</button>
+                            <button type="button" className="hover:text-rose-600 cursor-pointer">👎</button>
                           </div>
                         </div>
                       </div>
@@ -1020,14 +1098,14 @@ export function ChoiceAAntiGravityLanding() {
 
                     {/* Bot Answer Bubble */}
                     <div className="flex items-start gap-2.5">
-                      <div className="w-6 h-6 rounded-full bg-slate-900 flex items-center justify-center text-[10px] text-white shrink-0 mt-0.5">
+                      <div className="w-7 h-7 rounded-full bg-slate-900 flex items-center justify-center text-[11px] text-white shrink-0 mt-0.5 shadow-2xs">
                         🐧
                       </div>
                       <div className="flex-1 space-y-1">
-                        <div className="p-3 rounded-2xl rounded-tl-xs bg-white text-slate-800 text-xs leading-relaxed border border-slate-200/80 shadow-2xs space-y-2">
+                        <div className="p-3.5 rounded-2xl rounded-tl-xs bg-white text-slate-800 text-xs leading-relaxed border border-slate-200/90 shadow-2xs space-y-2">
                           {streamingResponse || (
                             <div className="flex items-center gap-2 text-slate-400 py-1">
-                              <Loader2 className="w-3.5 h-3.5 animate-spin text-cyan-600" />
+                              <Loader2 className="w-3.5 h-3.5 animate-spin text-sky-600" />
                               <span>Katalog verileri taranıyor...</span>
                             </div>
                           )}
@@ -1035,16 +1113,31 @@ export function ChoiceAAntiGravityLanding() {
                         <div className="flex items-center justify-between text-[10px] text-slate-400 px-1">
                           <button
                             type="button"
-                            onClick={() => speakText(streamingResponse)}
-                            className="inline-flex items-center gap-1 text-emerald-600 hover:text-emerald-700 font-semibold"
+                            onClick={() => {
+                              if (isSpeaking) {
+                                stopSpeaking();
+                              } else {
+                                speakText(streamingResponse, true);
+                              }
+                            }}
+                            className="inline-flex items-center gap-1 text-emerald-600 hover:text-emerald-700 font-semibold cursor-pointer"
                           >
-                            <Volume2 className="w-3 h-3" />
-                            <span>Sesi Dinle</span>
+                            {isSpeaking ? (
+                              <>
+                                <VolumeX className="w-3 h-3 text-rose-500 animate-pulse" />
+                                <span className="text-rose-600 font-bold">Durdur</span>
+                              </>
+                            ) : (
+                              <>
+                                <Volume2 className="w-3 h-3 text-sky-600" />
+                                <span>Sesi Dinle</span>
+                              </>
+                            )}
                           </button>
                           <div className="flex items-center gap-1">
                             <span>Yararlı mıydı?</span>
-                            <button type="button" className="hover:text-emerald-600">👍</button>
-                            <button type="button" className="hover:text-rose-600">👎</button>
+                            <button type="button" className="hover:text-emerald-600 cursor-pointer">👍</button>
+                            <button type="button" className="hover:text-rose-600 cursor-pointer">👎</button>
                           </div>
                         </div>
                       </div>

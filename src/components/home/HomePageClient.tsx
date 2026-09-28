@@ -33,7 +33,7 @@ interface HomePageClientProps {
 
 export function HomePageClient({ popularComparisons, counts }: HomePageClientProps) {
   return (
-    <div className="space-y-12 pb-16 max-w-full overflow-hidden bg-[#F8F9FC] text-slate-900 transition-colors">
+    <div className="space-y-12 pb-16 max-w-full overflow-hidden bg-gradient-to-b from-[#F0F7FF] via-[#E8F2FC] to-[#F1F6FC] text-slate-900 transition-colors">
       
       {/* 🚀 1. MAIN HERO LANDING EXPERIENCE & SIMPLIFIED PROOF SHOWCASE */}
       {/* (RoboPengu Chat as main entry + RoboScore Vitrin + Canlı İndirim Radarı) */}
