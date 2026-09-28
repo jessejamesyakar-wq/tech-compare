@@ -21,7 +21,14 @@ import {
   Headphones,
   CheckCircle2,
   Zap,
-  ExternalLink
+  ExternalLink,
+  TrendingDown,
+  Clock,
+  Activity,
+  Cpu,
+  Battery,
+  Camera,
+  Monitor
 } from 'lucide-react';
 
 interface HomePageClientProps {
@@ -49,7 +56,7 @@ interface HomePageClientProps {
   };
 }
 
-// Preset Duel Items by Category (Matching Mockup B)
+// Preset Duel Items by Category (Exact 1:1 Match for Mockup B Visuals)
 const CATEGORY_PRESETS: Record<string, { p1: any; p2: any; specKeys: string[] }> = {
   phones: {
     p1: {
@@ -58,7 +65,7 @@ const CATEGORY_PRESETS: Record<string, { p1: any; p2: any; specKeys: string[] }>
       brand: 'Apple',
       basePrice: 84999,
       category: 'Akıllı Telefon',
-      image: '/images/phones/apple/apple-iphone-16-pro-max.jpg',
+      image: '/images/phones/apple/iphone-16-teal.png',
       specs: { 'RAM': '12GB RAM', 'Depolama': '256GB SSD', 'Yenileme Hızı': '144Hz OLED' }
     },
     p2: {
@@ -67,7 +74,7 @@ const CATEGORY_PRESETS: Record<string, { p1: any; p2: any; specKeys: string[] }>
       brand: 'Samsung',
       basePrice: 79999,
       category: 'Akıllı Telefon',
-      image: '/images/phones/samsung/samsung-galaxy-s25-ultra.png',
+      image: '/images/phones/samsung/studio/samsung-galaxy-s25-ultra.png',
       specs: { 'RAM': '16GB RAM', 'Depolama': '512GB SSD', 'Yenileme Hızı': '120Hz LTPO' }
     },
     specKeys: ['RAM', 'Depolama', 'Yenileme Hızı']
@@ -156,6 +163,10 @@ export function HomePageClient({
   const [results1, setResults1] = useState<CompactSearchProduct[]>([]);
   const [results2, setResults2] = useState<CompactSearchProduct[]>([]);
 
+  // AI Cockpit State
+  const [aiPromptInput, setAiPromptInput] = useState('');
+  const [activeAiFilter, setActiveAiFilter] = useState('camera');
+
   // Update preset when switching category
   const handleCategoryChange = (catId: string) => {
     setActiveDuelCategory(catId);
@@ -217,8 +228,8 @@ export function HomePageClient({
       image: item.image,
       specs: {
         'RAM': '12GB RAM',
-        'Storage': '256GB SSD',
-        'Refresh Rate': '120Hz OLED'
+        'Depolama': '256GB SSD',
+        'Yenileme Hızı': '120Hz OLED'
       }
     };
     if (slot === 1) {
@@ -236,131 +247,196 @@ export function HomePageClient({
   const currentSpecKeys = currentPreset.specKeys;
 
   return (
-    <div className="space-y-12 pb-12 max-w-full overflow-hidden bg-white dark:bg-slate-950 text-slate-900 dark:text-white transition-colors">
+    <div className="space-y-12 pb-16 max-w-full overflow-hidden bg-white dark:bg-slate-950 text-slate-900 dark:text-white transition-colors">
 
       {/* ========================================================================= */}
-      {/* 🚀 1. HERO SECTION: CONCEPT 1 PRISMATIC HOLOGRAM ON CLEAN WHITE CANVAS     */}
+      {/* ⚡ 1. LIVE TECH TICKER BAR (MÜHENDİSLİK SEVİYESİ CANLI BORSA BANDI)       */}
       {/* ========================================================================= */}
-      <section className="-mx-4 sm:-mx-6 lg:-mx-8 -mt-6 bg-gradient-to-b from-slate-50 via-white to-slate-50/80 dark:from-slate-900 dark:via-slate-950 dark:to-slate-900 p-6 sm:p-10 lg:p-14 relative border-b border-slate-200/80 dark:border-slate-800 shadow-xs space-y-8">
+      <div className="-mx-4 sm:-mx-6 lg:-mx-8 -mt-6 bg-slate-950 text-slate-200 border-b border-slate-800 py-2.5 px-4 overflow-hidden relative shadow-md">
+        <div className="flex items-center gap-6 whitespace-nowrap animate-marquee text-xs font-mono font-bold tracking-wide">
+          <span className="flex items-center gap-1.5 text-cyan-400">
+            <Zap className="w-3.5 h-3.5 fill-cyan-400 animate-pulse" />
+            ROBO PENGU APEX ENGINE 2.0 CANLI SİSTEMİ AKTİF
+          </span>
+          <span className="text-slate-600">|</span>
+          <span className="flex items-center gap-1.5 text-emerald-400">
+            <TrendingDown className="w-3.5 h-3.5" />
+            iPhone 16 Pro Max ₺84.999 (-₺2.400 Satıcı Fırsatı)
+          </span>
+          <span className="text-slate-600">|</span>
+          <span className="flex items-center gap-1.5 text-fuchsia-400">
+            <Swords className="w-3.5 h-3.5" />
+            S25 Ultra vs iPhone 16 Pro Max Canlı Kıyaslama Zirvede
+          </span>
+          <span className="text-slate-600">|</span>
+          <span className="flex items-center gap-1.5 text-amber-400">
+            <Activity className="w-3.5 h-3.5" />
+            LG OLED C4 TV Fiyat/Performans Skoru: 9.6/10
+          </span>
+        </div>
+      </div>
 
-        {/* Ambient Prism Light Glow Effect */}
+      {/* ========================================================================= */}
+      {/* 🚀 2. HERO AI COCKPIT: ROBOPENGU APEX ADVISOR & LIVE DECISION MATRIX       */}
+      {/* ========================================================================= */}
+      <section className="-mx-4 sm:-mx-6 lg:-mx-8 bg-gradient-to-b from-slate-900 via-slate-950 to-slate-900 p-6 sm:p-12 lg:p-16 relative border-b border-slate-800 text-white shadow-2xl overflow-hidden space-y-10">
+
+        {/* Ambient Neon Backlights */}
         <div aria-hidden="true" className="absolute inset-0 pointer-events-none z-0">
-          <div className="absolute top-1/4 left-1/3 w-[600px] h-[600px] bg-cyan-400/10 blur-[140px] rounded-full" />
-          <div className="absolute top-10 right-10 w-96 h-96 bg-purple-400/10 blur-[120px] rounded-full" />
+          <div className="absolute top-1/3 left-1/4 w-[700px] h-[700px] bg-cyan-500/15 blur-[160px] rounded-full" />
+          <div className="absolute top-10 right-1/4 w-[600px] h-[600px] bg-fuchsia-500/15 blur-[150px] rounded-full" />
         </div>
 
-        <div className="relative z-10 max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
+        <div className="relative z-10 max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-14 items-center">
 
-          {/* Left Column: Typography & Interactive Search */}
-          <div className="lg:col-span-7 space-y-6 sm:space-y-8">
-            <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-cyan-50 dark:bg-cyan-950/60 border border-cyan-200 dark:border-cyan-800 text-cyan-700 dark:text-cyan-300 text-xs font-black tracking-widest uppercase shadow-2xs">
-              <Sparkles className="w-3.5 h-3.5 text-cyan-600 fill-cyan-500 animate-pulse" />
-              <span>AKILLI KARŞILAŞTIRMA VE FİYAT ANALİZİ</span>
+          {/* Left Column: Vision Header & Interactive AI Search */}
+          <div className="lg:col-span-7 space-y-8">
+            <div className="inline-flex items-center gap-2.5 px-4 py-1.5 rounded-full bg-cyan-950/80 border border-cyan-500/40 text-cyan-300 text-xs font-black tracking-widest uppercase shadow-lg shadow-cyan-500/10">
+              <Sparkles className="w-4 h-4 text-cyan-400 fill-cyan-400 animate-pulse" />
+              <span>YAPAY ZEKÂ TEKNOLOJİ KOKPİTİ v2.0</span>
             </div>
 
-            {/* Main Headline */}
-            <h1 className="text-4xl sm:text-7xl lg:text-[80px] font-black tracking-tight leading-[1.05] text-slate-900 dark:text-white">
-              <span className="block">İyi ki</span>
-              <span className="block text-cyan-600 dark:text-cyan-400 font-black">acele</span>
-              <span className="block">etmedin.</span>
-            </h1>
+            <div className="space-y-4">
+              <h1 className="text-4xl sm:text-7xl lg:text-[76px] font-black tracking-tight leading-[1.03] text-white">
+                <span className="block">İyi ki</span>
+                <span className="block text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-teal-300 to-fuchsia-400 font-black">acele</span>
+                <span className="block">etmedin.</span>
+              </h1>
+              <p className="text-base sm:text-xl text-slate-300 font-medium leading-relaxed max-w-xl">
+                Doğru teknolojiyi, en uygun fiyata, mühendislik seviyesinde canlı karar matrisi ile keşfet.
+              </p>
+            </div>
 
-            <p className="text-base sm:text-lg text-slate-600 dark:text-slate-300 font-medium leading-relaxed max-w-lg">
-              Doğru teknolojiyi, en uygun fiyata, acele etmeden bul.
-            </p>
-
-            {/* Category Quick Chips */}
-            <div className="space-y-2">
-              <div className="text-xs font-extrabold uppercase tracking-wider text-slate-400">Hızlı Kategori Seçimi</div>
+            {/* Quick AI Filter Chips */}
+            <div className="space-y-2.5">
+              <div className="text-xs font-extrabold uppercase tracking-wider text-slate-400 flex items-center gap-2">
+                <Cpu className="w-3.5 h-3.5 text-cyan-400" />
+                <span>Akıllı İhtiyaç Filtreleri</span>
+              </div>
               <div className="flex flex-wrap items-center gap-2">
                 {[
-                  { label: '📱 Telefonlar', href: '/phones' },
-                  { label: '💻 Bilgisayarlar', href: '/laptops' },
-                  { label: '📺 TV & Ekran', href: '/tvs' },
-                  { label: '🎧 Ses & Kulaklık', href: '/headphones' },
-                  { label: '⌚ Akıllı Saatler', href: '/smartwatches' },
+                  { id: 'camera', label: '📸 Fotoğraf & 4K Video', query: 'En iyi kameraya sahip amiral gemisi telefonlar' },
+                  { id: 'gaming', label: '🎮 Oyun & 120Hz Ekran', query: 'Yüksek FPS veren 120Hz gaming telefon ve laptoplar' },
+                  { id: 'battery', label: '🔋 Uzun Pil Ömrü', query: 'Şarjı en uzun giden mobil cihazlar' },
+                  { id: 'price', label: '📉 Fiyat / Performans', query: 'Fiyatına göre en yüksek performans veren modeller' },
                 ].map((chip) => (
-                  <Link
-                    key={chip.label}
-                    href={chip.href}
-                    className="px-3.5 py-2 rounded-xl bg-white dark:bg-slate-800 hover:bg-cyan-50 dark:hover:bg-cyan-950/60 text-slate-800 dark:text-slate-200 hover:text-cyan-700 dark:hover:text-cyan-300 text-xs font-bold border border-slate-200 dark:border-slate-700 shadow-2xs transition-all hover:scale-105 active:scale-95 cursor-pointer flex items-center gap-1.5"
+                  <button
+                    key={chip.id}
+                    type="button"
+                    onClick={() => {
+                      setActiveAiFilter(chip.id);
+                      setAiPromptInput(chip.query);
+                    }}
+                    className={`px-4 py-2 rounded-xl text-xs font-extrabold border transition-all cursor-pointer flex items-center gap-2 ${
+                      activeAiFilter === chip.id
+                        ? 'bg-cyan-500 text-slate-950 border-cyan-400 shadow-md shadow-cyan-500/20 scale-105'
+                        : 'bg-slate-900/90 text-slate-200 border-slate-700 hover:border-cyan-500/60 hover:bg-slate-800'
+                    }`}
                   >
                     <span>{chip.label}</span>
-                  </Link>
+                  </button>
                 ))}
               </div>
             </div>
 
-            {/* Search Input Bar */}
+            {/* AI Natural Language Command Box */}
             <form
               onSubmit={(e) => {
                 e.preventDefault();
-                const input = (e.currentTarget.elements.namedItem('heroSearch') as HTMLInputElement)?.value;
-                if (input?.trim()) {
-                  window.location.href = `/search?q=${encodeURIComponent(input.trim())}`;
+                if (aiPromptInput.trim()) {
+                  window.location.href = `/search?q=${encodeURIComponent(aiPromptInput.trim())}`;
                 }
               }}
-              className="relative max-w-lg bg-white dark:bg-slate-900 border border-slate-300 dark:border-slate-700 focus-within:border-cyan-500 focus-within:ring-2 focus-within:ring-cyan-500/20 rounded-full p-2 flex items-center shadow-md transition-all min-h-[58px]"
+              className="relative max-w-xl bg-slate-900/90 border-2 border-cyan-500/40 focus-within:border-cyan-400 focus-within:ring-4 focus-within:ring-cyan-500/20 rounded-2xl p-2.5 flex items-center shadow-2xl transition-all min-h-[64px]"
             >
-              <Search className="w-5 h-5 text-slate-400 ml-4 shrink-0 pointer-events-none" />
+              <Search className="w-5 h-5 text-cyan-400 ml-4 shrink-0 pointer-events-none" />
               <input
-                name="heroSearch"
                 type="text"
-                aria-label="Neyi keşfetmek istiyorsun?"
-                placeholder="Neyi keşfetmek istiyorsun? (örn: iPhone 16 Pro vs S24 Ultra)"
-                className="w-full bg-transparent px-3 py-2 text-sm sm:text-base font-semibold text-slate-900 dark:text-white outline-none placeholder:text-slate-400"
+                value={aiPromptInput}
+                onChange={(e) => setAiPromptInput(e.target.value)}
+                placeholder="RoboPengu'ya sor (örn: 40.000 TL bütçeyle en iyi telefon...)"
+                className="w-full bg-transparent px-3 py-2 text-sm sm:text-base font-semibold text-white outline-none placeholder:text-slate-400"
               />
               <button
                 type="submit"
-                aria-label="Arama yap"
-                className="bg-cyan-600 hover:bg-cyan-500 text-white font-black min-w-12 min-h-12 rounded-full flex items-center justify-center transition-transform hover:scale-105 shadow-sm cursor-pointer shrink-0"
+                className="bg-gradient-to-r from-cyan-500 to-teal-400 hover:from-cyan-400 hover:to-teal-300 text-slate-950 font-black px-5 py-3 rounded-xl flex items-center gap-2 transition-transform hover:scale-105 shadow-md cursor-pointer shrink-0 text-xs tracking-wider uppercase"
               >
-                <ArrowRight className="w-5 h-5 stroke-[2.5]" />
+                <span>ANALİZ ET</span>
+                <ArrowRight className="w-4 h-4 stroke-[3]" />
               </button>
             </form>
 
           </div>
 
-          {/* Right Column: High-Res RoboPengu & 3D Holographic Cards */}
-          <div className="lg:col-span-5 flex flex-col items-center justify-center relative pt-6 lg:pt-0">
-            <div className="relative w-full max-w-md bg-white/80 dark:bg-slate-900/80 border border-cyan-200/90 dark:border-cyan-800/90 rounded-3xl p-6 shadow-2xl backdrop-blur-xl space-y-4 text-center">
+          {/* Right Column: RoboPengu Mascot & Live Decision Score Card */}
+          <div className="lg:col-span-5 flex flex-col items-center justify-center relative pt-4 lg:pt-0">
+            <div className="relative w-full max-w-md bg-slate-900/90 border border-cyan-500/50 rounded-3xl p-6 sm:p-7 shadow-2xl backdrop-blur-2xl space-y-5">
 
-              <div className="relative flex flex-col items-center justify-center">
-                <div className="relative w-36 h-36 sm:w-44 sm:h-44 transition-transform hover:scale-105 duration-300">
-                  <Image
-                    src="/assets/robopengu-hero-wave.png"
-                    alt="RoboPengu - Akıllı Teknoloji Danışmanı"
-                    fill
-                    sizes="(max-width: 640px) 160px, 176px"
-                    quality={95}
-                    unoptimized
-                    className="object-contain filter drop-shadow-[0_12px_24px_rgba(6,182,212,0.3)]"
-                    priority
-                  />
+              {/* RoboPengu Mascot Avatar */}
+              <div className="flex items-center justify-between border-b border-slate-800 pb-4">
+                <div className="flex items-center gap-3">
+                  <div className="relative w-14 h-14 rounded-2xl bg-cyan-950/80 border border-cyan-500/60 p-1 flex items-center justify-center shrink-0 shadow-lg">
+                    <Image
+                      src="/assets/robopengu-hero-wave.png"
+                      alt="RoboPengu Mascot"
+                      fill
+                      sizes="56px"
+                      unoptimized
+                      className="object-contain p-1 filter drop-shadow-[0_4px_12px_rgba(6,182,212,0.4)]"
+                    />
+                  </div>
+                  <div>
+                    <div className="text-sm font-black text-white flex items-center gap-1.5">
+                      <span>RoboPengu AI 2.0</span>
+                      <CheckCircle2 className="w-4 h-4 text-cyan-400" />
+                    </div>
+                    <div className="text-[11px] font-semibold text-cyan-400">Canlı Karar Analizörü</div>
+                  </div>
                 </div>
-                <div className="mt-2 inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-cyan-100 dark:bg-cyan-950 text-cyan-800 dark:text-cyan-200 text-xs font-black border border-cyan-300 dark:border-cyan-700">
-                  <Sparkles className="w-3.5 h-3.5 text-cyan-600" />
-                  <span>RoboPengu Canlı Karar Matrisi</span>
+
+                <div className="px-3 py-1 rounded-full bg-emerald-950 text-emerald-300 text-[10px] font-black border border-emerald-700 animate-pulse">
+                  %98 Doğruluk
                 </div>
               </div>
 
-              {/* Floating Holographic Cards Preview */}
-              <div className="grid grid-cols-2 gap-2 pt-2">
-                {[
-                  { name: 'iPhone 16 Pro', score: '9.4', color: 'from-cyan-500/20 to-teal-500/10 border-cyan-300' },
-                  { name: 'S25 Ultra', score: '9.2', color: 'from-purple-500/20 to-fuchsia-500/10 border-purple-300' },
-                  { name: 'MacBook M3', score: '9.6', color: 'from-emerald-500/20 to-teal-500/10 border-emerald-300' },
-                  { name: 'LG OLED C4', score: '9.5', color: 'from-blue-500/20 to-cyan-500/10 border-blue-300' },
-                ].map((item, idx) => (
-                  <div
-                    key={idx}
-                    className={`p-2.5 rounded-2xl bg-gradient-to-br ${item.color} border dark:border-slate-700 shadow-sm text-left transition-transform hover:scale-105`}
-                  >
-                    <div className="text-[10px] font-black uppercase text-slate-400">Puan: {item.score}</div>
-                    <div className="text-xs font-black text-slate-900 dark:text-white truncate">{item.name}</div>
-                    <div className="text-[9px] font-extrabold text-cyan-600 dark:text-cyan-400 mt-1">Holografik İncele →</div>
-                  </div>
-                ))}
+              {/* Dynamic Score Metrics Breakdown */}
+              <div className="space-y-3">
+                <div className="text-xs font-extrabold uppercase tracking-wider text-slate-400 flex items-center justify-between">
+                  <span>RoboPengu Karar Skoru</span>
+                  <span className="text-cyan-400 font-black text-sm">9.6 / 10</span>
+                </div>
+
+                <div className="space-y-2.5">
+                  {[
+                    { label: 'Kamera & Optik Kalite', score: 98, color: 'bg-cyan-400' },
+                    { label: 'Batarya & Şarj Hızı', score: 94, color: 'bg-teal-400' },
+                    { label: 'Ekran & Renk Başarımı', score: 99, color: 'bg-fuchsia-400' },
+                    { label: 'İşlemci & Thermal Performans', score: 96, color: 'bg-indigo-400' },
+                  ].map((m) => (
+                    <div key={m.label} className="space-y-1">
+                      <div className="flex justify-between text-[11px] font-bold text-slate-300">
+                        <span>{m.label}</span>
+                        <span className="font-mono text-cyan-300">%{m.score}</span>
+                      </div>
+                      <div className="w-full h-2 bg-slate-800 rounded-full overflow-hidden p-0.5">
+                        <div className={`h-full ${m.color} rounded-full transition-all duration-500`} style={{ width: `${m.score}%` }} />
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+
+              {/* Bottom Quick Suggestion Banner */}
+              <div className="bg-slate-950/80 p-3 rounded-2xl border border-slate-800 flex items-center justify-between text-xs">
+                <div className="text-slate-300 font-semibold truncate pr-2">
+                  💡 Tavsiye: <span className="text-cyan-300 font-black">iPhone 16 Pro Max</span> şu an en yüksek F/P skoru veriyor.
+                </div>
+                <Link
+                  href="/phones/iphone-16-pro-max"
+                  className="text-cyan-400 font-black hover:underline shrink-0 text-[11px]"
+                >
+                  İncele →
+                </Link>
               </div>
 
             </div>
@@ -370,7 +446,7 @@ export function HomePageClient({
       </section>
 
       {/* ========================================================================= */}
-      {/* ⚔️ 2. 3D HOLOGRAPHIC PRODUCT DUEL SECTION (EXACT 1:1 MATCH FOR MOCKUP B) */}
+      {/* ⚔️ 3. 3D HOLOGRAPHIC PRODUCT DUEL SECTION (EXACT 1:1 MATCH FOR MOCKUP B) */}
       {/* ========================================================================= */}
       <section id="holographic-duel-section" className="max-w-7xl mx-auto space-y-6 px-3 sm:px-6 py-6 relative">
 
@@ -686,7 +762,103 @@ export function HomePageClient({
       </section>
 
       {/* ========================================================================= */}
-      {/* ⚪ 3. LIGHT SILVER STEP GUIDE SECTION (#F1F5F9)                             */}
+      {/* 📊 4. BENTO GRID DEAL & PRICE INTELLIGENCE RADAR                          */}
+      {/* ========================================================================= */}
+      <section className="max-w-7xl mx-auto space-y-6 px-3 sm:px-6">
+        <div className="flex items-center justify-between">
+          <div>
+            <h2 className="text-xl sm:text-2xl font-black text-slate-900 dark:text-white tracking-tight flex items-center gap-2">
+              <Activity className="w-5 h-5 text-cyan-600" />
+              <span>Canlı İndirim & Fiyat Akıl Radarı</span>
+            </h2>
+            <p className="text-xs text-slate-500 font-semibold">Anlık fiyat hareketleri ve satın alma zamanlama tavsiyeleri</p>
+          </div>
+          <span className="text-xs font-black text-cyan-600 dark:text-cyan-400 px-3 py-1 rounded-full bg-cyan-50 dark:bg-cyan-950 border border-cyan-200 dark:border-cyan-800">
+            Canlı Güncellendi
+          </span>
+        </div>
+
+        <div className="grid grid-cols-1 md:grid-cols-12 gap-6">
+
+          {/* Card A: Live Price Drop Radar (7 Cols) */}
+          <div className="md:col-span-7 bg-gradient-to-br from-slate-900 to-slate-950 text-white rounded-3xl p-6 sm:p-7 border border-slate-800 shadow-xl space-y-5 flex flex-col justify-between">
+            <div className="flex items-center justify-between">
+              <div className="flex items-center gap-2 text-cyan-400 font-black text-xs uppercase tracking-wider">
+                <TrendingDown className="w-4 h-4 text-emerald-400" />
+                <span>Son 24 Saatin En Büyük Fiyat Düşüşleri</span>
+              </div>
+              <span className="text-[10px] font-mono font-bold text-slate-400">4 Fırsat Yakalandı</span>
+            </div>
+
+            <div className="space-y-3">
+              {[
+                { name: 'iPhone 16 Pro Max 256GB Natural Titanium', store: 'Amazon TR', price: '₺84.999', oldPrice: '₺87.399', drop: '-%3', color: 'text-emerald-400' },
+                { name: 'Samsung Galaxy S25 Ultra 512GB Titanium Gray', store: 'MediaMarkt', price: '₺79.999', oldPrice: '₺83.500', drop: '-%4', color: 'text-emerald-400' },
+                { name: 'LG 55" OLED C4 4K Smart TV', store: 'Teknosa', price: '₺62.999', oldPrice: '₺66.999', drop: '-%6', color: 'text-emerald-400' },
+              ].map((item, idx) => (
+                <div key={idx} className="bg-slate-900/90 p-3.5 rounded-2xl border border-slate-800 flex items-center justify-between gap-4 transition-all hover:border-cyan-500/50">
+                  <div className="space-y-0.5 truncate">
+                    <div className="text-xs font-extrabold text-white truncate">{item.name}</div>
+                    <div className="text-[10px] font-semibold text-slate-400 flex items-center gap-2">
+                      <span className="text-cyan-400 font-bold">{item.store}</span>
+                      <span>•</span>
+                      <span className="line-through">₺{item.oldPrice}</span>
+                    </div>
+                  </div>
+                  <div className="text-right shrink-0">
+                    <div className="text-sm font-black text-emerald-400">{item.price}</div>
+                    <div className="text-[10px] font-black text-emerald-400 bg-emerald-950 px-2 py-0.5 rounded-full inline-block mt-0.5">
+                      {item.drop} İndirim
+                    </div>
+                  </div>
+                </div>
+              ))}
+            </div>
+
+            <Link
+              href="/alerts"
+              className="text-xs font-black text-cyan-400 hover:text-cyan-300 flex items-center gap-1 pt-1"
+            >
+              <span>Tüm İndirim Alarmlarını Gör</span>
+              <ArrowRight className="w-3.5 h-3.5" />
+            </Link>
+          </div>
+
+          {/* Card B: Buy vs Wait AI Gauge (5 Cols) */}
+          <div className="md:col-span-5 bg-gradient-to-br from-cyan-950/60 via-slate-900 to-slate-950 text-white rounded-3xl p-6 sm:p-7 border border-cyan-800/60 shadow-xl space-y-5 flex flex-col justify-between">
+            <div className="flex items-center gap-2 text-cyan-300 font-black text-xs uppercase tracking-wider">
+              <Clock className="w-4 h-4 text-cyan-400" />
+              <span>Satın Alma Zamanlama İndeksi</span>
+            </div>
+
+            <div className="text-center space-y-2 py-2">
+              <div className="text-4xl sm:text-5xl font-black text-emerald-400 tracking-tight">
+                %92
+              </div>
+              <div className="text-sm font-black text-white">
+                "Şimdi Satın Alınmalı"
+              </div>
+              <p className="text-xs text-slate-300 leading-relaxed font-medium px-4">
+                Son 60 günlük fiyat grafiği analizine göre amiral gemisi kategorisinde dip fiyat seviyesi tespit edildi.
+              </p>
+            </div>
+
+            <div className="bg-slate-950/90 p-3 rounded-2xl border border-slate-800 space-y-2 text-xs">
+              <div className="flex justify-between font-bold text-slate-300">
+                <span>Gelecek Fiyat Trend Tahmini</span>
+                <span className="text-emerald-400 font-black">Kararlı / Düşük Risk</span>
+              </div>
+              <div className="w-full h-1.5 bg-slate-800 rounded-full overflow-hidden">
+                <div className="h-full bg-emerald-400 rounded-full w-[92%]" />
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      {/* ========================================================================= */}
+      {/* ⚪ 5. LIGHT SILVER STEP GUIDE SECTION (#F1F5F9)                             */}
       {/* ========================================================================= */}
       <section className="max-w-7xl mx-auto bg-[#F1F5F9] dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-3xl p-6 sm:p-8 text-slate-900 dark:text-white shadow-xs space-y-6">
         <div className="grid grid-cols-1 md:grid-cols-12 gap-6 items-center">
@@ -716,7 +888,7 @@ export function HomePageClient({
       </section>
 
       {/* ========================================================================= */}
-      {/* 📱 4. CATEGORY ICON STRIP & POPULAR COMPARISONS                           */}
+      {/* 📱 6. CATEGORY ICON STRIP & POPULAR COMPARISONS                           */}
       {/* ========================================================================= */}
       <section className="space-y-4 max-w-7xl mx-auto">
         <div className="flex items-center justify-between">
@@ -770,7 +942,7 @@ export function HomePageClient({
       )}
 
       {/* ========================================================================= */}
-      {/* 🛡️ 5. TRUST & TRANSPARENCY SECTION                                       */}
+      {/* 🛡️ 7. TRUST & TRANSPARENCY SECTION                                       */}
       {/* ========================================================================= */}
       <section className="max-w-7xl mx-auto bg-emerald-50/60 dark:bg-slate-900/80 border border-emerald-200/80 dark:border-slate-800 rounded-2xl p-5 space-y-3">
         <div className="flex items-center gap-2 text-emerald-900 dark:text-emerald-300 font-black text-sm">
