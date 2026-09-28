@@ -4265,18 +4265,18 @@
     "isPopular": true,
     "isFeatured": false,
     "highlights": [
-      "Apple A19 Güçlü İşlemci",
-      "6.1 inç Super Retina XDR OLED Ekran (460 ppi)",
-      "48 MP Fusion Kamera (2x Optik Kalite Telefoto Modu)",
+      "Apple A19 (3nm) Güçlü İşlemci",
+      "6.3 inç 120Hz ProMotion Super Retina XDR OLED",
+      "48 MP Fusion + 48 MP Ultra Geniş Çift Kamera",
       "Apple Intelligence Desteği",
-      "MagSafe & Qi2 Kablosuz Şarj (15W)",
-      "IP68 Su ve Toza Dayanıklılık (170 g Hafif Kasa)"
+      "Camera Control ve Eylem Düğmesi",
+      "Darbe ve Suya Dayanıklı Ceramic Shield 2"
     ],
     "pros": [
       "En uygun fiyatla Apple A19 çip ve Apple Intelligence desteği",
-      "Kompakt, 170g hafif ve tek elle kullanımı son derece rahat kasa",
-      "48 MP güçlü Fusion kamera ve 2x optik kalite telefoto modu",
-      "USB-C şarj ve MagSafe / Qi2 kablosuz şarj desteği"
+      "Kompakt, hafif ve tek elle kullanımı son derece rahat kasa",
+      "48 MP güçlü Fusion kamera sistemi",
+      "USB-C şarj ve MagSafe uyumluluğu"
     ],
     "cons": [
       "60Hz ekran yenileme hızı",
@@ -4508,12 +4508,12 @@
       "screen": {
         "size": "6.1 inç",
         "type": "Super Retina XDR OLED",
-        "resolution": "2532 x 1170 piksel",
+        "resolution": "2556 x 1179 piksel",
         "refreshRate": 60,
-        "ppi": 460
+        "brightnessNits": 2000
       },
       "processor": {
-        "chip": "Apple A19",
+        "chip": "Apple A19 (3nm)",
         "cores": "6 Çekirdek",
         "antutuScore": 1900000
       },
@@ -4522,15 +4522,17 @@
         "ramType": "LPDDR5X",
         "storageGb": 512,
         "storageOptions": [
-          256,
-          512
+          128,
+          512,
+          1024,
+          2048
         ],
         "expandableStorage": false
       },
       "camera": {
-        "mainMp": "48 MP Fusion, f/1.6 (2x Optik Kalite Telefoto Modu)",
-        "ultrawideMp": "Yok",
-        "selfieMp": "12 MP TrueDepth, f/1.9",
+        "mainMp": "48 MP Fusion, f/1.6",
+        "ultrawideMp": "12 MP, f/2.2",
+        "selfieMp": "12 MP TrueDepth",
         "videoRes": "4K@60fps",
         "dxomarkScore": 156
       },
@@ -4538,24 +4540,20 @@
         "capacitymAh": 3500,
         "chargingWatts": 30,
         "wirelessCharging": true,
-        "reverseWireless": false,
-        "videoPlaybackHours": 26,
-        "magsafeWatts": 15,
-        "qi2Watts": 15
+        "reverseWireless": false
       },
       "connectivity": {
-        "has5G": true,
-        "wifiStandard": "Wi-Fi 6 (802.11ax), 2x2 MIMO",
-        "bluetooth": "5.3",
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 7 (802.11be)",
+        "bluetooth": "5.4",
         "hasNFC": true,
         "hasesim": true
       },
       "build": {
-        "weightGrams": 170,
+        "weightGrams": 177,
         "thicknessMm": 7.8,
         "waterResistance": "IP68",
-        "frameMaterial": "Alüminyum & Renkli Cam Arka Yüzey",
-        "usbType": "USB-C (USB 2)"
+        "frameMaterial": "Alüminyum & Renkli Cam Arka Yüzey"
       },
       "software": {
         "osName": "iOS 19",
@@ -4640,18 +4638,18 @@
     "isPopular": true,
     "isFeatured": false,
     "highlights": [
-      "Apple A19 Güçlü İşlemci",
-      "6.1 inç Super Retina XDR OLED Ekran (460 ppi)",
-      "48 MP Fusion Kamera (2x Optik Kalite Telefoto Modu)",
+      "Apple A19 (3nm) Güçlü İşlemci",
+      "6.3 inç 120Hz ProMotion Super Retina XDR OLED",
+      "48 MP Fusion + 48 MP Ultra Geniş Çift Kamera",
       "Apple Intelligence Desteği",
-      "MagSafe & Qi2 Kablosuz Şarj (15W)",
-      "IP68 Su ve Toza Dayanıklılık (170 g Hafif Kasa)"
+      "Camera Control ve Eylem Düğmesi",
+      "Darbe ve Suya Dayanıklı Ceramic Shield 2"
     ],
     "pros": [
       "En uygun fiyatla Apple A19 çip ve Apple Intelligence desteği",
-      "Kompakt, 170g hafif ve tek elle kullanımı son derece rahat kasa",
-      "48 MP güçlü Fusion kamera ve 2x optik kalite telefoto modu",
-      "USB-C şarj ve MagSafe / Qi2 kablosuz şarj desteği"
+      "Kompakt, hafif ve tek elle kullanımı son derece rahat kasa",
+      "48 MP güçlü Fusion kamera sistemi",
+      "USB-C şarj ve MagSafe uyumluluğu"
     ],
     "cons": [
       "60Hz ekran yenileme hızı",
@@ -4883,12 +4881,12 @@
       "screen": {
         "size": "6.1 inç",
         "type": "Super Retina XDR OLED",
-        "resolution": "2532 x 1170 piksel",
+        "resolution": "2556 x 1179 piksel",
         "refreshRate": 60,
-        "ppi": 460
+        "brightnessNits": 2000
       },
       "processor": {
-        "chip": "Apple A19",
+        "chip": "Apple A19 (3nm)",
         "cores": "6 Çekirdek",
         "antutuScore": 1900000
       },
@@ -4897,15 +4895,18 @@
         "ramType": "LPDDR5X",
         "storageGb": 256,
         "storageOptions": [
+          128,
           256,
-          512
+          512,
+          1024,
+          2048
         ],
         "expandableStorage": false
       },
       "camera": {
-        "mainMp": "48 MP Fusion, f/1.6 (2x Optik Kalite Telefoto Modu)",
-        "ultrawideMp": "Yok",
-        "selfieMp": "12 MP TrueDepth, f/1.9",
+        "mainMp": "48 MP Fusion, f/1.6",
+        "ultrawideMp": "12 MP, f/2.2",
+        "selfieMp": "12 MP TrueDepth",
         "videoRes": "4K@60fps",
         "dxomarkScore": 156
       },
@@ -4913,24 +4914,20 @@
         "capacitymAh": 3500,
         "chargingWatts": 30,
         "wirelessCharging": true,
-        "reverseWireless": false,
-        "videoPlaybackHours": 26,
-        "magsafeWatts": 15,
-        "qi2Watts": 15
+        "reverseWireless": false
       },
       "connectivity": {
-        "has5G": true,
-        "wifiStandard": "Wi-Fi 6 (802.11ax), 2x2 MIMO",
-        "bluetooth": "5.3",
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 7 (802.11be)",
+        "bluetooth": "5.4",
         "hasNFC": true,
         "hasesim": true
       },
       "build": {
-        "weightGrams": 170,
+        "weightGrams": 177,
         "thicknessMm": 7.8,
         "waterResistance": "IP68",
-        "frameMaterial": "Alüminyum & Renkli Cam Arka Yüzey",
-        "usbType": "USB-C (USB 2)"
+        "frameMaterial": "Alüminyum & Renkli Cam Arka Yüzey"
       },
       "software": {
         "osName": "iOS 19",

@@ -407,3 +407,33 @@ html, body {
   }
 }
 
+/* 🚀 AntiGravity Float & Reactor Pulse Animations for Choice A Landing */
+@keyframes antigravityFloat {
+  0%, 100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-14px) rotate(1.2deg);
+  }
+}
+
+.animate-antigravity-float {
+  animation: antigravityFloat 4.5s ease-in-out infinite;
+}
+
+@keyframes reactorPulse {
+  0%, 100% {
+    box-shadow: 0 0 15px 4px rgba(0, 163, 255, 0.4), inset 0 0 10px 2px rgba(0, 200, 250, 0.6);
+    filter: drop-shadow(0 0 12px rgba(0, 163, 255, 0.6));
+  }
+  50% {
+    box-shadow: 0 0 35px 12px rgba(0, 200, 250, 0.85), inset 0 0 18px 6px rgba(0, 240, 255, 0.9);
+    filter: drop-shadow(0 0 24px rgba(0, 200, 250, 0.95));
+  }
+}
+
+.animate-reactor-pulse {
+  animation: reactorPulse 2.5s ease-in-out infinite;
+}
+
+

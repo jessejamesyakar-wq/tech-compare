@@ -6,6 +6,7 @@ import Image from 'next/image';
 import { useI18n } from '@/lib/i18n/context';
 import { CategoryIconStrip } from '@/components/layout/CategoryIconStrip';
 import { ProductImage } from '@/components/ui/ProductImage';
+import { ChoiceAAntiGravityLanding } from './ChoiceAAntiGravityLanding';
 import { searchLocalProductsAsync, CompactSearchProduct } from '@/lib/clientSearch';
 import {
   Scale,
@@ -247,7 +248,9 @@ export function HomePageClient({
   const currentSpecKeys = currentPreset.specKeys;
 
   return (
-    <div className="space-y-12 pb-16 max-w-full overflow-hidden bg-white dark:bg-slate-950 text-slate-900 dark:text-white transition-colors">
+    <div className="space-y-12 pb-16 max-w-full overflow-hidden bg-[#F8F9FC] text-slate-900 transition-colors">
+      {/* 🚀 Choice A - AntiGravity Landing Page Hero & Proof Showcase */}
+      <ChoiceAAntiGravityLanding counts={counts} />
 
       {/* ========================================================================= */}
       {/* ⚡ 1. LIVE TECH TICKER BAR (MÜHENDİSLİK SEVİYESİ CANLI BORSA BANDI)       */}
