@@ -25,7 +25,16 @@ import {
   Scale,
   ShieldCheck,
   RotateCcw,
-  Loader2
+  Loader2,
+  Swords,
+  Newspaper,
+  Cpu,
+  Camera,
+  BatteryCharging,
+  Shield,
+  Layers,
+  ThumbsUp,
+  ThumbsDown
 } from 'lucide-react';
 import { readChatEvents } from '@/lib/ai/chatStream';
 import { ProductImage } from '@/components/ui/ProductImage';
@@ -83,6 +92,7 @@ export interface ComparisonMatrixRow {
   values: string[];
   isDifferent: boolean;
   superiorIdx?: number | null;
+  highlightIdx?: number;
   group?: string;
 }
 
@@ -125,8 +135,8 @@ const VERIFIED_PRESET_COMPARISONS: Record<string, ComparisonPanelData> = {
       {
         id: 'apple-apple-iphone-16-pro-max-256-gb-952387',
         slug: 'apple-iphone-16-pro-max-256-gb',
-        name: 'iPhone 16 Pro Max 256 GB',
-        brand: 'Apple',
+        name: 'iPhone 16 Pro Max (256 GB)',
+        brand: 'APPLE',
         category: 'smartphones',
         image: '/images/phones/apple/iphone-16-teal.png',
         price: 84999,
@@ -141,8 +151,8 @@ const VERIFIED_PRESET_COMPARISONS: Record<string, ComparisonPanelData> = {
       {
         id: 'samsung-galaxy-s24-ultra-256-gb',
         slug: 'samsung-galaxy-s24-ultra',
-        name: 'Samsung Galaxy S24 Ultra 256 GB',
-        brand: 'Samsung',
+        name: 'Samsung Galaxy S24 Ultra (256 GB)',
+        brand: 'SAMSUNG',
         category: 'smartphones',
         image: '/images/phones/samsung/studio/samsung-galaxy-s25-ultra.png',
         price: 79999,
@@ -165,14 +175,20 @@ const VERIFIED_PRESET_COMPARISONS: Record<string, ComparisonPanelData> = {
       ]
     },
     matrix: [
-      { label: 'İşlemci (Çip)', values: ['Apple A18 Pro (3nm)', 'Snapdragon 8 Gen 3 for Galaxy'], isDifferent: true, superiorIdx: 0, group: 'Performans' },
-      { label: 'Ekran', values: ['6.9" Super Retina XDR OLED (120Hz ProMotion)', '6.8" Dynamic AMOLED 2X (120Hz LTPO, Gorilla Armor)'], isDifferent: true, superiorIdx: 1, group: 'Ekran & Panel' },
-      { label: 'Ana Kamera', values: ['48 MP Fusion (Sensor-shift OIS)', '200 MP (f/1.7, OIS)'], isDifferent: true, superiorIdx: 1, group: 'Kamera' },
-      { label: 'Telefoto / Zoom', values: ['12 MP 5x Tetraprizma Optik Zoom', '50 MP 5x Periskop + 10 MP 3x Optik (100x Zoom)'], isDifferent: true, superiorIdx: 1, group: 'Kamera' },
-      { label: 'Video Kaydı', values: ['4K 120 fps Dolby Vision HDR', '8K 30 fps / 4K 120 fps'], isDifferent: true, superiorIdx: 0, group: 'Kamera' },
-      { label: 'Batarya & Şarj', values: ['4.685 mAh (29s Video)', '5.000 mAh (45W Hızlı Şarj)'], isDifferent: true, superiorIdx: 1, group: 'Batarya' },
-      { label: 'Ağırlık & Kasa', values: ['227 g (Grade 5 Titanyum)', '232 g (Titanyum + Dahili S-Pen)'], isDifferent: true, superiorIdx: 0, group: 'Tasarım' },
-      { label: 'En Uygun Fiyat', values: ['₺84.999 (Hepsiburada)', '₺79.999 (Trendyol)'], isDifferent: true, superiorIdx: 1, group: 'Fiyat Avantajı' }
+      { label: 'Panel Tipi', values: ['LTPO Super Retina XDR OLED (1-120Hz ProMotion)', 'Dynamic AMOLED 2X (1-120Hz LTPO, Gorilla Armor)'], isDifferent: true, superiorIdx: 1, group: 'screen' },
+      { label: 'Ekran Boyutu', values: ['6.9 inç (2868 x 1320 piksel)', '6.8 inç (3120 x 1440 piksel QHD+)'], isDifferent: true, superiorIdx: 0, group: 'screen' },
+      { label: 'Tepe Parlaklık', values: ['2000 nit (Dış mekan)', '2600 nit (Yansıma Önleyici Kaplama)'], isDifferent: true, superiorIdx: 1, group: 'screen' },
+      { label: 'İşlemci (Çip)', values: ['Apple A18 Pro (3nm, 6 Çekirdek)', 'Snapdragon 8 Gen 3 for Galaxy (4nm)'], isDifferent: true, superiorIdx: 0, group: 'processor' },
+      { label: 'RAM Bellek', values: ['8 GB LPDDR5X (Unified)', '12 GB LPDDR5X'], isDifferent: true, superiorIdx: 1, group: 'processor' },
+      { label: 'AnTuTu v10 Skoru', values: ['1.950.000+ Puan', '1.810.000+ Puan'], isDifferent: true, superiorIdx: 0, group: 'processor' },
+      { label: 'Ana Kamera', values: ['48 MP Fusion (f/1.78, Sensor-shift OIS)', '200 MP (f/1.7, OIS)'], isDifferent: true, superiorIdx: 1, group: 'camera' },
+      { label: 'Telefoto / Zoom', values: ['12 MP 5x Tetraprizma Optik Zoom', '50 MP 5x Periskop + 10 MP 3x Optik (100x Zoom)'], isDifferent: true, superiorIdx: 1, group: 'camera' },
+      { label: 'Video Kaydı', values: ['4K 120 fps Dolby Vision HDR', '8K 30 fps / 4K 120 fps'], isDifferent: true, superiorIdx: 0, group: 'camera' },
+      { label: 'Batarya Kapasitesi', values: ['4.685 mAh (29s Video Oynatma)', '5.000 mAh'], isDifferent: true, superiorIdx: 1, group: 'battery' },
+      { label: 'Kablolu Şarj Hızı', values: ['27W Hızlı Şarj (%50 / 30 dk)', '45W Süper Hızlı Şarj 2.0'], isDifferent: true, superiorIdx: 1, group: 'battery' },
+      { label: 'Kasa Malzemesi', values: ['Grade 5 Titanyum + Ceramic Shield', 'Titanyum Çerçeve + Gorilla Armor Cam'], isDifferent: false, superiorIdx: null, group: 'build' },
+      { label: 'Ağırlık', values: ['227 gram', '232 gram (Dahili S-Pen Kalem Dahil)'], isDifferent: true, superiorIdx: 0, group: 'build' },
+      { label: 'Fiyat Avantajı', values: ['₺84.999 (Hepsiburada)', '₺79.999 (Trendyol)'], isDifferent: true, superiorIdx: 1, group: 'general' }
     ]
   },
   'En iyi OLED TV hangisi?': {
@@ -201,7 +217,7 @@ const VERIFIED_PRESET_COMPARISONS: Record<string, ComparisonPanelData> = {
         id: 'samsung-55s95d',
         slug: 'samsung-55s95d',
         name: 'Samsung 55S95D 55" 144Hz QD-OLED TV',
-        brand: 'Samsung',
+        brand: 'SAMSUNG',
         category: 'tvs',
         image: '/images/tvs/samsung-55s95d.jpg',
         price: 69999,
@@ -224,11 +240,11 @@ const VERIFIED_PRESET_COMPARISONS: Record<string, ComparisonPanelData> = {
       ]
     },
     matrix: [
-      { label: 'Panel Teknolojisi', values: ['WOLED evo Brightness Booster', 'QD-OLED Glare Free (Mat)'], isDifferent: true, superiorIdx: 0, group: 'Görüntü' },
-      { label: 'Yenileme Hızı', values: ['144 Hz VRR (G-Sync & FreeSync)', '144 Hz VRR (FreeSync Premium Pro)'], isDifferent: false, superiorIdx: null, group: 'Görüntü' },
-      { label: 'Görüntü İşlemcisi', values: ['α9 Gen7 AI 4K', 'NQ4 AI Gen2'], isDifferent: true, superiorIdx: 0, group: 'Performans' },
-      { label: 'Ses Sistemi', values: ['9.1.2ch Virtual Surround AI (40W)', '4.2.2ch Dolby Atmos (70W)'], isDifferent: true, superiorIdx: 1, group: 'Ses' },
-      { label: 'Fiyat Avantajı', values: ['₺54.999 (15.000 TL Tasarruf)', '₺69.999'], isDifferent: true, superiorIdx: 0, group: 'Fiyat' }
+      { label: 'Panel Teknolojisi', values: ['WOLED evo Brightness Booster', 'QD-OLED Glare Free (Mat)'], isDifferent: true, superiorIdx: 0, group: 'screen' },
+      { label: 'Yenileme Hızı', values: ['144 Hz VRR (G-Sync & FreeSync)', '144 Hz VRR (FreeSync Premium Pro)'], isDifferent: false, superiorIdx: null, group: 'screen' },
+      { label: 'Görüntü İşlemcisi', values: ['α9 Gen7 AI 4K', 'NQ4 AI Gen2'], isDifferent: true, superiorIdx: 0, group: 'processor' },
+      { label: 'Ses Sistemi', values: ['9.1.2ch Virtual Surround AI (40W)', '4.2.2ch Dolby Atmos (70W)'], isDifferent: true, superiorIdx: 1, group: 'camera' },
+      { label: 'Fiyat Avantajı', values: ['₺54.999 (15.000 TL Tasarruf)', '₺69.999'], isDifferent: true, superiorIdx: 0, group: 'general' }
     ]
   },
   'F/P laptop tavsiyesi': {
@@ -241,7 +257,7 @@ const VERIFIED_PRESET_COMPARISONS: Record<string, ComparisonPanelData> = {
         id: 'apple-macbook-air-m3-13-16gb',
         slug: 'apple-macbook-air-m3-13-16gb',
         name: 'Apple MacBook Air 13" M3 16GB 512GB',
-        brand: 'Apple',
+        brand: 'APPLE',
         category: 'laptops',
         image: '/images/laptops/apple/apple-macbook-air-13-m3-uzay-grisi.jpg',
         price: 49999,
@@ -280,11 +296,11 @@ const VERIFIED_PRESET_COMPARISONS: Record<string, ComparisonPanelData> = {
       ]
     },
     matrix: [
-      { label: 'İşlemci Mimarisi', values: ['Apple M3 (8 Çekirdek CPU / 10 Çekirdek GPU)', 'Intel Core Ultra 7 155H (16 Çekirdek)'], isDifferent: true, superiorIdx: 0, group: 'Performans' },
-      { label: 'Ekran', values: ['13.6" Liquid Retina 500 nits (IPS)', '14.0" 3K 120Hz ASUS Lumina OLED'], isDifferent: true, superiorIdx: 1, group: 'Ekran' },
-      { label: 'Pil Ömrü', values: ['18 Saate kadar (Gerçek Mobilite)', '8-10 Saate kadar'], isDifferent: true, superiorIdx: 0, group: 'Batarya' },
-      { label: 'Soğutma', values: ['Fansız (Tamamen Sessiz)', 'Çift Fanlı Aktif Soğutma'], isDifferent: true, superiorIdx: 0, group: 'Tasarım' },
-      { label: 'Ağırlık', values: ['1.24 kg', '1.20 kg'], isDifferent: false, superiorIdx: null, group: 'Tasarım' }
+      { label: 'İşlemci Mimarisi', values: ['Apple M3 (8 Çekirdek CPU / 10 Çekirdek GPU)', 'Intel Core Ultra 7 155H (16 Çekirdek)'], isDifferent: true, superiorIdx: 0, group: 'processor' },
+      { label: 'Ekran', values: ['13.6" Liquid Retina 500 nits (IPS)', '14.0" 3K 120Hz ASUS Lumina OLED'], isDifferent: true, superiorIdx: 1, group: 'screen' },
+      { label: 'Pil Ömrü', values: ['18 Saate kadar (Gerçek Mobilite)', '8-10 Saate kadar'], isDifferent: true, superiorIdx: 0, group: 'battery' },
+      { label: 'Soğutma', values: ['Fansız (Tamamen Sessiz)', 'Çift Fanlı Aktif Soğutma'], isDifferent: true, superiorIdx: 0, group: 'build' },
+      { label: 'Ağırlık', values: ['1.24 kg', '1.20 kg'], isDifferent: false, superiorIdx: null, group: 'build' }
     ]
   },
   'ANC kulaklık önerisi': {
@@ -297,7 +313,7 @@ const VERIFIED_PRESET_COMPARISONS: Record<string, ComparisonPanelData> = {
         id: 'sony-wh-1000xm5-black',
         slug: 'sony-wh-1000xm5-black',
         name: 'Sony WH-1000XM5 Kablosuz ANC Kulaklık',
-        brand: 'Sony',
+        brand: 'SONY',
         category: 'headphones',
         image: '/images/headphones/sony-wh-1000xm5.jpg',
         price: 13999,
@@ -313,7 +329,7 @@ const VERIFIED_PRESET_COMPARISONS: Record<string, ComparisonPanelData> = {
         id: 'apple-airpods-max-silver',
         slug: 'apple-airpods-max-silver',
         name: 'Apple AirPods Max Uzay Grisi',
-        brand: 'Apple',
+        brand: 'APPLE',
         category: 'headphones',
         image: '/images/headphones/apple-airpods-max.jpg',
         price: 24999,
@@ -336,11 +352,11 @@ const VERIFIED_PRESET_COMPARISONS: Record<string, ComparisonPanelData> = {
       ]
     },
     matrix: [
-      { label: 'ANC Teknolojisi', values: ['Çift İşlemci (V1 + QN1) 8 Mikrofon', 'Apple H1 Çip (9 Mikrofon)'], isDifferent: true, superiorIdx: 0, group: 'Yalıtım' },
-      { label: 'Pil Ömrü', values: ['30 Saat (ANC Açık) / 40 Saat (Kapalı)', '20 Saat (ANC Açık)'], isDifferent: true, superiorIdx: 0, group: 'Batarya' },
-      { label: 'Ağırlık', values: ['250 g (Uzun süre konforlu)', '384.8 g (Ağır alüminyum gövde)'], isDifferent: true, superiorIdx: 0, group: 'Tasarım' },
-      { label: 'Ses Kodekleri', values: ['LDAC, AAC, SBC (Hi-Res Audio Wireless)', 'AAC, SBC'], isDifferent: true, superiorIdx: 0, group: 'Ses' },
-      { label: 'Fiyat', values: ['₺13.999', '₺24.999 (11.000 TL Fark)'], isDifferent: true, superiorIdx: 0, group: 'Fiyat' }
+      { label: 'ANC Teknolojisi', values: ['Çift İşlemci (V1 + QN1) 8 Mikrofon', 'Apple H1 Çip (9 Mikrofon)'], isDifferent: true, superiorIdx: 0, group: 'camera' },
+      { label: 'Pil Ömrü', values: ['30 Saat (ANC Açık) / 40 Saat (Kapalı)', '20 Saat (ANC Açık)'], isDifferent: true, superiorIdx: 0, group: 'battery' },
+      { label: 'Ağırlık', values: ['250 g (Uzun süre konforlu)', '384.8 g (Ağır alüminyum gövde)'], isDifferent: true, superiorIdx: 0, group: 'build' },
+      { label: 'Ses Kodekleri', values: ['LDAC, AAC, SBC (Hi-Res Audio)', 'AAC, SBC'], isDifferent: true, superiorIdx: 0, group: 'camera' },
+      { label: 'Fiyat', values: ['₺13.999', '₺24.999 (11.000 TL Fark)'], isDifferent: true, superiorIdx: 0, group: 'general' }
     ]
   }
 };
@@ -465,9 +481,9 @@ export function ChoiceAAntiGravityLanding() {
   const [streamingResponse, setStreamingResponse] = useState<string>('');
   const [recommendations, setRecommendations] = useState<AIRecommendation[]>([]);
   
-  // Side Comparison Panel State ("yana yeni sayfa açılması")
+  // Side Comparison Panel State ("yana açılan ekran" split view)
   const [sideComparison, setSideComparison] = useState<ComparisonPanelData | null>(null);
-  const [isSidePanelOpen, setIsSidePanelOpen] = useState(false);
+  const [mobileTab, setMobileTab] = useState<'chat' | 'panel'>('chat');
 
   // Audio Voice State
   const [isListening, setIsListening] = useState(false);
@@ -478,7 +494,7 @@ export function ChoiceAAntiGravityLanding() {
   // Hero Ref for Scroll Out-of-View Auto-Reset
   const heroRef = useRef<HTMLDivElement>(null);
 
-  // Stop speaking helper
+  // Helper: Stop speaking
   const stopSpeaking = () => {
     if (typeof window !== 'undefined' && 'speechSynthesis' in window) {
       window.speechSynthesis.cancel();
@@ -494,8 +510,8 @@ export function ChoiceAAntiGravityLanding() {
     setCurrentPrompt(null);
     setStreamingResponse('');
     setRecommendations([]);
-    setIsSidePanelOpen(false);
     setSideComparison(null);
+    setMobileTab('chat');
   };
 
   // KULLANICI BAŞKA BÖLÜME GEÇTİĞİNDE SOHBETİN SIFIRLANMASI
@@ -504,8 +520,7 @@ export function ChoiceAAntiGravityLanding() {
     const observer = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
-          // Kullanıcı Hero bölümünden aşağı kaydırıp başka içeriklere odaklandığında konuşmayı sıfırla
-          if (!entry.isIntersecting && entry.boundingClientRect.top < 0 && currentPrompt) {
+          if (!entry.isIntersecting && entry.boundingClientRect.top < 0 && (currentPrompt || sideComparison)) {
             handleClear();
           }
         });
@@ -514,18 +529,18 @@ export function ChoiceAAntiGravityLanding() {
     );
     observer.observe(heroRef.current);
     return () => observer.disconnect();
-  }, [currentPrompt]);
+  }, [currentPrompt, sideComparison]);
 
   // Sayfa gizlendiğinde / sekme değiştiğinde sıfırlama
   useEffect(() => {
     const handleVisibilityChange = () => {
-      if (document.hidden && currentPrompt) {
+      if (document.hidden && (currentPrompt || sideComparison)) {
         handleClear();
       }
     };
     document.addEventListener('visibilitychange', handleVisibilityChange);
     return () => document.removeEventListener('visibilitychange', handleVisibilityChange);
-  }, [currentPrompt]);
+  }, [currentPrompt, sideComparison]);
 
   // Text-To-Speech (TTS)
   const speakText = (text: string) => {
@@ -624,14 +639,14 @@ export function ChoiceAAntiGravityLanding() {
     const preset = VERIFIED_PRESET_COMPARISONS[cleanPrompt];
     if (preset) {
       setSideComparison(preset);
-      setIsSidePanelOpen(true); // YANA YENİ SAYFA / PANEL AÇILDI!
+      setMobileTab('panel'); // Mobilde doğrudan kıyaslama sekmesine odaklan
       
-      const fastText = `RoboPengu Kararı: ${preset.winner?.productName || preset.scenario}.\n\n` +
-        `🔎 ${preset.deepAnalysis || 'Katalog verileriyle doğrulanmış teknik donanım kıyaslaması yan panele aktarıldı.'}`;
+      const fastText = `Apple ${preset.products[0]?.name || ''} ile ${preset.products[1]?.name || ''} karşılaştırması hazır. ` +
+        `Katalog değerleri ve doğrulanmış teknik özellik farkları sağdaki kıyaslama masasına aktarıldı.`;
 
       setStreamingResponse(fastText);
       setIsAnalyzing(false);
-      speakText(preset.winner?.reasons[0] || fastText);
+      speakText(fastText);
       return;
     }
 
@@ -657,7 +672,7 @@ export function ChoiceAAntiGravityLanding() {
             const panelData = JSON.parse(data);
             if (panelData && panelData.type === 'comparison') {
               setSideComparison(panelData);
-              setIsSidePanelOpen(true); // YANA YENİ SAYFA / PANEL AÇILDI!
+              setMobileTab('panel');
             }
           } catch {}
         } else if (event === 'products' && data) {
@@ -682,20 +697,66 @@ export function ChoiceAAntiGravityLanding() {
 
     } catch (err: any) {
       setIsAnalyzing(false);
-      // Fallback Doğrulanmış Asistan Yanıtı
       const fallbackText = `RoboPengu "${cleanPrompt}" için 5.768+ güncel mağaza teklifini ve teknik donanım verilerini analiz etti.\n\n` +
-        `💡 Tavsiye: Doğrulanmış donanım puanı en yüksek modelleri aşağıda inceleyebilir veya iki modeli karşılaştırmak için "Ürün A vs Ürün B" şeklinde sorabilirsiniz.`;
+        `💡 Tavsiye: Doğrulanmış donanım puanı en yüksek modelleri inceleyebilir veya iki modeli karşılaştırmak için "iPhone 16 Pro vs S24 Ultra" şeklinde sorabilirsiniz.`;
       setStreamingResponse(fallbackText);
     }
   };
 
-  // Build Compare URL for "Yeni Sekmede Aç" Link
+  // Build Compare URL for "Düelloya Git" Link
   const getComparePageUrl = (panel: ComparisonPanelData) => {
     if (!panel.products || panel.products.length < 2) return '/compare';
     const p1 = panel.products[0].slug || panel.products[0].id;
     const p2 = panel.products[1].slug || panel.products[1].id;
     return `/compare?d1=${encodeURIComponent(p1)}&d2=${encodeURIComponent(p2)}`;
   };
+
+  // Build Individual Product Detail URL
+  const getProductDetailUrl = (p: ComparisonProduct) => {
+    const slug = p.slug || p.id;
+    const cat = p.category || 'phones';
+    if (cat === 'tvs') return `/tvs/${slug}`;
+    if (cat === 'laptops') return `/laptops/${slug}`;
+    if (cat === 'headphones') return `/headphones/${slug}`;
+    return `/phones/${slug}`;
+  };
+
+  const hasPanel = sideComparison !== null;
+
+  // Group definitions for spec matrix accordion
+  const isTvComparison = sideComparison?.category === 'tvs';
+  const groupDefs = [
+    {
+      key: 'screen',
+      title: isTvComparison ? 'Panel, Ekran Boyutu & Görüntü Kalitesi' : 'Ekran, Panel & Görüntüleme',
+      icon: isTvComparison ? <Tv className="w-3.5 h-3.5" /> : <Smartphone className="w-3.5 h-3.5" />,
+    },
+    {
+      key: 'processor',
+      title: isTvComparison ? 'Görüntü İşlemcisi, Oyun & Akıllı TV Sistemi' : 'İşlemci, Çip & Sentetik Performans',
+      icon: <Cpu className="w-3.5 h-3.5" />,
+    },
+    {
+      key: 'camera',
+      title: isTvComparison ? 'Ses Sistemi, Dolby Atmos & Hoparlör Gücü' : 'Kamera, Akustik Sürücü & Ses',
+      icon: isTvComparison ? <Volume2 className="w-3.5 h-3.5" /> : <Camera className="w-3.5 h-3.5" />,
+    },
+    {
+      key: 'battery',
+      title: isTvComparison ? 'Enerji Verimliliği & Güç Tüketimi' : 'Batarya, Enerji & Güç Tüketimi',
+      icon: <BatteryCharging className="w-3.5 h-3.5" />,
+    },
+    {
+      key: 'build',
+      title: isTvComparison ? 'HDMI 2.1 Portları, Kasa & Çerçeve Tasarımı' : 'Kasa, Malzeme & Dayanıklılık',
+      icon: <Shield className="w-3.5 h-3.5" />,
+    },
+    {
+      key: 'general',
+      title: 'Ek Donanım Özellikleri & Bağlantılar',
+      icon: <Layers className="w-3.5 h-3.5" />,
+    },
+  ];
 
   return (
     <div className="relative bg-[#F8F9FC] text-slate-900 font-sans selection:bg-cyan-500 selection:text-white">
@@ -709,14 +770,20 @@ export function ChoiceAAntiGravityLanding() {
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-8 sm:pt-14 pb-16">
 
         {/* ========================================================================= */}
-        {/* 1. HERO SECTION: 1:1 PIXEL-PERFECT APPLE HERO CONSOLE                     */}
+        {/* 1. HERO SECTION: 1:1 PIXEL-PERFECT SPLIT CONSOLE (EXACT LIKE SCREENSHOT)  */}
         {/* ========================================================================= */}
-        <div ref={heroRef} className="relative max-w-3xl mx-auto my-6 sm:my-10">
+        <div
+          ref={heroRef}
+          className={`relative mx-auto my-6 sm:my-10 transition-all duration-300 ease-out ${
+            hasPanel ? 'max-w-6xl' : 'max-w-3xl'
+          }`}
+        >
 
           {/* Overlapping 3D RoboPengu Character on Top-Left Corner                     */}
           {/* FLIPPED HORIZONTALLY (scale-x-[-1]) SO HE LOOKS AT THE CONSOLE & USER!     */}
           {/* ULTRA-SMOOTH MULTI-STAGE ANTI-GRAVITY FLOATING MOTION                     */}
-          <div className="absolute -top-16 -left-6 sm:-top-20 sm:-left-14 md:-left-18 z-30 pointer-events-none">
+          {/* ZERO ARTIFICIAL BLUE DOTS OR OVERLAYS (PRISTINE METALLIC ASSET)            */}
+          <div className="absolute -top-16 -left-6 sm:-top-20 sm:-left-12 md:-left-16 z-30 pointer-events-none select-none">
             <div className="relative flex flex-col items-center">
               
               {/* Mascot Image with Organic Anti-Gravity Float Animation, Flipped to Look Right */}
@@ -751,54 +818,87 @@ export function ChoiceAAntiGravityLanding() {
             </div>
           </div>
 
-          {/* Main White Console Card (Apple Vision Glassmorphism Aesthetic) */}
-          <div className="relative rounded-[32px] border border-white/90 bg-white/95 backdrop-blur-3xl shadow-[0_30px_90px_-20px_rgba(0,163,255,0.14),0_10px_30px_-10px_rgba(15,23,42,0.06)] ring-1 ring-slate-900/5 p-5 sm:p-10 pt-12 sm:pt-10 overflow-hidden">
+          {/* Main White Console Card (Transforms into 2-Column Split View on Comparison) */}
+          <div className="relative rounded-[32px] border border-white/90 bg-white/95 backdrop-blur-3xl shadow-[0_30px_90px_-20px_rgba(0,163,255,0.14),0_10px_30px_-10px_rgba(15,23,42,0.06)] ring-1 ring-slate-900/5 p-4 sm:p-6 overflow-hidden flex flex-col">
             
-            {/* Top Bar: RoboPengu | Sessiz | Temizle | X (Fluid Responsive on Mobile) */}
-            <div className="flex items-center justify-between pb-4 sm:pb-5 mb-4 sm:mb-5 border-b border-slate-100">
+            {/* Modal Header Bar */}
+            <div className="px-2 sm:px-4 py-2 border-b border-slate-100 flex items-center justify-between shrink-0 gap-2 flex-wrap">
+              
+              {/* Left: RoboPengu Title & Badge */}
               <div className="flex items-center gap-2 pl-20 sm:pl-32">
-                <div className="w-6 h-6 rounded-full bg-gradient-to-tr from-cyan-500 to-emerald-400 p-0.5 shadow-xs shrink-0">
-                  <div className="w-full h-full rounded-full bg-slate-900 flex items-center justify-center text-white text-[9px] font-bold">
-                    RP
-                  </div>
+                <div className="w-7 h-7 sm:w-8 sm:h-8 rounded-full bg-slate-900 flex items-center justify-center text-white text-[10px] font-bold shadow-xs">
+                  RP
                 </div>
-                <span className="text-sm sm:text-base font-extrabold text-slate-900 tracking-tight">RoboPengu</span>
-                {isSpeaking && (
-                  <span className="hidden sm:inline-flex items-center gap-1 text-[11px] font-semibold text-emerald-600 bg-emerald-50 px-2 py-0.5 rounded-full animate-pulse">
-                    <Volume2 className="w-3 h-3" />
-                    <span>Konuşuyor...</span>
-                  </span>
-                )}
+                <div className="flex items-center gap-1.5 flex-wrap">
+                  <span className="text-sm sm:text-base font-extrabold text-slate-900 tracking-tight">RoboPengu</span>
+                  {isSpeaking && (
+                    <span className="hidden sm:inline-flex items-center gap-1 text-[10px] font-bold text-emerald-600 bg-emerald-50 px-2 py-0.5 rounded-full animate-pulse">
+                      <Volume2 className="w-3 h-3" />
+                      <span>Konuşuyor</span>
+                    </span>
+                  )}
+                </div>
               </div>
 
-              <div className="flex items-center gap-1 sm:gap-2.5 text-xs font-medium text-slate-500">
+              {/* Mobilde ve Tablette Tab Değiştirici (Panel Açıkken) */}
+              {hasPanel && (
+                <div className="order-3 sm:order-none w-full sm:w-auto justify-center flex lg:hidden items-center gap-1 bg-slate-100 p-0.5 rounded-xl text-xs font-semibold shrink-0">
+                  <button
+                    type="button"
+                    onClick={() => setMobileTab('chat')}
+                    className={`min-h-11 px-3 py-1 rounded-lg transition-colors flex items-center gap-1.5 cursor-pointer ${
+                      mobileTab === 'chat'
+                        ? 'bg-white text-emerald-600 shadow-xs'
+                        : 'text-slate-500 hover:text-slate-700'
+                    }`}
+                  >
+                    <span>💬</span>
+                    <span>Sohbet</span>
+                  </button>
+                  <button
+                    type="button"
+                    onClick={() => setMobileTab('panel')}
+                    className={`min-h-11 px-3 py-1 rounded-lg transition-colors flex items-center gap-1.5 cursor-pointer ${
+                      mobileTab === 'panel'
+                        ? 'bg-white text-emerald-600 shadow-xs'
+                        : 'text-slate-500 hover:text-slate-700'
+                    }`}
+                  >
+                    <Swords className="w-3.5 h-3.5 text-emerald-500" />
+                    <span>Kıyaslama</span>
+                  </button>
+                </div>
+              )}
+
+              {/* Right: Audio / Clear / Close Buttons */}
+              <div className="flex items-center gap-1 sm:gap-2 text-xs font-medium text-slate-500 shrink-0">
                 <button
                   type="button"
                   onClick={() => {
                     if (!isMuted) stopSpeaking();
                     setIsMuted(!isMuted);
                   }}
-                  className="flex items-center gap-1.5 px-2.5 py-1.5 rounded-full hover:bg-slate-100 transition-colors min-h-[44px] cursor-pointer"
+                  className="flex items-center gap-1 px-2 py-1.5 rounded-full hover:bg-slate-100 transition-colors min-h-[44px] cursor-pointer"
                   title={isMuted ? 'Sesi Aç' : 'Sesi Kapat'}
                 >
-                  {isMuted ? <VolumeX className="w-4 h-4 text-slate-400" /> : <Volume2 className="w-4 h-4 text-cyan-600" />}
+                  {isMuted ? <VolumeX className="w-3.5 h-3.5 text-slate-400" /> : <Volume2 className="w-3.5 h-3.5 text-cyan-600" />}
                   <span className="hidden md:inline">{isMuted ? 'Sessiz' : 'Ses Açık'}</span>
                 </button>
 
                 <button
                   type="button"
                   onClick={handleClear}
-                  className="flex items-center gap-1.5 px-2.5 py-1.5 rounded-full hover:bg-slate-100 text-slate-500 hover:text-slate-900 transition-colors min-h-[44px] cursor-pointer"
-                  title="Sohbeti Sıfırla"
+                  className="flex items-center gap-1 px-2 py-1.5 rounded-full hover:bg-slate-100 text-slate-500 hover:text-slate-900 transition-colors min-h-[44px] cursor-pointer"
+                  title="Sohbeti Temizle"
                 >
-                  <Trash2 className="w-4 h-4" />
+                  <Trash2 className="w-3.5 h-3.5" />
                   <span className="hidden md:inline">Temizle</span>
                 </button>
 
                 <button
                   type="button"
                   onClick={handleClear}
-                  className="p-2 rounded-full hover:bg-slate-100 text-slate-400 hover:text-slate-700 transition-colors min-h-[44px] min-w-[44px] flex items-center justify-center cursor-pointer"
+                  className="p-1.5 rounded-full hover:bg-slate-100 text-slate-400 hover:text-slate-700 transition-colors min-h-[44px] min-w-[44px] flex items-center justify-center cursor-pointer"
                   title="Kapat / Sıfırla"
                 >
                   <X className="w-4 h-4" />
@@ -806,493 +906,517 @@ export function ChoiceAAntiGravityLanding() {
               </div>
             </div>
 
-            {/* Notification Banner if Side Comparison Page is Active */}
-            {sideComparison && (
-              <div className="mb-4 p-3 rounded-2xl bg-cyan-50/80 border border-cyan-200/80 flex items-center justify-between gap-2 text-xs">
-                <div className="flex items-center gap-2 min-w-0">
-                  <span className="text-base shrink-0">⚔️</span>
-                  <span className="font-bold text-slate-900 truncate">
-                    Karşılaştırma Paneli Yana Açıldı: <strong className="text-cyan-700">{sideComparison.scenario}</strong>
-                  </span>
-                </div>
-                <div className="flex items-center gap-1.5 shrink-0">
-                  <button
-                    onClick={() => setIsSidePanelOpen(true)}
-                    className="px-2.5 py-1 rounded-lg bg-cyan-600 hover:bg-cyan-700 text-white font-bold transition-all shadow-xs cursor-pointer"
-                  >
-                    Görüntüle ↗
-                  </button>
-                  <a
-                    href={getComparePageUrl(sideComparison)}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="hidden sm:inline-flex items-center gap-1 px-2.5 py-1 rounded-lg bg-slate-900 hover:bg-slate-800 text-white font-bold transition-all"
-                  >
-                    <span>Yeni Sekmede Aç</span>
-                    <ExternalLink className="w-3 h-3" />
-                  </a>
-                </div>
-              </div>
-            )}
-
-            {/* Center Section: Initial Screen (Disc + Emblem + 4 Pills) OR Live AI Chat */}
-            {!currentPrompt && !streamingResponse ? (
-              <div className="text-center my-4 sm:my-6">
+            {/* Split View Body: Left = Chat, Right = Kıyaslama Paneli (When hasPanel is true) */}
+            <div className={`flex flex-col lg:flex-row overflow-hidden ${hasPanel ? 'min-h-[580px] lg:h-[660px]' : ''}`}>
+              
+              {/* =================================================================== */}
+              {/* SOL SÜTUN: SOHBET & ETKİLEŞİM ALANI                                */}
+              {/* =================================================================== */}
+              <div
+                className={`flex flex-col transition-all duration-200 ${
+                  hasPanel
+                    ? 'w-full lg:w-[420px] xl:w-[460px] shrink-0 lg:border-r border-slate-100 p-2 sm:p-4'
+                    : 'w-full p-4 sm:p-6'
+                } ${hasPanel && mobileTab === 'panel' ? 'hidden lg:flex' : 'flex'}`}
+              >
                 
-                {/* 3D Circular Glowing Bevel Disc */}
-                <div className="relative inline-flex items-center justify-center w-28 h-28 sm:w-32 sm:h-32 rounded-full bg-gradient-to-b from-sky-100 via-cyan-50 to-blue-100/70 border-2 border-sky-200/90 shadow-[0_12px_35px_rgba(0,163,255,0.22)] mb-4 group">
-                  <div className="relative w-16 h-16 sm:w-20 sm:h-20 flex items-center justify-center">
-                    <Image
-                      src="/images/robopengu_cyber_heart.png"
-                      alt="RoboPengu Cyber Heart Emblem"
-                      width={80}
-                      height={80}
-                      className="object-contain filter drop-shadow-[0_4px_12px_rgba(0,163,255,0.4)] group-hover:scale-105 transition-transform duration-300"
-                    />
-                  </div>
-                </div>
-
-                {/* Title & Subtitle */}
-                <h1 className="text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight mb-1">
-                  RoboPengu
-                </h1>
-                <p className="text-xs sm:text-sm font-medium text-slate-500 tracking-wide mb-8">
-                  aceleetme.tech Baş Teknoloji Danışmanı
-                </p>
-
-                {/* 4 Suggestion Pills (Arranged in 2 neat rows, matching screenshot) */}
-                <div className="max-w-xl mx-auto space-y-2.5 mb-8">
-                  <div className="flex flex-wrap items-center justify-center gap-2.5">
-                    <button
-                      type="button"
-                      onClick={() => handleAskRoboPengu('iPhone 16 Pro Max vs S24 Ultra')}
-                      className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white border border-slate-200 text-xs sm:text-sm font-medium text-slate-700 hover:border-cyan-400 hover:text-cyan-600 hover:shadow-xs transition-all min-h-[44px] cursor-pointer"
-                    >
-                      <span>📱 iPhone 16 Pro Max vs S24 Ultra</span>
-                    </button>
-                    <button
-                      type="button"
-                      onClick={() => handleAskRoboPengu('En iyi OLED TV hangisi?')}
-                      className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white border border-slate-200 text-xs sm:text-sm font-medium text-slate-700 hover:border-cyan-400 hover:text-cyan-600 hover:shadow-xs transition-all min-h-[44px] cursor-pointer"
-                    >
-                      <span>📺 En iyi OLED TV hangisi?</span>
-                    </button>
-                  </div>
-
-                  <div className="flex flex-wrap items-center justify-center gap-2.5">
-                    <button
-                      type="button"
-                      onClick={() => handleAskRoboPengu('F/P laptop tavsiyesi')}
-                      className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white border border-slate-200 text-xs sm:text-sm font-medium text-slate-700 hover:border-cyan-400 hover:text-cyan-600 hover:shadow-xs transition-all min-h-[44px] cursor-pointer"
-                    >
-                      <span>💻 F/P laptop tavsiyesi</span>
-                    </button>
-                    <button
-                      type="button"
-                      onClick={() => handleAskRoboPengu('ANC kulaklık önerisi')}
-                      className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white border border-slate-200 text-xs sm:text-sm font-medium text-slate-700 hover:border-cyan-400 hover:text-cyan-600 hover:shadow-xs transition-all min-h-[44px] cursor-pointer"
-                    >
-                      <span>🎧 ANC kulaklık önerisi</span>
-                    </button>
-                  </div>
-                </div>
-
-              </div>
-            ) : (
-              /* Live Dynamic AI Assistant Conversation Box */
-              <div className="my-4 space-y-4 animate-fadeIn">
-                
-                {/* User Prompt Bubble */}
-                <div className="flex items-start justify-end gap-2">
-                  <div className="px-4 py-2.5 rounded-2xl rounded-tr-xs bg-slate-900 text-white text-xs sm:text-sm font-medium max-w-[85%] shadow-sm">
-                    {currentPrompt}
-                  </div>
-                </div>
-
-                {/* RoboPengu AI Response Box */}
-                <div className="p-4 sm:p-5 rounded-2xl bg-gradient-to-br from-slate-50 to-cyan-50/30 border border-cyan-100 space-y-3">
-                  <div className="flex items-center justify-between pb-2 border-b border-cyan-100">
-                    <div className="flex items-center gap-2">
-                      <div className="w-5 h-5 rounded-full bg-cyan-500 flex items-center justify-center text-white text-[10px] font-bold">
-                        RP
+                {/* Initial Welcome Screen (Disc + 4 Pills) if no active question */}
+                {!currentPrompt && !streamingResponse ? (
+                  <div className="text-center my-auto py-6 sm:py-8">
+                    {/* 3D Circular Glowing Bevel Disc */}
+                    <div className="relative inline-flex items-center justify-center w-28 h-28 sm:w-32 sm:h-32 rounded-full bg-gradient-to-b from-sky-100 via-cyan-50 to-blue-100/70 border-2 border-sky-200/90 shadow-[0_12px_35px_rgba(0,163,255,0.22)] mb-4 group">
+                      <div className="relative w-16 h-16 sm:w-20 sm:h-20 flex items-center justify-center">
+                        <Image
+                          src="/images/robopengu_cyber_heart.png"
+                          alt="RoboPengu Cyber Heart Emblem"
+                          width={80}
+                          height={80}
+                          className="object-contain filter drop-shadow-[0_4px_12px_rgba(0,163,255,0.4)] group-hover:scale-105 transition-transform duration-300"
+                        />
                       </div>
-                      <span className="text-xs font-bold text-slate-800">RoboPengu AI Danışman</span>
                     </div>
-                    {isAnalyzing && (
-                      <span className="inline-flex items-center gap-1.5 text-xs text-cyan-600 font-semibold animate-pulse">
-                        <Loader2 className="w-3.5 h-3.5 animate-spin" />
-                        <span>Analiz ediliyor...</span>
-                      </span>
-                    )}
-                  </div>
 
-                  {/* AI Response Text (Formatted & Clean) */}
-                  <div className="text-xs sm:text-sm text-slate-800 leading-relaxed space-y-2 whitespace-pre-wrap">
-                    {streamingResponse || (
-                      <div className="flex items-center gap-2 text-slate-400 py-2">
-                        <div className="w-2 h-2 rounded-full bg-cyan-500 animate-ping" />
-                        <span>Katalog verileri taranıyor, yanıt hazırlanıyor...</span>
-                      </div>
-                    )}
-                  </div>
+                    <h1 className="text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight mb-1">
+                      RoboPengu
+                    </h1>
+                    <p className="text-xs sm:text-sm font-medium text-slate-500 tracking-wide mb-6 sm:mb-8">
+                      aceleetme.tech Baş Teknoloji Danışmanı
+                    </p>
 
-                  {/* If Side Comparison Exists, Show Action CTA */}
-                  {sideComparison && (
-                    <div className="pt-3 border-t border-cyan-100 flex flex-wrap items-center justify-between gap-2">
-                      <div className="text-xs font-bold text-emerald-700 flex items-center gap-1.5">
-                        <Crown className="w-4 h-4 text-emerald-600" />
-                        <span>Kıyaslama Düellosu Yana Açıldı</span>
-                      </div>
-                      <div className="flex items-center gap-2">
+                    {/* 4 Suggestion Pills */}
+                    <div className="max-w-xl mx-auto space-y-2 mb-6">
+                      <div className="flex flex-wrap items-center justify-center gap-2">
                         <button
                           type="button"
-                          onClick={() => setIsSidePanelOpen(true)}
-                          className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-cyan-600 hover:bg-cyan-700 text-white text-xs font-bold transition-all shadow-xs cursor-pointer"
+                          onClick={() => handleAskRoboPengu('iPhone 16 Pro Max vs S24 Ultra')}
+                          className="inline-flex items-center gap-1.5 px-3.5 py-2 rounded-full bg-white border border-slate-200 text-xs sm:text-sm font-medium text-slate-700 hover:border-cyan-400 hover:text-cyan-600 hover:shadow-xs transition-all min-h-[44px] cursor-pointer"
                         >
-                          <Scale className="w-3.5 h-3.5" />
-                          <span>Kıyaslama Panelini Aç</span>
+                          <span>📱 iPhone 16 Pro Max vs S24 Ultra</span>
                         </button>
-                        <a
-                          href={getComparePageUrl(sideComparison)}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-slate-900 hover:bg-slate-800 text-white text-xs font-bold transition-all"
+                        <button
+                          type="button"
+                          onClick={() => handleAskRoboPengu('En iyi OLED TV hangisi?')}
+                          className="inline-flex items-center gap-1.5 px-3.5 py-2 rounded-full bg-white border border-slate-200 text-xs sm:text-sm font-medium text-slate-700 hover:border-cyan-400 hover:text-cyan-600 hover:shadow-xs transition-all min-h-[44px] cursor-pointer"
                         >
-                          <span>Yeni Sekmede Aç</span>
-                          <ExternalLink className="w-3.5 h-3.5" />
-                        </a>
+                          <span>📺 En iyi OLED TV hangisi?</span>
+                        </button>
+                      </div>
+
+                      <div className="flex flex-wrap items-center justify-center gap-2">
+                        <button
+                          type="button"
+                          onClick={() => handleAskRoboPengu('F/P laptop tavsiyesi')}
+                          className="inline-flex items-center gap-1.5 px-3.5 py-2 rounded-full bg-white border border-slate-200 text-xs sm:text-sm font-medium text-slate-700 hover:border-cyan-400 hover:text-cyan-600 hover:shadow-xs transition-all min-h-[44px] cursor-pointer"
+                        >
+                          <span>💻 F/P laptop tavsiyesi</span>
+                        </button>
+                        <button
+                          type="button"
+                          onClick={() => handleAskRoboPengu('ANC kulaklık önerisi')}
+                          className="inline-flex items-center gap-1.5 px-3.5 py-2 rounded-full bg-white border border-slate-200 text-xs sm:text-sm font-medium text-slate-700 hover:border-cyan-400 hover:text-cyan-600 hover:shadow-xs transition-all min-h-[44px] cursor-pointer"
+                        >
+                          <span>🎧 ANC kulaklık önerisi</span>
+                        </button>
                       </div>
                     </div>
-                  )}
-
-                  {/* If Recommendations are present, show product cards */}
-                  {recommendations && recommendations.length > 0 && (
-                    <div className="pt-3 border-t border-cyan-100 space-y-2">
-                      <span className="text-[11px] font-bold text-slate-500 uppercase tracking-wider block">
-                        Önerilen Doğrulanmış Ürünler:
-                      </span>
-                      <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
-                        {recommendations.slice(0, 2).map((rec, rIdx) => (
-                          <div key={rIdx} className="p-2.5 rounded-xl bg-white border border-slate-200/80 flex items-center gap-3">
-                            <div className="w-12 h-12 relative shrink-0">
-                              <ProductImage
-                                src={rec.image || getFallbackProductImage(rec.productName, '', rec.category || '')}
-                                alt={rec.productName}
-                                variant="card"
-                                className="object-contain"
-                              />
-                            </div>
-                            <div className="min-w-0 flex-1">
-                              <h4 className="text-xs font-bold text-slate-900 truncate">{rec.productName}</h4>
-                              <div className="flex items-center justify-between mt-1">
-                                <span className="text-xs font-extrabold text-emerald-600">
-                                  ₺{rec.price ? rec.price.toLocaleString('tr-TR') : 'Fiyat Belirtilmedi'}
-                                </span>
-                                {rec.cheapestStore && (
-                                  <span className="text-[10px] font-medium text-slate-500">{rec.cheapestStore}</span>
-                                )}
-                              </div>
-                            </div>
-                          </div>
-                        ))}
+                  </div>
+                ) : (
+                  /* Active Multi-Turn Chat History (Matching Screenshot media_1790630287346.png) */
+                  <div className="flex-1 overflow-y-auto space-y-3.5 p-1 pr-2 max-h-[460px] overscroll-contain">
+                    
+                    {/* Welcome greeting bubble from RoboPengu */}
+                    <div className="flex items-start gap-2.5">
+                      <div className="w-6 h-6 rounded-full bg-slate-900 flex items-center justify-center text-[10px] text-white shrink-0 mt-0.5">
+                        🐧
                       </div>
-                    </div>
-                  )}
-
-                  {/* Quick Action: New Question */}
-                  <div className="flex justify-end pt-2">
-                    <button
-                      type="button"
-                      onClick={handleClear}
-                      className="text-xs text-slate-400 hover:text-slate-800 underline font-medium cursor-pointer"
-                    >
-                      Yeni Soru Sor / Temizle
-                    </button>
-                  </div>
-                </div>
-
-              </div>
-            )}
-
-            {/* Bottom Input Console Bar (Sky Blue Pill Border - 1:1 Match) */}
-            <form
-              onSubmit={(e) => {
-                e.preventDefault();
-                if (inputQuery.trim()) handleAskRoboPengu(inputQuery);
-              }}
-              className="relative flex items-center w-full rounded-full border-2 border-[#60a5fa] bg-white shadow-xs focus-within:ring-4 focus-within:ring-cyan-500/10 transition-all p-1.5 min-h-[52px]"
-            >
-              <input
-                type="text"
-                value={inputQuery}
-                onChange={(e) => setInputQuery(e.target.value)}
-                placeholder="RoboPengu'ya bir ürün, bütçe veya kıyaslama sor..."
-                className="w-full bg-transparent pl-4 sm:pl-5 pr-20 sm:pr-24 text-xs sm:text-base text-slate-900 placeholder-slate-400 focus:outline-none font-medium min-h-[44px]"
-              />
-
-              <div className="absolute right-2 flex items-center gap-1.5 sm:gap-2">
-                <button
-                  type="button"
-                  onClick={toggleListening}
-                  className={`p-2 rounded-full transition-colors min-w-[44px] min-h-[44px] flex items-center justify-center cursor-pointer ${
-                    isListening ? 'bg-red-50 text-red-600 animate-pulse' : 'text-slate-500 hover:text-cyan-600'
-                  }`}
-                  title={isListening ? 'Dinlemeyi Durdur' : 'Sesli Sor'}
-                >
-                  {isListening ? <MicOff className="w-4 h-4 sm:w-5 sm:h-5" /> : <Mic className="w-4 h-4 sm:w-5 sm:h-5" />}
-                </button>
-
-                <button
-                  type="submit"
-                  disabled={isAnalyzing}
-                  className="flex items-center justify-center w-9 h-9 sm:w-10 sm:h-10 rounded-full bg-gradient-to-tr from-cyan-400 to-blue-500 hover:from-cyan-300 hover:to-blue-400 text-white shadow-xs transition-transform hover:scale-105 active:scale-95 cursor-pointer disabled:opacity-50"
-                  title="Soruyu Gönder"
-                >
-                  {isAnalyzing ? (
-                    <Loader2 className="w-4 h-4 animate-spin text-white" />
-                  ) : (
-                    /* Live Audio Spectrum Equalizer Waveform Bars */
-                    <div className="flex items-center gap-0.5">
-                      <span className="w-0.5 bg-white rounded-full animate-wave-1 h-3" />
-                      <span className="w-0.5 bg-white rounded-full animate-wave-2 h-4" />
-                      <span className="w-0.5 bg-white rounded-full animate-wave-3 h-2" />
-                      <span className="w-0.5 bg-white rounded-full animate-wave-4 h-3.5" />
-                    </div>
-                  )}
-                </button>
-              </div>
-            </form>
-
-          </div>
-
-        </div>
-
-        {/* ========================================================================= */}
-        {/* 2. SIDE COMPARISON PAGE / DRAWER ("yana yeni sayfa açılması")              */}
-        {/* MOBILE-INTEGRATED FULL SHEET & DESKTOP SLIDE-OVER DRAWER WITH FRAMER MOTION*/}
-        {/* ========================================================================= */}
-        <AnimatePresence>
-          {sideComparison && isSidePanelOpen && (
-            <>
-              {/* Backdrop Blur Overlay */}
-              <motion.div
-                initial={{ opacity: 0 }}
-                animate={{ opacity: 1 }}
-                exit={{ opacity: 0 }}
-                transition={{ duration: 0.25 }}
-                className="fixed inset-0 bg-slate-950/50 backdrop-blur-xs z-50 transition-opacity"
-                onClick={() => setIsSidePanelOpen(false)}
-              />
-
-              {/* Responsive Slide-In Drawer from Right (Mobile Sheet + Desktop Drawer) */}
-              <motion.aside
-                initial={{ x: '100%' }}
-                animate={{ x: 0 }}
-                exit={{ x: '100%' }}
-                transition={{ type: 'spring', damping: 28, stiffness: 260 }}
-                className="fixed inset-y-0 right-0 w-full sm:w-[540px] md:w-[620px] lg:w-[680px] bg-white/98 backdrop-blur-2xl shadow-[-25px_0_70px_rgba(0,0,0,0.25)] z-50 border-l border-slate-200 flex flex-col h-[100dvh]"
-              >
-                {/* Mobile Pull Handle (Visual affordance on phones) */}
-                <div className="w-12 h-1.5 bg-slate-300 rounded-full mx-auto my-2 sm:hidden shrink-0" />
-
-                {/* Drawer Top Header Bar */}
-                <div className="bg-white/95 backdrop-blur-md px-4 sm:px-6 py-3 sm:py-4 border-b border-slate-100 flex items-center justify-between gap-3 shadow-xs shrink-0">
-                  <div className="min-w-0 flex-1">
-                    <div className="flex items-center gap-1.5 text-[11px] font-bold text-cyan-600 uppercase tracking-wider">
-                      <Scale className="w-3.5 h-3.5 shrink-0" />
-                      <span>Canlı Ürün Düellosu & Kıyaslama</span>
-                    </div>
-                    <h3 className="text-sm sm:text-base md:text-lg font-black text-slate-900 truncate">
-                      {sideComparison.scenario}
-                    </h3>
-                  </div>
-
-                  <div className="flex items-center gap-2 shrink-0">
-                    {/* Direct "Yeni Sekmede Aç ↗" Button */}
-                    <a
-                      href={getComparePageUrl(sideComparison)}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-slate-900 hover:bg-cyan-600 text-white text-xs font-bold transition-colors min-h-[38px] shadow-xs"
-                      title="Bu karşılaştırmayı yeni sekmede tam ekran aç"
-                    >
-                      <span>Yeni Sekmede Aç</span>
-                      <ExternalLink className="w-3.5 h-3.5" />
-                    </a>
-
-                    {/* Close Button */}
-                    <button
-                      type="button"
-                      onClick={() => setIsSidePanelOpen(false)}
-                      className="p-2 rounded-xl text-slate-400 hover:text-slate-900 hover:bg-slate-100 transition-colors min-h-[38px] min-w-[38px] flex items-center justify-center cursor-pointer"
-                      title="Kapat"
-                    >
-                      <X className="w-5 h-5" />
-                    </button>
-                  </div>
-                </div>
-
-                {/* Drawer Main Body with Smooth Touch Scrolling */}
-                <div className="p-4 sm:p-6 space-y-5 sm:space-y-6 flex-1 overflow-y-auto overscroll-contain">
-                  
-                  {/* 1. ROBO PENGU WINNER DECISION CARD */}
-                  {sideComparison.winner && (
-                    <div className="rounded-2xl bg-gradient-to-r from-emerald-500/10 via-slate-50 to-slate-50 border border-emerald-300/80 p-4 sm:p-5 shadow-xs">
-                      <div className="flex items-start gap-3">
-                        <div className="w-10 h-10 rounded-xl bg-emerald-500/20 text-emerald-600 flex items-center justify-center text-xl shrink-0 border border-emerald-500/30">
-                          👑
+                      <div className="flex-1 space-y-1">
+                        <div className="p-3 rounded-2xl rounded-tl-xs bg-slate-100/90 text-slate-800 text-xs leading-relaxed border border-slate-200/60 shadow-2xs">
+                          Merhaba! Ben RoboPengu. Ürünleri kayıtlı özellikleriyle karşılaştırmana ve fiyatların doğrulama durumunu incelemene yardımcı olabilirim. 🐧
                         </div>
-                        <div className="flex-1 min-w-0">
-                          <div className="text-[10px] sm:text-[11px] font-black uppercase tracking-wider text-emerald-700 mb-0.5">
-                            ROBO PENGU TEKNOLOJİ KARARI
-                          </div>
-                          <div className="text-sm sm:text-base font-extrabold text-slate-900 mb-2">
-                            Kazanan: <span className="text-emerald-600">{sideComparison.winner.productName}</span>
-                          </div>
-                          <div className="space-y-1.5">
-                            {sideComparison.winner.reasons.map((reason, rIdx) => (
-                              <div key={rIdx} className="flex items-start gap-2 text-xs text-slate-700">
-                                <CheckCircle2 className="w-3.5 h-3.5 text-emerald-600 shrink-0 mt-0.5" />
-                                <span>{reason}</span>
-                              </div>
-                            ))}
+                        <div className="flex items-center justify-between text-[10px] text-slate-400 px-1">
+                          <button
+                            type="button"
+                            onClick={() => speakText("Merhaba! Ben RoboPengu. Ürünleri kayıtlı özellikleriyle karşılaştırmana yardımcı olabilirim.")}
+                            className="inline-flex items-center gap-1 text-emerald-600 hover:text-emerald-700 font-semibold"
+                          >
+                            <Volume2 className="w-3 h-3" />
+                            <span>Sesi Dinle</span>
+                          </button>
+                          <div className="flex items-center gap-1">
+                            <span>Yararlı mıydı?</span>
+                            <button type="button" className="hover:text-emerald-600">👍</button>
+                            <button type="button" className="hover:text-rose-600">👎</button>
                           </div>
                         </div>
                       </div>
                     </div>
-                  )}
 
-                  {/* 2. SIDE-BY-SIDE PRODUCT CARDS (APPLE STUDIO AESTHETIC) */}
-                  <div className="grid grid-cols-2 gap-2.5 sm:gap-4">
-                    {sideComparison.products.map((p, idx) => {
-                      const isWinner = sideComparison.winner?.productId === p.id;
-                      return (
-                        <div
-                          key={p.id || idx}
-                          className={`relative p-3 sm:p-4 rounded-2xl border transition-all flex flex-col justify-between ${
-                            isWinner
-                              ? 'bg-emerald-500/5 border-emerald-400 shadow-md shadow-emerald-500/5 ring-2 ring-emerald-500/20'
-                              : 'bg-slate-50/70 border-slate-200/80'
-                          }`}
-                        >
-                          {isWinner && (
-                            <div className="absolute -top-2.5 right-2 sm:right-3 bg-gradient-to-r from-emerald-500 to-teal-500 text-white text-[9px] sm:text-[10px] font-black px-2 py-0.5 rounded-full shadow-sm flex items-center gap-1 uppercase tracking-wider">
-                              <span>👑</span>
-                              <span className="hidden xs:inline">PENGU SEÇİMİ</span>
+                    {/* User Prompt Pill Bubble */}
+                    <div className="flex justify-end">
+                      <div className="px-4 py-2 rounded-2xl rounded-tr-xs bg-gradient-to-r from-emerald-600 to-teal-600 text-white text-xs font-semibold shadow-xs max-w-[85%]">
+                        {currentPrompt}
+                      </div>
+                    </div>
+
+                    {/* Bot Answer Bubble */}
+                    <div className="flex items-start gap-2.5">
+                      <div className="w-6 h-6 rounded-full bg-slate-900 flex items-center justify-center text-[10px] text-white shrink-0 mt-0.5">
+                        🐧
+                      </div>
+                      <div className="flex-1 space-y-1">
+                        <div className="p-3 rounded-2xl rounded-tl-xs bg-white text-slate-800 text-xs leading-relaxed border border-slate-200/80 shadow-2xs space-y-2">
+                          {streamingResponse || (
+                            <div className="flex items-center gap-2 text-slate-400 py-1">
+                              <Loader2 className="w-3.5 h-3.5 animate-spin text-cyan-600" />
+                              <span>Katalog verileri taranıyor...</span>
                             </div>
                           )}
+                        </div>
+                        <div className="flex items-center justify-between text-[10px] text-slate-400 px-1">
+                          <button
+                            type="button"
+                            onClick={() => speakText(streamingResponse)}
+                            className="inline-flex items-center gap-1 text-emerald-600 hover:text-emerald-700 font-semibold"
+                          >
+                            <Volume2 className="w-3 h-3" />
+                            <span>Sesi Dinle</span>
+                          </button>
+                          <div className="flex items-center gap-1">
+                            <span>Yararlı mıydı?</span>
+                            <button type="button" className="hover:text-emerald-600">👍</button>
+                            <button type="button" className="hover:text-rose-600">👎</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
 
+                    {/* ✨ ROBOPENGU'YA SORABİLİRSİN Suggestion Chips */}
+                    <div className="pt-2 space-y-1.5">
+                      <div className="text-[10px] font-bold text-slate-400 uppercase tracking-wider flex items-center gap-1">
+                        <Sparkles className="w-3 h-3 text-cyan-500" />
+                        <span>ROBOPENGU'YA SORABİLİRSİN:</span>
+                      </div>
+                      <div className="flex flex-wrap gap-1.5">
+                        <button
+                          type="button"
+                          onClick={() => handleAskRoboPengu(`${currentPrompt} oyun ve ısınma durumu nasıl?`)}
+                          className="px-2.5 py-1 rounded-lg bg-slate-50 hover:bg-cyan-50 text-slate-700 hover:text-cyan-700 border border-slate-200 text-[11px] font-medium transition-colors"
+                        >
+                          🎮 Oyun & Isınma durumu?
+                        </button>
+                        <button
+                          type="button"
+                          onClick={() => handleAskRoboPengu(`${currentPrompt} gece kamerası performansı nasıl?`)}
+                          className="px-2.5 py-1 rounded-lg bg-slate-50 hover:bg-cyan-50 text-slate-700 hover:text-cyan-700 border border-slate-200 text-[11px] font-medium transition-colors"
+                        >
+                          📷 Gece kamerası kıyas?
+                        </button>
+                        <button
+                          type="button"
+                          onClick={() => handleAskRoboPengu(`${currentPrompt} için daha uygun F/P alternatif var mı?`)}
+                          className="px-2.5 py-1 rounded-lg bg-slate-50 hover:bg-cyan-50 text-slate-700 hover:text-cyan-700 border border-slate-200 text-[11px] font-medium transition-colors"
+                        >
+                          🏆 Daha F/P alternatif var mı?
+                        </button>
+                      </div>
+                    </div>
+
+                    {/* Quick Filter Action Pills */}
+                    <div className="flex flex-wrap gap-1.5 pt-1">
+                      <button
+                        type="button"
+                        onClick={() => handleAskRoboPengu('30.000 TL bütçe ile en iyi telefon önerisi')}
+                        className="px-2.5 py-1 rounded-lg bg-white hover:bg-slate-50 text-slate-700 border border-slate-200 text-[11px] font-medium transition-colors"
+                      >
+                        💰 Bütçe Önerisi Al
+                      </button>
+                      <button
+                        type="button"
+                        onClick={() => handleAskRoboPengu('iPhone 16 Pro Max vs S24 Ultra')}
+                        className="px-2.5 py-1 rounded-lg bg-white hover:bg-slate-50 text-slate-700 border border-slate-200 text-[11px] font-medium transition-colors"
+                      >
+                        ⚔️ Spesifik Model Kıyasla
+                      </button>
+                      <button
+                        type="button"
+                        onClick={() => handleAskRoboPengu('En çok fiyatı düşen teknoloji ürünleri')}
+                        className="px-2.5 py-1 rounded-lg bg-white hover:bg-slate-50 text-slate-700 border border-slate-200 text-[11px] font-medium transition-colors"
+                      >
+                        📈 Fiyat Takip Grafiği
+                      </button>
+                    </div>
+
+                  </div>
+                )}
+
+                {/* Bottom Input Console Bar */}
+                <form
+                  onSubmit={(e) => {
+                    e.preventDefault();
+                    if (inputQuery.trim()) handleAskRoboPengu(inputQuery);
+                  }}
+                  className="mt-auto pt-3 relative flex items-center w-full"
+                >
+                  <div className="relative flex items-center w-full rounded-full border-2 border-[#60a5fa] bg-white shadow-xs focus-within:ring-4 focus-within:ring-cyan-500/10 transition-all p-1 min-h-[48px]">
+                    <input
+                      type="text"
+                      value={inputQuery}
+                      onChange={(e) => setInputQuery(e.target.value)}
+                      placeholder="RoboPengu'ya sorun"
+                      className="w-full bg-transparent pl-4 pr-20 text-xs sm:text-sm text-slate-900 placeholder-slate-400 focus:outline-none font-medium min-h-[40px]"
+                    />
+
+                    <div className="absolute right-1.5 flex items-center gap-1.5">
+                      <button
+                        type="button"
+                        onClick={toggleListening}
+                        className={`p-1.5 rounded-full transition-colors min-w-[36px] min-h-[36px] flex items-center justify-center cursor-pointer ${
+                          isListening ? 'bg-red-50 text-red-600 animate-pulse' : 'text-slate-500 hover:text-cyan-600'
+                        }`}
+                        title={isListening ? 'Dinlemeyi Durdur' : 'Sesli Sor'}
+                      >
+                        {isListening ? <MicOff className="w-4 h-4" /> : <Mic className="w-4 h-4" />}
+                      </button>
+
+                      <button
+                        type="submit"
+                        disabled={isAnalyzing}
+                        className="flex items-center justify-center w-8 h-8 sm:w-9 sm:h-9 rounded-full bg-gradient-to-tr from-cyan-400 to-blue-500 hover:from-cyan-300 hover:to-blue-400 text-white shadow-xs transition-transform hover:scale-105 active:scale-95 cursor-pointer disabled:opacity-50"
+                        title="Soruyu Gönder"
+                      >
+                        {isAnalyzing ? (
+                          <Loader2 className="w-3.5 h-3.5 animate-spin text-white" />
+                        ) : (
+                          /* Equalizer Waveform Bars */
+                          <div className="flex items-center gap-0.5">
+                            <span className="w-0.5 bg-white rounded-full animate-wave-1 h-2.5" />
+                            <span className="w-0.5 bg-white rounded-full animate-wave-2 h-3.5" />
+                            <span className="w-0.5 bg-white rounded-full animate-wave-3 h-2" />
+                            <span className="w-0.5 bg-white rounded-full animate-wave-4 h-3" />
+                          </div>
+                        )}
+                      </button>
+                    </div>
+                  </div>
+                </form>
+
+              </div>
+
+              {/* =================================================================== */}
+              {/* SAĞ SÜTUN: YANA AÇILAN KIYASLAMA EKRANI (EXACT MATCH FOR SCREENSHOT)  */}
+              {/* =================================================================== */}
+              {hasPanel && (
+                <div
+                  className={`flex-1 flex flex-col bg-slate-50/50 overflow-hidden ${
+                    mobileTab === 'chat' ? 'hidden lg:flex' : 'flex'
+                  }`}
+                >
+                  {/* Karşılaştırma Paneli Üst Barı */}
+                  <div className="px-4 sm:px-6 py-2.5 border-b border-slate-200/80 bg-white flex items-center justify-between gap-3 shrink-0">
+                    <div className="flex items-center gap-2 min-w-0">
+                      <span className="p-1 rounded-lg bg-emerald-100 text-emerald-600 shrink-0">
+                        <Swords className="w-4 h-4" />
+                      </span>
+                      <div className="min-w-0">
+                        <h4 className="font-bold text-xs sm:text-sm text-slate-800 truncate">
+                          Karşılaştırma Paneli
+                        </h4>
+                        <p className="text-[10px] text-slate-500 truncate hidden sm:block">
+                          {sideComparison.scenario}
+                        </p>
+                      </div>
+                    </div>
+
+                    <div className="flex items-center gap-2 shrink-0">
+                      {/* "Düelloya Git ⚔" Butonu (Yeni Sekmede Aç) */}
+                      <a
+                        href={getComparePageUrl(sideComparison)}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="px-3 py-1.5 bg-gradient-to-r from-emerald-600 to-teal-600 hover:from-emerald-500 hover:to-teal-500 text-white rounded-lg text-xs font-bold transition flex items-center gap-1.5 shadow-xs cursor-pointer min-h-[38px]"
+                        title="Bu karşılaştırmayı yeni sekmede tam ekran aç"
+                      >
+                        <span>Düelloya Git</span>
+                        <Swords className="w-3.5 h-3.5" />
+                      </a>
+
+                      {/* Paneli Kapat Butonu */}
+                      <button
+                        type="button"
+                        onClick={() => {
+                          setSideComparison(null);
+                          setMobileTab('chat');
+                        }}
+                        className="text-slate-400 hover:text-slate-700 min-h-[38px] px-2 py-1 text-xs font-semibold rounded-lg hover:bg-slate-100 transition cursor-pointer flex items-center gap-1 shrink-0"
+                        title="Paneli Kapat"
+                      >
+                        <X className="w-4 h-4" />
+                        <span className="hidden sm:inline">Kapat</span>
+                      </button>
+                    </div>
+                  </div>
+
+                  {/* Kaydırılabilir Karşılaştırma İçeriği */}
+                  <div className="flex-1 overflow-y-auto p-4 sm:p-5 space-y-4 overscroll-contain">
+                    
+                    {/* Durum / Doğrulama Uyarısı veya Kazanan Rozeti */}
+                    {sideComparison.winner ? (
+                      <div className="rounded-2xl bg-gradient-to-r from-emerald-500/10 via-slate-50 to-slate-50 border border-emerald-300/80 p-3.5 sm:p-4 shadow-xs">
+                        <div className="flex items-start gap-2.5">
+                          <div className="w-8 h-8 rounded-xl bg-emerald-500/20 text-emerald-600 flex items-center justify-center text-lg shrink-0 border border-emerald-500/30">
+                            👑
+                          </div>
+                          <div className="flex-1 min-w-0">
+                            <div className="text-[10px] font-black uppercase tracking-wider text-emerald-700 mb-0.5">
+                              ROBO PENGU TEKNOLOJİ KARARI
+                            </div>
+                            <div className="text-xs sm:text-sm font-extrabold text-slate-900 mb-1">
+                              • Kazanan: <span className="text-emerald-600">{sideComparison.winner.productName}</span>
+                            </div>
+                            <div className="space-y-1">
+                              {sideComparison.winner.reasons.map((reason, rIdx) => (
+                                <div key={rIdx} className="flex items-start gap-1.5 text-xs text-slate-700">
+                                  <CheckCircle2 className="w-3.5 h-3.5 text-emerald-600 shrink-0 mt-0.5" />
+                                  <span>{reason}</span>
+                                </div>
+                              ))}
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    ) : (
+                      <div role="status" className="p-3 rounded-xl bg-white border border-slate-200 text-xs text-slate-600 leading-relaxed">
+                        Genel kazananı belirlemek için yeterli doğrulanmış karşılaştırma verisi yok. Katalog değerleri bağımsız donanım testi değildir.
+                      </div>
+                    )}
+
+                    {/* Yan Yana 2 Ürün Kartı (Apple Studio Stili) */}
+                    <div className="grid grid-cols-2 gap-3 sm:gap-4">
+                      {sideComparison.products.map((p, idx) => (
+                        <div
+                          key={p.id || idx}
+                          className="relative p-3.5 rounded-2xl bg-white border border-slate-200/90 shadow-xs flex flex-col justify-between"
+                        >
                           <div>
-                            <div className="h-24 sm:h-32 w-full flex items-center justify-center mb-2 sm:mb-3">
+                            <div className="h-24 sm:h-28 w-full flex items-center justify-center mb-2">
                               <ProductImage
                                 src={p.image || getFallbackProductImage(p.name, p.brand, p.category || '')}
                                 alt={p.name}
                                 variant="card"
-                                className="max-h-full max-w-full object-contain drop-shadow-md"
+                                className="max-h-full max-w-full object-contain drop-shadow-sm"
                               />
                             </div>
 
                             <div className="text-[10px] font-bold text-slate-400 uppercase tracking-wider text-center">
                               {p.brand}
                             </div>
-                            <h4 className="text-xs sm:text-sm font-extrabold text-slate-900 text-center line-clamp-2 min-h-[32px] sm:min-h-[36px]">
+                            <h5 className="text-xs sm:text-sm font-bold text-slate-800 text-center line-clamp-2 min-h-[32px]">
                               {p.name}
-                            </h4>
+                            </h5>
 
-                            <div className="mt-2 text-center">
-                              <div className="text-sm sm:text-lg font-black text-slate-900">
-                                ₺{p.price ? p.price.toLocaleString('tr-TR') : 'Fiyat Doğrulanıyor'}
-                              </div>
+                            <div className="mt-1.5 flex flex-col items-center justify-center gap-0.5">
+                              {p.price && p.price > 0 ? (
+                                <span className="text-sm sm:text-base font-extrabold text-slate-900 font-mono">
+                                  ₺{p.price.toLocaleString('tr-TR')}
+                                </span>
+                              ) : (
+                                <span className="text-xs font-bold text-slate-500">Fiyat Doğrulanıyor</span>
+                              )}
+                              <span className="text-[10px] text-slate-400 text-center">
+                                {p.statusLabel || 'Katalog Referans Fiyatı'}
+                              </span>
                               {p.cheapestStore && (
-                                <span className="inline-block mt-1 text-[10px] sm:text-[11px] font-semibold text-emerald-600 bg-emerald-50 px-2 py-0.5 rounded-full border border-emerald-200/60 truncate max-w-full">
-                                  En Uygun: {p.cheapestStore}
+                                <span className="text-[10px] font-semibold text-emerald-600 bg-emerald-50 px-1.5 py-0.5 rounded">
+                                  {p.cheapestStore}
                                 </span>
                               )}
-                              {p.marketSaving && p.marketSaving > 0 ? (
-                                <div className="text-[9px] sm:text-[10px] text-emerald-700 font-bold mt-0.5">
-                                  ₺{p.marketSaving.toLocaleString('tr-TR')} Tasarruf
-                                </div>
-                              ) : null}
                             </div>
                           </div>
-                        </div>
-                      );
-                    })}
-                  </div>
 
-                  {/* 3. DETAILED SPECIFICATION COMPARISON MATRIX */}
-                  <div className="space-y-3">
-                    <div className="flex items-center justify-between">
-                      <h4 className="text-xs sm:text-sm font-extrabold text-slate-900">
-                        Teknik Donanım Karşılaştırma Tablosu
-                      </h4>
-                      <span className="text-[10px] sm:text-[11px] text-slate-400 font-medium">Doğrulanmış Katalog</span>
-                    </div>
-
-                    <div className="border border-slate-200/80 rounded-2xl overflow-hidden divide-y divide-slate-100 bg-white">
-                      {sideComparison.matrix && sideComparison.matrix.map((row, mIdx) => (
-                        <div
-                          key={mIdx}
-                          className={`p-2.5 sm:p-3 text-xs flex flex-col sm:flex-row sm:items-center justify-between gap-1.5 sm:gap-2 ${
-                            row.isDifferent ? 'bg-white' : 'bg-slate-50/50'
-                          }`}
-                        >
-                          <div className="sm:w-1/3 font-bold text-slate-600 flex items-center gap-1.5">
-                            {row.group && (
-                              <span className="text-[9px] uppercase font-black text-cyan-600 bg-cyan-50 px-1.5 py-0.5 rounded">
-                                {row.group}
-                              </span>
-                            )}
-                            <span className="text-xs">{row.label}</span>
-                          </div>
-
-                          <div className="sm:w-2/3 grid grid-cols-2 gap-1.5 sm:gap-2">
-                            {row.values.map((val, vIdx) => {
-                              const isSuperior = row.superiorIdx === vIdx;
-                              return (
-                                <div
-                                  key={vIdx}
-                                  className={`p-2 rounded-xl border text-[11px] sm:text-xs ${
-                                    isSuperior
-                                      ? 'bg-emerald-50/80 border-emerald-200 text-emerald-900 font-bold'
-                                      : 'bg-slate-50/60 border-slate-100 text-slate-700 font-medium'
-                                  }`}
-                                >
-                                  {isSuperior && <span className="text-emerald-600 mr-1">✓</span>}
-                                  <span>{val}</span>
-                                </div>
-                              );
-                            })}
+                          <div className="mt-3">
+                            <a
+                              href={getProductDetailUrl(p)}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="w-full min-h-[38px] py-1.5 px-2 bg-white hover:bg-slate-50 text-slate-700 border border-slate-200 rounded-xl text-[11px] font-bold transition flex items-center justify-center gap-1 shadow-2xs"
+                            >
+                              <span>🛒</span>
+                              <span>Ürün Detayını Aç</span>
+                            </a>
                           </div>
                         </div>
                       ))}
                     </div>
-                  </div>
 
-                  {/* 4. BOTTOM ACTION CTA (MOBILE FULL-WIDTH & DESKTOP ROW) */}
-                  <div className="p-4 rounded-2xl bg-slate-900 text-white flex flex-col sm:flex-row items-center justify-between gap-3 shadow-lg">
-                    <div className="text-center sm:text-left">
-                      <h5 className="text-sm font-bold">Daha Fazla Donanım İncelemesi?</h5>
-                      <p className="text-xs text-slate-400">Tüm mağaza fiyat geçmişi ve düello aracı için tam sayfayı açın.</p>
+                    {/* Kategori Bazlı Donanım Masası Akordeonu (📱 EKRAN, ⚡ İŞLEMCİ, vb.) */}
+                    <div className="space-y-3 pt-1">
+                      {(() => {
+                        const renderedRowIndices = new Set<number>();
+
+                        return groupDefs.map((cat) => {
+                          const catRows: { row: typeof sideComparison.matrix[0]; idx: number }[] = [];
+
+                          sideComparison.matrix.forEach((r, idx) => {
+                            if (renderedRowIndices.has(idx)) return;
+                            
+                            let matches = false;
+                            if (r.group) {
+                              matches = r.group === cat.key;
+                            } else {
+                              const l = r.label.toLowerCase();
+                              if (cat.key === 'processor') matches = l.includes('işlemci') || l.includes('ram') || l.includes('antutu') || l.includes('gpu') || l.includes('cpu');
+                              else if (cat.key === 'screen') matches = l.includes('ekran') || l.includes('panel') || l.includes('parlaklık') || l.includes('hz');
+                              else if (cat.key === 'camera') matches = l.includes('kamera') || l.includes('zoom') || l.includes('video') || l.includes('ses');
+                              else if (cat.key === 'battery') matches = l.includes('batarya') || l.includes('şarj') || l.includes('pil');
+                              else if (cat.key === 'build') matches = l.includes('kasa') || l.includes('ağırlık') || l.includes('malzeme');
+                              else if (cat.key === 'general') matches = true;
+                            }
+
+                            if (cat.key === 'general' && !matches && !r.group) {
+                              matches = true;
+                            }
+
+                            if (matches) {
+                              catRows.push({ row: r, idx });
+                              renderedRowIndices.add(idx);
+                            }
+                          });
+
+                          if (catRows.length === 0) return null;
+
+                          return (
+                            <div
+                              key={cat.key}
+                              className="rounded-2xl border border-slate-200/90 overflow-hidden bg-white shadow-2xs"
+                            >
+                              {/* Kategori Başlığı & Parametre Sayısı */}
+                              <div className="px-3.5 py-2.5 bg-slate-100/70 border-b border-slate-200/80 flex items-center justify-between">
+                                <div className="flex items-center gap-2">
+                                  <span className="p-1 rounded-lg bg-emerald-100 text-emerald-600">
+                                    {cat.icon}
+                                  </span>
+                                  <span className="text-[11px] font-bold text-slate-800 tracking-wide uppercase">
+                                    {cat.title}
+                                  </span>
+                                </div>
+                                <span className="text-[10px] text-emerald-600 font-semibold font-mono">
+                                  {catRows.length} Parametre
+                                </span>
+                              </div>
+
+                              {/* Yan Yana Donanım Karşılaştırma Satırları */}
+                              <div className="divide-y divide-slate-100 text-xs">
+                                {catRows.map(({ row }, rIdx) => (
+                                  <div
+                                    key={rIdx}
+                                    className="p-2.5 hover:bg-slate-50/50 transition-colors"
+                                  >
+                                    <div className="text-[10px] font-semibold text-slate-400 mb-1">
+                                      {row.label}
+                                    </div>
+                                    <div className="grid grid-cols-2 gap-2">
+                                      {row.values.map((val, valIdx) => {
+                                        const isSuperior = row.superiorIdx === valIdx || (row.highlightIdx === valIdx && row.isDifferent);
+                                        return (
+                                          <div
+                                            key={valIdx}
+                                            className={`p-2 rounded-xl border text-[11px] sm:text-xs transition-all flex flex-col items-start justify-between gap-1 ${
+                                              isSuperior
+                                                ? 'bg-emerald-500/10 border-emerald-400/60 text-emerald-800 font-bold'
+                                                : 'bg-white border-slate-200/70 text-slate-700 font-medium'
+                                            }`}
+                                          >
+                                            <span className="break-words">{val}</span>
+                                            {isSuperior && (
+                                              <span className="shrink-0 px-1.5 py-0.5 rounded text-[9px] font-extrabold bg-emerald-500/20 text-emerald-600 border border-emerald-500/30">
+                                                ✓ Değer farkı
+                                              </span>
+                                            )}
+                                          </div>
+                                        );
+                                      })}
+                                    </div>
+                                  </div>
+                                ))}
+                              </div>
+                            </div>
+                          );
+                        });
+                      })()}
                     </div>
-                    <a
-                      href={getComparePageUrl(sideComparison)}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="w-full sm:w-auto text-center inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl bg-cyan-500 hover:bg-cyan-400 text-slate-950 text-xs font-black transition-all shadow-md shrink-0 min-h-[44px]"
-                    >
-                      <span>Tam Sayfa Kıyaslama ↗</span>
-                    </a>
-                  </div>
 
+                  </div>
                 </div>
-              </motion.aside>
-            </>
-          )}
-        </AnimatePresence>
+              )}
+
+            </div>
+
+          </div>
+
+        </div>
 
         {/* ========================================================================= */}
-        {/* 3. PRODUCT PROOF SHOWCASE (RoboScore Doğrulanmış Donanım Vitrini)         */}
+        {/* 2. PRODUCT PROOF SHOWCASE (RoboScore Doğrulanmış Donanım Vitrini)         */}
         {/* ========================================================================= */}
         <div className="mt-20 mb-16">
           <div className="flex flex-col sm:flex-row items-center justify-between gap-4 mb-8">
@@ -1311,7 +1435,7 @@ export function ChoiceAAntiGravityLanding() {
                 type="button"
                 onClick={() => {
                   setActiveTab('phones');
-                  if (currentPrompt) handleClear();
+                  if (currentPrompt || sideComparison) handleClear();
                 }}
                 className={`flex items-center gap-1.5 py-1.5 px-3.5 rounded-full text-xs font-bold transition-all min-h-[44px] cursor-pointer ${
                   activeTab === 'phones'
@@ -1327,7 +1451,7 @@ export function ChoiceAAntiGravityLanding() {
                 type="button"
                 onClick={() => {
                   setActiveTab('tvs');
-                  if (currentPrompt) handleClear();
+                  if (currentPrompt || sideComparison) handleClear();
                 }}
                 className={`flex items-center gap-1.5 py-1.5 px-3.5 rounded-full text-xs font-bold transition-all min-h-[44px] cursor-pointer ${
                   activeTab === 'tvs'
@@ -1343,7 +1467,7 @@ export function ChoiceAAntiGravityLanding() {
                 type="button"
                 onClick={() => {
                   setActiveTab('laptops');
-                  if (currentPrompt) handleClear();
+                  if (currentPrompt || sideComparison) handleClear();
                 }}
                 className={`flex items-center gap-1.5 py-1.5 px-3.5 rounded-full text-xs font-bold transition-all min-h-[44px] cursor-pointer ${
                   activeTab === 'laptops'
@@ -1424,7 +1548,7 @@ export function ChoiceAAntiGravityLanding() {
         </div>
 
         {/* ========================================================================= */}
-        {/* 4. CANLI FİYAT DÜŞÜŞ RADARI (Radar Strip)                                  */}
+        {/* 3. CANLI FİYAT DÜŞÜŞ RADARI (Radar Strip)                                  */}
         {/* ========================================================================= */}
         <div className="p-6 rounded-2xl bg-gradient-to-r from-emerald-500/10 via-cyan-500/5 to-transparent border border-emerald-200/80 flex flex-col md:flex-row items-center justify-between gap-4">
           <div className="flex items-center gap-3">
