@@ -370,13 +370,13 @@ export function HomePageClient({
       </section>
 
       {/* ========================================================================= */}
-      {/* ⚔️ 2. 3D HOLOGRAPHIC PRODUCT DUEL SECTION (EXACT MATCH FOR MOCKUP B)     */}
+      {/* ⚔️ 2. 3D HOLOGRAPHIC PRODUCT DUEL SECTION (EXACT 1:1 MATCH FOR MOCKUP B) */}
       {/* ========================================================================= */}
-      <section id="holographic-duel-section" className="max-w-7xl mx-auto space-y-8 px-3 sm:px-6">
+      <section id="holographic-duel-section" className="max-w-7xl mx-auto space-y-6 px-3 sm:px-6 py-6 relative">
 
         {/* Section Title Header (Exact Mockup B Typography) */}
-        <div className="text-center space-y-2">
-          <h2 className="text-2xl sm:text-4xl font-black text-slate-900 dark:text-white tracking-tight uppercase font-sans">
+        <div className="text-center space-y-2 mb-4">
+          <h2 className="text-3xl sm:text-5xl font-black text-slate-900 dark:text-white tracking-tight uppercase font-sans">
             3D HOLOGRAFİK ÜRÜN DÜELLOSU
           </h2>
           <p className="text-xs sm:text-sm text-slate-500 font-semibold tracking-wide">
@@ -412,25 +412,29 @@ export function HomePageClient({
           </div>
         </div>
 
-        {/* ⚔️ DUAL VERTICAL 3D FROSTED GLASS CARDS & X-LASER BEAMS */}
-        <div className="relative bg-gradient-to-b from-slate-50/80 via-white to-slate-50/80 dark:from-slate-900 dark:to-slate-950 border border-slate-200/80 dark:border-slate-800 rounded-3xl p-6 sm:p-10 shadow-xl overflow-hidden">
+        {/* ⚔️ FLOATING 3D GLASS CARDS ARENA (DIRECT ON PAGE CANVAS, NO OUTER BOX WRAPPER) */}
+        <div className="relative max-w-5xl mx-auto py-8">
 
-          {/* SVG Glowing X-Laser Beams Crossing Layer (Exact Mockup B Laser Effect) */}
-          <svg className="absolute inset-0 w-full h-full pointer-events-none z-0 opacity-90" xmlns="http://www.w3.org/2000/svg">
+          {/* Background Ambient Laser Glows */}
+          <div aria-hidden="true" className="absolute top-1/2 left-1/4 -translate-y-1/2 w-96 h-96 bg-cyan-400/20 blur-[130px] rounded-full pointer-events-none" />
+          <div aria-hidden="true" className="absolute top-1/2 right-1/4 -translate-y-1/2 w-96 h-96 bg-fuchsia-400/20 blur-[130px] rounded-full pointer-events-none" />
+
+          {/* SVG Multi-Line X-Laser Beams Layer */}
+          <svg className="absolute inset-0 w-full h-full pointer-events-none z-0 overflow-visible" xmlns="http://www.w3.org/2000/svg">
             <defs>
-              <linearGradient id="laserCyanBeam" x1="0%" y1="0%" x2="100%" y2="100%">
+              <linearGradient id="cyanLaserGlow" x1="0%" y1="0%" x2="100%" y2="100%">
                 <stop offset="0%" stopColor="#06b6d4" stopOpacity="0.9" />
                 <stop offset="50%" stopColor="#38bdf8" stopOpacity="1" />
                 <stop offset="100%" stopColor="#d946ef" stopOpacity="0.9" />
               </linearGradient>
-              <linearGradient id="laserFuchsiaBeam" x1="0%" y1="100%" x2="100%" y2="0%">
+              <linearGradient id="fuchsiaLaserGlow" x1="0%" y1="100%" x2="100%" y2="0%">
                 <stop offset="0%" stopColor="#d946ef" stopOpacity="0.9" />
                 <stop offset="50%" stopColor="#c084fc" stopOpacity="1" />
                 <stop offset="100%" stopColor="#06b6d4" stopOpacity="0.9" />
               </linearGradient>
-              <filter id="neonGlowFilter" x="-30%" y="-30%" width="160%" height="160%">
-                <feGaussianBlur stdDeviation="5" result="blur1" />
-                <feGaussianBlur stdDeviation="12" result="blur2" />
+              <filter id="neonBeamFilter" x="-40%" y="-40%" width="180%" height="180%">
+                <feGaussianBlur stdDeviation="4" result="blur1" />
+                <feGaussianBlur stdDeviation="10" result="blur2" />
                 <feMerge>
                   <feMergeNode in="blur2" />
                   <feMergeNode in="blur1" />
@@ -439,211 +443,237 @@ export function HomePageClient({
               </filter>
             </defs>
 
-            {/* X-Crossing Laser Lines */}
-            <line x1="20%" y1="25%" x2="80%" y2="75%" stroke="url(#laserCyanBeam)" strokeWidth="4" filter="url(#neonGlowFilter)" className="animate-pulse" />
-            <line x1="20%" y1="75%" x2="80%" y2="25%" stroke="url(#laserFuchsiaBeam)" strokeWidth="4" filter="url(#neonGlowFilter)" className="animate-pulse" />
+            {/* Parallel Crossing Neon Lasers */}
+            <line x1="20%" y1="20%" x2="80%" y2="80%" stroke="url(#cyanLaserGlow)" strokeWidth="5" filter="url(#neonBeamFilter)" className="animate-pulse" />
+            <line x1="20%" y1="26%" x2="80%" y2="86%" stroke="url(#cyanLaserGlow)" strokeWidth="3" filter="url(#neonBeamFilter)" opacity="0.75" />
+            <line x1="20%" y1="80%" x2="80%" y2="20%" stroke="url(#fuchsiaLaserGlow)" strokeWidth="5" filter="url(#neonBeamFilter)" className="animate-pulse" />
+            <line x1="20%" y1="86%" x2="80%" y2="26%" stroke="url(#fuchsiaLaserGlow)" strokeWidth="3" filter="url(#neonBeamFilter)" opacity="0.75" />
           </svg>
 
-          {/* Central Glowing VS Emblem */}
-          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-20 pointer-events-none flex flex-col items-center">
-            <div className="w-16 h-16 sm:w-20 sm:h-20 rounded-full bg-gradient-to-tr from-cyan-500 via-indigo-500 to-fuchsia-500 text-white font-black text-2xl sm:text-3xl flex items-center justify-center shadow-[0_0_40px_rgba(217,70,239,0.8)] border-4 border-white dark:border-slate-900 animate-pulse">
+          {/* Central Glowing Spherical VS Emblem */}
+          <div className="absolute top-[42%] left-1/2 -translate-x-1/2 -translate-y-1/2 z-30 pointer-events-none">
+            <div className="w-20 h-20 sm:w-24 sm:h-24 rounded-full bg-gradient-to-tr from-cyan-400 via-indigo-600 to-fuchsia-500 text-white font-black text-2xl sm:text-4xl flex items-center justify-center shadow-[0_0_50px_rgba(217,70,239,0.9),0_0_30px_rgba(6,182,212,0.9)] border-4 border-white dark:border-slate-900 animate-pulse">
               VS
             </div>
           </div>
 
-          {/* Cards Grid */}
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-20 relative z-10 items-stretch">
+          {/* Dual Cards Grid */}
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-24 relative z-10 items-stretch max-w-4xl mx-auto">
 
             {/* ========================================================= */}
-            {/* CARD 1 (LEFT): EXACT MATCH FOR MOCKUP B FROSTED GLASS CARD */}
+            {/* CARD 1 (LEFT): EXACT MATCH FOR MOCKUP B CYAN FROSTED GLASS */}
             {/* ========================================================= */}
-            <div className="relative bg-white/75 dark:bg-slate-900/75 border-2 border-cyan-300/60 dark:border-cyan-700/60 shadow-[0_20px_50px_rgba(6,182,212,0.15)] rounded-3xl p-6 sm:p-8 backdrop-blur-2xl flex flex-col justify-between space-y-6 transition-transform hover:-translate-y-1">
+            <div className="flex flex-col items-center">
+              <div className="w-full bg-white/80 dark:bg-slate-900/80 border-2 border-cyan-400/60 shadow-[0_25px_60px_-15px_rgba(6,182,212,0.25)] rounded-3xl p-6 backdrop-blur-2xl flex flex-col justify-between space-y-5 transition-transform duration-300 hover:-translate-y-1">
 
-              {/* Card Top Search & Title */}
-              <div className="space-y-3">
-                <div className="relative">
-                  <div className="relative flex items-center">
-                    <Search className="w-4 h-4 text-slate-400 absolute left-3 pointer-events-none" />
-                    <input
-                      type="text"
-                      value={search1Query}
-                      onChange={(e) => setSearch1Query(e.target.value)}
-                      placeholder="1. Ürünü Ara / Seç..."
-                      className="w-full pl-9 pr-3 py-2 bg-white/90 dark:bg-slate-800/90 text-slate-900 dark:text-white text-xs font-bold rounded-xl border border-slate-200 dark:border-slate-700 focus:outline-none focus:border-cyan-500"
+                {/* Product Search & Title Header */}
+                <div className="space-y-3">
+                  <div className="relative">
+                    <div className="relative flex items-center">
+                      <Search className="w-4 h-4 text-slate-400 absolute left-3 pointer-events-none" />
+                      <input
+                        type="text"
+                        value={search1Query}
+                        onChange={(e) => setSearch1Query(e.target.value)}
+                        placeholder="1. Ürünü Ara / Seç..."
+                        className="w-full pl-9 pr-3 py-2 bg-white/90 dark:bg-slate-800/90 text-slate-900 dark:text-white text-xs font-bold rounded-xl border border-slate-200 dark:border-slate-700 focus:outline-none focus:border-cyan-500"
+                      />
+                    </div>
+                    {results1.length > 0 && (
+                      <div className="absolute top-full left-0 right-0 mt-1 bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-xl shadow-2xl p-2 z-50 max-h-48 overflow-y-auto space-y-1">
+                        {results1.map((item) => (
+                          <button
+                            key={item.id}
+                            type="button"
+                            onClick={() => handleSelectProduct(1, item)}
+                            className="w-full text-left p-2 rounded-lg hover:bg-cyan-50 dark:hover:bg-slate-800 flex items-center justify-between transition-colors cursor-pointer"
+                          >
+                            <span className="text-xs font-bold text-slate-900 dark:text-white truncate">{item.name}</span>
+                            <span className="text-[10px] font-black text-cyan-600">₺{item.basePrice?.toLocaleString('tr-TR')}</span>
+                          </button>
+                        ))}
+                      </div>
+                    )}
+                  </div>
+
+                  <div>
+                    <h3 className="text-xl sm:text-2xl font-black text-slate-900 dark:text-white leading-tight">
+                      {product1.name}
+                    </h3>
+                    <span className="text-xs font-semibold text-slate-400 block mt-0.5">
+                      {product1.category}
+                    </span>
+                  </div>
+                </div>
+
+                {/* 3D Floating Product Display & Holographic Ring Aura */}
+                <div className="relative my-1 py-2 flex flex-col items-center justify-center">
+                  <div className="relative w-40 h-44 sm:w-48 sm:h-52 transition-transform duration-300 hover:scale-105 flex items-center justify-center">
+                    <ProductImage
+                      src={product1.image}
+                      alt={product1.name}
+                      variant="card"
+                      className="w-full h-full object-contain filter drop-shadow-[0_15px_25px_rgba(6,182,212,0.4)]"
                     />
                   </div>
-
-                  {results1.length > 0 && (
-                    <div className="absolute top-full left-0 right-0 mt-1 bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-xl shadow-2xl p-2 z-50 max-h-48 overflow-y-auto space-y-1">
-                      {results1.map((item) => (
-                        <button
-                          key={item.id}
-                          type="button"
-                          onClick={() => handleSelectProduct(1, item)}
-                          className="w-full text-left p-2 rounded-lg hover:bg-cyan-50 dark:hover:bg-slate-800 flex items-center justify-between transition-colors cursor-pointer"
-                        >
-                          <span className="text-xs font-bold text-slate-900 dark:text-white truncate">{item.name}</span>
-                          <span className="text-[10px] font-black text-cyan-600">₺{item.basePrice?.toLocaleString('tr-TR')}</span>
-                        </button>
-                      ))}
-                    </div>
-                  )}
+                  {/* Holographic Projection Ring */}
+                  <div className="w-36 h-7 rounded-full border-2 border-cyan-400/90 bg-cyan-400/20 shadow-[0_0_25px_#06b6d4] blur-[1px] transform -rotate-x-60 -mt-5 pointer-events-none" />
                 </div>
 
-                <div>
-                  <h3 className="text-xl sm:text-2xl font-black text-slate-900 dark:text-white leading-tight">
-                    {product1.name}
-                  </h3>
-                  <span className="text-xs font-bold text-slate-400 uppercase tracking-wider block mt-0.5">
-                    {product1.category}
-                  </span>
-                </div>
-              </div>
-
-              {/* Product Floating 3D Image & Holographic Ring Aura */}
-              <div className="relative my-4 py-4 flex items-center justify-center">
-                <div className="absolute w-36 h-36 bg-cyan-400/20 blur-2xl rounded-full pointer-events-none" />
-                <div className="relative w-36 h-36 sm:w-44 sm:h-44 p-3 bg-white/60 dark:bg-slate-800/60 rounded-2xl border border-cyan-200/60 dark:border-cyan-800/60 shadow-md flex items-center justify-center">
-                  <ProductImage src={product1.image} alt={product1.name} variant="card" className="w-full h-full object-contain" />
-                </div>
-              </div>
-
-              {/* Spec Badges Grid Inside Card */}
-              <div className="space-y-2">
-                {currentSpecKeys.map((key) => (
-                  <div key={key} className="bg-slate-100/90 dark:bg-slate-800/90 p-2.5 rounded-xl flex items-center justify-between border border-slate-200/60 dark:border-slate-700/60 text-xs">
-                    <span className="text-slate-400 font-bold uppercase text-[10px]">{key}</span>
-                    <span className="font-black text-slate-900 dark:text-white">{product1.specs?.[key] || 'Detaylar'}</span>
+                {/* Middle Info Row: Inset Thumbnail + Vertical Specs */}
+                <div className="flex items-center gap-4 bg-slate-50/90 dark:bg-slate-800/90 p-3 rounded-2xl border border-cyan-200/60 dark:border-cyan-900/60">
+                  <div className="w-14 h-14 rounded-xl bg-white dark:bg-slate-900 p-1 border border-cyan-200/80 flex items-center justify-center shrink-0 shadow-xs">
+                    <ProductImage src={product1.image} alt={product1.name} variant="card" className="w-full h-full object-contain" />
                   </div>
-                ))}
+                  <div className="space-y-1 text-xs font-bold text-slate-700 dark:text-slate-200">
+                    {currentSpecKeys.map((key) => (
+                      <div key={key} className="flex items-center gap-2">
+                        <span className="text-slate-400 text-[10px] uppercase font-bold w-16">{key}:</span>
+                        <span className="font-black text-slate-900 dark:text-white">{product1.specs?.[key] || '-'}</span>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+
+                {/* Action Buttons */}
+                <div className="grid grid-cols-2 gap-2 pt-1">
+                  <Link
+                    href={`/compare?d1=${encodeURIComponent(product1.id)}&d2=${encodeURIComponent(product2.id)}`}
+                    className="py-2.5 px-3 bg-gradient-to-r from-cyan-500 to-teal-500 hover:from-cyan-400 hover:to-teal-400 text-white font-black text-xs rounded-xl shadow-md transition-all text-center flex items-center justify-center"
+                  >
+                    KARŞILAŞTIRMAYA EKLE
+                  </Link>
+                  <Link
+                    href={`/phones/${product1.id}`}
+                    className="py-2.5 px-3 bg-white hover:bg-slate-100 dark:bg-slate-800 dark:hover:bg-slate-700 text-slate-800 dark:text-slate-200 font-bold text-xs rounded-xl border border-slate-200 dark:border-slate-700 transition-all text-center flex items-center justify-center"
+                  >
+                    DETAYLARI İNCELE
+                  </Link>
+                </div>
+
               </div>
 
-              {/* Card Action Buttons */}
-              <div className="grid grid-cols-2 gap-2 pt-2">
-                <Link
-                  href={`/compare?d1=${encodeURIComponent(product1.id)}&d2=${encodeURIComponent(product2.id)}`}
-                  className="py-2.5 px-3 bg-gradient-to-r from-cyan-500 to-teal-500 hover:from-cyan-400 hover:to-teal-400 text-white font-black text-xs rounded-xl shadow-md transition-all text-center flex items-center justify-center"
-                >
-                  KARŞILAŞTIRMAYA EKLE
-                </Link>
-                <Link
-                  href={`/phones/${product1.id}`}
-                  className="py-2.5 px-3 bg-slate-100 hover:bg-slate-200 dark:bg-slate-800 dark:hover:bg-slate-700 text-slate-800 dark:text-slate-200 font-bold text-xs rounded-xl border border-slate-200 dark:border-slate-700 transition-all text-center flex items-center justify-center"
-                >
-                  DETAYLARI İNCELE
-                </Link>
-              </div>
-
-              {/* Translucent Glass Pedestal Base at Bottom of Card */}
-              <div className="w-full h-3 bg-gradient-to-r from-cyan-400/30 via-white to-cyan-400/30 rounded-full border border-cyan-300/50 shadow-[0_8px_16px_rgba(6,182,212,0.2)] mt-2" />
-
+              {/* 3D Glass Pedestal Base Floating Under Left Card (Exact Mockup B) */}
+              <div className="w-[92%] h-5 bg-gradient-to-r from-cyan-400/40 via-white/90 to-cyan-400/40 rounded-full border border-cyan-300/80 shadow-[0_12px_35px_rgba(6,182,212,0.45)] transform perspective-500 rotateX-45 -mt-3 z-0" />
             </div>
 
             {/* ========================================================= */}
-            {/* CARD 2 (RIGHT): EXACT MATCH FOR MOCKUP B FROSTED GLASS CARD*/}
+            {/* CARD 2 (RIGHT): EXACT MATCH FOR MOCKUP B FUCHSIA FROSTED GLASS */}
             {/* ========================================================= */}
-            <div className="relative bg-white/75 dark:bg-slate-900/75 border-2 border-fuchsia-300/60 dark:border-fuchsia-700/60 shadow-[0_20px_50px_rgba(217,70,239,0.15)] rounded-3xl p-6 sm:p-8 backdrop-blur-2xl flex flex-col justify-between space-y-6 transition-transform hover:-translate-y-1">
+            <div className="flex flex-col items-center">
+              <div className="w-full bg-white/80 dark:bg-slate-900/80 border-2 border-fuchsia-400/60 shadow-[0_25px_60px_-15px_rgba(217,70,239,0.25)] rounded-3xl p-6 backdrop-blur-2xl flex flex-col justify-between space-y-5 transition-transform duration-300 hover:-translate-y-1">
 
-              {/* Card Top Search & Title */}
-              <div className="space-y-3">
-                <div className="relative">
-                  <div className="relative flex items-center">
-                    <Search className="w-4 h-4 text-slate-400 absolute left-3 pointer-events-none" />
-                    <input
-                      type="text"
-                      value={search2Query}
-                      onChange={(e) => setSearch2Query(e.target.value)}
-                      placeholder="2. Ürünü Ara / Seç..."
-                      className="w-full pl-9 pr-3 py-2 bg-white/90 dark:bg-slate-800/90 text-slate-900 dark:text-white text-xs font-bold rounded-xl border border-slate-200 dark:border-slate-700 focus:outline-none focus:border-fuchsia-500"
+                {/* Product Search & Title Header */}
+                <div className="space-y-3">
+                  <div className="relative">
+                    <div className="relative flex items-center">
+                      <Search className="w-4 h-4 text-slate-400 absolute left-3 pointer-events-none" />
+                      <input
+                        type="text"
+                        value={search2Query}
+                        onChange={(e) => setSearch2Query(e.target.value)}
+                        placeholder="2. Ürünü Ara / Seç..."
+                        className="w-full pl-9 pr-3 py-2 bg-white/90 dark:bg-slate-800/90 text-slate-900 dark:text-white text-xs font-bold rounded-xl border border-slate-200 dark:border-slate-700 focus:outline-none focus:border-fuchsia-500"
+                      />
+                    </div>
+                    {results2.length > 0 && (
+                      <div className="absolute top-full left-0 right-0 mt-1 bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-xl shadow-2xl p-2 z-50 max-h-48 overflow-y-auto space-y-1">
+                        {results2.map((item) => (
+                          <button
+                            key={item.id}
+                            type="button"
+                            onClick={() => handleSelectProduct(2, item)}
+                            className="w-full text-left p-2 rounded-lg hover:bg-fuchsia-50 dark:hover:bg-slate-800 flex items-center justify-between transition-colors cursor-pointer"
+                          >
+                            <span className="text-xs font-bold text-slate-900 dark:text-white truncate">{item.name}</span>
+                            <span className="text-[10px] font-black text-fuchsia-600">₺{item.basePrice?.toLocaleString('tr-TR')}</span>
+                          </button>
+                        ))}
+                      </div>
+                    )}
+                  </div>
+
+                  <div>
+                    <h3 className="text-xl sm:text-2xl font-black text-slate-900 dark:text-white leading-tight">
+                      {product2.name}
+                    </h3>
+                    <span className="text-xs font-semibold text-slate-400 block mt-0.5">
+                      {product2.category}
+                    </span>
+                  </div>
+                </div>
+
+                {/* 3D Floating Product Display & Holographic Ring Aura */}
+                <div className="relative my-1 py-2 flex flex-col items-center justify-center">
+                  <div className="relative w-40 h-44 sm:w-48 sm:h-52 transition-transform duration-300 hover:scale-105 flex items-center justify-center">
+                    <ProductImage
+                      src={product2.image}
+                      alt={product2.name}
+                      variant="card"
+                      className="w-full h-full object-contain filter drop-shadow-[0_15px_25px_rgba(217,70,239,0.4)]"
                     />
                   </div>
-
-                  {results2.length > 0 && (
-                    <div className="absolute top-full left-0 right-0 mt-1 bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-xl shadow-2xl p-2 z-50 max-h-48 overflow-y-auto space-y-1">
-                      {results2.map((item) => (
-                        <button
-                          key={item.id}
-                          type="button"
-                          onClick={() => handleSelectProduct(2, item)}
-                          className="w-full text-left p-2 rounded-lg hover:bg-fuchsia-50 dark:hover:bg-slate-800 flex items-center justify-between transition-colors cursor-pointer"
-                        >
-                          <span className="text-xs font-bold text-slate-900 dark:text-white truncate">{item.name}</span>
-                          <span className="text-[10px] font-black text-fuchsia-600">₺{item.basePrice?.toLocaleString('tr-TR')}</span>
-                        </button>
-                      ))}
-                    </div>
-                  )}
+                  {/* Holographic Projection Ring */}
+                  <div className="w-36 h-7 rounded-full border-2 border-fuchsia-400/90 bg-fuchsia-400/20 shadow-[0_0_25px_#d946ef] blur-[1px] transform -rotate-x-60 -mt-5 pointer-events-none" />
                 </div>
 
-                <div>
-                  <h3 className="text-xl sm:text-2xl font-black text-slate-900 dark:text-white leading-tight">
-                    {product2.name}
-                  </h3>
-                  <span className="text-xs font-bold text-slate-400 uppercase tracking-wider block mt-0.5">
-                    {product2.category}
-                  </span>
-                </div>
-              </div>
-
-              {/* Product Floating 3D Image & Holographic Ring Aura */}
-              <div className="relative my-4 py-4 flex items-center justify-center">
-                <div className="absolute w-36 h-36 bg-fuchsia-400/20 blur-2xl rounded-full pointer-events-none" />
-                <div className="relative w-36 h-36 sm:w-44 sm:h-44 p-3 bg-white/60 dark:bg-slate-800/60 rounded-2xl border border-fuchsia-200/60 dark:border-fuchsia-800/60 shadow-md flex items-center justify-center">
-                  <ProductImage src={product2.image} alt={product2.name} variant="card" className="w-full h-full object-contain" />
-                </div>
-              </div>
-
-              {/* Spec Badges Grid Inside Card */}
-              <div className="space-y-2">
-                {currentSpecKeys.map((key) => (
-                  <div key={key} className="bg-slate-100/90 dark:bg-slate-800/90 p-2.5 rounded-xl flex items-center justify-between border border-slate-200/60 dark:border-slate-700/60 text-xs">
-                    <span className="text-slate-400 font-bold uppercase text-[10px]">{key}</span>
-                    <span className="font-black text-slate-900 dark:text-white">{product2.specs?.[key] || 'Detaylar'}</span>
+                {/* Middle Info Row: Inset Thumbnail + Vertical Specs */}
+                <div className="flex items-center gap-4 bg-slate-50/90 dark:bg-slate-800/90 p-3 rounded-2xl border border-fuchsia-200/60 dark:border-fuchsia-900/60">
+                  <div className="w-14 h-14 rounded-xl bg-white dark:bg-slate-900 p-1 border border-fuchsia-200/80 flex items-center justify-center shrink-0 shadow-xs">
+                    <ProductImage src={product2.image} alt={product2.name} variant="card" className="w-full h-full object-contain" />
                   </div>
-                ))}
+                  <div className="space-y-1 text-xs font-bold text-slate-700 dark:text-slate-200">
+                    {currentSpecKeys.map((key) => (
+                      <div key={key} className="flex items-center gap-2">
+                        <span className="text-slate-400 text-[10px] uppercase font-bold w-16">{key}:</span>
+                        <span className="font-black text-slate-900 dark:text-white">{product2.specs?.[key] || '-'}</span>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+
+                {/* Action Buttons */}
+                <div className="grid grid-cols-2 gap-2 pt-1">
+                  <Link
+                    href={`/compare?d1=${encodeURIComponent(product1.id)}&d2=${encodeURIComponent(product2.id)}`}
+                    className="py-2.5 px-3 bg-gradient-to-r from-fuchsia-500 to-purple-600 hover:from-fuchsia-400 hover:to-purple-500 text-white font-black text-xs rounded-xl shadow-md transition-all text-center flex items-center justify-center"
+                  >
+                    KARŞILAŞTIRMAYA EKLE
+                  </Link>
+                  <Link
+                    href={`/phones/${product2.id}`}
+                    className="py-2.5 px-3 bg-white hover:bg-slate-100 dark:bg-slate-800 dark:hover:bg-slate-700 text-slate-800 dark:text-slate-200 font-bold text-xs rounded-xl border border-slate-200 dark:border-slate-700 transition-all text-center flex items-center justify-center"
+                  >
+                    DETAYLARI İNCELE
+                  </Link>
+                </div>
+
               </div>
 
-              {/* Card Action Buttons */}
-              <div className="grid grid-cols-2 gap-2 pt-2">
-                <Link
-                  href={`/compare?d1=${encodeURIComponent(product1.id)}&d2=${encodeURIComponent(product2.id)}`}
-                  className="py-2.5 px-3 bg-gradient-to-r from-fuchsia-500 to-purple-600 hover:from-fuchsia-400 hover:to-purple-500 text-white font-black text-xs rounded-xl shadow-md transition-all text-center flex items-center justify-center"
-                >
-                  KARŞILAŞTIRMAYA EKLE
-                </Link>
-                <Link
-                  href={`/phones/${product2.id}`}
-                  className="py-2.5 px-3 bg-slate-100 hover:bg-slate-200 dark:bg-slate-800 dark:hover:bg-slate-700 text-slate-800 dark:text-slate-200 font-bold text-xs rounded-xl border border-slate-200 dark:border-slate-700 transition-all text-center flex items-center justify-center"
-                >
-                  DETAYLARI İNCELE
-                </Link>
-              </div>
-
-              {/* Translucent Glass Pedestal Base at Bottom of Card */}
-              <div className="w-full h-3 bg-gradient-to-r from-fuchsia-400/30 via-white to-fuchsia-400/30 rounded-full border border-fuchsia-300/50 shadow-[0_8px_16px_rgba(217,70,239,0.2)] mt-2" />
-
+              {/* 3D Glass Pedestal Base Floating Under Right Card (Exact Mockup B) */}
+              <div className="w-[92%] h-5 bg-gradient-to-r from-fuchsia-400/40 via-white/90 to-fuchsia-400/40 rounded-full border border-fuchsia-300/80 shadow-[0_12px_35px_rgba(217,70,239,0.45)] transform perspective-500 rotateX-45 -mt-3 z-0" />
             </div>
 
           </div>
 
-          {/* ========================================================= */}
-          {/* EXACT MOCKUP B SPEC COMPARISON TABLE BELOW THE CARDS       */}
-          {/* ========================================================= */}
-          <div className="mt-10 pt-6 border-t border-slate-200/80 dark:border-slate-800 space-y-3 max-w-2xl mx-auto">
-            <div className="text-center text-xs font-black uppercase tracking-wider text-slate-400 pb-1">
-              Kafa Kafaya Özellik Matrisi
+          {/* Head-to-Head Spec Comparison Table Below Pedestals (Exact Mockup B 3-Column Format) */}
+          <div className="mt-12 max-w-2xl mx-auto space-y-3 pt-6 border-t border-slate-200/60 dark:border-slate-800">
+            <div className="grid grid-cols-3 text-center text-xs font-black uppercase tracking-wider text-slate-400 pb-2">
+              <span className="text-left text-cyan-600 dark:text-cyan-400 font-black">{product1.name}</span>
+              <span>Kafa Kafaya Matris</span>
+              <span className="text-right text-fuchsia-600 dark:text-fuchsia-400 font-black">{product2.name}</span>
             </div>
 
-            <div className="bg-white/80 dark:bg-slate-900/80 rounded-2xl border border-slate-200/80 dark:border-slate-800 p-4 shadow-sm space-y-2">
+            <div className="space-y-2">
               {currentSpecKeys.map((key) => (
-                <div key={key} className="flex items-center justify-between text-xs py-2 border-b border-slate-100 dark:border-slate-800 last:border-0">
-                  <div className="w-1/3 text-left font-black text-cyan-600 dark:text-cyan-400">
+                <div key={key} className="grid grid-cols-3 items-center text-xs py-2 border-b border-slate-100 dark:border-slate-800/80">
+                  <div className="text-left font-black text-slate-900 dark:text-white">
                     {product1.specs?.[key] || '-'}
                   </div>
-                  <div className="w-1/3 text-center text-[10px] font-black uppercase text-slate-400 tracking-wider">
+                  <div className="text-center text-[10px] font-black uppercase text-slate-400 tracking-wider">
                     {key}
                   </div>
-                  <div className="w-1/3 text-right font-black text-fuchsia-600 dark:text-fuchsia-400">
+                  <div className="text-right font-black text-slate-900 dark:text-white">
                     {product2.specs?.[key] || '-'}
                   </div>
                 </div>
