@@ -11,13 +11,14 @@ import {
   Mic,
   Sparkles,
   Zap,
-  ShieldCheck,
   Smartphone,
   Tv,
   Laptop,
   ArrowRight,
   TrendingDown,
-  Clock
+  Clock,
+  ChevronRight,
+  CheckCircle2
 } from 'lucide-react';
 
 interface ChoiceAAntiGravityLandingProps {
@@ -34,21 +35,23 @@ interface ChoiceAAntiGravityLandingProps {
   };
 }
 
-// Preset Quick Answer Responses for the 4 Pills
+// Preset Comparison & AI Answers
 const QUICK_AI_RESPONSES: Record<string, {
   title: string;
   badge: string;
   verdict: string;
   score: string;
+  winner: string;
   specs: { label: string; p1: string; p2: string }[];
   summary: string;
   link: string;
 }> = {
   'iPhone 16 Pro Max vs S24 Ultra': {
     title: 'iPhone 16 Pro Max vs Samsung S24 Ultra',
-    badge: 'Mobil Amiral Gemisi Analizi',
-    verdict: 'RoboPengu Kararı: Video ve Ekosistem için iPhone 16 Pro Max; Yapay Zeka & Zoom için S24 Ultra.',
+    badge: 'Mobil Amiral Gemisi Kıyaslaması',
+    verdict: 'RoboPengu Kararı: Video ve Ekosistem için iPhone 16 Pro Max; Galaxy AI & Zoom için S24 Ultra.',
     score: '9.8 / 10',
+    winner: 'iPhone 16 Pro Max (Video Lideri)',
     specs: [
       { label: 'İşlemci', p1: 'Apple A18 Pro (3nm)', p2: 'Snapdragon 8 Gen 3' },
       { label: 'Ekran', p1: '6.9" Super Retina XDR 120Hz', p2: '6.8" Dynamic AMOLED 2X 120Hz' },
@@ -59,10 +62,11 @@ const QUICK_AI_RESPONSES: Record<string, {
     link: '/compare?category=phones&p1=apple-iphone-16-pro-max-256-gb&p2=samsung-galaxy-s24-ultra-256-gb'
   },
   'En iyi OLED TV hangisi?': {
-    title: '2026 En İyi OLED TV Seçimi: LG C4 vs Samsung S95D',
+    title: '2026 En İyi OLED TV: LG C4 vs Samsung S95D',
     badge: 'Ekran Teknolojisi Lideri',
     verdict: 'RoboPengu Kararı: LG OLED55C44LA (Sonsuz Siyah & 144Hz Oyuncu Desteği)',
     score: '9.9 / 10',
+    winner: 'LG C4 OLED (α9 Gen7 AI)',
     specs: [
       { label: 'Panel Tipi', p1: 'WOLED evo Brightness Booster', p2: 'QD-OLED Anti-Glare' },
       { label: 'Yenileme Hızı', p1: '144Hz VRR / G-Sync', p2: '144Hz VRR FreeSync Premium' },
@@ -77,6 +81,7 @@ const QUICK_AI_RESPONSES: Record<string, {
     badge: 'Mobil Bütçe & Güç Şampiyonu',
     verdict: 'RoboPengu Önerisi: Apple MacBook Air M3 (18 Saat Pil & Sessiz Kullanım)',
     score: '9.7 / 10',
+    winner: 'Apple MacBook Air M3',
     specs: [
       { label: 'İşlemci', p1: 'Apple M3 (8 Çekirdek CPU)', p2: 'Intel Core Ultra 7 155H' },
       { label: 'RAM / Depolama', p1: '16GB Unified / 512GB SSD', p2: '16GB LPDDR5X / 1TB SSD' },
@@ -91,6 +96,7 @@ const QUICK_AI_RESPONSES: Record<string, {
     badge: 'Aktif Gürültü Engelleme Lideri',
     verdict: 'RoboPengu Kararı: Sony WH-1000XM5 (Maksimum İzolasyon)',
     score: '9.8 / 10',
+    winner: 'Sony WH-1000XM5',
     specs: [
       { label: 'ANC Teknolojisi', p1: 'V1 + QN1 Çip (8 Mikrofon)', p2: 'H2 Çip Aktif Engelleme' },
       { label: 'Pil Ömrü', p1: '30 Saat (ANC Açık)', p2: '6 Saat Kulaklık / 30 Saat Kutu' },
@@ -214,7 +220,8 @@ export function ChoiceAAntiGravityLanding() {
   const [isMuted, setIsMuted] = useState(false);
   const [inputQuery, setInputQuery] = useState('');
   const [activeTab, setActiveTab] = useState<'phones' | 'tvs' | 'laptops'>('phones');
-  const [activeQuickResponse, setActiveQuickResponse] = useState<typeof QUICK_AI_RESPONSES[string] | null>(null);
+  const [activeResult, setActiveResult] = useState<typeof QUICK_AI_RESPONSES[string] | null>(null);
+  const [isPanelOpen, setIsPanelOpen] = useState(false);
   const [isAnalyzing, setIsAnalyzing] = useState(false);
 
   const handlePillClick = (promptText: string) => {
@@ -222,32 +229,31 @@ export function ChoiceAAntiGravityLanding() {
     setIsAnalyzing(true);
     setTimeout(() => {
       setIsAnalyzing(false);
-      if (QUICK_AI_RESPONSES[promptText]) {
-        setActiveQuickResponse(QUICK_AI_RESPONSES[promptText]);
-      } else {
-        setActiveQuickResponse({
-          title: promptText,
-          badge: 'RoboPengu Karar Analizi',
-          verdict: `RoboPengu "${promptText}" araması için en yüksek RoboScore puanlı donanımları inceledi.`,
-          score: '9.7 / 10',
-          specs: [
-            { label: 'Analiz Kriteri', p1: 'Fiyat / Performans Dengesi', p2: 'Kullanıcı Derecelendirmesi' },
-            { label: 'Veri Kaynağı', p1: '5.768+ Mağaza Teklifi', p2: 'Doğrulanmış Katalog Verisi' }
-          ],
-          summary: 'Aşağıdaki doğrulanmış vitrin kartlarından teknik detayları ve güncel mağaza fiyatlarını inceleyebilirsiniz.',
-          link: '/compare'
-        });
-      }
-    }, 500);
+      const res = QUICK_AI_RESPONSES[promptText] || {
+        title: promptText,
+        badge: 'RoboPengu Karar Analizi',
+        verdict: `RoboPengu "${promptText}" araması için en yüksek RoboScore puanlı donanımları inceledi.`,
+        score: '9.7 / 10',
+        winner: 'Doğrulanmış Katalog Verisi',
+        specs: [
+          { label: 'Analiz Kriteri', p1: 'Fiyat / Performans Dengesi', p2: 'Kullanıcı Derecelendirmesi' },
+          { label: 'Veri Kaynağı', p1: '5.768+ Mağaza Teklifi', p2: 'Doğrulanmış Katalog Verisi' }
+        ],
+        summary: 'Aşağıdaki doğrulanmış vitrin kartlarından teknik detayları ve güncel mağaza fiyatlarını inceleyebilirsiniz.',
+        link: '/compare'
+      };
+      setActiveResult(res);
+      setIsPanelOpen(true);
+    }, 450);
   };
 
-  const handleClear = () => {
-    setInputQuery('');
-    setActiveQuickResponse(null);
+  const handleClosePanel = () => {
+    setIsPanelOpen(false);
   };
 
   return (
-    <div className="relative bg-[#F8F9FC] text-slate-900 font-sans selection:bg-cyan-500 selection:text-white">
+    <div className="relative bg-[#F8F9FC] text-slate-900 font-sans selection:bg-cyan-500 selection:text-white overflow-x-hidden">
+      
       {/* Background Soft Ambient Light (Apple Style) */}
       <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full max-w-7xl h-[550px] pointer-events-none overflow-hidden z-0">
         <div className="absolute top-[-80px] left-[20%] w-[450px] h-[450px] bg-cyan-200/25 blur-[130px] rounded-full" />
@@ -257,11 +263,11 @@ export function ChoiceAAntiGravityLanding() {
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-6 sm:pt-10 pb-16">
 
         {/* ========================================================================= */}
-        {/* 1. HERO SECTION: ROBOPENGU CHAT AS PRIMARY LANDING EXPERIENCE            */}
+        {/* 1. HERO SECTION: SINGLE UNIFIED ROBOPENGU HERO EXPERIENCE               */}
         {/* ========================================================================= */}
         
-        {/* Slogan Header */}
-        <div className="text-center max-w-3xl mx-auto mb-8 sm:mb-12">
+        {/* Page Slogan Header */}
+        <div className="text-center max-w-3xl mx-auto mb-8 sm:mb-10">
           <h1 className="text-3xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-slate-900 leading-[1.12] mb-3">
             RoboPengu ile Karar Ver,{' '}
             <span className="bg-clip-text text-transparent bg-gradient-to-r from-cyan-500 via-teal-500 to-emerald-500">
@@ -269,61 +275,62 @@ export function ChoiceAAntiGravityLanding() {
             </span>
           </h1>
 
-          <p className="text-base sm:text-xl text-slate-600 font-medium max-w-2xl mx-auto leading-relaxed">
+          <p className="text-base sm:text-lg text-slate-600 font-medium max-w-2xl mx-auto leading-relaxed">
             5.768+ ürün arasından bütçene ve kullanımına en uygun donanımı bulan yapay zekâ danışmanın.
           </p>
         </div>
 
-        {/* Embedded Main Chat Container (Responsive Split Layout) */}
+        {/* SINGLE UNIFIED HERO BLOCK (Mascot Fixed on Left + Panel on Right) */}
         <div className="relative max-w-5xl mx-auto mb-16">
+          <div className="rounded-3xl border border-white/90 bg-white/95 backdrop-blur-2xl shadow-[0_20px_60px_-15px_rgba(0,163,255,0.12)] p-5 sm:p-8 overflow-hidden">
+            
+            {/* Main Hero Container Grid: Desktop (2 Columns side-by-side), Mobile (Vertical Stacked) */}
+            <div className="grid grid-cols-1 md:grid-cols-12 gap-6 md:gap-8 items-center">
 
-          {/* Grid Layout: Desktop Side-by-Side (768px+), Mobile Stacked (<768px) */}
-          <div className="grid grid-cols-1 md:grid-cols-12 gap-6 md:gap-8 items-center">
-
-            {/* LEFT COLUMN: Metallic RoboPengu Mascot */}
-            <div className="md:col-span-4 flex flex-col items-center justify-center text-center">
-              <div className="relative flex flex-col items-center">
-                
-                {/* Mascot Artwork with Anti-Gravity Float */}
-                <div className="relative w-40 h-48 sm:w-56 sm:h-64 animate-antigravity-float">
-                  <Image
-                    src="/assets/robopengu-modal-mascot.png"
-                    alt="RoboPengu Mascot"
-                    fill
-                    sizes="(max-width: 768px) 160px, 224px"
-                    className="object-contain drop-shadow-[0_15px_30px_rgba(0,163,255,0.2)]"
-                    priority
-                  />
-                  {/* Chest Reactor Pulse Glow */}
-                  <div className="absolute top-[42%] left-[45%] -translate-x-1/2 -translate-y-1/2 w-6 h-6 sm:w-8 sm:h-8 rounded-full bg-cyan-400/80 animate-reactor-pulse pointer-events-none" />
-                </div>
-
-                {/* "Küresel AI Haberleri •" Badge */}
-                <div className="mt-2 inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-slate-900/90 text-white text-xs font-semibold shadow-md border border-slate-700/60">
-                  <span className="text-cyan-400">🌐</span>
-                  <span>Küresel AI Haberleri</span>
-                  <span className="w-2 h-2 rounded-full bg-emerald-400 animate-ping" />
-                </div>
-
-              </div>
-            </div>
-
-            {/* RIGHT COLUMN: RoboPengu White Chat Console Panel */}
-            <div className="md:col-span-8">
-              <div className="rounded-3xl border border-white/90 bg-white/95 backdrop-blur-2xl shadow-[0_20px_60px_-15px_rgba(0,163,255,0.12)] p-5 sm:p-8 overflow-hidden">
-                
-                {/* Top Header Bar */}
-                <div className="flex items-center justify-between pb-4 mb-5 border-b border-slate-100">
-                  <div className="flex items-center gap-2.5">
-                    <div className="w-7 h-7 rounded-full bg-gradient-to-tr from-cyan-500 to-emerald-400 p-0.5 shadow-xs">
-                      <div className="w-full h-full rounded-full bg-slate-900 flex items-center justify-center text-white text-[10px] font-bold">
-                        RP
-                      </div>
-                    </div>
-                    <span className="text-sm sm:text-base font-bold text-slate-900 tracking-tight">RoboPengu</span>
+              {/* LEFT COLUMN: Clean Cutout Mascot (Fixed Position, Forward Facing) */}
+              <div className="md:col-span-4 flex flex-col items-center justify-center text-center">
+                <div className="relative flex flex-col items-center">
+                  
+                  {/* Mascot Image (Using New Clean Asset `robopengu-mascot-clean.png`) */}
+                  <div className="relative w-44 h-52 sm:w-56 sm:h-64 animate-antigravity-float">
+                    <Image
+                      src="/assets/robopengu-mascot-clean.png"
+                      alt="RoboPengu AI Mascot"
+                      fill
+                      sizes="(max-width: 768px) 176px, 224px"
+                      className="object-contain filter drop-shadow-[0_12px_28px_rgba(0,163,255,0.22)]"
+                      priority
+                    />
+                    {/* Chest Reactor Pulse Glow */}
+                    <div className="absolute top-[48%] left-[49%] -translate-x-1/2 -translate-y-1/2 w-6 h-6 sm:w-7 sm:h-7 rounded-full bg-cyan-400/90 animate-reactor-pulse pointer-events-none" />
                   </div>
 
-                  <div className="flex items-center gap-2 sm:gap-3 text-xs font-medium text-slate-500">
+                </div>
+              </div>
+
+              {/* RIGHT COLUMN: RoboPengu Primary Greeting & Interaction Console */}
+              <div className="md:col-span-8 flex flex-col justify-between">
+                
+                {/* Panel Top Header Bar (No duplicate emblem circle!) */}
+                <div className="flex items-center justify-between pb-4 mb-4 border-b border-slate-100">
+                  <div className="flex items-center gap-3">
+                    <div>
+                      <div className="flex items-center gap-2">
+                        <h2 className="text-xl sm:text-2xl font-extrabold text-slate-900 tracking-tight">
+                          RoboPengu
+                        </h2>
+                        <span className="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full bg-emerald-50 text-emerald-700 border border-emerald-200 text-[11px] font-bold">
+                          <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-ping" />
+                          <span>Canlı AI</span>
+                        </span>
+                      </div>
+                      <p className="text-xs sm:text-sm font-medium text-slate-500">
+                        aceleetme.tech Baş Teknoloji Danışmanı
+                      </p>
+                    </div>
+                  </div>
+
+                  <div className="flex items-center gap-2 text-xs font-medium text-slate-500">
                     <button
                       type="button"
                       onClick={() => setIsMuted(!isMuted)}
@@ -333,100 +340,40 @@ export function ChoiceAAntiGravityLanding() {
                       <span className="hidden sm:inline">{isMuted ? 'Sessiz' : 'Ses Açık'}</span>
                     </button>
 
-                    <button
-                      type="button"
-                      onClick={handleClear}
-                      className="flex items-center gap-1 px-2.5 py-1.5 rounded-full hover:bg-slate-100 text-slate-500 hover:text-slate-900 transition-colors min-h-[44px]"
-                    >
-                      <Trash2 className="w-3.5 h-3.5" />
-                      <span>Temizle</span>
-                    </button>
+                    {isPanelOpen && (
+                      <button
+                        type="button"
+                        onClick={handleClosePanel}
+                        className="flex items-center gap-1 px-2.5 py-1.5 rounded-full hover:bg-slate-100 text-slate-500 hover:text-slate-900 transition-colors min-h-[44px]"
+                      >
+                        <Trash2 className="w-3.5 h-3.5" />
+                        <span>Sıfırla</span>
+                      </button>
+                    )}
                   </div>
                 </div>
 
-                {/* Main Console Content */}
-                {!activeQuickResponse ? (
-                  <div className="text-center my-4 sm:my-6">
-                    
-                    {/* Glowing Emblem & Header */}
-                    <div className="inline-flex items-center justify-center w-16 h-16 sm:w-20 sm:h-20 rounded-full bg-gradient-to-br from-cyan-100/80 via-teal-50/50 to-blue-100/80 border border-cyan-200/60 shadow-[0_8px_25px_-5px_rgba(0,163,255,0.18)] mb-3">
-                      <Image
-                        src="/images/futuristic_robopengu_emblem.png"
-                        alt="RoboPengu Emblem"
-                        width={60}
-                        height={60}
-                        className="object-contain p-1"
-                      />
-                    </div>
-
-                    <h2 className="text-xl sm:text-2xl font-extrabold text-slate-900 tracking-tight">
-                      RoboPengu
-                    </h2>
-                    <p className="text-xs sm:text-sm font-medium text-slate-500 mb-6">
-                      aceleetme.tech Baş Teknoloji Danışmanı
-                    </p>
-
-                    {/* 4 Quick Suggestion Pills */}
-                    {/* Responsive: Horizontally scrollable single row on mobile (<768px), flex wrap on desktop */}
-                    <div className="mb-6">
-                      <div className="flex md:flex-wrap items-center justify-start md:justify-center gap-2 overflow-x-auto pb-2 md:pb-0 scrollbar-none snap-x -mx-2 px-2">
-                        {Object.keys(QUICK_AI_RESPONSES).map((pillText) => (
-                          <button
-                            key={pillText}
-                            type="button"
-                            onClick={() => handlePillClick(pillText)}
-                            className="snap-start shrink-0 inline-flex items-center gap-1.5 px-3.5 py-2.5 rounded-full bg-slate-50 border border-slate-200/80 text-xs font-semibold text-slate-700 hover:text-cyan-600 hover:border-cyan-400 hover:bg-cyan-50/50 transition-all min-h-[44px] cursor-pointer"
-                          >
-                            <span>{pillText}</span>
-                          </button>
-                        ))}
-                      </div>
-                    </div>
-
+                {/* 4 Quick Suggestion Pills */}
+                {/* Responsive: Horizontally scrollable single row on mobile (<768px), flex wrap on desktop */}
+                <div className="mb-5">
+                  <div className="text-[11px] font-bold uppercase tracking-wider text-slate-400 mb-2">
+                    Popüler Karşılaştırma Önerileri
                   </div>
-                ) : (
-                  /* Active AI Response View */
-                  <div className="my-3 p-4 sm:p-5 rounded-2xl bg-gradient-to-br from-slate-50 to-cyan-50/30 border border-cyan-100 animate-fadeIn">
-                    <div className="flex items-center justify-between mb-3 pb-2 border-b border-cyan-100">
-                      <span className="px-2.5 py-0.5 rounded-full bg-cyan-500 text-white text-[11px] font-bold">
-                        {activeQuickResponse.badge}
-                      </span>
+                  <div className="flex md:flex-wrap items-center justify-start gap-2 overflow-x-auto pb-2 md:pb-0 scrollbar-none snap-x -mx-1 px-1">
+                    {Object.keys(QUICK_AI_RESPONSES).map((pillText) => (
                       <button
-                        onClick={() => setActiveQuickResponse(null)}
-                        className="text-xs text-slate-400 hover:text-slate-700 underline"
+                        key={pillText}
+                        type="button"
+                        onClick={() => handlePillClick(pillText)}
+                        className="snap-start shrink-0 inline-flex items-center gap-1.5 px-3.5 py-2.5 rounded-full bg-slate-50 border border-slate-200/80 text-xs font-semibold text-slate-700 hover:text-cyan-600 hover:border-cyan-400 hover:bg-cyan-50/50 transition-all min-h-[44px] cursor-pointer"
                       >
-                        Yeni Arama
+                        <span>{pillText}</span>
                       </button>
-                    </div>
-
-                    <h3 className="text-base sm:text-lg font-bold text-slate-900 mb-2">{activeQuickResponse.title}</h3>
-                    <p className="text-xs sm:text-sm font-medium text-emerald-800 mb-3 bg-emerald-50 p-2.5 rounded-xl border border-emerald-200/60">
-                      💡 {activeQuickResponse.verdict}
-                    </p>
-
-                    <div className="space-y-1.5 mb-3">
-                      {activeQuickResponse.specs.map((spec, idx) => (
-                        <div key={idx} className="grid grid-cols-3 text-xs py-1 px-2.5 rounded-lg bg-white/80 border border-slate-100">
-                          <span className="font-semibold text-slate-500">{spec.label}</span>
-                          <span className="text-slate-900 font-medium truncate">{spec.p1}</span>
-                          <span className="text-slate-600 truncate">{spec.p2}</span>
-                        </div>
-                      ))}
-                    </div>
-
-                    <div className="flex justify-end pt-2">
-                      <Link
-                        href={activeQuickResponse.link}
-                        className="inline-flex items-center gap-1.5 px-4 py-2.5 rounded-xl bg-slate-900 hover:bg-cyan-600 text-white text-xs font-bold transition-colors min-h-[44px]"
-                      >
-                        <span>Detaylı Kıyaslama</span>
-                        <ArrowRight className="w-3.5 h-3.5" />
-                      </Link>
-                    </div>
+                    ))}
                   </div>
-                )}
+                </div>
 
-                {/* Bottom Input Console */}
+                {/* Bottom Interactive Search Console */}
                 <form
                   onSubmit={(e) => {
                     e.preventDefault();
@@ -438,7 +385,7 @@ export function ChoiceAAntiGravityLanding() {
                     type="text"
                     value={inputQuery}
                     onChange={(e) => setInputQuery(e.target.value)}
-                    placeholder="RoboPengu'ya sorun"
+                    placeholder="RoboPengu'ya sorun (örn: iPhone 16 Pro vs S24 Ultra...)"
                     className="w-full bg-transparent pl-4 pr-20 text-xs sm:text-sm text-slate-900 placeholder-slate-400 focus:outline-none font-medium min-h-[44px]"
                   />
 
@@ -454,7 +401,7 @@ export function ChoiceAAntiGravityLanding() {
 
                     <button
                       type="submit"
-                      className="flex items-center justify-center w-9 h-9 rounded-full bg-gradient-to-tr from-cyan-500 to-blue-600 hover:from-cyan-400 hover:to-blue-500 text-white shadow-xs transition-transform hover:scale-105 active:scale-95"
+                      className="flex items-center justify-center w-9 h-9 rounded-full bg-gradient-to-tr from-cyan-500 to-blue-600 hover:from-cyan-400 hover:to-blue-500 text-white shadow-xs transition-transform hover:scale-105 active:scale-95 cursor-pointer"
                       title="Analiz Et"
                     >
                       {isAnalyzing ? (
@@ -471,9 +418,109 @@ export function ChoiceAAntiGravityLanding() {
                 </form>
 
               </div>
+
             </div>
 
           </div>
+
+          {/* ========================================================================= */}
+          {/* SLIDE-IN EXPANDABLE RESULT PANEL (Desktop Slide-in / Mobile Bottom Sheet) */}
+          {/* ========================================================================= */}
+          {isPanelOpen && activeResult && (
+            <>
+              {/* DESKTOP (md:block): Horizontal Slide-in Panel directly beside RoboPengu */}
+              <div className="hidden md:block mt-6 p-6 rounded-3xl bg-gradient-to-br from-slate-900 via-slate-950 to-slate-900 text-white border border-cyan-500/40 shadow-2xl transition-all duration-500 animate-slide-in">
+                <div className="flex items-center justify-between pb-4 border-b border-slate-800 mb-4">
+                  <div className="flex items-center gap-3">
+                    <span className="px-3 py-1 rounded-full bg-cyan-500 text-slate-950 text-xs font-black">
+                      {activeResult.badge}
+                    </span>
+                    <span className="text-xs font-bold text-slate-400">RoboScore: {activeResult.score}</span>
+                  </div>
+                  <button
+                    onClick={handleClosePanel}
+                    className="p-1.5 rounded-full hover:bg-slate-800 text-slate-400 hover:text-white transition-colors cursor-pointer"
+                  >
+                    <X className="w-5 h-5" />
+                  </button>
+                </div>
+
+                <h3 className="text-xl font-extrabold text-white mb-2">{activeResult.title}</h3>
+                
+                <div className="p-3 rounded-xl bg-emerald-950/80 border border-emerald-500/40 text-emerald-300 text-xs sm:text-sm font-semibold mb-4">
+                  💡 {activeResult.verdict}
+                </div>
+
+                {/* Yan Yana Kıyaslama Tablosu (Side-by-side Table Format) */}
+                <div className="space-y-2 mb-5">
+                  <div className="grid grid-cols-3 text-xs font-bold text-slate-400 pb-1 border-b border-slate-800">
+                    <span>Özellik Kriteri</span>
+                    <span className="text-cyan-400">Seçenek 1</span>
+                    <span className="text-teal-400">Seçenek 2</span>
+                  </div>
+                  {activeResult.specs.map((spec, idx) => (
+                    <div key={idx} className="grid grid-cols-3 text-xs sm:text-sm py-2 px-3 rounded-lg bg-slate-900/80 border border-slate-800">
+                      <span className="font-semibold text-slate-400">{spec.label}</span>
+                      <span className="text-white font-bold truncate">{spec.p1}</span>
+                      <span className="text-slate-300 truncate">{spec.p2}</span>
+                    </div>
+                  ))}
+                </div>
+
+                <div className="flex items-center justify-between pt-2 border-t border-slate-800">
+                  <p className="text-xs text-slate-400 max-w-lg">{activeResult.summary}</p>
+                  <Link
+                    href={activeResult.link}
+                    className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-gradient-to-r from-cyan-500 to-teal-400 text-slate-950 font-black text-xs hover:from-cyan-400 hover:to-teal-300 transition-transform hover:scale-105"
+                  >
+                    <span>Tüm Mağaza Fiyatlarını İncele</span>
+                    <ArrowRight className="w-4 h-4" />
+                  </Link>
+                </div>
+              </div>
+
+              {/* MOBILE (<md): Slide-up Bottom Sheet Drawer */}
+              <div className="md:hidden fixed inset-x-0 bottom-0 z-50 rounded-t-3xl bg-slate-900 text-white p-6 border-t border-cyan-500/40 shadow-2xl space-y-4 animate-slide-up max-h-[85vh] overflow-y-auto">
+                <div className="flex items-center justify-between pb-3 border-b border-slate-800">
+                  <span className="px-2.5 py-0.5 rounded-full bg-cyan-500 text-slate-950 text-xs font-black">
+                    {activeResult.badge}
+                  </span>
+                  <button
+                    onClick={handleClosePanel}
+                    className="p-2 rounded-full hover:bg-slate-800 text-slate-400 hover:text-white transition-colors min-h-[44px] min-w-[44px] flex items-center justify-center"
+                  >
+                    <X className="w-5 h-5" />
+                  </button>
+                </div>
+
+                <h3 className="text-lg font-bold text-white">{activeResult.title}</h3>
+                
+                <div className="p-3 rounded-xl bg-emerald-950/80 border border-emerald-500/40 text-emerald-300 text-xs font-semibold">
+                  💡 {activeResult.verdict}
+                </div>
+
+                <div className="space-y-2">
+                  {activeResult.specs.map((spec, idx) => (
+                    <div key={idx} className="grid grid-cols-3 text-xs py-2 px-2.5 rounded-lg bg-slate-800/80">
+                      <span className="font-semibold text-slate-400">{spec.label}</span>
+                      <span className="text-white font-bold truncate">{spec.p1}</span>
+                      <span className="text-slate-300 truncate">{spec.p2}</span>
+                    </div>
+                  ))}
+                </div>
+
+                <div className="pt-2">
+                  <Link
+                    href={activeResult.link}
+                    className="w-full inline-flex items-center justify-center gap-2 py-3 rounded-xl bg-cyan-500 text-slate-950 font-black text-xs min-h-[44px]"
+                  >
+                    <span>Kıyaslamayı Gör</span>
+                    <ArrowRight className="w-4 h-4" />
+                  </Link>
+                </div>
+              </div>
+            </>
+          )}
 
         </div>
 
