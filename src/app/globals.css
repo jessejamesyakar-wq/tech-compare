@@ -407,33 +407,59 @@ html, body {
   }
 }
 
-/* 🚀 AntiGravity Float & Reactor Pulse Animations for Choice A Landing */
+/* 🚀 Ultra-Smooth AntiGravity Float Motion for RoboPengu */
 @keyframes antigravityFloat {
-  0%, 100% {
+  0% {
     transform: translateY(0px) rotate(0deg);
   }
-  50% {
-    transform: translateY(-14px) rotate(1.2deg);
+  20% {
+    transform: translateY(-8px) rotate(-1.2deg);
+  }
+  45% {
+    transform: translateY(-18px) rotate(1.5deg);
+  }
+  70% {
+    transform: translateY(-9px) rotate(-0.8deg);
+  }
+  100% {
+    transform: translateY(0px) rotate(0deg);
   }
 }
 
 .animate-antigravity-float {
-  animation: antigravityFloat 4.5s ease-in-out infinite;
+  animation: antigravityFloat 5s cubic-bezier(0.45, 0.05, 0.55, 0.95) infinite;
+  will-change: transform;
 }
 
-@keyframes reactorPulse {
+@keyframes mascotShadowFloat {
   0%, 100% {
-    box-shadow: 0 0 15px 4px rgba(0, 163, 255, 0.4), inset 0 0 10px 2px rgba(0, 200, 250, 0.6);
-    filter: drop-shadow(0 0 12px rgba(0, 163, 255, 0.6));
+    transform: scale(1);
+    opacity: 0.4;
+    filter: blur(6px);
   }
-  50% {
-    box-shadow: 0 0 35px 12px rgba(0, 200, 250, 0.85), inset 0 0 18px 6px rgba(0, 240, 255, 0.9);
-    filter: drop-shadow(0 0 24px rgba(0, 200, 250, 0.95));
+  45% {
+    transform: scale(0.75);
+    opacity: 0.15;
+    filter: blur(12px);
   }
 }
 
-.animate-reactor-pulse {
-  animation: reactorPulse 2.5s ease-in-out infinite;
+.animate-mascot-shadow {
+  animation: mascotShadowFloat 5s cubic-bezier(0.45, 0.05, 0.55, 0.95) infinite;
+  will-change: transform, opacity, filter;
+}
+
+@keyframes slideInRightDrawer {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+.animate-slideInRight {
+  animation: slideInRightDrawer 0.35s cubic-bezier(0.16, 1, 0.3, 1) forwards;
 }
 
 
