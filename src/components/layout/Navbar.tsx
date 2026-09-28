@@ -138,12 +138,26 @@ export function Navbar() {
 
   const currentPlaceholder = placeholderList[placeholderIndex];
 
-  // Open Gemini AI Assistant modal cleanly
+  // Open Gemini AI Assistant: on homepage smooth-scrolls to the inline hero and focuses input; on other pages redirects to /#robopengu-hero
   const openAiAssistant = (initialText?: string, isVoice = false) => {
-    setAiModalQuery(initialText || query);
-    setAiModalVoiceTrigger(isVoice);
-    setIsAiModalOpen(true);
     setIsFocused(false);
+    if (isHomePage) {
+      const heroSection = document.getElementById('robopengu-hero');
+      if (heroSection) {
+        heroSection.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        const inputElem = heroSection.querySelector<HTMLInputElement>('input[aria-label="RoboPengu mesajı"]');
+        if (inputElem) {
+          setTimeout(() => inputElem.focus(), 350);
+          if (initialText) {
+            inputElem.value = initialText;
+            inputElem.dispatchEvent(new Event('input', { bubbles: true }));
+          }
+        }
+        return;
+      }
+    } else {
+      router.push('/#robopengu-hero');
+    }
   };
 
   // Await the shared index and ignore completions from superseded queries.

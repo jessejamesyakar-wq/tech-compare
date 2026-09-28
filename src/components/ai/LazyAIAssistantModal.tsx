@@ -9,7 +9,7 @@ export function LazyAIAssistantModal(props: AIAssistantModalProps) {
   const [Assistant, setAssistant] = useState<ComponentType<AIAssistantModalProps> | null>(null);
   const [failed, setFailed] = useState(false);
   const [attempt, setAttempt] = useState(0);
-  const focusRef = useModalFocus(props.isOpen && !Assistant, props.onClose);
+  const focusRef = useModalFocus(Boolean(props.isOpen && !Assistant), props.onClose || (() => {}));
 
   useEffect(() => {
     if (!props.isOpen || Assistant) return;

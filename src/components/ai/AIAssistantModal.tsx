@@ -186,10 +186,11 @@ interface ChatMessage {
 }
 
 export interface AIAssistantModalProps {
-  isOpen: boolean;
-  onClose: () => void;
+  isOpen?: boolean;
+  onClose?: () => void;
   initialQuery?: string;
   initialVoiceTrigger?: boolean;
+  isInline?: boolean;
 }
 
 // ---- İçerik Ayrıştırıcı (Sol Sohbet Özeti, Sağ Derinlemesine Analiz & Sesli Özet) ----
@@ -521,10 +522,11 @@ function renderInlineFormatting(text: string): React.ReactNode {
 // ---- ANA MODAL BİLEŞENİ ---------------------------------------------
 
 export function AIAssistantModal({
-  isOpen,
-  onClose,
+  isOpen = true,
+  onClose = () => {},
   initialQuery = '',
   initialVoiceTrigger = false,
+  isInline = false,
 }: AIAssistantModalProps) {
   const [messages, setMessages] = useState<ChatMessage[]>([
     {
@@ -910,6 +912,7 @@ export function AIAssistantModal({
   const analysisSections = parseAnalysisSections(activeDeepAnalysis || '');
 
   const messagesEndRef = useRef<HTMLDivElement>(null);
+  const chatContainerRef = useRef<HTMLDivElement>(null);
   const inputRef = useRef<HTMLInputElement>(null);
   const activeRequestIdRef = useRef<string | null>(null);
   const abortControllerRef = useRef<AbortController | null>(null);
@@ -935,13 +938,13 @@ export function AIAssistantModal({
 
   // Hydrate before an initial query; also pick up history from another launcher.
   useEffect(() => {
-    if (!isOpen) { setHistoryReady(false); return; }
+    if (!isOpen && !isInline) { setHistoryReady(false); return; }
     try {
       const saved = localStorage.getItem(CHAT_HISTORY_KEY);
       if (!historyLoadedRef.current || saved !== lastHistoryRawRef.current) {
         const decoded = decodeChatHistory(saved);
         setHistoryNotice(decoded.invalidCount ? 'Geçmişteki bazı kayıtlar okunamadı. Okunabilir mesajlar gösteriliyor; kayıtlar otomatik silinmedi.' : '');
-        const restored: ChatMessage[] = decoded.messages.length ? decoded.messages : [{ id: 'welcome', role: 'assistant', content: "Merhaba! Ben RoboPengu. Ürünleri kayıtlı özellikleriyle karşılaştırmana ve fiyatların doğrulama durumunu incelemene yardımcı olabilirim. 🐧" }];
+        const restored: ChatMessage[] = decoded.messages.length ? decoded.messages : [{ id: 'welcome', role: 'assistant', content: "Merhaba! Ben RoboPengu, aceleetme'nin tarafsız ve uzman baş teknoloji danışmanıyım! 🐧\n\nTelefon, TV, laptop, tablet ve tüm teknoloji ürünleri hakkında tarafsız karşılaştırmalar yapabilir, fiyatların doğrulama durumunu gösterebilir veya acele etmeden en doğru kararı vermen için donanımları kıyaslayabilirim.\n\nNasıl yardımcı olabilirim?" }];
         historySnapshotRef.current = restored;
         if (historyLoadedRef.current) setActivePanel(null);
         setMessages(restored);
@@ -952,7 +955,7 @@ export function AIAssistantModal({
       setHistoryNotice('Bu tarayıcıda sohbet geçmişine erişilemiyor. Yeni mesajlar bu oturumda kullanılabilir.');
     }
     setHistoryReady(true);
-  }, [isOpen]);
+  }, [isOpen, isInline]);
 
   // 2. Mesajlar tamamlandıkça localStorage'a kaydet (Streaming bitince)
   useEffect(() => {
@@ -969,14 +972,14 @@ export function AIAssistantModal({
     }
   }, [messages, historyReady]);
 
-  // The first lazy mount keeps input disabled until hydration; focus it once ready.
+  // The first lazy mount keeps input disabled until hydration; focus it once ready (modal only).
   useEffect(() => {
-    if (!isOpen || !historyReady) return;
+    if (isInline || !isOpen || !historyReady) return;
     const frame = requestAnimationFrame(() => {
       if (!inputRef.current?.disabled) inputRef.current?.focus();
     });
     return () => cancelAnimationFrame(frame);
-  }, [isOpen, historyReady]);
+  }, [isOpen, historyReady, isInline]);
 
 
   const stopResponse = () => {
@@ -1240,18 +1243,23 @@ export function AIAssistantModal({
 
   const initialQueryHandledRef = useRef('');
   useEffect(() => {
-    if (!isOpen) { initialQueryHandledRef.current = ''; return; }
+    if (!isOpen && !isInline) { initialQueryHandledRef.current = ''; return; }
     if (!historyReady) return;
     const query = initialQuery.trim();
     if (query && !loading && initialQueryHandledRef.current !== query) {
       initialQueryHandledRef.current = query;
       handleSend(query, initialVoiceTrigger);
     }
-  }, [isOpen, initialQuery, initialVoiceTrigger, loading, historyReady]);
+  }, [isOpen, isInline, initialQuery, initialVoiceTrigger, loading, historyReady]);
 
   useEffect(() => {
-    if (isOpen) messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' });
-  }, [messages, loading, isOpen]);
+    if (chatContainerRef.current && messages.length > 1) {
+      chatContainerRef.current.scrollTo({
+        top: chatContainerRef.current.scrollHeight,
+        behavior: 'smooth'
+      });
+    }
+  }, [messages, loading]);
 
   // 4 Hızlı Aksiyon Butonu
   const quickActions = [
@@ -1277,6 +1285,13 @@ export function AIAssistantModal({
     stopResponse();
     stopSpeaking();
     stopListening();
+    if (isInline) {
+      if (activePanel) {
+        setActivePanel(null);
+        setMobileTab('chat');
+      }
+      return;
+    }
     onClose();
   };
 
@@ -1294,6 +1309,7 @@ export function AIAssistantModal({
   });
 
   useEffect(() => {
+    if (isInline) return;
     if (!isOpen || !dialogRef.current) return;
     const dialog = dialogRef.current;
     const trigger = document.activeElement as HTMLElement | null;
@@ -1355,73 +1371,14 @@ export function AIAssistantModal({
     };
   }, []);
 
-  if (!isOpen) return null;
+  if (!isOpen && !isInline) return null;
 
   const hasPanel = activePanel !== null;
 
-  return (
-    <AnimatePresence>
-      {/* Arka Plan Overlay */}
-      <div
-        ref={dialogRef}
-        role="dialog"
-        aria-modal="true"
-        aria-label="RoboPengu teknoloji asistanı"
-        tabIndex={-1}
-        className="fixed inset-0 bg-slate-900/60 backdrop-blur-sm flex items-end sm:items-center justify-center p-0 sm:p-4 z-50 animate-in fade-in duration-200"
-        onClick={(e) => {
-          if (e.target === e.currentTarget) handleClose();
-        }}
-      >
-        {/* Ana Kapsayıcı: Maskot + Dinamik Genişleyen Modal */}
-        <div
-          className={`relative w-full h-full sm:h-auto transition-all duration-300 ease-out flex items-center justify-center ${
-            hasPanel ? 'max-w-full sm:max-w-4xl lg:max-w-5xl xl:max-w-6xl' : 'max-w-full sm:max-w-2xl lg:max-w-3xl'
-          }`}
-        >
-          {/* 1. MASKOT: Masaüstü ekranlarda sol kenarda 3D Penguen */}
-          <div className={`${hasPanel ? 'hidden 2xl:block -left-[275px]' : 'hidden xl:block -left-[255px]'} absolute -top-[40px] z-30 pointer-events-none select-none animate-float`}>
-            <div className="relative">
-              <img
-                src="/assets/robopengu.png"
-                alt="RoboPengu 3D"
-                className="w-[320px] max-w-none h-auto object-contain drop-shadow-[0_25px_35px_rgba(0,0,0,0.35)]"
-              />
-              {/* Güç Reaktörü LED Butonu (Yapay Zeka Haberleri) */}
-              <button
-                type="button"
-                className="absolute top-[57.5%] left-[68.8%] -translate-x-1/2 -translate-y-1/2 w-9 h-9 flex items-center justify-center cursor-pointer pointer-events-auto group active:scale-95 transition-transform"
-                title="Dünyadaki Yapay Zeka Haberleri (Açmak İçin Tıkla) 🌐"
-                onClick={handleReactorClick}
-                aria-label="Dünyadaki Yapay Zeka Haberleri"
-              >
-                {renderCyberReactor('lg')}
-              </button>
-
-              {/* Küresel Yapay Zeka Bülteni Butonu & Göstergesi */}
-              <button
-                type="button"
-                onClick={handleReactorClick}
-                className="absolute -bottom-9 left-1/2 -translate-x-1/2 whitespace-nowrap bg-slate-900/90 dark:bg-slate-950/95 text-white border border-slate-700/80 hover:border-cyan-500/60 rounded-full px-3 py-1 text-[10px] font-bold tracking-wide shadow-lg flex items-center gap-1.5 backdrop-blur-md cursor-pointer pointer-events-auto active:scale-95 transition-all"
-                title="Dünyadaki Yapay Zeka Haberlerini Aç (Kayan Pencere)"
-              >
-                <Globe className="w-3 h-3 text-cyan-400" />
-                <span className="text-slate-200 text-[9.5px]">Küresel AI Haberleri</span>
-                <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse ml-0.5" />
-              </button>
-            </div>
-          </div>
-
-          {/* 2. CHAT VE YAN PANEL KAPSAYICISI (MOBİL VE TABLET UYUMLU) */}
-          <motion.div
-            initial={{ opacity: 0, scale: 0.98, y: 10 }}
-            animate={{ opacity: 1, scale: 1, y: 0 }}
-            exit={{ opacity: 0, scale: 0.98, y: 10 }}
-            transition={{ duration: 0.2 }}
-            className="relative w-full bg-gradient-to-b from-white via-[#f0f7ff] to-[#d6ebff] dark:from-slate-900 dark:via-slate-900 dark:to-slate-950 rounded-none sm:rounded-3xl shadow-2xl border-0 sm:border border-blue-100/80 dark:border-slate-800 flex flex-col overflow-hidden h-[100dvh] sm:h-[640px] md:h-[680px] lg:h-[720px] max-h-[100dvh] sm:max-h-[92vh] z-20"
-          >
-            {/* Modal Üst Başlık Çubuğu */}
-            <div className="px-3 sm:px-6 py-2.5 sm:py-3 border-b border-blue-100/60 dark:border-slate-800 flex items-center justify-between bg-white/75 dark:bg-slate-900/75 backdrop-blur-md shrink-0 gap-2 flex-wrap">
+  const renderCardInner = () => (
+    <>
+      {/* Modal Üst Başlık Çubuğu */}
+      <div className="px-3 sm:px-6 py-2.5 sm:py-3 border-b border-slate-200/80 dark:border-slate-800 flex items-center justify-between bg-white/75 dark:bg-slate-900/75 backdrop-blur-md shrink-0 gap-2 flex-wrap">
               <div className="flex items-center gap-2 sm:gap-3 min-w-0">
                 <div className="relative w-8 h-8 sm:w-9 sm:h-9 rounded-full bg-slate-900/90 dark:bg-slate-800 flex items-center justify-center overflow-hidden border border-cyan-400/40 dark:border-cyan-600 shrink-0 shadow-xs">
                   <img src="/images/futuristic_robopengu_emblem.png" alt="RoboPengu" className="w-7 h-7 sm:w-8 sm:h-8 object-contain" />
@@ -1529,13 +1486,15 @@ export function AIAssistantModal({
                   <Trash2 className="w-4 h-4" />
                   <span className="hidden md:inline text-[11px] font-medium">Temizle</span>
                 </button>
-                <button
-                  onClick={handleClose}
-                  className="text-slate-400 hover:text-slate-700 dark:hover:text-slate-200 transition text-lg min-h-11 min-w-11 p-1.5 sm:p-2 rounded-xl hover:bg-slate-100 dark:hover:bg-slate-800 cursor-pointer touch-manipulation active:scale-95 flex items-center justify-center"
-                  aria-label="Kapat"
-                >
-                  ✕
-                </button>
+                {!isInline && (
+                  <button
+                    onClick={handleClose}
+                    className="text-slate-400 hover:text-slate-700 dark:hover:text-slate-200 transition text-lg min-h-11 min-w-11 p-1.5 sm:p-2 rounded-xl hover:bg-slate-100 dark:hover:bg-slate-800 cursor-pointer touch-manipulation active:scale-95 flex items-center justify-center"
+                    aria-label="Kapat"
+                  >
+                    ✕
+                  </button>
+                )}
               </div>
             </div>
 
@@ -1545,12 +1504,12 @@ export function AIAssistantModal({
               <div
                 className={`flex flex-col h-full bg-slate-50/40 dark:bg-slate-950/40 transition-all duration-200 ${
                   hasPanel
-                    ? 'w-full lg:w-[420px] xl:w-[460px] shrink-0 border-r border-slate-100 dark:border-slate-800'
+                    ? 'w-full lg:w-[420px] xl:w-[460px] shrink-0 border-r border-slate-200/80 dark:border-slate-800'
                     : 'w-full'
                 } ${hasPanel && mobileTab === 'panel' ? 'hidden lg:flex' : 'flex'}`}
               >
                 {/* Mesaj Listesi / Karşılama Ekranı */}
-                <div className="flex-1 overflow-y-auto p-4 sm:p-5 space-y-4 flex flex-col">
+                <div ref={chatContainerRef} className="flex-1 overflow-y-auto p-4 sm:p-5 space-y-4 flex flex-col">
                   {historyNotice && <p role="status" className="rounded-xl border border-amber-200 bg-amber-50 p-3 text-xs text-amber-900">{historyNotice}</p>}
                   {messages.length === 1 && messages[0].id === 'welcome' ? (
                     /* 🫀 MERKEZ: SİBER SİBERNETİK KALP (ATAN KALP ANİMASYONU) VE BAŞLIK */
@@ -1558,7 +1517,7 @@ export function AIAssistantModal({
                       {/* 3D Kabartma (Embossed) Madalyon Kaidesi ve Siber Kalp */}
                       <div className="relative mb-6 flex items-center justify-center group">
                         {/* 3D Dairesel Kabartmalı Dış Kaide Plakası */}
-                        <div className="relative w-40 h-40 sm:w-48 sm:h-48 rounded-full p-2.5 sm:p-3 flex items-center justify-center transition-transform duration-300 group-hover:scale-105 bg-gradient-to-br from-white via-[#edf4fe] to-[#cde2fc] dark:from-slate-800 dark:via-slate-850 dark:to-slate-900 shadow-[-8px_-8px_20px_rgba(255,255,255,0.95),12px_14px_28px_rgba(14,165,233,0.20),inset_1.5px_1.5px_2px_rgba(255,255,255,1),inset_-1.5px_-1.5px_3px_rgba(15,23,42,0.08)] dark:shadow-[-6px_-6px_16px_rgba(255,255,255,0.05),10px_12px_25px_rgba(0,0,0,0.5),inset_1px_1px_2px_rgba(255,255,255,0.1),inset_-1px_-1px_2px_rgba(0,0,0,0.5)]">
+                        <div className="relative w-40 h-40 sm:w-48 sm:h-48 rounded-full p-2.5 sm:p-3 flex items-center justify-center transition-transform duration-300 group-hover:scale-105 bg-gradient-to-br from-white via-slate-100 to-slate-200/90 dark:from-slate-800 dark:via-slate-850 dark:to-slate-900 shadow-[-8px_-8px_20px_rgba(255,255,255,0.95),12px_14px_28px_rgba(100,116,139,0.18),inset_1.5px_1.5px_2px_rgba(255,255,255,1),inset_-1.5px_-1.5px_3px_rgba(15,23,42,0.06)] dark:shadow-[-6px_-6px_16px_rgba(255,255,255,0.05),10px_12px_25px_rgba(0,0,0,0.5),inset_1px_1px_2px_rgba(255,255,255,0.1),inset_-1px_-1px_2px_rgba(0,0,0,0.5)]">
                           
                           {/* İç Yiv ve Pah Halkası */}
                           <div className="w-full h-full rounded-full border border-white/80 dark:border-slate-700/60 flex items-center justify-center p-2 relative shadow-[inset_2px_3px_6px_rgba(15,23,42,0.10),inset_-2px_-3px_6px_rgba(255,255,255,0.85)] dark:shadow-[inset_2px_3px_6px_rgba(0,0,0,0.4),inset_-2px_-3px_6px_rgba(255,255,255,0.05)] overflow-hidden">
@@ -1588,7 +1547,7 @@ export function AIAssistantModal({
                                 repeat: Infinity,
                                 ease: 'easeInOut'
                               }}
-                              className="absolute inset-2 rounded-full bg-gradient-to-r from-cyan-400/50 via-sky-500/50 to-indigo-500/50 blur-xl pointer-events-none"
+                              className="absolute inset-2 rounded-full bg-gradient-to-r from-cyan-400/30 via-sky-500/30 to-indigo-500/30 blur-xl pointer-events-none"
                             />
 
                             {/* Siber Sibernetik Kalp (Hafif ve Zarif Mikron Atan Kalp Animasyonu) */}
@@ -1636,28 +1595,28 @@ export function AIAssistantModal({
                         <button
                           type="button"
                           onClick={() => handleSend('iPhone 16 Pro Max vs Galaxy S24 Ultra')}
-                          className="text-[11px] bg-white/90 dark:bg-slate-800/90 hover:bg-blue-50 dark:hover:bg-blue-950/60 text-slate-700 dark:text-slate-200 border border-blue-100 dark:border-slate-700 px-3 py-1.5 rounded-full transition shadow-2xs cursor-pointer active:scale-95 font-medium"
+                          className="text-[11px] bg-slate-50 dark:bg-slate-800/90 hover:bg-slate-100 dark:hover:bg-slate-700/80 text-slate-700 dark:text-slate-200 border border-slate-200/90 dark:border-slate-700 px-3 py-1.5 rounded-full transition shadow-2xs cursor-pointer active:scale-95 font-medium"
                         >
                           📱 iPhone 16 Pro Max vs S24 Ultra
                         </button>
                         <button
                           type="button"
                           onClick={() => handleSend('En iyi OLED TV hangisi?')}
-                          className="text-[11px] bg-white/90 dark:bg-slate-800/90 hover:bg-blue-50 dark:hover:bg-blue-950/60 text-slate-700 dark:text-slate-200 border border-blue-100 dark:border-slate-700 px-3 py-1.5 rounded-full transition shadow-2xs cursor-pointer active:scale-95 font-medium"
+                          className="text-[11px] bg-slate-50 dark:bg-slate-800/90 hover:bg-slate-100 dark:hover:bg-slate-700/80 text-slate-700 dark:text-slate-200 border border-slate-200/90 dark:border-slate-700 px-3 py-1.5 rounded-full transition shadow-2xs cursor-pointer active:scale-95 font-medium"
                         >
                           📺 En iyi OLED TV hangisi?
                         </button>
                         <button
                           type="button"
                           onClick={() => handleSend('Fiyat/Performans laptop tavsiyesi')}
-                          className="text-[11px] bg-white/90 dark:bg-slate-800/90 hover:bg-blue-50 dark:hover:bg-blue-950/60 text-slate-700 dark:text-slate-200 border border-blue-100 dark:border-slate-700 px-3 py-1.5 rounded-full transition shadow-2xs cursor-pointer active:scale-95 font-medium"
+                          className="text-[11px] bg-slate-50 dark:bg-slate-800/90 hover:bg-slate-100 dark:hover:bg-slate-700/80 text-slate-700 dark:text-slate-200 border border-slate-200/90 dark:border-slate-700 px-3 py-1.5 rounded-full transition shadow-2xs cursor-pointer active:scale-95 font-medium"
                         >
                           💻 F/P laptop tavsiyesi
                         </button>
                         <button
                           type="button"
                           onClick={() => handleSend('En iyi ANC gürültü engelleyici kulaklık')}
-                          className="text-[11px] bg-white/90 dark:bg-slate-800/90 hover:bg-blue-50 dark:hover:bg-blue-950/60 text-slate-700 dark:text-slate-200 border border-blue-100 dark:border-slate-700 px-3 py-1.5 rounded-full transition shadow-2xs cursor-pointer active:scale-95 font-medium"
+                          className="text-[11px] bg-slate-50 dark:bg-slate-800/90 hover:bg-slate-100 dark:hover:bg-slate-700/80 text-slate-700 dark:text-slate-200 border border-slate-200/90 dark:border-slate-700 px-3 py-1.5 rounded-full transition shadow-2xs cursor-pointer active:scale-95 font-medium"
                         >
                           🎧 ANC kulaklık önerisi
                         </button>
@@ -1911,7 +1870,7 @@ export function AIAssistantModal({
                 </div>
 
                 {/* Alt Kısım: Hızlı Aksiyon Butonları & Kapsül Arama Çubuğu */}
-                <div className="p-3 sm:p-4 pb-[max(0.85rem,env(safe-area-inset-bottom))] border-t border-blue-100/60 dark:border-slate-800/80 bg-white/60 dark:bg-slate-900/60 backdrop-blur-md space-y-2 shrink-0">
+                <div className="p-3 sm:p-4 pb-[max(0.85rem,env(safe-area-inset-bottom))] border-t border-slate-200/80 dark:border-slate-800 bg-white/70 dark:bg-slate-900/70 backdrop-blur-md space-y-2 shrink-0">
                   {/* Hızlı Aksiyon Butonları (Sadece sohbet aktifken gösterilir) */}
                   {(messages.length > 1 || messages[0]?.id !== 'welcome') && (
                     <div className="flex items-center gap-1.5 overflow-x-auto text-[11px] sm:text-xs no-scrollbar pb-0.5 touch-pan-x -mx-1 px-1">
@@ -1920,7 +1879,7 @@ export function AIAssistantModal({
                           key={i}
                           type="button"
                           onClick={() => handleSend(qa.prompt)}
-                          className="px-2.5 py-1 bg-white/80 dark:bg-slate-800/80 hover:bg-blue-50 dark:hover:bg-blue-950/50 hover:text-blue-600 dark:hover:text-blue-400 rounded-full whitespace-nowrap text-slate-600 dark:text-slate-300 transition-colors cursor-pointer border border-blue-100/80 dark:border-slate-700 active:scale-95 touch-manipulation font-medium shrink-0 shadow-2xs"
+                          className="px-2.5 py-1 bg-slate-50 dark:bg-slate-800 hover:bg-slate-100 dark:hover:bg-slate-700 text-slate-700 dark:text-slate-300 rounded-full whitespace-nowrap transition-colors cursor-pointer border border-slate-200 dark:border-slate-700 active:scale-95 touch-manipulation font-medium shrink-0 shadow-2xs"
                         >
                           {qa.label}
                         </button>
@@ -1956,7 +1915,7 @@ export function AIAssistantModal({
                         handleSend(input);
                       }
                     }}
-                    className="w-full bg-white dark:bg-slate-900 rounded-full border border-white/90 dark:border-slate-800 shadow-[0_10px_25px_-5px_rgba(30,58,138,0.10)] px-4 py-2 flex items-center justify-between gap-2.5 transition-all focus-within:ring-2 focus-within:ring-blue-400 dark:focus-within:ring-blue-600"
+                    className="w-full bg-white dark:bg-slate-900 rounded-full border border-slate-200/90 dark:border-slate-700 shadow-sm px-4 py-2 flex items-center justify-between gap-2.5 transition-all focus-within:ring-2 focus-within:ring-slate-400 dark:focus-within:ring-slate-600"
                   >
                     {/* Metin Giriş Alanı (+ İşareti Kaldırıldı) */}
                     <div className="flex-1 flex items-center pl-1 min-w-0">
@@ -2015,7 +1974,7 @@ export function AIAssistantModal({
                         )}
                       </button>
 
-                      {/* Ses Dalgası / Canlı Ses Modu Butonu (Görseldeki mavi yuvarlak buton) */}
+                      {/* Ses Dalgası / Canlı Ses Modu Butonu (Site tonuyla uyumlu şık gri/slate buton) */}
                       <button
                         type="button"
                         onClick={() => {
@@ -2030,16 +1989,16 @@ export function AIAssistantModal({
                         }}
                         className={`w-11 h-11 shrink-0 rounded-full transition flex items-center justify-center cursor-pointer active:scale-95 shadow-2xs ${
                           isSpeaking
-                            ? 'bg-blue-600 text-white animate-pulse'
-                            : 'bg-[#d8ecfc] dark:bg-blue-950/70 hover:bg-[#c2e2fa] dark:hover:bg-blue-900/80 text-[#0b57d0] dark:text-blue-300'
+                            ? 'bg-emerald-600 text-white animate-pulse'
+                            : 'bg-slate-100 dark:bg-slate-800 hover:bg-slate-200/80 text-slate-700 dark:text-slate-300'
                         }`}
                         title={isSpeaking ? 'Sesi Durdur' : 'RoboPengu Canlı Ses'}
                         aria-label="Ses Dalgası"
                       >
                         <div className="flex items-center justify-center gap-[2.5px] h-4">
-                          <span className={`w-[2.5px] rounded-full transition-all ${isSpeaking ? 'bg-white h-4 animate-pulse' : 'bg-[#0b57d0] dark:bg-blue-400 h-2'}`} />
-                          <span className={`w-[2.5px] rounded-full transition-all ${isSpeaking ? 'bg-white h-5 animate-bounce' : 'bg-[#0b57d0] dark:bg-blue-400 h-3.5'}`} />
-                          <span className={`w-[2.5px] rounded-full transition-all ${isSpeaking ? 'bg-white h-3 animate-pulse' : 'bg-[#0b57d0] dark:bg-blue-400 h-2'}`} />
+                          <span className={`w-[2.5px] rounded-full transition-all ${isSpeaking ? 'bg-white h-4 animate-pulse' : 'bg-slate-700 dark:bg-slate-300 h-2'}`} />
+                          <span className={`w-[2.5px] rounded-full transition-all ${isSpeaking ? 'bg-white h-5 animate-bounce' : 'bg-slate-700 dark:bg-slate-300 h-3.5'}`} />
+                          <span className={`w-[2.5px] rounded-full transition-all ${isSpeaking ? 'bg-white h-3 animate-pulse' : 'bg-slate-700 dark:bg-slate-300 h-2'}`} />
                         </div>
                       </button>
 
@@ -2049,7 +2008,7 @@ export function AIAssistantModal({
                           type={loading ? "button" : "submit"}
                           onClick={loading ? stopResponse : undefined}
                           disabled={!loading && (!input.trim() || input.length > 500)}
-                          className="w-11 h-11 shrink-0 rounded-full bg-blue-600 hover:bg-blue-700 disabled:opacity-40 disabled:cursor-not-allowed text-white flex items-center justify-center transition shadow-xs cursor-pointer shrink-0 active:scale-95 touch-manipulation ml-0.5"
+                          className="w-11 h-11 shrink-0 rounded-full bg-slate-900 hover:bg-slate-800 dark:bg-slate-100 dark:hover:bg-slate-200 dark:text-slate-900 disabled:opacity-40 disabled:cursor-not-allowed text-white flex items-center justify-center transition shadow-xs cursor-pointer shrink-0 active:scale-95 touch-manipulation ml-0.5"
                           aria-label={loading ? "Yanıtı Durdur" : "Gönder"}
                         >
                           {loading ? <span aria-hidden="true">■</span> : '➤'}
@@ -2143,7 +2102,9 @@ export function AIAssistantModal({
                       {activePanel.type === 'comparison' && Array.isArray(activePanel.products) && activePanel.products.length >= 2 && (
                         <Link
                           href={`/compare?d1=${activePanel.products[0].slug || activePanel.products[0].id}&d2=${activePanel.products[1].slug || activePanel.products[1].id}`}
-                          onClick={handleClose}
+                          onClick={isInline ? undefined : handleClose}
+                          target="_blank"
+                          rel="noopener noreferrer"
                           className="min-h-11 px-2.5 py-1 bg-gradient-to-r from-emerald-600 to-teal-600 hover:from-emerald-500 hover:to-teal-500 text-white rounded-lg text-xs font-bold transition flex items-center gap-1 shadow-2xs cursor-pointer"
                         >
                           <span>Düelloya Git</span>
@@ -2272,7 +2233,9 @@ export function AIAssistantModal({
                                 <div className="mt-2.5">
                                   <Link
                                     href={getProductUrl(p)}
-                                    onClick={handleClose}
+                                    onClick={isInline ? undefined : handleClose}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
                                     className="w-full min-h-11 py-2 px-2 bg-white dark:bg-slate-800 hover:bg-emerald-500 hover:text-white dark:hover:bg-emerald-600 text-slate-700 dark:text-slate-200 border border-slate-200 dark:border-slate-700 rounded-xl text-[11px] font-bold transition cursor-pointer flex items-center justify-center gap-1 text-center shadow-2xs"
                                   >
                                     <span>🛒</span>
@@ -2550,6 +2513,96 @@ export function AIAssistantModal({
                 </div>
               )}
             </div>
+    </>
+  );
+
+  if (isInline) {
+    return (
+      <section
+        id="robopengu-hero"
+        aria-label="RoboPengu Yapay Zeka Baş Danışmanı"
+        className="relative w-full max-w-[1536px] mx-auto px-2 sm:px-4 lg:px-6 pt-2 pb-6 overflow-visible"
+      >
+        {/* 🐧 SABİT 3D ROBOPENGU MASKOTU (Masaüstünde sol tarafta, yerinden asla kımıldamaz) */}
+        <div className="hidden xl:block absolute left-2 2xl:left-8 top-10 z-30 pointer-events-none select-none animate-float">
+          <div className="relative">
+            <img
+              src="/assets/robopengu.png"
+              alt="RoboPengu 3D"
+              className="w-[260px] 2xl:w-[310px] max-w-none h-auto object-contain drop-shadow-[0_20px_30px_rgba(15,23,42,0.16)]"
+            />
+          </div>
+        </div>
+
+        {/* Ana Kapsayıcı: Maskot Yanında Duran ve Sağa Doğru Genişleyen Kart */}
+        <div
+          className={`relative w-full transition-all duration-300 ease-out flex ${
+            hasPanel
+              ? 'xl:pl-[270px] 2xl:pl-[320px] justify-start max-w-full xl:max-w-[1440px]'
+              : 'xl:pl-[270px] 2xl:pl-[320px] justify-start max-w-full sm:max-w-2xl lg:max-w-3xl xl:max-w-[1040px] 2xl:max-w-[1100px]'
+          }`}
+        >
+          {/* 2. CHAT VE YAN PANEL KAPSAYICISI (MOBİL VE TABLET UYUMLU) */}
+          <div
+            className="relative w-full bg-white/95 dark:bg-slate-900/95 backdrop-blur-xl rounded-3xl shadow-xl shadow-slate-200/60 dark:shadow-none border border-slate-200/90 dark:border-slate-800 flex flex-col overflow-hidden h-[620px] sm:h-[650px] md:h-[680px] lg:h-[720px] z-20"
+          >
+            {renderCardInner()}
+          </div>
+        </div>
+
+        {/* 🌐 Dünyadaki Yapay Zeka Haberleri Kayan Penceresi (Slide-over Drawer) */}
+        <GlobalAiNewsDrawer
+          isOpen={isNewsDrawerOpen}
+          onClose={() => setIsNewsDrawerOpen(false)}
+          onAskAboutNews={(prompt) => {
+            setIsNewsDrawerOpen(false);
+            handleSend(prompt);
+          }}
+        />
+      </section>
+    );
+  }
+
+  return (
+    <AnimatePresence>
+      {/* Arka Plan Overlay */}
+      <div
+        ref={dialogRef}
+        role="dialog"
+        aria-modal="true"
+        aria-label="RoboPengu teknoloji asistanı"
+        tabIndex={-1}
+        className="fixed inset-0 bg-slate-900/60 backdrop-blur-sm flex items-end sm:items-center justify-center p-0 sm:p-4 z-50 animate-in fade-in duration-200"
+        onClick={(e) => {
+          if (e.target === e.currentTarget) handleClose();
+        }}
+      >
+        {/* Ana Kapsayıcı: Maskot + Dinamik Genişleyen Modal */}
+        <div
+          className={`relative w-full h-full sm:h-auto transition-all duration-300 ease-out flex items-center justify-center ${
+            hasPanel ? 'max-w-full sm:max-w-4xl lg:max-w-5xl xl:max-w-6xl' : 'max-w-full sm:max-w-2xl lg:max-w-3xl'
+          }`}
+        >
+          {/* 1. MASKOT: Masaüstü ekranlarda sol kenarda 3D Penguen */}
+          <div className={`${hasPanel ? 'hidden 2xl:block -left-[275px]' : 'hidden xl:block -left-[255px]'} absolute -top-[40px] z-30 pointer-events-none select-none animate-float`}>
+            <div className="relative">
+              <img
+                src="/assets/robopengu.png"
+                alt="RoboPengu 3D"
+                className="w-[320px] max-w-none h-auto object-contain drop-shadow-[0_25px_35px_rgba(0,0,0,0.35)]"
+              />
+            </div>
+          </div>
+
+          {/* 2. CHAT VE YAN PANEL KAPSAYICISI (MOBİL VE TABLET UYUMLU) */}
+          <motion.div
+            initial={{ opacity: 0, scale: 0.98, y: 10 }}
+            animate={{ opacity: 1, scale: 1, y: 0 }}
+            exit={{ opacity: 0, scale: 0.98, y: 10 }}
+            transition={{ duration: 0.2 }}
+            className="relative w-full bg-white/95 dark:bg-slate-900/95 rounded-none sm:rounded-3xl shadow-2xl border-0 sm:border border-slate-200/90 dark:border-slate-800 flex flex-col overflow-hidden h-[100dvh] sm:h-[640px] md:h-[680px] lg:h-[720px] max-h-[100dvh] sm:max-h-[92vh] z-20"
+          >
+            {renderCardInner()}
           </motion.div>
         </div>
 
