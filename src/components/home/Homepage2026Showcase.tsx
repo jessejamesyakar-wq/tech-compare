@@ -2,7 +2,12 @@
 
 import React, { useState, useEffect, useRef, useCallback } from 'react';
 import { Sparkles, Cpu, Pause, Play } from 'lucide-react';
-import { Showcase2026Product } from '@/lib/showcase2026';
+import {
+  Showcase2026Product,
+  selectControlledRotation,
+  ROTATION_INTERVAL_MS,
+  ROTATION_TRANSITION_MS,
+} from '@/lib/showcase2026';
 import { Showcase2026Card } from './Showcase2026Card';
 
 interface Homepage2026ShowcaseProps {
@@ -15,81 +20,222 @@ export function Homepage2026Showcase({
   rotationPool = []
 }: Homepage2026ShowcaseProps) {
   const [displayed, setDisplayed] = useState<Showcase2026Product[]>(() => initialProducts.slice(0, 14));
-  const poolRef = useRef<Showcase2026Product[]>([...rotationPool]);
-  const [rotatingSlot, setRotatingSlot] = useState<number | null>(null);
+  const [rotatingSlots, setRotatingSlots] = useState<number[]>([]);
   const [isUserPaused, setIsUserPaused] = useState(false);
+
+  // References to maintain current state without unnecessary effect churn
+  const displayedRef = useRef<Showcase2026Product[]>(displayed);
+  displayedRef.current = displayed;
+
+  const poolRef = useRef<Showcase2026Product[]>(rotationPool);
+  poolRef.current = rotationPool;
+
+  const isUserPausedRef = useRef(isUserPaused);
+  isUserPausedRef.current = isUserPaused;
+
   const isHoveredRef = useRef(false);
   const isInteractingRef = useRef(false);
-  const nextSlotRef = useRef(0);
+  const lastReplacedSlotsRef = useRef<number[]>([]);
+  const historySetsRef = useRef<Set<string>[]>([
+    new Set(initialProducts.slice(0, 14).map((p) => p.id))
+  ]);
 
-  // Sync if initialProducts changes
-  useEffect(() => {
-    if (initialProducts.length > 0) {
-      setDisplayed(initialProducts.slice(0, 14));
+  const timerRef = useRef<NodeJS.Timeout | null>(null);
+  const transitionTimerRef = useRef<NodeJS.Timeout | null>(null);
+  const fadeTimerRef = useRef<NodeJS.Timeout | null>(null);
+
+  // Clear all pending timeouts
+  const clearAllTimers = useCallback(() => {
+    if (timerRef.current) {
+      clearTimeout(timerRef.current);
+      timerRef.current = null;
     }
-  }, [initialProducts]);
+    if (transitionTimerRef.current) {
+      clearTimeout(transitionTimerRef.current);
+      transitionTimerRef.current = null;
+    }
+    if (fadeTimerRef.current) {
+      clearTimeout(fadeTimerRef.current);
+      fadeTimerRef.current = null;
+    }
+  }, []);
 
-  useEffect(() => {
-    poolRef.current = [...rotationPool];
-  }, [rotationPool]);
+  // Schedule the next cycle with clean 4-minute (240,000ms) delay
+  const scheduleNextCycle = useCallback(() => {
+    if (timerRef.current) {
+      clearTimeout(timerRef.current);
+      timerRef.current = null;
+    }
 
-  // Single-card rotation step
-  const rotateNextSlot = useCallback(() => {
-    if (poolRef.current.length === 0 || displayed.length === 0) return;
-
-    const slotIndex = nextSlotRef.current % displayed.length;
-    nextSlotRef.current = (slotIndex + 1) % displayed.length;
-
-    // Trigger fade-out on this slot
-    setRotatingSlot(slotIndex);
-
-    // After fade-out (300ms), swap product and fade back in
-    setTimeout(() => {
-      setDisplayed((prev) => {
-        if (!prev[slotIndex]) return prev;
-        const nextPool = [...poolRef.current];
-        const nextItem = nextPool.shift();
-        if (!nextItem) return prev;
-
-        // Old item goes to the end of the pool for infinite circular rotation
-        const oldItem = prev[slotIndex];
-        nextPool.push(oldItem);
-        poolRef.current = nextPool;
-
-        const updated = [...prev];
-        updated[slotIndex] = nextItem;
-        return updated;
-      });
-
-      // Clear rotating slot to trigger fade-in
-      setTimeout(() => {
-        setRotatingSlot(null);
-      }, 50);
-    }, 300);
-  }, [displayed.length]);
-
-  // Timer effect with hover, focus, blur, touch, and prefers-reduced-motion checks
-  useEffect(() => {
-    if (isUserPaused) return;
-
-    // Check prefers-reduced-motion
+    // Do not schedule if user paused, hovered, interacting, hidden, or prefers reduced motion
+    if (isUserPausedRef.current) return;
+    if (isHoveredRef.current || isInteractingRef.current) return;
+    if (typeof document !== 'undefined' && document.hidden) return;
     if (typeof window !== 'undefined') {
       const mediaQuery = window.matchMedia('(prefers-reduced-motion: reduce)');
       if (mediaQuery.matches) return;
     }
 
-    const interval = setInterval(() => {
-      // Pause if hovered or touched
-      if (isHoveredRef.current || isInteractingRef.current) return;
+    timerRef.current = setTimeout(() => {
+      // Safety checks before triggering rotation
+      if (isUserPausedRef.current || isHoveredRef.current || isInteractingRef.current) {
+        scheduleNextCycle();
+        return;
+      }
+      if (typeof document !== 'undefined' && document.hidden) {
+        scheduleNextCycle();
+        return;
+      }
+      if (typeof window !== 'undefined') {
+        const mediaQuery = window.matchMedia('(prefers-reduced-motion: reduce)');
+        if (mediaQuery.matches) {
+          scheduleNextCycle();
+          return;
+        }
+      }
 
-      // Pause if tab is hidden
-      if (typeof document !== 'undefined' && document.hidden) return;
+      const currentVisible = displayedRef.current;
+      const pool = poolRef.current;
 
-      rotateNextSlot();
-    }, 2800);
+      if (!currentVisible || currentVisible.length < 14 || pool.length === 0) {
+        scheduleNextCycle();
+        return;
+      }
 
-    return () => clearInterval(interval);
-  }, [isUserPaused, rotateNextSlot]);
+      const result = selectControlledRotation(
+        currentVisible,
+        pool,
+        lastReplacedSlotsRef.current,
+        historySetsRef.current
+      );
+
+      if (!result || result.replacedSlots.length === 0) {
+        scheduleNextCycle();
+        return;
+      }
+
+      // Save newly replaced slots
+      lastReplacedSlotsRef.current = result.replacedSlots;
+
+      // Track history (keep last 2 cycles)
+      historySetsRef.current = [
+        new Set(result.newVisible.map((p) => p.id)),
+        ...historySetsRef.current.slice(0, 1)
+      ];
+
+      // 1. Trigger subtle fade-out on only the 5 replaced slots
+      setRotatingSlots(result.replacedSlots);
+
+      // 2. After transition duration (350ms), swap data and trigger fade back in
+      transitionTimerRef.current = setTimeout(() => {
+        setDisplayed(result.newVisible);
+
+        fadeTimerRef.current = setTimeout(() => {
+          setRotatingSlots([]);
+        }, 50);
+
+        // Cleanly schedule next 4-minute cycle
+        scheduleNextCycle();
+      }, ROTATION_TRANSITION_MS);
+    }, ROTATION_INTERVAL_MS);
+  }, []);
+
+  // Handle User Pause / Resume Toggle
+  const togglePause = useCallback(() => {
+    setIsUserPaused((prev) => {
+      const next = !prev;
+      isUserPausedRef.current = next;
+      if (next) {
+        clearAllTimers();
+      } else {
+        // Clean restart of 4-minute countdown on resume (no instant rotation)
+        scheduleNextCycle();
+      }
+      return next;
+    });
+  }, [clearAllTimers, scheduleNextCycle]);
+
+  // Hover handlers
+  const handleMouseEnter = useCallback(() => {
+    isHoveredRef.current = true;
+    if (timerRef.current) {
+      clearTimeout(timerRef.current);
+      timerRef.current = null;
+    }
+  }, []);
+
+  const handleMouseLeave = useCallback(() => {
+    isHoveredRef.current = false;
+    // Clean restart of 4-minute countdown on mouse leave (no instant rotation)
+    scheduleNextCycle();
+  }, [scheduleNextCycle]);
+
+  // Touch handlers for mobile swipe
+  const handleTouchStart = useCallback(() => {
+    isInteractingRef.current = true;
+    if (timerRef.current) {
+      clearTimeout(timerRef.current);
+      timerRef.current = null;
+    }
+  }, []);
+
+  const handleTouchEnd = useCallback(() => {
+    isInteractingRef.current = false;
+    // Clean restart of 4-minute countdown on touch end (no instant rotation)
+    scheduleNextCycle();
+  }, [scheduleNextCycle]);
+
+  // Main lifecycle effect: initialize rotation after hydration, setup visibility & reduced-motion listeners
+  useEffect(() => {
+    // Sync initial products if changed
+    if (initialProducts.length > 0) {
+      setDisplayed(initialProducts.slice(0, 14));
+      historySetsRef.current = [
+        new Set(initialProducts.slice(0, 14).map((p) => p.id))
+      ];
+    }
+
+    // Start 4-minute countdown after client hydration
+    scheduleNextCycle();
+
+    // Visibility change handler (tab switch)
+    const handleVisibilityChange = () => {
+      if (typeof document === 'undefined') return;
+      if (document.hidden) {
+        if (timerRef.current) {
+          clearTimeout(timerRef.current);
+          timerRef.current = null;
+        }
+      } else {
+        // Tab visible again: cleanly restart 4-minute countdown (no instant rotation)
+        scheduleNextCycle();
+      }
+    };
+    document.addEventListener('visibilitychange', handleVisibilityChange);
+
+    // Reduced motion media query listener
+    let mediaQuery: MediaQueryList | null = null;
+    const handleMotionChange = (e: MediaQueryListEvent) => {
+      if (e.matches) {
+        clearAllTimers();
+      } else {
+        scheduleNextCycle();
+      }
+    };
+
+    if (typeof window !== 'undefined') {
+      mediaQuery = window.matchMedia('(prefers-reduced-motion: reduce)');
+      mediaQuery.addEventListener?.('change', handleMotionChange);
+    }
+
+    return () => {
+      clearAllTimers();
+      document.removeEventListener('visibilitychange', handleVisibilityChange);
+      if (mediaQuery) {
+        mediaQuery.removeEventListener?.('change', handleMotionChange);
+      }
+    };
+  }, [initialProducts, scheduleNextCycle, clearAllTimers]);
 
   if (!displayed || displayed.length === 0) {
     return null;
@@ -99,12 +245,8 @@ export function Homepage2026Showcase({
     <section
       aria-label="2026 Teknoloji Vitrini"
       className="max-w-7xl mx-auto my-12 sm:my-16 px-4 sm:px-6 lg:px-8"
-      onMouseEnter={() => {
-        isHoveredRef.current = true;
-      }}
-      onMouseLeave={() => {
-        isHoveredRef.current = false;
-      }}
+      onMouseEnter={handleMouseEnter}
+      onMouseLeave={handleMouseLeave}
     >
       {/* Header */}
       <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 mb-6">
@@ -131,7 +273,7 @@ export function Homepage2026Showcase({
         <div className="flex items-center gap-3 self-end sm:self-auto">
           <button
             type="button"
-            onClick={() => setIsUserPaused((p) => !p)}
+            onClick={togglePause}
             className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-700 text-xs font-bold transition-colors min-h-[36px]"
             title={isUserPaused ? 'Döngüyü Başlat' : 'Döngüyü Duraklat'}
             aria-label={isUserPaused ? 'Döngüyü Başlat' : 'Döngüyü Duraklat'}
@@ -155,9 +297,9 @@ export function Homepage2026Showcase({
       <div className="hidden sm:grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-7 gap-3.5 sm:gap-4">
         {displayed.map((product, idx) => (
           <Showcase2026Card
-            key={`${product.id}-${idx}`}
+            key={`showcase-slot-${idx}`}
             product={product}
-            isRotating={rotatingSlot === idx}
+            isRotating={rotatingSlots.includes(idx)}
           />
         ))}
       </div>
@@ -165,21 +307,17 @@ export function Homepage2026Showcase({
       {/* Mobile: Horizontal Swipe Carousel showing ~1.6 - 2.0 cards in viewport */}
       <div
         className="sm:hidden flex overflow-x-auto snap-x snap-mandatory gap-3 px-4 -mx-4 pb-4 no-scrollbar"
-        onTouchStart={() => {
-          isInteractingRef.current = true;
-        }}
-        onTouchEnd={() => {
-          isInteractingRef.current = false;
-        }}
+        onTouchStart={handleTouchStart}
+        onTouchEnd={handleTouchEnd}
       >
         {displayed.map((product, idx) => (
           <div
-            key={`mobile-${product.id}-${idx}`}
+            key={`mobile-slot-${idx}`}
             className="w-[62vw] max-w-[260px] min-w-[210px] shrink-0 snap-start"
           >
             <Showcase2026Card
               product={product}
-              isRotating={rotatingSlot === idx}
+              isRotating={rotatingSlots.includes(idx)}
             />
           </div>
         ))}

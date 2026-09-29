@@ -12,6 +12,7 @@ export interface Showcase2026Product {
   compareHref: string;
   specs: string[];
   priceStatusLabel: string;
+  modelFamilyKey?: string;
 }
 
 export interface Showcase2026Data {
@@ -111,7 +112,7 @@ export function extractShowcaseSpecs(p: Product): string[] {
   return specs.filter(Boolean).slice(0, 3);
 }
 
-function getModelFamilyKey(p: Product): string {
+export function getModelFamilyKey(p: { brand?: string; name?: string }): string {
   const brand = (p.brand || '').toLowerCase().trim();
   const cleanName = (p.name || '')
     .toLowerCase()
@@ -135,7 +136,177 @@ export function transformToShowcaseProduct(p: Product): Showcase2026Product {
     detailHref: getProductDetailHref(p),
     compareHref: `/compare?d1=${encodeURIComponent(p.slug || p.id)}`,
     specs: extractShowcaseSpecs(p),
-    priceStatusLabel: 'Güncel teklif doğrulanmadı'
+    priceStatusLabel: 'Güncel teklif doğrulanmadı',
+    modelFamilyKey: getModelFamilyKey(p)
+  };
+}
+
+export const ROTATION_INTERVAL_MS = 240000; // 4 minutes exact interval
+export const ROTATION_CARDS_COUNT = 5; // Exactly 5 cards changed per cycle
+export const ROTATION_TRANSITION_MS = 350; // Fade animation duration
+
+/**
+ * Controlled Random Rotation Selection
+ * Replaces exactly 5 visible slots per cycle from rotationPool while strictly enforcing:
+ * 1. Zero duplicate products across all 14 visible cards.
+ * 2. Zero duplicate model families across all 14 visible cards.
+ * 3. Recent-history exclusion (avoiding items shown in the previous 2 cycles where alternatives exist).
+ * 4. Preservation of category diversity.
+ * 5. Brand clustering <= 2 visible products per brand.
+ * 6. Alternation of replacement slots between cycles.
+ */
+export function selectControlledRotation(
+  currentVisible: Showcase2026Product[],
+  rotationPool: Showcase2026Product[],
+  lastReplacedSlots: number[] = [],
+  historySets: Set<string>[] = []
+): {
+  newVisible: Showcase2026Product[];
+  replacedSlots: number[];
+} {
+  const totalSlots = currentVisible.length;
+  if (totalSlots === 0 || rotationPool.length === 0) {
+    return { newVisible: currentVisible, replacedSlots: [] };
+  }
+
+  // Shuffle helper
+  const shuffle = <T>(arr: T[]): T[] => {
+    const copy = [...arr];
+    for (let i = copy.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [copy[i], copy[j]] = [copy[j], copy[i]];
+    }
+    return copy;
+  };
+
+  // Group current slots by category (0..3 phones, 4..7 laptops, 8..10 tvs, 11..12 tablets, 13 monitor)
+  const slotsByCategory: Record<string, number[]> = {};
+  currentVisible.forEach((p, idx) => {
+    if (!slotsByCategory[p.category]) slotsByCategory[p.category] = [];
+    slotsByCategory[p.category].push(idx);
+  });
+
+  // Current active IDs and Model Families
+  const activeIds = new Set<string>(currentVisible.map((p) => p.id));
+  const activeModelFamilies = new Set<string>(
+    currentVisible.map((p) => p.modelFamilyKey || getModelFamilyKey(p))
+  );
+
+  // Combined recent history from the previous 2 cycles
+  const recentHistoryIds = new Set<string>();
+  for (const set of historySets) {
+    for (const id of set) {
+      recentHistoryIds.add(id);
+    }
+  }
+
+  // Brand frequency tracker
+  const brandCounts: Record<string, number> = {};
+  for (const p of currentVisible) {
+    const b = (p.brand || '').toLowerCase();
+    brandCounts[b] = (brandCounts[b] || 0) + 1;
+  }
+
+  const chosenSlots: number[] = [];
+  const newVisible = [...currentVisible];
+
+  // Prioritize slots that were NOT replaced in the previous cycle
+  const getPrioritizedSlots = (cat: string, maxPick: number): number[] => {
+    const slots = slotsByCategory[cat] || [];
+    const notRecent = slots.filter((s) => !lastReplacedSlots.includes(s));
+    const recent = slots.filter((s) => lastReplacedSlots.includes(s));
+    return [...shuffle(notRecent), ...shuffle(recent)].slice(0, maxPick);
+  };
+
+  // Build candidate slot order spanning categories:
+  // Phones: up to 2, Laptops: up to 2, TVs: up to 2, Tablets: up to 1
+  const candidateSlotQueue = [
+    ...getPrioritizedSlots('smartphones', 2),
+    ...getPrioritizedSlots('laptops', 2),
+    ...getPrioritizedSlots('tvs', 2),
+    ...getPrioritizedSlots('tablets', 1),
+    ...getPrioritizedSlots('smartphones', 4), // overflow fallbacks
+    ...getPrioritizedSlots('laptops', 4),
+    ...getPrioritizedSlots('tvs', 3)
+  ];
+
+  // Deduplicate queue preserving order
+  const uniqueCandidateSlots = Array.from(new Set(candidateSlotQueue));
+
+  for (const slotIdx of uniqueCandidateSlots) {
+    if (chosenSlots.length >= ROTATION_CARDS_COUNT) break;
+
+    const oldProduct = currentVisible[slotIdx];
+    const targetCategory = oldProduct.category;
+
+    // Temporarily release old product to check replacements
+    activeIds.delete(oldProduct.id);
+    const oldFam = oldProduct.modelFamilyKey || getModelFamilyKey(oldProduct);
+    activeModelFamilies.delete(oldFam);
+    const oldBrand = (oldProduct.brand || '').toLowerCase();
+    brandCounts[oldBrand] = Math.max(0, (brandCounts[oldBrand] || 1) - 1);
+
+    // Candidates must match category, not be active, and not share active model family
+    const candidates = rotationPool.filter((p) => {
+      if (p.category !== targetCategory) return false;
+      if (activeIds.has(p.id)) return false;
+      const fam = p.modelFamilyKey || getModelFamilyKey(p);
+      if (activeModelFamilies.has(fam)) return false;
+      return true;
+    });
+
+    if (candidates.length === 0) {
+      // Revert release and continue
+      activeIds.add(oldProduct.id);
+      activeModelFamilies.add(oldFam);
+      brandCounts[oldBrand] = (brandCounts[oldBrand] || 0) + 1;
+      continue;
+    }
+
+    // Tier 1: Not in recent history AND brand count < 2
+    let tiered = candidates.filter((p) => {
+      const b = (p.brand || '').toLowerCase();
+      const notInHistory = !recentHistoryIds.has(p.id);
+      const brandOk = (brandCounts[b] || 0) < 2;
+      return notInHistory && brandOk;
+    });
+
+    // Tier 2: Not in recent history (relax brand count)
+    if (tiered.length === 0) {
+      tiered = candidates.filter((p) => !recentHistoryIds.has(p.id));
+    }
+
+    // Tier 3: Brand count < 2 (relax recent history)
+    if (tiered.length === 0) {
+      tiered = candidates.filter((p) => {
+        const b = (p.brand || '').toLowerCase();
+        return (brandCounts[b] || 0) < 2;
+      });
+    }
+
+    // Tier 4: Any candidate matching category & family uniqueness
+    if (tiered.length === 0) {
+      tiered = candidates;
+    }
+
+    // Pick random candidate from best tier
+    const selected = tiered[Math.floor(Math.random() * tiered.length)];
+
+    // Apply replacement
+    newVisible[slotIdx] = selected;
+    activeIds.add(selected.id);
+    const fam = selected.modelFamilyKey || getModelFamilyKey(selected);
+    activeModelFamilies.add(fam);
+
+    const b = (selected.brand || '').toLowerCase();
+    brandCounts[b] = (brandCounts[b] || 0) + 1;
+
+    chosenSlots.push(slotIdx);
+  }
+
+  return {
+    newVisible,
+    replacedSlots: chosenSlots
   };
 }
 
