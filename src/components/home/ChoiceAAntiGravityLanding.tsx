@@ -153,23 +153,32 @@ export function ChoiceAAntiGravityLanding({ showcase2026 }: ChoiceAAntiGravityLa
         )}
 
         {/* 2. PRODUCT PROOF SHOWCASE (RoboScore Doğrulanmış Donanım Vitrini) */}
-        <div className="max-w-7xl mx-auto mt-16 mb-16">
-          <div className="flex flex-col sm:flex-row items-center justify-between gap-4 mb-8">
+        <section aria-label="RoboScore Doğrulanmış Vitrin" className="max-w-7xl mx-auto my-12 sm:my-16 px-4 sm:px-6 lg:px-8">
+          <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 mb-6 sm:mb-8">
             <div>
-              <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight text-center sm:text-left">
+              <div className="flex items-center gap-2 mb-2">
+                <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-emerald-500/10 text-emerald-800 text-[11px] font-bold border border-emerald-200/80 uppercase tracking-wider">
+                  <Sparkles className="w-3 h-3 text-emerald-600" />
+                  <span>RoboScore Analizi</span>
+                </span>
+                <span className="text-xs text-slate-400 font-semibold hidden sm:inline">
+                  Akıllı Seçim ve Güvenilirlik
+                </span>
+              </div>
+              <h2 className="text-2xl sm:text-3xl font-black text-slate-900 tracking-tight">
                 RoboScore Doğrulanmış Vitrin
               </h2>
-              <p className="text-slate-500 text-xs sm:text-sm text-center sm:text-left">
-                Teknik inceleme ve canlı fiyat verileriyle puanlanan öne çıkan modeller.
+              <p className="text-xs sm:text-sm text-slate-500 mt-1 max-w-2xl leading-relaxed">
+                Teknik inceleme ve canlı mağaza teklifleriyle puanlanan öne çıkan modeller.
               </p>
             </div>
 
             {/* Category Filter Tabs */}
-            <div className="flex items-center gap-1.5 p-1 rounded-full bg-slate-200/60 backdrop-blur-md">
+            <div className="flex items-center gap-1.5 p-1 rounded-2xl bg-slate-100/90 border border-slate-200/80">
               <button
                 type="button"
                 onClick={() => setActiveTab('phones')}
-                className={`flex items-center gap-1.5 py-1.5 px-3.5 rounded-full text-xs font-bold transition-all min-h-[44px] cursor-pointer ${
+                className={`flex items-center gap-1.5 py-1.5 px-3.5 rounded-xl text-xs font-bold transition-all min-h-[44px] cursor-pointer ${
                   activeTab === 'phones'
                     ? 'bg-white text-slate-900 shadow-xs'
                     : 'text-slate-600 hover:text-slate-900'
@@ -182,7 +191,7 @@ export function ChoiceAAntiGravityLanding({ showcase2026 }: ChoiceAAntiGravityLa
               <button
                 type="button"
                 onClick={() => setActiveTab('tvs')}
-                className={`flex items-center gap-1.5 py-1.5 px-3.5 rounded-full text-xs font-bold transition-all min-h-[44px] cursor-pointer ${
+                className={`flex items-center gap-1.5 py-1.5 px-3.5 rounded-xl text-xs font-bold transition-all min-h-[44px] cursor-pointer ${
                   activeTab === 'tvs'
                     ? 'bg-white text-slate-900 shadow-xs'
                     : 'text-slate-600 hover:text-slate-900'
@@ -195,7 +204,7 @@ export function ChoiceAAntiGravityLanding({ showcase2026 }: ChoiceAAntiGravityLa
               <button
                 type="button"
                 onClick={() => setActiveTab('laptops')}
-                className={`flex items-center gap-1.5 py-1.5 px-3.5 rounded-full text-xs font-bold transition-all min-h-[44px] cursor-pointer ${
+                className={`flex items-center gap-1.5 py-1.5 px-3.5 rounded-xl text-xs font-bold transition-all min-h-[44px] cursor-pointer ${
                   activeTab === 'laptops'
                     ? 'bg-white text-slate-900 shadow-xs'
                     : 'text-slate-600 hover:text-slate-900'
@@ -212,26 +221,26 @@ export function ChoiceAAntiGravityLanding({ showcase2026 }: ChoiceAAntiGravityLa
             {SHOWCASE_PRODUCTS[activeTab].map((product) => (
               <div
                 key={product.id}
-                className="group relative rounded-2xl bg-white border border-slate-200/80 p-5 shadow-xs hover:shadow-lg hover:-translate-y-0.5 transition-all duration-300 flex flex-col justify-between"
+                className="group relative rounded-2xl bg-white border border-slate-200/80 p-5 shadow-xs hover:shadow-md hover:border-emerald-300 hover:-translate-y-0.5 transition-all duration-200 flex flex-col justify-between"
               >
                 <div>
                   <div className="flex items-center justify-between mb-3">
                     <span className="px-2.5 py-0.5 rounded-full bg-slate-100 text-slate-700 text-xs font-bold">
                       {product.brand}
                     </span>
-                    <div className="flex items-center gap-1 px-2.5 py-0.5 rounded-full bg-gradient-to-r from-emerald-500 to-teal-500 text-white text-xs font-extrabold">
-                      <Sparkles className="w-3 h-3" />
+                    <div className="flex items-center gap-1.5 px-2.5 py-0.5 rounded-full bg-slate-900 text-emerald-400 text-xs font-black border border-slate-800">
+                      <Sparkles className="w-3 h-3 text-emerald-400" />
                       <span>RoboScore {product.score}</span>
                     </div>
                   </div>
 
                   <div className="mb-3">
-                    <span className={`inline-block px-2.5 py-0.5 rounded-lg text-xs font-bold border ${product.tagBg}`}>
+                    <span className={`inline-block px-2.5 py-1 rounded-lg text-xs font-bold border ${product.tagBg}`}>
                       🎯 {product.decisionTag}
                     </span>
                   </div>
 
-                  <div className="relative w-full h-40 mb-4 flex items-center justify-center p-3 bg-slate-50/60 rounded-xl">
+                  <div className="relative w-full h-40 mb-4 flex items-center justify-center p-3 bg-slate-50/70 rounded-xl">
                     <Image
                       src={product.image}
                       alt={product.name}
@@ -245,9 +254,9 @@ export function ChoiceAAntiGravityLanding({ showcase2026 }: ChoiceAAntiGravityLa
                     {product.name}
                   </h3>
 
-                  <div className="flex flex-wrap gap-1 mb-4">
-                    {product.specs.map((spec, i) => (
-                      <span key={i} className="px-2 py-0.5 rounded-md bg-slate-100 text-slate-600 text-[11px] font-medium">
+                  <div className="flex flex-wrap gap-1.5 mb-4 min-h-[1.75rem]">
+                    {product.specs.slice(0, 2).map((spec, i) => (
+                      <span key={i} className="px-2 py-0.5 rounded-md bg-slate-50 text-slate-600 text-[11px] font-medium border border-slate-200/70">
                         {spec}
                       </span>
                     ))}
@@ -262,7 +271,7 @@ export function ChoiceAAntiGravityLanding({ showcase2026 }: ChoiceAAntiGravityLa
 
                   <Link
                     href={`/compare?d1=${encodeURIComponent(product.id)}`}
-                    className="inline-flex items-center gap-1 px-3 py-1.5 rounded-xl bg-slate-900 hover:bg-cyan-600 text-white text-xs font-bold transition-colors min-h-[44px]"
+                    className="inline-flex items-center gap-1.5 px-3.5 py-2 rounded-xl bg-slate-900 hover:bg-cyan-600 text-white text-xs font-bold transition-colors min-h-[44px]"
                   >
                     <span>İncele</span>
                     <ArrowRight className="w-3.5 h-3.5" />
@@ -271,41 +280,47 @@ export function ChoiceAAntiGravityLanding({ showcase2026 }: ChoiceAAntiGravityLa
               </div>
             ))}
           </div>
-        </div>
+        </section>
 
         {/* 3. CANLI FİYAT DÜŞÜŞ RADARI (Radar Strip) */}
-        <div className="max-w-7xl mx-auto p-6 rounded-2xl bg-gradient-to-r from-emerald-500/10 via-cyan-500/5 to-transparent border border-emerald-200/80 flex flex-col md:flex-row items-center justify-between gap-4">
-          <div className="flex items-center gap-3">
-            <div className="p-3 rounded-xl bg-emerald-500 text-white shadow-xs">
-              <TrendingDown className="w-6 h-6" />
-            </div>
-            <div>
-              <div className="flex items-center gap-2">
-                <span className="text-sm font-bold text-emerald-800 uppercase tracking-wider">
-                  Canlı Fiyat Düşüş Radarı
-                </span>
-                <span className="px-2 py-0.5 rounded-full bg-emerald-200/60 text-emerald-900 text-[10px] font-extrabold">
-                  CANLI
-                </span>
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 my-10 sm:my-14">
+          <div className="p-5 sm:p-6 rounded-2xl bg-white border border-slate-200/90 shadow-xs flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
+            <div className="flex items-center gap-3.5">
+              <div className="w-12 h-12 rounded-xl bg-emerald-50 text-emerald-600 flex items-center justify-center border border-emerald-100 shrink-0">
+                <TrendingDown className="w-6 h-6" />
               </div>
-              <p className="text-xs text-slate-600">
-                Katalogdaki 5.768+ ürün mağaza API'leri üzerinden anlık kontrol ediliyor.
-              </p>
+              <div>
+                <div className="flex items-center gap-2 mb-0.5">
+                  <span className="relative flex h-2 w-2">
+                    <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
+                    <span className="relative inline-flex rounded-full h-2 w-2 bg-emerald-500"></span>
+                  </span>
+                  <span className="text-sm font-black text-slate-900 uppercase tracking-wider">
+                    Canlı Fiyat Düşüş Radarı
+                  </span>
+                  <span className="px-2 py-0.5 rounded-full bg-emerald-100 text-emerald-800 text-[10px] font-extrabold border border-emerald-200/80">
+                    CANLI
+                  </span>
+                </div>
+                <p className="text-xs text-slate-500">
+                  Katalogdaki 5.800+ ürün mağaza API&apos;leri üzerinden anlık kontrol ediliyor.
+                </p>
+              </div>
             </div>
-          </div>
 
-          <div className="flex items-center gap-3">
-            <div className="text-right hidden sm:block">
-              <span className="block text-xs font-bold text-slate-900">En Çok İndirime Giren</span>
-              <span className="text-xs text-slate-500">Samsung Galaxy S24 Ultra (%14 İndirim)</span>
+            <div className="flex items-center gap-4 w-full md:w-auto justify-between md:justify-end pt-2 md:pt-0 border-t md:border-t-0 border-slate-100">
+              <div className="text-left md:text-right">
+                <span className="block text-[11px] font-bold text-slate-400 uppercase tracking-wider">Öne Çıkan İndirim</span>
+                <span className="text-xs font-bold text-slate-800">Samsung Galaxy S24 Ultra <span className="text-emerald-600 font-extrabold">(%14 İndirim)</span></span>
+              </div>
+              <Link
+                href="/alerts"
+                className="inline-flex items-center gap-1.5 px-4 py-2.5 rounded-xl bg-slate-900 hover:bg-emerald-600 text-white text-xs font-bold transition-colors min-h-[44px] shrink-0"
+              >
+                <Clock className="w-3.5 h-3.5" />
+                <span>Tüm İndirimleri Takip Et</span>
+              </Link>
             </div>
-            <Link
-              href="/alerts"
-              className="inline-flex items-center gap-1.5 px-4 py-2.5 rounded-xl bg-slate-900 hover:bg-emerald-600 text-white text-xs font-bold transition-colors min-h-[44px]"
-            >
-              <Clock className="w-3.5 h-3.5" />
-              <span>Tüm İndirimleri Takip Et</span>
-            </Link>
           </div>
         </div>
 

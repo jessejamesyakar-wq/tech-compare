@@ -49,12 +49,12 @@ export function Showcase2026Card({ product, isRotating = false }: Showcase2026Ca
           {product.name}
         </Link>
 
-        {/* Spec Pills */}
-        <div className="flex flex-wrap gap-1 mb-3 min-h-[3rem] content-start">
-          {product.specs.map((spec, i) => (
+        {/* Spec Pills: Maximum 2 high-value pills for clear, editorial hierarchy */}
+        <div className="flex flex-wrap gap-1.5 mb-3 min-h-[2rem] content-start">
+          {product.specs.slice(0, 2).map((spec, i) => (
             <span
               key={i}
-              className="inline-block px-1.5 py-0.5 rounded-md bg-slate-100 text-slate-600 text-[10px] font-medium border border-slate-200/60 leading-tight"
+              className="inline-block px-2 py-0.5 rounded-md bg-slate-50 text-slate-600 text-[10px] font-medium border border-slate-200/70 leading-tight"
             >
               {spec}
             </span>
@@ -65,16 +65,16 @@ export function Showcase2026Card({ product, isRotating = false }: Showcase2026Ca
       {/* Bottom Footer: Price Integrity + Actions */}
       <div className="pt-2.5 border-t border-slate-100 mt-auto space-y-2.5">
         {/* Canonical Price Integrity State */}
-        <div className="flex items-center gap-1 text-[10px] sm:text-[11px] font-medium text-slate-500">
+        <div className="flex items-center gap-1.5 text-[10px] sm:text-[11px] font-medium text-slate-400">
           <AlertCircle className="w-3 h-3 text-slate-400 shrink-0" />
           <span className="truncate">{product.priceStatusLabel}</span>
         </div>
 
-        {/* Action Buttons */}
+        {/* Action Buttons with accessible 44px min touch target */}
         <div className="flex items-center gap-1.5">
           <Link
             href={product.detailHref}
-            className="flex-1 inline-flex items-center justify-center gap-1 px-3 py-1.5 rounded-xl bg-slate-900 hover:bg-cyan-600 text-white text-xs font-bold transition-colors min-h-[36px]"
+            className="flex-1 inline-flex items-center justify-center gap-1.5 px-3 py-2 rounded-xl bg-slate-900 hover:bg-cyan-600 text-white text-xs font-bold transition-colors min-h-[44px]"
           >
             <span>İncele</span>
             <ArrowRight className="w-3.5 h-3.5" />
@@ -84,7 +84,7 @@ export function Showcase2026Card({ product, isRotating = false }: Showcase2026Ca
             href={product.compareHref}
             title={`${product.name} modelini karşılaştır`}
             aria-label={`${product.name} modelini karşılaştır`}
-            className="inline-flex items-center justify-center p-2 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-700 hover:text-slate-900 transition-colors min-h-[36px] min-w-[36px]"
+            className="inline-flex items-center justify-center p-2 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-700 hover:text-slate-900 transition-colors min-h-[44px] min-w-[44px]"
           >
             <Scale className="w-3.5 h-3.5" />
           </Link>

@@ -78,20 +78,20 @@ export function CategoryIconStrip({ customCounts }: { customCounts?: CategoryCou
   ];
 
   return (
-    <div className="w-full bg-white/95 backdrop-blur-md border border-slate-200 rounded-3xl p-4 sm:p-5 shadow-md hover:shadow-lg transition-all duration-300">
-      <div className="flex items-center gap-3 sm:gap-4 overflow-x-auto no-scrollbar py-1 px-1">
+    <div className="w-full bg-white border border-slate-200/80 rounded-3xl p-3 sm:p-4 shadow-xs">
+      <div className="flex md:grid md:grid-cols-9 gap-2 sm:gap-2.5 overflow-x-auto md:overflow-visible no-scrollbar py-1 px-1">
         {categories.map((cat) => {
           const Icon = cat.icon;
           return (
             <Link
               key={cat.name}
               href={cat.href}
-              className="flex flex-col items-center justify-center p-2 sm:p-3 rounded-2xl hover:bg-slate-50 transition-all border border-transparent hover:border-slate-200 shrink-0 group min-w-[90px] sm:min-w-[105px] text-center"
+              className="flex flex-col items-center justify-center p-2.5 sm:p-3 rounded-2xl bg-slate-50/50 md:bg-transparent hover:bg-slate-50 transition-all border border-slate-200/50 md:border-transparent hover:border-slate-200 shrink-0 md:shrink group min-w-[95px] sm:min-w-[110px] md:min-w-0 text-center min-h-[44px]"
             >
-              <div className="w-10 h-10 sm:w-11 sm:h-11 rounded-2xl bg-slate-100 group-hover:bg-emerald-50 text-slate-700 group-hover:text-emerald-600 flex items-center justify-center transition-colors mb-1.5 shadow-2xs">
+              <div className="w-10 h-10 sm:w-11 sm:h-11 rounded-2xl bg-white md:bg-slate-100/80 group-hover:bg-cyan-50 text-slate-700 group-hover:text-cyan-600 border border-slate-200/60 group-hover:border-cyan-200/80 flex items-center justify-center transition-all mb-2 shadow-2xs group-hover:scale-105 duration-200">
                 <Icon className="w-5 h-5" />
               </div>
-              <span className="text-xs font-bold text-slate-900 group-hover:text-emerald-600 transition-colors line-clamp-1">
+              <span className="text-xs font-bold text-slate-900 group-hover:text-cyan-600 transition-colors line-clamp-1">
                 {cat.name}
               </span>
               <span className="text-[10px] text-slate-400 font-semibold mt-0.5">

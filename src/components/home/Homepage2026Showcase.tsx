@@ -249,14 +249,14 @@ export function Homepage2026Showcase({
       onMouseLeave={handleMouseLeave}
     >
       {/* Header */}
-      <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 mb-6">
+      <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 mb-6 sm:mb-8">
         <div>
-          <div className="flex items-center gap-2 mb-1.5">
-            <span className="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full bg-cyan-100/80 text-cyan-800 text-[11px] font-black border border-cyan-200">
+          <div className="flex items-center gap-2 mb-2">
+            <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-cyan-500/10 text-cyan-800 text-[11px] font-bold border border-cyan-200/80 uppercase tracking-wider">
               <Sparkles className="w-3 h-3 text-cyan-600" />
-              <span>2026 VİTRİNİ</span>
+              <span>2026 Vitrini</span>
             </span>
-            <span className="text-xs text-slate-500 font-semibold hidden sm:inline">
+            <span className="text-xs text-slate-400 font-semibold hidden sm:inline">
               Yeni Nesil Donanımlar
             </span>
           </div>
@@ -264,7 +264,7 @@ export function Homepage2026Showcase({
           <h2 className="text-2xl sm:text-3xl font-black text-slate-900 tracking-tight">
             2026 Teknoloji Vitrini
           </h2>
-          <p className="text-xs sm:text-sm text-slate-500 mt-1 max-w-2xl">
+          <p className="text-xs sm:text-sm text-slate-500 mt-1 max-w-2xl leading-relaxed">
             Yeni nesil amiral gemisi modelleri keşfedin. Acele etmeden teknik detayları inceleyin ve yan yana karşılaştırın.
           </p>
         </div>
@@ -274,7 +274,7 @@ export function Homepage2026Showcase({
           <button
             type="button"
             onClick={togglePause}
-            className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-700 text-xs font-bold transition-colors min-h-[36px]"
+            className="inline-flex items-center gap-2 px-3.5 py-2 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-700 text-xs font-bold transition-colors min-h-[44px] cursor-pointer"
             title={isUserPaused ? 'Döngüyü Başlat' : 'Döngüyü Duraklat'}
             aria-label={isUserPaused ? 'Döngüyü Başlat' : 'Döngüyü Duraklat'}
           >
