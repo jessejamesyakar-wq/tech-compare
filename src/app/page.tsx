@@ -9,6 +9,7 @@ import {
 } from '@/lib/data';
 import { Smartphone, TVProduct } from '@/lib/types';
 import { getDynamicHeroSlides } from '@/lib/heroSlides';
+import { get2026ShowcaseData } from '@/lib/showcase2026';
 import { HomePageClient } from '@/components/home/HomePageClient';
 
 export const revalidate = 3600; // Revalidate every 1 hour
@@ -139,6 +140,7 @@ export default async function HomePage() {
   }
 
   const diverseTopTVs = Array.from(tvPoolMap.values()).map(toCatalogProduct);
+  const showcase2026 = get2026ShowcaseData(allProducts);
 
   return (
     <HomePageClient
@@ -148,6 +150,7 @@ export default async function HomePage() {
       bestSellerCarouselList={bestSellerCarouselList.slice(0, 20).map(toCatalogProduct)}
       popularComparisons={enrichedPopularComparisons}
       showcaseData={showcaseData}
+      showcase2026={showcase2026}
       counts={counts}
     />
   );

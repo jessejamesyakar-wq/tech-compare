@@ -5,6 +5,7 @@ import Link from 'next/link';
 import { CategoryIconStrip } from '@/components/layout/CategoryIconStrip';
 import { ChoiceAAntiGravityLanding } from './ChoiceAAntiGravityLanding';
 import { Scale, ArrowRight, ShieldCheck, HelpCircle } from 'lucide-react';
+import { Showcase2026Data } from '@/lib/showcase2026';
 
 interface HomePageClientProps {
   heroSlides?: any[];
@@ -12,6 +13,7 @@ interface HomePageClientProps {
   mixedDiscountGrid?: any[];
   bestSellerCarouselList?: any[];
   showcaseData?: any;
+  showcase2026?: Showcase2026Data;
   popularComparisons: Array<{
     phone1Id: string;
     phone2Id: string;
@@ -31,13 +33,13 @@ interface HomePageClientProps {
   };
 }
 
-export function HomePageClient({ popularComparisons, counts }: HomePageClientProps) {
+export function HomePageClient({ popularComparisons, counts, showcase2026 }: HomePageClientProps) {
   return (
     <div className="space-y-12 pb-16 max-w-full overflow-hidden bg-transparent text-slate-900 transition-colors">
       
       {/* 🚀 1. MAIN HERO LANDING EXPERIENCE & SIMPLIFIED PROOF SHOWCASE */}
       {/* (RoboPengu Chat as main entry + RoboScore Vitrin + Canlı İndirim Radarı) */}
-      <ChoiceAAntiGravityLanding />
+      <ChoiceAAntiGravityLanding showcase2026={showcase2026} />
 
       {/* 📱 2. İHTİYACA GÖRE KEŞFET (9 Kategori Grid'i) */}
       <section className="space-y-4 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

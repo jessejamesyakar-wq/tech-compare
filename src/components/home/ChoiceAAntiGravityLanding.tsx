@@ -13,6 +13,8 @@ import {
   Sparkles
 } from 'lucide-react';
 import { AIAssistantModal } from '@/components/ai/AIAssistantModal';
+import { Homepage2026Showcase } from './Homepage2026Showcase';
+import { Showcase2026Data } from '@/lib/showcase2026';
 
 // SHOWCASE VERİLERİ (ALT BÖLÜM VİTRİNİ)
 const SHOWCASE_PRODUCTS = {
@@ -123,7 +125,11 @@ const SHOWCASE_PRODUCTS = {
   ]
 };
 
-export function ChoiceAAntiGravityLanding() {
+interface ChoiceAAntiGravityLandingProps {
+  showcase2026?: Showcase2026Data;
+}
+
+export function ChoiceAAntiGravityLanding({ showcase2026 }: ChoiceAAntiGravityLandingProps = {}) {
   const [activeTab, setActiveTab] = useState<'phones' | 'tvs' | 'laptops'>('phones');
 
   return (
@@ -137,6 +143,14 @@ export function ChoiceAAntiGravityLanding() {
       <div className="relative z-10 max-w-full 2xl:max-w-[1560px] mx-auto px-2 sm:px-4 lg:px-6 pt-2 pb-16">
         {/* 1. HERO SECTION: ROBOPENGU INLINE ASİSTAN DENEYİMİ */}
         <AIAssistantModal isInline={true} />
+
+        {/* 2026 TEKNOLOJİ VİTRİNİ (DYNAMIC SHOWCASE) */}
+        {showcase2026 && showcase2026.initialProducts?.length > 0 && (
+          <Homepage2026Showcase
+            initialProducts={showcase2026.initialProducts}
+            rotationPool={showcase2026.rotationPool}
+          />
+        )}
 
         {/* 2. PRODUCT PROOF SHOWCASE (RoboScore Doğrulanmış Donanım Vitrini) */}
         <div className="max-w-7xl mx-auto mt-16 mb-16">
