@@ -46217,15 +46217,15 @@
     ],
     "specs": {
       "screen": {
-        "size": "6.85\"",
-        "type": "6.85\" 2K 144Hz LTPO OLED 3500 Nits",
+        "size": "6.8\"",
+        "type": "6.8\" Super Actua LTPO OLED (120Hz)",
         "resolution": "2992 x 1344 px (Super Actua)",
-        "refreshRate": 144,
-        "ppi": 490,
+        "refreshRate": 120,
+        "ppi": 486,
         "brightnessNits": 3000
       },
       "processor": {
-        "chip": "Google Tensor G5 (TSMC 3nm)",
+        "chip": "Google Tensor G5",
         "cores": "8 Çekirdek",
         "process": "3nm (TSMC)",
         "antutuScore": 1910000
@@ -46248,7 +46248,7 @@
         "dxomarkScore": 158
       },
       "battery": {
-        "capacitymAh": 5300,
+        "capacitymAh": 5200,
         "chargingWatts": 37,
         "wirelessCharging": true,
         "reverseWireless": true
@@ -46256,18 +46256,18 @@
       "connectivity": {
         "has5G": true,
         "wifiStandard": "Wi-Fi 7",
-        "bluetooth": "5.4",
+        "bluetooth": "6.0",
         "hasNFC": true,
         "hasesim": true
       },
       "build": {
-        "weightGrams": 207,
+        "weightGrams": 232,
         "thicknessMm": 8.5,
         "waterResistance": "IP68 (1.5m 30dk)",
         "frameMaterial": "Mat Alüminyum & Gorrila Glass Victus 2"
       },
       "software": {
-        "osName": "Android 15 (Gemini AI)",
+        "osName": "Android 16",
         "updateYears": 7
       }
     },
@@ -46965,15 +46965,15 @@
       "screen": {
         "size": "6.3\"",
         "type": "6.3\" FHD+ 120Hz Actua OLED",
-        "resolution": "2400 x 1080 px",
+        "resolution": "2424 x 1080 px",
         "refreshRate": 120,
-        "ppi": 411,
+        "ppi": 422.2,
         "brightnessNits": 1400
       },
       "processor": {
-        "chip": "Google Tensor G4 (Düz Arka Gövde)",
+        "chip": "Google Tensor G4",
         "cores": "8 Çekirdek",
-        "process": "3nm (TSMC)",
+        "process": "4nm",
         "antutuScore": 810000
       },
       "memory": {
@@ -46987,14 +46987,14 @@
       },
       "camera": {
         "mainMp": "48 MP",
-        "ultrawideMp": "48 MP Super Actua UW",
+        "ultrawideMp": "13 MP",
         "telephotoMp": "Yok",
         "selfieMp": "13 MP",
         "videoRes": "4K @ 60fps (Night Sight Video)",
         "dxomarkScore": 128
       },
       "battery": {
-        "capacitymAh": 4800,
+        "capacitymAh": 5100,
         "chargingWatts": 27,
         "wirelessCharging": true,
         "reverseWireless": false
@@ -47002,12 +47002,12 @@
       "connectivity": {
         "has5G": true,
         "wifiStandard": "Wi-Fi 6E",
-        "bluetooth": "5.4",
+        "bluetooth": "5.3",
         "hasNFC": true,
         "hasesim": true
       },
       "build": {
-        "weightGrams": 178,
+        "weightGrams": 187.1,
         "thicknessMm": 8.5,
         "waterResistance": "IP68 (1.5m 30dk)",
         "frameMaterial": "Geri Dönüştürülmüş Alüminyum"
@@ -49602,7 +49602,7 @@
     "currency": "TL",
     "rating": 4.7,
     "reviewCount": 413,
-    "releaseYear": 2026,
+    "releaseYear": 2025,
     "isPopular": true,
     "isFeatured": true,
     "highlights": [
@@ -49811,17 +49811,17 @@
     ],
     "specs": {
       "screen": {
-        "size": "6.7\"",
-        "type": "6.7\" 1.5K 120Hz AMOLED 2400 Nits",
-        "resolution": "2412 x 1080 px",
+        "size": "6.77\"",
+        "type": "6.77\" 120Hz AMOLED 3000 Nits",
+        "resolution": "1080 x 2392 px (FHD+)",
         "refreshRate": 120,
         "ppi": 394,
         "brightnessNits": 1600
       },
       "processor": {
-        "chip": "Dimensity 7500 Pro 5G (Glyph Matrix Light)",
+        "chip": "Qualcomm Snapdragon 7s Gen 3 (4nm)",
         "cores": "8 Çekirdek",
-        "process": "3nm",
+        "process": "4nm",
         "antutuScore": 820000
       },
       "memory": {
@@ -49835,15 +49835,15 @@
       },
       "camera": {
         "mainMp": "50 MP",
-        "ultrawideMp": "50 MP",
-        "telephotoMp": "Yok",
+        "ultrawideMp": "8 MP",
+        "telephotoMp": "50 MP (2x Telefoto)",
         "selfieMp": "32 MP",
         "videoRes": "4K @ 60fps",
         "dxomarkScore": 126
       },
       "battery": {
-        "capacitymAh": 5300,
-        "chargingWatts": 45,
+        "capacitymAh": 5000,
+        "chargingWatts": 50,
         "wirelessCharging": false,
         "reverseWireless": false
       },
@@ -49857,13 +49857,27 @@
       "build": {
         "weightGrams": 188,
         "thicknessMm": 8.5,
-        "waterResistance": "IP68",
+        "waterResistance": "IP64",
         "frameMaterial": "Polikarbonat / Cam"
       },
       "software": {
-        "osName": "Nothing OS 3.5 (Android 16)",
+        "osName": "Nothing OS 3.1 (Android 15)",
         "updateYears": 4
-      }
+      },
+      "screenSize": 6.77,
+      "screenResolution": "1080x2392 (FHD+)",
+      "displayType": "AMOLED (120Hz)",
+      "chipset": "Qualcomm Snapdragon 7s Gen 3 (4nm)",
+      "cpuCores": 8,
+      "ram": 12,
+      "storage": 256,
+      "batteryCapacity": 5000,
+      "chargingSpeed": 50,
+      "mainCamera": "50 MP (OIS) + 50 MP (Telefoto 2x) + 8 MP Ultra Geniş",
+      "frontCamera": "32 MP",
+      "operatingSystem": "Nothing OS 3.1 (Android 15)",
+      "has5G": true,
+      "waterResistance": "IP64"
     },
     "images": [
       "/images/phones/nothing/nothing-phone-2.jpg"
@@ -97296,7 +97310,7 @@
       "storage": 512,
       "batteryCapacity": 5400,
       "chargingSpeed": 100,
-      "mainCamera": "50 MP (LYT-808 OIS) + 64 MP Periskop Telefoto (3x)",
+      "mainCamera": "50 MP (Sony LYT-808 OIS) + 64 MP Periskop Telefoto (3x) + 48 MP Ultra Geniş",
       "frontCamera": "32 MP",
       "operatingSystem": "OxygenOS 14 (Android 14)",
       "has5G": true,
@@ -97453,7 +97467,7 @@
       "storage": 256,
       "batteryCapacity": 5500,
       "chargingSpeed": 100,
-      "mainCamera": "50 MP (Sony LYT-600 OIS)",
+      "mainCamera": "50 MP (Sony LYT-600 OIS) + 8 MP Ultra Geniş",
       "frontCamera": "16 MP",
       "operatingSystem": "OxygenOS 14.1 (Android 14)",
       "has5G": true,
@@ -97608,7 +97622,7 @@
       "cpuCores": 8,
       "ram": 16,
       "storage": 256,
-      "batteryCapacity": 5100,
+      "batteryCapacity": 5200,
       "chargingSpeed": 45,
       "mainCamera": "50 MP (OIS, f/1.68) + 48 MP Periskop Telefoto",
       "frontCamera": "42 MP",
@@ -98250,20 +98264,20 @@
       "Kablosuz şarj yok"
     ],
     "specs": {
-      "screenSize": 6.7,
-      "screenResolution": "1080x2412 (FHD+)",
+      "screenSize": 6.77,
+      "screenResolution": "1080x2392 (FHD+)",
       "displayType": "AMOLED (120Hz)",
-      "chipset": "MediaTek Dimensity 7350 Pro",
+      "chipset": "Qualcomm Snapdragon 7s Gen 3 (4nm)",
       "cpuCores": 8,
       "ram": 12,
       "storage": 256,
       "batteryCapacity": 5000,
       "chargingSpeed": 50,
-      "mainCamera": "50 MP (OIS) + 50 MP Ultra Geniş",
+      "mainCamera": "50 MP (OIS) + 50 MP (Telefoto 2x) + 8 MP Ultra Geniş",
       "frontCamera": "32 MP",
-      "operatingSystem": "Nothing OS 3.0 (Android 15)",
+      "operatingSystem": "Nothing OS 3.1 (Android 15)",
       "has5G": true,
-      "waterResistance": "IP54"
+      "waterResistance": "IP64"
     },
     "storeOffers": [
       {
@@ -98496,20 +98510,20 @@
       "Maksimum video kaydı 4K 30fps"
     ],
     "specs": {
-      "screenSize": 6.7,
-      "screenResolution": "1080x2412 (FHD+)",
-      "displayType": "Curved AMOLED (120Hz)",
+      "screenSize": 6.83,
+      "screenResolution": "1272x2800 (1.5K)",
+      "displayType": "Quad-Curved OLED (120Hz)",
       "chipset": "Qualcomm Snapdragon 7s Gen 3",
       "cpuCores": 8,
       "ram": 12,
       "storage": 512,
-      "batteryCapacity": 5500,
+      "batteryCapacity": 6000,
       "chargingSpeed": 80,
-      "mainCamera": "50 MP (Sony LYT-701 OIS) + 50 MP Periskop (3x)",
+      "mainCamera": "50 MP (Sony IMX896 OIS) + 50 MP Periskop (3x OIS) + 8 MP Ultra Geniş",
       "frontCamera": "32 MP",
       "operatingSystem": "realme UI 6.0 (Android 15)",
       "has5G": true,
-      "waterResistance": "IP68"
+      "waterResistance": "IP68 & IP69"
     },
     "storeOffers": [
       {
@@ -98749,7 +98763,7 @@
       "cpuCores": 8,
       "ram": 16,
       "storage": 512,
-      "batteryCapacity": 6000,
+      "batteryCapacity": 7500,
       "chargingSpeed": 100,
       "mainCamera": "50 MP (Sony LYT-900 OIS) + 50 MP Periskop (3x) + 50 MP Periskop (6x)",
       "frontCamera": "32 MP",
@@ -98995,7 +99009,7 @@
       "cpuCores": 8,
       "ram": 12,
       "storage": 256,
-      "batteryCapacity": 5630,
+      "batteryCapacity": 7025,
       "chargingSpeed": 80,
       "mainCamera": "50 MP (Sony LYT-700 OIS) + 50 MP Periskop (3x)",
       "frontCamera": "32 MP",
@@ -99268,7 +99282,7 @@
       "cpuCores": 8,
       "ram": 16,
       "storage": 512,
-      "batteryCapacity": 6000,
+      "batteryCapacity": 6100,
       "chargingSpeed": 100,
       "mainCamera": "50 MP (LYT-900 OIS) + 50 MP Periskop 3x + 50 MP Periskop 6x",
       "frontCamera": "32 MP",
@@ -99999,14 +100013,14 @@
       "Yüksek fiyat segmenti"
     ],
     "specs": {
-      "screenSize": 7.82,
-      "screenResolution": "2268x2440 (2K Foldable LTPO)",
+      "screenSize": 8.12,
+      "screenResolution": "2440x2268 (2K Foldable LTPO)",
       "displayType": "Foldable LTPO OLED (120Hz)",
       "chipset": "Qualcomm Snapdragon 8 Elite (3nm)",
       "cpuCores": 8,
       "ram": 16,
       "storage": 512,
-      "batteryCapacity": 5700,
+      "batteryCapacity": 5600,
       "chargingSpeed": 80,
       "mainCamera": "50 MP (OIS) + 64 MP Periskop + 48 MP Ultra Geniş",
       "frontCamera": "32 MP İç / 20 MP Dış",
@@ -100252,13 +100266,13 @@
       "cpuCores": 8,
       "ram": 16,
       "storage": 512,
-      "batteryCapacity": 5800,
+      "batteryCapacity": 6200,
       "chargingSpeed": 80,
-      "mainCamera": "50 MP (OIS) + 50 MP Periskop (3.5x) + 8 MP Ultra Geniş",
+      "mainCamera": "200 MP (f/1.8 OIS) + 50 MP Telefoto (3.5x) + 50 MP Ultra Geniş",
       "frontCamera": "50 MP AF",
       "operatingSystem": "ColorOS 16 (Android 16)",
       "has5G": true,
-      "waterResistance": "IP68"
+      "waterResistance": "IP69"
     },
     "storeOffers": [
       {
@@ -100518,14 +100532,14 @@
       "Telefoto lensi yok"
     ],
     "specs": {
-      "screenSize": 6.7,
-      "screenResolution": "1080x2412 (FHD+)",
+      "screenSize": 6.59,
+      "screenResolution": "1256x2760 (1.5K)",
       "displayType": "AMOLED (120Hz)",
-      "chipset": "MediaTek Dimensity 8350 (4nm)",
+      "chipset": "Qualcomm Snapdragon 7 Gen 4",
       "cpuCores": 8,
       "ram": 12,
       "storage": 256,
-      "batteryCapacity": 5600,
+      "batteryCapacity": 6500,
       "chargingSpeed": 80,
       "mainCamera": "50 MP (Sony OIS) + 8 MP Ultra Geniş",
       "frontCamera": "50 MP",
@@ -100791,20 +100805,20 @@
       "Kablosuz şarj yok"
     ],
     "specs": {
-      "screenSize": 6.7,
-      "screenResolution": "1240x2772 (1.5K)",
+      "screenSize": 6.83,
+      "screenResolution": "1272x2800 (FHD+)",
       "displayType": "Curved AMOLED (120Hz)",
-      "chipset": "MediaTek Dimensity 8300",
+      "chipset": "MediaTek Dimensity 8450",
       "cpuCores": 8,
       "ram": 12,
       "storage": 512,
-      "batteryCapacity": 5500,
+      "batteryCapacity": 6200,
       "chargingSpeed": 80,
       "mainCamera": "50 MP (OIS) + 50 MP Telefoto (3x) + 8 MP Ultra Geniş",
       "frontCamera": "50 MP",
       "operatingSystem": "ColorOS 15 (Android 15)",
       "has5G": true,
-      "waterResistance": "IP65"
+      "waterResistance": "IP69"
     },
     "storeOffers": [
       {
@@ -101044,7 +101058,7 @@
       "cpuCores": 8,
       "ram": 12,
       "storage": 256,
-      "batteryCapacity": 5500,
+      "batteryCapacity": 6000,
       "chargingSpeed": 80,
       "mainCamera": "50 MP (Sony LYT-600 OIS) + 8 MP Ultra Geniş",
       "frontCamera": "32 MP",
@@ -101290,11 +101304,11 @@
       "screenSize": 6.67,
       "screenResolution": "1080x2400 (FHD+)",
       "displayType": "AMOLED (120Hz)",
-      "chipset": "Qualcomm Snapdragon 6 Gen 3",
+      "chipset": "Qualcomm Snapdragon 6 Gen 1",
       "cpuCores": 8,
-      "ram": 8,
+      "ram": 12,
       "storage": 256,
-      "batteryCapacity": 5000,
+      "batteryCapacity": 6000,
       "chargingSpeed": 45,
       "mainCamera": "50 MP (f/1.8) + 8 MP Ultra Geniş",
       "frontCamera": "32 MP",
@@ -101861,7 +101875,7 @@
     "reviewCount": 1980,
     "basePrice": 24999,
     "currency": "TL",
-    "releaseYear": 2026,
+    "releaseYear": 2025,
     "isPopular": true,
     "isFeatured": false,
     "highlights": [
@@ -101879,18 +101893,18 @@
       "Telefoto lensi yok"
     ],
     "specs": {
-      "screenSize": 6.7,
+      "screenSize": 6.57,
       "screenResolution": "1080x2412 (FHD+)",
-      "displayType": "Curved AMOLED (120Hz)",
-      "chipset": "MediaTek Dimensity 7350",
+      "displayType": "AMOLED (120Hz)",
+      "chipset": "MediaTek Dimensity 7300",
       "cpuCores": 8,
       "ram": 12,
       "storage": 256,
-      "batteryCapacity": 5500,
+      "batteryCapacity": 7000,
       "chargingSpeed": 80,
-      "mainCamera": "64 MP (OIS) + 8 MP Ultra Geniş",
-      "frontCamera": "32 MP",
-      "operatingSystem": "ColorOS 16 (Android 16)",
+      "mainCamera": "50 MP (f/1.8 OIS) + 2 MP",
+      "frontCamera": "16 MP",
+      "operatingSystem": "ColorOS 15 (Android 15)",
       "has5G": true,
       "waterResistance": "IP68 & IP69"
     },
@@ -102128,14 +102142,14 @@
       "screenSize": 6.7,
       "screenResolution": "1080x2412 (FHD+)",
       "displayType": "Curved AMOLED (120Hz)",
-      "chipset": "MediaTek Dimensity 7050",
+      "chipset": "MediaTek Dimensity 7300 Energy",
       "cpuCores": 8,
       "ram": 8,
       "storage": 256,
-      "batteryCapacity": 5000,
-      "chargingSpeed": 67,
-      "mainCamera": "64 MP (f/1.7 OIS) + 8 MP Ultra Geniş",
-      "frontCamera": "32 MP",
+      "batteryCapacity": 6000,
+      "chargingSpeed": 80,
+      "mainCamera": "50 MP (f/1.8 OIS) + 2 MP Portre",
+      "frontCamera": "16 MP",
       "operatingSystem": "ColorOS 15 (Android 15)",
       "has5G": true,
       "waterResistance": "IP69"
@@ -102378,7 +102392,7 @@
       "cpuCores": 8,
       "ram": 16,
       "storage": 512,
-      "batteryCapacity": 5500,
+      "batteryCapacity": 7000,
       "chargingSpeed": 100,
       "mainCamera": "50 MP (Sony LYT-600 OIS) + 8 MP Ultra Geniş",
       "frontCamera": "16 MP",
@@ -102620,11 +102634,11 @@
       "screenSize": 6.7,
       "screenResolution": "1080x2412 (FHD+)",
       "displayType": "AMOLED (120Hz)",
-      "chipset": "Qualcomm Snapdragon 7 Gen 3",
+      "chipset": "Qualcomm Snapdragon 6 Gen 4",
       "cpuCores": 8,
       "ram": 12,
       "storage": 256,
-      "batteryCapacity": 5500,
+      "batteryCapacity": 7000,
       "chargingSpeed": 80,
       "mainCamera": "50 MP (Sony OIS) + 2 MP Derinlik",
       "frontCamera": "16 MP",
@@ -102870,8 +102884,8 @@
       "cpuCores": 8,
       "ram": 8,
       "storage": 256,
-      "batteryCapacity": 5800,
-      "chargingSpeed": 45,
+      "batteryCapacity": 6000,
+      "chargingSpeed": 80,
       "mainCamera": "50 MP (f/1.8) + 2 MP Portre",
       "frontCamera": "16 MP",
       "operatingSystem": "ColorOS 15 (Android 15)",
@@ -103248,7 +103262,7 @@
     "reviewCount": 3940,
     "basePrice": 74999,
     "currency": "TL",
-    "releaseYear": 2026,
+    "releaseYear": 2025,
     "isPopular": true,
     "isFeatured": true,
     "highlights": [
@@ -103274,7 +103288,7 @@
       "ram": 16,
       "storage": 512,
       "batteryCapacity": 6000,
-      "chargingSpeed": 100,
+      "chargingSpeed": 90,
       "mainCamera": "50 MP (Sony LYT-900 1-inç Gimbal OIS) + 200 MP ZEISS APO Periskop + 50 MP Ultra Geniş",
       "frontCamera": "50 MP ZEISS",
       "operatingSystem": "Funtouch OS 16 / OriginOS 5 (Android 16)",
@@ -103494,7 +103508,7 @@
     "reviewCount": 2890,
     "basePrice": 59999,
     "currency": "TL",
-    "releaseYear": 2026,
+    "releaseYear": 2025,
     "isPopular": true,
     "isFeatured": false,
     "highlights": [
@@ -103512,14 +103526,14 @@
       "Kablosuz şarj hızı 30W ile sınırlı"
     ],
     "specs": {
-      "screenSize": 6.67,
+      "screenSize": 6.78,
       "screenResolution": "1260x2800 (1.5K)",
       "displayType": "AMOLED (120Hz)",
       "chipset": "MediaTek Dimensity 9400 (3nm)",
       "cpuCores": 8,
       "ram": 12,
       "storage": 256,
-      "batteryCapacity": 5800,
+      "batteryCapacity": 6000,
       "chargingSpeed": 90,
       "mainCamera": "50 MP (Sony IMX921 OIS) + 50 MP ZEISS Telefoto (3x) + 50 MP Ultra Geniş",
       "frontCamera": "32 MP",
@@ -104496,15 +104510,15 @@
       "Plastik orta çerçeve"
     ],
     "specs": {
-      "screenSize": 6.7,
+      "screenSize": 6.31,
       "screenResolution": "1260x2800 (1.5K)",
       "displayType": "AMOLED (120Hz)",
       "chipset": "MediaTek Dimensity 9300+",
       "cpuCores": 8,
       "ram": 12,
       "storage": 256,
-      "batteryCapacity": 5500,
-      "chargingSpeed": 80,
+      "batteryCapacity": 6500,
+      "chargingSpeed": 90,
       "mainCamera": "50 MP (OIS) + 50 MP Telefoto (2x) + 8 MP Ultra Geniş",
       "frontCamera": "32 MP",
       "operatingSystem": "Funtouch OS 15 (Android 15)",
@@ -104906,7 +104920,7 @@
       "cpuCores": 8,
       "ram": 12,
       "storage": 256,
-      "batteryCapacity": 5800,
+      "batteryCapacity": 6500,
       "chargingSpeed": 90,
       "mainCamera": "50 MP (Sony ZEISS OIS) + 50 MP ZEISS Ultra Geniş",
       "frontCamera": "50 MP ZEISS Otomatik Odaklı",
@@ -105156,9 +105170,9 @@
       "cpuCores": 8,
       "ram": 8,
       "storage": 256,
-      "batteryCapacity": 5600,
-      "chargingSpeed": 80,
-      "mainCamera": "50 MP (ZEISS OIS) + 8 MP Ultra Geniş",
+      "batteryCapacity": 7000,
+      "chargingSpeed": 90,
+      "mainCamera": "200 MP (OIS) + 8 MP Ultra Geniş",
       "frontCamera": "50 MP",
       "operatingSystem": "Funtouch OS 16 (Android 16)",
       "has5G": true,
@@ -105406,8 +105420,8 @@
       "cpuCores": 8,
       "ram": 12,
       "storage": 256,
-      "batteryCapacity": 5500,
-      "chargingSpeed": 80,
+      "batteryCapacity": 6500,
+      "chargingSpeed": 90,
       "mainCamera": "50 MP (ZEISS OIS) + 50 MP ZEISS Ultra Geniş",
       "frontCamera": "50 MP ZEISS AF",
       "operatingSystem": "Funtouch OS 15 (Android 15)",
@@ -105652,8 +105666,8 @@
       "cpuCores": 8,
       "ram": 8,
       "storage": 256,
-      "batteryCapacity": 5000,
-      "chargingSpeed": 80,
+      "batteryCapacity": 6500,
+      "chargingSpeed": 90,
       "mainCamera": "50 MP (f/1.8) + 8 MP Ultra Geniş",
       "frontCamera": "32 MP",
       "operatingSystem": "Funtouch OS 15 (Android 15)",
@@ -106437,7 +106451,7 @@
     "reviewCount": 1780,
     "basePrice": 17999,
     "currency": "TL",
-    "releaseYear": 2026,
+    "releaseYear": 2025,
     "isPopular": false,
     "isFeatured": false,
     "highlights": [
@@ -106463,12 +106477,12 @@
       "ram": 8,
       "storage": 256,
       "batteryCapacity": 6000,
-      "chargingSpeed": 80,
+      "chargingSpeed": 90,
       "mainCamera": "50 MP (Sony f/1.8) + 2 MP Portre",
-      "frontCamera": "16 MP",
-      "operatingSystem": "Funtouch OS 16 (Android 16)",
+      "frontCamera": "32 MP",
+      "operatingSystem": "Funtouch OS 15 (Android 15)",
       "has5G": true,
-      "waterResistance": "IP64"
+      "waterResistance": "IP68 & IP69"
     },
     "storeOffers": [
       {
@@ -107447,7 +107461,7 @@
       "ram": 6,
       "storage": 128,
       "batteryCapacity": 5500,
-      "chargingSpeed": 15,
+      "chargingSpeed": 44,
       "mainCamera": "50 MP (f/1.8) + Yardımcı Sensör",
       "frontCamera": "5 MP",
       "operatingSystem": "Funtouch OS 14 (Android 14)",
@@ -107687,18 +107701,18 @@
     "specs": {
       "screenSize": 6.56,
       "screenResolution": "720x1612 (HD+ 90Hz)",
-      "displayType": "IPS LCD (90Hz)",
+      "displayType": "IPS LCD (120Hz)",
       "chipset": "MediaTek Helio G36",
       "cpuCores": 8,
       "ram": 4,
       "storage": 128,
-      "batteryCapacity": 5000,
+      "batteryCapacity": 6500,
       "chargingSpeed": 15,
       "mainCamera": "13 MP (f/2.2)",
       "frontCamera": "5 MP",
       "operatingSystem": "Funtouch OS 14 (Android 14 Go)",
       "has5G": false,
-      "waterResistance": "IP54"
+      "waterResistance": "IP65"
     },
     "storeOffers": [
       {
@@ -107913,7 +107927,7 @@
     "reviewCount": 1540,
     "basePrice": 79999,
     "currency": "TL",
-    "releaseYear": 2027,
+    "releaseYear": 2026,
     "isPopular": true,
     "isFeatured": true,
     "highlights": [
@@ -107934,13 +107948,13 @@
       "screenSize": 6.82,
       "screenResolution": "1440x3168 (2K QHD+)",
       "displayType": "LTPO AMOLED (144Hz)",
-      "chipset": "Qualcomm Snapdragon 8 Gen 5 (2nm)",
+      "chipset": "MediaTek Dimensity 9600 Pro",
       "cpuCores": 8,
       "ram": 16,
       "storage": 512,
-      "batteryCapacity": 6500,
-      "chargingSpeed": 120,
-      "mainCamera": "50 MP (Sony 1-inç OIS) + 200 MP Hasselblad Periskop + 50 MP Ultra Geniş",
+      "batteryCapacity": 8000,
+      "chargingSpeed": 80,
+      "mainCamera": "200 MP (f/1.6 OIS) + 200 MP Hasselblad Periskop + 200 MP Ultra Geniş",
       "frontCamera": "50 MP AF",
       "operatingSystem": "ColorOS 17 (Android 17)",
       "has5G": true,
@@ -108159,7 +108173,7 @@
     "reviewCount": 1280,
     "basePrice": 63999,
     "currency": "TL",
-    "releaseYear": 2027,
+    "releaseYear": 2026,
     "isPopular": true,
     "isFeatured": false,
     "highlights": [
@@ -108177,17 +108191,17 @@
       "Kablosuz şarj hızı 30W"
     ],
     "specs": {
-      "screenSize": 6.6,
-      "screenResolution": "1264x2780 (1.5K)",
+      "screenSize": 6.59,
+      "screenResolution": "1272x2768 (1.5K)",
       "displayType": "AMOLED (144Hz)",
-      "chipset": "MediaTek Dimensity 9600 (2nm)",
+      "chipset": "MediaTek Dimensity 9600M",
       "cpuCores": 8,
       "ram": 12,
       "storage": 256,
-      "batteryCapacity": 6000,
-      "chargingSpeed": 100,
-      "mainCamera": "50 MP (Sony OIS) + 50 MP Periskop (5x) + 50 MP Ultra Geniş",
-      "frontCamera": "32 MP",
+      "batteryCapacity": 8000,
+      "chargingSpeed": 80,
+      "mainCamera": "200 MP (f/1.6 OIS) + 200 MP Periskop + 50 MP Ultra Geniş",
+      "frontCamera": "50 MP",
       "operatingSystem": "ColorOS 17 (Android 17)",
       "has5G": true,
       "waterResistance": "IP68 & IP69"
@@ -108405,7 +108419,7 @@
     "reviewCount": 2150,
     "basePrice": 28999,
     "currency": "TL",
-    "releaseYear": 2027,
+    "releaseYear": 2025,
     "isPopular": true,
     "isFeatured": true,
     "highlights": [
@@ -108423,20 +108437,20 @@
       "Telefoto lensi yok"
     ],
     "specs": {
-      "screenSize": 6.74,
-      "screenResolution": "1080x2412 (FHD+)",
-      "displayType": "Curved AMOLED (120Hz)",
-      "chipset": "MediaTek Dimensity 7400",
+      "screenSize": 6.8,
+      "screenResolution": "1280x2800 (FHD+)",
+      "displayType": "AMOLED (120Hz)",
+      "chipset": "Qualcomm Snapdragon 7 Gen 3",
       "cpuCores": 8,
       "ram": 12,
       "storage": 512,
-      "batteryCapacity": 6000,
-      "chargingSpeed": 90,
-      "mainCamera": "64 MP (Sony OIS) + 8 MP Ultra Geniş",
+      "batteryCapacity": 7000,
+      "chargingSpeed": 80,
+      "mainCamera": "50 MP (OIS) + 2 MP Derinlik",
       "frontCamera": "32 MP",
-      "operatingSystem": "ColorOS 17 (Android 17)",
+      "operatingSystem": "ColorOS 15 (Android 15)",
       "has5G": true,
-      "waterResistance": "IP68 & IP69K"
+      "waterResistance": "IP68 & IP69"
     },
     "storeOffers": [
       {
@@ -108651,7 +108665,7 @@
     "reviewCount": 1680,
     "basePrice": 22999,
     "currency": "TL",
-    "releaseYear": 2027,
+    "releaseYear": 2025,
     "isPopular": false,
     "isFeatured": false,
     "highlights": [
@@ -108669,20 +108683,20 @@
       "Plastik yan çerçeve"
     ],
     "specs": {
-      "screenSize": 6.7,
+      "screenSize": 6.57,
       "screenResolution": "1080x2412 (FHD+)",
-      "displayType": "Curved AMOLED (120Hz)",
-      "chipset": "MediaTek Dimensity 7200-Ultra",
+      "displayType": "AMOLED (120Hz)",
+      "chipset": "MediaTek Dimensity 6300",
       "cpuCores": 8,
       "ram": 8,
       "storage": 256,
-      "batteryCapacity": 5500,
+      "batteryCapacity": 7000,
       "chargingSpeed": 80,
-      "mainCamera": "50 MP (OIS) + 8 MP Ultra Geniş",
-      "frontCamera": "32 MP",
-      "operatingSystem": "ColorOS 17 (Android 17)",
+      "mainCamera": "50 MP (f/1.8)",
+      "frontCamera": "16 MP",
+      "operatingSystem": "ColorOS 15 (Android 15)",
       "has5G": true,
-      "waterResistance": "IP65"
+      "waterResistance": "IP69"
     },
     "storeOffers": [
       {
@@ -109389,7 +109403,7 @@
     "reviewCount": 1720,
     "basePrice": 18999,
     "currency": "TL",
-    "releaseYear": 2027,
+    "releaseYear": 2026,
     "isPopular": false,
     "isFeatured": false,
     "highlights": [
@@ -109407,20 +109421,20 @@
       "67W şarj hızı"
     ],
     "specs": {
-      "screenSize": 6.7,
+      "screenSize": 6.57,
       "screenResolution": "1080x2412 (FHD+)",
-      "displayType": "Curved AMOLED (120Hz)",
-      "chipset": "MediaTek Dimensity 7300-Energy",
+      "displayType": "AMOLED (120Hz)",
+      "chipset": "MediaTek Dimensity 6360 MAX",
       "cpuCores": 8,
-      "ram": 12,
+      "ram": 8,
       "storage": 256,
-      "batteryCapacity": 6000,
-      "chargingSpeed": 67,
+      "batteryCapacity": 8000,
+      "chargingSpeed": 45,
       "mainCamera": "50 MP (f/1.8 OIS) + 2 MP Portre",
-      "frontCamera": "16 MP",
-      "operatingSystem": "ColorOS 17 (Android 17)",
+      "frontCamera": "8 MP",
+      "operatingSystem": "ColorOS 16 (Android 16)",
       "has5G": true,
-      "waterResistance": "IP69"
+      "waterResistance": "IP69K"
     },
     "storeOffers": [
       {
@@ -109635,7 +109649,7 @@
     "reviewCount": 1450,
     "basePrice": 28999,
     "currency": "TL",
-    "releaseYear": 2027,
+    "releaseYear": 2025,
     "isPopular": false,
     "isFeatured": false,
     "highlights": [
@@ -109653,20 +109667,20 @@
       "HD+ çözünürlük"
     ],
     "specs": {
-      "screenSize": 6.67,
-      "screenResolution": "720x1604 (HD+ 120Hz)",
-      "displayType": "IPS LCD (120Hz)",
-      "chipset": "MediaTek Dimensity 6400",
+      "screenSize": 6.57,
+      "screenResolution": "1080x2372 (FHD+)",
+      "displayType": "AMOLED (120Hz)",
+      "chipset": "MediaTek Dimensity 6300",
       "cpuCores": 8,
       "ram": 8,
       "storage": 256,
-      "batteryCapacity": 5800,
-      "chargingSpeed": 45,
+      "batteryCapacity": 7000,
+      "chargingSpeed": 80,
       "mainCamera": "50 MP (f/1.8) + 2 MP Portre",
-      "frontCamera": "8 MP",
-      "operatingSystem": "ColorOS 17 (Android 17)",
+      "frontCamera": "16 MP",
+      "operatingSystem": "ColorOS 15 (Android 15)",
       "has5G": true,
-      "waterResistance": "IP54"
+      "waterResistance": "IP69"
     },
     "storeOffers": [
       {
@@ -109911,7 +109925,7 @@
     "reviewCount": 1340,
     "basePrice": 16499,
     "currency": "TL",
-    "releaseYear": 2027,
+    "releaseYear": 2025,
     "isPopular": false,
     "isFeatured": false,
     "highlights": [
@@ -109930,19 +109944,19 @@
     ],
     "specs": {
       "screenSize": 6.8,
-      "screenResolution": "1080x2400 (FHD+ 120Hz)",
-      "displayType": "IPS LCD (120Hz)",
-      "chipset": "MediaTek Dimensity 6300",
+      "screenResolution": "1280x2800 (FHD+)",
+      "displayType": "AMOLED (120Hz)",
+      "chipset": "Qualcomm Snapdragon 7 Gen 3",
       "cpuCores": 8,
       "ram": 8,
       "storage": 256,
-      "batteryCapacity": 6000,
-      "chargingSpeed": 45,
+      "batteryCapacity": 7000,
+      "chargingSpeed": 80,
       "mainCamera": "50 MP (f/1.8) + 2 MP Portre",
-      "frontCamera": "16 MP",
-      "operatingSystem": "ColorOS 17 (Android 17)",
+      "frontCamera": "32 MP",
+      "operatingSystem": "ColorOS 15 (Android 15)",
       "has5G": true,
-      "waterResistance": "IP64"
+      "waterResistance": "IP69"
     },
     "storeOffers": [
       {
@@ -110157,7 +110171,7 @@
     "reviewCount": 2650,
     "basePrice": 84999,
     "currency": "TL",
-    "releaseYear": 2027,
+    "releaseYear": 2025,
     "isPopular": true,
     "isFeatured": true,
     "highlights": [
@@ -110175,20 +110189,20 @@
       "Ağırlık 228g"
     ],
     "specs": {
-      "screenSize": 6.73,
-      "screenResolution": "1440x3200 (2K WQHD+)",
-      "displayType": "LTPO AMOLED (144Hz)",
-      "chipset": "Qualcomm Snapdragon 8 Gen 5 (2nm)",
+      "screenSize": 6.9,
+      "screenResolution": "1200x2608 (1.5K)",
+      "displayType": "HyperRGB OLED (120Hz)",
+      "chipset": "Qualcomm Snapdragon 8 Elite Gen 5 (3nm)",
       "cpuCores": 8,
       "ram": 16,
       "storage": 1024,
-      "batteryCapacity": 6500,
-      "chargingSpeed": 120,
-      "mainCamera": "50 MP (Sony 1-inç OIS) + 200 MP Leica Periskop + 50 MP Telefoto + 50 MP Ultra Geniş",
+      "batteryCapacity": 6000,
+      "chargingSpeed": 90,
+      "mainCamera": "50 MP (1-inç f/1.67 OIS) + 200 MP Leica Periskop (OIS) + 50 MP Ultra Geniş",
       "frontCamera": "50 MP",
-      "operatingSystem": "Xiaomi HyperOS 3.0 (Android 17)",
+      "operatingSystem": "Xiaomi HyperOS 3 (Android 16)",
       "has5G": true,
-      "waterResistance": "IP68 & IP69"
+      "waterResistance": "IP68"
     },
     "storeOffers": [
       {
@@ -110403,7 +110417,7 @@
     "reviewCount": 2180,
     "basePrice": 69999,
     "currency": "TL",
-    "releaseYear": 2027,
+    "releaseYear": 2025,
     "isPopular": true,
     "isFeatured": true,
     "highlights": [
@@ -110421,18 +110435,18 @@
       "Büyük arka kamera halkası"
     ],
     "specs": {
-      "screenSize": 6.73,
-      "screenResolution": "1440x3200 (2K WQHD+)",
-      "displayType": "LTPO AMOLED (144Hz)",
-      "chipset": "Qualcomm Snapdragon 8 Gen 5 (2nm)",
+      "screenSize": 6.3,
+      "screenResolution": "1220x2656 (1.5K)",
+      "displayType": "LTPO AMOLED (120Hz)",
+      "chipset": "Qualcomm Snapdragon 8 Elite Gen 5 (3nm)",
       "cpuCores": 8,
       "ram": 16,
       "storage": 512,
-      "batteryCapacity": 6200,
-      "chargingSpeed": 120,
-      "mainCamera": "50 MP (Light Fusion 950 OIS) + 50 MP Periskop (5x) + 50 MP Ultra Geniş",
-      "frontCamera": "32 MP",
-      "operatingSystem": "Xiaomi HyperOS 3.0 (Android 17)",
+      "batteryCapacity": 6300,
+      "chargingSpeed": 100,
+      "mainCamera": "50 MP (Light Fusion 950 OIS) + 50 MP Telefoto (5x) + 50 MP Ultra Geniş",
+      "frontCamera": "50 MP",
+      "operatingSystem": "Xiaomi HyperOS 3 (Android 16)",
       "has5G": true,
       "waterResistance": "IP68"
     },
@@ -110649,7 +110663,7 @@
     "reviewCount": 1940,
     "basePrice": 54999,
     "currency": "TL",
-    "releaseYear": 2027,
+    "releaseYear": 2025,
     "isPopular": true,
     "isFeatured": false,
     "highlights": [
@@ -110668,17 +110682,17 @@
     ],
     "specs": {
       "screenSize": 6.36,
-      "screenResolution": "1200x2670 (1.5K)",
-      "displayType": "LTPO AMOLED (144Hz)",
-      "chipset": "Qualcomm Snapdragon 8 Gen 5 (2nm)",
+      "screenResolution": "1220x2656 (1.5K)",
+      "displayType": "CrystalRes OLED (120Hz)",
+      "chipset": "Qualcomm Snapdragon 8 Elite Gen 5 (3nm)",
       "cpuCores": 8,
       "ram": 12,
       "storage": 256,
-      "batteryCapacity": 6000,
-      "chargingSpeed": 90,
-      "mainCamera": "50 MP (Light Fusion 900 OIS) + 50 MP Telefoto (3.2x) + 50 MP Ultra Geniş",
-      "frontCamera": "32 MP",
-      "operatingSystem": "Xiaomi HyperOS 3.0 (Android 17)",
+      "batteryCapacity": 6330,
+      "chargingSpeed": 100,
+      "mainCamera": "50 MP (Light Fusion 950 OIS) + 50 MP Telefoto (OIS) + 50 MP Ultra Geniş",
+      "frontCamera": "50 MP",
+      "operatingSystem": "Xiaomi HyperOS 3 (Android 16)",
       "has5G": true,
       "waterResistance": "IP68"
     },
@@ -110895,7 +110909,7 @@
     "reviewCount": 2450,
     "basePrice": 47999,
     "currency": "TL",
-    "releaseYear": 2027,
+    "releaseYear": 2026,
     "isPopular": true,
     "isFeatured": false,
     "highlights": [
@@ -110913,18 +110927,18 @@
       "Plastik orta çerçeve"
     ],
     "specs": {
-      "screenSize": 6.67,
-      "screenResolution": "1220x2712 (1.5K)",
-      "displayType": "AMOLED (165Hz)",
-      "chipset": "MediaTek Dimensity 9600+",
+      "screenSize": 6.83,
+      "screenResolution": "1280x2772 (1.5K)",
+      "displayType": "AMOLED (144Hz)",
+      "chipset": "MediaTek Dimensity 9500 (3nm)",
       "cpuCores": 8,
       "ram": 16,
       "storage": 512,
-      "batteryCapacity": 6000,
-      "chargingSpeed": 140,
-      "mainCamera": "50 MP (OIS) + 50 MP Telefoto + 12 MP Ultra Geniş",
+      "batteryCapacity": 7000,
+      "chargingSpeed": 100,
+      "mainCamera": "50 MP (f/1.67 OIS) + 50 MP Telefoto (5x OIS) + 12 MP Ultra Geniş",
       "frontCamera": "32 MP",
-      "operatingSystem": "Xiaomi HyperOS 3.0 (Android 17)",
+      "operatingSystem": "Xiaomi HyperOS 3 (Android 16)",
       "has5G": true,
       "waterResistance": "IP68"
     },
@@ -111905,16 +111919,16 @@
       "Kablosuz şarj hızı 50W"
     ],
     "specs": {
-      "screenSize": 6.67,
-      "screenResolution": "1220x2712 (1.5K)",
+      "screenSize": 6.83,
+      "screenResolution": "1280x2772 (1.5K)",
       "displayType": "AMOLED (144Hz)",
       "chipset": "MediaTek Dimensity 9400+",
       "cpuCores": 8,
       "ram": 16,
       "storage": 512,
       "batteryCapacity": 5500,
-      "chargingSpeed": 120,
-      "mainCamera": "50 MP (Light Fusion 900 OIS) + 50 MP Telefoto + 12 MP Ultra Geniş",
+      "chargingSpeed": 90,
+      "mainCamera": "50 MP (Leica OIS) + 50 MP Periskop (5x) + 12 MP Ultra Geniş",
       "frontCamera": "32 MP",
       "operatingSystem": "Xiaomi HyperOS 2.0 (Android 15)",
       "has5G": true,
@@ -112137,7 +112151,7 @@
     "reviewCount": 2150,
     "basePrice": 59999,
     "currency": "TL",
-    "releaseYear": 2026,
+    "releaseYear": 2025,
     "isPopular": true,
     "isFeatured": true,
     "highlights": [
@@ -112156,17 +112170,17 @@
     ],
     "specs": {
       "screenSize": 6.86,
-      "screenResolution": "1224x2912 (Foldable AMOLED 120Hz)",
-      "displayType": "Foldable AMOLED (120Hz)",
+      "screenResolution": "1224x2912 (Foldable LTPO AMOLED)",
+      "displayType": "Foldable LTPO AMOLED (120Hz)",
       "chipset": "Qualcomm Snapdragon 8 Elite (3nm)",
       "cpuCores": 8,
       "ram": 16,
       "storage": 512,
-      "batteryCapacity": 5000,
+      "batteryCapacity": 5165,
       "chargingSpeed": 67,
       "mainCamera": "50 MP (Light Fusion 800 OIS) + 50 MP Leica Telefoto (2x)",
       "frontCamera": "32 MP",
-      "operatingSystem": "Xiaomi HyperOS 2.5 (Android 16)",
+      "operatingSystem": "Xiaomi HyperOS 2 (Android 15)",
       "has5G": true,
       "waterResistance": "IPX8"
     },
@@ -112383,7 +112397,7 @@
     "reviewCount": 1980,
     "basePrice": 82999,
     "currency": "TL",
-    "releaseYear": 2025,
+    "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": true,
     "highlights": [
@@ -112402,7 +112416,7 @@
     ],
     "specs": {
       "screenSize": 7.98,
-      "screenResolution": "2224x2488 (Foldable LTPO 120Hz)",
+      "screenResolution": "2224x2488 (Foldable LTPO AMOLED)",
       "displayType": "Foldable LTPO AMOLED (120Hz)",
       "chipset": "Qualcomm Snapdragon 8 Gen 3",
       "cpuCores": 8,
@@ -112412,7 +112426,7 @@
       "chargingSpeed": 67,
       "mainCamera": "50 MP (OIS) + 50 MP Telefoto (2x) + 10 MP Periskop (5x) + 12 MP Ultra Geniş",
       "frontCamera": "16 MP İç / 16 MP Dış",
-      "operatingSystem": "Xiaomi HyperOS (Android 14/15)",
+      "operatingSystem": "Xiaomi HyperOS (Android 14)",
       "has5G": true,
       "waterResistance": "IPX8"
     },
@@ -112654,8 +112668,8 @@
       "cpuCores": 8,
       "ram": 12,
       "storage": 512,
-      "batteryCapacity": 6200,
-      "chargingSpeed": 120,
+      "batteryCapacity": 6500,
+      "chargingSpeed": 100,
       "mainCamera": "200 MP (OIS) + 50 MP Telefoto (2.5x) + 8 MP Ultra Geniş",
       "frontCamera": "32 MP",
       "operatingSystem": "Xiaomi HyperOS 2.0 (Android 16)",
@@ -112893,15 +112907,15 @@
       "Telefoto lensi bulunmuyor"
     ],
     "specs": {
-      "screenSize": 6.67,
-      "screenResolution": "1080x2400 (FHD+)",
+      "screenSize": 6.83,
+      "screenResolution": "1280x2772 (1.5K)",
       "displayType": "AMOLED (120Hz)",
-      "chipset": "MediaTek Dimensity 7350",
+      "chipset": "MediaTek Dimensity 7400-Ultra",
       "cpuCores": 8,
       "ram": 8,
       "storage": 256,
-      "batteryCapacity": 6000,
-      "chargingSpeed": 67,
+      "batteryCapacity": 6580,
+      "chargingSpeed": 45,
       "mainCamera": "200 MP (OIS) + 8 MP Ultra Geniş",
       "frontCamera": "20 MP",
       "operatingSystem": "Xiaomi HyperOS 2.0 (Android 16)",
@@ -113637,16 +113651,16 @@
     "cons": [],
     "specs": {
       "screenSize": 6.9,
-      "screenResolution": "1440x3200 (2K WQHD+)",
-      "displayType": "OLED (144Hz)",
-      "chipset": "Qualcomm Snapdragon 8 Gen 5 (2nm)",
+      "screenResolution": "1200x2608",
+      "displayType": "OLED (120Hz)",
+      "chipset": "Qualcomm Snapdragon 8 Elite Gen 5 (3nm)",
       "cpuCores": 8,
       "ram": 16,
       "storage": 512,
       "batteryCapacity": 7560,
-      "chargingSpeed": 120,
-      "mainCamera": "50 MP (Light Hunter OIS) + 50 MP Periskop (3x) + 12 MP Ultra Geniş",
-      "frontCamera": "20 MP",
+      "chargingSpeed": 100,
+      "mainCamera": "50 MP (Light Hunter 950 OIS) + 50 MP Periskop (5x) + 50 MP Ultra Geniş",
+      "frontCamera": "32 MP",
       "operatingSystem": "Xiaomi HyperOS 3.0 (Android 17)",
       "has5G": true,
       "waterResistance": "IP68"
@@ -114155,7 +114169,7 @@
     "reviewCount": 3120,
     "basePrice": 39999,
     "currency": "TL",
-    "releaseYear": 2027,
+    "releaseYear": 2025,
     "isPopular": true,
     "isFeatured": true,
     "highlights": [
@@ -114173,20 +114187,20 @@
       "Telefoto lensi yok"
     ],
     "specs": {
-      "screenSize": 6.74,
-      "screenResolution": "1240x2772 (1.5K)",
-      "displayType": "Flow AMOLED (144Hz)",
+      "screenSize": 6.9,
+      "screenResolution": "1200x2608",
+      "displayType": "Flow AMOLED (120Hz)",
       "chipset": "Qualcomm Snapdragon 8 Elite",
       "cpuCores": 8,
       "ram": 16,
       "storage": 512,
       "batteryCapacity": 6500,
-      "chargingSpeed": 120,
-      "mainCamera": "50 MP (Sony LYT-700 OIS) + 8 MP Ultra Geniş",
-      "frontCamera": "20 MP",
+      "chargingSpeed": 100,
+      "mainCamera": "50 MP (OIS) + 50 MP Periskop (5x) + 50 MP Ultra Geniş",
+      "frontCamera": "32 MP",
       "operatingSystem": "Xiaomi HyperOS for POCO (Android 17)",
       "has5G": true,
-      "waterResistance": "IP65"
+      "waterResistance": "IP68"
     },
     "storeOffers": [
       {
@@ -114427,12 +114441,12 @@
       "ram": 12,
       "storage": 512,
       "batteryCapacity": 6000,
-      "chargingSpeed": 120,
+      "chargingSpeed": 90,
       "mainCamera": "50 MP (Light Fusion 800 OIS) + 8 MP Ultra Geniş",
-      "frontCamera": "16 MP",
+      "frontCamera": "20 MP",
       "operatingSystem": "Xiaomi HyperOS for POCO (Android 15)",
       "has5G": true,
-      "waterResistance": "IP64"
+      "waterResistance": "IP68"
     },
     "storeOffers": [
       {
@@ -114651,7 +114665,7 @@
     "reviewCount": 2780,
     "basePrice": 27999,
     "currency": "TL",
-    "releaseYear": 2027,
+    "releaseYear": 2026,
     "isPopular": true,
     "isFeatured": false,
     "highlights": [
@@ -114669,20 +114683,20 @@
       "Telefoto lensi yok"
     ],
     "specs": {
-      "screenSize": 6.74,
-      "screenResolution": "1240x2772 (1.5K)",
-      "displayType": "Flow AMOLED (144Hz)",
-      "chipset": "MediaTek Dimensity 8450-Ultra",
+      "screenSize": 6.83,
+      "screenResolution": "1280x2772 (1.5K)",
+      "displayType": "Flow AMOLED (120Hz)",
+      "chipset": "MediaTek Dimensity 9500s",
       "cpuCores": 8,
       "ram": 12,
       "storage": 512,
-      "batteryCapacity": 6000,
-      "chargingSpeed": 90,
-      "mainCamera": "64 MP (OIS) + 8 MP Ultra Geniş",
-      "frontCamera": "16 MP",
+      "batteryCapacity": 8500,
+      "chargingSpeed": 100,
+      "mainCamera": "50 MP (Light Fusion 600 OIS) + 8 MP Ultra Geniş",
+      "frontCamera": "20 MP",
       "operatingSystem": "Xiaomi HyperOS for POCO (Android 17)",
       "has5G": true,
-      "waterResistance": "IP65"
+      "waterResistance": "IP68"
     },
     "storeOffers": [
       {
@@ -114901,7 +114915,7 @@
     "reviewCount": 2340,
     "basePrice": 22999,
     "currency": "TL",
-    "releaseYear": 2027,
+    "releaseYear": 2026,
     "isPopular": true,
     "isFeatured": false,
     "highlights": [
@@ -114919,20 +114933,20 @@
       "Plastik kasa"
     ],
     "specs": {
-      "screenSize": 6.67,
+      "screenSize": 6.59,
       "screenResolution": "1220x2712 (1.5K)",
       "displayType": "Flow AMOLED (120Hz)",
-      "chipset": "MediaTek Dimensity 8350",
+      "chipset": "MediaTek Dimensity 8500-Ultra",
       "cpuCores": 8,
       "ram": 8,
       "storage": 256,
-      "batteryCapacity": 5800,
-      "chargingSpeed": 67,
-      "mainCamera": "64 MP (OIS) + 8 MP Ultra Geniş",
-      "frontCamera": "16 MP",
+      "batteryCapacity": 6500,
+      "chargingSpeed": 100,
+      "mainCamera": "50 MP (Sony IMX882 OIS) + 8 MP Ultra Geniş",
+      "frontCamera": "20 MP",
       "operatingSystem": "Xiaomi HyperOS for POCO (Android 17)",
       "has5G": true,
-      "waterResistance": "IP54"
+      "waterResistance": "IP68"
     },
     "storeOffers": [
       {
@@ -115313,7 +115327,7 @@
     "reviewCount": 1650,
     "basePrice": 15499,
     "currency": "TL",
-    "releaseYear": 2027,
+    "releaseYear": 2026,
     "isPopular": false,
     "isFeatured": false,
     "highlights": [
@@ -115331,20 +115345,20 @@
       "Giriş-orta segment kamera performansı"
     ],
     "specs": {
-      "screenSize": 6.67,
-      "screenResolution": "1080x2400 (FHD+)",
+      "screenSize": 6.83,
+      "screenResolution": "1280x2772 (1.5K)",
       "displayType": "AMOLED (120Hz)",
-      "chipset": "MediaTek Dimensity 7050",
+      "chipset": "Qualcomm Snapdragon 7s Gen 4",
       "cpuCores": 8,
       "ram": 8,
       "storage": 256,
-      "batteryCapacity": 5500,
-      "chargingSpeed": 45,
-      "mainCamera": "50 MP (f/1.8 OIS) + 2 MP Derinlik",
-      "frontCamera": "16 MP",
+      "batteryCapacity": 6500,
+      "chargingSpeed": 100,
+      "mainCamera": "50 MP (Light Fusion 800 OIS) + 8 MP Ultra Geniş",
+      "frontCamera": "32 MP",
       "operatingSystem": "Xiaomi HyperOS for POCO (Android 17)",
       "has5G": true,
-      "waterResistance": "IP54"
+      "waterResistance": "IP68"
     },
     "storeOffers": [
       {
@@ -115580,17 +115594,17 @@
       "screenSize": 6.67,
       "screenResolution": "1080x2400 (FHD+)",
       "displayType": "AMOLED (120Hz)",
-      "chipset": "MediaTek Dimensity 6100+",
+      "chipset": "MediaTek Dimensity 7025-Ultra",
       "cpuCores": 8,
       "ram": 8,
       "storage": 256,
-      "batteryCapacity": 5000,
-      "chargingSpeed": 33,
-      "mainCamera": "50 MP (f/1.8) + 2 MP Derinlik",
-      "frontCamera": "13 MP",
+      "batteryCapacity": 5110,
+      "chargingSpeed": 45,
+      "mainCamera": "50 MP (OIS) + 2 MP Derinlik",
+      "frontCamera": "20 MP",
       "operatingSystem": "Xiaomi HyperOS for POCO (Android 15)",
       "has5G": true,
-      "waterResistance": "IP54"
+      "waterResistance": "IP64"
     },
     "storeOffers": [
       {
@@ -123384,8 +123398,8 @@
       "cpuCores": 8,
       "ram": 8,
       "storage": 256,
-      "batteryCapacity": 6200,
-      "chargingSpeed": 120,
+      "batteryCapacity": 6500,
+      "chargingSpeed": 100,
       "mainCamera": "200 MP (OIS) + 50 MP Telefoto (2.5x) + 8 MP Ultra Geniş",
       "frontCamera": "32 MP",
       "operatingSystem": "Xiaomi HyperOS 2.0 (Android 16)",
@@ -123423,8 +123437,8 @@
         "dxomarkScore": 128
       },
       "battery": {
-        "capacitymAh": 6200,
-        "chargingWatts": 120,
+        "capacitymAh": 6500,
+        "chargingWatts": 100,
         "wirelessCharging": false,
         "reverseWireless": false
       },
@@ -125825,7 +125839,7 @@
     "currency": "TL",
     "rating": 4.9,
     "reviewCount": 480,
-    "releaseYear": 2026,
+    "releaseYear": 2025,
     "isPopular": true,
     "isFeatured": true,
     "highlights": [
@@ -130546,15 +130560,15 @@
       "screenSize": 6.74,
       "screenResolution": "2772 x 1240 px (1.5K)",
       "displayType": "AMOLED (120Hz Kavisli)",
-      "chipset": "MediaTek Dimensity 8350",
+      "chipset": "MediaTek Dimensity 8550 Super",
       "cpuCores": 8,
       "ram": 12,
       "storage": 512,
       "batteryCapacity": 6000,
       "chargingSpeed": 80,
-      "mainCamera": "50 MP (f/1.8, OIS) + 50 MP Portre Telefoto (3.5x) + 8 MP Ultra Geniş",
+      "mainCamera": "200 MP (f/1.8 OIS) + 50 MP Telefoto (3.5x) + 50 MP Ultra Geniş",
       "frontCamera": "50 MP AF",
-      "operatingSystem": "ColorOS 15 (Android 15)",
+      "operatingSystem": "ColorOS 16 (Android 16)",
       "has5G": true,
       "waterResistance": "IP68 / IP69K",
       "screen": {
@@ -130566,7 +130580,7 @@
         "brightnessNits": 1600
       },
       "processor": {
-        "chip": "MediaTek Dimensity 8350",
+        "chip": "MediaTek Dimensity 8550 Super",
         "cores": "8 Çekirdek",
         "process": "4nm",
         "antutuScore": 1400000
@@ -130581,8 +130595,8 @@
         "expandableStorage": false
       },
       "camera": {
-        "mainMp": "50 MP (f/1.8, OIS Sony IMX890)",
-        "ultrawideMp": "8 MP (f/2.2, 112°)",
+        "mainMp": "200 MP (f/1.8 OIS)",
+        "ultrawideMp": "50 MP Ultra Geniş",
         "telephotoMp": "50 MP (f/2.8, 3.5x Optik, OIS)",
         "selfieMp": "50 MP AF Ön Kamera",
         "videoRes": "4K @ 60fps / 1080p @ 120fps",
@@ -130862,7 +130876,7 @@
       "screenSize": 6.7,
       "screenResolution": "2412 x 1080 px (FHD+)",
       "displayType": "AMOLED (120Hz)",
-      "chipset": "MediaTek Dimensity 8300",
+      "chipset": "Qualcomm Snapdragon 7 Gen 4",
       "cpuCores": 8,
       "ram": 8,
       "storage": 256,
@@ -130870,7 +130884,7 @@
       "chargingSpeed": 80,
       "mainCamera": "50 MP (f/1.8, OIS) + 8 MP Ultra Geniş + 2 MP Makro",
       "frontCamera": "50 MP",
-      "operatingSystem": "ColorOS 15 (Android 15)",
+      "operatingSystem": "ColorOS 16 (Android 16)",
       "has5G": true,
       "waterResistance": "IP68 / IP69K",
       "screen": {
@@ -130882,7 +130896,7 @@
         "brightnessNits": 1400
       },
       "processor": {
-        "chip": "MediaTek Dimensity 8300",
+        "chip": "Qualcomm Snapdragon 7 Gen 4",
         "cores": "8 Çekirdek",
         "process": "4nm",
         "antutuScore": 1320000
@@ -131176,15 +131190,15 @@
       "screenSize": 6.67,
       "screenResolution": "2400 x 1080 px (FHD+)",
       "displayType": "AMOLED (120Hz)",
-      "chipset": "Qualcomm Snapdragon 6 Gen 1",
+      "chipset": "MediaTek Dimensity 7300-Energy",
       "cpuCores": 8,
       "ram": 8,
       "storage": 256,
-      "batteryCapacity": 6000,
-      "chargingSpeed": 45,
+      "batteryCapacity": 7000,
+      "chargingSpeed": 80,
       "mainCamera": "50 MP (f/1.8, OIS) + 8 MP Ultra Geniş + 2 MP Makro",
       "frontCamera": "32 MP",
-      "operatingSystem": "ColorOS 15 (Android 15)",
+      "operatingSystem": "ColorOS 16 (Android 16)",
       "has5G": true,
       "waterResistance": "IP64",
       "screen": {
@@ -131196,7 +131210,7 @@
         "brightnessNits": 1200
       },
       "processor": {
-        "chip": "Qualcomm Snapdragon 6 Gen 1",
+        "chip": "MediaTek Dimensity 7300-Energy",
         "cores": "8 Çekirdek",
         "process": "4nm",
         "antutuScore": 570000
@@ -131219,8 +131233,8 @@
         "dxomarkScore": 120
       },
       "battery": {
-        "capacitymAh": 6000,
-        "chargingWatts": 45,
+        "capacitymAh": 7000,
+        "chargingWatts": 80,
         "wirelessCharging": false,
         "reverseWireless": false
       }
@@ -131494,13 +131508,13 @@
       "cpuCores": 8,
       "ram": 12,
       "storage": 256,
-      "batteryCapacity": 5000,
-      "chargingSpeed": 45,
+      "batteryCapacity": 7000,
+      "chargingSpeed": 80,
       "mainCamera": "50 MP (f/1.8, OIS) + 8 MP Ultra Geniş + 2 MP Makro",
-      "frontCamera": "32 MP",
+      "frontCamera": "50 MP",
       "operatingSystem": "ColorOS 15 (Android 15)",
       "has5G": true,
-      "waterResistance": "IP64",
+      "waterResistance": "IP69",
       "screen": {
         "size": "6.67\"",
         "type": "AMOLED",
@@ -131528,13 +131542,13 @@
         "mainMp": "50 MP (f/1.8, OIS)",
         "ultrawideMp": "8 MP (f/2.2, 112°)",
         "telephotoMp": "Yok",
-        "selfieMp": "32 MP Ön Kamera",
+        "selfieMp": "50 MP Ön Kamera",
         "videoRes": "4K @ 30fps / 1080p @ 60fps",
         "dxomarkScore": 119
       },
       "battery": {
-        "capacitymAh": 5000,
-        "chargingWatts": 45,
+        "capacitymAh": 7000,
+        "chargingWatts": 80,
         "wirelessCharging": false,
         "reverseWireless": false
       }
@@ -131801,22 +131815,22 @@
       }
     ],
     "specs": {
-      "screenSize": 7.82,
+      "screenSize": 8.12,
       "screenResolution": "2440 x 2268 px (Katlanabilir LTPO3 OLED)",
       "displayType": "LTPO3 OLED (120Hz, 2800 Nit)",
       "chipset": "Qualcomm Snapdragon 8 Elite",
       "cpuCores": 8,
       "ram": 16,
       "storage": 512,
-      "batteryCapacity": 5700,
+      "batteryCapacity": 6000,
       "chargingSpeed": 80,
-      "mainCamera": "50 MP (f/1.7, OIS) + 64 MP Periskop Telefoto (3x Optik) + 48 MP Ultra Geniş",
-      "frontCamera": "32 MP (Kapak) + 20 MP (İç Ekran)",
-      "operatingSystem": "ColorOS 15 (Android 15)",
+      "mainCamera": "200 MP (f/1.8 OIS) + 50 MP Periskop + 50 MP Ultra Geniş",
+      "frontCamera": "20 MP (Kapak) + 20 MP (İç Ekran)",
+      "operatingSystem": "ColorOS 16 (Android 16)",
       "has5G": true,
-      "waterResistance": "IPX8",
+      "waterResistance": "IP58",
       "screen": {
-        "size": "7.82\"",
+        "size": "8.12\"",
         "type": "LTPO3 OLED",
         "resolution": "2440 x 2268 px",
         "refreshRate": 120,
@@ -131839,15 +131853,15 @@
         "expandableStorage": false
       },
       "camera": {
-        "mainMp": "50 MP (f/1.7, OIS Sony Lytia)",
-        "ultrawideMp": "48 MP (f/2.2, 114°)",
-        "telephotoMp": "64 MP (f/2.6, 3x Optik, OIS)",
-        "selfieMp": "32 MP Kapak / 20 MP İç Ekran",
+        "mainMp": "200 MP (f/1.8 OIS)",
+        "ultrawideMp": "50 MP Ultra Geniş",
+        "telephotoMp": "50 MP Periskop Telefoto",
+        "selfieMp": "20 MP Kapak / 20 MP İç Ekran",
         "videoRes": "4K @ 60fps Dolby Vision",
         "dxomarkScore": 153
       },
       "battery": {
-        "capacitymAh": 5700,
+        "capacitymAh": 6000,
         "chargingWatts": 80,
         "wirelessCharging": true,
         "reverseWireless": true
@@ -131865,7 +131879,7 @@
     "currency": "TL",
     "rating": 4.6,
     "reviewCount": 150,
-    "releaseYear": 2026,
+    "releaseYear": 2025,
     "isPopular": false,
     "isFeatured": false,
     "highlights": [
@@ -132114,22 +132128,22 @@
       }
     ],
     "specs": {
-      "screenSize": 6.67,
+      "screenSize": 6.57,
       "screenResolution": "2400 x 1080 px (FHD+)",
       "displayType": "AMOLED (120Hz)",
-      "chipset": "MediaTek Helio G99 Ultimate",
+      "chipset": "MediaTek Helio G100",
       "cpuCores": 8,
       "ram": 8,
       "storage": 256,
-      "batteryCapacity": 5000,
-      "chargingSpeed": 45,
+      "batteryCapacity": 7000,
+      "chargingSpeed": 80,
       "mainCamera": "50 MP (f/1.8, OIS) + 2 MP Derinlik",
       "frontCamera": "16 MP",
-      "operatingSystem": "ColorOS 14 (Android 14)",
+      "operatingSystem": "ColorOS 15 (Android 15)",
       "has5G": false,
-      "waterResistance": "IP54",
+      "waterResistance": "IP69",
       "screen": {
-        "size": "6.67\"",
+        "size": "6.57\"",
         "type": "AMOLED",
         "resolution": "2400 x 1080 px",
         "refreshRate": 120,
@@ -132137,7 +132151,7 @@
         "brightnessNits": 1200
       },
       "processor": {
-        "chip": "MediaTek Helio G99 Ultimate",
+        "chip": "MediaTek Helio G100",
         "cores": "8 Çekirdek",
         "process": "6nm",
         "antutuScore": 430000
@@ -132160,8 +132174,8 @@
         "dxomarkScore": 108
       },
       "battery": {
-        "capacitymAh": 5000,
-        "chargingWatts": 45,
+        "capacitymAh": 7000,
+        "chargingWatts": 80,
         "wirelessCharging": false,
         "reverseWireless": false
       }
@@ -132428,22 +132442,22 @@
       }
     ],
     "specs": {
-      "screenSize": 6.67,
+      "screenSize": 6.75,
       "screenResolution": "1604 x 720 px (HD+)",
       "displayType": "IPS LCD (120Hz)",
       "chipset": "MediaTek Dimensity 6300 5G",
       "cpuCores": 8,
       "ram": 4,
       "storage": 128,
-      "batteryCapacity": 5100,
+      "batteryCapacity": 6500,
       "chargingSpeed": 45,
       "mainCamera": "50 MP (f/1.8) + AI Sensör",
       "frontCamera": "8 MP",
-      "operatingSystem": "ColorOS 14 (Android 14)",
+      "operatingSystem": "ColorOS 15 (Android 15)",
       "has5G": true,
-      "waterResistance": "IP54",
+      "waterResistance": "IP64",
       "screen": {
-        "size": "6.67\"",
+        "size": "6.75\"",
         "type": "IPS LCD",
         "resolution": "1604 x 720 px",
         "refreshRate": 120,
@@ -132474,7 +132488,7 @@
         "dxomarkScore": 100
       },
       "battery": {
-        "capacitymAh": 5100,
+        "capacitymAh": 6500,
         "chargingWatts": 45,
         "wirelessCharging": false,
         "reverseWireless": false
@@ -132742,22 +132756,22 @@
       }
     ],
     "specs": {
-      "screenSize": 6.67,
+      "screenSize": 6.75,
       "screenResolution": "1604 x 720 px (HD+)",
       "displayType": "IPS LCD (120Hz)",
       "chipset": "MediaTek Dimensity 6300 5G",
       "cpuCores": 8,
       "ram": 4,
       "storage": 256,
-      "batteryCapacity": 5100,
+      "batteryCapacity": 6500,
       "chargingSpeed": 45,
       "mainCamera": "50 MP (f/1.8) + AI Sensör",
       "frontCamera": "8 MP",
-      "operatingSystem": "ColorOS 14 (Android 14)",
+      "operatingSystem": "ColorOS 15 (Android 15)",
       "has5G": true,
-      "waterResistance": "IP54",
+      "waterResistance": "IP64",
       "screen": {
-        "size": "6.67\"",
+        "size": "6.75\"",
         "type": "IPS LCD",
         "resolution": "1604 x 720 px",
         "refreshRate": 120,
@@ -132788,7 +132802,7 @@
         "dxomarkScore": 101
       },
       "battery": {
-        "capacitymAh": 5100,
+        "capacitymAh": 6500,
         "chargingWatts": 45,
         "wirelessCharging": false,
         "reverseWireless": false
@@ -132806,7 +132820,7 @@
     "currency": "TL",
     "rating": 4.6,
     "reviewCount": 165,
-    "releaseYear": 2026,
+    "releaseYear": 2025,
     "isPopular": true,
     "isFeatured": false,
     "highlights": [
@@ -133066,9 +133080,9 @@
       "chargingSpeed": 45,
       "mainCamera": "50 MP (f/1.8) + 2 MP Derinlik",
       "frontCamera": "8 MP",
-      "operatingSystem": "ColorOS 14 (Android 14)",
+      "operatingSystem": "ColorOS 15 (Android 15)",
       "has5G": true,
-      "waterResistance": "IP54",
+      "waterResistance": "IP65",
       "screen": {
         "size": "6.67\"",
         "type": "IPS LCD",
@@ -133119,7 +133133,7 @@
     "currency": "TL",
     "rating": 4.5,
     "reviewCount": 155,
-    "releaseYear": 2026,
+    "releaseYear": 2025,
     "isPopular": false,
     "isFeatured": false,
     "highlights": [
@@ -133371,17 +133385,17 @@
       "screenSize": 6.67,
       "screenResolution": "1604 x 720 px (HD+)",
       "displayType": "IPS LCD (90Hz)",
-      "chipset": "Qualcomm Snapdragon 680 4G",
+      "chipset": "Qualcomm Snapdragon 6s 4G Gen 1",
       "cpuCores": 8,
       "ram": 6,
       "storage": 128,
-      "batteryCapacity": 5100,
+      "batteryCapacity": 6000,
       "chargingSpeed": 45,
       "mainCamera": "50 MP (f/1.8) + 2 MP Derinlik",
-      "frontCamera": "8 MP",
-      "operatingSystem": "ColorOS 14 (Android 14)",
+      "frontCamera": "5 MP",
+      "operatingSystem": "ColorOS 15 (Android 15)",
       "has5G": false,
-      "waterResistance": "IP54",
+      "waterResistance": "IP65",
       "screen": {
         "size": "6.67\"",
         "type": "IPS LCD",
@@ -133391,7 +133405,7 @@
         "brightnessNits": 950
       },
       "processor": {
-        "chip": "Qualcomm Snapdragon 680 4G",
+        "chip": "Qualcomm Snapdragon 6s 4G Gen 1",
         "cores": "8 Çekirdek",
         "process": "6nm",
         "antutuScore": 310000
@@ -133409,12 +133423,12 @@
         "mainMp": "50 MP (f/1.8)",
         "ultrawideMp": "Yok",
         "telephotoMp": "Yok",
-        "selfieMp": "8 MP Ön Kamera",
+        "selfieMp": "5 MP Ön Kamera",
         "videoRes": "1080p @ 30fps",
         "dxomarkScore": 97
       },
       "battery": {
-        "capacitymAh": 5100,
+        "capacitymAh": 6000,
         "chargingWatts": 45,
         "wirelessCharging": false,
         "reverseWireless": false

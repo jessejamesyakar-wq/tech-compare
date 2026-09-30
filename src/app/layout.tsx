@@ -10,6 +10,7 @@ import { CompareBar } from '@/components/layout/CompareBar';
 import { LogoModal } from '@/components/layout/LogoModal';
 import { GlobalErrorBoundary } from '@/components/common/GlobalErrorBoundary';
 import { MotionPreferences } from '@/components/common/MotionPreferences';
+import { GlobalJsonLd } from '@/components/seo/GlobalJsonLd';
 
 const plusJakartaSans = Plus_Jakarta_Sans({
   subsets: ['latin', 'latin-ext'],
@@ -61,6 +62,7 @@ export default function RootLayout({
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
         <link rel="preconnect" href="https://www.aceleetme.tech" />
+        <GlobalJsonLd />
         {/* 📺 Smart TV & Legacy Browser Polyfills & Safety Shims */}
         <script
           dangerouslySetInnerHTML={{
