@@ -188,6 +188,11 @@ export interface SmartphoneSpecs {
     refreshRate?: number;
     ppi?: number;
     brightnessNits?: number;
+    // Brightness Schema V2 (backward-compatible)
+    brightnessTypicalNits?: number;
+    brightnessHBMNits?: number;
+    brightnessPeakNits?: number;
+    brightnessOutdoorNits?: number;
   };
   processor?: {
     chip?: string;

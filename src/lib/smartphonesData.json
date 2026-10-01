@@ -29606,7 +29606,8 @@
       "processor": {
         "chip": "Samsung S5PC100 (65nm)",
         "cores": "1 Çekirdek 600 MHz",
-        "antutuScore": 6000
+        "antutuScore": 6000,
+        "process": "Samsung 65nm"
       },
       "memory": {
         "ramGb": 8,
@@ -29910,7 +29911,8 @@
       "screenResolution": "128 x 160 TFT",
       "displayTechnology": "TFT Renkli Ekran",
       "processor": {
-        "chip": "Unisoc SC6531E"
+        "chip": "Unisoc SC6531E",
+        "process": "TSMC 40nm"
       },
       "ramGb": 0.032,
       "storageGb": 0.032,
@@ -30090,7 +30092,8 @@
       "panelType": "TFT",
       "refreshRateHz": 60,
       "processor": {
-        "chip": "MediaTek MT6261"
+        "chip": "MediaTek MT6261",
+        "process": "TSMC 28nm"
       },
       "ramGb": 0.1,
       "storageGb": 0.1,
@@ -30442,7 +30445,8 @@
       "panelType": "IPS LCD",
       "refreshRateHz": 60,
       "processor": {
-        "chip": "MediaTek MT6737"
+        "chip": "MediaTek MT6737",
+        "process": "TSMC 28nm"
       },
       "ramGb": 2,
       "storageGb": 16,
@@ -47380,7 +47384,7 @@
       },
       "memory": {
         "ramGb": 8,
-        "ramType": "LPDDR5X",
+        "ramType": "LPDDR4X",
         "storageGb": 256,
         "storageOptions": [
           256
@@ -47555,7 +47559,7 @@
       },
       "memory": {
         "ramGb": 8,
-        "ramType": "LPDDR5X",
+        "ramType": "LPDDR4X",
         "storageGb": 256,
         "storageOptions": [
           256
@@ -48837,7 +48841,7 @@
       },
       "memory": {
         "ramGb": 8,
-        "ramType": "LPDDR5X",
+        "ramType": "LPDDR4X",
         "storageGb": 256,
         "storageOptions": [
           256
@@ -49188,7 +49192,7 @@
       },
       "memory": {
         "ramGb": 8,
-        "ramType": "LPDDR5X",
+        "ramType": "LPDDR4X",
         "storageGb": 256,
         "storageOptions": [
           256
@@ -49363,7 +49367,7 @@
       },
       "memory": {
         "ramGb": 8,
-        "ramType": "LPDDR5X",
+        "ramType": "LPDDR4X",
         "storageGb": 256,
         "storageOptions": [
           256
@@ -53109,7 +53113,7 @@
       "processor": {
         "chip": "Helio G37",
         "cores": "8 Çekirdek",
-        "process": "6nm",
+        "process": "TSMC 12nm",
         "antutuScore": 580000
       },
       "memory": {
@@ -56317,7 +56321,7 @@
       "processor": {
         "chip": "MediaTek Helio G91",
         "cores": "8 Çekirdek",
-        "process": "12nm",
+        "process": "TSMC 12nm",
         "antutuScore": 280000
       },
       "memory": {
@@ -67506,7 +67510,7 @@
       "processor": {
         "chip": "MT6739",
         "cores": "8 Çekirdek",
-        "process": "5nm",
+        "process": "TSMC 28nm",
         "antutuScore": 750000
       },
       "memory": {
@@ -79435,7 +79439,7 @@
       "processor": {
         "chip": "Exynos 1580 (AMD RDNA3 GPU)",
         "cores": "8 Çekirdek",
-        "process": "3nm",
+        "process": "Samsung 4nm",
         "antutuScore": 750000
       },
       "memory": {
