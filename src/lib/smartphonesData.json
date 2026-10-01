@@ -29905,7 +29905,9 @@
       "screenSizeInches": 1.77,
       "screenResolution": "128 x 160 TFT",
       "displayTechnology": "TFT Renkli Ekran",
-      "processor": "Xenium Güç Tasarruflu Yonga Seti",
+      "processor": {
+        "chip": "Unisoc SC6531E"
+      },
       "ramGb": 0.032,
       "storageGb": 0.032,
       "batteryCapacityMah": 1700,
@@ -29916,9 +29918,9 @@
       "cellular": "2G GSM Çift Hat",
       "color": "Siyah / Koyu Gri",
       "screen": {
-        "size": "6.5 inç",
+        "size": "1.77 inç",
         "type": "IPS LCD / AMOLED",
-        "resolution": "1080 x 2400 piksel",
+        "resolution": "128 x 160",
         "refreshRate": 90,
         "ppi": 395,
         "brightnessNits": 800
@@ -29933,13 +29935,13 @@
         "expandableStorage": true
       },
       "camera": {
-        "mainMp": "50 MP, f/1.8, PDAF",
+        "mainMp": "0.3 MP (VGA)",
         "selfieMp": "8 MP, f/2.0",
         "videoRes": "1080p @ 30 fps",
         "dxomarkScore": 100
       },
       "battery": {
-        "capacitymAh": 5000,
+        "capacitymAh": 1700,
         "chargingWatts": 18,
         "wirelessCharging": false,
         "reverseWireless": false
@@ -30075,14 +30077,17 @@
       "Geniş Tuş Takımı, Büyük Yazı Boyutu ve Arka Acil Durum SOS Düğmesi",
       "Pratik Masaüstü Şarj Standı ile Kolay Şarj Deneyimi",
       "1700 mAh Uzun Ömürlü Xenium Batarya ile Haftalarca Bekleme Süresi",
-      "Güçlü Hoparlör & FM Radyo ve El Feneri"
+      "Güçlü Hoparlör & FM Radyo ve El Feneri",
+      "2G GSM Şebeke Desteği"
     ],
     "specs": {
       "screenSizeInches": 2.8,
       "screenResolution": "240 x 320",
       "panelType": "TFT",
       "refreshRateHz": 60,
-      "processor": "Single-Core Feature Phone Platform",
+      "processor": {
+        "chip": "MediaTek MT6261"
+      },
       "ramGb": 0.1,
       "storageGb": 0.1,
       "batteryMah": 1700,
@@ -30090,15 +30095,14 @@
       "frontCameraMp": "-",
       "weightGrams": 118,
       "os": "Özel Tuşlu Arayüz",
-      "connectivity": [
-        "2G GSM",
-        "Bluetooth",
-        "Masaüstü Şarj Ünitesi"
-      ],
+      "connectivity": {
+        "has5G": false,
+        "bluetooth": "Var"
+      },
       "screen": {
-        "size": "6.5 inç",
+        "size": "2.8 inç",
         "type": "IPS LCD / AMOLED",
-        "resolution": "1080 x 2400 piksel",
+        "resolution": "240 x 320",
         "refreshRate": 90,
         "ppi": 395,
         "brightnessNits": 800
@@ -30113,13 +30117,13 @@
         "expandableStorage": true
       },
       "camera": {
-        "mainMp": "50 MP, f/1.8, PDAF",
+        "mainMp": "0.08 MP",
         "selfieMp": "8 MP, f/2.0",
         "videoRes": "1080p @ 30 fps",
         "dxomarkScore": 100
       },
       "battery": {
-        "capacitymAh": 5000,
+        "capacitymAh": 1700,
         "chargingWatts": 18,
         "wirelessCharging": false,
         "reverseWireless": false
@@ -30255,7 +30259,9 @@
       "screenResolution": "1080 x 1920 (FHD)",
       "panelType": "IPS LCD",
       "refreshRateHz": 60,
-      "processor": "MediaTek Helio P10 (MT6755)",
+      "processor": {
+        "chip": "MediaTek Helio P10"
+      },
       "ramGb": 3,
       "storageGb": 32,
       "batteryMah": 3900,
@@ -30264,9 +30270,9 @@
       "weightGrams": 168,
       "os": "Android",
       "screen": {
-        "size": "6.5 inç",
+        "size": "5.5 inç",
         "type": "IPS LCD / AMOLED",
-        "resolution": "1080 x 2400 piksel",
+        "resolution": "1080 x 1920 (FHD)",
         "refreshRate": 90,
         "ppi": 395,
         "brightnessNits": 800
@@ -30281,13 +30287,13 @@
         "expandableStorage": true
       },
       "camera": {
-        "mainMp": "50 MP, f/1.8, PDAF",
+        "mainMp": "16 MP",
         "selfieMp": "8 MP, f/2.0",
         "videoRes": "1080p @ 30 fps",
         "dxomarkScore": 100
       },
       "battery": {
-        "capacitymAh": 5000,
+        "capacitymAh": 3900,
         "chargingWatts": 18,
         "wirelessCharging": false,
         "reverseWireless": false
@@ -30430,7 +30436,9 @@
       "screenResolution": "720 x 1280 (HD)",
       "panelType": "IPS LCD",
       "refreshRateHz": 60,
-      "processor": "MediaTek Dört Çekirdek",
+      "processor": {
+        "chip": "MediaTek MT6737"
+      },
       "ramGb": 2,
       "storageGb": 16,
       "batteryMah": 2500,
@@ -30439,9 +30447,9 @@
       "weightGrams": 155,
       "os": "Android",
       "screen": {
-        "size": "6.5 inç",
+        "size": "5.0 inç",
         "type": "IPS LCD / AMOLED",
-        "resolution": "1080 x 2400 piksel",
+        "resolution": "720 x 1280 (HD)",
         "refreshRate": 90,
         "ppi": 395,
         "brightnessNits": 800
@@ -30456,13 +30464,13 @@
         "expandableStorage": true
       },
       "camera": {
-        "mainMp": "50 MP, f/1.8, PDAF",
+        "mainMp": "8 MP",
         "selfieMp": "8 MP, f/2.0",
         "videoRes": "1080p @ 30 fps",
         "dxomarkScore": 100
       },
       "battery": {
-        "capacitymAh": 5000,
+        "capacitymAh": 2500,
         "chargingWatts": 18,
         "wirelessCharging": false,
         "reverseWireless": false
@@ -46123,7 +46131,7 @@
     "currency": "TL",
     "rating": 4.7,
     "reviewCount": 278,
-    "releaseYear": 2021,
+    "releaseYear": 2025,
     "isPopular": true,
     "isFeatured": true,
     "highlights": [
@@ -55284,14 +55292,14 @@
     "specs": {
       "screen": {
         "size": "6.78 inç",
-        "type": "IPS LCD",
-        "resolution": "2460 x 1080",
-        "refreshRate": 120,
+        "type": "AMOLED",
+        "resolution": "1224 x 2720",
+        "refreshRate": 144,
         "ppi": 396,
         "brightnessNits": 800
       },
       "processor": {
-        "chip": "MediaTek Helio Octa-Core",
+        "chip": "MediaTek Dimensity 7300 Ultimate",
         "cores": "8 Çekirdek",
         "process": "6nm",
         "antutuScore": 320000
@@ -55306,20 +55314,20 @@
         "expandableStorage": true
       },
       "camera": {
-        "mainMp": "108 MP",
+        "mainMp": "64 MP",
         "ultrawideMp": "2 MP Derinlik Sensörü",
-        "selfieMp": "16 MP AI Ön Kamera",
+        "selfieMp": "13 MP",
         "videoRes": "1080p @ 60fps",
         "dxomarkScore": 105
       },
       "battery": {
         "capacitymAh": 6000,
-        "chargingWatts": 33,
+        "chargingWatts": 45,
         "wirelessCharging": false,
         "reverseWireless": false
       },
       "connectivity": {
-        "has5G": false,
+        "has5G": true,
         "wifiStandard": "Wi-Fi 5",
         "bluetooth": "5.2",
         "hasNFC": true,
@@ -55328,11 +55336,11 @@
       "build": {
         "weightGrams": 190,
         "thicknessMm": 7.9,
-        "waterResistance": "IP54",
+        "waterResistance": "IP64",
         "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
       },
       "software": {
-        "osName": "Android (HiOS)",
+        "osName": "Android 15 (HIOS 15)",
         "updateYears": 2
       }
     },
@@ -58446,7 +58454,7 @@
       "processor": {
         "chip": "Exynos 9810",
         "cores": "8 Çekirdek",
-        "process": "5nm",
+        "process": "10nm",
         "antutuScore": 1850000
       },
       "memory": {
@@ -58608,7 +58616,7 @@
       "processor": {
         "chip": "Exynos 9810",
         "cores": "8 Çekirdek",
-        "process": "5nm",
+        "process": "10nm",
         "antutuScore": 1850000
       },
       "memory": {
@@ -58770,7 +58778,7 @@
       "processor": {
         "chip": "Exynos 9810",
         "cores": "8 Çekirdek",
-        "process": "5nm",
+        "process": "10nm",
         "antutuScore": 1850000
       },
       "memory": {
@@ -60395,7 +60403,7 @@
       "processor": {
         "chip": "Exynos 9820",
         "cores": "8 Çekirdek",
-        "process": "5nm",
+        "process": "8nm",
         "antutuScore": 1850000
       },
       "memory": {
@@ -60562,7 +60570,7 @@
       "processor": {
         "chip": "Exynos 9820",
         "cores": "8 Çekirdek",
-        "process": "5nm",
+        "process": "8nm",
         "antutuScore": 1850000
       },
       "memory": {
@@ -60729,7 +60737,7 @@
       "processor": {
         "chip": "Exynos 9820",
         "cores": "8 Çekirdek",
-        "process": "5nm",
+        "process": "8nm",
         "antutuScore": 1850000
       },
       "memory": {
@@ -60891,7 +60899,7 @@
       "processor": {
         "chip": "Exynos 9820 5G",
         "cores": "8 Çekirdek",
-        "process": "5nm",
+        "process": "8nm",
         "antutuScore": 1850000
       },
       "memory": {
@@ -61053,7 +61061,7 @@
       "processor": {
         "chip": "Exynos 9825",
         "cores": "8 Çekirdek",
-        "process": "5nm",
+        "process": "7nm",
         "antutuScore": 1850000
       },
       "memory": {
@@ -61215,7 +61223,7 @@
       "processor": {
         "chip": "Exynos 9825",
         "cores": "8 Çekirdek",
-        "process": "5nm",
+        "process": "7nm",
         "antutuScore": 1850000
       },
       "memory": {
@@ -61377,7 +61385,7 @@
       "processor": {
         "chip": "Snapdragon 855",
         "cores": "8 Çekirdek",
-        "process": "5nm",
+        "process": "7nm",
         "antutuScore": 1850000
       },
       "memory": {
@@ -61539,7 +61547,7 @@
       "processor": {
         "chip": "Exynos 7884",
         "cores": "8 Çekirdek",
-        "process": "5nm",
+        "process": "14nm",
         "antutuScore": 750000
       },
       "memory": {
@@ -61702,7 +61710,7 @@
       "processor": {
         "chip": "Exynos 7884",
         "cores": "8 Çekirdek",
-        "process": "5nm",
+        "process": "14nm",
         "antutuScore": 750000
       },
       "memory": {
@@ -61865,7 +61873,7 @@
       "processor": {
         "chip": "Exynos 7904",
         "cores": "8 Çekirdek",
-        "process": "5nm",
+        "process": "14nm",
         "antutuScore": 750000
       },
       "memory": {
@@ -62027,7 +62035,7 @@
       "processor": {
         "chip": "Exynos 7904",
         "cores": "8 Çekirdek",
-        "process": "5nm",
+        "process": "14nm",
         "antutuScore": 750000
       },
       "memory": {
@@ -62190,7 +62198,7 @@
       "processor": {
         "chip": "Exynos 9610",
         "cores": "8 Çekirdek",
-        "process": "5nm",
+        "process": "10nm",
         "antutuScore": 750000
       },
       "memory": {
@@ -62352,7 +62360,7 @@
       "processor": {
         "chip": "Snapdragon 675",
         "cores": "8 Çekirdek",
-        "process": "5nm",
+        "process": "11nm",
         "antutuScore": 750000
       },
       "memory": {
@@ -62514,7 +62522,7 @@
       "processor": {
         "chip": "Snapdragon 675",
         "cores": "8 Çekirdek",
-        "process": "5nm",
+        "process": "11nm",
         "antutuScore": 750000
       },
       "memory": {
@@ -62676,7 +62684,7 @@
       "processor": {
         "chip": "Snapdragon 730G",
         "cores": "8 Çekirdek",
-        "process": "5nm",
+        "process": "8nm",
         "antutuScore": 750000
       },
       "memory": {
@@ -62838,7 +62846,7 @@
       "processor": {
         "chip": "Snapdragon 855",
         "cores": "8 Çekirdek",
-        "process": "5nm",
+        "process": "7nm",
         "antutuScore": 1850000
       },
       "memory": {
@@ -63000,7 +63008,7 @@
       "processor": {
         "chip": "Exynos 7870",
         "cores": "8 Çekirdek",
-        "process": "5nm",
+        "process": "14nm",
         "antutuScore": 750000
       },
       "memory": {
@@ -63162,7 +63170,7 @@
       "processor": {
         "chip": "Exynos 7904",
         "cores": "8 Çekirdek",
-        "process": "5nm",
+        "process": "14nm",
         "antutuScore": 750000
       },
       "memory": {
@@ -63324,7 +63332,7 @@
       "processor": {
         "chip": "Exynos 7904",
         "cores": "8 Çekirdek",
-        "process": "5nm",
+        "process": "14nm",
         "antutuScore": 750000
       },
       "memory": {
@@ -63486,7 +63494,7 @@
       "processor": {
         "chip": "Exynos 990",
         "cores": "8 Çekirdek",
-        "process": "5nm",
+        "process": "7nm",
         "antutuScore": 1850000
       },
       "memory": {
@@ -63648,7 +63656,7 @@
       "processor": {
         "chip": "Exynos 990",
         "cores": "8 Çekirdek",
-        "process": "5nm",
+        "process": "7nm",
         "antutuScore": 1850000
       },
       "memory": {
@@ -63973,7 +63981,7 @@
       "processor": {
         "chip": "Snapdragon 865",
         "cores": "8 Çekirdek",
-        "process": "5nm",
+        "process": "7nm",
         "antutuScore": 1850000
       },
       "memory": {
@@ -64135,7 +64143,7 @@
       "processor": {
         "chip": "Exynos 990",
         "cores": "8 Çekirdek",
-        "process": "5nm",
+        "process": "7nm",
         "antutuScore": 1850000
       },
       "memory": {
@@ -64460,7 +64468,7 @@
       "processor": {
         "chip": "Snapdragon 855+",
         "cores": "8 Çekirdek",
-        "process": "5nm",
+        "process": "7nm",
         "antutuScore": 1850000
       },
       "memory": {
@@ -64622,7 +64630,7 @@
       "processor": {
         "chip": "Snapdragon 865+",
         "cores": "8 Çekirdek",
-        "process": "5nm",
+        "process": "7nm",
         "antutuScore": 1850000
       },
       "memory": {
@@ -64789,7 +64797,7 @@
       "processor": {
         "chip": "Snapdragon 450",
         "cores": "8 Çekirdek",
-        "process": "5nm",
+        "process": "14nm",
         "antutuScore": 750000
       },
       "memory": {
@@ -64951,7 +64959,7 @@
       "processor": {
         "chip": "Exynos 850",
         "cores": "8 Çekirdek",
-        "process": "5nm",
+        "process": "8nm",
         "antutuScore": 750000
       },
       "memory": {
@@ -65438,7 +65446,7 @@
       "processor": {
         "chip": "Exynos 9611",
         "cores": "8 Çekirdek",
-        "process": "5nm",
+        "process": "10nm",
         "antutuScore": 750000
       },
       "memory": {
@@ -65601,7 +65609,7 @@
       "processor": {
         "chip": "Snapdragon 730",
         "cores": "8 Çekirdek",
-        "process": "5nm",
+        "process": "8nm",
         "antutuScore": 750000
       },
       "memory": {
@@ -65763,7 +65771,7 @@
       "processor": {
         "chip": "Snapdragon 450",
         "cores": "8 Çekirdek",
-        "process": "5nm",
+        "process": "14nm",
         "antutuScore": 750000
       },
       "memory": {
@@ -65925,7 +65933,7 @@
       "processor": {
         "chip": "Exynos 9611",
         "cores": "8 Çekirdek",
-        "process": "5nm",
+        "process": "10nm",
         "antutuScore": 750000
       },
       "memory": {
@@ -66087,7 +66095,7 @@
       "processor": {
         "chip": "Exynos 9611",
         "cores": "8 Çekirdek",
-        "process": "5nm",
+        "process": "10nm",
         "antutuScore": 750000
       },
       "memory": {
@@ -66249,7 +66257,7 @@
       "processor": {
         "chip": "Snapdragon 730G",
         "cores": "8 Çekirdek",
-        "process": "5nm",
+        "process": "8nm",
         "antutuScore": 750000
       },
       "memory": {
@@ -68048,7 +68056,7 @@
       "processor": {
         "chip": "Snapdragon 720G",
         "cores": "8 Çekirdek",
-        "process": "5nm",
+        "process": "8nm",
         "antutuScore": 750000
       },
       "memory": {
@@ -68211,7 +68219,7 @@
       "processor": {
         "chip": "Snapdragon 778G 5G",
         "cores": "8 Çekirdek",
-        "process": "5nm",
+        "process": "6nm",
         "antutuScore": 750000
       },
       "memory": {
@@ -68536,7 +68544,7 @@
       "processor": {
         "chip": "Exynos 850",
         "cores": "8 Çekirdek",
-        "process": "5nm",
+        "process": "8nm",
         "antutuScore": 750000
       },
       "memory": {
@@ -68698,7 +68706,7 @@
       "processor": {
         "chip": "Helio G80",
         "cores": "8 Çekirdek",
-        "process": "5nm",
+        "process": "12nm",
         "antutuScore": 750000
       },
       "memory": {
@@ -68860,7 +68868,7 @@
       "processor": {
         "chip": "Snapdragon 778G 5G",
         "cores": "8 Çekirdek",
-        "process": "5nm",
+        "process": "6nm",
         "antutuScore": 750000
       },
       "memory": {
@@ -69023,7 +69031,7 @@
       "processor": {
         "chip": "Snapdragon 8 Gen 1",
         "cores": "8 Çekirdek",
-        "process": "5nm",
+        "process": "4nm",
         "antutuScore": 1850000
       },
       "memory": {
@@ -69186,7 +69194,7 @@
       "processor": {
         "chip": "Snapdragon 8 Gen 1",
         "cores": "8 Çekirdek",
-        "process": "5nm",
+        "process": "4nm",
         "antutuScore": 1850000
       },
       "memory": {
@@ -69530,7 +69538,7 @@
       "processor": {
         "chip": "Snapdragon 8+ Gen 1",
         "cores": "8 Çekirdek",
-        "process": "5nm",
+        "process": "4nm",
         "antutuScore": 1850000
       },
       "memory": {
@@ -69693,7 +69701,7 @@
       "processor": {
         "chip": "Snapdragon 8+ Gen 1",
         "cores": "8 Çekirdek",
-        "process": "5nm",
+        "process": "4nm",
         "antutuScore": 1850000
       },
       "memory": {
@@ -69856,7 +69864,7 @@
       "processor": {
         "chip": "Exynos 850",
         "cores": "8 Çekirdek",
-        "process": "5nm",
+        "process": "8nm",
         "antutuScore": 750000
       },
       "memory": {
@@ -70019,7 +70027,7 @@
       "processor": {
         "chip": "Snapdragon 680",
         "cores": "8 Çekirdek",
-        "process": "5nm",
+        "process": "6nm",
         "antutuScore": 750000
       },
       "memory": {
@@ -70506,7 +70514,7 @@
       "processor": {
         "chip": "Snapdragon 778G 5G",
         "cores": "8 Çekirdek",
-        "process": "5nm",
+        "process": "6nm",
         "antutuScore": 750000
       },
       "memory": {
@@ -70669,7 +70677,7 @@
       "processor": {
         "chip": "Exynos 850",
         "cores": "8 Çekirdek",
-        "process": "5nm",
+        "process": "8nm",
         "antutuScore": 750000
       },
       "memory": {
@@ -70831,7 +70839,7 @@
       "processor": {
         "chip": "Snapdragon 750G 5G",
         "cores": "8 Çekirdek",
-        "process": "5nm",
+        "process": "8nm",
         "antutuScore": 750000
       },
       "memory": {
@@ -71151,7 +71159,8 @@
         "refreshRate": 120
       },
       "processor": {
-        "cores": "8 çekirdek (2,4 GHz / 2 GHz)"
+        "cores": "8 çekirdek (2,4 GHz / 2 GHz)",
+        "chip": "MediaTek Dimensity 900"
       },
       "memory": {
         "ramGb": 8,
@@ -72594,7 +72603,7 @@
       "processor": {
         "chip": "Helio G99",
         "cores": "8 Çekirdek",
-        "process": "4nm",
+        "process": "6nm",
         "antutuScore": 750000
       },
       "memory": {
@@ -72756,7 +72765,7 @@
       "processor": {
         "chip": "Dimensity 1080 5G",
         "cores": "8 Çekirdek",
-        "process": "4nm",
+        "process": "6nm",
         "antutuScore": 750000
       },
       "memory": {
@@ -73109,7 +73118,7 @@
       "processor": {
         "chip": "Exynos 1330 5G",
         "cores": "8 Çekirdek",
-        "process": "4nm",
+        "process": "5nm",
         "antutuScore": 750000
       },
       "memory": {
@@ -73272,7 +73281,7 @@
       "processor": {
         "chip": "Exynos 1280",
         "cores": "8 Çekirdek",
-        "process": "4nm",
+        "process": "5nm",
         "antutuScore": 750000
       },
       "memory": {
@@ -73434,7 +73443,7 @@
       "processor": {
         "chip": "Exynos 1380",
         "cores": "8 Çekirdek",
-        "process": "4nm",
+        "process": "5nm",
         "antutuScore": 750000
       },
       "memory": {
@@ -75237,7 +75246,7 @@
       "processor": {
         "chip": "Exynos 1280",
         "cores": "8 Çekirdek",
-        "process": "4nm",
+        "process": "5nm",
         "antutuScore": 750000
       },
       "memory": {
@@ -75414,7 +75423,7 @@
       "processor": {
         "chip": "Exynos 1380",
         "cores": "8 Çekirdek",
-        "process": "4nm",
+        "process": "5nm",
         "antutuScore": 750000
       },
       "memory": {
@@ -75805,7 +75814,7 @@
       "processor": {
         "chip": "Dimensity 6100+ 5G",
         "cores": "8 Çekirdek",
-        "process": "4nm",
+        "process": "6nm",
         "antutuScore": 750000
       },
       "memory": {
@@ -75968,7 +75977,7 @@
       "processor": {
         "chip": "Exynos 1380",
         "cores": "8 Çekirdek",
-        "process": "4nm",
+        "process": "5nm",
         "antutuScore": 750000
       },
       "memory": {
@@ -76752,7 +76761,7 @@
     "specs": {
       "screen": {
         "size": "6.7\"",
-        "type": "6.7\" QHD+ 1-120Hz Dynamic AMOLED 2X (Galaxy AI 2.0)",
+        "type": "Dynamic AMOLED 2X (120Hz)",
         "resolution": "3080 x 1440 px",
         "refreshRate": 120,
         "ppi": 500,
@@ -77044,14 +77053,14 @@
     "specs": {
       "screen": {
         "size": "6.9\"",
-        "type": "6.9\" QHD+ 120Hz Titanyum Yuvarlatılmış Kasa (Galaxy AI)",
+        "type": "Dynamic AMOLED 2X (120Hz)",
         "resolution": "3080 x 1440 px",
         "refreshRate": 120,
         "ppi": 500,
         "brightnessNits": 2600
       },
       "processor": {
-        "chip": "Snapdragon 8 Elite for Galaxy (3nm)",
+        "chip": "Snapdragon 8 Elite for Galaxy",
         "cores": "8 Çekirdek",
         "process": "3nm",
         "antutuScore": 1850000
@@ -77339,14 +77348,14 @@
     "specs": {
       "screen": {
         "size": "6.7\"",
-        "type": "6.7\" FHD+ 120Hz Dynamic AMOLED 2X (Galaxy AI)",
-        "resolution": "3080 x 1440 px",
+        "type": "Dynamic AMOLED 2X (120Hz)",
+        "resolution": "1080 x 2340 px (FHD+)",
         "refreshRate": 120,
         "ppi": 500,
         "brightnessNits": 2600
       },
       "processor": {
-        "chip": "Exynos 2500 / Snapdragon 8s Gen 3",
+        "chip": "Samsung Exynos 2400",
         "cores": "8 Çekirdek",
         "process": "3nm",
         "antutuScore": 1850000
@@ -79598,14 +79607,14 @@
     "specs": {
       "screen": {
         "size": "6.2\"",
-        "type": "6.2\" QHD+ 1-120Hz LTPO OLED 3.0 (Galaxy AI 3.0)",
+        "type": "Dynamic AMOLED 2X (120Hz)",
         "resolution": "3080 x 1440 px",
         "refreshRate": 120,
         "ppi": 500,
         "brightnessNits": 2600
       },
       "processor": {
-        "chip": "Snapdragon 8 Gen 5 for Galaxy",
+        "chip": "Samsung Exynos 2600",
         "cores": "8 Çekirdek",
         "process": "2nm",
         "antutuScore": 1850000
@@ -79876,14 +79885,14 @@
     "specs": {
       "screen": {
         "size": "6.7\"",
-        "type": "6.7\" QHD+ 1-120Hz LTPO OLED 3.0 (Galaxy AI 3.0)",
+        "type": "Dynamic AMOLED 2X (120Hz)",
         "resolution": "3080 x 1440 px",
         "refreshRate": 120,
         "ppi": 500,
         "brightnessNits": 2600
       },
       "processor": {
-        "chip": "Snapdragon 8 Gen 5 for Galaxy",
+        "chip": "Samsung Exynos 2600",
         "cores": "8 Çekirdek",
         "process": "2nm",
         "antutuScore": 1850000
@@ -80159,14 +80168,14 @@
     "specs": {
       "screen": {
         "size": "6.9\"",
-        "type": "6.9\" QHD+ 144Hz Titanyum Armor 2.0 (Galaxy AI 3.0)",
+        "type": "Dynamic AMOLED 2X (120Hz)",
         "resolution": "3080 x 1440 px",
         "refreshRate": 120,
         "ppi": 500,
         "brightnessNits": 2600
       },
       "processor": {
-        "chip": "Snapdragon 8 Gen 5 for Galaxy (2nm)",
+        "chip": "Snapdragon 8 Elite Gen 5 for Galaxy",
         "cores": "8 Çekirdek",
         "process": "2nm",
         "antutuScore": 1850000
@@ -81070,7 +81079,7 @@
     "currency": "TL",
     "rating": 4.5,
     "reviewCount": 801,
-    "releaseYear": 2026,
+    "releaseYear": 2025,
     "isPopular": true,
     "isFeatured": false,
     "highlights": [
@@ -81287,14 +81296,14 @@
     "specs": {
       "screen": {
         "size": "6.7\"",
-        "type": "6.7\" FHD+ 90Hz Super AMOLED (6 Yıl Güncelleme)",
+        "type": "Super AMOLED (90Hz)",
         "resolution": "2340 x 1080 px",
-        "refreshRate": 120,
+        "refreshRate": 90,
         "ppi": 390,
         "brightnessNits": 1000
       },
       "processor": {
-        "chip": "Exynos 1380 5G",
+        "chip": "Samsung Exynos 1330",
         "cores": "8 Çekirdek",
         "process": "2nm",
         "antutuScore": 750000
@@ -81569,14 +81578,14 @@
     "specs": {
       "screen": {
         "size": "6.6\"",
-        "type": "6.6\" FHD+ 120Hz Super AMOLED (IP67)",
+        "type": "Super AMOLED (120Hz)",
         "resolution": "2340 x 1080 px",
         "refreshRate": 120,
         "ppi": 390,
         "brightnessNits": 1000
       },
       "processor": {
-        "chip": "Snapdragon 7s Gen 3 5G",
+        "chip": "Samsung Exynos 1480",
         "cores": "8 Çekirdek",
         "process": "2nm",
         "antutuScore": 750000
@@ -81851,14 +81860,14 @@
     "specs": {
       "screen": {
         "size": "6.7\"",
-        "type": "6.7\" FHD+ 120Hz Metal Çerçeve Super AMOLED",
+        "type": "Super AMOLED Plus (120Hz)",
         "resolution": "2340 x 1080 px",
         "refreshRate": 120,
         "ppi": 390,
         "brightnessNits": 1000
       },
       "processor": {
-        "chip": "Exynos 1680 5G 45W",
+        "chip": "Samsung Exynos 1680",
         "cores": "8 Çekirdek",
         "process": "2nm",
         "antutuScore": 750000
@@ -81873,10 +81882,10 @@
         "expandableStorage": true
       },
       "camera": {
-        "mainMp": "50 MP",
+        "mainMp": "50 MP (OIS)",
         "ultrawideMp": "12 MP",
         "telephotoMp": "Yok",
-        "selfieMp": "13 MP",
+        "selfieMp": "12 MP",
         "videoRes": "4K @ 30fps",
         "dxomarkScore": 118
       },
@@ -84247,7 +84256,7 @@
     "specs": {
       "display": "6.2\" Dynamic LTPO AMOLED 2X, 120Hz, FHD+",
       "processor": {
-        "chip": "Snapdragon 8 Elite / Exynos 2600 (3.8 GHz, 3.26 GHz)",
+        "chip": "Samsung Exynos 2600",
         "cores": "8 Çekirdek (2x4.32 GHz Oryon + 6x3.53 GHz)",
         "process": "3nm TSMC",
         "antutuScore": 2850000
@@ -84271,7 +84280,7 @@
       "os": "Android 16, One UI 8.0",
       "screen": {
         "size": "6.2 inç",
-        "type": "Dynamic LTPO AMOLED 2X",
+        "type": "Dynamic AMOLED 2X (120Hz)",
         "resolution": "FHD+",
         "refreshRate": 120,
         "ppi": 505,
@@ -85505,7 +85514,7 @@
     "specs": {
       "display": "6.7\" Dynamic AMOLED 2X, 120Hz, FHD+",
       "processor": {
-        "chip": "Samsung Exynos 2400e (4nm)",
+        "chip": "Samsung Exynos 2400",
         "cores": "8 Çekirdek (2x4.32 GHz Oryon + 6x3.53 GHz)",
         "process": "3nm TSMC",
         "antutuScore": 1650000
@@ -85529,7 +85538,7 @@
       "os": "Android 15, One UI 7.0",
       "screen": {
         "size": "6.7 inç",
-        "type": "Dynamic LTPO AMOLED 2X",
+        "type": "Dynamic AMOLED 2X (120Hz)",
         "resolution": "FHD+",
         "refreshRate": 120,
         "ppi": 505,
@@ -85840,7 +85849,7 @@
       "os": "Android 16, One UI 8.0",
       "screen": {
         "size": "6.6 inç",
-        "type": "Dynamic LTPO AMOLED 2X",
+        "type": "Super AMOLED Plus (120Hz)",
         "resolution": "1080x2340",
         "refreshRate": 120,
         "ppi": 505,
@@ -86114,7 +86123,7 @@
     "specs": {
       "display": "6.6\" Super AMOLED, 120Hz, FHD+",
       "processor": {
-        "chip": "Samsung Exynos 1580",
+        "chip": "Samsung Exynos 1480",
         "cores": "8 Çekirdek (2x4.32 GHz Oryon + 6x3.53 GHz)",
         "process": "3nm TSMC",
         "antutuScore": 850000
@@ -86138,7 +86147,7 @@
       "os": "Android 16, One UI 8.0",
       "screen": {
         "size": "6.6 inç",
-        "type": "Dynamic LTPO AMOLED 2X",
+        "type": "Super AMOLED (120Hz)",
         "resolution": "FHD+",
         "refreshRate": 120,
         "ppi": 505,
@@ -86412,7 +86421,7 @@
     "specs": {
       "display": "6.5\" Super AMOLED, 90Hz, FHD+",
       "processor": {
-        "chip": "MediaTek Dimensity 6300 (6nm)",
+        "chip": "Samsung Exynos 1330",
         "cores": "8 Çekirdek (2x4.32 GHz Oryon + 6x3.53 GHz)",
         "process": "3nm TSMC",
         "antutuScore": 650000
@@ -86436,7 +86445,7 @@
       "os": "Android 16, One UI 8.0",
       "screen": {
         "size": "6.5 inç",
-        "type": "Dynamic LTPO AMOLED 2X",
+        "type": "Super AMOLED (90Hz)",
         "resolution": "FHD+",
         "refreshRate": 90,
         "ppi": 505,
@@ -119380,7 +119389,7 @@
     "currency": "TL",
     "rating": 4.5,
     "reviewCount": 801,
-    "releaseYear": 2026,
+    "releaseYear": 2025,
     "isPopular": true,
     "isFeatured": false,
     "highlights": [
@@ -119598,14 +119607,14 @@
     "specs": {
       "screen": {
         "size": "6.7\"",
-        "type": "6.7\" FHD+ 90Hz Super AMOLED (6 Yıl Güncelleme)",
+        "type": "Super AMOLED (90Hz)",
         "resolution": "2340 x 1080 px",
-        "refreshRate": 120,
+        "refreshRate": 90,
         "ppi": 390,
         "brightnessNits": 1000
       },
       "processor": {
-        "chip": "Exynos 1380 5G",
+        "chip": "Samsung Exynos 1330",
         "cores": "8 Çekirdek",
         "process": "2nm",
         "antutuScore": 750000
@@ -119935,14 +119944,14 @@
     "specs": {
       "screen": {
         "size": "6.6\"",
-        "type": "6.6\" FHD+ 120Hz Super AMOLED (IP67)",
+        "type": "Super AMOLED (120Hz)",
         "resolution": "2340 x 1080 px",
         "refreshRate": 120,
         "ppi": 390,
         "brightnessNits": 1000
       },
       "processor": {
-        "chip": "Snapdragon 7s Gen 3 5G",
+        "chip": "Samsung Exynos 1480",
         "cores": "8 Çekirdek",
         "process": "2nm",
         "antutuScore": 750000
@@ -120272,14 +120281,14 @@
     "specs": {
       "screen": {
         "size": "6.7\"",
-        "type": "6.7\" FHD+ 120Hz Dynamic AMOLED 2X (Galaxy AI)",
-        "resolution": "3080 x 1440 px",
+        "type": "Dynamic AMOLED 2X (120Hz)",
+        "resolution": "1080 x 2340 px (FHD+)",
         "refreshRate": 120,
         "ppi": 500,
         "brightnessNits": 2600
       },
       "processor": {
-        "chip": "Exynos 2500 / Snapdragon 8s Gen 3",
+        "chip": "Samsung Exynos 2400",
         "cores": "8 Çekirdek",
         "process": "3nm",
         "antutuScore": 1850000
@@ -120622,14 +120631,14 @@
     "specs": {
       "screen": {
         "size": "6.9\"",
-        "type": "6.9\" QHD+ 144Hz Titanyum Armor 2.0 (Galaxy AI 3.0)",
+        "type": "Dynamic AMOLED 2X (120Hz)",
         "resolution": "3080 x 1440 px",
         "refreshRate": 120,
         "ppi": 500,
         "brightnessNits": 2600
       },
       "processor": {
-        "chip": "Snapdragon 8 Gen 5 for Galaxy (2nm)",
+        "chip": "Snapdragon 8 Elite Gen 5 for Galaxy",
         "cores": "8 Çekirdek",
         "process": "2nm",
         "antutuScore": 1850000

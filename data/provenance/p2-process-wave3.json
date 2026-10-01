@@ -1,0 +1,798 @@
+{
+  "manifestVersion": "3.0.0",
+  "runId": "P2_PROCESS_NEXT_WAVE_20261001_005000",
+  "generatedAt": "2026-09-30T21:49:04.989Z",
+  "totalRecords": 26,
+  "countsByStatus": {
+    "VERIFIED_EXISTING_VALUE": 26,
+    "CONFLICT_REQUIRES_PATCH": 0,
+    "BLOCKED_EVIDENCE": 0,
+    "BLOCKED_SCHEMA_SEMANTICS": 0,
+    "IDENTITY_UNCERTAIN": 0,
+    "ALREADY_VERIFIED": 0,
+    "EXCLUDED_PROTECTED_ROOT": 0,
+    "EVIDENCE_COLLECTED_PENDING_INTEGRATION": 0
+  },
+  "records": [
+    {
+      "rootId": "samsung-samsung-galaxy-s20-32",
+      "rawFieldPath": "specs.processor.process",
+      "canonicalFieldPath": "specs.processor.process",
+      "currentRawValue": "7nm",
+      "exactRawValue": "7nm",
+      "unitAndTechnicalMeaning": "semiconductor fabrication process node",
+      "verifiedValueOrHash": "7nm",
+      "valueHash": "401d23012185e231b8fbb0bc20daad8d9ebe69b002e0fa27114085ac54472d9b",
+      "chipDependency": "Exynos 990",
+      "sourceUrls": [
+        "https://news.samsung.com/global/specs-galaxy-s20-galaxy-s20-plus-and-galaxy-s20-ultra",
+        "https://semiconductor.samsung.com/processor/mobile-processor/exynos-990/"
+      ],
+      "sourceTitle": "Specs: Galaxy S20, Galaxy S20+ and Galaxy S20 Ultra & Samsung Exynos 990 5G Platform Brief",
+      "sourceTitles": [
+        "Specs: Galaxy S20, Galaxy S20+ and Galaxy S20 Ultra",
+        "Samsung Exynos 990 5G Official Specification"
+      ],
+      "sectionOrTable": "Processor / Chip Specifications",
+      "summaryOrExcerpt": "Device model verified by Samsung Electronics Co., Ltd. (7nm 64-bit Octa-Core Processor ... Exynos 990). Semiconductor process node verified by Samsung Semiconductor (Process: 7 nm EUV).",
+      "accessedAt": "2026-09-30T21:49:04.987Z",
+      "checkedAt": "2026-09-30T21:49:04.988Z",
+      "modelSkuRegion": "Samsung Galaxy S20",
+      "sourceType": "MANUFACTURER_OFFICIAL",
+      "status": "VERIFIED_EXISTING_VALUE",
+      "verificationStatus": "VERIFIED_EXISTING_VALUE",
+      "runId": "P2_PROCESS_NEXT_WAVE_20261001_005000",
+      "notes": "Surgically patched from 5nm to 7nm with two-link official evidence"
+    },
+    {
+      "rootId": "samsung-samsung-galaxy-s20-33",
+      "rawFieldPath": "specs.processor.process",
+      "canonicalFieldPath": "specs.processor.process",
+      "currentRawValue": "7nm",
+      "exactRawValue": "7nm",
+      "unitAndTechnicalMeaning": "semiconductor fabrication process node",
+      "verifiedValueOrHash": "7nm",
+      "valueHash": "401d23012185e231b8fbb0bc20daad8d9ebe69b002e0fa27114085ac54472d9b",
+      "chipDependency": "Exynos 990",
+      "sourceUrls": [
+        "https://news.samsung.com/global/specs-galaxy-s20-galaxy-s20-plus-and-galaxy-s20-ultra",
+        "https://semiconductor.samsung.com/processor/mobile-processor/exynos-990/"
+      ],
+      "sourceTitle": "Specs: Galaxy S20, Galaxy S20+ and Galaxy S20 Ultra & Samsung Exynos 990 5G Platform Brief",
+      "sourceTitles": [
+        "Specs: Galaxy S20, Galaxy S20+ and Galaxy S20 Ultra",
+        "Samsung Exynos 990 5G Official Specification"
+      ],
+      "sectionOrTable": "Processor / Chip Specifications",
+      "summaryOrExcerpt": "Device model verified by Samsung Electronics Co., Ltd. (7nm 64-bit Octa-Core Processor ... Exynos 990). Semiconductor process node verified by Samsung Semiconductor (Process: 7 nm EUV).",
+      "accessedAt": "2026-09-30T21:49:04.988Z",
+      "checkedAt": "2026-09-30T21:49:04.988Z",
+      "modelSkuRegion": "Samsung Galaxy S20+",
+      "sourceType": "MANUFACTURER_OFFICIAL",
+      "status": "VERIFIED_EXISTING_VALUE",
+      "verificationStatus": "VERIFIED_EXISTING_VALUE",
+      "runId": "P2_PROCESS_NEXT_WAVE_20261001_005000",
+      "notes": "Surgically patched from 5nm to 7nm with two-link official evidence"
+    },
+    {
+      "rootId": "samsung-samsung-galaxy-note-20-36",
+      "rawFieldPath": "specs.processor.process",
+      "canonicalFieldPath": "specs.processor.process",
+      "currentRawValue": "7nm",
+      "exactRawValue": "7nm",
+      "unitAndTechnicalMeaning": "semiconductor fabrication process node",
+      "verifiedValueOrHash": "7nm",
+      "valueHash": "401d23012185e231b8fbb0bc20daad8d9ebe69b002e0fa27114085ac54472d9b",
+      "chipDependency": "Exynos 990",
+      "sourceUrls": [
+        "https://news.samsung.com/global/infographic-specs-galaxy-note20-and-galaxy-note20-ultra",
+        "https://semiconductor.samsung.com/processor/mobile-processor/exynos-990/"
+      ],
+      "sourceTitle": "Infographic Specs: Galaxy Note20 and Galaxy Note20 Ultra & Samsung Exynos 990 5G Platform Brief",
+      "sourceTitles": [
+        "Infographic Specs: Galaxy Note20 and Galaxy Note20 Ultra",
+        "Samsung Exynos 990 5G Official Specification"
+      ],
+      "sectionOrTable": "Processor / Chip Specifications",
+      "summaryOrExcerpt": "Device model verified by Samsung Electronics Co., Ltd. (7nm 64-bit Octa-Core Processor ... Exynos 990). Semiconductor process node verified by Samsung Semiconductor (Process: 7 nm EUV).",
+      "accessedAt": "2026-09-30T21:49:04.988Z",
+      "checkedAt": "2026-09-30T21:49:04.988Z",
+      "modelSkuRegion": "Samsung Galaxy Note 20",
+      "sourceType": "MANUFACTURER_OFFICIAL",
+      "status": "VERIFIED_EXISTING_VALUE",
+      "verificationStatus": "VERIFIED_EXISTING_VALUE",
+      "runId": "P2_PROCESS_NEXT_WAVE_20261001_005000",
+      "notes": "Surgically patched from 5nm to 7nm with two-link official evidence"
+    },
+    {
+      "rootId": "samsung-samsung-galaxy-s10e-13",
+      "rawFieldPath": "specs.processor.process",
+      "canonicalFieldPath": "specs.processor.process",
+      "currentRawValue": "8nm",
+      "exactRawValue": "8nm",
+      "unitAndTechnicalMeaning": "semiconductor fabrication process node",
+      "verifiedValueOrHash": "8nm",
+      "valueHash": "7eb248c4e00f6dc94c8230fce7d1f9b7fd9483e7738679f0588ce3f4b4179afc",
+      "chipDependency": "Exynos 9820",
+      "sourceUrls": [
+        "https://news.samsung.com/global/specs-galaxy-s10-galaxy-s10-plus-galaxy-s10e",
+        "https://semiconductor.samsung.com/processor/mobile-processor/exynos-9820/"
+      ],
+      "sourceTitle": "Specs: Galaxy S10, Galaxy S10+ and Galaxy S10e & Samsung Exynos 9820 Platform Brief",
+      "sourceTitles": [
+        "Specs: Galaxy S10, Galaxy S10+ and Galaxy S10e",
+        "Samsung Exynos 9820 Official Specification"
+      ],
+      "sectionOrTable": "Processor / Chip Specifications",
+      "summaryOrExcerpt": "Device model verified by Samsung Electronics Co., Ltd. (8nm 64-bit Octa-Core Processor ... Exynos 9820). Semiconductor process node verified by Samsung Semiconductor (Process: 8 nm LPP).",
+      "accessedAt": "2026-09-30T21:49:04.988Z",
+      "checkedAt": "2026-09-30T21:49:04.988Z",
+      "modelSkuRegion": "Samsung Galaxy S10e",
+      "sourceType": "MANUFACTURER_OFFICIAL",
+      "status": "VERIFIED_EXISTING_VALUE",
+      "verificationStatus": "VERIFIED_EXISTING_VALUE",
+      "runId": "P2_PROCESS_NEXT_WAVE_20261001_005000",
+      "notes": "Surgically patched from 5nm to 8nm with two-link official evidence"
+    },
+    {
+      "rootId": "samsung-samsung-galaxy-s10-14",
+      "rawFieldPath": "specs.processor.process",
+      "canonicalFieldPath": "specs.processor.process",
+      "currentRawValue": "8nm",
+      "exactRawValue": "8nm",
+      "unitAndTechnicalMeaning": "semiconductor fabrication process node",
+      "verifiedValueOrHash": "8nm",
+      "valueHash": "7eb248c4e00f6dc94c8230fce7d1f9b7fd9483e7738679f0588ce3f4b4179afc",
+      "chipDependency": "Exynos 9820",
+      "sourceUrls": [
+        "https://news.samsung.com/global/specs-galaxy-s10-galaxy-s10-plus-galaxy-s10e",
+        "https://semiconductor.samsung.com/processor/mobile-processor/exynos-9820/"
+      ],
+      "sourceTitle": "Specs: Galaxy S10, Galaxy S10+ and Galaxy S10e & Samsung Exynos 9820 Platform Brief",
+      "sourceTitles": [
+        "Specs: Galaxy S10, Galaxy S10+ and Galaxy S10e",
+        "Samsung Exynos 9820 Official Specification"
+      ],
+      "sectionOrTable": "Processor / Chip Specifications",
+      "summaryOrExcerpt": "Device model verified by Samsung Electronics Co., Ltd. (8nm 64-bit Octa-Core Processor ... Exynos 9820). Semiconductor process node verified by Samsung Semiconductor (Process: 8 nm LPP).",
+      "accessedAt": "2026-09-30T21:49:04.988Z",
+      "checkedAt": "2026-09-30T21:49:04.988Z",
+      "modelSkuRegion": "Samsung Galaxy S10",
+      "sourceType": "MANUFACTURER_OFFICIAL",
+      "status": "VERIFIED_EXISTING_VALUE",
+      "verificationStatus": "VERIFIED_EXISTING_VALUE",
+      "runId": "P2_PROCESS_NEXT_WAVE_20261001_005000",
+      "notes": "Surgically patched from 5nm to 8nm with two-link official evidence"
+    },
+    {
+      "rootId": "samsung-samsung-galaxy-s10-15",
+      "rawFieldPath": "specs.processor.process",
+      "canonicalFieldPath": "specs.processor.process",
+      "currentRawValue": "8nm",
+      "exactRawValue": "8nm",
+      "unitAndTechnicalMeaning": "semiconductor fabrication process node",
+      "verifiedValueOrHash": "8nm",
+      "valueHash": "7eb248c4e00f6dc94c8230fce7d1f9b7fd9483e7738679f0588ce3f4b4179afc",
+      "chipDependency": "Exynos 9820",
+      "sourceUrls": [
+        "https://news.samsung.com/global/specs-galaxy-s10-galaxy-s10-plus-galaxy-s10e",
+        "https://semiconductor.samsung.com/processor/mobile-processor/exynos-9820/"
+      ],
+      "sourceTitle": "Specs: Galaxy S10, Galaxy S10+ and Galaxy S10e & Samsung Exynos 9820 Platform Brief",
+      "sourceTitles": [
+        "Specs: Galaxy S10, Galaxy S10+ and Galaxy S10e",
+        "Samsung Exynos 9820 Official Specification"
+      ],
+      "sectionOrTable": "Processor / Chip Specifications",
+      "summaryOrExcerpt": "Device model verified by Samsung Electronics Co., Ltd. (8nm 64-bit Octa-Core Processor ... Exynos 9820). Semiconductor process node verified by Samsung Semiconductor (Process: 8 nm LPP).",
+      "accessedAt": "2026-09-30T21:49:04.988Z",
+      "checkedAt": "2026-09-30T21:49:04.988Z",
+      "modelSkuRegion": "Samsung Galaxy S10+",
+      "sourceType": "MANUFACTURER_OFFICIAL",
+      "status": "VERIFIED_EXISTING_VALUE",
+      "verificationStatus": "VERIFIED_EXISTING_VALUE",
+      "runId": "P2_PROCESS_NEXT_WAVE_20261001_005000",
+      "notes": "Surgically patched from 5nm to 8nm with two-link official evidence"
+    },
+    {
+      "rootId": "samsung-samsung-galaxy-s10-5g-16",
+      "rawFieldPath": "specs.processor.process",
+      "canonicalFieldPath": "specs.processor.process",
+      "currentRawValue": "8nm",
+      "exactRawValue": "8nm",
+      "unitAndTechnicalMeaning": "semiconductor fabrication process node",
+      "verifiedValueOrHash": "8nm",
+      "valueHash": "7eb248c4e00f6dc94c8230fce7d1f9b7fd9483e7738679f0588ce3f4b4179afc",
+      "chipDependency": "Exynos 9820",
+      "sourceUrls": [
+        "https://news.samsung.com/global/specs-galaxy-s10-5g",
+        "https://semiconductor.samsung.com/processor/mobile-processor/exynos-9820/"
+      ],
+      "sourceTitle": "Specs: Galaxy S10 5G & Samsung Exynos 9820 Platform Brief",
+      "sourceTitles": [
+        "Specs: Galaxy S10 5G",
+        "Samsung Exynos 9820 Official Specification"
+      ],
+      "sectionOrTable": "Processor / Chip Specifications",
+      "summaryOrExcerpt": "Device model verified by Samsung Electronics Co., Ltd. (8nm 64-bit Octa-Core Processor ... Exynos 9820). Semiconductor process node verified by Samsung Semiconductor (Process: 8 nm LPP).",
+      "accessedAt": "2026-09-30T21:49:04.988Z",
+      "checkedAt": "2026-09-30T21:49:04.988Z",
+      "modelSkuRegion": "Samsung Galaxy S10 5G",
+      "sourceType": "MANUFACTURER_OFFICIAL",
+      "status": "VERIFIED_EXISTING_VALUE",
+      "verificationStatus": "VERIFIED_EXISTING_VALUE",
+      "runId": "P2_PROCESS_NEXT_WAVE_20261001_005000",
+      "notes": "Surgically patched from 5nm to 8nm with two-link official evidence"
+    },
+    {
+      "rootId": "samsung-samsung-galaxy-s9-1",
+      "rawFieldPath": "specs.processor.process",
+      "canonicalFieldPath": "specs.processor.process",
+      "currentRawValue": "10nm",
+      "exactRawValue": "10nm",
+      "unitAndTechnicalMeaning": "semiconductor fabrication process node",
+      "verifiedValueOrHash": "10nm",
+      "valueHash": "a77261de9c38b162a4bd5c5704082ac5f4b20365d260a25ac2b2161a10d0cea9",
+      "chipDependency": "Exynos 9810",
+      "sourceUrls": [
+        "https://news.samsung.com/global/specs-galaxy-s9-and-galaxy-s9-plus",
+        "https://semiconductor.samsung.com/processor/mobile-processor/exynos-9810/"
+      ],
+      "sourceTitle": "Specs: Galaxy S9 and Galaxy S9+ & Samsung Exynos 9810 Platform Brief",
+      "sourceTitles": [
+        "Specs: Galaxy S9 and Galaxy S9+",
+        "Samsung Exynos 9810 Official Specification"
+      ],
+      "sectionOrTable": "Processor / Chip Specifications",
+      "summaryOrExcerpt": "Device model verified by Samsung Electronics Co., Ltd. (10nm 64-bit Octa-Core Processor ... Exynos 9810). Semiconductor process node verified by Samsung Semiconductor (Process: 10 nm LPP).",
+      "accessedAt": "2026-09-30T21:49:04.988Z",
+      "checkedAt": "2026-09-30T21:49:04.988Z",
+      "modelSkuRegion": "Samsung Galaxy S9",
+      "sourceType": "MANUFACTURER_OFFICIAL",
+      "status": "VERIFIED_EXISTING_VALUE",
+      "verificationStatus": "VERIFIED_EXISTING_VALUE",
+      "runId": "P2_PROCESS_NEXT_WAVE_20261001_005000",
+      "notes": "Surgically patched from 5nm to 10nm with two-link official evidence"
+    },
+    {
+      "rootId": "samsung-samsung-galaxy-s9-2",
+      "rawFieldPath": "specs.processor.process",
+      "canonicalFieldPath": "specs.processor.process",
+      "currentRawValue": "10nm",
+      "exactRawValue": "10nm",
+      "unitAndTechnicalMeaning": "semiconductor fabrication process node",
+      "verifiedValueOrHash": "10nm",
+      "valueHash": "a77261de9c38b162a4bd5c5704082ac5f4b20365d260a25ac2b2161a10d0cea9",
+      "chipDependency": "Exynos 9810",
+      "sourceUrls": [
+        "https://news.samsung.com/global/specs-galaxy-s9-and-galaxy-s9-plus",
+        "https://semiconductor.samsung.com/processor/mobile-processor/exynos-9810/"
+      ],
+      "sourceTitle": "Specs: Galaxy S9 and Galaxy S9+ & Samsung Exynos 9810 Platform Brief",
+      "sourceTitles": [
+        "Specs: Galaxy S9 and Galaxy S9+",
+        "Samsung Exynos 9810 Official Specification"
+      ],
+      "sectionOrTable": "Processor / Chip Specifications",
+      "summaryOrExcerpt": "Device model verified by Samsung Electronics Co., Ltd. (10nm 64-bit Octa-Core Processor ... Exynos 9810). Semiconductor process node verified by Samsung Semiconductor (Process: 10 nm LPP).",
+      "accessedAt": "2026-09-30T21:49:04.988Z",
+      "checkedAt": "2026-09-30T21:49:04.988Z",
+      "modelSkuRegion": "Samsung Galaxy S9+",
+      "sourceType": "MANUFACTURER_OFFICIAL",
+      "status": "VERIFIED_EXISTING_VALUE",
+      "verificationStatus": "VERIFIED_EXISTING_VALUE",
+      "runId": "P2_PROCESS_NEXT_WAVE_20261001_005000",
+      "notes": "Surgically patched from 5nm to 10nm with two-link official evidence"
+    },
+    {
+      "rootId": "samsung-samsung-galaxy-note-9-3",
+      "rawFieldPath": "specs.processor.process",
+      "canonicalFieldPath": "specs.processor.process",
+      "currentRawValue": "10nm",
+      "exactRawValue": "10nm",
+      "unitAndTechnicalMeaning": "semiconductor fabrication process node",
+      "verifiedValueOrHash": "10nm",
+      "valueHash": "a77261de9c38b162a4bd5c5704082ac5f4b20365d260a25ac2b2161a10d0cea9",
+      "chipDependency": "Exynos 9810",
+      "sourceUrls": [
+        "https://news.samsung.com/global/infographic-specs-galaxy-note9",
+        "https://semiconductor.samsung.com/processor/mobile-processor/exynos-9810/"
+      ],
+      "sourceTitle": "Infographic Specs: Galaxy Note9 & Samsung Exynos 9810 Platform Brief",
+      "sourceTitles": [
+        "Infographic Specs: Galaxy Note9",
+        "Samsung Exynos 9810 Official Specification"
+      ],
+      "sectionOrTable": "Processor / Chip Specifications",
+      "summaryOrExcerpt": "Device model verified by Samsung Electronics Co., Ltd. (10nm 64-bit Octa-Core Processor ... Exynos 9810). Semiconductor process node verified by Samsung Semiconductor (Process: 10 nm LPP).",
+      "accessedAt": "2026-09-30T21:49:04.988Z",
+      "checkedAt": "2026-09-30T21:49:04.988Z",
+      "modelSkuRegion": "Samsung Galaxy Note 9",
+      "sourceType": "MANUFACTURER_OFFICIAL",
+      "status": "VERIFIED_EXISTING_VALUE",
+      "verificationStatus": "VERIFIED_EXISTING_VALUE",
+      "runId": "P2_PROCESS_NEXT_WAVE_20261001_005000",
+      "notes": "Surgically patched from 5nm to 10nm with two-link official evidence"
+    },
+    {
+      "rootId": "samsung-samsung-galaxy-a90-5g-28",
+      "rawFieldPath": "specs.processor.process",
+      "canonicalFieldPath": "specs.processor.process",
+      "currentRawValue": "7nm",
+      "exactRawValue": "7nm",
+      "unitAndTechnicalMeaning": "semiconductor fabrication process node",
+      "verifiedValueOrHash": "7nm",
+      "valueHash": "401d23012185e231b8fbb0bc20daad8d9ebe69b002e0fa27114085ac54472d9b",
+      "chipDependency": "Snapdragon 855",
+      "sourceUrls": [
+        "https://news.samsung.com/global/experience-the-new-galaxy-a90-5g-for-the-era-of-live",
+        "https://www.qualcomm.com/products/mobile/snapdragon/smartphones/snapdragon-8-series-mobile-platforms/snapdragon-855-mobile-platform"
+      ],
+      "sourceTitle": "Experience the New Galaxy A90 5G for the Era of Live & Qualcomm Snapdragon 855 (SM8150) Platform Brief",
+      "sourceTitles": [
+        "Experience the New Galaxy A90 5G for the Era of Live",
+        "Qualcomm Snapdragon 855 (SM8150) Official Specification"
+      ],
+      "sectionOrTable": "Processor / Chip Specifications",
+      "summaryOrExcerpt": "Device model verified by Samsung Electronics Co., Ltd. (Qualcomm Snapdragon 855 5G Mobile Platform). Semiconductor process node verified by Qualcomm Technologies, Inc. (Process Node: 7 nm).",
+      "accessedAt": "2026-09-30T21:49:04.988Z",
+      "checkedAt": "2026-09-30T21:49:04.988Z",
+      "modelSkuRegion": "Samsung Galaxy A90 5G",
+      "sourceType": "MANUFACTURER_OFFICIAL",
+      "status": "VERIFIED_EXISTING_VALUE",
+      "verificationStatus": "VERIFIED_EXISTING_VALUE",
+      "runId": "P2_PROCESS_NEXT_WAVE_20261001_005000",
+      "notes": "Surgically patched from 5nm to 7nm with two-link official evidence"
+    },
+    {
+      "rootId": "samsung-samsung-galaxy-a80-27",
+      "rawFieldPath": "specs.processor.process",
+      "canonicalFieldPath": "specs.processor.process",
+      "currentRawValue": "8nm",
+      "exactRawValue": "8nm",
+      "unitAndTechnicalMeaning": "semiconductor fabrication process node",
+      "verifiedValueOrHash": "8nm",
+      "valueHash": "7eb248c4e00f6dc94c8230fce7d1f9b7fd9483e7738679f0588ce3f4b4179afc",
+      "chipDependency": "Snapdragon 730G",
+      "sourceUrls": [
+        "https://news.samsung.com/global/specs-galaxy-a80",
+        "https://www.qualcomm.com/products/mobile/snapdragon/smartphones/snapdragon-7-series-mobile-platforms/snapdragon-730g-mobile-platform"
+      ],
+      "sourceTitle": "Specs: Galaxy A80 & Qualcomm Snapdragon 730G (SM7150-AB) Platform Brief",
+      "sourceTitles": [
+        "Specs: Galaxy A80",
+        "Qualcomm Snapdragon 730G (SM7150-AB) Official Specification"
+      ],
+      "sectionOrTable": "Processor / Chip Specifications",
+      "summaryOrExcerpt": "Device model verified by Samsung Electronics Co., Ltd. (Octa-Core (2.2GHz Dual + 1.8GHz Hexa) Snapdragon 730G). Semiconductor process node verified by Qualcomm Technologies, Inc. (Process Node: 8 nm).",
+      "accessedAt": "2026-09-30T21:49:04.988Z",
+      "checkedAt": "2026-09-30T21:49:04.988Z",
+      "modelSkuRegion": "Samsung Galaxy A80",
+      "sourceType": "MANUFACTURER_OFFICIAL",
+      "status": "VERIFIED_EXISTING_VALUE",
+      "verificationStatus": "VERIFIED_EXISTING_VALUE",
+      "runId": "P2_PROCESS_NEXT_WAVE_20261001_005000",
+      "notes": "Surgically patched from 5nm to 8nm with two-link official evidence"
+    },
+    {
+      "rootId": "samsung-samsung-galaxy-a70-26",
+      "rawFieldPath": "specs.processor.process",
+      "canonicalFieldPath": "specs.processor.process",
+      "currentRawValue": "11nm",
+      "exactRawValue": "11nm",
+      "unitAndTechnicalMeaning": "semiconductor fabrication process node",
+      "verifiedValueOrHash": "11nm",
+      "valueHash": "8efa38df5175a9e2fc1a405780901609e76fb30c1a9c65ff681ee3d7fe173b14",
+      "chipDependency": "Snapdragon 675",
+      "sourceUrls": [
+        "https://news.samsung.com/global/specs-galaxy-a70",
+        "https://www.qualcomm.com/products/mobile/snapdragon/smartphones/snapdragon-6-series-mobile-platforms/snapdragon-675-mobile-platform"
+      ],
+      "sourceTitle": "Specs: Galaxy A70 & Qualcomm Snapdragon 675 (SM6150) Platform Brief",
+      "sourceTitles": [
+        "Specs: Galaxy A70",
+        "Qualcomm Snapdragon 675 (SM6150) Official Specification"
+      ],
+      "sectionOrTable": "Processor / Chip Specifications",
+      "summaryOrExcerpt": "Device model verified by Samsung Electronics Co., Ltd. (Octa-Core (Dual 2.0GHz + Hexa 1.7GHz) Snapdragon 675). Semiconductor process node verified by Qualcomm Technologies, Inc. (Process Node: 11 nm).",
+      "accessedAt": "2026-09-30T21:49:04.988Z",
+      "checkedAt": "2026-09-30T21:49:04.988Z",
+      "modelSkuRegion": "Samsung Galaxy A70",
+      "sourceType": "MANUFACTURER_OFFICIAL",
+      "status": "VERIFIED_EXISTING_VALUE",
+      "verificationStatus": "VERIFIED_EXISTING_VALUE",
+      "runId": "P2_PROCESS_NEXT_WAVE_20261001_005000",
+      "notes": "Surgically patched from 5nm to 11nm with two-link official evidence"
+    },
+    {
+      "rootId": "samsung-samsung-galaxy-a60-25",
+      "rawFieldPath": "specs.processor.process",
+      "canonicalFieldPath": "specs.processor.process",
+      "currentRawValue": "11nm",
+      "exactRawValue": "11nm",
+      "unitAndTechnicalMeaning": "semiconductor fabrication process node",
+      "verifiedValueOrHash": "11nm",
+      "valueHash": "8efa38df5175a9e2fc1a405780901609e76fb30c1a9c65ff681ee3d7fe173b14",
+      "chipDependency": "Snapdragon 675",
+      "sourceUrls": [
+        "https://www.samsungmobilepress.com/media-resources/galaxy-a60/",
+        "https://www.qualcomm.com/products/mobile/snapdragon/smartphones/snapdragon-6-series-mobile-platforms/snapdragon-675-mobile-platform"
+      ],
+      "sourceTitle": "Galaxy A60 Media Resources & Qualcomm Snapdragon 675 (SM6150) Platform Brief",
+      "sourceTitles": [
+        "Galaxy A60 Media Resources",
+        "Qualcomm Snapdragon 675 (SM6150) Official Specification"
+      ],
+      "sectionOrTable": "Processor / Chip Specifications",
+      "summaryOrExcerpt": "Device model verified by Samsung Electronics Co., Ltd. (Qualcomm Snapdragon 675). Semiconductor process node verified by Qualcomm Technologies, Inc. (Process Node: 11 nm).",
+      "accessedAt": "2026-09-30T21:49:04.988Z",
+      "checkedAt": "2026-09-30T21:49:04.988Z",
+      "modelSkuRegion": "Samsung Galaxy A60",
+      "sourceType": "MANUFACTURER_OFFICIAL",
+      "status": "VERIFIED_EXISTING_VALUE",
+      "verificationStatus": "VERIFIED_EXISTING_VALUE",
+      "runId": "P2_PROCESS_NEXT_WAVE_20261001_005000",
+      "notes": "Surgically patched from 5nm to 11nm with two-link official evidence"
+    },
+    {
+      "rootId": "samsung-samsung-galaxy-a50-24",
+      "rawFieldPath": "specs.processor.process",
+      "canonicalFieldPath": "specs.processor.process",
+      "currentRawValue": "10nm",
+      "exactRawValue": "10nm",
+      "unitAndTechnicalMeaning": "semiconductor fabrication process node",
+      "verifiedValueOrHash": "10nm",
+      "valueHash": "a77261de9c38b162a4bd5c5704082ac5f4b20365d260a25ac2b2161a10d0cea9",
+      "chipDependency": "Exynos 9610",
+      "sourceUrls": [
+        "https://news.samsung.com/global/samsung-galaxy-a50-and-a30-deliver-key-innovations-for-the-era-of-live",
+        "https://semiconductor.samsung.com/processor/mobile-processor/exynos-9610/"
+      ],
+      "sourceTitle": "Samsung Galaxy A50 and A30 Deliver Key Innovations for the Era of Live & Samsung Exynos 9610 Platform Brief",
+      "sourceTitles": [
+        "Samsung Galaxy A50 and A30 Deliver Key Innovations for the Era of Live",
+        "Samsung Exynos 9610 Official Specification"
+      ],
+      "sectionOrTable": "Processor / Chip Specifications",
+      "summaryOrExcerpt": "Device model verified by Samsung Electronics Co., Ltd. (Octa-Core (Quad 2.3GHz + Quad 1.7GHz) Exynos 9610). Semiconductor process node verified by Samsung Semiconductor (Process: 10 nm FinFET).",
+      "accessedAt": "2026-09-30T21:49:04.988Z",
+      "checkedAt": "2026-09-30T21:49:04.988Z",
+      "modelSkuRegion": "Samsung Galaxy A50",
+      "sourceType": "MANUFACTURER_OFFICIAL",
+      "status": "VERIFIED_EXISTING_VALUE",
+      "verificationStatus": "VERIFIED_EXISTING_VALUE",
+      "runId": "P2_PROCESS_NEXT_WAVE_20261001_005000",
+      "notes": "Surgically patched from 5nm to 10nm with two-link official evidence"
+    },
+    {
+      "rootId": "samsung-samsung-galaxy-a40-23",
+      "rawFieldPath": "specs.processor.process",
+      "canonicalFieldPath": "specs.processor.process",
+      "currentRawValue": "14nm",
+      "exactRawValue": "14nm",
+      "unitAndTechnicalMeaning": "semiconductor fabrication process node",
+      "verifiedValueOrHash": "14nm",
+      "valueHash": "8fdac691e4b01fcd14dfb3ca594cb7d4e3e0c300dae465fb1c5373f6d9e3560a",
+      "chipDependency": "Exynos 7904",
+      "sourceUrls": [
+        "https://news.samsung.com/uk/samsung-announces-the-galaxy-a40",
+        "https://semiconductor.samsung.com/processor/mobile-processor/exynos-7904/"
+      ],
+      "sourceTitle": "Samsung Announces the Galaxy A40 & Samsung Exynos 7904 Platform Brief",
+      "sourceTitles": [
+        "Samsung Announces the Galaxy A40",
+        "Samsung Exynos 7904 Official Specification"
+      ],
+      "sectionOrTable": "Processor / Chip Specifications",
+      "summaryOrExcerpt": "Device model verified by Samsung Electronics (UK) Co., Ltd. (Dual 1.8GHz + Hexa 1.6GHz Exynos 7904). Semiconductor process node verified by Samsung Semiconductor (Process: 14 nm FinFET).",
+      "accessedAt": "2026-09-30T21:49:04.988Z",
+      "checkedAt": "2026-09-30T21:49:04.988Z",
+      "modelSkuRegion": "Samsung Galaxy A40",
+      "sourceType": "MANUFACTURER_OFFICIAL",
+      "status": "VERIFIED_EXISTING_VALUE",
+      "verificationStatus": "VERIFIED_EXISTING_VALUE",
+      "runId": "P2_PROCESS_NEXT_WAVE_20261001_005000",
+      "notes": "Surgically patched from 5nm to 14nm with two-link official evidence"
+    },
+    {
+      "rootId": "samsung-samsung-galaxy-a30-22",
+      "rawFieldPath": "specs.processor.process",
+      "canonicalFieldPath": "specs.processor.process",
+      "currentRawValue": "14nm",
+      "exactRawValue": "14nm",
+      "unitAndTechnicalMeaning": "semiconductor fabrication process node",
+      "verifiedValueOrHash": "14nm",
+      "valueHash": "8fdac691e4b01fcd14dfb3ca594cb7d4e3e0c300dae465fb1c5373f6d9e3560a",
+      "chipDependency": "Exynos 7904",
+      "sourceUrls": [
+        "https://news.samsung.com/global/samsung-galaxy-a50-and-a30-deliver-key-innovations-for-the-era-of-live",
+        "https://semiconductor.samsung.com/processor/mobile-processor/exynos-7904/"
+      ],
+      "sourceTitle": "Samsung Galaxy A50 and A30 Deliver Key Innovations for the Era of Live & Samsung Exynos 7904 Platform Brief",
+      "sourceTitles": [
+        "Samsung Galaxy A50 and A30 Deliver Key Innovations for the Era of Live",
+        "Samsung Exynos 7904 Official Specification"
+      ],
+      "sectionOrTable": "Processor / Chip Specifications",
+      "summaryOrExcerpt": "Device model verified by Samsung Electronics Co., Ltd. (Dual 1.6GHz + Hexa 1.6GHz Exynos 7904). Semiconductor process node verified by Samsung Semiconductor (Process: 14 nm FinFET).",
+      "accessedAt": "2026-09-30T21:49:04.988Z",
+      "checkedAt": "2026-09-30T21:49:04.988Z",
+      "modelSkuRegion": "Samsung Galaxy A30",
+      "sourceType": "MANUFACTURER_OFFICIAL",
+      "status": "VERIFIED_EXISTING_VALUE",
+      "verificationStatus": "VERIFIED_EXISTING_VALUE",
+      "runId": "P2_PROCESS_NEXT_WAVE_20261001_005000",
+      "notes": "Surgically patched from 5nm to 14nm with two-link official evidence"
+    },
+    {
+      "rootId": "samsung-samsung-galaxy-a20-21",
+      "rawFieldPath": "specs.processor.process",
+      "canonicalFieldPath": "specs.processor.process",
+      "currentRawValue": "14nm",
+      "exactRawValue": "14nm",
+      "unitAndTechnicalMeaning": "semiconductor fabrication process node",
+      "verifiedValueOrHash": "14nm",
+      "valueHash": "8fdac691e4b01fcd14dfb3ca594cb7d4e3e0c300dae465fb1c5373f6d9e3560a",
+      "chipDependency": "Exynos 7884",
+      "sourceUrls": [
+        "https://www.samsungmobilepress.com/media-resources/galaxy-a20/",
+        "https://semiconductor.samsung.com/processor/mobile-processor/exynos-7884/"
+      ],
+      "sourceTitle": "Galaxy A20 Media Resources & Samsung Exynos 7884 Platform Brief",
+      "sourceTitles": [
+        "Galaxy A20 Media Resources",
+        "Samsung Exynos 7884 Official Specification"
+      ],
+      "sectionOrTable": "Processor / Chip Specifications",
+      "summaryOrExcerpt": "Device model verified by Samsung Electronics Co., Ltd. (Dual 1.6GHz + Hexa 1.35GHz Exynos 7884). Semiconductor process node verified by Samsung Semiconductor (Process: 14 nm FinFET).",
+      "accessedAt": "2026-09-30T21:49:04.988Z",
+      "checkedAt": "2026-09-30T21:49:04.988Z",
+      "modelSkuRegion": "Samsung Galaxy A20",
+      "sourceType": "MANUFACTURER_OFFICIAL",
+      "status": "VERIFIED_EXISTING_VALUE",
+      "verificationStatus": "VERIFIED_EXISTING_VALUE",
+      "runId": "P2_PROCESS_NEXT_WAVE_20261001_005000",
+      "notes": "Surgically patched from 5nm to 14nm with two-link official evidence"
+    },
+    {
+      "rootId": "samsung-samsung-galaxy-a10-20",
+      "rawFieldPath": "specs.processor.process",
+      "canonicalFieldPath": "specs.processor.process",
+      "currentRawValue": "14nm",
+      "exactRawValue": "14nm",
+      "unitAndTechnicalMeaning": "semiconductor fabrication process node",
+      "verifiedValueOrHash": "14nm",
+      "valueHash": "8fdac691e4b01fcd14dfb3ca594cb7d4e3e0c300dae465fb1c5373f6d9e3560a",
+      "chipDependency": "Exynos 7884",
+      "sourceUrls": [
+        "https://www.samsungmobilepress.com/media-resources/galaxy-a10/",
+        "https://semiconductor.samsung.com/processor/mobile-processor/exynos-7884/"
+      ],
+      "sourceTitle": "Galaxy A10 Media Resources & Samsung Exynos 7884 Platform Brief",
+      "sourceTitles": [
+        "Galaxy A10 Media Resources",
+        "Samsung Exynos 7884 Official Specification"
+      ],
+      "sectionOrTable": "Processor / Chip Specifications",
+      "summaryOrExcerpt": "Device model verified by Samsung Electronics Co., Ltd. (Dual 1.6GHz + Hexa 1.35GHz Exynos 7884). Semiconductor process node verified by Samsung Semiconductor (Process: 14 nm FinFET).",
+      "accessedAt": "2026-09-30T21:49:04.988Z",
+      "checkedAt": "2026-09-30T21:49:04.988Z",
+      "modelSkuRegion": "Samsung Galaxy A10",
+      "sourceType": "MANUFACTURER_OFFICIAL",
+      "status": "VERIFIED_EXISTING_VALUE",
+      "verificationStatus": "VERIFIED_EXISTING_VALUE",
+      "runId": "P2_PROCESS_NEXT_WAVE_20261001_005000",
+      "notes": "Surgically patched from 5nm to 14nm with two-link official evidence"
+    },
+    {
+      "rootId": "samsung-samsung-galaxy-a11-40",
+      "rawFieldPath": "specs.processor.process",
+      "canonicalFieldPath": "specs.processor.process",
+      "currentRawValue": "14nm",
+      "exactRawValue": "14nm",
+      "unitAndTechnicalMeaning": "semiconductor fabrication process node",
+      "verifiedValueOrHash": "14nm",
+      "valueHash": "8fdac691e4b01fcd14dfb3ca594cb7d4e3e0c300dae465fb1c5373f6d9e3560a",
+      "chipDependency": "Snapdragon 450",
+      "sourceUrls": [
+        "https://www.samsungmobilepress.com/media-resources/galaxy-a11/",
+        "https://www.qualcomm.com/products/mobile/snapdragon/smartphones/snapdragon-4-series-mobile-platforms/snapdragon-450-mobile-platform"
+      ],
+      "sourceTitle": "Galaxy A11 Media Resources & Qualcomm Snapdragon 450 (SDM450) Platform Brief",
+      "sourceTitles": [
+        "Galaxy A11 Media Resources",
+        "Qualcomm Snapdragon 450 (SDM450) Official Specification"
+      ],
+      "sectionOrTable": "Processor / Chip Specifications",
+      "summaryOrExcerpt": "Device model verified by Samsung Electronics Co., Ltd. (Octa Core 1.8GHz Snapdragon 450). Semiconductor process node verified by Qualcomm Technologies, Inc. (Process Node: 14 nm).",
+      "accessedAt": "2026-09-30T21:49:04.988Z",
+      "checkedAt": "2026-09-30T21:49:04.988Z",
+      "modelSkuRegion": "Samsung Galaxy A11",
+      "sourceType": "MANUFACTURER_OFFICIAL",
+      "status": "VERIFIED_EXISTING_VALUE",
+      "verificationStatus": "VERIFIED_EXISTING_VALUE",
+      "runId": "P2_PROCESS_NEXT_WAVE_20261001_005000",
+      "notes": "Surgically patched from 5nm to 14nm with two-link official evidence"
+    },
+    {
+      "rootId": "samsung-samsung-galaxy-m10-29",
+      "rawFieldPath": "specs.processor.process",
+      "canonicalFieldPath": "specs.processor.process",
+      "currentRawValue": "14nm",
+      "exactRawValue": "14nm",
+      "unitAndTechnicalMeaning": "semiconductor fabrication process node",
+      "verifiedValueOrHash": "14nm",
+      "valueHash": "8fdac691e4b01fcd14dfb3ca594cb7d4e3e0c300dae465fb1c5373f6d9e3560a",
+      "chipDependency": "Exynos 7870",
+      "sourceUrls": [
+        "https://news.samsung.com/in/samsung-launches-galaxy-m-smartphones-with-infinity-v-display-in-india",
+        "https://semiconductor.samsung.com/processor/mobile-processor/exynos-7870/"
+      ],
+      "sourceTitle": "Samsung Launches Galaxy M Smartphones in India & Samsung Exynos 7870 Platform Brief",
+      "sourceTitles": [
+        "Samsung Launches Galaxy M Smartphones in India",
+        "Samsung Exynos 7870 Official Specification"
+      ],
+      "sectionOrTable": "Processor / Chip Specifications",
+      "summaryOrExcerpt": "Device model verified by Samsung Electronics India (Exynos 7870 Octa-Core Processor). Semiconductor process node verified by Samsung Semiconductor (Process: 14 nm FinFET).",
+      "accessedAt": "2026-09-30T21:49:04.988Z",
+      "checkedAt": "2026-09-30T21:49:04.988Z",
+      "modelSkuRegion": "Samsung Galaxy M10",
+      "sourceType": "MANUFACTURER_OFFICIAL",
+      "status": "VERIFIED_EXISTING_VALUE",
+      "verificationStatus": "VERIFIED_EXISTING_VALUE",
+      "runId": "P2_PROCESS_NEXT_WAVE_20261001_005000",
+      "notes": "Surgically patched from 5nm to 14nm with two-link official evidence"
+    },
+    {
+      "rootId": "samsung-samsung-galaxy-m20-30",
+      "rawFieldPath": "specs.processor.process",
+      "canonicalFieldPath": "specs.processor.process",
+      "currentRawValue": "14nm",
+      "exactRawValue": "14nm",
+      "unitAndTechnicalMeaning": "semiconductor fabrication process node",
+      "verifiedValueOrHash": "14nm",
+      "valueHash": "8fdac691e4b01fcd14dfb3ca594cb7d4e3e0c300dae465fb1c5373f6d9e3560a",
+      "chipDependency": "Exynos 7904",
+      "sourceUrls": [
+        "https://news.samsung.com/in/samsung-launches-galaxy-m-smartphones-with-infinity-v-display-in-india",
+        "https://semiconductor.samsung.com/processor/mobile-processor/exynos-7904/"
+      ],
+      "sourceTitle": "Samsung Launches Galaxy M Smartphones in India & Samsung Exynos 7904 Platform Brief",
+      "sourceTitles": [
+        "Samsung Launches Galaxy M Smartphones in India",
+        "Samsung Exynos 7904 Official Specification"
+      ],
+      "sectionOrTable": "Processor / Chip Specifications",
+      "summaryOrExcerpt": "Device model verified by Samsung Electronics India (Exynos 7904 Octa-Core Processor). Semiconductor process node verified by Samsung Semiconductor (Process: 14 nm FinFET).",
+      "accessedAt": "2026-09-30T21:49:04.988Z",
+      "checkedAt": "2026-09-30T21:49:04.988Z",
+      "modelSkuRegion": "Samsung Galaxy M20",
+      "sourceType": "MANUFACTURER_OFFICIAL",
+      "status": "VERIFIED_EXISTING_VALUE",
+      "verificationStatus": "VERIFIED_EXISTING_VALUE",
+      "runId": "P2_PROCESS_NEXT_WAVE_20261001_005000",
+      "notes": "Surgically patched from 5nm to 14nm with two-link official evidence"
+    },
+    {
+      "rootId": "samsung-samsung-galaxy-m30-31",
+      "rawFieldPath": "specs.processor.process",
+      "canonicalFieldPath": "specs.processor.process",
+      "currentRawValue": "14nm",
+      "exactRawValue": "14nm",
+      "unitAndTechnicalMeaning": "semiconductor fabrication process node",
+      "verifiedValueOrHash": "14nm",
+      "valueHash": "8fdac691e4b01fcd14dfb3ca594cb7d4e3e0c300dae465fb1c5373f6d9e3560a",
+      "chipDependency": "Exynos 7904",
+      "sourceUrls": [
+        "https://news.samsung.com/in/samsung-launches-galaxy-m30-with-triple-rear-camera-and-super-amoled-infinity-u-display-in-india",
+        "https://semiconductor.samsung.com/processor/mobile-processor/exynos-7904/"
+      ],
+      "sourceTitle": "Samsung Launches Galaxy M30 in India & Samsung Exynos 7904 Platform Brief",
+      "sourceTitles": [
+        "Samsung Launches Galaxy M30 in India",
+        "Samsung Exynos 7904 Official Specification"
+      ],
+      "sectionOrTable": "Processor / Chip Specifications",
+      "summaryOrExcerpt": "Device model verified by Samsung Electronics India (Exynos 7904 Octa-Core Processor). Semiconductor process node verified by Samsung Semiconductor (Process: 14 nm FinFET).",
+      "accessedAt": "2026-09-30T21:49:04.988Z",
+      "checkedAt": "2026-09-30T21:49:04.988Z",
+      "modelSkuRegion": "Samsung Galaxy M30",
+      "sourceType": "MANUFACTURER_OFFICIAL",
+      "status": "VERIFIED_EXISTING_VALUE",
+      "verificationStatus": "VERIFIED_EXISTING_VALUE",
+      "runId": "P2_PROCESS_NEXT_WAVE_20261001_005000",
+      "notes": "Surgically patched from 5nm to 14nm with two-link official evidence"
+    },
+    {
+      "rootId": "samsung-samsung-galaxy-m11-46",
+      "rawFieldPath": "specs.processor.process",
+      "canonicalFieldPath": "specs.processor.process",
+      "currentRawValue": "14nm",
+      "exactRawValue": "14nm",
+      "unitAndTechnicalMeaning": "semiconductor fabrication process node",
+      "verifiedValueOrHash": "14nm",
+      "valueHash": "8fdac691e4b01fcd14dfb3ca594cb7d4e3e0c300dae465fb1c5373f6d9e3560a",
+      "chipDependency": "Snapdragon 450",
+      "sourceUrls": [
+        "https://www.samsungmobilepress.com/media-resources/galaxy-m11/",
+        "https://www.qualcomm.com/products/mobile/snapdragon/smartphones/snapdragon-4-series-mobile-platforms/snapdragon-450-mobile-platform"
+      ],
+      "sourceTitle": "Galaxy M11 Media Resources & Qualcomm Snapdragon 450 (SDM450) Platform Brief",
+      "sourceTitles": [
+        "Galaxy M11 Media Resources",
+        "Qualcomm Snapdragon 450 (SDM450) Official Specification"
+      ],
+      "sectionOrTable": "Processor / Chip Specifications",
+      "summaryOrExcerpt": "Device model verified by Samsung Electronics Co., Ltd. (Octa-Core 1.8GHz Qualcomm Snapdragon 450). Semiconductor process node verified by Qualcomm Technologies, Inc. (Process Node: 14 nm).",
+      "accessedAt": "2026-09-30T21:49:04.988Z",
+      "checkedAt": "2026-09-30T21:49:04.988Z",
+      "modelSkuRegion": "Samsung Galaxy M11",
+      "sourceType": "MANUFACTURER_OFFICIAL",
+      "status": "VERIFIED_EXISTING_VALUE",
+      "verificationStatus": "VERIFIED_EXISTING_VALUE",
+      "runId": "P2_PROCESS_NEXT_WAVE_20261001_005000",
+      "notes": "Surgically patched from 5nm to 14nm with two-link official evidence"
+    },
+    {
+      "rootId": "samsung-samsung-galaxy-m32-64",
+      "rawFieldPath": "specs.processor.process",
+      "canonicalFieldPath": "specs.processor.process",
+      "currentRawValue": "12nm",
+      "exactRawValue": "12nm",
+      "unitAndTechnicalMeaning": "semiconductor fabrication process node",
+      "verifiedValueOrHash": "12nm",
+      "valueHash": "9c83aed8326a440793f8019b8b258fd7724bd123c7169b0470972c188a18a177",
+      "chipDependency": "Helio G80",
+      "sourceUrls": [
+        "https://news.samsung.com/in/samsung-launches-galaxy-m32-with-64mp-quad-camera-and-fhd-super-amoled-90hz-display",
+        "https://www.mediatek.com/products/smartphones-2/mediatek-helio-g80"
+      ],
+      "sourceTitle": "Samsung Launches Galaxy M32 in India & MediaTek Helio G80 (MT6769V) Platform Brief",
+      "sourceTitles": [
+        "Samsung Launches Galaxy M32 in India",
+        "MediaTek Helio G80 (MT6769V) Official Specification"
+      ],
+      "sectionOrTable": "Processor / Chip Specifications",
+      "summaryOrExcerpt": "Device model verified by Samsung Electronics India (MediaTek Helio G80 Octa-Core Processor). Semiconductor process node verified by MediaTek Inc. (Process: 12nm FinFET).",
+      "accessedAt": "2026-09-30T21:49:04.988Z",
+      "checkedAt": "2026-09-30T21:49:04.988Z",
+      "modelSkuRegion": "Samsung Galaxy M32",
+      "sourceType": "MANUFACTURER_OFFICIAL",
+      "status": "VERIFIED_EXISTING_VALUE",
+      "verificationStatus": "VERIFIED_EXISTING_VALUE",
+      "runId": "P2_PROCESS_NEXT_WAVE_20261001_005000",
+      "notes": "Surgically patched from 5nm to 12nm with two-link official evidence"
+    },
+    {
+      "rootId": "samsung-samsung-galaxy-m15-5g-104",
+      "rawFieldPath": "specs.processor.process",
+      "canonicalFieldPath": "specs.processor.process",
+      "currentRawValue": "6nm",
+      "exactRawValue": "6nm",
+      "unitAndTechnicalMeaning": "semiconductor fabrication process node",
+      "verifiedValueOrHash": "6nm",
+      "valueHash": "a8b2c1b0a48a9ed9e16dca71bb20c190aac52afc9d666288b5b6a3e34c5095dc",
+      "chipDependency": "Dimensity 6100+ 5G",
+      "sourceUrls": [
+        "https://news.samsung.com/in/samsung-launches-galaxy-m15-5g-and-galaxy-m55-5g-in-india",
+        "https://www.mediatek.com/products/smartphones-2/mediatek-dimensity-6100plus"
+      ],
+      "sourceTitle": "Samsung Launches Galaxy M15 5G and Galaxy M55 5G in India & MediaTek Dimensity 6100+ 5G Platform Brief",
+      "sourceTitles": [
+        "Samsung Launches Galaxy M15 5G and Galaxy M55 5G in India",
+        "MediaTek Dimensity 6100+ 5G Official Specification"
+      ],
+      "sectionOrTable": "Processor / Chip Specifications",
+      "summaryOrExcerpt": "Device model verified by Samsung Electronics India (MediaTek Dimensity 6100+ 5G Processor). Semiconductor process node verified by MediaTek Inc. (Process: TSMC 6nm).",
+      "accessedAt": "2026-09-30T21:49:04.989Z",
+      "checkedAt": "2026-09-30T21:49:04.989Z",
+      "modelSkuRegion": "Samsung Galaxy M15 5G",
+      "sourceType": "MANUFACTURER_OFFICIAL",
+      "status": "VERIFIED_EXISTING_VALUE",
+      "verificationStatus": "VERIFIED_EXISTING_VALUE",
+      "runId": "P2_PROCESS_NEXT_WAVE_20261001_005000",
+      "notes": "Surgically patched from 4nm to 6nm with two-link official evidence"
+    }
+  ]
+}
