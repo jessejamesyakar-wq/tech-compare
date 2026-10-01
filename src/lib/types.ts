@@ -159,6 +159,27 @@ export interface ApplianceProduct extends BaseProduct {
   updatedAt?: string;
 }
 
+export interface CameraSensor {
+  type: 'main' | 'ultrawide' | 'telephoto' | 'macro' | 'depth' | 'monochrome' | 'selfie' | 'other';
+  resolutionMp?: string;
+  features?: string;
+}
+
+export interface CameraSpec {
+  mainMp?: string;
+  ultrawideMp?: string;
+  telephotoMp?: string;
+  macroMp?: string;
+  depthMp?: string;
+  monochromeMp?: string;
+  selfieMp?: string;
+  videoRes?: string;
+  dxomarkScore?: number;
+  sensors?: CameraSensor[];
+}
+
+export type CameraSpecV2 = CameraSpec;
+
 export interface SmartphoneSpecs {
   screen?: {
     size?: string;
@@ -181,14 +202,7 @@ export interface SmartphoneSpecs {
     storageOptions?: number[];
     expandableStorage?: boolean;
   };
-  camera?: {
-    mainMp?: string;
-    ultrawideMp?: string;
-    telephotoMp?: string;
-    selfieMp?: string;
-    videoRes?: string;
-    dxomarkScore?: number;
-  };
+  camera?: CameraSpec;
   battery?: {
     capacitymAh?: number;
     chargingWatts?: number;

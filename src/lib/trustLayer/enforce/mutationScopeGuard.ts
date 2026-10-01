@@ -24,6 +24,7 @@
  */
 
 import { GOLDEN_DATASET_V1_IDS } from '../observe/goldenDatasetV1';
+import { GoldenCorrectionRegistry } from '../observe/goldenCorrectionRegistry';
 import { EnforcementCircuitBreaker } from './enforcementCircuitBreaker';
 
 export type ScopeStopCode =
@@ -192,12 +193,20 @@ export class MutationScopeGuard {
 
       // Check Golden Dataset authorization
       if (this.isGoldenDatasetRoot(rootId) && !goldenDatasetMutationAllowed) {
-        const stopCode: ScopeStopCode = 'GOLDEN_DATASET_AUTH_REQUIRED';
-        const msg = `Root ID '${rootId}' belongs to Golden Dataset V1. Mutation requires explicit goldenDatasetMutationAllowed: true.`;
-        EnforcementCircuitBreaker.tripCircuit('GOLDEN_DATASET_DRIFT', msg);
-        throw new MutationScopeViolationError(stopCode, msg, {
-          rootId
-        });
+        const allApprovedCorrections =
+          rootMutation.fieldMutations.length > 0 &&
+          rootMutation.fieldMutations.every((f) =>
+            GoldenCorrectionRegistry.isApprovedGoldenCorrection(rootId, f.fieldPath, f.afterValue)
+          );
+
+        if (!allApprovedCorrections) {
+          const stopCode: ScopeStopCode = 'GOLDEN_DATASET_AUTH_REQUIRED';
+          const msg = `Root ID '${rootId}' belongs to Golden Dataset V1. Mutation requires explicit goldenDatasetMutationAllowed: true or an approved GoldenCorrection in GoldenCorrectionRegistry.`;
+          EnforcementCircuitBreaker.tripCircuit('GOLDEN_DATASET_DRIFT', msg);
+          throw new MutationScopeViolationError(stopCode, msg, {
+            rootId
+          });
+        }
       }
 
       // Check field mutations
@@ -320,7 +329,12 @@ export class MutationScopeGuard {
         const diffs = this.extractRecordDiffs(beforeP, afterP);
 
         if (this.isGoldenDatasetRoot(id)) {
-          goldenMutationCount++;
+          const unapprovedDiffs = diffs.filter(
+            d => !GoldenCorrectionRegistry.isApprovedGoldenCorrection(id, d.fieldPath, d.afterValue)
+          );
+          if (unapprovedDiffs.length > 0) {
+            goldenMutationCount++;
+          }
         }
 
         for (const diff of diffs) {

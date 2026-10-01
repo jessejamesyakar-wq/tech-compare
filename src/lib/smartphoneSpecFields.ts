@@ -27,6 +27,9 @@ export const PHONE_SPEC_FIELDS: PhoneSpecField[] = [
   {category:'Kamera',label:'Ana Kamera',paths:'camera.mainMp',unit:'MP'},
   {category:'Kamera',label:'Ultra Geniş Kamera',paths:'camera.ultrawideMp',unit:'MP'},
   {category:'Kamera',label:'Telefoto',paths:'camera.telephotoMp',unit:'MP'},
+  {category:'Kamera',label:'Makro Kamera',paths:'camera.macroMp',unit:'MP'},
+  {category:'Kamera',label:'Derinlik Sensörü',paths:'camera.depthMp',unit:'MP'},
+  {category:'Kamera',label:'Monokrom Sensör',paths:'camera.monochromeMp',unit:'MP'},
   {category:'Kamera',label:'Ön Kamera',paths:'camera.selfieMp|camera.frontMp',legacy:'frontCamera',unit:'MP'},
   {category:'Kamera',label:'Video',paths:'camera.videoRes'},
   // A combined rear-camera description must not masquerade as one main sensor.

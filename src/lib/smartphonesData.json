@@ -16004,7 +16004,7 @@
       "processor": {
         "chip": "Apple A13 Bionic (7nm+)",
         "cores": "6 Çekirdek",
-        "process": "TSMC 5nm",
+        "process": "TSMC 7nm+",
         "antutuScore": 810000
       },
       "memory": {
@@ -31614,10 +31614,21 @@
         "expandableStorage": false
       },
       "camera": {
-        "mainMp": "50 MP + 2 MP",
+        "mainMp": "50 MP",
         "selfieMp": "8 MP",
         "videoRes": "1080p @ 30fps",
-        "dxomarkScore": 142
+        "dxomarkScore": 142,
+        "depthMp": "2 MP",
+        "sensors": [
+          {
+            "type": "main",
+            "resolutionMp": "50 MP"
+          },
+          {
+            "type": "depth",
+            "resolutionMp": "2 MP"
+          }
+        ]
       },
       "battery": {
         "capacitymAh": 5500,
@@ -32360,10 +32371,21 @@
         "expandableStorage": true
       },
       "camera": {
-        "mainMp": "50 MP + 2 MP",
+        "mainMp": "50 MP",
         "selfieMp": "8 MP",
         "videoRes": "1080p @ 30fps",
-        "dxomarkScore": 110
+        "dxomarkScore": 110,
+        "depthMp": "2 MP",
+        "sensors": [
+          {
+            "type": "main",
+            "resolutionMp": "50 MP"
+          },
+          {
+            "type": "depth",
+            "resolutionMp": "2 MP"
+          }
+        ]
       },
       "battery": {
         "capacitymAh": 5000,
@@ -32651,11 +32673,28 @@
         "expandableStorage": false
       },
       "camera": {
-        "mainMp": "50 MP ZEISS + 50 MP Portre",
+        "mainMp": "50 MP (ZEISS OIS)",
         "ultrawideMp": "50 MP",
         "selfieMp": "50 MP",
         "videoRes": "4K @ 60fps",
-        "dxomarkScore": 142
+        "dxomarkScore": 142,
+        "telephotoMp": "50 MP",
+        "sensors": [
+          {
+            "type": "main",
+            "resolutionMp": "50 MP",
+            "features": "ZEISS OIS"
+          },
+          {
+            "type": "telephoto",
+            "resolutionMp": "50 MP",
+            "features": "Portre"
+          },
+          {
+            "type": "ultrawide",
+            "resolutionMp": "50 MP"
+          }
+        ]
       },
       "battery": {
         "capacitymAh": 5500,
@@ -39803,8 +39842,20 @@
         "type": "IPS"
       },
       "camera": {
-        "mainMp": "12 MP (RGB) + 20 MP (monokrom)",
-        "selfieMp": "8 MP"
+        "mainMp": "12 MP (RGB OIS)",
+        "selfieMp": "8 MP",
+        "monochromeMp": "20 MP",
+        "sensors": [
+          {
+            "type": "main",
+            "resolutionMp": "12 MP",
+            "features": "RGB OIS"
+          },
+          {
+            "type": "monochrome",
+            "resolutionMp": "20 MP"
+          }
+        ]
       },
       "battery": {
         "capacitymAh": 4000
@@ -40286,10 +40337,22 @@
         "expandableStorage": false
       },
       "camera": {
-        "mainMp": "50 MP Sony OIS + 8 MP Geniş",
+        "mainMp": "50 MP (Sony OIS)",
         "selfieMp": "16 MP",
         "videoRes": "4K @ 60fps / 1080p @ 60fps",
-        "dxomarkScore": 140
+        "dxomarkScore": 140,
+        "ultrawideMp": "8 MP",
+        "sensors": [
+          {
+            "type": "main",
+            "resolutionMp": "50 MP",
+            "features": "Sony OIS"
+          },
+          {
+            "type": "ultrawide",
+            "resolutionMp": "8 MP"
+          }
+        ]
       },
       "battery": {
         "capacitymAh": 5500,
@@ -40914,10 +40977,28 @@
         "expandableStorage": false
       },
       "camera": {
-        "mainMp": "50 MP 1-inç Sony LYT-808 Hasselblad OIS + 50 MP Geniş + 50 MP/200 MP Telefoto",
+        "mainMp": "50 MP (Sony LYT-808 Hasselblad OIS)",
         "selfieMp": "32 MP AF",
         "videoRes": "4K @ 60fps / 1080p @ 60fps",
-        "dxomarkScore": 140
+        "dxomarkScore": 140,
+        "ultrawideMp": "50 MP",
+        "telephotoMp": "50 MP",
+        "sensors": [
+          {
+            "type": "main",
+            "resolutionMp": "50 MP",
+            "features": "1-inç Sony LYT-808 Hasselblad OIS"
+          },
+          {
+            "type": "ultrawide",
+            "resolutionMp": "50 MP"
+          },
+          {
+            "type": "telephoto",
+            "resolutionMp": "50 MP",
+            "features": "200 MP Dijital"
+          }
+        ]
       },
       "battery": {
         "capacitymAh": 5910,
@@ -41257,10 +41338,22 @@
         "expandableStorage": false
       },
       "camera": {
-        "mainMp": "50 MP Sony OIS + 8 MP Geniş",
+        "mainMp": "50 MP (Sony OIS)",
         "selfieMp": "16 MP",
         "videoRes": "4K @ 60fps / 1080p @ 60fps",
-        "dxomarkScore": 140
+        "dxomarkScore": 140,
+        "ultrawideMp": "8 MP",
+        "sensors": [
+          {
+            "type": "main",
+            "resolutionMp": "50 MP",
+            "features": "Sony OIS"
+          },
+          {
+            "type": "ultrawide",
+            "resolutionMp": "8 MP"
+          }
+        ]
       },
       "battery": {
         "capacitymAh": 5500,

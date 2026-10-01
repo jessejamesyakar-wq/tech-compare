@@ -2,14 +2,48 @@ import type { ComparisonPanelData, TechNewsPanelData } from './resolvers';
 
 export const INSUFFICIENT_COMPARISON = 'Genel kazananı belirlemek için yeterli doğrulanmış karşılaştırma verisi yok.';
 
-type PricedItem = { price?: number | null; currentPrice?: number | null; priceStatus?: string; statusLabel?: string };
+export type PriceSourceType = 'LIVE_PRICE' | 'PERSISTED_PRICE' | 'CATALOG_FALLBACK' | 'NO_PRICE_DATA';
+
+export type PricedItem = {
+  price?: number | null;
+  currentPrice?: number | null;
+  priceStatus?: string;
+  statusLabel?: string;
+  sourceType?: PriceSourceType | string;
+  isLiveApi?: boolean;
+  isPersistedDb?: boolean;
+};
+
+export function resolvePriceSourceType(item: PricedItem): PriceSourceType {
+  if (typeof item.price !== 'number' || !Number.isFinite(item.price) || item.price <= 0) {
+    return 'NO_PRICE_DATA';
+  }
+  if (item.sourceType === 'LIVE_PRICE' || item.isLiveApi === true) {
+    return 'LIVE_PRICE';
+  }
+  if (item.sourceType === 'PERSISTED_PRICE' || item.isPersistedDb === true) {
+    return 'PERSISTED_PRICE';
+  }
+  return 'CATALOG_FALLBACK';
+}
+
 export function describeChatPrice(item: PricedItem): string {
-  const amount = typeof item.price === 'number' && Number.isFinite(item.price) && item.price > 0
+  const source = resolvePriceSourceType(item);
+  const amount = source !== 'NO_PRICE_DATA' && typeof item.price === 'number' && Number.isFinite(item.price) && item.price > 0
     ? `${item.price.toLocaleString('tr-TR')} TL` : 'Fiyat bilgisi yok';
-  const label = item.priceStatus === 'fresh' && item.currentPrice != null
-    ? 'Güncel Fiyat' : item.priceStatus === 'stale'
-      ? item.statusLabel || 'Son görülen fiyat' : 'Katalog Referans Fiyatı — Fiyat doğrulanmadı';
-  return `${amount} (${label})`;
+
+  let statusText = 'Katalog Referans Fiyatı — Fiyat doğrulanmadı';
+  if (source === 'LIVE_PRICE') {
+    statusText = 'Güncel Mağaza Teklifi';
+  } else if (source === 'PERSISTED_PRICE') {
+    statusText = 'Kayıtlı Veritabanı Fiyatı';
+  } else if (item.priceStatus === 'fresh' && item.currentPrice != null) {
+    statusText = 'Güncel Katalog Teklifi';
+  } else if (item.priceStatus === 'stale') {
+    statusText = item.statusLabel || 'Son görülen fiyat';
+  }
+
+  return `${amount} (${statusText}) [${source}]`;
 }
 
 /** Deterministic catalogue explanation: no benchmark, lab or overall-winner inference. */
