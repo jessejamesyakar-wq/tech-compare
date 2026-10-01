@@ -24062,7 +24062,7 @@
       "processor": {
         "chip": "Apple A10 Fusion (16nm)",
         "cores": "4 Çekirdek",
-        "process": "TSMC 5nm",
+        "process": "TSMC 16nm",
         "antutuScore": 360000
       },
       "memory": {
@@ -24324,7 +24324,7 @@
       "processor": {
         "chip": "Apple A10 Fusion (16nm)",
         "cores": "4 Çekirdek",
-        "process": "TSMC 5nm",
+        "process": "TSMC 16nm",
         "antutuScore": 360000
       },
       "memory": {
@@ -24839,7 +24839,7 @@
       "processor": {
         "chip": "Apple A9 (14nm)",
         "cores": "2 Çekirdek",
-        "process": "TSMC 5nm",
+        "process": "TSMC 16nm / Samsung 14nm",
         "antutuScore": 260000
       },
       "memory": {
@@ -25573,7 +25573,7 @@
       "processor": {
         "chip": "Apple A8 (20nm)",
         "cores": "2 Çekirdek",
-        "process": "TSMC 5nm",
+        "process": "TSMC 20nm",
         "antutuScore": 160000
       },
       "memory": {
@@ -25801,7 +25801,7 @@
       "processor": {
         "chip": "Apple A9 (14nm)",
         "cores": "2 Çekirdek",
-        "process": "TSMC 5nm",
+        "process": "TSMC 16nm / Samsung 14nm",
         "antutuScore": 250000
       },
       "memory": {
@@ -26731,7 +26731,7 @@
       "processor": {
         "chip": "Apple A8 (20nm)",
         "cores": "2 Çekirdek",
-        "process": "TSMC 5nm",
+        "process": "TSMC 20nm",
         "antutuScore": 150000
       },
       "memory": {
@@ -28078,7 +28078,7 @@
     "reviewCount": 220,
     "basePrice": 2299,
     "currency": "TL",
-    "releaseYear": 2025,
+    "releaseYear": 2011,
     "isPopular": false,
     "isFeatured": false,
     "highlights": [
@@ -28352,7 +28352,7 @@
         "reverseWireless": false
       },
       "connectivity": {
-        "has5G": true,
+        "has5G": false,
         "wifiStandard": "Wi-Fi 7 (802.11be)",
         "bluetooth": "5.4",
         "hasNFC": true,
@@ -29357,7 +29357,7 @@
     "reviewCount": 70,
     "basePrice": 1747,
     "currency": "TL",
-    "releaseYear": 2025,
+    "releaseYear": 2009,
     "isPopular": false,
     "isFeatured": false,
     "highlights": [
@@ -29631,7 +29631,7 @@
         "reverseWireless": false
       },
       "connectivity": {
-        "has5G": true,
+        "has5G": false,
         "wifiStandard": "Wi-Fi 7 (802.11be)",
         "bluetooth": "5.4",
         "hasNFC": true,
@@ -31901,7 +31901,7 @@
         "expandableStorage": false
       },
       "camera": {
-        "mainMp": "50 MP Sony + Aura Light",
+        "mainMp": "50 MP",
         "selfieMp": "32 MP",
         "videoRes": "1080p @ 60fps",
         "dxomarkScore": 142
@@ -38335,7 +38335,7 @@
         "brightnessNits": 1600
       },
       "processor": {
-        "chip": "Snapdragon 8s Gen 3 (Oyun Odaklı Sıvı Soğutma)",
+        "chip": "Snapdragon 8s Gen 3",
         "cores": "8 Çekirdek",
         "process": "3nm",
         "antutuScore": 790000
@@ -42496,7 +42496,7 @@
         "brightnessNits": 1200
       },
       "processor": {
-        "chip": "Snapdragon 7+ Gen 4 5G (6000 mAh & 100W)",
+        "chip": "Snapdragon 7+ Gen 4 5G",
         "cores": "8 Çekirdek",
         "process": "2nm",
         "antutuScore": 750000
@@ -42784,7 +42784,7 @@
         "brightnessNits": 1200
       },
       "processor": {
-        "chip": "Dimensity 7400 5G (7000 mAh Dev Pil & 80W)",
+        "chip": "Dimensity 7400 5G",
         "cores": "8 Çekirdek",
         "process": "2nm",
         "antutuScore": 750000
@@ -43648,7 +43648,7 @@
         "brightnessNits": 4500
       },
       "processor": {
-        "chip": "Snapdragon 8 Gen 5 (2nm Zirve Oyuncu / 7000 mAh Batarya / 150W)",
+        "chip": "Snapdragon 8 Gen 5",
         "cores": "8 Çekirdek",
         "process": "2nm",
         "antutuScore": 1850000
@@ -44223,7 +44223,7 @@
         "brightnessNits": 1200
       },
       "processor": {
-        "chip": "Dimensity 7050 5G (VC Sıvı Soğutma & 45W)",
+        "chip": "Dimensity 7050 5G",
         "cores": "8 Çekirdek",
         "process": "4nm",
         "antutuScore": 750000
@@ -45141,7 +45141,7 @@
         "brightnessNits": 3000
       },
       "processor": {
-        "chip": "Google Tensor G6 (TSMC 2nm / Zirve Yapay Zeka & 50W Kablosuz)",
+        "chip": "Google Tensor G6",
         "cores": "8 Çekirdek",
         "process": "2nm (TSMC)",
         "antutuScore": 1910000
@@ -50704,7 +50704,7 @@
         "brightnessNits": 3000
       },
       "processor": {
-        "chip": "Snapdragon 8s Gen 4 (5x Periskop OIS & 100W Şarj)",
+        "chip": "Snapdragon 8s Gen 4",
         "cores": "8 Çekirdek",
         "process": "3nm",
         "antutuScore": 1750000
@@ -51855,7 +51855,7 @@
         "brightnessNits": 900
       },
       "processor": {
-        "chip": "Dimensity 7050 5G (7000 mAh Dev Batarya / 66W)",
+        "chip": "Dimensity 7050 5G",
         "cores": "8 Çekirdek",
         "process": "4nm",
         "antutuScore": 580000
@@ -52431,7 +52431,7 @@
         "brightnessNits": 900
       },
       "processor": {
-        "chip": "Dimensity 7300 5G (66W Fast Charge)",
+        "chip": "Dimensity 7300 5G",
         "cores": "8 Çekirdek",
         "process": "4nm",
         "antutuScore": 580000
@@ -57416,7 +57416,7 @@
         "brightnessNits": 3000
       },
       "processor": {
-        "chip": "Snapdragon 8 Gen 3 (Kablosuz Şarj & IP68)",
+        "chip": "Snapdragon 8 Gen 3",
         "cores": "8 Çekirdek",
         "process": "3nm",
         "antutuScore": 1920000
@@ -57696,7 +57696,7 @@
     "specs": {
       "screen": {
         "size": "6.67\"",
-        "type": "6.67\" 1.5K 120Hz Flow AMOLED 2.0 (90W Şarj)",
+        "type": "6.67\" 1.5K 120Hz Flow AMOLED 2.0",
         "resolution": "3200 x 1440 px",
         "refreshRate": 120,
         "ppi": 522,
@@ -76144,7 +76144,7 @@
     "specs": {
       "screen": {
         "size": "6.7\"",
-        "type": "6.7\" FHD+ 120Hz Super AMOLED Plus 45W",
+        "type": "6.7\" FHD+ 120Hz Super AMOLED Plus",
         "resolution": "2340 x 1080 px",
         "refreshRate": 120,
         "ppi": 390,
@@ -76460,7 +76460,7 @@
         "expandableStorage": false
       },
       "camera": {
-        "mainMp": "50 MP, OIS",
+        "mainMp": "50 MP (OIS)",
         "ultrawideMp": "12 MP",
         "telephotoMp": "10 MP (3x optik zoom)",
         "selfieMp": "12 MP",
@@ -78207,7 +78207,7 @@
         "size": "6.7\"",
         "type": "6.7\" HD+ 90Hz PLS LCD",
         "resolution": "2340 x 1080 px",
-        "refreshRate": 120,
+        "refreshRate": 60,
         "ppi": 390,
         "brightnessNits": 1000
       },
@@ -78484,7 +78484,7 @@
         "size": "6.7\"",
         "type": "6.7\" FHD+ 90Hz Super AMOLED (6 Yıl Güncelleme)",
         "resolution": "2340 x 1080 px",
-        "refreshRate": 120,
+        "refreshRate": 90,
         "ppi": 390,
         "brightnessNits": 1000
       },
@@ -79332,7 +79332,7 @@
         "brightnessNits": 1000
       },
       "processor": {
-        "chip": "Exynos 1580 (AMD RDNA3 GPU) 45W",
+        "chip": "Exynos 1580 (AMD RDNA3 GPU)",
         "cores": "8 Çekirdek",
         "process": "3nm",
         "antutuScore": 750000
@@ -82140,7 +82140,7 @@
         "size": "6.6\"",
         "type": "6.6\" FHD+ 90Hz Super AMOLED",
         "resolution": "2340 x 1080 px",
-        "refreshRate": 120,
+        "refreshRate": 90,
         "ppi": 390,
         "brightnessNits": 1000
       },
@@ -82694,7 +82694,7 @@
     "specs": {
       "screen": {
         "size": "6.7\"",
-        "type": "6.7\" FHD+ 120Hz Super AMOLED Plus 45W",
+        "type": "6.7\" FHD+ 120Hz Super AMOLED Plus",
         "resolution": "2340 x 1080 px",
         "refreshRate": 120,
         "ppi": 390,

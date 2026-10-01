@@ -166,5 +166,29 @@
     "destination": "/monitors/lg-lg-32un550-w",
     "permanent": true,
     "name": "LG 32UN550-W Monitor Redirect"
+  },
+  {
+    "source": "/phones/huawei-p40-pro-1",
+    "destination": "/phones/huawei-p40-pro",
+    "permanent": true,
+    "name": "Huawei P40 Pro Canonical Redirect"
+  },
+  {
+    "source": "/phones/huawei-y9-1",
+    "destination": "/phones/huawei-y9",
+    "permanent": true,
+    "name": "Huawei Y9 Canonical Redirect"
+  },
+  {
+    "source": "/phones/huawei-pura-70-pro-1",
+    "destination": "/phones/huawei-pura-70-pro",
+    "permanent": true,
+    "name": "Huawei Pura 70 Pro Canonical Redirect"
+  },
+  {
+    "source": "/phones/huawei-mate-60-pro-1",
+    "destination": "/phones/huawei-mate-60-pro",
+    "permanent": true,
+    "name": "Huawei Mate 60 Pro Canonical Redirect"
   }
 ]

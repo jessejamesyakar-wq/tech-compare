@@ -1,6 +1,16 @@
 import { createClient } from '@supabase/supabase-js';
 
-const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL || 'https://demo-tech-kiyas.supabase.co';
-const supabaseAnonKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY || 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.demo-anon-key';
+const rawUrl = process.env.NEXT_PUBLIC_SUPABASE_URL;
+const rawKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
 
-export const supabase = createClient(supabaseUrl, supabaseAnonKey);
+export const isSupabaseConfigured = Boolean(
+  rawUrl &&
+  !rawUrl.includes('demo-tech-kiyas') &&
+  rawKey &&
+  !rawKey.includes('demo-anon-key')
+);
+
+// If real credentials are provided, initialize client; otherwise export null to avoid hanging network calls on unconfigured demo URLs
+export const supabase = isSupabaseConfigured
+  ? createClient(rawUrl!, rawKey!)
+  : null;

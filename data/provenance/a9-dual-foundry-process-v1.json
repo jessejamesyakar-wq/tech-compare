@@ -1,0 +1,65 @@
+{
+  "manifestVersion": "3.0.0",
+  "runId": "A9_DUAL_FOUNDRY_PROCESS_20261002_002000",
+  "generatedAt": "2026-10-01T21:20:11.432Z",
+  "totalRecords": 2,
+  "dualFoundrySpecification": {
+    "tsmc": {
+      "foundry": "TSMC",
+      "partNumber": "APL1022",
+      "processNode": "16nm FinFET (16FF)",
+      "dieAreaMm2": 104.5
+    },
+    "samsung": {
+      "foundry": "Samsung",
+      "partNumber": "APL0898",
+      "processNode": "14nm FinFET (14LPE)",
+      "dieAreaMm2": 96
+    },
+    "architecturalRationale": "Apple A9 application processor was fabricated across two independent foundries with different lithography nodes. Because generic non-carrier catalog SKU cannot guarantee single-source packaging allocation, the process field must reflect both verified nodes: TSMC 16nm / Samsung 14nm."
+  },
+  "records": [
+    {
+      "rootId": "apple-apple-iphone-6s-128-gb-31580",
+      "canonicalFieldPath": "specs.processor.process",
+      "currentRawValue": "TSMC 16nm / Samsung 14nm",
+      "verifiedValueOrHash": "TSMC 16nm / Samsung 14nm",
+      "chipDependency": "Apple A9",
+      "foundries": [
+        "TSMC 16nm FinFET (APL1022)",
+        "Samsung 14nm FinFET (APL0898)"
+      ],
+      "sourceUrls": [
+        "https://www.apple.com/newsroom/2015/09/09Apple-Introduces-iPhone-6s-iPhone-6s-Plus/",
+        "https://semiconductor.samsung.com/news-events/news/samsung-starts-mass-production-of-industrys-first-14-nanometer-finfet-mobile-ap/"
+      ],
+      "sourceTitles": [
+        "Apple Introduces iPhone 6s & iPhone 6s Plus (Official Press Release)",
+        "Samsung Starts Mass Production of Industry First 14-Nanometer FinFET Mobile AP"
+      ],
+      "status": "VERIFIED_EXISTING_VALUE",
+      "notes": "Dual-sourced A9 silicon node normalized to explicitly state TSMC 16nm / Samsung 14nm."
+    },
+    {
+      "rootId": "apple-apple-iphone-6s-plus-128-gb-31582",
+      "canonicalFieldPath": "specs.processor.process",
+      "currentRawValue": "TSMC 16nm / Samsung 14nm",
+      "verifiedValueOrHash": "TSMC 16nm / Samsung 14nm",
+      "chipDependency": "Apple A9",
+      "foundries": [
+        "TSMC 16nm FinFET (APL1022)",
+        "Samsung 14nm FinFET (APL0898)"
+      ],
+      "sourceUrls": [
+        "https://www.apple.com/newsroom/2015/09/09Apple-Introduces-iPhone-6s-iPhone-6s-Plus/",
+        "https://semiconductor.samsung.com/news-events/news/samsung-starts-mass-production-of-industrys-first-14-nanometer-finfet-mobile-ap/"
+      ],
+      "sourceTitles": [
+        "Apple Introduces iPhone 6s & iPhone 6s Plus (Official Press Release)",
+        "Samsung Starts Mass Production of Industry First 14-Nanometer FinFET Mobile AP"
+      ],
+      "status": "VERIFIED_EXISTING_VALUE",
+      "notes": "Dual-sourced A9 silicon node normalized to explicitly state TSMC 16nm / Samsung 14nm."
+    }
+  ]
+}
