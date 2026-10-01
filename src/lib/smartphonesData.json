@@ -31314,7 +31314,7 @@
       "processor": {
         "chip": "Snapdragon 680",
         "cores": "8 Çekirdek",
-        "process": "6nm TSMC",
+        "process": "TSMC 6nm",
         "antutuScore": 450000
       },
       "memory": {
@@ -32071,7 +32071,7 @@
       "processor": {
         "chip": "Snapdragon 680",
         "cores": "8 Çekirdek",
-        "process": "6nm TSMC",
+        "process": "TSMC 6nm",
         "antutuScore": 450000
       },
       "memory": {
@@ -32358,7 +32358,7 @@
       "processor": {
         "chip": "Snapdragon 680",
         "cores": "8 Çekirdek",
-        "process": "6nm TSMC",
+        "process": "TSMC 6nm",
         "antutuScore": 450000
       },
       "memory": {
@@ -35889,7 +35889,7 @@
       "processor": {
         "chip": "Snapdragon 8 Gen 3 (Aktif Fanlı / 144Hz Oyun Canavarı)",
         "cores": "8 Çekirdek",
-        "process": "2nm",
+        "process": "TSMC 4nm",
         "antutuScore": 790000
       },
       "memory": {
@@ -36506,7 +36506,7 @@
       "processor": {
         "chip": "Qualcomm Snapdragon 8 Gen 3",
         "cores": "8 Çekirdek (1x3.3 GHz + 5x3.2 GHz + 2x2.3 GHz)",
-        "process": "4nm",
+        "process": "TSMC 4nm",
         "antutuScore": 1850000
       },
       "memory": {
@@ -37765,7 +37765,7 @@
       "processor": {
         "chip": "Qualcomm Snapdragon 8 Gen 3 / Gen 4",
         "cores": "8 Çekirdek (3nm/4nm)",
-        "process": "3nm",
+        "process": "TSMC 4nm",
         "antutuScore": 2100000
       },
       "memory": {
@@ -40324,7 +40324,7 @@
       "processor": {
         "chip": "Snapdragon 695 5G",
         "cores": "8 Çekirdek (Octa-Core)",
-        "process": "4nm / 6nm TSMC",
+        "process": "TSMC 6nm",
         "antutuScore": 1100000
       },
       "memory": {
@@ -41325,7 +41325,7 @@
       "processor": {
         "chip": "Snapdragon 695 5G",
         "cores": "8 Çekirdek (Octa-Core)",
-        "process": "4nm / 6nm TSMC",
+        "process": "TSMC 6nm",
         "antutuScore": 1100000
       },
       "memory": {
@@ -41508,7 +41508,7 @@
       "processor": {
         "chip": "Snapdragon 680 / 778G",
         "cores": "8 Çekirdek (Octa-Core)",
-        "process": "4nm / 6nm TSMC",
+        "process": "TSMC 6nm",
         "antutuScore": 1100000
       },
       "memory": {
@@ -44318,7 +44318,7 @@
       "processor": {
         "chip": "Dimensity 7050 5G",
         "cores": "8 Çekirdek",
-        "process": "4nm",
+        "process": "TSMC 6nm",
         "antutuScore": 750000
       },
       "memory": {
@@ -51950,7 +51950,7 @@
       "processor": {
         "chip": "Dimensity 7050 5G",
         "cores": "8 Çekirdek",
-        "process": "4nm",
+        "process": "TSMC 6nm",
         "antutuScore": 580000
       },
       "memory": {
@@ -52814,7 +52814,7 @@
       "processor": {
         "chip": "Dimensity 8300 Ultra 5G (144Hz 3D Kavisli NXTPAPER 4.0 Mat OLED)",
         "cores": "8 Çekirdek",
-        "process": "4nm",
+        "process": "TSMC 4nm",
         "antutuScore": 1390000
       },
       "memory": {
@@ -53389,7 +53389,7 @@
       "processor": {
         "chip": "Dimensity 6100+ 5G",
         "cores": "8 Çekirdek",
-        "process": "6nm",
+        "process": "TSMC 6nm",
         "antutuScore": 1390000
       },
       "memory": {
@@ -53963,7 +53963,7 @@
       "processor": {
         "chip": "Helio G99 (NXTPAPER Kağıt Modu Tuşu)",
         "cores": "8 Çekirdek",
-        "process": "6nm",
+        "process": "TSMC 6nm",
         "antutuScore": 1390000
       },
       "memory": {
@@ -54537,7 +54537,7 @@
       "processor": {
         "chip": "Helio G99 (108MP Kamera)",
         "cores": "8 Çekirdek",
-        "process": "6nm",
+        "process": "TSMC 6nm",
         "antutuScore": 580000
       },
       "memory": {
@@ -55986,7 +55986,7 @@
       "processor": {
         "chip": "MediaTek Helio G99 Ultimate",
         "cores": "8 Çekirdek",
-        "process": "6nm",
+        "process": "TSMC 6nm",
         "antutuScore": 430000
       },
       "memory": {
@@ -57511,7 +57511,7 @@
       "processor": {
         "chip": "Snapdragon 8 Gen 3",
         "cores": "8 Çekirdek",
-        "process": "3nm",
+        "process": "TSMC 4nm",
         "antutuScore": 1920000
       },
       "memory": {
@@ -75158,7 +75158,7 @@
       "processor": {
         "chip": "Helio G99 / Dimensity 6100+",
         "cores": "8 Çekirdek",
-        "process": "4nm",
+        "process": "TSMC 6nm",
         "antutuScore": 750000
       },
       "memory": {
@@ -77450,7 +77450,7 @@
       "processor": {
         "chip": "Samsung Exynos 2400",
         "cores": "8 Çekirdek",
-        "process": "3nm",
+        "process": "Samsung 4nm",
         "antutuScore": 1850000
       },
       "memory": {
@@ -78865,7 +78865,7 @@
       "processor": {
         "chip": "Exynos 1280 5G",
         "cores": "8 Çekirdek",
-        "process": "3nm",
+        "process": "Samsung 5nm",
         "antutuScore": 750000
       },
       "memory": {
@@ -81680,7 +81680,7 @@
       "processor": {
         "chip": "Samsung Exynos 1480",
         "cores": "8 Çekirdek",
-        "process": "2nm",
+        "process": "Samsung 4nm",
         "antutuScore": 750000
       },
       "memory": {
@@ -82518,7 +82518,7 @@
       "processor": {
         "chip": "Exynos 1480 5G",
         "cores": "8 Çekirdek",
-        "process": "2nm",
+        "process": "Samsung 4nm",
         "antutuScore": 750000
       },
       "memory": {
@@ -85609,7 +85609,7 @@
       "processor": {
         "chip": "Samsung Exynos 2400",
         "cores": "8 Çekirdek (2x4.32 GHz Oryon + 6x3.53 GHz)",
-        "process": "3nm TSMC",
+        "process": "Samsung 4nm",
         "antutuScore": 1650000
       },
       "camera": {
@@ -86218,7 +86218,7 @@
       "processor": {
         "chip": "Samsung Exynos 1480",
         "cores": "8 Çekirdek (2x4.32 GHz Oryon + 6x3.53 GHz)",
-        "process": "3nm TSMC",
+        "process": "Samsung 4nm",
         "antutuScore": 850000
       },
       "camera": {
@@ -119400,7 +119400,7 @@
       "processor": {
         "chip": "Exynos 1380 5G",
         "cores": "8 Çekirdek",
-        "process": "5nm",
+        "process": "Samsung 5nm",
         "antutuScore": 620000
       },
       "memory": {
@@ -120046,7 +120046,7 @@
       "processor": {
         "chip": "Samsung Exynos 1480",
         "cores": "8 Çekirdek",
-        "process": "2nm",
+        "process": "Samsung 4nm",
         "antutuScore": 750000
       },
       "memory": {
@@ -120383,7 +120383,7 @@
       "processor": {
         "chip": "Samsung Exynos 2400",
         "cores": "8 Çekirdek",
-        "process": "3nm",
+        "process": "Samsung 4nm",
         "antutuScore": 1850000
       },
       "memory": {
@@ -122828,7 +122828,7 @@
       "processor": {
         "chip": "MediaTek Helio G99-Ultra",
         "cores": "8 Çekirdek",
-        "process": "6nm",
+        "process": "TSMC 6nm",
         "antutuScore": 480000
       },
       "memory": {
@@ -123173,7 +123173,7 @@
       "processor": {
         "chip": "MediaTek Helio G99-Ultra",
         "cores": "8 Çekirdek",
-        "process": "6nm",
+        "process": "TSMC 6nm",
         "antutuScore": 495000
       },
       "memory": {
@@ -126563,7 +126563,7 @@
       "processor": {
         "chip": "MediaTek Dimensity 8300",
         "cores": "8 Çekirdek",
-        "process": "4nm",
+        "process": "TSMC 4nm",
         "antutuScore": 1350000
       },
       "memory": {
@@ -126877,7 +126877,7 @@
       "processor": {
         "chip": "MediaTek Dimensity 8300",
         "cores": "8 Çekirdek",
-        "process": "4nm",
+        "process": "TSMC 4nm",
         "antutuScore": 1350000
       },
       "memory": {
@@ -127818,7 +127818,7 @@
       "processor": {
         "chip": "MediaTek Helio G99 Ultimate",
         "cores": "8 Çekirdek",
-        "process": "6nm",
+        "process": "TSMC 6nm",
         "antutuScore": 425000
       },
       "memory": {
@@ -135840,7 +135840,7 @@
       "processor": {
         "chip": "MediaTek Helio G99 Ultimate / Dimensity (6nm)",
         "cores": "8 Çekirdek (2x2.2 GHz + 6x2.0 GHz)",
-        "process": "6nm",
+        "process": "TSMC 6nm",
         "antutuScore": 465000
       },
       "memory": {
@@ -136356,7 +136356,7 @@
       "processor": {
         "chip": "MediaTek Dimensity 6100+ 5G (6nm)",
         "cores": "8 Çekirdek (2x 2.4 GHz + 6x 2.0 GHz)",
-        "process": "6nm",
+        "process": "TSMC 6nm",
         "antutuScore": 420000
       },
       "memory": {
@@ -136682,7 +136682,7 @@
       "processor": {
         "chip": "MediaTek Dimensity 6100+ 5G (6nm)",
         "cores": "8 Çekirdek (2x 2.4 GHz + 6x 2.0 GHz)",
-        "process": "6nm",
+        "process": "TSMC 6nm",
         "antutuScore": 420000
       },
       "memory": {
@@ -137009,7 +137009,7 @@
       "processor": {
         "chip": "MediaTek Dimensity 7050 5G (6nm)",
         "cores": "8 Çekirdek (2x 2.6 GHz Cortex-A78 + 6x 2.0 GHz Cortex-A55)",
-        "process": "6nm",
+        "process": "TSMC 6nm",
         "antutuScore": 590000
       },
       "memory": {
@@ -137336,7 +137336,7 @@
       "processor": {
         "chip": "MediaTek Dimensity 7050 5G (6nm)",
         "cores": "8 Çekirdek (2x 2.6 GHz Cortex-A78 + 6x 2.0 GHz Cortex-A55)",
-        "process": "6nm",
+        "process": "TSMC 6nm",
         "antutuScore": 590000
       },
       "memory": {
@@ -137663,7 +137663,7 @@
       "processor": {
         "chip": "MediaTek Dimensity 7050 5G (6nm)",
         "cores": "8 Çekirdek (2x 2.6 GHz Cortex-A78 + 6x 2.0 GHz Cortex-A55)",
-        "process": "6nm",
+        "process": "TSMC 6nm",
         "antutuScore": 590000
       },
       "memory": {

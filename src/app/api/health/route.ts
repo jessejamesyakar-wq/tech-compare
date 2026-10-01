@@ -37,6 +37,24 @@ export async function GET() {
         configuredUnverified: stores.filter((s) => s.status === 'CONFIGURED_UNVERIFIED').length,
         notConfigured: stores.filter((s) => s.status === 'NOT_CONFIGURED').length,
       },
+      platforms: {
+        supabase: {
+          status: isSupabaseConfigured ? 'READY' : 'MOCK_FALLBACK',
+          mode: isSupabaseConfigured ? 'PERSISTED' : 'IN_MEMORY_FALLBACK',
+        },
+        amazon: {
+          status: process.env.AMAZON_ACCESS_KEY ? 'READY' : 'MOCK_FALLBACK',
+          mode: process.env.AMAZON_ACCESS_KEY ? 'LIVE_API' : 'CATALOG_FALLBACK',
+        },
+        hepsiburada: {
+          status: process.env.HEPSIBURADA_USERNAME ? 'READY' : 'MOCK_FALLBACK',
+          mode: process.env.HEPSIBURADA_USERNAME ? 'LIVE_API' : 'CATALOG_FALLBACK',
+        },
+        trendyol: {
+          status: process.env.TRENDYOL_API_KEY ? 'READY' : 'MOCK_FALLBACK',
+          mode: process.env.TRENDYOL_API_KEY ? 'LIVE_API' : 'CATALOG_FALLBACK',
+        },
+      },
     },
     timestamp: new Date().toISOString(),
   });
