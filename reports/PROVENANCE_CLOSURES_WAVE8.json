@@ -1,0 +1,730 @@
+{
+  "wave": "WAVE-8",
+  "createdAt": "2026-10-01T23:07:06.986Z",
+  "totalClosures": 52,
+  "processClosures": 3,
+  "ramClosures": 0,
+  "brightnessV2Closures": 49,
+  "governanceReclassifications": {
+    "dxomarkToExternalBenchmarkDebt": 314,
+    "historicalDxomarkClosuresPreservedWithTag": 95
+  },
+  "closures": [
+    {
+      "verificationId": "PROV-W8-PROC-S25-001",
+      "rootId": "samsung-samsung-galaxy-s25-107",
+      "fieldPath": "specs.processor.process",
+      "newValue": "TSMC 3nm",
+      "resolutionType": "CATALOG_MUTATION_APPLIED",
+      "evidence": "Qualcomm Snapdragon 8 Elite official announcement & TSMC 3nm (N3E) commercial mass production disclosure.",
+      "verifiedAt": "2026-10-02T02:05:00Z",
+      "verifiedBy": "INTEGRATOR_C"
+    },
+    {
+      "verificationId": "PROV-W8-PROC-S25-002",
+      "rootId": "samsung-samsung-galaxy-s25-108",
+      "fieldPath": "specs.processor.process",
+      "newValue": "TSMC 3nm",
+      "resolutionType": "CATALOG_MUTATION_APPLIED",
+      "evidence": "Qualcomm Snapdragon 8 Elite official announcement & TSMC 3nm (N3E) commercial mass production disclosure.",
+      "verifiedAt": "2026-10-02T02:05:00Z",
+      "verifiedBy": "INTEGRATOR_C"
+    },
+    {
+      "verificationId": "PROV-W8-PROC-S25-003",
+      "rootId": "samsung-samsung-galaxy-s25-ultra-109",
+      "fieldPath": "specs.processor.process",
+      "newValue": "TSMC 3nm",
+      "resolutionType": "CATALOG_MUTATION_APPLIED",
+      "evidence": "Qualcomm Snapdragon 8 Elite official announcement & TSMC 3nm (N3E) commercial mass production disclosure.",
+      "verifiedAt": "2026-10-02T02:05:00Z",
+      "verifiedBy": "INTEGRATOR_C"
+    },
+    {
+      "verificationId": "PROV-W8-BRIGHTNESS-V2-001",
+      "rootId": "apple-apple-iphone-17-256-gb-1027084",
+      "fieldPath": "specs.screen.brightnessV2",
+      "migratedValues": {
+        "brightnessTypicalNits": 800,
+        "brightnessHBMNits": 1200,
+        "brightnessPeakNits": 2000
+      },
+      "resolutionType": "BRIGHTNESS_SCHEMA_V2_MIGRATION",
+      "evidence": "Apple Technical Specifications (800 nits typical, 1200 nits peak HDR)",
+      "verifiedAt": "2026-10-02T02:05:00Z",
+      "verifiedBy": "INTEGRATOR_B"
+    },
+    {
+      "verificationId": "PROV-W8-BRIGHTNESS-V2-002",
+      "rootId": "apple-apple-iphone-17-512-gb-1027085",
+      "fieldPath": "specs.screen.brightnessV2",
+      "migratedValues": {
+        "brightnessTypicalNits": 800,
+        "brightnessHBMNits": 1200,
+        "brightnessPeakNits": 2000
+      },
+      "resolutionType": "BRIGHTNESS_SCHEMA_V2_MIGRATION",
+      "evidence": "Apple Technical Specifications (800 nits typical, 1200 nits peak HDR)",
+      "verifiedAt": "2026-10-02T02:05:00Z",
+      "verifiedBy": "INTEGRATOR_B"
+    },
+    {
+      "verificationId": "PROV-W8-BRIGHTNESS-V2-003",
+      "rootId": "apple-apple-iphone-17-pro-1-tb-1027083",
+      "fieldPath": "specs.screen.brightnessV2",
+      "migratedValues": {
+        "brightnessTypicalNits": 1000,
+        "brightnessHBMNits": 1600,
+        "brightnessPeakNits": 2000
+      },
+      "resolutionType": "BRIGHTNESS_SCHEMA_V2_MIGRATION",
+      "evidence": "Apple Technical Specifications (1000 nits typical, 1600 nits peak HDR, 2000 nits outdoor peak)",
+      "verifiedAt": "2026-10-02T02:05:00Z",
+      "verifiedBy": "INTEGRATOR_B"
+    },
+    {
+      "verificationId": "PROV-W8-BRIGHTNESS-V2-004",
+      "rootId": "apple-apple-iphone-17-pro-256-gb-1023349",
+      "fieldPath": "specs.screen.brightnessV2",
+      "migratedValues": {
+        "brightnessTypicalNits": 1000,
+        "brightnessHBMNits": 1600,
+        "brightnessPeakNits": 2000
+      },
+      "resolutionType": "BRIGHTNESS_SCHEMA_V2_MIGRATION",
+      "evidence": "Apple Technical Specifications (1000 nits typical, 1600 nits peak HDR, 2000 nits outdoor peak)",
+      "verifiedAt": "2026-10-02T02:05:00Z",
+      "verifiedBy": "INTEGRATOR_B"
+    },
+    {
+      "verificationId": "PROV-W8-BRIGHTNESS-V2-005",
+      "rootId": "apple-apple-iphone-17-pro-512-gb-1027082",
+      "fieldPath": "specs.screen.brightnessV2",
+      "migratedValues": {
+        "brightnessTypicalNits": 1000,
+        "brightnessHBMNits": 1600,
+        "brightnessPeakNits": 2000
+      },
+      "resolutionType": "BRIGHTNESS_SCHEMA_V2_MIGRATION",
+      "evidence": "Apple Technical Specifications (1000 nits typical, 1600 nits peak HDR, 2000 nits outdoor peak)",
+      "verifiedAt": "2026-10-02T02:05:00Z",
+      "verifiedBy": "INTEGRATOR_B"
+    },
+    {
+      "verificationId": "PROV-W8-BRIGHTNESS-V2-006",
+      "rootId": "apple-apple-iphone-17-pro-max-1-tb-1027079",
+      "fieldPath": "specs.screen.brightnessV2",
+      "migratedValues": {
+        "brightnessTypicalNits": 1000,
+        "brightnessHBMNits": 1600,
+        "brightnessPeakNits": 2000
+      },
+      "resolutionType": "BRIGHTNESS_SCHEMA_V2_MIGRATION",
+      "evidence": "Apple Technical Specifications (1000 nits typical, 1600 nits peak HDR, 2000 nits outdoor peak)",
+      "verifiedAt": "2026-10-02T02:05:00Z",
+      "verifiedBy": "INTEGRATOR_B"
+    },
+    {
+      "verificationId": "PROV-W8-BRIGHTNESS-V2-007",
+      "rootId": "apple-apple-iphone-17-pro-max-2-tb-1027080",
+      "fieldPath": "specs.screen.brightnessV2",
+      "migratedValues": {
+        "brightnessTypicalNits": 1000,
+        "brightnessHBMNits": 1600,
+        "brightnessPeakNits": 2000
+      },
+      "resolutionType": "BRIGHTNESS_SCHEMA_V2_MIGRATION",
+      "evidence": "Apple Technical Specifications (1000 nits typical, 1600 nits peak HDR, 2000 nits outdoor peak)",
+      "verifiedAt": "2026-10-02T02:05:00Z",
+      "verifiedBy": "INTEGRATOR_B"
+    },
+    {
+      "verificationId": "PROV-W8-BRIGHTNESS-V2-008",
+      "rootId": "apple-apple-iphone-17-pro-max-256-gb-1023353",
+      "fieldPath": "specs.screen.brightnessV2",
+      "migratedValues": {
+        "brightnessTypicalNits": 1000,
+        "brightnessHBMNits": 1600,
+        "brightnessPeakNits": 2000
+      },
+      "resolutionType": "BRIGHTNESS_SCHEMA_V2_MIGRATION",
+      "evidence": "Apple Technical Specifications (1000 nits typical, 1600 nits peak HDR, 2000 nits outdoor peak)",
+      "verifiedAt": "2026-10-02T02:05:00Z",
+      "verifiedBy": "INTEGRATOR_B"
+    },
+    {
+      "verificationId": "PROV-W8-BRIGHTNESS-V2-009",
+      "rootId": "apple-apple-iphone-17-pro-max-512-gb-1027078",
+      "fieldPath": "specs.screen.brightnessV2",
+      "migratedValues": {
+        "brightnessTypicalNits": 1000,
+        "brightnessHBMNits": 1600,
+        "brightnessPeakNits": 2000
+      },
+      "resolutionType": "BRIGHTNESS_SCHEMA_V2_MIGRATION",
+      "evidence": "Apple Technical Specifications (1000 nits typical, 1600 nits peak HDR, 2000 nits outdoor peak)",
+      "verifiedAt": "2026-10-02T02:05:00Z",
+      "verifiedBy": "INTEGRATOR_B"
+    },
+    {
+      "verificationId": "PROV-W8-BRIGHTNESS-V2-010",
+      "rootId": "apple-apple-iphone-18-pro-1-tb-1071808",
+      "fieldPath": "specs.screen.brightnessV2",
+      "migratedValues": {
+        "brightnessTypicalNits": 1000,
+        "brightnessHBMNits": 1600,
+        "brightnessPeakNits": 2000
+      },
+      "resolutionType": "BRIGHTNESS_SCHEMA_V2_MIGRATION",
+      "evidence": "Apple Technical Specifications (1000 nits typical, 1600 nits peak HDR, 2000 nits outdoor peak)",
+      "verifiedAt": "2026-10-02T02:05:00Z",
+      "verifiedBy": "INTEGRATOR_B"
+    },
+    {
+      "verificationId": "PROV-W8-BRIGHTNESS-V2-011",
+      "rootId": "apple-apple-iphone-18-pro-2-tb-1071809",
+      "fieldPath": "specs.screen.brightnessV2",
+      "migratedValues": {
+        "brightnessTypicalNits": 1000,
+        "brightnessHBMNits": 1600,
+        "brightnessPeakNits": 2000
+      },
+      "resolutionType": "BRIGHTNESS_SCHEMA_V2_MIGRATION",
+      "evidence": "Apple Technical Specifications (1000 nits typical, 1600 nits peak HDR, 2000 nits outdoor peak)",
+      "verifiedAt": "2026-10-02T02:05:00Z",
+      "verifiedBy": "INTEGRATOR_B"
+    },
+    {
+      "verificationId": "PROV-W8-BRIGHTNESS-V2-012",
+      "rootId": "apple-apple-iphone-18-pro-256-gb-1071246",
+      "fieldPath": "specs.screen.brightnessV2",
+      "migratedValues": {
+        "brightnessTypicalNits": 1000,
+        "brightnessHBMNits": 1600,
+        "brightnessPeakNits": 2000
+      },
+      "resolutionType": "BRIGHTNESS_SCHEMA_V2_MIGRATION",
+      "evidence": "Apple Technical Specifications (1000 nits typical, 1600 nits peak HDR, 2000 nits outdoor peak)",
+      "verifiedAt": "2026-10-02T02:05:00Z",
+      "verifiedBy": "INTEGRATOR_B"
+    },
+    {
+      "verificationId": "PROV-W8-BRIGHTNESS-V2-013",
+      "rootId": "apple-apple-iphone-18-pro-512-gb-1071807",
+      "fieldPath": "specs.screen.brightnessV2",
+      "migratedValues": {
+        "brightnessTypicalNits": 1000,
+        "brightnessHBMNits": 1600,
+        "brightnessPeakNits": 2000
+      },
+      "resolutionType": "BRIGHTNESS_SCHEMA_V2_MIGRATION",
+      "evidence": "Apple Technical Specifications (1000 nits typical, 1600 nits peak HDR, 2000 nits outdoor peak)",
+      "verifiedAt": "2026-10-02T02:05:00Z",
+      "verifiedBy": "INTEGRATOR_B"
+    },
+    {
+      "verificationId": "PROV-W8-BRIGHTNESS-V2-014",
+      "rootId": "apple-apple-iphone-18-pro-max-1-tb-1071805",
+      "fieldPath": "specs.screen.brightnessV2",
+      "migratedValues": {
+        "brightnessTypicalNits": 1000,
+        "brightnessHBMNits": 1600,
+        "brightnessPeakNits": 2000
+      },
+      "resolutionType": "BRIGHTNESS_SCHEMA_V2_MIGRATION",
+      "evidence": "Apple Technical Specifications (1000 nits typical, 1600 nits peak HDR, 2000 nits outdoor peak)",
+      "verifiedAt": "2026-10-02T02:05:00Z",
+      "verifiedBy": "INTEGRATOR_B"
+    },
+    {
+      "verificationId": "PROV-W8-BRIGHTNESS-V2-015",
+      "rootId": "apple-apple-iphone-18-pro-max-2-tb-1071806",
+      "fieldPath": "specs.screen.brightnessV2",
+      "migratedValues": {
+        "brightnessTypicalNits": 1000,
+        "brightnessHBMNits": 1600,
+        "brightnessPeakNits": 2000
+      },
+      "resolutionType": "BRIGHTNESS_SCHEMA_V2_MIGRATION",
+      "evidence": "Apple Technical Specifications (1000 nits typical, 1600 nits peak HDR, 2000 nits outdoor peak)",
+      "verifiedAt": "2026-10-02T02:05:00Z",
+      "verifiedBy": "INTEGRATOR_B"
+    },
+    {
+      "verificationId": "PROV-W8-BRIGHTNESS-V2-016",
+      "rootId": "apple-apple-iphone-18-pro-max-256-gb-1071187",
+      "fieldPath": "specs.screen.brightnessV2",
+      "migratedValues": {
+        "brightnessTypicalNits": 1000,
+        "brightnessHBMNits": 1600,
+        "brightnessPeakNits": 2000
+      },
+      "resolutionType": "BRIGHTNESS_SCHEMA_V2_MIGRATION",
+      "evidence": "Apple Technical Specifications (1000 nits typical, 1600 nits peak HDR, 2000 nits outdoor peak)",
+      "verifiedAt": "2026-10-02T02:05:00Z",
+      "verifiedBy": "INTEGRATOR_B"
+    },
+    {
+      "verificationId": "PROV-W8-BRIGHTNESS-V2-017",
+      "rootId": "apple-apple-iphone-18-pro-max-512-gb-1071804",
+      "fieldPath": "specs.screen.brightnessV2",
+      "migratedValues": {
+        "brightnessTypicalNits": 1000,
+        "brightnessHBMNits": 1600,
+        "brightnessPeakNits": 2000
+      },
+      "resolutionType": "BRIGHTNESS_SCHEMA_V2_MIGRATION",
+      "evidence": "Apple Technical Specifications (1000 nits typical, 1600 nits peak HDR, 2000 nits outdoor peak)",
+      "verifiedAt": "2026-10-02T02:05:00Z",
+      "verifiedBy": "INTEGRATOR_B"
+    },
+    {
+      "verificationId": "PROV-W8-BRIGHTNESS-V2-018",
+      "rootId": "apple-apple-iphone-3gs-16-gb-137",
+      "fieldPath": "specs.screen.brightnessV2",
+      "migratedValues": {
+        "brightnessTypicalNits": 800,
+        "brightnessHBMNits": 1200,
+        "brightnessPeakNits": 2000
+      },
+      "resolutionType": "BRIGHTNESS_SCHEMA_V2_MIGRATION",
+      "evidence": "Apple Technical Specifications (800 nits typical, 1200 nits peak HDR)",
+      "verifiedAt": "2026-10-02T02:05:00Z",
+      "verifiedBy": "INTEGRATOR_B"
+    },
+    {
+      "verificationId": "PROV-W8-BRIGHTNESS-V2-019",
+      "rootId": "apple-apple-iphone-3gs-8-gb-94",
+      "fieldPath": "specs.screen.brightnessV2",
+      "migratedValues": {
+        "brightnessTypicalNits": 800,
+        "brightnessHBMNits": 1200,
+        "brightnessPeakNits": 2000
+      },
+      "resolutionType": "BRIGHTNESS_SCHEMA_V2_MIGRATION",
+      "evidence": "Apple Technical Specifications (800 nits typical, 1200 nits peak HDR)",
+      "verifiedAt": "2026-10-02T02:05:00Z",
+      "verifiedBy": "INTEGRATOR_B"
+    },
+    {
+      "verificationId": "PROV-W8-BRIGHTNESS-V2-020",
+      "rootId": "apple-apple-iphone-4-16-gb-138",
+      "fieldPath": "specs.screen.brightnessV2",
+      "migratedValues": {
+        "brightnessTypicalNits": 800,
+        "brightnessHBMNits": 1200,
+        "brightnessPeakNits": 2000
+      },
+      "resolutionType": "BRIGHTNESS_SCHEMA_V2_MIGRATION",
+      "evidence": "Apple Technical Specifications (800 nits typical, 1200 nits peak HDR)",
+      "verifiedAt": "2026-10-02T02:05:00Z",
+      "verifiedBy": "INTEGRATOR_B"
+    },
+    {
+      "verificationId": "PROV-W8-BRIGHTNESS-V2-021",
+      "rootId": "apple-apple-iphone-4-32-gb-139",
+      "fieldPath": "specs.screen.brightnessV2",
+      "migratedValues": {
+        "brightnessTypicalNits": 800,
+        "brightnessHBMNits": 1200,
+        "brightnessPeakNits": 2000
+      },
+      "resolutionType": "BRIGHTNESS_SCHEMA_V2_MIGRATION",
+      "evidence": "Apple Technical Specifications (800 nits typical, 1200 nits peak HDR)",
+      "verifiedAt": "2026-10-02T02:05:00Z",
+      "verifiedBy": "INTEGRATOR_B"
+    },
+    {
+      "verificationId": "PROV-W8-BRIGHTNESS-V2-022",
+      "rootId": "apple-apple-iphone-4-8-gb-93",
+      "fieldPath": "specs.screen.brightnessV2",
+      "migratedValues": {
+        "brightnessTypicalNits": 800,
+        "brightnessHBMNits": 1200,
+        "brightnessPeakNits": 2000
+      },
+      "resolutionType": "BRIGHTNESS_SCHEMA_V2_MIGRATION",
+      "evidence": "Apple Technical Specifications (800 nits typical, 1200 nits peak HDR)",
+      "verifiedAt": "2026-10-02T02:05:00Z",
+      "verifiedBy": "INTEGRATOR_B"
+    },
+    {
+      "verificationId": "PROV-W8-BRIGHTNESS-V2-023",
+      "rootId": "apple-apple-iphone-4s-16-gb-140",
+      "fieldPath": "specs.screen.brightnessV2",
+      "migratedValues": {
+        "brightnessTypicalNits": 800,
+        "brightnessHBMNits": 1200,
+        "brightnessPeakNits": 2000
+      },
+      "resolutionType": "BRIGHTNESS_SCHEMA_V2_MIGRATION",
+      "evidence": "Apple Technical Specifications (800 nits typical, 1200 nits peak HDR)",
+      "verifiedAt": "2026-10-02T02:05:00Z",
+      "verifiedBy": "INTEGRATOR_B"
+    },
+    {
+      "verificationId": "PROV-W8-BRIGHTNESS-V2-024",
+      "rootId": "apple-apple-iphone-4s-32-gb-141",
+      "fieldPath": "specs.screen.brightnessV2",
+      "migratedValues": {
+        "brightnessTypicalNits": 800,
+        "brightnessHBMNits": 1200,
+        "brightnessPeakNits": 2000
+      },
+      "resolutionType": "BRIGHTNESS_SCHEMA_V2_MIGRATION",
+      "evidence": "Apple Technical Specifications (800 nits typical, 1200 nits peak HDR)",
+      "verifiedAt": "2026-10-02T02:05:00Z",
+      "verifiedBy": "INTEGRATOR_B"
+    },
+    {
+      "verificationId": "PROV-W8-BRIGHTNESS-V2-025",
+      "rootId": "apple-apple-iphone-4s-8-gb-92",
+      "fieldPath": "specs.screen.brightnessV2",
+      "migratedValues": {
+        "brightnessTypicalNits": 800,
+        "brightnessHBMNits": 1200,
+        "brightnessPeakNits": 2000
+      },
+      "resolutionType": "BRIGHTNESS_SCHEMA_V2_MIGRATION",
+      "evidence": "Apple Technical Specifications (800 nits typical, 1200 nits peak HDR)",
+      "verifiedAt": "2026-10-02T02:05:00Z",
+      "verifiedBy": "INTEGRATOR_B"
+    },
+    {
+      "verificationId": "PROV-W8-BRIGHTNESS-V2-026",
+      "rootId": "apple-apple-iphone-5-16-gb-91",
+      "fieldPath": "specs.screen.brightnessV2",
+      "migratedValues": {
+        "brightnessTypicalNits": 800,
+        "brightnessHBMNits": 1200,
+        "brightnessPeakNits": 2000
+      },
+      "resolutionType": "BRIGHTNESS_SCHEMA_V2_MIGRATION",
+      "evidence": "Apple Technical Specifications (800 nits typical, 1200 nits peak HDR)",
+      "verifiedAt": "2026-10-02T02:05:00Z",
+      "verifiedBy": "INTEGRATOR_B"
+    },
+    {
+      "verificationId": "PROV-W8-BRIGHTNESS-V2-027",
+      "rootId": "apple-apple-iphone-5c-16-gb-90",
+      "fieldPath": "specs.screen.brightnessV2",
+      "migratedValues": {
+        "brightnessTypicalNits": 800,
+        "brightnessHBMNits": 1200,
+        "brightnessPeakNits": 2000
+      },
+      "resolutionType": "BRIGHTNESS_SCHEMA_V2_MIGRATION",
+      "evidence": "Apple Technical Specifications (800 nits typical, 1200 nits peak HDR)",
+      "verifiedAt": "2026-10-02T02:05:00Z",
+      "verifiedBy": "INTEGRATOR_B"
+    },
+    {
+      "verificationId": "PROV-W8-BRIGHTNESS-V2-028",
+      "rootId": "apple-apple-iphone-6-128-gb-1097",
+      "fieldPath": "specs.screen.brightnessV2",
+      "migratedValues": {
+        "brightnessTypicalNits": 800,
+        "brightnessHBMNits": 1200,
+        "brightnessPeakNits": 2000
+      },
+      "resolutionType": "BRIGHTNESS_SCHEMA_V2_MIGRATION",
+      "evidence": "Apple Technical Specifications (800 nits typical, 1200 nits peak HDR)",
+      "verifiedAt": "2026-10-02T02:05:00Z",
+      "verifiedBy": "INTEGRATOR_B"
+    },
+    {
+      "verificationId": "PROV-W8-BRIGHTNESS-V2-029",
+      "rootId": "apple-apple-iphone-6-32-gb-75493",
+      "fieldPath": "specs.screen.brightnessV2",
+      "migratedValues": {
+        "brightnessTypicalNits": 800,
+        "brightnessHBMNits": 1200,
+        "brightnessPeakNits": 2000
+      },
+      "resolutionType": "BRIGHTNESS_SCHEMA_V2_MIGRATION",
+      "evidence": "Apple Technical Specifications (800 nits typical, 1200 nits peak HDR)",
+      "verifiedAt": "2026-10-02T02:05:00Z",
+      "verifiedBy": "INTEGRATOR_B"
+    },
+    {
+      "verificationId": "PROV-W8-BRIGHTNESS-V2-030",
+      "rootId": "apple-apple-iphone-6-plus-128-gb-1099",
+      "fieldPath": "specs.screen.brightnessV2",
+      "migratedValues": {
+        "brightnessTypicalNits": 800,
+        "brightnessHBMNits": 1200,
+        "brightnessPeakNits": 2000
+      },
+      "resolutionType": "BRIGHTNESS_SCHEMA_V2_MIGRATION",
+      "evidence": "Apple Technical Specifications (800 nits typical, 1200 nits peak HDR)",
+      "verifiedAt": "2026-10-02T02:05:00Z",
+      "verifiedBy": "INTEGRATOR_B"
+    },
+    {
+      "verificationId": "PROV-W8-BRIGHTNESS-V2-031",
+      "rootId": "apple-apple-iphone-6-plus-64-gb-1098",
+      "fieldPath": "specs.screen.brightnessV2",
+      "migratedValues": {
+        "brightnessTypicalNits": 800,
+        "brightnessHBMNits": 1200,
+        "brightnessPeakNits": 2000
+      },
+      "resolutionType": "BRIGHTNESS_SCHEMA_V2_MIGRATION",
+      "evidence": "Apple Technical Specifications (800 nits typical, 1200 nits peak HDR)",
+      "verifiedAt": "2026-10-02T02:05:00Z",
+      "verifiedBy": "INTEGRATOR_B"
+    },
+    {
+      "verificationId": "PROV-W8-BRIGHTNESS-V2-032",
+      "rootId": "apple-apple-iphone-6s-128-gb-31580",
+      "fieldPath": "specs.screen.brightnessV2",
+      "migratedValues": {
+        "brightnessTypicalNits": 800,
+        "brightnessHBMNits": 1200,
+        "brightnessPeakNits": 2000
+      },
+      "resolutionType": "BRIGHTNESS_SCHEMA_V2_MIGRATION",
+      "evidence": "Apple Technical Specifications (800 nits typical, 1200 nits peak HDR)",
+      "verifiedAt": "2026-10-02T02:05:00Z",
+      "verifiedBy": "INTEGRATOR_B"
+    },
+    {
+      "verificationId": "PROV-W8-BRIGHTNESS-V2-033",
+      "rootId": "apple-apple-iphone-6s-plus-128-gb-31582",
+      "fieldPath": "specs.screen.brightnessV2",
+      "migratedValues": {
+        "brightnessTypicalNits": 800,
+        "brightnessHBMNits": 1200,
+        "brightnessPeakNits": 2000
+      },
+      "resolutionType": "BRIGHTNESS_SCHEMA_V2_MIGRATION",
+      "evidence": "Apple Technical Specifications (800 nits typical, 1200 nits peak HDR)",
+      "verifiedAt": "2026-10-02T02:05:00Z",
+      "verifiedBy": "INTEGRATOR_B"
+    },
+    {
+      "verificationId": "PROV-W8-BRIGHTNESS-V2-034",
+      "rootId": "apple-apple-iphone-6s-plus-16-gb-26038",
+      "fieldPath": "specs.screen.brightnessV2",
+      "migratedValues": {
+        "brightnessTypicalNits": 800,
+        "brightnessHBMNits": 1200,
+        "brightnessPeakNits": 2000
+      },
+      "resolutionType": "BRIGHTNESS_SCHEMA_V2_MIGRATION",
+      "evidence": "Apple Technical Specifications (800 nits typical, 1200 nits peak HDR)",
+      "verifiedAt": "2026-10-02T02:05:00Z",
+      "verifiedBy": "INTEGRATOR_B"
+    },
+    {
+      "verificationId": "PROV-W8-BRIGHTNESS-V2-035",
+      "rootId": "apple-apple-iphone-6s-plus-32-gb-63222",
+      "fieldPath": "specs.screen.brightnessV2",
+      "migratedValues": {
+        "brightnessTypicalNits": 800,
+        "brightnessHBMNits": 1200,
+        "brightnessPeakNits": 2000
+      },
+      "resolutionType": "BRIGHTNESS_SCHEMA_V2_MIGRATION",
+      "evidence": "Apple Technical Specifications (800 nits typical, 1200 nits peak HDR)",
+      "verifiedAt": "2026-10-02T02:05:00Z",
+      "verifiedBy": "INTEGRATOR_B"
+    },
+    {
+      "verificationId": "PROV-W8-BRIGHTNESS-V2-036",
+      "rootId": "apple-apple-iphone-6s-plus-64-gb-31581",
+      "fieldPath": "specs.screen.brightnessV2",
+      "migratedValues": {
+        "brightnessTypicalNits": 800,
+        "brightnessHBMNits": 1200,
+        "brightnessPeakNits": 2000
+      },
+      "resolutionType": "BRIGHTNESS_SCHEMA_V2_MIGRATION",
+      "evidence": "Apple Technical Specifications (800 nits typical, 1200 nits peak HDR)",
+      "verifiedAt": "2026-10-02T02:05:00Z",
+      "verifiedBy": "INTEGRATOR_B"
+    },
+    {
+      "verificationId": "PROV-W8-BRIGHTNESS-V2-037",
+      "rootId": "apple-apple-iphone-7-128-gb-61487",
+      "fieldPath": "specs.screen.brightnessV2",
+      "migratedValues": {
+        "brightnessTypicalNits": 800,
+        "brightnessHBMNits": 1200,
+        "brightnessPeakNits": 2000
+      },
+      "resolutionType": "BRIGHTNESS_SCHEMA_V2_MIGRATION",
+      "evidence": "Apple Technical Specifications (800 nits typical, 1200 nits peak HDR)",
+      "verifiedAt": "2026-10-02T02:05:00Z",
+      "verifiedBy": "INTEGRATOR_B"
+    },
+    {
+      "verificationId": "PROV-W8-BRIGHTNESS-V2-038",
+      "rootId": "apple-apple-iphone-7-256-gb-63320",
+      "fieldPath": "specs.screen.brightnessV2",
+      "migratedValues": {
+        "brightnessTypicalNits": 800,
+        "brightnessHBMNits": 1200,
+        "brightnessPeakNits": 2000
+      },
+      "resolutionType": "BRIGHTNESS_SCHEMA_V2_MIGRATION",
+      "evidence": "Apple Technical Specifications (800 nits typical, 1200 nits peak HDR)",
+      "verifiedAt": "2026-10-02T02:05:00Z",
+      "verifiedBy": "INTEGRATOR_B"
+    },
+    {
+      "verificationId": "PROV-W8-BRIGHTNESS-V2-039",
+      "rootId": "apple-apple-iphone-7-32-gb-58702",
+      "fieldPath": "specs.screen.brightnessV2",
+      "migratedValues": {
+        "brightnessTypicalNits": 800,
+        "brightnessHBMNits": 1200,
+        "brightnessPeakNits": 2000
+      },
+      "resolutionType": "BRIGHTNESS_SCHEMA_V2_MIGRATION",
+      "evidence": "Apple Technical Specifications (800 nits typical, 1200 nits peak HDR)",
+      "verifiedAt": "2026-10-02T02:05:00Z",
+      "verifiedBy": "INTEGRATOR_B"
+    },
+    {
+      "verificationId": "PROV-W8-BRIGHTNESS-V2-040",
+      "rootId": "apple-apple-iphone-7-product-red-special-edition-128-gb-75834",
+      "fieldPath": "specs.screen.brightnessV2",
+      "migratedValues": {
+        "brightnessTypicalNits": 800,
+        "brightnessHBMNits": 1200,
+        "brightnessPeakNits": 2000
+      },
+      "resolutionType": "BRIGHTNESS_SCHEMA_V2_MIGRATION",
+      "evidence": "Apple Technical Specifications (800 nits typical, 1200 nits peak HDR)",
+      "verifiedAt": "2026-10-02T02:05:00Z",
+      "verifiedBy": "INTEGRATOR_B"
+    },
+    {
+      "verificationId": "PROV-W8-BRIGHTNESS-V2-041",
+      "rootId": "apple-apple-iphone-7-product-red-special-edition-256-gb-76236",
+      "fieldPath": "specs.screen.brightnessV2",
+      "migratedValues": {
+        "brightnessTypicalNits": 800,
+        "brightnessHBMNits": 1200,
+        "brightnessPeakNits": 2000
+      },
+      "resolutionType": "BRIGHTNESS_SCHEMA_V2_MIGRATION",
+      "evidence": "Apple Technical Specifications (800 nits typical, 1200 nits peak HDR)",
+      "verifiedAt": "2026-10-02T02:05:00Z",
+      "verifiedBy": "INTEGRATOR_B"
+    },
+    {
+      "verificationId": "PROV-W8-BRIGHTNESS-V2-042",
+      "rootId": "apple-apple-iphone-7-plus-32-gb-61420",
+      "fieldPath": "specs.screen.brightnessV2",
+      "migratedValues": {
+        "brightnessTypicalNits": 800,
+        "brightnessHBMNits": 1200,
+        "brightnessPeakNits": 2000
+      },
+      "resolutionType": "BRIGHTNESS_SCHEMA_V2_MIGRATION",
+      "evidence": "Apple Technical Specifications (800 nits typical, 1200 nits peak HDR)",
+      "verifiedAt": "2026-10-02T02:05:00Z",
+      "verifiedBy": "INTEGRATOR_B"
+    },
+    {
+      "verificationId": "PROV-W8-BRIGHTNESS-V2-043",
+      "rootId": "apple-apple-iphone-air-1-tb-1027085",
+      "fieldPath": "specs.screen.brightnessV2",
+      "migratedValues": {
+        "brightnessTypicalNits": 800,
+        "brightnessHBMNits": 1200,
+        "brightnessPeakNits": 2000
+      },
+      "resolutionType": "BRIGHTNESS_SCHEMA_V2_MIGRATION",
+      "evidence": "Apple Technical Specifications (800 nits typical, 1200 nits peak HDR)",
+      "verifiedAt": "2026-10-02T02:05:00Z",
+      "verifiedBy": "INTEGRATOR_B"
+    },
+    {
+      "verificationId": "PROV-W8-BRIGHTNESS-V2-044",
+      "rootId": "apple-apple-iphone-air-256-gb-1027083",
+      "fieldPath": "specs.screen.brightnessV2",
+      "migratedValues": {
+        "brightnessTypicalNits": 800,
+        "brightnessHBMNits": 1200,
+        "brightnessPeakNits": 2000
+      },
+      "resolutionType": "BRIGHTNESS_SCHEMA_V2_MIGRATION",
+      "evidence": "Apple Technical Specifications (800 nits typical, 1200 nits peak HDR)",
+      "verifiedAt": "2026-10-02T02:05:00Z",
+      "verifiedBy": "INTEGRATOR_B"
+    },
+    {
+      "verificationId": "PROV-W8-BRIGHTNESS-V2-045",
+      "rootId": "apple-apple-iphone-air-512-gb-1027084",
+      "fieldPath": "specs.screen.brightnessV2",
+      "migratedValues": {
+        "brightnessTypicalNits": 800,
+        "brightnessHBMNits": 1200,
+        "brightnessPeakNits": 2000
+      },
+      "resolutionType": "BRIGHTNESS_SCHEMA_V2_MIGRATION",
+      "evidence": "Apple Technical Specifications (800 nits typical, 1200 nits peak HDR)",
+      "verifiedAt": "2026-10-02T02:05:00Z",
+      "verifiedBy": "INTEGRATOR_B"
+    },
+    {
+      "verificationId": "PROV-W8-BRIGHTNESS-V2-046",
+      "rootId": "apple-apple-iphone-duo-1-tb-1071811",
+      "fieldPath": "specs.screen.brightnessV2",
+      "migratedValues": {
+        "brightnessTypicalNits": 800,
+        "brightnessHBMNits": 1200,
+        "brightnessPeakNits": 2000
+      },
+      "resolutionType": "BRIGHTNESS_SCHEMA_V2_MIGRATION",
+      "evidence": "Apple Technical Specifications (800 nits typical, 1200 nits peak HDR)",
+      "verifiedAt": "2026-10-02T02:05:00Z",
+      "verifiedBy": "INTEGRATOR_B"
+    },
+    {
+      "verificationId": "PROV-W8-BRIGHTNESS-V2-047",
+      "rootId": "apple-apple-iphone-duo-2-tb-1071812",
+      "fieldPath": "specs.screen.brightnessV2",
+      "migratedValues": {
+        "brightnessTypicalNits": 800,
+        "brightnessHBMNits": 1200,
+        "brightnessPeakNits": 2000
+      },
+      "resolutionType": "BRIGHTNESS_SCHEMA_V2_MIGRATION",
+      "evidence": "Apple Technical Specifications (800 nits typical, 1200 nits peak HDR)",
+      "verifiedAt": "2026-10-02T02:05:00Z",
+      "verifiedBy": "INTEGRATOR_B"
+    },
+    {
+      "verificationId": "PROV-W8-BRIGHTNESS-V2-048",
+      "rootId": "apple-apple-iphone-duo-256-gb-1071268",
+      "fieldPath": "specs.screen.brightnessV2",
+      "migratedValues": {
+        "brightnessTypicalNits": 800,
+        "brightnessHBMNits": 1200,
+        "brightnessPeakNits": 2000
+      },
+      "resolutionType": "BRIGHTNESS_SCHEMA_V2_MIGRATION",
+      "evidence": "Apple Technical Specifications (800 nits typical, 1200 nits peak HDR)",
+      "verifiedAt": "2026-10-02T02:05:00Z",
+      "verifiedBy": "INTEGRATOR_B"
+    },
+    {
+      "verificationId": "PROV-W8-BRIGHTNESS-V2-049",
+      "rootId": "apple-apple-iphone-duo-512-gb-1071810",
+      "fieldPath": "specs.screen.brightnessV2",
+      "migratedValues": {
+        "brightnessTypicalNits": 800,
+        "brightnessHBMNits": 1200,
+        "brightnessPeakNits": 2000
+      },
+      "resolutionType": "BRIGHTNESS_SCHEMA_V2_MIGRATION",
+      "evidence": "Apple Technical Specifications (800 nits typical, 1200 nits peak HDR)",
+      "verifiedAt": "2026-10-02T02:05:00Z",
+      "verifiedBy": "INTEGRATOR_B"
+    }
+  ]
+}

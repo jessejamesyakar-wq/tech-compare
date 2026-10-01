@@ -261,7 +261,10 @@
         "resolution": "1398 x 2034 (Kapak FHD+) / 1878 x 2670 (İç Ekran)",
         "refreshRate": 120,
         "brightnessNits": 3000,
-        "ppi": 460
+        "ppi": 460,
+        "brightnessTypicalNits": 800,
+        "brightnessHBMNits": 1200,
+        "brightnessPeakNits": 2000
       },
       "processor": {
         "chip": "Apple A20 Pro (2nm TSMC N2)",
@@ -593,7 +596,10 @@
         "resolution": "1398 x 2034 (Kapak FHD+) / 1878 x 2670 (İç Ekran)",
         "refreshRate": 120,
         "brightnessNits": 3000,
-        "ppi": 460
+        "ppi": 460,
+        "brightnessTypicalNits": 800,
+        "brightnessHBMNits": 1200,
+        "brightnessPeakNits": 2000
       },
       "processor": {
         "chip": "Apple A20 Pro (2nm TSMC N2)",
@@ -925,7 +931,10 @@
         "resolution": "1398 x 2034 (Kapak FHD+) / 1878 x 2670 (İç Ekran)",
         "refreshRate": 120,
         "brightnessNits": 3000,
-        "ppi": 460
+        "ppi": 460,
+        "brightnessTypicalNits": 800,
+        "brightnessHBMNits": 1200,
+        "brightnessPeakNits": 2000
       },
       "processor": {
         "chip": "Apple A20 Pro (2nm TSMC N2)",
@@ -1257,7 +1266,10 @@
         "resolution": "1398 x 2034 (Kapak FHD+) / 1878 x 2670 (İç Ekran)",
         "refreshRate": 120,
         "brightnessNits": 3000,
-        "ppi": 460
+        "ppi": 460,
+        "brightnessTypicalNits": 800,
+        "brightnessHBMNits": 1200,
+        "brightnessPeakNits": 2000
       },
       "processor": {
         "chip": "Apple A20 Pro (2nm TSMC N2)",
@@ -1607,7 +1619,10 @@
         "resolution": "2868 x 1320 piksel (460 ppi)",
         "refreshRate": 120,
         "brightnessNits": 3200,
-        "ppi": 460
+        "ppi": 460,
+        "brightnessTypicalNits": 1000,
+        "brightnessHBMNits": 1600,
+        "brightnessPeakNits": 2000
       },
       "processor": {
         "chip": "Apple A20 Pro (2nm TSMC N2)",
@@ -1975,7 +1990,10 @@
         "resolution": "2868 x 1320 piksel (460 ppi)",
         "refreshRate": 120,
         "brightnessNits": 3200,
-        "ppi": 460
+        "ppi": 460,
+        "brightnessTypicalNits": 1000,
+        "brightnessHBMNits": 1600,
+        "brightnessPeakNits": 2000
       },
       "processor": {
         "chip": "Apple A20 Pro (2nm TSMC N2)",
@@ -2343,7 +2361,10 @@
         "resolution": "2868 x 1320 piksel (460 ppi)",
         "refreshRate": 120,
         "brightnessNits": 3200,
-        "ppi": 460
+        "ppi": 460,
+        "brightnessTypicalNits": 1000,
+        "brightnessHBMNits": 1600,
+        "brightnessPeakNits": 2000
       },
       "processor": {
         "chip": "Apple A20 Pro (2nm TSMC N2)",
@@ -2711,7 +2732,10 @@
         "resolution": "2868 x 1320 piksel (460 ppi)",
         "refreshRate": 120,
         "brightnessNits": 3200,
-        "ppi": 460
+        "ppi": 460,
+        "brightnessTypicalNits": 1000,
+        "brightnessHBMNits": 1600,
+        "brightnessPeakNits": 2000
       },
       "processor": {
         "chip": "Apple A20 Pro (2nm TSMC N2)",
@@ -3073,7 +3097,10 @@
         "resolution": "2622 x 1206 piksel (460 ppi)",
         "refreshRate": 120,
         "brightnessNits": 3000,
-        "ppi": 460
+        "ppi": 460,
+        "brightnessTypicalNits": 1000,
+        "brightnessHBMNits": 1600,
+        "brightnessPeakNits": 2000
       },
       "processor": {
         "chip": "Apple A20 Pro (2nm TSMC N2)",
@@ -3434,7 +3461,10 @@
         "resolution": "2622 x 1206 piksel (460 ppi)",
         "refreshRate": 120,
         "brightnessNits": 3000,
-        "ppi": 460
+        "ppi": 460,
+        "brightnessTypicalNits": 1000,
+        "brightnessHBMNits": 1600,
+        "brightnessPeakNits": 2000
       },
       "processor": {
         "chip": "Apple A20 Pro (2nm TSMC N2)",
@@ -3795,7 +3825,10 @@
         "resolution": "2622 x 1206 piksel (460 ppi)",
         "refreshRate": 120,
         "brightnessNits": 3000,
-        "ppi": 460
+        "ppi": 460,
+        "brightnessTypicalNits": 1000,
+        "brightnessHBMNits": 1600,
+        "brightnessPeakNits": 2000
       },
       "processor": {
         "chip": "Apple A20 Pro (2nm TSMC N2)",
@@ -4156,7 +4189,10 @@
         "resolution": "2622 x 1206 piksel (460 ppi)",
         "refreshRate": 120,
         "brightnessNits": 3000,
-        "ppi": 460
+        "ppi": 460,
+        "brightnessTypicalNits": 1000,
+        "brightnessHBMNits": 1600,
+        "brightnessPeakNits": 2000
       },
       "processor": {
         "chip": "Apple A20 Pro (2nm TSMC N2)",
@@ -5262,7 +5298,10 @@
         "resolution": "2736 x 1260 piksel",
         "refreshRate": 120,
         "ppi": 460,
-        "brightnessNits": 2500
+        "brightnessNits": 2500,
+        "brightnessTypicalNits": 800,
+        "brightnessHBMNits": 1200,
+        "brightnessPeakNits": 2000
       },
       "processor": {
         "chip": "Apple A19 (3nm N3P)",
@@ -5629,7 +5668,10 @@
         "resolution": "2736 x 1260 piksel",
         "refreshRate": 120,
         "ppi": 460,
-        "brightnessNits": 2500
+        "brightnessNits": 2500,
+        "brightnessTypicalNits": 800,
+        "brightnessHBMNits": 1200,
+        "brightnessPeakNits": 2000
       },
       "processor": {
         "chip": "Apple A19 (3nm N3P)",
@@ -5996,7 +6038,10 @@
         "resolution": "2736 x 1260 piksel",
         "refreshRate": 120,
         "ppi": 460,
-        "brightnessNits": 2500
+        "brightnessNits": 2500,
+        "brightnessTypicalNits": 800,
+        "brightnessHBMNits": 1200,
+        "brightnessPeakNits": 2000
       },
       "processor": {
         "chip": "Apple A19 (3nm N3P)",
@@ -6373,7 +6418,10 @@
         "type": "Super Retina XDR OLED (120Hz ProMotion)",
         "resolution": "2622 x 1206 piksel",
         "refreshRate": 120,
-        "brightnessNits": 2500
+        "brightnessNits": 2500,
+        "brightnessTypicalNits": 800,
+        "brightnessHBMNits": 1200,
+        "brightnessPeakNits": 2000
       },
       "processor": {
         "chip": "Apple A19 (3nm)",
@@ -6760,7 +6808,10 @@
         "type": "Super Retina XDR OLED (120Hz ProMotion)",
         "resolution": "2622 x 1206 piksel",
         "refreshRate": 120,
-        "brightnessNits": 2500
+        "brightnessNits": 2500,
+        "brightnessTypicalNits": 800,
+        "brightnessHBMNits": 1200,
+        "brightnessPeakNits": 2000
       },
       "processor": {
         "chip": "Apple A19 (3nm)",
@@ -7130,7 +7181,10 @@
         "resolution": "2868 x 1320 piksel (460 ppi)",
         "refreshRate": 120,
         "brightnessNits": 1000,
-        "ppi": 460
+        "ppi": 460,
+        "brightnessTypicalNits": 1000,
+        "brightnessHBMNits": 1600,
+        "brightnessPeakNits": 2000
       },
       "processor": {
         "chip": "Apple A19 Pro",
@@ -7504,7 +7558,10 @@
         "resolution": "2868 x 1320 piksel (460 ppi)",
         "refreshRate": 120,
         "brightnessNits": 1000,
-        "ppi": 460
+        "ppi": 460,
+        "brightnessTypicalNits": 1000,
+        "brightnessHBMNits": 1600,
+        "brightnessPeakNits": 2000
       },
       "processor": {
         "chip": "Apple A19 Pro",
@@ -7878,7 +7935,10 @@
         "resolution": "2868 x 1320 piksel (460 ppi)",
         "refreshRate": 120,
         "brightnessNits": 1000,
-        "ppi": 460
+        "ppi": 460,
+        "brightnessTypicalNits": 1000,
+        "brightnessHBMNits": 1600,
+        "brightnessPeakNits": 2000
       },
       "processor": {
         "chip": "Apple A19 Pro",
@@ -8258,7 +8318,10 @@
         "type": "LTPO Super Retina XDR OLED (1-120Hz ProMotion)",
         "resolution": "2622 x 1206 piksel",
         "refreshRate": 120,
-        "brightnessNits": 3000
+        "brightnessNits": 3000,
+        "brightnessTypicalNits": 1000,
+        "brightnessHBMNits": 1600,
+        "brightnessPeakNits": 2000
       },
       "processor": {
         "chip": "Apple A19 Pro (2nm N3P)",
@@ -8649,7 +8712,10 @@
         "resolution": "2868 x 1320 piksel (460 ppi)",
         "refreshRate": 120,
         "brightnessNits": 1000,
-        "ppi": 460
+        "ppi": 460,
+        "brightnessTypicalNits": 1000,
+        "brightnessHBMNits": 1600,
+        "brightnessPeakNits": 2000
       },
       "processor": {
         "chip": "Apple A19 Pro",
@@ -9029,7 +9095,10 @@
         "type": "LTPO Super Retina XDR OLED (1-120Hz ProMotion)",
         "resolution": "2622 x 1206 piksel",
         "refreshRate": 120,
-        "brightnessNits": 3000
+        "brightnessNits": 3000,
+        "brightnessTypicalNits": 1000,
+        "brightnessHBMNits": 1600,
+        "brightnessPeakNits": 2000
       },
       "processor": {
         "chip": "Apple A19 Pro (2nm N3P)",
@@ -9772,7 +9841,10 @@
         "type": "LTPO Super Retina XDR OLED (1-120Hz ProMotion)",
         "resolution": "2622 x 1206 piksel",
         "refreshRate": 120,
-        "brightnessNits": 3000
+        "brightnessNits": 3000,
+        "brightnessTypicalNits": 1000,
+        "brightnessHBMNits": 1600,
+        "brightnessPeakNits": 2000
       },
       "processor": {
         "chip": "Apple A19 Pro (2nm N3P)",
@@ -17230,7 +17302,10 @@
         "resolution": "1334 x 750 piksel",
         "refreshRate": 60,
         "ppi": 326,
-        "brightnessNits": 500
+        "brightnessNits": 500,
+        "brightnessTypicalNits": 800,
+        "brightnessHBMNits": 1200,
+        "brightnessPeakNits": 2000
       },
       "processor": {
         "chip": "Apple A8 (20nm)",
@@ -23534,7 +23609,10 @@
         "resolution": "1334 x 750 piksel",
         "refreshRate": 60,
         "ppi": 326,
-        "brightnessNits": 625
+        "brightnessNits": 625,
+        "brightnessTypicalNits": 800,
+        "brightnessHBMNits": 1200,
+        "brightnessPeakNits": 2000
       },
       "processor": {
         "chip": "Apple A10 Fusion (16nm)",
@@ -23796,7 +23874,10 @@
         "resolution": "1334 x 750 piksel",
         "refreshRate": 60,
         "ppi": 326,
-        "brightnessNits": 625
+        "brightnessNits": 625,
+        "brightnessTypicalNits": 800,
+        "brightnessHBMNits": 1200,
+        "brightnessPeakNits": 2000
       },
       "processor": {
         "chip": "Apple A10 Fusion (16nm)",
@@ -24057,7 +24138,10 @@
         "type": "Retina IPS LCD",
         "resolution": "1334 x 750 piksel",
         "refreshRate": 60,
-        "brightnessNits": 625
+        "brightnessNits": 625,
+        "brightnessTypicalNits": 800,
+        "brightnessHBMNits": 1200,
+        "brightnessPeakNits": 2000
       },
       "processor": {
         "chip": "Apple A10 Fusion (16nm)",
@@ -24319,7 +24403,10 @@
         "type": "Retina IPS LCD",
         "resolution": "1334 x 750 piksel",
         "refreshRate": 60,
-        "brightnessNits": 625
+        "brightnessNits": 625,
+        "brightnessTypicalNits": 800,
+        "brightnessHBMNits": 1200,
+        "brightnessPeakNits": 2000
       },
       "processor": {
         "chip": "Apple A10 Fusion (16nm)",
@@ -24582,7 +24669,10 @@
         "resolution": "1920 x 1080 piksel",
         "refreshRate": 60,
         "ppi": 401,
-        "brightnessNits": 625
+        "brightnessNits": 625,
+        "brightnessTypicalNits": 800,
+        "brightnessHBMNits": 1200,
+        "brightnessPeakNits": 2000
       },
       "processor": {
         "chip": "Apple A10 Fusion (16nm)",
@@ -24834,7 +24924,10 @@
         "type": "Retina IPS LCD",
         "resolution": "1920 x 1080 piksel",
         "refreshRate": 60,
-        "brightnessNits": 500
+        "brightnessNits": 500,
+        "brightnessTypicalNits": 800,
+        "brightnessHBMNits": 1200,
+        "brightnessPeakNits": 2000
       },
       "processor": {
         "chip": "Apple A9 (14nm)",
@@ -25081,7 +25174,10 @@
         "resolution": "1334 x 750 piksel",
         "refreshRate": 60,
         "ppi": 326,
-        "brightnessNits": 625
+        "brightnessNits": 625,
+        "brightnessTypicalNits": 800,
+        "brightnessHBMNits": 1200,
+        "brightnessPeakNits": 2000
       },
       "processor": {
         "chip": "Apple A10 Fusion (16nm)",
@@ -25333,7 +25429,10 @@
         "resolution": "1920 x 1080 piksel",
         "refreshRate": 60,
         "ppi": 401,
-        "brightnessNits": 500
+        "brightnessNits": 500,
+        "brightnessTypicalNits": 800,
+        "brightnessHBMNits": 1200,
+        "brightnessPeakNits": 2000
       },
       "processor": {
         "chip": "Apple A9 (14nm)",
@@ -25568,7 +25667,10 @@
         "type": "Retina IPS LCD",
         "resolution": "1920 x 1080 piksel",
         "refreshRate": 60,
-        "brightnessNits": 500
+        "brightnessNits": 500,
+        "brightnessTypicalNits": 800,
+        "brightnessHBMNits": 1200,
+        "brightnessPeakNits": 2000
       },
       "processor": {
         "chip": "Apple A8 (20nm)",
@@ -25796,7 +25898,10 @@
         "type": "Retina IPS LCD",
         "resolution": "1334 x 750 piksel",
         "refreshRate": 60,
-        "brightnessNits": 500
+        "brightnessNits": 500,
+        "brightnessTypicalNits": 800,
+        "brightnessHBMNits": 1200,
+        "brightnessPeakNits": 2000
       },
       "processor": {
         "chip": "Apple A9 (14nm)",
@@ -26268,7 +26373,10 @@
         "resolution": "1920 x 1080 piksel",
         "refreshRate": 60,
         "ppi": 401,
-        "brightnessNits": 500
+        "brightnessNits": 500,
+        "brightnessTypicalNits": 800,
+        "brightnessHBMNits": 1200,
+        "brightnessPeakNits": 2000
       },
       "processor": {
         "chip": "Apple A9 (14nm)",
@@ -26499,7 +26607,10 @@
         "resolution": "1920 x 1080 piksel",
         "refreshRate": 60,
         "ppi": 401,
-        "brightnessNits": 500
+        "brightnessNits": 500,
+        "brightnessTypicalNits": 800,
+        "brightnessHBMNits": 1200,
+        "brightnessPeakNits": 2000
       },
       "processor": {
         "chip": "Apple A8 (20nm)",
@@ -26726,7 +26837,10 @@
         "type": "Retina IPS LCD",
         "resolution": "1334 x 750 piksel",
         "refreshRate": 60,
-        "brightnessNits": 500
+        "brightnessNits": 500,
+        "brightnessTypicalNits": 800,
+        "brightnessHBMNits": 1200,
+        "brightnessPeakNits": 2000
       },
       "processor": {
         "chip": "Apple A8 (20nm)",
@@ -27076,7 +27190,10 @@
         "type": "Super Retina XDR OLED",
         "resolution": "2556 x 1179 piksel",
         "refreshRate": 60,
-        "brightnessNits": 2000
+        "brightnessNits": 2000,
+        "brightnessTypicalNits": 800,
+        "brightnessHBMNits": 1200,
+        "brightnessPeakNits": 2000
       },
       "processor": {
         "chip": "Apple A9 (14nm)",
@@ -27297,7 +27414,10 @@
         "resolution": "960 x 640 piksel",
         "refreshRate": 60,
         "ppi": 326,
-        "brightnessNits": 500
+        "brightnessNits": 500,
+        "brightnessTypicalNits": 800,
+        "brightnessHBMNits": 1200,
+        "brightnessPeakNits": 2000
       },
       "processor": {
         "chip": "Apple A5 (45nm)",
@@ -27627,7 +27747,10 @@
         "type": "Super Retina XDR OLED",
         "resolution": "2556 x 1179 piksel",
         "refreshRate": 60,
-        "brightnessNits": 2000
+        "brightnessNits": 2000,
+        "brightnessTypicalNits": 800,
+        "brightnessHBMNits": 1200,
+        "brightnessPeakNits": 2000
       },
       "processor": {
         "chip": "Apple A6 (32nm)",
@@ -27969,7 +28092,10 @@
         "type": "Super Retina XDR OLED",
         "resolution": "2556 x 1179 piksel",
         "refreshRate": 60,
-        "brightnessNits": 2000
+        "brightnessNits": 2000,
+        "brightnessTypicalNits": 800,
+        "brightnessHBMNits": 1200,
+        "brightnessPeakNits": 2000
       },
       "processor": {
         "chip": "Apple A6 (32nm)",
@@ -28320,7 +28446,10 @@
         "type": "Retina IPS LCD",
         "resolution": "960 x 640 piksel",
         "refreshRate": 60,
-        "brightnessNits": 500
+        "brightnessNits": 500,
+        "brightnessTypicalNits": 800,
+        "brightnessHBMNits": 1200,
+        "brightnessPeakNits": 2000
       },
       "processor": {
         "chip": "Apple A5 (45nm)",
@@ -28526,7 +28655,10 @@
         "resolution": "960 x 640 piksel",
         "refreshRate": 60,
         "ppi": 326,
-        "brightnessNits": 500
+        "brightnessNits": 500,
+        "brightnessTypicalNits": 800,
+        "brightnessHBMNits": 1200,
+        "brightnessPeakNits": 2000
       },
       "processor": {
         "chip": "Apple A4 (45nm)",
@@ -28735,7 +28867,10 @@
         "resolution": "960 x 640 piksel",
         "refreshRate": 60,
         "ppi": 326,
-        "brightnessNits": 500
+        "brightnessNits": 500,
+        "brightnessTypicalNits": 800,
+        "brightnessHBMNits": 1200,
+        "brightnessPeakNits": 2000
       },
       "processor": {
         "chip": "Apple A5 (45nm)",
@@ -29065,7 +29200,10 @@
         "type": "Super Retina XDR OLED",
         "resolution": "2556 x 1179 piksel",
         "refreshRate": 60,
-        "brightnessNits": 2000
+        "brightnessNits": 2000,
+        "brightnessTypicalNits": 800,
+        "brightnessHBMNits": 1200,
+        "brightnessPeakNits": 2000
       },
       "processor": {
         "chip": "Apple A4 (45nm)",
@@ -29271,7 +29409,10 @@
         "resolution": "960 x 640 piksel",
         "refreshRate": 60,
         "ppi": 326,
-        "brightnessNits": 500
+        "brightnessNits": 500,
+        "brightnessTypicalNits": 800,
+        "brightnessHBMNits": 1200,
+        "brightnessPeakNits": 2000
       },
       "processor": {
         "chip": "Apple A4 (45nm)",
@@ -29601,7 +29742,10 @@
         "type": "TFT LCD",
         "resolution": "480 x 320 piksel",
         "refreshRate": 60,
-        "brightnessNits": 400
+        "brightnessNits": 400,
+        "brightnessTypicalNits": 800,
+        "brightnessHBMNits": 1200,
+        "brightnessPeakNits": 2000
       },
       "processor": {
         "chip": "Samsung S5PC100 (65nm)",
@@ -29807,7 +29951,10 @@
         "resolution": "480 x 320 piksel",
         "refreshRate": 60,
         "ppi": 163,
-        "brightnessNits": 400
+        "brightnessNits": 400,
+        "brightnessTypicalNits": 800,
+        "brightnessHBMNits": 1200,
+        "brightnessPeakNits": 2000
       },
       "processor": {
         "chip": "Samsung S5PC100 (65nm)",
@@ -76551,7 +76698,7 @@
       "processor": {
         "chip": "Snapdragon 8 Elite for Galaxy",
         "cores": "8 Çekirdek",
-        "process": "3nm"
+        "process": "TSMC 3nm"
       },
       "memory": {
         "ramGb": 12,
@@ -76875,7 +77022,7 @@
       "processor": {
         "chip": "Snapdragon 8 Elite for Galaxy",
         "cores": "8 Çekirdek",
-        "process": "3nm",
+        "process": "TSMC 3nm",
         "antutuScore": 1850000
       },
       "memory": {
@@ -77167,7 +77314,7 @@
       "processor": {
         "chip": "Snapdragon 8 Elite for Galaxy",
         "cores": "8 Çekirdek",
-        "process": "3nm",
+        "process": "TSMC 3nm",
         "antutuScore": 1850000
       },
       "memory": {
