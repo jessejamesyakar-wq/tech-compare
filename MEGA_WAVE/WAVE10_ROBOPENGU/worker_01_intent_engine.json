@@ -1,0 +1,20 @@
+{
+  "worker": "WORKER_1_INTENT_ENGINE",
+  "status": "COMPLETED",
+  "verifiedAt": "2026-10-02T16:52:00Z",
+  "features": [
+    "Deterministic Turkish NLP extraction without LLM provider lock-in",
+    "Numeric and text budget parser with tolerance & strictness flags",
+    "Brand preference & strict exclusion parser (e.g. 'Apple istemiyorum')",
+    "Multi-dimensional usage priority extraction (camera, display, battery, gaming, performance)",
+    "Storage and RAM minimum thresholds",
+    "Impossible constraint & compromise conflict detection",
+    "Adaptive follow-up question generator for underspecified requests"
+  ],
+  "testScenariosVerified": [
+    "SCENARIO_1_NATURAL_PRIORITIES",
+    "SCENARIO_2_HARD_STORAGE_AND_BRAND_EXCLUSION",
+    "SCENARIO_3_CONFLICT_FLAGSHIP_BUDGET_DETECTION",
+    "SCENARIO_4_UNDERSPECIFIED_FOLLOW_UP"
+  ]
+}

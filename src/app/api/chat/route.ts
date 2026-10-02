@@ -22,6 +22,8 @@ import {
 } from "@/lib/ai/resolvers";
 import { getRelevantLearnedGuidance } from "@/lib/ai/learningHub";
 
+import { RoboPenguPipeline } from '@/lib/ai/robopengu/pipeline';
+
 const SYSTEM_INSTRUCTION = `Sen aceleetme.tech’in Türkçe konuşan teknoloji danışmanı RoboPengu’sun.
 Samimi, kısa ve açık konuş; kullanıcının bütçesini koru. Kullanıcı adına duygu, aile ilişkisi veya ihtiyaç uydurma.
 Yalnızca verilen katalog verisine dayan. Katalog alanlarını bağımsız doğrulama veya laboratuvar testi diye sunma. Eksik alanlar bilinmiyor demektir; hayali ürün, kaynak, bağlantı, fiyat, puan veya garanti üretme.
@@ -35,7 +37,8 @@ function createFallbackStreamResponse(
   panel?: ComparisonPanelData | TechNewsPanelData | null,
   recommendations?: any[],
   userQuery: string = "",
-  notice?: string
+  notice?: string,
+  customReplyText?: string
 ) {
   const encoder = new TextEncoder();
   const stream = new ReadableStream({
@@ -47,7 +50,7 @@ function createFallbackStreamResponse(
         controller.enqueue(encoder.encode(`event: products\ndata: ${JSON.stringify(recommendations)}\n\n`));
       }
 
-      const replyText = buildCatalogChatReply(panel, recommendations, notice);
+      const replyText = customReplyText || buildCatalogChatReply(panel, recommendations, notice);
 
       controller.enqueue(encoder.encode(`event: text\ndata: ${JSON.stringify(replyText)}\n\n`));
       controller.enqueue(encoder.encode("event: done\ndata: [DONE]\n\n"));
@@ -108,6 +111,18 @@ export async function POST(req: Request) {
     let sidePanel: ComparisonPanelData | TechNewsPanelData | null = null;
     let matchedProducts: any[] = [];
     let contextualPrompt = trimmedPrompt;
+    let customFallbackReply: string | undefined = undefined;
+    let pipelineResult: any = null;
+
+    // Run RoboPenguPipeline for structured shopping intent and recommendation
+    try {
+      pipelineResult = RoboPenguPipeline.execute(trimmedPrompt, history);
+      if (pipelineResult && pipelineResult.recommendation.rankedCandidates.length > 0) {
+        customFallbackReply = pipelineResult.composedResponseText;
+      }
+    } catch (e: any) {
+      console.warn("[RoboPengu] Pipeline execution error:", e?.message);
+    }
 
     const setupPanel = detectSetupOrPackageQuery(trimmedPrompt);
     if (setupPanel) {
@@ -199,7 +214,25 @@ export async function POST(req: Request) {
           preferredBrand
         );
 
-        if (budgetResult.ok && budgetResult.data && budgetResult.data.products.length > 0) {
+        if (pipelineResult && pipelineResult.recommendation.rankedCandidates.length > 0) {
+          const pipelineProducts = pipelineResult.recommendation.rankedCandidates.map((c: any) => ({
+            id: c.rootId,
+            name: c.name,
+            brand: c.brand,
+            slug: c.slug,
+            category: c.category,
+            price: c.priceInfo.effectivePrice,
+            basePrice: c.priceInfo.effectivePrice,
+            specs: c.specs,
+          }));
+          matchedProducts = formatProductRecommendations(pipelineProducts.slice(0, 3));
+          const prodsSummary = matchedProducts.map(p => p.productName + " | " + describeChatPrice(p)).join("\n");
+          contextualPrompt = `Kullanıcı sorusu: ${trimmedPrompt}
+Katalog sonuçları (durum etiketlerini koru):
+${prodsSummary}
+Bütçe: ${effectiveBudget.toLocaleString("tr-TR")} TL.
+Güncel fiyatı olmayan alternatifleri bütçeye uygun veya satın alınabilir diye sunma. Kullanıcının belirtmediği akrabalık ya da hediye senaryosu uydurma. Kartlar ürün detaylarını açar.`;
+        } else if (budgetResult.ok && budgetResult.data && budgetResult.data.products.length > 0) {
           let selectedProducts: any[] = [];
           if (explicitModel) {
             // İlk kart: Kullanıcının açıkça belirttiği hediye veya model (örn: Apple Watch SE)
@@ -219,7 +252,6 @@ Katalog sonuçları (durum etiketlerini koru):
 ${prodsSummary}
 Bütçe: ${effectiveBudget.toLocaleString("tr-TR")} TL.
 Güncel fiyatı olmayan alternatifleri bütçeye uygun veya satın alınabilir diye sunma. Kullanıcının belirtmediği akrabalık ya da hediye senaryosu uydurma. Kartlar ürün detaylarını açar.`;
-
         }
       } else {
         // B. Tekil ürün veya model arama kontrolü
@@ -258,24 +290,32 @@ Talimat: Fiyatları durum etiketiyle aktar. Bu listede teknik özellik yok; eksi
       : contextualPrompt;
 
     // 8. Model Yönlendirici ile Akış Başlatma (gemini-3.6-flash ve hızlı fallback zinciri)
+    const hasValidGeminiKey = Boolean(
+      process.env.GEMINI_API_KEY &&
+      !process.env.GEMINI_API_KEY.includes("senin_google_api_anahtarin") &&
+      process.env.GEMINI_API_KEY.trim().length >= 20 &&
+      !process.env.GEMINI_API_KEY.startsWith("AQ.Ab8")
+    );
+
     let geminiStreamResult: any = null;
-    try {
-      geminiStreamResult = await callGeminiStreamWithFallback({
-        prompt: finalPromptWithLearning,
-        history: formattedHistory,
-        systemInstruction: SYSTEM_INSTRUCTION,
-        generationConfig: {
-          temperature: 0.65,
-          maxOutputTokens: 1500,
-        },
-      });
-    } catch (e: any) {
-      console.warn("[RoboPengu][AI] Model başlatma hatası:", e?.message);
+    if (hasValidGeminiKey) {
+      try {
+        geminiStreamResult = await callGeminiStreamWithFallback({
+          prompt: finalPromptWithLearning,
+          history: formattedHistory,
+          systemInstruction: SYSTEM_INSTRUCTION,
+          generationConfig: {
+            temperature: 0.65,
+            maxOutputTokens: 1500,
+          },
+        });
+      } catch (e: any) {
+        console.warn("[RoboPengu][AI] Model başlatma hatası:", e?.message);
+      }
     }
 
     if (!geminiStreamResult || !geminiStreamResult.ok || !geminiStreamResult.stream) {
-      console.warn("[RoboPengu][AI] Gemini yanıt vermedi, akıllı yerel fallback devreye giriyor...");
-      return createFallbackStreamResponse(sidePanel, matchedProducts, trimmedPrompt);
+      return createFallbackStreamResponse(sidePanel, matchedProducts, trimmedPrompt, undefined, customFallbackReply);
     }
 
     // 8. SSE Yanıt Akışı
@@ -306,7 +346,7 @@ Talimat: Fiyatları durum etiketiyle aktar. Bu listede teknik özellik yok; eksi
           } catch (streamErr: any) {
             console.warn("[RoboPengu][STREAM] Akış ortasında hata:", streamErr?.message);
             if (!hasEnqueuedText) {
-              const fallbackText = buildCatalogChatReply(sidePanel, matchedProducts);
+              const fallbackText = customFallbackReply || buildCatalogChatReply(sidePanel, matchedProducts);
               controller.enqueue(encoder.encode(`event: text\ndata: ${JSON.stringify(fallbackText)}\n\n`));
             }
           }

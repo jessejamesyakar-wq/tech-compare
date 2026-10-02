@@ -1,0 +1,18 @@
+{
+  "worker": "WORKER_05_BUY_WAIT_ENGINE",
+  "status": "COMPLETED",
+  "verifiedAt": "2026-10-02T17:03:00Z",
+  "decisions": [
+    "BUY_NOW",
+    "WAIT",
+    "NEUTRAL",
+    "INSUFFICIENT_DATA"
+  ],
+  "features": [
+    "Release cycle age assessment (0 to 3+ years)",
+    "Multi-store competition maturity detection",
+    "Deterministic confidence score & reasonCodes",
+    "Clear Turkish timing advice"
+  ],
+  "verification": "PASSED"
+}

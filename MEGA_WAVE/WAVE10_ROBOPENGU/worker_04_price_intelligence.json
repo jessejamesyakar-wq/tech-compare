@@ -1,0 +1,17 @@
+{
+  "worker": "WORKER_04_PRICE_INTELLIGENCE",
+  "status": "COMPLETED",
+  "verifiedAt": "2026-10-02T17:03:00Z",
+  "taxonomiesSupported": [
+    "LIVE_PRICE",
+    "PERSISTED_PRICE",
+    "CATALOG_FALLBACK",
+    "NO_PRICE_DATA"
+  ],
+  "features": [
+    "Honest price freshness tracking",
+    "Multi-store active offer counting",
+    "Transparent fallback disclosure ('Katalog Liste Fiyatı')"
+  ],
+  "verification": "PASSED"
+}

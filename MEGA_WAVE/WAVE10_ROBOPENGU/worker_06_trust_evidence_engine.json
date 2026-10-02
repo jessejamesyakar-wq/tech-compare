@@ -1,0 +1,12 @@
+{
+  "worker": "WORKER_06_TRUST_EVIDENCE_ENGINE",
+  "status": "COMPLETED",
+  "verifiedAt": "2026-10-02T17:03:00Z",
+  "features": [
+    "GoldenCorrectionRegistry lookup for approved overlays",
+    "Blocked process (91) & RAM (415) & brightness (225) registry verification",
+    "Explicit transparent warning: 'Bu bilgi henüz doğrulanmadı'",
+    "Ranking score trust penalty ensuring unverified claims do not inflate recommendations"
+  ],
+  "verification": "PASSED"
+}
