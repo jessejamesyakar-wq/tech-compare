@@ -1,4 +1,5 @@
 import { supabase } from '@/lib/supabase/client';
+import { getSupabaseServerClient } from '@/lib/supabase/server';
 import { getStoredProducts } from '@/lib/adminData';
 import { catalogPriceRecords, createPriceObservation, readPriceRecord } from '@/lib/pricing/priceRecordEvidence';
 
@@ -192,6 +193,49 @@ export class PriceRepository {
     }
     inMemoryPrices.set(priceData.productId, existingList);
 
+    // Persistent Supabase Server-side Write (Requires SUPABASE_SECRET_KEY / SERVICE_ROLE_KEY to bypass RLS)
+    try {
+      const serverClient = getSupabaseServerClient();
+      if (serverClient) {
+        await serverClient.from('prices').upsert({
+          id,
+          product_id: priceRecord.productId,
+          store_id: priceRecord.storeId,
+          store_product_id: priceRecord.storeProductId,
+          price: priceRecord.price,
+          shipping_price: priceRecord.shippingPrice,
+          total_price: priceRecord.totalPrice,
+          currency: priceRecord.currency,
+          stock_status: priceRecord.stockStatus,
+          seller_name: priceRecord.sellerName,
+          url: priceRecord.url,
+          is_anomaly: priceRecord.isAnomaly,
+          checked_at: priceRecord.checkedAt,
+        }, { onConflict: 'product_id,store_id,seller_name' });
+
+        if (historyEntry) {
+          await serverClient.from('price_history').insert({
+            product_id: historyEntry.productId,
+            store_id: historyEntry.storeId,
+            store_product_id: historyEntry.storeProductId,
+            old_price: historyEntry.oldPrice,
+            price: historyEntry.price,
+            shipping_price: historyEntry.shippingPrice,
+            total_price: historyEntry.totalPrice,
+            difference: historyEntry.difference,
+            percentage_difference: historyEntry.percentageDifference,
+            stock_status: historyEntry.stockStatus,
+            recorded_at: historyEntry.recordedAt,
+            source_url: historyEntry.sourceUrl,
+            source_type: historyEntry.sourceType || 'observed',
+            currency: historyEntry.currency || 'TRY',
+          });
+        }
+      }
+    } catch {
+      // In-memory fallback remains robust and uninterrupted
+    }
+
     return priceRecord;
   }
 
@@ -199,6 +243,20 @@ export class PriceRepository {
    * Fiyat Geçmişini Getir
    */
   static async getPriceHistory(productId: string): Promise<DbPriceHistory[]> {
+    try {
+      if (supabase) {
+        const { data, error } = await supabase
+          .from('price_history')
+          .select('*')
+          .eq('product_id', productId)
+          .order('recorded_at', { ascending: false });
+        if (!error && data && data.length > 0) {
+          return data as DbPriceHistory[];
+        }
+      }
+    } catch {
+      // Fallback
+    }
     return inMemoryHistory.get(productId) || [];
   }
 
@@ -221,6 +279,20 @@ export class PriceRepository {
    * Kuyruk Görevlerini Listele
    */
   static async getJobs(): Promise<DbPriceUpdateJob[]> {
+    try {
+      const serverClient = getSupabaseServerClient();
+      if (serverClient) {
+        const { data, error } = await serverClient
+          .from('price_update_jobs')
+          .select('*')
+          .order('created_at', { ascending: false });
+        if (!error && data && data.length > 0) {
+          return data as DbPriceUpdateJob[];
+        }
+      }
+    } catch {
+      // Fallback
+    }
     return Array.from(inMemoryJobs.values()).sort(
       (a, b) => new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime()
     );
@@ -237,6 +309,25 @@ export class PriceRepository {
       attempts: 0,
       createdAt: new Date().toISOString(),
     };
+    try {
+      const serverClient = getSupabaseServerClient();
+      if (serverClient) {
+        await serverClient.from('price_update_jobs').insert({
+          id: fullJob.id,
+          product_id: fullJob.productId,
+          store_id: fullJob.storeId,
+          priority: fullJob.priority,
+          status: fullJob.status,
+          attempts: fullJob.attempts,
+          max_attempts: fullJob.maxAttempts,
+          error_message: fullJob.errorMessage,
+          started_at: fullJob.startedAt,
+          completed_at: fullJob.completedAt,
+        });
+      }
+    } catch {
+      // Fallback
+    }
     inMemoryJobs.set(id, fullJob);
     return fullJob;
   }
