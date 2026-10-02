@@ -40306,7 +40306,8 @@
         "resolution": "1280 x 720 px",
         "refreshRate": 60,
         "ppi": 300,
-        "brightnessNits": 1000
+        "brightnessNits": 1000,
+        "brightnessTypicalNits": 1000
       },
       "processor": {
         "chip": "Qualcomm / MediaTek Dört/Sekiz Çekirdek",
@@ -40477,7 +40478,8 @@
         "resolution": "2400 x 1080 px",
         "refreshRate": 120,
         "ppi": 450,
-        "brightnessNits": 2100
+        "brightnessNits": 2100,
+        "brightnessPeakNits": 2100
       },
       "processor": {
         "chip": "Snapdragon 695 5G",
@@ -40660,7 +40662,8 @@
         "resolution": "1604 x 720 px",
         "refreshRate": 60,
         "ppi": 300,
-        "brightnessNits": 1000
+        "brightnessNits": 1000,
+        "brightnessTypicalNits": 1000
       },
       "processor": {
         "chip": "Helio G85 / G35",
@@ -40831,7 +40834,8 @@
         "resolution": "1604 x 720 px",
         "refreshRate": 60,
         "ppi": 300,
-        "brightnessNits": 1000
+        "brightnessNits": 1000,
+        "brightnessTypicalNits": 1000
       },
       "processor": {
         "chip": "Helio G85 / G35",
@@ -41117,7 +41121,8 @@
         "resolution": "2780 x 1264 px",
         "refreshRate": 120,
         "ppi": 450,
-        "brightnessNits": 2100
+        "brightnessNits": 2100,
+        "brightnessPeakNits": 2100
       },
       "processor": {
         "chip": "MediaTek Dimensity 9400 / Snapdragon 8 Elite",
@@ -41307,7 +41312,8 @@
         "resolution": "1604 x 720 px",
         "refreshRate": 90,
         "ppi": 300,
-        "brightnessNits": 1000
+        "brightnessNits": 1000,
+        "brightnessTypicalNits": 1000
       },
       "processor": {
         "chip": "Snapdragon 685 / 680",
@@ -41478,7 +41484,8 @@
         "resolution": "2400 x 1080 px",
         "refreshRate": 120,
         "ppi": 450,
-        "brightnessNits": 2100
+        "brightnessNits": 2100,
+        "brightnessPeakNits": 2100
       },
       "processor": {
         "chip": "Snapdragon 695 5G",
@@ -41661,7 +41668,8 @@
         "resolution": "2412 x 1080 px",
         "refreshRate": 120,
         "ppi": 450,
-        "brightnessNits": 2100
+        "brightnessNits": 2100,
+        "brightnessPeakNits": 2100
       },
       "processor": {
         "chip": "Snapdragon 680 / 778G",
@@ -41832,7 +41840,8 @@
         "resolution": "1604 x 720 px",
         "refreshRate": 90,
         "ppi": 300,
-        "brightnessNits": 1000
+        "brightnessNits": 1000,
+        "brightnessTypicalNits": 1000
       },
       "processor": {
         "chip": "Snapdragon 685 / 680",
@@ -42003,7 +42012,8 @@
         "resolution": "1604 x 720 px",
         "refreshRate": 90,
         "ppi": 300,
-        "brightnessNits": 1000
+        "brightnessNits": 1000,
+        "brightnessTypicalNits": 1000
       },
       "processor": {
         "chip": "Snapdragon 685 / 680",
@@ -42174,7 +42184,8 @@
         "resolution": "1280 x 720 px",
         "refreshRate": 60,
         "ppi": 300,
-        "brightnessNits": 1000
+        "brightnessNits": 1000,
+        "brightnessTypicalNits": 1000
       },
       "processor": {
         "chip": "Qualcomm / MediaTek Dört/Sekiz Çekirdek",
@@ -45217,7 +45228,8 @@
         "resolution": "2992 x 1344 px (Super Actua)",
         "refreshRate": 144,
         "ppi": 490,
-        "brightnessNits": 3000
+        "brightnessNits": 3000,
+        "brightnessPeakNits": 3000
       },
       "processor": {
         "chip": "Google Tensor G6 (TSMC 2nm / Titanyum Menteşeli Katlanabilir)",
@@ -45389,7 +45401,8 @@
         "resolution": "2992 x 1344 px (Super Actua)",
         "refreshRate": 144,
         "ppi": 490,
-        "brightnessNits": 3000
+        "brightnessNits": 3000,
+        "brightnessPeakNits": 3000
       },
       "processor": {
         "chip": "Google Tensor G6",
@@ -45561,7 +45574,8 @@
         "resolution": "2992 x 1344 px (Super Actua)",
         "refreshRate": 144,
         "ppi": 490,
-        "brightnessNits": 3000
+        "brightnessNits": 3000,
+        "brightnessPeakNits": 3000
       },
       "processor": {
         "chip": "Google Tensor G6 (TSMC 2nm / 10x Periskop)",
@@ -45848,7 +45862,8 @@
         "resolution": "2992 x 1344 px (Super Actua)",
         "refreshRate": 144,
         "ppi": 490,
-        "brightnessNits": 3000
+        "brightnessNits": 3000,
+        "brightnessPeakNits": 3000
       },
       "processor": {
         "chip": "Google Tensor G6 (TSMC 2nm / Yapay Zeka 4.0)",
@@ -46136,7 +46151,8 @@
         "resolution": "2992 x 1344 px (Super Actua)",
         "refreshRate": 120,
         "ppi": 490,
-        "brightnessNits": 3000
+        "brightnessNits": 3000,
+        "brightnessPeakNits": 3000
       },
       "processor": {
         "chip": "Google Tensor G5 (TSMC 3nm Bütçe Amiral Gemisi)",
@@ -46309,7 +46325,8 @@
         "resolution": "2992 x 1344 px (Super Actua)",
         "refreshRate": 144,
         "ppi": 490,
-        "brightnessNits": 3000
+        "brightnessNits": 3000,
+        "brightnessPeakNits": 3000
       },
       "processor": {
         "chip": "Google Tensor G5 (Ultra İnce Katlanabilir)",
@@ -46481,7 +46498,8 @@
         "resolution": "2992 x 1344 px (Super Actua)",
         "refreshRate": 120,
         "ppi": 486,
-        "brightnessNits": 3000
+        "brightnessNits": 3000,
+        "brightnessPeakNits": 3000
       },
       "processor": {
         "chip": "Google Tensor G5",
@@ -46653,7 +46671,8 @@
         "resolution": "2992 x 1344 px (Super Actua)",
         "refreshRate": 144,
         "ppi": 490,
-        "brightnessNits": 3000
+        "brightnessNits": 3000,
+        "brightnessPeakNits": 3000
       },
       "processor": {
         "chip": "Google Tensor G5 (TSMC 3nm Döküm / Gemini 2.0)",
@@ -46940,7 +46959,8 @@
         "resolution": "2992 x 1344 px (Super Actua)",
         "refreshRate": 120,
         "ppi": 490,
-        "brightnessNits": 3000
+        "brightnessNits": 3000,
+        "brightnessPeakNits": 3000
       },
       "processor": {
         "chip": "Google Tensor G5 (TSMC 3nm Döküm)",
@@ -47227,7 +47247,8 @@
         "resolution": "2424 x 1080 px",
         "refreshRate": 120,
         "ppi": 422.2,
-        "brightnessNits": 1400
+        "brightnessNits": 1400,
+        "brightnessHBMNits": 1400
       },
       "processor": {
         "chip": "Google Tensor G4",
@@ -47521,7 +47542,8 @@
         "resolution": "2780 x 1264 px",
         "refreshRate": 120,
         "ppi": 450,
-        "brightnessNits": 2600
+        "brightnessNits": 2600,
+        "brightnessPeakNits": 2600
       },
       "processor": {
         "chip": "Snapdragon 8 / MediaTek Dimensity Octa-Core",
@@ -47696,7 +47718,8 @@
         "resolution": "2780 x 1264 px",
         "refreshRate": 120,
         "ppi": 450,
-        "brightnessNits": 2600
+        "brightnessNits": 2600,
+        "brightnessPeakNits": 2600
       },
       "processor": {
         "chip": "Snapdragon 8 / MediaTek Dimensity Octa-Core",
@@ -47986,7 +48009,8 @@
         "resolution": "2780 x 1264 px",
         "refreshRate": 120,
         "ppi": 450,
-        "brightnessNits": 2600
+        "brightnessNits": 2600,
+        "brightnessPeakNits": 2600
       },
       "processor": {
         "chip": "Snapdragon 8 Elite / Gen 3",
@@ -48161,7 +48185,8 @@
         "resolution": "2780 x 1264 px",
         "refreshRate": 120,
         "ppi": 450,
-        "brightnessNits": 2600
+        "brightnessNits": 2600,
+        "brightnessPeakNits": 2600
       },
       "processor": {
         "chip": "Snapdragon 8 / MediaTek Dimensity Octa-Core",
@@ -48451,7 +48476,8 @@
         "resolution": "2780 x 1264 px",
         "refreshRate": 120,
         "ppi": 450,
-        "brightnessNits": 2600
+        "brightnessNits": 2600,
+        "brightnessPeakNits": 2600
       },
       "processor": {
         "chip": "Snapdragon 8 Elite / Gen 3",
@@ -48628,7 +48654,8 @@
         "resolution": "2780 x 1264 px",
         "refreshRate": 120,
         "ppi": 450,
-        "brightnessNits": 2600
+        "brightnessNits": 2600,
+        "brightnessPeakNits": 2600
       },
       "processor": {
         "chip": "Snapdragon 8 / MediaTek Dimensity Octa-Core",
@@ -48803,7 +48830,8 @@
         "resolution": "2780 x 1264 px",
         "refreshRate": 120,
         "ppi": 450,
-        "brightnessNits": 2600
+        "brightnessNits": 2600,
+        "brightnessPeakNits": 2600
       },
       "processor": {
         "chip": "Snapdragon 8 Elite / Gen 3",
@@ -48978,7 +49006,8 @@
         "resolution": "2780 x 1264 px",
         "refreshRate": 120,
         "ppi": 450,
-        "brightnessNits": 2600
+        "brightnessNits": 2600,
+        "brightnessPeakNits": 2600
       },
       "processor": {
         "chip": "Snapdragon 8 / MediaTek Dimensity Octa-Core",
@@ -49154,7 +49183,8 @@
         "resolution": "2780 x 1264 px",
         "refreshRate": 120,
         "ppi": 450,
-        "brightnessNits": 2600
+        "brightnessNits": 2600,
+        "brightnessPeakNits": 2600
       },
       "processor": {
         "chip": "Snapdragon 8 / MediaTek Dimensity Octa-Core",
@@ -49329,7 +49359,8 @@
         "resolution": "2780 x 1264 px",
         "refreshRate": 120,
         "ppi": 450,
-        "brightnessNits": 2600
+        "brightnessNits": 2600,
+        "brightnessPeakNits": 2600
       },
       "processor": {
         "chip": "Snapdragon 8 / MediaTek Dimensity Octa-Core",
@@ -49504,7 +49535,8 @@
         "resolution": "2780 x 1264 px",
         "refreshRate": 120,
         "ppi": 450,
-        "brightnessNits": 2600
+        "brightnessNits": 2600,
+        "brightnessPeakNits": 2600
       },
       "processor": {
         "chip": "Snapdragon 8 / MediaTek Dimensity Octa-Core",
@@ -59672,7 +59704,8 @@
         "resolution": "2340 x 1080 px",
         "refreshRate": 60,
         "ppi": 390,
-        "brightnessNits": 1000
+        "brightnessNits": 1000,
+        "brightnessTypicalNits": 1000
       },
       "processor": {
         "chip": "Exynos 7870",
@@ -61793,7 +61826,8 @@
         "resolution": "2340 x 1080 px",
         "refreshRate": 60,
         "ppi": 390,
-        "brightnessNits": 1000
+        "brightnessNits": 1000,
+        "brightnessTypicalNits": 1000
       },
       "processor": {
         "chip": "Exynos 7884",
@@ -61956,7 +61990,8 @@
         "resolution": "2340 x 1080 px",
         "refreshRate": 60,
         "ppi": 390,
-        "brightnessNits": 1000
+        "brightnessNits": 1000,
+        "brightnessTypicalNits": 1000
       },
       "processor": {
         "chip": "Exynos 7884",
@@ -62119,7 +62154,8 @@
         "resolution": "2340 x 1080 px",
         "refreshRate": 60,
         "ppi": 390,
-        "brightnessNits": 1000
+        "brightnessNits": 1000,
+        "brightnessTypicalNits": 1000
       },
       "processor": {
         "chip": "Exynos 7904",
@@ -62281,7 +62317,8 @@
         "resolution": "2340 x 1080 px",
         "refreshRate": 60,
         "ppi": 390,
-        "brightnessNits": 1000
+        "brightnessNits": 1000,
+        "brightnessTypicalNits": 1000
       },
       "processor": {
         "chip": "Exynos 7904",
@@ -62444,7 +62481,8 @@
         "resolution": "2340 x 1080 px",
         "refreshRate": 60,
         "ppi": 390,
-        "brightnessNits": 1000
+        "brightnessNits": 1000,
+        "brightnessTypicalNits": 1000
       },
       "processor": {
         "chip": "Exynos 9610",
@@ -65043,7 +65081,8 @@
         "resolution": "2340 x 1080 px",
         "refreshRate": 60,
         "ppi": 390,
-        "brightnessNits": 1000
+        "brightnessNits": 1000,
+        "brightnessTypicalNits": 1000
       },
       "processor": {
         "chip": "Snapdragon 450",
@@ -65205,7 +65244,8 @@
         "resolution": "2340 x 1080 px",
         "refreshRate": 60,
         "ppi": 390,
-        "brightnessNits": 1000
+        "brightnessNits": 1000,
+        "brightnessTypicalNits": 1000
       },
       "processor": {
         "chip": "Exynos 850",
@@ -65367,7 +65407,8 @@
         "resolution": "2340 x 1080 px",
         "refreshRate": 60,
         "ppi": 390,
-        "brightnessNits": 1000
+        "brightnessNits": 1000,
+        "brightnessTypicalNits": 1000
       },
       "processor": {
         "chip": "Helio P65",
@@ -65529,7 +65570,8 @@
         "resolution": "2340 x 1080 px",
         "refreshRate": 60,
         "ppi": 390,
-        "brightnessNits": 1000
+        "brightnessNits": 1000,
+        "brightnessTypicalNits": 1000
       },
       "processor": {
         "chip": "Helio P65",
@@ -65692,7 +65734,8 @@
         "resolution": "2340 x 1080 px",
         "refreshRate": 60,
         "ppi": 390,
-        "brightnessNits": 1000
+        "brightnessNits": 1000,
+        "brightnessTypicalNits": 1000
       },
       "processor": {
         "chip": "Exynos 9611",
@@ -67652,7 +67695,8 @@
         "resolution": "2340 x 1080 px",
         "refreshRate": 90,
         "ppi": 390,
-        "brightnessNits": 1000
+        "brightnessNits": 1000,
+        "brightnessTypicalNits": 1000
       },
       "processor": {
         "chip": "MT6739",
@@ -67815,7 +67859,8 @@
         "resolution": "2340 x 1080 px",
         "refreshRate": 90,
         "ppi": 390,
-        "brightnessNits": 1000
+        "brightnessNits": 1000,
+        "brightnessTypicalNits": 1000
       },
       "processor": {
         "chip": "Helio P35",
@@ -67977,7 +68022,8 @@
         "resolution": "2340 x 1080 px",
         "refreshRate": 90,
         "ppi": 390,
-        "brightnessNits": 1000
+        "brightnessNits": 1000,
+        "brightnessTypicalNits": 1000
       },
       "processor": {
         "chip": "Helio G80",
@@ -68139,7 +68185,8 @@
         "resolution": "2340 x 1080 px",
         "refreshRate": 90,
         "ppi": 390,
-        "brightnessNits": 1000
+        "brightnessNits": 1000,
+        "brightnessTypicalNits": 1000
       },
       "processor": {
         "chip": "Helio G80",
@@ -68302,7 +68349,8 @@
         "resolution": "2340 x 1080 px",
         "refreshRate": 90,
         "ppi": 390,
-        "brightnessNits": 1000
+        "brightnessNits": 1000,
+        "brightnessTypicalNits": 1000
       },
       "processor": {
         "chip": "Snapdragon 720G",
@@ -68465,7 +68513,8 @@
         "resolution": "2340 x 1080 px",
         "refreshRate": 90,
         "ppi": 390,
-        "brightnessNits": 1000
+        "brightnessNits": 1000,
+        "brightnessTypicalNits": 1000
       },
       "processor": {
         "chip": "Snapdragon 778G 5G",
@@ -70110,7 +70159,8 @@
         "resolution": "2340 x 1080 px",
         "refreshRate": 90,
         "ppi": 390,
-        "brightnessNits": 1000
+        "brightnessNits": 1000,
+        "brightnessTypicalNits": 1000
       },
       "processor": {
         "chip": "Exynos 850",
@@ -70273,7 +70323,8 @@
         "resolution": "2340 x 1080 px",
         "refreshRate": 90,
         "ppi": 390,
-        "brightnessNits": 1000
+        "brightnessNits": 1000,
+        "brightnessTypicalNits": 1000
       },
       "processor": {
         "chip": "Snapdragon 680",
@@ -70435,7 +70486,8 @@
         "resolution": "2340 x 1080 px",
         "refreshRate": 90,
         "ppi": 390,
-        "brightnessNits": 1000
+        "brightnessNits": 1000,
+        "brightnessTypicalNits": 1000
       },
       "processor": {
         "chip": "Exynos 1280",
@@ -70597,7 +70649,8 @@
         "resolution": "2340 x 1080 px",
         "refreshRate": 90,
         "ppi": 390,
-        "brightnessNits": 1000
+        "brightnessNits": 1000,
+        "brightnessTypicalNits": 1000
       },
       "processor": {
         "chip": "Exynos 1280",
@@ -72688,7 +72741,8 @@
         "resolution": "2340 x 1080 px",
         "refreshRate": 90,
         "ppi": 390,
-        "brightnessNits": 1000
+        "brightnessNits": 1000,
+        "brightnessTypicalNits": 1000
       },
       "processor": {
         "chip": "Helio G80 / Exynos 850",
@@ -72850,7 +72904,8 @@
         "resolution": "2340 x 1080 px",
         "refreshRate": 90,
         "ppi": 390,
-        "brightnessNits": 1000
+        "brightnessNits": 1000,
+        "brightnessTypicalNits": 1000
       },
       "processor": {
         "chip": "Helio G99",
@@ -73012,7 +73067,8 @@
         "resolution": "2340 x 1080 px",
         "refreshRate": 90,
         "ppi": 390,
-        "brightnessNits": 1000
+        "brightnessNits": 1000,
+        "brightnessTypicalNits": 1000
       },
       "processor": {
         "chip": "Dimensity 1080 5G",
@@ -75130,7 +75186,8 @@
         "resolution": "2340 x 1080 px",
         "refreshRate": 120,
         "ppi": 390,
-        "brightnessNits": 1000
+        "brightnessNits": 1000,
+        "brightnessTypicalNits": 1000
       },
       "processor": {
         "chip": "Helio G85",
@@ -75312,7 +75369,8 @@
         "resolution": "2340 x 1080 px",
         "refreshRate": 120,
         "ppi": 390,
-        "brightnessNits": 1000
+        "brightnessNits": 1000,
+        "brightnessTypicalNits": 1000
       },
       "processor": {
         "chip": "Helio G99 / Dimensity 6100+",
@@ -75493,7 +75551,8 @@
         "resolution": "2340 x 1080 px",
         "refreshRate": 120,
         "ppi": 390,
-        "brightnessNits": 1000
+        "brightnessNits": 1000,
+        "brightnessTypicalNits": 1000
       },
       "processor": {
         "chip": "Exynos 1280",
@@ -75670,7 +75729,8 @@
         "resolution": "2340 x 1080 px",
         "refreshRate": 120,
         "ppi": 390,
-        "brightnessNits": 1000
+        "brightnessNits": 1000,
+        "brightnessTypicalNits": 1000
       },
       "processor": {
         "chip": "Exynos 1380",
@@ -78461,7 +78521,8 @@
         "resolution": "2340 x 1080 px",
         "refreshRate": 60,
         "ppi": 390,
-        "brightnessNits": 1000
+        "brightnessNits": 1000,
+        "brightnessTypicalNits": 1000
       },
       "processor": {
         "chip": "Helio G85",
@@ -78738,7 +78799,8 @@
         "resolution": "2340 x 1080 px",
         "refreshRate": 90,
         "ppi": 390,
-        "brightnessNits": 1000
+        "brightnessNits": 1000,
+        "brightnessTypicalNits": 1000
       },
       "processor": {
         "chip": "Exynos 1330 / Dimensity 6300 5G",
@@ -79019,7 +79081,8 @@
         "resolution": "2340 x 1080 px",
         "refreshRate": 120,
         "ppi": 390,
-        "brightnessNits": 1000
+        "brightnessNits": 1000,
+        "brightnessTypicalNits": 1000
       },
       "processor": {
         "chip": "Exynos 1280 5G",
@@ -79300,7 +79363,8 @@
         "resolution": "2340 x 1080 px",
         "refreshRate": 120,
         "ppi": 390,
-        "brightnessNits": 1000
+        "brightnessNits": 1000,
+        "brightnessTypicalNits": 1000
       },
       "processor": {
         "chip": "Snapdragon 6 Gen 3 5G",
@@ -79581,7 +79645,8 @@
         "resolution": "2340 x 1080 px",
         "refreshRate": 120,
         "ppi": 390,
-        "brightnessNits": 1000
+        "brightnessNits": 1000,
+        "brightnessTypicalNits": 1000
       },
       "processor": {
         "chip": "Exynos 1580 (AMD RDNA3 GPU)",
@@ -81552,7 +81617,8 @@
         "resolution": "2340 x 1080 px",
         "refreshRate": 90,
         "ppi": 390,
-        "brightnessNits": 1000
+        "brightnessNits": 1000,
+        "brightnessTypicalNits": 1000
       },
       "processor": {
         "chip": "Samsung Exynos 1330",
@@ -81834,7 +81900,8 @@
         "resolution": "2340 x 1080 px",
         "refreshRate": 120,
         "ppi": 390,
-        "brightnessNits": 1000
+        "brightnessNits": 1000,
+        "brightnessTypicalNits": 1000
       },
       "processor": {
         "chip": "Samsung Exynos 1480",
@@ -82116,7 +82183,8 @@
         "resolution": "2340 x 1080 px",
         "refreshRate": 120,
         "ppi": 390,
-        "brightnessNits": 1000
+        "brightnessNits": 1000,
+        "brightnessTypicalNits": 1000
       },
       "processor": {
         "chip": "Samsung Exynos 1680",
@@ -86403,7 +86471,8 @@
         "resolution": "FHD+",
         "refreshRate": 120,
         "ppi": 505,
-        "brightnessNits": 2600
+        "brightnessNits": 2600,
+        "brightnessPeakNits": 2600
       },
       "memory": {
         "ramGb": 6,
@@ -119554,7 +119623,8 @@
         "resolution": "2340 x 1080 px",
         "refreshRate": 120,
         "ppi": 390,
-        "brightnessNits": 1000
+        "brightnessNits": 1000,
+        "brightnessTypicalNits": 1000
       },
       "processor": {
         "chip": "Exynos 1380 5G",
@@ -119863,7 +119933,8 @@
         "resolution": "2340 x 1080 px",
         "refreshRate": 90,
         "ppi": 390,
-        "brightnessNits": 1000
+        "brightnessNits": 1000,
+        "brightnessTypicalNits": 1000
       },
       "processor": {
         "chip": "Samsung Exynos 1330",
@@ -120200,7 +120271,8 @@
         "resolution": "2340 x 1080 px",
         "refreshRate": 120,
         "ppi": 390,
-        "brightnessNits": 1000
+        "brightnessNits": 1000,
+        "brightnessTypicalNits": 1000
       },
       "processor": {
         "chip": "Samsung Exynos 1480",
@@ -130838,7 +130910,8 @@
         "resolution": "2772 x 1240 px",
         "refreshRate": 120,
         "ppi": 450,
-        "brightnessNits": 1600
+        "brightnessNits": 1600,
+        "brightnessHBMNits": 1600
       },
       "processor": {
         "chip": "MediaTek Dimensity 8550 Super",
@@ -131154,7 +131227,8 @@
         "resolution": "2412 x 1080 px",
         "refreshRate": 120,
         "ppi": 394,
-        "brightnessNits": 1400
+        "brightnessNits": 1400,
+        "brightnessHBMNits": 1400
       },
       "processor": {
         "chip": "Qualcomm Snapdragon 7 Gen 4",
@@ -131468,7 +131542,8 @@
         "resolution": "2400 x 1080 px",
         "refreshRate": 120,
         "ppi": 395,
-        "brightnessNits": 1200
+        "brightnessNits": 1200,
+        "brightnessHBMNits": 1200
       },
       "processor": {
         "chip": "MediaTek Dimensity 7300-Energy",
@@ -131782,7 +131857,8 @@
         "resolution": "2400 x 1080 px",
         "refreshRate": 120,
         "ppi": 395,
-        "brightnessNits": 1200
+        "brightnessNits": 1200,
+        "brightnessHBMNits": 1200
       },
       "processor": {
         "chip": "Qualcomm Snapdragon 6 Gen 1",
@@ -132096,7 +132172,8 @@
         "resolution": "2440 x 2268 px",
         "refreshRate": 120,
         "ppi": 426,
-        "brightnessNits": 2800
+        "brightnessNits": 2800,
+        "brightnessPeakNits": 2800
       },
       "processor": {
         "chip": "Qualcomm Snapdragon 8 Elite",
@@ -132409,7 +132486,8 @@
         "resolution": "2400 x 1080 px",
         "refreshRate": 120,
         "ppi": 395,
-        "brightnessNits": 1200
+        "brightnessNits": 1200,
+        "brightnessHBMNits": 1200
       },
       "processor": {
         "chip": "MediaTek Helio G100",
@@ -132723,7 +132801,8 @@
         "resolution": "1604 x 720 px",
         "refreshRate": 120,
         "ppi": 264,
-        "brightnessNits": 1000
+        "brightnessNits": 1000,
+        "brightnessTypicalNits": 1000
       },
       "processor": {
         "chip": "MediaTek Dimensity 6300 5G",
@@ -133037,7 +133116,8 @@
         "resolution": "1604 x 720 px",
         "refreshRate": 120,
         "ppi": 264,
-        "brightnessNits": 1000
+        "brightnessNits": 1000,
+        "brightnessTypicalNits": 1000
       },
       "processor": {
         "chip": "MediaTek Dimensity 6300 5G",
@@ -133350,7 +133430,8 @@
         "resolution": "1604 x 720 px",
         "refreshRate": 120,
         "ppi": 264,
-        "brightnessNits": 1000
+        "brightnessNits": 1000,
+        "brightnessTypicalNits": 1000
       },
       "processor": {
         "chip": "MediaTek Dimensity 6300 5G",
@@ -133663,7 +133744,8 @@
         "resolution": "1604 x 720 px",
         "refreshRate": 90,
         "ppi": 264,
-        "brightnessNits": 950
+        "brightnessNits": 950,
+        "brightnessTypicalNits": 950
       },
       "processor": {
         "chip": "Qualcomm Snapdragon 6s 4G Gen 1",

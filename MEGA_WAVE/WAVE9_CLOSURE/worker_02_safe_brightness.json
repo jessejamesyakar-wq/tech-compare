@@ -1,0 +1,1658 @@
+{
+  "workerId": "WORKER_02",
+  "role": "97 SAFE BRIGHTNESS READY VERIFICATION",
+  "evaluatedAt": "2026-10-01T23:17:51.948Z",
+  "totalReviewed": 97,
+  "readyForIntegrationCount": 97,
+  "items": [
+    {
+      "index": 1,
+      "rootId": "apple-apple-iphone-se-3-2022-128-gb-758817",
+      "p2IssueId": "P2-BRIGHTNESS-apple-apple-iphone-se-3-2022-128-gb-758817",
+      "brand": "Apple",
+      "model": "Apple iPhone SE 3 (2022) (128 GB)",
+      "fieldSemantic": "TYPICAL_MANUAL",
+      "targetField": "specs.screen.brightnessTypicalNits",
+      "targetValue": 625,
+      "proposedMigration": {
+        "brightnessTypicalNits": 625
+      },
+      "currentValue": 625,
+      "valueHash": "588bc65b279aa98ed94ee694f14d1382e72fbaf150c2ad14eeb09d794e6f04cf",
+      "evidence": "Apple official product specification sheet specifies sustained manual/typical brightness rating of 625 nits.",
+      "status": "READY_FOR_INTEGRATION"
+    },
+    {
+      "index": 2,
+      "rootId": "apple-apple-iphone-se-3-2022-256-gb-758822",
+      "p2IssueId": "P2-BRIGHTNESS-apple-apple-iphone-se-3-2022-256-gb-758822",
+      "brand": "Apple",
+      "model": "Apple iPhone SE 3 (2022) (256 GB)",
+      "fieldSemantic": "TYPICAL_MANUAL",
+      "targetField": "specs.screen.brightnessTypicalNits",
+      "targetValue": 625,
+      "proposedMigration": {
+        "brightnessTypicalNits": 625
+      },
+      "currentValue": 625,
+      "valueHash": "ca5cf88910c375b288630e76def419bdeb3b501801842fb74eacad8a461a0f1b",
+      "evidence": "Apple official product specification sheet specifies sustained manual/typical brightness rating of 625 nits.",
+      "status": "READY_FOR_INTEGRATION"
+    },
+    {
+      "index": 3,
+      "rootId": "apple-apple-iphone-x-256-gb-92486",
+      "p2IssueId": "P2-BRIGHTNESS-apple-apple-iphone-x-256-gb-92486",
+      "brand": "Apple",
+      "model": "Apple iPhone X (256 GB)",
+      "fieldSemantic": "TYPICAL_MANUAL",
+      "targetField": "specs.screen.brightnessTypicalNits",
+      "targetValue": 625,
+      "proposedMigration": {
+        "brightnessTypicalNits": 625
+      },
+      "currentValue": 625,
+      "valueHash": "8c163a13a471f11b7208116a3f5d3bc804d536a3b665879cbec84871226de034",
+      "evidence": "Apple official product specification sheet specifies sustained manual/typical brightness rating of 625 nits.",
+      "status": "READY_FOR_INTEGRATION"
+    },
+    {
+      "index": 4,
+      "rootId": "apple-apple-iphone-xr-256-gb-138630",
+      "p2IssueId": "P2-BRIGHTNESS-apple-apple-iphone-xr-256-gb-138630",
+      "brand": "Apple",
+      "model": "Apple iPhone XR (256 GB)",
+      "fieldSemantic": "TYPICAL_MANUAL",
+      "targetField": "specs.screen.brightnessTypicalNits",
+      "targetValue": 625,
+      "proposedMigration": {
+        "brightnessTypicalNits": 625
+      },
+      "currentValue": 625,
+      "valueHash": "0a41b314ab5b51fd56fe4052fe7247734ba31ad12c19108af98c286f550f0336",
+      "evidence": "Apple official product specification sheet specifies sustained manual/typical brightness rating of 625 nits.",
+      "status": "READY_FOR_INTEGRATION"
+    },
+    {
+      "index": 5,
+      "rootId": "apple-apple-iphone-xr-64-gb-127715",
+      "p2IssueId": "P2-BRIGHTNESS-apple-apple-iphone-xr-64-gb-127715",
+      "brand": "Apple",
+      "model": "Apple iPhone XR (64 GB)",
+      "fieldSemantic": "TYPICAL_MANUAL",
+      "targetField": "specs.screen.brightnessTypicalNits",
+      "targetValue": 625,
+      "proposedMigration": {
+        "brightnessTypicalNits": 625
+      },
+      "currentValue": 625,
+      "valueHash": "0b713c163fd137e9fd0790db9fd2db0df87029e03eed51c7b8e4ed0235468121",
+      "evidence": "Apple official product specification sheet specifies sustained manual/typical brightness rating of 625 nits.",
+      "status": "READY_FOR_INTEGRATION"
+    },
+    {
+      "index": 6,
+      "rootId": "apple-apple-iphone-xs-256-gb-131610",
+      "p2IssueId": "P2-BRIGHTNESS-apple-apple-iphone-xs-256-gb-131610",
+      "brand": "Apple",
+      "model": "Apple iPhone XS (256 GB)",
+      "fieldSemantic": "TYPICAL_MANUAL",
+      "targetField": "specs.screen.brightnessTypicalNits",
+      "targetValue": 625,
+      "proposedMigration": {
+        "brightnessTypicalNits": 625
+      },
+      "currentValue": 625,
+      "valueHash": "4bc60129aec3595518b23d393719023bb88f4432b30ea3faa36135b78c084f5b",
+      "evidence": "Apple official product specification sheet specifies sustained manual/typical brightness rating of 625 nits.",
+      "status": "READY_FOR_INTEGRATION"
+    },
+    {
+      "index": 7,
+      "rootId": "apple-apple-iphone-xs-512-gb-131614",
+      "p2IssueId": "P2-BRIGHTNESS-apple-apple-iphone-xs-512-gb-131614",
+      "brand": "Apple",
+      "model": "Apple iPhone XS (512 GB)",
+      "fieldSemantic": "TYPICAL_MANUAL",
+      "targetField": "specs.screen.brightnessTypicalNits",
+      "targetValue": 625,
+      "proposedMigration": {
+        "brightnessTypicalNits": 625
+      },
+      "currentValue": 625,
+      "valueHash": "4982097a4fd2c1ab9663ca4fdfc41d99c3f450a73d4e93fb016bd03a8143e1e4",
+      "evidence": "Apple official product specification sheet specifies sustained manual/typical brightness rating of 625 nits.",
+      "status": "READY_FOR_INTEGRATION"
+    },
+    {
+      "index": 8,
+      "rootId": "apple-apple-iphone-xs-64-gb-126668",
+      "p2IssueId": "P2-BRIGHTNESS-apple-apple-iphone-xs-64-gb-126668",
+      "brand": "Apple",
+      "model": "Apple iPhone XS (64 GB)",
+      "fieldSemantic": "TYPICAL_MANUAL",
+      "targetField": "specs.screen.brightnessTypicalNits",
+      "targetValue": 625,
+      "proposedMigration": {
+        "brightnessTypicalNits": 625
+      },
+      "currentValue": 625,
+      "valueHash": "ae6f454ccceb36ecb76c2b9244a146cb6a971fbdc7e0d8908184038cf5a6da38",
+      "evidence": "Apple official product specification sheet specifies sustained manual/typical brightness rating of 625 nits.",
+      "status": "READY_FOR_INTEGRATION"
+    },
+    {
+      "index": 9,
+      "rootId": "apple-apple-iphone-xs-max-256-gb-131638",
+      "p2IssueId": "P2-BRIGHTNESS-apple-apple-iphone-xs-max-256-gb-131638",
+      "brand": "Apple",
+      "model": "Apple iPhone XS Max (256 GB)",
+      "fieldSemantic": "TYPICAL_MANUAL",
+      "targetField": "specs.screen.brightnessTypicalNits",
+      "targetValue": 625,
+      "proposedMigration": {
+        "brightnessTypicalNits": 625
+      },
+      "currentValue": 625,
+      "valueHash": "60634afb7e7eb5d31c32b3b988fc4ce67d56ddf4644af500836a98bb6b3987d0",
+      "evidence": "Apple official product specification sheet specifies sustained manual/typical brightness rating of 625 nits.",
+      "status": "READY_FOR_INTEGRATION"
+    },
+    {
+      "index": 10,
+      "rootId": "apple-apple-iphone-xs-max-512-gb-131639",
+      "p2IssueId": "P2-BRIGHTNESS-apple-apple-iphone-xs-max-512-gb-131639",
+      "brand": "Apple",
+      "model": "Apple iPhone XS Max (512 GB)",
+      "fieldSemantic": "TYPICAL_MANUAL",
+      "targetField": "specs.screen.brightnessTypicalNits",
+      "targetValue": 625,
+      "proposedMigration": {
+        "brightnessTypicalNits": 625
+      },
+      "currentValue": 625,
+      "valueHash": "21da58dd4c0f9cc723e7cf19365b483520570e913193749eb537de900c091b2a",
+      "evidence": "Apple official product specification sheet specifies sustained manual/typical brightness rating of 625 nits.",
+      "status": "READY_FOR_INTEGRATION"
+    },
+    {
+      "index": 11,
+      "rootId": "apple-apple-iphone-xs-max-64-gb-127714",
+      "p2IssueId": "P2-BRIGHTNESS-apple-apple-iphone-xs-max-64-gb-127714",
+      "brand": "Apple",
+      "model": "Apple iPhone XS Max (64 GB)",
+      "fieldSemantic": "TYPICAL_MANUAL",
+      "targetField": "specs.screen.brightnessTypicalNits",
+      "targetValue": 625,
+      "proposedMigration": {
+        "brightnessTypicalNits": 625
+      },
+      "currentValue": 625,
+      "valueHash": "eecb2f004f5c36ef005ad5051e17b0f9e276514014f043f6c13ec0b8345fe2f6",
+      "evidence": "Apple official product specification sheet specifies sustained manual/typical brightness rating of 625 nits.",
+      "status": "READY_FOR_INTEGRATION"
+    },
+    {
+      "index": 12,
+      "rootId": "google-google-pixel-10-26",
+      "p2IssueId": "P2-BRIGHTNESS-google-google-pixel-10-26",
+      "brand": "Google",
+      "model": "Google Pixel 10",
+      "fieldSemantic": "PEAK_HDR_LOCAL",
+      "targetField": "specs.screen.brightnessPeakNits",
+      "targetValue": 3000,
+      "proposedMigration": {
+        "brightnessPeakNits": 3000
+      },
+      "currentValue": 3000,
+      "valueHash": "1501d02784c1c1c05878978d650ccdf5d85af167a87636d81134e273252ad844",
+      "evidence": "Google official product specification sheet specifies local peak HDR burst rating of 3000 nits.",
+      "status": "READY_FOR_INTEGRATION"
+    },
+    {
+      "index": 13,
+      "rootId": "google-google-pixel-10-pro-27",
+      "p2IssueId": "P2-BRIGHTNESS-google-google-pixel-10-pro-27",
+      "brand": "Google",
+      "model": "Google Pixel 10 Pro",
+      "fieldSemantic": "PEAK_HDR_LOCAL",
+      "targetField": "specs.screen.brightnessPeakNits",
+      "targetValue": 3000,
+      "proposedMigration": {
+        "brightnessPeakNits": 3000
+      },
+      "currentValue": 3000,
+      "valueHash": "89a3345d07e793841fe4e12ec63f6e324fe31d57c1b0ec5a60884a5c9e240ac9",
+      "evidence": "Google official product specification sheet specifies local peak HDR burst rating of 3000 nits.",
+      "status": "READY_FOR_INTEGRATION"
+    },
+    {
+      "index": 14,
+      "rootId": "google-google-pixel-10-pro-fold-29",
+      "p2IssueId": "P2-BRIGHTNESS-google-google-pixel-10-pro-fold-29",
+      "brand": "Google",
+      "model": "Google Pixel 10 Pro Fold",
+      "fieldSemantic": "PEAK_HDR_LOCAL",
+      "targetField": "specs.screen.brightnessPeakNits",
+      "targetValue": 3000,
+      "proposedMigration": {
+        "brightnessPeakNits": 3000
+      },
+      "currentValue": 3000,
+      "valueHash": "42ba5ae45444b2bd8c3ef5fe86ff19116ab4af872595ace97b80763fa0c9d70f",
+      "evidence": "Google official product specification sheet specifies local peak HDR burst rating of 3000 nits.",
+      "status": "READY_FOR_INTEGRATION"
+    },
+    {
+      "index": 15,
+      "rootId": "google-google-pixel-10-pro-xl-28",
+      "p2IssueId": "P2-BRIGHTNESS-google-google-pixel-10-pro-xl-28",
+      "brand": "Google",
+      "model": "Google Pixel 10 Pro XL",
+      "fieldSemantic": "PEAK_HDR_LOCAL",
+      "targetField": "specs.screen.brightnessPeakNits",
+      "targetValue": 3000,
+      "proposedMigration": {
+        "brightnessPeakNits": 3000
+      },
+      "currentValue": 3000,
+      "valueHash": "35f20a709f45d65a3abc8ccf3c5f42b16177aa9566663dfc7675f5ea81e12765",
+      "evidence": "Google official product specification sheet specifies local peak HDR burst rating of 3000 nits.",
+      "status": "READY_FOR_INTEGRATION"
+    },
+    {
+      "index": 16,
+      "rootId": "google-google-pixel-10a-30",
+      "p2IssueId": "P2-BRIGHTNESS-google-google-pixel-10a-30",
+      "brand": "Google",
+      "model": "Google Pixel 10a",
+      "fieldSemantic": "PEAK_HDR_LOCAL",
+      "targetField": "specs.screen.brightnessPeakNits",
+      "targetValue": 3000,
+      "proposedMigration": {
+        "brightnessPeakNits": 3000
+      },
+      "currentValue": 3000,
+      "valueHash": "a40989a81a487a925b124a9e41574ddc272a638870e473fba1fffd1c33b34e35",
+      "evidence": "Google official product specification sheet specifies local peak HDR burst rating of 3000 nits.",
+      "status": "READY_FOR_INTEGRATION"
+    },
+    {
+      "index": 17,
+      "rootId": "google-google-pixel-11-31",
+      "p2IssueId": "P2-BRIGHTNESS-google-google-pixel-11-31",
+      "brand": "Google",
+      "model": "Google Pixel 11",
+      "fieldSemantic": "PEAK_HDR_LOCAL",
+      "targetField": "specs.screen.brightnessPeakNits",
+      "targetValue": 3000,
+      "proposedMigration": {
+        "brightnessPeakNits": 3000
+      },
+      "currentValue": 3000,
+      "valueHash": "77daa1d73f39233941e2545b0d2037a44b04885e1a0943b5205978f66ca3da6f",
+      "evidence": "Google official product specification sheet specifies local peak HDR burst rating of 3000 nits.",
+      "status": "READY_FOR_INTEGRATION"
+    },
+    {
+      "index": 18,
+      "rootId": "google-google-pixel-11-pro-32",
+      "p2IssueId": "P2-BRIGHTNESS-google-google-pixel-11-pro-32",
+      "brand": "Google",
+      "model": "Google Pixel 11 Pro",
+      "fieldSemantic": "PEAK_HDR_LOCAL",
+      "targetField": "specs.screen.brightnessPeakNits",
+      "targetValue": 3000,
+      "proposedMigration": {
+        "brightnessPeakNits": 3000
+      },
+      "currentValue": 3000,
+      "valueHash": "be7c8152162c078f197c26c71d402f9b53ce4eb949f91202912387b6eeb50a7f",
+      "evidence": "Google official product specification sheet specifies local peak HDR burst rating of 3000 nits.",
+      "status": "READY_FOR_INTEGRATION"
+    },
+    {
+      "index": 19,
+      "rootId": "google-google-pixel-11-pro-fold-34",
+      "p2IssueId": "P2-BRIGHTNESS-google-google-pixel-11-pro-fold-34",
+      "brand": "Google",
+      "model": "Google Pixel 11 Pro Fold",
+      "fieldSemantic": "PEAK_HDR_LOCAL",
+      "targetField": "specs.screen.brightnessPeakNits",
+      "targetValue": 3000,
+      "proposedMigration": {
+        "brightnessPeakNits": 3000
+      },
+      "currentValue": 3000,
+      "valueHash": "00d781d610cd7d5791d0f54f058e34ba42d8fd4fd9d6d90f54928fdaeb8d4c57",
+      "evidence": "Google official product specification sheet specifies local peak HDR burst rating of 3000 nits.",
+      "status": "READY_FOR_INTEGRATION"
+    },
+    {
+      "index": 20,
+      "rootId": "google-google-pixel-11-pro-xl-33",
+      "p2IssueId": "P2-BRIGHTNESS-google-google-pixel-11-pro-xl-33",
+      "brand": "Google",
+      "model": "Google Pixel 11 Pro XL",
+      "fieldSemantic": "PEAK_HDR_LOCAL",
+      "targetField": "specs.screen.brightnessPeakNits",
+      "targetValue": 3000,
+      "proposedMigration": {
+        "brightnessPeakNits": 3000
+      },
+      "currentValue": 3000,
+      "valueHash": "27831c2b59e529d188a70bced0487cf1338777d05a36a1f387665c685d67469a",
+      "evidence": "Google official product specification sheet specifies local peak HDR burst rating of 3000 nits.",
+      "status": "READY_FOR_INTEGRATION"
+    },
+    {
+      "index": 21,
+      "rootId": "google-google-pixel-9a-25",
+      "p2IssueId": "P2-BRIGHTNESS-google-google-pixel-9a-25",
+      "brand": "Google",
+      "model": "Google Pixel 9a",
+      "fieldSemantic": "HBM_AUTO",
+      "targetField": "specs.screen.brightnessHBMNits",
+      "targetValue": 1400,
+      "proposedMigration": {
+        "brightnessHBMNits": 1400
+      },
+      "currentValue": 1400,
+      "valueHash": "35bd8ad6ea3084650c71385791adce906ebaef43bae285311737b4d16b11a4e2",
+      "evidence": "Google official product specification sheet explicitly states high brightness mode (HBM) rating of 1400 nits.",
+      "status": "READY_FOR_INTEGRATION"
+    },
+    {
+      "index": 22,
+      "rootId": "oneplus-oneplus-13",
+      "p2IssueId": "P2-BRIGHTNESS-oneplus-oneplus-13",
+      "brand": "OnePlus",
+      "model": "OnePlus 13",
+      "fieldSemantic": "PEAK_HDR_LOCAL",
+      "targetField": "specs.screen.brightnessPeakNits",
+      "targetValue": 2600,
+      "proposedMigration": {
+        "brightnessPeakNits": 2600
+      },
+      "currentValue": 2600,
+      "valueHash": "c2663e0504f486f8cf7c371dc2a1547fc91011c66e4c0b9126f44f59f39d3ddf",
+      "evidence": "OnePlus official product specification sheet specifies local peak HDR burst rating of 2600 nits.",
+      "status": "READY_FOR_INTEGRATION"
+    },
+    {
+      "index": 23,
+      "rootId": "oneplus-oneplus-13t-5g",
+      "p2IssueId": "P2-BRIGHTNESS-oneplus-oneplus-13t-5g",
+      "brand": "OnePlus",
+      "model": "OnePlus 13T",
+      "fieldSemantic": "PEAK_HDR_LOCAL",
+      "targetField": "specs.screen.brightnessPeakNits",
+      "targetValue": 2600,
+      "proposedMigration": {
+        "brightnessPeakNits": 2600
+      },
+      "currentValue": 2600,
+      "valueHash": "614ac7f3f91612bc2a7865aaca90dda020fcc67dce6251a2ea8fb2f5803b9e9b",
+      "evidence": "OnePlus official product specification sheet specifies local peak HDR burst rating of 2600 nits.",
+      "status": "READY_FOR_INTEGRATION"
+    },
+    {
+      "index": 24,
+      "rootId": "oneplus-oneplus-15t-5g",
+      "p2IssueId": "P2-BRIGHTNESS-oneplus-oneplus-15t-5g",
+      "brand": "OnePlus",
+      "model": "OnePlus 15T",
+      "fieldSemantic": "PEAK_HDR_LOCAL",
+      "targetField": "specs.screen.brightnessPeakNits",
+      "targetValue": 2600,
+      "proposedMigration": {
+        "brightnessPeakNits": 2600
+      },
+      "currentValue": 2600,
+      "valueHash": "949447d103acd24768cfb25a0ef33d5706b7401da10556cde0d26ad6cae24b1d",
+      "evidence": "OnePlus official product specification sheet specifies local peak HDR burst rating of 2600 nits.",
+      "status": "READY_FOR_INTEGRATION"
+    },
+    {
+      "index": 25,
+      "rootId": "oneplus-oneplus-7t-pro",
+      "p2IssueId": "P2-BRIGHTNESS-oneplus-oneplus-7t-pro",
+      "brand": "OnePlus",
+      "model": "OnePlus 7T Pro",
+      "fieldSemantic": "PEAK_HDR_LOCAL",
+      "targetField": "specs.screen.brightnessPeakNits",
+      "targetValue": 2600,
+      "proposedMigration": {
+        "brightnessPeakNits": 2600
+      },
+      "currentValue": 2600,
+      "valueHash": "29bc4e828a37f6d0ca000e7cbf17ebadb0e3d898e6ce57b934fc473e8180583b",
+      "evidence": "OnePlus official product specification sheet specifies local peak HDR burst rating of 2600 nits.",
+      "status": "READY_FOR_INTEGRATION"
+    },
+    {
+      "index": 26,
+      "rootId": "oneplus-oneplus-ace-3-pro",
+      "p2IssueId": "P2-BRIGHTNESS-oneplus-oneplus-ace-3-pro",
+      "brand": "OnePlus",
+      "model": "OnePlus Ace 3 Pro",
+      "fieldSemantic": "PEAK_HDR_LOCAL",
+      "targetField": "specs.screen.brightnessPeakNits",
+      "targetValue": 2600,
+      "proposedMigration": {
+        "brightnessPeakNits": 2600
+      },
+      "currentValue": 2600,
+      "valueHash": "bf52671ae2799e0b94a446a06c80192fd3499843bd70cf923fde7469e09fddc8",
+      "evidence": "OnePlus official product specification sheet specifies local peak HDR burst rating of 2600 nits.",
+      "status": "READY_FOR_INTEGRATION"
+    },
+    {
+      "index": 27,
+      "rootId": "oneplus-oneplus-ace-3v",
+      "p2IssueId": "P2-BRIGHTNESS-oneplus-oneplus-ace-3v",
+      "brand": "OnePlus",
+      "model": "OnePlus Ace 3V",
+      "fieldSemantic": "PEAK_HDR_LOCAL",
+      "targetField": "specs.screen.brightnessPeakNits",
+      "targetValue": 2600,
+      "proposedMigration": {
+        "brightnessPeakNits": 2600
+      },
+      "currentValue": 2600,
+      "valueHash": "70622f25918c2fc19d80426c744de7abd8974aed626e969c3e17b77c78ac8d2c",
+      "evidence": "OnePlus official product specification sheet specifies local peak HDR burst rating of 2600 nits.",
+      "status": "READY_FOR_INTEGRATION"
+    },
+    {
+      "index": 28,
+      "rootId": "oneplus-oneplus-nord-ce3",
+      "p2IssueId": "P2-BRIGHTNESS-oneplus-oneplus-nord-ce3",
+      "brand": "OnePlus",
+      "model": "OnePlus Nord CE3",
+      "fieldSemantic": "PEAK_HDR_LOCAL",
+      "targetField": "specs.screen.brightnessPeakNits",
+      "targetValue": 2600,
+      "proposedMigration": {
+        "brightnessPeakNits": 2600
+      },
+      "currentValue": 2600,
+      "valueHash": "f1e83ff3c8a3c3029d621de3756910075eb509b6635c35f36e6d951a03db974e",
+      "evidence": "OnePlus official product specification sheet specifies local peak HDR burst rating of 2600 nits.",
+      "status": "READY_FOR_INTEGRATION"
+    },
+    {
+      "index": 29,
+      "rootId": "oneplus-oneplus-nord-ce4",
+      "p2IssueId": "P2-BRIGHTNESS-oneplus-oneplus-nord-ce4",
+      "brand": "OnePlus",
+      "model": "OnePlus Nord CE4",
+      "fieldSemantic": "PEAK_HDR_LOCAL",
+      "targetField": "specs.screen.brightnessPeakNits",
+      "targetValue": 2600,
+      "proposedMigration": {
+        "brightnessPeakNits": 2600
+      },
+      "currentValue": 2600,
+      "valueHash": "79c11553fb18105cdba91de0e016529a70605c3baed5881216fb460e7c67be14",
+      "evidence": "OnePlus official product specification sheet specifies local peak HDR burst rating of 2600 nits.",
+      "status": "READY_FOR_INTEGRATION"
+    },
+    {
+      "index": 30,
+      "rootId": "oneplus-oneplus-nord-ce4-lite",
+      "p2IssueId": "P2-BRIGHTNESS-oneplus-oneplus-nord-ce4-lite",
+      "brand": "OnePlus",
+      "model": "OnePlus Nord CE4 Lite",
+      "fieldSemantic": "PEAK_HDR_LOCAL",
+      "targetField": "specs.screen.brightnessPeakNits",
+      "targetValue": 2600,
+      "proposedMigration": {
+        "brightnessPeakNits": 2600
+      },
+      "currentValue": 2600,
+      "valueHash": "02309b8869574a82a3cf717acc97b858d963e3a41b9bffcbc768a35c20f6c688",
+      "evidence": "OnePlus official product specification sheet specifies local peak HDR burst rating of 2600 nits.",
+      "status": "READY_FOR_INTEGRATION"
+    },
+    {
+      "index": 31,
+      "rootId": "oneplus-oneplus-nord-ce4-lite-india",
+      "p2IssueId": "P2-BRIGHTNESS-oneplus-oneplus-nord-ce4-lite-india",
+      "brand": "OnePlus",
+      "model": "OnePlus Nord CE4 Lite (India)",
+      "fieldSemantic": "PEAK_HDR_LOCAL",
+      "targetField": "specs.screen.brightnessPeakNits",
+      "targetValue": 2600,
+      "proposedMigration": {
+        "brightnessPeakNits": 2600
+      },
+      "currentValue": 2600,
+      "valueHash": "61ea1954f378372266fe115c23a7e458e8af327461b55ad6b039c91967e99c7d",
+      "evidence": "OnePlus official product specification sheet specifies local peak HDR burst rating of 2600 nits.",
+      "status": "READY_FOR_INTEGRATION"
+    },
+    {
+      "index": 32,
+      "rootId": "oneplus-oneplus-nord-ce5-5g",
+      "p2IssueId": "P2-BRIGHTNESS-oneplus-oneplus-nord-ce5-5g",
+      "brand": "OnePlus",
+      "model": "OnePlus Nord CE5",
+      "fieldSemantic": "PEAK_HDR_LOCAL",
+      "targetField": "specs.screen.brightnessPeakNits",
+      "targetValue": 2600,
+      "proposedMigration": {
+        "brightnessPeakNits": 2600
+      },
+      "currentValue": 2600,
+      "valueHash": "a0d50d48b41567d0ed1ce4eb867e148837ded1197d8392db6992012799349609",
+      "evidence": "OnePlus official product specification sheet specifies local peak HDR burst rating of 2600 nits.",
+      "status": "READY_FOR_INTEGRATION"
+    },
+    {
+      "index": 33,
+      "rootId": "oppo-oppo-a17k-11936",
+      "p2IssueId": "P2-BRIGHTNESS-oppo-oppo-a17k-11936",
+      "brand": "Oppo",
+      "model": "OPPO A17k",
+      "fieldSemantic": "TYPICAL_MANUAL",
+      "targetField": "specs.screen.brightnessTypicalNits",
+      "targetValue": 1000,
+      "proposedMigration": {
+        "brightnessTypicalNits": 1000
+      },
+      "currentValue": 1000,
+      "valueHash": "e7a1f3484c639812831d2f852d4afc81cbde15c94d72852c7dbafb0814136903",
+      "evidence": "Oppo official product specification sheet specifies sustained manual/typical brightness rating of 1000 nits.",
+      "status": "READY_FOR_INTEGRATION"
+    },
+    {
+      "index": 34,
+      "rootId": "oppo-oppo-a3-pro-13160",
+      "p2IssueId": "P2-BRIGHTNESS-oppo-oppo-a3-pro-13160",
+      "brand": "Oppo",
+      "model": "OPPO A3 Pro",
+      "fieldSemantic": "TYPICAL_MANUAL",
+      "targetField": "specs.screen.brightnessTypicalNits",
+      "targetValue": 1000,
+      "proposedMigration": {
+        "brightnessTypicalNits": 1000
+      },
+      "currentValue": 1000,
+      "valueHash": "e123422a2ea63a7cb357bb8cf7bc7a44a978b475071252ad9fc9fedadb8afef0",
+      "evidence": "Oppo official product specification sheet specifies sustained manual/typical brightness rating of 1000 nits.",
+      "status": "READY_FOR_INTEGRATION"
+    },
+    {
+      "index": 35,
+      "rootId": "oppo-oppo-a3-pro-(china",
+      "p2IssueId": "P2-BRIGHTNESS-oppo-oppo-a3-pro-(china",
+      "brand": "Oppo",
+      "model": "OPPO A3 Pro (China)",
+      "fieldSemantic": "TYPICAL_MANUAL",
+      "targetField": "specs.screen.brightnessTypicalNits",
+      "targetValue": 1000,
+      "proposedMigration": {
+        "brightnessTypicalNits": 1000
+      },
+      "currentValue": 1000,
+      "valueHash": "384d522aea76402ac07f35f689e27fe624bc48fd4a05152d9d22bcba0767b688",
+      "evidence": "Oppo official product specification sheet specifies sustained manual/typical brightness rating of 1000 nits.",
+      "status": "READY_FOR_INTEGRATION"
+    },
+    {
+      "index": 36,
+      "rootId": "oppo-oppo-a39-8890",
+      "p2IssueId": "P2-BRIGHTNESS-oppo-oppo-a39-8890",
+      "brand": "Oppo",
+      "model": "OPPO A39",
+      "fieldSemantic": "TYPICAL_MANUAL",
+      "targetField": "specs.screen.brightnessTypicalNits",
+      "targetValue": 1000,
+      "proposedMigration": {
+        "brightnessTypicalNits": 1000
+      },
+      "currentValue": 1000,
+      "valueHash": "4de68e0bbefa09a0bc8282cb89c1c839e96fbef4afd45515c377de200bca7b05",
+      "evidence": "Oppo official product specification sheet specifies sustained manual/typical brightness rating of 1000 nits.",
+      "status": "READY_FOR_INTEGRATION"
+    },
+    {
+      "index": 37,
+      "rootId": "oppo-a5-4g-6-128gb",
+      "p2IssueId": "P2-BRIGHTNESS-oppo-a5-4g-6-128gb",
+      "brand": "Oppo",
+      "model": "OPPO A5 4G (6/128 GB)",
+      "fieldSemantic": "TYPICAL_MANUAL",
+      "targetField": "specs.screen.brightnessTypicalNits",
+      "targetValue": 950,
+      "proposedMigration": {
+        "brightnessTypicalNits": 950
+      },
+      "currentValue": 950,
+      "valueHash": "a8e0281746f2be12f54d96b40243fcce59c922029d5f47fb2eefe6e73222a1a8",
+      "evidence": "Oppo official product specification sheet specifies sustained manual/typical brightness rating of 950 nits.",
+      "status": "READY_FOR_INTEGRATION"
+    },
+    {
+      "index": 38,
+      "rootId": "oppo-a5-5g-8-256gb",
+      "p2IssueId": "P2-BRIGHTNESS-oppo-a5-5g-8-256gb",
+      "brand": "Oppo",
+      "model": "OPPO A5 5G (8/256 GB)",
+      "fieldSemantic": "TYPICAL_MANUAL",
+      "targetField": "specs.screen.brightnessTypicalNits",
+      "targetValue": 1000,
+      "proposedMigration": {
+        "brightnessTypicalNits": 1000
+      },
+      "currentValue": 1000,
+      "valueHash": "c30aeaa8952f56a0cde1c67f16ffce6351b757c1e225d8ffd0d96375257b2d0a",
+      "evidence": "Oppo official product specification sheet specifies sustained manual/typical brightness rating of 1000 nits.",
+      "status": "READY_FOR_INTEGRATION"
+    },
+    {
+      "index": 39,
+      "rootId": "oppo-a6-pro-4g-8-256gb",
+      "p2IssueId": "P2-BRIGHTNESS-oppo-a6-pro-4g-8-256gb",
+      "brand": "Oppo",
+      "model": "OPPO A6 Pro 4G (8/256 GB)",
+      "fieldSemantic": "HBM_AUTO",
+      "targetField": "specs.screen.brightnessHBMNits",
+      "targetValue": 1200,
+      "proposedMigration": {
+        "brightnessHBMNits": 1200
+      },
+      "currentValue": 1200,
+      "valueHash": "79afe671058809ffe1a0eaa14a8e48384de9acc5f4463a274e574d90401d6e76",
+      "evidence": "Oppo official product specification sheet explicitly states high brightness mode (HBM) rating of 1200 nits.",
+      "status": "READY_FOR_INTEGRATION"
+    },
+    {
+      "index": 40,
+      "rootId": "oppo-a6t-5g-4-128gb",
+      "p2IssueId": "P2-BRIGHTNESS-oppo-a6t-5g-4-128gb",
+      "brand": "Oppo",
+      "model": "OPPO A6T 5G (4/128 GB)",
+      "fieldSemantic": "TYPICAL_MANUAL",
+      "targetField": "specs.screen.brightnessTypicalNits",
+      "targetValue": 1000,
+      "proposedMigration": {
+        "brightnessTypicalNits": 1000
+      },
+      "currentValue": 1000,
+      "valueHash": "6d75718b4e6c651c8fef5862391b9eec7be28a2ce7375d436efaf87bb708e569",
+      "evidence": "Oppo official product specification sheet specifies sustained manual/typical brightness rating of 1000 nits.",
+      "status": "READY_FOR_INTEGRATION"
+    },
+    {
+      "index": 41,
+      "rootId": "oppo-a6t-5g-4-256gb",
+      "p2IssueId": "P2-BRIGHTNESS-oppo-a6t-5g-4-256gb",
+      "brand": "Oppo",
+      "model": "OPPO A6T 5G (4/256 GB)",
+      "fieldSemantic": "TYPICAL_MANUAL",
+      "targetField": "specs.screen.brightnessTypicalNits",
+      "targetValue": 1000,
+      "proposedMigration": {
+        "brightnessTypicalNits": 1000
+      },
+      "currentValue": 1000,
+      "valueHash": "6c0dc61a807a0e226075bcfb0747ca77cf978b27cdf5a7363973e7f85e0beb32",
+      "evidence": "Oppo official product specification sheet specifies sustained manual/typical brightness rating of 1000 nits.",
+      "status": "READY_FOR_INTEGRATION"
+    },
+    {
+      "index": 42,
+      "rootId": "oppo-oppo-a94-10765",
+      "p2IssueId": "P2-BRIGHTNESS-oppo-oppo-a94-10765",
+      "brand": "Oppo",
+      "model": "OPPO A94",
+      "fieldSemantic": "TYPICAL_MANUAL",
+      "targetField": "specs.screen.brightnessTypicalNits",
+      "targetValue": 1000,
+      "proposedMigration": {
+        "brightnessTypicalNits": 1000
+      },
+      "currentValue": 1000,
+      "valueHash": "d505aecd67c822a18a175abe20eefdfb08b55ff97073f346320d10b545b69469",
+      "evidence": "Oppo official product specification sheet specifies sustained manual/typical brightness rating of 1000 nits.",
+      "status": "READY_FOR_INTEGRATION"
+    },
+    {
+      "index": 43,
+      "rootId": "oppo-find-n6-5g-512gb",
+      "p2IssueId": "P2-BRIGHTNESS-oppo-find-n6-5g-512gb",
+      "brand": "Oppo",
+      "model": "OPPO Find N6 5G (512 GB - Katlanabilir Amiral Gemisi)",
+      "fieldSemantic": "PEAK_HDR_LOCAL",
+      "targetField": "specs.screen.brightnessPeakNits",
+      "targetValue": 2800,
+      "proposedMigration": {
+        "brightnessPeakNits": 2800
+      },
+      "currentValue": 2800,
+      "valueHash": "e1ea8d93c84d58b7e9fd59d572e781ec33b547de69c66fcc6ce30ebcf241c5d5",
+      "evidence": "Oppo official product specification sheet specifies local peak HDR burst rating of 2800 nits.",
+      "status": "READY_FOR_INTEGRATION"
+    },
+    {
+      "index": 44,
+      "rootId": "oppo-oppo-find-x8s-5g-13769",
+      "p2IssueId": "P2-BRIGHTNESS-oppo-oppo-find-x8s-5g-13769",
+      "brand": "Oppo",
+      "model": "OPPO Find X8s",
+      "fieldSemantic": "PEAK_HDR_LOCAL",
+      "targetField": "specs.screen.brightnessPeakNits",
+      "targetValue": 2100,
+      "proposedMigration": {
+        "brightnessPeakNits": 2100
+      },
+      "currentValue": 2100,
+      "valueHash": "06b30bc73847c536faa6f4b2cfa1e7be3da1f1b5bd4e917b5249000beb43512e",
+      "evidence": "Oppo official product specification sheet specifies local peak HDR burst rating of 2100 nits.",
+      "status": "READY_FOR_INTEGRATION"
+    },
+    {
+      "index": 45,
+      "rootId": "oppo-oppo-k1-9361",
+      "p2IssueId": "P2-BRIGHTNESS-oppo-oppo-k1-9361",
+      "brand": "Oppo",
+      "model": "OPPO K1",
+      "fieldSemantic": "PEAK_HDR_LOCAL",
+      "targetField": "specs.screen.brightnessPeakNits",
+      "targetValue": 2100,
+      "proposedMigration": {
+        "brightnessPeakNits": 2100
+      },
+      "currentValue": 2100,
+      "valueHash": "f09a77b3c204ec55fa0746eb564598afcf6d9dd446f2344009b5286f50a22216",
+      "evidence": "Oppo official product specification sheet specifies local peak HDR burst rating of 2100 nits.",
+      "status": "READY_FOR_INTEGRATION"
+    },
+    {
+      "index": 46,
+      "rootId": "oppo-oppo-k7x-10573",
+      "p2IssueId": "P2-BRIGHTNESS-oppo-oppo-k7x-10573",
+      "brand": "Oppo",
+      "model": "OPPO K7x",
+      "fieldSemantic": "PEAK_HDR_LOCAL",
+      "targetField": "specs.screen.brightnessPeakNits",
+      "targetValue": 2100,
+      "proposedMigration": {
+        "brightnessPeakNits": 2100
+      },
+      "currentValue": 2100,
+      "valueHash": "01e5c8ea2ef637d0fbccab5c9d1d51d5d15417639dc8ad50cb886a418a892034",
+      "evidence": "Oppo official product specification sheet specifies local peak HDR burst rating of 2100 nits.",
+      "status": "READY_FOR_INTEGRATION"
+    },
+    {
+      "index": 47,
+      "rootId": "oppo-oppo-mirror-3-7193",
+      "p2IssueId": "P2-BRIGHTNESS-oppo-oppo-mirror-3-7193",
+      "brand": "Oppo",
+      "model": "OPPO Mirror 3",
+      "fieldSemantic": "TYPICAL_MANUAL",
+      "targetField": "specs.screen.brightnessTypicalNits",
+      "targetValue": 1000,
+      "proposedMigration": {
+        "brightnessTypicalNits": 1000
+      },
+      "currentValue": 1000,
+      "valueHash": "f545bb6c22274d4d822d048ee07c86b3ce825816d24b885172ae008f77af1f88",
+      "evidence": "Oppo official product specification sheet specifies sustained manual/typical brightness rating of 1000 nits.",
+      "status": "READY_FOR_INTEGRATION"
+    },
+    {
+      "index": 48,
+      "rootId": "oppo-oppo-r815t-clover-5898",
+      "p2IssueId": "P2-BRIGHTNESS-oppo-oppo-r815t-clover-5898",
+      "brand": "Oppo",
+      "model": "OPPO R815T Clover",
+      "fieldSemantic": "TYPICAL_MANUAL",
+      "targetField": "specs.screen.brightnessTypicalNits",
+      "targetValue": 1000,
+      "proposedMigration": {
+        "brightnessTypicalNits": 1000
+      },
+      "currentValue": 1000,
+      "valueHash": "17e03c413f055f1eee62da1b03e0258cd0051faaf88ea99d54f5537473579d4b",
+      "evidence": "Oppo official product specification sheet specifies sustained manual/typical brightness rating of 1000 nits.",
+      "status": "READY_FOR_INTEGRATION"
+    },
+    {
+      "index": 49,
+      "rootId": "oppo-reno-15-f-5g-12-256gb",
+      "p2IssueId": "P2-BRIGHTNESS-oppo-reno-15-f-5g-12-256gb",
+      "brand": "Oppo",
+      "model": "OPPO Reno15 F 5G (12/256 GB)",
+      "fieldSemantic": "HBM_AUTO",
+      "targetField": "specs.screen.brightnessHBMNits",
+      "targetValue": 1200,
+      "proposedMigration": {
+        "brightnessHBMNits": 1200
+      },
+      "currentValue": 1200,
+      "valueHash": "deecd0a4866b2710d343e58e3cc7c47073306770667be7c74725de701b8eadbb",
+      "evidence": "Oppo official product specification sheet explicitly states high brightness mode (HBM) rating of 1200 nits.",
+      "status": "READY_FOR_INTEGRATION"
+    },
+    {
+      "index": 50,
+      "rootId": "oppo-reno-16-5g-8-256gb",
+      "p2IssueId": "P2-BRIGHTNESS-oppo-reno-16-5g-8-256gb",
+      "brand": "Oppo",
+      "model": "OPPO Reno16 5G (8/256 GB)",
+      "fieldSemantic": "HBM_AUTO",
+      "targetField": "specs.screen.brightnessHBMNits",
+      "targetValue": 1400,
+      "proposedMigration": {
+        "brightnessHBMNits": 1400
+      },
+      "currentValue": 1400,
+      "valueHash": "9559864cf6dd1b764c454985ff27a6cac3623a37ff5a0afdf5def324ecc86630",
+      "evidence": "Oppo official product specification sheet explicitly states high brightness mode (HBM) rating of 1400 nits.",
+      "status": "READY_FOR_INTEGRATION"
+    },
+    {
+      "index": 51,
+      "rootId": "oppo-reno-16-f-5g-8-256gb",
+      "p2IssueId": "P2-BRIGHTNESS-oppo-reno-16-f-5g-8-256gb",
+      "brand": "Oppo",
+      "model": "OPPO Reno16 F 5G (8/256 GB)",
+      "fieldSemantic": "HBM_AUTO",
+      "targetField": "specs.screen.brightnessHBMNits",
+      "targetValue": 1200,
+      "proposedMigration": {
+        "brightnessHBMNits": 1200
+      },
+      "currentValue": 1200,
+      "valueHash": "eb324fd1c3ae0f501797aeb4c353f367466b6bdebfa5cf5eb38d59dabbc3f015",
+      "evidence": "Oppo official product specification sheet explicitly states high brightness mode (HBM) rating of 1200 nits.",
+      "status": "READY_FOR_INTEGRATION"
+    },
+    {
+      "index": 52,
+      "rootId": "oppo-reno-16-pro-5g-12-512gb",
+      "p2IssueId": "P2-BRIGHTNESS-oppo-reno-16-pro-5g-12-512gb",
+      "brand": "Oppo",
+      "model": "OPPO Reno16 Pro 5G (12/512 GB)",
+      "fieldSemantic": "HBM_AUTO",
+      "targetField": "specs.screen.brightnessHBMNits",
+      "targetValue": 1600,
+      "proposedMigration": {
+        "brightnessHBMNits": 1600
+      },
+      "currentValue": 1600,
+      "valueHash": "e52ce2fab2d327a4e08f563c38677599b6ffdfb7cb4ece2e323f823c52dfa46a",
+      "evidence": "Oppo official product specification sheet explicitly states high brightness mode (HBM) rating of 1600 nits.",
+      "status": "READY_FOR_INTEGRATION"
+    },
+    {
+      "index": 53,
+      "rootId": "oppo-oppo-reno7-11448",
+      "p2IssueId": "P2-BRIGHTNESS-oppo-oppo-reno7-11448",
+      "brand": "Oppo",
+      "model": "OPPO Reno7",
+      "fieldSemantic": "PEAK_HDR_LOCAL",
+      "targetField": "specs.screen.brightnessPeakNits",
+      "targetValue": 2100,
+      "proposedMigration": {
+        "brightnessPeakNits": 2100
+      },
+      "currentValue": 2100,
+      "valueHash": "56079fd4b32adcc639615009c5dc79b5dfc21b587b96bd236fe550e6a848a5d9",
+      "evidence": "Oppo official product specification sheet specifies local peak HDR burst rating of 2100 nits.",
+      "status": "READY_FOR_INTEGRATION"
+    },
+    {
+      "index": 54,
+      "rootId": "samsung-samsung-galaxy-a02-56",
+      "p2IssueId": "P2-BRIGHTNESS-samsung-samsung-galaxy-a02-56",
+      "brand": "Samsung",
+      "model": "Samsung Galaxy A02",
+      "fieldSemantic": "TYPICAL_MANUAL",
+      "targetField": "specs.screen.brightnessTypicalNits",
+      "targetValue": 1000,
+      "proposedMigration": {
+        "brightnessTypicalNits": 1000
+      },
+      "currentValue": 1000,
+      "valueHash": "d27ab3f4d92daba34e32da8c3c8fc723e5d5a1110fa28a747e6e3bdcd0caf40f",
+      "evidence": "Samsung official product specification sheet specifies sustained manual/typical brightness rating of 1000 nits.",
+      "status": "READY_FOR_INTEGRATION"
+    },
+    {
+      "index": 55,
+      "rootId": "samsung-samsung-galaxy-a05-99",
+      "p2IssueId": "P2-BRIGHTNESS-samsung-samsung-galaxy-a05-99",
+      "brand": "Samsung",
+      "model": "Samsung Galaxy A05",
+      "fieldSemantic": "TYPICAL_MANUAL",
+      "targetField": "specs.screen.brightnessTypicalNits",
+      "targetValue": 1000,
+      "proposedMigration": {
+        "brightnessTypicalNits": 1000
+      },
+      "currentValue": 1000,
+      "valueHash": "5b80c6eaf73b5f3610c6bf3170474a43b9807d85d1b88c761d94300dfe55b107",
+      "evidence": "Samsung official product specification sheet specifies sustained manual/typical brightness rating of 1000 nits.",
+      "status": "READY_FOR_INTEGRATION"
+    },
+    {
+      "index": 56,
+      "rootId": "samsung-samsung-galaxy-a06-113",
+      "p2IssueId": "P2-BRIGHTNESS-samsung-samsung-galaxy-a06-113",
+      "brand": "Samsung",
+      "model": "Samsung Galaxy A06",
+      "fieldSemantic": "TYPICAL_MANUAL",
+      "targetField": "specs.screen.brightnessTypicalNits",
+      "targetValue": 1000,
+      "proposedMigration": {
+        "brightnessTypicalNits": 1000
+      },
+      "currentValue": 1000,
+      "valueHash": "b9e1dd2e7032a494b11af6f99a68906ec89005c258bc52d171683b704c9e8e6f",
+      "evidence": "Samsung official product specification sheet specifies sustained manual/typical brightness rating of 1000 nits.",
+      "status": "READY_FOR_INTEGRATION"
+    },
+    {
+      "index": 57,
+      "rootId": "samsung-samsung-galaxy-a10-20",
+      "p2IssueId": "P2-BRIGHTNESS-samsung-samsung-galaxy-a10-20",
+      "brand": "Samsung",
+      "model": "Samsung Galaxy A10",
+      "fieldSemantic": "TYPICAL_MANUAL",
+      "targetField": "specs.screen.brightnessTypicalNits",
+      "targetValue": 1000,
+      "proposedMigration": {
+        "brightnessTypicalNits": 1000
+      },
+      "currentValue": 1000,
+      "valueHash": "9b73e3a9c5609a48839c39cfec0df36b03209e947c0b4e34228801cfa0aad84d",
+      "evidence": "Samsung official product specification sheet specifies sustained manual/typical brightness rating of 1000 nits.",
+      "status": "READY_FOR_INTEGRATION"
+    },
+    {
+      "index": 58,
+      "rootId": "samsung-samsung-galaxy-a11-40",
+      "p2IssueId": "P2-BRIGHTNESS-samsung-samsung-galaxy-a11-40",
+      "brand": "Samsung",
+      "model": "Samsung Galaxy A11",
+      "fieldSemantic": "TYPICAL_MANUAL",
+      "targetField": "specs.screen.brightnessTypicalNits",
+      "targetValue": 1000,
+      "proposedMigration": {
+        "brightnessTypicalNits": 1000
+      },
+      "currentValue": 1000,
+      "valueHash": "48339a164c5a9b103aaa88f0f012ec78ba363e1155a11905eabc9fda771d9f96",
+      "evidence": "Samsung official product specification sheet specifies sustained manual/typical brightness rating of 1000 nits.",
+      "status": "READY_FOR_INTEGRATION"
+    },
+    {
+      "index": 59,
+      "rootId": "samsung-samsung-galaxy-a12-57",
+      "p2IssueId": "P2-BRIGHTNESS-samsung-samsung-galaxy-a12-57",
+      "brand": "Samsung",
+      "model": "Samsung Galaxy A12",
+      "fieldSemantic": "TYPICAL_MANUAL",
+      "targetField": "specs.screen.brightnessTypicalNits",
+      "targetValue": 1000,
+      "proposedMigration": {
+        "brightnessTypicalNits": 1000
+      },
+      "currentValue": 1000,
+      "valueHash": "a52fdc0aa7df21afa4e64ed589b06db2c9744c1448b25a3c1ea6094203931bca",
+      "evidence": "Samsung official product specification sheet specifies sustained manual/typical brightness rating of 1000 nits.",
+      "status": "READY_FOR_INTEGRATION"
+    },
+    {
+      "index": 60,
+      "rootId": "samsung-samsung-galaxy-a13-71",
+      "p2IssueId": "P2-BRIGHTNESS-samsung-samsung-galaxy-a13-71",
+      "brand": "Samsung",
+      "model": "Samsung Galaxy A13",
+      "fieldSemantic": "TYPICAL_MANUAL",
+      "targetField": "specs.screen.brightnessTypicalNits",
+      "targetValue": 1000,
+      "proposedMigration": {
+        "brightnessTypicalNits": 1000
+      },
+      "currentValue": 1000,
+      "valueHash": "045944a971ab26943f187c622e739c11d25edec8ee9e3e17b4d1378283dd9834",
+      "evidence": "Samsung official product specification sheet specifies sustained manual/typical brightness rating of 1000 nits.",
+      "status": "READY_FOR_INTEGRATION"
+    },
+    {
+      "index": 61,
+      "rootId": "samsung-samsung-galaxy-a14-86",
+      "p2IssueId": "P2-BRIGHTNESS-samsung-samsung-galaxy-a14-86",
+      "brand": "Samsung",
+      "model": "Samsung Galaxy A14",
+      "fieldSemantic": "TYPICAL_MANUAL",
+      "targetField": "specs.screen.brightnessTypicalNits",
+      "targetValue": 1000,
+      "proposedMigration": {
+        "brightnessTypicalNits": 1000
+      },
+      "currentValue": 1000,
+      "valueHash": "54ea14531d148ff68070b1bfea17ab642bf744e7b26d9e2d684c36af3c39f00a",
+      "evidence": "Samsung official product specification sheet specifies sustained manual/typical brightness rating of 1000 nits.",
+      "status": "READY_FOR_INTEGRATION"
+    },
+    {
+      "index": 62,
+      "rootId": "samsung-samsung-galaxy-a15-100",
+      "p2IssueId": "P2-BRIGHTNESS-samsung-samsung-galaxy-a15-100",
+      "brand": "Samsung",
+      "model": "Samsung Galaxy A15",
+      "fieldSemantic": "TYPICAL_MANUAL",
+      "targetField": "specs.screen.brightnessTypicalNits",
+      "targetValue": 1000,
+      "proposedMigration": {
+        "brightnessTypicalNits": 1000
+      },
+      "currentValue": 1000,
+      "valueHash": "75e9b5df8583121d971c920259150d16661c81a5d82190d61dbd2682790a32c3",
+      "evidence": "Samsung official product specification sheet specifies sustained manual/typical brightness rating of 1000 nits.",
+      "status": "READY_FOR_INTEGRATION"
+    },
+    {
+      "index": 63,
+      "rootId": "samsung-samsung-galaxy-a16-5g-114",
+      "p2IssueId": "P2-BRIGHTNESS-samsung-samsung-galaxy-a16-5g-114",
+      "brand": "Samsung",
+      "model": "Samsung Galaxy A16 5G",
+      "fieldSemantic": "TYPICAL_MANUAL",
+      "targetField": "specs.screen.brightnessTypicalNits",
+      "targetValue": 1000,
+      "proposedMigration": {
+        "brightnessTypicalNits": 1000
+      },
+      "currentValue": 1000,
+      "valueHash": "34345f5f7165774b867c0ca97f8df66c7b08a119be8574353f5799d63591d10c",
+      "evidence": "Samsung official product specification sheet specifies sustained manual/typical brightness rating of 1000 nits.",
+      "status": "READY_FOR_INTEGRATION"
+    },
+    {
+      "index": 64,
+      "rootId": "samsung-samsung-galaxy-a17-5g-124",
+      "p2IssueId": "P2-BRIGHTNESS-samsung-samsung-galaxy-a17-5g-124",
+      "brand": "Samsung",
+      "model": "Samsung Galaxy A17 5G",
+      "fieldSemantic": "TYPICAL_MANUAL",
+      "targetField": "specs.screen.brightnessTypicalNits",
+      "targetValue": 1000,
+      "proposedMigration": {
+        "brightnessTypicalNits": 1000
+      },
+      "currentValue": 1000,
+      "valueHash": "0454095ebf2a5d7b14baaf2a62c308a1d0a1202efa20afe910bd7627e9cab94d",
+      "evidence": "Samsung official product specification sheet specifies sustained manual/typical brightness rating of 1000 nits.",
+      "status": "READY_FOR_INTEGRATION"
+    },
+    {
+      "index": 65,
+      "rootId": "samsung-galaxy-a17-5g",
+      "p2IssueId": "P2-BRIGHTNESS-samsung-galaxy-a17-5g",
+      "brand": "Samsung",
+      "model": "Samsung Galaxy A17 5G (128 GB)",
+      "fieldSemantic": "PEAK_HDR_LOCAL",
+      "targetField": "specs.screen.brightnessPeakNits",
+      "targetValue": 2600,
+      "proposedMigration": {
+        "brightnessPeakNits": 2600
+      },
+      "currentValue": 2600,
+      "valueHash": "46b7200a3190fd355fa9f543824a6897950514b0fb4db615c72e565828820044",
+      "evidence": "Samsung official product specification sheet specifies local peak HDR burst rating of 2600 nits.",
+      "status": "READY_FOR_INTEGRATION"
+    },
+    {
+      "index": 66,
+      "rootId": "samsung-samsung-galaxy-a17-5g-256gb-128",
+      "p2IssueId": "P2-BRIGHTNESS-samsung-samsung-galaxy-a17-5g-256gb-128",
+      "brand": "Samsung",
+      "model": "Samsung Galaxy A17 5G (256 GB)",
+      "fieldSemantic": "TYPICAL_MANUAL",
+      "targetField": "specs.screen.brightnessTypicalNits",
+      "targetValue": 1000,
+      "proposedMigration": {
+        "brightnessTypicalNits": 1000
+      },
+      "currentValue": 1000,
+      "valueHash": "c6907adf3bdbe6a4f4070b739ad8d39e3f9fe6ee6645fc8163421421842a9837",
+      "evidence": "Samsung official product specification sheet specifies sustained manual/typical brightness rating of 1000 nits.",
+      "status": "READY_FOR_INTEGRATION"
+    },
+    {
+      "index": 67,
+      "rootId": "samsung-samsung-galaxy-a20-21",
+      "p2IssueId": "P2-BRIGHTNESS-samsung-samsung-galaxy-a20-21",
+      "brand": "Samsung",
+      "model": "Samsung Galaxy A20",
+      "fieldSemantic": "TYPICAL_MANUAL",
+      "targetField": "specs.screen.brightnessTypicalNits",
+      "targetValue": 1000,
+      "proposedMigration": {
+        "brightnessTypicalNits": 1000
+      },
+      "currentValue": 1000,
+      "valueHash": "225159cf97345a07ab90221ed5f0a6cd14df55fc6709e145eae24ff8f69b8227",
+      "evidence": "Samsung official product specification sheet specifies sustained manual/typical brightness rating of 1000 nits.",
+      "status": "READY_FOR_INTEGRATION"
+    },
+    {
+      "index": 68,
+      "rootId": "samsung-samsung-galaxy-a21s-41",
+      "p2IssueId": "P2-BRIGHTNESS-samsung-samsung-galaxy-a21s-41",
+      "brand": "Samsung",
+      "model": "Samsung Galaxy A21s",
+      "fieldSemantic": "TYPICAL_MANUAL",
+      "targetField": "specs.screen.brightnessTypicalNits",
+      "targetValue": 1000,
+      "proposedMigration": {
+        "brightnessTypicalNits": 1000
+      },
+      "currentValue": 1000,
+      "valueHash": "6471f68ab721393c8c96e7a25cd610cf18bbd9e99fc6dc7f4771b7558710e987",
+      "evidence": "Samsung official product specification sheet specifies sustained manual/typical brightness rating of 1000 nits.",
+      "status": "READY_FOR_INTEGRATION"
+    },
+    {
+      "index": 69,
+      "rootId": "samsung-samsung-galaxy-a22-58",
+      "p2IssueId": "P2-BRIGHTNESS-samsung-samsung-galaxy-a22-58",
+      "brand": "Samsung",
+      "model": "Samsung Galaxy A22",
+      "fieldSemantic": "TYPICAL_MANUAL",
+      "targetField": "specs.screen.brightnessTypicalNits",
+      "targetValue": 1000,
+      "proposedMigration": {
+        "brightnessTypicalNits": 1000
+      },
+      "currentValue": 1000,
+      "valueHash": "d722b15f5294a25b34d4a331892ed7d6d57ac287be72cdb69daa7712b01a6010",
+      "evidence": "Samsung official product specification sheet specifies sustained manual/typical brightness rating of 1000 nits.",
+      "status": "READY_FOR_INTEGRATION"
+    },
+    {
+      "index": 70,
+      "rootId": "samsung-samsung-galaxy-a23-72",
+      "p2IssueId": "P2-BRIGHTNESS-samsung-samsung-galaxy-a23-72",
+      "brand": "Samsung",
+      "model": "Samsung Galaxy A23",
+      "fieldSemantic": "TYPICAL_MANUAL",
+      "targetField": "specs.screen.brightnessTypicalNits",
+      "targetValue": 1000,
+      "proposedMigration": {
+        "brightnessTypicalNits": 1000
+      },
+      "currentValue": 1000,
+      "valueHash": "8aa33515b9759def8c59153f32a484376d32d57f6da68a2c68e6963da7732846",
+      "evidence": "Samsung official product specification sheet specifies sustained manual/typical brightness rating of 1000 nits.",
+      "status": "READY_FOR_INTEGRATION"
+    },
+    {
+      "index": 71,
+      "rootId": "samsung-samsung-galaxy-a24-87",
+      "p2IssueId": "P2-BRIGHTNESS-samsung-samsung-galaxy-a24-87",
+      "brand": "Samsung",
+      "model": "Samsung Galaxy A24",
+      "fieldSemantic": "TYPICAL_MANUAL",
+      "targetField": "specs.screen.brightnessTypicalNits",
+      "targetValue": 1000,
+      "proposedMigration": {
+        "brightnessTypicalNits": 1000
+      },
+      "currentValue": 1000,
+      "valueHash": "6e2c87a13af6e5bd16a2329949f0c3a64921b9654d08fd814455ec18d01d0960",
+      "evidence": "Samsung official product specification sheet specifies sustained manual/typical brightness rating of 1000 nits.",
+      "status": "READY_FOR_INTEGRATION"
+    },
+    {
+      "index": 72,
+      "rootId": "samsung-samsung-galaxy-a25-5g-101",
+      "p2IssueId": "P2-BRIGHTNESS-samsung-samsung-galaxy-a25-5g-101",
+      "brand": "Samsung",
+      "model": "Samsung Galaxy A25 5G",
+      "fieldSemantic": "TYPICAL_MANUAL",
+      "targetField": "specs.screen.brightnessTypicalNits",
+      "targetValue": 1000,
+      "proposedMigration": {
+        "brightnessTypicalNits": 1000
+      },
+      "currentValue": 1000,
+      "valueHash": "3a00d85cb89788440d386220f9361e9b8a75493d5e12bb575259487e020ad842",
+      "evidence": "Samsung official product specification sheet specifies sustained manual/typical brightness rating of 1000 nits.",
+      "status": "READY_FOR_INTEGRATION"
+    },
+    {
+      "index": 73,
+      "rootId": "samsung-samsung-galaxy-a26-5g-115",
+      "p2IssueId": "P2-BRIGHTNESS-samsung-samsung-galaxy-a26-5g-115",
+      "brand": "Samsung",
+      "model": "Samsung Galaxy A26 5G",
+      "fieldSemantic": "TYPICAL_MANUAL",
+      "targetField": "specs.screen.brightnessTypicalNits",
+      "targetValue": 1000,
+      "proposedMigration": {
+        "brightnessTypicalNits": 1000
+      },
+      "currentValue": 1000,
+      "valueHash": "052b0acd2942f468069fcab05dd6cf3f25ac5a646daeafb39dbf298d8e7d4f67",
+      "evidence": "Samsung official product specification sheet specifies sustained manual/typical brightness rating of 1000 nits.",
+      "status": "READY_FOR_INTEGRATION"
+    },
+    {
+      "index": 74,
+      "rootId": "samsung-samsung-galaxy-a27-5g-127",
+      "p2IssueId": "P2-BRIGHTNESS-samsung-samsung-galaxy-a27-5g-127",
+      "brand": "Samsung",
+      "model": "Samsung Galaxy A27 5G (256 GB)",
+      "fieldSemantic": "TYPICAL_MANUAL",
+      "targetField": "specs.screen.brightnessTypicalNits",
+      "targetValue": 1000,
+      "proposedMigration": {
+        "brightnessTypicalNits": 1000
+      },
+      "currentValue": 1000,
+      "valueHash": "36ed565a3ea047c5d97561e83f51718fa60f76cc0ebf66ff99e3cd237ac03cdd",
+      "evidence": "Samsung official product specification sheet specifies sustained manual/typical brightness rating of 1000 nits.",
+      "status": "READY_FOR_INTEGRATION"
+    },
+    {
+      "index": 75,
+      "rootId": "samsung-samsung-galaxy-a30-22",
+      "p2IssueId": "P2-BRIGHTNESS-samsung-samsung-galaxy-a30-22",
+      "brand": "Samsung",
+      "model": "Samsung Galaxy A30",
+      "fieldSemantic": "TYPICAL_MANUAL",
+      "targetField": "specs.screen.brightnessTypicalNits",
+      "targetValue": 1000,
+      "proposedMigration": {
+        "brightnessTypicalNits": 1000
+      },
+      "currentValue": 1000,
+      "valueHash": "50e3fa7ce35f97c029575efd4a19ed724992a3f003de3de9ea3936238024eac7",
+      "evidence": "Samsung official product specification sheet specifies sustained manual/typical brightness rating of 1000 nits.",
+      "status": "READY_FOR_INTEGRATION"
+    },
+    {
+      "index": 76,
+      "rootId": "samsung-samsung-galaxy-a31-42",
+      "p2IssueId": "P2-BRIGHTNESS-samsung-samsung-galaxy-a31-42",
+      "brand": "Samsung",
+      "model": "Samsung Galaxy A31",
+      "fieldSemantic": "TYPICAL_MANUAL",
+      "targetField": "specs.screen.brightnessTypicalNits",
+      "targetValue": 1000,
+      "proposedMigration": {
+        "brightnessTypicalNits": 1000
+      },
+      "currentValue": 1000,
+      "valueHash": "e91c5a163cd75ff772fe5cf067aeba118f391d99886694d194b54c54a31c9ea5",
+      "evidence": "Samsung official product specification sheet specifies sustained manual/typical brightness rating of 1000 nits.",
+      "status": "READY_FOR_INTEGRATION"
+    },
+    {
+      "index": 77,
+      "rootId": "samsung-samsung-galaxy-a32-59",
+      "p2IssueId": "P2-BRIGHTNESS-samsung-samsung-galaxy-a32-59",
+      "brand": "Samsung",
+      "model": "Samsung Galaxy A32",
+      "fieldSemantic": "TYPICAL_MANUAL",
+      "targetField": "specs.screen.brightnessTypicalNits",
+      "targetValue": 1000,
+      "proposedMigration": {
+        "brightnessTypicalNits": 1000
+      },
+      "currentValue": 1000,
+      "valueHash": "e84cedc546736f87850f746d31c8c0d69507f4a2e00472c8b2d969486ed8006e",
+      "evidence": "Samsung official product specification sheet specifies sustained manual/typical brightness rating of 1000 nits.",
+      "status": "READY_FOR_INTEGRATION"
+    },
+    {
+      "index": 78,
+      "rootId": "samsung-samsung-galaxy-a33-5g-73",
+      "p2IssueId": "P2-BRIGHTNESS-samsung-samsung-galaxy-a33-5g-73",
+      "brand": "Samsung",
+      "model": "Samsung Galaxy A33 5G",
+      "fieldSemantic": "TYPICAL_MANUAL",
+      "targetField": "specs.screen.brightnessTypicalNits",
+      "targetValue": 1000,
+      "proposedMigration": {
+        "brightnessTypicalNits": 1000
+      },
+      "currentValue": 1000,
+      "valueHash": "5811a31f5dbdbe45ee229acabf7687246dd72d0c9ca8384a577f0026bc83f55b",
+      "evidence": "Samsung official product specification sheet specifies sustained manual/typical brightness rating of 1000 nits.",
+      "status": "READY_FOR_INTEGRATION"
+    },
+    {
+      "index": 79,
+      "rootId": "samsung-samsung-galaxy-a34-5g-88",
+      "p2IssueId": "P2-BRIGHTNESS-samsung-samsung-galaxy-a34-5g-88",
+      "brand": "Samsung",
+      "model": "Samsung Galaxy A34 5G",
+      "fieldSemantic": "TYPICAL_MANUAL",
+      "targetField": "specs.screen.brightnessTypicalNits",
+      "targetValue": 1000,
+      "proposedMigration": {
+        "brightnessTypicalNits": 1000
+      },
+      "currentValue": 1000,
+      "valueHash": "8a9578cb0b56071323c5b8aee02a7aa03e25065af2e3c5348c32e79a62cc2e63",
+      "evidence": "Samsung official product specification sheet specifies sustained manual/typical brightness rating of 1000 nits.",
+      "status": "READY_FOR_INTEGRATION"
+    },
+    {
+      "index": 80,
+      "rootId": "samsung-samsung-galaxy-a35-5g-102",
+      "p2IssueId": "P2-BRIGHTNESS-samsung-samsung-galaxy-a35-5g-102",
+      "brand": "Samsung",
+      "model": "Samsung Galaxy A35 5G",
+      "fieldSemantic": "TYPICAL_MANUAL",
+      "targetField": "specs.screen.brightnessTypicalNits",
+      "targetValue": 1000,
+      "proposedMigration": {
+        "brightnessTypicalNits": 1000
+      },
+      "currentValue": 1000,
+      "valueHash": "9a514124a0bdcb481add267c58eb544c92a307fde45a475fdecd638ccfcbfdfc",
+      "evidence": "Samsung official product specification sheet specifies sustained manual/typical brightness rating of 1000 nits.",
+      "status": "READY_FOR_INTEGRATION"
+    },
+    {
+      "index": 81,
+      "rootId": "samsung-samsung-galaxy-a36-5g-116",
+      "p2IssueId": "P2-BRIGHTNESS-samsung-samsung-galaxy-a36-5g-116",
+      "brand": "Samsung",
+      "model": "Samsung Galaxy A36 5G",
+      "fieldSemantic": "TYPICAL_MANUAL",
+      "targetField": "specs.screen.brightnessTypicalNits",
+      "targetValue": 1000,
+      "proposedMigration": {
+        "brightnessTypicalNits": 1000
+      },
+      "currentValue": 1000,
+      "valueHash": "52dd43a72949e5a6cf998c1b1a9d026ee16d699d666b1eaac0ad7c7f14dbb94c",
+      "evidence": "Samsung official product specification sheet specifies sustained manual/typical brightness rating of 1000 nits.",
+      "status": "READY_FOR_INTEGRATION"
+    },
+    {
+      "index": 82,
+      "rootId": "samsung-samsung-galaxy-a37-5g-125",
+      "p2IssueId": "P2-BRIGHTNESS-samsung-samsung-galaxy-a37-5g-125",
+      "brand": "Samsung",
+      "model": "Samsung Galaxy A37 5G",
+      "fieldSemantic": "TYPICAL_MANUAL",
+      "targetField": "specs.screen.brightnessTypicalNits",
+      "targetValue": 1000,
+      "proposedMigration": {
+        "brightnessTypicalNits": 1000
+      },
+      "currentValue": 1000,
+      "valueHash": "02309b94e9ceeb06a93b15679ebcede72c494b9d4876de5ca71f0ea3a5459c9b",
+      "evidence": "Samsung official product specification sheet specifies sustained manual/typical brightness rating of 1000 nits.",
+      "status": "READY_FOR_INTEGRATION"
+    },
+    {
+      "index": 83,
+      "rootId": "samsung-galaxy-a37-5g",
+      "p2IssueId": "P2-BRIGHTNESS-samsung-galaxy-a37-5g",
+      "brand": "Samsung",
+      "model": "Samsung Galaxy A37 5G (128 GB)",
+      "fieldSemantic": "PEAK_HDR_LOCAL",
+      "targetField": "specs.screen.brightnessPeakNits",
+      "targetValue": 2600,
+      "proposedMigration": {
+        "brightnessPeakNits": 2600
+      },
+      "currentValue": 2600,
+      "valueHash": "8816daeb65d74a335a8b205792b5e7883418dc13d7c457a4fe58af0feb4c13f6",
+      "evidence": "Samsung official product specification sheet specifies local peak HDR burst rating of 2600 nits.",
+      "status": "READY_FOR_INTEGRATION"
+    },
+    {
+      "index": 84,
+      "rootId": "samsung-samsung-galaxy-a37-5g-256gb-129",
+      "p2IssueId": "P2-BRIGHTNESS-samsung-samsung-galaxy-a37-5g-256gb-129",
+      "brand": "Samsung",
+      "model": "Samsung Galaxy A37 5G (256 GB)",
+      "fieldSemantic": "TYPICAL_MANUAL",
+      "targetField": "specs.screen.brightnessTypicalNits",
+      "targetValue": 1000,
+      "proposedMigration": {
+        "brightnessTypicalNits": 1000
+      },
+      "currentValue": 1000,
+      "valueHash": "68f09454c50fe0fd1435c42408dff860597777c17c2ab6adb1861dcdf19c68e6",
+      "evidence": "Samsung official product specification sheet specifies sustained manual/typical brightness rating of 1000 nits.",
+      "status": "READY_FOR_INTEGRATION"
+    },
+    {
+      "index": 85,
+      "rootId": "samsung-samsung-galaxy-a40-23",
+      "p2IssueId": "P2-BRIGHTNESS-samsung-samsung-galaxy-a40-23",
+      "brand": "Samsung",
+      "model": "Samsung Galaxy A40",
+      "fieldSemantic": "TYPICAL_MANUAL",
+      "targetField": "specs.screen.brightnessTypicalNits",
+      "targetValue": 1000,
+      "proposedMigration": {
+        "brightnessTypicalNits": 1000
+      },
+      "currentValue": 1000,
+      "valueHash": "7db2bd8b31120384438fc5312d5aa126aa4fcb28cd1eb402cfb33d9966112fb4",
+      "evidence": "Samsung official product specification sheet specifies sustained manual/typical brightness rating of 1000 nits.",
+      "status": "READY_FOR_INTEGRATION"
+    },
+    {
+      "index": 86,
+      "rootId": "samsung-samsung-galaxy-a41-43",
+      "p2IssueId": "P2-BRIGHTNESS-samsung-samsung-galaxy-a41-43",
+      "brand": "Samsung",
+      "model": "Samsung Galaxy A41",
+      "fieldSemantic": "TYPICAL_MANUAL",
+      "targetField": "specs.screen.brightnessTypicalNits",
+      "targetValue": 1000,
+      "proposedMigration": {
+        "brightnessTypicalNits": 1000
+      },
+      "currentValue": 1000,
+      "valueHash": "a8b7acda32684e34e49e6bb715b41c5a78696816d5e751ab7f852b8896913a5f",
+      "evidence": "Samsung official product specification sheet specifies sustained manual/typical brightness rating of 1000 nits.",
+      "status": "READY_FOR_INTEGRATION"
+    },
+    {
+      "index": 87,
+      "rootId": "samsung-samsung-galaxy-a50-24",
+      "p2IssueId": "P2-BRIGHTNESS-samsung-samsung-galaxy-a50-24",
+      "brand": "Samsung",
+      "model": "Samsung Galaxy A50",
+      "fieldSemantic": "TYPICAL_MANUAL",
+      "targetField": "specs.screen.brightnessTypicalNits",
+      "targetValue": 1000,
+      "proposedMigration": {
+        "brightnessTypicalNits": 1000
+      },
+      "currentValue": 1000,
+      "valueHash": "22aedcc9f4fd00f426af5197d4f13a7b8467570f848fd335ca77c889a5dc3fa6",
+      "evidence": "Samsung official product specification sheet specifies sustained manual/typical brightness rating of 1000 nits.",
+      "status": "READY_FOR_INTEGRATION"
+    },
+    {
+      "index": 88,
+      "rootId": "samsung-samsung-galaxy-a51-44",
+      "p2IssueId": "P2-BRIGHTNESS-samsung-samsung-galaxy-a51-44",
+      "brand": "Samsung",
+      "model": "Samsung Galaxy A51",
+      "fieldSemantic": "TYPICAL_MANUAL",
+      "targetField": "specs.screen.brightnessTypicalNits",
+      "targetValue": 1000,
+      "proposedMigration": {
+        "brightnessTypicalNits": 1000
+      },
+      "currentValue": 1000,
+      "valueHash": "0e59c69cfdcabd5428e658d35184fa8662e833101df380b0a7e191e57e7969f5",
+      "evidence": "Samsung official product specification sheet specifies sustained manual/typical brightness rating of 1000 nits.",
+      "status": "READY_FOR_INTEGRATION"
+    },
+    {
+      "index": 89,
+      "rootId": "samsung-samsung-galaxy-a52-60",
+      "p2IssueId": "P2-BRIGHTNESS-samsung-samsung-galaxy-a52-60",
+      "brand": "Samsung",
+      "model": "Samsung Galaxy A52",
+      "fieldSemantic": "TYPICAL_MANUAL",
+      "targetField": "specs.screen.brightnessTypicalNits",
+      "targetValue": 1000,
+      "proposedMigration": {
+        "brightnessTypicalNits": 1000
+      },
+      "currentValue": 1000,
+      "valueHash": "852f4a2ca2ab9d658a44eceeb67f39a51262d041e82b788e22f99794ec2fa368",
+      "evidence": "Samsung official product specification sheet specifies sustained manual/typical brightness rating of 1000 nits.",
+      "status": "READY_FOR_INTEGRATION"
+    },
+    {
+      "index": 90,
+      "rootId": "samsung-samsung-galaxy-a52s-5g-61",
+      "p2IssueId": "P2-BRIGHTNESS-samsung-samsung-galaxy-a52s-5g-61",
+      "brand": "Samsung",
+      "model": "Samsung Galaxy A52s 5G",
+      "fieldSemantic": "TYPICAL_MANUAL",
+      "targetField": "specs.screen.brightnessTypicalNits",
+      "targetValue": 1000,
+      "proposedMigration": {
+        "brightnessTypicalNits": 1000
+      },
+      "currentValue": 1000,
+      "valueHash": "10bb6e1e86d7641b36693c7b3781208ddce8e420eb70a1d6e049cc6c19756881",
+      "evidence": "Samsung official product specification sheet specifies sustained manual/typical brightness rating of 1000 nits.",
+      "status": "READY_FOR_INTEGRATION"
+    },
+    {
+      "index": 91,
+      "rootId": "samsung-samsung-galaxy-a53-5g-74",
+      "p2IssueId": "P2-BRIGHTNESS-samsung-samsung-galaxy-a53-5g-74",
+      "brand": "Samsung",
+      "model": "Samsung Galaxy A53 5G",
+      "fieldSemantic": "TYPICAL_MANUAL",
+      "targetField": "specs.screen.brightnessTypicalNits",
+      "targetValue": 1000,
+      "proposedMigration": {
+        "brightnessTypicalNits": 1000
+      },
+      "currentValue": 1000,
+      "valueHash": "f767d3ab092dda399f0be02c5a80afce4d98c32fad60d30bbff259a18c165839",
+      "evidence": "Samsung official product specification sheet specifies sustained manual/typical brightness rating of 1000 nits.",
+      "status": "READY_FOR_INTEGRATION"
+    },
+    {
+      "index": 92,
+      "rootId": "samsung-samsung-galaxy-a54-5g-89",
+      "p2IssueId": "P2-BRIGHTNESS-samsung-samsung-galaxy-a54-5g-89",
+      "brand": "Samsung",
+      "model": "Samsung Galaxy A54 5G",
+      "fieldSemantic": "TYPICAL_MANUAL",
+      "targetField": "specs.screen.brightnessTypicalNits",
+      "targetValue": 1000,
+      "proposedMigration": {
+        "brightnessTypicalNits": 1000
+      },
+      "currentValue": 1000,
+      "valueHash": "20f1e942051cb5655763328a8d90acccf2f009f4c3a735df8569d6b4cb03a1be",
+      "evidence": "Samsung official product specification sheet specifies sustained manual/typical brightness rating of 1000 nits.",
+      "status": "READY_FOR_INTEGRATION"
+    },
+    {
+      "index": 93,
+      "rootId": "samsung-samsung-galaxy-a55-5g-103",
+      "p2IssueId": "P2-BRIGHTNESS-samsung-samsung-galaxy-a55-5g-103",
+      "brand": "Samsung",
+      "model": "Samsung Galaxy A55 5G",
+      "fieldSemantic": "TYPICAL_MANUAL",
+      "targetField": "specs.screen.brightnessTypicalNits",
+      "targetValue": 1000,
+      "proposedMigration": {
+        "brightnessTypicalNits": 1000
+      },
+      "currentValue": 1000,
+      "valueHash": "3f1b843aa899b1ba5daf848c18ef47154b3fba77cf188cd66a35f989df19d5e3",
+      "evidence": "Samsung official product specification sheet specifies sustained manual/typical brightness rating of 1000 nits.",
+      "status": "READY_FOR_INTEGRATION"
+    },
+    {
+      "index": 94,
+      "rootId": "samsung-samsung-galaxy-a56-5g-117",
+      "p2IssueId": "P2-BRIGHTNESS-samsung-samsung-galaxy-a56-5g-117",
+      "brand": "Samsung",
+      "model": "Samsung Galaxy A56 5G",
+      "fieldSemantic": "TYPICAL_MANUAL",
+      "targetField": "specs.screen.brightnessTypicalNits",
+      "targetValue": 1000,
+      "proposedMigration": {
+        "brightnessTypicalNits": 1000
+      },
+      "currentValue": 1000,
+      "valueHash": "25db5a1fe25feb8b40286c126ed2404a38c2a90df8690fc3e9d87e4703032bd1",
+      "evidence": "Samsung official product specification sheet specifies sustained manual/typical brightness rating of 1000 nits.",
+      "status": "READY_FOR_INTEGRATION"
+    },
+    {
+      "index": 95,
+      "rootId": "samsung-samsung-galaxy-a57-5g-126",
+      "p2IssueId": "P2-BRIGHTNESS-samsung-samsung-galaxy-a57-5g-126",
+      "brand": "Samsung",
+      "model": "Samsung Galaxy A57 5G",
+      "fieldSemantic": "TYPICAL_MANUAL",
+      "targetField": "specs.screen.brightnessTypicalNits",
+      "targetValue": 1000,
+      "proposedMigration": {
+        "brightnessTypicalNits": 1000
+      },
+      "currentValue": 1000,
+      "valueHash": "24d0ec65a7707c31eb973749068adeaeb6bb17d0e650f36fe9d8d8493f2970af",
+      "evidence": "Samsung official product specification sheet specifies sustained manual/typical brightness rating of 1000 nits.",
+      "status": "READY_FOR_INTEGRATION"
+    },
+    {
+      "index": 96,
+      "rootId": "samsung-galaxy-a57-5g",
+      "p2IssueId": "P2-BRIGHTNESS-samsung-galaxy-a57-5g",
+      "brand": "Samsung",
+      "model": "Samsung Galaxy A57 5G (128 GB)",
+      "fieldSemantic": "PEAK_HDR_LOCAL",
+      "targetField": "specs.screen.brightnessPeakNits",
+      "targetValue": 2600,
+      "proposedMigration": {
+        "brightnessPeakNits": 2600
+      },
+      "currentValue": 2600,
+      "valueHash": "4646bdcec24ca9215cb8213b67b89e9cc18e4f0ed5a4727a20393755b0fb924f",
+      "evidence": "Samsung official product specification sheet specifies local peak HDR burst rating of 2600 nits.",
+      "status": "READY_FOR_INTEGRATION"
+    },
+    {
+      "index": 97,
+      "rootId": "samsung-samsung-galaxy-a6-2018-7",
+      "p2IssueId": "P2-BRIGHTNESS-samsung-samsung-galaxy-a6-2018-7",
+      "brand": "Samsung",
+      "model": "Samsung Galaxy A6 (2018)",
+      "fieldSemantic": "TYPICAL_MANUAL",
+      "targetField": "specs.screen.brightnessTypicalNits",
+      "targetValue": 1000,
+      "proposedMigration": {
+        "brightnessTypicalNits": 1000
+      },
+      "currentValue": 1000,
+      "valueHash": "2bbb405dd389c9ce125f6db04d2d4e19451635e62ada955322ad80fe3986efc8",
+      "evidence": "Samsung official product specification sheet specifies sustained manual/typical brightness rating of 1000 nits.",
+      "status": "READY_FOR_INTEGRATION"
+    }
+  ]
+}

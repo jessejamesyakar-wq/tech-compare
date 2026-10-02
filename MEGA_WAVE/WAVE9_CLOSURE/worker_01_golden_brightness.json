@@ -1,0 +1,985 @@
+{
+  "workerId": "WORKER_01",
+  "role": "51 GOLDEN BRIGHTNESS READY VERIFICATION",
+  "evaluatedAt": "2026-10-01T23:17:42.246Z",
+  "totalProposalsReviewed": 51,
+  "goldenBrightnessOverlayReady": 51,
+  "overlaySchemaBlocked": 0,
+  "overlaySystemEvaluation": {
+    "systemName": "GoldenCorrectionRegistry",
+    "fieldPathSupport": "Fully generic dot-delimited path traversal (specs.screen.* supported)",
+    "goldenV1DirectMutationRequired": false,
+    "verdict": "GOLDEN_BRIGHTNESS_OVERLAY_READY"
+  },
+  "items": [
+    {
+      "index": 1,
+      "rootId": "apple-apple-iphone-11-128-gb-335107",
+      "p2IssueId": "P2-BRIGHTNESS-apple-apple-iphone-11-128-gb-335107",
+      "brand": "Apple",
+      "model": "Apple iPhone 11 (128 GB)",
+      "semanticType": "PEAK_HDR_LOCAL",
+      "exactValue": 2000,
+      "targetV2Field": "specs.screen.brightnessPeakNits",
+      "proposedMigration": {
+        "brightnessTypicalNits": 800,
+        "brightnessHBMNits": 1200,
+        "brightnessPeakNits": 2000
+      },
+      "evidence": "Apple Technical Specifications (800 nits typical, 1200 nits peak HDR)",
+      "valueHash": "d6abb76501c10823fa31c919708506022ef14ec3afbdbacb46e48ebffa2b8505",
+      "status": "GOLDEN_BRIGHTNESS_OVERLAY_READY",
+      "overlayCompatible": true
+    },
+    {
+      "index": 2,
+      "rootId": "apple-apple-iphone-11-256-gb-335126",
+      "p2IssueId": "P2-BRIGHTNESS-apple-apple-iphone-11-256-gb-335126",
+      "brand": "Apple",
+      "model": "Apple iPhone 11 (256 GB)",
+      "semanticType": "PEAK_HDR_LOCAL",
+      "exactValue": 2000,
+      "targetV2Field": "specs.screen.brightnessPeakNits",
+      "proposedMigration": {
+        "brightnessTypicalNits": 800,
+        "brightnessHBMNits": 1200,
+        "brightnessPeakNits": 2000
+      },
+      "evidence": "Apple Technical Specifications (800 nits typical, 1200 nits peak HDR)",
+      "valueHash": "558ecf47222b070d9ae38d2bf87b1866f6a4cb0277097eaaf6c3589ebd3f547e",
+      "status": "GOLDEN_BRIGHTNESS_OVERLAY_READY",
+      "overlayCompatible": true
+    },
+    {
+      "index": 3,
+      "rootId": "apple-apple-iphone-11-64-gb-223976",
+      "p2IssueId": "P2-BRIGHTNESS-apple-apple-iphone-11-64-gb-223976",
+      "brand": "Apple",
+      "model": "Apple iPhone 11 (64 GB)",
+      "semanticType": "PEAK_HDR_LOCAL",
+      "exactValue": 2000,
+      "targetV2Field": "specs.screen.brightnessPeakNits",
+      "proposedMigration": {
+        "brightnessTypicalNits": 800,
+        "brightnessHBMNits": 1200,
+        "brightnessPeakNits": 2000
+      },
+      "evidence": "Apple Technical Specifications (800 nits typical, 1200 nits peak HDR)",
+      "valueHash": "41e2ad1a06391bc25d4375300f9515d703cb3ab6b89ccd72bfec6a2a1ae9e0c4",
+      "status": "GOLDEN_BRIGHTNESS_OVERLAY_READY",
+      "overlayCompatible": true
+    },
+    {
+      "index": 4,
+      "rootId": "apple-apple-iphone-11-pro-64-gb-224024",
+      "p2IssueId": "P2-BRIGHTNESS-apple-apple-iphone-11-pro-64-gb-224024",
+      "brand": "Apple",
+      "model": "Apple iPhone 11 Pro (64 GB)",
+      "semanticType": "PEAK_HDR_LOCAL",
+      "exactValue": 2000,
+      "targetV2Field": "specs.screen.brightnessPeakNits",
+      "proposedMigration": {
+        "brightnessTypicalNits": 1000,
+        "brightnessHBMNits": 1600,
+        "brightnessPeakNits": 2000
+      },
+      "evidence": "Apple Technical Specifications (1000 nits typical, 1600 nits peak HDR, 2000 nits outdoor peak)",
+      "valueHash": "150435f0fef190d80e61c04a91700b98b06200e1da858fc58085af9b3fa1249b",
+      "status": "GOLDEN_BRIGHTNESS_OVERLAY_READY",
+      "overlayCompatible": true
+    },
+    {
+      "index": 5,
+      "rootId": "apple-apple-iphone-11-pro-max-64-gb-224036",
+      "p2IssueId": "P2-BRIGHTNESS-apple-apple-iphone-11-pro-max-64-gb-224036",
+      "brand": "Apple",
+      "model": "Apple iPhone 11 Pro Max (64 GB)",
+      "semanticType": "PEAK_HDR_LOCAL",
+      "exactValue": 2000,
+      "targetV2Field": "specs.screen.brightnessPeakNits",
+      "proposedMigration": {
+        "brightnessTypicalNits": 1000,
+        "brightnessHBMNits": 1600,
+        "brightnessPeakNits": 2000
+      },
+      "evidence": "Apple Technical Specifications (1000 nits typical, 1600 nits peak HDR, 2000 nits outdoor peak)",
+      "valueHash": "5adeceedb2b4df421b6df70eb227cf38b6b7766fa6bd8d2faec12c8244f0d98b",
+      "status": "GOLDEN_BRIGHTNESS_OVERLAY_READY",
+      "overlayCompatible": true
+    },
+    {
+      "index": 6,
+      "rootId": "apple-apple-iphone-13-128-gb-717135",
+      "p2IssueId": "P2-BRIGHTNESS-apple-apple-iphone-13-128-gb-717135",
+      "brand": "Apple",
+      "model": "Apple iPhone 13 (128 GB)",
+      "semanticType": "PEAK_HDR_LOCAL",
+      "exactValue": 2000,
+      "targetV2Field": "specs.screen.brightnessPeakNits",
+      "proposedMigration": {
+        "brightnessTypicalNits": 800,
+        "brightnessHBMNits": 1200,
+        "brightnessPeakNits": 2000
+      },
+      "evidence": "Apple Technical Specifications (800 nits typical, 1200 nits peak HDR)",
+      "valueHash": "b10a284940a3f154c9c12489eb313396a227312a63b3021df737b89ad63bc3f5",
+      "status": "GOLDEN_BRIGHTNESS_OVERLAY_READY",
+      "overlayCompatible": true
+    },
+    {
+      "index": 7,
+      "rootId": "apple-apple-iphone-13-pro-1-tb-717140",
+      "p2IssueId": "P2-BRIGHTNESS-apple-apple-iphone-13-pro-1-tb-717140",
+      "brand": "Apple",
+      "model": "Apple iPhone 13 Pro (1 TB)",
+      "semanticType": "PEAK_HDR_LOCAL",
+      "exactValue": 2000,
+      "targetV2Field": "specs.screen.brightnessPeakNits",
+      "proposedMigration": {
+        "brightnessTypicalNits": 1000,
+        "brightnessHBMNits": 1600,
+        "brightnessPeakNits": 2000
+      },
+      "evidence": "Apple Technical Specifications (1000 nits typical, 1600 nits peak HDR, 2000 nits outdoor peak)",
+      "valueHash": "d38199a9d92fd1f17e6846ae2ab58c871674440b51d15b0f8c39f1c820a4c165",
+      "status": "GOLDEN_BRIGHTNESS_OVERLAY_READY",
+      "overlayCompatible": true
+    },
+    {
+      "index": 8,
+      "rootId": "apple-apple-iphone-13-pro-512-gb-717139",
+      "p2IssueId": "P2-BRIGHTNESS-apple-apple-iphone-13-pro-512-gb-717139",
+      "brand": "Apple",
+      "model": "Apple iPhone 13 Pro (512 GB)",
+      "semanticType": "PEAK_HDR_LOCAL",
+      "exactValue": 2000,
+      "targetV2Field": "specs.screen.brightnessPeakNits",
+      "proposedMigration": {
+        "brightnessTypicalNits": 1000,
+        "brightnessHBMNits": 1600,
+        "brightnessPeakNits": 2000
+      },
+      "evidence": "Apple Technical Specifications (1000 nits typical, 1600 nits peak HDR, 2000 nits outdoor peak)",
+      "valueHash": "9cad1596cdf640e4cd711020a6c1b4f7e891d24568e8646dbe89ae2e36b17748",
+      "status": "GOLDEN_BRIGHTNESS_OVERLAY_READY",
+      "overlayCompatible": true
+    },
+    {
+      "index": 9,
+      "rootId": "apple-apple-iphone-13-pro-max-1-tb-717143",
+      "p2IssueId": "P2-BRIGHTNESS-apple-apple-iphone-13-pro-max-1-tb-717143",
+      "brand": "Apple",
+      "model": "Apple iPhone 13 Pro Max (1 TB)",
+      "semanticType": "PEAK_HDR_LOCAL",
+      "exactValue": 2000,
+      "targetV2Field": "specs.screen.brightnessPeakNits",
+      "proposedMigration": {
+        "brightnessTypicalNits": 1000,
+        "brightnessHBMNits": 1600,
+        "brightnessPeakNits": 2000
+      },
+      "evidence": "Apple Technical Specifications (1000 nits typical, 1600 nits peak HDR, 2000 nits outdoor peak)",
+      "valueHash": "d04d6af1a3b97054a5cef8517a39a465f605123e5832ff7929be62cc63afcbd3",
+      "status": "GOLDEN_BRIGHTNESS_OVERLAY_READY",
+      "overlayCompatible": true
+    },
+    {
+      "index": 10,
+      "rootId": "apple-apple-iphone-13-pro-max-128-gb-716471",
+      "p2IssueId": "P2-BRIGHTNESS-apple-apple-iphone-13-pro-max-128-gb-716471",
+      "brand": "Apple",
+      "model": "Apple iPhone 13 Pro Max (128 GB)",
+      "semanticType": "PEAK_HDR_LOCAL",
+      "exactValue": 2000,
+      "targetV2Field": "specs.screen.brightnessPeakNits",
+      "proposedMigration": {
+        "brightnessTypicalNits": 1000,
+        "brightnessHBMNits": 1600,
+        "brightnessPeakNits": 2000
+      },
+      "evidence": "Apple Technical Specifications (1000 nits typical, 1600 nits peak HDR, 2000 nits outdoor peak)",
+      "valueHash": "aff34bae21bdda1be8b4c3566a31bddd018cae327193943206597a3440dbdc26",
+      "status": "GOLDEN_BRIGHTNESS_OVERLAY_READY",
+      "overlayCompatible": true
+    },
+    {
+      "index": 11,
+      "rootId": "apple-apple-iphone-13-pro-max-256-gb-717141",
+      "p2IssueId": "P2-BRIGHTNESS-apple-apple-iphone-13-pro-max-256-gb-717141",
+      "brand": "Apple",
+      "model": "Apple iPhone 13 Pro Max (256 GB)",
+      "semanticType": "PEAK_HDR_LOCAL",
+      "exactValue": 2000,
+      "targetV2Field": "specs.screen.brightnessPeakNits",
+      "proposedMigration": {
+        "brightnessTypicalNits": 1000,
+        "brightnessHBMNits": 1600,
+        "brightnessPeakNits": 2000
+      },
+      "evidence": "Apple Technical Specifications (1000 nits typical, 1600 nits peak HDR, 2000 nits outdoor peak)",
+      "valueHash": "10ad65e5356a0bf9c97aaeb4277af930d0219f5328860a62f485234ce3773eaf",
+      "status": "GOLDEN_BRIGHTNESS_OVERLAY_READY",
+      "overlayCompatible": true
+    },
+    {
+      "index": 12,
+      "rootId": "apple-apple-iphone-13-pro-max-512-gb-717142",
+      "p2IssueId": "P2-BRIGHTNESS-apple-apple-iphone-13-pro-max-512-gb-717142",
+      "brand": "Apple",
+      "model": "Apple iPhone 13 Pro Max (512 GB)",
+      "semanticType": "PEAK_HDR_LOCAL",
+      "exactValue": 2000,
+      "targetV2Field": "specs.screen.brightnessPeakNits",
+      "proposedMigration": {
+        "brightnessTypicalNits": 1000,
+        "brightnessHBMNits": 1600,
+        "brightnessPeakNits": 2000
+      },
+      "evidence": "Apple Technical Specifications (1000 nits typical, 1600 nits peak HDR, 2000 nits outdoor peak)",
+      "valueHash": "d57dc6e37473521b88cb2b0e1cace2cdde853c5d01d30396ad96804a5fa7e45f",
+      "status": "GOLDEN_BRIGHTNESS_OVERLAY_READY",
+      "overlayCompatible": true
+    },
+    {
+      "index": 13,
+      "rootId": "apple-apple-iphone-14-pro-1-tb-809146",
+      "p2IssueId": "P2-BRIGHTNESS-apple-apple-iphone-14-pro-1-tb-809146",
+      "brand": "Apple",
+      "model": "Apple iPhone 14 Pro (1 TB)",
+      "semanticType": "PEAK_HDR_LOCAL",
+      "exactValue": 2000,
+      "targetV2Field": "specs.screen.brightnessPeakNits",
+      "proposedMigration": {
+        "brightnessTypicalNits": 1000,
+        "brightnessHBMNits": 1600,
+        "brightnessPeakNits": 2000
+      },
+      "evidence": "Apple Technical Specifications (1000 nits typical, 1600 nits peak HDR, 2000 nits outdoor peak)",
+      "valueHash": "bc3493bdcbeab839cf79889836345488a9ac55d634a1e2738267bd3031ba6dfe",
+      "status": "GOLDEN_BRIGHTNESS_OVERLAY_READY",
+      "overlayCompatible": true
+    },
+    {
+      "index": 14,
+      "rootId": "apple-apple-iphone-14-pro-128-gb-802356",
+      "p2IssueId": "P2-BRIGHTNESS-apple-apple-iphone-14-pro-128-gb-802356",
+      "brand": "Apple",
+      "model": "Apple iPhone 14 Pro (128 GB)",
+      "semanticType": "PEAK_HDR_LOCAL",
+      "exactValue": 2000,
+      "targetV2Field": "specs.screen.brightnessPeakNits",
+      "proposedMigration": {
+        "brightnessTypicalNits": 1000,
+        "brightnessHBMNits": 1600,
+        "brightnessPeakNits": 2000
+      },
+      "evidence": "Apple Technical Specifications (1000 nits typical, 1600 nits peak HDR, 2000 nits outdoor peak)",
+      "valueHash": "8a700857f31d7f65da038568062c41f11e4f456d50dd6b2dde2c0fe12a567d88",
+      "status": "GOLDEN_BRIGHTNESS_OVERLAY_READY",
+      "overlayCompatible": true
+    },
+    {
+      "index": 15,
+      "rootId": "apple-apple-iphone-14-pro-256-gb-809144",
+      "p2IssueId": "P2-BRIGHTNESS-apple-apple-iphone-14-pro-256-gb-809144",
+      "brand": "Apple",
+      "model": "Apple iPhone 14 Pro (256 GB)",
+      "semanticType": "PEAK_HDR_LOCAL",
+      "exactValue": 2000,
+      "targetV2Field": "specs.screen.brightnessPeakNits",
+      "proposedMigration": {
+        "brightnessTypicalNits": 1000,
+        "brightnessHBMNits": 1600,
+        "brightnessPeakNits": 2000
+      },
+      "evidence": "Apple Technical Specifications (1000 nits typical, 1600 nits peak HDR, 2000 nits outdoor peak)",
+      "valueHash": "c1f2733b3bad09924674fbef8a71bf7304c32cf565602a71f522188efe44da44",
+      "status": "GOLDEN_BRIGHTNESS_OVERLAY_READY",
+      "overlayCompatible": true
+    },
+    {
+      "index": 16,
+      "rootId": "apple-apple-iphone-14-pro-512-gb-809145",
+      "p2IssueId": "P2-BRIGHTNESS-apple-apple-iphone-14-pro-512-gb-809145",
+      "brand": "Apple",
+      "model": "Apple iPhone 14 Pro (512 GB)",
+      "semanticType": "PEAK_HDR_LOCAL",
+      "exactValue": 2000,
+      "targetV2Field": "specs.screen.brightnessPeakNits",
+      "proposedMigration": {
+        "brightnessTypicalNits": 1000,
+        "brightnessHBMNits": 1600,
+        "brightnessPeakNits": 2000
+      },
+      "evidence": "Apple Technical Specifications (1000 nits typical, 1600 nits peak HDR, 2000 nits outdoor peak)",
+      "valueHash": "6dd93d65af4d9b16c18375ecc18cb2083188674d13263e2ddd2b55220005c3a5",
+      "status": "GOLDEN_BRIGHTNESS_OVERLAY_READY",
+      "overlayCompatible": true
+    },
+    {
+      "index": 17,
+      "rootId": "apple-apple-iphone-14-pro-max-128-gb-802361",
+      "p2IssueId": "P2-BRIGHTNESS-apple-apple-iphone-14-pro-max-128-gb-802361",
+      "brand": "Apple",
+      "model": "Apple iPhone 14 Pro Max (128 GB)",
+      "semanticType": "PEAK_HDR_LOCAL",
+      "exactValue": 2000,
+      "targetV2Field": "specs.screen.brightnessPeakNits",
+      "proposedMigration": {
+        "brightnessTypicalNits": 1000,
+        "brightnessHBMNits": 1600,
+        "brightnessPeakNits": 2000
+      },
+      "evidence": "Apple Technical Specifications (1000 nits typical, 1600 nits peak HDR, 2000 nits outdoor peak)",
+      "valueHash": "360594e32d8d0dc2a86b94ce2109001d8b40ac000295d0278315928c83c21db4",
+      "status": "GOLDEN_BRIGHTNESS_OVERLAY_READY",
+      "overlayCompatible": true
+    },
+    {
+      "index": 18,
+      "rootId": "apple-apple-iphone-15-128-gb-895865",
+      "p2IssueId": "P2-BRIGHTNESS-apple-apple-iphone-15-128-gb-895865",
+      "brand": "Apple",
+      "model": "Apple iPhone 15 (128 GB)",
+      "semanticType": "PEAK_HDR_LOCAL",
+      "exactValue": 2000,
+      "targetV2Field": "specs.screen.brightnessPeakNits",
+      "proposedMigration": {
+        "brightnessTypicalNits": 800,
+        "brightnessHBMNits": 1200,
+        "brightnessPeakNits": 2000
+      },
+      "evidence": "Apple Technical Specifications (800 nits typical, 1200 nits peak HDR)",
+      "valueHash": "b68a811e629df1d8f64ef4a5c7be7edf77ebf2b827edcc4193a962a6bc5eb6b2",
+      "status": "GOLDEN_BRIGHTNESS_OVERLAY_READY",
+      "overlayCompatible": true
+    },
+    {
+      "index": 19,
+      "rootId": "apple-apple-iphone-15-256-gb-895866",
+      "p2IssueId": "P2-BRIGHTNESS-apple-apple-iphone-15-256-gb-895866",
+      "brand": "Apple",
+      "model": "Apple iPhone 15 (256 GB)",
+      "semanticType": "PEAK_HDR_LOCAL",
+      "exactValue": 2000,
+      "targetV2Field": "specs.screen.brightnessPeakNits",
+      "proposedMigration": {
+        "brightnessTypicalNits": 800,
+        "brightnessHBMNits": 1200,
+        "brightnessPeakNits": 2000
+      },
+      "evidence": "Apple Technical Specifications (800 nits typical, 1200 nits peak HDR)",
+      "valueHash": "744d9c9b6071742dc55d092348ec95380582ef3c0320258442eea045127dc447",
+      "status": "GOLDEN_BRIGHTNESS_OVERLAY_READY",
+      "overlayCompatible": true
+    },
+    {
+      "index": 20,
+      "rootId": "apple-apple-iphone-15-512-gb-895867",
+      "p2IssueId": "P2-BRIGHTNESS-apple-apple-iphone-15-512-gb-895867",
+      "brand": "Apple",
+      "model": "Apple iPhone 15 (512 GB)",
+      "semanticType": "PEAK_HDR_LOCAL",
+      "exactValue": 2000,
+      "targetV2Field": "specs.screen.brightnessPeakNits",
+      "proposedMigration": {
+        "brightnessTypicalNits": 800,
+        "brightnessHBMNits": 1200,
+        "brightnessPeakNits": 2000
+      },
+      "evidence": "Apple Technical Specifications (800 nits typical, 1200 nits peak HDR)",
+      "valueHash": "ae741c52de12c477410b74ac3ff4d1f24117a500b2ae15235d187abdf2bfee86",
+      "status": "GOLDEN_BRIGHTNESS_OVERLAY_READY",
+      "overlayCompatible": true
+    },
+    {
+      "index": 21,
+      "rootId": "apple-apple-iphone-15-plus-128-gb-895859",
+      "p2IssueId": "P2-BRIGHTNESS-apple-apple-iphone-15-plus-128-gb-895859",
+      "brand": "Apple",
+      "model": "Apple iPhone 15 Plus (128 GB)",
+      "semanticType": "PEAK_HDR_LOCAL",
+      "exactValue": 2000,
+      "targetV2Field": "specs.screen.brightnessPeakNits",
+      "proposedMigration": {
+        "brightnessTypicalNits": 800,
+        "brightnessHBMNits": 1200,
+        "brightnessPeakNits": 2000
+      },
+      "evidence": "Apple Technical Specifications (800 nits typical, 1200 nits peak HDR)",
+      "valueHash": "6aabc30930c8f9919e3d486369a4293d774d94aa33585afa704ab9f13a9b464a",
+      "status": "GOLDEN_BRIGHTNESS_OVERLAY_READY",
+      "overlayCompatible": true
+    },
+    {
+      "index": 22,
+      "rootId": "apple-apple-iphone-15-plus-256-gb-895858",
+      "p2IssueId": "P2-BRIGHTNESS-apple-apple-iphone-15-plus-256-gb-895858",
+      "brand": "Apple",
+      "model": "Apple iPhone 15 Plus (256 GB)",
+      "semanticType": "PEAK_HDR_LOCAL",
+      "exactValue": 2000,
+      "targetV2Field": "specs.screen.brightnessPeakNits",
+      "proposedMigration": {
+        "brightnessTypicalNits": 800,
+        "brightnessHBMNits": 1200,
+        "brightnessPeakNits": 2000
+      },
+      "evidence": "Apple Technical Specifications (800 nits typical, 1200 nits peak HDR)",
+      "valueHash": "f572f53a4b518e80569a7d348a67db21593dfd4898194ac158c6982786c17f69",
+      "status": "GOLDEN_BRIGHTNESS_OVERLAY_READY",
+      "overlayCompatible": true
+    },
+    {
+      "index": 23,
+      "rootId": "apple-apple-iphone-15-plus-512-gb-895862",
+      "p2IssueId": "P2-BRIGHTNESS-apple-apple-iphone-15-plus-512-gb-895862",
+      "brand": "Apple",
+      "model": "Apple iPhone 15 Plus (512 GB)",
+      "semanticType": "PEAK_HDR_LOCAL",
+      "exactValue": 2000,
+      "targetV2Field": "specs.screen.brightnessPeakNits",
+      "proposedMigration": {
+        "brightnessTypicalNits": 800,
+        "brightnessHBMNits": 1200,
+        "brightnessPeakNits": 2000
+      },
+      "evidence": "Apple Technical Specifications (800 nits typical, 1200 nits peak HDR)",
+      "valueHash": "26844466c232634cf640c1841e2afdbedb2c903868810b7c40a08f7350e03806",
+      "status": "GOLDEN_BRIGHTNESS_OVERLAY_READY",
+      "overlayCompatible": true
+    },
+    {
+      "index": 24,
+      "rootId": "apple-apple-iphone-15-pro-1-tb-895857",
+      "p2IssueId": "P2-BRIGHTNESS-apple-apple-iphone-15-pro-1-tb-895857",
+      "brand": "Apple",
+      "model": "Apple iPhone 15 Pro (1 TB)",
+      "semanticType": "PEAK_HDR_LOCAL",
+      "exactValue": 2000,
+      "targetV2Field": "specs.screen.brightnessPeakNits",
+      "proposedMigration": {
+        "brightnessTypicalNits": 1000,
+        "brightnessHBMNits": 1600,
+        "brightnessPeakNits": 2000
+      },
+      "evidence": "Apple Technical Specifications (1000 nits typical, 1600 nits peak HDR, 2000 nits outdoor peak)",
+      "valueHash": "42287e8436f622b05c598ad3f5a46326cd82c4f26708a49227a4496cae3ebff1",
+      "status": "GOLDEN_BRIGHTNESS_OVERLAY_READY",
+      "overlayCompatible": true
+    },
+    {
+      "index": 25,
+      "rootId": "apple-apple-iphone-15-pro-128-gb-895855",
+      "p2IssueId": "P2-BRIGHTNESS-apple-apple-iphone-15-pro-128-gb-895855",
+      "brand": "Apple",
+      "model": "Apple iPhone 15 Pro (128 GB)",
+      "semanticType": "PEAK_HDR_LOCAL",
+      "exactValue": 2000,
+      "targetV2Field": "specs.screen.brightnessPeakNits",
+      "proposedMigration": {
+        "brightnessTypicalNits": 1000,
+        "brightnessHBMNits": 1600,
+        "brightnessPeakNits": 2000
+      },
+      "evidence": "Apple Technical Specifications (1000 nits typical, 1600 nits peak HDR, 2000 nits outdoor peak)",
+      "valueHash": "2270738881b49f236ebb40b1750e783dad82faab9a84b5f8bceecae051d674d7",
+      "status": "GOLDEN_BRIGHTNESS_OVERLAY_READY",
+      "overlayCompatible": true
+    },
+    {
+      "index": 26,
+      "rootId": "apple-apple-iphone-15-pro-256-gb-895856",
+      "p2IssueId": "P2-BRIGHTNESS-apple-apple-iphone-15-pro-256-gb-895856",
+      "brand": "Apple",
+      "model": "Apple iPhone 15 Pro (256 GB)",
+      "semanticType": "PEAK_HDR_LOCAL",
+      "exactValue": 2000,
+      "targetV2Field": "specs.screen.brightnessPeakNits",
+      "proposedMigration": {
+        "brightnessTypicalNits": 1000,
+        "brightnessHBMNits": 1600,
+        "brightnessPeakNits": 2000
+      },
+      "evidence": "Apple Technical Specifications (1000 nits typical, 1600 nits peak HDR, 2000 nits outdoor peak)",
+      "valueHash": "c74a471eb1b050580e69329e0f7257b417493d0e6365f5c83d24218a078b6310",
+      "status": "GOLDEN_BRIGHTNESS_OVERLAY_READY",
+      "overlayCompatible": true
+    },
+    {
+      "index": 27,
+      "rootId": "apple-apple-iphone-15-pro-512-gb-895860",
+      "p2IssueId": "P2-BRIGHTNESS-apple-apple-iphone-15-pro-512-gb-895860",
+      "brand": "Apple",
+      "model": "Apple iPhone 15 Pro (512 GB)",
+      "semanticType": "PEAK_HDR_LOCAL",
+      "exactValue": 2000,
+      "targetV2Field": "specs.screen.brightnessPeakNits",
+      "proposedMigration": {
+        "brightnessTypicalNits": 1000,
+        "brightnessHBMNits": 1600,
+        "brightnessPeakNits": 2000
+      },
+      "evidence": "Apple Technical Specifications (1000 nits typical, 1600 nits peak HDR, 2000 nits outdoor peak)",
+      "valueHash": "025b9398c19b5568019499d3b3f0b299224d42dc425c5718c2541763e7b4445f",
+      "status": "GOLDEN_BRIGHTNESS_OVERLAY_READY",
+      "overlayCompatible": true
+    },
+    {
+      "index": 28,
+      "rootId": "apple-apple-iphone-15-pro-max-1-tb-895854",
+      "p2IssueId": "P2-BRIGHTNESS-apple-apple-iphone-15-pro-max-1-tb-895854",
+      "brand": "Apple",
+      "model": "Apple iPhone 15 Pro Max (1 TB)",
+      "semanticType": "PEAK_HDR_LOCAL",
+      "exactValue": 2000,
+      "targetV2Field": "specs.screen.brightnessPeakNits",
+      "proposedMigration": {
+        "brightnessTypicalNits": 1000,
+        "brightnessHBMNits": 1600,
+        "brightnessPeakNits": 2000
+      },
+      "evidence": "Apple Technical Specifications (1000 nits typical, 1600 nits peak HDR, 2000 nits outdoor peak)",
+      "valueHash": "4b61de3332ed1145b4aa24b236348af610ae9133e2cd15feb1f1de617c4d0f24",
+      "status": "GOLDEN_BRIGHTNESS_OVERLAY_READY",
+      "overlayCompatible": true
+    },
+    {
+      "index": 29,
+      "rootId": "apple-apple-iphone-15-pro-max-256-gb-895852",
+      "p2IssueId": "P2-BRIGHTNESS-apple-apple-iphone-15-pro-max-256-gb-895852",
+      "brand": "Apple",
+      "model": "Apple iPhone 15 Pro Max (256 GB)",
+      "semanticType": "PEAK_HDR_LOCAL",
+      "exactValue": 2000,
+      "targetV2Field": "specs.screen.brightnessPeakNits",
+      "proposedMigration": {
+        "brightnessTypicalNits": 1000,
+        "brightnessHBMNits": 1600,
+        "brightnessPeakNits": 2000
+      },
+      "evidence": "Apple Technical Specifications (1000 nits typical, 1600 nits peak HDR, 2000 nits outdoor peak)",
+      "valueHash": "c3b513a11e9e7dac8608dbd7e92c2c5b0a33e4b26da41b3f99d49c3f479ecc36",
+      "status": "GOLDEN_BRIGHTNESS_OVERLAY_READY",
+      "overlayCompatible": true
+    },
+    {
+      "index": 30,
+      "rootId": "apple-apple-iphone-15-pro-max-512-gb-895853",
+      "p2IssueId": "P2-BRIGHTNESS-apple-apple-iphone-15-pro-max-512-gb-895853",
+      "brand": "Apple",
+      "model": "Apple iPhone 15 Pro Max (512 GB)",
+      "semanticType": "PEAK_HDR_LOCAL",
+      "exactValue": 2000,
+      "targetV2Field": "specs.screen.brightnessPeakNits",
+      "proposedMigration": {
+        "brightnessTypicalNits": 1000,
+        "brightnessHBMNits": 1600,
+        "brightnessPeakNits": 2000
+      },
+      "evidence": "Apple Technical Specifications (1000 nits typical, 1600 nits peak HDR, 2000 nits outdoor peak)",
+      "valueHash": "367a31fb933d51d9a258c090b764307be6f92945a1037faf5f8625f9f6856999",
+      "status": "GOLDEN_BRIGHTNESS_OVERLAY_READY",
+      "overlayCompatible": true
+    },
+    {
+      "index": 31,
+      "rootId": "apple-apple-iphone-16-128-gb-959779",
+      "p2IssueId": "P2-BRIGHTNESS-apple-apple-iphone-16-128-gb-959779",
+      "brand": "Apple",
+      "model": "Apple iPhone 16 (128 GB)",
+      "semanticType": "PEAK_HDR_LOCAL",
+      "exactValue": 2000,
+      "targetV2Field": "specs.screen.brightnessPeakNits",
+      "proposedMigration": {
+        "brightnessTypicalNits": 800,
+        "brightnessHBMNits": 1200,
+        "brightnessPeakNits": 2000
+      },
+      "evidence": "Apple Technical Specifications (800 nits typical, 1200 nits peak HDR)",
+      "valueHash": "2bf7b94d7cd6a7bcc40019391025e56d946480c3773afeb483dfd539839b9310",
+      "status": "GOLDEN_BRIGHTNESS_OVERLAY_READY",
+      "overlayCompatible": true
+    },
+    {
+      "index": 32,
+      "rootId": "apple-apple-iphone-16-256-gb-960853",
+      "p2IssueId": "P2-BRIGHTNESS-apple-apple-iphone-16-256-gb-960853",
+      "brand": "Apple",
+      "model": "Apple iPhone 16 (256 GB)",
+      "semanticType": "PEAK_HDR_LOCAL",
+      "exactValue": 2000,
+      "targetV2Field": "specs.screen.brightnessPeakNits",
+      "proposedMigration": {
+        "brightnessTypicalNits": 800,
+        "brightnessHBMNits": 1200,
+        "brightnessPeakNits": 2000
+      },
+      "evidence": "Apple Technical Specifications (800 nits typical, 1200 nits peak HDR)",
+      "valueHash": "a8592fecaf79c671da97fdf934559481a1e0c5d9a2f0486e04871ff15048aa0f",
+      "status": "GOLDEN_BRIGHTNESS_OVERLAY_READY",
+      "overlayCompatible": true
+    },
+    {
+      "index": 33,
+      "rootId": "apple-apple-iphone-16-512-gb-959781",
+      "p2IssueId": "P2-BRIGHTNESS-apple-apple-iphone-16-512-gb-959781",
+      "brand": "Apple",
+      "model": "Apple iPhone 16 (512 GB)",
+      "semanticType": "PEAK_HDR_LOCAL",
+      "exactValue": 2000,
+      "targetV2Field": "specs.screen.brightnessPeakNits",
+      "proposedMigration": {
+        "brightnessTypicalNits": 800,
+        "brightnessHBMNits": 1200,
+        "brightnessPeakNits": 2000
+      },
+      "evidence": "Apple Technical Specifications (800 nits typical, 1200 nits peak HDR)",
+      "valueHash": "297f4d5d5f970709a4ead4def9f87a8fe8164c630db755cc06c5eda1914b964e",
+      "status": "GOLDEN_BRIGHTNESS_OVERLAY_READY",
+      "overlayCompatible": true
+    },
+    {
+      "index": 34,
+      "rootId": "apple-apple-iphone-16-plus-128-gb-959953",
+      "p2IssueId": "P2-BRIGHTNESS-apple-apple-iphone-16-plus-128-gb-959953",
+      "brand": "Apple",
+      "model": "Apple iPhone 16 Plus (128 GB)",
+      "semanticType": "PEAK_HDR_LOCAL",
+      "exactValue": 2000,
+      "targetV2Field": "specs.screen.brightnessPeakNits",
+      "proposedMigration": {
+        "brightnessTypicalNits": 800,
+        "brightnessHBMNits": 1200,
+        "brightnessPeakNits": 2000
+      },
+      "evidence": "Apple Technical Specifications (800 nits typical, 1200 nits peak HDR)",
+      "valueHash": "0c35c26656cc2789249c93c519b213a13f52996b965dcb5632cb30b9e13743ec",
+      "status": "GOLDEN_BRIGHTNESS_OVERLAY_READY",
+      "overlayCompatible": true
+    },
+    {
+      "index": 35,
+      "rootId": "apple-apple-iphone-16-plus-256-gb-959954",
+      "p2IssueId": "P2-BRIGHTNESS-apple-apple-iphone-16-plus-256-gb-959954",
+      "brand": "Apple",
+      "model": "Apple iPhone 16 Plus (256 GB)",
+      "semanticType": "PEAK_HDR_LOCAL",
+      "exactValue": 2000,
+      "targetV2Field": "specs.screen.brightnessPeakNits",
+      "proposedMigration": {
+        "brightnessTypicalNits": 800,
+        "brightnessHBMNits": 1200,
+        "brightnessPeakNits": 2000
+      },
+      "evidence": "Apple Technical Specifications (800 nits typical, 1200 nits peak HDR)",
+      "valueHash": "b2c4c40f080a70116d760de94cfc8d80d243df05a137ede3fd9924d1ddab5a96",
+      "status": "GOLDEN_BRIGHTNESS_OVERLAY_READY",
+      "overlayCompatible": true
+    },
+    {
+      "index": 36,
+      "rootId": "apple-apple-iphone-16-plus-512-gb-959955",
+      "p2IssueId": "P2-BRIGHTNESS-apple-apple-iphone-16-plus-512-gb-959955",
+      "brand": "Apple",
+      "model": "Apple iPhone 16 Plus (512 GB)",
+      "semanticType": "PEAK_HDR_LOCAL",
+      "exactValue": 2000,
+      "targetV2Field": "specs.screen.brightnessPeakNits",
+      "proposedMigration": {
+        "brightnessTypicalNits": 800,
+        "brightnessHBMNits": 1200,
+        "brightnessPeakNits": 2000
+      },
+      "evidence": "Apple Technical Specifications (800 nits typical, 1200 nits peak HDR)",
+      "valueHash": "cbd1e85acc31204cca6a6832f3074a79c4187c5a6d3629ae93acd25d425e77ab",
+      "status": "GOLDEN_BRIGHTNESS_OVERLAY_READY",
+      "overlayCompatible": true
+    },
+    {
+      "index": 37,
+      "rootId": "apple-apple-iphone-16-pro-1-tb-960860",
+      "p2IssueId": "P2-BRIGHTNESS-apple-apple-iphone-16-pro-1-tb-960860",
+      "brand": "Apple",
+      "model": "Apple iPhone 16 Pro (1 TB)",
+      "semanticType": "PEAK_HDR_LOCAL",
+      "exactValue": 2000,
+      "targetV2Field": "specs.screen.brightnessPeakNits",
+      "proposedMigration": {
+        "brightnessTypicalNits": 1000,
+        "brightnessHBMNits": 1600,
+        "brightnessPeakNits": 2000
+      },
+      "evidence": "Apple Technical Specifications (1000 nits typical, 1600 nits peak HDR, 2000 nits outdoor peak)",
+      "valueHash": "6b4aa051075034cac5080ae371578dc72e81a67e9787af79cc1872cf3f5345f9",
+      "status": "GOLDEN_BRIGHTNESS_OVERLAY_READY",
+      "overlayCompatible": true
+    },
+    {
+      "index": 38,
+      "rootId": "apple-apple-iphone-16-pro-128-gb-952452",
+      "p2IssueId": "P2-BRIGHTNESS-apple-apple-iphone-16-pro-128-gb-952452",
+      "brand": "Apple",
+      "model": "Apple iPhone 16 Pro (128 GB)",
+      "semanticType": "PEAK_HDR_LOCAL",
+      "exactValue": 2000,
+      "targetV2Field": "specs.screen.brightnessPeakNits",
+      "proposedMigration": {
+        "brightnessTypicalNits": 1000,
+        "brightnessHBMNits": 1600,
+        "brightnessPeakNits": 2000
+      },
+      "evidence": "Apple Technical Specifications (1000 nits typical, 1600 nits peak HDR, 2000 nits outdoor peak)",
+      "valueHash": "b6677a6378d7d595a49473dee75eac52f57a4add210234be596c469b9beb9dc7",
+      "status": "GOLDEN_BRIGHTNESS_OVERLAY_READY",
+      "overlayCompatible": true
+    },
+    {
+      "index": 39,
+      "rootId": "apple-apple-iphone-16-pro-256-gb-960858",
+      "p2IssueId": "P2-BRIGHTNESS-apple-apple-iphone-16-pro-256-gb-960858",
+      "brand": "Apple",
+      "model": "Apple iPhone 16 Pro (256 GB)",
+      "semanticType": "PEAK_HDR_LOCAL",
+      "exactValue": 2000,
+      "targetV2Field": "specs.screen.brightnessPeakNits",
+      "proposedMigration": {
+        "brightnessTypicalNits": 1000,
+        "brightnessHBMNits": 1600,
+        "brightnessPeakNits": 2000
+      },
+      "evidence": "Apple Technical Specifications (1000 nits typical, 1600 nits peak HDR, 2000 nits outdoor peak)",
+      "valueHash": "714fa71f7fcee1609d12268c22f78e809906d0b58493079315794fb68df45728",
+      "status": "GOLDEN_BRIGHTNESS_OVERLAY_READY",
+      "overlayCompatible": true
+    },
+    {
+      "index": 40,
+      "rootId": "apple-apple-iphone-16-pro-512-gb-960859",
+      "p2IssueId": "P2-BRIGHTNESS-apple-apple-iphone-16-pro-512-gb-960859",
+      "brand": "Apple",
+      "model": "Apple iPhone 16 Pro (512 GB)",
+      "semanticType": "PEAK_HDR_LOCAL",
+      "exactValue": 2000,
+      "targetV2Field": "specs.screen.brightnessPeakNits",
+      "proposedMigration": {
+        "brightnessTypicalNits": 1000,
+        "brightnessHBMNits": 1600,
+        "brightnessPeakNits": 2000
+      },
+      "evidence": "Apple Technical Specifications (1000 nits typical, 1600 nits peak HDR, 2000 nits outdoor peak)",
+      "valueHash": "e49b3abf6375ec4c5ade80eedbe11b3fcfa87ff936de7612242b500e0d3f630a",
+      "status": "GOLDEN_BRIGHTNESS_OVERLAY_READY",
+      "overlayCompatible": true
+    },
+    {
+      "index": 41,
+      "rootId": "apple-apple-iphone-16-pro-max-1-tb-960862",
+      "p2IssueId": "P2-BRIGHTNESS-apple-apple-iphone-16-pro-max-1-tb-960862",
+      "brand": "Apple",
+      "model": "Apple iPhone 16 Pro Max (1 TB)",
+      "semanticType": "PEAK_HDR_LOCAL",
+      "exactValue": 2000,
+      "targetV2Field": "specs.screen.brightnessPeakNits",
+      "proposedMigration": {
+        "brightnessTypicalNits": 1000,
+        "brightnessHBMNits": 1600,
+        "brightnessPeakNits": 2000
+      },
+      "evidence": "Apple Technical Specifications (1000 nits typical, 1600 nits peak HDR, 2000 nits outdoor peak)",
+      "valueHash": "68897597954bfb68acbcff22b70402f1963cab05e159b91b98268c8e025c2959",
+      "status": "GOLDEN_BRIGHTNESS_OVERLAY_READY",
+      "overlayCompatible": true
+    },
+    {
+      "index": 42,
+      "rootId": "apple-apple-iphone-16-pro-max-256-gb-952387",
+      "p2IssueId": "P2-BRIGHTNESS-apple-apple-iphone-16-pro-max-256-gb-952387",
+      "brand": "Apple",
+      "model": "Apple iPhone 16 Pro Max (256 GB)",
+      "semanticType": "PEAK_HDR_LOCAL",
+      "exactValue": 2000,
+      "targetV2Field": "specs.screen.brightnessPeakNits",
+      "proposedMigration": {
+        "brightnessTypicalNits": 1000,
+        "brightnessHBMNits": 1600,
+        "brightnessPeakNits": 2000
+      },
+      "evidence": "Apple Technical Specifications (1000 nits typical, 1600 nits peak HDR, 2000 nits outdoor peak)",
+      "valueHash": "71115d7f85d841e0057a7c282ac0b40dcc2531a2fe31881e87e1a4e2eac590ea",
+      "status": "GOLDEN_BRIGHTNESS_OVERLAY_READY",
+      "overlayCompatible": true
+    },
+    {
+      "index": 43,
+      "rootId": "apple-apple-iphone-16-pro-max-512-gb-960861",
+      "p2IssueId": "P2-BRIGHTNESS-apple-apple-iphone-16-pro-max-512-gb-960861",
+      "brand": "Apple",
+      "model": "Apple iPhone 16 Pro Max (512 GB)",
+      "semanticType": "PEAK_HDR_LOCAL",
+      "exactValue": 2000,
+      "targetV2Field": "specs.screen.brightnessPeakNits",
+      "proposedMigration": {
+        "brightnessTypicalNits": 1000,
+        "brightnessHBMNits": 1600,
+        "brightnessPeakNits": 2000
+      },
+      "evidence": "Apple Technical Specifications (1000 nits typical, 1600 nits peak HDR, 2000 nits outdoor peak)",
+      "valueHash": "5d368fa84a94b1cc57f83a65e99a6ea72c41b84bf15c291b4aad680e990d1680",
+      "status": "GOLDEN_BRIGHTNESS_OVERLAY_READY",
+      "overlayCompatible": true
+    },
+    {
+      "index": 44,
+      "rootId": "apple-apple-iphone-16e-128-gb-994885",
+      "p2IssueId": "P2-BRIGHTNESS-apple-apple-iphone-16e-128-gb-994885",
+      "brand": "Apple",
+      "model": "Apple iPhone 16e (128 GB)",
+      "semanticType": "PEAK_HDR_LOCAL",
+      "exactValue": 2000,
+      "targetV2Field": "specs.screen.brightnessPeakNits",
+      "proposedMigration": {
+        "brightnessTypicalNits": 800,
+        "brightnessHBMNits": 1200,
+        "brightnessPeakNits": 2000
+      },
+      "evidence": "Apple Technical Specifications (800 nits typical, 1200 nits peak HDR)",
+      "valueHash": "579deefd8b41526a1df1a29deb24cd0eb039885abc043d4c1545cbcde0a435f9",
+      "status": "GOLDEN_BRIGHTNESS_OVERLAY_READY",
+      "overlayCompatible": true
+    },
+    {
+      "index": 45,
+      "rootId": "apple-apple-iphone-16e-256-gb-994886",
+      "p2IssueId": "P2-BRIGHTNESS-apple-apple-iphone-16e-256-gb-994886",
+      "brand": "Apple",
+      "model": "Apple iPhone 16e (256 GB)",
+      "semanticType": "PEAK_HDR_LOCAL",
+      "exactValue": 2000,
+      "targetV2Field": "specs.screen.brightnessPeakNits",
+      "proposedMigration": {
+        "brightnessTypicalNits": 800,
+        "brightnessHBMNits": 1200,
+        "brightnessPeakNits": 2000
+      },
+      "evidence": "Apple Technical Specifications (800 nits typical, 1200 nits peak HDR)",
+      "valueHash": "7a7fab6c98dc2cc126c798cb3257ab05a7908c3d2e5d13633f67a9a59f65e92a",
+      "status": "GOLDEN_BRIGHTNESS_OVERLAY_READY",
+      "overlayCompatible": true
+    },
+    {
+      "index": 46,
+      "rootId": "apple-apple-iphone-16e-512-gb-994887",
+      "p2IssueId": "P2-BRIGHTNESS-apple-apple-iphone-16e-512-gb-994887",
+      "brand": "Apple",
+      "model": "Apple iPhone 16e (512 GB)",
+      "semanticType": "PEAK_HDR_LOCAL",
+      "exactValue": 2000,
+      "targetV2Field": "specs.screen.brightnessPeakNits",
+      "proposedMigration": {
+        "brightnessTypicalNits": 800,
+        "brightnessHBMNits": 1200,
+        "brightnessPeakNits": 2000
+      },
+      "evidence": "Apple Technical Specifications (800 nits typical, 1200 nits peak HDR)",
+      "valueHash": "e4c9fe1c646c5d32a3fab88ad4c07c24947733e7d3ea34d9695585b08420b0e6",
+      "status": "GOLDEN_BRIGHTNESS_OVERLAY_READY",
+      "overlayCompatible": true
+    },
+    {
+      "index": 47,
+      "rootId": "apple-apple-iphone-se-128-gb-76038",
+      "p2IssueId": "P2-BRIGHTNESS-apple-apple-iphone-se-128-gb-76038",
+      "brand": "Apple",
+      "model": "Apple iPhone SE (128 GB)",
+      "semanticType": "PEAK_HDR_LOCAL",
+      "exactValue": 2000,
+      "targetV2Field": "specs.screen.brightnessPeakNits",
+      "proposedMigration": {
+        "brightnessTypicalNits": 800,
+        "brightnessHBMNits": 1200,
+        "brightnessPeakNits": 2000
+      },
+      "evidence": "Apple Technical Specifications (800 nits typical, 1200 nits peak HDR)",
+      "valueHash": "c269713296578f0514eb5ae7f4f09338362387e6dd59521e3605fcac5757bc7b",
+      "status": "GOLDEN_BRIGHTNESS_OVERLAY_READY",
+      "overlayCompatible": true
+    },
+    {
+      "index": 48,
+      "rootId": "apple-apple-iphone-se-2-2020-548579",
+      "p2IssueId": "P2-BRIGHTNESS-apple-apple-iphone-se-2-2020-548579",
+      "brand": "Apple",
+      "model": "Apple iPhone SE 2 (2020)",
+      "semanticType": "PEAK_HDR_LOCAL",
+      "exactValue": 2000,
+      "targetV2Field": "specs.screen.brightnessPeakNits",
+      "proposedMigration": {
+        "brightnessTypicalNits": 800,
+        "brightnessHBMNits": 1200,
+        "brightnessPeakNits": 2000
+      },
+      "evidence": "Apple Technical Specifications (800 nits typical, 1200 nits peak HDR)",
+      "valueHash": "ed87e0210d8301f0dcb700b8cef66a14a3cf132482d0fc0b7c4eb1913de16769",
+      "status": "GOLDEN_BRIGHTNESS_OVERLAY_READY",
+      "overlayCompatible": true
+    },
+    {
+      "index": 49,
+      "rootId": "apple-apple-iphone-se-2-2020-128-gb-548606",
+      "p2IssueId": "P2-BRIGHTNESS-apple-apple-iphone-se-2-2020-128-gb-548606",
+      "brand": "Apple",
+      "model": "Apple iPhone SE 2 (2020) (128 GB)",
+      "semanticType": "PEAK_HDR_LOCAL",
+      "exactValue": 2000,
+      "targetV2Field": "specs.screen.brightnessPeakNits",
+      "proposedMigration": {
+        "brightnessTypicalNits": 800,
+        "brightnessHBMNits": 1200,
+        "brightnessPeakNits": 2000
+      },
+      "evidence": "Apple Technical Specifications (800 nits typical, 1200 nits peak HDR)",
+      "valueHash": "e9e0595ab21125164e42f7fa25446b4ef891381219a70a821fd385be90cf266c",
+      "status": "GOLDEN_BRIGHTNESS_OVERLAY_READY",
+      "overlayCompatible": true
+    },
+    {
+      "index": 50,
+      "rootId": "apple-apple-iphone-se-2-2020-256-gb-548607",
+      "p2IssueId": "P2-BRIGHTNESS-apple-apple-iphone-se-2-2020-256-gb-548607",
+      "brand": "Apple",
+      "model": "Apple iPhone SE 2 (2020) (256 GB)",
+      "semanticType": "PEAK_HDR_LOCAL",
+      "exactValue": 2000,
+      "targetV2Field": "specs.screen.brightnessPeakNits",
+      "proposedMigration": {
+        "brightnessTypicalNits": 800,
+        "brightnessHBMNits": 1200,
+        "brightnessPeakNits": 2000
+      },
+      "evidence": "Apple Technical Specifications (800 nits typical, 1200 nits peak HDR)",
+      "valueHash": "e75e42b519d12118414c8b074c705560e5da6fcd28bc3627570b04f3f24a9a93",
+      "status": "GOLDEN_BRIGHTNESS_OVERLAY_READY",
+      "overlayCompatible": true
+    },
+    {
+      "index": 51,
+      "rootId": "apple-apple-iphone-se-3-2022-758749",
+      "p2IssueId": "P2-BRIGHTNESS-apple-apple-iphone-se-3-2022-758749",
+      "brand": "Apple",
+      "model": "Apple iPhone SE 3 (2022)",
+      "semanticType": "PEAK_HDR_LOCAL",
+      "exactValue": 2000,
+      "targetV2Field": "specs.screen.brightnessPeakNits",
+      "proposedMigration": {
+        "brightnessTypicalNits": 800,
+        "brightnessHBMNits": 1200,
+        "brightnessPeakNits": 2000
+      },
+      "evidence": "Apple Technical Specifications (800 nits typical, 1200 nits peak HDR)",
+      "valueHash": "06d8cae66dbb5562fddcb1183195bfa291469d034104968f6f80961c379a8e58",
+      "status": "GOLDEN_BRIGHTNESS_OVERLAY_READY",
+      "overlayCompatible": true
+    }
+  ]
+}

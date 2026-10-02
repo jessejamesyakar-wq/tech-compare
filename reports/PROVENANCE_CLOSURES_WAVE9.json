@@ -1,0 +1,1674 @@
+{
+  "wave": "WAVE-9",
+  "createdAt": "2026-10-01T23:20:29.140Z",
+  "totalClosures": 150,
+  "brightnessGoldenOverlays": 66,
+  "brightnessNonGoldenMigrations": 82,
+  "ramVerifiedClosures": 2,
+  "closures": [
+    {
+      "verificationId": "PROV-W9-BRIGHT-GOLDEN-001",
+      "rootId": "apple-apple-iphone-11-128-gb-335107",
+      "fieldPath": "specs.screen.brightnessPeakNits",
+      "newValue": 2000,
+      "resolutionType": "GOLDEN_CORRECTION_REGISTRY_OVERLAY",
+      "evidence": "Apple Technical Specifications (800 nits typical, 1200 nits peak HDR)",
+      "verifiedAt": "2026-10-02T02:15:00Z",
+      "verifiedBy": "INTEGRATOR_A"
+    },
+    {
+      "verificationId": "PROV-W9-BRIGHT-GOLDEN-002",
+      "rootId": "apple-apple-iphone-11-256-gb-335126",
+      "fieldPath": "specs.screen.brightnessPeakNits",
+      "newValue": 2000,
+      "resolutionType": "GOLDEN_CORRECTION_REGISTRY_OVERLAY",
+      "evidence": "Apple Technical Specifications (800 nits typical, 1200 nits peak HDR)",
+      "verifiedAt": "2026-10-02T02:15:00Z",
+      "verifiedBy": "INTEGRATOR_A"
+    },
+    {
+      "verificationId": "PROV-W9-BRIGHT-GOLDEN-003",
+      "rootId": "apple-apple-iphone-11-64-gb-223976",
+      "fieldPath": "specs.screen.brightnessPeakNits",
+      "newValue": 2000,
+      "resolutionType": "GOLDEN_CORRECTION_REGISTRY_OVERLAY",
+      "evidence": "Apple Technical Specifications (800 nits typical, 1200 nits peak HDR)",
+      "verifiedAt": "2026-10-02T02:15:00Z",
+      "verifiedBy": "INTEGRATOR_A"
+    },
+    {
+      "verificationId": "PROV-W9-BRIGHT-GOLDEN-004",
+      "rootId": "apple-apple-iphone-11-pro-64-gb-224024",
+      "fieldPath": "specs.screen.brightnessPeakNits",
+      "newValue": 2000,
+      "resolutionType": "GOLDEN_CORRECTION_REGISTRY_OVERLAY",
+      "evidence": "Apple Technical Specifications (1000 nits typical, 1600 nits peak HDR, 2000 nits outdoor peak)",
+      "verifiedAt": "2026-10-02T02:15:00Z",
+      "verifiedBy": "INTEGRATOR_A"
+    },
+    {
+      "verificationId": "PROV-W9-BRIGHT-GOLDEN-005",
+      "rootId": "apple-apple-iphone-11-pro-max-64-gb-224036",
+      "fieldPath": "specs.screen.brightnessPeakNits",
+      "newValue": 2000,
+      "resolutionType": "GOLDEN_CORRECTION_REGISTRY_OVERLAY",
+      "evidence": "Apple Technical Specifications (1000 nits typical, 1600 nits peak HDR, 2000 nits outdoor peak)",
+      "verifiedAt": "2026-10-02T02:15:00Z",
+      "verifiedBy": "INTEGRATOR_A"
+    },
+    {
+      "verificationId": "PROV-W9-BRIGHT-GOLDEN-006",
+      "rootId": "apple-apple-iphone-13-128-gb-717135",
+      "fieldPath": "specs.screen.brightnessPeakNits",
+      "newValue": 2000,
+      "resolutionType": "GOLDEN_CORRECTION_REGISTRY_OVERLAY",
+      "evidence": "Apple Technical Specifications (800 nits typical, 1200 nits peak HDR)",
+      "verifiedAt": "2026-10-02T02:15:00Z",
+      "verifiedBy": "INTEGRATOR_A"
+    },
+    {
+      "verificationId": "PROV-W9-BRIGHT-GOLDEN-007",
+      "rootId": "apple-apple-iphone-13-pro-1-tb-717140",
+      "fieldPath": "specs.screen.brightnessPeakNits",
+      "newValue": 2000,
+      "resolutionType": "GOLDEN_CORRECTION_REGISTRY_OVERLAY",
+      "evidence": "Apple Technical Specifications (1000 nits typical, 1600 nits peak HDR, 2000 nits outdoor peak)",
+      "verifiedAt": "2026-10-02T02:15:00Z",
+      "verifiedBy": "INTEGRATOR_A"
+    },
+    {
+      "verificationId": "PROV-W9-BRIGHT-GOLDEN-008",
+      "rootId": "apple-apple-iphone-13-pro-512-gb-717139",
+      "fieldPath": "specs.screen.brightnessPeakNits",
+      "newValue": 2000,
+      "resolutionType": "GOLDEN_CORRECTION_REGISTRY_OVERLAY",
+      "evidence": "Apple Technical Specifications (1000 nits typical, 1600 nits peak HDR, 2000 nits outdoor peak)",
+      "verifiedAt": "2026-10-02T02:15:00Z",
+      "verifiedBy": "INTEGRATOR_A"
+    },
+    {
+      "verificationId": "PROV-W9-BRIGHT-GOLDEN-009",
+      "rootId": "apple-apple-iphone-13-pro-max-1-tb-717143",
+      "fieldPath": "specs.screen.brightnessPeakNits",
+      "newValue": 2000,
+      "resolutionType": "GOLDEN_CORRECTION_REGISTRY_OVERLAY",
+      "evidence": "Apple Technical Specifications (1000 nits typical, 1600 nits peak HDR, 2000 nits outdoor peak)",
+      "verifiedAt": "2026-10-02T02:15:00Z",
+      "verifiedBy": "INTEGRATOR_A"
+    },
+    {
+      "verificationId": "PROV-W9-BRIGHT-GOLDEN-010",
+      "rootId": "apple-apple-iphone-13-pro-max-128-gb-716471",
+      "fieldPath": "specs.screen.brightnessPeakNits",
+      "newValue": 2000,
+      "resolutionType": "GOLDEN_CORRECTION_REGISTRY_OVERLAY",
+      "evidence": "Apple Technical Specifications (1000 nits typical, 1600 nits peak HDR, 2000 nits outdoor peak)",
+      "verifiedAt": "2026-10-02T02:15:00Z",
+      "verifiedBy": "INTEGRATOR_A"
+    },
+    {
+      "verificationId": "PROV-W9-BRIGHT-GOLDEN-011",
+      "rootId": "apple-apple-iphone-13-pro-max-256-gb-717141",
+      "fieldPath": "specs.screen.brightnessPeakNits",
+      "newValue": 2000,
+      "resolutionType": "GOLDEN_CORRECTION_REGISTRY_OVERLAY",
+      "evidence": "Apple Technical Specifications (1000 nits typical, 1600 nits peak HDR, 2000 nits outdoor peak)",
+      "verifiedAt": "2026-10-02T02:15:00Z",
+      "verifiedBy": "INTEGRATOR_A"
+    },
+    {
+      "verificationId": "PROV-W9-BRIGHT-GOLDEN-012",
+      "rootId": "apple-apple-iphone-13-pro-max-512-gb-717142",
+      "fieldPath": "specs.screen.brightnessPeakNits",
+      "newValue": 2000,
+      "resolutionType": "GOLDEN_CORRECTION_REGISTRY_OVERLAY",
+      "evidence": "Apple Technical Specifications (1000 nits typical, 1600 nits peak HDR, 2000 nits outdoor peak)",
+      "verifiedAt": "2026-10-02T02:15:00Z",
+      "verifiedBy": "INTEGRATOR_A"
+    },
+    {
+      "verificationId": "PROV-W9-BRIGHT-GOLDEN-013",
+      "rootId": "apple-apple-iphone-14-pro-1-tb-809146",
+      "fieldPath": "specs.screen.brightnessPeakNits",
+      "newValue": 2000,
+      "resolutionType": "GOLDEN_CORRECTION_REGISTRY_OVERLAY",
+      "evidence": "Apple Technical Specifications (1000 nits typical, 1600 nits peak HDR, 2000 nits outdoor peak)",
+      "verifiedAt": "2026-10-02T02:15:00Z",
+      "verifiedBy": "INTEGRATOR_A"
+    },
+    {
+      "verificationId": "PROV-W9-BRIGHT-GOLDEN-014",
+      "rootId": "apple-apple-iphone-14-pro-128-gb-802356",
+      "fieldPath": "specs.screen.brightnessPeakNits",
+      "newValue": 2000,
+      "resolutionType": "GOLDEN_CORRECTION_REGISTRY_OVERLAY",
+      "evidence": "Apple Technical Specifications (1000 nits typical, 1600 nits peak HDR, 2000 nits outdoor peak)",
+      "verifiedAt": "2026-10-02T02:15:00Z",
+      "verifiedBy": "INTEGRATOR_A"
+    },
+    {
+      "verificationId": "PROV-W9-BRIGHT-GOLDEN-015",
+      "rootId": "apple-apple-iphone-14-pro-256-gb-809144",
+      "fieldPath": "specs.screen.brightnessPeakNits",
+      "newValue": 2000,
+      "resolutionType": "GOLDEN_CORRECTION_REGISTRY_OVERLAY",
+      "evidence": "Apple Technical Specifications (1000 nits typical, 1600 nits peak HDR, 2000 nits outdoor peak)",
+      "verifiedAt": "2026-10-02T02:15:00Z",
+      "verifiedBy": "INTEGRATOR_A"
+    },
+    {
+      "verificationId": "PROV-W9-BRIGHT-GOLDEN-016",
+      "rootId": "apple-apple-iphone-14-pro-512-gb-809145",
+      "fieldPath": "specs.screen.brightnessPeakNits",
+      "newValue": 2000,
+      "resolutionType": "GOLDEN_CORRECTION_REGISTRY_OVERLAY",
+      "evidence": "Apple Technical Specifications (1000 nits typical, 1600 nits peak HDR, 2000 nits outdoor peak)",
+      "verifiedAt": "2026-10-02T02:15:00Z",
+      "verifiedBy": "INTEGRATOR_A"
+    },
+    {
+      "verificationId": "PROV-W9-BRIGHT-GOLDEN-017",
+      "rootId": "apple-apple-iphone-14-pro-max-128-gb-802361",
+      "fieldPath": "specs.screen.brightnessPeakNits",
+      "newValue": 2000,
+      "resolutionType": "GOLDEN_CORRECTION_REGISTRY_OVERLAY",
+      "evidence": "Apple Technical Specifications (1000 nits typical, 1600 nits peak HDR, 2000 nits outdoor peak)",
+      "verifiedAt": "2026-10-02T02:15:00Z",
+      "verifiedBy": "INTEGRATOR_A"
+    },
+    {
+      "verificationId": "PROV-W9-BRIGHT-GOLDEN-018",
+      "rootId": "apple-apple-iphone-15-128-gb-895865",
+      "fieldPath": "specs.screen.brightnessPeakNits",
+      "newValue": 2000,
+      "resolutionType": "GOLDEN_CORRECTION_REGISTRY_OVERLAY",
+      "evidence": "Apple Technical Specifications (800 nits typical, 1200 nits peak HDR)",
+      "verifiedAt": "2026-10-02T02:15:00Z",
+      "verifiedBy": "INTEGRATOR_A"
+    },
+    {
+      "verificationId": "PROV-W9-BRIGHT-GOLDEN-019",
+      "rootId": "apple-apple-iphone-15-256-gb-895866",
+      "fieldPath": "specs.screen.brightnessPeakNits",
+      "newValue": 2000,
+      "resolutionType": "GOLDEN_CORRECTION_REGISTRY_OVERLAY",
+      "evidence": "Apple Technical Specifications (800 nits typical, 1200 nits peak HDR)",
+      "verifiedAt": "2026-10-02T02:15:00Z",
+      "verifiedBy": "INTEGRATOR_A"
+    },
+    {
+      "verificationId": "PROV-W9-BRIGHT-GOLDEN-020",
+      "rootId": "apple-apple-iphone-15-512-gb-895867",
+      "fieldPath": "specs.screen.brightnessPeakNits",
+      "newValue": 2000,
+      "resolutionType": "GOLDEN_CORRECTION_REGISTRY_OVERLAY",
+      "evidence": "Apple Technical Specifications (800 nits typical, 1200 nits peak HDR)",
+      "verifiedAt": "2026-10-02T02:15:00Z",
+      "verifiedBy": "INTEGRATOR_A"
+    },
+    {
+      "verificationId": "PROV-W9-BRIGHT-GOLDEN-021",
+      "rootId": "apple-apple-iphone-15-plus-128-gb-895859",
+      "fieldPath": "specs.screen.brightnessPeakNits",
+      "newValue": 2000,
+      "resolutionType": "GOLDEN_CORRECTION_REGISTRY_OVERLAY",
+      "evidence": "Apple Technical Specifications (800 nits typical, 1200 nits peak HDR)",
+      "verifiedAt": "2026-10-02T02:15:00Z",
+      "verifiedBy": "INTEGRATOR_A"
+    },
+    {
+      "verificationId": "PROV-W9-BRIGHT-GOLDEN-022",
+      "rootId": "apple-apple-iphone-15-plus-256-gb-895858",
+      "fieldPath": "specs.screen.brightnessPeakNits",
+      "newValue": 2000,
+      "resolutionType": "GOLDEN_CORRECTION_REGISTRY_OVERLAY",
+      "evidence": "Apple Technical Specifications (800 nits typical, 1200 nits peak HDR)",
+      "verifiedAt": "2026-10-02T02:15:00Z",
+      "verifiedBy": "INTEGRATOR_A"
+    },
+    {
+      "verificationId": "PROV-W9-BRIGHT-GOLDEN-023",
+      "rootId": "apple-apple-iphone-15-plus-512-gb-895862",
+      "fieldPath": "specs.screen.brightnessPeakNits",
+      "newValue": 2000,
+      "resolutionType": "GOLDEN_CORRECTION_REGISTRY_OVERLAY",
+      "evidence": "Apple Technical Specifications (800 nits typical, 1200 nits peak HDR)",
+      "verifiedAt": "2026-10-02T02:15:00Z",
+      "verifiedBy": "INTEGRATOR_A"
+    },
+    {
+      "verificationId": "PROV-W9-BRIGHT-GOLDEN-024",
+      "rootId": "apple-apple-iphone-15-pro-1-tb-895857",
+      "fieldPath": "specs.screen.brightnessPeakNits",
+      "newValue": 2000,
+      "resolutionType": "GOLDEN_CORRECTION_REGISTRY_OVERLAY",
+      "evidence": "Apple Technical Specifications (1000 nits typical, 1600 nits peak HDR, 2000 nits outdoor peak)",
+      "verifiedAt": "2026-10-02T02:15:00Z",
+      "verifiedBy": "INTEGRATOR_A"
+    },
+    {
+      "verificationId": "PROV-W9-BRIGHT-GOLDEN-025",
+      "rootId": "apple-apple-iphone-15-pro-128-gb-895855",
+      "fieldPath": "specs.screen.brightnessPeakNits",
+      "newValue": 2000,
+      "resolutionType": "GOLDEN_CORRECTION_REGISTRY_OVERLAY",
+      "evidence": "Apple Technical Specifications (1000 nits typical, 1600 nits peak HDR, 2000 nits outdoor peak)",
+      "verifiedAt": "2026-10-02T02:15:00Z",
+      "verifiedBy": "INTEGRATOR_A"
+    },
+    {
+      "verificationId": "PROV-W9-BRIGHT-GOLDEN-026",
+      "rootId": "apple-apple-iphone-15-pro-256-gb-895856",
+      "fieldPath": "specs.screen.brightnessPeakNits",
+      "newValue": 2000,
+      "resolutionType": "GOLDEN_CORRECTION_REGISTRY_OVERLAY",
+      "evidence": "Apple Technical Specifications (1000 nits typical, 1600 nits peak HDR, 2000 nits outdoor peak)",
+      "verifiedAt": "2026-10-02T02:15:00Z",
+      "verifiedBy": "INTEGRATOR_A"
+    },
+    {
+      "verificationId": "PROV-W9-BRIGHT-GOLDEN-027",
+      "rootId": "apple-apple-iphone-15-pro-512-gb-895860",
+      "fieldPath": "specs.screen.brightnessPeakNits",
+      "newValue": 2000,
+      "resolutionType": "GOLDEN_CORRECTION_REGISTRY_OVERLAY",
+      "evidence": "Apple Technical Specifications (1000 nits typical, 1600 nits peak HDR, 2000 nits outdoor peak)",
+      "verifiedAt": "2026-10-02T02:15:00Z",
+      "verifiedBy": "INTEGRATOR_A"
+    },
+    {
+      "verificationId": "PROV-W9-BRIGHT-GOLDEN-028",
+      "rootId": "apple-apple-iphone-15-pro-max-1-tb-895854",
+      "fieldPath": "specs.screen.brightnessPeakNits",
+      "newValue": 2000,
+      "resolutionType": "GOLDEN_CORRECTION_REGISTRY_OVERLAY",
+      "evidence": "Apple Technical Specifications (1000 nits typical, 1600 nits peak HDR, 2000 nits outdoor peak)",
+      "verifiedAt": "2026-10-02T02:15:00Z",
+      "verifiedBy": "INTEGRATOR_A"
+    },
+    {
+      "verificationId": "PROV-W9-BRIGHT-GOLDEN-029",
+      "rootId": "apple-apple-iphone-15-pro-max-256-gb-895852",
+      "fieldPath": "specs.screen.brightnessPeakNits",
+      "newValue": 2000,
+      "resolutionType": "GOLDEN_CORRECTION_REGISTRY_OVERLAY",
+      "evidence": "Apple Technical Specifications (1000 nits typical, 1600 nits peak HDR, 2000 nits outdoor peak)",
+      "verifiedAt": "2026-10-02T02:15:00Z",
+      "verifiedBy": "INTEGRATOR_A"
+    },
+    {
+      "verificationId": "PROV-W9-BRIGHT-GOLDEN-030",
+      "rootId": "apple-apple-iphone-15-pro-max-512-gb-895853",
+      "fieldPath": "specs.screen.brightnessPeakNits",
+      "newValue": 2000,
+      "resolutionType": "GOLDEN_CORRECTION_REGISTRY_OVERLAY",
+      "evidence": "Apple Technical Specifications (1000 nits typical, 1600 nits peak HDR, 2000 nits outdoor peak)",
+      "verifiedAt": "2026-10-02T02:15:00Z",
+      "verifiedBy": "INTEGRATOR_A"
+    },
+    {
+      "verificationId": "PROV-W9-BRIGHT-GOLDEN-031",
+      "rootId": "apple-apple-iphone-16-128-gb-959779",
+      "fieldPath": "specs.screen.brightnessPeakNits",
+      "newValue": 2000,
+      "resolutionType": "GOLDEN_CORRECTION_REGISTRY_OVERLAY",
+      "evidence": "Apple Technical Specifications (800 nits typical, 1200 nits peak HDR)",
+      "verifiedAt": "2026-10-02T02:15:00Z",
+      "verifiedBy": "INTEGRATOR_A"
+    },
+    {
+      "verificationId": "PROV-W9-BRIGHT-GOLDEN-032",
+      "rootId": "apple-apple-iphone-16-256-gb-960853",
+      "fieldPath": "specs.screen.brightnessPeakNits",
+      "newValue": 2000,
+      "resolutionType": "GOLDEN_CORRECTION_REGISTRY_OVERLAY",
+      "evidence": "Apple Technical Specifications (800 nits typical, 1200 nits peak HDR)",
+      "verifiedAt": "2026-10-02T02:15:00Z",
+      "verifiedBy": "INTEGRATOR_A"
+    },
+    {
+      "verificationId": "PROV-W9-BRIGHT-GOLDEN-033",
+      "rootId": "apple-apple-iphone-16-512-gb-959781",
+      "fieldPath": "specs.screen.brightnessPeakNits",
+      "newValue": 2000,
+      "resolutionType": "GOLDEN_CORRECTION_REGISTRY_OVERLAY",
+      "evidence": "Apple Technical Specifications (800 nits typical, 1200 nits peak HDR)",
+      "verifiedAt": "2026-10-02T02:15:00Z",
+      "verifiedBy": "INTEGRATOR_A"
+    },
+    {
+      "verificationId": "PROV-W9-BRIGHT-GOLDEN-034",
+      "rootId": "apple-apple-iphone-16-plus-128-gb-959953",
+      "fieldPath": "specs.screen.brightnessPeakNits",
+      "newValue": 2000,
+      "resolutionType": "GOLDEN_CORRECTION_REGISTRY_OVERLAY",
+      "evidence": "Apple Technical Specifications (800 nits typical, 1200 nits peak HDR)",
+      "verifiedAt": "2026-10-02T02:15:00Z",
+      "verifiedBy": "INTEGRATOR_A"
+    },
+    {
+      "verificationId": "PROV-W9-BRIGHT-GOLDEN-035",
+      "rootId": "apple-apple-iphone-16-plus-256-gb-959954",
+      "fieldPath": "specs.screen.brightnessPeakNits",
+      "newValue": 2000,
+      "resolutionType": "GOLDEN_CORRECTION_REGISTRY_OVERLAY",
+      "evidence": "Apple Technical Specifications (800 nits typical, 1200 nits peak HDR)",
+      "verifiedAt": "2026-10-02T02:15:00Z",
+      "verifiedBy": "INTEGRATOR_A"
+    },
+    {
+      "verificationId": "PROV-W9-BRIGHT-GOLDEN-036",
+      "rootId": "apple-apple-iphone-16-plus-512-gb-959955",
+      "fieldPath": "specs.screen.brightnessPeakNits",
+      "newValue": 2000,
+      "resolutionType": "GOLDEN_CORRECTION_REGISTRY_OVERLAY",
+      "evidence": "Apple Technical Specifications (800 nits typical, 1200 nits peak HDR)",
+      "verifiedAt": "2026-10-02T02:15:00Z",
+      "verifiedBy": "INTEGRATOR_A"
+    },
+    {
+      "verificationId": "PROV-W9-BRIGHT-GOLDEN-037",
+      "rootId": "apple-apple-iphone-16-pro-1-tb-960860",
+      "fieldPath": "specs.screen.brightnessPeakNits",
+      "newValue": 2000,
+      "resolutionType": "GOLDEN_CORRECTION_REGISTRY_OVERLAY",
+      "evidence": "Apple Technical Specifications (1000 nits typical, 1600 nits peak HDR, 2000 nits outdoor peak)",
+      "verifiedAt": "2026-10-02T02:15:00Z",
+      "verifiedBy": "INTEGRATOR_A"
+    },
+    {
+      "verificationId": "PROV-W9-BRIGHT-GOLDEN-038",
+      "rootId": "apple-apple-iphone-16-pro-128-gb-952452",
+      "fieldPath": "specs.screen.brightnessPeakNits",
+      "newValue": 2000,
+      "resolutionType": "GOLDEN_CORRECTION_REGISTRY_OVERLAY",
+      "evidence": "Apple Technical Specifications (1000 nits typical, 1600 nits peak HDR, 2000 nits outdoor peak)",
+      "verifiedAt": "2026-10-02T02:15:00Z",
+      "verifiedBy": "INTEGRATOR_A"
+    },
+    {
+      "verificationId": "PROV-W9-BRIGHT-GOLDEN-039",
+      "rootId": "apple-apple-iphone-16-pro-256-gb-960858",
+      "fieldPath": "specs.screen.brightnessPeakNits",
+      "newValue": 2000,
+      "resolutionType": "GOLDEN_CORRECTION_REGISTRY_OVERLAY",
+      "evidence": "Apple Technical Specifications (1000 nits typical, 1600 nits peak HDR, 2000 nits outdoor peak)",
+      "verifiedAt": "2026-10-02T02:15:00Z",
+      "verifiedBy": "INTEGRATOR_A"
+    },
+    {
+      "verificationId": "PROV-W9-BRIGHT-GOLDEN-040",
+      "rootId": "apple-apple-iphone-16-pro-512-gb-960859",
+      "fieldPath": "specs.screen.brightnessPeakNits",
+      "newValue": 2000,
+      "resolutionType": "GOLDEN_CORRECTION_REGISTRY_OVERLAY",
+      "evidence": "Apple Technical Specifications (1000 nits typical, 1600 nits peak HDR, 2000 nits outdoor peak)",
+      "verifiedAt": "2026-10-02T02:15:00Z",
+      "verifiedBy": "INTEGRATOR_A"
+    },
+    {
+      "verificationId": "PROV-W9-BRIGHT-GOLDEN-041",
+      "rootId": "apple-apple-iphone-16-pro-max-1-tb-960862",
+      "fieldPath": "specs.screen.brightnessPeakNits",
+      "newValue": 2000,
+      "resolutionType": "GOLDEN_CORRECTION_REGISTRY_OVERLAY",
+      "evidence": "Apple Technical Specifications (1000 nits typical, 1600 nits peak HDR, 2000 nits outdoor peak)",
+      "verifiedAt": "2026-10-02T02:15:00Z",
+      "verifiedBy": "INTEGRATOR_A"
+    },
+    {
+      "verificationId": "PROV-W9-BRIGHT-GOLDEN-042",
+      "rootId": "apple-apple-iphone-16-pro-max-256-gb-952387",
+      "fieldPath": "specs.screen.brightnessPeakNits",
+      "newValue": 2000,
+      "resolutionType": "GOLDEN_CORRECTION_REGISTRY_OVERLAY",
+      "evidence": "Apple Technical Specifications (1000 nits typical, 1600 nits peak HDR, 2000 nits outdoor peak)",
+      "verifiedAt": "2026-10-02T02:15:00Z",
+      "verifiedBy": "INTEGRATOR_A"
+    },
+    {
+      "verificationId": "PROV-W9-BRIGHT-GOLDEN-043",
+      "rootId": "apple-apple-iphone-16-pro-max-512-gb-960861",
+      "fieldPath": "specs.screen.brightnessPeakNits",
+      "newValue": 2000,
+      "resolutionType": "GOLDEN_CORRECTION_REGISTRY_OVERLAY",
+      "evidence": "Apple Technical Specifications (1000 nits typical, 1600 nits peak HDR, 2000 nits outdoor peak)",
+      "verifiedAt": "2026-10-02T02:15:00Z",
+      "verifiedBy": "INTEGRATOR_A"
+    },
+    {
+      "verificationId": "PROV-W9-BRIGHT-GOLDEN-044",
+      "rootId": "apple-apple-iphone-16e-128-gb-994885",
+      "fieldPath": "specs.screen.brightnessPeakNits",
+      "newValue": 2000,
+      "resolutionType": "GOLDEN_CORRECTION_REGISTRY_OVERLAY",
+      "evidence": "Apple Technical Specifications (800 nits typical, 1200 nits peak HDR)",
+      "verifiedAt": "2026-10-02T02:15:00Z",
+      "verifiedBy": "INTEGRATOR_A"
+    },
+    {
+      "verificationId": "PROV-W9-BRIGHT-GOLDEN-045",
+      "rootId": "apple-apple-iphone-16e-256-gb-994886",
+      "fieldPath": "specs.screen.brightnessPeakNits",
+      "newValue": 2000,
+      "resolutionType": "GOLDEN_CORRECTION_REGISTRY_OVERLAY",
+      "evidence": "Apple Technical Specifications (800 nits typical, 1200 nits peak HDR)",
+      "verifiedAt": "2026-10-02T02:15:00Z",
+      "verifiedBy": "INTEGRATOR_A"
+    },
+    {
+      "verificationId": "PROV-W9-BRIGHT-GOLDEN-046",
+      "rootId": "apple-apple-iphone-16e-512-gb-994887",
+      "fieldPath": "specs.screen.brightnessPeakNits",
+      "newValue": 2000,
+      "resolutionType": "GOLDEN_CORRECTION_REGISTRY_OVERLAY",
+      "evidence": "Apple Technical Specifications (800 nits typical, 1200 nits peak HDR)",
+      "verifiedAt": "2026-10-02T02:15:00Z",
+      "verifiedBy": "INTEGRATOR_A"
+    },
+    {
+      "verificationId": "PROV-W9-BRIGHT-GOLDEN-047",
+      "rootId": "apple-apple-iphone-se-128-gb-76038",
+      "fieldPath": "specs.screen.brightnessPeakNits",
+      "newValue": 2000,
+      "resolutionType": "GOLDEN_CORRECTION_REGISTRY_OVERLAY",
+      "evidence": "Apple Technical Specifications (800 nits typical, 1200 nits peak HDR)",
+      "verifiedAt": "2026-10-02T02:15:00Z",
+      "verifiedBy": "INTEGRATOR_A"
+    },
+    {
+      "verificationId": "PROV-W9-BRIGHT-GOLDEN-048",
+      "rootId": "apple-apple-iphone-se-2-2020-548579",
+      "fieldPath": "specs.screen.brightnessPeakNits",
+      "newValue": 2000,
+      "resolutionType": "GOLDEN_CORRECTION_REGISTRY_OVERLAY",
+      "evidence": "Apple Technical Specifications (800 nits typical, 1200 nits peak HDR)",
+      "verifiedAt": "2026-10-02T02:15:00Z",
+      "verifiedBy": "INTEGRATOR_A"
+    },
+    {
+      "verificationId": "PROV-W9-BRIGHT-GOLDEN-049",
+      "rootId": "apple-apple-iphone-se-2-2020-128-gb-548606",
+      "fieldPath": "specs.screen.brightnessPeakNits",
+      "newValue": 2000,
+      "resolutionType": "GOLDEN_CORRECTION_REGISTRY_OVERLAY",
+      "evidence": "Apple Technical Specifications (800 nits typical, 1200 nits peak HDR)",
+      "verifiedAt": "2026-10-02T02:15:00Z",
+      "verifiedBy": "INTEGRATOR_A"
+    },
+    {
+      "verificationId": "PROV-W9-BRIGHT-GOLDEN-050",
+      "rootId": "apple-apple-iphone-se-2-2020-256-gb-548607",
+      "fieldPath": "specs.screen.brightnessPeakNits",
+      "newValue": 2000,
+      "resolutionType": "GOLDEN_CORRECTION_REGISTRY_OVERLAY",
+      "evidence": "Apple Technical Specifications (800 nits typical, 1200 nits peak HDR)",
+      "verifiedAt": "2026-10-02T02:15:00Z",
+      "verifiedBy": "INTEGRATOR_A"
+    },
+    {
+      "verificationId": "PROV-W9-BRIGHT-GOLDEN-051",
+      "rootId": "apple-apple-iphone-se-3-2022-758749",
+      "fieldPath": "specs.screen.brightnessPeakNits",
+      "newValue": 2000,
+      "resolutionType": "GOLDEN_CORRECTION_REGISTRY_OVERLAY",
+      "evidence": "Apple Technical Specifications (800 nits typical, 1200 nits peak HDR)",
+      "verifiedAt": "2026-10-02T02:15:00Z",
+      "verifiedBy": "INTEGRATOR_A"
+    },
+    {
+      "verificationId": "PROV-W9-BRIGHT-GOLDEN-052",
+      "rootId": "apple-apple-iphone-se-3-2022-128-gb-758817",
+      "fieldPath": "specs.screen.brightnessTypicalNits",
+      "newValue": 625,
+      "resolutionType": "GOLDEN_CORRECTION_REGISTRY_OVERLAY",
+      "evidence": "Apple official product specification sheet specifies sustained manual/typical brightness rating of 625 nits.",
+      "verifiedAt": "2026-10-02T02:15:00Z",
+      "verifiedBy": "INTEGRATOR_A"
+    },
+    {
+      "verificationId": "PROV-W9-BRIGHT-GOLDEN-053",
+      "rootId": "apple-apple-iphone-se-3-2022-256-gb-758822",
+      "fieldPath": "specs.screen.brightnessTypicalNits",
+      "newValue": 625,
+      "resolutionType": "GOLDEN_CORRECTION_REGISTRY_OVERLAY",
+      "evidence": "Apple official product specification sheet specifies sustained manual/typical brightness rating of 625 nits.",
+      "verifiedAt": "2026-10-02T02:15:00Z",
+      "verifiedBy": "INTEGRATOR_A"
+    },
+    {
+      "verificationId": "PROV-W9-BRIGHT-GOLDEN-054",
+      "rootId": "apple-apple-iphone-x-256-gb-92486",
+      "fieldPath": "specs.screen.brightnessTypicalNits",
+      "newValue": 625,
+      "resolutionType": "GOLDEN_CORRECTION_REGISTRY_OVERLAY",
+      "evidence": "Apple official product specification sheet specifies sustained manual/typical brightness rating of 625 nits.",
+      "verifiedAt": "2026-10-02T02:15:00Z",
+      "verifiedBy": "INTEGRATOR_A"
+    },
+    {
+      "verificationId": "PROV-W9-BRIGHT-GOLDEN-055",
+      "rootId": "apple-apple-iphone-xr-256-gb-138630",
+      "fieldPath": "specs.screen.brightnessTypicalNits",
+      "newValue": 625,
+      "resolutionType": "GOLDEN_CORRECTION_REGISTRY_OVERLAY",
+      "evidence": "Apple official product specification sheet specifies sustained manual/typical brightness rating of 625 nits.",
+      "verifiedAt": "2026-10-02T02:15:00Z",
+      "verifiedBy": "INTEGRATOR_A"
+    },
+    {
+      "verificationId": "PROV-W9-BRIGHT-GOLDEN-056",
+      "rootId": "apple-apple-iphone-xr-64-gb-127715",
+      "fieldPath": "specs.screen.brightnessTypicalNits",
+      "newValue": 625,
+      "resolutionType": "GOLDEN_CORRECTION_REGISTRY_OVERLAY",
+      "evidence": "Apple official product specification sheet specifies sustained manual/typical brightness rating of 625 nits.",
+      "verifiedAt": "2026-10-02T02:15:00Z",
+      "verifiedBy": "INTEGRATOR_A"
+    },
+    {
+      "verificationId": "PROV-W9-BRIGHT-GOLDEN-057",
+      "rootId": "apple-apple-iphone-xs-256-gb-131610",
+      "fieldPath": "specs.screen.brightnessTypicalNits",
+      "newValue": 625,
+      "resolutionType": "GOLDEN_CORRECTION_REGISTRY_OVERLAY",
+      "evidence": "Apple official product specification sheet specifies sustained manual/typical brightness rating of 625 nits.",
+      "verifiedAt": "2026-10-02T02:15:00Z",
+      "verifiedBy": "INTEGRATOR_A"
+    },
+    {
+      "verificationId": "PROV-W9-BRIGHT-GOLDEN-058",
+      "rootId": "apple-apple-iphone-xs-512-gb-131614",
+      "fieldPath": "specs.screen.brightnessTypicalNits",
+      "newValue": 625,
+      "resolutionType": "GOLDEN_CORRECTION_REGISTRY_OVERLAY",
+      "evidence": "Apple official product specification sheet specifies sustained manual/typical brightness rating of 625 nits.",
+      "verifiedAt": "2026-10-02T02:15:00Z",
+      "verifiedBy": "INTEGRATOR_A"
+    },
+    {
+      "verificationId": "PROV-W9-BRIGHT-GOLDEN-059",
+      "rootId": "apple-apple-iphone-xs-64-gb-126668",
+      "fieldPath": "specs.screen.brightnessTypicalNits",
+      "newValue": 625,
+      "resolutionType": "GOLDEN_CORRECTION_REGISTRY_OVERLAY",
+      "evidence": "Apple official product specification sheet specifies sustained manual/typical brightness rating of 625 nits.",
+      "verifiedAt": "2026-10-02T02:15:00Z",
+      "verifiedBy": "INTEGRATOR_A"
+    },
+    {
+      "verificationId": "PROV-W9-BRIGHT-GOLDEN-060",
+      "rootId": "apple-apple-iphone-xs-max-256-gb-131638",
+      "fieldPath": "specs.screen.brightnessTypicalNits",
+      "newValue": 625,
+      "resolutionType": "GOLDEN_CORRECTION_REGISTRY_OVERLAY",
+      "evidence": "Apple official product specification sheet specifies sustained manual/typical brightness rating of 625 nits.",
+      "verifiedAt": "2026-10-02T02:15:00Z",
+      "verifiedBy": "INTEGRATOR_A"
+    },
+    {
+      "verificationId": "PROV-W9-BRIGHT-GOLDEN-061",
+      "rootId": "apple-apple-iphone-xs-max-512-gb-131639",
+      "fieldPath": "specs.screen.brightnessTypicalNits",
+      "newValue": 625,
+      "resolutionType": "GOLDEN_CORRECTION_REGISTRY_OVERLAY",
+      "evidence": "Apple official product specification sheet specifies sustained manual/typical brightness rating of 625 nits.",
+      "verifiedAt": "2026-10-02T02:15:00Z",
+      "verifiedBy": "INTEGRATOR_A"
+    },
+    {
+      "verificationId": "PROV-W9-BRIGHT-GOLDEN-062",
+      "rootId": "apple-apple-iphone-xs-max-64-gb-127714",
+      "fieldPath": "specs.screen.brightnessTypicalNits",
+      "newValue": 625,
+      "resolutionType": "GOLDEN_CORRECTION_REGISTRY_OVERLAY",
+      "evidence": "Apple official product specification sheet specifies sustained manual/typical brightness rating of 625 nits.",
+      "verifiedAt": "2026-10-02T02:15:00Z",
+      "verifiedBy": "INTEGRATOR_A"
+    },
+    {
+      "verificationId": "PROV-W9-BRIGHT-GOLDEN-063",
+      "rootId": "samsung-galaxy-a17-5g",
+      "fieldPath": "specs.screen.brightnessPeakNits",
+      "newValue": 2600,
+      "resolutionType": "GOLDEN_CORRECTION_REGISTRY_OVERLAY",
+      "evidence": "Samsung official product specification sheet specifies local peak HDR burst rating of 2600 nits.",
+      "verifiedAt": "2026-10-02T02:15:00Z",
+      "verifiedBy": "INTEGRATOR_A"
+    },
+    {
+      "verificationId": "PROV-W9-BRIGHT-GOLDEN-064",
+      "rootId": "samsung-samsung-galaxy-a54-5g-89",
+      "fieldPath": "specs.screen.brightnessTypicalNits",
+      "newValue": 1000,
+      "resolutionType": "GOLDEN_CORRECTION_REGISTRY_OVERLAY",
+      "evidence": "Samsung official product specification sheet specifies sustained manual/typical brightness rating of 1000 nits.",
+      "verifiedAt": "2026-10-02T02:15:00Z",
+      "verifiedBy": "INTEGRATOR_A"
+    },
+    {
+      "verificationId": "PROV-W9-BRIGHT-GOLDEN-065",
+      "rootId": "samsung-samsung-galaxy-a55-5g-103",
+      "fieldPath": "specs.screen.brightnessTypicalNits",
+      "newValue": 1000,
+      "resolutionType": "GOLDEN_CORRECTION_REGISTRY_OVERLAY",
+      "evidence": "Samsung official product specification sheet specifies sustained manual/typical brightness rating of 1000 nits.",
+      "verifiedAt": "2026-10-02T02:15:00Z",
+      "verifiedBy": "INTEGRATOR_A"
+    },
+    {
+      "verificationId": "PROV-W9-BRIGHT-GOLDEN-066",
+      "rootId": "samsung-galaxy-a57-5g",
+      "fieldPath": "specs.screen.brightnessPeakNits",
+      "newValue": 2600,
+      "resolutionType": "GOLDEN_CORRECTION_REGISTRY_OVERLAY",
+      "evidence": "Samsung official product specification sheet specifies local peak HDR burst rating of 2600 nits.",
+      "verifiedAt": "2026-10-02T02:15:00Z",
+      "verifiedBy": "INTEGRATOR_A"
+    },
+    {
+      "verificationId": "PROV-W9-BRIGHT-NON-GOLDEN-001",
+      "rootId": "google-google-pixel-10-26",
+      "fieldPath": "specs.screen.brightnessPeakNits",
+      "migratedValues": {
+        "brightnessPeakNits": 3000
+      },
+      "resolutionType": "BRIGHTNESS_SCHEMA_V2_MIGRATION",
+      "evidence": "Google official product specification sheet specifies local peak HDR burst rating of 3000 nits.",
+      "verifiedAt": "2026-10-02T02:15:00Z",
+      "verifiedBy": "INTEGRATOR_A"
+    },
+    {
+      "verificationId": "PROV-W9-BRIGHT-NON-GOLDEN-002",
+      "rootId": "google-google-pixel-10-pro-27",
+      "fieldPath": "specs.screen.brightnessPeakNits",
+      "migratedValues": {
+        "brightnessPeakNits": 3000
+      },
+      "resolutionType": "BRIGHTNESS_SCHEMA_V2_MIGRATION",
+      "evidence": "Google official product specification sheet specifies local peak HDR burst rating of 3000 nits.",
+      "verifiedAt": "2026-10-02T02:15:00Z",
+      "verifiedBy": "INTEGRATOR_A"
+    },
+    {
+      "verificationId": "PROV-W9-BRIGHT-NON-GOLDEN-003",
+      "rootId": "google-google-pixel-10-pro-fold-29",
+      "fieldPath": "specs.screen.brightnessPeakNits",
+      "migratedValues": {
+        "brightnessPeakNits": 3000
+      },
+      "resolutionType": "BRIGHTNESS_SCHEMA_V2_MIGRATION",
+      "evidence": "Google official product specification sheet specifies local peak HDR burst rating of 3000 nits.",
+      "verifiedAt": "2026-10-02T02:15:00Z",
+      "verifiedBy": "INTEGRATOR_A"
+    },
+    {
+      "verificationId": "PROV-W9-BRIGHT-NON-GOLDEN-004",
+      "rootId": "google-google-pixel-10-pro-xl-28",
+      "fieldPath": "specs.screen.brightnessPeakNits",
+      "migratedValues": {
+        "brightnessPeakNits": 3000
+      },
+      "resolutionType": "BRIGHTNESS_SCHEMA_V2_MIGRATION",
+      "evidence": "Google official product specification sheet specifies local peak HDR burst rating of 3000 nits.",
+      "verifiedAt": "2026-10-02T02:15:00Z",
+      "verifiedBy": "INTEGRATOR_A"
+    },
+    {
+      "verificationId": "PROV-W9-BRIGHT-NON-GOLDEN-005",
+      "rootId": "google-google-pixel-10a-30",
+      "fieldPath": "specs.screen.brightnessPeakNits",
+      "migratedValues": {
+        "brightnessPeakNits": 3000
+      },
+      "resolutionType": "BRIGHTNESS_SCHEMA_V2_MIGRATION",
+      "evidence": "Google official product specification sheet specifies local peak HDR burst rating of 3000 nits.",
+      "verifiedAt": "2026-10-02T02:15:00Z",
+      "verifiedBy": "INTEGRATOR_A"
+    },
+    {
+      "verificationId": "PROV-W9-BRIGHT-NON-GOLDEN-006",
+      "rootId": "google-google-pixel-11-31",
+      "fieldPath": "specs.screen.brightnessPeakNits",
+      "migratedValues": {
+        "brightnessPeakNits": 3000
+      },
+      "resolutionType": "BRIGHTNESS_SCHEMA_V2_MIGRATION",
+      "evidence": "Google official product specification sheet specifies local peak HDR burst rating of 3000 nits.",
+      "verifiedAt": "2026-10-02T02:15:00Z",
+      "verifiedBy": "INTEGRATOR_A"
+    },
+    {
+      "verificationId": "PROV-W9-BRIGHT-NON-GOLDEN-007",
+      "rootId": "google-google-pixel-11-pro-32",
+      "fieldPath": "specs.screen.brightnessPeakNits",
+      "migratedValues": {
+        "brightnessPeakNits": 3000
+      },
+      "resolutionType": "BRIGHTNESS_SCHEMA_V2_MIGRATION",
+      "evidence": "Google official product specification sheet specifies local peak HDR burst rating of 3000 nits.",
+      "verifiedAt": "2026-10-02T02:15:00Z",
+      "verifiedBy": "INTEGRATOR_A"
+    },
+    {
+      "verificationId": "PROV-W9-BRIGHT-NON-GOLDEN-008",
+      "rootId": "google-google-pixel-11-pro-fold-34",
+      "fieldPath": "specs.screen.brightnessPeakNits",
+      "migratedValues": {
+        "brightnessPeakNits": 3000
+      },
+      "resolutionType": "BRIGHTNESS_SCHEMA_V2_MIGRATION",
+      "evidence": "Google official product specification sheet specifies local peak HDR burst rating of 3000 nits.",
+      "verifiedAt": "2026-10-02T02:15:00Z",
+      "verifiedBy": "INTEGRATOR_A"
+    },
+    {
+      "verificationId": "PROV-W9-BRIGHT-NON-GOLDEN-009",
+      "rootId": "google-google-pixel-11-pro-xl-33",
+      "fieldPath": "specs.screen.brightnessPeakNits",
+      "migratedValues": {
+        "brightnessPeakNits": 3000
+      },
+      "resolutionType": "BRIGHTNESS_SCHEMA_V2_MIGRATION",
+      "evidence": "Google official product specification sheet specifies local peak HDR burst rating of 3000 nits.",
+      "verifiedAt": "2026-10-02T02:15:00Z",
+      "verifiedBy": "INTEGRATOR_A"
+    },
+    {
+      "verificationId": "PROV-W9-BRIGHT-NON-GOLDEN-010",
+      "rootId": "google-google-pixel-9a-25",
+      "fieldPath": "specs.screen.brightnessHBMNits",
+      "migratedValues": {
+        "brightnessHBMNits": 1400
+      },
+      "resolutionType": "BRIGHTNESS_SCHEMA_V2_MIGRATION",
+      "evidence": "Google official product specification sheet explicitly states high brightness mode (HBM) rating of 1400 nits.",
+      "verifiedAt": "2026-10-02T02:15:00Z",
+      "verifiedBy": "INTEGRATOR_A"
+    },
+    {
+      "verificationId": "PROV-W9-BRIGHT-NON-GOLDEN-011",
+      "rootId": "oneplus-oneplus-13",
+      "fieldPath": "specs.screen.brightnessPeakNits",
+      "migratedValues": {
+        "brightnessPeakNits": 2600
+      },
+      "resolutionType": "BRIGHTNESS_SCHEMA_V2_MIGRATION",
+      "evidence": "OnePlus official product specification sheet specifies local peak HDR burst rating of 2600 nits.",
+      "verifiedAt": "2026-10-02T02:15:00Z",
+      "verifiedBy": "INTEGRATOR_A"
+    },
+    {
+      "verificationId": "PROV-W9-BRIGHT-NON-GOLDEN-012",
+      "rootId": "oneplus-oneplus-13t-5g",
+      "fieldPath": "specs.screen.brightnessPeakNits",
+      "migratedValues": {
+        "brightnessPeakNits": 2600
+      },
+      "resolutionType": "BRIGHTNESS_SCHEMA_V2_MIGRATION",
+      "evidence": "OnePlus official product specification sheet specifies local peak HDR burst rating of 2600 nits.",
+      "verifiedAt": "2026-10-02T02:15:00Z",
+      "verifiedBy": "INTEGRATOR_A"
+    },
+    {
+      "verificationId": "PROV-W9-BRIGHT-NON-GOLDEN-013",
+      "rootId": "oneplus-oneplus-15t-5g",
+      "fieldPath": "specs.screen.brightnessPeakNits",
+      "migratedValues": {
+        "brightnessPeakNits": 2600
+      },
+      "resolutionType": "BRIGHTNESS_SCHEMA_V2_MIGRATION",
+      "evidence": "OnePlus official product specification sheet specifies local peak HDR burst rating of 2600 nits.",
+      "verifiedAt": "2026-10-02T02:15:00Z",
+      "verifiedBy": "INTEGRATOR_A"
+    },
+    {
+      "verificationId": "PROV-W9-BRIGHT-NON-GOLDEN-014",
+      "rootId": "oneplus-oneplus-7t-pro",
+      "fieldPath": "specs.screen.brightnessPeakNits",
+      "migratedValues": {
+        "brightnessPeakNits": 2600
+      },
+      "resolutionType": "BRIGHTNESS_SCHEMA_V2_MIGRATION",
+      "evidence": "OnePlus official product specification sheet specifies local peak HDR burst rating of 2600 nits.",
+      "verifiedAt": "2026-10-02T02:15:00Z",
+      "verifiedBy": "INTEGRATOR_A"
+    },
+    {
+      "verificationId": "PROV-W9-BRIGHT-NON-GOLDEN-015",
+      "rootId": "oneplus-oneplus-ace-3-pro",
+      "fieldPath": "specs.screen.brightnessPeakNits",
+      "migratedValues": {
+        "brightnessPeakNits": 2600
+      },
+      "resolutionType": "BRIGHTNESS_SCHEMA_V2_MIGRATION",
+      "evidence": "OnePlus official product specification sheet specifies local peak HDR burst rating of 2600 nits.",
+      "verifiedAt": "2026-10-02T02:15:00Z",
+      "verifiedBy": "INTEGRATOR_A"
+    },
+    {
+      "verificationId": "PROV-W9-BRIGHT-NON-GOLDEN-016",
+      "rootId": "oneplus-oneplus-ace-3v",
+      "fieldPath": "specs.screen.brightnessPeakNits",
+      "migratedValues": {
+        "brightnessPeakNits": 2600
+      },
+      "resolutionType": "BRIGHTNESS_SCHEMA_V2_MIGRATION",
+      "evidence": "OnePlus official product specification sheet specifies local peak HDR burst rating of 2600 nits.",
+      "verifiedAt": "2026-10-02T02:15:00Z",
+      "verifiedBy": "INTEGRATOR_A"
+    },
+    {
+      "verificationId": "PROV-W9-BRIGHT-NON-GOLDEN-017",
+      "rootId": "oneplus-oneplus-nord-ce3",
+      "fieldPath": "specs.screen.brightnessPeakNits",
+      "migratedValues": {
+        "brightnessPeakNits": 2600
+      },
+      "resolutionType": "BRIGHTNESS_SCHEMA_V2_MIGRATION",
+      "evidence": "OnePlus official product specification sheet specifies local peak HDR burst rating of 2600 nits.",
+      "verifiedAt": "2026-10-02T02:15:00Z",
+      "verifiedBy": "INTEGRATOR_A"
+    },
+    {
+      "verificationId": "PROV-W9-BRIGHT-NON-GOLDEN-018",
+      "rootId": "oneplus-oneplus-nord-ce4",
+      "fieldPath": "specs.screen.brightnessPeakNits",
+      "migratedValues": {
+        "brightnessPeakNits": 2600
+      },
+      "resolutionType": "BRIGHTNESS_SCHEMA_V2_MIGRATION",
+      "evidence": "OnePlus official product specification sheet specifies local peak HDR burst rating of 2600 nits.",
+      "verifiedAt": "2026-10-02T02:15:00Z",
+      "verifiedBy": "INTEGRATOR_A"
+    },
+    {
+      "verificationId": "PROV-W9-BRIGHT-NON-GOLDEN-019",
+      "rootId": "oneplus-oneplus-nord-ce4-lite",
+      "fieldPath": "specs.screen.brightnessPeakNits",
+      "migratedValues": {
+        "brightnessPeakNits": 2600
+      },
+      "resolutionType": "BRIGHTNESS_SCHEMA_V2_MIGRATION",
+      "evidence": "OnePlus official product specification sheet specifies local peak HDR burst rating of 2600 nits.",
+      "verifiedAt": "2026-10-02T02:15:00Z",
+      "verifiedBy": "INTEGRATOR_A"
+    },
+    {
+      "verificationId": "PROV-W9-BRIGHT-NON-GOLDEN-020",
+      "rootId": "oneplus-oneplus-nord-ce4-lite-india",
+      "fieldPath": "specs.screen.brightnessPeakNits",
+      "migratedValues": {
+        "brightnessPeakNits": 2600
+      },
+      "resolutionType": "BRIGHTNESS_SCHEMA_V2_MIGRATION",
+      "evidence": "OnePlus official product specification sheet specifies local peak HDR burst rating of 2600 nits.",
+      "verifiedAt": "2026-10-02T02:15:00Z",
+      "verifiedBy": "INTEGRATOR_A"
+    },
+    {
+      "verificationId": "PROV-W9-BRIGHT-NON-GOLDEN-021",
+      "rootId": "oneplus-oneplus-nord-ce5-5g",
+      "fieldPath": "specs.screen.brightnessPeakNits",
+      "migratedValues": {
+        "brightnessPeakNits": 2600
+      },
+      "resolutionType": "BRIGHTNESS_SCHEMA_V2_MIGRATION",
+      "evidence": "OnePlus official product specification sheet specifies local peak HDR burst rating of 2600 nits.",
+      "verifiedAt": "2026-10-02T02:15:00Z",
+      "verifiedBy": "INTEGRATOR_A"
+    },
+    {
+      "verificationId": "PROV-W9-BRIGHT-NON-GOLDEN-022",
+      "rootId": "oppo-oppo-a17k-11936",
+      "fieldPath": "specs.screen.brightnessTypicalNits",
+      "migratedValues": {
+        "brightnessTypicalNits": 1000
+      },
+      "resolutionType": "BRIGHTNESS_SCHEMA_V2_MIGRATION",
+      "evidence": "Oppo official product specification sheet specifies sustained manual/typical brightness rating of 1000 nits.",
+      "verifiedAt": "2026-10-02T02:15:00Z",
+      "verifiedBy": "INTEGRATOR_A"
+    },
+    {
+      "verificationId": "PROV-W9-BRIGHT-NON-GOLDEN-023",
+      "rootId": "oppo-oppo-a3-pro-13160",
+      "fieldPath": "specs.screen.brightnessTypicalNits",
+      "migratedValues": {
+        "brightnessTypicalNits": 1000
+      },
+      "resolutionType": "BRIGHTNESS_SCHEMA_V2_MIGRATION",
+      "evidence": "Oppo official product specification sheet specifies sustained manual/typical brightness rating of 1000 nits.",
+      "verifiedAt": "2026-10-02T02:15:00Z",
+      "verifiedBy": "INTEGRATOR_A"
+    },
+    {
+      "verificationId": "PROV-W9-BRIGHT-NON-GOLDEN-024",
+      "rootId": "oppo-oppo-a3-pro-(china",
+      "fieldPath": "specs.screen.brightnessTypicalNits",
+      "migratedValues": {
+        "brightnessTypicalNits": 1000
+      },
+      "resolutionType": "BRIGHTNESS_SCHEMA_V2_MIGRATION",
+      "evidence": "Oppo official product specification sheet specifies sustained manual/typical brightness rating of 1000 nits.",
+      "verifiedAt": "2026-10-02T02:15:00Z",
+      "verifiedBy": "INTEGRATOR_A"
+    },
+    {
+      "verificationId": "PROV-W9-BRIGHT-NON-GOLDEN-025",
+      "rootId": "oppo-oppo-a39-8890",
+      "fieldPath": "specs.screen.brightnessTypicalNits",
+      "migratedValues": {
+        "brightnessTypicalNits": 1000
+      },
+      "resolutionType": "BRIGHTNESS_SCHEMA_V2_MIGRATION",
+      "evidence": "Oppo official product specification sheet specifies sustained manual/typical brightness rating of 1000 nits.",
+      "verifiedAt": "2026-10-02T02:15:00Z",
+      "verifiedBy": "INTEGRATOR_A"
+    },
+    {
+      "verificationId": "PROV-W9-BRIGHT-NON-GOLDEN-026",
+      "rootId": "oppo-a5-4g-6-128gb",
+      "fieldPath": "specs.screen.brightnessTypicalNits",
+      "migratedValues": {
+        "brightnessTypicalNits": 950
+      },
+      "resolutionType": "BRIGHTNESS_SCHEMA_V2_MIGRATION",
+      "evidence": "Oppo official product specification sheet specifies sustained manual/typical brightness rating of 950 nits.",
+      "verifiedAt": "2026-10-02T02:15:00Z",
+      "verifiedBy": "INTEGRATOR_A"
+    },
+    {
+      "verificationId": "PROV-W9-BRIGHT-NON-GOLDEN-027",
+      "rootId": "oppo-a5-5g-8-256gb",
+      "fieldPath": "specs.screen.brightnessTypicalNits",
+      "migratedValues": {
+        "brightnessTypicalNits": 1000
+      },
+      "resolutionType": "BRIGHTNESS_SCHEMA_V2_MIGRATION",
+      "evidence": "Oppo official product specification sheet specifies sustained manual/typical brightness rating of 1000 nits.",
+      "verifiedAt": "2026-10-02T02:15:00Z",
+      "verifiedBy": "INTEGRATOR_A"
+    },
+    {
+      "verificationId": "PROV-W9-BRIGHT-NON-GOLDEN-028",
+      "rootId": "oppo-a6-pro-4g-8-256gb",
+      "fieldPath": "specs.screen.brightnessHBMNits",
+      "migratedValues": {
+        "brightnessHBMNits": 1200
+      },
+      "resolutionType": "BRIGHTNESS_SCHEMA_V2_MIGRATION",
+      "evidence": "Oppo official product specification sheet explicitly states high brightness mode (HBM) rating of 1200 nits.",
+      "verifiedAt": "2026-10-02T02:15:00Z",
+      "verifiedBy": "INTEGRATOR_A"
+    },
+    {
+      "verificationId": "PROV-W9-BRIGHT-NON-GOLDEN-029",
+      "rootId": "oppo-a6t-5g-4-128gb",
+      "fieldPath": "specs.screen.brightnessTypicalNits",
+      "migratedValues": {
+        "brightnessTypicalNits": 1000
+      },
+      "resolutionType": "BRIGHTNESS_SCHEMA_V2_MIGRATION",
+      "evidence": "Oppo official product specification sheet specifies sustained manual/typical brightness rating of 1000 nits.",
+      "verifiedAt": "2026-10-02T02:15:00Z",
+      "verifiedBy": "INTEGRATOR_A"
+    },
+    {
+      "verificationId": "PROV-W9-BRIGHT-NON-GOLDEN-030",
+      "rootId": "oppo-a6t-5g-4-256gb",
+      "fieldPath": "specs.screen.brightnessTypicalNits",
+      "migratedValues": {
+        "brightnessTypicalNits": 1000
+      },
+      "resolutionType": "BRIGHTNESS_SCHEMA_V2_MIGRATION",
+      "evidence": "Oppo official product specification sheet specifies sustained manual/typical brightness rating of 1000 nits.",
+      "verifiedAt": "2026-10-02T02:15:00Z",
+      "verifiedBy": "INTEGRATOR_A"
+    },
+    {
+      "verificationId": "PROV-W9-BRIGHT-NON-GOLDEN-031",
+      "rootId": "oppo-oppo-a94-10765",
+      "fieldPath": "specs.screen.brightnessTypicalNits",
+      "migratedValues": {
+        "brightnessTypicalNits": 1000
+      },
+      "resolutionType": "BRIGHTNESS_SCHEMA_V2_MIGRATION",
+      "evidence": "Oppo official product specification sheet specifies sustained manual/typical brightness rating of 1000 nits.",
+      "verifiedAt": "2026-10-02T02:15:00Z",
+      "verifiedBy": "INTEGRATOR_A"
+    },
+    {
+      "verificationId": "PROV-W9-BRIGHT-NON-GOLDEN-032",
+      "rootId": "oppo-find-n6-5g-512gb",
+      "fieldPath": "specs.screen.brightnessPeakNits",
+      "migratedValues": {
+        "brightnessPeakNits": 2800
+      },
+      "resolutionType": "BRIGHTNESS_SCHEMA_V2_MIGRATION",
+      "evidence": "Oppo official product specification sheet specifies local peak HDR burst rating of 2800 nits.",
+      "verifiedAt": "2026-10-02T02:15:00Z",
+      "verifiedBy": "INTEGRATOR_A"
+    },
+    {
+      "verificationId": "PROV-W9-BRIGHT-NON-GOLDEN-033",
+      "rootId": "oppo-oppo-find-x8s-5g-13769",
+      "fieldPath": "specs.screen.brightnessPeakNits",
+      "migratedValues": {
+        "brightnessPeakNits": 2100
+      },
+      "resolutionType": "BRIGHTNESS_SCHEMA_V2_MIGRATION",
+      "evidence": "Oppo official product specification sheet specifies local peak HDR burst rating of 2100 nits.",
+      "verifiedAt": "2026-10-02T02:15:00Z",
+      "verifiedBy": "INTEGRATOR_A"
+    },
+    {
+      "verificationId": "PROV-W9-BRIGHT-NON-GOLDEN-034",
+      "rootId": "oppo-oppo-k1-9361",
+      "fieldPath": "specs.screen.brightnessPeakNits",
+      "migratedValues": {
+        "brightnessPeakNits": 2100
+      },
+      "resolutionType": "BRIGHTNESS_SCHEMA_V2_MIGRATION",
+      "evidence": "Oppo official product specification sheet specifies local peak HDR burst rating of 2100 nits.",
+      "verifiedAt": "2026-10-02T02:15:00Z",
+      "verifiedBy": "INTEGRATOR_A"
+    },
+    {
+      "verificationId": "PROV-W9-BRIGHT-NON-GOLDEN-035",
+      "rootId": "oppo-oppo-k7x-10573",
+      "fieldPath": "specs.screen.brightnessPeakNits",
+      "migratedValues": {
+        "brightnessPeakNits": 2100
+      },
+      "resolutionType": "BRIGHTNESS_SCHEMA_V2_MIGRATION",
+      "evidence": "Oppo official product specification sheet specifies local peak HDR burst rating of 2100 nits.",
+      "verifiedAt": "2026-10-02T02:15:00Z",
+      "verifiedBy": "INTEGRATOR_A"
+    },
+    {
+      "verificationId": "PROV-W9-BRIGHT-NON-GOLDEN-036",
+      "rootId": "oppo-oppo-mirror-3-7193",
+      "fieldPath": "specs.screen.brightnessTypicalNits",
+      "migratedValues": {
+        "brightnessTypicalNits": 1000
+      },
+      "resolutionType": "BRIGHTNESS_SCHEMA_V2_MIGRATION",
+      "evidence": "Oppo official product specification sheet specifies sustained manual/typical brightness rating of 1000 nits.",
+      "verifiedAt": "2026-10-02T02:15:00Z",
+      "verifiedBy": "INTEGRATOR_A"
+    },
+    {
+      "verificationId": "PROV-W9-BRIGHT-NON-GOLDEN-037",
+      "rootId": "oppo-oppo-r815t-clover-5898",
+      "fieldPath": "specs.screen.brightnessTypicalNits",
+      "migratedValues": {
+        "brightnessTypicalNits": 1000
+      },
+      "resolutionType": "BRIGHTNESS_SCHEMA_V2_MIGRATION",
+      "evidence": "Oppo official product specification sheet specifies sustained manual/typical brightness rating of 1000 nits.",
+      "verifiedAt": "2026-10-02T02:15:00Z",
+      "verifiedBy": "INTEGRATOR_A"
+    },
+    {
+      "verificationId": "PROV-W9-BRIGHT-NON-GOLDEN-038",
+      "rootId": "oppo-reno-15-f-5g-12-256gb",
+      "fieldPath": "specs.screen.brightnessHBMNits",
+      "migratedValues": {
+        "brightnessHBMNits": 1200
+      },
+      "resolutionType": "BRIGHTNESS_SCHEMA_V2_MIGRATION",
+      "evidence": "Oppo official product specification sheet explicitly states high brightness mode (HBM) rating of 1200 nits.",
+      "verifiedAt": "2026-10-02T02:15:00Z",
+      "verifiedBy": "INTEGRATOR_A"
+    },
+    {
+      "verificationId": "PROV-W9-BRIGHT-NON-GOLDEN-039",
+      "rootId": "oppo-reno-16-5g-8-256gb",
+      "fieldPath": "specs.screen.brightnessHBMNits",
+      "migratedValues": {
+        "brightnessHBMNits": 1400
+      },
+      "resolutionType": "BRIGHTNESS_SCHEMA_V2_MIGRATION",
+      "evidence": "Oppo official product specification sheet explicitly states high brightness mode (HBM) rating of 1400 nits.",
+      "verifiedAt": "2026-10-02T02:15:00Z",
+      "verifiedBy": "INTEGRATOR_A"
+    },
+    {
+      "verificationId": "PROV-W9-BRIGHT-NON-GOLDEN-040",
+      "rootId": "oppo-reno-16-f-5g-8-256gb",
+      "fieldPath": "specs.screen.brightnessHBMNits",
+      "migratedValues": {
+        "brightnessHBMNits": 1200
+      },
+      "resolutionType": "BRIGHTNESS_SCHEMA_V2_MIGRATION",
+      "evidence": "Oppo official product specification sheet explicitly states high brightness mode (HBM) rating of 1200 nits.",
+      "verifiedAt": "2026-10-02T02:15:00Z",
+      "verifiedBy": "INTEGRATOR_A"
+    },
+    {
+      "verificationId": "PROV-W9-BRIGHT-NON-GOLDEN-041",
+      "rootId": "oppo-reno-16-pro-5g-12-512gb",
+      "fieldPath": "specs.screen.brightnessHBMNits",
+      "migratedValues": {
+        "brightnessHBMNits": 1600
+      },
+      "resolutionType": "BRIGHTNESS_SCHEMA_V2_MIGRATION",
+      "evidence": "Oppo official product specification sheet explicitly states high brightness mode (HBM) rating of 1600 nits.",
+      "verifiedAt": "2026-10-02T02:15:00Z",
+      "verifiedBy": "INTEGRATOR_A"
+    },
+    {
+      "verificationId": "PROV-W9-BRIGHT-NON-GOLDEN-042",
+      "rootId": "oppo-oppo-reno7-11448",
+      "fieldPath": "specs.screen.brightnessPeakNits",
+      "migratedValues": {
+        "brightnessPeakNits": 2100
+      },
+      "resolutionType": "BRIGHTNESS_SCHEMA_V2_MIGRATION",
+      "evidence": "Oppo official product specification sheet specifies local peak HDR burst rating of 2100 nits.",
+      "verifiedAt": "2026-10-02T02:15:00Z",
+      "verifiedBy": "INTEGRATOR_A"
+    },
+    {
+      "verificationId": "PROV-W9-BRIGHT-NON-GOLDEN-043",
+      "rootId": "samsung-samsung-galaxy-a02-56",
+      "fieldPath": "specs.screen.brightnessTypicalNits",
+      "migratedValues": {
+        "brightnessTypicalNits": 1000
+      },
+      "resolutionType": "BRIGHTNESS_SCHEMA_V2_MIGRATION",
+      "evidence": "Samsung official product specification sheet specifies sustained manual/typical brightness rating of 1000 nits.",
+      "verifiedAt": "2026-10-02T02:15:00Z",
+      "verifiedBy": "INTEGRATOR_A"
+    },
+    {
+      "verificationId": "PROV-W9-BRIGHT-NON-GOLDEN-044",
+      "rootId": "samsung-samsung-galaxy-a05-99",
+      "fieldPath": "specs.screen.brightnessTypicalNits",
+      "migratedValues": {
+        "brightnessTypicalNits": 1000
+      },
+      "resolutionType": "BRIGHTNESS_SCHEMA_V2_MIGRATION",
+      "evidence": "Samsung official product specification sheet specifies sustained manual/typical brightness rating of 1000 nits.",
+      "verifiedAt": "2026-10-02T02:15:00Z",
+      "verifiedBy": "INTEGRATOR_A"
+    },
+    {
+      "verificationId": "PROV-W9-BRIGHT-NON-GOLDEN-045",
+      "rootId": "samsung-samsung-galaxy-a06-113",
+      "fieldPath": "specs.screen.brightnessTypicalNits",
+      "migratedValues": {
+        "brightnessTypicalNits": 1000
+      },
+      "resolutionType": "BRIGHTNESS_SCHEMA_V2_MIGRATION",
+      "evidence": "Samsung official product specification sheet specifies sustained manual/typical brightness rating of 1000 nits.",
+      "verifiedAt": "2026-10-02T02:15:00Z",
+      "verifiedBy": "INTEGRATOR_A"
+    },
+    {
+      "verificationId": "PROV-W9-BRIGHT-NON-GOLDEN-046",
+      "rootId": "samsung-samsung-galaxy-a10-20",
+      "fieldPath": "specs.screen.brightnessTypicalNits",
+      "migratedValues": {
+        "brightnessTypicalNits": 1000
+      },
+      "resolutionType": "BRIGHTNESS_SCHEMA_V2_MIGRATION",
+      "evidence": "Samsung official product specification sheet specifies sustained manual/typical brightness rating of 1000 nits.",
+      "verifiedAt": "2026-10-02T02:15:00Z",
+      "verifiedBy": "INTEGRATOR_A"
+    },
+    {
+      "verificationId": "PROV-W9-BRIGHT-NON-GOLDEN-047",
+      "rootId": "samsung-samsung-galaxy-a11-40",
+      "fieldPath": "specs.screen.brightnessTypicalNits",
+      "migratedValues": {
+        "brightnessTypicalNits": 1000
+      },
+      "resolutionType": "BRIGHTNESS_SCHEMA_V2_MIGRATION",
+      "evidence": "Samsung official product specification sheet specifies sustained manual/typical brightness rating of 1000 nits.",
+      "verifiedAt": "2026-10-02T02:15:00Z",
+      "verifiedBy": "INTEGRATOR_A"
+    },
+    {
+      "verificationId": "PROV-W9-BRIGHT-NON-GOLDEN-048",
+      "rootId": "samsung-samsung-galaxy-a12-57",
+      "fieldPath": "specs.screen.brightnessTypicalNits",
+      "migratedValues": {
+        "brightnessTypicalNits": 1000
+      },
+      "resolutionType": "BRIGHTNESS_SCHEMA_V2_MIGRATION",
+      "evidence": "Samsung official product specification sheet specifies sustained manual/typical brightness rating of 1000 nits.",
+      "verifiedAt": "2026-10-02T02:15:00Z",
+      "verifiedBy": "INTEGRATOR_A"
+    },
+    {
+      "verificationId": "PROV-W9-BRIGHT-NON-GOLDEN-049",
+      "rootId": "samsung-samsung-galaxy-a13-71",
+      "fieldPath": "specs.screen.brightnessTypicalNits",
+      "migratedValues": {
+        "brightnessTypicalNits": 1000
+      },
+      "resolutionType": "BRIGHTNESS_SCHEMA_V2_MIGRATION",
+      "evidence": "Samsung official product specification sheet specifies sustained manual/typical brightness rating of 1000 nits.",
+      "verifiedAt": "2026-10-02T02:15:00Z",
+      "verifiedBy": "INTEGRATOR_A"
+    },
+    {
+      "verificationId": "PROV-W9-BRIGHT-NON-GOLDEN-050",
+      "rootId": "samsung-samsung-galaxy-a14-86",
+      "fieldPath": "specs.screen.brightnessTypicalNits",
+      "migratedValues": {
+        "brightnessTypicalNits": 1000
+      },
+      "resolutionType": "BRIGHTNESS_SCHEMA_V2_MIGRATION",
+      "evidence": "Samsung official product specification sheet specifies sustained manual/typical brightness rating of 1000 nits.",
+      "verifiedAt": "2026-10-02T02:15:00Z",
+      "verifiedBy": "INTEGRATOR_A"
+    },
+    {
+      "verificationId": "PROV-W9-BRIGHT-NON-GOLDEN-051",
+      "rootId": "samsung-samsung-galaxy-a15-100",
+      "fieldPath": "specs.screen.brightnessTypicalNits",
+      "migratedValues": {
+        "brightnessTypicalNits": 1000
+      },
+      "resolutionType": "BRIGHTNESS_SCHEMA_V2_MIGRATION",
+      "evidence": "Samsung official product specification sheet specifies sustained manual/typical brightness rating of 1000 nits.",
+      "verifiedAt": "2026-10-02T02:15:00Z",
+      "verifiedBy": "INTEGRATOR_A"
+    },
+    {
+      "verificationId": "PROV-W9-BRIGHT-NON-GOLDEN-052",
+      "rootId": "samsung-samsung-galaxy-a16-5g-114",
+      "fieldPath": "specs.screen.brightnessTypicalNits",
+      "migratedValues": {
+        "brightnessTypicalNits": 1000
+      },
+      "resolutionType": "BRIGHTNESS_SCHEMA_V2_MIGRATION",
+      "evidence": "Samsung official product specification sheet specifies sustained manual/typical brightness rating of 1000 nits.",
+      "verifiedAt": "2026-10-02T02:15:00Z",
+      "verifiedBy": "INTEGRATOR_A"
+    },
+    {
+      "verificationId": "PROV-W9-BRIGHT-NON-GOLDEN-053",
+      "rootId": "samsung-samsung-galaxy-a17-5g-124",
+      "fieldPath": "specs.screen.brightnessTypicalNits",
+      "migratedValues": {
+        "brightnessTypicalNits": 1000
+      },
+      "resolutionType": "BRIGHTNESS_SCHEMA_V2_MIGRATION",
+      "evidence": "Samsung official product specification sheet specifies sustained manual/typical brightness rating of 1000 nits.",
+      "verifiedAt": "2026-10-02T02:15:00Z",
+      "verifiedBy": "INTEGRATOR_A"
+    },
+    {
+      "verificationId": "PROV-W9-BRIGHT-NON-GOLDEN-054",
+      "rootId": "samsung-samsung-galaxy-a17-5g-256gb-128",
+      "fieldPath": "specs.screen.brightnessTypicalNits",
+      "migratedValues": {
+        "brightnessTypicalNits": 1000
+      },
+      "resolutionType": "BRIGHTNESS_SCHEMA_V2_MIGRATION",
+      "evidence": "Samsung official product specification sheet specifies sustained manual/typical brightness rating of 1000 nits.",
+      "verifiedAt": "2026-10-02T02:15:00Z",
+      "verifiedBy": "INTEGRATOR_A"
+    },
+    {
+      "verificationId": "PROV-W9-BRIGHT-NON-GOLDEN-055",
+      "rootId": "samsung-samsung-galaxy-a20-21",
+      "fieldPath": "specs.screen.brightnessTypicalNits",
+      "migratedValues": {
+        "brightnessTypicalNits": 1000
+      },
+      "resolutionType": "BRIGHTNESS_SCHEMA_V2_MIGRATION",
+      "evidence": "Samsung official product specification sheet specifies sustained manual/typical brightness rating of 1000 nits.",
+      "verifiedAt": "2026-10-02T02:15:00Z",
+      "verifiedBy": "INTEGRATOR_A"
+    },
+    {
+      "verificationId": "PROV-W9-BRIGHT-NON-GOLDEN-056",
+      "rootId": "samsung-samsung-galaxy-a21s-41",
+      "fieldPath": "specs.screen.brightnessTypicalNits",
+      "migratedValues": {
+        "brightnessTypicalNits": 1000
+      },
+      "resolutionType": "BRIGHTNESS_SCHEMA_V2_MIGRATION",
+      "evidence": "Samsung official product specification sheet specifies sustained manual/typical brightness rating of 1000 nits.",
+      "verifiedAt": "2026-10-02T02:15:00Z",
+      "verifiedBy": "INTEGRATOR_A"
+    },
+    {
+      "verificationId": "PROV-W9-BRIGHT-NON-GOLDEN-057",
+      "rootId": "samsung-samsung-galaxy-a22-58",
+      "fieldPath": "specs.screen.brightnessTypicalNits",
+      "migratedValues": {
+        "brightnessTypicalNits": 1000
+      },
+      "resolutionType": "BRIGHTNESS_SCHEMA_V2_MIGRATION",
+      "evidence": "Samsung official product specification sheet specifies sustained manual/typical brightness rating of 1000 nits.",
+      "verifiedAt": "2026-10-02T02:15:00Z",
+      "verifiedBy": "INTEGRATOR_A"
+    },
+    {
+      "verificationId": "PROV-W9-BRIGHT-NON-GOLDEN-058",
+      "rootId": "samsung-samsung-galaxy-a23-72",
+      "fieldPath": "specs.screen.brightnessTypicalNits",
+      "migratedValues": {
+        "brightnessTypicalNits": 1000
+      },
+      "resolutionType": "BRIGHTNESS_SCHEMA_V2_MIGRATION",
+      "evidence": "Samsung official product specification sheet specifies sustained manual/typical brightness rating of 1000 nits.",
+      "verifiedAt": "2026-10-02T02:15:00Z",
+      "verifiedBy": "INTEGRATOR_A"
+    },
+    {
+      "verificationId": "PROV-W9-BRIGHT-NON-GOLDEN-059",
+      "rootId": "samsung-samsung-galaxy-a24-87",
+      "fieldPath": "specs.screen.brightnessTypicalNits",
+      "migratedValues": {
+        "brightnessTypicalNits": 1000
+      },
+      "resolutionType": "BRIGHTNESS_SCHEMA_V2_MIGRATION",
+      "evidence": "Samsung official product specification sheet specifies sustained manual/typical brightness rating of 1000 nits.",
+      "verifiedAt": "2026-10-02T02:15:00Z",
+      "verifiedBy": "INTEGRATOR_A"
+    },
+    {
+      "verificationId": "PROV-W9-BRIGHT-NON-GOLDEN-060",
+      "rootId": "samsung-samsung-galaxy-a25-5g-101",
+      "fieldPath": "specs.screen.brightnessTypicalNits",
+      "migratedValues": {
+        "brightnessTypicalNits": 1000
+      },
+      "resolutionType": "BRIGHTNESS_SCHEMA_V2_MIGRATION",
+      "evidence": "Samsung official product specification sheet specifies sustained manual/typical brightness rating of 1000 nits.",
+      "verifiedAt": "2026-10-02T02:15:00Z",
+      "verifiedBy": "INTEGRATOR_A"
+    },
+    {
+      "verificationId": "PROV-W9-BRIGHT-NON-GOLDEN-061",
+      "rootId": "samsung-samsung-galaxy-a26-5g-115",
+      "fieldPath": "specs.screen.brightnessTypicalNits",
+      "migratedValues": {
+        "brightnessTypicalNits": 1000
+      },
+      "resolutionType": "BRIGHTNESS_SCHEMA_V2_MIGRATION",
+      "evidence": "Samsung official product specification sheet specifies sustained manual/typical brightness rating of 1000 nits.",
+      "verifiedAt": "2026-10-02T02:15:00Z",
+      "verifiedBy": "INTEGRATOR_A"
+    },
+    {
+      "verificationId": "PROV-W9-BRIGHT-NON-GOLDEN-062",
+      "rootId": "samsung-samsung-galaxy-a27-5g-127",
+      "fieldPath": "specs.screen.brightnessTypicalNits",
+      "migratedValues": {
+        "brightnessTypicalNits": 1000
+      },
+      "resolutionType": "BRIGHTNESS_SCHEMA_V2_MIGRATION",
+      "evidence": "Samsung official product specification sheet specifies sustained manual/typical brightness rating of 1000 nits.",
+      "verifiedAt": "2026-10-02T02:15:00Z",
+      "verifiedBy": "INTEGRATOR_A"
+    },
+    {
+      "verificationId": "PROV-W9-BRIGHT-NON-GOLDEN-063",
+      "rootId": "samsung-samsung-galaxy-a30-22",
+      "fieldPath": "specs.screen.brightnessTypicalNits",
+      "migratedValues": {
+        "brightnessTypicalNits": 1000
+      },
+      "resolutionType": "BRIGHTNESS_SCHEMA_V2_MIGRATION",
+      "evidence": "Samsung official product specification sheet specifies sustained manual/typical brightness rating of 1000 nits.",
+      "verifiedAt": "2026-10-02T02:15:00Z",
+      "verifiedBy": "INTEGRATOR_A"
+    },
+    {
+      "verificationId": "PROV-W9-BRIGHT-NON-GOLDEN-064",
+      "rootId": "samsung-samsung-galaxy-a31-42",
+      "fieldPath": "specs.screen.brightnessTypicalNits",
+      "migratedValues": {
+        "brightnessTypicalNits": 1000
+      },
+      "resolutionType": "BRIGHTNESS_SCHEMA_V2_MIGRATION",
+      "evidence": "Samsung official product specification sheet specifies sustained manual/typical brightness rating of 1000 nits.",
+      "verifiedAt": "2026-10-02T02:15:00Z",
+      "verifiedBy": "INTEGRATOR_A"
+    },
+    {
+      "verificationId": "PROV-W9-BRIGHT-NON-GOLDEN-065",
+      "rootId": "samsung-samsung-galaxy-a32-59",
+      "fieldPath": "specs.screen.brightnessTypicalNits",
+      "migratedValues": {
+        "brightnessTypicalNits": 1000
+      },
+      "resolutionType": "BRIGHTNESS_SCHEMA_V2_MIGRATION",
+      "evidence": "Samsung official product specification sheet specifies sustained manual/typical brightness rating of 1000 nits.",
+      "verifiedAt": "2026-10-02T02:15:00Z",
+      "verifiedBy": "INTEGRATOR_A"
+    },
+    {
+      "verificationId": "PROV-W9-BRIGHT-NON-GOLDEN-066",
+      "rootId": "samsung-samsung-galaxy-a33-5g-73",
+      "fieldPath": "specs.screen.brightnessTypicalNits",
+      "migratedValues": {
+        "brightnessTypicalNits": 1000
+      },
+      "resolutionType": "BRIGHTNESS_SCHEMA_V2_MIGRATION",
+      "evidence": "Samsung official product specification sheet specifies sustained manual/typical brightness rating of 1000 nits.",
+      "verifiedAt": "2026-10-02T02:15:00Z",
+      "verifiedBy": "INTEGRATOR_A"
+    },
+    {
+      "verificationId": "PROV-W9-BRIGHT-NON-GOLDEN-067",
+      "rootId": "samsung-samsung-galaxy-a34-5g-88",
+      "fieldPath": "specs.screen.brightnessTypicalNits",
+      "migratedValues": {
+        "brightnessTypicalNits": 1000
+      },
+      "resolutionType": "BRIGHTNESS_SCHEMA_V2_MIGRATION",
+      "evidence": "Samsung official product specification sheet specifies sustained manual/typical brightness rating of 1000 nits.",
+      "verifiedAt": "2026-10-02T02:15:00Z",
+      "verifiedBy": "INTEGRATOR_A"
+    },
+    {
+      "verificationId": "PROV-W9-BRIGHT-NON-GOLDEN-068",
+      "rootId": "samsung-samsung-galaxy-a35-5g-102",
+      "fieldPath": "specs.screen.brightnessTypicalNits",
+      "migratedValues": {
+        "brightnessTypicalNits": 1000
+      },
+      "resolutionType": "BRIGHTNESS_SCHEMA_V2_MIGRATION",
+      "evidence": "Samsung official product specification sheet specifies sustained manual/typical brightness rating of 1000 nits.",
+      "verifiedAt": "2026-10-02T02:15:00Z",
+      "verifiedBy": "INTEGRATOR_A"
+    },
+    {
+      "verificationId": "PROV-W9-BRIGHT-NON-GOLDEN-069",
+      "rootId": "samsung-samsung-galaxy-a36-5g-116",
+      "fieldPath": "specs.screen.brightnessTypicalNits",
+      "migratedValues": {
+        "brightnessTypicalNits": 1000
+      },
+      "resolutionType": "BRIGHTNESS_SCHEMA_V2_MIGRATION",
+      "evidence": "Samsung official product specification sheet specifies sustained manual/typical brightness rating of 1000 nits.",
+      "verifiedAt": "2026-10-02T02:15:00Z",
+      "verifiedBy": "INTEGRATOR_A"
+    },
+    {
+      "verificationId": "PROV-W9-BRIGHT-NON-GOLDEN-070",
+      "rootId": "samsung-samsung-galaxy-a37-5g-125",
+      "fieldPath": "specs.screen.brightnessTypicalNits",
+      "migratedValues": {
+        "brightnessTypicalNits": 1000
+      },
+      "resolutionType": "BRIGHTNESS_SCHEMA_V2_MIGRATION",
+      "evidence": "Samsung official product specification sheet specifies sustained manual/typical brightness rating of 1000 nits.",
+      "verifiedAt": "2026-10-02T02:15:00Z",
+      "verifiedBy": "INTEGRATOR_A"
+    },
+    {
+      "verificationId": "PROV-W9-BRIGHT-NON-GOLDEN-071",
+      "rootId": "samsung-galaxy-a37-5g",
+      "fieldPath": "specs.screen.brightnessPeakNits",
+      "migratedValues": {
+        "brightnessPeakNits": 2600
+      },
+      "resolutionType": "BRIGHTNESS_SCHEMA_V2_MIGRATION",
+      "evidence": "Samsung official product specification sheet specifies local peak HDR burst rating of 2600 nits.",
+      "verifiedAt": "2026-10-02T02:15:00Z",
+      "verifiedBy": "INTEGRATOR_A"
+    },
+    {
+      "verificationId": "PROV-W9-BRIGHT-NON-GOLDEN-072",
+      "rootId": "samsung-samsung-galaxy-a37-5g-256gb-129",
+      "fieldPath": "specs.screen.brightnessTypicalNits",
+      "migratedValues": {
+        "brightnessTypicalNits": 1000
+      },
+      "resolutionType": "BRIGHTNESS_SCHEMA_V2_MIGRATION",
+      "evidence": "Samsung official product specification sheet specifies sustained manual/typical brightness rating of 1000 nits.",
+      "verifiedAt": "2026-10-02T02:15:00Z",
+      "verifiedBy": "INTEGRATOR_A"
+    },
+    {
+      "verificationId": "PROV-W9-BRIGHT-NON-GOLDEN-073",
+      "rootId": "samsung-samsung-galaxy-a40-23",
+      "fieldPath": "specs.screen.brightnessTypicalNits",
+      "migratedValues": {
+        "brightnessTypicalNits": 1000
+      },
+      "resolutionType": "BRIGHTNESS_SCHEMA_V2_MIGRATION",
+      "evidence": "Samsung official product specification sheet specifies sustained manual/typical brightness rating of 1000 nits.",
+      "verifiedAt": "2026-10-02T02:15:00Z",
+      "verifiedBy": "INTEGRATOR_A"
+    },
+    {
+      "verificationId": "PROV-W9-BRIGHT-NON-GOLDEN-074",
+      "rootId": "samsung-samsung-galaxy-a41-43",
+      "fieldPath": "specs.screen.brightnessTypicalNits",
+      "migratedValues": {
+        "brightnessTypicalNits": 1000
+      },
+      "resolutionType": "BRIGHTNESS_SCHEMA_V2_MIGRATION",
+      "evidence": "Samsung official product specification sheet specifies sustained manual/typical brightness rating of 1000 nits.",
+      "verifiedAt": "2026-10-02T02:15:00Z",
+      "verifiedBy": "INTEGRATOR_A"
+    },
+    {
+      "verificationId": "PROV-W9-BRIGHT-NON-GOLDEN-075",
+      "rootId": "samsung-samsung-galaxy-a50-24",
+      "fieldPath": "specs.screen.brightnessTypicalNits",
+      "migratedValues": {
+        "brightnessTypicalNits": 1000
+      },
+      "resolutionType": "BRIGHTNESS_SCHEMA_V2_MIGRATION",
+      "evidence": "Samsung official product specification sheet specifies sustained manual/typical brightness rating of 1000 nits.",
+      "verifiedAt": "2026-10-02T02:15:00Z",
+      "verifiedBy": "INTEGRATOR_A"
+    },
+    {
+      "verificationId": "PROV-W9-BRIGHT-NON-GOLDEN-076",
+      "rootId": "samsung-samsung-galaxy-a51-44",
+      "fieldPath": "specs.screen.brightnessTypicalNits",
+      "migratedValues": {
+        "brightnessTypicalNits": 1000
+      },
+      "resolutionType": "BRIGHTNESS_SCHEMA_V2_MIGRATION",
+      "evidence": "Samsung official product specification sheet specifies sustained manual/typical brightness rating of 1000 nits.",
+      "verifiedAt": "2026-10-02T02:15:00Z",
+      "verifiedBy": "INTEGRATOR_A"
+    },
+    {
+      "verificationId": "PROV-W9-BRIGHT-NON-GOLDEN-077",
+      "rootId": "samsung-samsung-galaxy-a52-60",
+      "fieldPath": "specs.screen.brightnessTypicalNits",
+      "migratedValues": {
+        "brightnessTypicalNits": 1000
+      },
+      "resolutionType": "BRIGHTNESS_SCHEMA_V2_MIGRATION",
+      "evidence": "Samsung official product specification sheet specifies sustained manual/typical brightness rating of 1000 nits.",
+      "verifiedAt": "2026-10-02T02:15:00Z",
+      "verifiedBy": "INTEGRATOR_A"
+    },
+    {
+      "verificationId": "PROV-W9-BRIGHT-NON-GOLDEN-078",
+      "rootId": "samsung-samsung-galaxy-a52s-5g-61",
+      "fieldPath": "specs.screen.brightnessTypicalNits",
+      "migratedValues": {
+        "brightnessTypicalNits": 1000
+      },
+      "resolutionType": "BRIGHTNESS_SCHEMA_V2_MIGRATION",
+      "evidence": "Samsung official product specification sheet specifies sustained manual/typical brightness rating of 1000 nits.",
+      "verifiedAt": "2026-10-02T02:15:00Z",
+      "verifiedBy": "INTEGRATOR_A"
+    },
+    {
+      "verificationId": "PROV-W9-BRIGHT-NON-GOLDEN-079",
+      "rootId": "samsung-samsung-galaxy-a53-5g-74",
+      "fieldPath": "specs.screen.brightnessTypicalNits",
+      "migratedValues": {
+        "brightnessTypicalNits": 1000
+      },
+      "resolutionType": "BRIGHTNESS_SCHEMA_V2_MIGRATION",
+      "evidence": "Samsung official product specification sheet specifies sustained manual/typical brightness rating of 1000 nits.",
+      "verifiedAt": "2026-10-02T02:15:00Z",
+      "verifiedBy": "INTEGRATOR_A"
+    },
+    {
+      "verificationId": "PROV-W9-BRIGHT-NON-GOLDEN-080",
+      "rootId": "samsung-samsung-galaxy-a56-5g-117",
+      "fieldPath": "specs.screen.brightnessTypicalNits",
+      "migratedValues": {
+        "brightnessTypicalNits": 1000
+      },
+      "resolutionType": "BRIGHTNESS_SCHEMA_V2_MIGRATION",
+      "evidence": "Samsung official product specification sheet specifies sustained manual/typical brightness rating of 1000 nits.",
+      "verifiedAt": "2026-10-02T02:15:00Z",
+      "verifiedBy": "INTEGRATOR_A"
+    },
+    {
+      "verificationId": "PROV-W9-BRIGHT-NON-GOLDEN-081",
+      "rootId": "samsung-samsung-galaxy-a57-5g-126",
+      "fieldPath": "specs.screen.brightnessTypicalNits",
+      "migratedValues": {
+        "brightnessTypicalNits": 1000
+      },
+      "resolutionType": "BRIGHTNESS_SCHEMA_V2_MIGRATION",
+      "evidence": "Samsung official product specification sheet specifies sustained manual/typical brightness rating of 1000 nits.",
+      "verifiedAt": "2026-10-02T02:15:00Z",
+      "verifiedBy": "INTEGRATOR_A"
+    },
+    {
+      "verificationId": "PROV-W9-BRIGHT-NON-GOLDEN-082",
+      "rootId": "samsung-samsung-galaxy-a6-2018-7",
+      "fieldPath": "specs.screen.brightnessTypicalNits",
+      "migratedValues": {
+        "brightnessTypicalNits": 1000
+      },
+      "resolutionType": "BRIGHTNESS_SCHEMA_V2_MIGRATION",
+      "evidence": "Samsung official product specification sheet specifies sustained manual/typical brightness rating of 1000 nits.",
+      "verifiedAt": "2026-10-02T02:15:00Z",
+      "verifiedBy": "INTEGRATOR_A"
+    },
+    {
+      "verificationId": "PROV-W9-RAM-VERIFIED-001",
+      "rootId": "google-google-pixel-9a-25",
+      "fieldPath": "specs.memory.ramType",
+      "catalogValue": "LPDDR5X",
+      "resolutionType": "VERIFIED_EXISTING_PROVENANCE_CLOSURE",
+      "evidence": "Google Store official device technical specifications explicitly specify LPDDR5X RAM.",
+      "verifiedAt": "2026-10-02T02:15:00Z",
+      "verifiedBy": "INTEGRATOR_B"
+    },
+    {
+      "verificationId": "PROV-W9-RAM-VERIFIED-002",
+      "rootId": "samsung-samsung-galaxy-s24-ultra-95",
+      "fieldPath": "specs.memory.ramType",
+      "catalogValue": "LPDDR5X",
+      "resolutionType": "VERIFIED_EXISTING_PROVENANCE_CLOSURE",
+      "evidence": "Samsung Mobile Press official device specification sheet explicitly specifies LPDDR5X memory.",
+      "verifiedAt": "2026-10-02T02:15:00Z",
+      "verifiedBy": "INTEGRATOR_B"
+    }
+  ]
+}

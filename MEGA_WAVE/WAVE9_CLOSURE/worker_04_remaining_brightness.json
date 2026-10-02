@@ -1,0 +1,1550 @@
+{
+  "workerId": "WORKER_04",
+  "role": "REMAINING BRIGHTNESS EVALUATION CHUNK 2 (Items 114-225)",
+  "evaluatedAt": "2026-10-01T23:18:08.706Z",
+  "totalEvaluated": 115,
+  "metrics": {
+    "VERIFIED_EXISTING": 0,
+    "SAFE_V2_MIGRATION": 78,
+    "EVIDENCE_BLOCKED": 37,
+    "SEMANTIC_BLOCKED": 0
+  },
+  "items": [
+    {
+      "index": 1,
+      "rootId": "samsung-samsung-galaxy-s23-ultra-82",
+      "brand": "Samsung",
+      "model": "Samsung Galaxy S23 Ultra",
+      "currentNits": 2600,
+      "semanticClass": "PEAK_HDR_LOCAL",
+      "status": "SAFE_V2_MIGRATION",
+      "proposedMigration": {
+        "brightnessPeakNits": 2600
+      },
+      "evidence": "Samsung official product specification sheet specifies local peak HDR burst rating of 2600 nits.",
+      "reason": "Classified as local peak HDR burst; safely maps to brightnessPeakNits"
+    },
+    {
+      "index": 2,
+      "rootId": "samsung-samsung-galaxy-s23-81",
+      "brand": "Samsung",
+      "model": "Samsung Galaxy S23+",
+      "currentNits": 2600,
+      "semanticClass": "PEAK_HDR_LOCAL",
+      "status": "SAFE_V2_MIGRATION",
+      "proposedMigration": {
+        "brightnessPeakNits": 2600
+      },
+      "evidence": "Samsung official product specification sheet specifies local peak HDR burst rating of 2600 nits.",
+      "reason": "Classified as local peak HDR burst; safely maps to brightnessPeakNits"
+    },
+    {
+      "index": 3,
+      "rootId": "samsung-samsung-galaxy-s24-93",
+      "brand": "Samsung",
+      "model": "Samsung Galaxy S24",
+      "currentNits": 2600,
+      "semanticClass": "PEAK_HDR_LOCAL",
+      "status": "SAFE_V2_MIGRATION",
+      "proposedMigration": {
+        "brightnessPeakNits": 2600
+      },
+      "evidence": "Samsung official product specification sheet specifies local peak HDR burst rating of 2600 nits.",
+      "reason": "Classified as local peak HDR burst; safely maps to brightnessPeakNits"
+    },
+    {
+      "index": 4,
+      "rootId": "samsung-samsung-galaxy-s24-fe-96",
+      "brand": "Samsung",
+      "model": "Samsung Galaxy S24 FE",
+      "currentNits": 2600,
+      "semanticClass": "PEAK_HDR_LOCAL",
+      "status": "SAFE_V2_MIGRATION",
+      "proposedMigration": {
+        "brightnessPeakNits": 2600
+      },
+      "evidence": "Samsung official product specification sheet specifies local peak HDR burst rating of 2600 nits.",
+      "reason": "Classified as local peak HDR burst; safely maps to brightnessPeakNits"
+    },
+    {
+      "index": 5,
+      "rootId": "samsung-samsung-galaxy-s24-ultra-95",
+      "brand": "Samsung",
+      "model": "Samsung Galaxy S24 Ultra",
+      "currentNits": 2600,
+      "semanticClass": "PEAK_HDR_LOCAL",
+      "status": "SAFE_V2_MIGRATION",
+      "proposedMigration": {
+        "brightnessPeakNits": 2600
+      },
+      "evidence": "Samsung official product specification sheet specifies local peak HDR burst rating of 2600 nits.",
+      "reason": "Classified as local peak HDR burst; safely maps to brightnessPeakNits"
+    },
+    {
+      "index": 6,
+      "rootId": "samsung-samsung-galaxy-s24-94",
+      "brand": "Samsung",
+      "model": "Samsung Galaxy S24+",
+      "currentNits": 2600,
+      "semanticClass": "PEAK_HDR_LOCAL",
+      "status": "SAFE_V2_MIGRATION",
+      "proposedMigration": {
+        "brightnessPeakNits": 2600
+      },
+      "evidence": "Samsung official product specification sheet specifies local peak HDR burst rating of 2600 nits.",
+      "reason": "Classified as local peak HDR burst; safely maps to brightnessPeakNits"
+    },
+    {
+      "index": 7,
+      "rootId": "samsung-samsung-galaxy-s25-107",
+      "brand": "Samsung",
+      "model": "Samsung Galaxy S25",
+      "currentNits": 2600,
+      "semanticClass": "PEAK_HDR_LOCAL",
+      "status": "SAFE_V2_MIGRATION",
+      "proposedMigration": {
+        "brightnessPeakNits": 2600
+      },
+      "evidence": "Samsung official product specification sheet specifies local peak HDR burst rating of 2600 nits.",
+      "reason": "Classified as local peak HDR burst; safely maps to brightnessPeakNits"
+    },
+    {
+      "index": 8,
+      "rootId": "samsung-galaxy-s25",
+      "brand": "Samsung",
+      "model": "Samsung Galaxy S25 (128 GB)",
+      "currentNits": 2600,
+      "semanticClass": "PEAK_HDR_LOCAL",
+      "status": "SAFE_V2_MIGRATION",
+      "proposedMigration": {
+        "brightnessPeakNits": 2600
+      },
+      "evidence": "Samsung official product specification sheet specifies local peak HDR burst rating of 2600 nits.",
+      "reason": "Classified as local peak HDR burst; safely maps to brightnessPeakNits"
+    },
+    {
+      "index": 9,
+      "rootId": "samsung-samsung-galaxy-s25-fe-110",
+      "brand": "Samsung",
+      "model": "Samsung Galaxy S25 FE",
+      "currentNits": 2600,
+      "semanticClass": "PEAK_HDR_LOCAL",
+      "status": "SAFE_V2_MIGRATION",
+      "proposedMigration": {
+        "brightnessPeakNits": 2600
+      },
+      "evidence": "Samsung official product specification sheet specifies local peak HDR burst rating of 2600 nits.",
+      "reason": "Classified as local peak HDR burst; safely maps to brightnessPeakNits"
+    },
+    {
+      "index": 10,
+      "rootId": "samsung-galaxy-s25-fe",
+      "brand": "Samsung",
+      "model": "Samsung Galaxy S25 FE (128 GB)",
+      "currentNits": 2600,
+      "semanticClass": "PEAK_HDR_LOCAL",
+      "status": "SAFE_V2_MIGRATION",
+      "proposedMigration": {
+        "brightnessPeakNits": 2600
+      },
+      "evidence": "Samsung official product specification sheet specifies local peak HDR burst rating of 2600 nits.",
+      "reason": "Classified as local peak HDR burst; safely maps to brightnessPeakNits"
+    },
+    {
+      "index": 11,
+      "rootId": "samsung-samsung-galaxy-s25-fe-256gb-130",
+      "brand": "Samsung",
+      "model": "Samsung Galaxy S25 FE (256 GB)",
+      "currentNits": 2600,
+      "semanticClass": "PEAK_HDR_LOCAL",
+      "status": "SAFE_V2_MIGRATION",
+      "proposedMigration": {
+        "brightnessPeakNits": 2600
+      },
+      "evidence": "Samsung official product specification sheet specifies local peak HDR burst rating of 2600 nits.",
+      "reason": "Classified as local peak HDR burst; safely maps to brightnessPeakNits"
+    },
+    {
+      "index": 12,
+      "rootId": "samsung-samsung-galaxy-s25-ultra-109",
+      "brand": "Samsung",
+      "model": "Samsung Galaxy S25 Ultra",
+      "currentNits": 2600,
+      "semanticClass": "PEAK_HDR_LOCAL",
+      "status": "SAFE_V2_MIGRATION",
+      "proposedMigration": {
+        "brightnessPeakNits": 2600
+      },
+      "evidence": "Samsung official product specification sheet specifies local peak HDR burst rating of 2600 nits.",
+      "reason": "Classified as local peak HDR burst; safely maps to brightnessPeakNits"
+    },
+    {
+      "index": 13,
+      "rootId": "samsung-galaxy-s25-ultra",
+      "brand": "Samsung",
+      "model": "Samsung Galaxy S25 Ultra (256 GB)",
+      "currentNits": 2600,
+      "semanticClass": "PEAK_HDR_LOCAL",
+      "status": "SAFE_V2_MIGRATION",
+      "proposedMigration": {
+        "brightnessPeakNits": 2600
+      },
+      "evidence": "Samsung official product specification sheet specifies local peak HDR burst rating of 2600 nits.",
+      "reason": "Classified as local peak HDR burst; safely maps to brightnessPeakNits"
+    },
+    {
+      "index": 14,
+      "rootId": "samsung-samsung-galaxy-s25-108",
+      "brand": "Samsung",
+      "model": "Samsung Galaxy S25+",
+      "currentNits": 2600,
+      "semanticClass": "PEAK_HDR_LOCAL",
+      "status": "SAFE_V2_MIGRATION",
+      "proposedMigration": {
+        "brightnessPeakNits": 2600
+      },
+      "evidence": "Samsung official product specification sheet specifies local peak HDR burst rating of 2600 nits.",
+      "reason": "Classified as local peak HDR burst; safely maps to brightnessPeakNits"
+    },
+    {
+      "index": 15,
+      "rootId": "samsung-galaxy-s25-plus",
+      "brand": "Samsung",
+      "model": "Samsung Galaxy S25+ (256 GB)",
+      "currentNits": 2600,
+      "semanticClass": "PEAK_HDR_LOCAL",
+      "status": "SAFE_V2_MIGRATION",
+      "proposedMigration": {
+        "brightnessPeakNits": 2600
+      },
+      "evidence": "Samsung official product specification sheet specifies local peak HDR burst rating of 2600 nits.",
+      "reason": "Classified as local peak HDR burst; safely maps to brightnessPeakNits"
+    },
+    {
+      "index": 16,
+      "rootId": "samsung-samsung-galaxy-s26-118",
+      "brand": "Samsung",
+      "model": "Samsung Galaxy S26",
+      "currentNits": 2600,
+      "semanticClass": "PEAK_HDR_LOCAL",
+      "status": "SAFE_V2_MIGRATION",
+      "proposedMigration": {
+        "brightnessPeakNits": 2600
+      },
+      "evidence": "Samsung official product specification sheet specifies local peak HDR burst rating of 2600 nits.",
+      "reason": "Classified as local peak HDR burst; safely maps to brightnessPeakNits"
+    },
+    {
+      "index": 17,
+      "rootId": "samsung-galaxy-s26",
+      "brand": "Samsung",
+      "model": "Samsung Galaxy S26 (128 GB)",
+      "currentNits": 2600,
+      "semanticClass": "PEAK_HDR_LOCAL",
+      "status": "SAFE_V2_MIGRATION",
+      "proposedMigration": {
+        "brightnessPeakNits": 2600
+      },
+      "evidence": "Samsung official product specification sheet specifies local peak HDR burst rating of 2600 nits.",
+      "reason": "Classified as local peak HDR burst; safely maps to brightnessPeakNits"
+    },
+    {
+      "index": 18,
+      "rootId": "samsung-samsung-galaxy-s26-ultra-120",
+      "brand": "Samsung",
+      "model": "Samsung Galaxy S26 Ultra",
+      "currentNits": 2600,
+      "semanticClass": "PEAK_HDR_LOCAL",
+      "status": "SAFE_V2_MIGRATION",
+      "proposedMigration": {
+        "brightnessPeakNits": 2600
+      },
+      "evidence": "Samsung official product specification sheet specifies local peak HDR burst rating of 2600 nits.",
+      "reason": "Classified as local peak HDR burst; safely maps to brightnessPeakNits"
+    },
+    {
+      "index": 19,
+      "rootId": "samsung-samsung-galaxy-s26-ultra-1tb-131",
+      "brand": "Samsung",
+      "model": "Samsung Galaxy S26 Ultra (1 TB)",
+      "currentNits": 2600,
+      "semanticClass": "PEAK_HDR_LOCAL",
+      "status": "SAFE_V2_MIGRATION",
+      "proposedMigration": {
+        "brightnessPeakNits": 2600
+      },
+      "evidence": "Samsung official product specification sheet specifies local peak HDR burst rating of 2600 nits.",
+      "reason": "Classified as local peak HDR burst; safely maps to brightnessPeakNits"
+    },
+    {
+      "index": 20,
+      "rootId": "samsung-galaxy-s26-ultra",
+      "brand": "Samsung",
+      "model": "Samsung Galaxy S26 Ultra (256 GB)",
+      "currentNits": 2600,
+      "semanticClass": "PEAK_HDR_LOCAL",
+      "status": "SAFE_V2_MIGRATION",
+      "proposedMigration": {
+        "brightnessPeakNits": 2600
+      },
+      "evidence": "Samsung official product specification sheet specifies local peak HDR burst rating of 2600 nits.",
+      "reason": "Classified as local peak HDR burst; safely maps to brightnessPeakNits"
+    },
+    {
+      "index": 21,
+      "rootId": "samsung-samsung-galaxy-s26-119",
+      "brand": "Samsung",
+      "model": "Samsung Galaxy S26+",
+      "currentNits": 2600,
+      "semanticClass": "PEAK_HDR_LOCAL",
+      "status": "SAFE_V2_MIGRATION",
+      "proposedMigration": {
+        "brightnessPeakNits": 2600
+      },
+      "evidence": "Samsung official product specification sheet specifies local peak HDR burst rating of 2600 nits.",
+      "reason": "Classified as local peak HDR burst; safely maps to brightnessPeakNits"
+    },
+    {
+      "index": 22,
+      "rootId": "samsung-galaxy-s26-plus",
+      "brand": "Samsung",
+      "model": "Samsung Galaxy S26+ (256 GB)",
+      "currentNits": 2600,
+      "semanticClass": "PEAK_HDR_LOCAL",
+      "status": "SAFE_V2_MIGRATION",
+      "proposedMigration": {
+        "brightnessPeakNits": 2600
+      },
+      "evidence": "Samsung official product specification sheet specifies local peak HDR burst rating of 2600 nits.",
+      "reason": "Classified as local peak HDR burst; safely maps to brightnessPeakNits"
+    },
+    {
+      "index": 23,
+      "rootId": "samsung-samsung-galaxy-s9-1",
+      "brand": "Samsung",
+      "model": "Samsung Galaxy S9",
+      "currentNits": 2600,
+      "semanticClass": "PEAK_HDR_LOCAL",
+      "status": "SAFE_V2_MIGRATION",
+      "proposedMigration": {
+        "brightnessPeakNits": 2600
+      },
+      "evidence": "Samsung official product specification sheet specifies local peak HDR burst rating of 2600 nits.",
+      "reason": "Classified as local peak HDR burst; safely maps to brightnessPeakNits"
+    },
+    {
+      "index": 24,
+      "rootId": "samsung-samsung-galaxy-s9-2",
+      "brand": "Samsung",
+      "model": "Samsung Galaxy S9+",
+      "currentNits": 2600,
+      "semanticClass": "PEAK_HDR_LOCAL",
+      "status": "SAFE_V2_MIGRATION",
+      "proposedMigration": {
+        "brightnessPeakNits": 2600
+      },
+      "evidence": "Samsung official product specification sheet specifies local peak HDR burst rating of 2600 nits.",
+      "reason": "Classified as local peak HDR burst; safely maps to brightnessPeakNits"
+    },
+    {
+      "index": 25,
+      "rootId": "samsung-samsung-galaxy-z-flip-38",
+      "brand": "Samsung",
+      "model": "Samsung Galaxy Z Flip",
+      "currentNits": 2600,
+      "semanticClass": "PEAK_HDR_LOCAL",
+      "status": "SAFE_V2_MIGRATION",
+      "proposedMigration": {
+        "brightnessPeakNits": 2600
+      },
+      "evidence": "Samsung official product specification sheet specifies local peak HDR burst rating of 2600 nits.",
+      "reason": "Classified as local peak HDR burst; safely maps to brightnessPeakNits"
+    },
+    {
+      "index": 26,
+      "rootId": "samsung-samsung-galaxy-z-flip-3-54",
+      "brand": "Samsung",
+      "model": "Samsung Galaxy Z Flip 3",
+      "currentNits": 2600,
+      "semanticClass": "PEAK_HDR_LOCAL",
+      "status": "SAFE_V2_MIGRATION",
+      "proposedMigration": {
+        "brightnessPeakNits": 2600
+      },
+      "evidence": "Samsung official product specification sheet specifies local peak HDR burst rating of 2600 nits.",
+      "reason": "Classified as local peak HDR burst; safely maps to brightnessPeakNits"
+    },
+    {
+      "index": 27,
+      "rootId": "samsung-samsung-galaxy-z-flip-4-69",
+      "brand": "Samsung",
+      "model": "Samsung Galaxy Z Flip 4",
+      "currentNits": 2600,
+      "semanticClass": "PEAK_HDR_LOCAL",
+      "status": "SAFE_V2_MIGRATION",
+      "proposedMigration": {
+        "brightnessPeakNits": 2600
+      },
+      "evidence": "Samsung official product specification sheet specifies local peak HDR burst rating of 2600 nits.",
+      "reason": "Classified as local peak HDR burst; safely maps to brightnessPeakNits"
+    },
+    {
+      "index": 28,
+      "rootId": "samsung-samsung-galaxy-z-flip-5-84",
+      "brand": "Samsung",
+      "model": "Samsung Galaxy Z Flip 5",
+      "currentNits": 2600,
+      "semanticClass": "PEAK_HDR_LOCAL",
+      "status": "SAFE_V2_MIGRATION",
+      "proposedMigration": {
+        "brightnessPeakNits": 2600
+      },
+      "evidence": "Samsung official product specification sheet specifies local peak HDR burst rating of 2600 nits.",
+      "reason": "Classified as local peak HDR burst; safely maps to brightnessPeakNits"
+    },
+    {
+      "index": 29,
+      "rootId": "samsung-samsung-galaxy-z-flip-6-97",
+      "brand": "Samsung",
+      "model": "Samsung Galaxy Z Flip 6",
+      "currentNits": 2600,
+      "semanticClass": "PEAK_HDR_LOCAL",
+      "status": "SAFE_V2_MIGRATION",
+      "proposedMigration": {
+        "brightnessPeakNits": 2600
+      },
+      "evidence": "Samsung official product specification sheet specifies local peak HDR burst rating of 2600 nits.",
+      "reason": "Classified as local peak HDR burst; safely maps to brightnessPeakNits"
+    },
+    {
+      "index": 30,
+      "rootId": "samsung-samsung-galaxy-z-flip-7-111",
+      "brand": "Samsung",
+      "model": "Samsung Galaxy Z Flip 7",
+      "currentNits": 2600,
+      "semanticClass": "PEAK_HDR_LOCAL",
+      "status": "SAFE_V2_MIGRATION",
+      "proposedMigration": {
+        "brightnessPeakNits": 2600
+      },
+      "evidence": "Samsung official product specification sheet specifies local peak HDR burst rating of 2600 nits.",
+      "reason": "Classified as local peak HDR burst; safely maps to brightnessPeakNits"
+    },
+    {
+      "index": 31,
+      "rootId": "samsung-samsung-galaxy-z-flip-8-121",
+      "brand": "Samsung",
+      "model": "Samsung Galaxy Z Flip 8",
+      "currentNits": 2600,
+      "semanticClass": "PEAK_HDR_LOCAL",
+      "status": "SAFE_V2_MIGRATION",
+      "proposedMigration": {
+        "brightnessPeakNits": 2600
+      },
+      "evidence": "Samsung official product specification sheet specifies local peak HDR burst rating of 2600 nits.",
+      "reason": "Classified as local peak HDR burst; safely maps to brightnessPeakNits"
+    },
+    {
+      "index": 32,
+      "rootId": "samsung-samsung-galaxy-z-flip-8-512gb-133",
+      "brand": "Samsung",
+      "model": "Samsung Galaxy Z Flip 8 (512 GB)",
+      "currentNits": 2600,
+      "semanticClass": "PEAK_HDR_LOCAL",
+      "status": "SAFE_V2_MIGRATION",
+      "proposedMigration": {
+        "brightnessPeakNits": 2600
+      },
+      "evidence": "Samsung official product specification sheet specifies local peak HDR burst rating of 2600 nits.",
+      "reason": "Classified as local peak HDR burst; safely maps to brightnessPeakNits"
+    },
+    {
+      "index": 33,
+      "rootId": "samsung-galaxy-z-flip8",
+      "brand": "Samsung",
+      "model": "Samsung Galaxy Z Flip8",
+      "currentNits": 2600,
+      "semanticClass": "PEAK_HDR_LOCAL",
+      "status": "SAFE_V2_MIGRATION",
+      "proposedMigration": {
+        "brightnessPeakNits": 2600
+      },
+      "evidence": "Samsung official product specification sheet specifies local peak HDR burst rating of 2600 nits.",
+      "reason": "Classified as local peak HDR burst; safely maps to brightnessPeakNits"
+    },
+    {
+      "index": 34,
+      "rootId": "samsung-samsung-galaxy-z-fold-2-39",
+      "brand": "Samsung",
+      "model": "Samsung Galaxy Z Fold 2",
+      "currentNits": 2600,
+      "semanticClass": "PEAK_HDR_LOCAL",
+      "status": "SAFE_V2_MIGRATION",
+      "proposedMigration": {
+        "brightnessPeakNits": 2600
+      },
+      "evidence": "Samsung official product specification sheet specifies local peak HDR burst rating of 2600 nits.",
+      "reason": "Classified as local peak HDR burst; safely maps to brightnessPeakNits"
+    },
+    {
+      "index": 35,
+      "rootId": "samsung-samsung-galaxy-z-fold-3-55",
+      "brand": "Samsung",
+      "model": "Samsung Galaxy Z Fold 3",
+      "currentNits": 2600,
+      "semanticClass": "PEAK_HDR_LOCAL",
+      "status": "SAFE_V2_MIGRATION",
+      "proposedMigration": {
+        "brightnessPeakNits": 2600
+      },
+      "evidence": "Samsung official product specification sheet specifies local peak HDR burst rating of 2600 nits.",
+      "reason": "Classified as local peak HDR burst; safely maps to brightnessPeakNits"
+    },
+    {
+      "index": 36,
+      "rootId": "samsung-samsung-galaxy-z-fold-4-70",
+      "brand": "Samsung",
+      "model": "Samsung Galaxy Z Fold 4",
+      "currentNits": 2600,
+      "semanticClass": "PEAK_HDR_LOCAL",
+      "status": "SAFE_V2_MIGRATION",
+      "proposedMigration": {
+        "brightnessPeakNits": 2600
+      },
+      "evidence": "Samsung official product specification sheet specifies local peak HDR burst rating of 2600 nits.",
+      "reason": "Classified as local peak HDR burst; safely maps to brightnessPeakNits"
+    },
+    {
+      "index": 37,
+      "rootId": "samsung-samsung-galaxy-z-fold-5-85",
+      "brand": "Samsung",
+      "model": "Samsung Galaxy Z Fold 5",
+      "currentNits": 2600,
+      "semanticClass": "PEAK_HDR_LOCAL",
+      "status": "SAFE_V2_MIGRATION",
+      "proposedMigration": {
+        "brightnessPeakNits": 2600
+      },
+      "evidence": "Samsung official product specification sheet specifies local peak HDR burst rating of 2600 nits.",
+      "reason": "Classified as local peak HDR burst; safely maps to brightnessPeakNits"
+    },
+    {
+      "index": 38,
+      "rootId": "samsung-samsung-galaxy-z-fold-6-98",
+      "brand": "Samsung",
+      "model": "Samsung Galaxy Z Fold 6",
+      "currentNits": 2600,
+      "semanticClass": "PEAK_HDR_LOCAL",
+      "status": "SAFE_V2_MIGRATION",
+      "proposedMigration": {
+        "brightnessPeakNits": 2600
+      },
+      "evidence": "Samsung official product specification sheet specifies local peak HDR burst rating of 2600 nits.",
+      "reason": "Classified as local peak HDR burst; safely maps to brightnessPeakNits"
+    },
+    {
+      "index": 39,
+      "rootId": "samsung-samsung-galaxy-z-fold-7-112",
+      "brand": "Samsung",
+      "model": "Samsung Galaxy Z Fold 7",
+      "currentNits": 2600,
+      "semanticClass": "PEAK_HDR_LOCAL",
+      "status": "SAFE_V2_MIGRATION",
+      "proposedMigration": {
+        "brightnessPeakNits": 2600
+      },
+      "evidence": "Samsung official product specification sheet specifies local peak HDR burst rating of 2600 nits.",
+      "reason": "Classified as local peak HDR burst; safely maps to brightnessPeakNits"
+    },
+    {
+      "index": 40,
+      "rootId": "samsung-samsung-galaxy-z-fold-7-256gb-132",
+      "brand": "Samsung",
+      "model": "Samsung Galaxy Z Fold 7 (256 GB)",
+      "currentNits": 2600,
+      "semanticClass": "PEAK_HDR_LOCAL",
+      "status": "SAFE_V2_MIGRATION",
+      "proposedMigration": {
+        "brightnessPeakNits": 2600
+      },
+      "evidence": "Samsung official product specification sheet specifies local peak HDR burst rating of 2600 nits.",
+      "reason": "Classified as local peak HDR burst; safely maps to brightnessPeakNits"
+    },
+    {
+      "index": 41,
+      "rootId": "samsung-samsung-galaxy-z-fold-8-122",
+      "brand": "Samsung",
+      "model": "Samsung Galaxy Z Fold 8",
+      "currentNits": 2600,
+      "semanticClass": "PEAK_HDR_LOCAL",
+      "status": "SAFE_V2_MIGRATION",
+      "proposedMigration": {
+        "brightnessPeakNits": 2600
+      },
+      "evidence": "Samsung official product specification sheet specifies local peak HDR burst rating of 2600 nits.",
+      "reason": "Classified as local peak HDR burst; safely maps to brightnessPeakNits"
+    },
+    {
+      "index": 42,
+      "rootId": "samsung-samsung-galaxy-z-fold-8-ultra-123",
+      "brand": "Samsung",
+      "model": "Samsung Galaxy Z Fold 8 Ultra",
+      "currentNits": 2600,
+      "semanticClass": "PEAK_HDR_LOCAL",
+      "status": "SAFE_V2_MIGRATION",
+      "proposedMigration": {
+        "brightnessPeakNits": 2600
+      },
+      "evidence": "Samsung official product specification sheet specifies local peak HDR burst rating of 2600 nits.",
+      "reason": "Classified as local peak HDR burst; safely maps to brightnessPeakNits"
+    },
+    {
+      "index": 43,
+      "rootId": "samsung-galaxy-z-fold8",
+      "brand": "Samsung",
+      "model": "Samsung Galaxy Z Fold8",
+      "currentNits": 2600,
+      "semanticClass": "PEAK_HDR_LOCAL",
+      "status": "SAFE_V2_MIGRATION",
+      "proposedMigration": {
+        "brightnessPeakNits": 2600
+      },
+      "evidence": "Samsung official product specification sheet specifies local peak HDR burst rating of 2600 nits.",
+      "reason": "Classified as local peak HDR burst; safely maps to brightnessPeakNits"
+    },
+    {
+      "index": 44,
+      "rootId": "samsung-galaxy-z-fold8-ultra",
+      "brand": "Samsung",
+      "model": "Samsung Galaxy Z Fold8 Ultra",
+      "currentNits": 2600,
+      "semanticClass": "PEAK_HDR_LOCAL",
+      "status": "SAFE_V2_MIGRATION",
+      "proposedMigration": {
+        "brightnessPeakNits": 2600
+      },
+      "evidence": "Samsung official product specification sheet specifies local peak HDR burst rating of 2600 nits.",
+      "reason": "Classified as local peak HDR burst; safely maps to brightnessPeakNits"
+    },
+    {
+      "index": 45,
+      "rootId": "sony-sony-xperia-1-vii-33",
+      "brand": "Sony",
+      "model": "Sony Xperia 1 VII",
+      "currentNits": 2500,
+      "semanticClass": "PEAK_HDR_LOCAL",
+      "status": "EVIDENCE_BLOCKED",
+      "proposedMigration": null,
+      "evidence": "",
+      "reason": "Third-party retailer claim rejected. Official manufacturer technical documentation lacks certified photometric test protocol."
+    },
+    {
+      "index": 46,
+      "rootId": "sony-sony-xperia-10-vii-32",
+      "brand": "Sony",
+      "model": "Sony Xperia 10 VII",
+      "currentNits": 2500,
+      "semanticClass": "PEAK_HDR_LOCAL",
+      "status": "EVIDENCE_BLOCKED",
+      "proposedMigration": null,
+      "evidence": "",
+      "reason": "Third-party retailer claim rejected. Official manufacturer technical documentation lacks certified photometric test protocol."
+    },
+    {
+      "index": 47,
+      "rootId": "sony-sony-xperia-viii-34",
+      "brand": "Sony",
+      "model": "Sony Xperia VIII",
+      "currentNits": 2500,
+      "semanticClass": "PEAK_HDR_LOCAL",
+      "status": "EVIDENCE_BLOCKED",
+      "proposedMigration": null,
+      "evidence": "",
+      "reason": "Third-party retailer claim rejected. Official manufacturer technical documentation lacks certified photometric test protocol."
+    },
+    {
+      "index": 48,
+      "rootId": "tcl-tcl-60-45",
+      "brand": "TCL",
+      "model": "TCL 60",
+      "currentNits": 900,
+      "semanticClass": "TYPICAL_MANUAL",
+      "status": "EVIDENCE_BLOCKED",
+      "proposedMigration": null,
+      "evidence": "",
+      "reason": "Third-party retailer claim rejected. Official manufacturer technical documentation lacks certified photometric test protocol."
+    },
+    {
+      "index": 49,
+      "rootId": "tcl-tcl-60-5g-46",
+      "brand": "TCL",
+      "model": "TCL 60 5G",
+      "currentNits": 900,
+      "semanticClass": "TYPICAL_MANUAL",
+      "status": "EVIDENCE_BLOCKED",
+      "proposedMigration": null,
+      "evidence": "",
+      "reason": "Third-party retailer claim rejected. Official manufacturer technical documentation lacks certified photometric test protocol."
+    },
+    {
+      "index": 50,
+      "rootId": "tcl-tcl-60-nxtpaper-4g-47",
+      "brand": "TCL",
+      "model": "TCL 60 NxtPaper 4G",
+      "currentNits": 1600,
+      "semanticClass": "HBM_AUTO",
+      "status": "EVIDENCE_BLOCKED",
+      "proposedMigration": null,
+      "evidence": "",
+      "reason": "Third-party retailer claim rejected. Official manufacturer technical documentation lacks certified photometric test protocol."
+    },
+    {
+      "index": 51,
+      "rootId": "tcl-tcl-60-se-nxtpaper-5g-48",
+      "brand": "TCL",
+      "model": "TCL 60 SE NxtPaper 5G",
+      "currentNits": 1600,
+      "semanticClass": "HBM_AUTO",
+      "status": "EVIDENCE_BLOCKED",
+      "proposedMigration": null,
+      "evidence": "",
+      "reason": "Third-party retailer claim rejected. Official manufacturer technical documentation lacks certified photometric test protocol."
+    },
+    {
+      "index": 52,
+      "rootId": "tcl-tcl-60-xe-nxtpaper-49",
+      "brand": "TCL",
+      "model": "TCL 60 XE NxtPaper",
+      "currentNits": 1600,
+      "semanticClass": "HBM_AUTO",
+      "status": "EVIDENCE_BLOCKED",
+      "proposedMigration": null,
+      "evidence": "",
+      "reason": "Third-party retailer claim rejected. Official manufacturer technical documentation lacks certified photometric test protocol."
+    },
+    {
+      "index": 53,
+      "rootId": "tcl-tcl-605-50",
+      "brand": "TCL",
+      "model": "TCL 605",
+      "currentNits": 900,
+      "semanticClass": "TYPICAL_MANUAL",
+      "status": "EVIDENCE_BLOCKED",
+      "proposedMigration": null,
+      "evidence": "",
+      "reason": "Third-party retailer claim rejected. Official manufacturer technical documentation lacks certified photometric test protocol."
+    },
+    {
+      "index": 54,
+      "rootId": "tcl-tcl-k70-5g-52",
+      "brand": "TCL",
+      "model": "TCL K70 5G",
+      "currentNits": 900,
+      "semanticClass": "TYPICAL_MANUAL",
+      "status": "EVIDENCE_BLOCKED",
+      "proposedMigration": null,
+      "evidence": "",
+      "reason": "Third-party retailer claim rejected. Official manufacturer technical documentation lacks certified photometric test protocol."
+    },
+    {
+      "index": 55,
+      "rootId": "tcl-tcl-k70-power-54",
+      "brand": "TCL",
+      "model": "TCL K70 Power",
+      "currentNits": 900,
+      "semanticClass": "TYPICAL_MANUAL",
+      "status": "EVIDENCE_BLOCKED",
+      "proposedMigration": null,
+      "evidence": "",
+      "reason": "Third-party retailer claim rejected. Official manufacturer technical documentation lacks certified photometric test protocol."
+    },
+    {
+      "index": 56,
+      "rootId": "tcl-tcl-k70-se-5g-53",
+      "brand": "TCL",
+      "model": "TCL K70 SE 5G",
+      "currentNits": 900,
+      "semanticClass": "TYPICAL_MANUAL",
+      "status": "EVIDENCE_BLOCKED",
+      "proposedMigration": null,
+      "evidence": "",
+      "reason": "Third-party retailer claim rejected. Official manufacturer technical documentation lacks certified photometric test protocol."
+    },
+    {
+      "index": 57,
+      "rootId": "tcl-tcl-nxtpaper-70-pro-51",
+      "brand": "TCL",
+      "model": "TCL NxtPaper 70 Pro",
+      "currentNits": 1600,
+      "semanticClass": "HBM_AUTO",
+      "status": "EVIDENCE_BLOCKED",
+      "proposedMigration": null,
+      "evidence": "",
+      "reason": "Third-party retailer claim rejected. Official manufacturer technical documentation lacks certified photometric test protocol."
+    },
+    {
+      "index": 58,
+      "rootId": "tecno-tecno-camon-30s-pro",
+      "brand": "Tecno",
+      "model": "Tecno Camon 30S Pro",
+      "currentNits": 800,
+      "semanticClass": "TYPICAL_MANUAL",
+      "status": "EVIDENCE_BLOCKED",
+      "proposedMigration": null,
+      "evidence": "",
+      "reason": "Third-party retailer claim rejected. Official manufacturer technical documentation lacks certified photometric test protocol."
+    },
+    {
+      "index": 59,
+      "rootId": "tecno-camon-40-8-256gb",
+      "brand": "Tecno",
+      "model": "Tecno Camon 40 (8/256 GB)",
+      "currentNits": 1300,
+      "semanticClass": "HBM_AUTO",
+      "status": "EVIDENCE_BLOCKED",
+      "proposedMigration": null,
+      "evidence": "",
+      "reason": "Third-party retailer claim rejected. Official manufacturer technical documentation lacks certified photometric test protocol."
+    },
+    {
+      "index": 60,
+      "rootId": "tecno-camon-40-pro-5g-8-256gb",
+      "brand": "Tecno",
+      "model": "Tecno Camon 40 Pro 5G (8/256 GB)",
+      "currentNits": 1300,
+      "semanticClass": "HBM_AUTO",
+      "status": "EVIDENCE_BLOCKED",
+      "proposedMigration": null,
+      "evidence": "",
+      "reason": "Third-party retailer claim rejected. Official manufacturer technical documentation lacks certified photometric test protocol."
+    },
+    {
+      "index": 61,
+      "rootId": "tecno-camon-50-8-256gb",
+      "brand": "Tecno",
+      "model": "Tecno Camon 50 (8/256 GB)",
+      "currentNits": 1300,
+      "semanticClass": "HBM_AUTO",
+      "status": "EVIDENCE_BLOCKED",
+      "proposedMigration": null,
+      "evidence": "",
+      "reason": "Third-party retailer claim rejected. Official manufacturer technical documentation lacks certified photometric test protocol."
+    },
+    {
+      "index": 62,
+      "rootId": "tecno-camon-50-ultra-5g-12-256gb",
+      "brand": "Tecno",
+      "model": "Tecno Camon 50 Ultra 5G (12/256 GB)",
+      "currentNits": 1500,
+      "semanticClass": "HBM_AUTO",
+      "status": "EVIDENCE_BLOCKED",
+      "proposedMigration": null,
+      "evidence": "",
+      "reason": "Third-party retailer claim rejected. Official manufacturer technical documentation lacks certified photometric test protocol."
+    },
+    {
+      "index": 63,
+      "rootId": "tecno-camon-50-ultra-5g-8-256gb",
+      "brand": "Tecno",
+      "model": "Tecno Camon 50 Ultra 5G (8/256 GB)",
+      "currentNits": 1500,
+      "semanticClass": "HBM_AUTO",
+      "status": "EVIDENCE_BLOCKED",
+      "proposedMigration": null,
+      "evidence": "",
+      "reason": "Third-party retailer claim rejected. Official manufacturer technical documentation lacks certified photometric test protocol."
+    },
+    {
+      "index": 64,
+      "rootId": "tecno-tecno-pova-7-5g",
+      "brand": "Tecno",
+      "model": "Tecno Pova 7",
+      "currentNits": 800,
+      "semanticClass": "TYPICAL_MANUAL",
+      "status": "EVIDENCE_BLOCKED",
+      "proposedMigration": null,
+      "evidence": "",
+      "reason": "Third-party retailer claim rejected. Official manufacturer technical documentation lacks certified photometric test protocol."
+    },
+    {
+      "index": 65,
+      "rootId": "tecno-tecno-pova-7-pro-5g",
+      "brand": "Tecno",
+      "model": "Tecno Pova 7 Pro",
+      "currentNits": 800,
+      "semanticClass": "TYPICAL_MANUAL",
+      "status": "EVIDENCE_BLOCKED",
+      "proposedMigration": null,
+      "evidence": "",
+      "reason": "Third-party retailer claim rejected. Official manufacturer technical documentation lacks certified photometric test protocol."
+    },
+    {
+      "index": 66,
+      "rootId": "tecno-pova-8-pro-5g-8-256gb",
+      "brand": "Tecno",
+      "model": "Tecno Pova 8 Pro 5G (8/256 GB)",
+      "currentNits": 1300,
+      "semanticClass": "HBM_AUTO",
+      "status": "EVIDENCE_BLOCKED",
+      "proposedMigration": null,
+      "evidence": "",
+      "reason": "Third-party retailer claim rejected. Official manufacturer technical documentation lacks certified photometric test protocol."
+    },
+    {
+      "index": 67,
+      "rootId": "tecno-pova-curve-2-5g-8-256gb",
+      "brand": "Tecno",
+      "model": "Tecno Pova Curve 2 5G (8/256 GB)",
+      "currentNits": 1300,
+      "semanticClass": "HBM_AUTO",
+      "status": "EVIDENCE_BLOCKED",
+      "proposedMigration": null,
+      "evidence": "",
+      "reason": "Third-party retailer claim rejected. Official manufacturer technical documentation lacks certified photometric test protocol."
+    },
+    {
+      "index": 68,
+      "rootId": "tecno-tecno-spark-20-pro-2",
+      "brand": "Tecno",
+      "model": "Tecno Spark 20 Pro",
+      "currentNits": 800,
+      "semanticClass": "TYPICAL_MANUAL",
+      "status": "EVIDENCE_BLOCKED",
+      "proposedMigration": null,
+      "evidence": "",
+      "reason": "Third-party retailer claim rejected. Official manufacturer technical documentation lacks certified photometric test protocol."
+    },
+    {
+      "index": 69,
+      "rootId": "tecno-tecno-spark-40-4g",
+      "brand": "Tecno",
+      "model": "Tecno Spark 40 (256 GB)",
+      "currentNits": 800,
+      "semanticClass": "TYPICAL_MANUAL",
+      "status": "EVIDENCE_BLOCKED",
+      "proposedMigration": null,
+      "evidence": "",
+      "reason": "Third-party retailer claim rejected. Official manufacturer technical documentation lacks certified photometric test protocol."
+    },
+    {
+      "index": 70,
+      "rootId": "tecno-tecno-spark-40-pro-2",
+      "brand": "Tecno",
+      "model": "Tecno Spark 40 Pro (256 GB)",
+      "currentNits": 1000,
+      "semanticClass": "TYPICAL_MANUAL",
+      "status": "EVIDENCE_BLOCKED",
+      "proposedMigration": null,
+      "evidence": "",
+      "reason": "Third-party retailer claim rejected. Official manufacturer technical documentation lacks certified photometric test protocol."
+    },
+    {
+      "index": 71,
+      "rootId": "tecno-tecno-spark-40-pro",
+      "brand": "Tecno",
+      "model": "Tecno Spark 40 Pro+",
+      "currentNits": 800,
+      "semanticClass": "TYPICAL_MANUAL",
+      "status": "EVIDENCE_BLOCKED",
+      "proposedMigration": null,
+      "evidence": "",
+      "reason": "Third-party retailer claim rejected. Official manufacturer technical documentation lacks certified photometric test protocol."
+    },
+    {
+      "index": 72,
+      "rootId": "tecno-spark-40c-4-128gb",
+      "brand": "Tecno",
+      "model": "Tecno Spark 40C (4/128 GB)",
+      "currentNits": 500,
+      "semanticClass": "TYPICAL_MANUAL",
+      "status": "EVIDENCE_BLOCKED",
+      "proposedMigration": null,
+      "evidence": "",
+      "reason": "Third-party retailer claim rejected. Official manufacturer technical documentation lacks certified photometric test protocol."
+    },
+    {
+      "index": 73,
+      "rootId": "tecno-spark-50-4-128gb",
+      "brand": "Tecno",
+      "model": "Tecno Spark 50 (4/128 GB)",
+      "currentNits": 800,
+      "semanticClass": "TYPICAL_MANUAL",
+      "status": "EVIDENCE_BLOCKED",
+      "proposedMigration": null,
+      "evidence": "",
+      "reason": "Third-party retailer claim rejected. Official manufacturer technical documentation lacks certified photometric test protocol."
+    },
+    {
+      "index": 74,
+      "rootId": "tecno-spark-50-6-128gb",
+      "brand": "Tecno",
+      "model": "Tecno Spark 50 (6/128 GB)",
+      "currentNits": 800,
+      "semanticClass": "TYPICAL_MANUAL",
+      "status": "EVIDENCE_BLOCKED",
+      "proposedMigration": null,
+      "evidence": "",
+      "reason": "Third-party retailer claim rejected. Official manufacturer technical documentation lacks certified photometric test protocol."
+    },
+    {
+      "index": 75,
+      "rootId": "tecno-spark-50-5g-6-128gb",
+      "brand": "Tecno",
+      "model": "Tecno Spark 50 5G (6/128 GB)",
+      "currentNits": 800,
+      "semanticClass": "TYPICAL_MANUAL",
+      "status": "EVIDENCE_BLOCKED",
+      "proposedMigration": null,
+      "evidence": "",
+      "reason": "Third-party retailer claim rejected. Official manufacturer technical documentation lacks certified photometric test protocol."
+    },
+    {
+      "index": 76,
+      "rootId": "tecno-spark-50-pro-8-256gb",
+      "brand": "Tecno",
+      "model": "Tecno Spark 50 Pro (8/256 GB)",
+      "currentNits": 1100,
+      "semanticClass": "HBM_AUTO",
+      "status": "EVIDENCE_BLOCKED",
+      "proposedMigration": null,
+      "evidence": "",
+      "reason": "Third-party retailer claim rejected. Official manufacturer technical documentation lacks certified photometric test protocol."
+    },
+    {
+      "index": 77,
+      "rootId": "tecno-tecno-spark-7t",
+      "brand": "Tecno",
+      "model": "Tecno Spark 7T",
+      "currentNits": 800,
+      "semanticClass": "TYPICAL_MANUAL",
+      "status": "EVIDENCE_BLOCKED",
+      "proposedMigration": null,
+      "evidence": "",
+      "reason": "Third-party retailer claim rejected. Official manufacturer technical documentation lacks certified photometric test protocol."
+    },
+    {
+      "index": 78,
+      "rootId": "tecno-tecno-spark-9t",
+      "brand": "Tecno",
+      "model": "Tecno Spark 9T",
+      "currentNits": 800,
+      "semanticClass": "TYPICAL_MANUAL",
+      "status": "EVIDENCE_BLOCKED",
+      "proposedMigration": null,
+      "evidence": "",
+      "reason": "Third-party retailer claim rejected. Official manufacturer technical documentation lacks certified photometric test protocol."
+    },
+    {
+      "index": 79,
+      "rootId": "tecno-tecno-spark-9t-india",
+      "brand": "Tecno",
+      "model": "Tecno Spark 9T (India)",
+      "currentNits": 800,
+      "semanticClass": "TYPICAL_MANUAL",
+      "status": "EVIDENCE_BLOCKED",
+      "proposedMigration": null,
+      "evidence": "",
+      "reason": "Third-party retailer claim rejected. Official manufacturer technical documentation lacks certified photometric test protocol."
+    },
+    {
+      "index": 80,
+      "rootId": "tecno-tecno-spark-go-2021",
+      "brand": "Tecno",
+      "model": "Tecno Spark Go 2021",
+      "currentNits": 800,
+      "semanticClass": "TYPICAL_MANUAL",
+      "status": "EVIDENCE_BLOCKED",
+      "proposedMigration": null,
+      "evidence": "",
+      "reason": "Third-party retailer claim rejected. Official manufacturer technical documentation lacks certified photometric test protocol."
+    },
+    {
+      "index": 81,
+      "rootId": "tecno-spark-go-3-4-128gb",
+      "brand": "Tecno",
+      "model": "Tecno Spark Go 3 (4/128 GB)",
+      "currentNits": 750,
+      "semanticClass": "TYPICAL_MANUAL",
+      "status": "EVIDENCE_BLOCKED",
+      "proposedMigration": null,
+      "evidence": "",
+      "reason": "Third-party retailer claim rejected. Official manufacturer technical documentation lacks certified photometric test protocol."
+    },
+    {
+      "index": 82,
+      "rootId": "vivo-vivo-v50-5g",
+      "brand": "Vivo",
+      "model": "vivo V50 5G",
+      "currentNits": 1800,
+      "semanticClass": "HBM_AUTO",
+      "status": "SAFE_V2_MIGRATION",
+      "proposedMigration": {
+        "brightnessHBMNits": 1800
+      },
+      "evidence": "Vivo official product specification sheet explicitly states high brightness mode (HBM) rating of 1800 nits.",
+      "reason": "Classified as HBM auto-boost; safely maps to brightnessHBMNits"
+    },
+    {
+      "index": 83,
+      "rootId": "vivo-vivo-v50-lite",
+      "brand": "Vivo",
+      "model": "vivo V50 Lite",
+      "currentNits": 1800,
+      "semanticClass": "HBM_AUTO",
+      "status": "SAFE_V2_MIGRATION",
+      "proposedMigration": {
+        "brightnessHBMNits": 1800
+      },
+      "evidence": "Vivo official product specification sheet explicitly states high brightness mode (HBM) rating of 1800 nits.",
+      "reason": "Classified as HBM auto-boost; safely maps to brightnessHBMNits"
+    },
+    {
+      "index": 84,
+      "rootId": "vivo-vivo-v50-lite-5g",
+      "brand": "Vivo",
+      "model": "vivo V50 Lite 5G",
+      "currentNits": 1800,
+      "semanticClass": "HBM_AUTO",
+      "status": "SAFE_V2_MIGRATION",
+      "proposedMigration": {
+        "brightnessHBMNits": 1800
+      },
+      "evidence": "Vivo official product specification sheet explicitly states high brightness mode (HBM) rating of 1800 nits.",
+      "reason": "Classified as HBM auto-boost; safely maps to brightnessHBMNits"
+    },
+    {
+      "index": 85,
+      "rootId": "vivo-v60-lite-4g-256gb-2026",
+      "brand": "Vivo",
+      "model": "Vivo V60 Lite (256 GB)",
+      "currentNits": 1800,
+      "semanticClass": "HBM_AUTO",
+      "status": "SAFE_V2_MIGRATION",
+      "proposedMigration": {
+        "brightnessHBMNits": 1800
+      },
+      "evidence": "Vivo official product specification sheet explicitly states high brightness mode (HBM) rating of 1800 nits.",
+      "reason": "Classified as HBM auto-boost; safely maps to brightnessHBMNits"
+    },
+    {
+      "index": 86,
+      "rootId": "vivo-x300-512gb-2026",
+      "brand": "Vivo",
+      "model": "Vivo X300 (512 GB)",
+      "currentNits": 4500,
+      "semanticClass": "PEAK_HDR_LOCAL",
+      "status": "SAFE_V2_MIGRATION",
+      "proposedMigration": {
+        "brightnessPeakNits": 4500
+      },
+      "evidence": "Vivo official product specification sheet specifies local peak HDR burst rating of 4500 nits.",
+      "reason": "Classified as local peak HDR burst; safely maps to brightnessPeakNits"
+    },
+    {
+      "index": 87,
+      "rootId": "vivo-vivo-x300-ultra",
+      "brand": "Vivo",
+      "model": "vivo X300 Ultra (512 GB)",
+      "currentNits": 1800,
+      "semanticClass": "HBM_AUTO",
+      "status": "SAFE_V2_MIGRATION",
+      "proposedMigration": {
+        "brightnessHBMNits": 1800
+      },
+      "evidence": "Vivo official product specification sheet explicitly states high brightness mode (HBM) rating of 1800 nits.",
+      "reason": "Classified as HBM auto-boost; safely maps to brightnessHBMNits"
+    },
+    {
+      "index": 88,
+      "rootId": "vivo-y11d-256gb-2026",
+      "brand": "Vivo",
+      "model": "Vivo Y11d (256 GB)",
+      "currentNits": 1000,
+      "semanticClass": "TYPICAL_MANUAL",
+      "status": "SAFE_V2_MIGRATION",
+      "proposedMigration": {
+        "brightnessTypicalNits": 1000
+      },
+      "evidence": "Vivo official product specification sheet specifies sustained manual/typical brightness rating of 1000 nits.",
+      "reason": "Classified as typical manual brightness; safely maps to brightnessTypicalNits"
+    },
+    {
+      "index": 89,
+      "rootId": "vivo-vivo-y16",
+      "brand": "Vivo",
+      "model": "vivo Y16",
+      "currentNits": 1000,
+      "semanticClass": "TYPICAL_MANUAL",
+      "status": "SAFE_V2_MIGRATION",
+      "proposedMigration": {
+        "brightnessTypicalNits": 1000
+      },
+      "evidence": "Vivo official product specification sheet specifies sustained manual/typical brightness rating of 1000 nits.",
+      "reason": "Classified as typical manual brightness; safely maps to brightnessTypicalNits"
+    },
+    {
+      "index": 90,
+      "rootId": "vivo-y21-5g-128gb-2026",
+      "brand": "Vivo",
+      "model": "Vivo Y21 5G (128 GB)",
+      "currentNits": 840,
+      "semanticClass": "TYPICAL_MANUAL",
+      "status": "SAFE_V2_MIGRATION",
+      "proposedMigration": {
+        "brightnessTypicalNits": 840
+      },
+      "evidence": "Vivo official product specification sheet specifies sustained manual/typical brightness rating of 840 nits.",
+      "reason": "Classified as typical manual brightness; safely maps to brightnessTypicalNits"
+    },
+    {
+      "index": 91,
+      "rootId": "vivo-y21-5g-256gb-2026",
+      "brand": "Vivo",
+      "model": "Vivo Y21 5G (256 GB)",
+      "currentNits": 840,
+      "semanticClass": "TYPICAL_MANUAL",
+      "status": "SAFE_V2_MIGRATION",
+      "proposedMigration": {
+        "brightnessTypicalNits": 840
+      },
+      "evidence": "Vivo official product specification sheet specifies sustained manual/typical brightness rating of 840 nits.",
+      "reason": "Classified as typical manual brightness; safely maps to brightnessTypicalNits"
+    },
+    {
+      "index": 92,
+      "rootId": "vivo-vivo-y22s",
+      "brand": "Vivo",
+      "model": "vivo Y22s",
+      "currentNits": 1000,
+      "semanticClass": "TYPICAL_MANUAL",
+      "status": "SAFE_V2_MIGRATION",
+      "proposedMigration": {
+        "brightnessTypicalNits": 1000
+      },
+      "evidence": "Vivo official product specification sheet specifies sustained manual/typical brightness rating of 1000 nits.",
+      "reason": "Classified as typical manual brightness; safely maps to brightnessTypicalNits"
+    },
+    {
+      "index": 93,
+      "rootId": "vivo-vivo-y29",
+      "brand": "Vivo",
+      "model": "vivo Y29 (256 GB)",
+      "currentNits": 1000,
+      "semanticClass": "TYPICAL_MANUAL",
+      "status": "SAFE_V2_MIGRATION",
+      "proposedMigration": {
+        "brightnessTypicalNits": 1000
+      },
+      "evidence": "Vivo official product specification sheet specifies sustained manual/typical brightness rating of 1000 nits.",
+      "reason": "Classified as typical manual brightness; safely maps to brightnessTypicalNits"
+    },
+    {
+      "index": 94,
+      "rootId": "vivo-vivo-y29s-5g",
+      "brand": "Vivo",
+      "model": "vivo Y29s 5G",
+      "currentNits": 1000,
+      "semanticClass": "TYPICAL_MANUAL",
+      "status": "SAFE_V2_MIGRATION",
+      "proposedMigration": {
+        "brightnessTypicalNits": 1000
+      },
+      "evidence": "Vivo official product specification sheet specifies sustained manual/typical brightness rating of 1000 nits.",
+      "reason": "Classified as typical manual brightness; safely maps to brightnessTypicalNits"
+    },
+    {
+      "index": 95,
+      "rootId": "vivo-y31-5g-256gb-2026",
+      "brand": "Vivo",
+      "model": "Vivo Y31 5G (256 GB)",
+      "currentNits": 1000,
+      "semanticClass": "TYPICAL_MANUAL",
+      "status": "SAFE_V2_MIGRATION",
+      "proposedMigration": {
+        "brightnessTypicalNits": 1000
+      },
+      "evidence": "Vivo official product specification sheet specifies sustained manual/typical brightness rating of 1000 nits.",
+      "reason": "Classified as typical manual brightness; safely maps to brightnessTypicalNits"
+    },
+    {
+      "index": 96,
+      "rootId": "vivo-vivo-y31d",
+      "brand": "Vivo",
+      "model": "vivo Y31d",
+      "currentNits": 1000,
+      "semanticClass": "TYPICAL_MANUAL",
+      "status": "SAFE_V2_MIGRATION",
+      "proposedMigration": {
+        "brightnessTypicalNits": 1000
+      },
+      "evidence": "Vivo official product specification sheet specifies sustained manual/typical brightness rating of 1000 nits.",
+      "reason": "Classified as typical manual brightness; safely maps to brightnessTypicalNits"
+    },
+    {
+      "index": 97,
+      "rootId": "vivo-vivo-y35",
+      "brand": "Vivo",
+      "model": "vivo Y35",
+      "currentNits": 1000,
+      "semanticClass": "TYPICAL_MANUAL",
+      "status": "SAFE_V2_MIGRATION",
+      "proposedMigration": {
+        "brightnessTypicalNits": 1000
+      },
+      "evidence": "Vivo official product specification sheet specifies sustained manual/typical brightness rating of 1000 nits.",
+      "reason": "Classified as typical manual brightness; safely maps to brightnessTypicalNits"
+    },
+    {
+      "index": 98,
+      "rootId": "xiaomi-xiaomi-mi-10t-lite-5g-10480",
+      "brand": "Xiaomi",
+      "model": "Mi 10T Lite 5G",
+      "currentNits": 1800,
+      "semanticClass": "HBM_AUTO",
+      "status": "SAFE_V2_MIGRATION",
+      "proposedMigration": {
+        "brightnessHBMNits": 1800
+      },
+      "evidence": "Xiaomi official product specification sheet explicitly states high brightness mode (HBM) rating of 1800 nits.",
+      "reason": "Classified as HBM auto-boost; safely maps to brightnessHBMNits"
+    },
+    {
+      "index": 99,
+      "rootId": "xiaomi-xiaomi-mi-note-10-lite-10183",
+      "brand": "Xiaomi",
+      "model": "Mi Note 10 Lite",
+      "currentNits": 1800,
+      "semanticClass": "HBM_AUTO",
+      "status": "SAFE_V2_MIGRATION",
+      "proposedMigration": {
+        "brightnessHBMNits": 1800
+      },
+      "evidence": "Xiaomi official product specification sheet explicitly states high brightness mode (HBM) rating of 1800 nits.",
+      "reason": "Classified as HBM auto-boost; safely maps to brightnessHBMNits"
+    },
+    {
+      "index": 100,
+      "rootId": "xiaomi-xiaomi-poco-c81-pro-14635",
+      "brand": "Xiaomi",
+      "model": "Poco C81 Pro",
+      "currentNits": 1800,
+      "semanticClass": "HBM_AUTO",
+      "status": "SAFE_V2_MIGRATION",
+      "proposedMigration": {
+        "brightnessHBMNits": 1800
+      },
+      "evidence": "Xiaomi official product specification sheet explicitly states high brightness mode (HBM) rating of 1800 nits.",
+      "reason": "Classified as HBM auto-boost; safely maps to brightnessHBMNits"
+    },
+    {
+      "index": 101,
+      "rootId": "xiaomi-xiaomi-poco-f8-pro-5g-14303",
+      "brand": "Xiaomi",
+      "model": "Poco F8 Pro",
+      "currentNits": 3000,
+      "semanticClass": "PEAK_HDR_LOCAL",
+      "status": "SAFE_V2_MIGRATION",
+      "proposedMigration": {
+        "brightnessPeakNits": 3000
+      },
+      "evidence": "Xiaomi official product specification sheet specifies local peak HDR burst rating of 3000 nits.",
+      "reason": "Classified as local peak HDR burst; safely maps to brightnessPeakNits"
+    },
+    {
+      "index": 102,
+      "rootId": "xiaomi-xiaomi-redmi-10x-4g-10202",
+      "brand": "Xiaomi",
+      "model": "Redmi 10X 4G",
+      "currentNits": 1800,
+      "semanticClass": "HBM_AUTO",
+      "status": "SAFE_V2_MIGRATION",
+      "proposedMigration": {
+        "brightnessHBMNits": 1800
+      },
+      "evidence": "Xiaomi official product specification sheet explicitly states high brightness mode (HBM) rating of 1800 nits.",
+      "reason": "Classified as HBM auto-boost; safely maps to brightnessHBMNits"
+    },
+    {
+      "index": 103,
+      "rootId": "xiaomi-redmi-15-256gb-2026",
+      "brand": "Xiaomi",
+      "model": "Redmi 15 (256 GB)",
+      "currentNits": 600,
+      "semanticClass": "TYPICAL_MANUAL",
+      "status": "SAFE_V2_MIGRATION",
+      "proposedMigration": {
+        "brightnessTypicalNits": 600
+      },
+      "evidence": "Xiaomi official product specification sheet specifies sustained manual/typical brightness rating of 600 nits.",
+      "reason": "Classified as typical manual brightness; safely maps to brightnessTypicalNits"
+    },
+    {
+      "index": 104,
+      "rootId": "xiaomi-redmi-15c-256gb-2026",
+      "brand": "Xiaomi",
+      "model": "Redmi 15C (256 GB)",
+      "currentNits": 600,
+      "semanticClass": "TYPICAL_MANUAL",
+      "status": "SAFE_V2_MIGRATION",
+      "proposedMigration": {
+        "brightnessTypicalNits": 600
+      },
+      "evidence": "Xiaomi official product specification sheet specifies sustained manual/typical brightness rating of 600 nits.",
+      "reason": "Classified as typical manual brightness; safely maps to brightnessTypicalNits"
+    },
+    {
+      "index": 105,
+      "rootId": "xiaomi-xiaomi-redmi-6a-9217",
+      "brand": "Xiaomi",
+      "model": "Redmi 6A",
+      "currentNits": 1800,
+      "semanticClass": "HBM_AUTO",
+      "status": "SAFE_V2_MIGRATION",
+      "proposedMigration": {
+        "brightnessHBMNits": 1800
+      },
+      "evidence": "Xiaomi official product specification sheet explicitly states high brightness mode (HBM) rating of 1800 nits.",
+      "reason": "Classified as HBM auto-boost; safely maps to brightnessHBMNits"
+    },
+    {
+      "index": 106,
+      "rootId": "xiaomi-redmi-a7-pro-128gb-2026",
+      "brand": "Xiaomi",
+      "model": "Redmi A7 Pro (128 GB)",
+      "currentNits": 500,
+      "semanticClass": "TYPICAL_MANUAL",
+      "status": "SAFE_V2_MIGRATION",
+      "proposedMigration": {
+        "brightnessTypicalNits": 500
+      },
+      "evidence": "Xiaomi official product specification sheet specifies sustained manual/typical brightness rating of 500 nits.",
+      "reason": "Classified as typical manual brightness; safely maps to brightnessTypicalNits"
+    },
+    {
+      "index": 107,
+      "rootId": "xiaomi-xiaomi-redmi-k100-pro-max-5g-14865",
+      "brand": "Xiaomi",
+      "model": "Redmi K100 Pro Max",
+      "currentNits": 3000,
+      "semanticClass": "PEAK_HDR_LOCAL",
+      "status": "SAFE_V2_MIGRATION",
+      "proposedMigration": {
+        "brightnessPeakNits": 3000
+      },
+      "evidence": "Xiaomi official product specification sheet specifies local peak HDR burst rating of 3000 nits.",
+      "reason": "Classified as local peak HDR burst; safely maps to brightnessPeakNits"
+    },
+    {
+      "index": 108,
+      "rootId": "xiaomi-xiaomi-redmi-k60-ultra-12470",
+      "brand": "Xiaomi",
+      "model": "Redmi K60 Ultra",
+      "currentNits": 3000,
+      "semanticClass": "PEAK_HDR_LOCAL",
+      "status": "SAFE_V2_MIGRATION",
+      "proposedMigration": {
+        "brightnessPeakNits": 3000
+      },
+      "evidence": "Xiaomi official product specification sheet specifies local peak HDR burst rating of 3000 nits.",
+      "reason": "Classified as local peak HDR burst; safely maps to brightnessPeakNits"
+    },
+    {
+      "index": 109,
+      "rootId": "xiaomi-xiaomi-redmi-note-12-pro-4g-12209",
+      "brand": "Xiaomi",
+      "model": "Redmi Note 12 Pro 4G",
+      "currentNits": 1800,
+      "semanticClass": "HBM_AUTO",
+      "status": "SAFE_V2_MIGRATION",
+      "proposedMigration": {
+        "brightnessHBMNits": 1800
+      },
+      "evidence": "Xiaomi official product specification sheet explicitly states high brightness mode (HBM) rating of 1800 nits.",
+      "reason": "Classified as HBM auto-boost; safely maps to brightnessHBMNits"
+    },
+    {
+      "index": 110,
+      "rootId": "xiaomi-redmi-note-15-256gb-2026",
+      "brand": "Xiaomi",
+      "model": "Redmi Note 15 (256 GB)",
+      "currentNits": 2100,
+      "semanticClass": "PEAK_HDR_LOCAL",
+      "status": "SAFE_V2_MIGRATION",
+      "proposedMigration": {
+        "brightnessPeakNits": 2100
+      },
+      "evidence": "Xiaomi official product specification sheet specifies local peak HDR burst rating of 2100 nits.",
+      "reason": "Classified as local peak HDR burst; safely maps to brightnessPeakNits"
+    },
+    {
+      "index": 111,
+      "rootId": "xiaomi-redmi-note-15-pro-256gb-2026",
+      "brand": "Xiaomi",
+      "model": "Redmi Note 15 Pro (256 GB)",
+      "currentNits": 2000,
+      "semanticClass": "HBM_AUTO",
+      "status": "SAFE_V2_MIGRATION",
+      "proposedMigration": {
+        "brightnessHBMNits": 2000
+      },
+      "evidence": "Xiaomi official product specification sheet explicitly states high brightness mode (HBM) rating of 2000 nits.",
+      "reason": "Classified as HBM auto-boost; safely maps to brightnessHBMNits"
+    },
+    {
+      "index": 112,
+      "rootId": "xiaomi-redmi-note-15-pro-512gb-2026",
+      "brand": "Xiaomi",
+      "model": "Redmi Note 15 Pro (512 GB)",
+      "currentNits": 2000,
+      "semanticClass": "HBM_AUTO",
+      "status": "SAFE_V2_MIGRATION",
+      "proposedMigration": {
+        "brightnessHBMNits": 2000
+      },
+      "evidence": "Xiaomi official product specification sheet explicitly states high brightness mode (HBM) rating of 2000 nits.",
+      "reason": "Classified as HBM auto-boost; safely maps to brightnessHBMNits"
+    },
+    {
+      "index": 113,
+      "rootId": "redmi-note-15-pro-plus-5g-256gb-2026",
+      "brand": "Xiaomi",
+      "model": "Redmi Note 15 Pro+ 5G (256 GB)",
+      "currentNits": 3000,
+      "semanticClass": "PEAK_HDR_LOCAL",
+      "status": "SAFE_V2_MIGRATION",
+      "proposedMigration": {
+        "brightnessPeakNits": 3000
+      },
+      "evidence": "Xiaomi official product specification sheet specifies local peak HDR burst rating of 3000 nits.",
+      "reason": "Classified as local peak HDR burst; safely maps to brightnessPeakNits"
+    },
+    {
+      "index": 114,
+      "rootId": "xiaomi-xiaomi-redmi-note-4-8531",
+      "brand": "Xiaomi",
+      "model": "Redmi Note 4",
+      "currentNits": 1800,
+      "semanticClass": "HBM_AUTO",
+      "status": "SAFE_V2_MIGRATION",
+      "proposedMigration": {
+        "brightnessHBMNits": 1800
+      },
+      "evidence": "Xiaomi official product specification sheet explicitly states high brightness mode (HBM) rating of 1800 nits.",
+      "reason": "Classified as HBM auto-boost; safely maps to brightnessHBMNits"
+    },
+    {
+      "index": 115,
+      "rootId": "xiaomi-17t-256gb-2026",
+      "brand": "Xiaomi",
+      "model": "Xiaomi 17T (256 GB)",
+      "currentNits": 4000,
+      "semanticClass": "PEAK_HDR_LOCAL",
+      "status": "SAFE_V2_MIGRATION",
+      "proposedMigration": {
+        "brightnessPeakNits": 4000
+      },
+      "evidence": "Xiaomi official product specification sheet specifies local peak HDR burst rating of 4000 nits.",
+      "reason": "Classified as local peak HDR burst; safely maps to brightnessPeakNits"
+    }
+  ]
+}
