@@ -1,4 +1,3 @@
-import * as cheerio from 'cheerio';
 
 export type StoreKey =
   | 'hepsiburada' | 'trendyol' | 'amazon' | 'n11' | 'pttavm'
@@ -6,7 +5,7 @@ export type StoreKey =
   | 'sinerji' | 'gaminggen' | 'gamegaraj' | 'tebilon' | 'ebrar';
 
 export interface ScrapeOutput {
-  store: StoreKey;
+  store: StoreKey | null;
   price: number | null;
   inStock: boolean;
   title: string | null;
@@ -15,11 +14,6 @@ export interface ScrapeOutput {
   error?: string;
 }
 
-const USER_AGENTS = [
-  'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36',
-  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36',
-  'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:129.0) Gecko/20100101 Firefox/129.0'
-];
 
 export function resolveStore(url: string): StoreKey | null {
   if (!url || typeof url !== 'string') return null;
@@ -71,154 +65,8 @@ export function cleanTurkishPrice(raw: string): number | null {
 
 export async function scrapeTargetStore(url: string): Promise<ScrapeOutput> {
   const store = resolveStore(url);
-  if (!store) {
-    return {
-      store: 'hepsiburada',
-      price: null,
-      inStock: false,
-      title: null,
-      currency: 'TRY',
-      isValid: false,
-      error: 'Bilinmeyen Mağaza URL'
-    };
-  }
-
-  const randomUA = USER_AGENTS[Math.floor(Math.random() * USER_AGENTS.length)];
-  const headers = {
-    'User-Agent': randomUA,
-    'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8',
-    'Accept-Language': 'tr-TR,tr;q=0.9,en-US;q=0.8',
-    'Sec-Ch-Ua': '"Chromium";v="128", "Not;A=Brand";v="24"',
-    'Sec-Ch-Ua-Mobile': '?0',
-    'Sec-Ch-Ua-Platform': '"Windows"',
-    'Sec-Fetch-Dest': 'document',
-    'Sec-Fetch-Mode': 'navigate',
-    'Sec-Fetch-Site': 'none',
-    'Upgrade-Insecure-Requests': '1',
-    'Cache-Control': 'max-age=0'
-  };
-
-  try {
-    const res = await fetch(url, { headers, next: { revalidate: 0 } });
-    if (!res.ok) throw new Error(`HTTP Durum Kodu: ${res.status}`);
-
-    const html = await res.text();
-    const $ = cheerio.load(html);
-
-    let price: number | null = null;
-    let inStock = true;
-    let title: string | null = null;
-
-    // 1. AŞAMA: JSON-LD Schema Doğrulaması
-    $('script[type="application/ld+json"]').each((_, el) => {
-      try {
-        const json = JSON.parse($(el).html() || '{}');
-        const nodes = Array.isArray(json) ? json : [json];
-
-        for (const item of nodes) {
-          if (item['@type'] === 'Product' || item.offers) {
-            title = title || item.name || null;
-            const offer = Array.isArray(item.offers) ? item.offers[0] : item.offers;
-            if (offer) {
-              const rawPrice = offer.price || offer.lowPrice;
-              if (rawPrice) {
-                price = typeof rawPrice === 'number' ? rawPrice : cleanTurkishPrice(String(rawPrice));
-              }
-              if (offer.availability) {
-                inStock = offer.availability.toLowerCase().includes('instock');
-              }
-            }
-          }
-        }
-      } catch {}
-    });
-
-    // 2. AŞAMA: Mağazaya Özel DOM Fallback Seçicileri
-    if (!price) {
-      let rawText = '';
-      switch (store) {
-        case 'hepsiburada':
-          rawText = $('[data-test-id="price-current-price"]').first().text() ||
-                    $('.price-current-price').first().text() ||
-                    $('[data-bind*="currentPriceBeforePoint"]').first().text();
-          break;
-        case 'trendyol':
-          rawText = $('.prc-dsc').first().text() || $('.product-price-container').first().text();
-          break;
-        case 'amazon':
-          const whole = $('.a-price-whole').first().text().replace(/[^\d]/g, '');
-          const fraction = $('.a-price-fraction').first().text().replace(/[^\d]/g, '') || '00';
-          if (whole) price = parseFloat(`${whole}.${fraction}`);
-          inStock = !$('#outOfStock').length;
-          break;
-        case 'n11':
-          rawText = $('.newPrice ins').first().text() || $('.unf-p-detail-price').first().text();
-          break;
-        case 'pttavm':
-          rawText = $('.product-price').first().text() || $('[data-test="price"]').first().text();
-          break;
-        case 'vatan':
-          rawText = $('.product-list__price').first().text() || $('.price').first().text();
-          break;
-        case 'mediamarkt':
-          rawText = $('[data-test="product-price"]').first().text() || $('.price').first().text();
-          break;
-        case 'teknosa':
-          rawText = $('.prc-first').first().text() || $('.pdp-price').first().text();
-          break;
-        case 'incehesap':
-          rawText = $('.cur-price').first().text() || $('#satistutar').first().text();
-          break;
-        case 'itopya':
-          rawText = $('.price strong').first().text() || $('.product-price').first().text();
-          break;
-        case 'sinerji':
-          rawText = $('.fiyat-deger').first().text() || $('.product-price').first().text();
-          break;
-        case 'gaminggen':
-          rawText = $('.woocommerce-Price-amount').first().text() || $('.price-now').first().text();
-          break;
-        case 'gamegaraj':
-          rawText = $('.current-price').first().text() || $('.price').first().text();
-          break;
-        case 'tebilon':
-          rawText = $('.product-details-price').first().text() || $('.price').first().text();
-          break;
-        case 'ebrar':
-          rawText = $('.urun-fiyat-detay').first().text() || $('.fiyat').first().text();
-          break;
-      }
-
-      if (rawText && !price) {
-        price = cleanTurkishPrice(rawText);
-      }
-    }
-
-    if (!title) {
-      title = $('h1').first().text().trim() || null;
-    }
-
-    // 3. AŞAMA: Veri Sağlama & Güvenlik Kontrolü (Sanity Check)
-    const isValid = price !== null && price > 100 && price < 500000;
-
-    return {
-      store,
-      price: isValid ? price : null,
-      inStock,
-      title,
-      currency: 'TRY',
-      isValid,
-      error: !isValid ? 'Fiyat okunamadı veya aralık dışı' : undefined
-    };
-  } catch (err: any) {
-    return {
-      store,
-      price: null,
-      inStock: false,
-      title: null,
-      currency: 'TRY',
-      isValid: false,
-      error: err.message || 'Scrape başarısız oldu'
-    };
-  }
+  // H-D: this legacy dispatcher has no durable channel approval or identity gate.
+  // Never send direct web requests through it, including on caller-supplied URLs.
+  return { store, price: null, inStock: false, title: null,
+    currency: 'TRY', isValid: false, error: 'CHANNEL_NOT_PRODUCTION_READY' };
 }

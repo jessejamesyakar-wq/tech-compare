@@ -25,11 +25,10 @@
  * On any scheduler fault or unexpected exception, plannedRequests = 0, actualRequests = 0, NO fetch.
  */
 
-import fs from 'fs';
-import path from 'path';
-import { createClient, SupabaseClient } from '@supabase/supabase-js';
+import { SupabaseClient } from '@supabase/supabase-js';
 import { getSupabaseServerClient } from '@/lib/supabase/server';
 import { getProductById } from '@/lib/data';
+import { loadRetailerChannelState } from '@/lib/pricing/retailerChannelState';
 import {
   RetailerQuantumScheduler,
   RetailerRefreshCandidate,
@@ -72,7 +71,7 @@ export interface CandidateDecisionDetail {
 export interface VatanWorkerExecutionResult {
   storeId: string;
   mode: RetailerSchedulerMode;
-  stateSource: 'DURABLE_DB';
+  stateSource: 'DURABLE_DB' | 'UNAVAILABLE';
   mappingCount: number;
   safeCount: number;
   eligibleCount: number;
@@ -141,32 +140,6 @@ function getClient(injectedClient?: SupabaseClient): SupabaseClient | null {
   const serverClient = getSupabaseServerClient();
   if (serverClient) return serverClient;
 
-  // Fallback to public client if in Node/test environment
-  let url = process.env.NEXT_PUBLIC_SUPABASE_URL || process.env.SUPABASE_URL;
-  let key = process.env.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY || process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
-
-  if (!url || !key) {
-    const tempEnvPath = path.join(process.env.TEMP || '', 'vercel_pub_only.env');
-    if (fs.existsSync(tempEnvPath)) {
-      const content = fs.readFileSync(tempEnvPath, 'utf8');
-      for (const line of content.split('\n')) {
-        const trimmed = line.trim();
-        if (!url && trimmed.startsWith('NEXT_PUBLIC_SUPABASE_URL=')) {
-          url = trimmed.split('=')[1].trim().replace(/^["']|["']$/g, '');
-        }
-        if (!key && trimmed.startsWith('NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY=')) {
-          key = trimmed.split('=')[1].trim().replace(/^["']|["']$/g, '');
-        }
-        if (!key && trimmed.startsWith('NEXT_PUBLIC_SUPABASE_ANON_KEY=')) {
-          key = trimmed.split('=')[1].trim().replace(/^["']|["']$/g, '');
-        }
-      }
-    }
-  }
-
-  if (url && key) {
-    return createClient(url, key);
-  }
   return null;
 }
 
@@ -210,48 +183,7 @@ async function loadDurableState(
     }
   }
 
-  // If DB tables were restricted to service_role and client is public anon,
-  // load verified production DB readback snapshot to preserve durable provenance
-  if (observations.size === 0 || !storeHealth) {
-    const readbackPaths = [
-      path.join(process.cwd(), 'reports', 'supabase', 'PHASE_E_RESTART_SURVIVAL_READBACK.json'),
-      path.join(__dirname, '..', '..', '..', 'reports', 'supabase', 'PHASE_E_RESTART_SURVIVAL_READBACK.json'),
-    ];
-
-    for (const p of readbackPaths) {
-      if (fs.existsSync(/*turbopackIgnore: true*/ p)) {
-        try {
-          const content = JSON.parse(fs.readFileSync(/*turbopackIgnore: true*/ p, 'utf8'));
-          if (content.reconstructedMappings) {
-            for (const m of content.reconstructedMappings) {
-              observations.set(m.storeProductId, {
-                store_id: storeId,
-                store_product_id: m.storeProductId,
-                last_http_status: m.lastHttpStatus,
-                last_offer_status: m.lastOfferStatus,
-                last_observed_at: m.lastObservedAt,
-                cooldown_until: m.cooldownUntil,
-                consecutive_failures: 0,
-                consecutive_no_offer: m.lastOfferStatus === 'OUT_OF_STOCK' || m.lastOfferStatus === 'STORE_ONLY' ? 1 : 0,
-              });
-            }
-          }
-          if (content.vatanHealth) {
-            storeHealth = {
-              store_id: storeId,
-              health_status: content.vatanHealth.healthStatus,
-              circuit_breaker_state: content.vatanHealth.circuitBreakerState,
-              rate_limit_until: content.vatanHealth.rateLimitUntil,
-              recent_403_count: 0,
-              recent_429_count: 0,
-              recent_5xx_count: 0,
-            };
-          }
-          break;
-        } catch {}
-      }
-    }
-  }
+  if (!storeHealth || observations.size === 0) throw new Error('DURABLE_STATE_UNAVAILABLE');
 
   return { observations, storeHealth };
 }
@@ -284,7 +216,7 @@ export async function executeVatanPriceRefreshWorker(
   const failSafeResult: VatanWorkerExecutionResult = {
     storeId,
     mode,
-    stateSource: 'DURABLE_DB',
+    stateSource: 'UNAVAILABLE',
     mappingCount: 0,
     safeCount: 0,
     eligibleCount: 0,
@@ -341,27 +273,6 @@ export async function executeVatanPriceRefreshWorker(
       }
     }
 
-    // Fallback mappings if DB client not available in offline test
-    if (mappings.length === 0) {
-      const readbackPath = path.join(process.cwd(), 'reports', 'supabase', 'PHASE_E_RESTART_SURVIVAL_READBACK.json');
-      if (fs.existsSync(/*turbopackIgnore: true*/ readbackPath)) {
-        try {
-          const content = JSON.parse(fs.readFileSync(/*turbopackIgnore: true*/ readbackPath, 'utf8'));
-          if (content.reconstructedMappings) {
-            mappings = content.reconstructedMappings.map((m: any) => ({
-              product_id: m.productId,
-              store_id: storeId,
-              store_product_id: m.storeProductId,
-              url: m.url,
-              active: true,
-              match_status: m.matchStatus || 'MATCHED',
-              match_confidence: m.matchConfidence || 100,
-            }));
-          }
-        } catch {}
-      }
-    }
-
     if (mappings.length === 0) {
       return failSafeResult;
     }
@@ -370,6 +281,8 @@ export async function executeVatanPriceRefreshWorker(
     // STEP 2: LOAD DURABLE OBSERVATION STATE & STORE HEALTH
     // -------------------------------------------------------------------------
     const { observations, storeHealth } = await loadDurableState(sbClient, storeId);
+    if (!sbClient || mappings.some(m => !observations.has(m.store_product_id))) return failSafeResult;
+    const routeState = { ...await loadRetailerChannelState(sbClient, storeId), now };
 
     // -------------------------------------------------------------------------
     // STEP 3: LOAD EXISTING PRICES & PRODUCT PRIORITIES
@@ -433,7 +346,7 @@ export async function executeVatanPriceRefreshWorker(
 
       const lastHttpStatus = obsOverride?.lastHttpStatus !== undefined
         ? obsOverride.lastHttpStatus
-        : (obs?.last_http_status ?? (lastOfferStatus ? 200 : null));
+        : (obs?.last_http_status ?? null);
 
       // Calculate age
       let ageHours = 999.0;
@@ -459,9 +372,10 @@ export async function executeVatanPriceRefreshWorker(
         productId: mapping.product_id,
         storeId,
         storeProductId: spId,
+        channelId: 'vatan:direct_web',
         mappingActive: mapping.active === true,
-        identityStatus: mapping.match_status || 'MATCHED',
-        matchConfidence: mapping.match_confidence ?? 100,
+        identityStatus: mapping.match_status || 'MATCH_REVIEW_REQUIRED',
+        matchConfidence: mapping.match_confidence ?? 0,
         lastCheckedAt: lastObservedAt,
         ageHours: Number(ageHours.toFixed(2)),
         currentPriceExists: effectivePriceExists,
@@ -494,7 +408,7 @@ export async function executeVatanPriceRefreshWorker(
     };
 
     // -------------------------------------------------------------------------
-    // STEP 5: RUN RETAILER QUANTUM SCHEDULER
+    // STEP 5: RUN RETAILER QUANTUM SCHEDULER (no channel context => fail closed)
     // -------------------------------------------------------------------------
     let schedulingResult;
 
@@ -508,7 +422,8 @@ export async function executeVatanPriceRefreshWorker(
           candidates,
           healthState,
           budget,
-          DEFAULT_RETAILER_POLICY
+          DEFAULT_RETAILER_POLICY,
+          routeState
         );
       }
     } else {
@@ -516,7 +431,8 @@ export async function executeVatanPriceRefreshWorker(
         candidates,
         healthState,
         budget,
-        DEFAULT_RETAILER_POLICY
+        DEFAULT_RETAILER_POLICY,
+        routeState
       );
     }
 
@@ -571,7 +487,8 @@ export async function executeVatanPriceRefreshWorker(
     let actualNetworkRequests = 0;
     const fetchedResults: VatanObservationResult[] = [];
 
-    if (mode === 'CONTROLLED_FETCH' && schedulingResult.selectedCandidates.length > 0) {
+    const directWebRequestsAllowed = false; // H-D: hard stop independent of solver or database flags.
+    if (directWebRequestsAllowed && mode === 'CONTROLLED_FETCH' && schedulingResult.selectedCandidates.length > 0) {
       const fetchFn = options.fetchImpl || fetch;
       // Maximum 2 requests per run, strictly for selected candidates
       const maxToFetch = Math.min(

@@ -24,6 +24,8 @@
  * - REAL_QPU = NO, QUANTUM_BACKEND = SIMULATED_ANNEALING with CLASSICAL_FALLBACK.
  */
 
+import { RetailerAccessChannelControlPlane, type RetailerAccessChannel, type RetailerChannelHealth } from '@/lib/pricing/retailerAccessChannel';
+
 import { PRICE_FRESHNESS_HOURS } from '@/lib/priceFreshness';
 
 // ============================================================================
@@ -54,6 +56,7 @@ export type HardGateReason =
   | 'DEAD_MAPPING';
 
 export interface RetailerRefreshCandidate {
+  channelId?: string;
   productId: string;
   storeId: string;
   storeProductId: string;
@@ -159,6 +162,7 @@ export interface OptimizationTelemetry {
 }
 
 export interface ScheduledCandidateDecision {
+  channelId?: string;
   productId: string;
   storeProductId: string;
   decision: 'SELECT' | 'SKIP';
@@ -255,7 +259,7 @@ export class RetailerSafetyGates {
     if (candidate.identityStatus !== 'MATCHED') {
       return { passed: false, reason: 'IDENTITY_NOT_MATCHED' };
     }
-    if (candidate.matchConfidence < 90.0) {
+    if (!Number.isFinite(candidate.matchConfidence) || candidate.matchConfidence < 90.0 || candidate.matchConfidence > 100) {
       return { passed: false, reason: 'LOW_MATCH_CONFIDENCE' };
     }
     if (candidate.lastHttpStatus === 404 || candidate.lastHttpStatus === 410) {
@@ -428,7 +432,7 @@ export class QuboRetailerModel {
   ): RetailerQUBOMatrix {
     const N = scored.length;
     const matrix: number[][] = Array.from({ length: N }, () => new Array(N).fill(0));
-    const variables: string[] = scored.map(s => s.candidate.productId);
+    const variables: string[] = scored.map(({ candidate: c }) => JSON.stringify([c.productId, c.storeId, c.channelId]));
 
     // 1. Diagonal: minimize -netScore
     for (let i = 0; i < N; i++) {
@@ -438,7 +442,12 @@ export class QuboRetailerModel {
     // 2. Off-diagonal: Congestion penalty between concurrent requests to same store
     for (let i = 0; i < N; i++) {
       for (let j = i + 1; j < N; j++) {
-        matrix[i][j] = policy.congestionPenaltyWeight;
+        const a = scored[i].candidate;
+        const b = scored[j].candidate;
+        // Alternative channels for the same product/store are mutually exclusive.
+        const exclusivityPenalty = a.productId === b.productId && a.storeId === b.storeId
+          ? Math.abs(scored[i].netScore) + Math.abs(scored[j].netScore) + 1 : 0;
+        matrix[i][j] = policy.congestionPenaltyWeight + exclusivityPenalty;
       }
     }
 
@@ -586,23 +595,41 @@ export class RetailerQuantumScheduler {
     candidates: RetailerRefreshCandidate[],
     health: RetailerHealthState,
     budget: OptimizationBudget,
-    policyInput: RetailerOptimizationPolicy = DEFAULT_RETAILER_POLICY
+    policyInput: RetailerOptimizationPolicy = DEFAULT_RETAILER_POLICY,
+    routeState?: { channels: RetailerAccessChannel[]; health: RetailerChannelHealth[]; now?: number }
   ): RetailerSchedulingResult {
     const startTime = Date.now();
     const runId = `opt_${health.storeId}_${Date.now()}`;
     const effectivePolicy = getEffectivePolicy(policyInput, health.storeId);
     const decisions: ScheduledCandidateDecision[] = [];
+    if (!Number.isSafeInteger(budget.maxRequestsPerRun) || budget.maxRequestsPerRun < 0) {
+      throw new Error('INVALID_REQUEST_BUDGET');
+    }
 
     let safeCandidatesCount = 0;
     const eligibleForQuantum: RetailerRefreshCandidate[] = [];
 
     // Step 1: Hard Structural Safety Gates
+    const seenRoutes = new Set<string>();
     for (const c of candidates) {
+      const channel = routeState?.channels.find(ch => ch.storeId === c.storeId && ch.channelId === c.channelId);
+      const channelHealth = routeState?.health.find(h => h.storeId === c.storeId && h.channelId === c.channelId);
+      const gate = channel ? RetailerAccessChannelControlPlane.evaluateChannelGate(channel, channelHealth, routeState?.now ?? Date.now()) : { passed: false, reason: 'CHANNEL_STATE_MISSING' };
+      const routeKey = JSON.stringify([c.productId, c.storeId, c.channelId]);
+      const validStore = c.storeId === health.storeId && c.storeId === budget.storeId;
+      if (!gate.passed || !validStore || seenRoutes.has(routeKey)) {
+        decisions.push({ productId: c.productId, storeProductId: c.storeProductId, channelId: c.channelId,
+          decision: 'SKIP', reason: !validStore ? 'ROUTE_STORE_MISMATCH' : seenRoutes.has(routeKey) ? 'DUPLICATE_ROUTE' : gate.reason!,
+          quantumEligible: false, urgency: 0, risk: 100, cost: effectivePolicy.baseRequestCost, finalScore: -100 });
+        continue;
+      }
+      seenRoutes.add(routeKey);
       const structGate = RetailerSafetyGates.evaluateStructuralGate(c, health);
       if (!structGate.passed) {
         decisions.push({
           productId: c.productId,
           storeProductId: c.storeProductId,
+          channelId: c.channelId,
           decision: 'SKIP',
           reason: structGate.reason!,
           quantumEligible: false,
@@ -622,6 +649,7 @@ export class RetailerQuantumScheduler {
         decisions.push({
           productId: c.productId,
           storeProductId: c.storeProductId,
+          channelId: c.channelId,
           decision: 'SKIP',
           reason: cooldownGate.reason!,
           quantumEligible: false,
@@ -701,7 +729,9 @@ export class RetailerQuantumScheduler {
 
     for (let i = 0; i < eligibleForQuantum.length; i++) {
       const scored = scoredList[i];
-      const isSelected = solutionState[i] === 1;
+      // Enforce budget and one route per product/store after either solver.
+      const isSelected = solutionState[i] === 1 && selectedCandidates.length < Math.max(0, Math.floor(budget.maxRequestsPerRun)) &&
+        !selectedCandidates.some(c => c.productId === scored.candidate.productId && c.storeId === scored.candidate.storeId);
 
       if (isSelected) {
         selectedCandidates.push(scored.candidate);
@@ -709,6 +739,7 @@ export class RetailerQuantumScheduler {
         decisions.push({
           productId: scored.candidate.productId,
           storeProductId: scored.candidate.storeProductId,
+          channelId: scored.candidate.channelId,
           decision: 'SELECT',
           reason: `OPTIMIZED_PRIORITY (NetScore: ${scored.netScore}, Urgency: ${scored.urgency}, Cost: ${scored.requestCost})`,
           quantumEligible: true,
@@ -721,6 +752,7 @@ export class RetailerQuantumScheduler {
         decisions.push({
           productId: scored.candidate.productId,
           storeProductId: scored.candidate.storeProductId,
+          channelId: scored.candidate.channelId,
           decision: 'SKIP',
           reason: `DEFERRED_BUDGET_CAP (Budget: ${budget.maxRequestsPerRun} reached)`,
           quantumEligible: true,
