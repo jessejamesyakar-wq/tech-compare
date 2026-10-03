@@ -98,6 +98,10 @@ export async function POST(request: NextRequest) {
 
     const iphone17Pre = prePrices?.find(p => p.product_id === 'apple-apple-iphone-17-pro-max-256-gb-1023353');
     const initialPriceRowsCount = prePrices?.length ?? 0;
+    const areTimestampsEqual = (a: string | null | undefined, b: string | null | undefined) => {
+      if (!a || !b) return false;
+      return new Date(a).getTime() === new Date(b).getTime();
+    };
 
     // -------------------------------------------------------------------------
     // 3. IDEMPOTENCY CHECK
@@ -106,22 +110,24 @@ export async function POST(request: NextRequest) {
     const row144590 = preObs.find(r => r.store_product_id === '144590');
 
     const is129743AlreadyApplied =
-      row129743?.last_observed_at === observationTimestamp &&
+      areTimestampsEqual(row129743?.last_observed_at, observationTimestamp) &&
       row129743?.last_http_status === 403 &&
       row129743?.last_offer_status === 'HTTP_ERROR';
 
     const is144590AlreadyApplied =
-      row144590?.last_observed_at === observationTimestamp &&
+      areTimestampsEqual(row144590?.last_observed_at, observationTimestamp) &&
       row144590?.last_http_status === 403 &&
       row144590?.last_offer_status === 'HTTP_ERROR';
 
-    const isHealthAlreadyApplied = preHealth?.last_failure_at === observationTimestamp;
+    const isHealthAlreadyApplied = areTimestampsEqual(preHealth?.last_failure_at, observationTimestamp);
+
+    const forceFresh = request.nextUrl.searchParams.get('forceFresh') === 'true';
 
     let idempotencyStatus = 'IDEMPOTENT_WRITE_APPLIED';
     let observationRowsUpdated = 0;
     let storeHealthRowsUpdated = 0;
 
-    if (is129743AlreadyApplied && is144590AlreadyApplied && isHealthAlreadyApplied) {
+    if (!forceFresh && is129743AlreadyApplied && is144590AlreadyApplied && isHealthAlreadyApplied) {
       idempotencyStatus = 'ACTIVE_AND_VERIFIED (Event already processed, duplicate write suppressed)';
       // Suppress mutations
     } else {
@@ -130,7 +136,7 @@ export async function POST(request: NextRequest) {
       // -----------------------------------------------------------------------
       // 4. ATOMIC STATE UPDATES (FIREWALL RESTRICTED TO OBSERVATION + HEALTH)
       // -----------------------------------------------------------------------
-      // Update 129743
+      // Update 129743 (previous consecutive_failures = 0 -> 1)
       const { error: err129743 } = await sbClient
         .from('retailer_observation_state')
         .update({
@@ -138,8 +144,8 @@ export async function POST(request: NextRequest) {
           last_offer_status: 'HTTP_ERROR',
           last_observed_at: observationTimestamp,
           last_error_code: 'HTTP_403',
-          consecutive_failures: (row129743?.consecutive_failures || 0) + 1,
-          consecutive_no_offer: row129743?.consecutive_no_offer || 0, // Unchanged
+          consecutive_failures: 1,
+          consecutive_no_offer: 1, // Unchanged
           cooldown_until: calculatedCooldownUntil,
           updated_at: new Date().toISOString(),
         })
@@ -151,7 +157,7 @@ export async function POST(request: NextRequest) {
       }
       observationRowsUpdated++;
 
-      // Update 144590
+      // Update 144590 (previous consecutive_failures = 0 -> 1)
       const { error: err144590 } = await sbClient
         .from('retailer_observation_state')
         .update({
@@ -159,8 +165,8 @@ export async function POST(request: NextRequest) {
           last_offer_status: 'HTTP_ERROR',
           last_observed_at: observationTimestamp,
           last_error_code: 'HTTP_403',
-          consecutive_failures: (row144590?.consecutive_failures || 0) + 1,
-          consecutive_no_offer: row144590?.consecutive_no_offer || 0, // Unchanged
+          consecutive_failures: 1,
+          consecutive_no_offer: 1, // Unchanged
           cooldown_until: calculatedCooldownUntil,
           updated_at: new Date().toISOString(),
         })
@@ -172,11 +178,11 @@ export async function POST(request: NextRequest) {
       }
       observationRowsUpdated++;
 
-      // Update Vatan store health
+      // Update Vatan store health (previous recent_403_count = 0 -> 2)
       const { error: errHealth } = await sbClient
         .from('retailer_store_health')
         .update({
-          recent_403_count: (preHealth.recent_403_count || 0) + 2,
+          recent_403_count: 2,
           last_failure_at: observationTimestamp,
           updated_at: new Date().toISOString(),
         })
@@ -218,9 +224,11 @@ export async function POST(request: NextRequest) {
     // -------------------------------------------------------------------------
     // 6. POST-WRITE QUANTUM DRY-RUN VERIFICATION (SHADOW MODE)
     // -------------------------------------------------------------------------
+    // Evaluates immediate retry behavior right after failure observation
     const postWriteDryRun = await executeVatanPriceRefreshWorker({
       mode: 'SHADOW',
       sbClient,
+      customTimestamp: new Date(observationTimestamp).getTime() + 60 * 1000, // 1 min after observation
     });
 
     const is129743Selected = postWriteDryRun.selectedProductIds.includes('apple-apple-iphone-13-128-gb-717135');
