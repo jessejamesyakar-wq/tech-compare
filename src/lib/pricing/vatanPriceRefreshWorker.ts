@@ -114,7 +114,7 @@ export interface WorkerExecutionOptions {
       string,
       {
         lastHttpStatus?: number | null;
-        lastOfferStatus?: 'IN_STOCK' | 'OUT_OF_STOCK' | 'STORE_ONLY' | 'NO_VALID_OFFER' | null;
+        lastOfferStatus?: 'IN_STOCK' | 'OUT_OF_STOCK' | 'STORE_ONLY' | 'NO_VALID_OFFER' | 'HTTP_ERROR' | null;
         lastObservedAt?: string | null;
         cooldownUntil?: string | null;
         consecutiveFailures?: number;

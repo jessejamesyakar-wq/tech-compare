@@ -32,7 +32,7 @@ export interface ExtractedVatanFields {
   observedAt: string | null;
 }
 
-export type ObservedOfferStatus = 'IN_STOCK' | 'OUT_OF_STOCK' | 'STORE_ONLY' | 'NO_VALID_OFFER';
+export type ObservedOfferStatus = 'IN_STOCK' | 'OUT_OF_STOCK' | 'STORE_ONLY' | 'NO_VALID_OFFER' | 'HTTP_ERROR';
 
 export type IdentityStatus = 'MATCHED' | 'MATCH_REVIEW_REQUIRED' | 'REJECTED' | 'UNREACHABLE';
 
@@ -114,7 +114,7 @@ export function parseVatanHtml(
         canonicalUrl: null,
         observedAt,
       },
-      observedOfferStatus: 'NO_VALID_OFFER',
+      observedOfferStatus: 'HTTP_ERROR',
       observedPriceValid: false,
       observedPrice: null,
       observedCurrency: null,

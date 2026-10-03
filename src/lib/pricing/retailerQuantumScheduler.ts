@@ -45,6 +45,7 @@ export type HardGateReason =
   | 'RECENT_OUT_OF_STOCK'
   | 'RECENT_STORE_ONLY'
   | 'RECENT_NO_VALID_OFFER'
+  | 'RECENT_HTTP_ERROR'
   | 'CIRCUIT_BREAKER_OPEN'
   | 'RATE_LIMIT_COOLDOWN'
   | 'INACTIVE_MAPPING'
@@ -71,7 +72,7 @@ export interface RetailerRefreshCandidate {
   historyCount: number;
 
   lastHttpStatus: number | null;
-  lastOfferStatus: 'IN_STOCK' | 'OUT_OF_STOCK' | 'STORE_ONLY' | 'NO_VALID_OFFER' | null;
+  lastOfferStatus: 'IN_STOCK' | 'OUT_OF_STOCK' | 'STORE_ONLY' | 'NO_VALID_OFFER' | 'HTTP_ERROR' | null;
 
   productPriority: 'HIGH_PRIORITY' | 'NORMAL' | 'LOW_PRIORITY' | null;
   storeHealth: number | null; // 0.0 (unhealthy) to 1.0 (optimal)
@@ -296,6 +297,19 @@ export class RetailerSafetyGates {
     if (candidate.lastOfferStatus === 'NO_VALID_OFFER') {
       if (candidate.ageHours < policy.cooldownNoValidOfferHours) {
         return { passed: false, reason: 'RECENT_NO_VALID_OFFER' };
+      }
+    }
+
+    // 5. HTTP_ERROR / Retailer failure cooldown (2h default via policy.cooldownFailureHours)
+    if (
+      candidate.lastOfferStatus === 'HTTP_ERROR' ||
+      (candidate.lastHttpStatus &&
+        candidate.lastHttpStatus >= 400 &&
+        candidate.lastHttpStatus !== 404 &&
+        candidate.lastHttpStatus !== 410)
+    ) {
+      if (candidate.ageHours < policy.cooldownFailureHours) {
+        return { passed: false, reason: 'RECENT_HTTP_ERROR' };
       }
     }
 
