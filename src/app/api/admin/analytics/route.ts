@@ -21,6 +21,22 @@ export async function GET(request: Request) {
     const since24h = new Date(Date.now() - 24 * 60 * 60 * 1000).toISOString();
 
     // 1. Total events, daily summary, and diagnostics
+    const rawUrl = process.env.NEXT_PUBLIC_SUPABASE_URL || process.env.SUPABASE_URL;
+    const rawSecretKey = process.env.SUPABASE_SECRET_KEY || process.env.SUPABASE_SERVICE_ROLE_KEY;
+    let schemaTables: string[] = [];
+    try {
+      const openApiRes = await fetch(`${rawUrl}/rest/v1/`, {
+        headers: {
+          apikey: rawSecretKey || '',
+          Authorization: `Bearer ${rawSecretKey || ''}`
+        }
+      });
+      const openApiJson = await openApiRes.json();
+      schemaTables = Object.keys(openApiJson.definitions || {});
+    } catch (e: any) {
+      schemaTables = ['error: ' + e.message];
+    }
+
     const [
       resTotal,
       resLast24h,
@@ -105,6 +121,7 @@ export async function GET(request: Request) {
           recentSummaries: summaries || []
         },
         diagnostics: {
+          schemaTables,
           eventsError: resTotal.error?.message || null,
           summariesError: resSummaries.error?.message || null,
           channelsCount: resChannels.count,
