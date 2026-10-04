@@ -183,15 +183,8 @@ if (criticalErrors.length > 0) {
   console.error('\n🛑 Deploy halted to protect catalog integrity.');
   process.exit(1);
 } else {
-  // Canonical governance exclusion set (4 legacy Huawei duplicate ghost records + 2 quarantined future Oppo roots)
-  const CANONICAL_EXCLUDED_ROOTS = new Set([
-    'oppo-k14-turbo-pro-512gb-2027',
-    'oppo-k14-turbo-256gb-2027',
-    'huawei-huawei-y9-1',
-    'huawei-huawei-mate-60-pro-1',
-    'huawei-huawei-p40-pro-1',
-    'huawei-huawei-pura-70-pro-1'
-  ]);
+  // Authoritative canonical governance exclusions (single source of truth)
+  const { isCanonicalExcluded } = require('../src/lib/governance/canonicalExclusions.ts');
 
   // Generate lightweight search index for instant zero-API client-side search (canonical safe set only)
   const searchIndexItems = [];
@@ -200,7 +193,7 @@ if (criticalErrors.length > 0) {
     products.forEach((p) => {
       const id = p.id || p.slug;
       if (!id || seenSearchIds.has(id)) return;
-      if (CANONICAL_EXCLUDED_ROOTS.has(p.id) || CANONICAL_EXCLUDED_ROOTS.has(id)) return;
+      if (isCanonicalExcluded(p.id) || isCanonicalExcluded(id)) return;
       seenSearchIds.add(id);
       searchIndexItems.push({
         id: p.id,

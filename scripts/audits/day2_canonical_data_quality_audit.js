@@ -41,17 +41,10 @@ Object.entries(categoryProducts).forEach(([cat, list]) => {
   console.log(`  - ${cat}: ${list.length}`);
 });
 
-// Identify Excluded / Quarantined items
-const KNOWN_EXCLUSIONS = new Set([
-  'oppo-k14-turbo-pro-512gb-2027',
-  'oppo-k14-turbo-256gb-2027',
-  'huawei-huawei-y9-1',
-  'huawei-huawei-mate-60-pro-1',
-  'huawei-huawei-p40-pro-1',
-  'huawei-huawei-pura-70-pro-1'
-]);
+// Authoritative canonical governance exclusions (single source of truth)
+const { CANONICAL_EXCLUDED_ID_SET } = require('../../src/lib/governance/canonicalExclusions.ts');
 
-const canonicalProducts = allRawProducts.filter(p => !KNOWN_EXCLUSIONS.has(p.id));
+const canonicalProducts = allRawProducts.filter(p => !CANONICAL_EXCLUDED_ID_SET.has(p.id));
 console.log('Canonical Safe Products (excluding 6 known items):', canonicalProducts.length);
 
 const issues = [];
@@ -141,7 +134,7 @@ for (const p of p17pro) {
 // 3. EMPTY & POPULATED SPECS PER CATEGORY
 const specStats = {};
 for (const [cat, list] of Object.entries(categoryProducts)) {
-  const filtered = list.filter(p => !KNOWN_EXCLUSIONS.has(p.id));
+  const filtered = list.filter(p => !CANONICAL_EXCLUDED_ID_SET.has(p.id));
   let empty = 0;
   let partial = 0;
   let well = 0;

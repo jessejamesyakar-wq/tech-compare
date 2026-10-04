@@ -3,6 +3,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import cp from 'node:child_process';
 import { normalizeProductIdentity, buildProductIdentityKey } from '../src/lib/matching/productIdentityNormalizer';
+import { CANONICAL_EXCLUDED_ID_SET } from '../src/lib/governance/canonicalExclusions';
 
 const ROOT = path.resolve(__dirname, '..');
 let passed = 0;
@@ -49,16 +50,7 @@ async function main() {
     allRawProducts.push(...products);
   }
 
-  const KNOWN_EXCLUSIONS = new Set([
-    'oppo-k14-turbo-pro-512gb-2027',
-    'oppo-k14-turbo-256gb-2027',
-    'huawei-huawei-y9-1',
-    'huawei-huawei-mate-60-pro-1',
-    'huawei-huawei-p40-pro-1',
-    'huawei-huawei-pura-70-pro-1'
-  ]);
-
-  const canonicalProducts = allRawProducts.filter(p => !KNOWN_EXCLUSIONS.has(p.id));
+  const canonicalProducts = allRawProducts.filter(p => !CANONICAL_EXCLUDED_ID_SET.has(p.id));
 
   // 1. DUPLICATE_PLUS_TOKEN_PRESERVED
   await test('DUPLICATE_PLUS_TOKEN_PRESERVED', () => {
@@ -182,7 +174,7 @@ async function main() {
   await test('CANONICAL_COUNT_LOCK', () => {
     assert.equal(allRawProducts.length, 5820, 'Raw source catalog must contain exactly 5,820 items');
     assert.equal(canonicalProducts.length, 5814, 'Canonical active catalog must remain exactly 5,814 items');
-    assert.equal(KNOWN_EXCLUSIONS.size, 6, 'Quarantined exclusions must remain exactly 6');
+    assert.equal(CANONICAL_EXCLUDED_ID_SET.size, 6, 'Quarantined exclusions must remain exactly 6');
   });
 
   // 12. PRICE_FIREWALL (0 price writes)

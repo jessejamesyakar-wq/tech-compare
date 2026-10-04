@@ -1,6 +1,7 @@
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import path from 'node:path';
+import { CANONICAL_EXCLUSIONS_REGISTRY, CANONICAL_EXCLUDED_ID_SET } from '../src/lib/governance/canonicalExclusions';
 
 const ROOT = path.resolve(__dirname, '..');
 let passed = 0;
@@ -20,19 +21,15 @@ async function main() {
   assert.ok(fs.existsSync(searchIndexPath), 'public/data/search-index.json must exist');
   const searchIndex: any[] = JSON.parse(fs.readFileSync(searchIndexPath, 'utf8'));
 
-  const HUAWEI_LEGACY_IDS = [
-    'huawei-huawei-y9-1',
-    'huawei-huawei-mate-60-pro-1',
-    'huawei-huawei-p40-pro-1',
-    'huawei-huawei-pura-70-pro-1'
-  ];
+  const HUAWEI_LEGACY_IDS = CANONICAL_EXCLUSIONS_REGISTRY
+    .filter((r) => r.reason === 'LEGACY_DUPLICATE_GHOST')
+    .map((r) => r.id);
 
-  const QUARANTINED_OPPO_IDS = [
-    'oppo-k14-turbo-pro-512gb-2027',
-    'oppo-k14-turbo-256gb-2027'
-  ];
+  const QUARANTINED_OPPO_IDS = CANONICAL_EXCLUSIONS_REGISTRY
+    .filter((r) => r.reason === 'FUTURE_PRODUCT_QUARANTINE')
+    .map((r) => r.id);
 
-  const ALL_EXCLUDED = [...HUAWEI_LEGACY_IDS, ...QUARANTINED_OPPO_IDS];
+  const ALL_EXCLUDED = Array.from(CANONICAL_EXCLUDED_ID_SET);
 
   // 1. SEARCH_INDEX_COUNT_MATCHES_CANONICAL
   await test('SEARCH_INDEX_COUNT_MATCHES_CANONICAL', () => {
