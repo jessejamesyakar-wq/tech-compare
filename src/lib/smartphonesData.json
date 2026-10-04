@@ -8354,7 +8354,7 @@
         "reverseWireless": false
       },
       "connectivity": {
-        "has5G": false,
+        "has5G": true,
         "wifiStandard": "Wi-Fi 7 (802.11be)",
         "bluetooth": "5.4",
         "hasNFC": true,
@@ -9132,7 +9132,7 @@
         "reverseWireless": false
       },
       "connectivity": {
-        "has5G": false,
+        "has5G": true,
         "wifiStandard": "Wi-Fi 7 (802.11be)",
         "bluetooth": "5.4",
         "hasNFC": true,
@@ -9879,7 +9879,7 @@
         "reverseWireless": false
       },
       "connectivity": {
-        "has5G": false,
+        "has5G": true,
         "wifiStandard": "Wi-Fi 7 (802.11be)",
         "bluetooth": "5.4",
         "hasNFC": true,
