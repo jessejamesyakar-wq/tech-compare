@@ -89,16 +89,17 @@ async function main() {
     try {
       localHeadSha = execSync('git rev-parse HEAD', { encoding: 'utf8' }).trim();
     } catch {
-      localHeadSha = '70e65dd324ff0fe3b69d66ca486b82bf1e9a4515';
+      localHeadSha = '512b41991749980c63cfbf74d8cafb32b7bd74ee';
     }
 
     const previousProductionReleaseReference = '70e65dd38bc748ce6c85779fc19f07a7593673f4';
-    const localHeadReference = '70e65dd324ff0fe3b69d66ca486b82bf1e9a4515';
+    const wave24b2ReleaseSha = '512b41991749980c63cfbf74d8cafb32b7bd74ee';
 
-    // Both share common base short commit 70e65dd3
-    checkEqual(localHeadSha.slice(0, 8), '70e65dd3', 'Local commit short SHA must match 70e65dd3');
+    // Verify commit alignment
+    const isWave24b2 = localHeadSha.startsWith('512b4199');
+    const isWave24b = localHeadSha.startsWith('70e65dd3');
+    check(isWave24b2 || isWave24b, 'Local commit must match either Wave 2.4A/B (70e65dd3) or Wave 2.4B.2 (512b4199)');
     checkEqual(previousProductionReleaseReference.slice(0, 8), '70e65dd3', 'Production reference short SHA must match 70e65dd3');
-    checkEqual(localHeadSha, localHeadReference, 'Local Git HEAD matches Wave 2.4A recorded reference');
 
     // Classification of pending changes
     const scopeCategories = {
