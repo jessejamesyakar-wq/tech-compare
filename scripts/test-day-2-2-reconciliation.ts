@@ -187,11 +187,8 @@ async function main() {
 
   // 12. PRICE_FIREWALL (0 price writes)
   await test('PRICE_FIREWALL', () => {
-    // Check git diff on smartphonesData.json against previous commit or working tree to guarantee only has5G was changed
-    let gitDiff = cp.execSync('git diff src/lib/smartphonesData.json', { cwd: ROOT, encoding: 'utf8' });
-    if (!gitDiff.trim()) {
-      gitDiff = cp.execSync('git diff HEAD~1 src/lib/smartphonesData.json', { cwd: ROOT, encoding: 'utf8' });
-    }
+    // Check git diff on smartphonesData.json against origin/main to guarantee only has5G was changed
+    const gitDiff = cp.execSync('git diff origin/main src/lib/smartphonesData.json', { cwd: ROOT, encoding: 'utf8' });
     const addedLines = gitDiff.split('\n').filter(l => l.startsWith('+') && !l.startsWith('+++'));
     const deletedLines = gitDiff.split('\n').filter(l => l.startsWith('-') && !l.startsWith('---'));
 
@@ -206,10 +203,7 @@ async function main() {
     }
 
     // Verify 0 price mutations across entire catalog
-    let fullDiff = cp.execSync('git diff src/lib/', { cwd: ROOT, encoding: 'utf8' });
-    if (!fullDiff.trim()) {
-      fullDiff = cp.execSync('git diff HEAD~1 src/lib/', { cwd: ROOT, encoding: 'utf8' });
-    }
+    const fullDiff = cp.execSync('git diff origin/main src/lib/', { cwd: ROOT, encoding: 'utf8' });
     assert.ok(!fullDiff.includes('"price"'), 'Git diff in src/lib must not contain any price mutations');
     assert.ok(!fullDiff.includes('"basePrice"'), 'Git diff in src/lib must not contain any basePrice mutations');
   });
