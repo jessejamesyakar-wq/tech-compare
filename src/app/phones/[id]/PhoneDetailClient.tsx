@@ -9,7 +9,7 @@ import dynamic from 'next/dynamic';
 import { useSearchParams } from 'next/navigation';
 import { useI18n } from '@/lib/i18n/context';
 import { useCompare } from '@/context/CompareContext';
-import { Smartphone } from '@/lib/types';
+import { Smartphone, Product } from '@/lib/types';
 import { selectProductOfferVariant } from '@/lib/pricing/offerVariant';
 import { resolveActiveColor } from '@/lib/colorVariantHelper';
 import { StoreTable } from '@/components/detail/StoreTable';
@@ -21,6 +21,7 @@ import { AIPriceForecastBadge } from '@/components/ai/AIPriceForecastBadge';
 import { evaluateProductPricing } from '@/lib/pricing/unifiedPriceEvaluator';
 import { phoneSpecText } from '@/lib/smartphoneSpecFields';
 import { ProductSpecSources } from '@/components/detail/ProductSpecSources';
+import { RelatedModels } from '@/components/detail/RelatedModels';
 
 // Code-split heavy below-the-fold components
 const PriceHistoryChart = dynamic(
@@ -66,7 +67,13 @@ import {
 
 import { trackFunnelEvent } from '@/lib/analytics/funnel';
 
-export default function PhoneDetailClient({ initialPhone }: { initialPhone: Smartphone | null }) {
+export default function PhoneDetailClient({
+  initialPhone,
+  relatedProducts = [],
+}: {
+  initialPhone: Smartphone | null;
+  relatedProducts?: Product[];
+}) {
   const { t } = useI18n();
   const { addToCompare, removeFromCompare, isInCompare } = useCompare();
   const searchParams = useSearchParams();
@@ -163,6 +170,8 @@ export default function PhoneDetailClient({ initialPhone }: { initialPhone: Smar
         <ChevronRight className="w-3.5 h-3.5" />
         <Link href="/phones" className="hover:text-slate-900 transition-colors">{t.smartphones}</Link>
         <ChevronRight className="w-3.5 h-3.5" />
+        <Link href={`/phones?brand=${encodeURIComponent(phone.brand)}`} className="hover:text-slate-900 transition-colors">{phone.brand}</Link>
+        <ChevronRight className="w-3.5 h-3.5" />
         <span className="text-emerald-600 font-bold">{phone.name}</span>
       </div>
 
@@ -182,9 +191,16 @@ export default function PhoneDetailClient({ initialPhone }: { initialPhone: Smar
         <div className="min-w-0 lg:col-span-7 space-y-6 flex flex-col justify-between">
           <div>
             <div className="flex flex-wrap items-center justify-between gap-2 text-xs text-slate-500 mb-2">
-              <span className="font-bold text-slate-500 uppercase tracking-widest text-xs">
-                {phone.brand} • {phone.releaseYear}
-              </span>
+              <div className="flex items-center gap-1.5 font-bold uppercase tracking-widest text-xs">
+                <Link
+                  href={`/phones?brand=${encodeURIComponent(phone.brand)}`}
+                  className="text-slate-600 hover:text-emerald-600 hover:underline transition-colors"
+                >
+                  {phone.brand}
+                </Link>
+                <span className="text-slate-400">•</span>
+                <span className="text-slate-500">{phone.releaseYear}</span>
+              </div>
 
               <ReviewAvailability />
             </div>
@@ -297,6 +313,9 @@ export default function PhoneDetailClient({ initialPhone }: { initialPhone: Smar
 
       {/* 6-Month Price History Chart */}
       <PriceHistoryChart data={pricedPhone.priceHistory} currency={phone.currency} product={pricedPhone} />
+
+      {/* Related Models (Track C: Internal Linking) */}
+      <RelatedModels products={relatedProducts} currentBrand={phone.brand} />
 
       {/* Technical Specs Breakdown */}
       <div className="space-y-4">

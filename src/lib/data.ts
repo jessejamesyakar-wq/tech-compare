@@ -12,8 +12,9 @@ import { getStoredProducts } from './adminData';
 import { compareListingProducts, getCatalogDisplayPrices } from './catalogListing';
 import { projectPhoneSpecs } from './smartphoneSpecFields';
 import { isEligibleForLivePriceComparison, isHistoricalRetroModel, getProductReleaseYear } from './releaseYearFilter';
+import { isCanonicalExcluded } from './governance/canonicalExclusions';
 
-export { isEligibleForLivePriceComparison, isHistoricalRetroModel, getProductReleaseYear };
+export { isEligibleForLivePriceComparison, isHistoricalRetroModel, getProductReleaseYear, isCanonicalExcluded };
 
 const ALL_PRODUCTS: Product[] = [
   ...phoneProducts.flatMap((p) => (p.slug && p.slug !== p.id ? [p, { ...p, id: p.slug }] : [p])),
@@ -287,7 +288,7 @@ export async function getAllSmartphones(): Promise<Smartphone[]> {
 
 export async function getCatalogSmartphones(): Promise<Smartphone[]> {
   const all = await getAllSmartphones();
-  return all.map(toCatalogProduct);
+  return all.filter((p) => !isCanonicalExcluded(p.id) && !isCanonicalExcluded(p.slug)).map(toCatalogProduct);
 }
 
 export async function getAllTVs(): Promise<TVProduct[]> {
@@ -640,7 +641,7 @@ let cachedSearchIndex: SearchIndexEntry[] | null = null;
 let lastProductsRef: Product[] | null = null;
 
 function getSearchIndex(): SearchIndexEntry[] {
-  const currentProducts = getStoredProducts();
+  const currentProducts = getStoredProducts().filter((p) => !isCanonicalExcluded(p.id) && !isCanonicalExcluded(p.slug));
   if (cachedSearchIndex && lastProductsRef === currentProducts) {
     return cachedSearchIndex;
   }
@@ -927,3 +928,75 @@ export async function getHistoricalRetroProducts(): Promise<Product[]> {
   const all = await getAllProducts();
   return all.filter(isHistoricalRetroModel);
 }
+
+/**
+ * Returns related products from the same brand or category for SEO internal linking.
+ */
+export async function getRelatedProducts(product: Product, limit: number = 4): Promise<Product[]> {
+  if (!product) return [];
+  const categoryProducts = await (async () => {
+    switch (product.category) {
+      case 'smartphones':
+        return await getAllSmartphones();
+      case 'tvs':
+        return await getAllTVs();
+      case 'laptops':
+        return await getAllLaptops();
+      case 'appliances':
+        return await getAllAppliances();
+      case 'tablets':
+        return await getAllTablets();
+      case 'smartwatches':
+        return await getAllSmartwatches();
+      case 'headphones':
+        return await getAllHeadphones();
+      case 'consoles':
+        return await getAllConsoles();
+      case 'monitors':
+        return await getAllMonitors();
+      default:
+        return await getAllProducts();
+    }
+  })();
+
+  const currentId = product.id;
+  const currentSlug = product.slug;
+
+  // Filter out identical current product and deduplicate by slug/id
+  const seenSlugs = new Set<string>();
+  if (currentSlug) seenSlugs.add(currentSlug);
+  if (currentId) seenSlugs.add(currentId);
+
+  // 1. Same brand models
+  const sameBrand: Product[] = [];
+  for (const p of categoryProducts) {
+    const key = p.slug || p.id;
+    if (seenSlugs.has(key) || seenSlugs.has(p.id)) continue;
+    if (isCanonicalExcluded(p.id) || isCanonicalExcluded(p.slug)) continue;
+    if (p.brand && product.brand && p.brand.toLowerCase() === product.brand.toLowerCase()) {
+      seenSlugs.add(key);
+      seenSlugs.add(p.id);
+      sameBrand.push(p);
+      if (sameBrand.length >= limit) break;
+    }
+  }
+
+  if (sameBrand.length >= limit) {
+    return sameBrand.slice(0, limit);
+  }
+
+  // 2. Same category fallback models
+  const fallback: Product[] = [];
+  for (const p of categoryProducts) {
+    const key = p.slug || p.id;
+    if (seenSlugs.has(key) || seenSlugs.has(p.id)) continue;
+    if (isCanonicalExcluded(p.id) || isCanonicalExcluded(p.slug)) continue;
+    seenSlugs.add(key);
+    seenSlugs.add(p.id);
+    fallback.push(p);
+    if (sameBrand.length + fallback.length >= limit) break;
+  }
+
+  return [...sameBrand, ...fallback].slice(0, limit);
+}
+

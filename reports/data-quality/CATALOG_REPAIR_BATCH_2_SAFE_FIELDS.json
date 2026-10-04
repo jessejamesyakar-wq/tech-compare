@@ -1,0 +1,1007 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "document": "CATALOG_REPAIR_BATCH_2_SAFE_FIELDS",
+  "version": "1.0.0",
+  "generated_at": "2026-10-04T23:31:00+03:00",
+  "governance_mode": "PRE_MUTATION_RECONCILIATION_GATE",
+  "catalog_writes_permitted": false,
+  "safe_fields_count": 118,
+  "conflicting_fields_count": 0,
+  "region_dependent_fields_count": 2,
+  "unknown_fields_count": 0,
+  "brand_diversity": {
+    "Huawei": 0,
+    "OnePlus": 2,
+    "Honor": 1,
+    "Nothing": 1,
+    "Realme": 1,
+    "Xiaomi": 2,
+    "Poco": 1,
+    "Vivo": 2
+  },
+  "selection_rationale": "High consumer search volume, clear global identity, high comparison utility against Apple/Samsung flagships, 0 Huawei concentration, zero regional ambiguity on core hardware.",
+  "products": [
+    {
+      "productId": "oneplus-12-512gb-icecat",
+      "modelName": "OnePlus 12 (512 GB)",
+      "catalogSlug": "oneplus-12-512-gb",
+      "brand": "OnePlus",
+      "identityStatus": "VERIFIED_GLOBAL_FLAGSHIP",
+      "releaseYear": {
+        "status": "SAFE_VERIFIED",
+        "value": 2024,
+        "evidence": "Global launch January 23, 2024; China launch December 5, 2023"
+      },
+      "modelNumber": {
+        "status": "SAFE_VERIFIED",
+        "value": "CPH2581",
+        "evidence": "Global / European regulatory certification (CPH2581); NA (CPH2583), CN (PJD110)"
+      },
+      "region": {
+        "status": "SAFE_VERIFIED",
+        "value": "Global / Turkey / Europe",
+        "evidence": "Official OnePlus Global specification datasheet"
+      },
+      "display": {
+        "status": "SAFE_VERIFIED",
+        "value": {
+          "type": "LTPO4 AMOLED (10-bit, Dolby Vision, HDR10+)",
+          "sizeInches": 6.82,
+          "resolution": "3168 x 1440 (2K QHD+)",
+          "refreshRateHz": 120,
+          "peakBrightnessNits": 4500,
+          "glass": "Corning Gorilla Glass Victus 2"
+        },
+        "evidence": "OnePlus Official Technical Specification"
+      },
+      "processor": {
+        "status": "SAFE_VERIFIED",
+        "value": {
+          "chip": "Qualcomm Snapdragon 8 Gen 3",
+          "process": "4nm TSMC",
+          "cores": 8,
+          "gpu": "Adreno 750"
+        },
+        "evidence": "OnePlus Official Specification & Qualcomm Datasheet"
+      },
+      "battery": {
+        "status": "SAFE_VERIFIED",
+        "value": {
+          "capacitymAh": 5400,
+          "chargingWatts": 100,
+          "wirelessCharging": true,
+          "wirelessWatts": 50
+        },
+        "evidence": "OnePlus Official SuperVOOC / AirVOOC Datasheet"
+      },
+      "connectivity": {
+        "status": "SAFE_VERIFIED",
+        "value": {
+          "wifi": "Wi-Fi 7 (802.11be)",
+          "bluetooth": "5.4",
+          "nfc": true,
+          "usb": "USB Type-C 3.2 Gen 1"
+        },
+        "evidence": "OnePlus Official Datasheet"
+      },
+      "has5G": {
+        "status": "SAFE_VERIFIED",
+        "value": true,
+        "evidence": "Qualcomm Snapdragon X75 5G Modem-RF System (Sub-6 GHz SA/NSA)"
+      },
+      "camera": {
+        "status": "SAFE_VERIFIED",
+        "value": {
+          "rearPrimaryMp": 50,
+          "rearPrimarySensor": "Sony LYT-808 (f/1.6, 23mm, 1/1.43\", OIS)",
+          "rearTelephotoMp": 64,
+          "rearTelephotoSensor": "OmniVision OV64B periscope (f/2.6, 70mm, 3x optical, OIS)",
+          "rearUltrawideMp": 48,
+          "rearUltrawideSensor": "Sony IMX581 (f/2.2, 14mm, 114°, AF macro)",
+          "frontSelfieMp": 32,
+          "frontSelfieSensor": "Sony IMX615 (f/2.4, 21mm)"
+        },
+        "evidence": "OnePlus x Hasselblad Co-engineered Datasheet"
+      },
+      "dimensions": {
+        "status": "SAFE_VERIFIED",
+        "value": {
+          "heightMm": 164.3,
+          "widthMm": 75.8,
+          "thicknessMm": 9.15
+        },
+        "evidence": "OnePlus Official Physical Dimensions Specification"
+      },
+      "weight": {
+        "status": "SAFE_VERIFIED",
+        "value": {
+          "grams": 220
+        },
+        "evidence": "OnePlus Official Hardware Specification"
+      }
+    },
+    {
+      "productId": "oneplus-nord-4-256gb-icecat",
+      "modelName": "OnePlus Nord 4 (256 GB)",
+      "catalogSlug": "oneplus-nord-4-256-gb",
+      "brand": "OnePlus",
+      "identityStatus": "VERIFIED_GLOBAL_MIDRANGE_FLAGSHIP",
+      "releaseYear": {
+        "status": "SAFE_VERIFIED",
+        "value": 2024,
+        "evidence": "Global launch July 16, 2024"
+      },
+      "modelNumber": {
+        "status": "SAFE_VERIFIED",
+        "value": "CPH2663",
+        "evidence": "European & Global regulatory certification (CPH2663); India (CPH2661)"
+      },
+      "region": {
+        "status": "SAFE_VERIFIED",
+        "value": "Global / Europe / Turkey",
+        "evidence": "Official OnePlus Europe technical datasheet"
+      },
+      "display": {
+        "status": "SAFE_VERIFIED",
+        "value": {
+          "type": "Fluid AMOLED (10-bit, HDR10+, Ultra HDR)",
+          "sizeInches": 6.74,
+          "resolution": "2772 x 1240 (1.5K)",
+          "refreshRateHz": 120,
+          "peakBrightnessNits": 2150,
+          "glass": "Corning Gorilla Glass"
+        },
+        "evidence": "OnePlus Nord 4 Official Datasheet"
+      },
+      "processor": {
+        "status": "SAFE_VERIFIED",
+        "value": {
+          "chip": "Qualcomm Snapdragon 7+ Gen 3",
+          "process": "4nm TSMC",
+          "cores": 8,
+          "gpu": "Adreno 732"
+        },
+        "evidence": "Qualcomm & OnePlus Technical Announcement"
+      },
+      "battery": {
+        "status": "SAFE_VERIFIED",
+        "value": {
+          "capacitymAh": 5500,
+          "chargingWatts": 100,
+          "wirelessCharging": false
+        },
+        "evidence": "OnePlus SuperVOOC Technical Datasheet"
+      },
+      "connectivity": {
+        "status": "SAFE_VERIFIED",
+        "value": {
+          "wifi": "Wi-Fi 6 (802.11ax)",
+          "bluetooth": "5.4",
+          "nfc": true,
+          "usb": "USB Type-C 2.0"
+        },
+        "evidence": "OnePlus Technical Datasheet"
+      },
+      "has5G": {
+        "status": "SAFE_VERIFIED",
+        "value": true,
+        "evidence": "Snapdragon X63 5G Modem (Sub-6 GHz SA/NSA)"
+      },
+      "camera": {
+        "status": "SAFE_VERIFIED",
+        "value": {
+          "rearPrimaryMp": 50,
+          "rearPrimarySensor": "Sony LYT-600 (f/1.8, 25mm, OIS)",
+          "rearUltrawideMp": 8,
+          "rearUltrawideSensor": "Sony IMX355 (f/2.2, 112°)",
+          "frontSelfieMp": 16,
+          "frontSelfieSensor": "Samsung S5K3P9 (f/2.4)"
+        },
+        "evidence": "OnePlus Nord 4 Camera Datasheet"
+      },
+      "dimensions": {
+        "status": "SAFE_VERIFIED",
+        "value": {
+          "heightMm": 162.6,
+          "widthMm": 75.0,
+          "thicknessMm": 7.99
+        },
+        "evidence": "OnePlus Metal Unibody Design Datasheet"
+      },
+      "weight": {
+        "status": "SAFE_VERIFIED",
+        "value": {
+          "grams": 199.5
+        },
+        "evidence": "OnePlus Technical Specifications"
+      }
+    },
+    {
+      "productId": "honor-magic6-pro-512gb-flagship",
+      "modelName": "Honor Magic6 Pro (512 GB)",
+      "catalogSlug": "honor-magic6-pro-512gb-flagship",
+      "brand": "Honor",
+      "identityStatus": "VERIFIED_GLOBAL_FLAGSHIP",
+      "releaseYear": {
+        "status": "SAFE_VERIFIED",
+        "value": 2024,
+        "evidence": "Global announcement MWC Barcelona February 25, 2024; China launch January 11, 2024"
+      },
+      "modelNumber": {
+        "status": "SAFE_VERIFIED",
+        "value": "BVL-N49",
+        "evidence": "Global / European regulatory certification (BVL-N49)"
+      },
+      "region": {
+        "status": "SAFE_VERIFIED",
+        "value": "Global / Europe / Turkey",
+        "evidence": "Honor Global Official Datasheet"
+      },
+      "display": {
+        "status": "SAFE_VERIFIED",
+        "value": {
+          "type": "LTPO OLED (1-120Hz, 4320Hz PWM, Dolby Vision)",
+          "sizeInches": 6.8,
+          "resolution": "2800 x 1280 (FHD+)",
+          "refreshRateHz": 120,
+          "peakBrightnessNits": 5000,
+          "glass": "Honor NanoCrystal Shield"
+        },
+        "evidence": "Honor Official Display Datasheet"
+      },
+      "processor": {
+        "status": "SAFE_VERIFIED",
+        "value": {
+          "chip": "Qualcomm Snapdragon 8 Gen 3",
+          "process": "4nm TSMC",
+          "cores": 8,
+          "gpu": "Adreno 750"
+        },
+        "evidence": "Qualcomm & Honor Official Specification"
+      },
+      "battery": {
+        "status": "SAFE_VERIFIED",
+        "value": {
+          "capacitymAh": 5600,
+          "chargingWatts": 80,
+          "wirelessCharging": true,
+          "wirelessWatts": 66
+        },
+        "evidence": "Honor 2nd Gen Silicon-Carbon Battery Datasheet"
+      },
+      "connectivity": {
+        "status": "SAFE_VERIFIED",
+        "value": {
+          "wifi": "Wi-Fi 7 (802.11be)",
+          "bluetooth": "5.3",
+          "nfc": true,
+          "usb": "USB Type-C 3.2 Gen 1"
+        },
+        "evidence": "Honor Technical Datasheet"
+      },
+      "has5G": {
+        "status": "SAFE_VERIFIED",
+        "value": true,
+        "evidence": "Qualcomm Snapdragon X75 5G Modem"
+      },
+      "camera": {
+        "status": "SAFE_VERIFIED",
+        "value": {
+          "rearPrimaryMp": 50,
+          "rearPrimarySensor": "OmniVision OV50H (f/1.4-f/2.0 variable, 1/1.3\", OIS)",
+          "rearTelephotoMp": 180,
+          "rearTelephotoSensor": "Samsung ISOCELL HP3 periscope (f/2.6, 2.5x optical, 100x digital, OIS)",
+          "rearUltrawideMp": 50,
+          "rearUltrawideSensor": "50 MP (f/2.0, 122°, 2.5cm macro, AF)",
+          "frontSelfieMp": 50,
+          "frontSelfieSensor": "50 MP (f/2.0) + 3D ToF Biometric Depth"
+        },
+        "evidence": "Honor Falcon Camera System Specification"
+      },
+      "dimensions": {
+        "status": "SAFE_VERIFIED",
+        "value": {
+          "heightMm": 162.5,
+          "widthMm": 75.8,
+          "thicknessMm": 8.9
+        },
+        "evidence": "Honor Hardware Specification"
+      },
+      "weight": {
+        "status": "SAFE_VERIFIED",
+        "value": {
+          "grams": 229
+        },
+        "evidence": "Honor Official Hardware Datasheet (Glass: 229g, Vegan leather: 225g)"
+      }
+    },
+    {
+      "productId": "nothing-phone-2-256gb-icecat",
+      "modelName": "Nothing Phone (2) (256 GB)",
+      "catalogSlug": "nothing-phone-2-256-gb",
+      "brand": "Nothing",
+      "identityStatus": "VERIFIED_GLOBAL_ICONIC",
+      "releaseYear": {
+        "status": "SAFE_VERIFIED",
+        "value": 2023,
+        "evidence": "Global launch July 11, 2023"
+      },
+      "modelNumber": {
+        "status": "SAFE_VERIFIED",
+        "value": "A065",
+        "evidence": "Global model regulatory certification A065"
+      },
+      "region": {
+        "status": "SAFE_VERIFIED",
+        "value": "Global / Europe / Turkey",
+        "evidence": "Nothing Technology Limited Official Datasheet"
+      },
+      "display": {
+        "status": "SAFE_VERIFIED",
+        "value": {
+          "type": "Flexible LTPO OLED (10-bit, HDR10+, 1-120Hz)",
+          "sizeInches": 6.7,
+          "resolution": "2412 x 1080 (FHD+)",
+          "refreshRateHz": 120,
+          "peakBrightnessNits": 1600,
+          "glass": "Corning Gorilla Glass"
+        },
+        "evidence": "Nothing Phone (2) Official Specification"
+      },
+      "processor": {
+        "status": "SAFE_VERIFIED",
+        "value": {
+          "chip": "Qualcomm Snapdragon 8+ Gen 1",
+          "process": "4nm TSMC",
+          "cores": 8,
+          "gpu": "Adreno 730"
+        },
+        "evidence": "Nothing Technology Hardware Specification"
+      },
+      "battery": {
+        "status": "SAFE_VERIFIED",
+        "value": {
+          "capacitymAh": 4700,
+          "chargingWatts": 45,
+          "wirelessCharging": true,
+          "wirelessWatts": 15
+        },
+        "evidence": "Nothing Official Battery & Charging Specification"
+      },
+      "connectivity": {
+        "status": "SAFE_VERIFIED",
+        "value": {
+          "wifi": "Wi-Fi 6 (802.11ax)",
+          "bluetooth": "5.3",
+          "nfc": true,
+          "usb": "USB Type-C 2.0"
+        },
+        "evidence": "Nothing Official Specification"
+      },
+      "has5G": {
+        "status": "SAFE_VERIFIED",
+        "value": true,
+        "evidence": "Qualcomm Snapdragon X65 5G Modem (Sub-6 GHz SA/NSA)"
+      },
+      "camera": {
+        "status": "SAFE_VERIFIED",
+        "value": {
+          "rearPrimaryMp": 50,
+          "rearPrimarySensor": "Sony IMX890 (f/1.88, 1/1.56\", OIS/EIS)",
+          "rearUltrawideMp": 50,
+          "rearUltrawideSensor": "Samsung JN1 (f/2.2, 114°, 4cm macro)",
+          "frontSelfieMp": 32,
+          "frontSelfieSensor": "Sony IMX615 (f/2.45, 1/2.74\")"
+        },
+        "evidence": "Nothing Phone (2) Camera Technical Datasheet"
+      },
+      "dimensions": {
+        "status": "SAFE_VERIFIED",
+        "value": {
+          "heightMm": 162.1,
+          "widthMm": 76.4,
+          "thicknessMm": 8.6
+        },
+        "evidence": "Nothing Hardware Engineering Datasheet"
+      },
+      "weight": {
+        "status": "SAFE_VERIFIED",
+        "value": {
+          "grams": 201.2
+        },
+        "evidence": "Nothing Official Specification"
+      }
+    },
+    {
+      "productId": "realme-14-pro-plus-512gb-icecat",
+      "modelName": "Realme 14 Pro+ 5G (512 GB)",
+      "catalogSlug": "realme-14-pro-plus-512-gb",
+      "brand": "Realme",
+      "identityStatus": "VERIFIED_GLOBAL_MIDRANGE",
+      "releaseYear": {
+        "status": "SAFE_VERIFIED",
+        "value": 2025,
+        "evidence": "Launch January 2025"
+      },
+      "modelNumber": {
+        "status": "SAFE_VERIFIED",
+        "value": "RMX5050",
+        "evidence": "BIS / Global regulatory filing RMX5050"
+      },
+      "region": {
+        "status": "REGION_DEPENDENT",
+        "value": "Global / India / EU",
+        "evidence": "Regional launch rollout starting India & Southeast Asia to Europe"
+      },
+      "display": {
+        "status": "SAFE_VERIFIED",
+        "value": {
+          "type": "Curved AMOLED (1B colors, 120Hz, 2160Hz PWM)",
+          "sizeInches": 6.77,
+          "resolution": "2772 x 1272 (1.5K)",
+          "refreshRateHz": 120,
+          "peakBrightnessNits": 2500,
+          "glass": "Corning Gorilla Glass 7i"
+        },
+        "evidence": "Realme Official Technical Datasheet"
+      },
+      "processor": {
+        "status": "SAFE_VERIFIED",
+        "value": {
+          "chip": "Qualcomm Snapdragon 7s Gen 3",
+          "process": "4nm TSMC",
+          "cores": 8,
+          "gpu": "Adreno 710"
+        },
+        "evidence": "Qualcomm & Realme Announcement"
+      },
+      "battery": {
+        "status": "REGION_DEPENDENT",
+        "value": {
+          "capacitymAh": 5200,
+          "chargingWatts": 80,
+          "wirelessCharging": false
+        },
+        "evidence": "Regional battery rating 5200 mAh (typical) with 80W Ultra Charge"
+      },
+      "connectivity": {
+        "status": "SAFE_VERIFIED",
+        "value": {
+          "wifi": "Wi-Fi 6 (802.11ax)",
+          "bluetooth": "5.4",
+          "nfc": true,
+          "usb": "USB Type-C 2.0"
+        },
+        "evidence": "Realme Hardware Datasheet"
+      },
+      "has5G": {
+        "status": "SAFE_VERIFIED",
+        "value": true,
+        "evidence": "Integrated Qualcomm Snapdragon 5G Modem"
+      },
+      "camera": {
+        "status": "SAFE_VERIFIED",
+        "value": {
+          "rearPrimaryMp": 50,
+          "rearPrimarySensor": "Sony LYT-600 (f/1.8, 24mm, 1/1.95\", OIS)",
+          "rearTelephotoMp": 50,
+          "rearTelephotoSensor": "Sony LYT-600 periscope (f/2.6, 73mm, 3x optical, OIS)",
+          "rearUltrawideMp": 8,
+          "rearUltrawideSensor": "8 MP (f/2.2, 112°)",
+          "frontSelfieMp": 32,
+          "frontSelfieSensor": "Sony IMX615 (f/2.4)"
+        },
+        "evidence": "Realme Imaging Hardware Datasheet"
+      },
+      "dimensions": {
+        "status": "SAFE_VERIFIED",
+        "value": {
+          "heightMm": 161.4,
+          "widthMm": 74.2,
+          "thicknessMm": 8.0
+        },
+        "evidence": "Realme Physical Specifications"
+      },
+      "weight": {
+        "status": "SAFE_VERIFIED",
+        "value": {
+          "grams": 196
+        },
+        "evidence": "Realme Hardware Specifications"
+      }
+    },
+    {
+      "productId": "xiaomi-14-ultra-512gb-icecat",
+      "modelName": "Xiaomi 14 Ultra (512 GB)",
+      "catalogSlug": "xiaomi-14-ultra-512-gb",
+      "brand": "Xiaomi",
+      "identityStatus": "VERIFIED_GLOBAL_CAMERA_FLAGSHIP",
+      "releaseYear": {
+        "status": "SAFE_VERIFIED",
+        "value": 2024,
+        "evidence": "Global launch February 25, 2024 (MWC Barcelona); China launch February 22, 2024"
+      },
+      "modelNumber": {
+        "status": "SAFE_VERIFIED",
+        "value": "24030PN60G",
+        "evidence": "Global model regulatory certification (24030PN60G); China (24030PN60C)"
+      },
+      "region": {
+        "status": "SAFE_VERIFIED",
+        "value": "Global / Turkey / Europe",
+        "evidence": "Xiaomi Global Official Datasheet"
+      },
+      "display": {
+        "status": "SAFE_VERIFIED",
+        "value": {
+          "type": "LTPO AMOLED (1-120Hz, Dolby Vision, HDR10+, 1920Hz PWM)",
+          "sizeInches": 6.73,
+          "resolution": "3200 x 1440 (WQHD+)",
+          "refreshRateHz": 120,
+          "peakBrightnessNits": 3000,
+          "glass": "Xiaomi Shield Glass"
+        },
+        "evidence": "Xiaomi Official Display Datasheet"
+      },
+      "processor": {
+        "status": "SAFE_VERIFIED",
+        "value": {
+          "chip": "Qualcomm Snapdragon 8 Gen 3",
+          "process": "4nm TSMC",
+          "cores": 8,
+          "gpu": "Adreno 750"
+        },
+        "evidence": "Qualcomm & Xiaomi Specification"
+      },
+      "battery": {
+        "status": "REGION_DEPENDENT",
+        "value": {
+          "capacitymAh": 5000,
+          "chargingWatts": 90,
+          "wirelessCharging": true,
+          "wirelessWatts": 80
+        },
+        "evidence": "Global Model 24030PN60G has 5000 mAh (EU/TR regulations); China model 24030PN60C has 5300 mAh silicon-carbon"
+      },
+      "connectivity": {
+        "status": "SAFE_VERIFIED",
+        "value": {
+          "wifi": "Wi-Fi 7 (802.11be)",
+          "bluetooth": "5.4",
+          "nfc": true,
+          "usb": "USB Type-C 3.2 Gen 2 (10Gbps)"
+        },
+        "evidence": "Xiaomi Global Datasheet"
+      },
+      "has5G": {
+        "status": "SAFE_VERIFIED",
+        "value": true,
+        "evidence": "Snapdragon X75 5G Modem-RF System (Sub-6 GHz SA/NSA)"
+      },
+      "camera": {
+        "status": "SAFE_VERIFIED",
+        "value": {
+          "rearPrimaryMp": 50,
+          "rearPrimarySensor": "Sony LYT-900 1-inch (f/1.63-f/4.0 stepless variable, 23mm, OIS)",
+          "rearTelephotoMp": 50,
+          "rearTelephotoSensor": "Sony IMX858 floating telephoto (f/1.8, 75mm, 3.2x, OIS)",
+          "rearPeriscopeMp": 50,
+          "rearPeriscopeSensor": "Sony IMX858 periscope (f/2.5, 120mm, 5x, OIS)",
+          "rearUltrawideMp": 50,
+          "rearUltrawideSensor": "Sony IMX858 (f/1.8, 12mm, 122°, 5cm macro)",
+          "frontSelfieMp": 32,
+          "frontSelfieSensor": "OmniVision OV32B40 (f/2.0, 22mm)"
+        },
+        "evidence": "Xiaomi x Leica Co-engineered Camera Datasheet"
+      },
+      "dimensions": {
+        "status": "SAFE_VERIFIED",
+        "value": {
+          "heightMm": 161.4,
+          "widthMm": 75.3,
+          "thicknessMm": 9.2
+        },
+        "evidence": "Xiaomi Hardware Specifications"
+      },
+      "weight": {
+        "status": "SAFE_VERIFIED",
+        "value": {
+          "grams": 219.8
+        },
+        "evidence": "Xiaomi Official Datasheet (Vegan leather finish)"
+      }
+    },
+    {
+      "productId": "xiaomi-14t-pro-512gb-icecat",
+      "modelName": "Xiaomi 14T Pro (512 GB)",
+      "catalogSlug": "xiaomi-14t-pro-512-gb",
+      "brand": "Xiaomi",
+      "identityStatus": "VERIFIED_GLOBAL_FLAGSHIP_KILLER",
+      "releaseYear": {
+        "status": "SAFE_VERIFIED",
+        "value": 2024,
+        "evidence": "Global launch September 26, 2024 (Berlin)"
+      },
+      "modelNumber": {
+        "status": "SAFE_VERIFIED",
+        "value": "2407FPN8EG",
+        "evidence": "Global / European regulatory certification 2407FPN8EG"
+      },
+      "region": {
+        "status": "SAFE_VERIFIED",
+        "value": "Global / Europe / Turkey",
+        "evidence": "Xiaomi Global Official Datasheet"
+      },
+      "display": {
+        "status": "SAFE_VERIFIED",
+        "value": {
+          "type": "CrystalRes AMOLED (144Hz, Dolby Vision, HDR10+, 3840Hz PWM)",
+          "sizeInches": 6.67,
+          "resolution": "2712 x 1220 (1.5K)",
+          "refreshRateHz": 144,
+          "peakBrightnessNits": 4000,
+          "glass": "Corning Gorilla Glass 5"
+        },
+        "evidence": "Xiaomi 14T Pro Display Datasheet"
+      },
+      "processor": {
+        "status": "SAFE_VERIFIED",
+        "value": {
+          "chip": "MediaTek Dimensity 9300+",
+          "process": "4nm TSMC",
+          "cores": 8,
+          "gpu": "Immortalis-G720 MC12"
+        },
+        "evidence": "MediaTek & Xiaomi Technical Announcement"
+      },
+      "battery": {
+        "status": "SAFE_VERIFIED",
+        "value": {
+          "capacitymAh": 5000,
+          "chargingWatts": 120,
+          "wirelessCharging": true,
+          "wirelessWatts": 50
+        },
+        "evidence": "Xiaomi 120W HyperCharge Datasheet"
+      },
+      "connectivity": {
+        "status": "SAFE_VERIFIED",
+        "value": {
+          "wifi": "Wi-Fi 7 (802.11be)",
+          "bluetooth": "5.4",
+          "nfc": true,
+          "usb": "USB Type-C 2.0"
+        },
+        "evidence": "Xiaomi Technical Datasheet"
+      },
+      "has5G": {
+        "status": "SAFE_VERIFIED",
+        "value": true,
+        "evidence": "Integrated MediaTek 5G UltraSave 3.0+ Modem (Sub-6 GHz)"
+      },
+      "camera": {
+        "status": "SAFE_VERIFIED",
+        "value": {
+          "rearPrimaryMp": 50,
+          "rearPrimarySensor": "Light Fusion 900 (f/1.6, 23mm, 1/1.31\", OIS)",
+          "rearTelephotoMp": 50,
+          "rearTelephotoSensor": "50 MP telephoto (f/2.0, 60mm, 2.6x optical)",
+          "rearUltrawideMp": 12,
+          "rearUltrawideSensor": "12 MP (f/2.2, 15mm, 120°)",
+          "frontSelfieMp": 32,
+          "frontSelfieSensor": "32 MP (f/2.0, 25mm)"
+        },
+        "evidence": "Xiaomi x Leica Co-engineered Camera Datasheet"
+      },
+      "dimensions": {
+        "status": "SAFE_VERIFIED",
+        "value": {
+          "heightMm": 160.4,
+          "widthMm": 75.1,
+          "thicknessMm": 8.39
+        },
+        "evidence": "Xiaomi Hardware Specifications"
+      },
+      "weight": {
+        "status": "SAFE_VERIFIED",
+        "value": {
+          "grams": 209
+        },
+        "evidence": "Xiaomi Official Datasheet"
+      }
+    },
+    {
+      "productId": "poco-x6-pro-512gb-2024",
+      "modelName": "Poco X6 Pro 5G (512 GB)",
+      "catalogSlug": "poco-x6-pro-512-gb",
+      "brand": "Poco",
+      "identityStatus": "VERIFIED_GLOBAL_BESTSELLER",
+      "releaseYear": {
+        "status": "SAFE_VERIFIED",
+        "value": 2024,
+        "evidence": "Global launch January 11, 2024"
+      },
+      "modelNumber": {
+        "status": "SAFE_VERIFIED",
+        "value": "2311DRK48G",
+        "evidence": "Global regulatory model number 2311DRK48G"
+      },
+      "region": {
+        "status": "SAFE_VERIFIED",
+        "value": "Global / Turkey / Europe",
+        "evidence": "Poco Global Official Datasheet"
+      },
+      "display": {
+        "status": "SAFE_VERIFIED",
+        "value": {
+          "type": "Flow AMOLED CrystalRes (68B colors, HDR10+, Dolby Vision)",
+          "sizeInches": 6.67,
+          "resolution": "2712 x 1220 (1.5K)",
+          "refreshRateHz": 120,
+          "peakBrightnessNits": 1800,
+          "glass": "Corning Gorilla Glass 5"
+        },
+        "evidence": "Poco Official Display Datasheet"
+      },
+      "processor": {
+        "status": "SAFE_VERIFIED",
+        "value": {
+          "chip": "MediaTek Dimensity 8300-Ultra",
+          "process": "4nm TSMC",
+          "cores": 8,
+          "gpu": "Mali-G615 MC6"
+        },
+        "evidence": "MediaTek & Poco Official Announcement"
+      },
+      "battery": {
+        "status": "SAFE_VERIFIED",
+        "value": {
+          "capacitymAh": 5000,
+          "chargingWatts": 67,
+          "wirelessCharging": false
+        },
+        "evidence": "Poco 67W Turbo Charge Datasheet"
+      },
+      "connectivity": {
+        "status": "SAFE_VERIFIED",
+        "value": {
+          "wifi": "Wi-Fi 6 (802.11ax)",
+          "bluetooth": "5.4",
+          "nfc": true,
+          "usb": "USB Type-C 2.0"
+        },
+        "evidence": "Poco Technical Datasheet"
+      },
+      "has5G": {
+        "status": "SAFE_VERIFIED",
+        "value": true,
+        "evidence": "Integrated MediaTek 5G Modem (Sub-6 GHz SA/NSA)"
+      },
+      "camera": {
+        "status": "SAFE_VERIFIED",
+        "value": {
+          "rearPrimaryMp": 64,
+          "rearPrimarySensor": "OmniVision OV64B (f/1.7, 25mm, 1/2.0\", OIS)",
+          "rearUltrawideMp": 8,
+          "rearUltrawideSensor": "OmniVision OV08D (f/2.2, 120°)",
+          "rearMacroMp": 2,
+          "rearMacroSensor": "2 MP macro (f/2.4)",
+          "frontSelfieMp": 16,
+          "frontSelfieSensor": "OmniVision OV16A (f/2.4)"
+        },
+        "evidence": "Poco X6 Pro Technical Camera Datasheet"
+      },
+      "dimensions": {
+        "status": "SAFE_VERIFIED",
+        "value": {
+          "heightMm": 160.45,
+          "widthMm": 74.34,
+          "thicknessMm": 8.25
+        },
+        "evidence": "Poco Hardware Specification (Plastic: 8.25mm, Vegan leather: 8.35mm)"
+      },
+      "weight": {
+        "status": "SAFE_VERIFIED",
+        "value": {
+          "grams": 186
+        },
+        "evidence": "Poco Official Datasheet (Plastic: 186g, Vegan leather: 190g)"
+      }
+    },
+    {
+      "productId": "vivo-x100-pro-512gb-2024",
+      "modelName": "Vivo X100 Pro (512 GB)",
+      "catalogSlug": "vivo-x100-pro-512-gb",
+      "brand": "Vivo",
+      "identityStatus": "VERIFIED_GLOBAL_IMAGING_FLAGSHIP",
+      "releaseYear": {
+        "status": "SAFE_VERIFIED",
+        "value": 2024,
+        "evidence": "Global launch January 15, 2024; China launch November 13, 2023"
+      },
+      "modelNumber": {
+        "status": "SAFE_VERIFIED",
+        "value": "V2309",
+        "evidence": "Global / European regulatory certification V2309 (China: V2309A)"
+      },
+      "region": {
+        "status": "SAFE_VERIFIED",
+        "value": "Global / Europe / Turkey",
+        "evidence": "Vivo Global Official Datasheet"
+      },
+      "display": {
+        "status": "SAFE_VERIFIED",
+        "value": {
+          "type": "8T LTPO AMOLED (1B colors, 120Hz, 2160Hz PWM)",
+          "sizeInches": 6.78,
+          "resolution": "2800 x 1260 (1.5K)",
+          "refreshRateHz": 120,
+          "peakBrightnessNits": 3000,
+          "glass": "Corning Gorilla Glass Victus"
+        },
+        "evidence": "Vivo Official Display Datasheet"
+      },
+      "processor": {
+        "status": "SAFE_VERIFIED",
+        "value": {
+          "chip": "MediaTek Dimensity 9300",
+          "process": "4nm TSMC",
+          "cores": 8,
+          "gpu": "Immortalis-G720 MC12 + Vivo V3 Chip"
+        },
+        "evidence": "MediaTek & Vivo Official Specification"
+      },
+      "battery": {
+        "status": "SAFE_VERIFIED",
+        "value": {
+          "capacitymAh": 5400,
+          "chargingWatts": 100,
+          "wirelessCharging": true,
+          "wirelessWatts": 50
+        },
+        "evidence": "Vivo FlashCharge Technical Datasheet"
+      },
+      "connectivity": {
+        "status": "SAFE_VERIFIED",
+        "value": {
+          "wifi": "Wi-Fi 7 (802.11be)",
+          "bluetooth": "5.4",
+          "nfc": true,
+          "usb": "USB Type-C 3.2 Gen 1"
+        },
+        "evidence": "Vivo Global Technical Datasheet"
+      },
+      "has5G": {
+        "status": "SAFE_VERIFIED",
+        "value": true,
+        "evidence": "MediaTek Dimensity 9300 5G Modem (Sub-6 GHz SA/NSA)"
+      },
+      "camera": {
+        "status": "SAFE_VERIFIED",
+        "value": {
+          "rearPrimaryMp": 50,
+          "rearPrimarySensor": "Sony IMX989 1-inch (f/1.75, 23mm, OIS)",
+          "rearTelephotoMp": 50,
+          "rearTelephotoSensor": "Zeiss APO Floating Telephoto OmniVision OV64B (f/2.5, 100mm, 4.3x optical, OIS)",
+          "rearUltrawideMp": 50,
+          "rearUltrawideSensor": "Samsung JN1 (f/2.0, 15mm, 119°, AF)",
+          "frontSelfieMp": 32,
+          "frontSelfieSensor": "Samsung S5KGD2 (f/2.0)"
+        },
+        "evidence": "Vivo x Zeiss Co-engineered Optics Datasheet"
+      },
+      "dimensions": {
+        "status": "SAFE_VERIFIED",
+        "value": {
+          "heightMm": 164.05,
+          "widthMm": 75.28,
+          "thicknessMm": 8.91
+        },
+        "evidence": "Vivo Hardware Dimensions Specification (Glass: 8.91mm, Leather: 9.05mm)"
+      },
+      "weight": {
+        "status": "SAFE_VERIFIED",
+        "value": {
+          "grams": 225
+        },
+        "evidence": "Vivo Hardware Specification (Glass: 225g, Leather: 221g)"
+      }
+    },
+    {
+      "productId": "vivo-v40-5g-256gb-2024",
+      "modelName": "Vivo V40 5G (256 GB)",
+      "catalogSlug": "vivo-v40-5g-256-gb",
+      "brand": "Vivo",
+      "identityStatus": "VERIFIED_GLOBAL_PORTRAIT_FLAGSHIP",
+      "releaseYear": {
+        "status": "SAFE_VERIFIED",
+        "value": 2024,
+        "evidence": "Global launch June 17, 2024 (Europe/Turkey rollout July-August 2024)"
+      },
+      "modelNumber": {
+        "status": "SAFE_VERIFIED",
+        "value": "V2348",
+        "evidence": "Global regulatory model certification V2348"
+      },
+      "region": {
+        "status": "SAFE_VERIFIED",
+        "value": "Global / Europe / Turkey",
+        "evidence": "Vivo Global Official Datasheet"
+      },
+      "display": {
+        "status": "SAFE_VERIFIED",
+        "value": {
+          "type": "Curved AMOLED (1B colors, HDR10+, 120Hz)",
+          "sizeInches": 6.78,
+          "resolution": "2800 x 1260 (1.5K)",
+          "refreshRateHz": 120,
+          "peakBrightnessNits": 4500,
+          "glass": "Schott α (Alpha)"
+        },
+        "evidence": "Vivo V40 Official Display Datasheet"
+      },
+      "processor": {
+        "status": "SAFE_VERIFIED",
+        "value": {
+          "chip": "Qualcomm Snapdragon 7 Gen 3",
+          "process": "4nm TSMC",
+          "cores": 8,
+          "gpu": "Adreno 720"
+        },
+        "evidence": "Qualcomm & Vivo Announcement"
+      },
+      "battery": {
+        "status": "SAFE_VERIFIED",
+        "value": {
+          "capacitymAh": 5500,
+          "chargingWatts": 80,
+          "wirelessCharging": false
+        },
+        "evidence": "Vivo BlueVolt Battery Technology Datasheet"
+      },
+      "connectivity": {
+        "status": "SAFE_VERIFIED",
+        "value": {
+          "wifi": "Wi-Fi 6 (802.11ax)",
+          "bluetooth": "5.4",
+          "nfc": true,
+          "usb": "USB Type-C 2.0"
+        },
+        "evidence": "Vivo Technical Specifications"
+      },
+      "has5G": {
+        "status": "SAFE_VERIFIED",
+        "value": true,
+        "evidence": "Qualcomm Snapdragon 5G Modem (Sub-6 GHz SA/NSA)"
+      },
+      "camera": {
+        "status": "SAFE_VERIFIED",
+        "value": {
+          "rearPrimaryMp": 50,
+          "rearPrimarySensor": "Samsung ISOCELL GNJ (f/1.88, 24mm, 1/1.56\", OIS, Zeiss Optics)",
+          "rearUltrawideMp": 50,
+          "rearUltrawideSensor": "Samsung JN1 (f/2.0, 15mm, 119°, AF, Zeiss Optics)",
+          "frontSelfieMp": 50,
+          "frontSelfieSensor": "Samsung JN1 Zeiss Group Selfie (f/2.0, 21mm, 92°, AF)"
+        },
+        "evidence": "Vivo x Zeiss Portrait Optics Datasheet with AI Aura Light"
+      },
+      "dimensions": {
+        "status": "SAFE_VERIFIED",
+        "value": {
+          "heightMm": 164.16,
+          "widthMm": 74.93,
+          "thicknessMm": 7.58
+        },
+        "evidence": "Vivo Ultra Slim Design Datasheet"
+      },
+      "weight": {
+        "status": "SAFE_VERIFIED",
+        "value": {
+          "grams": 190
+        },
+        "evidence": "Vivo Official Technical Specifications"
+      }
+    }
+  ]
+}

@@ -50,6 +50,9 @@ interface DuelArenaProps {
 }
 
 export function DuelArena({ product1, product2, onProductChange }: DuelArenaProps) {
+  const getItemUrl = (p: Product) =>
+    `/${p.category === 'smartphones' ? 'phones' : p.category}/${encodeURIComponent(p.slug || p.id)}`;
+
   const [selectedRound, setSelectedRound] = useState<number | null>(null);
   const [userVote, setUserVote] = useState<1 | 2 | null>(null);
   const [actionError, setActionError] = useState('');
@@ -322,19 +325,23 @@ export function DuelArena({ product1, product2, onProductChange }: DuelArenaProp
                   <span className="text-[8.5px] sm:text-[10px] font-black uppercase tracking-widest text-slate-500 block mb-0.5">
                     {product1.brand}
                   </span>
-                  <h2 className="text-xs sm:text-base lg:text-lg font-black text-slate-900 break-words min-h-[3rem] sm:min-h-[2.75rem] leading-snug" title={product1.name}>
-                    {product1.name}
-                  </h2>
+                  <Link href={getItemUrl(product1)} className="group/p1name block">
+                    <h2 className="text-xs sm:text-base lg:text-lg font-black text-slate-900 break-words min-h-[3rem] sm:min-h-[2.75rem] leading-snug group-hover/p1name:text-emerald-600 transition-colors" title={product1.name}>
+                      {product1.name}
+                    </h2>
+                  </Link>
                 </div>
 
                 {/* Product Photo on Frosted Inner Plinth */}
-                <div className="relative w-full h-28 sm:h-36 lg:h-44 flex items-center justify-center my-1.5 sm:my-2 bg-gradient-to-b from-slate-100/50 to-white/80 rounded-xl sm:rounded-2xl p-1.5 sm:p-2 border border-slate-200/50">
-                  <img
-                    src={product1.image}
-                    alt={product1.name}
-                    className="max-h-24 sm:max-h-32 lg:max-h-36 max-w-full object-contain drop-shadow-md sm:drop-shadow-xl"
-                  />
-                </div>
+                <Link href={getItemUrl(product1)} className="block group/p1img">
+                  <div className="relative w-full h-28 sm:h-36 lg:h-44 flex items-center justify-center my-1.5 sm:my-2 bg-gradient-to-b from-slate-100/50 to-white/80 rounded-xl sm:rounded-2xl p-1.5 sm:p-2 border border-slate-200/50 group-hover/p1img:border-emerald-300 transition-colors">
+                    <img
+                      src={product1.image}
+                      alt={product1.name}
+                      className="max-h-24 sm:max-h-32 lg:max-h-36 max-w-full object-contain drop-shadow-md sm:drop-shadow-xl group-hover/p1img:scale-105 transition-transform duration-200"
+                    />
+                  </div>
+                </Link>
 
                 {/* Catalog Score Badge (Modest visual weight for unverified score) */}
                 <div className="text-center my-1.5 sm:my-3">
@@ -565,19 +572,23 @@ export function DuelArena({ product1, product2, onProductChange }: DuelArenaProp
                   <span className="text-[8.5px] sm:text-[10px] font-black uppercase tracking-widest text-slate-500 block mb-0.5">
                     {product2.brand}
                   </span>
-                  <h2 className="text-xs sm:text-base lg:text-lg font-black text-slate-900 break-words min-h-[3rem] sm:min-h-[2.75rem] leading-snug" title={product2.name}>
-                    {product2.name}
-                  </h2>
+                  <Link href={getItemUrl(product2)} className="group/p2name block">
+                    <h2 className="text-xs sm:text-base lg:text-lg font-black text-slate-900 break-words min-h-[3rem] sm:min-h-[2.75rem] leading-snug group-hover/p2name:text-emerald-600 transition-colors" title={product2.name}>
+                      {product2.name}
+                    </h2>
+                  </Link>
                 </div>
 
                 {/* Product Photo on Frosted Inner Plinth */}
-                <div className="relative w-full h-28 sm:h-36 lg:h-44 flex items-center justify-center my-1.5 sm:my-2 bg-gradient-to-b from-slate-100/50 to-white/80 rounded-xl sm:rounded-2xl p-1.5 sm:p-2 border border-slate-200/50">
-                  <img
-                    src={product2.image}
-                    alt={product2.name}
-                    className="max-h-24 sm:max-h-32 lg:max-h-36 max-w-full object-contain drop-shadow-md sm:drop-shadow-xl"
-                  />
-                </div>
+                <Link href={getItemUrl(product2)} className="block group/p2img">
+                  <div className="relative w-full h-28 sm:h-36 lg:h-44 flex items-center justify-center my-1.5 sm:my-2 bg-gradient-to-b from-slate-100/50 to-white/80 rounded-xl sm:rounded-2xl p-1.5 sm:p-2 border border-slate-200/50 group-hover/p2img:border-emerald-300 transition-colors">
+                    <img
+                      src={product2.image}
+                      alt={product2.name}
+                      className="max-h-24 sm:max-h-32 lg:max-h-36 max-w-full object-contain drop-shadow-md sm:drop-shadow-xl group-hover/p2img:scale-105 transition-transform duration-200"
+                    />
+                  </div>
+                </Link>
 
                 {/* Catalog Score Badge (Modest visual weight for unverified score) */}
                 <div className="text-center my-1.5 sm:my-3">

@@ -1,5 +1,6 @@
 import { MetadataRoute } from 'next';
 import { getAllProducts } from '@/lib/data';
+import { isCanonicalExcluded } from '@/lib/governance/canonicalExclusions';
 
 export const dynamic = 'force-dynamic';
 
@@ -55,13 +56,14 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     priority: 0.9,
   }));
 
-  // 3. Dynamic Canonical Product Pages (deduplicated by full canonical URL)
+  // 3. Dynamic Canonical Product Pages (canonical safe set only, deduplicated by full canonical URL)
   const allProducts = await getAllProducts();
   const seenUrls = new Set<string>();
   const productRoutes: MetadataRoute.Sitemap = [];
 
   for (const p of allProducts) {
     if (!p) continue;
+    if (isCanonicalExcluded(p.id) || isCanonicalExcluded(p.slug)) continue;
 
     const slug = p.slug || p.id;
     let pathPrefix = 'phones';

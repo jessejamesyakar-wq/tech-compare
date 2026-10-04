@@ -1,7 +1,7 @@
 import { Suspense } from 'react';
 import { Metadata } from 'next';
 import { notFound, permanentRedirect } from 'next/navigation';
-import { getSmartphoneById, findProductByIdSafe } from '@/lib/data';
+import { getSmartphoneById, findProductByIdSafe, getRelatedProducts } from '@/lib/data';
 import { buildProductMetadata } from '@/lib/seoHelper';
 import PhoneDetailClient from './PhoneDetailClient';
 
@@ -36,9 +36,11 @@ export default async function PhoneDetailPage({
     permanentRedirect(`/${expectedCategory}/${canonicalSlug}`);
   }
 
+  const relatedProducts = await getRelatedProducts(product, 4);
+
   return (
     <Suspense fallback={<div className="py-24 text-center text-xs font-bold text-slate-400 animate-pulse">Ürün yükleniyor...</div>}>
-      <PhoneDetailClient initialPhone={product as any} />
+      <PhoneDetailClient initialPhone={product as any} relatedProducts={relatedProducts} />
     </Suspense>
   );
 }
